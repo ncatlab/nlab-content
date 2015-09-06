@@ -6,7 +6,7 @@
 
 In enumerative [[combinatorics]], a "bijective proof" refers to a basic method of counting the number of structures of a certain type supported on a finite set of underlying points, by analyzing structure in two different ways. It is really a special case of "[[categorification]]": an identity $a = b$ where $a$ and $b$ are [[natural number]] expressions is proved by taking underlying cardinalities of a [[bijection]] $A \cong B$ between sets of structures, hence the name. (If taking cardinalities is an example of "decategorifying", then going the other way from $a = b$ to $A \cong B$ would be "categorifying" or promoting an equation to an isomorphism.) 
 
-In some sense this is what the theory of [[species]] is all about: formalizing the operations adhering to bijective proofs. Often bijective proofs give an impression of elegance or enlightenment: rather than prove natural number or polynomial identities through acts of symbolic manipulation, one *sees* the identity by drawing pictures of what the two sides of the identity are counting. 
+In some sense this is what the theory of [[species]] is all about: formalizing the operations adhering to bijective proofs. Often bijective proofs give an impression of elegance or enlightenment: rather than prove natural number or polynomial identities through acts of symbolic manipulation, one *sees* the identity by drawing pictures of structures that the two sides of the identity are counting. 
 
 ## Examples 
 
@@ -28,44 +28,20 @@ One method for proving [[polynomial]] identities (equations $p = q$ between poly
 
 More formally, two polynomials are equal, $p(x_1, \ldots, x_k) = q(x_1, \ldots, x_k)$, if $p(m_1, \ldots, m_k) = q(m_1, \ldots, m_k)$ for all choices of natural numbers $m_i$. Relatedly, the set $\mathbb{N}^k \subseteq \mathbb{C}^k$ is Zariski-dense (i.e., the closure of $\mathbb{N}^k$ in $\mathbb{C}^k$ equipped with the [[Zariski topology]] is all of $\mathbb{C}^k$). 
 
-This is intuitively obvious of course. But as a public service, we offer a proof here (however pedestrian it may be!). 
+This is intuitively obvious of course. As a public service, we prove a more general result. 
 
 +-- {: .num_prop} 
 ###### Proposition 
-A polynomial $p(x_1, \ldots, x_k) \in \mathbb{C}[x_1, \ldots, x_k]$ is uniquely determined by its values at natural number arguments. 
+Suppose $B$ is an [[infinite set|infinite]] [[subset]] of an [[integral domain]] $A$. Then a polynomial $p(x_1, \ldots, x_k) \in A[x_1, \ldots, x_k]$ is uniquely determined by its values it takes at arguments $b_1, \ldots, b_k \in B$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-By induction on $k$ (or rather, a double induction; see below). The case $k = 0$ is trivial. 
+It suffices to show that if $p(b_1, \ldots, b_k) = 0$ for every choice of $b_i \in B$, then $p = 0$. We prove this by induction on $k$. The case $k = 0$ is trivial. 
 
-Suppose the result holds for $k = j-1$. Let $p(x_1, \ldots, x_j)$ be a polynomial in $\mathbb{C}[x_1, \ldots, x_j]$. By induction, for each $m \in \mathbb{N}$ the polynomial $p(x_1, \ldots, x_{j-1}, m)$ is determined by its values at $(x_1, \ldots, x_{j-1}) = (m_1, \ldots, m_{j-1}) \in \mathbb{N}^{j-1}$. 
+Assuming the assertion as induction hypothesis for case $k$, suppose $p \in A[x_1, \ldots, x_k, x_{k+1}]$ satisfies $p(b_1, \ldots, b_k, b) = 0$ for all choices $b_i \in B$ and $b \in B$. Then by induction, for each fixed $b \in B$ the polynomial $p(x_1, \ldots, x_k, b) \in A[x_1, \ldots, x_k]$ is identically zero. Thus if $F$ is the [[field of fractions]] of $A[x_1, \ldots, x_k]$, and if we regard $p$ as an element of the [[Euclidean domain]] $F[x_{k+1}]$ under the obvious embedding 
 
-Write $p(x_1, \ldots, x_j) = \sum_{i=0}^n p_i(x_1, \ldots, x_{j-1}) x_j^i$. 
-We argue that $p$ is uniquely determined by its values on $\mathbb{N}^j$ by an induction on $n$, that is to say the degree of $p$ in $x_j$, denoted $deg_j(p)$. The case $deg_j(p) = 0$ reduces to the determination of $p_0(x_1, \ldots, x_{j-1}) = p(x_1, \ldots x_{j-1}, 0)$, which we have by the previous paragraph. 
+$$A[x_1, \ldots, x_k, x_{k+1}] \cong A[x_1, \ldots, x_k][x_{k+1}] \hookrightarrow F[x_{k+1}],$$ 
 
-Assume as our inductive hypothesis for case $deg_j(p) = n$, that any polynomial $q = q(x_1, \ldots, x_j)$ with $deg_j(q) \leq n-1$ is uniquely determined by 
-
-$$q(x_1, \ldots, x_{j-1}, 0), \qquad q(x_1, \ldots, x_{j-1}, 1), \qquad \ldots, \qquad q(x_1, \ldots, x_{j-1}, n-1).$$ 
-
-In particular let us take 
-
-$$q(x_1, \ldots, x_{j-1}, x_j) \coloneqq p(x_1, \ldots, x_{j-1}, x_j + 1) - p(x_1, \ldots, x_{j-1}, x_j).$$ 
-
-The leading term of $q$ is $n \cdot p_n(x_1, \ldots, x_{j-1}) x_j^{n-1}$. Since $deg_j(q) \leq n-1$, we have that $q$ is determined by 
-
-$$\array{
-q(x_1, \ldots, x_{j-1}, 0) & = & p(x_1, \ldots, x_{j-1}, 1) - p(x_1, \ldots, x_{j-1}, 0) \\ 
-q(x_1, \ldots, x_{j-1}, 1) & = & p(x_1, \ldots, x_{j-1}, 2) - p(x_1, \ldots, x_{j-1}, 1) \\
- & \ldots & \\ 
-q(x_1, \ldots, x_{j-1}, n-1) & = & p(x_1, \ldots, x_{j-1}, n) - p(x_1, \ldots, x_{j-1}, n-1)
-}$$ 
-
-and in particular the leading coefficient $n \cdot p_n(x_1, \ldots, x_{j-1})$ of $q$ is determined by $p(x_1, \ldots, x_{j-1}, i)$ for $i = 0$ to $i = n$. This determines the leading coefficient $p_n(x_1, \ldots, x_{j-1})$ of $p$. 
-
-Once we have that, then the truncation of $p$, 
-
-$$r(x_1, \ldots, x_j) \coloneqq p(x_1, \ldots, x_j) - p_n(x_1, \ldots, x_{j-1}) x_j^n,$$ 
-
-satisfies $deg_j(r) \leq n-1$, so again by induction, $r$ is determined from the polynomials $r(x_1, \ldots, x_{j-1}, i)$ for $i = 0$ to $i = n-1$, and thus is determined from $p(x_1, \ldots, x_{j-1}, i)$ for $i = 0$ to $i = n$, as we saw in the preceding paragraph. Thus the coefficients of $r$, namely the remaining coefficients of $p$ which are $p_i(x_1, \ldots, x_{j-1})$ for $i = 0$ to $n-1$, are determined from $p(x_1, \ldots, x_{j-1}, i)$ for $i = 0$ to $i = n$. This completes the induction. 
+then $p$ has infinitely many [[roots]] $b$ in $A$ and thus in $F$, forcing $p$ to be identically zero. 
 =-- 
