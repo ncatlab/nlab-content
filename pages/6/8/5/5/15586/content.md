@@ -80,7 +80,7 @@ At the time no such axiomatisation is fully worked out, but in 2009 [[Mike Shulm
 
 We can see here how at the end Lawvere's idea of internal set-theoretic 'foundations' resurfaces. Such a level of _discreteness_ seems to be pervasive in this context and e.g. the approach of Przybylek (2014) to the concept of internal 2-cartesian closure takes discreteness as a starting point.
 
-## Related Pages
+## Related entries
 
 * [[ETCS]]
 * [[Functorial Semantics of Algebraic Theories]]
@@ -112,11 +112,15 @@ Alternative or complementary approaches are
 
 * [[J. Bénabou]], _Fibered Categories and the foundations of naive category theory_ , JSL **50** (1985) pp.10-37. ([preprint](http://www.cwru.edu/artsci/phil/Benabou%20Fibered.pdf))
 
-* G. Blanc, , _Propri&#233;t&#233;s du Premier Ordre et Cat&#233;gories_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.222-224. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
+* G. Blanc, _Propri&#233;t&#233;s du Premier Ordre et Cat&#233;gories_ , Cah. Top. G&#233;om. Diff. Cat. **16** (1975) pp.222-224. ([Colloque Amiens 1975 proceedings](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1975__16_3/CTGDC_1975__16_3_217_0/CTGDC_1975__16_3_217_0.pdf),6.81 MB)
 
 * G. Blanc, M. R. Donnadieu, _Axiomatisation de la cat&#233;gorie des cat&#233;gories_ , Cah.Top.G&#233;om.Diff.Cat. **XVII** no. 2 (1976) pp.1-35. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1976__17_2/CTGDC_1976__17_2_135_0/CTGDC_1976__17_2_135_0.pdf))
 
 * M. W. Bunder, _Category Theory Based on Combinatory Logic_ , Arch. Math. Logik **24** (1984) pp.1-15. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002045680))
+
+* M. R. Donnadieu, _D&#233;monstration du th&#233;or&#232;me de construction de cat&#233;gories d'apr&#232;s description de Lawvere sous certains axiomes_ , C. R. Acad. Sc. Paris **280** s&#233;rie A (1975) pp.307-308. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6228238v/f59.image))
+
+* E. Engeler, H. R&#246;hrl, _On the problem of foundations of category theory_ , Dialectica **23** (1969) pp.58-66.
 
 * [[Colin McLarty|C. McLarty]], _Axiomatizing a category of categories_ , JSL **56** (1991) pp.1243-1260. ([preprint](http://www.cwru.edu/artsci/phil/AxiomatizingCategoryCategories.pdf))
 
