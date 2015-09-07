@@ -195,6 +195,13 @@ Therefore there are attempts to axiomatize properties of categories of affine sp
 
 * [[polydisk]]
 
+## References
+
+* [[Aurelio Carboni]], _Categories of Affine Spaces_ , JPAA **61** (1989) pp.243-250.
+
+* [[Aurelio Carboni]], [[George Janelidze]], _Modularity and Descent_ , JPAA **99** (1995) pp.255-265.
+
+* Michel Thi&#233;baud, _Modular Categories_ , pp.386-400 in _Proc. Como conference - Category Theory_ , LNM **1488** Springer Heidelberg 1991.
 
 [[!redirects affine space]]
 [[!redirects affine spaces]]
