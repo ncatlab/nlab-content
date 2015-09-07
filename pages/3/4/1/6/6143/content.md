@@ -34,7 +34,11 @@ We take here locally compact groups $G$ to be also Hausdorff.
 Locally compact topological groups are the standard object of study in classical abstract [[harmonic analysis]]. The crucial properties of locally compact groups is that they posses a left (right) [[Haar measure]] $\rho$ and that $L^1(\rho)$ has a structure of a 
 [[Banach algebra|Banach]] $*$-[[star-algebra|algebra]]. 
 
-A left (right) [[Haar measure]] on a locally compact topological group is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$.  
+A left (right) [[Haar measure]] on a locally compact topological group is a nonzero [[Radon measure]] which is invariant under the left (right) multiplications by elements in the group. A topological subgroup $H$ of a locally compact topological group $G$ is itself locally compact (in [[induced topology]]) iff it is closed in $G$. 
+
+### Completeness 
+
+Again taking locally compact groups $G$ to be Hausdorff, such are [[complete space|complete]] both with respect to their left [[uniform space|uniformity]] and their right uniformity. For if $\{x_\alpha\}$ is a [[Cauchy net]] in $G$ and $U$ is a compact neighborhood of the identity $e$, then there is $\alpha$ so large that $x_\beta x_\alpha^{-1} \in U$ for all $\beta \geq \alpha$. Those elements converge to a point $x \in U$ since $U$ is compact, and the original net converges to $x \cdot x_\alpha$. A similar argument is used for the right uniformity. 
 
 ## Related concepts
 
