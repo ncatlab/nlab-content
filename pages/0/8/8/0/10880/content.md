@@ -318,7 +318,7 @@ $$
 +-- {: .num_remark #LinearDeMorganDualityForPushForwards}
 ###### Remark
 
-With a Wirthm&#252;ller context regarded as [[categorical semantics]] for [[dependent linear type theory]] (see there), then the statement of cor. \ref{PushforwardsIntertwinedByDuality} is an instance of [[de Morgan duality]] where linear [[dual object|dualization]] intertwines lineat [[dependent sum]] $\sum$ and [[dependent product]]  $\prod$
+With a Wirthm&#252;ller context regarded as [[categorical semantics]] for [[dependent linear type theory]] (see there), then the statement of cor. \ref{PushforwardsIntertwinedByDuality} is an instance of [[de Morgan duality]] where linear [[dual object|dualization]] intertwines linear [[dependent sum]] $\sum$ and [[dependent product]]  $\prod$
 
 $$
   \prod_f \mathbb{D} \simeq \mathbb{D} \sum_f
