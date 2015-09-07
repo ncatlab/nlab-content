@@ -7,7 +7,11 @@
 
 An __affine space__ or __affine linear space__ is a [[vector space]] that has forgotten its origin.  An __affine linear map__ (a morphism of affine spaces) is a linear map (a morphism of vector spaces) that need not preserve the origin.
 
-Note that the 'linear functions' of elementary algebra ---the total functions whose graphs are lines--- are in fact (precisely) *affine* $\mathbb{R}$-linear maps from $\mathbb{R}$ to itself.  (Similarly, the 'linear relations' ---the relations whose graphs are lines--- are precisely the *[[projective space|projective]]* $\mathbb{R}$-linear maps.)
+Note that the 'linear functions' of elementary algebra ---the total functions whose graphs are lines--- are in fact (precisely) *affine* $\mathbb{R}$-linear maps from $\mathbb{R}$ to itself.  (Similarly, the 'linear relations' ---the relations whose graphs are lines--- are precisely the *[[projective space|projective]]* $\mathbb{R}$-linear maps.) 
+
+Alternatively, in [[algebraic geometry]], the terminology "$n$-dimensional affine space" $\mathbb{A}^n k$ (affine line, affine plane, etc.) over a [[field]] $k$ refers to, depending on context, the set $k^n$, or the set of maximal ideals of the [[polynomial algebra]] $k[x_1, \ldots, x_n]$ -- these definitions coinciding if $k$ is an [[algebraically closed field]] -- and typically considered as equipped with relevant extra structure such as a [[Zariski topology]] or, going even further, the [[locally ringed space]] structure adhering to the [[affine variety]] or [[affine scheme]] corresponding to the polynomial algebra $k[x_1, \ldots, x_n]$. Whatever the precise sense chosen, the idea is that an affine space $\mathbb{A}^n k$ is a setting in which the study of loci of polynomial equations, i.e. definable sets in the theory of [[commutative algebras]] over $k$, is carried out. 
+
+Most of this article concerns affine spaces in the sense of vector spaces that have forgotten their origins or identities; the algebraic geometry sense is very briefly touched upon in the section *Affine spaces as model spaces*. 
 
 
 ## Definitions
