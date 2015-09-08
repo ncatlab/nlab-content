@@ -71,6 +71,8 @@ X_{a_0} \sqcup X_{a_1} \sqcup \bigsqcup_{a\neq a_0,a_1} X_a$$
 
 1. An [[elementary topos]] is finitary lextensive; a [[Grothendieck topos]] (or, more generally, any [[cocomplete category|cocomplete]] elementary topos) is infinitary lextensive.
 
+1. A [[quasitopos]] with disjoint coproducts, or more generally a [[locally cartesian closed category]] with disjoint coproducts, is extensive. (Of course not all quasitoposes have disjoint coproducts, one example being a [[complete Heyting algebra]].) 
+
 1. The category [[Top]] of [[topological spaces]] is infinitary lextensive.  The category [[Diff]] of smooth [[manifolds]] is infinitary extensive, though it lacks all pullbacks.
 
 1. The category of [[schemes]] is infinitary lextensive. In more detail: the category of functors $CRing \to Set$ is infinitary lextensive (since finite limits and small coproducts are computed pointwise in $Set$), then sheaves with respect to the Zariski topology on $CRing^{op}$ form an infinitary lextensive category (since finite limits and small coproducts are reflected back from $[CRing, Set]$ by applying a left exact reflection to the inclusion of sheaves in presheaves). Finally, the category of schemes, as a full subcategory of the Zariski sheaves, are closed under finite limits and small coproducts. (Some discussion of these points can be found at the [nForum](http://nforum.mathforge.org/discussion/5149/extensive-category/), particularly in comment #18.) 
