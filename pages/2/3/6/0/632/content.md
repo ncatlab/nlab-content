@@ -16,14 +16,14 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A [[functor]] $F:C\to D$ is **conservative** if it is "isomorphism-reflecting", i.e. if $g:a\to b$ is a [[morphism]] in $C$ such that $F(g)$ is an [[isomorphism]] in $D$, then $g$ is an isomorphism in $C$.
 
 =--
 
-+-- {: .un_remark}
++-- {: .num_remark}
 ###### Remark
 
 Sometimes conservative functors are assumed to be [[faithful functor|faithful]] as well.  If $C$ has, and $F$ preserves, [[equalizer]]s, then conservativity implies faithfulness.
@@ -32,12 +32,35 @@ Sometimes conservative functors are assumed to be [[faithful functor|faithful]] 
 
 See [[conservative morphism]] for a generalization to an arbitrary [[2-category]].
 
-## Properties
+## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop #PullbackAlongEpimorphisms}
 ###### Proposition
 
-A conservative functor [[reflected limit|reflects]] all [[limit]]s and [[colimit]]s that it [[preserved limit|preserves]].
+Let $\mathcal{C}$ be a [[category]] with [[pullbacks]]. Given any [[morphism]] $f \colon X \longrightarrow Y$ in $\mathcal{C}$ write
+
+$$
+  f^\ast \colon \mathcal{C}_/Y \longrightarrow \mathcal{C}_{/X}
+$$
+
+for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base change]]). If [[strong epimorphisms]] in $\mathcal{C}$ are preserved by pullback, then the following are equivalent:
+
+1. $f$ is a [[strong epimorphism]];
+
+1. $f^\ast$ is conservative.
+
+=--
+
+(e.g. [Johnstone, lemma 1.3.2](#Jonstone))
+
+
+
+## Properties
+
++-- {: .num_prop}
+###### Proposition
+
+A conservative functor [[reflected limit|reflects]] all [[limits]] and [[colimits]] that it [[preserved limit|preserves]].
 
 =--
 
@@ -55,10 +78,14 @@ The arguments for colimits is analogous.
 
 ## Literature
 
+
 * Geun Bin Im, [[George Maxwell Kelly]], _Some remarks on conservative functors with left adjoints_,  J. Korean Math. Soc. __23__ (1986),  no. 1, 19&#8211;33, [MR87i:18002b](http://www.ams.org/mathscinet-getitem?mr=843247), [pdf](http://mathnet.kaist.ac.kr/mathnet/thesis_file/JKMS-23-1-19-33.pdf); _On classes of morphisms closed under limits_, J. Korean Math. Soc. __23__ (1986), no. 1, 1&#8211;18, _Adjoint-triangle theorems for conservative functors_, Bull. Austral. Math. Soc. __36__ (1987),  no. 1, 133&#8211;136, [MR88k:18005](http://www.ams.org/mathscinet-getitem?mr=897429), [doi](http://dx.doi.org/10.1017/S000497270002637X) 
+
+* {#Jonstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+
 
 For an example of a conservative, but not faithful, functor $f: A\to Set$ having a left adjoint see Example 2.4 in
 
-* Reinhard B&#246;rger, Walter Tholen, _Strong regular and dense generators_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __32__, no. 3 (1991), p. 257-276, [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111), [numdam](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0)
+* Reinhard B&#246;rger, [[Walter Tholen]], _Strong regular and dense generators_, [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques __32__, no. 3 (1991), p. 257-276, [MR1158111](http://www.ams.org/mathscinet-getitem?mr=1158111), [numdam](http://www.numdam.org/item?id=CTGDC_1991__32_3_257_0)
 
 [[!redirects conservative functors]]
