@@ -19,7 +19,7 @@ This page provides a hyperlinked index for the book
 
   _The Geometry of Physics - An introduction_ 
 
-  Cambridge University Press
+  Cambridge University Press, 1997, 2004, 2012
 
   [website](http://www.math.ucsd.edu/~tfrankel/) (with errata and preface for 3rd edition)
 
