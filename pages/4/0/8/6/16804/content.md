@@ -1,6 +1,6 @@
 # Idea
 
-A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle, while an **arc diagram** is what you get when you cut the circle at any of the $2n$ segments between the marked points.  For example, here is a chord diagram of order 3:
+A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle. An **arc diagram** is what you get when you cut the circle at any of the $2n$ segments between the marked points, breaking the rotational symmetry.  For example, here is a chord diagram of order 3:
 
 <center>
 [[!include chord diagram > chord diagram]]
@@ -12,11 +12,12 @@ And here is the arc diagram obtained by cutting the chord diagram at the segment
 [[!include chord diagram > arc diagram]]
 </center>
 
-An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  The [[cyclic group]] of order $2n$ acts naturally on arc diagrams of order $n$, and conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
+An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] $\alpha$ on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  (In the above example, $\alpha = (02)(13)(45)$.)  The [[cyclic group]] $\mathbb{Z}_{2n}$ acts naturally on arc diagrams of order $n$ by [[conjugation action|conjugation]], which to any $0 \le k \lt 2n$ associates the transformation $\alpha \mapsto \tau_k\circ\alpha\circ\tau_k^{-1}$, where $\tau_k$ is addition modulo $2n$.  Conversely, taking the [[quotient]] by this [[action]] recovers the set of chord diagrams of order $n$.
 
 ## Related concepts
 
 * [[Vassiliev invariant]]
+* [[combinatorial map]]
 
 ## References
 
