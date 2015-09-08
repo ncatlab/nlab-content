@@ -115,7 +115,9 @@ $$
   (f_! \dashv f^\ast \dashv f_\ast) \colon \mathcal{C}_{/X} \longrightarrow \mathcal{C}_{/Y}
 $$
 
-the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg-Moore category]] of algebras over $f^\ast f_!$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an effective epimorphism.
+the induced [[base change]] [[adjoint triple]], then $\mathcal{C}_{/Y}$ is equivalent to the [[Eilenberg-Moore category]] of algebras over $f^\ast f_!$ (equivalently: of coalgebras of $f^\ast f_\ast$) precisely if $f$ is an [[effective epimorphism]].
+
+(Use [conservative pullback along epimorphisms](conservative+functor#PullbackAlongEpimorphisms) in the [[monadicity theorem]].)
 
 
 
