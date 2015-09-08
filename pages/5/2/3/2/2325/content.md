@@ -21,9 +21,10 @@ An [[(∞,1)-topos]] is **$n$-localic** if
 
 * it behaves like the [[(∞,1)-category of (∞,1)-sheaves]] over an [[(∞,1)-site]] that is a [[(n,1)-category]].
 
-More precisely: if [[(∞,1)-geometric morphism]]s into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of $(n-1)$-[[truncated]] objects.
+More precisely: if [[(∞,1)-geometric morphisms]] into it are fixed by their restriction to the underlying [[(n,1)-toposes]] of $(n-1)$-[[truncated]] objects.
 
 To the tower of [[(n,1)-toposes]] of $(n-1)$-truncated objects 
+
 
 $$
   \cdots \to \tau_{\leq 3-1} \mathcal{X} \to \tau_{\leq 2-1} \mathcal{X} \to \tau_{\leq 1-1} \mathcal{X} \to \tau_{\leq 0-1} \mathcal{X}
@@ -37,7 +38,7 @@ A 0-localic $(1,1)$-topos is a [[localic topos]] from ordinary [[topos theory]].
 
 ## Definition 
 
-We write [[(∞,1)Topos]] for the [[(∞,1)-category]] of [[(∞,1)-toposes]] and [[(∞,1)-geometric morphism]]s between them.
+We write [[(∞,1)Topos]] for the [[(∞,1)-category]] of [[(∞,1)-toposes]] and [[(∞,1)-geometric morphisms]] between them.
 
 For $\mathcal{X}$ an [[(∞,1)-topos]] we denote by
 
@@ -63,7 +64,7 @@ $$
    (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
 $$
 
-is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoid]]s).
+is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoids]]).
 
 More generally,
 
@@ -75,7 +76,7 @@ $$
    (n,1)Topos(\tau_{\leq n-1} \mathcal{Y}, \tau_{\leq n-1}\mathcal{Y})
 $$
 
-is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoid]]s).
+is an [[equivalence of (∞,1)-categories]] (of [[∞-groupoids]]).
 
 =--
 
