@@ -32,7 +32,7 @@ The orginal observation is due to
 
 * [[Stephen Adler]]. _Axial-Vector Vertex in Spinor Electrodynamics_ Physical Review 177 (5): 2426. (1969)
 
-* [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: &#960;0&#8594;&#947;&#947; in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
+* [[John Bell]], [[Roman Jackiw]], _A PCAC puzzle: $\pi^0 \to \gamma \gamma$ in the &#963;-model". Il Nuovo Cimento A 60: 47. (1969)
 
 A detailed mathematical derivation is in
 
