@@ -56,17 +56,19 @@ Thus we obtain a functor $\mathbf{Sh}(\mathbf{Sh}(\mathbb{C}, J)) \to \mathbf{Sh
 
 * [[subcanonical topology]]
 
+* [[trivial topology]]
+
 
 ## References
  {#References}
 
 A textbook account in [[topos theory]] is in 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+ 
 
-* Makkai [[Gonzalo Reyes]], _First Order Categorical Logic_ 
- {#Makkaireyes}
+* {#Makkaireyes} Makkai, [[Gonzalo Reyes]], _First Order Categorical Logic_ 
+ 
 
 
 Discussion in the refined context of [[higher topos theory]] is in 
