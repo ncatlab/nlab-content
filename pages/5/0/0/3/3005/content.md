@@ -137,8 +137,8 @@ There is also a 2-categorical approach using quasicategories in
 
 Canonical textbook references include 
 
-* Section 4 in volume 2 of [[Francis Borceux]], _Handbook of categorical algebra_ , in 3 vols. 
-{#Borceux}
+* {#Borceux} [[Francis Borceux]], Section 4 in volume 2 of  _[[Handbook of Categorical Algebra]]_, in 3 vols. 
+
 
 * Section VI.7 of [[Categories Work]].
 
