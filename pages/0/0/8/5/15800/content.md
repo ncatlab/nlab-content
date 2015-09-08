@@ -67,7 +67,7 @@ That this process was at least one source of baryogenesis in the early universe 
 
 The original article stating the _Sakharov conditions_ is
 
-* {#Sakharov67} [[Andrei Sakharov]], 1967
+* {#Sakharov67} [[Andrei Sakharov]], _Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe_. Journal of Experimental and Theoretical Physics 5: 24&#8211;27. 1967, republished as A. D. Sakharov (1991). _Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe_. Soviet Physics Uspekhi 34 (5): 392&#8211;393. Bibcode:1991SvPhU..34..392S. doi:10.1070/PU1991v034n05ABEH002497. 1967
 
 The derivation that [[instantons]] lead to baryon number violation is due to
 
@@ -89,9 +89,10 @@ matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[K
 
 Further review includes
 
+* Antonio Riotto, Mark Trodden, _Recent Progress in Baryogenesis_, Ann.Rev.Nucl.Part.Sci.49:35-75,1999 ([arXiv:hep-ph/9901362](http://arxiv.org/abs/hep-ph/9901362))
+
 * Yanagida, _The origin of matter_ ([[YanagidaBaryogenesis.pdf:file]])
 
 * {#TroddenCarroll} Mark Trodden, Sean Carroll, TASI Lectures: Introduction to Cosmology _[4.9 Baryon Number violation](http://ned.ipac.caltech.edu/level5/Sept03/Trodden/Trodden4_9.html)_ 
 
 * {#Shu08} Jing Shu, section 7 of _Connecting LHC Signals with Deep Physics at the TeV Scale and Baryogenesis_ 2008
-
