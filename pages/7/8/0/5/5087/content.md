@@ -49,7 +49,7 @@ The equivalence of these condition appears for instance as [MacLaneMoerdijk, VII
 
 We discuss the equivalence of these conditions:
 
-The equivalence $(f^* faithful) \Leftrightarrow (Id \to f^* f_* is mono)$ is a general property of [[adjoint functor]]s (see there). 
+The equivalence $(f^* \; faithful) \Leftrightarrow (Id \to f^* f_* \;is \; mono)$ is a general property of [[adjoint functors]] (see there). 
 
 The implication $(f^* faithful) \Rightarrow (f^* induces\;injection\;on\;subobjects)$ works as follows: 
 
@@ -180,7 +180,7 @@ For this, take $T := f^* f_*$. This is a [[left exact functor]] by definition of
 
 =--
 
-For more on this see _[[geometric surjection/embedding factorization]]_  .
+For more on this see _[[geometric surjection/embedding factorization]]_  . Also at _[[monadic descent]]_.
 
 ## Examples
 
@@ -199,13 +199,14 @@ For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $
 
   * [[geometric embedding]]
 
+* [[monadic descent]]
 
 ## References
 
 Section VII. 4. of 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+ 
 
 [[!redirects surjective geometric morphisms]]
 [[!redirects geometric surjection]]
