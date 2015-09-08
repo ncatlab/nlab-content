@@ -1,7 +1,1 @@
-[Online articles and papers : MIT net advance of physics](http://web.mit.edu/redingtn/www/netadv/)
-[Online articles and papers : Stringwiki](http://www.stringwiki.org/wiki/String_Theory_Wiki)
-[Books](http://ncatlab.org/nlab/show/mylab+Theoretical+physics+books)
-[[Youtube videos]]
-[[Perimeter institute video library]]
-[PhysicsOverflow](http://www.physicsoverflow.org/)
-[Physics StackExchange](http://physics.stackexchange.com/)
+
