@@ -19,12 +19,13 @@
 
 ## Idea
 
-The _ordinal number_ (or just _ordinals_) constitute a generalisation of a [[natural numbers]] to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
+The _ordinal numbers_ (or just _ordinals_) constitute a generalisation of a [[natural numbers]] to possibly infinite magnitudes.  Specifically, ordinal numbers generalise the concept of 'the next number after ...' or 'the index of the next item after ...'.  In particular, the next number after the natural numbers is the first infinite ordinal number.
 
 
 ## Definition
 
 Na&#239;vely, an **ordinal number** should be an [[isomorphism]] class of [[well-ordered sets]], and the **ordinal rank** of a well-ordered set $S$ would be its isomorphism class.  That is:
+
 1. every well-ordered set has a unique ordinal number as its ordinal rank;
 1. every ordinal number is the ordinal rank of some well-ordered set;
 1. two well-ordered sets have the same ordinal rank if and only if they are isomorphic as well-ordered sets.
