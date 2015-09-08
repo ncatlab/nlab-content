@@ -20,7 +20,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A __distributive lattice__ is a [[lattice]] in which [[join]] $\vee$ and [[meet]] $\wedge$ _distribute_ over each other, in that for all $x,y,z$ in the latiice, the _distributivity laws_ are satisfied:
+A __distributive lattice__ is a [[lattice]] in which [[join]] $\vee$ and [[meet]] $\wedge$ _distribute_ over each other, in that for all $x,y,z$ in the lattice, the _distributivity laws_ are satisfied:
 
 *  $x \vee (y \wedge z) = (x \vee y) \wedge (x \vee z)$,
 *  $x \wedge (y \vee z) = (x \wedge y) \vee (x \wedge z)$.
