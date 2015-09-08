@@ -419,8 +419,9 @@ All the ingredients of monadic descent generalize from [[category theory]] to [[
 
 ## Related concepts
 
-* [[descent]]
+* [[surjective geometric morphism]]
 
+* [[descent]]
 
   * [[cover]]
 
