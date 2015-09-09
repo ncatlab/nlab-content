@@ -25,7 +25,7 @@ A _differential equation_ is an [[equation]] involving [[terms]] that are [[deri
 
 ## As sub-$\infty$-groupoids of tangent and jet bundle
 
-Analogous to how ordinary equations determine and are determined by their spaces of solutions -- the corresponding [[scheme]]s -- accordingly differential equations $F(\partial^i x)$ on sections of a bundle $E \to X$ determine and are determined by their solution spaces, which sub-[[D-scheme]]s of the [[jet bundle]] D-scheme
+Analogous to how ordinary equations determine and are determined by their spaces of solutions -- the corresponding [[scheme]]s -- accordingly differential equations $F(\partial^i x)$ on sections of a bundle $E \to X$ determine and are determined by their solution spaces, which are sub-[[D-scheme]]s of the [[jet bundle]] D-scheme:
 
 $$
   \array{
