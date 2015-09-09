@@ -369,6 +369,55 @@ $$
   \,.
 $$
 
+
++-- {: .num_example #CoendFormulaForPresheavesOfSets}
+###### Example
+
+The coend formula for the  left Kan extension is nicely understood when thinking of $C$ and $D$ above as [[opposite categories]] and for $\mathcal{V} = Set$, so that it takes [[presheaves]] on $C$ along $p \colon C \to C'$ to presheaves on $C'$, by the formula
+
+$$
+  (Lan_p F)(c') \simeq \int^{c \in C} C'(c', p(c)) \times F(c)
+  \,.
+$$
+
+Using the [[Yoneda lemma]] to rewrite $F(c) \simeq Hom_{PSh(C)}(c,F)$, this is
+
+$$
+  (Lan_p F)(c') \simeq \int^{c \in C} Hom_{C'}(c', p(c)) \times Hom_{PSh(C)}(c,F)
+  \,.
+$$
+
+In this form one see that what the coend does is to produce the set whose elements are [[equivalence classes]] of pairs of morphisms
+
+$$
+   (c' \to p(c), c \to F)
+$$
+
+where two such are regarded as equivalent whenever there is $f \colon c'_1 \to c'_2$ such that 
+
+$$
+  \array{
+    && c'
+    \\
+    & \swarrow && \searrow
+    \\
+    p(c_1) && \stackrel{p(f)}{\longrightarrow} && p(c_2)
+    \\
+    c_1 && \stackrel{f}{\longrightarrow} && c_2
+    \\
+    & \searrow && \swarrow
+    \\
+    && F
+  }
+  \,.
+$$
+
+
+
+=--
+
+
+
 #### in terms of conical (co)limits
  {#PointwiseByConicalLimits}
 
