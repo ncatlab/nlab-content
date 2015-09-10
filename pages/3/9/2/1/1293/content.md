@@ -1,3 +1,5 @@
-[Greg Egan](http://www.gregegan.net)
+[Greg Egan](http://www.gregegan.net) is an Australian science fiction author, with several articles in the journal _Classical and Quantum Gravity_ to his name. His writing is very 'hard', in the sense that it contains lots of scientific and mathematical detail. Egan contributes images to [[John Baez]]'s blog [Visual Insight](http://blogs.ams.org/visualinsight/).
+
+There are famously [no pictures of him on the web](http://gregegan.customer.netspace.net.au/images/GregEgan.htm).
 
 category: people
