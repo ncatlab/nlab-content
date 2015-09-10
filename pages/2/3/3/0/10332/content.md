@@ -13,7 +13,7 @@ On [[mathematics]] as the language of [[physics]] (the: "[[natural philosophy]]"
 
 Compare also
 
-* [[David Hilbert]], _Naturerkennen und Logik_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([web](https://soundcloud.com/richard-zach/naturerkennen-und-logik))
+* [[David Hilbert]], _Naturerkennen und Logik_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3))
 
 * [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_ 1960.
 
