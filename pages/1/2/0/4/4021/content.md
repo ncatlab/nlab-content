@@ -106,7 +106,7 @@ negative probability.
 
 * [[Bayesian reasoning]]
 
-
+* [[free probability]]
 
 
 
@@ -153,5 +153,6 @@ Discussion from a perspective of [[formal logic]]/[[type theory]] is in
 
 * _Probability, symmetry, linearity. (six lectures)_. IHES, Nov 2014. ([videos](https://www.youtube.com/watch?v=aJAQVletzdY)) ([pdf](http://www.ihes.fr/~gromov/PDF/probability-huge-Lecture-Nov-2014.pdf)).
 
+category: probability
 [[!redirects probability]]
 [[!redirects probabilities]]
