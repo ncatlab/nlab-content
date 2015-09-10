@@ -33,6 +33,10 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 
 A functor which both reflects *and* preserves limits, and such that limits exist in its domain whenever they do in its codomain, is said to [[created limit|create]] them.
 
+## Examples
+
+* A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
+
 ## Related pages
 
 * [[preserved limit]]
