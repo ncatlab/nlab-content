@@ -13,7 +13,7 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
   
   Around pages 417, 423 there is discussion of "Weltgesetze", roughly what today in  fundamental physical might be called [[theories of everything]], with some remarks comparing to the perspective of [[Hegel]] in the _[[Science of Logic]]_.
 
-* sound recording: Hilbert on _Naturerkennen und Logik_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([web](https://soundcloud.com/richard-zach/naturerkennen-und-logik)), 
+* _Naturerkennen und Logik_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([pdf](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.pdf), [audio](http://math.sfsu.edu/smith/Documents/HilbertRadio/HilbertRadio.mp3)), 
 
   see also [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
 
