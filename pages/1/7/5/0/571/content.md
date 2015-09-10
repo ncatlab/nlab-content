@@ -63,6 +63,14 @@ Monomorphisms are preserved by [[right adjoint]] [[functors]].
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+Monomorphisms are [[reflected limit|reflected]] by [[faithful functors]].
+
+=--
+
+
 
 ## Variations
 
