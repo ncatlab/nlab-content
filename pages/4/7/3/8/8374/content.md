@@ -11,8 +11,11 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
 
 * {#SauerMajer} [[Tilman Sauer]], [[Ulrich Majer]] with  Arne Schirrmacher, Heinz-J&#252;rgen Schmidt (eds.), _David Hilbert's "Lectures on the foundations of physics"_, 1915-1927 : relativity, quantum theory and epistemology, Springer 2009
   
-Around pages 417, 423 there is discussion of "Weltgesetze", roughly what today in  fundamental physical might be called [[theories of everything]], with some remarks comparing to the perspective of [[Hegel]] in the _[[Science of Logic]]_.
+  Around pages 417, 423 there is discussion of "Weltgesetze", roughly what today in  fundamental physical might be called [[theories of everything]], with some remarks comparing to the perspective of [[Hegel]] in the _[[Science of Logic]]_.
 
+* sound recording: Hilbert on _Naturerkennen und Logik_, Lecture at the _Kongress der Gesellschaft Deutscher Naturforscher und &#196;rtze_, 1930  ([web](https://soundcloud.com/richard-zach/naturerkennen-und-logik)), 
+
+  see also [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
 
 ## Related pages
 
