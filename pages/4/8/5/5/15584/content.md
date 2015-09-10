@@ -71,7 +71,9 @@ The more familiar two-sorted 'signature' for reflexive graphs can be obtained fr
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* More generally, one can define a partial order on $M$ by $x\leq y$ iff $xy=y$ ('$x$ is a face of $y$'). In fact, the graphic identity is precisely the condition needed for the anti-symmetry of this relation on monoids whose elements are all idempotent - the reflexivity being a direct consequence of the idempotency.
+* More generally, one can define a partial order on $M$ by $x\leq y$ iff $xy=y$ ('$x$ is a face of $y$'). In fact, the graphic identity is precisely the condition needed for the anti-symmetry of this relation on monoids whose elements are all idempotent - the reflexivity being a direct consequence of the idempotency.[^semigroups]
+
+[^semigroups]: Semigroup theorists typically order a graphic monoid by $x\leq y$ if $yx=x$ because this is equivalent to $xM\subseteq yM$.
 
 * The _free graphic monoid_ on a set $X$ is the set of totally ordered finite subsets of $X$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusion $S \hookrightarrow S\cup T$ is order-preserving, the inclusion $T \hookrightarrow S\cup T$ is order-preserving for all elements of $T$ not in $S$, and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
 
@@ -96,6 +98,7 @@ The more familiar two-sorted 'signature' for reflexive graphs can be obtained fr
 ### Graphic monoids as shelves
 
 There is a relation between graphic monoids and [[shelf|shelves]]:
+
 
 +-- {: .num_prop #GraphicsAsShelves}
 ###### Theorem
@@ -175,7 +178,7 @@ Journal of Mathematics **8** no.2 (1958) pp.257-275. ([pdf](http://msp.org/pjm/1
 &#8206;
 * F. W. Lawvere, _Linearization of graphic toposes via Coxeter groups_, JPAA **168** (2002) pp. 425-436. ([pdf](http://www.sciencedirect.com/science/article/pii/S0022404901001074/pdfft?md5=a4ca9bc67df6ae63ddf53c559bd71315&pid=1-s2.0-S0022404901001074-main.pdf)) {#Law02}
 
-* {#MSS15}J. Margolis, F. Saliola, B. Steinberg, _Cell Complexes, Poset Topology and the Representation Theory of Algebras Arising in
+* {#MSS15}S. Margolis, F. Saliola, B. Steinberg, _Cell Complexes, Poset Topology and the Representation Theory of Algebras Arising in
 Algebraic Combinatorics and Discrete
 Geometry_ , arXiv:1508.05446 (2015). ([abstract](http://arxiv.org/abs/1508.05446v1))
 
