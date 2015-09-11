@@ -99,6 +99,7 @@ Examples of regular categories include the following:
 
 * [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
 
+* The category of ([[Hausdorff space|Hausdorff]]) [[Kelley spaces]] is regular (but is not, however, locally cartesian closed, nor is it [[exact category|exact]]). [Source](http://www.dm.unibo.it/~cagliari/articoli/Regularkelley.pdf) 
 
 Examples of categories which are **not regular** include 
 
