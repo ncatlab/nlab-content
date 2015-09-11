@@ -50,16 +50,31 @@ For instance $B$ might be an [[extended cobordism]] with three boundary componen
 
 Nils Baas has made, in print and in private communication, suggestions for a formalization of such systems of hierarchical bonds and coined the term __hyperstructures__ for these. Some references are
 
-* Nils Baas, _Introducing abstract matter_ ([pdf](http://pagesperso-orange.fr/vbm-ehr/ChEh/articles/Baas%20paper.pdf))
+* Nils A. Baas, _On Higher Order Structures_, [arXiv:1509.00403](http://arxiv.org/abs/1509.00403) (2015), 15 pp.
 
+* Nils A. Baas, _Higher order architecture of collections of objects_, International Journal of General Systems vol. 44 (1), pp. 55-75, 2015. [arXiv:1409.0344](http://arxiv.org/abs/1409.0344)
 
-* N.A.Baas; _Hyperstructures as Abstract Matter_ , Advances in Complex Systems, vol.9 , no 3(2006), 157-182.
+* Nils A. Baas, N.C. Seeman and A. Stacey, _Synthesising topological links_, Journal of Mathematical Chemistry, vol. 53, pp. 183-199, 2015.
 
-* N.A.Baas, _Hyperstructures, Topology and Datasets_ , Axiomathes 19(2009), 215-221.
+* Nils A. Baas, D.V. Fedorov, A.S. Jensen, K. Riisager, A.G. Volosniev and N.T. Zinner, _Higher-Order Brunnian Structures and Possible Physical Realizations_, Physics of Atomic Nuclei, vol. 77(3), pp. 336-343, 2014. [arXiv:1205.0746](http://arxiv.org/abs/1205.0746)
 
-* N.A.Baas, _New Structures in Complex Systems_ (to appear in The European Physical Journal).
+* Nils A. Baas, _New states of matter suggested by new topological structures_, International Journal of General Systems, vol. 42 (2), pp. 137-169, 2012. [arXiv:1012.2698](http://arxiv.org/abs/1012.2698)
 
-* N.A.Baas (2015) _[Higher order architecture of collections of objects](http://dx.doi.org/10.1080/03081079.2014.964039)_. International Journal of General Systems. vol. 44 (1).
+* Nils A. Baas, _On structure and organization: an organizing principle_, International Journal of General Systems, vol. 42 (2), pp. 170-196, 2012. [arXiv:1201.6228](http://arxiv.org/abs/1201.6228)
+
+* Nils A. Baas and N.C. Seeman, _On the chemical synthesis of new topological structures_, Journal of Mathematical Chemistry, vol. 50 (1), pp. 220-232, 2012.
+
+* Nils A. Baas, _New structures in complex systems_, The European Physical Journal Special Topics, vol. 178 (1), pp. 25-44, 2010.
+
+* Nils A. Baas, _Hyperstructures, Topology and Datasets_, Axiomathes, vol. 19 (3), pp. 281-295, 2009.
+
+* Nils A. Baas, _Hyperstructures as Abstract Matter_, Advances in Complex Systems, vol. 9 (3), pp. 157-182, 2006.
+
+* Nils A. Baas, A. Ehresmann and J.-P. Vanbremeersch, _Hyperstructures and Memory Evolutive Systems_, International Journal of General Systems, vol. 33 (5), pp. 553-568, 2004.
+
+* Nils A. Baas, _Higher order cognitive structures and processes_. In _Toward a Science of Consciousness_, S.R. Hameroff, A.W.Kaszniak and A.C.Scott (editors), MIT Press, pp. 633-648, 1996.
+
+* Nils A. Baas, _Hyper-structures as a tool in nanotechnology_, Nanobiology, vol. 3 (1), pp. 49-60, 1994.
 
 #Remarks#
 
@@ -156,6 +171,7 @@ _Mike_: It seems as though restricting to planar multispans would be quite a ser
 [[Urs Schreiber|Urs]]: I am thinking about a way to formalize the idea of hyperstructure with a concrete application to extended quantum field theory and the Baez-Dolan hypothesis in mind. I would like to develop this in the following here on this page. If things work out as hoped for, this should eventually become an entry in its own right. If not, this should eventually be discarded. 
 
 [[Ronnie Brown|Ronnie]] In this connection I would like to draw attention here to 
+
 
 * D.W.Jones,  Polyhedral $T$-complexes, University of Wales PhD Thesis, 1984; published as  A general theory of polyhedral sets and their corresponding $T$-complexes, Diss. Math. 266, 1988. 
 
