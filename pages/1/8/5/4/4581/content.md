@@ -566,7 +566,7 @@ $$
   \left(
   \Sigma \stackrel{\simeq}{\to} Jet(\Sigma)
   \stackrel{Jet(\sigma)}{\longrightarrow}
-  Jet\left(F\right)
+  Jet\left(E\right)
   \right)
   \,.
 $$
