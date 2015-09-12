@@ -94,20 +94,18 @@ Giraud characterized Grothendieck toposes as categories satisfying certain [[exa
 
 [[Giraud's theorem]] characterises a Grothendieck topos as follows:
 
-1. a [[category]] with a small [[generating set]],
+1. a [[locally small]] [[category]] with a small [[generating set]],
 2. with all finite [[limits]],
 3. with all small [[coproducts]], which are [[disjoint coproduct|disjoint]], and [[pullback stability|pullback-stable]],
 4. where all [[congruences]] have effective [[quotient objects]], which are also pullback-stable.
 
 These conditions are equivalent to
 
-* an [[infinitary pretopos]] with a small generating set.
+* a [[locally small]] [[infinitary pretopos]] with a small generating set.
 
 See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
 
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in weak foundations (while the definition given above is).
-
-Many authorities add an additional clause that $C$ is [[locally small category|locally small]] (that each [[hom-set]] in $C$ is small), but other authorities seem to imply that this is a theorem.  On the other hand, in [[predicative mathematics]], $C$ need not be locally small, and instead we need that only a small number of morphisms have sources from the generating set $G$ (or equivalently, given that $G$ is small, that each hom-set $C(x,y)$ with $x \in G$ is small).  We are trying to figure out whether this is a theorem or not; see [the Math Overflow discussion](http://mathoverflow.net/questions/214737/grothendieck-toposes-in-very-weak-foundation).
 
 
 ## In weak foundations
@@ -163,7 +161,6 @@ The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 
-[[!redirects Grothendieck topos]]
 [[!redirects Grothendieck toposes]]
 [[!redirects Grothendieck topoi]]
 
