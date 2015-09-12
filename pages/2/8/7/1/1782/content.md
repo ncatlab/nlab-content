@@ -49,61 +49,100 @@ The classical case of the algebraic K-theory of a commutative ring $R$ is a spec
 
 ## Constructions
 
+### Symmetric monoidal K-theory
 
-### Classical constructions
+For a [[symmetric monoidal category]] $C$, K-theory may be defined by taking
+
+* the [[maximal subgroupoid]] $i C \subset C$,
+* the [[classifying space]] $B(i C)$ (a [[topological monoid]]),
+* the [[group completion]] $\Omega B B (i C)$.
+
+See at
+
+* [[K-theory of a symmetric monoidal (∞,1)-category]]
+
+* [[K-theory of a permutative category]]
+
+* [[K-theory of a bipermutative category]]
+
+### Quillen Q-construction (for exact categories)
+
+Given an [[exact category]] $E$, one defines $K(E)$ by applying
+
+* the [[Quillen Q-construction]] $Q(E)$,
+* the [[group completion]] $\Omega B Q(E)$.
 
 See at 
 
 * [[Quillen Q-construction]]
 
+### Waldhausen $S_\bullet$-construction (for Waldhausen categories)
+
+Given a [[Waldhausen category]] $(C, w C)$, one defines its $K$-theory by applying
+
+* the [[Waldhausen S-construction]] $w S_\bullet C$ (a [[simplicial category]]),
+* the [[nerve]] (a [[bisimplicial set]]),
+* the [[colimit]] (a [[simplicial set]]),
+* the [[geometric realization]] (a [[space]]).
+
+There is also a [[Waldhausen S-construction]] for [[stable (infinity,1)-categories]] and, most generally, for [[Waldhausen (infinity,1)-categories]].
+
+See at
+
 * [[Waldhausen S-construction]]
+* [[K-theory of a stable (infinity,1)-category]]
+
+## Examples
+
+### For rings
+
+We recall several constructions of the [[algebraic K-theory]] of a [[ring]].
+See ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) for details.
 
 
-### As the K-theory of algebraic vector bundles
- {#AsTheKTheoryOfAlgebraicVectorBundles}
+#### Plus construction
 
-Regard the [[stack]] $\mathbf{Vect}^\oplus$ of [[algebraic vector bundles]]
-on the gros [[Zariski site]] as taking values in [[symmetric monoidal (∞,1)-categories]], via the [[direct sum]] of vector bundles. Then applying the [[K-theory of a symmetric monoidal (∞,1)-category]]-construction $\mathcal{K}$ to this yields a [[sheaf of spectra]], in fact of [[E-∞ rings]]
+Given an associative unital [[ring]] $R$, one may define the algebraic K-theory [[space]] $K(R) = BGL(R)^+$ by taking
 
-$$
-  \mathbf{K} \coloneqq \mathcal{K}(\mathbf{Vect}^\oplus)
-  \in CRing(Stab(Sh_\infty(ArithmeticSchemes)))
-  \,.
-$$
+* the [[general linear groups]] $GL_n(R)$ for $n \ge 0$,
+* their [[classifying spaces]],
+* the [[colimit]] $BGL(R) = colim_n BGL_n(R)$,
+* the [[Quillen plus construction]].
 
-This is the higher algebraic K-theory spectrum, in that for $X$ a [[scheme]], then the [[homotopy groups]] of $\mathbf{K}(X)$ are the higher algebraic K-theory groups of the scheme $X$
+#### Direct sum K-theory
 
-$$
-  K(X)^\bullet = \pi_{-\bullet}(\mathbf{K}(X))
-  \,.
-$$
+Consider the category $P(X)$ of [[finitely generated]] [[projective]] (right) $R$-modules.
+It has a [[symmetric monoidal structure]] given by [[direct sum]].
+The algebraic K-theory $K(R)$ may be described as the [[K-theory of a symmetric monoidal (infinity,1)-category]] of $P(R)$.
+That is, it is the [[group completion]]
+  $K(R) = \Omega B B (i P(X))$
+where $i P(X)$ denotes the [[maximal subgroupoid]].
+See ([Weibel, IV.4.8, IV.4.11.1](#Weibel)).
 
-In this form this is due to ([Bunke-Tamme 12, section 3.3](#BunkeTamme12), [Bunke-Tamme 13, section 2.4](#BunkeTamme13)). This is based on ([Weibel, IV.4.8, IV.4.11.1](#Weibel)) which characterizes algebraic K-theory via group completion of projective modules, and on ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) which shows that the resulting K-theory presheaf satisfies [[descent]] on the [[Zariski site]] (see [below](#Descent)). See ([Nikolaus 13, section 6](K-theory+of+a+symmetric+monoidal+%28?%2C1%29-category#Nikolaus13)) for details on the relation between abstract $\infty$-group completion and traditional constructions.
+#### Exact K-theory
 
-For more on this see at _[[differential algebraic K-theory]]_ .
-
-### Via stable $(\infty,1)$-categories
-
-There is a universal characterization of the construction of the K-theory spectrum $K(A)$ of a stable $(\infty,1)$-category $A$:
-
-there is an $(\infty,1)$-functor
-
-$$
-  U : (\infty,1)StabCat \to N
-$$
-
-to a stable $(\infty,1)$-category which is universal with the property that it respects colimits and exact sequences in a suitable way. Given any stable $(\infty,1)$-category $A$, its (connective or non-connective, depending on details) algebraic K-theory spectrum is the hom-object
-
-$$
-  K(A) \simeq Hom(U(Sp), U(A))
-  \,,
-$$
-
-where $Sp$ denotes the stable $(\infty,1)$-category of compact [[spectra]]. 
-
-See ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)).
+Consider the category $P(X)$ of [[finitely generated]] [[projective module|projective]] (right) $R$-modules.
+This is an [[exact category]] and the K-theory $K(R)$ may be described via the [[Quillen Q-construction]]:
+  $$ K(R) = \Omega B (Q(P(R)). $$
 
 
+### For schemes
+
+For [[schemes]], there are two constructions which do not agree in full generality.
+See [Thomason-Trobaugh 90](#ThomasonTrobaugh90).
+
+#### Quillen K-theory
+
+The Quillen K-theory of a [[scheme]] $X$ is defined as the algebraic K-theory of the [[exact category]] $Vect(X)$ of [[vector bundles]] on $X$ (using the [[Quillen Q-construction]]).
+
+#### Thomason-Trobaugh K-theory
+
+Let $Perf(X)$ be the category of [[perfect complexes]] on $X$.
+This admits the structure of a [[Waldhausen category]], and the Thomason-Trobaugh K-theory of $X$ is defined via the [[Waldhausen S-construction]].
+
+It may also be defined as the [[K-theory of a stable (infinity,1)-category]] of $Perf(X)$ viewed as a [[stable (infinity,1)-category]].
+
+Thomason-Trobaugh K-theory coincides with Quillen K-theory for schemes that admit an ample family of [[line bundles]], but has the advantage of better global descent properties.
 
 ## Properties
 
@@ -136,9 +175,10 @@ from the algebraic K-theory spectrum to the [[topological Hochschild homology]] 
 
 
 
-
 ### Descent
  {#Descent}
+
+#### Zariski and Nisnevich descent
 
 The algebraic K-theory spectrum $\mathbf{K}$ satisfies [[descent]] to give a [[sheaf]] of [[connective spectra]] on the [[Zariski site]].  For regular noetherian schemes this statement is due to ([Brown Gersten 73](#BrownGersten73)). The generalization to finite dimensional noetherian schemes is due to ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)).
 
@@ -146,10 +186,24 @@ Moreover, $\mathbf{K}$ satisfies descent with respect to the [[Nisnevich site|Ni
 
 Further generalization of the descent result to finite dimensional quasi-compact quasi-separated schemes is due to ([Rosenschon 06](#Rosenschon06)).
 
+#### Etale descent
+
 The question of descent of $\mathbf{K}$ over the [[étale site]] is closely related to the [[Lichtenbaum-Quillen conjecture]], see also ([Thomason 85](#Thomason85)).  This is now a theorem of Rost and Voevodsky and it implies that K-theory does satisfy etale descent in sufficient large degrees.  
 
 > [MO comment](http://mathoverflow.net/a/180265/381)
 
+#### Description of the K-theory sheaf via algebraic vector bundles
+ {#AsTheKTheoryOfAlgebraicVectorBundles}
+
+Let $Sch$ denote the gros [[Zariski site]] of regular, separated, noetherian schemes.
+It is explained in ([Bunke-Tamme 12, section 3.3](#BunkeTamme12) that the presheaf of [[spectra]] on $Sch$ defined by algebraic K-theory admits the following description.
+
+Regard the [[stack]] $\mathbf{Vect}^\oplus$ of [[algebraic vector bundles]]
+on $Sch$ as taking values in [[symmetric monoidal (∞,1)-categories]], via the [[direct sum]] of vector bundles. Then apply the [[K-theory of a symmetric monoidal (∞,1)-category]]-construction $\mathcal{K}$ to this, yielding a [[sheaf of spectra]].
+The fact that it is identified with the usual Thomason-Trobaugh K-theory sheaf follows from
+
+* Zariski descent for Thomason-Trobaugh K-theory,
+* the Zariski-local equivalence between Thomason-Trobaugh K-theory, Quillen K-theory, and direct sum K-theory.
 
 ### Relation to non-commutative topology and non-commutative motives
  {#RelationToKKAndMotives}
@@ -253,6 +307,8 @@ Original articles include
 A reference for classical constructions is
 
 * {#BrownGersten73} [[Kenneth Brown]], Stephen M. Gersten, _Algebraic K-theory as generalized sheaf cohomology_, Higher K-Theories, Lecture Notes in Mathematics Volume 341, 1973, pp 266-292.
+
+* {#Waldhausen85} [[F. Waldhausen]], _Algebraic K-theory of spaces_, Alg. and Geo. Top., Springer Lect. Notes Math. 1126 (1985), 318-419, [pdf](http://www.maths.ed.ac.uk/~aar/surgery/rutgers/wald.pdf).
 
 * {#Thomason85} [[R. W. Thomason]], _Algebraic K-theory and &#233;tale cohomology_, Ann. Sci. Ecole Norm. Sup. 18 (4), 1985, pp. 437&#8211;552.
 
