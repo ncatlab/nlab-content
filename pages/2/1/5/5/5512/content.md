@@ -249,9 +249,9 @@ has [[inverse image]] $f^\ast$ a [[cartesian closed functor]] and hence (see the
 ## References 
  {#References}
 
-The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced by Lawvere in 
+The term 'Frobenius reciprocity', in the context of hyperdoctrines, was introduced as a "Definition-Theorem" by Lawvere on page 6 of
 
-* F.W. Lawvere, _Adjointness in Foundations_, TAC Reprint, 2006. [(link)](http://www.tac.mta.ca/tac/reprints/articles/16/tr16abs.html)
+* F.W. Lawvere, _Equality in hyperdoctrines and comprehension schema as an adjoint functor_, Proceedings of the AMS Symposium on Pure Mathematics XVII (1970), 1-14.
 
 A textbook source is around lemma 1.5.8 in 
 
