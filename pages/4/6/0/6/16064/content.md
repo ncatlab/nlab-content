@@ -1,5 +1,7 @@
 ## Idea
 
+Chow groups with modulus are a non-[[homotopy invariant]] variant of [[Chow groups]].
+
 In the theory of [[motives]] one studies [[affine line|A^1]]-[[homotopy invariant]] phenomena, like [[higher Chow groups]]/[[motivic cohomology]] and homotopy invariant [[algebraic K-theory]].
 It is expected that the various [[categories of motives]] can be embedded into larger ones which also contain non-homotopy invariant phenomena, like (honest) [[algebraic K-theory]].
 (Higher) Chow groups with modulus are expected to play the role of [[higher Chow groups]] in these larger categories.
@@ -22,6 +24,10 @@ It is expected that the various [[categories of motives]] can be embedded into l
 * [[Amalendu Krishna]], _0-cycles with modulus on surfaces_, [arXiv:1504.03125](http://arxiv.org/abs/1504.03125).
 
 * [[Kay Rülling]], [[Shuji Saito]], _Higher Chow groups with modulus and relative Milnor K-theory_, [arXiv:1504.02669](http://arxiv.org/abs/1504.02669).
+
+* [[Amalendu Krishna]], [[Jinhyun Park]], _A moving lemma for cycles with very ample modulus_, [arXiv:1507.05429](http://arxiv.org/abs/1507.05429).
+
+* [[Wataru Kai]], _A moving lemma for algebraic cycles with modulus and contravariance_, [arXiv:1507.07619](http://arxiv.org/abs/1507.07619).
 
 ### Historical precursors
 
