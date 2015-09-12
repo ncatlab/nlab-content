@@ -100,3 +100,7 @@ over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic
 * [[Luc Illusie]], _Around the Poincar&#233; lemma, after Beilinson_ (Preliminary notes), 2013, [pdf](http://www.math.u-psud.fr/~illusie/derived-deRham3.pdf).
 
 * {#BeilinsonLectures2014} [[Alexander Beilinson]], _p-adic Hodge theory_, lectures from Yaroslavl' summer school 2014, [videos](http://bogomolov-lab.ru/SHKOLA2014/talks/beilinson.html).
+
+### $p$-adic absolute Hodge cohomology
+
+* [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
