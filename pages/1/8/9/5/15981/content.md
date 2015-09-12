@@ -18,4 +18,6 @@ The category of pre-proper [[logarithmic geometry|logarithmic analytic spaces]] 
 
 ## References
 
-Wieslava Niziol: _Logarithmic $K$-theory $I$ and $II$_ Doc. Math. 13 and Adv. Math. 230.
+* [[Wieslava Niziol]], _Logarithmic $K$-theory $I$ and $II$_ Doc. Math. 13 and Adv. Math. 230.
+
+* [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
