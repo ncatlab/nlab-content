@@ -7,4 +7,8 @@
 
 * [[n-category]]
 
+* [[algebraic K-theory]]
+
 category: people
+
+[[!redirects C. Barwick]]
