@@ -118,4 +118,6 @@ Discussion in the more general context of [[higher dimensional arithmetic geomet
 
 * [[John Baez]], _[[johnbaez:Zeta functions]]_
 
+* [[Sergey Galkin]], [[Evgeny Shinder]], _On a zeta-function of a dg-category_, [arXiv:1506.05831](http://arxiv.org/abs/1506.05831).
+
 [[!redirects zeta functions]]
