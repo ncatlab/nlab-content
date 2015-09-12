@@ -27,6 +27,9 @@ Over non-regular schemes, the motivic spectrum $KGL$ is also defined and it repr
 
 ## References
 
+* [[Fabien Morel]], [[Vladimir Voevodsky]], _$\mathbb{A}^1$-homotopy theory of schemes_ K-theory, 0305 ([web](http://www.math.uiuc.edu/K-theory/0305/) [pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+{#MorelVoevodsky}
+
 * {#Voevodsky98} [[Vladimir Voevodsky]], _$\mathbf{A}^1$-Homotopy Theory_, Doc. Math., Extra Vol. ICM 1998(I), 417-442, [web](http://www.mathematik.uni-bielefeld.de/documenta/xvol-icm/00/Voevodsky.MAN.html).
 
 * {#Cis13} [[Denis-Charles Cisinski]], _Descente par &#233;clatements en K-th&#233;orie invariante par homotopie_, Ann. of Math. (2) 177 (2013), no. 2, pp. 425&#8211;448 ([pdf](http://hal.archives-ouvertes.fr/docs/00/52/56/40/PDF/descente3.pdf))
