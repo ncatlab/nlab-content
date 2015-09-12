@@ -103,7 +103,7 @@ These conditions are equivalent to
 
 * a [[locally small]] [[infinitary pretopos]] with a small generating set.
 
-See the [[Elephant]], theorem C.2.2.8.  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
+See the [[Elephant]], theorem C.2.2.8.  (There, the assumption of local smallness is not stated explicitly, but it is included in the definition of $\infty$-pretopos by way of [[well-powered category|well-poweredness]]; on the nLab it is not so included, so we have to state it explicitly.  To see that it is necessary, note that if $U$ and $V$ are [[Grothendieck universes]] with $U\in V$, then $Set_V$ satisfies all the other conditions relative to $Set_U$, but is not locally small and is not a Grothendieck topos.)  See also [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Topos#Giraud.27s_axioms).
 
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in weak foundations (while the definition given above is).
 
