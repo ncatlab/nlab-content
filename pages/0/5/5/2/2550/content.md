@@ -480,10 +480,7 @@ The slice filtration was defined in
 
 * [[Vladimir Voevodsky]], _Open problems in the stable motivic homotopy theory_ K-theory, 0392 ([web](http://www.math.uiuc.edu/K-theory/0392/) [pdf](http://www.math.uiuc.edu/K-theory/0392/nowmovo.pdf))
 
-An equivariant version of the theory is developed in
 
-* [[Gunnar Carlsson]], Roy Joshua, _Equivariant motivic homotopy theory_, [arXiv](http://arxiv.org/abs/1404.1597v1).
-{#CJ2014}
 
 Discussion related to [[étale homotopy]] is in 
 
@@ -492,6 +489,32 @@ Discussion related to [[étale homotopy]] is in
 Discussion about [[thick ideals]] is in
 
 * [[Ruth Joachimi]], _Thick ideals in equivariant and motivic stable homotopy categories_, [arXiv:1503.08456](http://arxiv.org/abs/1503.08456).
+
+### Motivic homotopy theory in other contexts
+
+An equivariant version of the theory is developed in
+
+* [[Gunnar Carlsson]], Roy Joshua, _Equivariant motivic homotopy theory_, [arXiv](http://arxiv.org/abs/1404.1597v1).
+{#CJ2014}
+
+This was vastly generalized and studied more thoroughly in
+
+* [[Marc Hoyois]], _The six operations in equivariant motivic homotopy theory_, [arXiv:1509.02145](http://arxiv.org/abs/1509.02145).
+
+Motivic homotopy theory of [[derived noncommutative geometry|noncommutative spaces]] (associative dg-algebras) is studied in
+
+* [[Marco Robalo]], _Noncommutative Motives I: A Universal Characterization of the Motivic Stable Homotopy Theory of Schemes_, 2013 ([pdf](http://arxiv.org/pdf/1206.3645v3.pdf))
+
+Motivic homotopy theory of [[associative ring|associative]] [[nonunital rings]] is studied in
+
+* [[Grigory Garkusha]], _Homotopy theory of associative rings_, [arXiv:math/0608482](http://arxiv.org/abs/math/0608482v2).
+
+* [[Grigory Garkusha]], _Algebraic Kasparov K-theory. II_, [arXiv:1206.0178](http://arxiv.org/abs/1206.0178v2).
+
+See also
+
+* [[analytic motivic homotopy theory]]
+* [[logarithmic motivic homotopy theory]]
 
 [[!redirects A1-homotopy]]
 [[!redirects A1 homotopy]]
