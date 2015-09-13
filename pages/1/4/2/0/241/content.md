@@ -60,7 +60,7 @@ By the general theory of [[geometric morphisms]], every Grothendieck topos sits 
 
 ### General
 
-+-- {: .un_prop}
++-- {: .num_prop #total}
 ###### Proposition
 
 Every Grothendieck topos is a [[total category]] and a [[cototal category]].
@@ -68,7 +68,7 @@ Every Grothendieck topos is a [[total category]] and a [[cototal category]].
 =-- 
 
 +-- {: .proof} 
-######Proof 
+###### Proof 
 
 From the page [[total category]], totality follows from the fact that a Grothendieck topos is 
 
@@ -107,6 +107,29 @@ See the [[Elephant]], theorem C.2.2.8.  (There, the assumption of local smallnes
 
 Sometimes (3,4) are combined and strengthened to the statement that the category has all small [[colimits]], which are effective and pullback-stable.  However, this is a mistake for two reasons: it is a significantly stronger axiomatisation (since without the small generating set, not every infinitary pretopos has this property), and it is not valid in weak foundations (while the definition given above is).
 
+### Street's axiomatic characterization 
+
+Augmenting the aforementioned Proposition \ref{total} that Grothendieck toposes are total categories, [Street](#Street) more or less characterizes Grothendieck toposes as *lex total* categories having the same "size" as $Set$. 
+
+In more detail: we take as background set theory ZFC + "there is a strongly inaccessible cardinal" $\kappa$; equivalently, the existence of a single [[Grothendieck universe]] $U$ (a set of "small sets"). Supposing given a model $V$ of $ZFC+universe$, "category" shall then refer to category theory interpreted in $V$. Let $Set$ be the category of small sets; note that the set of morphisms of $Set$ has size $\kappa$. Let $E$ be a locally small category. 
+
++-- {: .num_defn} 
+###### Definition 
+$E$ is _lex total_ if the [[Yoneda embedding]] $y: E \to [E^{op}, Set]$ has a [[left exact functor|left exact]] [[left adjoint]]. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Street)** 
+A category $E$ is a Grothendieck topos iff it is lex total and ${|Mor(E)|} = \kappa$. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+This result is in the spirit of saying "every Grothendieck topos is the category of [[sheaves]] with respect to the [[canonical topology]] on itself". Putting aside set-theoretic issues, it suggests that Grothendieck toposes be seen as analogous to [[frames]], which may be defined as lex total objects in $\mathbf{2}$-$Cat$. In this setting, the appropriate morphisms are left exact left adjoints, so that Grothendieck toposes and [[geometric morphisms]] between them would be analogous to [[locales]] and [[continuous maps]] between them. 
+
+One can deduce formally that lex total categories are [[locally cartesian closed category|locally cartesian closed]] [[Heyting pretoposes]]. 
+=-- 
 
 ## In weak foundations
 
@@ -159,6 +182,11 @@ A proof of Giraud's theorem is in appendix A.
 The proof of Giraud's theorem for [[(∞,1)-topoi]] is section 6.1.5 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+Street's characterization of Grothendieck toposes is given in 
+
+* [[Ross Street]], _Notions of topos_, Bull. Australian Math. Soc. 23 (1981), 199-208; MR83a:18014. ([pdf link](http://journals.cambridge.org/download.php?file=%2FBAZ%2FBAZ23_02%2FS000497270000705Xa.pdf&code=c6248e4fa6a517c9bb451e4f5abcf862)) 
+ {#Street} 
 
 
 [[!redirects Grothendieck toposes]]
