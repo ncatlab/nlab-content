@@ -30,7 +30,7 @@
 
 A **quality type** is a key concept in [[W. Lawvere]]'s axiomatic approach to [[cohesion]] which permits to analyze a [[space]] understood as a domain of _quantitative_ variation via its _qualitative_ aspects. This can be viewed as an [[axiom|axiomatisation]] of the commonly encountered situation in [[geometry]] or [[dynamics]] that problems permit (only) a qualitative analysis.
 
-A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in a very broad sense, quality types are intended as ingredients to a  _synthetic homotopy theory_[^SHT] where the (homotopy) contraction of a space (the collapsing of a [[cylinder object|cylinder]]/two [[idempotents]]) is extracted as essence of the concept of a spatial 'attribute'. 
+A primary example for that kind of deferred analysis is the study of [[topological spaces]] via the [[homotopy category]] (hence via the [[homotopy types]] which they represent). So in a very broad sense, quality types are intended as ingredients to a _synthetic homotopy theory_[^SHT] where the (homotopy) contraction of a space (the collapsing of a [[cylinder object|cylinder]]/two [[idempotents]]) is extracted as essence of the concept of a spatial 'attribute'. 
 
 Technically, a quality type amounts to a special sort of [[essential geometric morphism|essential localization]] and is therefore called a **quintessential localization**  in ([Johnstone 1996](#JS96)).
 
@@ -42,7 +42,7 @@ Quality types together with the **continuity axiom** are an essential ingredient
 
 >That Continuity axiom (preservation of infinite products by $\pi_0$) was introduced in order to obtain homotopy types that are "qualities" in an intuitive sense (as they should be automatically in the continuous case). Lawvere ([message to catlist oct 26th 2011](http://permalink.gmane.org/gmane.science.mathematics.categories/7006))
 
-([Lawvere 1998](#Law98),[Lawvere 2008](#Law08)) also point to the role of continuity in ensuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
+([Lawvere 1998](#Law98),[Lawvere 2008](#Law08)) also point to the role of continuity in insuring that the Hurewicz homotopy category becomes a quality type. The definition of quality type yields important contrasts with _pure variation_ and _sufficient cohesion_ permitting to attend to the _fine structure_ of the [[gros topos|petit-gros]] landscape. So we can say with only slight exaggeration that the 2007 axioms revolve around the concept of a quality type and that cohesive spaces are those that admit qualitative (homotopical) analysis!
 
 In the following we discuss the case for ordinary categories, for the higher order generalization see [[infinitesimal cohesive (infinity,1)-topos]].
 
@@ -68,11 +68,11 @@ Intuitively, an intensive quality is compatible with the points of its domain sp
 
 ####Remark
 
-The properties of (pre)cohesive categories are fine-tuned to yield a canonical extensive quality via the Hurewicz construction $\pi (X^Y)$. In the blueprint for this, namely the combinatorial homotopy theory in [Gabriel&Zisman (1967)](#GabrielZisman67) chap. III, the category of spaces has objects [[compactly generated space|Kelley spaces]]. So in a sense, the concept of a precohesive category can be viewed as an axiomatization of Kelley spaces.
+The properties of (pre)cohesive categories are fine-tuned to yield a canonical extensive quality via the Hurewicz construction $\pi (X^Y)$. In the blueprint for this, namely the combinatorial homotopy theory in Gabriel-Zisman ([1967](#GabrielZisman67), chap. III), the category of spaces has objects [[compactly generated space|Kelley spaces]]. In a sense, the concept of continuity can be viewed as a mean to bypass the construction of the [[category of fractions]] necessary in this case.
 
 ### The topos of $\mathbb{F}_1$-actions
 
-Lawvere's work on the petit-gros topos distinction started with the examination of two toposes of graphs ([Lawvere 1986](#Law86)). The first one of _irreflexive graphs_ is given by the presheaf topos of actions of the small diagram category $E\rightrightarrows V$ on $Set$ and is an [[étendue]] hence petit. 
+Lawvere's work on the petit-gros topos distinction ([Lawvere 1976](#Law76)) started with the examination of two toposes of graphs ([Lawvere 1986](#Law86)). The first one of _"irreflexive" graphs_ is given by the presheaf topos of actions of the small diagram category $E\rightrightarrows V$ on $Set$ and is an [[étendue]] hence petit. 
 
 Whereas the second one of _reflexive graphs_ is given by the actions of the [[graphic monoid]] $\Delta _1=\{1,\partial_0,\partial_1\}$ with $\partial_i\partial_j=\partial_i$ for $i,j=0,1$. $\Delta _1$ is [[Morita equivalence|Morita equivalent]] to the diagram category $E\stackrel{\leftrightarrows}{\leftarrow} V$ and consists entirely of [[idempotents]]. Its topos of actions is gros and when taken over $FinSet$ satisfies the axioms for a (sufficiently) [[cohesive topos]]. The 'abelianization' of $\Delta _1$ is $\mathbb{F}_1=\{0,1\}$, the multiplicative monoid with a generic (nontrivial) idempotent $0$ which incidentally is also the monoid underlying the [[blueprint]] for the [[field with one element]].
 
@@ -108,17 +108,21 @@ For details how the [[zeta function]] arises via the Burnside ring of $\mathcal{
 
 The definition of quality types occurs in ([Lawvere 2007](#Law07)) with important additional remarks in ([Lawvere 2008](#Law08)). The first occurrence of a quality type is in the work of the 1980s in the context of the gros topos of graphs: a discussion of this example is in ([Lawvere 1989](#Law89a),  p.277) where already the contrast to sufficient cohesion is observed. ([Lawvere 1991](Law91a), pp.9-10) has a short but suggestive discussion in the context of [[synthetic differential geometry]]. The short abstract ([Lawvere 1998](#Law98)) anticipates the 2007 axioms as 'fine-tuning' to accomodate the homotopy category as a quality type. Quality types resurface without an explicit definition in the [2004 paper](Law04) on data types.
 
-Under the name of quintessential localization they are the focus of ([Johnstone 1996](JS96)) where the characterization via central idempotents is given. Some additional results occur in the context of the [[Nullstellensatz]] in ([Johnstone 2011](#JS11)). ([Menni 2014](#Menni14b)) attends to the contrast between quality types and sufficient cohesion.
+Under the name of quintessential localization they are the focus of ([Johnstone 1996](JS96)) where the characterization via central idempotents is given. Some additional results occur in the context of the [[Nullstellensatz]] in ([Johnstone 2011](#JS11)). ([Menni 2014](#Menni14b)) attends to the contrast between quality types and sufficient cohesion. A variant is studied as the concept of a _bireflective subcategory_ in Freyd et al. ([1999](#FOPTST99)).
 
 ## References
 
-* [[P. Gabriel|Peter Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967.{#GabrielZisman67}
+* {#FOPTST99}[[Peter Freyd|P. J. Freyd]], P. W. O'Hearn, [[John Power|A. J. Power]], M. Takeyama, [[Ross Street|R. Street]], R. D. Tennent, _Bireflectivity_ , Theor. Comp. Sci. **228** (1999) pp.49-76.
+
+* [[Pierre Gabriel|P. Gabriel]], M. Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967.{#GabrielZisman67}
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
 * {#JS11} [[Peter Johnstone|P. Johnstone]], _Remarks on Punctual Local Connectedness_ , TAC **25** no.3 (2011) pp.51-63. ([pdf](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
+
+* {#Law76}[[F. William Lawvere]], _Variable quantities and variable structures in topoi_ , pp.101-131 in Heller, Tierney (eds.), Algebra, Topology and Category Theory, Academic Press New York 1976.
 
 * {#Law86} [[F. W. Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
 
@@ -146,7 +150,7 @@ Under the name of quintessential localization they are the focus of ([Johnstone 
 
 * {#PRW89} [[Robert Paré|R. Paré]], [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Idempotents in Bicategories_ , Bull.Austr.Math.Soc. **39** (1989) pp.421-434.
 
-[^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's ideas don't provide a fully fledged homotopy theory but are rather observations or meditations on the role of the cylinder configuration in the analysis of space and spatial dimension. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
+[^SHT]: The term _synthetic homotopy theory_ is slightly misleading here as Lawvere's ideas don't provide a fully fledged homotopy theory but are rather observations on the role of the cylinder configuration in the analysis of space and spatial dimension. Important facets of his views are documented in Lawvere [1992](#Law92), [1994](#Law94), [1999](#1999).
 In a complementary direction, _[[homotopy type theory]]_ provides a synthetic formulation of [[homotopy theory]] proper, not just of the [[homotopy category]], and _[[cohesive homotopy type theory]]_ implements [[cohesion]] _in_ that natively homotopy-theoretic context. 
 
 [^Inf]: A motivation for this terminology from [[synthetic differential geometry|SDG]] can be found in a remark in ([Lawvere 1991](Law91a), pp.9-10) in the context of [[Aufhebung|Lawvere's theory of dimension]] where it is hypothesized that infinitesimal spaces in the sense of SDG arise as non-sheaves for an essential subtopos called _dimension_ $\epsilon$, or _level_ $\epsilon$ (the $\epsilon$ presumably derives from $\epsilon -\delta$ definitions in calculus and suggests  an _infinitesimal level_), defined to be the maximal quintessential subtopos.
