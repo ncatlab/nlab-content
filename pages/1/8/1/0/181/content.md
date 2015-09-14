@@ -48,7 +48,7 @@ More generally:
 
     * and a [[morphism]] $\alpha : A \to F(A)$;
 
-* a general **coassociative coalgebra** is a coalgebra over a comonad, dual to the concept of an [[algebra over a monad]].
+* a general **coassociative coalgebra** is a coalgebra over a [[comonad]], dual to the concept of an [[algebra over a monad]].
 
 
 ## Examples
