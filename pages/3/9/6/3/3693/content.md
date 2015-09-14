@@ -14,7 +14,7 @@ $$
 and with integral representation
 
 $$
-Ai(x) = \frac{1}{\pi}\int_0^\infty cos(\frac{t^3}{3}+tx) dt 
+Ai(x) = \frac{1}{\pi}\int_0^\infty cos\left(\frac{t^3}{3}+tx\right) dt 
 $$
 
 ## Properties
@@ -24,7 +24,7 @@ This function appears often in the study of oscillating ([[path integral|path]])
 
 The asymptotic expansions for the Airy function have sharp changes at certain lines, observed by G. G. Stokes, and present often in the stationary phase method (cf. [[semiclassical approximation]]). This is called the _[[Stokes phenomenon]]_ and is a special case of the [[wall crossing]].
 
-Airy function appears in the subject of integrable models, related to Painleve transcendents and also in the study of random Hermitean matrices (work of Tracy and Widom). Airy function has also a remarkable role in the [[Kontsevich]]'s solution to the Witten conjecture. 
+Airy function appears in the subject of integrable models, related to Painleve transcendents and also in the study of random Hermitean matrices (work of Tracy and Widom). Airy function has also a remarkable role in the [[Kontsevich]]'s solution to the [[Witten conjecture]]. 
 
 ## References
 
