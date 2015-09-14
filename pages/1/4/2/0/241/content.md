@@ -1,5 +1,4 @@
 
-> [[Urs Schreiber]] thinks that this entry should be merged with [[category of sheaves]].  [[Toby Bartels]] is not so sure; it\'s a nontrivial theorem that the concepts match (for sheaves of sets).
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
