@@ -29,6 +29,8 @@
 | [[hyperbolic geometry]] |
 | [[elliptic geometry]]   |
 
+* [[trigonometry]]
+
 * [[Riemannian geometry]]
 
 * [[hyperbolic manifold]]
