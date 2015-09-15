@@ -292,7 +292,7 @@ which is again a combination of elements in the image of the degeneracy maps.
 Given a [[simplicial abelian group]] $A$, the evident composite of natural morphisms
 
 $$
-  N A \stackrel{i}{\hookrightarrow} A 
+  N A \stackrel{i}{\hookrightarrow} CA
   \stackrel{p}{\to}
   (C A)/(D A)
 $$
