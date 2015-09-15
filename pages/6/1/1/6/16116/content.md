@@ -3,6 +3,10 @@
 * table of contents 
 {: toc} 
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea 
 
 The hyperbolic functions (or sometimes *hyperbolic trigonometric functions*) are analogues of the usual [[trigonometric functions]], but adapted to the [[hyperbola]] $x^2 - y^2 = 1$ rather than the [[circle]] $x^2 + y^2 = 1$. 
@@ -47,5 +51,11 @@ $$\int \; \frac{d x}{y}$$
 
 where $y$ is related to $x$ via an algebraic relation such as $y^2 = x^3 + a x + b$. For suitable such relations these give the various so-called _elliptic integrals_; for more on what this has to do with ellipses, see Wikipedia, e.g., [here](http://en.wikipedia.org/wiki/Elliptic_integral#Incomplete_elliptic_integral_of_the_first_kind). Elliptic functions are then suitable inverses of elliptic integrals, following Jacobi, Abel, and others throughout the nineteenth century (e.g., Weierstrass; see also [[Weierstrass elliptic function]]). 
 
+## Related entries
+
+* [[trigonometry]]
+
 [[!redirects hyperbolic functions]] 
 
+[[!redirects hyperbolic trigonometric function]]
+[[!redirects hyperbolic trigonometric functions]]
