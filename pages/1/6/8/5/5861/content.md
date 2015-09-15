@@ -2074,11 +2074,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the definition of formal &#233;talness and using the [[pasting law]] we have an equivalence of [[pasting diagrams]] of [[homotopy pullbacks]] of the following form:
+By the definition of formal &#233;taleness and using the [[pasting law]] we have an equivalence of [[pasting diagrams]] of [[homotopy pullbacks]] of the following form:
 
 $$
   \array{
-     \iota^\ast T_{inf} X &\longrightarrow& T_{inf} &\longrightarrow& X
+     \iota^\ast T_{inf} X &\longrightarrow& T_{inf} X &\longrightarrow& X
      \\
      \downarrow && \downarrow && \downarrow
      \\
