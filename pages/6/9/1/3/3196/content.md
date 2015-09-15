@@ -62,6 +62,18 @@ The restriction to the unit sphere in $\mathbb{R}^{n+1}$ of a generic quadratic 
 
 * [[M. M. Postnikov]], &#1042;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074; &#1090;&#1077;&#1086;&#1088;&#1080;&#1102; &#1052;&#1086;&#1088;&#1089;&#1072; &#8212; &#1052;.: &#1053;&#1072;&#1091;&#1082;&#1072;, 1971
 
+### [[Morse complex]] and homology
+
+* [[John Milnor]], _Lectures on the h-cobordism theorem_, Notes by L. Siebenmann & J. Sondow, Princeton Univ.
+Press, 1965.
+* Matthias Schwarz, _Morse homology_, Progress in Mathematics __111__, 1993 
+
+There is also a variant due Barannikov, and in more abstract form Viterbo:
+
+* S. Barannikov, _The framed Morse complex and its invariants_, Advances in Soviet Math. 21 (1994), 93-115.
+
+* Fran&#231;ois Laudenbach, _On an article by S. A. Barannikov_, [arxiv/1509.03490](http://arxiv.org/abs/1509.03490) 
+
 ### Relation to supersymmetric quantum mechanics
 
 The relation to [[supersymmetric quantum mechanics]] is due to 
