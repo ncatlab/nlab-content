@@ -51,6 +51,10 @@ Refinement of the construction to [[stable (∞,1)-categories]] and [[exact (inf
 
 * [[C. Barwick]], _On exact infinity-categories and the Theorem of the Heart_, [arXiv:1212.5232](http://arxiv.org/abs/1212.5232).
 
+See also
+
+* _Motivation/interpretation for Quillen's Q-construction?_, [MO/1006](http://mathoverflow.net/questions/1006/motivation-interpretation-for-quillens-q-construction).
+
 [[!redirects Q-construction]]
 
 [[!redirects Q-constructions]]
