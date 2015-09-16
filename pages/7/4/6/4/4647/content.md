@@ -170,6 +170,20 @@ $$- \cdot a: Set \to A$$
 
 (left adjoint to $A(a, -): A \to Set$) is comonadic. See proposition 6.13 and related results in this [paper](http://www.tac.mta.ca/tac/volumes/16/1/16-01abs.html) by Mesablishvili. 
 
+###Necessity
+
+In the context of the treatment of modal operators given at [Possible worlds via first-order logic and type theory](necessity+and+possibility#InFirstOrderLogicAndTypeTheory), we find that base change along the terminal morphism from the type of worlds, $W$, and its right adjoint dependent product form a comonadic adjunction. $W^{\ast} \dashv \prod_W$.
+
+For a type, $P$, in $\mathbf{H} = \mathbf{H}/*$, $W^{\ast} (P) = P \times W \to W$, projection on the second component. For $Q \to W$ in $\mathbf{H}/W$, $\prod_W (Q) = Q^W$. 
+
+Hence the composite, a kind of necessity operator $\Box_W$ (an analog of the [[jet comonad]]), sends $Q \to W$ to $Q^W \times W \to W$.
+
+Coalgebras for this comonad are the types in $\mathbf{H}$, or rather the types in $\mathbf{H}/W$ which are in the image of $W^{\ast}$. The coalgebra map then works by sending $P \times W$ to $\Box_W (P \times W) = P^W \times W$ over $W$, where the first component of the map sends $p: P$ to the constant map at $p$.
+
+To see this as a equalizer, consider the two maps from $\Box_W (P \times W \to W)$ to $\Box_W  \Box_W (P \times W \to W)$. Over $W$, these are formed from the two ways of mapping $P^W$ to $P^{(W \times W)}$, by sending $f$ in $P^W$ to $g(w, w') = f(w)$ and to $h(w, w') = f(w')$. 
+
+The equalizer of these two maps is formed from the $f$ for which $g = h$ for all $w, w'$ in $W$, that is, when $f$ is constant. So the equalizer is equivalent to  $W^{\ast} P = P \times W \to W$.
+
 ## Related concepts
 
 * [[monadic functor]], **comonadic functor**
