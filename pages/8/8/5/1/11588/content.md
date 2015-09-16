@@ -71,6 +71,7 @@ Recent works on $\tau$-function include
  
 * J. Harnad, Eunghyun Lee, _Symmetric polynomials, generalized Jacobi-Trudi identities and &#964;-functions_, [arxiv/1304.0020](http://arxiv.org/abs/1304.0020)
 
+* S. Natanzon, A. Zabrodin, _Formal solution to the KP hierarchy_, [arxiv/1509.04472](http://arxiv.org/abs/1509.04472)
 
 category: physics, representation theory, Lie theory
 
