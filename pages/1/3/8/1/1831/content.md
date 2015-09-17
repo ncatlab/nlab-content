@@ -20,10 +20,10 @@ Cartesian fibrations are one of the types of [[fibrations of quasi-categories]].
 
 A _Cartesian fibration_ of quasi-categories -- or more generally of [[simplicial set]]s -- is a morphism that generalizes the notion of [[Grothendieck fibration]] from [[category theory]] to [[(∞,1)-category theory]], specifically with [[(∞,1)-categories]] incarnated as [[quasi-categories]]:
 
-it is an [[inner fibration]] that lifts also all right _outer_ [[horn]] inclusions whose last edge is a [[cartesian morphism]], and such that there is a sufficient supply of [[cartesian morphisms]].
+It is an [[inner fibration]] that lifts also all right _outer_ [[horn]] inclusions whose last edge is a [[cartesian morphism]], and such that there is a sufficient supply of [[cartesian morphisms]].
 
 An [[inner fibration]] $p : C \to D$ may be thought of as a family of [[(infinity,1)-categories]] $(C_d)_{d \in D}$ which is [[functorial]] in $d$ only in the sense of [[correspondences]].  Then the condition of $p$ being a cartesian fibration ensures that the family is actually [[functorial]].
-More precisely, an [[(∞,1)-functor]] $p : C \to D$ is a Cartesian fibration then it possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[(∞,1)-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
+More precisely, if an [[(∞,1)-functor]] $p : C \to D$ is a Cartesian fibration, then it is possible to interpret its value over any [[morphism]] $f : d_1 \to d_2$ in $D$ as an [[(∞,1)-functor]] $p^{-1}(f) : p^{-1}(d_2) \to p^{-1}(d_1)$ between the [[fibers]] $p^{-1}(d_2)$ and $p^{-1}(d_1)$ over its source and target [[objects]]. 
 
 This way a Cartesian fibration $p : C \to D$ determines and is determined by an [[(∞,1)-functor]] $D^{op} \to (\infty,1)Cat$ into the
 [[(∞,1)-category of (∞,1)-categories]]. This is the content of the [[(∞,1)-Grothendieck construction]].
@@ -135,7 +135,7 @@ $$
   }
 $$
 
-a morphism $f \in E'$ is $p'$-Cartesian if $q(f)$ is $p$-Cartesian. Since the morphisms of $E'$ are pairs of morphisms $(\gamma, \hat f) \in C'_1 \times E_1$  and since by assumption $p$ is a Cartesian, there is for $\gamma \in C'_1$ a Cartesian lift $\hat f \in E$ of $k(\gamma)$. Hence a Cartesian lift $(\gamma, \hat f)$ of $\gamma$ in $E'$.
+a morphism $f \in E'$ is $p'$-Cartesian if $q(f)$ is $p$-Cartesian. Since the morphisms of $E'$ are pairs of morphisms $(\gamma, \hat f) \in C'_1 \times E_1$  and since by assumption $p$ is a Cartesian fibration, there is for $\gamma \in C'_1$ and $y \in E'_0$ such that $p'(y)$ is the target of the morphism $\gamma$ a Cartesian lift $\hat f \in E$ of $k(\gamma)$ such that $q(y)$ is the target of $\hat f$. Hence a Cartesian lift $(\gamma, \hat f)$ of $\gamma$ in $E'$ having $y$ as target.
 
  
 =--
@@ -215,7 +215,7 @@ This is [[Higher Topos Theory|HTT, prop. 3.3.1.3]].
 =--
 
 
-The following proposition asserts that the ordinary pullback (in [[sSet]] of Cartesian fibrations already models the correct [[homotopy pullback]]).
+The following proposition asserts that the ordinary pullback (in [[sSet]]) of Cartesian fibrations already models the correct [[homotopy pullback]].
 
 +-- {: .un_prop}
 ###### Proposition
@@ -241,7 +241,7 @@ be an [[pullback]] [[diagram]] in [[sSet]] of quasi-categories, where $X' \to S'
 +-- {: .proof}
 ###### Proof
 
-This is [[Higher Topos Theory|HTT, prop 3.3.1.4]]. We factor the bottom morphism as $ S \stackrel{\simeq}{\to} T \to S' $ into a weak equivalence and a fibration in $sSet_{Joyal}$. Then then the right square in 
+This is [[Higher Topos Theory|HTT, prop 3.3.1.4]]. We factor the bottom morphism as $ S \stackrel{\simeq}{\to} T \to S' $ into a weak equivalence and a fibration in $sSet_{Joyal}$. Then the right square in 
 
 $$
   \array{
@@ -329,11 +329,11 @@ There is however another [[model category]] structure, which does model Cartesia
 +-- {: .un_prop}
 ###### Proposition 
 
-Let $sSet^+/Y$ be the [[overcategory]] of the category of [[marked simplicial set]]s over $S$, equipped with the [[model structure on marked simplicial over-sets]]. 
+Let $sSet^+/S$ be the [[overcategory]] of the category of [[marked simplicial set]]s over $S$, equipped with the [[model structure on marked simplicial over-sets]]. 
 
-An object $X \to Y$ is fibrant in that model category precisely if 
+An object $X \to S$ is fibrant in that model category precisely if 
 
-* the underlying morphism of simplicial sets $X \to Y$ is a Cartesian fibration;
+* the underlying morphism of simplicial sets $X \to S$ is a Cartesian fibration;
 
 * the marked edges in $X$ are precisely the [[Cartesian morphism]]s.
 
@@ -351,9 +351,9 @@ This is  [[Higher Topos Theory|HTT, prop. 3.1.4.1]].
 
 ### Cartesian fibrations over one morphism and Adjunctions
 
-By the [[(infinity,1)-Grothendieck construction]] a Cartesian fibration $K \to \Delta[1]$ corresponds to a morphism $\Delta[1]^{op} \to (\infty,1)Cat$, hence to an [[(infinity,1)-functor]] $f : C \o D$.
+By the [[(infinity,1)-Grothendieck construction]] a Cartesian fibration $K \to \Delta[1]$ corresponds to a morphism $\Delta[1]^{op} \to (\infty,1)Cat$, hence to an [[(infinity,1)-functor]] $f : C \to D$.
 
-Obtaining this through the straightening functor above is tediuos, but there is a more immediate way to characterize $f$:
+Obtaining this through the straightening functor above is tedious, but there is a more immediate way to characterize $f$:
 
 +-- {: .un_def}
 ###### Definition
@@ -367,7 +367,7 @@ $$
 and 
 
 $$
-  h_1 : C \stackrel{\simeq}{\to} p^{-1}(1)
+  h_1 : D \stackrel{\simeq}{\to} p^{-1}(1)
 $$
 
 an [[(infinity,1)-functor]] $f : D \to C$ is **associated** to $p$ if there exists a commuting diagram
@@ -386,7 +386,7 @@ such that
 
 * $s|_{D \times \{1\}} = h_1$;
 
-* $s|_{D \times \{0\}} = h_0 \circ g$
+* $s|_{D \times \{0\}} = h_0 \circ f$
 
 * for every object $x$ of $D$ we have that $s|_{\{x\} \times \Delta[1]}$ is 
   a p-[[Cartesian morphism]] of $K$. 
@@ -395,7 +395,7 @@ such that
 
 This is [[Higher Topos Theory|HTT, def. 5.2.1.1]].
 
-If $p : K \to \Delta[1]$ is noth a Cartesian fibration as well as a coCartesian fibration, then it determines $(\infty,1)$-functors in both directions
+If $p : K \to \Delta[1]$ is both a Cartesian fibration as well as a coCartesian fibration, then it determines $(\infty,1)$-functors in both directions
 
 $$
   C
