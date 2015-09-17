@@ -239,7 +239,7 @@ and
 $$
   Hom_{sSet}(K, Map^\sharp(X,Y)) 
    \simeq 
-  Hom_{sSet^+}(K^\sharp, Map^\sharp(X,Y))
+  Hom_{sSet^+}(K^\sharp, Y^X)
    \simeq
   Hom_{sSet^+}(K^\sharp \times X, Y)
 $$
@@ -349,9 +349,9 @@ Observe that weak equivalences in the [[model structure for quasi-categories]] m
 
 A morphism $f : C \to D$ between simplicial sets that are [[quasi-categories]] is a weak equivalence in the [[model structure for quasi-categories]] precisely if the following equivalent coditions hold:
 
-* For every simplicial set $K$, the morphism $sSet(K,f) : sSet(K,D) \to sSet(K,C)$ is a weak equivalence in the model structure for quasi-categories.
+* For every simplicial set $K$, the morphism $sSet(K,f) : sSet(K,C) \to sSet(K,D)$ is a weak equivalence in the model structure for quasi-categories.
 
-*  For every simplicial set $K$, the morphism $Core(sSet(K,f)) : Core(sSet(K,D)) \to Core(sSet(K,C))$ on the [[core]]s, the maximal [[Kan complex]]es inside, is a weak equivalence in the standard [[model structure on simplicial sets]], hence a [[homotopy equivalence]].
+*  For every simplicial set $K$, the morphism $Core(sSet(K,f)) : Core(sSet(K,C)) \to Core(sSet(K,D))$ on the [[core]]s, the maximal [[Kan complex]]es inside, is a weak equivalence in the standard [[model structure on simplicial sets]], hence a [[homotopy equivalence]].
 
 =--
 
@@ -371,13 +371,13 @@ This may be taken as motivation for the following definition.
 For every [[Cartesian fibration]] $Z \to S$, we have that
 
 $$
-  Map^\flat(X, Z^{\natural})
+  Map_S^\flat(X, Z^{\natural})
 $$
 
 is a [[quasi-category]] and
 
 $$
-  Map^\sharp(X,Z^\natural) = Core(Map^\flat(X,Z^\natural))
+  Map_S^\sharp(X,Z^\natural) = Core(Map_S^\flat(X,Z^\natural))
 $$
 
 is the maximal Kan complex inside it.
@@ -522,25 +522,25 @@ The collection of **marked anodyne morphisms** in $SSet^+/S$ is the class of mor
     (\Lambda[n]_i)^\flat \to \Delta[n]^\flat
   $$
 
-* for $i = n$ the horn inclusion with the last edge markeed:
+* for $i = n$ the horn inclusion with the last edge marked:
 
   $$
-    (\Lambda[n]_i, \mathcal{E} \cap (\Lambda[n]_i)_1)
+    (\Lambda[n]_n, \mathcal{E} \cap (\Lambda[n]_n)_1)
     \to 
     (\Delta[n], \mathcal{E} )    
     \,,
   $$
   
-  where $\mathcal{E}$ is the union of all degenete edges in $\Delta[n]$ together with the edge $\Delta^{\{n-1,n\}} \to \Delta[n]$.
+  where $\mathcal{E}$ is the union of all degenerate edges in $\Delta[n]$ together with the edge $\Delta^{\{n-1,n\}} \to \Delta[n]$.
 
 
 * the inclusion
 
   $$
-    (\Lambda[2]_1)^\natural \coprod_{(\Lambda[2]_1)^\flat}
+    (\Lambda[2]_1)^\sharp \coprod_{(\Lambda[2]_1)^\flat}
     (\Delta[2])^\flat
     \to
-    (\Delta[2])^\natural
+    (\Delta[2])^\sharp
     \,.
   $$
 
