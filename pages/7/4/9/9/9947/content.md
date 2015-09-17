@@ -21,11 +21,13 @@
 
 A _proof assistant_ or _proof management system_ is a kind of [[programming language]] designed to help with [[proofs]] in formalized [[mathematics]].
 
-There are two threads of current development in proof systems: foundational and coverage. The foundational work tries to find the best meta-theory to formalize mathematics (see also at _[[foundations of mathematics]]_). Out of that work first came [[dependent type theory|dependent types]] ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
+There are two threads of current development in proof systems: foundational and coverage. 
 
-The much larger work has happened for decades building [[Mizar]]'s  library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than [[type theory]]). Its library is a couple of orders of magnitude larger than anyone else's. On the other hand, despite this quantity, it remains an issue to attack problems of contemporary research interest in these systems, see also at _[Mizar -- problem of pertinence](#http://ncatlab.org/nlab/show/Mizar#ProblemOfPertinence)_.
+The foundational work tries to find the best meta-theory to formalize mathematics (see also at _[[foundations of mathematics]]_). Out of that work first came [[dependent type theory|dependent types]] ([[Automath]], in the late 60s), then the [[calculus of constructions]] (early [[Coq]]), and the [[calculus of inductive constructions]] (current [[Coq]]). More recently a new wave of such work is being done in [[homotopy type theory]] as another step in this direction. Coq's library is not that large, except in the area of [[group theory]] where the results of the work on [[Feit-Thompson theorem]] has produce something larger.
 
-Similar to Mizar is is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
+The much larger work has happened for decades building [[Mizar]]'s  library (Mizar is based on [[Tarski–Grothendieck set theory]] rather than [[type theory]]). Its library is a couple of orders of magnitude larger than anyone else's. On the other hand, despite this quantity, it remains an issue to attack problems of contemporary research interest in these systems, see also at _[Mizar -- problem of pertinence](Mizar#ProblemOfPertinence)_.
+
+Similar to Mizar is [[NuPRL]], [[HOL light]] and [[Isabelle]], which all have decently sized libraries.  (Isabelle can be used with either [[material set theory]], like Mizar, or [[higher-order type theory]], like the others.)
 
 
 ## Examples
