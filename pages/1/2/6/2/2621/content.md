@@ -152,9 +152,11 @@ Proceedings of the Conference on Mathematical Physics in Mathematics and Physics
 
 (relation to [[gauge theory]] and [[QED]])
 
-Lecture notes reviewing this are in 
+Reviews includes
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_ ([arXiv:1208.1428](http://arxiv.org/abs/1208.1428))
+
+* [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](http://arxiv.org/abs/1503.07814))
 
 ### In BV-BRST formalism
 
