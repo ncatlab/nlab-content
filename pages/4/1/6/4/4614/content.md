@@ -314,7 +314,7 @@ $$
 
 =--
 
-The proof can be found in [[Neil Strickland]]'s answer to this [mathoverflow question](). An incorrect argument appears as ([Seymour, prop. 3.1](#Seymour)) where it is claimed that $\underline{Sing}(X)$ is proper. In fact, the first degeneracy map $X \to [\Delta^1_{Top}, X]$ is not in general a cofibration as explained in the linked question.
+{#StricklandSeymour} The proof can be found in [[Neil Strickland]]'s answer to this [mathoverflow question](http://mathoverflow.net/q/171662/381). (An incorrect argument appears as ([Seymour, prop. 3.1](#Seymour)) where it is claimed that $\underline{Sing}(X)$ is proper. In fact, the first degeneracy map $X \to [\Delta^1_{Top}, X]$ is not in general a cofibration as explained in the linked question.)
 
 
 
@@ -909,8 +909,7 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
 
-* {#Segal68} [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam]())
-
+* {#Segal68} [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam](http://www.numdam.org/item?id=PMIHES_1968__34__105_0))
 
 but the construction was implicit in earlier discussion of [[classifying space]]s. The observation that this is a [[coend]] was noted in
 
@@ -967,15 +966,14 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
-* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf]())
+* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf](http://www.math.uni-muenster.de/sfb/about/publ/heft448.pdf))
 
 
 
 
 Globally Kan simplicial spaces are considered in 
 
-* {#BrownSzczarba} E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
-type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf]())
+* {#BrownSzczarba} E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf](http://www.ams.org/journals/tran/1989-311-01/S0002-9947-1989-0929667-6/S0002-9947-1989-0929667-6.pdf))
 
 
 The right adjoint to geometric realization of simplicial topological spaces is discussed in 
@@ -992,7 +990,7 @@ Geometric realization of general [[Cech nerve]]s is discussed in
 The behaviour of fibrations under geometric realization and the preservation of [[homotopy pullback]]s under geometric realization is discussed in
 
 * D. Anderson, _Fibrations and geometric realization_ , 
-Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid]())
+Bull. Amer. Math. Soc. Volume 84, Number 5 (1978), 765-788. ([ProjEuclid](http://projecteuclid.org/euclid.bams/1183541139))
 
 
 ## Refereeing
