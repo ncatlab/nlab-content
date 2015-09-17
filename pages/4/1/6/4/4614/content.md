@@ -909,8 +909,8 @@ For paracompact $X$ this goes back to ([Segal68](#Segal68)). The general case is
 
 The first occurence of the definition of geometric realization of simplicial topological spaces seems to be
 
-* [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam]())
-{#Segal68}
+* {#Segal68} [[Graeme Segal]],  _Classifying spaces and spectral sequences_ Publications Math&#233;matiques de l'IH&#201;S, 34 (1968), p. 105-112  ([numdam]())
+
 
 but the construction was implicit in earlier discussion of [[classifying space]]s. The observation that this is a [[coend]] was noted in
 
@@ -941,26 +941,25 @@ A proof that good simplicial spaces are proper is implicit in the proof of lemma
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]] is in 
 
-* [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460]())
- {#RobertsStevenson}
+* {#RobertsStevenson} [[David Roberts]], [[Danny Stevenson]], _Simplicial principal bundle in parameterized spaces_ ([arXiv:1203.2460](http://arxiv.org/abs/1203.2460))
+ 
 
-* [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461]())
- {#Stevenson}
-
+* {#Stevenson} [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
+ 
 
 Comments on the relation between properness and cofibrancy in the [[Reedy model structure]] on $[\Delta^{op}, Set]$ are made in 
 
-* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([arXiv:]()).
+* [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model Categories and Simplicial Methods_ ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/ucnotes.pdf)).
 
 The relation between (fat) geometric realization and [[homotopy colimit]]s is considered as prop. 17.5 and example 18.2 of
 
-* [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf]())
-{#Dugger}
+* {#Dugger} [[Daniel Dugger]], _A primer on homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
+
 
 The proof that geometric realization of proper simplicial spaces preserves weak equivalences is from
 
-* [[Peter May]], *$E_\infty$-spaces, group completions, and permutative categories*.  London Math. Soc. Lecture Notes No. 11, 1974, 61-93.
-{#May_Einf}
+* {#May_Einf} [[Peter May]], *$E_\infty$-spaces, group completions, and permutative categories*.  London Math. Soc. Lecture Notes No. 11, 1974, 61-93.
+
 
 A definition of the Bousfield-Kan map, and the Reedy model category theory necessary to show that it is a weak equivalence, can be found in
 
@@ -968,27 +967,27 @@ A definition of the Bousfield-Kan map, and the Reedy model category theory neces
 
 The (fat) geometric realization of ([[nerve]]s of) [[topological groupoid]]s is discussed in section 2.3 of
 
-* [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf]())
-{#GepnerHenriques}
+* {#GepnerHenriques} [[David Gepner]], [[André Henriques]], _Homotopy theory of orbispaces_ ([pdf]())
+
 
 
 
 Globally Kan simplicial spaces are considered in 
 
-* E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
+* {#BrownSzczarba} E. H. Brown and R. H. Szczarba, _Continuous cohomology and real homotopy
 type_ , Trans. Amer. Math. Soc. 311 (1989), no. 1, 57 ([pdf]())
-{#BrownSzczarba}
+
 
 The right adjoint to geometric realization of simplicial topological spaces is discussed in 
 
-* R. M. Seymour, _Kan fibrations in the category of simplicial spaces_
+* {#Seymour} R. M. Seymour, _Kan fibrations in the category of simplicial spaces_
 Fund. Math., 106(2):141-152, 1980. 
-{#Seymour}
+
 
 Geometric realization of general [[Cech nerve]]s is discussed in
 
-* [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
-{#DuggerIsaksen}
+* {#DuggerIsaksen} [[Dan Dugger]], D. C. Isaksen, _Topological hypercovers and $\mathbb{A}^1$- realizations, Math. Z. 246 (2004) no. 4 
+
 
 The behaviour of fibrations under geometric realization and the preservation of [[homotopy pullback]]s under geometric realization is discussed in
 
