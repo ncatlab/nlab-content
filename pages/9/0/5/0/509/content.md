@@ -123,10 +123,15 @@ The [[classifying topos]] for pointed object is the [[presheaf topos]] $PSh((Fin
 
 * [[smash product]]
 
+* [[topos of pointed objects]]
+
+* [[fibration of points]]
 
 ## References
 
-* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology 9 (2009) 2391-2441 ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
+* [[Francis Borceux]], [[Dominique Bourn]], _Mal'cev, Protomodular, Homological and Semi-Abelian Categories_ , Kluwer Dordrecht 2004.
+
+* [[Anthony Elmendorf]], [[Michael Mandell]], _Permutative categories, multicategories, and algebraic K-theory_, Algebraic & Geometric Topology **9** (2009) 2391-2441. ([arXiv:0710.0082](http://arxiv.org/abs/0710.0082))
  {#ElmendorfMandell07}
 
 [[!redirects pointed object]]
