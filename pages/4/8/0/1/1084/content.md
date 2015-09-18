@@ -494,7 +494,7 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #MappingConeForChainComplexesExplicitly}
 ###### Proposition
 
 The components of $cyl(f)_\bullet$ are
