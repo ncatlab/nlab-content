@@ -12,14 +12,12 @@ A **topological map** (or **embedded graph**) $M$ is a [[graph]] $G = (V,E,d)$ (
 
 3. the complement $X \setminus \theta(G)$ of the graph on the surface is a disjoint union of connected components, called _faces_, each [[homeomorphic]] to an open [[disk]] (in other words, each face is [[simply connected]]).
 
-These conditions can be summarized by saying that $\theta$ is a _cellular embedding_ (or "2-cell embedding").  Additionally, one may place several conditions on the underlying surface, e.g.:
+These conditions can be summarized by saying that $\theta$ is a _cellular embedding_ (or "2-cell embedding").
 
-* $X$ is [[compact space|compact]]
-* $X$ is [[connected space|connected]]
-* $X$ is [[oriented]]
-* $X$ is without [[boundary]]
+A morphism of topological maps $(G,X,\theta) \to (G',X',\theta')$ is a continuous function between the underlying spaces $f : X \to X'$ whose restriction to $\theta(G)$ defines a homomorphism of graphs $f : G \to G'$.
+Sometimes one may place additional conditions on the underlying surfaces and limit the morphisms between them accordingly.  For instance, typically one might assume that $X$ is [[compact space|compact]], [[connected space|connected]], [[oriented]] and without [[boundary]], and consider a map on $X$ as defined up to orientation-preserving homeomorphism.
 
-Topological maps are always considered up to the appropriate notion of homeomorphism, and they inherit various properties of the underlying surface.  For example, a graph embedded in a connected surface is itself necessarily a connected graph, and one speaks of the _genus_ of a map as the [[genus of a surface|genus]] of the underlying surface $X$.
+Topological maps inherit various properties of their underlying surfaces: for instance, a graph embedded in a connected surface is itself necessarily a connected graph.  One also speaks of the _genus_ of a map $(G,X,\theta)$ as the [[genus of a surface|genus]] of the underlying surface $X$.
 
 ## Embedded graphs versus abstract graphs
 
