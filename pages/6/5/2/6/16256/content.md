@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-4,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
+The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] the KK-monopole corresponds to the [[D6-brane]].
 
