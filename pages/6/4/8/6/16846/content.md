@@ -38,6 +38,8 @@ The **bornological topos** is a [[Grothendieck topos]] based on the concept of f
 
 ## References
 
+* L. Espa&#241;ol, _Extended real number object in the bornological topos_ , talk CT07 Carvoeiro 2007. ([pdf-slides](http://www.mat.uc.pt/~categ/ct2007/slides/espanol.pdf))
+
 * L. Espa&#241;ol, L. Lamb&#225;n, _A tensor-hom adjunction in a topos related to vector topologies and bornologies_ , JPAA **154** (2000) pp.143-158.
 
 * L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , JPAA **176** (2002) pp.113&#8211;125.
