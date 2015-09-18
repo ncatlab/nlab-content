@@ -98,6 +98,12 @@ _Toby_:  I disagree that 'morphism' before 'isomorphism' is more categorially se
 
 Under the second notion of morphism (where simple graphs are identified with sets equipped with a symmetric reflexive relation), the [[category of simple graphs]] has many desirable properties (q.v.). 
 
+## Definition in terms of action on a set of half-edges
+
+There is an equivalent definition of pseudograph in the above sense (i.e., of an undirected graph allowing loops and multiple edges) which sometimes appears in the study of [[ribbon graphs]] and [[combinatorial maps]], and which replaces the set of edges by a set of **half-edges**.  In this formulation, a graph is defined as a pair of sets $V$ and $H$ together with a function $s : H \to V$ and a [[fixed point]] free [[involution]] $i : H \to H$.  (An equivalent but more symmetrical formulation appears in Chapter 2.1 of [Serre 1977](#Serre1977), using a pair of source and target functions $(s,t) : H \to V\times V$ such that $s\circ i = t$.)
+
+The edges of the graph $(V,H,s,i)$ are just the orbits of $i$, which (since $i$ is a fixed point free involution) are all of length 2, corresponding to pairs of half-edges.  Lifting the condition that $i$ has no fixed points allows to represent graphs with "dangling" edges, while lifting the condition that it is an involution (i.e., allowing $i$ to be an arbitrary permutation) allows for the representation of [[hypergraphs]].
+
 ## Flavors of graphs
 
 * [[reflexive graph]]
@@ -127,6 +133,8 @@ Under the second notion of morphism (where simple graphs are identified with set
 * Frank Harary (1969), _Graph Theory_, Addison-Wesley.
 
 * Frank Harary and E.M. Palmer (1973), _Graphical Enumeration_, Academic Press.
+
+* {#Serre1977} [[Jean-Pierre Serre]] (1977), _Trees_, Springer.
 
 * [[Joachim Lambek]] and [[Philip Scott]] (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
 
