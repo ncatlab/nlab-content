@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-There may also be other lifts of $f$, but the universal one is essentially unique, as usual for anything having a [[universal property]].  Specifically, $\hat f$ in $X$ is essentially uniquely determined by its source $\hat y_1$ and its image $f = p(\hat f)$ in $Y$, and is called a __cartesian morphism__.  A morphism which is cartesian relative to $p^{op}\colon X^{op}\to Y^{op}$ is called __opcartesian__ or __cocartesian__.
+There may also be other lifts of $f$, but the universal one is essentially unique, as usual for anything having a [[universal property]].  Specifically, $\hat f$ in $X$ is essentially uniquely determined by its target $\hat y_2$ and its image $f = p(\hat f)$ in $Y$, and is called a __cartesian morphism__.  A morphism which is cartesian relative to $p^{op}\colon X^{op}\to Y^{op}$ is called __opcartesian__ or __cocartesian__.
 
 If there are enough cartesian morphisms in $Y$, they may be used to define [[functor]]s
 
@@ -138,9 +138,9 @@ exists.
 ###### Definition
 **(Grothendieck fibration)**
 
-If for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism in the strong sense, one says that $p$ is a __fibered category__ (also called [[Grothendieck fibration]]). Equivalently, 
+If for every morphism in $Y$ and every lift of its target there is at least one lift which has as its target the chosen one and is a $p$-cartesian morphism in the strong sense, one says that $p$ is a __fibered category__ (also called [[Grothendieck fibration]]). Equivalently, 
 
-* ($p$ is [[prefibered category]]) for every morphism in $Y$ there is at least one lift through $p$ that is a $p$-cartesian morphism in the weak sense 
+* ($p$ is [[prefibered category]]) for every morphism in $Y$ and every lift of its target there is at least one lift through $p$ which has as its target the chosen one and is a $p$-cartesian morphism in the weak sense 
 
 *and* 
 
@@ -376,7 +376,7 @@ This is [[Higher Topos Theory|HTT remark 2.4.1.4]].
 +-- {: .num_remark}
 ###### Remark
 
-This means that an [[inner fibration]] $p : X \to Y$ with a collection of $p$-cartesian morphisms in $X$ specified satisfies the same kind of condition as a _[[right fibration]]_ , the only difference being that not _all_ right outer horns inclusion are required to have lifts, but only those where the last edge of the horn maps to a cartesion morphism.
+This means that an [[inner fibration]] $p : X \to Y$ with a collection of $p$-cartesian morphisms in $X$ specified satisfies the same kind of condition as a _[[right fibration]]_ , the only difference being that not _all_ right outer horns inclusion are required to have lifts, but only those where the last edge of the horn maps to a cartesian morphism.
 
 In this sense a [[Cartesian fibration]] is a generalization of a [[right fibration]].
 
@@ -417,7 +417,7 @@ This is [[Higher Topos Theory|HTT, prop. 2.4.4.3]].
 
 #### In $sSet$-categories
 
-Let $C$ and $D$ be [[simplicially enriched categories]] and $F : C \to D$ an [[sSet]]-[[enriched functor]].
+Let $C$ and $D$ be [[simplicially enriched categories]] and $F : C \to D$ a [[sSet]]-[[enriched functor]].
 
 +-- {: .num_defn}
 ###### Definition
