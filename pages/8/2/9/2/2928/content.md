@@ -21,6 +21,7 @@ In [[combinatorics]], an important class of involutions are the [[fixed point]] 
 
 ## Related concepts
 
+* [[dagger category]]
 * [[duality]]
 
 ## References
