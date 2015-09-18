@@ -38,6 +38,8 @@ Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_
 
 * [[gros topos]]
 
+* [[bornological topos]]
+
 * [[effective topos]]
 
 * [[generic interval]]
@@ -49,9 +51,6 @@ Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_
 
 ## References
 
-* L. Espa&#241;ol, L. Lamb&#225;n, _A tensor-hom adjunction in a topos related to vector topologies and bornologies_ , JPAA **154** (2000) pp.143-158.
-
-* L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , JPAA **176** (2002) pp.113&#8211;125.
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; ex.0.10, p.21)
 
