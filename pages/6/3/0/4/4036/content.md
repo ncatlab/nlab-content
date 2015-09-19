@@ -155,6 +155,8 @@ Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good 
 =--
 
 
+### Existence on CW complexes 
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -174,9 +176,9 @@ i \downarrow & & \downarrow \\
 D^{n+1} & \to & Y
 }$$ 
 
-also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under nonempty finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$. Then, if $V$ is relatively open in the boundary $S^n$, $Hull(V)$ is open in $D^{n+1}$. It follows that the image in $Y$ of 
+also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under nonempty finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$ in $D^{n+1}$. If $V$ is relatively open in the boundary $S^n$, we can choose for each $x \in V$ a small open neighborhood $V_x \subseteq Hull(V)$ of $x$ such that $y \in V_x$ implies $t y \in V_x$ whenever $1 \leq t \leq 1/{|y|}$; having made such choices, put $H(V) \coloneqq (\bigcup_{x \in V} V_x) \cap \{z \in D^{n+1}: {|z|} \gt 1/2\}$. Now the image in $Y$ of 
 
-$$V_\alpha \coloneqq U_\alpha \cup Hull(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
+$$V_\alpha \coloneqq U_\alpha \cup H(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
 
 is open in $Y$, and it is contractible: define a contracting homotopy 
 $$H_\alpha: I \times V_\alpha \to V_\alpha$$ 
