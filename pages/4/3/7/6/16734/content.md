@@ -1,13 +1,24 @@
-##This is ZHUO CHEN ##
+## Zhuo Chen ##
 
 
-Position: Associated Professor 
-
-Institute:
-
-Department of Math,Tsinghua University
+Professor of Mathematics
 
 
-Research interests:
 
-Poisson Geometry,Non-linear Lie Theories. 
+
+###Institute:###
+
+Department of Mathematics, Tsinghua University
+
+###Address:###
+
+Tsinghua University Campus,  
+100084
+Beijing, China. P.R.China
+
+
+###Research Interests:###
+
+Poisson geometry, non-linear Lie theories.
+
+ 
