@@ -3,7 +3,7 @@
 
 Professor of Mathematics
 
-
+![Alt text](http://p0.qhimg.com/dr/200_200_/t015898f97b746081fd.jpg)
 
 
 ###Institute:###
@@ -21,4 +21,3 @@ Beijing, China. P.R.China
 
 Poisson geometry, non-linear Lie theories.
 
- 
