@@ -65,7 +65,7 @@ A **combinatorial hypermap** is a set $D$ equipped with a triple of [[permutatio
 1. the composition of the permutations is the identity: $\phi\alpha\sigma = id$.
 =--
 
-A combinatorial hypermap gives a representation of a topological embedding of a [[hypergraph]] in a oriented surface, but (as first noted by Walsh) this turns out to be equivalent to an embedding of an ordinary graph equipped with a [[graph coloring|2-coloring]] of the vertices -- say, in black and white -- such that no two adjacent vertices have the same color. (Such a graph is necessarily [[bipartite]].) The permutations $\sigma$ and $\alpha$ represent the cycles around the black and white vertices, respectively, while $\phi$ as before represents the faces.  Any ordinary map with all black vertices can be seen as a hypermap with a white vertex in the middle of each edge (this goes well with the view of darts as half-edges), and from that perspective, the definition of hypermap simply correspond to lifting the restriction that white vertices have degree 2.
+A combinatorial hypermap gives a representation of a topological embedding of a [[hypergraph]] in a oriented surface, but (as noted by Walsh) this is equivalent to an embedding of an ordinary graph equipped with a [[vertex coloring|2-coloring]] of its vertices. (Such a graph is necessarily a [[bipartite graph]].) Then, the permutations $\sigma$ and $\alpha$ represent the cycles around the black and white vertices, respectively, while $\phi$ as before represents the faces.  Any ordinary map with all black vertices can be seen as a hypermap with a white vertex dividing each edge (thinking of darts as half-edges), and from that perspective, the definition of hypermap simply corresponds to lifting the restriction that white vertices have degree 2.
 
 Both of these generalizations of the standard notion of combinatorial map are studied in the literature on so-called [[dessins d'enfants]], sometimes using the following terminology to distinguish the different cases:
 
@@ -263,3 +263,5 @@ Let $d \in D$ be any dart of $M$.  Since the action of $\mathcal{C}_2^+$ is tran
 [[!redirects combinatorial maps]]
 [[!redirects combinatorial hypermap]]
 [[!redirects combinatorial hypermaps]]
+[[!redirects hypermap]]
+[[!redirects hypermaps]]
