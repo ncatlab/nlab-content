@@ -178,7 +178,7 @@ A [[term]] of the form (eq:cmpcterm) can equivalently be regarded as a term of t
 
 The additional insight in the following definition is that if we expect all of these terms to be determined by the morphisms in $C$, as in a category with attributes or a full comprehension category, then instead of specifying the functor $E\to C^I$ and then asking either that it be fully faithful or that $E$ be discrete (removing the information about extra morphisms in $E$), if we specify the terms of the form (eq:cwfterm), then the functor $E\to C^I$ is determined by a universal property.
 
-Let $Fam$ denote the category of families of sets.  Its morphisms are set-indexed families $(A_i)_{i\in I}$, and its morphisms $(A_i)_{i\in I} \to (B_j)_{j\in J}$ consist of a function $f\colon I\to J$ and functions $g_j \colon A_i \to B_{f(i)}$.  We can equivalently, of course, regard this as the arrow category $Set^I$ of [[Set]], where $(A_i)_{i\in I}$ corresponds to the arrow $\coprod A \to I$.
+Let $Fam$ denote the category of families of sets.  Its morphisms are set-indexed families $(A_i)_{i\in I}$, and its morphisms $(A_i)_{i\in I} \to (B_j)_{j\in J}$ consist of a function $f\colon I\to J$ and functions $g_j \colon A_i \to B_{f(i)}$.  We can equivalently, of course, regard this as the arrow category $Set^I$ of [[Set]], where $(B_j)_{j\in J}$ corresponds to the arrow $\coprod B \to J$.
 
 +-- {: .num_defn #CategoryWithFamilies}
 ###### Definition
