@@ -1,0 +1,5 @@
+A **bipartite graph** is a [[graph]] $G$ equipped with a [[vertex coloring|2-coloring]] of its vertices, i.e., equipped with a graph homomorphism $f : G \to K_2$.
+
+## References
+
+* Wikipedia: [Bipartite graph](https://en.wikipedia.org/wiki/Bipartite_graph)
