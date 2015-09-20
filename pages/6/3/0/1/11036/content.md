@@ -242,7 +242,7 @@ Proofnets originated with Girard's seminal paper introducing linear logic:
 
 * {#Trimble94} [[Todd Trimble]], _Linear Logic, Bimodules, and Full Coherence for Autonomous Categories_, Rutgers 1994
 
-* {#BCST96} [[Richard Blute]], Cockett, [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X))
+* {#BCST96} [[Richard Blute]], [[J.R.B. Cockett]], [[R. A. G. Seely]], [[Todd Trimble]], _Natural deduction and coherence for weakly distributive categories_, JPAA 113 (1996), 229-296. ([web](http://www.sciencedirect.com/science/article/pii/002240499500159X))
 
 * {#JdNM08} Paulin Jacob&#233; de Naurois and Virgile Mogbil, _Correctness of Linear Logic Proof Structures is NL-Complete_ ([pdf](https://hal.archives-ouvertes.fr/hal-00360894/document))
 
