@@ -11,7 +11,7 @@
 
 ## Idea
 
-In an ordinary [[graph]], each edge $e$ links a pair of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing an edge to link any number of vertices.  Any hypergraph $H$ induces a [[bipartite graph]] $G(H)$ in which the (hyper)vertices and (hyper)edges of $H$ are represented respectively as black vertices and white vertices of $G(H)$, with an edge $x \sim e$ in $G(H)$ if and only if $x$ and $e$ are mutually incident in $H$.
+In an ordinary [[graph]], each edge $e$ links a pair of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing an edge to link any number of vertices.  Any hypergraph $H$ induces a [[vertex coloring|2-colored]] [[bipartite graph]] $G(H)$ in which the (hyper)vertices and (hyper)edges of $H$ are represented respectively as black vertices and white vertices of $G(H)$, with an edge $x \sim e$ in $G(H)$ if and only if $x$ and $e$ are mutually incident in $H$.
 
 ## Related concepts
 
