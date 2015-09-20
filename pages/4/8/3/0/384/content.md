@@ -58,9 +58,29 @@ A CW-complex is a [[locally contractible topological space]].
 
 =--
 
-For instance ([Hatcher, prop. A.4](#Hatcher)).
+For instance ([Hatcher, prop. A.4](#Hatcher)). 
 
 
+### Up to homotopy equivalence 
+
++-- {: .num_theorem} 
+###### Theorem 
+Every CW complex is homotopy equivalent to (the [realization](/nlab/show/simplicial+complex#geometric_realisations_and_polyhedra) of) a [[simplicial complex]]. 
+=-- 
+
+See [Gray](#Gray), Corollary 16.44 (p. 149) and Corollary 21.15 (p. 206). 
+
++-- {: .num_cor} 
+###### Corollary 
+Every CW complex is homotopy equivalent to a space that admits a [[good open cover]]. 
+=-- 
+
++-- {: .num_theorem} 
+###### Theorem 
+If $Y$ has the [[homotopy type]] of a CW complex and $X$ is a finite CW complex, then the function space $Y^X$ with the [[compact-open topology]] has the homotopy type of a CW complex. 
+=-- 
+
+This is proven in [Milnor](#Milnor). 
 
 ### Subcomplexes
  {#Subcomplexes}
@@ -221,11 +241,14 @@ Basic textbook accounts include
  {#May}
 
 * [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
- {#Hatcher}
+ {#Hatcher} 
+
+* Brayton Gray, _Homotopy Theory: An Introduction to Algebraic Topology_, Academic Press, New York (1975). 
 
 Original articles include
 
-* [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280.
+* [[John Milnor]], _On spaces having the homotopy type of a CW-complex_, Trans. Amer. Math. Soc. 90 (2) (1959), 272-280. 
+ {#Milnor} 
 
 * [[John Milnor]], _The geometric realization of a semi-simplicial complex_, Annals of Mathematics, 2nd Ser., __65__, n. 2. (Mar., 1957), pp. 357-362; [pdf](http://www.math.binghamton.edu/dwyer/Milnor-GeomReal.pdf)
  {#Milnor57}
