@@ -45,6 +45,8 @@ Francesco Bonechi (INFN Sezione di Firenze)
 
 Liqiang Cai (Jilin University)
 
+Xiongwei Cai (University of Luxembourg)
+
 Zhuo Chen (Tshinghua University)
 
 Nicola Ciccoli* (University of Perugia)
@@ -57,11 +59,9 @@ Samuel Evens (University of Notre Dame)
 
 Huiju Fan (Peking University)
 
-Anna Fino* (Universita di Torino)
-
 Janusz Grabowski (Polish Academy of Sciences)
 
-Jinsong He* (Ningbo University)
+Jinsong He (Ningbo University)
 
 Wei Hong (Wuhan University)
 
@@ -78,6 +78,8 @@ Camille Laurent-Gengoux (The University of Poitiers)
 Si Li (Boston University)
 
 Hui Li (Suzhou University)
+
+Yanpeng Li (Peking University)
 
 Jiefeng Liu (Jilin University)
 
@@ -107,9 +109,13 @@ Changzheng Qu*  (Ningbo University)
 
 Hajime Sato (Nagoya University)
 
+Martin Schlichenmaier (University of Luxembourg)
+
 Yunhe Sheng (Jilin University)
 
 Reyer Sjamaar  (Cornell University)
+
+Song Gao (Peking University)
 
 Mathieu Stienon (Penn State University)
 
@@ -127,7 +133,7 @@ Hong Wang (Nankai University)
 
 Qi Wang (Jilin University)
 
-Shikun Wang* (Chinese Academy of Science)
+Shikun Wang (Chinese Academy of Science)
 
 Ke Wu* (Capital Normal University)
 
@@ -143,7 +149,7 @@ Tao Zhang (Henan Normal University)
 
 Youjin Zhang* (Tshinghua University)
 
-Zhujun Zheng* (South China University of Technology)
+Zhujun Zheng (South China University of Technology)
 
 Deshou Zhong (China Youth University of Political Studies)
 
