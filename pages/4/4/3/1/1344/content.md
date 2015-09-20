@@ -65,7 +65,7 @@ $$
   (\Delta\downarrow X)_{nondeg}\hookrightarrow (\Delta\downarrow X)
 $$ 
 
-for the [[subcategory]] on the nondegenerate simplices with [[monomorphisms]] between them.
+for the [[full subcategory]] on the nondegenerate simplices, with [[monomorphisms]] between them.
 
 This is called the **category of non-degenerate simplices**.
 
@@ -91,14 +91,6 @@ See at _[barycentric subdivision -- Relation to the category of simplices](subdi
 The category of simplices is a [[Reedy category]].
 
 =--
-
-+-- {: .num_prop}
-###### Proposition
-
-The inclusion of the non-generate simplices $(\Delta \downarrow X)_{nondeg} \hookrightarrow (\Delta \downarrow X)$ has a [[left adjoint]] and is hence a [[reflective subcategory]].
-
-=--
-
 
 ### Colimits
 
