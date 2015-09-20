@@ -157,51 +157,17 @@ Then the family of composites $\{W_{i,j} \to f^* U_i \to V\}$ is clearly a good 
 
 ### Existence on CW complexes 
 
-+-- {: .num_prop }
-###### Proposition
++-- {: .num_theorem}
+###### Theorem 
 
-Every [[CW complex]] admits a good open cover. 
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-It suffices to prove that if $X$ admits a good open cover and $\phi: S^n \to X$ is an attaching map, then the [[pushout]]
- 
-$$\array{
-S^n & \stackrel{\phi}{\to} & X \\
-i \downarrow & & \downarrow \\
-D^{n+1} & \to & Y
-}$$ 
-
-also admits a good open cover. Let $\{U_\alpha\}$ be a good open cover of $X$ closed under nonempty finite intersections, and choose a contracting [[homotopy]] $h_\alpha: I \times U_\alpha \to U_\alpha$ such that $h_\alpha(0, -) = id$ and $h_\alpha(1, -)$ is constant. For any subset $S \subseteq D^{n+1}$, let $Hull(S)$ denote the [[convex hull]] of $S$ in $D^{n+1}$. If $V$ is relatively open in the boundary $S^n$, we can choose for each $x \in V$ a small open neighborhood $V_x \subseteq Hull(V)$ of $x$ such that $y \in V_x$ implies $t y \in V_x$ whenever $1 \leq t \leq 1/{|y|}$; having made such choices, put $H(V) \coloneqq (\bigcup_{x \in V} V_x) \cap \{z \in D^{n+1}: {|z|} \gt 1/2\}$. Now the image in $Y$ of 
-
-$$V_\alpha \coloneqq U_\alpha \cup H(\phi^{-1}(U_\alpha)) \subseteq X \cup D^{n+1}$$ 
-
-is open in $Y$, and it is contractible: define a contracting homotopy 
-$$H_\alpha: I \times V_\alpha \to V_\alpha$$ 
-
-by 
-
-$$
-H_\alpha(t, v) = \left\{ 
-
-\array{
-(1 - 2t)v + 2t \frac{v}{|v|} & 0 \leq t \lt \frac1{2}, v \in int(D^{n+1}) \cap V_\alpha \\
-
-v & 0 \leq t \leq \frac1{2}, v \in U_\alpha \\
-
-h_\alpha(2t - 1, \phi(\frac{v}{|v|})) & \frac1{2} \leq t \leq 1, v \in int(D^{n+1}) \cap V_\alpha \\
-
-h_\alpha(2t - 1, v) & \frac1{2} \leq t \leq 1, v \in U_\alpha
-} \right.
-$$
-
-These sets $V_\alpha$ together with $int(D^{n+1})$ form a good open cover of $Y$. 
+Every finite [[CW complex]] admits a good open cover. 
 
 =--
+
+Hopefully someone can find a clear reference to a proof. The assertion for finite CW complexes is found for example [here](https://books.google.com/books?id=dL8FCAAAQBAJ&pg=PA37&lpg=PA37&dq=%22good+cover%22+%22CW+complex%22&source=bl&ots=GrZW-ZGSpU&sig=eLwTeBNnBYJuEYBJ-6JCPTPvw1g&hl=en&sa=X&ved=0CDgQ6AEwBGoVChMIlJCJzIOGyAIVCmg-Ch2FQwlj#v=onepage&q=%22good%20cover%22%20%22CW%20complex%22&f=false) (Topology of Tiling Spaces by Sadun, p. 37). It is not immediately clear from the remarks there what obstructions would exist to generalizing the assertion to all CW complexes.
+
+As indicated at [[CW complex]], every CW complex is *homotopy equivalent* to a simplicial complex, and simplicial complexes certainly admit good covers by taking open stars. 
+
 
 ### (Non-)Existence for topological manifolds
 
