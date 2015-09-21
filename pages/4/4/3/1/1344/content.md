@@ -88,6 +88,13 @@ See at _[barycentric subdivision -- Relation to the category of simplices](subdi
 +-- {: .num_prop}
 ###### Proposition
 
+If $X$ has the property that every face of every non-degenerate simplex is again non-degenerate, then the inclusion of the category of non-generate simplices $(\Delta \downarrow X)_{nondeg} \hookrightarrow (\Delta \downarrow X)$ has a [[left adjoint]] and is hence a [[reflective subcategory]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
 The category of simplices is a [[Reedy category]].
 
 =--
