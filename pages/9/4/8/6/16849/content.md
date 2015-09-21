@@ -1,13 +1,5 @@
 A **bipartite graph** is a [[graph]] $G$ whose vertices can be [[vertex coloring|2-colored]], i.e., such that there exists a graph homomorphism $G \to K_2$.
 
-+--{: .query}
-
-Thomas: This is really what you want ? Normally, being bipartite is property of a graph not a structure. As you define it it amounts to being an object in $Grph/K_2$. This might be an ([[étendue]]) topos, presumably equivalent to the slice over $K_2$ of the topos of involutory directed graphs, cf. a related construction in Lawvere 1986 .
-
-Noam: That's a good point.  I am changing "equipped with a 2-coloring" to "can be 2-colored", which suggests the property reading (but presumably doesn't entirely rule out the possibility of a structure reading).  Thanks for the reference to Lawvere!
-
-=--
-
 ## Related entries
 
 * [[vertex coloring]]
