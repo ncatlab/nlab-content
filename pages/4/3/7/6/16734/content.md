@@ -19,5 +19,7 @@ Beijing, China. P.R.China
 
 ###Research Interests:###
 
-Poisson geometry, non-linear Lie theories.
+[[Poisson geometry]], non-linear [[Lie theory|Lie theories]].
 
+
+category: people
