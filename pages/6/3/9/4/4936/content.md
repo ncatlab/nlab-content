@@ -1,8 +1,14 @@
+[[!redirects star-shaped neighborhood]]
 
-For $V$ a [[vector space]], a **star shaped neighbourhood** of the origin is an open [[neighbourhood]] $U \subset V$ such that with $v \in U$ and $s \in [0,1]$ also $s v \in U$.
+For $V$ a [[vector space]], a **star domain** about the origin is an inhabited subset $U \subset V$ such that with $v \in U$ and $s \in [0,1]$ also $s v \in U$.
 
-More generally, for $X$ a [[real number|real]] [[affine space]], **star shaped neighbourhood** of a point $x\in X$ is an open [[neighbourhood]] $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
+More generally, for $X$ a [[real number|real]] [[affine space]], a **star domain** about a point $x\in X$ is an inhabited subset $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
 
+These definitions can be modified in various obvious ways. For example, a **star shaped neighbourhood** of a point $x$ in an affine space $X$ is an open [[neighbourhood]] $U \subset X$ of $x$ that is a star domain about $x$. Or, a subset is a star domain if it is a star domain about one of its points. 
+
+A useful special case pertains to a [[simplicial complex]] $K$, where if $v$ is a vertex of $K$, then the **open star** of $v$ is the union of the interiors in ${|K|}$ of all the simplices containing $v$. Open stars of vertices provide a [[good open cover]] of a simplicial complex. 
+
+A [[convex set]] is the same as a set that is a star domain about each of its points. 
 
 [[!redirects star-shaped]]
 [[!redirects star shaped]]
@@ -14,3 +20,7 @@ More generally, for $X$ a [[real number|real]] [[affine space]], **star shaped n
 [[!redirects star shaped neighborhood]]
 [[!redirects star-shaped neighbourhood]]
 [[!redirects star shaped neighbourhood]]
+
+[[!redirects star domains]] 
+[[!redirects star-shaped domain]] 
+[[!redirects star-shaped domains]] 
