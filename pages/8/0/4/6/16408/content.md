@@ -121,7 +121,7 @@ Any embedded graph has a dual graph embedded into the same surface, constructed 
 
 ## Equivalence with other families of objects
 
-### Maps on oriented surfaces as face 2-colored tetravalent maps (= alternating virtual links)
+### Tetravalent maps with bicolored faces
 
 To any graph $G$ embedded in an oriented surface $X$, one can associate a tetravalent graph $G^m$ embedded in the same surface $X$ by the following construction:
 
@@ -133,7 +133,9 @@ In graph theory, this is known as the **medial graph** construction.  As with th
 
 Two topological maps $M_1$ and $M_2$ have isomorphic medial maps $M_1^m \cong M_2^m$ if and only if they are either isomorphic $M_1 \cong M_2$ or dual $M_1 \cong M_2^*$.  To distinguish between duals, one can define a 2-coloring of the _faces_ of the medial map as follows: a face of $M^m$ is colored in black just in case it contains a vertex of $M$, and white otherwise.  The construction of the 2-colored medial map thus defines a one-to-one correspondence between general maps and face 2-colored tetravalent maps on oriented surfaces.
 
-Moreover, this provides a connection between the theory of embedded graphs and [[knot theory]] (specifically [[virtual knot theory]]), since any _alternating_ virtual link is naturally represented by a face 2-colored tetravalent map: each ordinary crossing becomes a vertex of degree 4, with faces colored according to the pattern of under/over crossings (virtual crossings appearing in the link diagram disappear when the knot is embedded into the appropriate surface of higher genus).  This connection is discussed in Section 4 of [Zinn-Justin and Zuber 2004](#ZJZ2004), and in particular, Zinn-Justin and Zuber show how to encode any alternating virtual link as a combinatorial map.
+### Alternating virtual links
+
+Any _alternating_ virtual link (in the sense of [[virtual knot theory]]) is naturally represented by a face 2-colored tetravalent map: each ordinary crossing becomes a vertex of degree 4, with faces colored according to the pattern of under/over crossings (virtual crossings appearing in the link diagram disappear when the knot is embedded into the appropriate surface of higher genus).  Thus, any alternating virtual link can be encoded by a unique combinatorial map, and vice versa: see Section 4 of [Zinn-Justin and Zuber 2004](#ZJZ2004) where they discuss this representation.
 
 ## The category of oriented maps
 
