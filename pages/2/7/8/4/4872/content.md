@@ -34,6 +34,7 @@
   * [[singular knot]]
   * [[Vassiliev skein relation]]
   * [[Seifert surface]]
+  * [[virtual knot theory]]
 
 [edit this sidebar](http://ncatlab.org/nlab/edit/knot+theory+-+contents)
 
