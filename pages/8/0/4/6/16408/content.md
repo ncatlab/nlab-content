@@ -49,7 +49,6 @@ Let $\theta$ be an embedding of a [[graph]] $G$ with $n$ edges into a [[surface]
 
 * if we start at any dart $d \in D$, then apply the permutation $\sigma$ followed by $\alpha$ followed followed by $\phi$, we always end up back at $d$.
 
-
 ### Hypermaps and constellations
 
 There are several directions for generalizing the classical definition. A small but useful generalization is to drop the requirement that $\alpha$ be [[fixed point]] free, while keeping the requirement that it be an [[involution]] (i.e., that $\alpha^2 = id$).  This can be seen as allowing the possibility for the graph to include "dangling edges".  In particular, every $\alpha$-[[orbit]] has length 2 or 1, with orbits of length 2 representing complete edges and orbits of length 1 representing dangling edges.
@@ -104,9 +103,9 @@ More generally, we can say that a map has type $(m,n)$ if the permutations $\sig
 
 Conversely, any combinatorial map $M = (D,(\sigma,\alpha,\phi))$ can be realized as a graph embedded in a surface, in other words as a [[topological map]].  The first explicit algorithm for computing such an embedding was given by [Edmonds 1960](#Edmonds60).
 
-The underlying graph $G$ of $M$ is easy to describe using the "Serre" definition of a graph (as explained [[graph#definition_in_terms_of_action_on_a_set_of_halfedges|here]]) $G = (H,V,i,s)$.  The set of half-edges $H$ and the involution $i$ are just $D$ and $\alpha$, respectively, while the set of vertices $V$ is the set of $\sigma$-orbits, and the function $s : H \to V$ sends any dart to its orbit under $\sigma$.
+The underlying graph $G(M)$ of $M$ is easy to describe using the "Serre" definition of a graph (as explained [[graph#definition_in_terms_of_action_on_a_set_of_halfedges|here]]) $G(M) = (H,V,i,s)$.  The set of half-edges $H$ and the involution $i$ are just $D$ and $\alpha$, respectively, while the set of vertices $V$ is the set of $\sigma$-orbits, and the function $s : H \to V$ sends any dart to its orbit under $\sigma$.
 
-Some more work is required in order to define a surface and an embedding of $G$ into that surface.  [Jones and Singerman 1978](#JonesSingerman78) actually proved a stronger result than Edmonds' algorithm, showing that any combinatorial map (of finite type $(m,n)$) can be realized as a graph embedded in a [[Riemann surface]].  As a corollary, this implies that any topological map (on a compact oriented surface without boundary) is isomorphic to some canonical map on a Riemann surface.
+Some more work is required in order to define a surface $X$ and an embedding of $G(M)$ into $X$.  [Jones and Singerman 1978](#JonesSingerman78) actually proved a stronger result than Edmonds' algorithm, showing that any combinatorial map (of finite type $(m,n)$) can be realized as a graph embedded in a [[Riemann surface]].  As a corollary, this implies that any topological map (on a compact oriented surface without boundary) is isomorphic to some canonical map on a Riemann surface.
 
 ### Genus of a combinatorial map
 
@@ -115,6 +114,26 @@ The **genus** $g$ of a combinatorial map $M = (\sigma,\alpha,\phi)$ can be defin
 $$\chi(M) = c(\sigma) - c(\alpha) + c(\phi) = 2-2g$$
 
 where $c(\pi)$ counts the number of cycles in the [[permutation#via_cycle_decompositions|cyclic decomposition]] of $\pi$ (i.e., the number of $\pi$-[[orbits]]).  This definition of genus agrees with the genus of the underlying surface of the embedded graph associated to $M$.
+
+### Dual map
+
+Any embedded graph has a dual graph embedded into the same surface, constructed by placing a vertex in the middle of each face, and connecting two vertices whenever the corresponding faces share an edge.  This construction is particularly easy to express on combinatorial maps: for any $M = (D,(\sigma,\alpha,\phi))$, the corresponding **dual map** is defined by $M^* = (D,(\phi^{-1},\alpha^{-1},\sigma^{-1}))$.  This operation is clearly an involution (with fixed points, since some maps are self-dual).  Moreover, it extends to an operation on hypermaps.
+
+## Equivalence with other families of objects
+
+### Maps on oriented surfaces as face 2-colored tetravalent maps (= alternating virtual links)
+
+To any graph $G$ embedded in an oriented surface $X$, one can associate a tetravalent graph $G^m$ embedded in the same surface $X$ by the following construction:
+
+* one vertex $v_e \in G^m$ for every edge $e \in G$;
+
+* one edge $v_{e_1} \sim v_{e_2} \in G^m$ for every ordered pair of edges $e_1,e_2 \in G$ which occur consecutively along the same face in $\theta(G)$.
+
+In graph theory, this is known as the **medial graph** construction.  As with the dual graph construction, though, note that this is only well-defined as an operation on embedded graphs (i.e., topological maps) rather than on abstract graphs: the same graph can have different medial graphs, depending on how it is embedded into a surface.  To avoid confusion, we refer to this as the **medial map** construction.
+
+Two topological maps $M_1$ and $M_2$ have isomorphic medial maps $M_1^m \cong M_2^m$ if and only if they are either isomorphic $M_1 \cong M_2$ or dual $M_1 \cong M_2^*$.  To distinguish between duals, one can define a 2-coloring of the _faces_ of the medial map as follows: a face of $M^m$ is colored in black just in case it contains a vertex of $M$, and white otherwise.  The construction of the 2-colored medial map thus defines a one-to-one correspondence between general maps and face 2-colored tetravalent maps on oriented surfaces.
+
+Moreover, this provides a connection between the theory of embedded graphs and [[knot theory]] (specifically [[virtual knot theory]]), since any _alternating_ virtual link is naturally represented by a face 2-colored tetravalent map: each ordinary crossing becomes a vertex of degree 4, with faces colored according to the pattern of under/over crossings (virtual crossings appearing in the link diagram disappear when the knot is embedded into the appropriate surface of higher genus).  This connection is discussed in Section 4 of [Zinn-Justin and Zuber 2004](#ZJZ2004), and in particular, Zinn-Justin and Zuber show how to encode any alternating virtual link as a combinatorial map.
 
 ## The category of oriented maps
 
@@ -190,13 +209,13 @@ If $h : M_1 \to M_2$ is a morphism of combinatorial maps and $D_1$ is [[inhabite
 
 +-- {: .proof} 
 ###### Proof 
-Let $d_2 \in D_2$.  By assumption that $D_1$ is inhabited there exists a $d_1 \in D_1$, and by assumption of transitivity there exists $w \in \mathcal{C}_2^+$ such that $d_2 = h(d_1) *_2 w$.  Since $h(d_1) *_2 w = h(d_1 *_1 w)$, the dart $d_1 * w \in D_1$ is in the inverse image of $d_2 \in D_2$.
+Let $d_2 \in D_2$.  By assumption that $D_1$ is inhabited there exists a $d_1 \in D_1$, and by assumption of transitivity there exists $w \in \mathcal{C}_2^+$ such that $d_2 = h(d_1) *_2 w$.  Since $h(d_1) *_2 w = h(d_1 *_1 w)$, the dart $d_1 *_1 w \in D_1$ is in the inverse image of $d_2 \in D_2$.
 =--
 
 
 ### Rooted maps
 
-Enumeration of maps is an active branch of [[combinatorics]], going back to the work of [[W. T. Tutte]] in the 1960s.  One of the difficulties with trying to count (combinatorial or topological) maps directly, though, is that they can have non-trivial symmetries (which would need to be accounted for to avoid double-counting).  This is why combinatorists typically study _rooted maps_, as suggested in this autobiographical account by Tutte:
+Enumeration of maps is an active branch of [[combinatorics]], going back to the work of [[W. T. Tutte]] in the 1960s.  One of the difficulties with trying to count (combinatorial or topological) maps directly, though, is that they can have non-trivial symmetries, which would need to be accounted for to avoid double-counting.  This is why combinatorists typically begin with the easier problem of counting _rooted maps_, as suggested in this autobiographical account by Tutte:
 
 > Having made no progress with the enumeration of these diagrams [(strict triangulations of the plane)] I bethought myself of Cayley's work on the enumeration of trees. His first successes had been with the rooted trees, in which one vertex is distinguished as the "root". Perhaps I should root the strict triangulations in some way and try to enumerate the rooted ones. Eventually I decided that the rooting should consist of the choice of a face, edge and vertex, mutually incident....
 
@@ -255,6 +274,8 @@ Let $d \in D$ be any dart of $M$.  Since the action of $\mathcal{C}_2^+$ is tran
 * {#LandoZvonkin04} [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
 * [[Alexander K. Zvonkin]], Functional Composition is a Generalized Symmetry, _Symmetry: Culture and Science_ Vol. 21, Nos.1-4, 333-368, 2010. ([pdf](https://www.labri.fr/perso/zvonkin/Research/tesselations.pdf))
+
+* {#ZJZ2004} P. Zinn-Justin and J.-B. Zuber, Matrix Integrals and the Generation and Counting of Virtual Tangles and Links, _Journal of Knot Theory and Its Ramifications_, 13:03, May 2004. ([arXiv](http://arxiv.org/abs/math-ph/0303049v2))
 
 * Wikipedia page: [Combinatorial map](https://en.wikipedia.org/wiki/Combinatorial_map)
 
