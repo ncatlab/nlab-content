@@ -278,6 +278,8 @@ The interpretation of these regulator Chern characters in [[differential algebra
  
 
 * {#BunkeTamme12} [[Ulrich Bunke]], [[Georg Tamme]], _Regulators and cycle maps in higher-dimensional differential algebraic K-theory_ ([arXiv:1209.6451](http://arxiv.org/abs/1209.6451))
+
+* {#BunkeNikolausTamme15} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Georg Tamme]], _The Beilinson regulator is a map of ring spectra_ ([arXivL1509.05667](http://arxiv.org/abs/1509.05667))
  
 
 based on 
