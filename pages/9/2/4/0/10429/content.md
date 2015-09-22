@@ -27,9 +27,13 @@ Involves study of symmetry breaking, tensor categories, K-theory classification
 ## Relation between SPT order and topological order
 
 This entry refers both [[topological order]] and [[SPT order]], and here is an comparison between them.
+
 * Both [[topological order]] and [[SPT order]] are beyond Landau symmetry breaking theory.
+
 * [[SPT state]]s are short-range entangled while [[topological order|topologically ordered]] states are long-range entangled. 
+
 * Topologically ordered states have emergent fractional charge, emergent fractional statistics, and emergent gauge theory. In contrast, SPT states have no emergent fractional charge/fractional statistics for finite-energy excitations, nor emergent gauge theory (due to their short-ranged entanglement).
+
 * SPT orders are described by group cohomology theory while [[topological order]]s are
 described by n-category theory. The SPT orders for free fermions are described by K-theory.
 
@@ -64,7 +68,8 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 
 * {#Freed14} [[Daniel Freed]], _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
 
-
+* Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_,
+[arXiv:1406.7366](http://arxiv.org/abs/1406.7366)
 
 ### Other articles
 
