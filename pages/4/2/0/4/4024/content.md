@@ -60,15 +60,18 @@ This was proved by [Schanuel](#Schanuel).
 
 * [[bornological vector space]]
 
+* [[bornological topos]]
+
 
 ## References 
 
 * {#AdamHerr} [[Jiří Adámek]] and H. Herrlich, _Cartesian closed categories, quasitopoi, and topological universes_, Comm. Math. Univ. Carol., Vol. 27, No. 2 (1986), 235-257. ([web](http://dml.cz/handle/10338.dmlcz/106447))
- 
+
+* {#Hogbe-Nlend70}H. Hogbe-Nlend, _Les racines historiques de la bornologie moderne_ , pp.1-6 in _S&#233;minaire Choquet: Initiation &#224; l'analyse_ 10.1 (1970-1971).  ([numdam](http://www.numdam.org/item?id=SC_1970-1971__10_1_A5_0))
+
+* {#ProsmansSchneiders} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_, December 2000, Prepublications Mathematiques de l'Universite Paris 13, 46. ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
 
 * {#Schanuel} [[Stephen Schanuel]], _Continuous extrapolation to triangular matrices characterizes smooth functions_, J. Pure App. Alg. 24, Issue 1 (1982), 59&#8211;71. ([web](http://www.sciencedirect.com/science/journal/00224049/24/1)) 
-
-* {#ProsmansSchneiders} [[Fabienne Prosmans]], [[Jean-Pierre Schneiders]], _A homological study of bornological spaces_, December 2000, Prepublications Mathematiques de l'Universite Paris 13, 46 ([pdf](http://www.analg.ulg.ac.be/jps/rec/hsbs.pdf))
 
 Review includes
 
