@@ -275,7 +275,7 @@ In order to formalize judgements of [[nLab:intersection]] of concepts of the for
 
 > Some $B_1$ is $B_2$.
 
-it is necessry to specify a [[nLab:context]]. Regard both $B_1$ and $B_2$ as [[nLab:dependent types]] witnessed by [[nLab:display maps]]
+it is necessary to specify a [[nLab:context]]. Regard both $B_1$ and $B_2$ as [[nLab:dependent types]] witnessed by [[nLab:display maps]]
 
 $f_i \colon B_i \longrightarrow C$
 
@@ -341,8 +341,8 @@ In summary we have that basic judgements in Aristotle's logic, when some implici
 | concept                 |  $C$                 |  [[nLab:type]] |
 | judgement                  |  $c \colon C$ | typing [[nLab:judgement]] | 
 | All $B$ are $A$.           | $f \colon B \longrightarrow A $ | [[nLab:function type]] |
-| Some $B_1$ is $B_2$.       | $s \colon B_1 \underset{A}{\times} B_2$ | [[nLab:product type]] |
-| Individual $E$ is $B$.     | $e \colon E \to B$. | [[nLab:unit type]]/[[nLab:global element]] |
+| Some $B_1$ is $B_2$.       | $s \colon B_1 \underset{C}{\times} B_2$ | [[nLab:product type]] |
+| Individual $E$ is $B$.     | $e \colon E \to B$ | [[nLab:unit type]]/[[nLab:global element]] |
 
 
 
@@ -351,7 +351,7 @@ In summary we have that basic judgements in Aristotle's logic, when some implici
 
 **The figure $E-B-A$**
 
-Functions may be [[nLab:composition|composed]]. Given $b \colon E \to B$ and $f \colon B \to A$, then their composite is a function $f e \colon E \to A$. In type theory this is an example of [[nLab:natural deduction]] ([[nLab:cut elimination]]), in words this is a [[nLab:syllogism]]
+Functions may be [[nLab:composition|composed]]. Given $b \colon E \to B$ and $f \colon B \to A$, then their composite is a function $f b \colon E \to A$. In type theory this is an example of [[nLab:natural deduction]] ([[nLab:cut elimination]]), in words this is a [[nLab:syllogism]]
 
 > All $B$ are $A$.
 
@@ -395,6 +395,8 @@ $$
   }
   \,.
 $$
+
+Or rather, this composite map will factor through $B_1 \underset{C}{\times} A$ and the resulting map to $A$ gives 'Some $B_1$ is $A$'.
 
 
 #### The method (absolute Idea)
