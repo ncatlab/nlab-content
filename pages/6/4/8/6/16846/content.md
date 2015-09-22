@@ -17,7 +17,7 @@
 
 ## Idea
 
-The **bornological topos** is a [[Grothendieck topos]] based on the concept of bounded sequence and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
+The **bornological topos** is a [[Grothendieck topos]] based on the concept of a bounded sequence and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
 
 
 ## Definition
@@ -26,21 +26,24 @@ Let $\mathcal{C}$ be the category of [[countable set|countable sets]]. The _born
 
 ## Properties
 
-* Equavalently, $\mathcal{B}$ is the topos of sheaves on $\mathcal{C}$ for the _(finite) disjoint covering topology_ with coverings the finite families $(X_i\to Y)_{i\in I}$ , such that $\Sigma_{i\in I} X_i\to Y$ is an isomorphism.
+* Equavalently, $\mathcal{B}$ is the topos of sheaves on $\mathcal{C}$ for the _(finite) disjoint covering topology_ with coverings the finite families $(X_i\to Y)_{i\in I}$ , such that $\sum_{i\in I} X_i\to Y$ is an isomorphism.
 
 * In the work of Espa&#241;ol et al., $\mathcal{B}$ is accessed as a subtopos of the topos of actions of the monoid of endomorphisms of $N$.
 
-* $\mathcal{B}$ contains the category of (Kolmogorov) [[bornological set|bornological spaces]] as a reflective full subcategory (cf. Espa&#241;ol-Lamb&#225;n [2002](#EspanolLamban02)).
+* $\mathcal{B}$ contains the category of (Kolmogorov) [[bornological set|bornological spaces]] as a full reflective subcategory (cf. Espa&#241;ol-Lamb&#225;n [2002](#EspanolLamban02)).
 
-* The object $R_D$ of [[Dedekind real numbers]] of $\mathcal{B}$ is the space $l_\infty$ of bounded sequences of real numbers (cf. Espa&#241;ol-M&#237;nguez [2001](#Espanol-Minguez01)).
+* The object $R_D$ of [[Dedekind real numbers]] of $\mathcal{B}$ is the space $l^\infty$ of bounded sequences of real numbers (cf. Espa&#241;ol-M&#237;nguez [2001](#Espanol-Minguez01)).
 
-* " _The category of modules over the Dedekind real number object includes all the inductive limits of Banach spaces as a full subcategory, but at the same time is itself a Grothendieck AB5 Abelian category with the accompanying exactness properties._ " (Lawvere [2008](#Lawvere08), p.15). Thus " **functional analysis becomes linear algebra** " (Lawvere [1994](#Lawvere94), p.10) in the bornological topos.
+* " _The category of modules over the Dedekind real number object includes all the inductive limits of Banach spaces as a full subcategory, but at the same time is itself a Grothendieck AB5 Abelian category with the accompanying exactness properties._ " (Lawvere [2008](#Lawvere08), p.15).
+Thus " **functional analysis becomes linear algebra** " in the bornological topos (Lawvere [1994](#Lawvere94), p.10).
 
 ## Remark: bornology and cohesiveness
 
-The bornological topos is the [[Gaeta topos]] on $\mathcal{C}$ and as such enters Lawvere's basic paradigm of doing abstract "algebraic geometry" (cf. Lawvere [1986](#Lawvere86), p.17). In particular, the geometry and cohesiveness of the objects $X$ in $\mathcal{B}$ arises _covariantly_ from the basic figure shape of a bounded sequence $A$ via maps $A\to X$.
+The bornological topos is the [[Gaeta topos]] on $\mathcal{C}$ and as such fits Lawvere's paradigm of doing abstract "algebraic geometry" (cf. Lawvere [1986](#Lawvere86), p.17). In particular, the geometry and cohesiveness of the objects $X$ in $\mathcal{B}$ arises _covariantly_ from the basic figure shape of a 'bounded' sequence $A$ via maps $A\to X$.
 
 That bornology provides in the context of functional analysis "_a more basic notion of cohesiveness_" than the usual topological neighborhood concept and contravariant function algebra concept based on it is argued in Lawvere ([1997](#Lawvere97), pp.3f).
+
+Although the bornological topos can be regarded as a cohesive category of "spaces" in a broad sense, it doesn't satisfy Lawvere's _axiomatic cohesion_ since it lacks the required left adjoint components functor $\Pi:\mathcal{B}\to Set$ (cf. Lawvere [2008](#Lawvere08)).
 
 ## Related entries
 
@@ -65,7 +68,7 @@ That bornology provides in the context of functional analysis "_a more basic not
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Contemporary Mathematics **92** (1989) pp.261-299. [Google Books link](https://books.google.com.au/books?id=VxAcCAAAQBAJ&pg=PA261), doi:[10.1090/conm/092/1003203](http://dx.doi.org/10.1090/conm/092/1003203)
 
-* {#Lawvere94}[[F. William Lawvere]], _Cohseive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+* {#Lawvere94}[[F. William Lawvere]], _Cohesive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
 
 * {#Lawvere97}[[F. William Lawvere]], _Volterra's functionals and covariant cohesion of space_ , in _Proceedings of the May 1997 Meeting in Perugia_ , Perugia Studies in Mathematics 1997.
 
