@@ -17,17 +17,24 @@
 
 ## Idea
 
-The **bornological topos** is a [[Grothendieck topos]] based on the concept of families of bounded sets and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
+The **bornological topos** is a [[Grothendieck topos]] based on the concept of bounded sequence and was proposed by [[William Lawvere]] in unpublished lectures in 1983 as a convenient category to do [[functional analysis]] in.
 
 
 ## Definition
 
-...
+Let $\mathcal{C}$ be the category of [[countable set|countable sets]]. The _bornological topos_ $\mathcal{B}$ is the category of finite product preserving presheaves on $\mathcal{C}$.
 
 ## Properties
 
+* Equavalently, $\mathcal{B}$ is the topos of sheaves on $\mathcal{C}$ for the _(finite) disjoint covering topology_ with coverings the finite families $(X_i\to Y)_{i\in I}$ , such that $\Sigma_{i\in I} X_i\to Y$ is an isomorphism.
 
-...
+* In the work of Espa&#241;ol et al., $\mathcal{B}$ is accessed as a subtopos of the topos of actions of the monoid of endomorphisms of $N$.
+
+* $\mathcal{B}$ contains the category of (Kolmogorov) [[bornological set|bornological spaces]] as a reflective full subcategory (cf. Espa&#241;ol-Lamb&#225;n [2002](#EspanolLamban02)).
+
+* The object $R_D$ of [[Dedekind real numbers]] of $\mathcal{B}$ is the space $l_\infty$ of bounded sequences of real numbers (cf. Espa&#241;ol-M&#237;nguez [2001](#Espanol-Minguez01)).
+
+* " _The category of modules over the Dedekind real number object includes all the inductive limits of Banach spaces as a full subcategory, but at the same time is itself a Grothendieck AB5 Abelian category with the accompanying exactness properties._ " (Lawvere [2008](#Lawvere08), p.15). Thus " **functional analysis becomes linear algebra** " (Lawvere [1994](#Lawvere94), p.10) in the bornological topos.
 
 ## Related entries
 
@@ -42,15 +49,17 @@ The **bornological topos** is a [[Grothendieck topos]] based on the concept of f
 
 * L. Espa&#241;ol, L. Lamb&#225;n, _A tensor-hom adjunction in a topos related to vector topologies and bornologies_ , Journal of Pure and Applied Algebra **154** (2000) pp.143-158. doi:[10.1016/S0022-4049(99)00188-7](http://dx.doi.org/10.1016/S0022-4049(99%2900188-7)
 
-* L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , Journal of Pure and Applied Algebra **176** (2002) pp.113&#8211;125. doi:[10.1016/S0022-4049(02)00047-6](http://dx.doi.org/10.1016/S0022-4049(02%2900047-6)
+* {Espanol-Lamban02}L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , Journal of Pure and Applied Algebra **176** (2002) pp.113&#8211;125. doi:[10.1016/S0022-4049(02)00047-6](http://dx.doi.org/10.1016/S0022-4049(02%2900047-6)
 
-* L. Espa&#241;ol, M. C. M&#237;nguez, _Cortaduras Para $l^\infty$_ , pp.375-390 in Espa&#241;ol, Varona (eds.), _Margarita Mathematica en Memoria de Jos&#233; Javier (Chicho) Guadalupe Hern&#225;ndez_ , Universidad de La Rioja 2001.([pdf](http://www.emis.de/proceedings/Chicho2001/Espanol-Minguez.pdf))
+* {#Espanol-Minguez01}L. Espa&#241;ol, M. C. M&#237;nguez, _Cortaduras Para $l^\infty$_ , pp.375-390 in Espa&#241;ol, Varona (eds.), _Margarita Mathematica en Memoria de Jos&#233; Javier (Chicho) Guadalupe Hern&#225;ndez_ , Universidad de La Rioja 2001.([pdf](http://www.emis.de/proceedings/Chicho2001/Espanol-Minguez.pdf))
 
-* [[F. William Lawvere]], _Taking Categories Seriously_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.147-178. Reprinted in TAC Reprint no.8 (2005) pp.1-24. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/8/tr8.pdf))
+* [[F. William Lawvere]], _Taking Categories Seriously_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.147-178. Reprinted as TAC Reprint no.8 (2005) pp.1-24. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/8/tr8.pdf))
 
-* [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Contemporary Mathematics **92** (1989) pp.261-299. [Google Books link](https://books.google.com.au/books?id=VxAcCAAAQBAJ&pg=PA261), doi:[10.1090/conm/092/1003203](dx.doi.org/10.1090/conm/092/1003203)
+* [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Contemporary Mathematics **92** (1989) pp.261-299. [Google Books link](https://books.google.com.au/books?id=VxAcCAAAQBAJ&pg=PA261), doi:[10.1090/conm/092/1003203](http://dx.doi.org/10.1090/conm/092/1003203)
 
-* [[F. William Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
+* {#Lawvere94}[[F. William Lawvere]], _Cohseive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+
+* {#Lawvere08}[[F. William Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
 
 
 [[!redirects Bornological topos]]
