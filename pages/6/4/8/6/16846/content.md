@@ -36,11 +36,19 @@ Let $\mathcal{C}$ be the category of [[countable set|countable sets]]. The _born
 
 * " _The category of modules over the Dedekind real number object includes all the inductive limits of Banach spaces as a full subcategory, but at the same time is itself a Grothendieck AB5 Abelian category with the accompanying exactness properties._ " (Lawvere [2008](#Lawvere08), p.15). Thus " **functional analysis becomes linear algebra** " (Lawvere [1994](#Lawvere94), p.10) in the bornological topos.
 
+## Remark: bornology and cohesiveness
+
+The bornological topos is the [[Gaeta topos]] on $\mathcal{C}$ and as such enters Lawvere's basic paradigm of doing abstract "algebraic geometry" (cf. Lawvere [1986](#Lawvere86), p.17). In particular, the geometry and cohesiveness of the objects $X$ in $\mathcal{B}$ arises _covariantly_ from the basic figure shape of a bounded sequence $A$ via maps $A\to X$.
+
+That bornology provides in the context of functional analysis "_a more basic notion of cohesiveness_" than the usual topological neighborhood concept and contravariant function algebra concept based on it is argued in Lawvere ([1997](#Lawvere97), pp.3f).
+
 ## Related entries
+
+* [[bornology]]
 
 * [[Johnstone's topological topos]]
 
-* [[bornology]]
+* [[cohesion]]
 
 
 ## References
@@ -49,15 +57,17 @@ Let $\mathcal{C}$ be the category of [[countable set|countable sets]]. The _born
 
 * L. Espa&#241;ol, L. Lamb&#225;n, _A tensor-hom adjunction in a topos related to vector topologies and bornologies_ , Journal of Pure and Applied Algebra **154** (2000) pp.143-158. doi:[10.1016/S0022-4049(99)00188-7](http://dx.doi.org/10.1016/S0022-4049(99%2900188-7)
 
-* {Espanol-Lamban02}L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , Journal of Pure and Applied Algebra **176** (2002) pp.113&#8211;125. doi:[10.1016/S0022-4049(02)00047-6](http://dx.doi.org/10.1016/S0022-4049(02%2900047-6)
+* {#Espanol-Lamban02}L. Espa&#241;ol, L. Lamb&#225;n, _On bornologies, locales and toposes of M-sets_ , Journal of Pure and Applied Algebra **176** (2002) pp.113&#8211;125. doi:[10.1016/S0022-4049(02)00047-6](http://dx.doi.org/10.1016/S0022-4049(02%2900047-6)
 
 * {#Espanol-Minguez01}L. Espa&#241;ol, M. C. M&#237;nguez, _Cortaduras Para $l^\infty$_ , pp.375-390 in Espa&#241;ol, Varona (eds.), _Margarita Mathematica en Memoria de Jos&#233; Javier (Chicho) Guadalupe Hern&#225;ndez_ , Universidad de La Rioja 2001.([pdf](http://www.emis.de/proceedings/Chicho2001/Espanol-Minguez.pdf))
 
-* [[F. William Lawvere]], _Taking Categories Seriously_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.147-178. Reprinted as TAC Reprint no.8 (2005) pp.1-24. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/8/tr8.pdf))
+* {#Lawvere86}[[F. William Lawvere]], _Taking Categories Seriously_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.147-178. Reprinted as TAC Reprint no.8 (2005) pp.1-24. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/8/tr8.pdf))
 
 * [[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Contemporary Mathematics **92** (1989) pp.261-299. [Google Books link](https://books.google.com.au/books?id=VxAcCAAAQBAJ&pg=PA261), doi:[10.1090/conm/092/1003203](http://dx.doi.org/10.1090/conm/092/1003203)
 
 * {#Lawvere94}[[F. William Lawvere]], _Cohseive Toposes and Cantor's 'lauter Einsen'_ , Phil. Math. **2** no.3 (1994) pp.5-15.
+
+* {#Lawvere97}[[F. William Lawvere]], _Volterra's functionals and covariant cohesion of space_ , in _Proceedings of the May 1997 Meeting in Perugia_ , Perugia Studies in Mathematics 1997.
 
 * {#Lawvere08}[[F. William Lawvere]], _Cohesive Toposes: Combinatorial and Infinitesimal Cases_, Como Ms. 2008. ([pdf](http://comocategoryarchive.com/Archive/temporary_new_material/FWLawvere-Cohesive-Toposes-Como-January-2008.pdf))
 
