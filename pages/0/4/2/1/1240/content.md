@@ -168,9 +168,9 @@ Accordingly, for $f \colon H \to G$ a homomorphism of [[∞-groups]], hence for 
 $$
   (\sum_f \dashv f^* \dashv \prod_f)
   \colon
-  Act(\mathbf{H})
+  Act(H)
    \stackrel{\overset{\sum_f}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{\prod_f}{\to}}}
-  Act(\mathbf{H})
+  Act(G)
   \,.
 $$
 
