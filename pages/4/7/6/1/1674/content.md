@@ -1,6 +1,27 @@
-[[!redirects Hartog's number]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Foundations
++-- {: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
 The _Hartogs\'s number_ or _Hartogs\' number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.  Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
 
++--{: .query}
+TH: The orthography here worries me! To the best of my knowledge it should be _Hartogs number_ or _Hartogs' number_ as the guy's name was _Hartogs_ .
+=--
 
 ## Definition
 
@@ -30,7 +51,26 @@ For $\aleph_0$ the cardinality of the set of all [[natural number]]s, the Hartog
 
 In general, we get a sequence $\omega_\alpha$ of infinite cardinalities of well-orderable sets; assuming excluded middle, every infinite well-orderable cardinality shows up in this sequence.  Assuming the axiom of choice, every infinite cardinal shows up, and we have $|\omega_\alpha| = \aleph_\alpha$.  (Actually, there\'s no real need to begin with infinite cardinals; if we started with $\omega_0 = 0$ instead of $\omega_0 = \mathbf{N}$ and $\aleph_0 = 0$ instead of $\aleph_0 = |\mathbf{N}|$, then absolutely *every* cardinality or well-orderable cardinality would appear.)
 
+## Related page
 
+* [wikipedia entry](https://en.wikipedia.org/wiki/Hartogs_number)
+
+## Related entries
+
+* [[well-ordering theorem]]
+
+* [[axiom of choice]]
+
+* [[diagonal argument]]
+
+## References
+
+* F. Hartogs, _&#220;ber das Problem der Wohlordnung_ , Math. Ann. **76** no.4 (1915) pp.438-443. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002266105))
+
+* [[Radu Diaconescu]], _On Comparability in a Topos_ , Proc. AMS **98** no.3 (1986) pp.389-393. ([pdf](http://www.ams.org/journals/proc/1986-098-03/S0002-9939-1986-0857927-9/S0002-9939-1986-0857927-9.pdf))
+
+
+[[!redirects Hartog's number]]
 [[!redirects Hartogs number]]
 [[!redirects Hartogs's number]]
 [[!redirects Hartogs' number]]
