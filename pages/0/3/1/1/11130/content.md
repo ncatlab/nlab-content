@@ -127,3 +127,5 @@ $\,$
 [[!redirects Nullstellensätze]]
 
 [[!redirects Hilbert's Nullstellensatz]]
+
+[[!redirects nullstellensatz]]
