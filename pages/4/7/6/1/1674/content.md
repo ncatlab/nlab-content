@@ -1,5 +1,5 @@
 [[!redirects Hartog's number]]
-The _Hartogs\'s number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.  Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
+The _Hartogs\'s number_ or _Hartogs\' number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.  Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
 
 
 ## Definition
@@ -34,3 +34,6 @@ In general, we get a sequence $\omega_\alpha$ of infinite cardinalities of well-
 [[!redirects Hartogs number]]
 [[!redirects Hartogs's number]]
 [[!redirects Hartogs' number]]
+[[!redirects Hartogg's number]]
+[[!redirects Hartog's number]]
+
