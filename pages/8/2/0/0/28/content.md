@@ -35,7 +35,7 @@ equipped with the following structure maps:
 
    1. [[associativity]]: $(g h)k=g(h k)$, here one usually writes $g h$ for $m(g,h)$.
 
-   1. identity section: $e: G_0\to G_1$, such that $e(t(g)g)=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
+   1. identity section: $e: G_0\to G_1$, such that $e(t(g))g=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
 
    1. [[inverse]], $i: G_1 \to G_1$, also denoted by $i(g)=g^{-1}$, such that for all $g\in G$, 
 
