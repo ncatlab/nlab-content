@@ -100,6 +100,9 @@ Review of construction of MTCs from [[vertex operator algebras]] is in
 
 * James Lepowsky, _From the representation theory of vertex operator algebras to modular tensor categories in conformal field theory_ ([pdf](http://www.pnas.org/content/102/15/5304.full.pdf))
 
+Discussion from the point of view of the [[cobordism hypothesis]] (see also the discussion at [[fusion category]]) is in 
+
+* [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
 
 ### Examples
 
