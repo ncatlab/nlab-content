@@ -134,6 +134,7 @@ Xiang Tang (Washington University in St. Louis)
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
 Aissa Wade (Penn State University)
+Lifang Wang (Henan University)
 
 Hong Wang (Nankai University)
 
