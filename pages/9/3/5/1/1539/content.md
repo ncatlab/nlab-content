@@ -210,19 +210,19 @@ By contrast, if a solid quasitopos is additionally [[exact category|exact]], and
 
 Original articles include
 
-* J. Penon, _Quasi-topos_ , C.R. Acad. Sci. Paris **276** S&#233;rie A (1973) pp.237&#8211;240. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6217213f/f251.image))
+* [[Jacques Penon]], _Quasi-topos_ , C.R. Acad. Sci. Paris **276** S&#233;rie A (1973) pp.237&#8211;240. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k6217213f/f251.image))
 
-* J. Penon, _Sur le quasi-topos_ , Cahiers Top. G&#233;om. Diff. 18 (1977), 181&#8211;218.
+* [[Jacques Penon]], _Sur le quasi-topos_ , Cahiers Top. G&#233;om. Diff. 18 (1977), 181&#8211;218.
 
 Standard textbook references are
 
-*  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_, World Scientific, 1991. 
+*  Oswald Wyler, _Lecture Notes on Topoi and Quasitopoi_ , World Scientific Singapore 1991. 
 
 
 * [[Peter Johnstone]], _[[Sketches of an Elephant]]_, Oxford UP 2002.
-{#Elephant}
+{#Elephant} (section A2.6)
 
-Here quasitoposes are introduced in A2.6.
+* J. Adamek, H. Herrlich, G. E. Strecker, _Abstract and Concrete Categories_ , Dover Mineola 2009. (Available online as [TAC Reprint no.17](http://www.tac.mta.ca/tac/reprints/articles/17/tr17abs.html) (2006) pp.1-507; section 28)
 
 Quasi-toposes of [[concrete sheaves]] are considered in
 
@@ -237,7 +237,7 @@ A review is in
 
 More generally, quasi-[[sheaf toposes]] are discussed in
 
-* [[Richard Garner]], [[Stephen Lack]], _Grothendieck quasitoposes_ ([arXiv:1106.5331](http://arxiv.org/abs/1106.5331))
+* [[Richard Garner]], [[Stephen Lack]], _Grothendieck quasitoposes_ , arXiv:1106.5331 (2012). ([abstract](http://arxiv.org/abs/1106.5331))
  {#GarnerLack}
 
 
