@@ -1,5 +1,5 @@
 
 
-* [webpage](http://m19s28.dyndns.org/iblech/)
+* [webpage](http://speicherleck.de/iblech/)
 
 category: people
