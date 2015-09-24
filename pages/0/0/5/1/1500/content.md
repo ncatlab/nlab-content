@@ -147,6 +147,10 @@ The relation to [[3d TQFT]] is clarified via the [[cobordism hypothesis]] in
 
 * {#DSPS13} [[Chris Douglas]], [[Chris Schommer-Pries]], [[Noah Snyder]], _Dualizable tensor categories_ ([arXiv:1312.7188](http://arxiv.org/abs/1312.7188))
 
+and for the case of [[modular tensor categories]] in
+
+* [[Bruce Bartlett]], [[Christopher Douglas]], [[Chris Schommer-Pries]], [[Jamie Vicary]], _Modular categories as representations of the 3-dimensional bordism 2-category_ ([arXiv:1509.06811](http://arxiv.org/abs/1509.06811))
+
 
 For some discussion see
 
