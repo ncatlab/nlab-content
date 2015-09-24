@@ -449,7 +449,7 @@ $$
   \,.
 $$
 
-By [[Thom's transversality theorem]] we may find an embedding $j : Gr_k(\mathbb{R}^s) \to Th(\Gamma^k_s)$ by a [[transverse map]] to $f$. Define then $X$ to be the [[pullback]]
+By [[Thom's transversality theorem]] we may find an embedding $j : Gr_k(\mathbb{R}^s) \to Th(\gamma^k_s)$ by a [[transverse map]] to $f$. Define then $X$ to be the [[pullback]]
 
 $$
   \array{
