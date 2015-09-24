@@ -20,6 +20,11 @@
 * table of contents
 {:toc}
 
+## Influences
+ {#Influences}
+
+> The importance of [[mathematics]] for Hegel should not be underestimated. [[geometry|Geometry]] was among his earliest intellectual interests (cf. Jaeschke , Hegel-Handbuch, 1) and he devoted intensive study to [[Euclidean geometry|Euclid 's Elements]] in the period leading up to his move from Frankfurt to Jena (cf. Johannes Hoffmeister[ed.], Dokumente zu Hegel's Entwicklung [ Stuttgart-Bad Cannstatt : Fromann 1936 ], 288&#8211;300)... In 1805/6 he taught courses in arithmetic and geometry both in Jena and at the Nuremberg Gymnasium while he was working on the [[Science of Logic]]. (_Hegel and the Metaphysics of Absolute Negativity_ by Brady Bowman, p. 171)
+
 ## Perception of Hegel's Naturphilosophie
  {#PerceptionOfHegelsPhilosophy}
 
