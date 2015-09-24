@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _Dubuc topos_ is a model in which one may apply [[synthetic differential geometry]] to attain results in classical differential geometry. It is constructed as the [[topos]] of [[sheaves]] for the open covering topology on the dual of the category of C-infinity rings presented by a germ determined ideal.
+The _Dubuc topos_ is a model in which one may apply [[synthetic differential geometry]] to attain results in classical [[differential geometry]]. It is constructed as the [[topos]] of [[sheaves]] for the [[open covering]] [[Grothendieck topology|topology]] on the dual of the [[category]] of [[smooth algebra|C-infinity rings]] presented by a [[germ determined ideal]].
 
 ## Some history
 
@@ -54,7 +54,7 @@ I introduced the key notion of Germ Determined Ideal (or ideal of local nature),
 _When incorporating this work in their monograph Moerdijk and Reyes say (I quote): "Although this general notion of C-infinity  ring does not occur as such in classical analysis and differential geometry, the main examples do ...  Given the role of these examples of C-infinity rings in the classical literature, it is not surprising that although the statements of several of the results in this chapter seem new, most of their proofs are either known or easily derivable from known ones". This is, at the least, misleading, and  I see a clear intention to disqualify my work.  Of course, when the new concepts are introduced, the examples are already there, and the proof of the basic properties is easy. The important thing is to identify explicitly the concept, and to identify the right statements and properties, and this does not come easily. And I repeat, even if C-infinity rings may have been there, the concept of germ determined ideal was not, neither the concept of C-infinity-local ring, and several derived concepts and the statements of their basic essential properties neither)._
 
             
-C) With this in hand, I introduced the Topos $G$ of sheaves for the open covering topology on the dual of the category of C-infinity rings presented by a germ determined ideal, and proved all the basic important properties, which many times are the correct relative C-infinity versions of corresponding properties in algebraic geometry. This is the analogue in SDG of the [[Zariski topos]] of algebraic geometry (here we should notice that the Zariski topos is defined by the topology of all open covers, this is essential. Moerdijk-Reyes, misunderstanding Zariski, call Smooth-Zariski, the topos determined by the finite covers).
+C) With this in hand, I introduced the [[topos]] $G$ of [[sheaves]] for the open covering topology on the dual of the category of C-infinity rings presented by a germ determined ideal, and proved all the basic important properties, which many times are the correct relative C-infinity versions of corresponding properties in [[algebraic geometry]]. This is the analogue in SDG of the [[Zariski topos]] of algebraic geometry (here we should notice that the Zariski topos is defined by the topology of all open covers, this is essential. Moerdijk-Reyes, misunderstanding Zariski, call Smooth-Zariski, the topos determined by the finite covers).
 
 The topos $G$ is the best known model in order to do applications of SDG to classical differential geometry, and as such, it is the most utilized in practice. Many early workers in the subject ([[Jacques Penon|J. Penon]], O. Bruno, M. Bunge, F. Gago, [[David Yetter|Yetter]], among others) called this topos "The Dubuc Topos". Even Moerdijk and Reyes did so in some preprints, although they changed this in the published versions. 
 
@@ -75,7 +75,7 @@ E) This does not do justice to my work, and does not corresponds to the true his
 (1979). [NUMDAM](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)
 * [[Eduardo Dubuc]], _Schemas $C^\infty$_, "Prepublications de la Universite de Montreal" 80-81 edited by  G. Reyes (1980).
 
-This is an amplified version of the following article, with detailed proofs and many examples:
+This preprint is an amplified version of the following article, with detailed proofs and many examples:
 
 * [[Eduardo Dubuc]], _$C^\infty$ Schemes_, American Journal of Mathematics, John Hopkins University, Vol. 103-4 (1981). [JSTOR](http://www.jstor.org/stable/2374046)
 * [[Eduardo Dubuc]], _Open Covers and Infinitary Operations in C-inf-rings_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XXII-3 (1981). [NUMDAM](http://www.numdam.org/item?id=CTGDC_1981__22_3_287_0)
@@ -83,3 +83,9 @@ This is an amplified version of the following article, with detailed proofs and 
 * [[Eduardo Dubuc]], _Germ representability and Local integration of vector fields in a well adapted model of SDG_, Aarhus Univ. Math. Inst. preprint series (1985/1986), published in Journal of Pure and Applied Algebra Vol. 64, (1990) doi:[10.1016/0022-4049(90)90152-8](http://dx.doi.org/10.1016/0022-4049(90%2990152-8).
 * [[Marta Bunge]], [[Eduardo Dubuc]], _Archimedian Local C-inf-rings and Models of SDG_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XXVII-3 (1986). [NUMDAM](http://www.numdam.org/item?id=CTGDC_1986__27_3_3_0)
 * [[Marta Bunge]], [[Eduardo Dubuc]], _Local concepts in SDG and germ representability_, in  D. Kueker et al. (ads), Mathematical Logic and Theoretical Computer Science, Lecture Notes in Pure and Applied Mathematics 106, Marcel Dekker (1987)
+
+Penon's thesis has an appendix on the Dubuc topos:
+
+* [[Jacques Penon]], _De l'infinit&#233;simal au local_ (Th&#232;se de Doctorat d'&#201;tat). Diagrammes, S13 (1985), p. 1-191 [NUMDAM](http://www.numdam.org/item?id=DIA_1985__S13__1_0)
+
+
