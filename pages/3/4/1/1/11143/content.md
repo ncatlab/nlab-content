@@ -69,6 +69,10 @@ E) This does not do justice to my work, and does not corresponds to the true his
                               
 **REMARK.**  Proposition 18 and Theorem 22 of 6. cited above establish that postulate WA2 (II, 3.2, 3.3) of 8. holds in the Dubuc Topos. However, there is a mistake (discovered by [[Michael Makkai|M. Makkai]]) in Lemma 21 of 6. which invalidates the proof. I believe that the result is true but I am not working to fix the proof now. The external statement holds, it is easy and it proved in 5. cited above.
 
+## Related entries
+
+* [[Cahiers topos]]
+
 ## References
 
 * [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_, [[Cahiers|Cahiers de Topologie et Geometrie Differentielle]] Vol. XX-3 
