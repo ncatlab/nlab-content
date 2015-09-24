@@ -281,10 +281,11 @@ Unwinding the definition of this [[coend]] as a [[coequalizer]] yields the above
 
 ## Variants and generalizations
 
-When restricting the [[site]] of infinitesimally thickened Cartesian spaces to that of plain [[Cartesian spaces]] one obtaines the topos discussed at _[[smooth space]]_. This is still a [[cohesive topos]], but no longer a model for [[synthetic differential geometry]].
+* When restricting the [[site]] of infinitesimally thickened Cartesian spaces to that of plain [[Cartesian spaces]] one obtaines the topos discussed at _[[smooth space]]_. This is still a [[cohesive topos]], but no longer a model for [[synthetic differential geometry]].
 
-The [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp_{th}$ is disucssed at [[synthetic differential ∞-groupoid]]. It contains that Cahiers topos as the sub-[[(n,1)-topos|(1,1)-topos]] of [[0-truncated]] objects.
+* The [[(∞,1)-sheaf (∞,1)-topos]] over $CartSp_{th}$ is disucssed at [[synthetic differential ∞-groupoid]]. It contains that Cahiers topos as the sub-[[(n,1)-topos|(1,1)-topos]] of [[0-truncated]] objects.
 
+* [[Dubuc topos]]
 
 ## References
 
