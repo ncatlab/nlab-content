@@ -4,6 +4,10 @@ One fundamental tool in a knot theorist's toolbox is the [[knot diagram]].  In c
 
 From that perspective, virtual knot theory (introduced by [[Louis Kauffman]]) generalizes classical knot theory by considering knots and links as equivalence classes of decorated 4-valent graphs embedded in [[orientable]] surfaces of arbitrary [[genus of a surface|genus]].  In topological terms, all classical knots can in fact be realized as embeddings of the circle inside a "thickened" sphere $S^2 \times [0,1]$ (rather than in all of $\mathbb{R}^3$), while _virtual knots_ generalize this to embeddings of the circle inside any thickened orientable surface.  If one projects a virtual knot onto the page, the diagram might contain crossings that do _not_ represent places where the knot passes over/under itself, but rather are artifacts of the knot's non-planar shadow.  So, in a virtual knot diagram such crossings are explicitly indicated as "virtual", using a distinct notation from that for under/overcrossings.
 
+## Terminology
+
+Warning: a virtual knot/link has a genus in the sense of the genus of the underlying thickened surface into which it embeds (or equivalently, the genus of its shadow as a 4-valent [[combinatorial map]]), but this is unrelated to the classical notion of _knot genus_, in the sense of the minimal genus of a [[Seifert surface]] whose [[boundary]] is the knot.
+
 ## Related concepts
 
 * [[embedded graph]]
