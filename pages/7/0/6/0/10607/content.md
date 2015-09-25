@@ -74,6 +74,18 @@ $$
 
 (the "Yang triple") as for instance in the definition of _[[differential cohesion]]_.
 
+Since adjoint triples are equivalently [[adjunctions]] of [[adjunctions]] ([Licata-Shulman, section 5](#LicataShulman)), it is suggestive to denote these as
+
+$$
+  \array{
+    \lozenge &\dashv& \bigcirc
+    \\
+    \bot && \bot 
+    \\
+    \bigcirc &\dashv& \Box
+  }
+$$
+
 ## Examples
 
 ### Simple illustrative examples
@@ -199,7 +211,7 @@ For $\mathbf{H}$ a [[cohesive topos]]/[[cohesive (∞,1)-topos]]
 the [[shape modality]] $\dashv$ [[flat modality]] constitute an adjoint cylinder
 
 $$
-  \int \dashv \flat
+  &#643; \dashv \flat
   \,.
 $$
 
@@ -207,11 +219,11 @@ The corresponding unity-transformation is the [points-to-pieces transform](cohes
 
 $$
   \array{
-    \flat X \longrightarrow X \longrightarrow \int X
+    \flat X \longrightarrow X \longrightarrow &#643; X
   }
 $$
 
-Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $\int$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
+Looking through ([Hegel 1812, vol 1, book 1, section 2, chapter 1](#Hegel1812)) one might call $\flat$ "repulsion", call $&#643;$ "attraction"/"[[cohesion]]" and then call this unity of opposites "[[continuum]]". Indeed, by the discussion at _[[cohesive topos]]_, this does quite well capture the geometric notion of continuum geometry.
 
 ### Infinitesimal Continuuum : infin. repulsion $\dashv$ infinit. cohesion
  {#ContinuumRepulsionCohesion}
@@ -224,7 +236,7 @@ there is the [[infinitesimal object|infinitesimal]] version of
 
 
 $$
-  \int^{inf} \dashv \flat^{inf}
+  \Im \dashv \&
   \,.
 $$
 
@@ -232,7 +244,7 @@ The corresponding unity-transformation is the
 
 $$
   \array{
-    \flat^{inf} X \longrightarrow X \longrightarrow \int^{inf} X
+    \Im X \longrightarrow X \longrightarrow \& X
   }
 $$
 
@@ -247,7 +259,7 @@ In view of the above the unity exhibited here is clearly to be called the "infin
 The combination of the above two examples of [Continuum](#ContinuumRepulsionCohesion) and [Quantity](#Mengen) is an [[adjoint triple]] of [[modalities]]
 
 $$
-  \int \;\dashv\; \flat \;\dashv\; \sharp
+  &#643; \;\dashv\; \flat \;\dashv\; \sharp
 $$
 
 [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]
@@ -356,10 +368,16 @@ The origins of its proposed formalization in [[category theory]] are recalled in
 
 * {#Lambek82} [[Joachim Lambek]], _The Influence of Heraclitus on Modern Mathematics_, In _Scientific Philosophy Today: Essays in Honor of Mario Bunge_, edited by Joseph Agassi and Robert S Cohen, 111&#8211;21. Boston: D. Reidel Publishing Co. (1982)
 
+See also 
+
+* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
+
+* {#Wikipedia} Wikipedia, _[Hegelian dialectic](http://en.wikipedia.org/wiki/Hegelian_dialectic)_
+
 
 ### In terms of adjoint triples of (co-)reflections and localizations
 
-Formalized in terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
+Conceived of in terms of [[adjoint triples]] of [[reflective subcategory|(co-)reflections]] and [[localization of a category|localizations]] the concept appears in 
 
 * {#Lawvere91} [[William Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ in A. Carboni, M. Pedicchio, G. Rosolini, _Category Theory_  , [[Como|Proceedings of the International Conference held in Como]], Lecture Notes in Mathematics 1488, Springer (1991)
  
@@ -374,19 +392,7 @@ pages 43-56, 1994.
 
 * {#Lawvere00} [[F. W. Lawvere]], _Adjoint Cylinders_, message to catlist November 2000. ([link](http://permalink.gmane.org/gmane.science.mathematics.categories/1683))
 
- 
-motivated as a formalization of ideas expressed in ([Hegel 1812](#Hegel1812)).
 
-
-See there particularly the very last section _[The absolute idea (The dialectical method)](Science+of+Logic#DialektischeMethode)_.
- 
-But according to ([Lambek 82](#Lambek82)) the thought that [[adjunction]] is the formal incarnation of dialectic philosophical sentiment going back at least to [[Heraclitus]] emerged in discussion between Lambek and Lawvere in 1965-66
-
-See also 
-
-* {#Wandschneider99} [[Dieter Wandschneider]], _Dialektik als Letztbegr&#252;ndung der Logik_, in Koreanische Hegelgesellschaft (ed.), _Festschrift f&#252;r Sok-Zin Lim_ Seoul 1999, 255&#8211;278 ([pdf](http://www.philosophie.rwth-aachen.de/global/show_document.asp?id=aaaaaaaaaabpltw))
-
-* {#Wikipedia} Wikipedia, _[Hegelian dialectic](http://en.wikipedia.org/wiki/Hegelian_dialectic)_
 
 ### In terms of adjoint pairs of modal operators
   
@@ -406,6 +412,10 @@ Mathematical Foundations of Programming Semantics_ (MFPS 2009).
 * {#Hermida10} [[Claudio Hermida]], section 3.3. of _A categorical outlook on relational modalities and simulations_, 2010 ([pdf](http://maggie.cs.queensu.ca/chermida/papers/sat-sim-IandC.pdf))
 
 * {#DJK14} Wojciech Dzik, Jouni J&#228;rvinen, Michiro Kondo, _Characterising intermediate tense logics in terms of Galois connections_ ([arXiv:1401.7646](http://arxiv.org/abs/1401.7646))
+
+Formalization specifically in [[modal type theory]] is in 
+
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf))
 
 For an overview of the role of adjunctions in modal logic see:
 
