@@ -216,6 +216,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
+* [Mathematics Library] (http://mathematicslibrary.blogspot.com) A collection of mathematical notes and books in all areas of math (analysis, abstract algebra, combinatorics, etc)
+
 * [Mathlinks / Art of Problem Solving](http://www.artofproblemsolving.com/Forum/portal.php?ml=1) community, math olympiad style problems discussed
 
 * [Mathlog](http://www.scienceblogs.de/mathlog) (in German, variety of topics from Open Access journals to Klein groups and geometry)
