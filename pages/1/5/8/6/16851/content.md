@@ -1,8 +1,12 @@
+# Contents
+* table of contents
+{: toc}
+
 ## Idea
 
 One fundamental tool in a knot theorist's toolbox is the [[knot diagram]].  In classical [[knot theory]], a knot diagram or link diagram may be considered formally as a 4-valent [[plane graph]] (called the _shadow_ of the knot/link), equipped with annotations on each vertex specifying whether it represents an undercrossing or an overcrossing.  The [[Reidemeister moves]] define an [[equivalence relation]] on knot diagrams, which can be used to determine when two diagrams represent knots (or links) that are [[isotopic]].  It is a theorem that the Reidemeister moves are complete for isotopy, but from a formal perspective, one could also _define_ a classical knot/link as an equivalence class of knot/link diagrams, i.e., of decorated 4-valent plane graphs.
 
-From that perspective, virtual knot theory (introduced by [[Louis Kauffman]]) generalizes classical knot theory by considering knots and links as equivalence classes of decorated 4-valent graphs embedded in [[orientable]] surfaces of arbitrary [[genus of a surface|genus]].  In topological terms, all classical knots can in fact be realized as embeddings of the circle inside a "thickened" sphere $S^2 \times [0,1]$ (rather than in all of $\mathbb{R}^3$), while _virtual knots_ generalize this to embeddings of the circle inside any thickened orientable surface.  If one projects a virtual knot onto the page, the diagram might contain crossings that do _not_ represent places where the knot passes over/under itself, but rather are artifacts of the knot's non-planar shadow.  So, in a virtual knot diagram such crossings are explicitly indicated as "virtual", using a distinct notation from that for under/overcrossings.
+From that perspective, virtual knot theory (introduced by [[Louis Kauffman]]) generalizes classical knot theory by considering knots and links as equivalence classes of decorated 4-valent graphs embedded in [[orientable]] surfaces of arbitrary [[genus of a surface|genus]].  In topological terms, all classical knots can in fact be realized as embeddings of the circle inside a "thickened" sphere $S^2 \times [0,1]$, while _virtual knots_ generalize this to embeddings of the circle inside any thickened orientable surface.  If one projects a virtual knot onto the page, the diagram might contain crossings that do _not_ represent places where the knot passes over/under itself, but rather are artifacts of the knot's non-planar shadow.  So, in a virtual knot diagram such crossings are explicitly indicated as "virtual", using a distinct notation from that for under/overcrossings.
 
 ## Motivations
 
@@ -27,5 +31,7 @@ Warning: a virtual knot/link has a genus in the sense of the genus of the underl
 * {#Kauffman2012} [[Louis Kauffman]], Introduction to Virtual Knot Theory. July 2012. [arXiv](http://arxiv.org/abs/1101.0665)
 
 * {#Kuperberg2003} [[Greg Kuperberg]], What is a virtual link?, _Algebraic & Geometric Topology_ Volume 3 (2003), 587-591. [pdf](http://arxiv.org/pdf/math/0208039v2.pdf)
+
+* {#Viro} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
 
 * {#ManturovIlyutko} Vassily Olegovich Manturov and Denis Petrovich Ilyutko, _Virtual Knots: The State of the Art_.  Series on Knots and Everything (vol. 51), World Scientific, 2013.
