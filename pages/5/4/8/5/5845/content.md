@@ -21,15 +21,42 @@
 +-- {: .num_defn #Defn}
 ###### Definition
 
-An __adjoint triple__ of functors 
+An __adjoint triple__ (of [[functors]] between [[categories]] or generally of [[1-morphisms]] in a [[2-category]])
 
 $$
-  ( F\dashv G\dashv H) : C \to D 
+  ( F\dashv G\dashv H) \colon C \longrightarrow D 
 $$
 
-is a [[triple]] of [[functors]] $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
+is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
 
 =--
+
++-- {: .num_prop #AsAdjunctionOfAdjunctions}
+###### Proposition
+([Licata-Shulman](#LicataShulman))
+
+An adjoint triple $(F\dashv G\dashv G)$, def. \ref{Defn} is equivalently an [[adjoint pair]] in the 2-category whose morphisms are adjoint pairs in the original 2-category, hence an adjunction of adjunctions
+
+$$
+  (F \dashv G) \dashv (G \dashv H)
+  \,.
+$$
+
+=--
+
+It may be suggestive to denote this like so
+
+$$
+  \array{
+     F &\dashv& G
+     \\
+     \bot && \bot
+     \\
+     G &\dashv& H
+  }
+$$
+
+such that the two adjoint pairs appear horizontally, while the second order adjunction between them runs vertically.
 
 ## Properties
  {#Properties}
@@ -174,29 +201,33 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 Some remarks on adjoint triples are in
 
-* [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
-{#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _Remarks on punctual local connectedness_ ([tac](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
+
+The [[modal type theory]] of adjoint triples is discussed in 
+
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf))
 
 On spherical triples see
 
-* Rina Anno, _Spherical functors_, ([arxiv/0711.4409](http://arxiv.org/abs/0711.4409)).
-  {#Anno} 
+* {#Anno} Rina Anno, _Spherical functors_, ([arxiv/0711.4409](http://arxiv.org/abs/0711.4409)).
+   
 
 Generalities are in 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
- {#Elephant}
+* {#Elephant} [[Peter Johnstone]], _[[Sketches of an Elephant]]_ 
+ 
 
 Proofs of the folklore Proposition \ref{FullyFaithful} can be found in
 
-* Roy Dyckhoff and [[Walter Tholen]], "Exponentiable morphisms, partial products, and pullback complements", JPAA 49 (1987), 103--116.
- {#DyckhoffTholen}
+* {#DyckhoffTholen} Roy Dyckhoff and [[Walter Tholen]], "Exponentiable morphisms, partial products, and pullback complements", JPAA 49 (1987), 103--116.
+ 
 
-* [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289--319.
- {#KellyLawvere}
+* {#KellyLawvere} [[G.M. Kelly]] and [[F.W. Lawvere]], "On the complete lattice of essential localizations", Bulletin de la Soci&#233;t&#233; Math&#233;matique de Belgique, S&#233;rie A, v. 41 no 2 (1989) 289--319.
+ 
 
-* [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, (1992) (Lemma 7.4.1).
- {#SGL}
+* {#SGL} [[Saunders Mac Lane]] and [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, (1992) (Lemma 7.4.1).
+ 
 
 Several lemmas concerning adjoint pairs and adjoint triples are included in 
 
