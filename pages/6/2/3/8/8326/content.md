@@ -771,6 +771,9 @@ $$
   \,.
 $$
 
+(Indeed, an [[nLab:adjoint triple]] is equivalently an adjunction of adjunctions, see [here](adjoint+triple#AsAdjunctionOfAdjunctions)).
+
+
 =--
 
 In principle this may go on, but in models one finds that there are essentially no examples with a fourth adjoint that do not degenerate to the [[nLab:ambidextrous adjunction|ambidextrous]] situation where $\lozenge \simeq \bigcirc$. 
