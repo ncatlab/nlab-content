@@ -1,0 +1,6 @@
+
+Tamara van Glehn works on [[type theory]], [[category theory]] and the [[relation between category theory and type theory]].
+
+* [webpage](https://www.dpmms.cam.ac.uk/people/tlv22/)
+
+category: people
