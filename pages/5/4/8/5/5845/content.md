@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about the notion of _adjoint triple_ involving 3 functors. This is not to be confused with the notion of [[adjoint monads]], which were also sometimes called adjoint triples, with "triple" then being a synonym for "monad". However, an adjoint triple in the sense here does induce an [[adjoint monad]]!
+> This entry is about the notion of _adjoint triple_ involving three functors. This is not to be confused with the notion of [[adjoint monads]], which were also sometimes called adjoint triples, with "triple" then being a synonym for "monad". However, an adjoint triple in the sense here does induce an [[adjoint monad]]!
 
 #Contents#
 * table of contents
