@@ -33,7 +33,6 @@ is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \
 
 +-- {: .num_prop #AsAdjunctionOfAdjunctions}
 ###### Proposition
-([Licata-Shulman, 5.1](#LicataShulman))
 
 An adjoint triple $(F\dashv G\dashv H)$, def. \ref{Defn} is equivalently an [[adjoint pair]] in the 2-category whose morphisms are adjoint pairs in the original 2-category, hence an adjunction of adjunctions
 
@@ -43,6 +42,8 @@ $$
 $$
 
 =--
+
+This fact plays an important role in [Licata-Shulman, 5.1](#LicataShulman).  Relatedly, it also appears in the characterization of certain kinds of [[geometric morphism]] (e.g. the [[local geometric morphism|local]] ones) in terms of adjunctions in the 2-category [[Topos]].
 
 It may be suggestive to denote this like so
 
