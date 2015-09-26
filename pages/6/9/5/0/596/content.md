@@ -27,7 +27,7 @@ Special cases of multispans of the above general kind are
 * ordinary [[spans]] and [[cospans]]: these are obtained by restricting the domain poset to be of the form 
 $\wedge := a_1 \to \top \leftarrow a_2$.
 
-* the double cospans of the form $\wedge^{\times 2}$ with $\wegde$ as above, described in 
+* the double cospans of the form $\wedge^{\times 2}$ with $\wedge$ as above, described in 
 
   * Jeffrey Morton, _Double Bicategories and Double Cospans_ ([arXiv](http://xxx.lanl.gov/abs/math.CT/0611930)),
 
