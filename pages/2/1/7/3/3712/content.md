@@ -50,7 +50,7 @@ Over a [[complex manifold]]/[[complex variety]] the [[Koszul-Malgrange theorem]]
 
 #### Existence
 
-In ([Milnor](#Milnor)) it is shown that a [[vector bundle]] over a [[surface]] of [[genus]] $g$ admit flat connections iff its [[Euler class]] is less than $g$ by an [[absolute value]] (see also Wood, Bundles with totally disconnected structure group). [Sullivan](#Sullivan) gives a refinement.
+In ([Milnor](#Milnor)) it is shown that a [[vector bundle]] over a [[surface]] of [[genus]] $g$ admits flat connections iff its [[Euler class]] is less than $g$ by an [[absolute value]] (see also Wood, Bundles with totally disconnected structure group). [Sullivan](#Sullivan) gives a refinement.
 
 #### Narasimhan&#8211;Seshadri theorem
 
