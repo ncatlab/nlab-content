@@ -100,7 +100,7 @@ Under the second notion of morphism (where simple graphs are identified with set
 
 ## Definition in terms of action on a set of half-edges
 
-There is an equivalent definition of pseudograph in the above sense (i.e., of an undirected graph allowing loops and multiple edges), which replaces the set of edges by a set of **half-edges**.  In this formulation (which appears, for example, in the study of [[ribbon graphs]] and [[combinatorial maps]]), a graph is defined as a pair of sets $V$ and $H$ together with a function $s : H \to V$ and a [[fixed point]] free [[involution]] $i : H \to H$.  An equivalent but more symmetrical formulation (given in Chapter 2.1 of [Serre 1977](#Serre1977)) uses a pair of source and target functions $(s,t) : H \to V\times V$ such that $s\circ i = t$ (and hence $s = t \circ i$).  Here, the set $H$ can also be seen as a set of directed edges.  In other words, a pseudograph is just a [[quiver]] equipped with a fixed point free involution on directed edges which exchanges source and target.  Note an analogy between this way of defining a pseudograph and the definition of a [[dagger category]] as a category equipped with a contravariant involution on morphisms.
+There is an equivalent definition of pseudograph in the above sense (i.e., of an undirected graph allowing loops and multiple edges), which replaces the set of edges by a set of **half-edges**.  In this formulation (which appears, for example, in the study of [[ribbon graphs]] and [[combinatorial maps]]), a graph is defined as a pair of sets $V$ and $H$ together with a function $s : H \to V$ and a [[fixed point]] free [[involution]] $i : H \to H$.  An equivalent but more symmetrical formulation (given in Chapter 2.1 of [Serre 1977](#Serre1977)) uses a pair of source and target functions $(s,t) : H \to V\times V$ together with a fixed point free involution $i : H \to H$ such that $s\circ i = t$ (and hence $s = t \circ i$).  Here, the set $H$ can also be seen as a set of directed edges.  In other words, a pseudograph is just a [[quiver]] equipped with a fixed point free involution on directed edges which exchanges source and target.  Note an analogy between this way of defining a pseudograph and the definition of a [[dagger category]] as a category equipped with a contravariant involution on morphisms.
 
 Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just the orbits of $i$, which (since $i$ is a fixed point free involution) must all be of length 2, corresponding to pairs of half-edges.  Lifting the condition that $i$ has no fixed points also allows to represent graphs with "dangling" edges.
 
@@ -137,6 +137,8 @@ Given a (pseudo)graph $G$ represented by $(V,H,s,i)$, the edges of $G$ are just 
 * {#Serre1977} [[Jean-Pierre Serre]] (1977), _Trees_, Springer.
 
 * [[Joachim Lambek]] and [[Philip Scott]] (1986), _Introduction to Higher Order Categorical Logic_, Cambridge University Press.
+
+* Gunther Schmidt and Thomas Str&#246;hlein (1993), _Relations and Graphs: Discrete Mathematics for Computer Scientists_, EATCS Monographs on Theoretical Computer Science, Springer.
 
 * [[Ronnie Brown]], I. Morris, J. Shrimpton, and C.D. Wensley (2008), _Graphs of Morphisms of Graphs_, Electronic Journal of Combinatorics, A1 of Volume 15(1), 1--28.
 
