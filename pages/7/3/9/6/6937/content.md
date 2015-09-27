@@ -1,5 +1,5 @@
 
-* [webpage](http://mathstat.dal.ca/~p.l.lumsdaine/)
+* Webpage: [http://peterlefanulumsdaine.com](http://peterlefanulumsdaine.com)
 
 category: people
 
