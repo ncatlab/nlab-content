@@ -225,6 +225,8 @@ Discussion in tems of [[synthetic differential geometry]] is in
 
 * {#Kock80} [[Anders Kock]], _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) Volume: 21, Issue: 3 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0))
 
+* {#Kock10} [[Anders Kock]], section 2.7 of _Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+
 
 See also
 
