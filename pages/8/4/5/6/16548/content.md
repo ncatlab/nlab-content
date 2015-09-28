@@ -41,6 +41,8 @@ $$
 
 may be interpreted as sending any [[bundle]] over $X$ to its [[jet bundle]]. 
 
+{#Kock10Remark731} This characterization via base change is more or less implicit in ([Kock 10, remark 7.3.1](#Kock10)) (to translate from the pull-push shown there use that in a [[topos]] the [[epimorphism]] $X \to \Im X$ is [[effective epimorphism|effective]] and then use the [[Beck-Chevalley condition]] to get the push-pull shown above.)
+
 ## Properties
 
 The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the interpretation of the category of [[partial differential equations]] with [[variables]]  in $X$. The [[co-Kleisli category]] of the Jet comonad has the interpretation as being the category of bundles over $X$ with [[differential operators]] between them as morphisms ([Marvan 86](#Marvan86), [Marvan 89](#Marvan89)).
@@ -61,6 +63,9 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 * {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
+Discussion in [[synthetic differential geometry]] is in
+
+* {#Kock10} [[Anders Kock]], remark 7.3.1_Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
