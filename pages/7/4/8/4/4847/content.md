@@ -29,9 +29,9 @@ and checking that the sign applied to both sides of a relation equation gives th
 
 Another is by invoking a tautological representation of $S_n$ on a [[polynomial algebra]] $\mathbb{Z}[x_1, \ldots, x_n]$, 
 
-$$S_n \stackrel{\cong}{\to} Set(\{x_1, \ldots, x_n\}, \{x_1, \ldots, x_n\}) \to CRing(\mathbb{Z}[x_1, \ldots, x_n], \mathbb{Z}[x_1, \ldots, x_n])$$ 
+$$S_n \stackrel{\cong}{\to} Set_{core}(\{x_1, \ldots, x_n\}, \{x_1, \ldots, x_n\}) \to CRing_{core}(\mathbb{Z}[x_1, \ldots, x_n], \mathbb{Z}[x_1, \ldots, x_n])$$ 
 
-and recognizing that for the special polynomial 
+(where [[core]] refers to the groupoid of invertible morphisms) and recognizing that for the special polynomial 
 
 $$D \coloneqq \prod_{i \lt j} (x_i - x_j)$$ 
 
