@@ -4,3 +4,7 @@ $$
 </svg>
 \end{svg}
 $$
+
+$$
+  \sum \dashv ext \dashv \prod
+$$
