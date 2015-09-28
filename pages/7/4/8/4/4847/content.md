@@ -48,5 +48,6 @@ $$sign(\tau) = (-1)^{I(\tau)}.$$
 
 Each crossing corresponds to a pair of elements $x_i \lt x_j$ such that $\tau(x_i) \gt \tau(x_j)$, called an **inversion**. 
 
-Another method which does not depend on choosing a total order is to exhibit a permutation through its [cycle decomposition](http://ncatlab.org/nlab/show/permutation#via_cycle_decompositions_6). Each cycle of period $k$ contributes a sign $(-1)^{k-1}$, and the overall sign is the product of these contributions taken over all the cycles. 
+Another method which does not depend on choosing a total order is to exhibit a permutation through its [cycle decomposition](http://ncatlab.org/nlab/show/permutation#via_cycle_decompositions_6). Each cycle of period $k$ contributes a sign $(-1)^{k-1}$, and the overall sign is the product of these contributions taken over all the cycles. Thus the signature is given by the parity of the number of cycles of even length. 
 
+This cycle description can actually be used to give an independent definition of the signature. It is manifestly well-defined and invariant on conjugacy classes. To check that it defines a homomorphism to $\{1, -1\}$, it suffices to check that multiplication by a transposition changes the parity of the number of even-length cycles by one. This is easy if we note that transposing two elements belonging to different cycles merges two cycles into one, whereas transposing two elements belonging to the same cycle splits one cycle into two. 
