@@ -20,21 +20,10 @@
 
 The _Hartogs number_ of a [[cardinal number]] $\kappa$ is the number of ways to [[well-order]] a set of cardinality at most $\kappa$.[^term]
 
-[^term]: The spelling _Hartogs' number_, or even _Hartog's number_, is also in use. The later based presumably on a misapprehension since the concept was originally proposed by a German mathematician named F. Hartogs in 1915.
+[^term]: The spelling _Hartogs' number_, or even _Hartog's number_, is also in use. The later based presumably on a misapprehension since the concept was originally proposed by the German mathematician Friedrich Hartogs (1874-1943) in 1915.
 
 Assuming the [[axiom of choice]], it is the smallest [[ordinal number]] whose cardinality is greater than $\kappa$ and therefore the [[successor]] of $\kappa$ as a cardinal number.  But even without the axiom of choice, it makes sense and is often an effective substitute for such a successor.
 
-+--{: .query}
-TH: The orthography here worries me! To the best of my knowledge it should be _Hartogs number_ or _Hartogs' number_ as the guy's name was _Hartogs_ .
-
-CZ: I changed the name of the entry from _Hartog's number_, which is certainly wrong. Probably it should be _Hartogs number_ now that I am really thinking about it. _Hartogs'_ and _Hartogs's_ are both acceptable variants of the possessive.
-
-TH: Ok, but if you prefer the second variant possessive -no problem, it was just I've never seen it before. In school we were taught the first variant, foreign language course though.
-
-The spelling _Hartog's_ seems to be wide-spread in the literature (e.g. Smullyan-Fitting) I'll mention it in the intro in order to feed external searches.
-
-I think the query box has served its purpose. Thanks!
-=--
 
 ## Definition
 
@@ -78,7 +67,7 @@ In general, we get a sequence $\omega_\alpha$ of infinite cardinalities of well-
 
 ## References
 
-* F. Hartogs, _&#220;ber das Problem der Wohlordnung_ , Math. Ann. **76** no.4 (1915) pp.438-443. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002266105))
+* Friedrich Hartogs, _&#220;ber das Problem der Wohlordnung_ , Math. Ann. **76** no.4 (1915) pp.438-443. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002266105))
 
 * [[Radu Diaconescu]], _On Comparability in a Topos_ , Proc. AMS **98** no.3 (1986) pp.389-393. ([pdf](http://www.ams.org/journals/proc/1986-098-03/S0002-9939-1986-0857927-9/S0002-9939-1986-0857927-9.pdf))
 
