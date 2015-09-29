@@ -794,6 +794,7 @@ For proof see [here](Wirthm&#252;ller%20context#ComparisonOfPushForwardsAndWirth
 
 
 ### Primary integral transforms
+ {#PrimaryIntegralTransform}
 
 +-- {: .num_defn #PolynomialFunctorsAndCorrespondences}
 ###### Definition
