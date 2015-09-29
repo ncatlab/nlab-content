@@ -59,9 +59,15 @@ In circumstances like these more sophisticated methods are appropriate, such as 
 
 An improvement on this relevant to the [[van Kampen theorem]] for computing the fundamental group or groupoid is to take $\Pi_1(X,A)$, defined to be the full subgroupoid of $\Pi_1(X)$ on a set $A$ of base points, chosen according to the geometry at hand. Thus if $X$ is the union of two open sets $U,V$ with intersection $W$ then we can take $A$ large enough to meet each path-component of $U,V,W$. If $X$ has an action of a group $G$ then $G$ acts on $\Pi_1(X,A)$ if $A$ is a union of orbits of the action.
 
-[[Ronnie Brown]] is a big booster of $\Pi_1(X,A)$, which is fundamental to his development of [[homotopy theory]] in _Elements of Modern Topology_ (1968).
+[[Ronnie Brown]] is a big booster of $\Pi_1(X,A)$. The notion was introduced in 1967 to give a version of the Seifert-van Kampen Theorem which allowed the determination  of the fundamental group of the union of non-connected spaces, and in particular of the  circle, a space  which is, after all, THE basic example in topology.
+Grothendieck writes in his 1984 [[Esquisse d'un Programme]] (Englisn translation)
 
-Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{a\})$ is the [[delooping]] of the [[fundamental group]] $\pi_1(X,a)$.
+" ..,people still obstinately persist,  when calculating with fundamental groups, in fixing a single base point, instead of cleverly choosing a whole packet of points which is invariant under  the symmetries of the situation, which thus get lost on the way.  In certain situations (such as descent theorems for fundamental groups \`a la van  Kampen) it is much more elegant,  even indispensable for understanding  something, to work with fundamental groupoids with respect to a suitable    packet of base points,..". 
+
+Notice that $\Pi_1(X,X)$ recovers the full fundamental groupoid, while $\Pi_1(X,\{a\})$ is simply  the [[fundamental group]] $\pi_1(X,a)$. 
+
+ Basically, $\Pi_1(X,A)$  allows for the computation of homotopy 1-types; the theory was developed in  _Elements of Modern Topology_ (1968), now available as _Topology and Groupoids_ (2006). These show  the use of groupoids in 1-dimensional   [[homotopy theory]], for example for covering spaces,  and, in the latter,  orbit spaces.  
+
 
 
 ### In higher category theory
@@ -83,7 +89,7 @@ See [[fundamental ∞-groupoid]].
 topological groupoid, _Proc. Edinburgh Math. Soc._ 19 (1975)
 237-244.
 
-* R. Brown, _Topology and groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). 
+* R. Brown, _Topology and Groupoids_, Booksurge (2006). (See particularly 10.5.8, using lifted topologies to topologise $(\pi_1 X)/N$ where $N$ is a normal, totally disconnected subgroupoid of $\pi_1 X$, and $X$ admits a universal cover). ([more info] (http://pages.bangor.ac.uk/~mas010/topgpds.html))
 
 Discussion from the point of view of [[Galois theory]] is in
 
