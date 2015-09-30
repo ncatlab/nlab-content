@@ -160,7 +160,7 @@ Details on Alexandroff spaces are in
 
 * F. Arenas, _Alexandroff spaces_, Acta Math. Univ. Comenianae Vol. LXVIII, 1 (1999), pp. 17&#8211;25 ([pdf](http://www.emis.de/journals/AMUC/_vol-68/_no_1/_arenas/arenas.pdf))
 
-* Timothy Speer, _A Short Study of Alexandroff Spaces_ ([pdf](http://homepages.nyu.edu/~tjs312/Papers/AlexandroffSpaces/AlexandroffSpaces.pdf))
+* Timothy Speer, _A Short Study of Alexandroff Spaces_ ([arXiv:0708.2136](http://arxiv.org/abs/0708.2136))
 
 A useful discussion of the abstract relation between posets and Alexandroff [[locales]] is in section 4.1 of
 
