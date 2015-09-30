@@ -15,7 +15,7 @@ The empty space is the [[initial object]] in [[Top]].  It satisfies all [[separa
 
 ### Connectedness
 
-Debate rages over whether the empty space is [[connected space|connected]] (and also [[path-connected space|path-connected]]).  With the common naive definitions that "a space is connected if it cannot be partitioned into disjoint nonempty open subsets" and "a space is path-connected if any two points in it can be joined by a path," the empty space is trivially both connected and path-connected.
+Debate rages over whether the empty space is [[connected space|connected]] (and also [[path-connected space|path-connected]]).  With the common naive definitions that "a space is connected if it cannot be partitioned into two disjoint nonempty open subsets" and "a space is path-connected if any two points in it can be joined by a path," the empty space is trivially both connected and path-connected.
 
 However, in some ways these definitions are too naive.  The question of whether the empty set is (path-)connected is analogous in many ways to the question of whether $1$ is [[prime number|prime]].  The above definitions are then analogous to saying that "a natural number $p$ is prime if any factor of it is either equal to $1$ or to $p$," according to which $1$ is prime---but there are better definitions that exclude $1$.
 
