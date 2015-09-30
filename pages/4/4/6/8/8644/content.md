@@ -29,6 +29,8 @@ This instanton sea model suffers however from infrared divergencies that either 
 
 But [[lattice gauge field theory]] simulations demonstrate numerically that the QCD vacuum is filled with instantons (e.g. [Gruber 13, esp. sections 5 and 7](#Gruber13)). Whether or not their density and distribution may be or has been theoretically derived from first principles is still being discussed (e.g. [Schaefer 02](#Schaefer02))
 
+The _Witten-Veneziano formula_ ([Witten 79](#Witten79), [Veneziano 79](#Veneziano79)) relates topological instanton charge to the mass of the $\eta'$-[[particle]] in the limiting case that the gauge group is $SU(N)$ for $N \to \infty$. Discussion of this relation for the experimentally observed finite case of $N = 3$ includes ([Creutz 11](#Creutz11)).
+
 ## Experimental evidence
 
 An instanton vacuum is argued to account for
@@ -152,12 +154,20 @@ Discussion of instantons in [[lattice gauge theory]] includes
 
 * {#Moore03} Guy Moore, section 7 of _Informal lectures on lattice gauge theory_, 2003 ([pdf](http://www.physics.mcgill.ca/~guymoore/latt_lectures.pdf))
 
+* {#Creutz11} Michael Creutz, _Anomalies, gauge field topology, and the lattice_, Annals of Physics 326 (2011) 911&#8211;925 ([pdf](http://thy.phy.bnl.gov/~creutz/mypubs/pub192.pdf))
+
 * {#Gruber13} Florian Gruber, _Topology in dynamical Lattice QCD simulations_, 2013 ([web](http://epub.uni-regensburg.de/27631/), [pdf](http://epub.uni-regensburg.de/27631/1/dissertation.pdf))
+
 
 Discussion of the $\eta'$-mass from instantons includes
 
+* {#Witten79} [[Edward Witten]], Nucl. Phys. B 156 (1979) 269.
+
+* {#Veneziano79} [[Gabriele Veneziano]], Nucl. Phys. B 159 (1979) 213
+
 * {#Schaefer02} [[Thomas Schaefer]], _QCD and the eta prime Mass: Instantons or Confinement?_, Phys.Rev. D67 (2003) 074502 ([arXiv:hep-lat/0211035](http://arxiv.org/abs/hep-lat/0211035))
 
+* _A renewed look at $\eta'$ in medium, ([arXiv:1203.6740](http://arxiv.org/abs/1203.6740))
 
 [[!redirects instantons in QCD]]
 [[!redirects instanton in quantum chromodynamics]]
