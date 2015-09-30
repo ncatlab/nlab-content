@@ -63,6 +63,20 @@ $$(4) \quad\quad    F F\phi \to F\phi$$
 
 should be in our logic,  (and similarly for $P$, but that will hold in the bidirectional models since if $R$ is transitive then so will be $R^{op}$).
 
+## Temporal Logic in Terms of Adjoints
+
+Consider a category $\mathcal{C}$, and an internal poset given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. Now each arrow generates an adjoint triple, e.g., $\sum_b \dashv  b^{\ast} \dashv \prod_b$, formed of [[dependent sum]], [[base change]], [[dependent product]], going between the slices $\mathcal{C}/Time_0$ and $\mathcal{C}/Time_1$. 
+
+Then we find two adjunctions $\sum_b e^{\ast} \dashv \prod_e b^{\ast}$ and $\sum_e b^{\ast} \dashv \prod_b e^{\ast}$, e.g.,
+
+$$
+Hom(\sum_b e^{\ast} C(t), D(t)) = Hom(e^{\ast} C(t), b^{\ast} D(t)) = Hom(C(t), \prod_e b^{\ast} D(t)).
+$$
+
+Now consider for the moment that $C$ and $D$ are propositions. Then $\sum_b e^*C$ means "there is some interval beginning now and such that $C$ is true at its end", i.e. $F C$; while $\prod_e b^*D$ means "for all intervals ending now, $D$ is true at their beginning", i.e. $H D$. Hence our adjunction is $F \dashv H$. Similarly, interchanging $b$ and $e$, we find $P \dashv G$. Note that we don't have to assume the classical principle $G\phi = \neg F\neg \phi$ and $H\phi = \neg P\neg \phi$.
+
+In the setting of dependent type theory, we do not need to restrict to propositions, but can treat the temporal operators on general time-dependent types. So if $People(t)$ is the type of people alive at $t$, $F People(t)$ is the type of people alive at a point in the future of $t$, and $G People(t)$ is a function from future times to people alive at that time, e.g., an element of this is 'The oldest person alive(t)'.
+
 
 ## References
 
