@@ -32,5 +32,27 @@ The general pattern is a progression of definitions (of 'simple') from more to l
 2.  Original na&#239;ve definition: there are no nontrivial foos.  (Example: a field has no non-invertible elements except $0$.)
 3.  Sophisticated definition: there are no nontrivial foos, but there is the trivial foo.  (Example: a field has no non-invertible elements except $0$, but $0$ is non-invertible.)
 
+In many of the above examples one can obtain the sophisticated definition from the na&#239;ve definition by replacing a 2-ary function by a function of arbitrary (finite) arity. For example we would replace
+
+* $n$ is prime if whenever $n=a.b$ we have $n=a$ or $n=b$
+
+with
+
+* $n$ is prime if whenever $n=\prod_{i=1}^k a_i$ we have $n=a_i$ for some $i$
+
+Then $1$ is not a prime because it is equal to the empty product ($k=0$) but not equal to any of the $a_i$ (because there aren't any)! Similarly we have:
+
+* The [[empty space]] is the empty union, and therefore not [[connected space|connected]].
+* In the [[trivial ring]] the empty product is equal to zero,
+and so this ring is not [[integral domain|integral]].
+* [[false|False]] is the empty disjunction, and hence is not [[true]].
+
+This illustrates one advantage of using unbiased rather than [[biased definition|biased]] definitions: if one has replaced "for all $n$" with "for both $0$ and $2$" then it is very easy to forget the "$0$" case and end up with a definition that fails for the trivial case.
+
+In a similar vein we can define [[connected space|path connected]] by
+
+* A space is path connected if for each finite subset there is a path passing through every point of that subset.
+
+Then the empty space is not path connected because it has no paths at all and hence no path through the empty subset.
 
 [[!redirects too simple to be simple]]
