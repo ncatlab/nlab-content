@@ -35,7 +35,7 @@ The **category of hypergraphs** $HGrph$ has objects consisting of a pair of sets
 
 =--
 
-Note that $HGrph$ is just the presheaf category $Set^{\cdot \leftarrow \cdot \rightarrow \cdot}$ over the "[[walking structure|walking]] span", and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
+Note that $HGrph$ is just the [[category of presheaves]] over the "[[walking structure|walking]] cospan" $\bullet \rightarrow * \leftarrow \circ$, and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
 
 ## Hypergraphs as 2-colored graphs
 
