@@ -70,9 +70,9 @@ A __nullary relation__ is a relation on the empty family of sets.  This is the s
 
 A __unary relation on $A$__ is a relation on the singleton family $(A)$.  This is the same as a [[subset]] of $A$.
 
-A __binary relation on $A$ and $B$__ is a relation on the family $(A,B)$, that is a subset of $A \times B$.  This is also called a __relation from $A$ to $B$__, especially in the context of the $2$-category [[Rel]] described below.
+A __binary relation on $A$ and $B$__ is a relation on the family $(A,B)$, that is a subset of $A \times B$.  This is also called a __relation from $A$ to $B$__, especially in the context of the $2$-category [[Rel]] described below, or sometimes called a __heterogenous relation__.
 
-A __binary relation on $A$__ is a relation on $(A,A)$, that is a relation from $A$ to itself.  This is sometimes called simply a __relation on $A$__.
+A __binary relation on $A$__ is a relation on $(A,A)$, that is a relation from $A$ to itself.  This is sometimes called a __homogenous relation__ on $A$, or simply a __relation on $A$__.
 
 An __$n$-ary relation__ on $A$ is a relation on a family of $n$ copies of $A$, that is a subset of $A^n$.
 
