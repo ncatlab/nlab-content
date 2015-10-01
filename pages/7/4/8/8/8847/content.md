@@ -19,6 +19,7 @@ Roughly speaking, a __spectral curve__ is a locus of zeros of the [[characterist
 * A. Beauville, M. S. Narasimhan, S. Ramanan, _Spectral curves and the generalized theta divisor_, J. Reine Angew. Math. 398 (1989), 169-179.
 * [[Carlos Simpson|Carlos T. Simpson]], _Higgs bundles and local systems_, Publ. Math&#233;matiques de l'IH&#201;S, 75 (1992), p. 5-95, [numdam](http://www.numdam.org/item?id=PMIHES_1992__75__5_0)
 * J. C. Hurtubise, _Integrable systems and algebraic surfaces_, Duke Math. J. __83__:1 (1996), 19-50, [euclid](http://projecteuclid.org/euclid.dmj/1077244044); erratum  Duke Math. J. __84__:3 (1996), 815, [euclid](http://projecteuclid.org/euclid.dmj/1077244246) 
+* Anton Izosimov, _Singularities of integrable systems and algebraic curves_, [arxiv/1509.08996](http://arxiv.org/abs/1509.08996)
 
 Quantum spectral curve:
 
