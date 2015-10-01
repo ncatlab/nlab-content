@@ -186,6 +186,8 @@ Correspondences may be seen as generalizations of [[relations]]. A relation is a
 
 * [[Hecke correspondence]]
 
+* A [[hypergraph]] is a span from a set of vertices to a set of (hyper)edges.
+
 ## Related concepts
 
 * [[(∞,n)-category of spans]].
