@@ -16,5 +16,9 @@ A recent new approach is in
 
 * S. Cantat, S. Lamy, _Normal subgroups of the Cremona group_, Acta Mathematica 210 (2013), 31&#8211;94
 
+Probing birational geometry via the derived category of coherent sheaves is explained in
+
+* Alexander Kuznetsov, _Derived categories view on rationality problems_, [arxiv/1509.09115](http://arxiv.org/abs/1509.09115)
+
 category: algebraic geometry
 [[!redirects birational algebraic geometry]]
