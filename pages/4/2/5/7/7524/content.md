@@ -11,11 +11,45 @@
 
 ## Idea
 
-In an ordinary undirected [[graph]], each edge $e$ links an [[unordered pair]] of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing a "hyperedge" to link any set of "hypervertices" (or any [[non-empty set]] in some formulations).
+In an ordinary undirected [[graph]], each edge $e$ links an [[unordered pair]] of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing a "hyperedge" to link any set of "hypervertices".  Abstracting everything away but the _incidence_ relation between hypervertices and hyperedges, a hypergraph can be modelled as an arbitrary heterogenous [[relation]], or more generally as a [[span]].
 
-## As 2-colored graphs
+## Categories of hypergraphs
 
-Any hypergraph $H$ induces a [[vertex coloring|2-colored]] (hence necessarily [[bipartite graph|bipartite]]) graph $G(H)$, called its _incidence graph_.  The hypervertices $v$ and hyperedges $e$ of $H$ are represented respectively as black vertices $b_v$ and white vertices $w_e$ of $G(H)$, with an edge $b_v \sim w_e$ in $G(H)$ if and only if $v \in e$.   Conversely, any 2-colored graph $G$ determines a hypergraph $H(G)$, where each white vertex $w$ is interpreted as a hyperedge $e_w = \{v_b \mid b \sim w\}$ connecting all of the hypervertices associated to its (black vertex) neighbors.  (Note this could result in empty hyperedges, in the case that $G$ contained isolated white vertices.)
+As with "[[graph]]", the word "hypergraph" does not have an entirely standardized meaning.  We take as our starting point [(Schmidt & Str&#246;hlein)](#SchmidtStroehlein), who define hypergraphs as heterogenous relations (usually presented as boolean-valued matrices) and give an appropriate notion of morphism.  We call these "simple" hypergraphs, since they are a special case of a more general definition given below.
+
++-- {: .num_defn }
+###### Definition
+
+The **category of simple hypergraphs** $SimpHGrph$ has objects consisting of a pair of sets $(V,E)$ equipped with a relation $R \subseteq V \times E$, and morphisms $(R \subseteq V \times E) \to (R' \times V' \times E')$ consisting of pairs of functions $(f : V \to V', g : E \to E')$ which preserve the relation, i.e., such that for all $v\in V, e \in E$, if $(v,e) \in R$ then $(f v,g e) \in R'$.
+
+=--
+
+The category of simple hypergraphs could also be referred to more dryly as "the category of binary relations", although this has potential for confusion with [[Rel]] (whose _morphisms_ are binary relations).
+
+In a simple hypergraph, a hypervertex can be incident to a hyperedge at most once, but in some situations one wants to allow a hypervertex to be incident to a hyperedge multiple times.  To define hypergraphs in this more general sense, we keep the intuition of hypergraphs-as-heterogenous-relations, but generalize relations to spans.
+
++-- {: .num_defn }
+###### Definition
+
+The **category of hypergraphs** $HGrph$ has objects consisting of a pair of sets $(V,E)$ equipped with a span $V \overset{v}\leftarrow R \overset{e}\rightarrow E$, and morphisms $(V \overset{v}\leftarrow R \overset{e}\rightarrow E) \to (V' \overset{v'}\leftarrow R' \overset{e'}\rightarrow E')$ consisting of triples of functions $(f : V \to V', g : E \to E', h:R \to R')$ such that $v'\circ h = f\circ v$ and $e'\circ h = g\circ e$.
+
+=--
+
+Note that $HGrph$ is just the presheaf category $Set^{\cdot \leftarrow \cdot \rightarrow \cdot}$ over the "[[walking structure|walking]] span", and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
+
+## Hypergraphs as 2-colored graphs
+
+There is a classical equivalence between hypergraphs and [[vertex coloring|2-colored]] (hence [[bipartite graph|bipartite]]) graphs.  Given a hypergraph $H$, define a graph $G(H)$ whose vertex set is the [[disjoint union]] of the hypervertices and the hyperedges of $H$, and with an edge $x_v \sim x_e$ in $G(H)$ whenever the corresponding pair $(v,e)$ are incident in $H$ (creating multiple edges in the case of multiple incidence).  By coloring vertices corresponding to hypervertices in black and vertices corresponding to hyperedges in white, we satisfy the requirement that no pair of vertices sharing an edge have the same color.  Conversely, this construction is clearly reversible: any 2-colored graph $G$ determines a hypergraph $H(G)$ by interpreting black vertices as hypervertices and white vertices as hyperedges that connect all of their (black vertex) neighbors.
+
+Giving a [[vertex coloring]] of a graph $G$ with $n$ colors is equivalent to building a graph homomorphism $G \to K_n$ into the complete graph on $n$ vertices, and so graphs equipped with a $2$-coloring are naturally organized as a [[slice]] category over $K_2$.  The classical equivalence between hypergraphs and 2-colored graphs can then be expressed formally as an [[equivalence of categories]]
+
+$$ HGrph \cong Grph/K_2 $$
+
+between the category of hypergraphs and the slice over $K_2$ of the category of graphs, where by the latter we mean "pseudographs" in the greatest level of generality, allowing for loops, multiple edges between vertices, and dangling half-edges (as described in [[graph#definition_in_terms_of_action_on_a_set_of_halfedges|this definition]]).  Moreover, this equivalence restricts to an equivalence
+
+$$ SimpHGrph \cong LoopGrph/K_2 $$
+
+where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory of $Grph$ whose objects are symmetric relations.
 
 ## Related concepts
 
@@ -27,6 +61,8 @@ Any hypergraph $H$ induces a [[vertex coloring|2-colored]] (hence necessarily [[
 * T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_, Journal of Combinatorial Theory (B) 18, 155-163 (1975).
 
 * W. D&#246;rfler and D. A. Waller, _A category-theoretical approach to hypergraphs_, Archiv der Mathematik, Volume 34, Number 1, (1980) 185-192, DOI: 10.1007/BF01224952
+
+* {#SchmidtStroehlein} Gunther Schmidt and Thomas Str&#246;hlein (1993), _Relations and Graphs: Discrete Mathematics for Computer Scientists_, EATCS Monographs on Theoretical Computer Science, Springer.
 
 [[!redirects hypergraphs]]
 
