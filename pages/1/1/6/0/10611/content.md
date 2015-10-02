@@ -114,7 +114,7 @@ $$
 
 * [[modal type]], [[anti-modal type]]
 
-* [[adjoint modality]]
+* [[adjoint modality]], [[adjoint logic]]
 
 * [[Galois connection]]
 
