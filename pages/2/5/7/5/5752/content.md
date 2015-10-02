@@ -1,5 +1,14 @@
 
+Igor Khavkine is a mathematical physicist working on [[field theory]]. 
 
-* current [website](http://www.science.unitn.it/~khavkine/)
+* [website](http://www.science.unitn.it/~khavkine/)
+
+## Selected publications
+
+This article solves the existence problem of local gauge invariant [[observables]] in [[general relativity]] by showing that while these do not exist as global functions, they do exist as a [[sheaf]] of functions on [[covariant phase space]]:
+
+* {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
+Levico Terme, Italy, September 2014)
+
 
 category: people
