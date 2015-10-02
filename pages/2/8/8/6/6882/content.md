@@ -30,6 +30,12 @@ Analogs of the 2d [[WZW model]] in higher dimension.
 
 * [[4d WZW model]]
 
+* [[Green-Schwarz sigma-model for super p-branes]]
+
+## Related concepts
+
+* [[definite globalization of WZW term]]
+
 ## References
 
 * Takeo Inami, Hiroaki Kanno and Tatsuya Ueno, _Higher-dimensional WZW Model
