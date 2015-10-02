@@ -213,6 +213,8 @@ See at _[monad -- Relation to adjunctions](monad#RelationToAdjunctionsAndMonadic
 
 * [[adjoint cylinder]]
 
+* [[adjoint logic]]
+
 
 ## References
 
