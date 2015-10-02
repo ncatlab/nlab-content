@@ -30,8 +30,7 @@ _Adjoint logic_ is [[formal logic]] or [[type theory]] which natively expresses 
 
 * [[Nick Benton]], [[Philip Wadler]], _Linear logic, monads and the lambda calculus_, In IEEE Symposium on Logic in Computer Science. IEEE Computer Society Press, 1996.
 
-* J. Reed, _A judgemental deconstruction of modal logic_, 2009 ([pdf](http://www.cs.
-cmu.edu/~jcreed/papers/jdml.pdf))
+* J. Reed, _A judgemental deconstruction of modal logic_, 2009 ([pdf](http://www.cs.cmu.edu/~jcreed/papers/jdml2.pdf))
 
 
 * {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf))
