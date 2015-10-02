@@ -20,7 +20,7 @@ A [[subset]] $S$ of a [[real number|real]] [[affine space]] $X$ is **convex** if
 
 ## Properties
 
-Every convex set is [[star-shaped]].
+Every convex set is [[star-shaped]] about each of its points, and hence [[contractible space|contractible]] provided it is [[inhabited set|inhabited]].
 
 ## Related notions
 
