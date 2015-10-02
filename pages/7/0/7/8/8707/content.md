@@ -74,6 +74,8 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 
 * [[modal homotopy type theory]]
 
+* [[adjoint logic]]
+
 * [[reflective subuniverse]]
 
 * [[geometric type theory]]
@@ -142,6 +144,7 @@ reviewed in
 
 * [[Robert Goldblatt]], _Grothendieck topology as geometric modality_, Mathematical Logic Quarterly, Volume 27, Issue 31-35, pages 495&#8211;529, (1981)
  {#Goldblatt}
+
 
 
 
