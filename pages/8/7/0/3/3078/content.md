@@ -1,7 +1,7 @@
 
-Mikhail Kapranov is a professor of mathematics at Yale.
+Mikhail Kapranov is a professor of mathematics at Kavli IPMU in Tokyo.
 
-* [Yale website](http://www.math.yale.edu/~mk486/); [old Toronto website](http://www.math.toronto.edu/kapranov/)
+* [old Yale website](http://www.math.yale.edu/~mk486/); [old Toronto website](http://www.math.toronto.edu/kapranov/)
 
 * A list of publications [html](http://www.math.yale.edu/~mk486/publ.html)
 
