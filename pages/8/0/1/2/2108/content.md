@@ -42,8 +42,15 @@ and then form
 1. associate with every function on the symplectic manifold -- every [[Hamiltonian]] -- a [[linear operator]] on this Hilbert space.
 
 ### History and variants
+ {#HistoryAndVariants}
 
 The approach is due to [[Alexandre Kirillov]] ("[[orbit method]]"), [[Bertram Kostant]] and [[Jean-Marie Souriau]]. See the [References](#ReferencesGeneral) below. It is closely related to [[Berezin quantization]] and the subject of [[coherent states]].
+
+
+<img src="http://ncatlab.org/nlab/files/SouriauPrequantumFlowChart.jpg" alt="Prequantum flow chart" />
+
+([Souriau 74, fig 1](#Souriau74))
+
 
 In a long term project [[Alan Weinstein]] and many of his students have followed the idea that the true story behind geometric quantization crucially involves [[symplectic Lie groupoids]]: [[higher symplectic geometry]]. See [[geometric quantization of symplectic groupoids]] for more on this. 
 
@@ -991,6 +998,8 @@ Original references include
 
 * [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_, Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208
 
+* {#Souriau74} [[Jean-Marie Souriau]], _Mod&#232;le de particule &#224; spin dans le champ &#233;lectromagn&#233;tique et gravitationnel_, Annales de l'I.H.P. Physique th&#233;orique, 20 no. 4 (1974), p. 315-364  ([numdam](http://www.numdam.org/item?id=AIHPA_1974__20_4_315_0))
+
 * [[Bertram Kostant]], _On the definition of quantization_, in _G&#233;om&#233;trie Symplectique et Physique Math&#233;matique_, Colloques Intern. CNRS, vol. 237,
 Paris (1975) 187&#8212;210
 
@@ -1020,9 +1029,9 @@ Lecture notes with an emphasis on [[semiclassical states]] are in
 
 A careful discussion of the polarization-step from prequantization to quantization is in 
 
-* J. &#346;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
+* J. &Sacute;niatycki, _Wave functions relative to a real polarization_, Internat. J. Theoret. Phys., 14(4):277&#8211;288 (1975)
 
-* J. &#346;niatycki, _Geometric Quantization and Quantum Mechanics_, volume 30 of Applied Mathematical Sciences. Springer-Verlag, New York (1980)
+* J. &Sacute;niatycki, _Geometric Quantization and Quantum Mechanics_, volume 30 of Applied Mathematical Sciences. Springer-Verlag, New York (1980)
 
 The special case of K&#228;hler quantization is discussed for instance in 
 
