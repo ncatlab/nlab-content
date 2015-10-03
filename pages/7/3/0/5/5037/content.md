@@ -65,7 +65,9 @@ should be in our logic,  (and similarly for $P$, but that will hold in the bidir
 
 ## Temporal Logic in Terms of Adjoints
 
-Consider a category $\mathcal{C}$, and an internal poset given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. Now each arrow generates an adjoint triple, e.g., $\sum_b \dashv  b^{\ast} \dashv \prod_b$, formed of [[dependent sum]], [[base change]], [[dependent product]], going between the slices $\mathcal{C}/Time_0$ and $\mathcal{C}/Time_1$. 
+Consider a category $\mathcal{C}$, and an [[internal category]] given by $b, e: Time_1 \rightrightarrows Time_0$. Here we understand elements of $Time_1$ as time intervals, and $b$ and $e$ as marking their beginning and end points. We may choose to impose additional structure on $Time$, e.g., that it be an internal [[poset]], or a [[linear order]].
+
+Now each arrow, $b$ and $e$, generates an adjoint triple, e.g., $\sum_b \dashv  b^{\ast} \dashv \prod_b$, formed of [[dependent sum]], [[base change]], [[dependent product]], going between the slices $\mathcal{C}/Time_0$ and $\mathcal{C}/Time_1$. 
 
 Then we find two adjunctions $\sum_b e^{\ast} \dashv \prod_e b^{\ast}$ and $\sum_e b^{\ast} \dashv \prod_b e^{\ast}$, e.g.,
 
@@ -77,6 +79,15 @@ Now consider for the moment that $C$ and $D$ are propositions. Then $\sum_b e^*C
 
 In the setting of dependent type theory, we do not need to restrict to propositions, but can treat the temporal operators on general time-dependent types. So if $People(t)$ is the type of people alive at $t$, $F People(t)$ is the type of people alive at a point in the future of $t$, and $G People(t)$ is a function from future times to people alive at that time, e.g., an element of this is 'The oldest person alive(t)'.
 
+Since $Time$ is a category, we have in addition to the two projections $p,q:Time_1\times_{Time_0} Time_1 \to Time_1$, composition $c:Time_1\times_{Time_0} Time_1 \to Time_1$. This allows us to express more subtle temporal expressions, such as '$\phi$ has been true since a time when $\psi$ was true', denoted $\phi S \psi$.
+
+$$\phi S \psi := \Sigma_e (b^* \psi \times \Pi_c (e p)^* \phi) $$
+
+(note $e p = b q$).  That is, there is a subinterval ending now such that $\psi$ was true at its beginning and $\phi$ was true at all points inside it. Similarly, '$\phi$ will be true until a time when $\psi$ is true' is
+
+$$\phi U \psi := \Sigma_b (e^* \psi \times \Pi_c (e p)^* \phi).$$
+
+Temporal logicians have debated the relevant advantages of instant-based and interval-based approaches. Some have also considered hybrid approaches ([Balb11](#Balb11)). The analysis of this section suggests that working with intervals and instants together in the form of an internal category allows for a natural treatment via [[adjoint logic]].
 
 ## References
 
@@ -90,6 +101,8 @@ but see also:
 
 * [[Patrick Blackburn]], _Tense, Temporal Reference and Tense Logic_, Journal of Semantics, 1994,11,
     pages 83--101, [on-line version](http://www.loria.fr/~blackbur/papers/tense.pdf)
+
+* {#Balb11} Balbiani, P., Goranko, V. and Sciavicco, G., 2011, 'Two-sorted Point-Interval Temporal logics', in _Proc. of the 7th International Workshop on Methods for Modalities (M4M7)_ (Electronic Notes in Theoretical Computer Science: Volume 278), pp. 31&#8211;45.
 
 [[!redirects temporal logic]]
 [[!redirects temporal logics]]
