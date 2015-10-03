@@ -100,7 +100,34 @@ If $T$ is a monad on a complete and cocomplete category $C$ that preserves refle
 
 The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
-Here is a more difficult result given in [Toposes, Theories, and Triples](#BarrWells) (theorem 3.9, p. 267): 
++-- {: .num_theorem} 
+###### Theorem 
+If $\mathbf{C}$ is a [[regular category]] or [[exact category]] in which regular epimorphisms [[split epimorphism|split]], and $T$ is any monad on $\mathbf{C}$, then $\mathbf{C}^T$ is a regular category (or exact category, respectively). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For regularity, we first construct coequalizers of kernel pairs in $C^T$. So suppose $\pi_1, \pi_2: E \rightrightarrows B$ is the kernel pair of some $f: B \to C$ in $\mathbf{C}^T$. The kernel pair $U\pi_1, U\pi_2: U E \to U B$ of $U f$ in $\mathbf{C}$ has a coequalizer $q: U B \to Q$ in $\mathbf{C}$, and of course $U\pi_1, U\pi_2$ is the kernel pair of $q$ as well. It follows that the fork 
+
+$$U E \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} U B \stackrel{q}{\to} Q$$ 
+
+splits in $\mathbf{C}$, hence this coequalizer diagram is preserved by $T$ and hence lifts to a coequalizer diagram in $\mathbf{C}^T$; cf. Beck's [[monadicity theorem]]. Thus kernel pairs in $\mathbf{C}^T$ have coequalizers. 
+
+That regular epis in $\mathbf{C}^T$ are stable under pullback follows a similar line of reasoning: let $p: B \to P$ be a regular epi in $\mathbf{C}^T$. It is the coequalizer of its kernel pair $\pi_1, \pi_2: E \rightrightarrows B$. We just calculated that the coequalizer $q: U B \to Q$ of $U\pi_1, U\pi_2$ in $\mathbf{C}$ lifts to $\mathbf{C}^T$, so that $Q$ is identified with $U P$ and $q$ with $U p$. Thus $U p$ is a regular epi in $\mathbf{C}$. Now if $f: A \to P$ is a map in $\mathbf{C}^T$, and $b = f^\ast p$ is the pullback of $p$ along $f$ (with kernel pair $\ker(b)$), then $U b$ is the pullback of $U p$ along $U f$ since $U$ preserves pullbacks, and so $U b$ is a regular epi since $\mathbf{C}$ is regular. This $U b$ is the coequalizer of its kernel pair, and splits, so that again as we argued before, its lift $b$ is the coequalizer of $\ker(b)$. Thus regular epis in $\mathbf{C}^T$ are stable under pullback. 
+
+For Barr-exactness, suppose $\pi_1, \pi_2: E \rightrightarrows B$ is an equivalence relation (or [[congruence]]) in $\mathbf{C}^T$. Then $U\pi_1, U\pi_2: U E \rightrightarrows U B$ is an equivalence relation in $\mathbf{C}$, and hence a kernel pair since $\mathbf{C}$ is exact. It is the kernel pair of its coequalizer $q$ in $\mathbf{C}$. By the argument we have used several times, the split coequalizer 
+
+$$U E \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} U B \stackrel{q}{\to} Q$$ 
+
+lifts to a coequalizer diagram in $\mathbf{C}^T$, and since kernel pairs are preserved and reflected by $U: \mathbf{C}^T \to \mathbf{C}$, we conclude that $\pi_1, \pi_2$ is the kernel pair of the lifted regular epi over $q$. 
+=-- 
+
++-- {: .num_cor} 
+###### Corollary 
+If $T$ is a monad on a [[slice category]] $Set/X$, then the category of $T$-algebras is Barr-exact. 
+=-- 
+
+Returning now to existence of general coequalizers, here is a more difficult and arcane result given in [Toposes, Theories, and Triples](#BarrWells) (theorem 3.9, p. 267): 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -169,7 +196,7 @@ $$\array{
 which gives $\phi \circ \mu c \circ T \theta c = \phi \circ T \xi$. This completes one direction. In the other direction, suppose $\phi \circ \mu c \circ T \theta c = \phi \circ T \xi$. Then 
 
 $$\array{
-\alpha \circ \theta d \circ S f & = & \alpha \circ \T f \circ \theta c \\
+\alpha \circ \theta d \circ S f & = & \alpha \circ T f \circ \theta c \\
  & = & \phi \circ \theta c \\
  & = & \phi \circ \mu c \circ \eta T c \circ \theta c \\
  & = & \phi \circ \mu c \circ T \theta c \circ \eta S c \\
