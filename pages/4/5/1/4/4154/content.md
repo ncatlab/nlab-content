@@ -116,6 +116,10 @@ Groth has also proved that homotopy-exactness of such squares can be used to rep
 * [[Moritz Groth]], "Derivators, pointed derivators, and stable derivators" [PDF](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf)
 {#Groth}
 
+* [[Georges Maltsiniotis]], "Carr&#233;s exacts homotopiques, et d&#233;rivateurs", Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques 53 (2012), 3-63
+[PDF](http://webusers.imj-prg.fr/~georges.maltsiniotis/ps/carhex.pdf)
+{#Maltsiniotis}
+
 
 [[!redirects homotopy exact squares]]
 [[!redirects homotopically exact square]]
