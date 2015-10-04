@@ -28,7 +28,7 @@ the collection of cartesian sections of $p : E \to X$ appears as $Maps_X^\flat(X
 
 Here 
 
-* the [[simplicial set]] $Maps_X^\sharp(\cdots)$ is the simplicial set underlyying the [[internal hom]] of [[marked simplicial set]]s over $X$ (beginning of section 3.1.3);
+* the [[simplicial set]] $Maps_X^\flat(\cdots)$ is the simplicial set underlying the [[internal hom]] of [[marked simplicial set]]s over $X$ (beginning of section 3.1.3);
 
 * $X^#$ is the [[simplicial set]] $X$ with _all_ cells marked (beginning of section 3.1)
 
