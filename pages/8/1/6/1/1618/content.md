@@ -131,6 +131,8 @@ $$
   \,.
 $$
 
+Note that the observation that the points of $Sh(X)$ are in bijection with the points of $X$ actually factors over an intermediate concept, namely that of [[point of a locale|points of a locale]]. Firstly, any topological space gives rise to a locale; if the space is sober, its points are in bijection with the locale-theoretic points of the induced locale. Secondly, for any locale ([[topological locale|spatial]] or not), its locale-theoretic points correspond to the points of its induced sheaf topos.
+
 ### In sheaf toposes
 
 The following characterization of points in [[sheaf toposes]] a special case of the general statements at [[morphism of sites]].
