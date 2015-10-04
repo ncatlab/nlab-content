@@ -53,8 +53,14 @@ However, When working in a category that has an [[internal logic]], we may want 
 
 This is generally a weaker statement: a [[topos]] satisfies the external AC if and only if it satisfies the internal AC and also (the external form of) [[supports split]].   Often, however, this is the more relevant notion to consider.
 
-If a topos $C$ satisfies IAC, then so do all of its [[slice categories]], although this may not be obvious.  See [this answer](http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262).
+If a topos $C$ satisfies IAC, then so do all of its [[slice categories]], although this may not be obvious.  See [this answer](http://mathoverflow.net/questions/139874/pullback-stability-of-internally-projective-objects/140262#140262). 
 
+### In toposes 
+
++-- {: .num_theorem} 
+###### Theorem 
+A [[Grothendieck topos]] satisfies the external axiom of choice iff it is equivalent to the [[category of sheaves]] on a [[complete Boolean algebra]]. 
+=-- 
 
 ## Equivalents 
 
