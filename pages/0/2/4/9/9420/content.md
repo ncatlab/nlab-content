@@ -50,7 +50,7 @@ this may or may not equal the [[zero vector]] $0_V$.  Of course, if every $a_i$ 
 +-- {: .num_defn}
 ###### Definition
 
-The subset $S$ is __linearly independent__ if, conversely, for every finite subset $\{a_1, \ldots, a_n\} \subseteq S$, we have $a_i = 0_K$ for all $i$ whenever 
+The subset $S$ is __linearly independent__ if, conversely, for every finite subset $\{v_1, \ldots, v_n\} \subseteq S$, we have $a_i = 0_K$ for all $i$ whenever 
 $$ \sum_{i=1}^n a_i v_i = 0_V ;$$
 otherwise, $S$ is __linearly dependent__.
 =-- 
