@@ -89,6 +89,8 @@ A proviola-enhanced version of the Coq-library for [[homotopy type theory]] is a
 
 * A [discussion](http://r6.ca/blog/20091101T231201Z.html) about Coq's predicativity issues.
 
+* [history of Coq](https://github.com/coq/coq/blob/beedccef9ddc8633c705d7c5ee2f1bbbb3ec8a47/dev/doc/README-V1-V5)
+
 ### Learning Coq
 
 To get an idea how to use Coq from Emacs, there are [[Andrej Bauer]]'s _Video tutorials for the Coq proof assistant_ ([web](http://math.andrej.com/2011/02/22/video-tutorials-for-the-coq-proof-assistant/)).
