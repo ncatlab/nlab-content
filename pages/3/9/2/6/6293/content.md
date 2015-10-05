@@ -1,4 +1,8 @@
 
-* [Wikiepdia entry](http://en.wikipedia.org/wiki/Wolfgang_Pauli)
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Wolfgang_Pauli)
+
+##Concepts
+
+* [[Pauli exclusion principle]]
 
 category: people
