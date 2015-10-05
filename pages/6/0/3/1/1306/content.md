@@ -27,6 +27,7 @@ The notion of _[[Reedy category]]_, though useful, is in some contexts inconveni
 
 In fact, there are two notions of generalized Reedy category in the literature. Cisinski's "cat&#233;gories squelletiques" (Ch. 8 in  [_PCMH_](#Cisinski)) provide a natural generalization of the [[simplex category]], so that diagrams based on them behave much like [[simplicial objects]]. They were introduced primarily for the purposes of modeling [[homotopy types]]. The ["generalized Reedy categories"](#BergerMoerdijk) of Berger and Moerdijk are a strictly broader generalization suitable e.g. for describing [[dendroidal sets]]. They were introduced for the purposes of modelling more general classes of structure, particularly [[operads]].
 
+
 ## Definitions
 
 ### Generalized Reedy categories
@@ -302,6 +303,9 @@ Let $S$ be a strict [[Reedy category]] and let $G$ be a compatible $S$-crossed g
 
 ([Ber-Moe, prop. 2.10](#BergerMoerdijk)).
 
+## Related concepts
+
+* A "more generalized" notion is a [[c-Reedy category]].
 
 ## References
 
