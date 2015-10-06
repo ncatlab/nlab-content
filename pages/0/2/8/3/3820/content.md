@@ -233,9 +233,8 @@ $$
 
 =--
 
-We discuss this now in more detail. 
 
-> Warning. The following is a bit preliminary.
+We discuss this now in more detail. (The stament then also appears in [Cattaneo-Mnev-Reshetikhin 12, equation (9)](#CattaneoMnevReshetikhin12)).
 
 Write 
 
@@ -551,6 +550,7 @@ University Press, Cambridge, 1987, pp. 676&#8364;684. ([pdf](http://www.phys.lsu
 
   Influence: Witten
 
+
   Result: Applies the "by inspection" methods of Witten's earlier paper to write down conserved, variationally-closed pre-symplectic currents for Yang-Mills and general relativity.
 
 * C. Crnkovi&#263;, _Symplectic Geometry of the Covariant Phase Space_ , Class. Quant. Grav. 5 (1988) 1557&#128;1575.
@@ -630,6 +630,12 @@ Standard textbooks on [[classical mechanics]] include
 * J. E. Marsden, T. Ratiu, _Introduction to mechanics and symmetry_
 
 * wikipedia: [phase space](http://en.wikipedia.org/wiki/Phase_space)
+
+### BV formalism 
+
+Discussion via [[BV-formalism]] includes
+
+* {#CattaneoMnevReshetikhin12} [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
 
 [[!redirects covariant phase space]]
 
