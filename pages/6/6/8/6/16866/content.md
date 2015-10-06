@@ -15,7 +15,7 @@ A **c-Reedy category** is a category $C$ equipped with an ordinal-valued degree 
 * Every morphism in $\overset{\leftrightarrow}{C}$ is level (i.e. its domain and codomain have the same degree).
 * Every morphism in $\overset{\to}{C}\setminus\overset{\leftrightarrow}{C}$ strictly raises degree, and every morphism in $\overset{\leftarrow}{C}\setminus\overset{\leftrightarrow}{C}$ strictly lowers degree.
 * Every morphism $f$ factors as $\overset{\to}{f} \overset{\leftarrow}{f}$, where $\overset{\to}{f} \in \overset{\to}{C}$ and $\overset{\leftarrow}{f}\in\overset{\leftarrow}{C}$, and the category of such factorizations with connecting maps in $\overset{\leftrightarrow}{C}$ is connected.
-* For any $x$ and any degree $\delta\lt\deg(x)$, the functor $\overset{\leftarrow}{C}(x,-):\overset{\leftrightarrow}{C} \to \Set$ is a coproduct of retracts of representables.
+* For any $x$ and any degree $\delta\lt\deg(x)$, the functor $\overset{\leftarrow}{C}(x,-):\overset{\leftrightarrow}{C}_{=\delta} \to \Set$ is a coproduct of retracts of representables, where $\overset{\leftrightarrow}{C}_{=\delta}$ denotes the full subcategory of $\overset{\leftrightarrow}{C}$ on objects of degree $\delta$.
 
 ## References
 
