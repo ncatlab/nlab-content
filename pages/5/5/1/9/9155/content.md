@@ -61,6 +61,16 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 * _[[schreiber:Local prequantum field theory]]_
 
+Steps towards a local version of [[BV-formalism]] are undertaken in 
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical BV theories on manifolds with boundary_ ([arXiv:1201.0290](http://arxiv.org/abs/1201.0290))
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Classical and quantum Lagrangian field theories with boundary_ ([arXiv:1207.0239](http://arxiv.org/abs/1207.0239))
+
+* [[Alberto Cattaneo]], [[Pavel Mnev]], [[Nicolai Reshetikhin]], _Perturbative quantum gauge theories on manifolds with boundary_ ([arXiv:1507.01221](http://arxiv.org/abs/1507.01221))
+
+ 
+
 [[!redirects local quantum field theories]]
 
 
@@ -70,4 +80,3 @@ Here, too, one can consider the analog of [[extended quantum field theory]] and 
 
 [[!redirects local QFT]]
 [[!redirects local QFTs]]
-
