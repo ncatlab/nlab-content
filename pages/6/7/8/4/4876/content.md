@@ -489,7 +489,11 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 
 * {#FSS12} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics, Volume 12, Issue 02 (2015) 1550018  ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
+### In solid state physics 
 
+Discussion of [[symmetry protected topological order]] phases of matter in [[solid state physics]] via higher WZW models is in 
+
+* {#CGLW11} Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B 87, 155114 (2013) [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
 
 
 [[!redirects WZW model]]
