@@ -198,6 +198,12 @@ A category of correspondences is a refinement of a category [[Rel]] of relations
 
 ## References ##
 
+The $Span(C)$ construction was introduced by Jean B&#233;nabou (as an example of a bicategory) in
+
+* [[Jean Bénabou]], Introduction to Bicategories, _Lecture Notes in Mathematics 47_, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
+
+B&#233;nabou cites an article by Yoneda (1954) for introducing the concept of span (in the category of categories).
+
 An exposition discussing the role of spans in [[quantum field theory]]:
 
 * [[John Baez]], _Spans in quantum Theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
