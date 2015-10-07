@@ -139,6 +139,8 @@ Discussion about the use of the term "weak enrichment" above is at _[[weak enric
 
 ## References
 
+* [[Jean Bénabou]], Introduction to Bicategories, _Lecture Notes in Mathematics 47_, Springer (1967), pp.1-77. ([doi](http://dx.doi.org/10.1007/BFb0074299))
+
 See also the references at [[2-category]].
 
 Power, A. J. _A general coherence result._
