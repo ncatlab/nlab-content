@@ -37,7 +37,7 @@ In [[generalized (Eilenberg-Steenrod) cohomology|Eilenberg-Steenrod]]-type [[dif
 
 ## Extrinsic curvature of embedded manifolds {#Extrinsic}
 
-Curvature $\kappa(\gamma)$ of a smooth curve $\gamma$ at a point $p$ of a smooth curve is the (signed) inverse radius of the (oriented) circle having tangency of order 1 with the curve at the point $p$. Every smooth curve in a 3-dimensional space is determined up to isometry by its (parametrised) curvature and torsion. Intuitively, the curvature measures how much curves are bent, when measured in some metrics. Fernet-Serret formulas describe the curvature, torsion and higher analogues for [[naturally parametrized curve]]s in $n$-dimensional Euclidean space. 
+Curvature $\kappa(\gamma)$ of a smooth curve $\gamma$ at a point $p$ of a smooth curve is the (signed) inverse radius of the (oriented) circle having tangency of order 1 with the curve at the point $p$. Every smooth curve in a 3-dimensional space is determined up to isometry by its (parametrised) curvature and torsion. Intuitively, the curvature measures how much curves are bent, when measured in some metrics. Frenet-Serret formulas describe the curvature, torsion and higher analogues for [[naturally parametrized curve]]s in $n$-dimensional Euclidean space. 
 
 For higher dimensional surfaces one can look at normal curvature which is the curvature of the curve which is intersection of a plane determined by the normal vector to the surface and a given tangent vector. For any 2-dimensional tangent plane, the normal curvature has two extreme values. Their product is called the **Gaussian curvature**. 
 
