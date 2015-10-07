@@ -17,7 +17,7 @@ I am researcher in the department _[Algebra, Geometry and Mathematical Physics](
 of the [Institute of Mathematics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0) at the [Czech Academy of the Sciences](http://www.cas.cz/index.html) (CAS) in [Prague](https://en.wikipedia.org/wiki/Prague).
 
 
-## my research {#myresearch}.
+## my research {#myresearch}
 
 My research is about mathematical theory building in theoretical fundamental physics. With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
@@ -76,7 +76,25 @@ For more on what the $n$Lab is see also
 
 * Wikipedia on: _[nLab](http://en.wikipedia.org/wiki/NLab)_.
 
+## column
+
+I am writing an irregular column at [PhysicsForums](https://www.physicsforums.com). Recent articles in the series include these:
+
+* _[It was 20 years ago today -- the M-theory conjecture](https://www.physicsforums.com/insights/20-years-ago-today-m-theory-conjecture/)_
+
+* _[Homotopy Lie n-algebras in Supergravity](https://www.physicsforums.com/insights/homotopy-lie-n-algebras-supergravity/)_
+
+* _[Emergence from the superpoint](https://www.physicsforums.com/insights/emergence-from-the-superpoint/)_
+
+* _[Higher prequantum geometry I: The need for prequantum geometry](https://www.physicsforums.com/insights/higher-prequantum-geometry-need-prequantum-geometry/)_
+
+* _[Higher prequantum geometry II: The principle of extremal action -- Comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/#toggle-id-1)_
+
+* _[Higher prequantum geometry III: The global action functional -- Cohomologically](https://www.physicsforums.com/insights/higher-prequantum-geometry-iii-global-action-functional-cohomologically/)_
+
+
 ## more on the web
+
 
 For more see my home pages 
 
@@ -89,8 +107,6 @@ For more see my home pages
 * _[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)_
 
 * _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
-
-* _[at Philosophy.SE](http://philosophy.stackexchange.com/users/5473/urs-schreiber)_
 
 
 ## copyright statement
