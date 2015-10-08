@@ -15,7 +15,7 @@
 
 ## Idea
 
-One proposal for a precise realization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence on its [[spectrum of a commutative ring|ring]] $Spec(R) \to Spec(\mathbb{Z})$,  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
+One proposal for a precise realization of the idea of "absolute" [[arithmetic geometry]] over [[F1|Spec(F1)]] is _Borger's absolute geometry_ ([Borger 09](#Borger09)). Here the structure of a [[Lambda-ring]] on a ring $R$, hence on its [[spectrum of a commutative ring|spectrum]] $Spec(R) \to Spec(\mathbb{Z})$,  is interpreted as a collection of lifts of all [[Frobenius morphisms]] and hence as [[descent]] data for descent to $Spec(\mathbb{F}_1)$ (which is defined thereby).  This definition yields an [[essential geometric morphism]] of [[gros topos|gros]] [[etale toposes]]
 
 $$
   Et(Spec(\mathbb{Z}))
@@ -24,7 +24,7 @@ $$
   \,,
 $$
 
-where on the right the notation is just suggestive, the [[topos]] is a suitable one over [[Lambda-rings]]. Here the middle [[inverse image]] is the [[forgetful functor]] which forgets the Lambda structure, and its [[right adjoint]] [[direct image]] is given by the [[ring of Witt vectors]] construction and may be thought of as producing [[arithmetic jet spaces]].
+where on the right the notation is just suggestive, the [[topos]] is a suitable one over [[Lambda-rings]]. Here the middle [[inverse image]] is the [[forgetful functor]] which forgets the Lambda structure, and its [[right adjoint]] [[direct image]] is given by the [[ring of Witt vectors]] construction and may be thought of as producing [[arithmetic jet spaces]]. In this sense the [[adjoint triple]] here would be directly analogous to the [[base change]] along the [[unit of a monad|unit]] of an [[infinitesimal shape modality]] whose induced [[comonad]] is the [[jet comonad]].
 
 This proposal seems to subsume many aspects of other existing proposals (see e.g. [Le Bruyn 13](#LeBruyn13)) and stands out as yielding an "absolute [[base topos]]" $Et(Spec(\mathbb{F}_1))$ which is rich and genuinely interesting in its own right.
 
@@ -72,9 +72,7 @@ However, inspecting this one finds that not only is the derivation-like part lif
 is [[support|supported]] over the point $\mathrm{Spec}(\mathbb{F}_p)$ in $\mathrm{Spec}(\mathbb{Z})$, then the standard fact that in [[positive characteristic|characteristic]] $p$ the
 $p$-power operation is a ring homomorphism now means that
 the derivation-like action vanishes here, as expected from the analogy, but that a pure homomorphism part covering the identity remains --  the [[Frobenius homomorphism]] $\mathrm{Frob}_p$.
-If by some abuse of notation we allow ourselves to write [[Isbell duality|formally dual]] morphisms for
-maps between rings that are not necessarily homomorphisms, then this situation ispossibly 
-usefully visualized as follows.
+If by some abuse of notation we allow ourselves to write [[Isbell duality|formally dual]] morphisms for maps between rings that are not necessarily homomorphisms, then this situation is, possibly, usefully visualized as follows.
 $$
   \array{
     \mathrm{Spec}(R)
@@ -149,7 +147,7 @@ Finally notice that the refinement of the $(-)^p$-operation from [[arithmetic ge
 
 > under construction
 
-Write [[CRing]] for the [[category]] of (finitely generated) [[commutative rings]]and $\Lambda Ring$ for that of [[Lambda-rings]].
+Write [[CRing]] for the [[category]] of (finitely generated) [[commutative rings]] and $\Lambda Ring$ for that of [[Lambda-rings]].
 
 By the discussion at _[here](Lambda-ring#FreeAndCofreeLambdaRings)_
 the [[forgetful functor]]
@@ -161,10 +159,10 @@ from [[Lambda-rings]] to [[commutative rings]] has
 * a [[right adjoint]] given by forming the [[ring of Witt vectors]] $W$.
 
 $$
-  (Symm \dashv U \dashv W)
+  (Symm \dashv U \dashv Witt)
   \;\colon\;
   \Lambda Ring
-   \stackrel{\overset{Symm}{\leftarrow}}{\stackrel{\overset{U}{\longrightarrow}}{\underset{W}{\leftarrow}}}
+   \stackrel{\overset{Symm}{\leftarrow}}{\stackrel{\overset{U}{\longrightarrow}}{\overset{Witt}{\leftarrow}}}
   CRing
   \,.
 $$
@@ -174,6 +172,22 @@ Hence
 * [[rings of Witt vectors]] are the _[[co-free functors|co-free]] Lambda-rings;
 
 * rings of [[symmetric functions]] are the [[free construction|free]] Lambda-rings.
+
+Regarding $Ring^{op}$ as a [[site]] for [[arithmetic geometry]], the order of the adjoints is reversed by forming [[opposite categories]]
+
+$$
+  (Witt \dashv U \dashv Symm)
+  \;\colon\;
+  CRing^{op}
+   \stackrel{\overset{Witt}{\longrightarrow}}{
+     \stackrel{\overset{U}{\longleftarrow}}{
+       \overset{Symm}{\longrightarrow}
+     }
+   }
+  \Lambda Ring^{op}
+  \,.
+$$
+
 
 Write $Spec(\mathbb{Z})_{et}$ for $CRing^{op}$ equipped with the [[etale topology]]. Hence
 
@@ -197,31 +211,45 @@ $$
 
 and speak of the "[[etale topos]] over $Spec(\mathbb{F}_1)$", or the "absolute [[base topos]]" or something like this. 
 
-> ah, maybe this differs from what Borger does. Check.
-
-
-The above [[adjoint triple]] induces an [[adjoint quadruple]] of functors on the [[categories of presheaves]]
+The above [[adjoint triple]] on sites then induces a sequence of adjoint functors on the [[categories of presheaves]] by left and right [[Kan extension]]
 
 $$
   PSh(Spec(\mathbb{Z})_{et})
-  \stackrel{\longleftarrow}\stackrel{\longrightarrow}{\stackrel{\longleftarrow}{\stackrel{\longrightarrow}{\longleftarrow}}}
+  \stackrel{\stackrel{Witt_!}{\longrightarrow}}{
+    \stackrel{\stackrel{U_! \simeq Witt^\ast}{\longleftarrow}}{
+      \stackrel{\stackrel{Symm_! \simeq U^\ast \simeq Witt_\ast}{\longrightarrow}}{
+        \stackrel{\stackrel{Symm^\ast \simeq U_\ast}{\longleftarrow}}{
+          \stackrel{Symm_\ast}{\longrightarrow}
+        }
+      }
+    }
+  }
   PSh(Spec(\mathbb{F}_1)_{et})
 $$
 
-The middle three of these restrict to sheaves, Borger shows. 
-But then so will the top one (...)
+The top three restrict to sheaves
 
 $$
-  Et(Spec(\mathbb{Z}))
-  =
   Sh(Spec(\mathbb{Z})_{et})
-  \stackrel{\longleftarrow}\stackrel{\longrightarrow}{\stackrel{\longleftarrow}{\stackrel{\longrightarrow}{}}}
+  \stackrel{\stackrel{Witt_!}{\longrightarrow}}{
+    \stackrel{\stackrel{U_! \simeq Witt^\ast}{\longleftarrow}}{
+      \stackrel{Symm_! \simeq U^\ast \simeq Witt_\ast}{\longrightarrow}
+    }
+  }
   Sh(Spec(\mathbb{F}_1)_{et})
-  =
-  Et(Spec(\mathbb{F}_1))
 $$
 
 
+The induced [[adjoint pair]] of [[monad]]/[[comonad]] is
+
+$$
+  (W^\ast \dashv W_\ast)
+  \coloneqq
+  ( U_! \circ Witt_!  \dashv U_! \circ Witt_\ast)
+  \,.
+$$
+
+[[infinitesimal disk bundle]] $\dashv$ [[jet comonad]]
 
 
 
