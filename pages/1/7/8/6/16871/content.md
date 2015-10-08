@@ -42,7 +42,7 @@ of the [[jet bundle]] $J^\infty_\Sigma E$ of $E$, namely the subbundle of those 
 
 This way a field configuration given by a section $\phi$ of $E$ is a solution to the equations of motion precisely if its [[jet prolongation]], being a section of $J^\infty_\Sigma E$ comes from a section of $\mathcal{E}$ under this inclusion.
 
-If one thinks of all this not as happening in the [[category]] of [[bundles]] over $\Sigma$ but in the category $PDE_\Sigma$ of [[partial differential equations]] over $\Sigma$, then the above inclusion becomes simply $\mathcal{E} \hookrightarrow E$, where now $E$ is thought of as the trivial partial differential equation on its sections, the one for which each section is a solution. Then a field configuration is just a morphism $\phi : \Sigma \longrightarrow E$ in $PDE_\Sigma$, and this is an on-shell solution precisely if itfactors through the inclusion of the shell:
+If one thinks of all this not as happening in the [[category]] of [[bundles]] over $\Sigma$ but in the category $PDE_\Sigma$ of [[partial differential equations]] over $\Sigma$, then the above inclusion becomes simply $\mathcal{E} \hookrightarrow E$, where now $E$ is thought of as the trivial partial differential equation on its sections, the one for which each section is a solution. Then a field configuration is just a morphism $\phi : \Sigma \longrightarrow E$ in $PDE_\Sigma$, and this is an on-shell solution precisely if it factors through the inclusion of the shell:
 
 $$
   \array{
