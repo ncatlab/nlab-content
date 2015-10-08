@@ -1,0 +1,59 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[physics]] the [[critical locus]] of the [[action functional]], hence the solution space to the [[equations of motion]] is often called the _shell_, or the _physical shell_. 
+
+This terminology derives from the case of the free relativistic particle propagating in [[Minkowski spacetime]], for which the space of solutions is the hyperbola of vectors whose Minkowski norm is the mass of the particle. This hyperbola is naturally called the _mass shell_.
+
+## Details
+
+In terms of [[variational calculus]] the field configurations are encoded by a [[field bundle]] $E$ over [[spacetime]]/[[worldvolume]] $\Sigma$ as being the [[sections]] of this bundle. The shell then is encoded by a sub-bundle 
+
+$$
+  \array{
+    \mathcal{E} &&\hookrightarrow && J^\infty_\Sigma E
+    \\
+    & \searrow && \swarrow
+    \\
+    && \Sigma
+  }
+$$
+
+of the [[jet bundle]] $J^\infty_\Sigma E$ of $E$, namely the subbundle of those pointwise field configurations with those jets (derivatives) that do solve the equations of motion.
+
+This way a field configuration given by a section $\phi$ of $E$ is a solution to the equations of motion precisely if its [[jet prolongation]], being a section of $J^\infty_\Sigma E$ comes from a section of $\mathcal{E}$ under this inclusion.
+
+If one thinks of all this not as happening in the [[category]] of [[bundles]] over $\Sigma$ but in the category $PDE_\Sigma$ of [[partial differential equations]] over $\Sigma$, then the above inclusion becomes simply $\mathcal{E} \hookrightarrow E$, where now $E$ is thought of as the trivial partial differential equation on its sections, the one for which each section is a solution. Then a field configuration is just a morphism $\phi : \Sigma \longrightarrow E$ in $PDE_\Sigma$, and this is an on-shell solution precisely if itfactors through the inclusion of the shell:
+
+$$
+  \array{
+    && \mathcal{E}
+    \\
+    & {}^\mathllap{\phi_{sol}}{\nearrow} & \downarrow
+    \\
+    \Sigma &\underset{\phi}{\longrightarrow}& E
+  }
+$$
+
+## References
+
+* _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
