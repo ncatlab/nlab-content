@@ -520,7 +520,7 @@ $$
   \exp(2 \pi \in \int_{\Sigma_k} [\Sigma_k, \mathbf{L}] )
   \colon
   [\Sigma_k, \mathbf{B}G]
-  \stackrle{[\Sigma_k, \mathbf{L}]}{\to}
+  \stackrel{[\Sigma_k, \mathbf{L}]}{\to}
   [\Sigma_k, \mathbf{B}^n U(1)]
   \stackrel{\exp(2 \pi i\left(-\right))}{\to}
   \mathbf{B}^{n-k} U(1)_{conn}
