@@ -94,7 +94,7 @@ commutes. Similarly, the following equation holds: $\rho_{x y} = (x \rho_y) \cir
 We prove only the first equation; the proof of the second is entirely analogous. Since the functor $1 \otimes -$ is an equivalence (being isomorphic to the identity functor), it suffices to show that the triangle marked by a question mark in the diagram below commutes: 
 
 $$\array{
-((1 1)x y) & \stackrel{\alpha_{1, 1, x}y}{\to} & (1(1 x)y) & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) & \stackrel{1\alpha_{1, x, y}}{\to} & 1(1(x y)) \\ 
+((1 1)x) y & \stackrel{\alpha_{1, 1, x}y}{\to} & (1(1 x))y & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) & \stackrel{1\alpha_{1, x, y}}{\to} & 1(1(x y)) \\ 
  &  ^\mathllap{(\rho_1 x)y} \searrow & \downarrow^\mathrlap{(1 \lambda_x)y} & & ^\mathllap{1(\lambda_x y)} \downarrow & ? \swarrow^\mathrlap{1(\lambda_{x y})} & \\ 
  & & (1 x)y & \underset{\alpha_{1, x, y}}{\to} & 1(x y) & & 
 }$$ 
@@ -238,6 +238,7 @@ In fact, these are precisely what we need to make any diagram built solely by te
 There are indeed 'magic wands' that automatically produce the definition of monoidal category, but most of these magic wands  are so heavy that only more advanced wizards can lift them.  
 
 For example, you can define a monoidal category to be a [[pseudomonoid]] internal to the 2-category [[Cat]] --- but nobody knew how to define these concepts until they knew what a monoidal category is!
+
 
 Two other closely related approaches involve [[2-monad|2-monad theory]] and [[homotopy theory]].  
 
