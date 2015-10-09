@@ -37,7 +37,7 @@ $$
 
 by taking the $n$-th [[skeleton]] to be $X^n:=\vee_\alpha S^n_\alpha$ and for each $\beta$ we attach an $n+1$-cell as follows:
 
-Write $h_\beta=\Sigma_\alpha d_{\alpha\beta}f_\alpha$ and let $\delta_{d_{\alpha\beta}}$ be $0$ if $d_{\alpha\beta}= 0$ and $d_{\alpha\beta}=1$ otherwise. Define an attaching map $S^n_\beta\rightarrow X^n$ by contracting $\ell_\beta:=(\Sigma_\alpha \delta_{d_{\alpha\beta}})-1$ $(n-1)-$spheres in $S^n$ thus defining a map $S^n_\beta\rightarrow \vee_{\ell_\beta} S^n_{\alpha\beta}$ and then map each $S^n_{\alpha\beta}$ to $S^n_{\alpha}$ by a degree $d_{\alpha\beta}$. 
+Write $h_\beta=\Sigma_\alpha d_{\alpha\beta}f_\alpha$ and let $\delta_{d_{\alpha\beta}}$ be $0$ if $d_{\alpha\beta}= 0$ and $1$ otherwise. Define an attaching map $S^n_\beta\rightarrow X^n$ by contracting $\ell_\beta:=(\Sigma_\alpha \delta_{d_{\alpha\beta}})-1$ $(n-1)-$spheres in $S^n$ thus defining a map $S^n_\beta\rightarrow \vee_{\ell_\beta} S^n_{\alpha\beta}$ and then map each $S^n_{\alpha\beta}$ to $S^n_{\alpha}$ by a degree $d_{\alpha\beta}$. 
 
 +-- {: .num_defn}
 ###### Definition
