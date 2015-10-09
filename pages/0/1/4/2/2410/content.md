@@ -45,3 +45,9 @@ category: reference
 I will be writing a review of the book for the Canadian math. Soc. so may be able to contribute something to this later on.
 
 =--
+
++--{.query}
+
+[[Victor Porton]] Is it necessary to know regular (nondirected) algebraic topology before reading this book? How much advanced category theory it requires?
+
+=--
