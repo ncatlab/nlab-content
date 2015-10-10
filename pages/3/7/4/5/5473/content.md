@@ -81,24 +81,36 @@ where the first arrow is the coproduct coprojection.
 
 +-- {: .num_cor}
 ######Corollary 
-If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. 
+If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$. 
 =-- 
 
 +-- {: .proof}
 ######Proof
 It is enough to show that $Set^T$ has coequalizers. Suppose given a pair of algebra maps $f, g: A \stackrel{\to}{\to} B$ whose coequalizer we wish to construct. Let $R$ be the $T$-algebra relation 
 $$R = \langle f, g \rangle: A \to B \times B$$ 
-and then let $E$ be the smallest $T$-congruence (equivalence relation that is a $T$-subalgebra map $E \hookrightarrow B \times B$) through which $R$ factors. (This is the intersection of all $T$-congruences through which $R$ factors, and may be calculated in $Set$, where it is reflected in $T$-$Alg$.) The coequalizer as calculated in $Set$,  
-$$E \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} B \stackrel{p}{\to} Q$$ 
-is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: B \to E$.) It is therefore an absolute colimit, which the monad $T$ preserves. Hence the top row in 
+and then let $E$ be the smallest $T$-congruence (equivalence relation that is a $T$-subalgebra map $E \hookrightarrow B \times B$) through which $R$ factors. (This is the intersection of all $T$-congruences through which $R$ factors, and may be calculated in $Set$, where it is reflected in $T$-$Alg$ since $U: Set^T \to Set$ reflects arbitrary intersections.) The coequalizer as calculated in $Set$,  
+$$\array{
+U E & \stackrel{\overset{U \pi_1}{\to}}{\underset{U \pi_2}{\to}} & B & \stackrel{p}{\to} & Q
+}$$ 
+is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: B \to E$.) The proof is completed by the following lemma. 
+=-- 
+
++-- {: .num_lemma #split} 
+###### Lemma 
+In a category $\mathbf{C}$, given a pair $\pi_1, \pi_2: E \rightrightarrows B$ in $\mathbf{C}^T$ such that $U\pi_1, U\pi_2: U E \rightrightarrows U B$ has a split coequalizer $U B \to Q$ in $\mathbf{C}$, the pair $\pi_1, \pi_2$ has a coequalizer in $\mathbf{C}^T$ (reflected by the split coequalizer). 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+(Cf. [[monadicity theorem]].) A split coequalizer is an absolute colimit, which the functor $T$ preserves. Hence the top row in 
 
 $$\array{
-T E & \stackrel{\overset{T\pi_1}{\to}}{\underset{T\pi_2}{\to}} & T B & \stackrel{T p}{\to} & T Q \\ 
+T U E & \stackrel{\overset{T U\pi_1}{\to}}{\underset{T U\pi_2}{\to}} & T U B & \stackrel{T p}{\to} & T Q \\ 
 \downarrow & & \downarrow & & \downarrow \\ 
-E & \stackrel{\overset{\pi_1}{\to}}{\underset{\pi_2}{\to}} & B & \stackrel{p}{\to} & Q
+U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{p}{\to} & Q
 }$$ 
 
-(the first two vertical arrows being algebra structure maps) is a coequalizer in $Set^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is reflected in $Set^T$. 
+(the first two vertical arrows being algebra structure maps) is a coequalizer in $\mathbf{C}^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is thereby reflected in $\mathbf{C}^T$. 
 =-- 
 
 +-- {: .num_cor} 
@@ -108,6 +120,8 @@ If $T$ is a monad on a complete and cocomplete category $C$ that preserves refle
 
 The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
+### Categories of algebras are Barr exact
+
 +-- {: .num_theorem #exact} 
 ###### Theorem 
 If $\mathbf{C}$ is a [[regular category]] or [[exact category]] in which regular epimorphisms [[split epimorphism|split]], and $T$ is any monad on $\mathbf{C}$, then $\mathbf{C}^T$ is a regular category (or exact category, respectively). 
@@ -115,19 +129,20 @@ If $\mathbf{C}$ is a [[regular category]] or [[exact category]] in which regular
 
 +-- {: .proof} 
 ###### Proof 
-For regularity, we first construct coequalizers of kernel pairs in $C^T$. So suppose $\pi_1, \pi_2: E \rightrightarrows B$ is the kernel pair of some $f: B \to C$ in $\mathbf{C}^T$. The kernel pair $U\pi_1, U\pi_2: U E \to U B$ of $U f$ in $\mathbf{C}$ has a coequalizer $q: U B \to Q$ in $\mathbf{C}$, and of course $U\pi_1, U\pi_2$ is the kernel pair of $q$ as well. It follows that the fork 
+For regularity, we first construct coequalizers of kernel pairs in $\mathbf{C}^T$. So suppose $\pi_1, \pi_2: E \rightrightarrows B$ is the kernel pair of some $f: B \to C$ in $\mathbf{C}^T$. The kernel pair $U\pi_1, U\pi_2: U E \to U B$ of $U f$ in $\mathbf{C}$ has a coequalizer $q: U B \to Q$ in $\mathbf{C}$, and of course $U\pi_1, U\pi_2$ is the kernel pair of $q$ as well. It follows from the splitting hypothesis that the fork 
 
 $$\array{
 U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{q}{\to} & Q}$$ 
 
-splits in $\mathbf{C}$, hence this coequalizer diagram is preserved by $T$ and hence lifts to a coequalizer diagram in $\mathbf{C}^T$; cf. Beck's [[monadicity theorem]]. Thus kernel pairs in $\mathbf{C}^T$ have coequalizers. 
+splits in $\mathbf{C}$, hence by Lemma \ref{split} this diagram lifts to a coequalizer for $\pi_1, \pi_2: E \rightrightarrows B$ in $\mathbf{C}^T$. Thus kernel pairs in $\mathbf{C}^T$ have coequalizers. 
 
-That regular epis in $\mathbf{C}^T$ are stable under pullback follows a similar line of reasoning: let $p: B \to P$ be a regular epi in $\mathbf{C}^T$. It is the coequalizer of its kernel pair $\pi_1, \pi_2: E \rightrightarrows B$. We just calculated that the coequalizer $q: U B \to Q$ of $U\pi_1, U\pi_2$ in $\mathbf{C}$ lifts to $\mathbf{C}^T$, so that $Q$ is identified with $U P$ and $q$ with $U p$. Thus $U p$ is a regular epi in $\mathbf{C}$. Now if $f: A \to P$ is a map in $\mathbf{C}^T$, and $b = f^\ast p$ is the pullback of $p$ along $f$ (with kernel pair $\ker(b)$), then $U b$ is the pullback of $U p$ along $U f$ since $U$ preserves pullbacks, and so $U b$ is a regular epi since $\mathbf{C}$ is regular. This $U b$ is the coequalizer of its kernel pair, and splits, so that again as we argued before, its lift $b$ is the coequalizer of $\ker(b)$. Thus regular epis in $\mathbf{C}^T$ are stable under pullback. 
+That regular epis in $\mathbf{C}^T$ are stable under pullback follows a similar line of reasoning: let $p: B \to P$ be a regular epi in $\mathbf{C}^T$. It is the coequalizer of its kernel pair $\pi_1, \pi_2: E \rightrightarrows B$. We just calculated that the coequalizer $q: U B \to Q$ of $U\pi_1, U\pi_2$ in $\mathbf{C}$ lifts to $\mathbf{C}^T$, so that $Q$ is identified with $U P$ and $q$ with $U p$. Thus $U p$ is a regular epi in $\mathbf{C}$. Now if $f: A \to P$ is a map in $\mathbf{C}^T$, and $b = f^\ast p$ is the pullback of $p$ along $f$ (with kernel pair $\ker(b)$), then $U b$ is the pullback of $U p$ along $U f$ since $U$ preserves pullbacks, and so $U b$ is a regular epi since $\mathbf{C}$ is regular. This $U b$ is the coequalizer of its kernel pair, and splits, so by Lemma \ref{split}, its lift $b$ is the coequalizer of $\ker(b)$. Thus regular epis in $\mathbf{C}^T$ are stable under pullback. 
 
-For Barr-exactness, suppose $\pi_1, \pi_2: E \rightrightarrows B$ is an equivalence relation (or [[congruence]]) in $\mathbf{C}^T$. Then $U\pi_1, U\pi_2: U E \rightrightarrows U B$ is an equivalence relation in $\mathbf{C}$, and hence a kernel pair since $\mathbf{C}$ is exact. It is the kernel pair of its coequalizer $q$ in $\mathbf{C}$. By the argument we have used several times, the split coequalizer 
+For Barr-exactness, suppose $\pi_1, \pi_2: E \rightrightarrows B$ is an equivalence relation (or [[congruence]]) in $\mathbf{C}^T$. Then $U\pi_1, U\pi_2: U E \rightrightarrows U B$ is an equivalence relation in $\mathbf{C}$, and hence a kernel pair since $\mathbf{C}$ is exact. It is the kernel pair of its coequalizer $q$ in $\mathbf{C}$. By Lemma \ref{split}, the split coequalizer 
 
 $$\array{
-U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{q}{\to} & Q$$ 
+U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel{q}{\to} & Q
+}$$ 
 
 lifts to a coequalizer diagram in $\mathbf{C}^T$, and since kernel pairs are preserved and reflected by $U: \mathbf{C}^T \to \mathbf{C}$, we conclude that $\pi_1, \pi_2$ is the kernel pair of the lifted regular epi over $q$. 
 =-- 
@@ -136,6 +151,8 @@ lifts to a coequalizer diagram in $\mathbf{C}^T$, and since kernel pairs are pre
 ###### Corollary 
 If $T$ is a monad on a [[slice category]] $Set/X$, then the category of $T$-algebras is Barr-exact. 
 =-- 
+
+### For functors preserving filtered colimits  
 
 Returning now to existence of general coequalizers, here is a more difficult and arcane result given in [Toposes, Theories, and Triples](#BarrWells) (theorem 3.9, p. 267): 
 
@@ -146,7 +163,7 @@ If $C$ has coequalizers and equalizers of arbitrary sets of parallel morphisms, 
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $C$ is complete and cocomplete and $T: C \to C$ preserves filtered colimits, then $C^T$ is complete and cocomplete. 
+If $C$ is complete and cocomplete and $T: C \to C$ preserves [[filtered colimits]], then $C^T$ is complete and cocomplete. 
 =-- 
 
 ## Relatively free functors 
@@ -238,7 +255,7 @@ T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \st
  & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
 }$$
 
-The vertical composite on the right is $1_d$ by a unit equation for a $T$-algebra, and thus we may simplify the perimeter. Retaining the (simplified) perimeter of this commuting diagram, and inserting inside some naturality squares and another unit equation inside, we arrive at the commutative diagram 
+The vertical composite on the right is $1_d$ by a unit equation for a $T$-algebra, and thus we may simplify the perimeter. Retaining the (simplified) perimeter of (eq:commute2), and inserting inside some naturality squares and another unit equation inside, we arrive at the commutative diagram 
 
 $$\array{
 S c & \stackrel{S f}{\to} & S d & \stackrel{\theta d}{\to} & T d & & \\ 
