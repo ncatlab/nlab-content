@@ -19,7 +19,7 @@ Early on he suggested in
 
 * John Roberts, _Mathematical Aspects of Local Cohomology_ talk at Colloqium on Operator Algebras and their Applications to Mathematical Physics, Marseille 20-24 June, (1977) 
 
-that [[local net]]s of [[observable]]s should  carry a notion of [[cohomology]] -- or rather of [[nonabelian cohomology]] -- with coefficients in an [[∞-category]]. Motivated by this he was one of the first to consider [[strict ∞-categories]]. He conjectured that these are characterized by their [[∞-nerve]]s being [[complicial sets]]. This led [[Ross Street]] to develop the notion of [[oriental]]s and eventually to prove this conjecture. An account of this development is on pages 9-10 of
+that [[local net]]s of [[observable]]s should  carry a notion of [[cohomology]] -- or rather of [[nonabelian cohomology]] -- with coefficients in an [[∞-category]]. Motivated by this he was one of the first to consider [[strict ∞-categories]]. He conjectured that these are characterized by their [[∞-nerve]]s being [[complicial sets]]. This led [[Ross Street]] to develop the notion of [[oriental]]s and formulate a precise version of this conjecture, which was proven by [[Dominic Verity]]. An account of this development is on pages 9-10 of
 
 * [[Ross Street]], _An Australian conspectus of higher category theory_ ([pdf](http://www.math.uchicago.edu/~may/IMA/Street.pdf))
 
