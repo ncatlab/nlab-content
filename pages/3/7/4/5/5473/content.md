@@ -153,11 +153,11 @@ If $C$ is complete and cocomplete and $T: C \to C$ preserves filtered colimits, 
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Suppose that $\theta: S \to T$ is a morphism of monads on $C$, and suppose that $C^T$ has coequalizers. Then the forgetful functor 
+Suppose that $\theta: S \to T$ is a morphism of monads on $C$, and suppose that $C^T$ has coequalizers. Then the relative "forgetful" functor 
 
 $$C^\theta: C^T \to C^S$$ 
 
-has a left adjoint. 
+(pulling back a $T$-algebra $(c, \xi: T c \to c)$ to the $S$-algebra $(c, S c \stackrel{\theta c}{\to} T c \stackrel{\xi}{\to} c)$, thus remembering only underlying $S$-algebra structure) has a left adjoint. 
 =-- 
 
 +-- {: .proof} 
@@ -182,7 +182,7 @@ $$\label{coeq}\array{
 T S c & & \stackrel{\; \; \; \; \; \; \; \; T \xi \; \; \; \; \; \; \; \; }{\to} & & T c
 }$$ 
 
-where $\mu: T T \to T$ is the monad multiplication. (If $u: 1_C \to S$ is the unit of $S$, then $T u c: T c \to T S c$ is a common right inverse of both arrows of the pair.) This coequalizer is analogous to the construction of the left adjoint $B \otimes_A -$ to the "restriction" functor $Ab^f: Ab^B \to Ab^A$ between module categories (restricting scalar multiplication on a $B$-module along a ring map $f: A \to B$); given an $A$-module $(M, \alpha_M: A \otimes M \to M)$, the $B$-module $B \otimes_A M$ is the coequalizer of  
+where $\mu: T T \to T$ is the monad multiplication. (If $u: 1_C \to S$ is the unit of $S$, then $T u c: T c \to T S c$ is a common right inverse of both arrows of the pair.) This coequalizer is analogous to the construction of the left adjoint $B \otimes_A -$ to the "restriction" functor $Ab^f: Ab^B \to Ab^A$ between module categories (restricting scalar multiplication on a $B$-module along a ring map $f: A \to B$); given an $A$-module $(M, \alpha_M: A \otimes M \to M)$, the $B$-module $B \otimes_A M$ is the coequalizer in $Ab^B$ of  
 
 $$\array{ 
  & & B \otimes B \otimes M & & \\
@@ -196,24 +196,49 @@ To see that $T \circ_S -$ is the left adjoint, let $(d, \alpha: T d \to d)$ be a
 
 $$\phi = (T c \stackrel{T f}{\to} T d \stackrel{\alpha}{\to} d)$$ 
 
-and the claim is that $f: c \to d$ is an $S$-algebra map $c \to C^\theta(d)$ if and only if $\phi$ coequalizes the pair of above, i.e., if $\phi$ factors (uniquely) through a $T$-algebra map $T \circ_S c \to d$. 
+and the claim is that $f: c \to d$ is an $S$-algebra map $c \to C^\theta(d)$ if and only if $\phi$ coequalizes the pair in (eq:coeq), i.e., if $\phi$ factors (uniquely) through a $T$-algebra map $T \circ_S c \to d$. 
 
-Indeed, the condition that $f$ is an $S$-algebra map is satisfaction of the equation 
+Indeed, assume $f$ is an $S$-algebra map, so we have a commutative diagram 
 
-$$(S c \stackrel{\xi}{\to} c \stackrel{f}{\to} d) = (S c \stackrel{S f}{\to} S d \stackrel{\theta d}{\to} T d \stackrel{\alpha}{\to} d)$$ 
-
-and now we have a long train of equations 
-
-$$\array{
-\alpha \circ T f \circ \mu c \circ T \theta c & = & \alpha \circ \mu d \circ T T f \circ T \theta c \\
- & = & \alpha \circ \mu d \circ T \theta d \circ T S f \\
- & = & \alpha \circ T \alpha \circ T \theta d \circ T S f \\ 
- & = & \alpha \circ T(\alpha \circ \theta d \circ S f)\\
- & = & \alpha \circ T(f \circ \xi) \\
- & = & \alpha \circ T f \circ T \xi
+$$\label{alg}\array{
+S c & \stackrel{\xi}{\to} & c \\ 
+\mathllap{S f} \downarrow & & \downarrow \mathrlap{f} \\ 
+S d & \underset{\alpha \circ \theta d}{\to} & d.
 }$$ 
 
-which gives $\phi \circ \mu c \circ T \theta c = \phi \circ T \xi$. This completes one direction. In the other direction, suppose $\phi \circ \mu c \circ T \theta c = \phi \circ T \xi$. Then 
+That $\phi = \alpha \circ T f$ coequalizes the pair of (eq:coeq) follows by expanding the diagram 
+
+$$\label{coeq2} \array{
+T S c & \stackrel{T \theta c}{\to} & T T c & & & & \\ 
+ & \mathllap{T \xi} \searrow & \downarrow \mathrlap{\mu c} & & & & \\ 
+ & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
+}$$ 
+
+to 
+
+$$\label{commute}\array{
+ & & T S d & & & & \\ 
+ & \mathllap{T S f} \nearrow & \; \; (nat) & \searrow \mathrlap{T \theta d} & & & \\ 
+T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \stackrel{T \alpha}{\to} & T d \\ 
+ & \mathllap{T \xi} \searrow & \downarrow \mathrlap{\mu c} & \; \; (nat) & \downarrow \mathrlap{\mu d} & \; \; (alg) & \downarrow \mathrlap{\alpha} \\ 
+ & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
+}$$
+
+where using (eq:alg), the path along the top may be replaced by $T f \circ T \xi$, reducing the asserted coequalizing of (eq:coeq2) to the tautology $\alpha \circ T f \circ T \xi = \alpha \circ T f \circ T \xi$. 
+
+Conversely, assuming the coequalizing of (eq:coeq2), the perimeter of (eq:commute) commutes, and on top of that we stack naturality diagrams for the monad unit $\eta$ for $T$: 
+
+$$\label{commute2}\array{
+ & & S d & & & & \\
+ & _\mathllap{S f} \nearrow & _\mathllap{\eta S d} \downarrow & \searrow _\mathrlap{\theta d} & & & \\ 
+S c & (nat) & T S d & (nat) & T d & & \\ 
+_\mathllap{\eta S c} \downarrow & _\mathllap{T S f} \nearrow & \; \; (nat) & \searrow _\mathrlap{T \theta d} & \downarrow_\mathrlap{\eta T d} & \searrow \mathrlap{1_{T d}} & \\ 
+T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \stackrel{T \alpha}{\to} & T d \\ 
+ & \mathllap{T \xi} \searrow & \downarrow \mathrlap{\mu c} & \; \; (nat) & \downarrow \mathrlap{\mu d} & \; \; (alg) & \downarrow \mathrlap{\alpha} \\ 
+ & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
+}$$
+
+&&\,$$
 
 $$\array{
 \alpha \circ \theta d \circ S f & = & \alpha \circ T f \circ \theta c \\
