@@ -50,4 +50,6 @@ I will be writing a review of the book for the Canadian math. Soc. so may be abl
 
 [[Victor Porton]] Is it necessary to know regular (nondirected) algebraic topology before reading this book? How much advanced category theory it requires?
 
+[[Tim]]: I have transferred this question to the forum and provided some comments on it.
+
 =--
