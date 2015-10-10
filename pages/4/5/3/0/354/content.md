@@ -785,6 +785,15 @@ $$
 every [[chain complex]] (of abelian groups, in non-negative degree) is equivalent to a [[simplicial abelian group]] and this has an underlying Kan complex. This way [[homological algebra]] becomes a special case of the study of [[homotopy theory]] (of Kan complexes).
 
 
+### Simplicial models of Mal'cev theories 
+
+Generalizing the example of simplicial groups: if $T$ is any [[Mal'cev theory]], i.e., a [[Lawvere theory]] which admits a Mal'cev operation $t$, then any $T$-algebra in simplicial sets, given by a [[product-preserving functor]] $A: T \to Set^{\Delta^{op}}$, is a Kan complex. ([Source](http://www.tac.mta.ca/tac/reprints/articles/12/tr12.pdf#270)) 
+
+For example, the [[subobject classifier]] $\Omega$ in simplicial sets is a Kan complex because it is an internal [[Heyting algebra]], and the theory of Heyting algebras is Mal'cev. 
+
+It is not hard to imagine how the proof might go, by adapting the proof in the special case of simplicial groups, replacing occurrences of elements of the form $x y^{-1} z$ by values $t(x, y, z)$ of a chosen Mal'cev operation. 
+
+
 ### Singular simplicial complexes / fundamental $\infty$-groupoids
 
 For $X$ a [[topological space]], its _singular simplicial complex_ is the [[simplicial set]] $\Pi(X)$ (often denoted  $S(X)$) whose set of $n$-simplices is the [[hom-set]]
