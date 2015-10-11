@@ -92,21 +92,21 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 
 * _[Higher prequantum geometry III: The global action functional -- Cohomologically](https://www.physicsforums.com/insights/higher-prequantum-geometry-iii-global-action-functional-cohomologically/)_
 
+* _[Higher prequantum geometry IV: The covariant phase space -- Transgressively](https://www.physicsforums.com/insights/higher-prequantum-geometry-iv-covariant-phase-space-transgressively/)_
 
 ## more on the web
 
+For logs of further activity see my page
 
-For more see my home pages 
+* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_;
 
-* _[at Wikipedia](https://en.wikipedia.org/wiki/Urs_Schreiber)_, 
-
-* _[at Google+](https://plus.google.com/+UrsSchreiber/posts)_.
+and for links to technical discussions about maths and physics see my pages
 
 * _[at MathOverflow](http://mathoverflow.net/users/381/urs-schreiber)_ 
 
 * _[at PhysicsOverflow](http://www.physicsoverflow.org/user/Urs+Schreiber)_
 
-* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber)
+* _[at Physics.SE](http://physics.stackexchange.com/users/5603/urs-schreiber).
 
 
 ## copyright statement
