@@ -94,7 +94,7 @@ The so-called "[[over-topos|fundamental theorem of topos theory]]", that an [[ov
 
 ## Related concepts
 
-* Also a category of [[algebra over an algebraic theory|algebras over]] a *commutative* [[finitary algebraic theory]] in [[Set]] has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoids]] of [[Nikolai Durov]].
+* Also a category of [[algebra over an algebraic theory|algebras over]] a *[[commutative theory|commutative]]* [[finitary algebraic theory]] in [[Set]] has properties very close to the properties of a Grothendieck topos, in fact only one axiom has to be modified. This is one of the themes of the theory of [[vectoids]] of [[Nikolai Durov]].
 
 
 ## References
