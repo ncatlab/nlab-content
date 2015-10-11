@@ -79,6 +79,14 @@ d & \to & c + d & \stackrel{\overset{(f, 1_d)}{\to}}{\underset{(g, 1_d)}{\to}} &
 where the first arrow is the coproduct coprojection. 
 =-- 
 
++-- {: .num_cor} 
+###### Corollary 
+If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
+=-- 
+
+The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
+
+
 +-- {: .num_cor}
 ######Corollary 
 If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$. 
@@ -113,12 +121,6 @@ U E & \stackrel{\overset{U\pi_1}{\to}}{\underset{U\pi_2}{\to}} & U B & \stackrel
 (the first two vertical arrows being algebra structure maps) is a coequalizer in $\mathbf{C}^T$. The last vertical arrow making the diagram commute gives $Q$ a $T$-algebra structure, and the split coequalizer in the bottom row is thereby reflected in $\mathbf{C}^T$. 
 =-- 
 
-+-- {: .num_cor} 
-###### Corollary 
-If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
-=-- 
-
-The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
 
 ### Categories of algebras are Barr exact
 
@@ -255,7 +257,7 @@ T S c & \stackrel{T \theta c}{\to} & T T c & \stackrel{T T f}{\to} & T T d & \st
  & & T c & \underset{T f}{\to} & T d & \underset{\alpha}{\to} & d
 }$$
 
-The vertical composite on the right is $1_d$ by a unit equation for a $T$-algebra, and thus we may simplify the perimeter. Retaining the (simplified) perimeter of (eq:commute2), and inserting inside some naturality squares and another unit equation inside, we arrive at the commutative diagram 
+The vertical composite on the right is $1_d$ by a unit equation for a $T$-algebra, and thus we may simplify the perimeter. Retaining the (simplified) perimeter of (eq:commute2), and inserting some naturality squares and a unit diagram inside, we arrive at the commutative diagram 
 
 $$\array{
 S c & \stackrel{S f}{\to} & S d & \stackrel{\theta d}{\to} & T d & & \\ 
