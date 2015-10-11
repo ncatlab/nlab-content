@@ -328,6 +328,7 @@ $$(x_1,\ldots ,x_n) \to a_1x_1+\ldots +a_n x_n$$
 for some n-tuple $(a_1,\ldots ,a_n)$ of elements of $A$. We may call such an algebraic theory **annular**. The pun _model/module_ is due to Jon Beck. The notion that an algebraic theory is a generalized ring is often a fertile one, that automatically provides a slew of suggestive terminology and interesting problems. Many fundamental ideas of ring/module-theory are simply the restriction to annular algebraic theories of ideas that apply more widely to algebraic theories and their models.
 
 Let us denote the category of models and homomorphisms (in $Set$) of an algebraic theory $A$ by $A Mod$.  Then compare the following to their counterparts in ring theory:
+
 *  [[tensor product theory|Tensor Product of Theories]]
 *  [[matrix theory|Matrix Theories]]
 *  [[bimodel|Bimodels]]
