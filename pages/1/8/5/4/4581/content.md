@@ -740,7 +740,12 @@ An early discussion with application to [[covariant phase spaces]] and their [[p
 
 An invariant version (under group action) is in
 
-* Irina A. Kogan, Peter J. Olver, _The invariant variational bicomplex_, [pdf](http://www4.ncsu.edu/~iakogan/papersPDF/sivKoganOlver.pdf)
+* [[Irina Kogan]], [[Peter Olver]], _The invariant variational bicomplex_, [pdf](http://www4.ncsu.edu/~iakogan/papersPDF/sivKoganOlver.pdf)
+
+A more detailed version of this is in
+
+* [[Irina Kogan]], [[Peter Olver]], _Invariant Euler-Lagrange Equations and
+the Invariant Variational Bicomplex_, [pdf](http://www4.ncsu.edu/~iakogan/papersPDF/ivbKoganOlver-cor.pdf)
 
 See also 
 
