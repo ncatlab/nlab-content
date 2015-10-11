@@ -23,13 +23,13 @@
 
 ## Introduction 
 
-Let $T$ be a [[monad]] on a [[category]] $C$, and let $C^T$ denote the [[Eilenberg-Moore category]] of $T$. Let 
+Let $T$ be a [[monad]] on a [[category]] $C$, and let $C^T$ denote the [[Eilenberg-Moore category]] of $T$, i.e., the category of $T$-algebras. Let 
 
 $$U: C^T \to C$$ 
 
 be the usual underlying or [[forgetful functor]], with [[left adjoint]] $F: C \to C^T$, [[unit of an adjunction|unit]] $\eta: 1_C \to U F$, and counit $\varepsilon: F U \to 1_{C^T}$. It is well-known that $U$ [[reflected limit|reflects limits]], so that if $C$ is [[complete category|complete]], then $C^T$ is also complete and $U$ is [[continuous functor|continuous]]. 
 
-The situation with regard to colimits is more complicated. It is not generally true that if $C$ is cocomplete, then $C^T$ is also. In this article we collect some partial results which address these issues. 
+The situation with regard to colimits is more complicated. It is not generally true that if $C$ is cocomplete, then $C^T$ is also. (See [Ad&#225;mek & Koubek](#AK), III.10, for an example when $C =$ [[Pos]].) In this article we collect various results that guarantee existence of colimits of algebras. 
 
 ## Reflexive coequalizers and cocompleteness
 
@@ -49,6 +49,8 @@ Here are some sample applications of this proposition which arise frequently in 
 $$0 \to 1 \stackrel{\to}{\to} 0,$$ 
 
 and subject to the condition that the two composites from $0$ to $0$ are the identity. A colimit over $J$ is called a [[reflexive coequalizer]]. It frequently happens that a monad $T: C \to C$ preserves reflexive coequalizers; in this case, if $C$ has reflexive coequalizers, then so does $C^T$. 
+
+The following very useful observation was first made by Linton. 
 
 +-- {: .num_theorem} 
 ######Theorem 
@@ -84,12 +86,12 @@ where the first arrow is the coproduct coprojection.
 If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
 =-- 
 
-The hypotheses of the preceding corollary hold when $T$ is a monad on a complete, cocomplete, cartesian closed category that is induced from a finitary algebraic theory. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers.) 
+The hypotheses of the preceding corollary hold when $C$ is a complete, cocomplete, cartesian closed category and $T$ is the monad corresponding to a [[finitary algebraic theory]]. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers if $C$ is cartesian closed.) 
 
 
 +-- {: .num_cor}
 ######Corollary 
-If $T$ is a monad on $Set$, then $Set^T$ is cocomplete. Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$. 
+If $T$ is a monad on [[Set]], then $Set^T$ is cocomplete. Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$, or by [[Vect]]. 
 =-- 
 
 +-- {: .proof}
@@ -151,7 +153,7 @@ lifts to a coequalizer diagram in $\mathbf{C}^T$, and since kernel pairs are pre
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $T$ is a monad on a [[slice category]] $Set/X$, then the category of $T$-algebras is Barr-exact. 
+If $T$ is a monad on a [[slice category]] $Set/X$, then the category of $T$-algebras is (Barr-)exact. If $T$ is a monad on $Vect$, then $Vect^T$ is exact. 
 =-- 
 
 ### For functors preserving filtered colimits  
@@ -165,8 +167,12 @@ If $C$ has coequalizers and equalizers of arbitrary sets of parallel morphisms, 
 
 +-- {: .num_cor} 
 ###### Corollary 
-If $C$ is complete and cocomplete and $T: C \to C$ preserves [[filtered colimits]], then $C^T$ is complete and cocomplete. 
+If $C$ is complete and cocomplete and $T: C \to C$ preserves [[filtered colimits]], or even just colimits of $\omega$-chains, then $C^T$ is complete and cocomplete. 
 =-- 
+
+### For locally presentable categories 
+
+If $C$ is a [[locally presentable category]] and $T$ is an [[accessible monad]] (aka a bounded monad, aka a monad with rank) on $C$, then $C^T$ is also locally presentable and in particular cocomplete. Details may be found in [[Locally presentable and accessible categories]]. 
 
 ## Relatively free functors 
 
@@ -275,3 +281,5 @@ where the commutativity of the unlabeled polygonal region is just the commutativ
 * [[Michael Barr]] and [[Charles Wells]], _Toposes, Theories, and Triples_, Reprints in Theory and Applications of Categories (2005), 1-289. ([online pdf](http://www.case.edu/artsci/math/wells/pub/pdf/ttt.pdf)) 
 {#BarrWells}
 
+* [[Jiří Adámek]] and V&#225;clav Koubek, _Are colimits of algebras simple to construct?_,  Journal of Algebra, Volume 66, Issue 1 (September 1980), 226-250. ([link](http://www.sciencedirect.com/science/article/pii/0021869380901222)) 
+ {#AK} 
