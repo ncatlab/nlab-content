@@ -89,6 +89,14 @@ $$\phi U \psi := \Sigma_b (e^* \psi \times \Pi_c (e p)^* \phi).$$
 
 Temporal logicians have debated the relevant advantages of instant-based and interval-based approaches. Some have also considered hybrid approaches ([Balb11](#Balb11)). The analysis of this section suggests that working with intervals and instants together in the form of an internal category allows for a natural treatment via [[adjoint logic]].
 
+One of the consequences of taking $Time$ as an internal category is that the future includes the present, so that $\phi$ could be true now and at no other instant but we would have that $F \phi$ is true when it is supposed to say "$\phi$ will be true at some Future time". Similarly, we would have that $\phi U \psi$ holds now if $\psi$ and $\phi$ both hold now (in general, as defined above it requires $\phi$ to still hold at the instant when $\psi$ becomes true).  
+
+If we wish to change these consequences, we could let $Time_1$ be the $\lt$-intervals instead of the $\le$-ones. In other words, we could take $Time$ to be a [[semicategory]]. While this accords with standard practice, the original alternative has been proposed:
+
+>The most common practice in temporal logic is to regard time as an irreflexive ordering, so that "henceforth", meaning "at all future times", does not refer to the present moment. On the other hand, the Greek philosopher Diodorus proposed that the necessary be identified with that which is now and will always be the case. This suggests a temporal interpretation of $\Box$ that is naturally formalised by using reflexive orderings. The same interpretation is adopted in the logic of concurrent programs to be discussed. ([Gold92, p. 44](#Gold92))
+
+On the other hand, some temporal logicians look to represent both forms of 'henceforth'.
+
 ## References
 
 Generally this entry is based on
@@ -103,6 +111,8 @@ but see also:
     pages 83--101, [on-line version](http://www.loria.fr/~blackbur/papers/tense.pdf)
 
 * {#Balb11} Balbiani, P., Goranko, V. and Sciavicco, G., 2011, 'Two-sorted Point-Interval Temporal logics', in _Proc. of the 7th International Workshop on Methods for Modalities (M4M7)_ (Electronic Notes in Theoretical Computer Science: Volume 278), pp. 31&#8211;45.
+
+* {#Gold92} [[Robert Goldblatt]] _Logics of time and computation_, 1992, ([pdf](http://sul-derivatives.stanford.edu/derivative?CSNID=00003782&mediaType=application/pdf))
 
 [[!redirects temporal logic]]
 [[!redirects temporal logics]]
