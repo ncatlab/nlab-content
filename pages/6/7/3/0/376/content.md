@@ -414,6 +414,7 @@ Related literature includes
 
 [[!redirects locally cartesian closed categories]]
 [[!redirects LCCC]]
+[[!redirects lccc]]
 
 [[!redirects locally Cartesian closed category]]
 [[!redirects locally Cartesian closed categories]]
