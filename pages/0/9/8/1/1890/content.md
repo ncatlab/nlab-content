@@ -69,6 +69,58 @@ Then the [usual diagrams](http://en.wikipedia.org/wiki/Strong_monad) that specif
 
 * naturalness of unit and product modifications.
 
+## Alternative definition
+
+A more concrete definition is given in:
+
+* [[Eugenio Moggi]]. Computational Lambda-Calculus and Monads. Proceedings of the Fourth Annual Symposium on Logic in Computer Science. 1989. p. 14&#8211;23. 
+
+A _strong monad_ over a category $C$ with finite products is a monad $(T, \eta, \mu)$ together with a natural transformation $t_{A,B}$ from $A \times T\;B$ to $T(A\times B)$ subject to three diagrams.
+
+"Strengthening with 1 is irrelevant":
+
+\[
+\begin{array}{ccc}
+1\times T\, A & \rightarrow & T\, A\\
+\\
+ & t_{1,A}\searrow\phantom{t_{1,A}} & \downarrow\\
+\\
+ &  & T(1\times A)
+\end{array}
+\]
+
+"Consecutive applications of strength commute":
+
+\[
+\begin{array}{ccccc}
+(A\times B)\times T\, C & \xrightarrow{t_{A\times B,C}} & T\,((A\times B)\times C)\\
+\\
+\cong\downarrow\phantom{\cong} &  &  & \phantom{\cong}\searrow\cong\\
+\\
+A\times(B\times T\, C) & \xrightarrow[A\times t_{B,C}]{} & A\times T\,(B\times C) & \xrightarrow[t_{A,B\times C}]{} & T(A\times(B\times C))
+\end{array}
+\]
+
+
+"Strength commutes with monad unit and multiplication":
+
+\[
+\begin{array}{ccccc}
+A\times B\\
+\\
+A\times\eta_{B}\downarrow\phantom{A\times\eta_{B}} & \phantom{\eta_{A\times B}}\searrow\eta_{A\times B}\\
+\\
+A\times T\, B & \xrightarrow{t_{A,B}} & T(A\times B)\\
+\\
+A\times\mu_{B}\uparrow\phantom{A\times\mu_{B}} &  &  & \phantom{\mu_{A\times B}}\nwarrow\mu_{A\times B}\\
+\\
+A\times T^{2}\, B & \xrightarrow{t_{A,TB}} & T(A\times TB) & \xrightarrow{T\: t_{A,B}} & T^{2}(A\times B)
+\end{array}
+\]
+
+
+
+
 ## Related concepts
 
 * [[tensorial strength]]
