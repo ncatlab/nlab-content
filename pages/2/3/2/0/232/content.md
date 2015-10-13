@@ -87,7 +87,7 @@ $$
      C(c,d) \otimes (C(b,c) \otimes C(a,b))
      \\
      \downarrow^{\circ_{b,c,d}\otimes Id_{C(a,b)}} 
-     &&&& \downarrow^{Id_{C(c,d)\otimes \circ_{a,b,c}}}
+     &&&& \downarrow^{Id_{C(c,d)}\otimes \circ_{a,b,c}}
      \\
      C(b,d)\otimes C(a,b)
      &\stackrel{\circ_{a,b,d}}{\to}&
