@@ -379,7 +379,7 @@ A a popular introduction to the notion of phase space with some comments on the 
 
 An article reviewing much of the content of the following references is
 
-* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_ ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282))
+* {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, International Journal of Modern Physics A 29 (2014) ([arXiv:1402.1282](http://arxiv.org/abs/1402.1282), [doi:10.1142/s0217751x14300099](http://www.worldscientific.com/doi/abs/10.1142/S0217751X14300099))
 
 ### Covariant phase space
 
