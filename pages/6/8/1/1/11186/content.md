@@ -1,6 +1,6 @@
 
 
-* [webpage](http://people.mpim-bonn.mpg.de/haugseng/)
+* [webpage](http://sites.google.com/site/runehaugseng/)
 
 ## Related $n$Lab entries
 
