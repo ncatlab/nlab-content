@@ -288,12 +288,9 @@ The same structure is considered in
 
 as higher [[quantomorphisms]] and [[Poisson bracket Lie n-algebras]] of local currents.
 
-
+category: physics
 [[!redirects conserved current]]
 [[!redirects conserved currents]]
-
-[[!redirects current]]
-[[!redirects currents]]
 
 [[!redirects local current]]
 [[!redirects local currents]]
