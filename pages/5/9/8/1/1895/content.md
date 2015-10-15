@@ -67,7 +67,7 @@ To be continued...
 
 ## Related concepts
 
-* [[double Hecke algebra]]
+* [[double Hecke algebra]], [[double affine Hecke algebra]]
 
 * [[Hecke correspondence]]
 
