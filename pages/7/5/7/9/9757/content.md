@@ -63,6 +63,10 @@ See also
 
 * {#CarterKauffmanSaito96} [[Scott Carter]], [[Louis Kauffman]], Masahico Saito, _Diagrams, Singularities, and Their Algebraic Interpretations_, in "10th Brazilian Topology Meeting, S. Carlos, July 22 26, 1996 ([pdf](http://homepages.math.uic.edu/~kauffman/cksBrasil.pdf))
 
+Construction via [[factorization homology]] from [[braided monoidal category|braided]] [[tensor categories]] (with relation to [[double affine Hecke algebras]]) is discussed in
+
+* [[David Ben-Zvi]], [[Adrien Brochier]], [[David Jordan]], _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_ ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
+
 
 Many more should eventually go here...
 
