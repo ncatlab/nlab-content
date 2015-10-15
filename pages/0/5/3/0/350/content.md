@@ -163,7 +163,7 @@ A morphism $j : \Omega \to \Omega$ is a Lawvere-Tierney topology, def. \ref{LTTo
 
 1. $A \subset \overline{A}$;
 
-1. $\overline{\overline{A}} = A$;
+1. $\overline{\overline{A}} = \overline{A}$;
 
 1. $\overline{A \cap B} = \overline{A} \cap \overline{B}$.
 
