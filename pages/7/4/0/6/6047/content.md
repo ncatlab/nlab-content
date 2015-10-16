@@ -25,7 +25,7 @@ $$
 where $dvol(\gamma^* g)$ is the [[volume form]] of the pullback $\gamma^* g$ of the metric tensor from $X$ to $\Sigma$.
 
 
-This is classically equivalent (...) to the [[Polyakov action]].
+This is classically equivalent to the [[Polyakov action]] (e.g. [Nieto 01, section 2](#Nieto01)).
 
 ## Applications
 
@@ -43,6 +43,10 @@ $dim \Sigma = 1$ this is the [[relativistic particle]], for $dim \Sigma = 2$ the
 ## References
 
 The Nambu-Goto action functional is named after [[Yoichiro Nambu]].
+
+Detailed discussion of the relation to the [[Polyakov action]] and the [[Dirac-Born-Infeld action]] is in
+
+* {#Nieto01} J. A. Nieto, _Remarks on Weyl invariant p-branes and Dp-branes_ ([arXiv:hep-th/0110227](http://arxiv.org/abs/hep-th/0110227))
 
 One [[string theory]] textbook that deals with the Nambu-Goto action in a bit more detail than usual is
 
