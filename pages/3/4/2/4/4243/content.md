@@ -28,7 +28,7 @@
 
 ## Idea
 
-What is called the _A-model_ [[topological string]] is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi?Yau category]] called the [[Fukaya category]] of a [[symplectic manifold]] $X$. This is is effectively the [[Gromov?Witten theory]] of $X$.
+What is called the _A-model_ [[topological string]] is the 2-dimensional [[topological conformal field theory]] corresponding to the [[Calabi?Yau category]] called the [[Fukaya category]] of a [[symplectic manifold]] $(X,\omega)$. This is the [[Poisson sigma-model]] of the underlying [[Poisson manifold]] after appropriate [[gauge fixing]] ([AKSZ 97, p 19](#AKSZ)). The A-model on $X$ is effectively the [[Gromov?Witten theory]] of $X$.
 
 The A-model arose in formal [[physics]] from considerations of [[string theory|superstring]]-propagation on [[Calabi-Yau spaces]]: it may be motivated by considering the [[vertex operator algebra]] of the 2d[[CFT|SCFT]] given by the [[supersymmetric sigma-model]] with [[target space]] $X$ and then deforming it such that one of the super-[[Virasoro algebra|Virasoro]] generators squares to $0$. The resulting "topologically twisted" algebra may then be read as being the [[BRST complex]] of a [[TCFT]].
 
@@ -110,18 +110,17 @@ A summary of these two reviews is in
 
 * H. Lee, _Review of topological field theory and homological mirror symmetry_ ([pdf](http://people.maths.ox.ac.uk/leeh/files/CYMSmini.pdf))
 
+
 ### Action functional {#LagrangianLit}
 
-Discussion of how the A-model [[Lagrangian]] arises in [[AKSZ theory]]: 
+That the A-model [[Lagrangian]] arises in [[AKSZ theory]] by [[gauge fixing]] the [[Poisson sigma-model]] was observed in
 
-around page 19 in
+* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, around page 19 in _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
 
-* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
-{#AKSZ}
 
-section 5.3 of 
+Review and further discussion includes
 
-* Francesco Bonechi, [[Maxim Zabzine]], _Poisson sigma model on the sphere_ ([arXiv:0706.3164](http://arxiv.org/abs/0706.3164))
+* Francesco Bonechi, [[Maxim Zabzine]], section 5.3 of _Poisson sigma model on the sphere_ ([arXiv:0706.3164](http://arxiv.org/abs/0706.3164))
 
 Also
 
