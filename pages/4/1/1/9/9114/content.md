@@ -3972,9 +3972,17 @@ Much of the content of this entry here serve as, or arose as, lecture notes for
 * [[Urs Schreiber]], _[[schreiber:Higher Chern-Simons theory Introduction]]_, at the workshop _[Chern-Simons Theory: Geometry, Topology and Physics](http://www.pitt.edu/~jdeblois/CS.html)_ University of Pittsburgh (May 2013)
  {#SchreiberPittLectures}
 
-This forms one section of the more comprehensive lecture notes at
+Later this was developed further with [[Igor Khavkine]], exposition is here:
 
-* _[[geometry of physics]]_
+* _[Higher prequantum geometry I: The need for prequantum geometry](https://www.physicsforums.com/insights/higher-prequantum-geometry-need-prequantum-geometry/)_
+
+* _[Higher prequantum geometry II: The principle of extremal action -- Comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/#toggle-id-1)_
+
+* _[Higher prequantum geometry III: The global action functional -- Cohomologically](https://www.physicsforums.com/insights/higher-prequantum-geometry-iii-global-action-functional-cohomologically/)_
+
+* _[Higher prequantum geometry IV: The covariant phase space -- Transgressively](https://www.physicsforums.com/insights/higher-prequantum-geometry-iv-covariant-phase-space-transgressively/)_
+
+* _[Higher prequantum geometry V: The local observables -- Lie theoretically](https://www.physicsforums.com/insights/higher-prequantum-geometry-v-local-observables-lie-theoretically/)_
 
 [[!redirects prequantum field theory]]
 [[!redirects prequantum field theories]]
