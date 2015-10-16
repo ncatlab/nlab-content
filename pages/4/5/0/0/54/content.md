@@ -94,6 +94,8 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 
 * _[Higher prequantum geometry IV: The covariant phase space -- Transgressively](https://www.physicsforums.com/insights/higher-prequantum-geometry-iv-covariant-phase-space-transgressively/)_
 
+* _[Higher prequantum geometry V: The local observables -- Lie theoretically](https://www.physicsforums.com/insights/higher-prequantum-geometry-v-local-observables-lie-theoretically/)_
+
 ## more on the web
 
 For logs of further activity see my page
