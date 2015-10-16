@@ -353,3 +353,7 @@ See also
 
 * [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
   {#Joyal08}
+
+Generalization from [[(infinity,1)-categories]] to [[(infinity,n)-categories]] and relation to [[rational homotopy theory]] is discussed in 
+
+* [[Gijs Heuts]], _Goodwillie approximations to higher categories_ ([arXiv:1510.03304](http://arxiv.org/abs/1510.03304))
