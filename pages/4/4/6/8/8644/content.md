@@ -91,6 +91,8 @@ Notice that this is precisely the argument which for $G = U(1)$ the [[circle gro
 
 * [[CP violation]]
 
+* [vortex atoms -- Similarity to concepts in modern particle physics](http://ncatlab.org/nlab/show/On+Vortex+Atoms#SimilarityToParticlePhysics)
+
 ## References
  {#References}
 
