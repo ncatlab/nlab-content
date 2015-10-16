@@ -152,7 +152,7 @@ To deal with this, we first look at variations of trajectories in a small region
 +-- {: .num_prop}
 ###### Proposition
 
-With the above choice diffeomorphism gauge, the equations of motion are
+With the above choice of diffeomorphism gauge, the equations of motion are
 
 $$
   g(\nabla_{\dot \gamma} \dot \gamma / {\vert \dot \gamma}\vert ,-)  = \iota_{\dot \gamma} F
