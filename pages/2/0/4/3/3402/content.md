@@ -31,7 +31,7 @@ As a consequence, $CompBoolAlg$ is not cocomplete (otherwise there would exist a
 
 For instance around theorem 2.4 of 
 
-* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://ncatlab.org/nlab/show/Stone+duality#StoneSpacesAndBooleanAlgebras))
+* [[Jaap van Oosten]], _Basic category theory_ ([pdf](http://www.staff.science.uu.nl/~ooste110/syllabi/catsmoeder.pdf))
 
 and
 
