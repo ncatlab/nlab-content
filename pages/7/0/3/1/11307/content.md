@@ -1,6 +1,8 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Nobuo_Yoneda)
 
+<img src="http://ncatlab.org/nlab/files/YonedaObituary.jpg">
+
 ## related entries
 
 * [[Yoneda lemma]]
