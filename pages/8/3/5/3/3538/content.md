@@ -78,9 +78,9 @@ $$(x_1, x_2, \ldots, x_n) \to i(Bracketing(x_1 \otimes \ldots \otimes x_n))$$
 for every choice of bracketing the tensor product on the right in $M$ (possibly with units thrown in). 
 
 
-## Etymology and relation to graph theory
+## In graph theory
 
-There is a notion of clique in an undirected simple [[graph]] familiar to graph-theorists: a _clique_ $C$ in a graph $G$ is a subset of vertices such that any two distinct vertices are connected by an edge.  This definition can be generalized to arbitrary undirected graphs (possibly containing loops and multiple edges) by defining a clique (of size $n$) in $G$ to be a graph homomorphism $C : K_n \to G$ from the [[complete graph]] on $n$ vertices.  Indeed, this latter definition can also be taken as a reasonable notion of clique in a [[quiver]] (the category theorists\' directed graphs).  Equivalently, a clique is a subgraph $C$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
+There is a notion of clique in an undirected simple [[graph]] familiar to graph-theorists: a _clique_ in a graph $G$ is a subset of vertices $C \subseteq V(G)$ such that any two distinct vertices $x,y \in C$ are connected by an edge.  This definition is specialized to simple graphs, however, and a more general definition that works for arbitrary undirected graphs (possibly containing loops and multiple edges) takes a clique (of size $n$) in $G$ to be a graph homomorphism $C : K_n \to G$ from the [[complete graph]] on $n$ vertices.  Indeed, this latter definition could also be taken as a reasonable notion of clique in any undirected graph/[[quiver]].  Equivalently, a clique in this sense is a subgraph $C$ of $G$ which is _indiscrete_: there is exactly one edge in $C$ from $x$ to $y$ for any vertices $x$, $y$ of $C$. 
 
 The categorical notion of clique is one step removed from that: a clique in a category $C$ is a functor $i: K \to C$ where the underlying graph of $K$ is indiscrete. The generic "picture" of a clique in a category is reminiscent of (and no doubt the etymology derives from) the graph-theoretic notion, even if the notions are technically distinct. 
 
