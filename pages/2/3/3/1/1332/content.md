@@ -86,7 +86,7 @@ induces an isomorphism in the [[homotopy category]] of [[Top]].
 
 Let $C$ be a [[model category]] (usefully but not necessarily a [[simplicial model category]]). And let $S \subset Mor(C)$ be a collection of [[morphism]]s in $C$.
 
-Write $\mathbf{R}Hom_C(-,-) : SSet \to SSet$ for the [[(infinity,1)-categorical hom-space|derived hom space functor]].
+Write $\mathbf{R}Hom_C(-,-) : SC^{op}\times C \to SSet$ for the [[(infinity,1)-categorical hom-space|derived hom space functor]].
 
 For instance if $C$ is a [[simplicial model category]] then this may be realized in terms of a cofibrant replacement functor $Q : C \to C$ and a fibrant replacement functor $P$ as
 
@@ -102,7 +102,7 @@ $$
 An object $c \in C$ is a **$S$-local object** if for all $s : a \to b$ in $C$ the induced morphismm
 
   $$
-    \mathbf{R}Hom_C(s,c) : SSet \to SSet
+    \mathbf{R}Hom_C(s,c) : \mathbf{R}Hom_C(b,c) \to \mathbf{R}Hom_C(a,c)
   $$
 
   is a weak equivalence (in the standard [[model structure on simplicial sets]]);
