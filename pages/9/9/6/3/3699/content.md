@@ -15,8 +15,16 @@ A Markov chain can also be desribed as a [[coalgebra for an endofunctor|coalgebr
 [[Ian Durham]]: Hmmm.  I'll have to think about that.
 =--
 
-For now, see [Wikipedia](http://en.wikipedia.org/wiki/Markov_chain).
+## Literature
 
+[Wikipedia](http://en.wikipedia.org/wiki/Markov_chain).
+
+Baez and his students recently defined a generalization, open Markov chains:
+
+* John C. Baez, Brendan Fong, Blake S. Pollard, _A compositional framework for Markov processes_, [arxiv/1508.06448](http://arxiv.org/abs/1508.06448)
+
+
+category: probability
 
 [[!redirects Markov chain]]
 [[!redirects Markov chains]]
