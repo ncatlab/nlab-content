@@ -41,7 +41,26 @@ $$
 
 may be interpreted as sending any [[bundle]] over $X$ to its [[jet bundle]]. 
 
-{#Kock10Remark731} This characterization via base change is more or less implicit in ([Kock 10, remark 7.3.1](#Kock10)) (to translate from the pull-push shown there use that in a [[topos]] the [[epimorphism]] $X \to \Im X$ is [[effective epimorphism|effective]] and then use the [[Beck-Chevalley condition]] to get the push-pull shown above.)
+{#Kock10Remark731} This characterization via base change is more or less implicit in ([Kock 10, remark 7.3.1](#Kock10)) (to translate from the pull-push $(p_2)_\ast p_1^\ast $ shown there, as in ([Deligne 70](#Deligne70)) use that in a [[topos]] the [[epimorphism]] $X \to \Im X$ is [[effective epimorphism|effective]] and then use the [[Beck-Chevalley condition]] to get the push-pull shown above.)
+
+$$
+  \left\{
+  \array{
+    T^\infty X
+    &\stackrel{p_1}{\longrightarrow}&
+    X
+    \\
+    \downarrow^{\mathrlap{p_2}} &(pb)& \downarrow^{\mathrlap{i_X}}
+    \\
+    X &\stackrel{i_X}{\longrightarrow}& X
+  }
+  \right\}
+  \;\;
+  \Rightarrow
+  \;\;
+  ((p_2)_\ast (p_1)^\ast \simeq (i_X)^\ast (i_X)_\ast)
+  \,.
+$$
 
 ## Properties
 
@@ -66,6 +85,8 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 * {#Marvan93} [[Michal Marvan]], section 1.1 of _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
 Discussion in [[synthetic differential geometry]] is in
+
+* {#Deligne70} [[Pierre Deligne]], _Equations Diff&#233;rentielles &#224; Points Singuliers R&#233;guliers_, 1970
 
 * {#Kock10} [[Anders Kock]], remark 7.3.1 _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
