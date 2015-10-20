@@ -36,15 +36,15 @@ This simplicial object can be viewed as a [[resolution]] of $A$, in a sense expl
 
 Let $\mathbf{E}$ be a [[category]] and let $(T, m: T T \to T, u: 1_{\mathbf{E}} \to T)$ be a [[monad]] on $\mathbf{E}$. We let $\mathbf{E}^T$ denote the [[Eilenberg-Moore category|category of]] $T$-[[algebra over a monad|algebras]], and $U: \mathbf{E}^T \to \mathbf{E}$ the [[forgetful functor]] which is [[monadic functor|monadic]], with [[left adjoint]] $F$. 
 
-Recall that the ([[augmented simplicial set|augmented]]) [[simplex category]], viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
+Recall that the ([[augmented simplicial set|augmented]]) [[simplex category]] $\Delta_a$, viz. the category consisting of [[finite set|finite]] [[ordinals]][^fine1] and order-preserving maps, is the "[[walking structure|walking]] [[monoid]]", i.e., is [[initial object|initial]] among strict [[monoidal categories]] equipped with a [[monoid object]]. The monoidal product on $\Delta_a$ is ordinal addition $[m]+[n] = [m+n]$. If $[n]$ is the $n$-element ordinal, then the [[terminal object]] $[1]$ carries a unique monoid structure and represents the "generic monoid"[^fine2]. 
 
 [^fine1]: N.B.: including the empty ordinal. 
 
-[^fine2]: If $X: \Delta^{op} \to \mathbf{C}$ is a simplicial object, then $X([n])$ is what is usually denoted $X_{n-1}$, the object of cells in dimension $n-1$. Note that $X([0]) = X_{-1}$ is the augmented component. The $n$ can be thought of as the number of vertices of a simplex of dimension $n-1$. We choose the index $n$ over the geometric dimension $n-1$ as it is more convenient for our purposes. 
+[^fine2]: If $X: \Delta_a^{op} \to \mathbf{C}$ is a simplicial object, then $X([n])$ is what is usually denoted $X_{n-1}$, the object of cells in dimension $n-1$. Note that $X([0]) = X_{-1}$ is the augmented component. The $n$ can be thought of as the number of vertices of a simplex of dimension $n-1$. We choose the index $n$ over the geometric dimension $n-1$ as it is more convenient for our purposes. 
 
-Similarly $\Delta^{op}$ is the walking [[comonoid]]. Since the [[comonad]] $F U$ on $\mathbf{E}^T$ can be regarded as a [[comonoid]] in the strict monoidal category of [[endofunctors]] $[\mathbf{E}^T, \mathbf{E}^T]$ (with endofunctor composition as monoidal product), there is a [[strong monoidal functor]] (or in fact a unique [[strict monoidal functor]]) 
+Similarly $\Delta_a^{op}$ is the walking [[comonoid]]. Since the [[comonad]] $F U$ on $\mathbf{E}^T$ can be regarded as a [[comonoid]] in the strict monoidal category of [[endofunctors]] $[\mathbf{E}^T, \mathbf{E}^T]$ (with endofunctor composition as monoidal product), there is a [[strong monoidal functor]] (or in fact a unique [[strict monoidal functor]]) 
 
-$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T]$$ 
+$$\Delta_a^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T]$$ 
 
 that takes the generic monoid $[1]$ to $F U$ and generally $[n]$ to $(F U)^{\circ n}$. 
 
@@ -58,11 +58,11 @@ and we have the following definition:
 ###### Definition 
 The **bar construction** $Bar_T(A)$ is the simplicial $T$-algebra given by the composite functor 
 
-$$\Delta^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}^T.$$ 
+$$\Delta_a^{op} \stackrel{Bar_T}{\to} [\mathbf{E}^T, \mathbf{E}^T] \stackrel{eval_A}{\to} \mathbf{E}^T.$$ 
 
 The composite 
 
-$$\Delta^{op} \stackrel{Bar_T(A)}{\to} \mathbf{E}^T \stackrel{U}{\to} \mathbf{E}$$ 
+$$\Delta_a^{op} \stackrel{Bar_T(A)}{\to} \mathbf{E}^T \stackrel{U}{\to} \mathbf{E}$$ 
 
 will here be called the **bar resolution** of $A$. 
 =-- 
@@ -75,16 +75,16 @@ In the notation of [[two-sided bar constructions]], the bar construction would b
 
 To explain the sense in which $U Bar_T(A)$ is an *acyclic resolution* of (the constant simplicial object) $A$, we recall the fundamental [[décalage]] construction. Very simply, putting 
 
-$$D = [1] + (-): \Delta^{op} \to \Delta^{op}$$ 
+$$D = [1] + (-): \Delta_a^{op} \to \Delta_a^{op}$$ 
 
-the d&#233;calage functor on simplicial objects $C^{\Delta^{op}}$ (valued in a category $\mathbf{C}$) is the functor 
+the d&#233;calage functor on simplicial objects $C^{\Delta_a^{op}}$ (valued in a category $\mathbf{C}$) is the functor 
 
-$$P: \mathbf{C}^{\Delta^{op}} \stackrel{\mathbf{C}^D}{\to} \mathbf{C}^{\Delta^{op}}.$$ 
+$$P: \mathbf{C}^{\Delta_a^{op}} \stackrel{\mathbf{C}^D}{\to} \mathbf{C}^{\Delta_a^{op}}.$$ 
 
-Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta^{op}$, see also at _[d&#233;calage -- comonad structure](decalage#DecalageComonad)_), and therefore $P$ also carries a comonad structure. Notice also that there is a comonad map $D \to [1]\circ !$ (where $[1]: 1 \to \Delta^{op}$ is left adjoint to $!: \Delta^{op} \to 1$ since $[1]$ is initial in $\Delta^{op}$), induced by the evident natural inclusion $[1]+i: [1]+[0] \to [1]+[m]$ in $\Delta$. This in turn induces a comonad map $P X \to {|X|}$ where 
+Note that $D$ has a comonad structure (inherited from the comonoid structure on $[1]$ in $\Delta_a^{op}$, see also at _[d&#233;calage -- comonad structure](decalage#DecalageComonad)_), and therefore $P$ also carries a comonad structure. Notice also that there is a comonad map $D \to [1]\circ !$ (where $[1]: 1 \to \Delta_a^{op}$ is left adjoint to $!: \Delta_a^{op} \to 1$ since $[1]$ is initial in $\Delta_a^{op}$), induced by the evident natural inclusion $[1]+i: [1]+[0] \to [1]+[m]$ in $\Delta_a$. This in turn induces a comonad map $P X \to {|X|}$ where 
 ${|-|}$ is the composite ("discretization"): 
 
-$$C^{\Delta^{op}} \stackrel{ev_{[1]}}{\to} C \stackrel{diag}{\to} C^{\Delta^{op}}.$$
+$$C^{\Delta_a^{op}} \stackrel{ev_{[1]}}{\to} C \stackrel{diag}{\to} C^{\Delta_a^{op}}.$$
 
 The notation $P$ is chosen because d&#233;calage is essentially a kind of [[path space]] construction, i.e., in the case $\mathbf{C} = Set$ it is a [[simplicial sets]] analogue of a topological pullback 
 
@@ -100,7 +100,7 @@ The following definition names a nonce expression; this author (Todd Trimble) do
 
 +-- {: .num_defn #acyclic} 
 ###### Definition 
-An **acyclic structure** on a simplicial object $X: \Delta^{op} \to C$ is a $P$-coalgebra structure $X \to P X$. 
+An **acyclic structure** on a simplicial object $X: \Delta_a^{op} \to C$ is a $P$-coalgebra structure $X \to P X$. 
 =-- 
 
 Here a $P$-coalgebra structure on $X$ is the same as a *right* $D$-coalgebra (or $D$-comodule) structure, given by a simplicial map $h: X \to X \circ D$ satisfying evident equations. In more nuts-and-bolts terms, it consists of a series of maps $h_n: X([n]) \to X([n+1])$ satisfying suitable equations. 
@@ -109,7 +109,7 @@ The map $h: X \to X D$ may be viewed as a homotopy. Again, turning to the topolo
 
 +-- {: .num_remark #rem}
 ###### Remark 
-Definition \ref{acyclic} gives an *absolute* notion of acyclicity, in the sense that if $X: \Delta^{op} \to \mathbf{C}$ carries an acyclic structure $h: X \to X D$ and $G: \mathbf{C} \to \mathbf{C}'$ is any functor, then $G X$ automatically carries an acyclic structure $G h: F X \to F X D$. (For example, $G X$ becomes acyclic in a standard model category sense under any functor $G: \mathbf{C} \to Set$.) 
+Definition \ref{acyclic} gives an *absolute* notion of acyclicity, in the sense that if $X: \Delta_a^{op} \to \mathbf{C}$ carries an acyclic structure $h: X \to X D$ and $G: \mathbf{C} \to \mathbf{C}'$ is any functor, then $G X$ automatically carries an acyclic structure $G h: F X \to F X D$. (For example, $G X$ becomes acyclic in a standard model category sense under any functor $G: \mathbf{C} \to Set$.) 
 =-- 
 
 ### Resolutions 
@@ -117,9 +117,9 @@ Definition \ref{acyclic} gives an *absolute* notion of acyclicity, in the sense 
 Returning now to the bar resolution $U Bar_T(A)$: there is a canonical [[natural isomorphism]] $T \circ U Bar_T \cong U Bar_T \circ D$ obtained as the following 2-cell pasting (where $U Bar_T$ abbreviates the top and bottom horizontal composites) 
 
 $$\label{strong}\array{
-\Delta^{op} & \stackrel{Bar_T}{\to} & [\mathbf{E}^T, \mathbf{E}^T] & \stackrel{[id, U]}{\to} & [\mathbf{E}^T, \mathbf{E}] \\ 
+\Delta_a^{op} & \stackrel{Bar_T}{\to} & [\mathbf{E}^T, \mathbf{E}^T] & \stackrel{[id, U]}{\to} & [\mathbf{E}^T, \mathbf{E}] \\ 
  _\mathllap{D = [1] + (-)} \downarrow & \cong & _\mathllap{[id, F U]} \downarrow & \cong & \downarrow_\mathrlap{[id, U F] = [id, T]} \\ 
-\Delta^{op} & \underset{Bar_T}{\to} & [\mathbf{E}^T, \mathbf{E}^T] & \underset{[id, U]}{\to} & [\mathbf{E}^T, \mathbf{E}],
+\Delta_a^{op} & \underset{Bar_T}{\to} & [\mathbf{E}^T, \mathbf{E}^T] & \underset{[id, U]}{\to} & [\mathbf{E}^T, \mathbf{E}],
 }$$ 
 
 whence there is a homotopy 
@@ -145,7 +145,7 @@ Apply $[id_{\mathbf{E}^T}, -]$ to this coassociativity square to get another coa
 
 $$[id, U] \stackrel{H}{\to} [id, U]K \stackrel{\overset{[id, U]\delta_K}{\to}}{\underset{H K}{\to}} [id, U]K K.$$ 
 
-Because $Bar_T: \Delta^{op} \to [\mathbf{E}^T, \mathbf{E}^T]$ is a strong monoidal functor (see the left isomorphism in (eq:strong)), the squares in 
+Because $Bar_T: \Delta_a^{op} \to [\mathbf{E}^T, \mathbf{E}^T]$ is a strong monoidal functor (see the left isomorphism in (eq:strong)), the squares in 
 
 $$\array{
 [id, U] Bar_T & \stackrel{H Bar_T}{\to} & [id, U]K Bar_T & \stackrel{\overset{[id, U]\delta_K Bar_T}{\to}}{\underset{H K Bar_T}{\to}} & [id, U]K K Bar_T \\ 
@@ -166,7 +166,7 @@ We now state and prove a [[universal property]] of the bar construction $Bar_T(A
 
 +-- {: .num_defn} 
 ###### Definition 
-Let $(T, m: T T \to T, u: 1 \to T)$ be a monad on a category $\mathbf{E}$. A $T$-**algebra resolution** is a simplicial object $Y: \Delta^{op} \to \mathbf{E}^T$ together with an acyclic structure on $U Y: \Delta^{op} \to \mathbf{E}$. A morphism between $T$-algebra resolutions is a natural transformation $\phi: Y \to Y'$ such that $U\phi: U Y \to U Y'$ is a $P$-coalgebra map. 
+Let $(T, m: T T \to T, u: 1 \to T)$ be a monad on a category $\mathbf{E}$. A $T$-**algebra resolution** is a simplicial object $Y: \Delta_a^{op} \to \mathbf{E}^T$ together with an acyclic structure on $U Y: \Delta_a^{op} \to \mathbf{E}$. A morphism between $T$-algebra resolutions is a natural transformation $\phi: Y \to Y'$ such that $U\phi: U Y \to U Y'$ is a $P$-coalgebra map. 
 =-- 
 
 Let $AlgRes_T$ be the category of $T$-algebra resolutions. There is a forgetful functor 
@@ -221,13 +221,13 @@ It is enough to produce such a map $\phi: Bar_T(Y[0]) \to Y$ in the case $f = 1_
 
 $$Bar_T(X) \stackrel{Bar_T(f)}{\to} Bar_T(Y[0]) \stackrel{\phi}{\to} Y.$$ 
 
-We will do something slightly more general. For any category $\mathbf{C}$, the endofunctor category $[\mathbf{C}^{\Delta^{op}}, \mathbf{C}^{\Delta^{op}}]$ has a comonoid object $P = - \circ D$, so that there is an induced strong monoidal functor 
+We will do something slightly more general. For any category $\mathbf{C}$, the endofunctor category $[\mathbf{C}^{\Delta_a^{op}}, \mathbf{C}^{\Delta_a^{op}}]$ has a comonoid object $P = - \circ D$, so that there is an induced strong monoidal functor 
 
-$$\Delta^{op} \stackrel{\tilde{P}}{\to} [\mathbf{C}^{\Delta^{op}}, \mathbf{C}^{\Delta^{op}}]$$ 
+$$\Delta_a^{op} \stackrel{\tilde{P}}{\to} [\mathbf{C}^{\Delta_a^{op}}, \mathbf{C}^{\Delta_a^{op}}]$$ 
 
-which, upon evaluating at an object $Y$ of $\mathbf{C}^{\Delta^{op}}$, gives a functor 
+which, upon evaluating at an object $Y$ of $\mathbf{C}^{\Delta_a^{op}}$, gives a functor 
 
-$$B(Y, D, D) \coloneqq eval_Y \circ \tilde{P}: \Delta^{op} \to \mathbf{C}^{\Delta^{op}}$$ 
+$$B(Y, D, D) \coloneqq eval_Y \circ \tilde{P}: \Delta_a^{op} \to \mathbf{C}^{\Delta_a^{op}}$$ 
 
 with $B(Y, D, D)[n] = Y D^n$, so that $B(Y, D, D)$ is a double simplicial object. Taking $\mathbf{C} = \mathbf{E}^T$ and taking $Y$ to be a $T$-algebra resolution with acyclic structure $h: Y \to Y D$, we will produce a (double) simplicial map 
 
@@ -243,7 +243,7 @@ Y D^n & \underset{h D^n}{\to} & Y D^{n+1}
 
 commutes for all $n$. Once we verify the claim that $\Phi$ respects faces and degeneracies, the same will be true for $\phi[n] = \Phi[n][0]: (T^n Y)[0] = T^n(Y[0]) \to (Y D^n)[0] = Y[n]$, whence the proof will be complete by Remark \ref{simp}. 
 
-The claim is proved by induction on $n$. Let $\epsilon: D \to 1_{\Delta^{op}}$ be the counit and $\delta: D \to D D$ be the comultiplication. We have face maps 
+The claim is proved by induction on $n$. Let $\epsilon: D \to 1_{\Delta_a^{op}}$ be the counit and $\delta: D \to D D$ be the comultiplication. We have face maps 
 
 $$T^j m T^{n-j-1} Y: T^{n+1} Y \to T^n Y, \qquad Y D^j \epsilon D^{n-j}: Y D^{n+1} \to Y D^n$$ 
 
