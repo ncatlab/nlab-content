@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Generators and relations
 * table of contents
 {: toc}
@@ -53,7 +64,7 @@ Every $T$-algebra has a presentation by generators and relations.
 =--
 +-- {: .proof}
 ###### Proof
-For any $T$-algebra $A$, the following diagram is a coequalizer:
+For any $T$-algebra $A$, the following diagram is a coequalizer (also called the [[Beck coequalizer]]):
 $$ T^2 A \; \underoverset{\mu}{\T a}{\rightrightarrows}\; T A \xrightarrow{a} A$$
 where $a\colon T A \to A$ is the structure map of the $T$-algebra $A$ and $\mu$ is the multiplication of the monad $T$.
 =--
