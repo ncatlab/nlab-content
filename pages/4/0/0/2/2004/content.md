@@ -22,17 +22,57 @@
 
 ## Idea
 
-The Eilenberg--Moore (EM) category of a [[monad]] is the category of its [[algebra for a monad|modules]] (aka algebras). Dually, the EM category of a [[comonad]] is its category of comodules. 
-The subcategory of its [[free functor|free]] modules is one of the descriptions of the [[Kleisli category]] of the monad. The EM and Kleisli categories have universal properties which make sense in a general 2-category. 
+The category of [[algebras over a monad]] (also: "modules over a monad") is traditionally called its _Eilenberg--Moore category_ (EM). Dually, the EM category of a [[comonad]] is its category of coalgebras (co-modules). 
+
+The [[subcategory]] of [[free functor|(co-)free]] (co-)algebras is traditionally called the _[[Kleisli category]]_ of the (co-)monad. 
+
+The EM and Kleisli categories have universal properties which make sense for (co-)monads in any [[2-category]] (not necessarily [[Cat]]).
 
 
-## Definitions
+## Definition
+ {#Definition}
 
-Let $(T,\eta,\mu)$ be a [[monad]] in [[Cat]], where $T \colon C\to C$ is an endofunctor with multiplication $\mu \colon T T\to T$ and unit $\eta \colon Id_C\to T$.  Recall that a (left) $T$-[[algebra for a monad|module]] (or $T$-algebra) in $C$ is a pair $(M,\nu)$ of an object $M$ in $C$ and a morphism $\nu\colon T(M)\to M$ which is a __$T$-[[action]]__, namely $\nu\circ T(\nu)=\nu\circ\mu_{M} \colon T(T(M))\to M$ and $\nu\circ\eta_M = id_M$, and that a morphism of $T$-modules $f\colon (M,\nu^M)\to (N,\nu^N)$ is a morphism $f\colon M\to N$ in $C$ that commutes with the action: $f\circ\nu^M=\nu^N\circ T(f)\colon T(M)\to N$. The composition of morphisms of $T$-modules is the composition of underlying morphisms in $C$.
+Let $(T,\eta,\mu)$ be a [[monad]] in [[Cat]], where $T \colon C\to C$ is an [[endofunctor]] with multiplication $\mu \colon T T\to T$ and unit $\eta \colon Id_C\to T$.  
 
-$T$-modules and their morphisms thus form a [[category]] $C^T$ which is called the __Eilenberg--Moore category__ of the monad $T$.  This may also be written $Alg(T)$, $T\,Alg$, etc.  It comes equipped with a forgetful functor $U^T \colon C^T \to C$ which is the [[universal property|universal]] $T$-module, and has a [[left adjoint]] $F^T$ such that the monad $U^T F^T$ arising from the adjunction is equal to $T$.
 
-In general, if $t \colon a \to a$ is a monad in a [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
++-- {: .num_defn}
+###### Definition
+
+
+A (left) $T$-[[algebra for a monad|module]] (or $T$-algebra) in $C$ is a pair $(A,\nu)$ of an object $A$ in $C$ and a morphism $\nu\colon T(A)\to A$ which is a __$T$-[[action]]__, in that 
+
+$$
+  \nu\circ T(\nu)=\nu\circ\mu_{M} \colon T(T(M))\to M
+$$ 
+
+and 
+
+$$
+  \nu\circ\eta_M = id_M
+  \,.
+$$
+
+
+A [[homomorphism]] of $T$-modules $f\colon (A,\nu^A)\to (B,\nu^B)$ is a morphism $f\colon A \to B$ in $C$ that commutes with the action, in that
+
+$$
+  f\circ\nu^M=\nu^N\circ T(f)\colon T(M)\to N
+  \,.
+$$ 
+
+The composition of morphisms of $T$-modules is the composition of underlying morphisms in $C$. The resultiing [[category]] $C^T$ of $T$-modules/algebras is called the __Eilenberg--Moore category__ of the monad $T$, also be written $Alg(T)$, or $T\,Alg$, etc.  
+
+By construction, there is a [[forgetful functor]] 
+
+$$
+  U^T \colon C^T \to C
+$$ 
+
+(which may be thought of as the [[universal property|universal]] $T$-module) with a [[left adjoint]] [[free functor]] $F^T$ such that the monad $U^T F^T$ arising from the adjunction is isomorphic to $T$.
+
+=--
+
+More generally, for $t \colon a \to a$ is a monad in any [[2-category]] $K$, then the __Eilenberg--Moore object__ $a^t$ of $t$ is, if it exists, the universal (left) $t$-module.  That is, there is a morphism $u^t \colon a^t \to a$ and a 2-cell $t u^t \Rightarrow u^t$ that mediate a natural isomorphism $K(x, a^t) \cong LMod(x,t)$ between morphisms $x \to a^t$ and $t$-modules $(m \colon x \to a, \lambda \colon t m \Rightarrow m)$.  Not every 2-category admits Eilenberg--Moore objects.
 
 
 ## Properties
@@ -41,22 +81,65 @@ In general, if $t \colon a \to a$ is a monad in a [[2-category]] $K$, then the _
 
 Apart from being the universal left $T$-module, the EM category of a monad $T$ in $Cat$ has some other interesting properties.
 
-There is a [[full subcategory]] $RAdj(C)$ of the [[slice category]] $Cat/C$ on the functors $X \to C$ that have left adjoints.  For any monad $T$ on $C$ there is a full subcategory of this consisting of the adjoint pairs that compose to give $T$.  The functor $U^T \colon C^T \to C$ is the [[terminal object]] of this category.
+There is a [[full subcategory]] $RAdj(C)$ of the [[slice category]] $Cat/C$ on the functors $X \to C$ that have [[left adjoints]].  For any monad $T$ on $C$ there is a full subcategory of this consisting of the adjoint pairs that compose to give $T$.  The functor $U^T \colon C^T \to C$ is the [[terminal object]] of this category.
 
-If $C_T$ is the [[Kleisli category]] of $T$ and $F_T \colon C \to C_T$ the canonical functor, then the EM category $C^T$ can be constructed as the [[pullback]]
+### As a colimit completion of the Kleisli category
+ {#AsColimitCompletionOfKleisliCategory}
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every $T$-algebra $(A,\nu)$ is the [[coequalizer]] of the first stage of its [[bar resolution]]:
+
 $$
-\array{
-  C^T & \to & [C_T^{op}, Set] \\
-  \downarrow & & \downarrow \mathrlap{[F_T^{op},Set]} \\
-  C & \underset{Y}{\to} & [C^{op}, Set]
-}
+  (T^2 A, \mu_{T A})
+  \stackrel{\overset{\mu_A}{\longrightarrow}}{\underset{T \nu}{\longrightarrow}}
+  (T A, \mu_A)
+  \stackrel{\nu}{\longrightarrow}
+  (A,\nu)
+  \,.
 $$
-Thus a $T$-algebra may be regarded as a [[presheaf]] on the Kleisli category of $T$ whose restriction to $C$ is [[representable]].  This observation seems to be due to Linton.  Street--Walters show that it holds in any 2-category equipped with a [[Yoneda structure]].
+
+This is a [[reflexive coequalizer]] of $T$-algebras. Moreover, the underlying [[fork]] in $C$ is a [[split coequalizer]], hence in particular an [[absolute coequalizer]] (sometimes called the _Beck coequalizer_, due to its role in the [[Beck monadicity theorem]]). A splitting is given by  
+
+$$
+  T^2 A  \stackrel{\eta_{T A}}{\longleftarrow} T A \stackrel{\eta_A}{\longleftarrow} A
+\,.
+$$
+
+=--
+
+(e.g. [MacLane, bottom of p. 148 and exercise 4 on p. 151](#MacLane)) See also at [split coequallizer -- Beck coequalizer for algebras over a monad](split+coequalizer#BeckCoequalizerForAlgebrasOverAMonad).
+
+In particular this says that every $T$-algebra is [[generators and relations|presented]] by free $T$-algebras. The nature of $T$-algebras as a kind of completion of free $T$-algebras under colimits is made more explicit as follows.
+
+Write $C_T$ for the [[Kleisli category]] of $T$, the category of [[free construction|free]] $T$-algebras. Write $F_T \colon C \to C_T$ the [[free functor]].
+Observe that via the inclusion $C_T \hookrightarrow C^T$ every $T$-algebra [[representable functor|represents]] a [[presheaf]] on $C_T$. Recall that the [[category of presheaves]] $[C_T^{op}, Set]$ is the [[free cocompletion]] of $C_T$.
+
++-- {: .num_prop}
+###### Proposition
+
+The $T$-algebras in $C$ are equivalently those presheaves on the category of free $T$-algebras whose restriction along the free functor is [[representable functor|representable]] in $C$. In other words, the Eilenberg-Moore category $C^T$ is the (1-category theoretic) [[pullback]]
+
+$$
+  \array{
+    C^T & \to & [C_T^{op}, Set] \\
+    \downarrow & (pb) & \downarrow \mathrlap{[F_T^{op},Set]} \\
+    C & \underset{Y}{\to} & [C^{op}, Set]
+  }
+$$
+
+of the [[category of presheaves]] on the [[Kleisli category]] along the [[Yoneda embedding]] $Y$ of $C$.
+
+=--
+
+This statement appears as ([Street 72, theorem 14](#Street72)). It seems to go back to ([Linton 69](#Linton69)), see ([Melli&#232;s 10, p. 4](#Mellies10)). ([Street-Walters 78](#StreetWalters78)) show that it holds in any 2-category equipped with a [[Yoneda structure]]
+
+### By lax 2-limits
 
 Just as the [[Kleisli object]] of a monad $t$ in a 2-category $K$ can be defined as the [[lax colimit]] of the [[lax functor]] $\ast \to K$ [[monad|corresponding]] to $t$, the EM object of $t$ is its [[lax limit]].
 
-
-### By lax 2-limits
 
 S. Lack has shown how Eilenberg-Moore objects $C^T$ can be obtained as combinations of certain simpler lax limits, when the 2-category $K$ in question is the 2-category of 2-algebras over a 2-monad $\mathbf{G}$ and lax, colax or pseudo morphisms of such: 
 
@@ -135,18 +218,24 @@ For instance ([Borceux, vol 2, cor. 4.2.4](#Borceux)).
 
 General discussion is in 
 
-* [[Ross Street]], _The formal theory of monads_, JPAA 2, 1972 
+* {#Street72} [[Ross Street]], _The formal theory of monads_, Journal of Pure and Applied Algebra 2, 1972 
+
 * [[Fred Linton]], _An outline of functorial semantics_, in [[LNM 80]], 1969
-* [[Ross Street]], [[Bob Walters]], _Yoneda structures_, J. Algebra __50__, 1978
+
+* {#Linton69} [[Fred Linton]], _Relative functorial semantics: adjointness results_, Lecture Notes in Mathematics, vol. 99, 1969
+
+* {#StreetWalters78} [[Ross Street]], [[Bob Walters]], _Yoneda structures_, J. Algebra __50__, 1978
+
+* {#MacLane} [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_
 
 Local presentability of EM-categories is discussed on p. 123, 124 of
 
 * [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
-The following paper of Melli&#232;s compares the Linton representability condition above with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
+The following paper of Melli&#232;s compares the representability condition of ([Linton 69](#Linton69)) with the [[Segal condition]] that distinguishes those [[simplicial sets]] that are the [[nerves]] of categories.
 
-* [[Paul-André Melliès]], _Segal condition meets computational effects_, LICS 2010 ([pdf](http://www.pps.jussieu.fr/~mellies/papers/segal-lics-2010.pdf))
+* {#Mellies10} [[Paul-André Melliès]], _Segal condition meets computational effects_, LICS 2010 ([pdf](http://www.pps.jussieu.fr/~mellies/papers/segal-lics-2010.pdf))
 
 The example of [[idempotent monads]] is discussed also in
 
@@ -169,3 +258,14 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 [[!redirects T-alg]]
 [[!redirects T Alg]]
 [[!redirects T alg]]
+
+[[!redirects Beck coequalizer]]
+[[!redirects Beck coequalizers]]
+[[!redirects Beck coequaliser]]
+[[!redirects Beck coequalisers]]
+
+[[!redirects Beck equalizer]]
+[[!redirects Beck equalizers]]
+[[!redirects Beck equaliser]]
+[[!redirects Beck equalisers]]
+
