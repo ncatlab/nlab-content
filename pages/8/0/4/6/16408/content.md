@@ -236,13 +236,16 @@ The **category of rooted combinatorial maps** $CM_\bullet$ is defined as follows
 * morphisms $(M,r) \to (M',r')$ are map morphisms $h : M \to M'$ in $CM$ which preserve the root $h(r) = r'$.
 =--
 
-Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ of the singleton set 1 with the forgetful functor $U : CM \to Set$.  In particular, $CM_\bullet$ is _not_ the [[coslice category]] $1/CM$ of the terminal object $1 \in CM$, which is actually a trivial category (compare: [[pointed object]]).
-
-Tutte's observation that rooted maps have no symmetries can be formulated as follows:
+Note that $CM_\bullet$ is equivalent to the [[comma category]] $1 \downarrow U$ of the singleton set 1 with the forgetful functor $U : CM \to Set$.  Now we have the following basic observations, in line with the above remarks by Tutte:
 
 +-- {: .num_prop}
 ###### Proposition
-Let $h : (M,r) \to (M,r)$ be an endomorphism of $(M,d)$ in the category of rooted maps $CM_\bullet$.  Then $h$ is the identity morphism.
+For $M = (D,(\sigma,\alpha,\phi))$ a combinatorial map, the automorphism group $Aut(M)$ is by definition the subgroup of permutations on $D$ which commute with $\sigma$ and $\alpha$ and $\phi$, i.e., the [[centralizer]] of $\langle\sigma,\alpha,\phi\rangle$.
+=--
+
++-- {: .num_prop}
+###### Proposition
+For $(M,r)$ a rooted combinatorial map, the automorphism group $Aut(M,r)$ is always trivial.  In particular, if $h : (M,r) \to (M,r)$ is an endomorphism of $(M,r)$ in the category of rooted maps $CM_\bullet$, then $h$ must be the identity morphism.
 =--
 
 +-- {: .proof} 
