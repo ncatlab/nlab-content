@@ -49,7 +49,7 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 * M. Einsiedler, [[M. Kapranov]], D. Lind, _Non-archimedean amoebas and tropical varieties_, [math.AG/0408311](http://arxiv.org/abs/math/0408311)
 * [[Mikhail Kapranov]], _Thermodynamics and the moment map_, [arxiv/1108.3472](http://arxiv.org/abs/1108.3472)
 * Walter Gubler, _A guide to tropicalizations_, [arxiv/1108.6126](http://arxiv.org/abs/1108.6126)
-* E. Katz: A tropical toolkit. Expo. Math. 27, No. 1, 1-36 (2009).
+* E. Katz, _A tropical toolkit_, [math.AG/0610878](http://arxiv.org/abs/math/0610878) (Expo. Math. 27 (2009), No. 1, 1-36)
 * Oleg Viro, _Hyperfields for tropical geometry I. hyperfields and dequantization_, [arxiv/1006.3034](http://arxiv.org/abs/1006.3034); _Tropical geometry and hyperfields_, talk at Mathematics - XXI century. PDMI 70th anniversary, [video](http://www.mathnet.ru/php/presentation.phtml?option_lang=eng&presentid=1286); _On basic concepts of tropical geometry_, Trudy Mat. Inst. Steklova __273__ (2011),  271&#8211;303
 * Patrick Popescu-Pampu, Dmitry Stepanov, _Local tropicalization_, [arxiv/1204.6154](http://arxiv.org/abs/1204.6154) 
 * W. Gubler, _Tropical varieties for non-Archimedean analytic spaces_, Invent. Math. __169__ (2007), 321&#8211;376.
