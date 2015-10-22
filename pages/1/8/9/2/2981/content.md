@@ -72,7 +72,7 @@ For $S_{\bullet,\bullet} : \Delta^{op} \times \Delta^{op} \to Set$ a [[bisimplic
 +-- {: .num_prop}
 ###### Proposition
 
-For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the [[geometric realization of simplicial topological spaces|geometric realizaton]] of the 
+For $X_\bullet$ any [[simplicial topological space]], there is a [[homeomorphism]] between the [[geometric realization of simplicial topological spaces|geometric realization]] of the 
 [[simplicial topological space]] $[n] \mapsto |Sing(X_n)|$ and the ordinary [[geometric realization]] of the [[simplicial set]] that is the diagonal of the [[bisimplicial set]] $Sing(X_\bullet)_\bullet$
 
 $$
