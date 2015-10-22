@@ -54,6 +54,11 @@ An application of Batanin weak $\omega$-groupoids to [[homotopy type theory]] ap
 
 * [[Benno van den Berg]], [[Richard Garner]], _Types are weak $\omega$-groupoids_ ([arXiv:0812.0298](http://arxiv.org/abs/0812.0298))
 
+A discussion of weak $\omega$-functors between Batanin $\omega$-categories, and all kind of weak $n$-transformations in the spirit of Batanin approach, with an emphasis to the possibility to the existence of the weak $\omega$-category of the weak $\omega$-categories in Batanin's sense is in 
+
+* [[Camell Kachour]], Steps toward the Weak $\omega$-category of the Weak $\omega$-categories in the globular setting, Published in Categories and General Algebraic Structures with Applications (2015). 
+
+
 [[!redirects Batanin ∞-category]]
 [[!redirects Batanin omega-categories]]
 [[!redirects Batanin ∞-categories]]
