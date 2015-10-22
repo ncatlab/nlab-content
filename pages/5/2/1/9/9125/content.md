@@ -2655,6 +2655,10 @@ Most of the above material as of 2013 was written as part of a lecture series
 
 * [[Urs Schreiber]], _Higher Chern-Simons theory_, lecture series at _[Workshop on Topological Aspects of Quantum Field Theories, Singapore (14 - 18 Jan 2013)](http://www2.ims.nus.edu.sg/Programs/013wquantum/index.php)_ on the first sections at _[geometry of physics, II) Physics](http://ncatlab.org/nlab/show/geometry%20of%20physics#PHYSICS)_
 
+A exposition specifically for gauge fields is also in 
+
+* [[Urs Schreiber]], _[Examples for Prequantum field theories I: Gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-gauge-fields/)_.
+
 An exposition of the general formulation of fields in terms of [[moduli stacks]] in [[slice (∞,1)-toposes]] is in section 4 of 
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
@@ -2664,7 +2668,7 @@ Lecture notes on fields as discussed here with applications in [[string theory]]
 
 * [[Urs Schreiber]], _[[twisted smooth cohomology in string theory]]_, lecture notes at _[K-theory and Quantum Fields](http://maths-old.anu.edu.au/esi/2012/)_, ESI program June 2012
 
-An introductory survey is also in section 1.2 of
+An introductory survey is also in section 1 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
  {#dcct}
