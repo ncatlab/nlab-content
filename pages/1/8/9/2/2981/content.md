@@ -123,7 +123,7 @@ One modern re-proof can be found in
 * [[Peter May|May]] and Sigurdsson, _Parametrized homotopy theory_
 ([web](http://www.math.uiuc.edu/K-theory/0716/))
 
-A review is in section 2 and a generalizatin in section 5 of
+A review is in section 2 and a generalization in section 5 of
 
 * [[Tobias Barthel]], [[Emily Riehl]], _On the construction of functorial factorizations for model categories_ ([arXiv:1204.5427](http://arxiv.org/abs/1204.5427))
  {#BarthelRiehl}
