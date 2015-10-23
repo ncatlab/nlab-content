@@ -143,7 +143,7 @@ This induces an [[adjoint triple]]
 
 $$
   ssSet
-   \stackrel{\overset{+_!}{\to}}{\stackrel{\overset{+^*}{\leftarrow}}{\underset{+_*}{\to}}}
+   \stackrel{\overset{+_!}{\longrightarrow}}{\stackrel{\overset{+^*}{\longleftarrow}}{\underset{+_*}{\longrightarrow}}}
   sSet
   \,.
 $$
@@ -153,9 +153,9 @@ $$
 
 Here 
 
-* $T := +_*$ is called the **total simplicial set** functor or **Artin-Mazur codiagonal** (we will use the first of these as codiagonal also has another accepted meaning, see [[codiagonal]]);
+* $T \coloneqq +_*$ is called the **total simplicial set** functor or **Artin-Mazur codiagonal** (we will use the first of these as codiagonal also has another accepted meaning, see [[codiagonal]]);
 
-* $Dec := +^*$ is called the [[total décalage]] functor;
+* $Dec \coloneqq +^*$ is called the [[total décalage]] functor (inside which is plain [[décalage]]);
 
 =--
 
@@ -189,7 +189,7 @@ For $X$ any bisimplicial set
 
 =--
 
-These statements are for instance in ([CegarraRemedios](#CegarraRemedios)) and ([Stevenson](#Stevenson)). They can be considered to be non-additive versions of the Eilenberg - Zilber theorem. 
+These statements are for instance in ([CegarraRemedios](#CegarraRemedios)) and ([Stevenson](#Stevenson)). They may be considered as a non-additive versions of the [[Eilenberg-Zilber theorem]]. 
 
 +-- {: .num_remark }
 ###### Remark
@@ -225,11 +225,11 @@ $$
   \bar W 
    : 
   sGrp
-   \stackrel{\mathbf{B}}{\to}
+   \stackrel{\mathbf{B}}{\longrightarrow}
   sGrpd
-   \stackrel{N}{\to}
+   \stackrel{N}{\longrightarrow}
   ssSet
-   \stackrel{T}{\to}
+   \stackrel{T}{\longrightarrow}
   sSet
   \,.
 $$
@@ -248,7 +248,7 @@ $$
   (T X)_n 
   \to
   \prod_{i = 0}^n X_{i, n-i}
-  \stackrel{\to}{\to}
+  \stackrel{\longrightarrow}{\longrightarrow}
   \prod_{i = 0}^{n-1}
   X_{i, n-i-1}
 $$
@@ -327,7 +327,7 @@ There is an [[adjunction]]
 $$
   (L \dashv diag)   : 
   ssSet
-  \stackrel{\overset{L}{\leftarrow}}{\underset{diag}{\to}}
+  \stackrel{\overset{L}{\longleftarrow}}{\underset{diag}{\longrightarrow}}
   sSet 
   \,.
 $$
@@ -342,7 +342,7 @@ The [[transferred model structure]] on $ssSet$ along the total simplicial set fu
 
 $$
   (Dec \dashv T) : ssSet 
-    \stackrel{\overset{Dec}{\leftarrow}}{\underset{T}{\to}}
+    \stackrel{\overset{Dec}{\longleftarrow}}{\underset{T}{\longrightarrow}}
    sSet
 $$ 
 
