@@ -186,6 +186,7 @@ Among the more direct definitions of $(\infty,n)$-categories one can roughly dis
 
 * [Definitions via enrichment](#ViaEnrichment)
 
+
 and those that build them by [[internalization]] in the collection of $(\infty,n-1)$-categories
 
 * [Definitions via internalization](#ViaInternalization).
@@ -1124,6 +1125,11 @@ previewed in
   **Abstract** [[topological chiral homology|Chiral]]/[[factorization homology]] gives a procedure for constructing a [[topological field theory]] from the data of an [[En-algebra]]. I'll explain a mulit-object version of this construction which produces a topological field theory from the data of an $n$-category with adjoints. This construction is a consequence of a more primitive result which asserts an equivalence between [[(infinity,n)-category|n-categories]] with adjoints and "transversality sheaves" on [[framed manifold|framed]] $n$-[[manifolds]] - of which there is an abundance of examples. 
 
 This lends itself to a model of  _[[(∞,n)-category with adjoints]]_. See there for more.
+
+The first globular and algebraic models of $(\infty,n)$-categories is in
+
+* [[Camell Kachour]], Algebraic Definition of weak $(\infty,n)$-Categories, Published in Theory and Applications of Categories (2015), Volume 30, No. 22, pages 775-807 
+
 
 [[!redirects (infinity,r)-category]]
 [[!redirects (infinity,k)-category]]
