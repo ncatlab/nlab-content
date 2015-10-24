@@ -61,19 +61,19 @@ In particular, taking $S$ to be the set of all monic polynomials in $k[x]$, this
 Any two splitting fields of a given set $S$ of polynomials are isomorphic. 
 =-- 
 
-Again we prove this only under the assumption of the ultrafilter principle, and not under the assumption of full [[axiom of choice]]. 
+Again we prove this only under the assumption of the [[ultrafilter principle]], and not under the assumption of full [[axiom of choice]]. 
 
 +-- {: .proof} 
 ###### Proof 
-(After [Caicedo](#AC).) Let $E, F$ be splitting fields of $S$; without loss of generality we may suppose $S$ is closed under multiplication of polynomials. For $p \in S$ let $E_p, F_p$ denote the corresponding subfields obtained by adjoining all roots of $p$ that occur in $E, F$ to the ground field $k$. Any isomorphism $E \to F$ restricts to an isomorphism $E_p \to F_p$. Notice that the $E_p$ form a directed system of fields, with an inclusion morphism $E_p \to E_q$ if $p$ divides $q$, and $E$ is the [[colimit]] of the $E_p$ over this directed system. We are required to show that the set of isomorphisms $Iso(E, F)$ is nonempty; we have restriction maps $Iso(E, F) \to Iso(E_p, F_p)$ which exhibit $Iso(E, F)$ as the inverse limit of $Iso(E_p, F_p)$ over the corresponding system with transition maps $Res_{p q}: Iso(E_q, F_q) \to Iso(E_p, F_p)$ for $p|q$ that are also given by restriction. So we are required to show that this inverse limit is inhabited. 
+(After [Caicedo](#AC).) Let $E, F$ be splitting fields for $S$; without loss of generality we may suppose $S$ is closed under multiplication of polynomials. For $p \in S$ let $E_p, F_p$ denote the corresponding subfields obtained by adjoining all roots of $p$ that occur in $E, F$ to the ground field $k$. Any isomorphism $E \to F$ restricts to an isomorphism $E_p \to F_p$. Notice that the $E_p$ form a directed system of fields, with an inclusion morphism $E_p \to E_q$ if $p$ divides $q$, and $E$ is the [[colimit]] of the $E_p$ over this directed system. We are required to show that the set of isomorphisms $Iso(E, F)$ is nonempty; we have restriction maps $Iso(E, F) \to Iso(E_p, F_p)$ which exhibit $Iso(E, F)$ as the [[inverse limit]] of $Iso(E_p, F_p)$ over the corresponding system, with transition maps $Res_{p q}: Iso(E_q, F_q) \to Iso(E_p, F_p)$ for $p|q$ also given by restriction. So we are required to show that this inverse limit is [[inhabited set|inhabited]]. 
 
-By Theorem \ref{unique}, the set of isomorphisms $Iso(E_p, F_p)$ is nonempty, and it is also finite (being a [[torsor]] of the group $Aut(E_p)$ which has cardinality at most $n!$ where $n$ is the number of roots). It can then be proven from the [[ultrafilter theorem]] that $\Phi = \prod_{p \in S} Iso(E_p, F_p)$ is nonempty; see for example [here](/nlab/show/compactness+theorem#surj). Similarly, the subset 
+By Theorem \ref{unique}, the set of isomorphisms $Iso(E_p, F_p)$ is inhabited, and it is also [[finite set|finite]] (being a [[torsor]] of the group $Aut(E_p)$ which has cardinality at most $n!$ where $n$ is the number of roots). It can then be proven from the [[ultrafilter theorem]] that $\Phi = \prod_{p \in S} Iso(E_p, F_p)$ is nonempty; see [here](/nlab/show/compactness+theorem#surj) for a proof. Similarly, the subset 
 
 $$\Phi_{p q} \coloneqq \{\phi = (\phi_p)_{p \in S} \in \Phi: Res_{p q}(\phi_q) = \phi_p\}$$ 
 
-is also nonempty, as is any finite intersection of such subsets $\Phi_{p q}$ (which actually is another $\Phi_{p' q'}$: consider the product of $p$'s and $q$'s). Now $\Phi$ topologized as a product of finite discrete spaces is compact Hausdorff; this version of the [[Tychonoff theorem]] also follows from the ultrafilter theorem. 
+is also nonempty, as is any finite intersection of such subsets $\Phi_{p q}$ (which actually is another $\Phi_{p' q'}$, by considering the product of $p$'s and $q$'s). 
 
-We now conclude from compactness that the full intersection $\bigcap_{p|q} \Phi_{p q}$ is nonempty. But this intersection is just the inverse limit which is $Iso(E, F)$, and we are done. 
+Now $\Phi$ topologized as a product of finite discrete spaces is a [[compact Hausdorff space]]; this version of the [[Tychonoff theorem]] also follows from the ultrafilter theorem. We conclude from compactness that the full intersection $\bigcap_{p|q} \Phi_{p q}$ is inhabited. But this intersection is just the inverse limit which is $Iso(E, F)$, which concludes the proof. 
 =-- 
 
 An alternative proof based on a similar pattern of reasoning, but more explicitly in the language of [[model theory]] and the [[compactness theorem]], was given by [Joel David Hamkins](#JDH), in an answer following Caicedo's at MathOverflow. 
