@@ -63,7 +63,7 @@ With slightly more effort, a similar argument can be given to show that every [[
 
 Again, we assume the ultrafilter principle but do not assume the [[axiom of choice]]. 
 
-+-- {: .num_cor} 
++-- {: .num_cor #surj} 
 ###### Corollary 
 If $p: F \to X$ is [[surjection|surjective]] and every [[fiber]] is finite, then $p$ has a section $s$. 
 =-- 
