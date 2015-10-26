@@ -71,6 +71,8 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 * Guo Chuan Thiang, _On the K-theoretic classification of topological phases of matter_,
 [arXiv:1406.7366](http://arxiv.org/abs/1406.7366)
 
+* [[Edward Witten]], _Fermion path integrals and topological phases_, [arxiv/1508.04715](http://arxiv.org/abs/1508.04715)
+
 ### Other articles
 
 * N. Read, Subir Sachdev, _Large-N expansion for frustrated quantum antiferromagnets_, Phys. Rev. Lett. 66 1773 (1991)
