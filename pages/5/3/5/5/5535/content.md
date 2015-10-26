@@ -8,7 +8,7 @@ One tends to say 'pro-object in $C$', and may use various descriptions  via the 
 
 ##References##
 
-Related $n$Lab items include
+ including
 
 *  [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]]. Th&#233;orie des topos et cohomologie &#233;tale des schemas. Lecture notes in mathematics 269, Springer-Verlag, Berlin.
 
