@@ -1,4 +1,4 @@
-A functor $C^{op}\to Set$ is __prorepresentable__ (or __pro-representable__) if it is a small [[filtered limit]] of representables. In other words, it corresponds to a [[pro-object]].
+A functor $C\to Set$ is __prorepresentable__ (or __pro-representable__) if it is a small [[filtered colimit]] of representables. In other words, it corresponds to a [[pro-object]].
 
 As these functors are 'exactly' the left [[exact functor]]s, (at least with a caveat on size), that latter term can also be used, but there are some standard situations and conventions when this 'pro-' terminology is used. 
 
@@ -9,6 +9,8 @@ One tends to say 'pro-object in $C$', and may use various descriptions  via the 
 ##References##
 
 Related $n$Lab items include
+
+*  [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]]. Th&#233;orie des topos et cohomologie &#233;tale des schemas. Lecture notes in mathematics 269, Springer-Verlag, Berlin.
 
 *  [[A. Grothendieck]],[Technique de descente ... : II](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf)
 
