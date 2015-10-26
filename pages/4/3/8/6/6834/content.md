@@ -49,6 +49,8 @@ Introductory lecture notes include
 
 * _[[twisted smooth cohomology in string theory]]_
 
+* _[Examples of prequantum field theories II: Higher gauge fields](https://www.physicsforums.com/insights/examples-prequantum-field-theories-ii-higher-gauge-fields/)
+
 For foundations of higher [[prequantum field theory]] see 
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher geometric prequantum theory]]_
