@@ -46,4 +46,6 @@ Math. Phys., 116, (1988), 607
 
 * [[Ron Donagi]], [[Edward Witten]], _Supermoduli Space Is Not Projected_ ([arXiv:1304.7798](http://arxiv.org/abs/1304.7798))
 
+* [Supermoduli Workshop: May 18 &#8211; 22, 2015](http://scgp.stonybrook.edu/archives/10356), videos of lecture courses by [[Pierre Deligne]], [[Eric D'Hoker]], [[Ron Donagi]] and [[Edward Witten]]
+
 [[!redirects super Riemann surfaces]]
