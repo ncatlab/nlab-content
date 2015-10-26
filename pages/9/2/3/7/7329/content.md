@@ -185,13 +185,7 @@ In
 
 * [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror symmetry in three-dimensional gauge theories_, Phys. Lett. B **387** (1996), no. 3, 513--519 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
 
-Seiberg and Intrilligator propose a notion of a "[[mirror symmetry|mirror duality]]" between such [[gauge theories]].  The most important feature of such a duality is that it interchanges two spaces attached to them, the [[Higgs branch]] and [[Coulomb branch]] of the [[moduli space]] of [[vacua]].  These are a pair of hyperk&#228;hler cones defined in the [[moduli space]] of [[vacua]] by the vanishing of some of the fields (the adjoint scalars for Higgs, the
-hypermultiplets for Coulomb).  After arriving at a
-preliminary version of the conjectures discussed above, it
-was pointed out (initially by [[Sergei Gukov]]) that there is a very
-large overlap between the list of examples above and
-the known list of Higgs/Coulomb pairs in physics.  For example,  Intriligator and Seiberg have shown that an ALE space forms a Higgs/Coulomb pair with the
-moduli space of an [[instanton]] of the corresponding simply-laced Lie group on $\mathbb{R}^2$.
+Seiberg and Intrilligator propose a notion of a "[[mirror symmetry|mirror duality]]" between such [[gauge theories]] ([[3d mirror symmetry]]).  The most important feature of such a duality is that it interchanges two spaces attached to them, the [[Higgs branch]] and [[Coulomb branch]] of the [[moduli space]] of [[vacua]].  These are a pair of hyperk&#228;hler cones defined in the [[moduli space]] of [[vacua]] by the vanishing of some of the fields (the adjoint scalars for Higgs, the hypermultiplets for Coulomb).  After arriving at a preliminary version of the conjectures discussed above, it was pointed out (initially by [[Sergei Gukov]]) that there is a very large overlap between the list of examples above and the known list of Higgs/Coulomb pairs in physics.  For example,  Intriligator and Seiberg have shown that an [[ALE space]] forms a Higgs/Coulomb pair with the moduli space of an [[instanton]] of the corresponding simply-laced Lie group on $\mathbb{R}^2$.
 
 In 
 
