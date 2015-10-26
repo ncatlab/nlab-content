@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The full _octahedral group_, a [[finite group]], is the group of [[symmetries]] of an [[octahedron]].
