@@ -375,7 +375,7 @@ This is a [[Koszul resolution]]-type resolution of the 0-locus of $\exp(i S)$. M
 
 A a popular introduction to the notion of phase space with some comments on the history of the concept are in
 
-* David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
+* {#Nolte10} David Nolte, _The tangled tale of phase space_, PhysicsToday (April 2010) ([pdf](http://www.physics.purdue.edu/nlo/NoltePT10.pdf))
 
 An article reviewing much of the content of the following references is
 
