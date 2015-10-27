@@ -39,7 +39,7 @@ $$
   K(x,y) = \int \exp(i S(\phi))\; D\phi 
 $$
 
-and calls this the **path integral**. Here the expression $D \phi$ is supposed to allude to an  [[measure space|measure integral]] on the space of all $\phi$. The main problem with the path integral idea is that it is typically unclear what this measure should be, or, worse, it is typically clear that no suitable such measure does exist. 
+and calls this the **path integral**. Here the expression $D \phi$ is supposed to allude to a [[measure space|measure integral]] on the space of all $\phi$. The main problem with the path integral idea is that it is typically unclear what this measure should be, or, worse, it is typically clear that no suitable such measure does exist. 
 
 The name _path integral_ originates from the special case where the system is the [[sigma model]] describing a particle on a target space manifold $X$. In this case a field configuration $\phi$ is a path $\phi : [0,1] \to X$ in $X$, hence the integral over all field configurations is an integral over all paths.
 
