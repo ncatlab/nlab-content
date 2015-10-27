@@ -27,6 +27,8 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[simple singularities]] (see [[ADE singularity]])
 
+* certain 4d [[ALE spaces]] ([Kronheimer 89](#Kronheimer89))
+
 * certain [[2d CFTs]]
 
 * certain [[6d (2,0)-supersymmetric QFT|6d CFTs]]
@@ -67,13 +69,17 @@ See also
 
 * Wikipedia, _[ADE classification](http://en.wikipedia.org/wiki/ADE_classification)_
 
-Discusion of tthe free finite group actions on spheres goes back to
+Discusion of the free finite group actions on spheres goes back to
 
 * {#Milnor57} [[John Milnor]], _Groups which act on $S^n$ without fixed points_, American Journal of Mathematics Vol. 79, No. 3 (Jul., 1957), pp. 623-630 ([JSTOR](http://www.jstor.org/stable/2372566))
 
 Review inclues
 
 * {#Keenan03} Adam Keenan, _Which finite groups act freely on spheres?_, 2003 ([pdf](http://www.math.utah.edu/~keenan/actions.pdf))
+
+Discussion of [[ALE spaces]] via ADE include
+
+* {#Kronheimer89} [[Peter Kronheimer]], _The construction of ALE spaces as hyper-K&#228;hler quotients_, J. Differential Geom. Volume 29, Number 3 (1989), 665-683. ([Euclid](https://projecteuclid.org/euclid.jdg/1214443066))
 
 
 Related stuff includes...
