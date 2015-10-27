@@ -23,8 +23,9 @@ The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimens
 ## Properties
 
 ### Moduli space of vacua
+ {#ModuliSpacesOfVacua}
 
-A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94))
+A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94)) Review includes ([Albertsson 03, section 2.3.4](#Albertsson03)).
 
 ### Confinement
 
@@ -86,6 +87,7 @@ Reviews of that include
 
 * Alexei Yung, _What Do We Learn about Confinement from the Seiberg-Witten Theory_ ([arXiv:hep-th/0005088](http://arxiv.org/abs/hep-th/0005088))
 
+* {#Albertsson03} Cecilia Albertsson, _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
 
 For references on [[wall crossing]] of [[BPS states]] see the references given there.
 
