@@ -75,7 +75,9 @@ The investigation specifically of [[N=1 D=4 super Yang-Mills theory]] and [[N=2 
 
 [[!include gauge theory from AdS-CFT -- table]]
 
+See also
 
+* [[Matthew Strassler]], _Millenial Messages for QCD from the Superworld and from the String_ ([arXiv:hep-th/0309140](http://arxiv.org/abs/hep-th/0309140))
 
 
 #### Application to QCD and experimental particle physics
@@ -101,8 +103,8 @@ Reviews include
 
 * [[Matthew Strassler]], _From string theory to the large hadron collider_ ([blog post](http://profmattstrassler.com/2012/08/15/from-string-theory-to-the-large-hadron-collider/))
 
-* [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
- {#Dixon13}
+* {#Dixon13} [[Lance Dixon]], _Calculating Amplitudes_, December 2013 ([web](http://www.preposterousuniverse.com/blog/2013/10/03/guest-post-lance-dixon-on-calculating-amplitudes/))
+ 
 
 * Rutger Boels, _On-shell recursion for string theory amplitudes on the disk and the sphere_ ([pdf](http://www.itp.uni-hannover.de/nordic/slides/Boels.pdf))
 
