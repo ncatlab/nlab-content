@@ -140,6 +140,7 @@ of the 2-dimensional $\sigma$-models called the
 _[[A-model]]_ and the _[[B-model]]_ .
 
 In ([Roytenberg](#Roytenberg)), a more detailed discussion of the general construction is given, including an explicit 
+
 and general formula for $\mathbf{S}$ and hence for $S_{\mathrm{AKSZ}}$ . 
 For $\{x^a\}$ a coordinate chart on $X$ that formula is
 the following.
@@ -255,8 +256,8 @@ is mostly used for in the literature.
 
 The original reference is 
 
-* M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
- {#AKSZ}
+* {#AKSZ} M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997 ([arXiv:hep-th/9502010](http://arxiv.org/abs/hep-th/9502010))
+ 
 
 Dmitry Roytenberg wrote a useful exposition of the central idea of the original work and studied the case of the [[Courant sigma-model]] in
 
