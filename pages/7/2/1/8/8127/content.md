@@ -31,6 +31,14 @@ If $R$ is non-commutative and $V$ is a right $R$-module, the term with $x_i$ tak
 
 Given a [[subset]] $G$ of (the [[underlying set]] of) $V$, the set of all linear combinations of the vectors in $G$ is a [[submodule]] of $V$, the __$R$-linear span__ of $G$.
 
+More abstractly, by the [[adjunction]] between the underlying-set functor and the [[free functor]], the subset inclusion
+$$ i_G\colon G \to {|V|} $$
+corresponds to a [[homomorphism]]
+$$ \hat{i}_G\colon R[G] \to V .$$
+Then the $R$-linear span of $G$ is the image of the homomorphism $\hat{i}_G$. 
+
+This abstract definition works more generally for any set function $f : G \to {|V|}$. The $R$-linear span of the image of $f$ in $V$ is the image of its corresponding homomorphism $\hat{f} \colon R[G] \to V$.   
+
 
 ## Examples
 
