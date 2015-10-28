@@ -75,7 +75,11 @@ These theories are the target for the trace map from $K$-theory, so they can be 
 * Gunnar Carlsson, Christopher L. Douglas, Bj&#248;rn Ian Dundas, _Higher topological cyclic homology and the Segal conjecture for tori_, 
 Adv. Math. __226__ (2011), no. 2, 1823&#8211;1874, [MR2737802](http://www.ams.org/mathscinet-getitem?mr=2737802), [doi](http://dx.doi.org/10.1016/j.aim.2010.08.016)
 * Ib Madsen, _Algebraic K-theory and traces_, [pdf](http://math.mit.edu/~nrozen/juvitop/madsen.pdf)
-* Dundas, Goodwillie and McCarthy, _The local structure of algebraic K-theory_, book in progress, [pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf)
+
+
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013 ([pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf))
+
+
 * J. McClure, R. Staffeldt, _On the topological Hochschild homology of $b u$, I_, [pdf](http://math.mit.edu/~nrozen/juvitop/mcclure.pdf)
 * Daniel Joseph Vera, _Topological Hochschild homology of twisted group algebra_, MIT Ph. D. thesis 2006, [pdf](http://dspace.mit.edu/bitstream/handle/1721.1/34615/71329129.pdf?sequence=1)
 [[!redirects topological Hochschild homology]]
