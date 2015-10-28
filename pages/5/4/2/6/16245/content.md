@@ -34,7 +34,7 @@ Consider a [[dependent type|dependent]] [[proposition]] $A: Type, x:A \vdash P(x
 
 For example, we might have introduced 'Eve' as a term of type $Woman$, and then wish to form a type $Relatives(Eve)$, when $Relatives(x)$ had been introduced as a type depending on $x: Human$. If $Woman$ had been defined as $\sum_{x:Human} Female(x)$, then $Eve$ has projections to the underlying human and to a warrant for Eve's being female. It would be clumsy to insist on $Relatives(\pi_1(Eve))$. Coercion along this projection allows us to form $Relatives(Eve)$.
 
-[Luo (1999)](#Luo99) proposed a way of formalizing coercions in dependent type theory, through what he calls the _coercive definition rule_:
+[Luo (1999)](#Luo99) proposed a way of formalizing coercions in dependent type theory, through what he calls the _coercive definition rule_, which when generalized to allow dependency on the coerced term is:
 
 $$
 \frac{\Gamma, x: B \vdash f(x) : C(x) \; \; \; \Gamma \vdash a : A \;\;\;\Gamma \vdash A \lt_{c} B : Type}{\Gamma \vdash f(a) = f(c(a)) : C(c(a))}
