@@ -300,9 +300,9 @@ Further review includes
 
 * {#Gerhardt14} [[Teena Gerhardt]], _Computations in algebraic K-theory_, talk at [CUNY Workshop on differential cohomologies 2014](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html) ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1800/in/channel/55/))
 
-Relation to [[Dennis trace]], [[topological Hochschild homology]] etc.:
+Review of the relation to [[Dennis trace]], [[topological cyclic homology]] and [[topological Hochschild homology]] is in
 
-* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013 ([pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf))
 
 
 ### Classical
