@@ -19,4 +19,6 @@ It has a refinement to [[spectra]] by the _[[cyclotomic trace]]_.
 
 * M. R. Kantorovitz,  C. Miller, _An explicit description of the Dennis trace map_, [claudia-revised.ps](http://www.math.uiuc.edu/~ruth/preprints/claudia-revised.ps)
 
+* {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013
+
 [[!redirects Dennis trace map]]
