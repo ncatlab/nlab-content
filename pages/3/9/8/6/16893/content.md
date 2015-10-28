@@ -1,0 +1,53 @@
+[[!redirects spectral analytic geometry]]
+[[!redirects spectral analytic spaces]]
+[[!redirects spectral analytic space]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+If one thinks of [[global analytic geometry]] as a theory based on the study of monoids in the monoidal category of Banach modules over a base Banach ring (e.g., $(\mathbb{Z},|\cdot|_\infty)$), it is quite tempting to look for a geometric theory of the associated cohomology theories, that one may call spectral global analytic geometry.
+
+A first step in this direction of a good homotopy theory for global analytic spaces (that would be useful for the study of their cohomological invariants) would be to work with spectral rings in the symmetric monoidal category of Banach modules (over a given fixed Banach ring).
+
+However, one would like the theory not to depend on the choice of a particular Banach ring, because it is also desirable to be invariant by the natural power action of $\mathbb{R}_+^*$ on Banach pseudo-norms, that are multiplicative maps that fulfill the weak triangular inequality
+$$
+|a+b|\leq C\cdot \max(|a|,|b|).
+$$
+
+A possible research direction is to look at Gromov's ideas about metric homotopy theory: one may try to define a category of geometric objects whose homotopy groups are naturally equipped with Banach pseudo-norms. If one looks for non-linear versions of Banach spaces, it is natural to look at metric spaces with Lipschitz maps between them (because their sets of maps are equipped with a natural "norm"). So one may try to develop global analytic homotopy theory (a way to look for interesting cohomological invariants for global analytic spaces, such as [[topological cyclic homology]] or [[topological derived de Rham cohomology]]) by developing the stable homotopy theory of metric spaces.
+
+## Constraints
+
+A natural very small set of constraints for a relaxed approach to the homotopy theory of metric spaces is the following:
+
+* Having a metric ring sphere spectrum $S$ such that $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty)$.
+
+* Having a natural action of $\mathbb{R}_+^*$ on the homotopy category (this is not contradictory with the previous constraint: one actually needs a family of sphere ring spectra, or its limit, that would have $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty^\infty)$ in the sense of pro-objects.
+
+* Getting back the homotopy theory of spectral Banach modules when one works over a fixed base Banach ring.
+
+* To each spectrum, one associated a cohomology theory with values in complete ind-Banach modules over a given Banach ring.
+
+## Objectives
+
+One would like to be able to define "de Rham-like coefficients" over arbitrary global analytic spaces, even in mixed characteristic. One may hope that topological coefficients (such as topological cyclic homology and topological derived de Rham/Andr\'e-Quillen cohomology) may be a first step in this very optimistic direction.
+Indeed, they seem to take care of something like Buium's differential calculus along the integers, and also of Witt vectors constructions.
+
+## References
+
+This nlab page.
