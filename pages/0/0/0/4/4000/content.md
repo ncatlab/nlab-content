@@ -129,6 +129,7 @@ Therefore we can always find (possibly after refining the cover) a lift of this 
 The [[Cech cohomology]] cocycle with coefficients in $\mathbf{B}^3 \mathbb{R}/\mathbb{Z}$ which is given by
 
 $$
+
   c(g)_{i j k l} := \int_{\Delta^3} \hat g_{i j k l}^* \mu 
   \;\;\;\;\; mod \mathbb{Z} 
 $$
@@ -660,7 +661,7 @@ $$
 
 This is ([HKLV 98, theorem 4.11](#HKLV98)) also ([Deligne-Brylinski 01](#DeligneBrylinski01)), going back to ([Bloch 80](#Bloch80)). See also ([Kapranov 00, (2.1)](#Kapranov00), [MO discussion](http://mathoverflow.net/a/24862/381)).
 
-Notice that over $\mathbb{C}$ the [[Beilinson regulator]] $c_{1,2}$ (e.g. [Brylinski 94, theore, 3.3](#Brylinski94)) relates
+Notice that over $\mathbb{C}$ the [[Beilinson regulator]] $c_{1,2}$ (e.g. [Brylinski 94, theorem, 3.3](#Brylinski94)) relates
 
 $$
   H^1(X, \mathbf{K}_2) \longrightarrow H^2(X, \mathbb{G}_m)
