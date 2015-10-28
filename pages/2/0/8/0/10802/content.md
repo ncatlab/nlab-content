@@ -19,7 +19,7 @@
 
 ## Idea
 
-In the context of [[étale cohomology]] of [[schemes]], the _Artin comparison theorem_ ([Artin 66](#Artin66)) says that under some conditions on a [[scheme]] and a [[sheaf]] of [[coefficient]],  the [[étale cohomology]] of the scheme coincides with the [[ordinary cohomology]] (e.g. [[singular cohomology]]) of its underlying [[complex analytic topology]].
+In the context of [[étale cohomology]] of [[schemes]], the _Artin comparison theorem_ ([Artin 66](#Artin66)) says that under some conditions on a [[scheme]] and a [[sheaf]] of [[coefficients]],  the [[étale cohomology]] of the scheme coincides with the [[ordinary cohomology]] (e.g. [[singular cohomology]]) of its underlying [[complex analytic topology]].
 
 Historically this kind of statement was a central motivation for the development of [[étale cohomology]] in the first place.
 
