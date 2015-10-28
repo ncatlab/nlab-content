@@ -761,7 +761,7 @@ For the case of [[reductive algebraic groups]]:
 
 * {#Kapranov00} [[Mikhail Kapranov]], _The elliptic curve in the S-duality theory and Eisenstein series for Kac-Moody groups_ ([arXiv.math/0001005](http://arxiv.org/abs/math/0001005))
 
-* {#DeligneBrylinski01} [[Pierre Deligne]], [[Jean-Luc Brylinski]], _Central extensions of reductive groups by $K_2$_, Publications Math&#233;matiques de l'IH&#201;S 2001 ([web](http://publications.ias.edu/node/424))
+* {#DeligneBrylinski01} [[Pierre Deligne]], [[Jean-Luc Brylinski]], _Central extensions of reductive groups by $K_2$_, Publications Math&#233;matiques de l'IH&#201;S 2001 ([web](http://publications.ias.edu/node/424), [pdf](http://publications.ias.edu/sites/default/files/78_ReductiveGroupsK2.pdf))
 
 
 * [MO discussion](http://mathoverflow.net/a/24862/381)
