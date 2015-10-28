@@ -138,7 +138,7 @@ $$
   c_{2,2} \colon K_2(X) \longrightarrow H^2(X, \mathbb{Z}(2)_{\mathcal{D}})
 $$
 
-is given by sending pairs of non-vanising [[holomorphic functions]] to the [[holomorphic line bundle]] which is their [[Beilinson-Deligne cup product]] (the "[[Deligne line bundle]]") ([Bloch 78](#Bloch78)).
+is given by sending pairs of non-vanishing [[holomorphic functions]] to the [[holomorphic line bundle]] which is their [[Beilinson-Deligne cup product]] (the "[[Deligne line bundle]]") ([Bloch 78](#Bloch78)).
 
 Moreover, the regulator 
 
@@ -237,7 +237,7 @@ The Borel regulator is due to
 
 The Beilinson regulator with values in [[Deligne cohomology]] is due to 
 
-* {#Bloch78} [[Spencer Bloch]], _Applications of the dilogarithm function in algebraic Ktheory and algebraic geometry_, in: Proc. of the International Symp. on Alg. Geometry, Kinokuniya, Tokyo, 1978
+* {#Bloch78} [[Spencer Bloch]], _Applications of the dilogarithm function in algebraic K-theory and algebraic geometry_, in: Proc. of the International Symp. on Alg. Geometry, Kinokuniya, Tokyo, 1978
 
 * {#Bloch81} [[Spencer Bloch]], _The dilogarithm and extensions of Lie algebras_, Algebraic K-Theory Evanston 1980, Lecture Notes in Mathematics Volume 854, 1981, pp 1-23
 
