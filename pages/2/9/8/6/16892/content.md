@@ -21,8 +21,9 @@ Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/k
 * [[Zhaohui Luo]]: Type-theoretical semantics with coercive subtyping. In: Semantics and Linguistic Theory 20 (SALT 20). Vancouver (2010)
 * [[Zhaohui Luo]]: Contextual analysis of word meanings in type-theoretical semantics. In: Pogodalla, S., Prost, J.-P. (eds.) LACL 2011. LNCS, vol. 6736, pp. 159&#8211;174.
 Springer, Heidelberg (2011)
-* [[Zhaohui Luo]]: Common nouns as types. In: B&#180;echet, D., Dikovsky, A. (eds.) LACL 2012. LNCS, vol. 7351, pp. 173&#8211;185. Springer, Heidelberg (2012)
+* [[Zhaohui Luo]]: Common nouns as types. In: B&#180;echet, D., Dikovsky, A. (eds.) LACL 2012. LNCS, vol. 7351, pp. 173&#8211;185. Springer, Heidelberg (2012), [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL12.pdf).
 * [[Zhaohui Luo]]: Event Semantics with Dependent Types, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/Evt15.pdf)
+* [[Zhaohui Luo]], Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both?, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL14FINAL.pdf).
 * Koji Mineshima, A Presuppositional Analysis of Definite Descriptions in Proof Theory, New Frontiers in Artificial Intelligence Lecture Notes in Computer Science Volume 4914, 2008, pp 214-227 [Springer](http://link.springer.com/chapter/10.1007%2F978-3-540-78197-4_20)
 * Ranta, A.: Type-theoretical grammar. Oxford University Press (1994)
 * Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
