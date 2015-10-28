@@ -1,5 +1,13 @@
 A number of researchers are using [[dependent type theory]] as a formal language for natural language semantics.
 
+##Talks
+
+* [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Theoretical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki1.pdf)
+* [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Empirical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki2.pdf)
+* Ribeka Tanaka, Generalized Quantifiers in Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/tanaka.pdf)
+* Yusuke Kubota and Robert Levine, Scope parallelism in coordination in
+Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/kubota-levine.pdf)
+
 
 ##References
 
@@ -8,12 +16,14 @@ A number of researchers are using [[dependent type theory]] as a formal language
 * [[Daisuke Bekki]]: Representing anaphora with dependent types. In: Asher, N., Soloviev, S. (eds.) Logical Aspects of Computational Linguistics, Lecture Notes in Computer Science, vol.8535, pp. 14&#8211;29 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-43742-1_2).
 * [[Daisuke Bekki]], Asher, N.: Logical polysemy and subtyping. In: Motomura, Y., Butler, A., Bekki, D. (eds.) New Frontiers in Artificial Intelligence, Lecture Notes in Computer Science, vol. 7856, pp. 17&#8211;24. Springer (2013)
 * [[Daisuke Bekki]], Satoh, M.: Calculating projections via type checking. In: Proceedings of TYTLES (to appear)
+* Robin Cooper, Austinian Truth, Attitudes and Type Theory, Research on Language and Computation. July 2005, Volume 3, Issue 2-3, pp 333-362 [Springer](http://link.springer.com/article/10.1007%2Fs11168-006-0002-z)
 * Chatzikyriakidis, S., Luo, Z.: Natural language inference in Coq. Journal of Logic, Language and Information 23(4), 441&#8211;480 (2014)
 * [[Zhaohui Luo]]: Type-theoretical semantics with coercive subtyping. In: Semantics and Linguistic Theory 20 (SALT 20). Vancouver (2010)
 * [[Zhaohui Luo]]: Contextual analysis of word meanings in type-theoretical semantics. In: Pogodalla, S., Prost, J.-P. (eds.) LACL 2011. LNCS, vol. 6736, pp. 159&#8211;174.
 Springer, Heidelberg (2011)
-* [[Zhaohui Luo]]: Common nouns as types. In: B&#180;echet, D., Dikovsky, A. (eds.) LACL 2012.
-LNCS, vol. 7351, pp. 173&#8211;185. Springer, Heidelberg (2012)
+* [[Zhaohui Luo]]: Common nouns as types. In: B&#180;echet, D., Dikovsky, A. (eds.) LACL 2012. LNCS, vol. 7351, pp. 173&#8211;185. Springer, Heidelberg (2012)
+* [[Zhaohui Luo]]: Event Semantics with Dependent Types, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/Evt15.pdf)
+* Koji Mineshima, A Presuppositional Analysis of Definite Descriptions in Proof Theory, New Frontiers in Artificial Intelligence Lecture Notes in Computer Science Volume 4914, 2008, pp 214-227 [Springer](http://link.springer.com/chapter/10.1007%2F978-3-540-78197-4_20)
 * Ranta, A.: Type-theoretical grammar. Oxford University Press (1994)
 * Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
 * Tanaka, R., Mineshima, K., Bekki, D.: Resolving modal anaphora in Dependent Type Semantics. In: Proceedings of LENLS11. pp. 43&#8211;56 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-48119-6_7).
