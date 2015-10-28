@@ -2,4 +2,12 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Arthur_Jaffe)
 
+## some publications
+
+* [[Arthur Jaffe]], [[Frank Quinn]], _"Theoretical Mathematics": Towards a cultural synthesis of mathematics and theoretical physics_, Bulletin of the AMS, Volume 29,Number 1, July 1993 ([arXiv:math/9307227](http://arxiv.org/abs/math/9307227))
+
+## related $n$Lab entries
+
+* [[constructive quantum field theory]]
+
 category: people
