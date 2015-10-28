@@ -76,6 +76,6 @@ and hence in particular that any two derivations $\alpha_1,\alpha_2$ of $A \le B
 
 * {#Reynolds00} John C. Reynolds, _The Meaning of Types: from Intrinsic to Extrinsic Semantics_. BRICS Report RS-00-32, Aarhus University, December 2000. ([pdf](http://repository.cmu.edu/cgi/viewcontent.cgi?article=2290&context=compsci))
 
-* {#Luo99} Z. Luo, Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
+* {#Luo99} [[Zhaohui Luo]], Coercive subtyping. Journal of Logic and Computation, 9(1):105&#8211;130, 1999. [ps file](http://www.cs.rhul.ac.uk/~zhaohui/JLC98.ps).
 
-* Z. Luo., Type-Theoretical Semantics with Coercive Subtyping, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/SALT20.pdf)
+* [[Zhaohui Luo]], Type-Theoretical Semantics with Coercive Subtyping, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/SALT20.pdf)
