@@ -4,5 +4,7 @@
 ## related $n$Lab entries
 
 * [[type universe]]
+* [[coercion]]
+* [[dependent type theoretic methods in natural language semantics]]
 
 category: people
