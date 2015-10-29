@@ -2,7 +2,7 @@ A number of researchers are using [[dependent type theory]] as a formal language
 
 ##Talks
 
-* [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Theoretical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki1.pdf)
+* [[Daisuke Bekki]], Anaphora and Presuppositions in [[Dependent Type Semantics]] (Theoretical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki1.pdf)
 * [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Empirical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki2.pdf)
 * Ribeka Tanaka, Generalized Quantifiers in Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/tanaka.pdf)
 * Yusuke Kubota and Robert Levine, Scope parallelism in coordination in
