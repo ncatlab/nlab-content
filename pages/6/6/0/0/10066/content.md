@@ -101,14 +101,15 @@ The idea of equivariant K-theory goes back to
 
 [[Graeme Segal]] and [[Michael Atiyah]]
 
-* [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 1968 129-151. 
- {#Segal68}
+* {#Segal68} [[Graeme Segal]], _Equivariant K-theory_, Inst. Hautes Etudes Sci. Publ. Math.  No. 34 1968 129-151. 
+ 
 
-also
+and for [[algebraic K-theory]] to
 
 * [[Robert Thomason]], _Algebraic K-theory of group scheme actions_, Algebraic topology and algebraic K-theory (Princeton, N.J., 1983), Ann. of Math. Stud., vol.
 113, Princeton Univ. Press, Princeton, NJ, 1987, pp. 539&#8211;563
 
+See also at _[algebraic K-theory -- References -- On quotient stacks](algebraic+K-theory#ReferencesAlgebraicKTheoryForQuotientStacks)_.
 
 Introductions and surveys include
 
