@@ -346,6 +346,17 @@ Discussion of the [[comparison map between algebraic and topological K-theory]] 
 
 * [[Jonathan Rosenberg]], _Comparison between algebraic and topological K-theory for Banach algebras and $C^\ast$-algebras_   ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
 
+### Algebraic K-theory of quotient stacks
+ {#ReferencesAlgebraicKTheoryForQuotientStacks}
+
+Discussion of algebraic K-theory for [[algebraic stacks]] (generalizing algebraic [[equivariant K-theory]]) is in
+
+* [[Robert Thomason]], _Algebraic K-theory of group scheme actions_, Algebraic Topology and Algebraic K-theory, Ann. Math. Stud., Princeton, 113, (1987), 539-563.
+
+* [[Amalendu Krishna]], Charanya Ravi, _On the K-theory of schemes with group scheme actions_ ([arXiv:1509.05147](http://arxiv.org/abs/1509.05147))
+
+See also at _[universal Chern-Simons 3-bundle -- For reductive groups](universal+Chern-Simons+line+3-bundle#ForReductiveAlgebraicGroups)_.
+
 ### Algebraic K-theory of ring spectra
 
 ([Thomason-Trobaugh 90](#ThomasonTrobaugh90))
