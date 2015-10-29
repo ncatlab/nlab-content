@@ -1,6 +1,6 @@
 A number of researchers are using [[dependent type theory]] as a formal language for natural language semantics.
 
-A worked example [http://www.grammaticalframework.org/~aarne/gf-hott/](GF-HoTT). A start at the [[homotopy type theory]] in the [[Grammatical Framework]].
+A worked example [GF-HoTT](http://www.grammaticalframework.org/~aarne/gf-hott/). A start at the [[homotopy type theory]] in the [[Grammatical Framework]].
 
 ##Talks
 
