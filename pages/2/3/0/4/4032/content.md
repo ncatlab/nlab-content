@@ -1,9 +1,17 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Higher category theory
++-- {: .hide}
 [[!include higher category theory - contents]]
-***
+=--
+#### Quasi-category theory
++-- {: .hide}
 [[!include quasi-category theory contents]]
-</div>
+=--
+=--
+=--
 
 
 An **algebraic quasi-category** is a [[quasi-category]] equipped with a _choice_ of (inner) [[horn]] fillers.
