@@ -136,7 +136,7 @@ I don't know the first use of "$n$-computads," but [[Michael Makkai]] has studie
 
 Computads were studied by [[Burroni]] under the name "polygraph" in the framework of [[rewriting]]:
 
-* [[Albert Burroni]], _Higher dimensional word problems with applications to equational logic_ ([pdf](http://people.math.jussieu.fr/~burroni/mapage/highwordpb.pdf))
+* [[Albert Burroni]], _Higher dimensional word problems with applications to equational logic_ ([pdf](http://people.math.jussieu.fr/~burroni/mapage/highwordpb.pdf)) (dead link)
 
 The following more recent papers are referred to above:
 
