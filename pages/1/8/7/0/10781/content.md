@@ -27,6 +27,8 @@ A contemporary thesis in this area:
 
 * Daniel J. Dougherty, _Closed Categories and Categorial Grammar_ , Notre Dame Journal of Formal Logic **34** no.1 (1993) pp.36-49. ([pdf](http://web.cs.wpi.edu/~dd/publications/ndjfl93.pdf))
 
+* Philippe de Groote, Towards Abstract Categorial Grammars, In: _Association for Computational Linguistics, 39th Annual Meeting and 10th Conference of the European Chapter, Proceedings of the Conference_, pages 148&#8211;155, Toulouse, France, 2001. ([pdf](http://www.loria.fr/~degroote/papers/acl01.pdf))
+
 [[!redirects categorial grammar]]
 [[!redirects categorial grammars]]
 [[!redirects Categorial grammar]]
