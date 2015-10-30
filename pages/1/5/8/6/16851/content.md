@@ -35,3 +35,5 @@ Warning: a virtual knot/link has a genus in the sense of the genus of the underl
 * {#Viro} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
 
 * {#ManturovIlyutko} Vassily Olegovich Manturov and Denis Petrovich Ilyutko, _Virtual Knots: The State of the Art_.  Series on Knots and Everything (vol. 51), World Scientific, 2013.
+
+* {#Kauffman2015} [[Louis Kauffman]], Rotational Virtual Knots and Quantum Link Invariants, 14 Oct 2015. [arxiv:1509.00578](http://arxiv.org/abs/1509.00578)
