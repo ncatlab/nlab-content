@@ -21,3 +21,5 @@ The category of pre-proper [[logarithmic geometry|logarithmic analytic spaces]] 
 * [[Wieslava Niziol]], _Logarithmic $K$-theory $I$ and $II$_ Doc. Math. 13 and Adv. Math. 230.
 
 * [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
+
+* [[Vadim Vologodsky]], _Motivic homotopy type of a log scheme_, lecture at IHES 25-09-2015, [video](https://www.youtube.com/watch?v=3d1rTsv75yM).
