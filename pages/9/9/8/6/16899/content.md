@@ -1,0 +1,34 @@
+[[!redirects pseudo-metric]]
+[[!redirects pseudo-metric spaces]]
+[[!redirects pseudo-metrics]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Analytic geometry
++--{: .hide}
+[[!include analytic geometry -- contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The category of metric spaces with Lipschitz maps between them is not good enough from a categorical viewpoint: it has finite limits (the max pseudo-metric on the product) but not all finite colimits: the coproduct doesn't always exist. To overcome this difficulty, we will work with ind-bounded metric spaces, with Lipschitz maps between them (any metric space may be seen as the colimit of its bounded subsets).
+
+The category of bounded metric spaces has all finite limits and colimits (the two terms of the coproduct may be fixed to be at distance $1$, and other limits and colimits are the usual ones). This implies (SGA IV) that its indization has all limits and colimits. The category of ind-bounded metric spaces may thus give a convenient setting for the development of a metric stable homotopy theory.
+
+The mapping space between two ind-bounded metric spaces is not strictly speaking an $\mathbb{R}_+$-graded set, but it may be seen as an ind-$\mathbb{R}_+$-graded set.
+
+## Related subjects
+
+[[global analytic geometry]]
+
+[[spectral global analytic geometry]]
