@@ -45,12 +45,15 @@ A natural very small set of constraints for a relaxed approach to the homotopy t
 
 ## Objectives
 
-One would like to be able to define "de Rham-like coefficients" over arbitrary global analytic spaces, even in mixed characteristic. One may hope that topological coefficients (such as topological cyclic homology and topological derived de Rham/Andr\'e-Quillen cohomology) may be a first step in this very optimistic direction.
-Indeed, they seem to take care of something like Buium's differential calculus along the integers, and also of Witt vectors constructions.
+One would like to be able to define "de Rham-like coefficients" over arbitrary global analytic spaces, even in mixed characteristic. One may hope (following Hesselholt, Connes and Bhatt/Scholze/Morrow) that topological coefficients (such as topological cyclic homology and topological derived de Rham/Andr&#233;-Quillen cohomology) may be a first step in this very optimistic direction.
+Indeed, they seem to take care of something like Buium's differential calculus along the integers, and thus also of Witt vector constructions, in a completely canonical way.
 
 ## Constructions
 
-To develop a homotopy theory for metric spaces, we first need a category of metric spaces that has all limits and colimits. One may then develop the associated stable homotopy theory by the usual methods.
+To develop a homotopy theory for metric spaces, we first need a category of metric spaces that has all limits and colimits. One may then develop the associated stable homotopy theory by the usual methods, once fixed a metric on the interval $[0,1]$. To get a theory that is $\mathbb{R}_+^*$-invariant, one actually needs to equip $[0,1]$ with the limit of the family of [[pseudo-metric space|pseudo-metrics]]
+$$d_\infty^t(x,y):=|x-y|_\infty^t$$
+as $t$ goes to $\infty$.
+This formal limit makes sense in a convenient category of metric spaces, where one keeps some track of the finite level $t$ information.
 
 ## References
 
