@@ -16,7 +16,7 @@ Together with its [[cartesian products]] -- the [[Cartesian spaces]] $\mathbb{R}
 
 The original idea of a real number came from [[geometry]]; one thinks of a real number as specifying a _point on a line_, with _[[line]]_ understood as the abstract idea of the object that a pencil and a ruler draw on a piece of paper.  (More precisely, given two distinct points on the line, called $0$ and $1$, you get a [[bijection]] between the points and the real numbers.)
 
-[[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  However, the Greeks did not think of such ratios as [[number]]s; that appears to have been an insight of the Arabs.
+[[Euclid]] (citing [[Eudoxus]]) dealt with ratios of geometric magnitudes, which give positive real numbers; an arbitrary real number is then a difference of ratios of magnitudes.  However, the Greeks did not think of such ratios as [[number]]s; that appears to have been an insight of the Arabs.  See more at [[Eudoxus real number]]. 
 
 A big project of the 19th century (at least in hindsight) was the 'arithmetisation of analysis': showing how real numbers could be defined completely in terms of rational numbers (and the desired classes of functions on them could be defined in terms of the general point-set notion of [[function]]).  Two successful approaches were developed in 1872, [[Richard Dedekind]]\'s definition of real numbers as certain sets of rational numbers (called _[[Dedekind cuts]]_) and [[Georg Cantor]]\'s definition as certain sequences of rational numbers (called _[[Cauchy sequences]]_).
 
