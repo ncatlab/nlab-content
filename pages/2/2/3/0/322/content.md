@@ -239,7 +239,7 @@ $$\sum_k F(k) \otimes_{S_k} d^{\otimes k}.$$
 ###### Example
 When $D$ is the symmetric monoidally cocomplete category $(Set, \times)$ and $x$ is a set, this formula 
 
-$$\hat{F}(x) = \sum_n F(k) \otimes_{S_k} x^k$$ 
+$$\hat{F}(x) = \sum_k F(k) \otimes_{S_k} x^k$$ 
 
 is the value at $x$ of what Joyal calls the _analytic functor_ $\hat{F}: Set \to Set$ associated to a [[combinatorial species|species]] $F$, which has been proposed as the categorification of the theory of exponential [[generating function]]s. The fact that $F \mapsto \hat{F}(x)$ is symmetric monoidal (cocontinuous) means that there is a canonical isomorphism
 
