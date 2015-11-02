@@ -367,7 +367,7 @@ $$
 ([Lawson-Naumann 12, theorem 1.2](#LawsonNaumann12)), where $tmf_1(3)$ denotes [[topological modular forms]] with [[level structure on an elliptic curve|level-3 structure]] ([Mahowald-Rezk 09](#MahowaldRezk09)).
 
 
-Moreover, including not just the nodal curve cusp but its [[formal neighbourhood]] which is the [[Tate curve]], there is analogously a canonical map of $E_\infty$-rings
+Moreover, including not just the nodal curve cusp but its [[formal neighbourhood]], which is the [[Tate curve]], there is analogously a canonical map of $E_\infty$-rings
 
 $$
   tmf \longrightarrow KO[ [ q ] ]
