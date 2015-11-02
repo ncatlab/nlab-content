@@ -84,7 +84,7 @@ $$
 ### As a fiber product
  {#AsAFiberProduct}
 
-Let $I = \{a \to b\}$ be the (directed) [[interval object|interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
+Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
 
 The comma category is the [[pullback]]
 
