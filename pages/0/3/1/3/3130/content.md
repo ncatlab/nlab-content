@@ -115,6 +115,9 @@ $$
 
 For more on this see at _[[differential cohomology diagram]]_.
 
+### In terms of cyclic homology
+
+Generalizing in another direction, generalized Chern characters are given by passage to [[derived loop spaces]] and their [[cyclic homology]] or, more generally,  [[topological cyclic homology]] ([Toen-Vezzosi 08](#ToenVezzosi08)).
 
 ## Properties
 
@@ -164,7 +167,7 @@ A characterization of Chern-character maps for [[K-theory]] is in
 
 A discussion of Chern characters in terms of [[free loop space objects]] in [[derived geometry]] is in 
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _A note on Chern character, loop spaces and derived algebraic geometry_ ([arXiv:0804.1274](http://arxiv.org/abs/0804.1274))
+* {#ToenVezzosi08} [[Bertrand Toën]], [[Gabriele Vezzosi]], _A note on Chern character, loop spaces and derived algebraic geometry_ ([arXiv:0804.1274](http://arxiv.org/abs/0804.1274))
 
 which conjectures a construction that is fully developed in 
 
