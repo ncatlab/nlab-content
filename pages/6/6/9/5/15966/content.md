@@ -55,7 +55,9 @@ For example, if one mimicks the approach of Kashiwara and Schapira in the charac
 $\mathbb{C}/\mathbb{R}$ by $\bar{\mathbb{F}}_p/\mathbb{F}_p$, which is an infinite extension. The natural analog in this situation of the elliptic pair
 $(\mathcal{O}_X,\mathbb{C}_M)$ associated to $M/\mathbb{R}$, for $M/\mathbb{F}_p$ a projective smooth variety, has de Rham cohomology an $\bar{\mathbb{F}}_p$-module that doesn't seem to be finite dimensional.
 
-Two approaches to $\mathcal{D}$-modules in characteristic $p$ were developed by Berthelot and Mebkhout-Narvaez-Macarro. One may try to extend this last approach (using weak formal schemes over $\mathbb{Z}_p$) to a global base.
+Two approaches to $\mathcal{D}$-modules in characteristic $p$ were developed by Berthelot and Mebkhout-Narvaez-Macarro. One may try to extend this last approach (using weak formal schemes over $\mathbb{Z}_p$) to a global base, but one will face the problem of dealing with (naive) $\mathcal{D}$-modules in characteristic $p$, that are not well behaved.
+
+Another (maybe more promising) approach is to get inspiration from Buium's differential calculus over the integers and Madsen/Hesselholt's results on topological cyclic homology: making a topological version of $\mathcal{D}$-modules in the setting of [[spectral global analytic geometry]].
 
 ## Pursuing global analytic trace kernels
 
@@ -92,6 +94,14 @@ How can one formulate this construction in terms of $\mathcal{E}$-modules (maybe
 
 The easiest thing to try is to simply use the (awful) sheaf of rings $\mathcal{E}^\infty$ of infinite order microdifferential operators. Indeed, if $F$ is an $R$-constructible sheaf, then $\mu Hom(F,\mathcal{O})$ is naturally an $\mathcal{E}^\infty$-module. Moreover, any coherent $\mathcal{D}$-module gives rise to an $\mathcal{E}$-module, and thus an $\mathcal{E}^\infty$-module. It is thus quite tempting to try to define a global version of $\mathcal{E}^\infty$ and to find a nice class of $\mathcal{E}^\infty$-modules, containing both (non-torsion) constructible sheaves and the images of coherent $\mathcal{D}$-modules.
 
+A first step in this global direction is to develop an index theory that works in a uniform way over $\mathbb{Q}_p$ and $\mathbb{R}$. This seems to be an almost done theory (because there is no lack of denominators): the notion of constructible sheaf is replaced by its de Rham version. More precisely, a constructible sheaf is constructible for the, say, sub-analytic overconvergent etale topology, i.e., sub-analytically etaly isomorphic to $\mathrm{DR}(\mathcal{O})$, in the sense of $\mathcal{D}^\infty$-modules, and not as usual to a locally constant sheaf: this only works in the complex setting because smooth analytic spaces are locally isomorphic for the semi-analytic topology in the complex case/semi-analytic etale topology in the p-adic case to discs only in the complex situation/to rational domains in the $p$-adic situation, and one may not try to solve $p$-adic differential equations on a rational domain too naively because the exponential doesn't converge so nicely as in the complex case.
+
+One should not try to develop a theory of $p$-adic locally constant coefficients
+because the $p$-adic etale cohomology of the unit disc is infinite dimensional:
+only de Rham $p$-adic coefficients make sense in (overconvergent) $p$-adic analytic geometry. This is also a good reason to try to develop a global version of de Rham coefficients through the use of topological methods (to encode the de Rham Witt vector constructions in a canonical way).
+
+Once the theory of $p$-adic constructible coefficients is developed, it becomes easy to copy Kashiwara and Schapira's index theory.
+
 ## A possible set of constraints for a coherent theory
 
 One should be able to define global analytic analogs of:
@@ -105,11 +115,11 @@ One should be able to define global analytic analogs of:
 * global analytic holonomic $\mathcal{D}$-modules and global analytic exponential motivic sheaves; the $\mathcal{D}$-module situation should involve also global microlocalization techniques (to get natural conditions for the definition of inverse images) and maybe also the Ran space approach with the $*$-tensor product $\overset{*}{\otimes}$.
 * One may also define the Grothendieck six operations on general $\mathcal{D}^\infty$-modules.
 
-1. The Grothendieck six operations on sub-analytic &#233;tale Hodge structures (given by a loop space construction of the Hodge filtration, without denominators, together with a Betti structure, given in the real case by non-strict sub-analytic &#233;tale constructible sheaves).
+1. The Grothendieck six operations on sub-analytic Hodge structures (given by a loop space construction of the Hodge filtration, without denominators, together with a Betti structure, given by topological $K$-theory with the $\Lambda$-structure on the Chern character; this may involve the use of topological/spectral methods to take care of Witt vector constructions on an integral or characteristic $p$ base).
 
 1. The Chern character in various situations, using either the formalism of Toen-Vezzosi or the formalism of Kashiwara-Schapira, applied to the following stacks of rigid (maybe non) symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
 * the stack $X\mapsto Perf(X)$ of perfect $\mathcal{O}$-modules (derived analog of coherent modules),
-* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality; the problem with this stack is that it doesn't take care of the derived (infinitesimal) information, so its treatment should be given in a Kashiwara-Schapira approach, using loop space microlocalization and some additional structure that will probably be necessary to encode an R-constructible sheaf in a microdifferential structure.
+* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality; be careful, the pro-etale constructibility is meant in the above de Rham sense: one should not use locally constant coefficients because they don't work well even over $\mathbb{Q}_p$. The problem with this stack is that it doesn't take care of the derived (infinitesimal) information, so its treatment should be given in a Kashiwara-Schapira approach, using loop space microlocalization and some additional structure that will probably be necessary to encode an R-constructible sheaf in a microdifferential structure.
 * one would also like to treat the case of (at least holonomic) $\mathcal{D}$-modules, either using the Ran space or another construction. It seems that Toen-Vezzosi's approach has to be modified to treat this case properly because of the compound tensor structure $(\otimes^!,\otimes^*)$ on $\mathcal{D}$-modules on the Ran space.
 
 1. The treatment of $\mathcal{D}$-modules and $\mathcal{D}_q$-modules in a uniform setting may involve the following generalization of the Kashiwara and Schapira approach (in a Toen-Vezzosi type of setting) due to F. Petit: one must work with trace kernels, and compute the trace of their action on the Hochschild or cyclic homology of ---non-symmetric--- monoidal categories of (typically) bimodules on an associative algebra. The proper treatment of this theory will be discussed in the section [[non-commutative global analytic index theory]].
