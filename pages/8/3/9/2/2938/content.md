@@ -123,6 +123,10 @@ There is also a noncommutative analogue due to [[Alain Connes]].
 
 (...)
 
+### For dg-algebras
+
+Discussion for [[dg-algebras]] is in ([Cattaneo-Fiorenza-Longoni 05](#CattaneoFiorenzaLongoni05)).
+
 ### For ring spectra in homotopy theory
  {#ForRingSpectra}
 
@@ -166,7 +170,11 @@ A new approach to the generalized HKR isomorphism is proposed in
 
 * Dima Arinkin, Andrei Caldararu, _When is the self-intersection of a subvariety a fibration?_, [arxiv/1007.1671](http://arxiv.org/abs/1007.1671)
 
-The version of the theorem for smooth $S$-algebras is explained in
+The version for dg-algebras is discussed in 
+
+* {#CattaneoFiorenzaLongoni05} [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_, Int. Math. Res. Not. 2005, no. 62, 3899-3918 ([arXiv:math/0503380](http://arxiv.org/abs/math/0503380))
+
+The version for $E_\infty$-algebras is discussed in
 
 * {#McCarthyManasian03} Randy McCarthy, Vahagn Minasian, _HKR Theorem for Smooth $S$-algebras_, [arxiv:math/0306243](http://arxiv.org/pdf/math/0306243v1.pdf)
 
