@@ -18,7 +18,7 @@
 
 ## Idea ##
 
-Linear operators on [[Hilbert spaces]] are continuous precisely iff they are bounded. A bornological space retains this property by definition.
+Linear operators on [[normed space|normed spaces]] are continuous precisely iff they are bounded. A bornological space retains this property by definition.
 
 +-- {: .standout}
 The discussion below is about bornological CVSes, but there is a more general notion of [[bornological space]].
