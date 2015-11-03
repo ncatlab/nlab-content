@@ -72,7 +72,7 @@ This appears as ([CohenVoronov, theorem 5.3.3](#CohenVoronov)). The full [[homol
 
 * On a [[smooth manifold]] $X$ with a [[volume form]] $\omega$ the operation of contraction with the volume form gives an [[isomorphism]] between [[differential form]]s and [[multivector field]]s. Under this isomorphism the de Rham differential on forms becomes a BV-operator on [[multivector field]]s. See there for more details.
 
-Multivecotr field can be identified with [[Hochschild cohomology]] in good cases. So the next example is a generalization of the previous one.
+Multivector fields may be identified with [[Hochschild cohomology]] in good cases (the [[Hochschild-Kostant-Rosenberg theorem]]). So the next example is a generalization of the previous one.
 
 * [[Hochschild cohomology]] (see there for details) carries a canonical BV-algebra structure. 
 
@@ -109,8 +109,8 @@ There are examples coming from Lagrangian intersection theory
 
 The BV-algebra structure on [[multivector field]]s on an [[oriented]] [[smooth manifold]] is discussed for instance in section 2 of 
 
-* [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_ ([pdf](http://www.math.uzh.ch/fileadmin/math/preprints/05-06.pdf))
-{#CattaneoFiorenzaLongoni}
+* {#CattaneoFiorenzaLongoni} [[Alberto Cattaneo]], [[Domenico Fiorenza]], Riccardo Longoni, _On the Hochschild-Kostant-Rosenberg map for graded manifolds_, Int. Math. Res. Not. 2005, no. 62, 3899-3918 ([arXiv:math/0503380](http://arxiv.org/abs/math/0503380))
+
 
 and on p. 6 of 
 
