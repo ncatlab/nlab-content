@@ -20,7 +20,7 @@
 
 ## Statement
 
-Let $R$ be a [[commutative ring]].
+Let $R$ be a [[commutative ring]]. (or maybe any ring?)
 
 +-- {: .num_prop}
 ###### Proposition
