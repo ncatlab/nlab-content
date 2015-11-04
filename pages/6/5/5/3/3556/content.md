@@ -45,15 +45,31 @@ For any first-order hyperdoctrine, an _equality predicate_ can be defined for ea
 
 $$\exists(\delta_A)(\top_{P(A)}) \in P(A \times A)$$ 
 
-where for any morphism $f$ in $C_T$, we use $\exists (f)$ to denote the left adjoint of $P(f)$, and $\top_H$ denotes the top element in a Heyting algebra $H$. However, to get good properties for equality, we need to assume a little more. A **first-order hyperdoctrine with [[equality]]** is a first-order hyperdoctrine such that the Beck-Chevalley condition is also satisfied for pullback diagrams of the form  
+where for any morphism $f$ in $C_T$, we use $\exists (f)$ to denote the left adjoint of $P(f)$, and $\top_H$ denotes the top element in a Heyting algebra $H$. 
+
+However, to get good properties for equality, we need to assume a little more. A **first-order hyperdoctrine with [[equality]]** is a first-order hyperdoctrine such that the Beck-Chevalley condition is satisfied for pullback diagrams of the form  
 
 $$\array{
 A\times B & \stackrel{A\times f}{\to} & A \times C \\
  ^\mathllap{\delta_A\times B} \downarrow & & \downarrow^\mathrlap{\delta_A \times C} \\
 A \times A \times B& \underset{A\times A\times f}{\to} & A \times A \times C
-}.$$ 
+},$$ 
 
-This says $P(A\times A \times f) \circ \exists (\delta_A \times B) = \exists (\delta_A \times C) \circ P(A\times f)$.
+i.e. that $P(A\times A \times f) \circ \exists (\delta_A \times B) = \exists (\delta_A \times C) \circ P(A\times f)$. 
+
+
+This assures that the equality predicate is well behaved
+in the sense that it allows a sound interpretation of first order logic with equality in the hyperdoctrine. 
+
+Additionally one may require the condition for pullbacks  of the form  
+
+$$\array{
+A & \stackrel{\delta_A}{\to} & A \times A \\
+ ^\mathllap{\delta_A} \downarrow & & \downarrow^\mathrlap{1_A \times \delta_A} \\
+A \times A & \underset{\delta_A \times 1_A}{\to} & A \times A \times A
+},$$ 
+which is a kind of [Frobenius law](http://ncatlab.org/nlab/show/Frobenius+reciprocity#frobenius_laws_and_frobenius_reciprocity_11). By taking right adjoints, a similar equation holds for $\forall (f)$ in place of $\exists (f)$, where $P(f) \dashv \forall (f)$. 
+
 
 ### Interpretation
 
