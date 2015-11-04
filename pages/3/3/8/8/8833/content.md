@@ -79,12 +79,14 @@ Notice that the definition of Massey product on top of p.282 of [Valette-Loday](
 
 Massey products in [[ordinary differential cohomology]]/[[Deligne cohomology]] are discussed in 
 
-* Wenger, _Massey products in Deligne cohomology_
+* Wenger, _Massey products in Deligne cohomology_.
 
 * C. Deninger, _Higher order operations in Deligne cohomology_, Inventiones
 Math. 122 N1 (1995).
 
-* Alexander Schwarzhaupt, _Massey products in Deligne-Beilinson cohomology_ ([web](http://www.researchgate.net/publication/29799379_Massey_products_in_Deligne-Beilinson_cohomology), [[SchwarzhauptMasseyDeligne.pdf:file]])
+* Alexander Schwarzhaupt, _Massey products in Deligne-Beilinson cohomology_ ([web](http://www.researchgate.net/publication/29799379_Massey_products_in_Deligne-Beilinson_cohomology), [[SchwarzhauptMasseyDeligne.pdf:file]]).
+
+* Daniel Grady, [[Hisham Sati]], _Massey products in differential cohomology via stacks_ ([arXiv:1510.06366](http://arxiv.org/abs/1510.06366)).
 
 
 [[!redirects Massey products]]
