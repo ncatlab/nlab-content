@@ -1,5 +1,5 @@
 
-* [website](http://www.math.ubc.ca/~carchedi/index.html)
+* [website](http://math.gmu.edu/~dcarched/)
 
 category: people
 
