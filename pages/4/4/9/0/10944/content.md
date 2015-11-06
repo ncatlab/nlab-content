@@ -6,6 +6,9 @@ Kontsevich-Vishik canonical trace and determinant
 
 * Cyril Levy, Carolina Neira Jim&#233;nez, Sylvie Paycha, _The canonical trace and the noncommutative residue on the noncommutative torus_, [arxiv/1303.0241](http://arxiv.org/abs/1303.0241)
 
+* Tobias Hartung, Simon Scott, _A generalized Kontsevich-Vishik trace for Fourier Integral Operators and the Laurent expansion of $\zeta$-functions_, [arxiv/1510.07324](http://arxiv.org/abs/1510.07324)
+ 
+
 category:analysis
 
 [[!redirects Kontsevich-Vishik determinant]]
