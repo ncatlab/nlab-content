@@ -137,7 +137,7 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 
 * [[locale]], 
 
-* [[quantaloid]], 
+* [[quantaloid]], [[semiquantale]]
 
 * [[module over a quantale]]
 
