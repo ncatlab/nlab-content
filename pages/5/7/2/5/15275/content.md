@@ -1,4 +1,13 @@
-The **volume conjecture** states that a certain limit of the [[colored Jones
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+### For knot complements
+
+The original **volume conjecture** states that a certain limit of the [[colored Jones
 polynomial]] of a knot $K$ gives the simplicial volume of its complement in the 3-sphere.
 
 $$
@@ -13,12 +22,21 @@ $$
 
 The simplicial volume of a knot complement can be found via its unique **torus** decomposition  into hyperbolic pieces and Seifert fibered pieces by a system of tori. The simplicial volume is then the sum of the hyperbolic volumes of the hyperbolic pieces of the decomposition.
 
+### Generally
+ {#IdeaGenerally}
+
+More generally, volume conjectures state convergence of the [[Chern-Simons theory]] quantum invariant (realized notably via [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]]) on [[hyperbolic 3-manifold]] to the [[complex volume]] (for Resheatikhin-Turaev) or to the plain volume (for Turaev-Viro).
+
+See ([Chen-Yang 15](#ChenYang15))
+
 
 ## Related concepts
 
 * [[hyperbolic manifold]]
 
 * [[analytically continued Chern-Simons theory]]
+
+* [[Borel regulator]]
 
 ## References
 
@@ -37,6 +55,10 @@ Original articles include
 * [[Sergei Gukov]], _Three-Dimensional Quantum Gravity, Chern-Simons Theory, And The A-Polynomial_, Commun. Math. Phys. 255 (2005) 577-627.
 
 * H. Murakami, _Asymptotic Behaviors Of The Colored Jones Polynomials Of A Torus Knot_, Internat. J. Math. 15 (2004) 547-555.
+
+Generalization to [[Reshetikhin-Turaev construction]] on closed manifold, to the  [[Turaev-Viro construction]] on manifolds with boundary, and to more general roots of unity than considered before is in 
+
+* {#ChenYang15} [[Qingtao Chen]], [[Tian Yang]], _A volume conjecture for a family of Turaev-Viro type invariants of 3-manifolds with boundary_ ([arXiv:1503.02547](http://arxiv.org/abs/1503.02547))
 
 Review includes
 
