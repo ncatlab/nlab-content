@@ -291,7 +291,7 @@ Further discussion of the relation to [[quantum anomalies]] and the [[Green-Schw
 
 * [[Wolfgang Lerche]], B. Nilsson, A. Schellekens, N. Warner, _Anomaly cancelling terms from the elliptic genus_ (1987) ([pdf](http://lerche.web.cern.ch/lerche/papers/ellgenus1.pdf))
 
-* Qingtao Chen, [[Fei Han]], Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_, JDG, 88 (2011) 1-39 ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+* [[Qingtao Chen]], [[Fei Han]], Weiping Zhang, _Generalized Witten Genus and Vanishing Theorems_, JDG, 88 (2011) 1-39 ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 Discussion of the Witten genus via a KO-valued Chern-character on elliptic cohomology is in 
 
@@ -416,13 +416,13 @@ In terms of [[(2,1)-dimensional Euclidean field theories and tmf]]:
 
 The twisted Witten genus in the present of [[background gauge field]] hence for a [[twisted string structure]]/[[string^c structure]] is discussed in terms of [[twisted string structures]] in
 
-* {#ChenHanZhang10} Qingtao Chen, [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
+* {#ChenHanZhang10} [[Qingtao Chen]], [[Fei Han]], [[Weiping Zhang]], _Generalized Witten Genus and Vanishing Theorems_, Journal of Differential Geometry 88.1 (2011): 1-39. ([arXiv:1003.2325](http://arxiv.org/abs/1003.2325))
 
 * Jianqing Yu, Bo Liu, _On the Witten Rigidity Theorem for $String^c$ Manifolds_, Pacific Journal of Mathematics 266.2 (2013): 477-508. ([arXiv:1206.5955](http://arxiv.org/abs/1206.5955))
 
 based on formulas from 
 
-* Qingtao Chen, Fei Han, _Elliptic Genera, Transgression and Loop Space Chern-Simons Forms_ ([arXiv:math/0611104](http://arxiv.org/abs/math/0611104))
+* [[Qingtao Chen]], [[Fei Han]], _Elliptic Genera, Transgression and Loop Space Chern-Simons Forms_ ([arXiv:math/0611104](http://arxiv.org/abs/math/0611104))
 
 For the moment see the references at _[[string^c structure]]_ for more on this.
 
