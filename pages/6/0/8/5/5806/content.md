@@ -254,6 +254,7 @@ This statement appears in  ([Lurie, below remark 3.2.3](#Lurie)) without formal 
 
 More generally:
 
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -372,6 +373,12 @@ A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is
 [[!redirects higher category of correspondences]]
 [[!redirects higher categories of correspondences]]
 
+[[!redirects n-fold corespondence]]
+[[!redirects n-fold corespondences]]
+
+[[!redirects n-fold correspondence]]
+[[!redirects n-fold correspondences]]
+
 [[!redirects Span]]
 
 [[!redirects (∞,n)-category of n-fold correspondences]]
@@ -379,4 +386,3 @@ A discussion that $Span_2(-)$ in a [[2-category]] with weak [[finite limits]] is
 
 [[!redirects phased tensor product]]
 [[!redirects phased tensor products]]
-
