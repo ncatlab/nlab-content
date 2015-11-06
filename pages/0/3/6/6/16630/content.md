@@ -33,6 +33,12 @@ This appears as the action in [[analytically continued Chern-Simons theory]].
 
 (It is, incidentally, also the contribution of a corresponding [[membrane instanton]] [[wrapped brane|wrapping]] a hyperbolic 3-cycle.)
 
+## Properties
+
+### Volume conjecture
+
+The [[volume conjecture]] for the [[Reshetikhin-Turaev construction]] states that in the classical limit it converges to the complex volume ([Chen-Yang 15](#ChenYang15))
+
 ## Related concepts
 
 * [[Borel regulator]]
@@ -48,8 +54,12 @@ This appears as the action in [[analytically continued Chern-Simons theory]].
 
 * {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
-Relation to [[analytic torsion]] is discussed in
+Relation to the [[volume conjecture]] is discussed in 
 
+* {#ChenYang15} [[Qingtao Chen]], [[Tian Yang]], _A volume conjecture for a family of Turaev-Viro type invariants of 3-manifolds with boundary_ ([arXiv:1503.02547](http://arxiv.org/abs/1503.02547))
+
+
+Relation to [[analytic torsion]] is discussed in
 
 * [[Varghese Mathai]], section 6 of _$L^2$-analytic torsion_, Journal of Functional Analysis Volume 107, Issue 2, 1 August 1992, Pages 369&#8211;386
 
