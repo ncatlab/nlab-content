@@ -47,11 +47,11 @@ Liqiang Cai (Jilin University)
 
 Xiongwei Cai (University of Luxembourg)
 
-Xiaojun Chen* (Sichuan University)
+Xiaojun Chen (Sichuan University)
 
 Zhuo Chen (Tshinghua University)
 
-Nicola Ciccoli* (University of Perugia)
+Nicola Ciccoli (University of Perugia)
 
 Lu Ding* (Chinese Academy of Science)
 
@@ -69,11 +69,7 @@ Wei Hong (Wuhan University)
 
 Xingbiao Hu (Institute of Computational Mathematics and Scientific/Engineering Computing) 
 
-Jianxun Hu* (Sun Yat-Sen University)
-
 Yvette Kosmann-Schwarzbach (Centre de Math&#180;ematiques, UMR)
-
-Giovanni Landi* (Universit&#224; di Trieste)
 
 Honglei Lang (Peking University)
 
@@ -99,7 +95,7 @@ Zhangju Liu (Peking University)
 
 Jianghua Lu  (The University of Hong Kong)
 
-Kirill C.H. Mackenzie* (University of Sheffield)
+Kirill C.H. Mackenzie (University of Sheffield)
 
 Guowu Meng* (Hong Kong University of Science and Technology)
 
@@ -125,8 +121,6 @@ Reyer Sjamaar  (Cornell University)
 
 Song Gao (Peking University)
 
-Vladimir Rubtsov* (Angers University)
-
 Mathieu Stienon (Penn State University)
 
 Bingjun Su (Jilin University)
@@ -147,13 +141,13 @@ Qi Wang (Jilin University)
 
 Shikun Wang (Chinese Academy of Science)
 
-Ke Wu* (Capital Normal University)
+Ke Wu (Capital Normal University)
 
 Ping Xu (Penn State University)
 
 Xiaomeng Xu (University of Geneva)
 
-Yijun Yao* (Fudan University)
+Yijun Yao (Fudan University)
 
 Yanbin Yin (Henan University)
 
@@ -169,7 +163,7 @@ Deshou Zhong (China Youth University of Political Studies)
 
 Chenchang Zhu  (Gottingen University)
 
-Nguyen Tien Zung* (Institut de Mathematiques de Toulouse)
+Nguyen Tien Zung (Institut de Mathematiques de Toulouse)
 
 \*-to be confirmed
 
