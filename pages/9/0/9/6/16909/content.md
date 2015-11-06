@@ -1,0 +1,9 @@
+
+
+* [institute page](http://mathematics.stanford.edu/people/name/tian-yang/)
+
+## related $n$Lab entries
+
+* [[volume conjecture]]
+
+category: people
