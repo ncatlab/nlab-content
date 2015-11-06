@@ -23,7 +23,7 @@ Finally they appear as the [[order of a group|order]] of some groups in the [[im
 
 ### Elsewhere
 
-The [[Riemann zeta-function]] $\zeta$ at negative integral values is proportial to the Bernoulli numbers as
+The [[Riemann zeta-function]] $\zeta$ at negative integral values is proportional to the Bernoulli numbers as
 
 $$
   \zeta(-n) = - \frac{B_{n+1}}{n+1}
@@ -85,6 +85,7 @@ the unknot_, [q-alg/9703025](http://arxiv.org/abs/q-alg/9703025)
 ## References
 
 In the context of the [[A-hat genus]] the Bernoulli numbers are discussed in section 10.2 of 
+
 * {#AndoHopkinsRezk10} [[Matthew Ando]], [[Mike Hopkins]], [[Charles Rezk]], _Multiplicative orientations of KO-theory and the spectrum of topological modular forms_, 2010 ([pdf](http://www.math.uiuc.edu/~mando/papers/koandtmf.pdf))
 
 
