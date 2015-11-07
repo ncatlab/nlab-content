@@ -6,6 +6,11 @@ A (proper) **vertex coloring** of a [[graph]] is a labelling of its vertices wit
 
 ## References
 
+Two posts by [[Tom Leinster]] at the n-Category Caf&#233; on vertex-coloring and a categorical formulation of _Hedetniemi's conjecture_:
+
 * [[Tom Leinster]], ["Colouring a Graph"](https://golem.ph.utexas.edu/category/2013/04/colouring_a_graph.html), n-Category Caf&#233; post of April 12, 2013.
 
+* [[Tom Leinster]], ["Graph Colouring and Cartesian Closed Categories"](https://golem.ph.utexas.edu/category/2014/12/graph_colouring_and_cartesian.html), n-Category Caf&#233; post of December 5, 2014.
+
+Other references:
 * Wikipedia: [Graph coloring](https://en.wikipedia.org/wiki/Graph_coloring)
