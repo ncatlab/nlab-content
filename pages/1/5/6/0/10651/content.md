@@ -29,7 +29,11 @@ The simplest example of such regulators are
 
 * the Dirichlet regulator map, discussed below.
 
-These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Deninger Scholl (2.6)](#DeningerScholl), [Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)).
+These regulators may be understood as essentially being the [[Chern characters]] in [[algebraic K-theory]] ([Deninger Scholl (2.6)](#DeningerScholl), [Tamme 12](#Tamme12)).  Based on this observation they serve to define [[differential cohomology]]-refinements of algebraic K-theory, namely _[[differential algebraic K-theory]]_ ([Bunke-Tamme 12](#BunkeTamme12)). 
+
+> we usually call transformations from K-theory to [[cyclic homology]] Chern characters, and transformations from K-theory to dierential forms regulators. There is one exception, namely the usual Chern character from topological K-theory to cohomology with complex coefficients calculated by the de Rham cohomology. ([Bunke 14, remark 2.20](#Bunke14))
+
+
 
 ## Definition
 
@@ -281,6 +285,7 @@ The interpretation of these regulator Chern characters in [[differential algebra
 
 * {#BunkeNikolausTamme15} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Georg Tamme]], _The Beilinson regulator is a map of ring spectra_ ([arXivL1509.05667](http://arxiv.org/abs/1509.05667))
  
+* {#Bunke14} [[Ulrich Bunke]], _A regulator for smooth manifolds and an index theorem_ ([arXiv:1407.1379](http://arxiv.org/abs/1407.1379))
 
 based on 
 
