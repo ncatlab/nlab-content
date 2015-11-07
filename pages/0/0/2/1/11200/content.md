@@ -170,6 +170,10 @@ $$
  \,.
 $$
 
+### Algebraic K-theory of smooth manifolds
+
+see at _[[algebraic K-theory of smooth manifolds]]_
+
 
 ## References
 
