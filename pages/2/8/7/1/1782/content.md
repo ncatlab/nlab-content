@@ -146,11 +146,13 @@ Thomason-Trobaugh K-theory coincides with Quillen K-theory for schemes that admi
 
 ### For smooth manifolds
 
-Discussion of algebraic K-theory as a [[smooth spectrum]] $SmoothMfd^{op} \longrightarrow Spectra$ via $X \mapsto K(C^\infty(X))$ is in ([Bunke 14](#Bunke14)).
+Discussion of algebraic K-theory as a [[smooth spectrum]] $SmoothMfd^{op} \longrightarrow Spectra$ via $X \mapsto K(C^\infty(X))$ is in ([Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13), [Bunke 14](#Bunke14)).
 
 For more on this see at 
 
 * [[algebraic K-theory of smooth manifolds]]
+
+* [[differential cohomology hexagon]], section _[Algebraic K-theory of smooth manifolds and the e-invariant](differential+cohomology+diagram#SoothVectorBundlesWithConnectionAndEInvariant)_
 
 ## Properties
 
@@ -356,7 +358,11 @@ Discussion of the [[comparison map between algebraic and topological K-theory]] 
 
 For [[smooth manifolds]]:
 
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
 * {#Bunke14} [[Ulrich Bunke]], _A regulator for smooth manifolds and an index theorem_ ([arXiv:1407.1379](http://arxiv.org/abs/1407.1379))
+
+
 
 ### Algebraic K-theory of quotient stacks
  {#ReferencesAlgebraicKTheoryForQuotientStacks}
