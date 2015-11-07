@@ -25,7 +25,7 @@ The simplicial volume of a knot complement can be found via its unique **torus**
 ### Generally
  {#IdeaGenerally}
 
-More generally, volume conjectures state convergence of the [[Chern-Simons theory]] quantum invariant (realized notably via [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]]) on [[hyperbolic 3-manifold]] to the [[complex volume]] (for Resheatikhin-Turaev) or to the plain volume (for Turaev-Viro).
+More generally, volume conjectures state convergence of the [[Chern-Simons theory]] quantum invariant (realized notably via [[Reshetikhin-Turaev construction]] or [[Turaev-Viro construction]]) on [[hyperbolic 3-manifold]] to the [[complex volume]] (for Reshetikhin-Turaev) or to the plain volume (for Turaev-Viro).
 
 See ([Chen-Yang 15](#ChenYang15))
 
