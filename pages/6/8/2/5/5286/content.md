@@ -124,8 +124,10 @@ The BV-algebra structure on  [[Hochschild cohomology]] is discussed for instance
 
 * Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
-There is a prominent class of examples coming from
-Lie-Rinehart algebras
+* [[Thomas Tradler]], _The BV Algebra on Hochschild Cohomology Induced by Infinity Inner Products_, Annales de l'institut Fourier (2008) Volume: 58, Issue: 7, page 2351-2379 ([arXiv:math/0210150](http://arxiv.org/abs/math/0210150))
+
+
+There is a prominent class of examples coming from [[Lie-Rinehart algebras]]
 
 * [[Johannes Huebschmann]], _Lie-Rinehart algebras, Gerstenhaber algebras and 
 Batalin-Vilkovisky algebras_, Annales de l'institut Fourier __48__:2 (1998) 425-440 [eudml](https://eudml.org/doc/75288)
