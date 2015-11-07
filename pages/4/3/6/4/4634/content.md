@@ -124,7 +124,7 @@ Thinking of these as categories of [[quasicoherent sheaves]] on some spaces (by 
 ### Relation to Chow motives
  {#RelationToChowMotives}
 
-The category of ordinary [[Chow motives]], after factoizing out the actiojn of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
+The category of ordinary [[Chow motives]], after factoizing out the action of the [[Tate motive]] essentially sits inside that of noncommutative Chow motives. This is recalled as  ([Tabuada 11, theorem 4.6](#Tabuada11)). For more see ([Tabuada 11 ChowNCG](#Tabuada11Chow)).
 
 This relation is best understood as being exhibited by [[K-motives]], see there.
 
@@ -193,8 +193,9 @@ Mathematica 147 (2011), 1281&#8211;1320 ([arXiv:0903.3717](http://arxiv.org/abs/
 
 and a further lift of this to [[(∞,1)-category theory]] is in
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
- {#BlumbergGepnerTabuada10}
+* {#BlumbergGepnerTabuada10} [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _A universal characterization of higher algebraic K-theory_,  Geometry and Topology 17 (2013) 733&#8211;838 ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282))
+ 
+with discussion of the corresponding [[cyclotomic trace]] in 
 
 * [[Andrew Blumberg]], [[David Gepner]], [[Gonçalo Tabuada]], _Uniqueness of the multiplicative cyclotomic trace_,  Advances in Mathematics ([arXiv:1103.3923](http://arxiv.org/abs/1103.3923))
 
@@ -212,7 +213,7 @@ See also
 
 * [[Matilde Marcolli]], [[Goncalo Tabuada]], _Kontsevich's noncommutative numerical motives_, [arxiv/1108.3785](http://arxiv.org/abs/1108.3785); _Noncommutative motives, numerical equivalence, and semi-simplicity_, [arxiv/1105.2950](http://arxiv.org/abs/1105.2950); _Noncommutative numerical motives, Tannakian structures, and motivic Galois groups_, [arxiv/1110.2438](http://arxiv.org/abs/1110.2438)
 
-* Ivo Dell'Ambrogio, [[Gonçalo Tabuada]], _Tensor triangular geometry of non-commutative motives_, [arxiv/1104.2761](http://arxiv.org/abs/1104.2761) 
+* [[Ivo Dell'Ambrogio]], [[Gonçalo Tabuada]], _Tensor triangular geometry of non-commutative motives_, [arxiv/1104.2761](http://arxiv.org/abs/1104.2761) 
 
 For the approach of [[Bertrand Toën]]-[[Michel Vaquié]]-[[Gabriele Vezzosi]], see
 
@@ -231,7 +232,7 @@ Vienna, 2013](http://www.mat.univie.ac.at/~favero/Workshops/Higher.html), [notes
 
 Another survey article is
 
-* S. Mahanta, Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628).
+* [[Snigdhayan Mahanta]], Noncommutative geometry in the framework of differential graded categories, [arXiv:0805.1628](http://arxiv.org/abs/0805.1628).
 
 Discussion of how the [[triangulated categories of sheaves|derived category]] of a [[scheme]] determines its commutative and [[noncommutative motive|noncommutative]] [[Chow motive]] is in 
 
@@ -239,13 +240,13 @@ Discussion of how the [[triangulated categories of sheaves|derived category]] of
 
 In
 
-*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
- {#Mahanta13}
+* {#Mahanta13} [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_, ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+ 
 
 it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
 
-* [[Goncalo Tabuada]], _Additive invariants of toric and twisted projective homogeneous varieties via noncommutative motives_, ([arXiv](http://arxiv.org/abs/1310.4063)).
- {#Tabuada13Twisted}
+* {#Tabuada13Twisted} [[Goncalo Tabuada]], _Additive invariants of toric and twisted projective homogeneous varieties via noncommutative motives_, ([arXiv](http://arxiv.org/abs/1310.4063)).
+ 
 
 * [[Marcello Bernardara]], [[Goncalo Tabuada]].  _Chow groups of intersections of quadrics via homological projective duality and (Jacobians of) noncommutative motives._  ([arXiv](http://arxiv.org/abs/1310.6020))
  {#BerTab13}
