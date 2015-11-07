@@ -129,6 +129,13 @@ A connection with [[BV-theory]] is made in
 [[!redirects Lie--Rinehart pair]]
 [[!redirects Lie--Rinehart algebra]]
 
+[[!redirects Lie-Rinehart algebras]]
+[[!redirects Lie?Rinehart pairs]]
+[[!redirects Lie?Rinehart algebras]]
+[[!redirects Lie--Rinehart pairs]]
+[[!redirects Lie--Rinehart algebras]]
+
+
 [[!redirects homotopy Lie-Rinehart pair]]
 [[!redirects homotopy Lie-Rinehart pairs]]
 
