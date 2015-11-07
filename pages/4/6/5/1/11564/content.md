@@ -1115,7 +1115,7 @@ for the [[smooth spectrum]] induced by def. \ref{HopkinsSingerPullback}) from th
 
 
 
-#### Smooth vector bundles with connection and the $e$-invariant
+#### Algebraic K-theory of smooth manifolds and the $e$-invariant
  {#SoothVectorBundlesWithConnectionAndEInvariant}
 
 
@@ -1140,11 +1140,13 @@ into [[spectra]] which produces the [[algebraic K-theory of symmetric monoidal (
 Forming objectwise the [[algebraic K-theory of symmetric monoidal (∞,1)-categories]] and then [[∞-stackification|∞-stackifying]] (which we leave notationally implicit) produces [[smooth spectra]] 
 
 $$
-  \mathcal{K}(\mathbf{Vect}_{conn}^\oplus),\;\mathcal{K}(\mathbf{Vect})
+  \mathcal{K}(\mathbf{Vect}_{conn}^\oplus),\;\mathcal{K}(\mathbf{Vect}^\oplus)
   \in 
   Stab(Smooth\infty Grpd)
   \,.
 $$
+
+This may be called the _[[algebraic K-theory of smooth manifolds]]_.
 
 =--
 
@@ -1166,7 +1168,7 @@ The [[smooth spectra]] $\mathcal{K}(\mathbf{Vect})$ and $\mathcal{K}(\mathbf{Vec
 ([Bunke-Nikolaus-V&#246;lkl 13, lemma 6.3, corollary 6.5](#BunkeNikolausVoelkl13))
 
 
-+-- {: .num_prop}
++-- {: .num_prop #SmoothRegulator}
 ###### Proposition
 
 The traditonal [[Chern character]] induces, via the [[universal property]] of the [[homotopy pullback]] in def. \ref{HopkinsSingerPullback}, a morphism
@@ -1178,7 +1180,7 @@ $$
   ku_{conn_{ch}}
 $$
 
-form the differential refinement of $ku$ given by def. \ref{KTheoryOfStackOfVectorBundles}, to that given by def. \ref{HSDifferentialKu}.
+from the differential refinement of $ku$ given by def. \ref{KTheoryOfStackOfVectorBundles}, to that given by def. \ref{HSDifferentialKu}.
 
 Its [[secondary characteristic class]], hence its image under the [[flat modality]], is in [[homotopy groups]] the [[regulator]]
 
