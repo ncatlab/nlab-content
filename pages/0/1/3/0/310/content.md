@@ -255,7 +255,7 @@ An [[elementary topos]] is a [[vertical categorification]] of a Heyting algebra:
 
 ## Examples
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]], the poset $Sub(X)$ of [[subobject]]s of $X$ is a Heyting algebra.
@@ -267,7 +267,17 @@ In particular for $X = \Omega$ the [[subobject classifier]], $Sub(\Omega)$ is a 
 
 In $\mathcal{T} =$ [[Set]] for every set $S$ we have that $Sub(S)$ is the [[Boolean algebra]] of subset of $S$.
 
-More details and examples are spelled out at [[internal logic]].
+More details and examples are spelled out at [[internal logic]]. 
+
++-- {: .num_prop} 
+###### Proposition 
+A [[frame]] $L$ is a Heyting algebra. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+By the [[adjoint functor theorem]], a right adjoint $x \Rightarrow -$ to the map $x \wedge -: L \to L$ exists since this map preserves arbitrary joins. 
+=-- 
 
 
 ## References
