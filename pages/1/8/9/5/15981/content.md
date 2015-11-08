@@ -23,3 +23,5 @@ The category of pre-proper [[logarithmic geometry|logarithmic analytic spaces]] 
 * [[Frédéric Déglise]], [[Wiesława Nizioł]], _On $p$-adic absolute Hodge cohomology and syntomic coefficients, I_, [arXiv:1508.02567](http://arxiv.org/abs/1508.02567).
 
 * [[Vadim Vologodsky]], _Motivic homotopy type of a log scheme_, lecture at IHES 25-09-2015, [video](https://www.youtube.com/watch?v=3d1rTsv75yM).
+
+* [[Doosung Park]], _Triangulated categories of motives over fs log schemes_, thesis, [pdf](https://math.berkeley.edu/~doosung/thesis.pdf).
