@@ -163,7 +163,25 @@ Conversely, any [[topological space]] has a [[frame of opens|frame of open subse
 
 ## Examples
 
-* For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]].
+* For $X$ a [[topological space]], the [[category of open subsets]] of $X$ is a frame: the [[frame of opens]]. 
+
++-- {: .num_prop} 
+###### Proposition 
+A [[sup-lattice|complete]] [[decidable equality|decidable]] [[linear order]] is a frame. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For any $x$ and collection $y_i$, the inequality $\bigvee_i x \wedge y_i \leq x \wedge \bigvee_i y_i$ holds automatically. For the reverse inequality, we note this follows trivially in case $\bigvee_i y_i \leq x$, since in that case we have $y_i \leq x$ for all $i$, whence 
+
+$$x \wedge \bigvee_i y_i = \bigvee_i y_i = \bigvee_i x \wedge y_i.$$ 
+
+Otherwise we are in the case $x \lt \bigvee_i y_i$, where we must show the inequality 
+
+$$x \wedge \bigvee_i y_i = x \leq \bigvee_i x \wedge y_i$$ 
+
+But this inequality must hold, else $\bigvee_i x \wedge y_i \lt x$ which would imply $y_i \lt x$ for all $i$, whence $\bigvee_i y_i \leq x$, contradiction. 
+=-- 
 
 
 [[!redirects frames]]
