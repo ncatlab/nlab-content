@@ -1,18 +1,31 @@
 __The Grothendieck Festschrift__ is a 3-volume collection of articles written in honor of the 60th birthday (1988) of [[Alexander Grothendieck]], published by Birkh&#228;user in series Progress in Mathematics in 1990 as volumes 86, 87, 88. More recently a paperback edition appeared in series Modern Birkh&#228;user Classics (French edition). 
 
 Vol. 1
+
 * Foreword 
-* Bibliographie d'Alexander Grothendieck 
+
+* Bibliographie d'Alexander Grothendieck ([pdf](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothBiblio.pdf))
+
 * [[Jean Dieudonne]], De l'Analyse fonctionnelle aux fondements de la g&#233;om&#233;trie alg&#233;brique 
+
 * Allen B. Altman and Steven L. Kleiman, The presentation functor and the compactified Jacobian 
+
 * M. Artin, J. Tate, [[M. Van den Bergh]], Some algebras associated to automorphisms of elliptic curves 
+
 * V. Balaji, C.S. Seshadri, Cohomology of a moduli space of vector bundles 
+
 * Arnaud Beauville, Sur les hypersurfaces dont les sections hyperplanes sont a module constant 
+
 * A.A. Beilinson, A.B. Goncharov, V.V. Schechtman and A.N. Varchenko, Aomoto dilogarithms, mixed Hodge structures and motivic cohomology of pairs of triangles on the plane 
+
 * Pierre Berthelot, William Messing, Th&#233;orie de Dieudonn&#233; cristalline. III. Th&#233;or&#232;mes d'&#233;quivalence et de pleine fid&#233;lit&#233;
+
 * Jean-Michel Bismut, Henri Gillet and Christophe Soul&#233;, Complex immersions and Arakelov geometry 
+
 * Spencer Bloch, Kazuya Kato, L-Functions and Tamagawa numbers of motives 
+
 * [[Lawrence Breen]], Bitorseurs et cohomologie non ab&#233;lienne (pp. 401--476); 
+
 * [[Jean-Luc Brylinski]], Noncommutative Ruelle-Sullivan type currents (pp. 477--498).
 
 Vol. 2 
