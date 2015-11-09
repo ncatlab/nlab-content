@@ -92,7 +92,7 @@ By way of contradiction (applying the [[double negation]] law of [[classical log
 
 Of course, we can also prove Theorems \ref{classical} and \ref{hypothesis} directly by modifying the proof of Theorem \ref{conclusion} appropriately.
 
-Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are as the [[supremum]] of $\{x \;|\; f(x) \lt 0\}$ and using the [[extreme value theorem]] as the minimum value of ${|f|}$.  (After accepting these non-constructive results, the proof that the value $c$ so found satisfies $f(c) = 0$, while perhaps non-trivial, is constructive without choice, given continuity and the extra hypothesis of Theorem \ref{hypothesis}.)
+Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are as the [[supremum]] of $\{x \;|\; f(x) \lt 0\}$ and as the point (guaranteed by the [[extreme value theorem]]) where the minimum of ${|f|}$ is attained.  (After accepting these non-constructive results, the proof that the value $c$ so found satisfies $f(c) = 0$, while perhaps non-trivial, is constructive without choice, given continuity and the extra hypothesis of Theorem \ref{hypothesis}.)
 
 
 [[!redirects intermediate value theorem]]
