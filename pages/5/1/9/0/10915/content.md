@@ -1,14 +1,14 @@
 
-# Contents #
+# Contents
 * table of contents 
 {: toc}
 
 ## Definition via real analysis 
 
 The real constant $\pi$ (occasionally called _Ludolph's number_ ---make that _very_ occasionally, nowadays--- or _Archimedes' constant_) is the minimal positive root of the real function $sin_\mathbb{R} : \mathbb{R}\to\mathbb{R}$, which is the unique solution to the differential equation/[[initial value problem]]
-$$ sin ' ' = - sin $$
-$$ sin 0 = 0 $$
-$$ sin' 0 = 1 .$$
+$$ sin_\mathbb{R}'' = -sin_\mathbb{R} $$
+$$ sin_\mathbb{R}(0) = 0 $$
+$$ sin_\mathbb{R}'(0) = 1 .$$
 
 Alternatively, $\pi$ may be defined as $\frac{1}{2} \tau $, where [[tau|τ]] is the [[period]] of the same function $sin$.
 
@@ -18,9 +18,11 @@ and
 $$ sin 3 x = 3 sin x - 4 sin^3 x $$
 although this makes practical calculations rather difficult. (If you really care to know why this characterization works, you can look [here](http://ncatlab.org/toddtrimble/published/Characterization+of+sine). Or [here](http://nforum.mathforge.org/discussion/5773/a-short-note-for-todd-trimble/#Item_4).) 
 
+
 ### Tangential Remarks
 
 Either of the definitions of $sin$ above mentions a thing, and claims some properties for it, in order to indirectly describe some other thing (in this case, $\pi$).  To properly make sense of either definition, it is necessary to ensure that one description or the other actually does define some thing, that there is in fact exactly one such thing so defined, and that it has the needed properties for the definition of $\pi$ to make sense &#8212; particularly, that the roots of $sin$ are isolated, and that there is a positive root.  These might make a decent [[exercise]] in a first course in classical analysis. 
+
 
 ## Definition via complex analysis 
 
@@ -50,6 +52,7 @@ $$\int_{{|z|} = 1} \frac{d z}{z} = 2\pi i$$
 
 that on some level pervades complex analysis. 
 
+
 ## "Archimedean" definition 
 
 A sequence that approximates $\pi$ that was available to Archimedes (using his "method of exhaustion") involves calculating perimeters of inscribed $2^n$-gons (squares, octagons, etc.) in a unit circle, using half-angle formulas. This brief description is, for that matter, available to high-school students, so we can just summarize the result. 
@@ -62,25 +65,38 @@ The statement is that $y_n$ is half the perimeter of the inscribed $2^{n+1}$-gon
 
 Archimedes used a similar idea, in effect viewing $2\pi$ as squeezed between the perimeters of inscribed and circumscribed polygons with $3 \cdot 2^n$ sides each (starting with a hexagon). By considering $n = 5$, he was eventually led to his famous estimate $3 + \frac{10}{71} \lt \pi \lt 3 + \frac1{7}$. 
 
+
 ## Other formulas 
 
-* Leibniz formula: $\frac{\pi}{4} = 1 - \frac1{3} + \frac1{5} - \ldots$. Based on the power series for the arctangent 
+* Leibniz formula: $\frac{\pi}{4} = 1 - \frac1{3} + \frac1{5} - \ldots$. Based on the power series for the [[arctangent]]
 $$\arctan(x) = x - \frac{x^3}{3} + \frac{x^5}{5} - \ldots,$$ 
 this series for $\pi/4$ obviously converges slowly, but more sophisticated expressions in terms of the arctangent have better convergence rates, such as the following first observed by Machin: 
 $$\frac{\pi}{4} = 4\arctan(\frac1{5}) - \arctan(\frac1{239})$$ 
 
-* Product formulas: 
-* * Vieta's formula:
+* Integral formulas (based ultimately on the [[Riemann integral]], the [[Henstock integral]], the [[Lebesgue integral]], or the like):
+
+  * Also based on the [[arctangent]]:
+    $$ \pi = 4 \int_{x=0}^1 \frac{\mathrm{d}x}{x^2 + 1} .$$
+
+  * Or the [[arcsine]]:
+    $$ \pi = 2 \int_{x=0}^1 \frac{\mathrm{d}x}{\sqrt{1 - x^2}} $$
+    (but this is an [[improper integral]] if one is using the [[Riemann integral]]).
+
+  Of course, you can come up with many modifications of these (including proper Riemann integrals based on the arcsine).
+
+* Product formulas:
+
+  * Vieta's formula:
 $$\pi= 2\times\frac{2}{\sqrt{2}}\times
 \frac{2}{\sqrt{2+\sqrt{2}}}\times
 \frac{2}{\sqrt{2+\sqrt{2+\sqrt{2}}}}\times\frac{2}{\sqrt{2+\sqrt{2+\sqrt{2+\sqrt{2}}}}}\times\cdots$$ 
 This was perhaps the first [[infinite product]] in the history of mathematics. 
 
-* * Euler's product formula: 
+  * Euler's product formula: 
 $$\sin(x) = x \prod_{n \geq 1} (1 - \frac{x^2}{\pi^2 n^2})$$ 
 One point is that putting $x = \frac{\pi}{2}$, one can derive another famous formula, namely 
 
-* * Wallis's formula: 
+  * Wallis's formula: 
 $$\frac{\pi}{2} = \lim_{n \to \infty} \frac{2}{1} \cdot \frac{2}{3} \cdot \frac{4}{3} \cdot \frac{4}{5} \cdot \frac{6}{5} \cdot \frac{6}{7} \cdot \ldots \cdot \frac{2 n}{2 n - 1} \cdot \frac{2 n}{2 n + 1}$$ 
 Alternatively, this may be derived from [[Stirling's approximation]] for $n!$, or rather starting from an asymptotic formula which follows from Stirling's approximation: 
 $$\binom{2 n}{n} \sim \frac{2^{2 n}}{\sqrt{\pi n}}.$$ 
