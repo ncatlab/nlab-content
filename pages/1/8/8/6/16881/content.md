@@ -9,14 +9,14 @@ Although the Extreme Value Theorem (EVT) is often stated as a theorem about [[co
 
 Recall that the [[lower real numbers]] are more general than the [[real numbers]] in just the way needed to guarantee that any [[inhabited subset|inhabited]] set of lower reals has a [[supremum]] (by including $\infty$, and in [[constructive mathematics]] by additionally relaxing the requirements of [[located real number|locatedness]]).  Consequently, the [[range]] of any lower-real-valued function with an [[inhabited set|inhabited]] [[domain]] must have a supremum.
 
-The Extreme Value Theorem states that such a range must also have an [[infimum]] when certain conditions are met.  Specifically, we move to the realm of [[topology]], where the natural lower-real-valued functions are the [[semicontinuous map|lower semicontinuous]] ones.  So long as the [[domain]] of a lower semicontinuous map is [[compact space|compact]] (and [[occupied space|occupied]]), says the EVT, the range has an infimum.
+The Extreme Value Theorem states that such a range must also have an [[infimum]] when certain conditions are met.  Specifically, we move to the realm of [[topology]], where the natural lower-real-valued functions are the [[semicontinuous map|lower semicontinuous]] ones.  So long as the [[domain]] of a lower semicontinuous map is [[compact space|compact]] (and [[occupied space|occupied]]), says the EVT, the range has an infimum, and furthermore this infimum is attained, becoming a [[minimum]].
 
 
 ## Statements
 
 If $I$ a [[compact space]] (such as a closed bounded [[interval]] in the [[real line]] and especially the [[unit interval]] $[{0,1}]$), and if $f$ is an [[upper semicontinuous function]] from $I$ to the [[upper real numbers]] $[{-\infty,\infty}[$, then the [[range]] of $f$ is not only bounded above and not only has a finite [[supremum]], but it actually has a [[maximum]] value.  (Similarly, if $f$ is [[lower semicontinuous function|lower semicontinuous]] to the [[lower real numbers]] $]{-\infty,\infty}]$, then $\ran f$ is bounded below by a finite [[infimum]] which is its [[minimum]] value.  Consequently, if $f$ is [[continuous function|continuous]] to the [[real numbers]] $]{-\infty,\infty}[$, then $\ran f$ is [[bounded subset|bounded]] and has both a maximum and a minimum.)
 
-In [[constructive mathematics]], this statement is correct in [[locale theory]], but if we are speaking of pointwise functions defined on a real interval, then it fails in general.
+In [[constructive mathematics]], this statement is correct in [[locale theory]], but if we are speaking of pointwise functions defined on a real interval, then it fails in general.  However, we have approximate versions.
 
 
 ## References
