@@ -387,6 +387,7 @@ We check successively what this means for increasing $n$:
 
 * [[Cartesian fibration]]  
 
+* [[simplicial homotopy theory]]
 
 ## References
 
