@@ -27,7 +27,7 @@ Over the trivial site it reproduces the [[model structure on spectra]] themselve
 
 ## References
 
-* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([pdf](http://cms.math.ca/cjm/v39/cjm1987v39.0733-0747.pdf))
+* [[Rick Jardine]], _Stable homotopy theory of simplicial presheaves_, Canad. J. Math. 39(1987), 733-747 ([DOI](http://dx.doi.org/10.4153/CJM-1987-035-8))
 
 [[!redirects model structures on presheaves of spectra]]
 
