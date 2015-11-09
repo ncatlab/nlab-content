@@ -9,23 +9,24 @@
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
-In [[set theory]],  an **inhabited set** or **occupied set** is a [[set]] that contains an [[element]].
+In [[set theory]],  an **inhabited set** is a [[set]] that contains an [[element]].
 
 More generally, in [[type theory]] an **inhabited type** is a [[type]] that has a [[term]]. 
 
 At least assuming [[classical logic]], this is the same thing as a set that is [[negation|not]] [[empty set|empty]]. Usually inhabited sets are simply called 'non-empty', but the positive word 'inhabited' reminds us that this is the simpler notion, which emptiness is defined as the [[negation]] of.
 
-The terms 'inhabited' and 'occupied' come from [[constructive mathematics]]. In constructive mathematics (such as the [[internal logic]] of some [[topos]] or generally in [[type theory]]), a set/type that is not empty is not already necessarily inhabited.  This is because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
+The term 'inhabited' come from [[constructive mathematics]]. In constructive mathematics (such as the [[internal logic]] of some [[topos]] or generally in [[type theory]]), a set/type that is not empty is not already necessarily inhabited.  This is because [[double negation]] is nontrivial in [[intuitionistic logic]]. All the same, many constructive mathematicians use the old word 'non-empty' with the understanding that it *really* means inhabited.
 
-There is a distinction between 'inhabited' and 'occupied' spaces in [[Abstract Stone Duality]] (which probably corresponds to something about [[locales]], should explain that here).
+There is a distinction between 'inhabited' and '[[occupied space|occupied]]' spaces in [[Abstract Stone Duality]] (which probably corresponds to something about [[locales]], should explain that here).
 
 An inhabited set is the special case of an [[inhabited object]] in the [[topos]] [[Set]].
+
 
 ## Internal and external notions 
 
@@ -47,6 +48,7 @@ Let $X \to U \hookrightarrow 1$ be the epi-mono factorization of the unique map 
 Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let $g: U \to \Omega$ be the classifying map of the mono $0 \to U$. There is no map $1 \to U$, else $m: U \to 1$ would retract it and hence be epic. Hence it is vacuously true that $f x = g x$ for all $x: 1 \to U$, and so $f = g$ by well-pointedness. Hence the subobjects $1_U$ and $0$ coincide, forcing $U \cong 0$.   (In other words, the presence of a [[subobject classifier]] causes any [[generator]] to be a [[strong generator]].)
 =-- 
 
+
 ## Related concepts
 
 * [[hProp]]
@@ -59,6 +61,9 @@ Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let
 
 * [[bracket type]], [[image]]
 
+* [[occupied space]]
+
+
 [[!redirects inhabited set]]
 [[!redirects inhabited sets]]
 [[!redirects inhabited subset]]
@@ -67,9 +72,6 @@ Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let
 [[!redirects inhabited types]]
 [[!redirects inhabited space]]
 [[!redirects inhabited spaces]]
-
-[[!redirects occupied set]]
-[[!redirects occupied sets]]
 
 [[!redirects nonempty set]]
 [[!redirects non-empty set]]
