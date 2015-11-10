@@ -1,0 +1,9 @@
+Physicist
+
+* [webpage](http://www.sns.ias.edu/dyson)
+
+##Related concepts
+
+* [[stability of matter]]
+
+category: people
