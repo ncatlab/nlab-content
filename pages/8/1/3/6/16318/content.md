@@ -21,7 +21,7 @@ Mathematically this is the statement that fermion [[field (physics)|fields]] are
 
 The Pauli exclusion principle is a consequence of the _[[spin-statistics theorem]]_.
 
-The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]], may form [[solidity|solid bodies]] that do not necessarily collapse under their own [[gravity]] (as opposed to bosonic [[condensates]]): the exclusion principle induces an outward [[pressure]], the _[[degeneracy pressure]]_ (see also at _[[Fermi sea]]_ and _[[neutron star]]_).
+The Pauli exclusion principle implies that [[fermions]], as opposed to [[bosons]], may form [[solidity|solid bodies]] that do not necessarily collapse under their own [[gravity]] (as opposed to bosonic [[condensates]]): the exclusion principle induces an outward [[pressure]], the _[[degeneracy pressure]]_ (see also at _[[Fermi sea]]_ and _[[neutron star]]_). It is used in the explanation of the [[stability of matter]] of the second kind.
 
 
 ## References
