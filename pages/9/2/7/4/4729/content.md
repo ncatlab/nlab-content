@@ -43,7 +43,7 @@ $$
   \flat_{dR}\mathbf{B}^2 \mathbb{G}
 $$
 
-for the [[Mauerr-Cartan form]] on the [[delooping]] [[∞-group]] $\mathbf{B}\mathbb{G} \in Grp(\mathbf{H})$.
+for the [[Maurer-Cartan form]] on the [[delooping]] [[∞-group]] $\mathbf{B}\mathbb{G} \in Grp(\mathbf{H})$.
 
 Let 
 
@@ -86,9 +86,12 @@ We say that $\mathbf{B}\mathbb{G}_{conn}$ is the [[moduli ∞-stack]] of **$\mat
 
 For instance for $\mathbb{G} = \mathbf{B}^{n-1}U(1)$ the [[circle n-group]] the moduli $n$-stack $\mathbf{B}^n U(1)_{conn}$ is presented by the [[Deligne complex]] for [[ordinary differential cohomology]] in degree $(n+1)$, hence is the moduli $n$-stack for [[circle n-bundles with connection]].
 
-### For $\infty$-groups obtained by Lie interation
+### For $\infty$-groups obtained by Lie integration
+ {#ByLieIntegration}
 
-We assume that the reader is familiar with the notation and constructions discussed at [[Smooth∞Grpd]]. The following definition may be understood as a direct generalization of the description of ordinary $G$-connections as cocycles in the stack $\mathbf{B}G_{conn}$ as discussed at [[connection on a bundle]].
+We assume that the reader is familiar with the notation and constructions discussed at [[Smooth∞Grpd]]. The following definition may be understood as a direct generalization of the description of ordinary $G$-connections as cocycles in the stack $\mathbf{B}G_{conn}$ as discussed at [[connection on a bundle]], in view of the characterization of [Weil algebra in the smooth infinity-topos](Weil+algebra#CharacterizationInSmoothTopos)
+
+[[!include Weil algebra abstractly -- table]]
 
 We discuss now connections on those $G$-[[principal ∞-bundle]]s for which $G \in $ [[Smooth∞Grpd]] is an [[∞-Lie group|smooth ∞-group]] that arises from [[Lie integration]] of an [[L-∞ algebra]] $\mathfrak{g}$.
 
