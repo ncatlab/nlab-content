@@ -472,10 +472,17 @@ A [[symplectic Lie n-algebroid]] is an [[L-infinity algebroid]] that carries a b
 ## Properties
  {#Properties}
 
-+-- {: .num_prop #OnShiftedCentralExtenstions}
-###### Proposition
+### As differential forms on the moduli stack of connections
+ {#AsFormsOnBGconn}
 
-=--
+The invariant polynomials of a Lie algebra $\mathfrak{g}$, thought of as equipped with trivial differential, are the de Rham complex of differential forms on the universal moduli stack $\mathbf{B}G_{conn}$ of $G$-[[principal connections]] [Freed-Hopkins 13](#FreedHopkins13).
+
+$$
+  \mathrm{inv}(\mathfrak{g})\simeq \Omega^\bullet(\mathbf{B}G_{conn})
+  \,.
+$$
+
+For more on this see also at _[Weil algebra -- Characterization in the smooth infinity-topos](Weil+algebra#CharacterizationInSmoothTopos)_.
 
 ### On reductive Lie algebras 
  {#OnReductiveLieAlg}
