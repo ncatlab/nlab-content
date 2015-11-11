@@ -24,7 +24,6 @@ For $\kappa$ a [[regular cardinal]],
 an [[(∞,1)-category]] is called _$\kappa$-compactly generated_ if it is
 $\kappa$-[[accessible (infinity,1)-category|accessible]] and [[locally presentable (∞,1)-category|locally presentable]].
 
-This is equivalent to it being [[equivalence of (∞,1)-categories|equivalent]] to the $\infty$-category $Ind_\kappa(\mathcal{D})$ of [[ind-objects in an (∞,1)-category|ind-objects]] in a [[small (∞,1)-category]] $\mathcal{D}$ with $\kappa$-small [[(∞,1)-colimits]]. 
 
 ([[Higher Topos Theory|HTT, def. 5.5.7.1]])
 
@@ -33,6 +32,8 @@ This is equivalent to it being [[equivalence of (∞,1)-categories|equivalent]] 
 ## Properties
 
 ### Recognition for stable $(\infty,1)$-categories
+ {#RecognitionInStableCase}
+
 
 Compact generation for [[stable (∞,1)-categories]] is detected already on their [[triangulated category|triangulated]] [[homotopy category of an (infinity,1)-category|homotopy category]] as discussed at _[[compactly generated triangulated category]]_
 
