@@ -165,7 +165,7 @@ A triangulated category is __compactly generated__ if it is generated (see [[gen
 
 The notion can be modified for categories [[enriched category|enriched]] over a [[closed monoidal category]] (compare to the notions of finite and/or rigid objects in various contexts).
 
-Compact objects in the derived categories of quasicoherent sheaves over a scheme are called perfect complexes. Any compact object in the category of modules over a perfect ring is finitely generated as a module.  Lurie uses $\kappa$-compact objects in the setup of $(\infty,1)$-categories.
+Compact objects in the derived categories of quasicoherent sheaves over a scheme are called [[perfect complexes]]. Any [[compact object]] in the [[category of modules]] over a perfect ring is finitely generated as a module.  
 
 
 In non-additive contexts, the above definition is not right.  For instance, with this definition a [[topological space]] would be compact iff it is [[connected space|connected]].  In general one should expect to instead preserve filtered colimits, as above.
