@@ -38,6 +38,7 @@ See also at _[[locally presentable categories - introduction]]_.
 ###### Definition
 
 
+
 An [[(∞,1)-category]] $\mathcal{C}$ is called **locally presentable** 
 if 
 
@@ -77,12 +78,12 @@ That $\mathcal{C}$ is locally presentable is equivalent to each of the following
 
 1. There exists a [[cardinal number|regular cardinal]] $\kappa$ such that $\mathcal{C}$ is $\kappa$-[[accessible (infinity,1)-category|accessible]] and $C^\kappa$ admits $\kappa$-small [[limit in quasi-categories|colimits]];
 
-1. There exists a [[cardinal number|regular cardinal]] $\kappa$, a small $(\infty,1)$-category $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} \mathcal{C}$ with the category of $\kappa$-[[ind-object]]s of $D$.
+1. There exists a [[cardinal number|regular cardinal]] $\kappa$, a [[small (∞,1)-category]] $D$ with $\kappa$-small [[limit in quasi-categories|colimits]] and an equivalence $Ind_\kappa D \stackrel{\simeq}{\to} \mathcal{C}$ with the category of $\kappa$-[[ind-object]]s of $D$.
 
 
 =--
 
-This is [Lurie, theorem 5.5.1.1](#Lurie), following ([Simpson](#Simpson)). We discuss this further below in _[Equivalent characterizations](#EquivalentCharacterizations)_.
+This is [Lurie, theorem 5.5.1.1](#Lurie), following ([Simpson](#Simpson)). 
 
 
 +-- {: .num_remark}
@@ -127,7 +128,7 @@ We indicate stepts in the proof of prop. \ref{EquivalentCharacterizations}.
 +-- {: .num_lemma}
 ###### Lemma
 
-Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] which exhibits $\mathcal{D}$ as an [[idempotent completion of an (∞,1)-category|idempotent completion of]] $\mathcal{C}$. Let $\kappa$ be a [[regular cardinal]]. Then the induced functor on [[(∞,1)-categories of ind-objects]]
+Let $f \colon \mathcal{C} \to \mathcal{D}$ be an [[(∞,1)-functor]] which exhibits $\mathcal{D}$ as an [[idempotent completion]] $\mathcal{C}$. Let $\kappa$ be a [[regular cardinal]]. Then the induced functor on [[(∞,1)-categories of ind-objects]]
 
 $$
   Ind_\kappa(f) \colon Ind_\kappa(\mathcal{C}) \to Ind_\kappa(\mathcal{D})
