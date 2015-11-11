@@ -151,6 +151,8 @@ In other words, an incoherent idempotent can be fully coherentified as soon as i
 
 * [[Cauchy completion]]
 
+* [noncommutative motives -- as universal additive invariants](noncommutative+motive#AsUniversalAditiveInvariant)
+
 
 ## References
 
@@ -172,3 +174,5 @@ Formalization in [[homotopy type theory]]:
 
 [[!redirects idempotent-completion of an (∞,1)-category]]
 [[!redirects idempotent-completion of an (infinity,1)-category]]
+
+[[!redirects idempotent complete (infinity,1)-categories]]
