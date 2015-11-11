@@ -51,6 +51,8 @@ Surveys include
 
 * {#Fesenko15} [[Ivan Fesenko]], _Arithmetic deformation theory via arithmetic fundamental groups and nonarchimedean theta functions_, European Journal of Mathematics September 2015, Volume 1, Issue 3, pp 405-440 ([publisher](http://link.springer.com/article/10.1007/s40879-015-0066-0), [pdf](https://www.maths.nottingham.ac.uk/personal/ibf/notesoniut.pdf))
 
+* [[Minhyong Kim]], _Brief superficial remarks on Shinichi Mochizuki's Interuniversal Teichmueller Theory (IUTT), version 1_, 10/11/2015, ([pdf](http://people.maths.ox.ac.uk/kimm/papers/pre-iutt.pdf)).
+
 [[!redirects IUTT]]
 
 [[!redirects inter-universal Teichmueller theory]]
