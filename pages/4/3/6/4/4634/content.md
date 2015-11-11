@@ -59,6 +59,27 @@ the reflector $Idem$ being [[idempotent completion]].
 
 =--
 
++-- {: .num_remark }
+###### Remark
+
+Passing to [[ind-objects]] yields an [[equivalence of (infinity,1)-categories]]
+
+$$
+  Ind \colon 
+  Cat_\infty^{per}
+  \stackrel{\simeq}{\longrightarrow}
+  Pr_{St,cg}^{L}
+  \hookrightarrow
+  Pr_{St}^{L}
+$$
+
+with the [[stable (infinity,1)-category|stable]] [[compactly generated (∞,1)-categories]].
+
+=--
+
+([[Higher Topos Theory|HTT, 5.5.7]])
+
+
 +-- {: .num_defn #MotitaEquivalence}
 ###### Definition
 
@@ -71,22 +92,22 @@ Say that a morphism in $Cat_\inty^{ex}$ is a [[Morita equivalence]] if it is an 
 +-- {: .num_defn #ExactSequences}
 ###### Definition
 
-Say that a sequence in $Cat_\infty^{ex}$ is (split-)exact if it is an exact sequence (...) under idempotent completion, prop. \ref{IdempotentCompletion}
+Say that a sequence in $Cat_\infty^{ex}$ is (split-)exact if it is an exact sequence (...see section 5...) under idempotent completion, prop. \ref{IdempotentCompletion}
 
 =--
 
 
-+-- {: .num_defn }
++-- {: .num_defn #additiveinvariant}
 ###### Definition
 
 
-A functor $Cat_\infty^{ex} \to \mathcal{D}$ to a stable [[presentable (∞,1)-category]] is called an **additive invariant** or **localizing invariant** if it
+A functor $Cat_\infty^{ex} \to \mathcal{D}$ to a stable [[presentable (∞,1)-category]] is called a **localizing invariant** (**additive invariant**) if it
 
   1. inverts Morita equivalences, def. \ref{MotitaEquivalence};
 
   1. preserves [[filtered (∞,1)-colimits]];
 
-  1. sends (split-) exact sequences, def. \ref{ExactSequences}, to (split) [[homotopy cofiber sequences]]. 
+  1. sends (split-) exact sequences, def. \ref{ExactSequences}, to (split) cofiber sequences (...see section 5...). 
 
 =--
 
@@ -94,21 +115,24 @@ A functor $Cat_\infty^{ex} \to \mathcal{D}$ to a stable [[presentable (∞,1)-ca
 ###### Definition
 
 
-The $(\infty,1)$-category $Mot_{add}$ or $Mot_{loc}$, respectively, of **noncommutative motives** is the [[universal construction|universal]] additive/localizing invariant
-
-$$
-  \mathcal{U}_{add} \colon Cat_\infty^{ex} \to Mot_{add}
-$$
+The $(\infty,1)$-category $Mot_{add}$ or $Mot_{loc}$, respectively, of **noncommutative motives** is the [[universal construction|universal]] localizing/additive invariant, def. \ref{additiveinvariant}
 
 $$
   \mathcal{U}_{loc} \colon Cat_\infty^{ex} \to Mot_{loc}
   \,.
 $$
 
+$$
+  \mathcal{U}_{add} \colon Cat_\infty^{ex} \to Mot_{add}
+  \,.
+$$
+
+
 
 =--
 
 ([Blumberg-Gepner-Tabuada 10, theorem 1.1, section 8](#BlumbergGepnerTabuada10))
+
 
 +-- {: .num_remark }
 ###### Remark
