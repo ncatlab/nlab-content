@@ -134,7 +134,7 @@ is the [[geometric realization of simplicial topological spaces|geometric realiz
 
 =--
 
-This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]].
+This is [remark 11.4](http://arxiv.org/PS_cache/math/pdf/0608/0608228v5.pdf#page=43) in [[stable (infinity,1)-category|StCat]]. See also [Blumberg-Gepner-Tabuada, section 7](#BGT).
 
 This construction is also conjectured in the last section of Toen-Vezzosi's _A remark on K-theory_ .
 
@@ -252,8 +252,8 @@ interprets the construction of the K-theory spectrum as a natural operation of
 
 The universal property of the $(\infty,1)$-categorical definition is studied in 
 
-* [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
- {#BGT}
+* {#BGT} [[Andrew Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_ ([arXiv:1001.2282](http://arxiv.org/abs/1001.2282)).
+ 
 
 
 
