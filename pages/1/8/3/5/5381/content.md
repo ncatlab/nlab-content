@@ -5,6 +5,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Compact objects
++--{: .hide}
+[[!include compact object - contents]]
+=--
 =--
 =--
 
