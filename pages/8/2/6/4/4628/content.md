@@ -102,6 +102,9 @@ into the strict 2-category of
 
 For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/08/questions_about_modules.html).
 
+## Related concepts
+
+* [stable model category -- as A-infinity algebroid module categories](stable+model+category#AsCategoriesOfModules)
 
 ## References
 
