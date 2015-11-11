@@ -31,26 +31,62 @@ In [[noncommutative geometry]] &#224; la [[Alain Connes]], Connes and [[Matilde 
 
 The definition in ([Blumberg-Gepner-Tabuada 10](#BlumbergGepnerTabuada10)) is the following.
 
++-- {: .num_defn #Catperf}
+###### Definition
+
+Write 
+
+* (stable) $Cat_\infty^{stab}$ for the [[(∞,1)-category]] of [[stable (∞,1)-categories]];
+
+* (small with linear maps) $Cat_\infty^{ex}$ for the $(\infty,1)$-category of _[[small (infinity,1)-category|small]]_ stable $\infty$-categories with [[finite (infinity,1)-limit]]/colimit-preserving functors between them;
+
+* (idem-complete) $Cat_\infty^{perf} \hookrightarrow Cat_\infty^{ex}$ for the further [[full sub-(infinity,1)-category]] of the small stable $\infty$-categories on the [[idempotent complete (infinity,1)-categories]].
+
+=--
+
+([Blumberg-Gepner-Tabuada 10, def. 2.12 and above def 2.14](#BlumbergGepnerTabuada10))
+
++-- {: .num_prop #IdempotentCompletion}
+###### Proposition
+
+The inclusion from def. \ref{Catperf} is a [[reflective sub-(infinity,1)-category]]
+
+$$
+  Cat^{perf} \stackrel{\overset{Idem}{\longleftarrow}}{\hookrightarrow} Cat^{ex}
+$$
+
+the reflector $Idem$ being [[idempotent completion]].
+
+=--
+
++-- {: .num_defn #MotitaEquivalence}
+###### Definition
+
+Say that a morphism in $Cat_\inty^{ex}$ is a [[Morita equivalence]] if it is an $Idem$-equivalence, hence if it becomes an [[equivalence of (∞,1)-categories]] under idempotent completion, prop. \ref{IdempotentCompletion}.
 
 
-Write $Cat_\infty^{stab}$ for the [[(∞,1)-category]] of [[stable (∞,1)-categories]]. 
+=--
+
+
++-- {: .num_defn #ExactSequences}
+###### Definition
+
+Say that a sequence in $Cat_\infty^{ex}$ is (split-)exact if it is an exact sequence (...) under idempotent completion, prop. \ref{IdempotentCompletion}
+
+=--
+
 
 +-- {: .num_defn }
 ###### Definition
 
-Say that 
 
-* a [[Morita equivalence]] is a map in $Cat_\infty^{stab}$ which becomes an [[equivalence of (∞,1)-categories]] under [[idempotent complete (∞,1)-category|idempotent completion]];
+A functor $Cat_\infty^{ex} \to \mathcal{D}$ to a stable [[presentable (∞,1)-category]] is called an **additive invariant** or **localizing invariant** if it
 
-* a sequence in $Cat_\infty^{stab}$ is (split-)exact if it is so in the standard sense under idempotent completion;
-
-* a functor $Cat_\infty^{stab} \to \mathcal{D}$ to a stable [[presentable (∞,1)-category]] is an **additive invariant** or **localizing invariant** if it
-
-  1. inverts Morita equivalences;
+  1. inverts Morita equivalences, def. \ref{MotitaEquivalence};
 
   1. preserves [[filtered (∞,1)-colimits]];
 
-  1. sends split exact sequences or exact sequences, respectively, to (split) [[homotopy cofiber sequences]]. 
+  1. sends (split-) exact sequences, def. \ref{ExactSequences}, to (split) [[homotopy cofiber sequences]]. 
 
 =--
 
@@ -61,11 +97,11 @@ Say that
 The $(\infty,1)$-category $Mot_{add}$ or $Mot_{loc}$, respectively, of **noncommutative motives** is the [[universal construction|universal]] additive/localizing invariant
 
 $$
-  \mathcal{U}_{add} \colon Cat_\infty^{stab} \to Mot_{add}
+  \mathcal{U}_{add} \colon Cat_\infty^{ex} \to Mot_{add}
 $$
 
 $$
-  \mathcal{U}_{loc} \colon Cat_\infty^{stab} \to Mot_{loc}
+  \mathcal{U}_{loc} \colon Cat_\infty^{ex} \to Mot_{loc}
   \,.
 $$
 
