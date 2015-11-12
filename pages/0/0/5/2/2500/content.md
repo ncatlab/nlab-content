@@ -290,7 +290,9 @@ For supergravity Lagrangians "of ordinary type" it turns out that
 
 is the highest dimension possible. All lower dimensional theories in this class appear as [[KK-compactifications]] of this theory or are [[deformations]] of such:
 
-* 10-dimensional [[type II supergravity]], [[heterotic supergravity]]
+* [[10-dimensional supergravity]] 
+
+  * [[type II supergravity]], [[heterotic supergravity]]
 
 * [[9-dimensional supergravity]]
 
