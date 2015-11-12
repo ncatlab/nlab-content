@@ -117,11 +117,11 @@ For more on this see at _[[differential cohomology diagram]]_.
 
 ### In terms of cyclic homology
 
-Generalizing in another direction, generalized Chern characters are given by passage to [[derived loop spaces]] and their [[cyclic homology]] or, more generally,  [[topological cyclic homology]] ([Toen-Vezzosi 08](#ToenVezzosi08)).
+Generalizing in another direction, generalized Chern characters are given by passage to [[derived loop spaces]] and their [[cyclic homology]] or, more generally,  [[topological cyclic homology]] ([Toen-Vezzosi 08](#ToenVezzosi08), [Hoyois-Scherotzke-Sibillia 15](#HoyoisScherotzkeSibillia15)).
 
 ## Properties
 
-### Push-forward and Grothhendieck-Riemann-Roch theorem
+### Push-forward and Grothendieck-Riemann-Roch theorem
 
 The behaviour of the Chern-character under [[fiber integration in generalized cohomology]] along [[proper maps]] is described by the [[Grothendieck-Riemann-Roch theorem]].
 
@@ -177,6 +177,7 @@ See also
 
 * [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.mit.edu/~hoyois/papers/chern.pdf))
 
+* {#HoyoisScherotzkeSibillia15} [[Marc Hoyois]], Sarah Scherotzke, Nicol&#242; Sibilla, _Higher traces, noncommutative motives, and the categorified Chern character_ ([arXiv:1511.03589](http://arxiv.org/abs/1511.03589))
 
 [[!redirects Chern characters]]
 
