@@ -63,13 +63,15 @@ $$
 
 ### Formal group and height
 
-The [[formal group]] associated with a nodal cubic curve is of [[height of a formal group|height]] 1.  Indeed, passing to the point of the nodal curve in $\mathcal{M}_{\overline{ell}}$ connects [[elliptic cohomology]] (of [[chromatic level]] 1) to [[topological K-theory]] (of chromatic level 1). For more on this see at _[[moduli stack of tori]]_ and at _[tmf -- Properties -- Maps to K-theory and to Tate K-theory](tmf#MapToTateKTheory)_.
+The [[formal group]] associated with a nodal cubic curve is of [[height of a formal group|height]] 1.  Indeed, passing to the point of the nodal curve in $\mathcal{M}_{\overline{ell}}$ connects [[elliptic cohomology]] (of [[chromatic level]] 2) to [[topological K-theory]] (of chromatic level 1). For more on this see at _[[moduli stack of tori]]_ and at _[tmf -- Properties -- Maps to K-theory and to Tate K-theory](tmf#MapToTateKTheory)_.
 
 ## Related concepts
 
 * [[cusp]]
 
 * [[augmented Teichmüller space]]
+
+* in [[F-theory]] the points where the fibers of the [[elliptic fibration]] degenerate to the nodal curve are where the [[D7-branes]] are located
 
 ## References
 
