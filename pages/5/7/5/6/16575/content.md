@@ -23,17 +23,18 @@
 
 In the context of the realization of [[super Yang-Mills theories]] as [[effective field theories]] of [[superstring theory]], [[BPS branes]] in the string background becomes BPS states of the SYM theory. These become massless as the [[cycles]] on the which BPS charge is supported shrink away (at boundary points of the given [[moduli space]]). In this case these additional massless states may appear as additional gauge bosons in the compactified gauge theory which thereby develops a bigger gauge group. Typically a previously abelian gauge group becomes non-abelian this way.
 
-Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on [[G2-manifolds]], see at 
+Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on [[G2-manifolds]] with [[ADE singularities]], corresponding to [[F-theory]] on [[elliptic fibrations]] making [[K3]]-fibrations with singular fibers, corresponding to [[heterotic string theory]] on singular elliptic fibrations. See at 
 
 * _[[M-theory on G2-manifolds]]_ the section _[Nonabelian gauge groups and chiral fermions at orbifold singularities](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_;
 
 * _[[F-theory]]_ the section _[F-brane scan](F-theory#Fbranescan)_
 
+* _[[duality between F-theory and heterotic string theory]]_.
+
 ## Related concepts
 
 * [[spontaneously broken symmetry]]
 
-* [[duality between F-theory and heterotic string theory]]
 
 ## References
 
