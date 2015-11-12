@@ -146,7 +146,7 @@ For some time though the success of [[string theory]] in 10-dimensions caused re
 
 The article that convinced the community of M-theory was
 
-* {#Witten95} [[Edward Witten]], _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+* {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126 (1995) ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 A public talk announcing the conjecture that the [[non-perturbative field theory|strong-coupling limit]] of [[type IIA string theory]] is [[11-dimensional supergravity]] [[KK-compactification|KK-compactified]] on a circle is at 15:12 in
 
