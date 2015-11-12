@@ -63,17 +63,19 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "ma
 
 Discussion of non-perturbative effects in [[QCD]] are in
 
-* Marcos Marino, _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
+* [[Marcos Mariño]], _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
 
 and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string theory]] is in
 
-* Marcos Marino, _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
+* [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
 ### In string theory
 
-Estimates of non-perturbative effects in string theory go back to
+Identification of non-perturbative effects in string theory originates in
 
 * [[Stephen Shenker]], _The Strength of nonperturbative effects in string theory_, presented at the Cargese Workshop on Random Surfaces, Quantum Gravity and Strings, Cargese, France, May 1990 ([spire](http://inspirehep.net/record/298523?ln=en))
+
+* {#Witten95} [[Edward Witten]], section 2.2 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
