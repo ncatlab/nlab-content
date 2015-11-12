@@ -159,11 +159,15 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 ### General
 
-The BPS bound derives its name from
+The BPS bound derives its name from the discussion of [[magnetic monopoles]] in 4-dimensional [[Yang-Mills theory]] in 
 
 * (E. B. Bogomolnyj) [[?. ?. ???????????]], _&#1059;&#1089;&#1090;&#1086;&#1081;&#1095;&#1080;&#1074;&#1086;&#1089;&#1090;&#1100; &#1082;&#1083;&#1072;&#1089;&#1089;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1088;&#1077;&#1096;&#1077;&#1085;&#1080;&#1081;_, &#1071;&#1076;. &#1060;&#1080;&#1079;. __24__ (1976) 449--454
 
 * M. K. Prasad, [[Charles Sommerfield]], _Exact classical solution for 't Hooft monopole and the Julia-Zee dyon_, Phys. Rev. Lett. __35__ (1975) 760--762.
+
+The extension of the term "BPS-saturated state" from this case to situations in [[string theory]] seems to have happened in 
+
+* {#Witten95} [[Edward Witten]], around (2.5) of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 The original article identifying the role of BPS states in supersymmetric field theory is
 
@@ -238,6 +242,7 @@ Discussion of extremal/BPS [[black branes]] in [[supergravity]] (especially in [
 * Andrew Callister, [[Douglas Smith]], _Topological charges in $SL(2,\mathbb{R})$ covariant massive 11-dimensional and Type IIB SUGRA_, Phys.Rev.D80:125035,2009 ([arXiv:0907.3614](http://arxiv.org/abs/0907.3614))
 
 * Andrew Callister, _Topological BPS charges in 10- and 11-dimensional supergravity_, thesis 2010 ([spire](http://inspirehep.net/record/1221591?ln=en))
+
 
 * Cristine N. Ferreira, _BPS solution for eleven-dimensional supergravity with a conical defect configuration_ ([arXiv:1312.0578](http://arxiv.org/abs/1312.0578))
 
