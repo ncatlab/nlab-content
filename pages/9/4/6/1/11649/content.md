@@ -24,9 +24,13 @@
 The [[KK-compactification|KK]] [[flux compactification]] of [[M-theory]]/[[F-theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety]] of ([[complex manifold|complex]]) [[dimension]] 4 (hence real dimension 8) yields [[type IIB superstring theory]] (with some [[S-duality]]-related [[non-perturbative effects]] included) [[KK-compactification|KK-compactified]] on Calabi-Yau 3-folds.
 
 
+
 ### Motivation from string model building/phenomenology
 
 By the discussion at _[[supersymmetry and Calabi-Yau manifolds]]_ such compactifications of [[type IIB superstring theory]] yield the [[UV-completion]] of an [[effective field theory]] in 4-dimensions which exhibits $N =1 $ [[supersymmetry]].
+
+[[!include N=1 susy compactifications -- table]]
+
 For this reason F/M-theory compactifications on elliptically fibered Calabi-Yau 4-folds are a major contender in [[string phenomenology]] [[model (physics)|model]] building. See at _[string phenomenology -- Models in type II / F-theory](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_ for more on this.
 
 ### Motivation from mathematics
@@ -60,3 +64,5 @@ Discussion of the [[duality between F-theory and heterotic string theory]] for c
 
 [[!redirects F/M-theory on CY4]]
 [[!redirects F-theory on CY4]]
+
+[[!redirects F-theory on CY4-manifolds]]
