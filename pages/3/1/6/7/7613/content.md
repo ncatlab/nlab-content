@@ -100,6 +100,7 @@ $$
    \,.
 $$
 
+[[!include F-branes -- table]]
 
 ### Cohomological properties
 
