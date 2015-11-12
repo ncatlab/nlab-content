@@ -1,13 +1,5 @@
-$$
-\begin{svg}
-<svg xmlns="/nlab/files/chord-diagram.svg" width="200">
-</svg>
-\end{svg}
-$$
+* $\;\;$ _[[schreiber:Structure Theory for Higher WZW Terms]]_ 
 
-$$
-  \sum \dashv ext \dashv \prod
-$$
-
-$\{L(V,W)\,|\,Av\in U\}$
-$\{L(V,W)\,|\,A v \in U\}$
+  & _[[schreiber:Higher Cartan Geometry]]_
+ 
+  & _[[schreiber:The brane bouquet]]_
