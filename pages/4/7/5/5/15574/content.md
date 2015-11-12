@@ -1,3 +1,10 @@
+
+
+<img src="http://ncatlab.org/nlab/files/AufhebungDetail.jpg" width="900"> 
+([full pdf](http://www.in-situ-art-society.com/docs/2015-09-18+19_aufhebung_flyer.pdf) by [In Situ Art Society](http://www.in-situ-art-society.com/aufhebung.html))
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 
@@ -28,9 +35,6 @@
 
 ## Idea
 
-> I am not a "Hegelian". F. W. Lawvere [^LQ]
-
-[^LQ]: ([Lawvere 1989](#Law89b), p.74).
 
 **Aufhebung** (sublation) is a central concept[^ref] in the [[dialectic|dialectical]] logic of the German philosopher [[Georg Hegel|G. W. F. Hegel]]. The German expression has several meanings for which _tollere, elevare, conservare_ would be Latin equivalents.[^fine] 
 
@@ -498,3 +502,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
 
 * {#LawvereMenni15} [[William Lawvere]], [[Matías Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, Theory and Applications of Categories, Vol. 30, 2015, No. 26, pp 909-932. ([TAC](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
+
+> I am not a "Hegelian". F. W. Lawvere [^LQ]
+
+[^LQ]: ([Lawvere 1989](#Law89b), p.74).
+
