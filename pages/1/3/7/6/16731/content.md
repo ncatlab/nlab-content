@@ -87,7 +87,7 @@ Runliang Lin (Tsinghua University)
 
 Jiefeng Liu (Jilin University)
 
-Qingping Liu* (China University of Mining and Technology)
+Qingping Liu (China University of Mining and Technology)
 
 Zhangju Liu (Peking University)
 
@@ -101,7 +101,7 @@ Kentaro Mikami (Akita University)
 
 Joana Margarida Nunes da Costa (University of Coimbra)
 
-Florian Naef (  )
+Florian Naef (University of Geneva)
 
 Jae-Suk Park* (Pohang University of Science and Technology)
 
@@ -115,7 +115,7 @@ Martin Schlichenmaier (University of Luxembourg)
 
 Yunhe Sheng (Jilin University)
 
-Boris Shoikhet (  )
+Boris Shoikhet (Universiteit Antwerpen, Atwerpen, Belgium)
 
 Reyer Sjamaar  (Cornell University)
 
@@ -129,7 +129,7 @@ Shanzhong Sun (Capital Normal University)
 
 Xiang Tang (Washington University in St. Louis)
 
-Fridrich Valach (  )
+Fridrich Valach (University of Geneva)
 
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
