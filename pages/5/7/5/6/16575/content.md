@@ -38,13 +38,13 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 
 ## References
 
+* [[Edward Witten]], section 4.6 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], _Enhanced Gauge Symmetries in Superstring Theories_, Nucl.Phys. B451 (1995) 525-546 ([arXiv:hep-th/9505073](http://arxiv.org/abs/hep-th/9505073))
+
 * [[Paul Aspinwall]], _Enhanced Gauge Symmetries and K3 Surfaces_, Phys.Lett. B357 (1995) 329-334 ([arXiv:hep-th/9507012](http://arxiv.org/abs/hep-th/9507012))
 
 * [[Chris Hull]], _Duality, Enhanced Symmetry and Massless Black Holes_, in Proceedings of Strings'95: Future Perspectives in String Theory (World Scientific, 1996, I. Bars et al. eds.), p. 230 ([pdf](http://physics.usc.edu/Strings95/Proceedings/pdf/hull.pdf))
-
-* [[Edward Witten]], section 4.6 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
-
-* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], _Enhanced Gauge Symmetries in Superstring Theories_, Nucl.Phys. B451 (1995) 525-546 ([arXiv:hep-th/9505073](http://arxiv.org/abs/hep-th/9505073))
 
 * M. Bershadsky, [[Ken Intriligator]], [[Shamit Kachru]], [[David Morrison]], V. Sadov, [[Cumrun Vafa]], _Geometric Singularities and Enhanced Gauge Symmetries_, Nucl.Phys.B481:215-252,1996 ([arXiv:hep-th/9605200](http://arxiv.org/abs/hep-th/9605200))
 
