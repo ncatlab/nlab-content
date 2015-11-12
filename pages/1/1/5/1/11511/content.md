@@ -39,11 +39,14 @@ In [[type II string theory]]: a [[bound state]] of $p$-[[F1-branes]] and $q$ [[D
 
 Under [[S-duality]] the [[modular group]] $SL_2(\mathbb{Z})$ acts on these $(p,q)$-tuples and mixes the $F1$- and the $D1$-brane states.
 
+[[!include F-branes -- table]]
+
 ## Related concepts
 
 * [[S-duality]]
 
 * [[F-theory]]
+
 
 ## References
 
