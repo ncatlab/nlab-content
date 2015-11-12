@@ -17,6 +17,8 @@
 
 The [[D-brane]] in [[type IIB string theory]] of [[dimension]] $7+1$.
 
+In [[F-theory]] these are the degenration loci of the [[axio-dilaton]] [[elliptic fibration]], where the [[discriminant]] $\Delta$ of the [[elliptic curve]] fibers vanishes and the fiber degenrates to the [[nodal curve]] (e.g. [Sen 97](#Sen97), [Blumenhagen 10, (11)](#Blumenhagen10)).
+
 ## Related concepts
 
 [[!include table of branes]]
@@ -26,5 +28,10 @@ See also _[[F-theory]]_.
 ## References
 
 * Oliver DeWolfe, Tamas Hauer, Amer Iqbal, [[Barton Zwiebach]], _Uncovering Infinite Symmetries on [p,q] 7-branes: Kac-Moody Algebras and Beyond_  ([arXiv:hep-th/9812209](http://arxiv.org/abs/hep-th/9812209))
+
+* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+* {#Blumenhagen10} Blumenhagen, _Basics of F-theory from the Type IIB Perspective_ ([arXiv:1002.2836](http://arxiv.org/abs/1002.2836))
+
 
 [[!redirects D7-branes]]
