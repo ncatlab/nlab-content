@@ -1,7 +1,7 @@
 
 **from [[M-branes]] to F-branes: [[superstrings]], [[D-branes]] and [[NS5-branes]]**
 
-| **[[M-theory]]** on $S^1_A \times S^1_B$-[[elliptic fibration]] | [[KK-compactification]] on $S^1_A$ | **[[type IIA string theory]]** | [[T-duality|T-dual]] [[KK-compactification]] on $S^1_B$ | **[[type IIB string theory]]** | **[[F-theory]]** | [[duality between F-theory and heterotic string theory]] | **[[heterotic string theory]]** |
+| **[[M-theory]]** on $S^1_A \times S^1_B$-[[elliptic fibration]] | [[KK-compactification]] on $S^1_A$ | **[[type IIA string theory]]** | [[T-duality|T-dual]] [[KK-compactification]] on $S^1_B$ | **[[type IIB string theory]]** | **[[F-theory]]** on [[elliptic fibration|elliptically fibered]]-[[K3]] fibration | [[duality between F-theory and heterotic string theory]] | **[[heterotic string theory]]** on [[elliptic fibration]] |
 |--|--|--|--|--|--|--|--|
 | [[M2-brane]] [[wrapped brane|wrapping]] $S_A^1$ | [[double dimensional reduction]] $\mapsto$ | [[type IIA superstring]] | $\mapsto$ | [[type IIB superstring]] | | $\mapsto$ | [[heterotic superstring]] |
 | [[M2-brane]] [[wrapped brane|wrapping]] $S_B^1$ | $\mapsto$ | [[D2-brane]] | $\mapsto$ | [[D1-brane]] | | |  |
@@ -10,7 +10,7 @@
 | [[M5-brane]] [[wrapped brane|wrapping]] $S_B^1$ | $\mapsto$ | [[NS5-brane]] | $\mapsto$ | [[NS5-brane]] |  | $\mapsto$ | [[NS5-brane]] |
 | [[M5-brane]] [[wrapped brane|wrapping]] $p$ times around $S_A^1$ and $q$ times around $S_B^1$ | $\mapsto$ | $p$ [[D4-brane]] and $q$ [[NS5-branes]] | $\mapsto$ | [[(p,q)5-brane]] |  |  | |
 | [[M5-brane]] [[wrapped brane|wrapping]] $S_A^1 \times S_B^1$ | $\mapsto$ |  | $\mapsto$ | [[D3-brane]] | |  |  |
-| [[KK-monopole]]/[[Taub-NUT spacetime]]  | $\mapsto$ | [[D6-brane]] | $\mapsto$ |  $(p,q)$[[D7-branes]] | [[nodal curve]] $(p,q)$-cycle degenertion locus of [[elliptic fibration]]  | |  | 
-| [[ADE-singularity]] | $\mapsto$ |  |  $\mapsto$ | [[open strings|open (p,q)-strings]] stretching between $(p,q)$-[[D7-branes]] | 2-cycle degeneration locus of [[elliptic fibration]] <img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" />  | $\mapsto$ | [[gauge enhancement]]  |
+| [[KK-monopole]]/[[Taub-NUT spacetime]]/ $A_p$-[singularity](elliptic+fibration#ClassificationOfSingularFibers) | $\mapsto$ | [[D6-brane]] | $\mapsto$ |  $p+1$-[[D7-branes]] | [[nodal curve]] cycle degenertion locus of [[elliptic fibration]] <img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /> | |  | 
+| [ADE-singularity of elliptic fibration](elliptic+fibration#ClassificationOfSingularFibers) | $\mapsto$ |  |  $\mapsto$ | [[open strings|open (p,q)-strings]] stretching between $(p,q)$-[[D7-branes]] | 2-cycle degeneration locus of [[elliptic fibration]]  | $\mapsto$ | [[gauge enhancement]]  |
 
 (e.g. [Johnson 97](F-theory#Johnson97), [Blumenhagen 10](F-theory#Blumenhagen10))
