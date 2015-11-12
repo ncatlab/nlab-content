@@ -27,7 +27,9 @@ A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]]
 
 From the abstract of ([Donagi 98](#Donagi98)).
 
-> The [[heterotic string theory|heterotic string]] [[KK-compactification|compactified]] on an $(n-1)$-[[dimension|dimensional]] [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety|Calabi-Yau]] $Z \toB$ is conjectured to be [[duality in string theory|dual]] to [[F-theory]] [[KK-compactification|compactified]] on an $n$-dimensional [[Calabi-Yau variety|Calabi-Yau]] $X \to B$, fibered over the same base with [[elliptic fibration|elliptic]] [[K3]] fibers. In particular, the [[moduli]] of the two theories should be [[isomorphism|isomorphic]]. The cases most relevant to the physics are $n=2$, $3$, $4$, i.e. the [[KK-compactification|compactification]] is to [[dimensions]] $d=8$, $6$ or $4$ respectively. Mathematically, the richest picture seems to emerge for $n=3$, where the [[moduli space]] involves an analytically [[integrable system]] whose fibers admit rather different descriptions in the two theories.
+> The [[heterotic string theory|heterotic string]] [[KK-compactification|compactified]] on an $(n-1)$-[[dimension|dimensional]] [[elliptic fibration|elliptically fibered]] [[Calabi-Yau variety|Calabi-Yau]] $Z \to B$ is conjectured to be [[duality in string theory|dual]] to [[F-theory]] [[KK-compactification|compactified]] on an $n$-dimensional [[Calabi-Yau variety|Calabi-Yau]] $X \to B$, fibered over the same base with [[elliptic fibration|elliptic]] [[K3]] fibers. In particular, the [[moduli]] of the two theories should be [[isomorphism|isomorphic]]. The cases most relevant to the physics are $n=2$, $3$, $4$, i.e. the [[KK-compactification|compactification]] is to [[dimensions]] $d=8$, $6$ or $4$ respectively. Mathematically, the richest picture seems to emerge for $n=3$, where the [[moduli space]] involves an analytically [[integrable system]] whose fibers admit rather different descriptions in the two theories.
+
+[[!include F-branes -- table]]
 
 ## Aspects
 
