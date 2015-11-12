@@ -19,6 +19,8 @@ What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mec
 
 ## Examples
 
+### For general super $p$-branes
+
 Double dimensional reduction for the super-$p$-[[branes]] in $D$ dimensions which are described by the [[Green-Schwarz action functional]] corresponds to moving down and left the diagonals in the brane scan table of consistent such branes:
 
 [[branescan.gif:pic]]
@@ -30,6 +32,10 @@ In particular
 * the [[D4-brane]] appears as the double dimensional reduction of the [[M5-brane]] under this process;
 
 * the double dimensional reduction of the [[super 2-brane in 4d]] is [[super 1-brane in 3d]] (see there).
+
+### From M-branes to F-branes
+
+[[!include F-branes -- table]]
 
 ## References
 
