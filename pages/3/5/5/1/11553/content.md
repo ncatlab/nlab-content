@@ -18,7 +18,7 @@
 
 A [[duality in string theory]]:
 
-[[F-theory]] "[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] [[KK-compactification|KK-compactified]] on a 2-[[torus]]. An early argument for this is due to ([Sen 96](#Sen96)).
+[[F-theory]] "[[KK-compactification|KK-compactified]]" on an [[elliptic fibration|elliptically fibered]] [[K3]] with a [[section]] is supposed to be equivalent to [[heterotic string theory]] [[KK-compactification|compactified]] [[KK-compactification|KK-compactified]] on a 2-[[torus]]. 
 
 More generally, [[F-theory]] on a [[complex manifold|complex]] $n$-dimensional $X$ fibered $X\to B$ with elliptic [[K3]]-fibers is supposed to be equivalent to [[heterotic string theory]] on an [[elliptic fibration|elliptically fibered]] [[Calabi-Yau manifold]] $Z \to B$ of [[complex manifold|complex]] [[dimension]] $(n-1)$.
 
@@ -50,6 +50,13 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 ## References
 
+The observation of the relation between the two theories originates (together with the observation of [[M-theory]]) in
+
+* [[Chris Hull]], [[Paul Townsend]], _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](http://arxiv.org/abs/hep-th/9410167))
+
+* {#Witten95} [[Edward Witten]], section 4 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+Further details were worked out in 
 
 * {#MorrisonVafa96a} [[David Morrison]], [[Cumrun Vafa]], _Compactifications of F-Theory on Calabi--Yau Threefolds -- I_, Nucl.Phys. B473 (1996) 74-92 ([arXiv:hep-th/9602114](http://arxiv.org/abs/hep-th/9602114))
 
@@ -61,7 +68,7 @@ There are some [[F-theory]] backgrounds whose supposed dual in [[heterotic strin
 
 * {#Aspinwall97} [[Paul Aspinwall]], _M-Theory Versus F-Theory Pictures of the Heterotic String_, Adv.Theor.Math.Phys.1:127-147, 1998 ([arXiv:hep-th/9707014](http://arxiv.org/abs/hep-th/9707014))
 
-Reviews include
+Review of ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)) is in
 
 * {#Donagi98} [[Ron Donagi]], _ICMP lecture on heterotic/F-theory duality_ ([arXiv:hep-th/9802093](http://arxiv.org/abs/hep-th/9802093))
 
