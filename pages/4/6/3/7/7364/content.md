@@ -36,6 +36,11 @@ One may turn this around: Given an elliptic fibration $E \to B$, then away from 
 
 With due technical care, this data uniquely characterizes the elliptic fibration (e.g. [Miranda 88, prop. VI.3.3](#Miranda88)).
 
+### Classification of the singular fibers
+ {#ClassificationOfSingularFibers}
+
+The remaining [[singularity|singular]] fibers follow an [[ADE classification]] ([Kodaira 64](#Kodaira64), [N&#233;ron 64](#Neron64), [Kodaira 66](#Kodaira66))
+
 ## Related entries
 
 * [[F-theory]]
@@ -57,7 +62,15 @@ With due technical care, this data uniquely characterizes the elliptic fibration
 
 * Takahiko Yoshida, _Locally standard torus fibrations_ [pdf](http://www.isc.meiji.ac.jp/~takahiko/papers/sympo.pdf)
 
+The [[ADE classification]] of the possible singular fibers is due to 
 
+* {#Kodaira64} [[Kunihiko Kodaira]],  (1964). "On the structure of compact complex analytic surfaces. I". Am. J. Math. 86: 751&#8211;798. doi:10.2307/2373157. Zbl 0137.17501.
+
+* {#Kodaira66} [[Kunihiko Kodaira]],  (1966). "On the structure of compact complex analytic surfaces. II". Am. J. Math. 88: 682&#8211;721. doi:10.2307/2373150. Zbl 0193.37701.
+
+and 
+
+* {#Neron64} [[André Néron]],  (1964). "Modeles minimaux des vari&#233;t&#233;s abeliennes sur les corps locaux et globaux". Publications Math&#233;matiques de l'IH&#201;S (in French) 21: 5&#8211;128.
 
 [[!redirects elliptic fibrations]]
 
