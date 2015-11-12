@@ -110,6 +110,10 @@ For D-branes in the [[WZW-model]] see _[WZW-model -- D-branes](Wess-Zumino-Witte
 
 ## Properties
 
+### As F-branes originating from M-branes
+
+[[!include F-branes -- table]]
+
 ### Characterization in terms of Dirac structures
 
 D-branes may be identified with [[Dirac structures]] on 
