@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+* [[Edward Witten]], 
+
+  _String Theory Dynamics In Various Dimensions_, 
+
+  Nucl.Phys.B443:85-126,1995 
+
+  ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
+on [[M-theory]] and [[duality in string theory]] via consideration of [[BPS states]].
+
+category: references
+
+[[!redirects String Theory Dynamics in Varioius Dimensions]]
+[[!redirects String theory dynamics in various dimensions]]
