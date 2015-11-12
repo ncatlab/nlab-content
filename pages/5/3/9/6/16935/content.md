@@ -1,0 +1,14 @@
+
+
+
+* [webpage](http://www.unige.ch/math/en/people/marino/)
+
+## related $n$Lab entries
+
+* [[non-perturbative effect]]
+
+* [[instanton in QCD]]
+
+category: people
+
+[[!redirects Marcos Marino]]
