@@ -29,13 +29,13 @@ equipped with the following structure maps:
 
 1. A pair of maps $s, t \colon G_1 \rightrightarrows G_0$ called _[[source]]_ and _[[target]]_ or _[[domain]]_ and _[[codomain]]_. An element $g\in G_1$ is thought of as an arrow from $x=s(g)$ to $y=t(g)$.
 
-1. A multiplication or _[[composition]]_ map $m \colon G_1 \times_{s, G_0, t} G_1 \to G_1$, which satisfies 
+1. A multiplication or _[[composition]]_ map $m \colon G_1 \times_{s, G_0, t} G_1 \to G_1$, usually denoted as $g h$ for $m(g,h)$, which satisfies 
 
    1. $s(g h)=s(h)$, $t(g h)=t(g)$, and
 
-   1. [[associativity]]: $(g h)k=g(h k)$, here one usually writes $g h$ for $m(g,h)$.
+   1. [[associativity]]: $(g h)k=g(h k)$, 
 
-   1. identity section: $e: G_0\to G_1$, such that $e(t(g))g=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$). 
+   1. identity section: $e: G_0\to G_1$, such that $e(t(g))g=g=ge(s(g))$ (in particular, $s\circ e= t \circ e$), 
 
    1. [[inverse]], $i: G_1 \to G_1$, also denoted by $i(g)=g^{-1}$, such that for all $g\in G$, 
 
