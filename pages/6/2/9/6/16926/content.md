@@ -1,0 +1,9 @@
+
+
+10-dimensional [[supergravity]]
+
+* [[type II supergravity]]
+
+* [[heterotic supergravity]]
+
+[[!redirects 10-dimensional supergravity theories]]
