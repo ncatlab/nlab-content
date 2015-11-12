@@ -7,5 +7,7 @@
 
 * [[Kodaira-Spencer theory]]
 
+* [[elliptic fibration]]
+
 category: people
 
