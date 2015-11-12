@@ -79,7 +79,7 @@ Hanfeng Li (SUNY at Buffalo)
 
 Hui Li (Suzhou University)
 
-Si Li (Boston University)
+Si Li (Tshinghua University)
 
 Yanpeng Li (Peking University)
 
@@ -88,8 +88,6 @@ Runliang Lin (Tsinghua University)
 Jiefeng Liu (Jilin University)
 
 Qingping Liu* (China University of Mining and Technology)
-
-Siqi Liu* (Tshinghua University)
 
 Zhangju Liu (Peking University)
 
@@ -103,9 +101,9 @@ Kentaro Mikami (Akita University)
 
 Joana Margarida Nunes da Costa (University of Coimbra)
 
-Jae-Suk Park (Pohang University of Science and Technology)
+Florian Naef (  )
 
-Yat Sun Poon*(University of California at Riverside)
+Jae-Suk Park* (Pohang University of Science and Technology)
 
 Yu Qiao (Shannxi Normal University)
 
@@ -116,6 +114,8 @@ Hajime Sato (Nagoya University)
 Martin Schlichenmaier (University of Luxembourg)
 
 Yunhe Sheng (Jilin University)
+
+Boris Shoikhet (  )
 
 Reyer Sjamaar  (Cornell University)
 
@@ -129,6 +129,8 @@ Shanzhong Sun (Capital Normal University)
 
 Xiang Tang (Washington University in St. Louis)
 
+Fridrich Valach (  )
+
 Luca Vitagliano  (Universita degli Studi di Salerno & Istituto Nazionale di Fisica Nucleare)
 
 Aissa Wade (Penn State University)
@@ -141,7 +143,7 @@ Qi Wang (Jilin University)
 
 Shikun Wang (Chinese Academy of Science)
 
-Ke Wu (Capital Normal University)
+Ke Wu* (Capital Normal University)
 
 Ping Xu (Penn State University)
 
@@ -151,11 +153,9 @@ Yijun Yao (Fudan University)
 
 Yanbin Yin (Henan University)
 
-Bin Zhang* (Sichuan University)
-
 Tao Zhang (Henan Normal University)
 
-Youjin Zhang* (Tshinghua University)
+Weiping Zhang (Nankai University)
 
 Zhujun Zheng (South China University of Technology)
 
