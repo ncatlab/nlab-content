@@ -30,9 +30,9 @@ The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The
 
 ## Properties
 
-### Reduction to branes in 10 d
+### Reduction to strings, D-branes and NS5-branes
 
-Under [[Kaluza-Klein mechanism|reduction]] to [[type II supergravity]] the M2 and the M5 turn into the [[D-brane]]s and the [[NS-brane]]s.
+[[!include F-branes -- table]]
 
 ## Related concepts
 
