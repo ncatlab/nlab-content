@@ -56,6 +56,9 @@ There are also larger [[local multiplier algebra]]s $M_{loc}(A)$.
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, Cambridge University Press 1998.
 
+There is also a notion of multiplier Hopf algebra and even multiplier bimonoid and Hopf monoid:
+
+* Gabriella B&#246;hm, Stephen Lack, _Multiplier Hopf monoids_, [arxiv/1511.03806](http://arxiv.org/abs/1511.03806); _A category of multiplier bimonoids_, [arxiv/1509.07171](http://arxiv.org/abs/1509.07171)
 
 category: operator algebras, noncommutative geometry, analysis
 
