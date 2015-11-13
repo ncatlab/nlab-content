@@ -50,10 +50,16 @@ The ([[U-duality]]-)[[global gauge group]] of maximally [[supersymmetry|supersym
 
   * [[3d quantum gravity]]
 
+* [[ABJM model]]
 
 ## References
 
 ### Generally
+
+Lecture notes include
+
+* F. Ruiz Ruiz, [[Peter van Nieuwenhuizen]], _Lectures on Supersymmetry and Supergravity in $2+1$ Dimensions and regularization of supersymmetric gauge theories_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.17.3667&rep=rep1&type=pdf))
+
 
 A complete list of un-gauged supergravities in 3 dimensions was given in 
 
