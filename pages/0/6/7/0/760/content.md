@@ -56,6 +56,11 @@ In general, we can say that in an $(n,1)$-[[(n,1)-category|category]], a "split 
 
 * in an [[(∞,1)-category]], a split mono is not necessarily truncated at any finite level.
 
+## Related concepts
+
+* [[split epimorphism]]
+
+* [[propositions as projections]]
 
 [[!redirects split monomorphism]]
 
