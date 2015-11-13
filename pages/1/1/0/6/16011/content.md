@@ -34,11 +34,28 @@ $$
 When $L$ has a [[right adjoint]] $R \colon \mathcal{D}\to \mathcal{C}$ then this is of course equivalent to 
 
 $$
-  Het(c,d) \coloneqq \mathcal{C}(c,R(d))
+  Het(c,d) \cong \mathcal{C}(c,R(d))
   \,.
 $$
 
-More generally, for $Het \colon \mathcal{C}^{op}\times \mathcal{D}\to Set$ a [[profunctor]] from $\mathcal{C}$ to $\mathcal{D}$, then $Het(c,d)$ may be called its set of heteromorphisms.
+More generally, for $Het \colon \mathcal{C}^{op}\times \mathcal{D}\to Set$ a [[profunctor]] from $\mathcal{C}$ to $\mathcal{D}$, then $Het(c,d)$ may be called its set of heteromorphisms. 
+
+The general heteromorphic treatment of [[adjunctions]] is due to [Pareigis 1970](#Pareigis70). A pair of adjoint functors arise when a Het profunctor is a [[representable functor]] on both the left and right. The [[left adjoint]] is representing functor on the left:
+$$
+  \mathcal{D}(L(c),d) \cong  Het(c,d)
+  \,
+$$
+and symmetrically the [[right adjoint]] is the representing functor on the right:
+$$
+  Het(c,d) \cong \mathcal{C}(c,R(d))
+  \,.
+$$
+
+Putting the two representations together gives the usual natural isomorphism characterization of a [[adjunction]] but with the het middle term:
+$$
+\mathcal{D}(L(c),d) \cong  Het(c,d) \cong \mathcal{C}(c,R(d))
+\,.
+$$
 
 ## Properties
 
