@@ -21,7 +21,7 @@
 
 ## Idea
 
-An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _orientation reversal_ on the worldsheet (therefore the name).
+An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
 
 Where generally ([[higher gauge field|higher gauge]]) [[field (physics)|fields]] in [[physics]]/[[string theory]] are [[cocycles]] in ([[differential cohomology theory|differential]]) [[cohomology theory]] and typically in [[complex oriented cohomology theory]], fields on orientifolds are cocycles in genuinely $\mathbb{Z}_2$-[[equivariant cohomology]] and typically in [[real-oriented cohomology theory]]. For instance the [[B-field]] which otherwise is a (twisted) coycles in ([[ordinary differential cohomology|ordinary]]) [[ordinary cohomology]] over an orientifold is a cocycle in (twisted) [[HZR-theory]], and the [[RR-fields]] which usually are cocycles in ([[twisted cohomology|twisted]] [[differential K-theory|differential]]) [[K-theory]] over an orientifold are cocycles in [[KR-theory]] ([Witten 98](#Witten98)).
 
