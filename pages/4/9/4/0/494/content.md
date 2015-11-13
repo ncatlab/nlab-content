@@ -192,7 +192,7 @@ $$
   \right.
 $$
 
-(also called the _[[heteromorphisms]]_).
+($k(X,Y)$ is also called the _[[heteromorphisms]]_).
 
 This category naturally comes with a functor to the [[interval]] category
 
