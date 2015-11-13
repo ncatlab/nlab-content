@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Linear algebra
++-- {: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[intuitionistic type theory]] the perspective of [[propositions as types]] identifies [[mere propositions]] with (speaking in [[categorical semantics]]) [[monomorphisms]] into the given [[context]] type. If one instead considers [[linear type theory]] then it makes sense to consider those propositions, in this sense, which come from monomorphisms that are [[split monomorphisms]], hence those for which there is a [[projection]] from the context to the [[subobject]] that represents the proposition. For these one might speak of "propositions as projections".
+
+For instance in a category of [[Hilbert spaces]], regarded as semantics for bare multiplicative [[linear type theory]], then projections corespond to (closed) linear subspaces. These are just the propositions in the corresponding [[quantum logic]]. If we regard the propositions _as_ the projection, then it is natural to think of it as being the _application_ of the projection, in that the truth of the proposition is thought of as the image of applying this projection. In terms of [[quantum physics]] this relation between propositions (about a [[quantum mechanical system]]) and the projection onto the coresponding subspace of the [[space of quantum states]] is what is referred to as the "collapse of the [[wave function]]".
+
+## References
+
+* Engesser, Gabbay, Lehmann, _A New Approach to Quantum Logic_ ([pdf](http://www.dcs.kcl.ac.uk/staff/dg/QuantumLogic-draft.pdf)) 
+
+[[!redirects collapse of the wavefunction]]
+[[!redirects collapse of the wave function]]
