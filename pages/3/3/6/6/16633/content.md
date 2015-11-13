@@ -18,9 +18,17 @@
 
 A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associative_ if it is a [[calibrated submanifold]], hence if the canonical 3-form $\phi$ of the $G_2$-manifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
 
-## Related concepts
+Accordingly a [[4-manifold|4-dimensional]] [[submanifold]] $\Sigma_4 \hookrightarrow X_7$ is called _coassociative_ if it is a [[calibrated submanifold]] with respect to the coassicative 4-form $\star_X \phi$.
 
-* [[membrane instanton]]
+
+## Application in string theory
+
+In [[M-theory on G2-manifolds]], 
+
+* associatvce 3-manifold appear as [[supersymmetric cycles]] relevant for [[membrane instantons]] for [[M2-branes]] [[wrapped brane|wrapping them]];
+
+* coassociative 4-manifolds appear as fibers of compactifications dual to [[F-theory on CY4-folds]] ([Gukov-Yau-Zaslow 02](#GukovYauSaslow02)).
+
 
 ## References
 
@@ -40,6 +48,9 @@ Discussion of [[wrapped branes]] on associative 3-cycles is in
 Further discussion specifically of [[M5-branes]] [[wrapped brane|wrapped]] on associative 3-cycle which are either the [[3-sphere]] or a [[hyperbolic 3-manifold]] is in
 
 * [[Bobby Acharya]], [[Jerome Gauntlett]], Nakwoo Kim, _Fivebranes Wrapped On Associative Three-Cycles_, Phys.Rev. D63 (2001) 106003 ([arXiv:hep-th/0011190](http://arxiv.org/abs/hep-th/0011190))
+
+* {#GukovYauZaslow02} [[Sergei Gukov]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Duality and Fibrations on $G_2$ Manifolds_ ([arXiv:hep-th/0203217](http://arxiv.org/abs/hep-th/0203217))
+
 
 [[!redirects associative submanifolds]]
 
