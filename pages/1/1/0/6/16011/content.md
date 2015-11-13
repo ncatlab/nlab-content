@@ -51,6 +51,10 @@ Heteromorphisms may be used to express/characterize [[adjunctions]]. For more on
 * _[adjoint (infinity,1)-functor -- In terms of cographs/Heteromorphisms](adjoint+%28infinity%2C1%29-functor#InTermsOfCographsHeteromorphisms)_
 ## References
 
+## References
+
+* {#Pareigis70} [[Bodo Pareigis]], _Categories and Functors_. New York: Academic Press 1970
+
 * {#Ellerman06} [[David Ellerman]], _A Theory of Adjoint Functors &#8212;- with Some Thoughts on Their Philosophical Significance_, in _What Is Category Theory?_, edited by Giandomenico Sica, 127&#8211;83. Milan: Polimetrica. (2006)
 
 * {#Ellerman07} [[David Ellerman]], _Adjoint Functors and Heteromorphisms_ ([arXiv:0704.2207](http://arxiv.org/abs/0704.2207))
