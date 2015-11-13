@@ -128,6 +128,7 @@ The monadicity theorem becomes more important when the base category $C$ is more
 The monadicity theorem also plays a central role in [[monadic descent]].
 
 ## In $(\infty,1)$-categories
+ {#InInfinityCategories}
 
 There is a version of the monadicity theorem for [[(∞,1)-monad]]s in [section 3.4](http://arxiv.org/PS_cache/math/pdf/0702/0702299v5.pdf#page=107) of
 
