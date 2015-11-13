@@ -43,6 +43,19 @@ The original article is
 
 * {#ABJM08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_ ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
 
+Discussion of extension to [[boundary field theory]] (describing [[M2-branes]] ending on [[M5-branes]]) includes
+
+* {#BermanThomson09} [[David Berman]], Daniel Thompson, _Membranes with a boundary_, Nucl.Phys.B820:503-533,2009 ([arXiv:0904.0241](http://arxiv.org/abs/0904.0241))
+
+A kind of [[double dimensional reduction]] of the ABJM model to something related to [[type II superstrings]] and [[D1-branes]] is discussed in
+
+* [[Horatiu Nastase]], Constantinos Papageorgakis, _Dimensional reduction of the ABJM model_,  JHEP 1103:094,2011 ([arXiv:1010.3808](http://arxiv.org/abs/1010.3808))
+
+Discussion of the ABJM model in [[Horava-Witten theory]] and reducing to [[heterotic strings]] is in
+
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+
+
 Discussion of the model as a [[higher gauge theory]] (due to its coupling to the [[supergravity C-field]]) is in 
 
 * Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
@@ -58,6 +71,6 @@ Discussion of the possible [[orbifold]]ing is in
 
 See also
 
-* Nadav Drukker, Marcos Marino, Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
+* Nadav Drukker, [[Marcos Marino]], Pavel Putrov, _From weak to strong coupling in ABJM theory_ ([arXiv:1007.3837](http://arxiv.org/abs/1007.3837))
 
 [[!redirects ABJM model]]
