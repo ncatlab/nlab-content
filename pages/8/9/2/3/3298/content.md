@@ -1935,7 +1935,7 @@ Due to the $k$-splitness assumption there is an isomorphism of $k$-modules $E \s
 
 $$
   (r_1, n_1) \cdot (r_2, n_2) =
-  (r_1 r_2 , r_1 n_2 + r_2 n_1 + f(r_1, r_2))
+  (r_1 r_2 , r_1 n_2 + n_1 r_2 + f(r_1, r_2))
   \,,
 $$
 
