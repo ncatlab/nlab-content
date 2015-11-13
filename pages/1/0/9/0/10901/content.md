@@ -113,6 +113,8 @@ Finally, in addition to these usual "denotational" categorical semantica, linear
 
 ## Related concepts
 
+* [[propositions as projections]]
+
 * [[modal type theory]]
 
 * [[geometric homotopy type theory]]
