@@ -36,6 +36,11 @@ Alternatively, it is also possible to define a split monomorphism as an __absolu
 
 Any split monomorphism is automatically a [[regular monomorphism]] (it is the [[equalizer]] of $m\circ r$ and $1_B$), and therefore also a [[strong monomorphism]], an [[extremal monomorphism]], and (of course) a [[monomorphism]].
 
+## Examples
+
+### In vector spaces
+
+In the category [[Vect]] of [[finite dimensional vector spaces]] (over any [[field]]) every monomorphism $V_1 \hookrightarrow V_2$ splits. The corresponding [[idempotent]] is the [[projection]] onto $V_1$ in $V_2$.
 
 ## In higher category theory
 
