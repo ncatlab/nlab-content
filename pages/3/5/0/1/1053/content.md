@@ -327,6 +327,7 @@ All of these justify the rules for the exponentials, so again we see that there 
 
 * [[transcendental syntax]]
 
+* [[propositions as projections]]
 
 ## References
 
