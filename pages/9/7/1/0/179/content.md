@@ -46,21 +46,35 @@ $$
 ### General abstract definition
  {#GeneralAbstractDefinition}
 
-There is a <a href="http://ncatlab.org/nlab/show/cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#FormalInfinityGroupoids">general abstract definition</a> of [[formal cohesive ∞-groupoid]]s in infinitesimal cohesive neighbourhood contexts such as $\Pi_{inf} : $ [[SynthDiff∞Grpd]] $ \to$  [[Smooth∞Grpd]]:
+We may abstractly formalize this in an [[(infinity,1)-topos]] $\mathbf{H}$ with [[differential cohesion]] as follows.
 
-+-- {: .num_defn #TheGeneralAbstractDefinition}
-###### Definition
+Recall that a [[groupoid object in an (infinity,1)-topos]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
 
-An object $(\mathfrak{a} \to \mathbf{\Pi}_{inf}(X)) \in SynthDiff\infty Grpd$ over the [[de Rham space|infinitesimal fundamental ∞-groupoid]] 
-is a
-**formal synthetic-differential $\infty$-groupoid** over $X$ if 
-$\mathbf{\Pi}_{inf} \mathfrak{a} \simeq \mathbf{\Pi}_{inf} X$.
+Now an $\infty$-Lie algebroid is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence we are after those 1-epis $X \longrightarrow \mathcal{G}$ such that under the [[infinitesimal shape modality]] $\Im$ they become equivalences.
 
-An [[∞-group]] object $\mathfrak{g} \in SynthDiff\infty Grpd$ such that its [[delooping]] $\mathbf{B} \mathfrak{g}$ is a [[formal ∞-groupoid]] we call a  **[[formal ∞-group]]** . 
+For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] 
 
-=--
+$$
+  \eta^{\Im}_X \;\colon\; X \stackrel{}{\longrightarrow} \Im X
+  \,.
+$$
 
-An **$\infty$-Lie algebroid** is supposed to be a [[formal cohesive ∞-groupoid]] whose infinitesimal extension is of first order. We now give an explicit presentation of such objects and then show that they do satisfy the abstract def. \ref{TheGeneralAbstractDefinition}.
+It follows for instance that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ (the anchor map). The naturatity square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
+
+$$
+  \array{
+     X & \stackrel{id}{\longrightarrow} & X
+     \\
+     \downarrow^{\mathrlap{p}} && \downarrow
+     \\
+      &&  \Im X
+     \\
+     \downarrow && \downarrow^{\mathrlap{\Im p}}_\simeq
+     \\
+     \mathcal{G}
+     &\stackrel{\eta^{\Im}_{\mathcal{G}}}{\longrightarrow}& \Im \mathcal{G}
+  }
+$$
 
 
 ### Presentation by dg-algebras and simplicial presheaves
@@ -297,6 +311,7 @@ The full subcategory category $L_\infty Alg \hookrightarrow L_\infty Algd$ from 
 The full subcategory $LieAlgd \hookrightarrow L_\infty Algd$ on the 1-truncated objects is equivalent to the traditional category of [[Lie algebroid]]s (over [[smooth manifold]]s).
 
 In particular the joint intersection $Lie Alg \hookrightarrow L_\infty Alg$ on the 1-truncated $L_\infty$-algebras is equivalent to the category of ordinary [[Lie algebra]]s.
+
 
 =--
 
