@@ -2462,155 +2462,34 @@ In certain contexts of infinitesimal neighbourhoods of cohesive $\infty$-toposes
 #### Formal cohesive $\infty$-groupoids
  {#FormalInfinityGroupoids}
 
-The genuine infinitesimal analog of [exponentiated ∞-Lie algebras](#LieAlgebras) are [[formal cohesive ∞-groupoid]]s.
 
-+-- {: .num_defn #InfinitesimalObject}
-###### Definition
+Recall that a [[groupoid object in an (infinity,1)-topos]] is equivalently an [[1-epimorphism]] $X \longrightarrow \mathcal{G}$, thought of as exhibiting an [[atlas]] $X$ for the groupoid $\mathcal{G}$.
 
-An object $X \in \mathbf{H}_{th}$ is an
-**infinitesimal cohesive $\infty$-groupoid** if
-$\Im X \simeq *$.
+Now an [[infinity-Lie algebroid]] is supposed to be an $\infty$-groupoid which is only infinitesimally extended over its base space $X$. Hence we are after those 1-epis $X \longrightarrow \mathcal{G}$ such that under the [[infinitesimal shape modality]] $\Im$ they become equivalences.
 
-An [[∞-group]] object $\mathfrak{g} \in \mathbf{H}_{th}$ that is infinitesimal we call an **[[formal ∞-group]]** .
-
-For $X \in \mathbf{H}$ any object, we say
-$\mathfrak{a} \in \mathbf{H}_{th}$ is a
-**[[formal cohesive ∞-groupoid]] over $X$** if $\Im(\mathfrak{a}) \simeq \Im(X)$; equivalently: if there is a morphism
+For example the tangent $\infty$-Lie algebroid $T X$ of any $X$ is the [[unit of a monad|unit]] 
 
 $$
-  \mathfrak{a} \to \Im(X)
-$$
-
-that serves as [[generalized the|the]] $(i^* \dashv i_*)$-[[unit of an adjunction|unit]] on $\mathfrak{a}$, hence as the [infinitesimal path inclusion](#InfinitesimalPathsAndReduction) for $\mathfrak{a}$.
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-An infinitesimal cohesive $\infty$-groupoid
-is both geometrically contractible and has as underlying discrete $\infty$-groupoid the point:
-
-* $\Pi X \simeq *$
-
-* $\Gamma X \simeq {*}$.
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-The first statement is implied by the fact that
-both $i_!$ as well as $i_*$ are full and faithful. This means that
-if $\mathbf{\Pi}_{\mathrm{inf}}(X) \simeq *$ then already $i^* X = \Pi_{\mathrm{inf}}(X) \simeq *$.
-Since $\Pi_{\mathbf{H}_{\mathrm{th}}} \simeq \Pi_{\mathbf{H}} \Pi_{\mathrm{inf}}$ and
-$\Pi_{\mathbf{H}}$ preserves the terminal object by cohesiveness, this implies the first claim.
-
-The second statement follows by
-$$
-  \begin{aligned}
-    \Gamma X & \simeq \mathbf{H}_{\mathrm{th}}(*,X)
-     \\
-     & \simeq \mathbf{H}_{\mathrm{th}}(\Re*, X)
-     \\
-     & \simeq \mathbf{H}_{\mathrm{th}}(*, \mathbf{\Pi}_{\mathrm{inf}}(X))
-     \\
-     & \simeq \mathbf{H}_{\mathrm{th}}(*,*)
-     \\
-     & \simeq *
-  \end{aligned}
+  \eta^{\Im}_X \;\colon\; X \stackrel{}{\longrightarrow} \Im X
   \,.
 $$
 
-=--
-
-
-
-+-- {: .num_prop}
-###### Observation
-
-For all $X \in \mathbf{H}$, we have that $X$ and $\Im(X)$ are [formal cohesive ∞-groupoids](#InfinitesimalObject) over $X$, the first by the constant infinitesmal path inclusion, the second by the identity.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-For $X$ this is tautological, for $\mathbf{\Pi}(X)$ it follows from the [idempotency of Red](#RedIsIdempotent) and the $(i^* \dashv i_*)$-[[zig-zag identity]].
-
-=--
-
-
-
-+-- {: .num_prop}
-###### Proposition
-
-
-The [[delooping]] $\mathbf{B}\mathfrak{g}$ of an [formal cohesive ∞-group](#InfinitesimalObject) $\mathfrak{g}$ is an [[formal cohesive ∞-groupoid]] over the point.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since both $i^*$ and $i_*$ are [[right adjoint]], the [infinitesimal path ∞-groupoid functor](#InfinitesimalPathsAndReduction) commutes with [[delooping]]. Therefore
+It follows for instance that every such $\infty$-Lie algebroid $X \to \mathcal{G}$ canonically maps to the tangent $\infty$-Lie algebroid of $X$ (the anchor map). The naturatity square of the unit $\eta^{\Im}_{p}$ exhibits the morphism:
 
 $$
-  \begin{aligned}
-    \Im \mathbf{B}\mathfrak{g}
-    & \simeq
-    \mathbf{B} \Im \mathfrak{g}
-    \\
-    & \simeq \mathbf{B} *
-    \\
-    & \simeq *
-    \\
-    & \simeq \Im *
-  \end{aligned}
-  \,.
+  \array{
+     X & \stackrel{id}{\longrightarrow} & X
+     \\
+     \downarrow^{\mathrlap{p}} && \downarrow
+     \\
+      &&  \Im X
+     \\
+     \downarrow && \downarrow^{\mathrlap{\Im p}}_\simeq
+     \\
+     \mathcal{G}
+     &\stackrel{\eta^{\Im}_{\mathcal{G}}}{\longrightarrow}& \Im \mathcal{G}
+  }
 $$
-
-=--
-
-
-+-- {: .num_prop}
-###### Proposition
-
-An [infinitesimal cohesive ∞-groupoid](#InfinitesimalObject)
-$X \in \mathbf{H}_{th}$ is both [geometrically contractible](#ExponentiatedLieAsGeometricallyContractible) and has as underlying [[discrete ∞-groupoid]] the point:
-
-* $\Pi X \simeq *$
-
-* $\Gamma X \simeq *$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This follows with using the [above observation](#InfinitesimalInclusionIfFullAndFaithful) from the full and faithfulness of $i_!$ and $i_*$.
-
-The former implies that with $\Im(X) \simeq *$ already $i^*X  = \Pi_{inf}X = *$. Since $\Pi_{\mathbf{H}_{th}} \simeq \Pi_{\mathbf{H}} \Pi_{inf}$ and since $\Pi_{\mathbf{H}}$ preserves the point by cohesiveness, this implies the first claim.
-
-For the latter we compute
-
-$$
-  \begin{aligned}
-    \Gamma X & \simeq \mathbf{H}_{th}(*,X)
-     \\
-     & \simeq \mathbf{H}_{th}(\Re*, X)
-     \\
-     & \simeq \mathbf{H}_{th}(*, \Im(X))
-     \\
-     & \simeq \mathbf{H}_{th}(*,*)
-     \\
-     & \simeq *
-  \end{aligned}
-  \,.
-$$
-
-=--
 
 
 #### Lie theory {#LieTheory}
