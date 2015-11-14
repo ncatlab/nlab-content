@@ -68,7 +68,7 @@ Then the _simple version_ of abelian $d$-dimensional Chern-Simons theory is defi
   is therefore
 
   $$
-    S : B \mapsto \int_\sigma B \wedge d_{dR}B
+    S : B \mapsto \int_\Sigma B \wedge d_{dR}B
     \,.
   $$
 
