@@ -27,7 +27,7 @@ An **equivalence of $2$-categories** is the appropriate notion of [[equivalence 
 
 In the literature this sort of equivalence is often called a **biequivalence**, as it has traditionally been associated with [[bicategories]], the standard algebraic definition of weak $2$-category.  There is a stricter notion of equivalence for strict $2$-categories, which traditionally is called just a *$2$-equivalence* and which on the nLab is called a [[strict 2-equivalence]].
 
-A 2-functor can be made into part of an equivalence iff it is essentially surjective on objects, essentially full on 1-cells, and fully faithful on 2-cells.
+A 2-functor can be made into part of an equivalence iff it is essentially surjective on objects, essentially full on 1-cells (i.e. essentially surjective on Hom-categories), and fully faithful on 2-cells.
 
 ## Internalization
 
