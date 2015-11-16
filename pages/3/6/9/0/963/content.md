@@ -172,6 +172,11 @@ Connections to operator algebras and etale groupoids is discussed in
 * D. Kruml, P. Resende, _On quantales that classify $C^\ast$-algebras_, Cah. Topol. Geom. Differ. Categ. __45__ (2004) 287&#8211;296.
 * [[F. Borceux]], [[J. Rosický]], G. Van den Bossche, _Quantales and $C^\ast$-algebras, J. London Math. Soc. __40__ (1989) 398&#8211;404 [doi](http://dx.doi.org/10.1112/jlms/s2-40.3.398)
 
+A connection between topoi, "Grothendieck" quantales and $C^\ast$-algebras
+
+* Simon Henry, _Toposes, quantales and C* algebras in the atomic case_, [arxiv/1311.3451](http://arxiv.org/abs/1311.3451)
+
+
  Sheaves on a quantale
 
 * [[Francis Borceux]], Rosanna Cruciani, Sheaves on a quantale, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1993) 34:3, page 209-228 [pdf](http://archive.numdam.org/article/CTGDC_1993__34_3_209_0.pdf)
