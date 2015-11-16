@@ -56,6 +56,10 @@ In particular, an "internal (bi)equivalence" in $Gray$ consists of *strict* $2$-
 * [[equivalence of (∞,1)-categories]], [[adjoint (∞,1)-functor]]
 
 
+## References
+
+* {#Zheng12} Weizhe Zheng, prop. 1.6 of _Gluing pseudofunctors via $n$-fold categories_ ([arXiv:1211.1877](http://arxiv.org/abs/1211.1877))
+
 
 [[!redirects equivalence of 2-categories]]
 [[!redirects equivalences of 2-categories]]
