@@ -609,12 +609,22 @@ we should expect there to be a topos analog of the total space, $E G$, for the c
 
 ## References ##
 
-A standard textbook reference is section D3 of
+Standard textbooks reference for classifying topoi of theories 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* [[Peter Johnstone]], _[[Sketches of an Elephant]]_,
+section D3 {#Johnstone}
+* [[Francis Borceux]], _Handbook of categorical algebra_, (in series Enc. Math. Appl.) vol. 3, Categories and sheaves, Cambridge Univ. Press 1994, Ch.4 Classifying toposes
 
-Original articles include
+The study of classifying spaces of topological categories is described in the monograph
+
+* [[Ieke Moerdijk]], _Classifying spaces, classifying topoi_,
+Lec. Notes Math. 1616, Springer Verlag 1995
+
+The original theory for a general algebraic theory is developed in 
+
+* M. Makkai, G. Reyes, _First-order categorical logic_, Lecture Notes in Mathematics 611, Springer 1977.
+
+The results for the continuous groupoids include
 
 * {#Moerdijk88} [[Ieke Moerdijk]],  The classifying topos of a continuous groupoid I, _Trans. A.M.S._ **310** (1988), 629-668.
 
@@ -632,15 +642,14 @@ Classifying toposes as [[locally algebra-ed (infinity,1)-toposes]] are discussed
 * [[Jacob Lurie]], _[[Structured Spaces]]_
  {#Lurie}
 
-The [[étale topos]] as a classifying topos for [[strict local rings]] is discussed in III.2-4 of
+The [[étale topos]] as a classifying topos for [[strict local rings]] is discussed in 
 
-* {#Hakim} [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_
- 
-
-and
-
+* {#Hakim} [[Monique Hakim]], _Topos annel&#233;s et sch&#233;mas relatifs_, Sec. III.2-4
 * {#Wraith} [[Gavin Wraith]], _Generic Galois theory of local rings_
  
+[[Nikolai Durov]] has introduced somewhat a generalization of topos called [[vectoid]] and quite flexible notion of a classifying vectoid in 
+
+* [[Nikolai Durov]], _Classifying vectoids and generalisations of operads_, [arxiv/1105.3114](http://arxiv.org/abs/1105.3114), the translation of "&#1050;&#1083;&#1072;&#1089;&#1089;&#1080;&#1092;&#1080;&#1094;&#1080;&#1088;&#1091;&#1102;&#1097;&#1080;&#1077; &#1074;&#1077;&#1082;&#1090;&#1086;&#1080;&#1076;&#1099; &#1080; &#1082;&#1083;&#1072;&#1089;&#1089;&#1099; &#1086;&#1087;&#1077;&#1088;&#1072;&#1076;", Trudy MIAN, vol. 273
 
 [[!redirects Another page]]
 [[!redirects classifying toposes]]
