@@ -23,7 +23,7 @@
 Given a [[Feynman propagator]] $\frac{1}{H}$, then the corresponding _vacuum energy_ $Z$ is the [[logarithm]] of the [[functional determinant]] $det_{reg}$ of $H$
 
 $$
-  Z \coloneqq log\,det_{reg} H
+  Z \coloneqq -log\,det_{reg} H
   \,.
 $$
 
@@ -45,7 +45,7 @@ See at _[zeta function of an elliptic differential operator -- Functional determ
 
 Traditionally the vacuum energy is expressed in terms of a hypothetical [[path integral]]. (As opposed to the [above](#InTermsOfSpecialValuesOfZetaFunctions) zeta-function formalization this is not rigorous, but it serves to give the idea of _why_ this is the vacuum energy and the the zeta-function expression may be taken to be the rigorous definition of the path integral heuristics.)
 
-By [[analogy]] with finite-dimensional [[Gaussian integrals]] one expects that the [[Wick rotation|Wick rotated]] [[vacuum amplitude]] version of the [[path integral]] (no [[field (physics)|field]] insertions, no [[boundary field theory|boundary conditions]]) is
+By [[analogy]] with finite-dimensional [[Gaussian integrals]] (see at _[Feynman diagram -- For finitely many degrees of freedom](Feynman+diagram#ForFinitelyManyDegreesOfFreedom)_) one expects that the [[Wick rotation|Wick rotated]] [[vacuum amplitude]] version of the [[path integral]] (no [[field (physics)|field]] insertions, no [[boundary field theory|boundary conditions]]) is
 
 $$
   \underset{\phi \in \mathbf{Fields}}{\int} 
@@ -59,7 +59,12 @@ $$
 Therefore 
 
 $$
-  Z = \frac{1}{2}log\, det_{reg} H 
+  log
+    \underset{\phi \in \mathbf{Fields}}{\int} 
+   \exp(- S_H(\phi))
+  D\phi
+  =
+  -\frac{1}{2}log\, det_{reg} H 
 $$
 
 is the [[generating functional]] for [[n-point functions]]. (...)
