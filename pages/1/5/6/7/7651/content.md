@@ -129,7 +129,7 @@ vector fields and flows)
 
 * [[fiber integration]], [[fiber integration in differential cohomology]]
 
-* [[Gaussian integral]]
+* [[Gaussian integral]], [[Feynman diagram]]
 
 * [[Lie integration]]
 
