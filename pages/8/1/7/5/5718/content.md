@@ -221,7 +221,7 @@ Early accounts include
 
 * Hubert Goldschmidt, _Integrability criteria for systems of nonlinear partial differential equations_, J. Differential Geom. Volume 1, Number 3-4 (1967), 269-307 ([Euclid](http://projecteuclid.org/euclid.jdg/1214428094))
 
-Discussion of the [[Frechet manifold]] structure on jet bundles includes
+{#DiscussionOfFrechetManifoldStructure} Discussion of the [[Frechet manifold]] structure on jet bundles includes
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
 
