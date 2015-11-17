@@ -1,4 +1,11 @@
 
+
+$$
+  \tfrac{1}{2} a x^2 - b x 
+  =
+  \tfrac{1}{2} a(x - b/a)^2 - \tfrac{1}{2}b^2 a^{-1}
+$$
+
 ## Related concepts
 
 * [[quadratic form]]
