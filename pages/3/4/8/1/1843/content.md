@@ -22,6 +22,8 @@
 
 The **Kalb-Ramond field**  or **B-field** is the [[higher U(1)-gauge field]] that generalizes the [[electromagnetic field]] from point [[particles]] to [[string theory|strings]].
 
+Its dual incarnation in [[KK-compactifications]] of [[heterotic string theory]] to 4d is a candidate for the hypothetical [[axion]] field ([Svrcek-Witten 06, p. 15](#SvrcekWitten06)).
+
 Recall that the [[electromagnetic field]] is modeled as a [[cocycle]] in degree 2 [[ordinary differential cohomology]] and that this mathematical model is fixed by the fact that charged particles that trace out 1-dimensional trajectories couple to the electromagnetic field by an [[action functional]] that sends each trajectory to the holonomy of a $U(1)$-[[connection on a bundle|connection]] on it.
 
 When replacing particles with 1-dimensional trajectories by [[string theory|strings]] with 2-dimensional trajectories, one accordingly expects that they may couple to a higher degree background field given by a degree 3 [[ordinary differential cohomology]] cocycle.
@@ -96,8 +98,12 @@ The restriction of the Kalb-Ramond field in the 10-dimensional [[spacetime]] to 
 
 The name goes back to the article
 
-* M. Kalb and [[Pierre Ramond]], _Classical direct interstring action, Phys. Rev. D. 9 (1974), 2273&#8211;2284_
- {#KalbRamond}
+* {#KalbRamond} M. Kalb and [[Pierre Ramond]], _Classical direct interstring action, Phys. Rev. D. 9 (1974), 2273&#8211;2284_
+ 
+
+The interpretation as a 4d [[axion]] is discussed in
+
+* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
 The earliest reference where the gauge term in the standard string [[action functional]] is identified with the surface holonomy of a 3-cocycle in [[Deligne cohomology]] seems to be
 
@@ -133,8 +139,8 @@ See at _[[orientifold]]_ for more on this.
 
 The role of the KR field in [[twisted K-theory]] is discussed a bit also in 
 
-* [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
-  {#Moore}
+* {#Moore} [[Greg Moore]], _K-theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
+  
 
 [[!redirects Kalb--Ramond field]]
 [[!redirects Kalb–Ramond field]]
@@ -143,4 +149,3 @@ The role of the KR field in [[twisted K-theory]] is discussed a bit also in
 
 
 [[!redirects B2-field]]
-
