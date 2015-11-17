@@ -19,6 +19,14 @@ Discussion in the context of [[gauged supergravity]] includes
 
 * J. D. Edelstein, A. Paredes, A. V. Ramallo, _Singularity Resolution in Gauged Supergravity and Conifold Unification_, Phys.Lett. B554 (2003) 197-206 ([arXiv:hep-th/0212139](http://arxiv.org/abs/hep-th/0212139))
 
+Discussion in [[M-theory]]
+
+* [[Sergei Gukov]], James Sparks, [[David Tong]], _Conifold Transitions and Five-Brane Condensation in M-Theory on Spin(7) Manifolds_, Class.Quant.Grav.20:665-706,2003 ([arXiv:hep-th/0207244](http://arxiv.org/abs/hep-th/0207244))
+
+
+* [[Kenneth Intriligator]], Hans Jockers, [[Peter Mayr]], [[David Morrison]], M. Ronen Plesser, _Conifold Transitions in M-theory on Calabi-Yau Fourfolds with Background Fluxes_, Adv.Theor.Math.Phys. 17 (2013) 601-699 ([arXiv:1203.6662](http://arxiv.org/abs/1203.6662))
+
+
 
 [[!redirects conifold]]
 [[!redirects conifolds]]
