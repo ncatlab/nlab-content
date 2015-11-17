@@ -32,6 +32,7 @@ The original articles are
 
 * [[John von Neumann]], _&#220;ber Einen Satz Von Herrn M. H. Stone_ (in German), Annals of Mathematics, Second Series 33 (3): 567&#8211;573, ISSN 0003-486X
 
+* [[Marc Rieffel]], _On the uniqueness of the Heisenberg commutation relations_ ([pdf](http://www.univie.ac.at/nuhag-php/bibtex/open_files/ri72_rieffuhcr.pdf))
 
 [[!redirects Stone von Neumann theorem]]
 [[!redirects Stone-von Neumann theorem]]
