@@ -76,6 +76,10 @@ For $G$ a [[finite group]] and $\mathcal{C}= G Set$ its category of [[permutatio
 For $\mathcal{C}$ an [[abelian category]] this definition reduces ([Barwick 14](#Barwick14)) Mackey functors as originally defined in ([Dress 71](#Dress71)).
 
 
+## Examples
+
+* [[equivariant sphere spectrum]]
+
 
 ## Equivariant cohomology
 
@@ -105,6 +109,8 @@ and a more modern version taking into account the theory of [[symmetric monoidal
 
 * [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
 
+* [[Stefan Schwede]], _Lectures on equivariant stable homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+ 
 An alternative perspective on this is in 
 
 * [[Mark Hovey]], [[David White]], _An alternative approach to equivariant stable homotopy theory_ ([arXiv:1312.3846](http://arxiv.org/abs/1312.3846))
