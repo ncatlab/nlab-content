@@ -49,7 +49,7 @@ $$ \hat \zeta(s) = \int_0^\infty t^{s-1} \hat \theta(t) \, d t $$
 More generally, the Mellin transform appears as a stage in the expression of [[zeta functions]] as [[adelic integrals]] in [[Iwasawa-Tate theory]].
 
 ### 1-loop vacuum amplitudes
- {1LoopVacuumAmplitudes}
+ {#1LoopVacuumAmplitudes}
 
 [[1-loop vacuum amplitudes]] in [[quantum field theory]] are analytically continued Mellin transforms of [[partition functions]]. Here the parameter $\tau$ is called the _[[Schwinger parameter]]_ and the Mellin transform turns the [[worldline formalism]]-picture into the [[Feynman propagator]]-picture.
 
