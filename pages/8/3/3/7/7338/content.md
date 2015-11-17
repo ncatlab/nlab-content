@@ -1,3 +1,4 @@
+[[!redirects Ken Intriligator]]
 
 * [webpage](http://einstein.ucsd.edu/keni/)
 
