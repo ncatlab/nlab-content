@@ -69,6 +69,8 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 
 * [[Veneziano amplitude]]
 
+* [[Virasoro-Shapiro amplitude]]
+
 * [[vacuum amplitude]]
 
 ## Related entries
@@ -83,6 +85,15 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 
 ## References
  {#References}
+
+### General
+
+Survey of the tree level string scattering amplitudes includes
+
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
+For more references see also at _[[string theory results applied elsewhere]]_.
+
 
 ### Higher order corrections
 
@@ -188,9 +199,7 @@ See also
 
 * [[Ashoke Sen]], _Supersymmetry Restoration in Superstring Perturbation Theory_ ([arXiv:1508.02481](http://arxiv.org/abs/1508.02481))
 
-### General
 
-For more references see, for the moment, at _[[string theory results applied elsewhere]]_.
 
 ### More
 
