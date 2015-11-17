@@ -341,23 +341,26 @@ Line 2-bundles in [[supergeometry]] as a model for the [[B-field]] and [[orienti
 
 based on the old results about the [[Picard 2-groupoid]] of complex [[super algebras]]
 
-* [[C. T. C. Wall]], _Graded Brauer groups_, J. Reine Angew. Math. 213 (1963/1964), 187-199. 
- {#Wall}
-
+* {#Wall} [[C. T. C. Wall]], _Graded Brauer groups_, J. Reine Angew. Math. 213 (1963/1964), 187-199. 
+ 
 and based on the discussion of [[twisted K-theory]] in 
 
-* [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
- {#DonovanKaroubi}
+* {#DonovanKaroubi} [[Peter Donovan]], [[Max Karoubi]], _Graded Brauer groups and $K$-theory with local coefficients_, Publications Math&#233;matiques de l'IH&#201;S, 38 (1970), p. 5-25  ([numdam](http://www.numdam.org/item?id=PMIHES_1970__38__5_0))
+ 
 
 as refined in 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_,  Journal of Topology (2011) 4 (4): 737-798 ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) 
- {#FreedHopkinsTeleman}
+* {#FreedHopkinsTeleman} [[Daniel Freed]], [[Michael Hopkins]], [[Constantin Teleman]], _Loop groups and twisted K-theory I_,  Journal of Topology (2011) 4 (4): 737-798 ([arXiv:0711.1906](http://arxiv.org/abs/0711.1906)) 
+ 
 
 and developing constructions in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
- {#Precis}
+* {#Precis} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+ 
+See also
+
+* [[Tadeusz Józefiak]], _Semisimple Superalgebras_,  Volume 1352 of the series Lecture Notes in Mathematics pp 96-113.
+
 
 Similar comments appear earlier on p. 8 and following of
 
@@ -365,14 +368,13 @@ Similar comments appear earlier on p. 8 and following of
 
 The above higher supergeometric story is made explicit in 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
- {#FSS}
+* {#FSS} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_
+ 
 
 The "unconnected delooping" of the [[infinity-group of units]] of an $E_\infty$-ring $E$ is introduced in 
 
-* [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
- {#Sagave11}
-
+* {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+ 
 and the specific example for the case of  $E = KU$ is in example 4.10 there.
 
 [[!redirects super line 2-bundles]]
