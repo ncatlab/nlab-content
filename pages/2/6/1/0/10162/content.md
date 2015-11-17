@@ -5,7 +5,7 @@
 
 ## Idea
 
-A [[group]] of [[matrices]] under [[matrix multiplication]], hence a [[subgroup]] of a [[general linear group]].
+A [[group]] of [[invertible matrix|invertible]] [[matrices]] under [[matrix multiplication]], hence a [[subgroup]] of a [[general linear group]].
 
 Often: _[[matrix Lie group]]_.
 
