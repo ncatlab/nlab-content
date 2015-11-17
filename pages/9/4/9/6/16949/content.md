@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.math.uni-bonn.de/people/irpatchk/)
+
+## related $n$Lab entries
+
+* [[global equivariant stable homotopy theory]]
+
+category: people
