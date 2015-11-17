@@ -116,7 +116,7 @@ $$
   \,,
 $$
 
-where $A^{-1} = (A^{-1}_{x y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A$ is called the _[[Feynman propagator]]_.
+where $A^{-1} = (A^{-1}_{x y})$ is the [[inverse matrix]] of $A$. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
 
 By construction, the $n$-point function is then equal to the [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$:
 
