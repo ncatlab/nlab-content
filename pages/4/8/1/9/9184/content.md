@@ -16,7 +16,18 @@
 
 ## Idea
 
-A hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
+The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
+
+## In string theory
+
+In [[string theory]] axion fields naturally arise in various ways [Svrcek-Witten 06](#SvrcekWitten06):
+
+> An obvious question about the axion hypothesis is how natural it really is. Why
+introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken.([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
+
+
+In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualizes, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)), 
+
 
 ## Related concepts
 
