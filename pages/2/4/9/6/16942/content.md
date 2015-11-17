@@ -1,0 +1,15 @@
+
+
+* [webpage](http://pantheon.yale.edu/~rshankar/)
+
+## related $n$Lab entries
+
+* [[S-matrix]]
+
+* [[effective field theory]]
+
+* [[condensed matter physics]]
+
+category: people
+
+[[!redirects R. Shankar]]
