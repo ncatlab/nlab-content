@@ -62,14 +62,14 @@ For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian categor
 
 ### Genuine equivariant spectra
 
-For $G$ a [[finite group]] let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ ()possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here.
+For $G$ a [[finite group]] let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
 Then Mackey functors on $\mathcal{C}$ are equivalently  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
 
 
 (...)
  
-For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor us given by the assignment
+For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor is given by the assignment
 
 $$
   G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
