@@ -128,6 +128,8 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 
 ## References
 
+### General
+
 The modern picture of effective low-energy QFT goes back to 
 
 * L. P. Kadanoff, _Scaling laws for Ising models near $T_c$_ , Physica 2 (1966);
@@ -197,6 +199,12 @@ Comments on this point are also in
 See also
 
 * [[Alastair Hamilton]], _On two constructions of an effective field theory_ ([arXiv:1502.05790](http://arxiv.org/abs/1502.05790))
+
+### For string theory
+
+Discussion of the effective field theories induced by [[string theory]] includes
+
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chpater 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer
 
 [[!redirects effective quantum field theories]]
 
