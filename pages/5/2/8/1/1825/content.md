@@ -101,6 +101,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 ## References
 
+### Formalization
+
 Axiomatization of the [[homotopy type]] of the 1-sphere (the [[circle]]) and the 2-sphere, as [[higher inductive types]], is in 
 
 * [[Univalent Foundations Project]], section 6.4 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
@@ -108,6 +110,14 @@ Axiomatization of the [[homotopy type]] of the 1-sphere (the [[circle]]) and the
 Visualization of the idea of the construction for the 2-sphere is in 
 
 * [[Andrej Bauer]], _HoTT $S^2$_ ([video](https://vimeo.com/119606901))
+
+### Group actions on spheres
+
+Discussion of [[free actions]] by [[finite groups]] on spheres includes
+
+* [[Alejandro Adem]], _Constructing and Deconstructing Group Actions_ ([arXiv:0212280](http://arxiv.org/abs/math/0212280))
+
+See also the [[ADE classification]] of such actions on the [[7-sphere]] (as discussed there)
 
 [[!redirects n-sphere]]
 [[!redirects n-spheres]]
