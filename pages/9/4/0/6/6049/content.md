@@ -77,23 +77,21 @@ Lifting that configuration to [[11-dimensional supergravity]] gives [[M5-branes]
 
 ## References
 
-### General
+### As a black brane
 
 The 5-brane in [[heterotic string theory]] was found as a [[black brane]] in
 
 * {#Strominger91} [[Andrew Strominger]], _Heterotic solitons_, Nucl.Phys. B343 (1990) 167-184 Nucl.Phys. B353 (1991) 565 ([spire](http://inspirehep.net/record/27900))
 
-See also at _[[dual heterotic string theory]]_.
+* Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
-The [[Green-Schwarz action functionals]] for the NS5-brane are discussed in
+### As a Green-Schwarz sigma-model
+
+See also at _[[dual heterotic string theory]]_. The [[Green-Schwarz action functionals]] for the NS5-brane are discussed in
 
 * [[Igor Bandos]], Alexei Nurmagambetov, [[Dmitri Sorokin]], _The type IIA NS5--Brane_ ([arXiv:hep-th/0003169](http://arxiv.org/abs/hep-th/0003169))
 
-* Marco Cariglia, Kurt Lechner, _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
-
 * Daniel Persson, _Fivebrane Instantons and Hypermultiplets_ (2010) ([pdf](http://string.lpthe.jussieu.fr/QKPHYS2010/Persson.pdf))
-
-### As higher super-GS-WZW type $\sigma$-models
 
 Discussion from the point of view of [[Green-Schwarz action functional]]-[[schreiber:∞-Wess-Zumino-Witten theory]] is in
 
