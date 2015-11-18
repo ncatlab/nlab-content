@@ -17,13 +17,13 @@ In particular, a [[rational function]] $p/q \in \mathbb{C}(z)$ may be interprete
 
 ## Synthetic projective lines
 
-It is possible to define a synthetic/axiomatic notion of "projective line", somewhat analogously to the synthetic definition of [[projective plane]].  It is less obvious how to do this, since there is no relation of "incidence" inside a projective line.  One approach, due to [(Buekenhout)](#Buekenhout74), is to axiomatize the collection of "central collineations" of a projective line.
+It is possible to define a [[synthetic mathematics|synthetic]]/[[axiom|axiomatic]] notion of "projective line", somewhat analogously to the synthetic definition of [[projective plane]].  It is less obvious how to do this, since there is no relation of "incidence" inside a projective line.  One approach, due to [(Buekenhout)](#Buekenhout74), is to axiomatize the collection of "central collineations" of a projective line.
 
 In general, if $\ell$ is a hyperplane (an $(n-1)$-dimensional subspace) in an $n$-dimensional [[projective space]] $\pi$, a *central collineation* of $\ell$ is a [[projectivity]] from it to itself determined as the composite of two [[perspectivities]].  That is, we pick some other hyperplane $h$ and two points $O$ and $O'$ not on either $\ell$ or $h$, and we map a point $P\in\ell$ first to $P' = PO \cap h$ and then to $P'' = P'O'\cap \ell$.  This is a [[collineation]], i.e. it preserves incidence relations.  The point $OO' \cap \ell$ is called the *center* of the central collineation, and the $(n-2)$-dimensional space $\ell\cap h$ is called its *axis*.
 
 This construction still works even when $n=2$, but of course since $\ell$ is only a line it has no "incidence structure" to be preserved, so the name "collineation" is not very appropriate.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(Buekenhout)**
 A **projective line** is a set $\ell$ of cardinality $\ge 3$ together with
@@ -44,8 +44,8 @@ A projective line is **Desarguesian** if in addition $\Lambda(p,q)$ acts [[trans
 
 ## References
 
-* Francis Buekenhout, *Foundations of one Dimensional Projective Geometry based on Perspectivities*.  Abhandlungen aus dem Mathematischen Seminar der Universit&#228;t Hamburg, 43 (1975) 21-29
-{#Buekenhout74}
+* {#Buekenhout74} Francis Buekenhout, *Foundations of one Dimensional Projective Geometry based on Perspectivities*.  Abhandlungen aus dem Mathematischen Seminar der Universit&#228;t Hamburg, 43 (1975) 21-29
+
 
 
 [[!redirects projective lines]]
