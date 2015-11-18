@@ -23,7 +23,7 @@ The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of
 
 ## Relation to D6-brane and D7-branes
 
-Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] (see [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
+Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95](#Townsend95), see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
 
 Under [[T-duality]] to [[type IIB superstring theory]]/[[F-theory]] these become the [[D7-branes]].
 
@@ -56,6 +56,8 @@ $$
 * [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
 
 * {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
+
+* {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
 * [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
