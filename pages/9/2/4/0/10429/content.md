@@ -83,6 +83,8 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 * Levin M. and Wen X-G., _Detecting topological order in a ground state wave function_, Phys. Rev. Letts.,96(11), 110405, (2006)
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
 * [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, [arxiv/1306.5570](http://arxiv.org/abs/1306.5570)
+* Yosuke Kubota, _Controlled topological phases and bulk-edge correspondence_, [arxiv/1511.05314](http://arxiv.org/abs/1511.05314)
+ 
 
 ### Research groups
 
