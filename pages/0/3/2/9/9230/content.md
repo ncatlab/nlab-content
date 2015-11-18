@@ -187,7 +187,7 @@ $$
 
 By [[Wick's theorem]] stated above, each $\langle V(\phi)^\ell\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an edge produces a diagram, this is the corresponding Feynman diagram.
 
-For instance for a cubic point interaction
+For instance, for a cubic point interaction
 
 $$
   V(\phi) = \sum_x \phi_x^3
@@ -208,20 +208,20 @@ $$
     prefactor
     \;
     \sum_{x_1,x_2 = 1}^k 
-    \underset{theta\, diagram}{\underbrace{A^{-1}_{x_1 x_1} A^{-1}_{x_1 x_2} A^{-1}_{x_2 x_2}}}
+    \underset{dumbbell\, diagram}{\underbrace{A^{-1}_{x_1 x_1} A^{-1}_{x_1 x_2} A^{-1}_{x_2 x_2}}}
     +
     prefactor
     \;
     \sum_{x_1, x_2 = 1}^k 
-    \underset{dumbbell\, diagram}{\underbrace{A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2}}}
+    \underset{theta\, diagram}{\underbrace{A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2} A^{-1}_{x_1 x_2}}}
   \end{aligned}
 $$
 
-Here the first "theta diagram" summand corresponds to the Feynman diagram 
+Here the first "dumbbell diagram" summand corresponds to the Feynman diagram 
 
 <img src="http://ncatlab.org/nlab/files/dumbbellFeynmanDiagramm.png" width="200" > 
 
-and the second "dumbbell diagram" summand corresponds to the Feynman diagram of the form
+and the second "theta diagram" summand corresponds to the Feynman diagram of the form
 
 <img src="http://ncatlab.org/nlab/files/thetaFeynmanDiagramm.png" width="200">.
 
