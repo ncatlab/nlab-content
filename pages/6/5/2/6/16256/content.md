@@ -21,8 +21,15 @@
 
 The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
-Under the relation between [[M-theory]] and [[type IIA superstring theory]] the KK-monopole corresponds to the [[D6-brane]].
+## Relation to D6-brane and D7-branes
 
+Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] (see [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
+
+Under [[T-duality]] to [[type IIB superstring theory]]/[[F-theory]] these become the [[D7-branes]].
+
+[[!include F-branes -- table]]
+
+## Brane charges
 
 In ([Hull 97](#Hull97)) it was argued that the KK-monopole in [[11-dimensional supergravity]] is the object which carries the 6-form charge [[Poincaré duality|Poincaré dual]] to the time-component of the 5-form charge of the [[M5-brane]] as appearing in the [[M-theory super Lie algebra]] via
 
@@ -54,9 +61,13 @@ $$
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
+* {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter From $G_2$ Manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXivLhep-th/0205184](http://arxiv.org/abs/hep-th/0205184))
+
+
 * Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
 
 [[!redirects Kaluza-Klein monopoles]]
 
