@@ -1,0 +1,6 @@
+
+A square [[matrix]] $(A_{x,y})\in Mat_{n \times n}(R)$ whose values for $x\neq y$ are all [[zero]].
+
+Diagonal matrices form the [[center]] of the ring of matrices under [[matrix multiplication]].
+
+[[!redirects diagonal matrices]]
