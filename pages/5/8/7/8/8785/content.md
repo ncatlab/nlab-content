@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Dolbeaul complex_ is the analog of the [[de Rham complex]] in [[complex geometry]].
+The _Dolbeault complex_ is the analog of the [[de Rham complex]] in [[complex geometry]].
 
 
 ## Definition
@@ -48,7 +48,7 @@ The _Dolbeault complex_ of $X$ is the [[chain complex]] $(\Omega^{\bullet, \bull
 
 Here $\Omega^{p,0}(X)$ defines a [[holomorphic vector bundle]] and a [[holomorphic section]] is a differential form with local expression as above, such that the coefficient functions $f_{I J}$ are [[holomorphic functions]]. This is called a _holomorphic differential form_.
 
-For $p \lt dim_{\mathbb{C}}(X)$ equivalently this is a differential form in the [[kernel]] of the antiholomorphic Dolbeaul operator $\bar \partial$.
+For $p \lt dim_{\mathbb{C}}(X)$ equivalently this is a differential form in the [[kernel]] of the antiholomorphic Dolbeault operator $\bar \partial$.
 
 ## Properties
 
