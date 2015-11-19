@@ -21,7 +21,7 @@
 
 ## Idea
 
-Equivariant stable homotopy theory over some [[topological group]] $G$ is the [[stable homotopy theory]] of [[G-spectra]]. This includes the [[naive G-spectra]] which constitute the actual [[stabilization]] of [[equivariant homotopy theory]], but is more general.
+Equivariant stable homotopy theory over some [[topological group]] $G$ is the [[stable homotopy theory]] of [[G-spectra]]. This includes the [[naive G-spectra]] which constitute the actual [[stabilization]] of [[equivariant homotopy theory]], but is more general, one speaks of _genuine $G$-spectra_. Notably a genuine $G$-spectrum has [[homotopy groups]] graded by the group of [[integers]], but by the [[representation ring]] of $G$ (usually called [[RO(G)-grading]]).
 
 The concept of [[cohomology]] in equivariant stable homotopy theory is _[[equivariant cohomology]]_:
 
@@ -33,9 +33,9 @@ The concept of [[cohomology]] in equivariant stable homotopy theory is _[[equiva
 
 The definition of _[[G-spectrum]]_ is typically given in generalization of the definition of [[coordinate-free spectrum]].
 
-A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of countably many copies of a given [[set]] of (finite dimensional? -DMR) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
+A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of [[countable|countably]] many copies of a given [[set]] of (finite dimensional? -DMR) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
 
-Each such subspace of $U$ (representation contained in $U$? -DMR) is called an _indexing space_ . For $V \subset W$ indexing spaces, write $W-V$ for the orthogonal complement of $V$ in $W$. Write $S^V$ for the [[one-point compactification]] of $V$ and for $X$ any (pointed) [[topological space]] write $\Omega^V := [S^V,X]$ for the corresponding (based) sphere space.
+Each such subspace of $U$ (representation contained in $U$? -DMR) is called an _indexing space_ ([[RO(G)-grading]]). For $V \subset W$ indexing spaces, write $W-V$ for the orthogonal complement of $V$ in $W$. Write $S^V$ for the [[one-point compactification]] of $V$; and for $X$ any (pointed) [[topological space]] write $\Omega^V := [S^V,X]$ for the corresponding (based) sphere space.
 
 A **[[G-space]]** in the following means a [[pointed object|pointed]] [[topological space]] equipped with a continuous [[action]] of the [[topological group]] $G$ that fixes the base point. A  morphism of $G$-spaces is a continuous map that fixes the basepoints and is $G$-equivariant.
 
@@ -48,7 +48,7 @@ A **$G$-spectrum** $E$ (indexed on the chosen universe $U$) is
 * for each pair $V \subset W$ of indexing spaces a $G$-equivariant [[homeomorphism]]
 
   $$
-    E V \stackrel{\simeq}{\to} \Omega^{W-V} E 
+    E V \stackrel{\simeq}{\to} \Omega^{W-V} E W
     \,.
   $$
 
@@ -60,6 +60,9 @@ a morphism $f$ of $G$-spectra is a **weak equivalence of $G$-spectra** if for ev
 
 This may be expressed directly in terms of the notion of **homotopy group of a $G$-spectrum**: this is ...
 
+### In terms of orthogonal spectra with $G$-action
+
+... ([Schwede 15](#Schwede15))...
 
 ### In terms of Mackey-functors
 
@@ -97,11 +100,17 @@ Introductions and surveys include
 
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
-* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](math.northwestern.edu/~bohmann/basicequivnotions.pdf&#8206;))
+* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](http://math.northwestern.edu/~bohmann/basicequivnotions.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-A comprehensive textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
+* [[Brooke Shipley]], _An introduction to equivariant homotopy theory_ ([pdf](http://homepages.math.uic.edu/~bshipley/bonn.2.pdf))
+
+Lecture notes on [[G-spectra]] modeled as [[orthogonal spectra]] with $G$-actions are
+
+* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
 
 * L.G. Lewis, [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
@@ -109,7 +118,6 @@ and a more modern version taking into account the theory of [[symmetric monoidal
 
 * [[Michael  Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Mem. Amer. Math. Soc. 159 (2002), no. 755, x+108. MR 2003i:55012 ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf), [K-theory archive](http://www.math.uiuc.edu/K-theory/0408/))
 
-* [[Stefan Schwede]], _Lectures on equivariant stable homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
  
 An alternative perspective on this is in 
 
