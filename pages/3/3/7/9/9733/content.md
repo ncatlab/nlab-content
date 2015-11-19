@@ -67,6 +67,10 @@ Further discussion in the context of [[2-algebraic geometry]] is in
 
 * {#Brandenburg14} [[Martin Brandenburg]], _Tensor categorical foundations of algebraic geometry_ ([arXiv:1410.1716](http://arxiv.org/abs/1410.1716))
 
+For the [[equivariant stable homotopy theory|equivariant stable homotopy category]]:
+
+* [[Paul Balmer]], [[Beren Sanders]], _The spectrum of the equivariant stable homotopy category of a finite group_ ([arXiv:1508.03969](http://arxiv.org/abs/1508.03969))
+
 [[!redirects spectra of tensor triangulated categories]]
 
 [[!redirects spectrum of a triangulated category]]
