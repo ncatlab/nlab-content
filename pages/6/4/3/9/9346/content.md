@@ -51,15 +51,38 @@ While the string perturbation series is a well-defined expression analogous to t
 
 This situation is analogous to the following simple setup: the theory of [[smooth functions]] on the [[real line]] can be approximated by the theory of [[Taylor series]]. Now the notion of Taylor series has some variants, say to the theory of [[species]]. But then the question arises: what is to species as Taylor series were to smooth functions?
 
-There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown.
+There are a host of educated guesses of what non-perturbative string theory might be, if anything, but it remains unknown. At some point the term _[[M-theory]]_ had been established for whatever that non-perturbative theory is, but even though it already has a name, it still remains unknown. (Or rather: its full incarnation remains unknown. What is well defined is [[11-dimensional supergravity]] with some [[M-brane]] effects and [[gauge enhancement]] included, and that is what is presently being studied under the name "M-theory", see for instance at _[[M-theory on G2-manifolds]]_; and see also at _[[F-theory]]_.)
 
 Therefore if the qualification "perturbative"/"non-perturbative" is suppressed, then the term "string theory" is quite ambiguous and has frequently led to misunderstanding. Perturbative string theory is a well defined and formally suggestive variant of established perturbation theory in QFT. Non-Perturbative string theory on the other hand is a hypothetical refinement of this perturbative theory of which there are maybe some hints, but which by and large remains mysterious, if it exists at all.
 
+#### Then why not consider perturbative $p$-brane scattering for any $p$?
+ {#WhyNopBranePerturbationTheory}
+
+The [above](#WhatIsStringTheory) motivation of perturbative string theory as the evident result of replacing the definition of an [[S-matrix]] [[perturbation theory]], via 1-dimensional [[Feynman diagrams]] encoding [[worldlines]] of particles, by 2-dimensional diagrams ([[Riemann surfaces]]) encoding [[worldsheets]] of [[strings]] raises the evident question: why stop at strings? Why not consider an [[S-matrix]] built as the sum of the [[correlators]] of a [[worldvolume]] field theory for each $p+1$-dimensional [[manifold]], encoding the propagation of a _[[membrane]]_ for $p = 2$, and generally of (what is called) a _[[p-brane]]_?
+
+To answers this, it is again crucial to distinguish between the [[perturbation theory]] and the [[non-perturbative quantum field theory|non-perturbative theory]]. On the one hand, study of the string perturbation theory shows that indeed strings interact with and gives rise to $p$-[[branes]] for many different values of $p$. But the dynamics of all these higher dimensional branes itself seems to be intrinsically non-perturbative. What does not seem to exist is a sensible perturbation series for $p$-brane scattering with $p \gt 1$.
+
+The reason is that it is hard and seems impossible to make sense of this. There are two technical problems:
+
+1. for $p \gt 1$ then the standard worldvolume action functionals ([[Nambu-Goto action]]), are not renormalizable;
+
+1. for $p \gt 1$ the [[moduli spaces]] of p+1-manifolds are not controllable.
+
+So for $p \gt 1$ one a) does not know how to define the "Feynman amplitudes" and b) even if one did, one does not know how against what to integrate them.
+
+Each of these two problems in itself makes a $p$-brane perturbation theory for $p \gt 1$ be hard to come by.
+
+That is, incidentally, the very reason for the term "M-theory". First there had been the observation that the super 1-brane in 10d target spacetimes is accompanied by a 2-brane in 11d target spacetime, now called the _[[M2-brane]]_ (for the history see [[Mike Duff]], _[[The World in Eleven Dimensions]]_). This suggested the evident idea that there ought to be perturbation theory for 2-branes -- called _[[membranes]]_, hence that there ought to be "membrane theory" in direct analogy with "string theory". But the above two problems make a direct such analogy unlikely. Nevertheless, since there might be a less obvious, more sophisticated kind of analogy, [[Edward Witten]] proposed to say "M-theory" as an abbreviation, not to commit himself to what exactly might be really going on, and leaving open for the future if "M" is for "membrane" or for something else:
+
+> As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95](M-theory#HoravaWitten95))
+
+> _M_ stands for _magic_, _mystery_, or _membrane_, according to taste ([Witten 95](M-theory#Witten95))
+
 ### Why is string theory controversial?
 
-As a [[theory (physics)|theory]] of the [[observable universe]] that is supposed to checked by [[experiment]] which predicts that all [[fundamental particles]] of the [[standard model of particle physics]] are secretly, if one probes at high enough [[energy]], excitations of [[superstrings]], string theory is an unproven hypothesis.  
+As a [[theory (physics)|theory]] of the [[observable universe]] that is supposed to checked by [[experiment]] and which predicts that all [[fundamental particles]] of the [[standard model of particle physics]] are secretly, if one probes at high enough [[energy]], excitations of [[superstrings]], string theory is an unproven hypothesis.  
 
-Current particle accelerator technology (notably the [[LHC]]) are about 15 orders of magnitude (hence far, far) away from the energy scale at which these strings would manifest themselves _directly_. 
+Current particle accelerator technology (notably the [[LHC]]) are about 15 orders of magnitude (hence far, far) away from the energy scale at which these strings would manifest themselves _directly_ (at least for many [[model (physics)|models]] in [[string phenomenology]]). 
 
 However, _in principle_ and _possibly_ there are indirect effects of string theory that would be probe-able with current [[experiment]]. Notably one standard scenario is that string theory is realized in a [[Kaluza-Klein compactification]] [[model (physics)|model]] and if so, then the properties of the [[fiber]] [[space]] (traditionally but not necessarily taken to be a [[Calabi-Yau manifold]]) on which the KK-reduction takes place determines the species and masses and interactions of the [[fundamental particles]] that we do see in [[experiments]]. Since the [[standard model of particle physics]] is pretty baroque in its field content, the hope here would be that a choice of fiber space could _explain_ for instance that there are three generations of particles, if not even explain their couplings and masses.
 
