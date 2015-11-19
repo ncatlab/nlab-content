@@ -19,6 +19,9 @@ The [[sphere spectrum]] in ([[global equivariant stable homotopy theory|global]]
 
 ## References
 
+* [[Stefan Schwede]], example 2.10 in _[[Lectures on Equivariant Stable Homotopy Theory]]_
+
+
 The sphere spectrum in [[global equivariant homotopy theory]] is discussed in
 
 * [[John Rognes]], _Galois extensions of structured ring spectra_ ([arXiv:math/0502183](http://arxiv.org/abs/math/0502183))
