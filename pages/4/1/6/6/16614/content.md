@@ -24,7 +24,7 @@ $$
 
 where $d f \in \Gamma (T^\ast X \otimes \phi^\ast T Y)$ is the [[derivative]], where the [[norm]] is given jointly by the metrics of $X$ and $Y$ and where the [[volume form]] is that of $X$.
 
-This is a standard [[kinetic action]] [[action functional]] for [[sigma models]].
+This is a standard [[kinetic action]] [[action functional]] for [[sigma models]], the _[[Polyakov action]]_.
 
 ## References
 
