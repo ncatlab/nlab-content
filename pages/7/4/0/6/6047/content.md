@@ -24,6 +24,31 @@ $$
 
 where $dvol(\gamma^* g)$ is the [[volume form]] of the pullback $\gamma^* g$ of the metric tensor from $X$ to $\Sigma$.
 
+## Definition
+
+Let 
+
+* $p \in \mathbb{N}$ (for [[p-brane]] dynamics);
+
+* $(X,g)$ a [[pseudo-Riemannian manifold]] ([[target spacetime]]);
+
+* $\Sigma$ a [[compact topological space|compact]] [[smooth manifold]] of dimension $(p+1)$ ([[worldvolume]]).
+
+* $[\Sigma,X]$ the [[diffeological space]] of [[smooth functions]] $\Sigma \to X$.
+
+For $\phi \colon \Sigma \longrightarrow X$ the induced "proper volume" or _Nambu-Goto action_of $\phi$ is the [[integral]] over $\phi$ of the [[volume form]] of the pullback of the target space metric $g$ to $\Sigma$.
+
+$$
+  S_{NG}(\phi) \coloneqq \int_{\Sigma} dvol(\phi^\ast(g))
+  \,.
+$$
+
+Notice that the rank-2 [[tensor]] $\phi^\ast g\in \Gamma(T* \Sigma \oplus T* \Sigma)$ is in general not degenerate (unless $\phi$ is an [[embedding]]), hence is in general not, strictly speaking a [[pseudo-Riemannian metric]] on $\Sigma$, but nevertheless it induces a [[volume form]] by the standard formula, only that this allowed to vanish pointwise (and even globally, for instance if $\phi$ is constant on a single point). In the literature $dvol(\phi^\ast g)$ is usually written as $\sqrt{-g}d^{p+1}\sigma$.
+
+
+## Properties
+
+### Relaton to the Polyakov action
 
 This is classically equivalent to the [[Polyakov action]] (e.g. [Nieto 01, section 2](#Nieto01)).
 
