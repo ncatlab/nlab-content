@@ -35,18 +35,27 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 ### For finitely many degrees of freedoms
  {#ForFinitelyManyDegreesOfFreedom}
 
-We discuss Feynman diagrams for a single real [[scalar field]] on a discrete space of $k\in \mathbb{N}$ points. This contains in it already all the key aspects of Feynman diagrams. 
+We discuss Feynman diagrams for a single real [[scalar field]] on a discrete space of $k\in \mathbb{N}$ points. This contains in it already all the aspects Feynman diagrams and in this context everything is easily well-defined. The generalization to more field components is immediate and simply obtained by thinking of all "$\phi$" in the following as taking values in some appropriate [[representation]] space and all products of $\phi$s as given by suitable [[intertwiners]] and [[inner products]], otherwise the form of the formulas remains the same. The generalization continuous space (non-finitely many degrees of freedom) all the diagrammatics remains the same, the only issue now is to make sense (namely via [[renormalization]]) of the numerical value that is assigned to any one Feynman diagram.
 
 So a [[field (physics)|field]] $\phi$ here is a map $[k]\to \mathbb{R}$ from the $k$-element [[finite set]] to the [[real numbers]], and hence the space of all field configurations is $\mathbb{R}^k$.
 
-Fix a $k \times k$ real-valued [[matrix]] $A \coloneqq (A_{x y}) \in Mat_{k\times k}(\mathbb{R})$ of non-vanishing [[determinant]] $det A \neq 0$. For standard applications this $A$ is a discretized version of the [[Laplacian]] and then the expression 
+Fix then a $k \times k$ real-valued [[matrix]] $A \coloneqq (A_{x y}) \in Mat_{k\times k}(\mathbb{R})$ of non-vanishing [[determinant]] $det A \neq 0$. 
 
+For standard applications this $A$ is a discretized version of the [[Laplacian]] and then the expression 
 
 $$
   S_{kin} = E_{kin} \coloneqq 
   \tfrac{1}{2}\sum_{x,y = 1}^k \phi_x A_{x y} \phi_y
 $$ 
-is the [[kinetic energy]] and [[kinetic action]] of the field configuration $\phi$.
+
+is the [[kinetic energy]] and [[kinetic action]] of the field configuration $\phi$. More concretely, think of the set of $k$ space points as being a discretization of a circle and write $(\phi_p)$ for the corresponding ([[discrete Fourier transform|discrete]]) [[Fourier transform]] of $(\phi_x)$. Then the kinetic term of the [[free field theory|free]] [[scalar field]] on this space is given by $A$ which is the [[diagonal matrix]] in the $p$-basis with 
+
+$$
+  A_{p,p} = p^2 - m^2
+  \,,
+$$ 
+
+where $m$ is a constant called the [[mass]] of the [[field (physics)|field]] $\phi$.
 
 
 A [[sum]] over all values of $\phi$ is the finite (and hence well-defined) analog of a [[path integral]]. The [[Gaussian integral]] of $A$ is called the _[[partition function]]_:
@@ -118,9 +127,40 @@ $$
   \,,
 $$
 
-where $A^{-1} = (A^{-1}_{x,y})$ is the [[inverse matrix]] of $A$, which appears by computing the integral via [[completing the square]] in the exponent. In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. Notice that in "[[Schwinger parameterization]]" $A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau$ and we may think of $\exp(-\tau A_{x,y})$ is the propagator for a scalar along its [[worldline]] of length $\tau$ from $x$ to $y$ ("[[worldline formalism]]").
+where $A^{-1} = (A^{-1}_{x,y})$ is the [[inverse matrix]] of $A$, which appears by computing the new integral here again as a [[Gaussian integral]] after [[completing the square]] in the exponent. 
 
-By construction, the $n$-point function is then equal to the [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$:
+In applications to field theory this $A^{-1}$ is called the _[[Feynman propagator]]_. In the standard example where $A$ is the kinetic term of the [[free field theory|free field]] of [[mass]] $m$ then in Fourier-transformed components $A^{-1}$ is diagonal with components
+
+$$
+  A^{-1}_{p,p} = \frac{1}{p^2 - m^2}
+  \,.
+$$
+
+Notice that using "[[Schwinger parameterization]]" the [[propagator]] is equivalently rewritten as a [[Mellin transform]] [[integral]]:
+
+$$
+  A^{-1}_{x,y} = \int_0^\infty \exp(- \tau A_{x,y}) d\tau
+  \,.
+$$ 
+
+Again in the example of the standard [[scalar field]] kinetic term expressed in Fourier diagonalization $A_{p,p}= p^2 - m^2$ then with $X \colon [0,\tau] \to \mathbb{R}$ a parameterization of the straight line with slope $p$, the exponent is equivalently
+
+$$
+  \begin{aligned}
+    \tau A_{p,p}
+    & = 
+    \tau (p^2 - m^2)
+    \\
+    & = 
+    \int_0^\tau (\dot X^2 - m^2)
+  \end{aligned}
+  \,.
+$$
+
+This happens to be the standard [[action functional]] ([[Polyakov action]]) for a [[sigma model]] describing the propagation of a particle along its [[worldline]].
+This means that the propagator of the [[scalar field]] may be thought of as coming from the [[path integral]] of a scalar particle along its [[worldline]]. This perspective is called the "[[worldline formalism]]", it is a formalization of [[second quantization]], expressing the dynamics of [[field (physics)|fields]] in terms of that of their particle "quanta" running along [[worldlines]] of the form of the corresponding Feynman diagrams (to which we finally come in a moment).
+
+Back to the computation of the $n$-point function. By construction, it is now equally expressed by [[partial derivatives]] of the [[generating function]] with respect to the [[source]] [[variable]] $J$ and evaluated at $J = 0$, and this in turn is a combinatorial expression just in products of the [[propagator]]:
 
 $$
   \begin{aligned}
@@ -135,7 +175,6 @@ $$
     \right)_{\vert J = 0}
     \\
     & =
-   \frac{1}{Z_0}
    \left(
    \frac{\partial}{\partial J_{x_1}}
    \cdots
@@ -146,9 +185,12 @@ $$
    & = 
    \underset{pairings}{\sum}  A^{-1}_{x_{j_1} x_{j_2}} \cdot A^{-1}_{x_{j_3} x_{j_4}} \cdots A^{-1}_{x_{j_{n-1}}x_{j_n}}
   \end{aligned}
+  \,.
 $$
 
-where the last [[equality]] is known as [[Wick's theorem]]. Thinking of $A^{-1}_{x y}$ here as labeling an [[edge]] (a "[[worldline]]") from [[vertex]] $x$ to vertex $y$ This is the source of all Feynman digrammatics.
+Here the last [[equality]] -- known as [[Wick's theorem]] -- comes from simple inspection: take the derivatives inside the [[exponential series]] and observe that then the only summands non-vanishing at $J = 0$ appears for even $n$ and are those where all derivatives hit the monomial $\left(\tfrac{1}{2} \sum_{x = 1}^k J_{x} A^{-1}_{x y} J_y\right)^{n/2}$.
+
+Thinking of $A^{-1}_{x y}$ here as labeling an [[edge]] (a "[[worldline]]") from [[vertex]] $x$ to vertex $y$ This is the source of all Feynman digrammatics.
 
 Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field theory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic energy]] and the [[potential energy]] is called the (here: "Wick rotated"/"Euclidean") [[action]]
 
@@ -164,7 +206,7 @@ $$
 The prefactor $g$ is called the _[[coupling constant]]_.
 
 
-Putting everything together, the integral over the full [[action]] may be expressed as a [[power series]] in the [[coupling constant]] $g$ of the moments with respect to the kinetic action of the powers of the interaction term:
+Putting everything together, the integral over the full [[action]] may be expressed as a [[power series]] in the [[coupling constant]] $g$ of the [[moments]] with respect to the kinetic action of the powers of the interaction term:
 
 $$
   \begin{aligned}
@@ -185,7 +227,7 @@ $$
   \end{aligned}
 $$
 
-By [[Wick's theorem]] stated above, each $\langle V(\phi)^\ell\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an edge produces a diagram, this is the corresponding Feynman diagram.
+By [[Wick's theorem]] stated above, each $\langle V(\phi)^\ell\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an [[edge]] produces a diagram, this is the corresponding Feynman diagram.
 
 For instance, for a cubic point interaction
 
@@ -217,11 +259,11 @@ $$
   \end{aligned}
 $$
 
-Here the first "dumbbell diagram" summand corresponds to the Feynman diagram 
+Here the first summand corresponds to the "dumbbell" Feynman diagram of the form
 
 <img src="http://ncatlab.org/nlab/files/dumbbellFeynmanDiagramm.png" width="200" > 
 
-and the second "theta diagram" summand corresponds to the Feynman diagram of the form
+and the second summand corresponds to the "theta" Feynman diagram of the form
 
 <img src="http://ncatlab.org/nlab/files/thetaFeynmanDiagramm.png" width="200">.
 
