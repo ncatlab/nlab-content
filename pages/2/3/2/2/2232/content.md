@@ -54,9 +54,13 @@ A special case is the [[center of an abelian category]] which has a special entr
 
 See [[center of an ∞-group]].
 
-### References
+## Related concepts
 
-* R.-E. Hoffmann, _&#220;ber das Zentrum eine Kategorie_ , Math. Nachr. **68** (1975) pp.299-306.
+[[diagonal matrix]]
+
+## References
+
+* R.-E. Hoffmann, _&#220;ber das Zentrum einer Kategorie_ , Math. Nachr. **68** (1975) pp.299-306.
 
 * {#JS96}[[Peter Johnstone|P. Johnstone]], _Remarks on Quintessential and Persistent Localizations_ , TAC **2** no.8 (1996) pp.90-99. ([pdf](http://www.tac.mta.ca/tac/volumes/1996/n8/n8.pdf))
 
