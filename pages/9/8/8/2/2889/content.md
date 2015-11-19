@@ -162,7 +162,7 @@ The original definition of motivic Eilenberg&#8211;Mac Lane spaces and spectra i
 
 More details are in &#167;4 of
 
-* [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_ ([pdf](http://math.northwestern.edu/~hoyois/papers/hopkinsmorel.pdf))
+* [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_ ([pdf](http://math.mit.edu/~hoyois/papers/hopkinsmorel.pdf))
 
 
 ## Related concepts
