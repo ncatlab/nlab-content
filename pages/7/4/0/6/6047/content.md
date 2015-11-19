@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Riemannian geometry
 +--{: .hide}
-[[!include physicscontents]]
+[[!include Riemannian geometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -48,9 +52,9 @@ Notice that the rank-2 [[tensor]] $\phi^\ast g\in \Gamma(T* \Sigma \oplus T* \Si
 
 ## Properties
 
-### Relaton to the Polyakov action
+### Relation to the Polyakov action
 
-This is classically equivalent to the [[Polyakov action]] (e.g. [Nieto 01, section 2](#Nieto01)).
+The NG is classically equivalent to the [[Polyakov action]] with "[[worldvolume]] [[cosmological constant]]". See at _[Polyakov action -- Relation to Nambu-Goto action](Polyakov+action#RelationToNambuGotoAction)_.
 
 ## Applications
 
