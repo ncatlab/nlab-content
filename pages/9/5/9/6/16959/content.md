@@ -1,0 +1,48 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
++-- {: .num_defn #SuspensionJoin}
+###### Definition
+
+Write $I \coloneqq [0,1]$ for the unit interval, regarded as a [[topological space]].
+
+For $X,Y $ two [[topological spaces]], the [[join]] $X \ast Y$ is the [[quotient space]] 
+
+$$
+   X \ast Y \coloneqq (X \times I \times Y)_{/\sim}
+$$
+
+of the [[product space]] $X \times I \times Y$ by the [[equivalence relation]]
+
+$$
+  (x, 0, y_1) \simeq (x,0,y_2) \;\;,\;\; (x_1,1,y) \sim (x_2, 1, y)
+  \,.
+$$
+
+=--
+
+## Related concepts
+
+* [[suspension]]
+
+* [[Hopf construction]]
+
+* [[join of simplicial sets]], 
+
+* [[join of categories]], [[join of quasi-categories]]
+
+[[!redirects joins of topological spaces]]
