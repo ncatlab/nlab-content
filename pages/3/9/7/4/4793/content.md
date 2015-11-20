@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 # Contents
 * table of contents
 {:toc}
@@ -9,7 +19,7 @@ The __quaternions__ form the largest [[associative algebra|associative]] [[norme
 
 ## Normed division algebra structure
 
-Concretely, the structure of $\mathbb{H}$ as an $\mathbb{R}$-[[associative unital algebra|algebra]] is given by a basis $\{1, i, j, k\}$ of the underlying [[vector space]] of $\mathbb{H}$, equipped with a multiplication table where $1$ is the [[identity element]] and otherwise uniquely specified by the equations 
+The structure of $\mathbb{H}$ as an $\mathbb{R}$-[[associative unital algebra|algebra]] is given by a basis $\{1, i, j, k\}$ of the underlying [[vector space]] of $\mathbb{H}$, equipped with a multiplication table where $1$ is the [[identity element]] and otherwise uniquely specified by the equations 
 
 $$i^2 = j^2 = k^2 = i j k = -1,$$ 
 
@@ -33,6 +43,12 @@ We have canonical left and right [[module]] structures on $\mathbb{H}^n$, but as
 
 Using the conjugation operation one can define an inner product $\langle q,p\rangle := \overline{q} p$ on $\mathbb{H}^n$ so that the corresponding [[orthogonal group of an inner product space|orthogonal group]] is the [[compact symplectic group]].
 
+## Group actions
+
+The product operation on $\mathbb{H}$ respects the [[special orthogonal group|SO(3)]]-[[action]] on their imaginary part (in generalization of how the product of [[complex numbers]] respects the [[complex conjugation]] action). (e.g. [Klimov-Zhuravlev, p. 85](#KlimovZhuravlev))
+
+
+
 ## Related concepts
 
 [[!include exceptional spinors and division algebras -- table]]
@@ -47,6 +63,9 @@ A survey is in
 
 * T. Y. Lam, _Hamilton's Quaternions_ ([ps](http://math.berkeley.edu/~lam/quat.ps))
 
+See also
+
+* {#KlimovZhuravlev} D.M. Klimov, V. Ph. Zhuravlev, _Group-Theoretic Methods in Mechanics and Applied Mathematics_
 
 [[!redirects quaternion]]
 [[!redirects quaternions]]
