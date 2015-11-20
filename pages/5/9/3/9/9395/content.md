@@ -19,11 +19,122 @@
 
 ## Idea
 
-Let $X$ be an [[H-space]].  The _Hopf construction_ on $X$ is a [[fibration]]
-$$ X \hookrightarrow X\ast X \to \Sigma X$$
-whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join]] of $X$ with itself.
+Let $X$ be an [[H-space]].  The _Hopf construction_ ([Hopf 35](#Hopf35)) on $X$ is a [[fibration]]
+
+$$ 
+  X \hookrightarrow X\ast X \to \Sigma X
+$$
+
+whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join]] of $X$ with itself. ([Stasheff 70, chapter 1](#Stasheff70)).
+
+Specialized to $X$ the [[sphere]] of dimension 0, 1, 3, or 7, then the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_.
+
+## Definition
+
++-- {: .num_defn #SuspensionJoin}
+###### Definition
+
+Write $I \coloneqq [0,1]$ for the unit interval, regarded as a [[topological space]].
+
+Let $X,Y $ be [[topological spaces]].
+
+1. The [[suspension]] $\Sigma X$ is the [[quotient space]]
+
+   $$
+     \Sigma X \coloneqq (X \times I)/\sim
+   $$
+
+   by the [[equivalence relation]]  given by
+
+   $$
+     (x_1,0) \sim (x_1,0) \;\,,\;\;  (x_1, 1) \sim (x_2, 1) \;\;\; \forall x_1,x_2 \in X
+   $$
+
+1. The [[join]] $X \ast Y$ is the [[quotient space]]
+
+   $$
+      X \ast Y \coloneqq (X \times I \times Y)/\sim
+   $$
+
+   by the [[equivalence relation]]
+
+   $$
+     (x, 0, y_1) \simeq (x,0,y_2) \;\;,\;\; (x_1,1,y) \sim (x_2, 1, y)
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn #HopfConstruction}
+###### Definition
+
+Given a [[continuous function]] of the form
+
+$$
+  f \colon X \times Y \longrightarrow Z
+$$
+
+then its _Hopf construction_ is the continuous function
+
+$$
+  H_f \colon X \ast Y \longrightarrow \Sigma Y
+$$
+
+ouf of the [[join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
+
+$$
+  H_f \colon (x,t,y) \mapsto (f(x,y), t)
+  \,.
+$$
+
+=--
+
+## Properties
+
++-- {: .num_theorem}
+###### Theorem 
+**(Sugawara)**
+
+If $(X, f \colon X \times X \to X)$ is an [[H-space]], then the Hopf construction $H_f$, def. \ref{HopfConstruction}, is a [[quasifibration]].
+
+
+=--
+
+(e.g. [Stasheff 70, theorem 1.2](#Stasheff70))
+
+
+Consider $X = S^{n-1}$ a [[sphere]]
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[continuous function]]
+
+$$
+  f \colon S^{n-1}\times S^{n-1} \longrightarrow S^{n-1}
+$$
+
+the [[degree of a continuous function|degrees]] 
+
+$$
+  \alpha \coloneqq deg(f(x,-)) \;\;\; \beta \coloneqq deg(f(-,x))
+$$
+
+are independent of the choice of $x \in S^{n-1}$. The degree of the Hopf construction of $f$, def. \ref{HopfConstruction}, is the product of these two:
+
+$$
+  deg(H_f) = \alpha \cdot\beta
+  \,.
+$$
+
+=--
+
+([Mosher-Tangora, exercises to section 4, page 38](#MosherTangora))
 
 ## Examples
+
+### Hopf fibrations
+ {#HopfFibrations}
 
 When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^0 = \mathbb{Z}/2$ the [[group of order 2]], $S^ = U(1)$ the [[circle group]], the [[3-sphere]] [[special unitary group]] $S^3 = SU(2)$;  or the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure, then the Hopf construction produces the four _[[Hopf fibrations]]_:
 
@@ -32,12 +143,27 @@ When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^
 1. $ S^3 \hookrightarrow S^7 \to S^4 $ -- [[quaternionic Hopf fibration]]
 1. $ S^7 \hookrightarrow S^{15} \to S^8 $
 
+
+
+
 ## References
 
-* [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801
+The original sources are
+
+* {#Hopf35} [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801
 ))
 
 * [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640, (1942) ([JSTOR](http://www.jstor.org/stable/1968956))
 
-* Wikipedia, _[Hopf construction](https://en.wikipedia.org/wiki/Hopf_construction)_
+Review inclides
 
+* {#Stasheff70} [[Jim Stasheff]], chapter 1 in  _H-Spaces from a Homotopy point of view_, Lecture Notes in Mathematics Volume 161 1970
+
+Textbook accounts include
+
+* {#MosherTangora} [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](http://math.jhu.edu/~anakade1/notes/Dec%202014/Mosher%20and%20Tangora%20Notes/mosher-tangora.pdf))
+
+
+See also
+
+* Wikipedia, _[Hopf construction](https://en.wikipedia.org/wiki/Hopf_construction)_
