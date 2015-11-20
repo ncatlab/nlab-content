@@ -7,4 +7,6 @@ John Greenlees is professor for [[mathematics]] in Sheffield.
 
 * [[equivariant stable homotopy theory]]
 
+* [[rational equivariant stable homotopy theory]]
+
 category: people
