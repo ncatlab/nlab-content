@@ -1,11 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The _Burnside category_ of a [[finite group]] $G$ is essentially the [[category of correspondences]] in [[G-sets]],equipped with its evident [[monoidal category]] structure.
+The _Burnside category_ of a [[finite group]] $G$ is essentially the [[category of correspondences]] in [[G-sets]], equipped with its evident [[monoidal category]] structure.
 
 ## Related concepts
 
@@ -16,3 +26,5 @@ The _Burnside category_ of a [[finite group]] $G$ is essentially the [[category 
 ## References
 
 * {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+
+[[!redirects Burnside categories]]
