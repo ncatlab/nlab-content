@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.qub.ac.uk/puremaths/Staff/David%20Barnes/)
+
+## Related $n$Lab entries
+
+* [[rational equivariant stable homotopy theory]]
+
+category: people
