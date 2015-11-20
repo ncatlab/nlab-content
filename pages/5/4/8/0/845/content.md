@@ -1,12 +1,23 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents #
 * table of contents 
 {: toc}
 
-#Idea#
+## Idea
 
 The _join_ of two categories $C$ and $C'$ is obtained from the [[disjoint union]] of $C$ with $C'$ by throwing in a unique morphism from every object of $C$ to every object of $C'$.
 
-#Definition#
+## Definition
 
 The **join** of [[category|categories]] $C$ and $C'$ is the category with
 
@@ -27,11 +38,11 @@ $$
   \right.
 $$
 
-#Definition in terms of profunctors#
+### In terms of profunctors
 
 The join of categories $C,C'$ can also be described to be the [[cograph of a profunctor|cograph]] of the unique profunctor $W\colon C &#8696; \; C'$ sending all objects $(c,c')$ to the terminal set (the definition speaks for itself).
 
-#Definition in terms of adjoint functors#
+### In terms of adjoint functors
 
 Consider the inclusion of the [[boundary of a simplex|boundary]] of the standard 1-simplex, $i\colon \{0,1\}\to [1]$ as a functor between the [[discrete category]] with two elements and the [[interval category|walking arrow]] $I=\{0 \leq 1\}$. It induces a functor
 $$
@@ -57,29 +68,31 @@ $i^*
 determines a functor $C\to A\star B$ and viceversa.
 =--
 
-#Properties#
+## Properties
 
 * If the small categories $C,C'$ are two posets, their join consists of their [[ordinal sum]];
 * The monoidal structure induced on $\Cat$ by $\star$ is not symmetric (if it was, then the right cone of $C$ would be equivalent to the left cone, which is blatantly false);
 * The monoidal structure induced on $\Cat$ by $\star$ is not closed, since the functor $A\star -$ does not preserve colimits.
 * The functor $-\star C'\colon \Cat \to C'\!/\!\Cat\colon A\mapsto (A\to A\star C')$ is a left adjoint, and similarly is the functor $C\star-$; see [Joyal, Ch. 3.1.1-2](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf#page=96) for a detailed description.
 
-#Examples#
+## Examples
 
 * The **cone** below a category $C$ is the join $C \star \mathrm{pt}$. The cone above $C$ is the join $\mathrm{pt} \star C$. 
 
-#Related concepts
+## Related concepts
+
+* [[join of topological spaces]]
 
 * [[join of quasi-categories]];
 
-*  [[join of simplicial sets]].
+* [[join of simplicial sets]].
 
-#References#
+## References
 
 See [p. 42](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=42) of 
 
-* J. Lurie, _Higher topos theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
+* [[Jacob Lurie]], _Higher topos theory_ ([arXiv](http://arxiv.org/abs/math.CT/0608040))
 
 See also [Ch. 3](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf#page=95) of
 
-* [[nlab:André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+* [[André Joyal]], _The theory of quasicategories and its applications_ lectures at [Simplicial Methods in Higher Categories](http://www.crm.es/HigherCategories/), ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
