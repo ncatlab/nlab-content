@@ -164,9 +164,17 @@ The Hopf fibrations over other [[normed division algebras]] also figure in the m
 
 ## Related concepts
 
+* [[Hopf construction]]
+
 * [[Hopf invariant one]]
 
 * [[quaternionic Hopf fibration]]
+
+## References
+
+Reviews include
+
+* _[Third homotopy group of the sphere and Hopf fibration](https://chiasme.wordpress.com/2014/01/04/third-homotopy-group-of-the-sphere-and-hopf-fibration/)_
 
 [[!redirects Hopf fibrations]]
 
