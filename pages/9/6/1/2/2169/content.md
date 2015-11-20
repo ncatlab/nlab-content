@@ -56,7 +56,7 @@ Accordingly, a normed division algebras is in particular a division [[compositio
 
 Over the [[complex numbers]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
 
-The [[Hurwitz theorem]] says that over the [[real numebrs]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
+The [[Hurwitz theorem]] says that over the [[real numbers]] there are, up to [[isomorphism]], exactly four finite-dimensional normed division algebras :
 
 *  $\mathbb{R}$, the algebra of [[real numbers]],
 *  $\mathbb{C}$, the algebra of [[complex numbers]],
@@ -76,7 +76,19 @@ However, these algebras do all have some useful algebraic properties; in particu
 
 A __[[normed field]]__ is a commutative normed division algebra; it follows from the preceding that the only normed fields over $\mathbb{R}$ are $\mathbb{R}$ and $\mathbb{C}$ (e.g. [Tornheim 52](#Tornheim52)).
 
+### Automorphisms
+ {#Automorphisms}
 
+The [[automorphism]] groups of the real normed division algebras are
+
+* $Aut(\mathbb{R}) = 1$, the [[trivial group]]
+
+* $Aut(\mathbb{C}) = \mathbb{Z}/2$ the [[group of order 2]], acting by [[complex conjugation]];
+
+* $Aut(\mathbb{H}) = SO(3)$, the [[special orthogonal group]] acting via its canonical representaiton  on the 3-dimensional space of imaginary octonions;
+
+* $Aut(\mathbb{O}) = G_2$, the [[exceptional Lie group]] [[G2]].
+ 
 ## Related concepts
 
 * [[Hopf invariant one]]
