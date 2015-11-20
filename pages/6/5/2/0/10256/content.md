@@ -5,6 +5,6 @@
 | $3 = 2+1$ | $Spin(2,1) \simeq SL(2,\mathbb{R})$ | $\mathbb{R}$ the [[real numbers]] |   |
 | $4 = 3+1$ | $Spin(3,1) \simeq SL(2, \mathbb{C})$| $\mathbb{C}$ the [[complex numbers]] |  |
 | $6 = 5+1$ | $Spin(5,1) \simeq SL(2, \mathbb{H})$ | $\mathbb{H}$ the [[quaternions]] | [[little string]] |
-| $10 = 9+1$ | $Spin(9,1) \simeq_{some\,sense} SL(2,\mathbb{O})$ | $\mathbb{O}$ the [[octonions]] | [[heterotic string|heterotic]]/[[type II string]] |
+| $10 = 9+1$ | $Spin(9,1) \underset{some\,sense}{\simeq} SL(2,\mathbb{O})$ | $\mathbb{O}$ the [[octonions]] | [[heterotic string|heterotic]]/[[type II string]] |
 
 [[!redirects exceptional spinors table]]
