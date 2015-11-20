@@ -30,10 +30,10 @@ General:
 
 * [[David Barnes]], _Classifying Rational $G$-Spectra for Finite $G$_ ([arXiv:0812.0317](http://arxiv.org/abs/0812.0317))
 
-For $G = O(2)$ or $SO(2)$:
+For $G = O(2)$ or $SO(2)$ and so also for $G = $ [[dihedral group]] and [[cyclic group]]:
 
-* {#Greenlees96} [[John Greenlees]]. _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
-Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998.
+* {#Greenlees96} [[John Greenlees]], _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
+Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.41.6588))
 
 * {#Greenlees99} [[John Greenlees]], _Rational $S^1$-equivariant stable homotopy theory_, Memoirs of the AMS, 1999
 
