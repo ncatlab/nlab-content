@@ -24,6 +24,7 @@
 
 General:
 
+* [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
 
 * [[David Barnes]], _Rational Equivariant Spectra_ ([arXiv:0802.0954](http://arxiv.org/abs/0802.0954))
 
@@ -31,9 +32,12 @@ General:
 
 For $G = O(2)$ or $SO(2)$:
 
-* [[John Greenlees]]. _Rational $O(2)$-equivariant cohomology theories_. In
-_Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
+* {#Greenlees96} [[John Greenlees]]. _Rational $O(2)$-equivariant cohomology theories_. In _Stable and unstable homotopy_ (Toronto, ON, 1996), volume 19 of Fields
 Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998.
+
+* {#Greenlees99} [[John Greenlees]], _Rational $S^1$-equivariant stable homotopy theory_, Memoirs of the AMS, 1999
+
+* [[Brooke Shipley]], _An algebraic model for rational $S^1$-equivariant stable homotopy theory_ ([pdf](http://homepages.math.uic.edu/~bshipley/qt15.pdf))
 
 * [[David Barnes]], _Classifying Dihedral $O(2)$-Equivariant Spectra_ ([arXiv:0804.3357](http://arxiv.org/abs/0804.3357))
 
