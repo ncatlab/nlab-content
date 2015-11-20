@@ -34,7 +34,10 @@ When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^
 
 ## References
 
-* [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935)
+* [[Heinz Hopf]], _&#220;ber die Abbildungen von Sph&#228;ren auf Sph&#228;ren niedrigerer Dimension_, Fund. Math. 25: 427&#8211;440 (1935) ([Euclid](https://eudml.org/doc/212801
+))
+
+* [[George Whitehead]], _On the homotopy groups of spheres and rotation groups_, Annals of Mathematics. Second Series 43 (4): 634&#8211;640, (1942) ([JSTOR](http://www.jstor.org/stable/1968956))
 
 * Wikipedia, _[Hopf construction](https://en.wikipedia.org/wiki/Hopf_construction)_
 
