@@ -1,5 +1,7 @@
 
-> this entry is about the notion of [[colimits]] in [[posets]]. For the notion of _[[join of simplicial sets]]_ and _[[join of quasi-categories]]_ see there.
+> this entry is about the notion of [[colimits]] in [[posets]]. For the concepts of _[[join of topological spaces]]_, _[[join of simplicial sets]]_, _[[join of categories]]_ and _[[join of quasi-categories]]_ see there.
+
+***
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
