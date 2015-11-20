@@ -1,0 +1,11 @@
+
+
+* [webpage](http://homepages.math.uic.edu/~tangora/)
+
+## related $n$Lab entries
+
+* [[cohomology operation]]
+
+* [[Hopf construction]]
+
+category: people
