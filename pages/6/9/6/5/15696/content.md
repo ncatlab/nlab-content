@@ -165,6 +165,11 @@ See also
 
 * {#Todorov03} [[Andrey Todorov]], _The analogue of the Dedekind eta function for CY threefolds_, 2003 [pdf](http://www.ma.huji.ac.il/conf/crelle.pdf)
 
+[[!redirects zeta function regularizations]]
 
 [[!redirects functional determinant]]
 [[!redirects functional determinants]]
+
+[[!redirects zeta-function regularization]]
+[[!redirects zeta-function regularizations]]
+
