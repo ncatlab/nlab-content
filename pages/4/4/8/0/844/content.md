@@ -95,11 +95,13 @@ $$
   \,.
 $$
 
-#Related concepts
+## Related concepts
+
+* [[join of topological spaces]]
 
 * [[join of categories]];
 
-*  [[join of simplicial sets]].
+* [[join of simplicial sets]].
 
 
 ## References
