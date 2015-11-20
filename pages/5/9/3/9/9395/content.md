@@ -25,7 +25,7 @@ $$
   X \hookrightarrow X\ast X \to \Sigma X
 $$
 
-whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join]] of $X$ with itself. ([Stasheff 70, chapter 1](#Stasheff70)).
+whose [[fiber]] is $X$, whose base space is the [[suspension]] of $X$, and whose total space is the [[join of topological spaces|join]] of $X$ with itself. ([Stasheff 70, chapter 1](#Stasheff70)).
 
 Specialized to $X$ the [[sphere]] of dimension 0, 1, 3, or 7, then the Hopf construction yields the _[Hopf fibrations](#HopfFibrations)_.
 
@@ -41,7 +41,7 @@ Let $X,Y $ be [[topological spaces]].
 1. The [[suspension]] $\Sigma X$ is the [[quotient space]]
 
    $$
-     \Sigma X \coloneqq (X \times I)/\sim
+     \Sigma X \coloneqq (X \times I)_{/\sim}
    $$
 
    by the [[equivalence relation]]  given by
@@ -50,10 +50,10 @@ Let $X,Y $ be [[topological spaces]].
      (x_1,0) \sim (x_1,0) \;\,,\;\;  (x_1, 1) \sim (x_2, 1) \;\;\; \forall x_1,x_2 \in X
    $$
 
-1. The [[join]] $X \ast Y$ is the [[quotient space]]
+1. The [[join of topological spaces|join]] $X \ast Y$ is the [[quotient space]]
 
    $$
-      X \ast Y \coloneqq (X \times I \times Y)/\sim
+      X \ast Y \coloneqq (X \times I \times Y)_{/\sim}
    $$
 
    by the [[equivalence relation]]
@@ -80,7 +80,7 @@ $$
   H_f \colon X \ast Y \longrightarrow \Sigma Y
 $$
 
-ouf of the [[join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
+ouf of the [[join of topological spaces|join]] into the [[suspension]], given in the coordinates of def. \ref{SuspensionJoin} by
 
 $$
   H_f \colon (x,t,y) \mapsto (f(x,y), t)
@@ -120,10 +120,10 @@ $$
   \alpha \coloneqq deg(f(x,-)) \;\;\; \beta \coloneqq deg(f(-,x))
 $$
 
-are independent of the choice of $x \in S^{n-1}$. The degree of the Hopf construction of $f$, def. \ref{HopfConstruction}, is the product of these two:
+are independent of the choice of $x \in S^{n-1}$. The [[Hopf invariant]]  $h$ of the Hopf construction $H_f$ of $f$, def. \ref{HopfConstruction}, is the product of these two:
 
 $$
-  deg(H_f) = \alpha \cdot\beta
+  h(H_f) = \alpha \beta
   \,.
 $$
 
@@ -142,6 +142,84 @@ When $X$ is a [[sphere]] that is an $H$-space, namely, one of the [[groups]] $S^
 1. $ S^1 \hookrightarrow S^3 \to S^2 $ -- [[complex Hopf fibration]]
 1. $ S^3 \hookrightarrow S^7 \to S^4 $ -- [[quaternionic Hopf fibration]]
 1. $ S^7 \hookrightarrow S^{15} \to S^8 $
+
+In detail, let $A \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$
+be one of the real [[normed division algebras]] and write
+
+$$
+  n \coloneqq dim_{\mathbb{R}}(A) \in \{1,2,4,8\}
+$$
+
+for its [[dimension]] as a real vector space. Then the $S^{n-1}$-sphere may be identified with the subspace of unit norm elements in $A$:
+
+$$
+  S^{n-1} \simeq
+  \left\{
+    x \in A
+    \,;
+    {\vert x\vert}^2 = 1
+  \right\}
+  \,.
+$$
+
+Consider then the pairing map
+
+$$
+  f \colon S^{n-1}\times S^{n-1} \longrightarrow S^{n-1}
+$$
+
+which is the restriction to these unit norm elements of the product in $A$:
+
+$$
+  f \colon (x,y) \mapsto x \cdot y
+$$
+
+This is well defined by the very property that for [[normed division algebras]] the norm is multiplicative.
+
+Accordingly, the join of two such spheres is naturally parameterized as follows
+
+$$
+  S^{n-1}\ast S^{n-1}
+  =
+  (S^{n-1}\times I \times S^{n-1})/\sim
+  \simeq
+  \left\{
+    (x,t,y)
+    \,,
+    {\vert x \vert}^2 = 2t
+    \,,\;
+    {\vert y\vert}^2 = 2 - 2t
+  \right\}
+$$
+
+which makes manifest that
+
+$$
+  S^{n-1} \ast S^{n-1} \simeq S^{2n-1}
+$$
+
+Similarly, the suspension is parameterized by 
+
+$$
+  \Sigma S^{n-1}
+  =
+  (S^{n-1}\times I)_{/\sim}
+  \simeq
+  \left\{
+    (x,t)
+    \,,\;
+    {\vert x \vert}^2 + (1 - 2t)^2   = 1
+  \right\}
+$$
+
+which makes it manifest that
+
+$$
+  \Sigma S^{n-1} \simeq S^n
+  \,.
+$$
+
+Moreover, in this parameterizaton the Hopf construction, def. \ref{HopfConstruction}, manifestly gives the Hopf fibration map.
 
 
 
