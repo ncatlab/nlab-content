@@ -47,6 +47,8 @@ Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998. ([we
 
 * [[David Barnes]], _A monoidal algebraic model for rational $SO(2)$-spectra_ ([arXiv:1412.1700](http://arxiv.org/abs/1412.1700))
 
+* [[David Barnes]], [[John Greenlees]], [[Magdalena Kedziorek]], [[Brooke Shipley]], _Rational $SO(2)$-Equivariant Spectra_ ([arXiv:1511.03291](http://arxiv.org/abs/1511.03291))
+
 For $G = (S^1)^{\times_n}$ a [[torus]]:
 
 * [[John Greenlees]], [[Brooke Shipley]], _An algebraic model for rational torus-equivariant spectra_ ([arXiv:1101.2511](http://arxiv.org/abs/1101.2511))
