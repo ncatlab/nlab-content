@@ -47,6 +47,10 @@ Inst. Commun., pages 103&#8211;110. Amer. Math. Soc., Providence, RI, 1998. ([we
 
 * [[David Barnes]], _A monoidal algebraic model for rational $SO(2)$-spectra_ ([arXiv:1412.1700](http://arxiv.org/abs/1412.1700))
 
-For $G$ a [[torus]]:
+For $G = (S^1)^{\times_n}$ a [[torus]]:
 
 * [[John Greenlees]], [[Brooke Shipley]], _An algebraic model for rational torus-equivariant spectra_ ([arXiv:1101.2511](http://arxiv.org/abs/1101.2511))
+
+For $G = SO(3)$ and hence also for the finite groups of [[ADE classification|ADE type]]:
+
+* [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
