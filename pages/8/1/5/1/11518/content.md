@@ -24,7 +24,8 @@ For $G$ a [[compact Lie group]] (or more generally a [[compact topological group
 Where the ordinary concept of [[spectrum]] is given in terms of [[looping and delooping]] of ordinary [[topological spaces]] by ordinary [[spheres]], a $G$-spectrum is instead given by looping and delooping of [[topological G-spaces]] with respect to [[representation spheres]] of $G$, namely [[one-point compactifications]] of linear $G$-[[representations]], for all representations appearing in a chosen "[[G-universe]]".
 
 Such a [[G-universe]] is called _complete_ if it contains every [[irreducible representation]] of $G$, and the spectra modeled on such a complete $G$-universe are the _genuine $G$-spectra_.
-Equivalently, genuine $G$-spectra are expressed as _[[Mackey functors]]_.
+
+(For $G$ a [[finite group]], then genuine $G$-spectra are equivalently _[[Mackey functors]]_ on the category of finite [[G-sets]]. See [below](#RelationToMackeyFunctors) for more.)
 
 At the other extreme, if the [[G-universe]] contains only the trivial representations, then the resulting spectra are the _[[spectra with G-action]]_, also called _[[naive G-spectra]]_ for emphasis of the distinction to the previous case.
 
@@ -37,8 +38,11 @@ The genuine $G$-spectra are richer than _[[spectra with G-action]]_ and have bet
 Characterization of $G$-spectra [via excisive functors]() on [[G-spaces]] is in ([Blumberg 05](#Blumberg05)).
 
 ### Relation to Mackey functors
+ {#RelationToMackeyFunctors}
 
-see at _[[Mackey functor]]_
+For $G$ a [[finite group]] then genuine $G$-spectra are equivalent to  _[[Mackey functors]]_ on the category of [[finite set|finite]] [[G-sets]].
+
+([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
 
 ### Relation to spectra with $G$-action
 
@@ -59,6 +63,14 @@ Surveys and introductions include
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+Relation to [[Mackey functors]]:
+
+* {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+
+  _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
+
+* {#Barwick14} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (I)_ ([arXiv:1404.0108](http://arxiv.org/abs/1404.0108))
 
 
 For more references see at _[[equivariant stable homotopy theory]]_ and at _[[Mackey functor]]_
