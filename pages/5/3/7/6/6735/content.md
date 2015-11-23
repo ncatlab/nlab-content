@@ -103,7 +103,13 @@ The interpretation of at least most of the "3-algebra" appearing in the membrane
 
 * {#MFMR} Paul de Medeiros, [[José Figueroa-O'Farrill]], Elena M&#233;ndez-Escobar, Patricia Ritter, _On the Lie-algebraic origin of metric 3-algebras_, Commun.Math.Phys.290:871-902,2009 ([arXiv:0809.1086](http://arxiv.org/abs/0809.1086))
  
+See also
+
+* [[José Figueroa-O'Farrill]], section _Triple systems and Lie superalgebras_ in _M2-branes, ADE and Lie superalgebras_, talk at IPMU 2009 ([pdf](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/Hongo.pdf))
+
+
 The suggestion that BGL "3-algebras" are to be interpreted in [[2-plectic geometry]] appears in
 
 * {#SaemannSzabo} [[Christian Saemann]], [[Richard Szabo]], _Quantization of 2-Plectic Manifolds_ ([arXiv:1106.1890](http://arxiv.org/abs/1106.1890))
  
+[[!redirects BLG-model]]
