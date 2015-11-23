@@ -315,6 +315,7 @@ $$
   \mathbf{d} \omega = \lambda \star \omega
 $$
 
+
 and hence
 
 $$
@@ -327,7 +328,15 @@ for $\lambda \in \mathbb{R}$. For $\lambda = 0$ this reduces to strict $G_2$-hol
 
 (See for instance ([Bilal-Derendinger-Sfetsos 02](#BilalDerendingerSfetsos), [Bilal-Metzger 03](#BilalMetzger03)).)
 
+#### With ADE orbifold structure
+ {#WithADEOrbifoldStructure}
 
+When used as [[KK-compactification]]-fibers for [[M-theory on G2-manifolds]], then for realistic [[string phenomenology|phenomenology]] one needs to consider [[ADE orbifolds]] with "$G_2$-manifold" structure, i.e. $G_2$-[[orbifolds]], also called _Joyce orbifolds_. Moreover, for [[F-theory]] purposes this $G_2$-orbifold is to be a fibration by a [[K3 surface]] $X_{K3}$. 
+
+For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifold structure. There is a canonical [[special orthogonal group|SO(3)]]-[[action]] on the tangent spaces of $X_{K3} \times T^3$, given on $X_{K3}$ by rotation of the [[hyper-Kähler manifold]]-structure of $X_{K_3}$ and on $T^3$ by the standard rotation. For $K_{ADE}$ a [[finite group|finite]] [[subgroup]] of $SO(3)$, hence a finite group in the  [[ADE classification]], then $(X_{K3}\times T^3)/K_{ADE}$ is a $G_2$-orbifold.
+([Acharya 98, p.3](#Acharya98)). (For $K_{ADE}$ _not_ a [[cyclic group]] then this has precisely one [[parallel spinor]].)
+
+In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local $G_2$-orbifolds are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)).
 
 ## Properties
 
@@ -403,6 +412,13 @@ Surveys include
 
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
+
+Discussion of $G_2$-orbifolds includes
+
+* {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
+
+* {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
 
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
