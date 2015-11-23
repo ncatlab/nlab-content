@@ -1,0 +1,33 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+A _fixed point_ of an [[endofunction]] $f \colon X \to X$ is an $x\in X$ which is taken by $f$ to itself: $f(x) = x$.
+
+## Generalizations
+
+In [[homotopy theory]] this generalizes to the concept of
+
+* [[homotopy fixed point]]
+
+In [[category theory]] this generalizes to the concept of
+
+* [[fixed point of an endofunctor]]
+
+* [[fixed point of an adjunction]]
+
+In [[logic]] one has
+
+* [[fixed-point combinator]]
+
+* [[Lawvere's fixed point theorem]]
+
+## References
+
+* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics))_
+
+[[!redirects fixed points]]
