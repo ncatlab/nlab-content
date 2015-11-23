@@ -40,6 +40,11 @@ $$
 
 When $Y$ is rational, then this is an [[isomorphism]] ([Greenlees-May 95, theorem A.4](#GreenleesMay95)).
 
+
+### Rational tom Dieck splitting
+
+for the moment see at _[[tom Dieck splitting]]_
+
 ## References
 
 General:
