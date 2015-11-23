@@ -144,8 +144,8 @@ It is immediate to check that $F_f \circ U_f = 1_{Fact(f)}$.
 
 ## References
 
-* [[Bill Lawvere]], [[Matias Menni]] _The Hopf algebra of M&#246;bius 
-intervals_ Theory and applications of categories 2010
+* [[Bill Lawvere]], [[Matias Menni]], The Hopf algebra of M&#246;bius 
+intervals, _Theory and Applications of Categories_, 24:10 (2010), 221-265. ([tac](http://www.tac.mta.ca/tac/volumes/24/10/24-10abs.html))
 * B. Klin, [[Vladimiro Sassone]], P. Sobocinski, _Labels from reductions: Towards a general theory,_ Algebra and coalgebra in computer science: first international conference, CALCO 2005
 
 
