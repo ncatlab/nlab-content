@@ -1,6 +1,51 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
 
+> under construction
+
+#Contents#
+* table of contents
+{:toc}
+## Idea
+
+The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a decomposition of equivariant [[homotopy groups]] of equivariant [[suspension spectra]] into a [[direct sum]] of homotopy groups of fixed point spectra:
+
+for $X$ a pointed [[topological G-space]] then ([Schwede 15](#Schwede15))
+
+$$
+  \pi_\bullet^G(\Sigma^\infty X)
+  \simeq
+  \underset{[H \subset G]}{\oplus}
+  \pi_\bullet^{W H}(\Sigma^\infty (E W H^+ \wedge X^H))
+  \,.
+$$
+
+where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W H$ denotes the [[Weyl group]].
+
+
+For $G$ finite and for [[rational equivariant stable homotopy theory]] this becomes ([Greenlees, 6.2](#Greenlees))
+
+$$
+  G RationalSpectra \simeq \underset{[H \subset G] }{\prod} \mathbb{Q}(W H) Mod
+$$
+
+where the product is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W H$ denotes the [[Weyl group]] of $H$ in $G$
 
 ## References
+
+* {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+
 
 * {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
