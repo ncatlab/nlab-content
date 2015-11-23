@@ -1,3 +1,14 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 # Contents 
 * table of contents 
 {: toc} 
@@ -169,9 +180,6 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 [[!redirects fixed point of the endofunctor]]
 [[!redirects fixed points of the endofunctor]]
 
-[[!redirects fixed point]]
-[[!redirects fixed points]]
 
 
 [[!redirects Knaster-Tarski theorem]]
-
