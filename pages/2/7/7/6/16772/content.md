@@ -9,6 +9,16 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For $n \in \mathbb{N}$, $n \geq$, the dihedral group $D_{2n}$ is the [[subgroup]] of the [[orthogonal group]] $O(2)$ which is generated from the finite [[cyclic group|cyclic]] [[subgroup]] $C_n$ of $SO(2)$ and the [[reflection]] at the $x$-axis (say).
+
+Under the further embedding $O(2)\hookrightarrow SO(3)$ the (cyclic and) dihedral groups are precisely those [[finite groups]] in the [[ADE classification]] which are not in the exceptional series. 
+
 ## Properties
 
 ### Group cohomology
