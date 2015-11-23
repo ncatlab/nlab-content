@@ -64,9 +64,9 @@ For $\mathcal{A}$ taken to be (the [[derived category]]) of an [[abelian categor
 
 Let $G$ be a [[finite group]]. Let $\mathcal{C}= G Set$ be its category of [[permutation representations]]. Then $Corr_1(\mathcal{C})$ is essentially what is called the [[Burnside category]] of $G$ (possibly after abelianizing/stabilizing the hom-spaces suitably, but as ([Barwick 14](#Barwick14)) highlights, this is unnecessary when one is mapping out of this into something abelian/stable, as is the case here).
 
-Then Mackey functors on $\mathcal{C}$ are equivalently  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
+For $G$ finite then Mackey functors on $\mathcal{C}$ are equivalent to  genuine [[G-spectra]] ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)) (Notice that this equivalence does not in general hold if $G$ is not a finite group.)
 
-(This equivalence does not in general hold if $G$ is not a finite group.)
+
 
 (...)
  
@@ -79,7 +79,7 @@ $$
 
 where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the [[orbit]] $G/H$ to $E$.
 
-(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11))
+(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11)) (see also e.g. [Schwede 15, p. 16](#Schwede 15))
 
 (...)
 
@@ -97,13 +97,14 @@ Reviews and surveys include
 
 * {#May96} [[Peter May]], section IX.4 of _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comeza&#732;na, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
-*  Peter Webb, [A Guide to Mackey Functors](http://www.math.rochester.edu/people/faculty/doug/otherpapers/WebbMF.pdf)
+*  Peter Webb, _A Guide to Mackey Functors_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/WebbMF.pdf))
 
 
 * [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], section 4 of _The Arf-Kervaire problem in algebraic topology: Sketch of the proof_ ([[HHRKervaire.pdf:file]])
 
   (with an eye towards application to the [[Arf-Kervaire invariant problem]])
 
+* [[Megan Shulman]], chapter 2 of _Equivariant local coefficients and the $RO(G)$-graded cohomology of classifying spaces_ ([arXiv:1405.1770](http://arxiv.org/abs/1405.1770))
 
 See also
 
@@ -128,6 +129,10 @@ The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey 
 * {#Barwick15} [[Clark Barwick]], _Spectral Mackey functors and equivariant algebraic K-theory (II)_ ([arXiv:1505.03098](http://arxiv.org/abs/1505.03098))
 
 * {#BohmannOsorno14} [[Anna Marie Bohmann]], [[Angélica Osorno]], _Constructing equivariant spectra via categorical Mackey functors_ ([arXiv:1405.6126](http://arxiv.org/abs/1405.6126))
+
+Lectures notes include
+
+* {#Schwede15} [[Stefan Schwede]], around p. 16 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 Application of Mackey functors to the theory of [[motives]] includes
 
