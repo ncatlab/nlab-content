@@ -22,6 +22,52 @@
 
 In [[equivariant stable homotopy theory]] a _[[genuine G-spectrum]]_  has [[homotopy groups]] [[grading|graded]] not just by the [[integers]], but by the (additive group underlying) the [[representation ring]] of $G$. This is often called _$RO(G)$-grading_. 
 
+## Motivation
+
+### Suspension by representation spheres
+
+Since a [[cohomology theory]] is, in particular, a functor
+
+$$
+  E^\bullet \colon BasedSpaces^{op} \longrightarrow GradedAbelianGroups
+$$
+
+satisfying some axioms, then naively a $G$-equivariant cohomology theory could be defined to be a functor
+
+$$
+  E_G^\bullet\colon Based G Spaces^{op} \longrightarrow GradedAbelianGroups
+  \,.
+$$
+
+This implies in particular the [[suspension isomorphism]]: for  $n\in \mathbb{N}$ there is, for each $G$-space $X$, an identificaction 
+
+$$
+   E_G^\bullet(X) \simeq  E_G^{\bullet + n}(S^n \wedge X)
+  \,,
+$$
+
+where in the smash product $S^n \wedge X$ the group $G$ is to be taken to act trivially on the [[sphere]] $S^n$. From this perspective it is desireable to have an analogous relation also for smashing with spheres on which the group $G$ acts nontrivially. Since we may think of $S^n$ as being the [[representation sphere]] of the trivial action of $G$ on $\mathbb{R}^n$, this leads one to demand that $E^\bullet$ is graded not just by the integers, but by any [[linear representation]] $V$, so that one has generalized suspension isomorphisms
+
+$$
+  E_G^\bullet(X) \simeq E_G^{\bullet + V}(S^V \wedge X)
+  \,,
+$$
+
+where now $S^V$ denotes the [[representation sphere]] of $V$. This more general grading is, for historically reasons, called [[RO(G)-grading]], and an equivariant cohomology theory equipped with this extra structure is called _genuine_ (as opposed to the "naive" case with grading just over the integers).
+
+### Representation by $G$-spectra
+
+Since by the [[Brown representability theorem]], in the absence of a group action a cohomology theory is [[representable functor|represented]] by a [[spectrum]], it is natural to construct a category in which genuine $G$-equivariant cohomology theories also become representables. This is the [[equiavriant stable homotopy theory]] of [[genuine G-spectra]].
+
+
+### Induced transfer and Mackey functors
+
+(...)
+
+## Properties
+
+### Relation to intrinsic twisting
+
 >  In equivariant cohomology theory, the use of $RO(G)$ is a great convenience, but it is not the thing most intrinsic to the mathematics.  Ignore the multiplication on $RO(G)$,  which is irrelevant to its use for grading theories, and think of it just as an abelian group.  Send a representation $V$ to the isomorphism class of the suspension $G$-spectrum of the one-point compactification $S^V$.  This induces a homomorphism from $RO(G)$ into the Picard group $Pic(Ho G\mathcal{S})$ of the stable homotopy category of  $G$-spectra, namely the abelian group of equivalence classes of 
 $G$-spectra that are invertible under the smash product.  That homomorphism  is neither a monomorphism nor an epimorphism.  See ([Fausk-Lewis-May 01](#FauskLewisMay01)) for a discussion of that Picard group.  Logically, equivariant cohomology theories really should be graded on $Pic(Ho G\mathcal{S})$, but that group is much less  convenient than $RO(G)$.  ([P. May, comment on MO, Jul 2014](http://mathoverflow.net/a/177154/381))
 
