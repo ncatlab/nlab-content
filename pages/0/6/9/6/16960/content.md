@@ -27,12 +27,26 @@ _Rational [[equivariant stable homotopy theory]]_ is the study of [[equivariant 
 
 A key general statement of the theory is that rationally the [[homotopy theory]] of $G$-equivariant spectra is equivalently given by [[homological algebra]] of [[Mackey functors]] (even for non-[[finite group|finite]] $G$). At the more refined level of [[equivalence of categories|equivalences]] of [[homotopy categories]] this was established by [[John Greenlees]], at the level of [[zig-zags]] of [[Quillen equivalences]] of [[model categories]] this was established by his students, [[David Barnes]] and [[Magdalena Kedziorek]].
 
+## Properties
+
+### Splitting into Mackey functors
+
+Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-equivariant homotopy groups of $X$. For $X,Y$ two $G$-spectra, there is a canonical morphism
+
+$$
+  [X,Y]_G \longrightarrow \underset{n}{\prod} Hom_{\mathcal{M}[G]}(\pi_n(X),\pi_n(Y))
+  \,.
+$$
+
+When $Y$ is rational, then this is an [[isomorphism]] ([Greenlees-May 95, theorem A.4](#GreenleesMay95)).
 
 ## References
 
 General:
 
 * [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
 
 * [[David Barnes]], _Rational Equivariant Spectra_ ([arXiv:0802.0954](http://arxiv.org/abs/0802.0954))
 
@@ -63,6 +77,6 @@ For $G = (S^1)^{\times_n}$ a [[torus]]:
 
 For $G = SO(3)$ and hence also for the finite groups of [[ADE classification|ADE type]]:
 
-* [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_ ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
+* [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
 
 * [[Magdalena Kedziorek]], _Algebraic models for rational G-spectra_, 2014 ([web](http://etheses.whiterose.ac.uk/7699/))
