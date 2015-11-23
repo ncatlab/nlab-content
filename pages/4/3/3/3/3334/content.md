@@ -7,4 +7,6 @@
 
 * [[monoidal Dold-Kan correspondence]]
 
+* [[Lectures on Equivariant Stable Homotopy Theory]]
+
 category: people
