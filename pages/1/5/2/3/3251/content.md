@@ -96,6 +96,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[slice spectral sequence]]
 
+* [[tom Dieck splitting]]
+
 ## References
 
 Original articles include
