@@ -191,7 +191,11 @@ More should go here, but for now see [[compact closed double category]].
   * [[lax natural transformation]]
 
 
+## References
 
+* [[Samuel Eilenberg]] and [[G. M. Kelly]], *A generalization of the functorial calculus*, J. Algebra 3:3, 366--375 (1966). ([doi](http://dx.doi.org/10.1016/0021-8693%2866%2990006-8))
+
+* [[Max Kelly]], [[Saunders MacLane]], _Coherence in closed categories_, JPAA 1 (1971), 97-140. ([doi](http://dx.doi.org/10.1016/0022-4049%2871%2990013-2))
 
 
 [[!redirects extranatural transformations]]
