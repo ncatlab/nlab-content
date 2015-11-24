@@ -1,0 +1,87 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of the concept of [[homotopy group]] from [[homotopy theory]] and [[stable homotopy theory]] to [[equivariant homotopy theory]] and [[equivariant stable homotopy theory]].
+
+## Definition
+
+Let $G$ be a [[finite group]]. For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] with $G$-[[action]], for $H \hookrightarrow G$ a [[subgroup]] and for $k \in \mathbb{N}$ then the $k$th $H$-equivariant homotopy group of $X$ is the [[colimit]]
+
+$$
+  \pi_k^G(X)
+  \coloneqq
+  \underset{\longrightarrow_n}{\lim} [S^{n \rho_g}, (\Omega^k X)(n \rho_G)]_G
+  \,,
+$$
+
+where
+
+* $\rho_G$ denotes the [[fundamental representation]] of $G$;
+
+* $n \rho_G = (\rho_G)^{\oplus_n}$;
+
+* $S^{n \rho_G}$ is its [[representation sphere]];
+
+* $X(n \rho_G)$ is the value of $X$ in [[RO(G)-degree]] $n\rho_G$;
+
+* $[-,-]_G$ is the set of [[homotopy classes]] of $G$-equivariant maps of pointed [[topological G-spaces]].
+
+(e.g. [Schwede 15, section 3](#Schwede15))
+
+## Examples
+
+### Of equivariant suspension spectra
+
+For $X$ a [[pointed topological space|pointed]] [[topological G-space]], then by the discussion [there](equivariant+suspension+spectrum#ROGDegrees)) the formula for the equivariant homotopy groups of its [[equivariant suspension spectrum]] $\Sigma^\infty_G X$ reduces to
+
+$$
+  \pi_k^G(\Sigma^\infty_G X)
+  \coloneqq
+  \underset{\longrightarrow_n}{\lim} [S^{n \rho_g}, (\Omega^k X)\wedge S^{n \rho_G}]_G
+  \,,
+$$
+
+## Properties
+
+### Relation to Mackey functors
+
+As $H$-varies over the [[subgroups]] of a $G$-[[equivariant spectrum]], the $H$-equivariant homotopy groups organize into a [[Mackey functor]] 
+
+$$
+  \underline{\pi}_\bullet(X)
+  \colon
+  G/H \mapsto \pi^H_\bullet(X)
+  \,.
+$$
+
+(e.g. [Schwede 15, p. 16 and section 4](#Schwede15))
+
+(...)
+
+
+
+## References
+
+* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+
+
+[[!redirects equivariant homotopy groups]]
