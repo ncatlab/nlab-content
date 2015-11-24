@@ -77,7 +77,7 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 ## Low dimensions
 
 *  The $(-1)$-sphere is the [[empty space]].
-*  The $0$-sphere is the disjoint union of two [[point]]s.
+*  The [[0-sphere]] is the [[disjoint union]] of two [[points]].
 *  The $1$-sphere is the [[circle]].
 *  The $2$-sphere is usual sphere from ordinary geometry. This canonically carries the structure of a [[complex manifold]] which makes it the [[Riemann sphere]].
 
