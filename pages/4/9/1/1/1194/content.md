@@ -661,7 +661,7 @@ for [[homological algebra]]:
 
 Thoughts about type theory and [[metaphysics]] are in 
 
-* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/blob/master/pdfs/A-path-from-logic-to-metaphysics-1990.pdf?raw=true))
+* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](http://archive-pml.github.io/martin-lof/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
 
 Further online resources include
 
