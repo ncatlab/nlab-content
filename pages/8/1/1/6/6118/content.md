@@ -447,18 +447,18 @@ That $A^+ \subseteq \bar{A}$ is clear from the characterization of closed sets g
 
 It's clear from the characterization of closed sets given in Remark \ref{closed0} that a set $A$ is closed if and only if $A = A^+$. We will establish that $A^+$ is closed by showing that $(A^+)^+ = A^+$. By the previous paragraph we know that $A^+ \subseteq (A^+)^+$ so we just need the reverse containment. So suppose that $x \in (A^+)^+$, and pick an ultrafilter $F \in \beta S$ with $A^+ \in F$ and $F \rightsquigarrow_\xi x$. In order to show that $x \in A^+$, we need to produce an ultrafilter $F' \in \beta S$ with $A \in F'$ such that $F' \rightsquigarrow_\xi x$. We will do this by applying the lax associativity condition, using an appropriate ultrafilter $\mathcal{G} \in \beta R$.  In fact, we claim that any $\mathcal{G}$ extending the following [filterbase](http://ncatlab.org/nlab/show/filter#filterbases) on $R$:
 
-$$\mathcal{G}_0 = \{\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U)\} \mid U \in F\}$$
+$$\mathcal{G}_0 = \{\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \mid U \in F\}$$
 
-will fit the bill. First let us verify that such an ultrafilter $\mathcal{G}$ exists. By the ultrafilter principle, it suffices to verify that $\mathcal{G}_0$ generates a proper filter. It's clear that $\mathcal{G}_0$ is closed under finite intersection. So the filter it generates is proper iff $\mathcal{G}_0$ is proper, i.e. doesn't contain the empty set. Now, a typical element of $\mathcal{G}_0$ is of the form $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) = \{(G \in \beta S, \; y \in U) \mid A \in G, G \rightsquigarrow_\xi y\}$ for some $U \in F$. Since $U \in F$ and $A^+ \in F$, we can pick $y \in U \cap A^+$. Since $y \in A^+$, there is $G \in F$ with $A \in G$ such that $G \rightsquigarrow_\xi y$ as desired.
+will fit the bill. First let us verify that such an ultrafilter $\mathcal{G}$ exists. By the ultrafilter principle, it suffices to verify that $\mathcal{G}_0$ generates a proper filter. It's clear that $\mathcal{G}_0$ is closed under finite intersection. So the filter it generates is proper iff $\mathcal{G}_0$ is proper, i.e. doesn't contain the empty set. Now, a typical element of $\mathcal{G}_0$ is of the form $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) = \{(G \in \beta S, \; y \in U) \mid A \in G, G \rightsquigarrow_\xi y\}$ for some $U \in F$. Since $U \in F$ and $A^+ \in F$, we can pick $y \in U \cap A^+$. Since $y \in A^+$, there is $G \in \beta S$ with $A \in G$ such that $G \rightsquigarrow_\xi y$ as desired.
 
 So we can pick a $\mathcal{G} \in \beta R$ extending $\mathcal{G}_0$. We want to establish that
 
 1. $\beta \pi_2(\mathcal{G}) \rightsquigarrow_\xi x$
 2. $A \in F':= m_S(\beta \pi_1(\mathcal{G}))$
 
-From (1) it follows that $F' \rightsquigarrow_\xi x$ by lax associativity. Then (2), along with the fact that $F' \rightsquigarrow_\xi x$, implies that $x \in A^+$, as desired. 
+This will complete the proof: From (1) it follows that $F' \rightsquigarrow_\xi x$ by lax associativity. Then (2), along with the fact that $F' \rightsquigarrow_\xi x$, implies that $x \in A^+$, as desired. 
 
-For (1) we show that $\beta \pi_2(\mathcal{G}) = F$; this suffices since $F \rightsquigarrow_\xi x$ by hypothesis. Since both sides of the equations are ultrafilters, It further suffices to show that $F \subseteq \beta \pi_2(\mathcal{G})$. So suppose that $U \in F$. We want to show that $U \in \beta \pi_2(\mathcal{G})$ i.e. that $\pi_2^{-1}(U) \in \mathcal{G}$. This is true because $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \in \mathcal{G}$ and the fact that $\mathcal{G}$ is upward closed.
+To show (1) we show that $\beta \pi_2(\mathcal{G}) = F$; this suffices since $F \rightsquigarrow_\xi x$ by hypothesis. Since both sides of the equations are ultrafilters, It further suffices to show that $F \subseteq \beta \pi_2(\mathcal{G})$. So suppose that $U \in F$. We want to show that $U \in \beta \pi_2(\mathcal{G})$ i.e. that $\pi_2^{-1}(U) \in \mathcal{G}$. This is true because $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \in \mathcal{G}$ and the fact that $\mathcal{G}$ is upward closed.
 
 For (2) we want to show that $A \in m_S(\beta \pi_1(\mathcal{G}))$ i.e. that $\hat{A} \in \beta \pi_1(\mathcal{G})$, i.e. that $\pi_1^{-1}(\hat{A}) \in \mathcal{G}$. This is true because $\pi_1^{-1}(\hat{A}) \cap \pi_2^{-1}(U) \in \mathcal{G}$ and the fact that $\mathcal{G}$ is upward closed.
 =-- 
