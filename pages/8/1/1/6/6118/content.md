@@ -18,7 +18,7 @@
 >One of my early Honours students at [[Macquarie University]] baffled his proposed Queensland graduate studies supervisor who asked whether the student knew the definition of a [[topological space]]. The aspiring researcher on [[dynamical system]]s answered positively: "Yes, it is a relational $\beta$-module!"  I received quite a bit of flak from colleagues concerning that one; but the student [[Peter Kloeden]] went on to become a full professor of mathematics in Australia then Germany.
 ---[[Ross Street]], in _[[An Australian conspectus of higher categories]]_
 
-In [1970](#Barr), [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] between [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).  Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  It was subsequently realized that this was a special case of the notion of [[generalized multicategory]].  Here we unpack this definition and examine its properties.
+In [1970](#Barr), [[Michael Barr]] gave an abstract definition of [[topological space]] based on a notion of [[convergence]] of [[ultrafilters]] (building on work by [[Ernest Manes]] on [[compact Hausdorff spaces]]).  Succinctly, Barr defined topological spaces as 'relational $\beta$-modules'.  It was subsequently realized that this was a special case of the notion of [[generalized multicategory]].  Here we unpack this definition and examine its properties.
 
 The correctness of this definition (in the sense of matching [[Bourbaki]]\'s definition) is equivalent to the [[ultrafilter principle]] ($UP$).  However, the definition can be treated on its own, even in a context without $UP$.  So we also consider the properties of relational $\beta$-modules when these might not match [[topological space|Bourbaki spaces]]. 
 
@@ -443,7 +443,7 @@ If a relation $\xi: Rel(\beta S, S)$ satisfies the inequalities of (eq:rel1) and
 ###### Proof 
 For any $A \subseteq S$, denote $A^+ = \{x \mid \exists_{F: \beta S} A \in F \; \wedge \; F \rightsquigarrow_\xi x\}$; we want to show that $A^+ = \bar{A}$. It suffices to show that $A \subseteq A^+ \subseteq \bar{A}$ and that $A^+$ is closed.
 
-That $A^+ \subseteq \bar{A}$ is clear from the characterization of closed sets given in Remark \ref{closed0}; $A^+$ is in some sense the "one-step closure" of $A$. That $A \subseteq A^+$ follows from the lax unit condition for relational $\beta$-modules: if $x \in A$, then $prin(x) \rightsquigarrow_\xi$ and $A \in prin(x)$.
+That $A^+ \subseteq \bar{A}$ is clear from the characterization of closed sets given in Remark \ref{closed0}; $A^+$ is in some sense the "one-step closure" of $A$. That $A \subseteq A^+$ follows from the lax unit condition for relational $\beta$-modules: if $x \in A$, then $prin(x) \rightsquigarrow_\xi x$ and $A \in prin(x)$.
 
 It's clear from the characterization of closed sets given in Remark \ref{closed0} that a set $A$ is closed if and only if $A = A^+$. We will establish that $A^+$ is closed by showing that $(A^+)^+ = A^+$. By the previous paragraph we know that $A^+ \subseteq (A^+)^+$ so we just need the reverse containment. So suppose that $x \in (A^+)^+$, and pick an ultrafilter $F \in \beta S$ with $A^+ \in F$ and $F \rightsquigarrow_\xi x$. In order to show that $x \in A^+$, we need to produce an ultrafilter $F' \in \beta S$ with $A \in F'$ such that $F' \rightsquigarrow_\xi x$. We will do this by applying the lax associativity condition, using an appropriate ultrafilter $\mathcal{G} \in \beta R$.  In fact, we claim that any $\mathcal{G}$ extending the following [filterbase](http://ncatlab.org/nlab/show/filter#filterbases) on $R$:
 
@@ -526,8 +526,8 @@ for any $A \subseteq X$ (easy exercise). For $x \in \bar{A}$, lemma \ref{closed}
 =-- 
 
 +-- {: .num_cor #equivalence}
-###### Corollary (Barr)
-
+###### Corollary 
+**(Barr)**
 The category of topological spaces is equivalent (even isomorphic to) the category of lax $\beta$-modules and lax morphisms between them. 
 =-- 
 
