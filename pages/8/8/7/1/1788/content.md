@@ -1,5 +1,3 @@
-* $\;\;$ _[[schreiber:Structure Theory for Higher WZW Terms]]_ 
 
-  & _[[schreiber:Higher Cartan Geometry]]_
- 
-  & _[[schreiber:The brane bouquet]]_
+
+[pdf](http://bapts.lbl.gov/Bern.pdf)
