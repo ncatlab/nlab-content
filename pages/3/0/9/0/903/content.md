@@ -233,20 +233,22 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 
 * [[finite homotopy type]], [[nilpotent homotopy type]], [[p-local homotopy type]], [[p-complete homotopy type]]
 
+* [[equivariant homotopy group]]
+
 ## References
 
 ### General
 
-* [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
- {#Hutchings}
+* {#Hutchings} [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
+ 
 
 
 ### Formalization in HoTT
 
 Homotopy groups and their properties can naturally be formalized in [[homotopy type theory]]. In this context a proof that $\pi_1(S^1)\simeq \mathbb{Z}$ is in
 
-* [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
-{#ShulmanPi1S1}
+* {#ShulmanPi1S1} [[Mike Shulman]], _[P1S1.v](https://github.com/HoTT/HoTT/blob/master/Coq/HIT/Pi1S1.v)_
+
 
 * [[Dan Licata]], [[Mike Shulman]], _Calculating the fundamental group of the circle in homotopy type theory_ ([pdf](http://www.cs.cmu.edu/~drl/pubs/ls13pi1s1/ls13pi1s1.pdf))
 
