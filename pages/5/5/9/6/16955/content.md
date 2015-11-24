@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
 
 * [[Stefan Schwede]],
 
@@ -22,7 +36,15 @@ on [[equivariant stable homotopy theory]] modeled on [[orthogonal spectra]].
 
 * [[equivariant spectrum]]
 
+* [[RO(G)-grading]]
+
+* [[equivariant sphere spectrum]]
+
+* [[equivariant suspension spectrum]]
+
 ## 3. Equivariant homotopy groups
+
+* [[equivariant homotopy groups]]
 
 ## 4. Wirthm&#252;ller isomorphism and transfers
 
