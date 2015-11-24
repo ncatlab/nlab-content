@@ -98,6 +98,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[tom Dieck splitting]]
 
+* [[equivariant spectrum]], [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]]
+
 ## References
 
 Original articles include
