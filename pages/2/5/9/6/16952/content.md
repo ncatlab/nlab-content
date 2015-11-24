@@ -64,6 +64,33 @@ Since by the [[Brown representability theorem]], in the absence of a group actio
 
 (...)
 
+## Definition
+
+For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] equipped with a $G$-[[action]], and for $V$ a linear $G$-[[representation]] on a real [[vector space]] of [[dimension]] $n$, then the value of $X$ in $RO(G)$-degree $V$ is
+
+$$
+  X(V)
+  \coloneqq
+  \mathbf{L}(\mathbb{R}^n, V)_+ \wedge_{O(n)} X_n
+$$
+
+where
+
+* $\mathbf{L}(\mathbb{R}^n, V)$ is the linear [[isometries]] $\mathbb{R}^n \to V$ ([[orthogonal bases]]);
+
+(e.g. [Schwede 15 (2.2)](#Schwede15))
+
+The _$RO(G)$-graded [[equivariant homotopy group]]_ of $X$ is (in the notation used there)
+
+$$
+  \pi_V^G(X)  \coloneqq
+  \underset{\longrightarrow_{\mathrlap{n}}}{\lim}
+  [S^{V + n \rho_G}, X(n \rho_G)]_G
+  \,.
+$$
+
+(e.g. [Schwede 15, p. 40](#Schwede15))
+
 ## Properties
 
 ### Relation to intrinsic twisting
@@ -77,9 +104,12 @@ $G$-spectra that are invertible under the smash product.  That homomorphism  is 
 
 ## References
 
-* {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _Lectures on equivariant stable homotopy theory_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
+* {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 * {#FauskLewisMay01} [[Halvard Fausk]], L. G. Lewis, [[Peter May]],  _The Picard group of equivariant stable  homotopy theory_, Advances in Mathematics
 Volume 163, Issue 1, 15 October 2001, Pages 17&#8211;33  ([pdf](http://www.math.uchicago.edu/~may/PAPERS/FLMJan01.pdf))
 
 [[!redirects RO(G)-gradings]]
+
+[[!redirects RO(G)-degree]]
+[[!redirects RO(G)-degrees]]
