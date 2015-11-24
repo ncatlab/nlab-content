@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $X$ a [[pointed object|pointed]] [[topological space]], its **suspension spectrum** is the [[spectrum]] $\Sigma^\infty X$ whose degree-$n$ space is the $n$-fold [[reduced suspension]] of $X$:
+For $X$ a [[pointed object|pointed]] [[topological space]], its **suspension spectrum** $\Sigma^\infty X$ is the [[spectrum]]  whose degree-$n$ space is the $n$-fold [[reduced suspension]] of $X$:
 
 $$
   (\Sigma^\infty X)_n = \Sigma^n X
@@ -38,6 +38,10 @@ $$
 ### Recognition and diagonals
 
 (...)
+
+## Related concepts
+
+* [[equivariant suspension spectrum]]
 
 ## References
 
