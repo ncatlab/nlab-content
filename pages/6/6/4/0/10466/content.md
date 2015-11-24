@@ -198,7 +198,7 @@ $$
   \delta_G \;\colon\; G Top \longrightarrow PSh_\infty(Glo)
 $$
 
-sending a [[topological space]]  $X$ with $G$-[[action]] to the [[geometric realization]] of the presheaf which sends a group $H$ to the topological groupoid of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
+sending a [[topological G-space]] to the  he presheaf which sends a group $H$ to the [[geometric realization]] of the [[topological groupoid]] of maps from $\mathbf{B}H$ to the [[action groupoid]] $X//G$:
 
 $$
   \delta_G(X)\;\colon\; H \mapsto \Pi( [\mathbf{B}H, X//G] )  
@@ -219,7 +219,7 @@ $$
 +-- {: .num_prop }
 ###### Proposition
 
-On a $G$-space $X \in G Top$ include via def. \ref{InclusionOfGSpacesInTheGlobalTheory} into to the global equivariant homotopy theory, 
+On a $G$-space $X \in G Top$ included via def. \ref{InclusionOfGSpacesInTheGlobalTheory} into to the global equivariant homotopy theory, 
 
 * the [[shape modality]] of def. \ref{CohesionOfGlobalEquivariantHomotopyTheory} produces the [[homotopy type]] of the ordinary [[quotient]] of the $G$-[[action]]
 
