@@ -34,3 +34,5 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 * Wikipedia, _[Dihedral group](https://en.wikipedia.org/wiki/Dihedral_group)_
 
 * {#Groupprops} Groupprops, _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
+
+[[!redirects dihedral groups]]
