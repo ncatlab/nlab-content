@@ -355,10 +355,10 @@ $$
 such that $H^{q,p}$ is the [[complex conjugation|complex conjugate]] of $H^{p,q}$:
 
 $$
-  H^{p,q} \simeq \overline{H^{q,p}}
+  H^{p,q} = \overline{H^{q,p}}
   \,.
 $$
-
+This is an equality of the underlying sets of the complex vector spaces.
 =--
 
 With this the above def. \ref{TraditionalHodgeFiltration} has the following verbatim generalization
