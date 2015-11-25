@@ -26,6 +26,11 @@ The [[T-duality|T-dual]] is the [[D7-brane]] in [[type IIB string theory]].
 
 [[!include F-branes -- table]]
 
+## Phenomenology
+
+D6-branes are the main ingredient in type IIA intersecting brane phenomenology, see at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
+
+
 ## Related concept
 
 [[!include table of branes]]
@@ -36,4 +41,3 @@ The [[T-duality|T-dual]] is the [[D7-brane]] in [[type IIB string theory]].
 
 
 [[!redirects D6-branes]]
-
