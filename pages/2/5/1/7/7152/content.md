@@ -105,6 +105,10 @@ and fully abstractly from the point of view of  [[(∞,1)-topos]]-theory ([[shap
 
 and ([Hoyois 13b, section 1](#Hoyois13b)).
 
+Further results for the case over the complex numbers are in
+
+* {#Carchedi15} [[Dave Carchedi]], _On the &#233;tale homotopy type of higher stacks_ ([arXiv:1511.07830](http://arxiv.org/abs/1511.07830))
+
 An introduction is in
 
 * Tomer Schlank, Alexei Skorobogatov, _A very brief introduction to &#233;tale homotopy_. In: "Torsors, &#233;tale homotopy and applications to rational points". LMS Lecture Note Series 405, Cambridge University Press, 2013. ([pdf](http://www2.imperial.ac.uk/~anskor/SCHLANK-SKOROBOGATOV.pdf))
