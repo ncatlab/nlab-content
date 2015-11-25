@@ -81,6 +81,8 @@ In contrast to the construction of "heterotic standard models" [above](#Heteroti
 
 Therefore in what are called "intersecting D-brane models" one considers [[Kaluza-Klein compactifications]] of [[type II string theory]] with [[D-branes]] that intersect in an intricate pattern in the compactification space. By choosing this intersection geometry suitably, one obtains various different realizations of [[gauge theory]] in the [[effective field theory|effective]] 4-dimensional physics. 
 
+The intersecting branes of main relevance in type IIA are [[D6-branes]] (e.g. [L&#252;st 04](#Lust04)), which correspond in type IIB to [[D7-branes]]. These are precisely the ones whose lift to [[M-theory]] correspond to [[conifold]]/[[ADE orbifold]] [[singularities]], see also at _[[F-branes -- tables]]_.
+
 One way to neatly reorganize the required data for such type II compactifications is to formulate them in terms of "[[F-theory]]", which is why some of this type II model building now goes by names like "F-theory phenomenology" or similar.
 
 The [[moduli stabilization]] in these type of models can be achieved by choosing the various [[RR-field]] and [[B-field]] [[field strength]] (the "fluxes") on the compactification space such that its [[curvature]] forms have certain specified [[periods]] on non-trivial [[singular cohomology|singular cycles]] of the compactification space. See ([Denef 08](#Denef08)) for introduction and review of such type IIB [[flux compactification]].
@@ -228,6 +230,8 @@ Principles singling out heterotic models with three generations of fundamental p
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
 Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[orientifold]] [[flux compactifications]]) include
+
+* {#Lust04} [[Dieter Lüst]], _Intersecting Brane Worlds -- A Path to the Standard Model ?_, Class.Quant.Grav.21:S1399-1424,2004 ([arXiv:hep-th/0401156](http://arxiv.org/abs/hep-th/0401156))
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
