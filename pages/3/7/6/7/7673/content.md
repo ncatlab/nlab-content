@@ -403,10 +403,12 @@ and shown to be equivalent to categories with attributes in
 
 The initial category with families was constructed in
 
+* Simon Castellan, Dependent type theory as the initial category with families ([PDF](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
+
+It was formalized in inside type theory with set quotients of [[higher inductive types]] in:
+
 * [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Adga](https://bitbucket.org/akaposi/tt-in-tt)).
 {#AltKap2015}
-
-inside type theory with set quotients of [[higher inductive types]].
 
 Contextual categories are defined in
 
