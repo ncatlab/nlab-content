@@ -57,7 +57,7 @@ where now $S^V$ denotes the [[representation sphere]] of $V$. This more general 
 
 ### Representation by $G$-spectra
 
-Since by the [[Brown representability theorem]], in the absence of a group action a cohomology theory is [[representable functor|represented]] by a [[spectrum]], it is natural to construct a category in which genuine $G$-equivariant cohomology theories also become representables. This is the [[equiavriant stable homotopy theory]] of [[genuine G-spectra]].
+Since by the [[Brown representability theorem]], in the absence of a group action a cohomology theory is [[representable functor|represented]] by a [[spectrum]], it is natural to construct a category in which genuine $G$-equivariant cohomology theories also become representables. This is the [[equivariant stable homotopy theory]] of [[genuine G-spectra]].
 
 
 ### Induced transfer and Mackey functors
