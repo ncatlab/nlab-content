@@ -139,6 +139,8 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 * [[integral transform]]
 
+* [[Tambara functor]]
+
 
 ## References
 
