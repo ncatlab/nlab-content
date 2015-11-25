@@ -8,17 +8,21 @@
 
 A _fixed point_ of an [[endofunction]] $f \colon X \to X$ is an $x\in X$ which is taken by $f$ to itself: $f(x) = x$.
 
-## Generalizations
-
-In [[homotopy theory]] this generalizes to the concept of
-
-* [[homotopy fixed point]]
+## Generalizations and Variants
 
 In [[category theory]] this generalizes to the concept of
 
 * [[fixed point of an endofunctor]]
 
 * [[fixed point of an adjunction]]
+
+In [[homotopy theory]] it becomes
+
+* [[homotopy fixed point]]
+
+In [[stable homotopy theory]] this becomes the
+
+* [[fixed point spectrum]]
 
 In [[logic]] one has
 
@@ -28,6 +32,6 @@ In [[logic]] one has
 
 ## References
 
-* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics))_
+* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics)_
 
 [[!redirects fixed points]]
