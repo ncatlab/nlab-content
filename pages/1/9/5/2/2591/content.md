@@ -22,7 +22,7 @@
 
 ## Definition
 
-The _special orthogonal group_ or _rotation group_, denoted $SO(n)$, is the [[group]] of rotations in a  [[Cartesian space]] of [[dimension]] $n$. 
+The _special orthogonal group_ or _[[rotation]] group_, denoted $SO(n)$, is the [[group]] of rotations in a  [[Cartesian space]] of [[dimension]] $n$. 
 
 This  is one of the [[classical Lie groups]]. It is the [[connected component]] of the neutral element in the [[orthogonal group]] $O(n)$.
 
