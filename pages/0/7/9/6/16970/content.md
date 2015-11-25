@@ -26,18 +26,18 @@ The generalization of the concept of [[homotopy group]] from [[homotopy theory]]
 
 ### Via $G$-equivariant maps
 
-Let $G$ be a [[finite group]]. For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] with $G$-[[action]], for $H \hookrightarrow G$ a [[subgroup]] and for $k \in \mathbb{N}$ then the $k$th $H$-equivariant homotopy group of $X$ is the [[colimit]]
+Let $G$ be a [[finite group]]. For $X$ a $G$-[[equivariant spectrum]] modeled as an [[orthogonal spectrum]] with $G$-[[action]], then for $k \in \mathbb{N}$ the $k$th equivariant homotopy group of $X$ is the [[colimit]]
 
 $$
   \pi_k^G(X)
   \coloneqq
-  \underset{\longrightarrow_{\mathrlap{n}}}{\lim} [S^{n \rho_g}, (\Omega^k X)(n \rho_G)]_G
+  \underset{\longrightarrow_{\mathrlap{n}}}{\lim} [S^{n \rho_G}, (\Omega^k X)(n \rho_G)]_H
   \,,
 $$
 
 where
 
-* $\rho_G$ denotes the [[fundamental representation]] of $G$;
+* $\rho_G$ denotes the [[fundamental representation]] of $G$
 
 * $n \rho_G = (\rho_G)^{\oplus_n}$;
 
@@ -48,6 +48,10 @@ where
 * $[-,-]_G$ is the set of [[homotopy classes]] of $G$-equivariant maps of pointed [[topological G-spaces]].
 
 (e.g. [Schwede 15, section 3](#Schwede15))
+
+More generally for $H \hookrightarrow G$ a [[subgroup]] then one writes $\pi_\bullet^H(X)$ for the $H$-equivariant subgroups of $X$ with $X$ regarded now as an $H$-[[equivariant spectrum]], via restriction of the action.
+
+(e.g. [Schwede 15, p. 16](#Schwede15))
 
 ### Via fixed point spectra
 
