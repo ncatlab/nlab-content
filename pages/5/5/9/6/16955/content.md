@@ -60,6 +60,8 @@ on [[equivariant stable homotopy theory]] modeled on [[orthogonal spectra]].
 
 ## 7. Fixed points and geometric fixed points
 
+* [[fixed point spectrum]]
+
 ## 8. Power constructions
 
 ## 9. Norm construction
