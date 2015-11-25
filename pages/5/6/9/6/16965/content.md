@@ -13,26 +13,74 @@
 =--
 =--
 
-> under construction
 
 #Contents#
 * table of contents
 {:toc}
 ## Idea
 
-The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a decomposition of equivariant [[homotopy groups]] of equivariant [[suspension spectra]] into a [[direct sum]] of homotopy groups of fixed point spectra:
+The _tom Dieck splitting_ in [[equivariant stable homotopy theory]] is a decomposition of  [[equivariant homotopy groups]] and [[fixed point spectra]] of [[equivariant suspension spectra]] into a [[direct sum]] of homotopy groups of _naive_ [[fixed points]].
 
-for $X$ a pointed [[topological G-space]] then ([Schwede 15](#Schwede15))
+## Statement 
+
+For $H\subset G$ a [[subgroup]], write
+
+* $[H \subset G]$ for its [[conjugacy class]];
+
+* $W H \coloneqq (N_G H)/H$ for its [[Weyl group]], the [[quotient group]] of the [[normalizer subgroup]] (of $H$ in $G$) by $H$;
+
+* $E W H$ for the [[universal principal bundle]] of the Weyl group.
+
+### For equivariant homotopy groups
+
+For $X$ a pointed [[topological G-space]] then its [[equivariant homotopy groups]] are  
 
 $$
   \pi_\bullet^G(\Sigma^\infty X)
   \simeq
   \underset{[H \subset G]}{\oplus}
   \pi_\bullet^{W H}(\Sigma^\infty (E W H^+ \wedge X^H))
-  \,.
+  \,,
 $$
 
-where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W H$ denotes the [[Weyl group]].
+where the [[direct sum]] is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$.
+
+(e.g. [Schwede 15, theorem 6.12](#Schwede15))
+
+
+### For fixed point spectra
+
+
+The [[fixed point spectrum]] of an [[equivariant suspension spectrum]] is given by the formula
+
+$$
+  F^G(\Sigma^\infty_G X)
+  \simeq
+  \underset{[H\subset G]}{\oplus}
+  \Sigma^\infty( E W H_+ \wedge_{W H} X^H )
+$$
+
+where $\Sigma^\infty$ is the plain [[suspension spectrum]] construction.
+
+(e.g. [Schwede 15, example 7.7](#Schwede15))
+
+In particular the summand for $H = G$ is just the [[suspension spectrum]] $\Sigma^\infty (X^G)$ of the naive fixed points:
+
+$$
+  F^G(\Sigma^\infty_G X)
+  \simeq
+  \Sigma^\infty( X^G )
+  \oplus
+  \left(
+  \underset{{[H\subset G]} \atop {H \neq G}}{\oplus}
+  \Sigma^\infty( E W H_+ \wedge_{W H} X^H )
+  \right)
+$$
+
+
+
+
+### For rational equivariant homotopy theory
 
 
 For $G$ finite and for [[rational equivariant stable homotopy theory]] this becomes ([Greenlees, 6.2](#Greenlees))
@@ -42,6 +90,23 @@ $$
 $$
 
 where the product is over [[conjugacy classes]] of [[subgroups]] $H$ of $G$ and $W H$ denotes the [[Weyl group]] of $H$ in $G$
+
+## Examples
+
+### For the equivariant sphere spectrum
+
+For the [[equivariant sphere spectrum]] $\mathbb{S} = \Sigma^\infty_G S^0$ the tom Dieck splitting says that its 0th [[equivariant homotopy group]]
+is the [[free abelian group]] on the set of [[conjugacy classes]] of [[subgroups]] of $G$:
+
+$$
+  \pi_0^G(\mathbb{S})
+  \simeq
+  \underset{[H \subset G]}{\oplus} \pi_0^{W H}(\Sigma_+^\infty E W H)
+  \simeq
+  \mathbb{Z}[conjugacy\;classes\;of\;subgroups]
+$$
+
+(e.g. [Schwede 15, p. 64](#Schwede15))
 
 ## References
 
