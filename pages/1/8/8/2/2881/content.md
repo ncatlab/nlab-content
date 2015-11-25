@@ -6,6 +6,7 @@
 ## Idea ##
 
 The notion of [[locale]] is a "point-less" version of that of [[topological space]]. A _localic group_ is much like a [[topological group]], but there are some differences.
+For a groupoid generalization see [[localic groupoid]].
 
 ## Definition ##
 
@@ -41,9 +42,6 @@ Details can be found in C5.3.1 of the [[Elephant]], in the more general case of 
 If $H\rightarrowtail G$ is a localic subgroup, we construct its closure $\bar{H}$, which is also a localic subgroup in which $H$ is dense.  By [[pullback]], it follows that $H\times \bar{H} \to \bar{H} \times \bar{H}$ is [[fiberwise dense subspace|fiberwise dense]] over $\bar{H}$ via the second projection.  Applying the [[automorphism]] $(g,h) \mapsto (g,g^{-1}h)$ of $G\times G$, we conclude that $H\times \bar{H} \to \bar{H} \times \bar{H}$ is also [[fiber]]wise dense over $\bar{H}$ via the "composition" map.  Dually, $\bar{H}\times H \to \bar{H} \times \bar{H}$ is also fiberwise dense over $\bar{H}$ via the "composition" map, and thus (by the basic fact cited above), so is their intersection, which is $H\times H$.  Since $\bar{H}\times \bar{H}\to \bar{H}$ is an [[epimorphism]], so is $H\times H\to\bar{H}$.  But this map factors through $H\rightarrowtail \bar{H}$ (since $H$ is itself a subgroup of $G$), so that inclusion is also epic.  But it is also a [[regular monomorphism]], and hence an [[isomorphism]]; thus $H$ is closed.
 =--
 
-## Localic groupoids
-
-An important generalization of localic groups is to _localic groupoids_ , i.e. internal [[groupoids]] in the category of locales.  Localic groupoids are important, among other reasons, because every [[Grothendieck topos]] can be presented as the [[topos]] of equivariant [[sheaves]] on some localic groupoid.  This fact is due to [[Andre Joyal|Joyal]] and Tierney. For more see [[classifying topos of a localic groupoid]].
 
 ## References
 
@@ -51,5 +49,3 @@ An important generalization of localic groups is to _localic groupoids_ , i.e. i
 
 
 [[!redirects localic groups]]
-[[!redirects localic groupoid]]
-[[!redirects localic groupoids]]
