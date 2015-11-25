@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The [[action]] of a [[special orthogonal group]].
+
+
+## Related concepts
+
+
+* [[rigid body dynamics]]
+
+[[!redirects rotations]]
