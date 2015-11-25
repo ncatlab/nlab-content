@@ -1,0 +1,64 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+
+The _real Hopf fibration_ is the [[fibration]]
+
+
+$$
+  \array{
+     S^0 &\hookrightarrow& S^1
+     \\
+     && \downarrow^{\mathrlap{p_{\mathbb{H}}}}
+     \\
+     && S^1
+  }
+$$
+
+of the [[1-sphere]] over itself with [[fiber]] the [[0-sphere]], which is induced via the [[Hopf construction]] from the product operation 
+
+$$
+  \mathbb{R} \times \mathbb{R} \stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}
+  \mathbb{R}
+$$
+
+on the [[real numbers]]. This means that if the domain $S^1$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{R}\times \mathbb{R}$ and the codomain $S^1$ is regarded as the real [[projective space]], then $p$ is given simply by
+
+$$
+  p \colon (x,y) \mapsto [x;y] = [x/y; 1]
+  \,,
+$$
+
+
+## Related concepts
+
+* [[complex Hopf fibration]]
+
+* [[quaternionic Hopf fibration]]
+
+* [[octonionic Hopf fibration]]
+
