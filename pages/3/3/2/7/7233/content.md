@@ -338,6 +338,8 @@ For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifo
 
 In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local $G_2$-orbifolds are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)).
 
+Codimension-4 ADE singularities in $G_2$-manifolds are discussed in ([Barrett 06](#Barrett06)).
+
 ## Properties
 
 ### Existence
@@ -413,12 +415,13 @@ Surveys include
 
 * {#Bryant05} [[Robert Bryant]], _Some remarks on $G_2$-structures_, Proceedings of the 12th G&#246;kova Geometry-Topology Conference 2005, pp. 75-109 [pdf](http://gokovagt.org/proceedings/2005/ggt05-bryant.pdf)
 
-Discussion of $G_2$-orbifolds includes
+Discussion of $G_2$-[[orbifolds]] includes
 
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
 
+* {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
