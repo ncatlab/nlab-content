@@ -95,6 +95,7 @@ for the maximal [[braided 3-group]] inside this on the invertible objects.
 We now want to analyse the super 2-stack $2 \mathbf{sLine}$. In order to do so, first notice the following classical results about the [[Picard 3-group]] of superalgebras.
 
 ### The Brauer 3-group of superalgebras
+ {#TheBrauer3Group}
 
 +-- {: .num_theorem #AzumayaAreCentralSimple}
 ###### Theorem
