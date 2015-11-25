@@ -15,15 +15,49 @@
 
 ## Idea 
 
-A _fixed point_ (or _fixpoint_) of an [[endofunction]] $f \colon X \to X$ is an [[element]] $x \in X$ such that $f(x) = x$. Similarly, if $C$ is a [[category]] with a [[terminal object]] $1$ and an [[endomorphism]] $f \colon X \to X$, then a fixed point of $f$ is an element $x \colon 1 \to X$ such that $f \circ x = x$. 
+A _fixed point_ (or _fixpoint_) of an [[endofunction]] $f \colon X \to X$ is an [[element]] $x \in X$ such that $f(x) = x$. 
 
-More generally still, we can speak of the same notion but replacing global elements $x \colon 1 \to X$ by [[generalized elements]] $x \colon U \to X$, where again $x$ is a fixed point of $f \colon X \to X$ if $f \circ x = x$. 
+More generally, if $C$ is a [[category]] with a [[terminal object]] $1$ and an [[endomorphism]] $f \colon X \to X$, then a fixed point of $f$ is an element $x \colon 1 \to X$ such that $f \circ x = x$. More generally still, we can speak of the same notion but replacing global elements $x \colon 1 \to X$ by [[generalized elements]] $x \colon U \to X$, where again $x$ is a fixed point of $f \colon X \to X$ if $f \circ x = x$. 
 
-The same notion undergoes further generalization by [[categorification]]. For example, if $F \colon C \to C$ is an [[endofunctor]], then an object $c$ of $C$ is called a "fixed point" of $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). 
+Fixed points are also called _[[invariants]]_, in particular if they are joint fixed points of all the operations in a given [[monoid]] or [[group]].
 
-The importance of fixed points all throughout mathematics is difficult to overstate. They are particularly important in analysis, topology, lattice theory, set theory, and category theory. Fixed points of endofunctors frequently arise as solutions to "recursive equations", especially in the form of [[initial algebra of an endofunctor|initial algebras and terminal coalgebras]]. 
+Such fixed points we discuss below in
+
+* _[Examples in analysis and topology](#ExamplesInAnalysisAndTopology)_
+
+* _[Examples for ordered sets](#ExamplesForOrderedSets)_
+
+* _[Examples in Set theory](#ExamplesInSetTheory)_
+
+The importance of fixed points all throughout mathematics is difficult to overstate. They are particularly important in [[analysis]], [[topology]], [[lattice]] theory, set theory, and category theory. Fixed points of endofunctors frequently arise as solutions to "recursive equations", especially in the form of [[initial algebra of an endofunctor|initial algebras and terminal coalgebras]]. 
+
+
+In [[category theory]] the concept of fixed points admits [[categorification]]: For example, if $F \colon C \to C$ is an [[endofunctor]], then an object $c$ of $C$ is called a "fixed point of the endofunctor" $F$ is there is an [[isomorphism]] $F(c) \cong c$ (although usually, a fixed point of a functor is an object together with a specified such isomorphism). These fixed points for endofunctors we discuss below in 
+
+* _[Fixed points of an endofunctor](#ExamplesInCategoryTheory)_
+
+See also at
+
+* _[[fixed point of an adjunction]]_
+
+In [[homotopy theory]] the concept of fixed point becomes that of
+
+* _[[homotopy fixed point]]_
+
+In [[stable homotopy theory]] it becomes the concept of
+
+* _[[fixed point spectrum]]_
+
+For further occurences in [[logic]] see also
+
+* _[[fixed-point combinator]]_
+
+* _[[Lawvere's fixed point theorem]]_
+
+
 
 ## Examples in analysis and topology 
+ {#ExamplesInAnalysisAndTopology}
 
 A typical application of fixed points in analysis is through the following general theorem: 
 
@@ -53,6 +87,7 @@ By a suitable choice of space $X$ and endomorphism $f$, this theorem can be used
 * Atiyah-Singer; Wood's Hole 
 
 ## Examples for ordered sets 
+ {#ExamplesForOrderedSets}
 
 ### Knaster-Tarski theorem 
 
@@ -97,12 +132,14 @@ One may mimic the last part of the proof of the Knaster-Tarski theorem to show t
 ### Galois connections 
 
 ## Examples in set theory 
+ {#ExamplesInSetTheory}
 
 * In at least some of the "lower" levels of the hierarchy of countable ordinals, leading up to the Feferman-Sch&#252;tte ordinal, fixed points of continuous operators on the first uncountable ordinal play a central role. More information may be found at [[countable ordinal]].  
 
 * Critical points of elementary embeddings (non-fixed points) 
 
 ## Examples in category theory 
+ {#ExamplesInCategoryTheory}
 
 ### Initial algebras and final coalgebras 
 
@@ -110,7 +147,7 @@ Various classical fixed-point theorems for monotone functions on posets can be "
 
 +-- {: .num_theorem} 
 ###### Theorem 
-Let $C$ be a category with an initial object $0$ and colimits of $\kappa$-directed diagrams for some regular cardinal $\kapa$, and suppose $F \colon C \to C$ preserves $\kappa$-directed colimits. Then $F$ has an initial algebra (which by Lambek's theorem is a fixed point of $F$). 
+Let $C$ be a category with an initial object $0$ and colimits of $\kappa$-directed diagrams for some regular cardinal $\kappa$, and suppose $F \colon C \to C$ preserves $\kappa$-directed colimits. Then $F$ has an initial algebra (which by Lambek's theorem is a fixed point of $F$). 
 =-- 
 
 +-- {: .proof} 
@@ -173,9 +210,15 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 ## References 
 
-* [[Claudio Hermida]], [[Bart Jacobs]], _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
+* {#Hermida97} [[Claudio Hermida]], [[Bart Jacobs]], _Structural induction and coinduction in a fibrational setting_, Information and Computation 145 (1997), 107-152. ([citeseer](http://citeseer.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.7400)) 
 
 * {#MakkaiPare} [[Michael Makkai]], [[Robert Paré]], _Accessible Categories: The Foundations of Categorical Model Theory_, Contemporary Mathematics 104, AMS (1989). 
+
+* Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics)_
+
+
+[[!redirects fixed points]]
+
 
 [[!redirects fixed point of the endofunctor]]
 [[!redirects fixed points of the endofunctor]]
