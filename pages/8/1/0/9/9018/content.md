@@ -67,7 +67,7 @@ But when $Y$ is a $G_2$-[[orbifold]] then:
 
 1. at a (non-orbifold) [[conifold singularity]] [[chiral fermions]] appear spring ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
-The conifold singularities are supposed/assumed to be is isolated ([Witten 01, section 2](#Witten01)), while the ADE singularities are supposed/assumed to be of codimension 4 in the 7-dimensional fibers ([Witten 01, section 3](#Witten01)).
+The conifold singularities are supposed/assumed to be is isolated ([Witten 01, section 2](#Witten01)), while the ADE singularities are supposed/assumed to be of codimension-4 in the 7-dimensional fibers ([Witten 01, section 3](#Witten01), [Barrett 06](#Barrett06)).
 
 In the absence of a proper microscopic definition of M-theory, the first point is argued for indirectly in at least these ways: 
 
@@ -153,6 +153,11 @@ Specifically [[string phenomenology]] for the case of compactification on [[G2-m
 * {#Witten01} [[Edward Witten]], _Anomaly Cancellation On Manifolds Of $G_2$ Holonomy_ ([arXiv:hep-th/0108165](http://arxiv.org/abs/hep-th/0108165))
 
 * {#AcharyaWitten01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
+
+Detailed discussion is in 
+
+* {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
+
 
 See also
 
