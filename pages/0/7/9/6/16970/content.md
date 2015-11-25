@@ -73,6 +73,8 @@ $$
   \,,
 $$
 
+Specifically for the [[equivariant sphere spectrum]], see _[here](equivariant+sphere+spectrum#EquivariantHomotopyGroups)_.
+
 ## Properties
 
 ### Relation to Mackey functors
