@@ -276,7 +276,7 @@ Which provides a solution to exercise 3.21 in
 
 The accompanying above remark of Lawvere appears on page 267 of 
 
-* [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://conceptualmathematics.files.wordpress.com/2013/01/toposesofgeneralizedgraphs.pdf)) 
+* [[F. William Lawvere]], _Qualitative distinctions between some toposes of generalized graphs_, Contemporary Mathematics 92 (1989), 261-299. ([pdf](http://www.ams.org/books/conm/092/1003203/conm092-1003203.pdf)) 
  {#Law} 
 
 A comparison of the Karoubi envelope to other completions can be found here:
