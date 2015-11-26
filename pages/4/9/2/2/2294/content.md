@@ -28,7 +28,7 @@ However, there is a third way of defining a category which uses only one collect
 
 ## Definition
 
-A **category** (single-sorted version) is a [[collection]] $C$, whose elements are called _morphisms_, together with two functions $s,t:C\to C$ and a [[partial function]] $\circ:C\times C\dashrightarrow C$, such that:
+A **category** (single-sorted version) is a [[collection]] $C$, whose elements are called _morphisms_, together with two functions $s,t:C\to C$ and a [[partial function]] $\circ:C\times C\to C$, such that:
 
 1. $s(s(x)) = s(x) = t(s(x))$
 2. $t(t(x)) = t(x) = s(t(x))$
