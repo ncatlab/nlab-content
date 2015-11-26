@@ -553,7 +553,7 @@ Passing to the [[adjoint triples]] of [[idempotent monads]] and [[idempotent com
 
 * in the middle yields the [[reduction modality]] $\Re$, the [[infinitesimal shape modality]] $\Im$ and the [[infinitesimal flat modality]] $\&$. 
 
-* on the right we get an adjoint triple whose whose middle bit $\rightsquigarrow$ is the [[bosonic modality]] and whose left piece $\rightrightarrows$ produces _super-even_ components, containing all the "[[fermion]] [[currents]]" if one wishes , which in this [[unity of opposites]] hence deserves to be called the _[[fermionic modality]]_. The further right adjoint $R$ is the [[rheonomy modality]].
+* on the right we get an adjoint triple whose whose middle bit $\rightsquigarrow$ is the [[bosonic modality]] and whose left piece $\rightrightarrows$ produces _super-even_ components, containing all the "[[fermion]] [[conserved currents]]" if one wishes , which in this [[unity of opposites]] hence deserves to be called the _[[fermionic modality]]_. The further right adjoint $R$ is the [[rheonomy modality]].
 
 Hence we get a process of [[adjoint modalities]] of the form
 
@@ -696,7 +696,7 @@ Notice the following:
 +-- {: .num_prop }
 ###### Proposition
 
-The total composite labeled $\Delta$ in prop. \ref{CoReflectonsOfToposes}
+The total composite labeled $\Delta$ in prop. \ref{CoReflectionsOfToposes}
 is indeed the [[locally constant sheaf]]-functor for $SuperFormalSmooth0Type$.
 
 =--
@@ -711,7 +711,7 @@ Let $X$ be any object in image of this total functor, and let $U \times D_s \in 
 +-- {: .num_cor #SystemOfModalities}
 ###### Corollary
 
-Passing, via remark \ref{FromAdjunctionsToMonads}, from the sequence of [[adjoint quadruples]] in prop. \ref{CoReflectonsOfToposes}, yields the following system of [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]]:
+Passing, via remark \ref{FromAdjunctionsToMonads}, from the sequence of [[adjoint quadruples]] in prop. \ref{CoReflectionsOfToposes}, yields the following system of [[adjoint triples]] of [[idempotent monads]] and [[idempotent comonads]]:
 
 
 $$
@@ -910,7 +910,7 @@ Here we just recall some bare minimum of this [[higher differential geometry]], 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[(infinity,1)-category theory]] [[analogy|analog]] of prop. \ref{CoReflectonsOfToposes} still holds, and produces via the direct analog corollary \ref{SystemOfModalities} a system of [[modal operators]] on $\mathbf{H} =$ [[SuperFormalSmooth?Type]].
+The [[(infinity,1)-category theory]] [[analogy|analog]] of prop. \ref{CoReflectionsOfToposes} still holds, and produces via the direct analog corollary \ref{SystemOfModalities} a system of [[modal operators]] on $\mathbf{H} =$ [[SuperFormalSmooth?Type]].
 
 
 =--
@@ -938,7 +938,7 @@ $$
 ### **2)** General Cartan geometry
  {#GStructureAndCartanGeometry}
 
-Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectonsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan 
+Given a [[topos]] of [[differential cohesion]] $\mathbf{H}$ as in corollary \ref{SystemOfModalities} above (hence an [[elastic]] [[substance]]), then on general abstract grounds there is -- and that's the point of this axiomatic formulation -- a good concept and theory of _$V$-[[manifolds]]_ and  _[[G-structures]]_ on these. Applied to the case of [[supergeometry]] as established in prop. \ref{CoReflectionsOfToposes} this hence yields a theory of $G$-structures on $V$-manifolds in supergeometry, and hence of [[Cartan geometry]] modeled on the inclusion $G \to G \rtimes V$. Here we recall the elements of [[abstract general]] [[Cartan geometry]] formulated axiomatically this way. Below in _[Super Cartan geometry](#SuperCartanGeometry)_ we then specify to the [[concrete particular]] super Cartan 
 geometry.
 
 1. _[V-Manifolds](#Manifolds)_
