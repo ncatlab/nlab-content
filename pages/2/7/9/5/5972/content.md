@@ -10,6 +10,8 @@
 =--
 
 
+> under construction
+
 #Contents#
 * table of contents
 {:toc}
@@ -20,14 +22,28 @@
 
 ## References
 
-* Annette Huber, Stefan M&#252;ller-Stach, _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
+* Annette Huber, [[Stefan Müller-Stach]], _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
+
 * Madhav Nori, TIFR notes on motives, unpublished, [pdf](http://www.arithgeo.ethz.ch/alpbach2011/Nori_TIFR)
+
 * MathOverflow: [kontsevichs-conjectures-on-the-grothendieck-teichmuller-group](http://mathoverflow.net/questions/42148/kontsevichs-conjectures-on-the-grothendieck-teichmuller-group)
+
 * [Alain Bruguieres](http://www.math.univ-montp2.fr/~bruguieres/recherche.html), _On a [[Tannaka duality|tannakian]] result due to Nori_, [dvi](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.dvi), [ps](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.ps), [pdf](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.pdf), [djvu](http://www.math.univ-montp2.fr/%7Ebruguieres/ntan.djvu)
+
 * Jonas von Wangenheim, _Nori-Motive und Tannaka-Theorie_, [arxiv/1111.5146](http://arxiv.org/abs/1111.5146)
+
 * [[Isamu Iwanari]], _Tannakization in derived algebraic geometry_, [arxiv/1112.1761](http://arxiv.org/abs/1112.1761)
 
-* J. Ayoub, L. Barbieri-Viale, _Nori 1-motives_ ([arXiv:1206.5923](http://arxiv.org/abs/1206.5923))
+* [[Joseph Ayoub]], [[Luca Barbieri-Viale]], _Nori 1-motives_ ([arXiv:1206.5923](http://arxiv.org/abs/1206.5923))
+
+Characterization of the universality of Nori motives via Barr completion of the [[syntactic category]] of the [[theory]] (in the [[formal logic|formal logical]] sense) of [[singular cohomology]] of [[schemes]] is in
+
+* {#BVCL15} [[Luca Barbieri-Viale]], [[Olivia Caramello]], [[Laurent Lafforgue]], _Syntactic categories for Nori motives_ ([arXiv:1506.06113](http://arxiv.org/abs/1506.06113))
+
+For more on this [[topos theory]] perspective, see
+
+* [[Olivia Caramello]], _Motivic toposes_ ([arXiv:1507.06271](http://arxiv.org/abs/1507.06271))
+
 
 
 [[!redirects Nori motives]]
