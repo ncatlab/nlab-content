@@ -69,7 +69,18 @@ EGA was never completed. The listed volumes I-IV are just a part of the original
 
 The [Wikipedia entry](http://en.wikipedia.org/wiki/S%C3%A9minaire_de_G%C3%A9om%C3%A9trie_Alg%C3%A9brique_du_Bois_Marie) lists all of the seminars.
 
-[[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture]]s which appeared before SGA5).  
+[[Pierre Deligne]] edited a supplementary volume  _SGA $4\frac{1}{2}$_ comprisings parts of [[SGA5]], his own articles proving new results and some substantially rewritten and expanded material exposed in less satisfactory form in SGA5 (these results were used for his proof of the [[Weil conjecture]]s which appeared before SGA5).
+
+An ongoing project aims to retype the SGA volumes in TeX.
+So far the following volumes have been retyped:
+
+- [SGA 1](http://arxiv.org/abs/math/0206203) - Edited by B. Edixhoven, 2004
+- [SGA 2](http://arxiv.org/abs/math/0511279) - Edited by Y. Laszlo, 2004
+- [SGA 3](http://webusers.imj-prg.fr/~patrick.polo/SGA3/) - Edited by P. Gilles and P. Polo, 2011
+- SGA 4 - Edited by Y. Laszlo.
+[Part 1](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-1/sga41.pdf),
+[Part 2](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-2/sga42.pdf),
+[Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
 
 ##References
 
