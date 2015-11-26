@@ -46,8 +46,19 @@ A formalization in terms of [[differential cohesion]] is discussed at _[differen
 [[!redirects étale ∞-groupoid]]
 [[!redirects étale ∞-groupoids]]
 
+[[!redirects étale ∞-stack]]
+[[!redirects étale ∞-stacks]]
+
+
 [[!redirects etale infinity-groupoid]]
 [[!redirects etale infinity-groupoids]]
 
+[[!redirects etale infinity-stack]]
+[[!redirects etale infinity-stacks]]
+
+
 [[!redirects etale ∞-groupoid]]
 [[!redirects etale ∞-groupoids]]
+
+
+
