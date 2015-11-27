@@ -39,6 +39,10 @@ Imposing $n$-trunction and adjoints for all [[k-morphisms]] for $0 \leq k \leq n
 
 This is the structure to which the [[cobordism hypothesis]] applies. Of course the proof of the cobordism hypothesis is not formulated in opetopic type theory and one would have to show that the language it is formulated in is suitably equivalent to that of opetopic type theory, but inspection in low dimension shows that the [[higher dimensional traces]] that opetopic type theory produces are of just the right kind.
 
+## Related entries
+
+* _[[Globular]]_ proof assistant
+
 
 ## References
  {#References}
