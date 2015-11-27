@@ -8,7 +8,7 @@ The inclusion of this entry is to help the user move between the various forms u
 A **$cat^1$-group** is a triple, $(G,s,t)$, where
 $G$ is a group and $s,t$ are [[endomorphism]]s of $G$ satisfying conditions
 1. $s t = t$ and $t s = s$.
-1. $[Ker\,s, \,Ker\,t ] = 1$.
+2. $[Ker\,s, \,Ker\,t ] = 1$.
 
 #Discussion#
 
