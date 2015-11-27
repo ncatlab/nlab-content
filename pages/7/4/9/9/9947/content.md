@@ -42,6 +42,11 @@ Projects for formalization of mathematics
 
 * [[The QED Project]]
 
+For [[higher category theory]]:
+
+* [[opetopic type theory]]
+
+* _[[Globular]]_
 
 ## References
 
