@@ -300,6 +300,8 @@ For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ fr
 
 * [[tangent (∞,1)-category]], [[tangent cohesion]]
 
+* [[jet (∞,1)-category]]
+
 ## References
 
 Surveys and introductions include
