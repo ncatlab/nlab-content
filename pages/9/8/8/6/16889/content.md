@@ -5,9 +5,9 @@ _This page is in development, and the tool it refers to is not yet launched. Ple
 
 ## Introduction ##
 
-_Globular_ is a web-based proof assistant for semistrict higher categories. It allows one to formalize higher-categorical proofs in finitely-presented $n$-categories, visualize them as [string diagrams], and share them with collaborators, or with the world. It currently operates up to the level 3-categories, with 4-categories actively in development.
+_Globular_ is a web-based proof assistant for [[semistrict]] higher categories. It allows one to formalize higher-categorical proofs in finitely-presented $n$-categories, visualize them as [[string diagrams]], and share them with collaborators, or with the world. It currently operates up to the level 3-categories, with 4-categories actively in development.
 
-The model of semistrict higher categories that _Globular_ uses puts all the weak structures in the interchangers, and higher associated structures. For [3-categories], this means that _Globular_ implements the axioms of a [Gray category].
+The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structures in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]].
 
 _Globular_ is free to use, and open-source. There is a lot to be done, on both a theoretical and practical level, and anybody can get involved with developing the software. _Information about the Git repository and mailing list._
 
