@@ -25,3 +25,5 @@ Given a particular signature, a diagram can be constructed. By clicking the icon
 * **Projecting and slicing.**
 
 INFORMATION ABOUT THE GIT REPOSITORY.
+
+(at this moment [https://github.com/jamievicary/globular](https://github.com/jamievicary/globular) is empty.)
