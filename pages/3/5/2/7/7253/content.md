@@ -34,7 +34,7 @@ As one passes to [[higher differential geometry]], the [[(epi, mono) factorizati
 
 We spell out three equivalent definitions.
 
-Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]], let $G,K \in Grp(\mathbf{H}$ be two [[∞-groups]] and let $\phi : G \to K$ be a homomorphism, hence $\mathbf{B}\phi : \mathbf{B}G \to \mathbf{B}K$ the morphism in $\mathbf{H}$ between their [[deloopings]]. Write
+Let $\mathbf{H}$ be the ambient [[(∞,1)-topos]], let $G,K \in Grp(\mathbf{H})$ be two [[∞-groups]] and let $\phi : G \to K$ be a homomorphism, hence $\mathbf{B}\phi : \mathbf{B}G \to \mathbf{B}K$ the morphism in $\mathbf{H}$ between their [[deloopings]]. Write
 
 $$
   \array{
