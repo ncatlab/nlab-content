@@ -15,7 +15,7 @@
 
 ## Idea
 
-In _$p$-adic homotopy theory_ one studies, for any [[prime number]] $p$, [[simply connected]] [[homotopy types]] (of [[topological spaces]], hence [[∞-groupoids]]) all whose [[homotopy groups]] have the structure of  (finitely generated) [[modules]] over the [[p-adic integers]] $\mathbb{Z}_p$ -- the _$p$-adic homotopy types_. The central theorem ([Mandell 01](#Mandell01)) says that the [[(∞,1)-category]] on $p$-adic homotopy types is [[sub-(∞,1)-category|faithfully embedded]] into the [[(∞,1)-category]] of [[E-∞ algebras]] over an [[algebraically closed field]] of [[characteristic]] $p$ ([[Rational and p-adic Homotopy Theory|Lurie, p. 70, cor. 3.5.15]]).
+In _$p$-adic homotopy theory_ one studies, for any [[prime number]] $p$, [[simply connected]] [[homotopy types]] (of [[topological spaces]], hence [[∞-groupoids]]) all of whose [[homotopy groups]] have the structure of  (finitely generated) [[modules]] over the [[p-adic integers]] $\mathbb{Z}_p$ -- the _$p$-adic homotopy types_. The central theorem ([Mandell 01](#Mandell01)) says that the [[(∞,1)-category]] on $p$-adic homotopy types is [[sub-(∞,1)-category|faithfully embedded]] into the [[(∞,1)-category]] of [[E-∞ algebras]] over an [[algebraically closed field]] of [[characteristic]] $p$ ([[Rational and p-adic Homotopy Theory|Lurie, p. 70, cor. 3.5.15]]).
 
 In this way $p$-adic homotopy theory is directly analogous to _[[rational homotopy theory]]_ with the [[rational numbers]] $\mathbb{Q}$ replaced by the [[p-adic integers]].
 
