@@ -1,0 +1,40 @@
+# Taboos
+
+* table of contents
+{: toc}
+
+## Idea
+
+A **taboo**, for a particular flavor of mathematics or formal system, is a simple statement that is known to be not provable therein, and that can therefore be used to establish the unprovability of other statements without the need to descend into metamathematical considerations (such as syntactic analysis or construction of countermodels) or, in some cases, even to decide on a particular formal system to be working in.
+
+For example, the [[law of excluded middle]] (LEM) is a taboo for [[constructive mathematics]].  Therefore, if some statement $P$ implies LEM, then one can be sure that $P$ is also not provable in constructive mathematics.
+
+## Examples
+
+### Constructive taboos
+
+These taboos are unprovable in [[constructive mathematics]].
+
+* [[law of excluded middle]]
+* [[principle of omniscience]]
+* [[axiom of choice]].
+
+### Homotopical taboos
+
+These taboos are unprovable in [[homotopy type theory]], even if we assume constructive taboos such as LEM and AC.
+
+* [[uniqueness of identity proofs]]
+
+### Constructive-homotopical taboos
+
+These taboos are unprovable in constructive homotopy type theory, but they may be provable if we assume a constructive taboo *or* a homotopical taboo.
+
+* [[sets cover]]
+
+[[!redirects taboos]]
+[[!redirects constructive taboo]]
+[[!redirects constructive taboos]]
+[[!redirects homotopical taboo]]
+[[!redirects homotopical taboos]]
+[[!redirects constructive-homotopical taboo]]
+[[!redirects constructive-homotopical taboos]]
