@@ -65,6 +65,7 @@ Other references in abelian context include
 
 For analogues in nonadditive contexts see
 
+* M. Barr, _Non-abelian torsion theories_, Canad. J. Math. 25 (1973) 1224--1237
 * Basil A. Rattray, _Torsion theories in non-additive categories_, Manuscripta Math. __12__ (1974), 285&#8211;305 [MR340360](http://www.ams.org/mathscinet-getitem?mr=340360) [doi](http://dx.doi.org/10.1007/BF01155518)
 * [[Jiří Rosický ]], [[Walter Tholen]], _Factorization, fibration and torsion_, [arxiv/0801.0063](http://arxiv.org/abs/0801.0063), Journal of homotopy and Related Structures
 * M. M. Clementino, D. Dikranjan, [[Walter Tholen]], _Torsion theories and radicals in normal categories_, J. of Algebra __305__ (2006) 92-129 
