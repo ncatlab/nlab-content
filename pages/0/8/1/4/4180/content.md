@@ -1,3 +1,7 @@
+# Contents # 
+* table of contents 
+{:toc} 
+
 ## Definition
 
 An **inverse semigroup** is a [[semigroup]] $S$ (a set with an associative binary operation) such that for every element $s\in S$, there exists a *unique* "inverse" $s^*\in S$ such that $s s^* s = s$ and $s^* s s^* = s^*$. It is evident from this that $s^{\ast\ast} = s$. 
@@ -129,12 +133,66 @@ In particular, this construction may be applied to an inverse semigroup seen as 
 
 +-- {: .num_defn} 
 ###### Definition 
-The *inductive groupoid* $Ind(S)$ attached to an inverse semigroup $S$ is the core of the category of idempotents $Idem(S)$ of $S$, which as a semigroup in $Pos$ is viewed as a one-object semicategory $B S$ in $Pos$. 
+The groupoid $Ind(S)$ attached to an inverse semigroup $S$ is the core of the category of idempotents $Idem(S)$ of $S$, which as a semigroup in $Pos$ is viewed as a one-object semicategory $B S$ in $Pos$. 
 =-- 
 
 In more detail: an arrow $e \to e'$ in $Idem(S)$ is a triple $(e, x, e')$ of elements in $S$, where $e, e'$ are idempotent elements and $x$ is an element such that $x e = x = e' x$. Such an arrow is invertible precisely when $e = x^\ast x$ and $e' = x x^\ast$, with inverse $x^\ast$. Thus the core consists of such arrows $x: x^\ast x \to x x^\ast$. 
 
-The key example to keep in mind is the inverse semigroup of partial bijections $\phi$ on a set, where the arrows of the corresponding inductive groupoid are actual invertible maps $\dom(\phi) \to range(\phi)$ between subsets. In general, the object part of the associated inductive groupoid is not just a poset, but a poset with binary meets. 
+A key example to keep in mind is the inverse semigroup of partial bijections $\phi$ on a set, where the arrows of the corresponding groupoid are actual invertible maps $\dom(\phi) \to range(\phi)$ between subsets. In general, the object part of the associated groupoid is not just a poset, but a poset with binary meets. 
+
+The reason for the notation $Ind(S)$ is that this ordered groupoid is a so-called *inductive groupoid*, defined as follows: 
+
++-- {: .num_defn} 
+###### Definition 
+An **inductive groupoid** is an internal groupoid $G$ in $Pos$ with the following additional properties: 
+
+* The object part $G_0$ admits binary meets; 
+
+* Given $x: e \to f$ in $G_1$ and $e' \leq e$ in $G_0$, there exists a unique $x': e' \to f$ in $G_1$ with $x' \leq x$, called the *restriction* $[x|_\ast e']$. 
+
+* Given $x: e \to f$ in $G_1$ and $f \geq f'$ in $G_0$, there exists a unique $x': e \to f'$ in $G_1$ with $x \geq x'$, called the *corestriction* $[f' _\ast| x]$. 
+=-- 
+
+In fact conditions 2. and 3. in this definition are equivalent. A *morphism* of inductive groupoids $G \to G'$ is an internal functor from $G$ to $G'$ in $Pos$. 
+
+For $G$ an inductive groupoid, a tensor product $\otimes: G_1 \times G_1 \to G_1$ may be defined by the rule 
+
+$$x \otimes y = [x|_\ast dom(x) \wedge cod(y)] \cdot [dom(x) \wedge cod(y) _\ast|y]$$ 
+
+where $\cdot$ indicates composition in $G$. It may be shown that $(G_1, \otimes)$ is an inverse semigroup $Inv(G)$, and the two notions are equivalent: 
+
++-- {: .num_theorem} 
+###### Theorem 
+**(Ehresmann-Schein-Nampooripad)** 
+There are canonical isomorphisms $S \to Inv(Ind(S))$ and $G \to Ind(Inv(G))$, providing an equivalent of categories $InvSemiGrp \simeq IndGpd$. 
+=-- 
+
+### Warning on the definition 
+
+With only a subtle change in definition, the result is that one gets only groups: 
+
++-- {: .num_prop} 
+###### Proposition 
+Let $S$ be an [[inhabited set|inhabited]] semigroup with the property that for every $a \in S$ there exists a unique $x \in S$ such that $a x a = a$. Then $S$ is a group. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Since $S$ is inhabited, say by an element $b$, it has an idempotent $e$, for example $b b^\ast$. We will show that $x e = x$ for any $x$; by a similar argument $e x = x$, so that any idempotent $e$ is an identity (*the* identity $1$), whence the idempotents $a a^\ast$ and $a^\ast a$ equal $1$ for any $a$ and $S$ is a group. 
+
+If $a y a = a$ for unique $y$, then from $(a y a) y a = a y a = a$ it follows $y a y = a$ and hence $S$ is an inverse semigroup. The same observation means it is enough to show $(x e) x^\ast (x e) = x e$, since then also $x^\ast (x e) x^\ast = x^\ast$, which by uniqueness implies $x e = x$. 
+
+The above results on inverse semigroups apply and we derive 
+
+$$\array{
+x e x^\ast x e & = & x e e x^\ast x e & \\ 
+ & = & x e e^\ast x^\ast x e & Proposition \; 1 \\ 
+ & = & x e (x e)^\ast x e & Lemma 2 \\ 
+ & = & x e
+}$$ 
+
+as was to be shown. 
+=-- 
 
 ##Links
 
@@ -145,13 +203,27 @@ The key example to keep in mind is the inverse semigroup of partial bijections $
 ## References
 
 * [[Mark V. Lawson]], tutorial lectures on semigroups in Ottawa, notes available [here](http://www.ma.hw.ac.uk/~markl/ottawa.html).
+
 *  [[Mark V. Lawson]], _Constructing ordered groupoids_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 46 no. 2 (2005), p. 123--138, [URL stable](http://www.numdam.org/item?id=CTGDC_2005__46_2_123_0)
+
 * [[Mark V. Lawson]], Inverse semigroups: the theory of partial symmetries, World Scientific, 1998.
+
 * [[Mark V. Lawson]], G. Kurdyavtseva, _The classifying space of an inverse semigroup_,  Period. Math. Hungar., to appear, [as preprint: ArXiv 1210.4421](http://arxiv.org/pdf/1210.4421.pdf)
+
 * Alan L. T. Paterson, _Groupoids, inverse semigroups, and their operator algebras_, Progress in Mathematics __170__, Birkh&#228;user 1999, [MR 1724106](http://www.ams.org/mathscinet-getitem?mr=1724106)
+
 * Alcides Buss, Ruy Exel, [[Ralf Meyer]], _Inverse semigroup actions as groupoid actions_, Semigroup Forum __85__ (2012), 227--243, [arxiv/1104.0811](http://arxiv.org/abs/1104.0811)
+
 * Ruy Exel, _Inverse semigroups and combinatorial $C^\ast$-algebras_, Bull. Braz. Math. Soc. (N.S.) 39 (2008), no. 2, 191&#8211;313, [doi](http://dx.doi.org/10.1007/s00574-008-0080-7) MR 2419901
+
 * Alcides Buss, Ruy Exel, _Fell bundles over inverse semigroups and twisted &#233;tale groupoids_, J. Oper. Theory __67__, No. 1, 153-205 (2012) [MR2821242](http://www.ams.org/mathscinet-getitem?mr=2821242) [Zbl 1249.46053](http://zbmath.org/?q=an:1249.46053) [arxiv/0903.3388](http://arxiv.org/abs/0903.3388)[journal](http://www.mathjournals.org/jot/2012-067-001/0000-000-000-000.html); _Twisted actions and regular Fell bundles over inverse semigroups_, [arxiv/1003.0613](http://arxiv.org/abs/1003.0613)
+
 * [[Pedro Resende]], _Lectures on &#233;tale groupoids, inverse semigroups and quantales_, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4-18 Sep 2006, 115 pp. [pdf](http://www.math.ist.utl.pt/%7Epmr/poci55958/gncg51gamap-version2.pdf); _&#201;tale groupoids and their quantales_, Adv. Math. 208 (2007) 147-209; also published electronically: [doi](http://dx.doi.org/10.1016/j.aim.2006.02.004) [math/0412478](http://arxiv.org/abs/math/0412478); _A note on infinitely distributive inverse semigroups_, Semigroup Forum 73 (2006) 156-158; [doi](http://dx.doi.org/10.1007/s00233-005-0547-4) [math/0506454](http://arxiv.org/abs/math.RA/0506454)
+
 * [[B. Steinberg]], _Strong Morita equivalence of inverse semigroups_, Houston J. Math. 37 (2011) 895-927
+
+* Darien DeWolf and Dorette Pronk, _The Ehresmann-Schein-Nampooripad Theorem for Inverse Categories_, [arXiv pdf link](http://arxiv.org/pdf/1507.08615v1.pdf). 
+
+
+
 [[!redirects inverse semigroups]]
