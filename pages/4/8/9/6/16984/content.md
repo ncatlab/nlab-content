@@ -1,0 +1,11 @@
+
+## Related concepts
+
+* [[p-adic Hodge theory]]
+
+## References
+
+* Jared Weinstein, _[The Fundamental Curve of p-adic Hodge Theory, or How to Un-tilt a Tilted Field](https://galoisrepresentations.wordpress.com/2013/07/23/the-fundamental-curve-of-p-adic-hodge-theory-or-how-to-un-tilt-a-tilted-field/)_
+
+* Jared Weinstein, _[The Fundamental Curve of p-adic Hodge Theory, Part II](https://galoisrepresentations.wordpress.com/2013/08/12/the-fundamental-curve-of-p-adic-hodge-theory-part-ii/)_
+
