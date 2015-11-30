@@ -171,27 +171,27 @@ $$
  {#InTermsOfHomologicalAlgebra}
 
 
-Let $G$ be an ordinary [[group]], specifically a [[group object]] in a [[topos]] $\mathcal{T}$ such that the [[abelian category]] $Ab(\mathcal{T})$ has [[enough projectives|projective object]]. If $G$ is an ordinary [[discrete group]] then this means that in the ambient [[set theory]] we assume the [[axiom of choice]] or ar least the [[presentation axiom]].
+Let $G$ be an ordinary [[group]], specifically a [[group object]] in a [[topos]] $\mathcal{T}$ such that the [[abelian category]] $Ab(\mathcal{T})$ has [[projective object|enough projectives]]. If $G$ is an ordinary [[discrete group]] then this means that in the ambient [[set theory]] we assume the [[axiom of choice]] or ar least the [[presentation axiom]].
 
 Write then 
 
 $$
-  \mathbb{Z}G \in Ring
+  \mathbb{Z}[G] \in Ring
 $$ 
 
 for the [[group algebra]] of $G$ over the [[integers]].
 Write 
 
 $$
-  \mathcal{A} \coloneqq \mathbb{Z}[G]
+  \mathcal{A} \coloneqq \mathbb{Z}[G] Mod
 $$ 
 
-for the category $\mathbb{Z}[G]$[[Mod]] of [[modules]] over $\mathbb{Z}G$.
+for the category $\mathbb{Z}[G]$[[Mod]] of [[modules]] over $\mathbb{Z}[G]$.
 
 Notice that a [[module]] 
 
 $$
-  A \in \mathbb{Z}G Mod
+  A \in \mathbb{Z}[G] Mod
 $$ 
 
 is equivalently an [[abelian group]] equipped with a $G$-[[action]]. This or rather its $n$-fold [[suspension of a chain complex|suspension as a chain complex]] 
@@ -208,7 +208,7 @@ is the kind of [[coefficient]] for the group cohomology of $G$ to which the foll
 For $A$ a $G$-[[module]], the [[invariant|invariants]] of $A$ are equivalently the $\mathbb{Z}[G]$-module homomorphisms from $\mathbb{Z}$ equipped with the trivial module structure
 
 $$
-  Invariants(A) \simeq Hom_{\mathbb{Z}G}(\mathbb{Z}, A)
+  Invariants(A) \simeq Hom_{\mathbb{Z}[G]}(\mathbb{Z}, A)
   \,.
 $$
 
@@ -229,11 +229,11 @@ By the fully general discussion [above](#InHomotopyTypeTheory), group cohomology
 For $A$ an [[abelian group]] equipped with a $G$-[[action]], the degree-$n$ _group cohomology_ of $G$ with [[coefficients]] in $A$ is the $n$th-[[Ext]]-group
 
 $$
- H^n_{Grp}(G,A) \coloneqq Ext^n_{\mathbb{Z}G}(\mathbb{Z}, A)
+ H^n_{Grp}(G,A) \coloneqq Ext^n_{\mathbb{Z}[G]}(\mathbb{Z}, A)
   \,,
 $$
 
-where on the right $\mathbb{Z} \in \mathbb{Z}G Mod$ is regarded as equipped with the trivial $G$-action.
+where on the right $\mathbb{Z} \in \mathbb{Z}[G] Mod$ is regarded as equipped with the trivial $G$-action.
 
 =--
 
