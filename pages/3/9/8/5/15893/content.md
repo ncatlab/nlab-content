@@ -27,7 +27,7 @@ _This paragraph is translated from the abstract of ([Beilinson's Yaroslavl' lect
 
 ## Overview
 
-_p-adic Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic cristalline) [[cohomology]] (and [[motives]]) of [[non-archimedean varieties]]. The p-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
+_p-adic Hodge theory_ is the study of properties of p-adic (&#233;tale, de Rham, logarithmic cristalline) [[cohomology]] (and [[motives]]) of non-archimedean [[analytic spaces]]. The $p$-adic Hodge structure of a (proper or semi-stably compactified) p-adic analytic variety is essentially given by a relation between three important invariants of the given variety:
 
 * p-adic de Rham cohomology equipped with the Hodge filtration,
 
@@ -78,7 +78,7 @@ quite hard to globalize (including the archimedean norm in a context of
 It is quite clear to the experts that a nice way to overcome the difficulties that appear
 when one uses Witt vectors would be to combine directly the (analytic) `derived de Rham`
 approach of Beilinson and Bhatt to the `perfectoid and almost mathematics` approach of
-Faltings and Scholze. Both approach may be extended to the analytic setting using
+Faltings and Scholze. Both approaches may be extended to the analytic setting using
 overconvergent derived analytic spaces (see [[global analytic geometry]]).
 
 One may say that almost geometrical derived methods could be useful to study integral completed cohomology, while usual derived geometric methods are quite
@@ -86,6 +86,10 @@ well adapted to the study of torsion phenomena in finite characteristic.
 
 Indeed, as explained by Bhatt at the end of his paper, one may use derived de Rham cohomology
 over $\Z$ to get a (non-archimedean) period ring isomorphism for an [[arithmetic variety]].
+
+## Related concepts
+
+* [[Fargues-Fontaine curve]]
 
 ## References
 
