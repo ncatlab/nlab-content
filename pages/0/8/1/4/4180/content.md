@@ -104,6 +104,8 @@ If $a \leq b$ and $x \leq y$ in an inverse semigroup, then $a x \leq b y$ and $x
 We observe from Proposition \ref{ord} that for any elements $c, x$ we have $c x^\ast x = x x^\ast c$. From the hypotheses $a = a a^\ast b$ and $x = y x^\ast x$ we have $a x = a a^\ast b y x^\ast x = (x x^\ast) a a^\ast b y$ by our observation. But $e = (x x^\ast)(a a^\ast)$ is idempotent by Lemma \ref{comm}. This gives $a x \leq b y$. If $x = e y$ for an idempotent $e$, then $x^\ast = (e y)^\ast = y^\ast e^\ast = y^\ast e$; this gives $x^\ast \leq y^\ast$, 
 =-- 
 
+
+
 ##Links
 
 * [[homotopy theory of inverse semigroups]]
@@ -119,7 +121,7 @@ We observe from Proposition \ref{ord} that for any elements $c, x$ we have $c x^
 * Alan L. T. Paterson, _Groupoids, inverse semigroups, and their operator algebras_, Progress in Mathematics __170__, Birkh&#228;user 1999, [MR 1724106](http://www.ams.org/mathscinet-getitem?mr=1724106)
 * Alcides Buss, Ruy Exel, [[Ralf Meyer]], _Inverse semigroup actions as groupoid actions_, Semigroup Forum __85__ (2012), 227--243, [arxiv/1104.0811](http://arxiv.org/abs/1104.0811)
 * Ruy Exel, _Inverse semigroups and combinatorial $C^\ast$-algebras_, Bull. Braz. Math. Soc. (N.S.) 39 (2008), no. 2, 191&#8211;313, [doi](http://dx.doi.org/10.1007/s00574-008-0080-7) MR 2419901
-* Alcides Buss, Ruy Exel, _Fell bundles over inverse semigroups and twisted &#233;tale groupoids_, J. Oper. Theory __67__, No. 1, 153-205 (2012) [MR2821242](http://www.ams.org/mathscinet-getitem?mr=2821242) [Zbl 1249.46053](http://zbmath.org/?q=an:1249.46053) [arxiv/0903.3388](http://arxiv.org/abs/0903.3388)[journal](http://www.mathjournals.org/jot/2012-067-001/2012-067-001-007.html); _Twisted actions and regular Fell bundles over inverse semigroups_, [arxiv/1003.0613](http://arxiv.org/abs/1003.0613)
+* Alcides Buss, Ruy Exel, _Fell bundles over inverse semigroups and twisted &#233;tale groupoids_, J. Oper. Theory __67__, No. 1, 153-205 (2012) [MR2821242](http://www.ams.org/mathscinet-getitem?mr=2821242) [Zbl 1249.46053](http://zbmath.org/?q=an:1249.46053) [arxiv/0903.3388](http://arxiv.org/abs/0903.3388)[journal](http://www.mathjournals.org/jot/2012-067-001/0000-000-000-000.html); _Twisted actions and regular Fell bundles over inverse semigroups_, [arxiv/1003.0613](http://arxiv.org/abs/1003.0613)
 * [[Pedro Resende]], _Lectures on &#233;tale groupoids, inverse semigroups and quantales_, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4-18 Sep 2006, 115 pp. [pdf](http://www.math.ist.utl.pt/%7Epmr/poci55958/gncg51gamap-version2.pdf); _&#201;tale groupoids and their quantales_, Adv. Math. 208 (2007) 147-209; also published electronically: [doi](http://dx.doi.org/10.1016/j.aim.2006.02.004) [math/0412478](http://arxiv.org/abs/math/0412478); _A note on infinitely distributive inverse semigroups_, Semigroup Forum 73 (2006) 156-158; [doi](http://dx.doi.org/10.1007/s00233-005-0547-4) [math/0506454](http://arxiv.org/abs/math.RA/0506454)
 * [[B. Steinberg]], _Strong Morita equivalence of inverse semigroups_, Houston J. Math. 37 (2011) 895-927
 [[!redirects inverse semigroups]]
