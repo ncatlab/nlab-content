@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **combinatorial map** is a representation of a graph embedded in a surface (i.e., a [[topological map]]) as a set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugation action|conjugation]] if and only if the corresponding graphs are isomorphic by a [[homeomorphism]] of the underlying surfaces. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
+A **combinatorial map** is a representation of a graph embedded in a surface (i.e., a [[topological map]]) as a set and a list of permutations acting on that set, with the property that two combinatorial maps are equivalent up to [[conjugation]] if and only if the corresponding graphs are isomorphic by a [[homeomorphism]] of the underlying surfaces. The precise formulation depends upon assumptions made about the underlying surface (e.g., whether it is [[connected space|connected]] and/or [[oriented]]) and about the underlying graph (e.g., whether all vertices have a fixed degree), but typically different classes of topological maps can be represented by lists of permutations satisfying different sets of constraints.
 
 ## Oriented maps and hypermaps
 
@@ -31,7 +31,7 @@ where $M = (D,(\sigma,\alpha,\phi)), M' = (D',(\sigma',\alpha',\phi'))$ is a fun
 
 $$h\sigma = \sigma'h \qquad h\alpha = \alpha'h \qquad h\phi = \phi' h.$$
 
-Hence, $M$ and $M'$ are [[isomorphic]] as maps if and only there is a bijection $h : D \cong D'$ between their underlying sets of darts, such that the triple of permutations $(\sigma,\alpha,\phi)$ is mapped by the [[conjugation action]] of $h$ to the triple of permutations $(\sigma',\alpha',\phi')$.
+Hence, $M$ and $M'$ are [[isomorphic]] as maps if and only there is a bijection $h : D \cong D'$ between their underlying sets of darts, such that the triple of permutations $(\sigma,\alpha,\phi)$ is mapped by [[conjugation]] along $h$ to the triple of permutations $(\sigma',\alpha',\phi')$.
 
 In the literature, many authors equivalently define a combinatorial map by a pair $(\sigma,\alpha)$ of permutations, since by condition (2) above, the third permutation $\phi$ can always be recovered uniquely as $\phi = \sigma^{-1}\alpha^{-1}$.
 
