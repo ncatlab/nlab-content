@@ -317,7 +317,7 @@ $$
 with weight $Hom_C : C^{op} \times C \to V$.  The **coend** of $F$ is the colimit
 
 $$
-\int^c F(c,c) \coloneqq Hom_{C^{op}} \ast F =  \colim^{Hom_{C^{op}}} F
+\int^{c \in C} F(c,c) \coloneqq Hom_{C^{op}} \ast F =  \colim^{Hom_{C^{op}}} F
 $$
 of $F$ weighted by the hom functor of $C^{op}$.
 
