@@ -469,6 +469,8 @@ Thus, the internal logic of this [[Grothendieck topos|sheaf topos]] is (in gener
 
 ## References 
 
+### General
+
 Most books on topos theory develop some internal logic, at least in the context of a topos.  For example:
 
 * [[Saunders Mac Lane]] [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ 
@@ -485,7 +487,7 @@ Phoa has a presentation of the internal logic of a topos over a dependent type t
 
 The book
 
-* Jacobs, _Categorical Logic and Type Theory_ 
+* [[Bart Jacobs]], _Categorical Logic and Type Theory_ 
 
 works in the even more general context of [[Grothendieck fibration|fibrations]], allowing us to associate to each object $A$ an arbitrary poset instead of $Sub(A)$.
 
@@ -501,8 +503,15 @@ A discussion of [[dependent type theory]] as the [[internal language]] of [[loca
 
 The observation that the poset of open subsets of a topological space serve as a model for [[intuitionistic logic]] is apparently originally due to
 
-* [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, FundamentaMathemeticae 31 (1938), pp. 103&#8211;134.
- {#Tarski}
+* {#Tarski} [[Alfred Tarski]], _Der Aussagenkalk&#252;l und die Topologie_, FundamentaMathemeticae 31 (1938), pp. 103&#8211;134.
+ 
+
+### Applications
+
+Discussion of fundamental constructions of [[algebraic geometry]] from the perspective of the internal logic of the [[sheaf topos]] over a [[scheme]] is in 
+
+* {#Blechschmidt15} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, talk at [Toposes at IHES](https://indico.math.cnrs.fr/event/747/), November 2015 ([pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf))
+
 
 [[!redirects internal logic]]
 [[!redirects internal logics]]
