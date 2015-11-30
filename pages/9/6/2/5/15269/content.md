@@ -9,6 +9,10 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Classical McKay correspondence
 
 The classical McKay correspondence, named after John McKay, is a one-to-one correspondence between the [[McKay graphs]] of finite subgroups $G \subset \text{SL}_2(\mathbb{C})$ and the extended Dynkin diagrams of ADE type.
@@ -37,6 +41,8 @@ Due to T. Bridgeland, A. King, and M. Reid.
 Introductions and surveys include
 
 * Graham Leuschke, _The McKay correspondence_ ([pdf](http://www.leuschke.org/uploads/McKay-total.pdf))
+
+* Drew Armstrong, _Lectures on the McKay correspondence_, 2015 ([pdf scan of notes](http://www.math.miami.edu/~armstrong/Talks/McKay_Talca.pdf))
 
 For the 2001 publication on the derived McKay correspondence, see:
 
