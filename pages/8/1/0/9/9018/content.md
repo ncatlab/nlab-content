@@ -65,7 +65,7 @@ But when $Y$ is a $G_2$-[[orbifold]] then:
 
 1. at an [[ADE singularity]] there is _[[enhanced gauge symmetry]] in that the [[gauge group]] (which a priori is copies of the [[abelian group]] $U(1)$ of the [[supergravity C-field]]) becomes [[nonabelian group|nonabelian]] ([Acharya 98](#Acharya98), [Acharya 00](#Acharya00), review includes [Acharya 02, section 3](#Acharya02), [BBS 07, p. 422, 436](#BBS07), [Ib&#225;&#241;ez-Uranga 12, section 6.3.3](string+phenomenology#IbanezUranga12), [Wijnholt 14, part III](string+phenomenology#Wijnholt14) (from which the graphics below is grabbed));
 
-1. at a (non-orbifold) [[conifold singularity]] [[chiral fermions]] appear spring ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
+1. at a (non-orbifold) [[conifold singularity]] [[chiral fermions]] appear ([Witten 01, p. 3](#Witten01), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)).
 
 The conifold singularities are supposed/assumed to be is isolated ([Witten 01, section 2](#Witten01)), while the ADE singularities are supposed/assumed to be of codimension-4 in the 7-dimensional fibers ([Witten 01, section 3](#Witten01), [Barrett 06](#Barrett06)).
 
@@ -73,7 +73,7 @@ In the absence of a proper microscopic definition of M-theory, the first point i
 
 1. The fact that under [[KK-compactification]] to [[type IIA string theory]] the singularity becomes special points of intersecting [[D6-branes]] for which the gauge enhancement is known ([Witten 01, p. 1](#Witten01), based on [Cvetic-Shiu-Uranga 01](#CveticShiuUranga01)).
 
-1. The [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus ([Acharya-Witten 01](#AcharyaWitten01)). Here it is fairly well understood that at the degenertion points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears. This comes down ([Intriligator-Seiberg 96](ALE+space#IntriligatorSeiberg96)) to the fact that an [[ADE singularity]] $\mathbb{C}^2/\Gamma$ generically constitutes a point in the [[moduli space]] of [[vacua]] in the [Higgs branch](N%3D2+D%3D4+super+Yang-Mills+theory#ModuliSpacesOfVacua) of a super Yang-Mills theory.
+1. The [[duality in string theory|duality]] between M-theory compactified on [[K3]] and [[heterotic string theory]] on a 3-torus ([Acharya-Witten 01](#AcharyaWitten01)). Here it is fairly well understood that at the degenertion points of the K3-[[moduli space]] enhanced nonabelian gauge symmetry appears (e.g. [Acharya-Gukov 04, section 5.1](#AcharyaGukov04)). This comes down ([Intriligator-Seiberg 96](ALE+space#IntriligatorSeiberg96)) to the fact that an [[ADE singularity]] $\mathbb{C}^2/\Gamma$ generically constitutes a point in the [[moduli space]] of [[vacua]] in the [Higgs branch](N%3D2+D%3D4+super+Yang-Mills+theory#ModuliSpacesOfVacua) of a super Yang-Mills theory.
 
 1. <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div> The [[blow-up]] of an [[ADE-singularity]] happens to be a union of [[2-spheres]] touching pairwise in one point, such as to form the [[Dynkin diagram]] of the [[simple Lie group]] which under the [[ADE classification]] corresponds to the given [[orbifold]] isotropy group. [[M2-branes]] may [[wrapped brane|wrap]] these 2-cycles and since before blow-up they are of vanishing size, this corresponds to [[double dimensional reduction]] under which the M2-branes become [[strings]] stretching between coincident [[D-branes]]. These are well-understood to be the quanta of nonabelian gauge [[Chan-Paton gauge fields]] located on the D-branes, and hence these same nonabelian degrees of freedom have had to be present already at the level of the M2-branes.  
 
@@ -195,6 +195,7 @@ Survey and further discussion includes
 
 * {#Acharya02} [[Bobby Acharya]], _M Theory, $G_2$-manifolds and Four Dimensional Physics_,  Classical and Quantum Gravity Volume 19 Number 22, 2002  ([pdf](http://users.ictp.it/~pub_off/lectures/lns013/Acharya/Acharya_Final.pdf))
 
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
 * Adil Belhaj, _M-theory on G2 manifolds and the method of (p, q) brane webs_ (2004) ([web](http://iopscience.iop.org/0305-4470/37/18/011))
 
