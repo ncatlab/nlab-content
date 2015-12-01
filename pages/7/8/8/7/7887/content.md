@@ -5,3 +5,5 @@
 * [[minimal Joyal fibration]]
 
 * [[minimal dendroidal fibration]]
+
+[[!redirects minimal fibrations]]
