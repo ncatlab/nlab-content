@@ -41,6 +41,10 @@ $$
   (d s)^2 = \frac{1}{4} \frac{r+n}{r-n} (d r)^2 + \frac{r-n}{r+n} n^2 {\sigma_3}^2 + \frac{1}{4}(r^2 - n^2)({\sigma_1}^2 + {\sigma_2}^2)
 $$
 
+## Relation to D6-branes
+
+[[!include F-branes -- table]]
+
 ## Related concepts
 
 * [[KK monopole]]
@@ -53,6 +57,11 @@ $$
 * Wikipedia, _[Gravitational instanton](http://en.wikipedia.org/wiki/Gravitational_instanton)_
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
+Discussion in the context of [[M-theory on G2-manifolds]] and [[gauge enhancement]]
+
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], section 5.2 of _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
+
 
 
 [[!redirects Taub-NUT spacetimes]]
