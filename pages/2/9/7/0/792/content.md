@@ -71,6 +71,8 @@ of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org
 
   * [[T-duality 2-group]]
 
+* [[spherical T-duality]]
+
 ## References
 
 The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
