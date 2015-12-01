@@ -40,17 +40,12 @@ $$
 of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere, which is induced via the [[Hopf construction]] from the product operation 
 
 $$
-  \mathbb{O} \times \mathbb{O} \stackrel{(-)\cdot (-)^{-1}}{\longrightarrow}
+  \mathbb{O} \times \mathbb{O} \stackrel{(-)\cdot (-)}{\longrightarrow}
   \mathbb{O}
 $$
 
-on the [[octonions]]. This means that if $S^{15}$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{O}\times \mathbb{O}$ and $S^8$ is regarded as the octonionic [[projective space]], then $p$ is given simply by
-
-$$
-  p_{\mathbb{O}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
-  \,,
-$$
-
+on the [[octonions]]. This means that if $S^{15}$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{O}\times \mathbb{O}$.
+ 
 ## Related concepts
 
 * [[real Hopf fibration]]
@@ -62,3 +57,4 @@ $$
 ##References
 
 * Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899))
+
