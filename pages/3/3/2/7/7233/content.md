@@ -338,7 +338,7 @@ For instance the [[Cartesian product]] $X_{K3} \times T^3$ admits a $G_2$-manifo
 
 In a local [[coordinate chart]] of $X_{K3}$ by $\mathbb{C}^2$ the orbifold $X_{K3}/K_{ADE}$ locally looks like $\mathbb{C}^2/{G_{ADE}}$, where now $G_{ADE}$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]]. Such local $G_2$-orbifolds are discussed in some detail in ([Atiyah-Witten 01](#AtiyahWitten01)).
 
-Codimension-4 ADE singularities in $G_2$-manifolds are discussed in ([Barrett 06](#Barrett06)).
+Codimension-4 ADE singularities in $G_2$-manifolds are discussed in ([Acharya-Gukov 04, section 5.1](AcharyaGukov04), [Barrett 06](#Barrett06)).
 
 ## Properties
 
@@ -420,6 +420,9 @@ Discussion of $G_2$-[[orbifolds]] includes
 * {#Acharya98} [[Bobby Acharya]], _M theory, Joyce Orbifolds and Super Yang-Mills_, Adv.Theor.Math.Phys. 3 (1999) 227-248 ([arXiv:hep-th/9812205](http://arxiv.org/abs/hep-th/9812205))
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
+
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
+
 
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
