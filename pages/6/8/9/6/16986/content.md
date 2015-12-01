@@ -37,14 +37,13 @@ $$
   }
 $$
 
-of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere, which is induced via the [[Hopf construction]] from the product operation 
+of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere. Because of the noncommutativity of the octonions, we cannot simply imitate the construction for the quaternions in [[quaternionic Hopf fibration]]. 
 
-$$
-  \mathbb{O} \times \mathbb{O} \stackrel{(-)\cdot (-)}{\longrightarrow}
-  \mathbb{O}
-$$
+First, we decompose $\mathbb{O}^2$ into the octonionic lines, 
 
-on the [[octonions]]. This means that if $S^{15}$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{O}\times \mathbb{O}$.
+$l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
+
+In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the unit sphere $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV, p. 7](#OPPV)).
  
 ## Related concepts
 
@@ -56,5 +55,5 @@ on the [[octonions]]. This means that if $S^{15}$ is regarded as the unit sphere
 
 ##References
 
-* Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899))
+* {#OPPV} Liviu Ornea, Maurizio Parton, Paolo Piccinni, Victor Vuletescu, _Spin(9) geometry of the octonionic Hopf fibration_, ([arXiv:1208.0899](http://arxiv.org/abs/1208.0899))
 
