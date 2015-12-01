@@ -76,6 +76,18 @@ In the unstable range for low $n$ they instead start out as follows
 
 The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). Otherwise the table is given in columns $\pi_i$, $i=10,11,12$, and in rows $SO(n)$, $n=8,\ldots,12$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
+Beware that the maps
+
+$$
+  \array{
+    \pi_3(SO(3)) \longrightarrow \pi_3(SO(4)) \longrightarrow \pi_3(SO(5))
+    \\
+     \mathbb{Z}\longrightarrow \mathbb{Z}\oplus \mathbb{Z} \longrightarrow\mathbb{Z}
+  }
+$$
+
+are inclusion of the first summand followed by projection onto the second. So even though $\pi_3(SO(3)) \simeq \mathbb{Z}$ superficially looks like it already stabilized, in fact these elements disappear in the stabilization and another copy of $\mathbb{Z}$ appears (e.g. [Tamura 57](#Tamura57)).
+
 ### Homology and cohomology 
 
 ([Pittie 91](#Pittie91))
@@ -132,6 +144,8 @@ The [[ordinary cohomology]] and [[ordinary homotopy]] of the manifolds $SO(n)$ i
 
 * {#Pittie91} Harsh V. Pittie, _The integral homology and cohomology rings of SO(n) and Spin(n)_, Journal of Pure and Applied Algebra Volume 73, Issue 2, 19 August 1991, Pages 105&#8211;153 ([web](http://www.sciencedirect.com/science/article/pii/002240499190108E))
 
+See also
 
+* {#Tamura57} Itiro Tamura, _On Pontrjagon classes of homotopy types of manifolds_, Journal of the mathematical society of Japan, Vol. 9 No. 2 , 1957 [pdf](http://www.maths.ed.ac.uk/~aar/papers/tamura3.pdf)
 
 [[!redirects orthogonal groups]]
