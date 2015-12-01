@@ -39,15 +39,25 @@ If you create an account on the site, you can save projects to your private work
 
 ## Manipulating diagrams ##
 
-A diagram is a composite of the cells in the current signature. A $k$-dimensional diagram $D$ can be manipulated in the following basic ways.
+A diagram is a composite of the cells in the current signature, and basic diagram manipulation can be performed by clicking on the signature, as follows, where we suppose our diagram $D$ is $k$-dimensional. 
 
-* **Creation.** If the current diagram is empty, clicking the icon of a $k$-cell in the signature constructs a $k$-dimensional diagram which consists solely of the selected generator.
-* **Destruction.** Clicking 'clear' (shortcut key 'c') deletes the current diagram.
-* **Rewriting.** Selecting a $(k+1)$-cell $G$ from the signature gives a list of all the ways that its source $s(G)$ can be identified as a subdiagram of $D$. Choosing element of this list will then modify $D$, deleting the part of it which was chosen as matching the source $s(G)$, and replacing it with the target $t(G)$.
+* **Creation.** If the current diagram is empty, clicking the icon of a cell in the signature constructs a diagram which consists solely of the selected generator.
+* **Rewriting.** Selecting a $(k+1)$-cell $G$ from the signature displays a list of all the ways that its source $s(G)$ can be identified as a subdiagram of $D$. Choosing element of this list will then modify $D$, deleting the part of it which was chosen as matching the source $s(G)$, and replacing it with the target $t(G)$.
 * **Attaching.** Selecting a $p$-cell $G$ for $p \leq k$ displays a list of all the ways that $G$ can be attached to $D$ along one of its boundaries. Choosing an element of this list performs the attachment.
-* **Clicking and dragging.** Using the mouse to click or drag a part the diagram or its boundary will attempt to attach or rewrite using an interchanger, or naturality for the interchanger, or invertibility of some cell. This is sensitive to the part of the diagram that is clicked, and the direction of the drag, in a way which should be intuitive. When multiple attachments or rewrites are consistent with the mouse command, a menu appears to allow the user to choose the one which is intended.
-* **Identity.** Clicking 'identity' (shortcut key 'i') takes the identity on the current diagram, boosting its dimension by 1.
-* **Assigning source and target.** Clicking 'source' or 'target' (shortcut keys 's' and 't') selects the current diagram as the source or target of a new $(k+1)$-cell, which will be inserted into the signature once both the source and target have been defined.
+
+The menu on the right-hand side of the screen gives further commands. Each of these commands has a shortcut key, which is bracketed.
+
+* **(C)lear.** (Shortcut key 'c'.) Deletes the current diagram.
+* **(I)dentity.** Builds the identity $(k+1)$-diagram on the current $k$-diagram.
+* **(S)ource.** Stores the current diagram as the source of a new generator.
+* **(T)arget.** Stores the current diagram as the target of a new generator.
+* **(R)estrict.** Replaces the current diagram with the subdiagram currently being viewed (see Section XX.)
+* **T(h)eorem.** Creates a new theorem witnessing the current diagram (see Section XX .)
+
+Also, the user can click and click-and-drag on the diagram to produce various effects. When a command is ambiguous, a menu will be presented to allow the user to choose their preferred action.
+
+* **Click.** This attempts to attach or rewrite, as appropriate for the location of the click, with an element of the signature. If an element of the signature is marked as invertible, then the higher structure this implies will also be considered for attachment.
+* **Click-and-drag.** This attempts to attach or rewrite using an interchanger, or naturality for the interchanger, or invertibility of some cell. This is sensitive to both the click location and the direction of the drag, in a way which should be intuitive.
 
 ## Changing the view ##
 
@@ -62,3 +72,14 @@ Suppose you choose to project out $p$ dimensions, such that $k-p \gt 2$. Then _G
 A $k$-cell $f:A \to B$ in an $\infty$-category is _invertible_ when there is an inverse cell $f ^{-1} : B \to A$, and invertible $(k+1)$-cells $\mu: \mathrm{id}_A \to f ^{-1} \circ f$ and $\nu: \mathrm{id}_B \to f \circ f ^{-1}$. This is a co-inductive definition, giving rise to an infinite amount of higher-dimensional structure.
 
 In _Globular_, selecting the 'Invertible' option for a cell in the signature allows this higher structure to be used in diagrams, by clicking at a point of a diagram or its boundary. If more than one piece of higher invertible structure could be inserted at the location of the click, a menu is presented and the user can choose which is intended.
+
+## Theorems
+
+The **Theorem** command allows a diagram to be stored, in a way that lets it be reused as a component in subsequent diagrams. The idea is that the diagram is a 'theorem' proving that its source can be rewritten into its target. The proof is the diagram itself.
+
+More concretely, let $D$ be the current diagram, which is $k$-dimensional, and let $s(D)$ and $t(D)$ be its source and target $(k-1)$-diagrams. Then the theorem command command creates two new generators:
+
+ * A $k$-generator $T$ with source $s(D)$ and target $t(D)$
+ * An invertible $(k+1)$-generator $P$ with source $T$ and with target $D$
+
+The generator $T$ can be used in future proofs to 'stand in' for the diagram $D$. At any point, the generator $P$ can be used to replace $T$ with the content of diagram $D$. Since $P$ is invertible, it could also be used to identify $D$ as a subdiagram of a larger proof, and replace it with $T$, making the larger proof easier to understand.
