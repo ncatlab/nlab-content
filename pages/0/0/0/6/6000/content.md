@@ -31,6 +31,8 @@ of some arbitrary element $x \in X$.  In particular, the transitivity of $\rho$ 
 
 ## Related concepts
 
+* [[combinatorial map]]
+
 * [[homogeneous space]]
 
 * [[torsor]]
