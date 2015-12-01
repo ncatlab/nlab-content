@@ -37,7 +37,7 @@ $$
   }
 $$
 
-of the 15-sphere over the 8-sphere with [[fiber]] the 7-sphere. 
+of the [[15-sphere]] over the 8-sphere with [[fiber]] the 7-sphere. 
 
 To construct the fibration, first we decompose $\mathbb{O}^2$ into the octonionic lines, 
 
