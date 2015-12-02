@@ -85,7 +85,7 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 
   * [Les polytopes de Stasheff](http://math.univ-lyon1.fr/~chapoton/stasheff.html)
 
-  * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyedra, too.
+  * This is part of a larger website [Petites pages sur divers sujets](http://math.univ-lyon1.fr/~chapoton/petitespages.html) which contains illusrations of other polyhedra, too.
 
 ## Relation to other structures
 
