@@ -211,9 +211,9 @@ $$
   (S^{n-1}\times I)_{/\sim}
   \simeq
   \left\{
-    (x,t)
+    (z,t)
     \,,\;
-    {\vert x \vert}^2 + (1 - 2t)^2   = 1
+    {\vert z \vert}^2 + (1 - 2t)^2   = 1
   \right\}
 $$
 
@@ -224,8 +224,52 @@ $$
   \,.
 $$
 
-Moreover, in this parameterization the Hopf construction, def. \ref{HopfConstruction}, manifestly gives the Hopf fibration map.
+Moreover, in this parameterization the Hopf construction, def. \ref{HopfConstruction}, which is given by 
 
+$$
+  (x,y) \mapsto x \cdot y
+$$
+
+manifestly gives the Hopf fibration map (or rather its negative, by prop. \ref{HopfInvariantFromProductOfDegrees}, since the Hopf fibration is usually defined by $(x,y) \mapsto x \cdot y^{-1}$ in one chart, and by $(x,y) \mapsto x^{-1}\cdot y$ in the other). 
+
+Notice that it is again the multiplicativity of the norm in division algebras which makes this work: if  ${\vert x \vert}^2 = 2t$ and ${\vert y\vert}^2 = 2 - 2t$ then it follows that
+
+$$
+  \begin{aligned}
+     {\vert x \cdot y\vert}^2 + (1- 2t)^2
+     & = 
+     {\vert x \vert}^2 {\vert y \vert}^2
+     + (1-2t)^2
+     \\
+     & = 2t (2-2t) + (1 - 2t)^2 
+     \\
+     & = 1
+  \end{aligned}
+  \,,
+$$
+
+hence that indeed we have a well-defined map like so:
+
+$$
+  \array{
+      S^7 & \longrightarrow & S^4
+      \\
+     \left\{
+       (x,t,y)
+        \,,
+       {\vert x \vert}^2 = 2t
+        \,,\;
+        {\vert y\vert}^2 = 2 - 2t
+     \right\}
+     &\stackrel{{(x,y) \mapsto z \coloneqq x \cdot y}\atop{t \mapsto t}}{\longrightarrow}&
+    \left\{
+       (z,t)
+       \,,\;
+       {\vert z \vert}^2 + (1 - 2t)^2   = 1
+    \right\}  
+  }
+  \,.
+$$
 
 
 
