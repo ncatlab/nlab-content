@@ -61,15 +61,14 @@ Also, the user can click and click-and-drag on the diagram to produce various ef
 * **Click.** This attempts to attach or rewrite, as appropriate for the location of the click, with an element of the signature. If an element of the signature is marked as invertible, then the higher structure this implies will also be considered for attachment.
 * **Click-and-drag.** This attempts to attach or rewrite using an interchanger, or naturality for the interchanger, or invertibility of some cell. This is sensitive to both the click location and the direction of the drag, in a way which should be intuitive. This also allows cells to be cancelled from the top or bottom of a diagram.
 
+Clicking and dragging is designed to work as if you were really 'touching' the strings. So if you want to braid one strand over another, click the strand to 'grab' it, and 'pull' it to one side. If you want to pull a vertex through a braiding, click the vertex to 'grab' it, and 'pull' it up or down through its adjacent braiding. Of course, _Globular_ will only carry out the command if the move you are attempting to make is actually valid in that location.
+
 #### Changing the view {#changingtheview}
 
 _Globular_ can currently present string-diagram visualizations of 0-, 1- and 2-dimensional diagrams. Viewing a $k$-dimensional diagram for $k \gt 2$ is made possible by _projection_ and _slicing_, controlled by number scrollers which appear in the top-right of a diagram.
 
-The first control is _View_, which can currently be set to 0, 1 or 2; we suppose this has value $v$. This determines the dimension of the image which is rendered.
-
-The second control is _Project_, which determines the number of dimensions to be projected; it can take any value $p$ in the range $0 \leq p \leq k$. Projecting a dimension causes it to be effectively ignored by _Globular_; it is as if you are looking at a shadow of the true image. The resulting diagrams are exactly the _singularity graphics_ which are a common tool in [[Morse theory|higher Morse theory]].
-
-Having set view dimension $v$, and having decided to project out $p$ dimensions, that leaves $k - v - p$ dimensions of the diagram. If this sum is zero, there is nothing more to be specified. If it is positive, coordinates must be chosen to position the view within a subdiagram. These appear under the heading _Slice_ as a total of $k - v - p$ number inputs.
+* **Project.** This determines the number of dimensions to be projected; it can take any value $p$ in the range $0 \leq p \leq k$. Projecting a dimension causes it to be effectively ignored by _Globular_; it is as if you are looking at a shadow of the true image. The resulting diagrams are exactly the _singularity graphics_ which are a common tool in [[Morse theory|higher Morse theory]].
+* **Slice.** Having decided to project out $p$ dimensions, and supposing the image being displayed is $v$ dimensional (for $v \in \{0,1,2\}$), that leaves $k - p - v$ dimensions still to be handled. If this sum is positive, coordinates must be chosen using the slice controls to position the view within an appropriate $v$-dimensional subdiagram.
 
 ## Advanced features
 
