@@ -37,13 +37,15 @@ $$
   }
 $$
 
-of the [[15-sphere]] over the 8-sphere with [[fiber]] the 7-sphere. 
+of the [[15-sphere]] over the 8-sphere with [[fiber]] the 7-sphere. This may be derived by the [[Hopf construction]] on the [[7-sphere]] $S^7$ with its [[Moufang loop]] structure.
 
-To construct the fibration, first we decompose $\mathbb{O}^2$ into the octonionic lines, 
+Alternatively, we may construct a fibration by first decomposing $\mathbb{O}^2$ into the octonionic lines, 
 
 $l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb{O}\}$. 
 
 In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the unit sphere $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV, p. 7](#OPPV)).
+
+This second construction yields the standard parameterization of the octonionic Hopf fibration via $(x,y) \mapsto x y^{-1}$ (in one chart) and $(x,y ) \mapsto x^{-1} y$ (in the other), while the Hopf construction gives $(x,y) \mapsto x y$. The latter yields the generator $-1$ of $\pi_{15}(S^8) \cong \mathbb{Z}$, while the former yields $+1$. 
  
 ##Spin(9) action
 
