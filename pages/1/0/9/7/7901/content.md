@@ -1,5 +1,22 @@
-_Spectral networks_ were introduced in
 
-* Davide Gaiotto, Gregory W. Moore, Andrew Neitzke, _Spectral networks_, [arxiv/1204.4824](http://arxiv.org/abs/1204.4824)
+
+## Related concepts
+
+* [[N=2 D=4 super Yang-Mills theory]]
+
+## References
+
+_Spectral networks_ were introduced 
+
+* [[Davide Gaiotto]], [[Gregory Moore]], [[Andrew Neitzke]], _Spectral networks_, [arxiv/1204.4824](http://arxiv.org/abs/1204.4824)
+
+
+Review includes
+
+* [[Gregory Moore]], _Spectral networks and their applications_, 2012 ([talk slides pdf](http://hep.caltech.edu/ym35/presentations/Moore.pdf))
+
+Further development includes
+
+* [[Carlos Simpson]], _Pre-buildings as sheaves on the site of enclosures_ talk at _Topos a l'IHES_ 2015 ([recording](https://www.youtube.com/watch?v=iWv_LoXcFQA&index=15&list=PLx5f8IelFRgFjhhrWWl96sRSClcG5YIx6))
 
 [[!redirects spectral networks]]
