@@ -415,7 +415,7 @@ This secretly uses the [[Poisson sigma-model]] (see there for more details) indu
 
 A popular exposition of this is in 
 
-* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ ([online slides](https://dl.dropboxusercontent.com/u/12796267/kapustin-talk.swf))
+* [[Anton Kapustin]], _Quantum geometry: The reunion of math and physics_ ([online slides](https://dl.dropboxusercontent.com/u/12796267/kapustin-talk.swf) [Powerpoint](http://www.theory.caltech.edu/~kapustin/talk.ppt))
 
 The classification of the space of such formal deformation quantization is discussed in 
 
