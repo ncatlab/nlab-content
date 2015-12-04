@@ -17,7 +17,7 @@
 
 A _$G_2$-structure_ on a [[manifold]] $X$ of [[dimension]] 7 is a choice of [[G-structure]] on $X$, for $G$ the [[exceptional Lie group]] [[G2]]. Hence it is a reduction of the [[structure group]] of the [[frame bundle]] of $X$ along the canonical (the defining) inclusion $G_2 \hookrightarrow GL(\mathbb{R}^7)$ into the [[general linear group]].
 
-Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structre is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
+Given that $G_2$ is the [[subgroup]] of the [[general linear group]] on the [[Cartesian space]] $\mathbb{R}^7$ which preserves the [[associative 3-form]] on $\mathbb{R}^7$, a $G_2$ structure is a higher analog of an  [[almost symplectic structure]] under lifting from [[symplectic geometry]] to [[2-plectic geometry]] ([Ibort](#Ibort)).
 
 A _$G_2$-manifold_ is a manifold equipped with $G_2$-structure that is [[integrability of G-structures|integrable to first order]], i.e. [[torsion of a G-structure|torsion-free]] (prop. \ref{CovariantlyConstantDefinite3FormMeansTorsionVanishes} below). This is equivalently a [[Riemannian manifold]] of [[dimension]] 7 with [[special holonomy]] group being the [[exceptional Lie group]] [[G2]]. 
 
@@ -104,7 +104,7 @@ $$
   \,.
 $$
 
-Conversely, given a 3-form $\sigma \in \Omega^3(X)$ such that on an [[atlas]] $(U_i \to X)$ over which the frame bundle trvializes it is of this form
+Conversely, given a 3-form $\sigma \in \Omega^3(X)$ such that on an [[atlas]] $(U_i \to X)$ over which the frame bundle trivializes it is of this form
 
 $$
   \sigma|_{U_i} = \phi_{a b c} E_i^a \wedge E_i^b \wedge E_i^c
@@ -146,7 +146,7 @@ $$
 
 which is precisely the defining condition for $g_{i j}$ to take values in $G_2$.
 
-Viewed this way, the [[definite 3-forms]] characterizing $G_2$-structures are an example of a more general kind of differential forms obtained from a constant form on some linear model space $V$ by locally contracting with a [[vielbein]] field. For instance on a [[super-spacetime]] solving the [[equations of motion]] of  [[11-dimensional supergravity]] there is a super-4-form part of the [[field strength]] of the [[supergravity C-field]] which is cnstrained to be locally of the form
+Viewed this way, the [[definite 3-forms]] characterizing $G_2$-structures are an example of a more general kind of differential forms obtained from a constant form on some linear model space $V$ by locally contracting with a [[vielbein]] field. For instance on a [[super-spacetime]] solving the [[equations of motion]] of  [[11-dimensional supergravity]] there is a super-4-form part of the [[field strength]] of the [[supergravity C-field]] which is constrained to be locally of the form
 
 $$
   \Gamma_{a b \alpha \beta} E_i^a \wedge E_i^b \wedge E_i^\alpha \wedge E_i^\beta
