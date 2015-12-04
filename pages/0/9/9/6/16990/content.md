@@ -1,0 +1,30 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[derived category]] of [[quasicoherent sheaves]] on [[singularities]] in a [[variety]].
+
+For a [[smooth variety]] $X$ then the full bounded [[derived category]] $D^b(X)$ coincides with that of [[perfect complexes]], while for a singular variety there are objects not represented by perfect complexes. Hence these may be attributed to be due to the contribution of the singularities. The quotient $D^b(X)/Perf(X)$ hence serves as the derived category of the singularities themselves.
+
+## References
+
+The concept is due to
+
+* [[Dmitri Orlov]], _Triangulated categories of singularities and D-branes in Landau-Ginzburg models_, _Proc. Steklov Inst. Math. 2004, no. 3 (246), 227--248_ ([arXiv:math/0302304](http://arxiv.org/abs/math/0302304))
+
+* [[Dmitri Orlov]], _Derived Categories of Coherent Sheaves and Triangulated Categories of Singularities_ ([arXiv:0503632](http://arxiv.org/abs/math/0503632))
+
+The [[algebraic K-theory]] of these categories of singularities is considered in
+
+* [[Goncalo Tabuada]],  _Algebraic K-theory with coefficients of cyclic quotient singularities_ ([arXiv:1512.01205](http://arxiv.org/abs/1512.01205))
+
+
+[[!redirects triangulated categories of singularities]]
+
+[[!redirects derived category of singularties]]
+[[!redirects derived categories of singularties]]
+
