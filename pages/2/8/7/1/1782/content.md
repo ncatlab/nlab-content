@@ -285,6 +285,7 @@ Concrete examples of interest include for instance
 
 * [[red-shift conjecture]]
 
+* [[filtrations on algebraic K-theory]]
 
 [[!include noncommutative motives - table]]
 
