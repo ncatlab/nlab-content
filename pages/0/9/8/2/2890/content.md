@@ -18,5 +18,6 @@ on the occasion of Hyman Bass's 65th birthday_, a volume of _Contemporary Mathem
 category: people
 
 [[!redirects C. Weibel]]
+[[!redirects Charles A Weibel]]
 [[!redirects Charles A. Weibel]]
 [[!redirects Chuck Weibel]]
