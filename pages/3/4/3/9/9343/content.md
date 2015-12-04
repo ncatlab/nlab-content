@@ -16,6 +16,8 @@
 
 * [[resolution of singularities]]
 
+* [[triangulated category of singularities]]
+
 ## References
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
