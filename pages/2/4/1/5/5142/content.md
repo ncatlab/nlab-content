@@ -40,12 +40,15 @@ An quick introduction is in part 3, 4 of
 
 For origins of the notion of $(\infty,1)$-topos itself see the references at [[(∞,1)-topos]].
 
-Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] and [[Bertrand Toen|Toën]]--[[Gabriele Vezzosi|Vezzosi]] in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal category|Segal categories]]:
+Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "elementary") $(\infty,1)$-topoi are due [[Charles Rezk]] via [[model categories]]
+
+* {#Rezk10} [[Charles Rezk]], _Toposes and homotopy toposes_, 2010 ([pdf](http://www.math.uiuc.edu/~rezk/homotopy-topos-sketch.pdf))
+
+and due to [[Bertrand Toen|Toën]]--[[Gabriele Vezzosi|Vezzosi]] in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal categories]]:
 
 * [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
 
 * [[Bertrand Toën]] , [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_, [arXiv:math.AG/0212330](http://arXiv.org/abs/math/0212330)
-
 
 A general abstract conception of $(\infty,1)$-topos theory in terms of [[(∞,1)-category theory]]  was given in
 
