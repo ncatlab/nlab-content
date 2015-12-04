@@ -243,19 +243,25 @@ where $\flat_{dR}\mathbf{B}^3\mathbb{R}$ is the [[moduli infinity-stack|higher m
  {#G2Holonomy}
 
 +-- {: .num_defn #G2manifold}
-###### Definition
+###### Definition/Proposition
 
 A manifold $X$ equipped with a $G_2$-structure, def. \ref{G2Structure}, is called a **$G_2$-manifold** if the following equivalent conditions hold
 
 1. we have
 
-   1. $\mathbf{d} \omega = 0$;
+   1. $\mathbf{d} \omega = 0$ ([closed](#ClosedG2Structure))
 
-   1. $\mathbf{d} \star_g \omega = 0$;
+   1. $\mathbf{d} \star_g \omega = 0$ (co-closed);
 
 1. $\nabla^g \omega = 0$;
 
-1. $(X,g)$ has [[special holonomy]] $Hol(g) \subset G_2$.
+1. $(X,g)$ has [[special holonomy]] $Hol(g) \subset G_2$;
+
+1. $Ric(g) = 0$ (vanishing [[Ricci curvature]]);
+
+1. $R(g) = 0$ (vanishing [[scalar curvature]]);
+
+1. $\tau = 0$ (vanishing [[torsion of a G-structure|torsion of the G2-structure]]).
 
 Here
 
@@ -271,16 +277,8 @@ Here
 
 =--
 
-For instance ([Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00)).
+For the equivalence of the first items see for instance ([Joyce, p. 4](#Joyce), [Joyce 00, prop. 10.1.3](#Joyce00)). For the equivalence to the vanishing curvature invariant see also ([Bryant 05, corollary 1](#Bryant05)), and for the equivalence to the vanishing [[torsion of a G-structure]] see ([Bryant 05, prop. 2](#Bryant05)).
 
-+-- {: .num_prop #CovariantlyConstantDefinite3FormMeansTorsionVanishes}
-###### Proposition
-
-The conditions on a $G_2$-[[G-structure|structure]] in def. \ref{G2Structure} are equivalent to the [[torsion of a G-structure|torsion]] of the $G_2$-structure to vanish.
-
-=--
-
-([Bryant 05, prop. 2](#Bryant05)).
 
 +-- {: .num_remark}
 ###### Remark
