@@ -90,6 +90,20 @@ A $k$-cell $f:A \to B$ in an $\infty$-category is _invertible_ when there is an 
 
 In _Globular_, selecting the 'Invertible' option for a cell in the signature allows this higher structure to be used in diagrams, by clicking at a point of a diagram or its boundary. If more than one piece of higher invertible structure could be inserted at the location of the click, a menu is presented and the user can choose which is intended.
 
+### Popup labels
+
+When you move your pointer over a diagram, a little label will pop up telling you what's underneath the pointer. Doing this near a vertex, you will see that <i>Globular</i> isn't really aware that the lines curve near a vertex, so you will need to take care when clicking or clicking-and-dragging that <i>Globular</i> is correctly identifying the structure you are trying to interact with.
+
+The labels are written using the following syntax, where 'X' is some arbitrary label denoting a $k$-cell, and where '.' is forward composition of $k$-cells:
+
+* 'X inverse' describes the $k$-cell which is the inverse of $X$
+* 'X, insert' describes the canonical $(k+1)$-cell of type $\text{id} _{s(X)} \to X . X^{-1}$
+* 'X, cancel' describes the canonical $(k+1)$-cell of type $X . X^{-1} \to \text{id} _{s(X)}$
+* 'Interchanger' describes the height-exchange cell
+* 'Pull-through interchanger above', 'Pull-through interchanger underneath', 'Pull-through inverse interchanger above' and 'Pull-through inverse interchanger underneath' describe the 4 different ways that a cell can be pulled through an interchanger
+
+Note that interchangers are of dimension at least 3, and pull-throughs are of dimension at least 4.
+
 ### Theorems
 
 The theorem command allows a diagram to be stored, in a such way that it can be reused as a component in subsequent diagrams. The idea is that the diagram is a 'theorem' proving that its source can be rewritten into its target. The 'proof' is the diagram itself.
