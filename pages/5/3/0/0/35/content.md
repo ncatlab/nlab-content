@@ -46,7 +46,14 @@ A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 * Given a manifold $M$ and an open cover $\{U_i\}$, we can form a Lie groupoid with $X_1=\sqcup U_i\times_M U_j$ and $X_0=\sqcup U_i$. Then for an element $x_{ij}:=(x_i, x_j)\in U_i\times_M U_j \subset X_1$, $t(x_{ij})=x_i \in U_i$, $s(x_{ij})=x_j \in U_j$, and $x_{ij} \cdot x_{jk}= x_{ik}$. This is sometimes called the **Cech groupoid** or **covering groupoid**.
 
-* Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated **action groupoid** (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). 
+* Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated **action groupoid** (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). Action groupoid presents the quotient stack $[M/G]$. Roughly speaking, it is a good replacement for quotient space even if the action is not as nice as you want. 
+
+* Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid)
+
+* Given a manifold $M$ with a foliation $F$, we may form various groupoids associated with $F$. 
+: **pair groupoid of $F$**: $X_1:=\{(x, y)| x, y \;\text{are in the same leaf in}\; F \}$, $X_0=M$. Source and target are obvious projections and multiplication is like in the case of pair groupoid. The problem for this groupoid is that it might not be  a Lie groupoid. (why not? for counter example, we refer to [Section 13.5](https://math.berkeley.edu/~alanw/Models.pdf). 
+  
+**monodromy groupoid $Mon_F(M)$**: $X_1:$
 
 
 ### Terminology
