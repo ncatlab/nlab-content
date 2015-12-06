@@ -10,6 +10,8 @@
 =--
 =--
 
+ _(The initial release of Globular works best in the Chrome browser - several mouse actions are broken in Firefox. For now, bugs and usability issues should be reported in the nForum thread [Globular](http://nforum.ncatlab.org/discussion/6829/globular))._ 
+
 #Contents#
 * table of contents
 {:toc}
@@ -23,8 +25,6 @@
 _Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistrict]] [[globular set|globular]] [[higher categories]]. It allows one to formalize higher-categorical proofs in finitely-presented [[n-categories]], visualize them as [[string diagrams]], and share them with collaborators, or with the world. It is available at this address:
 
 * [http://globular.science](http://globular.science)
-
-**For now, we recommend using the Chrome browser.**
 
 <i>Globular</i> currently operates up to the level 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
 
