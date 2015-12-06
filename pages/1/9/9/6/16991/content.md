@@ -20,4 +20,4 @@ This article is about [[filtrations]] on [[algebraic K-theory]].
 
 * [[Paul Balmer]], _Supports and filtrations in algebraic geometry and modular representation theory_, [doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.531.257).
 
-* _When do the $\gamma$-filtration and codimension filtration of K-theory agree?_, [MO/](http://mathoverflow.net/questions/106021/when-do-the-gamma-filtration-and-codimension-filtration-of-k-theory-agree).
+* _When do the $\gamma$-filtration and codimension filtration of K-theory agree?_, [MO/106021](http://mathoverflow.net/questions/106021/when-do-the-gamma-filtration-and-codimension-filtration-of-k-theory-agree).
