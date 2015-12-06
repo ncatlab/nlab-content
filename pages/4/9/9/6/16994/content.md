@@ -1,0 +1,9 @@
+Physicist at the University of California, Santa Barbara.
+
+* [website](http://web.physics.ucsb.edu/~hartle/)
+
+##Related pages
+
+* [[no boundary proposal]]
+
+category: people
