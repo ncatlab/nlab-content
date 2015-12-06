@@ -91,7 +91,7 @@ Discussion in [[synthetic differential geometry]] is in
 * {#Kock10} [[Anders Kock]], remark 7.3.1 _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
-In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
+In the context of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
 
 * {#Lurie} [[Jacob Lurie]], above prop. 0.9 in _Notes on crystals and algebraic D-modules_ ([pdf](http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19%28Crystals%29.pdf)), 2009
 
