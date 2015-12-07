@@ -48,7 +48,7 @@ A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 * Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated **action groupoid** (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). Action groupoid presents the quotient stack $[M/G]$. Roughly speaking, it is a good replacement for quotient space even if the action is not as nice as you want. 
 
-* Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid)
+* Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid).
 
 * Given a manifold $M$, we have also an associated **fundamental groupoid** or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{\text{paths in}\;M\}/{\text homotopies\}$, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
 
