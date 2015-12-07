@@ -99,7 +99,7 @@ Regarded inside this wider context, Lie groupoids are identified with [[differen
 
 For more comments on this, see also the beginning of [[∞-Lie groupoid]].
 
-## [[Lie algebroid]]
+## Lie algebroid
 
 As the [[infinitesimal space|infinitesimally]] approximation to a [[Lie group]] is a [[Lie algebra]], so the infinitesimal approximation to a Lie groupoid is a [[Lie algebroid]].  
 
@@ -133,6 +133,16 @@ Recent progress: it turns out that one may link Lie algebroid with $L_\infty$-sp
 * [[Atiyah Lie algebroid]]
 
 
+
+## Morphisms of Lie groupoids 
+
+There are several versions of Lie groupoid morphisms, some of them are equivalent in a correct sense, some of them are not.
+
+* Strict morphism: a strict morphism from Lie groupoid $X$ to $Y$ is a functor from $X$ to $Y$ as categories and preserving the smooth structures. 
+
+* Ana functor: 
+
+* 
 
 
 ## Higher Lie groupoids
