@@ -58,6 +58,33 @@ The best studied such configuration is that of [[D1-D5 brane bound states]]. For
 ## References
  {#References}
 
+### Introductions and Review
+
+* [[Juan Maldacena]], _Black Holes in String Theory_, PhD thesis 1996 ([arXiv:hep-th/9607235](http://arxiv.org/abs/hep-th/9607235))
+
+* [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
+
+* [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
+
+* Sumit R. Das, [[Samir Mathur]], _The Quantum Physics of Black Holes: Results from String Theory_ ([arXiv:gr-qc/0105063](http://arxiv.org/abs/gr-qc/0105063))
+
+* Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_ ([arXiv:hep-th/0203048](http://arxiv.org/abs/hep-th/0203048))
+
+* [[Thibault Damour]], _The entropy of black holes: a primer_ ([arXiv:hep-th/0401160](http://arxiv.org/abs/hep-th/0401160))
+
+* [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
+
+* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
+
+* Joao Gomes, _Quantum entropy of supersymmetric black holes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
+
+See also 
+
+* [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
+
+
+### Original articles
+
 The argument that properties of [[BPS states]] are preserved as the coupling increases beyond [[perturbation theory]] and are not destroyed by [[non-perturbative effects]] originates in 
 
 * {#Witten95} [[Edward Witten]], section 2.3 of _String Theory Dynamics In Various Dimensions_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
@@ -81,25 +108,6 @@ Discussion for [[M-theory]]/[[11-dimensional supergravity]] includes
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], Xi Yin, _The M5-Brane Elliptic Genus: Modularity and BPS States_, JHEP 0708:070,2007 ([arXiv:hep-th/0607010](http://arxiv.org/abs/hep-th/0607010))
 
-Reviews include
-
-* [[Juan Maldacena]], _Black Holes and D-branes_, Nucl.Phys.Proc.Suppl. 61A (1998) 111-123; Nucl.Phys.Proc.Suppl. 62 (1998) 428-442 ([arXiv:hep-th/9705078](http://arxiv.org/abs/hep-th/9705078))
-
-* [[Mike Duff]], chapter 5 of _[[The World in Eleven Dimensions]]: Supgergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
-
-* Sumit R. Das, [[Samir Mathur]], _The Quantum Physics of Black Holes: Results from String Theory_ ([arXiv:gr-qc/0105063](http://arxiv.org/abs/gr-qc/0105063))
-
-* Justin R. David, Gautam Mandal, Spenta R. Wadia, _Microscopic Formulation of Black Holes in String Theory_ ([arXiv:hep-th/0203048](http://arxiv.org/abs/hep-th/0203048))
-
-* [[Thibault Damour]], _The entropy of black holes: a primer_ ([arXiv:hep-th/0401160](http://arxiv.org/abs/hep-th/0401160))
-
-* [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
-
-* {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
-
-
-* Joao Gomes, _Quantum entropy of supersymmetric black holes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
-
 More recent developments include
 
 
@@ -107,8 +115,5 @@ More recent developments include
 
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
  
-See also 
-
-* [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
 
 [[!redirects black hole in string theory]]
