@@ -39,6 +39,10 @@ One way to formulate [[causality]] in [[physics]] is that the values of all [[ob
 
 If [[spacetime]] can be equipped with a [[foliation]] of Cauchy surfaces, then we may assign a [[real number]] $t$ to each surface $\Sigma$, so that we think of $\Sigma$ as 'space at time $t$'.  Of course, there are typically many ways to do this (if any), in accordance with the principle of [[relativity of simultaneity]].  On the other hand, for some spacetimes, this may not be possible at all (because they are not globally hyperbolic).
 
+## Related concepts
+
+* [[Cauchy horizon]]
+
 ## References
 
 The existence of a smooth splitting of globally hyperbolic spacetimes into Cauchy surfaces is in 
