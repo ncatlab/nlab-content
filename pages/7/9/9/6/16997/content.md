@@ -32,7 +32,7 @@ The archetypical example is 4-dimensional [[Einstein-Maxwell theory]], where the
 
 ### In 4d Einstein-Yang-Mills theory
 
-Generalizing to 4-dimensional [[Einstein-Maxwell-Yang-Mills theory]] with [[nonabelian group|nonabelian]] [[gauge group]], the situation becomes much more subtle. (...) 
+Generalizing to 4-dimensional [[Einstein-Yang-Mills theory]] with [[nonabelian group|nonabelian]] [[gauge group]], the situation becomes much more subtle. (...) 
 
 ## Wikipedia 
 
