@@ -31,10 +31,10 @@ $$
   ds^2_{M,Q,P} \coloneqq - H d t^2 + H^{-1} d r^2 + r^2 ds_{S^2}^2
 $$
 
-where
+where (in natural units)
 
 $$
-  H \coloneqq 1 - G \frac{M}{r} + G \frac{Q^2 + P^2}{r^2}
+  H \coloneqq 1 - \frac{M}{r} + \frac{Q^2 + P^2}{r^2}
   \,.
 $$
 
@@ -54,13 +54,13 @@ The function $H$ above vanishes at
 $$
   r_{\pm} 
     \coloneqq 
-  \tfrac{G}{2}\left(
+  \tfrac{1}{2}\left(
     M \pm \sqrt{M^2 - 4 (P^2 + Q^2)}
   \right)
   \,.
 $$
 
-The larger of the two solutions is an [[event horizon]], the other is a [[Cauchy horizon]]. In the case that they coincide, for $M = 2sqrt{Q^2 + P^2}$, one speaks of an [[extremal black hole]].
+The larger of the two solutions is an [[event horizon]], the other is a [[Cauchy horizon]]. In the case that they coincide, for $M = 2\sqrt{Q^2 + P^2}$, one speaks of an [[extremal black hole]] (at least when also $P = 0$).
 
 ## Related concepts
 
