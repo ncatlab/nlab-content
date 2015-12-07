@@ -4,5 +4,6 @@
 ## related $n$Lab entries
 
 * [[no-cloning theorem]]
+* [[einselection]]
 
 category: people
