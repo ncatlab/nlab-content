@@ -33,6 +33,10 @@ This has been argued to resolve (and has been argued not to resolve) the problem
 
 * [[observable universe]]
 
+* [[consistent histories]]
+
+* [[einselection]]
+
 ## References
 
 * Wikipedia, _[Quantum decoherence](http://en.wikipedia.org/wiki/Quantum_decoherence)_
