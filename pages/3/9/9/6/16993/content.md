@@ -1,6 +1,6 @@
 ##Idea
 
-This approach to [[quantum mechanics]] assigns probabilities to various alternative histories of measurements on a system such that the probabilities for each history obey the rules of classical probability while being consistent with the [[Schrödinger equation]]. It is claimed to resolve what is generally taken to be paradoxical about quantum mechanics.
+This approach to [[quantum mechanics]] assigns probabilities to various alternative histories of measurements on a system such that the probabilities for each history obey the rules of classical probability while being consistent with the [[Schrödinger equation]]. It is claimed to resolve what is generally taken to be paradoxical about quantum mechanics, such as the supposed collapse of the wave-function.
 
 Measurements in this approach are typically understood in terms of [[quantum decoherence]], hence an alternative name _decoherent histories_.
 
@@ -20,7 +20,7 @@ The consistent histories approach was introduced by
 
 See also his book
 
-* [[Robert Griffiths]] (2003), _Consistent Quantum Theory_, Cambridge University Press.
+* [[Robert Griffiths]] (2003), _Consistent Quantum Theory_, Cambridge University Press, available [here](http://quantum.phys.cmu.edu/CQT/).
 
 It was also discussed by [[Roland Omnès]] in a series of papers beginning with 
 
