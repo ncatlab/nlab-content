@@ -729,6 +729,9 @@ This and further generalization is in
 
 * Tobias Barthel, Drew Heard, _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
 
+See also
+
+* [[John Greenlees]], _Tate cohomology in axiomatic stable homotopy theory_ ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.490.322&rep=rep1&type=pdf))
 
 [[!redirects fracture theorems]]
 
