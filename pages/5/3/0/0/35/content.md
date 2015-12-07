@@ -50,9 +50,9 @@ A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 * Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid).
 
-* Given a manifold $M$, we have also an associated **fundamental groupoid** or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{\text{paths in}\;M\}/{\text homotopies\}$, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
+* Given a manifold $M$, we have also an associated **fundamental groupoid** or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{\text{paths in}\;M\}/\{\text homotopies\}$, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
 
-* Given a manifold $M$ with a foliation $F$, we may form various groupoids associated with $F$. 
+* Given a manifold $M$ with a [[foliation]] $F$, we may form various groupoids associated with $F$. 
 
 1. **$F$-pair groupoid**: $X_1:=\{(x, y)| x, y \;\text{are in the same leaf in}\; F \}$, $X_0=M$. Source and target are obvious projections and multiplication is like in the case of pair groupoid. The problem for this groupoid is that it might not be  a Lie groupoid. (why not? for counter example, we refer to [Section 13.5 of Geometric Models for
 Noncommutative Algebras](https://math.berkeley.edu/~alanw/Models.pdf) ). 
