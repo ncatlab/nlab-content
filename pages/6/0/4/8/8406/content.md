@@ -60,13 +60,16 @@ This is the special case of [[Einstein-Yang-Mills theory]] for the [[gauge group
 
 ## Related concepts
 
+* [[charged black hole]]
+
+
 * [[Einstein-Hilbert action]]
 
 * **Einstein-Maxwell theory**
 
 * [[Einstein-Yang-Mills theory]]
 
-* [[Eistein-Yang-Mills-Dirac theory]]
+* [[Einstein-Yang-Mills-Dirac theory]]
 
 * [[Einstein-Maxwell-Yang-Mills-Dirac-Higgs theory]]
 
