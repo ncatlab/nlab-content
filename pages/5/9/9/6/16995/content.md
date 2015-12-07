@@ -1,0 +1,9 @@
+Physicist at Carnegie-Mellon University
+
+* [webpage](https://www.cmu.edu/physics/people/emeritus-faculty/griffithsrb.html)
+
+##Relevant pages
+
+* [[consistent histories]]
+
+category: people
