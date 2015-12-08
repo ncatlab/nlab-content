@@ -1,0 +1,15 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[sphere spectrum]] is also called _stable cohomotopy_, as it is the [[stable homotopy theory]] version of [[cohomotopy]].
+
+
+## Related concepts
+
+
+* [[equivariant stable cohomotopy]]
