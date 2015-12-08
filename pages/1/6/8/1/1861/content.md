@@ -38,6 +38,11 @@ So on general grounds the word "cohomotopy" is actually better suited than "coho
 
 * For $X$ a [[compact topological space|compact]] [[smooth manifold]], there is a [[smooth function]] $X \to S^n$ representing every cohomotopy class (with respect to the standard [[smooth structure]] on the [[sphere]] [[manifold]]).
 
+## Related concepts
+
+* [[stable cohomotopy]]
+
+
 ## References
 
 * Wikipedia, _[Cohomotopy group](http://en.wikipedia.org/wiki/Cohomotopy_group)_
