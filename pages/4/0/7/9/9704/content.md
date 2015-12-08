@@ -32,6 +32,7 @@ For more see at _[[QFT with defects]]_ the section _[Topological defects from sp
  {#MagneticMonopoles}
 
 #### Dirac monopole
+ {#DiracMonopole}
 
 In the original [[Dirac charge quantization]] argument an [[electromagnetic field]] is considerd _outside_ a given point in space (line in [[spacetime]]). Mathematically this just corresponds to considering electromagfnetism on the maifold $(\mathbb{R}^3-D^0) \times \mathbb{R}$, but physically this may be taken to model a situation where there is a magnetic monopole defect in the vavuum structure. The _[[Dirac monopole]]_.
 
@@ -46,6 +47,10 @@ $$
 $$
 
 of [[Minkowski spacetime]] with the [[worldline]] of a point removes, this means precisely that the possible [[instanton]] field configurations of the [[electromagnetic field]] on such a spacetime is given by an [[integer]]. This integer is called the _[[magnetic charge]]_ of the monopole defect. (Mathematically it is the [[first Chern class]] of the $U(1)$-[[principal bundle]] which underlies the electromagnetic field).
+
+#### Kaluza-Klein monopole
+
+The gravitational incarnation of the Dirac monopole under [[Kaluza-Klein compactification]] is the _[[Kaluza-Klein monopole]]_. See there for more.
 
 #### Yang monopole
 
