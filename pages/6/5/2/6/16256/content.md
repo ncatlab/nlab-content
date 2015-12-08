@@ -19,9 +19,18 @@
 
 ## Idea
 
+### General
+
+In the context of [[Kaluza-Klein theory]] where an [[electromagnetic field]] in [[Einstein-Maxwell theory]] in [[dimension]] $d$ is modeled by a configuration of pure Einstein [[gravity]] in dimension $d+1$, a _Kaluza-Klein monopole_ is a configuration of gravity in dimension $d+1$ which in dimension $d$ looks like a magnetic [[monopole]] ([Sorkin 83](#Sorkin83), [Gross-Perry 83](#GrossPerry83)).
+
+### In supergravity
+
+This situation is of particular interest in the reduction of [[11-dimensional supergravity]]/[[M-theory]] to [[type IIA string theory]], where the Kaluza-Klein magnetic monopole charge is interpreted as [[D6-brane]] charge.
+
 The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the product $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with Minkowski spacetime. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
 ## Relation to the D6-brane in type IIA string theory 
+ {#RelationToTheD6Brane}
 
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
 
@@ -32,11 +41,24 @@ $$
   - d t^2 
   + d s_{\mathbb{R}^6}^2
   + (1+\mu/r) d s_{\mathbb{R}^4}^2
-  + (1+ \mu/r)^{-1} (d x^{11} - A)^2
+  + (1+ \mu/r)^{-1} (d x^{11} - A_i d x^i)^2
   \,,
 $$
 
-where $A$ is a suitable 3-form on $\mathbb{R}^3$ and $r$ denotes the distance in $\mathbb{R}^3$ from the origin.
+where 
+
+* $A = A_i d x^i$ is any 3-form on $\mathbb{R}^3$ satisfying $d_{\mathbb{R}^3} A = \star d (1-\mu/r)$;
+
+* $r$ denotes the distance in $\mathbb{R}^3$ from the origin.
+
+* $\mu$ is the [[charge]] of the monopole.
+
+Away from $\{0\} \in \mathbb{R}^3$ this gives a [[circle bundle]] with [[first Chern class]] measured by the integral of $R_0 \coloneqq d A$ (the [[RR-field]] of the [[D0-brane]]) over any [[sphere]] surrounding the singular locus in $\mathbb{R}^3 - \{0\}$. By the [[electric-magnetic duality]] between [[D0-branes]] and [[D6-branes]] (due to the [[self-dual higher gauge theory|self-duality]] of the [[RR-field]]) this means, from the 10-dimensional perspective, that at $0 \in \mathbb{R}^3$ a [[D6-brane]] is located.
+
+Generalization of this discussion to the case that the locus of the D6 is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
+
+For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_.
+
 
 ## Relation to the D7-brane in type IIB string theory/F-theory
 
@@ -55,6 +77,7 @@ $$
   \,.
 $$
 
+
 (The same kind of relation identifies the time-component of the [[M2-brane]] charge with the charge of the [[M9-brane]], see there.)
 
 
@@ -66,15 +89,29 @@ $$
 
 ## References
 
-* [[Rafael Sorkin]], _Kaluza-Klein monopole_ Phys. Rev. Lett. 51 (1983) 87 ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.87))
+### In 5d gravity
 
-* [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
+Original articles include
+
+* {#Sorkin83} [[Rafael Sorkin]], _Kaluza-Klein monopole_ Phys. Rev. Lett. 51 (1983) 87 ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.51.87))
+
+* {#GrossPerry83} [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
+
+* A. L. Cavalcanti de Oliveira, E. R. Bezerra de Mello, _Kaluza-Klein Magnetic Monopole in Five-Dimensional Global Monopole Sapcetime_, Class.Quant.Grav. 21 (2004) 1685-1694 ([arXiv:hep-th/0309189](http://arxiv.org/abs/hep-th/0309189))
+
+Review includes
+
+* Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
+
+
+### In 11d supergravity
+
+#### Original articles
+
 
 * {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
 
 * {#Townsend95} [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187,1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
-
-* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
 * {#Hull97} [[Chris Hull]], _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
@@ -82,11 +119,19 @@ $$
 
 * {#BerglundBrandhuber02} Per Berglund, Andreas Brandhuber, _Matter From $G_2$ Manifolds_, Nucl.Phys. B641 (2002) 351-375 ([arXivLhep-th/0205184](http://arxiv.org/abs/hep-th/0205184))
 
+* {#GaillardSchmude09} Jerome Gaillard, [[Johannes Schmude]], _The lift of type IIA supergravity with D6 sources: M-theory with torsion_, JHEP 1002:032,2010 ([arXiv:0908.0305](http://arxiv.org/abs/0908.0305))
 
 
-* Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
+#### Review
+
+* [[Clifford Johnson]], section 10.5 of _D-brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
+
+* [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
+
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+
+* {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], p. 45 of _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
 
 [[!redirects Kaluza-Klein monopoles]]
