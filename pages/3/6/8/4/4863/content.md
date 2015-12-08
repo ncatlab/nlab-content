@@ -227,6 +227,8 @@ The following table displays parts of this cascade of field theories which are i
 
 * **Kaluza-Klein mechanism**
 
+  * [[Kaluza-Klein monopole]]
+
   * [[double dimensional reduction]]
 
   * [[moduli stabilization]]
