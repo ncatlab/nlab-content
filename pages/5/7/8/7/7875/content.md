@@ -10,21 +10,21 @@ In the context of [[arithmetic]], _carrying_ is part of the operation of represe
 
 ## In terms of cohomology
 
-Write $\mathbb{Z}_{10} = \mathbb{Z}/10\mathbb{Z}$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
+Write $\mathbb{Z}/10 = \mathbb{Z}/10\mathbb{Z}$ for the [[abelian group]] of [[addition]] of [[integers]] modulo 10. In the following we identify the elements as
 
 $$
-  \mathbb{Z}_{10} = \{0,1,2, \cdots, 9\}
+  \mathbb{Z}/{10} = \{0,1,2, \cdots, 9\}
   \,,
 $$
 
 as usual.
 
-Being an abelian group, every [[delooping]] [[n-groupoid]] $\mathbf{B}^n \mathbb{Z}_{10}$ exists. 
+Being an abelian group, every [[delooping]] [[n-groupoid]] $\mathbf{B}^n \mathbb{Z}/{10}$ exists. 
 
 Carrying is a 2-[[cocycle]] in the [[group cohomology]], hence a morphism of [[infinity-groupoids]]
 
 $$
-  c : \mathbf{B} \mathbb{Z}_{10} \to \mathbf{B}^2\mathbb{Z}_{10}
+  c : \mathbf{B} \mathbb{Z}/{10} \to \mathbf{B}^2\mathbb{Z}/{10}
   \,.
 $$
 
@@ -69,15 +69,15 @@ $$
   \right.
 $$
 
-The [[central extension]] classified by this 2-cocycle, hence the [[homotopy fiber]] of this morphism is $\mathbb{Z}_{100}$
+The [[central extension]] classified by this 2-cocycle, hence the [[homotopy fiber]] of this morphism is $\mathbb{Z}/{100}$
 
 $$
   \array{
-    \mathbf{B}\mathbb{Z}_{100} &\to& * 
+    \mathbf{B}\mathbb{Z}/{100} &\to& * 
     \\
     \downarrow && \downarrow
     \\
-    \mathbf{B} \mathbb{Z}_{10} &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^2 \mathbb{Z}_{10}
+    \mathbf{B} \mathbb{Z}/{10} &\stackrel{\mathbf{c}}{\to}& \mathbf{B}^2 \mathbb{Z}/{10}
   }
   \,.
 $$
@@ -85,7 +85,7 @@ $$
 That now carries a 2-cocycle
 
 $$
-  \mathbf{B} \mathbb{Z}_{100} \to \mathbf{B}^2 \mathbb{Z}_{10}
+  \mathbf{B} \mathbb{Z}/{100} \to \mathbf{B}^2 \mathbb{Z}/{10}
   \,,
 $$
 
@@ -97,21 +97,21 @@ $$
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}_{1000}
+    \mathbf{B}\mathbb{Z}/{1000}
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}_{10}
+    \mathbf{B}^2\mathbb{Z}/{10}
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}_{100}
+    \mathbf{B}\mathbb{Z}/{100}
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}_{10}
+    \mathbf{B}^2\mathbb{Z}/{10}
     \\
     \downarrow 
     \\
-    \mathbf{B}\mathbb{Z}_{10}
+    \mathbf{B}\mathbb{Z}/{10}
     &\stackrel{c}{\to}&
-    \mathbf{B}^2\mathbb{Z}_{10}
+    \mathbf{B}^2\mathbb{Z}/{10}
   }
 $$
 
