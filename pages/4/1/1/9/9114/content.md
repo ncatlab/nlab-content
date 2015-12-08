@@ -585,6 +585,7 @@ For $\mathbf{H} = $ [[∞Grpd]] this is the perspective in ([FHLT, section 3](#F
 Since a monoidal $(\infty,n)$-functor $\mathbf{Fields} \colon Bord_n \to Span_n(\mathbf{H})$ is determined by its value on the point, we will often notationally identify it with this value and write
 
 $$
+
   \mathbf{Fields} = \mathbf{Fields}(\ast) \in \mathbf{H} \hookrightarrow Span_n(\mathbf{H})
   \,.
 $$
@@ -3940,19 +3941,23 @@ We see below that both the [[Wess-Zumino-Witten theory]] as well as [[Wilson lin
 
 ## References
 
+For intorduction and survey see
+
+* [[Urs Schreiber]], _[[schreiber:Higher Prequantum Geometry]]_
+
 The idea of formulating local prequantum field theory by spans in a slice over a "space of phases" in [[higher geometry]] has been expressed in the unpublished note
 
 * [[Urs Schreiber]], _[[schreiber:Nonabelian cocycles and their quantum symmetries]]_ (2008)
 
 A formulation of the idea for [[Dijkgraaf-Witten theory]]-type field theories is indicated in section 3 of 
 
-* [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2010)
- {#FHLT}
+*  {#FHLT} [[Daniel Freed]], [[Michael Hopkins]], [[Jacob Lurie]], [[Constantin Teleman]], _[[Topological Quantum Field Theories from Compact Lie Groups]]_ (2010)
+
 
 based on the considerations in section 3.2 of 
 
-* [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ (2009).
- {#LurieTFT}
+* {#LurieTFT} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_ (2009).
+ 
 
 Based on the general formulation of the more general [[QFT with defects|field theory with defects]] described in section 4.3 there, in
 
