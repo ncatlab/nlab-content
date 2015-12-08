@@ -19,10 +19,13 @@
 The [[D-brane]] of [[dimension]] 6+1 in [[type IIA string theory]].
 
 ## Relation to other branes
+ {#RelationToOtherBranes}
 
-The lift of the D6 to [[M-theory]] is the [[Kaluza-Klein monopole]] there ([Townsend 95](#Townsend95)).
+The lift of the D6 to [[M-theory]] is the [[Kaluza-Klein monopole]] there ([Townsend 95](#Townsend95)). 
 
-The [[T-duality|T-dual]] is the [[D7-brane]] in [[type IIB string theory]].
+One way to understand this is as follows: the [[first Chern class]] of the M-theory [[circle bundle]] is the [[D0-brane]] degree-2 [[RR-field|RR-]][[field strength]] $R_0$. By the [[self-dual higher gauge field|self-duality]] of the [[RR-fields]] this is the [[Hodge duality|Hodge dual]] of the D6-brane degree-8 field strength. Now given a  [[Kaluza-Klein monopole]] after removing the locus of the monopole where the circle-[[fiber]] degenerates (as in the original [[Dirac charge quantization]] argument) it is a non-degenerated circle such that the [[integration of differential forms|integral]] of the 2-form $R_0$ over any [[2-sphere]] surrounding the singular locus is non-trivial. By the usual yoga of [[electric-magnetic duality]] this integral measures the [[magnetic flux]] of a D6-brane sitting at the singular locus.
+
+The [[T-duality|T-dual]] of the D6 branes is the [[D7-brane]] in [[type IIB string theory]].
 
 [[!include F-branes -- table]]
 
