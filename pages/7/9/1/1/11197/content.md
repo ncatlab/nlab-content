@@ -38,6 +38,8 @@ Similarly [[tmf]]$[1/2]$ is Anderson dual to its 21-fold suspension ([Stojanoska
 
 ## References
 
+### General
+
 Original articles include
 
 * D. W. Anderson, _Universal coefficient theorems for K-theory_, mimeographed notes, Univ. California, Berkeley, Calif., 1969.
@@ -48,6 +50,7 @@ See also
 
 * [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
 
+### Examples
 
 The Anderson dual of the [[sphere spectrum]] is discussed in 
 
@@ -60,6 +63,12 @@ The Anderson duals of [[KU]] and of [[tmf]] are discussed in
 * {#Stojanoska12} [[Vesna Stojanoska]], _Duality for Topological Modular Forms_, Doc. Math. 17 (2012) 271-311 ([arXiv:1105.3968](http://arxiv.org/abs/1105.3968))
 
 * {#HeardStojanoska14} [[Drew Heard]], [[Vesna Stojanoska]], _K-theory, reality, and duality_ ([arXiv:1401.2581](http://arxiv.org/abs/1401.2581))
+
+### Equivariant duality
+
+Anderson duality in [[equivariant stable homotopy theory]] is discussed in
+
+* {#Ricka15} [[Nicolas Ricka]], _Equivariant Anderson duality and Mackey functor duality_ ([arXiv:1408.1581](http://arxiv.org/abs/1408.1581))
 
 
 [[!redirects Anderson spectrum]]
