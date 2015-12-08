@@ -65,3 +65,6 @@ The global formulation (cancelling [[classical anomalies]]) is discussed in
 [[!redirects higher WZW model]]
 [[!redirects higher WZW models]]
 
+[[!redirects higher WZW term]]
+[[!redirects higher WZW terms]]
+
