@@ -1,0 +1,20 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The [[equivariant cohomology|equivariant]] [[generalized cohomology theory]] which is [[Brown representability theorem|represented]] by the [[equivariant sphere spectrum]] may also be called _equivariant stable cohomotopy_, as it is the [[equivariant stable homotopy theory]] version of [[stable cohomotopy]], hence of [[cohomotopy]].
+
+## Properties
+
+See at _[quaternionic Hopf fibration --  Class in equivariant stable homotopy theory](quaternionic+Hopf+fibration#ClassInEquivariantStableHomotopyTheory)_
+
+
+
+## Related concepts
+
+* [[stable cohomotopy]]
