@@ -1,5 +1,5 @@
 
-**Table of [[branes]] appearing in [[supergravity]]/[[string theory]]** (for classification see at _[[brane scan]]_).
+**Table of [[brane|branes]] appearing in [[supergravity]]/[[string theory]]** (for classification see at _[[brane scan]]_).
 
 |   [[brane]]    |    in [[supergravity]]          |[[charge]]d under [[gauge field]]|   has [[worldvolume]] theory
 |----------------|---------------------------------|---|-----------------------------------------
