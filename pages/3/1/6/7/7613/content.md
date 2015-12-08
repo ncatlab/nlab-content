@@ -50,11 +50,16 @@ There is a bunch of consistency checks on the statement that the [[KK-compactifi
 
 One aspect of this is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
+More on the decomposition of the [[nLab:supergravity C-field]] in 11d to the [[RR-fields]] and the NS-fields in type IIA is in ([Mathai-Sati 03, section 4](#MathaiSati03)).
+
+For survey of how the components maps see also the table at _[Relation to F-theory](#RelationToFTheory)_.
+
 ### U-duality
 
 Another hint comes from the fact that the [[U-duality]]-structure of [[supergravity]] theories forms a clear pattern in those dimensions where one understands it well, giving rise to a description of higher dimensional supergravity theories by [[exceptional generalized geometry]]. Now, this pattern, as a mathematical pattern, can be continued to the case that would correspond to the top left corner above, by passing to [[exceptional generalized geometry]] over _hyperbolic_ [[Kac-Moody Lie algebras]] such as first [[E10]] and then, ultimately [[E11]]. The references there show that these are huge algebraic structures inside which people incrementally find all kinds of relations that are naturally identified with various aspects of M-theory. This leads to the conjecture that M-theory somehow _is_ $E_{11}$ in some way. But it all remains rather mysterious at the moment.
 
 ### Relation to F-theory
+ {#RelationToFTheory}
 
 The [[KK-compactification|compactification]] of M-theory on a torus yields [[type II string theory]] -- directly type IIA, and then type IIB after [[T-duality|T-dualizing]]. It turns out that the [[axio-dilaton]] of the resulting type II-B string theory is equivalently the [[complex structure]]-[[moduli|modulus]] of this [[elliptic fibration]] by the compactification torus. This gives a description of [[non-perturbative quantum field theory|non-perturbative]] aspects of type II which has come to be known as _[[F-theory]]_ (see e.g. [Johnson 97](#Johnson97)).
  
@@ -215,6 +220,9 @@ For more on this perspective as 10d type II as a [[self-dual higher gauge theory
 
 * {#BelovMooreII} Dmitriy Belov, [[Greg Moore]], _Type II Actions from 11-Dimensional Chern-Simons Theories_ ([arXiv:hep-th/0611020](http://arxiv.org/abs/hep-th/0611020))
 
+More complete discussion of the decomposition of the [[supergravity C-field]] as one passes from 11d to 10d is in 
+
+* {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and E8 Gauge Theory_, JHEP0403:016,2004 ([arXiv:hep-th/0312033](http://arxiv.org/abs/hep-th/0312033))
 
 
 ### Relation to D0-brane mechanics
