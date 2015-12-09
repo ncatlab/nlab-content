@@ -66,6 +66,8 @@ For $\alpha \beta \neq 0$ this is a 1/2 [[BPS state]] of 11d sugra.
 
 The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactification]] [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere|S7]]. For more on this see at _[[AdS-CFT]]_.
 
+[[!include black branes in supergravity -- table]]
+
 ## Properties
 
 ### M2-branes at ADE-orbifold singularities -- BLG and ABJM
