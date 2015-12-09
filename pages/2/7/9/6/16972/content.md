@@ -118,7 +118,7 @@ $$
 
 by the [above](#ClassInTheHomotopyGroupsOfSpheres). In contrast:[^acknowledgement]
 
-[^acknowledgement]: The proof of this statement profited from [[Charles Rezk]], who suggested [here](http://mathoverflow.net/a/224185/381) that the reduction to fixed point will make the real Hopf fibration make a non-torsion contribution, and to [[David Barnes]] who amplified the use of the Greenless-May splitting theorem.
+[^acknowledgement]: The proof of this statement profited from [[Charles Rezk]], who suggested [here](http://mathoverflow.net/a/224185/381) that the reduction to fixed points will make the real Hopf fibration give a non-torsion contribution, and to [[David Barnes]] who amplified the use of the Greenless-May splitting theorem.
 
 +-- {: .num_prop}
 ###### Proposition
