@@ -17,7 +17,11 @@
 
 In [[type IIB string theory]] [[S-duality]] mixes the [[D1-brane]] with the [[superstring]] itself to form [[(p,q)-strings]]. To reflect how the string hence here appears on the same footing as a [[D-brane]], one also calls it the _F1-brane_ (for "fundamental string").
 
-Similarly S-duality mixed the [[NS5-brane]] and the [[D5-brane]] and hence the former is also sometimes (rarely though) called the "F5".
+Similarly S-duality mixes the [[NS5-brane]] and the [[D5-brane]] and hence the former is also sometimes (rarely though) called the "F5".
+
+## As a black brane
+
+[[!include black branes in supergravity -- table]]
 
 
 ## Related concepts
