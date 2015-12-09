@@ -94,7 +94,7 @@ $$
 
 =--
 
-### Relation to formally &#233;tale morphism of schemes
+### Relation to formally &#233;tale morphisms of schemes
 
 * [[formally étale morphism of schemes]]
 
