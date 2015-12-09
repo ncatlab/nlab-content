@@ -118,9 +118,9 @@ $$
 
 by the [above](#ClassInTheHomotopyGroupsOfSpheres). In contrast:[^acknowledgement]
 
-[^acknowledgement]: The proof of this statement profited from [[Charles Rezk]], who suggested [here](http://mathoverflow.net/a/224185/381) that the reduction to fixed points will make the real Hopf fibration give a non-torsion contribution, and to [[David Barnes]] who amplified the use of the Greenless-May splitting theorem.
+[^acknowledgement]: The proof of prop. \ref{QuaternionicHopfFibrationIsDEEquivariantlyStablyNonTorsion} profited from [[Charles Rezk]], who suggested [here](http://mathoverflow.net/a/224185/381) that the reduction to fixed points will make the real Hopf fibration give a non-torsion contribution, and from [[David Barnes]] who amplified the use of the Greenless-May splitting theorem.
 
-+-- {: .num_prop}
++-- {: .num_prop #QuaternionicHopfFibrationIsDEEquivariantlyStablyNonTorsion}
 ###### Proposition
 
 In $G$-[[equivariant homotopy theory]] this becomes a non-[[torsion subgroup|torsion group]], i.e. 
