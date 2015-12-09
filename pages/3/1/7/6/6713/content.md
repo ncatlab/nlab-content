@@ -93,6 +93,10 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 
 ... lots of further things to say ...
 
+### As black branes
+
+[[!include black branes in supergravity -- table]]
+
 
 ## Examples
 
