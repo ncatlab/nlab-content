@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.whittier.edu/academics/math/Kronholm)
+
+## related $n$Lab entries
+
+* [[Serre spectral sequence]]
+
+category: people
