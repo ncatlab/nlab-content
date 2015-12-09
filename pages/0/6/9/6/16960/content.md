@@ -29,10 +29,21 @@ A key general statement of the theory is that rationally the [[homotopy theory]]
 
 ## Properties
 
-### Splitting into Mackey functors
+### Greenlees-May splitting into equivariant Eilenberg-MacLane spectra
  {#SplittingIntoMackeyFunctors}
 
-Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-[[equivariant homotopy groups]] of $X$. For $X,Y$ two $G$-spectra, there is a canonical morphism
+Let $G$ be a [[finite group]]. For $X$ a [[G-spectrum]], write $\pi_\bullet(X) \in \mathcal{M}[G]$ for its [[Mackey functor]], the one which sends $G/H$ to the $H$-[[equivariant homotopy groups]] of $X$. 
+
+Every rational $G$-equivariant spectrum $E$ is the direct sum of the [[Eilenberg-MacLane spectra]] (Mackey functors) on its [[equivariant homotopy groups]]:
+
+$$
+  E \simeq \prod_n \Sigma^n H\pi_n(E)
+  \,.
+$$
+
+([Greenlees-May 95, theorem A.1](#GreenleesMay95), [Greenlees, theorem 5.1](#Greenlees))
+
+For $X,Y$ two $G$-spectra, there is a canonical morphism
 
 $$
   [X,Y]_G \longrightarrow \underset{n}{\prod} Hom_{\mathcal{M}[G]}(\pi_n(X),\pi_n(Y))
@@ -40,6 +51,7 @@ $$
 $$
 
 When $Y$ is rational, then this is an [[isomorphism]] ([Greenlees-May 95, theorem A.4](#GreenleesMay95)).
+
 
 
 ### Rational tom Dieck splitting
@@ -70,9 +82,11 @@ But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see a
 
 General:
 
-* [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
+
+* {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+
 
 * [[David Barnes]], _Rational Equivariant Spectra_ ([arXiv:0802.0954](http://arxiv.org/abs/0802.0954))
 
