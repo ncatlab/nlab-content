@@ -63,3 +63,5 @@ The use of Haskell in [[mathematics]] is discussed in the following references.
 * category theory, in haskellwiki, [wiki](http://www.haskell.org/haskellwiki/Category_theory)
 
 * Jan van Eijck, _[The Haskell Road to Logic, Maths and Programming](http://homepages.cwi.nl/~jve/HR)_
+
+* Dan Piponi, ["What Category do Haskell Types and Functions Live In?"](http://blog.sigfpe.com/2009/10/what-category-do-haskell-types-and.html), October 13, 2009.
