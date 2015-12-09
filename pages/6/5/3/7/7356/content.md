@@ -111,6 +111,42 @@ More generally, heterotic string theory on an elliptically fibered Calabi-Yau $Z
 A detailed discussion of the [[equivalence]] of the respective [[moduli spaces]] is originally due to ([Friedman-Morgan-Witten 97](#FriedmanMorganWitten97)). A review of this is in ([Donagi 98](#Donagi98)).
 
 
+### The singular locus of the elliptic fibration and the D7-branes
+ {#SingularLocusAndD7Branes}
+
+In passing from [[M-theory]] to [[type IIA string theory]], the locus of any [[Kaluza-Klein monopole]] in 11d becomes the locus of [[D6-branes]] in 10d. The locus of the [[Kaluza-Klein monopole]] in turn (as discussed there) is the locus where the $S^1_A$-circle fibration degenerates. Hence in F-theory this is the locus where the fiber of the $S^1_A \times S^1_B$-[[elliptic fibration]] degenerates to the [[nodal curve]]. Since the [[T-duality|T-dual]] of [[D6-branes]] are [[D7-branes]], it follows that [[D7-branes]] in F-theory "are" the singular locus of the elliptic fibration.
+
+Now an [[elliptic fibration|elliptically fibered]] complex [[K3-surface]] 
+
+$$
+  \array{
+    T &\longrightarrow& K3
+    \\
+    && \downarrow
+    \\
+    && \mathbb{C}\mathbb{P}^1
+  }
+$$
+
+may be parameterized via the [[Weierstrass elliptic function]] as the solution locus of the equation
+
+$$
+  y^2 = x^3 + f(z) x + g(z)
+$$
+
+for $x,y,z \in \mathbb{C}\mathbb{P}^1$, with $f$ a [[polynomial]] of degree 8 and $g$ of degree twelve. The [[j-invariant]] of the complex [[elliptic curve]] which this parameterizes for given $z$ is
+
+$$
+  j(\tau(z)) = \frac{4 (24 f)^3}{27 g^2 + 4 f^3} 
+  \,.
+$$
+
+The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_.
+
+([Sen 96, page 5](#Sen96))
+
+
+
 
 
 ### F-brane scan
