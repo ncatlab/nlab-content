@@ -67,7 +67,12 @@ In [[equivariant cohomology]], for [[Bredon cohomology]]:
 
 and for genuine equivariant cohomology, i.e. with [[RO(G)-grading]]:
 
-* William Kronholm, _The $RO(G)$-graded Serre spectral sequence_ ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf))
+* {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
+
+See also
+
+* [[Megan Shulman]], _Equivariant Spectral Sequences for Local Coefficients_ ([arXiv:1005.0379](http://arxiv.org/abs/1005.0379))
+
 
 
 [[!redirects Serre spectral sequences]]
