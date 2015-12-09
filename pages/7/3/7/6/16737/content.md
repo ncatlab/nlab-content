@@ -55,7 +55,10 @@ and
 > it must be said that much of Physical Mathematics has a predilection
 for special, sporadic, and exceptional structures. $[$...$]$ I cannot forecast what stormy weather our field is destined to endure, but I can confidently forecast abundant [[moonshine]] in the years ahead. (section 11 "Exceptional structures")
 
-A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] is in ([Vafa 15, slide 11](#Vafa15)).
+A related comment in the context of [[F-theory]] [[GUT]] [[phenomenology]] requiring a point with [[ADE classification|E-type]] symmetry is in ([Vafa 15, slide 11](#Vafa15)):
+
+>The [[landscape of string theory vacua|landscape]] concept typically goes against things being exceptional. Here we seem
+to have evidence to the contrary. 
 
 ## Related entries
 
