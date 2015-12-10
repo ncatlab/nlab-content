@@ -40,7 +40,7 @@ of $X$ with the [[n-sphere]], equipped with the canonical [[action]] of the [[or
 ### $RO(G)$-degrees
  {#ROGDegrees}
 
-For $V$ an orthogonal linear $G$-[[representation]] then the value if the equivariant suspension spectrum in that degree is the [[smash product]] of $X$ with the corresponding [[representation sphere]].
+For $V$ an orthogonal linear $G$-[[representation]] then the value of the equivariant suspension spectrum in that [[RO(G)-grading|RO(G)-degree]] is the [[smash product]] of $X$ with the corresponding [[representation sphere]].
 
 $$
   (\Sigma^\infty_G X)(V) \simeq X \wedge S^V
