@@ -22,14 +22,22 @@ In this statement, one can replace $S^n$ with any $(n-1)$-[[connected space]] $Y
 
 This theorem justifies introducing the [[stable homotopy groups of spheres]] $\pi_k(S):=\pi_{n+k}(S^n)$, as well as  stable homotopy groups $\pi_k^S(Y) = \pi_{n+k}(\Sigma^n Y)$, both independent of $n$ where $n\gt k+1$. 
 
-## Relation to the Blakers-Massey theorem
+The Freudenthal suspension theorem is a special case of the [[Blakers-Massey theorem]].
 
-The Frudenthal suspension theorem is a special case of the [[Blakers-Massey theorem]].
+## Related concepts
+
+* [[suspension isomorphism]]
 
 ## References
 
 A formalization in [[homotopy type theory]] in [[Agda]] is in 
 
 * [[Peter Lumsdaine]], [[Dan Licata]], _[Freudenthal.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Freudenthal.agda)_
+
+Discussion in [[equivariant homotopy theory]] includes
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], p. 7,8 of _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+
 
 
