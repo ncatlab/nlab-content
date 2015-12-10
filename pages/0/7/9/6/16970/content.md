@@ -96,9 +96,19 @@ $$
 
 (...)
 
+### Equivariant stable Whitehead theorem
+
+The equivariant version of the stable [[Whitehead theorem]] holds:
+
+a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e.g. an $RO(G)$-degree-wise [[weak homotopy equivalence]] of [[topological G-spaces]] in the [model via indexing on all representations](#IndexedOnAllRepresentations)) precisely it if induces [[isomorphisms]] $\pi_\bullet(f) \colon \pi_\bullet(E) \longrightarrow \pi_{\bullet}(F)$ on all [[equivariant homotopy group]] [[Mackey functors]].
+ 
+([Greenlees-May, theorem 2.3](#GreenleesMay))
 
 
 ## References
+
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
