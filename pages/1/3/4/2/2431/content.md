@@ -50,6 +50,7 @@ When the theorem is stated in terms of CW complexes, the second property (taking
 ## Generalizations
 
 ### For $RO(G)$-graded equivariant cohomology
+ {#ForEquivariantCohomology}
 
 The generalization of the Brown representability theorem to [[equivariant cohomology]] says that [[RO(G)-grading|RO(G)-graded]] equivariant cohomology is represented by [[genuine G-spectra]] (e.g. [May 96, chapter XIII.3](#May96)).
 
