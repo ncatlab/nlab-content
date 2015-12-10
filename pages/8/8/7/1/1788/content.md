@@ -1,49 +1,5 @@
 
-$$
-  \array{
-    \left\{ 
-      { { d e^a = \overline{\psi}\wedge \Gamma^a \wedge \psi } 
-       \atop 
-      { d \psi^\alpha = 0 } } 
-      \atop 
-      d h_3 = - \mu_{M2}
-    \right\}
-    &&
-    \widehat{\mathbb{R}^{10,1\vert \mathbf{32}}}
-    &&
-      \stackrel{h_3 \wedge \mu_4  + \frac{1}{15}\mu_{M5} }{\longrightarrow}
-    &&
-    \mathbf{B}^6 \mathbb{R}
-    \\
-    &&
-    \downarrow^{\mathrlap{hofib(\mu_{M2})}} && && \downarrow
-    \\
-    \left\{ 
-      { { d e^a = \overline{\psi}\wedge \Gamma^a \wedge \psi } 
-       \atop 
-      { d \psi^\alpha = 0 } } 
-      \atop 
-      d h_3 = g_4 - \mu_{M2}
-    \right\}
-    &&
-    \mathbb{R}_{res}^{10,1\vert\mathbf{32}} 
-    && 
-      \stackrel{h_3 \wedge (g_4 + \mu_4) + \frac{1}{15}\mu_7 }{\longrightarrow}
-    && 
-    \mathbf{B}^6 \mathbb{R}/\mathbf{B}^2 \mathbb{R}
-    &&
-    \left\{
-      {d g_4 = 0} \atop {d g_7 = g_4 \wedge g_4}
-    \right\}
-    \\
-    &&
-    & {}_{\mathllap{\mu_{M2}}}\searrow && \swarrow
-    \\
-    &&
-    && \mathbf{B}^3 \mathbb{R}
-    \\
-    && && \left\{ d g_4 = 0\right\}
-  }
-$$
+| k | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 
+|---|---|---|---|---|---|---|---|
+| $\pi_k(S^4)$ | 0 | 0 | 0 | $\mathbb{Z}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z} \oplus \mathbb{Z}_{12}$ |
 
-[[branes]]
