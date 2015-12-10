@@ -120,6 +120,8 @@ Introductions and surveys include
 
 * [[Brooke Shipley]], _An introduction to equivariant homotopy theory_ ([pdf](http://homepages.math.uic.edu/~bshipley/bonn.2.pdf))
 
+* [Talbot workshop 2016](http://math.mit.edu/conferences/talbot/index.php?year=2016)
+
 Lecture notes on [[G-spectra]] modeled as [[orthogonal spectra]] with $G$-actions are
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
