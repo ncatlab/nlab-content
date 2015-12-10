@@ -49,6 +49,10 @@ When the theorem is stated in terms of CW complexes, the second property (taking
 
 ## Generalizations
 
+### For $RO(G)$-graded equivariant cohomology
+
+The generalization of the Brown representability theorem to [[equivariant cohomology]] says that [[RO(G)-grading|RO(G)-graded]] equivariant cohomology is represented by [[genuine G-spectra]] (e.g. [May 96, chapter XIII.3](#May96)).
+
 ### Categorical Brown representability
  {#CategoricalBrownRepresentability}
 
@@ -135,6 +139,11 @@ The model-categorical version, with applications to [[∞-stacks]] -- or rather 
 * [[Rick Jardine]], _[[JardineBrownrep.pdf:file]]_ 
 
 Warning: this is probably implicitly about [[reduced cohomology theory]], as the functors considered always assign the trivial result to the [[terminal object]] (the [[point]] in the usual examples).
+
+The case of [[RO(G)-grading|RO(G)-graded]] [[equivariant cohomology]] theory is discussed for instance in
+
+* {#May96} [[Peter May]], chapter XIII.3 of _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
 
 The counterexamples to nonconnected and unpointed Brown representability are from
 
