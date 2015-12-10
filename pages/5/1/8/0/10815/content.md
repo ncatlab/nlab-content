@@ -11,6 +11,8 @@ The [[long exact sequence in cohomology]] induced by a [[spherical fibration]].
 
 * [[Gysin map]]
 
+* [[Serre spectral sequence]]
+
 ## Reference
 
 
