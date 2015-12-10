@@ -19,34 +19,97 @@
 
 ## Idea
 
-For $G$ a [[compact Lie group]] (or more generally a [[compact topological group]]) the concept of _$G$-spectrum_ (or _$G$-equivariant spectrum_) is the generalization of that of [[spectrum]] as one passes from [[stable homotopy theory]] to [[equivariant stable homotopy theory]], or more generally, as $G$ is allow to vary, of [[global equivariant stable homotopy theory]]. See there for more details.
+For $G$ a [[compact Lie group]] (or more generally a [[compact topological group]]) the concept of _$G$-spectrum_ (or _$G$-equivariant spectrum_) is the generalization of that of [[spectrum]] as one passes from [[stable homotopy theory]] to [[equivariant stable homotopy theory]], or more generally, as $G$ is allow to vary, to [[global equivariant stable homotopy theory]]. 
 
 Where the ordinary concept of [[spectrum]] is given in terms of [[looping and delooping]] of ordinary [[topological spaces]] by ordinary [[spheres]], a $G$-spectrum is instead given by looping and delooping of [[topological G-spaces]] with respect to [[representation spheres]] of $G$, namely [[one-point compactifications]] of linear $G$-[[representations]], for all representations appearing in a chosen "[[G-universe]]".
 
-Such a [[G-universe]] is called _complete_ if it contains every [[irreducible representation]] of $G$, and the spectra modeled on such a complete $G$-universe are the _genuine $G$-spectra_.
+Such a [[G-universe]] is called _complete_ if it contains every [[irreducible representation]] of $G$, and the spectra modeled on such a complete $G$-universe are the _genuine $G$-spectra_. At the other extreme, if the [[G-universe]] contains only the trivial representations, then the resulting spectra are the _[[spectra with G-action]]_, also called _[[naive G-spectra]]_ for emphasis of the distinction to the previous case.
 
-(For $G$ a [[finite group]], then genuine $G$-spectra are equivalently _[[Mackey functors]]_ on the category of finite [[G-sets]]. See [below](#RelationToMackeyFunctors) for more.)
+The genuine $G$-spectra are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. In particular the genuine [[equivariant cohomology]] theories which they [[Brown representability theorem|represent]] have [[suspension isomorphisms]] for suspension by all [[representation spheres]] and with respect to [[RO(G)-grading]].
 
-At the other extreme, if the [[G-universe]] contains only the trivial representations, then the resulting spectra are the _[[spectra with G-action]]_, also called _[[naive G-spectra]]_ for emphasis of the distinction to the previous case.
 
-The genuine $G$-spectra are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. 
+## Models
 
-## Properties
+There are various equivalent ways to present genuine $G$-spectra.
 
-### Via excisive functors
+### Indexed on all representations
+ {#IndexedOnAllRepresentations}
 
-Characterization of $G$-spectra [via excisive functors]() on [[G-spaces]] is in ([Blumberg 05](#Blumberg05)).
+([May 96, chapter XII](#May96))
 
-### Relation to Mackey functors
+Fix a [[G-universe]]. For $V$ any [[orthogonal group|orthogonal]] [[representation]] in the universe, write $S^V$ for its [[representation sphere]]. For $V \hookrightarrow W$ a subrepresentation, write $W-V$ for the orthogonal complement representation. 
+
+A _$G$-prespectrum_ $E$ is an assignment of a [[pointed topological space]] $E_V$ to each representation $V$ (in the given [[G-universe]]), equipped for each subrepresentation $V \hookrightarrow W$ with a pointed $G$-equivariant [[continuous function]]
+
+$$
+  \sigma_{V,W}
+  \;\colon\;
+  S^{W-V} \wedge E_V \longrightarrow E_W
+$$
+
+such that
+
+1. $\Sigma_{V,V} = id$;
+
+1. for any $Z \hookrightarrow V \hookrightarrow W$ we have [[commuting diagrams]]
+
+   $$
+     \array{
+       S^{Z-W}\wedge S^{V-W} \wedge E_V
+       &\stackrel{S^{Z-W}\wedge(\sigma_{V,W})}{\longrightarrow}& S^{Z-W}E_W
+       \\
+       \downarrow && \downarrow^{\mathrlap{\Sigma_{Z,W}}}
+       \\
+       S^{Z-V}E_V &\stackrel{\sigma_{V,Z}}{\longrightarrow}& E_Z
+     }
+   $$
+
+Write
+
+$$
+  \tilde \sigma_{V,W} \;\colon\; E_V \longrightarrow \Omega^{W-V}E_W
+$$
+
+for the [[adjuncts]] of these structure maps.
+
+A $G$-prespectrum is called (at least in ([May 96, chapter XII](#May96)))
+
+* a _$G$-$\Omega$-spectrum_ if all the $\sigma_{V,W}$ are [[weak homotopy equivalences]];
+
+* a _$G$-spectrum_ if all the $\sigma_{V,W}$ are [[homeomorphisms]].
+
+
+### Via orthogonal spectra with $G$-action
+
+While the definition of [spectra indexed on all representations](#IndexedOnAllRepresentations) manifestly relates to the [[suspension isomorphism]] for smashing with [[representation spheres]] and shifting in [[RO(G)-grading]], the information encoded in the objects in this definition has much redundancy. A "smaller" definition of genuine $G$-spectra is given by [[orthogonal spectra]] equipped with $G$-action ([Schwede 15](#Schwede15)).
+
+### Via Mackey functors
  {#RelationToMackeyFunctors}
 
 For $G$ a [[finite group]] then genuine $G$-spectra are equivalent to  _[[Mackey functors]]_ on the category of [[finite set|finite]] [[G-sets]].
 
 ([Guillou-May 11, theorem 0.1](#GuillouMay11), [Barwick 14, below example B.6](#Barwick14)).
 
+
+
+### Via excisive functors
+
+Characterization of $G$-spectra [via excisive functors]() on [[G-spaces]] is in ([Blumberg 05](#Blumberg05)).
+
+## Properties
+
 ### Relation to spectra with $G$-action
 
 (e.g. [Carlsson 92, p. 14](#Carlsson92), [GreenleesMay, p.16](#GreenleesMay))
+
+### Equivariant stable Whitehead theorem
+ {#EquivariantWhitehead}
+
+The equivariant version of the stable [[Whitehead theorem]] holds:
+
+a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e.g. an $RO(G)$-degree-wise [[weak homotopy equivalence]] of [[topological G-spaces]] in the [model via indexing on all representations](#IndexedOnAllRepresentations)) precisely it if induces [[isomorphisms]] $\pi_\bullet(f) \colon \pi_\bullet(E) \longrightarrow \pi_{\bullet}(F)$ on all [[equivariant homotopy group]] [[Mackey functors]].
+ 
+([Greenlees-May, theorem 2.3](#GreenleesMay))
 
 ## Related concepts
 
@@ -63,6 +126,13 @@ Surveys and introductions include
 * {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
 
 * {#GreenleesMay} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+Lecture notes include
+
+* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
+
+* {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
 Relation to [[Mackey functors]]:
 
