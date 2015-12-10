@@ -27,7 +27,7 @@
 Given a linear [[representation]] of a [[group]] ([[topological group]]) $G$ in a [[vector space]]/[[Cartesian space]] $\mathbb{R}^n$, then the corresponding _representation sphere_ is the [[one-point compactification]] of this $\mathbb{R}^n$ (the $n$-[[sphere]]) regarded as a [[G-space]].
 
 Representation spheres induce the [[looping and delooping]] which is used in 
-[[RO(G)-grading|RO(G)-garded]] [[equivariant cohomology]] theory, [[Brown representability theorem|represented]] by [[genuine G-spectra]] in [[equivariant stable homotopy theory]].
+[[RO(G)-grading|RO(G)-graded]] [[equivariant cohomology]] theory, [[Brown representability theorem|represented]] by [[genuine G-spectra]] in [[equivariant stable homotopy theory]].
 
 ## Construction
 
