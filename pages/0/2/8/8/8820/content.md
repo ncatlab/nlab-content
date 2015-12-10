@@ -28,6 +28,8 @@ Requiring this to hold in [[equivariant cohomology theory]] not just for [[integ
 
 ## Related concepts
 
+* [[Freudenthal suspension theorem]]
+
 * [[Steenrod square]]
 
 * [[cohomology theory]]
