@@ -30,6 +30,7 @@ Representation spheres induce the [[looping and delooping]] which is used in
 [[RO(G)-grading|RO(G)-graded]] [[equivariant cohomology]] theory, [[Brown representability theorem|represented]] by [[genuine G-spectra]] in [[equivariant stable homotopy theory]].
 
 ## Construction
+ {#Construction}
 
 To construct a representation sphere $S^V$ associated to a $G$-representation $V$, one can consider the unit sphere $S^V:=S(\mathbb{R}\oplus V)$ where $\mathbb{R}$ carries the trivial representation. Then the [[stereographic projection]] isomorphism $S(\mathbb{R}\oplus V)\setminus \{(1,\mathbf{0})\}\to V$ is manifestly $G$-equivariant, with its inverse exhibiting $S^V$ as the one-point compactification of $V$.
 
