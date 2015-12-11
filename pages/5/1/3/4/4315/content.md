@@ -405,6 +405,8 @@ $$
 
 =--
 
+
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -420,6 +422,15 @@ since $\mathcal{P}(f)$ is the pullback of a $\mathcal{G}_\bullet$-principal bund
 On the other hand the $\mathcal{X}_\bullet$-action on $\mathcal{P}(f)$ is not principal over $\mathcal{G}_0$ -- unless $f$ is an [[equivalence in an (infinity,1)-category]] (hence a ([[Morita equivalence|Morita]]) from $\mathcal{X}_\bullet$ to $\mathcal{G}_\bullet$.) It is instead always principal over $f^\ast \mathcal{G}_0$.
 
 =--
+
+Thus we arrive at an equivalent, however more basic definition of Lie groupoid bibundle:
++-- {: .num_defn }
+###### Definition
+
+Given Lie groupoids $G:=G_1\Rightarrow G_0$ and $H:=H_1\Rightarrow H_0$, a $G$-$H$-bibundle is a principal $H$-bundle $E \xrightarrow{\pi_G} G_0$ over $G_0$ with anchor $E\xrightarrow{\pi_H} H_0$ together with a left $G$-action (see [here](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles) ) with anchor $\pi_G$, such that the two actions commute.
+=--
+
+
 
 +-- {: .num_remark #TruncationOfBibundle}
 ###### Remark
