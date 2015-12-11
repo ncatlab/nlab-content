@@ -55,15 +55,41 @@ $$
 
 are **groupoid principal bundles** .
 
+
+
+
 ## Examples
 
-For $\mathbf{H}$ = $\infty LieGrpd$ and $\mathcal{G}$ a [[Lie groupoid]], a $\mathcal{G}$-prinipal bundle is locally of the form
+###Lie groupoid principal bundles
+
+For $\mathbf{H}$ = $\infty LieGrpd$ and $G:=G_1 \Rightarrow G_0$ a [[Lie groupoid]], a $G$-prinipal bundle is locally of the form
 
 $$
   U_i \times \mathcal{G}_{x_i}
 $$
 
-for $\mathcal{G}_{x_i}$ the source fiber over an object $x_i$.
+for $\mathcal{G}_{x_i}$ the target fiber over an object $x_i$, or equivalently of the form $U_i\times_{G_0} G_1$. 
+
+More precisely, we have the following sub-definition for **Lie groupoid principal bundles**: Given a [[Lie groupoid]] $G=G_1 \Rightarrow G_0$,  a $G$-principal bundle over a manifold $M$ (with right $G$ action) is a surjective submersion $P\xrightarrow{\pi} M$ together with a moment map $P\xrightarrow{\rho} G_0$ (sometimes also called an anchor), such that there is a (right) **$G$-action** on $P$, that is, there is map $\Phi: P\times_{G_0} G_1 \to P$, such that 
+
+* $\pi(\Phi(p, g))=\pi(p)$,
+
+* $ \rho(\Phi(p,g))=s(g)$, 
+
+* $\Phi(\Phi(p, g_1), g_2)=\Phi(p, g_1 g_2)$.
+
+Moreover, we require the $G$-action to be free and proper, that is, 
+
+* [free] $P\times_{G_0} G_1 \xrightarrow{id\times \Phi} P\times P$ is injective, 
+
+* [proper]$P\times_{G_0} G_1 \xrightarrow{id\times \Phi} P\times P$ is a proper map , i.e. the preimage of a compact is compact.
+
+These two conditions are equivalent to the fact that
+
+$$ P\times_{G_0} G_1 \xrightarrow{id\times \Phi} P\times_M P$$
+
+is an isomorphism.
+
 
 ## Applications
 
