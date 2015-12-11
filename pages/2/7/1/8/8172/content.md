@@ -505,7 +505,7 @@ satisfied for
 
 * $E = B P$ the [[Brown-Peterson spectrum]];
 
-* $E = MU$ the [[complex cobordism cohomology theory|complec cobordism spectrum]].
+* $E = MU$ the [[complex cobordism cohomology theory|complex cobordism spectrum]].
 
 It is NOT satisfied for
 
