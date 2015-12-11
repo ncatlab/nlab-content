@@ -10,6 +10,6 @@
 
   * [Morphisms of Lie algebroids](http://ncatlab.org/nlab/show/Lie+groupoid#morphisms_of_lie_algebroids)
 
-  * [[groupoid principal bundle]]
+  * [Lie groupoid principal bundles](http://ncatlab.org/nlab/show/groupoid+principal+bundle#lie_groupoid_principal_bundles)
 
-  * [[bibundle]]s of Lie groupoids
+  * [Bibundles of Lie groupoids](http://ncatlab.org/nlab/show/bibundle#SmoothGroupoidPrincipalBibundles)
