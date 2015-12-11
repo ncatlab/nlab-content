@@ -16,13 +16,30 @@
 
 Given a [[subset]] $S$ of a [[group]] $G$, its __normalizer__ $N(S)=N_G(S)$ is the [[subgroup]] of $G$ consisting of all elements $g\in G$ such that $g S = S g$, i.e. for each $s\in S$ there is $s'\in S$ such that $g s=s'g$.  
 
-If $S$ is itself a [[subgroup]], then $S$ is a [[normal subgroup]] of $N_G(S)$; moreover $N_G(S)$ is the largest subgroup of $G$ such that $S$ is a normal subgroup of it. Of course, if $S$ is itself a normal subgroup of $G$, then its normalizer coincides with the whole of $G$.
+Notice the similarity but also the difference to the definition of the _[[centralizer subgroup]]_, for which $s' = s$ in the above.
 
-Each group $G$ embeds into the [[symmetric group]] $Sym(G)$ on the [[underlying set]] of $G$ by the left [[regular representation]] $g\mapsto l_g$ where $l_g(h) = g h$. The [[image]] is isomorphic to $G$ (that is, the left regular representation of a [[discrete group]] is [[faithful representation|faithful]]). The normalizer of the image of $G$ in $Sym(G)$ is called the [[holomorph]]. This solves the elementary problem of embedding a group into a bigger group $K$ in which every [[automorphism]] of $G$ is obtained by restricting (to $G$) an [[inner automorphism]] of $K$ that fixes $G$ as a subset of $K$.
+## Properties
+
+### Normalization and Weyl group
+ {#NormalizationAndWeylGroup}
+
+If the subset $S$ is in fact a [[subgroup]] of $G$, then it is a [[normal subgroup]] of the normalizer $N_G(S)$; and $N_G(S)$ is the largest subgroup of $G$ such that $S$ is a normal subgroup of it. Whence the terminology _normalizer_. Indeed, if $S$ is already a normal subgroup of $G$, then its normalizer coincides with the whole of $G$.
+
+Hence when $S$ is a group then the [[quotient]] 
+
+$$
+  W_G S \coloneqq N_G(S)/S
+$$ 
+
+is a [[quotient group]]. This is also called the [[Weyl group]] of $S$ in $G$.
 
 ## Examples
 
-* [[Weyl group]]
+### Holomorph
+
+Each group $G$ embeds into the [[symmetric group]] $Sym(G)$ on the [[underlying set]] of $G$ by the left [[regular representation]] $g\mapsto l_g$ where $l_g(h) = g h$. The [[image]] is isomorphic to $G$ (that is, the left regular representation of a [[discrete group]] is [[faithful representation|faithful]]). 
+
+The normalizer of the image of $G$ in $Sym(G)$ is called the [[holomorph]]. This solves the elementary problem of embedding a group into a bigger group $K$ in which every [[automorphism]] of $G$ is obtained by restricting (to $G$) an [[inner automorphism]] of $K$ that fixes $G$ as a subset of $K$.
 
 ## Related concepts
 
