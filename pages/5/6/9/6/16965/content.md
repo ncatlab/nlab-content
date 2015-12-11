@@ -44,7 +44,7 @@ $$
     \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge X^H))
     \\
     &\simeq
-    \pi_\bullet(\Sigma^\infty X^g)
+    \pi_\bullet(\Sigma^\infty X^G)
     \oplus
     \underset{{[H \subset G]} \atop {H \neq G}}{\oplus}
     \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge X^H))
