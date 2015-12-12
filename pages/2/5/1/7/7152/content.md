@@ -105,7 +105,7 @@ and fully abstractly from the point of view of  [[(∞,1)-topos]]-theory ([[shap
 
 and ([Hoyois 13b, section 1](#Hoyois13b)).
 
-Further results for the case over the complex numbers are in
+and in, where a comparison theorem over the complex numbers is also proven:
 
 * {#Carchedi15} [[Dave Carchedi]], _On the &#233;tale homotopy type of higher stacks_ ([arXiv:1511.07830](http://arxiv.org/abs/1511.07830))
 
