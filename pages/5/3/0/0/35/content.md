@@ -124,6 +124,7 @@ Recent progress: it turns out that one may link Lie algebroid with $L_\infty$-sp
 
 * $0$-bundle over a manifold $M$ is certainly a Lie algebroid in a trivial way.
 
+
 * [[action Lie algebroid]]
 
 * Tangent bundle $TM\to M$ is a Lie algebroid with $\rho=id$ and $[-,-]$ the usual Lie bracket for vector fields. See [[tangent Lie algebroid]].
@@ -191,7 +192,15 @@ $$
 
 A [[2-morphism]] between [[anafunctor]]s are defined like above, however the left legs are required to be [[acyclic fibration]]s between Lie groupoids.  (think this time what may you say about the morphism $\hat X \to \hat X'$?)
 
-Then these three (2,1)-categories, which we denote by $GEN$, $ANA$ and $BUN$, are  all [[equivalent]] to each other. For a nice survey on this statement, we refer to Section 1.5 of [Du Li's thesis](http://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0022-5F4F-A). 
+Then these three (2,1)-categories, which we denote by $GEN$, $ANA$ and $BUN$, are  all **[[equivalent]]** to each other. For a nice survey on this statement, we refer to Section 1.5 of [Du Li's thesis](http://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0022-5F4F-A). 
+
+
+The idea is that  [Bundlisation](http://ncatlab.org/nlab/show/bibundle#bundlisation) may extend to an equivalence of $(2,1)$-categories between $GEN$, the $(2,1)$-category made by generalised morphisms,  and $BUN$. The inverse is given by the following construction: given a bibundle functor $E: G\to H$, we pull back $G$ along the map $E\to G_0$ and obtain a Lie groupoid $G|_E:=G_1\times_{G_0\times G_0} E \times E \Rightarrow E$. Then the natural projection  $G|_E \to G$ is an [[acyclic fibration]]. Thus we obtain a generalised morphism which is also an anafunctor from $G \to H$. 
+
+Even though $GEN$ contains more morphisms than $ANA$, a generalised morphism maybe equivalently replaced by an anafunctor. In fact a generalised morphism $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$  gives arise to an anafunctor $X \stackrel{\simeq}{\leftarrow} X \times_{X}^w \hat X \to Y$. 
+
+As a consequence of the universal property of the [[calculus of fractions]], $GEN$ and $ANA$ are equivalent.  
+
 
 ## Morphisms of Lie algebroids
 
