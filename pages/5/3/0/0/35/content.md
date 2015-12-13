@@ -191,7 +191,7 @@ $$
 
 A [[2-morphism]] between [[anafunctor]]s are defined like above, however the left legs are required to be [[acyclic fibration]]s between Lie groupoids.  (think this time what may you say about the morphism $\hat X \to \hat X'$?)
 
-Then these three (2,1)-categories are  all [[equivalent]] to each other. For a nice survey on this statement, we refer to Section 1.5 of [Du Li's thesis](http://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0022-5F4F-A). 
+Then these three (2,1)-categories, which we denote by $GEN$, $ANA$ and $BUN$, are  all [[equivalent]] to each other. For a nice survey on this statement, we refer to Section 1.5 of [Du Li's thesis](http://ediss.uni-goettingen.de/handle/11858/00-1735-0000-0022-5F4F-A). 
 
 ## Morphisms of Lie algebroids
 
