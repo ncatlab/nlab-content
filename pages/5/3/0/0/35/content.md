@@ -151,7 +151,14 @@ A Lie groupoid functor $f : G\to H$ is a  **weak equivalence** if it is
 
 1. fully faithful; that is,  $G_1 \cong H_1\times_{t\times s, H_0\times H_0} G_0 \times G_0$. 
 
+Composition of generalised morphism is given by weak [[pullback]] of Lie groupoids (see also [[weak limit]]). Given  (strict) morphisms $\hat X\to Y$ and $\hat X' \to Y$, the **weak [[pullback]]** of $\hat X\to Y$ along $\hat X' \to Y$ is a groupoid $\hat X \times_{Y}^w \hat X'$ with space of objects $\hat X_0 \times_{ Y_0} Y_1 \times_{Y_0} \hat X'_0$ and space of morphisms $\hat X_1 \times_{Y_0} Y_1 \times_{Y_0} \hat X'_1$. When $\hat X' \to Y$ is a weak equivalence, the weak pullback is a Lie groupoid thank to the property of essentially surjective. (Is this composition associative?)
+
+
+
 * [[anafunctor]]: an anafunctor from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[acyclic fibration]] of Lie groupoids. That is, this map is a [[weak equivalence]] of Lie groupoids and $\hat X_0 \to X_0$ is a surjective submersion.
+
+Composition of anafunctors is given through strong [[pullback]] of Lie groupoids, that is level-wise pullback.
+
 
 * [[bibundle]] functor (or H.S. bibundle, or Hilsum-Skandalis bibundle): a bibundle functor from $G\to H$ is a [[groupoid principal bundle]]  $E$ of $H$ (with right action) such that $G$ acts on $E$ from left and $G$ action commutes with $H$ action. If both $G$ and $H$ actions are principal, then $E$ gives arise to [[Morita equivalence]] between them.
 
