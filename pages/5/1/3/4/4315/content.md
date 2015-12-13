@@ -451,11 +451,13 @@ Given a bibundle functor $E: G\to H$ and a bibundle functor $F: H\to K$ between 
 Thus bibundle functors compose to a bibundle functor, and Morita bibundles compose to a Morita bibundle.
 
 
-Then we see that  there is a $(2,1)$-category with objects Lie groupoids, 1-morphisms bibundle functors, and 2-morphisms isomorphisms of bibundles. It is $(2,1)$-category because 2-morphisms are obviously invertible. This $(2,1)$-category is equivalent to the one obtained by generalised morphism or by anafunctors. 
+Then we see that  there is a $(2,1)$-category $BUN$ with objects Lie groupoids, 1-morphisms bibundle functors, and 2-morphisms isomorphisms of bibundles. It is $(2,1)$-category because 2-morphisms are obviously invertible. This $(2,1)$-category is equivalent to the one obtained by generalised morphism or by anafunctors. 
 
+##### Bundlisation #####
 
+Given a strict morphism $G\xrightarrow{f} H$, then we may form a bibundle $E:= G_0\times_{f_0, H_0, t} H_1$ with right $H$ action induced by $H$-multiplication and with left $G$ action induced by $G$-action on $G_0$. Bundlisation preserves composition. 
 
-
+Thus 
 
 
 +-- {: .num_remark #TruncationOfBibundle}
