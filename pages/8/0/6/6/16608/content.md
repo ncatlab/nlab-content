@@ -27,3 +27,4 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 [[!redirects Tambara functors]]
 * {#Ull13} [[John Ullman]], _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
 * [[Michael Hill]], _Derived Equivariant Algebraic Geometry_, ([lecture and notes](https://www.msri.org/workshops/689/schedules/18236))
+* Kristen Mazur, _On the Structure of Mackey Functors and Tambara Functors_, ([thesis](http://sites.lafayette.edu/mazurk/files/2013/07/Mazur-Thesis-4292013.pdf))
