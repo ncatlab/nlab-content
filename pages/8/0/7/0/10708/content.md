@@ -49,8 +49,8 @@ $$
   L_n X \simeq L_{K(n)}X \underset{L_{n-1}L_{K(n)}X}{\times} L_{n-1}X
 $$
 
-(see at [[smash product theorem]])
-it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. This is the topic of [[chromatic homotopy theory]].
+(see at _[[smash product theorem]]_ and see [this remark](fracture+theorem#ExampleOfChromaticFracturing) at _[[fracture square]]_ )
+it follows that in principle one may study any [[spectrum]] $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. This is the topic of [[chromatic homotopy theory]].
 
 ## Related concepts
 
