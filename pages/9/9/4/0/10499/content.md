@@ -490,10 +490,10 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 
 e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 
-+-- {: .num_remark}
++-- {: .num_remark #ExampleOfChromaticFracturing}
 ###### Remark
 
-This general version is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. For example there is a **chromatic** fracture square:
+The general version of the fracture statement in prop. \ref{GeneralFractureSquare} is used frequently in [[chromatic homotopy theory]] for decomposition in [[Morava K-theory]] and [[Morava E-theory]]-localizations. For example there is a **chromatic** fracture square:
 
 $$
   \array{
