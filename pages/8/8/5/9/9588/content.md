@@ -176,7 +176,7 @@ Discussion of [[twisted cohomology|twists]] of Morava E-theory is in
 * [[Hisham Sati]], [[Craig Westerland]], _Twisted Morava K-theory and E-theory_ ([arXiv:1109.3867](http://arxiv.org/abs/1109.3867))
  {#SatiWesterland11}
 
-A [[Snaith theorem]]-line characterization of Morava E-theory is given in 
+A [[Snaith theorem]]-like characterization of Morava E-theory is given in 
 
 * [[Craig Westerland]], _A higher chromatic analogue of the image of J_ ([arXiv:1210.2472](http://arxiv.org/abs/1210.2472))
  {#Westerland12}
