@@ -51,13 +51,13 @@ $$
 
 of $X$. 
 
-Since moreover $L_n X$ is the [[homotopy fiber product]]
+Since moreover $L_n X$ is the [[homotopy fiber product]] (see at _[[smash product theorem]]_ and see [this remark](fracture+theorem#ExampleOfChromaticFracturing) at _[[fracture square]]_ )
 
 $$
   L_n X \simeq L_{K(n)}X \underset{L_{n-1}L_{K(n)}X}{\times} L_{n-1}X
 $$
 
-it follows that in principle one can study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. 
+it follows that in principle one may study a spectrum $X$ by understanding all its "chromatic pieces" $L_{K(n)} X$. 
 
 
 ## Examples
