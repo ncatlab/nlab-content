@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Topological Hochschild__ (resp. __topological cyclic__) __homology__ is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. A good survey is in ([May](#May)).
+__Topological Hochschild__ (resp. __topological cyclic__,  survey is in ([May](#May)) __homology__ is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. It takes values in [[cyclotomic spectra]]. 
 
 In particular, given a ring $R$, then there is a natural morphism of [[spectra]] 
 
