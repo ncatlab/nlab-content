@@ -33,9 +33,11 @@ The quadratic pairing entering the [[11d Chern-Simons theory]] that governs the 
 
 ## Properties
 
-### Lift to F-theory
+### Lift to M-therory F-theory
 
-Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](Sen96), [Sen 97](#Sen97)).
+Lifts of orientifold background from [[type II string theory]] to [[F-theory]] go back to ([Sen 96](Sen96), [Sen 97a](#Sen97a)).
+
+Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes back to [Sen 97b](#Sen97b)
 
 ## Related concepts
 
@@ -108,6 +110,9 @@ Lifts of type II orientifolds to [[F-theory]] were first discussed in
 
 * {#Sen96} [[Ashoke Sen]], _F-theory and Orientifolds_ ([arXiv:hep-th/9605150](http://arxiv.org/abs/hep-th/9605150))
 
-* {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+* {#Sen97a} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
+
+* {#Sen97b} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
 
 [[!redirects orientifolds]]
