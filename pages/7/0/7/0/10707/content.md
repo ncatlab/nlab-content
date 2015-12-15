@@ -19,9 +19,27 @@
 
 ## Idea
 
-The [[moduli stack]] $\mathcal{M}_{FG}$ of all [[formal groups]].
+The [[moduli stack]] $\mathcal{M}_{FG}$ of all [[formal groups]]. Often meant are 1-dimensional commutative formal groups-
 
+## Definition
 
+Let $L = \pi_\bullet MU$ be the [[Lazard ring]]. 
+
+Write $G^+$ for the [[group scheme]] given on a [[ring]] $R$ by 
+
+$$
+  G^+(R) \coloneqq \{g\in R[ [x] ] \vert g(t) = b_1 t + b_2 t^2 + \cdots \; with\; b_1 \in R^\times \}
+  \,.
+$$
+
+There is a canonical [[action]] of $G^+$ on $Spec(L)$. The [[quotient stack]] of this action is the moduli stack of (1d commutative) formal groups
+
+$$
+  \mathcal{M}_{fg} = (Spec(L))/G^+
+  \,.
+$$
+
+(e.g. [Lurie, lecture 11, def. 2](#LurieLect11))
 
 ## Properties
 
@@ -53,18 +71,27 @@ Inside the moduli stack of formal groups sit, in that order, that of [[cubic cur
 
 ## Related concepts
 
+* [[Spec(S)]]
+
 [[!include moduli stack of curves -- table]]
 
 ## References
 
+* {#LurieLect11} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture14.pdf)) 
+
+
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 14 _Classification of formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture14.pdf)) 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 19 _Morava stabilizer groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf))
- {#LurieLect19}
+* {#LurieLect19} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 19 _Morava stabilizer groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture19.pdf))
  
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
- {#LurieLect21}
+ 
+* {#LurieLect21} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 21 _Lubin-Tate theory_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture21.pdf))
+ 
+On [[quasicoherent sheaves]] over $\mathcal{M}_{fg}$:
 
+* [[Paul Goerss]], _Realizing Families of Landweber Exact Homology Theories_ ([arXiv:0905.1319](http://arxiv.org/abs/0905.1319))
+
+* [[Paul Goerss]], _Quasi-coherent sheaves on the moduli stack of formal groups_ ([arXiv:0802.0996](http://arxiv.org/abs/0802.0996))
 
 [[!redirects moduli stacks of formal groups]]
 
