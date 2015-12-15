@@ -1,6 +1,42 @@
 
-# References
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[field extension]] by a [[root of unity]].
+
+## Related concepts
+
+* [[field extension]], [[Galois group]]
+
+* [[anti-cyclotomic field]]
+
+* [[cyclotomic spectrum]]
+
+
+## References
+
+* [[Keith Conrad]], _Cyclotomic extensions_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/galoistheory/cyclotomic.pdf))
 
 * Wikipedia, _[cyclotomic field](http://en.wikipedia.org/wiki/Cyclotomic_field)_
 
 [[!redirects cyclotomic fields]]
+
+[[!redirects cyclotomic extension]]
+[[!redirects cyclotomic extensions]]
+
+[[!redirects cyclotomic field extension]]
+[[!redirects cyclotomic field extensions]]
