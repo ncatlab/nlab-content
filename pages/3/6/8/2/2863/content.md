@@ -9,6 +9,8 @@
 
 * [[algebraic K-theory]]
 
+* [[cyclotomic spectrum]]
+
 category: people
 
 [[!redirects C. Barwick]]
