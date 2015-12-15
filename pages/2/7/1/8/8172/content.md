@@ -567,9 +567,9 @@ $$
 +-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
 ###### Proposition
 
-Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core or $\pi_0(E)$, def. \ref{CoreOfARing} is either of
+Let $E$ be a [[connective spectrum|connective]] [[E-∞ ring]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
 
-* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \matbb{Z}[J^{-1}]$;
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
 
 * $\mathbb{Z}_n$ for $n \geq 2$.
 
