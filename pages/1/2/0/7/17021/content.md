@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.math.ias.edu/~sglasman/)
+
+## related $n$Lab entries
+
+* [[cyclotomic spectrum]]
+
+category: people
