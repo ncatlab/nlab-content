@@ -39,11 +39,13 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 ### In the context of string compactifications
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+* {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
 
 * [[Martin Wijnholt]], slides 6-10 of  _String compactification_, PITP 2014 ([pdf](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
+See also at _[[F-branes -- table]]_
 
 
 [[!redirects ADE singularities]]
