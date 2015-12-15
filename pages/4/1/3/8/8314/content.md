@@ -91,6 +91,10 @@ See at _[[finite abelian group]]_ for details.
 
 * [[p-localization]]
 
+* [[profinite completion of the integers]]
+
+* [[cyclotomic spectrum]]
+
 [[!redirects cyclic group]]
 [[!redirects cyclic groups]]
 
