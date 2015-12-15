@@ -32,6 +32,8 @@ In analogy to the [[prime spectrum]] of a [[commutative ring]], the prime spectr
 
 The prime spectrum of the [[(∞,1)-category of spectra]] ([[p-localization|p-local]] and [[finite spectrum|finite]]) is labeled by the [[Morava K-theories]] ([Balmer 10, prop. 9.4](#Balmer10)). This follows from the the [[thick subcategory theorem]].
 
+This is the topic of [[chromatic homotopy theory]], see at _[[Spec(S)]]_.
+
 Generally, the [[kernel]] of any [[generalized homology theory]] here is a thick ideal, but not generally a prime ideal.
 
 ## Related concepts
