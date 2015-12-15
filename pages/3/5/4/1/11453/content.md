@@ -21,3 +21,9 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 
 [[!redirects O-planes]]
 
+
+[[!redirects O6-plane]]
+[[!redirects O6-planes]]
+
+[[!redirects O7-plane]]
+[[!redirects O7-planes]]
