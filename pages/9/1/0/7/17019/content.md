@@ -20,9 +20,11 @@
 
 ## Idea
 
-A _cyclotomic spectrum_ is a [[global equivariant spectrum]] for all the [[cyclic groups]] over the [[circle group]], together with a certain extra structure.
+A _cyclotomic spectrum_ is an $S^1$-[[equivariant spectrum]] $E$ with [[fixed points]] for all the [[finite group|finite]] [[cyclic groups]] $C_p = \mathbb{Z}/p\mathbb{Z} \hookrightarrow S^1$ inside the [[circle group]], and equipped with $S^1$-equivariant identifications $E^{C_p} \stackrel{\simeq}{\to} E$ of the $C_P$-[[fixed points]] with the full object.
 
-The [[topological Hochschild homology]]-spectra are cyclotomic spectra, and that's where the concept originates. This is the origin of the [[cyclotomic trace]] map to [[topological cyclic homology]].
+The [[topological Hochschild homology]]-spectra $E = THH(A)$ are naturally cyclotomic spectra, and this is where the concept originates: by the discussion at _[[Hochschild cohomology]]_ $THH(A)$ is the [[E-infinity ring]] of functions on the [[free loop space]] of $Spec(A)$, and cyclotomic structure reflects the structure of free loop spaces: loops that repeat with period $p$ are equivalent to plain loops.
+
+Cyclotomic structure is the origin of the [[cyclotomic trace]] map $THH \longrightarrow TC$ from [[topological Hochschild homology]] to [[topological cyclic homology]].
 
 ## Properties
 
@@ -30,6 +32,8 @@ The [[topological Hochschild homology]]-spectra are cyclotomic spectra, and that
  {#MonoidalStructure}
 
 The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclotomic spectra is the [[global equivariant sphere spectrum]] for all the [[cyclic groups]] over the [[circle group]], equipped with a canonical cyclotomic structure. ([Blumberg-Mandell 13, example 4.9](#BlumbergMandell13))
+
+This is equivalently the [[topological Hochschild homology]] of the sphere spectrum, $THH(\mathbb{S})\simeq \mathbb{S}$.
 
 ## Related concepts
 
