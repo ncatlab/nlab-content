@@ -1,2 +1,54 @@
+**[[generalized (Eilenberg-Steenrod) cohomology theory|generalized]] [[differential cohomology theories]]**
 
-nothing
+are [[smooth spectra]]
+
+hence smoothly parameterized [[quasicoherent infinity-stacks|quasicoherent modules]] over [[Spec(S)]] for $\mathbb{S}$ the [[sphere spectrum]]:
+
+$$
+  \begin{aligned}
+    DifferentialCohomology
+    & = 
+    Sh(Mfd, Spectra) 
+    \\
+    & \simeq Sh(Mfd, QMod(Spec(\mathbb{S}))) = QMod(Mfd\times Spec(\mathbb{S}))
+  \end{aligned}
+$$ 
+
+***
+
+The [[arithmetic fracture square]] from [[Weil uniformization theorem|Weil uniformization]] over [[Spec(S)]] synthesizes these from their formal completion and torsion approximation:
+
+$$
+  \array{
+    &&  {{localization} \atop {away\;from\;p}} && \stackrel{}{\longrightarrow} && {{p-adic} \atop {residual}}
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+      && && {{geometric\;bundles} \atop {with \;connection}} &&  && 
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && { {formal\;completion} \atop {at\;p} }
+    \; && \longrightarrow && {{p-torsion} \atop {approximation}}
+  }
+  \,,
+$$
+
+***
+
+The [[differential hexagon]] from [[cohesion]] over [[CartSp]] synthesizes them instead from their [[étale homotopy type]] and their [[flat modality|flat]] components:
+
+$$
+  \array{
+    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{{de\;Rham} \atop {differential}}{\longrightarrow} && {curvature \atop forms}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{{de\;Rham} \atop {theorem}}}
+    \\
+    {flat \atop {differential\;forms}}  && && {{geometric\;bundles} \atop {with \;connection}} && && {rationalized \atop bundles}
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol. \atop class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && {{geometric\;bundles} \atop {with\;flat\;connection}} && \underset{comparison}{\longrightarrow} && {{etale\;homotopy\;type} \atop {of\;bundle}}
+  }
+ \,.
+$$
