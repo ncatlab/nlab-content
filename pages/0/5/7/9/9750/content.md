@@ -81,6 +81,10 @@ In particular
 
 [[!include F-branes -- table]]
 
+## Related concepts
+
+* [[caloron correspondence]]
+
 ## References
 
 ### General
