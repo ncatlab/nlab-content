@@ -64,7 +64,7 @@ By the usual syntactic constructions (see [[internal logic]] and [[context]]), a
 
 * The theory of [[fields]] is also coherent, being obtained from the theory of commutative rings by adding $ (0 = 1) \vdash \bot $ and also 
   $$ \top \vdash (x=0) \vee (\exists y.(x y = 1)) $$
-  asserting that every element is either zero or invertible.  In the [[constructive logic]] that holds internal to the categories in question, this is the notion of a "discrete field;" other classically equivalent axiomatizations (called "Heyting fields" or "residue fields") are not coherent.
+  asserting that every element is either zero or invertible.  In the [[constructive logic]] that holds internal to the categories in question, this is the notion of a "discrete field;" other classically equivalent axiomatizations (called "Heyting fields" or "residue fields" -- see [[field]]) are not coherent.
 
 * The theory of [[torsion]] abelian groups is geometric but not coherent; it can be obtained from the theory of abelian groups by adding the sequent
   $$ \top \vdash \bigvee_{n\ge 1} (n \cdot x = 0) $$
