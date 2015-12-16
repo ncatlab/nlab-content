@@ -1,6 +1,26 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+## Idea
+
 $Spectrum$ is the [[stable (infinity,1)-category]] of [[spectrum|spectra]].  It is also denoted $Sp$, or sometimes $Spec$ although that [[affine scheme|can be confusing]].
 
-It is the free stable [[locally presentable (infinity,1)-category]] on one generator, namely the [[sphere spectrum]].
+It is the free stable [[locally presentable (infinity,1)-category]] on one [[compact object|compact]] generator, namely the [[sphere spectrum]].
+
+$Sp$ is the [[stable (infinity,1)-category]] of [[quasicoherent infinity-stacks]] on [[Spec(S)]].
 
 category: category
 
