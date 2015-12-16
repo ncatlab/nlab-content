@@ -24,7 +24,7 @@ The [[action]] on a [[module]] over a [[monoid]] $A$ in a [[closed monoidal cate
      \rho : \mathbf{B}A^{op} \to V
    $$ 
 
-from the [[delooping]] one-object $V$-[[enriched category]] $\mathbf{B}A$ corresponding to $A$ to $V$ itself. 
+from the [[delooping]] one-object $V$-[[enriched category]] $\mathbf{B}A$, corresponding to $A$, to $V$ itself. 
 
    More generally it makes sense to replace $\mathbf{B}A$ by any $V$-[[enriched category]] $C$ -- regarded as the [[horizontal categorification]] of a monoid, a "monoid-oid" -- and think of a $V$-enriched presheaf $\rho : C \to V$ as a __module over the category__ $C$.
 
@@ -90,7 +90,7 @@ $$
   \mathbf{B}G \to Set
 $$
 
-is nothing but a **$G$-set**: a [[set]] equipped with a $G$-action:
+is nothing but a **$G$-set**: a [[set]] equipped with a $G$-action.
 
 $\mathbf{B}G$ is the [[small category]] that is the [[delooping]] [[groupoid]] of $G$, which has a single object and $Hom_{\mathbf{B}G}(\bullet,\bullet) = G$. The functor $\mathbf{B}G \to Set$ takes the single object to some set $S$ and takes each morphism $(\bullet \stackrel{g}{\to} \bullet)$ to an [[automorphism]] $\rho(g) : S \to S$ of that set, such that composition is respected. This is just a [[representation]] of $G$ on the set $S$.
 
