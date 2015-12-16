@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Topological Hochschild__ (resp. __topological cyclic__,  survey is in ([May](#May)) __homology__ is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. It takes values in [[cyclotomic spectra]]. 
+__Topological Hochschild__ (resp. __topological cyclic__,  survey is in ([May](#May)) __homology__ is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
 
 In particular, given a ring $R$, then there is a natural morphism of [[spectra]] 
 
@@ -33,7 +33,7 @@ $$
   }
 $$
 
-from the [[algebraic K-theory]] spectrum to the topological Hochschild homology spectrum, the [[Dennis trace]] map. It factors through the topological cyclic homology spectrum via a map called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for [[algebraic K-theory]].
+from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum, the [[Dennis trace]] map. Since Hochschild homology spectra are naturally [[cyclotomic spectra]], that factors through the topological cyclic homology spectrum via a map called the _[[cyclotomic trace]]_ which much like a [[Chern character]] map for [[algebraic K-theory]].
 
 The spectra $THH(R)$ and $TC(R)$ are typically easier to analyze than $K(R)$. Moreover, the difference between them and $K(R)$ is "locally constant" ([Dundas-Goodwillie-McCarthy13](#DundasGoodwillieMcCarthy13)) and often otherwise bounded in complexity. Accordingly, $THH$ and $TC$ are in practice computationally useful approximations to $K$.
 
