@@ -37,7 +37,7 @@ Clubs were introduced by [[Max Kelly]], and are akin in spirit to [[operad|opera
 
 ### Action by substitution product
 
-Let $\mathbf{P}$ be the category of finite sets $[n] = \{1, \ldots, n\}$ (including the empty set $[0]$) and permutations between them, and let $Cat$ be the category of small categories. We define a "wreath product" action of the category $Cat/\mathbf{P}$ on $Cat$, 
+Let $\mathbf{P}$ be the category of finite sets $[n] = \{1, \ldots, n\}$ (including the empty set $[0]$) and permutations between them, and let $Cat$ be the category of small categories. We define a "wreath product" action of the category $Cat/\mathbf{P}$ on $Cat$, where $Cat/\mathbf{P}$ is the slice category of $Cat$ over $\mathbf{P}$
 
 $$\circ: Cat/\mathbf{P} \times Cat \to Cat$$ 
 
