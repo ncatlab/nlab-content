@@ -233,6 +233,54 @@ This point of view also applies to [[higher Courant Lie algebroids]] and [[L-inf
 
 Example: For the tangent Lie algebroid $A = T M$, $\bigl(C(T M[1], d_A\bigr) = \bigl(\Omega^\ast(M), d_{dR}\bigr)$.
 
+Then a morphism from a Lie algebroid $(A, \rho_A, [-,-]_A)$ to $(B, \rho_B, [-,-]_B)$ is a morphism of the associated differential graded commutative algebras
+
+$$ (C(A[1]), d_A) \leftarrow (C(B[1]), d_B).
+$$
+
+Such a morphism of c.d.g.a.'s induces maps $M \to N$ from the degree $0$ map and a map $A \to B$ from degree $1$. This map is a morphism of vector bundles that satisfies additional conditions.
+
+This way to explain morphisms of Lie algebroids is described in [[Kirill Mackenzie]], chapter 4.3.
+If the Lie algebroids are over the same manifold $M$, then a morphism from $A$ to $B$ can be described as a morphism of vector bundles that respects the anchor maps and the Lie bracket. If, however, $B$ is over a different manifold $N$, this direct approach does not work. In this situation we have to pull back the Lie algebroid to $M$ (Note that this is not simply the vector bundle pullback of $B$ along $f$, but a more involved construction, see [[Kirill Mackenzie]]). Using the defintion of a morhpism on a common base manifold one arrives at two conditions on the bundle morphism to be a morphism of Lie algebroids. For details see the linked book.
+
+
+
+### Example
+Let $I$ be an interval with the tangent bundle Lie algebroid $(TI, \id_{TI}, [-,-])$ and $(A, \rho_A, [-,-]_A)$ an arbitrary Lie algebroid on $M$. Then a path $a\colon I \to A$ defines a map from $\varphi\colon C(A[1]) \to C(TI[1]) \cong \Omega(I)$ which respects the commutative graded algebra structure. A function $f\in C^{\infty}(M)$ gets mapped to $f\circ \gamma$, where $\gamma\colon I \to M$ is the projection of $a$. A section $s\in\Gamma(A^*)$ gets mapped to $(s\circ \gamma (a) dt$ under $\varphi$, where $dt$ is the canonical section of $\Omega^1(I)$. Since $C(TI[1])$ is concentrated in degree $0$ and $1$, the other degrees get mapped to $0$.
+
+For this map to be a morphism of Lie algebroids, it has to respect the differentials. As explained above this only needs to be checked for a smooth function in $C^{\infty}(M)$:
+
+$$ \varphi(d_A f) = d_{dR} \varphi(f) \qquad f\in C^{\infty}(M).
+$$
+
+A quick calculation shows that this is true if and only if
+
+$$ \rho_A(a(t)) = \frac{d}{dt}\gamma(t).
+$$
+
+### Example
+Let $M$ the unit square in $\mathbb{R}^2$. Then a Lie algebroid morphism from $(TM, \id_{TM}, [-,-])$ to $(\mathfrak{g}, T\cdot, [-.-]_{\mathfrak{g}})$, where $\mathfrak{g}$ is a Lie algebra, is given by a morphism of c.d.g.a.
+
+$$ (CE(\mathfrak{g}), d_{\mathfrak{g}}) \to (\Omega(M), d_{dR}).
+$$
+
+Two smooth maps $a,b\colon M\to \mathfrak{g}$ give a map between c.g.a. spaces above. Here a section $s\in\Gamma(\mathfrak{g}^*)$, i.e. an element of $\mathfrak{g}^*$ gets mapped to the one form
+
+$$ s(a) dt + s(b) ds,
+$$
+
+where $(t,s)$ are the coordinates on $M$. A quick calculation shows that this map respects the differential if and only if
+
+$$ \frac{da}{ds} - \frac{db}{ds} = [a,b]_{\mathfrak{g}}.
+$$
+
+This formula also shows that $a\cdot dt + b\cdot ds$ is a flat connection on the trivial principal $G$-bundle on $M$. Therefore Lie algebroid morphisms open a way to talk about higher connections and flat conditions.
+
+### Open problem
+It is unclear how to use the idea of [[bibundle]] or [[span]] to define a more general version of Lie algebroid morphisms so that they really correspond to the case of Lie groupoid morphisms.
+ 
+
+
 ## Higher Lie groupoids
 
 See
