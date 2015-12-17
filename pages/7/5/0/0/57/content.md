@@ -623,7 +623,16 @@ This is the [[string Lie 2-group]]. It's construction in terms of integration by
 
 ### Integrating Lie algebroids to (stacky) Lie groupoids
 
-Unlike finite dimensional Lie algebras, not every Lie algebroid may be integrated to a Lie groupoid. There exists topological obstruction coming from $\pi_2(M)$ of the base $M$.
+Unlike finite dimensional Lie algebras, not every Lie algebroid may be integrated to a Lie groupoid. There exists topological obstruction coming from $\pi_2(L)$ of the leaf $L\subset M$ of a Lie algebroid $A\to M$. The integrability criteria is completely classified through the behaviour of certain monodromy groups and that is the achievement of  [Crainic-Fernandes 01](#Crainic). These monodromy groups, providing obstructions of integration, may be seen as the image of a transgression map of the long exact sequence of [[Lie algebroid homotopy groups]] induced by the natural [[Lie algebroid fibration]] $A|_L \to L$. (see [Brahic-Zhu 10](#BZ) ). 
+
+Let us now describe the construction of the universal groupoid for a Lie algebroid $A$. This is a major step contained in  [Crainic-Fernandes 01] and was earlier discovered in the setting of Poisson manifolds as the phase space of [[Poisson sigma model]] in [Cattaneo-Felder 00](#CaFe). 
+
+Given a Lie algebroid $A\to M$, an $A$-path (a Lie algebroid path), is a Lie algebroid morphism from $T\Delta^1 \to A$, that is, it is a path $a$ in $A$ such that $a=\rho(\gamma)$ where $\gamma=\pi(a)$ is the base path of $a$ (see [example](https://ncatlab.org/nlab/show/Lie+groupoid#example) ). 
+
+An (end-fixing) $A$-homotopy (a Lie algebroid homotopy) is a Lie algebroid morphism from $T\square \to A$ satisfying certain boundary conditions. Let us be more precise: a vector bundle morphism $T\square \to A$ can be denoted by $a dt + b ds$ (see [example](https://ncatlab.org/nlab/show/Lie+groupoid#example_2) ). Then the boundary condition is that $b(s,0)=0$ and $b(s,1)=0$. The fact that $adt+bds$ is a Lie algebroid morphism is equivalent to the following PDE:
+
+
+
 
 ## Related concepts
 
