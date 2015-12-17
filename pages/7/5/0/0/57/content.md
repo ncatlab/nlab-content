@@ -620,6 +620,11 @@ where $\theta$ is the [[Maurer-Cartan form]], $\mu(\theta) = \langle \theta\wedg
 This is the [[string Lie 2-group]]. It's construction in terms of integration by paths is due to ([Henriques](#Henriques))
 
 
+
+### Integrating Lie algebroids to (stacky) Lie groupoids
+
+Unlike finite dimensional Lie algebras, not every Lie algebroid may be integrated to a Lie groupoid. There exists topological obstruction coming from $\pi_2(M)$ of the base $M$.
+
 ## Related concepts
 
 * [[Kan-fibrant simplicial manifold]]
