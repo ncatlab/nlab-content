@@ -213,7 +213,7 @@ where $C^\infty(M)$ is considered to be of degree $0$, $\Gamma(A^*)$ to be of de
 
 Now we can define a degree-one derivation on $C(A[1])$ as follows: For $\xi \in \Gamma(\wedge^n A^*)$ and $X_i\in \Gamma(A)$, let
 $$
-d_A(\xi)(X_1,\,\ldots\,,\,X_n) := \sum_{0\leq i \lt j\leq n}\xi\bigl([X_i,\,X_j]_A,\, \ldots\,,\, \widehat{X_i},\,\ldots\,,\,\widehat{X_i},\,\ldots\bigr) + \sum_{i=0}^n (-1)^i \rho_A(X_i) \xi\bigl(\ldots\,,\,\widehat{X_i},\,\ldots\bigr).
+d_A(\xi)(X_1,\,\ldots\,,\,X_n) := \sum_{0\leq i \lt j\leq n} (-1)^{i+j} \xi\bigl([X_i,\,X_j]_A,\, \ldots\,,\, \widehat{X_i},\,\ldots\,,\,\widehat{X_i},\,\ldots\bigr) + \sum_{i=0}^n (-1)^i \rho_A(X_i) \xi\bigl(\ldots\,,\,\widehat{X_i},\,\ldots\bigr).
 $$
 The condition $[d_A,\,d_A] = 0$ is not automatically fulfilled: since $\deg d_A = 1$, we have $[d_A,\,d_A] = d_A \circ d_A + d_A \circ d_A = 2 d_A \circ d_A$. 
 The condition $d_A \circ d_A = 0$ is actually equivalent to $\bigl(A, \rho_A, [ - , - ]_A\bigr)$ being a Lie algebroid; that is, it is fulfilled if and only if
