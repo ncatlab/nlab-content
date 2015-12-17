@@ -24,7 +24,7 @@ $$
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-      && && {{geometric\;bundles} \atop {with \;connection}} &&  && 
+    { {formal\;completion} \atop {away\; from \;p} }  && && {{geometric\;bundles} \atop {with \;connection}} &&  && {{{p-torsion} \atop {approximation}} \atop {{of\;p-adic} \atop {residual}}}
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
