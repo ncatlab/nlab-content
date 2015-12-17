@@ -373,7 +373,7 @@ For more discussion of this see also _[[differential cohesion and idelic structu
  {#CompletionAndTorsionOnDerivedCategories}
 
 
-We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under the [[stable Dold-Kan correspondence]] this is a special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, but this special case has a longer tradition in the literature -- often called _Greenlees-May duality_ due to ([Greenlees-May 92](#GreenlessMay92)) -- and we point to these original proofs.
+We discuss here arithmetic fracturing on [[chain complexes]] of modules. Under the [[stable Dold-Kan correspondence]] this is a special case of prop. \ref{CompletionTorsionAdjointModalityForModuleSpectra}, but this special case has a longer tradition in the literature -- going back to _Grothendieck local duality_  and sometimes called _Greenlees-May duality_ due to ([Greenlees-May 92](#GreenlessMay92)) -- and we point to these original proofs.
 
 
 +-- {: .num_defn}
@@ -465,6 +465,7 @@ In this form the statement holds much more generally:
 ###### Proposition
 
 Let $E, F, X$ be [[spectra]] such that the $F$-[[Bousfield localization of spectra|localization]] of $X$ is $E$-acyclic, i.e.  $E_\bullet(L_F X) \simeq 0$, then the canonical square [[diagram]]
+
 
 $$
   \array{
@@ -746,3 +747,7 @@ See also
 
 [[!redirects fracture diagram]]
 [[!redirects fracture diagrams]]
+
+[[!redirects Grothendieck local duality]]
+[[!redirects Greenlees-May duality]]
+
