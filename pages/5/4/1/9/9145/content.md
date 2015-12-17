@@ -339,7 +339,7 @@ _[synthetic differential infinity-groupoid -- Lie differentiation](synthetic+dif
 
 #### Of a Lie groupoid
 
-(...)
+Given a Lie groupoid $G_1\Rightarrow G_0$, we take the vector bundle $ker Ts|_{G_0}$ restricted on $G_0$, then we show that there is a [[Lie algebroid]] structure on $A:=ker Ts|_{G_0} \to G_0$. First of all, the anchor map is given by $ker Ts_{G_0} \xrightarrow{Tt} G_0$. Secondly, to define the Lie bracket, one shows that a section $X$ of $A$ may be right translated to a vector field on $G_1$, which is right invariant. Then Jacobi identity implies that right invariant vector fields are closed under Lie bracket. Thus Lie brackets on vector fields on $G_1$ induces a Lie bracket on sections of $A$.
 
 
 
