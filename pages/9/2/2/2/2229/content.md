@@ -31,7 +31,7 @@ $$
   W_G S \coloneqq N_G(S)/S
 $$ 
 
-is a [[quotient group]]. This is also called the [[Weyl group]] of $S$ in $G$.
+is a [[quotient group]]. This is also called the _[[Weyl group]]_ of $S$ in $G$. (This use of terminology is common in [[equivariant stable homotopy theory]], but not otherwise.)
 
 ## Examples
 
@@ -46,6 +46,11 @@ The normalizer of the image of $G$ in $Sym(G)$ is called the [[holomorph]]. This
 * [[stabilizer subgroup]]
 
 * [[centralizer subgroup]]
+
+## References
+
+* [[Dominique Bourn]], James Richard Andrew Gray, _Normalizers and split extensions_ ([arXiv:1307.4845](http://arxiv.org/abs/1307.4845))
+
 
 [[!redirects normalizers]]
 
