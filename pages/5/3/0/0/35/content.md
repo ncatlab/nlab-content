@@ -238,7 +238,7 @@ Then a morphism from a Lie algebroid $(A, \rho_A, [-,-]_A)$ to $(B, \rho_B, [-,-
 $$ (C(A[1]), d_A) \leftarrow (C(B[1]), d_B).
 $$
 
-Such a morphism of c.d.g.a.'s induces maps $M \to N$ from the degree $0$ map and a map $A \to B$ from degree $1$. This map is a morphism of vector bundles that satisfies additional conditions.
+Such a morphism of c.d.g.a.'s is determined by maps $C^\infty(N) \to C^\infty (M)$ on degree $0$ and a map $\Gamma(B^*)\to \Gamma(A^*)$ on degree $1$. Thus a morphism of vector bundles $A\xrightarrows{f} B$ give rise to a morphism $f^*$ of c.g.a. For $f$ to be a Lie algebroid morphism, we further need $f$ to  satisfy additional conditions so that $f^*$ preserves the differential.
 
 This way to explain morphisms of Lie algebroids is described in [[Kirill Mackenzie]], chapter 4.3.
 If the Lie algebroids are over the same manifold $M$, then a morphism from $A$ to $B$ can be described as a morphism of vector bundles that respects the anchor maps and the Lie bracket. If, however, $B$ is over a different manifold $N$, this direct approach does not work. In this situation we have to pull back the Lie algebroid to $M$ (Note that this is not simply the vector bundle pullback of $B$ along $f$, but a more involved construction, see [[Kirill Mackenzie]]). Using the defintion of a morhpism on a common base manifold one arrives at two conditions on the bundle morphism to be a morphism of Lie algebroids. For details see the linked book.
