@@ -156,6 +156,11 @@ Discussion of interrelation between completion and [[etale morphisms]] is in
 
 * Leovigildo Alonso, Ana Jeremias, Marta Perez, _Local structure theorems for smooth maps of formal schemes_ ([arXiv:math/0605115](http://arxiv.org/abs/math/0605115))
 
+Discussion of formal completion of [[(infinity,1)-modules]] in terms of [[totalization]] of [[Amitsur complexes]] is in
+
+* {#Carlsson07} [[Gunnar Carlsson]], _Derived completions in stable homotopy theory_ ([arXiv:0707.2585](http://arxiv.org/abs/0707.2585))
+
+
 [[!redirects completion of a ring]]
 [[!redirects completion of rings]]
 [[!redirects completions of a ring]]
