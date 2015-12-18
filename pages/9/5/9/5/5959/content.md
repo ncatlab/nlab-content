@@ -83,3 +83,4 @@ Trans. Amer. Math. Soc., 353, (2001), 2805&#8211;2841.
 
 * {#FauskIsaksen07} [[Halvard Fausk]] [[D. C. Isaksen]], _Model structures on pro&#8211;categories_, Homology, Homotopy and Applications, Vol. 9 (2007), 367&#8211;398.
 
+* Ilan Barnea, [[Yonatan Harpaz]], [[Geoffroy Horel]], _Pro-categories in homotopy theory_ ([arXiv:1507.01564](http://arxiv.org/abs/1507.01564))
