@@ -39,7 +39,7 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are constructed in 
 
-* {#Reidegeld15} Frank Reidegeld _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ [arXiv:1512.05114](http://arxiv.org/abs/1512.05114)
+* {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
 
 ### In the context of string compactifications
