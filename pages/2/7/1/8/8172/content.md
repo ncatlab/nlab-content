@@ -226,7 +226,7 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 > under construction
 
 Given a [[connective spectrum]] $X$ such that $H^\bullet(X)$
-has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ $\pi_ast(X) \otimes \mathbb{Z}_p$ and whose $E^2$-page is
+has finite type, then for each [[prime number]] $p$ there exists a [[spectral sequence]] which converges to the [[homotopy groups]] of $X$ modulo $p$ -- $\pi_\ast(X) \otimes \mathbb{Z}_p$ -- and whose $E^2$-page is
 
 $$
   E_2^{s,t} \simeq  Ext_A^{s,t}(H^\bullet(X), \mathbb{Z}/(p) )
@@ -270,6 +270,11 @@ Finally we consider specifically the examples of such given by
 In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and $S$-[[∞-module]] $X$ a [[spectral sequence]] converging to the [[homotopy groups]] of the $E$-[[Bousfield localization of spectra|localization]] of $X$, and this is
 
 * [The E-Adams-Novikov spectral sequence](#TheEAdamsSpectralSequence).
+
+### Idea
+
+The quick idea is this: Given an $S$ -module $X$, regard it as a quasicoherent sheaf on $Spec(S)$. Choose a map $Spec(E) \to Spec(S)$. This is a cover of its [[1-image]]
+ $Spec(E) \to Spec(S)^\wedge_{Spec(E)}$, which is the derived [[formal completion]] of $Spec(S)$ at the image of $Spec(E)$. Restrict attention then to the restriction of $X$ to that formal completion $X^\wedge_{Spec(E)}$. (So if $Spec(E) \to Spec(S)$ was already an atlas, hence was already complete, we stick with the original $X$). Then pull back $S$ to the [[Cech nerve]] of the cover $Spec(E) \to Spec(S)^wedge_{Spec(E)}$. The realization of this Cech nerve reproduces the completed image, and hence the canonical filtration on the Cech nerve gives a filtration spectral sequence for $X^\wedge_{Spec(E)}$.
 
 
 ### Spectral sequences computing homotopy groups of filtered objects
@@ -356,7 +361,7 @@ We now have the [[spectral sequence of a filtered stable homotopy type]].
 Let $\mathcal{C}$ be a [[stable (∞,1)-category]] equipped with a [[t-structure]] such that its [[heart of a stable (∞,1)-category|heart]] is an [[abelian category]]. 
 
 If $\mathcal{C}$ has [[sequential limits]] and if  $X_n \simeq 0$ for all $n \gt n_0$ then the [[spectral sequence]] induced by the [[exact couple]]
-of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filted object:
+of def. \ref{ExactCoupleForFilteredObject} converges to the [[homotopy groups]] of the [[homotopy limit]] $\underset{\leftarrow}{\lim}_n X_n$ of the generalized filtered object:
 
 $$
   E^{p,q}_1
@@ -432,7 +437,7 @@ This is ([[Higher Algebra|Higher Algebra, remark 1.2.4.4]]). Review is around  (
 
 We discuss now the special case of coskeletally filtered 
 totalizations coming from the canonical cosimplicial objects
-induced from [[E-∞ algebras]] ("[[Sweedler corings]]").
+induced from [[E-∞ algebras]] ("[[Amitsur complexes]]", "[[Sweedler corings]]").
 
 In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
 
@@ -583,9 +588,9 @@ $$
 
 =--
 
-
 ([Bousfield 79](#Bousfield79)).
 
+For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
 ### The $E$-Adams-Novikov spectral sequence
  {#TheEAdamsSpectralSequence}
