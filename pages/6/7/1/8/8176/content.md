@@ -39,6 +39,16 @@ $$
 
 The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
+There is also a generalization to [[equivariant cohomology]]: for genuine $G$-equivariance, with [[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $E \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
+
+$$
+  E_2^{p,q} = H^p(X, H^{V+q}(F,A)) \,\Rightarrow\, H^{V+p+q}(E,A)
+  \,,
+$$
+
+where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
+
+
 ## Related concepts
 
 * [[Gysin sequence]]
