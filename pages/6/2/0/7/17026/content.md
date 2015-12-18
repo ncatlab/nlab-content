@@ -1,0 +1,13 @@
+
+* [[formal completion of a ring]]
+
+* [[formal completion of a module]]
+
+* [[p-completion]]
+
+
+
+[[!redirects formal completions]]
+
+[[!redirects adic completion]]
+[[!redirects adic completions]]
