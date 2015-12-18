@@ -9,7 +9,7 @@ An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
-These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular pointes. The resulting exceptional fiber (the blow-up of the singular point, an [[ALE space]]) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
+These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular points. The resulting exceptional fiber (the blow-up of the singular point, an [[ALE space]]) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
 
 > (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
 
@@ -36,6 +36,11 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 * {#Siegel14} Kyler Siegel, section 6 of _The Ubiquity of the ADE classification in Nature_ , 2014 ([pdf](http://math.stanford.edu/~ksiegel/ADEClassifications.pdf))
 
 * MathOverflow, _[Resolving ADE singularities by blowing up](http://mathoverflow.net/q/186368/381)_
+
+Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are constructed in 
+
+* {#Reidegeld15} Frank Reidegeld _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ [arXiv:1512.05114](http://arxiv.org/abs/1512.05114)
+
 
 ### In the context of string compactifications
 
