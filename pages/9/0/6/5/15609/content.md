@@ -318,7 +318,16 @@ Discussion in the context of [[higher algebra]] is in
 
 * {#LurieCompletions} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
 
+Discussion of formal completion of [[(infinity,1)-modules]] in terms of [[totalization]] of [[Amitsur complexes]] is in
+
+* {#Carlsson07} [[Gunnar Carlsson]], _Derived completions in stable homotopy theory_ ([arXiv:0707.2585](http://arxiv.org/abs/0707.2585))
+
+
 [[!redirects completions of a module]]
 
 [[!redirects completion of modules]]
 [[!redirects completions of modules]]
+
+[[!redirects formal completion of a module]]
+
+
