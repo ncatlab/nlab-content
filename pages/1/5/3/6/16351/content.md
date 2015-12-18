@@ -17,6 +17,8 @@
 
 +-- {: .num_theorem #Embedding}
 ###### Theorem
+**(Milnor's exercise)**
+
 
 The [[functor]]
 
@@ -27,12 +29,12 @@ $$
 which sends a [[smooth manifold]] ([[finite number|finite]] [[dimension|dimensional]], [[paracompact topological space|paracompact]], [[second countable topological space|second countable]]) to (the [[formal dual]] of) its $\mathbb{R}$-[[associative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
 
 
-In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the algebra homomorphisms $C^\infty(X)\leftarrow C^\infty(Y)$.
+In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the $\mathbb{R}$-[[associative algebra|algebra]] [[homomorphisms]] $C^\infty(X)\leftarrow C^\infty(Y)$.
 
 
 =--
 
-(e.g. [Kolav-Slovak-Michor 93, corollary 35.10](#KolavSlovakMichor93))
+Proof is for instance in ([Kolav-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolavSlovakMichor93)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -60,8 +62,6 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 * [[derivations of smooth functions are vector fields]]
 
-* [[derivations of smooth functions are vector fields]]
-
 
 
 ## References
@@ -73,3 +73,8 @@ A proof of the statement appears for instance in
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
 * {#Nestruev03} [[Jet Nestruev]], section 6 of _Smooth manifolds and Observables_, Graduate texts in mathematics 218, 2003
+
+The analog of the statement for real algebras refined to [[smooth algebras]] is theorem 2.8 in
+
+* [[Ieke Moerdijk]], [[Gonzalo Reyes|Gonzalo E. Reyes]], _[[Models for Smooth Infinitesimal Analysis]]_ Springer (1991)
+
