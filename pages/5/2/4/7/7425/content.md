@@ -240,6 +240,8 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 ## Related concepts
 
+* [[equivariant Morava K-theory]]
+
 * [[K-theory]], [[topological K-theory]], [[algebraic K-theory]]
 
 * [[chromatic homotopy theory]]
