@@ -7,7 +7,7 @@
 
 The [[moduli stack of formal groups]] $\mathcal{M}_{FG}$ admits a natural [[stratification]] whose open [[strata]] are labeled by a [[natural number]] called the _[[height of a formal group|height of formal groups]]_.
 
-Write $\overline{\mathbb{F}}_{\mathrm{p}}$ for the [[algebraic closure]] of $\mathbb{F}_p$.
+For $p$ a [[prime number]], write $\overline{\mathbb{F}}_{\mathrm{p}}$ for the [[algebraic closure]] of the [[prime field]] $\mathbb{F}_p$.
 
 The [[stratum]] $\mathcal{M}_{FG}^n$ can be identified with the [[homotopy quotient]] $Spec (\overline{\mathbb{F}}_{\mathrm{p}})// \mathbb{G}$, where the [[group]] $\mathbb{G}$ is the [[automorphism group]]  over $\mathbb{F}_p$ of the unique formal group law $f$ of [[height of a formal group|height]] $n$, 
 
@@ -15,7 +15,7 @@ $$
   \mathbb{G} \coloneqq Aut(\overline{\mathbb{F}}_{\mathrm{p}}, f)
 $$ 
 
-This is called the _Morava stabilizer group_. Essentioally its [[group algebra]] ([[Hopf algebra]]) is called the _Morava stabilizer algebra_.
+This is called the _Morava stabilizer group_. Essentially its [[group algebra]] ([[Hopf algebra]]) is called the _Morava stabilizer algebra_.
 
 This is discussed around ([Lurie 10, lect. 19, prop. 1](#LurieLect19)), see also the beginning of [Lurie 10, lect 21](#LurieLect21), and in ([Ravenel, chapt. 6](#RavenelCh6)).
 
