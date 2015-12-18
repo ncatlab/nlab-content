@@ -421,10 +421,9 @@ Discussion of $G_2$-[[orbifolds]] includes
 
 * {#AcharyaGukov04} [[Bobby Acharya]], [[Sergei Gukov]], _M theory and Singularities of Exceptional Holonomy Manifolds_, Phys.Rept.392:121-189,2004 ([arXiv:hep-th/0409191](http://arxiv.org/abs/hep-th/0409191))
 
-
 * {#Barrett06} Adam B. Barrett, _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
-* {#Reidegeld15} Frank Reidegeld _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ [arXiv:1512.05114](http://arxiv.org/abs/1512.05114)
+* {#Reidegeld15} [[Frank Reidegeld]] _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
 
 The relation to [[multisymplectic geometry]]/[[2-plectic geometry]] is mentioned explicitly in 
