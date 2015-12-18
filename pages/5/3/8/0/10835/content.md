@@ -117,6 +117,10 @@ The [[bar construction]] of the corresponding [[monad]] -- the [[higher monadic 
 (e.g. [Hess 10, section 6](#Hess10))
 
 
+## Related concepts
+
+* [[Adams-Novikov spectral sequence]]
+
 ## References
 
 The Amitsur complex was introduced in 
@@ -135,8 +139,8 @@ The statement of proof the descent theorem for the Amitsur complex is due to
 
 A review of the proof in low degree is in 
 
-* [[James Milne]], prop. 6.8 of _[[Lectures on Étale Cohomology]]_
- {#Milne}
+* {#Milne} [[James Milne]], prop. 6.8 of _[[Lectures on Étale Cohomology]]_
+ 
 
 Discussion from the point of view of [[Sweedler corings]] and a full proof of the descent theorem is in 
 
@@ -144,8 +148,13 @@ Discussion from the point of view of [[Sweedler corings]] and a full proof of th
 
 Disucssion from the point of view of [[higher monadic descent]] is in 
 
-* [[Kathryn Hess]], section 6 of _A general framework for homotopic descent and codescent_ ([arXiv:1001.1556](http://arxiv.org/abs/1001.1556))
- {#Hess10}
+* {#Hess10} [[Kathryn Hess]], section 6 of _A general framework for homotopic descent and codescent_ ([arXiv:1001.1556](http://arxiv.org/abs/1001.1556))
+ 
+
+Discussion of [[formal completion]] of [[(infinity,1)-modules]] in terms of [[totalization]] of Amitsur complexes is in
+
+* {#Carlsson07} [[Gunnar Carlsson]], _Derived completions in stable homotopy theory_ ([arXiv:0707.2585](http://arxiv.org/abs/0707.2585))
+
 
 [[!redirects Amitsur complexes]]
 
