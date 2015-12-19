@@ -295,6 +295,8 @@ For [[multiplicative cohomology theories]] there is a further refinement of equi
 
 * [[equivariant stable homotopy theory]], [[global equivariant stable homotopy theory]]
 
+* [[equivariant rational homotopy theory]], [[rational equivariant stable homotopy theory]]
+
 * [[Segal conjecture]]
 
 * [[equivariant K-theory]], [[equivariant operator K-theory]], [[equivariant KK-theory]]
