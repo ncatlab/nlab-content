@@ -77,6 +77,9 @@ $$
 
 But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see at _[[equivariant sphere spectrum]]_ the section  [Examples](equivariant+sphere+spectrum#Examples).
 
+## Related concepts
+
+* [[equivariant rational homotopy theory]]
 
 ## References
 
