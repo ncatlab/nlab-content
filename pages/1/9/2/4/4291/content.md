@@ -73,7 +73,7 @@ There is a nonabelian analog of split exact sequences in [[semiabelian categorie
 +-- {: .num_prop}
 ###### Proposition
 
-A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak homotopy equivalence]] from the 0-chain complex, namely the [[quasi-isomorphism]] $0 \to C_\bullet$ is actually a [[chain homotopy]]-[[homotopy equivalence]], in that the [[identity]] on $C_\bullet$ has a [[null homotopy]]. 
+A [[long exact sequence]] $C_\bullet$ is _split exact_ precisely if the [[weak homotopy equivalence]] from the 0-chain complex, namely the [[quasi-isomorphism]] $0 \to C_\bullet$ is actually a [[chain homotopy]] [[homotopy equivalence|equivalence]], in that the [[identity]] on $C_\bullet$ has a [[null homotopy]]. 
 
 =--
 
