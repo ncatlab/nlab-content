@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Mathematic
+#### Homotopy theory
 +--{: .hide}
-[[!include mathematicscontents]]
+[[!include homotopy - contents]]
 =--
 #### Rational homotopy theory
 +--{: .hide}
@@ -259,6 +259,8 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 * [[real homotopy theory]]
 
 * [[fracture theorem]]
+
+* [[equivariant rational homotopy theory]]
 
 * [[rational equivariant stable homotopy theory]]
 
