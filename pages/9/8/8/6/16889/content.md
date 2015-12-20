@@ -28,7 +28,7 @@ _Globular_ is a web-based [[proof assistant]] for finitely-presented [[semistric
 
 **We recommend the Chrome browser.** <i>Globular</i> currently operates up to the level of 3-categories. By the yoga of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], this also allows one to construct proofs in monoidal 2-categories and braided monoidal 1-categories. An extension to 4-categories is actively in development.
 
-The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structures in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]]. Since every tricategory is equivalent to a semistrict 3-category, this means that any algebraic proof in a finitely-presented tricategory can be formalized.
+The model of [[semistrict]] higher categories that _Globular_ uses puts all the weak structure in the interchangers, and higher associated structures. For [[3-categories]], this means that _Globular_ implements the axioms of a [[Gray category]]. Since every tricategory is equivalent to a semistrict 3-category, this means that any algebraic proof in a finitely-presented tricategory can be formalized.
 
 _Globular_ is free to use, and [open-source](https://github.com/jamievicary/globular). There is a lot to be done, on both a theoretical and practical level, and anybody can get involved with developing the software. If you are interested, please get in touch with [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/). _Globular_ has been developed in the [Quantum Group](http://www.cs.ox.ac.uk/activities/quantum/) of the [Department of Computer Science](http://www.cs.ox.ac.uk/) at the [University of Oxford](http://www.ox.ac.uk/), by [Krzysztof Bar](https://www.cs.ox.ac.uk/people/krzysztof.bar/), Katherine Casey, [Aleks Kissinger](http://www.cs.ru.nl/A.Kissinger/), [Jamie Vicary](http://www.cs.ox.ac.uk/people/jamie.vicary/) and [Caspar Wylie]().
 
@@ -59,7 +59,7 @@ The signature can be enlarged by building diagrams $S$ and $T$, and assigning th
 
 **Export and import.** Use the 'Export' feature to download a copy of your workspace to your local machine, and 'Import' to upload a previously-download workspace. This functionality only involves your browser, not the globular.science server, so you do not need to log in or even create an account to use these features. If you import a workspace, log in, and click 'Save', then a copy of the imported workspace will be saved to the server.
 
-**Security and privacy.** The plain text of your password is not stored on the server. However, your private workspaces are saved in plain text, and as such should not be considered highly secure, as they could be accessed by someone with site administrator credentials. The administrators pledge not to view any user private data, except from the list of registered email addresses, except on request of the individual user. User data is backed up nightly to a secure server.
+**Security and privacy.** The plain text of your password is not stored on the server. However, your private workspaces are saved in plain text, and as such should not be considered highly secure, as they could be accessed by someone with site administrator credentials. The administrators pledge not to access any user's data, except from the registered email address, without the permission of that individual user. In other words: your private work is private! User data is backed up nightly to a secure server.
 
 
 ### Manipulating diagrams
