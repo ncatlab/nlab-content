@@ -126,6 +126,12 @@ See also
 
 * [[Renata Kallosh]], _The Ultraviolet Finiteness of $N=8$ Supergravity_, JHEP 1012:009,2010 ([arXiv:1009.1135](http://arxiv.org/abs/1009.1135))
 
+### Lift to string theory and M-theory
+
+Discussion of lifts of [[gauged supergravity|gauged]] 4d supergravity to [[string theory]]/[[M-theory]] includes
+
+* Walter H. Baron, _Uplifting Maximal Gauged Supergravities_ ([arXiv:1512.05567](http://arxiv.org/abs/1512.05567))
+
 [[!redirects 4d supergravity]]
 
 [[!redirects N=8 d=4 supergravity]]
