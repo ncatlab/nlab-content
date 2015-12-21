@@ -79,6 +79,8 @@ Thus, "most naturally-occurring" cocomplete categories are in fact total.  Howev
 
 * Any [[presheaf category]] of a [[small category]] is cototal (as well as total). Indeed, any [[Grothendieck topos]] is both cototal and total. 
 
+* Any category admitting a [[topological functor]] to [[Set]] is cototal (as well as total).
+
 * Any [[totally distributive category]] is cototal (as well as total).
 
 * Any [[coreflective subcategory]] of a cototal category is cototal.
