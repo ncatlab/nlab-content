@@ -139,6 +139,8 @@ Moreover,
 
 ## Related concepts
 
+* [[EHP spectral sequence]]
+
 * [[Adams–Novikov spectral sequence]]
 
 ## References
