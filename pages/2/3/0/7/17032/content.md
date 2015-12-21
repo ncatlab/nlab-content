@@ -1,0 +1,11 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Hiroshi_Toda)
+
+## related $n$Lab entries
+
+* [[EHP spectral sequence]]
+
+* [[Toda bracket]]
+
+category: people
