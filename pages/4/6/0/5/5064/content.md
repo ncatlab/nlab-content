@@ -145,7 +145,7 @@ Let $X$ be a [[Riemann surface]].
 
 ## Properties
 
-### Euler-Lagrane equations of motion
+### Euler-Lagrange equations of motion
 
 The [[equations of motion]] are
 
