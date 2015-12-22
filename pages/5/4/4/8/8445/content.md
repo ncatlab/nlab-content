@@ -52,4 +52,6 @@ The quotient module is equivalently the [[quotient object]] of the [[congruence]
 
 * [[quotient group]]
 
+* [[quotient ring]]
+
 [[!redirects  quotient modules]]
