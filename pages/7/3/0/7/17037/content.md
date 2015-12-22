@@ -1,0 +1,15 @@
+
+
+## Idea
+
+The [[quotient]] of a [[ring]] by an ideal.
+
+## Related concepts
+
+* [[quotient group]]
+
+* [[quotient module]]
+
+* [[completion of a ring]]
+
+[[!redirects quotient rings]]
