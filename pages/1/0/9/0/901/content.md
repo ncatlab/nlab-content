@@ -161,6 +161,7 @@ $$
 
     * The category [[Ab]] of [[abelian group]]s is the ind-category of the category of finitely generated abelian groups.
 
+* A [[formal scheme]] is an ind-object in [[schemes]].
 
 ## Properties 
 
