@@ -156,6 +156,9 @@ See also
 
 * [[Takeshi Torii]], _On Degeneration of One-Dimensional Formal Group Laws and Applications to Stable Homotopy Theory_,  American Journal of Mathematics Vol. 125, No. 5 (Oct., 2003), pp. 1037-1077 ([JSTOR](http://www.jstor.org/stable/25099207))
 
+* [[Stefan Schwede]], _Formal groups and stable homotopy of commutative rings_, Geom. Topol. 8 (2004) 335-412 ([arXiv:math/0402372](http://arxiv.org/abs/math/0402372))
+
+
 [[!redirects formal groups]]
 
 [[!redirects formal group scheme]]
