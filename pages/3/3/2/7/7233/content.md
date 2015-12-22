@@ -355,6 +355,7 @@ That orientability and spinnability is necessary follows directly from the fact 
 
 The canonical [[Riemannian metric]] $G_2$ manifold is [[Ricci tensor|Ricci flat]]. More generally a manifold of weak $G_2$-holonomy, def. \ref{WeakG2Holonomy}, with weakness parameter $\lambda$ is an [[Einstein manifold]] with [[cosmological constant]] $\lambda$. 
 
+
 ## Applications
 
 ### In supergravity 
