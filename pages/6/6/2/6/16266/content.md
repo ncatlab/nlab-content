@@ -1,3 +1,6 @@
+[[!redirects distributivity of products and colimits]]
+[[!redirects distributivity of products and colimits]]
+[[!redirects distributivity of products and colimits]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -41,7 +44,7 @@ See Corollary&#160;3.21 in&#160;[ARV](#ARV).
 
 In any [[algebraically exact category]], in particular,
 in any [[variety]], sifted colimits distribute over small limits,
-i.e., the functor $colim:&#160;Sind(C)\to C$ is continuous,
+i.e., the functor $colim: Sind(C)\to C$ is continuous,
 see Theorem&#160;3.11.(3) in [ALRalg](#ALRalg).
 
 ## In locally finitely presentable categories
