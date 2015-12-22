@@ -198,3 +198,8 @@ See also at _[[equivariant stable cohomotopy]]_
 * [[complex Hopf fibration]]
 
 * [[octonionic Hopf fibration]]
+
+## References
+
+* {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
+
