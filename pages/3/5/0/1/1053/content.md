@@ -276,8 +276,8 @@ This is a little complicated, but it\'s important in order to be able to disting
 
 The binary operators show how to combine two games into a larger game:
 
-*  In $A \& B$, is is their turn, and they must choose to play either $A$ or $B$.  Once they make their choice, play continues in the chosen game, with ending and winning conditions as in that game.
-*  Dually, in $A \oplus B$, is is our turn, and we must choose to play either $A$ or $B$.  Once we make our choice, play continues in the chosen game, with ending and winning conditions as in that game.
+*  In $A \& B$, it is their turn, and they must choose to play either $A$ or $B$.  Once they make their choice, play continues in the chosen game, with ending and winning conditions as in that game.
+*  Dually, in $A \oplus B$, it is our turn, and we must choose to play either $A$ or $B$.  Once we make our choice, play continues in the chosen game, with ending and winning conditions as in that game.
 *  In $A \otimes B$, play continues with both games in parallel.  If it is our turn in either game, then it is our turn overall; if it is their turn in both games, then it is their turn overall.  If either game ends, then play continues in the other game; if both games end, then the overall game ends.  If we have won both games, then we have won overall; if they have won either game, then they have won overall.
 *  Dually, in $A \parr B$, play continues with both games in parallel.  If it is their turn in either game, then it is their turn overall; if it is our turn in both games, then it is our turn overall.  If either game ends, then play continues in the other game; if both games end, then the overall game ends.  If they have won both games, then they have won overall; if we have won either game, then we have won overall.
 
