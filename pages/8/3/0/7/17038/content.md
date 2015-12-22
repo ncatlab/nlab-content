@@ -1,0 +1,9 @@
+
+
+* [MO page](http://mathoverflow.net/users/36690/mauro-porta)
+
+## Related $n$Lab entries
+
+* [[formal moduli problem]]
+
+category: people
