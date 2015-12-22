@@ -275,15 +275,13 @@ See at _[[M5-brane charge]]_
 
 ### General
 
-The M5 was maybe first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
-
-* {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
-
 The history as of the 1990 is reviewed in 
 
 * {#Duff99} [[Mike Duff]], chapter II of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
+The [[AdS-CFT]]-relation between the [[black brane]] description of the M5 (see [below](#ReferencesAsBlackBrane)) and its [[Green-Schwarz sigma model]] description (see [below](#ReferencesSigmaModelDescription)) is due to
 
+* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 Reviews and general accounts include
 
 * [[Robbert Dijkgraaf]], _The mathematics of fivebranes_ ([pdf](http://arxiv.org/PS_cache/hep-th/pdf/9810/9810157v1.pdf))
@@ -292,8 +290,16 @@ Reviews and general accounts include
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_ (2010)
 
+### Black brane description
+ {#ReferencesAsBlackBrane}
+
+The M5 was maybe first found as a [[black brane]] of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
+
+* {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
+
 
 ### $\sigma$-Model description
+ {#ReferencesSigmaModelDescription}
 
 [[sigma-model|Sigma model]] description of the (single) M5-brane are discussed for [[Green-Schwarz action functional]]-type setups in
 
