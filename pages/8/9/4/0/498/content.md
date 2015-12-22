@@ -33,8 +33,11 @@ Here are a few equivalent ways to phrase the combined condition:
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
 
+## Examples
 
-## Results 
+* For $R$ a local ring, then the [[power series ring]] $R[ [x] ]$ is also a local ring.
+
+## Properties
 
 ### Kaplansky's theorem 
 
