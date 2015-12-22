@@ -27,6 +27,13 @@ For $G$ a [[group]] and $H \hookrightarrow G$ a [[normal subgroup]], the [[quoti
 
 * For $A \hookrightarrow B$ a morphism between [[abelian groups]] the quotient $B/A$ is equivalently the [[cokernel]] of the inclusion.
 
+## Related concepts
+
+* [[quotient module]]
+
+* [[quotient ring]]
+
+
 
 [[!redirects quotient group]]
 [[!redirects quotient groups]]
