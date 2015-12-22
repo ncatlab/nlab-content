@@ -37,6 +37,13 @@ In any [[algebraic category]], i.e., the category of algebras over a small algeb
 Generally speaking, small colimits do not distribute over finite products.
 See Corollary&#160;3.21 in&#160;[ARV](#ARV).
 
+## In algebraically exact categories
+
+In any [[algebraically exact category]], in particular,
+in any [[variety]], sifted colimits distribute over small limits,
+i.e., the functor $colim:&#160;Sind(C)\to C$ is continuous,
+see Theorem&#160;3.11.(3) in [ALRalg](#ALRalg).
+
 ## In locally finitely presentable categories
 
 In any [[locally finitely presentable category]], equivalently the category of algebras
@@ -61,5 +68,7 @@ a distributivity theorem for any sound doctrine&#160;$D$ of limits, see Section&
 * {#ARV} [[Jiří Adámek]], [[Jiří Rosický]], [[Enrico Vitale]], _Algebraic theories.  A categorical introduction to general algebra_ CUP 2011.
 
 * {#ALR} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], _Continuous Categories Revisited_ TAC 11.
+
+* {#ALRalg} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], _How algebraic is algebra_ TAC 8.
 
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], _A classification of accessible categories_ JPAA 175.
