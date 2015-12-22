@@ -44,6 +44,8 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 * [[quotient module]]
 
+* [[quotient ring]]
+
 ([[quotient norm]])
 
 ## Related concepts
