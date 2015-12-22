@@ -21,7 +21,7 @@ On [[super smooth infinity-groupoids]] there is a [[modal operator]] $\stackrel{
 
 This has a [[left adjoint]] $\rightrightarrows$ (which on superalgebras passes to the even-graded sub-algebra) and hence together these form an [[adjoint modality]] which may be thought of as characterizing the [[supergeometry]]. See at _[super smooth infinity-groupoid -- Cohesion](http://ncatlab.org/nlab/show/super+smooth+infinity-groupoid#Cohesion)_. With $\rightrightarrows$ being opposite to $\rightsquigarrow$ thereby, it makes sense to call it the _fermionic modality_.
 
-Notice that the fermionic [[currents]] in [[physics]] (i.e. the [[electron]] density current) are indeed fermionic bilinears, i.e. are indeed in the even subalgebras of the underlying superalgebra.
+Notice that the fermionic [[currents]] in [[physics]] (e.g. the [[electron]] density current) are indeed fermionic bilinears, i.e. are indeed in the even subalgebras of the underlying superalgebra.
 
 $$
   \array{
