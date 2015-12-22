@@ -83,7 +83,7 @@ From the point of view of [[deformation quantization]] of [[Poisson manifolds]],
 
 1. the [[Poisson bracket]] $\{-,-\}$ on $C^\infty(X)$ deforms to the [[commutator]];
 
-2. the pointwise mulitplication on $C^\infty(X)$ deforms into the Jordan algebra structure.
+2. the pointwise multiplication on $C^\infty(X)$ deforms into the Jordan algebra structure.
 
 This perspective on deformation quantization making the role of Jordan algebras explicit is mentioned for instance in ([Bates-Weinstein, p. 80](#BatesWeinstein)).
 
@@ -341,7 +341,7 @@ In short: finite-dimensional formally real Jordan algebras arise fairly naturall
 
 ## Relation to commutative subalgebras
 
-For every associative algebra there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $Am B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
+For every associative algebra there is its [[semilattice of commutative subalgebras]]  $ComSub(A)$. At least for $A, B$ [[von Neumann algebra]]s without type $I_2$ [[von Neumann algebra factor]]-subfactors, the isomorphisms $ComSub(A) \to ComSub(B)$ correspond to isomorphisms between the corresponding Jordan algebras $A_J \to B_J$.
 
 For more details see [[semilattice of commutative subalgebras]].
 
