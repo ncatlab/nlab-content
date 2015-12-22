@@ -160,7 +160,7 @@ See at _[[Bohr topos]]_ for more.
 
 ## Literature
 
-General introductions ans surveys include
+General introductions and surveys include
 
 * Wikipedia, _[Quantum logic](http://en.wikipedia.org/wiki/Quantum_logic)_
 
@@ -172,6 +172,10 @@ General introductions ans surveys include
 
 * P. Pt&#225;k and S. Pulmannov&#225;, _Orthomodular structures as quantum logics_, ser. Fundamental theories of physics. Kluwer Academic Publishers,
 1991.
+
+A bibliography of hundreds of works up to 1992 is
+
+* Mladen Pavi&#269;i&#263;, _Bibliography on quantum logics and related structures_, [pdf](http://www.irb.hr/users/mpavicic/papers-ps-pdf/quantum-logic/1992-int-j-theor-phys-1.pdf).
 
 The original article on quantum logic is
 
