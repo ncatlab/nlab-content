@@ -20,7 +20,7 @@
 
 ## Idea
 
-A _simplicial ring_ is a [[simplicial object]] in the [[category]] [[Ring]] of [[ring]]s.
+A _simplicial ring_ is a [[simplicial object]] in the [[category]] [[Ring]] of [[rings]].
 
 It may be understood conceptually as follows:
 
@@ -32,7 +32,7 @@ It may be understood conceptually as follows:
 
 ## Definition
 
-A **simplicial ring** is a [[simplicial object]] in the [[category]] [[Ring]] of [[ring]]s.
+A **simplicial ring** is a [[simplicial object]] in the [[category]] [[Ring]] of [[rings]].
 
 There is an evident notion of [[(∞,1)-category]] of [[module]]s over a simplicial ring. The corresponding [[bifibration]] $sMod \to sRing$ of modules over simplicial ring is equivalently to the [[tangent (∞,1)-category]] of the [[(∞,1)-category]] of simplicial rings.
 
@@ -92,6 +92,11 @@ An introduction is in chapter 4 of
 See [[model structure on simplicial algebras]] for references on the model structure discussed above.
 
 Some of the above material is taken from <a href="http://mathoverflow.net/questions/45273/what-facts-in-commutative-algebra-fail-miserably-for-simplicial-commutative-rings">this MO entry</a>.
+
+Discussion in the context of [[homotopy theory]], hence for simplicial [[ring spectra]] includes
+
+* {#GoerssHopkins99} [[Paul Goerss]], [[Michael Hopkins]], _Simplicial Structured Ring Spectra_ (1999) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.9216))
+
 
 [[!redirects simplicial rings]]
 [[!redirects simplicial commutative ring]]
