@@ -55,7 +55,7 @@ $$
   a \otimes b = (-1)^{deg(a) deg(b)} b \otimes a
 $$
 
-in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified for instance in the first part of ([Kapranov 13](#Kapranov13)), whose second part is about [[super 2-algebra]]). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$. So the $\mathbb{Z}_2$-grading of superalgebra comes from the [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ in degree 1 and 2:
+in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] is induced from the [[subcategory]] which is the [[abelian 2-group]] of metric graded [[lines]]. This in turn is the [[free construction|free]] [[abelian 2-group]] (groupal [[symmetric monoidal category]]) on a single generator.  (This point of view is amplified in the first part of ([Kapranov 13](#Kapranov13)), whose second part is about [[super 2-algebra]], more details in [Kapranov 15](#Kapranov15)). Generally then super-grading and hence super-algebra arises from the [[truncated object|2-truncation]] (3-[[coskeleton]]) of the free [[abelian ∞-group]] on a single generator, which is the [[sphere spectrum]] $\mathbb{S}$. So the $\mathbb{Z}_2$-grading of superalgebra comes from the [[stable homotopy groups of spheres]] $\pi_n(\mathbb{S})$ in degree 1 and 2:
 
 | $n = $ | $0$ | $1$ | $2$ | $3$ | $4$ | $5$ | $6$ | $7$ | $\cdots$ | 
 |--------|-----|-----|-----|-----|-----|-----|-----|-----|--|
@@ -65,7 +65,7 @@ in the [[symmetric monoidal category]] of $\mathbb{Z}$-[[graded vector spaces]] 
 
 
 
-This suggests (as hinted at in ([Kapranov 13](#Kapranov13))) that in full generality [[higher geometry|higher]] [[supergeometry]] is to be thought of as $\mathbb{S}$-[[graded object|graded]] geometry, hence [[Isbell duality|dually]] as [[higher algebra]] with [[∞-group of units]] [[augmented ∞-group|augmented]] over the [[sphere spectrum]]. 
+This suggests (as indicated in ([Kapranov 13](#Kapranov13), [Kapranov 15](#Kapranov15))) that in full generality [[higher geometry|higher]] [[supergeometry]] is to be thought of as $\mathbb{S}$-[[graded object|graded]] geometry, hence [[Isbell duality|dually]] as [[higher algebra]] with [[∞-group of units]] [[augmented ∞-group|augmented]] over the [[sphere spectrum]]. 
 
 But notice that this is canonically so for every [[E-∞ ring]], see at _[∞-group of units -- Augmented definition](infinity-group+of+units#AugmentedDefinition)_. This would mean: In [[higher geometry]]/[[higher algebra]] supergeometry/superalgebra is intrinsic, canonically given. 
 
@@ -710,7 +710,9 @@ Discussion of superalgebra as induced from free groupal symmetric monoidal categ
 
 * {#Kapranov13} [[Mikhail Kapranov]], _Categorification of supersymmetry and stable homotopy groups of spheres_, talk at _[Algebra, Combinatorics and Representation Theory: in memory of Andrei Zelevinsky (1953-2013)](http://mathserver.neu.edu/~bwebster/ACRT/)_ April 2013 ([abstract pdf](http://mathserver.neu.edu/~bwebster/ACRT/calendar-with-abstracts.pdf),  [video](http://208.52.189.22/zelevinsky/day2/2-kapranov.mov) [mov](Kapranov2Superalgebra.mov))
 
-* {#Kapranov15} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
+* {#Kapranov15} [[Mikhail Kapranov]], _Supergeometry in mathematics and physics_, in [[Gabriel Catren]], [[Mathieu Anel]], (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1512.07042](http://arxiv.org/abs/1512.07042))
+
+* {#Kapranov15b} [[Mikhail Kapranov]], _Super-geometry_, talk at _[New Spaces for Mathematics & Physics](http://ercpqg-espace.sciencesconf.org/program)_, IHP Paris, Oct-Sept 2015 ([video recording](https://www.youtube.com/watch?v=bjsNwKYT8JE))
 
 
 [[!redirects super algebras]]
