@@ -246,6 +246,9 @@ and Topology, ([arXiv:1211.4477](http://arxiv.org/abs/1211.4477))
 
 * [[Scott Wilson]], _A loop group extension of the odd Chern character_ ([arXiv:1311.6393](http://arxiv.org/abs/1311.6393))
 
+Another model is in 
+
+* Alexander Gorokhovsky, [[John Lott]], _A Hilbert bundle description of differential K-theory_ ([arXiv:1512.07185](http://arxiv.org/abs/1512.07185))
 
 ### Relation to index theory
 
