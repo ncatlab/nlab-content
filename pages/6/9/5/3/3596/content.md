@@ -24,9 +24,7 @@
 * table of contents
 {:toc}
 
-> everything is identical with itself ([WdL &#167;863](Science+of+Logic#863))
-
-> no two things are like each other ([WdL &#167;903](Science+of+Logic#903))
+> The first original law of thought ([WdL &#167;875](Science+of+Logic#875)): everything is identical with itself ([WdL &#167;863](Science+of+Logic#863)), no two things are like each other ([WdL &#167;903](Science+of+Logic#903)).
 
 ## Idea
 
