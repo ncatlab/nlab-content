@@ -566,6 +566,10 @@ Discussion in the context of applications to [[continuum mechanics]] is in
 
 * [[William Lawvere]], [[Stephen Schanuel]] (eds.), _[[Categories in Continuum Physics]]_, Lectures given at a Workshop held at SUNY, Buffalo 1982, Lecture Notes in Mathematics 1174, 986  
 
+Expository survey includes
+
+* [[Patrick Iglesias-Zemmour]], _Diffeologies_, talk at _[[New Spaces for Mathematics and Physics]]_, IHP Paris 2015 ([video recording](https://www.youtube.com/watch?v=4sZDmiVOhaA))
+
 
 [[!redirects diffeological space]]
 [[!redirects diffeological spaces]]
