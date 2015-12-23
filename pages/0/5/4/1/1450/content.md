@@ -191,6 +191,10 @@ This is discussed at
 ## References
 {#References}
 
+Introductory survey includes
+
+* [[Anders Kock]], _Synthetic differential geometry - new methods for old spaces_, talk at _[[New Spaces for Mathematics and Physics]]_ IHP Paris, 2015 ([video recording](https://www.youtube.com/watch?v=AXz7xu3WrPE))
+
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
 * [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
