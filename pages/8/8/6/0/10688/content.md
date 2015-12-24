@@ -90,6 +90,38 @@ where $\#$ denotes concatenation and $\wedge$ [[smash product]].  One checks tha
 
 In particular, the restriction to $J_2 X$ factors through $ X\wedge X \to \Omega\Sigma X\wedge X$ as the cofiber of the inclusion $X \to J_2 X$.  In the case $X\simeq \mathbb{S}^n$, the desired cohomology isomorphism is immediate.
 
+### Via pushout/pullback comparisons
+
+Starting with the three-legged cospan $ X \rightrightrightarrows * $, construct the cube of all pushouts
+$$
+ \array{
+   X    &    &              & \to &       &     &    * \\
+    & \searrow &             &   &     & \swarrow \\
+            &       &   *   & \to &   \Sigma X \\
+  \downarrow & & \downarrow &     & \downarrow & & \downarrow \\
+            &    & \Sigma X & \to & \Sigma X \vee \Sigma X \\
+         & \nearrow  & &     &   &       \nwarrow \\
+   *       &      &         & \to &       &      & \Sigma X 
+ } 
+$$
+Construct pullbacks in some pair of parallel squares, and compare them by naturality
+$$
+ \array{
+   \Omega\Sigma X &   &           & \to &           &           & * \\
+        & \searrow &           &     &           & \swarrow \\
+        &   & \Omega((\Omega\Sigma X)\star(\Omega\Sigma X)) & \to & \Sigma X \\
+   \downarrow   &    & \downarrow &     & \downarrow &        & \downarrow \\
+             &       & \Sigma X   & \to & \Sigma X \vee \Sigma X \\
+             & \nearrow &         &     &               & \nwarrow \\
+       *     &          &         & \to &            &          & \Sigma X 
+ } 
+$$
+where $\star$ is [[join|reduced join]]. On the other hand, the natural transformations $ \Sigma\Omega \to 1$ give natural maps, e.g. 
+$$\Omega( ev \circ \tau \circ ev ) : \Omega((\Omega\Sigma X) \star (\Omega\Sigma X)) \to \Omega( X \star X) .$$
+The composite
+$$ \Omega \Sigma X \to \Omega((\Omega\Sigma X)\star(\Omega\Sigma X)) \to \Omega(X\star X) $$
+is a candidate $H$.
+
 ## Related concepts
 
 * the [[Freudenthal suspension theorem]] may be obtained from the EHP spectral sequence;
