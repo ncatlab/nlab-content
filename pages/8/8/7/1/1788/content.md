@@ -1,3 +1,17 @@
+$$
+ \array{
+   X & & & \to & & & * \\
+    & \searrow & & & & \swarrow \\
+    &  & * & \to & \Sigma X \\
+  \downarrow & & \downarrow &  & \downarrow & & \downarrow \\
+    & & \Sigma X & \to & \Sigma X \vee \Sigma X \\
+   & \nearrow & & & & \nwarrow \\
+  * & & & \to & & & \Sigma X 
+ } 
+$$
+
+****
+
 **[[generalized (Eilenberg-Steenrod) cohomology theory|generalized]] [[differential cohomology theories]]**
 
 are [[smooth spectra]]
