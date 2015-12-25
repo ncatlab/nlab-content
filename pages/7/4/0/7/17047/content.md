@@ -1,0 +1,15 @@
+## Idea
+
+_Inductive families_ are a generalization of inductive types. A key example is the inductively defined identity type. 
+
+## Semantics
+[[W-types]] can be interpreted in any topos with NNO (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
+
+## Higher categorical version/ homotopy type theory
+[Sattler](#Sattler) claims to have a generalization to higher categories/[[homotopy type theory]].
+
+## References {#References} 
+* {#AGHMM}Thorsten Altenkirch, Neil Ghani, Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ [PDF](http://strictlypositive.org/indexed-containers.pdf)
+* Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
+* Nicola Gambino and Martin Hyland, Wellfounded Trees and Dependent Polynomial Functors. [PDF](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/gambino-hyland.pdf)
+* {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
