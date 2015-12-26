@@ -15,7 +15,7 @@
 
 ## Definition
 
-If $C$ and $D$ are monoidal categories, an **oplax monoidal functor** $F : C \to D$ is defined to be a [[lax monoidal functor]] $F: C^{op} \to D^{op}$.  So, among other things, tensor products are preseved up to morphisms of the following sort in $D$:
+If $C$ and $D$ are monoidal categories, an **oplax monoidal functor** $F : C \to D$ is defined to be a [[lax monoidal functor]] $F: C^{op} \to D^{op}$.  So, among other things, tensor products are preserved up to morphisms of the following sort in $D$:
 
 $$\Delta_{c,c'} : F(c \otimes c') \to F(c) \otimes F(c')$$
 
