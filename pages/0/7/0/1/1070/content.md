@@ -63,7 +63,7 @@ Derived categories were introduced by [[Jean-Louis Verdier]] in his thesis under
 Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ its 
 [[category of chain complexes]] modulo [[chain homotopy]] (the "[[homotopy category of chain complexes]]"). 
 
-Equip $K(C)$ with the structure of a [[homotopical category]]
+Equip $K(\mathcal{A})$ with the structure of a [[homotopical category]]
 by declaring the [[weak equivalences]] to be the
 **quasi-isomorphisms**: those morphisms
 $f : V \to W$
