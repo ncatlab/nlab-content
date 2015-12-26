@@ -1,15 +1,26 @@
 ## Idea
 
-_Inductive families_ are a generalization of [[inductive types]]. A key example is the inductively defined [[identity type]]. 
+_Inductive families_ are a generalization of [[inductive types]]. Instead of defining a single type inductively, one defines a whole family of them. A key example is the inductively defined [[identity type]], where one defines for each two elements the type of their equality proofs. 
+Another example is the family of finite types, indexed by the natural numbers.
+
+## History
+Inductive families were defined in [Dybjer](#Dybjer) and simultaneously studied by [Coquand and Paulin](#CoquandPaulin).
+[Dybjer and Setzer](#DybjerSetzer) distinguish two kinds of inductive families, _restricted_ and _general_ ones. The identity type as an example of the latter, but not of the former.
+
+[[Lean]] implements the reduction of (general) inductive families to recursors.
 
 ## Semantics
-[[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
+Standard inductive types, [[W-types]] can be interpreted in any topos with [[natural numbers object]] (Moerdijk-Palmgren). Gambino and Hyland construct initial algebras for dependent [[polynomial functors]]. Indexed containers are the same as indexed polynomial functors [indexed containers](#AGHMM).
 
 ## Higher categorical version/ homotopy type theory
 [Sattler](#Sattler) claims to have a generalization to higher categories/[[homotopy type theory]].
 
 ## References {#References} 
+* {#Dybjer}Peter Dybjer, _Inductive Families_ [PS](http://www.cse.chalmers.se/~peterd/papers/Inductive_Families.ps)
+* {#CoquandPaulin}Thierry Coquand, Christine Paulin, _Inductively defined types_, [link](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
 * {#AGHMM}Thorsten Altenkirch, Neil Ghani, Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ [PDF](http://strictlypositive.org/indexed-containers.pdf)
-* Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
+* {#DybjerSetzer} Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
 * Nicola Gambino and Martin Hyland, Wellfounded Trees and Dependent Polynomial Functors. [PDF](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/gambino-hyland.pdf)
 * {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
+
+[[!redirects inductive families]]
