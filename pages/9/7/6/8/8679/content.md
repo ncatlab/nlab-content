@@ -32,15 +32,11 @@ See for instance the introduction of ([Kirillov-Balsam 10](#KirillovBalson10)) f
 
 ## Properties
 
-### As a boundary of the Crane-Yetter model
-
-The Turaev-Viro model is a [[boundary field theory]] of the [[4d TQFT]] [[Crane-Yetter model]] ([Barrett&Garci-Islas&Martins 04, theorem 2](#BarrettGarciIslasMartins04)) Related discussion is in [[Freed]] "[[4-3-2 8-7-6]]".
-
 ### As an extended TQFT
 
 The Turaev-Viro model has been constructed as a 3-2-1 [[extended TQFT]] in ([Kirillov-Balsam 10](#KirillovBalsam10), [Balsam 10a](#Balsam10a), [Balsam 10b](#Balsam10b)).
 
-Related but differnt is the construction of fully extended [[3d TQFT]] from [[fusion categories]] via the [[cobordism theorem]], see at _[fusion category -- Relation to extended 3d TQFT](fusion%20category#RelationtoTQFT)_ for more on this.
+Related but different is the construction of fully extended [[3d TQFT]] from [[fusion categories]] via the [[cobordism theorem]], see at _[fusion category -- Relation to extended 3d TQFT](fusion%20category#RelationtoTQFT)_ for more on this.
 
 
 ## References
@@ -63,10 +59,6 @@ In
 
 it was shown that this construction proceeds from any [[spherical category|spherical]] [[fusion category]].
 
-Relation to the [[Crane-Yetter model]] was discussed in
-
-* {#BarrettGarciIslasMartins04} [[John Barrett]], J. Garcia-Islas, [[João Faria Martins]], _Observables in the Turaev-Viro and Crane-Yetter models_, J. Math. Phys. 48:093508, 2007 ([arXiv:math/0411281](http://arxiv.org/abs/math/0411281))
-  
 
 
 Refinement of the construction to an [[extended TQFT]] is in 
