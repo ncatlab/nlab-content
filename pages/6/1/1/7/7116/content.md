@@ -44,7 +44,7 @@ to the [[real numbers]] such that for all $x, y \in k$
 4. ${\vert x + y\vert} \leq {\vert x \vert} + {\vert y \vert}$ (the [[triangle inequality]]).
 
 
-If the last trinagle inequality is strengthened to
+If the last triangle inequality is strengthened to
 
 * ${\vert x + y\vert} \leq max({\vert x \vert}, {\vert y \vert})$ 
 
