@@ -51,3 +51,4 @@ A tutorial for use of Agda as an implementation of [[homotopy type theory]] is a
 * Guillaume Brunerie, _The Agda proof assistant_, slides,  [pdf](http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
 
 category: software
+[[!redirects agda]]
