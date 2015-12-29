@@ -278,7 +278,7 @@ See also
 
 The [[HoTT]]-[[Coq]] code is at
 
-* _[HoTT/HoTT theories/types/Universe.v](https://github.com/HoTT/HoTT/blob/master/theories/types/Universe.v)_
+* _[HoTT/HoTT theories/Types/Universe.v](https://github.com/HoTT/HoTT/blob/master/theories/Types/Universe.v)_
 
 * _[HoTT/HoTT theories/UnivalenceAxiom.v](https://github.com/HoTT/HoTT/blob/master/theories/UnivalenceAxiom.v)_
 
