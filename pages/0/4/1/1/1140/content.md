@@ -143,6 +143,12 @@ The above theorem and earlier corollary show that $U$ and $P$ are inverse equiva
 
 The enveloping algebra of a free Lie algebra $\mathbb{L}(V)$ coincides with the tensor algebra, $T(V)$.  It is conilpotent from which one gets $PT(V) = \mathbb{L}(V)$.
 
+###Related concepts
+
+* [[Hopf algebra]]
+
+
+
 ##References
 
 The source used for this lexicon was 
