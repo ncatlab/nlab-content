@@ -25,6 +25,17 @@
 
 * [[Pavel Safronov]], [[Dominic Joyce]], _A Lagrangian Neighbourhood Theorem for shifted symplectic derived schemes_ ([arXiv:1506.04024](http://arxiv.org/abs/1506.04024))
 
+Shifted Poisson structures
+
+* [[Damien Calaque]], [[Tony Pantev]], [[Bertrand Toen]], [[Michel Vaquie]], [[Gabriele Vezzosi]], _Shifted Poisson structures and Deformation Quantization_ ([arXiv:1506.03699](http://arxiv.org/abs/1506.03699))
+
+* [[Valerio Melani]], _Poisson bivectors and Poisson brackets on affine derived stacks_ ([arXiv:1409.1863](http://arxiv.org/abs/1409.1863))
+
+* [[J.P. Pridham]], _Shifted Poisson and symplectic structures on derived N-stacks_ ([arXiv:1504.01940](http://arxiv.org/abs/1504.01940))
+
+* [[Pavel Safronov]], _Poisson reduction as a coisotropic intersection_ ([arXiv:1509.08081](http://arxiv.org/abs/1509.08081))
+
+
 
 [[!redirects shifted symplectic structures]]
 [[!redirects derived symplectic geometry]]
