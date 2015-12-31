@@ -255,7 +255,7 @@ Textbook discussion is also in
 
 Reviews include
 
-* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www.math.columbia.edu/~lauda/teaching/rankeya.pdf))
+* Rankey Datta, _An introduction to abelian categories_  (2010) ([pdf](http://www-bcf.usc.edu/~lauda/teaching/rankeya.pdf))
 
 Embedding of abelian categories into [[Ab]] is discussed in
 
