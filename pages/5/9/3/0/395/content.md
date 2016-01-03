@@ -2320,6 +2320,9 @@ Also discussion of the [[derived hom spaces]] in categories of fibrant objects i
 
 Usage of categories of fibrant objects for the [[homotopical structure on C*-algebras]] is in :
 
-* [[Otgonbayar Uuye]], _Homotopy theory for $C^\ast$-algebras_,  Journal of Noncommutative Geometry, ([arxiv:1011.2926](http://arxiv.org/abs/1011.2926)) 
+* [[Otgonbayar Uuye]], _Homotopy theory for $C^\ast$-algebras_,  Journal of Noncommutative Geometry, ([arxiv:1011.2926](http://arxiv.org/abs/1011.2926))
+
+Categories of fibrant objects form a convenient setting for the study of [[homotopy type theory]].
+* Jeremy Avigad, Chris Kapulkin, Peter LeFanu Lumsdaine, _Homotopy limits in type theory_ [1304.0680](http://arxiv.org/abs/1304.0680)
 
 [[!redirects categories of fibrant objects]]
