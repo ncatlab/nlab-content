@@ -1,0 +1,31 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In [[representation theory]] a _norm map_ is a canonical morphism from [[coinvariants]] to [[invariants]] of a given [[action]] which, in suitably well behaved cases is given by [[group averaging]].
+
+## Related concepts
+
+* _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+
+
+## References
+
+* [[Jacob Lurie]], section 6.1.6 of _[[Higher Algebra]]_
+
+[[!redirects norm maps]]
