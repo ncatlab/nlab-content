@@ -2,21 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### $(\infty,1)$-Category theory
+#### Goodwillie calculus
 +--{: .hide}
-[[!include quasi-category theory contents]]
-=--
-#### Higher algebra
-+--{: .hide}
-[[!include higher algebra - contents]]
-=--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### $(\infty,2)$-Topos theory
-+--{: .hide}
-[[!include (infinity,2)-topos theory - contents]]
+[[!include Goodwillie calculus - contents]]
 =--
 =--
 =--
