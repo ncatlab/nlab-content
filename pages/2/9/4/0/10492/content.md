@@ -42,13 +42,13 @@ The notion of [[n-excisive functors]] was introduced in
 
 The [[Taylor tower]] formed by $n$-excisive functors was then studied in
 
-* [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
- {#Goodwillie03}
+* {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+ 
 
-A discussion in the general abstract context of [[(∞,1)-category theory]] is in section 7.1.1 of 
+A discussion in the general abstract context of [[(∞,1)-category theory]] is in  
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
-  {#HigherAlg}
+* {#HigherAlg} [[Jacob Lurie]], section 6.1.1 of _[[Higher Algebra]]_
+  
 
 [[!redirects excisive (∞,1)-functors]]
 
@@ -57,3 +57,5 @@ A discussion in the general abstract context of [[(∞,1)-category theory]] is i
 
 [[!redirects excisive functor]]
 [[!redirects excisive functors]]
+
+
