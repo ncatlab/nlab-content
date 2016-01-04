@@ -25,7 +25,7 @@ Since such morphisms govern the [[sheaf]] property and the operation of [[sheafi
 
 Let $(C,\tau)$ be a [[site]] and $P:C^{\mathrm{op}}\to\mathrm{Set}$ a [[presheaf]] on $C$. Let $S\in \tau(c)$ be a [[cover]]ing [[sieve]] on [[object]] $c\in C$ (in particular a subobject of the [[representable functor|representable]] presheaf $h_c$). 
 
-A __matching family__ for $S$ of elements in $P$ is a rule assigning to each $f:d\to c$ in $S$ an element $x_f$ such that
+A __matching family__ for $S$ of elements in $P$ is a rule assigning to each $f:d\to c$ in $S$ an element $x_f$ of $P(d)$ such that
 for all $g:e\to d$
 $$ P(g)(x_f) = x_{f\circ g}. $$
 Notice that $f\circ g\in S$ because $S$ is a sieve, so that the condition makes sense; furthermore the order of composition and the contravariant nature of $P$ agree. If we view the sieve $S$ as a subobject of the representable $h_c$, then a matching family $(x_f)_{f\in S}$ is precisely a [[natural transformation]] $x:S\to P$, $x: f\mapsto x_f$.
