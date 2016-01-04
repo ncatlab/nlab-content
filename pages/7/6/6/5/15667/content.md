@@ -12,6 +12,10 @@ For groups of gauge transformations which are finite dimensional [[compact Lie g
 (Beware the terminology: the _[[gauge group]]_ is frequently finite-dimensiponal and compact (typically in [[Yang-Mills theory]]) but the group of gauge transformations is typically something like the group of suitable functions from spacetime into the gauge group. Some mathematical texts say "gauge group" for "group of gauge transformations", but this is not what physics texts do and should probably better be avoided.)
 
 
+## Related concepts
+
+* [[norm map]]
+
 ## References
 
 Textbook accounts include
