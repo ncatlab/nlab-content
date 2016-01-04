@@ -27,6 +27,8 @@
 
 In [[type theory]], the paradigm of __propositions as types__ says that a [[propositions]] and [[types]] are essentially the same.  A proposition is identified with the type (collection) of all its [[proofs]], and a type is identified with the proposition that it has a [[term]] (so that each of its terms is in turn a proof of the corresponding proposition).  
 
+> ... to show that a proposition is true in type theory corresponds to exhibiting an element $[$ [[term]] $]$ of the type corresponding to that proposition. We regard the elements of this type as _evidence_ or _witnesses_ that the proposition is true. (They are sometimes even called _proofs_... (from [[Homotopy Type Theory -- Univalent Foundations of Mathematics]], section 1.11)
+
 Not all type theories follow this paradigm; among those that do, [[Martin-Löf type theories]] are the most famous. In its variant as [[homotopy type theory]] the paradigm is also central, but receives some refinements, see at _[Propositions as some types](#PropositionsAsSomeTypes)_
 
 Even when the paradigm is not adopted, however, there is still a close relationship between logical and type-theoretic operations, called the __Curry--Howard isomorphism__ or (if it is not clear in which category this [[isomorphism]] is supposed to exist) the __Curry--Howard correspondence__. Or maybe better ([Harper](#Harper)) the **[[Brouwer-Heyting-Kolmogorov interpretation]]**. This correspondence is most precise and well-developed for [[intuitionistic logic]].
