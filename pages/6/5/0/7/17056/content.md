@@ -1,0 +1,17 @@
+
+**[[Goodwillie calculus]]** -- approximation of [[homotopy theories]] by [[stable homotopy theories]] 
+
+
+* [[excisive (∞,1)-functor]]
+
+  * [[spectrum object]], 
+
+  * [[parameterized spectrum]], [[tangent (∞,1)-category]], [[tangent (∞,1)-topos]]
+
+* [[n-excisive (∞,1)-functor]]
+
+  * [[jet (∞,1)-category]]
+
+* [[Goodwillie-Taylor tower]]
+
+  * [[analytic (∞,1)-functor]]
