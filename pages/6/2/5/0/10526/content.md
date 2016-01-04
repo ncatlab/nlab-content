@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Stable Homotopy theory
+#### Goodwillie calculus
 +--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include Goodwillie calculus - contents]]
 =--
 =--
 =--
@@ -22,7 +22,7 @@ In the context of [[Goodwillie calculus]] the _Taylor tower_ of an [[(∞,1)-fun
 
 ### Convergence
 
-(...) ([Goodwillie 03, theorem 1.13](#Goodwillie03))
+convergence for [[analytic (∞,1)-functors]] (...) ([Goodwillie 03, theorem 1.13](#Goodwillie03))
 
 ## Related concepts
 
