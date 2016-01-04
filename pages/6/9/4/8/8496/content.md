@@ -176,7 +176,7 @@ The connected components of this is equivalently the [[group cohomology]] of $G$
 
 ## Related concepts
 
-* [[group averaging]]
+* [[group averaging]], [[norm map]]
 
 * [[stabilizer subgroup]]
 
