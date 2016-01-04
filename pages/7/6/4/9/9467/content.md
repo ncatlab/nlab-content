@@ -178,7 +178,7 @@ $$    {|f_\infty(x + h) - f_\infty(x)|}
 $$
 is also infinitesimal whenever $n \geq N$ and $h$ is infinitesimal.  Fixing any such $n$, $f_\infty$ is continuous.
 =--
-(To check that these are valid, one must know the nonstandard formulations of uniform convergence and equicontinuity that are used; but they are correct.)
+(To check that these are valid, one must know the nonstandard formulations of uniform convergence and equicontinuity that are used; but they are correct.  Specifically, a sequence $f$ of functions converges uniformly to a function $f_\infty$ iff, for every hyperreal number $x$, the sequence $f(x) = (f_n(x))_n$ of hyperreal numbers converges to the hyperreal number $f_\infty(x)$; and $f$ is equicontinuous at a real number $x$ iff, for every hyperinteger $n$, the hyperfunction $f_n$ is continuous at $x$.)
 
 On the other hand, in the light of nonstandard analysis, we can also reevaluate Cauchy\'s original claim.  Cauchy himself, when confronted with counterexamples such as the Fourier series, denied that the sequence of functions converged everywhere.  One interpretation of this is that it fails to converge at some nonstandard points.  By this analysis, Cauchy\'s notion of convergence everywhere is our modern notion of uniform convergence, not pointwise convergence, and his theorem is true (and his proof correct, even if less detailed than one might like).
 
@@ -190,10 +190,12 @@ In his experimental textbook _[[Proofs and Refutations]]_, [[Imre Lakatos]] used
 According to Lakatos, it is ahistorical to interpret Cauchy\'s 1821 result using either Weierstrass\'s epsilontics or Robinson\'s nonstandard analysis.  Cauchy did not mean that $f_n(x)$ converges (in $n$) for each fixed standard real number $x$, nor that it converges for each fixed hyperreal number $x$; rather, he said that it converges for each *variable* real number.  In particular, when discussing the Fourier series
 $$ \sum_{k = 1}^\infty \frac{\sin(k x)}{k} ,$$
 Cauchy states (in 1853) that the sequence
-$$ \sum_{k = 1}^n \frac{\sin(k x)}{k} $$
-of partial sums fails to converge when $x = 1/n$; that is, $x$ is a variable whose value depends on the position in the sequence!
+\[ \sum_{k = 1}^n \frac{\sin(k x)}{k} \label{FourierPS} \]
+of partial sums fails to converge when $x = 1/n$; that is, $x$ is a variable whose value depends on the position in the sequence!  Such a claim is hard to interpret in an epsilontic framework; but in a nonstandard framework, it simply means that for some particular infinite values of $n$ and infinitesimal values of $x$ (namely those for which $x = 1/n$), this partial sum is not infinitely close to $0$ (which is the value of the partial sum at $x = \lim_n (1/n) = 0$), demonstrating that the sequence is not equicontinuous.
 
-If we (still arguably ahistorically) interpret convergence to mean to that $f_n(x_n)$ converges for every convergent sequence $(x_n)_n$ of real numbers, then this is equivalent (given that each $f_n$ is continuous) to uniform convergence, and Cauchy\'s result would again be true and his argument would be (when formalised with either epsilontics or nonstandard analysis) valid.
+If we (still arguably ahistorically) interpret convergence to mean to that $f_n(x_n)$ converges (in $n$) for every convergent sequence $(x_n)_n$ of real numbers, then this is equivalent (given that each $f_n$ is continuous) to uniform convergence, and Cauchy\'s result would again be true and his argument would be (when formalised with either epsilontics or nonstandard analysis) valid.
+
+On the other hand (and this goes beyond what Lakatos wrote), one way to interpret Cauchy\'s claim that (eq:FourierPS) fails to converge when $x = 1/n$ is, using nonstandard analysis, simply that for any particular infinite value of $n$ and using the infinitesimal value $x = 1/n$, this partial sum is not infinitely close to $0$ (which is the value of the infinite sum at $x = \lim_n (1/n) = 0$).  This suggests interpreting convergence to mean that $f_n(c+h)$ is infinitely close to $f_\infty(c)$ whenever $n$ is infinite and $h$ is infinitesimal (for $c$ real), which again is equivalent (given continuity of $f_n$) to uniform convergence, again justifying Cauchy\'s proof.  However, proving that uniform convergence is equivalent to this is basically the same concept as the nonstandard proof of Theorem \ref{uniform} anyway.
 
 
 ## References
