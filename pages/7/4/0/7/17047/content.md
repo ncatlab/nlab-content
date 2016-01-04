@@ -56,7 +56,8 @@ Standard inductive types, [[W-types]] can be interpreted in any topos with [[nat
 *{#DybjerSetzer2001} Peter Dybjer, Anton Setzer, _Indexed induction-recursion_, 2001
 Proof Theory in Computer Science, 93-113
 * {#Paulin93}Christine Paulin-Mohring, _Inductive definitions in the system Coq rules and properties_, 1993 Typed lambda calculi and applications, 328-345.
-* {#CoquandPaulin}Thierry Coquand, Christine Paulin, _Inductively defined types_, [link](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
+* {#CoquandPaulin}Thierry Coquand, Christine Paulin, _Inductively defined types_, COLOG-88 Volume 417 of the series Lecture Notes in Computer Science pp 50-66 [Springer](http://link.springer.com/chapter/10.1007%2F3-540-52335-9_47)
+[G books](https://books.google.dk/books?id=o_f4UwiZtL0C&pg=PA50)
 * {#AGHMM}Thorsten Altenkirch, Neil Ghani, Peter Hancock, Conor McBride, and Peter Morris, _Indexed containers_ [PDF](http://strictlypositive.org/indexed-containers.pdf)
 * {#DybjerSetzer} Peter Dybjer and Anton Setzer, _Indexed induction-recursion_, Journal of Logic and Algebraic Programming, volume 66, Issue 1, January 2006, Pages 1-49. [PDF](http://www.cse.chalmers.se/~peterd/papers/Indexed_IR.pdf)
 * Nicola Gambino and Martin Hyland, Wellfounded Trees and Dependent Polynomial Functors. [PDF](http://www1.maths.leeds.ac.uk/~pmtng/Research/Papers/gambino-hyland.pdf)
