@@ -60,6 +60,8 @@ constitutes an [[equivalence of groupoids]] between that of $G$-[[principal bund
 
 ## Related concepts
 
+* [[caloron]]
+
 * [[double dimensional reduction]]
 
 ## References
