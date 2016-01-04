@@ -2,12 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Stable Homotopy theory
+#### Goodwillie calculus
 +--{: .hide}
-[[!include stable homotopy theory - contents]]
+[[!include Goodwillie calculus - contents]]
 =--
 =--
 =--
+
 
 #Contents#
 * table of contents
