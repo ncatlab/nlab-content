@@ -141,6 +141,7 @@ Note that the above bicategory contains, as a locally full sub-bicategory, the u
 
 * [[Tambara functor]]
 
+* [[polynomial (infinity,1)-functor]]
 
 ## References
 
