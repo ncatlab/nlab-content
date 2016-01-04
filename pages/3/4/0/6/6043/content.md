@@ -119,6 +119,8 @@ This is a semi-norm on $V$.
 
 * [[quotient norm]]
 
+* in [[representation theory]]: [[norm map]]
+
 [[!include analytic geometry ingredients -- table]]
 
 ## References
