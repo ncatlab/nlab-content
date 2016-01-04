@@ -39,6 +39,8 @@ This is equivalently the [[topological Hochschild homology]] of the sphere spect
 
 * [[Frobenius homomorphisms]]
 
+* [[Tate spectrum]]
+
 ## References
 
 * {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_ ([arXiv:1303.1694](http://arxiv.org/abs/1303.1694))
