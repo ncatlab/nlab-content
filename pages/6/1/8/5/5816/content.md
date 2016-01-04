@@ -89,6 +89,10 @@ The definition is reviewed in
 
 * [[Alex Hoffnung]], _Notes on enrichment_ ([pdf](http://mysite.science.uottawa.ca/hoffnung/notes_files/enrichment_notes.pdf))
 
+and studied further in
+
+* [[Richard Garner]] and [[Mike Shulman]], *Enriched categories as a free cocompletion*, [arXiv](http://arxiv.org/abs/1301.3191)
+
 [[!redirects enriched bicategories]]
 [[!redirects enriched 2-category]]
 [[!redirects pseudo enriched category]]
