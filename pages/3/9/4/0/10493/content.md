@@ -16,6 +16,8 @@
 
 ## Definition
 
+### (Co-)Cartesian cubical diagrams
+
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]].
 
 +-- {: .num_defn #StronglyCoCartesian}
@@ -34,19 +36,23 @@ An $n$-[[cube]] in $\mathcal{D}$, hence an [[(∞,1)-functor]] $\Box^n \longrigh
 
 (e.g. [Lurie, def. 6.1.1.2 with prop. 6.1.1.15](#HigherAlg))
 
+### $n$-Excisive functors
+
 +-- {: .num_defn}
 ###### Definition
 
 An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is **$n$-excisive** for $n \in \mathbb{N}$ (or _polynomial_ of degree at most $n$) if whenever $X$ is a strongly cocartesian $(n + 1)$-[[cube]] in $\mathcal{C}$, def. \ref{StronglyCoCartesian}, then $F(X)$ is a cartesian cube in $\mathcal{D}$, def. \ref{Cartesian}. 
  
-A 1-excisive (∞,1)-functor is called just _[[excisive (∞,1)-functor|excisive]]_ for short.
+A 1-excisive (∞,1)-functor is often just called _[[excisive (∞,1)-functor]]_ for short.
+
+An $(\infty,1)$-functor which is $n$-excisive for some $n \in \mathbb{N}$ is also called a _[[polynomial (∞,1)-functor]]_.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-This notion is comparable to how a [[polynomial]] of degree at most $n$ is determined by its values on $n + 1$ distinct points. This comparison is developed by the concept of a [[polynomial (∞,1)-functor]].
+This notion is comparable to how a [[polynomial]] of degree at most $n$ is determined by its values on $n + 1$ distinct points. 
 
 =--
 
@@ -181,6 +187,8 @@ see ([Lurie, def. 1.4.2.8 and around p. 823](#HigherAlg))
 * [[Goodwillie calculus]]
 
   * [[Goodwillie-Taylor tower]]
+
+  * [[analytic (∞,1)-functor]]
 
 * [[polynomial (∞,1)-functor]]
 
