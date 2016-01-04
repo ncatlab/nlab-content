@@ -65,6 +65,7 @@ A function from $D \subseteq \mathbb{C}$ to $W$ is [[differentiable function|dif
 
 * [[smooth function]]
 
+* [[analytic (∞,1)-functor]]
 
 ## References
 
