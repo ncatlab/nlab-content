@@ -27,6 +27,35 @@ Equivalently: if all its object are [[hypercomplete objects]].
 
 ## Properties
 
++-- {: .num_prop}
+###### Proposition
+
+All [[geometric morphisms]] $X \to Y$ out of a hypercomplete $(\infty,1)$-topos $X$ factor through the hypercompletion $\hat Y$ of $Y$:
+
+the inclusion $\hat Y \hookrightarrow Y$ induces an equivalence
+
+$$
+  Geom(X,\hat Y) \stackrel{\simeq}{\to}
+  Geom(X,Y)
+  \,.
+$$
+
+=--
+
+This is [[Higher Topos Theory|HTT, prop. 6.5.2.13]].
+
++-- {: .num_prop}
+###### Proposition
+
+Every [[(∞,1)-topos]] which is [[homotopy dimension|locally of homotopy dimension]] $\leq n$ for some finite $n\geq -1$ is hypercomplete.
+
+=--
+
+See the discussion at [[homotopy dimension]] for details and further implications.
+
+
+## Examples
+
 ### Hypercompletions
 
 Every [[(∞,1)-topos]] has a [[hypercompletion]], given by the full [[reflective sub-(∞,1)-category]] spanned by its [[hypercomplete objects]].
@@ -83,31 +112,11 @@ So in an $(\infty,1)$-topos with enough points all $\infty$-connected morphisms 
 
 =--
 
-+-- {: .num_lemma}
-###### Observation
+## Non-examples
 
-All [[geometric morphism]]s $X \to Y$ out of a hypercomplete $(\infty,1)$-topos $X$ factor through the hypercompletion $\hat Y$ of $Y$:
+### Goodwillie $n$-jet toposes
 
-the inclusion $\hat Y \hookrightarrow Y$ induces an equivalence
-
-$$
-  Geom(X,\hat Y) \stackrel{\simeq}{\to}
-  Geom(X,Y)
-  \,.
-$$
-
-=--
-
-This is [[Higher Topos Theory|HTT, prop. 6.5.2.13]].
-
-+-- {: .num_prop}
-###### Proposition
-
-Every [[(∞,1)-topos]] which is [[homotopy dimension|locally of homotopy dimension]] $\leq n$ for some finite $n\geq -1$ is hypercomplete.
-
-=--
-
-See the discussion at [[homotopy dimension]] for details and further implications.
+For $n \gt 1$ the [[Goodwillie n-jet (∞,1)-toposes]] are generically far from being hypercomplete.
 
 
 ## Models
