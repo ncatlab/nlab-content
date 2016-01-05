@@ -41,7 +41,7 @@ An $n$-[[cube]] in $\mathcal{D}$, hence an [[(∞,1)-functor]] $\Box^n \longrigh
 
 ### Analytic functors
 
-+-- {: .num_defn }
++-- {: .num_defn #rhoAnalyticFunctor}
 ###### Definition
 
 An  [[(∞,1)-functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is _stably $n$-excisive_ with constants $c$ and $\kappa$_ -- or _satisfies "condition $E_n(c,\kappa)$"_ -- if for every strongly co-Cartesian $(n)+1$-cube $X$ in $\mathcal{C}$, def. \ref{StronglyCoCartesian}, such that $X(\emptyset) \to X(s)$ is $k_s$-[[n-connected object of an (infinity,1)-topos|connective]] for $k_s \geq \kappa$ for all $s\in \{1,\cdots, n+1\}$, then  $F(X)$ is an $(n+1)$-cube in $\mathcal{D}$ such that the comparison map
@@ -58,19 +58,19 @@ The functor $F$ is called _$\rho$-analytic_ if there is $q$ such that it satisfi
 
 (e.g. [Johnson 95, def. 1.1, def. 1.3](#Johnson95))
 
-+-- {: .num_remark }
-###### Remark
-
-
-There is clearly some relation to the situation of the [[Blakers-Massey theorem]].
-
-=--
 
 ## Properties
 
 ### Convergence of the Goodwillie-Taylor tower
 
 For analytic functors their [[Goodwillie-Taylor tower]] converges to them. See there.
+
+## Examples
+
+### The identity functor on homotopy types
+
+The identity $(\infty,1)$-functor on [[∞Grpd]] is 1-analytic, def. \ref{rhoAnalyticFunctor}. For $n = 2$ this is the statement of the [[Blakers-Massey theorem]], for $n \gt 2$ this is the statment of the [higher cubical BM-theorems](Blakers-Massey+theorem#HigherCubical).
+
 
 
 ## Related concepts
@@ -88,6 +88,11 @@ Review includes
 * [[Tom Goodwillie]], section 3 of _The differential calculus of homotopy functors_ ([pdf](http://math.mit.edu/~nrozen/juvitop/goodwillie-icm.pdf))
 
 * {#Johnson95} Brenda Johnson, _The derivatives of homotopy theory_, Transactions of the AMS, Volume 347, 1995 ([pdf](http://www.ams.org/journals/tran/1995-347-04/S0002-9947-1995-1297532-6/S0002-9947-1995-1297532-6.pdf))
+
+A textbook account is in 
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
+
 
 [[!redirects analytic (∞,1)-functors]]
 
