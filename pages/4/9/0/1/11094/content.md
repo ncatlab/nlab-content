@@ -64,4 +64,6 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 
 * [[p-local homotopy type]], [[p-complete homotopy type]], [[rational homotopy type]]
 
+* [[(infinity,1)-presheaves]] on $\infty Grpd_{fin}^{op}$ form the [[classifying (infinity,1)-topos]] for objects.
+
 [[!redirects finite homotopy types]]
