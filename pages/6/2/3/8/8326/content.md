@@ -149,7 +149,7 @@ All this appears below in three stages,
 ##### Concept
  {#ConceptFormalization}
 
-[[nLab:homotopy type theory|Homotopy type theory]] as such ([UFP 13](#UFP13)) is a logic of [[nLab:types]], of (mathematical) concepts ([Martin-L&#246;f 73, 1.1](#MartinLoef73), [Ladyman&Presnel 14](#LadymanPresnel14)). (References which recall that the modern "type" is a contraction of "type of mathematical concepts" include for instance also  ([Sale 77, p. 6](#Sale77)). 
+[[nLab:homotopy type theory|Homotopy type theory]] as such ([UFP 13](#UFP13)) is a logic of [[nLab:types]], of (mathematical) concepts ([Martin-L&#246;f 73, 1.1](#MartinLoef73), [Martin-L&#246;f 90, p.1](#MartinLoef90), [Ladyman&Presnel 14](#LadymanPresnel14)). (References which recall that the modern "type" is a contraction of "type of mathematical concepts" include for instance also  ([Sale 77, p. 6](#Sale77)). 
 
 With the [[nLab:univalence axiom]] for [[homotopytypetheory:universe|weakly Tarskian]] [[nLab:type universes]] included -- which says that this essence appears properly reflected within itself -- then its [[nLab:interpretation]] via [[nLab:categorical semantics]] is in [[nLab:elementary (infinity,1)-topos|elementary]] [[nLab:(infinity,1)-toposes|homotopy toposes]] ([Shulman 12a](#Shulman12a), [Shulman 12b](#Shulman12b), [Shulman 14](#Shulman14)). These are the _[[nLab:models]]_ of homotopy type theory. Conversely, homotopy type theory is the [[nLab:internal language]] of [[nLab:(infinity,1)-toposes|homotopy toposes]], hence the latter are its "externalization". This way homotopy type theory overlaps much with (higher) _[[nLab:categorical logic]]_. See at _[[nLab:relation between type theory and category theory]]_ for more background on this.
 
@@ -3360,7 +3360,7 @@ Our **paragraph numbering** is as follows:
 | Hegel's logic |  [[modal type theory|modal]] [[homotopy type theory]] |  |
 |-----|------|---|
 | **subjektive Begriffslogik** | **[[type theory]]/[[natural deduction]]** | [&#167;1280](#1280), [Law94b](#Lawvere94b) |
-| Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
+| Begriff, concept, notion | [[type]] | [&#167;1280](#1280), [MaL&#246;73](#MartinLoef73), [MaL&#246;90](#MartinLoef90) [Sale 77](#Sale77), [Se94](#Sergeraert94) [LaPr14](#LadymanPresnel14) |
 | Urteil | [[judgement]] | [MaL&#246;96](#MartinLoef96) |
 | Schluss (syllogism) | [[cut elimination]], [[natural deduction]] | [Ge35](#Gentzen35), [RMR 94, 2.3](#PalmeReyesMacnamaraReyes94) |
 | Grund (unvermittelt) | [[antecedent]] | [&#167;1021](#1021) |
@@ -3406,13 +3406,14 @@ Our **paragraph numbering** is as follows:
 | Schein |  [[type universe]]/[[object classifier]] | [&#167;833](#833), [&#167;818](#818)  |
 | das Aeussere | the ambient category of being $\mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
 | das Innere | the internal [[type universe]] $Type \in \mathbf{H}$ | [&#167;1149](#1149), [&#167;1163b](#1163b) |
-| das Absolute, absolute Wirklichkeit | [[univalence]], unity of inner and outer type universe $(A \stackrel{\simeq}{\to} B)\simeq (A = B)$ | [&#167;1149](#1149), [&#167;1159](#1159), [&#167;1163c](#1163c), [&#167;1187](#1187) |
+| das wesentlich Verh&#228;ltnis | comparison map between inner and outer type universe $(A = B) \to (A \stackrel{\simeq}{\to} B)$ | [&#167;1158](#1158d) |
+| das Absolute, absolute Wirklichkeit | [[univalence]], unity of inner and outer type universe $(A = B) \stackrel{\simeq}{\to} (A \stackrel{\simeq}{\to} B)$ | [&#167;1149](#1149), [&#167;1159](#1159), [&#167;1163c](#1163c), [&#167;1187](#1187) |
 | Ding | [[object]] of the [[category]] | [&#167;1065a](#1065a) |
 | M&#246;glichkeit, possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge_W = W^\ast \sum_W$ = [[dependent sum]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
 | Notwendigkeit, necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box = W^\ast \prod_W$ = [[dependent product]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
 | Zuf&#228;lligkeit, randomness, contingency | [[function monad]] $\prod_W W^\ast$ = [[context extension]] followed by [[dependent product]] | [&#167;1191](#1191) etc., [TorMcCar10a](function+monad#TorontoMcCarthy10a), [TorMcCar10b](function+monad#TorontoMcCarthy10b), [Ver14](function+monad#Verdier14) |
 | eigentliche Wirklichkeit, unity of [[possibility]] and [[necessity]] | [[adjoint pair]] of (co-)[[monads]] $(\lozenge \dashv \Box)$, hence [[locally cartesian closed category|local cartesian closure]] | [&#167;1160](#1160) (with [&#167;1159](#1159)), [&#167;1190](#1190), [&#167;1192](#1192) |
-| [[first law of thougth]]: everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
+| [[first law of thought]]: everything is identical with itself | [[term introduction]] for [[identity types]] | [&#167;863](#863), [&#167;875](#875) |
 | all things are different | [[intensional identity]] | [&#167;903](#903) |
 | absoluter Widerspruch / absolute contradiction  |  [[adjoint modality]] ([[false]] $\dashv$ [[true]]) = ($\emptyset \dashv \ast$) | [&#167;931](#931)  [&#167;934](#934) |
 | Aufhebung des Widerspruchs | [Aufhebung of absolute contradiction via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv& \sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;943](#943), [&#167;944](#944), [&#167;945](#945) |
@@ -3432,7 +3433,7 @@ Our **paragraph numbering** is as follows:
 | Idee       | the [[term model]] of the above [[modal type theory]], in particular the [[true]] [[propositions]]  | [&#167;1630b](#1630b), [&#167;1631](#1631), [&#167;1633](#1633), [&#167;1634](#1634)  |
 | **Natur**      | [[model]] (representation, [[categorical semantics]]) of the above [[modal type theory]] | [PN&#167;192](#PN192), [PN&#167;193b](#PN193b), [EL&#167;244](#EL244), [&#167;1782](#1782), [&#167;1817](#1817)  |
 | Raum       | [[étale stacks]], being the models of [[infinitesimal shape modality|infinitesimal shape]] $\Im$-[[modal types]] | [PN&#167;254a](#PN254a) |
-| Raum-Zeit  | [[schreiber:The brane bouquet|brane bouqte]] | [PN&#167;256b](#PN256b) |
+| Raum-Zeit  | [[schreiber:The brane bouquet|brane bouguet]] | [PN&#167;256b](#PN256b) |
 | Licht | [[bosonic modality]] $\rightsquigarrow$ | [PN&#167;276](#PN276) |
 | K&#246;rper der Starrheit | [[fermionic modality]] $\e$ | [PN&#167;279](#PN279) |
 | Au&#223;ereinander der Materie | [[unity of opposites]] ($\e \dashv \rightsquigarrow$)   | [PN&#167;290](#PN290)  |
@@ -3531,7 +3532,8 @@ $$
     \\
     &&
     \\
-    &&  && && && (A \stackrel{\simeq}{\to} B) & \stackrel{abs.\,Wirklichkeit}{\simeq} & ('A' = 'B') & 
+    &&  && && && (A \stackrel{\simeq}{\to} B) & 
+     \stackrel{\stackrel{abs.\,Wirklichkeit}{\simeq}}{\underset{wes.\,Verhaeltnis}{\longleftarrow}} & ('A' = 'B') & 
     \\
     &&  && && &\stackrel{das\;Aeussere}{}& \mathbf{H} &  & Type & \stackrel{das\;Innere}{}
     \\
@@ -4960,6 +4962,7 @@ $$
 and since quantity and quality are already themselves unities of opposites, we find that Ma&#223; (Eichma&#223;) is the second-order adjunction
 
 
+
 $$
 
   \array{
@@ -5924,6 +5927,19 @@ Their unity hence must be [[univalence]]. See also ([&#167;1159](1159), [&#167;1
 > {#1158} &#167;1158 Die Wirklichkeit ist die Einheit des Wesens und der Existenz;
 
 > &#167;1158 Actuality is the unity of essence and Existence
+
+> {#1158b} &#167;1158b in it, formless essence and unstable Appearance, or mere subsistence devoid of all determination and unstable manifoldness, have their truth.
+
+> {#1158c} &#167;1158c Existence is, indeed, the immediacy which has proceeded from ground, but form is not as yet posited in it. In determining and forming itself it is Appearance; and when this subsistence which is determined only as reflection-into-an-other is developed further into reflection-into-self, it becomes two worlds, two totalities of the content, one of which is determined as reflected into itself, the other as reflected into an other. 
+
+>  {#1158d} &#167;1158d Das wesentliche Verh&#228;ltnis aber stellt ihre Formbeziehung dar, deren Vollendung das Verh&#228;ltnis des Inneren und &#196;u&#223;eren ist
+
+> &#167;1158d But the essential relation exhibits their form relation, the consummation of which is the relation of inner and outer in which the content of both is only one identical substrate and equally only one identity of form. 
+
+Relation between inner and outer: comparison map $(A \stackrel{\simeq}{\to}B) \to (A = B)$.
+
+
+> {#1158e} &#167;1158e By virtue of the fact that this identity is now also identity of form, the form determination of their difference is sublated, and it is posited that they are one absolute totality.
 
 > {#1159} &#167;1159 Diese Einheit des Innern und &#196;u&#223;ern ist die absolute Wirklichkeit. Diese Wirklichkeit aber ist zun&#228;chst das Absolute als solches;
 
@@ -7149,6 +7165,7 @@ Texts amplifying the [[hermeticism]], [[gnosticism]] and [[mysticism]] of Hegel'
 
 
 
+
 Comments on the similarity of Hegel's physics to aspects of [[general relativity]] are in
 
 * {#Wandschneider82} [[Dieter Wandschneider]], _Raum, Zeit, Relativit&#228;t_, 1982 [web](http://www.klostermann.de/Wandschneider-Raum-Zeit-Relativitaet)
@@ -7211,11 +7228,17 @@ The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_ or 
 
 * {#MartinLoef73} [[Per Martin-Löf]], _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
 
-
 where it says in section 1.1:
 
-
 > Every mathematical object is of a certain type [...] a type is well defined if we understand (or _grasp_ to use a word favoured by Kreisel 1970) what it means to be an object of that type.
+
+and 
+
+* {#MartinLoef90} [[Per Martin-Löf]], _A path from logic to metaphysics_, talk at _Nuovi problemi della logica e della filosofia della scienza_, Jan 1990 ([pdf](https://github.com/michaelt/martin-lof/raw/master/pdfs/A-path-from-logic-to-metaphysics-1991.pdf))
+
+where it says on p. 1 (to be read with [[propositions as types]] in mind):
+
+> ...by saying that a concept has existence, I mean that there exists an object which falls under the concept. So to say that a proposition is true is the same as to say that the concept 'proof of the proposition' has existence...
 
 The explicit statement "a type is a concept"  appears for instance (referring both to types of mathematical objects as well as to [[data types]] in [[computer science]]) in:
 
