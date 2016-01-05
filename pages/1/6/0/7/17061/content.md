@@ -1,0 +1,8 @@
+
+* [webpage](https://wwwmath.uni-muenster.de/u/eldred/)
+
+## related $n$Lab entries 
+
+* [[orthogonal calculus]]
+
+category: people
