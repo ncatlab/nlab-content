@@ -150,13 +150,19 @@ There is a version in model theory, [[Makkai duality]],
 
 * [[M. Makkai]], _Stone duality for first-order logic_, Adv. Math. __65__ (1987) no. 2, 97--170, <a href="http://dx.doi.org/10.1016/0001-8708(87)90020-X">doi</a>, [MR89h:03067](http://www.ams.org/mathscinet-getitem?mr=900266); _Duality and definability in first order logic_, Mem. Amer. Math. Soc. __105__ (1993), no. 503
 
-Another variant is in
+Other variants are in
 
 * Henrik Forssell, _First-order logical duality_, Ph.D. thesis, Carnegie Mellon U. 2008, [pdf](http://www.andrew.cmu.edu/user/awodey/students/forssell.pdf)
+
+* Spencer Breiner, _Scheme representation for first-order logic_, Ph.D. thesis, Carnegie Mellon U. 2014, [pdf](https://www.andrew.cmu.edu/user/awodey/students/breiner.pdf)
 
 Discussion in [[E-∞ geometry]] is in
 
 * [[Jacob Lurie]], section A of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_
+
+Discussion of an $(\infty, 1)$-version of Stone duality is in 
+
+* [[Jacob Lurie]], section 3.5.3 of [[Spectral Algebraic Geometry]]
 
 [[!redirects Stone duality]]
 [[!redirects Stone dualities]]
