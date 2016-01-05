@@ -316,12 +316,16 @@ Surveys and introductions include
 
 * [[Brian Munson]], _Introduction to the manifold calculus of Goodwillie-Weiss_ ([arXiv:1005.1698](http://uk.arxiv.org/abs/1005.1698))
 
+
 * Nicholas J. Kuhn, _Goodwillie towers and chromatic homotopy: an overview_,   Proceedings of the Nishida Fest (Kinosaki 2003),  245--279, Geom. Topol. Monogr., 10, Geom. Topol. Publ., Coventry, 2007.
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
 
 
 * [Functor Calculus and Operads](http://www.birs.ca/events/2011/5-day-workshops/11w5058)
 
 * 2012 Talbot Workshop ([Talk schedule](http://math.mit.edu/conferences/talbot/2012/2012TalbotTalks.pdf), [Notes](http://math.mit.edu/conferences/talbot/index.php?year=2012&sub=talks))
+
 
 
 Original articles include
