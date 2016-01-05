@@ -101,9 +101,9 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
+* [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_
 
-* [[Peter Johnstone]], _[[Stone Spaces]]_.
+* [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
 * [[S. Marde?i?]], J. Segal, _Shape theory_, North Holland 1982
 
