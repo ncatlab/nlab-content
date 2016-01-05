@@ -62,7 +62,7 @@ $$CH(-, \mathbf{2}): CH^{op} \to BoolAlg$$
 
 A _[[Stone space]]_ is by definition a [[totally disconnected topological space|totally disconnected]] [[compact topological space|compact]] [[Hausdorff topological space]]. Let $Stone \hookrightarrow CH$ denote the [[full subcategory]] of Stone spaces. 
 
-+-- {: .num_thm}
++-- {: .num_theorem}
 ###### Theorem (Stone representation)
 
 The representable functor restricts to an [[equivalence of categories]] $Stone^{op} \to BoolAlg$. 
@@ -135,17 +135,16 @@ The corresponding fact is also notably false for [[groupoids]], i.e. $Gpd(Stone)
 
 ## References
 
-The book
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_ 
 
-is all about Stone duality.
-
-* Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
+* [[Olivia Caramello]], _A topos-theoretic approach to Stone-type dualities_, [arxiv/1103.3493](http://arxiv.org/abs/1103.3493) 158 pp.
 
 * G. D. Dimov, Some generalizations of the Stone Duality Theorem, Publ. Math. Debrecen 80/3-4 (2012), 255--293.
 
 * H. P. Doctor, The categories of Boolean lattices, Boolean rings and Boolean spaces, Canad. Math. Bulletin 7 (1964), 245--252.
+
+* [[Jacob Lurie]], section A.1.1 of _[[Spectral Algebraic Geometry]]_.
 
 There is a version in model theory, [[Makkai duality]],
 
