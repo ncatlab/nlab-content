@@ -79,6 +79,13 @@ Lattices and lattice homomorphims form a [[concrete category]] [[Lat]].
 
 * [[frame]]
 
+## References
+
+* [[Peter Johnstone]], chapter 1 of _[[Stone Spaces]]_
+
+* [[Jacob Lurie]], section A.1.1 of _[[Spectral Algebraic Geometry]]_
+
+
 [[!redirects lattices]]
 [[!redirects bisemilattice]]
 [[!redirects bounded lattice]]
