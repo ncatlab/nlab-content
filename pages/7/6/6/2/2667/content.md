@@ -65,7 +65,7 @@ We can also think of this relation between Young diagrams and Schur functors in 
 $$ (p^A_\lambda)^2 = p^A_\lambda \, , \; \; (p^S_\lambda)^2 = p^S_\lambda  $$
 Now, it is easy to see that the product of commuting idempotents is idempotent.   The elements $p^S_\lambda$ and $p^A_\lambda$ do not commute, but amazingly, their product 
 $$ p_\lambda = p^A_\lambda p^S_\lambda $$
-is still idempotent!  
+is idempotent up to a scalar multiple!  
 
 This element $p_\lambda \in \mathbb{C}[S_n]$ is called the **Young symmetrizer** corresponding to the $n$-box Young diagram $\lambda$.   There is a functor, called a **Schur functor**: 
 $$  S_\lambda : FinVect \to FinVect $$
