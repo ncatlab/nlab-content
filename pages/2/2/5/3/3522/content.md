@@ -290,9 +290,10 @@ See also Eric Finster's blog post [Thoughts on the Goodwillie Calculus](http://c
 
 ### $\infty$-Toposes of polynomial $(\infty, 1)$-functors
 
-For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]]. 
+For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ from bare [[homotopy types]] to bare homotopy types is an [[(infinity,1)-topos]], the _[jet topos](jet+category#JetToposes)_.
 
-( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_.
+
+due to ( [Joyal 08, 35.5](#Joyal08), with [[Georg Biedermann]]) See also at _[[tangent (infinity,1)-category]]_, and [[Charles Rezk]], appears as ([Lurie, remark 6.1.1.11](#HigherAlg)).
 
 ## Related concepts
 
@@ -304,9 +305,13 @@ For each $n$, the collection of [[polynomial (∞,1)-functors]] of degree $n$ fr
 
 * [[Taylor tower]]
 
+* [[Goodwillie differentiation]], [[Goodwillie chain rule]]
+
 * [[tangent (∞,1)-category]], [[tangent cohesion]]
 
 * [[jet (∞,1)-category]]
+
+* [[orthogonal calculus]]
 
 ## References
 
@@ -357,14 +362,14 @@ A discussion of the theory in light of [[(∞,1)-category]] theory and [[stable 
 
 This is now section 7 of 
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_
+* {#HigherAlg} [[Jacob Lurie]], _[[Higher Algebra]]_
 
 See also
 
 * Luis Pereira, _A general context for Goodwillie Calculus_ ([arXiv:1301.2832](http://arxiv.org/abs/1301.2832))
 
-* [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
-  {#Joyal08}
+* {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+  
 
 Generalization from [[(infinity,1)-categories]] to [[(infinity,n)-categories]] and relation to [[rational homotopy theory]] is discussed in 
 
