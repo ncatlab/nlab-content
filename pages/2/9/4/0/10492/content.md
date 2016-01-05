@@ -27,6 +27,15 @@ This is the $n=1$ case of the concept [[n-excisive (∞,1)-functor]].
 
 ([HigherAlg, def. 1.4.2.1.](#HigherAlg))
 
+## Properties
+
+### Reflection and excisive approximation
+
+
+The inclusion of excisive $\infty$-funcors is reflective with reflector $P_1$.
+
+See at _[n-excisive functor -- n-Excisive Approximation and reflection](https://ncatlab.org/nlab/show/n-excisive+functor#nExcisiveApproximation)_
+
 ## Examples
 
 ### Spectrum objects
@@ -47,6 +56,26 @@ $$
 =--
 
 ([Lurie, def. 1.4.2.8](#HigherAlg)).
+
+
+### Excisive approximation of reduced functors
+
+Let $\mathcal{C}$ have finite colimits and a terminal object and let $\mathcal{D}$ be differentiable.
+
++-- {: .num_prop}
+###### Proposition
+
+The excisive approximation of a reduced functor $F \colon \mathcal{C} \to \mathcal{D}$ is the [[(infinity,1)-colimit]]
+
+$$
+  P_1 F \simeq \underset{\longrightarrow_{\mathrlap{k}}}{\lim} \Omega^k \circ F \circ \Sigma^k
+$$
+
+(where $\Omega$ and $\Sigma$ denote [[looping]] and [[suspension]] in $\mathcal{D}$ and in $\mathcal{C}$, respectively).
+
+=--
+
+([Lurie, example 6.1.1.28](#HigherAlg))
 
 
 ## Related concepts
