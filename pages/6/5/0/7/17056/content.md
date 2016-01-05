@@ -1,6 +1,7 @@
 
 **[[Goodwillie calculus]]** -- approximation of [[homotopy theories]] by [[stable homotopy theories]] 
 
+* [[Goodwillie-differentiable (∞,1)-category]]
 
 * [[excisive (∞,1)-functor]]
 
