@@ -220,7 +220,9 @@ and the dual notion of [[pro-object]] in
 
 Ind-categories are discussed in
 
-* Kashiwara-Schapira, [[Categories and Sheaves]], section 6
+* [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ 
+
+* [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
 They are discussed in relation to generalisations in
 
