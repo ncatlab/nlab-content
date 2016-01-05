@@ -3409,6 +3409,7 @@ Our **paragraph numbering** is as follows:
 | das wesentlich Verh&#228;ltnis | comparison map between inner and outer type universe $(A = B) \to (A \stackrel{\simeq}{\to} B)$ | [&#167;1158](#1158d) |
 | das Absolute, absolute Wirklichkeit | [[univalence]], unity of inner and outer type universe $(A = B) \stackrel{\simeq}{\to} (A \stackrel{\simeq}{\to} B)$ | [&#167;1149](#1149), [&#167;1159](#1159), [&#167;1163c](#1163c), [&#167;1187](#1187) |
 | Ding | [[object]] of the [[category]] | [&#167;1065a](#1065a) |
+| Ding an sich / thing in itself | generic object $X$ in the (pointed-)object-[[classifying topos]] $\mathbf{H}[X_\ast]$  | [EL&#167;124Zusatz](#EL124Zusatz)  |
 | M&#246;glichkeit, possibility | [possibility monad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\lozenge_W = W^\ast \sum_W$ = [[dependent sum]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
 | Notwendigkeit, necessity | [necessity comonad](necessity+and+possibility#InFirstOrderLogicAndTypeTheory) $\Box = W^\ast \prod_W$ = [[dependent product]] followed by [[context extension]] | [&#167;1191](#1191) etc. |
 | Zuf&#228;lligkeit, randomness, contingency | [[function monad]] $\prod_W W^\ast$ = [[context extension]] followed by [[dependent product]] | [&#167;1191](#1191) etc., [TorMcCar10a](function+monad#TorontoMcCarthy10a), [TorMcCar10b](function+monad#TorontoMcCarthy10b), [Ver14](function+monad#Verdier14) |
@@ -5841,6 +5842,21 @@ Hence we locate these terms at matching positions in the _[Proce&#223;](#Process
 
 
 ###### a. Ding an sich und Existenz.
+
+From the _Shorter Logic_:
+
+
+> EL&#167;124 Die Reflexion-in-Anderes des Existierenden ist aber ungetrennt von der Reflexion-in-sich; der Grund ist ihre Einheit, aus der die Existenz hervorgegangen ist. Das Existierende enth&#228;lt daher die Relativit&#228;t und seinen mannigfachen Zusammenhang mit anderen Existierenden an ihm selbst und ist in sich als Grund reflektiert. So ist das Existierende Ding. Das Ding-an-sich, das in der Kantischen Philosophie so ber&#252;hmt geworden, zeigt sich hier in seiner Entstehung, n&#228;mlich als die abstrakte Reflexion-in-sich, an der gegen die Reflexion-in-Anderes und gegen die unterschiedenen Bestimmungen &#252;berhaupt als an der leeren Grundlage derselben festgehalten wird.
+
+> {#EL124Zusatz} EL&#167;124Zusatz  Wenn behauptet wird, da&#223; das Ding-an-sich unerkennbar sei, so ist dies insofern zuzugeben, als man unter dem Erkennen das Auffassen eines Gegenstandes in seiner konkreten Bestimmtheit zu verstehen hat, das Ding-an-sich aber nichts anderes ist als das ganz abstrakte und unbestimmte Ding &#252;berhaupt.  
+
+The abstract and undetermined thing in itself: the generic object $X$ in the [classifying topos for objects](classifying+topos#ForObjects) $\mathbf{H}[X] = [\infty Grpd_{fin}, \mathbf{H}]$. 
+
+Recall that the nothing-anti-modal types, hence the $\ast \underset{\emptyset}{\coprod}(-)$-modal types (algebras over the [[maybe monad]]) are the [[pointed objects]]. Positing a pointed thing in itself in $\mathbf{H}[X_\ast]$ would be to posit a thing that negates nothingness. (Not sure if Hegel's text ever says it this way, but this is now how it comes out of the formalization.)
+
+The notion $\mathbf{H}[X_\ast]$ with a nothing-negating thing-in-itself carries a tower of monads which is the [[Goodwillie-Taylor tower]], ending in the [[tangent (infinity,1)-topos]] $T \mathbf{H} \to \mathbf{H}$.
+
+> EL&#167;124ZusatzB Mit demselben Recht &#252;brigens, mit welchem vom Ding-an-sich gesprochen wird, w&#228;re auch von der Qualit&#228;t-an-sich, von der Quantit&#228;t-an-sich und ebenso weiter von allen &#252;brigen Kategorien zu sprechen und  w&#252;rden darunter diese Kategorien in ihrer abstrakten Unmittelbarkeit, d. h. abgesehen von ihrer Entwicklung und inneren Bestimmtheit zu verstehen sein.  Es ist insofern als eine Willk&#252;r des Verstandes zu betrachten, wenn gerade nur das Ding in seinem Ansich fixiert wird. Weiter pflegt nun aber auch das Ansich auf den Inhalt der nat&#252;rlichen sowohl als auch der geistigen Welt angewendet und demgem&#228;&#223; z. B. von der Elektrizit&#228;t oder von der Pflanze an sich und ebenso vom Menschen oder vom Staat an sich gesprochen und unter dem Ansich dieser Gegenst&#228;nde das Rechte und Eigentliche derselben verstanden zu werden. Hiermit verh&#228;lt es sich nicht anders als mit dem Ding-an-sich &#252;berhaupt, und zwar n&#228;her so, da&#223;, wenn bei dem blo&#223;en Ansich der Gegenst&#228;nde stehengeblieben wird, dieselben nicht in ihrer Wahrheit, sondern in der einseitigen Form der blo&#223;en Abstraktion aufgefa&#223;t werden. So ist z. B. der Mensch-an-sich das Kind, dessen Aufgabe darin besteht, nicht in diesem abstrakten und unentwickelten Ansich zu verharren, sondern das, was es zun&#228;chst nur an sich ist - n&#228;mlich ein freies und vern&#252;nftiges Wesen -, auch f&#252;r sich zu werden. Ebenso ist der Staat-an-sich der noch unentwickelte, patriarchalische Staat, in welchem die im Begriff des Staats liegenden verschiedenen politischen Funktionen noch nicht zu ihrer begriffsm&#228;&#223;igen Konstituierung gelangt sind. In demselben Sinn kann auch der Keim als die Pflanze-an-sich betrachtet werden. Aus diesen Beispielen ist zu entnehmen, da&#223; man sich sehr im Irrtum befindet, wenn man meint, das Ansich der Dinge oder das Ding-an-sich &#252;berhaupt sei etwas f&#252;r unser Erkennen Unzug&#228;ngliches. Alle Dinge sind zun&#228;chst an sich, allein es hat dabei nicht sein Bewenden, und so wie der Keim, welcher die Pflanze an sich ist, nur dies ist, sich zu entwickeln, so schreitet auch das Ding &#252;berhaupt &#252;ber sein blo&#223;es Ansich, als die abstrakte Reflexion-in-sich, dazu fort, sich auch als Reflexion-in-Anderes zu erweisen, und so hat es Eigenschaften. 
 
 ###### b. Die Eigenschaft.
 
