@@ -487,7 +487,7 @@ $$
 
 The differential $k$-forms on a [[smooth groupoid]] $X$ are just homs $X \to \mathbf{\Omega}^k(-)$ into the sheaf of $k$-forms. (See at [[geometry of physics -- differential forms]]). These $\Omega^k(X)$ inherit the de Rham differential and hence form the de Rham complex of the stack. (Notice that this is very different from the hom of $X$ into a shift of the full de Rham complex regarded as a sheaf of complexes. The latter is instead a model for the real [[ordinary cohomology]] of $X$, see at _[[smooth infinity-groupoid -- structures]]_ for more on this).
 
-One finds ([Freed-Hopkins 13](#FreedHopkins13)) that the de Rham complex, in this sense, of $\mathbf{E}G_{conn}$ is the Weil algebra:
+{#FreedHopkinsResult} One finds ([Freed-Hopkins 13](#FreedHopkins13)) that the de Rham complex, in this sense, of $\mathbf{E}G_{conn}$ is the Weil algebra:
 
 $$
   \Omega^\bullet(\mathbf{E}G_{conn})
