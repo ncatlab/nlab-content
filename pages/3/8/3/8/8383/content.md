@@ -41,7 +41,7 @@ If in addition all fibers are [[symmetric monoidal category|symmetric monoidal]]
 * $S=Sets$, $C^A=$ $A$-indexed families of objects of $C$, for any monoidal category $C$.
 * $S=Gpd$, $C^A=$ $A$-diagrams of objects of $C$
 * $S=$ any category with pullbacks, $C^A = S/A$
-* $S=Top$, $C^A=$ spectra parametrized over $A$
+* $S=Top$, $C^A=$ [[parametrized spectra]] over $A$
 * $S=Grp$ or $TopGrp$, $C^A=$ sets or spaces with an action by $A$
 * The homotopy category of any of the above equipped with a homotopy theory
 
