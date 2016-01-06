@@ -57,6 +57,8 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * **bundle**, [[display map]]
 
+* [[ex-space]]
+
 * **fiber bundle** / [[fiber ∞-bundle]]
 
   * [[associated bundle]]
