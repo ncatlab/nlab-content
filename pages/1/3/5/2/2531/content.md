@@ -14,9 +14,9 @@
 * table of contents
 {:toc}
 
-# Idea #
+## Idea 
 
-In traditional [[differential geometry]] a smooth [[manifold]] may be thought of as a "locally linear space": a space that is locally isomorphic to a 
+In traditional [[differential geometry]] a [[smooth manifold]] may be thought of as a "locally linear space": a space that is locally isomorphic to a 
 [[vector space]] $\simeq \mathbb{R}^n$.
 
 In the broader context of [[synthetic differential geometry]]  there may exist [[spaces]] --- in a [[smooth topos]] $\mathcal{T}$ with line object $R$ ---
@@ -27,14 +27,14 @@ A _microlinear space_  is essentially an object $X$ in a [[smooth topos]],  such
 
 In fact the definition is a bit stronger than that, but the main point in practice of microlinearity is that the linearity of the fibers of the tangent bundle allows to apply most of the familiar constructions in [[differential geometry]] to these spaces.
 
-# Definition #
+## Definition 
 
 +-- {: .num_defn}
 ###### Definition
 **(microlinear space)**
 
 
-Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in \mathcal{T}$ is a __microlinear space__ if for each diagram $\Delta : J \to \mathcal{T}$ of [[infinitesimal spaces]] in $\mathcal{T}$ and for each [[colimit|cocone]] $\Delta \to \Delta_c$ under it such that homming into $R$ produces a [[limit]] diagram , $R^\Delta_c \simeq \lim_{j \in J} R^{\Delta_j}$, also homming into $X$ produces a limit diagram: $X^\Delta_c \simeq \lim_{j \in J} X^{\Delta_j}$.
+Let $\mathcal{T}$ be a [[smooth topos]] with line object $R$.  An object $X \in \mathcal{T}$ is a __microlinear space__ if for each [[diagram]] $\Delta : J \to \mathcal{T}$ of [[infinitesimal spaces]] in $\mathcal{T}$ and for each [[colimit|cocone]] $\Delta \to \Delta_c$ under it such that homming into $R$ produces a [[limit]] diagram , $R^\Delta_c \simeq \lim_{j \in J} R^{\Delta_j}$, also homming into $X$ produces a limit diagram: $X^\Delta_c \simeq \lim_{j \in J} X^{\Delta_j}$.
 
 =--
 
@@ -54,7 +54,7 @@ For every microlinear space $X$, the [[tangent bundle]] $X^D \to X$ has a natura
 
 We describe first the addition of tangent vectors, then the $R$-action on them and then prove that this is a [[module]]-structure.
 
-* **Addition** With $D = \{\epsilon \in R| x^2 = 0 \}$ the 
+* **Addition** With $D = \{\epsilon \in R| \epsilon^2 = 0 \}$ the 
   [[infinitesimal space|infinitesimal interval]] and 
   $D(2) = \{(\epsilon_1, \epsilon_2) \in R \times R | \epsilon_i^2 = 0\}$
   we have a cocone
@@ -81,11 +81,11 @@ We describe first the addition of tangent vectors, then the $R$-action on them a
     }
   $$
 
-  is a [[limit]] cone by the [[Kock-Lawvere axiom]]. Since $X$ is microlinear,
+  is a [[limit]] cone, by the [[Kock-Lawvere axiom]] satisfied in the [[smooth topos]] $\mathcal{T}$. Since $X$ is microlinear,
   also the canonical map
   
   $$
-    r : X^{D(2)} \to X^D \times_X X^D
+    r \colon X^{D(2)} \to X^D \times_X X^D
   $$
 
   is an [[isomorphism]]. With $\Id \times Id : D \to D(2)$ the diagonal
@@ -103,14 +103,14 @@ We describe first the addition of tangent vectors, then the $R$-action on them a
 
 *  **Multiplication** $ \cdot : R \times X^D \to X^D$ is defined componentwise by
 
-  $(\alpha \cdot v) : d \mapsto v (\alpha \cdot d)$.
+   $(\alpha \cdot v) : d \mapsto v (\alpha \cdot d)$.
   
 One checks that this is indeed unital, associative and distributive. ...
 
 =--
 
 
-# Examples #
+## Examples 
   
 A large class of examples is implied by the following proposition.
 
@@ -183,7 +183,7 @@ $(-)^Y : \mathcal{T} \to \mathcal{T}$ preserves limits.
 ###### Proposition
 **(microlinear loci)**
 
-Let $\mathcal{F}$, $\mathcal{G}, \mathcal{Z}, \mathcal{B}$ be the [[smooth toposes]] of the same name that are discussed in detail in [[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are constructed there as [[category of sheaves|categories of sheaves]] on a [[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of smooth _loci_.
+Let $\mathcal{F}$, $\mathcal{G}, \mathcal{Z}, \mathcal{B}$ be the [[smooth toposes]] of the same name that are discussed in detail in [[Models for Smooth Infinitesimal Analysis|MSIA, capter III]]. These are constructed there as [[category of sheaves|categories of sheaves]] on a [[subcategory]] of the category $\mathbb{L} = (C^\infty Ring^{fin})$ of [[smooth loci]].
 
 All [[representable functor|representable objects]] in these [[smooth toposes]] are microlinear. 
 
@@ -201,7 +201,7 @@ These are categories of sheaves on the full category $\mathbb{L} = (C^\infty Rin
 =--
 
 
-# References #
+## References
 
 The notion of microlinear space in the above fashion is due to
 
