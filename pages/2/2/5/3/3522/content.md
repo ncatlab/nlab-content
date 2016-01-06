@@ -374,3 +374,12 @@ See also
 Generalization from [[(infinity,1)-categories]] to [[(infinity,n)-categories]] and relation to [[rational homotopy theory]] is discussed in 
 
 * [[Gijs Heuts]], _Goodwillie approximations to higher categories_ ([arXiv:1510.03304](http://arxiv.org/abs/1510.03304))
+
+
+Relation to [[chromatic homotopy theory]] is discussed in 
+
+* [[Greg Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, Inventiones mathematicae
+February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
+
+* [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_, Geom. Topol. Monogr. 10 (2007) 245-279 ([arXiv:math/0410342](http://arxiv.org/abs/math/0410342))
+
