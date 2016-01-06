@@ -114,6 +114,10 @@ $$
 
 (see e.g. [Strickland 00, example 4.2, example 4.18](#Strickland00)).
 
+### Formal neighbourhood of the diagonal
+
+See at _[[formal neighbourhood of the diagonal]]_.
+
 ### Formal groups
 
 The [[group objects]] in formal schemes are the [[formal groups]]. See there for more.
