@@ -36,6 +36,8 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The category of [[convex space|convex spaces]], also known as 'barycentric algebras', made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
 
+* The thin category associated to the linear order $([0, \infty], \ge)$ of extended nonnegative real numbers with addition as the tensor product and [[internal hom]] as truncated subtraction.
+
 ## Properties
 
 ### Semicartesian vs. cartesian
