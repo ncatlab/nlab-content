@@ -34,7 +34,7 @@ We may think of this operation as the analog of _linearizing_ a space. Turning a
 
 This is what Goodwillie calculus studies.
 
-Let $F: \mathcal{C} \to \mathcal{D}$ (where $\mathcal{C}$ and $\mathcal{D}$ are each either $Top_*$, the category of pointed topological spaces, or $Spec$, the category of spectra) be a pointed homotopy functor. Associate with $F$ a sequence of spectra, called the derivatives of $F$, denoted by $\partial_1 F, \partial_2 F,\cdots, \partial_n F, \cdots$, or, collectively, by $\partial_* F$. For each $n$ the spectrum $\partial_n F$ has a natural action of the symmetric group $\Sigma_n$. Thus, $\partial_* F$ is a symmetric sequence of spectra.
+Let $F: \mathcal{C} \to \mathcal{D}$ (where $\mathcal{C}$ and $\mathcal{D}$ are each either $Top_*$, the category of [[pointed topological spaces]], or $Spec$, the category of [[spectra]]) be a pointed homotopy functor. Associate with $F$ a sequence of spectra, called the derivatives of $F$, denoted by $\partial_1 F, \partial_2 F,\cdots, \partial_n F, \cdots$, or, collectively, by $\partial_* F$. For each $n$ the spectrum $\partial_n F$ has a natural action of the symmetric group $\Sigma_n$. Thus, $\partial_* F$ is a symmetric sequence of spectra.
 
 The derivatives of $F$ contain substantial information about the homotopy type of $F$. We can form a sequence of 'approximations' to $F$ together with natural transformations forming a *[[Goodwillie-Taylor tower]]*. This tower takes the form
 
