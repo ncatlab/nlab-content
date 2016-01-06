@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _model structure for homotopy $n$-types_ with $n \in \mathbb{N}$ is a [[model category]] which [[presentable (infinity,1)-category|presentes]] an [[(n,1)-category|(n+1,1)-category]] of [[homotopy n-types]] hence of [[n-truncated objects in an (∞,1)-category|n-truncated objects]] in some ambient [[(∞,1)-category]]. 
+A _model structure for homotopy $n$-types_ with $n \in \mathbb{N}$ is a [[model category]] which [[presentable (infinity,1)-category|presents]] an [[(n,1)-category|(n+1,1)-category]] of [[homotopy n-types]] hence of [[n-truncated objects in an (∞,1)-category|n-truncated objects]] in some ambient [[(∞,1)-category]]. 
 
 For plain homotopy $n$-types (in [[∞Grpd]]/[[Top]]) this is a presentation of the collection of [[n-groupoids]]. With respect to an arbitrary [[(∞,1)-topos]] it is a presentation of [[n-stacks]]. 
 
