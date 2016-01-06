@@ -24,6 +24,8 @@ Parameterized ([[stable homotopy theory|stable]]) [[homotopy theory]] is ([[stab
 
 For formalizations see at
 
+* [[ex-space]]
+
 * [[parameterized spectrum]]
 
 * [[(infinity,1)-module bundle]]
