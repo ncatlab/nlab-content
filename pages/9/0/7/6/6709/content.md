@@ -151,12 +151,14 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 * [[Pontryagin class]]
 
+* [[orthogonal calculus]]
+
 ## References 
 
 A classic work on the subject is 
 
-* [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
-  {#MilnorStasheff}
+* {#MilnorStasheff} [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
+  
 
 A concise introduction is in chapter 23, section 3 of 
 
@@ -164,7 +166,7 @@ A concise introduction is in chapter 23, section 3 of
 
 See also
 
-* wikipedia: _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
+* Wikipedia, _[Stiefel-Whitney class](http://en.wikipedia.org/wiki/Stiefel%E2%80%93Whitney_class)_
 
 [[!redirects Stiefel-Whitney classes]]
 
