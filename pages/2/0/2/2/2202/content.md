@@ -36,7 +36,11 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The category of [[convex space|convex spaces]], also known as 'barycentric algebras', made into a closed monoidal category where the internal hom has $hom(x,y)$ being the set of convex linear maps from $x$ to $y$, made into an barycentric algebra via pointwise operations.
 
-* The thin category associated to the linear order $([0, \infty], \ge)$ of extended nonnegative real numbers with addition as the tensor product and [[internal hom]] as truncated subtraction.
+* The thin category associated to the linear order $([0, \infty], \ge)$ of extended nonnegative real numbers with addition as the tensor product and [[internal hom]] as truncated subtraction. 
+
+* If $(M, \otimes, I)$ is any monoidal category, $I$ being the monoidal unit, the [[slice category]] $M/I$ inherits a monoidal product given by 
+$$(X \stackrel{f}{\to} I) \otimes (Y \stackrel{g}{\to} I) = (X \otimes Y \stackrel{f \otimes g}{\to} I \otimes I \cong I)$$ 
+where the isomorphism displayed is the canonical one. This monoidal product is semicartesian. The forgetful functor $\Sigma: M/I \to M$ is strong monoidal, and is universal in the sense of exhibiting the fact that semicartesian monoidal functors and strong monoidal functors form a coreflective sub-bicategory of the bicategory of monoidal categories and strong monoidal functors. (Check this.) 
 
 ## Properties
 
