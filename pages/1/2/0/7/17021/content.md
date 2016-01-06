@@ -1,6 +1,7 @@
 
 
 * [webpage](http://www.math.ias.edu/~sglasman/)
+* [research statement](http://www.math.ias.edu/~sglasman/research%20statement2015.pdf)
 
 ## related $n$Lab entries
 
