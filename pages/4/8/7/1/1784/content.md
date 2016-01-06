@@ -51,7 +51,7 @@ Of course, there is nothing special about groups here.  The same style of defini
 
 +-- {: .un_remark} 
 ###### Warning 
-There can be terminological clashes. The concept of [[comonoid]] for example makes sense in any [[monoidal category]], a concept more general than taking the "co" of monoid objects in the sense of the present article, which is the special case where the monoidal product is given by coproduct (a cocartesian monoidal category, if you like). 
+There are potential terminological clashes. The concept of [[comonoid]] for example makes sense in any [[monoidal category]], a concept more general than taking the "co" of monoid objects in the sense of the present article. Specializing to a case where the monoidal product is different to coproduct, we get a very different notion of comonoid. 
 =-- 
 
 
