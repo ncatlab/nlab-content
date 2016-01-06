@@ -38,16 +38,21 @@ Here, the phrase "the other way around" means: take the normal diagrams for a [[
 
 ## Relationship To Group Objects ##
 
-A cogroup object in a category, say $C$, is nothing more than a group object in the [[opposite category]]: $C^{op}$.  However, the morphisms go the other way around.  That is to say, with the obvious notation:
+A cogroup object in a category, say $C$, is nothing more than a group object in the [[opposite category]]: $C^{op}$.  However, morphisms in the cogroup category go the other way around.  That is to say, with the obvious notation:
 
 $$
-C\operatorname{Grp}^c = (C^{op}\operatorname{Grp})^{op}
+C\operatorname{coGrp} = (C^{op}\operatorname{Grp})^{op}
 $$
 
 
 ## Relationship to Other Objects ##
 
-Of course, there is nothing special about groups here.  The same definition works for any [[variety of algebras]] in the sense of universal algebra.
+Of course, there is nothing special about groups here.  The same style of definition works for any [[variety of algebras]] in the sense of universal algebra, where $C coAlg_T \coloneqq (C^{op}Alg_T)^{op}$. 
+
++-- {: .un_remark} 
+###### Warning 
+There can be terminological clashes. The concept of [[comonoid]] for example makes sense in any [[monoidal category]], a concept more general than taking the "co" of monoid objects in the sense of the present article, which is the special case where the monoidal product is given by coproduct (a cocartesian monoidal category, if you like). 
+=-- 
 
 
 ## Examples ##
