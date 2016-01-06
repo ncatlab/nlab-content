@@ -92,7 +92,7 @@ In particular, the restriction to $J_2 X$ factors through $ X\wedge X \to \Omega
 
 ### Via pushout/pullback comparisons
 
-Starting with the three-legged cospan $ X \rightrightrightarrows * $, construct the cube of all pushouts
+Starting with the three-legged cospan $ X \stackrel{\longrightarrow}{\stackrel{\longrightarrow}{\longrightarrow}} * $, construct the cube of all pushouts
 $$
  \array{
    X    &    &              & \to &       &     &    * \\
@@ -126,6 +126,8 @@ is a candidate $H$.
 
 * the [[Freudenthal suspension theorem]] may be obtained from the EHP spectral sequence;
 
+* the [[Goodwillie spectral sequence]] of the identity functor at the point also computes homotopy groups of spheres, the interplay of the two is discussed in ([Behrems 10](#Behrens10))
+
 ## References
 
 Original articles include
@@ -155,6 +157,5 @@ Review includes
 * [[eom]], _[EHP spectral sequence](https://www.encyclopediaofmath.org/index.php/EHP_spectral_sequence)_
  
 * Wikipedia, _[EHP spectral sequence](http://en.wikipedia.org/wiki/EHP_spectral_sequence)_
-
 
 
