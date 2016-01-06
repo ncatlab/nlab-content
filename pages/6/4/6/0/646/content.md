@@ -87,21 +87,24 @@ This has the possibility of leading to computations, by applying [[van Kampen th
 
 * [[n-types cover]]
 
-## References
 
-Discussion of [[n-truncated objects]] in [[model structures on simplicial presheaves]] includes
-
-* [[Georg Biedermann]], _On the homotopy theory of n-types_, Homology, Homotopy and Applications 10 (2008), No. 1, 305-325 ([arXiv:math/0604514](http://arxiv.org/abs/math/0604514))
 
 [[!redirects n-type]]
-[[!redirects homotopy n-types]]
 [[!redirects n-types]]
+
+[[!redirects homotopy n-types]]
+[[!redirects homotopy n-types]]
+
 
 [[!redirects 1-type]]
 [[!redirects 1-types]]
 [[!redirects homotopy 1-type]]
 [[!redirects homotopy 1-types]]
 
+[[!redirects 2-type]]
+[[!redirects 2-types]]
+[[!redirects homotopy 2-type]]
+[[!redirects homotopy 2-types]]
 
 
 [[!redirects 3-type]]
