@@ -177,9 +177,11 @@ But there is an example with even non-circular system of axioms:
 (eds.) _Handbook of Logic in Computer Science_, Volume II,
 Oxford University Press. ([preprint pdf](http://ttic.uchicago.edu/~dreyer/course/papers/barendregt.pdf))
 
-A quick survey is in 
+Survey includes
 
 * Frade, _Calculus of inductive constructions_ ([pdf](http://www3.di.uminho.pt/~mjf/pub/SFV-CIC-2up.pdf))
+
+* {#Cody15} [[Cody Roux]], _Pure type systems: Dependents when you need them_, talk at Boston Haskell Meetup 2015 ([web](http://de.slideshare.net/imalsogreg/cody-roux-pure-type-systems-boston-haskell-meetup))
 
 A generalization to cumulativity can be found in
 
