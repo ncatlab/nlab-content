@@ -42,6 +42,35 @@ From this point of view, the objects of a topos (regarded as a category) should 
 
 Finally, mixing this point of view with the second one, we can regard toposes over a given topos $E$ instead as "toposes in the $E$-world of mathematics."  For this reason, the theory of toposes over a given base is formally quite similar to that of arbitrary toposes.  And coming full circle, this fact allows the use of "base change arguments" as a very useful technical tool, even if our interest is only in one or two particular toposes *qua* categories.
 
+### 'What a topos is like:'
+
+ (i) 'A topos is a category of sheaves on a site'
+
+ (ii) 'A topos is a category with finite limits and power-objects'
+
+ (iii) 'A topos is (the embodiment of) an intuitionistic higher-order theory'
+
+ (iv) 'A topos is (the extensional essence of) a first-order (infinitary) geometric theory'
+
+ (v) 'A topos is a totally cocomplete object in the meta-2-category CART of cartesian (i.e. , finitely complete) categories'
+
+ (vi) 'A topos is a generalized space'
+
+ (vii) 'A topos is a semantics for intuitionistic formal systems'
+
+ (viii) 'A topos is a Morita equivalence class of continuous groupoids'
+
+ (ix) 'A topos is the category of maps of a power allegory'
+
+ (x) 'A topos is a category whose canonical indexing over ifself is complete and well-powered'
+
+ (xi) 'A topos is the spatial manifestation of a giraud frame'
+
+ (xii) 'A topos is a setting for synthetic differential geometry'
+
+ (xiii) 'A topos is a setting for synthetic domain theory',
+
+And so on. But the important thing about the elephant is that 'however you approach it, it is still the same animal'. [[Elephant]]
 
 ## Definitions
 
