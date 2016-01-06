@@ -46,7 +46,7 @@ Write $\infty Grpd_{fin}$ for the [[(∞,1)-category]] of [[finite homotopy type
 +-- {: .num_defn}
 ###### Definition/Proposition
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-limits]]. Then a **[[spectrum object]]** in $\mathcal{C}$ is a reduced (i.e. [[terminal object in an (infinity,1)-category|terminal object]]-preserving) [[excisive (∞,1)-functor]] of the form
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-limits]]. Then a **[[spectrum object]]** in $\mathcal{C}$ is a [[reduced (infinity,1)-functor|reduced] (i.e. [[terminal object in an (infinity,1)-category|terminal object]]-preserving) [[excisive (∞,1)-functor]] of the form
 
 $$
   \infty Grpd_{fin}^{\ast/} \longrightarrow \mathcal{C}
@@ -65,7 +65,7 @@ Let $\mathcal{C}$ have finite colimits and a terminal object and let $\mathcal{D
 +-- {: .num_prop}
 ###### Proposition
 
-The excisive approximation of a reduced functor $F \colon \mathcal{C} \to \mathcal{D}$ is the [[(infinity,1)-colimit]]
+The excisive approximation of a [[reduced functor]] $F \colon \mathcal{C} \to \mathcal{D}$ is the [[(infinity,1)-colimit]]
 
 $$
   P_1 F \simeq \underset{\longrightarrow_{\mathrlap{k}}}{\lim} \Omega^k \circ F \circ \Sigma^k
