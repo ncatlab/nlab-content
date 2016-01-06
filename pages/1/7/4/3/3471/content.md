@@ -11,7 +11,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -186,6 +186,7 @@ The composite [[(âˆž,1)-functor]] $\Gamma \circ LConst$ is the [[shape of an (âˆ
 
 * [[abelian sheaf cohomology]]
 
+* [[ex-space]]
 
 [[!redirects global sections]]
 
