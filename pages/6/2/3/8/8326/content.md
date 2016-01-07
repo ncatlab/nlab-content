@@ -77,7 +77,11 @@ Other philosophical systems, Hegel claims (see also ([[Lectures on the History o
 
 * [[Aristotle]]'s and [[Kant]]'s [[category (philosophy)|categories]] ([&#167;126](#126), [&#167;127](#127), [&#167;864](#864)).
 
+* [[Timaeus]]' cosmogeny from _Something_ and _Other_ [EL&#167;92Zusatz](#EL92Zusatz)
+
 * [[Descartes]]' mechanism ([LectHistPhil-Descartes](Lectures+on+the+History+of+Philosophy#DescartesMechanism));
+
+* [[Spinoza]]'s _[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determination_(Logik)_ (Hegel's [determinate negation](#DeterminateNegation)) [EL&#167;91ZusatzA](#EL91ZusatzA) 
 
 * [[Spinoza]]'s [[Spinoza's system|system]] of _[[substance]]_ ([&#167;1287](#1287));
 
@@ -618,6 +622,11 @@ There is an opposition between the two kinds of opposition here:
 
 
 **Determinate negation**
+ {#DeterminateNegation}
+
+> EL$92Zusatz Negation ist das, was wir Grenze hei&#223;en. Etwas ist nur in seiner Grenze und durch seine Grenze das, was es ist.
+
+<div style="float:right;margin:0 10px 10px 0;"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Cup_or_faces_paradox.svg/450px-Cup_or_faces_paradox.svg.png" width="300"></div>
 
 If $\Box X$ is a pure moment found inside $X$, then it makes to ask for its _complement moment_ or its _negative_
 
@@ -4104,6 +4113,8 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 > &#167;196 Determinateness thus isolated by itself in the form of being is quality
 
 
+> {#EL91ZusatzA} EL&#167;91ZusatzA Die Grundlage aller Bestimmtheit ist die Negation (_omnis determinatio est negatio_, wie [[Spinoza]] sagt). 
+
 ###### c. Etwas / Something
  {#Etwas}
 
@@ -4146,6 +4157,7 @@ In the  _Lesser Logic_ it has:
 ###### a. Etwas und ein Anderes. / Something and an Other
  {#SomethingAndAnOther}
 
+> {#EL92Zusatz} EL&#167;92Zusatz Gott hat die Welt aus der Natur des Einen und des Anderen (&#964;&#959;&#965; &#949;&#964;&#949;&#959;&#965;) gemacht; diese hat er zusammengebracht und daraus ein Drittes gebildet, welches von der Natur des Einen und des Anderen ist. (vgl. Timaios, Steph. 34 f.)
 
 > {#221} &#167;221 Seyn-f&#252;r-Anderes und Ansichseyn machen die zwei Momente des Etwas aus.
 
@@ -5071,6 +5083,7 @@ Choice of _Einheit_ unit is choice of gauge, as in _[[gauge theory]]_. See at _[
 ##### C. Das F&#252;rsichseyn im Maa&#223;e
 
 #### Chapter two. Das reale Maa&#223;
+
 
 
 #### Chapter three. Das Werden des Wesens.
@@ -6369,6 +6382,10 @@ see [above](#FormalizationConcepts)
 
 > &#167;1529 However, this determination of the Notion which has been considered as reality, is, conversely, equally a positedness. For it is not only in this result that the truth of the Notion has exhibited itself as the identity of its inwardness and externality; already in the judgment the moments of the Notion remain, even in their mutual indifference, determinations that have their significance only in their relation. The syllogism is mediation, the complete Notion in its positedness. Its movement is the sublating of this mediation, in which nothing is in and for itself, but each term is only by means of an other. The result is therefore an immediacy which has issued from the sublating of the mediation, a being which is no less identical with the mediation, and which is the Notion that has restored itself out of, and in, its otherness. This being is therefore a fact that is in and for itself objectivity.
 
+The _Shorter Logic_ on this transition:
+
+> EL&#167;91ZusatzB Man spricht so z. B. von der Realit&#228;t eines Plans oder einer Absicht und versteht dann darunter, da&#223; dergleichen nicht mehr ein nur Inneres, Subjektives, sondern ins Dasein herausgetreten sei. In demselben Sinn kann dann auch der Leib die Realit&#228;t der Seele und dies Recht die Realit&#228;t der Freiheit oder, ganz allgemein, die Welt die Realit&#228;t des g&#246;ttlichen Begriffs genannt werden. 
+
 
 ### Objektivit&#228;t / Objectivity
 
@@ -7276,7 +7293,7 @@ Texts on [[foundations of mathematics]] which comment on the circularity (or not
 The formalization of _Schluss_ by [[natural deduction]] originates in
 
 
-* {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. &lt;http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)
+* {#Gentzen35} [[Gerhard Gentzen]], _Untersuchungen &#252;ber das logische Schlie&#223;en_, _Mathematische Zeitschrift_ 39(1), Springer-Verlag 1935. <http://dx.doi.org/10.1007/BF01201353> (English translation _Investigations into Logical Deduction_ in Szabo)
 
 The idea that the [[types]] in [[type theory]] are (mathematical) _concepts_ or _notions_ (i.e. "Begriffe", as in the [formalization dictionary](#Dictionary) above ) is arguably implicit in the original
 
