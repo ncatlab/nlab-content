@@ -39,6 +39,13 @@ $$
 
 is the classifying $\infty$-topos for [[pointed objects]].
 
+For $K \in \infty Grpd_{fin}^{\ast/}$, write $R(K) \in (\infty Grpd_{fin}^{\ast/})^{op} \hookrightarrow \mathbf{H}[X_\ast]$ for its [[formal dual]] under [[(∞,1)-Yoneda embedding]].  The generic pointed object in $\mathbf{H}[X_\ast]$ is that [[representable functor|represented]] by the [[0-sphere]]:
+
+$$
+  X_\ast = R(S^0)
+  \,.
+$$
+
 
 
 ### For local structures
