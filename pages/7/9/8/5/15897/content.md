@@ -4,7 +4,11 @@
 
 ## related $n$Lab entries
 
+* [[algebraic topology]]
+
 * [[Waldhausen category]]
+
+* [[Waldhausen S-construction]]
 
 * [[Waldhausen K-theory]]
 
