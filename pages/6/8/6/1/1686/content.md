@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 #### Stable Homotopy theory
 +--{: .hide}
 [[!include stable homotopy theory - contents]]
