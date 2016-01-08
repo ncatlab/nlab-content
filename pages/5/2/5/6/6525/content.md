@@ -43,7 +43,16 @@ Finally, field operations on surreal numbers are defined recursively:
 
 The style of such definitions is familiar from [[material set theory]], where elements are conceived to be sets of elements, which themselves have elements, and so on, down to a bedrock established by a foundation axiom. In fact, games can be axiomatized as elements of a structure with two predicates $\in_L$, $\in_R$ satisfying some set-theoretic axioms. 
 
-We also observe the fact that the definition of $\geq$ for numbers as formulated here leans heavily upon properties of negation, and in particular the classical [[principle of excluded middle]]. 
+## In constructive mathematics
+
+The definition of $\geq$ for numbers as formulated by Conway leans heavily upon properties of negation, and in particular the classical [[principle of excluded middle]].  However, it can be made more constructive by defining $\lt$ separately from $\le$:
+
+* A number $x$ consists of a set $L_x$ of numbers and a set $R_x$ of numbers, under the condition that every member of $L_x$ is $\lt$ every member of $R_x$.
+* $x \leq y$ if $x' \lt y$ is true for any $x' \in L_x$, and $x \lt y'$ is true for any $y' \in R_y$.
+* $x \lt y$ if there exists an $x'\in R_x$ such that $x'\le y$, or there exists a $y'\in L_y$ such that $x\le y'$.
+* $x = y$ is defined to mean $x \le y$ and $y \le x$.
+
+This approach works up to a point.  However, it encounters a problem in proving that multiplication is well-defined, i.e. that it respects equality.  We can prove that if $x\ge 0$ then $y\le z \Rightarrow x y \le x z$ and hence $y = z \Rightarrow x y = x z$, and that if $x\le 0$ then $y\le z \Rightarrow x y \ge x z$ and hence $y = z \Rightarrow x y = x z$; but without excluded middle we can't say that every $x$ is either $\ge 0$ or $\le 0$, so how can we conclude that $y = z \Rightarrow x y = x z$?  It is unknown whether there is a solution to this problem.
 
 ## Structural approach 
 
@@ -54,6 +63,10 @@ Each position has a definite depth $n$, where $n$ is the number of edges one mus
 In this set-up, the condition of no infinite branches plays the role of a foundation axiom, and inductive arguments tend to devolve upon the use of the principle of [[dependent choice]]. 
 
 Numbers may be similarly elaborated within this context. The definition of $\geq$ on numbers is ultimately derived from a posetal reflection of a category of games (with strategies as morphisms), and the definition of addition of numbers is derived from a Day convolution product on the category of games. More information may be found at [[Conway game]]. 
+
+## In homotopy type theory
+
+In [[homotopy type theory]], the surreal numbers can be defined as a [[higher inductive type]], roughly following Conway's definition but imposing the "defined" notion of equality as the "actual" equality with an identification-constructor.  This can also be done constructively by separating $\lt$ from $\le$, as remarked above.  See chapter 12 of the [[HoTT Book]].
 
 ## Properties of surreal numbers 
 
@@ -66,5 +79,7 @@ To some degree, and with appropriate caveats, one can do analysis and number the
 * John H. Conway, _On Numbers and Games_ ($2^{nd}$ edition), A.K. Peters, Ltd (2001). 
 
 * [[Donald Knuth|Donald E. Knuth]], _Surreal numbers_, Addison-Wesley (1974) 
+
+* The [[HoTT Book]], chapter 12.
 
 [[!redirects surreal numbers]] 
