@@ -50,6 +50,10 @@ The concept originates in
 Review includes
 
 * {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
+
+See also
+
+* [[Gregory Arone]], [[Michael Ching]], _A classification of Taylor towers of functors of spaces and spectra_ ([arXiv:1209.5661](http://arxiv.org/abs/1209.5661))
  
 
 [[!redirects Goodwillie-Taylor towers]]
