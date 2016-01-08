@@ -109,6 +109,10 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 
 * MathOverflow: [homotopy-associative-h-space-and-coh-space](http://mathoverflow.net/questions/16711/homotopy-associative-h-space-and-coh-space)
 
+See also
+
+* [[John Adams]], _Finite $H$-Spaces and Lie groups_, Journal of Pure and Applied Algebra 19 (1980) 1-8 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamse8.pdf))
+
 [[!redirects H-spaces]]
 
 [[!redirects H-monoid]]
