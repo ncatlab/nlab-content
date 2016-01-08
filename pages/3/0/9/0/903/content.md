@@ -6,12 +6,13 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
-#### Topology
-+-- {: .hide}
-[[!include topology - contents]]
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
+
 
 # Contents
 * table of contents
