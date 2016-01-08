@@ -95,6 +95,8 @@ Examples of regular categories include the following:
 
 * If $C$ is regular, then so is the [[functor category]] $C^D$ for any category $D$. 
 
+* A [[slice]] of a regular category is also regular; cf. [[locally regular category]]. So is any [[co-slice]]. (Source: [[Borceux-Bourn]], Appendix section 5.) 
+
 * If $Q$ is a quasitopos, then $Q^{op}$ is regular. Source: A2.6.3(i) in the [[Elephant]]. 
 
 * [[Top]]$^{op}$ is regular. The key facts are that [[regular monomorphisms]] in $Top$ are the same as [[subspace]] inclusions, and that the [[pushout]] of a subspace inclusion is a subspace inclusion as proven [here](/nlab/show/subspace+topology#pushout). 
