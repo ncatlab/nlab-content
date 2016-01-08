@@ -54,7 +54,7 @@ This generalises immediately to an operation called the _[[join of topological s
 *  $a \sim (a,0,b)$ for $a$ in $X$ and $b$ in $Y$;
 *  $(a,1,b) \sim b$ for $a$ in $X$ and $b$ in $Y$.
 
-(Compare [[join of simplicial sets]], the same operation in another guise.)  Then we have $S X = X \star 2$.
+(Compare [[join of simplicial sets]] and [[join of topological spaces]], the same operation in another guise.)  Then we have $S X = X \star 2$.
 
 
 ### Simplified definition
