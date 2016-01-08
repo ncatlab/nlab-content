@@ -101,6 +101,8 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[rational equivariant stable homotopy theory]]
 
+* [[equivariant motivic homotopy theory]]
+
 * [[slice spectral sequence]]
 
 * [[tom Dieck splitting]]
