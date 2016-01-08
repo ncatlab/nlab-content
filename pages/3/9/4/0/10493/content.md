@@ -210,8 +210,12 @@ The notion of $n$-excisive functors was introduced in
 
 The [[Taylor tower]] formed by $n$-excisive functors was then studied in
 
-* [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
- {#Goodwillie03}
+* {#Goodwillie03} [[Thomas Goodwillie]], _Calculus III: Taylor Series_, Geom. Topol. 7(2003) 645-711 ([arXiv:math/0310481](http://arxiv.org/abs/math/0310481))
+ 
+
+See also 
+
+* {#Rezk08} [[Charles Rezk]], _A streamlined proof of Goodwillie's $n$-excisive approximation_ ([arXiv:0812.1324](http://arxiv.org/abs/0812.1324))
 
 A discussion in the general abstract context of [[(∞,1)-category theory]] is in  
 
