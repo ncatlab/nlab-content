@@ -1,0 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+The combination of [[motivic homotopy theory]] with [[equivariant homotopy theory]], particularly with [[equivariant stable homotopy theory]].
+
+## References
+
+* {#CJ2014} [[Gunnar Carlsson]], [[Roy Joshua]], _Equivariant motivic homotopy theory_,([arXiv:1404.1597](http://arxiv.org/abs/1404.1597))
+
+* {#Hoyois15} [[Marc Hoyois]], _The six operations in equivariant motivic homotopy theory_ ([arXiv:1509.02145](http://arxiv.org/abs/1509.02145))
+
+
