@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include homological algebra - contents]]
 =--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
 =--
 =--
 
