@@ -42,8 +42,9 @@ A textbook with an emphasis on [[homotopy theory]] is in
 
 Lecture notes include
 
-* [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
- {#HopkinsMathew}
+* {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
+
+* [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
 
 Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
 
