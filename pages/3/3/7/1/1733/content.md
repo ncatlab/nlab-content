@@ -2,9 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Topology
+#### Homotopy theory
 +--{: .hide}
-[[!include topology - contents]]
+[[!include homotopy - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
 =--
 =--
 =--
@@ -15,8 +23,17 @@
 
 ## Idea
 
-Algebraic topology is generally the study of [[functor]]s from [[nice categories of spaces]] to [[algebraic category|algebraic categories]].  This can be considered, from the nPOV, as closely related to higher [[category theory]]. Category theory  originally developed out of algebraic topology, where it was used first simply to describe what was going on and then to axiomatise [[Eilenberg-Steenrod cohomology]] theories. There has been considerable convergence of the two subjects, not only in methodology, but in aims and motivations.
+_Algebraic topology_ refers to the application of methods of [[algebra]] to problems in [[topology]]. The archetypical example is the classification of [[surfaces]] via their [[Euler characteristic]]. But as this example already shows, algebraic topology tends to be less about [[topological spaces]] themselves as rather about the [[homotopy types]] which they [[homotopy hypothesis|present]]. Hence modern algebraic topologogy is to a large extent the application of algebraic methods to [[homotopy theory]].
 
+A general and powerful such method is the assignment of [[homology]] and [[cohomology]] [[groups]] to topological spaces, such that these [[abelian groups]] depend only on the [[homotopy type]]. The simplest such are [[ordinary homology]] and [[ordinary cohomology]] groups, given by [[singular simplicial complexes]]. This way algebraic topology makes use of tools of [[homological algebra]]. 
+
+The [[axiom|axiomatization]] of the properties of such [[cohomology]] group assignments is what led to the formulation of the trinity of concepts of _[[category]]_, _[[functor]]_ and _[[natural transformations]]_, and algebraic topology has come to make intensive use of [[category theory]].
+
+In particular this leads to the formulation of  [[generalized (Eilenberg-Steenrod) cohomology]] theories which detect more information about classes of homotopy types. By the [[Brown representability theorem]] such are represented by [[spectra]] (generalizing [[chain complexes]]), hence [[stable homotopy types]], and this way algebraic topology comes to use and be about [[stable homotopy theory]]. 
+
+Still finer invariants of [[homotopy types]] are detected by further refinements of these "algebraic" structures, for instance to [[multiplicative cohomology theories]], to  [[equivariant homotopy theory]]/[[equivariant stable homotopy theory]] and so forth. The construction and analysis of these requires the intimate combination of algebra and homotopy theory to [[higher category theory]] and [[higher algebra]], notably embodied in the [[universal algebra|universal]] higher algebra of [[operads]].
+
+The central tool for breaking down all this [[higher algebra|higher algebraic]] data into computable pieces are [[spectral sequences]], which are maybe the main heavy-lifting workhorses of algebraic topology.
 
 ## Related entries
 
@@ -36,22 +53,25 @@ Algebraic topology is generally the study of [[functor]]s from [[nice categories
 
 ## References
 
-A textbook with an emphasis on [[homotopy theory]] is in 
-
-* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
-
 Lecture notes include
 
 * {#HopkinsMathew} [[Michael Hopkins]] (notes by [[Akhil Mathew]]), _algebraic topology -- Lectures_ ([pdf](http://people.fas.harvard.edu/~amathew/ATnotes.pdf))
 
 * [[Friedhelm Waldhausen]], _Algebraische Topologie_ I ([pdf](https://www.math.uni-bielefeld.de/~fw/at.pdf)) , II ([pdf](https://www.math.uni-bielefeld.de/~fw/at_II.pdf)), III ([pdf](https://www.math.uni-bielefeld.de/~fw/at_III.pdf)) ([web](https://www.math.uni-bielefeld.de/~fw/))
 
-Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
-
-* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
-
 * Davis, _Lecture notes in algebraic topology_ ([pdf](http://www.indiana.edu/~jfdavis/teaching/m623/book.pdf))
+
+A textbook with an emphasis on [[homotopy theory]] is in 
+
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
 
 Further online resources include
 
 * [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
+
+
+Brief indications of open questions and future directions (as of 2013) of [[algebraic topology]] and [[stable homotopy theory]] are in 
+
+* [[Tyler Lawson]], _The future_, Talbot lectures 2013 ([pdf](http://math.mit.edu/conferences/talbot/2013/19-Lawson-thefuture.pdf))
+
+
