@@ -67,3 +67,10 @@ The [[compact object in an (infinity,1)-category|compact objects]] in [[∞Grpd]
 * [[(infinity,1)-presheaves]] on $\infty Grpd_{fin}^{op}$ form the [[classifying (infinity,1)-topos]] for objects.
 
 [[!redirects finite homotopy types]]
+
+[[!redirects finite ∞-groupoid]]
+[[!redirects finite ∞-groupoids]]
+
+[[!redirects finite infinity-groupoid]]
+[[!redirects finite infinity-groupoids]]
+
