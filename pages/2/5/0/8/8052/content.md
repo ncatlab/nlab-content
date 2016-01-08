@@ -1,6 +1,8 @@
 
 ## Related entries
 
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
 * [[Blakers-Massey theorem]]
 
 ## References
