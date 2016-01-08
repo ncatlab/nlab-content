@@ -156,7 +156,6 @@ In the [[type theory]] of $\mathbf{H}$ this corresponds to the [[adjoint pair]] 
 
 $$
   \emptyset \dashv \ast
-Consider the inclusion $\iota \colon (\mathbb{Z}, \lt) \hookrightarrow (\mathbb{R}, \lt)$ regarded as an inclusion of linear orders. This inclusion has a left adjoint given by $ceiling$ and by $floor$. The composite $\bigcirc \coloneqq \iota ceiling$ is an idempotent monad and the composite $\Box \coloneqq \iota floor$. Both express a _moment of integrality_ in an real number, but in opposite ways. Indeed they are adjoint $\bigcirc \dashv \floor$.
 $$
 
 which are constant on the [[initial object]]/[[terminal object]], respectively.
