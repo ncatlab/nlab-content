@@ -37,7 +37,7 @@ Finally, field operations on surreal numbers are defined recursively:
 
 * $x + y$ is defined by letting $L_{x+y}$ be the set $\{x' + y \vert x' \in L_x\} \cup \{x + y' \vert y' \in L_y\}$, and $R_{x+y}$ the set $\{x' + y \vert x' \in R_x\} \cup \{x + y' \vert y' \in R_y\}$; 
 
-* $-x$ is defined by letting $L_{-x}$ be the set $R_x$, and $R_{-x}$ the set $L_x$; 
+* $-x$ is defined by letting $L_{-x}$ be the set of negatives of elements of $R_x$, and $R_{-x}$ the set of negatives of $L_x$; 
 
 * $x y$ is defined by letting $L_{x y}$ be the set $\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in L_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in R_y\}$, and $R_{x y}$ be the set $\{x' y + x y' - x'' y'' \vert x', x'' \in L_x, y', y'' \in R_y\} \cup \{x' y + x y' - x'' y'' \vert x', x'' \in R_x, y', y'' \in L_y\}$. 
 
