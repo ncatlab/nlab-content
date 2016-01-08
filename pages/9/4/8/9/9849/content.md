@@ -42,7 +42,7 @@ An introductory textbook on [[homotopy type theory]] and its use as a [[foundati
 
 * And a description of the "sociology" of the writing of the book is here:
 
-  [[Andrej Bauer]], _The HoTT book_ ([web](http://audrey.fmf.uni-lj.si/hott.html), [alternative](http://math.andrej.com/2013/06/20/the-hott-book/](http://math.andrej.com/2013/06/20/the-hott-book/))
+  [[Andrej Bauer]], _The HoTT book_ ([web](http://audrey.fmf.uni-lj.si/hott.html), [alternative](http://math.andrej.com/2013/06/20/the-hott-book/))
 
 
 category: reference
