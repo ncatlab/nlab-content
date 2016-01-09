@@ -203,11 +203,11 @@ Similarly, the presheaf topos $[FinSet_*, Set]$ (where $FinSet_*$ is the categor
 We discuss the [[finite product theory]] of [[group]]s. This theory has a classifying category $C_{fp}(Grp)$.  $C_{fp}(Grp)$ is a category with finite products equipped with an object $G$, the "[[walking]] group", a morphism $m: G \times G \to G$ describing multiplication, a morphism $inv : G \to G$ describing inverses, and a morphism $i: 1 \to G$ describing the identity element of $G$, obeying the usual group axioms.   For any category with finite products, say $E$, a finite-product-preserving functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.   For more details, see [[Lawvere theory]].
 
 We can promote $C_{fp}(Grp)$ to a category with finite limits, $C_{fl}(Grp)$, by adjoining all finite limits.   As mentioned above, one way to do this is to take the category of models of $C_{fp}(Grp)$ in Set, which is simply $Grp$, and then take the full subcategory of [[finitely presentable object|finitely presentable]] groups.  By [[Gabriel-Ulmer duality]], the opposite of this is $C_{fl}(Grp)$.
-For any category with finite products, say $E$, a left exact functor $f: C_{fp}(Grp) \to E$ is the same as a [[group object]] in $E$.
+For any category with finite products, say $E$, a left exact functor $f: C_{fl}(Grp) \to E$ is the same as a [[group object]] in $E$.
 
 We can further promote $C_{fl}(Grp)$ to a [[Grothendieck topos]] by taking the category of [[presheaves]].  This gives the classifying topos for groups:
 $$       S[Grp] = Set^{C_{fl}(Grp)^{op}}  \, . \]
-For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[T] \to E $ is the same as a [[group object]] in $E$.
+For any Grothendieck topos, say $E$, a left exact left adjoint functor $ f^*: S[Grp] \to E $ is the same as a [[group object]] in $E$.
 
 ### For rings
 
