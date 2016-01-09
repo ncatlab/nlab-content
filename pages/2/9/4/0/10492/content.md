@@ -147,7 +147,7 @@ $$
 Write
 
 $$
-  P_1 \coloneqq \underset{\longrightarrow}{\lim}_{n} T_n^{n}
+  P_1 \coloneqq \underset{\longrightarrow}{\lim}_{n} T_1^{n}
 $$
 
 for the [[homotopy colimit]] of the iterations of this functor, with respect to the canonical comparison map.
