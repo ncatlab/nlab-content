@@ -44,7 +44,7 @@ Let
 
 For $X \in \mathbf{H}$, write $\Im(X)$ for the corresponding [[de Rham space]] object.
 
-Notice that we have the canonical morphism, the $X$-componenet of the [[unit of a monad|unit]] of the $\Im$-[[monad]]
+Notice that we have the canonical morphism, the $X$-component of the [[unit of a monad|unit]] of the $\Im$-[[monad]]
 
 $$
   i \colon X \to \Im(X)
@@ -95,7 +95,7 @@ where $T_{inf} X$ is the [[infinitesimal disk bundle]] of $X$, see at _[differen
 +-- {: .num_remark #LiteratureOnGeneralAbstractCharacterization}
 ###### Remark
 
-In the context of [[differential geometry]] the fact that the jet bundle construction is a co-monad was explicitly observed in ([Marvan 86](#Marvan86), see also [Marvan 93, section 1.1](#Marvan93), [Marvan 89](#Marvan89)). It is almost implicit in ([Krasil'shchik-Verbovetsky 98, p. 13, p. 17](#KrasilshchikVerbovetsky98), [Krasilshchik 99, p. 25](#Krasilshchik99)).
+In the context of [[differential geometry]] the fact that the jet bundle construction is a comonad was explicitly observed in ([Marvan 86](#Marvan86), see also [Marvan 93, section 1.1](#Marvan93), [Marvan 89](#Marvan89)). It is almost implicit in ([Krasil'shchik-Verbovetsky 98, p. 13, p. 17](#KrasilshchikVerbovetsky98), [Krasilshchik 99, p. 25](#Krasilshchik99)).
 
 In the context of [[synthetic differential geometry]] the fact that the jet bundle construction is [[right adjoint]] to the [[infinitesimal disk bundle]] construction is ([Kock 80, prop. 2.2](#Kock80)).
 
