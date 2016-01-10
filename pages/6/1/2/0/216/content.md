@@ -27,7 +27,7 @@ Often this is considered specifically for [[groupoids]] and hence accordingly ca
 
 More generally, if the groupoid carries a [[line 2-bundle]] then (in its incarnation as a [[bundle gerbe]]-like transition bundle) the space of morphisms carries a [[line bundle]] (satisfying some compatibility conditions) and one can consider convolution algebras not just of functions, but of [[sections]] of this line bundle. The resulting algebra is called the _twisted groupoid convolution algebra_, twisted by the [[characteristic class]] of the [[line 2-bundle]] ([TXLG](#TXLG)).
 
-For "bare" categories/groupoids (i.e.: [[internal category|internal]] to [[Set]]) these constructions are canonical. But under mild conditions or else when equipped some suitable extra [[stuff, structure, property|structure]], it generalizes to [[internal categories]]/[[internal groupoids]] in [[geometry|geometric]] contexts, notably in [[topology]] ([[topological groupoids]]) [[differential geometry]] ([[Lie groupoids]]) and [[algebraic geometry]]. In such geometric situations a groupoid convolution algebra equipped with its canonical [[coalgebra]] structure over the functions on its canonical [[atlas]] is also called a _[[Hopf algebroid]]_ and may be used to _characterize_ the geometric groupoid.
+For "bare" categories/groupoids (i.e.: [[internal category|internal]] to [[Set]]) these constructions are canonical. But under mild conditions or else when equipped some suitable extra [[stuff, structure, property|structure]], it generalizes to [[internal categories]]/[[internal groupoids]] in [[geometry|geometric]] contexts, notably in [[topology]] ([[topological groupoids]]), [[differential geometry]] ([[Lie groupoids]]), and [[algebraic geometry]]. In such geometric situations a groupoid convolution algebra equipped with its canonical [[coalgebra]] structure over the functions on its canonical [[atlas]] is also called a _[[Hopf algebroid]]_ and may be used to _characterize_ the geometric groupoid.
 
 Therefore to some extent one may think of the relation between groupoids/categories and their groupoid/category algebras as an incarnation of the [[Isbell duality|general duality]] between [[geometry]] and [[algebra]]. Since category/groupoid algebras are generically non-commutative, this relation identifies groupoids/categories as certain spaces in [[noncommutative geometry]]. From this point of view groupoid convolution algebras have been highlighted and developed notably in ([Connes 94](#Connes094)). Due to this relation the groupoid convolution product is also referred to as a [[star product]] and denoted "$\star$". Groupoid [[C*-algebras]] form a rich sub-class of all [[C*-algebras]], including [[crossed product C*-algebras]], [[Cuntz algebras]].
 
@@ -113,7 +113,7 @@ $$
 
 then [[pullback of functions]] along this map makes is an [[involution]] of the convolution algebra of $\mathcal{C}$ and hence makes it into a [[star-algebra]]. 
 
-More generally for $\mathcal{C}$ equipped with the structure of a [[dagger-category]], pullback along the dagger-fuctor
+More generally for $\mathcal{C}$ equipped with the structure of a [[dagger-category]], pullback along the dagger-functor
 
 $$
   \dagger \colon \mathcal{C}_1 \to \mathcal{C}_1
