@@ -62,6 +62,18 @@ $$
 
 The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symmetries is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$. This also happens to be the full [[tetrahedral group]].
 
+### Group order
+
+[[order of a group|group order]]:
+
+
+$\vert O_h\vert = 48$
+
+$\vert O \vert = 24$
+
+$\vert 2O \vert = 48$
+
+
 ### Group cohomology
 
 The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
