@@ -17,6 +17,45 @@
 
 The _tetrahedral group_ is the [[finite group|finite]] [[symmetry group]] of a [[tetrahedron]]. 
 
+As a symmetry group of one of the [[Platonic solids]], the tetrahedral group participates in the _ADE pattern_:
+
+[[!include ADE -- table]]
+
+
+More in detail, there are variants of the tetrahedral group corresponding to the stages of the [Whitehead tower of O(3)](Whitehead+tower#OfTheOrthogonalGroup):
+
+* the full tetrahedral group is the [[subgroup]] of [[orthogonal group|O(3)]] 
+
+  $$
+    T_d \hookrightarrow O(3)
+  $$
+
+  which is the [[stabilizer subgroup|stabilizer]] of the standard equistant embedding of the [[tetrahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
+
+* the _rotational tetrahedral group_ $T \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[alternating group]] $A_4$;
+
+* finally the _binary tetrajedral group_ is the [[double cover]], hence the lift of $T$ to [[spin group|Spin(3)]]$\simeq$ [[special unitary group|SU(2)]];
+
+* next there is a [[string 2-group]] lift $String_{2T} \hookrightarrow String_{SU(2)}$ of the icosahadral group ([Epa 10](#Epa10), [Epa-Ganter 16](#EpaGanter16))
+
+$$
+  \array{
+     String_{2T} &\hookrightarrow& String_{SU(2)}
+     \\
+     \downarrow && \downarrow
+     \\
+     2 T &\hookrightarrow & Spin(3) \simeq SU(2)
+     \\
+     \downarrow && \downarrow
+     \\
+     T \simeq A_4 &\hookrightarrow&  SO(3)
+     \\
+     \downarrow && \downarrow
+     \\
+     T_d \simeq S_5 &\hookrightarrow & O(3)
+  }
+$$
+
 
 ## Properties
 
@@ -25,6 +64,14 @@ The _tetrahedral group_ is the [[finite group|finite]] [[symmetry group]] of a [
 The full tetrahedral group is [[isomorphism|Isomorphic]] to the [[symmetric group]] $S_4$ of [[permutations]] of four elements (see _[Full tetrahedral group is isomorphic to S4](http://groupprops.subwiki.org/wiki/Full_tetrahedral_group_is_isomorphic_to_S4)_).
 
 The [[subgroup]] of [[orientation]]-preserving symmetries is isomorphic to the [[alternating group]] $A_4$.
+
+### Group order
+
+[[order of a group|group order]]:
+
+$\vert T_d\vert = 24$
+
+$\vert T\vert = 12$
 
 
 ### Group cohomology
@@ -45,5 +92,8 @@ The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#
 
 * {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
 
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, in preparation
 
 [[!redirects tetrahedral groups]]
