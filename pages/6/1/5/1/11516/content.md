@@ -27,6 +27,8 @@ In the context of [[topology]], a _topological $G$-space_ (traditionally just _$
 
 In the context of [[homotopy theory]], the [[category]] of topological $G$-spaces is regarded as a [[homotopical category]] with [[weak equivalences]] being the $G$-equivariant continuous functions which restrict to [[weak homotopy equivalences]] on all [[fixed point]] sets. This defines the [[equivariant homotopy theory]], see there for more details. This is equivalently presented by just [[G-CW complexes]]; and by [[Elmendorf's theorem]] it is equivalent to the [[(∞,1)-presheaves]] over the [[orbit category]] of $G$.  The union of this as $G$ is allowed to vary is the _[[global equivariant homotopy theory]]_.
 
+> add the following statement: on cell complexes the fixed-point-wise weak homotopy equivalences are equivalently the homotopy equivalences where the homotopy itself is required to be $G$-equivariant. It is in dropping this condition on the homotopies that one passes from "genuine" to "naive" equivariant homotopy theory. 
+
 In the context of [[stable homotopy theory]] the [[stabilization]] of $G$-spaces is given by [[spectra with G-action]]; these lead to [[equivariant stable homotopy theory]]. See there for more details. (But beware that in this context one considers the richer concept of [[G-spectra]], which have a [[forgetful functor]] to [[spectra with G-action]] but better homotopy theoretic properties. ) The union of this as $G$ is allowed to vary is the [[global equivariant stable homotopy theory]].
 
 ## Properties
