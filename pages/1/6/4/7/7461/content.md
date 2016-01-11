@@ -22,6 +22,7 @@ Any (∞,1)-topos $K$ by definition classifies the ∞-geometric morphisms into 
 ## Examples
 
 ### For objects and pointed objects
+ {#ForObjectsAndPointedObjects}
 
 Write $\infty Grpd_{fin}$ for the [[(∞,1)-category]] of [[finite homotopy types]] and write $\infty Grpd_{fin}^{\ast/}$ for its [[pointed objects]].
 
