@@ -30,7 +30,7 @@ More in detail, there are variants of the octahedral group corresponding to the 
     O_h \hookrightarrow O(3)
   $$
 
-  which is the [[stabilizer subgroup|stabilizer]] of the standard equistant embedding of the [[octahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
+  which is the [[stabilizer subgroup|stabilizer]] of the standard embedding of the [[octahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
 
 * the _rotational octahedral group_ $O \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[symmetric group]] $S_4$;
 
