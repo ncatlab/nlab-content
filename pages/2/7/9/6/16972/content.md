@@ -54,7 +54,7 @@ $$
 
 to match standard conventions.
 
-This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given simply by
+This means that if $S^7$ is regarded as the unit sphere $\{(x,y)  | {\vert x\vert}^2 + {\vert y\vert}^2 = 1\}$ in $\mathbb{H}\times \mathbb{H}$ and $S^4$ is regarded as the quaternionic [[projective space]], then $p$ is given (on pointes $(x,y)$ with $y \neq 0$) simply by 
 
 $$
   p_{\mathbb{H}} \colon (x,y) \mapsto [x;y] = [x/y; 1]
@@ -202,4 +202,3 @@ See also at _[[equivariant stable cohomotopy]]_
 ## References
 
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
-
