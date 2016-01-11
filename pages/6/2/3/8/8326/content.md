@@ -4080,7 +4080,7 @@ For more on this see at _[Remark on reality as opposite to ideality](#RemarkOnRe
 ###### a. Dasein &#252;berhaupt / Determinant being in general
  {#DaseinUberhaupt}
 
-> {#191} &#167; 191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears
+> {#191} &#167;191 From becoming there issues determinate being, which is the simple oneness of being and nothing. Because of this oneness it has the form of immediacy. Its mediation, becoming, lies behind it; it has sublated itself and determinate being appears
 
 Above we saw that _[[becoming]]_ is formalized by the universal [[unity of opposites]] of [[nothing]] $\dashv$ [[being]], i.e. $\emptyset \dashv \ast$, exhibiting any [[type]] $X$ as intermediate (via $\emptyset$-[[unit of a monad|unit]] and $\ast$-[[counit of a comonad]])
 
@@ -4118,19 +4118,33 @@ So $\sharp$ is the version of $\ast$ ([[being]]) in the next level, which indeed
 ###### c. Etwas / Something
  {#Etwas}
 
-> {#208} &#167;208 An dem Dasein ist seine Bestimmtheit als Qualit&#228;t unterschieden worden; an dieser als daseiender ist der Unterschied &#8211; der Realit&#228;t und der Negation. Sosehr nun diese Unterschiede an dem Dasein vorhanden sind, sosehr sind sie auch nichtig und aufgehoben. Die Realit&#228;t enth&#228;lt selbst die Negation, ist Dasein, nicht unbestimmtes, abstraktes Sein. Ebenso ist die Negation Dasein, nicht das abstrakt sein sollende Nichts, sondern hier gesetzt, wie es an sich ist, als[122] seiend, dem Dasein angeh&#246;rig. So ist die Qualit&#228;t &#252;berhaupt nicht vom Dasein getrennt, welches nur bestimmtes, qualitatives Sein ist.
+> {#208} &#167;208 An dem Dasein ist seine Bestimmtheit als Qualit&#228;t unterschieden worden; an dieser als daseiender ist der Unterschied &#8211; der Realit&#228;t und der Negation. Sosehr nun diese Unterschiede an dem Dasein vorhanden sind, sosehr sind sie auch nichtig und aufgehoben. Die Realit&#228;t enth&#228;lt selbst die Negation, ist Dasein, nicht unbestimmtes, abstraktes Sein. Ebenso ist die Negation Dasein, nicht das abstrakt sein sollende Nichts, sondern hier gesetzt, wie es an sich ist, al seiend, dem Dasein angeh&#246;rig. So ist die Qualit&#228;t &#252;berhaupt nicht vom Dasein getrennt, welches nur bestimmtes, qualitatives Sein ist.
 
 > &#167;208 In determinate being its determinateness has been distinguished as quality; in quality as determinately present, there is distinction &#8212; of reality and negation. Now although these distinctions are present in determinate being, they are no less equally void and sublated. Reality itself contains negation, is determinate being, not indeterminate, abstract being. Similarly, negation is determinate being, not the supposedly abstract nothing but posited here as it is in itself, as affirmatively present $[$ als seiend $]$, belonging to the sphere of determinate being. Thus quality is completely unseparated from determinate being, which is simply determinate, qualitative being.
 
 
-[[Dasein]], quality, 
-
-something: [[type]], [[object]]
 
 
-> {#209} &#167;209 Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
 
->  &#167;209 This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+>  &#167;209a This sublating of the distinction is more than a mere taking back and external omission of it again, or than a simple return to the simple beginning, to determinate being as such. The distinction cannot be omitted, for it is. What is, therefore, in fact present is determinate being in general, distinction in it, and sublation of this distinction; determinate being, not as devoid of distinction as at first, but as again equal to itself through sublation of the distinction, the simple oneness of determinate being resulting from this sublation. 
+
+
+> {#209b} &#167;209b Die&#223; Aufgehobenseyn des Unterschieds ist die eigne Bestimmtheit des Daseyns; so ist es Insichseyn; das Daseyn ist Daseyendes, Etwas.
+
+> &#167;209b This sublatedness of the distinction is determinate being's own determinateness; it is thus being-within-self: determinate being is a determinate being, a something.
+
+The _something_ here in the sphere of being will become the _thing_ in the sphere of essence ([&#167;1048](#1048)). Clearly this concept wants to be interpreted as _[[type]]_, _[[object]].
+
+Indeed, by the discussion around [&#167;191](#191), Dasein is interpreted by the [[subtopos]] inclusion embodied by the [[sharp modality]]. This exhibits the inclusion of the [[base topos]] ([[base (infinity,1)-topos]]) into the ambient type theory. (The analogue in the spehere of essence is _Der Grund_ in [&#167;945](#945) (and indeed _Grund_ is  _basis_ (as well as _reason for_)).
+
+Now, at least in as far as [[sheaf toposes]] are concerned, then determining a topos over a [[base topos]] means to consider a [[category of sheaves]] with values in the base topos, and the logical interpretation of this is _[[forcing]]_: the [[site]] encodes the forcing-into-existence of certain [[objects]], satisfying certain relations.
+
+The archetypical case of this is the [[classifying topos]] for objects. Internally, this is the topos obtained from the base topos by adjoining what today is called a _generic object_, but what one might just as well call an _object-in-itself_ (Objekt an sich). 
+
+More general sheaf toposes encode the forcing of more objects, and of relations between them. In either case, the _Dasein_ (being-there) exhibited by a topos over a base topos brings with it things (objects) which thereby "are there". 
+
+See also [EL&#167;124Zusatz](#EL124Zusatz).
+
 
 > {#210a} &#167;210a Das Etwas ist die erste Negation der Negation...
 
@@ -5597,6 +5611,7 @@ Technically this is the same adjunction as that between [[nothing]] and [[being]
 > &#167;938 The negative is, therefore, the whole opposition based, as opposition, on itself, absolute difference that is not related to an other; as opposition, it excludes identity from itself &#8212; but in doing so excludes itself; for as self-relation it is determined as the very identity that it excludes.
 
 ###### 2. Der Widerspruch l&#246;st sich auf
+ 
 
 > {#943} &#167;943 Nach dieser positiven Seite, da&#223; die Selbstst&#228;ndigkeit im Gegensatze, als ausschlie&#223;ende Reflexion sich zum Gesetztseyn macht, und es ebenso sehr aufhebt, Gesetztseyn zu seyn, ist der Gegensatz nicht nur zu Grunde, sondern in seinen Grund zur&#252;ckgegangen.&#8212; Die ausschlie&#223;ende Reflexion des selbstst&#228;ndigen Gegensatzes macht ihn zu einem Negativen, nur Gesetzten; sie setzt dadurch ihre zun&#228;chst selbstst&#228;ndigen Bestimmungen, das Positive und Negative, zu solchen herab, welche nur Bestimmungen sind; und indem so das Gesetztseyn zum Gesetztseyn gemacht wird, ist es &#252;berhaupt in seine Einheit mit sich zur&#252;ckgekehrt; es ist das einfache Wesen, aber das Wesen als Grund. Durch das Aufheben der sich an sich selbst widersprechenden Bestimmungen des Wesens, ist dieses wiederhergestellt, jedoch mit der Bestimmung, ausschlie&#223;ende Reflexionseinheit zu seyn,&#8212;einfache Einheit, welche sich selbst als Negatives bestimmt, aber in diesem Gesetztseyn unmittelbar sich selbst gleich und mit sich zusammen-gegangen ist.
 
@@ -5876,7 +5891,7 @@ Hence we locate these terms at matching positions in the _[Proce&#223;](#Process
 From the _Shorter Logic_:
 
 
-> EL&#167;124 Die Reflexion-in-Anderes des Existierenden ist aber ungetrennt von der Reflexion-in-sich; der Grund ist ihre Einheit, aus der die Existenz hervorgegangen ist. Das Existierende enth&#228;lt daher die Relativit&#228;t und seinen mannigfachen Zusammenhang mit anderen Existierenden an ihm selbst und ist in sich als Grund reflektiert. So ist das Existierende Ding. Das Ding-an-sich, das in der Kantischen Philosophie so ber&#252;hmt geworden, zeigt sich hier in seiner Entstehung, n&#228;mlich als die abstrakte Reflexion-in-sich, an der gegen die Reflexion-in-Anderes und gegen die unterschiedenen Bestimmungen &#252;berhaupt als an der leeren Grundlage derselben festgehalten wird.
+> {#EL124} EL&#167;124 Die Reflexion-in-Anderes des Existierenden ist aber ungetrennt von der Reflexion-in-sich; der Grund ist ihre Einheit, aus der die Existenz hervorgegangen ist. Das Existierende enth&#228;lt daher die Relativit&#228;t und seinen mannigfachen Zusammenhang mit anderen Existierenden an ihm selbst und ist in sich als Grund reflektiert. So ist das Existierende Ding. Das Ding-an-sich, das in der Kantischen Philosophie so ber&#252;hmt geworden, zeigt sich hier in seiner Entstehung, n&#228;mlich als die abstrakte Reflexion-in-sich, an der gegen die Reflexion-in-Anderes und gegen die unterschiedenen Bestimmungen &#252;berhaupt als an der leeren Grundlage derselben festgehalten wird.
 
 > {#EL124Zusatz} EL&#167;124Zusatz  Wenn behauptet wird, da&#223; das Ding-an-sich unerkennbar sei, so ist dies insofern zuzugeben, als man unter dem Erkennen das Auffassen eines Gegenstandes in seiner konkreten Bestimmtheit zu verstehen hat, das Ding-an-sich aber nichts anderes ist als das ganz abstrakte und unbestimmte Ding &#252;berhaupt.  
 
@@ -5885,6 +5900,8 @@ The abstract and undetermined thing in itself: the generic object $X$ in the [cl
 Recall that the nothing-anti-modal types, hence the $\ast \underset{\emptyset}{\coprod}(-)$-modal types (algebras over the [[maybe monad]]) are the [[pointed objects]]. Positing a pointed thing in itself in $\mathbf{H}[X_\ast]$ would be to posit a thing that negates nothingness. (Not sure if Hegel's text ever says it this way (maybe [&#167;210a](#210a), [EL&#167;91](#EL91)), but this is now how it comes out of the formalization.)
 
 The notion $\mathbf{H}[X_\ast]$ with a nothing-negating thing-in-itself carries a tower of monads which is the [[Goodwillie-Taylor tower]], ending in the [[tangent (infinity,1)-topos]] $T \mathbf{H} \to \mathbf{H}$.
+
+See also [&#167;209b](#209b).
 
 > EL&#167;124ZusatzB Mit demselben Recht &#252;brigens, mit welchem vom Ding-an-sich gesprochen wird, w&#228;re auch von der Qualit&#228;t-an-sich, von der Quantit&#228;t-an-sich und ebenso weiter von allen &#252;brigen Kategorien zu sprechen und  w&#252;rden darunter diese Kategorien in ihrer abstrakten Unmittelbarkeit, d. h. abgesehen von ihrer Entwicklung und inneren Bestimmtheit zu verstehen sein.  Es ist insofern als eine Willk&#252;r des Verstandes zu betrachten, wenn gerade nur das Ding in seinem Ansich fixiert wird. Weiter pflegt nun aber auch das Ansich auf den Inhalt der nat&#252;rlichen sowohl als auch der geistigen Welt angewendet und demgem&#228;&#223; z. B. von der Elektrizit&#228;t oder von der Pflanze an sich und ebenso vom Menschen oder vom Staat an sich gesprochen und unter dem Ansich dieser Gegenst&#228;nde das Rechte und Eigentliche derselben verstanden zu werden. Hiermit verh&#228;lt es sich nicht anders als mit dem Ding-an-sich &#252;berhaupt, und zwar n&#228;her so, da&#223;, wenn bei dem blo&#223;en Ansich der Gegenst&#228;nde stehengeblieben wird, dieselben nicht in ihrer Wahrheit, sondern in der einseitigen Form der blo&#223;en Abstraktion aufgefa&#223;t werden. So ist z. B. der Mensch-an-sich das Kind, dessen Aufgabe darin besteht, nicht in diesem abstrakten und unentwickelten Ansich zu verharren, sondern das, was es zun&#228;chst nur an sich ist - n&#228;mlich ein freies und vern&#252;nftiges Wesen -, auch f&#252;r sich zu werden. Ebenso ist der Staat-an-sich der noch unentwickelte, patriarchalische Staat, in welchem die im Begriff des Staats liegenden verschiedenen politischen Funktionen noch nicht zu ihrer begriffsm&#228;&#223;igen Konstituierung gelangt sind. In demselben Sinn kann auch der Keim als die Pflanze-an-sich betrachtet werden. Aus diesen Beispielen ist zu entnehmen, da&#223; man sich sehr im Irrtum befindet, wenn man meint, das Ansich der Dinge oder das Ding-an-sich &#252;berhaupt sei etwas f&#252;r unser Erkennen Unzug&#228;ngliches. Alle Dinge sind zun&#228;chst an sich, allein es hat dabei nicht sein Bewenden, und so wie der Keim, welcher die Pflanze an sich ist, nur dies ist, sich zu entwickeln, so schreitet auch das Ding &#252;berhaupt &#252;ber sein blo&#223;es Ansich, als die abstrakte Reflexion-in-sich, dazu fort, sich auch als Reflexion-in-Anderes zu erweisen, und so hat es Eigenschaften. 
 
