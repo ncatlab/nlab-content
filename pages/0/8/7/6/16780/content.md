@@ -30,7 +30,7 @@ More in detail, there are variants of the tetrahedral group corresponding to the
     T_d \hookrightarrow O(3)
   $$
 
-  which is the [[stabilizer subgroup|stabilizer]] of the standard equistant embedding of the [[tetrahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
+  which is the [[stabilizer subgroup|stabilizer]] of the standard embedding of the [[tetrahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
 
 * the _rotational tetrahedral group_ $T \hookrightarrow SO(3)$ is the restriction to [[orientation]]-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[alternating group]] $A_4$;
 
