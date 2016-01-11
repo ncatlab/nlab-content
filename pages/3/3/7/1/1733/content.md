@@ -63,7 +63,7 @@ Lecture notes include
 
 A textbook with an emphasis on [[homotopy theory]] is in 
 
-* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([pdf](http://bib.tiera.ru/b/91777))
+* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 Further online resources include
 
