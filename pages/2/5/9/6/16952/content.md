@@ -104,7 +104,7 @@ $G$-spectra that are invertible under the smash product.  That homomorphism  is 
 
 ## References
 
-* {#May96} [[Peter May]], chapter XIII of _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+* {#May96} [[Peter May]], chapter IX.5 and chapter XIII of _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
 
 * {#Schwede15} [[Stefan Schwede]], section 4 (from page 40 on) in _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
