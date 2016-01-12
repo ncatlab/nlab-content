@@ -30,6 +30,12 @@ More recently the [[BICEP2]]-experiment claims to have detected the imprint of a
 
 ## References
 
+A walk through the derivation of gravitational waves from linearization of [[Einstein's equations]] may be found for instance on pages 5-24 of
+
+* {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
+
+See also
+
 * Wikipedia, _[Gravitational wave](https://en.wikipedia.org/wiki/Gravitational_wave)_
 
 
