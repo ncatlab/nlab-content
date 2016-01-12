@@ -39,5 +39,6 @@ See at _[[Elmendorf's theorem]]_.
 * Jay Shah, _Equivariant algebraic topology_, [pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf)
 
 [[!redirects G-CW complexes]]
+[[!redirects G-CW-complexes]]
 
 [[!redirects G-cell complex]]
