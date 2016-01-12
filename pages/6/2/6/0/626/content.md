@@ -35,7 +35,7 @@ Many operations in monoidal categories that look rather unenlightening in symbol
 
 ## Variations
 
-There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encode further geometric properties.  For instance:
+There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
 
 * in monoidal categories which are _[[ribbon category|ribbon categories]]_ the strings from above behave as if they have a small transversal extension which makes them behave as ribbons. Accordingly, there is a _twist_ operation in the axioms of a ribbon category and graphically it corresponds to twisting the ribbons by 180 degrees.
 
