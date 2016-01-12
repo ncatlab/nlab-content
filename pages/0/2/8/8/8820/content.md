@@ -40,4 +40,8 @@ For instance p. 19 in
 
 * _Generalized cohomology_ ([pdf](http://www.ams.org/bookstore/pspdf/mmono-230-prev.pdf))
 
+In [[equivariant homotopy theory]]:
+
+* {#May96} [[Peter May]], chapter XI of _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
+
 [[!redirects suspension isomorphisms]]
