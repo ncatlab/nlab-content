@@ -84,7 +84,19 @@ where on the right we have the $G$-equivariant [[mapping spectrum]] from the (eq
 
 (...)
 
-##Related concepts
+## Cohomology with coefficients in a Mackey functor
+ {#Cohomology}
+
+...[[cohomology]] of [[topological G-spaces]] with [[coefficients]]
+in a Mackey functor...
+
+([May 96, section X.4 ](#May96))
+
+... equivariant [[Serre spectral sequence]]...
+
+([Kronholm 10](#Kronholm10))
+
+## Related concepts
 
 * [[Tambara functor]]
 
@@ -118,6 +130,9 @@ See also
 * D. Tambara, The Drinfeld center of the category of Mackey functors, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011)
 
 * Elango Panchadcharam, _Categories of Mackey Functors_, PhD thesis, Macquarie Univ. 2006
+
+* {#Kronholm10} [[William Kronholm]], _The $RO(G)$-graded Serre spectral sequence_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 75-92. ([pdf](http://www.swarthmore.edu/NatSci/wkronho1/serre.pdf), [Euclid](https://projecteuclid.org/euclid.hha/1296223823))
+
 
 The construction of [[equivariant stable homotopy theory]] in terms of [[Mackey functors]] is due to 
 
