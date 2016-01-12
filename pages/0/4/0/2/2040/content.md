@@ -1,4 +1,6 @@
 
+> under construction
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -71,7 +73,7 @@ For $G$ finite then Mackey functors on $\mathcal{C}$ are equivalent to  genuine 
 
 (...)
  
-For $E$ a [[genuine G-spectrum]] then the corresponding Mackey functor is given by the [[equivariant homotopy groups]] of $E$
+For $E$ a [[genuine G-spectrum]] then the corresponding spectral Mackey functor is given by the [[equivariant homotopy groups]] of $E$
 
 $$
   G/H \mapsto E(G/H) =  [\Sigma^\infty_+ G/H, E]_G
@@ -80,7 +82,17 @@ $$
 
 where on the right we have the $G$-equivariant [[mapping spectrum]] from the (equivariant) [[suspension spectrum]] of the [[orbit]] $G/H$ to $E$.
 
-(e.g. [Guillou-May 11, remark 2.5](#GuillouMay11)) (see also [Schwede 15, p. 16 for restriction and section 4 culminating on p. 37 for transfer and compatibility](#Schwede 15))
+(e.g. ([Guillou-May 11, remark 2.5](#GuillouMay11)), see also ([Schwede 15, p. 16](#Schwede15)) for restriction and section 4 culminating on p. 37 for transfer and compatibility).
+
+Further, the corresponding abelian-group valued Mackey functor is
+
+$$
+  \pi_n(E) \colon G/H \mapsto [G/H_+\wedge S^n, X]_G
+  \,,
+$$
+
+where now on the right we have just the [[homotopy classes]] of maps (e.g. [Greenlees-May 95, p. 43](#GreenleesMay95))
+
 
 (...)
 
@@ -90,7 +102,34 @@ where on the right we have the $G$-equivariant [[mapping spectrum]] from the (eq
 ...[[cohomology]] of [[topological G-spaces]] with [[coefficients]]
 in a Mackey functor...
 
-([May 96, section X.4 ](#May96))
++-- {: .num_defn #CohomologyOfGSpace}
+###### Defininition
+
+For $X$ a [[pointed object|pointed]] [[G-CW complex]], define the [[chain complex]] $C_\bullet(X)$ of Mackey functors by
+
+$$
+  C_n(X) \coloneqq \pi_n(X^n/X^{n-1})
+  \,,
+$$
+
+Then for $A$ a Mackey functor, the ordinary cohomology of $X$ with [[coefficients]] in $A$ is the [[cochain cohomology]]
+
+$$
+  H_G^n(X,A) \coloneqq H^n( Hom(C_\bullet(X), A) )
+  \,.
+$$
+
+More generally, for $V$ a G-[[representation]], the $(n-V)$-[[RO(G)-grading|RO(G)-graded]] cohomology of $X$ with coefficients in $A$ is
+
+$$
+  H_G^{n-V}(X,A) = H_G^n(S^V \wedge X, X)
+  \,.
+$$
+ 
+=--
+
+([May 96, section X.4, def. 4.1, def. 4.2 ](#May96))
+
 
 ... equivariant [[Serre spectral sequence]]...
 
@@ -121,11 +160,14 @@ Reviews and surveys include
 
 See also
 
-* Tammo tom Dieck, _Transformation groups_, Studies in Mathematics, vol. 8, Walter de Gruyter, Berlin, New York, 1987, x + 311 pp., 
+* [[Tammo tom Dieck]], _Transformation groups_, Studies in Mathematics, vol. 8, Walter de Gruyter, Berlin, New York, 1987, x + 311 pp., 
 
-* chapter 1 of Serge Bouc, _Green Functors and G-sets_, LNM 1671 (1997; paperback 2008) [doi:10.1007/BFb0095821](http://dx.doi.org/10.1007/BFb0095821)
+* Serge Bouc, chapter 1 of _Green Functors and G-sets_, LNM 1671 (1997; paperback 2008) [doi:10.1007/BFb0095821](http://dx.doi.org/10.1007/BFb0095821)
 
 * [[Tammo tom Dieck]], Equivariant homology and Mackey functors, Mathematische Annalen __206__, no.1, pp. 67--78, 1973 [doi:10.1007/BF01431529](http://dx.doi.org/10.1007/BF01431529)
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], appendix A of _Generalized Tate cohomology_, Mem. Amer. Math. Soc. 113 (1995) no 543 ([pdf](http://www.math.rochester.edu/people/faculty/doug/otherpapers/GM-Tate-543.pdf))
+
 
 * D. Tambara, The Drinfeld center of the category of Mackey functors, J. Algebra __319__, 10, pp. 4018-4101 (2008) [doi:10.1016/j.jalgebra.2008.02.011](http://dx.doi.org/10.1016/j.jalgebra.2008.02.011)
 
