@@ -99,20 +99,21 @@ where now on the right we have just the [[homotopy classes]] of maps (e.g. [Gree
 ## Cohomology with coefficients in a Mackey functor
  {#Cohomology}
 
-...[[cohomology]] of [[topological G-spaces]] with [[coefficients]]
-in a Mackey functor...
+We discuss [[cohomology]] of [[topological G-spaces]] with [[coefficients]]
+in a Mackey functor, following notation and conventions as in ([May 96, sections IX, X](#May96)).
+
 
 +-- {: .num_defn #CohomologyOfGSpace}
 ###### Defininition
 
-For $X$ a [[pointed object|pointed]] [[G-CW complex]], define the [[chain complex]] $C_\bullet(X)$ of Mackey functors by
+For $X$ a [[pointed object|pointed]] [[G-CW complex]], define the [[chain complex]] $C_\bullet(X)$ of Mackey functors to be given by the stable [[equivariant homotopy groups]] of the quotient spaces $X^{\bullet}/X^{\bullet-1}$:
 
 $$
   C_n(X) \coloneqq \pi_n(X^n/X^{n-1})
   \,,
 $$
 
-Then for $A$ a Mackey functor, the ordinary cohomology of $X$ with [[coefficients]] in $A$ is the [[cochain cohomology]]
+Then for $A$ any Mackey functor, the ordinary cohomology of $X$ with [[coefficients]] in $A$ is the [[cochain cohomology]] of the complex of homs of Mackey functors $C_n(X) \to A$:
 
 $$
   H_G^n(X,A) \coloneqq H^n( Hom(C_\bullet(X), A) )
@@ -128,12 +129,14 @@ $$
  
 =--
 
-([May 96, section X.4, def. 4.1, def. 4.2 ](#May96))
+([May 96, section X.4 def. 4.1, def. 4.2 ](#May96))
 
++-- {: .num_remark}
+###### Remark
 
-... equivariant [[Serre spectral sequence]]...
+For this kind of cohomology, there is equivariant [[Serre spectral sequence]] ([Kronholm 10](#Kronholm10)).
 
-([Kronholm 10](#Kronholm10))
+=--
 
 ## Related concepts
 
