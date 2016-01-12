@@ -3390,6 +3390,7 @@ Our **paragraph numbering** is as follows:
 | [[becoming]] | [[adjoint modality]]  $(\emptyset \dashv \ast)$ | [&#167;134](#134), [&#167;152](#152), [&#167;176](#176), [&#167;177](#177), [&#167;180](#180), [Law91](#Lawvere91) |
 | everything is an intermediate stage between nothing and being | [[points-to-pieces transform|comparison map]] via [[counit of a comonad|counit]]/[[unit of a monad|uni]]-factorization $(\emptyset \to X \to \ast)$,  | [&#167;174](#174) |
 | [[Dasein]]   | [Aufhebung of becoming via sharp modality](Aufhebung#ExamplesBecomingFormalization) $\left(\array{\flat &\dashv&\sharp \\ \vee && \vee \\ \emptyset &\dashv& \ast}\right)$ | [&#167;182](#182),  [&#167;183](#183), [&#167;187](#187), [&#167;191](#191), [&#167;194](#194) |
+| Etwas, Ding-an-sich  | generic [[object]] | [&#167;227](#227), [EL&#167;124](#EL124), [#EL124Zusatz](EL&#167;124Zusatz) |
 | moment of repulsion | [[flat modality]] $\flat$ | [&#167;342](#342), [[Cohesive Toposes and Cantor's "lauter Einsen"|Law94]] |
 | moment of attraction | [[cohesion]], [[shape modality]] $&#643;$ | [&#167;395](#395) |
 | quality | [[adjoint modality]] (attraction $\dashv$ repulsion) = ($&#643; \dashv \flat$) |  [&#167;369](#369), [&#167;370](#370), [&#167;342](#342) |
@@ -4139,7 +4140,7 @@ Indeed, by the discussion around [&#167;191](#191), Dasein is interpreted by the
 
 Now, at least in as far as [[sheaf toposes]] are concerned, then determining a topos over a [[base topos]] means to consider a [[category of sheaves]] with values in the base topos, and the logical interpretation of this is _[[forcing]]_: the [[site]] encodes the forcing-into-existence of certain [[objects]], satisfying certain relations.
 
-The archetypical case of this is the [[classifying topos]] for objects. Internally, this is the topos obtained from the base topos by adjoining what today is called a _generic object_, but what one might just as well call an _object-in-itself_ (Objekt an sich). 
+The archetypical case of this is the [[classifying topos]] for objects. Internally, this is the topos obtained from the base topos by adjoining what today is called a _generic object_, but what one might just as well call an _object-in-itself_ (Objekt an sich). See ([&#167;227](#227), [EL&#167;124](#EL124), [#EL124Zusatz](EL&#167;124Zusatz)).
 
 More general sheaf toposes encode the forcing of more objects, and of relations between them. In either case, the _Dasein_ (being-there) exhibited by a topos over a base topos brings with it things (objects) which thereby "are there". 
 
@@ -4214,7 +4215,11 @@ This is the [[Aufhebung]] discussed around [&#167;182](#182), [&#167;183](#183)
 
 For the last one, see below [&#167;1636](#1636).
 
+For the following comment on the thing-in-itself, see also ([EL&#167;124](#EL124), [#EL124Zusatz](EL&#167;124Zusatz)).
 
+> {#227} &#167;227 Es kann bemerkt werden, da&#223; sich hier der Sinn des Dings-an-sich ergibt, das eine sehr einfache Abstraktion ist, aber eine Zeitlang eine sehr wichtige Bestimmung, gleichsam etwas Vornehmes, so wie der Satz, da&#223; wir nicht wissen, was die Dinge an sich sind, eine vielgeltende Weisheit war.  - Die Dinge hei&#223;en an-sich, insofern von allem Sein-f&#252;r-Anderes abstrahiert wird, das hei&#223;t &#252;berhaupt, insofern sie ohne alle  Bestimmung, als Nichtse gedacht werden. In diesem Sinn kann man freilich nicht wissen, was das Ding an-sich ist. Denn die Frage Was? verlangt, da&#223; Bestimmungen angegeben werden; indem aber die Dinge, von denen sie anzugeben verlangt w&#252;rde, zugleich Dinge-an-sich sein sollen, das hei&#223;t eben ohne Bestimmung, so ist in die Frage gedankenloserweise die Unm&#246;glichkeit der Beantwortung gelegt, oder man macht nur eine widersinnige Antwort.  - Das Ding-an-sich ist dasselbe, was jenes Absolute, von dem man nichts wei&#223;, als da&#223; Alles eins in ihm ist. Man wei&#223; daher sehr wohl, was an diesen Dingen-an-sich ist; sie sind als solche nichts als wahrheitslose, leere Abstraktionen. Was aber das Ding-an-sich in Wahrheit ist, was wahrhaft an sich ist, davon ist die Logik die Darstellung, wobei aber unter Ansich etwas Besseres als die Abstraktion verstanden wird, n&#228;mlich was etwas in seinem Begriffe ist; dieser aber ist konkret in sich, als Begriff &#252;berhaupt begreiflich und als bestimmt und Zusammenhang seiner Bestimmungen in sich erkennbar.
+
+> &#167;227 It may be observed that the meaning of the thing-in-itself is here revealed; it is a very simple abstraction but for some while it counted as a very important determination, something superior, as it were, just as the proposition that we do not know what things are in themselves ranked as a profound piece of wisdom. Things are called 'in themselves' in so far as abstraction is made from all being-for-other, which means simply, in so far as they are thought devoid of all determination, as nothings. In this sense, it is of course impossible to know what the thing-in-itself is. For the question: what? Demands that determinations be assigned; but since the things of which they are to be assigned are at the same time supposed to be things in-themselves, which means, in effects to,- be without any determination, the question is thoughtlessly made impossible to answer, or else only an absurd answer is given. The thing-in-itself is the same as that absolute of which we know nothing except that in it all is one. What is in these things-in-themselves, therefore, we know quite well; they are as such nothing but truthless, empty abstractions. What, however, the thing-in-itself is in truth, what truly is in itself, of this logic is the exposition, in which however something better than an abstraction is understood by 'in-itself', namely, what something is in its Notion; but the Notion is concrete within itself, is comprehensible simply as Notion, and as determined within itself and the connected whole of its determinations, is cognisable.
 
 ##### C. Die Unendlichkeit
 
@@ -5894,6 +5899,8 @@ From the _Shorter Logic_:
 > {#EL124} EL&#167;124 Die Reflexion-in-Anderes des Existierenden ist aber ungetrennt von der Reflexion-in-sich; der Grund ist ihre Einheit, aus der die Existenz hervorgegangen ist. Das Existierende enth&#228;lt daher die Relativit&#228;t und seinen mannigfachen Zusammenhang mit anderen Existierenden an ihm selbst und ist in sich als Grund reflektiert. So ist das Existierende Ding. Das Ding-an-sich, das in der Kantischen Philosophie so ber&#252;hmt geworden, zeigt sich hier in seiner Entstehung, n&#228;mlich als die abstrakte Reflexion-in-sich, an der gegen die Reflexion-in-Anderes und gegen die unterschiedenen Bestimmungen &#252;berhaupt als an der leeren Grundlage derselben festgehalten wird.
 
 > {#EL124Zusatz} EL&#167;124Zusatz  Wenn behauptet wird, da&#223; das Ding-an-sich unerkennbar sei, so ist dies insofern zuzugeben, als man unter dem Erkennen das Auffassen eines Gegenstandes in seiner konkreten Bestimmtheit zu verstehen hat, das Ding-an-sich aber nichts anderes ist als das ganz abstrakte und unbestimmte Ding &#252;berhaupt.  
+
+See also [&#167;227](#227)
 
 The abstract and undetermined thing in itself: the generic object $X$ in the [classifying topos for objects](classifying+topos#ForObjects) $\mathbf{H}[X] = [\infty Grpd_{fin}, \mathbf{H}]$. 
 
