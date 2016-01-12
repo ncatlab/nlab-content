@@ -1,0 +1,3 @@
+I'm an undergraduate math major at Amherst College writing an honors thesis on some of the properties of the homotopy theory of $(\infty,n)$-categories (including $n=\infty$). I've only decided to fill out this page so that when I make tweaks to $n$Lab articles, people know who is to blame!
+
+If you'd like to contact me for any reason, I can be reached at kferendo15 at amherst dot edu.
