@@ -494,8 +494,8 @@ This is proven inside the proof of ([Pridham, prop. 4.42](#Pridham)).
 +-- {: .num_remark #CategoryOfFibrantObjectsLInfinity}
 ###### Remark
 
-In particular this shows that 
-the category $L_\infty Alg$ 
+Prop. \ref{LInfinityAlgebraIsFibrantObjectIndgFormalSpace} 
+shows in particular that  the category $L_\infty Alg$ 
 of prop/def. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} carries the structure of a _[[category of fibrant objects]]_ that presents the [[homotopy theory]] of $L_\infty$-algebras. Notice that, of course, passing to the full subcategory of fibrant objects does not change the [[homotopy theory]] presented by the underlying [[category with weak equivalences]] in that we have an [[equivalence of (∞,1)-categories]] between the [[simplicial localizations]]
 
 $$
