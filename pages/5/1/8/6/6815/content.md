@@ -41,16 +41,19 @@ The M2-brane carries [[electric charge]] under the [[supergravity C-field]]. The
 
 ## References
 
+The relevant literature until 1999 is collected in
+
 * {#Duff99} [[Mike Duff]], _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
+See also the references at _[[M-theory]]_ and at _[[M2-brane]]_, _[[M5-brane]]_, _[[M9-brane]]_.
 
-See also the references at _[[M-theory]]_ and those at the separate M-brane entries.
+Review of some [[black brane]]-aspects of M-branes includes
+
+* [[David Berman]], _M-theory branes and their interactions_, Phys. Rept. 456:89-126, 2008 ([arXiv:0710.1707](http://arxiv.org/abs/0710.1707))
+
+Discussion of plenty of [[cohomology|cohomological]] structures involved in M-brane physics is in
 
 * [[Hisham Sati]], _[[Geometric and topological structures related to M-branes]]_, 2010
-
-Further references include
-
-* Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
 The [[brane intersection]] laws of M-branes are discussed in
 
@@ -60,6 +63,9 @@ The [[brane intersection]] laws of M-branes are discussed in
 
 * {#Townsend97} [[Paul Townsend]], section 4 of _M-theory from its superalgebra_ ([arXiv:hep-th/9712004](http://arxiv.org/abs/hep-th/9712004))
 
+Further references include
+
+* Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
 
 
