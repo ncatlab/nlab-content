@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Preliminaries
@@ -27,9 +27,9 @@ $$
   \array{
     a &\stackrel{u}{\to}& c
     \\
-    \downarrow^f
+    \downarrow^{\mathrlap{f}}
     &&
-    \downarrow^g
+    \downarrow^{\mathrlap{g}}
     \\
    b &\stackrel{v}{\to}& d    
   }
@@ -52,7 +52,7 @@ $$
 $$
 
 
-from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **lift** or a **solution** to the lifting problem $(u,v)$.
+from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **[[lift]]** or a **solution** to the lifting problem $(u,v)$.
 
 (If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
 
@@ -129,7 +129,7 @@ $$
   \array{
      A &\to& Z \times_f X
      \\
-     \downarrow^i && \downarrow^{f^* p}
+     \downarrow^i && \downarrow^{\mathrlap{f^* p}}
      \\
      B &\stackrel{g}{\to}& Z
   }
@@ -141,8 +141,8 @@ $$
   \array{
      A &\to& Z \times_f X &\to& X
      \\
-     \downarrow^i && \downarrow^{f^* p} 
-     && \downarrow^p
+     \downarrow^i && \downarrow^{\mathrlap{f^* p}} 
+     && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& Y
   }
@@ -155,7 +155,7 @@ $$
   \array{
     A &\to& X
     \\
-    \downarrow^i &{}^{\hat {(f g)}}\nearrow&  \downarrow^p
+    \downarrow^{\mathrlap{i}} &{}^{\hat {(f g)}}\nearrow&  \downarrow^{\mathrlap{p}}
     \\
     B &\stackrel{f g}{\to}& Y
   }
@@ -168,8 +168,8 @@ $$
   \array{
      && Z \times_f X &\to& X
      \\
-     &{}^{\hat g} \nearrow& \downarrow^{f^* p} 
-     && \downarrow^p
+     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}} 
+     && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\to}& Z &\stackrel{f}{\to}& Y
   }
@@ -183,7 +183,7 @@ $$
   \array{
      A &\to& Z \times_f X
      \\
-     \downarrow^i & {}^{\hat g}\nearrow
+     \downarrow^{\mathrlap{i}} & {}^{\hat g}\nearrow
      \\
      B
   }
