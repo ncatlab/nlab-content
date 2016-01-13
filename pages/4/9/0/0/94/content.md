@@ -576,7 +576,7 @@ For more general 'weak Lie 2-algebras', see:
 ### Appearance in physics
  {#ReferencesInPhysics}
 
-The following lists, mainly in chronological order of their discovery, $L_\infty$-algebra structures appearing in [[physics]], notably in [[supergravity]], [[string theory]] and [[local field theory]].
+The following lists, mainly in chronological order of their discovery, $L_\infty$-algebra structures appearing in [[physics]], notably in [[supergravity]], [[BV-BRST formalism]], [[string theory]] and [[local field theory]].
 
 #### In supergravity
 
@@ -598,6 +598,17 @@ Further exposition of this includes
 
 See also at _[[supergravity Lie 3-algebra]]_, and _[[supergravity Lie 6-algebra]]_.
 
+#### In BV-BRST formalism
+ {#ReferencesBVBRSTFormalism}
+
+The understanding that the [[BV-BRST complex]] used in physics to model the [[derived critical locus]] of the [[action functionals]] of [[gauge theories]] is mathematically the [[formal dual]] [[Chevalley-Eilenberg algebra]] of a [[derived L-∞ algebroid]] originates around
+
+* {#Stasheff96} [[Jim Stasheff]], _Homological Reduction of Constrained Poisson Algebras_, J. Differential Geom. Volume 45, Number 1 (1997), 221-240 ([arXiv:q-alg/9603021](http://arxiv.org/abs/q-alg/9603021), [Euclid](https://projecteuclid.org/euclid.jdg/1214459757))
+
+* [[Jim Stasheff]], _The (secret?) homological algebra of the Batalin-Vilkovisky approach_ ([arXiv](http://arxiv.org/abs/hep-th/9712157))
+
+The [[L-∞ algebroid]]-structure was made fully explicit in ([def. 4.1 of v1](http://arxiv.org/abs/0910.4001v1)) of ([Sati-Schreiber-Stasheff 09](#SatiSchreiberStasheff09)).
+
 #### In string field theory
 
 The first major explicit appearance of $L_\infty$-algebras in theoretical physics is the $L_\infty$-algebra structure on the [[BRST complex]] of the [[closed string|closed]] [[bosonic string]] found in the context of [[string field theory]] in 
@@ -616,7 +627,7 @@ Next it was again $L_\infty$-algebras of [[finite type]] that drew attention. It
 
 and the relation to the Green-Schwarz mechanism is made explicit in 
 
-* {#SSSIII}[[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, 2012, Volume 315, Issue 1, pp 169-213  ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+* {#SatiSchreiberStasheff09} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, 2012, Volume 315, Issue 1, pp 169-213  ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
 
 This article also observes that an analogous situation appears in [[dual heterotic string theory]] with the _[[fivebrane Lie 6-algebra]]_ in place of the string Lie 2-algebra.
   
