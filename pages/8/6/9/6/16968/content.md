@@ -24,6 +24,22 @@ The generalization of the concept of [[suspension spectrum]] from [[stable homot
 
 ## Definition
 
+### As a spectrum indexed on a $G$-universe
+
+Let $X$ be a [[pointed topological space|pointed]] [[topological G-space]]. For a [[representation]] $V$ in the [[G-universe]] $U$, write $S^V$ for its [[representation sphere]].
+
+As a [[G-spectrum]] indexed on a [[G-universe]]:
+
+1. the _suspension $G$-pre-spectrum_ is $\Pi^\infty X \colon V \mapsto S^V \wedge X$;
+
+1. the suspension $G$-spectrum is $\Sigma^\infty X \colon V \mapsto Q(S^V \wedge X)$
+
+where $Q (-) = \underset{V \in U}{\cup} \Omega^V \Sigma^V X$.
+
+([Greenlees-May 95](#GreenleesMay95))
+
+### As an orthogonal spectrum
+
 The _equivariant suspension spectrum_ $\Sigma^\infty_G X$ of a [[pointed topological space|pointed]] [[topological G-space]] $X$ is the [[G-spectrum]] which, modeled as an [[orthogonal spectrum]] with $G$-action, is in degree $n$ given by the [[smash product]]
 
 $$
@@ -61,6 +77,9 @@ for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It fol
 The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty_G X$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
 
 ## References
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
 
 * {#Schwede15} [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
