@@ -10,15 +10,14 @@
 =--
 =--
 
-This page collects material related to
+The **Timaeus** is one of [[Plato's]] dialogues in which he gives an account of the construction of the universe by a rational craftsman, or Demiurge. The four "elements" (earth, air, fire, water) are associated with four of the five [[Platonic solids]].
 
-* [[Plato]]
 
-  _Timaeus_
 
 ## Related entries
 
 * [[Parmenides dialogue]]
+* [[Platonic solid]]
 
 ## Reference
 
