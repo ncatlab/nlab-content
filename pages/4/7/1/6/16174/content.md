@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -7,6 +21,26 @@ The Burnside ring $A(G)$ of a [[finite group]] $G$ is the analogue of the [[repr
 Elements of the Burnside ring are thus formal differences of [[G-sets]] (with respect to [[disjoint union]]).
 
 $A$ is a contravariant functor $\text{FinGrp} \xrightarrow{A} \text{AbRing}$.
+
+## Properties
+
+### In equivariant homotopy theory
+
+It turns out that the Burnside ring is isomorphic to the [[colimit]]
+
+$$
+  A(G) \simeq \underset{\longrightarrow}{\lim}_V [S^V,S^V]_G
+$$
+
+over $G$-[[representations]] in a complete [[G-universe]], of $G$-[[homotopy classes]] of $G$-equivariant based [[continuous functions]] from the [[representation sphere]] $S^V$ to itself.
+
+([Greenlees-May 95, p. 8](#GreenleesMay95))
+
+See also at _[[orbit category]]_.
+
+## References
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], section 2 of _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 
 [[!redirects burnside ring]]
