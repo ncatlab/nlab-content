@@ -4,7 +4,7 @@ J. Peter May is a [[homotopy theory|homotopy theorist]] at the University of Chi
 
 * [Peter May's webpage](http://www.math.uchicago.edu/~may/).
 
-* [Peter May: Wikipedia entry]([http://en.wikipedia.org/wiki/J._Peter_May).
+* [Peter May: Wikipedia entry](http://en.wikipedia.org/wiki/J._Peter_May).
 
 #related $n$Lab entries#
 
