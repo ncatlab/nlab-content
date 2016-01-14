@@ -332,7 +332,7 @@ $$
 
 ### The $n$-sphere
 
-...
+See at _[[rational n-sphere]]_.
 
 ### Complex projective space
 
