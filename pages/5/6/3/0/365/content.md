@@ -21,40 +21,7 @@
 
 ## Preliminaries
 
-Let $K$ be a [[category]] and write $arr(K)$ for the [[arrow category]] of $K$: the category with arrows (= [[morphisms]]) $a \stackrel{f}{\to} b$ of $K$ as objects and commutative squares $g u=v f$ 
 
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^{\mathrlap{f}}
-    &&
-    \downarrow^{\mathrlap{g}}
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
-
-as morphisms $(u,v) : f \rightarrow g$. We may also refer to a commutative square $g u=v f$ as a **lifting problem** between $f$ and $g$.
-
-We say a morphism $f$ has the **left lifting property** with respect to a morphism $g$ or equivalently that $g$ has the **right lifting property** with respect to $f$, if for every commutative square $(u,v) :f \rightarrow g$ as above,  there is an arrow $\gamma$ 
-
-$$
-  \array{
-    a &\stackrel{u}{\to}& c
-    \\
-    \downarrow^f
-    &{}^{\exists \gamma}\nearrow&
-    \downarrow^g
-    \\
-   b &\stackrel{v}{\to}& d    
-  }
-$$
-
-
-from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles commute. We call such an arrow $\gamma$ a **[[lift]]** or a **solution** to the lifting problem $(u,v)$.
-
-(If this lift is unique, we say that $f$ is **[[orthogonal]]** $f \perp g$ to $g$.)
 
 ## Definition
 
@@ -62,16 +29,16 @@ A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes 
 
 (i) Every morphism $f$ of $K$ can be factored as $f=r l$ with $l \in L$ and $r \in R$.
 
-(ii) $L$ is the class of morphisms which have the left lifting property with respect to every morphism of $R$.
+(ii) $L$ is the class of morphisms which have the [[left lifting property]] with respect to every morphism of $R$.
 
-(iii) $R$ is the class of morphisms which have the right lifting property with respect to every morphism of $L$.
+(iii) $R$ is the class of morphisms which have the [[right lifting property]] with respect to every morphism of $L$.
 
 See the [[joyalscatlab:Weak factorisation systems|Catlab]] for the theory. 
 
 
 ## Orthogonal Factorization Systems
 
-An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each lifting problem be _unique_.
+An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each [[lifting problem]] be _unique_.
 
 While every OFS is evidently a WFS, the primary examples of each are different.  A "basic example" of an OFS is (epi, mono) in [[Set]] (meaning $L$ is the collection of [[epimorphisms]] and $R$ that of [[monomorphisms]]), while a "basic example" of a WFS is (mono, epi) in $Set$.  The superficial similarity of these two examples masks the fact that they generalize in very different ways.  The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
 
@@ -231,9 +198,4 @@ A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ su
 * [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Weak factorisation systems]]_
 
 [[!redirects weak factorization systems]]
-[[!redirects lifting property]]
-[[!redirects right lifting property]]
-[[!redirects left lifting property]]
 
-[[!redirects lifting problem]]
-[[!redirects lifting problems]]
