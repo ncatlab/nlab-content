@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-Write $[E_1,E_2]$ for the [[homotopy classes]] of maps. The stable homotopy category is equivalrntly the category of spectra of CW-type with these homotopy classes of maps between them.
+Write $[E_1,E_2]$ for the [[homotopy classes]] of maps. The stable homotopy category is equivalently the category of spectra of CW-type with these homotopy classes of maps between them.
 
 ([Elmendorf-Kriz-May, p. 8](#ElmendorfKrizMay))
 
