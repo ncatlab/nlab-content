@@ -195,7 +195,7 @@ The term became fully established with surveys including
 
 * [[Michael Duff]], _M-Theory (the Theory Formerly Known as Strings)_,  Int. J. Mod. Phys. A11 (1996) 5623-5642 ([arXiv:hep-th/9608117](http://arxiv.org/abs/hep-th/9608117))
 
-Despite the magic and mystery, the relation to the original abbreviation for _membrabe-theory_ was highlighted again for instance in 
+Despite the magic and mystery, the relation to the original abbreviation for _membrane-theory_ was highlighted again for instance in 
 
 * [[Paul Townsend]], _M(embrane) theory on $T^0$_, Nucl.Phys.Proc.Suppl.68:11-16,1998 ([arXiv:hep-th/9708034](http://arxiv.org/abs/hep-th/9708034))
 
