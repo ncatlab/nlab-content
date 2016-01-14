@@ -28,7 +28,7 @@
 ###### Definition
 
 Let $C$ be a [[category]] and let $(E,M)$ be two [[classes]] of [[morphisms]] in 
-$C$. We say that $(E,M)$ is an **orthogonal factorization system** if $(E,M)$ is a [[weak factorization system]] in which solutions to lifting problems are unique.  
+$C$. We say that $(E,M)$ is an **orthogonal factorization system** if $(E,M)$ is a [[weak factorization system]] in which solutions to [[lifting problems]] are unique.  
 
 =--
 
