@@ -27,4 +27,6 @@ The _Burnside category_ of a [[finite group]] $G$ is essentially the [[category 
 
 * {#GuillouMay11} [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
+* [[Michael Hopkins]], [pdf](https://math.berkeley.edu/~aaron/ytm2012/hopkins.pdf)
+
 [[!redirects Burnside categories]]
