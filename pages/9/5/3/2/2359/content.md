@@ -24,7 +24,7 @@ This is the [[category]] studied in [[stable homotopy theory]].
 
 ### Via left homotopy of spectra
 
-Let $PreSpectra \stackrel{\overset{L}{\longleftarrow}}{\underset{\ell}{\hookrightarrow}} Spectra$ be the 1-categorical [[adjunction]] between spectra and pre-spectra. For $E$ a spectrum and $X$ a [[pointed topological space]], write
+Let $PreSpectra \stackrel{\overset{L}{\longrightarrow}}{\underset{\ell}{\longleftarrow}} Spectra$ be the 1-categorical [[adjunction]] between spectra and prespectra, in the sense defined at [[coordinate-free spectrum]], where $\ell$ is the forgetful functor. For $E$ a spectrum and $X$ a [[pointed topological space]], write
 
 $$
   E \wedge X \coloneqq L(\ell E \wedge X)
