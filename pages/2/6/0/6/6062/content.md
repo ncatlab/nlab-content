@@ -218,6 +218,8 @@ $$
 
 and then extended as a coderivation.
 
+(The _Chevalley-Eilenberg_ dg-coalgebra.)
+
 =--
 
 
@@ -244,8 +246,7 @@ $$
 If one thinks of a [[dg-coalgebra]] as presenting a
 a derived formal space, as discuss [below](#SheavesOverCosimplicialInfinitesimallyThickenedPoints)
 then its image under $\mathcal{L}$, prop. \ref{LeftAdjointFromDgCoAlgToDgAlg}, 
-may be thought of as its
-_tangent dg-Lie algebra_. Therefore $\mathcal{L}$
+may be thought of as its _tangent dg-Lie algebra_. Therefore $\mathcal{L}$
 is also called the **tangent Lie algebra functor**.
 
 =--
@@ -281,6 +282,31 @@ for which
 ([Hinich98, theorem 3.1](#Hinich98)) See also ([Pridham, lemma 3.25](#Pridham)).
 
 We call this the **[[model structure on dg-coalgebras]]**.
+
++-- {: .num_remark #OndgCoAlgWEs}
+###### Remark/Warning
+
+Beware that the class of weak equivalences in prop. \ref{ModelStructureOnCocommutativeDGCoalgebras} is _not_ that of quasi-isomorphisms on the chain complexes underlying the dg-coalgebras. 
+
+=--
+
+But they form a sub-class:
+
++-- {: .num_prop #dgLieQIsTodgCoAlgs}
+###### Proposition
+
+The Chevalley-Eilenberg functor 
+
+$$
+  \mathcal{C} \;\colon\;  dgLieAlg_k \to dgCoCAlg_k
+$$
+
+from def. \ref{SendingDGLieAlgebraToDgCoalgebra} sends [[quasi-isomorphisms]] on the [[chain complexes]] underlying [[dg-Lie algebras]] to [[quasi-isomorphisms]] on the chain complexes underlying their Chevalley-Eilenberg [[dg-coalgebras]].
+
+=--
+
+([Lurie, prop. 2.2.6](#Lurie))
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -528,6 +554,13 @@ The first statement is proven in the proof of ([Pridham, prop. 4.42](#Pridham)),
 
 =--
 
++-- {: .num_prop #OnWEsOnLInfinity}
+###### Remark/Warning
+
+Beware, as in remark \ref{OndgCoAlgWEs}, that the class of weak equivalences in prop. \ref{LInfinityAlgebrasAsACategoryOfFibrantObjects} differs from that of those maps on associated [[Chevalley-Eilenberg algebras]] which are quasi-isos on the underlying chain complexes of the [[dg-algebra]] (which instead are the weak equivalences in the standard [[model structure on dg-algebras]], hence in particular those used in Sullivan [[rational homotopy theory]]). Instead the weak equivalences correspond to the maps of CE-algebra that are quasi-isomorphisms only on the chain complexes given by the co-unary component of the differential of the CE-algebra.
+
+=--
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -729,8 +762,7 @@ The full model structure on dg-coalgebras (in characteristic 0) and the Quillen 
 
 In 
 
-* [[Jacob Lurie]], _[[Formal Moduli Problems]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Formal Moduli Problems]]_
 
 the relation to $\infty$-stacks is discussed more in detail.
 
