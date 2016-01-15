@@ -55,7 +55,13 @@ $$
 
 * [[ETop∞Grpd]]
 
+## References
 
+The corresponding 1-[[cohesive topos]] over locally _connected_ topological spaces was considered in
+
+* {#Johnstone11} [[Peter Johnstone]], example 1.5 of _Remarks on punctual local connectedness_, Theory and Applications of Categories, Vol. 25, 2011, No. 3, pp 51-63 ([web](http://www.tac.mta.ca/tac/volumes/25/3/25-03abs.html))
+
+A decent account of the above $\infty$-topos is in prepation by [[David Carchedi]]...
 
 [[!redirects locally contractible topological ∞-groupoid]]
 [[!redirects LCTop∞Grpd]]
