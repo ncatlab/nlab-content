@@ -3,7 +3,9 @@
 
 ## related $n$Lab entries
 
-* [[equivariant homotopy theory]]
+* [[equivariant homotopy theory]], [[equivariant stable homotopy theory]]
+
+* [[tom Dieck splitting]]
 
 * [[Mackey functor]]
 
@@ -11,3 +13,5 @@
 
 
 category: people
+
+[[!redirects Bertrand Guillou]]
