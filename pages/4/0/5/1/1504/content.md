@@ -463,8 +463,8 @@ Original articles are
 
 The fundamental work of Zwiebach on closed SFT is summed up in
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
-  {#Zwiebach}
+* {#Zwiebach} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+  
 
 Brief reviews include
 
@@ -479,8 +479,8 @@ The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] c
 
 Discussion of the expected closed string tachyon [[vacuum]] is in 
 
-* Haitang Yang, [[Barton Zwiebach]], _A Closed String Tachyon Vacuum ?_, JHEP 0509:054,2005 ([arXiv:hep-th/0506077](http://arxiv.org/abs/hep-th/0506077))
- {#YangZwiebach}
+* {#YangZwiebach} Haitang Yang, [[Barton Zwiebach]], _A Closed String Tachyon Vacuum ?_, JHEP 0509:054,2005 ([arXiv:hep-th/0506077](http://arxiv.org/abs/hep-th/0506077))
+ 
 
 * [[Nicolas Moeller]], Haitang Yang, _The nonperturbative closed string tachyon vacuum to high level_ ([arXiv:hep-th/0609208](http://arxiv.org/abs/hep-th/0609208))
 
@@ -607,7 +607,6 @@ Discussion of the mathematical aspects is in
 
 * {#Markl} [[Martin Markl]], _Loop Homotopy Algebras in Closed String Field Theory_ (1997) ([arXiv:hep-th/9711045](http://arxiv.org/abs/hep-th/9711045))
  
-
 * [[Alessandro Tomasiello]], _A-infinity structure and superpotentials_ ([arXiv:hep-th/0107195](http://arxiv.org/abs/hep-th/0107195))
 
 
