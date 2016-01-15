@@ -25,7 +25,7 @@ The special case of [[super Yang-Mills theory]] over a [[spacetime]] of [[dimens
 ### Moduli space of vacua
  {#ModuliSpacesOfVacua}
 
-A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _Coulomb branch_ and the _Higgs branch_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94)) Review includes ([Albertsson 03, section 2.3.4](#Albertsson03)).
+A speciality of $N=2$, $D = 4$ SYM is that its [[moduli space]] of [[vacua]] has two "branches" called the _[[Coulomb branch]]_ and the _[[Higgs branch]]_. This is the content of what is now called _[[Seiberg-Witten theory]]_ ([Seiberg-Witten 94](#SeibergWitten94)). Review includes ([Albertsson 03, section 2.3.4](#Albertsson03)).
 
 ### Confinement
 
@@ -73,8 +73,8 @@ Specifically the _[[AGT correspondence]]_ expresses this relation in terms of th
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
- {#SeibergWitten94}
+* {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
+ 
 
 The dimensional reduction to $D = 3$ was first considered in
 
@@ -83,8 +83,8 @@ The dimensional reduction to $D = 3$ was first considered in
 
 The [[confinement]]-phenomenon was observed in 
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
-  {#SeibergWitten94}
+* {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopole Condensation, And Confinement In N=2 Supersymmetric Yang-Mills Theory_,  	Nucl.Phys.B426:19-52,1994; Erratum-ibid.B430:485-486,1994 ([arXiv:hep-th/9407087](http://arxiv.org/abs/hep-th/9407087))
+  
 
 Reviews of that include
 
@@ -102,8 +102,8 @@ For references on [[wall crossing]] of [[BPS states]] see the references given t
 
 * [[Davide Gaiotto]], _Recent progress in $N=2$ $4d$ field theory_ (2009) ([pdf](http://www.physics.rutgers.edu/het/video/gaiotto09a.pdf))
 
-* [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
- {#Moore12}
+* {#Moore12} [[Gregory Moore]], _Four-dimensional $N=2$ Field Theory and Physical Mathematics_ ([arXiv:1211.2331](http://arxiv.org/abs/1211.2331))
+ 
 
 
 * [[Greg Moore]], _Surface Defects and the BPS Spectrum of $4d$ $N=2$ Theories_ ([pdf](http://www.physics.rutgers.edu/~gmoore/SolvayMay19Final.pdf))
@@ -165,7 +165,6 @@ Discussion of construction of just [[N=1 D=4 super Yang-Mills theory]] this way 
 
 * Ibrahima Bah, Christopher Beem, Nikolay Bobev, Brian Wecht, _Four-Dimensional SCFTs from M5-Branes_ ([arXiv:1203.0303](http://arxiv.org/abs/1203.0303))
 
-[[!redirects Coulomb branch]]
 [[!redirects Higgs branch]]
 
 [[!redirects N=2 D=4 sYM]]
