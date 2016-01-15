@@ -128,6 +128,21 @@ where $\eta$ is the [[Dedekind eta function]].
 
 (recalled e.g. in [Todorov 03, page 3](#Todorov03))
 
+
+### Zeta regularization for divergent integrals ###
+
+the zeta regularizatio method can be extended to include also a regularization for the divergent integrals $ \int_{a}^{\infty}x^{m}dx $ which appears in QFT, this is made by means of the identity
+
+$$\begin{array}{l}
+\int_{a}^{\infty }x^{m-s} dx =\frac{m-s}{2} \int_{a}^{\infty }x^{m-1-s} dx +\zeta (s-m)-\sum_{i=1}^{a}i^{m-s}  +a^{m-s}  \\
+-\sum_{r=1}^{\infty }\frac{B_{2r} \Gamma (m-s+1)}{(2r)!\Gamma (m-2r+2-s)}  (m-2r+1-s)\int_{a}^{\infty }x^{m-2r-s} dx \end{array}  $$
+
+for the case of $ m=-1$ although the harmonic series has a pole we can regularize by the 2 possibilities
+
+$ \sum_{n=0}^{\infty} \frac{1}{n+a} = -\Psi (a) $ or $ \sum_{n=0}^{\infty} \frac{1}{n+a} = -\Psi (a)+log(a) $ in particular   
+$ \sum_{n=1}^{\infty} \frac{1}{n} = \gamma $  Euler-Mascheroni constant.
+
+So within this reuglarization there wouldn't be any UV ultraviolet divergence
 ### Analytic torsion
 
 The functional determinant of a [[Laplace operator]] of a [[Riemannian manifold]] acting on [[differential n-forms]] is up to a sign in the exponent a factor in what is called the _[[analytic torsion]]_ of the manifold.
