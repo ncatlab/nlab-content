@@ -224,6 +224,8 @@ The first example along these lines is the [[Kalb-Ramond field]] or [[B-field]],
 
 * [[higher category theory and physics]]
 
+* [[L-infinity algebras in physics]]
+
 * [[motivation for cohesion]]
 
 * [[motives in physics]]
@@ -254,4 +256,3 @@ For a survey of how higher differential geometry serves to capture subtle aspect
 (...)
 
 [[!redirects higher differential geometry applied to plain differential geometry]]
-
