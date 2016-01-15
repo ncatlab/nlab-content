@@ -43,15 +43,13 @@ See also the discussion at _[[symplectic duality]]_.
 
 The [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-Mills theory]] was first considered in
 
-* [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
- {#SeibergWitten96}
+* {#SeibergWitten96} [[Nathan Seiberg]], [[Edward Witten]], _Gauge Dynamics And Compactification To Three Dimensions_ ([arXiv:hep-th/9607163](http://arxiv.org/abs/hep-th/9607163))
+ 
 
 The mirror symmetry operation was discussed in 
 
-* [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys.Lett.B387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
- {#IntriligatorSeiberg}
+* {#IntriligatorSeiberg} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys.Lett.B387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
+ 
 
-[[!redirects Coulomb branch]]
-[[!redirects Higgs branch]]
 
 [[!redirects N=4 D=3 sYM]]
