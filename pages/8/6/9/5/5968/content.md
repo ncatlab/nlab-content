@@ -366,9 +366,11 @@ The original article is
 * {#Noether1918} [[Emmy Noether]], _Invariante Variationsprobleme_ Nachrichten der K&#246;niglichen Gesellschaft der Wissenschaften zu  G&#246;ttingen, Math. Phys. Kl, 235 (1918).
  
 
-Basic lecture notes include
+Lecture notes include
 
 * _Chapter 7, Noether's theorem_ ([pdf](http://www-physics.ucsd.edu/students/courses/fall2010/physics110a/LECTURES/CH07.pdf))
+
+* M&#225;ximo Ba&#241;ados, Ignacio A. Reyes, _A short review on Noether's theorems, gauge symmetries and boundary terms, for students_ ([arXiv:1601.03616](http://arxiv.org/abs/1601.03616)) 
 
 A comprehensive exposition of both the Lagrangian and the Hamiltonian version of the theorem is in 
 
