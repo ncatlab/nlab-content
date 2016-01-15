@@ -36,5 +36,9 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 
 * [[Chris Hull]], [[Barton Zwiebach]], _Double Field Theory_, JHEP 0909:099,2009 ([arXiv:0904.4664](http://arxiv.org/abs/0904.4664))
 
+Discussion in the context of [[L-infinity algebra]] includes
+
+* [[Andreas Deser]], [[Jim Stasheff]], _Even symplectic supermanifolds and double field theory_, Communications in Mathematical Physics November 2015, Volume 339, Issue 3, pp 1003-1020 ([arXiv:1406.3601](http://arxiv.org/abs/1406.3601))
+
 
 
