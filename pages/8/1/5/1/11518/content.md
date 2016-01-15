@@ -27,6 +27,8 @@ Such a [[G-universe]] is called _complete_ if it contains every [[irreducible re
 
 The genuine $G$-spectra are richer than _[[spectra with G-action]]_ and have better homotopy-theoretic properties. In particular the genuine [[equivariant cohomology]] theories which they [[Brown representability theorem|represent]] have [[suspension isomorphisms]] for suspension by all [[representation spheres]] and with respect to [[RO(G)-grading]].
 
+When $G$ is the trivial group, a $G$-spectrum is also known as a [[coordinate-free spectrum]].
+
 
 ## Models
 
