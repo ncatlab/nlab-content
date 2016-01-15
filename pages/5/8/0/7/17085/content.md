@@ -25,7 +25,7 @@ The generalization of the [[stable homotopy category]] from [[stable homotopy th
 
 ## Definition
 
-A [[homomorphism]] $f \colon E_1 \longrightarrow E_2$ between two [[G-spectra]], indexed on a [[G-universe]] $\mathcal{U}$, is called an equivariant[[weak homotopy equivalence]] if the following equivalent conditions hold
+A [[homomorphism]] $f \colon E_1 \longrightarrow E_2$ between two [[G-spectra]], indexed on a [[G-universe]] $\mathcal{U}$, is called an equivariant [[weak homotopy equivalence]] if the following equivalent conditions hold
 
 1. For each $V\in \mathcal{U}$ the component map $f_V \colon f$ induces ordinary [[weak homotopy equivalences]] $(E_1)_V^H \to (E_2)_V^H$ on all [[fixed point]] spaces for all closed [[subgroups]] $H \hookrightarrow G$.
 
