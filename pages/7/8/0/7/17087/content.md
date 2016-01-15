@@ -1,0 +1,40 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A certain [[moduli space]] that appears in [[super Yang-Mills theory]]. The topic of [[Seiberg-Witten theory]]. [[duality in physics|Dual]] to it under a version of [[mirror symmetry]] is the _[[Higgs branch]]_.
+
+## References
+
+The terminology "Coulomb branch" and "Higgs branch" first appears in 
+
+* {#SeibergWitten94} [[Nathan Seiberg]], [[Edward Witten]], _Monopoles, Duality and Chiral Symmetry Breaking in $N=2$ Supersymmetric QCD_ ([arXiv:hep-th/9408099](http://arxiv.org/abs/hep-th/9408099))
+
+Review includes
+
+* {#Albertsson03} Cecilia Albertsson, _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
+
+For mathematical discussion see
+
+* Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](http://arxiv.org/abs/1503.03676))
+
+* Alexander Braverman, Michael Finkelberg, Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, II_ ([arXiv:1601.03586](http://arxiv.org/abs/1601.03586))
+
+[[!redirects Coulomb branches]]
