@@ -47,7 +47,7 @@ $$
 
 where $\Sigma^\infty$ is the plain [[suspension spectrum]] construction.
 
-(e.g. [Schwede 15, example 7.7](#Schwede15))
+(e.g. [Guillou-May 12, theorem 5.3](#GuillouMay12), [Schwede 15, example 7.7](#Schwede15))
 
 In particular, since $W_G G = 1$ and $W_G 1 = G$, the extremal summands for $H = G$ and $H = 1$ are just the [[suspension spectrum]] $\Sigma^\infty (X^G)$ of the naive fixed points and the [[Borel construction]] of the full space, respectively
 
@@ -125,6 +125,8 @@ $$
 ## References
 
 * {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
+
+* {#GuillouMay12} [[Bert Guillou]], [[Peter May]], _Permutative $G$-categories in equivariant infinite loop space theory_ ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
 * {#Schwede15} [[Stefan Schwede]], section 6 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
