@@ -54,6 +54,8 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 
 * [[higher complex analytic geometry]]
 
+* [[L-infinity algebras in physics]]
+
 ## References
  {#References}
 
