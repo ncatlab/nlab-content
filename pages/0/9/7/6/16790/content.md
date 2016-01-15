@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -26,6 +36,10 @@ The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [
 
 [[!redirects near-horizon limit]]
 [[!redirects near-horizon limits]]
+
+[[!redirects near horizon limit]]
+[[!redirects near horizon limits]]
+
 
 [[!redirects near-horizon metric]]
 [[!redirects near-horizon metrices]]
