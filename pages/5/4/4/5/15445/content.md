@@ -67,6 +67,8 @@ $$
 
 * {#Frenkel05} [[Edward Frenkel]], _Lectures on the Langlands Program and Conformal Field Theory_, in _Frontiers in number theory, physics, and geometry II_, Springer Berlin Heidelberg, 2007. 387-533. ([arXiv:hep-th/0512172](http://arxiv.org/abs/hep-th/0512172))
 
+* [MO/96137/categorical-description-of-the-restricted-product-adeles](http://mathoverflow.net/questions/96137/categorical-description-of-the-restricted-product-adeles)
+
 [[!redirects restricted product]]
 [[!redirects restricted products]]
 [[!redirects restricted direct product]]
