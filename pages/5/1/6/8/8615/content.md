@@ -1,5 +1,5 @@
 
-Neil Ghani is professor for [[computer science]] at University of Strathclyde in Galsgow.
+Neil Ghani is professor for [[computer science]] at University of Strathclyde in Glasgow.
 
 * [webpage](https://personal.cis.strath.ac.uk/neil.ghani/)
 
