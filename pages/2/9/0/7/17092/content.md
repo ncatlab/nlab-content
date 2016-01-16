@@ -21,7 +21,7 @@
 
 The generalization of the [[Whitehead theorem]] from ([[stable homotopy theory|stable]])[[homotopy]] to ([[equivariant stable homotopy theory|stable]]) [[equivariant homotopy theory]].
 
-$G$-[[homotopy equivalences|Homotopy equivalences]] $f \colon X \longrightarow Y$ between [[G-CW complexes]] are equivalent to maps that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point]] spaces for all closed subgroups $H \hookrightarrow G$ ([Greenlees-May 95, theorem 2.4](#GreenleesMay95)).
+$G$-[[homotopy equivalences|Homotopy equivalences]] $f \colon X \longrightarrow Y$ between [[G-CW complexes]] are equivalent to maps that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point]] spaces for all closed subgroups $H \hookrightarrow G$ ([Greenlees-May 95, theorem 2.4](#GreenleesMay95)).
 
 For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are weak equivalences (isomorphisms in the [[equivariant stable homotopy category]]) if they induce isomorphisms on all [[equivariant homotopy group]] [[Mackey functors]] $\pi_n(f)\colon \pi_n(E) \longrightarrow \pi_n(F) $ (e. g. [Bohmann, theorem 3.2](#Bohmann)).
 
