@@ -143,7 +143,7 @@ Proof that the original version of the conjecture is false in general is due to
 
 The refined version of the conjecture stated in [[derived algebraic geometry]], called the [[categorical geometric Langlands conjecture]], is due to
 
-* {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _[[Notes on Geometric Langlands]], ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
+* {#GaitsgoryRozenblyum} [[Dennis Gaitsgory]],  [[Nick Rozenblyum]], _[[Notes on geometric Langlands]], ([web](http://www.math.harvard.edu/~gaitsgde/GL/))
 
 * {#ArinkinGaitsgory12} [[Dima Arinkin]], [[Dennis Gaitsgory]], _Singular support of coherent sheaves, and the geometric Langlands conjecture_ ([arXiv.1201.6343](http://arxiv.org/abs/1201.6343))
 
