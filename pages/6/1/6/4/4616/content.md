@@ -142,10 +142,8 @@ The definition of _good_ simplicial space goes back to
 
 The implication $good \Rightarrow proper$ seems to be handled like a folk theorem. Its origin is maybe in 
 
-* L. Gaunce Lewis Jr., _When is the natural map 
-  $X \to \Omega \Sigma X$ a cofibration?_ ,
-  Trans. Amer. Math. Soc. 273 (1982), 147--155.
-  {#Lewis}
+* {#Lewis} [[L. Gaunce Lewis, Jr.]], _When is the natural map $X \to \Omega \Sigma X$ a cofibration?_ , Trans. Amer. Math. Soc. 273 (1982), 147--155.
+  
 
 
 A generalization of the statement that good implies proper to other [[topological concrete categories]] and a discussion of the geometric realization of $W G \to \bar W G$ for $G$ a [[simplicial topological group]] is in 
