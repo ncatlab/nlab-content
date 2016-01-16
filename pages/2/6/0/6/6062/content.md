@@ -153,6 +153,7 @@ The following tabulates the main categories considered below, the functors relat
 
 Here we are trying to use suggestive names of the categories involved. The notation used here corresponds to that in ([Pridham](#Pridham)) by the following dictionary 
 
+
 > (handle with care, may still need attention)
 
 | notation  used here | notation in [Pridham](#Pridham) |
@@ -463,6 +464,13 @@ for the [[opposite category]] of that.
 =--
 
 This is ([Pridham, def. 3.1](#Pridham)).
+
++-- {: .num_remark #OnProAlg}
+###### Remark
+
+While it so happens that every [[nLab:coalgebra]] and [[dg-coalgebra]] is the [[filtered colimit]] of its [[finite number|finite]]-[[dimension|dimensional]] subalgebras (see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_), this is not in general the case for [[algebras]]. But it follows that the [[linear dual]] of a general coalgebra is a [[filtered limit]] of finite-dimensional algebras, hence a [[pro-object]] in finite dimensional algebras. This is the reason for the appearance of [[pro-objects]] in prop. \ref{dgFormalSpace}.
+
+=--
 
 +-- {: .num_prop #ModelStructureOnDgFormalSpace}
 ###### Proposition
@@ -793,4 +801,3 @@ A discussion of [[homotopy fibers]] of morphusms to abelian $L_\infty$-algebras 
 
 [[!redirects homotopy theory of L-∞ algebras]]
 [[!redirects homotopy theory of L-infinity algebras]]
-
