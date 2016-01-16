@@ -110,7 +110,7 @@ $$
   (const \dashv ev_0 \dashv (-)^{\times^\bullet})
   : 
   C
-  \stackrel{\overset{const}{\to}}{\stackrel{\overset{ev_0}{\leftarrow}}{\underset{(-)^{\times^\bullet}}{\to}}}
+  \stackrel{\overset{const}{\longrightarrow}}{\stackrel{\overset{ev_0}{\longleftarrow}}{\underset{(-)^{\times^\bullet}}{\longrightarrow}}}
   \,,
   [\Delta^{op}, C]
   \,,
