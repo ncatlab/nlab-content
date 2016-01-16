@@ -26,7 +26,7 @@ Quite generally, the term _Mackey functor_ refers to an [[additive functor]] fro
 
 Therefore the concept of Mackey functors is similar to that of [[sheaves with transfer]] and as such appears (implicitly) in the discussion of [[motives]] (explicitly e.g. in [Kahn-Yamazaki 11, section 2](#KahnYamazaki11), where $\mathcal{C}$ is a category of suitable [[schemes]]).
 
-The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). In that context it first received its full [[(∞,1)-category]]-theoretic formulation and discussion ([Barwick 14](#Barwick14)).
+The concept was however introduced and named as such in the context of [[representation theory]] ([Dress 71](#Dress71)) and [[equivariant homotopy theory]]/[[equivariant cohomology]] ([May 96](#May96)). Here the [[equivariant homotopy groups]] $\pi_n(E)$ of a (genuine) [[G-spectrum]] $E$ organize into a Mackey functor on $G$-orbits, and this plays a key role in the [[equivariant Whitehead theorem]].  In this context of [[equivariant stable homotopy theory]] Mackey functors were given a full [[(∞,1)-category]]-theoretic formulation in ([Barwick 14](#Barwick14)).
 
 ## Definition
 
@@ -34,13 +34,13 @@ We follow the modern account in ([Barwick 14](#Barwick14)).
 
 Let $\mathcal{C}$ be a [[disjunctive (∞,1)-category]] and write $Corr_1(\mathcal{C})^\otimes$ for the [[(∞,1)-category of correspondences]] in $\mathcal{C}$, regarded as a [[symmetric monoidal (∞,1)-category]] with respect to its [[coproduct]] (which is a [[biproduct]] by disjunctiveness of $\mathcal{C}$).
 
-Write $\mathcal{A} = $[[Spectra]]${}^\otimes$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to the [[smash product of spectra]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[stable (∞,1)-category]]
+Write $\mathcal{A} = $[[Spectra]]${}^\otimes$ for the [[(∞,1)-category of spectra]] regarded as a [[symmetric monoidal (∞,1)-category]] with respect to [[direct sum]].  More generally $\mathcal{A}$ could be any [[symmetric monoidal (∞,1)-category|symmetric monoidal]] [[stable (∞,1)-category]]
 
 Then a (spectral) _Mackey functor_ on $\mathcal{C}$ is a [[monoidal (∞,1)-functor]] of the form
 
 
 $$
-  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{\otimes}
+  S \;\colon\; Corr_1(\mathcal{C})^\otimes \longrightarrow \mathcal{A}^{\oplus}
   \,.
 $$
 
@@ -54,6 +54,7 @@ Notice that this means that $S$ is in particular
 1. satisfying the [[Beck-Chevalley condition]].
 
 (More generally one may specify suitably chosen sub-$(\infty,1)$-categories $\mathcal{C}^\dagger, \mathcal{C}_\dagger \subset \mathcal{C}$ and restrict $Corr_1$ to [[correspondences]] whose left leg is in $\mathcal{C}_\dagger$ and whose right leg is in $\mathcal{C}^\dagger$ ([Barwick 14, section 5](#Barwick14)).)
+
 
 ## Examples
 
@@ -91,7 +92,7 @@ $$
   \,,
 $$
 
-where now on the right we have just the [[homotopy classes]] of maps (e.g. [Greenlees-May 95, p. 43](#GreenleesMay95))
+where now on the right we have just the [[homotopy classes]] of maps, i.e. the morphisms in the [[equivariant stable homotopy category]] (e.g. [Greenlees-May 95, p. 43](#GreenleesMay95))
 
 
 (...)
