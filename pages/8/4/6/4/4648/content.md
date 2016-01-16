@@ -123,15 +123,15 @@ The conjecture goes back to
 
 based on
 
-* {#Laumon87} G&#233;rard Laumon, sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309-359
+* {#Laumon87} [[Gérard Laumon]], sections 5.3 and 4.3.3. of _Correspondance de Langlands g&#233;om&#233;trique pour les corps de fonctions_, Duke Math. Jour., vol. 54 (1987), 309-359
 
 Proof in the abelian case is due to
 
-* {#Laumon85} G&#233;rard Laumon, _Transformation de Fourier g&#233;om&#233;trique_ Preprint IHES/85/M/52 (1985)
+* {#Laumon85} [[Gérard Laumon]], _Transformation de Fourier g&#233;om&#233;trique_ Preprint IHES/85/M/52 (1985)
 
-* {#Laumon96} G&#233;rard Laumon, _Transformation de Fourier g&#233;n&#233;ralis&#233;e_ ([arXiv:alg-geom/9603004](http://arxiv.org/abs/alg-geom/9603004))
+* {#Laumon96} [[Gérard Laumon]], _Transformation de Fourier g&#233;n&#233;ralis&#233;e_ ([arXiv:alg-geom/9603004](http://arxiv.org/abs/alg-geom/9603004))
 
-* G&#233;rard Laumon, _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
+* [[Gérard Laumon]], _Travaux de Frenkel, Gaitsgory et Vilonen sur la correspondance de Drinfeld-Langlands_, [math.AG/0207078](http://arxiv.org/abs/math.AG/0207078)
 
 * {#Rothstein96} M. Rothstein. _Sheaves with connection on abelian varieties_, Duke Math. J., 84(3):565&#8211;598, 1996
 
