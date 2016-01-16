@@ -63,6 +63,7 @@ Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] 
 
 * [[pro-étale morphism of schemes]], [[pro-étale site]]
 
+* Since every ([[dg-coalgebra|dg-]])[[coalgebra]] is the [[filtered colimit]] of its finite-dimensional subalgebras (see at _[coalgebra -- as filtered colimit](coalgebra#AsFilteredColimits)_), the [[linear dual]] of a (dg-)coalgebra is canonically a pro-object in finite dimensional ([[dg-algebra|dg-]])[[associative algebra|algebras]]. This plays a role for instance for constructing [[model structures for L-infinity algebras]], see [there](model+structure+for+L-infinity+algebras#OnProAlg).
 
 ##Applications
 
