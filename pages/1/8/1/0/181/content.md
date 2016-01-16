@@ -101,31 +101,36 @@ Recall that the mod 2 Steenrod Hopf algebra is the dual of the commutative Hopf 
 
 ## Properties
 
-+-- {: .num_prop }
+### As filtered colimits of finite-dimensional pieces
+  {#AsFilteredColimits}
+
++-- {: .num_prop #CoalgebrasAreFilteredColimitsOfTheirFinDimSubalghebras}
 ###### Proposition
 
 Every coalgebra is the [[filtered colimit]] of its finite-dimensional sub-coalgebras.
 
 =--
 
-+-- {: .proof}
-###### Proof
+This is due to ([Sweedler 69](#Sweedler69)). That this remains true for [[dg-coalgebras]] (see at _[dg-coalgebra -- As filtered colimit](differential+graded+coalgebra#AsFilteredColimits)_) is due to ([Getzler-Goerss 99](#GetzlerGoerss99)).
 
-A proof is in 
++-- {: .num_remark }
+###### Remark
 
-* Sweedler, _Hopf algebras_ . 
-
-See also the generalization to [[dg-coalgebra]]s in [Getzler-Goerss](#GetzlerGoerss).
-
-
+It follows that an [[associative algebra|algebra]], while not itself the filtered limit of its finite dimensional subalgebras in general, is, being the [[linear dual]] of a coalgebra, a "formal filtered limit", hence a [[pro-object]] in finite-dimensional algebras (e.g. [Abrams-Weibel 99, p. 7](#AbramsWeibel99)). 
 
 =--
 
+
+
+
 ## References
 
-* [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_ ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
- {#GetzlerGoerss}
+* {#Sweedler69} [[Moss Sweedler]], _Hopf algebras_, 1969
 
+* {#AbramsWeibel99} [[Lowell Abrams]], [[Charles Weibel]], _Cotensor products of modules_ ([arXiv:math/9912211](http://arxiv.org/abs/math/9912211))
+
+* {#GetzlerGoerss99} [[Ezra Getzler]], [[Paul Goerss]], _A model category structure for differential graded coalgebras_, 1999 ([ps](http://www.math.northwestern.edu/~pgoerss/papers/model.ps))
+ 
 
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
