@@ -48,3 +48,7 @@ Local Artin $\infty$-algebras are discussed in
 
 [[!redirects local Artin algebra]]
 [[!redirects local Artin algebras]]
+
+[[!redirects local Artin ring]]
+[[!redirects local Artin rings]]
+
