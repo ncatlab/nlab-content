@@ -45,6 +45,12 @@ See also _[[proofs as programs]]_.
 
 A formal proof is whatever is called a 'proof' in a formal system; a formal system for [[mathematics]] then gives methods for producing a proof in the above sense.  Typically, a formal system is [[induction|inductively]] defined, and hence its proofs are fully circumscribed; this is the case for [[deductive systems]] such as [[natural deduction]], [[sequent calculus]], and [[Hilbert systems]].  [[incompleteness theorem|Gödel's theorem]] suggests, however, that no such system can encapsulate all of mathematics.
 
+## Relation to observation in physics
+
+In ([Jaffe-Quinn 93, p. 2](JaffeQuinn93)) it was argued that
+
+> the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences 
+
 
 ## Related concepts
 
@@ -100,6 +106,11 @@ Projects aiming to formalize parts of mathematics include
 * [[ForMath]]
 
 * [[The QED Project]]
+
+Consideration of the relation of mathematical proof to physics icludes
+
+* {#JaffeQuinn93} [[Arthur Jaffe]], [[Frank Quinn]], _"Theoretical Mathematics": Towards a cultural synthesis of mathematics and theoretical physics_, Bulletin of the AMS, Volume 29,Number 1, July 1993 ([arXiv:math/9307227](http://arxiv.org/abs/math/9307227))
+
 
 [[!redirects proof]]
 [[!redirects proofs]]
