@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The generalization of the [[Whitehead theorem]] from ([[stable homotopy theory|stable]])[[homotopy]] to ([[equivariant stable homotopy theory|stable]]) [[equivariant homotopy theory]].
+
+$G$-[[homotopy equivalences|Homotopy equivalences]] $f \colon X \longrightarow Y$ between [[G-CW complexes]] are equivalent to maps that induce [[weak homotopy equivalences]] $f^H \colon X^H \longrightarrow Y^H$ on all [[fixed point]] spaces for all closed subgroups $H \hookrightarrow G$ ([Greenlees-May 95, theorem 2.4](#GreenleesMay95)).
+
+For maps $F \colon E \longrightarrow F$ between genuine [[G-spectra]], they are weak equivalences (isomorphisms in the [[equivariant stable homotopy category]]) if they induce isomorphisms on all [[equivariant homotopy group]] [[Mackey functors]] $\pi_n(f)\colon \pi_n(E) \longrightarrow \pi_n(F) $ (e. g. [Bohmann, theorem 3.2](#Bohmann)).
+
+## References
+
+* {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+
+
+* {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_, ([pdf](http://math.northwestern.edu/~bohmann/basicequivnotions.pdf))
