@@ -1,1 +1,59 @@
-This page accompanies [this nForum thread](https://nforum.ncatlab.org/discussion/6896/poincare-conjecture/).
+This page accompanies [this nForum thread](https://nforum.ncatlab.org/discussion/6896/poincare-conjecture/). I recommend that the nForum thread be read first; as explained there, the purpose of this page is to provide a convenient reference, written formally, for the mathematics discussed in the nForum thread. Motivation, discussion, and other exposition will be given in the nForum thread.
+
+Anybody is welcome to edit this page. However, I ask that any contribution not made by myself (Richard Williamson) be separated, in the first instance at least, from the contributions that I make; and that this be indicated. This is principally to make the correspondence between the nForum thread and this page as clear and as simple as possible. 
+
+As with the nForum thread, all questions, comments, and other contributions are welcome. For anything of a significant nature, it would probably be best to  open a discussion either at the nForum or over email (richard (at) rwilliamson-mathematics.info), but I leave it to your discretion. 
+
+***
+
+## Link diagrams ##
+
++-- {: .num_defn}
+###### Notation
+
+Let $\Gamma$ be a graph. We denote the set of vertices of $\Gamma$ by $V(\Gamma)$, and denote the set of edges of $\Gamma$ by $E(\Gamma)$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A _link diagram_ consists of the following data.
+
+1. A graph $\Gamma$. 
+1. A map $\mathsf{decoration} : V(\Gamma) \rightarrow \{\emptyset, +, -\}$.
+1. For every vertex $v$ of $\Gamma$ for which $\mathsf{decoration}(v)$ is $+$ or $-$, a 4-tuple $\big( n(v), s(v), e(v), w(v) \big)$ of edges of $\Gamma$. 
+
+Given a vertex $v$ of $\Gamma$ for which $\mathsf{decoration}(v)$ is $+$ or $-$, we require that exactly one vertex of each of $n(v)$, $s(v)$, $e(v)$, and $w(v)$ is $v$, and that no other edge of $\Gamma$ has $v$ as one of its vertices. 
+
+=--
+
++-- {: .num_defn}
+###### Remark
+
+In other words, a link diagram is a graph $\Gamma$, each 4-valent vertex of which may be (but need not be) decorated with one of the two symbols $+$ or $-$. It is convenient for us to express this by requiring that every vertex be decorated by one of the three symbols $\emptyset$, $+$, or $-$, decoration by $\emptyset$ being thought of as no decoration.
+
+It is important that an ordering be chosen, once and for all, of the four edges meeting at every decorated (with $+$ or $-$) 4-valent vertex of $\Gamma$. This is built into the definition above. 
+ 
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote the set of link diagrams by $\mathsf{Link}$ $\mathsf{Diagrams}$. 
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+A link diagram is _classical_ if $\Gamma$ is planar and if, for every vertex $v$ of $\Gamma$, we have that $\mathsf{decoration}(v)$ is $+$ or $-$. 
+
+=--
+
++-- {: .num_defn}
+###### Remark
+
+A classical link diagram, in the sense of the above definition, is exactly a link diagram in the usual/classical sense. 
+ 
+=--
