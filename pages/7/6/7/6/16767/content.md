@@ -23,3 +23,9 @@
   * [[sheaf]]
 
   * [[2-sheaf]]
+
+  * [sheafification](http://arxiv.org/abs/1004.4558)
+
+* ####Introduction on higher groupoids####
+
+  * [Kan complex](http://arxiv.org/abs/0801.2057)
