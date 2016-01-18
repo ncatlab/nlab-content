@@ -135,7 +135,7 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 * Michel [[Demazure, lectures on p-divisible groups]]
  
-* [[Jean Dieudonné]], _Introduction to the Theory of Formal Groups_
+* [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)) Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture11.pdf))
 
