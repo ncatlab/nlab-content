@@ -106,15 +106,41 @@ Inc., Boston, MA, 2009 ([arXiv:math.ag/0503632](http://arxiv.org/abs/math.ag/050
 * Andrei Caldararu, Junwu Tu, _Curved $A_\infty$-algebras and Landau-Ginzburg models_ ([pdf](http://www.math.wisc.edu/~andreic/publications/AinfinityLG.pdf))
  {#CaldararuTu}
 
-A formulation in terms of [[linear logic]] and the [[geometry of interaction]] is in 
+### Defects
+
+General defects of B-twisted affine LG models were first discussed in
+
+* Ilka Brunner, Daniel Roggenkamp, _B-type defects in Landau-Ginzburg models_, JHEP 0708 (2007) 093, ([arXiv:0707.0922](http://arxiv.org/abs/0707.0922))
+
+The graded pivotal bicategory of B-twisted affine LG models is studied in detail in 
+
+* Nils Carqueville, [[Daniel Murfet]], _Adjunctions and defects in Landau-Ginzburg models_, Advances in Mathematics, Volume 289 (2016), 480-566, ([arXiv:1208.1481](http://arxiv.org/abs/1208.1481))
+
+Orbifolds of defects are studied in
+
+* Ilka Brunner, Daniel Roggenkamp, _Defects and Bulk Perturbations of Boundary Landau-Ginzburg Orbifolds_, JHEP 0804 (2008) 001, ([arXiv:0712.0188](http://arxiv.org/abs/0712.0188))
+
+* Nils Carqueville, Ingo Runkel, _Orbifold completion of defect bicategories_, ([arXiv:1210.6363](http://arxiv.org/abs/1210.6363))
+
+* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Orbifolds and topological defects_, Math. Phys. 332 (2014), 669-712, ([arXiv:1307.3141](http://arxiv.org/abs/1307.3141))
+
+* Ilka Brunner, Nils Carqueville, Daniel Plencner, _Discrete torsion defects_, Comm. Math. Phys. 337 (2015), 429-453, ([arXiv:1404.7497](http://arxiv.org/abs/1404.7497))
+
+A relation to [[linear logic]] and the [[geometry of interaction]] is in 
 
 * {#Murfet14} [[Daniel Murfet]], _Computing with cut systems_ ([arXiv:1402.4541](http://arxiv.org/abs/1402.4541))
 
 ### TCFT formulation
 
-Discussion of topological Landau-Ginzburg [[B-models]] explicitly as [[TCFT]]s is in 
+Discussions of topological Landau-Ginzburg [[B-models]] explicitly as open [[TCFT]]s (aka open topological string theories) are in
+
+* Nils Carqueville, _Matrix factorisations and open topological string theory_, JHEP 07 (2009) 005, ([arXiv:0904.0862](http://arxiv.org/abs/0904.0862))
 
 * [[Ed Segal]], _The closed state space of affine Landau-Ginzburg B-models_ ([arXiv:0904.1339](http://arxiv.org/abs/0904.1339))
+
+* Nils Carqueville, Michael Kay, _Bulk deformations of open topological string theory_, Comm. Math. Phys. 315, Number 3 (2012), 739-769, ([arXiv:1104.5438](http://arxiv.org/abs/1104.5438))
+
+
 
 ### Relation to Solid state physics
 
