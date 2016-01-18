@@ -43,7 +43,7 @@ of group homomorphisms over $Spec(R)$
 
 =--
 
-This appears for instance as ([Polishuk, (10.1.11)](#Polishchuk)).
+This appears for instance as ([Polishchuk, (10.1.11)](#Polishchuk)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -58,7 +58,7 @@ of the double Cartier dual with the original group scheme.
 
 =--
 
-(e.g. [Polishuk, right above (10.1.11)](#Polishchuk), [Hida 00, theorem 1.7.1](#Hida00)) 
+(e.g. [Polishchuk, right above (10.1.11)](#Polishchuk), [Hida 00, theorem 1.7.1](#Hida00)) 
 
 ## Related concepts
 
@@ -70,9 +70,13 @@ of the double Cartier dual with the original group scheme.
 
 ## References
 
-A textbook account is for instance in section 10.1 of
+The classical textbook account is in chapter 1 of
 
-* Alexander Polishchuk, _Abelian Varieties, Theta Functions and the Fourier Transform_
+* [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
+
+and a more recent textbook account is in section 10.1 of
+
+* [[Alexander Polishchuk]], _Abelian Varieties, Theta Functions and the Fourier Transform_
  {#Polishchuk}
 
 or section 1.7 of 
