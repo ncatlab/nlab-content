@@ -3478,6 +3478,15 @@ As discussed [above](#FormalizationText), there are different ways in which pass
 
    1. Next, passing to _Nature_, the system _externalizes_ or _represents_ itself via a [[model]] $\rho$ (as discussed at _[[relation between type theory and category theory]]_). Now each modality $(-)$ re-appears as its representation $\rho(-)$ in that model.
 
+|  Sph&#228;re |     |    Moment      |  Einheit |   Komoment      |          |
+|------|--------|------------|---|------------------|----------------|
+| **Seinslogik** | Dasein | Ansichsein | Etwas  |  Sein-f&#252;r-Anderes | [&#167;226](#226)   |
+| **Wesenslogik**    | Existenz |  Inneres / Ding-An-Sich |  Ding  | &#196;u&#223;eres   | [&#167;1048c](#1048c), [&#167;1149](#1149) |
+| **Begriffslogik**  |  | Begriff   | Idee | Wirklichkeit   | [&#167;1636](#1636) |
+
+
+
+
 
 +-- {: bluebox #Process}
 ###### Weg des Wissens,  Bewegung des Seyns
@@ -3535,9 +3544,9 @@ $$
     & \stackrel{}{\dashv}& '\flat' &
      \stackrel{Inhalt}{}
     \\
-    && && Existenz && && \bot && \bot
+    && &&  && && \bot && \bot
     \\
-    && && \stackrel{Ding}{} &&  && '\flat' &\dashv& '\sharp' & \stackrel{abs.\,Grund}{}
+    && && \stackrel{Ding}{} && \stackrel{Existenz}{} && '\flat' &\dashv& '\sharp' & \stackrel{abs.\,Grund}{}
     \\
     && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee
     \\
@@ -4213,9 +4222,16 @@ is the adjunction [[shape modality]]$\dashv$[[flat modality]] that we identify w
 
 This is the [[Aufhebung]] discussed around [&#167;182](#182), [&#167;183](#183)
 
-> Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
+> {#226} &#167;226 Die&#223; f&#252;hrt zu einer weitern Bestimmung. Ansichseyn und Seyn-f&#252;r-Anderes sind zun&#228;chst verschieden; aber da&#223; Etwas dasselbe, was es an sich ist, auch an ihm hat, und umgekehrt, was es als Seyn-f&#252;r-Anderes ist, auch an sich ist,&#8212;die&#223; ist die Identit&#228;t des Ansichseyns und Seyns-f&#252;r-Anderes, nach der Bestimmung, da&#223; das Etwas selbst ein und dasselbe beider Momente ist, sie also ungetrennt in ihm sind.&#8212;Es ergiebt sich formell diese Identit&#228;t schon in der Sph&#228;re des Daseyns, aber ausdr&#252;cklicher in der Betrachtung des Wesens und dann des Verh&#228;ltnisses der Innerlichkeit und &#196;u&#223;erlichkeit, und am bestimmtesten in der Betrachtung der Idee, als der Einheit des Begriffs und der Wirklichkeit.
 
-For the last one, see below [&#167;1636](#1636).
+> &#167;226 This leads to a further determination. Being-in-itself and being-for-other are, in the first instance, distinct; but that something also has within it the same character that it is in itself, and, conversely, that what it is as being-for-other it also is in itself-this is the identity of being-in-itself and being-for-other, in accordance with the determination that the something itself is one and the same something of both moments, which, therefore, are undividedly present in it. This identity is already formally given in the sphere of determinate being, but more expressly in the consideration of essence and of the relation of inner and outer, and most precisely in the consideration of the Idea as the unity of the Notion and actuality. 
+
+|  Sph&#228;re |     |    Moment      |  Einheit |   Komoment      |          |
+|------|--------|------------|---|------------------|----------------|
+| **Seinslogik** | Dasein | Ansichsein | Etwas  |  Sein-f&#252;r-Anderes | [&#167;226](#226)   |
+| **Wesenslogik**    | Existenz |  Inneres / Ding-An-Sich |  Ding  | &#196;u&#223;eres   | [&#167;1048c](#1048c), [&#167;1149](#1149) |
+| **Begriffslogik**  |  | Begriff   | Idee | Wirklichkeit   | [&#167;1636](#1636) |
+
 
 For the following comment on the thing-in-itself, see also ([EL&#167;124](#EL124), [#EL124Zusatz](EL&#167;124Zusatz)).
 
@@ -5885,12 +5901,14 @@ Moreover the two moments of _Etwas_ ( Ansichsein und Sein-f&#252;r-anderes, acco
 > &#167;1048c Existence as such contains this distinction itself in the moment of its mediation; the distinction of thing-in-itself and of external Existence.
 
 
-|  | | moment  |  unity   | comoment |
-|---|--|---|-----|--|
-| **Seinslogik** | Sein  |  Ansichseyn | Etwas | Sein-fuer-Anderes |
-| **Wesenslogik** | Existenz | Ding-an-sich  | Ding |  &#228;u&#223;erliche Existenz |
 
-Hence we locate these terms at matching positions in the _[Proce&#223;](#Process)_.
+
+|  Sph&#228;re |     |    Moment      |  Einheit |   Komoment      |          |
+|------|--------|------------|---|------------------|----------------|
+| **Seinslogik** | Dasein | Ansichsein | Etwas  |  Sein-f&#252;r-Anderes | [&#167;226](#226)   |
+| **Wesenslogik**    | Existenz |  Inneres / Ding-An-Sich |  Ding  | &#196;u&#223;eres   | [&#167;1048c](#1048c), [&#167;1149](#1149) |
+| **Begriffslogik**  |  | Begriff    | Idee | Wirklichkeit   | [&#167;1636](#1636) |
+
 
 
 ###### a. Ding an sich und Existenz.
@@ -5987,6 +6005,8 @@ It is maybe noteworthy that some physics appears here in the Wesenslogik, even t
 > {#1149} &#167;1149 Das innere ist als die Form der reflektierten Unmittelbarkeit oder des Wesens, gegen das Aussere als die Form des Seins bestimmt, aber beide sind nur eine Identitaet.
 
 > &#167;1149 The inner is determined as the form of reflected immediacy or of essence over against the outer as the form of being, but the two are only one identity.
+
+(see also [&#167;226](#226))
 
 The "form of being" is to refer to the category of being, hence to the ambient $\infty$-category. Opposed to that is the [[type universe]] which is the inner reflection of that inside itself, see also [&#167;1163b](#1163b). 
 
@@ -6622,15 +6642,16 @@ especially in view of Hegel's [PN&#167;192](#PN192) and following, by which Natu
 
 > But they can only be true at all in so far as they are the union of their Notion and reality, of their soul and their body. Wholes like the state and the church cease to exist when the unity of their Notion and their reality is dissolved; man, the living being, is dead when soul and body are parted in him; dead nature, the mechanical and chemical world &#8212; taking, that is, the dead world to mean the inorganic world, otherwise it would have no positive meaning at all &#8212; dead nature, then, if it is separated into its Notion and its reality, is nothing but the subjective abstraction of a thought form and a formless matter. Spirit that was not Idea, was not the unity of the Notion with its own self, or the Notion that did not have the Notion itself for its reality would be dead, spiritless spirit, a material object.
 
+> {#1636} &#167;1636 Sein hat die Bedeutung der Wahrheit erreicht, indem die Idee die Einheit des Begriffs und der Realit&#228;t ist; es ist also nunmehr nur das, was Idee ist.
+
 > &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth; therefore what now is is only what is Idea.
+
+(see also [&#167;226](#226)).
 
 > Der Gegenstand, die objektive und subjektive Welt &#252;berhaupt sollen mit der Idee nicht blo&#223; kongruieren, sondern sie sind selbst die Kongruenz des Begriffs und der Realit&#228;t;
 
-> Sein hat die Bedeutung der Wahrheit erreicht, indem die Idee die Einheit des Begriffs und der Realit&#228;t ist; es ist also nunmehr nur das, was Idee ist.
-
 > Die Idee hat aber nicht nur den allgemeineren Sinn des wahrhaften Seins, der Einheit von Begriff und Realit&#228;t, sondern den bestimmteren von subjektivem Begriffe und der Objektivit&#228;t.
 
-> {#1663} &#167;1636 The Idea being the unity of Notion and reality, being has attained the significance of truth;
 
 
 > {#1634} &#167;1634 But having reached the result that the Idea is the unity of the Notion and objectivity,
@@ -6894,6 +6915,7 @@ modern terminology here would be: [[spacetime]] [[event]]
 So [[space]] and [[time]] transmute into each other, forming a unity. The appropriate modern word for this is clearly _[[spacetime]]_. That Hegel's perspective fits well with modern [[general relativity]] has been argued in ([Wandschneider82](#Wandschneider82)).
 
 Moreover, this unity of space and time in spacetime is [[matter]] and by [PN&#167;26d](#PN26d) it is matter _with_ the [[forces]] acting on it included. This is very much the perspective of the modern concept of _[[Kaluza-Klein compactification]]_ in which theories of pure ([[supergravity]]-)[[gravity]] give rise to matter and forces depending on how parts of spacetime take certain shape. For instance [[model (physics)|models]] such as the [[G2-MSSM]] are theories of pure gravity (in this case [[11d supergravity]]) taking shape in the form of a [[KK-compactification]] on a [[G2-manifold]] [[fiber bundle]], and all the [[matter]] (and [[force]] field) content of the [[standard model of particle physics]] arises from just this (super-)geometry.
+
 
 A vaguely similar synthethis had been suggested in ([Weyl 1919](#Weyl19)). In the 1960s [[John Wheeler]] highlighted this idea of producing matter from pure spacetime geometry, coining the term [[geometrodynamics]] for it. His slogan "mass without mass" referred to mass arising from pure spacetime geometry. At this level of detail, this is rather close to [PN&#167;261](#PN261).
 
