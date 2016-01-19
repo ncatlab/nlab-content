@@ -111,4 +111,8 @@ On the relation between AC and the well-ordering principle in general toposes se
 
 * {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]] vol. II_, Oxford UP 2002. (D4.5, pp.987-998)
 
+* J. Todd Wilson, "An Intuitionistic version of Zermelo's proof that every choice set can be well-ordered", J. Symbolic Logic, 66:3 (2001), 1121--1126; [formalization in the Lean Theorem Prover] (https://github.com/lambdacalculator/lean-choice).
+
+
+[[!redirects well-ordering theorem]]
 [[!redirects well-ordering principle]]
