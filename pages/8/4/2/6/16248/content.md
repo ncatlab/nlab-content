@@ -20,6 +20,17 @@ The five [[regular polyhedron|regular]] [[convex set|convex]] [[polyhedron]] in 
 
 ## References
 
+The Platonic solids are named after their discussion in 
+
+* [[Plato]], _[[Timaeus dialogue]]_
+
+Their construction and the proof that there is exactly five of them appears in 
+
+* [[Euclid]], [Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) of the _[[Elements]]_
+
+
+See also
+
 * Wikipedia, _[Platonic solid](http://en.wikipedia.org/wiki/Platonic_solid)_
 
 [[!redirects Platonic solids]]
