@@ -118,7 +118,7 @@ Introductions and surveys include
 
 * {#Bohmann} [[Anna Marie Bohmann]], _Basic notions of equivariant stable homotopy theory_ ([pdf](http://math.northwestern.edu/~bohmann/basicequivnotions.pdf))
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
+* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _[[Equivariant stable homotopy theory]]_, in [[Ioan James]] (ed.), _[[Handbook of Algebraic Topology]]_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
 * [[Brooke Shipley]], _An introduction to equivariant homotopy theory_ ([pdf](http://homepages.math.uic.edu/~bshipley/bonn.2.pdf))
 
