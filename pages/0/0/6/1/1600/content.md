@@ -20,7 +20,7 @@
 
 ## Idea
 
-An _orbispace_ is a [[space]], particularly a [[topological stack]],  that is locally modeled on the [[homotopy quotient]]/[[action groupoid]] of a [[locally compact topological space]] by a rigid [[group]] [[action]].
+An _orbispace_ is a [[space]], specifically a [[topological stack]],  that is locally modeled on the [[homotopy quotient]]/[[action groupoid]] of a [[locally compact topological space]] by a rigid [[group]] [[action]].
 
 Orbispaces are to [[topological spaces]] what [[orbifolds]] are to [[manifolds]]. 
 
