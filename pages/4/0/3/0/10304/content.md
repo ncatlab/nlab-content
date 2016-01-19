@@ -31,6 +31,7 @@ In ([Jaffe-Quinn 93, p. 2](JaffeQuinn93)) it was claimed that
 
 > the role of rigorous [[proof]] in mathematics is functionally [[analogy|analogous]] to the role of [[experiment]] in the natural sciences 
 
+Responses to that claim may be found [here](http://arxiv.org/abs/math/9404229). 
 
 ## References
 
