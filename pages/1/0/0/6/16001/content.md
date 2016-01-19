@@ -4,7 +4,7 @@
 
 ## Ideas and objectives
 
-The motivation of generalized global analytic geometry is to define analytic spaces associated to rig categories, and to use their relations with classical [[global analytic geometry|global analytic spaces]] in order to properly define [[Arakelov models|Arakelov geometry]] of [[arithmetic varieties]] in an analytic setting.
+The motivation of generalized global analytic geometry is to define analytic spaces associated to rig categories, and to use their relations with classical [[global analytic geometry|global analytic spaces]] in order to properly define [[Arakelov geometry|Arakelov models]] of [[arithmetic varieties]] in an analytic setting.
 
 Since rig categories are categorical analogs of associative and commutative semi-rings, a proper theory for them can only be given in the setting of $\infty$-categories.
 
