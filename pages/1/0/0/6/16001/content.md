@@ -12,7 +12,7 @@ One will thus need to define [[overconvergent global analytic geometry|overconve
 
 To be able to complete non-additive rig categories, we will have to replace seminorms by rig metrics (metrics on morphism spaces that are compatible with the rig category structure). We will then define a category of rational domain rig categories that will be the building blocks of analytic ring categories and analytic ringed spaces. All these constructions will be compatible with the standard flow on metrics and absolute value given by taking $t$-th power for $t\in \mathbb{R}_+^*$.
 
-## Seminormed rig $\infty$-categories
+## Seminormed and metrized ring $\infty$-categories
 
 A ring $\infty$-category is a model of the Lawvere theory of rings (given by the category with finite products opposite to the category of finitely generated polynomial semirings over the initial ring $\mathbb{Z}$) with values in the category with products of $\infty$-categories. If we give such a rig $\infty$-category
 $$\mathcal{A}:(T_{Rings},\times)\longrightarrow ({}^\infty Cat,\times),$$
