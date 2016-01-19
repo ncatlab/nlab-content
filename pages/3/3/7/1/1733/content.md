@@ -121,6 +121,10 @@ A textbook with an emphasis on [[homotopy theory]] is in
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+A comprehensive survey of various subjects in algebraic topology is in
+
+* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
+
 Further online resources include
 
 * [a thread on this at MathOverflow](http://mathoverflow.net/questions/18041/algebraic-topology-beyond-the-basicsany-texts-bridging-the-gap).
