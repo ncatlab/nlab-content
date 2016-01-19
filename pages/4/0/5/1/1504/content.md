@@ -588,10 +588,16 @@ Reviews include
 ### Relation to $A_\infty$- and $L_\infty$-algebras
  {#ReferencesHomotopyAlgebra}
 
-The [[L-infinity algebra]] structure in bosonic closed string field theory was first noticed in 
+The [[L-infinity algebra]] structure on Zwiebach's bosonic closed string fields is apparently due to a comment by [[Jim Stasheff]] to the conference contribution
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* {#Zwieback89} [[Barton Zwiebach]], _Issues In Covariant Closed String Theory_, pages 192-200 in Proceedings of _[10th and Final Workshop on Grand Unification](http://inspirehep.net/record/966930)_, 20-22 Apr 1989. Chapel Hill, North Carolina ([spire](http://inspirehep.net/record/282685?ln=de))
 
+It appears in print in
+
+* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084]
+(http://arxiv.org/abs/hep-th/9206084))
+
+See also at _[[L-infinity algebras in physics]]_.
 
 The [[A-infinity algebra]] structure of bosnonic open string field theory in 
 
