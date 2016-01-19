@@ -28,34 +28,34 @@ Orbispaces are to [[topological spaces]] what [[orbifolds]] are to [[manifolds]]
 
 Write $Orb$ for the [[global orbit category]]. Then its [[(∞,1)-presheaf (∞,1)-category]] $PSh_\infty(Orb)$ is the [[(∞,1)-category]] of _orbispaces_. ([Henriques-Gepner 07](#HenriquesGepner07), [Rezk 14, remark 1.5.1](#Rezk14))
 
-By the main theorem of ([Henriques-Gepner 07](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the global [[orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
-
-$$
-  ETopGrpd^{cell} = PSh_\infty(Orb)
-  \,.
-$$
 
 
 ## Properties
 
-### Relation to global equivariant homotopy theory
+### Relation of global equivariant homotopy theory
 
-The _[[global equivariant homotopy theory]]_ is the [[(∞,1)-category]] (or else its [[homotopy category of an (∞,1)-category|homotopy category]]) of [[(∞,1)-presheaves]] on the [[global equivariant indexing category]] $Glo$ 
-
-Here $Glo$ has as [[objects]] [[compact Lie groups]] and the [[(∞,1)-categorical hom-spaces]] $Glo(G,H) \coloneqq \Pi [\mathbf{B}G, \mathbf{B}H] $, where on the right we have the [[geometric realization of cohesive infinity-groupoids|fundamental (∞,1)-groupoid]] of the [[topological groupoid]] of [[group homomorphisms]] and [[conjugation|conjugations]].
-
-
-The [[global orbit category]] is the non-full subcategory of the [[global equivariant indexing category]] on the faithful maps $\mathbf{B}G\to \mathbf{B}H$.
-
-The central theorem of ([Rezk 14](#Rezk14))  is that $PSh_\infty(Orb)$ is the [[base (∞,1)-topos]] over the [[cohesion]] of the [[slice (∞,1)-topos|slice]]
-of the [[global equivariant homotopy theory]] $PSh_\infty(Glo)$ over the terminal orbispace $\mathcal{N}$ ([Rezk 14, p. 4 and section 7](#Rezk14))
+By the main theorem of ([Henriques-Gepner 07, (4)](#HenriquesGepner07)) the [[(∞,1)-presheaves]] on the global [[orbit category]] are equivalently "cellular" [[topological stacks]]/[[topological groupoids]] ("[[orbispaces]]"), we might write this as
 
 $$
- (\Pi \dashv \Delta \dashv \Gamma \dashv \nabla)
-  \;\colon\; 
-  PSh_\infty(Glo)/\mathcal{N} \longrightarrow PSh_\infty(Orb)
- \,.
+  TopGrpd^{cell} \simeq PSh_\infty(Orb)
+  \,.
 $$
+
+Hence cellular topological stacks are equivalently the objects of [[equivariant homotopy theory]].
+
+See also ([Rezk 14, p. 4 and section 7](#Rezk14))
+
+
+### Relation to $G$-equivariant homotopy theory
+
+Fixing a [[compact topological group]] $G$ and writing $\mathbf{B}G \simeq \ast // G$ for its [[delooping]] stack (the moduli stack of $G$-[[principal bundles]]), then the [[slice (infinity,1)-category|slice]] homotopy theory of topological stacks over $\mathbf{B}G$ on the [[representable morphisms]] (those inducing closed monos on isotropy groups) is equivalently that of [[topological G-spaces]] (with their G-equivariant homotoy theoretical structure, see at _[[equivariant Whitehead theorem]]_):
+
+$$
+  TopGrpd_{/\mathbf{B}G}^{reprs.} \simeq G Spaces
+$$
+
+([Henriques-Gepner 07, p.7](#HenriquesGepner07))
+
 
 ## Related concepts
 
@@ -79,47 +79,6 @@ and another approach is discussed in
 * {#HenriquesGepner07} [[André Henriques]], [[David Gepner]], _Homotopy Theory of Orbispaces_ ([arXiv:math/0701916](http://arxiv.org/abs/math/0701916))
 
 * {#Rezk14} [[Charles Rezk]], _[[Global Homotopy Theory and Cohesion]]_ (2014)
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 
 [[!redirects orbispaces]]
