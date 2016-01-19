@@ -53,6 +53,8 @@ In ([Jaffe-Quinn 93, p. 2](JaffeQuinn93)) it was argued that
 
 Responses to this claim and its implications may be found [here](http://arxiv.org/abs/math/9404229). Mac Lane in particular considers the analogy faulty, arguing for theorems and proofs as the final goal of a piece of developed mathematics, and emphasizing the explanatory function of proofs. 
 
+In any case, another perspective on the claim is that finding a proof is an observational or witnessing act, which resonates with the nature of proof in [[constructive mathematics]]. This perspective sees proof as something more than merely establishing the truth of a proposition. Thus a proof *qua* witness is a construction, and in more elaborated developments (for instance in [[intensional type theory]]) a formal proof is itself a mathematical object, with internal mathematical structure. 
+
 ## Related concepts
 
 * [[computational trinitarianism]]
