@@ -1,5 +1,25 @@
-The Handbook of Algebraic Topology was published in 1995.  It contains a collection of survey articles on algebraic topology.  It was edited by I. M. James.
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic topology
++--{: .hide}
+[[!include algebraic topology - contents]]
+=--
+=--
+=--
+
+
+This page collects material and links related to
+
+
+* [[Ioan Mackenzie James]],
+
+  _The Handbook of Algebraic Topology_ 
+
+  1995
+
+collecting survey articles on subjects in [[algebraic topology]]
 
 
 ##Contents
@@ -19,11 +39,11 @@ The Handbook of Algebraic Topology was published in 1995.  It contains a collect
 
 1. Coherent homotopy over a fixed space (K.A. Hardie, K.H. Kamps).
 
-1. Modern foundations for stable homotopy theory (A.D. Elmendorf et al. 
+1. [[Modern foundations for stable homotopy theory]] (A.D. Elmendorf et al. 
 
 1. Completions in algebra and topology (J.P.C. Greenlees, J.P. May). 
 
-1. Equivariant stable homotopy theory (J.P.C. Greenlees, J.P. May). 
+1. [[Equivariant stable homotopy theory]] (J.P.C. Greenlees, J.P. May). 
 
 1. The stable homotopy theory of finite complexes (D.C. Ravenel). 
 
