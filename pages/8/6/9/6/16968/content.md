@@ -62,6 +62,25 @@ $$
   (\Sigma^\infty_G X)(V) \simeq X \wedge S^V
 $$
 
+### Relation between genuine and Bredon-equivariant suspension
+
+For $U$ a complete $G$-[[universe]] and $U^G$ its [[fixed point]] universe, then the inclusion $i \colon U^G \longrightarrow U$ induces an [[adjunction]]
+
+$$
+  Spectra(G Top) \stackrel{\overset{i^\ast}{\longleftarrow}}{\underset{i_\ast}{\longrightarrow}}G Spectra 
+$$
+
+between [[naive G-spectra]] and [[genuine G-spectra]]. The genuine $G$-suspension spectrum is the naive $G$-suspension spectrum followed by $i$:
+
+$$
+  i_\ast \circ \Sigma^\infty_{U^G }  \simeq \Sigma^\infty_U
+  \,.
+$$
+
+([Greenlees-May 95, p. 16](#GreenleesMay95))
+
+
+
 ## Examples
 
 The $G$-[[equivariant sphere spectrum]] is 
@@ -76,22 +95,6 @@ for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It fol
 
 The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty_G X$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
 
-### Relation between genuine and Bredon-equivariant suspension
-
-For $U$ a complete $G$-[[universe]] and $U^G$ its [[fixed point]] universe, then the inclusion $i \colon U^G \longrightarrow U$ induces an [[adjunction]]
-
-$$
-  Spectra(G Top) \stackrel{\overset{i^\ast}{\longleftarrow}}{\underset{i_\ast}{\longrightarrow}}G Spectra 
-$$
-
-between [[niave G-spectra]] and [[genuine G-spectra]]. The genuine $G$-suspension spectrum is the naive $G$-suspension spectrum followed by $i$:
-
-$$
-  i \circ \Sigma^\infty_{U^G }  \simeq \Sigma^\infty U
-  \,.
-$$
-
-([Greenlees-May 95, p. 16](#GreenleesMay95))
 
 ## References
 
