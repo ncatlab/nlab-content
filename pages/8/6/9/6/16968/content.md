@@ -76,6 +76,23 @@ for $S^0$ regarded as equipped with the (necessarily) trivial $G$-action. It fol
 
 The [[equivariant homotopy groups]] and the [[fixed point spectra]] of equivariant suspension spectra $\Sigma^\infty_G X$ decompose into the naive [[fixed points]] of the $G$-action on $X$. This is the _[[tom Dieck splitting]]_, see there for details.
 
+### Relation between genuine and Bredon-equivariant suspension
+
+For $U$ a complete $G$-[[universe]] and $U^G$ its [[fixed point]] universe, then the inclusion $i \colon U^G \longrightarrow U$ induces an [[adjunction]]
+
+$$
+  Spectra(G Top) \stackrel{\overset{i^\ast}{\longleftarrow}}{\underset{i_\ast}{\longrightarrow}}G Spectra 
+$$
+
+between [[niave G-spectra]] and [[genuine G-spectra]]. The genuine $G$-suspension spectrum is the naive $G$-suspension spectrum followed by $i$:
+
+$$
+  i \circ \Sigma^\infty_{U^G }  \simeq \Sigma^\infty U
+  \,.
+$$
+
+([Greenlees-May 95, p. 16](#GreenleesMay95))
+
 ## References
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
