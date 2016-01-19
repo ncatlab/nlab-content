@@ -1,16 +1,21 @@
-<div class="rightHandSide toc">
-[[!include stable homotopy theory - contents]]
-</div>
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-For various constructions in [[stable homotopy theory]] -- such as notably that of the
-[[symmetric monoidal smash product of spectra]] -- it is useful to use a model
+For various constructions in [[stable homotopy theory]] -- such as notably that of the [[symmetric monoidal smash product of spectra]] -- it is useful to use a model
 for objects in the [[stable (∞,1)-category of spectra]]
 and the [[stable homotopy category]] more refined than that given by 
 $\Omega$-[[spectrum|spectra]]. The notion of _coordinate-free spectrum_ is such
@@ -37,7 +42,7 @@ continuous maps.
 For $V \subset W$ an inclusion of finite dimensional subspaces $V,W \subset U$
 write $W-V$ for the orthogonal complement of $V$ in $W$.
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **coordinate-free spectrum** $E$ modeled on the "universe" $U$ is
@@ -54,10 +59,16 @@ a [[homeomorphism]] of pointed [[topological space]]s
   $$
 
 * If we drop the requirement that the maps $\tilde \sigma_{V,W}$ be homeomorphisms, we obtain the notion of a **prespectrum**.
+
 =--
 
++-- {: .num_remark}
+###### Remark
+
+The definition of coordinate free spectrum directly generalizes to that of genuine [[G-spectrum]] modeled on a [[G-universe]], leading from [[stable homotopy theory]] to [[equivariant stable homotopy theory]].
+
+=--
   
 ## References 
 
-* A. Elmendorf, I. Kriz, [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ 
-([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], section 1 of _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
