@@ -594,8 +594,8 @@ The [[L-infinity algebra]] structure on Zwiebach's bosonic closed string fields 
 
 It appears in print in
 
-* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084]
-(http://arxiv.org/abs/hep-th/9206084))
+* [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 
+([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
 
 See also at _[[L-infinity algebras in physics]]_.
 
