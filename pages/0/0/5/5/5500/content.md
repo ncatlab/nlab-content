@@ -8,5 +8,7 @@ The theory of [[Grothendieck topoi]] and [[etale cohomology]] has been introduce
 
 Scans are available from [this page](http://library.msri.org/books/sga/).
 
+* [Re-edition 2015](http://fabrice.orgogozo.perso.math.cnrs.fr/SGA4/index.html)
+
 [[!redirects SGA 4]]
 [[!redirects SGA IV]]
