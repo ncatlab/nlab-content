@@ -1,0 +1,14 @@
+
+## Idea
+
+a [[manifold]] of [[dimension]] 4.
+
+## Related concepts
+
+* [[Yang-Mills instanton]]
+
+* [[Donaldson-Thomas invariants]]
+
+* [[3-manifold]]
+
+[[!redirects 4-manifolds]]
