@@ -67,7 +67,7 @@ When the spaces and spectra in question carry an [[infinity-action]] of a [[grou
 
 > Stable homotopy theory began around 1937 with the [[Freudenthal suspension theorem]]. $[$...$]$ Stable phenomena had of course appeared earlier, at least implicitly: [[reduced cohomology|reduced]] [[generalized homology|homology]] and [[generalized (Eilenberg-Steenrod) cohomology|cohomology]] are examples of functors that are invariant under suspension without limitation on dimension.
 
-> Stable homotopy theory emerged as a distinct branch of algebraic topology with Adams' introduction of [[Adams spectral sequence|his eponymous spectral sequence]] and his spectacular conceptual use of the notion of stable phenomena in his solution to the [[Hopf invariant one]] problem.
+> Stable homotopy theory emerged as a distinct branch of [[algebraic topology]] with Adams' introduction of [[Adams spectral sequence|his eponymous spectral sequence]] and his spectacular conceptual use of the notion of stable phenomena in his solution to the [[Hopf invariant one]] problem.
 
 > Its centrality was reinforced by two related developments that occurred at very nearly the same time, in the late 1950's. One was the introduction of [[generalized (Eilenberg-Steenrod) cohomology|generalized homology and cohomology theories]] and especially [[K-theory]], by Atiyah and Hirzebruch. The other was the work of Thom which showed how to reduce the problem of classifying manifolds up to cobordism to a problem, more importantly, a solvable problem, in stable homotopy theory $[$ [[Thom spectrum]] $]$.
 
