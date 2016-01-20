@@ -16,7 +16,7 @@
 
 ## Idea
 
-Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] [[cycles]].
+Membrane [[instantons]] are constituted by [[supermembranes]] ([[M2-branes]])  [[wrapped brane|wrapped]] on [[spacelike]] (and [[supersymmetric cycle|supersymmetric]]) [[cycles]].
 
 Basically the effect is that the [[action functional]] of the given [[11-dimensional supergravity]] is multiplied by the exponentiated [[Nambu-Goto action]] of the [[wrapped brane|wrapping]] membrane configurations $\phi \colon \Sigma \to X$. These are of the form (e.g. [Harvey-Moore 99, (4.13)](#HarveyMoore99), [Atiyah-Witten 01 (4.17)](#AtiyahWitten01), [Curio 02, (2.15)](#Curio02))
 
