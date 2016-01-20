@@ -146,5 +146,7 @@ Exposition of the tensor product of $R$-[[modules]] is for instance in
 
 * Colling Roberts, _Introduction to the tensor product_ ([pdf](http://www.math.uwaterloo.ca/~cd2rober/Seminars/StudentAlgebra/2011/Fall/2011-10-06.pdf))
 
+This link is broken
+
 
 [[!redirects tensor products]]
