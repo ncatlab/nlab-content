@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include group theory - contents]]
 =--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 =--
 =--
 
@@ -33,7 +37,7 @@ More generally, for $V$ any complex [[vector space]] equipped with a nondegenera
 ### $SU(2)$
  {#SU2}
 
-We discuss aspects of the special unitary group for $n = 2$, hence
+We discuss aspects of [[SU(2)]], hence
 
 $$
   SU(2) \coloneqq SU(2,\mathbb{C}) = SU(\mathbb{C}^2)
