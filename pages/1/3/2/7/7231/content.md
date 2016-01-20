@@ -66,7 +66,7 @@ See for instance the introduction of ([Joyce](#Joyce)).
 
 ## Properties
 
-### General
+### Orientation
 
 The inclusion $G_2 \hookrightarrow GL(7)$ of def. \ref{As2PlectomorphismsOnR7} factors through the [[special orthogonal group]]
 
@@ -75,8 +75,42 @@ $$
   \,.
 $$
 
+### Dimension
+ {#Dimension}
+
+The [[dimension]] of (the [[manifold]] underlying) $G_2$ is 
+
+$$
+  dim(G_2) = 14
+  \,.
+$$
+
+One way to see this is via [octonionic basic triples](octonion#ElementaryTriples) $(e_1, e_2, e_3) \in \mathbb{O}^3$ and the fact ([this proposition](octonion#BasicTriplesFormAutomorphism)) that these form a [[torsor]] over $G_2$, hence that the space of them has the same dimension as $G_2$: 
+
+* the space of choices for $e_1$ is the 6-[[sphere]] of imaginary unit octonions;
+
+* given that, the space of choices for $e_2$ is a 5-sphere of imaginary unit octonions orthogonal to $e_1$;
+
+* given that, then the space of choices for $e_3$ is the [[3-sphere]] of imaginary unit octonions orthogonal to both $e_1$ and $e_2$.
+
+Hence
+
+$$
+  dim(G_2) = dim(S^6) + dim(S^5) + dim(S^3) = 14
+  \,.
+$$
+
+(e.g. [Baez, 4.1](#Baez))
+
+
+
 ### Subgroups
  {#Subgroups}
+
+We discuss various [[subgroups]] of $G_2$.
+
++-- {: .num_defn #StabilizerOfQuaternions}
+###### Definition
 
 Write 
 
@@ -84,12 +118,36 @@ Write
 
 * $Stab_{G_2}(\mathbb{H})$, the [[stabilizer subgroup]] of [[generalized the|the]] [[quaternions]] inside the octonions, i.e. of elements $\sigma\in G_2$ such that $\sigma_{|\mathbb{H}}\colon \mathbb{H}\to \mathbb{H} \hookrightarrow\mathbb{O}$;
 
-* $Fix_{G_2}(\mathbb{H})$ for the further subgroup of elements that [[fixed point|fix]] each quaternions, i.e. those $\sigma$ with $\sigma_{\vert \mathbb{H}} = id_{\mathbb{H}}$.
+* $Fix_{G_2}(\mathbb{H})$ for the further subgroup of elements that [[fixed point|fix]] each quaternions (the "elementwise stabilizer group"), i.e. those $\sigma$ with $\sigma_{\vert \mathbb{H}} = id_{\mathbb{H}}$.
+
+=--
+
++-- {: .num_prop #ElementwiseStabilizerOfHIsSU2}
+###### Proposition
+
+The elementwise stabilizer group of the [[quaternions]] is [[SU(2)]]:
+
+$$
+  Fix_{G_2}(\mathbb{H}) \simeq SU(2)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider [octonionic basic triples](octonion#ElementaryTriples) $(e_1, e_2, e_3) \in \mathbb{O}^3$ and the fact ([this proposition](octonion#BasicTriplesFormAutomorphism)) that these form a [[torsor]] over $G_2$.
+
+The choice of $(e_1,e_2)$ is equivalently a choice of inclusion $\mathbb{H} \hookrightarrow \mathbb{O}$. Then the remaining space of choices for $e_3$ is the [[3-sphere]] (the space of unit imaginary octonions orthogonal to both $e_1$ and $e_2$). This carries a unit group structure, and by the torsor property this is the required subgroup of $SU(2)$.
+
+=--
+
 
 +-- {: .num_prop #StabilizingAndFixingTheQuaternions}
 ###### Proposition
 
-These groups form a [[short exact sequence]] of the form
+The subgroups in def. \ref{StabilizerOfQuaternions} sit in a [[short exact sequence]] of the form
 
 $$
   \array{
@@ -101,7 +159,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    Stab_{G_2}(\mathbb{H}) &= & Stab_{G_2}(\mathbb{H})
+    Stab_{G_2}(\mathbb{H}) & \simeq & SO(4)
     \\
     \downarrow && \downarrow
     \\
@@ -113,18 +171,23 @@ $$
   }
 $$
 
-exhibiting $Stab_{G_2}(\mathbb{H})$ as a [[group extension]]  of the [[special orthogonal group]] $SO(3)$ by the [[special unitary group]] $SU(2)$.
+exhibiting [[special orthogonal group|SO(4)]] as a [[group extension]] of the [[special orthogonal group]] $SO(3)$ by the [[special unitary group]] $SU(2)$.
 
 =--
 
-([Ferolito, sections 4](#Ferolito))
-
-Furthermore there is [[subgroups]] $SO(4), SU(3) \hookrightarrow G_2$ whose [[intersection]] is $U(2)$. The [[simple Lie group|simple]] part $SU(2)$ of this intersection is a [[normal subgroup]] of $SO(4)$.
-
-(see e.g. [Miyaoka 93](#Miyaoka93), review includes [Ferolito, sections 3 and 4](#Ferolito))
+(e.g. [Ferolito, section 4](#Ferolito))
 
 
-(...)
+
+Furthermore there is a [[subgroup]] $SU(3) \hookrightarrow G_2$ whose [[intersection]] with $SO(4)$ is $U(2)$. The [[simple Lie group|simple]] part $SU(2)$ of this intersection is a [[normal subgroup]] of $SO(4)$.
+
+(see e.g. [Miyaoka 93](#Miyaoka93))
+
+
+<img src="https://ncatlab.org/nlab/files/3dSubgroupsOfG2.jpg" width="700">
+
+(from [Kramer 02](#Kramer02))
+
 
 The [[Weyl group]] of $G_2$ is the [[dihedral group]] of [[order of a group|order]] 12. (see e.g. [Ishiguro, p. 3](#Ishiguro)).
 
@@ -166,7 +229,7 @@ The definitions are reviewed for instance in
  
 * {#Ferolito} Ferolito _The octonions and $G_2$_ ([pdf](https://www2.bc.edu/~reederma/Ferolito.pdf))
 
-* [[John Baez]], _$G_2$_ ([web](http://math.ucr.edu/home/baez/octonions/node14.html))
+* {#Baez} [[John Baez]], _$G_2$_ ([web](http://math.ucr.edu/home/baez/octonions/node14.html))
 
 * Ruben Arenas, _Constructing a Matrix Representation of the Lie Group $G_2$_, 2005 ([pdf](https://www.math.hmc.edu/seniorthesis/archives/2005/rarenas/rarenas-2005-thesis.pdf))
 
@@ -185,6 +248,8 @@ Discussion of [[subgroups]] includes
 * {#Miyaoka93} [[Reiko Miyaoka]], _The linear isotropy group of $G_2/SO(4)$, the Hopf fibering and isoparametric hypersurfaces_, Osaka J. Math. Volume 30, Number 2 (1993), 179-202. ([Euclid](http://projecteuclid.org/euclid.ojm/1200784357))
 
 * {#Ishiguro} Kenshi Ishiguro, _Classifying spaces and a subgroup of the exceptional Lie group $G_2$_ [pdf](http://hopf.math.purdue.edu/Ishiguro/G2.pdf)
+
+* {#Kramer02} Linus Kramer, 4.27 of _Homogeneous Spaces, Tits Buildings, and Isoparametric Hypersurfaces_, AMS 2002
 
 ### Applications in physics
 
