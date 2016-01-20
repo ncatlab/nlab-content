@@ -21,7 +21,21 @@
 
 ## Idea
 
-The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]]. Another way to characterize it is as the [[subgroup]] of the [[general linear group]] $GL(7)$ of those elements that preserve the canonical [[differential n-form|differential 3-form]]  $\langle ,(-)\times (-) \rangle$ on the [[Cartesian space]] $\mathbb{R}^7$. As such, the group $G_2$ is a higher analog of the [[symplectic group]] (which is the group that preserves a canonical 2-form on any $\mathbb{R}^{2n}$), obtained by passing from [[symplectic geometry]] to [[2-plectic geometry]].
+The [[Lie group]] $G_2$ is one (or rather: three) of the [[exceptional Lie groups]]. One way to characterize it is as the [[automorphism group]] of the [[octonions]] as a [[normed algebra]]:
+
+$$
+  G_2 = Aut(\mathbb{O})
+  \,.
+$$
+
+Another way to characterize it is as the [[stabilizer subgroup]] inside the [[general linear group]] $GL(7)$ of the canonical [[differential n-form|differential 3-form]]  $\langle ,(-)\times (-) \rangle$ on the [[Cartesian space]] $\mathbb{R}^7$
+
+$$
+  G_2 \simeq Stab_{GL(7)}(\langle -, -\times -\rangle)
+  \,.
+$$
+
+As such, the group $G_2$ is a higher analog of the [[symplectic group]] (which is the group that preserves a canonical 2-form on any $\mathbb{R}^{2n}$), obtained by passing from [[symplectic geometry]] to [[2-plectic geometry]].
 
 
 ## Definition
