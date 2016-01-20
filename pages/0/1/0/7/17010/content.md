@@ -42,6 +42,8 @@ $$
 
 More generally, one may take for $W$ any _[[affine space|affine]]_ subspace of $\mathbb{R}^{n+1}$ normal to $span\{v\}$ and not containing $v$. For instance one option is to take $W$ to be the tangent space to $S^n$ at $-v$, embedded as a subspace of $\mathbb{R}^{n+1}$.
 
+(see e.g. [Cook-Crabb 93, section 1](#CookCrabb93))
+
 ## Extra structure
 
 In most cases of interest one is doing [[geometry]] using stereographic projection, so the sphere and the subspace $W$ are equipped with extra structure. Taking the explicit case above ($v=(1,0,\ldots,0)$), as the formula is so simple, some structures are automatically preserved, for instance:
@@ -59,3 +61,6 @@ In most cases of interest one is doing [[geometry]] using stereographic projecti
 ## References
 
 * Wikipedia, _[Stereographic projection](https://en.wikipedia.org/wiki/Stereographic_projection)_
+
+* {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
+
