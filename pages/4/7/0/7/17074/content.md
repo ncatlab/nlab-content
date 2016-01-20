@@ -17,11 +17,13 @@
 
 ## Definition
 
-The _projective general special linear group_ $PSL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient group]] of the [[speciaö linear group]] $SL(n)$ by its [[center of a group|center]].
+The _projective general special linear group_ $PSL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient group]] of the [[special linear group]] $SL(n)$ by its [[center of a group|center]].
 
 ## Examples
 
 * the [[rotational icosahedral group]] $I$ is [[isomorphism|isomorphic]] to the projectiver special linear group in dimension 2 with [[coefficients]] in a [[prime field]]:  $I \simeq PSL_2(\mathbb{F}_5) $
+
+* the [[automorphism group]] of the [[Fano plane]] is $\simeq PSL(2,\mathbb{F}_7)$ (...)
 
 ## Related concepts
 
