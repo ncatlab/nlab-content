@@ -234,6 +234,8 @@ See at _[intermediate Jacobian -- For complex K-theory](intermediate+Jacobian#Fo
 
 [[!include square roots of line bundles - table]]
 
+* [[Kervaire invariant]]
+
 * [[bosonization]]
 
 * [[higher dimensional Chern-Simons theory]]
