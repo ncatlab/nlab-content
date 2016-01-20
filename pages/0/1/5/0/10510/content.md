@@ -6,17 +6,16 @@
 +--{: .hide}
 [[!include homotopy - contents]]
 =--
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-#### Cohomology
-+--{: .hide}
-[[!include cohomology - contents]]
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
 =--
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -31,5 +30,14 @@ For formalizations see at
 * [[(infinity,1)-module bundle]]
 
 * [[tangent (infinity,1)-topos]]
+
+* [[twisted cohomology]]
+
+## References
+
+* [[Ioan Mackenzie James]], _[[Introduction to fibrewise homotopy theory]]_ in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ (1995)
+
+* {#MaySigurdsson06} [[Peter May]], J. Sigurdsson, _[[Parametrized Homotopy Theory]]_, 2006
+
 
 [[!redirects parameterized stable homotopy theory]]
