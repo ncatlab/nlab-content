@@ -23,6 +23,8 @@ Prior to ([Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09)), all that was known 
 
 * [[Kervaire invariant]]
 
+* [[Hopf invariant one problem]]
+
 ## References
 
 The solution of the problem in the negative, except for one outstanding dimension (namely 126), appears in
