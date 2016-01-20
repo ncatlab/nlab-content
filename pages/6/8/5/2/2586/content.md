@@ -195,7 +195,7 @@ We have
 
     the projection $Spin(2)\to SO(2)$ corresponds to $S^1\stackrel{\cdot 2}{\longrightarrow} S^1$, see also at _[[Theta characteristic]]_
 
-  * $Spin(3) \simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [SU(2)](special+unitary+group#SU2))
+  * $Spin(3) \simeq Sp(1) \simeq SU(2) \simeq S^3$ (the [[special unitary group]] [[SU(2)]]
 
     the inclusion $Spin(2) \hookrightarrow Spin(3)$ corresponds to the canonical $S^1 \hookrightarrow S^3$ (see e.g. [Gorbunov-Ray 92](#GorbunovRay92))
 
