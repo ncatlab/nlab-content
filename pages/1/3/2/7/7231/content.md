@@ -156,6 +156,8 @@ Surveys are in
 
 * Spiro Karigiannis, _What is... a $G_2$-manifold_ ([pdf](http://www.ams.org/notices/201104/rtx110400580p.pdf))
 
+* Simon Salamon, _A tour of exceptional geometry_, ([pdf](http://calvino.polito.it/~salamon/G/COR/tour.pdf))
+
 * Wikipedia, _[G2](http://en.wikipedia.org/wiki/G2_%28mathematics%29)_ .
 
 The definitions are reviewed for instance in 
