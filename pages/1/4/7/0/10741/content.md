@@ -1,16 +1,66 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+For $n \in \mathbb{N}$ with $n \gt 1$, consider [[continuous functions]] between [[spheres]] of the form
+
+$$
+  \phi \;\colon\; S^{2n-1} \longrightarrow S^n
+  \,.
+$$
+
+The [[homotopy cofiber]] of $\phi$ has [[ordinary cohomology]] 
+
+$$
+  H^k(cofib(\phi), \mathbb{Z})
+  \simeq
+  \left\{
+    \array{  
+      \mathbb{Z} & for\; k = n, 2n;
+      \\
+      0 &  otherwise
+    }
+  \right.
+  \,.
+$$
+
+Hence for $\alpha, \beta$ generators of the cohomoloy groups in degree $n$ and $2n$, respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
+
+$$
+  \alpha \cup \alpha = h(\phi) \cdot \beta 
+  \,.
+$$
+
+This integer $h(\phi)$ is called the _Hopf invariant_ of $\phi$.
+
+## Properties
+
+### Hopf invariant one
+
+The (solution to the) _[[Hopf invariant one problem]]_ states that the only maps of Hopf invariant one, $h(\phi) = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
+
+* the [[real Hopf fibration]];
+
+* the [[complex Hopf fibration]];
+
+* the [[quaternionic Hopf fibration]];
+
+* the [[octonionic Hopf fibration]].
+
 ## Related concepts
 
-* [[Hopf fibration]]
-
-* [[Hopf invariant one]]
-
-* [[Hopf construction]]
+* [[EHP spectral sequence]]
 
 ## References
 
 * Wikipedia _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
 
-* J. Boardman, B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
+* [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
+
+* Michael Crabb, [[Andrew Ranicki]], _The geometric Hopfinvariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
+
 
 [[!redirects Hopf invariants]]
