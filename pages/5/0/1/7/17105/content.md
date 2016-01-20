@@ -1,0 +1,17 @@
+
+## Properties
+
+### Automorphisms
+
+The [[automorphism group]] is the [[projective special linear group]] $PSL(2,\mathbb{F}_7)$.
+
+## Related concepts
+
+* [[octonion]]
+
+## References
+
+* Wikipedia, _[Fano plane](https://en.wikipedia.org/wiki/Fano_plane)_
+
+* [[John Baez]], _[The Fano plane](http://math.ucr.edu/home/baez/octonions/node4.html)_
+
