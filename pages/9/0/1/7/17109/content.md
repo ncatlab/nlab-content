@@ -1,0 +1,18 @@
+
+## Idea
+
+... [[calibrated submanifolds]] with deformed [[Yang-Mills theory|Yang-Mills bundles]] over them...
+
+## Related concepts
+
+* [[associative submanifold]]
+
+* [[wrapped brane]], [[membrane instanton]]
+
+## References
+
+* [[Marcos Marino]], [[Ruben Minasian]], [[Gregory Moore]], [[Andrew Strominger]], _Nonlinear Instantons from supersymmetric $p$-Branes_, J. High Energy Phys. 2000, no. 1, Paper 5, 32 pp.
+
+* Jae-Hyouk Lee, [[Naichung Conan Leung]], _Geometric structures on $G_2$ and $Spin(7)$-manifolds_ ([arXiv:math/0202045](http://arxiv.org/abs/math/0202045))
+
+[[!redirects supersymmetric cycles]]
