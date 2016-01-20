@@ -18,7 +18,7 @@
 
 A normed division algebra is an [[associative algebra]] (over some [[ground field]]) that is both a [[division algebra]] as well as a multiplicatively [[normed algebra]]. 
 
-It turns out that over the [[real numbers]] there are precisely only four normed divition algebras up to [[isomorphism]]: the algebras of 
+It turns out that over the [[real numbers]] there are precisely only four normed division algebras up to [[isomorphism]]: the algebras of 
 
 1. [[real numbers]], 
 
@@ -30,9 +30,21 @@ It turns out that over the [[real numbers]] there are precisely only four normed
 
 In this sense real normed division algebras may be thought of as a natural generalization of the more familiar real and complex numbers. 
 
-This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]. Notably patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
+This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]: 
 
+* The _[[Hopf invariant one theorem]]_ says that the only [[continuous functions]] between [[spheres]] of the form $S^{2n-1}\to S^n$ whose [[Hopf invariant]] is equal to 1 are the [[Hopf constructions]] on the four real normed division algebras, namely 
 
+   1. the [[real Hopf fibration]];
+
+   1. the [[complex Hopf fibration]];
+
+   1. the [[quaternionic Hopf fibration]];
+
+   1. the [[octonionic Hopf fibration]].
+
+* Patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of _[[supersymmetry]]_in the form of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
+
+(Moreover, apparently these two items are not unrelated, see [[schreiber:Equivariant cohomology of M2/M5-branes|here]]).
 
 
 ## Definition
@@ -79,7 +91,7 @@ A __[[normed field]]__ is a commutative normed division algebra; it follows from
 ### Automorphisms
  {#Automorphisms}
 
-The [[automorphism]] groups of the real normed division algebras are
+The [[automorphism groups]] of the real normed division algebras, as [[normed algebras]], are
 
 * $Aut(\mathbb{R}) = 1$, the [[trivial group]]
 
