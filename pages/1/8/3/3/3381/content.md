@@ -55,6 +55,48 @@ Finally, we can express this more compactly by writing $\pi$ in cycle form, as t
 
 One may regard the symmetric group $S_n$ as the [[general linear group]] in dimension $n$ on the [[field with one element]]  $GL(n,\mathbb{F}_1)$.
 
+### Whitehead tower and relation to supersymmetry
+ {#WhietheadTowerAndSupersymmetry}
+
+The [[symmetric groups]] and [[alternating groups]] are the first stages in a restriction of the [[Whitehead tower]] of the [[orthogonal group]] to "finite [[discrete ∞-groups]]" in the sense of [[homotopy type with finite homotopy groups]]. The [[homotopy fibers]] of the stages of the "finite Whitehead tower" are the [[stable homotopy groups of spheres]] ([Epa-Ganter 16](#EpaGanter16)). (See also at _[super algebra -- Abstract idea](super+algebra#AbstractIdea)_.)
+
+$$
+  \array{   
+    && && \vdots
+    \\
+    && && \downarrow
+    \\
+    && && \mathbf{B}Fivebrane(n)
+    \\
+    && \downarrow && \downarrow
+    \\
+    \mathbf{B}^2 \pi_3 \mathbb{S} 
+      &\stackrel{}{\longrightarrow} & 
+     \mathbf{B}\mathcal{A}_n &\hookrightarrow& \mathbf{B} String(n)
+    \\
+    && \downarrow && \downarrow
+    \\
+    \mathbf{B} \pi_2 \mathbb{S} &\longrightarrow & \mathbf{B} \tilde A_n &\hookrightarrow& \mathbf{B} Spin(n)
+    \\
+    && \downarrow && \downarrow
+    \\
+    \pi_1 \mathbb{S} &\longrightarrow& \mathbf{B} A_n &\hookrightarrow& \mathbf{B} SO(n)
+    \\
+    && \downarrow && \downarrow
+    \\
+    && \mathbf{B} S_n &\hookrightarrow& \mathbf{B} O(n)
+  }
+$$
+
+* on the right: the [[delooping|delooped]] [[smooth ∞-group]] [[Whitehead tower]] of the [[orthogonal group]] ([[fivebrane 6-group]] $\to$ [[string 2-group]] $\to$ [[spin group]] \to [[special orthogonal group]]);
+
+* in the middle, its restriction to [[deloopings]] of [[finite groups]] and their universal [[∞-group extensions]] ($\cdots \to $ [[covering of alternating group]] $\to$ [[alternating group]] $\to$ [[symmetric group]])
+
+* on the left the [[homotopy fibers]] of each stage.
+
+
+Notice that the squares on the right are _not_ [[homotopy pullback]] squares. (The homotopy pullback of the [[string 2-group]] along $\tilde A \hookrightarrow Spin(n)$ is a $\mathbf{B}U(1)$-extension of $\tilde  A$, but here we get the universal _finite_ 2-group extension, by $\mathbb{Z}/24$ instead.
+
 ## Examples
 
 * The symmetric group on 4 elements is [[isomorphism|isomorphic]] to the full [[tetrahedral group]] as well as to the orientation-preserving [[octahedral group]].
@@ -66,6 +108,11 @@ One may regard the symmetric group $S_n$ as the [[general linear group]] in dime
 * [[signature of a permutation]]
 
 * [[permutation category]]
+
+## References
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, in preparation
+
 
 [[!redirects permutation]]
 [[!redirects permutations]]
