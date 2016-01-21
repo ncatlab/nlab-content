@@ -71,3 +71,5 @@ The [[cohomology]] of $\Im X$ has the interpretation of [[crystalline cohomology
 
 
 [[!include cohesion - table]]
+
+[[!redirects infinitesimal shape modalities]]
