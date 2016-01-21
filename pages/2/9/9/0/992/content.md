@@ -254,7 +254,7 @@ $$
 This is [StabCat, example 10.13](#StabCat) .
 
 
-+-- {: .num_prop}
++-- {: .num_prop #StableGiraud}
 ###### Proposition
 **("stable Giraud theorem")**
 
@@ -306,7 +306,81 @@ See at _[[sheaf of spectra]]_ and _[[model structure on presheaves of spectra]]_
 
 
 In terms of ([[stable model category|stable]]) [[model category|model categories]], something like an analog of this statement is 
-([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley)).  
+([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley)):
+
+
++-- {: .num_prop #ModuleProp}
+###### Proposition
+
+Let $\mathcal{C}$ be a _[[stable model category]]_ that is in addition
+
+* a [[simplicial model category]];
+
+* a [[cofibrantly generated model category]];
+* a [[proper model category]];
+
+* with a [[set]] $S$ of [[compact object|compact]] generators;
+
+then there is a chain of [[simplicial Quillen adjunction|sSet-enriched]] [[Quillen equivalences]]  linking $\mathcal{C}$ to the the [[spectrum]]-[[enriched functor category]] 
+
+$$
+  \mathcal{C} \simeq_Q A_S Mod \coloneqq Sp Cat(A_S, Sp)
+$$
+
+equipped with the [[global model structure on functors]],
+where $A_S$ is the $Sp$-[[enriched category]] whose set of objects is $S$
+
+=--
+
+This is  in ([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley))
+
++-- {: .num_remark}
+###### Remark
+
+An $Sp$-enriched category is a homotopy-theoretic analog of an [[Ab-enriched category]], which may be thought of as a many-object version of a [[ring]], a "[[ringoid]]". Accordingly, an $Sp$-enriched category is an $A_\infty$-ringoid. It is has a single object then (as a pointed category) it is an [[A-infinity algebra]].
+
+=--
+
+Hence:
+
++-- {: .num_cor}
+###### Corollary
+
+If if in prop. \ref{ModuleProp} there is just one compact generator $P \in \mathcal{C}$, then there is a one-object $Sp$-enriched category, hence an [[A-infinity algebra]] $A$, which is the [[endomorphisms]] $A \simeq End_{\mathcal{C}}(P)$, and the [[stable model category]] is its [[category of modules]]:
+
+$$
+  \mathcal{C} \simeq_Q A Mod
+  \,.
+$$
+
+
+
+=--
+
+This is  in ([Schwede-Shipley, theorem 3.1.1](#SchwedeShipley))
+
+If $A$ is an [[Eilenberg-MacLane spectrum]], then this identifies the corresponding stable model categories with the [[model structure on unbounded chain complexes]].
+
+This is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)).
+
+
++-- {: .num_remark}
+###### Remark
+
+This may be thought of as a homotopy-theoretic analog of the [[Freyd-Mitchell embedding theorem]] for [[abelian categories]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+One way to read this is that [[formal duals]] of presentable [[stable infinity-categories]] are a model for [[spaces]] in ("[[derived noncommutative geometry|derived]]") [[noncommutative geometry]].
+
+=--
+
+
+
+
 
 ### Dold-Kan correspondence
 
