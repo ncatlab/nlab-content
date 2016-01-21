@@ -29,3 +29,7 @@
 * ####Introduction on higher groupoids####
 
   * [Kan complex](http://arxiv.org/abs/0801.2057)
+
+  * [Stacky Groupoids](http://arxiv.org/abs/1510.09208) (Sect. 3.1)
+
+  
