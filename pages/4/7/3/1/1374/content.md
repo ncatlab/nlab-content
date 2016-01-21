@@ -39,7 +39,7 @@ $$
 
 ### Monoidal structure
 
-* With the [[smash product of spectra]] $Sp(L_{whe}Top_*)$ becomes a [[symmetric monoidal (infinity,1)-category]].
+* With the [[smash product of spectra]] $Sp(L_{whe}Top_*)$ becomes a [[symmetric monoidal (∞,1)-category]].
 
   * an [[algebra in an (infinity,1)-category|algebra object]] in $Sp(L_{whe}Top_*)$ with respect to this monoidal structure is an [[associative ring spectrum]];
 
@@ -49,6 +49,19 @@ $$
 ### Prime spectrum and Morava K-theory
 
 The [[prime spectrum of a monoidal stable (∞,1)-category]] for [[p-localization|p-local]] and [[finite spectra]] is labeled by the [[Morava K-theories]]. This is the content of the _[[thick subcategory theorem]]_.
+
+### Model category presentation
+
+There are several [[presentable (infinity,1)-category|presentations]] of the $(\infty,1)$-category of spectra by [[model categories of spectra]]. In particular there are [[symmetric smash product of spectra|symmetric]] [[monoidal model categories]] where the [[smash product of spectra]] is presented by an ordinary [[tensor product]], so that [[A-∞ rings]], [[E-∞ rings]] and [[∞-modules]] are presented by 1-categorical [[monoid objects]] and [[module objects]], respectively ("[[brave new algebra]]"). See at:
+
+[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
 
 
 ## References
