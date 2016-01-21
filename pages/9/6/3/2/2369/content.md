@@ -53,13 +53,13 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 ## Reference
 
+Discussion of ring spectra as rings with repsect to [[symmetric smash product of spectra]] includes
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], sections 2 and 3 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
 An account in terms of [[(∞,1)-category theory]] is in section 7.1 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
-
-An account in terms of [[model categories]] is in 
-
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May|P. May]], _Modern foundations for stable homotopy theory_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 Discussion of [[simplicial ring|simplicial]] ring spectra is in
 
