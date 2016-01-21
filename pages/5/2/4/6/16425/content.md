@@ -18,9 +18,11 @@
 
 An [[alternating group]] $A_n$ is a [[subgroup]] of a [[symmetric group]] $S_n$ consisting of the _even_ [[permutations]].
 
+The alternating group $A_n$ is to the [[symmetric group]] $S_n$ as the [[special orthogonal group]] $SO(n)$ is to the [[orthogonal group]] $O(n)$. See also at _[symmetric group -- Whitehead tower](https://ncatlab.org/nlab/show/permutation#WhietheadTowerAndSupersymmetry)_
+
 ## Examples
 
-The alternating group $A_4$ on four elements is [[isomorphism|isomorphic]] to the orientation-preserving [[tetrahedral group]].
+* The alternating group $A_4$ on four elements is [[isomorphism|isomorphic]] to the orientation-preserving [[tetrahedral group]].
 
 ## Related concepts
 
