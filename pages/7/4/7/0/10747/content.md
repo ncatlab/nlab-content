@@ -19,7 +19,7 @@
 
 ## Idea
 
-The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] of spectra, with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
+The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
 
 A _symmetric spectrum_ is given by a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
