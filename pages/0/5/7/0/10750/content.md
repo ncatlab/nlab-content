@@ -19,7 +19,10 @@
 
 ## Idea
 
-A [[model structure on spectra]] for [[orthogonal spectra]].
+A [[model structure on spectra]] on [[orthogonal spectra]].
+
+The [[category]] of _orthogonal spectra_  is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] of spectra, with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] orthogonal spectra.
+
 
 ## Related concepts
 
