@@ -317,6 +317,10 @@ The standard textbook is
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
 
+An introduction for philosophers is
+
+* {#Shulman16} [[Michael Shulman]], _Homotopy Type Theory: A synthetic approach to higher equalities_ ([arXiv:1601.05035](http://arxiv.org/abs/1601.05035))
+
 Early sketches and introductions to the idea of homotopy type theory include
 
 * {#Awodey} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201. (2010) [arXiv:1010.1810](http://arxiv.org/abs/1010.1810)
