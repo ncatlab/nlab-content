@@ -571,6 +571,9 @@ section 3 of
 * [[Peter May]], _Notes on Tor and Ext_ ([pdf](http://www.math.uchicago.edu/~may/MISC/TorExt.pdf))
  {#May}
 
+and specifically for [[symmetric smash product of spectra|symmetric]] [[model categories of spectra]]
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], section 7 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 
 Original articles include
