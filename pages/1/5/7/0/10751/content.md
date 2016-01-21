@@ -21,6 +21,9 @@
 
 A [[model structure on spectra]] for [[S-modules]].
 
+The [[category]] of _S-modules_ ([EKMM 97](#EKMM97)) is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] of spectra, with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] S-modules.
+
+
 ## Related concepts
 
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
@@ -34,6 +37,16 @@ A [[model structure on spectra]] for [[S-modules]].
 
 
 ## References
+
+The construction originates in
+
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
+
+Review includes
+
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], sections 2 and 3 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+Comparison to the [[model structure on orthogonal spectra]] is due to
 
 * [[Michael Mandell]], _Equivariant orthogonal spectra and S-modules_ ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
 
