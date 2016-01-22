@@ -35,7 +35,10 @@ A possible research direction is to look at Gromov's ideas about metric homotopy
 
 A natural very small set of constraints for a relaxed approach to the homotopy theory of metric spaces is the following:
 
-* Having a metric ring sphere spectrum $S$ such that $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty)$.
+* A metrized ring spectrum should be "something like" a commutative ring spectrum $A$ together with norms on its homotopy groups such that $\pi_0(A)$
+is a seminormed ring and $\pi_i(A)$ is a seminormed module over $\pi_0(A)$ for all $i$.
+
+* Having a metric ring sphere spectrum $\mathbb{S}$ such that $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty)$.
 
 * Having a natural action of $\mathbb{R}_+^*$ on the homotopy category (this is not contradictory with the previous constraint: one actually needs a family of sphere ring spectra, or its limit, that would have $\pi_0(\mathbb{S})=(\mathbb{Z},|\cdot|_\infty^\infty)$, in the sense of pro-objects).
 
