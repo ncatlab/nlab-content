@@ -15,7 +15,7 @@
 
 ## Idea
 
-What are called the _Steenrod squares_ is the system of [[cohomology operations]] on [[cohomology]] with [[coefficients]] in $\mathbb{Z}_2$ which is compatible with [[suspension]] (the "stable cohomology operations").  They are special examples of [[power operations]].
+What are called the _Steenrod squares_ is the system of [[cohomology operations]] on [[cohomology]] with [[coefficients]] in $\mathbb{Z}_2$ (the [[cyclic group of order 2]]) which is compatible with [[suspension]] (the "stable cohomology operations").  They are special examples of [[power operations]].
 
 The Steenrod squares together form the _[[Steenrod algebra]]_, see there for more.
 
@@ -234,6 +234,35 @@ $$
 for all $0 \lt i \lt 2 j$.
 
 (...)
+
+## Examples
+
+### Hopf invariant
+ {#HopfInvariant}
+
++-- {: .num_prop}
+###### Proposition
+
+For $\phi \colon S^{k+n-1} \to S^k$, a map of [[spheres]], the Steenrod square 
+
+$$
+  Sq^n 
+    \colon 
+   H^k(cofib(\phi), \mathbb{F}_2) 
+    \longrightarrow 
+   H^{k+n}(cofib(\phi),\mathbb{F}_2)
+$$
+
+(on the [[homotopy cofiber]] $cofib(\phi)\simeq S^k \underset{S^{k+n-1}}{\cup} D^{k+n}$)
+
+is non-vanishing exactly for $n \in \{1,2,4,8\}$.
+
+=--
+
+([Adams 60, theorem 1.1.1](Hopf+invariant+one#Adams60)).
+
+See at _[[Hopf invariant one theorem]]_.
+
 
 ## Related concepts
 
