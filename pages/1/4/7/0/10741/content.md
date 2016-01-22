@@ -12,7 +12,13 @@ $$
   \,.
 $$
 
-The [[homotopy cofiber]] of $\phi$ has [[ordinary cohomology]] 
+The [[homotopy cofiber]] of $\phi$ 
+
+$$
+  cofib(\phi) \simeq S^n \underset{S^{2n-1}}{\cup} D^{2n}
+$$
+
+has [[ordinary cohomology]] 
 
 $$
   H^k(cofib(\phi), \mathbb{Z})
@@ -27,7 +33,7 @@ $$
   \,.
 $$
 
-Hence for $\alpha, \beta$ generators of the cohomoloy groups in degree $n$ and $2n$, respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
+Hence for $\alpha, \beta$ generators of the cohomoloy groups in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
 
 $$
   \alpha \cup \alpha = h(\phi) \cdot \beta 
@@ -36,11 +42,22 @@ $$
 
 This integer $h(\phi)$ is called the _Hopf invariant_ of $\phi$.
 
+It depends on the choices made only up to sign. In particular it has a well-defined image $[h(\phi)] \in \mathbb{F}_2 = \mathbb{Z}/2\mathbb{Z}$, and as such it is the [[Steenrod square]] 
+
+$$
+  [h(\phi)] \cdot (-)
+    \;\colon\; 
+  H^n(cofib(\phi), \mathbb{F}_2) 
+   \stackrel{Sq^n}{\longrightarrow}
+  H^{2n}(cofib(\phi), \mathbb{F}_2) 
+  \,.
+$$
+
 ## Properties
 
 ### Hopf invariant one
 
-The (solution to the) _[[Hopf invariant one problem]]_ states that the only maps of Hopf invariant one, $h(\phi) = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
+The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) states that the only maps of Hopf invariant one, $h(\phi) = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
 
 * the [[real Hopf fibration]];
 
@@ -56,7 +73,7 @@ The (solution to the) _[[Hopf invariant one problem]]_ states that the only maps
 
 ## References
 
-* Wikipedia _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
+* Wikipedia, _[Hopf invariant](http://en.wikipedia.org/wiki/Hopf_invariant)_
 
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
