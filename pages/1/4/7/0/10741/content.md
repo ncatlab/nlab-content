@@ -55,7 +55,19 @@ $$
 
 ## Properties
 
+### Generic values
+
+For $n$ odd, then the Hopf invariant necessarily vanishes. For $n$ even however, then there is a homomorphism
+
+$$
+  \pi_{2n-1}(S^n) \longrightarrow  \mathbb{Z}
+$$
+
+whose [[image]] contains at least the even integers.
+
 ### Hopf invariant one
+
+Hence a famous open question in the 1950s was for which maps $\phi$ one has Hopf invariant one, $h(\phi) = 1$.
 
 The _[[Hopf invariant one theorem]]_ ([Adams60](Hopf+invariant+one#Adams60)) states that the only maps of Hopf invariant one, $h(\phi) = 1$, are the [[Hopf constructions]] on the four real [[normed division algebras]]:
 
