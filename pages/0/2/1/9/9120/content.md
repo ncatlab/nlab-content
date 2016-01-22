@@ -62,11 +62,11 @@ $$
     \\
     && \vee && \vee
     \\
-    &\stackrel{contractible}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
+    &\stackrel{cohesive}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
     \\
     && \bot && \bot
     \\
-    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{differential}{}
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{continuous}{}
     \\
     && \vee && \vee
     \\
