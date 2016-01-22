@@ -42,4 +42,6 @@ Also chapters 7 and 8 of
 * [[Dan Licata]], _Dependently Typed Programming
 with Domain-Specific Logics_ PhD thesis, ([pdf](http://www.cs.cmu.edu/~drl/pubs/thesis/thesis.pdf))
 
+* [[Andreas Nuyts]], _Towards a Directed Homotopy Type Theory based on 4 Kinds of Variance_, [PDF](http://people.cs.kuleuven.be/~dominique.devriese/ThesisAndreasNuyts.pdf)
+
 [[!redirects directed homotopy type theories]]
