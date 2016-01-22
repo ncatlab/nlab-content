@@ -33,7 +33,7 @@ In its evident generalization from [[Lie algebra valued differential forms]] to 
 
 In another direction, one may observe that [[L-∞ algebras]] are [[formal dual|formally dually]] incarnated by their [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[dg-algebras]], and that under this identification the evident generalization of the path method to [[L-∞ algebra valued differential forms]] is essentially the [[Sullivan construction]], known from [[rational homotopy theory]], applied to these dg-algebras ([Hinich 97](#Hinich97), [Getzler 04](#Getzler04)). Or rather, the bare such construction gives the [[geometrically discrete ∞-groupoid|geometrically discrete]] [[∞-group]] underlying what should be the Lie integration to a [[smooth ∞-group]]. This is naturally obtained, as in the classical case, by suitably smoothly parameterizing the [[∞-Lie algebroid valued differential forms]] ([Henriques 08](#Henriques), [Roytenberg 09](#Roytenberg09), [FSS 12](#FSS12)).
 
-Both these directions may be combined via the evident concept of [[∞-Lie algebroid valued differential forms]] to yield a Lie integration of [[∞-Lie algebroids]] to [[smooth ∞-groupoids]].
+Both these directions may be combined via the evident concept of [[∞-Lie algebroid valued differential forms]] to yield a Lie integration of [[∞-Lie algebroids]] to [[smooth ∞-groupoids]]. (Moreover, the same formula directly generalizes from $L_\infty$-algebroids to [[A-infinity categories]] to yield the _[[dg-nerve]]_ construction.)
 
 While the construction exists and behaves as expected in examples, there is to date no good general theory providing higher analogs of, say, [[Lie's three theorems]]. But people are working on it.
 
@@ -68,6 +68,7 @@ $$
 $$
 
 Notice that this induces some degree shifts that may be a little ambiguous in situations like the [[line Lie n-algebra]]: as an [[L-∞ algebra]] this is $b^{n-1}\mathbb{R}$, the corresponding [[∞-Lie algebroid]] is $b^n \mathbb{R}$.
+
 
 ### Higher dimensional paths in an $\infty$-Lie algebroid
  {#HigherPathsInAnInfinityLieAlgebroid}
@@ -648,6 +649,8 @@ Fortunately $A$-homotopies form finite codimensional foliation $F$, even though 
 * [[holonomy]], [[higher holonomy]]
 
   * [[nonabelian Stokes theorem]]
+
+* [[dg-nerve]]
 
 [[!include infinitesimal and local - table]]
 
