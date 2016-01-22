@@ -15,10 +15,17 @@
 
 ## Idea
 
-_Hopf invariant one_ refers to [[continuous functions]] between [[spheres]] of the form
+_Hopf invariant one_ refers to [[homotopy classes]] of [[continuous functions]] between [[spheres]] of the form
 
 $$
   \phi \;\colon\; S^{2n-1} \longrightarrow S^n
+  \,,
+$$
+
+hence to elements in the [[homotopy groups of spheres]]
+
+$$
+  [\phi] \in \pi_{2n-1}(S^n)
 $$
 
 whose [[Hopf invariant]] is equal to one:
@@ -28,9 +35,21 @@ $$
   \,.
 $$
 
+
+
 ## Properties
 
+### Relation to H-space structure and normed division algebras
+ {#RelationToHSpaceStructureAndNormedDivisionAlgebras}
+
+The existence of an element of Hopf invariant one in $\pi_{2n-1}(S^n)$
+is equivalent to the existence of an [[H-space]] structure on $S^n$.
+
 A celebrated theorem due to ([Adams 60](#Adams60), introducing and using the [[Adams spectral sequence]])  states that maps of Hopf invaraint one correspond precisely to the the [[Hopf constructions]] on the four [[normed division algebras]] (see also at [[Hurwitz theorem]]). 
+
+ <img src="http://ncatlab.org/nlab/files/AdamsHopfInvariantProofFlow.jpg" width="700">
+
+([Adams 60](#Adams60))
 
 ## History
 
