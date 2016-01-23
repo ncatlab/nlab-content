@@ -30,7 +30,7 @@ Here $H \mathbb{Z}$ is the [[Eilenberg-MacLane spectrum]] of the [[integers]].
 
 ### Bousfield localization at Moore spectra
 
-An basic special case of $E$-[[Bousfield localization of spectra]] is given by $E = S A$ the Moore spectrum of an [[abelian group]] $A$. For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]].
+A basic special case of $E$-[[Bousfield localization of spectra]] is given by $E = S A$ the Moore spectrum of an [[abelian group]] $A$. For $A = \mathbb{Z}_{(p)}$ this is [[p-localization]] and for $A = \mathbb{F}_p$ this is [[p-completion]].
 
 +-- {: .num_prop}
 ###### Proposition
