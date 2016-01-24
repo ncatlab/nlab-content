@@ -26,7 +26,7 @@ suitable [[homotopy fiber products]] of the [[mapping spectra]] [[Brown represen
 
 In this stable case one characteristic property of differential cohomology that was first observed empirically in [[ordinary differential cohomology]] ([Simons-Sullivan 07](#SimonsSullivan07)) and [[differential K-theory]] ([Simons-Sullivan 08](#SimonsSullivan08)) is that it is a kind of cohomology theory which fits into a _[[differential cohomology diagram]]_ which is an interlocking system of two [[fiber sequences]] that expresses how the data of a geometric bundle with connection may be decomposed into the underlying bundle and the [[curvature]] of the connection and how connections on trivial bundles as well as bundles with [[flat infinity-connection|flat connections]] are examples of the general concept. (The [[homotopy fiber product]] used in ([Hopkins-Singer 02](#HopkinsSinger02)) provides one of the two commuting squares in this diagram.)
 
-Schematically the charactersitic [[differential cohomology heaxogon]] (see there for details) looks as follows
+Schematically the characteristic [[differential cohomology hexagon]] (see there for details) looks as follows
 
 $$
   \array{
@@ -138,7 +138,7 @@ For more details on this see at _[[differential function complex]]_.
 
 The following theory of differential cohomology
 (also called **smooth cohomology**) is developed and used
-in the work of [[Ulrich Bunke]] and [[Thomas Schick]]. Contrary to the above, it does not take the notion of homotopy limit as fundamental, but instead characterizes the universality of the above commuting diagram by other means. On the other hand, this means that their axiomatization at the moment only capture cohomology classes, not the representing cocycles. It is sort of known that for various applications specific cocycle representatives do play an important role, and one may imagining refining to discussion below eventually to accomodate for that.
+in the work of [[Ulrich Bunke]] and [[Thomas Schick]]. Contrary to the above, it does not take the notion of homotopy limit as fundamental, but instead characterizes the universality of the above commuting diagram by other means. On the other hand, this means that their axiomatization at the moment only capture cohomology classes, not the representing cocycles. It is sort of known that for various applications specific cocycle representatives do play an important role, and one may imagining refining to discussion below eventually to accommodate for that.
 
 * idea:
 
