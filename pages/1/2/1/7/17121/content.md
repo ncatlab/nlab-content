@@ -2,7 +2,7 @@
 
 ## Idea
 
-A special square arrey of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and includion all the [[exceptional Lie groups]] except [[G2]].
+A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G2]].
 
 ## References
 
