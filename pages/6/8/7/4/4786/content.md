@@ -33,6 +33,8 @@ On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series con
 
 * [[universal exceptionalism]]
 
+* [[Freudenthal magic square]]
+
 ## References
 
 ### Lie groups
@@ -40,6 +42,11 @@ On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series con
 * Ichiro Yokota, _Exceptional Lie groups_ ([arXiv:0902.0431](http://arxiv.org/abs/0902.0431))
 
 ### Lie algebras
+
+Original articles include
+
+* {#Freudenthal65} [[Hans Freudenthal]], _Lie groups in the foundations of geometry_, Advances in Mathematics, volume 1, (1965) pp. 145 - 190 ([dspace](http://dspace.library.uu.nl/handle/1874/17442))
+
 
 The following are references on the [[Lie algebras]] underlying exceptional Lie groups.
 
