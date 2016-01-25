@@ -4,6 +4,8 @@
 
 A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[normed division algebras]] and including all the [[exceptional Lie groups]] except [[G2]].
 
+It has been extended to a [[magic triangle]].
+
 ## References
 
 Named after [[Hans Freudenthal]].
