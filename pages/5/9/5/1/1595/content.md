@@ -30,6 +30,8 @@ The Freudenthal suspension theorem is a special case of the [[Blakers-Massey the
 
 ## References
 
+Named after _[[Hans Freudenthal]]_.
+
 A formalization in [[homotopy type theory]] in [[Agda]] is in 
 
 * [[Peter Lumsdaine]], [[Dan Licata]], _[Freudenthal.agda](https://github.com/dlicata335/hott-agda/blob/master/homotopy/Freudenthal.agda)_
