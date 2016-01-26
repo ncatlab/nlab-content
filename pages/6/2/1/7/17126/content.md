@@ -1,0 +1,13 @@
+
+
+* [webpage](http://people.oregonstate.edu/~drayt/)
+
+## related $n$Lab entries
+
+* [[octonions]]
+
+* [[exceptional Jordan algebra]]
+
+* [[E6]]
+
+category: people
