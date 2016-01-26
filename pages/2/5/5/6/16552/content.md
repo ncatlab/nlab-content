@@ -103,7 +103,7 @@ This construction is a differential refinement of [[Lie integration]], so we sta
 
 #### Lie integration
 
-So let $\mathfrak{g}$ be an [[L-∞ algebra]]. 
+So let $\mathfrak{g}$ be an [[L-∞ algebra]] of [[finite type]].
 
 Write 
 
