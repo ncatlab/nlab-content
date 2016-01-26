@@ -1,0 +1,9 @@
+
+
+* [webpage](http://homepages.uni-regensburg.de/~lij60053/)
+
+## related $n$Lab entries
+
+* [[spherical T-duality]]
+
+category: people
