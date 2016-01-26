@@ -26,16 +26,19 @@ One of the main uses of simplicial sets is as combinatorial _models_ for  the (w
 ## Definition
  {#Definition}
 
+The quick abstract definition of a simplicial set goes as follows:
+
 +-- {: .num_defn}
 ###### Definition
 
-A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a [[functor]] $X : \Delta^{op} \to Sets$, equivalently a [[simplicial object]] in the category [[Set]] of sets.
+A **simplicial set**  is a [[presheaf]] on the [[simplex category]] $\Delta$, that is, a [[functor]] $X : \Delta^{op} \to Sets$ from the [[opposite category]] of the [[simplex category]] to the category [[Set]] of [[sets]]; equivalently this a [[simplicial object]] in [[Set]].
+
+Equipped with the standard [[homomorphisms]] of [[presheaves]] as morphisms (namely [[natural transformations]] of the corresponding [[functors]]), simplicial sets form the category [[sSet]] (also called $SSet$ or $sSet$). 
+
 
 =--
 
-With the standard morphisms of [[presheaf|presheaves]] as morphisms, simplicial sets form the category [[sSet]] (also called $SSet$ or $sSet$). 
-
-More explicitly this means the following.
+Explicitly this means the following.
 
 +-- {: .num_defn}
 ###### Definition
