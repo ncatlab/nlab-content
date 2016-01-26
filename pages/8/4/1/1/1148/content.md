@@ -45,12 +45,12 @@ The general [[(∞,1)-topos]]-theoreric perspective on cohomology is described i
 
 ### More details on this idea ###
 
-Using the [[Dold-Kan correspondence]] in [[Higher Topos Theory|higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
+Using the [[Dold-Kan correspondence]] in [[higher topos theory]], [[complex]]es of [[abelian sheaf|abelian sheaves]] can be understood as a generalization of [[topological space]]s, in a precise sense recalled below. 
 This induces a notion of cohomology of [[complex]]es of [[abelian sheaf|abelian sheaves]] from the familiar notion of cohomology of spaces.
 
 Which is a simple one: recall that the [[cohomology]] of one [[topological space]] $X$ with coefficients in another space $A$ is nothing but the space of morphisms (continuous maps) $H(X,A) := [X,A]$ from $X$ to $A$ -- or, in a more restrictive sense traditionally adopted, the set $\Pi_0[X,A]$ of connected path components of this space. 
 
-Similarly, when considering [[chain complexes]] of [[abelian sheaves]] in their natural [[Higher Topos Theory|higher topos theoretic]] home, the cohomology of a complex of sheaves $A$ on a space $X$ is nothing but the hom-space $H(X,A) = [X,A]$ -- where the space $X$ itself is regarded as a special case of a sheaf.
+Similarly, when considering [[chain complexes]] of [[abelian sheaves]] in their natural [[higher topos theory|higher topos theoretic]] home, the cohomology of a complex of sheaves $A$ on a space $X$ is nothing but the hom-space $H(X,A) = [X,A]$ -- where the space $X$ itself is regarded as a special case of a sheaf.
 
 One reason this conceptually simple picture is not usually presented is that the space $X$ is typically not represented by an _abelian_ complex of sheaves, so that the full simplicity of the story becomes manifest only in general [[nonabelian cohomology]].
 
