@@ -42,9 +42,8 @@ If $k$ is a [[field]] whose [[characteristic]] is not $2$ (or is any [[commutati
 
 $$x\circ y \stackrel{def}{=} \frac{x\cdot y + y \cdot x}{2}.$$ 
 
-Such Jordan algebras are called __special__ Jordan algebras; all others are called __exceptional__.
+Such Jordan algebras are called __special__ Jordan algebras; all others are called __[[exceptional Jordan algebra|exceptional]]__.
 
-Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **[[Albert algebra]]** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
 
 
 ## Formally real Jordan algebras and their origin in quantum physics 
@@ -98,8 +97,9 @@ In fact the Jordan identity $(x \circ y) \circ (x \circ x) = x \circ (y \circ (x
 
 For more on this see also at _[order-theoretic structure in quantum mechanics -- Relation to non-commutative geometry](order-theoretic+structure+in+quantum+mechanics#RelationToTheNonCommutativePhaseSpace)_.
 
+## Examples
 
-## Classification of formally real Jordan algebras
+### Classification of formally real Jordan algebras
 {#frc}
 
 In 1934, Jordan published a paper with von Neumann and Wigner classifying finite-dimensional formally real Jordan algebras ([Jordan-vonNeumann-Wigner 34](#JordanvNeumannWigner34)).
@@ -146,6 +146,11 @@ Because the spin factor $\mathbb{R}^n \oplus \mathbb{R}$ can be identified with 
 * [[John Baez]] and [[John Huerta]], Division algebras and supersymmetry I.  ([arXiv](http://arxiv.org/abs/0909.0551))
 
 In 1983, Zelmanov drastically generalized the result of Jordan, von Neumann and Wigner by classifying all simple Jordan algebras, including infinite-dimensional ones ([Zelmanov 83](#Zelmanov83)).
+
+### Exceptional Jordan algebras
+
+Among the exceptional Jordan algebras over the [[real numbers]], there is a remarkable $27$-dimensional example: the **[[Albert algebra]]** $\mathbb{Al}$ of [[self-adjoint matrix|self-adjoint]] $3\times 3$ [[matrix|matrices]] over the [[octonion|octonions]] with the same formula as above for the product in terms of [[matrix product]]. Notice that the octonions and their matrices do *not* form associative algebras, but only [[alternative algebras]], so the Jordan identity for the Albert algebra is not automatic (it does not hold for all alternative algebras) but is a consequence of more special circumstances.
+
 
 
 ## Self-dual homogeneous convex cones
