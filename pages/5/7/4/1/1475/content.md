@@ -96,7 +96,7 @@ We first show that Zorn's lemma implies the classical [[well-ordering principle]
 
 ### Bourbaki-Witt theorem 
 
-Many accounts of the proof of Zorn's lemma start by establishing first the so-called Bourbaki-Witt theorem, which does not require AC and is of interest in its own right. (However, it too does not admit a constructive proof; see [Bauer](#Bauer) for a demonstration that it is not valid in the [[effective topos]]. That said, the issue is subtle enough that the Bourbaki-Witt theorem nonetheless holds in any [[Grothendieck topos]].) 
+Many accounts of the proof of Zorn's lemma start by establishing first the so-called Bourbaki-Witt theorem, which does not require AC and is of interest in its own right. However, it too does not admit a constructive proof; see [Bauer](#Bauer) for a demonstration that it is not valid in the [[effective topos]]. That said, the issue is subtle enough that the Bourbaki-Witt theorem nonetheless holds in topos with a [[geometric morphism]] to $Set$, for instance any [[Grothendieck topos]], assuming B-W holds in $Set$ ([Bauer-Lumsdaine 2013](#Bauer-Lumsdaine_13)).
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -142,10 +142,14 @@ Some of these are equivalent to Zorn\'s lemma, while some are weaker; conversely
 
 * Serge Lang, _Algebra_ (third edition), Addison-Wesley 1993. 
 
-* Gerhard Osius, _Categorical set theory: a characterization of the category of sets_, Jour. Pure Appl. Alg. 4 (1974), 79-119. ([web](http://www.sciencedirect.com/science/article/pii/0022404974900322)) 
- {#Osius} 
+* {#Osius} Gerhard Osius, _Categorical set theory: a characterization of the category of sets_, Jour. Pure Appl. Alg. 4 (1974), 79-119. doi:[10.1016/0022-4049(74)90032-2](http://dx.doi.org/10.1016/0022-4049%2874%2990032-2) 
 
-* [[Andrej Bauer]], _On the Failure of Fixed-Point Theorems for Chain-complete Lattices in the Effective Topos_, http://arxiv.org/abs/0911.0068 (2009). ([direct link](http://arxiv.org/abs/0911.0068)) 
+
+* {#Bauer} [[Andrej Bauer]], _On the Failure of Fixed-Point Theorems for Chain-complete Lattices in the Effective Topos_, Electronic Notes in Theoretical Computer Science, **249** (2009) pp 157-167, doi:[10.1016/j.entcs.2009.07.089](http://dx.doi.org/10.1016/j.entcs.2009.07.089) _and_
+Theoretical Computer Science, **430** (2012) pp 43-50, doi:[10.1016/j.tcs.2011.12.005](http://dx.doi.org/10.1016/j.tcs.2011.12.005).
+arXiv:[0911.0068](http://arxiv.org/abs/0911.0068).
+
+* {#Bauer-Lumsdaine_13} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _On the Bourbaki-Witt Principle in Toposes_, Math. Proc. Cam. Phil. Soc. 155 (2013), no. 1, 87-99 doi:[10.1017/S0305004113000108](http://dx.doi.org/10.1017/S0305004113000108), arXiv:[1201.0340](http://arxiv.org/abs/1201.0340).
 
 
 [[!redirects Zorn lemma]]
