@@ -29,7 +29,13 @@ On the other hand, a special role is played in the theory by those $SU(2)$-princ
 
 ## References
 
+The idea is due to 
+
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
+
+which in the course of considers higher [[Snaith theorem|Snaith spectra]] and higher order [[algebraic K-theory]].
+
+A special case of this general story is discussed in some detail in
 
 * {#BouwknegtEvslinMathai14a} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
 
