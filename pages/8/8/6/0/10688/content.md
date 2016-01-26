@@ -150,7 +150,7 @@ Review includes
 
 * [[Mark Mahowald]], [[Doug Ravenel]], section 7 of _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]], chapter 1, section 5 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
 * [[eom]], _[EHP spectral sequence](https://www.encyclopediaofmath.org/index.php/EHP_spectral_sequence)_
  
