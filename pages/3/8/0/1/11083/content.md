@@ -3,7 +3,7 @@
 
 > previous chapters: _[[geometry of physics -- smooth spaces|smooth sets]]_, _[[geometry of physics -- homotopy types|homotopy types]]_
 
-> next chapter: _[[geometry of physics -- groups|groups]]_
+> next chapter: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- supergeometry|supergeometry]]_, _[[geometry of physics -- prequantum geometry|prequantum geometry]]_
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -271,7 +271,6 @@ This style of definition combines the simplicity of the naive definition of Lie 
 
 =--
 
-spring
 
 ###### Pre-smooth groupoids
  {#PreSmoothGroupoids}
@@ -1287,7 +1286,7 @@ There is an [[equivalence]]
 
 $$
   [\mathbf{P}_1(-), \mathbf{B}\mathbb{R}]
-  \stackrel{\overset{\int_{(-)}(-)}{\leftarrow}}{\underset{}{\to}}
+  \stackrel{\overset{\int_{(-)}(-)}{\longleftarrow}}{\underset{}{\longrightarrow}}
   DK(C^\infty(-) \stackrel{\mathbf{d}}{\to} \Omega^1(-)
   \,.
 $$
@@ -1298,8 +1297,13 @@ $$
 
 
 ##### Lie integration of $\infty$-Lie algebroids
+ {#LieIntegrationOfLInfinityAlgebroids}
+
+In classical [[Lie theory]], a [[Lie group]] may be (re-)constructed from infinitesimal data, namely from its _[[Lie algebra]]_ by a process of [[Lie integration]]. We now discuss a procedure that constructs [[smooth homotopy types]]/[[smooth ∞-groupoids]] from [[Lie integration]] of infinitesimal data, namely from higher Lie algebras, called _[[L-∞ algebras]]_ and more generally from [[L-∞ algebroids]].
 
 ###### Lie algebras via their Chevalley-Eilenberg algebras
+
+The quickest way to introduce [[L-∞ algebras]] of [[finite type]] is via theiry [[formal dual|formally dual]] [[Chevalley-Eilenberg dg-algebras]]. Here we recall how this works and then [below](#LInfinityAlgebroidsViaTheiryCEAlgebras) we use this to define [[L-∞ algebroids]] of [[finite type]].
 
 +-- {: .num_defn #CEAlgebra}
 ###### Definition
@@ -1467,12 +1471,109 @@ the differential is automatically respected also on the shifted generators. This
 =--
 
 ###### $L_\infty$-Algebroids via their Chevalley-Eilenberg algebras
+ {#LInfinityAlgebroidsViaTheiryCEAlgebras}
 
-[[L-infinity algebra]]... [[infinity-Lie algebroid]]
++-- {: .num_defn }
+###### Definition
+
+The [[category]] of [[L-∞ algebras]] of _[[finite type]]_ is 
+the [[full subcategory]] of that of the [[opposite category]] of [[dg-algebras]]
+
+$$
+  CE(-)
+  \;\colon\;
+  L_\infty Alg 
+   \hookrightarrow
+  dgAlg^{op}
+$$
+
+$$
+  (\mathfrak{g}, [-],[-,-], [-,-,-],\cdots)
+  \mapsto
+  (\wedge^\bullet \mathfrak{g}^\ast , d_{CE} = [-]^\ast + [-,-]^\ast + [-,-,-]^\ast + \cdots)
+$$
+
+on those whose underlying [[graded algebra]] is the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}$ on a $\mathbb{N}$-[[graded vector space]] $\mathfrak{g}$ of [[finite type]].
+
+More generally, the [[category]] [[L-∞ algebroids]] is the [[full subcategory]]
+
+$$
+  CE(-)
+  \;\colon\;
+  L_\infty Algd 
+   \hookrightarrow
+  dgAlg^{op}
+$$
+
+on those dg-algebras (over $\mathbb{R}$)
+
+$$
+  (\mathfrak{a}_X, [-],[-,-], [-,-,-],\cdots)
+  \mapsto
+  (\wedge^\bullet_{C^\infty(X)} \mathfrak{a}^\ast , d_{CE} = [-]^\ast + [-,-]^\ast + [-,-,-]^\ast + \cdots)
+$$
+
+whose underlying graded algebra is the [[Grassmann algebra]] over $C^\infty(X)$ of an $\mathbb{N}$-graded [[projective module]] $\mathfrak{a}$ of [[finite type]] over $C^\infty(X)$ (i.e. by the [[Serre-Swan theorem]], of [[sections]] of  an $\mathbb{N}$-graded [[vector bundle]]).
+ 
+=--
+
 
 ###### $\infty$-Lie algebroid valued differential forms 
 
-### Higher dimensional paths in an $\infty$-Lie algebroid
+
+For $X$ a [[smooth manifold]] and $\mathfrak{g}$ an [[∞-Lie algebra]] or more generally an [[∞-Lie algebroid]], a  **[[∞-Lie algebroid valued differential forms]]** on $X$ is a morphism of [[dg-algebra]]s
+
+$$
+  \Omega^\bullet(X)
+  \leftarrow
+  W(\mathfrak{g})
+  : 
+  A
+$$
+
+from the [[Weil algebra]] of $\mathfrak{g}$ to the [[de Rham complex]] of $X$. Dually this is a morphism of [[∞-Lie algebroid]]s
+
+$$
+  A : T X \to inn(\mathfrak{g})
+$$
+
+from the [[tangent Lie algebroid]] to the [[Weil algebra|inner automorphism ∞-Lie algebra]].
+
+Its [[curvature]] is the composite of morphisms of [[graded vector space]]s
+
+$$
+  \Omega^\bullet(X) \stackrel{A}{\leftarrow}
+  W(\mathfrak{g})
+  \stackrel{F_{(-)}}{\leftarrow}
+  \wedge^1 \mathfrak{g}^*
+  : 
+  F_{A}
+  \,.
+$$
+
+Precisely if the curvatures vanish does the morphism factor through the [[Chevalley-Eilenberg algebra]] $W(\mathfrak{g}) \to CE(\mathfrak{g})$.
+
+$$
+  (F_A = 0) 
+  \;\;\Leftrightarrow
+  \;\;
+  \left(
+  \array{
+     && CE(\mathfrak{g})
+     \\
+     & {}^{\mathllap{\exists A_{flat}}}\swarrow & \uparrow
+     \\
+     \Omega^\bullet(X) &\stackrel{A}{\leftarrow}& W(\mathfrak{g})     
+  }
+  \right)
+$$
+
+in which case we call $A$ **flat**.
+
+
+
+
+###### Higher dimensional paths in an $\infty$-Lie algebroid
  {#HigherPathsInAnInfinityLieAlgebroid}
 
 
