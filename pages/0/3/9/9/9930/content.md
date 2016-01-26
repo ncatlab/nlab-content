@@ -5,6 +5,8 @@
 
 * [[E-theory]]
 
+* [[spherical T-duality]]
+
 * [[Hisham Sati]]
 
 category: people
