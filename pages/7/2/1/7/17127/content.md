@@ -1,0 +1,15 @@
+
+
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Corinne_Manogue)
+
+## related $n$Lab entries
+
+* [[octonions]]
+
+* [[exceptional Jordan algebra]]
+
+* [[E6]]
+
+category: people
