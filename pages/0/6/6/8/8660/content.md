@@ -21,7 +21,7 @@ For $R$ a [[ring]], an [[associative algebra]] over $R$ is a [[ring]] $A$ equipp
 +-- {: .num_defn}
 ###### Definition
 
-If the $R$-algebra $A$ is equipped with a ring homomorphism the other way round, 
+If the $R$-algebra $A$ is equipped with an $R$-algebra homomorphism the other way round, 
 
 $$
   \epsilon \colon A \to R
