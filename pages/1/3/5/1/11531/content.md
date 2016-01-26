@@ -42,3 +42,5 @@ More resources are collected at
 * {#HillHopkinsRavenelIntroduction} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _The Arf-Kervaire invariant problem in algebraic topology: introduction_, 2016
 ([pdf](http://math.ucla.edu/~mikehill/Research/CDMHistory.pdf))
 
+[[!redirects Kervaire invariant one problem]]
+[[!redirects Kervaire invariant problem]]
