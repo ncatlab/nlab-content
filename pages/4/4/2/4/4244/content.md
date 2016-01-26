@@ -16,7 +16,7 @@
 
 ## Idea
 
-An $n$-dimensional _Calabi-Yau variety_ is an $n$-dimensional [[Kähler manifold]] with (holomorphically, rather than topologically) trivial [[canonical bundle]]. This is equivalent to saying that it is real [[Riemannian manifold]] of even [[dimension]] $2 N$ which has [[special holonomy]] in the [[subgroup]] $SU(N)\subset O(2 N, \mathbb{R})$. 
+An $n$-dimensional _Calabi-Yau variety_ is an $n$-dimensional [[Kähler manifold]] with ([[holomorphic line bundle|holomorphically]], rather than just topologically) trivial [[canonical bundle]]. This is equivalent to saying that it is real [[Riemannian manifold]] of even [[dimension]] $2 N$ which has [[special holonomy]] in the [[subgroup]] $SU(N)\subset O(2 N, \mathbb{R})$. 
 
 For [[compact topological space|compact]] [[Kähler manifolds]], [[Yau's theorem]] (also known as the  [[Calabi conjecture]]) implies that the above conditions are also equivalent to the vanishing of the first [[Chern class]].
 
