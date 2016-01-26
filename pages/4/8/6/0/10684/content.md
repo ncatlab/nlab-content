@@ -47,6 +47,8 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 
 * [[Serre finiteness theorem]]
 
+* [[Nishida nilpotence theorem]]
+
 * [[Bott periodicity theorem]]
 
 * [[J-homomorphism]]
@@ -64,6 +66,8 @@ on [[stable homotopy theory]] in general and in particular the computation of th
 * [[Steenrod algebra]]
 
 * [[parallelizable sphere]]
+
+* [[Hopf invariant one theorem]]
 
 * [[complex cobordism cohomology]]
 
