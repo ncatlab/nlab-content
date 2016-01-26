@@ -390,8 +390,7 @@ _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams
 4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
 * Max Koecher, _The Minnesota Notes on Jordan Algebras and 
-Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 
-1999.
+Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
 {#Koecher}
 
 Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are for instance in 
