@@ -93,6 +93,15 @@ its name.
 
 * [[cohomology theory]], [[ordinary cohomology]]
 
+
+## References
+
+Lecture notes include
+
+in the context of [[Steenrod operations]]:
+
+* {#Rognes12} [[John Rognes]], section 3.2 3.4 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+
 [[!redirects Eilenberg-MacLane spectrum]]
 [[!redirects Eilenberg--MacLane spectrum]]
 [[!redirects Eilenberg--Mac Lane spectrum]]
