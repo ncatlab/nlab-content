@@ -34,7 +34,7 @@ Given a [[circle group]]-[[principal bundle]]/[[complex line bundle]] $\mathcal{
 $$
   \Theta(\mathcal{L})_{x,y,z}
   =
-  \mathcal{L}_{x+y+z} \otimes \mathcal{L}_{x+y}^{-1} \otimes \mathcal{L}_{x+z}^{-1} \otimes \mathcal{L}_{y+z}^{-1} \otimes \mathcal{L}_x \otimes \mathcal{L}_y \otimes \mathcal{L}_z
+  \mathcal{L}_{x+y+z} \otimes \mathcal{L}_{x+y}^{-1} \otimes \mathcal{L}_{x+z}^{-1} \otimes \mathcal{L}_{y+z}^{-1} \otimes \mathcal{L}_x \otimes \mathcal{L}_y \otimes \mathcal{L}_z \otimes \mathcal{L}_0^{-1}
   \,.
 $$
 
