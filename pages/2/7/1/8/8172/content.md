@@ -536,6 +536,8 @@ $$
 
 =--
 
+(e.g. [Wilson 13, theorem 1.3.5](#Wilson13), based on [Bousfield 79](Bousfield+localization+of+spectra#Bousfield79))
+
 
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
