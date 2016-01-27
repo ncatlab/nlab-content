@@ -56,11 +56,14 @@ The cohomology class of this $E$-cocycle on $X \times B \Sigma_n$ is the $n$-th 
 
 ## Examples
 
-### Steenrod operations
+### Steenrod squares and Steenrod power operations
+ {#SteenrodPowerOperations}
 
 On [[ordinary cohomology]] over a [[topological space]], the power operations are the [[Steenrod operations]];
 
   Specifically for $n = 2$ and $E = H \mathbb{Z}_2$ then the second (symmetric) power of $a \in H(X,\mathbb{Z}_2)$ is an element in $H^\bullet(\mathbb{R}P^\infty \times X, \mathbb{Z}_2) \simeq H^\bullet(X,\mathbb{Z}_2)[x]$ and the [[coefficients]] of this [[polynomial]] in $x$ are the [[Steenrod operations]] on $a$.
+
+For $p \gt 2$ there are the Steenrod power operations (e.g. [Rognes 12, around theorem 3.3](#Rognes12)).
 
 ### Kudo-Araki-Dyer-Lashof operations
 
@@ -115,6 +118,10 @@ More technical surveys include
 * [[Charles Rezk]], _Power operations in Morava E-theory --  a survey_ (2009) ([pdf](http://www.math.uiuc.edu/~rezk/midwest-2009-power-ops.pdf))
 
 * {#Rezk14} [[Charles Rezk]], _Isogenies, power operations, and homotopy theory_, article ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-talk-posted.pdf)) and talk at ICM 2014 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-icm-2014-slides.pdf))
+
+Lecture notes on the Steenrod squares and power operations include
+
+* {#Rognes12} [[John Rognes]], section 3 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 The original articles are
 
