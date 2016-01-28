@@ -33,7 +33,7 @@ Also, the wedge sum also makes sense for any [[family]] of pointed objects, not 
 +-- {: .num_defn }
 ###### Definition
 
-For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] with [[colimits]], their _wedge sum_ $\bigvee_i X_i$ is the [[pushout]]
+For $\{x_i \colon * \to X_i\}_i$ a set of [[pointed objects]] in a [[category]] $\mathcal{C}$ with [[colimits]], their _wedge sum_ $\bigvee_i X_i$ is the [[pushout]] in $\mathcal{C}$
 
 $$
   \bigvee_i X_i \coloneqq (\coprod_i X_i) \coprod_{\coprod_{i} *} *
@@ -49,8 +49,12 @@ $$
      \\
      * &\to& \bigvee_i X_i
   }
+  \,.
 $$
+
 =--
+
+Equivalently (see at [overcategory -- limits and colimits](overcategory#LimitsAndColimits)) this is just the [[coproduct]] in the [[undercategory]] $\mathcal{C}^{\ats/}$ of [[pointed objects]].
 
 
 ## Examples
