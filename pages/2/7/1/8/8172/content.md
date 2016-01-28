@@ -454,7 +454,7 @@ $$
 $$
 
 The _canonical [[cosimplicial object]]_ 
-associated to this (the "$\infty$-[[Sweedler coring]]") is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
+associated to this (the "$\infty$-[[Sweedler coring]]" or "[[Amitsur complex]]") is that given by the iterated [[smash product]]/[[tensor product]] over $S$:
 
 $$
   E^{\wedge^{\bullet+1}_S} \;\colon\; \Delta \to \mathcal{C}
