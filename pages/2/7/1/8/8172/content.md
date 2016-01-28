@@ -373,7 +373,7 @@ $$
 
 =--
 
-This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in [Wilson 13, theorem 1.2.1](#Wilson13).
+This is due to ([[Higher Algebra|Higher Algebra, prop. 1.2.2.14]]). Review is in ([Wilson 13, theorem 1.2.1](#Wilson13)).
 
 For the traditional statement in the [[category of chain complexes]] see at _[[spectral sequence of a filtered complex]]_.
 
