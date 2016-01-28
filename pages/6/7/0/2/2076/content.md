@@ -112,8 +112,7 @@ d) $f^*\circ s_! \cong g_! \circ t^*$.
 * {#JanelidzeTholen97} [[George Janelidze]], [[Walter Tholen]], _Facets of Descent II_, Applied Categorical Structures September 1997, Volume 5, Issue 3, pp 229-248
 
 
-* X. Guo, thesis, p. 58 of _Monadicity, purity and descent equivalence_, [pdf]
-(http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)
+* X. Guo, thesis, p. 58 of _Monadicity, purity and descent equivalence_, [pdf](http://www.collectionscanada.gc.ca/obj/s4/f2/dsk2/ftp02/NQ59136.pdf)
 
 There has been some historical discussion on this in the category list; Zoran's response is [here](http://mathlight.wordpress.com/2010/01/07/becks-theorem-vs-benabou-roubaud).
 
