@@ -54,9 +54,9 @@ $$
   =
   \left\{
     \array{
-      Id_{A_i} & if i = j
+      Id_{A_i} & if\; i = j
       \\
-      0_{ij} & if i \neq j
+      0_{ij} & if\; i \neq j
     ,}
   \right.
   \,
