@@ -60,7 +60,7 @@ this for the present purpose is that there is a natural notion of morphisms of t
 
 A [[category of sheaves]] on $S$ is a sub-topos of $PSh(S)$ in that it is a [[full and faithful functor]] $Sh(S)\hookrightarrow PSh(S)$ which is a [[geometric morphism]].
 
-One finds that the [[reflective subcategory]] $Sh(S) \hookrightarrow PSh(S)$ of sheaves inside presheaves is the [[localization]] of $PSh(S)$ at morphisms $f : Y \to X$ called [[local isomorphisms]], which are determined by and determing the choice of topos-inclusion. A [[presheaf]] $A$ is a [[sheaf]] precisely if it is a [[local object]] with respect to these [[local isomorphisms]], that is precisely if
+One finds that the [[reflective subcategory]] $Sh(S) \hookrightarrow PSh(S)$ of sheaves inside presheaves is the [[localization]] of $PSh(S)$ at morphisms $f : Y \to X$ called [[local isomorphisms]], which are determined by and determine the choice of topos-inclusion. A [[presheaf]] $A$ is a [[sheaf]] precisely if it is a [[local object]] with respect to these [[local isomorphisms]], that is precisely if
 
 $$
   Hom_{PSh(S)}(X,A) \stackrel{Hom_{PSh(S)}(f,A)}{\to} Hom_{PSh(S)}(Y,A)
@@ -74,7 +74,7 @@ This locality condition is in fact the _descent_ condition: the sheaf has to des
 namely if $\pi : Y^1 \to X$ is a [[local epimorphism]] with respect to the [[coverage]] that corresponds to the [[localization]] and if $\pi_2 : Y^2 \to Y^1 \times_X Y^1$ is a [[local epimorphism]], then with
 
 $$
-  Y^\bullet := (Y^2 \stackrel{\to}{\to} Y^1)
+  Y^\bullet := (Y^2 \rightrightarrows Y^1)
 $$
 
 being the two canonical morphisms out of $Y^2$, it follows that the canonical morphism 
@@ -85,7 +85,7 @@ $$
 
 is a [[local isomorphism]]. 
 
-(This is excercise 16.6 in [[Categories and Sheaves]]).
+(This is exercise 16.6 in [[Categories and Sheaves]]).
 
 Therefore for a  [[presheaf]] $A$ to be a [[sheaf]], it is necessary that
 
