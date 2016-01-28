@@ -313,7 +313,7 @@ Now we consider monadic descent _along_ morphisms $f : P \to X$ that happen to b
 
 #### Setup
 
-Let $C$ be a [[category]] with [[pullback]]s and et $G$ be an internal group in $C$.
+Let $C$ be a [[category]] with [[pullback]]s and let $G$ be an internal group in $C$.
 
 Let $\nu: P\times G\to P$ be a right principal [[action]] and $p:P\times G\to P$ the projection. Let $\pi:P\to X$ be the [[coequalizer]] of $\nu$ and $p$. The [[principal bundle|principality condition]] says that $P\times G \to P\times_X P$ given by $(p,g)\mapsto (p,pg)$ is an [[isomorphism]]. 
 
