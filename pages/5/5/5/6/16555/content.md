@@ -71,3 +71,7 @@ algebras are also equivalent.
 _Lawvere theories enriched over a general base_. Journal of Pure and Applied Algebra **213**, Issue 3, March 2009, Pages 377--386.
 MR2477057, Zbl:1158.18003,
 doi:[10.1016/j.jpaa.2008.07.009](http://dx.doi.org/10.1016/j.jpaa.2008.07.009).
+
+Rory B. B. Lucyshyn-Wright.
+_Enriched algebraic theories and monads for a system of arities_.
+[arXiv:1511.02920v2](http://arxiv.org/abs/1511.02920v2).
