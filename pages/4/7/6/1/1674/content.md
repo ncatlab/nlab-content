@@ -35,6 +35,9 @@ where $\coprod$ indicates [[disjoint union]] and $\mathcal{P}$ indicates [[power
 
 The __Hartogs number__ of $S$ is this well-ordered set, the set of all order types of well-ordered subsets of $S$.  It is denoted $\aleph(S)$.  If $\kappa$ is the cardinality of $S$, then let $\kappa^+$ be the cardinality or ordinal rank (as desired) of the Hartogs number of $S$; this is called the __Hartogs number__ of $\kappa$.
 
+There are other ways to encode $\aleph(S)$. A subset $A \subseteq S$ with a well-ordering can be specified through the collection of its initial segments or [[lower set|down-sets]], i.e., a suitable family of subsets of $S$ named by an [[element]] of $P P(S)$. Thus the set of well-orderings of subsets of $S$ can be defined as a suitable subset of $P P(S)$. Similarly, an equivalence class of such structures corresponding to a given order type is also definable as a subset of $P P(S)$, i.e., is named by a suitable element of $P P P(S)$, so $\aleph(S)$ which is the set of such equivalence classes is definable as a subset of $P P P(S)$. 
+
+All of the defining formulas in this description involve only bounded quantification, i.e., can be expressed in the language of [[ZFC|BZC]] or in [[ETCS]]. The proof that $\aleph(S)$ is well-ordered (by existence of $P$-coalgebra morphisms between representatives of order types) can be enacted in these theories without using the axiom of choice, hence the basic theory of $\aleph(S)$ can be carried out in BZ (bounded Zermelo set theory, without choice). 
 
 ## Properties
 
@@ -82,9 +85,9 @@ $$|P^{n-1}(X)| \leq |\aleph(X)| + |P^{n-1}(X)| \leq |P^n(X)|.$$
 
 By GCH, one of those two inequalities is an equality. If the first inequality is an equality, then we conclude $|\aleph(X)| \leq |P^{n-1}(X)|$, which lands us in case 2. If the second inequality is an equality, then the claim applies and we conclude $|P^n(X)| \leq |\aleph(X)|$, in which case $|X| \leq |P^n(X)| \leq |\aleph(X)|$ and we land in case 1. 
 
-So we are all done except for the claim. Suppose we have a bijection $g: A + P \stackrel{\sim}{\to} 2^P$. Let $f$ be the composite 
+So we are done except for the claim. Given bijections $A + P \cong 2^P$, $P + P \cong P$, let $f$ be the evident composite 
 
-$$P \stackrel{incl}{\to} A + P \stackrel{g}{\to} 2^P \cong 2^{P + P} \cong 2^P \times 2^P \stackrel{\pi_1}{\to} 2^P$$ 
+$$P \stackrel{incl}{\to} A + P \cong 2^P \cong 2^{P + P} \cong 2^P \times 2^P \stackrel{\pi_1}{\to} 2^P$$ 
 
 where $\pi_1$ denotes first projection. Let $C$ be an element not in the image of $f$, e.g., $C = \{x \in P: x \notin f(x)\}$ ([[Cantor's theorem]]). It follows that under the bijection $A + P \cong 2^P \times 2^P$, those elements of $A + P$ that map to elements of the fiber $\pi_1^{-1}(\{C\})$ can only belong to the summand $A$. Thus it is a subset of $A$ that maps bijectively onto $\pi_1^{-1}(\{C\}) \cong 2^P$, and this proves $|2^P| \leq |A|$. 
 =-- 
