@@ -98,7 +98,7 @@ its name.
 
 Lecture notes include
 
-in the context of [[Steenrod operations]]:
+* {#May} [[Peter May]], chapter 22 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
 * {#Rognes12} [[John Rognes]], section 3.2 3.4 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
