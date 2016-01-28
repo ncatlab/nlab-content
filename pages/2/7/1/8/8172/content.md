@@ -687,6 +687,9 @@ Traditional reviews include
 
 * [[John Adams]], part III of _Stable homotopy and generalised homology, University of Chicago Press, Chicago, Ill., 1974, Chicago Lectures in Mathematics.
 
+* {#Ravenel06} [[Doug Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in Geometric Applications of Homotopy Theory II Volume 658 of the series Lecture Notes in Mathematics pp 404-475
+
+
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 8 of chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf)) and section 1 of chapter 2
  
   also Section A.6 of Ravenel's orange book 1992
@@ -728,10 +731,6 @@ and nicely surveyed in
 
 * {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/index.php) ([pdf](http://www.math.harvard.edu/~hirolee/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
  
-
-
-
-
 ### Hopf algebroid $Ext$-structure on $E^2$
  {#ReferencesHopfAlgebroidStructure}
 
