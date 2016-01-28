@@ -80,7 +80,9 @@ $$
 
 * Esteban Andruchow, Gabriel Larotonda, _Lagrangian Grassmannian in Infinite Dimension_ ([arXiv:0808.2270](http://arxiv.org/abs/0808.2270))
 
+* J. Carrillo-Pacheco, F. Jarqu&#237;n-Z&#225;rate, M. Velasco-Fuentes, F. Zald&#237;var, _An explicit description in terms of Pl&#252;cker coordinates of the Langrangian-Grassmannian_, [arxiv/1601.07501](http://arxiv.org/abs/1601.07501)
  
+
 [[!redirects Lagrangian Grassmannian]]
 [[!redirects Lagrangian Grassmannians]]
 [[!redirects Lagrangian grassmannian]]
