@@ -706,9 +706,9 @@ Traditional reviews include
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
-See also
+Other notes that are available include
 
-* Nerses Aramian, _The Adams spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/Aramian_ASS.pdf))
+* [[Nersés Aramian]], _The Adams spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/Aramian_ASS.pdf))
 
 * [[Alexander Kupers]], _An introduction to the Adams spectral sequence_ (following [Rognes 12](#Rognes12)) ([pdf](http://math.stanford.edu/~kupers/adamsss.pdf))
 
