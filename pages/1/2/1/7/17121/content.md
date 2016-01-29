@@ -1,4 +1,21 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
@@ -26,8 +43,20 @@ Named after [[Hans Freudenthal]].
 
 * {#AtiyahMagic} [[Michael Atiyah]], _The Geometry and Topology of the Freudenthal Magic Square_, [videos](http://webhost1.ust.hk/~ias/en/IAS_0910_MATH_seminar_abstract.pdf)
 
-* {#ABDHN} A. Anastasiou, L. Borsten, [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
-
 * {#Westbury} [[Bruce Westbury]], _Sextonions and the magic square_, ([pdf](http://homepages.warwick.ac.uk/~masdbn/sex2.pdf))
 
+Discussion in relation to [[super Yang-Mills theory]], [[supergravity]] and [[U-duality]] includes
+
+* [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+
+* {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
+
+See also at _[[supersymmetry and division algebras]]_.
+
+
 [[!redirects Freudenthal-Tits magic square]]
+
+[[!redirects magic square]]
+[[!redirects magic squares]]
+
+
