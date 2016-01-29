@@ -98,8 +98,10 @@ Other relevant notions may also be packaged; for example, the $P$-coalgebra $X$ 
 ### Simulations
 
 Given two sets $S$ and $T$, each equipped with a well-founded relation $\prec$, a [[function]] $f\colon S \to T$ is a __[[simulation]]__ of $S$ in $T$ if
+
 1.  $f(x) \prec f(y)$ whenever $x \prec y$ and
-2.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
+
+1.  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
 Then sets so equipped form a [[category]] with simulations as [[morphisms]].  See [[extensional relation]] for more uses of simulations.
 
@@ -111,6 +113,10 @@ X & \stackrel{\theta_X}{\to} & P X \\
 Y & \underset{\theta_Y}{\to} & P Y.
 }$$ 
 
++-- {: .num_prop} 
+###### Proposition 
+If $(X, \prec)$ is well-founded and $(Y, \prec)$ is (weakly) extensional, then there is at most one simulation $f: X \to Y$. 
+=-- 
 
 ## Properties
 
