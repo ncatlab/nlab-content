@@ -93,12 +93,25 @@ The computaton of the [[cohomology]] of $X$ by means of this resolution is given
 
 ## Related concepts
 
-* [[Whitehead tower]]
+* [[Whitehead tower]], [[Postnikov tower]]
+
+* [[Adams spectral sequence]]
 
 ## References
 
-Around Chapter 2, def. 2.1.3 of 
+Traditional accounts include
 
-* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+* [[Doug Ravenel]], around Chapter 2, def. 2.1.3 of _[[Complex cobordism and stable homotopy groups of spheres]]_
+
+A streamlined presentation of this close in spirit to constructions in [[homological algebra]] was given in
+
+* {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
+
+and is reproduced and expanded on in 
+
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+* [[Nersés Aramian]], _The Adams spectral sequence_ ([pdf](http://www.math.uiuc.edu/~bertg/Aramian_ASS.pdf))
+
 
 [[!redirects Adams resolutions]]
