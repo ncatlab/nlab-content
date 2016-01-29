@@ -55,18 +55,20 @@ A pedagogical review is in
 
 * [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_ ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
-Discussion with an emphasis on the application to [[super Yang-Mills theory]] is in 
+Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
 
-* A. Anastasiou, L. Borsten, [[Mike Duff]], L. J. Hughes, S. Nagy, _Super Yang-Mills, division algebras and triality_ ([arXiv:1309.0546](http://arxiv.org/abs/1309.0546))
+* [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic square from Yang-Mills squared_ ([arXiv:1301.4176](http://arxiv.org/abs/1301.4176))
+
+* A. Anastasiou, [[Leron Borsten]], [[Mike Duff]], L. J. Hughes, S. Nagy, _Super Yang-Mills, division algebras and triality_ ([arXiv:1309.0546](http://arxiv.org/abs/1309.0546))
+
+* {#ABDHN} A. Anastasiou, [[Leron Borsten]], [[Michael Duff]], L. J. Hughes, S. Nagy, _A magic pyramid of supergravities_, [arXiv:1312.6523](http://arxiv.org/abs/1312.6523)
 
 
 The relationship in [[string theory]] via [[octonion]] algebra between the NRS [[spinning string]] and the [[Green-Schwarz superstring]] [[sigma-models]] is discussed in
 
-* Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B
-Volume 178, Issues 2-3, 2 October 1986, Pages 207-210 
+* Rafael I. Nepomechie, _Nonabelian bosonization, triality, and superstring theory_ Physics Letters B Volume 178, Issues 2-3, 2 October 1986, Pages 207-210 
 
-* I. Bars, D. Nemschansky and S. Yankielowicz, SLACPub-
-3758.
+* [[Itzhak Bars]], D. Nemschansky and S. Yankielowicz, SLACPub-3758.
 
 * H. Tachibana, K. Imeda, _Octonions, superstrings and ten-dimensional spinors_ , Il nuovo cimento, Vol 104 B N.1
 
