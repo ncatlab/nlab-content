@@ -1,0 +1,8 @@
+
+* [webpage](http://physics.usc.edu/~bars/)
+
+## related $n$Lab entries
+
+* [[supersymmetry and division algebras]]
+
+category: people
