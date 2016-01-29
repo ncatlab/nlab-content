@@ -1,0 +1,11 @@
+
+
+* [Mathematics Genealogy Page](http://genealogy.math.ndsu.nodak.edu/id.php?id=171810)
+
+## related $n$Lab entries
+
+* [[knot invariant]]
+
+category: people
+
+[[!redirects Marko Stosic]]
