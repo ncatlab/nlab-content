@@ -81,10 +81,12 @@ Since $S$ is a set, the image of $r$ in the class of all ordinals is also a set 
 ## Simulations
 
 Given two well-ordered sets $S$ and $T$, a [[function]] $f\colon S \to T$ is a __[[simulation]]__ of $S$ in $T$ if
+
 *  $f(x) \prec f(y)$ whenever $x \prec y$ and
 *  given $t \prec f(x)$, there exists $y \prec x$ with $t = f(y)$.
 
-Note that any simulation of $S$ in $T$ must be unique.  Thus, well-ordered sets and simulations form a category that is in fact a (large) [[poset]], in fact the poset of [[ordinal numbers]].
+Note that any simulation of $S$ in $T$ must be unique.  Thus, well-ordered sets and simulations form a category that is in fact a (large) [[preorder]], whose reflection in the category of [[posets]] is in fact the poset of [[ordinal numbers]]. 
+
 
 
 ## Successor
