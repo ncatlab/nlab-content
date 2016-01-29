@@ -200,10 +200,10 @@ $$
   \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
 $$
 
-which "omits" the $k+1$st canonical coordinate:
+which "omits" the $k$th canonical coordinate:
 
 $$
-  (x_1, \cdots , x_n) \mapsto (x_1, \cdots, x_{k-1} , 0 , x_k, \cdots, x_n)
+  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_n)
   \,.
 $$
 
@@ -237,7 +237,7 @@ is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
 +-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
 ###### Definition
 
-For $n \in \mathbb{N}$ and $0 \leq k \leq n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
+For $n \in \mathbb{N}$ and $0 \leq k \lt n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
 
 $$
   \sigma_k : \Delta^{n} \to \Delta^{n-1}
