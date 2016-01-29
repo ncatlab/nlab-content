@@ -1,4 +1,12 @@
 
 * [webpage](http://homepages.uni-regensburg.de/~nan25776/)
 
+## related $n$Lab entries
+
+* [[moduli stack]] of [[formal groups]]
+
+* [[moduli stack of tori]]
+
+* [[KR cohomology theory]]
+
 category: people
