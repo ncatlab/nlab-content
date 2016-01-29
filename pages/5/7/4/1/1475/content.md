@@ -59,7 +59,7 @@ By contradiction. (A direct proof of the existence of a maximal element is not p
 
 Suppose $S$ has no maximal element. Then every chain $C \subseteq S$ has a *strict* upper bound: an element $x$ such that $c \lt x$ for all $c \in C$. (Take an upper bound $y$ of $C$, then $y$ is not maximal by supposition, so any $x$ with $y \lt x$ will serve.) For each $W \subseteq S$ that is well-ordered by $\leq$, use AC to choose a strict upper bound $f(W)$ of $W$. Given a such a function $f: Well(S) \to S$ from well-ordered subsets of $S$ to $S$, let us say $W \in Well(S)$ is *$f$-inductive* if for every $x \in W$, we have $x = f(\{y \in W: y \lt x\})$. 
 
-Let $Y, Z \in Well(S)$ be $f$-inductive sets; we will show one is an initial segment of the other. Let $I$ be the union of all subsets that are initial segments of both $Y$ and $Z$; then $I$ is the maximal initial segment of both (possibly empty). Suppose $I$ is *properly* contained in both; let $y$ be the least element of $Y \setminus I$, and $z$ the least element of $Z \setminus I$. Then $\{x \in Y: x \lt y\} = I = \{x' \in Z: x' \lt z\}$, so by $f$-inductivity of $Y, Z$, we have $y = f(I) = z$. Thus $I$ extends to initial segments $I \cup \{y\} = I \cup \{z\}$, contradicting maximality of $I$. Therefore we must have $I = Y$ or $I = Z$, so one of $Y, Z$ is an initial segment of the other.  
+Let $Y, Z \in Well(S)$ be $f$-inductive sets; we will show one is an [[lower set|initial segment]] of the other. Let $I$ be the union of all subsets that are initial segments of both $Y$ and $Z$; then $I$ is maximal among initial segments of both (possibly empty). Suppose $I$ is *properly* contained in both; let $y$ be the least element of $Y \setminus I$, and $z$ the least element of $Z \setminus I$. Then $\{x \in Y: x \lt y\} = I = \{x' \in Z: x' \lt z\}$, so by $f$-inductivity of $Y, Z$, we have $y = f(I) = z$. Thus $I$ extends to an initial segment $I \cup \{y\} = I \cup \{z\}$, contradicting maximality of $I$. Therefore we must have $I = Y$ or $I = Z$, so one of $Y, Z$ is an initial segment of the other.  
 
 So the collection of $f$-inductive sets is totally ordered by inclusion of initial segments, making their union $U$ the maximal $f$-inductive set (Lemma \ref{wo} below). Appending its strict upper bound $f(U)$, the chain $U \cup \{f(U)\}$ is a larger $f$-inductive set, contradiction. The proof is complete. 
 =--
@@ -130,7 +130,7 @@ For a discussion of how to get from Bourbaki-Witt to Zorn, see either Lang or th
 
 +-- {: .num_remark} 
 ###### Remark 
-An alternative proof of Bourbaki-Witt would be along lines similar to those used to show AC implies Zorn's lemma. Given the inflationary function $s$, consider the function $f: Well(S) \to S$ which takes a well-ordered subset $W$ to $s(\sup W)$. If $f$ has no fixed points, then $f(W)$ will always be a strict upper bound of $W$, and from there one derives a contradiction exactly as in the proof of Zorn's lemma. 
+An alternative proof of Bourbaki-Witt would be along lines similar to those used to show AC implies Zorn's lemma. Given the inflationary function $s$, consider the function $f: Well(S) \to S$ which takes a well-ordered subset $W$ to $s(\sup W)$. If $s$ has no fixed points, then $f(W)$ will always be a strict upper bound of $W$, and from there one derives a contradiction exactly as in the proof of Zorn's lemma. 
 =-- 
 
 +-- {: .num_remark} 
