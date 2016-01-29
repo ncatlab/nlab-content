@@ -33,6 +33,7 @@ The terminology comes from [[computer science]], and we should probably explain 
 Consider the [[category of sets]] and the (covariant) [[power set]] functor $\mathcal{P}$.  A coalgebra of $\mathcal{P}$ is a [[set]] $X$ equipped with a [[function]] $\theta\colon X \to \mathcal{P}(X)$, which is the same thing as a [[binary relation]] $\prec$ on $X$.  To fix the notation, we write $a \prec b$ ($a$ __precedes__ $b$) if $a \in \theta(b)$.
 
 Then in concrete terms, a simulation of $X$ in $X'$ is a function $s\colon X \to X'$ such that
+
 * $s(a) \prec' s(b)$ whenever $a \prec b$, and
 * $t = s(a)$ for some $a \prec b$ whenever $t \prec' s(b)$.
 
