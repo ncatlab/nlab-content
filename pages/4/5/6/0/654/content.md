@@ -71,7 +71,7 @@ These were explicitly described in:
 
 A **Baez--Crans $2$-vector space** is defined as a [[internal category|category internal]] to [[Vect]]. They categorify the idea of a vector as a 'direction in space', and crop up when considering the _infinitesimal directions_ of a structure, such as in higher [[Lie theory]]. In fact, (following for instance from an extension of the [[Dold-Kan correspondence|Dold-Kan theorem]] by Brown and Higgins), [[strict omega-category|strict omega-categories]] internal to $\Vect$ are equivalent to chain complexes in non-negative degree and can be regarded as strict $Disc(k)$-$\infty$-modules. This allows to conceive much of [[homological algebra]] and many of the structures appearing in higher [[Lie theory]] -- for instance the definition of $L_\infty$-[[L-infinity-algebra|algebras]], as being about $\infty$-vector spaces. Regarding a chain complex as an $\infty$-vector space is useful conceptually for understanding the meaning of some constructions on chain complexes, while of course chain complexes themselves are well suited for direct computation with the $\infty$-vector spaces which they are equivalent to. (See also the remark about different notions of 2-vector spaces further below.)
 
-They were also independently introduced and studied by [[Magnus Forrester-Barker]] in his Bangor [thesis](http://golem.ph.utexas.edu/category/2010/03/extraordinary_2multicategories.html#more), _Representations of crossed modules and $cat^1$-groups_.
+They were also independently introduced and studied by [[Magnus Forrester-Barker]] in his thesis ([Forrester-Barker 2004](#Forrester-Barker)).
 
 ## $2$-modules and $2$-linear maps as algebras and bimodules
  {#AbstractApproach}
@@ -214,7 +214,7 @@ A review of these ideas of 2-Hilbert spaces as well as applications of 2-Hilbert
 ## References
 
 
-* [[Magnus Forrester-Barker]] [thesis](http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf)
+* {#Forrester-Barker} [[Magnus Forrester-Barker]], _Representations of Crossed Modules and $Cat^1$-Groups_, PhD thesis U. Wales Bangor (2004) ([pdf](http://www.maths.bangor.ac.uk/research/ftp/theses/forrester-barker.pdf))
 
 A systematic definition of 2-modules over [[2-rings]] (see there for more) is in 
 
