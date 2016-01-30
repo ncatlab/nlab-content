@@ -23,6 +23,8 @@ The _sphere spectrum_ is the simplest nontrivial [[spectrum]].
 
 The **sphere spectrum** is the [[suspension spectrum]] of the point.
 
+As a [[symmetric spectrum]], see [Schwede 12, example I.2.1](#Schwede12)
+
 ## Properties
 
 ### Homotopy type
@@ -53,6 +55,7 @@ Lecture notes include
 
 * [[John Rognes]], _The sphere spectrum_ (4 pages) (2004) ([[RognesSphereSpectrum.pdf:file]])
 
+* {#Schwede12} [[Stefan Schwede]], Example I.2.1 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 The [[Postnikov tower]] of (localizations of) the sphere spectrum is discussed in
 
