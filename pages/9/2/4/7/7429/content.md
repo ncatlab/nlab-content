@@ -3,8 +3,10 @@ Michael Barratt, Professor of Mathematics from 1974-99 at the Northwestern Unive
 
 An uninformative [home page](http://www.math.northwestern.edu/people/emeritiProfiles/michael.barratt.html) is on the Northwestern University website.
 
-* [Mathematics genealogy page](http://www.genealogy.ams.org/id.php?id=12765).  His students included [[Ronnie Brown]] and [[Peter Eccles]].
+* [Mathematics genealogy page](http://www.genealogy.ams.org/id.php?id=12765).  His 
+students included [[Ronnie Brown]] and [[Peter Eccles]].
 
+* [obituary](https://lists.lehigh.edu/pipermail/algtop-l/2015q4/002298.html) by Bill Richter
 
 ## Related entries
 
