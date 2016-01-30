@@ -581,7 +581,6 @@ In conclusion this yields for each suitable [[E-∞ algebra]] $E$ over $S$  and 
 
 * [The E-Adams-Novikov spectral sequence](#TheEAdamsSpectralSequence).
 
-#### Idea
 
 The quick idea is this: Given an $S$ -module $X$, regard it as a quasicoherent sheaf on $Spec(S)$. Choose a map $Spec(E) \to Spec(S)$. This is a cover of its [[1-image]]
  $Spec(E) \to Spec(S)^\wedge_{Spec(E)}$, which is the derived [[formal completion]] of $Spec(S)$ at the image of $Spec(E)$. Restrict attention then to the restriction of $X$ to that formal completion $X^\wedge_{Spec(E)}$. (So if $Spec(E) \to Spec(S)$ was already an atlas, hence was already complete, we stick with the original $X$). Then pull back $S$ to the [[Cech nerve]] of the cover $Spec(E) \to Spec(S)^wedge_{Spec(E)}$. The realization of this Cech nerve reproduces the completed image, and hence the canonical filtration on the Cech nerve gives a filtration spectral sequence for $X^\wedge_{Spec(E)}$.
