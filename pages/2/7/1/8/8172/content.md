@@ -601,9 +601,18 @@ $$
   \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
 $$
 
-...
+$$
+  \partial \colon \pi_{t-s}(\Omega^s I_{s+1})
+  \stackrel{\pi_{t-s}(\partial_s)}{\longrightarrow}
+  \pi_{t-s}(\Sigma X_{s+1})
+  \,.
+$$
+
+
 
 =--
+
+(...)
 
 
 ### As derived descent in higher algebra
