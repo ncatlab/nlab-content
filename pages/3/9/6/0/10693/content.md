@@ -17,7 +17,14 @@
 * table of contents
 {:toc}
 
-## Idea
+## Definition
+
+* [Classical definition](#ClassicalDefinition)
+
+* [Via injective resolutions](#ViaInjectiveResolutions)
+ 
+### Classical definition
+ {#ClassicalDefinition}
 
 For $X$ a [[spectrum]] and $E^\bullet$ a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[spectrum]] $E$, then an _$E$-Adams resolution_ of $X$ is a [[diagram]] of the form
 
@@ -90,6 +97,21 @@ $$
 $$
 
 The computaton of the [[cohomology]] of $X$ by means of this resolution is given by the [[Adams spectral sequence]].
+
+### Via injective resoltions
+ {#ViaInjectiveResolutions}
+
+A streamlined discussion of $E$-Adams resolutions in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
+
+
+
++-- {: .num_example}
+###### Example
+
+jj
+
+=--
+
 
 ## Related concepts
 
