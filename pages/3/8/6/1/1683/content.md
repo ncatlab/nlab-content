@@ -28,6 +28,10 @@ $$
 
 More generally, to every [[stable (infinity,1)-category]] $C$ is associated a [[K-theory]] _space_ which in good cases, such as when the category is presented by a [[Waldhausen category]] is the degree 0 piece of a corresponding [[algebraic K-theory]] spectrum. The detailed construction is known as the [[Waldhausen S-construction]].
 
+## Definition
+
+As a [[symmetric spectrum]]: [Schwede 12, Example I.2.10](#Schwede12)
+
 ## Properties
 
 ### Periodicity
@@ -87,6 +91,8 @@ a proof in terms of [[moduli stacks]] is given in [Mathew 13, section 3](#Mathew
 
 
 ## References
+
+* {#Schwede12} [[Stefan Schwede]], Example I.2.10 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
 Discussion of $KO$ in analogy to the construction of [[tmf]] is in 
 
