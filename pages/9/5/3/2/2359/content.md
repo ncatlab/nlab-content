@@ -56,6 +56,8 @@ For the analogous construction in [[equivariant stable homotopy theory]] -- yiel
 
 ## Related concepts
 
+* [[Ho(Top)]]
+
 * [[Whitehead theorem]]
 
 ## References
@@ -68,3 +70,4 @@ For the analogous construction in [[equivariant stable homotopy theory]] -- yiel
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _Handbook of Algebraic Topology_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
+[[!redirects HoSpectra]]
