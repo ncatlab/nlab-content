@@ -84,7 +84,7 @@ $$
   \cdots
 $$
 
-for all $s$ give an exact couple by taking $E$ and $D$ to be the bigraded abelian groups
+for all $s$ give an exact couple by taking $E$ and $D$ to be the [[bigraded object|bigraded]] [[abelian groups]]
 
 $$
   D \coloneqq \pi_\bullet(X_\bullet)
