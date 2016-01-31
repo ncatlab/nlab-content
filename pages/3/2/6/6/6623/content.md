@@ -61,10 +61,10 @@ The connection with initial algebras goes a little further. Firstly, an initial 
 
 +-- {: .num_defn} 
 ###### Definition 
-A $T$-algebra $(X, \alpha: T X \to X)$ is *Peano* if every $T$-subalgebra [[monomorphism|inclusion]] $i: Y \hookrightarrow X$ is an isomorphism. 
+A $T$-algebra $(X, \alpha: T X \to X)$ is *semi-Peano* if every $T$-subalgebra [[monomorphism|inclusion]] $i: Y \hookrightarrow X$ is an isomorphism, and *Peano* if in addition $\alpha$ is an isomorphism. 
 =-- 
 
-If $X$ is initial and $i: Y \to X$ is a subalgebra, then there is a unique algebra map $r: X \to Y$, and $i r = 1_X: X \to X$ by initiality, whence $i r i = i$ and then $r i = 1_Y: Y \to Y$ as $i$ is monic; hence initial algebras are Peano. 
+If $X$ is initial and $i: Y \to X$ is a subalgebra, then there is a unique algebra map $r: X \to Y$, and $i r = 1_X: X \to X$ by initiality, whence $i r i = i$ and then $r i = 1_Y: Y \to Y$ as $i$ is monic. Hence initial algebras are semi-Peano, and Peano by Lambek's theorem. 
 
 Secondly, a functor $T: E \to E$ induces, for any object $X$ of $E$, a functor between slices $T_\ast: E/X \to E/ T X$, and so if $(X, \theta: X \to T X)$ is a coalgebra, we may form an endofunctor on $E/X$: 
 
@@ -79,7 +79,7 @@ A subobject $i: U \to X$ of a $T$-coalgebra $(X, \theta)$ is inductive precisely
 
 +-- {: .num_prop} 
 ###### Proposition 
-A $T$-coalgebra $X$ is well-founded precisely when the terminal $\theta^\ast T_\ast$-algebra $1_X$ is Peano. 
+A $T$-coalgebra $X$ is well-founded precisely when the terminal $\theta^\ast T_\ast$-algebra $1_X$ is semi-Peano. 
 =-- 
 
 
