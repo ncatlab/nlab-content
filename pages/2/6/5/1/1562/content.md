@@ -34,7 +34,7 @@ An __$(n,1)$-category__, is an $n$-[[n-category|category]] $C$ that is __locally
 
 ## Extra stuff, structure, property
 
-* An $(n,1)$-category with the abalogous properties of a [[topos]] is an [[(n,1)-topos]].
+* An $(n,1)$-category with the analogous properties of a [[topos]] is an [[(n,1)-topos]].
 
 ## Examples
 
