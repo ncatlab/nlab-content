@@ -28,13 +28,13 @@ Working with the Adams spectral sequence tends to be fairly involved, as is clea
 
 A clear conceptual picture in [[higher algebra]]  of what happens in the Adams spectral sequence ([Lurie 10](#Lurie10)) has emerged via the re-formulation in ([Miller 81](#Miller81), [Hopkins 99](#Hopkins99)). Survey of this perspective includes ([Wilson 13](#Wilson13)). 
 
-Here one observed that for $E$ a [[ring spectrum]], hence an [[E-∞ ring]], the [[totalization]] of its [[Amitsur complex]] [[cosimplicial object|cosimplicial]] spectrum is really the algebraic dual incarnation of the [[1-image]] factorization of the the terminal morphism
+Here one observes that for $E$ a [[ring spectrum]], hence an [[E-∞ ring]], the [[totalization]] of its [[Amitsur complex]] [[cosimplicial object|cosimplicial]] spectrum is really the algebraic dual incarnation of the [[1-image]] factorization of the the terminal morphism
 
 $$
   \array{
     Spec(E) &\longrightarrow& Spec(Tot(E^{\wedge^\bullet}))
     \\
-    \downarrow & \searrow_{\mathrlap{p}}
+    \downarrow & \swarrow_{\mathrlap{p}}
     \\
     Spec(\mathbb{S})
   }
@@ -467,9 +467,9 @@ $$
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #StandardEResolution}
 ###### Example
-**(standatd resolution)**
+**(standard resolution)**
 
 Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
 
@@ -559,7 +559,7 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 
 #### $E$-Adams spectral sequence
 
-+-- {: .num_defn}
++-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
 Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
@@ -609,9 +609,95 @@ $$
   \,.
 $$
 
-
+The $E$-Adams spectral sequence of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
 
 =--
+
++-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
+###### Proposition
+
+Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on
+
+=--
+
+#### The $\mathcal{E}_1$-term and Hopf algebroid structure
+
+Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}
+we may focus attention on the standard $E$-resolution, def. \ref{StandardEResolution}.
+
+For this one gets
+
+$$
+  \mathcal{E}_1^{s,\bullet}
+  \simeq
+  \pi_\bullet(E^{\wedge (s+1)}\wedge X )
+  \,.
+$$
+
++-- {: .num_defn #FlatE}
+###### Definition
+
+Call the [[ring spectrum]] $E$ _flat_ if
+
+$$
+  \eta_L,\eta_R \colon E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+is a [[flat morphism]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, then
+$(E_\bullet, E_\bullet(E))$ is canonically a [[Hopf algebroid]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, the canonical map
+
+$$
+  E_\bullet(E^{\wedge n}) \otimes_{\pi_\bullet} E_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(E^{\wedge^{(n+1)}}\wedge X  )
+$$
+
+is an [[isomorphism]].
+
+=--
+
+#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
+of any $E$-Adams spectral sequence over $X$ is
+
+$$
+  \mathcal{E}^{s,t}_\bullet
+  \simeq
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
+  \,,
+$$
+
+where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[Ext]]-functor in the category of $\Gamma$-[[comodules]].
+
+=--
+
+#### Convergence and $E$-completion
+
+... convergence conditionally to $\pi_\bullet(\underset{\longrightarrow}{\lim} E^{\wedge^n} \wedge X$)...
+
+#### The case $E = H \mathbb{F}_p$
+
+(...)
+
+#### The case $E = MU$
 
 (...)
 
