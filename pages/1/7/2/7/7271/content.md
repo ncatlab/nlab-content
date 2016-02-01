@@ -25,6 +25,8 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 * [[Adams-Novikov spectral sequence]]
 
+* [[MU]], [[Quillen's theorem on MU]]
+
 category: people
 
 [[!redirects John Adams]]
