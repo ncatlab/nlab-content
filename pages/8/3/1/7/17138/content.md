@@ -1,7 +1,7 @@
 
 > This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
 
-> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types]]_
+> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
 > next chapters: _[[geometry of physics -- groups|groups]]_, _[[geometry of physics -- geometric quantization with KU-coefficients|geometric quantization with KU-coefficients]]_
 
@@ -18,14 +18,21 @@
 We discuss [[spectra]] in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. Since these are universally characterized as being the [[stabilization]] of plain [[homotopy types]] under [[looping and delooping]], one speaks of _[[stable homotopy theory]]_.
 
 $$
-  homotopy\;types
-  \underoverset{stabilization}{(linearization)}{\mapsto}
-  spectra
+  Spaces
+  \underoverset{(linearization)}{stabilization}{\mapsto}
+  Spectra
 $$
 
 Since spectra are considerably richer than abelian groups, stable homotopy is much concerned with "[[fracture theorem|fracturing]]" stable homotopy types into more tractable components:
 
-From the point of view of [[arithmetic geometry]], an [[abelian group]] $A$ is equivalently a [[quasicoherent sheaf]] over [[Spec(Z)]]. This point of view generalizes to homotopy theory and turns out to be very fruitful there. The analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and this is naturally the [[initial object in an (infinity,1)-category|initial]] [[commutative ring spectrum]] ("[[E-∞ ring]]"), just as $\mathbb{Z}$ is the [[initial object|initial]] [[commutative ring]]. The [[formal dual]]  [[Spec(S)]] of $\mathbb{S}$ is hence the [[terminal object in an (infinity,1)-category|terminal]] [[space]] in [[E-∞ arithmetic geometry]] ("[[spectral geometry]]") and [[spectra]] are equivalently the [[quasicoherent ∞-stacks]] over $Spec(\mathbb{S})$
+To that end, notice that from the point of view of [[arithmetic geometry]], an [[abelian group]] $A$ is equivalently a [[quasicoherent sheaf]] over [[Spec(Z)]]. 
+
+$$
+  AbelianGroups \simeq QCoh(Spec(\mathbb{Z}))
+  \,.
+$$
+
+This point of view generalizes to homotopy theory and turns out to be very fruitful there. The analog of the [[integers]] $\mathbb{Z}$ is the [[sphere spectrum]] $\mathbb{S}$, and this is naturally the [[initial object in an (infinity,1)-category|initial]] [[commutative ring spectrum]] ("[[E-∞ ring]]"), just as $\mathbb{Z}$ is the [[initial object|initial]] [[commutative ring]]. The [[formal dual]]  [[Spec(S)]] of $\mathbb{S}$ is hence the [[terminal object in an (infinity,1)-category|terminal]] [[space]] in [[E-∞ arithmetic geometry]] ("[[spectral geometry]]") and [[spectra]] are equivalently the [[quasicoherent ∞-stacks]] over $Spec(\mathbb{S})$
 
 $$
   Spectra \simeq QCoh(Spec(\mathbb{S}))
