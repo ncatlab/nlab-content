@@ -135,6 +135,8 @@ See also _[[A Survey of Elliptic Cohomology]]_.
 
 ##  Lecture 8 _The Adams spectral sequence_ 
 
+* [[Adams resolution]]
+
 * [[Adams spectral sequence]]
 
 ## Lecture 9 _The Adams spectral sequence for MU_ 
