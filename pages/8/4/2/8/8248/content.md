@@ -104,6 +104,7 @@ For instance for the original [[diagram]] an [[Adams resolution]] then this [[sp
 
 
 ### Spectral sequences from exact couples
+ {#SpectralSequencesFromExactCouples}
 
 +-- {: .num_defn}
 ###### Definition
