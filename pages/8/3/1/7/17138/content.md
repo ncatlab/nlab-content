@@ -1,4 +1,7 @@
 
+{:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
 > This entry contains one chapter of _[[geometry of physics]]_, see there for context and background.
 
 > previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
@@ -492,6 +495,91 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 
 
 ## **3)** Geometry over $Spec(\mathbb{S})$
+
+### Bousfield localization
+
+* [[Bousfield localization of spectra]]
+
+### Fracturing
+
++-- {: bluebox}
+**Summary:**
+
+**[[nLab:generalized (Eilenberg-Steenrod) cohomology theory|Generalized]] [[nLab:differential cohomology theories]]**
+
+are [[nLab:smooth spectra]]
+
+hence are smoothly parameterized [[nLab:quasicoherent infinity-stacks|quasicoherent modules]] over [[nLab:Spec(S)]] for $\mathbb{S}$ the [[nLab:sphere spectrum]]:
+
+$$
+  \begin{aligned}
+    DifferentialCohomology
+    & = 
+    Sh(Mfd, Spectra) 
+    \\
+    & \simeq Sh(Mfd, QMod(Spec(\mathbb{S}))) = QMod(Mfd\times Spec(\mathbb{S}))
+  \end{aligned}
+  \,.
+$$ 
+
+***
+
+The [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes these from their formal completion and torsion approximation:
+
+$$
+  \array{
+    &&  {{localization} \atop {away\;from\;p}} && \stackrel{}{\longrightarrow} && {{p-adic} \atop {residual}}
+    \\
+    & \nearrow & & \searrow & & \nearrow && \searrow
+    \\
+    { {formal\;completion} \atop {away\; from \;p} }  && && {{geometric\;bundles} \atop {with \;connection}} &&  && {{{p-torsion} \atop {approximation}} \atop {{of\;p-adic} \atop {residual}}}
+    \\
+    & \searrow &  & \nearrow & & \searrow && \nearrow
+    \\
+    && { {formal\;completion} \atop {at\;p} }
+    \; && \longrightarrow && {{p-torsion} \atop {approximation}}
+  }
+  \,,
+$$
+
+(and there is further fracturing of the $p$-local part by [[nLab:chromatic homotopy theory]]).
+
+***
+
+The [[nLab:differential hexagon]] from [[nLab:cohesion]] over [[nLab:SmoothMfd]] synthesizes them instead from their [[nLab:étale homotopy type]] and [[nLab:flat modality|flat]] components:
+
+$$
+  \array{
+    &&  {{connection\;forms} \atop {on\;trivial\;bundles}} && \stackrel{{de\;Rham} \atop {differential}}{\longrightarrow} && {curvature \atop forms}
+    \\
+    & \nearrow & & \searrow & & \nearrow_{\mathrlap{curvature}} && \searrow^{\mathrlap{{de\;Rham} \atop {theorem}}}
+    \\
+    {flat \atop {differential\;forms}}  && && {{geometric\;bundles} \atop {with \;connection}} && && {rationalized \atop bundles}
+    \\
+    & \searrow &  & \nearrow & & \searrow^{\mathrlap{topol. \atop class}} && \nearrow_{\mathrlap{Chern\;character}}
+    \\
+    && {{geometric\;bundles} \atop {with\;flat\;connection}} && \underset{comparison}{\longrightarrow} && {{etale\;homotopy\;type} \atop {of\;bundle}}
+  }
+ \,.
+$$
+
+=--
+
+
+### Complex oriented cohomology
+
+* [[MU]], 
+
+* [[formal group law]], [[Lazard ring]], [[Quillen's theorem on MU]]
+
+* [[complex oriented cohomology theory]]
+
+
+### $E_\infty$-stacks
+
+* [[stack]], [[derived stack]]
+
+* [[A Survey of Elliptic Cohomology - the derived moduli stack of derived elliptic curves]]
 
 
 ## References
