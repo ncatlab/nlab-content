@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
@@ -26,7 +40,10 @@ $$
   Spaces
   \underoverset{(linearization)}{stabilization}{\mapsto}
   Spectra
+  \,.
 $$
+
+Most of [[linear algebra]] and [[algebraic geometry]] passes along as [[abelian groups]] are generalized to [[spectra]] and turns into something remarably rich, called _[[brave new algebra]]_, _[[higher algebra]]_ and _[[E-∞ geometry|spectral geometry]]_. In particular the analog of the theory of ([[commutative ring|commutative]]) [[rings]] and their [[modules]] exist, given by ([[commutative ring spectrum|commutative]]) [[ring spectra]] ([[E-∞ rings]], [[A-∞ rings]]) and [[module spectra]] ([[∞-modules]]). 
 
 ### Adams-Novikov spectral sequences
 
@@ -74,10 +91,25 @@ Now [[Quillen's theorem on MU]] says that $Spec(MU)$ is a refined version of the
  
 ### Spectra
 
+* [[spectrum]], [[symmetric smash product of spectra]]
+
+* [[symmetric spectra]]
+
+* model structures on symmetric spectra
+
+* [[stable homotopy category]]
+
 ### Ring spectra
+
+* [[ring spectrum]]
+
+* model structure for ring spectra
 
 ### Module spectra
 
+* [[module spectrum]]
+
+* model structure for module spectra
 
 ## **2)** Adams-Novikov spectral sequences
 
@@ -584,5 +616,34 @@ $$
 
 ## References
 
+For section **1) Stable homotopy theory** we follow
 
+* [[Stefan Schwede]], _Symmetric spectra_, 2007 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+For further reading an excellent collection is
+
+* {#James95} [[Ioan Mackenzie James]],_[[Handbook of Algebraic Topology]]_ 1995
+
+For **2) Adams-Novikov spectral sequence** we follow the streamlined presentation due to 
+
+* {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
+
+as surveyed in ([Hopkins 99, section 5](#Hopkins99)) and expanded on in
+
+* {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
+
+For the case $E =$ [[MU]] we may follow
+
+* {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
+
+For the modern picture of **3) spectral geometry over $Spec(\mathbb{S})$** we follow
+
+* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+
+Useful survey of this picture has been given in
+
+* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php)_ ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+
+* {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
