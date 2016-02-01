@@ -233,7 +233,7 @@ The [[hierarchy problem]] is discussed in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], Piyush Kumar, Diana Vaman, _An M theory Solution to the Hierarchy Problem_, Phys.Rev.Lett.97:191601,2006 ([arXiv:hep-th/0606262](http://arxiv.org/abs/hep-th/0606262))
 
-the [[moduli space]] and [[moduli stabilization]] is discussed in
+the [[moduli space]] and [[moduli stabilization]] (in the fluxless sector!) is discussed in
 
 * {#Acharya02} [[Bobby Acharya]], _A Moduli Fixing Mechanism in M theory_ ([arXiv:hep-th/0212294](http://arxiv.org/abs/hep-th/0212294))
 
