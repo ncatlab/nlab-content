@@ -1,7 +1,7 @@
 
 > This entry contains one chapter of _[[geometry of physics]]_.
 
-> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
+> previous chapters: _[[geometry of physics -- homotopy types|homotopy types]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_, _[[geometry of physics -- stable homotopy types]]_
 
 > next chapters, _[[geometry of physics -- principal bundles|principal bundles]]_, _[[geometry of physics -- representations and associated bundles|representations and associated bundles]]_
 
