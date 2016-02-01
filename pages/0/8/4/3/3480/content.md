@@ -449,7 +449,7 @@ The following paper shortens the Deligne's proof
 
 Deligne's proof in turn fills the gap in the seminal work with the same title 
 
-* N. Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Springer LNM __265__ (1972).
+* N. Saavedra Rivano, "Cat&#233;gories Tannakiennes." _Bulletin de la Soci&#233;t&#233; Math&#233;matique de France_ 100 (1972): 417-430. [EuDML](https://eudml.org/doc/87193)
 
 A revival in algebraic geometry related to the theory of mixed motives was marked by
 
