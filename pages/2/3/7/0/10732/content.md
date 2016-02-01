@@ -20,7 +20,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-(e.g. [Lurie lect 2, theorem 4](#LurieLect2))
+(e.g. [Hopkins 99](#Hopkins99) [Lurie lect 2, theorem 4](#LurieLect2))
 
 ## Related theorem
 
@@ -30,9 +30,12 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 * [[Landweber-Novikov theorem]]
 
+
 ## References
 
 Reviews are in 
+
+* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 * [[Akhil Mathew]], _[Lazard's theorem II](http://amathew.wordpress.com/2012/05/27/lazards-theorem-ii/)_
 
