@@ -44,6 +44,10 @@ The statement of [[Tannaka duality]] for associative algebras says that rigid mo
 [[!include structure on algebras and their module categories - table]]
 
 
+## References
+
+* N. Saavedra Rivano, "Cat&#233;gories Tannakiennes." _Bulletin de la Soci&#233;t&#233; Math&#233;matique de France_ 100 (1972): 417-430. [EuDML](https://eudml.org/doc/87193)
+
 ## Related concepts
 
 * [[star-autonomous category]]
