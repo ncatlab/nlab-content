@@ -19,7 +19,7 @@ Note that this example is relevant to the combinatorics of [[embedded graphs]] (
 
 ## Related concepts
 
-* [[discrete groupoid]]
+* [[groupoid cardinality]]
 
 ## References
 
