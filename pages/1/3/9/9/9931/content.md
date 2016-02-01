@@ -122,8 +122,10 @@ The hight of formal groups induces the [[height filtration]] on the [[moduli sta
 
 ## References
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series (2010) ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 12 _Heights and formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
- {#Lurie10}
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series (2010) ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 12 _Heights and formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture12.pdf))
+ 
 
 
 [[!redirects height of a formal group law]]
+
+[[!redirects height of formal groups]]
