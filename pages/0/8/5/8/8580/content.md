@@ -54,6 +54,8 @@ Divided into two parts:
 
 1. [Smooth homotopy types](#SmoothnGroupoids)
 
+1. [Stable homotopy types](#StableHomotopyTypes)
+
 1. [Groups](#NGroups)
 
 1. [Principal bundles](#PrincipalBundles)
@@ -463,6 +465,8 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 1. [Smooth homotopy types](#SmoothnGroupoids)
 
+1. [Stable homotopy types](#StableHomotopyTypes)
+
 1. [Groups](#NGroups)
 
 1. [Principal bundles](#PrincipalBundles)
@@ -527,6 +531,11 @@ This chapter is at _[[geometry of physics -- homotopy types]]_.
 
 This chapter is at _[[geometry of physics -- smooth homotopy types]]_.
 
+
+## **Stable homotopy types**
+ {#StableHomotopyTypes}
+
+This chapter is at _[[geometry of physics -- stable homotopy types]]_.
 
 ## **Groups**
  {#NGroups}
