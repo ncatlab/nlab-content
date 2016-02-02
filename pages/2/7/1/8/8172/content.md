@@ -330,7 +330,7 @@ Throughout, let $E$ be a [[ring spectrum]].
 
 #### $E$-Injective spectra
 
-First we consider a concept of of $E$-[[injective objects]] in [[Spectra]].
+First we consider a concept of $E$-[[injective objects]] in [[Spectra]].
 
 
 +-- {: .num_defn #ExactSequences}
