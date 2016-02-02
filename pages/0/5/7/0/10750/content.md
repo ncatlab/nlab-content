@@ -42,7 +42,7 @@ The [[Quillen equivalence]] between the model structure on orthogonal spectra an
 
 * [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_ ([K-theory:0318](http://www.math.uiuc.edu/K-theory/0318/), [pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
 
-* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998 ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
+* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, Proc. London Math. Soc. 82 (2001), ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
 
 The analogous resoult for [[equivariant spectra]]:
 
