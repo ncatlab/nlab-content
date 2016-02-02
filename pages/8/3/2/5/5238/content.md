@@ -135,6 +135,8 @@ Under mild conditions on $C$ the model structure on monoids in $C$ is [[Quillen 
 
 * **model structure on monoids in a monoidal model category**
 
+  * [[model structure for ring spectra]]
+
 * [[model structure on commutative monoids in a symmetric monoidal model category]]
 
 * [[model structure on algebras over an operad]]
