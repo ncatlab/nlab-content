@@ -28,7 +28,7 @@ An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[s
 
 $$K/J \coloneqq \{r \in R: r J \subseteq K\}; \qquad I\backslash K = \{r \in R: I r \subseteq K\}$$ 
 
-satisfying the expected [[adjunction|adjointness]] relations: $I \subseteq K/J$ iff $I J \subseteq K$ iff $J \subseteq i\backslash K$. 
+satisfying the expected [[adjunction|adjointness]] relations: $I \subseteq K/J$ iff $I J \subseteq K$ iff $J \subseteq I\backslash K$. 
 
 A reasonably general context might be as follows. 
 
