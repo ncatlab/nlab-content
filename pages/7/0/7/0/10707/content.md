@@ -102,3 +102,6 @@ On [[quasicoherent sheaves]] over $\mathcal{M}_{fg}$:
 [[!redirects height filtration]]
 
 [[!redirects moduli stack of formal group laws]]
+
+[[!redirects moduli space of formal groups]]
+[[!redirects moduli spaces of formal groups]]
