@@ -38,9 +38,14 @@ The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|pres
 
 ## References
 
+* {#HoveyShipleySmith77} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
+
 * {#Hovey00} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
  
+* {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/people/schwede/SymSpec-v3.pdf))
 
-* [[Stefan Schwede]], _Symmetric spectra_ ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+[[!redirects model structures on symmetric spectra]]
 
 [[!redirects model structure on symmetric spectrum objects]]
+[[!redirects model structures on symmetric spectrum objects]]
