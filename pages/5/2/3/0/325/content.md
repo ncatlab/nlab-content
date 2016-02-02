@@ -195,7 +195,7 @@ One may express this succinctly by saying that a co-structure in $C$ is an origi
 
 Passing to the opposite category is a realization of abstract [[duality]]. 
 
-This goes as far that some entities are _defined_ as objects in an opposite category. In particular, all generalizations of [[geometry]] which characterize [[space and quantity|spaces]] in terms of [[algebra|algebras]]. The idea of [[noncommutative geometry]] is essentially to define a category of _spaces_ as the opposite category of a category of algebras. Similarly, a [[locale]] is opposite to a [[frame]].
+This goes as far as _defining_ some entities as objects in an opposite category--in particular, all generalizations of [[geometry]] which characterize [[space and quantity|spaces]] in terms of [[algebra|algebras]]. The idea of [[noncommutative geometry]] is essentially to define a category of _spaces_ as the opposite category of a category of algebras. Similarly, a [[locale]] is opposite to a [[frame]].
 
 +--{.query}
 Are there examples where algebras are defined as dual to spaces?
