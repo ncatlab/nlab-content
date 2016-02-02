@@ -33,6 +33,11 @@ of [[smooth function]]s that are [[transverse map]]s to $i$ is a [[dense subspac
 
 This is due to ([Thom](#Thom)).
 
+## Relate entries
+
+
+* [[Thom's theorem]]
+
 ## References
 
 The result is due to
