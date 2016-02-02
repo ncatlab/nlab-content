@@ -51,6 +51,8 @@ The analog for [[BP]] is the [[Adams-Quillen theorem]].
 
 * [[Quillen's theorem on MU]]
 
+* [[universal orientation on MU]]
+
 * [[Landweber exact functor theorem]]
 
 ## References
