@@ -1,4 +1,5 @@
-<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" /></div>
+<div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
+</div>
 
 
 
@@ -6,9 +7,9 @@
 * table of contents
 {:toc}
 
-## contact {#contact} 
+## contact
 
-The best way to contact me is by sending me an email at <urs.schreiber@gmail.com>
+The best way to contact me is to send an email to <urs.schreiber@gmail.com>
 
 
 ## my position {#myposition}
@@ -23,9 +24,9 @@ Presently I am on leave at the [Max Planck Institute for Mathematics in Bonn](ht
 
 My research is about mathematical theory building in theoretical fundamental physics. 
 
-With [[Hisham Sati]] we have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
+With [[Hisham Sati]] I have edited a survey book that should give a good sense of modern insights into the general abstract structure of the world:
 
-* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_.
+* _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, [volume 83](http://bookstore.ams.org/PSPUM-83), AMS, 2011
 
 I am writing a monograph about a modern approach to this subject:
 
@@ -33,7 +34,7 @@ I am writing a monograph about a modern approach to this subject:
 
 An expository survey text is here:
 
-* _[[schreiber:Higher Prequantum Geometry]]_
+* _[[schreiber:Higher Prequantum Geometry]]_, chapter in [[nLab:Gabriel Catren|G. Catren]], [[nLab:Mathieu Anel|M. Anel]] (eds.) _[[nLab:New Spaces for Mathematics and Physics]]_, IHP Paris, 2016
 
 and survey talks are here: 
 
@@ -45,34 +46,36 @@ and survey talks are here:
 
 ## teaching 
 
-In spring 2015 I was teaching a seminar on 
+In summer 2014 I taught a master course
 
-* _[[schreiber:Higher Cartan Geometry]]_
+* _[[schreiber:HAI|Homological Algebra]]_.
 
-A list of notes prepared for seminars that I taught in the past is here
+In summer 2015 I taught a seminar
 
-* _[teaching lecture notes](http://ncatlab.org/schreiber/show/HomePage#Teaching)_;
+* _[[schreiber:Higher Cartan Geometry]]_.
 
+Since summer 2015 I have given several enactments of a lecture series
 
-## publications, talks, and students
+* _[[schreiber:Structure Theory for Higher WZW Terms]]_.
 
-A personal [wiki](http://en.wikipedia.org/wiki/Wiki) with more information on my research, talks, students, teaching and other activity is here:
+In summer 2016 I am teaching a master course
 
-* _[[schreiber:HomePage|my personal web within the nLab]]_.
+* _[[Introduction to Stable homotopy theory|Stable Homotopy Theory]]_.
 
-See specifically:
-
-* [publications](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects);
-
-* [talks and lectures](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References);
-
-  Here is the video recording of a sample research talk that I have given recently:
-
-  _[[differential cohesion and idelic structure|Fractures, Ideles and the Differential Hexagon]]_, talk at [ CUNY workshop on differential cohomologies](http://qcpages.qc.cuny.edu/~swilson/cunyworkshop14.html), New York, August  2014 ([video recording](http://videostreaming.gc.cuny.edu/videos/video/1806/))
+A list of notes prepared for other seminars that I taught in the past is _[here](http://ncatlab.org/schreiber/show/HomePage#Teaching)_.
 
 
-* [students](http://ncatlab.org/schreiber/show/HomePage#students).
+## publications
 
+* [arXiv](http://arxiv.org/a/schreiber_u_1.html), [personal record](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects)
+
+## invited talks and lectures
+
+* [talks and lectures](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References)
+
+## students
+
+* [students](http://ncatlab.org/schreiber/show/HomePage#students)
 
 
 ## $n$Lab
@@ -83,7 +86,7 @@ I like to put information into context. For that purpose I had started the
 
 * [nLab wiki project](http://ncatlab.org/nlab/show/HomePage) 
 
-in November 2008. It has now more than 11,000 pages (some very short, but some very long).  In May 2015 the $n$Lab installation migrated from a server paid out of my pocket to a server hosted at Carnegie-Mellon University in Pittsburgh, funded by [[Steve Awodey]]'s [MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/) for [[homotopy type theory]] research.
+in November 2008. It has now more than 11,600 pages (some very short, but some very long).  In May 2015 the $n$Lab installation migrated from a server paid out of my pocket to a server hosted at Carnegie-Mellon University in Pittsburgh, funded by [[Steve Awodey]]'s [MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/) for [[homotopy type theory]] research.
 
 For more on what the $n$Lab is see also
 
