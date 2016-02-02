@@ -95,6 +95,9 @@ Lecture notes include
 
 * {#VanKoughnett13} [[Paul VanKoughnett]], _Spectra and localization_, 2013 ([[VanKoughnettLocalization.pdf:file]])
 
+* {#Rognes12} [[John Rognes]], section 4.6 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+
+
 Discussion in the context of [[Bousfield localization of spectra]] is in 
 
 * {#Bousfield79} [[Aldridge Bousfield]], section 2 of _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
