@@ -77,6 +77,8 @@ Inside the moduli stack of formal groups sit, in that order, that of [[cubic cur
 
 ## References
 
+* [[Niko Naumann]], _Comodule categories and the geometry of the stack of formal groups_, Advances in Mathematics **215** (2007) pp 569-600, doi:[10.1016/j.aim.2007.04.007](http://dx.doi.org/10.1016/j.aim.2007.04.007), arXiv:[math/0503308](http://arxiv.org/abs/math/0503308).
+
 * Brian D. Smithling, _On the moduli stack of commutative, 1-parameter formal Lie groups_ ([arXiv:0708.3326](http://arxiv.org/abs/0708.3326))
 
 * {#LurieLect11} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 11 _Formal groups_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture14.pdf)) 
