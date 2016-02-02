@@ -613,12 +613,13 @@ Reviews include
 
 * G. Peter Lepage, _What is Renormalization?_, talk 1989 ([arXiv:hep-ph/0506330](http://arxiv.org/abs/hep-ph/0506330))
 
-* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
- {#Weinberg09}
-
+* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
+ 
 (in the context of [[effective field theory]])
 
 * [[R. E. Borcherds]], _Renormalization and quantum field theory_, ([arxiv/1008.0129](http://arxiv.org/abs/1008.0129))
+
+* [[Arnold Neumaier]], _Renormalizatin without infinities -- an elementary tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
 
 Original articles:
 
