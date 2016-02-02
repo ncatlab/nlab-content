@@ -50,9 +50,18 @@ For all $n$, the $n$th [[Morava E-theory]] $E(n)$ is [[Bousfield equivalence|Bou
 
 ## References
 
+The concept of Bousfield classes is due to (see at [[Bousfield localization of spectra]])
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010; Lecture 23 _The Bousfield Classes of $E(n)$ and $K(n)$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture23.pdf))
- {#LurieLect23}
+* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_ , Topology vol 18 (1979) ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
+and was named such in
+
+* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf)) 
+
+Discussion in the context of [[higher algebra]] is in
+
+* {#LurieLect23} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010; Lecture 23 _The Bousfield Classes of $E(n)$ and $K(n)$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture23.pdf))
+ 
 
 [[!redirects Bousfield equivalences]]
 
