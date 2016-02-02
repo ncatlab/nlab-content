@@ -3,10 +3,21 @@
 
 ## related $n$Lab entries
 
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+
+* [[orthogonal spectra]]
+
 * [[stable model category]]
 
 * [[monoidal Dold-Kan correspondence]]
 
-* [[Lectures on Equivariant Stable Homotopy Theory]]
+* [[equivariant stable homotopy theory]]
+
+## Lectures
+
+* {#Schwede12} _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+* _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
 category: people
