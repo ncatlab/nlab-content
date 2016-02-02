@@ -24,10 +24,10 @@
 The universal real Thom spectrum [[MO]] is a [[connective spectrum]] whose associated [[infinite loop space]] is the [[classifying space]] for [[cobordism]]:
 
 $$
-\Omega^\infty M O \simeq \vert Cob_\infty \vert .
+  \Omega^\infty M O \simeq \vert Cob_\infty \vert .
 $$
 
-In particular, $\pi_n M O$ is naturally identified with the set of [[cobordism classes]] of [[closed manifold|closed]] $n$-[[manifolds]].
+In particular, $\pi_n M O$ is naturally identified with the set of [[cobordism classes]] of [[closed manifold|closed]] $n$-[[manifolds]] ([[Thom's theorem]]).
 
 More abstractly, [[MO]] is the [[homotopy colimit]] of the [[J-homomorphism]] in [[Spectra]]
 
@@ -495,7 +495,7 @@ For a brief exposition see ([PontoShulman, example 3.7](#PontoShulman)). For mor
 
 The [[J-homomorphism]] is a canonical map $B O \to B gl_1(\mathbb{S})$ from the [[classifying space]] of the [[stable orthogonal group]] to the [[delooping]] of the [[infinity-group of units]] of the [[sphere spectrum]]. This classifies an "[[(∞,1)-vector bundle]]" of [[sphere spectrum]]-[[module spectrum|modules]] over $B O$ and this is the Thom spectrum.
 
-So in terms of the [[(∞,1)-colomit]] description [above](#ForInfinityModuleBundles) we have
+So in terms of the [[(∞,1)-colimit]] description [above](#ForInfinityModuleBundles) we have
 
 $$
   M O \simeq  \underset{\longrightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to \mathbb{S}Mod = Spectra)
