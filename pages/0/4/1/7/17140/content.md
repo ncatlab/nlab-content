@@ -40,7 +40,7 @@ from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalizatio
 
 =--
 
-We consider now condition for this morphism to be an [[equivalence]].
+We consider now conditions for this morphism to be an [[equivalence]].
 
 +-- {: .num_defn #CoreOfARing}
 ###### Definition
