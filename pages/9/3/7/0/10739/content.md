@@ -1,9 +1,17 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The Adams-Quillen theorem describes the structure of [[Hopf algebroid over commutative base]] on the dual [[BP]]-[[Steenrod algebra]] $BP_\bullet(BP)$.
+The Adams-Quillen theorem describes the structure of a [[Hopf algebroid over a commutative base]] on the dual [[BP]]-[[Steenrod algebra]] $BP_\bullet(BP)$.
 
 This is the analog for [[BP]] of what the [[Landweber-Novikov theorem]] is for [[MU]].
+
+## Related concepts
+
+* [[Landweber exact functor theorem]]
 
 ## References
 
