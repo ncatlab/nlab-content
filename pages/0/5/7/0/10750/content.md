@@ -34,7 +34,7 @@ The [[category]] of _orthogonal spectra_  is a [[presentable (∞,1)-category|pr
 
 * [[S-module]], [[model structure on S-modules]]
 
-
+[[model structure on ring spectra]]
 
 ## References
 
