@@ -343,6 +343,10 @@ This expresses the presence of [[supergeometry]]/[[fermions]], hence ultimately 
 For $\mathcal{K}$ a [[totally distributive category]]
 it induces on its [[category of presheaves]] an adjoint modality whose [[right adjoint]] is the [[Yoneda embedding]] $Y$ postcomposed with its [[left adjoint]] $X$.
 
+### Recollements
+
+See at _[[recollement]]_.
+
 ## Related concepts
 
 * [[Aufhebung]]
