@@ -41,10 +41,16 @@ Formally the dual to totalization is [[geometric realization]]: where totalizati
 
 But various other operations carry names similar to "totalization". For instance a [[total chain complex]] is related under [[Dold-Kan correspondence]] to the [[diagonal]] of a [[bisimplicial set]] -- see [[Eilenberg-Zilber theorem]]. As discussed at _[[bisimplicial set]]_, this is [[weak homotopy equivalence|weakly homotopy equivalent]] to the operation that is often called $Tot$ and called the _total simplicial set_ of a bisimplicial set.
 
+To a cosimplicial chain complex we can assign a double complex by taking the alternating sum of the coface maps. Then the totalization of this cosimplicial object and the totalization of the double complex as defined in homological algebra coincide. Moreover, the associated [[Bousfield-Kan spectral sequence]] and [[spectral sequence of a double complex]] coincide.
+
 ## References
 
 Some kind of notes are in
 
 * Rosona Eldred, _Tot primer_ ([pdf](http://www.math.uiuc.edu/~reldred2/tot-primer.pdf))
+
+See also remark 15.7 in
+
+* Dugger, _Homotopy colimits_ ([pdf](http://pages.uoregon.edu/ddugger/hocolim.pdf))
 
 [[!redirects totalizations]]
