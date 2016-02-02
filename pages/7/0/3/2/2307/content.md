@@ -184,6 +184,9 @@ Original articles include
  
 Textbook accounts include
 
+* {#Stong68} [[Robert Stong]], _Notes on Cobordism theory_, 1968 ([toc pdf](http://pi.math.virginia.edu/StongConf/Stongbookcontents.pdf), [publisher page](http://press.princeton.edu/titles/6465.html))
+
+
 * {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
 
 * {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
