@@ -169,6 +169,8 @@ $$
 
 =--
 
+(See also _[[conditional convergence]]_.)
+
 +-- {: .num_remark }
 ###### Remark
 
