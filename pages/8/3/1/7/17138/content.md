@@ -1,25 +1,23 @@
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Stable Homotopy theory
-+--{: .hide}
-[[!include stable homotopy theory - contents]]
-=--
-=--
-=--
 
 {:bluebox: .un_remark style="border:solid #000000;background: #E6DF13;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
+***
 
 
 $\,$
 
 +-- {: .standout}
+co
+<div style="float:left;margin:0 10px 10px 0;"> <img width="200" src="http://ncatlab.org/nlab/files/BonnLogo.png"> </div> 
 
-$\;\;\;\;\;\;\;\;\;\;\;$ **[[nLab:stable homotopy theory|Stable Homotopy Theory]]**
+[V4D2 -- Algebraic Topology II](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=109556&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-$\;\;\;\;\;\;\;\;\;\;\;$ An introduction.
+$\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
+
+$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
+
+[Lecture](#Introduction) and [Seminar](#ComplexOrientedCohomology)
 
 =--
 
@@ -39,6 +37,7 @@ $\,$
 
 
 ## Introduction
+ {#Introduction}
 
 We are concerned with the theory of _[[spectra]]_ in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. 
 
@@ -558,13 +557,14 @@ Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05,
 
 So the [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes spectra from their formal completion and torsion approximation:
 
+
 $$
   \array{
     &&  {{localization} \atop {away\;from\;p}} && \stackrel{}{\longrightarrow} && {{p-adic} \atop {residual}}
     \\
     & \nearrow & & \searrow & & \nearrow && \searrow
     \\
-    { {formal\;completion} \atop {away\; from \;p} }  && && {{geometric\;bundles} \atop {with \;connection}} &&  && {{{p-torsion} \atop {approximation}} \atop {{of\;p-adic} \atop {residual}}}
+    { {formal\;completion} \atop {away\; from \;p} }  && &&  &&  && {{{p-torsion} \atop {approximation}} \atop {{of\;p-adic} \atop {residual}}}
     \\
     & \searrow &  & \nearrow & & \searrow && \nearrow
     \\
@@ -878,13 +878,7 @@ such that
 
 Call this the _associated $E$-Adams resolution_ of the $E$-Adams tower.
 
-The _associated inverse sequence_ is
-
-$$
-  X = X_0 \stackrel{\gamma_0}{\longleftarrow} \Omega C_1 \stackrel{\gamma_1}{\longleftarrow} C_2 \longleftarrow \cdots
-$$
-
-where $C_{k+1} \coloneqq hocofib(i_k)$.
+The _associated inverse sequence_ is ...
 
 =--
 
@@ -968,7 +962,6 @@ Convergence
 
 ... $E$-ANSS [[converges conditionally]] to the [[E-nilpotent completion]]...
 
-spring
 
 ...([Ravenel 84](#Ravenel84))...
 
@@ -1079,15 +1072,42 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 ## **Seminar: Complex oriented cohomology**
  {#ComplexOrientedCohomology}
 
+$\,$
+
++-- {: .standout}
+
+<div style="float:left;margin:0 10px 10px 0;"> <img width="200" src="http://ncatlab.org/nlab/files/BonnLogo.png"> </div> 
+
+[S4D2 -- Graduate Seminar on Topology](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=107560&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
+
+$\;\;\;\;\;\;\;\;\;\;\;$ **Complex oriented cohomology**
+
+$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
+
+$\;\;\;\;\;\;\;\;\;\;\;$ 
+
+=---
+
+> under construction
+
+***
+
+The following is a rough list of possible topics. 
+
 ### Generalised cohomology
+
+We follow ([Kono-Tamaki 02](#KonoTamaki02))
+
+
+**Cohomology theory and Spectra
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
 
 * [[Brown representability theorem]]
 
-  * [[generalized (Eilenberg-Steenrod) cohomology]]
+* example: [[topological K-theory]]
 
-* [[topological K-theory]]
-
-### Cobordism and Thom spectra
+**Cobordism cohomology theory**
 
 * [[Pontrjagin-Thom construction]]
 
@@ -1107,6 +1127,12 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 We follow ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
 
 
+**Complex orientation**
+
+* [[complex oriented cohomology theory]]
+
+  * generalized [[Chern classes]]
+
 * [[complex cobordism cohomology]] 
 
   * [[MU]]
@@ -1119,13 +1145,11 @@ We follow ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10))
 
 * [[Quillen's theorem on MU]]
 
-* [[complex oriented cohomology theory]]
-
-  * [[Chern classes]]
-
 * [[universal complex orientation on MU]]
 
 * [[Landweber exact functor theorem]]
+
+**Geometry of $Spec(MU)$**
 
 * [[moduli space of formal groups]]
 
@@ -1133,13 +1157,15 @@ We follow ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10))
 
   * [[moduli space of elliptic curves]]
 
-
-### Descent over $Spec(MU)$
-
 * [[Landweber-Novikov theorem]]
 
 * [[Adams-Quillen theorem]]
 
+$\,$
+
+***
+
+$\,$
 
 ## References
 
@@ -1169,6 +1195,8 @@ For the case $E =$ [[MU]] we may follow
 
 For  **S) Complex oriented cohomology ** we follow
 
+* {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
+
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
@@ -1185,7 +1213,7 @@ Useful quick survey of the modern big picture may be found in
 
 * {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
 
-Further lecture notes include
+Further lecture notes pointed to above include
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
@@ -1205,4 +1233,3 @@ And last not least, there is
 
 
 [[!redirects geometry of physics -- stable homotopy types]]
-
