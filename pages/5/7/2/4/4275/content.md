@@ -11,9 +11,9 @@
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
-#### Manifolds and cobordisms
+#### Cobordism theory
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
+[[!include cobordism theory -- contents]]
 =--
 =--
 =--
