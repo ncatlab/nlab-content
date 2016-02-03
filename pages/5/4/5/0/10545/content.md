@@ -269,6 +269,7 @@ See the [references below](#ReferencesHopfAlgebroid).
 
 * [[Adams resolution]], [[Adams spectral sequence]], [[Adams-Novikov spectral sequence]]
 
+* [[Brown-Gitler spectrum]]
 
 ## References
 
