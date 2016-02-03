@@ -111,7 +111,7 @@ A pedagogical introduction to [[spectrum|spectra]] and generalized (Eilenberg-St
 
 A comprehensive account is in 
 
-* _Generalized cohomology_ ([[GeneralizedCohomology.pdf:file]])
+* {KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
 
 * [[Peter May]] Concise Course on Algebraic Topology: [Chapter 18](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf)
 
