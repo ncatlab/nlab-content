@@ -12,12 +12,18 @@
 +--{: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
+#### Cobordism theory
++--{: .hide}
+[[!include cobordism theory -- contents]]
+=--
 #### Functorial Quantum Field Theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
+
+
 
 
 #Contents#
