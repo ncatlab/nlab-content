@@ -290,6 +290,8 @@ Textbook accounts include
 
 * {#MosherTangora} [[Robert Mosher]], [[Martin Tangora]], p. 38 of _Cohomology Operations and Application in Homotopy Theory_, Harper and Row (1968) ([pdf](http://math.jhu.edu/~anakade1/notes/Dec%202014/Mosher%20and%20Tangora%20Notes/mosher-tangora.pdf))
 
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.6 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
 Discussion of the situation in [[parameterized homotopy theory]] includes
 
 * {#CookCrabb93} A. L. Cook, M.C. Crabb, _Fiberwise Hopf structures on sphere bundles_, J. London Math. Soc. (2) 48 (1993) 365-384 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/crabbcook.pdf))
