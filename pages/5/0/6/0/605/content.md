@@ -52,7 +52,9 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 ## Related concepts
 
-* [[cobordism group]]
+* [[cobordism group]], [[cobordism ring]]
+
+* [[Thom spectrum]], [[Thom's theorem]]
 
 * [[cobordism category]]
 
@@ -69,6 +71,8 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 * [[Lagrangian cobordism]]
 
 ## References
+
+* [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
 
 * [[Manifold Atlas]], _[Bordism](http://www.map.mpim-bonn.mpg.de/Bordism)_
 
