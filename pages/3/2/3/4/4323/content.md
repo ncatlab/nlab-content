@@ -3,9 +3,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Manifolds and cobordisms
+#### Cobordism theory
 +--{: .hide}
-[[!include manifolds and cobordisms - contents]]
+[[!include cobordism theory -- contents]]
 =--
 #### Stable Homotopy theory
 +--{: .hide}
@@ -527,6 +527,8 @@ This is implied by the [[Galatius-Madsen-Tillmann-Weiss theorem]] and  by [[Jaco
 Under the [[Brown representability theorem]] the Thom spectrum represents the [[generalized (Eilenberg-Steenrod) cohomology]] theory called [[complex cobordism cohomology theory|cobordism cohomology theory]].
 
 ## Related concepts
+
+* [[cobordism theory]]
 
 * [[Thom space]], [[Thom isomorphism]], [[Pontryagin-Thom collapse map]]
 
