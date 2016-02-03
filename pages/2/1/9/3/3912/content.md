@@ -57,7 +57,7 @@ The original reference is
 
 * [[René Thom]],   _Quelques propri&#233;t&#233;s globales des vari&#233;t&#233;s diff&#233;rentiables_  Comm. Math. Helv. , 28  (1954)  pp. 17&#8211;86
 
-* W. Cockcroft, _On the Thom isomorphism Theorem_ Mathematical Proceedings of the Cambridge Philosophical Society (1962), 58 ([pdf](http://journals.cambridge.org/action/displayFulltext?type=1&fid=2056796&jid=PSP&volumeId=58&issueId=02&aid=2056788&bodyId=&membershipNumber=&societyETOCSession=))
+* W. Cockcroft, _On the Thom isomorphism Theorem_, Mathematical Proceedings of the Cambridge Philosophical Society (1962), 58 ([pdf](http://journals.cambridge.org/action/displayFulltext?type=1&fid=2056796&jid=PSP&volumeId=58&issueId=02&aid=2056788&bodyId=&membershipNumber=&societyETOCSession=))
 
 Lecture notes include
 
