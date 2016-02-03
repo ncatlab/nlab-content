@@ -1069,7 +1069,7 @@ where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[E
 (...)
 
 
-## **Seminar: Complex oriented cohomology**
+## Seminar: Complex oriented cohomology
  {#ComplexOrientedCohomology}
 
 $\,$
@@ -1095,7 +1095,7 @@ A list of possible topics. Check again a little later for more.
 
 $\,$
 
-### Generalised cohomology
+### **Part S1) Generalised cohomology**
 
 
 #### Cohomology theory and Spectra
@@ -1128,9 +1128,9 @@ For instance ([Rudyak 98](#Rudyak98))
 * [[Thom's theorem]]
 
 
-### Complex oriented cohomology
+### **Part S2) Complex oriented cohomology**
 
-For instance ([Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
+For instance ([Adams 74](#Adams74), [Hopkins 99](#Hopkins99), [Lurie 10](#Lurie10)) 
 
 #### Complex orientation
 
@@ -1194,15 +1194,19 @@ as surveyed in ([Hopkins 99, section 5](#Hopkins99)) and expanded on in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-For the case $E =$ [[MU]] we may follow
+For the case $E =$ [[MU]] we may follow ([Adams 74](#Adams74)).
 
-* {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
 
-For  **S) Complex oriented cohomology ** check out
+For **S1) Generalized cohomology** there are many standard texts, this one here is a nice modern perspective
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+
+
+For **S2) Complex oriented cohomology** see
+
+* {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
