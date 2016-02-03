@@ -1198,7 +1198,7 @@ For the case $E =$ [[MU]] we may follow
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
 
-For  **S) Complex oriented cohomology ** we follow
+For  **S) Complex oriented cohomology ** check out
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
