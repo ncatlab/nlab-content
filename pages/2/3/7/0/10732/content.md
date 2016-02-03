@@ -20,7 +20,7 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 =--
 
-(e.g. [Hopkins 99](#Hopkins99) [Lurie lect 2, theorem 4](#LurieLect2))
+A proof is spelled out in ([Hopkins 99, section 2](#Hopkins99)), reviewed in ([Mathew 12](#Mathew12), [Wilson 13](#Wilson13)). Also ([Lurie lect 2, theorem 4](#LurieLect2)).
 
 ## Related theorem
 
@@ -33,14 +33,14 @@ with the [[variable]] $t_i$ in degree $2 i$.
 
 ## References
 
-Reviews are in 
-
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
-* [[Akhil Mathew]], _[Lazard's theorem II](http://amathew.wordpress.com/2012/05/27/lazards-theorem-ii/)_
+* {#Mathew12} [[Akhil Mathew]], _[Lazard's theorem II](http://amathew.wordpress.com/2012/05/27/lazards-theorem-ii/)_, 2012
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
- {#LurieLect2}
+* {#Wilson13} [[Dylan Wilson]] _Proof of Lazard's theorem_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonProofOfLazard.pdf:file]])
+
+* {#LurieLect2} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 2 _Lazard's theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture2.pdf))
+ 
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010,  Lecture 3 _Lazard's theorem (continued)_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture3.pdf))
 
