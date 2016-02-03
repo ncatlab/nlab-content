@@ -80,9 +80,9 @@ An alternative simple formulation in terms of geometric cycles as in [[bivariant
 
 See also
 
-* A. Dold, _Relations between ordinary and extraordinary homology_ , Colloq. Algebraic Topology, August 1&#8211;10, 1962 , Inst. Math. Aarhus Univ.  (1962)  pp. 2&#8211;9
+* [[Albrecht Dold]], _Relations between ordinary and extraordinary homology_ , Colloq. Algebraic Topology, August 1&#8211;10, 1962 , Inst. Math. Aarhus Univ.  (1962)  pp. 2&#8211;9
 
-* Yu.B. Rudyak, _On the Thom&#8211;Dold isomorphism for nonorientable bundles_  Soviet Math. Dokl. , 22  (1980)  pp. 842&#8211;844  Dokl. Akad. Nauk. SSSR , 255 : 6  (1980)  pp. 1323&#8211;1325
+* [[Yuli Rudyak]], _On the Thom&#8211;Dold isomorphism for nonorientable bundles_  Soviet Math. Dokl. , 22  (1980)  pp. 842&#8211;844  Dokl. Akad. Nauk. SSSR , 255 : 6  (1980)  pp. 1323&#8211;1325
 
 * R.M. Switzer,   _Algebraic topology - homotopy and homology_ , Springer  (1975)
 
