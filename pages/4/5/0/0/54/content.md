@@ -1,7 +1,19 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
 </div>
 
++-- {: .standout}
 
+**AlgTop II and Seminar**
+
+* _[[Introduction to Stable homotopy theory|lecture and seminar webpage]]_
+
+* organizational meeting for the Seminar:
+
+  Friday Feb 19, 12:00
+
+  room: tba
+
+=--
 
 #contents#
 * table of contents
