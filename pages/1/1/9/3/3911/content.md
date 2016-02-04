@@ -576,6 +576,8 @@ taking values in the coefficients of the given cohomology theory. Note that in t
 
 ### General
 
+* {#Adams74} [[Frank Adams]], pages 25-27 in _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+
 Fiber integration of differential forms is discussed in section VII of volume I of
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
