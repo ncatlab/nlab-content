@@ -23,7 +23,7 @@ The usual way to prove a prime ideal theorem is with the help of [[Zorn's Lemma]
 
 Prime ideal theorems may be arranged as a sequence of results and techniques that gradually increase in sophistication; we sketch one possible development here, filling in details in the remainder of the article. 
 
-A first easy (almost tautological) result is the equivalence between the Boolean PIT (or BPIT) and UF. While this is easy, the BPIT is a theoretical underpinning of fundamental techniques such as the [[compactness theorem]] for [[first-order logic]], which leads to the next rung on the ladder. 
+A first easy wave of results concerns the equivalence between the Boolean PIT (or BPIT) and UF. While these are easy, the BPIT is a theoretical underpinning of fundamental techniques such as the [[compactness theorem]] for [[first-order logic]], which leads to the next rung on the ladder. 
 
 The next step derives the PIT for distributive lattices as a simple application of the compactness theorem and other model-theoretic techniques. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets. 
 
@@ -42,14 +42,17 @@ We now turn to details.
 
 ### Boolean PIT and the ultrafilter principle 
 
-First, prime ideals in Boolean algebras (or Boolean rings) $B$ are the same as maximal ideals. For, the corresponding Boolean quotient ring is an integral domain only if it is the field $\mathbb{Z}/(2)$, since idempotency of elements yields $e(1-e) = 0$ and then $e = 0$ or $e = 1$ assuming no zero divisors. 
+The Boolean prime ideal theorem or BPIT is equivalent to the [[ultrafilter principle]] UF. 
 
-Second, maximal ideals are complementary to ultrafilters (see [here](/nlab/show/Boolean+algebra#aremax)). So UF, which says that every filter in $B = P X$ 
-is contained in an ultrafilter, translates into a special case of the BPIT: every ideal of $P X$ (consisting of negations of elements of a corresponding filter) is contained in a prime/maximal ideal. 
+The reasoning may be summarized as follows: the ultrafilter principle implies the [[Tychonoff theorem]] for compact Hausdorff spaces; see this [Remark](/nlab/show/Tychonoff+theorem#TyCH) and the argument immediately preceding it. The Tychonoff theorem for compact Hausdorff spaces in turn implies that every Boolean ring $B$ has a maximal (and therefore prime) ideal; see [here](/nlab/show/Tychonoff+theorem#nonempty). Consequently, for any ideal $I$ of a Boolean algebra $B$, the quotient Boolean ring $B/I$ has a prime ideal $P$, and the pullback $q^{-1}(P) \subseteq B$ of the quotient map $q: B \to B/I$ produces a prime ideal in $B$ which contains a given ideal $I$, thus proving the BPIT from UF. 
 
-That the Tychonoff theorem for compact Hausdorff spaces implies BPIT was proven [here](/nlab/show/Tychonoff+theorem#nonempty), noting that to prove that every proper ideal $I$ of $B$ is contained in a prime ideal, it suffices to find a prime ideal (or ultrafilter) of $B/I$, pulling it back along the quotient $B \to B/I$ to a prime ideal of $B$. This brings us full circle: BPIT implies UF implies Tychonoff(CH) implies BPIT. 
+(In passing, one may note that prime ideals in Boolean algebras (or Boolean rings) $B$ are the same as maximal ideals. For, the corresponding Boolean quotient ring is an integral domain only if it is the field $\mathbb{Z}/(2)$, since idempotency of elements yields $e(1-e) = 0$ and then $e = 0$ or $e = 1$ assuming no zero divisors.)  
 
-### BPIT implies prime ideal theorem for commutative rings
+Finally, maximal ideals are complementary to ultrafilters (see [here](/nlab/show/Boolean+algebra#aremax)). So UF, which says that every filter in $B = P X$ 
+is contained in an ultrafilter, translates into a special case of the BPIT: every ideal of $P X$ (consisting of negations of elements of a corresponding filter) is contained in a prime/maximal ideal. This brings us full circle: BPIT implies UF implies Tychonoff(CH) implies BPIT. 
+
+
+### BPIT implies prime ideal theorem for distributive lattices 
 
 Now let us prove that the Tychonoff theorem for CH spaces implies the PIT for commutative rings: that any proper ideal $I$ of $R$ is contained in a prime ideal of $R$. By passing to the quotient rig $R/I$, it suffices to show that $R/I$ has a prime ideal $P$, since the inverse image $\phi^{-1}(P)$ of a prime ideal $P$ along the quotient map $\phi: R \to R/I$ is again prime. 
 
