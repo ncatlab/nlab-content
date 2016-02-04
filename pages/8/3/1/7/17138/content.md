@@ -108,6 +108,14 @@ We follow ([Malkiewich 14](#Malkiewich14)).
 
 ### Spectra
 
+* [[pointed object]]
+
+  [[smash product]]
+
+  [[suspension]], [[loop space object]]
+  
+  [[pointed topological space]]
+
 * [[spectrum]]
 
   [[free infinite loop space]]
