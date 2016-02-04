@@ -676,6 +676,8 @@ $(E_\bullet, E_\bullet(E))$ (the dual $E$-[[Steenrod operations]]) is canonicall
 
 =--
 
+([Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -1217,7 +1219,7 @@ A streamlined presentation of this close in spirit to constructions in [[homolog
 
 and is reproduced in 
 
-* {#Hopkins99} [[Mike Hopkins]], section 5 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
@@ -1268,11 +1270,7 @@ and nicely surveyed in
 
 * {#Wilson13} [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/), March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
-### For more general coefficients
 
-For [[tmf]]
-
-* [[Mark Behrens]], _The Adams spectral sequence for $tmf$_ ([[BehrensANSSfortmf.pdf:file]])
  
 ### Hopf algebroid $Ext$-structure on $E^2$
  {#ReferencesHopfAlgebroidStructure}
@@ -1290,7 +1288,12 @@ For [[tmf]]
 
 * {#Hovey03} [[Mark Hovey]], _Homotopy theory of comodules over a Hopf algebroid_ ([arXiv:math/0301229](http://arxiv.org/abs/math/0301229)) 
  
- 
+### Further examples with more general coefficients
 
+For [[tmf]]
+
+* [[Mark Behrens]], _The Adams spectral sequence for $tmf$_ ([[BehrensANSSfortmf.pdf:file]])
+
+* [[Michael Hill]], _The 3-local $tmf$-homology of $B \Sigma_3$_, Proceedings of the AMS, 2007 ([pdf](http://www.ams.org/journals/proc/2007-135-12/S0002-9939-07-08937-X/S0002-9939-07-08937-X.pdf))
 
 [[!redirects Adams spectral sequences]]
