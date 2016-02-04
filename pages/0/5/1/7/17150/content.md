@@ -1,0 +1,32 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+This page collects material related to
+
+* [[Stefan Schwede]],
+
+  _Global homotopy theory_
+
+  2015
+
+  ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+
+on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectra]].
+
+See also
+
+* [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
+
+category: reference
