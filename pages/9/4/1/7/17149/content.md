@@ -1,3 +1,4 @@
+[[!redirects Stable homotopy and generalized homology]]
 
 
 * [[Frank Adams]], 
@@ -8,6 +9,12 @@
 
 
 on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]].
+
+The big story developing here was later further developed in
+
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
 ## Part I
 
