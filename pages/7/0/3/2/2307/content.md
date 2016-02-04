@@ -22,7 +22,7 @@
 
 ## Idea
 
-In the context of [[cobordism theory]], the [[cohomology theory]] [[Brown representability thoerem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_.
+In the context of [[cobordism theory]], the [[cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_.
 
 
 ## Definition
