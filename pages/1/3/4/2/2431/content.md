@@ -143,8 +143,11 @@ A proof following this one is also given in
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+Review includes
 
-The model-categorical version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
+* {#Muro10} [[Fernando Muro]], _Representability of cohomology theories_, 2010 ([pdf](http://personal.us.es/fmuro/praha.pdf))
+
+The model-category theoretic version, with applications to [[∞-stacks]] -- or rather to the standard  [[models for ∞-stack (∞,1)-toposes]] in terms of the standard [[model structure on simplicial presheaves]] -- is given in
 
 * [[Rick Jardine]], _[[JardineBrownrep.pdf:file]]_ 
 
@@ -159,13 +162,13 @@ The counterexamples to nonconnected and unpointed Brown representability are fro
 
 A review in the context of [[chromatic homotopy theory]] is in 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
- {#Lurie}
+*{#Lurie}  [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
+ 
 
 The relation to [[Grothendieck context|Grothendieck contexts]] ([[six operations]]) is highlighted in 
 
-* [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([web](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
- {#Neeman96}
+* {#Neeman96} [[Amnon Neeman]], _The Grothendieck duality theorem via Bousfield's techniques and Brown representability_, J. Amer. Math. Soc. 9 (1996), 205-236 ([web](http://www.ams.org/journals/jams/1996-9-01/S0894-0347-96-00174-9/))
+ 
 
 
 
