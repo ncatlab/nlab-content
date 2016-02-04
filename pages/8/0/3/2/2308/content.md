@@ -18,10 +18,10 @@
 A _reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory_ is a $\mathbb{Z}$-collection of  [[functors]]
 
 $$
-  \tilde E^\bullet \colon Top^{\ast/} \longrightarrow Ab
+  \tilde E^\bullet \colon (Top^{\ast/})^{op} \longrightarrow Ab
 $$
 
-from [[pointed topological spaces]] to [[abelian groups]]
+from the [[opposite category]] of [[pointed topological spaces]] to [[abelian groups]]
 
 equipped with [[natural isomorphism|natural]] [[suspension isomorphisms]] 
 
