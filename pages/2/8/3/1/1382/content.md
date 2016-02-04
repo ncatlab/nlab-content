@@ -24,11 +24,11 @@
 ## Idea
 
 
-An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category|commutative monoid]] in the [[stable (∞,1)-category of spectra]]. Sometimes this is called a [[commutative ring spectrum]]. An [[E-∞ algebra]] in [[spectra]].
+An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category|commutative monoid]] in the [[stable (∞,1)-category of spectra]], an [[E-∞ algebra]] in [[spectra]]. This is (up to equivalence) also called a _[[highly structured ring spectrum]]_.
 
 This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to [[coherence|coherent]] [[higher homotopies]]. $E_\infty$-rings are the analogue in [[higher algebra]] of the [[commutative rings]] in ordinary [[algebra]].
 
-In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinary [[commutative monoids]] with respect to the [[symmetric monoidal smash product of spectra]], a fact sometimes referred to as "[[brave new algebra]]".
+In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinary [[commutative monoids]] with respect to the [[symmetric monoidal smash product of spectra]] -- [[highly structured ring spectra]], a fact sometimes referred to as "[[brave new algebra]]".
 
 ## Properties
 
@@ -97,3 +97,10 @@ See also
 [[!redirects E-∞ rings]]
 [[!redirects E-infinity rings]]
 [[!redirects E-∞-rings]]
+
+[[!redirects E-∞ ring spectrum]]
+[[!redirects E-∞ ring spectra]]
+
+[[!redirects E-infinity ring spectrum]]
+[[!redirects E-infinity ring spectra]]
+
