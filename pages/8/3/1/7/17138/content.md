@@ -822,7 +822,7 @@ $\,$
 ### **Part S1) Generalised cohomology**
 
 
-#### Cohomology theory and Spectra
+#### Representability
 
 For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)).
 
@@ -830,7 +830,7 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 * [[ordinary cohomology]], [[topological K-theory]]
 
-* [[Brown representability theorem]]
+[[Brown representability theorem]]
 
 
 #### Cobordism theory
@@ -917,11 +917,11 @@ For **S1) Generalized cohomology** these here provide a neat account:
  
 For **S2) Complex oriented cohomology** try
 
-* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+* {#Adams74} [[Frank Adams]], parts I and II of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
+* {#Hopkins99} [[Mike Hopkins]], sections 1-7 of _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
 
-* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+* {#Lurie10} [[Jacob Lurie]], lectures 1-16 of _[[Chromatic Homotopy Theory]]_, 2010
 
 ### Further reading
 
