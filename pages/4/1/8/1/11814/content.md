@@ -32,3 +32,5 @@ The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]
 
 
 [[!redirects prime fields]]
+
+[[!redirects Fp]]
