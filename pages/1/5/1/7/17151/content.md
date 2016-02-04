@@ -1,0 +1,12 @@
+
+
+* [webpage](http://math.uiuc.edu/~cmalkiew/)
+
+## related $n$Lab entries
+
+* [[stable homotopy theory]]
+
+* [[stable homotopy category]]
+
+category: people
+
