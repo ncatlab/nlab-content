@@ -26,9 +26,9 @@ $\,$
 
 ***
 
-This page contains topics, links, literature.
+This page contains topics, links, literature. 
 
-Eventually lecture notes will be contained here, for the moment these are skeletal.
+Eventually lecture notes.
 
 ***
 
@@ -109,6 +109,10 @@ We follow ([Malkiewich 14](#Malkiewich14)).
 ### Spectra
 
 * [[spectrum]]
+
+  [[free infinite loop space]]
+
+  [[Omega-spectrum]]
 
 * [[stable homotopy category]]
 
@@ -739,6 +743,9 @@ $(E_\bullet, E_\bullet(E))$ (the dual $E$-[[Steenrod operations]]) is canonicall
 
 =--
 
+([Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -828,7 +835,7 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 #### Cobordism theory
 
-For instance ([Freed 13](#Freed13))
+For instance ([Malkiewich 11](#Malkiewich11)).
 
 [[cobordism theory]]
 
@@ -897,27 +904,22 @@ For section **1) Stable homotopy theory** we follow
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
 
-For **2) Adams spectral sequence** we follow the streamlined presentation due to 
-
-* {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
-
-as surveyed in ([Hopkins 99, section 5](#Hopkins99)) and expanded on in
+For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
 
-For **S1) Generalized cohomology** there are many sources, these here provide a nice modern perspective:
+For **S1) Generalized cohomology** these here provide a neat account:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#Freed13} [[Dan Freed]], _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
-
-
-For **S2) Complex oriented cohomology** see
+* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+ 
+For **S2) Complex oriented cohomology** try
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-* {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
@@ -927,7 +929,7 @@ For further reading on stable homotopy theory an excellent collection is
 
 * {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
 
-Useful quick survey of the modern big picture may be found in
+Useful survey of the modern big picture may be found in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
@@ -938,12 +940,6 @@ Further lecture notes pointed to above include
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
-
-Further original references pointed to above include the following:
-
-* {#Bousfield79} [[Aldridge Bousfield]], _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
-
-* {#Ravenel84} [[Douglas Ravenel]], _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
 
 And last not least, there is
 
