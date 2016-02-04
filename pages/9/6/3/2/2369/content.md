@@ -25,25 +25,12 @@ In older literature, the term  _(commutative) ring spectrum_ refers to a ([[comm
 
 Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
 
-In terms of modern [[homotopy theory]] the monoid structure alone is in general not quite appropriate, since one really needs [[A-∞ ring]] struture or even [[E-∞ ring]] structure. On the other hand, with a suitably [[symmetric monoidal smash product of spectra]] on the given category of spectra, this does follow. 
+Therefore the use of monoids in the [[homotopy category]] is limited, what one really needs are [[coherence|homotopy coherent]] [[A-infinity rings]]/[[E-∞ rings]]. 
 
-For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
+It turns out that these may still be modeled as ordinary ([[commutative monoid|commutative]]) [[monoids]] with respect to a sufficiently good [[symmetric monoidal smash product of spectra]] as they exist on [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]]. To contrast with the naive monoids in the [[stable homotopy category]], these monoids are called _[[highly structured ring spectra]]_. 
 
+But beware that this terminology, in turn, is often abbreviated again to just "ring spectrum". For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
 
-
-## Definition
-
-A _ring spectrum_ is a [[monoid]] in the [[stable homotopy category]] $Ho(\mathcal{S})$ equipped with the [[smash product of spectra]]. See there for more details.
-
-This means that a ring spectrum is a monoid in the category $\mathcal{S}$ of [[spectrum|spectra]] up to not-necessarily coherent [[homotopy]].
-
-A monoid-up-to-homotopy in the category of spectra for which the homotopies are coherent is called an $A_\infty$-[[A-infinity ring spectrum|ring spectrum]] or just an $A_\infty$-[[A-∞ ring|ring]]. These may be modeled as [[monoid]]s with respect to the [[symmetric monoidal smash product of spectra]].
-
-Abstractly these are [[En-algebra|E1-algebras]] in the [[symmetric monoidal (∞,1)-category]] [[Spec]] of [[spectra]].
-
-## Properties
-
-Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 ## Related concepts
 
@@ -56,9 +43,13 @@ Not every ring spectrum may be refined to an $A_\infty$-ring spectrum.
 
 ## Reference
 
-Discussion of ring spectra as rings with repsect to [[symmetric smash product of spectra]] includes
+Discussion of ring spectra as rings with respect to the [[symmetric smash product of spectra]] on [[S-modules]] includes
 
 * [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], sections 2 and 3 of _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+
+A comprehensive account for for [[orthogonal spectra]] is in
+
+* [[Stefan Schwede]], _[[Global homotopy theory]]_
 
 An account in terms of [[(∞,1)-category theory]] is in section 7.1 of
 
@@ -75,8 +66,8 @@ See also the references at [[stable homotopy theory]].
 
 [[!redirects ring spectra]]
 
-[[!redirects E-∞ ring spectrum]]
-[[!redirects E-∞ ring spectra]]
+[[!redirects commutative ring spectrum]]
+[[!redirects commutative ring spectra]]
 
-[[!redirects E-infinity ring spectrum]]
-[[!redirects E-infinity ring spectra]]
+
+
