@@ -46,7 +46,7 @@ $$[,[,]]+[,[,]]\circ(id_L\otimes\tau_{L,L})\circ(\tau\otimes id_L)+[,[,]]\circ (
 
 and antisymmetry 
 
-$$[,]+[,]\otimes\tau_{L,L} = 0$$
+$$[,]+[,]\circ \tau_{L,L} = 0$$
 
 hold. If $k$ is the ring $\mathbb{Z}$ of [[integer]]s, then we say (internal) __Lie ring__, and if $k$ is a [[field]] and $C=Vec$ then we say a __Lie $k$-algebra__. Other interesting cases are super-Lie algebras, which are the Lie algebras in the symmetric monoidal category $\mathbb{Z}_2-Vec$ of [[supervector space]]s and the Lie algebras in the [[Loday-Pirashvili tensor category]] of linear maps. 
 
