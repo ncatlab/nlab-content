@@ -30,6 +30,10 @@ See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed t
 
 (Compare to how just [[loop spaces]] are the grouplike [[A-∞ algebras]], see _[[looping and delooping]]_.)
 
+### Free infinite loop space
+
+See at _[[free infinite loop space]]_.
+
 ## Related concepts
 
 [[!include k-monoidal table]]
@@ -45,6 +49,7 @@ See for instance ([Adams, pretheorem 2.3.2](#Adams)) and the references listed t
  {#Adams}
 
 * [[Peter May]], _The uniqueness of infinite loop space machines_, Topology, vol 17, pp. 205-224 (1978) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/22.pdf))
+
 
 Section 5.1.3 of
 
