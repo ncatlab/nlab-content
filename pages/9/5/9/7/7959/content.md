@@ -254,11 +254,13 @@ Discussion of [[GUT]] models via [[F-theory]] is in
 #### M-theory models
  {#ReferencesMTheoryModels}
 
-A comprehensive account on the [[G2-MSSM]] is in 
+A comprehensive account on models in [[M-theory on G2-manifolds]] and the [[G2-MSSM]] is in 
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
 * [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_,  Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
+
+* {#Kane16} [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_ ([arXiv:1601.07511](http://arxiv.org/abs/1601.07511), [video recording](https://videoonline.edu.lmu.de/en/node/7485))
 
 with comments on comparison to more recent experiments in 
 
