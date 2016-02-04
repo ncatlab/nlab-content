@@ -102,292 +102,17 @@ An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is
 
 ## **Part 1) Stable homotopy theory**
  
-* [[stable homotopy theory]]
-
-We follow ([Schwede 12](#Schwede12), [Schwede 15](#Schwede15)).
+For a good quick survey of [[stable homotopy theory]] see ([Malkiewich 14](#Malkiewich14)). 
 
 ### Spectra
 
-+-- {: .num_defn #OrthogonalSpectrum}
-###### Definition
+* [[spectrum]]
 
-An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
+* [[smash product of spectra]]
 
-1. a sequence of [[pointed topological spaces]] $X_n$ (the _$n$th level_);
+* [[ring spectrum]]
 
-1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
-
-1. based-point preserving [[continuous functions]] $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[smash product]] with the [[1-sphere]] (the _$n$th structure map_)
-
-such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
-
-* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_n \wedge S^k$ given as the [[compositions]]
-
-  $$
-    \sigma^k \colon
-    X_n \wedge S^k  
-     \stackrel{\sigma_n \wedge S^{k-1}}{\longrightarrow}
-    X_{n+1} \wedge S^{k-1}
-     \stackrel{\sigma_{n-1} \wedge S^{k-2}}{\longrightarrow}
-    X_{n+2} \wedge S^{k-2}
-     \stackrel{\sigma_{n-2} \wedge S^{k-3}}{\longrightarrow}
-     \cdots
-     \stackrel{\sigma_{n+k-2} \wedge S^{1}}{\longrightarrow}
-   X_{n+k-1} \wedge S^1
-     \stackrel{\sigma_{n+k-1} }{\longrightarrow}
-    X_{n+k}  
-  $$
-
-  is $O(n) \times O(k)$-equivariant
-
-  (with respect to the $O(k)$-[[action]] on $S^k$ regarded as the [[representation sphere]] of the defining action on $\mathbb{R}^k$ and via the diagonal embedding $O(n)\times O(k) \hookrightarrow O(n+k)$).
-
-A [[homomorphism]] $f \colon X \longrightarrow Y$ of orthogonal spectra is a sequence of $O(n)$-equivariant based continuous functions $f_n \colon X_n \longrightarrow Y_n$ [[commuting diagram|commuting]] with the structure maps
-
-$$
-  \array{
-    X_n \wedge S^1 & \stackrel{\sigma_n^X}{\longrightarrow} & X_{n+1}  
-    \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
-    \\
-    Y_n \wedge S^1 & \stackrel{\sigma_n^Y}{\longrightarrow} & Y_{n+1}      
-  }
-  \,.
-$$
-
-We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorphisms between them.
-
-=--
-
-Write $HoSpectra$ for the [[stable homotopy category]] and write 
-
-$$
-  [-,-] \;\colon\; HoSpectra^{op} \times HoSpectra \longrightarrow Ab
-$$
-
-for the [[hom-functor]] with values in [[abelian groups]].
-
-+-- {: .num_defn #HomotopyFunctor}
-###### Definition
-
-For $S \in HoSpectra$, the _homotopy functor it represents_ it to me the [[representable functor]]
-
-$$
-  [S,-] \;\colon\; HoSpectra \longrightarrow Ab
-$$
-
-(as opposed to the other, contravariant, functor).
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{N}$ then 
-
-$$
-  [\Sigma^\infty S^n ,- ]\simeq \pi_n
-$$
-
-is the $n$th [[homotopy group]]-functor.
-
-=--
-
-
-#### Stable homotopy category
-
-
-+-- {: .num_defn #StabilizationMap}
-###### Definition
-
-Given an orthogonal spectrum $X$, def. \ref{OrthogonalSpectrum},
-then for $n,k \in \mathbb{N}$ the _stabilization map_ $\iota_{n,k}$ on [[homotopy groups]] $\pi_\bullet(X_\bullet)$ of the level spaces $X_\bullet$ is 
-
-$$
-  \iota_{n,k}
-    \;\colon\;
-  \pi_{n+k} X_n
-    \stackrel{(-)\wedge S^1}{\longrightarrow}
-  \pi_{n+k+1}(X_n \wedge S^1)
-    \stackrel{(\sigma_n)_\ast}{\longrightarrow}
-  \pi_{n+k+1} X_{n+1}
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #StableHomotopyGroup}
-###### Definition
-
-Given an orthogonal spectrum $X$, def. \ref{OrthogonalSpectrum}, then for $k \in \mathbb{Z}$ its $k$th _stable [[homotopy group]]_ is the [[colimit]]
-
-$$
-  \pi_k X 
-  \;\coloneqq\;
-  \underset{\longrightarrow}{\lim}_n
-  \pi_{n+k} X_n
-$$
-
-of the [[homotopy groups]] of the level spaces, taken with respect to the stabilization maps, def. \ref{StabilizationMap}.
-
-=--
-
-+-- {: .num_defn #WeakHomotopyEquivalences}
-###### Definition
-
-A homomorphism $f\colon X \longrightarrow Y$ of orthogonal spectra, def. \ref{OrthogonalSpectrum}, is a _[[weak homotopy equivalence]]_ if it induces [[isomorphisms]] (of [[abelian groups]])
-
-$$
-  \pi_\bullet(f) \;\colon\;  \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
-$$
-
-on all stable homotopy groups, def. \ref{StableHomotopyGroup}.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The [[localization of a category|localization]]/[[simplicial localization]] of the category of orthogonal spectra, def. \ref{OrthogonalSpectrum}, at the weak homotopy equivalences, def. \ref{WeakHomotopyEquivalences}, is the  [[stable homotopy category]]/[[(infinity,1)-category of spectra]]:
-
-$$
-  L_{whe} OrthSpectra \simeq Spectra
-  \,.
-$$
-
-=--
-
-
-#### Higher algebra
-
-+-- {: .num_defn #SmashProduct}
-###### Definition
-
-Given two orthogonal spectra $X,Y\in OrthSpectra$, def. \ref{OrthogonalSpectrum}, their _[[smash product of spectra]]_ is the orthongal spectrum
-
-$$
-  X \wedge Y \in OrthSpectrum
-$$
-
-whose $n$th level space is the [[coequalizer]] 
-
-$$
-  \left(
-    \underset{p+1+q = n}{\bigvee}
-     O(n)_+  \underset{O(p)\times 1 \times O(q)}{\wedge} X_p \wedge S^1 \wedge X_q
-  \right)
-  \stackrel{\overset{}{\longrightarrow}}{\underset{}{\longrightarrow}}
-  \left(
-   \underset{p+q = n}{\bigvee}
-    O(n)_+ \underset{O(p)\times O(q)}{\wedge} X_p \wedge X_q
-   \right)
-   \longrightarrow
-   \left(X\wedge Y\right)_{n}
-$$
-
-of the two maps whose components are $\sigma_p^X \wedge Y_q$ and $X_p \wedge \sigma_q^Y \circ X_p \wedge braid_{S^1, Y_q}$, respectively, and whose structure maps are induced, under the coequalizer, by the component maps $X_p\wedge \sigma_q^Y$.
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-The [[smash product of spectra]] from def. \ref{SmashProduct} naturally extends to a [[functor]]
-
-$$
-  (-)\wedge (-)
-  \;\colon\;
-  OrthSpectra \times OrthSpectra
-  \longrightarrow
-  OrthSpectra
-$$
-
-which makes $OrthSpectra$ into a [[symmetric monoidal category]] with [[unit]] the orthogonal [[sphere spectrum]] $\mathbb{S}$, example \ref{OrthogonalSphereSpectrum}.
-
-=--
-
-+-- {: .num_defn #BilinearHomomorphisms}
-###### Definition
-
-For $X,Y,Z \in OrthSpectrum$, def. \ref{OrthogonalSpectrum}, a _[[bilinear map|bilinear]]-homomorphism_ 
-$$
-  b 
-    \;\colon\;
-  (X,Y)
-   \longrightarrow
-  Z
-  \,,
-$$
-
-is a collection of, for each $p,q\in \mathbb{N}$, base-point preserving $O(p) \times O(q)$-equivariant [[continuous functions]]
-
-$$
-  b_{p,q}
-   \;\colon\;
-  X_p \wedge X_q 
-    \longrightarrow
-  Z_{p+q}
-$$
-
-(out of the [[smash product]] of [[pointed topological spaces]]) which are _[[bilinear map|bilinear]]_ in that the following [[diagrams]] [[commuting diagram|commutes]]:
-
-$$
-  \array{
-    X_p \wedge X_q \wedge S^1
-     &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
-    Z_{p+q} \wedge S^1
-    \\
-    \downarrow^{\mathrlap{X_p \wedge \sigma_q}} 
-      && 
-    \downarrow^{\mathrlap{\sigma_{p+q}}}
-    \\
-    X_p \wedge Y_{q+1}
-     &\stackrel{b_{p,q+1}}{\longrightarrow}&
-    Z_{p+q+1}
-  }
-  \;\;\;\;,\;\;\;\;\;
-  \array{
-    X_p \wedge X_q \wedge S^1
-     &\stackrel{b_{p,q} \wedge S^1}{\longrightarrow}&
-    Z_{p+q} \wedge S^1
-    \\
-    \downarrow^{\mathrlap{X_p \wedge braid_{X_q, S^1}}}
-     &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    X_p \wedge S^1 \wedge X_q 
-     &&
-    Z_{p+q} \wedge S^1
-    \\
-    \downarrow^{\mathrlap{\sigma_p \wedge Y_q}} 
-      && 
-    \downarrow^{\mathrlap{\sigma_{p+q}}}
-    \\
-    X_p \wedge Y_{q+1}
-     &\stackrel{b_{p,q+1}}{\longrightarrow}&
-    Z_{p+q+1}
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-The smash product of orthogonal spectra $X \wedge Y$, def. \ref{SmashProduct}, is the [[universal construction|universal]] recipient in $OrthSpectra$ of bilinear maps, def. \ref{BilinearHomomorphisms}, out of $(X,Y)$.
-
-=--
-
-(...)
-
-* [[ring spectrum]], [[E-∞ ring]]
-
-* [[model structure for ring spectra]]
-
-* [[module spectrum]], [[∞-module]]
-
-* [[model structure on algebras over an operad]]
+* [[module spectrum]]
 
 
 ### Examples
@@ -456,8 +181,6 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 =--
 
 
-#### Nilpotent completion
-
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
 
@@ -513,8 +236,6 @@ $$
 
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
-
-#### Fracturing
 
 
 +-- {: .num_prop #SullivanArithmeticFracture}
@@ -1168,11 +889,9 @@ $\,$
 
 ### Basic
 
-For section **1) Stable homotopy theory** we follow
+For section **1) Stable homotopy theory** a good quick survey is
 
-* {#Schwede15} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2015 ([pdf](http://www.math.uni-bonn.de/people/schwede/global.pdf))
-
-(for our purposes take throughout $\mathcal{F} \coloneqq \{1\}$, on p. 4, to be the trivial collection of groups in order to specialize from [[global equivariant stable homotopy theory]] to plain [[stable homotopy theory]]).
+* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
 
 For **2) Adams spectral sequence** we follow the streamlined presentation due to 
 
@@ -1208,8 +927,6 @@ For further reading on stable homotopy theory an excellent collection is
 Useful quick survey of the modern big picture may be found in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
-
-* {#MazelGee13} [[Aaron Mazel-Gee]], _You could've invented $tmf$_, April 2013 ([pdf slides](http://math.berkeley.edu/~aaron/writing/ustars-tmf-beamer.pdf), [notes pdf](http://math.berkeley.edu/~aaron/writing/tmf-seminar-talk.pdf))
 
 Further lecture notes pointed to above include
 
