@@ -40,4 +40,12 @@ As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
 
 ## References
 
+In the incarnation as a [[symmetric spectrum]]:
+
 * {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+In the incarnation as an [[orthogonal spectrum]] (in fact as an [[equivariant spectrum]] in [[global equivariant stable homotopy theory]]):
+
+* [[Stefan Schwede]], chapter V.4 of _[[Global homotopy theory]]_, 2015
+
+
