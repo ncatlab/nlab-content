@@ -832,6 +832,7 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 [[Brown representability theorem]]
 
+* [[multiplicative cohomology theory]]
 
 #### Cobordism theory
 
