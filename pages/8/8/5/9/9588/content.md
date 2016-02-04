@@ -142,7 +142,7 @@ Not to be confused with [[C*-algebra]]-[[E-theory]].
 
 Relevant background lecture notes include
 
-* [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 and more specifically see the lectures 
 
