@@ -46,6 +46,8 @@ Note that if only one space is listed, the subspace is assumed to be the empty s
 
 The Eilenberg-Steenrod axioms are the following:
 
+> clean up
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -69,6 +71,8 @@ $ \cdots \to A^n(X, U) \to A^n(X, \emptyset) \to A^n(U, \emptyset) \xrightarrow{
 
 
 =--
+
+e.g. [AGP 02, def. 12.1.1 ](#AGP02). Similarly, but more concisely, for [[reduced cohomology]] (see there for the moment).
 
 Ordinary cohomology theories require and additional axiom, the dimension axiom $A^n(pt) = 0$.
 
@@ -117,7 +121,7 @@ Textbook accounts include
 
 * {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-* Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
 
