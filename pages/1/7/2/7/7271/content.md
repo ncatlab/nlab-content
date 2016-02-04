@@ -14,6 +14,9 @@ Frank Adams (John Frank Adams) was a British mathematician who made a great cont
 
 * [[Peter May]], _Reminiscences of the Life and Mathematics of J. Frank Adams_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/69.pdf))
 
+## Writings
+
+* _[[Stable homotopy and generalized homology]]_
 
 ## Related entries
 
