@@ -19,12 +19,12 @@
 
 ## Idea
 
-Symmetric spectra are one version of [[highly structured spectra]] that support a [[symmetric monoidal smash product of spectra]].
+Symmetric spectra are one version of [[highly structured spectra]] that support a [[symmetric monoidal smash product of spectra]]. A _symmetric spectrum_ is a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
 The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
 
-A _symmetric spectrum_ is given by a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
+The main technical issue with symmetric spectra is that the naive definition of [[homotopy groups]] for them is not general homotopy correct, one needs to replace by a "semistable symmetric spectrum" first, see [below](#HomotopyGroups). This problem goes away for [[orthogonal spectra]] (these however need to be based on [[topological spaces]] instead of [[simplicial sets]]).
 
 ## Properties
 
@@ -35,6 +35,18 @@ A _symmetric spectrum_ is given by a sequence of [[topological spaces]]/[[simpli
 
 e.g. ([Schwede 12, I.3](#Schwede12))
 
+### Homotopy groups
+ {#HomotopyGroups}
+
+The main technical issue with symmetric spectra is that the evident definition of [[homotopy groups]] of symmetric spectra $X$ as 
+
+$$
+  \pi_n(X) = \underset{\longrightarrow}{\lim}_k \pi_{k+n}(X_k)
+$$
+
+does not in general come out in the homotopy correct way, one needs to replace by a "semistable symmetric spectrum" first, which however is hard to control ([Schwede 12, chapter I, sections 2 and 6 and 8](#Schwede12)), survey includes ([Malkiewich 14, section 2.3](#Malkiewich14)).
+
+This problem goes away for [[orthogonal spectra]].
 
 ## Related concepts
 
@@ -58,6 +70,8 @@ A comprehensive textbook account is in
 
 
 Brief reviews include
+
+* {#Malkiewich14} [[Cary Malkiewich]], section 2.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
 * [[Alexander Kupers]], _Symmetric spectra_ ([pdf](http://ncatlab.org/nlab/files/SymmetricSpectra.pdf))
 
