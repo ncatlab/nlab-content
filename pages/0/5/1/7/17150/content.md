@@ -25,6 +25,8 @@ This page collects material related to
 
 on [[global equivariant stable homotopy theory]] in terms of [[orthogonal spectra]].
 
+(The reader interested only in plain [[stable homotopy theory]] takes the collection $\mathcal{F}$ of groups on p. 4 to be trivial throughout, to get just the theory of non-equivariant [[orthogonal spectra]]).
+
 See also
 
 * [[Stefan Schwede]], _[[Lectures on Equivariant Stable Homotopy Theory]]_
