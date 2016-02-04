@@ -14,11 +14,6 @@
 {:toc}
 
 
-## Idea
-
-The _sphere spectrum_ is the simplest nontrivial [[spectrum]].
-
-
 ## Definition 
 
 The **sphere spectrum** is the [[suspension spectrum]] of the point.
@@ -70,3 +65,5 @@ Specifically the 1-truncation of the sphere spectrum (the [[free construction|fr
 The 2-truncation appears for instance in section 3 of 
 
 * Norio Iwase. _L-S categories of simply-connected compact simple Lie groups of low rank_ ([arXiv:math/0202122](http://arxiv.org/abs/math/0202122))
+
+[[!redirects S]]
