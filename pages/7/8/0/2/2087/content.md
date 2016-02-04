@@ -6,26 +6,39 @@
 
 A __prime ideal theorem__ is a theorem stating that every [[proper ideal]] is contained in some [[prime ideal]].  A prime ideal theorem is typically equivalent to the [[ultrafilter principle]] (UF), a weak form of the [[axiom of choice]] (AC).
 
-We say 'a' prime ideal theorem (PIT) instead of 'the' prime ideal theorem, since we have not said what the ideals are in.  There are several examples:
+We say 'a' prime ideal theorem (PIT) instead of 'the' prime ideal theorem, since we have not said what the ideals are in. We list some representative examples of prime ideal theorems, all of which are equivalent to (UF) in ZF or even in BZ (bounded Zermelo set theory): 
 
-*  The PIT for (commutative) [[rings]] is equivalent to UF.
+*  The PIT for (commutative) [[rings]].
 
-*  The PIT for [[distributive lattices]] is equivalent to UF.
+*  The PIT for [[distributive lattices]].
 
-*  The PIT for [[Boolean algebras]] is equivalent to UF.
+*  The PIT for [[Boolean algebras]].
 
-*  The PIT for [[rigs]], which subsumes all of the above, is probably also equivalent to UF; in any case, it follows from AC. 
+*  The PIT for [[rigs]], which subsumes all of the above. In fact one can generalize quite a bit further, as we indicate below when we discuss prime element theorems. 
 
-One typically proves a prime ideal theorem with [[Zorn's Lemma]], unless one is specifically trying to use something weaker like UF, as we shall below. 
-
-That the Boolean PIT is equivalent to UF is classical and is recalled below. Thus the PIT for rings, distributive lattices, or rigs all imply UF, since Boolean algebras and the notion of prime ideal thereof can be considered special cases of each of these. 
-
-Compare the [[maximal ideal theorem]]. 
+The usual way to prove a prime ideal theorem is with the help of [[Zorn's Lemma]], unless one is specifically trying to use something weaker like UF (as we do in this article). In fact [[Zorn's lemma]] can be used to prove a [[maximal ideal theorem]], which is stronger: in all the usual examples maximal ideals are prime so that a [[prime ideal theorem]] becomes a corollary. 
 
 
-## Proofs of equivalence 
+## A ladder of prime ideal theorems 
 
-A typical way in which these proofs work uses a Compactness Theorem for first-order logic (or [[Tychonoff theorem]] for [[compact Hausdorff spaces]]) as a stepping stone. These and the Boolean algebra PIT (better known as the Boolean prime ideal theorem, or BPIT) form a circle of ideas on which these logical or model-theoretic methods depend, so we'll go into that equivalence first. 
+Prime ideal theorems may be arranged as a sequence of results and techniques that gradually increase in sophistication; we sketch one possible development here, filling in details in the remainder of the article. 
+
+A first easy (almost tautological) result is the equivalence between the Boolean PIT (or BPIT) and UF. While this is easy, the BPIT is a theoretical underpinning of fundamental techniques such as the [[compactness theorem]] for [[first-order logic]], which leads to the next rung on the ladder. 
+
+The next step derives the PIT for distributive lattices as a simple application of the compactness theorem and other model-theoretic techniques. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets. 
+
+With the PIT for distributive lattices in hand, we prove a key result due to Banaschewski, which may be summarized roughly as saying that a (nontrivial) compact frame admits a prime element. This is an early result in [[Stone Spaces]], related to the spatiality of compact regular locales. 
+
+This last result is a key of entry into prime ideal theorems of quite general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call it "GPIT"). 
+
+As suggested earlier, any one of these prime ideal theorems implies the BPIT as a special case, and so we come full circle: 
+
+$$UF \Rightarrow BPIT \Rightarrow PIT(DistLat) \Rightarrow GPIT \Rightarrow BPIT \Rightarrow UF.$$ 
+
+Offshoots of this development include stronger forms of a PIT in which a prime ideal is produced that does not intersect a given multiplicatively closed subset $\mathfrak{m}$. However, these can often be reduced to an ordinary PIT, by first localizing or inverting the elements in $\mathfrak{m}$, and then applying a PIT to the localization. 
+
+We now turn to details. 
+
 
 ### Boolean PIT and the ultrafilter principle 
 
