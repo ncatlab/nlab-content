@@ -45,10 +45,12 @@ Textbook accounts include
 
 Lecture notes include
 
-* Tom Weston, _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
+* [[Tom Weston]], _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
 
 * {#Francis3} [[John Francis]], _Topology of manifolds_ course notes (2010) ([web](http://math.northwestern.edu/~jnkf/classes/mflds/)), Lecture 2 _Cobordisms_ (notes by [[Owen Gwilliam]]) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf)), Lecture 3 _Thom's theorem_ (notes by A. Smith) ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/3thom.pdf))
-  
+ 
+* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+ 
 * {#Ebert12} [[Johannes Ebert]], _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
 This one here includes the connection to the [[(infinity,n)-category of cobordisms]]
