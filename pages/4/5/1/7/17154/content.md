@@ -1,0 +1,22 @@
+
+This page collects links related to
+
+* [[Mike Hopkins]],
+
+  _Complex oriented cohomology theories and the language of stacks _
+
+  1999
+
+  ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+
+on [[complex oriented cohomology]], the [[Adams spectral sequence]], indicating the modern picture of [[E-infinity geometry]] over the "[[derived stacks]]" formally dual to [[S]] and [[MU]].
+
+A predecessor is
+
+* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
+Much of this is later discussed more comprehensively in the lectures
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+
+category: reference
