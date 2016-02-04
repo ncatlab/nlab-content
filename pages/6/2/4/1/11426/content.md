@@ -21,14 +21,13 @@
 
 ## Idea
 
-The universal [[Thom spectrum]] of the [[orthogonal group]], the [[homotopy colimit]] of the [[J-homomorphism]] in [[Spectra]]:
+The universal [[Thom spectrum]] of the [[orthogonal group]]. (...) Abstractly, this is the [[homotopy colimit]] of the [[J-homomorphism]] in [[Spectra]]:
 
 $$
   MO = \underset{\rightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
 $$
 
 
-As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
 
 ## Related concepts
 
@@ -39,6 +38,9 @@ As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
 * [[KO]]
 
 ## References
+
+* {#Malkiewich11} [[Cary Malkiewich]], section 2 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+
 
 In the incarnation as a [[symmetric spectrum]]:
 
