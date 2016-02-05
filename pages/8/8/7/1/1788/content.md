@@ -2,10 +2,4 @@
 
 Sand.
 
-[[IsaksenANSSE2p.jpg:file]]
-
-[[IsaksenANSSEinfinityp.jpg:file]]
-
-<img src="http://ncatlab.org/nlab/files/IsaksenANSSE2p.jpg" />
-
-<img src="http://ncatlab.org/nlab/files/IsaksenANSSEinfinityp.jpg" />
+[[KeplerPlatonic.jpg:file]]
