@@ -4,7 +4,7 @@
 
 ## related $n$Lab entries
 
-* [[Platonic solid]]
+* [[Platonic solid]], [[The Music of the Spheres]]
 
 category: people
 
