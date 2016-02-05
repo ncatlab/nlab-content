@@ -2352,14 +2352,14 @@ $\,$
 $\,$
 
 ## References
+ {#References}
 
 ### Basic
 
-For section **1) Stable homotopy theory** we follow
+For section **1) Stable homotopy theory** we follow ([Adams 74, part III sections 2-7](#Adams74)) and
 
-* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
+* {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
-see also ([Adams 74, part III sections 2-7](#Adams74)).
 
 For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
