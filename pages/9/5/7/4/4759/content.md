@@ -151,6 +151,11 @@ A brief introduction is in chapter 23, section 7
 
 * [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
+For generalized Chern classes in [[complex oriented cohomology theory]]
+
+* [[Frank Adams]], Part II.2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 
 
 [[!redirects Chern classes]]
