@@ -21,10 +21,22 @@ This entry collected pointers related to the book
 
   _Complex cobordism and stable homotopy groups of spheres_
 
+  1986/2003
+
   ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
 
 on [[stable homotopy theory]] in general and in particular the computation of the [[homotopy groups of spheres]] via the [[Adams-Novikov spectral sequence]] and its use of [[complex cobordism cohomology theory]].
 
+> My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. (preface to the first edition)
+
+See also
+
+* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
+
+* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+ 
 #Contents#
 * table of contents
 {:toc}
