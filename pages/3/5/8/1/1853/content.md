@@ -311,6 +311,9 @@ For the case that of [[?ech cohomology|?ech]] [[hypercohomology]] with coefficie
 
 ## References 
 
+* {#Adams74} [[Frank Adams]], part III, sections 2 and 3 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 * {#May} [[Peter May]], 18.3 and 22.3 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
 The cup product in &#268;ech cohomology is discussed for instance in section 1.3 of
