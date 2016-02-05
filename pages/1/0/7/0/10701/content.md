@@ -35,6 +35,11 @@ Via the chromatic stratification of the [[moduli stack of formal groups]] one re
 
 * [[Jacob Lurie]], _[[A Survey of Elliptic Cohomology]]_.
 
+See also
+
+* [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986/2003
+
+
 **Lectures**
 
 * Lecture 1 _Introduction_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture1.pdf))
