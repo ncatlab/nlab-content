@@ -27,6 +27,10 @@ This page collects links related to the lecture notes
 
 on [[complex oriented cohomology]], the [[Adams spectral sequence]] and [[chromatic homotopy theory]] from the modern point of view of [[E-infinity geometry]].
 
+Based on
+
+* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
 First indications of the big picture developed here are due to
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
@@ -54,7 +58,7 @@ See also
 
 * Lecture 6 _[[MU and complex orientations]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
-* Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+* Lecture 7 _[[homology of MU|The homology of MU]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
 * Lecture 8 _The [[Adams spectral sequence]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture8.pdf))
 
