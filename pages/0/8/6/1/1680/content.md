@@ -108,6 +108,8 @@ is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] 
 
 ## References
 
+* {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
 Lecture notes include
 
 * {#May} [[Peter May]], chapter 22 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
