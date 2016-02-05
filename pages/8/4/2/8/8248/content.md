@@ -153,6 +153,10 @@ in which $\beta$ is the _mod-$p$ Bockstein_ homomorphism.
 An early paper is:
 
 *  [[W. S. Massey]], _[Exact Couples in Algebraic Topology (Parts I and II)](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf), Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 
+
+See
+
+* [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
  
 A standard textbook account is section 5.9 of
 
