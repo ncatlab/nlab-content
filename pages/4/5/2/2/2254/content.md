@@ -146,6 +146,8 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ### 1-Dimensional formal groups 
 
+* [[Frank Adams]], Part II.1 of _[[Stable homotopy and generalised homology]]_, 1974
+
 A basic introduction is in
 
 * Carl Erickson, _One-dimensional formal groups_ ([pdf](http://people.brandeis.edu/~cwe/pdfs/formal_groups.pdf))
