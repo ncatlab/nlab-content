@@ -437,16 +437,19 @@ ring of functions on $X$, but the two are closely related. See for instance ([Pa
 
 ## References 
 
+* {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
 Introductions are in
 
-* [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
- {#Hatcher}
+* {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_ ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+ 
 
-* [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
- {#Friedlander}
+* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+ 
 
-* [[Max Karoubi]], _K-theory: an introduction_ 
- {#Karoubi}
+* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_ 
+ 
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
@@ -457,8 +460,8 @@ A textbook account of topological K-theory with an eye towards [[operator K-theo
 
 A discussion of the topological K-theory of [[classifying space]]s of [[Lie group]]s is in 
 
-* Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
- {#JackowskiOliver}
+* {#JackowskiOliver} Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
+ 
 
 The [[comparison map between algebraic and topological K-theory]] is discussed for instance in
 
