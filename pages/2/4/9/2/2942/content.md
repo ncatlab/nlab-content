@@ -8,3 +8,11 @@ This can be stated in more elementary terms in any of the following equivalent w
 In [[constructive mathematics|constructive]] algebra, this is too strong; we must say:
 
 *  For each two-sided ideal $I$, $I$ is the zero ideal if and only if $I$ is proper (not equal to $R$).
+
+## Examples 
+
+* A [[field]], or a [[division ring]], is simple. 
+
+* If $D$ is a division ring, then the ring of $n \times n$ [[matrices]] $M_n(D)$ with entries in $D$ is a simple ring. 
+
+* The [[Weyl algebra]] $k[x, y]/(x y - y x - 1)$ over a field $k$ is a simple ring. 
