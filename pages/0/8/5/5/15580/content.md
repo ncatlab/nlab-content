@@ -89,6 +89,8 @@ This means that given an abelian group $A$ then
 
 ## References
 
+* [[Frank Adams]], Part III.6 of _[[Stable homotopy and generalised homology]]_, 1974
+
 Lecture notes include 
 
 * {#Strickland} [[Neil Strickland]], p. 9 of _An introduction to the category of spectra_ ([pdf](https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
