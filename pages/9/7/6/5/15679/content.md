@@ -76,4 +76,6 @@ Reviews include
 
 * {#Flach} [[Matthias Flach]], _The equivariant Tamagawa Number Conjecture: A survey_ ([pdf](http://www.math.caltech.edu/papers/baltimore-final.pdf))
 
+* [[Bruno Kahn]], _Fonctions z&#234;ta et $L$ de vari&#233;t&#233;s et de motifs_, [arXiv:1512.09250](http://arxiv.org/abs/1512.09250v1).
+
 [[!redirects special value of an L-function]]
