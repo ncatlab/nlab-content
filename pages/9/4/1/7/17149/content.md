@@ -1,4 +1,17 @@
-[[!redirects Stable homotopy and generalized homology]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 This page collects links related to
 
@@ -108,6 +121,7 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 
 ## Part III
+ {#PartIII}
 
 ### 1. Introduction
 
@@ -201,3 +215,5 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 ### 17. Structure of $\pi_\bullet(bu \wedge bu)$
 
 category: reference
+
+[[!redirects Stable homotopy and generalized homology]]
