@@ -1,3 +1,4 @@
+[[!redirects Frank Adams]]
 
 Frank Adams (John Frank Adams) was a British mathematician who made a great contribution to [[algebraic topology]] and in particular [[stable homotopy theory]].
 
