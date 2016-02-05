@@ -1,0 +1,17 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+For $S$ any [[spectrum]] and $H A$ an Eilenberg-MacLane spectrum,
+then the [[smash product]] $S\wedge H A$ (the $A$-[[ordinary homology]] spectrum)
+is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] of EM-spectra in the finite case).
+
+([Adams 74, lemma 61](#Adams74))
+
+
+## References
+
+* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
