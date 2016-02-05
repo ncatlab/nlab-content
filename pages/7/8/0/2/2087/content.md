@@ -27,11 +27,11 @@ Prime ideal theorems may be arranged as a sequence of results and techniques tha
 
 A first easy wave of results concerns the equivalence between the Boolean PIT (or BPIT) and UF. While these are easy, the BPIT is a theoretical underpinning of fundamental techniques such as the [[compactness theorem]] for [[first-order logic]], which leads to the next rung on the ladder. 
 
-The next step derives the PIT for distributive lattices as a simple application of the compactness theorem. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets. 
+The next step derives the PIT for distributive lattices as a simple application of the compactness theorem. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets to get the job done. 
 
 With the PIT for distributive lattices in hand, we prove a key result due to Banaschewski, which may be summarized roughly as saying that a (nontrivial) compact frame admits a prime element. This is an early result in [[Stone Spaces]], related to the spatiality of compact regular locales. 
 
-This last result is a key of entry into prime ideal theorems of general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call them collectively "GPIT"). 
+Banaschewski's lemma is a key of entry into prime ideal theorems of general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call them collectively "GPIT"). 
 
 As suggested earlier, any one of these prime ideal theorems implies the BPIT as a special case, and so we come full circle: 
 
@@ -126,7 +126,7 @@ Finally, in a quantale $Q$, we say an element $p \in Q$ is *prime* if for all $a
 (ZF + UF) Every nontrivial compact affine quantale has a prime element. 
 =-- 
 
-The strategy is to reduce the claim to an application of Banaschewski's lemma. 
+The strategy (following [Paseka](#Pas)) is to reduce the claim to an application of Banaschewski's lemma. 
 
 We begin by introducing an equivalence relation on $Q$: say $a \equiv b$ if $(\forall_c)\; 1 = a \vee c \Leftrightarrow 1 = b \vee c$. 
 
@@ -265,3 +265,6 @@ Take $T$ to be the theory of commutative monoids, and apply Theorem \ref{gpit}.
 
 * Bernhard Banaschewski, _Prime Elements from Prime Ideals_, Order 2 (1985), 211-213. ([Springer link](http://link.springer.com/article/10.1007%2FBF00334858))
  {#Ban} 
+
+* Jan Paseka, _A note on the prime ideal theorem_, Acta Universitatis Carolinae, Mathematica et Physica, Vol. 30 (1989), No. 2, 131-136. ([pdf](http://dml.cz/bitstream/handle/10338.dmlcz/701805/ActaCarolinae_030-1989-2_20.pdf)) 
+ {#Pas} 
