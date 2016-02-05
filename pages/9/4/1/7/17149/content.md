@@ -19,7 +19,7 @@ The big story emerging here was later further developed in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
-This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it with Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
+This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it by Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
 
 #Contents#
 * table of contents
