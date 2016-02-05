@@ -44,6 +44,8 @@ The sphere spectrum is naturally an [[E-∞ ring]] and in fact is the [[initial 
 
 * [[superalgebra]]
 
+* [[The Music of the Spheres]]
+
 ## References
 
 Lecture notes include
