@@ -1,5 +1,11 @@
+[[!redirects pseudo-Banach ring]]
 [[!redirects Pseudo-Banach ring]]
 [[!redirects pseudo-Banach rings]]
+[[!redirects proxi-Banach ring]]
+[[!redirects proxi-Banach rings]]
+[[!redirects proxi-normed ring]]
+[[!redirects proxi-normed rings]]
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -18,8 +24,9 @@
 
 ## Idea and motivations
 
-The notion of pseudo-Banach ring is a generalization of the notion of [[Banach ring]], essentially obtained by replacing the usual triangular inequality $|a+b|\leq |a|+|b|$ by the more natural (in a categorical sense) weak triangular inequality
-$|a+b|\leq C\cdot\max(|a|,|b|)$.
+The notion of proxi-Banach ring is a generalization of the notion of [[Banach ring]], essentially obtained by replacing the usual triangular inequality $|a+b|\leq |a|+|b|$ that appears in the theory of [[metric spaces]] by the more natural (in a categorical sense) weak triangular inequality
+$|a+b|\leq C\cdot\max(|a|,|b|)$
+that appears in the theory of [[proxi-metric spaces]].
 
 Their use allows the definition of an $\mathbb{R}_+^*$-action on various categories of [[global analytic spaces]].
 
