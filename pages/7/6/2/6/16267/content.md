@@ -17,6 +17,8 @@
 
 * [[Timaeus dialogue]]
 
+* [[Republic dialogue]]
+
 * [[doctrine of ideas]]
 
 ## References
