@@ -75,7 +75,7 @@ The original proof is due to
  
 According to ([Hopkins 99, section 4](#Hopkins99)), the best reference as of turn of the millenium is still
 
-* {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
+* {#Adams74} [[Frank Adams]], part II.8 of _[[Stable homotopy theory and generalised homology]]_, Chicago lectures in mathematics, 1974
 
 Further reviews and lecture notes include
 
