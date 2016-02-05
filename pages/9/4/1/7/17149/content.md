@@ -1,7 +1,8 @@
 [[!redirects Stable homotopy and generalized homology]]
 
+This page collects links related to
 
-* [[Frank Adams]], 
+* [[John Frank Adams]], 
 
   _Stable homotopy and generalized homology_, 
 
@@ -10,11 +11,13 @@
 
 on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]].
 
-The big story developing here was later further developed in
+The big story emerging here was later further developed in
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
+
+This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it with Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
 
 ## Part I
 
