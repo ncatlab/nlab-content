@@ -43,6 +43,8 @@ In the _[[Science of Logic]]_ [[Hegel]] picks up this concept of  _[Something an
 
 * [[Parmenides dialogue]]
 
+* [[Republic dialogue]]
+
 ## Reference
 
 * Stanford Encyclopedia of Philosophy, _[Plato's Timaeus](http://plato.stanford.edu/entries/plato-timaeus/)_
