@@ -84,18 +84,25 @@ With the [[universal coefficient theorem]] a corresponding statement follows for
 
 ## References
 
-This appears for instance as theorem 4.32 in 
+
+The basic statement is for instance in
 
 * [[Allen Hatcher]], _Algebraic Topology_ ([web](http://www.math.cornell.edu/~hatcher/AT/ATpage.html))
 
 Lecture notes include
 
-* * [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
- {#Hutchings}
-
+* {#Hutchings} [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
 
 See also
 
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
+
+
+In the generality of [[stable homotopy theory]], [[generalized homology theory]]:
+
+* [[Frank Adams]], Part II.6 of _[[Stable homotopy and generalised homology]]_, 1974
+
+
+
 
 [[!redirects Hurewicz homomorphism]]
