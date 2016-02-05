@@ -32,6 +32,7 @@ In great generality, a _homotopy limit_ is a way of constructing appropriate sor
 
 In classical homotopy theory, the presentation is given by a [[category with weak equivalences]], possibly satisfying extra axioms such as those of a [[homotopical category]], a [[category of fibrant objects]], or a [[model category]].  Such structures are considered to present an [[(∞,1)-category]], and homotopy limits give a way of constructing the appropriate sort of [[limit in a quasi-category|(∞,1)-categorical limits]].
 
+
 In [[enriched homotopy theory]], the presentation is given by an [[enriched model category]] or an [[enriched homotopical category]], and it may presents an "enriched $(\infty,1)$-category" or be a more powerful presentation of a bare $(\infty,1)$-category (notably if the enrichment is over [[sSet]]).  In the [[enriched category theory]] context the appropriate notion is a [[weighted limit|weighted]] homotopy limit, which may construct "weighted $(\infty,1)$-limits" in the presented "enriched $(\infty,1)$-category" or may be a more powerful tool for constructing plain $(\infty,1)$-categorical limits (in particular if the enrichment is over [[sSet]]).  Note that as yet, no fully general notion of "enriched $(\infty,1)$-category" exists; see [[homotopical enrichment]].
 
 Maybe the most commonly encountered setup for homotopy limits is that where the [[(∞,1)-category]] in question is [[presentable (∞,1)-category|presented]] by a [[simplicial model category]]. See also [[homotopy Kan extension]], of which (globally defined) homotopy (co)limits are a special case.
@@ -1038,6 +1039,11 @@ The classical references are
 and 
 
 *  [[R. M. Vogt]], _Homotopy limits and colimits_, Math. Z., 134 (1973) 11-52.
+
+See
+
+* {#Adams74} [[Frank Adams]], part III, section 8 of _[[Stable homotopy and generalised homology]]_, 1974
+
 
 More recently one has:
 
