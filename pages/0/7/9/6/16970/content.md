@@ -190,3 +190,6 @@ a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e
 
 
 [[!redirects equivariant homotopy groups]]
+
+[[!redirects equivariant stable homotopy group]]
+[[!redirects equivariant stable homotopy groups]]
