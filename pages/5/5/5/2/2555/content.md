@@ -70,6 +70,8 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
 * [[path space object]]
 
+* [[cylinder spectrum]]
+
 [[!redirects cylinder objects]]
 [[!redirects cylinder]]
 [[!redirects cylinders]]
