@@ -29,7 +29,7 @@ A first easy wave of results concerns the equivalence between the Boolean PIT (o
 
 The next step derives the PIT for distributive lattices as a simple application of the compactness theorem. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets to get the job done. 
 
-With the PIT for distributive lattices in hand, we prove a key result due to Banaschewski, which may be summarized roughly as saying that a (nontrivial) compact frame admits a prime element. This is an early result in [[Stone Spaces]], related to the spatiality of compact regular locales. 
+With the PIT for distributive lattices in hand, we prove a key result due to Banaschewski, which may be summarized roughly as saying that a (nontrivial) compact [[frame]] admits a prime element. This is an early result in [[Stone Spaces]], related to the spatiality of compact regular [[locales]]. 
 
 Banaschewski's lemma is a key of entry into prime ideal theorems of general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call them collectively "GPIT"). 
 
