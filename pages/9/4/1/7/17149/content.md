@@ -146,18 +146,58 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Spanier-Whitehead duality]]
 
-* [[Spanier-Whitehead duality]]
+### 6. Homology and cohomology
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
+* [[Brown's representability theorem]]
+
+* [[stable cohomotopy]]
+
+* [[stable homotopy groups of spheres]]
+
+* [[topological K-theory]]
+
+### 7. The Atiyah-Hirzebruch spectral sequence
+
+* [[exact couple]]
+
+* [[spectral sequence]]
+
 * [[Atiyah-Hirzebruch spectral sequence]]
+
+### 8. The inverse limit and its derived functors
 
 * [[derived functor]], [[homotopy limit]]
 
+### 9. Products
+
+* [[cup product]]
+
+### 10. Duality in manifolds
+
+* [[ring spectrum]], [[module spectrum]]
+
+### 11. Applications in K-theory
+
+### 12. The Steenrod algebra and its dual
+
 * [[Steenrod algebra]]
+
+### 13. A universal coefficient theorem
 
 * [[universal coefficient theorem]]
 
+### 14. A category of fractions
+
+* [[category of fractions]]
+
+### 15. The Adams spectral sequence
+
 * [[Adams spectral sequence]]
+
+### 16. Applications to $\pi_\bullet(bu \wedge X)$; modules over $K[x,y]$
+
+### 17. Structure of $\pi_\bullet(bu \wedge bu)$
 
 category: reference
