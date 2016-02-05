@@ -215,6 +215,10 @@ Under the identifications of prop. \ref{DoldKan} and prop. \ref{SectionsOfTrivia
 
 See also at _[[Dold-Thom theorem]]_.
 
+### Ordinary homology spectra split
+
+see at _[[ordinary homology spectra split]]_
+
 ## Related concepts
 
 * [[Dold-Thom theorem]]
