@@ -72,11 +72,28 @@ which is all we need (the opposite inequality is automatic since $a \cdot a \leq
 Finally, if $A$ is a frame and $Q$ is a commutative affine quantale, it is clear that a quantale map $f \colon A \to Q$ takes elements in $A$ (which are idempotent under meet) to idempotents in $Q$. Hence $f$ factors uniquely through $Idem(Q) \hookrightarrow Q$, and the map $A \to Idem(Q)$ is a frame map. This shows that $Idem$ is the right adjoint as claimed. 
 =-- 
 
-In fact, we may also observe that the forgetful functor from commutative affine quantales to commutative quantales also has a right adjoint, just be passing from a commutative quantale to the principal downset given by the quantale unit. (However, the forgetful functor from commutative quantales to quantales does _not_ have a right adjoint.)   
+In fact, we may also observe that the forgetful functor from commutative affine quantales to commutative quantales also has a right adjoint, just be passing from a commutative quantale to the principal downset given by the quantale unit. (However, the forgetful functor from commutative quantales to quantales does _not_ have a right adjoint.) 
+
+On very general grounds, the forgetful functor from the category of frames to the category of quantales has a left adjoint (see [here](/nlab/show/colimits+in+categories+of+algebras#relatively_free_functors)). This forgetful functor is full and faithful, and as a result the unit of the adjunction is a regular epi described by a suitable quantale congruence; see the next section. 
+
+## Quantale congruences and nuclei 
+
+A *quantale congruence* is simply an [[equivalence relation]] $\equiv \hookrightarrow Q \times Q$ on a quantale $Q$ that respects the quantale multiplication and the taking of sups: if $a \equiv b$ and $x \equiv y$, then $a x \equiv b y$, and if $x_i \equiv y_i$ for all $i \in I$, then $\bigvee_{i \in I} x_i \equiv \bigvee_{i \in I} y_i$. 
+
+Consequently, $Q/\equiv$ defines a quantale $\tilde{Q}$ with operations inherited along a quantale quotient map $q: Q \to \tilde{Q}$. Since $q$ preserves arbitrary sups, it has a right adjoint $r: \tilde{Q} \to Q$ by the [[adjoint functor theorem]] applied to posets. Thus we have a [[monad]] or [[closure operator]] $r q: Q \to Q$, and the algebras/fixpoints of the monad/closure operator are identified with the elements of $\tilde{Q}$, i.e., $r: \tilde{Q} \to Q$ is isomorphic to the inclusion $Fix(r q) \hookrightarrow Q$. 
+
+The monad $r q$ is a quantale nucleus in the sense of the following definition: 
+
++-- {: .num_defn} 
+###### Definition 
+A function $j: Q \to Q$ on a quantale $Q$ is a *nucleus* if it is a [[monad]] ($x \leq y$ implies $j(x) \leq j(y)$, $x \leq j(x)$, $j j(x) = j(x)$ for all $x, y \in Q$) and is [[monoidal functor|lax monoidal]]: $1 \leq j(1)$ and $j(x) \cdot j(y) \leq j(x \cdot y)$ for all $x, y \in Q$. 
+=-- 
+
+There is a natural bijective correspondence between congruences on a quantale $Q$ and nuclei on $Q$. 
 
 ## Enrichment over quantales
 
-A different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
+Aside from being "noncommutative frames", a different way of thinking about quantales views them as a [[(0,1)-category|(0,1)-categorical]] analogue of a [[cosmos]] (in the sense of Benabou).  In particular, one can then study [[enriched categories]] over a quantale. A classic example is Lawvere [[metric space]]s, seen as categories enriched in the quantale $([0, \infty], \geq)$ with $+$ taken as tensor product. 
 
 Enrichment is often particularly interesting for $*$-quantales (see below), where one can study $*$-enriched categories. 
 
