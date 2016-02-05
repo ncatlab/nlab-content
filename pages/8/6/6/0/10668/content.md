@@ -88,3 +88,5 @@ See also the overview
 
 [[!redirects E-∞ arithmetic geometry]]
 [[!redirects E-infinity arithmetic geometry]]
+
+[[!redirects E? geometry]]
