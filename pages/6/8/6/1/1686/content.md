@@ -224,6 +224,7 @@ A [[spectral sequence]] $\{E^r_{p,q}\}$ is called
 
 Such spectral sequences are bounded, def. \ref{BoundedSpectralSequence}.
 
+
 =--
 
 +-- {: .num_prop #BoundedSpectralSequenceHasLimitTerm}
@@ -718,6 +719,8 @@ Cohomological spectral sequences are compatible with [[cup product]] structure o
 
 
 ## References
+
+* [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
 
 
 ### Abelian/stable theory
