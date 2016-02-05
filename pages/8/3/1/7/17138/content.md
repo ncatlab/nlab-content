@@ -132,6 +132,10 @@ We follow ([Malkiewich 14](#Malkiewich14)).
 
 * [[stable homotopy category]]
 
+### Atiyah-Hirzebruch spectral sequence
+
+* [[Atiyah-Hirzebruch spectral sequence]]
+
 ### Ring spectra
  {#RingSpectra}
 
@@ -854,11 +858,13 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 * [[ordinary cohomology]], [[topological K-theory]]
 
-(-from here on we need the basics of [Part 1), Spectra](#Spectra)-)
+(-- from here on we need the basics of [Part 1), Spectra](#Spectra) --)
 
 [[Brown representability theorem]]
 
 * [[multiplicative cohomology theory]]
+
+[[Atiyah-Hirzebruch spectral sequence]]
 
 #### Cobordism theory
 
@@ -892,7 +898,7 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 #### Complex orientation
 
-(-from here on we need the basics of [Part 1), Ring spectra](#RingSpectra)-)
+(-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
 
 * [[complex oriented cohomology theory]]
 
@@ -907,7 +913,7 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 * [[Landweber exact functor theorem]]
 
-(-from here on we need basics from [Part 1), Examples](#Examples)-)
+(-- from here on we need basics from [Part 1), Examples](#Examples) --)
 
 * [[complex cobordism cohomology]]
 
@@ -923,7 +929,7 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 #### Geometry of $Spec(MU)$
 
-(-from here on we need basics of [Part 1), Localization](#Localization)-)
+(-- from here on we need basics of [Part 1), Localization](#Localization) --)
 
 * [[moduli space of formal groups]]
 
