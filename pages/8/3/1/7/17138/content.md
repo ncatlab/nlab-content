@@ -866,17 +866,21 @@ For instance ([Malkiewich 11](#Malkiewich11)).
 
 [[cobordism theory]]
 
-* [[Pontrjagin-Thom collapse map]]
+[[Pontrjagin-Thom collapse map]]
+
+* [[Thom class]]
 
 * [[Thom isomorphism]]
 
-* [[Thom space]], [[Thom spectrum]], [[MO]]
+* [[Thom spectrum]], [[MO]]
+
+  * [[Thom space]]
 
 * [[cobordism]], [[cobordism ring]]
 
-* [[cobordism cohomology theory]]
+[[Thom's theorem]]
 
-* [[Thom's theorem]]
+* [[cobordism cohomology theory]]
 
 
 ### **Part S2) Complex oriented cohomology**
@@ -905,13 +909,16 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 (-from here on we need basics from [Part 1), Examples](#Examples)-)
 
-* [[complex cobordism cohomology]] 
+* [[complex cobordism cohomology]]
 
   * [[MU]]
 
+* [[universal complex orientation on MU]]
+
+* [[homology of MU]]
+
 * [[Quillen's theorem on MU]]
 
-* [[universal complex orientation on MU]]
 
 
 #### Geometry of $Spec(MU)$
