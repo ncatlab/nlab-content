@@ -72,6 +72,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[ordinary homology spectra split]]
 
+* [[homology of MU]]
+
 ### 7. The structure of Lazard's universal ring $L$
 
 * [[Lazard's theorem]]
@@ -107,9 +109,42 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 ## Part III
 
+### 1. Introduction
+
+* [[smash product]] (of [[pointed topological spaces]])
+
+### 2. Spectra
+
 * [[spectrum]]
 
+* [[Omega spectrum]]
+
+* [[Eilenberg-MacLane spectrum]]
+
+* [[topological K-theory]]
+
+* [[suspension spectrum]]
+
+* [[Thom spectrum]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[stable homotopy category]]
+
+* [[cup product]]
+
+* [[CW-spectrum]]
+
+
+### 3. Elementary properties of the category of CW-spectra
+
+### 4. Smash products
+
 * [[smash product of spectra]]
+
+### 5. Spanier-Whitehead duality
+
+* [[Spanier-Whitehead duality]]
 
 * [[Spanier-Whitehead duality]]
 
