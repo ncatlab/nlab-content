@@ -44,3 +44,6 @@ See at _[Adams spectral sequence -- As derived descent](Adams%20spectral%20seque
 * [[moduli stack of formal groups]]
 
 * [[chromatic homotopy theory]]
+
+* [[The Music of the Spheres]]
+
