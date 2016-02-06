@@ -116,13 +116,11 @@ We follow ([Malkiewich 14](#Malkiewich14)), see also ([Adams 74, part III sectio
 ### Spectra
  {#Spectra}
 
-* [[pointed object]]
+* [[pointed object]], [[pointed topological space]]
 
   [[smash product]]
 
   [[suspension]], [[loop space object]]
-  
-  [[pointed topological space]]
 
 * [[spectrum]]
 
