@@ -39,7 +39,7 @@ Together with its [[adjoint functor|adjoint]] -- [[geometric realization]] $|-| 
 
 ### Relation to ordinary (co)homology
 
-Forming from the singular simplicial complex $Sing(X)$ first the free [[simplicial abelian group]] $\mathbb{Z}[Sing(X)]$ and then under the [[Dold-Kan correspondence]] the correspondin [[normalized chain complex]] yields this [[chain complex]] which computes the [[singular homology]] of $X$. 
+Forming from the singular simplicial complex $Sing(X)$ first the free [[simplicial abelian group]] $\mathbb{Z}[Sing(X)]$ and then under the [[Dold-Kan correspondence]] the corresponding [[normalized chain complex]] yields the [[chain complex]] of (normalized!) singular chains, which computes the [[singular homology]] of $X$. 
 
 ## Related concepts
 
