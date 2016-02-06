@@ -183,7 +183,7 @@ $$
   \,.
 $$
 
-If $F$ is left exact then it preserves this excact sequence by definition of left exactness, and hence 
+If $F$ is left exact then it preserves this exact sequence by definition of left exactness, and hence 
 
 $$
   0 \to F(X) \hookrightarrow F(X^0) \to F(X^1) \to \cdots
