@@ -71,7 +71,7 @@ The [[full sub-2-category]] $Prof_{rep}$ on representable profunctors is equival
 
 ### In terms of colimit-preserving functors on presheaf categories {#FuncsOnPresheaves}
 
-A basic fact (e.g. Kashiwara, Schapira, [[Categories and Sheaves]], corollary 2.7.4, page 63) is that for $A$ a [[cocomplete category]], [[cocontinuous functor|colimit-preserving functors]] from [[presheaf|presheaves]] on some category $C$ to $A$ are canonically equivalent to functors from $C$ to $A$: we have an equivalence of [[functor category|functor categories]]
+A basic fact (e.g. Kashiwara, Schapira, [[Categories and Sheaves]], corollary 2.7.4, page 63) is that for $A$ a [[cocomplete category]], [[cocontinuous functor|colimit-preserving functors]] from [[presheaf|presheaves]] on some small category $C$ to $A$ are canonically equivalent to functors from $C$ to $A$: we have an equivalence of [[functor category|functor categories]]
 
 $$
  Cocont(PSh(C),A)
