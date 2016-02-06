@@ -24,7 +24,9 @@ Equivalently, an ideal $M \subseteq R$ is maximal if the [[quotient]] ring $R/M$
 
 ### Relation to points in the spectrum
 
-Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on $Spec(R)$.
+Maximal ideals in the [[spectrum of a commutative ring]] $Spec(R)$ correspond precisely to the [[closed subset|closed]] points in the [[Zariski topology]] on $Spec(R)$. 
+
+Closed points are at the heart of the definition of [[scheme]]. A scheme $X$ is a sheaf with respect to the [[Zariski topology]] that admits an covering by open embeddings of affine schemes, where "covering" means that every *closed* point $p: Spec(F) \to X$ ($F$ a *field*) factors through one of the embeddings. 
 
 ## Related concepts
 
