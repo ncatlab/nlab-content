@@ -411,7 +411,7 @@ $$
   \,.
 $$
 
-For $A$ a $\mathfrak{g}$-valued form, and $\langle - \rangle \in inv(\mathgfrak{g})$, the ordinary closed $n$-form
+For $A$ a $\mathfrak{g}$-valued form, and $\langle - \rangle \in inv(\mathfrak{g})$, the ordinary closed $n$-form
 
 $$
   \Omega^\bullet(X)
