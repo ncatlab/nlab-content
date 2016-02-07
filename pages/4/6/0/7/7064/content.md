@@ -37,10 +37,10 @@ $$
 For fixed $k$, the [[colimit]] over $n$ with respect to the [[suspension]] homomorphism
 
 $$
-  \pi_{n+k}(S^n) \longrigghtarrow \pi_{n+k+1}(S^{n+1})
+  \pi_{n+k}(S^n) \longrightarrow \pi_{n+k+1}(S^{n+1})
 $$
 
-over all $\pi_[n+k}(S^n)$ (called the $k$-[[stem]]) is called the _stable_ homotopy groups of spheres (also: the "stabel $k$-[[stem]]")
+over all $\pi_[n+k}(S^n)$ (called the $k$-[[stem]]) is called the _stable_ homotopy groups of spheres (also: the "stable $k$-[[stem]]")
 
 $$
   \pi_k^S = \coloneqq \underset{\longrightarrow}{\lim}_n \pi_{n+k}(S^n)  
@@ -49,7 +49,7 @@ $$
 
 In fact, by the [[Freudenthal suspension theorem]], the value of the $\pi_{n+k}(S^n)$ stabilizes for $n \gt k+1$ (depend only on $k$ in this range), whence the name.
 
-The stable homotopy groups of spgere are equivalently the homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
+The stable homotopy groups of sphere are equivalently the homotopy groups of the [[sphere spectrum]] $\mathbb{S}$
 
 $$
   \pi_k^S = \pi_k(\mathbb{S})
