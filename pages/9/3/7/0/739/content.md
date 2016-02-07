@@ -125,6 +125,8 @@ If $G$ is a profinite or pro-p group, the best replacement for the group algebra
 
 * [[pro-etale site]]
 
+* [[compact Hausdorff rings are profinite]] 
+
 ## References
 
 Introductory lectures include
