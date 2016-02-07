@@ -196,6 +196,20 @@ A model category in which all objects are fibrant is right proper.
 
 See in the list of [Examples](#Examples) below for concrete examples.
 
+Note that the above proposition applies only (in the right proper case, for concreteness) to pullbacks of fibrations along weak equivalences in which *all three* objects are fibrant, since a fibration with fibrant codomain also has fibrant domain.  The definition of right proper, on the other hand, states this property in the case when *none* of the objects are assumed to be fibrant.
+
+One might consider as an "in-between" assumption the situation when only the common codomain of the fibration and the weak equivalence (hence also the domain of the fibration) are fibrant; but it turns out that this apparently-weaker assumption is sufficient to imply full right properness.  This can be found, for instance, as Lemma 9.4 of Bousfield's *On the Telescopic Homotopy Theory of Spaces*.
+
++-- {: .num_prop}
+###### Proposition
+Suppose that in some model category, if $X\to Y$ is a fibration and $Z\to Y$ a weak equivalence, with $Y$ (hence also $X$) fibrant, then the pullback $X\times_Y Z \to X$ is a weak equivalence.  Then the model category is right proper, i.e. the same statement is true without the assumption that $Y$ is fibrant.
+=--
++-- {: .proof}
+###### Proof
+Suppose given $X\to Y\leftarrow Z$ where $X\to Y$ is a fibration and $Z\to Y$ a weak equivalence.  Choose a fibrant replacement $Y\to R Y$, and factor $X\to Y \to R Y$ as a weak equivalence $X\to R X$ followed by a fibration $R X \to R Y$.  The assumption now applies to the cospan $R X \to R Y \leftarrow Y$, so that the map $R X \times_{R Y} Y \to R X$ is a weak equivalence.  By 2-out-of-3, the induced map $X \to R X \times_{R Y} Y$ is also a weak equivalence.
+
+Now by Ken Brown's lemma, the pullback functor along $Z\to Y$ preserves weak equivalences between fibrations, and in particular preserves this weak equivalence $X \to R X \times_{R Y} Y$.  Thus, the induced map $X\times_Y Z \to R X \times_{R Y} Z$ is a weak equivalence.  However, $R X \times_{R Y} Z \to R X$ is a weak equivalence by the assumption, so by 2-out-of-3, the map $X\times_Y Z \to X$ is also a weak equivalence, as desired.
+=--
 
 
 ### Homotopy (co)limits in proper model categories ###
