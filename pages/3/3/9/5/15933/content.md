@@ -27,7 +27,9 @@ One example that is easily visualized is the mapping class group $MCG(\Sigma)$ o
 
 ## Related concepts
 
-* [[mapping class group]]
+* [[mapping class group]] 
+
+* [[Dehn surgery]] 
 
 ## References
 
