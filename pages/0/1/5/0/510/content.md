@@ -45,7 +45,7 @@ $$
   \,.
 $$
 
-There are objects in $Sp(Top)$, though, that do not come from "naively" delooping a space infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups]] of negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups]] vanish.
+There are objects in $Sp(Top)$, though, that do not come from "naively" delooping a space infinitely many times.  These are the **non-connective spectra**.  For general spectra there is a notion of [[homotopy groups of spectra]] in negative degree. The connective ones are precisely those for which all negative degree [[homotopy groups of spectra]] vanish.
 
 Connective spectra are well familiar in as far as they are in the image of the [[nerve]] operation of the [[Dold-Kan correspondence]]: this identifies [[∞-groupoids]] that are not only connective spectra but even have a _strict_ symmetric monoidal [[group]] structure with non-negatively graded [[chain complex]]es of abelian groups. 
 
@@ -159,6 +159,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 * [[model structure on spectra]]
 
 ## Related concepts
+
+* [[homotopy group of a spectrum]]
 
 * [[sheaf of spectra]], [[parametrized spectrum]]
 
