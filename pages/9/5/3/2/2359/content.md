@@ -16,9 +16,9 @@
 
 ## Idea
 
-The _stable homotopy category_ is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[stable (infinity,1)-category of spectra]].
+The _stable homotopy category_ is the [[category]] of [[spectra]] and [[homotopy classes]] of morphisms between them. Equivalently this is the [[homotopy category of an (infinity,1)-category|homotopy category]] of the [[stable (infinity,1)-category of spectra]] .
 
-This is the [[category]] studied in [[stable homotopy theory]].
+This is the [[category]] studied in [[stable homotopy theory]], essentially (under projection to homotopy categories) the [[stabilization]] (under forming [[loop space objects]]) of the plain [[homotopy category]].
 
 ## Definition
 
@@ -30,16 +30,17 @@ $$
   E \wedge X \coloneqq L(\ell E \wedge X)
 $$
 
-for the spectrification of the degreewise [[smash product]] of [[pointed objects]]. Write $I_+$ for the unit [[interval]] with a base point adjoined.
+for the spectrification of the degreewise [[smash product]] of [[pointed objects]]. Write $I_+$ for the unit [[interval]] with a base point adjoined, such that for any spectrum $E$, the spectrified [[smash product]] $E \wedge I_+$ is its _[[cylinder spectrum]]_.
 
-A _[[left homotopy]]_ between maps of spectra $E_1$ and $E_2$ is a morphism of spectra
+A _[[left homotopy]]_ between maps of spectra $f,g \colon E_1 \longrightarrow E_2$ is a morphism of spectra
 
 $$
-  E_1\wedge I_+ \longrightarrow E_2
-  \,.
+  \phi \colon E_1\wedge I_+ \longrightarrow E_2
 $$
 
-Write $[E_1,E_2]$ for the [[homotopy classes]] of maps. The stable homotopy category is equivalently the category of spectra of CW-type with these homotopy classes of maps between them.
+such that $\phi|_0 = f$ and $\phi|_1 = g$.
+
+Write $[E_1,E_2]$ for the corresponding [[homotopy classes]] of maps. The _stable homotopy category_ is equivalently the category of [[CW-spectra]] with these homotopy classes of maps between them.
 
 ([Elmendorf-Kriz-May, p. 8](#ElmendorfKrizMay))
 
@@ -53,6 +54,18 @@ $$
 $$ 
 
 For the analogous construction in [[equivariant stable homotopy theory]] -- yielding the [[equivariant stable homotopy category]] --. see ([Greenlees-May 95, section 2](#GreenleesMay95))
+
+## Properties
+
+### Symmetric monoidal structure
+
+The [[smash product of spectra]] makes the stable homotopy category into a [[symmetric monoidal category]].
+
+An ([[commutative monoid|commutative]]) [[monoid object]] with respect to this is a ([[commutative ring spectrum|commutative]]) [[ring spectrum]]. A [[module object]] over such is a [[module spectrum]].
+
+### Triangulated structure
+
+The [[homotopy fiber sequenes]] of spectra gives the stable homotopy category the structure of a [[triangulated category]].
 
 ## Related concepts
 
