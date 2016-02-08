@@ -2325,6 +2325,10 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 
 * [[Thom isomorphism]]
 
+  [[cup product]] 
+
+  [[Leray-Hirsch theorem]]
+
   [[Thom class]]
 
 #### Homology of $M O$
