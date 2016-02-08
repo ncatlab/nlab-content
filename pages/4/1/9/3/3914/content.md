@@ -350,9 +350,9 @@ A comprehensive account of the general abstract persepctive (with predecessors i
 
 * {#ABG10} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], section 6 of _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
  
-Lecture notes include
+Lecture notes on this include
 
-* {#Hopkins} [[Mike Hopkins]] (notes by[[Andre Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
+* {#Hopkins} [[Mike Hopkins]] (notes by [[André Henriques]]), _The String orientation of tmf_  ([arXiv:0805.0743](http://arxiv.org/abs/0805.0743))
  
 
 which are motivated towards constructing the [[string orientation of tmf]], based on 
