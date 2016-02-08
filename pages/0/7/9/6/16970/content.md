@@ -26,7 +26,7 @@ The generalization of the concept of [[homotopy group]] from [[homotopy theory]]
 
 ### Abstractly
 
-For $X$ a [[pointed topological space|pointed]] [[topological G-space]] and $H \subset G$ a closed [[subgroup]], then the $n$-_unstable_ $H$-equivariant homotopy group of $X$ is simply the ordinary $n$-th [[homotopy group]] of the $H$-[[fixed point]] space $X^H$:
+For $X$ a [[pointed topological space|pointed]] [[topological G-space]] and $H \subset G$ a closed [[subgroup]], then the $n$th _unstable_ $H$-equivariant homotopy group of $X$ is simply the ordinary $n$-th [[homotopy group]] of the $H$-[[fixed point]] space $X^H$:
 
 $$
   \pi_n^H(X) \coloneqq \pi_n(X^H)
@@ -177,6 +177,11 @@ a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e
  
 ([Greenlees-May, theorem 2.3](#GreenleesMay))
 
+## Related concepts
+
+* [[homotopy group]]
+
+* [[stable homotopy group]]
 
 ## References
 
