@@ -6,7 +6,7 @@
 +-- {: .hide}
 [[!include bundles - contents]]
 =--
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
