@@ -849,6 +849,10 @@ A discussion of intermediate Jacobians for any rationally periodic [[generalized
  
 [[!redirects intermediate Jacobians]]
 
+[[!redirects higher Jacobian]]
+[[!redirects higher Jacobians]]
+
+
 [[!redirects Griffith intermediate Jacobian]]
 [[!redirects Griffith intermediate Jacobians]]
 
