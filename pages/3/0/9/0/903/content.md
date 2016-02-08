@@ -33,6 +33,8 @@ These definitions only depend on the [[homotopy type]] of $X$, by definition: a 
 
 Accordingly, homotopy groups are defined for all other models of [[homotopy types]], notably for [[simplicial sets]]. See at _[[simplicial homotopy group]]_ for more. 
 
+There are generalizations of the concept to [[stable homotopy groups]] of [[spectra]] and to [[equivariant homotopy groups]] for [[topological G-spaces]] and [[equivariant spectra]].
+
 ## Definition 
  {#Definition}
 
@@ -223,6 +225,8 @@ As opposed to [[cohomology]] where people are used to talking about [[generalize
 
 
 ## Related concepts
+
+* [[homotopy group of a spectrum]]
 
 * [[weak homotopy equivalence]]
 
