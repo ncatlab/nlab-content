@@ -1,0 +1,96 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The Leray-Hirsch theorem states sufficient fiberwise condition for the [[ordinary cohomology]] of the total space of a [[fiber bundle]] with [[coefficients]] in a [[commutative ring]] to be [[free module]] over the [[cohomology ring]] of the base space.
+
+An important consequence is the [[Thom isomorphism]].
+
+## Statement
+
+Let 
+
+$$
+  \array{
+     F &\stackrel{\iota}{\hookrightarrow}& E
+     \\
+     && \downarrow^{\mathrlap{p}}
+     \\
+     && X
+  }
+$$
+
+be a topological $F$-[[fiber bundle]] and let $R$ be a [[commutative ring]]. 
+
+If there exists a [[finite set]] of elements 
+
+$$
+  \alpha_i \in H^\bullet(E,R) \;\;\, i \in I
+$$
+
+in the [[ordinary cohomology]] of $E$ with [[coefficients]] in $R$, such that for each point $x \in X$ the restriction of the $\alpha_i$ to the [[fiber]] $F_x$ is $R$-[[linearly independent]] and their $R$-[[linear span]] is [[isomorphism|isomorphic]] to the cohology $H^\bullet(F,R)$ of the fiber
+
+$$
+  H^\bullet(F, R)
+  \simeq
+  \langle \{\iota_x^\ast \alpha_i\}_{i \in I} \rangle_R
+  \;\;\;\;
+  \in R Mod
+$$
+
+then also the $\{\alpha_i\}$ are $H^\bullet(X,R)$-[[linearly independent]] and the cohomology of the total space is their $H^\bullet(X,R)$-[[linear span]]:
+
+$$
+  H^\bullet(E,R) \simeq \langle \{\alpha_i\}_{i \in I} \rangle_{H^\bullet(X,R)}
+  \;\;\;\;\;
+  \in H^\bullet(X,R) Mod
+$$
+
+in fact there is an isomorphism
+
+$$
+  H^\bullet(X,R) \otimes_R H^\bullet(F,R)
+  \stackrel{\simeq}{\longrightarrow}
+  H^\bullet(E,R)
+$$
+
+given by pulling back classes and forming their [[cup product]]:
+
+$$
+  \underset{i,j}{\sum} c_i \otimes \iota^\ast(\alpha_j)
+    \mapsto 
+  \underset{i,j}{\sum}
+  p^\ast(c_i) \cup \alpha_j
+  \,.
+$$
+
+## Related concepts
+
+* [[Thom isomorphism]]
+
+## References
+
+e.g.
+
+* [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002, theorem 4D.1 on p. 432 ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATch4.4.pdf))
+
+* {#Ebert12} [[Johannes Ebert]], section 2.3 of _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf)) 
+
