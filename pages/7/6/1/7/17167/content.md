@@ -107,7 +107,7 @@ As we have an inclusion $\widehat{R} \hookrightarrow \prod_{I \in \mathcal{O}} R
 
 $$\langle proj_I \rangle_{I \in \mathcal{O}}: R \to \prod_{I \in \mathcal{O}} R/I$$ 
 
-which is precisely $\bigcap_{I \in \mathcal{O}} I$. Since every neighborhood of $0 \in R$ contains an open ideal $I \in \mathcal{O}$, this intersection is contained in the intersection of all open neighborhoods of $0$, which is $\{0\}$ since $R$ is Hausdorff. Thus the kernel of $\pi$ is trivial, as was to be shown. 
+which is precisely $\bigcap_{I \in \mathcal{O}} I$. Since by Lemma \ref{openideal} every neighborhood of $0 \in R$ contains an open ideal $I \in \mathcal{O}$, this intersection is contained in the intersection of all open neighborhoods of $0$, which is $\{0\}$ since $R$ is Hausdorff. Thus the kernel of $\pi$ is trivial, as was to be shown. 
 =-- 
 
 ## Related concepts 
