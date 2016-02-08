@@ -5,7 +5,7 @@
 
 ## Idea
 
-Every [[spectrum]] $K$ is the coefficient object of a [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[cohomology theory]] and dually of a _generalized homology_ theory.
+Every [[spectrum]] $K$ is the coefficient object of a [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[cohomology theory]] and dually of a _generalized homology_ theory. See at _[[generalized cohomology]]_ for more.
 
 For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordinary homology]]
 
@@ -55,3 +55,6 @@ Further generalization of this to [[bivariant cohomology theories]] is in
 [[!redirects homology theories]]
 
 [[!redirects generalized homologies]]
+
+[[!redirects generalised homology]]
+[[!redirects generalised homologies]]
