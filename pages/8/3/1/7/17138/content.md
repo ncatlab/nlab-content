@@ -2258,56 +2258,80 @@ A list of possible topics. Check again a little later for more.
 
 $\,$
 
-### **Part S1) Generalised cohomology**
+### **Part S1) Generalized cohomology**
+
+For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)) and ([Malkiewich 11](#Malkiewich11)).
+
+#### Generalized homology and cohomology functors
+
+The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
+
+$$
+  Top \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from (suitably nice) [[topological spaces]], such that some key properties of the [[homotopy types]] of topological spaces is preserved as one passes them to the more tractable [[category]] [[Ab]]${}^{\mathbb{Z}}$  of $\mathbb{Z}$-[[graded abelian groups]].
+
+A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0.
+
+An important example of a generalised cohomology theory other than ordinary cohomology is [[topological K-theory]].
 
 
-#### Representability
+#### Brown representability theorem
 
-For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)).
 
-[[generalized cohomology theory]]
-
-* [[ordinary cohomology]], [[topological K-theory]]
-
-(-- from here on we need the basics of [Part 1), Spectra](#Spectra) and [Part I) Spectral sequences](#SpectralSequences) --)
+(-- from here on we need the basics of [Part 1), Spectra](#Spectra) --)
 
 [[Brown representability theorem]]
 
 * [[multiplicative cohomology theory]]
 
+#### Atiyah-Hirzebruch spectral sequence
+
+(-- from here on we need the basics of [Part 1) Spectral sequences](#SpectralSequences) --)
+
+
 [[Atiyah-Hirzebruch spectral sequence]] 
 
-#### Cobordism theory
+### **Part S2) Cobordism theory**
 
 For instance ([Malkiewich 11](#Malkiewich11)).
 
 [[cobordism theory]]
 
+#### Thom spectra
+
 * [[Thom spectrum]], [[MO]]
 
   [[Thom space]]
 
-  [[Thom class]]
+  [[Pontrjagin-Thom collapse map]]
 
-[[Pontrjagin-Thom collapse map]]
+#### Thom's theorem
+
+* [[Thom's theorem]]
+
+  [[cobordism]], [[cobordism ring]]
+
+#### Thom isomorphism
 
 * [[Thom isomorphism]]
 
-* [[cobordism]], [[cobordism ring]]
+  [[Thom class]]
 
-[[Thom's theorem]]
+#### Homology of $M O$
 
-* [[cobordism cohomology theory]]
+* [[homology of MO]]
 
 
-### **Part S2) Complex oriented cohomology**
+### **Part S3) Complex oriented cohomology**
 
 Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10)).
 
 
 
 
-#### Complex orientation
+#### Complex oriented cohomology
 
 (-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
 
@@ -2317,11 +2341,18 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
   * [[formal group laws]]
 
+#### Lazard's theorem
+
 * [[Lazard's theorem]]
 
   * [[Lazard ring]]
 
+#### Landweber exact functor theorem
+
 * [[Landweber exact functor theorem]]
+
+
+#### Complex cobordism cohomology
 
 (-- from here on we need basics from [Part 1), Examples](#Examples) --)
 
@@ -2331,13 +2362,17 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 * [[universal complex orientation on MU]]
 
+#### Homology of $M U$
+
 * [[homology of MU]]
+
+#### Quillen's theorem on $M U$
 
 * [[Quillen's theorem on MU]]
 
 
 
-#### Geometry of $Spec(MU)$
+### Outlook: Geometry of $Spec(MU)$
 
 Use ([Lurie 10, lectures 12-14](#Lurie10))
 
