@@ -15,11 +15,19 @@
 
 ## Idea
 
-If we take a [[pointed set|pointed space]] $(X,x_0)$, then its *reduced suspension* $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  
+For $(X,x_0) as $ [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  
 
 (Think of crushing the two ends of the cylinder and the line through the base point to a point.) 
 
-Compare the [[suspension]] $S X$, where there is no basepoint and only the ends of the cylinder are crushed.
+Equivalently this is the [[smash product]] $S^1\wedge X$, of $X$ with the [[circle]] (based at some point) with $X$.
+
+$$
+  \Sigma X \simeq S^1 \wedge X
+$$
+
+
+This is in turn the result of taking the bare [[suspension]] $S X$ of $X$ and identifying $\{x_0\} \times I$ with a single point.
+
 
 
 ## Definition
@@ -27,11 +35,6 @@ Compare the [[suspension]] $S X$, where there is no basepoint and only the ends 
 For a pointed space $(X,x_0)$,
 $$\Sigma X = (I\times X)/\{0,1\}\times X\cup I\times \{x_0\}$$
 
-This can also be thought of as forming $S^1\wedge X$, the  [[smash product]] of the [[circle]] (based at some point) with $X$: 
-
-$$
-  \Sigma X \simeq S^1 \wedge X
-$$
 
 ## Properties
 
