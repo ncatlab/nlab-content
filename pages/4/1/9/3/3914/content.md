@@ -337,9 +337,11 @@ An $E_\infty$ [[complex oriented cohomology theory]] $E$ is indeed equipped with
 
 ## References
 
-Quick discussion in terms of [[Thom classes]] is in 
+Discussion in terms of [[Thom classes]]:
 
-* [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
+* [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
 A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
 
