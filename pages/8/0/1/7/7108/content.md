@@ -34,7 +34,7 @@ A $Set^S$-[[enriched category]] is a category whose morphisms all have degrees i
 
 ## Graded objects
 
-Given any set $S$ and any [[category]] $C$, the category of __$S$-graded objects of $C$__ is simply the [[functor category]] $C^S$ (identifying $S$ with its discrete category).  This includes graded sets as above, as well as [[graded vector spaces]] and [[graded modules]].  However, [[graded rings]] and [[graded algebras]] are not the same (and in particular require $S$ to be a [[monoid]]).
+Given any set $S$ and any [[category]] $C$, the category of __$S$-graded objects of $C$__ is simply the [[functor category]] $C^S$ (identifying $S$ with its discrete category).  This includes graded sets as above, as well as [[graded abelian groups]], [[graded modules]], [[graded vector spaces]].  However, [[graded rings]] and [[graded algebras]] are not the same (and in particular require $S$ to be a [[monoid]]).
 
 ## Related concepts
 
