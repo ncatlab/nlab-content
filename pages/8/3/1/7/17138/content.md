@@ -2251,18 +2251,15 @@ $\;\;\;\;\;\;\;\;\;\;\;$
 
 =---
 
+**Abstract.** _The sector of those  [[generalized cohomology theories]] which admit a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] of [[higher Jacobians]], such as [[elliptic curves]].  In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
-$\,$
-
-A list of possible topics. Check again a little later for more.
-
-$\,$
 
 ### **Part S1) Generalized cohomology**
 
 For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)) and ([Malkiewich 11](#Malkiewich11)).
 
 #### Generalized homology and cohomology functors
+ {#GeneralizedHomologyAndCohomologyFunctors}
 
 The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
 
@@ -2282,22 +2279,33 @@ An important example of a generalised cohomology theory other than ordinary coho
 
 (-- from here on we need the basics of [Part 1), Spectra](#Spectra) --)
 
-[[Brown representability theorem]]
+Given any functor such as the generalized (co)homology functor [above](GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list, hence it must be represented by a _[[spectrum]]_.
 
-* [[multiplicative cohomology theory]]
+Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
+
+Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not quite apply here, since a spectrum is more than just one (homotopy type of a) topological space).
+
+In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories.
+
+For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
 #### Atiyah-Hirzebruch spectral sequence
 
 (-- from here on we need the basics of [Part 1) Spectral sequences](#SpectralSequences) --)
 
-
-[[Atiyah-Hirzebruch spectral sequence]] 
+Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ which serves to compute $E$-cohomology of any space $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E_\bullet(\ast)$.
 
 ### **Part S2) Cobordism theory**
 
 For instance ([Malkiewich 11](#Malkiewich11)).
 
-[[cobordism theory]]
+As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
+
+The strongest manifestation of this comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory), which higher linear algebra over the complex Thom spectrum [[MU]]. 
+
+Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[homotopy groups of a spectrum|homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
+
+
 
 #### Thom spectra
 
@@ -2323,8 +2331,8 @@ For instance ([Malkiewich 11](#Malkiewich11)).
 
 * [[homology of MO]]
 
-
 ### **Part S3) Complex oriented cohomology**
+ {#ComplexOrientedCohomologyTheory}
 
 Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10)).
 
@@ -2347,10 +2355,6 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
   * [[Lazard ring]]
 
-#### Landweber exact functor theorem
-
-* [[Landweber exact functor theorem]]
-
 
 #### Complex cobordism cohomology
 
@@ -2370,6 +2374,9 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 * [[Quillen's theorem on MU]]
 
+#### Landweber exact functor theorem
+
+* [[Landweber exact functor theorem]]
 
 
 ### Outlook: Geometry of $Spec(MU)$
