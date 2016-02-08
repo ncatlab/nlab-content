@@ -291,7 +291,7 @@ The [[global orbit category]] $Orb$ is considered in
   
 Global unstable equivariant homotopy theory is discussed as a [[localization]] of the category of "orthogonal spaces" (the unstable version of [[orthogonal spectra]]) in chapter I of
 
-* {#Schwede13} [[Stefan Schwede]], _Global homotopy theory_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+* {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
 
 see also 
 
