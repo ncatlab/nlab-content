@@ -52,6 +52,8 @@ The _[[virtually fibered conjecture]]_ says that every closed, irreducible, ator
 
 * [[Seifert 3-manifold]]
 
+* [[Dehn surgery]]
+
 * [[knot theory]]
 
 * [[arithmetic topology]]
