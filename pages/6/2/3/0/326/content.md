@@ -106,9 +106,9 @@ $$
   \,.
 $$
 
-Functors of the form $C^{op} \to Set$ are called [[presheaves]] on $C$, and functors equivalent to $hom(-,c)$ are called [[representable functors]] or **representable presheaves** on $C$.
+Functors of the form $C^{op} \to Set$ are called [[presheaves]] on $C$, and functors [[natural isomorphism|naturally isomorphic]] to $hom(-,c)$ are called [[representable functors]] or **representable presheaves** on $C$.
 
-Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functors equivalent to $hom(c,-)$ are called co[[representable functors]] or **representable copresheaves** on $C$.
+Functors of the form $C \to Set$ are called [[copresheaves]] on $C$, and functors naturally isomorphic to $hom(c,-)$ are called co[[representable functors]] or **representable copresheaves** on $C$.
 
 
 ### Preservation of limits
