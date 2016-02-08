@@ -52,24 +52,44 @@ All these Thom spectra happen to naturally have the structure of [[E-∞ rings]]
 ## Definition
 
 ### For vector bundles
+ {#ForVectorBundles}
 
-For $V \to X$ a [[vector bundle]], we have a [[weak homotopy equivalence]]
+
++-- {: .num_prop #SuspensionOfThomSpaces}
+###### Proposiiton
+
+For $V \to X$ a [[vector bundle]], there is a [[weak homotopy equivalence]]
 
 $$
   Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) \simeq \Sigma^n Th(V)
 $$
 
-between, on the one hand, the [[Thom space]] of the [[direct sum]] of $V$ with the trivial [[vector bundle]] of rank $n$ and, on the other, the $n$-fold [[suspension]] of the [[Thom space]] of $V$.
+between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundles]] of $V$ with the trivial [[vector bundle]] of [[rank]] $n$ and, on the other, the $n$-fold [[reduced suspension]] of the [[Thom space]] of $V$.
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
 
-For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[Omega spectrum]] $E_\bullet$ with
+For $V \to X$ a [[vector bundle]], its **Thom spectrum** is the [[spectrum]] $E_\bullet$ whose $n$th component is the [[Thom space]] of $\mathbb{R}^n \oplus V$
 
 $$
   E_n \coloneqq (X^V)_n \coloneqq Th(\mathbb{R}^n \oplus V)
-  \,.
 $$ 
+
+and whose structure maps
+
+$$
+  \Sigma E_n \longrightarrow E_{n+1}
+$$
+
+are the equivalences
+
+$$
+  \Sigma E_n \stackrel{\simeq}{\longrightarrow} Th(\mathbb{R}^{n+1} \oplus V) = E_{n+1}
+$$
+
+of prop. \ref{SuspensionOfThomSpaces}.
 
 =--
 
@@ -86,7 +106,7 @@ $$
 
 be the Thom spectrum of the vector bundle $V(n)$ that is canonically [[associated bundle|associated]] to the $O(n)$-[[universal principal bundle]] $E O(n) \to B O(n)$ over the [[classifying space]] of the [[orthogonal group]] of dimension $n$.
 
-The inclusions $O(n) \hookrightarrow O(n+1)$ induce a directed system of such spectra. The **Thom spectrum** is the [[colimit]]
+The inclusions $O(n) \hookrightarrow O(n+1)$ (by adding one [[coordinate]] ob, say, the right) induce a directed system of such spectra. The **Thom spectrum** is the [[colimit]]
 
 $$
   M O := {\lim_\to}_n M O(n) 
@@ -95,9 +115,101 @@ $$
 
 =--
 
-Instead of the sequence of groups $O(n)$, one can consider $SO(n)$, or $Spin(n)$, $String(n)$, $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum, which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+Equivalently (...give details of the equivalence...):
 
-As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
++-- {: .num_prop #PullbackOfUniversalOnBundleUnderCoordinateRestriction}
+###### Proposition
+
+For each $n \in \mathbb{N}$ there is a [[pullback]] [[diagram]] of [[topological spaces]] of the form
+
+$$
+  \array{
+    \mathbb{R}\oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^n)
+    &\longrightarrow&
+    E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(n) &\longrightarrow& B O(n+1)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #UniversalThomSpectrum}
+###### Definition
+
+The _Thom specturm_ $M O$ is the [[spectrum]] whose $n$th component space is 
+the [[Thom space]] $Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the universal rank-$n$ [[vector bundle]], and whose structure maps 
+
+$$
+  \Sigma M O(n) \stackrel{}{\longrightarrow} M O(n+1)
+$$
+
+are the image under the Thom space functor $Th(-)$ of the top morphisms in prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}, via the equivalences of prop. \ref{SuspensionOfThomSpaces}:
+
+$$
+  \Sigma M O(n)\simeq Th(\mathbb{R}\oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^n))
+  \stackrel{}{\longrightarrow} Th(E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}) = M O(n+1)
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Instead of the sequence of [[orthogonal groups]] $O(n)$, one may consider variants such as the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., i.e., any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, $M Spin$, $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+For discussion of the refinement of the Thom spectrum $M O$
+to a [[symmetric spectrum]] see ([Schwede 12, Example I.2.8](#Schwede12)).
+
+For the refinement to an [[orthogonal spectrum]] and [[globally equivariant spectrum]] see ([Schwede 15, section V.4](#Schwede15)).
+
+=--
+
+The universal Thom spectrum, def. \ref{UniversalThomSpectrum}, naturally inherits the structure of a [[ring spectrum]] as follows.
+
++-- {: .num_prop}
+###### Proposition
+
+There are canonical commuting diagrams
+
+$$
+  \array{
+    ( E (O(k)\times O(\ell))\underset{O(k)\times O(\ell)}{\times}) 
+    \mathbb{R}^k \oplus \mathbb{R}^\ell
+    &\longrightarrow& 
+    E O(k+\ell)\underset{O(k + ell)}{\times} \mathbb{R}^{k+\ell}
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(k)\times B O(\ell)
+    &\stackrel{}{\longrightarrow}&
+    B O(k + \ell)
+  }
+  \,.
+$$
+
+Applying the [[Thom space]] functor to the top morphisms here gives morphisms
+
+$$
+  M O(k) \wedge M O(\ell)
+  \longrightarrow
+  M O(k + \ell)
+$$
+
+that combine to give $M O$ the structure of a [[ring spectrum]].
+
+=--
+
 
 ### For spherical fibrations
  {#ForSphereBundles}
@@ -575,7 +687,7 @@ As [[symmetric spectra]]:
 
 As [[orthogonal spectra]] and as [[equivariant spectra]]
 
-* [[Stefan Schwede]], chapter V.4 of _[[Global homotopy theory]]_
+* {#Schwede15} [[Stefan Schwede]], chapter V.4 of _[[Global homotopy theory]]_, 2015
 
 Textbook discussion with an eye towards the [[generalized (Eilenberg-Steenrod) cohomology]] of [[topological K-theory]] and [[cobordism cohomology theory]] is in 
 
