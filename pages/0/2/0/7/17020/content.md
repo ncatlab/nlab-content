@@ -28,6 +28,10 @@ Hene a [[spectrum]] compatibly equipped wih the structure of a $G$-[[equivariant
 
 * The global [[equivariant sphere spectrum]] for all the [[cyclic groups]] over the [[circle group]] is canonically a [[cyclotomic spectrum]] and as such is the [[tensor unit]] in the [[monoidal (infinity,1)-category]] of [[cyclotomic spectra]] (see there).
 
+## References
+
+* {#Schwede13} [[Stefan Schwede]], _[[Global homotopy theory]]_, 2013 ([pdf](http://www.math.uni-bonn.de/~schwede/global.pdf))
+
 [[!redirects globally equivariant spectra]]
 
 [[!redirects global equivariant spectrum]]
