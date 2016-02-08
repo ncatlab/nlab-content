@@ -34,7 +34,7 @@ By evaluation on $X = B U(1)$, every [[multiplicative cohomology theory|multipli
 
 Conversely, given a formal group $F$ over a [[graded ring]] $R$, one can ask whether this arises from some $E$ in this way. 
 
-Now since the [[Lazard ring]] $L$ classifies formal groups in that $F$ is equivalently given by a [[ring]] [[homomorphism]] $L \longrightarrow R$ and since moreover $L$ is the [[cohomology ring]] of [[complex oriented cohomology theory]] $L \simeq MU_\bullet(\ast)$, one can consider the functor
+Now since the [[Lazard ring]] $L$ classifies formal groups in that $F$ is equivalently given by a [[ring]] [[homomorphism]] $L \longrightarrow R$ and since moreover [[Quillen's theorem on MU]] identifies $L$ with the [[cohomology ring]] of [[complex oriented cohomology theory]] $L \simeq MU_\bullet(\ast)$, one may consider the functor
 
 $$
   X \mapsto E_\bullet(X) \coloneqq MU_\bullet(X) \underset{L}{\otimes} R
