@@ -31,12 +31,18 @@ $$
 
 Remark: In terms of [[model category]] [[presentable (∞,1)-category|presentation]] one may also consider sequences of [[topological spaces]] equipped with [[homeomorphisms]] $E_n \longrightarrow \Omega E_{n+1}$  See at _[[spectrum]]_ the section <a href="http://nlab.mathforge.org/nlab/show/spectrum#OmegaSpectrum">Omega-spectra</a>.
 
+## Properties
+
+### $\Omega$-spectrification
+
+The inclusion of $\Omega$-spectra into all sequential pre-spectra has a [[left adjoint]], [[spectrification]]. See there for more.
+
 ## Examples
 
-### $\Omega$-spectrum completion of suspension spectra
+### $\Omega$-spectrum spectrification of suspension spectra
  {#CompletionOfSuspensionSpectra}
 
-Given a [[pointed topological space]] $X$, its [[suspension spectrum]] $\Sigma^\infty X$ is far from being an $\Omega$-spectrum. The $\Omega$-spectrum that it induces is given by [[free infinite loop space]] constructions:
+Given a [[pointed topological space]] $X$, its [[suspension spectrum]] $\Sigma^\infty X$ is far from being an $\Omega$-spectrum. The $\Omega$-spectrum that it induces (its [[spectrification]]) is given by [[free infinite loop space]] constructions:
 
 write
 
