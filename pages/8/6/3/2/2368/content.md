@@ -31,7 +31,7 @@ For concretely working with these objects, it is often useful to have concrete  
 
 Historically, this had been desired but out of reach for a long time. When the relevant [[highly structured ring spectra]] were finally found, the relief was substantial and led to terminology such as "[[brave new algebra]]". More recently maybe the term [[higher algebra]] is becoming more popular.
 
-More recently, model structures were found which also admit symmetric monoidal smash products, but which are not of the form "highly structured spectra": [[model structure for excisive functors]].
+Then, model structures were found which also admit symmetric monoidal smash products, but which are not of the form "highly structured spectra": [[model structure for excisive functors]].
 
 ## Prehistory
 
@@ -103,7 +103,6 @@ The definition of $S$-modules and their theory originates in
 
 * {#ElmendorfKrizMandellMay97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 (aka "EKMM")
 
-
 and around 1993 [[Jeff Smith]] gave the first talks about symmetric spectra; the details of the model structure were later worked out and written up in 
 
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208.
@@ -114,7 +113,7 @@ and around 1993 [[Jeff Smith]] gave the first talks about symmetric spectra; the
 
 A survey of the general theory, also of its history, is
 
-* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _[[Modern foundations for stable homotopy theory]]_ ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
+* [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _[[Modern foundations for stable homotopy theory]]_,1995 ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
 A textbook account of the theory of symmetric spectra is  
 
@@ -137,5 +136,7 @@ See also
 [[!redirects structured ring spectra]]
 
 [[!redirects symmetric monoidal smash product of spectra]]
+
+[[!redirects symmetric smash product on spectra]]
 
 
