@@ -1,0 +1,9 @@
+
+
+* [Mathematics genealogy page](http://www.genealogy.ams.org/id.php?id=9351)
+
+## related entries
+
+* [[stable homotopy theory]], [[function spectra]]
+
+category: people
