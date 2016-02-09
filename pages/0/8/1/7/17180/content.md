@@ -31,7 +31,7 @@ A [[model category]] [[presentable (infinity,1)-category|presentation]] for an [
 
 Model structure for [[excisive functors]] (hence also a [[model structure for spectra]]) is discussed in:
 
-* {#Lykadis98} Lykadis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
 Further generalization of this, in particular to [[n-excisive functors]] for $n \geq 1$ is discussed in
 
