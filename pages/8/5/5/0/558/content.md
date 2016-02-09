@@ -38,7 +38,7 @@ There are some definitions of [[∞-groupoid]]s for which the homotopy hypothesi
 
 For instance there is some justification for _defining_ an $\infty$-groupoid to _be_ equivalently a topological space (considered modulo weak homotopy equivalence). For this definition the homotopy hypothesis is of course a tautology.
 
-A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complex]]es. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complex]]es obtained this way is at the heart of all traditional [[homotopy theory]].
+A definition of $\infty$-groupoid that is still very geometrical but much more combinatorial is that given by [[Kan complexes]]. For these the homotopy hypothesis has a (non-trivial but fairly tractable) proof. The equivalence between Kan complexes and [[CW-complex]]es obtained this way is at the heart of all traditional [[homotopy theory]].
 
 A genuine algebraic definition of $\infty$-groupoids for which the homotopy theory has a (non-trivial but tractable) proof is given by [[algebraic Kan complex]]es. 
 
@@ -72,12 +72,9 @@ $(\Pi \dashv |-|) : $ [[Top]] $\simeq$ [[∞Grpd]].
 
 =--
 
-+-- {: .proof}
-###### Proof
 
 This statement can be formulated, holds true and is proven  below at least for the standard definitions of these two [[(∞,1)-categories]] (see [section on Kan complexes](#ForKanComplexes), [section on algebraic Kan complexes](#ForAlgebraicKanComplexes)).
 
-=--
 
 ## Realizations
 
@@ -112,7 +109,7 @@ It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, 
 
 ### For Kan complexes {#ForKanComplexes}
 
-We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complex]]es.
+We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complexes]].
 
 Also we write $Top_{Quillen}$ for [[Top]] equipped with the standard [[model structure on topological spaces]].
 
@@ -133,6 +130,8 @@ This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[pre
 * [[Top]] $\simeq$ [[∞Grpd]]
 
 =--
+
+([Quillen 67](#Quillen67))
 
 ### For algebraic Kan complexes {#ForAlgebraicKanComplexes}
 
@@ -505,7 +504,10 @@ An introductory survey is given in
 
 * [[John Baez]], _The Homotopy Hypothesis_ ([web](http://math.ucr.edu/home/baez/homotopy/), [pdf](http://math.ucr.edu/home/baez/homotopy/homotopy.pdf))
 
-The original form of the homotopy hypothesis for Kan complexes is due to [[Dan Quillen]]. See the references at _[[model structure on simplicial sets]]_.
+The original form of the homotopy hypothesis for [[Kan complexes]] is due to 
+
+* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
+
 
 The homotopy hypothesis for strict $\omega$-categories with weak inverses is discussed in
 
