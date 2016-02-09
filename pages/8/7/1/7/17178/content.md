@@ -13,6 +13,7 @@
 
 In [[stable homotopy theory]], a _sequential (pre-)spectrum_ $E$ is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
-This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one mostly meant be default. But in view of many other definitions (all giving rise ot equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]]), one says _sequential spectrum_ for emphasis.
+This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one mostly meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]]), one says _sequential spectrum_ for emphasis.
+
 
 [[!redirects sequential spectra]]
