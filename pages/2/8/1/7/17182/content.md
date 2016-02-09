@@ -56,4 +56,17 @@ There is a [[Quillen equivalence]] to the [[model structure for excisive functor
 
 ## References
 
-* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of 
+The original construction is due to
+
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+
+Generalization of this model structure from sequential pre-spectra in [[sSet]]$^{\ast/}$ to sequential prespectra in more general [[pointed category|pointed]] [[simplicial model categories]] is in 
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+
+Discussion of the relation to the [[model structure on excisive functors]] is in 
+
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+
+[[!redirects Bousfield-Friedlander model category]]
+
