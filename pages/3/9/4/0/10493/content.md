@@ -94,6 +94,8 @@ which moreover is [[left exact (infinity,1)-functor|left exact]] (preserves [[fi
 
 This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)). The construction of the reflector$P_n$ is in ([Lurie, constrution 6.1.1.27](#HigherAlg)).
 
+For $n = 1$ this reflection is _[[spectrification]]_.
+
 +-- {: .num_cor}
 ###### Corollary
 
