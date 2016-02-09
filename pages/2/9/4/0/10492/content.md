@@ -47,7 +47,8 @@ Write $\infty Grpd_{fin}$ for the [[(∞,1)-category]] of [[finite homotopy type
 +-- {: .num_defn }
 ###### Proposition
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-limits]]. Then **[[spectrum object]]** in $\mathcal{C}$ are equivalently  [[reduced (infinity,1)-functor|reduced]] [[excisive (∞,1)-functor]] of the form
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-limits]]. Then 
+**[[spectrum objects]]** in $\mathcal{C}$ are equivalently  [[reduced (infinity,1)-functor|reduced]] [[excisive (∞,1)-functor]] of the form
 
 $$
   \infty Grpd_{fin}^{\ast/} \longrightarrow \mathcal{C}
@@ -91,6 +92,7 @@ Since [[finite homotopy types]] are given by a finite number of sphere attachmen
 
 The same proof, with the point going to any space $E(\ast)$, gives that $E$ is a [[parameterized spectrum]] over $E(\ast)$.
 
+The proof also shows that spectra relaized as excisive functors are in the spirit of [[coordinate-free spectra]].
 
 
 
