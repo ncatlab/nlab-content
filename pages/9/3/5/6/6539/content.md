@@ -5,7 +5,7 @@ $$
 $$
 
 $$
-\langle \Delta (h), k,\otimes k' \rangle = \langle h, k\otimes k'\rangle
+\langle \Delta (h), k\otimes k' \rangle = \langle h, k\otimes k'\rangle
 $$
 
 (where on the left hand side $\langle,\rangle$ denotes the map $H\otimes H\otimes K\otimes K\to k$ given by
