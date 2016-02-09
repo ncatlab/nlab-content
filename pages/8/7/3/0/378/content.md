@@ -297,7 +297,7 @@ This can be found, for instance, in II.8.6--7 of [Goerss-Jardine](#GoerssJardine
 
 Dan Quillen's original proof in
 
-* [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
+* {#Quillen67} [[Dan Quillen]], _Homotopical Algebra_, LNM 43, Springer, (1967) 
 
 is purely combinatorial (i.e. does not use topological spaces): he uses the theory of [[minimal Kan fibrations]], the fact that the latter are fiber bundles, as well as the fact that the [[classifying space]] of a [[simplicial group]] is a [[Kan complex]]. This proof has been rewritten several times in the literature: at the end of
 
