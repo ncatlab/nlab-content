@@ -20,7 +20,7 @@ The _Adams category_, named after ([Adams 74](#Adams74)), was historically one o
 
 The Adams category is defined to be the category of [[CW-spectra]] together with [[left homotopy|left]] [[homotopy classes]] (via [[cylinder spectra]]) of "eventually defined" functions between them.
 
-This was originally advertised as being a definition not involving tools from [[category theory]]. Arguably this is also its main deficiency when it comes to working with it (this is the "polemic" of[Lewis-May-Steinberger 86, preamble](#LewisMaySteinberger86)). For modern alternatives see at _[[stable homotopy category]]_.
+This was originally advertised as being a definition not involving tools from [[category theory]]. Arguably this is also its main deficiency when it comes to working with it (this is the "polemic" of [Lewis-May-Steinberger 86, preamble](#LewisMaySteinberger86)). For modern alternatives see at _[[stable homotopy category]]_.
 
 ## References
 
