@@ -21,7 +21,7 @@ Under passing to [[suspension spectra]] this becomes [[Atiyah duality]] in [[sta
 
 ## Related concepts
 
-* [[n-duality]]
+* [[Atiyah duality]]
 
 ## Referenes
 
