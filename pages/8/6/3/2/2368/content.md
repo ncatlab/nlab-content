@@ -31,6 +31,8 @@ For concretely working with these objects, it is often useful to have concrete  
 
 Historically, this had been desired but out of reach for a long time. When the relevant [[highly structured ring spectra]] were finally found, the relief was substantial and led to terminology such as "[[brave new algebra]]". More recently maybe the term [[higher algebra]] is becoming more popular.
 
+More recently, model structures were found which also admit symmetric monoidal smash products, but which are not of the form "highly structured spectra": [[model structure for excisive functors]].
+
 ## Prehistory
 
 As a first step one wants a [[model category of spectra]] $\mathcal{S}$ that [[presentable (infinity,1)-category|presents]] the full [[(infinity,1)-category of spectra]]. This allows to model the notion of [[equivalence]] of spectra and of [[homotopies]] between maps of spectra.  Several such model categories 
@@ -81,6 +83,11 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 
 * [[S-module]], [[model structure on S-modules]]
 
+Also the
+
+* [[model structure for excisive functors]]
+
+carries a symmetric monoida smash product.
 
 ## References
 
