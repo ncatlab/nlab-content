@@ -27,7 +27,7 @@ Typically and naturally, a model structure on spectra forms a [[stable model cat
 
 ## Examples
 
-A classical model structure, not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
+A classical model structure, not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)), see at _[[Bousfield-Friedlander model structure]]_.
 
 Among the model structures with a [[symmetric monoidal smash product of spectra]] ("highly structured spectra") are
 
@@ -44,6 +44,8 @@ as well as
 
 ## Related concepts
 
+* [[model structure for connective spectra]]
+
 * [[model structure on presheaves of spectra]]
 
 * [[model structure for ring spectra]] 
@@ -55,5 +57,7 @@ as well as
 * [[stable (infinity,1)-category]]
 
 ## References
+
+The [[Bousfield-Friedlander model structure]] is due to
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of 
