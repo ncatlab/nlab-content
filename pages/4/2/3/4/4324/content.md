@@ -95,6 +95,8 @@ By the [above](#InclusionIntoAllSpectra), connective spectra form a [[coreflecti
 
 * [[connective cover]]
 
+* [[model structure for connective spectra]]
+
 [[!include k-monoidal table]]
 
 
