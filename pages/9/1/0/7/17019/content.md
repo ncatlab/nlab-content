@@ -45,7 +45,7 @@ This is equivalently the [[topological Hochschild homology]] of the sphere spect
 
 * {#BlumbergMandell13} [[Andrew Blumberg]], [[Michael Mandell]], _The homotopy theory of cyclotomic spectra_ ([arXiv:1303.1694](http://arxiv.org/abs/1303.1694))
 
-* [[Clark Barwick]], [[Saul Glasman]], _Cyclonic spectra, cyclotomic spectra, and a conjecture of Kaledin_ ([pdf](http://dl.dropbox.com/u/1741495/papers/tornado1.pdf))
+* {#BarwickGlasman16} [[Clark Barwick]], [[Saul Glasman]], _Cyclonic spectra, cyclotomic spectra, and a conjecture of Kaledin_ ([arXiv:1602.02163](http://arxiv.org/abs/1602.02163))
 
 * [[Clark Barwick]], [[Saul Glasman]], _Noncommutative syntomic realization_ ([pdf](http://dl.dropbox.com/u/1741495/papers/tornado2.pdf))
 
