@@ -5,4 +5,7 @@
 
 ## References
 
+* Pedro Boavida de Brito, Michael S. Weiss, _Manifold calculus and homotopy sheaves_ ([arXiv:1202.1305](http://arxiv.org/abs/1202.1305))
+
+
 * [MO discussion](http://mathoverflow.net/a/230293/381)
