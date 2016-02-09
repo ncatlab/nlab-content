@@ -17,7 +17,9 @@
 
 ## Idea
 
-The concept of _$\Omega$-spectra_ is one several [[equivalence of (∞,1)-categories|equivalent]] [[presentable (∞,1)-category|presentation]] of the [[stable (∞,1)-category of spectra]]. 
+Among [[sequential spectrum|sequential]] [[pre-spectra]] $X$, the $\Omega$-spectra are those for which the structure map $X_n \to \Omega X_{n+1}$ is a [[weak homotopy equivalence]]  (beware that some authors require a [[homeomorphism]] instead and say "weak $\Omega$-spectrum", for the more general case).
+
+Omega-spectra are particularly good representatives among [[pre-spectra]] of the objects of the [[stable (∞,1)-category of spectra]], hence of the [[stable homotopy category]]. For instance they are (after [[geometric realization]]) the [[fibrant objects]] of the [[Bousfield-Friedlander model structure]].
 
 ## Definition
 
@@ -29,7 +31,7 @@ $$
   \,.
 $$ 
 
-Remark: In terms of [[model category]] [[presentable (∞,1)-category|presentation]] one may also consider sequences of [[topological spaces]] equipped with [[homeomorphisms]] $E_n \longrightarrow \Omega E_{n+1}$  See at _[[spectrum]]_ the section <a href="http://nlab.mathforge.org/nlab/show/spectrum#OmegaSpectrum">Omega-spectra</a>.
+Remark: In terms of [[model category]] [[presentable (∞,1)-category|presentation]] one may also consider sequences of [[topological spaces]] equipped with _[[homeomorphisms]]_ $E_n \longrightarrow \Omega E_{n+1}$  See at _[[spectrum]]_ the section _[Omega-spectra](spectrum#OmegaSpectrum)_.
 
 ## Properties
 
