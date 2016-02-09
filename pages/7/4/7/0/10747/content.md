@@ -21,7 +21,7 @@
 
 Symmetric spectra are one version of [[highly structured spectra]] that support a [[symmetric monoidal smash product of spectra]]. A _symmetric spectrum_ is a sequence of [[topological spaces]]/[[simplicial sets]] which are compatibly equipped with an [[action]] of the [[symmetric group]].
 
-The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
+The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra. This is of course such that truncating down to the [[homotopy category]] yields equivalently the [[stable homotopy category]] with its usual [[smash product of spectra]].
 
 
 The main technical issue with symmetric spectra is that the naive definition of [[homotopy groups]] for them is not general homotopy correct, one needs to replace by a "semistable symmetric spectrum" first, see [below](#HomotopyGroups). This problem goes away for [[orthogonal spectra]] (these however need to be based on [[topological spaces]] instead of [[simplicial sets]]).
@@ -38,15 +38,17 @@ e.g. ([Schwede 12, I.3](#Schwede12))
 ### Homotopy groups
  {#HomotopyGroups}
 
-The main technical issue with symmetric spectra is that the evident definition of [[homotopy groups]] of symmetric spectra $X$ as 
+The main technical issue with symmetric spectra is that the evident definition of [[stable homotopy groups]] of symmetric spectra $X$ as 
 
 $$
   \pi_n(X) = \underset{\longrightarrow}{\lim}_k \pi_{k+n}(X_k)
 $$
 
-does not in general come out in the homotopy correct way, one needs to replace by a "semistable symmetric spectrum" first, which however is hard to control ([Schwede 12, chapter I, sections 2 and 6 and 8](#Schwede12)), survey includes ([Malkiewich 14, section 2.3](#Malkiewich14)).
+does _not_ in general come out in the homotopy correct way; instead one needs to replace by a "semistable symmetric spectrum" first, which however is hard to control ([Schwede 12, chapter I, sections 2 and 6 and 8](#Schwede12)), survey includes ([Malkiewich 14, section 2.3](#Malkiewich14)). 
 
-This problem goes away for [[orthogonal spectra]].
+Among the various (now) common models for [[spectra]], this issue is unique to symmetric spectra, see also the comment in ([Mandell-May-Schwede-Shipley 01, p. 3](#MandellMaySchwedeShipley01)).
+
+In particular, this problem goes away for the concept of [[orthogonal spectra]], which otherwise is very similar to that of symmetric spectra and shares most of its advantages (except that it does not admit a version based on [[simplicial sets]]).
 
 ## Related concepts
 
@@ -67,6 +69,10 @@ The orginal article is
 A comprehensive textbook account is in 
 
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+Discussion of the [[model structure on symmetric spectra]] includes
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 
 Brief reviews include
