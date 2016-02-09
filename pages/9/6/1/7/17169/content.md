@@ -17,7 +17,14 @@
 
 ## Definition
 
-Given a sequential [[spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
+Given a [[pointed topological space]] $X$, then its _stable homotopy groups_ are the [[colimit]] of ordinary [[homotopy groups]] of its [[reduced suspensions]]
+
+$$
+  \pi_n^S(X) \coloneqq \underset{\longrightarrow}{\lim}_k \pi_{n+k}(\Sigma^k X)
+  \,.
+$$
+
+More generallly, given a sequential [[spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
 
 $$
   \pi_n(E) 
@@ -28,11 +35,37 @@ $$
 
 over the [[homotopy groups]] of the component spaces.
 
+## Properties
+
+For $E = \Sigma^\infty X$ the [[suspension spectrum]] of a [[pointed topological space]], we have
+
+$$
+  \pi_n^S(X) \simeq \pi_n(\Sigma^\infty X)
+  \,.
+$$
+
+For $E$ a (weak) [[Omega spectrum]] then the colimit is attained:
+
+$$
+  \pi_n(E)
+  \simeq
+  \left\{
+    \array{
+      \pi_k(E_0) & for \; k \geq 0
+      \\
+      \pi_0(E_k) & for k \leq 0
+    }
+  \right.
+$$
+
 ## Related concepts
 
 * [[homotopy group]]
 
+* [[free infinite loop space]]
+
 * [[equivariant homotopy group]]
+
 
 ## Examples
 
