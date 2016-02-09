@@ -6,4 +6,7 @@
 
 * [[stable homotopy theory]], [[function spectra]]
 
+* [[strong shape theory]]
+
 category: people
+[[!redirects H. M. Hastings]]
