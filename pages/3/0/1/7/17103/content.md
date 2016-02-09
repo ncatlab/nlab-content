@@ -1,4 +1,17 @@
-[[!redirects CW spectrum]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -9,7 +22,7 @@
 
 The notion of _CW-spectrum_ is the analogue for [[spectra]] of the notion of [[CW-complex]] for [[topological spaces]].
 
-A CW-spectrum $S_\bullet$ is one all whose coomponent spaces $S_n$ are [[CW-complexes]], and all whose structure maps $\Sigma S_n \longrightarrow S_{n+1}$ are embeddings of subcomplexes (e.g. [Adams 74, p. 139](#Adams74)).
+A CW-spectrum $S_\bullet$ is one all whose component spaces $S_n$ are [[CW-complexes]], and all whose structure maps $\Sigma S_n \longrightarrow S_{n+1}$ are inclusions of subcomplexes (e.g. [Adams 74, p. 139](#Adams74)).
 
 ## References
 
@@ -21,3 +34,5 @@ A CW-spectrum $S_\bullet$ is one all whose coomponent spaces $S_n$ are [[CW-comp
 
 [[!redirects CW-spectrum]]
 [[!redirects CW-spectra]]
+
+[[!redirects CW spectrum]]
