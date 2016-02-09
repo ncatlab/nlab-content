@@ -113,12 +113,540 @@ An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is
 
 ## **Part 1) Stable homotopy theory**
 
-[[stable homotopy theory]]
+We set up [[stable homotopy theory]].
  
-We follow ([Malkiewich 14](#Malkiewich14)), see also ([Adams 74, part III sections 2-7](#Adams74)).
+**Literature.** For a decent quick idea see ([Malkiewich 14](#Malkiewich14)).
+The original is still good: ([Adams 74, part III sections 2-7](#Adams74)),
+except where it considers the [[stable homotopy category]] in its incarnation
+as the [[Adams category]], better to consider the [[homotopy category]] of the
+[[Bousfield-Friedlander model structure]]. We go through this [below](#Spectra).
 
-### Spectra
+### The classical homotopy category
+
+We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the plain [[homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
+
++-- {: .num_defn #TopologicalSimplex}
+###### Definition
+
+For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,  up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
+
+$$
+  \Delta^n \coloneqq 
+  \{
+    \vec x \in \mathbb{R}^{n+1}
+    |
+    \sum_{i = 0 }^n x_i = 1 \; and \;
+    \forall i . x_i \geq 0 
+  \}
+  \subset \mathbb{R}^{n+1}
+$$
+
+of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $n = 0$ this is the [[nLab:point]], $\Delta^0 = *$.
+
+For $n = 1$ this is the standard [[nLab:interval object]] $\Delta^1 = [0,1]$.
+
+For $n = 2$ this is the filled triangle.
+
+For $n = 3$ this is the filled tetrahedron.
+
+=--
+
+
+
++-- {: .num_defn #FaceInclusionInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the 
+**$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex, def. \ref{TopologicalSimplex}, is the subspace inclusion
+
+$$
+  \delta_k : \Delta^{n-1} \hookrightarrow \Delta^n
+$$
+
+induced under the coordinate presentation of def. \ref{TopologicalSimplex},
+by the inclusion 
+
+$$
+  \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
+$$
+
+which "omits" the $k$th canonical coordinate:
+
+$$
+  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The inclusion 
+
+$$
+  \delta_0 : \Delta^0 \to \Delta^1
+$$ 
+
+is the inclusion
+
+$$
+  \{1\} \hookrightarrow [0,1]
+$$ 
+
+of the "right" end of the standard interval. The other inclusion 
+
+$$
+  \delta_1 : \Delta^0 \to \Delta^1
+$$ 
+
+is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
+
+=--
+
++-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$ and $0 \leq k \lt n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
+
+$$
+  \sigma_k : \Delta^{n} \to \Delta^{n-1}
+$$
+
+induced under the barycentric coordinates of def. \ref{TopologicalSimplex} under the surjection
+
+$$
+  \mathbb{R}^{n+1} \to \mathbb{R}^n
+$$
+
+which sends
+
+$$
+  (x_0, \cdots, x_n) \mapsto (x_0, \cdots, x_{k} + x_{k+1}, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #SingularSimplex}
+###### Definition
+
+For $X \in $ [[Top]]  and $n \in \mathbb{N}$, a **singular $n$-simplex** in $X$ is a [[continuous map]]
+
+$$
+  \sigma : \Delta^n \to X
+$$
+
+from the topological $n$-simplex, def. \ref{TopologicalSimplex}, to $X$.
+
+Write 
+
+$$
+  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
+$$ 
+
+for the set of singular $n$-simplices of $X$.
+
+=--
+
+The sets $(Sing X)_\bullet$ here are closely related by an interlocking system of maps that make them form what is called a _[[simplicial set]]_, and as such the collection of these sets of singular simplices is called the _[[singular simplicial complex]]_ of $X$. We discuss the definition of simplicial sets now and then come back to this below in def. \ref{SingularSimplicialComplex}.
+
+Since the topological $n$-simplices $\Delta^n$ from def. \ref{TopologicalSimplex} sit inside each other by the face inclusions of def. \ref{FaceInclusionInBarycentricCoords}
+
+$$
+  \delta_k : \Delta^{n-1} \to \Delta^{n}
+$$
+
+and project onto each other by the degeneracy maps, def. \ref{DegeneracyProjectionsInBarycentricCoords}
+
+$$
+  \sigma_k : \Delta^{n+1} \to \Delta^n
+$$
+
+we dually have functions
+
+$$
+  d_k \coloneqq Hom_{Top}(\delta_k, X) : (Sing X)_n \to (Sing X)_{n-1}
+$$
+
+that send each singular $n$-simplex to its $k$-face and functions
+
+$$
+  s_k \coloneqq Hom_{Top}(\sigma_k,X) : (Sing X)_{n} \to (Sing X)_{n+1}
+$$
+
+that regard an $n$-simplex as beign a degenerate ("thin") $(n+1)$-simplex.
+All these sets of simplices and face and degeneracy maps between them form the following structure. 
+
++-- {: .num_defn #SimplicialSet}
+###### Definition
+
+A **[[nLab:simplicial set]]** $S \in sSet$ is 
+
+* for each $n \in \mathbb{N}$ a [[nLab:set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
+
+* for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[nLab:totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
+
+  a [[function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
+
+* for each [[surjective map]] $\sigma_i : \overline{n+1} \to \bar n$ of [[totally ordered sets]]
+
+  a [[function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
+
+such that these functions satisfy the _[[nLab:simplicial identities]]_.
+
+=--
+
++-- {: .num_defn #SimplicialIdentities}
+###### Definition
+
+The **simplicial identities** satisfied by face and degeneracy maps as above are (whenever these maps are composable as indicated):
+
+1. $ d_i \circ d_j  = d_{j-1} \circ d_i$ if $i \lt j$,
+
+1. $s_i \circ s_j  = s_j \circ s_{i-1}$ if $i \gt j$.
+
+1. $d_i \circ s_j =  \left\{ \array{ s_{j-1} \circ d_i &  if \;  i \lt j \\ id & if  \;  i = j \; or \; i = j+1 \\ s_j \circ d_{i-1} &  if i \gt j+1 } \right. $
+
+=--
+
+It is straightforward to check by explicit inspection that the evident injection and restriction maps between the sets of [[singular simplices]] make $(Sing X)_\bullet$ into a simplicial set. However for working with this, it is good to streamline a little:
+
++-- {: .num_defn}
+###### Definition
+
+The **[[simplex category]]** $\Delta$ is the [[full subcategory]] of [[Cat]] on the free categories of the form
+
+$$
+  \begin{aligned}
+    [0] & \coloneqq \{0\}
+    \\
+    [1] & \coloneqq \{0 \to 1\}
+    \\
+   [2] & \coloneqq \{0 \to 1 \to 2\}
+   \\
+   \vdots
+   \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[spine]]" of the $n$-[[nLab:simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
+
+$$
+  [2]  
+  = 
+  \left\{
+  \array{
+     && 1
+     \\
+     & \nearrow && \searrow
+     \\
+    0 &&\to&& 2
+  }
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+A [[functor]] 
+
+$$
+  S : \Delta^{op} \to Set
+$$
+
+from the [[nLab:opposite category]] of the [[nLab:simplex category]] to the category [[nLab:Set]] of sets is canonically identified with a [[nLab:simplicial set]], def. \ref{SimplicialSet}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One checks by inspection that the simplicial identities 
+characterize precisely the behaviour of the morphisms in
+$\Delta^{op}([n],[n+1])$ and $\Delta^{op}([n],[n-1])$.
+
+=--
+
+This makes the following evident:
+
++-- {: .num_example #StandardCosimplicialTopologicalSpace}
+###### Example
+
+The [[topological simplices]] from def. \ref{TopologicalSimplex} arrange into a _[[cosimplicial object]] in [[Top]]_, namely a [[functor]]
+
+$$
+  \Delta^\bullet : \Delta \to Top
+  \,.
+$$
+
+=--
+
+With this now the structure of a simplicial set on $(Sing X)_\bullet$, def. \ref{SingularSimplex}, is manifest: it is just the _[[nerve]]_ of $X$ with respect to $\Delta^\bullet$, namely:
+
++-- {: .num_defn #SingularSimplicialComplex}
+###### Definition
+
+For $X$ a [[topological space]] its **[[singular simplicial complex|simplicial set of singular simplicies]]**  (often called the **[[singular simplicial complex]]**)
+
+$$
+  (Sing X)_\bullet : \Delta^{op} \to Set
+$$
+
+is given by composition of the functor from example \ref{StandardCosimplicialTopologicalSpace} with the [[nLab:hom functor]] of [[nLab:Top]]:
+
+$$
+  (Sing X) : [n] \mapsto Hom_{Top}( \Delta^n , X )
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark 
+
+It turns out -- this is the content of the _[[nLab:homotopy hypothesis]]-theorem_ ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)) -- that [[homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$. Moreover, the [[geometric realization]] of $Sing X$ is a model for the same [[homotopy type]] as that of $X$, but with the special property that it is canonically a [[cell complex]] -- a [[CW-complex]]. Better yet, $Sing X$ is itself already good cell complex, namely a [[Kan complex]].
+
+=--
+
+
++-- {: .num_defn #Horn}
+###### Definition
+
+For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** 
+is the subsimplicial set 
+
+$$
+  \Lambda^i[n]
+  \hookrightarrow
+  \Delta[n] 
+$$
+
+of the simplicial $n$-[[simplex]], which is the [[union]] of all faces _except_ the  $i^{th}$ one.
+
+This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **inner horn**.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+
+Since [[sSet]]  is a [[presheaf category]], [[unions]] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
+
+=--
+
+
++-- {: .num_defn #KanComplexes}
+###### Definition
+
+A _[[Kan complex]]_ is a [[simplicial set]] $S$ that satisfies the _Kan condition_, 
+
+* which says that all [[horns]] of the simplicial set have _fillers_/extend to [[simplices]];
+
+* which means equivalently that the unique homomorphism $S \to pt$ from $S$ to the [[point]] (the [[terminal object|terminal]] [[simplicial set]]) is a [[Kan fibration]];
+
+* which means equivalently that for all [[diagrams]] of the form
+
+  $$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow && \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow && 
+    \\
+    \Delta[n] 
+  }
+  $$
+
+  there exists a diagonal morphism
+
+  $$
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow &\nearrow& \downarrow
+    \\
+    \Delta[n] &\to& pt
+  }
+  \;\;\;
+  \leftrightarrow
+  \;\;\;
+  \array{
+    \Lambda^i[n] &\to& S
+    \\
+    \downarrow &\nearrow& 
+    \\
+    \Delta[n] 
+  }
+  $$
+
+  completing this to a [[commuting diagram]];
+
+* which in turn means equivalently that the map from $n$-simplices to $(n,i)$-horns is an [[epimorphism]]
+$$
+  [\Delta[n], S]\, \twoheadrightarrow \,[\Lambda^i[n],S]
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[topological space]], its [[singular simplicial complex]]
+$Sing(X)$, def. \ref{SingularSimplicialComplex}, is a Kan complex, def. \ref{KanComplexes}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The inclusions ${{\Lambda^n}_{Top}}_k \hookrightarrow \Delta^n_{Top}$ of topological horns into topological simplices are  [[retracts]], in that there are [[continuous maps]] $\Delta^n_{Top} \to {{\Lambda^n}_{Top}}_k$ given by "squashing" a topological $n$-simplex onto parts of its boundary, such that
+
+$$
+  ({{\Lambda^n}_{Top}}_k \to \Delta^n_{Top} \to
+  {{\Lambda^n}_{Top}}_k)
+  =
+  Id
+  \,.
+$$
+
+Therefore the map
+$[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equal to  to $Top(\Delta^n, X) \to Top(\Lambda^n_k, X)$ which has a right inverse $Top(\Lambda^n_k, X) \to Top(\Delta^n, X)$.
+
+=--
+
++-- {: .num_defn #LeftHomotopyOfSimplicialSets}
+###### Definition
+
+For $X$ a [[simplicial set]], def. \ref{SimplicialSet}, its _simplicial [[cylinder object]]_ is the [[Cartesian product]] $X\times \Delta[1]$ (formedin the [[category]] [[sSet]]).
+
+A _[[left homotopy]]_ 
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+between two morphisms
+
+$$
+  f,g\;\colon\; X \longrightarrow Y
+$$
+
+of [[simplicial sets]] is a morphism 
+
+$$
+  \eta \;\colon\; X \times \Delta[1] \longrightarrow Y
+$$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+     X 
+     \\
+     {}^{\mathllap{(id_X,d_1)}}\downarrow & \searrow^{\mathllap{f}}
+     \\
+     X \times \Delta^1 &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id_x, d_0)}}\uparrow & \nearrow_{\mathllap{g}}
+     \\
+     X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LeftHomotopyIsEquivalence}
+###### Proposition
+
+For $Y$ a [[Kan complex]], def. \ref{KanComplexes}, and $X$ any [[simplicial set]], then left homotopy, def. \ref{LeftHomotopyOfSimplicialSets},
+regarded as a [[relation]]
+
+$$
+  (f\sim g) \Leftrightarrow (f \stackrel{\exists}{\Righrarrow} g)
+$$
+
+on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
+
+=--
+
+With this we finally arrive at a presentation of the classical homotopy category. For our purposes the following may be taken to be a definition, otherwise it is part of the theorem of ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)), known sometimes as the _[homotopy hypothesis for Kan complexes](homotopy hypothesis#ForKanComplexes)_.
+
++-- {: .num_defn}
+###### Definition
+
+The classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] $\simeq$ [[Ho(∞Grpd)]]
+is [[equivalence of categories|equivalently]] the category whose
+
+* [[objects]] are [[Kan complexes]];
+
+* [[morphisms]], are left-[[homotopy classes]], def. \ref{LeftHomotopyIsEquivalence}, of morphisms of simplicial sets.
+
+=--
+
+
+
+
+
+### The stable homotopy category
  {#Spectra}
+
+We construct the [[stable homotopy category]].
+
+The stable homotopy category is to be the [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
+
+$$
+  \array{
+     Ho(Top)^{\ast/} 
+      &
+      \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     Ho(Top)^{\ast/}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     Ho(Spectra) 
+     &
+     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     &
+     Ho(Spectra)
+  }
+  \,.
+$$
+
+
+In contrast to the classical [[homotopy category]], the stable homotopy category is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
+
 
 * [[pointed object]], [[pointed topological space]]
 
@@ -2226,7 +2754,7 @@ classical [[Adams spectral sequence]]...
 
 (... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
 
-#### The case $E = H \mathbb{F}_9$ and $X = M U$
+#### The case $E = H \mathbb{F}_p$ and $X = M U$
 
 (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
@@ -2235,6 +2763,12 @@ classical [[Adams spectral sequence]]...
 #### Outlook: The case $E = M U$ and $X = \mathbb{S}$
 
 (...) [[Adams-Novikov spectral sequence]] (...)
+
+$\,$
+
+***
+
+$\,$
 
 ## Seminar: Complex oriented cohomology
  {#ComplexOrientedCohomology}
