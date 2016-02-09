@@ -35,6 +35,8 @@ $$
 
 over iterated [[suspension]] and [[loop space]] construction. 
 
+This is the degree-0 part of [[spectrification]] of [[suspension spectra]].
+
 Equivalently this is
 
 $$
@@ -55,6 +57,8 @@ the [[stabilization]] [[adjunction]] between the [[homotopy category]] [[Ho(Top)
 
 
 ## Related concepts
+
+* [[spectrification]]
 
 * [Omega spectrum -- Completion of a suspension spectrum](Omega-spectrum#CompletionOfSuspensionSpectra)
 
