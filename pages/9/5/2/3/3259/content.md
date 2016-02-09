@@ -6,6 +6,8 @@ Eric Friedlander is an American mathematician, who has worked extensively in alg
 
 ## related $n$Lab entries
 
+* [[Bousfield-Friedlander model structure]]
+
 * [[étale homotopy]]
 
 * [[Nisnevich site]]
