@@ -668,13 +668,8 @@ In contrast to the classical [[homotopy category]], the stable homotopy category
 
   [[homotopy fiber sequence]], [[mapping cone]]
 
-### Examples
- {#Examples}
 
-...[[S]], [[HA]], [[MO]], [[MU]], [[KO]], [[KU]]...
-
-
-### Ring spectra
+### Higher algebra
  {#RingSpectra}
 
 * [[smash product of spectra]]
@@ -687,6 +682,11 @@ In contrast to the classical [[homotopy category]], the stable homotopy category
 
 * [[module spectrum]]
 
+
+### Examples: $HA, KO, KU, MO, \cdots, MU (BP), S$
+ {#Examples}
+
+[[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
 
 
 
@@ -952,7 +952,7 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 
 
-## **Interlude: Spectral sequences**
+## **Interlude) Spectral sequences**
  {#SpectralSequences}
 
 In the end, what one wants to compute in stable homotopy 
@@ -2877,7 +2877,7 @@ For instance a _[[multiplicative cohomology theory]]_ is one which is represente
 
 #### Atiyah-Hirzebruch spectral sequence
 
-(-- from here on we need the basics of [Part 1) Spectral sequences](#SpectralSequences) --)
+(-- from here on we need the basics of [Interlude: Spectral sequences](#SpectralSequences) --)
 
 Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ which serves to compute $E$-cohomology of any space $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E_\bullet(\ast)$.
 
@@ -3017,10 +3017,17 @@ $\,$
 
 ### Basic
 
-For section **1) Stable homotopy theory** we follow ([Adams 74, part III sections 2-7](#Adams74)) and
+For section **1) Stable homotopy theory** we follow the modern picture of the stable homotopy category in the style of the exposition
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
+but we'll also take some clues from the [[Bousfield-Friedlander model structure]] (without introducing [[model category]] theory in full beauty).
+
+For more details, the classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read (but ignore the "[[Adams category]]"-construction of the stable homotopy category in sections III.2 and III.3).
+
+For **Interlude: Spectral sequences** the canonical text to turn to is
+
+* {#McCleary01} [[John McCleary]], _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
 
 For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
@@ -3031,15 +3038,22 @@ For **S1) Generalized cohomology** a neat account is in:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
- 
-For **S2) Complex oriented cohomology** we follow
 
-* {#Adams74} [[Frank Adams]], parts I and II of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+For **S2) Cobordism theory** an efficient collection of the highlights is in
+
+* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
+
+except that it omits proof of the [[Leray-Hirsch theorem]] and the [[Thom isomorphism]], but see the references there.
+ 
+For **S3) Complex oriented cohomology** we follow part II of 
+
+* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+
+and
 
 * {#Lurie10} [[Jacob Lurie]], lectures 1-16 of _[[Chromatic Homotopy Theory]]_, 2010
 
-(These overlap. [Lurie 10](#Lurie10) at some point invokes [[A-∞ rings]] where [Adams 74](#Adams74) sticks with [[ring spectra]]. )
+(These overlap, pick the one that seems more inviting on first reading.)
 
 ### Further reading
 
