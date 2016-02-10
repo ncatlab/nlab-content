@@ -62,6 +62,10 @@ If $\mathcal{C}$ is a [[stable (∞,1)-category]] with [[sequential limits]]/[[s
 
 The [[spectral sequence of a filtered stable homotopy type]] associated with the chromatic tower (regarded as a [[filtered object in an (infinity,1)-category]]) is the _[[chromatic spectral sequence]]_ ([Wilson 13, section 2.1.2](#Wilson13))
 
+## Related concepts
+
+* [[tower of homotopy fibers]]
+
 [[!include Lurie spectral sequences -- table]]
 
 
