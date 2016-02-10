@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -24,8 +23,7 @@ There are several conditions on a topos that are necessary and sufficient to be 
 * Every [[subobject]] has a complement (the general definition of Boolean category).
 * Every [[subobject poset|subobject lattice]] is a [[Boolean algebra]].
 * The [[subobject classifier]] $\Omega$ is an [[internalization|internal]] Boolean algebra.
-* The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, but this alone is not sufficient).
-
+* The maps $\top, \bot: 1 \to \Omega$ are a [[coproduct]] cone (so in particular, $\Omega \cong 1 + 1$, and in fact this is enough, because the map $[\top, \bot]: 1 + 1 \to \Omega$ is always a monomorphism, and any monic endomorphism of $\Omega$ is an automorphism).
 
 ## Properties
 
