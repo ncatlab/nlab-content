@@ -170,10 +170,6 @@ $$
 
 =--
 
-+-- {: .query}
-[[NikolajK]]: Should that be bold H instead of bold X? If not, what is bold X?
-=--
-
 Write $\frac{1}{2} \mathbf{p}_1 : \mathbf{B} Spin(n) \to \mathbf{B}^3 U(1)$ in $\mathbf{H}$ for the topological or smooth refinement of the first fractional Pontryagin class (see [[differential string structure]] for details on this).
 
 
