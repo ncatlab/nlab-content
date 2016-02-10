@@ -330,7 +330,7 @@ $$
 
 such that 
 
-1. each hook is a [[homotopy fiber sequence]];
+1. each hook is a [[homotopy fiber sequence]] (hence it is a [[tower of homotopy fibers]]);
 
 1. the [[composition]] of the $(\Sigma \dashv \Omega)$-[[adjuncts]] of $\Sigma_{p_{n-1}}$ with $\Sigma^n \kappa_n$
 
