@@ -1,9 +1,13 @@
-I like theoretical physics and am interested in clear and encompassing foundations. For email and more, visit my website _[AxiomsOfChoice.org](axiomsofchoice.org)_.
+[[!redirects Nikolaj+Kuntner]]
+I do theoretical physics and am interested in clear and encompassing foundations. 
 
-![Warning: Aug. 2014](http://i.imgur.com/mBK4dTV.jpg)
+For email and more, visit my Wiki
+_[AxiomsOfChoice.org](axiomsofchoice.org)_.
 
-![Warning: Functor - keep 2m distance](http://i.imgur.com/2gpWbon.jpg)
+![Alt text](http://i.imgur.com/mBK4dTV.jpg)
 
 +-- {: .query}
-[[NikolajK]]: querytext
+[[Nikolaj Kuntner]]: how to do a query text
 =--
+
+![Alt text](http://i.imgur.com/2gpWbon.jpg)
