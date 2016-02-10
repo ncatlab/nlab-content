@@ -38,7 +38,7 @@ There is an extensive geometric theory of homogeneous spaces for quantum groups 
 
 ## Related concepts
 
-* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[braided monoidal category]], [[noncommutative algebraic geometry]], [[noncommutative geometry]], [[Hopf-Galois extension]], [[matrix bialgebra]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yangian]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]]
+* [[Hopf algebra]], [[bialgebra]], [[gebra]], [[braided monoidal category]], [[noncommutative algebraic geometry]], [[noncommutative geometry]], [[Hopf-Galois extension]], [[matrix bialgebra]], [[Knizhnik-Zamolodchikov equation]], [[Tannaka duality]], [[Yangian]], [[Yang-Baxter equation]], [[classical Yang-Baxter equation]], [[quantum Yang-Baxter equation]], [[dynamical Yang-Baxter equation]], [[quantum linear group]], [[quantized function algebra]], [[quantized enveloping algebra]]
 
 * [[Poisson Lie group]]
 
