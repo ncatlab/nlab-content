@@ -985,23 +985,23 @@ There are roughly two main ways to decompose a spectrum $S$ into a sequence of s
        \\
        {}^{\mathllap{hofib(f_2)}}\downarrow
        \\
-       S_2 &\stackrel{}{\longrightarrow}&
+       X_2 &\stackrel{f_2}{\longrightarrow}& A_2
        \\
        {}^{\mathllap{hofib(f_1)}}\downarrow
        \\
-       S_1 &\stackrel{f_1}{\longrightarrow}&
+       X_1 &\stackrel{f_1}{\longrightarrow}& A_1
        \\
        {}^{\mathllap{hofib(f_0)}}\downarrow
        \\
-       S &\stackrel{f_0}{\longrightarrow}&
+       X &\stackrel{f_0}{\longrightarrow}& A_0
      }
    $$
 
-   Here the [[long exact sequence of homotopy groups]] of each of the  [[homotopy fiber sequences]] combine to what is called an [[exact couple]], and these give the coresponding "[[spectral sequence of an exact couple]]".
+   Here the [[long exact sequence of homotopy groups]] of each of the  [[homotopy fiber sequences]] combine to what is called an [[exact couple]], and these give the corresponding "[[spectral sequence of an exact couple]]".
 
 
 
-### Spectral sequence of a filtered complex
+### Spectral sequence of a filtration
 
 
 We begin with recalling basics of _[[relative homology]]_ and then seamlessly derive the notion of _[[spectral sequences]]_ from that.
@@ -2393,11 +2393,79 @@ Finally observe that $G_p H_p(X) \simeq H_p(X)$ by the definition of the filteri
 
 =--
 
-This concludes our discussion of how relative homology theory of cellularly filtered objects allows to efficiently compute the genuine homology of these objects, and how this motivates the general concept  of [[nLab:spectral sequences]] as organizing higher order relative homology groups. 
+This concludes our discussion of how relative homology theory of cellularly filtered objects allows to efficiently compute the genuine homology of these objects, and how this motivates the general concept  of [[spectral sequences]] as organizing higher order relative homology groups. 
 
-Next we consider the generalisation of the spectral sequence for computing [[ordinary cohomology]] to that computing [[generalized cohomology]], given by maps into [[spectra]]. 
 
-...[[Atiyah-Hirzebruch spectral sequence]]...
+### Spectral sequence of a tower of fibrations
+
++-- {: .num_defn #TowerOfFibrations}
+###### Definition
+
+Given a [[spectrum]] $X$, then a _resolution by a [[tower of homotopy fibers]]_ is a [[diagram]] of spectra of the form
+
+$$
+  \array{
+    \vdots
+    \\
+    {}^{\mathllap{hofib(f_2)}}\downarrow
+    \\
+    X_2 &\stackrel{f_2}{\longrightarrow}& A_2
+    \\
+    {}^{\mathllap{hofib(f_1)}}\downarrow
+    \\
+    X_1 &\stackrel{f_1}{\longrightarrow}& A_1
+    \\
+    {}^{\mathllap{hofib(f_0)}}\downarrow
+    \\
+    X &\stackrel{f_0}{\longrightarrow}& A_0
+  }
+$$
+
+such that each "hook"
+
+$$
+  X_{k+1} \stackrel{hofib(f_k)}{\longrightarrow} X_k \stackrel{f_k}{\longrightarrow} A_k 
+$$
+
+is a [[homotopy fiber sequence]].
+
+=--
+
+
+Given a tower of fibrations, def. \ref{TowerOfFibrations}, in each stage $k$ it induces a [[long exact sequence of homotopy groups]]
+
+$$
+  \cdots \to  \pi_{n+1}(A_k) 
+    \stackrel{\delta_n}{\longrightarrow} 
+  \pi_n(X_{k+1}) 
+    \stackrel{\pi_n(hofib(f_k))}{\to} 
+  \pi_n(X_k) 
+    \stackrel{\pi_n(f_k)}{\longrightarrow} 
+  \pi_n(A_k) 
+    \stackrel{\delta_{n-1}}{\longrightarrow} 
+  \pi_{n-1}(X_{k+1}) 
+  \to \cdots
+  \,.
+$$
+
+We may collect all these sequences in one single diagram by considering the [[bigraded object|bigraded]] [[abelian groups]] $\pi_\bullet(X_\bullet)$ and $\pi_\bullet(A_\bullet)$ and the single [[diagram]] of non-commuting and bidegree-shifting morphisms
+
+$$
+  \array{
+    \pi_\bullet(X_\bullet) 
+       && \stackrel{\pi_\bullet(hofib(f_\bullet))}{\longrightarrow} &&
+    \pi_\bullet(X_\bullet)
+    \\
+    & {}_{\mathllap{\delta}}\nwarrow && \swarrow_{\mathrlap{\pi_\bullet(f_\bullet)}}
+    \\
+    && \pi_\bullet(A_\bullet)
+  }
+  \,.
+$$
+
+...[[exact couple]]... [[spectral sequence of an exact couple]]...
+
+
 
 
 
