@@ -138,7 +138,7 @@ Given a [[filtered chain complex]] $F_\bullet C_\bullet$ as above we say for all
 1. $G_p C_{p+q}$ is the module of ***$(p,q)$-[[chains]]*** or of ***$(p+q)$-chains in filtering degree $p$***;
 
 
-1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
+1. $\begin{aligned} Z^r_{p,q}  & \coloneqq \left\{ c \in G_p C_{p+q} | \partial c = 0 \, mod\, F_{p-r} C_{\bullet} \right\} \\ & =  \left\{ c \in F_p C_{p+q} | \partial(c) \in F_{p-r} C_{p+q-1} \right\}/ F_{p-1}C_{p+q} \end{aligned}$
 
    is the module of ***$r$-almost $(p,q)$-[[cycles]]*** (the $(p+q)$-chains whose differentials vanish modulo terms of filtering degree $p-r$);
 
@@ -919,24 +919,25 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 ## Related concepts
 
+* [[Cartan-Eilenberg spectral sequence]]
+
 [[!include Lurie spectral sequences -- table]]
 
 ## References
 
-A detailed account is in 
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], chapter XV of _Homological algebra_, Princeton Univ. Press (1956)
 
-* Jennifer Orlich, _Spectral sequences and an application_ ([pdf](http://www.math.osu.edu/~flicker.1/orlich.pdf))
- {#Orlich}
+* {#Orlich} Jennifer Orlich, _Spectral sequences and an application_, 1998 ([pdf](http://www.math.osu.edu/~flicker.1/orlich.pdf))
+
 
 Lecture notes include
 
-* [[Michael Hutchings]], _Introduction to spectral sequences_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
- {#Hutchings}
+* {#Hutchings} [[Michael Hutchings]], _Introduction to spectral sequences_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/ss.pdf))
+ 
 
 and section 3 of 
 
 * [[Brandon Williams]], _Spectral sequences_ ([pdf](http://www.math.sunysb.edu/~mbw/notes/orals/Spectral%20Sequences.pdf))
-
 
 For further references see those listed at _[[spectral sequence]]_, 
 for instance section 5 of 
