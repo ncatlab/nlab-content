@@ -150,17 +150,21 @@ in which $\beta$ is the _mod-$p$ Bockstein_ homomorphism.
 
 ## References
 
-An early paper is:
+The original article is
 
 *  [[W. S. Massey]], _[Exact Couples in Algebraic Topology (Parts I and II)](http://www.maths.ed.ac.uk/~aar/papers/massey6.pdf), Annals of Mathematics, Second Series, Vol. 56, No. 2 (Sep., 1952), pp. 363-396 
 
-See
+A class of examples leading to what later came to be known as the [[Atiyah-Hirzebruch spectral sequence]] is discussed in section XV.7 of 
 
-* [[Frank Adams]], part III section 7 of _[[Stable homotopy and generalised homology]]_, 1974
+* {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
+
+An early lecture note account is in
+
+* [[Frank Adams]], part III, section 7 of _[[Stable homotopy and generalised homology]]_, 1974
  
-A standard textbook account is section 5.9 of
+A more recent textbook account is  of
 
-* [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_
+* [[Charles Weibel]], section 5.9 _[[An Introduction to Homological Algebra]]_
 
 A review with an eye towards application to the [[Adams spectral sequence]] is in 
 
