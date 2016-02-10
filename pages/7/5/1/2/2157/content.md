@@ -93,6 +93,11 @@ This definition is an affine version of the usual definition of a vector space i
 * $\Lambda_{r+s}(x,y) = \mu(\Lambda_r(x,y), x, \Lambda_s(x,y))$ (left distributivity of scalar multiplication)
 * $\Lambda_r(w, \mu(x,y,z)) = \mu(\Lambda_r(w,x), \Lambda_r(w,y), \Lambda_r(w,z))$ (right distributivity of scalar multiplication)
 
++-- {: .query}
+
+Joost: Could it be that there is an axiom missing here ? One can go from Vector spaces to the 2 ternary operations definition and back, but I can't see that by starting with the two ternary operations definition, going to vectorspaces and back, you get the same $\Lambda$. I guess you need an extra axiom as $\mu(x,y,\Lamda_r(y,z))=\Lambda_r(x,\mu(x,y,z))$.
+
+=--
 
 #### One quaternary operation
 
