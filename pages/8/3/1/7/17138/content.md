@@ -977,7 +977,7 @@ There are roughly two main ways to decompose a spectrum $S$ into a sequence of s
 
    this leads to the concept of "[[spectral sequence of a cofiltered spectrum]]" with the special and more famous case of "[[spectral sequence of a filtered complex]]".
 
-1. By a tower of [[homotopy fibers]]
+1. By a [[tower of homotopy fibers]]
 
    $$
      \array{
