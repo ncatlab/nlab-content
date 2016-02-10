@@ -54,7 +54,7 @@ $$
      \\
      && && && \vdots
     }
-  \right\}_{n \in \mathbb{Z}}
+  \right\}_{n \in \mathbb{N}}
   \,.
 $$
 
@@ -75,7 +75,7 @@ $$
 
 is equivalently 
 
-1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast \in seq$]);
+1. a choice of [[object]] $B \in \mathbf{H}$ (the image of $\ast \in seq$);
 
 1. a sequence of objects $\{X_n\} \in \mathbf{H}_{/B}$ in the [[slice (∞,1)-topos]] over $B$;
 
