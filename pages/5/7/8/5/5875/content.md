@@ -32,7 +32,7 @@ For background and details see [[fibration sequence]].
 
 * [[fiber sequence]]
 
-* Given a tower of [[homotopy fibers]] such as a [[Whitehead tower]] or [[Adams resolution]], the long exact sequences of homotopy groups for each stage combine to yield an [[exact couple]]. The corresponding [[spectral sequence]] is the _[[Adams spectral sequence]]_.
+* Given a [[tower of homotopy fibers]] such as a [[Whitehead tower]] or [[Adams resolution]], the long exact sequences of homotopy groups for each stage combine to yield an [[exact couple]]. The corresponding [[spectral sequence]] is the _[[Adams spectral sequence]]_.
 
 ## References
 
