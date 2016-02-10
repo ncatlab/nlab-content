@@ -258,8 +258,8 @@ for the [[homotopy colimit]] (the "homotopy [[direct limit]]") over this diagram
 
 =--
 
-+-- {: .num_note }
-###### Note
++-- {: .num_remark }
+###### Remark
 
 The [[topological space]] $B U$ is **not** equivalent to $B U(\mathcal{H}) $, where $U(\mathcal{H})$ is the [[unitary group]] on a separable infinite-dimensional [[Hilbert space]] $\mathcal{H}$. In fact the latter is [[contractible]], hence has a  [[weak homotopy equivalence]] to the point
 
