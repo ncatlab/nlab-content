@@ -92,10 +92,14 @@ The functor $Cod$ [[(∞,1)-Grothendieck construction|classifies]] the [[codomai
 
 ## References
 
-Section 6.1.3 of 
+ 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], section 6.1.3 of _[[Higher Topos Theory]]_
+ 
+Discussion of a local [[model structure on simplicial presheaves]] $[S^op, sSet_{Joyal}]_{loc}$ with respect to the [[Joyal model structure]] $sSet_{Joyal}$ for [[quasicategories]] is in
+
+* {#Meadows15} Nicholas Meadows, _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
+
 
 [[!redirects (∞,2)-sheaf]]
 [[!redirects (∞,2)-sheaves]]
