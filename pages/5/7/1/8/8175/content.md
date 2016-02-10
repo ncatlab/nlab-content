@@ -70,6 +70,9 @@ $$
 where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
 
 
+## Construction
+
+...[[Cartan-Eilenberg spectral sequence]]...
 
 
 ## Properties
