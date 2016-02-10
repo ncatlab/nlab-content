@@ -64,7 +64,7 @@ Generalization of this model structure from sequential pre-spectra in [[sSet]]$^
 
 * {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
-Discussion of the relation to the [[model structure on excisive functors]] is in 
+Discussion of the [[Quillen equivalence]] to the [[model structure on excisive functors]] (which does have a [[symmetric smash product of spectra]]) is in 
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
