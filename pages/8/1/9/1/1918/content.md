@@ -90,6 +90,7 @@ Many implications between separation axioms can be seen in the following Hasse d
 Here, there are two entries at each node; the one on the right includes the $T_0$ axiom, while the one on the left does not.  This diagram shows the separation axioms as a meet sub-[[semilattice]] of the lattice of all conditions on topological spaces; for example, you can see, by following the diagram upwards, that any space that is both **n**ormal and **r**egular must be $R_3$.  And since $R_3$ never appears in the tables above, you can take this as a *definition* of $R_3$.
 
 In general, the names in this diagram are:
+
 *  'P' for 'perfectly',
 *  'C' for 'complete',
 *  'N' for '[[normal space|normal]]',
@@ -117,6 +118,7 @@ Other terms are also in use, principally 'Tychonoff' for [[Tychonoff space|compl
 ### Other axioms
 
 There are other axioms sometimes included among the separation axioms that don\'t fit the preceding pattern; but like the others, they all hold of a metric space:
+
 *  [[sober space|sober]] and having enough points,
 *  [[semiregular space|semiregular]],
 *  fully normal and fully $T_4$, which are related to [[paracompact space|paracompactness]].
