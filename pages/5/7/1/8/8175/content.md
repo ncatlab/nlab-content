@@ -71,9 +71,82 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 
 
 ## Construction
+ {#Construction}
 
-...[[Cartan-Eilenberg spectral sequence]]...
++-- {: .num_prop}
+###### Proposition
 
+For $X$ be a finite [[CW-complex]], and $E$ be a [[spectrum]], 
+i.e. $E^\bullet$ a [[generalized cohomology theory]], 
+then there is a [[spectral sequence]] of the form
+
+$$
+  E_2^{p,q} 
+   = 
+  H^p(X, E^q(\ast))
+  \Rightarrow 
+  E^{p+q}(X)
+  \,,
+$$
+
+i.e. converging to the $E$-[[generalized cohomology]] of $X$ with second page the [[ordinary cohomology]] of $X$ with [[coefficients]] in the $E$-[[cohomology groups]] of the point.
+
+=--
+
+([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61))
+
++-- {: .proof #ProofOfAHSS}
+###### Proof
+
+Write $X_{k}$ for the [[simplicial skeleton|k-skeleton]] of the [[CW-complex]] $X$.
+
+Since $E^\bullet$ is a [[generalized cohomology theory]],
+it satisfies the [[Eilenberg-Steenrod axioms]] (except possibly the
+dimension axiom) and hence we have a
+[[Cartan-Eilenberg spectral sequence]] 
+
+$$
+  E_1^{p,q} 
+   = 
+  E^{p+q}(X_p, X_{p-1})
+  \Rightarrow 
+  E^{p+q}(X)
+$$
+
+converging to the desired cohomology group, with first page consisting of the generalized [[relative cohomology]] groups of the $p$-skeleta ralative the $(p-1)$-skeleta.
+
+To analyze this, consider the [[homotopy cofiber sequence]]
+
+$$
+  X_{p-1} \hookrightarrow X_p \longrightarrow \underset{i}{\bigvee} \sigma_i/\partial \sigma_i
+  \,,
+$$
+
+where $i$ runs over the set of $p$-cells $\sigma_i$ of $X$. Homming that into $E$ gives that the $E$-[[relative cohomology]] of $X_p$ relative to $X_{p-1}$ is the [[direct sum]] over all $p$-cells of the [[cohomology groups]] of the $p$-cells relative their boundary, hence of the [[reduced cohomology]] of the [[n-sphere|p-sphere]]:
+
+$$
+  \begin{aligned}
+    E^{p+q}(X_p, X_{p-1})
+      & \simeq
+    \underset{i}{\oplus} E^{p+q}(\sigma_i,\partial \sigma_i)
+     \\
+      & \simeq
+    \underset{i}{\oplus} \tilde E^{p+q}(S^p)
+    \\
+     & \simeq
+    \underset{i}{\oplus} \tilde E^{q}(\ast)
+     \\
+     & \simeq
+      C^p(X, E^q(\ast))
+  \end{aligned}
+  \,.
+$$
+
+Here in the middle step we applied the [[suspension isomorphism]] and in the last step we used the assumption that there is just a [[finite set]] of cells.
+
+This shows that the entries of the $E_1$-page are the [[singular cohomology|singular]] [[chains]] of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the Cartan-Eilenberg spectral sequence acts as the singular coboundary operator (...).
+
+=--
 
 ## Properties
 
