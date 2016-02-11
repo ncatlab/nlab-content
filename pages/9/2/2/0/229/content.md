@@ -68,6 +68,8 @@ Generalizations of the notion of abelian group in [[higher category theory]] inc
 
 * and [[spectrum|spectra]].
 
+An abelian group may also be seen as a [[discrete category|discrete]] [[compact closed category]].
+
 ## Related entries
 
 * [[tensor product of abelian groups]], [[direct sum of abelian groups]]
