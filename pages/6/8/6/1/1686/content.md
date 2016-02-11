@@ -174,15 +174,36 @@ $$
 +-- {: .num_remark }
 ###### Remark
 
-In practice spectral sequences are often referred to via their first non-trivial page, often also the page at which it collapses, def. \ref{Collaps}, often the second page. Then one often uses notation such as
+In practice spectral sequences are often referred to via their first interesting page, usually the first or the second Then one often uses notation such as
+
+$$
+  E^1_{p,q} \Rightarrow H_\bullet
+$$
+
 
 $$
   E^2_{p,q} \Rightarrow H_\bullet
 $$
 
-to be read as "There is a spectral sequence whose second page is as shown on the left and which converges to a filtered object as shown on the right."
+to be read as "There is a spectral sequence whose firdt/second page is as shown on the left and which converges to a filtered object as shown on the right."
 
 =--
+
++-- {: .num_example}
+###### Example
+
+The nature of the convergence condition in def. \ref{Convergence} is well illuminated for instance by the [[Atiyah-Hirzebruch spectral sequence]]: for $E^\bullet$ a [[generalized cohomology theory]] and $X$ a finite [[CW-complex]], then it converges to the $E$-cohomology of $X$, filtered by $E$-cohomology relative to the [[simplicial skeleton|skeleta]] $F^p E^{\bullet}(X) im(  E^\bullet(X,X_{p-1}) \to E^\bullet(X))$. Moreover, the second page is the [[ordinary cohomology]] of $X$ with coefficients in the $E$-ground ring, like so:
+
+$$
+  H^p(X,E^q(\ast)) \Longrightarrow E^{p+q}(X)
+  \,.
+$$
+
+Here the elements on the left in bidegree $(p,q)$ are manifestly given by cocycles that trivialize on the $(p-1)$-skeleton (being $p$-cocycles), hence it is natural that these contribute to the filtering stage $F^p E^{p+q}(X) = im(E^{p+q}(X,X_{p-1}) \to E^{p+q}(X))$.
+
+=--
+
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -195,7 +216,6 @@ Therefore usually spectral sequences are required to converge in each degree, or
 
 +-- {: .num_remark}
 ###### Remark
-
 
 If $(E^r)$ collapses at $r$, then it converges to $H_\bullet$ with $H_n$ being the unique entry $E_{p,q}^r$ on the non-vanishing row/column with $p+q = n$.
 
@@ -329,7 +349,7 @@ This is discussed at _[[spectral sequence of a double complex]]_.
 ### Spectral sequences for hyper-derived functors 
   {#HyperDerivedFunctors}
 
-From the [[spectral sequence for a double complex]] one obtains as a special case a spectral sequence that computes [[hyper-derived functors]]. 
+From the [[spectral sequence of a double complex]] one obtains as a special case a spectral sequence that computes [[hyper-derived functors]]. 
 
 (...)
 
