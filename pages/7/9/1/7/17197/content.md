@@ -1,0 +1,13 @@
+[[!redirects binary pulsars]]
+
+## Related entries
+
+* [[gravitational wave]]
+
+* [[black hole]]
+
+## References
+
+* Wikipedia, _[Binary pulsar](https://en.wikipedia.org/wiki/Binary_pulsar)_
+
+category: people
