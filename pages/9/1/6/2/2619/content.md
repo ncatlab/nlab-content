@@ -73,11 +73,7 @@ Any [[retract]] of a tiny object is tiny, since [[split idempotent|splitting of 
 
 The notion of tiny object is clearly highly dependent on the base of [[enriched category|enrichment]]. For example, for a [[ring]] $R$, the tiny objects in the category of left $R$-[[category of modules|modules]] $Ab^R$, considered as an [[Ab]]-[[enriched category]], are the [[finitely generated module|finitely generated]] [[projective modules]]. Certainly f.g. projective modules are tiny because $R$ is tiny (the [[forgetful functor]] $\hom(R, -): Ab^R \to Ab$ preserves $Ab$-[[colimits]]) and the closure of $R$ under finite direct sums and retracts, which are absolute $Ab$-[[colimits]], comprise finitely generated projective modules. See also _[[Cauchy completion]]_. 
 
-On the other hand, when the category $Ab^R$ is considered as a [[Set]]-[[enriched category]], there are _no_ tiny objects: If $M$ is a tiny object in a category of modules, the canonical map
-$$
-  Hom(M,M) \amalg Hom(M,M) \longrightarrow Hom(M,M \oplus M)
-$$
-is bijective and in particular surjective. Therefore the [[diagonal]] embedding $x \mapsto (x,x)$ can be written as $\iota \circ f$ for some linear map $f : M \to M$, where $\iota$ is one of the inclusions $M \to M \oplus M$. This shows that any element of $M$ is zero, i.e., $M$ would have to be trivial. But then $Hom(M, M)$ is a singleton and the canonical map above cannot be an isomorphism. 
+On the other hand, when the category $Ab^R$ is considered as a [[Set]]-[[enriched category]], there are _no_ tiny objects. In fact this is true for any Set-enriched category with a [[zero object]]: Let $X$ be a tiny object. The morphism $X \to 0$ induces a map $Hom(X,X) \to Hom(X,0)$. This map has empty codomain (since $Hom(X,-)$ preserves the zero object, as an empty colimit). Thus $Hom(X,X) = \emptyset$ in contradiction to $id_X \in Hom(X,X)$.
 
 
 ### In presheaf categories
