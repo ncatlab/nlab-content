@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[filtered object in an (∞,1)-category]] in the [[stable (∞,1)-category of spectra]]. 
+
+## Related concepts
+
+* [[filtered chain complex]]
+
+* [[tower of homotopy fibers]]
+
+[[!redirects filtered spectra]]
