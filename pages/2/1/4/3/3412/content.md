@@ -1,7 +1,7 @@
 
-**Rainer Vogt** is  a mathematician specialised in [[homotopy theory]].
+**Rainer Vogt** (1942--2015) was  a mathematician specialised in [[homotopy theory]].
 
-He received his Ph.D. from the University of Warwick and his thesis advisor was [[Michael Boardman]]. He is a a full professor at Osnabr&#252;ck University in Germany.
+He received his Ph.D. from the University of Warwick and his thesis advisor was [[Michael Boardman]]. He was a a full professor at Osnabr&#252;ck University in Germany.
 
 * [website](http://www.mathematik.uni-osnabrueck.de/staff/phpages/vogtr.rdf.shtml)
 
