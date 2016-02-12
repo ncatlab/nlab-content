@@ -969,17 +969,17 @@ In general the only practicable way to carry out such computations is by doing t
 ### For filtered complexes
  {#SpectralSequencesForFilteredChainComplexes}
 
-We begin with recalling basics of [[ordinary cohomology|ordinary]] _[[relative homology]]_ and then seamlessly derive the notion of _[[spectral sequences]]_ from that as the natural was of computing the ordinaty cohomology of a [[CW-complex]] stagewise from the relative cohomology of its [[simplicial skeleton|skeleta]]. This is meant as motivation and warmup. What we are mostly going to use further below are spectral sequences induced by [[filtered spectra]], this we turn to [next](#SpectralSequencesForFilteredSpectra).
+We begin with recalling basics of [[ordinary cohomology|ordinary]] _[[relative homology]]_ and then seamlessly derive the notion of _[[spectral sequences]]_ from that as the natural way of computing the ordinary cohomology of a [[CW-complex]] stagewise from the relative cohomology of its [[simplicial skeleton|skeleta]]. This is meant as motivation and warmup. What we are mostly going to use further below are spectral sequences induced by [[filtered spectra]], this we turn to [next](#SpectralSequencesForFilteredSpectra).
 
 $\,$
 
 
-Let $X$ be a [[nLab:topological space]] and $A \hookrightarrow X$ a [[nLab:topological subspace]]. Write $C_\bullet(X)$ for the [[nLab:chain complex]] of [[nLab:singular homology]] on $X$, def. \ref{ComplexOfChainsOnASimplicialSet} and $C_\bullet(A) \hookrightarrow C_\bullet(X)$ for the [[nLab:chain map]] induced by the subspace inclusion according to def. \ref{PushforwardOfChains}.
+Let $X$ be a [[topological space]] and $A \hookrightarrow X$ a [[topological subspace]]. Write $C_\bullet(X)$ for the [[chain complex]] of [[singular homology]] on $X$ and $C_\bullet(A) \hookrightarrow C_\bullet(X)$ for the [[chain map]] induced by the subspace inclusion.
 
 +-- {: .num_defn #RelativeSingularHomology}
 ###### Definition
 
-The (degreewise) [[nLab:cokernel]] of this inclusion, hence the [[nLab:quotient]] $C_\bullet(X)/C_\bullet(A)$ of $C_\bullet(X)$ by the [[nLab:image]] of $C_\bullet(A)$ under the inclusion, is the **chain complex of $A$-relative singular chains**. 
+The (degreewise) [[nLab:cokernel]] of this inclusion, hence the [[quotient]] $C_\bullet(X)/C_\bullet(A)$ of $C_\bullet(X)$ by the [[image]] of $C_\bullet(A)$ under the inclusion, is the **chain complex of $A$-relative singular chains**. 
 
 * A [[nLab:boundary]] in this quotient is called an **$A$-relative singular boundary**, 
 
@@ -2393,20 +2393,22 @@ More generally a [[filtered object in an (infinity,1)-category|filtering]] on an
 +-- {: .num_remark}
 ###### Remark
 
-There is no condition on the [[morphisms]] in def. \ref{FilteredSpectrum}, in particular they are not required to be [[n-monomorphisms]] or [[n-epimorphisms]] for any $n$. On the other hand, while they are also not explicitly required to have a presentation by [[cofibrations]] or [[fibrations]], this follows automatically: by the existence of [[model structures for spectra]], every filtering on a spectrum is equivalent to one in which all morphisms are represented by [[cofibrations]] or by [[fibrations]]. 
+There is _no_ condition on the [[morphisms]] in def. \ref{FilteredSpectrum}. In particular, they are _not_ required to be [[n-monomorphisms]] or [[n-epimorphisms]] for any $n$. 
 
-In particular we may think of a filtration on a spectrum $X$ in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over $X$.
+On the other hand, while they are also not explicitly required to have a presentation by [[cofibrations]] or [[fibrations]], this follows automatically: by the existence of [[model structures for spectra]], every filtering on a spectrum is equivalent to one in which all morphisms are represented by [[cofibrations]] or by [[fibrations]]. 
+
+This means that we may think of a filtration on a spectrum $X$ in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over $X$.
 
 =--
 
-This perspective is made explicit in the following remark.
+The following remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels the structure encoded in a filtration on a spectrum, and motivates the concepts of [[exact couples]] and their [[spectral sequences]] from these.
 
 
 +-- {: .num_remark #UnrolledExactCoupleOfAFiltrationOnASpectrum}
 ###### Remark
 
-Given a filtered spectrum as in def. \ref{FilteredSpectrum},
-write $A_k$ for the [[homotopy cofiber]] of its $k$-stage, such that in the diagram
+Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
+write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such that to obtain the diagram
 
 $$
   \array{
@@ -2426,7 +2428,7 @@ $$
   }
 $$
 
-each stage
+where each stage
 
 $$
  \array{
@@ -2438,9 +2440,9 @@ $$
  }
 $$
 
-is a [[homotopy fiber sequence]].
+is a [[homotopy fiber sequence]]. (A [[tower of homotopy fibers]].)
 
-Applying the [[stable homotopy groups]]-[[functor]] to this yields a diagram of [[graded abelian groups]] of the form
+To break this down into something more tangible, apply the [[stable homotopy groups]]-[[functor]]. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
 
 $$
   \array{
@@ -2461,17 +2463,19 @@ $$
   \,.
 $$
 
-Here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]]
+Here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] via [[connecting homomorphisms]] $\delta_\bullet^k$
 
 $$
   \cdots
-   \to
+    \to
+  \pi_{\bullet+1}(A_k)
+    \stackrel{\delta_{\bullet+1}^k}{\longrightarrow}
   \pi_\bullet(X_{k+1})
     \stackrel{\pi_\bullet(f_k)}{\longrightarrow}
   \pi_\bullet(X_k)
     \stackrel{}{\longrightarrow}
   \pi_\bullet(A_k)
-   \stackrel{\delta_k}{\longrightarrow}
+   \stackrel{\delta_\bullet^k}{\longrightarrow}
   \pi_{\bullet-1}(X_{k+1})
   \to 
   \cdots
@@ -2556,14 +2560,16 @@ $$
   \cdots
 $$
 
+Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below. 
+
+
 =--
 
-Data of this form is called an _[[exact couple]]_.
 
-+-- {: .num_defn}
++-- {: .num_defn #ExactCouple}
 ###### Definition
 
-An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian gorups]] of the form
+An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian groups]] of the form
 
 $$
   \array{
@@ -2623,8 +2629,50 @@ is called the corresponding _[[exact couple]]_.
 
 =--
 
+The concept of exact couple so far just collects the sequences of long exact sequences given by a filtration. Next we turn to extracting information from this sequence of sequences.
+
++-- {: .num_remark }
+###### Remark
+
+The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
+
+$$
+  \array{
+    && & \searrow && \nearrow
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && && && \nearrow
+    \\
+    && \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{def: \; d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    \\
+    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
+    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    \\
+    && && && && \pi_{t-s-2}(X_{s+2})
+    \\
+    && && && & \nearrow && \searrow
+  }
+$$
+
+This gives rise to the horizontal maps $d_1^{s,t}$ shown above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
+
+$$
+  \array{
+    \cdots & \stackrel{}{\longrightarrow}
+    && \pi_{t-s}(A_s) && \overset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    &&\longrightarrow & \cdots
+  }
+$$
 
 
+=--
+
+(...)
 
 
 
