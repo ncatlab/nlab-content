@@ -2631,7 +2631,7 @@ is called the corresponding _[[exact couple]]_.
 
 The concept of exact couple so far just collects the sequences of long exact sequences given by a filtration. Next we turn to extracting information from this sequence of sequences.
 
-+-- {: .num_remark }
++-- {: .num_remark #Observingd1}
 ###### Remark
 
 The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
@@ -2658,7 +2658,7 @@ $$
   }
 $$
 
-This gives rise to the horizontal maps $d_1^{s,t}$ shown above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
+This gives rise to the horizontal composites $d_1^{s,t}$, as show above, and by the fact that the diagonal sequences are long exact, these are differentials: $d_1^2 = 0$, hence give a [[chain complex]]:
 
 $$
   \array{
@@ -2667,12 +2667,124 @@ $$
     && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
     &&\longrightarrow & \cdots
   }
+  \,.
+$$
+
+We read off from the interlocking long exact sequences what these differentials _mean_: an element $c \in \pi_{t-s}(A_s)$ lifts to an element $\hat c \in \pi_{t-s-1}(X_{s+2})$ precisely if $d_1 c = 0$:
+
+$$
+  \array{
+    &\hat c \in & \pi_{t-s-1}(X_{s+2})
+    \\
+    && & \searrow^{\mathrlap{\pi_{t-s-1}(f_{s+1})}} 
+    \\
+    && && \pi_{t-s-1}(X_{s+1})
+    \\
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    \\
+    & c \in  & \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+  }
+$$
+
+This means that the [[cochain cohomology]] of the complex $(\pi_{\bullet}(A_\bullet), d_1)$ produces elements of $\pi_\bullet(X_\bullet)$ and hence of $\pi_\bullet(X)$.
+
+In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
+
+$$
+  d_1^{s,t}  \;\coloneqq \; \pi_{t-s-1}(cofib(f_{s+1})) \circ \delta_{t-s}^s
+$$
+
+is a component of the composite 
+
+$$
+  d \coloneqq j \circ k
+  \,.
 $$
 
 
 =--
 
-(...)
++-- {: .num_defn #PageOfAnExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple}, 
+
+$$
+  \array{
+    \mathcal{D}^{\bullet,\bullet}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}^{\bullet,\bullet}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}^{\bullet,\bullet}
+  }
+$$
+
+its _page_ is the [[chain complex]]
+
+$$
+  (E^{\bullet,\bullet}, d \coloneqq j \circ  k)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #DerivedExactCouple}
+###### Definition
+
+Given an exact couple, def. \ref{ExactCouple},
+
+$$
+  \array{
+    \mathcal{D}
+    &\stackrel{i}{\longrightarrow}&
+    \mathcal{D}
+    \\
+    & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
+    \\
+    && \mathcal{E}
+  }
+$$
+
+The induced _derived exact couple_ is the diagram
+
+$$
+  \array{
+    \tilde {\mathcal{D}}
+    &\stackrel{\tilde i}{\longrightarrow}&
+    \tilde {\mathcal{D}}
+    \\
+    & {}_{\mathllap{\tilde k}}\nwarrow & \downarrow^{\mathrlap{\tilde j}}
+    \\
+    && \tilde{\mathcal{E}}
+  }
+$$
+
+with 
+
+1. $\tilde{\mathcal{E}}$ \coloneqq ker(d)/im(d)$;
+
+1. $\tilde {\mathcal{D}} \coloneqq im(i)$;
+
+1. $\tilde i \coloneqq i|_{im(i)}$;
+
+1. $\tilde j \coloneqq j|_{\im(i)}$;
+
+1. $\tilde k \coloneqq k|_{ker(d)}$.
+
+=--
+
++-- {: .num_prop #DerivedExactCoupleIsExactCouple}
+###### Proposition
+
+A derived exact couple, def. \ref{DerivedExactCouple}, 
+is again an exact couple, def. \ref{ExactCouple}.
+
+=--
+
+Given an exact couple, the induced spectral sequence is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
 
 
 
