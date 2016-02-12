@@ -87,7 +87,7 @@ This is due to ([Douglas & Schommer-Pries & Snyder 13](#DSPS13)).
 +-- {: .num_remark}
 ###### Remark
 
-Via the [[cobordism theorem]] prop. \ref{FusionCategoriesAreFullyDualizable} implies that fusion categories enocde [[extended TQFTs]] on 3-dimensional [[framed manifold|framed]] [[cobordisms]], while their $O(3)$-[[homotopy fixed points]] encode extended 3d TQFTs on general (not framed) cobordisms. 
+Via the [[cobordism theorem]] prop. \ref{FusionCategoriesAreFullyDualizable} implies that fusion categories encode [[extended TQFTs]] on 3-dimensional [[framed manifold|framed]] [[cobordisms]], while their $O(3)$-[[homotopy fixed points]] encode extended 3d TQFTs on general (not framed) cobordisms. 
 
 These 3d TQFTs hence arise from similar algebraic data as the [[Turaev-Viro model]] and the [[Reshetikhin-Turaev construction]], however there are various slight differences. See ([Douglas & Schommer-Pries & Snyder 13, p. 5](#DSPS13)).
  
