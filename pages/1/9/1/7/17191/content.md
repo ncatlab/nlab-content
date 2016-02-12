@@ -16,7 +16,7 @@
 
 ## Definition
 
-Given a [[homotopy theory]], i.e. an [[(infinity,1)-category]], then a _tower of homotopy fibers_ or _tower of fibrations_ or similar is a [[diagram]] of the form
+Given a [[homotopy theory]], i.e. an [[(infinity,1)-category]], then a _tower of homotopy fibers_ or _tower of fibrations_ or similar is a [[tower]] [[diagram]] of the form
 
 $$
   \array{
