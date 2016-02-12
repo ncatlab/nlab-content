@@ -22,7 +22,7 @@
 * table of contents
 {:toc}
 
-## Idea
+## Ideais
 
 _Mayer-Vietoris sequence_ is the term for the [[fiber sequence]] -- or often for the corresponding [[long exact sequence of homotopy groups]] -- induced from an [[(∞,1)-pullback]] (or for a [[homotopy pullback]] presenting it).
 
@@ -66,7 +66,19 @@ The corresponding **Mayer-Vietoris sequence** is the [[fiber sequence]] of the i
 
 Let $\mathcal{C}$ be a [[presentable (∞,1)-category]]. 
 
-Then $X \times_B Y$ is equivalently given by the [[(∞,1)-pullback]]
+Then $X \times_B Y$, which by definition sits in
+
+$$
+  \array{
+    X \times_B Y &\to& Y
+    \\
+    \downarrow &\swArrow_{\simeq}& \downarrow^{\mathrlap{g}}
+    \\
+    X  &\stackrel{f}{\to}& B
+  }
+$$ 
+
+is equivalently also the following [[(∞,1)-pullback]] 
 
 $$
   \array{
