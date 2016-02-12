@@ -146,6 +146,8 @@ On [[quantum field theory]] and [[string theory]]:
 
 * [[Anton Kapustin]], _Topological field theory, higher categories, and their applications_, survey for ICM 2010, [arxiv/1004.2307](http://arxiv.org/abs/1004.2307)
 
+* Siddhartha Sen, [[zoranskoda:Kumar Gupta|Kumar Sankar Gupta]], [[zoranskoda:Gupta-Sen book|Many-body physics, topology and geometry]]
+
 ### Branes (mathematical aspects)
 
 * Paul Aspinwall, Tom Bridgeland, Alastair Craw, Michael R. Douglas, Mark Gross, _Dirichlet branes and mirror symmetry_, Amer. Math. Soc. Clay Math. Institute 2009.
