@@ -140,7 +140,7 @@ for the [[full subcategory]] of the [[functor category]] on functors that have a
 For $C$ a [[small category]] there is an [[equivalence of categories]]
 
 $$
-  \overline{C} := TinyObjects([C,Set]) \simeq \simeq Topos_{ess}(Set, [C,Set])^{op}
+  \overline{C} := TinyObjects([C,Set]) \simeq Topos_{ess}(Set, [C,Set])^{op}
 $$
 
 of the tiny objects of $[C,Set]$ with the category of essential points of $[C,Set]$.
