@@ -192,10 +192,10 @@ to be read as "There is a spectral sequence whose firdt/second page is as shown 
 +-- {: .num_example}
 ###### Example
 
-The nature of the convergence condition in def. \ref{Convergence} is well illuminated for instance by the [[Atiyah-Hirzebruch spectral sequence]]: for $E^\bullet$ a [[generalized cohomology theory]] and $X$ a finite [[CW-complex]], then it converges to the $E$-cohomology of $X$, filtered by $E$-cohomology relative to the [[simplicial skeleton|skeleta]] $F^p E^{\bullet}(X) im(  E^\bullet(X,X_{p-1}) \to E^\bullet(X))$. Moreover, the second page is the [[ordinary cohomology]] of $X$ with coefficients in the $E$-ground ring, like so:
+The nature of the convergence condition in def. \ref{Convergence} is well illuminated for instance by the [[Serre spectral sequence|Serre]]-[[Atiyah-Hirzebruch spectral sequence]]: for $E^\bullet$ a [[generalized cohomology theory]] and $X$ a finite [[CW-complex]], then it converges to the $E$-cohomology of $X$, filtered by $E$-cohomology relative to the [[simplicial skeleton|skeleta]] $F^p E^{\bullet}(X) im(  E^\bullet(X,X_{p-1}) \to E^\bullet(X))$. Moreover, the second page is the [[ordinary cohomology]] of $X$ with coefficients in the $E$-ground ring, like so:
 
 $$
-  H^p(X,E^q(\ast)) \Longrightarrow E^{p+q}(X)
+  H^p(X,E^q(\ast)) \Rightarrow E^{p+q}(X)
   \,.
 $$
 
