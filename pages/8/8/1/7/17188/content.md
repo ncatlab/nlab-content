@@ -16,9 +16,15 @@
 
 ## Idea
 
-In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for systems of bigraded [[modules]] $H(p,q)$ are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
+In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
 
-The key example of such a system are the [[relative cohomology]] groups $E^\bullet(X^q, X^p)$ of a [[filtered topological space]] (see at [[spectral sequence of a filtered complex]]) for [[ordinary cohomology]] $E = H$ ([Cartan-Eilenberg 56, XV.7, Example 2](#CartanEilenberg56)) or in fact for any [[generalized cohomology theory]] $E$. In the latter case the resulting Cartan-Eilenberg spectral sequence came to be known as the _[[Atiyah-Hirzebruch spectral sequence]]_.
+## Examples
+
+### Atiyah-Hirzebruch spectral sequences
+
+The key example of such a system are the [[relative cohomology]] groups $E^\bullet(X^q, X^p)$ of a [[filtered topological space]] (see at [[spectral sequence of a filtered complex]]) for $E$ any [[generalized cohomology theory]]  ([Cartan-Eilenberg 56, XV.7, Example 2](#CartanEilenberg56)). That $E^\bullet(X^q, X^p)$ forms a suitable system of modules is the statement of the [exact sequence for triples](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessForTriples) of any generalized cohomology theory.
+
+This case of the Cartan-Eilenberg spectral sequence came to be known as the _[[Atiyah-Hirzebruch spectral sequence]]_.
 
 
 ## References
