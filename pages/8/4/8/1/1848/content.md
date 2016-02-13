@@ -43,7 +43,7 @@ Then a second-countable space is simply one with a countable weight.
 
 ## Examples
 
-A [[compact space|compact]] [[metric space]] is second-countable. A [[separable space|separable]] metric space is second-countable. (It is *not* true that separable [[first-countable spaces]] are second-countable; a counterexample is the [[real line]] equipped with the half-open or lower limit topology that has as basis the collection of half-open intervals $[a, b)$.) 
+A [[compact space|compact]] [[metric space]] is second-countable. A [[separable space|separable]] metric space, e.g., a [[Polish space]], is second-countable. (It is *not* true that separable [[first-countable spaces]] are second-countable; a counterexample is the [[real line]] equipped with the half-open or lower limit topology that has as basis the collection of half-open intervals $[a, b)$.) 
 
 A [[topological manifold]] is second-countable iff it is [[paracompact space|paracompact]] and has countably many [[connected components]].
 
@@ -53,12 +53,15 @@ If $X$ is second-countable and there is an [[open map|open]] [[surjection]] $f: 
 
 Countable [[products]] of second-countable spaces are second-countable. [[subspace|Subspaces]] of second-countable spaces are second-countable. 
 
+For second-countable [[separation axiom|T_3]] spaces $X, Y$, if $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ is second-countable. Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) am uncertain to what extent the $T_3$ assumption can be removed. 
+
+
 ## Related concepts
 
 * [[first-countable space]]
 * **second-countable space**
 * [[separable space]]
-
+* [[Urysohn metrization theorem]] 
 
 [[!redirects second-countable space]]
 [[!redirects second-countable spaces]]
