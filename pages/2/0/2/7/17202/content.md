@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[pointed object|pointed]] [[homotopy type]], i.e. [[pointed object|pointed]] [[infinity-groupoid]]
+
+$$
+  X \in \infty Grpd^{\ast/}
+$$
+
+## Related concepts
+
+* [[pointed topological space]]
+
+* [[spectrum]]
+
+[[!redirects pointed homotopy types]]
