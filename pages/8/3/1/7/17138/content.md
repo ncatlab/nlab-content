@@ -2788,7 +2788,7 @@ is again an exact couple, def. \ref{ExactCouple}.
 ###### Definition
 
 Given an exact couple, def. \ref{ExactCouple},
-then the induced [[spectral sequence]] is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+then the induced [[spectral sequence]], def. \ref[#SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
 
 =--
 
