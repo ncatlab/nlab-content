@@ -1,4 +1,4 @@
 
-The _Manifold Atlas_ is a wiki on [[algebraic topology]].
+The _Manifold Atlas_ is a wiki on [[differential topology]] and [[algebraic topology]].
 
 * [website](http://www.map.mpim-bonn.mpg.de/Main_Page)
