@@ -5,3 +5,6 @@ The algebraic point of view on classical propositional theories is that they are
 Thus $\langle A \rangle$ can be considered as generating a [[congruence]] where $\phi \equiv 1$ for each theorem $\phi \in \langle A \rangle$. The corresponding quotient (which we may denote by $F(S)/\langle A \rangle$) is a Boolean algebra $B$ which is the *Lindenbaum algebra* of the theory. In other words, $B$ has been presented by generators (elements of $S$) subject to relations (elements of $A$). 
 
 Again from the algebraic point of view, a *model* of the propositional theory is tantamount to a Boolean algebra homomorphism $\mu: B \to \mathbf{2} = \{0, 1\}$ which assigns a definite truth value in $\mathbf{2}$ to each proposition $P \in F(S)$, such that all theorems receive the value $1$ (are "true"). From the point of view of the presentation, such a model $\mu$ amounts to an [[ultrafilter]] in $F(S)$ which extends the filter $\langle A \rangle$. 
+
+[[!redirects propositional theories]] 
+[[!redirects Lindenbaum algebra]]
