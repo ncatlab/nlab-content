@@ -43,10 +43,15 @@ Then a second-countable space is simply one with a countable weight.
 
 ## Examples
 
-Any [[separable space|space]] [[first-countable space|first-countable]] space must be second-countable.  (Conversely, any second-countable space must be first-countable.)  In particular, separable [[metric spaces]] are second-countable.
+A [[compact space|compact]] [[metric space]] is second-countable. A [[separable space|separable]] metric space is second-countable. (It is *not* true that separable [[first-countable spaces]] are second-countable; a counterexample is the [[real line]] equipped with the half-open or lower limit topology that has as basis the collection of half-open intervals $[a, b)$.) 
 
 A [[topological manifold]] is second-countable iff it is [[paracompact space|paracompact]] and has countably many [[connected components]].
 
+A [[countable set|countable]] [[coproduct]] of second-countable spaces is second-countable. 
+
+If $X$ is second-countable and there is an [[open map|open]] [[surjection]] $f: X \to Y$, then $Y$ is second-countable. 
+
+Countable [[products]] of second-countable spaces are second-countable. [[subspace|Subspaces]] of second-countable spaces are second-countable. 
 
 ## Related concepts
 
