@@ -1,11 +1,21 @@
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A [[pointed object|pointed]] [[topological space]].
+A [[pointed object|pointed]] [[topological space]]
+
+$$
+  X \in Top^{\ast/}
+$$
 
 ## Related concepts
 
 * [[smash product]]
+
+* [[pointed homotopy type]]
 
 * [[spectrum]]
 
