@@ -19,6 +19,30 @@
 
 ### In terms of generalized first Chern classes
 
+Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]), write $S^2$ for the [[2-sphere]] and write
+
+$$
+  i \;\colon\; S^2 \longrightarrow B U(1)
+$$
+
+for a representative of $1 \in \mathbb{Z} \simeq  \pi_2(B U(1))$. Regard both $S^2$ and $B U(1)$ as [[pointed homotopy types]] and take $i$ to be a pointed morphism.
+
+Let $E^\bullet$ be a [[multiplicative cohomology theory]], i.e. a [[functor]] $X \mapsto \pi_\bullet[X,E]$ for $E$ a [[ring spectrum]]. Write $\tilde E^\bullet$ for the corresponding [[reduced cohomology]] on [[pointed topological spaces]].
+
++-- {: .num_defn}
+###### Definition
+
+A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the morphism
+
+$$
+  i^\ast \;\colon\; E^2(B U(1)) \longrightarrow E^2(S^2)
+$$
+
+is [[surjection|surjective]].
+
+=--
+
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -28,9 +52,7 @@ $$
   c_1^E \in \tilde E^2(B U(1))
 $$
 
-(the "first [[generalized Chern class]]")
-
-whose canonical restriction to the 2-[[sphere]] is a unit
+(the "first [[generalized Chern class]]") whose canonical restriction to the 2-[[sphere]] is a [[unit]]
 
 $$
   1 \in \tilde E^2(S^2)
@@ -42,7 +64,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-generalization of the [[first Chern class]] which to a [[complex line bundle]] $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]]. 
+Since $B U(1) \simeq K(\mathbb{Z},2)$ is the [[classifying space]] for [[complex line bundles]], it follows that a complex orientation on $E^\bullet$ induces an $E$-[[generalized Chern class|generalization]] of the [[first Chern class]] which to a [[complex line bundle]] $\mathcal{L}$ on $X$ classified by $\phi \colon X \to B U(1)$ assigns the class $c_1(\mathcal{L}) \coloneqq \phi^\ast c_1^E$. This construction extends to a general construction of $E$-[[Chern classes]]. 
 
 =--
 
@@ -196,7 +218,7 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 
 ## References
 
-* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+* [[Frank Adams]], part II, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
