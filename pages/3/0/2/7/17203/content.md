@@ -168,6 +168,9 @@ The [[p-localization]] of $MU$ decomoses into the
 * {#LurieLect7} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)),  Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
  
 
+* [[Manifold Atlas]], _[Complex bordism](http://www.map.mpim-bonn.mpg.de/Complex_bordism)_
+
+
 * [[Neil Strickland]], _Products on $MU$-modules_ ([pdf](http://hopf.math.purdue.edu/Strickland/mult.pdf))
 
 
