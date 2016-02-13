@@ -18,6 +18,7 @@
  {#Definition}
 
 ### In terms of generalized first Chern classes
+ {#DefInTermsOfGeneralizedFirstChernClass}
 
 Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]), write $S^2$ for the [[2-sphere]] and write
 
@@ -27,18 +28,45 @@ $$
 
 for a representative of $1 \in \mathbb{Z} \simeq  \pi_2(B U(1))$. Regard both $S^2$ and $B U(1)$ as [[pointed homotopy types]] and take $i$ to be a pointed morphism.
 
-Let $E^\bullet$ be a [[multiplicative cohomology theory]], i.e. a [[functor]] $X \mapsto \pi_\bullet[X,E]$ for $E$ a [[ring spectrum]]. Write $\tilde E^\bullet$ for the corresponding [[reduced cohomology]] on [[pointed topological spaces]].
+Let $E^\bullet$ be a [[multiplicative cohomology theory]], i.e. a [[functor]] $X \mapsto \pi_\bullet[X,E]$ for $E$ a [[ring spectrum]]. Write $\tilde E^\bullet$ for the corresponding [[reduced cohomology]] on [[pointed topological spaces]], such that for any pointed space $X$ there is a canonical [[direct sum]] decomposition ([this prop.](generalized+%28Eilenberg-Steenrod%29+cohomology#UnreducedCohomologyIsReducedPlusPointValue))
+
+$$
+  E^\bullet(X) \simeq \tilde E^\bullet(X) \oplus E^\bullet(\ast)
+  \,.
+$$
+
+By the [[suspension isomorphism]] there is an identification
+
+$$
+  \tilde E^2(S^2) \simeq \tilde E^0(S^0) \simeq E^0(\ast) \simeq \pi_0(E)
+$$
+
+with the [[commutative ring]] underlying $E$. Write $1 \in \pi_0(E)$ for the multiplicative identity element in this ring.
+
 
 +-- {: .num_defn}
 ###### Definition
 
-A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the morphism
+A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the the following equivalent conditions hold
 
-$$
-  i^\ast \;\colon\; E^2(B U(1)) \longrightarrow E^2(S^2)
-$$
+1. The morphism
 
-is [[surjection|surjective]].
+   $$
+     i^\ast \;\colon\; E^2(B U(1)) \longrightarrow E^2(S^2)
+   $$
+
+   is [[surjection|surjective]].
+
+1. The morphism
+
+   $$
+     \tilde i^\ast \;\colon\; \tilde E^2(B U(1)) \longrightarrow \tilde E^2(S^2)
+     \simeq \pi_0(E)
+   $$
+
+   is [[surjection|surjective]].
+
+1. The element $1 \in \pi_0(E)$ is in the [[image]] of the morphism $\tilde i^\ast$.
 
 =--
 
@@ -52,10 +80,10 @@ $$
   c_1^E \in \tilde E^2(B U(1))
 $$
 
-(the "first [[generalized Chern class]]") whose canonical restriction to the 2-[[sphere]] is a [[unit]]
+(the "first [[generalized Chern class]]") such that 
 
 $$
-  1 \in \tilde E^2(S^2)
+  i^\ast c^E_1 = 1 \in \pi_0(E)
   \,.
 $$
 
