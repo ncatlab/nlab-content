@@ -41,9 +41,9 @@ While grungy, finding a separability idempotent is a practical way to prove that
 
 ## Classification ##
 
-There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over [[division algebras]] whose centers are finite dimensional [[separable field extension|separable field extensions]] of the field $k$.  
+There is a classification theorem for separable algebras: separable algebras are the same as finite products of matrix algebras over finite-dimensional [[division algebras]] whose centers are finite-dimensional [[separable field extension|separable field extensions]] of the field $k$.  
 
-A [[perfect field]] is one for which every extension of is [[separable field extension|separable]].  Examples include fields of characteristic zero, or finite fields, or algebraically closed fields, or extensions of perfect fields.  If $k$ is a perfect field, separable algebras are the same as finite products of matrix algebras over division algebras whose centers are finite-dimensional field extensions of the field $k$.  In other words, if $k$ is a perfect field, there is no difference between a separable algebra over $k$ and a finite-dimensional [[semisimple algebra]] over $k$.
+A [[perfect field]] is one for which every extension of is [[separable field extension|separable]].  Examples include fields of characteristic zero, or finite fields, or algebraically closed fields, or extensions of perfect fields.  If $k$ is a perfect field, separable algebras are the same as finite products of matrix algebras over finite-dimensional division algebras over field $k$.  In other words, if $k$ is a perfect field, there is no difference between a separable algebra over $k$ and a finite-dimensional [[semisimple algebra]] over $k$.
 
 ## Relation to Frobenius algebras ##
 
