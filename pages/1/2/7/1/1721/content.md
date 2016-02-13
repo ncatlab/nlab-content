@@ -82,14 +82,14 @@ $$
 
 such that:
 
-1. **Homotopy invariance** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **(homotopy invariance)** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
 
    $$
      f_1^\ast = f_2^\ast
      \,.
    $$
 
-1. **Exactness** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+1. **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(cone(i)) 
@@ -112,36 +112,62 @@ Write $\mathbb{S}^0$ for the [[0-sphere]], canonically regarded as a [[pointed t
 
 A reduced generalized cohomology theory $\tilde E^\bullet$, def. \ref{ReducedGeneralizedCohomology}, is called _ordinary_ if
 
-* **dimension** $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+* **(dimension)** $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
 
 =--
 
 ### Unreduced cohomology
 
-In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$.
+In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of [[Top]] on the inclusions). We identify $Top \hookrightarrow Top^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
 
 
-
-+-- {: .num_defn}
++-- {: .num_defn #GeneralizedCohomologyTheory}
 ###### Definition
 
-A _[[cohomology theory]]_ (unreduced) is a collection $\{E^n\}_{n \in \mathbb{Z}}$ of $\mathbb{Z}$-[[graded object|graded]] [[functors]]
+A _[[cohomology theory]]_ (unreduced) is a [[functor]]
 
 $$
-  E^n : (Top^{\hookrightarrow})^{op} \to Ab
+  E^\bullet : (Top^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
 $$
 
-from the [[homotopy category]] $Top^{\hookrightarrow}$ of pairs of [[topological spaces]] to the category [[Ab]] of abelian groups, as well as a [[natural transformation]] $\delta: A^n(X, \emptyset) \to A^{n+1}(X, U)$. These functors and natural transformations satisfy and are characterized by the following axioms.
+to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] 
 
-1. {#ExactnessUnreduced} **Exactness**: For $U \hookrightarrow X$ a subspace inclusion then there is a [[long exact sequence]] of the form
+$$
+  \delta \colon  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  \,.
+$$ 
 
-   $ \cdots \to E^n(X, U) \to E^n(X, \emptyset) \to E^n(U, \emptyset) \xrightarrow{\delta} E^{n+1}(X, U) \to \cdots $
+such that:
 
-1. **Homotopy equivalence**: if $f : X \to Y$ is a [[weak homotopy equivalence]] then $E^n(f) : E^n(Y) \to E^n(X)$ is an [[isomorphism]]
+1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequnce
 
-1. **Additivity**: If $ (X, U) = \coprod_i (X_i, U_i)$, then $E^n(X, U) = \coprod_i E^n(X_i, U_i)$.
+   $$ 
+     \cdots 
+       \to 
+     E^n(X, U) 
+       \longrightarrow 
+     E^n(X) 
+       \longrightarrow
+     E^n(U) 
+       \stackrel{\delta}{\longrightarrow} 
+     E^{n+1}(X, U) 
+       \to 
+     \cdots 
+   $$
 
-1. **Excision**: Let $S$ be a subspace of $U$, the natural inclusion of the pair $i:(X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
+   is a [[long exact sequence]] of abelian groups.
+
+1. **(homotopy equivalence)** For $f \colon X \to Y$ a [[weak homotopy equivalence]] then 
+
+   $$
+     E^\bullet(f) \colon E^\bullet(Y) \stackrel{\simeq}{\longrightarrow} E^\bullet(X)
+   $$
+
+   is an [[isomorphism]].
+
+1. **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then $E^n(X, U) = \coprod_i E^n(X_i, U_i)$.
+
+1. **(excision)** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
 
 
 =--
@@ -169,6 +195,133 @@ A generalized cohomology theory is called _ordinary_ if in addition
 * [[stable cohomotopy]]
 
 ## Properties
+
+### Relation between reduced and unreduced cohomology
+ {#RelationBetweenReducedAndUnreduced}
+
++-- {: .num_defn}
+###### Definition
+
+For $E^\bullet(-,-) \colon Top^{\hookrightarrow} \to Ab^{\mathbb{Z}}$ a cohomology theory in the sense of def. \ref{GeneralizedCohomologyTheory}, then the functor $\tilde E^\bullet(-)$ on [[pointed topological spaces]] $(X,\ast)$ given by
+
+$$
+  \tilde E^\bullet(X,x_0) \coloneqq E^\bullet(X,\{x_0\})
+$$
+
+is a reduced cohomology theory in the sense of def. \ref{ReducedGeneralizedCohomology}.
+
+=--
+
+(e.g [AGP 02, theorem 12.1.12](#AGP02))
+
++-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
+###### Proposition
+
+For $(X,\ast)$ a pointed topological space, then
+
+$$
+  E^\bullet(X) \simeq \tilde E^\bullet(X) \oplus E^\bullet(\ast)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The pair $\ast \hookrightarrow X$ induces the seqence
+
+$$
+  \cdots
+   \to 
+  E^{\bullet-1}(\ast)
+    \stackrel{\delta}{\longrightarrow}
+  \tilde E^\bullet(X)
+    \stackrel{}{\longrightarrow}
+  E^\bullet(X) 
+    \stackrel{}{\longrightarrow}
+  E^\bullet(\ast)
+    \stackrel{\delta}{\longrightarrow}
+  \tilde E^{\bullet+1}(X)
+    \to
+  \cdots
+$$
+
+which by the exactness clause in def. \ref{GeneralizedCohomologyTheory} is [[exact sequence|exact]]. 
+
+Now since the composite $\ast \to X \to \ast$ is the identity, the morphism 
+$E^\bullet(X) \to E^\bullet(\ast)$ has a [[section]] and so is in particular an [[epimorphism]]. Therefore, by exactness, the [[connecting homomorphism]] vanishes, $\delta = 0$ and we have a [[short exact sequence]]
+
+$$
+  0 
+    \to 
+  \tilde E^\bullet(X)
+    \stackrel{}{\longrightarrow}
+  E^\bullet(X) 
+    \stackrel{}{\longrightarrow}
+  E^\bullet(\ast)
+    \to
+  0
+$$
+
+with the right map an epimorphism. Hence this is a [[split exact sequence]] and the statement follows.
+
+
+=--
+
+
+### Exact sequence for triples
+ {#ExactnessForTriples}
+
++-- {: .num_prop #ExactSequenceOfATriple}
+###### Proposition
+**(exact sequence of a triple)**
+
+For $E$ a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}, then every inclusion of two consecutive subspaces
+
+$$
+  B \hookrightarrow A \hookrightarrow X
+$$
+
+induces a [[long exact sequence]] of cohomology groups of the form
+
+$$
+  \cdots
+   \to
+  E^{q-1}(A,B) 
+    \stackrel{\bar \delta}{\longrightarrow}
+  E^q(X,A)
+    \stackrel{}{\longrightarrow}
+  E^q(X,B)
+    \stackrel{}{\longrightarrow}
+  E^q(A,B)
+    \to
+  \cdots
+$$
+
+where 
+
+$$
+  \bar \delta 
+    \;\colon \;
+  E^{q-1}(A,B) 
+   \longrightarrow
+  E^{q-1}(A)
+   \stackrel{\delta}{\longrightarrow}
+  E^{q}(A,X)
+  \,.
+$$
+
+=--
+
+(e.g. [AGP 02, prop. 12.1.11](#AGP02)).
+
++-- {: .num_remark}
+###### Remark
+
+The property expressed by prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
+
+=--
+
 
 ### Expression by ordinary cohomology via Atiyah-Hirzebruch
 
