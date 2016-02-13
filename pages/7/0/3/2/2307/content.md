@@ -69,3 +69,6 @@ For [[complex cobordism theory]] see the references there.
 
 [[!redirects cobordism homology theory]]
 
+[[!redirects bordism cohomology theory]]
+
+
