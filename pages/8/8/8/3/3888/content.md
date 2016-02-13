@@ -21,11 +21,9 @@ The links should work: [MR92a:81191](http://www.ams.org/mathscinet-getitem?mr=92
 
 MR numbers can be discovered using the free **MR Lookup** service:
 
-* <http://www.ams.org/mrlookup>
+* &lt;http://www.ams.org/mrlookup>
 
 This can also provide citations in BibTeX format.  The [MRef](http://www.ams.org/mref/) tool can also be used to parse citations copied and pasted from elsewhere.
 
-A short redirect to this page is MR (i.e. <nowiki>[[MR]]</nowiki>).
 
 [[!redirects MathSciNet]]
-[[!redirects MR]]
