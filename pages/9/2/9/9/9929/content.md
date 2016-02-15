@@ -20,7 +20,7 @@
 ### In terms of generalized first Chern classes
  {#DefInTermsOfGeneralizedFirstChernClass}
 
-Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]), write $S^2$ for the [[2-sphere]] and write
+Write $\mathbb{C}P^\infty \simeq B U(1) \simeq K(\mathbb{Z},2)$ for the inifinite [[complex projective space]], equivalently the [[classifying space]] for [[circle group]]-[[principal bundles]] (an [[Eilenberg-MacLane space]]); write $S^2$ for the [[2-sphere]] and write
 
 $$
   i \;\colon\; S^2 \longrightarrow B U(1)
@@ -71,7 +71,7 @@ A [[multiplicative cohomology theory]] $E$ is _complex orientable_ if the the fo
 =--
 
 
-+-- {: .num_defn}
++-- {: .num_defn #ComplexOrientation}
 ###### Definition
 
 A **complex orientation** on a [[multiplicative cohomology theory]] $E^\bullet$ is an element 
@@ -166,12 +166,13 @@ defines a complex orientation.
 
 ## Properties
 
-### Relation to formal group laws
+### Cohomology ring of $B U(1)$ and its formal group law
+ {#CohomologyRingOfBU1}
 
-+-- {: .num_prop}
++-- {: .num_prop #CohomologyRingOfBU1}
 ###### Proposition
 
-Given a complex oriented cohomology theory $(E^\bullet, c_1)$
+Given a complex oriented cohomology theory $(E^\bullet, c^E_1)$
 we have
 
 1. $E^\bullet(B U(1)) \simeq E^\bullet(\ast)[ [ c_1^E] ]$;
@@ -180,6 +181,8 @@ we have
 
 
 =--
+
+See at _[complex projective space -- Properties -- Cohomology](complex+projective+space#Cohomology)_.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -224,6 +227,39 @@ The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{B
 (...)
 
 =--
+
+### Cohomology ring of $B U(n)$
+ {#TheCohomologyRingOfBUn}
+
++-- {: .num_prop #CohomologyRingOfBUn}
+###### Proposition
+
+For $E$ a complex oriented cohomology theory and $n \in \mathbb{N}$, restriction along the canonical map
+
+$$
+  (B U(1))^n  \longrightarrow B U(n)
+$$
+
+induces an [[isomorphism]]
+
+$$
+  E^\bullet(B U(n))
+    \stackrel{\simeq}{\longrightarrow}
+  (\pi_\bullet E)[ [ c^E_1, \cdots, c^E_n ] ]
+  \simeq
+  E^\bullet((B U(1))^n)^{\Sigma_n}
+  \hookrightarrow
+  E^\bullet((B U(1))^n)
+  \simeq
+  (\pi_\bullet E)[ [(c_1^E)_1, \cdots (c_1^E)_n ] ]  
+  \,,
+$$
+
+of $E^\bullet(B U(n))$ with the [[cyclic group]]-[[invariants]] in $E^\bullet((B U(1))^n)$, hence with the [[power series]] ring in the [[elementary symmetric polynomials]] $c_i^E$ (the [[generalized Chern classes]]) in the $c_1^E$-s (the generalized first Chern classes of prop. \ref{CohomologyRingOfBU1}).
+
+=--
+
+Use [this proposition](ordinary+homology+spectra+split#WhenGeneralizedHomologySpectraSplit) to reduce to the situation for ordinary [[Chern classes]]. (e.g. [Lurie 10, lecture 4](#LurieLecture))
 
 
 ## Related concepts
