@@ -42,7 +42,7 @@ The "multiplication table" of an $A_k$ is called a Laver table. The behavior of 
 
 ## Related concepts 
 
-[[rack]] 
+* [[rack]] 
 
 [[!redirects shelves]]
 [[!redirects left shelf]]
