@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _universal real vector_ $\zeta_n$ of rank $n$ is the [[vector bundle]] which is [[associated bundle|associated]] to the [[universal principal bundle]] $E GL(n) \to B GL(n)$ over the given [[classifying space]], equivalently to $E O(n) \to B O(n)$:
+
+$$
+  \zeta_n \coloneqq (E O(n))\underset{O(n)}{\times} \mathbb{R}^n
+  \,.
+$$
+
+Similarly for [[complex vector bundles]]
+
+$$
+  \zeta^{\mathbb{C}}_n \coloneqq (E U(n))\underset{U(n)}{\times} \mathbb{R}^{2n}
+  \,.
+$$
+
+etc.
+
+[[!redirects universal vector bundles]]
+
+[[!redirects universal complex vector bundle]]
+[[!redirects universal complex vector bundles]]
+
