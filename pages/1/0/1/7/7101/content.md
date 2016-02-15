@@ -38,6 +38,8 @@ More generally, we can ask for a universal bundle for _numerable_ bundles, that 
 
 * [[Milnor construction]]
 
+* [[universal vector bundle]]
+
 * [[universal principal infinity-bundle]].
 
 ## References
