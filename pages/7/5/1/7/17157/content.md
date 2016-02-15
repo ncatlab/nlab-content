@@ -41,7 +41,7 @@ $$
   \,.
 $$
 
-+-- {: .num_prop}
++-- {: .num_prop #WhenGeneralizedHomologySpectraSplit}
 ###### Proposition
 
 If one of the following conditions is satisfied
@@ -54,7 +54,7 @@ If one of the following conditions is satisfied
 
 1. $[X,E] \simeq \underset{n,\alpha}{\prod} \Sigma^{-n} E$;
 
-1. $E_\bullet(X) \simeq \pi_\bullet(E) \otimes H_\bukllet(X,\mathbb{Z})$
+1. $E_\bullet(X) \simeq \pi_\bullet(E) \otimes H_\bullet(X,\mathbb{Z})$
 
    and
 
@@ -74,3 +74,5 @@ If one of the following conditions is satisfied
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 4 _[[complex oriented cohomology theory|Complex-oriented cohomology theories]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
+
+[[!redirects homology spectra that split]]
