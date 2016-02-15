@@ -22,7 +22,7 @@
 
 A _complex vector bundle_ is a [[vector bundle]] with respect [[complex vector spaces]].
 
-A omplex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line bundle]].
+A complex vector bundle with complex 1-dimensional [[fibers]] is a [[complex line bundle]].
 
 ## Properties
 
@@ -42,6 +42,8 @@ The _[[Oka-Grauert principle]]_ states that for any [[Stein manifold]] $X$ the h
   * [[complex line]]
 
 * **complex vector bundle
+
+  * [[universal complex vector bundle]]
 
   * [[stable vector bundle]]
 
