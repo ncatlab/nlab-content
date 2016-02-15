@@ -1,4 +1,23 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -9,9 +28,11 @@ For $S$ any [[spectrum]] and $H A$ an Eilenberg-MacLane spectrum,
 then the [[smash product]] $S\wedge H A$ (the $A$-[[ordinary homology]] spectrum)
 is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] of EM-spectra in the finite case).
 
-([Adams 74, lemma 61](#Adams74))
+([Adams 74, lemma 61](#Adams74), [Lurie 10, lecture 4, prop. 7](#Lurie10))
 
 
 ## References
 
-* [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 4 _[[complex oriented cohomology theory|Complex-oriented cohomology theories]]_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
