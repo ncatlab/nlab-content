@@ -114,7 +114,7 @@ For instance ([JoyalMoerdijk, section 1](#JoyalMoerdijk)).
 
 An application:
 
-* [[André Joyal]], [[Mogens Nielsen]], [[Glynn Winskel]], Bisimulation from [[open map|open maps]], [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf).
+* [[André Joyal]], [[Mogens Nielsen]] and [[Glynn Winskel]], _Bisimulation from open maps_, BRICS report series RS-94-7 (1994) ([abstract page](http://ojs.statsbiblioteket.dk/index.php/brics/article/view/21663), [pdf](http://www.brics.dk/RS/94/7/BRICS-RS-94-7.pdf)).
 
 [[!redirects open map]] 
 [[!redirects open maps]]
