@@ -1,0 +1,125 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the first [[derived functor]] $R^1 \underset{\longleftarrow}{\lim}$ of the [[limit]] functor over a [[sequential diagram]] of [[abelian groups]].
+
+This is often used as the first, and in good cases the only, obstruction to a naive [[limit]] already giving the correct [[homotopy limit]].
+
+
+## Properties
+
+### Vanishing of $\lim^1$
+
+
++-- {: .num_prop #MittagLefflerCondition}
+###### Proposition
+
+A tower $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \to A_2 \to A_1 \to A_0
+$$
+
+is said to satify the _[[Mittag-Leffler condition]]_ if for all $i \geq k$ there exists $j \geq i \geq k$ such that the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_K$
+ 
+$$
+  im(A_i \to A_k) \simeq im(A_j \to A_k)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The Mittag-Leffler condition, def. \ref{MittagLefflerCondition}, is satisfied in particular when all morphisms $A_{i+1}\to A_i$ are [[epimorphisms]] (hence [[surjections]] of the underlying [[sets]]).
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+If a towet $A_\bullet$ satisfies the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, then its $\underset{\leftarrow}{\lim}^1$ vanishes:
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet = 0
+  \,.
+$$
+
+=--
+
+([e.g. Weibel 94, prop. 3.5.7](#Weibel94))
+
+
+### Milnor exact sequences
+
++-- {: .num_example}
+###### Example
+
+Let 
+
+$$
+  \cdots \to C_3 \to C_2 \to C_1 \to C_0
+$$
+
+be a tower of [[chain complexes]] (of [[abelian groups]]) suct that it satisfies degree-wise the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, and write
+
+$$
+  C \coloneqq \underset{\longleftarrow}{\lim}_n C_n
+$$
+
+for its [[limit]]. Then for each $q \in \mathbb{Z}$ the [[chain homology]] $H_q(-)$ of the limit sits in a [[short exact sequence]] with the ordinary $\underset{\longleftarrow}{\lim}$ and the $\underset{\longleftarrow}{\lim}^1$ of the chain homologies:
+
+$$
+  0 \to \underset{\longleftarrow}{\lim}^1_i H_{q+1}(C_i)
+  \longrightarrow H_q(C)
+  \longrightarrow \underset{\longleftarrow}{\lim}_i H_q(C_i)
+  \to 0
+  \,.
+$$
+
+=--
+
+(e.g. [Weibel 94, prop. 3.5.8](#Weibel94))
+
+
+## References
+
+* {#Milnor62} [[John Milnor]], _On axiomatic homology theory_, Pacific J. Math.
+Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036730))
+
+* {#Weibel94} [[Charles Weibel]], section 3.5 of _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994)
+
+[[!redirects lim1]]
+
+[[!redirects lim^1]]
+
+
+[[!redirects Milnor sequence]]
+[[!redirects Milnor sequences]]
+[[!redirects Milnor exact sequence]]
+[[!redirects Milnor exact sequences]]
+[[!redirects Milnor short exact sequence]]
+[[!redirects Milnor short exact sequences]]
+[[!redirects Milnor long exact sequence]]
+[[!redirects Milnor long exact sequences]]
