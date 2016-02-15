@@ -26,7 +26,71 @@ The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the fi
 This is often used as the first, and in good cases the only, obstruction to a naive [[limit]] already giving the correct [[homotopy limit]].
 
 
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+Given a tower $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
+$$
+
+then $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is defined by the [[long exact sequence]]
+
+$$
+  0 \to 
+  \underset{\longleftarrow}{\lim}_n A_n
+   \stackrel{\prod_k (f_k - f_{k+1})}{\longrightarrow}
+  \underset{n}{\prod} A_n
+    \longrightarrow
+  \underset{\longleftarrow}{\lim}^1_n A_n
+  \to 0
+  \,.
+$$
+
+
+=--
+
+There is a generalization to groups (not necessarily abelian) (...)
+
+
 ## Properties
+
+### Abstract characterization
+
++-- {: .num_prop}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim} \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ is the unique functor, up to [[natural isomorphism]], which satisfies
+
+1. for every [[short exact sequence]] $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0 \;\;\; \in Ab^{(\mathbb{N}, \geq)}$ then the induced sequence
+
+   $$
+    0 
+    \to
+    \underset{\longleftarrow}{\lim}_n A_n
+    \to
+    \underset{\longleftarrow}{\lim}_n B_n
+    \to
+    \underset{\longleftarrow}{\lim}_n C_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1  A_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1 B_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1 C_n
+    \to 0
+   $$
+
+   is a [[long exact sequence]] of abelian groups;
+
+1. if $A_\bullet$ is a tower such that all maps are [[surjections]], then $\underset{\longleftarrow}{\lim}_n A_n \simeq 0$.
+
+=--
+
+(e.g. [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
 
 ### Vanishing of $\lim^1$
 
@@ -103,12 +167,45 @@ $$
 (e.g. [Weibel 94, prop. 3.5.8](#Weibel94))
 
 
++-- {: .num_prop}
+###### Proposition
+
+Let 
+
+$$
+  \cdots \to X_3 \to X_2 \to X_1 \to X_0
+$$
+
+be a [[tower of fibrations]], for instance a tower of [[simplicial sets]] with each map a [[Kan fibration]]. Then for each $q \in \mathbb{N}$ there is a [[short exact sequence]]
+
+$$
+  0 
+  \to
+  \underset{\longleftarrow}{\lim}^1_i \pi_{q+1}(X_i)
+  \longrightarrow
+  \pi_q(\underset{\longleftarrow}{\lim}_i X_i)
+  \longrightarrow
+  \underset{\longleftarrow}{\lim}_i \pi_q(X_i)
+  \to 
+  0
+  \,,
+$$
+
+for $\pi_\bullet$ the [[homotopy group]]-functor.
+
+=--
+
+e.g. ([Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
+
+
 ## References
 
 * {#Milnor62} [[John Milnor]], _On axiomatic homology theory_, Pacific J. Math.
 Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036730))
 
 * {#Weibel94} [[Charles Weibel]], section 3.5 of _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994)
+
+* {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section VI.3 of _[[Simplicial homotopy theory]]_, 1999
 
 [[!redirects lim1]]
 
