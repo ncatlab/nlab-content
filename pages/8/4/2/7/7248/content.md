@@ -17,9 +17,13 @@ This page collects material related to the textbook
 
   Progress in Mathematics, Birkh&#228;user (1996) 
 
+  Modern Birkh&#228;user Classics (1999)
+
   ([web](http://web.archive.org/web/19990208220238/http://www.math.uwo.ca/~jardine/papers/simp-sets/)) (ps and dvi only)
 
 on [[simplicial homotopy theory]].
+
+
 
 There is also an article by Curtis with this name, from 1971.
 
