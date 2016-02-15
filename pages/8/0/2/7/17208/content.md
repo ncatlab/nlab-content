@@ -1,0 +1,87 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}\mathbb{P}^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]].
+
+## Properties
+
+### Cohomology 
+ {#Cohomology}
+
+The [[ordinary cohomology]] of $\mathbb{C}P^n$ is 
+
+$$
+  H^k(\mathbb{C}P^n)\simeq
+  \left\{
+    \array{
+       \mathbb{Z} & for \; k \;even\; and \; k \leq 2n 
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+Under [[cup product]] this forms a [[graded ring]]
+
+$$
+  H^\bullet(\mathbb{C}P^n) \simeq \mathbb{Z}[t]/(t^{n+1})
+  \,,
+$$
+
+where $t \in H^2(\mathbb{C}P^n)$ is a generator.
+
+Hence the [[inverse limit]] over $n$ is the [[formal power series]]
+
+$$
+  H^\bullet(\mathbb{C}P^\infty) \simeq 
+  H^\bullet(\underset{\longrightarrow}{\lim}_n \mathbb{C}P^n)
+  \simeq
+  \underset{\longleftarrow}{\lim}_n
+  H^\bullet(\mathbb{C}P^n)
+  \simeq
+  \mathbb{Z}[ [ t ] ]
+  \,.
+$$
+
+More generally, for $E$ a [[complex oriented cohomology theory]], then by [this proposition](ordinary+homology+spectra+split#WhenGeneralizedHomologySpectraSplit)
+these statements generalize to
+
+$$
+  E^\bullet(\mathbb{C}P^n) \simeq (\pi_\bullet E)[t]/(t^{n+1})
+$$
+
+$$
+  E^\bullet(\mathbb{C}P^\infty) \simeq (\pi_\bullet E)[ [ t ] ]
+  \,,
+$$
+
+where now $t \in \tilde E^2(\mathbb{C}P^\infty) \hookrightarrow E^2(\mathbb{C}P^\infty)$ is any [complex orientation](complex+oriented+cohomology+theory#ComplexOrientation) on $E$.
+
+Moreover, the [[infinity-group]]-structure on $\mathbb{C}P^\infty \simeq B U(1)$ induces the structure of a [[formal group law]] on $E^\bullet(\mathbb{C}P^\infty) (\pi_\bullet E)[ [ t ] ]$.
+
+## Examples
+
+For $n = 1$: the [[Riemann sphere]].
+
+For $n = \infty$: the [[classifying space]] $B U(1)$, an [[Eilenberg-MacLane space]] $K(\mathbb{Z},2)$.
+
+## References
+
+* Wikipedia, _[Complex projective space](https://en.wikipedia.org/wiki/Complex_projective_space)_
+
+[[!redirects complex projective spaces]]
