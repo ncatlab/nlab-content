@@ -146,7 +146,7 @@ $$
   \cdots \to C_3 \to C_2 \to C_1 \to C_0
 $$
 
-be a tower of [[chain complexes]] (of [[abelian groups]]) suct that it satisfies degree-wise the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, and write
+be a tower of [[chain complexes]] (of [[abelian groups]]) such that it satisfies degree-wise the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, and write
 
 $$
   C \coloneqq \underset{\longleftarrow}{\lim}_n C_n
