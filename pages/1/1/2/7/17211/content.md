@@ -1,0 +1,70 @@
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Given any [[ring spectrum]] $E$, then the _Boardman homomorphism_ is the [[homomorphism]] from [[homotopy groups]] to $E$-[[generalized homology]] groups that is induced by [[smash product]] with the ring unit map $\mathbb{S} \longrightarrow E$ from the [[sphere spectrum]]:
+
+$$
+  \pi_\bullet(-)
+  \simeq
+  \pi_\bullet(\mathbb{S} \wedge (-))
+  \longrightarrow
+  \pi_\bullet(E \wedge (-))
+  =
+  E_\bullet(-)
+  \,.
+$$
+
+For $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[ordinary homology]], then this reduces to the [[Hurewicz homomorphism]] $\pi_\bullet(-) \to H_\bullet(-)$.
+
+Dually, there is the Boardman homomorphism from [[stable cohomotopy]] to [[generalized cohomology]] induced under forming [[mapping spectra]] into the unit map of $E$:
+
+$$
+  \pi^\bullet(-)
+  \simeq
+  \pi_\bullet([(-),\mathbb{S}])
+   \longrightarrow
+  \pi_\bullet([(-),E])
+   =
+  E^\bullet(-)
+  \,.
+$$ 
+
+Unifying these two cases, there is the bivariant Boardman homomorphism
+
+
+$$
+  [X, Y]_\bullet \simeq [X, Y \wedge \mathbb{S}]_\bullet \longrightarrow [X,Y \wedge E]_\bullet
+  \,.
+$$
+
+Since [[generalized homology]]/[[generalized cohomology]] is typically more tractable than [[homotopy groups]]/[[cohomotopy]] (in particular when [[homology spectra split]]), the Boardman homomorphism is often used to partially reduce computations of the latter in terms of computations of the former. 
+
+One example is the computation of the homotopy grous of [[MU]] via the [[homology of MU]] ([[Quillen's theorem on MU]]), see [below](#ForComplexOrientedCohomologyTheories).
+
+## Examples
+
+### For complex oriented cohomology theories
+ {#ForComplexOrientedCohomologyTheories}
+
+Used for [[complex oriented cohomology theories]] and proof of [[Quillen's theorem on MU]] via the [[homology of MU]] (...)
+
+([Adams 74, pages 60-62](#Adams74), [Lurie 10, lecture 7](#Lurie10))
+
+
+## References
+
+Named after [[Michael Boardman]].
+
+* {#Adams74} [[John Frank Adams]], part II, section 6 of _[[Stable homotopy and generalised homology]]_ (1974)
+
+* Dominique Arlettaz, _The generalized Boardman homomorphisms_, Central European Journal of Mathematics March 2004, Volume 2, Issue 1, pp 50-56
+
+* {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+
+
+[[!redirects Boardman homomorphisms]]
