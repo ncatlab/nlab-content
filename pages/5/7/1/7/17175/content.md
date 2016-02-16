@@ -1,4 +1,3 @@
-[[!redirects generalized Chern class]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -26,15 +25,24 @@ The generalized Chern classes serve as the generalized [[Thom classes]] that mak
 
 ## References
 
+The concept was introduced in
+
 * {#ConnerFloyd66} P. E. Conner, E. E. Floyd, _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 v+112 pp. [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511)
+
+An early account in a broader context was
 
 * {#Adams74} [[Frank Adams]], part I.4, part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
+More recent textbook and lecture notes include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
 
+[[!redirects Conner-Floyd Chern classes]]
+
+[[!redirects generalized Chern class]]
 [[!redirects generalized Chern classes]]
 
 [[!redirects generalised Chern class]]
