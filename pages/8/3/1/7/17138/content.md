@@ -3288,6 +3288,13 @@ In applications and modern theory, it is mostly the spectra that matter, and hen
 
 For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
+#### Milnor exact sequence
+
+Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Lefflercondition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
+
+We need this [below](#ComplexCobordismCohomology) in the discussion of the [[universal complex orientation on MU]].
+
+
 #### Atiyah-Hirzebruch spectral sequence
 
 (-- from here on we need the basics of [Interlude: Spectral sequences](#SpectralSequences) --)
@@ -3298,6 +3305,7 @@ The AHSS in turn is a direct consequence of the "[[Cartan-Eilenberg spectral seq
 
 
 ### **Part S2) Cobordism theory**
+ {#S2CobordismTheory}
 
 For instance ([Malkiewich 11](#Malkiewich11)).
 
@@ -3397,6 +3405,7 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 
 #### Complex cobordism cohomology
+ {#ComplexCobordismCohomology}
 
 (-- from here on we need basics from [Part 1), Examples](#Examples) --)
 
@@ -3414,10 +3423,6 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 * [[Quillen's theorem on MU]]
 
-#### Landweber exact functor theorem
-
-* [[Landweber exact functor theorem]]
-
 
 ### Outlook: Geometry of $Spec(MU)$
 
@@ -3427,9 +3432,7 @@ Use ([Lurie 10, lectures 12-14](#Lurie10))
 
 * [[moduli space of formal groups]]
 
-  * [[height of a formal group]]
-
-  * [[moduli space of elliptic curves]]
+* [[Landweber exact functor theorem]]
 
 * [[Landweber-Novikov theorem]]
 
