@@ -144,6 +144,8 @@ The original direct definitions of the stable homotopy category are due to
 
 * {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
 
+* [[Rainer Vogt]], _Boardman's stable homotopy category_, lectures, spring 1969
+
 * [[Dieter Puppe]], _On the stable homotopy category_, Topology and its application (1973)  ([[PuppeStableHomotopyCategory.pdf:file]])
 
 * {#Adams74} [[Frank Adams]], Part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
