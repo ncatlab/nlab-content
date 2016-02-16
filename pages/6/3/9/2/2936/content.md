@@ -167,17 +167,20 @@ Any two Polish spaces of the same cardinality are Borel isomorphic.
 
 +-- {: .proof} 
 ###### Proof 
-It suffices to prove this for uncountable Polish spaces (which have continuum cardinality, as we saw in Corollary \ref{CH}). We show that any such $X$ is Borel isomorphic to Cantor space. By Lemma \ref{subset}, we have an inclusion $i: X \to \mathbf{2}^{\mathbb{N}}$ which maps $X$ Borel isomorphically onto its image, and by Proposition \ref{cantor}, we have an inclusion $j: \mathbf{2}^{\mathbb{N}} \to X$ that maps Cantor space Borel isomorphically (even homeomorphically) onto its image. The rest is just a matter of checking that the 
-proof of the [[Cantor-Schroeder-Bernstein theorem]] applies in this Borel context. 
+It suffices to prove this for uncountable Polish spaces (which have continuum cardinality, as we saw in Corollary \ref{CH}). We show that any such $X$ is Borel isomorphic to Cantor space. By Proposition \ref{subset}, we have an inclusion $i: X \to \mathbf{2}^{\mathbb{N}}$ that maps $X$ Borel isomorphically onto its image, and by Proposition \ref{cantor}, we have an inclusion $j: \mathbf{2}^{\mathbb{N}} \to X$ that maps Cantor space Borel isomorphically (even homeomorphically) onto its image. The rest is just a matter of checking that at least one of the proofs of the [[Cantor-Schroeder-Bernstein theorem]] applies to this Borel context. 
 
-Indeed, consider the usual [[back-and-forth argument]] which introduces descending sequences $X = X_0 \supseteq X_1 \supseteq \ldots$ and $\mathbf{2}^{\mathbb{N}} = Y_0 \supseteq Y_1 \supseteq \ldots$ where $X_{n+1} \coloneqq j(i(X_n))$ and $Y_{n+1} = i(j(Y_n))$. As $i^{-1}$ and $j^{-1}$ are Borel on their domains, it follows that these iterated images are Borel sets, as are the intersections $X_\infty = \bigcap_n X_n$ and $Y_\infty = \bigcap_n Y_n$. Then the map $h: X_0 \to Y_0$ defined by 
+Indeed, as explained [here](https://ncatlab.org/nlab/show/Cantor-Schroeder-Bernstein+theorem#alt), we may consider 
+
+$$S = \bigcap_{n \geq 0} (\neg \exists_j \neg \exists_i)^n(X)$$ 
+
+Each of the direct image maps $\exists_i$ and $\exists_j$ takes Borel sets to Borel sets, since their inverses $i^{-1}, j^{-1}$ are Borel functions on their domains. So each of the iterates $(\neg \exists_j \neg \exists_i)^n(X)$ is a Borel set and so is their countable intersection $S$. The set $S$ is a fixed point of $\neg \exists_j \neg \exists_i$ and so we construct a Borel isomorphism $h: X \to \mathbf{2}^{\mathbb{N}}$ as 
 
 $$\array{
-h(x) & = & i(x) & if \; x \in X_{2 n} \setminus X_{2 n + 1}\; for\; some\; n,\; or \; x \in X_\infty \\
- & = & j^{-1}(x) & if \; x \in X_{2 n + 1} \setminus X_{2 n + 2}\; for\; some\; n
+x & \mapsto & i(x) & if\; x \in S \\ 
+ & \mapsto & j^{-1}(x) & if\; x \in \neg S
 }$$ 
 
-is a Borel isomorphism. 
+following the proof of the [[Cantor-Schroeder-Bernstein theorem]]. 
 =-- 
 
 For another proof, see theorem 3.1.1 of [Berberian](#Ber). 
