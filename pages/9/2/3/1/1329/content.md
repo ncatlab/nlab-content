@@ -42,6 +42,7 @@ This may be read as saying that the [[Whitehead theorem]] is valid in the [[(∞
 ## Related concepts
 
 * [[topological localization]]
+* [[cotopological localization]]
 
 ## References
 
