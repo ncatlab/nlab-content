@@ -140,7 +140,7 @@ The [[homotopy fiber sequences]] of spectra gives the stable homotopy category t
 
 ## References
 
-The original direct definitions of the stable homotopy category are due to 
+The original direct definitions of the stable homotopy category (for precursors see at _[[Spanier-Whitehead category]]_) are due to 
 
 * {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
 
