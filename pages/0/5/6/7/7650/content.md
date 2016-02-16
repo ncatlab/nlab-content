@@ -25,11 +25,19 @@ $$
 
 and canonically equips it with a continuous and free right [[action]] of $ G $ that yields the structure of a CW-complex such that the action of $ G $ permutes the cells. Consequently, the natural projection $(E G)_{Milnor} \to (E G)_{Milnor}/G $ is a model for the universal bundle $ E G \to B G $ of locally trivial principal $ G $-bundles over [[paracompact space|paracompact]] Hausdorff spaces, or equivalently, of numerable principal $ G $-bundles over all [[Hausdorff topological space]]s.
 
+There is a generalisation of Milnor's construction that works for [[topological groupoids]], and reduces to the above case when the groupoid is $\mathbf{B}G$, the delooping of the group $G$.
+
+## Related entries
+
+* [[classifying space]]
+
+* [[universal principal bundle]]
+
+* [[bar construction]]
+
 ## References
 
 * [[John Milnor]], _Construction of Universal Bundles_, _I_, Ann. of Math. __63__:2 (1956) 272-284 [jstor](http://www.jstor.org/stable/1969609); _Construction of Universal Bundles_, _II_, Ann. of Math. __63__:3 (1956) 430-436, [jstor](http://www.jstor.org/stable/1970012); reprinted in Collected Works of John Milnor, [gBooks](http://books.google.com/books?id=WyZeeEn8VFwC).
-
-* [[classifying space]], [[universal principal bundle]]
 
 * Wikipedia: [Classifying Space](http://en.wikipedia.org/wiki/Classifying_space).
 
