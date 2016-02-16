@@ -68,4 +68,12 @@ See at _[one-point compactification -- Examples -- Spheres](one-point+compactifi
 
   * [[suspension]], **reduced suspension**
 
+    * [[Freudenthal suspension theorem]]
+
+    * [[Spanier-Whitehead category]]
+
+    * [[suspension isomorphism]]
+
+    * [[suspension of a chain complex]]
+
 [[!redirects reduced suspensions]]
