@@ -169,6 +169,8 @@ Just like monoidal categories, monoidal functors have a [[string diagram]] calcu
 
 * **lax monoidal functor**
 
+  * [[functor with smash products]]
+
 * [[oplax monoidal functor]]
 
 * [[bilax monoidal functor]]
