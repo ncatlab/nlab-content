@@ -1,5 +1,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/George_W._Whitehead)
 
+## related $n$Lab entries
+
+* [[Spanier-Whitehead category]]
+
+* [[Spanier-Whitehead duality]]
+
+* [[Whitehead theorem]]
+
+* [[stable homotopy category]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
 category: people
 
