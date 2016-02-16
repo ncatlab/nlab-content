@@ -1,0 +1,32 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Motivated by the [[Freudenthal suspension theorem]], the _suspension category_ of ([Spanier-Whitehead 53](#SpanierWhitehead53)) has as [[objects]] [[pointed topological space|pointed]]  [[CW-complexes]], and as [[hom-sets]] it has [[colimits]] $\underset{\longrightarrow}{\lim}_q [\Sigma^q X , \Sigma^q Y]$ over [[homotopy classes]] of [[continuous functions]] between their arbitrary high [[suspensions]].
+
+Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this is usefully thought as just the [[full subcategory]] on the [[suspension spectra]] inside the larger category of [[spectra]]: the [[stable homotopy category]].
+
+## Related concepts
+
+* [[Spanier-Whitehead duality]]
+
+## References
+
+The definition is due to
+
+* {#SpanierWhitehead53} [[Edwin Spanier]], [[George Whitehead]], _A first approximation to homotopy theory_ Proc. Nat. Acad. Sci. U.S.A., 39 (1953), 655-660. 
+
+Early survey includes
+
+* {#Whitehead62} [[George Whitehead]], _Some aspects of stable homotopy theory_, International Confress of Mathematics 1962 ([pdf](http://www.mathunion.org/ICM/ICM1962.1/Main/icm1962.1.0502.0506.ocr.pdf))
+
+Discussion in the abstract generality of categories equipped with an abstract suspension-like functor is in
+
+* {#Heller68} [[Alex Heller]], _Stable homotopy categories_, Bull. Amer. Math. Soc. Volume 74, Number 1 (1968), 28-63. ([Euclid](https://projecteuclid.org/euclid.bams/1183529378))
+
+* [[Ivo Dell'Ambrogio]], _The Spanier-Whitehead category is always triangulated_ ([pdf](http://math.univ-lille1.fr/~dellambr/diploma.pdf))
+
+[[!redirects suspension category]]
