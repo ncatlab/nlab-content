@@ -57,6 +57,9 @@ For the monoidal [[model structure]] for excisive functors, the fact that monoid
 
 * The [[ring spectrum]]-structure on [[Thom spectra]] naturally arises in FSP-form, see _[Thom spectrum -- Properties -- Ring spectrum structure](Thom+spectrum#RingSpectrumStructure)_.
 
+## Related concepts
+
+* [[Day convolution]]
 
 ## Reference
 
