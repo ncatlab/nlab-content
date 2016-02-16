@@ -110,7 +110,7 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 A standard textbook is
 
-* [[Peter Freyd]], _[Abelian Categories_ ([pdf](http://www.emis.de/journals/TAC/reprints/articles/3/tr3.pdf))
+* [[Peter Freyd]], _[Abelian Categories (pdf)](http://www.tac.mta.ca/tac/reprints/articles/3/tr3.pdf))
  {#Freyd}
 
 Details on the proof and its variants are also in
