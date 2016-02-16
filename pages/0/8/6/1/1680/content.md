@@ -108,7 +108,11 @@ is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] 
 
 ## References
 
+Textbook accounts include
+
 * {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Kochmann96} [[Stanley Kochmann]], section 3.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 Lecture notes include
 
