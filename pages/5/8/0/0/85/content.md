@@ -13,29 +13,53 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
-Just as we can convolve [[function|functions]] $f : M \to \mathbb{C}$ where $M$ is a [[group]], or more generally a [[monoid]], we can convolve [[functor|functors]] $f: M \to Set$ where $M$ is a [[monoidal category]].  So, for any monoidal category $M$, the [[functor category]] $Set^M$ becomes a monoidal category in its own right.  The tensor product in $Set^M$ is called **Day convolution**, named after [[Brian Day]].
+Just as we can convolve [[function|functions]] $f : M \to \mathbb{C}$ where $M$ is a [[group]], or more generally a [[monoid]], we can convolve [[functor|functors]] $f: M \to Set$ where $M$ is a [[monoidal category]].  So, for any monoidal category $M$, the [[functor category]] $Set^M$ becomes a monoidal category in its own right.  The tensor product in $Set^M$ is called **Day convolution** ([Day 70](#Day70)).
 
-We can generalize this idea by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the tensor product $u \otimes v$ must preserve colimits in the separate arguments $u$ and $v$; that is, that the functors $u \otimes -$ and $- \otimes v$ must preserve colimits. This occurs when for instance $V$ is symmetric monoidal closed (so that these functors are left adjoints). 
+This may be generalized by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the tensor product $u \otimes v$ must preserve colimits in the separate arguments $u$ and $v$; that is, that the functors $u \otimes -$ and $- \otimes v$ must preserve colimits. This occurs when for instance $V$ is symmetric monoidal closed (so that these functors are left adjoints). 
 
-## Restricted Definition
+## Definition
 
-For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[end|coend]]
+### For monoidal categories
+
+For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[coend]]
 
 $$
   F \star G
-  :=
+  \coloneqq
   \int^{c,d \in C}
   F(c) \times G(d) \times Hom_C(-, c \otimes d)
   \,.
 $$
 
 
-## Properties {#Properties}
+### For promonoidal categories
+
+In the original article ([Day 70](#Day70)), a stronger form of the convolution is discussed, in which $A$ is assumed only to be a [[promonoidal category]].
+
+Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
+
+
++-- {: .num_prop}
+###### Proposition
+There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
+=--
+
++-- {: .proof}
+###### Proof
+
+...
+
+=--
+
+
+
+## Properties 
+  {#Properties}
 
 Let $j : C \to PSh(C)$ be the [[Yoneda embedding]]. 
 
@@ -110,32 +134,17 @@ $$
 
 =--
 
-## Promonoidal Day Convolution
-
-In Day's original paper, a stronger form of the Day convolution is discussed, in which $A$ is assumed only to be a [[promonoidal category]].
-
-Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
-
-
-+-- {: .num_prop}
-###### Proposition
-There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
-=--
-
-+-- {: .proof}
-###### Proof
-
-...
-
-=--
 
 
 ## Examples
 
-* Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. 
++-- {: .num_example}
+###### Example
+
+Let $C$ be a [[discrete category]] over a set, which is hence a [[monoid]] (for instance a [[group]]) with product $\cdot$. 
 
 
-Then the above convolution product is
+Then the Day convolution product is
 
 $$
   F \star G : e \mapsto \oplus_{c \cdot d = e} F(c) \times G(d)
@@ -171,25 +180,59 @@ $$
 $$
 
 
+=--
+
+Further examples:
+
 * There is an obvious monoidal structure on the [[cube category]]. By Day convolution this induces a monoidal structure on [[cubical set|cubical sets]]. This in turn induces a monoidal structure on [[strict omega-category|strict omega-categories]].
 
 * There is a monoidal structure on the [[augmented simplex category]] which by Day convolution induces a monoidal structure on the category of [[augmented simplicial sets]], which by restriction induces the [[join of simplicial sets|join operation]] on [[simplicial sets]].
 
 * If $C$ is a [[large category]] in one [[universe]], then its [[universe enlargement]] to a bigger universe can be given a closed monoidal structure via Day convolution.
 
-* The semantics of [[linear logic]] obtained from Girard's "phase spaces", or more generally from [[ternary frames]], is essentially Day convolution for posets.
+* The [[semantics]] of [[linear logic]] obtained from Girard's "phase spaces", or more generally from [[ternary frames]], is essentially Day convolution for [[posets]].
 
+
++-- {: .num_example #SymmetricSmashProductOfSpectra}
+###### Example
+
+The [[symmetric smash product of spectra]] on, in particular,  [[symmetric spectra]] and  [[orthogonal spectra]] is the Day convolution product for [[Top]]-[[enriched functors]] on monoidal categories of [[symmetric groups]] of [[orthogonal groups]], respectively ([MMSS 00, theorem 1.7 and section 21.](#MMSS00)).
+
+Similarly the [[symmetric smash product of spectra]] on the [[model structure for excisive functors]] is Day convolution for [[sSet]]-[[enriched functors]] on the plain [[smash product]] of finite pointed [[simplicial sets]] ([Lydakis 98](#Lydakis98)).
+
+See also at _[[functor with smash products]]_.
+
+=--
 
 ## Related concepts
 
 * [[monoidal topos]]
 
 ## References
+ {#References}
+
+The concept originates in
+
+* {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38
+
+General discussion includes
 
 * [[Todd Trimble]] on Day convolution [here](http://golem.ph.utexas.edu/category/2008/01/the_concept_of_a_space_of_stat.html#c014365)
 
+The application of Day convolution to the construction of [[symmetric smash products of spectra]] for [[highly structured spectra]] is due to
 
-For [[(∞,1)-categories]]:
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model Categories of Diagram Spectra_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
+
+and for [[excisive functors]] due to
+
+* {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
+
+
+
+(see also at [[functors with smash product]]).
+
+
+Day convolution for [[(∞,1)-categories]] is discussed in
 
 * Saul Glasman, _Day convolution for infinity-categories_ ([arXiv:1308.4940](http://arxiv.org/abs/1308.4940))
 
