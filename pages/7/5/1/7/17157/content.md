@@ -28,7 +28,7 @@ For $S$ any [[spectrum]] and $H A$ an Eilenberg-MacLane spectrum,
 then the [[smash product]] $S\wedge H A$ (the $A$-[[ordinary homology]] spectrum)
 is non-canonically equivalent to a product of EM-spectra (hence a [[wedge sum]] of EM-spectra in the finite case).
 
-([Adams 74, lemma 61](#Adams74))
+([Adams 74, part II, lemma 6.1](#Adams74))
 
 A variant for [[generalized (Eilenberg-Steenrod) cohomology]]:
 
