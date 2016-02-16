@@ -48,6 +48,8 @@ where the $\{b_i \in E_\bullet(M U(1))\}$ are a [[dual basis]] to the basis $\{t
 
 * [[Frank Adams]], part II.6 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Kochmann96} [[Stanley Kochmann]], section 2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
 
