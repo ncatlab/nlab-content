@@ -1,0 +1,124 @@
+
+This page collects material related to the book
+
+* [[Stanley Kochmann]], 
+
+  _Bordism, Stable Homotopy and Adams Spectral Sequences_, 
+
+  Fields Institute Monographs
+
+  American Mathematical Society 1996
+
+on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomology]], and the [[Adams spectral sequence]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## 1 Bordism
+
+* [[cobordism ring]]
+
+* [[Pontryagin-Thom collapse map]]
+
+* [[Thom's theorem]]
+
+## 2 Characteristic Classes
+
+### 2.1 Introduction
+
+### 2.2 Serre spectral sequence
+
+* [[Serre spectral sequence]]
+
+### 2.3 Cohomology of classifying spaces
+
+* [[classifying space]]
+
+* [[characteristic classes]]
+
+* [[Chern classes]]
+
+### 2.4 Homology of Classifying spaces
+
+### 2.5 Steenrod algebra
+
+* [[Steenrod algebra]]
+
+### 2.6 Homology of Thom spectra
+
+* [[Thom isomorphism]]
+
+* [[homology of MU]]
+
+## 3 Stable Category
+
+### 3.2 Underlying theorems
+
+* [[Freudenthal suspension theorem]]
+
+* [[Blakers-Massey theorem]]
+
+### 3.3 Spectra
+
+* [[spectrum]]
+
+* [[coordinate-free spectrum]]
+
+* [[Whitehead theorem]]
+
+* [[stable homotopy category]]
+
+### 3.4 Generalized homology
+
+* [[generalized homology]]
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+* [[Brown representability theorem]]
+
+### 3.5 Eilenberg-MacLane spectr
+
+* [[Eilenberg-MacLane spectrum]]
+
+### 3.6 Adams spectral sequence
+
+* [[Adams resolution]]
+
+* [[Adams spectral sequence]]
+
+### 3.7 Homotopy of Thom spectra
+
+* [[Quillen's theorem on MU]]
+
+## 4 Complex Bordism
+
+### 4.2 Atiyah-Hirzebruch spectral sequences
+
+* [[lim^1 and Milnor sequences]]
+
+* [[Atiyah-Hirzebruch spectral sequence]]
+
+### 4.3 MU characteristic classes
+
+* [[complex cobordism cohomology]], [[MU]]
+
+* [[Conner-Floyd Chern classes]]
+
+* [[homology of MU]]
+
+### 4.4 Formal products 
+
+### 4.5 MU operation
+
+### 4.6 Brown-Peterson spectra
+
+* [[Brown-Peterson spectrum]]
+
+### 4.7 Adams-Novikov spectral sequence
+
+* [[Adams-Novikov spectral sequence]]
+
+## 5 Computing Stable Stems
+
+category: reference
