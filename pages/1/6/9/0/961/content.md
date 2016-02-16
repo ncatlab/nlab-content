@@ -33,9 +33,9 @@ This means that it consists of a [[subobject]] $R\stackrel{(p_1,p_2)}\hookrighta
 * internal [[transitive relation|transitivity]]: $t: R \times_X R \to R$; where with the notation for the projections in the [[cartesian square]]
 
   $$\array{
-    R \times_X R & \stackrel{q_1}\rightarrow & R
+    R \times_X R & \stackrel{q_2}\rightarrow & R
     \\
-    \downarrow^{\mathrlap{q_2}} && \downarrow^{\mathrlap{p_1}}
+    \downarrow^{\mathrlap{q_1}} && \downarrow^{\mathrlap{p_1}}
     \\
     R & \stackrel{p_2}\rightarrow & X
   }
