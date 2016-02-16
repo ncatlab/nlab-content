@@ -40,7 +40,9 @@ The [[stable homotopy category]] $Ho(Spec)$ is a [[symmetric monoidal category]]
 
 * [[Anderson duality]]
 
-* [[Brown-Comentz duality]]
+* [[Brown-Comenetz duality]]
+
+* [[Spanier-Whitehead category]]
 
 ## References
 
