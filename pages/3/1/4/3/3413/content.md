@@ -23,6 +23,8 @@ See also: _Homotopy invariant algebraic structures_: _a conference in honor of J
 
 ## Related entries
 
+* [[Boardman homomorphism]]
+
 * [[quasi-category]]
 
 * [[Boardman-Vogt resolution]]
