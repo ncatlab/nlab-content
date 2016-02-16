@@ -29,7 +29,9 @@ Original articles include
 
 * [[George Whitehead]], _Generalized homology theories_  (1961) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/gww9.pdf))
 
+Textbook accounts include
 
+* {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 See also
 
