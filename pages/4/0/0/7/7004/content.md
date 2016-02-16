@@ -17,6 +17,8 @@
 
 Semantics is the interpretation of the [[syntax]] of a [[theory]] in a [[model]].
 
+See a separate page for [[semantics of a programming language]].
+
 ## Examples
 
 ### Categorical semantics of dependent type theory
