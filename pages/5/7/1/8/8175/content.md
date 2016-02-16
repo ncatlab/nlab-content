@@ -144,7 +144,7 @@ $$
 
 Here in the middle step we applied the [[suspension isomorphism]] and in the last step we used the assumption that there is just a [[finite set]] of cells.
 
-This shows that the entries of the $E_1$-page are the [[singular cohomology|singular]] [[chains]] of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the Cartan-Eilenberg spectral sequence acts as the singular coboundary operator (...).
+This shows that the entries of the $E_1$-page are the [[singular cohomology|singular]] [[chains]] of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the Cartan-Eilenberg spectral sequence acts as the singular coboundary operator. See e.g. ([Kochmann 96, theorem 4.2.5](#Kochmann96)).
 
 =--
 
@@ -212,6 +212,10 @@ where the idea is attributed to [[George Whitehead]]:
 > the Atiyah-Hirzebruch spectral sequence, which was really invented by G. W. Whitehead but not published by him ([Adams 74, p. 127-128](#Adams74))
 
 > These spectral sequences were probably first invented by G. W. Whitehead, but he got them just after he wrote the paper $[$Whitehead 56 'Homotopy groups of joins and unions'$]$ in which they ought to have appeared. They then became a folk-theorem and were eventually published by Atiyah and Hirzebruch ([Adams 74, p. 215](#Adams74))
+
+A more detailed account of the proof is in 
+
+* {#Kochmann96} [[Stanley Kochmann]], theorem 4.2.5 of _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
 
 Further discussion of the case of [[twisted K-theory]] is due to
 
