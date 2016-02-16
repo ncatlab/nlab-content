@@ -1,5 +1,12 @@
-Brian J. Day is an Australian category theorist.
+Brian J. Day is an Australian [[category theory|category theorist]].
+
+## related $n$Lab entries
+
+
+* [[Day convolution]]
 
 [[!redirects B. Day]]
 [[!redirects Brian Day]]
 [[!redirects B. J. Day]]
+
+category:people
