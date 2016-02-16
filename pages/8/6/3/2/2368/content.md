@@ -13,9 +13,6 @@
 =--
 
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -101,13 +98,17 @@ The original no-go theorem for a well-behave smash product of spectra is
 
 In the mid-1990s, several categories of spectra with nice smash products were discovered, and simultaneously, model categories experienced a major renaissance. 
 
-The definition of $S$-modules and their theory originates in
+The definition of [[S-modules]] and their theory originates in
 
 * {#ElmendorfKrizMandellMay97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 (aka "EKMM")
 
 and around 1993 [[Jeff Smith]] gave the first talks about symmetric spectra; the details of the model structure were later worked out and written up in 
 
 * [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208.
+
+Discussion that makes the [[Day convolution]] structure on the symmetric smash product of spectra manifest is in
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], part III of _Model Categories of Diagram Spectra_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
 
 ### Reviews and introductions
