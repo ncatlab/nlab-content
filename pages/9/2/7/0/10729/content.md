@@ -30,6 +30,8 @@ Many of the basic constructions and theorems in [[chromatic homotopy theory]] ap
 
 ## Related concepts
 
+* [[Spanier-Whitehead category]]
+
 * [[finite set]], [[finite number]]
 
 * [[finite topological space]], [[finite CW-complex]]
