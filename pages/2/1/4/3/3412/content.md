@@ -17,6 +17,8 @@ which gave a neat explicit construction/description of [[homotopy limit]]s.
 
 ## Related entries
 
+* [[stable homotopy category]], [[smash product of spectra]]
+
 * [[quasi-category]]
 
 * [[Boardman-Vogt resolution]]
