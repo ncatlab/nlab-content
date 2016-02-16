@@ -73,7 +73,7 @@ Discussion of [[simplicial ring|simplicial]] ring spectra is in
 
 See also the references at [[stable homotopy theory]].
 
-* Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
+* Glossary for stable and chromatic homotopy theory ([[StableChromaticGlossary.pdf:file]])
 
 [[!redirects ring spectra]]
 
