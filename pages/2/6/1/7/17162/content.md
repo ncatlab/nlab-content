@@ -1,22 +1,53 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-The [[generalized homology]] of [[MU]].
+The ([[generalized homology|generalised]]) [[homology]] of [[MU]].
 
 A key ingredient in [[Quillen's theorem on MU]] giving the [[homotopy groups of a spectrum|homotopy groups]] of $MU$.
 
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ a [[complex oriented cohomology theory]], there is an [[isomorphism]] of [[graded rings]]
+
+$$
+  E_\bullet(M U) \simeq (\pi_\bullet E)[b_1, b_2, \cdots]
+  \,,
+$$
+
+where the $\{b_i \in E_\bullet(M U(1))\}$ are a [[dual basis]] to the basis $\{t^{i+1} \in E^\bullet(M U) \simeq t (\pi_\bullet E)[ [ t ] ]\}$ that is induced by the [[complex oriented cohomology theory|complex orientation]].
+
+=--
+
+([Lurie 10, lecture 7, prop. 2](#Lurie10))
+
 ## Related concepts
+
+* [[Boardman homomorphism]]
 
 * [[homology of MO]]
 
 ## References
 
-* [[Frank Adams]], part II.6 of _[[Stable homotopy and generalised homology]]_,1974
+* [[Frank Adams]], part II.6 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
+* {#Lurie10} [[Jacob Lurie]], lecture 7 of _[[Chromatic Homotopy Theory]]_, 2010, ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf))
 
 
