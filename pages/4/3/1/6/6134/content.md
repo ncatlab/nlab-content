@@ -5,8 +5,16 @@
 
 [^rem]: In the same year Hasse and Michler published _Theorie der Kategorien_ , Deutscher Verlag der Wissenschaften Berlin 1966.
 
+## Some publications
+
 * [[Albrecht Dold|A. Dold]], D. Puppe, _Homologie nicht-additiver Funktoren. Anwendungen_ , Ann. Inst. Fourier **11** (1961) pp.201-312. ([pdf](http://archive.numdam.org/ARCHIVE/AIF/AIF_1961__11_/AIF_1961__11__201_0/AIF_1961__11__201_0.pdf))
 
 * D. Puppe, _Korrespondenzen in abelschen Kategorien_ , Math. Ann. **148** (1962) pp.1-30. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/pdf/?PPN=GDZPPN002290812))
+
+## related $n$Lab entries
+
+* [[stable homotopy category]], [[smash product of spectra]]
+
+* [[Puppe sequence]]
 
 category: people
