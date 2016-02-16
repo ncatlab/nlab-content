@@ -23,6 +23,8 @@ See also: _Homotopy invariant algebraic structures_: _a conference in honor of J
 
 ## Related entries
 
+* [[stable homotopy category]], [[smash product of spectra]]
+
 * [[Boardman homomorphism]]
 
 * [[quasi-category]]
@@ -30,8 +32,6 @@ See also: _Homotopy invariant algebraic structures_: _a conference in honor of J
 * [[Boardman-Vogt resolution]]
 
 * [[Boardman-Vogt tensor product]]
-
-* [[stable homotopy category]]
 
 ## References
 
