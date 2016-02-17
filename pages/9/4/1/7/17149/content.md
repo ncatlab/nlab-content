@@ -26,6 +26,10 @@ on [[stable homotopy theory]] and [[generalised homology]] theory, with emphasis
 
 Consists of three lectures, each meant to be readable on their own, and there is overlap in topics. It's part III that begins with an actual introduction to stable homotopy theory, and the so the beginner might prefer to start reading with Part III. Also notice that on p. 87 it says that the material there in part II is to be regarded as superseding part I.
 
+A very detailed and readable account based on these lectures is
+
+* [[Stanley Kochmann]], _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 The big story emerging here was later further developed in
 
 * [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999
@@ -34,7 +38,7 @@ The big story emerging here was later further developed in
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010
 
-This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it by Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
+This is about understanding the absolute base space [[Spec(S)]] by [[covering]] it with Spec([[MU]]). See at _[Adams spectral sequences -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_.
 
 #Contents#
 * table of contents
