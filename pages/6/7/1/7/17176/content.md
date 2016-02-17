@@ -40,6 +40,10 @@ Comments on the historical development are in
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, preamble of  _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics, 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
+More recent textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 3.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 Lecture notes include
 
 * [[Cary Malkiewich]], section 2.1 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
