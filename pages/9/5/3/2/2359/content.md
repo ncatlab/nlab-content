@@ -154,7 +154,7 @@ Early accounts include
 
 * {#Adams74} [[Frank Adams]], Part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* {#Sitzer75} R. M. Switzer, _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 A fun scan of the (pre-)history of the stable homotopy category is in 
 
