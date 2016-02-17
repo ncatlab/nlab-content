@@ -92,17 +92,21 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ### 2.2 Serre spectral sequence
 
+* [[exact couple]]
+
 * [[Serre spectral sequence]]
 
 * [[Gysin sequence]]
 
 ### 2.3 Cohomology of classifying spaces
 
-* [[classifying space]]
-
 * [[characteristic classes]], [[universal characteristic class]]
 
 * [[Chern classes]]
+
+* [[splitting principle]]
+
+* [[Stiefel-Whitney classes]]
 
 ### 2.4 Homology of Classifying spaces
 
