@@ -16,11 +16,36 @@
 
 The **Freudenthal suspension theorem** ([Freudenthal 37](#Freudenthal37)) is the following theorem about [[homotopy groups]] of [[n-spheres]]:
 
-The [[suspension]] homomorphism $\sigma :\pi_{n+k}(S^n)\to \pi_{n+k+l}(S^{n+l})$ is an [[isomorphism]] for $n\gt k+1$. 
 
-In this statement, one may replace $S^n$ with any $(n-1)$-[[connected space]] $Y$ while replacing $S^{n+l}$ with the corresponding suspension $\Sigma^{l} Y$.
++-- {: .num_prop}
+###### Proposition
 
-Still more generally: for $X$ an [[n-connected]] [[CW-complex]] and $Y$ a [[CW-complex]] of [[dimension]] $\leq 2n$, then the maps of [[homotopy classes]] of [[continuous functions]]
+The [[suspension]] [[homomorphism]] on [[homotopy groups of spheres]] 
+
+$$
+  \pi_{n+k}(S^n) \longrightarrow \pi_{n+k+1}(S^{n+1})
+$$ 
+
+is an [[isomorphism]] for $n\gt k+1$. 
+
+More generally, for $X$ an [[n-connected]] [[CW-complex]], then the suspension homomorphism on [[homotopy groups]]
+
+$$
+  \pi_k(X) \longrightarrow \pi_{k+1}(\Sigma X)
+$$
+
+is an [[isomorphism]] for $k \leq 2n$.
+
+=--
+
+This follows from the [[Blakers-Massey theorem]] (e.g. [Kochmann 96, p. 70](#Kochmann96)). 
+
+The following more general statement is also often referred to as the Freudenthal suspension theorem:
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ an [[n-connected]] [[CW-complex]] and $Y$ a [[CW-complex]] of [[dimension]] $\leq 2n$, then the maps of [[homotopy classes]] of [[continuous functions]]
 
 $$
   [Y,X]\stackrel{}{\longrightarrow} [\Sigma Y, \Sigma X] \stackrel{}{\longrightarrow}[\Sigma^2 Y, \Sigma^2 X]
@@ -28,11 +53,26 @@ $$
 
 are [[isomorphisms]]. In particular $[Y,X]$ canonically has the structure of an [[abelian group]].
 
+=--
+
+This follows from the fact that:
+
++-- {: .num_prop}
+###### Proposition
+
+If $X$ is an [[n-connected]] [[CW-complex]], then the [[unit of an adjunction|unit]] 
+
+$$
+  X \longrightarrow \Omega \Sigma X
+$$
+
+of the ([[suspension]]$\dashv$[[loop space]])-[[adjunction]] is an isomorphism on $\pi_{\leq 2n}$.
+
+=--
+
+This follows from applying the [[Serre long exact sequence]] (which itself follows from the [[Serre spectral sequence]]) to the [[path space]] fibration (e.g. [Kochmann 96, prop. 3.2.2](#Kochmann96)).
+
 ## Properties
-
-### Relation to Blakers-Massey
-
-The Freudenthal suspension theorem is a special case of the [[Blakers-Massey theorem]].
 
 ### As motivation for stable homotopy theory
 
@@ -55,7 +95,7 @@ Textbook accounts include
 
 * [[Alan Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, chapter 4 ([pdf](http://www.math.cornell.edu/~hatcher/AT/ATch4.pdf))
 
-a nice expanded version of which is in
+A nice expanded version of the latter is in
 
 * Tengren Zhang, _Freudenthal suspension theorem_  ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/ZhangTengren.pdf))
 
