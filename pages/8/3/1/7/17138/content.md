@@ -3502,9 +3502,7 @@ For section **1) Stable homotopy theory** we follow the modern picture of the st
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
-but we also take some clues from the [[Bousfield-Friedlander model structure]].
-
-For more details see ([Kochmann 96, section 3.2, 3.3](#Kochmann96)). Also the classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read (but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3).
+but we also take some clues from the [[Bousfield-Friedlander model structure]]. The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read (but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3).
 
 For **Interlude: Spectral sequences** a discussion streamlined for our puroses is in ([Rognes 12, section 2](#Rognes12)).
 
