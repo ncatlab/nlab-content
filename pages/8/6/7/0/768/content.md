@@ -70,7 +70,7 @@ As discussed there, too, this construction generalizes to more general [[simplic
 For $G = O(n)$ the [[orthogonal group]] and
 $G = U(n)$ the unitary group, there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. (See for instance ([May, p. 196](#May)), where some of the following is taken from).
 
-Let $V_n(\mathbb{R}^q)$ be the [[Stiefel variety]] of orthonormal $n$-frames in the [[Cartesian space]] $\mathbb{R}^q$. Its points are $n$-[[tuples]] of orthonormal [[vectors]] in $\mathbb{R}^q$, and it is topologized as a [[subspace topology|subspace]] of $(\mathbb{R}^q)^n$,
+Let $V_n(\mathbb{R}^q)$ be the [[Stiefel manifold]] of [[orthonormal basis|orthonormal]] $n$-frames in the [[Cartesian space]] $\mathbb{R}^q$. Its points are $n$-[[tuples]] of orthonormal [[vectors]] in $\mathbb{R}^q$, and it is topologized as a [[subspace topology|subspace]] of $(\mathbb{R}^q)^n$,
 or, equivalently, as a subspace of $(S^{q-1})^n$. It is a [[compact space|compact]] [[manifold]]. 
 
 Let $G_n(\mathbb{R}^q)$ be the [[Grassmannian]] of $n$-planes in $\mathbb{R}^q$. Its points are the n-dimensional subspaces
@@ -187,7 +187,9 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 * Cartan-Schwarz, ....
  {#CartanSchwarz}
 
-A concise introduction of classifying spaces of [[vector bundles]] is around p. 196 of 
+textbook accounts on classifying spaces for [[vector bundles]] include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#May} [[Peter May]], _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
   
