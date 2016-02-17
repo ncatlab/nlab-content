@@ -226,4 +226,14 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Massey product]]
 
+### 5.5 The Lambda Complex $\Gamma^\ast$
+
+### 5.6 The Lambda Complex $\Gamma^\ast_{BP}$
+
+### 5.7 Toda brackets and stable stems
+
+* [[Toda bracket]]
+
+* [[stable stem]]
+
 category: reference
