@@ -92,9 +92,11 @@ This appears as ([Godin, prop. 31](#Godin)).
 
 ## References
 
-Basics on tubular neighbourhoods are for instance in section 3 of
+Basics on tubular neighbourhoods are reviewed for instance in
 
-* {#DaSilva} Ana Cannas da Silva, _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
+* {#DaSilva} Ana Cannas da Silva, section 3 of _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
  
 
 The homotopical uniqueness of tubular neighbourhoods is discussed in
