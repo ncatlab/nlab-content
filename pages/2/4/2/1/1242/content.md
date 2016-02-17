@@ -270,6 +270,7 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 * [[long exact sequence in homology]]
 
+* [[Serre long exact sequence]]
 
 
 ## Related concepts
