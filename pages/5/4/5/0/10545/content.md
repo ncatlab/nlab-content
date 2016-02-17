@@ -300,6 +300,9 @@ Textbook accounts include
 
 * Harvey Margolis, _Spectra and the Steenrod algebra_, 1983 North-Holland 
 
+* {#Kochmann96} [[Stanley Kochmann]], section 2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+
 Lecture notes include
 
 * {#Rognes12} [[John Rognes]], section 3 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
