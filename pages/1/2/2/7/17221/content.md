@@ -17,6 +17,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ## 1 Bordism
 
+* [[cobordism theory]]
+
 * [[cobordism ring]]
 
 * [[Pontryagin-Thom collapse map]]
@@ -31,11 +33,13 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Serre spectral sequence]]
 
+* [[Gysin sequence]]
+
 ### 2.3 Cohomology of classifying spaces
 
 * [[classifying space]]
 
-* [[characteristic classes]]
+* [[characteristic classes]], [[universal characteristic class]]
 
 * [[Chern classes]]
 
@@ -59,11 +63,19 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Blakers-Massey theorem]]
 
+* [[fiber sequence]]
+
+* [[long exact sequence of homotopy groups]]
+
 ### 3.3 Spectra
 
-* [[spectrum]]
+* [[spectrum]], [[Omega-spectrum]]
 
 * [[coordinate-free spectrum]]
+
+* [[ring spectrum]] as [[functor with smash products]]
+
+* [[Adams category]]
 
 * [[Whitehead theorem]]
 
@@ -89,7 +101,11 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ### 3.7 Homotopy of Thom spectra
 
-* [[Quillen's theorem on MU]]
+* [[change of rings theorem]]
+
+* [[Thom's theorem on MO]]
+
+* [[Milnor-Quillen theorem on MU]]
 
 ## 4 Complex Bordism
 
@@ -120,5 +136,17 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 * [[Adams-Novikov spectral sequence]]
 
 ## 5 Computing Stable Stems
+
+* [[stable homotopy groups of spheres]]
+
+### 5.2 Lambda algebras
+
+### 5.3 May spectral sequences
+
+* [[May spectral sequence]]
+
+### 5.4 Massey products
+
+* [[Massey product]]
 
 category: reference
