@@ -3315,10 +3315,12 @@ $\,$
 
 ### **Part S1) Generalized cohomology**
 
-For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02)) and ([Malkiewich 11](#Malkiewich11)).
+For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4, 4.2](#Kochmann96)) 
 
-#### Generalized homology and cohomology functors
+#### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
+
+([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
 The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
 
@@ -3335,6 +3337,7 @@ An important example of a generalised cohomology theory other than ordinary coho
 
 #### Brown representability theorem
 
+([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
 (-- from here on we need the basics of [Part 1), Spectra](#Spectra) --)
 
@@ -3350,24 +3353,28 @@ For instance a _[[multiplicative cohomology theory]]_ is one which is represente
 
 #### Milnor exact sequence
 
-Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Lefflercondition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
+([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
+
+Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Leffler condition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
 
 We need this [below](#ComplexCobordismCohomology) in the discussion of the [[universal complex orientation on MU]].
 
 
 #### Atiyah-Hirzebruch spectral sequence
 
+([Kochmann 96, section 4.2](#Kochmann96))
+
 (-- from here on we need the basics of [Interlude: Spectral sequences](#SpectralSequences) --)
 
 Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of any finite [[CW-complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(\ast)$.
 
-The AHSS in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
+The [[Atiyah-Hirzebruch spectral sequence]] in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
 
 
 ### **Part S2) Cobordism theory**
  {#S2CobordismTheory}
 
-For instance ([Malkiewich 11](#Malkiewich11)).
+Use ([Kochmann 96, chapter I and sections II.2, II6](Kochmann96)). A quick efficient account is also in ([Malkiewich 11](#Malkiewich11)).
 
 As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
 
@@ -3376,36 +3383,58 @@ The strongest manifestation of this comes about in [[complex oriented cohomology
 Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[homotopy groups of a spectrum|homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
 
+#### Cobordism
+
+([Kochmann 96, 1.3-1.4](#Kochmann96))
+
+[[smooth manifold]]
+
+[[tangent bundle]], [[normal bundle]]
+
+[[classifying space]]
+
+[[G-structure]]
+
+[[cobordism]]
+
 
 #### Thom spectra
 
+([Kochmann 96, 1.5](#Kochmann96))
+
+* [[Pontrjagin-Thom collapse map]]
+
+* [[Thom space]]
+
 * [[Thom spectrum]], [[MO]]
 
-  [[Thom space]]
-
-  [[Pontrjagin-Thom collapse map]]
 
 #### Thom's theorem
 
+([Kochmann 96, 1.5](#Kochmann96))
+
+* [[cobordism ring]]
+
+* [[stable homotopy groups]]
+
 * [[Thom's theorem]]
 
-  [[cobordism]], [[cobordism ring]]
 
 #### Thom isomorphism
  {#ThomIsomorphism}
 
+([Kochmann 96, 2.6](#Kochmann96))
+
 * [[Thom isomorphism]] (in [[ordinary cohomology]])
 
-  [[cup product]] 
+  [[Thom class]], [[cup product]] 
 
-  [[Leray-Hirsch theorem]]
-
-  [[Thom class]]
-
+  [[Leray-Hirsch theorem]], [[Serre spectral sequence]]
+  
   [[fiber integration]]
 
 
-#### Orientation and Fiber integration
+#### Orientation in generalized cohomology
  {#OrientationAndFiberIntegration}
 
 
@@ -3415,15 +3444,18 @@ use ([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
 [[orientation in generalized cohomology]]
 
-* [[fiber integration in generalized cohomology]]
+[[fiber integration in generalized cohomology]]
 
+(...)
 
 ### **Part S3) Complex oriented cohomology**
  {#ComplexOrientedCohomologyTheory}
 
-Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10)).
+Use ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
 
-#### Complex vector bundles
+#### Chern classes
+
+([Kochmann 96, section 2.3](#Kochmann96))
 
 * [[complex vector bundle]]
 
@@ -3435,10 +3467,10 @@ Use ([Adams 74, Part I, Part II](#Adams74), [Lurie 10, lectures 1-16](#Lurie10))
 
 * [[Chern classes]]
 
-* [[homology spectra that split]]
-
 
 #### Complex oriented cohomology
+
+([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
 (-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
 
@@ -3452,16 +3484,7 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 * [[complex oriented cohomology theory]]
 
-  * [[generalized Chern classes]]
-
-  * [[formal group laws]]
-
-#### Lazard's theorem
- {#LazardTheorem}
-
-* [[Lazard ring]]
-
-* [[Lazard's theorem]]
+  * [[Conner-Floyd Chern classes]]
 
 
 #### Complex cobordism cohomology
@@ -3478,6 +3501,15 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 #### Homology of $M U$
 
 * [[homology of MU]]
+
+#### Lazard's theorem
+ {#LazardTheorem}
+
+* [[formal group laws]]
+
+* [[Lazard ring]]
+
+* [[Lazard's theorem]]
 
 #### Quillen's theorem on $M U$
 
@@ -3546,7 +3578,7 @@ For **S3) Complex oriented cohomology** we follow part II of
 
 and
 
-* {#Lurie10} [[Jacob Lurie]], lectures 1-16 of _[[Chromatic Homotopy Theory]]_, 2010
+* {#Lurie10} [[Jacob Lurie]], lectures 1-10 of _[[Chromatic Homotopy Theory]]_, 2010
 
 (These overlap, pick the one that seems more inviting on first reading.)
 
