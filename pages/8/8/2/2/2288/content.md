@@ -82,11 +82,29 @@ has remained an important mathematical theme, the most recent major success bein
 
 ## References
 
-A good survey is in
+The original direct definitions of the [[stable homotopy category]] (for precursors see at _[[Spanier-Whitehead category]]_) is due to
+
+* {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
+
+Early accounts include
+
+* {#Vogt69} [[Rainer Vogt]], _Boardman's stable homotopy category_, lectures, spring 1969
+
+* {#Cohen70} J. M. Cohen, _Stable Homotopy_, Springer Lecture Notes in Math., No. 165,  Springer-Verlag, Berlin, 1970. 
+
+* [[Dieter Puppe]], _On the stable homotopy category_, Topology and its application (1973)  ([[PuppeStableHomotopyCategory.pdf:file]])
+
+* {#Adams74} [[Frank Adams]], Part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Sitzer75} R. M. Switzer, _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
+A fun scan of the (pre-)history of the [[stable homotopy category]] is in 
+
+* [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
+
+Quick surveys include
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf))
-
-and very quick surveys include
 
 * [[Dylan Wilson]], _Introduction to stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/wcatss/sht1.pdf))
 
@@ -95,10 +113,6 @@ and very quick surveys include
 See also
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
-
-A fun scan of the (pre-)history of the stable homotopy category is in 
-
-* [[Peter May]], _The hare and the hedgehog_, speech at [[Michael Boardman]]'s birthday meeting ([txt](http://hopf.math.purdue.edu/May/boardman.txt))
 
 Comprehensive discussion of model with [[symmetric monoidal smash product of spectra]] are 
 
