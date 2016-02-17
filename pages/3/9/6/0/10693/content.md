@@ -378,11 +378,13 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 
 ## References
 
-Traditional accounts include
+Reviews include
 
 * {#Ravenel} [[Doug Ravenel]], around Chapter 2, def. 2.1.3 of _[[Complex cobordism and stable homotopy groups of spheres]]_
 
-A streamlined presentation of this close in spirit to constructions in [[homological algebra]] was given in
+* {#Kochmann96} [[Stanley Kochmann]], section 3.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+A streamlined presentation close in spirit to constructions in [[homological algebra]] was given in
 
 * {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
 
