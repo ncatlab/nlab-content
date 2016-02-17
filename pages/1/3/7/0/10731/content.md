@@ -45,7 +45,7 @@ $$
 
 =--
 
-This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)).
+This is due to ([Quillen 69](#Quillen69)), based on ([Milnor 60](#Milnor60)), reproduced e.g. as ([Kochmann 96, theorem 4.4.13](#Kochmann96)).
 
 **Proof strategy:** (for Milnor's part) Compute the [[homology of MU]] and apply the [[Boardman homomorphism]] to get the statement over the [[rational numbers]]. Deduce that $\pi_\bullet(MU)$ is finitely generated so that it is now sufficient to prove it over the [[p-adic integers]] for all $p$. Using the [[change of rings theorem]], this finally follows from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$.
 
@@ -88,6 +88,8 @@ the best reference as of turn of the millenium was still
 
 But see
 
+* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
    
   Lecture 7 _The homology of MU_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture7.pdf)) 
@@ -105,8 +107,11 @@ Other review includes
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, chapter 4 _$B P$-Theory and the Adams-Novikov spectral sequence_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf)
 
+[[!redirects Milnor's theorem on MU]]
 
 [[!redirects Quillen's theorem on MU]]
 [[!redirects Milnor-Quillen's theorem on MU]]
 
 [[!redirects Quillen's theorem about MU]]
+
+
