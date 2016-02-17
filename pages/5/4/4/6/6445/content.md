@@ -29,7 +29,7 @@ A **matroid** on a set $X$ is a [[Moore closure|closure operator]] $cl: P(X) \to
 
 Usually when combinatorialists speak of matroids as such, $X$ is taken to be a [[finite set]]. A typical example is $X$ some finite subset of a vector space $V$, taking $cl(S) \coloneqq X \cap Span(S)$ for any $S \subseteq X$. 
 
-Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $cl(T) \subset cl(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin cl(S\backslash \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $cl(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $cl(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
+Under this definition, a subset $S \subseteq X$ is _independent_ if there is a strict inclusion $cl(T) \subset cl(S)$ for every strict inclusion $T \subset S$ (this is the same as requiring $x \notin cl(S\setminus \{x\})$ for every $x \in S$). Again under this definition, $S$ is a _basis_ if $cl(S) = X$ and $S$ is independent. A _hyperplane_ is a closed subset $S$ (meaning $cl(S) = S$) that is maximal among proper closed subsets of $X$. It is possible to axiomatize the notion of matroid by taking bases as the primitive notion, or independent sets as the primitive notion, or hyperplanes as the primitive notion, etc. -- Rota (after Birkhoff) speaks of _cryptomorphism_ between these differing definitions. Much of the power and utility of matroid theory comes from this multiplicity of definitions and the possibility of moving seamlessly between them; for example, a matroid structure might be easy to detect from the viewpoint of one definition, but not from another. 
 
 +-- {: .num_prop #dim1} 
 ###### Proposition 
@@ -40,21 +40,21 @@ The cardinality of such a basis is called of course the _dimension_ of the matro
 
 +-- {: .proof} 
 ###### Proof 
-First, suppose $A$ is an independent set and $B$ is a finite basis, and suppose there are subsets $A_0 \subseteq A, B_0 \subseteq B$ such that $A_0 \cup B_0$ is a basis. We claim that for each $a \in A \backslash A_0$, there exists $b \in B_0$ such that $A_0 \cup \{a\} \cup (B_0 \backslash \{b\})$ is a basis. For, let $C \subseteq B_0$ be of minimum cardinality such that $a \in cl(A_0 \cup C)$; we know $C$ must be inhabited since $a \notin cl(A \backslash \{a\}) \supseteq cl(A_0)$; clearly $C \cap A_0 = \emptyset$. So let $b$ be an element of $C$. Since by minimality of $C$ we have  
+First, suppose $A$ is an independent set and $B$ is a finite basis, and suppose there are subsets $A_0 \subseteq A, B_0 \subseteq B$ such that $A_0 \cup B_0$ is a basis. We claim that for each $a \in A \setminus A_0$, there exists $b \in B_0$ such that $A_0 \cup \{a\} \cup (B_0 \setminus \{b\})$ is a basis. For, let $C \subseteq B_0$ be of minimum cardinality such that $a \in cl(A_0 \cup C)$; we know $C$ must be inhabited since $a \notin cl(A \setminus \{a\}) \supseteq cl(A_0)$; clearly $C \cap A_0 = \emptyset$. So let $b$ be an element of $C$. Since by minimality of $C$ we have  
 
-$$a \in cl(A_0 \cup (C \backslash \{b\}) \cup \{b\}) \cap \neg cl(A_0 \cup (C \backslash \{b\})),$$ 
+$$a \in cl(A_0 \cup (C \setminus \{b\}) \cup \{b\}) \cap \neg cl(A_0 \cup (C \setminus \{b\})),$$ 
 
-it follows from the exchange axiom that $b \in cl(A_0 \cup (C \backslash \{b\}) \cup \{a\})$. Thus $b \in cl(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\})$, whence 
+it follows from the exchange axiom that $b \in cl(A_0 \cup (C \setminus \{b\}) \cup \{a\})$. Thus $b \in cl(A_0 \cup (B_0 \setminus \{b\}) \cup \{a\})$, whence 
 
-$$cl(A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}) = cl(A_0 \cup B_0 \cup \{a\}) = X$$ 
+$$cl(A_0 \cup (B_0 \setminus \{b\}) \cup \{a\}) = cl(A_0 \cup B_0 \cup \{a\}) = X$$ 
 
-so that $D \coloneqq A_0 \cup (B_0 \backslash \{b\}) \cup \{a\}$ "spans" $X$. Also $D$ is independent: if $x \in D$ and $x \neq a$, then 
+so that $D \coloneqq A_0 \cup (B_0 \setminus \{b\}) \cup \{a\}$ "spans" $X$. Also $D$ is independent: if $x \in D$ and $x \neq a$, then 
 
-$$cl(D \backslash \{x\}) \subseteq cl((A_0 \cup B_0) \backslash \{x\})$$ 
+$$cl(D \setminus \{x\}) \subseteq cl((A_0 \cup B_0) \setminus \{x\})$$ 
 
-with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \backslash \{a\}) = cl((A_0 \cup (B_0 \backslash \{b\}))$, we conclude $A_0 \cup (B \backslash \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \backslash \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
+with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \setminus \{a\}) = cl((A_0 \cup (B_0 \setmimus \{b\}))$, we conclude $A_0 \cup (B \setminus \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \setminus \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
 
-Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \backslash \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in cl(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
+Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \setminus \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in cl(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
 =-- 
 
 ## Examples 
