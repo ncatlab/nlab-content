@@ -774,6 +774,10 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 
 ## References
 
+Classical accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 A discussion of fiber sequences in terms of [[associated ∞-bundle]]s is in
 
 * [[Matthias Wendt]], _Classifying spaces and fibrations of simplicial sheaves_ ([arXiv](http://arxiv.org/abs/1009.2930))
