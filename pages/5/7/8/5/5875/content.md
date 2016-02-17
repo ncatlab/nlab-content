@@ -36,6 +36,12 @@ For background and details see [[fibration sequence]].
 
 ## References
 
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], corollary 3.2.7 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+See also
+
 * Wikipedia, _[Long exact sequence of a fibration](http://en.wikipedia.org/wiki/Homotopy_group#Long_exact_sequence_of_a_fibration)_
 
 [[!redirects long exact sequences of homotopy groups]]
