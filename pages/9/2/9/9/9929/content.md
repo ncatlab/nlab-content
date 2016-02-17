@@ -345,6 +345,8 @@ is a [[Thom class]].
 
 * [[Frank Adams]], part II, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
