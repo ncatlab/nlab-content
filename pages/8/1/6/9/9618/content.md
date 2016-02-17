@@ -2,7 +2,7 @@ An image of a variety under a regular map is not necessarily a variety. A standa
 
 However, the image of a variety under a regular map is always a [[constructible set]] (finite union of [[locally closed set]]s). More generally, 
 
-THEOREM. (Chevalley) If $f: X\to Y$ is a regular morphism of varieties and $S\subset X$ is a Zariski constructible set. Then $f(X)$ is also Zariski constructible. 
+THEOREM. (Chevalley) If $f: X\to Y$ is a regular morphism of varieties and $S\subset X$ is a Zariski constructible set. Then $f(S)$ is also Zariski constructible. 
 
 More generally,
 
