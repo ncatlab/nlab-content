@@ -125,6 +125,11 @@ e.g. [Connor-Floyd 62, theorem 14.2](#ConnorFloyd62)
 
 ## References
 
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+
 Lecture notes include
 
 * {#Francis} [[John Francis]] (notes by [[Owen Gwilliam]]), _[Topology of manifolds](http://math.northwestern.edu/~jnkf/classes/mflds/)_, _Lecture 2: Cobordism_ ([pdf](http://math.northwestern.edu/~jnkf/classes/mflds/2cobordism.pdf))
