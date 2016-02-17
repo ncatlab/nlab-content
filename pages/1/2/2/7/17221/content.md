@@ -19,11 +19,51 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[cobordism theory]]
 
+### 1.2 Manifolds
+
+* [[smooth manifold]]
+
+* [[Whitney embedding theorem]]
+
+* [[tubular neighbourhood]]
+
+### 1.3 Classifying spaces
+
+* [[Stiefel manifold]]
+
+* [[Grassmannian]]
+
+* [[vector bundle]]
+
+* [[classifying space]]
+
+* [[universal vector bundle]]
+
+
+### 1.4 Manifolds with $(B,f)$-structure
+
+
+* [[G-structure]] on [[normal bundle]]
+
+* [[framed manifold]]
+
+* [[orientation]]
+
+* [[almost complex structure]]
+
+### 1.5 Pontrjagin-Thom Theorem
+
+* [[cobordism]]
+
 * [[cobordism ring]]
 
 * [[Pontryagin-Thom collapse map]]
 
+* [[Thom spectrum]]
+
 * [[Thom's theorem]]
+
+* [[stable homotopy groups of spheres]]
 
 ## 2 Characteristic Classes
 
