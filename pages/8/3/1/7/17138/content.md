@@ -3453,6 +3453,17 @@ use ([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
 Use ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
 
+(-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
+
+Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an orientation/[[Thom class]] on the [[associated bundle|associated]] [[vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), for then _all_ $G$-associated vector bundles inherit an orientation.
+
+Considering this for $G = U(n)$ the [[unitary groups]], for all $n \in \mathbb{N}$, with their defining $\mathbb{C}$-[[linear representations]] on $\mathbb{C}^n \simeq_{\mathbb{R}} \mathbb{R}^2 n$ yields the concept of _[[complex oriented cohomology theory]]_. 
+
+It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. This already implies the existence of [[generalized Chern classes]] of all degrees $2n$, and these are the required universal generalized [[Thom classes]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
+
+Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
+
+
 #### Chern classes
 
 ([Kochmann 96, section 2.3](#Kochmann96))
@@ -3468,26 +3479,18 @@ Use ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10
 * [[Chern classes]]
 
 
-#### Complex oriented cohomology
+#### Conner-Floyd Chern classes
 
-([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
+([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
-(-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
+* [[splitting principle]]
 
-Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an orientation/[[Thom class]] on the [[associated bundle|associated]] [[vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), for then _all_ $G$-associated vector bundles inherit an orientation.
+* [[homology spectra that split]]
 
-Considering this for $G = U(n)$ the [[unitary groups]], for all $n \in \mathbb{N}$, with their defining $\mathbb{C}$-[[linear representations]] on $\mathbb{C}^n \simeq_{\mathbb{R}} \mathbb{R}^2 n$ yields the concept of _[[complex oriented cohomology theory]]_. 
-
-It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. This already implies the existence of [[generalized Chern classes]] of all degrees $2n$, and these are the required universal generalized [[Thom classes]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
-
-Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
-
-* [[complex oriented cohomology theory]]
-
-  * [[Conner-Floyd Chern classes]]
+* [[Conner-Floyd Chern classes]]
 
 
-#### Complex cobordism cohomology
+#### Complex cobordism
  {#ComplexCobordismCohomology}
 
 (-- from here on we need basics from [Part 1), Examples](#Examples) --)
