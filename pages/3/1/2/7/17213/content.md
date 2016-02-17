@@ -47,7 +47,7 @@ that are [[associativity|associative]] and [[unitality|unital]] in the evident s
 
 For the case of [[highly structured spectra]] such as [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]], the equivalence of FSPs with monoids with respect to the [[symmetric smash product of spectra]] is discussed in ([MMSS 00, prop. 22.1, prop. 22.6](#MMSS00)).
 
-(For instance the lecture notes ([Schwede 14](orthogonal%20spectrum#Schwede14)) follow this perspective and define [[ring spectra]] modeled as [[orthogonal spectra]] first as FSPs, before introducing the smash product.)
+(For instance accounts such as ([Kochmann 96, section 3.3](Adams+category#Kochmann96),  [Schwede 14](orthogonal%20spectrum#Schwede14)) follow this perspective and define [[ring spectra]] first as FSPs, before or introducing the smash product on spectra)
 
 ### For excisive functor
 
