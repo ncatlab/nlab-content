@@ -625,33 +625,48 @@ as the [[Adams category]], better to consider the [[homotopy category]] of the
 [[Bousfield-Friedlander model structure]]. We go through this [below](#Spectra).
 
 
+### Motivating theorems
+
+The 0th approximation to making [[Ho(Top)]] become more like an [[abelian category]] is passage to [[pointed topological spaces]], and [[pointed objects|pointed]] [[simplicial sets]]:
+
+every category of [[pointed objects]] has 
+
+1. a [[zero object]] (the point) and [[zero morphisms]] (those factoring through the point);
+
+1. a canonical non-Cartesian [[tensor product]], the _[[smash product]]_ $\wedge$.
+
+Given the base point, there is the [[loop space]]-construction $\Omega(-) \simeq [S^1,-]$ on that base point. It has a [[left adjoint]], the [[reduced suspension]] operation $\Sigma(-) \simeq S^1 \wedge (-)$.
+
+Motivation for stabilization under $(\Sigma \dashv \Omega)$:
+
+motivation from key properties of $\Sigma$ and $\Omega$:
+
+* [[Eckmann-Hilton argument]] (...[[May recognition theorem]])
+
+* [[Freudenthal suspension theorem]]
+
+* [[triangulated category]]-structure on [[Spanier-Whitehead category]]
+
+further motivation which is the subject of the [seminar](#ComplexOrientedCohomology):
+
+* [[generalized cohomology]]
+
+  * [[suspension isomorphism]]
+
+  * [[Brown representability theorem]]
+
+* [[cobordism theory]]
+
+  [[Thom's theorem]]
+
+
 
 
 ### The stable homotopy category
  {#Spectra}
 
-We construct the [[stable homotopy category]].
 
-
-[[pointed topological spaces]], [[pointed objects|pointed]] [[simplicial sets]]
-
-* [[smash product]]
-
-* [[suspension]], [[loop space object]]
-
-Motivation:
-
-* [[Eckmann-Hilton argument]]
-
-* [[Freudenthal suspension theorem]]
-
-* [[suspension isomorphism]]
-
-* [[Brown representability theorem]]
-
-* [[May recognition theorem]]
-
-The stable homotopy category is to be the [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
+The [[stable homotopy category]] is to be the proper [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
 $$
   \array{
