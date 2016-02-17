@@ -198,6 +198,8 @@ Introductions and surveys include
 
 * {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, since 1986 ([web](http://www.math.rochester.edu/people/faculty/doug/mu.html))
  
+* [[Stanley Kochmann]], _Stable Homotopy Groups of Spheres -- A Computer-Assisted Approach_, Lecture Notes in Mathematics, 1990
+
 * {#Kochmann96} [[Stanley Kochmann]], section 5 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 A tabulation of stable homotopy groups of spheres is in 
