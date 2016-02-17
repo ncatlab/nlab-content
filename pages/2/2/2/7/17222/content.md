@@ -1,0 +1,27 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Statement
+
+Let $A$ be a [[Hopf algebra]] over a [[field]] $k$, and let $B$ be a normal su Hopf algebra of $A$. Then
+
+$$
+  Cotor_A(B,k) \simeq Cotor_{A//B}(k,k)
+  \,.
+$$
+
+This is used in computations with the [[Adams spectral sequence]].
+
+
+## References
+
+Due to 
+
+* A. Liulevicius, _Notes on Homotopy of Thorn Spectra_, Amer. J. of Math., 86 
+(1964), 1-16. 
+
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], prop. 3.7.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
