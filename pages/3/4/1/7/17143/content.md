@@ -45,10 +45,9 @@ This component-wise construction of $\phi$ then also serves to show that it is a
 
 * [[Frank Adams]], lemma 4.6, example 4.7 in  _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_,1986
 
-Review includes
-
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
+* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
