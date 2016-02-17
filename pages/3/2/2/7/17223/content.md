@@ -1,0 +1,20 @@
+
+## Related concepts
+
+* [[Grassmannian manifold]]
+
+* [[classifying space]]
+
+## References
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* Wikipedia, _[Stiefel manifold](https://en.wikipedia.org/wiki/Stiefel_manifold)_
+
+[[!redirects Stiefel manifolds]]
+
+[[!redirects Stiefel space]]
+[[!redirects Stiefl spaces]]
+
+[[!redirects Stiefel variety]]
+[[!redirects Stiefel varieties]]
