@@ -262,6 +262,8 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 * {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
+* {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and MO_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 
