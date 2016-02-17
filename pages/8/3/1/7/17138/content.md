@@ -639,15 +639,13 @@ Given the base point, there is the [[loop space]]-construction $\Omega(-) \simeq
 
 Motivation for stabilization under $(\Sigma \dashv \Omega)$:
 
-motivation from key properties of $\Sigma$ and $\Omega$:
-
 * [[Eckmann-Hilton argument]] (...[[May recognition theorem]])
 
 * [[Freudenthal suspension theorem]]
 
 * [[triangulated category]]-structure on [[Spanier-Whitehead category]]
 
-further motivation which is the subject of the [seminar](#ComplexOrientedCohomology):
+Further motivation which is the subject of the [seminar](#ComplexOrientedCohomology):
 
 * [[generalized cohomology]]
 
@@ -858,7 +856,7 @@ $$
 
 =--
 
-([Bousfield 79](#Bousfield79)). see also for instance ([Bauer 11, p. 2](#Bauer11))
+([Bousfield 79](#Bousfield79))
 
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
 
@@ -893,7 +891,7 @@ is a [[homotopy pushout]] (hence also a [[homotopy pullback]]).
 
 =--
 
-Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13), [Bauer 11, lemma 2.1](#Bauer11)). 
+Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13)). 
 
 
 So the [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes spectra from their formal completion and torsion approximation:
@@ -949,7 +947,7 @@ $$
 
 =--
 
-The first statement originates around ([Bousfield 79, prop. 2.6](Bousfield+localization+of+spectra#Bousfield79)), review includes ([van Koughnett 13, prop. 4.4](Bousfield+localization+of+spectra#VanKoughnett13), [Bauer 11, below prop. 2.2](#Bauer11)); the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
+The first statement originates around ([Bousfield 79, prop. 2.6](Bousfield+localization+of+spectra#Bousfield79)), review includes ([van Koughnett 13, prop. 4.4](Bousfield+localization+of+spectra#VanKoughnett13)); the second is highlighted in ([Strickland 12, MO comment](http://mathoverflow.net/a/91057/381)).
 
 
 By prop. \ref{ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
@@ -1004,7 +1002,6 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 
 =--
 
-e.g. ([Bauer 11, prop. 2.2](#Bauer11))
 
 
 ## **Interlude) Spectral sequences**
@@ -3315,14 +3312,13 @@ $\,$
 
 ### **Part S1) Generalized cohomology**
 
-For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4, 4.2](#Kochmann96)) 
+**Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4, 4.2](#Kochmann96)) 
 
 #### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
-([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
-The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
+**Idea.** The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
 
 $$
   Top \longrightarrow Ab^{\mathbb{Z}}
@@ -3334,58 +3330,57 @@ A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant
 
 An important example of a generalised cohomology theory other than ordinary cohomology is [[topological K-theory]].
 
+**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
+
 
 #### Brown representability theorem
 
-([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
-(-- from here on we need the basics of [Part 1), Spectra](#Spectra) --)
-
-Given any functor such as the generalized (co)homology functor [above](GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list, hence it must be represented by a _[[spectrum]]_.
+**Idea.** Given any functor such as the generalized (co)homology functor [above](GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list, hence it must be represented by a _[[spectrum]]_.
 
 Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
 
 Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not quite apply here, since a spectrum is more than just one (homotopy type of a) topological space).
 
-In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories.
+In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
-For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
+**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
+
 
 #### Milnor exact sequence
 
-([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
 
-Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Leffler condition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
+**Idea.** Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Leffler condition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
 
 We need this [below](#ComplexCobordismCohomology) in the discussion of the [[universal complex orientation on MU]].
+
+**Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
 
 
 #### Atiyah-Hirzebruch spectral sequence
 
-([Kochmann 96, section 4.2](#Kochmann96))
-
-(-- from here on we need the basics of [Interlude: Spectral sequences](#SpectralSequences) --)
-
-Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of any finite [[CW-complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(\ast)$.
+**Idea.** Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of any finite [[CW-complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(\ast)$.
 
 The [[Atiyah-Hirzebruch spectral sequence]] in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
+
+**Literature.** ([Kochmann 96, section 4.2](#Kochmann96))
 
 
 ### **Part S2) Cobordism theory**
  {#S2CobordismTheory}
 
-Use ([Kochmann 96, chapter I and sections II.2, II6](Kochmann96)). A quick efficient account is also in ([Malkiewich 11](#Malkiewich11)).
-
-As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
+**Idea.** As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
 
 The strongest manifestation of this comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory), which higher linear algebra over the complex Thom spectrum [[MU]]. 
 
 Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[homotopy groups of a spectrum|homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
+**Literature.** ([Kochmann 96, chapter I and sections II.2, II6](Kochmann96)). A quick efficient account is also in ([Malkiewich 11](#Malkiewich11)).
+
 
 #### Cobordism
 
-([Kochmann 96, 1.3-1.4](#Kochmann96))
+**Literature.** ([Kochmann 96, 1.3-1.4](#Kochmann96))
 
 [[smooth manifold]]
 
@@ -3400,7 +3395,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 
 #### Thom spectra
 
-([Kochmann 96, 1.5](#Kochmann96))
+**Literature.** ([Kochmann 96, 1.5](#Kochmann96))
 
 * [[Pontrjagin-Thom collapse map]]
 
@@ -3411,7 +3406,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 
 #### Thom's theorem
 
-([Kochmann 96, 1.5](#Kochmann96))
+**Literature.** ([Kochmann 96, 1.5](#Kochmann96))
 
 * [[cobordism ring]]
 
@@ -3423,7 +3418,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 #### Thom isomorphism
  {#ThomIsomorphism}
 
-([Kochmann 96, 2.6](#Kochmann96))
+**Literature.** ([Kochmann 96, 2.6](#Kochmann96))
 
 * [[Thom isomorphism]] (in [[ordinary cohomology]])
 
@@ -3438,24 +3433,21 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
  {#OrientationAndFiberIntegration}
 
 
-From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] ought to be.
-
-use ([Adams 74, part III, section 10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
+**Idea.** From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] ought to be.
 
 [[orientation in generalized cohomology]]
 
 [[fiber integration in generalized cohomology]]
 
-(...)
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+
+
 
 ### **Part S3) Complex oriented cohomology**
  {#ComplexOrientedCohomologyTheory}
 
-Use ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
 
-(-- from here on we need the basics of [Part 1), Ring spectra](#RingSpectra) --)
-
-Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an orientation/[[Thom class]] on the [[associated bundle|associated]] [[vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), for then _all_ $G$-associated vector bundles inherit an orientation.
+**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an orientation/[[Thom class]] on the [[associated bundle|associated]] [[vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), for then _all_ $G$-associated vector bundles inherit an orientation.
 
 Considering this for $G = U(n)$ the [[unitary groups]], for all $n \in \mathbb{N}$, with their defining $\mathbb{C}$-[[linear representations]] on $\mathbb{C}^n \simeq_{\mathbb{R}} \mathbb{R}^2 n$ yields the concept of _[[complex oriented cohomology theory]]_. 
 
@@ -3463,10 +3455,12 @@ It turns out that a complex orientation on a generalized cohomology theory $E$ i
 
 Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
 
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 1-10](#Lurie10), [Adams 74, Part I, Part II](#Adams74)).
+
 
 #### Chern classes
 
-([Kochmann 96, section 2.3](#Kochmann96))
+**Literature.** ([Kochmann 96, section 2.3](#Kochmann96))
 
 * [[complex vector bundle]]
 
@@ -3478,10 +3472,9 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 * [[Chern classes]]
 
-
 #### Conner-Floyd Chern classes
 
-([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74) [Lurie 10, lecture 5](#Lurie10))
 
 * [[splitting principle]]
 
@@ -3489,41 +3482,41 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 * [[Conner-Floyd Chern classes]]
 
+#### Formal group laws of first CF-Chern classes
 
-#### Complex cobordism
- {#ComplexCobordismCohomology}
+**Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie 10, lectures 1 and 2](#Lurie10))
 
-(-- from here on we need basics from [Part 1), Examples](#Examples) --)
-
-* [[complex cobordism cohomology]]
-
-  * [[MU]]
-
-* [[universal complex orientation on MU]]
-
-#### Homology of $M U$
-
-* [[homology of MU]]
-
-#### Lazard's theorem
- {#LazardTheorem}
-
-* [[formal group laws]]
+* [[formal group law]]
 
 * [[Lazard ring]]
 
 * [[Lazard's theorem]]
 
+#### Complex cobordism
+ {#ComplexCobordismCohomology}
+
+**Literature.** ([Kochmann 96, section 1.4, 1.5, 4.4](#Kochmann96),[Lurie 10, lectures 5 and 6](#Lurie10))
+
+* [[complex cobordism cohomology]], [[MU]]
+
+* [[universal complex orientation on MU]]
+
+#### Homology of $M U$
+
+**Literature.** ([Kochmann 96, section 2.4, 4.3](#Kochmann96), [Lurie 10, lecture 7](#Lurie10))
+
+* [[homology of MU]]
+
 #### Quillen's theorem on $M U$
+
+**Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie, lecture 10](#Lurie10))
 
 * [[Quillen's theorem on MU]]
 
 
 ### Outlook: Geometry of $Spec(MU)$
 
-Use ([Lurie 10, lectures 12-14](#Lurie10))
-
-(-- from here on we need basics of [Part 1), Localization](#Localization) --)
+**Literature.** ([Kochmann 96, sections 4.5-4.7 and section 5](Kochmann96), [Lurie 10, lectures 12-14](#Lurie10))
 
 * [[moduli space of formal groups]]
 
@@ -3532,6 +3525,9 @@ Use ([Lurie 10, lectures 12-14](#Lurie10))
 * [[Landweber-Novikov theorem]]
 
 * [[Adams-Quillen theorem]]
+
+* [[Adams-Novikov spectral sequence]]
+
 
 $\,$
 
@@ -3554,7 +3550,7 @@ For section **1) Stable homotopy theory** we follow the modern picture of the st
 
 but we also take some clues from the [[Bousfield-Friedlander model structure]]. The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read (but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3).
 
-For **Interlude: Spectral sequences** a discussion streamlined for our puroses is in ([Rognes 12, section 2](#Rognes12)).
+For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
 
 For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
@@ -3575,7 +3571,7 @@ For **S2) Cobordism theory** an efficient collection of the highlights is in
 
 except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochmann 96](#Kochmann96)) for details.
  
-For **S3) Complex oriented cohomology** we follow part II of 
+For **S3) Complex oriented cohomology** besides ([Kochmann 96, chapter 4](#Kochmann96)) have a look at part II of 
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
@@ -3602,8 +3598,6 @@ a useful survey is in
 Further useful lecture notes include
 
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
-
-* {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
