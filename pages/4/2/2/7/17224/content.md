@@ -1,0 +1,25 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[long exact sequences]] of [[ordinary cohomology]] and [[ordinary homology]] groups arising  special case of [[Serre spectral sequence]] for sufficiently connected fibrations...
+
+...implies for instance the strong form of the [[Freudenthal suspension theorem]]...
+
+## Related concepts
+
+* [[long exact sequence in cohomology]]
+
+## References
+
+* {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.1 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#McCleary01} [[John McCleary]], example 5.D of_A User's Guide to Spectral Sequences_, Cambridge University Press (2001)
+
+[[!redirects Serre long exact sequences]]
+
+[[!redirects Serre exact sequence]]
+[[!redirects Serre exact sequences]]
