@@ -341,6 +341,8 @@ Discussion in terms of [[Thom classes]]:
 
 * [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
 A comprehensive account of the general abstract persepctive (with predecessors in [Ando-Hopkins-Rezk 10](#AndoHopkinsRezk10)) is in 
