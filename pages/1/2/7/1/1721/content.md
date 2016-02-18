@@ -82,7 +82,7 @@ $$
 
 such that:
 
-1. **(homotopy invariance)** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
 
    $$
      f_1^\ast = f_2^\ast
@@ -167,8 +167,7 @@ such that:
 
 1. **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then $E^n(X, U) = \coprod_i E^n(X_i, U_i)$.
 
-1. **(excision)** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
-
+1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
 
 =--
 
