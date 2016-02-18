@@ -94,7 +94,11 @@ where the second equality follows from the finitary condition. Since each summan
 
 ## Mnev's theorem 
 
-Mn&#235;v's universality theorem says that any [[semialgebraic set]] in $\mathbb{R}^n$ defined over integers is stably equivalent to the realization space of some oriented matroid.
+Mn&#235;v's universality theorem says that any [[semialgebraic set]] in $\mathbb{R}^n$ defined over integers is stably equivalent to the realization space of some oriented matroid. 
+
+## Categories of matroids 
+
+To be written, possibly with some original research. 
 
 ## References 
 
