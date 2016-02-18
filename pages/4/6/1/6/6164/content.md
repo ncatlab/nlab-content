@@ -7,7 +7,14 @@
 
 Every [[spectrum]] $K$ is the coefficient object of a [[generalized (Eilenberg-Steenrod) cohomology|generalized]] [[cohomology theory]] and dually of a _generalized homology_ theory. See at _[[generalized cohomology]]_ for more.
 
-For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordinary homology]]
+For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordinary homology]].
+
+## Examples
+
+* [[bordism homology theory]] is the homology theory represented by a [[Thom spectrum]];
+
+* stable homotopy is the homology theory represented by the [[sphere spectrum]]
+
 
 ## Related concepts
 
