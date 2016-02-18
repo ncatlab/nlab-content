@@ -96,6 +96,8 @@ EGA and the other published texts of Grothendieck are available from
 
 * [[Grothendieck Circle]], [Scans of published texts](http://www.math.jussieu.fr/~leila/grothendieckcircle/pubtexts.php).
 
+and some of the EGA and SGA links are at this [html](http://www.cmls.polytechnique.fr/perso/chambert/DJVU/index.html).
+
 David Madore has prepared a detailed table of contents of EGA:
 
 * [Detailed table of contents of EGA](http://www.dma.ens.fr/~madore/ega-toc.pdf)
