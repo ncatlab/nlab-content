@@ -21,7 +21,7 @@
 
 ## Idea
 
-In the context of [[cobordism theory]], a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_.
+In the context of [[cobordism theory]], a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_. (Dually, the corresponding [[generalized homology theory]] is called _[[bordism homology theory]]_.)
 
 By default "cobordism cohomology" usually refers to what is represented by [[MO]]. 
 The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by [[MR-theory]].
