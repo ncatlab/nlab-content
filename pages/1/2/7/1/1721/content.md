@@ -157,7 +157,7 @@ such that:
 
    is a [[long exact sequence]] of abelian groups.
 
-1. **(homotopy equivalence)** For $f \colon X \to Y$ a [[weak homotopy equivalence]] then 
+1. **(homotopy invariance)** For $f \colon X \to Y$ a [[weak homotopy equivalence]] then 
 
    $$
      E^\bullet(f) \colon E^\bullet(Y) \stackrel{\simeq}{\longrightarrow} E^\bullet(X)
