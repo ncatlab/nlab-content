@@ -8,6 +8,9 @@
 
 $\,$
 
+$\,$
+
+
 +-- {: .standout}
 
 <div style="float:left;margin:0 10px 10px 0;"> <img width="200" src="http://ncatlab.org/nlab/files/BonnLogo.png"> </div> 
@@ -21,6 +24,9 @@ $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 [Lecture](#Introduction) and [Seminar](#ComplexOrientedCohomology)
 
 =--
+
+$\,$
+
 
 **Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [seminar](#ComplexOrientedCohomology) we work through related classical results in [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
 
@@ -36,6 +42,51 @@ Eventually lecture notes.
 
 ***
 
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 #Contents#
 * table of contents
@@ -44,7 +95,11 @@ Eventually lecture notes.
 
 <div style="float:right;margin:0 10px 10px 0;"> <img src="https://ncatlab.org/nlab/files/HopfFibration.jpg" width="200" />  </div>
 
+$\,$
+
 ***
+
+$\,$
 
 > My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. ([Ravenel 86, preface](#Ravenel86))
 
@@ -3330,7 +3385,47 @@ classical [[Adams spectral sequence]]...
 
 $\,$
 
+$\,$
+
 ***
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
 
 $\,$
 
@@ -3352,6 +3447,8 @@ $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 $\;\;\;\;\;\;\;\;\;\;\;$ 
 
 =---
+
+$\,$
 
 **Abstract.** _The [[(infinity,1)-category|category]] of [[generalized cohomology theories]] equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] (of [[higher Jacobians]]), such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
@@ -3435,13 +3532,14 @@ We need the AHSS for instance for the computation of [[Conner-Floyd Chern classe
 
 **Literature.** ([Kochmann 96, section 4.2](#Kochmann96))
 
+$\,$
 
 ### **Part S2) Cobordism theory**
  {#S2CobordismTheory}
 
 **Idea.** As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
 
-The strongest manifestation of this comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory), which higher linear algebra over the complex Thom spectrum [[MU]]. 
+A strong manifestation of this phenomenon comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory). It turns out to be higher algebra over the complex Thom spectrum [[MU]]. 
 
 Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[stable homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
@@ -3451,7 +3549,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 #### Classifying spaces, $G$-Structure and Bordism
  {#ClassifyingSpaces}
 
-**Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $b$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]), which may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
+**Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $n$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]). This may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
 
 $$
   \array{
@@ -3473,11 +3571,11 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
 #### Thom spectra
  {#ThomSpectra}
  
-**Idea**. Given a [[vector bundle]] $V$ of rank $n$ over a [[compact topological space]], then its [[one-point compactification]] is equivalently the result of forming the bundle $D(V) \hookrightarrow V$ of unit [[n-balls]], and identifying with one single point all the boundary unit [[n-spheres]] $S(V)\hookrightarrow V$. Generally, this construction $D(V)/S(V)$ is called the _[[Thom space]]_ of $V$. 
+**Idea**. Given a [[vector bundle]] $V$ of rank $n$ over a [[compact topological space]], then its [[one-point compactification]] is equivalently the result of forming the bundle $D(V) \hookrightarrow V$ of unit [[n-balls]], and identifying with one single point all the boundary unit [[n-spheres]] $S(V)\hookrightarrow V$. Generally, this construction $Th(C) \coloneqq D(V)/S(V)$ is called the _[[Thom space]]_ of $V$. 
 
-Thom spaces occur notably as codomains for would-be [[left inverses]] of [[embeddings]] of [[manifolds]] $X \hookrightarrow Y$. The _[[Pontrjagin-Thom collapse map]]_ $Y \to Th(N X)$ of such an embedding is a continuous function going the other way around, but landing not quite in $X$ but in the [[Thom space]] of the [[normal bundle]] of $X$ in $Y$. Composing this further with the classifying map of the [[normal bundle]] lands in the Thom space of the [[universal vector bundle]] over the [[classifying space]] $B O(k)$, denoted $M O(k)$. In particular in the case that $Y = S^n$ is an [[n-sphere]] (and every manifold embeds into a large enough $n$-sphere, see also at [[Whitney embedding theorem]]), the [[Pontryagin-Thom collapse map]] hence associated with every manifold a [[homotopy group]] of a universal Thom space $M O(k)$.
+Thom spaces occur notably as codomains for would-be [[left inverses]] of [[embeddings]] of [[manifolds]] $X \hookrightarrow Y$. The _[[Pontrjagin-Thom collapse map]]_ $Y \to Th(N X)$ of such an embedding is a continuous function going the other way around, but landing not quite in $X$ but in the [[Thom space]] of the [[normal bundle]] of $X$ in $Y$. Composing this further with the classifying map of the [[normal bundle]] lands in the Thom space of the [[universal vector bundle]] over the [[classifying space]] $B O(k)$, denoted $M O(k)$. In particular in the case that $Y = S^n$ is an [[n-sphere]] (and every manifold embeds into a large enough $n$-sphere, see also at [[Whitney embedding theorem]]), the [[Pontryagin-Thom collapse map]] hence associates with every manifold an element of a [[homotopy group]] of a universal Thom space $M O(k)$.
 
-This curious construction turns out to have excellent formal properties: as the dimension ranges, the universal Thom spaces arrange into a [[spectrum]], called the _[[Thom spectrum]]_, and the homotopy groups defined by the Pontryagin-Thom collapse pass allong to [[stable homotopy groups]] of this spectrum. 
+This curious construction turns out to have excellent formal properties: as the dimension ranges, the universal Thom spaces arrange into a [[spectrum]], called the _[[Thom spectrum]]_, and the homotopy groups defined by the Pontryagin-Thom collapse pass along to the [[stable homotopy groups]] of this spectrum. 
 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
@@ -3508,15 +3606,25 @@ $$
 #### Thom isomorphism
  {#ThomIsomorphism}
 
+
+**Idea.** If a [[vector bundle]] $E \stackrel{p}{\longrightarrow} X$ of [[rank]] $n$ carries a cohomology class $\omega \in H^n(Th(E),R)$  that looks fiberwise like a [[volume form]] -- a [[Thom class]] -- then the operation of pulling back from base space and then forming the [[cup product]] with this [[Thom class]] is an [[isomorphism]] on (reduced) cohomology
+
+$$
+  ( (-) \cup \omega) \circ p^\ast 
+  \;\colon\;
+  H^\bullet(X,R) \stackrel{\simeq}{\longrightarrow} \tilde H^{\bullet+n}(Th(E),R)
+  \,.
+$$
+
+This is the _[[Thom isomorphism]]_. It follow from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]).
+
+We need this below to compute (co)homology of universal Thom spectra $M U$ in terms of that of the [[classifying spaces]] $B U$.
+
+Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isomorphism produces maps in cohomology that covariantly follow the underlying maps of spaces. These "[[Umkehr maps]]" have the interpretation of [[fiber integration]] against the Thom class.
+
+
 **Literature.** ([Kochmann 96, 2.6](#Kochmann96))
 
-* [[Thom isomorphism]] (in [[ordinary cohomology]])
-
-  [[Thom class]], [[cup product]] 
-
-  [[Leray-Hirsch theorem]], [[Serre spectral sequence]]
-  
-  [[fiber integration]]
 
 
 #### Orientation in generalized cohomology
@@ -3530,16 +3638,18 @@ An important application is given by taking $E = $ [[KU]] to be [[topological K-
 **Literature.** ([Kochmann 96, section 4.3](#Kochmann96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 
+$\,$
 
 ### **Part S3) Complex oriented cohomology**
  {#ComplexOrientedCohomologyTheory}
 
 
-**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-associated vector bundles inherit an orientation.
+
+**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-[[associated vector bundles]] inherit an orientation.
 
 Considering this for $G = U(n)$ the [[unitary groups]] yields the concept of _[[complex oriented cohomology theory]]_. 
 
-It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. This already implies the existence of [[generalized Chern classes]] of all degrees, and these are the required universal generalized [[Thom classes]].
+It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. By the [[splitting principle]], this already implies the existence of [[generalized Chern classes]] ([[Conner-Floyd Chern classes]]) of all degrees, and these are the required universal generalized [[Thom classes]].
 
 Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
 
@@ -3569,9 +3679,9 @@ Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B 
 #### Conner-Floyd Chern classes
  {#ConnerFloydChernClasses}
 
-**Idea.** For $E$ a [[complex oriented cohomology theory]], then the generators of the $E$-[[cohomology groups]] of the [[classifying space]] $B U$ are called the _[[Conner-Floyd Chern-classes]]_, in $E^\bullet(B U)$. 
+**Idea.** For $E$ a [[complex oriented cohomology theory]], then the generators of the $E$-[[cohomology groups]] of the [[classifying space]] $B U$ are called the _[[Conner-Floyd Chern classes]]_, in $E^\bullet(B U)$. 
 
-Using basic properties of the classifying space $B U(1)$ via its incarnation as the infinite [[complex projective space]] $\mathbb{C}P^\infty$, one finds that the [[Atiyah-Hirzebruch spectral sequences]]]
+Using basic properties of the classifying space $B U(1)$ via its incarnation as the infinite [[complex projective space]] $\mathbb{C}P^\infty$, one finds that the [[Atiyah-Hirzebruch spectral sequences]]
 
 $$
   H^p(\mathbb{C}P^n, \pi_q(E)) \Rightarrow H^\bullet(\mathbb{C}P^n)
@@ -3596,7 +3706,7 @@ Finally one checks that Conner-Floyd classes canonically serve as [[Thom classes
 #### Formal group laws of first CF-Chern classes
  {#FormalGroupLaws}
 
-**Idea.** The [[classifying space]] $B U(1)$ for [[complex line bundles]] is a [[homotopy type]] canonically equipped with commutative group structure ([[infinity-group]]-structure), corresponding to the [[tensor product]] of complex line bundles. By the above fact the the [[first Chern class]] of these complex line bundles generates the $E$-cohomology of $B U(1)$, it follows that the [[cohomology ring]] $E^\bullet(B U(1)) \simeq \pi_\bullet(E)[ [ c_1 ] ]$ behaves like the ring of $\pi_\bullet(E)$-valued functions on a 1-dimensional commutative [[formal group]] equipped with a canonical [[coordinate]] function $c_1$. This is called a _[[formal group law]]_ over the [[graded ring]] $\pi_\bulllet(E)$. 
+**Idea.** The [[classifying space]] $B U(1)$ for [[complex line bundles]] is a [[homotopy type]] canonically equipped with commutative group structure ([[infinity-group]]-structure), corresponding to the [[tensor product]] of complex line bundles. By the above, the [[first Chern class]] of these complex line bundles generates the $E$-cohomology of $B U(1)$, it follows that the [[cohomology ring]] $E^\bullet(B U(1)) \simeq \pi_\bullet(E)[ [ c_1 ] ]$ behaves like the ring of $\pi_\bullet(E)$-valued functions on a 1-dimensional commutative [[formal group]] equipped with a canonical [[coordinate]] function $c_1$. This is called a _[[formal group law]]_ over the [[graded ring]] $\pi_\bullet(E)$. 
 
 On abstract grounds it follows that there exists a commutative ring $L$ and a universal (1-dimensional commutative) formal group law $\ell$ over $L$. This is called the _[[Lazard ring]]_. [[Lazard's theorem]] identifies this ring concretely: it turns out to simply be the [[polynomial ring]] on generators in every even degree.
 
@@ -3608,7 +3718,7 @@ Further below this has profound implications on the structure theory for complex
 #### Complex cobordism
  {#ComplexCobordismCohomology}
 
-**Idea.** There is a [[weak homotopy equivalence]] $\phi \colon B U(1)\stackrel{\simeq}{\longrightarrow} M U(1)$ between the [[classifying space]] for [[complex line bundle]] and the  [[Thom space]] of the [[universal vector bundle|universal complex line bundle]]. This gives an element $\pi_\ast(c_1) \in M U^2(B U(1))$ in the [[complex cobordism cohomology]] of $B U(1)$ which makes the universal complex [[Thom spectrum]] [[MU]] become a [[complex oriented cohomology theory]].
+**Idea.** There is a [[weak homotopy equivalence]] $\phi \colon B U(1)\stackrel{\simeq}{\longrightarrow} M U(1)$ between the [[classifying space]] for [[complex line bundles]] and the  [[Thom space]] of the [[universal vector bundle|universal complex line bundle]]. This gives an element $\pi_\ast(c_1) \in M U^2(B U(1))$ in the [[complex cobordism cohomology]] of $B U(1)$ which makes the universal complex [[Thom spectrum]] [[MU]] become a [[complex oriented cohomology theory]].
 
 This turns out to be a [[universal complex orientation on MU]]: for every other [[ring spectrum]] $E$ there is an equivalence between complex orientations on $E$ and ring spectrum homomorphisms
 
@@ -3617,13 +3727,15 @@ $$
   \,.
 $$
 
+Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[MU]]. Equivalently: affine [[spectral geometry]] over $Spec(MU)$.
+
 **Literature.** ([Kochmann 96, section 1.4, 1.5, 4.4](#Kochmann96),[Lurie 10, lectures 5 and 6](#Lurie10))
 
 
 #### Homology of $M U$
  {#HomologyOfMU}
 
-**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The [[Atiyah-Hirzebruch spectral sequence]] allows to compute this. Via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] this gives a first approximation to the [[homotopy groups]] of [[M U]]
+**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The [[Atiyah-Hirzebruch spectral sequence]] allows to compute this. Via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] this gives a first approximation to the [[homotopy groups]] of [[MU]].
 
 **Literature.** ([Kochmann 96, section 2.4, 4.3](#Kochmann96), [Lurie 10, lecture 7](#Lurie10))
 
@@ -3631,7 +3743,7 @@ $$
 #### Quillen's theorem on $M U$
  {#QuillenTheoremOnMU}
 
-**Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]] once Deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
+**Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]], one deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
 
 **Literature.** ([Kochmann 96, section 4.4](#Kochmann96), [Lurie, lecture 10](#Lurie10))
 
@@ -3646,7 +3758,7 @@ The _[[Landweber exact functor theorem]]_ says that, conversely, forming the [[t
 
 ### Outlook: Geometry of $Spec(MU)$
 
-The grand conclusion of [[Quillen's theorem on MU]] ([above](#QuillenTheoremOnMU)): [[complex oriented cohomology theory]] is essentially the [[spectral geometry]] over $Spec(M U)$, and the latter is a kind of derived version of the [[moduli space for formal groups]] (1-dimensional commutative).
+The grand conclusion of [[Quillen's theorem on MU]] ([above](#QuillenTheoremOnMU)): [[complex oriented cohomology theory]] is essentially the [[spectral geometry]] over $Spec(M U)$, and the latter is a kind of derived version of the [[moduli stack of formal groups]] (1-dimensional commutative).
 
 
 * [[Landweber-Novikov theorem]]
