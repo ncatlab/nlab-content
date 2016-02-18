@@ -16,7 +16,7 @@ and by [[Quillen's theorem on MU|Quillen's theorem]] also
 
 ## Definition
 
-The _Lazard ring_ can be presented as by generators $a_{i j}$ with $i,j \in \mathbb{N}$
+The _Lazard ring_ may be presented by generators $a_{i j}$ with $i,j \in \mathbb{N}$
 
 $$
   L = \mathbb{Z}[a_{i j}] / (relations\;1,2,3\;below)
