@@ -28,7 +28,7 @@ $$
 
 with induced [[orientation]] agreeing with the given one on $X_{in}$ and being the opposite of that of $X_{out}$. Hence by labelling disjoint components of the boundary of any [[manifold with boundary]] $\Sigma$ as either "incoming" or "outgoing", then $\Sigma$ becomes a cobordism from its incoming to its outgoing boundary components.
 
-(While $X_{in} \coprod X_{out}$ is the [[boundary]] of $\Sigma$, conversely $\Sigma$ is the "co-boundary" of $X_{in}\coprod X_{out}$. This is part of the reason for the "co-" in "cobordism", but sometimes one just says _bordism_.)
+(While $X_{in} \coprod X_{out}$ is the [[boundary]] of $\Sigma$, conversely $\Sigma$ is the "co-boundary" of $X_{in}\coprod X_{out}$. This is part of the reason for the "co-" in "cobordism", but sometimes one just says _bordism_. The difference is more pronounced when distinguishing between [[bordism homology theory]] and [[cobordism cohomology theory]].)
 
 With a little bit of technical conditions on the boundary inclusions added, then $(n-1)$-dimensional manifolds with [[diffeomorphism]] classes of $n$-dimensional cobordisms between them form a [[category]] (a [[category of cobordisms]]) whose [[objects]] are the manifolds, whose [[morphisms]] are the cobordisms, and whose [[composition]] operation is the operation of gluing two cobordisms along a common boundary component.
 Such a [[category of cobordisms]] $Bord_n$ of some [[dimension]] $n$  is naturally a  [[symmetric monoidal category]] $Bord_n^{\sqcup}$ with the [[tensor product]] being the [[disjoint union]] $\sqcup$ of manifolds.
@@ -87,6 +87,9 @@ If one considers [[manifolds with corners]] then there is a fairly evident refin
 
 
 [[!redirects cobordisms]]
+
+[[!redirects bordism]]
+[[!redirects bordisms]]
 
 
 [[!redirects cobordant manifold]]
