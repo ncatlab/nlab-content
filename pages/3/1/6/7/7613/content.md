@@ -189,7 +189,7 @@ which coined the association
 
 that later gained much publicity
 
-* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
+* {#Witten98} [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
 
 The term became fully established with surveys including
 
