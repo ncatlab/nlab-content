@@ -459,6 +459,8 @@ Introductions are in
  
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_, 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  
+* {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf))
+
 * {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_ 
  
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
