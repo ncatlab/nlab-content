@@ -62,6 +62,10 @@ $$ F: \mathbb{P} \to Vect_{k} $$
 
 with the special property that $F(n)$ is finite-dimensional for all $n$ and $0$ for $n$ sufficiently large.   The category of Schur functors is again a [[semisimple category|semisimple abelian category]] with a basis of objects given by irreducible [[representation|representations]] of [[symmetric groups]], so its Grothendieck ring is again $\Lambda$.   For more on this, see [[Schur functor]].
 
+## Examples
+
+* In the context of [[universal characteristic classes]] of [[vector bundles]], the [[splitting principle]] identifies higher [[Chern classes]] with symmetric polynomials in copies of the [[first Chern class]].
+
 ## Related concepts
 
 * [[Witt vector]]
