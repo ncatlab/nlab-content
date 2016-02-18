@@ -30,7 +30,7 @@ $$
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V)$, induced by [[cup product]] with a [[Thom class]] $u \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g.{ [Kochmann 96, section 2.6](#Kochmann96)).
+from the [[cohomology]] of $X$ to the cohomology of the [[Thom space]] $Th(V)$, induced by [[cup product]] with a [[Thom class]] $u \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
 
 One may think of the Thom isomorphism from left to right as cupping with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
 
