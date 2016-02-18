@@ -31,6 +31,12 @@ from [Wikimedia](https://secure.wikimedia.org/wikipedia/commons/wiki/File:Suspen
 
 Note that we *replace* $X$ by a single point at each endpoint; we don\'t merely *identify* all of the points in $X$ there.  This only makes a difference for the [[empty space]]; we should have $S \empty = \{\bot,\top\}$, not $S \empty = \empty$.  (This is related to the issues in the definition of [[connected space]].)
 
+The suspension construction is part of the [[cofiber sequence]] induced from any [[mapping cone]] construction
+
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="660" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
 
 ## Definitions
 
