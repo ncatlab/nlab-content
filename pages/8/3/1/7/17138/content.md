@@ -49,7 +49,7 @@ Eventually lecture notes.
 > My initial inclination was to call this book [[The Music of the Spheres]], but I was dissuaded from doing so by my diligent publisher, who is ever mindful of the sensibilities of librarians. ([Ravenel 86, preface](#Ravenel86))
 
 
-## Introduction
+## Survey
  {#Introduction}
 
 We are concerned with the theory of _[[spectra]]_ in the sense of [[algebraic topology]]: the proper generalization of [[abelian groups]] to [[homotopy theory]]. 
@@ -125,7 +125,9 @@ We are interested in the [[stable homotopy category]] of [[spectra]], to which w
 
 See for instance ([Goerss-Jardine 96, chapter I](#GoerssJardine96)).
 
+
 ### Simplicial sets
+ {#SimplicialSets}
 
 +-- {: .num_defn #TopologicalSimplex}
 ###### Definition
@@ -543,6 +545,29 @@ Therefore the map
 $[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equal to  to $Top(\Delta^n, X) \to Top(\Lambda^n_k, X)$ which has a right inverse $Top(\Lambda^n_k, X) \to Top(\Delta^n, X)$.
 
 =--
+
+### Homotopy
+
+[[homotopy]]
+
+* [[interval object]], [[path space object]]
+
+* [[left homotopy]], [[right homotopy]]
+
+[[homotopy groups]]
+
+[[homotopy fiber]], [[homotopy cofiber]]
+
+* [[mapping cone]], [[mapping cocone]]
+
+* [[suspension]], [[loop space object]]
+
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="500" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+[[long exact sequence of homotopy groups]]
+
 
 ### The classical homotopy category
 
