@@ -267,5 +267,8 @@ Application to [[motivic homotopy theory|motivic]] [[cobordism cohomology theory
 
 
 [[!redirects Atiyah-Hirzebruch spectral sequence]]
+[[!redirects Atiyah-Hirzebruch spectral sequences]]
+
 
 [[!redirects Atiyah-Hirzeburch spectral sequence]]
+
