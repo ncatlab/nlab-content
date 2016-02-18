@@ -52,7 +52,7 @@ so that $D \coloneqq A_0 \cup (B_0 \setminus \{b\}) \cup \{a\}$ "spans" $X$. Als
 
 $$cl(D \setminus \{x\}) \subseteq cl((A_0 \cup B_0) \setminus \{x\})$$ 
 
-with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \setminus \{a\}) = cl((A_0 \cup (B_0 \setmimus \{b\}))$, we conclude $A_0 \cup (B \setminus \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \setminus \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
+with neither side containing $x$ since $A_0 \cup B_0$ is independent; whereas if $x = a$ and supposing to the contrary that $a \in cl(D \setminus \{a\}) = cl((A_0 \cup (B_0 \setminus \{b\}))$, we conclude $A_0 \cup (B \setminus \{b\})$ has the same span as $D$. Since $D$ already spans, $b \in cl(A_0 \cup (B_0 \setminus \{b\}))$, again impossible since $A_0 \cup B_0$ is independent. This proves the claim. 
 
 Again assuming $A$ independent and $B$ is a finite basis, now we show that $card(A) \leq card(B)$, which will finish the proof. Let $n = card(B)$, and suppose on the contrary that there are distinct elements $a_1, \ldots, a_{n+1} \in A$. Set $A_0 = \emptyset$ and $B_0 = B$. Applying the claim above inductively, we have that $\{a_1, \ldots, a_i\} \cup (B \setminus \{b_1, \ldots, b_i\})$ is a basis for $1 \leq i \leq n$, so in particular $\{a_1, \ldots, a_n\}$ spans $X$. Hence $a_{n+1} \in cl(\{a_1, \ldots, a_{n}\})$, contradicting the independence of $A$. 
 =-- 
