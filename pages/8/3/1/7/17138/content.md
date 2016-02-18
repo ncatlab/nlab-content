@@ -3316,25 +3316,37 @@ An excellent textbook is ([Kochmann 96](#Kochmann96)).
 
 $\,$
 
+We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
+
+* [S1) Generalized cohomology](#S1GeneralizedCohomology)
+
+* [S2) Cobordism theory](#S2CobordismTheory)
+
+The development of either of these happens to give rise to the concept of _[[spectra]]_ and via this concept it turns out that both topics are intimately related. The unification of both is our third topic
+
+* [S3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
+
+
 ### **Part S1) Generalized cohomology**
+ {#S1GeneralizedCohomology}
+
+**Idea.** The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] and [[generalized cohomology]]: these are [[covariant functors]] or [[contravariant functors]], respectively,
+
+$$
+  Spaces \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that a few key properties of the [[homotopy types]] of topological spaces is preserved as one passes them from [[Ho(Top)]] to the much more tractable [[abelian category]] [[Ab]].
 
 **Literature.** ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4, 4.2](#Kochmann96)) 
+
 
 #### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
+**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0.
 
-**Idea.** The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] [[generalized cohomology]]: [[covariant functors]] or [[contravariant functors]]
-
-$$
-  Top \longrightarrow Ab^{\mathbb{Z}}
-$$
-
-from (suitably nice) [[topological spaces]], such that some key properties of the [[homotopy types]] of topological spaces is preserved as one passes them to the more tractable [[category]] [[Ab]]${}^{\mathbb{Z}}$  of $\mathbb{Z}$-[[graded abelian groups]].
-
-A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0.
-
-An important example of a generalised cohomology theory other than ordinary cohomology is [[topological K-theory]].
+An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
 **Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochmann 96, 3.4](#Kochmann96))
 
@@ -3342,11 +3354,11 @@ An important example of a generalised cohomology theory other than ordinary coho
 #### Brown representability theorem
 
 
-**Idea.** Given any functor such as the generalized (co)homology functor [above](GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list, hence it must be represented by a _[[spectrum]]_.
+**Idea.** Given any [[functor]] such as the generalized (co)homology functor [above](#GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list. This is a _[[spectrum]]_.
 
 Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
 
-Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not quite apply here, since a spectrum is more than just one (homotopy type of a) topological space).
+Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a spectrum is more than just one (homotopy type of a) topological space).
 
 In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
@@ -3354,11 +3366,11 @@ In applications and modern theory, it is mostly the spectra that matter, and hen
 
 
 #### Milnor exact sequence
+ {#S2MilnorExactSequence}
 
 
-**Idea.** Some generalized (co)homology theories of key interest arise as "[[direct limits]]" of sequences of spectra, notably the [[Thom spectra]] [[MO]] and [[MU]] do, which we consider below in [S2](#S2CobordismTheory) and [S3](#ComplexOrientedCohomologyTheory). Accordingly their generalized cohomology groups may be computed as "[[inverse limits]]". But since it is really [[homotopy limits]] that are involved here, these naive inverse limits in general receive a correction by "[[lim^1]]-terms", this is the content of _[[Milnor exact sequences]]_. A sufficient condition for these $\underset{\longleftarrow}{\lim}^1$-corrections to be absent is the _[[Mittag-Leffler condition]]_. Thus a common computational strategy for computing generalized cohomology _of_ spectra such as [[MO]] and [[MU]] is to check that the Mittag-Leffler condition is satisfied and then computing generalized cohomology groups as ordinary inverse limits. 
+**Idea.** One tool for computing [[generalized cohomology]] [[cohomology groups|groups]] via "[[inverse limits]]" are _[[Milnor exact sequnces]]_. For instance the generalized cohomology of the [[classifying space]] $B U(1)$ plays a key role in the [[complex oriented cohomology]]-theory discussed [below](#ComplexOrientedCohomologyTheory), and via the equivalence $B U(1) \simeq \mathbb{C}P^\infty$ to the [[homotopy type]] of the infinite [[complex projective space]], which is the [[direct limit]] of finite dimensional projective spaces $\mathbb{C}P^n$, this is an [[inverse limit]] of the generalized cohomology groups of the $\mathbb{C}P^n$s. But what really matters here is the [[derived functor]] of the [[limit]]-operation -- the  [[homotopy limit]] -- and the [[Milnor exact sequence]] expresses how the naive limits receive corrections from higher "[[lim^1]]-terms". In practice one mostly proceeds by verifying conditions under which these corrections happen to disappear, these are the _[[Mittag-Leffler conditions]]_.
 
-We need this [below](#ComplexCobordismCohomology) in the discussion of the [[universal complex orientation on MU]].
 
 **Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
 
