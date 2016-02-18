@@ -33,6 +33,10 @@ and the **left and right unit laws**:
 
 Here $\alpha$ is the [[associator]] in $C$, while $\lambda$ and $\rho$ are the left and right [[unitor|unitors]].
 
+## As categories with one object
+
+Just as the category of regular [[monoid|monoids]] is equivalent to the category of locally small (i.e. Set-enriched) categories with one object, the category of monoids in $C$ (with the obvious morphisms) is equivalent to the category of $C$-[[enriched category|enriched categories]] with one object.
+
 ## Related concepts
 
 * [[monoid]]
