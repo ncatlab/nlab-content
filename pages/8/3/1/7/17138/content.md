@@ -123,11 +123,18 @@ $\,$
 
 We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the plain [[homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
 
-See for instance ([Goerss-Jardine 96, chapter I](#GoerssJardine96)).
+**Literature.** ([Goerss-Jardine 96, chapter I](#GoerssJardine96)).
 
 
 ### Simplicial sets
  {#SimplicialSets}
+
+While historically the field of [[algebraic topology]] originated in [[topology]], it not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]] ([[homeomorphism]]), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- in their "[[homotopy types]]". This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are invariants of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. The [[category]] of topological spaces obtained by regarding [[weak homotopy equivalences]] as [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]], which we discuss [below](#TheClassicalHomotopyCategory).
+
+But the nature of [[objects]] in any [[category]] is not determined by how we present these objects, but by what the [[morphisms]] between them are. In this respect, the objects of [[Ho(Top)]] turn out to have lost the geometric nature of topology to retain only a more set-theoretic combinatorial nature. This is more explicitly captured by the concept of _[[simplicial sets]]_.
+
+Simplicial sets are secretly well familiar already in basic [[algebraic topology]]: they reflect just the abstract structure carried by the [[singular simplicial complexes]] that appear in the definition of [[singular homology]]/[[singular cohomology]]. 
+
 
 +-- {: .num_defn #TopologicalSimplex}
 ###### Definition
@@ -215,6 +222,10 @@ is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
 
 =--
 
+<img src="http://ncatlab.org/nlab/files/faceanddegeneracymaps.jpg" width="500" >
+
+(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
+
 +-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
 ###### Definition
 
@@ -259,6 +270,10 @@ $$
 for the set of singular $n$-simplices of $X$.
 
 =--
+
+<img src="http://ncatlab.org/nlab/files/singularsimplices.jpg" width="500" >
+
+(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
 
 The sets $(Sing X)_\bullet$ here are closely related by an interlocking system of maps that make them form what is called a _[[simplicial set]]_, and as such the collection of these sets of singular simplices is called the _[[singular simplicial complex]]_ of $X$. We discuss the definition of simplicial sets now and then come back to this below in def. \ref{SingularSimplicialComplex}.
 
@@ -448,9 +463,13 @@ This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **in
 
 =--
 
+<img src="http://ncatlab.org/nlab/files/2horns.jpg" width="500" >
+
+(graphics taken from [Friedman 08](https://ncatlab.org/nlab/show/simplicial+set#Friedman08))
+
+
 +-- {: .num_remark }
 ###### Remark
-
 
 Since [[sSet]]  is a [[presheaf category]], [[unions]] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
 
@@ -562,7 +581,7 @@ $[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equ
 
 * [[suspension]], [[loop space object]]
 
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="500" >
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="700" >
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
 
@@ -570,6 +589,7 @@ $[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equ
 
 
 ### The classical homotopy category
+ {#TheClassicalHomotopyCategory}
 
 
 +-- {: .num_defn #LeftHomotopyOfSimplicialSets}
@@ -3335,13 +3355,11 @@ $\;\;\;\;\;\;\;\;\;\;\;$
 
 **Abstract.** _The [[(infinity,1)-category|category]] of [[generalized cohomology theories]] equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] (of [[higher Jacobians]]), such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
-$\,$
 
-An excellent textbook is ([Kochmann 96](#Kochmann96)).
+**Literature.** ([Kochmann 96](#Kochmann96)).
 
-$\,$
 
-We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
+**Outline.** We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
 
 * [S1) Generalized cohomology](#S1GeneralizedCohomology)
 
@@ -3350,6 +3368,8 @@ We start with two classical topics of [[algebraic topology]] that first run inde
 The development of either of these happens to give rise to the concept of _[[spectra]]_ and via this concept it turns out that both topics are intimately related. The unification of both is our third topic
 
 * [S3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
+
+$\,$
 
 
 ### **Part S1) Generalized cohomology**
@@ -3369,7 +3389,7 @@ from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian
 #### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
-**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and while not quite equivalent, they are closely related.
+**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), notably [[homotopy invariance]] and [[excision]], _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and while not quite equivalent, they are closely related.
 
 An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
@@ -3384,7 +3404,7 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
 
-Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a (co)homology functor is equipped with the extra structure of the [[natural isomorohism]] [[suspension isomorphism]]).
+Due to [[phantom maps]], there remains a subtle difference between generalized (co)homology functors and the spectra which represent them: a little bit of information is lost as one passes from the spectrum to its cohomology functor (the [[Yoneda lemma]] does not fully apply here, since a (co)homology functor is equipped with the extra structure of the [[natural isomorphism|natural]] [[suspension isomorphism]]).
 
 In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
@@ -3397,7 +3417,7 @@ There is a slight refinement of the concept of generalized homology functors to 
  {#S2MilnorExactSequence}
 
 
-**Idea.** One tool for computing [[generalized cohomology]] [[cohomology groups|groups]] via "[[inverse limits]]" are _[[Milnor exact sequnces]]_. For instance the generalized cohomology of the [[classifying space]] $B U(1)$ plays a key role in the [[complex oriented cohomology]]-theory discussed [below](#ComplexOrientedCohomologyTheory), and via the equivalence $B U(1) \simeq \mathbb{C}P^\infty$ to the [[homotopy type]] of the infinite [[complex projective space]], which is the [[direct limit]] of finite dimensional projective spaces $\mathbb{C}P^n$, this is an [[inverse limit]] of the generalized cohomology groups of the $\mathbb{C}P^n$s. But what really matters here is the [[derived functor]] of the [[limit]]-operation -- the  [[homotopy limit]] -- and the [[Milnor exact sequence]] expresses how the naive limits receive corrections from higher "[[lim^1]]-terms". In practice one mostly proceeds by verifying conditions under which these corrections happen to disappear, these are the _[[Mittag-Leffler conditions]]_.
+**Idea.** One tool for computing [[generalized cohomology]] [[cohomology groups|groups]] via "[[inverse limits]]" are _[[Milnor exact sequences]]_. For instance the generalized cohomology of the [[classifying space]] $B U(1)$ plays a key role in the [[complex oriented cohomology]]-theory discussed [below](#ComplexOrientedCohomologyTheory), and via the equivalence $B U(1) \simeq \mathbb{C}P^\infty$ to the [[homotopy type]] of the infinite [[complex projective space]], which is the [[direct limit]] of finite dimensional projective spaces $\mathbb{C}P^n$, this is an [[inverse limit]] of the generalized cohomology groups of the $\mathbb{C}P^n$s. But what really matters here is the [[derived functor]] of the [[limit]]-operation -- the  [[homotopy limit]] -- and the [[Milnor exact sequence]] expresses how the naive limits receive corrections from higher "[[lim^1]]-terms". In practice one mostly proceeds by verifying conditions under which these corrections happen to disappear, these are the _[[Mittag-Leffler conditions]]_.
 
 
 **Literature.** ([Goerss-Jardine 96, section VI.2](#GoerssJardine96), [Kochmann 96, section 4.2](#Kochmann96))
@@ -3405,9 +3425,9 @@ There is a slight refinement of the concept of generalized homology functors to 
 
 #### Atiyah-Hirzebruch spectral sequence
 
-**Idea.** Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in $E^\bullet(F)$. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
+**Idea.** Another important tool for computing [[generalized cohomology]] is to reduce it to the computation of [[ordinary cohomology]] with [[coefficients]]. Given a [[generalized cohomology theory]] $E$, there is a [[spectral sequence]] known as the _[[Atiyah-Hirzebruch spectral sequence]]_ (AHSS) which serves to compute $E$-cohomology of $F$-[[fiber bundles]] over a [[simplicial complex]] $X$ in terms of [[ordinary cohomology]] with [[coefficients]] in the generalized cohomology $E^\bullet(F)$ of the fiber. For $E = $ [[HA]] this is known as the _[[Serre spectral sequence]]_.
 
-The [[Atiyah-Hirzebruch spectral sequence]] in turn is a direct consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
+The [[Atiyah-Hirzebruch spectral sequence]] in turn is a consequence of the "[[Cartan-Eilenberg spectral sequence]]" which arises from the [[exact couple]] of [[relative cohomology]] groups of the skeleta of the CW-complex, and whose first page is the relative cohomology groups for codimension-1 skeleta.
 
 **Literature.** ([Kochmann 96, section 4.2](#Kochmann96))
 
@@ -3419,27 +3439,34 @@ The [[Atiyah-Hirzebruch spectral sequence]] in turn is a direct consequence of t
 
 The strongest manifestation of this comes about in [[complex oriented cohomology theory]]/[[chromatic homotopy theory]] that we eventually come to [below](#ComplexOrientedCohomologyTheory), which higher linear algebra over the complex Thom spectrum [[MU]]. 
 
-Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[homotopy groups of a spectrum|homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
+Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The seminal result of [[Thom's theorem]] says that the [[stable homotopy groups]] of [[MO]] form the [[cobordism ring]] of [[cobordism]]-[[equivalence classes]] of [[manifolds]]. In the course of discussing this _[[cobordism theory]]_ one encounters various phenomena whose complex version also governs the complex oriented cohomology theory that we are interested in [below](#ComplexOrientedCohomologyTheory).
 
 **Literature.** ([Kochmann 96, chapter I and sections II.2, II6](Kochmann96)). A quick efficient account is also in ([Malkiewich 11](#Malkiewich11)).
 
 
-#### Cobordism
+#### Classifying spaces, $G$-Structure and Bordism
+
+**Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $b$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]), which may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
+
+$$
+  \array{
+    && B G
+    \\
+    &\nearrow& \downarrow
+    \\
+    X &\longrightarrow& B O(n)
+  }
+$$ 
+
+for instance an [[orientation]] for the inclusion $SO(n) \hookrightarrow O(n)$ of the [[special orthogonal group]], or an [[almost complex structure]] for the inclusion $U(n) \hookrightarrow O(2n)$ of the [[unitary group]].
+
+All this generalizes, for instance from tangent bundles to [[normal bundles]] with respect to any [[embedding]]. It also behaves well with respect to passing to the [[boundary]] of manifolds, hence to [[bordism]]-classes of manifolds. This is what appears in [[Thom's theorem]] [below](#ThomTheorem).
 
 **Literature.** ([Kochmann 96, 1.3-1.4](#Kochmann96))
 
-[[smooth manifold]]
-
-[[tangent bundle]], [[normal bundle]]
-
-[[classifying space]]
-
-[[G-structure]]
-
-[[cobordism]]
-
 
 #### Thom spectra
+ 
 
 **Literature.** ([Kochmann 96, 1.5](#Kochmann96))
 
@@ -3451,6 +3478,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 
 
 #### Thom's theorem
+ {#ThomTheorem}
 
 **Literature.** ([Kochmann 96, 1.5](#Kochmann96))
 
@@ -3581,7 +3609,7 @@ $\,$
 ## References
  {#References}
 
-### Basic
+### Basic reading
 
 For **Prelude) Classical homotopy theory** a good source is chapter I of
 
