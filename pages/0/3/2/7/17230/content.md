@@ -1,0 +1,16 @@
+
+## Related concepts
+
+* [[path integral]]
+
+* [[Feynman diagram]]
+
+## References
+
+* [[Radovan Dermisek]], _Schwinger-Dyson equations_, 2009  ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-4-4p.pdf))
+
+[[!redirects Schwinger-Dyson equations]]
+
+[[!redirects Dyson-Schwinger equation]]
+[[!redirects Dyson-Schwinger equations]]
+
