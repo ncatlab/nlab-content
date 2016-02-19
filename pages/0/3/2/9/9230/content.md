@@ -243,7 +243,7 @@ $$
   \begin{aligned}
     \langle V(\phi)^2 \rangle
     &\coloneqq
-    \langle (\sum_{x= 1}^k)(\phi_x)^3 \rangle
+    \langle (\sum_{x= 1}^k \phi_x^3)^2 \rangle
     \\
     & = \sum_{x_1, x_2 = 1}^k
     \langle \phi_{x_1}\phi_{x_1} \phi_{x_1}\phi_{x_2}\phi_{x_2}\phi_{x_2}\rangle
