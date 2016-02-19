@@ -250,6 +250,7 @@ based on material (on categories of "families") in _[[On the Classification of T
 
 * [[cohomological integration]], [[BV-BRST quantization]]
 
+* [[Schwinger-Dyson equation]]
 
 ## References 
  {#References}
