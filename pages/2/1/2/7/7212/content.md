@@ -1,4 +1,10 @@
 
 * [webpage](http://www.ihes.fr/~damour/)
 
+## related $n$Lab entries
+
+* [[gravitational wave]]
+
+* [[U-duality]]
+
 category: people
