@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.aei.mpg.de/1282509/Homepage_of_Alessandra_Buonanno)
+
+## related $n$Lab entries
+
+* [[gravitational wave]]
+
+category: people
