@@ -79,8 +79,12 @@ There is a straightforward generalization to an adjunction of $n$ variables, whi
 
 [[!redirects two-variable adjunction]]
 [[!redirects two-variable adjunctions]]
+[[!redirects 2-variable adjunction]]
+[[!redirects 2-variable adjunctions]]
 [[!redirects adjunction of two variables]]
 [[!redirects adjunctions of two variables]]
+[[!redirects adjunction of 2 variables]]
+[[!redirects adjunctions of 2 variables]]
 [[!redirects n-variable adjunction]]
 [[!redirects n-variable adjunctions]]
 [[!redirects adjunction of n variables]]
