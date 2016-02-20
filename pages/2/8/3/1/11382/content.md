@@ -24,7 +24,7 @@ The [[physics|physical]] [[theory (physics)|theory]] of [[Einstein]]-[[gravity]]
 
 ## Experimental observation
 
-At the end of the 20th century, there had accumulated excellent but indirect evidence for graviational waves from the observation of [[binary pulsars]] ([Hulse-Taylor 75](#HulseTaylor75)). Their observed rotational motion loses energy precisely to the extent that [[general relativity]] predicts is being radiated away by gravitational waves.
+At the end of the 20th century, there had accumulated excellent but indirect evidence for gravitational waves from the observation of [[binary pulsars]] ([Hulse-Taylor 75](#HulseTaylor75)). Their observed rotational motion loses energy precisely to the extent that [[general relativity]] predicts is being radiated away by gravitational waves.
 
 On 11 Febrary 2016 was the announcement of the first direct detection by the [[LIGO]] collaboration, using laser interferometry, of a gravitational wave signal coming from the in-spiral and merge of a pair of [[black holes]] ([LIGO 2016](#LIGO16)). The signal was a chirp at 35-250 Hz (converted to audio in [this looped recording](https://youtu.be/TWqhUANNFXw)), detected as coming from the sky over the southern hemisphere on 14 September 2015.
 
