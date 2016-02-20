@@ -54,7 +54,7 @@ The notion is considered (under the name "$\mathcal{L A}$-groupoids") in
 
 * [[Kirill Mackenzie]], _Double Lie algebroids and second-order geometry. I_. Adv. Math. 94 (1992), no. 2, 180&#8211;239
 
-  _Double Lie algebroids and second-order geometry. II_. Adv.Math. 154 (2000), no. 1, 46&#8211;75. [dg-ga/9712013]([arXiv:dg-ga/9712013](http://arxiv.org/abs/dg-ga/9712013)).
+* [[Kirill Mackenzie]], _Double Lie algebroids and second-order geometry. II_. Adv.Math. 154 (2000), no. 1, 46&#8211;75. ([arXiv:dg-ga/9712013](http://arxiv.org/abs/dg-ga/9712013)).
 
 
 [[!redirects Lie algebroid-groupoids]]
