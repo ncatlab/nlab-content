@@ -815,6 +815,7 @@ In contrast to the classical [[homotopy category]], the stable homotopy category
 
   [[homotopy fiber sequence]], [[mapping cone]]
 
+  [[long exact sequence of homotopy groups]]
 
 ### Higher algebra
  {#RingSpectra}
