@@ -457,7 +457,7 @@ The $c$ that satisfy this equation hence satisfy $\partial^{hor}\partial^{vert} 
 ### Intramural and extramural isomorphisms
  {#IntraExtramuralIsomorphisms}
 
-The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps, lemma \ref{Intramural} and lemma \ref{Extramural}, to be [[isomorphisms]]. All of of the standard [[diagram chasing lemmas]] in [[homological algebra]] follow in a natural way from combining these _intramural isomorphisms_ with long [[zigzags]] of thse _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
+The following two statements are direct concequences (special cases) of the salamander lemma, prop. \ref{SalamanderLemma}. They give sufficient conditions for the intramural and the extramural maps, lemma \ref{Intramural} and lemma \ref{Extramural}, to be [[isomorphisms]]. All of the standard [[diagram chasing lemmas]] in [[homological algebra]] follow in a natural way from combining these _intramural isomorphisms_ with long [[zigzags]] of these _extramural isomorphisms_. This is discussed below in _[The basic diagram chasing lemmas](#Implications)_.
 
 +-- {: .num_cor #ExtramuralIso}
 ###### Corollary
