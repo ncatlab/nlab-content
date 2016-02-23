@@ -38,7 +38,7 @@ and [[filtered colimits]] are [[left exact]].
 There is a [[Gabriel-Popescu theorem]] for prestable ∞-categories:
 the class of Grothendieck prestable ∞-categories
 coincides with the class of accessible left exact localizations
-of [[connective]] modules over a connective [[$E_1$-ring]].
+of [[connective]] modules over a connective [[E1-ring|E_1-ring]].
 
 ## References
 
