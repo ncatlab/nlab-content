@@ -1,4 +1,23 @@
 
+$$
+  \begin{aligned}
+    d_{res} \mu_{Dp}
+    & = 
+    \underset{= 0}{\underbrace{d \mu_{Dp}}} 
+    + 
+    h_3 \wedge \frac{\partial}{\partial f_2} [C \wedge \exp(f_2)]_{p+2}
+    \\
+    & = 
+    [C \wedge h_3 \wedge \exp(f_2)]_{p+3}
+    \\
+    & = h_3 \wedge [C \wedge \exp(f_2)]_{p}
+    \\
+    & = h_3 \wedge \mu_{D(p-1)}
+  \end{aligned}
+  \,.
+$$
+
+
 [[faceanddegeneracymaps.jpg:file]]
 
 <img src="http://ncatlab.org/nlab/files/faceanddegeneracymaps.jpg" width="500" >
