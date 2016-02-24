@@ -132,6 +132,15 @@ This way singular cohomology is the abelian dual of [[singular homology]].
 
 * [[de Rham theorem]]
 
+## Comparison to sheaf cohomology
+
+If the topological space $X$ is semi-locally contractible
+(meaning: any open subset $U\subset X$ has an open cover $W$ by open subsets $W_i\subset U$ that are contractible in&#160;$U$),
+then the [[sheaf cohomology]] of&#160;$X$ is isomorphic
+to the singular cohomology of&#160;$X$ for any abelian
+group of coefficients.
+
+This was proved by Sella in [Comparison of sheaf cohomology and singular cohomology](http://arxiv.org/abs/1602.06674v2).
 
 ## Discussion
 
