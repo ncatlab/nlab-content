@@ -1848,7 +1848,7 @@ This means that
 
 =--
 
-This kind of situation -- chains that are cycles only up to lower filtering degree and boundaries that come from specified higher filtering degree -- has an evident generalization to higher relative filtering degrees. And in this greater generality the concept is of great pracrical relevance. Therefore before discussing cellular homology further now, we consider this more general "higher-order relative homology" that it suggests (namely the formalism of [[nLab:spectral sequences]]). After establishing a few fundamental facts about that we will come back in prop. \ref{SpectralSequenceOfCWComplex} below to analyse the above cellular situation using this conceptual tool.
+This kind of situation -- chains that are cycles only up to lower filtering degree and boundaries that come from specified higher filtering degree -- has an evident generalization to higher relative filtering degrees. And in this greater generality the concept is of great practical relevance. Therefore before discussing cellular homology further now, we consider this more general "higher-order relative homology" that it suggests (namely the formalism of [[nLab:spectral sequences]]). After establishing a few fundamental facts about that we will come back in prop. \ref{SpectralSequenceOfCWComplex} below to analyse the above cellular situation using this conceptual tool.
 
 First we abstract the structure on chain complexes that in the above example was induced by the CW-complex structure on the [[nLab:singular chain complex]].
 
@@ -2947,7 +2947,7 @@ is again an exact couple, def. \ref{ExactCouple}.
 ###### Definition
 
 Given an exact couple, def. \ref{ExactCouple},
-then the induced [[spectral sequence]], def. \ref[#SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
+then the induced [[spectral sequence]], def. \ref{SpectralSequence}, is the sequence of pages, def. \ref{PageOfAnExactCouple}, of the induced sequence of derived exact couples, def. \ref{DerivedExactCouple}, prop. \ref{DerivedExactCoupleIsExactCouple}.
 
 =--
 
