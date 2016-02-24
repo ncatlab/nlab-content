@@ -286,6 +286,8 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 ## References
 
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 2.5 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
 Discussion from the point of view of [[Galois theory]] is in 
 
 * [[Luis Javier Hernández-Paricio]], _Fundamental pro-groupoids and covering projections_([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm156/fm15611.pdf))
