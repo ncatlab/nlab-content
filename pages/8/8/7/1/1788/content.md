@@ -17,6 +17,58 @@ $$
   \,.
 $$
 
++-- {: .num_defn #CohomologySpectralSequence}
+###### Definition
+
+
+A _cohomology spectral sequence_ $\{E_r^{p,q}\}$  _converging to a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$, denoted 
+
+$$
+  E_2^{\bullet,\bullet} \Rightarrow C^\bullet
+$$
+
+is
+
+1. a sequence $\{E_r^{\bullet,\bullet}\}$ $r \in \mathbb{Z}$, $r \geq 2$ of [[bigraded object|bigraded]] [[abelian groups]];
+
+1. a sequence of [[differentials]] $\{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}$
+
+1. a decreasing [[filtration]]
+
+   $C^\bullet \supset \cdots \supset F^s C^\bullet \supset F^{s+1} C^\bullet \supset \cdots \supset 0$
+
+such that 
+
+1.  $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:
+
+    $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$;
+
+1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes contant on a group 
+
+    $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
+
+1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
+
+   $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$
+
+1. $C^\bullet = \underset{s}{\cup} F^s C^\bullet$ and $0 = \underset{s}{\cap} F^s C^\bullet$.
+
+This spectral sequence is called _multiplicative_ if 
+
+1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
+
+1. $F^\bullet C^\bullet$ is equipped with the structure of a filtered [[graded algebra]] ($F^p C^k \cdot F^q C^l \subset F^{p+q} C^{k+l}$);
+
+such that
+
+1. each $d_{r}$ is a [[derivation]] with respect to the (induced) algebra structure on ${E_r^{\bullet,\bullet}}$, graded of degree 1 with respect to total degree;
+
+1. the multiplication on $E_\infty^{\bullet,\bullet}$ is compatible with that on $C^\bullet$.
+
+
+
+=--
+
 
 [[faceanddegeneracymaps.jpg:file]]
 
