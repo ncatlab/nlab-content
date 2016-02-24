@@ -265,6 +265,8 @@ A series of articles arguing for a relation between the [[elliptic fibration]] o
 
 * {#Belhaj02} Adil Belhaj, _F-theory Duals of M-theory on $G_2$ Manifolds from Mirror Symmetry_ ([arXiv:hep-th/0207208](http://arxiv.org/abs/hep-th/0207208))
 
+* [[Mariana Graña]], C. S. Shahbazi, [[Marco Zambon]], _$Spin(7)$-manifolds in compactifications to four dimensions_, JHEP11(2014)046 ([arXiv:1405.3698](http://arxiv.org/abs/1405.3698))
+
 
 ### Relation to the 6d superconformal theory
 
