@@ -168,11 +168,11 @@ $$
 
 is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
 
-If for each bidegree $(s,t)$ there exists $r_{s,t} \gg 1$ such that for all $r \geq r_{s,t}$ 
+If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$ 
 
-1. $g \colon D^{s+r,t-r} \stackel{\simeq}{\longrightarrow} D^{s+r -1, t-r-1}$;
+1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
 
-1. $g\colon D^{s-r+1, t+r-2} \stackrel{0}{\longrightarrow} D^{s-r,t+r-1}$ 
+1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
 
 then this spectral sequence converges to the [[inverse limit]] group
 
@@ -194,6 +194,61 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By exactness of the exact couple, the kernel
+
+$$
+  ker(d_{r-1}) \coloneqq ker(h \circ g^{-r+2} \circ f)
+$$
+
+consists of those elements $x$ such that $g^{-r+2} (f(x)) = g(y)$, for some $y$, hence 
+
+$$
+  ker(d_{r-1}) = f^{-1}(g^{r-1}(D^{s+r-1,t-r+1}))
+  \,.
+$$
+
+By assumption there is for each $(s,t)$ an $R$ such that for all $r \geq R$ then $ker(d_{r-1})$ is independent of $r$. 
+
+Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x$ such that $g^{r-2}(x)$ is in the image of $f$, hence (by exactness of the exact couple) such that $g^{r-2}(x)$ is in the kernel of $g$, hence such that $x$ is in the kernel of $g^{r-1}$. If $r \gt R$ then by assumption $g^{r-1} = 0$ and so then $im(d_{r-1}) = im(h)$.
+
+It follows that
+
+$$
+  \begin{aligned}
+    E_\infty^{p,n-p}
+    & =
+    ker(d_R)/im(d_R)
+    \\
+    &
+    \simeq
+    f^{-1}(im(g^R))/im(h)
+    \\
+    &
+    \simeq
+    im(g^R) \cap im(f)
+    \\
+    & 
+    \simeq
+    im(g^R) \cap ker(g)
+  \end{aligned}
+$$
+
+where in last two steps we used once more the exactness of the exact couple.
+
+The last group is that of elements $x \in G^n$ which map to zero in $D^{p-1,n-p+1}$ and where two such are identified if they agree in $D^{p,n-p}$, hence indeed 
+
+$$
+  E_\infty^{p,n-p} \simeq F^p G^n / F^{p+1} G^n
+  \,.
+$$
+
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -208,12 +263,6 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-
-
-=--
 
 
 [[faceanddegeneracymaps.jpg:file]]
