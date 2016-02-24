@@ -237,10 +237,8 @@ $$
   \left(
     \forall n : 
   \sum_{i+j = n} \sum_{shuffles \sigma}
-  \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)}
-   , v_{\sigma(j+1) , \cdots , v_{\sigma(n)}}
-  ) )
-  = 0
+  \pm l_i (l_j (v_{\sigma(1)}, \cdots, v_{\sigma(j)} )
+   , v_{\sigma(j+1)} , \cdots , v_{\sigma(n)} ) = 0
   \right)
   \,.
 $$
