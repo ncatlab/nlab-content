@@ -242,4 +242,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[stable stem]]
 
+## Errata
+
+* p. 36, second line: on the rigth replace $p$ by $(p-1)$ (see end of the proof on the same page)
+
 category: reference
