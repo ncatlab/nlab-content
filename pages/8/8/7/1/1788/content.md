@@ -20,40 +20,45 @@ $$
 +-- {: .num_defn #CohomologySpectralSequence}
 ###### Definition
 
-
-A _cohomology spectral sequence_ $\{E_r^{p,q}\}$  _converging to a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$, denoted 
-
-$$
-  E_2^{\bullet,\bullet} \Rightarrow C^\bullet
-$$
-
-is
+A _cohomology [[spectral sequence]]_ $\{E_r^{p,q}, d_r\}$ is
 
 1. a sequence $\{E_r^{\bullet,\bullet}\}$ $r \in \mathbb{Z}$, $r \geq 2$ of [[bigraded object|bigraded]] [[abelian groups]];
 
 1. a sequence of [[differentials]] $\{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}$
 
-1. a decreasing [[filtration]]
-
-   $C^\bullet \supset \cdots \supset F^s C^\bullet \supset F^{s+1} C^\bullet \supset \cdots \supset 0$
-
 such that 
 
-1.  $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:
+* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$.
 
-    $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$;
+Given a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$ equipped with a decreasing [[filtration]]
 
-1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes contant on a group 
+$$
+  C^\bullet \supset \cdots \supset F^s C^\bullet \supset F^{s+1} C^\bullet \supset \cdots \supset 0$$
+
+such that
+
+$$
+  C^\bullet = \underset{s}{\cup} F^s C^\bullet \;\;\;\; and \;\;\;\; 0 = \underset{s}{\cap} F^s C^\bullet
+$$
+
+then the spectral sequence is said to _converge_ to  $C^\bullet$, denoted, 
+
+$$
+  E_2^{\bullet,\bullet} \Rightarrow C^\bullet
+$$
+
+if
+
+1.  in each bidegree $(s,t)$ the sequence $\{E_r^{s,t}\}_r$ eventually becomes constant on a group 
 
     $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
 
 1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
 
-   $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$
+   $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
-1. $C^\bullet = \underset{s}{\cup} F^s C^\bullet$ and $0 = \underset{s}{\cap} F^s C^\bullet$.
 
-This spectral sequence is called _multiplicative_ if 
+The converging spectral sequence is called _multiplicative_ if 
 
 1. $\{E_2^{\bullet,\bullet}\}$ is equipped with the structure of a [[bigraded object]] [[associative algebra|algebra]];
 
@@ -64,6 +69,147 @@ such that
 1. each $d_{r}$ is a [[derivation]] with respect to the (induced) algebra structure on ${E_r^{\bullet,\bullet}}$, graded of degree 1 with respect to total degree;
 
 1. the multiplication on $E_\infty^{\bullet,\bullet}$ is compatible with that on $C^\bullet$.
+
+=--
+
++-- {: .num_defn #ExactCoupleAndDerivedExactCouple}
+###### Definition
+
+An _[[exact couple]]_ is three [[homomorphisms]] of [[abelian groups]] of the form
+
+$$
+  \array{
+    D && \stackrel{g}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h}}
+    \\
+    && E
+  }
+$$
+
+such that the [[image]] of one is the [[kernel]] of the next.
+
+$$
+  im(h) = ker(f)\,,\;\;\; im(f) = ker(g)\,, \;\;\; im(g) = ker(f)
+  \,.
+$$
+
+Given an exact couple, then its _derived exact couple_ is
+
+$$
+  \array{
+    im(g) && \stackrel{g}{\longrightarrow} && im(g)
+    \\
+    & {}_{\mathllap{f}}\nwarrow && \swarrow_{\mathrlap{h \circ g^{-1}}}
+    \\
+    && H(E, h \circ f)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(cohomological spectral sequence of an exact couple)**
+
+Given an exact couple, def. \ref{ExactCoupleAndDerivedExactCouple}, 
+
+$$
+  \array{
+    D_1 && \stackrel{g_1}{\longrightarrow} && D_1
+    \\
+    & {}_{\mathllap{f_1}}\nwarrow && \swarrow_{\mathrlap{h_1}}
+    \\
+    && E_1
+  }
+$$
+
+its derived exact couple 
+
+$$
+  \array{
+    D_2 && \stackrel{g_2}{\longrightarrow} && D_2
+    \\
+    & {}_{\mathllap{f_2}}\nwarrow && \swarrow_{\mathrlap{h_2}}
+    \\
+    && E_2
+  }
+$$
+
+is itself an exact couple. Accordingly there is induced a sequence of exact couples 
+
+$$
+  \array{
+    D_r && \stackrel{g_r}{\longrightarrow} && D_r
+    \\
+    & {}_{\mathllap{f_r}}\nwarrow && \swarrow_{\mathrlap{h_r}}
+    \\
+    && E_r
+  }
+  \,.
+$$
+
+If the abelian groups $D$ and $E$ are equipped with [[bigraded object|bigrading]] such that
+
+$$
+  deg(f) = (0,0)\,,\;\;\;\; deg(g) = (-1,1)\,,\;\;\; deg(h) = (1,0)
+$$
+
+then $\{E_r^{\bullet,\bullet}, d_r\}$ with
+
+$$
+  \begin{aligned}
+    d_r & \coloneqq h_r \circ f_r
+     \\
+     & = h \circ g^{-r+1} \circ f
+  \end{aligned}
+$$
+
+is a cohomological spectral sequence, def. \ref{CohomologySpectralSequence}.
+
+If for each bidegree $(s,t)$ there exists $r_{s,t} \gg 1$ such that for all $r \geq r_{s,t}$ 
+
+1. $g \colon D^{s+r,t-r} \stackel{\simeq}{\longrightarrow} D^{s+r -1, t-r-1}$;
+
+1. $g\colon D^{s-r+1, t+r-2} \stackrel{0}{\longrightarrow} D^{s-r,t+r-1}$ 
+
+then this spectral sequence converges to the [[inverse limit]] group
+
+$$
+  G^\bullet \coloneqq \underset{}{\lim}
+  \left(
+    \cdots \stackrel{g}{\to} D^{s,\bullet-s} \stackrel{g}{\longrightarrow} D^{s-1, \bullet - s + 1}
+   \stackrel{g}{\to}
+   \cdots
+  \right)
+$$
+
+filtered by 
+
+$$
+  F^p G^\bullet \coloneqq ker(G^\bullet \to D^{p-1, \bullet - p+1})
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $X$ be a finite [[CW-complex]] and let $X \to B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} of the form
+
+$$
+  E_2^{p,q} = 
+  H^p(B, A^q(F)) \Rightarrow A^\bullet(X)
+  \,.
+$$ 
+
+
+=--
+
++-- {: .proof}
+###### Proof
 
 
 
@@ -154,5 +300,4 @@ $$
     & c \in  & \pi_{t-s}(A_s) && \underset{def: \;\;d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
   }
 $$
-
 
