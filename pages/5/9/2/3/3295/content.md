@@ -153,3 +153,8 @@ For $Y$ a [[smooth manifold]], the $f$-[[twisted cohomology]] of $X$ is classifi
 
 But in these applications, this 2-bundle is the restriction of an ambient 2-bundle classified by $\mathbf{c} : X \to \mathbf{B}^2 U(1)$ on a [[spacetime]] $X$ along an embedding $Y \hookrightarrow X$ of the [[D-brane]] [[worldvolume]]. Therefore the [[moduli stack]] of total field configurations consisting of the ambient [[B-field]] and the [[gauge field]] on the D-brane (see [[Freed-Witten anomaly]] for the details of this mechanism) is the $\infty$-groupoid of $(Y \hookrightarrow X)$-relative cocycles with coefficients in $(\mathbf{B}PU \to \mathbf{B}^2 U(1))$.
 
+## Related concepts
+
+* [[relative homology]]
+
+
