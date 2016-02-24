@@ -38,6 +38,8 @@ Later it was realized (see e.g. [Whitehead 62](#Whitehead62)) that this is usefu
 
 * [[Spanier-Whitehead duality]]
 
+* [[prestable (∞,1)-category]]
+
 ## References
 
 The definition is due to
