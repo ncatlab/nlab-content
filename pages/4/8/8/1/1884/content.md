@@ -453,9 +453,12 @@ Early lecture notes in a general context of [[stable homotopy theory]] and [[gen
 
 * {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
-Introductions are in
+Introductions include
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+
+* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+
  
 * {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_, 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  
