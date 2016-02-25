@@ -18,7 +18,7 @@
 
 ### General idea
 
-In [[physics]] the term _theory_ or _physical theory_ traditionally refers, somewhat vaguely, to a given set of notions and rules, usually formulated in the language of [[mathematics]], that describe how some [[physical system]] or class of physical systems behaves. Typically these systems are highely idealized, in that the theories describe only certain aspects.
+In [[physics]] the term _theory_ or _physical theory_ traditionally refers, somewhat vaguely, to a given set of notions and rules, usually formulated in the language of [[mathematics]], that describe how some [[physical system]] or class of physical systems behaves. Typically these systems are highly idealized, in that the theories describe only certain aspects.
 
 Often a given such theory depends on many free parameters. When a choice of such parameters is made or the range of the parameters is being restricted one tends to call the result a _[[model (in theoretical physics)]]_. For more on this see _[Theories and their Models](#TheoriesAndTheirModels)_ below.
 
