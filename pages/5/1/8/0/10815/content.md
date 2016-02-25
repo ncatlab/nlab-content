@@ -10,6 +10,10 @@
 +--{: .hide}
 [[!include algebraic topology - contents]]
 =--
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
 =--
 =--
 
@@ -23,6 +27,7 @@
 A [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]]:
 
 ## Statement
+ {#Statement}
 
 Let $R$ be a [[commutative ring]] and let
 
@@ -60,7 +65,7 @@ $$
 
 =--
 
-(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochmann 96, corollary 2.2.6](#Kochmann96))
+(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochmann96))
 
 +-- {: .proof}
 ###### Proof
@@ -197,6 +202,8 @@ $$
 
 =--
 
+(e.g. [Switzer 75, p. 356](#Switzer75))
+
 +-- {: .proof}
 ###### Proof
 
@@ -209,11 +216,17 @@ $$
 
 So when $E_\infty^{s,t} = 0$ the left morphism here is an [[isomorphism]].
 
-On the one hand we may use this to reduce the filtering degree:
+We may use this to either shift away the filtering degree
 
-if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s+t} \simeq C^{s+t}$.
+* if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s-1+t+1} = F^0 C^{s+t} \simeq C^{s+t}$.
 
-Similarly for $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = E_\infty^{s+t,0}$. 
+or to shift away the offset of the filtering to the total degree:
+
+* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = F^{s+t}C^{s+1+t-1} = F^{s+t}C^{s+t}$
+
+* if $t \lt 0$ then $F^{s}C^{s+t} = 0$.
+
+In particular $F^{s}C^{s} \simeq E_\infty^{s,0}$.
 
 Hence the defining exact sequence
 
@@ -221,15 +234,13 @@ $$
   0 \to F^{s+1}C^{s+n} \longrightarrow F^{s}C^{s+n} \longrightarrow E_\infty^{s,n} \to 0
 $$
 
-is 
+becomes
 
 $$
   0 \to E_\infty^{s+n,0} \longrightarrow C^{s+n} \longrightarrow E_\infty^{s,n}
  \to 0
   \,.
 $$
-
-
 
 =--
 
