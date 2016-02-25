@@ -23,6 +23,8 @@ You may also find me on
 
 ## Preprints
 
+* _The smooth loop stack of a differentiable stack_, [arXiv:1602.????](http://arxiv.org/abs/1602.????). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
@@ -63,8 +65,6 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 * _Homogeneous 2-bundles_
 
 * _From code loops to 2-groups_
-
-* _Smooth loop stacks of differentiable stacks and gerbes_, joint with Raymond Vozzo.
 
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
@@ -138,9 +138,13 @@ Appears in: Bulletin of the Australian Mathematical Society, Vol. 41 (2014) No. 
 
 ## Teaching 
 
+* 2016
+  
+  * Summer Semester : Maths 1B, Lecturer (Calculus), Tutor
+
 * 2015
 
-  * Summer Semester : Maths 1B, Lecturer
+  * Summer Semester : Maths 1B, Lecturer (Algebra), Tutor
 
 * 2014
 
