@@ -7,6 +7,8 @@
 
 A [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]]:
 
+## Statement
+
 Let $R$ be a [[commutative ring]] and let
 
 $$
@@ -21,21 +23,174 @@ $$
 
 be a [[fiber bundle]] of [[n-spheres]] over a [[simply connected topological space|simply connected]] [[simplicial complex]]. 
 
-Then there exists a [[Thom class]]  $c \in H^{n+1}(B; R)$ such that the [[cup product]] operation $(-) \cup c$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
++-- {: .num_prop }
+###### Proposition
+
+There exists a [[Thom class]]  $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
-  \cdots \to H^k(B; R) \stackrel{\pi^\ast}{\longrightarrow}
-  \stackrel{}{\longrightarrow}
+  \cdots 
+   \to 
+   H^k(B; R) 
+     \stackrel{\pi^\ast}{\longrightarrow}
+   H^k(E; R)
+    \stackrel{}{\longrightarrow}
    H^{k-n}(B;R)
-   \stackrel{(-)\cup c}{\longrightarrow}
+   \stackrel{c \cup (-)}{\longrightarrow}
    H^{k+1}(B; R)
    \to
    \cdots
   \,.
 $$
 
+=--
+
 (e.g. [Kochmann 96, corollary 2.2.6](#Kochmann96))
 
++-- {: .proof}
+###### Proof
+
+There is the corresponding [[Serre spectral sequence]] 
+
+$$
+  E_2^{s,t}
+  =
+  H^s(B; H^t(S^n;R))
+  \;\Rightarrow\;
+  H^{s+t}(E; R)
+  \,.
+$$
+
+Since the [[ordinary cohomology]] of the [[n-sphere]] [[fiber]] is concentrated in just two degees
+
+$$
+  H^t(S^n; R)
+  =
+  \left\{
+    \array{
+      R & for \; t= 0 \; and \; t = n
+      \\
+      0 & otherwise
+    }
+  \right.
+$$
+
+most terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, vanish. As a consequence, the only possible non-vanishing differentials $d_r$ are those on the $(n+1)$-page, of the form
+
+$$
+  \array{
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow
+     \\
+     E_{n+1}^{s+n+1,0} & \simeq &  H^{s+n+1}(B;R)
+  }
+  \,.
+$$
+
+Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is multiplicative under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
+
+To make use of this, write
+
+$$
+  \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
+$$
+
+for the unit in the cup product ring $H^\bullet(X;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that as such $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
+
+$$
+  c \coloneqq d_{n+1}(\iota) \in E_{n+1}^{n+1,0} \stackrel{\simeq}{\longrightarrow} H^{n+1}(B; R)
+$$
+
+for this element. This is the Thom class in question.
+
+Because, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$, and since $d_{n+1}$ is a [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$, it follows that its action is fixed by 
+
+$$
+  \begin{aligned}
+    d_{n+1}(\iota \cdot b)
+    & =
+    d_{n+1}(\iota) \cdot b + (-1)^{n} \iota \cdot \underset{= 0}{\underbrace{d_{n+1}(b)}}
+    \\
+    & = c \cdot b
+  \end{aligned}
+  \,.
+$$
+
+This shows that 
+
+$$
+  \array{
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
+     \\
+     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
+  }
+  \,.
+$$
+
+Hence the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
+
+$$
+  \array{
+     0
+     \\
+     \downarrow
+     \\
+     E_\infty^{s,n}
+     \\
+     {}^{\mathllap{ker(d_{n+1})}}\downarrow
+     \\
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
+     \\
+     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
+     \\
+     {}^{\mathllap{coker}(d_{n+1})}\downarrow
+     \\
+     E_\infty^{s+n+1,0}
+     \\
+     \downarrow
+     \\
+     0
+  }  
+  \,.
+$$
+
+Moreover, by the convergence of the [[Serre spectral sequence]], there are [[short exact sequences]] of the form
+
+$$
+  \array{
+     0 && && 0
+     \\
+     \downarrow && && \downarrow
+     \\
+     E_\infty^{s,0} &&  \simeq &&  F^s H^s(E; R)
+     \\
+     \downarrow && && \downarrow
+     \\
+     H^s(E; R) && = && H^s(E; R)
+     \\
+     \downarrow && && \downarrow
+     \\
+     E_\infty^{s-n,n} 
+       & \simeq & 
+     \frac{F^{s-n}H^s(E;R)}{F^{s-n+1}H^s(E;R)} 
+       & \simeq &
+     \frac{H^s(E;R)}{F^s H^s(E;R)}
+     \\
+     \downarrow && && \downarrow
+     \\
+     0 && && 0
+  }
+  \,.
+$$
+
+Concatenating these two collections of exact sequences yields the [[long exact sequence]] in question.
+
+=--
 
 ## Related concepts
 
@@ -62,4 +217,3 @@ $$
 
 [[!redirects Gysin exact sequence]]
 [[!redirects Gysin exact sequences]]
-
