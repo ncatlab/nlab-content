@@ -16,7 +16,52 @@
 
 ## Idea
 
-In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ ("Cartan-Eilenberg systems") are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$.
+In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ ("Cartan-Eilenberg systems") are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$. See also ([Switzer 75, section 15](#Switzer75)).
+
+## Definition
+
+A _Cartan-Eilenberg system_ $(H,\eta,\partial)$ consists of [[modules]] $H(p,q)$ for each $p\le q$, morphisms $\eta\colon H(p',q')\to H(p,q)$ for all $p\le p'$, $q\le q'$, and boundary morphisms $\partial\colon H(p,q) \to H(q,r)$ for all $p\le q\le r$, such that
+
+1. $\eta=\mathrm{id}\colon H(p,q)\to H(p,q)$,
+
+2. $\eta=\eta\circ\eta\colon H(p'',q'')\to H(p',q')\to H(p,q)$,
+
+3. $\eta$ and $\partial$ commute,
+
+4. there are long exact sequences $\cdots\to H(q,r)\stackrel\eta\to H(p,r)\stackrel\eta\to H(p,q)\stackrel\partial\to H(q,r)\to\cdots$.
+
+Subject to convergence conditions...
+
+
+The [[spectral sequence]] induced from $(H,\eta,\partial)$, is defined by
+
+$$
+  Z^r_p=\mathrm{im}\bigl(H(p,p+r)\stackrel\eta\to H(p,p+1)\bigr)\;,
+$$
+
+$$
+  B^r_p=\mathrm{im}\bigl(H(p-r+1,p)\stackrel\partial\to H(p,p+1)\bigr)\;,
+$$
+
+$$
+  E^r_p=Z^r_p/B^r_p\;,
+$$
+
+$$
+  d^r_p\colon Z^r_p/B^r_p\twoheadrightarrow Z^r_p/Z^{r+1}_p\cong
+B^{r+1}_{p+r}/B^r_{p+r}\hookrightarrow Z^r_{p+r}/B^r_{p+r}\;.
+$$
+
+In particular
+$$\ker(d^r_p)=Z^{r+1}_p/B^r_p\qquad\text{and}\qquad
+\mathrm{im}(d^r_p)=B^{r+1}_p/B^r_p\;.$$
+For $a=\eta(a_0)\in H(p,p+1)$, $a_0\in H(p,p+r)$, one has
+$$d^r_p([a])=[\partial a_0]\in E^r_p\qquad\text{with}\qquad\partial a_0\in H(p+r,p+r+1)\;.$$
+
+
+
+
+
 
 ## Examples
 
@@ -33,6 +78,9 @@ This case of the Cartan-Eilenberg spectral sequence came to be known as the _[[A
 ## References
 
 * {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
+
+* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 
 [[!redirects Cartan-Eilenberg spectral sequences]]
 
