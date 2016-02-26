@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homological algebra
++--{: .hide}
+[[!include homological algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -47,7 +57,7 @@ $$d^r_p([a])=[\partial a_0]\in E^r_p\qquad\text{with}\qquad\partial a_0\in H(p+r
 
 Let $(H,\eta,\partial)$, $(H',\eta',\partial')$ und $(H'',\eta'',\partial'')$ be [[Cartan-Eilenberg systems]]. A _spectral product_ $\mu\colon(H',\partial')\times(H'',\partial'')\to(H,\partial)$ is a sequence of maps
 $$\mu_r\colon H'(m,m+r)\otimes H''(n,n+r)\to H(m+n,m+n+r)$$
-such that for all $m$, $n$, $r\ge 1$, the following two diagrams commute.
+such that for all $m$, $n$, $r\ge 1$, the following two [[commuting diagram|diagrams commute]]:
 
 $$
   \array{
@@ -63,11 +73,13 @@ $$
   }
 $$
 
+and
+
 $$
   \array{
     H'(m, m+r) \otimes H''(n, n+r) &\stackrel{\mu_r}{\longrightarrow}& H(m+n,m+n+r)
     \\
-    \downarrow^{\mathrlap{\partial' \oplus \eta'' \oplus \eta' \otimes \partial''}}
+    \downarrow^{\mathrlap{\partial' \otimes \eta'' \oplus \eta' \otimes \partial''}}
     && 
     \downarrow^{\mathrlap{\partial}}
     \\
@@ -87,7 +99,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-The first diagram in def. \ref{SpectralProduct} is weaker than in ([Douady 58](#Douady58)). The second can be read as a Leibniz rule.
+The first diagram in def. \ref{SpectralProduct} is weaker than in ([Douady 58](#Douady58)). The second may be read as a [[Leibniz rule]].
 
 =--
 
@@ -95,7 +107,11 @@ The first diagram in def. \ref{SpectralProduct} is weaker than in ([Douady 58](#
 ###### Theorem
 
 A spectral product $\mu\colon(H',\partial')\times(H'',\partial'')\to(H,\partial)$ induces products
-$$\mu^r\colon E^{\prime r}_m\otimes E^{\prime\prime r}_n\to E^r_{m+n}\;,$$
+
+$$
+  \mu^r\colon E^{\prime r}_m\otimes E^{\prime\prime r}_n\to E^r_{m+n}\;,
+$$
+
 such that
 
 1. $\mu^1=\mu_1$
@@ -111,7 +127,7 @@ such that
 +-- {: .proof}
 ###### Proof
 
-Assume by induction that $\mu^r$ is induced by $\mu_1$. In particular,
+Assume by [[induction]] that $\mu^r$ is induced by $\mu_1$. In particular,
 $$Z^{\prime r}_m\otimes Z^{\prime\prime r}_n\stackrel{\mu_1}\to Z^r_{m+n}\;,$$
 $$B^{\prime r}_m\otimes Z^{\prime\prime r}_n\stackrel{\mu_1}\to B^r_{m+n}\;,$$
 $$Z^{\prime r}_m\otimes B^{\prime\prime r}_n\stackrel{\mu_1}\to B^r_{m+n}\;.$$
