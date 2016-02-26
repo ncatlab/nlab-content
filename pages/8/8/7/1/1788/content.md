@@ -1,4 +1,24 @@
 
+
+$$
+  \array{
+    H'(m, m+r) \otimes H''(n, n+r) &\stackrel{\mu_r}{\longrightarrow}& H(m+n,m+n+r)
+    \\
+    \downarrow^{\mathrlap{\partial' \oplus \eta'' \oplus \eta' \otimes \partial''}}
+    && 
+    \downarrow^{\mathrlap{\partial}}
+    \\
+    H'(m+r, m+r+1) \otimes H''(n,n+1) 
+    \\
+    \oplus     &\stackrel{\mu_1 + \mu_1}{\longrightarrow}& 
+    H_{p+q-1}(m+n+r, m+n+r+1)
+    \\
+    H'(m,m+1) \otimes H''(n+r, n+r+1)
+  }
+  \,.
+$$
+
+
 $$
   \begin{aligned}
     d_{res} \mu_{Dp}
