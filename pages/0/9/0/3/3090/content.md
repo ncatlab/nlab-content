@@ -24,4 +24,8 @@ This condition is a special case of that for a [[Hurewicz fibration]].
 
 The Serre fibrations serve as the abstract [[fibrations]] in the standard [[model structure on topological spaces]].
 
+## Related concepts
+
+* [[Serre spectral sequence]]
+
 [[!redirects Serre fibrations]]
