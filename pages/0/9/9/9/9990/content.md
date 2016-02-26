@@ -150,6 +150,10 @@ More on this is in
 
 * Sujay K. Ashok, Jan Troost, _A Twisted Non-compact Elliptic Genus_, JHEP 1103:067,2011 ([arXiv:1101.1059](http://arxiv.org/abs/1101.1059))
 
+Refinement of the Ochanine genus to a homomorphism of [[ring spectra]] (in analogy to the lift of the [[Witten genus]] to the [[string orientation of tmf]]) is considered in
+
+* [[Dylan Wilson]], _Orientations and Topological Modular Forms with Level Structure_ ([arXiv:1507.05116](http://arxiv.org/abs/1507.05116))
+
 [[!redirects elliptic genera]]
 
 [[!redirects Ochanine genus]]
