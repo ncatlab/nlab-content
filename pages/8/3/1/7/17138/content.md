@@ -3769,9 +3769,9 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #AHSSExistence}
 ###### Proposition
-**(Serre-Cartan-Eilenberg-Atiyah-Hirzebruch spectral sequence)**
+**(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
 Let $A$ be a [[generalized (Eilenberg-Steenrod) cohomology]] functor such that $A^\bullet(\ast)$ is bounded below. Let $B$ be a [[simply connected topological space|simply connected]] finite [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with fibers $F$. Then there is a cohomology spectral sequence, def. \ref{CohomologySpectralSequence} whose $E_2$-page is the [[ordinary cohomology]] of $B$ with [[coefficients]] in the $A$-[[generalized cohomology]] of the fiber, and which converges to the $A$-cohomology of the total space
 
@@ -3857,8 +3857,18 @@ where we used the relation to [[reduced cohomology]] $\tilde A$, and the [[wedge
 
 Hence to conclude it remains to show that on this group the differential $d_1$ coincides with the differential in the [[singular simplicial complex]]. This takes a tad of fiddling, see for instance ([Kochman 96, pages 124-125](#Kochman96)).
 
+=--
+
++-- {: .num_prop #AHSSForMultiplicativeCohomologyIsMultiplicative}
+###### Proposition
+
+For $A$ a [[multiplicative cohomology theory]], then the 
+Atiyah-Hirzebruch spectral sequences for $A^\bullet(X)$ are
+[[multiplicative spectral sequences]].
 
 =--
+
+See the proof at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
 
 
 ### **Part S2) Cobordism theory**
@@ -3972,7 +3982,7 @@ $\,$
 
 
 
-**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-[[associated vector bundles]] inherit an orientation.
+**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-[[associated bundle|associated]] [[vector bundles]] inherit an orientation.
 
 Considering this for $G = U(n)$ the [[unitary groups]] yields the concept of _[[complex oriented cohomology theory]]_. 
 
@@ -4083,7 +4093,7 @@ $$
   \,.
 $$
 
-Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
+Now since the [[coefficients]] $R$ is a [[ring]], then by prop. \ref{AHSSForMultiplicativeCohomologyIsMultiplicative} the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
 
 To make use of this, write
 
