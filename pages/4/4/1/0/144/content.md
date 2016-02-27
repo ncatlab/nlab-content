@@ -25,7 +25,7 @@ Very generally,
 
   $A : C \to Set$:
 
-  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", this are generalized quantities.
+  we think of each such copresheaf $A$ as a rule that assigns to each test space $U \in C$ the set $A(U)$ of allowed maps from a would-be space _into_ $U$, hence as the collection of $U$-valued _functions_ on $X$. Since a function on a point is a "quantity", these are generalized quantities.
 
 Typically the admissible (co)presheaves that are regarded as generalized spaces and quantities modeled on $C$ are required to respect certain properties of $C$:
 
