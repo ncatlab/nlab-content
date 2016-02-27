@@ -1,0 +1,7 @@
+[webpage](http://www.cse.chalmers.se/~aarne/)
+
+##Related pages
+
+* [[dependent type theoretic methods in natural language semantics]]
+
+category: people
