@@ -43,7 +43,9 @@ The [[classifying topos]] for subterminal objects (hence open objects) in [[topo
 
 ## Examples
 
-The subterminal objects in a [[topos]] can be viewed as its "external [[truth value]]s."  For example, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a [[topological space]] $X$, the subterminal objects are precisely the open sets in $X$.
+The subterminal objects in a [[topos]] can be viewed as its "external [[truth value]]s."  For example, in the topos $Sh(X)$ of [[sheaf|sheaves]] on a [[topological space]] $X$, the subterminal objects are precisely the open sets in $X$. 
+
+The *support* of an object $X$ in a topos is the [[image]] $U \hookrightarrow 1$ of the unique map $X \to 1$. Any map $U \to X$ is necessarily a section of $X \to U$. 
 
 ## References
 
