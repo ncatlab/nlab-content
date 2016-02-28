@@ -49,10 +49,7 @@ $$
 
 Of course, there is nothing special about groups here.  The same style of definition works for any [[variety of algebras]] in the sense of universal algebra, where $C coAlg_T \coloneqq (C^{op}Alg_T)^{op}$. 
 
-+-- {: .un_remark} 
-###### Warning 
-There are potential terminological clashes. The concept of [[comonoid]] for example makes sense in any [[monoidal category]], a concept more general than taking the "co" of monoid objects in the sense of the present article. Specializing to a case where the monoidal product is different to coproduct, we get a very different notion of comonoid. 
-=-- 
+Some terminological care should be taken in the case of [[comonoid]], which makes sense in any [[monoidal category]], not just cocartesian monoidal categories which is the general default environment for discussing co-$T$-algebras. Thus, check with the author to see which monoidal product is meant; in the case of comonoid it's likely that it's *not* the cocartesian notion that is intended. Whereas in the case of cogroups, confusion is not so likely: one needs the cocartesian structure (codiagonals, etc.) essentially because the axioms of a group involve duplication of variables, whereas this is not the case for axioms of a monoid. (Cf. the distinction between [[operad]] and [[Lawvere theory]], where the latter can be viewed as a kind of "cartesian operad".) 
 
 
 ## Examples ##
