@@ -16,7 +16,7 @@
 
 ## Idea
 
-Gievn a (cohomological) [[spectral sequence]] $(E_r^{p,q})$ there are natural morphisms
+Given a (cohomological) [[spectral sequence]] $(E_r^{p,q})$ there are natural morphisms
 
 $$
   E_2^{n,0} \longrightarrow E^n
