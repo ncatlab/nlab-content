@@ -113,7 +113,7 @@ See also at _[[path groupoid]]_ for similar constructions.
 +-- {: .num_defn}
 ###### Definition
 
-For $X$ a topological space and $x \in X$ a point, the set of based homotopy equivalence classes of based loops in $X$ equipped with the group structure from prop. \ref{GroupStructure} is the **fundamental group** or **first [[homotopy group]]**of $(X,x)$, denoted
+For $X$ a topological space and $x \in X$ a point, the set of based homotopy equivalence classes of based loops in $X$ equipped with the group structure from prop. \ref{GroupStructure} is the **fundamental group** or **first [[homotopy group]]** of $(X,x)$, denoted
 
 $$
   \pi_1(X,x) \in Grp
@@ -207,7 +207,7 @@ See at _[singular homology -- Relation to homotopy groups](singular%20homology#R
 
 ### Relation to universal covers and Galois groups
 
-There is a relation to [[universal cover|universal covers]]: Under suitable conditions the group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is the topicof the _[[étale fundamental group]]_, also referred to at _[[Chevalley fundamental group]]_, see there for more.
+There is a relation to [[universal cover|universal covers]]: Under suitable conditions the group of cover automorphisms of a universal cover is isomorphic to the fundamental group of the covered space. This is the topic of the _[[étale fundamental group]]_, also referred to at _[[Chevalley fundamental group]]_, see there for more.
 
 In particular in [[algebraic geometry]] and [[arithmetic geometry]] this essentially identifies the concept of fundamental group with that of _[[Galois groups]]_. For this reason one also speaks of the _[[algebraic fundamental group]]_ in this context. See at _[[Galois theory]]_ for more on this. 
 
