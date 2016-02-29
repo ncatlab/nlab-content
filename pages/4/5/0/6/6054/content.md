@@ -32,7 +32,7 @@ Moreover, the factorization of a given geometric morphism $f : \mathcal{E} \to \
 
 $$
   \array{
-     \mathcal{E} &&\stackrel{f}{\to}&& \mathcal{E}
+     \mathcal{E} &&\stackrel{f}{\to}&& \mathcal{F}
      \\
      & {}_{\mathllap{F}}\searrow && \nearrow
      \\
