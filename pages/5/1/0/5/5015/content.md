@@ -32,7 +32,7 @@ A [[topological groupoid]] or [[Lie groupoid]] $C$ is called an **&#233;tale gro
 
 In the situation of def. \ref{PlainDefinition} it follows that all the other structure maps ([[codomain|target]], [[identity]], [[composition]]) are also local homeomorphisms, resp. local diffeomorphisms.
 
-This means that an &#233;tale groupoid is equivakentlly [[internal groupoid]] in the [[category]] whose objects are [[topological spaces]]/[[smooth manifold]]s and whose [[morphisms]] are local homeomorphisms/diffeomorphisms.
+This means that an &#233;tale groupoid is equivalently an [[internal groupoid]] in the [[category]] whose objects are [[topological spaces]]/[[smooth manifold]]s and whose [[morphisms]] are local homeomorphisms/diffeomorphisms.
 
 =--
 
