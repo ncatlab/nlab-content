@@ -16,7 +16,7 @@
 
 ## Idea
 
-In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ ("Cartan-Eilenberg systems") are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$. See also ([Switzer 75, section 15](#Switzer75)).
+In ([Cartan-Eilenberg 56, XV.7](#CartanEilenberg56)) axioms for certain systems of bigraded [[modules]] $H(p,q)$ ("Cartan-Eilenberg systems") are given which imply the existence of a [[spectral sequence]] converging to $H(-\infty,\infty)$. See also ([Switzer 75, section 15, 1-7](#Switzer75)).
 
 ## Definition
 
