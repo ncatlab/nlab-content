@@ -315,6 +315,8 @@ concludes that the lower square above also commutes.
 
 * {#Gray80} Brayton Gray, _Products in the Atiyah-Hirzebruch spectral sequence and the calculation of $M SO_\ast$, Trans. Amer. Math. Soc. 260 (1980), 475-483 ([web](http://www.ams.org/journals/tran/1980-260-02/S0002-9947-1980-0574793-9/))
 
+* {#Kochmann96} [[Stanley Kochmann]], prop. 4.2.9 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#McCleary00} [[John McCleary]], section 2.3 in _A User's Guide to Spectral Sequences_, Cambridge University Press (2000)
 
 * {#Dugger03a} [[Daniel Dugger]], _Multiplicative structures on homotopy spectral sequences I_ ([arXiv:math/0305173](http://de.arxiv.org/abs/math/0305173))
