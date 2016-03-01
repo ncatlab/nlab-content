@@ -60,6 +60,9 @@ The [[long exact sequences of homotopy groups]] for each of the hooks in the tow
 
 ## References
 
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], chapter IX of _Homotopy limits, completions and localization_, Springer 1972
+
+
 * [[Paul Goerss]], [[Rick Jardine]], chapter VI of _[[Simplicial homotopy theory]]_, 1996
 
 [[!redirects towers of homotopy fibers]]
