@@ -1,9 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 Any [[braided monoidal category]] has a [[natural isomorphism]]
 
-$$B_{x,y} : x \otimes y \to y \otimes x $$
+$$B_{x,y} \;\colon\; x \otimes y \to y \otimes x $$
 
 called the **braiding**.
 
 A braided monoidal category is [[symmetric monoidal category|symmetric]] if and only if $B_{x,y}$ and $B_{y,x}$ are [[inverses]] (although they are isomorphisms regardless).
 
-For example, in [[Vect]], the braiding maps $a \otimes b$ (a typical generator of $x \otimes y$) to $b \otimes a$. But a braiding is most interesting when it does *not* look like something trivial like that.
+## Examples
+
+In [[Vect]] or [[Mod]], the braiding maps elements $a\otimes b$ of a [[tensor product of modules]] $X \otimes Y$ to $b \otimes a$. 
+
+For the [[tensor product of chain complexes]] or that of [[super vector spaces]] there is in addition a sign $a \otimes b \mapsto (-1)^{deg(a) deg(b)} (b \otimes a)$.
+
+[[!redirects braidings]]
