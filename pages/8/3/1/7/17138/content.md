@@ -3868,7 +3868,7 @@ Atiyah-Hirzebruch spectral sequences for $A^\bullet(X)$ are
 
 =--
 
-See the proof at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
+A decent proof is spelled out in ([Kochman 96, prop. 4.2.9](#Kochman96)). Use the [graded commutativity of smash products of spheres](smash+product+of+spectra#GradedCommutativity) to get the sign in the graded derivation law for the differentials. See also the proof at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.
 
 
 ### **Part S2) Cobordism theory**
