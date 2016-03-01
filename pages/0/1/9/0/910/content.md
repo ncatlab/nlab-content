@@ -138,7 +138,7 @@ Compactly generated spaces are discussed by J. L. Kelley in his book
 
 A comprehensive account careful about the (weakly) Hausdorff assumptions when needed/wanted is in the lecture notes
 
-* [[Neil Strickland]], _The category of CGWH spaces_ ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
+* {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
 Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
 
