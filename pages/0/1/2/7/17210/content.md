@@ -204,6 +204,8 @@ e.g. ([Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
 * {#Milnor62} [[John Milnor]], _On axiomatic homology theory_, Pacific J. Math.
 Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036730))
 
+* {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], section IX.2 of _Homotopy limits, completions and localization_, Springer 1972
+
 * {#Weibel94} [[Charles Weibel]], section 3.5 of _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994)
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
