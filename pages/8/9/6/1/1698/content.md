@@ -142,37 +142,135 @@ $$
 are (homotopy) pullback squares.
 
 ### Long fibration sequences
+ {#ContinuingToLongFiberSequences}
 
-Continuing this way to the left, we obtain a long sequence of morphisms to the left
+Continuing this way to the left with the [[pasting law]], we obtain a long fiber sequence of morphisms to the left of the form
 
 $$
   \cdots
-  \to
+    \to
   \Omega ker(f)
-  \to
-  \Omega A \stackrel{\bar \Omega f}{\to}
-  \Omega B \to ker(f) \to A \stackrel{f}{\to} B
+    \longrightarrow
+  \Omega A 
+    \stackrel{\Omega f}{\longrightarrow}
+  \Omega B 
+    \longrightarrow 
+  ker(f) 
+    \stackrel{g}{\longrightarrow}
+  A 
+    \stackrel{f}{\longrightarrow} B
   \,.
 $$
 
-Here the $\bar \Omega$ indicates that the map involves reversing the direction of loops. This comes about by looking closely at the pullback diagrams that this comes from
+A subtlety to be aware of here is that $\Omega B$ is not quite $ker(ker(f))$, but the latter instead is $\bar \Omega f$, where $\bar \Omega$ denotes loops with reversed orientation.
+
+A classical discussion of this in terms of computing homotopy fibers via [[path object]] fibrant replacements is e.g. in
+([Switzer 75, around 2.57](#Switzer75)). But let's see it just diagrammatically:
+
+First observe that it is indeed $\Omega f$ and not $\bar \Omega f$ that appears in the above: by "bending around" the bottom left "$\ast \to $" we get
 
 $$
   \array{
-    \Omega(A) &\to& {*}
+    \Omega A &\longrightarrow& \ast
     \\
-    \downarrow^{\mathrlap{\bar \Omega f}} && \downarrow
+    \downarrow^{\mathrlap{\Omega f}} && \downarrow
     \\
-    \Omega B &\to& ker(f) &\to& {*}
+    \Omega B & \longrightarrow & ker(f) &\longrightarrow& \ast
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow && \downarrow^{\mathrlap{g}} && \downarrow
     \\
-    {*} &\to &A &\stackrel{f}{\to}& B
+    \ast &\longrightarrow & A &\stackrel{f}{\longrightarrow}& B
   }
+  \;\;\;\;\;
+  \simeq  
+  \;\;\;\;\;
+  \left(
+  \array{
+    \ast &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow^{\mathrlap{g}} && \downarrow
+    \\
+    A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \uparrow && \uparrow
+    \\
+    \ast &\longrightarrow& \ast
+  }
+  \right)
+  \stackrel{\underset{\longleftarrow}{\lim}}{\mapsto}
+  \left(
+    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
+  \right)
   \,.
 $$
 
-Again, all squares and all pasting squares appearing here are homotopy pullback squares. If we had labeled the two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
+On the other hand, if we define the homotopy fiber of any morphism $\phi$ by the diagram
+
+$$
+  \array{
+    ker(\phi) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    & \stackrel{\phi}{\longrightarrow} & 
+  }
+$$
+
+then $ker(g)$ is given by the diagram
+
+$$
+  \array{
+    ker(g) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+$$
+
+but what appears in the above pasting diagram is instead this diagram "reflected at the diagonal axis"
+
+$$
+  \array{
+    ker(g) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    \Omega B &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \left(
+  \array{
+    \Omega B &\longrightarrow& ker(f)
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& A
+  }
+  \right)^{-1}
+$$
+
+Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Since it is these 2-morphisms/homotopies that become the loops in the loop space, it is here that loop reversal appears in translating between the naive iterated homotopy fiber to the construction that actually appears in the above pasting composite.
+
+
+
+ 
 
 
 ### Long exact sequences in cohomology {#LongSequCoh}
@@ -775,6 +873,8 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 ## References
 
 Classical accounts include
+
+* {#Switzer75} [[Robert Switzer]], around 2.57 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
