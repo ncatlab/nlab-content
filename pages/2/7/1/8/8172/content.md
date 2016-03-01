@@ -1184,6 +1184,8 @@ See the [references below](#ReferencesHopfAlgebroidStructure).
 
 * [[Adams-Novikov spectral sequence]]
 
+* [[Bousfield-Kan spectral sequence]]
+
 * [[May spectral sequence]], [[chromatic spectral sequence]]
 
 * [[Steenrod algebra]]
