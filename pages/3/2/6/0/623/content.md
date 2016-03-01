@@ -50,7 +50,7 @@ Given a [[simplicial group]] $G$, its _[[normalized chain complex]]_ or _Moore c
 * with differential given by the remaining 0-face map
 
   $$
-   \partial_n := d_0^n|_{(N G)_n} : (N G)_n \rightarrow (N G)_{n-1}
+   \partial_n \coloneqq d_0^n|_{(N G)_n} : (N G)_n \rightarrow (N G)_{n-1}
    \,.
   $$ 
 
@@ -146,7 +146,7 @@ For $A$ a [[simplicial abelian group]] its **alternating face map complex** $(C 
 * in degree $n$ is given by the group $A_n$ itself
 
   $$
-    (C A)_n := A_n
+    (C A)_n \coloneqq A_n
   $$
 
 
@@ -235,7 +235,7 @@ For $A$ a [[simplicial abelian group]] its **alternating face maps chain complex
   the degenerate elements, def. \ref{DegenerateElement}:
 
   $$
-    ((C A)/D(A))_{n+1} := A_{n+1} / D(A_{n+1})
+    ((C A)/D(A))_{n+1} \coloneqq A_{n+1} / D(A_{n+1})
   $$
 
 * whose [[differential]] is the induced action of the alternating sum of faces on the quotient (which is well-defined by lemma \ref{LeftCosetsDisjoint}).
@@ -374,7 +374,7 @@ is a [[natural transformation|natural]] [[quasi-isomorphism]] and in fact a natu
 Following the proof of ([Goerss-Jardine, theorem III 2.1](#GoerssJardine)) we look for each $n \in \mathbb{N}$ and each $j \lt n$ at the  groups
 
 $$
-  N_n(A)_j :=  \cap_{i=0}^j ker (d_i) \subset A_n
+  N_n(A)_j \coloneqq  \cap_{i=0}^j ker (d_i) \subset A_n
 $$
 
 and similarly at
