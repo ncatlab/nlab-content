@@ -161,7 +161,7 @@ $$
   \array{
     \Omega(A) &\to& {*}
     \\
-    \downarrow^{\bar \Omega f} && \downarrow
+    \downarrow^{\mathrlap{\bar \Omega f}} && \downarrow
     \\
     \Omega B &\to& ker(f) &\to& {*}
     \\
@@ -172,7 +172,7 @@ $$
   \,.
 $$
 
-Again, all squares and all pasting squares appearing here are homotopy pullback squares. If I had labeled to two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
+Again, all squares and all pasting squares appearing here are homotopy pullback squares. If we had labeled the two morphisms to the point out of the loop object one would see that $\bar \Omega f$ indeed reverses orientation of loops. 
 
 
 ### Long exact sequences in cohomology {#LongSequCoh}
