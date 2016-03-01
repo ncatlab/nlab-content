@@ -43,24 +43,96 @@ See also at _[[functor with smash products]]_.
 ## Properties
 
 ### Graded commutativity
+ {#GradedCommutativity}
 
-The smash product of spectra exhibits a certain graded commutativity akin to, but more subtle than, the graded commutativity in the [[tensor product of chain complexes]] (in fact, under the [[stable Dold-Kan correspondence]] the latter maps to the former).
+The smash product of spectra exhibits a certain graded commutativity akin to the graded commutativity in the [[tensor product of chain complexes]] (in fact, under the [[stable Dold-Kan correspondence]] the latter maps to the former).
 
 This comes down to the following basic fact about the [[smash product]] of [[pointed topological spaces]]:
 
-under a fixed identification $S^2 \simeq S^1 \wedge S^1$ then the symmetry [[homeomorphism]] $\tau \colon S^1 \wedge S^1 \longrightarrow S^1 \wedge S^1$ is identified with a map $S^2 \longrightarrow S^2$ of [[degree of a continuous function|degree]] $-1$
++-- {: .num_prop}
+###### Proposition
+
+There are [[homeomorphisms]]
+
+$$
+  \phi_{n_1,n_2}
+  \;\colon\;
+  S^{n_1} \wedge S^{n_2}
+  \stackrel{\simeq}{\longrightarrow}
+  S^{n_1 + n_2}
+$$
+
+such that in [[Ho(Top)]] there are [[commuting diagrams]] like so:
 
 $$
   \array{
-    S^1 \wedge S^1 \stackrel{\tau}{\longrightarrow} S^1 \wedge S^1
+    (S^{n_1} \wedge S^{n_2}) \wedge S^{n_3}
+    &&\stackrel{\simeq}{\longrightarrow}&&
+    S^{n_1} \wedge (S^{n_2} \wedge S^{n_3})
     \\
-    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}}
+    {}^{\mathllap{\phi_{n_1,n_2} \wedge id}}\downarrow 
+    && && \downarrow^{\mathrlap{id \wedge \phi_{n_2,n_3}}}
     \\
-    S^2 &\stackrel{-1}{\longrightarrow} & S^2 
+    S^{n_1+n_2} \wedge S^{n_3}
+    && &&
+    S^{n_1}\wedge S^{n_2 + }
+    \\
+    & {}_{\mathllap{\phi_{n_1+n_2, n_3}}}\searrow && \swarrow_{\mathrlap{\phi_{n_1,n_2+n_3}}}
+    \\
+    && 
+    S^{n_1+n_2 + n_3}
   }
   \,.
 $$
 
+and
+
+$$
+  \array{
+    S^{n_1} \wedge S^{n_2}
+    &\stackrel{b_{n_1,n_2}}{\longrightarrow}&
+    S^{n_2} \wedge S^{n_1}
+    \\
+    {}^{\mathllap{\phi_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\phi_{n_2,n_1}}}
+    \\
+    S^{n_1 + n_2}
+    &\stackrel{(-1)^{n_1 n_2}}{\longrightarrow}&
+    S^{n_1 + n_2}
+  }
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+With the [[n-sphere]] $S^n$ realized as the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$, then $\phi_{n_1,n_2}$ is given by the identity on [[coordinates]] and the [[braiding]] homeomorphism
+
+$$
+  b_{n_1,n_2}
+  \;\colon\;
+  S^{n_1} \wedge S^{S^2}
+  \stackrel{\sigma}{\longrightarrow}
+  S^{n_2} \wedge S^{n_2}
+$$
+
+is given by permuting the [[coordinates]]:
+
+$$
+  (x_1, \cdots, x_{n_1}, y_1, \cdots, y_{n_2})
+  \mapsto
+  (y_1, \cdots, y_{n_2}, x_1, \cdots, x_{n_1})
+  \,.
+$$
+
+This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
+
+=--
+
+This statement passes to the [[suspension spectra]] $\Sigma^\infty S^n$ of the spheres ([Adams 74, part III, prop. 4.8](#Adams74)).
 
 
 
