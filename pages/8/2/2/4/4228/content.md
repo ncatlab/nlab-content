@@ -314,11 +314,6 @@ With an eye towards [[Frölicher space]]s the site is also considered in section
 
 * Hirokazu Nishimura, _Beyond the Regnant Philosophy of Manifolds_ ([arXiv:0912.0827](http://arxiv.org/abs/0912.0827))
 
-Discussion of [[manifolds with boundary]] (and of their gluing along infinitesimal collars) in the Cahiers topos is in 
-
-* {#Schlegel15} [[Vincent Schlegel]], _Gluing Manifolds in the Cahiers Topos_ ([arXiv:1503.07408](http://arxiv.org/abs/1503.07408))
-
-
 The [[(∞,1)-topos]] analog of the Cahiers topos ([[synthetic differential ∞-groupoids]]) is discussed in section 3.4 of
 
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
