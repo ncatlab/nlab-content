@@ -622,7 +622,8 @@ $[\Delta^n, \Pi(X)] \to [\Lambda^n_k,\Pi(X)]$ is an epimorphism, since it is equ
 
 ### Geometric realization
 
-Next we discuss that the functor $Sing \colon Top \longrightarrow sSet$ of def. \ref{SingularSimplicialComplex} has a [[left adjoint]], given by [[geometric realization]] (see also at _[[nerve and realization]]_).
+Above we considered passing from [[topological spaces]] to [[simplicial sets]] by applying the [[singular simplicial complex]] functor of def. \ref{SingularSimplicialComplex}.
+Here we discuss a [[left adjoint]] of this functor, called [[geometric realization]], which turns a simplicial set into a topological space by identifying each of its abstract [[n-simplices]] with the standard topological $n$-simplex. 
 
 This is an example of a general abstract phenomenon:
 
@@ -729,6 +730,9 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 (e.g. [Goerss-Jardine 96, chapter I, prop. 2.3](#GoerssJardine96))
 
+Thus for a topological space $X$ the [[unit of an adjunction|adjunction unit]] $X \longrightarrow {\vert Sing X\vert}$ is a candidate for a good replacement of $X$ by a CW-complex. This turns out to work well away from topological spaces with certain pathologies. We now discuss the nice subcategory of compactly generated topological spaces.
+
+
 +-- {: .num_defn #kTop}
 ###### Definition
 
@@ -783,13 +787,13 @@ By example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} and prop. \ref{Top
 
 =--
 
-+-- {: .num_prop #kTopIsReflectiveInTop}
++-- {: .num_prop #kTopIsCoreflectiveInTop}
 ###### Proposition
 
-Compactly generated topological spaces constitute a [[reflective subcategory]]
+Compactly generated topological spaces constitute a [[coreflective subcategory]]
 
 $$
-  k Top \stackrel{\overset{k}{\longleftarrow}}{\hookrightarrow} Top
+  k Top \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
   \,.
 $$
 
