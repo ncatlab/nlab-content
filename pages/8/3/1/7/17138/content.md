@@ -783,7 +783,7 @@ By example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} and prop. \ref{Top
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #kTopIsReflectiveInTop}
 ###### Proposition
 
 Compactly generated topological spaces constitute a [[reflective subcategory]]
@@ -795,6 +795,7 @@ $$
 
 =--
 
+
 +-- {: .num_defn #Timesk}
 ###### Definition
 
@@ -802,32 +803,24 @@ For $X,Y \in k Top$, write
 
 $$
   X \times_k Y \coloneqq k(X \times Y)
-  \,.
 $$
+
+for the completion of the [[cartesian product]] of $X$ and $Y$ as topological spaces to a compactly generated topological space via the reflector of prop. \ref{kTopIsReflectiveInTop}.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #kTopIsCartesianClosed}
 ###### Proposition
 
-$(kTop, \times_k)$ (def. \ref{kTop}, def. \ref{Timesk}) is a [[closed monoidal category]].
+$(kTop, \times_k)$ (def. \ref{kTop}, def. \ref{Timesk}) is a [[cartesian closed category]].
 
 =--
 
 +-- {: .num_defn #Timesk}
 ###### Definition
 
-Regarded via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to k Top$, [[geometric realization]] sends the [[Cartesian product]] of [[simplicial sets]] to the product $\times_k$ in $k Top$ from def. \ref{Timesk}. Hence it constitutes a [[strong monoidal functor]] of the form
-
-$$
-  {\vert- \vert}
-  \colon
-  (sSet, \times)
-   \longrightarrow
-  (k Top, \times_k)
-  \,.
-$$
-
+Regarded via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to k Top$, [[geometric realization]] 
+preserves [[finite limits]].
 
 =--
 
