@@ -1,2 +1,9 @@
-Selcan Aksoy
+[[!redirects selcan aksoy]]
+Selcan Aksoy is at Florida State University.
+
+* [Homepage](http://www.math.fsu.edu/People/faculty.php?id=883)
+
+
+
+
 Category: people
