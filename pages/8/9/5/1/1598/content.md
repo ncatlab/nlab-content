@@ -219,7 +219,7 @@ Volume 7 (1997) 61-99 ([pdf](http://www.heldermann-verlag.de/jlt/jlt07/MICHPL.PD
 
 * Rudolf Schmid, _Infinite-Dimensional Lie Groups and Algebras in Mathematical Physics_ Advances in Mathematical Physics Volume 2010, ([pdf](http://www.emis.de/journals/HOA/AMP/Volume2010/280362.pdf))
 
-* Josef Teichmann, _Innite dimensional Lie Theory from the point of view of Functional Analysis_ ([pdf](http://www.math.ethz.ch/~jteichma/diss.pdf))
+* Josef Teichmann, _Infinite dimensional Lie Theory from the point of view of Functional Analysis_ ([pdf](http://www.math.ethz.ch/~jteichma/diss.pdf))
 
 * [[Karl-Hermann Neeb]], _Monastir summer school: Infinite-dimensional Lie groups_ ([pdf](http://www.math.uni-hamburg.de/home/wockel/data/monastir.pdf))
 
