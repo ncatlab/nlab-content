@@ -21,7 +21,7 @@
 
 In the presence of a notion of [[fibration]] and a given class of such, a morphism is called _anodyne_ if it has the [[left lifting property]] against all these.
 
-The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms are equivalent to [[acyclic cofibration]] in the standard [[model structure on simplicial sets]].
+The standard example, often taken to be the default, is that of morphisms in the category [[sSet]] of [[simplicial sets]] which have the left lifting property against all [[Kan fibrations]]. In this case, anodyne morphisms are equivalent to [[acyclic cofibrations]] in the standard [[model structure on simplicial sets]].
 
 Typically one says _anodyne morphism_ or, actually, _anodyne extension_ if one thinks of these morphisms produced by [[retracts]] and [[transfinite composition]] of [[pushouts]] of a certain generating set of morphisms.
 
