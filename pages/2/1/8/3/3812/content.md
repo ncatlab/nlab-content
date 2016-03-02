@@ -15,6 +15,7 @@ $$\int^{n \in \Delta} X(n) \cdot \sigma(n)$$
 where $\sigma: \Delta \to Top$ is the standard affine [[simplex]] functor. Provided that $Top$ is interpreted as a [[nice category of spaces]] (such as $CGHaus$ -- see the discussion at [[geometric realization]]), the functor $R$ is left exact, and in particular preserves products.
 
 ### Standard affine simplex functor
+ {#StandardAffineSimplexFunctor}
 
 There are various ways of understanding the affine simplex functor $\sigma: \Delta \to Top$ from a categorical perspective. (Note: in this article we will be working with the algebraist's version of the simplex category $\Delta$, namely the category of finite ordinals and order-preserving maps, including the initial or empty object which represents a (-1)-dimensional simplex. The $n$-element ordinal is conventionally, but perhaps unfortunately, denoted $[n-1]$, to indicate the dimension.)
 
