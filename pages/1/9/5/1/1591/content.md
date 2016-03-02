@@ -39,11 +39,11 @@ The dual notion is a [[codiscrete object]].
 
 ### Discrete geometric spaces
 
-The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This is the [[discrete topology]] on $X$.  If $X$ is discrete in this sense, then its [[diagonal map]] $X \times X \to X$ is [[open map|open]]; the converse holds if $X$ satisfies the $T_0$ [[separation axiom]].
+The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This is the [[discrete topology]] on $X$.  If $X$ is discrete in this sense, then its [[diagonal map]] $X \to X \times X$ is [[open map|open]]; the converse holds if $X$ satisfies the $T_0$ [[separation axiom]].
 
 This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces or [[Diff|manifolds]] (because a discrete topological space has those properties).
 
-It is also [[sober space|sober]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].  (Note that [[Loc]] is not concrete over [[Set]].).  A locale is discrete if and only if $X \times X \to X$ is open and $X \to 1$ is also open.  A locale that satisfies the latter condition is called [[overt locale|overt]]; note that every locale is $T_0$ while every topological space is overt.  Moreover, in [[classical mathematics]], every locale is overt, but the notion is important when internalizing in [[toposes]].
+It is also [[sober space|sober]] and thus serves as a discrete [[locale]], whose corresponding [[frame]] is the [[power set]] of $X$; see [[CABA]].  (Note that [[Loc]] is not concrete over [[Set]].).  A locale is discrete if and only if $X \to X \times X$ is open and $X \to 1$ is also open.  A locale that satisfies the latter condition is called [[overt locale|overt]]; note that every locale is $T_0$ while every topological space is overt.  Moreover, in [[classical mathematics]], every locale is overt, but the notion is important when internalizing in [[toposes]].
 
 A discrete [[uniform space]] $X$ has all [[reflexive relations]] as [[entourages]], or equivalently all [[covers]] as [[uniform cover]]s.  It is the only uniformity (on a given set) whose underlying topology is discrete.
 
