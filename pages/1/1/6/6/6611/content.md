@@ -69,10 +69,10 @@ see also the further pointers [here on Carlip's webpage](http://www.physics.ucda
 
 More recent developments include
 
-* [[Edward Witten]], _Three-dimensional gravity revisited_, (2007) [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
- {#Witten}
+* {#Witten} [[Edward Witten]], _Three-dimensional gravity revisited_, (2007) [arxiv/0706.3359](http://arxiv.org/abs/0706.3359)
+ 
 
-* Paul K. Townsend, Massive 3d (super)gravity, slides, [pdf](http://superfields.web.cern.ch/Superfields/docs/Seminars/Townsend.pdf)
+* [[Paul Townsend]], _Massive 3d (super)gravity_, slides, ([pdf](http://superfields.web.cern.ch/Superfields/docs/Seminars/Townsend.pdf))
 
 * Gaston Giribet, _Black hole physics and AdS3/CFT2 correspondence_, lectures at [[Croatian Black Hole School]] 2010
 
@@ -80,9 +80,11 @@ More recent developments include
 
 * Rudranil Basu, Samir K Paul, _Consistent 3D Quantum Gravity on Lens Spaces_ ([arXiv:1109.0793](http://arxiv.org/abs/1109.0793))
 
-A review of some aspects is in 
+Reviews include
 
 * [[Steven Carlip ]], _Quantum Gravity in 2+1 Dimensions:
 The Case of a Closed Universe_ ([living reviews](http://relativity.livingreviews.org/open?pubNo=lrr-2005-1&page=articlesu10.html))
+
+* Laura Donnay, _Asymptotic dynamics of three-dimensional gravity_ ([arXiv:1602.09021](http://arxiv.org/abs/1602.09021))
  
 Authors of [[spin foam]] models view them as an approach to quantum gravity. 
