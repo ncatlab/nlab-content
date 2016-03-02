@@ -15,7 +15,7 @@
 
 ## Idea
 
-The term [[convenient category of topological spaces]] is used for a category of [[topological spaces]] nice enough to address many of the needs of [[topology|working topologists]], notably including the condition of being a [[cartesian closed category]]. As such, they are examples of [[nice category of spaces|nice categories of spaces]].
+The term [[convenient category of topological spaces]] is used (e.g. [Steenrod 67](#Steenrod)) for a [[category]] of [[topological spaces]] nice enough to address many of the needs of [[topology|working topologists]], notably including the condition of being a [[cartesian closed category]]. As such, they are examples of [[nice category of spaces|nice categories of spaces]].
 
 A primary example is the category of [[compactly generated spaces]].
 
