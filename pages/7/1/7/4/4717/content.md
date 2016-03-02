@@ -70,3 +70,10 @@ Every [[adjunction]] $(L \dashv R)$ gives rise to a [[monad]] $T \coloneqq R \ci
 [[!redirects counits of adjunctions]]
 [[!redirects counit]]
 [[!redirects counits]]
+
+[[!redirects adjunction unit]]
+[[!redirects adjunction units]]
+
+[[!redirects adjunction counit]]
+[[!redirects adjunction counits]]
+
