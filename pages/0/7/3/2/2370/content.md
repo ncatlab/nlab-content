@@ -22,7 +22,7 @@ a refinement.
 
 Where a [[sequential spectrum]] is a collection of [[pointed topological space]] indexed by  the [[natural numbers]] $\mahbb{N}$, a coordinate free spectrum is a collection of [[topological space]]s index by all finite dimensional subspaces of a real inner product [[vector space]] $U$ isomorphic to $\mathbb{R}^\infty$.
 
-Coordinate-free spectra are similar to spectra realized as [[excisive functors]] from pointed [[finite homotopy types]] to pointed [[homotopy types]].
+Notice that also spectra realized as [[excisive functors]] are coordinate-free in an evident sense, as these are indexed on all [[finite homotopy types]].
 
 In the broader context of [[equivariant stable homotopy theory]] a coordinate-free spectrum may be thought of as the special case of a  [[G-spectrum]] over a [[G-universe]] for the special case of the trivial group $G = 1$.
 
