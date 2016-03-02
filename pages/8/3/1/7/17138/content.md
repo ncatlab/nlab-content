@@ -974,6 +974,10 @@ The key step in the proof is to use the [[cartesian closed category|cartesian cl
 
 =--
 
+... [[anodyne extensions]]...
+
+([Goerss-Jardine 96, chapter I, section 4](#GoerssJardine96) [Joyal-Tierney 05, section 31](#JoyalTierney05))
+
 +-- {: .num_lemma}
 ###### Lemma
 
@@ -999,30 +1003,6 @@ The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSe
 
 This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goerss-Jardine 96, chapter I, theorem 10.10](#GoerssJardine96)).
 
-Finally:
-
-+-- {: .num_prop}
-###### Proposition
-
-For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] 
-
-$$
-  S \longrightarrow Sing {\vert S \vert}
-$$
-
-is a [[weak homotopy equivalence]]. 
-
-For $X$ any [[topological space]], then the [[adjunction counit]] 
-
-$$
-  {\vert Sing X\vert} \longrightarrow X
-$$
-
-is a [[weak homotopy equivalence]]
-
-=--
-
-e.g. ([Goerss-Jardine 96, chapter I, prop. 11.1 and p. 63](#GoerssJardine96)).
 
 
 ### The classical homotopy category
@@ -1033,21 +1013,6 @@ e.g. ([Goerss-Jardine 96, chapter I, prop. 11.1 and p. 63](#GoerssJardine96)).
 * [[interval object]], [[path space object]]
 
 * [[left homotopy]], [[right homotopy]]
-
-[[homotopy groups]]
-
-[[homotopy fiber]], [[homotopy cofiber]]
-
-* [[mapping cone]], [[mapping cocone]]
-
-* [[suspension]], [[loop space object]]
-
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="700" >
-
-(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
-
-[[long exact sequence of homotopy groups]]
-
 
 +-- {: .num_defn #LeftHomotopyOfSimplicialSets}
 ###### Definition
@@ -1105,6 +1070,36 @@ on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
 
 =--
 
+
+[[homotopy groups]], [[simplicial homotopy groups]]
+
+[[weak homotopy equivalence]]
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] 
+
+$$
+  S \longrightarrow Sing {\vert S \vert}
+$$
+
+is a [[weak homotopy equivalence]]. 
+
+For $X$ any [[topological space]], then the [[adjunction counit]] 
+
+$$
+  {\vert Sing X\vert} \longrightarrow X
+$$
+
+is a [[weak homotopy equivalence]]
+
+=--
+
+e.g. ([Goerss-Jardine 96, chapter I, prop. 11.1 and p. 63](#GoerssJardine96)).
+
+
 With this we finally arrive at a presentation of the classical homotopy category. For our purposes the following may be taken to be a definition, otherwise it is part of the theorem of ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)), known sometimes as the _[homotopy hypothesis for Kan complexes](homotopy hypothesis#ForKanComplexes)_.
 
 +-- {: .num_defn}
@@ -1118,6 +1113,167 @@ is [[equivalence of categories|equivalently]] the category whose
 * [[morphisms]], are left-[[homotopy classes]], def. \ref{LeftHomotopyIsEquivalence}, of morphisms of simplicial sets.
 
 =--
+
+[[homotopy fiber]], [[homotopy cofiber]]
+
+* [[mapping cone]], [[mapping cocone]]
+
+* [[suspension]], [[loop space object]]
+
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="700" >
+
+(graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+
+Given a morphism $f \colon A \longrightarrow B$ there is the following pasting composite of [[homotopy fibers]]
+
+$$
+  \array{
+    \cdots && \vdots
+    \\
+    && \downarow && \downarrow
+    \\
+    && \Omega ker(f) &\longrightarrow& \Omega A &\longrightarrow& \ast
+    \\
+    && \downarrow && \downarrow &\swArrow& \downarrow
+    \\
+    && \ast &\longrightarrow& \Omega B &\stackrel{}{\longrightarrow}& ker(f) &\longrightarrow& \ast
+    \\
+    && && \downarrow &\swArrow& \downarrow^{\mathrlap{g}} &\swArrow& \downarrow
+    \\
+    && && \ast &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
+  }
+$$
+
+
+hence a long fiber sequence of morphisms 
+
+$$
+  \cdots
+    \to
+  \Omega ker(f)
+    \longrightarrow
+  \Omega A 
+    \stackrel{\Omega f}{\longrightarrow}
+  \Omega B 
+    \longrightarrow 
+  ker(f) 
+    \stackrel{g}{\longrightarrow}
+  A 
+    \stackrel{f}{\longrightarrow} B
+  \,.
+$$
+
+A subtlety to be aware of here is that $\Omega B$ is not quite $ker(ker(f))$, but the latter instead is $\bar \Omega f$, where $\bar \Omega$ denotes loops with reversed orientation.
+
+A classical discussion of this in terms of computing homotopy fibers via [[path object]] fibrant replacements is e.g. in
+([Switzer 75, around 2.57](#Switzer75)). But let's see it just diagrammatically:
+
+First observe that it is indeed $\Omega f$ and not $\bar \Omega f$ that appears in the above: by "bending around" the bottom left "$\ast \to $" we get
+
+$$
+  \array{
+    \Omega A &\longrightarrow& \ast
+    \\
+    \downarrow^{\mathrlap{\Omega f}} && \downarrow
+    \\
+    \Omega B & \longrightarrow & ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow^{\mathrlap{g}} && \downarrow
+    \\
+    \ast &\longrightarrow & A &\stackrel{f}{\longrightarrow}& B
+  }
+  \;\;\;\;\;
+  \simeq  
+  \;\;\;\;\;
+  \left(
+  \array{
+    \ast &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    ker(f) &\longrightarrow& \ast
+    \\
+    \downarrow^{\mathrlap{g}} && \downarrow
+    \\
+    A &\stackrel{f}{\longrightarrow}& B
+    \\
+    \uparrow && \uparrow
+    \\
+    \ast &\longrightarrow& \ast
+  }
+  \right)
+  \stackrel{\underset{\longleftarrow}{\lim}}{\mapsto}
+  \left(
+    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
+  \right)
+  \,.
+$$
+
+On the other hand, if we define the homotopy fiber of any morphism $\phi$ by the diagram
+
+$$
+  \array{
+    ker(\phi) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    & \stackrel{\phi}{\longrightarrow} & 
+  }
+$$
+
+then $ker(g)$ is given by the diagram
+
+$$
+  \array{
+    ker(g) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+$$
+
+but what appears in the above pasting diagram is instead this diagram "reflected at the diagonal axis"
+
+$$
+  \array{
+    ker(g) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+  \;\;\;
+  \simeq
+  \;\;\;
+  \array{
+    \Omega B &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    ker(f) &\stackrel{g}{\longrightarrow}& A
+  }
+  \;\;\;\;
+  \simeq
+  \;\;\;\;
+  \left(
+  \array{
+    \Omega B &\longrightarrow& ker(f)
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& A
+  }
+  \right)^{-1}
+$$
+
+Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Since it is these 2-morphisms/homotopies that become the loops in the loop space, it is here that loop reversal appears in translating between the naive iterated homotopy fiber to the construction that actually appears in the above pasting composite.
+
+
+
+[[long exact sequence of homotopy groups]]
+
 
 (...)
 
