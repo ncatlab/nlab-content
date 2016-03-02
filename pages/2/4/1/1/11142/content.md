@@ -1,5 +1,2 @@
-Eduardo J. Dubuc, "Sur les Modeles de la Geometrie Differentielle 
-Sinthetyque", Cahiers de Topologie et Geometrie Differentielle" Vol. XX-3 
-(1979).
 
-coined "Cahiers Topos" by Anders Kock.
+see at _[[Cahiers topos]]_
