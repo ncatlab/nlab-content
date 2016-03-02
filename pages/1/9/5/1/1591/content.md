@@ -39,7 +39,7 @@ The dual notion is a [[codiscrete object]].
 
 ### Discrete geometric spaces
 
-The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This is the [[discrete topology]] on $X$.  If $X$ is discrete in this sense, then its [[diagonal map]] $\Delta: X \to X \times X$ is [[open map|open]]. The converse also holds: if the diagonal $\Delta(X)$ is open, then so is $i_x^{-1}(\Delta) = \{x\}$ for any $x \in X$, where $i_x(y) \coloneqq (x, y)$.
+The best known example is a discrete [[topological space]], that is one, $X$, in which all subsets of $X$ are [[open subset|open]] in the topology.  This is the [[discrete topology]] on $X$.  If $X$ is discrete in this sense, then its [[diagonal map]] $\Delta: X \to X \times X$ is [[open map|open]]. The converse also holds: if the diagonal $\Delta(X)$ is open, then so is $i_x^{-1}(\Delta(X)) = \{x\}$ for any $x \in X$, where $i_x(y) \coloneqq (x, y)$.
 
 This same space serves as a discrete object in many subcategories and supercategories of $Top$, from [[convergence space]]s (where the only proper filter that converges to a point is the free ultrafilter at that point) to (say) paracompact Hausdorff spaces or [[Diff|manifolds]] (because a discrete topological space has those properties).
 
