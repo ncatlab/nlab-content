@@ -17,7 +17,7 @@ This entry describes special methods for the construction of  fibrant [[resoluti
 
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea 
@@ -111,3 +111,6 @@ Discussion in the context of [[simplicial presheaves]] is  section 3 of
 See also
 
 * Sean Moss, _Another approach to the Kan-Quillen model structure_ ([arXiv:1506.04887](http://arxiv.org/abs/1506.04887))
+
+
+[[!redirects Kan fibrant replacements]]
