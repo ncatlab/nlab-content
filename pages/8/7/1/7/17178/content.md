@@ -9,11 +9,26 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-In [[stable homotopy theory]], a _sequential (pre-)spectrum_ $E$ is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
+In [[stable homotopy theory]], a _sequential (pre-)spectrum_ $E$ (also _Boardman spectrum_, after ([Boardman 65](#Boardman65))) is a sequence of [[pointed topological space]] $E_n$, for $n \in \mathbb{N}$, together with maps $\Sigma E_n \to E_{n+1}$ from the [[reduced suspension]] of one into the next space in the sequence.
 
-This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one mostly meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]]), one says _sequential spectrum_ for emphasis.
+This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still the one predominently meant be default. But in view of many other definitions (all giving rise to equivalent [[stable homotopy theory]]) that involve systems of spaces indexed on more than just the integers (such as [[coordinate-free spectra]], [[excisive functors]], [[equivariant spectra]]) or that are of different flavor altogether (such as [[combinatorial spectra]]), one says _sequential spectrum_ for emphasis.
 
+The standard [[model structure on spectra]] for sequential spectra in [[simplicial sets]] is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78))
+
+## References
+
+* {#Boardman65} [[Michael Boardman]], _Stable homotopy theory_, mimeographed notes, University of Warwick, 1965 onward
+
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
 [[!redirects sequential spectra]]
+
+[[!redirects Boardman spectrum]]
+[[!redirects Boardman spectra]]
+
