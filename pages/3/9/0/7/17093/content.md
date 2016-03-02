@@ -4,6 +4,8 @@
 
 ## related $n$Lab entries
 
+* [[compactly generated topological space]]
+
 * [[nice simplicial topological space]]
 
 * [[equivariant stable homotopy theory]]
