@@ -50,13 +50,13 @@ Write $SeqPreSpec(sSet)$ for this [[category]] of spectra.
 +-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
 ###### Example
 
-For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum with
+For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the sequential prespectrum degreewise given by the [[smash product]] of pointed objects
 
 $$
   (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
 $$
 
-and with structure maps
+and with structure maps given by
 
 $$
   S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
@@ -68,7 +68,7 @@ $$
 +-- {: .num_prop #SimplicialEnrichment}
 ###### Proposition
 
-The category $Spectra$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] with [[hom objects]] $[X,Y]\in Spectra$ given by
+The category $SeqPreSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
 
 $$
   [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
@@ -80,7 +80,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An _[[Omega-spectrum]]_ in the following is a spectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+A _[[Omega-spectrum]]_ is a sequentiial prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
