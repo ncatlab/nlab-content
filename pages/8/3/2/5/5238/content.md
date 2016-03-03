@@ -33,7 +33,7 @@ For $C$ a [[monoidal model category]] there is under mild conditions a natural [
 
 ## Definition
 
-For $C$ a [[monoidal category]] with all [[colimit]]s the [[category of monoids]] comes equipped (as discussed there) with a [[free functor]]/[[forgetful functor]] [[adjunction]]
+For $C$ a [[monoidal category]] with all [[colimits]], its [[category of monoids]] comes equipped (as discussed there) with a [[free functor]]/[[forgetful functor]] [[adjunction]]
 
 $$
   (F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}}
@@ -43,11 +43,7 @@ $$
 
 Typically one uses on $Mon(C)$ the [[transferred model structure]] along this adjunction, if it exists.
 
-## Properties
-
-### Existence
-
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If $C$ is [[monoidal model category]] that
@@ -56,7 +52,7 @@ If $C$ is [[monoidal model category]] that
 
 * is a [[cofibrantly generated model category]];
 
-* all objects are [[small object]]s,
+* all objects are [[small objects]],
 
 then the [[transferred model structure]] along the [[free functor]]/[[forgetful functor]] [[adjunction]] $(F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C$ exists on its [[category of monoids]].
 =--
@@ -64,7 +60,7 @@ then the [[transferred model structure]] along the [[free functor]]/[[forgetful 
 This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
 
 
-+-- {: .un_theorem}
++-- {: .num_theorem}
 ###### Theorem
 
 If the symmetric monoidal model category $C$ 
@@ -73,7 +69,7 @@ If the symmetric monoidal model category $C$
 
 * its unit is cofibrant
 
-* it a suitable [[interval object]] 
+* it has a suitable [[interval object]] 
 
 then the transferred model structure on monoids exists.
 
@@ -82,9 +78,13 @@ then the transferred model structure on monoids exists.
 +-- {: .proof}
 ###### Proof
 
-Regard monoids a [[algebras over an operad]] for the [[associative operad]]. Then apply the existence results discussed at [[model structure on algebras over an operad]]. See there for more details.
+Regard monoids a [[algebras over an operad]] for the [[associative operad]]. Then apply the existence results discussed at _[[model structure on algebras over an operad]]_. See there for more details.
 
 =--
+
+
+## Properties
+
 
 ### Homotopy pushouts
 
@@ -103,7 +103,7 @@ $$
 exist in $Mon(C)$, for all $f : A \to B$ in $C$
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Let the monoidal model category $C$ be 
