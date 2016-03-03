@@ -24,7 +24,7 @@
 
 ## Idea
 
-The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is the lift to [[M-theory]] of the KK-compactification of [[heterotic string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_), and of [[F-theory on CY4-manifolds]].
+The [[Kaluza-Klein reduction]] of [[11-dimensional supergravity]] on [[G2 manifolds]] (notably [[Freund-Rubin compactifications]] and variants) yields an [[effective field theory|effective]] $N=1$ [[4-dimensional supergravity]]. This construction is thought to lift to [[M-theory]] as the analog of the KK-compactification of [[heterotic string theory]] on [[Calabi-Yau manifolds]] (see at _[[string phenomenology]]_), and of [[F-theory on CY4-manifolds]].
 
 [[!include N=1 susy compactifications -- table]]
 
