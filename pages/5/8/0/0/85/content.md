@@ -47,7 +47,7 @@ For $\mathcal{C}$ a $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $
 +-- {: .num_defn #DayConvolutionProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
+For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
 
 $$
   \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
@@ -167,6 +167,74 @@ By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and sinc
 
 =--
 
+Write
+
+$$
+  y \colon \mathcal{C}^{op} \longrightarrow [\mathcal{C}, V]
+$$
+
+for the $V$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ any [[object]], $y(c)$ is the [[representable functor|corepresented functor]] $y(c)\colon c' \mapsto [c,c']$.
+
+
++-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
+###### Proposition
+
+For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]],
+the Day convolution product $\otimes_{Day}$ of def. \ref{DayConvolutionProduct} makes
+
+$$
+  ( [\mathcal{C}, V], \otimes, y(I))
+$$
+
+a [[closed monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
+use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
+
+$$
+  \begin{aligned}
+     X \otimes_{Day} y(I)
+     & 
+     =
+     \int^{c_1,c_2 \in \mathcal{C}}
+     X(c_1) \otimes [I,c_2] \otimes [c_1\otimes c_2,-]
+     \\
+     & \simeq 
+     \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes  
+      \int^{c_2 \in \mathcal{C}}  [I,c_2] \otimes [c_1\otimes c_2,-]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes
+      [c_1 \otimes I, -]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes
+      [c_1, -]  
+    \\
+    & \simeq
+    X(-)
+    \\
+    & \simeq 
+    X
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
+
 ### For promonoidal categories
 
 In the original article ([Day 70](#Day70)), a stronger form of the convolution is discussed, in which $A$ is assumed only to be a [[promonoidal category]].
@@ -185,6 +253,7 @@ This is claimed without proof in ([Day 70](#Day70)).
 
 ## Properties 
   {#Properties}
+
 
 ### Basic propertires
 
@@ -261,11 +330,72 @@ $$
 
 =--
 
+
 ### Monoids with respect to Day convolution
+ {#Monoids}
 
 Given any [[monoidal category]] then one may consider [[monoid objects]] inside it.
 
-The [[monoid objects]] with respect to Day convolution are equivalently what elsewhere are called [[functors with smash product]] ([MMSS 00, section 22](#MMSS00)).
++-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
+###### Proposition
+
+For $(\mathcal{C}, \otimes)$ a [[small category|small]] ([[symmetric monoidal category|symmetric]]) [[monoidal category|monoidal]] $V$-[[enriched category]],
+then ([[commutative monoid object|commutative]]) [[monoid objects]] in the Day convolution monoidal category $([\mathcal{C},V], \otimes_{Day}, y(I))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]] $\mathcal{C} \to V$:
+
+$$
+  Mon([\mathcal{C},V], \otimes_{Day}, y(I))
+  \simeq
+  MonFunc(\mathcal{C},V)
+$$
+
+$$
+  CMon([\mathcal{C},V], \otimes_{Day}, y(I))
+  \simeq
+  SymMonFunc(\mathcal{C},V)
+  \,.
+$$
+
+
+=--
+
+This was highlighted as ([MMSS 00, prop. 22.1](#MMSS00)).
+
++-- {: .proof}
+###### Proof
+
+A [[lax monoidal functor]] $F \colon \mathcal{C} \to V$ is given by [[natural transformations]]
+
+$$
+  I_V \longrightarrow F(I_{\mathcal{C}})
+$$
+
+$$
+  F(c_1) \otimes_V F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
+$$
+
+satisfying compatibility conditions. Under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} these are identified with natural transformations
+
+$$
+  y(I) \to F
+$$
+
+$$
+  F \otimes_{Day} F \longrightarrow F
+$$
+
+satisfying analogous conditions. This is just the structure of a [[monoid object]] on $F$ under $\otimes_{Day}$.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+In the case that $V$ is [[pointed topological spaces]] or pointed [[simplicial sets]] equipped with the [[smash product]] of [[pointed objects]] and that $\mathcal{C}$ is a diagram category for [[spectra]], then monoids in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as [[ring spectra]] and the the [[lax monoidal functors]] in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as the incarnation of ring spectra as "[[functors with smash product]]".
+
+=--
+
+([MMSS 00, section 22](#MMSS00)).
  
 
 ## Examples
