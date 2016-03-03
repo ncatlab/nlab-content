@@ -245,7 +245,7 @@ This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of
 ([Lydakis 98, prop. 4.3](#Lydakis98))
 
 
-+-- {: .num_prop}
++-- {: .num_prop #QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors}
 ###### Proposition
 
 The [[adjunction]]
@@ -264,9 +264,19 @@ $$
 
 =--
 
-([Lydakis 98, theorem 11.3](#Lydakis98)) For more details see at _[[model structure for excisive functors]]_.
+([Lydakis 98, theorem 11.3](#Lydakis98)) For more details see at _[[model structure 
+for excisive functors]]_.
 
++-- {: .num_remark}
+###### Remark
 
+Prop. \ref{QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors} shows why 
+plain sequential spectra do not carry a [[symmetric smash product of spectra]]:
+
+By [this remark](smash+product+of+spectra#WhySequentialSpectraHaveNoSymmetricSmashProduct) at _[[smash product of spectra]]_
+the graded-commutativity implicit in the [[braiding]] of the [[smash product]] of [[n-spheres]] is not reflected after restricting from $(sSet^{\ast/}, \wedge)$ to the non-full subcategory $StdSpheres$.
+
+=--
 
 ## References
 
