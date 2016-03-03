@@ -701,6 +701,124 @@ Then apply the [[natural isomorphism]] $Top({\vert-\vert},-) \simeq sSet(-,Sing(
 
 =--
 
+
+The concept of [[homotopy]] of morphisms between simplicial sets proceeds in direct analogy with that in topological spaces.
+
++-- {: .num_defn #LeftHomotopyOfSimplicialSets}
+###### Definition
+
+For $X$ a [[simplicial set]], def. \ref{SimplicialSet}, its _simplicial [[cylinder object]]_ is the [[Cartesian product]] $X\times \Delta[1]$ (formed in the [[category]] [[sSet]]).
+
+A _[[left homotopy]]_ 
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+between two morphisms
+
+$$
+  f,g\;\colon\; X \longrightarrow Y
+$$
+
+of [[simplicial sets]] is a morphism 
+
+$$
+  \eta \;\colon\; X \times \Delta[1] \longrightarrow Y
+$$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+     X 
+     \\
+     {}^{\mathllap{(id_X,d_1)}}\downarrow & \searrow^{\mathllap{f}}
+     \\
+     X \times \Delta^1 &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id_x, d_0)}}\uparrow & \nearrow_{\mathllap{g}}
+     \\
+     X
+  }
+  \,.
+$$
+
+For $Y$ a [[Kan complex]], def. \ref{SimplicialSet}, its _simplicial [[path space object]]_ is the [[function complex]] $X^{\Delta[1]}$ (formed in the [[category]] [[sSet]]).
+
+A _[[right homotopy]]_ 
+
+$$
+  \eta \;\colon\; f \Rightarrow g
+$$
+
+between two morphisms
+
+$$
+  f,g\;\colon\; X \longrightarrow Y
+$$
+
+of [[simplicial sets]] is a morphism 
+
+$$
+  \eta \colon X \longrightarrow Y^{\Delta[1]}
+$$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    && Y
+    \\
+    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{Y^{d_1}}}
+    \\
+    X &\stackrel{\eta}{\longrightarrow}& Y^{\Delta[1]}
+    \\
+    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{Y^{d_0}}}
+    \\
+    && 
+    Y
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LeftHomotopyIsEquivalence}
+###### Proposition
+
+For $Y$ a [[Kan complex]], def. \ref{KanComplexes}, and $X$ any [[simplicial set]], then left homotopy, def. \ref{LeftHomotopyOfSimplicialSets},
+regarded as a [[relation]]
+
+$$
+  (f\sim g) \Leftrightarrow (f \stackrel{\exists}{\Rightarrow} g)
+$$
+
+on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
+
+=--
+
++-- {: .num_defn #HomotopyEquivalence}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of [[simplicial sets]] is a left/right [[homotopy equivalence]] if there exists a morphisms $X \longleftarrow Y \colon g$ and left/right homotopies (def. \ref{LeftHomotopyOfSimplicialSets})
+
+$$
+  g \circ f \Rightarrow id_X\,,\;\;\;\; f\circ g \Rightarrow id_Y
+$$
+
+=--
+
++-- {: .num_lemma #PullbackOfKanFibrationSendsLeftHomotopyToFiberwiseHomotopyequivalence}
+###### Lemma
+
+Let $p \colon X \longrightarrow Y$ be a [[Kan fibration]], def. \ref{KanFibration}, and let $f_1,f_2 \colon A \longrightarrow X$ be two morphisms. If there is a [[left homotopy]] (def. \ref{LeftHomotopyOfSimplicialSets}) $f_1 \Rightarrow f_2$ between these maps, then there is a fiberwise [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, between the [[pullback]] fibrations $f_1^\ast X \simeq f_2^\ast X$.
+
+=--
+
+(e.g. [Goerss-Jardine 96, chapter I, lemma 10.6](#GoerssJardine96))
+
+
 While [[simplicial sets]] have the advantage of being purely combinatorial structures, the [[singular simplicial complex]] of any given [[topological space]], def. \ref{SingularSimplicialComplex} is in general a huge simplicial set which does not lend itself to detailed inspection. The following is about small models.
 
 +-- {: .num_defn #MinimalKanFibration}
@@ -742,7 +860,20 @@ are equal.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #PullbackPreservesMinimalFibration}
+###### Proposition
+
+The [[pullback]] (in [[sSet]]) of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration}, along any morphism is again a mimimal Kan fibration. 
+
+=--
+
+
+... [[anodyne extensions]]...
+
+([Goerss-Jardine 96, chapter I, section 4](#GoerssJardine96), [Joyal-Tierney 05, section 31](#JoyalTierney05))
+
+
++-- {: .num_prop #KanFibrationHasMinimalStrongDeformationRetract}
 ###### Proposition
 
 For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [[strong deformation retract]] to a [[minimal Kan fibration]], def. \ref{MinimalKanFibration}.
@@ -751,7 +882,46 @@ For every [[Kan fibration]], def. \ref{KanFibration}, there exists a fiberwise [
 
 (e.g. [Goerss-Jardine 96, chapter I, prop. 10.3](#GoerssJardine96), [Joyal-Tierney 05, theorem 3.3.1, theorem 3.3.3](#JoyalTierney05)).
 
++-- {: .proof}
+###### Proof idea
 
+Choose representatives by [[induction]], use that in the induction step one needs lifts of [[anodyne extensions]] against a [[Kan fibration]], which exist.
+
+=--
+
++-- {: .num_lemma #FiberwiseHomotopyEquivalenceOfMinimalFibrationsIsIso}
+###### Lemma
+
+A morphism between [[minimal Kan fibrations]], def. \ref{MinimalKanFibration}, which is fiberwise a [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is already an [[isomorphism]].
+
+=--
+
+(e.g. [Goerss-Jardine 96, chapter I, lemma 10.4](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof idea
+
+Show the statement degreewise. In the [[induction]] one needs to lift [[anodyne extensions]] agains a [[Kan fibration]].
+
+=--
+
++-- {: .num_lemma #MinimalKanFibrationAreFiberBundles}
+###### Lemma
+
+Every [[minimal Kan fibration]], def. \ref{MinimalKanFibration}, over a [[connected]] base is a simplicial [[fiber bundle]], locally trivial over every simplex of the base.
+
+=--
+
+(e.g. [Goerss-Jardine 96, chapter I, corollary 10.8](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+By assumption of the base being connected, the classifying maps for the fibers over any two vertices are connected by a [[zig-zag]] of [[homotopies]], hence by lemma \ref{PullbackOfKanFibrationSendsLeftHomotopyToFiberwiseHomotopyequivalence} the fibers are connected by [[homotopy equivalences]] and then by prop. \ref{PullbackPreservesMinimalFibration} and lemma \ref{FiberwiseHomotopyEquivalenceOfMinimalFibrationsIsIso} they are already isomorphic. Write $F$ for this [[typical fiber]].
+
+Moreover, for all $n$ the morphisms $\Delta[n] \to \Delta[0] \to \Delta[n]$ are [[left homotopy|left homotopic]] to $\Delta[n] \stackrel{id}{\to} \Delta[n]$ and so applying lemma \ref{PullbackOfKanFibrationSendsLeftHomotopyToFiberwiseHomotopyequivalence} and prop. \ref{FiberwiseHomotopyEquivalenceOfMinimalFibrationsIsIso} once more yields that the fiber over each $\Delta[n]$ is [[isomorphism|isomorphic]] to $\Delta[n]\times F$.
+
+=--
 
 
 
@@ -960,7 +1130,7 @@ This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67))
 +-- {: .num_prop #Timesk}
 ###### Proposition
 
-Regarded via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to Top_{cg}$, [[geometric realization]] 
+Regarded, via corollary \ref{TopologicalRealizationOfSSetLandsInkTop} as a functor ${\vert - \vert} \colon sSet \to Top_{cg}$, [[geometric realization]] 
 preserves [[finite limits]].
 
 =--
@@ -970,18 +1140,17 @@ See at _[Geometric realization is left exact](geometric+realization#GeometricRea
 +-- {: .proof}
 ###### Proof idea
 
-The key step in the proof is to use the [[cartesian closed category|cartesian closure]] of $Top_{cg}$ (prop. \ref{kTopIsCoreflectiveInTop}). This gives that the Cartesian product is a [[left adjoint]] and hence preserves colimits in each variable, so that the [[coend]] in the definition of the geometric realization may be taken out of Cartesian products. 
+The key step in the proof is to use the [[cartesian closed category|cartesian closure]] of $Top_{cg}$ (prop. \ref{kTopIsCoreflectiveInTop}). This gives that the [[Cartesian product]] is a [[left adjoint]] and hence preserves colimits in each variable, so that the [[coend]] in the definition of the geometric realization may be taken out of Cartesian products. 
 
 =--
 
-... [[anodyne extensions]]...
 
-([Goerss-Jardine 96, chapter I, section 4](#GoerssJardine96) [Joyal-Tierney 05, section 31](#JoyalTierney05))
 
 +-- {: .num_lemma}
 ###### Lemma
 
-The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration} is a [[Serre fibration]], def. \ref{SerreFibration}.
+The [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, 
+of a [[minimal Kan fibration]], def. \ref{MinimalKanFibration} is a [[Serre fibration]], def. \ref{SerreFibration}.
 
 =--
 
@@ -990,7 +1159,7 @@ This is due to ([[Calculus of fractions and homotopy theory|Gabriel-Zisman 67]])
 +-- {: .proof}
 ###### Proof idea
 
-Show that minimal fibrations are simplicial [[fiber bundles]], locally trivial over each simplex in the base. Then use prop. \ref{Timesk} to show that this property translates to their geometric realization also being a locally trivial fiber bundle.
+By prop. \ref{MinimalKanFibrationAreFiberBundles} minimal Kan fibrations are simplicial [[fiber bundles]], locally trivial over each simplex in the base. By prop. \ref{Timesk} this property translates to their [[geometric realization]] also being a locally trivial [[fiber bundle]] of [[topological spaces]], hence in particular a [[Serre fibration]].
 
 =--
 
@@ -1009,107 +1178,9 @@ This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goers
  {#TheClassicalHomotopyCategory}
 
 
-+-- {: .num_defn #LeftHomotopyOfSimplicialSets}
-###### Definition
-
-For $X$ a [[simplicial set]], def. \ref{SimplicialSet}, its _simplicial [[cylinder object]]_ is the [[Cartesian product]] $X\times \Delta[1]$ (formed in the [[category]] [[sSet]]).
-
-A _[[left homotopy]]_ 
-
-$$
-  \eta \;\colon\; f \Rightarrow g
-$$
-
-between two morphisms
-
-$$
-  f,g\;\colon\; X \longrightarrow Y
-$$
-
-of [[simplicial sets]] is a morphism 
-
-$$
-  \eta \;\colon\; X \times \Delta[1] \longrightarrow Y
-$$
-
-such that the following [[commuting diagram|diagram commutes]]
-
-$$
-  \array{
-     X 
-     \\
-     {}^{\mathllap{(id_X,d_1)}}\downarrow & \searrow^{\mathllap{f}}
-     \\
-     X \times \Delta^1 &\stackrel{\eta}{\longrightarrow}& Y
-     \\
-     {}^{\mathllap{(id_x, d_0)}}\uparrow & \nearrow_{\mathllap{g}}
-     \\
-     X
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_defn #RightHomotopyOfSimplicialSets}
-###### Definition
-
-For $Y$ a [[Kan complex]], def. \ref{SimplicialSet}, its _simplicial [[path space object]]_ is the [[function complex]] $X^{\Delta[1]}$ (formed in the [[category]] [[sSet]]).
-
-A _[[right homotopy]]_ 
-
-$$
-  \eta \;\colon\; f \Rightarrow g
-$$
-
-between two morphisms
-
-$$
-  f,g\;\colon\; X \longrightarrow Y
-$$
-
-of [[simplicial sets]] is a morphism 
-
-$$
-  \eta \colon X \longrightarrow Y^{\Delta[1]}
-$$
-
-such that the following [[commuting diagram|diagram commutes]]
-
-$$
-  \array{
-    && 
-    \\
-    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{Y^{d_1}}}
-    \\
-    X &\stackrel{\eta}{\longrightarrow}& Y^{\Delta[1]}
-    \\
-    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{Y^{d_0}}}
-    \\
-    && 
-    Y
-  }
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #LeftHomotopyIsEquivalence}
-###### Proposition
-
-For $Y$ a [[Kan complex]], def. \ref{KanComplexes}, and $X$ any [[simplicial set]], then left homotopy, def. \ref{LeftHomotopyOfSimplicialSets},
-regarded as a [[relation]]
-
-$$
-  (f\sim g) \Leftrightarrow (f \stackrel{\exists}{\Rightarrow} g)
-$$
-
-on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
-
-=--
 
 
-the the basic invariants of [[simplicial sets]]/[[Kan complexes]] in [[simplicial homotopy theory]] are their [[simplicial homotopy groups]], to which we turn now.
+The the basic invariants of [[simplicial sets]]/[[Kan complexes]] in [[simplicial homotopy theory]] are their [[simplicial homotopy groups]], to which we turn now.
  
 Given that a [[Kan complex]] is a special [[simplicial set]] that [[homotopy hypothesis|behaves like]] a combinatorial model for a [[topological space]], the _simplicial homotopy groups_ of a  Kan complex are accordingly the combinatorial analog of the [[homotopy groups]] of [[topological spaces]]: instead of being maps from topological [[spheres]] modulo maps from topological disks, they are maps from the [[boundary of a simplex]] modulo those from the [[simplex]] itself. 
 
@@ -1119,14 +1190,14 @@ Accordingly, the definition of the discussion of simplicial homotopy groups is e
 +-- {: .num_defn #UnderlyingSetsOfSimplicialHomotopyGroups}
 ###### Definition 
 
-For $X$ a [[Kan complex]], then its **0th homotopy group** (or **set of [[connected components]]**) is the set of [[equivalence classes]] of vertices modulo the [[equivalence relation]] $X_1 \stackrel{(d_1,d_0)}{\longrightarrow} X_0 \times X_0$
+For $X$ a [[Kan complex]], then its **0th [[simplicial homotopy group]]** (or **set of [[connected components]]**) is the set of [[equivalence classes]] of vertices modulo the [[equivalence relation]] $X_1 \stackrel{(d_1,d_0)}{\longrightarrow} X_0 \times X_0$
 
 $$
   \pi_0(X) \colon X_0/X_1
   \,.
 $$
 
-For $x \in X_0$ a vertex and for $n \in \mathbb{N}$, $n \geq 1$, then the underlying [[set]]  of the **$n$th homotopy group** of $X$ at $x$ -- denoted $\pi_n(X,x)$ -- is, the set of [[equivalence classes]] $[\alpha]$ of morphisms
+For $x \in X_0$ a vertex and for $n \in \mathbb{N}$, $n \geq 1$, then the underlying [[set]]  of the **$n$th [[simplicial homotopy group]]** of $X$ at $x$ -- denoted $\pi_n(X,x)$ -- is, the set of [[equivalence classes]] $[\alpha]$ of morphisms
 
 $$
   \alpha \colon \Delta^n \to X
@@ -1336,15 +1407,419 @@ is [[equivalence of categories|equivalently]] the category whose
 
 ### Homotopy fiber sequences
 
-[[homotopy fiber]], [[homotopy cofiber]]
+A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [[category theory]], such as [[limits]] and [[colimits]], receive a refinement whereby their [[universal properties]] hold not just up to [[isomorphism]] but up to ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]]. One speaks of _[[homotopy limits]]_ and _[[homotopy colimits]]_.
 
-* [[mapping cone]], [[mapping cocone]]
+We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
 
-* [[suspension]], [[loop space object]]
+The _[[mapping cone]]_ of a [[morphism]] $f : X \to Y$ in some [[homotopical category]] (precisely: a [[category of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy cofiber]] of $f$. 
 
-<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="700" >
+It is also called the _homotopy [[cokernel]]_ of $f$ or the _[[weak quotient]]_ of $Y$ by the [[image]] of $X$ in $Y$ under $f$. 
+
+
+
+The mapping cone construction is a means to _present_ in a [[category with weak equivalences]] the following canonical
+construction in [[homotopy theory]]/[[(∞,1)-category theory]].
+
++-- {: .num_defn #InfinityCokernel}
+###### Definition
+
+In an [[(∞,1)-category]] $\mathcal{C}$ with [[terminal object]] and [[(∞,1)-pushout]], the [[homotopy fiber|homotopy cofiber]] of a [[morphism]] $f : X \to Y$ is the [[homotopy pushout]]
+
+$$
+  coker(f) \coloneqq Y \coprod_X {*}
+$$
+
+hence the object [[universal construction]] sitting universally in a [[diagram]] of the form
+
+$$
+  \array{
+     X &\stackrel{}{\to}& {*}
+     \\
+     \downarrow^{\mathrlap{f}} &\swArrow_{\simeq}& \downarrow
+     \\
+     Y &\to& coker(f)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #HomotopyCofiberByFactorizationLemma}
+###### Proposition
+
+If the [[(∞,1)-category]] $\mathcal{C}$ is presented by (is [[equivalence of (infinity,1)-categories|equivalent]] to the [[simplicial localization]] of) a [[category of cofibrant objects]] $C$ (for instance given by the [[cofibrant objects]] in a [[model category]]) then this homotopy cofiber is presented by the ordinary [[colimit]] 
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
+    \\
+    X &\stackrel{i_0}{\to}& cyl(X)
+    \\
+    \downarrow && &\searrow & \downarrow
+    \\
+    {*} &\to& &\to& cone(f) 
+  }
+$$
+
+in $C$ using any [[cylinder object]] $cyl(X)$ for $X$.
+
+=--
+
+
+
++-- {: .num_remark }
+###### Remark
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/mappingcone.jpg" width="560" >
+</div>
+
+Intuitively this says that $cone(f)$ is the object obtained by
+
+1. forming the cylinder over $X$;
+
+1. gluing to one end of that the object $Y$ as specified by the map $f$.
+
+1. shrinking the other end of the cylinder to the point.
+
+Intuitively it is clear that this way every [[cycle]] in $Y$ that happens to be in the image of $X$ can be "continuously" translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it becomes the point. This means that every [[homotopy group]] of $Y$ in the image of $f$ vanishes in the mapping cone. Hence in the mapping conee **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it clear how $cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. And therefore the name "mapping cone".
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+
+=--
+
+
+
+
++-- {: .num_remark }
+###### Remark
+
+A morphism $\eta : cyl(X) \to Y$ out of a [[cylinder object]] is a [[left homotopy]] $\eta : g \Rightarrow h$ (def. \ref{LeftHomotopyOfSimplicialSets}) between its restrictions $g\coloneqq \eta(0)$ and $h \coloneqq \eta(1)$ to the cylinder boundaries
+
+$$
+  \array{
+     X
+     \\
+     \downarrow^{\mathrlap{i_0}} & \searrow^{\mathrlap{g}}
+     \\
+     cyl(X) &\stackrel{\eta}{\to}& Y
+     \\
+     \uparrow^{\mathrlap{i_1}} & \nearrow_{\mathrlap{h}}
+     \\
+     X
+  }
+  \,.
+$$
+
+Therefore prop. \ref{HomotopyCofiberByFactorizationLemma} says that 
+the mapping cone is the the [[universal property|universal]] object with a morphism $i$ from $Y$ and a [[left homotopy]] from $i \circ f$ to the [[zero morphism]]. This is of course also precisely what def. \ref{InfinityCokernel} is saying.
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The colimit in prop. \ref{HomotopyCofiberByFactorizationLemma} may be computed in two stages by two consecutive [[pushouts]] in $C$, and in two ways by the following [[pasting diagram]]:
+
+$$
+  \array{
+    && X &\stackrel{f}{\to}& Y
+    \\
+    && \downarrow^{i_1} && \downarrow
+    \\
+    X &\stackrel{i_0}{\to}& cyl(X) &\to & cyl(f)
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    {*} &\to& cone(X) &\to& cone(f) 
+  }
+  \,.
+$$
+
+Here every square is a [[pushout]], (and so by the [[pasting law]] is every rectangular pasting composite).
+
+=--
+
+This now is a basic fact in ordinary [[category theory]]. The pushouts appearing here go by the following names:
+
++-- {: .num_defn #CylindersAndCones}
+###### Definition
+
+The pushout
+
+$$
+  \array{
+     X &\stackrel{i_0}{\to}& cyl(X)
+     \\
+     \downarrow && \downarrow
+     \\
+     {*} &\to& cone(X)
+  }
+$$
+
+defines the **[[cone]]** $cone(X)$ over $X$ (with respect to the chosen [[cylinder object]]): the result of taking the [[cylinder object|cylinder]] over $X$ and identifying one $X$-shaped end with the [[point]].
+
+The pushout 
+
+$$
+  \array{
+    X &\stackrel{f}{\to}& Y
+    \\
+    \downarrow && \downarrow
+    \\
+    cyl(X) &\to& cyl(f)
+  }
+$$
+
+defines the **[[mapping cylinder]]** $cyl(f)$ of $f$, the result of identifying one end of the cylinder over $X$ with $Y$, using $f$ as the gluing map.
+
+The pushout 
+
+$$
+  \array{
+    cyl(x) &\to& cyl(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    cone(X) &\to& cone(f)
+  }
+$$
+
+defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cylinder over $X$ and then identifying one end with the point and the other with $Y$, via $f$.
+
+=--
+
+Dually, the **[[mapping cocone]]** is a presentation of homotopy fibers.
+
++-- {: .num_prop #HomotopyPullbackByOrdinaryPullback}
+###### Proposition
+
+Let $A \to C \leftarrow B$ be a [[diagram]] in some [[model category]]. Then sufficient conditions for the ordinary (1-categorical) [[pullback]] $A \times_C B$ to present the homotopy pullback of the diagram are
+
+* one of the two morphisms is a [[fibration]] and all three objects are [[fibrant objects]];
+
+* one of the two morphisms is a [[fibration]] and the model category is [[right proper model category|right proper]].
+
+=--
+
+The proof of the second statement is spelled out [here](proper+model+category#HomotopyLimits).
+
++-- {: .num_remark }
+###### Remark
+
+Notice that a fibrant [[resolution]] of the diagram in the injective [[model structure on functors]] has _both_ morphisms be a fibration. So the first point in prop. \ref{HomotopyPullbackByOrdinaryPullback} says that (in the special case of pullbacks) something weaker than this is sufficient for computing the [[homotopy limit]] of the diagram.
+
+This can be explained in model-categorical terms by the fact that the category of [[cospans]] also has a [[Reedy model structure]] in which the fibrant objects are precisely those considered in the first point above, and that homotopy limits can equally well be computed using this model structure (specifically, the [[adjunction]] $Const \dashv Lim$ is [[Quillen adjunction|Quillen]] with respect to it).
+
+In this spirit one may ask for the largest class of morphisms such that their ordinary pullbacks are already homotopy pullbacks. This is related to the concept of _[[sharp morphisms]]_.
+
+=--
+
+
+
+Due to prop. \ref{HomotopyPullbackByOrdinaryPullback} one typically computes homotopy pullbacks of a diagram by first forming a [[resolution]] of one of the two morphisms by a fibration and then forming an ordinary pullback. 
+
++-- {: .num_cor #HomotopyPullbackByFactorizationLemma}
+###### Corollary
+
+If in $A \stackrel{f}{\to} C \stackrel{g}{\leftarrow} B$ 
+all three objects are [[fibrant objects]], then
+the homotopy pullback of this diagram is presented by the ordinary [[pullback]]
+
+$$
+  \array{
+     A\times_C^h B & \to & C^I \times_C B
+    \\
+    \downarrow && \downarrow 
+    \\
+     A & \stackrel{f}{\to} & C
+  }
+  \,.
+$$
+
+or, equivalently up to [[isomorphism]], as the ordinary [[pullback]]
+
+$$
+  \array{
+     A\times_C^h B & \to & C^I
+    \\
+    \downarrow && \downarrow 
+    \\
+     A\times B & \stackrel{(f,g)}{\to} & C\times C
+  }
+  \,.
+$$
+
+=--
+
+See also at _[[Mayer-Vietoris sequence]]_ [this proposition](Mayer-Vietoris+sequence#SequenceFromDiagonal).
+
++-- {: .proof}
+###### Proof
+Since the objects are already fibrant, prop. \ref{HomotopyPullbackByOrdinaryPullback} implies that it is sufficient to replace one of the morphisms by a fibrant resolution.
+Such a resolution is provided by the [[factorization lemma]]: by [Lemma 3](factorization+lemma#FibrantResolution), $B \to C$ admits a canonical fibrant resolution
+  $$ C^I \times_C B \twoheadrightarrow C $$
+where $C \stackrel{\simeq}{\to} C^I \to C \times C$ is a [[path space object]] for $C$ (for instance, when $C$ is a [[closed monoidal homotopical category]] then this can be taken to be the [[internal hom]] with an [[interval object]] $I$).
+=--
+
+The homotopy pullback constructed in this way is an example of a _strict homotopy limit_, as mentioned at [[homotopy limit]].  In such a case, one can say that an arbitrary homotopy-commutative square
+
+$$
+  \array{
+   W & \to& Y
+   \\
+    \downarrow && \downarrow
+   \\
+   X &\to& Z
+  }
+$$
+
+is a homotopy pullback square if the induced morphism from $W$ to the strict homotopy pullback is a [[weak equivalence]].
+
+
+
+Let $\mathcal{C}$ be a [[category of fibrant objects]], such as the category $KanCplx \hookrightarrow sSet$ of [[Kan complexes]] or the category [[Top]] of ([[convenient category of topological spaces|convenient]]) [[topological spaces]].
+
++-- {: .num_lemma}
+###### Lemma
+Given any [[product]]
+  $$ X \overset{p_{X}}{\leftarrow} X \times Y
+       \overset{p_{Y}}{\rightarrow} Y $$
+in $\mathcal{C}$, the [[projections]] $p_{X}$ and $p_{Y}$ are [[fibrations]].
+=--
+
++-- {: .proof}
+###### Proof
+
+By one of the axioms for a category of fibrant objects, $\mathcal{C}$ has a final object $1$. We have the following.
+
+1) The following diagram in $\mathcal{C}$ is a cartesian square.
+
+$$
+   \array{
+      X \times Y               &  \overset{p_{Y}}{\to} & Y \\
+      p_{X} \downarrow &                                      & \downarrow  \\
+      X                            & \to                                 & 1 \\ 
+   }
+$$
+
+2) By one of the axioms for a category of fibrant objects, the arrows $Y \to 1$ and $X \to 1$ are fibrations. 
+
+By one of the axioms for a category of fibrant objects, it follows from 1) and 2) that $p_{X}$ and $p_{Y}$ are fibrations.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+Given an object $X$ in $\mathcal{C}$, let $X^I$ be a [[path space object]] for $X$ and let
+  $$ d = (d_0, d_1) : X^I \twoheadrightarrow X \times X $$
+denote the canonical [[fibration]].
+The morphisms $d_0 : X^I \to X$ and $d_1 : X^I \to X$ are both [[trivial fibrations]].
+=--
+
++-- {: .proof}
+###### Proof
+
+We have the following.
+
+1) The following diagram in $\mathcal{C}$ commutes.
+
+$$
+   \array{
+      X &  \overset{i}{\hookrightarrow}                                         & X^I \\
+          &    \underset{id_X}{\searrow}                    & \downarrow d_{0} \\
+          &                                                                    & X
+   }
+$$
+
+2) By one of the axioms for a category of fibrant objects, $id_X$ is a weak equivalence. 
+
+By the 2-out-of-3 axiom for a category of fibrant objects, we deduce from 1), 2), and the fact that $c$ is a weak equivalence, that $d_{0}$ is a weak equivalence.
+
+An entirely analogous argument demonstrates that $d_{1}$ is a weak equivalence.
+=--
+
+The **[[factorization lemma]]**
+
++-- {: .num_lemma #FibrantResolution}
+###### Lemma
+**(Fibrant resolution of a morphism).**
+Let $f : X \to Y$ a morphism in $\mathcal{C}$.  There exists a canonical [[fibration]] $g : X \times_Y Y^I \twoheadrightarrow Y$ which factors through $f$ via a [[trivial fibration]] $s: X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$.
+Here $Y^I$ is a [[path space object]] for $Y$.
+
+$$
+   \array{
+      X \times_Y Y^I & \overset{s}{\to} & X \\
+          & \underset{g}{\searrow} & \downarrow{f} \\
+          & & Y 
+   }
+$$
+=--
+
++-- {: .proof}
+###### Proof
+Let $d = (d_0, d_1) : Y^I \twoheadrightarrow Y \times Y$ be the canonical [[fibration]].  Let $s : X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$ denote the [[base change]] of $d_0$ along $f$; this is a [[trivial fibration]] because $d_0$ is by lemma 2, and trivial fibrations are stable under base change.
+
+Let $g$ denote the composite
+  $$ g : X \times_Y Y^I \to Y^I \stackrel{d_1}{\twoheadrightarrow} Y. $$
+One can see that this is a fibration by observing that it is the same as the composite
+  $$ X \times_Y Y^I \to X \times_Y Y \times Y = X \times Y \to X \times e = X $$
+where $e$ is the [[final object]] of $C$.
+Here, the first morphism $id_X \times_Y d$ is a fibration because it is a base change of the fibration $d$; the second is a fibration because it is a base change of the fibration $Y \to e$ ($Y$ is [[fibrant object|fibrant]]).
+=--
+
++-- {: .num_prop}
+###### Proposition
+**(Factorization lemma).**
+Any morphism $f : X \to Y$ in $\mathcal{C}$ admits a factorization as a [[weak equivalence]] $i$ followed by a [[fibration]] $p$, such that $i$ is [[right inverse]] to a [[trivial fibration]].
+$$
+   \array{
+      X &  \overset{i}{\to}             & \hat X \\
+          & \underset{f}{\searrow} & \downarrow p \\
+          &                                        & Y 
+   }
+$$
+=--
+
++-- {: .proof}
+###### Proof
+Let $p : \hat X = X \times_Y Y^I \twoheadrightarrow Y$ be a [[fibration|fibrant]] resolution of $f$ as in Lemma 3, so that there is a commutative diagram
+$$
+   \array{
+      \hat X & \overset{s}{\to} & X \\
+          & \underset{p}{\searrow} & \downarrow{f} \\
+          & & Y 
+   }
+$$
+Let $j : Y \stackrel{\sim}{\to} Y^I$ denote the canonical [[weak equivalence]].  Since the square
+$$
+   \array{
+      X & \overset{id_X}{\to} & X \\
+      \downarrow{j f} & & \downarrow{f} \\
+      Y^I & \overset{d_0}{\to} & Y
+   }
+$$
+commutes, one gets an induced morphism $i = (id_X, j f) : X \to \hat X$ by the [[universal property]] of the [[pullback]], which by definition has left inverse $s$ and makes the diagram
+$$
+   \array{
+      X &  \overset{i}{\to}             & \hat X \\
+          & \underset{f}{\searrow} & \downarrow p \\
+          &                                        & Y 
+   }
+$$
+commute.
+
+=--
+
+(...)
+
+[[pasting law]]
+
+(...)
 
 
 Given a morphism $f \colon A \longrightarrow B$ there is the following pasting composite of [[homotopy fibers]]
@@ -1353,11 +1828,11 @@ $$
   \array{
     \cdots && \vdots
     \\
-    && \downarow && \downarrow
+    && \downarrow && \downarrow
     \\
     && \Omega ker(f) &\longrightarrow& \Omega A &\longrightarrow& \ast
     \\
-    && \downarrow && \downarrow &\swArrow& \downarrow
+    && \downarrow &\swArrow& \downarrow &\swArrow& \downarrow
     \\
     && \ast &\longrightarrow& \Omega B &\stackrel{}{\longrightarrow}& ker(f) &\longrightarrow& \ast
     \\
@@ -1368,7 +1843,7 @@ $$
 $$
 
 
-hence a long fiber sequence of morphisms 
+hence a long [[homotopy fiber sequence]] of morphisms 
 
 $$
   \cdots
@@ -1385,6 +1860,9 @@ $$
     \stackrel{f}{\longrightarrow} B
   \,.
 $$
+
++-- {: .num_remark}
+###### Remark
 
 A subtlety to be aware of here is that $\Omega B$ is not quite $ker(ker(f))$, but the latter instead is $\bar \Omega f$, where $\bar \Omega$ denotes loops with reversed orientation.
 
@@ -1492,13 +1970,90 @@ $$
 
 Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Since it is these 2-morphisms/homotopies that become the loops in the loop space, it is here that loop reversal appears in translating between the naive iterated homotopy fiber to the construction that actually appears in the above pasting composite.
 
+=--
 
+By the [[universal property]] of the homotopy pullback:
 
-...[[long exact sequence of homotopy groups]]...
++-- {: .num_prop}
+###### Proposition
 
+If
 
-(...)
+$$
+  ker(f) \stackrel{g}{\longrightarrow} A \stackrel{f}{\longrightarrow} B
+$$
 
+is a [[homotopy fiber sequence]], then its image under the 0th [[simplicial homotopy group]] functor, def. \ref{UnderlyingSetsOfSimplicialHomotopyGroups},
+
+$$
+  \pi_0(ker(f)) 
+    \stackrel{\pi_0(g)}{\longrightarrow}
+  \pi_0(A)
+    \stackrel{\pi_0(f)}{\longrightarrow}
+  \pi_0(B)
+$$
+
+is an [[exact sequence]].
+
+=--
+
++-- {: .num_prop #LongExactSequenceofHomotopyGroups}
+###### Proposition
+
+Applying this to a long [[homotopy fiber sequence]]
+
+$$
+  \cdots
+    \to
+  \Omega ker(f)
+    \longrightarrow
+  \Omega A 
+    \stackrel{\Omega f}{\longrightarrow}
+  \Omega B 
+    \longrightarrow 
+  ker(f) 
+    \stackrel{g}{\longrightarrow}
+  A 
+    \stackrel{f}{\longrightarrow} B
+  \,.
+$$
+
+yields a [[long exact sequence]] (of groups, ending in pointed sets)
+
+$$
+  \cdots
+  \to
+  \pi_{n+1}(B)
+    \stackrel{\delta}{\longrightarrow}
+  \pi_n(ker(f))
+    \stackrel{g_\ast}{\longrightarrow}
+  \pi_n(A)
+    \stackrel{f_\ast}{\longrightarrow}
+  \pi_n(B)
+    \stackrel{\delta}{\longrightarrow}
+  \pi_{n-1}(ker(f))
+    \to
+  \cdots
+$$
+
+$$
+  \cdots 
+    \to
+  \pi_1(B) 
+    \stackrel{\delta}{\longrightarrow}
+  \pi_0(ker(f)) 
+    \stackrel{g_\ast}{\longrightarrow} 
+  \pi_0(A) 
+    \stackrel{f_\ast}{\longrightarrow}
+  \pi_0(B)
+$$
+
+called the _[[long exact sequence of homotopy groups]]_. associated with $f$.
+Here $\delta$ is called the _[[connecting homomorphism]]_.
+
+=--
+
+...see also below the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum)...
 
 ## **Part 1) Stable homotopy theory**
 
@@ -1633,7 +2188,11 @@ In contrast to the classical [[homotopy category]], the stable homotopy category
 ### Localization
  {#Localization}
 
-[[Bousfield localization of spectra]] and [[fracture theorem]]
+[[Bousfield localization of spectra]]
+
+[[fracture theorem]], 
+
+[[Bousfield-Kan spectral sequence]]
 
 +-- {: .num_defn #AcyclicAndLocal}
 ###### Definition
@@ -3402,7 +3961,7 @@ $$
   \,.
 $$
 
-Here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] via [[connecting homomorphisms]] $\delta_\bullet^k$
+By prop. \ref{LongExactSequenceofHomotopyGroups}, here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] via [[connecting homomorphisms]] $\delta_\bullet^k$
 
 $$
   \cdots
