@@ -498,13 +498,15 @@ The smash product on $[sSet^{\ast/}_{fin}, sSet^{\ast/}]$ considered ([Lydakis 9
 +-- {: .proof}
 ###### Proof
 
-As in ([MMSS00](Day%20convolution#MMSS00)), the Day convolution product is characterized by making a [[natural isomorphism]] of the form
+The [[Day convolution]] product is characterized (see [this proposition](Day+convolution#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) by making a [[natural isomorphism]] of the form
 
 $$
   [sSet^{\ast/}_{fin}, sSet^{\ast/}](X \wedge Y, Z) \simeq [sSet^{\ast/}_{fin} \times sSet^{\ast/}_{fin}, sSet^{\ast/}](X \tilde{\wedge} Y, Z \circ \wedge)
 $$
 
-where the _external smash product_ $\tilde {\wedge}$ on the right is defined by $X \tilde{\wedge} Y  \coloneqq  \wedge \circ (X,Y) $. Now, ([Lydakis 98, def. 5.1](#Lydakis98)) sets 
+where the _external smash product_ $\tilde {\wedge}$ on the right is defined by $X \tilde{\wedge} Y  \coloneqq  \wedge \circ (X,Y) $. 
+
+Now, ([Lydakis 98, def. 5.1](#Lydakis98)) sets 
 
 $$
   X \wedge Y \coloneqq \wedge_\ast (X \tilde{\wedge} Y) 
