@@ -134,7 +134,7 @@ Let $A \to C \leftarrow B$ be a [[diagram]] in some [[model category]]. Then suf
 
 =--
 
-Both statements are classical. They are reviewed for instance as [Lurie, prop. A.2.4.4](#Lurie). The proof of the second statement is spelled out [here](http://ncatlab.org/nlab/show/proper+model+category#HomotopyLimits).
+Both statements are classical. They are reviewed for instance as [Lurie, prop. A.2.4.4](#Lurie). The proof of the second statement is spelled out [here](proper+model+category#HomotopyLimits).
 
 +-- {: .num_remark }
 ###### Remark
