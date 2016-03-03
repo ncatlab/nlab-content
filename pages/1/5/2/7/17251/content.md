@@ -1,0 +1,9 @@
+
+The term _simplicial functor_ is usually used to refer to [[sSet]]-[[enriched functors]], hence to _simplicially enriched functors_, hence to [[morphisms]] between [[simplicially enriched categories]].
+
+In principle, but less commonly so in practice, it may also refer to  a morphism of [[simplicial object in Cat]].
+
+See the discussion at _[[simplicial category]]_.
+
+[[!redirects simplicial functors]]
+
