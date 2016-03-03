@@ -18,13 +18,16 @@
 
 ## Idea
 
-Just as we can convolve [[function|functions]] $f : M \to \mathbb{C}$ where $M$ is a [[group]], or more generally a [[monoid]], we can convolve [[functor|functors]] $f: M \to Set$ where $M$ is a [[monoidal category]].  So, for any monoidal category $M$, the [[functor category]] $Set^M$ becomes a monoidal category in its own right.  The tensor product in $Set^M$ is called **Day convolution** ([Day 70](#Day70)).
+The [[category of presheaves]] over the [[opposite category|opposite]] of a [[monoidal category]] canonically inherits itself a monoidal category structure via a [[categorification|categorified]] [[convolution product]]. This holds generally in the context of [[enriched category theory]]. This was first observed by ([Day 70](#Day70)) and accordingly these monidal structures are called _Day convolutions_ products.
 
-This may be generalized by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the tensor product $u \otimes v$ must preserve colimits in the separate arguments $u$ and $v$; that is, that the functors $u \otimes -$ and $- \otimes v$ must preserve colimits. This occurs when for instance $V$ is symmetric monoidal closed (so that these functors are left adjoints). 
+More in detail, just as there is [[convolution]] of  [[functions]] $f : G \to \mathbb{C}$ whenever $G$ carries the structure of a  [[group]], or more generally just the structure of a [[monoid]], so there is convolution of  [[functors]] $f \colon  \mathcal{G} \to Set$ whenever the [[category]] $\mathcal{G}$ carries the structure of a [[monoidal category]].  
+
+This may be generalized by replacing [[Set]] with a more general [[cocomplete category|cocomplete]] [[symmetric monoidal category]] $V$. The technical condition is that the [[tensor product]] $u \otimes v$ preserves [[colimits]] in its two arguments seperatey; hence that the functors $u \otimes -$ and $- \otimes v$ preserve colimits. This occurs notably when $V$ is symmetric [[closed monoidal category|closed monoidal]] (so that these functors are [[left adjoints]]). 
 
 ## Definition
 
 ### For monoidal categories
+ {#ForMonoidalCategories}
 
 For $(C, \otimes)$ a [[monoidal category]] and $F, G : C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[coend]]
 
@@ -35,6 +38,112 @@ $$
   F(c) \times G(d) \times Hom_C(-, c \otimes d)
   \,.
 $$
+
+More generally: 
+
+Let $V$ be a good [[symmetric monoidal category]] for $V$-[[enriched category theory]] (a [[Benabou cosmos]]).
+
+For $\mathcal{C}$ a $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
+
++-- {: .num_defn #DayConvolutionProduct}
+###### Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
+
+$$
+  \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
+$$
+
+given by the [[coend]]
+
+$$
+  X \otimes_{Day} Y
+  \;\colon\;
+  c \mapsto
+  \int^{c_1, c_2 \in \mathcal{C}}
+  F(c_1) \otimes F(c_2) \otimes [c_1 \otimes c_2, c]
+  \,.
+$$
+
+=--
+
+We may think of this equivalently as a [[Kan extension]]:
+
++-- {: .num_defn #DayConvolutionProduct}
+###### Definition
+
+For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
+
+$$
+  \tilde \otimes 
+   \coloneqq
+   \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow 
+   [\mathcal{C}\times \mathcal{C}, V]
+$$
+
+given by 
+
+$$
+  X \tilde \otimes Y  \coloneqq \otimes \circ (X,Y)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{DayConvolutionProduct}: there is a [[natural isomorphism]]
+
+$$
+  X \otimes_{Day} Y
+  \simeq
+  Lan_\otimes (X \tilde \otimes Y)
+  \,.
+$$
+
+=--
+
+This perspective is highlighted in [MMSS 00, p. 60](#MMSS00)
+
++-- {: .proof}
+###### Proof
+
+The general formula for pointwise Kan extension via coents ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
+
+$$
+  Lan_p F \;\colon\; e \mapsto \int^{d\in \mathcal{D}} \mathcal{E}(p(d), e) \otimes F(d)
+  \,.
+$$
+
+In our case 
+
+* $\mathcal{D} = \mathcal{C}\times \mathcal{C}$;
+
+* $\mathcal{E} = \mathcal{C}$;
+
+* $p = \otimes$;
+
+*  $F = X \tilde \otimes X$ 
+
+and hence the general formula here becomes
+
+$$
+  \begin{aligned}
+    (Lan_{\otimes} X \tilde \otimes Y)(c)
+    & \simeq
+    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
+    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( (X \tilde \otimes Y)(c_1,c_2) )
+    \\
+    & \simeq 
+    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
+    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( X(c_1) \otimes Y(c_2) )
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 ### For promonoidal categories
@@ -49,51 +158,48 @@ Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
 There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
 =--
 
-+-- {: .proof}
-###### Proof
-
-...
-
-=--
+This is claimed without proof in ([Day 70](#Day70)).
 
 
 
 ## Properties 
   {#Properties}
 
-Let $j : C \to PSh(C)$ be the [[Yoneda embedding]]. 
+### Basic propertires
+
+Let $j \colon C \to PSh(C)$ be the [[Yoneda embedding]]. 
 
 +-- {: .num_lemma}
 ###### Lemma
 
-With $I \in C$ the tensor unit of $C$, the presheaf $j(I)$ is a unit for the Day convolution product.
+With $I \in C$ the [[tensor unit]] of $C$, then the presheaf $j(I)$ that it [[representable functor|represents]] is a tensor unit for the Day convolution product.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Using the [[co-Yoneda lemma]] on the two [[coend]]s we have
+Using the [[co-Yoneda lemma]] on the two [[coends]] we have
 
 $$
   \begin{aligned}
-  F \star j(I)
-  &  \simeq
-  \int^{c,d \in C}
-  F(c) \times Hom_C(d,I)
-  \times
-  Hom_C(-, c\otimes d)
-  \\
-  & \simeq
-  \int^{c \in C}
-  F(c) \times Hom_C(-, c \otimes I)
-  \\
-  & \simeq
-  \int^{c \in C}
-  F(c) \times Hom_C(-, c)
-  \\
-  & \simeq
-  F(-)
+    F \star j(I)
+    &  \simeq
+    \int^{c,d \in C}
+    F(c) \times Hom_C(d,I)
+    \times
+    Hom_C(-, c\otimes d)
+    \\
+    & \simeq
+    \int^{c \in C}
+    F(c) \times Hom_C(-, c \otimes I)
+    \\
+    & \simeq
+    \int^{c \in C}
+    F(c) \times Hom_C(-, c)
+    \\
+    & \simeq
+    F(-)
   \end{aligned}
   \,.
 $$
@@ -134,7 +240,12 @@ $$
 
 =--
 
+### Monoids with respect to Day convolution
 
+Given any [[monoidal category]] then one may consider [[monoid objects]] inside it.
+
+The [[monoid objects]] with respect to Day convolution are equivalently what elsewhere are called [[functors with smash product]] ([MMSS 00, section 22](#MMSS00)).
+ 
 
 ## Examples
 
@@ -247,4 +358,3 @@ Day convolution for [[(∞,1)-categories]] is discussed in
 
 [[!redirects Day convolution product]]
 [[!redirects Day convolution products]]
-
