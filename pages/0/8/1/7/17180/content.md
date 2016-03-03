@@ -26,7 +26,7 @@ Special case of a [[model structure for n-excisive functors]].
 
 ## Definition
 
-### The underlying category
+### The underlying categories
 
 +-- {: .num_defn #SimplicialSetsPointedAndFinite}
 ###### Definition
@@ -37,7 +37,7 @@ Write
 
 * $sSet^{\ast/}$ for the category of [[pointed object|pointed]] simplicial sets;
 
-* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/}$ for the [[category]] of [[pointed object|pointed]] [[simplicial object|simplicial]] [[finite sets]] . 
+* $sSet_{fin}^{\ast/}\simeq s(FinSet)^{\ast/} \hookrightarrow sSet^{\ast/}$ for the [[full subcategory]] of [[pointed object|pointed]] [[simplicial object|simplicial]] [[finite sets]].
 
 Write
 
@@ -126,6 +126,7 @@ $$
 
 =--
 
+
 We regard all the categories in def. \ref{SimplicialSetsPointedAndFinite} canonically as [[simplicially enriched categories]], and in fact regard $sSet^{\ast/}$ and $sSet^{\ast/}_{fin}$ as $sSet^{\ast/}$-[[enriched categories]]. 
 
 +-- {: .num_remark }
@@ -163,7 +164,7 @@ $$
 
 =--
 
-The category we are interested in is the $sSet^{\ast/}$-[[enriched functor category]]
+The category that is discussed [below](#TheModelStructures) to support a model structure for [[excisive functors]] is the  $sSet^{\ast/}$-[[enriched functor category]]
 
 $$
   [sSet^{\ast/}_{fin}, sSet^{\ast/}]
@@ -172,13 +173,115 @@ $$
 
 ([Lydakis 98, example 3.8, def. 4.4](#Lydakis98))
 
+In order to compare this to model structures for [[sequential spectra]] we consider also the following variant.
+ 
++-- {: .num_defn #CategoriesOfStandardSpheres}
+###### Definition
+
+Write $S^1_{std} \coloneqq \Delta[1]/\partial\Delta[1]\in sSet^{\ast/}$ for the standard minimal pointed simplicial [[1-sphere]].
+
+Write 
+
+$$
+  \iota \;\colon\; StdSpheres \longrightarrow sSet^{\ast/}_{fin}
+$$
+
+for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] of pointed [[simplicial object|simplicial]] [[finite sets]], def. \ref{SimplicialSetsPointedAndFinite} whose
+
+* [[objects]] are the [[smash product]] powers $S^n_{std} \coloneqq (S^1_{std})^{\wedge^n}$ (the standard minimal simplicial [[n-spheres]]);
+
+* [[hom-objects]] are
+
+  $$
+    [S^{n}_{std}, S^{n+k}_{std}]_{StdSpheres}
+    \coloneqq
+    \left\{
+      \array{
+        \ast & for & k \lt 0
+        \\
+        im(S^{k}_{std} \stackrel{}{\to} [S^n_{std}, S^{n+k}_{std}]_{sSet^{\ast/}_{fin}})
+        & otherwise
+      }
+    \right.
+  $$
+
+=--
+
+([Lydakis 98, def. 4.2](#Lydakis98))
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+There is an $sSet^{\ast/}$-[[enriched functor]] 
+
+$$
+  (-)^seq
+  \;\colon\;
+  [StdSpheres,sSet^{\ast/}]
+    \longrightarrow
+  SeqPreSpec(sSet)
+$$
+
+(from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of [[sequential prespectra]] in [[sSet]]) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+
+$$
+  X^{seq}_n \coloneqq X(S^n_{std})
+$$
+
+and with structure maps
+
+$$
+  \frac{S^1_{std} \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1_{std} \longrightarrow [X^{seq}_n, X^{seq}_{n+1}]}
+$$
+
+given by
+
+$$
+  S^1_{std} 
+    \stackrel{\widetilde{id}}{\longrightarrow}
+  [S^n_{std}, S^{n+1}_{std}]
+    \stackrel{X_{S^n_{std}, S^{n+1}_{std}}}{\longrightarrow}
+  [X^{seq}_n, X^{seq}_{n+1}]
+  \,.
+$$
+
+This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of categories]].
+
+=--
+
+([Lydakis 98, prop. 4.3](#Lydakis98))
+
+
+### The model structures
+ {#TheModelStructures}
+
+spring
 
 ## Properties
 
-### Model structure for spectra
+### Relation to BF-model structure on sequential spectra
  {#ModelStructureForSpectra}
 
-The model structure for 1-excisive functors (from pointed finite homotopy types to pointed homotopy types) is [[Quillen equivalence|Quillen equivalent]] to the [[Bousfield-Friedlander model structure]] [[model structure for spectra|for spectra]] ([Lydakis 98, theorem 11.3](#Lydakis98)).
++-- {: .num_prop}
+###### Proposition
+
+The [[adjunction]]
+
+$$
+  (\iota_\ast \dashv \iota^\ast)
+  \;\colon\;
+  [sSet^{\ast/}_{fin}, sSet^{\ast/}]_{Ly}
+    \stackrel{\overset{\iota_\ast}{\longleftarrow}}{\underset{\iota^\ast}{\longrightarrow}}
+  [StdSpheres, sSet^{\ast/}]
+    \underoverset{\simeq}{(-)^{seq}}{\longrightarrow}
+  SeqPreSpec(sSet)_{BF}
+$$
+
+(given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$, and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
+
+=--
 
 ### Symmetric monoidal smash product
  {#SmashProduct}
@@ -247,7 +350,5 @@ Further generalization of the model structure for excisive functor, in particula
 
 [[!redirects model structure on excisive functors]]
 [[!redirects model structures on excisive functors]]
-
-
 
 
