@@ -453,7 +453,7 @@ $$
   0
 $$
 
-has been constructed, where all the $J_\cdot$ are projective objects. Froming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
+has been constructed, where all the $J_\cdot$ are projective objects. Forming the [[kernel]] of $\partial_{n-1}$ yields the [[short exact sequence]]
 
 $$
   0 \to ker(\partial_{n-1})
