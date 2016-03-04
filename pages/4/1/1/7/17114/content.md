@@ -169,6 +169,9 @@ The original "handicrafted" constructions of the smash product on the [[stable h
 
 * {#Adams74} [[Frank Adams]], part III, section 4 of _[[Stable homotopy and generalised homology]]_, 1974
 
+The smash product on [[connective spectra]] modeled as [[Gamma spaces]] is discussed in
+
+* {#Lydakis98} Lydakis, _Smash products and $\Gamma$-spaces_, Math. Proc. Cam. Phil. Soc. 126 (1999), 311-328 ([pdf](http://hopf.math.purdue.edu/Lydakis/smash_gamma.pdf))
 
 The [[symmetric smash product on spectra]] (see there for more) on [[highly structured ring spectra]] is discussed for instance in
 
