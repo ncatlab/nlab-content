@@ -26,13 +26,19 @@ The [[category]] of _orthogonal spectra_  is a [[presentable (∞,1)-category|pr
 
 ## Related concepts
 
-[[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
+[[model structure on spectra]]
+
+* [[sequential spectrum]], [[model structure on sequential spectra]]
+
+with [[symmetric monoidal smash product of spectra]]
 
 * [[symmetric spectrum]], [[model structure on symmetric spectra]]
 
 * [[orthogonal spectrum]], **model structure on orthogonal spectra**
 
 * [[S-module]], [[model structure on S-modules]]
+
+* [[excisive functor]], [[model structure on excisive functors]]
 
 [[model structure on ring spectra]]
 
