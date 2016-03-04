@@ -2,7 +2,7 @@
 
 **Claude L&#233;vi-Strauss** (1908-2009) was a French anthropologist and a towering figure of 20th century social sciences.
 
-After meeting the linguist [[Roman Jakobson]] during WW2 in New York, L&#233;vi-Strauss extended the structuralist outlook from linguistics to anthropology. By conceiving of marriage systems and myths as abstract networks of relations he opened up new avenues for research and paved the way for the application of mathematical methods in anthropology. His views as exposed in the monumental _Structures &#233;l&#233;mentaires de la parent&#233;_ (1949/1967), the four volumes _Mythologiques I-IV_ (1964,1967,1968,1971), and his other writings, were as influential as controversial.
+After meeting the linguist [[Roman Jakobson]] during WW2 in New York, L&#233;vi-Strauss extended the structuralist outlook from [[linguistics]] to anthropology. By conceiving of marriage systems and myths as abstract networks of relations he opened up new avenues for research and paved the way for the application of mathematical methods in anthropology. His views as exposed in the monumental _Structures &#233;l&#233;mentaires de la parent&#233;_ (1949/1967), the four volume _Mythologiques I-IV_ (1964,1967,1968,1971), and his other writings, were as influential as controversial.
 
 ## On category theory
 
@@ -33,5 +33,9 @@ _La d&#233;finition des cat&#233;gories, comme syst&#232;mes form&#233;s &#224; 
 * {#LS71} Claude L&#233;vi-Strauss, _Mythologiques IV: L'Homme nu_ , Plon Paris 1971.
 
 * Claude L&#233;vi-Strauss, _Reflexions sur l'atome de parent&#233;_ , L'Homme **13** no.3 (1973) pp.5-30. ([link](http://www.persee.fr/doc/hom_0439-4216_1973_num_13_3_367355))
+
+[[!redirects Levi-Strauss]]
+[[!redirects Claude Lévi-Strauss]]
+[[!redirects Lévi-Strauss]]
 
 category: people
