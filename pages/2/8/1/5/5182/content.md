@@ -27,7 +27,11 @@ Typically and naturally, a model structure on spectra forms a [[stable model cat
 
 ## Examples
 
-A classical model structure on [[sequential spectra]] in [[simplicial sets]], not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)) the 
+A classical 
+
+* [[model structure on sequential spectra]] 
+
+in [[simplicial sets]], not however with a symmetric monoidal smash product, is ([Bousfield-Friedlander 78](#BousfieldFriedlander78)) the 
 
 * _[[Bousfield-Friedlander model structure]]_.
 
