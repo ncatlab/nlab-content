@@ -613,11 +613,23 @@ this is a special casse of a general property of [[Day convolution]], see [this 
 
 ## Related concepts
 
-* [[model structure on functors]]
+[[model structure on functors]]
 
-* [[model structure for spectra]]
+[[model structure on spectra]]
 
-* [[model structure for n-excisive functors]]
+* [[sequential spectrum]], [[model structure on sequential spectra]]
+
+with [[symmetric monoidal smash product of spectra]]
+
+* [[symmetric spectrum]], [[model structure on symmetric spectra]]
+
+* [[orthogonal spectrum]], [[model structure on orthogonal spectra]]
+
+* [[S-module]], [[model structure on S-modules]]
+
+* [[excisive functor]], **model structure on excisive functors**
+
+[[model structure for n-excisive functors]]
 
 ## References
 
