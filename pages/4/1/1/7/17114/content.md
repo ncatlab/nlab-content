@@ -150,6 +150,8 @@ See also ([MMSS 00, example 4.1](#MMSS00)).
 
 ## Definitions
 
+* _[smash product of sequential spectra](sequential+spectrum#SmashProduct)_
+
 * _[smash product of excisive functors](model+structure+for+excisive+functors#SmashProduct)_
 
 * _[smash product of symmetric spectra](symmetric+spectrum#SmashProduct)_
