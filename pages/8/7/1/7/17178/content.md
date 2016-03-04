@@ -22,7 +22,7 @@ This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still th
 
 ## Definition
 
-In what follows, $sSet$ denotes the category of [[simplicial sets]] and $sSet^{\ast/}$ the category $\ast/sSet$ of pointed simplicial sets (the [[undercategory]] under the terminal object $\ast$), which may be thought of as a possible base of [[enriched category|enrichment]]. 
+In what follows, [[sSet]] denotes the [[category]] of [[simplicial sets]] and $sSet^{\ast/}$ the category $\ast/sSet$ of [[pointed objects|pointed]] simplicial sets (the [[undercategory]] under the [[terminal object]] $\ast$), which may be thought of as a possible base of [[enriched category|enrichment]]. 
 
 +-- {: .num_defn #Spectra}
 ###### Definition
