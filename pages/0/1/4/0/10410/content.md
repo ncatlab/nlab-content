@@ -61,6 +61,8 @@ Let $c$ denote the left adjoint of the nerve functor and let $Sd$ denote the [[s
 
 This is [Thomason, Proposition 4.2](#Thomason).
 
+So among the Dwyer maps are all cofibrations in the Thomason model structure. But not all Dwyer maps are Thomason cofibrations -- for example, the unique functor $\emptyset \to C$ is always a Dwyer map, but not every category is Thomason-cofibrant.
+
 ## References
 
 *  [[Robert Thomason|R. W. Thomason]], _Cat as a closed model category_,
