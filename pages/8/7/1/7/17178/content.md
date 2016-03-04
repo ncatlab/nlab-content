@@ -92,6 +92,7 @@ of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]]
 
 ## Properties
 
+
 ### Model category structures
 
 There is a standard [[model structure on spectra]] for sequential spectra in [[Top]] ([Kan 63](#Kan63)) and for sequential spectra in [[simplicial sets]]: this is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
@@ -279,6 +280,63 @@ By [this remark](smash+product+of+spectra#WhySequentialSpectraHaveNoSymmetricSma
 the graded-commutativity implicit in the [[braiding]] of the [[smash product]] of [[n-spheres]] is not reflected after restricting from $(sSet^{\ast/}, \wedge)$ to the non-full subcategory $StdSpheres$.
 
 =--
+
+### Smash product
+ {#SmashProduct}
+
+The [[smash product of spectra]] realized on sequential spectra never has good proprties before passage to the [[stable homotopy category]] or lift to better models (see [here](smash%20product+of+spectra#GradedCommutativity)), but it may still be defined in various ways:
+
++-- {: .num_defn #SmashProductByDoublingDegrees}
+###### Definition
+
+For $X,Y$ two sequential spectra, def. \ref{Spectra}, their smash product $X \wedge Y$ is the sequential spectrum which in even degrees is given by the [[smash product]] fo the pointed component spaces of half that degree
+
+$$
+  (X\wedge Y)_{2n} \coloneqq X_n \wedge Y_n
+$$
+
+and in odd degree by 
+
+$$
+  (X\wedge Y)_{2n+1} \coloneqq S^1 \wedge X_n \wedge Y_n
+$$
+
+with structure maps being in even degree the identity
+
+$$
+  \sigma^{X \wedge Y}_{2 n} \colon S^1 \wedge (X \wedge Y)_{2n} = S^1 \wedge X_n \wedge Y_n = (X \wedge Y)_{2n+1}
+$$
+
+and in odd degree as the composite
+
+$$
+  \sigma^{X\wedge Y}_{2n+1} 
+    \colon 
+  S^1 \wedge (X \wedge Y)_{2n+1} 
+  \simeq
+  S^1 \wedge S^1 \wedge X_n \wedge Y_n
+  \simeq
+  S^1 \wedge X_n \wedge S^1 \wedge Y_n
+  \stackrel{\sigma_n^X \wedge \sigma^Y_n}{\longrightarrow}  
+  X_{n+1} \wedge Y_{n+1}
+  \simeq
+  (X\wedge Y)_{2n+2}
+  \,.
+$$
+
+=--
+
+([Lydakis 98, def. 10.20](#Lydakis98), [Lydakis 98b, def. 5.9](Gamma-space#Lydakis98))
+
++-- {: .num_prop #SmashProductCompatibleWithTheOneOnSpectra}
+###### Proposition
+
+Under the Quillen equivalence of prop. 
+\ref{QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors} the symmetric monoidal [[Day convolution product]] on excisive simplicial functors is identified with the proper [[smash product of spectra]] realized on sequential spectra via def. \ref{SmashProductByDoublingDegrees}.
+
+=--
+
+([Lydakis 98, theorem 12.5](#Lydakis98))
 
 ## References
 
