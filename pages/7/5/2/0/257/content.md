@@ -27,19 +27,19 @@
 
 A __model category__ (sometimes called a _Quillen model category_ or a _closed model category_) is a context for doing [[homotopy theory]].    Quillen developed the definition of a model category to formalize the similarities between [[homotopy theory]] and [[homological algebra]]: the key examples which motivated his definition were the category of [[topological space|topological spaces]], the category of [[simplicial set|simplicial sets]], and the category of [[chain complex|chain complexes]].
 
-So, what is a model category?  For starters, it is a category equipped with three classes of morphisms, each closed under composition: [[weak equivalences]], [[fibrations]] and [[cofibration|cofibrations]]:
+So, what is a model category?  For starters, it is a [[category]] equipped with three [[classes]] of [[morphisms]], each closed under [[composition]] and  called _[[weak equivalences]]_, _[[fibrations]]_ and _[[cofibrations]]_:
 
-* The weak equivalences play the role of 'homotopy equivalences' or something a bit more general.  Already in the case of [[topological space|topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces isomorphisms on homotopy groups for any choice of basepoint in the first space.  These maps are more general than homotopy equivalences, so they are called 'weak equivalences'.
+* The weak equivalences play the role of '[[homotopy equivalences]]' or something a bit more general (such as [[weak homotopy equivalences]]).  Already in the case of [[topological spaces]], it is useful to say that two spaces have the same [[homotopy type]] if there is a map from one to the other that induces [[isomorphisms]] on [[homotopy groups]] for any choice of basepoint in the first space.  These maps are more general than homotopy equivalences, so they are called 'weak equivalences'.
 
-* The [[fibrations]] play the role of 'nice surjections'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[model structure on topological spaces]], a locally trivial [[fiber bundle]] is typically a fibration.
+* The [[fibrations]] play the role of 'nice surjections'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[model structure on topological spaces]], a locally trivial [[fiber bundle]] is a fibration. More generally the fibrations here are the [[Serre fibrations]].
 
 * The [[cofibrations]] play the role of 'nice inclusions'.  For example, in the category [[Top]] of [[topological spaces]] with its usual [[model structure on topological spaces]], an [[NDR pair]] is typically a cofibration.  
 
-A bit more technically: we can define an [[(∞,1)-category]] starting from any [[category with weak equivalences]].  The idea is that this (∞,1)-category keeps track of objects in our original category, morphisms between objects, homotopies between maps, homotopies between homotopies, and so on, _ad infinitum_.  However, the extra structure of a model category makes it easier to work with this (∞,1)-category.  We can obtain this (∞,1)-category in various ways, including [[simplicial localization]] if we want to obtain a simplicially enriched category as a variant of (∞,1)-category. Alternatively, to obtain a [[quasicategory]], given a model category $M$, the simplicial nerve $N_\Delta(M_{cf})$ of the subcategory $M_{cf}\subset M$ of cofibrant-fibrant objects is a quasicategory. We say this [[(∞,1)-category]] is _presented_ (or modeled) by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category. Not every (∞,1)-category is obtained in this way (otherways it would necessarily have homotopy limits and colimits).
+A bit more technically: we can define an [[(∞,1)-category]] starting from any [[category with weak equivalences]].  The idea is that this (∞,1)-category keeps track of [[objects]] in our original category, [[morphisms]] between objects, [[homotopies]] between morphisms, homotopies between homotopies, and so on, _ad infinitum_.  However, the extra structure of a model category makes it easier to work with this (∞,1)-category.  We can obtain this (∞,1)-category in various ways, including [[simplicial localization]] if we want to obtain a [[simplicially enriched category]] as a variant of (∞,1)-category. Alternatively, to obtain a [[quasicategory]], given a model category $M$, the [[simplicial nerve]] $N_\Delta(M_{cf})$ of the subcategory $M_{cf}\subset M$ of cofibrant-fibrant objects is a quasicategory. We say this [[(∞,1)-category]] is _presented_ (or modeled) by the model category, and that the objects of the model category are _models_ for the objects of this $(\infty,1)$-category. Not every (∞,1)-category is obtained in this way (otherways it would necessarily have all small [[homotopy limits]] and [[homotopy colimits]]).
 
 In this sense model categories are 'models for [[homotopy theory]]' or 'categories of models for homotopy theory'.  (The latter sense was the one intended by Quillen, but the former is also a useful way to think.)
 
-Recall that the idea of [[category with weak equivalences|categories with weak equivalences]] is to work just with 1-morphisms instead of with $n$-morphisms for all $n$, but to carry around extra information to remember which 1-morphisms are really [[equivalence|equivalences]] in the full [[(∞,1)-category]], i.e. [[isomorphism]]s in the corresponding [[homotopy category]].
+Recall that the idea of [[category with weak equivalences|categories with weak equivalences]] is to work just with 1-morphisms instead of with [[n-morphisms]] for all $n$, but to carry around extra information to remember which 1-morphisms are really [[equivalence|equivalences]] in the full [[(∞,1)-category]], i.e. [[isomorphism]]s in the corresponding [[homotopy category]].
 
 In a model category the data of weak equivalences is accompanied by further auxiliary data that helps to compute the [[(∞,1)-categorical hom-space]], the [[homotopy category]] and [[derived functor|derived functors]]. See [[homotopy theory]] for more on that.
 
@@ -48,13 +48,13 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 ## Definition
 
-A **model structure** on a [[category]] $C$ consists of three distinguished [[class]]es of [[morphism]]s - the **cofibrations** $Cof \subset Mor(C)$, the **fibrations** $Fib$, and the **weak equivalences** $W$ - satisfying the following two properties.
+A **model structure** on a [[category]] $C$ consists of three distinguished [[classes]] of [[morphisms]] - the **cofibrations** $Cof \subset Mor(C)$, the **fibrations** $Fib$, and the **weak equivalences** $W$ - satisfying the following two conditions:
 
 * (i) $W$ makes $C$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
 
 * (ii) $(Cof, Fib \cap W)$ and $(Cof \cap W, Fib)$ are two [[weak factorization system|weak factorization systems]] on $C$.
 
-A **model category** is a [[complete category|complete]] and [[cocomplete category]] $K$ with a model structure $(Cof,Fib,W)$.  
+A **model category** is a [[complete category|complete]] and [[cocomplete category]] $C$ equipped with a model structure $(Cof,Fib,W)$.  
 
 
 **Terminology**
