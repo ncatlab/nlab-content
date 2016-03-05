@@ -2147,7 +2147,7 @@ As one moves down this list, the objects modelling the spectra become richer. Th
 We start with plain sequential spectra here as a transparent means to see the [[stable homotopy category]]. When we get to the discussion of [[ring spectra]] [below](#RingSpectra) with the basic applications in mind, it is convenient to pass to the richer model of [[symmetric spectra]].
 
 
-+-- {: .num_defn #Spectra}
++-- {: .num_defn #SequentialSpectrum}
 ###### Definition
 
 A _[[sequential spectrum|sequential]]_ [[pre-spectrum]] in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
@@ -2344,6 +2344,167 @@ A spectrum $X \in SeqPreSpec(sSet)_{BF}$ is
  {#RingSpectra}
 
 **Literature.** ([Schwede 12](#Schwede12))
+
+$\,$
+
+Given that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]] we now discuss algebra (the theory of [[rings]] and their [[modules]]) [[internalization|internal]] to spectra. This "[[higher algebra]]" accordingly is the theory of [[ring spectra]] and [[module spectra]].
+
+| [[algebra]] | [[higher algebra]] |
+|-------------|--------------------|
+| [[abelian group]] | [[spectrum]] |
+| [[ring]]    | [[ring spectrum]] |
+| [[module]]  | [[module spectrum]]|
+
+Hence where a [[ring]] is equivalently a [[monoid]] with respect to the the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]]/[[pointed object|pointed]] [[simplicial sets]].
+
+There is a key point to be dealt with here: the [[smash product of spectra]] has to exhibit a certain _graded commutativity_. Informally, there are two ways to see this:
+
+First, we have seen above that under the [[Dold-Kan correspondence]] [[chain complexes]] yield examples of spectra. But the [[tensor product of chain complexes]] is graded commutative.
+
+Second, more fundamentally, we see in the discussion of the [[Brown representability theorem]] ([here](#BrownRepresentabilityTheorem)) that every ([[sequential spectrum|sequential]]) [[spectrum]] $A$ induces a [[generalized homology theory]] given by the formula $X \mapsto \pi_\bullet(E \wedge X)$ (where the smash product is just the degreewise smash of pointed objects). By the [[suspension isomorphism]] this is such that for $X = S^n$ the [[n-sphere]], then $\pi_{\bullet\geq 0}(E \wedge S^n) \simeq \pi_{\bullet \geq 0}(E_n)$. This means that instead of thinking of a [[sequential spectrum]], def. \ref{SequentialSpectrum}, as indexed on the [[natural numbers]] equipped with [[addition]] $(\mathbb{N},+)$, it may be more natural to think of sequential spectra as indexed on the [[n-spheres]] equipped with their smash product of pointed spaces $(\{S^n\}_n, \wedge)$. 
+
+While as [[monoidal categories]] these are equivalent, they differ as [[symmetric monoidal categories]]: there is an intrinsic graded-commutativity in the smash product of spheres. This is evident, but important:
+
++-- {: .num_prop #GradedCommutativityOfSmashOfSpheres}
+###### Proposition
+
+There are [[homeomorphisms]] between [[n-spheres]] and their [[smash products]]
+
+$$
+  \phi_{n_1,n_2}
+  \;\colon\;
+  S^{n_1} \wedge S^{n_2}
+  \stackrel{\simeq}{\longrightarrow}
+  S^{n_1 + n_2}
+$$
+
+such that in [[Ho(Top)]] there are [[commuting diagrams]] like so:
+
+$$
+  \array{
+    (S^{n_1} \wedge S^{n_2}) \wedge S^{n_3}
+    &&\stackrel{\simeq}{\longrightarrow}&&
+    S^{n_1} \wedge (S^{n_2} \wedge S^{n_3})
+    \\
+    {}^{\mathllap{\phi_{n_1,n_2} \wedge id}}\downarrow 
+    && && \downarrow^{\mathrlap{id \wedge \phi_{n_2,n_3}}}
+    \\
+    S^{n_1+n_2} \wedge S^{n_3}
+    && &&
+    S^{n_1}\wedge S^{n_2 + }
+    \\
+    & {}_{\mathllap{\phi_{n_1+n_2, n_3}}}\searrow && \swarrow_{\mathrlap{\phi_{n_1,n_2+n_3}}}
+    \\
+    && 
+    S^{n_1+n_2 + n_3}
+  }
+  \,.
+$$
+
+and
+
+$$
+  \array{
+    S^{n_1} \wedge S^{n_2}
+    &\stackrel{b_{n_1,n_2}}{\longrightarrow}&
+    S^{n_2} \wedge S^{n_1}
+    \\
+    {}^{\mathllap{\phi_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\phi_{n_2,n_1}}}
+    \\
+    S^{n_1 + n_2}
+    &\stackrel{(-1)^{n_1 n_2}}{\longrightarrow}&
+    S^{n_1 + n_2}
+  }
+  \,,
+$$
+
+where here $(-1)^n \colon S^n \to S^n$ denotes the homotopy class of a [[continuous function]] of [[degree of a continuous function|degree]] $(-1)^n \in \mathbb{Z} \simeq [S^n, S^n]$.
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+With the [[n-sphere]] $S^n$ realized as the [[one-point compactification]] of the [[Cartesian space]] $\mathbb{R}^n$, then $\phi_{n_1,n_2}$ is given by the identity on [[coordinates]] and the [[braiding]] homeomorphism
+
+$$
+  b_{n_1,n_2}
+  \;\colon\;
+  S^{n_1} \wedge S^{S^2}
+  \stackrel{\sigma}{\longrightarrow}
+  S^{n_2} \wedge S^{n_2}
+$$
+
+is given by permuting the [[coordinates]]:
+
+$$
+  (x_1, \cdots, x_{n_1}, y_1, \cdots, y_{n_2})
+  \mapsto
+  (y_1, \cdots, y_{n_2}, x_1, \cdots, x_{n_1})
+  \,.
+$$
+
+This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
+
+=--
+
+
+This phenomenon suggests that if we "[[categorify]]" the [[natural numbers]] to the [[n-spheres]] and think of the $n$th component space of a [[sequential spectrum]] as being the value assigned to the [[n-sphere]]
+
+$$
+  E_n \simeq E(S^n)
+$$
+
+then there should be a possibly non-trivial [[action]] of the [[symmetric group]] $\Sigma_n$ on $E_n$, due to the fact that there is such an action of $S^n$ which is non-trivial according to prop. \ref{GradedCommutativityOfSmashOfSpheres}.
+
+This is of course just a heuristics, but it turns out to be the right one. More fundamentally one may understand this phenomnon from the concept of [[excisive functors]] and their [[model structure for excisive functors]]. Here we will not further dwell on this but just take the above heuristics as motivation for the following variant of def. \ref{SequentialSpectrum}.
+
++-- {: .num_defn #SymmetricSpectrum}
+###### Definition
+
+A **[[symmetric spectrum]]** $X$ in [[sSet]] is
+
+1. a sequence $\{X_n| n \in \mathbb{N}\}$ of [[pointed object|pointed]] [[simplicial sets]];
+
+1. a baspoint preserving left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+
+1. a sequence of morphisms of pointed simplicial sets $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+
+such that
+
+* for all $n, k \in \mathbb{N}$ the [[composition|composite]]
+
+  $$
+    X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
+  $$
+
+  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+
+A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
+
+* a sequence of morphisms of pointed simplicial sets $f_n \colon X_n \longrightarrow Y_n$
+
+such that
+
+1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma_n$-[[action]];
+
+1. the following [[commuting diagram|diagrams commute]]
+
+   $$
+     \array{
+        X_n \wedge S^1 &\stackrel{f_n \wedge id}{\longrightarrow}& Y_n \wedge S^1
+        \\
+        \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
+        \\
+        X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+     }
+     \,.
+   $$
+
+=--
+
 
 [[smash product of spectra]]
 
@@ -5026,6 +5187,7 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 
 #### Brown representability theorem
+ {#BrownRepresentabilityTheorem}
 
 
 **Idea.** Given any [[functor]] such as the generalized (co)homology functor [above](#GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list. This is a _[[spectrum]]_.
