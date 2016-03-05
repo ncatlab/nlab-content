@@ -134,7 +134,7 @@ This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
 
 =--
 
-This statement passes to the [[suspension spectra]] $\Sigma^\infty S^n$ of the spheres ([Adams 74, part III, prop. 4.8](#Adams74)).
+This statement passes to the [[suspension spectra]] $\Sigma^\infty S^n$ of the spheres ([Adams 74, part III, prop. 4.8](#Adams74), [Schwede 12m chapter II.4, prop. 4.4](#Schwede12)).
 
 +-- {: .num_remark #WhySequentialSpectraHaveNoSymmetricSmashProduct}
 ###### Remark
