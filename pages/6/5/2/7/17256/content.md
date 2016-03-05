@@ -1,0 +1,63 @@
+
+This page collects material related to the lecture notes
+
+* [[Stefan Schwede]], 
+
+  _Symmetric spectra_, 
+
+  2012 
+
+  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+on [[stable homotopy theory]] in terms of [[symmetric spectra]].
+
+See also the _[[Lectures on Equivariant Stable Homotopy Theory]]_ and on _[[Global homotopy theory]]_ for the model on [[orthogonal spectra]] and [[equivariant stable homotopy theory]].
+
+#Contents#
+* table of contents
+{:toc}
+
+## Chapter I. Basics
+
+* [[symmetric spectrum]]
+
+## Chapter II. The stable homotopy category
+
+### 1. The stable homotopy category
+
+* [[stable homotopy category]]
+
+### 2. Triangulated structure
+
+* [[triangulated category]]
+
+### 3. Derived smash product
+
+* [[smash product of spectra]]
+
+### 4. Grading
+
+* [[ring spectrum]]
+
+### 5. Generator
+
+### 6. Homology and cohomology
+
+### 7. Finite spectra
+
+### 8. Connective covers and Postnikov sections
+
+### 9. Localization and completion
+
+### 10. The Steenrod algebra
+
+* [[Steenrod algebra]]
+
+## Chapter III. Model structures
+
+* [[model structure on symmetric spectra]]
+
+
+## Chapter IV. Module spectra
+
+category: reference
