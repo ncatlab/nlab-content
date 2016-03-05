@@ -12,13 +12,13 @@
 
 * [[monoidal Dold-Kan correspondence]]
 
-* [[Bousfield-Friedlander model structure]]
+* [[Bousfield-Friedlander model structure]], [[model structure on symmetric spectra]]
 
 * [[equivariant stable homotopy theory]]
 
 ## Lectures
 
-* {#Schwede12} _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 * _[[Lectures on Equivariant Stable Homotopy Theory]]_
 
