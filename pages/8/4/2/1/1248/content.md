@@ -97,7 +97,7 @@ Given a set $S$, its power set $\mathcal{P}S$ cannot be expressed as a [[subquot
 +-- {: .proof}
 ###### Proof
 
-Suppose we had a set $B$, an injection $i\colon B \hookrightarrow S$ and a surjection $f\colon B \to \mathcal{P}S$.  Then the [[preimage]] function $i^*\colon\mathcal{P}S \to \mathcal{P}B$ would be a surjection, as would the [[image]] function $\exists_f\colon \mathcal{P}B \to \mathcal{P}\mathcal{P}S$.  Thus their composite would be a surjection $\mathcal{P}S \to \mathcal{P}\mathcal{P}S$, which is impossible by Theorem \ref{cantor}.
+Suppose we had a set $B$, an injection $i\colon B \hookrightarrow S$ and a surjection $f\colon B \to \mathcal{P}S$.  Then the [[preimage]] function $i^*\colon\mathcal{P}S \to \mathcal{P}B$ would be a surjection (because $i^\ast \exists_i = 1_{\mathcal{P}B}$), as would the [[image]] function $\exists_f\colon \mathcal{P}B \to \mathcal{P}\mathcal{P}S$ (because $\exists_f f^\ast = 1_{\mathcal{P}\mathcal{P}S}$).  Thus their composite would be a surjection $\mathcal{P}S \to \mathcal{P}\mathcal{P}S$, which is impossible by Theorem \ref{cantor}.
 =--
 
 
