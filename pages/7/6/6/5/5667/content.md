@@ -961,6 +961,10 @@ this is reviewed and then a characterization in terms of [[co-spans]] of [[C*-al
 
 For similar structures see also at _[[motive]]_ in the section _[Relation to bivariant K-theory](motive#RelationToKKTheory)_.
 
+A 'generators and relations' description of KK-theory in terms of spans is given in
+
+* Bernhard Burgstaller, _The generators and relations picture of KK-theory_, (2016) arXiv:[1602.03034](http://arxiv.org/abs/1602.03034)
+
 
 #### For equivariant KK-theory
  {#ReferencesCorrespondencesEquivariant}
