@@ -204,7 +204,7 @@ Moreover, even the choice of homotopy is unique, up to ever higher homotopy, i.e
 Let $Func^L(C,D), Func^R(C,D) \subset Func(C,D)$ be the full sub-quasi-categories on the [[(∞,1)-category of (∞,1)-functors]] between $C$ and $D$ on those functors that are left adjoint and those that are right adjoints, respectively. Then there is a canonical [[equivalence of quasi-categories]] 
 $$
   Func^L(C,D) \stackrel{\simeq}{\to}
-  Func^R(C,D)^{op}
+  Func^R(D,C)^{op}
 $$
 
 (to the [[opposite quasi-category]]), which takes every left adjoint functor to a corresponding right adjoint.
