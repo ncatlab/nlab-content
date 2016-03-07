@@ -35,6 +35,8 @@ $$
 
 * [[MU]], [[complex cobordism cohomology]]
 
+* [[MSp]]
+
 * [[orientation in generalized cohomology]]
 
 * [[KO]]
