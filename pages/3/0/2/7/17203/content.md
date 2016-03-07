@@ -160,6 +160,9 @@ $$
 The [[p-localization]] of $MU$ decomoses into the 
 [[Brown-Peterson spectra]].
 
+## Related concepts
+
+* [[MO]], [[MSp]]
 
 ## References
 
