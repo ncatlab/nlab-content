@@ -1,4 +1,3 @@
-[[!redirects finite CW-complex]]
 
 #Contents#
 * table of contents
@@ -18,4 +17,7 @@ The [[homotopy type]] of a finite CW-complex is called a _[[finite homotopy type
 
 * [[finite spectrum]]
 
+[[!redirects finite CW complexes]]
+
+[[!redirects finite CW-complex]]
 [[!redirects finite CW-complexes]]
