@@ -1,3 +1,4 @@
+[[!redirects Stanley Kochmann]]
 
 
 * [webpage](http://www1.math.yorku.ca/new/node/55)
