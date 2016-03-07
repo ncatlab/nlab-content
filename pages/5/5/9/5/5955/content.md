@@ -110,12 +110,17 @@ An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[
 
 ## References
 
+An early account is
+
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
+A comprehensive general discussion in terms of [[symmetric spectra]] is in
 
-A comprehensive general discussion is in
+* {#Schwede12} [[Stefan Schwede]], chapter IV _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-* {#Lurie} [[Jacob Lurie]], _[[Higher Algebra]]_, chapter 7.
+and in terms of [[(infinity,1)-category theory]] in
+
+* {#Lurie} [[Jacob Lurie]], chapter 7  of _[[Higher Algebra]]_.
  
 
 The equivalence between the [[homotopy categories]] of  $H R$-module spectra and $Ch_\bullet(R Mod)$ is due to
