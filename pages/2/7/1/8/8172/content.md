@@ -875,17 +875,23 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 
 #### The $\mathcal{E}_1$-term and Hopf algebroid structure
 
-Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}
-we may focus attention on the standard $E$-resolution, def. \ref{StandardEResolution}.
+Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
+for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
+it is sufficient to understand the $\mathcal{E}_1$-pahe 
+of the $E$-Adams spectral sequence that is induced by the
+standard $E$-resolution of example \ref{StandardEResolution}.
 
-For this one gets
+By construction, that page is of the simple form
 
 $$
   \mathcal{E}_1^{s,\bullet}
   \simeq
   \pi_\bullet(E^{\wedge (s+1)}\wedge X )
-  \,.
 $$
+
+with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. Here we discuss how, under good conditions, these are the chain complexes that compute [[Ext]]-functors of [[comodules]] over a [[Hopf algebroid]] canonically induced by $E$.
+
+The condition needed for this is the following
 
 +-- {: .num_defn #FlatE}
 ###### Definition
@@ -1060,6 +1066,74 @@ There the statement is prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarCo
 
 =--
 
+#### Generalization to computation of mapping spectra
+
+(...)
+
+Under suitable conditions all this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
+
+$$
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
+  \Rightarrow
+  \pi_\bullet(X^E)
+$$
+
+to computation of $E$-localization of mapping spectra into $X$, out of any $Y$
+
+$$
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
+  \Rightarrow
+  \pi_\bullet([Y,X]^E)
+  \,.
+$$
+
++-- {: .num_prop #AdamsUCT}
+###### Proposition
+
+If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KU]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
+
+$$
+ \pi_\bullet[X,F] 
+  \longrightarrow
+  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet F)_\bullet
+$$
+
+is an [[isomorphism]].
+
+=--
+
+This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74)).
+
+Now given the standard $E$-Adams tower for some $X$, then applying $[Y,-]$ yields another [[tower of homotopy fibers]] whose tower spectral sequence on page one has $[Y, E^{\wedge^{\bullet}}\wedge X]$. This sits in a commuting diagram of the form
+
+$$
+  \array{
+    [X,E^{\wedge^{\bullet+1}}\wedge X]
+    &\longrightarrow&
+    Hom_{E_\bullet(E)}(
+      E_\bullet(X), 
+      E_\bullet(E^{\wedge^{\bullet+1}}\wedge X)
+    )
+    \\
+    & \searrow & \downarrow^{\mathrlap{\simeq}}
+    \\
+    && Him_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(E^{\wedge^\bullet}\wedge X))
+  }
+  \,,
+$$
+
+where the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree Hopf co-module. (...) spring 
+Now if $E$ satisfies the condition of prop. \ref{AdamsUCT}, then the diagonal morphism is an iso, too, and hence so is the top morphism.
+
+Hence the resulting $\mathcal{E}_1$-page consists of the Hom over $E_\bullet(E)$ of $E_\bullet(Y)$ into a resolution of $E_\bullet(X)$ and hence the $\mathcal{E}_2$-page then is $Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))$.
+
+([Adams 74, part III, page 323](#Adams74))
+
+(...)
+
+
+
+
 #### Convergence and $E$-completion
 
 ... [[converges conditionally]] to the [[E-nilpotent completion]]
@@ -1120,6 +1194,7 @@ $$
 ([Bousfield 79](#Bousfield79)).
 
 For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
+
 
 
 #### The case $E = H \mathbb{F}_p$
