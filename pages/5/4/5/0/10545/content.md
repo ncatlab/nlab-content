@@ -302,8 +302,9 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* {#Schwede12} [[Stefan Schwede]], chapter II section 10 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
-Lecture notes include
+Lecture notes includ
 
 * {#Rognes12} [[John Rognes]], section 3 of _The Adams spectral sequence_, 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
