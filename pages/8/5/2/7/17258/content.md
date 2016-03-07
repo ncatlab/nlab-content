@@ -40,6 +40,8 @@ Classical anthropological texts are
 
 Kinship systems are studied from a mathematical perspective in
 
+* John P. Boyd, _The Algebra of Group Kinship_ , J. Math. Psych. **6** (1969) pp.139-167.
+
 * Philippe Courrege, _Un mod&#232;le math&#233;matique des structures &#233;l&#233;mentaires de parent&#233;_ , L'Homme **5** no.3-4 (1965) pp.248-290. ([link](http://www.persee.fr/doc/hom_0439-4216_1965_num_5_3_366751))
 
 * Aim&#233; Fuchs, _Les structures de parent&#233;: traitement math&#233;matique_ , Revue Europ&#233;enne des Sciences Sociales et Cahiers Vilfredo Pareto **19** (1981) pp.161-182.
@@ -58,11 +60,17 @@ Kinship systems are studied from a mathematical perspective in
 
 * [[André Weil]], _Sur l'&#233;tude alg&#233;brique de certains types de lois de mariage (Syst&#232;me Murngin)_ , pp.257-263 in [L&#233;vi-Strauss (1949/1967)](#LS67).
 
+* Harrison C. White, _An Anatomy of Kinship_ , Prentice-Hall Englewood Cliffs 1963.
+
 A category-theoretic perspective is sketched in
 
 * [[William Lawvere|F. William Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in Jackendoff, Bloom, Wynn (eds.), _Language, Logic, and Concepts_ , MIT Press Cambridge 1999.
 
 * [[William Lawvere|F. William Lawvere]], [[Stephen Schanuel|Stephen H. Schanuel]], _Conceptual Mathematics_ , Cambridge UP 1997. (pp.162-163)
+
+For related uses of categorical ideas see also
+
+* Fran&#231;ois Lorrain, Harrison C. White, _Structural Equivalence of Individuals in Social Networks_ , Math. Sociology **1** (1971) pp.49-80.
 
 [[!redirects kinship system]]
 [[!redirects mathematical anthropology]]
