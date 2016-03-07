@@ -721,7 +721,7 @@ This is called the **standard $E$-Adams resolution** of $X$.
 
 (e.g. [Hopkins 99, def. 5.4](#Hopkins99)).
 
-+-- {: .num_prop}
++-- {: .num_prop #StandardAdamsResolutionIsIndeedAdamsResolution}
 ###### Proposition
 
 The standard resolution of example \ref{StandardEResolution}
@@ -931,20 +931,108 @@ $(E_\bullet, E_\bullet(E))$ (the dual $E$-[[Steenrod operations]]) is canonicall
 
 ([Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
 
-+-- {: .num_prop}
+The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
+
++-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
 ###### Proposition
 
-For $E$ flat, def. \ref{FlatE}, the canonical map
+If $E$ is flat, def. \ref{FlatE}, then for all spectra $X$ there is a [[natural isomorphisms]]
 
 $$
-  E_\bullet(E^{\wedge n}) \otimes_{\pi_\bullet} E_\bullet(X)
-  \longrightarrow
-  \pi_\bullet(E^{\wedge^{(n+1)}}\wedge X  )
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+    \stackrel{}{\longrightarrow}
+  \pi_\bullet(E \wedge E \wedge X)
 $$
 
-is an [[isomorphism]].
+and hence for all $n \in \mathbb{N}$ there are isomorphisms
+
+$$
+  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
+    \simeq
+  \underset{n+1\,factors}{
+  \underbrace{E_\bullet(E)
+    \otimes_{\pi_\bullet(E)}
+    \cdots
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(E)
+  }}
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+  \,.
+$$
+
 
 =--
+
++-- {: .proof}
+###### Proof
+
+The desired natural homomorphism
+
+$$
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(E \wedge E \wedge X)
+$$
+
+is given on $[\alpha] \in \pi_\bullet(E \wedge E)$ and $[\beta] \in \pi_\bullet(E \wedge X)$ by $([\alpha, \beta])\mapsto [(id \wedge \mu \wedge id) \circ (\alpha \wedge \beta)]$.
+
+To see that this is an isomorphism, observe that by flatness of $E$, the assignment $X \mapsto E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(-)$ is a [[generalized homology]] functor, hence [[Brown representability theorem|represented]] by some spectrum. The above morphism, natural in $X$, thus constitutes a homomorphism  of generalized homology theories, and so for these to be equivalent it is sufficient to check that they induce isomorphisms on the point. This is manifestly the case.
+
+Finally we get the claimed isomorphisms for all $n$ by [[induction]]:
+
+$$
+  \begin{aligned}
+    \pi_\bullet(E^{\wedge^{n+2}} \wedge X)
+    & \simeq
+    \pi_\bullet(E \wedge E \wedge E^{\wedge^n} \wedge X))
+    \\
+    &\simeq 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     E_\bullet( E^{\wedge^n} \wedge X )
+     \\
+     & = 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     \pi_\bullet( E^{\wedge^{n+1}} \wedge X )       
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
+###### Corollary
+
+If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ from example \ref{StandardEResolution} induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
+
+=--
+
++-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
+###### Proposition
+
+The $\mathcal{E}_1$-page of the $E$-Adams spectral sequence
+of the standard $E$-Adams resolution has entries $\pi_\bullet(E^{\wedge^\bullet}\wedge X)$. By  prop. \ref{FlatnessOfEImpliesKeyConsequence} this implies that the sequences of $d_1$-differentials are equivalently of the form
+
+$$
+  0 
+    \to 
+  E_\bullet(E) 
+    \to 
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
+    \to
+  E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
+  \to 
+   \cdots
+$$
+
+This is just the resolution whose chain homology computes the [[derived functor]] [[Ext]]-groups in question.
+
+=--
+
+(...)
+
 
 #### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
 
@@ -952,7 +1040,7 @@ is an [[isomorphism]].
 ###### Proposition
 
 For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
-of any $E$-Adams spectral sequence over $X$ is
+of any $E$-Adams spectral sequence over $X$ is the [[Ext]] of [[Hopf algebroid]]-[[comodules]] for the Hopf-algebroid structure on $E$-operations $E_\bullet(E)$ from corollary \ref{HopfAlgebroidStructureOnDualEOperations}
 
 $$
   \mathcal{E}^{s,t}_\bullet
@@ -961,7 +1049,14 @@ $$
   \,,
 $$
 
-where $Ext^{s,t}_{\Gamma}(-,-)$ denotes the $t$th graded piece of the $s$-th [[Ext]]-functor in the category of $\Gamma$-[[comodules]].
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
+There the statement is prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}.
 
 =--
 
