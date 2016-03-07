@@ -181,3 +181,5 @@ and lecture notes such as
 
 
 [[!redirects HoSpectra]]
+
+[[!redirects Ho(Spectra)]]
