@@ -54,3 +54,7 @@ The analogous resoult for [[equivariant spectra]]:
 
 * [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, 1999  ( [pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
 
+The $\mathbb{S}$-model structure on orthogonal spectra:
+
+* Martin Stolz, around prop. 1.3.10 of _Equivariant Structure on Smash Powers of Commutative Ring Spectra_, 2011  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/mstolz.pdf))
+
