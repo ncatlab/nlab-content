@@ -141,14 +141,14 @@ This statement passes to the [[suspension spectra]] $\Sigma^\infty S^n$ of the s
 
 The phenomenon in prop. \ref{GradedCommutativityOfSmashOfSpheres} is the reason why there is no [[symmetric smash product of spectra]] on plain [[sequential spectra]], and in fact no appropriate functorial product operation at all. 
 
-To see this, observe, by [this proposition](sequential+spectrum#QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors), that sequential spectra are equivalently [[excisive (infinity,1)-functors]] 
+To see this, observe, by [this proposition](sequential+spectrum#QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors), that sequential spectra are Quillen equivalent to the model category of [[excisive (infinity,1)-functors]]
 
 $$
   Exc^1(\infty Grpd^{\ast/}_{fin}, \infty Grpd^{\ast/}) \hookrightarrow 
   Func(\infty Grpd^{\ast/}_{fin}, \infty Grpd^{\ast/})
 $$
 
-restricted from all [[pointed homotopy types|pointed]] [[finite homotopy types]] $\infty Grpd_{fin}^{\ast/}$ to the category $StdSpheres$ of standard spheres with just the adjuncts of suspension maps between them. 
+under an equivalence given by restricting from the domain of all [[pointed homotopy types|pointed]] [[finite homotopy types]] $\infty Grpd_{fin}^{\ast/}$ to its non-full subcategory $StdSpheres$ of standard spheres with just the adjuncts of suspension maps between them. 
 
 $$
   \iota \colon StdSpheres \hookrightarrow \infty Grpd^{\ast/}_{fin}
@@ -165,10 +165,10 @@ Here $StdSpheres$ has objects $S^n_{std} \coloneqq (S^1)^{\wedge n}$ and as hom-
 
 Hence $\iota^\ast$ identifies the $n$th component space of a sequential spectrum with the value $E(S^n)$ of an excisive functor on the $n$-sphere, and it identifies the structure map $S^1 \wedge E_n \to E_{n+1}$ with part of the [[enriched functor|enriched functoriality]] of the excisive functor.
 
-Now the correct smash product of spectra is equivalently the [[Day convolution]] of excisive functors over the symmetric monoidal category $(\infty Grpd^{\ast/}_{fin},\wedge)$.
+Now in the model category of excisive functors, the correct smash product of spectra is the [[Day convolution]] over the symmetric monoidal category $(\infty Grpd^{\ast/}_{fin},\wedge)$.
 The issue then is that the restricted hom-spaces of $StdSpheres$ do not see the non-trivial [[braiding]] of spheres in prop. \ref{GradedCommutativityOfSmashOfSpheres} anymore.
 
-More concretely, first of all one finds that the enriched category $StdSpheres$ does not inherit monoidal structure: defining the smash product on hom spaces requires permuting smash copies of spheres, which is not available.
+More concretely, the enriched category $StdSpheres$ does not inherit monoidal structure: defining the smash product on hom spaces requires permuting smash copies of spheres, which is not available.  Thus there is no Day convolution product on sequential spectra at all.
 
 One could further restict along $\mathbb{N} \to StdSpheres$ and use the monoidal structure $(\mathbb{N},+)$ to define at least a smash product on sequences of pointed spaces by [[Day convolution]] over $(\mathbb{N},+)$ as in ([MMSS 00, example 4.1](#MMSS00)). But then in addition to the above problem that this does not give a functorial smash product on spectra (it will not respect the structure maps), moreover $(\mathbb{N},+)$ is trivially [[braided monoidal category|braided]] and so, again, under restriction of excisive functors to $\mathbb{N}$ there is no way to recover the information in the smash product of spectra that is encoded in the non-trivial braiding of the smash product of spheres.
 
