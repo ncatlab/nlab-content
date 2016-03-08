@@ -345,6 +345,8 @@ Reviews include
 
 Lecture notes include
 
+* {#Schwede12} [[Stefan Schwede]], chapter I, section 7.1 of _[[Symmetric spectra]]_ (2012)
+
 * {#Schwede14} [[Stefan Schwede]], section 1 of _[[Lectures on Equivariant Stable Homotopy Theory]]_, 2014 ([pdf](http://www.math.uni-bonn.de/people/schwede/equivariant.pdf))
 
 and ([Schwede 15](#Schwede15)) (take throught $\mathcal{F} = \{1\}$ there to be the trivial family to restrict to the non-equivariant case).
