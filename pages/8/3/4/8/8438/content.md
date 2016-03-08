@@ -31,7 +31,7 @@ collecting survey articles on subjects in [[algebraic topology]]
 
 1. [[Homotopy Types]] (H.-J. Baues). 
 
-1. Homotopy theories and model categories (W.G. Dwyer, J. Spalinski). 
+1. [[Homotopy theories and model categories]] (W.G. Dwyer, J. Spalinski). 
 
 1. [[Proper Homotopy Theory]] (T. Porter). 
 
