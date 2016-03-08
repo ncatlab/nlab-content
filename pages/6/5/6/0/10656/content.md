@@ -60,6 +60,10 @@ In prop. 4.14 of
 
 Becker-Gottlieb transfer was identified with the [[Umkehr map]] induced from a [[Wirthmüller context]] in which in addition $f_\ast$ satisfies its [[projection formula]] (a "[[transfer context]]", def.4.9)
 
-* {#KleinMalkiewich} [[John R. Klein]] and [[Cary Malkiewich]], _The transfer is functorial_, [arXiv:1603.01872](http://arxiv.org/abs/1603.01872), establishes the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers, but only on the level of homotopy categories (without higher coherences).
+The article
+
+* {#KleinMalkiewich16} [[John Klein]], [[Cary Malkiewich]], _The transfer is functorial_, [arXiv:1603.01872](http://arxiv.org/abs/1603.01872), 
+
+establishes the functoriality of the Becker-Gottlieb transfer for fibrations with finitely dominated fibers, but only on the level of [[homotopy categories]] (without higher coherences).
 
 [[!redirects transfer index conjecture]]
