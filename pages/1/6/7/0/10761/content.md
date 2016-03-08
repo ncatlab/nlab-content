@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
@@ -46,6 +56,13 @@ for $n \in \mathbb{N}$ and for $\Sigma$ the [[suspension]] functor.
 
 =--
 
+## Related concepts
+
+* [[homotopical functor]]
+
+* [[Adams spectral sequence]]
+
+* [[Lurie spectral sequence]]
 
 [[!redirects homological functors]]
 [[!redirects homological (∞,1)-functor]]
