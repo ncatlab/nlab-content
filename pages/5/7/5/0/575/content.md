@@ -73,6 +73,7 @@ which means we have a Galois connection between $f$ and $g$ under this definitio
 * [[modality]]
 * [[adjoint modality]]
 * [[adjunction]]
+* Every Galois connection is an [[idempotent adjunction]].
 
 ## References
 
