@@ -162,7 +162,7 @@ A fun scan of the (pre-)history of the stable homotopy category is in
 
 See also the references at _[[stable homotopy theory]]_.
 
-Origin articles realizing the stabel homotopy category as the [[homotopy category]] of a [[model category]] include
+Original articles realizing the stabel homotopy category as the [[homotopy category]] of a [[model category]] include
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
@@ -175,7 +175,11 @@ Original articles in the context of [[highly structured spectra]] include
 
 * {#GreenleesMay95} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_, in I.M. James (ed.), _[[Handbook of Algebraic Topology]]_ , pp. 279-325. 1995. ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
 
-and lecture notes such as
+A textbook account in the context of [[symmetric spectra]] is
+
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 1_[[Symmetric spectra]]_ (2012)
+
+Lecture notes include
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
 
