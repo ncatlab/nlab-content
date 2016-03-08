@@ -189,6 +189,8 @@ Basic Examples:
 
 ## Errata
 
-* the definition of [[Kronecker pairing]] (construction 6.13) is missign the application of the multiplication map
+* p. 273. the definition of [[Kronecker pairing]] (construction 6.13) is missign the application of the multiplication map
+
+* p. 344. uncompiled source code "eqrefeq-general" etc.
 
 category: reference
