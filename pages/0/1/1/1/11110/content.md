@@ -2,4 +2,8 @@
 
 * [webpage](http://www.math.wayne.edu/~klein/)
 
+## related $n$Lab entries
+
+* [[Becker-Gottlieb transfer]]
+
 category: people
