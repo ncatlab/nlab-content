@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,12 +23,14 @@ For $K = H R$ an [[Eilenberg-MacLane spectrum]] this reduces to [[homology|ordin
 
 * [[bordism homology theory]] is the homology theory represented by a [[Thom spectrum]];
 
-* stable homotopy is the homology theory represented by the [[sphere spectrum]]
+* [[stable homotopy groups|stable homotopy]] is the homology theory represented by the [[sphere spectrum]]
 
 
 ## Related concepts
 
 * [[generalized cohomology]]
+
+* [[Kronecker pairing]]
 
 * [[Atiyah-Hirzebruch spectral sequence]]
 
