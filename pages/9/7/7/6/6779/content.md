@@ -95,6 +95,10 @@ Lecture notes include
 
 * {#Hutchings} [[Michael Hutchings]], _Introduction to higher homotopy groups and obstruction theory_ (2011) ([pdf](http://math.berkeley.edu/~hutching/teach/215b-2011/homotopy.pdf))
 
+For discussion in [[stable homotopy theory]] modeled on [[symmetric spectra]] is in 
+
+* {#Schwede12} [[Stefan Schwede]], prop. 6.30 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 See also
 
 * wikipedia, _[Hurewicz theorem](http://en.wikipedia.org/wiki/Hurewicz_theorem)_
