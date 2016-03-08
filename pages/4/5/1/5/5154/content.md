@@ -408,7 +408,7 @@ More discussion on the transport of operad algebra structures along [[Quillen ad
 
 Discussion with an eye towards [[ring spectra]] realized as [[symmetric spectra]] is in
 
-* {#Schwede12} [[Stefan Schwede]], section III.5 of _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], section III.6 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 
 [[!redirects model structures on algebras over an operad]]
