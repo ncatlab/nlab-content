@@ -24,6 +24,8 @@ A **homotopical functor** $F : C \to D$ between two [[homotopical category|homot
 
 * [[simplicial localization]]
 
+* [[homological functor]]
+
 [[!redirects homotopical functors]]
 
 [[!redirects homotopy functor]]
