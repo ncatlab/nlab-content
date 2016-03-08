@@ -6086,6 +6086,8 @@ For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
+and we take some further clues from ([Adams 74, III.15](#Adams74)).
+
 For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
 
 * {#Kochman96} [[Stanley Kochman]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
