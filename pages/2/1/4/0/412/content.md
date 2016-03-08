@@ -182,12 +182,15 @@ between the [Quillen model structure](#QuillenModelStructure) and the [Strom mod
 
 For the original "Quillen" or "q-" model structure see
 
-* [[Dan Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+* {#Quillen67} [[Dan Quillen]], _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
+A concise and comprehensive writeup is in
+
+* [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
 
 Standard textbooks references include 
 
-* [[Mark Hovey]] _Model categories_ 
-{#Hovey}
+* {#Hovey} [[Mark Hovey]] _Model categories_ 
 
 * Hirschhorn _Model categories and their localizations_.
 
