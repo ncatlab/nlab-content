@@ -91,6 +91,8 @@ This means that given an abelian group $A$ then
 
 * [[Frank Adams]], Part III.6 of _[[Stable homotopy and generalised homology]]_, 1974
 
+* {#Schwede12} [[Stefan Schwede]], section II.6.3 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 Lecture notes include 
 
 * {#Strickland} [[Neil Strickland]], p. 9 of _An introduction to the category of spectra_ ([pdf](https://neil-strickland.staff.shef.ac.uk/research/stableintro.pdf))
