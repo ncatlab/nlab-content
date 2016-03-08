@@ -279,7 +279,7 @@ $$
 
 The [[long exact sequence]] induced by this give an [[exact couple]] and the Adams spectral sequence is the corresponding [[spectral sequence]].
 
-This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.1.1, def. 2.1.8](#Ravenel)).
+This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel 86, theorem, 2.1.1, def. 2.1.8](#Ravenel86)).
 
 
 
@@ -289,56 +289,54 @@ This is due to ([Adams 58](#Adams58)). A review is around ([Ravenel, theorem, 2.
 
 A streamlined discussion of $E$-[[Adams resolutions]] in close analogy to [[injective resolutions]] in [[homological algebra]] was given in ([Miller 81](#Miller81)), advertized in ([Hopkins 99](#Hopkins99)) and worked out in more detail in ([Aramian](#Aramian)).
 
-Write $HoSpectra$ for the [[stable homotopy category]] and write 
 
-$$
-  [-,-] \;\colon\; HoSpectra^{op} \times HoSpectra \longrightarrow Ab
-$$
 
-for the [[hom-functor]] with values in [[abelian groups]].
+#### $E$-Injective spectra
 
-+-- {: .num_defn #HomotopyFunctor}
+The $E$-[[Adams resolutions]] in [[stable homotopy theory]] that we are about to consider behave [[analogy|analogous]] to [[injective resolutions]] in [[homological algebra]]. For a streamlined discussion of $E$-Adams resolutions it is convenient to make that analogy precise ([Miller 81](#Miller81)).
+
+Notice that the standard concept of [[exact sequences]] and [[injective objects]] makes sense in [[abelian categories]], but not in the [[stable homotopy theory]] of [[spectra]]; for instance the true homotopy theoretic analog of exact sequences are [[homotopy fiber sequences]]. But for computational purposes we may consider a variant (due to [Miller 81](#Miller81)), where a sequence of spectra $X_\bullet$ is regarded as exact if the [[homotopical functor]] to abelian groups that it represents sends objects to standard exact sequences.  
+
+
+
+
++-- {: .num_defn #HomotopicalFunctorCoRepresentedByASpectrum}
 ###### Definition
 
-For $S \in HoSpectra$, the _homotopy functor it represents_ it to me the [[representable functor]]
+For $X$ a [[spectrum]], we say that the _[[homotopical functor]]_
+that it [[representable functor|co-represents]] is the functor of [[stable homotopy groups]] of the [[mapping spectrum]]-construction out of $X$, regarded as a functor on the [[stable homotopy category]]:
 
 $$
-  [S,-] \;\colon\; HoSpectra \longrightarrow Ab
+  \pi_\bullet[X, -] \colon Ho(Spectra) \longrightarrow Ab^{\mathbb{Z}}
+  \,.
 $$
 
-(as opposed to the other, contravariant, functor).
+(Regarded as an [[(∞,1)-functor]] on the [[stable (∞,1)-category of spectra]] this is also called the _[[homological functor]]_ co-represented by $X$.)
 
 =--
 
 +-- {: .num_example}
 ###### Example
 
-For $S = \Sigma^\infty S^n \simeq \Sigma^n \mathbb{N}$ then 
+For $X = \mathbb{S}$ the [[sphere spectrum]] then the homotopical functor that it co-represents according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}
 
 $$
-  [\Sigma^\infty S^n ,- ]\simeq \pi_n
+  \pi_\bullet[\mathbb{S},- ]\simeq \pi_\bullet(-)
 $$
 
-is the $n$th [[homotopy group]]-functor.
+is the [[stable homotopy group]]-functor.
 
 =--
 
 
-Throughout, let $E$ be a [[ring spectrum]]. 
-
-
-
-#### $E$-Injective spectra
-
-First we consider a concept of $E$-[[injective objects]] in [[Spectra]].
-
+Throughout,$E$ is a [[ring spectrum]].
 
 +-- {: .num_defn #ExactSequences}
 ###### Definition
 
 Say that 
 
-1. a sequence of spectra
+1. a sequence of [[spectra]]
 
    $$
      A_1 \longrightarrow A_2 \longrightarrow \cdots \longrightarrow A_n
@@ -346,7 +344,7 @@ Say that
 
    is 
 
-   1. a (long) _exact sequence_ if the induced sequence of homotopy functors, def. \ref{HomotopyFunctor}, is a [[long exact sequence]] in $[HoSpectra,Ab]$;
+   1. a (long) _exact sequence_ if the induced sequence of [[homotopy functors]] according to def. \ref{HomotopicalFunctorCoRepresentedByASpectrum}, is a [[long exact sequence]] in $[HoSpectra,Ab^{\mathbb{Z}}]$;
 
    2. (for $n = 2$) a _short exact sequence_ if
 
@@ -354,16 +352,16 @@ Say that
         0 \longrightarrow A_1 \longrightarrow A_2 \longrightarrow A_3 \longrightarrow 0
       $$
 
-      is (long) exact;
+      is (long) exact in the above sense;
 
 
 1. a morphism $A \longrightarrow B$  is 
 
-   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence;
+   1. a _monomorphism_ if $0 \longrightarrow A \longrightarrow B$ is an exact sequence in the above sense;
 
-   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence.
+   1. an _epimorphism_ if $A \longrightarrow B \longrightarrow 0$ is an exact sequence in the above sense.
 
-For $E$ a [[ring spectrum]], then a sequence of spectra is (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
+For $E$ a [[ring spectrum]], then a sequence of spectra is called (long/short) _$E$-exact_ and a morphism is epi/mono, respectively, if becomes long/short exact or epi/mono, respectively, after taking [[smash product of spectra|smash product]] with $E$.
 
 =--
 
@@ -620,7 +618,7 @@ Any two consecutive maps in an $E$-Adams resolution, def. \ref{EAdamsResolution}
 
 =--
 
-The following lemma says that $E$-Adams resolutions may be [[extension|exteded]] along morphisms.
+The following lemma says that $E$-Adams resolutions may be [[extension|extended]] along morphisms.
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -800,13 +798,43 @@ where $C_{k+1} \coloneqq hocofib(i_k)$.
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel](#Ravenel)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86](#Ravenel86)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
-+-- {: .num_example}
-###### Example
+
+Finally, the following is the main statement of the above little theory of $E$-injective spectra.
+
++-- {: .num_prop #RelationBetweenEAdamsTowersAndEAdamsResolutions}
+###### Proposition
 
 Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-Adams tower, def. \ref{EAdamsTower} of which it is the associated $E$-Adams resolution.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+Given an $E$-Adams resolution
+
+$$
+  X \to I_0 \to I_1 \to \cdots
+$$
+
+the associated $E$-Adams tower starts out as
+
+$$
+  \array{
+    X_1 \coloneqq fib(I_0 \to I_1)
+    \\
+    \downarrow
+    \\
+    X_0 \coloneqq I_0
+  }
+  \,.
+$$
+
+From there one one proceeds
+carefully by [[induction]]. This takes a bit of work, crucially using properties of $E$-injectives.
 
 =--
 
@@ -815,7 +843,34 @@ Every $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, induces an $E$-A
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
-Given an $E$-Adams tower as in  def. \ref{EAdamsTower}, the associated [[exact couple]] is
+Given an $E$-Adams resolution, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower, def. \ref{EAdamsTower}, 
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{p_2}}
+    \\
+    && X_2 &\stackrel{\kappa_2}{\longrightarrow}& \Omega^2 I_3
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_1}}
+    \\
+    && X_1 &\stackrel{\kappa_1}{\longrightarrow}& \Omega I_2
+    \\
+    &\nearrow& \downarrow^{\mathrlap{p_0}}
+    \\
+    X 
+    &\underset{}{\longrightarrow}&
+    X_0 = I_0
+    &\stackrel{\kappa_0}{\longrightarrow}&
+    I_1
+  }
+$$
+
+
+then the corresponding **$E$-Adams spectral sequence** is the associated [[spectral sequence of a tower of fibrations]].
+
+More in detail, the associated [[exact couple]] of the tower is
 
 $$
   \array{
@@ -863,6 +918,8 @@ $$
 $$
 
 The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
+
+More generally, for $Y$ any [[spectrum]] then the Adams spectral sequence for the [[mapping spectrum]] $[Y,X]$ is the [[spectral sequence of a tower of fibrations]] of the image under $[Y,-]$ of the given $E$-Adams tower.
 
 =--
 
@@ -926,17 +983,6 @@ Examples of ring spectra that are _not_ flat include
 =--
 
 
-
-+-- {: .num_prop}
-###### Proposition
-
-For $E$ flat, def. \ref{FlatE}, then
-$(E_\bullet, E_\bullet(E))$ (the dual $E$-[[Steenrod operations]]) is canonically a [[Hopf algebroid]].
-
-=--
-
-([Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
-
 The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
 
 +-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
@@ -969,6 +1015,8 @@ $$
 
 
 =--
+
+(e.g. [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .proof}
 ###### Proof
@@ -1011,15 +1059,18 @@ $$
 +-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
 ###### Corollary
 
-If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ from example \ref{StandardEResolution} induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
+If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ from example \ref{StandardEResolution} induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
 
 =--
+
+(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
 
 +-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
 ###### Proposition
 
-The $\mathcal{E}_1$-page of the $E$-Adams spectral sequence
-of the standard $E$-Adams resolution has entries $\pi_\bullet(E^{\wedge^\bullet}\wedge X)$. By  prop. \ref{FlatnessOfEImpliesKeyConsequence} this implies that the sequences of $d_1$-differentials are equivalently of the form
+For $X$ a [[spectrum]], then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence} of the standard $E$-Adams resolution, example \ref{StandardEResolution}, has 
+entries $\pi_\bullet(E^{\wedge^\bullet}\wedge X)$. By  prop. \ref{FlatnessOfEImpliesKeyConsequence} this implies that the sequences of $d_1$-differentials are equivalently of the form
 
 $$
   0 
@@ -1033,44 +1084,9 @@ $$
    \cdots
 $$
 
-This is just the resolution whose chain homology computes the [[derived functor]] [[Ext]]-groups in question.
-
 =--
 
-(...)
-
-
-#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
-
-+-- {: .num_prop}
-###### Proposition
-
-For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
-of any $E$-Adams spectral sequence over $X$ is the [[Ext]] of [[Hopf algebroid]]-[[comodules]] for the Hopf-algebroid structure on $E$-operations $E_\bullet(E)$ from corollary \ref{HopfAlgebroidStructureOnDualEOperations}
-
-$$
-  \mathcal{E}^{s,t}_\bullet
-  \simeq
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
-  \,,
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof idea
-
-By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
-There the statement is prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}.
-
-=--
-
-#### Generalization to computation of mapping spectra
-
-(...)
-
-Under suitable conditions all this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
+Under suitable conditions this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
 
 $$
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
@@ -1093,16 +1109,16 @@ $$
 If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KU]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
 
 $$
- \pi_\bullet[X,F] 
+ \pi_\bullet[X,N] 
   \longrightarrow
-  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet F)_\bullet
+  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet N)_\bullet
 $$
 
 is an [[isomorphism]].
 
 =--
 
-This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74)).
+This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74), [Schwede 12, chapter II, prop. 6.20](#Schwede12)).
 
 Now given the standard $E$-Adams tower for some $X$, then applying $[Y,-]$ yields another [[tower of homotopy fibers]] whose tower spectral sequence on page one has $[Y, E^{\wedge^{\bullet}}\wedge X]$. This sits in a commuting diagram of the form
 
@@ -1117,20 +1133,59 @@ $$
     \\
     & \searrow & \downarrow^{\mathrlap{\simeq}}
     \\
-    && Him_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(E^{\wedge^\bullet}\wedge X))
+    && Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(E^{\wedge^\bullet}\wedge X))
   }
   \,,
 $$
 
-where the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree Hopf co-module. (...) spring 
+where the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree Hopf co-module. (...) 
 Now if $E$ satisfies the condition of prop. \ref{AdamsUCT}, then the diagonal morphism is an iso, too, and hence so is the top morphism.
 
-Hence the resulting $\mathcal{E}_1$-page consists of the Hom over $E_\bullet(E)$ of $E_\bullet(Y)$ into a resolution of $E_\bullet(X)$ and hence the $\mathcal{E}_2$-page then is $Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))$.
 
 ([Adams 74, part III, page 323](#Adams74))
 
+
+
+
 (...)
 
+
+#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+
++-- {: .num_prop}
+###### Proposition
+
+For $E$ flat, def. \ref{FlatE}, then the $\mathcal{E}_2$-page
+of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for any $X$ is the [[Ext]] of [[Hopf algebroid]]-[[comodules]] for the [[Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from corollary \ref{HopfAlgebroidStructureOnDualEOperations}
+
+$$
+  \mathcal{E}^{s,t}_\bullet
+  \simeq
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
+  \,,
+$$
+
+More generally, if $E$ satisfies the conditions of prop. \ref{AdamsUCT}, for $Y$ any spectrum then the $E$-Adams spectral sequence for $[Y,X]$ has as $\mathcal{E}_2$-page the
+
+$$
+  \mathcal{E}^{s,t}_\bullet
+  \simeq
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
+  \,,
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
+For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard bar complex resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
+
+=--
+
+(...)
 
 
 
@@ -1395,7 +1450,7 @@ We discuss now the special case of coskeletally filtered
 totalizations coming from the canonical cosimplicial objects
 induced from [[E-∞ algebras]] ("[[Amitsur complexes]]", "[[Sweedler corings]]").
 
-In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel, ch. 3, prop. 3.1.2](#Ravenel)).
+In this form this appears as ([Lurie 10, theorem 2](#Lurie10)). A review is in ([Wilson 13, 1.3](#Wilson13)). For the analog of this in the traditional formulation see ([Ravenel 86, ch. 3, prop. 3.1.2](#Ravenel86)).
 
 
 
@@ -1650,9 +1705,13 @@ and is reproduced in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
+For full details of some of the steps involved see
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
 Reviews include
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
+* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
 
 * {#Kochmann96} [[Stanley Kochman]], section 3.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
@@ -1704,7 +1763,7 @@ and nicely surveyed in
 ### Hopf algebroid $Ext$-structure on $E^2$
  {#ReferencesHopfAlgebroidStructure}
 
-* appendix A.1 of [Ravenel](#Ravenel)
+* appendix A.1 of [Ravenel 86](#Ravenel86)
 
 * {#Baker} [[Andrew Baker]], _Brave new Hopf algebroids and the Adams spectral sequence for $R$-modules_ ([pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf))
  
