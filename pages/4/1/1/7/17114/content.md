@@ -28,7 +28,7 @@ This is the canonical [[tensor product]] in the [[symmetric monoidal (infinity,1
 
 ### History
 
-Historically the discussion proceeded in the opposite direction: available variants of the construction of smash products on [[sequential spectra]] (the "handicrafted" or "naive" smash products [Boardman 65](#Boardman65), [Adams 74, part III, section 4](#Adams74)) were found to yield a [[symmetric monoidal category]] structure _only_ after passage to the [[stable homotopy category]]. Then models via non-sequential [[highly structured spectra]] were discovered wich do admit a [[symmetric smash product of spectra]] in the sense of 1-category theory, as do [[excisive functors]], see at _[[model structure on excisive functors]]_.
+Historically the discussion proceeded in the opposite direction: available variants of the construction of smash products on [[sequential spectra]] (the "handicrafted" or "naive" smash products [Boardman 65](#Boardman65), [Adams 74, part III, section 4](#Adams74)) were found to yield a [[symmetric monoidal category]] structure _only_ after passage to the [[stable homotopy category]]. Then models via non-sequential [[highly structured spectra]] were discovered which do admit a [[symmetric smash product of spectra]] in the sense of 1-category theory, as do [[excisive functors]], see at _[[model structure on excisive functors]]_.
 
 ### As Day convolution spectra
 
@@ -75,7 +75,7 @@ $$
     \\
     S^{n_1+n_2} \wedge S^{n_3}
     && &&
-    S^{n_1}\wedge S^{n_2 + }
+    S^{n_1}\wedge S^{n_2 + n_3}
     \\
     & {}_{\mathllap{\phi_{n_1+n_2, n_3}}}\searrow && \swarrow_{\mathrlap{\phi_{n_1,n_2+n_3}}}
     \\
@@ -116,9 +116,9 @@ With the [[n-sphere]] $S^n$ realized as the [[one-point compactification]] of th
 $$
   b_{n_1,n_2}
   \;\colon\;
-  S^{n_1} \wedge S^{S^2}
+  S^{n_1} \wedge S^{n_2}
   \stackrel{\sigma}{\longrightarrow}
-  S^{n_2} \wedge S^{n_2}
+  S^{n_2} \wedge S^{n_1}
 $$
 
 is given by permuting the [[coordinates]]:
