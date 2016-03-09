@@ -102,7 +102,7 @@ $$
   sSet_{Quillen}
 $$
 
-constitutes a [[Quillen equivalence]] with the standard [[model structure on topological spaces]].
+constitutes a [[Quillen equivalence]] with the standard [[Quillen model structure on topological spaces]].
 
 =--
 
