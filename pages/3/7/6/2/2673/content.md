@@ -27,6 +27,16 @@ Promoting this perspective form the [[Poincaré group]] to the [[super Poincaré
 
 [[!include local and global geometry - table]]
 
+## Properties
+
+### Local and global framing
+
+Discussion in the physics literature traditionally tends to ignore the global structure of [[spacetime]] manifolds and pretends that a [[vielbein]] field may be chosen globally, hence that spacetime admits a [[framed manifold|framing]].
+
+In general that is only valid locally, but it so happens that in the archetypical case of interest, namely for 4-dimensional [[globally hyperbolic spacetimes]] with [[orientation|orientable]] spatial slices, it is valid globally. See _[this remark](framed+manifold#In4dFirstOrderGravity)_ at _[[framed manifold]]_ for more.
+
+See also at _[[teleparallel gravity]]_.
+
 ## Related concepts 
 
 * [[Lorentzian geometry]]
