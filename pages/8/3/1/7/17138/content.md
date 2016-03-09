@@ -187,7 +187,11 @@ $\,$
 
 While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]] ([[homeomorphism]]), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are invariants of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. The [[category]] of topological spaces obtained by regarding [[weak homotopy equivalences]] as [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]], which we review here.
 
-(...)
+$\,$
+
+See the content at _[[Quillen model structure on topological spaces]]_.
+
+$\,$
 
 
 ### $(\star)$ Simplicial homotopy theory 
