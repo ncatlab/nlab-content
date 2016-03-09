@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -33,9 +33,9 @@ A **cellular model category** is a [[cofibrantly generated model category]] such
 
 ## Examples ##
 
-* [[Top]] with the standard [[model structure on topological spaces]] (same for pointed topological spaces)
+* [[Top]] with the standard [[Quillen model structure on topological spaces]] (same for [[pointed topological spaces]])
 
-* [[SSet]] with the standard [[model structure on simplicial sets]] (same for pointed simplicial sets).
+* [[SSet]] with the standard [[Quillen model structure on simplicial sets]] (same for pointed simplicial sets).
 
 For $C$ a cellular model category we have that
 
