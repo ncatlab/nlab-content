@@ -28,7 +28,7 @@ A **cartesian model category** (following Rezk (2010) and Simpson (2012)) is a c
 
 ## Examples
 
-* the standard [[model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]] is cartesian closed
+* the standard [[Quillen model structure on topological spaces]] on [[compactly generated topological space|compactly generated]] [[weakly Hausdorff topological spaces]] is cartesian closed
 
 * the standard [[model structure on simplicial sets]] is cartesian closed. 
 
