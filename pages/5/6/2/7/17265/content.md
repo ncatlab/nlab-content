@@ -34,11 +34,11 @@ There are also other model structures on [[Top]] itself, see at _[[model structu
 
 ## Background from algebraic topology
 
-This section recalls basic relevant concept from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
+This section recalls basic relevant concepts from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
 
 ### Homotopy
 
-The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. This is about contiunous deformations of [[continuous functions]] parameterized by the standard interval:
+The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. In the context of [[topological spaces]] this is about [[continuous function|contiunous]] deformations of [[continuous functions]] parameterized by the standard interval:
 
 +-- {: .num_defn #TopologicalInterval}
 ###### Definition
@@ -93,20 +93,45 @@ $$
   \array{
      X 
      \\
-     {}^{\mathllap{(id,\delta_0)}}\downarrow
+     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
      \\
      X \times I &\stackrel{\eta}{\longrightarrow}& Y
      \\
-     {}^{\mathllap{(id,\delta_1)}}\uparrow
+     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
      \\
-     X
+     && X
   }
   \,.
 $$
 
 =--
 
-The key application of the concept of left homotopy is to the definition of [[homotopy groups]].
++-- {: .num_defn #HomotopyEquivalence}
+###### Definition
+
+A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
+is called a **[[homotopy equivalence]]** if there exists a 
+continuous function $X \longleftarrow Y \;\colon\; g$
+and [[left homotopies]], def. \ref{LeftHomotopy}
+
+$$
+  \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
+$$
+
+and
+
+$$
+  \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
+  \,.
+$$
+
+If here $\eta_2$ is constant along $I$, $f$ is is said to exhibit $X$ as a **[[deformation retract]]** of $Y$.
+
+=--
+
+
+
+Another key application of the concept of left homotopy is to the definition of [[homotopy groups]].
 
 +-- {: .num_defn #HomotopyGroupsOftopologicalSpaces}
 ###### Definition
@@ -135,8 +160,9 @@ $$
   \;\colon\;
   I^n 
   \stackrel{\simeq}{\longrightarrow}
-  I^n \underset{I^{n-1}}{\coprod} I^n
+  I^n \underset{I^{n-1}}{\sqcup} I^n
   \stackrel{(\alpha,\beta)}{\longrightarrow}
+  X
   \,,
 $$
 
@@ -177,6 +203,16 @@ $$
 
 
 =--
+
++-- {: .num_example #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
+###### Example
+
+Every [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence, def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
+
+In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence.
+
+=--
+
 
 +-- {: .num_example #FactoringTopologicalCodiagonalThroughCylinder}
 ###### Example
@@ -320,11 +356,15 @@ into the [[path space object]] of $X$, def. \ref{TopologicalPathSpace}, such tha
 
 $$
   \array{
+    && Y
+    \\
     & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{X^{\delta_0}}}
     \\
-    X &\stackrel{\eta}{\longrightarrow}& X^I
+    X &\stackrel{\eta}{\longrightarrow}& Y^I
     \\
-    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{X^{\delta_1}}}
+    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{Y^{\delta_1}}}
+    \\
+    Y
   }
   \,.
 $$
@@ -402,7 +442,7 @@ $$
   \array{
     X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
     \\
-    & {}_{\mathllap{f}}\searrow & \downarrrow & \swarrow && \cdots
+    & {}_{\mathllap{f}}\searrow & \downarrow & \swarrow && \cdots
     \\
     && Y = \underset{\longrightarrow}{\lim} X_\bullet
   }
@@ -513,7 +553,7 @@ The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAc
 +-- {: .num_defn #SerreFibration}
 ###### Definition
 
-A [[contiuous function]] $p \colon E \longrightarrow B$
+A [[continuous function]] $p \colon E \longrightarrow B$
 is called a **[[Serre fibration]]** if it is a $J_{Top}$-fibration;
 i.e. if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations};
 hence if for every [[commuting diagram]] of [[continuous functions]] of the form
@@ -549,24 +589,64 @@ $$
 
 This section recalls some standard arguments in [[model category]] theory.
 
-### Lifting
++-- {: .num_remark #RetractsOfMorphisms}
+###### Remark
 
+As usual, by a [[retract]] of a [[morphism]] $X \stackrel{f}{\longrightarrow} Y$ in some [[category]] $\mathcal{C}$ we mean a retract in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$, hence a morphism $A \stackrel{g}{\longrightarrow} B$ such that in $\mathcal{C}^{\Delta[1]}$ there is a factorization of the identity on $g$ through $f$
 
-+-- {: .num_prop #SaturationOfGeneratingCofibrations}
-###### Proposition
+$$
+  id_g \;\colon\;
+  g \longrightarrow f \longrightarrow g
+  \,.
+$$
 
-Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
-and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
+This means equivalently that in $\mathcal{C}$ there is a [[commuting diagram]] of the form
 
-Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]] against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]].
+$$
+  \array{
+    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
+    \\
+    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
+  }
+  \,.
+$$
 
 =--
 
 
+### Lifting
+
+
++-- {: .num_lemma #SaturationOfGeneratingCofibrations}
+###### Lemma
+
+Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
+and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
+
+Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]] against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+
+=--
+
++-- {: .num_lemma #RetractArgument}
+###### Lemma
+**(retract argument)**
+
+If in a composite morphism
+
+$$
+  g \;\colon\; \stackrel{i}{\longrightarrow} \stackrel{p}{\longrightarrow}
+$$
+
+the factor $p$ has the [[right lifting property]], def. \ref{RightLiftingProperty}, against the total morphism $g$, then $g$ is a [[retract]] (rem. \ref{RetractsOfMorphisms}) of $i$.
+
+=--
+
 
 ### The small object argument
 
-Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def.\ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
 
 $$
   f 
@@ -696,26 +776,32 @@ $$
  
 =--
 
-## Proof of the model category axioms
+## The Quillen model structure $Top_{Quillen}$
 
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
 ###### Definition
 
 Say that a [[continuous function]], hence a [[morphism]] in [[Top]] is
 
-* a **weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
+* a (Quillen-)**weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
 
-* a **fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
+* a (Quillen-)**fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
 
-* a **cofibration** if it is a [[retract]] of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+* a (Quilllen-)**cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
 
-Also 
+=--
+
+and as usual:
 
 * an **acyclic cofibration** if it is a cofibration and a weak equivalence;
 
 * an **acyclic fibration** if it is a fibration and a weak equivalence.
 
-=--
+
+
+### Technical lemmas
+
+The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhismsInTopQuillen} defines a [[model category]] structure involves two technical lemmas which concern the special nature of [[topological spaces]].  With these two lemmas in hand, the rest of the proof is a routine argument in model category theory.
 
 +-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
 ###### Lemma
@@ -726,11 +812,88 @@ Every [[compact topological space|compact]] [[topological subspace|subspace]] of
 
 A proof is spelled out for instance in ([Hirschhorn 15, prop.3.10, prop. 3.11, corollary 3.12](#Hirschhorn15)).
 
++-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
+###### Lemma
+
+The continuous functions with the [[right lifting property]], def. \ref{RightLiftingProperty} against the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, are precisely those which are both [[weak homotopy equivalences]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces} as well as [[Serre fibrations]], def. \ref{SerreFibration}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We break this up into three sub-statements:
+
+**A) $I_{Top}$-fibrations are in particular weak homotopy equivalences**
+
+Let $p \colon \hat X \to X$ have the [[right lifting property]] against $I_{Top}$
+
+$$
+  \array{
+    S^{n-1}  &\longrightarrow & \hat X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &{}^{\mathllap{\exists}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    D^n &\longrightarrow& X
+  }
+$$
+
+We check that the lifts in these diagrams exhibit $\pi_\bullet(f)$ as being an [[isomorphism]] on all [[homotopy groups]], def. \ref{HomotopyGroupsOftopologicalSpaces}:
+
+
+For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
+
+Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
+
+Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
+
+$$
+  \array{
+    S^{n-1} &\longrightarrow& \ast &\longrightarrow& \hat X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    D^n &\longrightarrow& X &=& X
+  }  
+$$
+
+and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
+
+**B) $I_{Top}$-fibrations are in particular Serre fibrations**
+
+By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
+
+**C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
+
+This is a bit of work, e.g. ([Hirschhorn 15, section 6](#Hirschhorn15)).
+
+
+=--
+
+### Verification of the axioms
+ {#VerificationOfTopQuillen}
+
+We use the above to prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satifies the conditions for a [[model category]] structure on the category [[Top]].
+
++-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
+###### Proposition
+
+The Quillen-weak equivalences, def. \ref{ClassesOfMorhismsInTopQuillen}, satify [[two-out-of-three]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[isomorphisms]] (of [[homotopy groups]]) satisfy 2-out-of-3, this property is directly inherited via the very definition of [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a cofibration followed by an acyclic fibration
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a Quillen cofibration followed by an acyclic fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -763,47 +926,14 @@ $$
   \,.
 $$
 
-By prop. \ref{SaturationOfGeneratingCofibrations} the map $\hat X \to X$ here has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
-
-Finally to see that $\hat X \to X$ is also a [[weak homotopy equivalence]], we check that the lifts in the diagrams of the form 
-
-$$
-  \array{
-    S^{n-1}  &\longrightarrow & \hat X
-    \\
-    {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{p}}
-    \\
-    D^n &\longrightarrow& X
-  }
-$$
-
-(which exist since $\hat X \to X$ is an $I_{Top}$-fibration) give that $p$ induces isomorphisms on all [[homotopy groups]], def. \ref{HomotopyGroupsOftopologicalSpaces}:
-
-
-For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
-
-Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
-
-Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
-
-$$
-  \array{
-    S^{n-1} &\longrightarrow& \ast &\longrightarrow& \hat X
-    \\
-    \downarrow && \downarrow && \downarrow
-    \\
-    D^n &\longrightarrow& X &=& X
-  }  
-$$
-
-and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
+By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to X$ is both a weak equivalence as well as a Serre fibration.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic cofibration followed by a fibration
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic Quillen-cofibration followed by a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -842,21 +972,78 @@ By definition this makes $\hat X \to X$ a [[Serre fibration]], hence a fibration
 
 By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
 
-Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{spring}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
+Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
 
 
 =--
 
-+-- {: .num_lemma}
-###### Lemma
++-- {: .num_prop}
+###### Proposition
 
-The acyclic fibrations are precisely the $I_{Top}$-fibrations.
+Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a Quillen-cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
+
+$$
+  \array{
+    &\longrightarrow&
+    \\
+    {}^{\mathllap{{g \in} \atop { cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop fib}}
+    \\
+    &\longrightarrow&
+  }
+$$
+
+admits a [[lift]] as soon as one of the two is also a weak equivalence.
+
 
 =--
 
-This is a bit of work ([Hirschhorn 15, section 6](#Hirschhorn15)).
++-- {: .proof}
+###### Proof
+
+**A)** If the fibration $f$ is also a weak equivalence, then lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} says that it has the right lifting property against the generating cofibrations $I_{Top}$, and lemma \ref{SaturationOfGeneratingCofibrations} implies the claim.
+
+**B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
+
+$$
+  g \;\colon\; \stackrel{J_{Top} cell}{\longrightarrow} \stackrel{fib}{\longrightarrow}
+  \,,
+$$
+
+as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By ase A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+
+=--
 
 
+In conclusion:
+
++-- {: .num_theorem #TopQuillenModelStructure} 
+###### Theorem
+
+The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuillen},
+
+* $W = $ [[weak homotopy equivalences]],
+
+* $F = $ [[Serre fibrations]] 
+
+* $C = $ [[retracts]] of [[relative cell complexes]]
+
+define a [[model category]] structure, $Top_{Quillen}$.
+
+=--
+
+
+### The homotopy theory
+
+(...)
+
++-- {: .num_remark} 
+###### Remark
+
+Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+
+=--
+
+(...)
 
 ## References
 
