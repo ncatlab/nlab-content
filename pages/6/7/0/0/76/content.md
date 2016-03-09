@@ -31,11 +31,11 @@ A convenient, powerful, and traditional way to deal with [[(∞,1)-categories]] 
 
 As with presentations of [[group]]s and other algebraic structures, very different presentations can give rise to equivalent $(\infty,1)$-categories.  For example, several different presentations of the $(\infty,1)$-category of $\infty$-groupoids are:
 
- * $C=$ [[CW-complex]]es, $W=$ [[homotopy equivalence]]s - see [[model structure on topological spaces]]
- * $C=$ [[topological space]]s, $W=$ [[weak homotopy equivalence]]s
+ * $C=$ [[CW-complex]]es, $W=$ [[homotopy equivalence]]s - see _[[Quillen model structure on topological spaces]]_
+ * $C=$ [[topological space]]s, $W=$ [[weak homotopy equivalences]]
  * $C=$ [[Kan complex]]es, $W=$ simplicial homotopy equivalences
- * $C=$ [[simplicial set]]s, $W=$ weak homotopy equivalences - see [[model structure on simplicial sets]]
- * $C=$ [[small category|small categories]], $W=$ functors whose nerves are weak homotopy equivalences -- see [[Thomason model structure]].
+ * $C=$ [[simplicial set]]s, $W=$ weak homotopy equivalences - see _[[Quillen model structure on simplicial sets]]_
+ * $C=$ [[small category|small categories]], $W=$ functors whose nerves are weak homotopy equivalences -- see _[[Thomason model structure]]_.
 
 
 The latter three can hence be regarded as providing "combinatorial models" for the homotopy theory of topological spaces.
