@@ -421,25 +421,12 @@ In many applications, however,  all that matters is that there is _some_ (relati
 
 =--
 
-A key property of topological [[cell complexes]], def. \ref{TopologicalCellComplex} is that they see [[compact topological space|compact]] [[subspaces]] as "[[small objects]]" in the following precise sense:
-
-+-- {: .num_prop #CompactSubsetsAreSmallInCellComplexes}
-###### Proposition
-
-Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
-
-=--
-
-A proof is spelled out for instance in ([Hirschhorn 15, prop.3.10, prop. 3.11, corollary 3.12](#Hirschhorn15)).
-
-While prop. \ref{CompactSubsetsAreSmallInCellComplexes} depends on the precise nature of the standard cells given by [[n-disks]] with their [[boundary]] inclusion (the [[generating cofibrations]] $I_{Top}$ of def. \ref{TopologicalGeneratingCofibrations}), the general concept of [[cell complex]] in def. \ref{TopologicalCellComplex} makes sense for any other choices of basic cells:
-
 +-- {: .num_defn #TopologicalCCellComplex}
 ###### Definition
 
-For $C \subset Mor(Top)$ any set of continuous functions, then the concept of  **topological relative $C$-cell complexes** is defined as in def. \ref{TopologicalCellComplex}, with the boundary inclusions $\iota_n \in I_{Top}$ replaced by the maps in $C$: 
+For $C \subset Mor(\mathcal{C})$ any [[class]] of morphisms, the concept of  **relative $C$-cell complexes** is defined as in def. \ref{TopologicalCellComplex}, with the boundary inclusions $\iota_n \in I_{Top}$ replaced by the maps in $C$: 
 
-a topological relative $C$-cell complex is a [[transfinite composition]] of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
+a **relative $C$-cell complex** is a [[transfinite composition]] of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
 
 =--
 
@@ -562,22 +549,37 @@ $$
 
 This section recalls some standard arguments in [[model category]] theory.
 
+### Lifting
+
+
++-- {: .num_prop #SaturationOfGeneratingCofibrations}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
+and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
+
+Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]] against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]].
+
+=--
+
+
+
 ### The small object argument
 
-Suppose given a class $C \subset Mor(\mathcal{C})$ of morphisms, the question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def.\ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def.\ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
 
 $$
   f 
     \;\colon\; 
   X 
-    \stackrel{C cell}{\longrightarrow} 
+    \stackrel{\in C cell}{\longrightarrow} 
   \hat X
-    \stackrel{C fib}{\longrightarrow} 
+    \stackrel{\in C fib}{\longrightarrow} 
   Y
   \,.
 $$
 
-A first approximation to such a factorization is given simply by forming $\hat X = X_1$ by attaching **all** possible $C$-cells to $X$. Namely let
+A first approximation to such a factorization turns out to be given simply by forming $\hat X = X_1$ by attaching **all** possible $C$-cells to $X$. Namely let
 
 $$
   (C/f) 
@@ -668,7 +670,7 @@ and so forth. Since relative $C$-cell complexes are closed under composition, at
 
 The concept of _[[small object]]_ is just what makes this intuition precise and finishes the small object argument. For the present purpose we just need the following simple version:
 
-+-- {: .num_defn #CollectionOfMapsBetweenSmallObjects}
++-- {: .num_defn #ClassOfMorphismsWithSmallDomains}
 ###### Definition
 
 For $\mathcal{C}$ a [[category]] and $C \subset Mor(\mathcal{C})$
@@ -683,7 +685,7 @@ $dom(c)\longrightarrow \hat X$ factors through a finite relative subcomplex.
 ###### Proposition
 **(small object argument)**
 
-Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{CollectionOfMapsBetweenSmallObjects}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
 
 $$
   f \;\colon\;
@@ -693,6 +695,166 @@ $$
 $$
  
 =--
+
+## Proof of the model category axioms
+
++-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
+###### Definition
+
+Say that a [[continuous function]], hence a [[morphism]] in [[Top]] is
+
+* a **weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
+
+* a **fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
+
+* a **cofibration** if it is a [[retract]] of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+
+Also 
+
+* an **acyclic cofibration** if it is a cofibration and a weak equivalence;
+
+* an **acyclic fibration** if it is a fibration and a weak equivalence.
+
+=--
+
++-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
+###### Lemma
+
+Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
+
+=--
+
+A proof is spelled out for instance in ([Hirschhorn 15, prop.3.10, prop. 3.11, corollary 3.12](#Hirschhorn15)).
+
+
++-- {: .num_prop}
+###### Proposition
+
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a cofibration followed by an acyclic fibration
+
+$$
+  f
+  \;\colon\;
+  X 
+    \stackrel{cofib}{\longrightarrow}
+  \hat X
+    \stackrel{fib_{we}}{\longrightarrow}
+  Y
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
+the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of 
+topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-fibration, def. \ref{RightLiftingProperty}.
+
+$$
+  f 
+  \;\colon\;
+  X 
+   \stackrel{\in cofib}{\longrightarrow}
+  \hat X
+   \stackrel{\in I_{top} fib}{\longrightarrow}
+  Y
+  \,.
+$$
+
+By prop. \ref{SaturationOfGeneratingCofibrations} the map $\hat X \to X$ here has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
+
+Finally to see that $\hat X \to X$ is also a [[weak homotopy equivalence]], we check that the lifts in the diagrams of the form 
+
+$$
+  \array{
+    S^{n-1}  &\longrightarrow & \hat X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    D^n &\longrightarrow& X
+  }
+$$
+
+(which exist since $\hat X \to X$ is an $I_{Top}$-fibration) give that $p$ induces isomorphisms on all [[homotopy groups]], def. \ref{HomotopyGroupsOftopologicalSpaces}:
+
+
+For $n = 0$ the existence of these lifts says that every point of $X$ is in the image of $p$, hence that $\pi_0(\hat X) \to \pi_0(X)$ is [[surjection|surjective]]. Let then $S^0 = \ast \coprod \ast \longrightarrow \hat X$ be a map that hits two connected components, then the existence of the lift says that if they have the same image in $\pi_0(X)$ then they were already the same connected component in $\hat X$. Hence $\pi_0(\hat X)\to \pi_0(X)$ is also [[injection|injective]] and hence is a [[bijection]].
+
+Similarly, for $n \geq 1$, if $S^n \to \hat X$ represents an element in $\pi_n(\hat X)$ that becomes trivial in $\pi_n(X)$, then the existence of the lift says that it already represented the trivial element itself. Hence $\pi_n(\hat X) \to \pi_n(X)$ has trivial [[kernel]] and so is injective. 
+
+Finally, to see that $\pi_n(\hat X) \to \pi_n(X)$ is also surjective, hence bijective, observe that every elements in $\pi_n(X)$ is equivalently represented by a commuting diagram of the form
+
+$$
+  \array{
+    S^{n-1} &\longrightarrow& \ast &\longrightarrow& \hat X
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    D^n &\longrightarrow& X &=& X
+  }  
+$$
+
+and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic cofibration followed by a fibration
+
+$$
+  f
+  \;\colon\;
+  X 
+    \stackrel{cofib_{we}}{\longrightarrow}
+  \hat X
+    \stackrel{fib}{\longrightarrow}
+  Y
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. 
+
+By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
+the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
+topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-fibration, def. \ref{RightLiftingProperty}:
+
+$$
+  f
+  \;\colon\;
+  X 
+   \stackrel{J_{Top} cell}{\longrightarrow}
+  \hat X
+    \stackrel{J_{Top} fib}{\longrightarrow}
+  X
+  \,.
+$$
+
+By definition this makes $\hat X \to X$ a [[Serre fibration]], hence a fibration.
+
+By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
+
+Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{spring}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
+
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The acyclic fibrations are precisely the $I_{Top}$-fibrations.
+
+=--
+
+This is a bit of work ([Hirschhorn 15, section 6](#Hirschhorn15)).
 
 
 
