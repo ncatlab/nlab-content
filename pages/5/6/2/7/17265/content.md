@@ -32,9 +32,11 @@ $Top_{Quillen}$ and $sSet_{Quillen}$, the [[Quillen model structure on simplicia
 
 There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the standard Quillen model structure.
 
-## Background and motivation -- Topological homotopy theory
+## Algebraic topology background
 
-This section recalls basic relevant background concepts from [[topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
+This section recalls basic relevant concept from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
+
+### Homotopy
 
 The fundamental concept of [[homotopy theory]] is that of _[[homotopy]]_. This is about contiunous deformations of [[continuous functions]] parameterized by the standard interval:
 
@@ -197,8 +199,7 @@ $$
 of the [[codiagonal]] $\nabla_X$ in def. \ref{TopologicalInterval}, which in general is far from being a [[monomorphism]], may be thought of as factoring it through a monomorphism after replacing $X$, up to weak homotopy equivalence, by $X\times I$.
 
 In fact $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
-it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ that are also [[weak homotopy equivalences]].
-
+it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ (def. \ref{SerreFibration}) that are also [[weak homotopy equivalences]].
 
 =--
 
@@ -302,17 +303,261 @@ Here
 
 1. $X^{\ast \sqcup \ast \to I}$ is a [[Serre fibration]].
 
-So while in general the [[diagonal]] $\Delta_X$ is far from being an [[epimoprhism]] or even just a [[Serre fibration]], the factorization through the [[path space object]] may be thought of as replacing $X$, up to weak homotopy equivalence, by its path space, such as to turn its diagonal into a Serre fibration after all.
+So while in general the [[diagonal]] $\Delta_X$ is far from being an [[epimorphism]] or even just a [[Serre fibration]], the factorization through the [[path space object]] may be thought of as replacing $X$, up to weak homotopy equivalence, by its path space, such as to turn its diagonal into a Serre fibration after all.
 
 =--
 
 +-- {: .num_defn }
 ###### Definition
 
-spring
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[right homotopy]]** $f \Rightarrow_R g$ is a [[continuous function]]
+
+$$
+  \eta \;\colon\; X \longrightarrow Y^I
+$$
+
+into the [[path space object]] of $X$, def. \ref{TopologicalPathSpace}, such that this fits into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{X^{\delta_0}}}
+    \\
+    X &\stackrel{\eta}{\longrightarrow}& X^I
+    \\
+    & {}_{\mathllap{g}}\searrow & \downarrow^{\mathrlap{X^{\delta_1}}}
+  }
+  \,.
+$$
+
 
 =--
 
+
+### Cell complexes
+
++-- {: .num_defn #TopologicalGeneratingCofibrations}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+* $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]];
+
+* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-sphere]];
+
+Write
+
+$$
+  I_{Top}
+    \coloneqq
+  \{S^{n-1} \stackrel{\iota_n}{\hookrightarrow} D^{n}\}_{n \in \mathbb{N}}
+    \subset 
+  Mor(Top)
+$$
+
+for the set of canonical [[boundary]] inclusion maps. This going to be called the set of standard **topological [[generating cofibrations]]**.
+
+Notice that $S^{-1} = \emptyset$ and that $S^0 = \ast \sqcup \ast$.
+
+=--
+
++-- {: .num_defn #TopologicalCellComplex}
+###### Definition
+
+For $X \in Top$ and for $n \in \mathbb{N}$, an **$n$-cell attachment** to $X$ is the [[pushout]] of a generatic cofibration, def. \ref{TopologicalGeneratingCofibrations}
+
+$$
+  \array{
+    S^{n-1} &\stackrel{\phi}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow && \downarrow
+    \\
+    D^n &\longrightarrow& X {}_\phi\underset{S^{n-1}}{\sqcup} D^n
+  }
+$$
+
+along some [[continuous function]] $\phi$.
+
+A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, hence if it is a [[transfinite composition]] of [[pushouts]]
+
+$$
+  \array{
+    \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k-1}
+    \\
+    {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow 
+     &(po)& \downarrow  
+    \\
+    \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k}
+  }
+$$
+
+of [[coproducts]] of [[generating cofibrations]].
+
+A topological space is a **[[cell complex]]** if $\emptyset \longrightarrow X$ is a relative cell complex.
+
+A relative cell complex is called a **finite relative cell complex** if it is obtained from a [[finite number]] of cell attachments.
+
+A (relative) cell complex is called a (relative) **[[CW-complex]]** if in the above transfinite composition is countable 
+
+$$
+  \array{
+    X = X_0 &\longrightarrow& X_1 &\longrightarrow& X_2 &\longrightarrow& \cdots
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrrow & \swarrow && \cdots
+    \\
+    && Y = \underset{\longrightarrow}{\lim} X_\bullet
+  }
+$$
+
+and if $X_k$ is obtained from $X_{k-1}$ by attaching cells precisely only of [[dimension]] $k$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Strictly speaking a relative cell complex, def. \ref{TopologicalCellComplex}, is a function $f\colon X \to Y$, _together_ with its cell structure, hence together with the information of the pushout diagrams and the transfinite composition of the pushout maps that exhibit it.
+
+In many applications, however,  all that matters is that there is _some_ (relative) cell decomosition, and then one tends to speak loosely and mean by a (relative) cell complex only a (relative) topological space that admits some cell decomposition.
+
+=--
+
+A key property of topological [[cell complexes]], def. \ref{TopologicalCellComplex} is that they see [[compact topological space|compact]] [[subspaces]] as "[[small objects]]" in the following precise sense:
+
++-- {: .num_prop #CompactSubsetsAreSmallInCellComplexes}
+###### Proposition
+
+Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
+
+=--
+
+A proof is spelled out for instance in ([Hirschhorn 15, prop.3.10, prop. 3.11, corollary 3.12](#Hirschhorn15)).
+
+While prop. \ref{CompactSubsetsAreSmallInCellComplexes} depends on the precise nature of the standard cells given by [[n-disks]] with their [[boundary]] inclusion (the [[generating cofibrations]] $I_{Top}$ of def. \ref{TopologicalGeneratingCofibrations}), the general concept of [[cell complex]] in def. \ref{TopologicalCellComplex} makes sense for any other choices of basic cells:
+
++-- {: .num_defn #TopologicalCCellComplex}
+###### Definition
+
+For $C \subset Mor(Top)$ any set of continuous functions, then the concept of  **topological relative $C$-cell complexes** is defined as in def. \ref{TopologicalCellComplex}, with the boundary inclusions $\iota_n \in I_{Top}$ replaced by the maps in $C$: 
+
+a topological relative $C$-cell complex is a [[transfinite composition]] of [[pushouts]] of [[coproducts]] of the maps in $C \hookrightarrow Mor(Top)$.
+
+=--
+
+Given a relative $C$-cell complex $\iota \colon  X \to Y$, def. \ref{TopologicalCCellComplex}, it is typically interesting to study the [[extension]] problem along $f$, i.e. to ask which topological spaces $E$ are such that every [[continuous function]] $f\colon X \longrightarrow E$ has an extension $\tilde $ along $\iota$ 
+
+$$
+  \array{
+    X &\stackrel{f}{\longrightarrow}& E
+    \\
+    {}^{\mathllap{\iota}}\downarrow & \nearrow_{\mathrlap{\exists \tilde f}}
+    \\
+    Y
+  }
+  \,.
+$$
+
+If so, then this means that $E$ is sufficiently "spead out" with respect to the maps in $C$. More generally one considers this extension problem fiberwise, i.e. with both $E$ and $Y$ (hence also $X$) equipped with a map to some base space $B$.
+
+
++-- {: .num_defn #RightLiftingProperty}
+###### Definition
+
+Given a [[category]] $\mathcal{C}$ and a sub-[[class]] $C \subset Mor(\mathcal{C})$ of its [[morphisms]], then a morphism $p \colon E \longrightarrow B$ in $\mathcal{C}$ is said to have the [[right lifting property]] against the morphisms in $C$ if every [[commuting diagram]] in $\mathcal{C}$ of the form
+
+$$
+  \array{
+    X &\longrightarrow& E
+    \\
+    {}^{\mathllap{c}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    Y &\longrightarrow& B
+  }
+  \,,
+$$
+
+with $c \in C$, has a [[lift]] $w$, in that it may be completed to a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X &\longrightarrow& E
+    \\
+    {}^{\mathllap{c}}\downarrow &{}^{\mathllap{w}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    Y &\longrightarrow& B
+  }
+  \,.
+$$
+
+
+=--
+
+
+### Fibrations
+
++-- {: .num_defn #TopologicalGeneratingAcyclicCofibrations}
+###### Definition
+
+Write
+
+$$
+  J
+    \coloneq 
+  \{D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I\}_{n \in \mathbb{N}}
+  \subset Mor(Top)
+$$
+
+for the [[set]] of inclusions of the topological [[n-disks]], def. \ref{TopologicalGeneratingCofibrations}, into their [[cylinder objects]], def. \ref{TopologicalInterval}, along (for definiteness) the left endpoint inclusion.
+
+These inclusions are similar to the standard topological [[generating cofibrations]] of def. \ref{TopologicalGeneratingCofibrations}, but in contrast to these they are "acyclic" (meaning: trivial on homotopy classes of maps from "cycles" given by [[n-spheres]]) in that they are [[weak homotopy equivalences]] (example \ref{FactoringTopologicalCodiagonalThroughCylinder}).
+
+Accordingly, $J$ is to be called the set of standard **topological [[generating acyclic cofibrations]]**.
+
+=--
+
++-- {: .num_lemma #TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}
+###### Lemma
+
+The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAcyclicCofibrations} are finite [[relative cell complexes]], def. \ref{TopologicalCellComplex}.
+
+=--
+
+
++-- {: .num_defn #SerreFibration}
+###### Definition
+
+A [[contiuous function]] $p \colon E \longrightarrow B$
+is called a **[[Serre fibration]]** if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, hence if for every [[commuting diagram]] of [[continuous functions]] of the form
+
+$$
+  \array{
+    D^n &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    D^n\times I &\longrightarrow& B
+  }
+  \,,
+$$
+
+has a [[lift]] $w$, in that it may be completed to a [[commuting diagram]] of the form
+
+$$
+  \array{
+    D^n &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow 
+     &{}^{\mathllap{w}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    D^n\times I &\longrightarrow& B
+  }
+  \,.
+$$
+
+
+
+=--
+
+## General tools for proving model category axioms
 
 ## References
 
@@ -322,7 +567,7 @@ The original article is
 
 An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
 
-* [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
+* {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
 
 [[!redirects Quillen model structure on topological spaces]]
 [[!redirects Quillen model structure on Top]]
