@@ -10,7 +10,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea ##
@@ -97,23 +97,23 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
 * by cor. \ref{AllObjectsFibrantImpliesRightProper} every model category in which each object is fibrant is right proper.
 
-  This includes for instance the standard [[model structure on topological spaces]]. 
+  This includes for instance the standard [[Quillen model structure on topological spaces]]. 
 
 * The Quillen [[model structure on simplicial sets]] is right proper, though not all objects are fibrant.  An explanation of why can be found on its page.
 
 
 ### Non-right proper model categories
 
-* "Non-algebraic" models for higher categories (other than higher groupoids) are generally not right proper.  For example, the [[model category for complete Segal spaces]] and the [[model category for quasi-categories]] are not right proper (see [mathoverflow](http://mathoverflow.net/questions/40938/is-the-model-category-of-complete-segal-spaces-right-proper)).
+* "Non-algebraic" models for higher categories (other than higher groupoids) are generally not right proper.  For example, the [[model structure for complete Segal spaces]] and the [[model structure for quasi-categories]] are not right proper (see [mathoverflow](http://mathoverflow.net/questions/40938/is-the-model-category-of-complete-segal-spaces-right-proper)).
 
 
 ### Proper model categories ###
 
 Model categories which are both left and right proper include
 
-* [[Top]]: [[model structure on topological spaces]]
+* [[Top]]: [[Quillen model structure on topological spaces]]
 
-* [[sSet]]: [[model structure on simplicial sets]]
+* [[sSet]]: [[Quillen model structure on simplicial sets]]
 
 * The _global_ [[model structure on simplicial presheaves]] and any local such model structure over a site with [[point of a topos|enough points]] and weak equivalences the [[stalk]]wise weak equivalences.
 
