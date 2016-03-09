@@ -1,4 +1,7 @@
 
+> This page discusses the classical case of bases for [[topological spaces]].  For bases on [[sites]], that is for [[Grothendieck topologies]], see at _[[Grothendieck pretopology]]_.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,14 +16,11 @@
 * table of contents
 {: toc}
 
-## Disambiguation
-
-We discuss here the classical case of bases for [[topological spaces]].  For bases on [[sites]], that is for [[Grothendieck topologies]], see _[[Grothendieck pretopology]]_.
 
 
 ## Idea
 
-A base or subbase for a [[topological space]] is a way of generating its topology from something simpler.  This is the appliction to topology of the general concept of [[base]].
+A _base_ or _subbase_ for a [[topological space]] is a way of generating its topology from something simpler.  This is the appliction to topology of the general concept of [[base]].
 
 
 ## Definition {#ForTopologicalSpaces}
@@ -36,7 +36,7 @@ A __base__ or __basis__ for (or "of") $X$ (or $\tau$) is a [[subset|collection]]
 +-- {: .num_defn}
 ###### Definition
 
-A __subbase__ for (or "of") $X$ (or $\tau$) is a subcollection $S \subset \tau$ -- whose members are called __subbasic open subsets__ -- such that every open subset is a union of [[finitary intersections]] of subbasic ones.
+A __subbase__ for (or "of") $X$ (or $\tau$) is a subcollection $S \subset \tau$ -- whose members are called __subbasic open subsets__ -- such that every open subset is a [[union]] of [[finitary intersections]] of subbasic ones.
 =--
 
 If only the [[underlying set]] of $X$ is given, then a __base__ or __subbase__ on this [[set]] is any collection of [[subsets]] of $X$ that is a base or subbase for *some* topology on $X$.  See [below](#generation) for a characterisation of which collections these can be.
