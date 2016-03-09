@@ -32,7 +32,7 @@ $Top_{Quillen}$ and $sSet_{Quillen}$, the [[Quillen model structure on simplicia
 
 There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the standard Quillen model structure.
 
-## Algebraic topology background
+## Background from algebraic topology
 
 This section recalls basic relevant concept from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
 
@@ -488,6 +488,7 @@ $$
   \,.
 $$
 
+We will also say that $f$ is a **$C$-fibration** if it satisfies the right lifting property against $C$.
 
 =--
 
@@ -500,7 +501,7 @@ $$
 Write
 
 $$
-  J
+  J_{Top}
     \coloneq 
   \{D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I\}_{n \in \mathbb{N}}
   \subset Mor(Top)
@@ -526,7 +527,9 @@ The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAc
 ###### Definition
 
 A [[contiuous function]] $p \colon E \longrightarrow B$
-is called a **[[Serre fibration]]** if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations}, hence if for every [[commuting diagram]] of [[continuous functions]] of the form
+is called a **[[Serre fibration]]** if it is a $J_{Top}$-fibration;
+i.e. if it has the [[right lifting property]], def. \ref{RightLiftingProperty}, against all topological generating acylic cofibrations, def. \ref{TopologicalGeneratingAcyclicCofibrations};
+hence if for every [[commuting diagram]] of [[continuous functions]] of the form
 
 $$
   \array{
@@ -553,11 +556,145 @@ $$
   \,.
 $$
 
+=--
 
+## Background from model category theory
+
+This section recalls some standard arguments in [[model category]] theory.
+
+### The small object argument
+
+Suppose given a class $C \subset Mor(\mathcal{C})$ of morphisms, the question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def.\ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+
+$$
+  f 
+    \;\colon\; 
+  X 
+    \stackrel{C cell}{\longrightarrow} 
+  \hat X
+    \stackrel{C fib}{\longrightarrow} 
+  Y
+  \,.
+$$
+
+A first approximation to such a factorization is given simply by forming $\hat X = X_1$ by attaching **all** possible $C$-cells to $X$. Namely let
+
+$$
+  (C/f) 
+   \coloneqq
+  \left\{
+    \array{
+       dom(c) &\stackrel{}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{c\in C}}\downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       cod(c) &\longrightarrow& Y
+    }
+  \right\}
+$$
+
+be the set of **all** ways to find a $C$-cell attachment in $f$, and consider the [[pushout]] $\hat X$ of the [[coproduct]] of morphisms in $C$ over all these:
+
+$$
+  \array{
+    \underset{c\in(C/f)}{\coprod} dom(c) &\longrightarrow& X
+    \\
+    {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow
+    &(po)& 
+    \downarrow^{\mathrlap{}}
+    \\
+    \underset{c\in(C/f)}{\coprod} cod(c)
+    &\longrightarrow&
+    X_1
+  }
+  \,.
+$$
+
+This gets already close to producing the intended factorization: 
+
+First of all the resulting map $X \to X_1$ is a $C$-relative cell complex, by construction. 
+
+Second, by the fact that the coproduct is over all commuting squres to $f$, the morphism $f$ itself makes a [[commuting diagram]] 
+
+$$
+  \array{
+    \underset{c\in(C/f)}{\coprod} dom(c) &\longrightarrow& X
+    \\
+    {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow
+    && 
+    \downarrow^{\mathrlap{f}}
+    \\
+    \underset{c\in(C/f)}{\coprod} cod(c)
+    &\longrightarrow&
+    Y
+  }
+$$
+
+and hence the [[universal property]] of the [[colimit]] means that $f$ is indeed factored through that $C$-cell complex $X_1$; we may suggestively arrange that factorizing diagram like so:
+
+$$
+  \array{
+    \underset{c\in(C/f)}{\coprod} dom(c) 
+      &\longrightarrow& 
+    X
+    \\
+    {}^{\mathllap{id}}\downarrow
+    && 
+    \downarrow^{\mathrlap{}}
+    \\
+    \underset{c\in(C/f)}{\coprod} dom(c)
+     &&
+    X_1
+    \\
+    {}^{\mathllap{\underset{c\in(C/f)}{\coprod} c}}\downarrow 
+    &\nearrow& \downarrow
+    \\
+    \underset{c\in(C/f)}{\coprod} cod(c)
+    &\longrightarrow&
+    Y
+  }
+  \,.
+$$
+
+This shows that, finally, the colimiting [[co-cone]] map -- the one that now appears diagonally -- **almost** exhibits the desired right lifting of $X_1 \to X$ against the $c\in C$. The failure of that to hold on the nose is only the fact that a horizontal map in the middle of the above diagram is missing: the diagonal map obtained above lifts not all commuting diagrams of $c\in C$ into $f$, but only those where the top morphism $dom(c) \to X_1$ factors through $X \to X_1$.
+
+The idea of the [[small object argument]] now is to fix this only problem by iterating the construction: next factor $X_1 \to X$ in the same way into 
+
+$$
+  X_1 \longrightarrow X_2 \longrightarrow X
+$$
+
+and so forth. Since relative $C$-cell complexes are closed under composition, at stage $n$ the resulting $X \longrightarrow X_n$ is still a $C$-cell complex, getting bigger and bigger. But accordingly, the failure of the accompanying $X_n \longrightarrow Y$ to be a $C$-fibration becomes smaller and smaller, for it now lifts against all diagrams where $dom(c) \longrightarrow X_n$ factors through $X_{n-1}\longrightarrow X_n$, which intuitively is less and less of a condition as the $X_{n-1}$ grow larger and larger.
+
+The concept of _[[small object]]_ is just what makes this intuition precise and finishes the small object argument. For the present purpose we just need the following simple version:
+
++-- {: .num_defn #CollectionOfMapsBetweenSmallObjects}
+###### Definition
+
+For $\mathcal{C}$ a [[category]] and $C \subset Mor(\mathcal{C})$
+a sub-[[class]] of its morphisms, say that these have _small [[domains]]_
+if for every $c\in C$ and for every $C$-[[relative cell complex]] 
+$f\colon X \longrightarrow \hat X$ every morphism 
+$dom(c)\longrightarrow \hat X$ factors through a finite relative subcomplex.
 
 =--
 
-## General tools for proving model category axioms
++-- {: .num_prop #SmallObjectArgument}
+###### Proposition
+**(small object argument)**
+
+Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{CollectionOfMapsBetweenSmallObjects}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-fibration, def. \ref{RightLiftingProperty}
+
+$$
+  f \;\colon\;
+  X \stackrel{\in C cell}{\longrightarrow} \hat X \stackrel{\in C fib}{\longrightarrow}
+  Y
+  \,.
+$$
+ 
+=--
+
+
 
 ## References
 
