@@ -41,7 +41,7 @@ A relative CW-complex $(X, A)$ is defined as above, except $X_{-1} = A$ is allow
 
 A _[[finite CW-complex]]_ is one which admits a presentation in which there are only finitely many attaching maps, and similarly a _countable CW-complex_ is one which admits a presentation with countably many attaching maps. 
 
-Formally this means that (relative) CW-complexes are (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[model structure on topological spaces]].
+Formally this means that (relative) CW-complexes are special (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[Quillen model structure on topological spaces]]: they are those cell complexes which are obtained from a _countable_ [[transfinite composition]] of cell attachments, and where in addition the stage $X_n$ is obtained from $X_{n-1}$ by attaching cells of dimension $n$, instead of cells of arbitrary dimension.
 
 Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for [[algebraic topology]].
 
