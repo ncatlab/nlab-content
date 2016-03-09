@@ -413,7 +413,7 @@ See ([GepnerHenriques, remark 2.23](#GepnerHenriques)).
 ### Relation to the homotopy colimit
   {#RelationToHomotopyColimit}
 
-Recall that a simplicial space is proper if it is Reedy cofibrant relative to the [[Strøm model structure]] on $Top$, in which the weak equivalences are the honest [[homotopy equivalences]].  Nevertheless, in certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the *standard* (Quillen) [[model structure on topological spaces]], in which the weak equivalences are the [[weak homotopy equivalences]].
+Recall that a simplicial topological space is proper if it is Reedy cofibrant relative to the [[Strøm model structure]] on [[Top]], in which the weak equivalences are the honest [[homotopy equivalences]].  Nevertheless, in certain cases geometric realisation computes the [[homotopy colimit]] of the [[diagram]] $X_\bullet \colon  \Delta^{op} \to Top$ given by the simplicial space, with respect to the standard [[Quillen model structure on topological spaces]] in which the weak equivalences are the [[weak homotopy equivalences]].
 
 +-- {: .num_lemma #RealizPresWHE}
 ###### Lemma
@@ -463,7 +463,7 @@ Now, using the above pushout square again and point (1) above, we can prove by i
 
 Recall that one way to compute the homotopy colimit of a diagram $X\colon D^{op}\to Top$, with respect to the standard (Quillen) model structure, is as the tensor product
 $$hocolim X \coloneqq N(D/ -) \otimes_D Q X,$$
-where $(D/ -)\colon D \to Cat$ sends each object of $D$ to its [[overcategory]], $N$ denotes the [[nerve]] of a small category, and $Q$ denotes a functorial cofibrant replacement in the Quillen model structure (e.g. [[CW complex|CW]] replacement).  When $D=\Delta$, there is a canonically defined map $N(\Delta / -) \to \Delta$ (where the second $\Delta$ denotes the canonical cosimplicial simplicial set) called the [[Bousfield-Kan map]].  This map induces, for each simplicial space $X$, a map
+where $(D/ -)\colon D \to Cat$ sends each object of $D$ to its [[overcategory]], $N$ denotes the [[nerve]] of a small category, and $Q$ denotes a functorial cofibrant replacement in the [[Quillen model structure on topological spaces]] (e.g. [[CW complex|CW]] replacement via singular [[nerve and realization]]).  When $D=\Delta$, there is a canonically defined map $N(\Delta / -) \to \Delta$ (where the second $\Delta$ denotes the canonical cosimplicial simplicial set) called the [[Bousfield-Kan map]].  This map induces, for each simplicial space $X$, a map
 $$ N(D/ -) \otimes_D X_\bullet \to \Delta \otimes_{\Delta} X_\bullet = {|X_\bullet|} $$
 which is also called the **Bousfield-Kan map**.
 
