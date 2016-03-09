@@ -109,9 +109,9 @@ It is known that not all homotopy 3-types can be modeled by strict 3-groupoids, 
 
 ### For Kan complexes {#ForKanComplexes}
 
-We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complexes]].
+We write $sSet_{Quillen}$ for [[sSet]] equipped with the standard [[Quillen model structure on simplicial sets]]. The cofibrant-fibrant objects in $sSet_{Quillen}$ are precisely the [[Kan complexes]].
 
-Also we write $Top_{Quillen}$ for [[Top]] equipped with the standard [[model structure on topological spaces]].
+Also we write $Top_{Quillen}$ for [[Top]] equipped with the standard [[Quillen model structure on topological spaces]].
 
 +-- {: .num_theorem}
 ###### Theorem
