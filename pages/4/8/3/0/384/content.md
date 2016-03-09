@@ -20,7 +20,7 @@ A **CW-complex** is a [[nice topological space]] which is or can be built up ind
 
 Being, therefore,  essentially combinatorial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
 
-Also, CW complexes are the [[cofibrant objects]] in the standard [[model structure on topological spaces]]. 
+Also, CW complexes are the [[cofibrant objects]] in the standard [[Quillen model structure on topological spaces]]. 
 This means in particular that _every_ ([[Hausdorff topological space|Hausdorff]]) topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
 
 ## Definition
