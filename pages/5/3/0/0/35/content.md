@@ -137,14 +137,13 @@ Recent progress: it turns out that one may link Lie algebroid with $L_\infty$-sp
 
 
 ## Morphisms of Lie groupoids 
+ {#MorphismsOfLieGroupoids}
 
 There are several versions of Lie groupoid morphisms, some of them are equivalent in a correct sense, some of them are not.
 
 * strict morphism: a strict morphism from Lie groupoid $X$ to $Y$ is a functor from $X$ to $Y$ as categories and preserving the smooth structures. 
 
-
-
-* generalised morphism: a generalised morphism from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[weak equivalence]] of Lie groupoids, defined as below:
+* generalised morphism: a generalised morphism from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[weak equivalence]] of Lie groupoids, defined as below (see also at _[[bibundle]]_).
 
 A Lie groupoid functor $f : G\to H$ is a  **weak equivalence** if it is
 
@@ -153,7 +152,6 @@ A Lie groupoid functor $f : G\to H$ is a  **weak equivalence** if it is
 1. fully faithful; that is,  $G_1 \cong H_1\times_{t\times s, H_0\times H_0} G_0 \times G_0$. 
 
 Composition of generalised morphism is given by weak [[pullback]] of Lie groupoids (see also [[weak limit]]). Given  (strict) morphisms $\hat X\to Y$ and $\hat X' \to Y$, the **weak [[pullback]]** of $\hat X\to Y$ along $\hat X' \to Y$ is a groupoid $\hat X \times_{Y}^w \hat X'$ with space of objects $\hat X_0 \times_{ Y_0} Y_1 \times_{Y_0} \hat X'_0$ and space of morphisms $\hat X_1 \times_{Y_0} Y_1 \times_{Y_0} \hat X'_1$. When $\hat X' \to Y$ is a weak equivalence, the weak pullback is a Lie groupoid thank to the property of essentially surjective. (Is this composition associative?)
-
 
 
 * [[anafunctor]]: an anafunctor from $X$ to $Y$ is a [[span]] of morphisms $X \stackrel{\simeq}{\leftarrow} \hat X \to Y$, where $\hat X \stackrel{\simeq}{\rightarrow} X$ is an [[acyclic fibration]] of Lie groupoids. That is, this map is a [[weak equivalence]] of Lie groupoids and $\hat X_0 \to X_0$ is a surjective submersion.
@@ -382,8 +380,8 @@ Discussion in the context of [[foliation theory]] ([[foliation groupoids]]) is i
 
 The relation to [[differentiable stacks]] is discussed/reviewed in section 2 of
 
-* [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
- {#Blohmann}
+* {#Blohmann} [[Christian Blohmann]], _Stacky Lie groups_, Int. Mat. Res. Not. (2008) Vol. 2008: article ID rnn082 ([arXiv:math/0702399](http://arxiv.org/abs/math/0702399))
+ 
 
 
 Lie groupoids as a source for [[groupoid convolution algebras|groupoid convolution]] [[C*-algebras]] are discussed in 
