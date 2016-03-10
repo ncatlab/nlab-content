@@ -178,7 +178,7 @@ $\,$
 
 We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the plain [[homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
 
-### Topological homotopy theory
+### **P.1)** Topological homotopy theory
  {#TheClassicalHomotopyCategory}
 
 
@@ -741,6 +741,19 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+Def. \ref{SerreFibration} says, in view of the definition of [[left homotopy]], that a [[Serre fibration]] $p$ is a map with the property that given a [[left homotopy]], def. \ref{LeftHomotopy}, between two functions into its [[codomain]], and given a lift of one the two functions through $p$, then also the homotopy between the two lifts, in particular the second function lifts, too, and both lifts are related by left homotopy.
+
+Therefore the condition on a [[Serre fibration]] is also called the _[[homotopy lifting property]]_ for maps whose domain is an [[n-disk]].
+
+More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_. 
+
+=--
+
+
+
 #### Background on model category theory
 
 This section recalls some standard arguments in [[model category]] theory.
@@ -1287,7 +1300,7 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 
 
-### Simplicial homotopy theory 
+### **P.2)** Simplicial homotopy theory 
  {#SimplicialSets}
 
 
@@ -2638,11 +2651,13 @@ Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi
 =--
 
 
-### Homotopy fiber sequences
+### **P.3)** Homotopy fiber sequences
 
 A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [[category theory]], such as [[limits]] and [[colimits]], receive a refinement whereby their [[universal properties]] hold not just up to [[isomorphism]] but up to ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]]. One speaks of _[[homotopy limits]]_ and _[[homotopy colimits]]_.
 
 We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
+
+#### Mapping cones
 
 The _[[mapping cone]]_ of a [[morphism]] $f : X \to Y$ in some [[homotopical category]] (precisely: a [[category of cofibrant objects]]) is, if it exists, a particular representative of the [[homotopy cofiber]] of $f$. 
 
@@ -2827,6 +2842,9 @@ defines the **mapping cone** $cone(f)$ of $f$: the result of forming the cylinde
 =--
 
 Dually, the **[[mapping cocone]]** is a presentation of homotopy fibers.
+
+
+#### Homotopy cartesian squares
 
 +-- {: .num_prop #HomotopyPullbackByOrdinaryPullback}
 ###### Proposition
@@ -3054,6 +3072,7 @@ commute.
 
 (...)
 
+#### Long exact sequences of homotopy groups
 
 Given a morphism $f \colon A \longrightarrow B$ there is the following pasting composite of [[homotopy fibers]]
 
@@ -5950,8 +5969,6 @@ $$
 ## **Part 2) Adams spectral sequences**
 
 
-**Literature** We follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in ([Aramian](#Aramian)). See also ([Adams 74, part III.15](#Adams74)).
-
 The basic invariants of [[stable homotopy theory]], the [[stable homotopy groups]], are as rich and interesting as they are, in general, hard to compute. The archetypical example for this phenonemon are the [[stable homotopy groups of spheres]] $\pi_\bullet(\mathbb{S})$. More generally one is interested in the stable homotopy groups of [[mapping spectra]] $\pi_\bullet[Y,X] \simeq X^\bullet(Y)$ which are [[generalized cohomology]] [[cohomology group|groups]] of $Y$ with [[coefficients]] in $X$. As discussed above in _[Interlude: Spectral sequences](#SpectralSequences)_ the tool of choice to break such problems up into stages are [[spectral sequences]].
 
 Where the [[Atiyah-Hirzebruch spectral sequence]] ([here](#SerreAtiyahHirzebruchSpectralSequence)) approximates $\pi_\bullet[Y,X]$ via the [[ordinary cohomology]] $\pi_\bullet(Y,H X_\bullet)$, the idea of the [[Adams spectral sequence]] is to make use of an auxiliary [[ring spectrum]] $E$ and approximate maps of spectra $Y \to X$ via their image $E_\bullet(Y) \to E_\bullet(X)$ in $E$-[[generalized homology]]. 
@@ -5972,9 +5989,13 @@ $$
 
 This gives $E_\bullet(X)$ the structure of a [[module]] over the [[Hopf algebroid]] $\pi_\bullet(E \wedge E) = E_\bullet(E) \stackrel{\longleftarrow}{\longleftarrow} E_\bullet$. Accordingly the general $E$-[[Adams spectral sequence]] (or: [[Adams-Novikov spectral sequence]]) approximates $\pi_\bullet[Y,X]$ by $Hom_{E_\bullet(E)}(E_\bullet(Y),E_\bullet(X))$.
 
-Fully abstractly, the [[spectral sequence]] which constitutes such an approximation is the [[Bousfield-Kan spectral sequence]] of the [[totalization]]-[[tower of homotopy fibers|tower]] of the cosimplicial spectrum $[Y, E^{\wedge^\bullet} X]$. Below we give a semi-classical construction, following ([Hopkins 99, section 5](#Hopkins99)).
 
-(...)
+$\,$
+
+**Literature** We follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in ([Aramian](#Aramian)). See also ([Adams 74, part III.15](#Adams74)).
+
+
+
 
 #### $E$-Adams resolutions
 
@@ -6516,8 +6537,6 @@ carefully by [[induction]]. This takes a bit of work, crucially using properties
 
 =--
 
-#### $E$-Adams spectral sequence
-
 
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
@@ -6610,7 +6629,7 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 =--
 
 
-#### The $\mathcal{E}_1$-term and Hopf algebroid structure
+#### The $\mathcal{E}_1$-term and Hopf algebroids
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
 for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
@@ -6826,7 +6845,7 @@ Now if $E$ satisfies the condition of prop. \ref{AdamsUCT}, then the diagonal mo
 
 
 
-#### The $\mathcal{E}_2$-term and homological algebra of Hopf modules
+#### The $\mathcal{E}_2$-term and Ext-groups of Hopf comodules
 
 +-- {: .num_prop}
 ###### Proposition
@@ -6865,24 +6884,22 @@ For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsS
 
 
 
+#### Examples
 
 
+* The case $E = H \mathbb{F}_p$ and $X = \mathbb{S}$
+gives the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
 
-#### The case $E = H \mathbb{F}_p$ and $X = \mathbb{S}$
+  (... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
 
-classical [[Adams spectral sequence]]...
+* The case $E = H \mathbb{F}_p$ and $X = M U$ is used to compute the [[stable homotopy groups]] of the complex [[Thom spetrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
 
-(... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
+  (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
-#### The case $E = H \mathbb{F}_p$ and $X = M U$
-
-(...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
-
+* The case $E = M U$ and $X = \mathbb{S}$
+  converges faster than the classical choice $E = H \mathbb{F}_p$ to the [[stable homotopy groups of spheres]], this is the classical _[[Adams-Novikov spectral sequence]]_ (...)
 
 
-#### Outlook: The case $E = M U$ and $X = \mathbb{S}$
-
-(...) [[Adams-Novikov spectral sequence]] (...)
 
 $\,$
 
@@ -6930,7 +6947,7 @@ $\,$
 
 $\,$
 
-## Seminar: Complex oriented cohomology
+## **Seminar) Complex oriented cohomology**
  {#ComplexOrientedCohomology}
 
 $\,$
@@ -6959,18 +6976,18 @@ $\,$
 
 **Outline.** We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
 
-* [S1) Generalized cohomology](#S1GeneralizedCohomology)
+* [S.1) Generalized cohomology](#S1GeneralizedCohomology)
 
-* [S2) Cobordism theory](#S2CobordismTheory)
+* [S.2) Cobordism theory](#S2CobordismTheory)
 
 The development of either of these happens to give rise to the concept of _[[spectra]]_ and via this concept it turns out that both topics are intimately related. The unification of both is our third topic
 
-* [S3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
+* [S.3) Complex oriented cohomology](#ComplexOrientedCohomologyTheory)
 
 $\,$
 
 
-### **Part S1) Generalized cohomology**
+### **S.1)** Generalized cohomology
  {#S1GeneralizedCohomology}
 
 **Idea.** The concept that makes [[algebraic topology]] be about methods of [[homological algebra]] applied to [[topology]] is that of [[generalized homology]] and [[generalized cohomology]]: these are [[covariant functors]] or [[contravariant functors]], respectively,
@@ -7392,7 +7409,7 @@ extends to a compatible pairing of [[Atiyah-Hirzebruch spectral sequences]].
 
 
 
-### **Part S2) Cobordism theory**
+### **S.2)** Cobordism theory
  {#S2CobordismTheory}
 
 **Idea.** As one passes from [[abelian groups]] to [[spectra]], a miracle happens: even though the latter are just the proper embodiment of [[linear algebra]] in the context of [[homotopy theory]] ("[[higher algebra]]") their inspection reveals that spectra natively know about deep phenomena of [[differential topology]], [[index theory]] and in fact [[string theory]] (for instance via a close relation between _[[genera and partition functions - table|genera and partition functions]]_). 
@@ -7498,7 +7515,7 @@ An important application is given by taking $E = $ [[KU]] to be [[topological K-
 
 $\,$
 
-### **Part S3) Complex oriented cohomology**
+### **S.3)** Complex oriented cohomology**
  {#ComplexOrientedCohomologyTheory}
 
 
@@ -7816,7 +7833,7 @@ Hence [[complex oriented cohomology theory]] is just [[higher algebra]] over [[M
 **Literature.** ([Kochman 96, section 2.4, 4.3](#Kochman96), [Lurie 10, lecture 7](#Lurie10))
 
 
-#### Quillen's theorem on $M U$
+#### Milnor-Quillen theorem on $M U$
  {#QuillenTheoremOnMU}
 
 **Idea.** From the computation of the [[homology of MU]] [above](#HomologyOfMU) and applying the [[Boardman homomorphism]], one deduces that the [[stable homotopy groups]] $\pi_\bullet(MU)$ of [[MU]] are finitely generated. This implies that it is suffient to compute them over the [[p-adic integers]] for all primes $p$. Using the [[change of rings theorem]], this finally is obtained from inspection of the filtration in the $H\mathbb{F}_p$-[[Adams spectral sequence]] for $MU$. This is Milnor's theorem wich together with [[Lazard's theorem]] shows that there is an isomorphism of rings $L \simeq \pi_\bullet(M U)$ with the [[Lazard ring]]. Finally [[Quillen's theorem on MU]] says that this isomorphism is exhibited by the universal ring homomorphism $L \longrightarrow \pi_\bullet(M U)$ which classifies the universal complex orientation on $M U$.
@@ -7905,18 +7922,18 @@ While this gives detailed proofs, some standard steps used are made more explici
 * {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 
-Specifically for **S1) Generalized cohomology** a neat account is in:
+Specifically for **S.1) Generalized cohomology** a neat account is in:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 
-For **S2) Cobordism theory** an efficient collection of the highlights is in
+For **S.2) Cobordism theory** an efficient collection of the highlights is in
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
  
-For **S3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
+For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
 
 * {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
