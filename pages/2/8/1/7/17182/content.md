@@ -23,8 +23,8 @@ The _Bousfield-Friedlander model structure_ ([Bousfield-Friedlander 78, section 
 
 As such its [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
-## Definition
- {#Definition}
+
+## Background on sequential spectra
 
 +-- {: .num_defn #Spectra}
 ###### Definition
@@ -139,6 +139,8 @@ $$
 
 =--
 
+## The stable model structure on sequential spectra
+
 +-- {: .num_defn #ClassesOfMorphisms}
 ###### Definition
 
@@ -175,7 +177,9 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 +-- {: .num_prop #IsModelCategory}
 ###### Proposition
 
-The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] on $SeqPreSpec(sSet)$ which is
+The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] $SeqPreSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra. 
+
+Moreover, this is
 
 * a [[proper model category]];
 
@@ -185,13 +189,38 @@ The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of 
 
 ([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
 
-Write $SeqPreSpec(sSet)_{BF}$ for this model category.
++-- {: .proof}
+###### Proof idea
+
+Write $sSet^{\mathbb{N}}$ for the category of $\mathbb{N}$-sequences of simplicial sets. This may be thought of as the category of [[simplicial presheaves]] on the [[discrete category]] $\mathbb{N}^{op}$, and as such it carries the projective [[model structure on functors]]/[[model structure on simplicial presheaves]] $sSet^{\mathbb{N}}_{proj}$.
+
+Consider then the [[free-forgetful adjunction]]
+
+$$
+  SeqPreSpectra(sSet)
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}
+$$
+
+and the corresponding [[transferred model structure]] $SeqPreSpectra(sSet)_{strict}$,
+
+$$
+  SeqPreSpectra(sSet)_{strict}
+  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  sSet^{\mathbb{N}}_{proj}
+  \,.
+$$
+
+Now observe that the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of this strict model structure at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqPreSpectra(sSet) \longrightarrow SeqPreSpectra(sSet)$, def. \ref{Spectrification}. Now $Q$ is readily checked to satisfy the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
 
 
-A spectrum $X \in SeqPreSpec(sSet)_{BF}$ is 
+A spectrum $X \in SeqPreSpec(sSet)_{stable}$ is 
 
 * fibrant precisely if it is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, and each $X_n$ is a [[Kan complex]]; 
 
@@ -207,7 +236,7 @@ A spectrum $X \in SeqPreSpec(sSet)_{BF}$ is
 +-- {: .num_prop}
 ###### Proposition
 
-There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqPreSpec(sSet)_{BF}$, def. \ref{ClassesOfMorphisms}, prop. \ref{IsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
+There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqPreSpec(sSet)_{stable}$, def. \ref{ClassesOfMorphisms}, prop. \ref{IsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
 
 =--
 
@@ -380,7 +409,7 @@ $$
     \stackrel{\overset{\iota_\ast}{\longleftarrow}}{\underset{\iota^\ast}{\longrightarrow}}
   [StdSpheres, sSet^{\ast/}]
     \underoverset{\simeq}{(-)^{seq}}{\longrightarrow}
-  SeqPreSpec(sSet)_{BF}
+  SeqPreSpec(sSet)_{stable}
 $$
 
 (given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$ and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
