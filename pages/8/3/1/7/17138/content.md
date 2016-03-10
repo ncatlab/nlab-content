@@ -189,6 +189,7 @@ The [[category]] of topological spaces obtained by [[localizaton of a category|f
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
 #### Background from algebraic topology
+ {#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology}
 
 This section recalls basic relevant concepts from [[algebraic topology]] and highlights some basic facts that may serve to motivate the Quillen model structure.
 
@@ -754,36 +755,71 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 
 
 
-#### Background on model category theory
+#### Model category theory
 
-This section recalls some standard arguments in [[model category]] theory.
 
-+-- {: .num_remark #RetractsOfMorphisms}
-###### Remark
+In the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) we discussed three classes of [[continuous functions]] between [[topological spaces]]
 
-As usual, by a [[retract]] of a [[morphism]] $X \stackrel{f}{\longrightarrow} Y$ in some [[category]] $\mathcal{C}$ we mean a retract in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$, hence a morphism $A \stackrel{g}{\longrightarrow} B$ such that in $\mathcal{C}^{\Delta[1]}$ there is a factorization of the identity on $g$ through $f$
+1. [[weak homotopy equivalences]];
 
-$$
-  id_g \;\colon\;
-  g \longrightarrow f \longrightarrow g
-  \,.
-$$
+1. [[relative cell complexes]];
 
-This means equivalently that in $\mathcal{C}$ there is a [[commuting diagram]] of the form
+1. [[Serre fibrations]]
 
-$$
-  \array{
-    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
-    \\
-    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
-    \\
-    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
-  }
-  \,.
-$$
+and we saw first aspects of their interplay via [[lifting properties]]. 
+
+A fundamental insight due to ([Quillen 67](#Quillen67)) is that in fact _all_ constructions in [[homotopy theory]] are elegantly expressible via just the abstract interplay of these classes of morphisms. This was distilled in ([Quillen 67](#Quillen67)) into a small set of [[axioms]] called a **[[model category]] structure** (because it serves to make all [[objects]] be _models_ for [[homotopy types]].)
+
+First of all:
+
++-- {: .num_defn #CategoryWithWeakEquivalences}
+###### Definition
+
+A **[[category with weak equivalences]]** is
+
+1. a [[category]] $\mathcal{C}$;
+
+1. a sub-[[class]] $W \subset Mor(\mathcal{C})$ of its [[morphisms]];
+
+such that
+
+1. $W$ contains all the [[isomorphisms]] of $\mathcal{C}$;
+
+1. $W$ is closed under **[[two-out-of-three]]**: in every [[commuting diagram]] in $\mathcal{C}$ of the form
+
+   $$
+     \array{
+         & \nearrow&& \searrow
+         \\ 
+         &&
+         \longrightarrow
+     }
+   $$
+      
+   if two of the three morphisms are in $W$, then so is the third.
 
 =--
 
+It turns out that a [[category with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, already determines a [[homotopy theory]]: the one given given by universally forcing weak equivalences to become actual [[homotopy equivalences]]. This may be made precise and is called the _[[simplicial localization]]_ of a category with weak equivalences ([Dwyer-Kan 80a](simplicial+localization#DwyerKanLocalizations), [Dwyer-Kan 80b](simplicial+localization#DwyerKanCalculating), [Dwyer-Kan 80c](simplicial+localization#DwyerKanFunctionComplexes)). However, without further auxiliary structure, these simplicial localizations are in general intractable. The further axioms of a [[model category]] serve the sole purpose of making the universal homotopy theory induced by a [[category with weak equivalences]] be tractable:
+
++-- {: .num_defn #ModelCategory}
+###### Definition
+
+A **[[model category]]** is
+
+1. a [[category]] $\mathcal{C}$ with all small [[limits]] and [[colimits]];
+
+1. three sub-[[classes]] $W, Fib, Cof \subset Mor(\mathcal{C})$ of its [[morphisms]];
+
+such that
+
+1. the class $W$ makes $\mathcal{C}$ into a **[[category with weak equivalences]]**, def. \ref{CategoryWithWeakEquivalences};
+
+1. The systems $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are [[weak factorization systems]].
+ 
+=--
+
+We now expand on what this means.
 
 ##### Lifting and extension
 
@@ -872,6 +908,35 @@ Given a sub-[[class]] of morphhisms $C \subset Mor(\mathcal{C})$, then a morphis
 
 =--
 
++-- {: .num_remark #RetractsOfMorphisms}
+###### Remark
+
+By a [[retract]] of a [[morphism]] $X \stackrel{f}{\longrightarrow} Y$ in some [[category]] $\mathcal{C}$ we mean a retract of $f$ as an object in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$, hence a morphism $A \stackrel{g}{\longrightarrow} B$ such that in $\mathcal{C}^{\Delta[1]}$ there is a factorization of the identity on $g$ through $f$
+
+$$
+  id_g \;\colon\;
+  g \longrightarrow f \longrightarrow g
+  \,.
+$$
+
+This means equivalently that in $\mathcal{C}$ there is a [[commuting diagram]] of the form
+
+$$
+  \array{
+    id_A \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
+    \\
+    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
+  }
+  \,.
+$$
+
+=--
+
+
+
+
 +-- {: .num_lemma #SaturationOfGeneratingCofibrations}
 ###### Lemma
 
@@ -884,15 +949,18 @@ Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifti
 
 +-- {: .num_lemma #RetractArgument}
 ###### Lemma
-**(retract argument)**
+**([[retract argument]])**
 
-If in a composite morphism
+Consider a [[composition|composite]] morphism
 
 $$
-  g \;\colon\; \stackrel{i}{\longrightarrow} \stackrel{p}{\longrightarrow}
+  f \;\colon\; \stackrel{i}{\longrightarrow} \stackrel{p}{\longrightarrow}
+  \,.
 $$
 
-the factor $p$ has the [[right lifting property]], def. \ref{RightLiftingProperty}, against the total morphism $g$, then $g$ is a [[retract]] (rem. \ref{RetractsOfMorphisms}) of $i$.
+1. If $f$ has the [[left lifting property]] against $p$, then $f$ is a [[retract]] of $i$.
+
+1. If $f$ has the [[right lifting property]] against $i$, then $f$ is a [[retract]] of $p$.
 
 =--
 
@@ -1028,6 +1096,7 @@ $$
 $$
  
 =--
+
 
 #### The classical model structure $Top_{Quillen}$
 
@@ -1262,7 +1331,7 @@ $$
   \,,
 $$
 
-as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By ase A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]], prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By ase A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument}, gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
 
 =--
 
@@ -1280,7 +1349,7 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 
 * $C = $ [[retracts]] of [[relative cell complexes]]
 
-define a [[model category]] structure, $Top_{Quillen}$.
+define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}$.
 
 =--
 
@@ -3443,7 +3512,7 @@ $$
 +-- {: .num_prop #SimplicialEnrichment}
 ###### Proposition
 
-The category $SeqPreSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
+The category $SeqPreSpec$ of def. \ref{SequentialSpectrum} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
 
 $$
   [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
@@ -7877,11 +7946,17 @@ $\,$
 
 ### Basic reading
 
-For **Prelude) Classical homotopy theory** a concise and yet comprehensive and self-contained account of the [[standard model structure on topological spaces]] is in
+For **Prelude) Classical homotopy theory** the original 
+
+* {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+
+is still an excellent source.
+
+A concise and yet comprehensive and self-contained re-write of the proof of [[standard model structure on topological spaces]] given there is also in
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_ ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942)).
 
-For background on [[algebraic topology]] see also ([Aguilar-Gitler-Prieto 02, chapters 1-6](#AguilarGitlerPrieto02)) below. 
+For relevant background on [[algebraic topology]] see also ([Aguilar-Gitler-Prieto 02, chapters 1-6](#AguilarGitlerPrieto02)) below. 
 
 For the [[classical model structure on simplicial sets]] and its [[Quillen equivalence]] to that on topological spaces, good sources are
 
@@ -7892,7 +7967,6 @@ For the [[classical model structure on simplicial sets]] and its [[Quillen equiv
 For the restriction to the [[convenient category of topological spaces|convenient category]] of [[compacly generated topological spaces]] a good source is still
 
 * {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
-
 
 
 For section **1) Stable homotopy theory** we follow the modern picture of the stable homotopy category in the style of the exposition
