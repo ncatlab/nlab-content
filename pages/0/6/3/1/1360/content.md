@@ -569,23 +569,26 @@ A [[combinatorial simplicial model category]] is precisely a _presentation_ for 
 
 ## References
 
-A standard textbook reference is section 9.1.5 of
+The definition appears in 
 
-* [[Philip Hirschhorn|P. Hirschhorn]],  _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 
+* {#Quillen67} [[Dan Quillen]], chapter II, section 2 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
+Textbook references include
+
+* [[Philip Hirschhorn]], section 9.1.5 of _Model categories and their localizations_, volume 99 of Mathematical Surveys and Monographs , American Mathematical Society, 
 2009.
 
-Original results are in
+* [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
-* [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
- {#RezkSchwedeShipley}
+Further developments include
 
-* [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
-  {#Dugger}
+* {#RezkSchwedeShipley} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
+ 
+
+* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
+  
 
 
-section A.3 in
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects simplicial model categories]]
 [[!redirects sSet-model category]]
