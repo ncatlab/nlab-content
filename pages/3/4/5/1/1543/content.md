@@ -174,7 +174,7 @@ is a [[continuous function]], then this is called a **Cartan principal bundle** 
 ### In a $(2,1)$-topos
  {#InA2Topos}
 
-It is no surprise that there is a good theory of principal bundles internal to every [[topos]]. However, it turns out that the most "natural home" of the theory is the [[higher category theory|higher category theoretic]] context of a _[[(2,1)-topos]]_ $\mathbf{H}$. This we discuss now, and then relate it to the traditional notion and to various other generalizations. More along these lines is at _[[geometry of phyiscs -- principal bundles]]_.
+It is no surprise that there is a good theory of principal bundles internal to every [[topos]]. However, it turns out that the most "natural home" of the theory is the [[higher category theory|higher category theoretic]] context of a _[[(2,1)-topos]]_ $\mathbf{H}$. This we discuss now, and then relate it to the traditional notion and to various other generalizations. More along these lines is at _[[geometry of physics -- principal bundles]]_.
 
 Notably the existence of [[universal principal bundles]] finds its fundamental "explanation" here, where they are seen to be but a presentation of the construction of the [[homotopy fiber]] functor, which establishes the [[equivalence of categories|equivalence of groupoids]]
 
