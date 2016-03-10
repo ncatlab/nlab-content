@@ -942,6 +942,12 @@ If $C$ is a left [[proper model category|proper]] ([[simplicial model category|s
 
 * the [[over category]] $C/s$ for any object $x \in C$ . 
 
+### At derived idempotent monads
+
+The [[Bousfield-Friedlander theorem]] gives Bousfield localizations at the [[derived functor]]-version of [[idempotent monads]]. 
+
+See there for more examples of this general construction.
+
 ### Localization of spectra
 
 see _[[Bousfield localization of spectra]]_ 
