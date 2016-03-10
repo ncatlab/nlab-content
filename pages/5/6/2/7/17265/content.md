@@ -1,4 +1,3 @@
-[[!redirects Quillen model structure on topological spaces]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -24,14 +23,15 @@
 
 ## Idea
 
-The _classical model structure on topological spaces_ $Top_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
+The _classical model structure on topological spaces_ or _Quillen-Serre model structure_ $Top_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
 
 Its [[weak equivalences]] are the [[weak homotopy equivalences]], its [[fibrations]] are the [[Serre fibrations]] and its [[cofibrations]] are the [[retracts]] of [[relative cell complexes]].
 
 The [[singular simplicial complex]]/[[geometric realization]] [[nerve and realization|adjunction]] constitutes a [[Quillen equivalence]] between 
-$Top_{Quillen}$ and $sSet_{Quillen}$, the [[Quillen model structure on simplicial sets]]. This is sometimes called part of the statement of the _[[homotopy hypothesis]]_ [for Kan complexes](homotopy+hypothesis#ForKanComplexes). In the language of [[(∞,1)-category theory]] this means that $Top_{Quillen}$ and $sSet_{Quillen}$ both are [[presentable (∞,1)-category|presentations]] of the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]].
+$Top_{Quillen}$ and $sSet_{Quillen}$, the [[classical model structure on simplicial sets]]. This is sometimes called part of the statement of the _[[homotopy hypothesis]]_ [for Kan complexes](homotopy+hypothesis#ForKanComplexes). In the language of [[(∞,1)-category theory]] this means that $Top_{Quillen}$ and $sSet_{Quillen}$ both are [[presentable (∞,1)-category|presentations]] of the [[(∞,1)-category]] [[∞Grpd]] of [[∞-groupoids]].
 
-There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the standard Quillen model structure.
+There are also other model structures on [[Top]] itself, see at _[[model structure on topological spaces]]_ for more. This entry here focuses on just the classical model structure on topological spaces.
+
 
 ## Background from algebraic topology
 
@@ -619,6 +619,90 @@ $$
 
 ### Lifting
 
++-- {: .num_defn #LiftingAndExtension}
+###### Definition
+
+Let $\mathcal{C}$ be any [[category]]. 
+Given a [[diagram]] in $\mathcal{C}$ of the form
+
+$$
+  \array{
+     X &\stackrel{f}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{p}}\downarrow
+     \\
+     B
+  }
+$$
+
+then an *[[extension]]* of the [[morphism]] $f$ along the [[morphism]] $p$ is a completion to a [[commuting diagram]] of the form
+
+$$
+  \array{
+     X &\stackrel{f}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{p}}\downarrow & \nearrow_{\mathrlap{\tilde f}}
+     \\
+     B
+  }
+  \,.
+$$
+
+Dually, given a [[diagram]] of the form
+
+$$
+  \array{
+    && A
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    X &\stackrel{f}{\longrightarrow}& Y
+  }
+$$
+
+then a **[[lift]]** of $f$ through $p$ is a completion to a [[commuting diagram]] of the form
+
+$$
+  \array{
+    && A
+    \\
+    &{}^{\mathllap{\tilde f}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    X &\stackrel{f}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+Combining these cases: given a square [[commuting diagram]] 
+
+$$
+  \array{
+     X_1 &\stackrel{f_1}{\longrightarrow}& Y_1
+     \\
+     {}^{\mathllap{p_l}}\downarrow && \downarrow^{\mathrlap{p_r}}
+     \\
+     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2     
+  }
+$$
+
+then a **[[lifting]]** in the diagram is a completion to a [[commuting diagram]] of the form
+
+$$
+  \array{
+     X_1 &\stackrel{f_1}{\longrightarrow}& Y_1
+     \\
+     {}^{\mathllap{p_l}}\downarrow &\nearrow& \downarrow^{\mathrlap{p_r}}
+     \\
+     X_2 &\stackrel{f_1}{\longrightarrow}& Y_2     
+  }
+  \,.
+$$
+
+Given a sub-[[class]] of morphhisms $C \subset Mor(\mathcal{C})$, then a morphism $p_r$ as above is said to have the **[[right lifting property]]** against $C$ if in all square diagrams with $p_r$ on the right and any $p_l \in C$ on the left a lift exists. Dually, a fixed $p_l$ is said to have the **[[left lifting property]]** against $C$ if in all square diagrams with $p_l$ on the left and any $p_r \in C$ on the left a lift exists.
+
+
+=--
+
 
 +-- {: .num_lemma #SaturationOfGeneratingCofibrations}
 ###### Lemma
@@ -626,7 +710,7 @@ $$
 Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
 and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
 
-Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]] against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+Then every $C$-fibration, def. \ref{RightLiftingProperty}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
 
 =--
 
@@ -777,7 +861,7 @@ $$
  
 =--
 
-## The Quillen model structure $Top_{Quillen}$
+## The classical model structure $Top_{Quillen}$
 
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
 ###### Definition
@@ -1058,3 +1142,9 @@ An expository, concise and comprehensive writeup of the proof of the model categ
 
 [[!redirects Quillen model structure on topological spaces]]
 [[!redirects Quillen model structure on Top]]
+
+[[!redirects Quillen-Serre model structure on topological spaces]]
+[[!redirects Quillen-Serre model structure on Top]]
+
+[[!redirects standard model structure on topological spaces]]
+[[!redirects standard model structure on Top]]
