@@ -34,7 +34,7 @@ More importantly, there are these two uses of the word:
 
 1. A **simplicial category** is a [[simplicial object]] in [[Cat]] (that is, a functor from $\Delta^{op}$ to $Cat$), just like a simplicial set is a simplicial object in [[Set]], a simplicial space is a simplicial object in [[Top]], a simplicial abelian group is a simplicial object in [[Ab]], and so on.  To avoid ambiguity, **[[simplicial objects in Cat]]** may be called exactly that.  They may equivalently be regarded as [[internal categories]] in simplicial sets.
 
-1. A **simplicial category** also frequently means a category [[enriched category|enriched]] over the category of [[simplicial sets]], i.e. an [[sSet]]-[[enriched category]].  Such categories can be identified with simplicial objects in [[Cat]] all of whose face and degeneracy morphisms are [[bo functor|bijective on objects]].  To avoid ambiguity, categories enriched over simplicial sets may be called **[[simplicially enriched category|simplicially enriched categories]]**.
+1. A **simplicial category** also frequently means a category [[enriched category|enriched]] over the category of [[simplicial sets]] ([Quillen 67, II.1](#Quillen67)), i.e. an [[sSet]]-[[enriched category]].  Such categories can be identified with simplicial objects in [[Cat]] all of whose face and degeneracy morphisms are [[bo functor|bijective on objects]].  To avoid ambiguity, categories enriched over simplicial sets may be called **[[simplicially enriched category|simplicially enriched categories]]**.
 
 The analogous issue arises for "[[simplicial groupoids]]" etc., see also there.
 
@@ -55,6 +55,9 @@ An example of a text that speaks about what elsewhere are mostly regarded as [[s
 * [[relation between quasi-categories and simplicial categories]]
 
 ## References
+
+* {#Quillen67} [[Dan Quillen]], chapter II, section 1 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
 
