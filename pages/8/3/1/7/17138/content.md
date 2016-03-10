@@ -1287,7 +1287,7 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 
 
-### $(\star)$ Simplicial homotopy theory 
+### Simplicial homotopy theory 
  {#SimplicialSets}
 
 
@@ -1295,7 +1295,9 @@ The nature of [[objects]] in any [[category]] is not determined by how we presen
 
 **Literature.** ([Goerss-Jardine 96, chapter I](#GoerssJardine96), [Joyal-Tierney 05](#JoyalTierney05)). 
 
-#### Simplicial sets
+#### Background from combinatorial topology
+
+##### Simplicial sets
 
 Simplicial sets are secretly well familiar already in basic [[algebraic topology]]: they reflect just the abstract structure carried by the [[singular simplicial complexes]] of topological spaces, as in the definition of [[singular homology]] and [[singular cohomology]]. 
 
@@ -1304,7 +1306,7 @@ Conversely, every simplicial set may be [[geometric realization|geometrically re
 +-- {: .num_defn #TopologicalSimplex}
 ###### Definition
 
-For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,  up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is the subset
+For $n \in \mathbb{N}$, the **[topological n-simplex](simplex#TopologicalSimplex)** is,  up to [[homeomorphism]], the [[topological space]] whose underlying set is the subset
 
 $$
   \Delta^n \coloneqq 
@@ -1317,16 +1319,16 @@ $$
   \subset \mathbb{R}^{n+1}
 $$
 
-of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+of the [[Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
 
 =--
 
 +-- {: .num_example}
 ###### Example
 
-For $n = 0$ this is the [[nLab:point]], $\Delta^0 = *$.
+For $n = 0$ this is the [[point]], $\Delta^0 = *$.
 
-For $n = 1$ this is the standard [[nLab:interval object]] $\Delta^1 = [0,1]$.
+For $n = 1$ this is the standard [[interval object]] $\Delta^1 = [0,1]$.
 
 For $n = 2$ this is the filled triangle.
 
@@ -1472,11 +1474,11 @@ All these sets of simplices and face and degeneracy maps between them form the f
 +-- {: .num_defn #SimplicialSet}
 ###### Definition
 
-A **[[nLab:simplicial set]]** $S \in sSet$ is 
+A **[[simplicial set]]** $S \in sSet$ is 
 
-* for each $n \in \mathbb{N}$ a [[nLab:set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
+* for each $n \in \mathbb{N}$ a [[set]] $S_n \in Set$ -- the **set of $n$-[[simplices]]**;
 
-* for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[nLab:totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
+* for each [[injective map]] $\delta_i : \overline{n-1} \to \overline{n}$ of [[totally ordered sets]] $\bar n \coloneqq \{ 0 \lt 1 \lt \cdots \lt n \}$
 
   a [[function]] $d_i : S_{n} \to S_{n-1}$ -- the $i$th **face map** on $n$-simplices;
 
@@ -1484,7 +1486,7 @@ A **[[nLab:simplicial set]]** $S \in sSet$ is
 
   a [[function]] $\sigma_i : S_{n} \to S_{n+1}$ -- the $i$th **degeneracy map** on $n$-simplices;
 
-such that these functions satisfy the _[[nLab:simplicial identities]]_.
+such that these functions satisfy the _[[simplicial identities]]_.
 
 =--
 
@@ -1526,7 +1528,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[spine]]" of the $n$-[[nLab:simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
+This is called the "simplex category" because we are to think of the object $[n]$ as being the "[[spine]]" of the $n$-[[simplex]]. For instance for $n = 2$ we think of $0 \to 1 \to 2$ as the "spine" of the triangle. This becomes clear if we don't just draw the morphisms that _generate_ the category $[n]$, but draw also all their composites. For instance for $n = 2$ we have_
 
 $$
   [2]  
@@ -1554,7 +1556,7 @@ $$
   S : \Delta^{op} \to Set
 $$
 
-from the [[nLab:opposite category]] of the [[nLab:simplex category]] to the category [[nLab:Set]] of sets is canonically identified with a [[nLab:simplicial set]], def. \ref{SimplicialSet}.
+from the [[opposite category]] of the [[nLab:simplex category]] to the category [[Set]] of sets is canonically identified with a [[simplicial set]], def. \ref{SimplicialSet}.
 
 =--
 
@@ -1592,7 +1594,7 @@ $$
   (Sing X)_\bullet : \Delta^{op} \to Set
 $$
 
-is given by composition of the functor from example \ref{StandardCosimplicialTopologicalSpace} with the [[nLab:hom functor]] of [[nLab:Top]]:
+is given by composition of the functor from example \ref{StandardCosimplicialTopologicalSpace} with the [[hom functor]] of [[Top]]:
 
 $$
   (Sing X) : [n] \mapsto Hom_{Top}( \Delta^n , X )
@@ -1604,11 +1606,11 @@ $$
 +-- {: .num_remark}
 ###### Remark 
 
-It turns out -- this is the content of the _[[nLab:homotopy hypothesis]]-theorem_ ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)) -- that [[homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$. Moreover, the [[geometric realization]] of $Sing X$ is a model for the same [[homotopy type]] as that of $X$, but with the special property that it is canonically a [[cell complex]] -- a [[CW-complex]]. Better yet, $Sing X$ is itself already good cell complex, namely a [[Kan complex]]. We come to this below.
+It turns out -- this is the content of the _[[homotopy hypothesis]]-theorem_ ([Quillen 67](model+structure+on+simplicial+sets#Quillen67)) -- that [[homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$. Moreover, the [[geometric realization]] of $Sing X$ is a model for the same [[homotopy type]] as that of $X$, but with the special property that it is canonically a [[cell complex]] -- a [[CW-complex]]. Better yet, $Sing X$ is itself already good cell complex, namely a [[Kan complex]]. We come to this below.
 
 =--
 
-#### Homotopy
+##### Homotopy
 
 The concept of [[homotopy]] of morphisms between simplicial sets proceeds in direct analogy with that in [[topological spaces]].
 
@@ -1896,7 +1898,7 @@ is called a **[[weak homotopy equivalence]]** if it induces [[isomorphisms]] on 
 
 
 
-#### Fibrations
+##### Fibrations
 
 +-- {: .num_defn #Horn}
 ###### Definition
@@ -2215,7 +2217,7 @@ Moreover, for all $n$ the morphisms $\Delta[n] \to \Delta[0] \to \Delta[n]$ are 
 
 =--
 
-#### Geometric realization
+##### Geometric realization
 
 So far we we have considered passing from [[topological spaces]] to [[simplicial sets]] by applying the [[singular simplicial complex]] functor of def. \ref{SingularSimplicialComplex}.
 Now we discuss a [[left adjoint]] of this functor, called [[geometric realization]], which turns a simplicial set into a topological space by identifying each of its abstract [[n-simplices]] with the standard topological $n$-simplex. 
@@ -2463,7 +2465,7 @@ This is due to ([Quillen 68](Kan+fibration#Quillen68)). See for instance ([Goers
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #UnitOfSingularNerveAndRealizationIsWEOnKanComplexes}
 ###### Proposition
 
 For $S$ a [[Kan complex]], then the [[adjunction unit|unit]] of the [[nerve and realization]]-[[adjunction]] (prop. \ref{NerveAndRealizationAdjunction}, example \ref{TopologicalRealizationOfSimplicialSets})
@@ -2493,9 +2495,148 @@ Use prop. \ref{SingDetextsAndReflectsFibrations} and prop. \ref{GeometricRealiza
 
 =--
 
-With this we finally arrive at a simplicial presentation of the classical homotopy category [[Ho(Top)]] ([Quillen 67](classical+model+structure+on+simplicial+sets#Quillen67)), known sometimes as the _[homotopy hypothesis for Kan complexes](homotopy hypothesis#ForKanComplexes)_.
+#### The classical model structure on $sSet_{Quillen}$
 
-(...)
+
++-- {: .num_defn #ClassesOfMorphismsOnsSetQuillen}
+###### Definition
+
+The classical [[model category]] structure on [[simplicial sets]], $sSet_{Quillen}$, has the following distinguished classes of morphisms:
+
+* The classical **weak equivalences** $W$ are the morphisms whose [[geometric realization]], example \ref{TopologicalRealizationOfSimplicialSets}, is a [[weak homotopy equivalence]] of [[topological spaces]];
+
+* The classical **fibrations** $F$ are the **[[Kan fibrations]]**, def. \ref{KanFibration};
+
+* The classical **cofibrations** $C$ are the [[monomorphisms]] of simplicial sets, i.e. the degreewise [[injections]].
+
+=--
+
+([Quillen 67, II.3](model+structure+on+simplicial+sets#Quillen67))
+
+##### Quillen equivalence with $Top_{Quillen}$
+ {#QuillenEquivalenceWithTopQuillen}
+
++-- {: .num_theorem}
+###### Theorem
+
+The [[singular simplicial complex]]/[[geometric realization]]-[[nerve and realization|adjunction]] of example \ref{TopologicalRealizationOfSimplicialSets}
+constitutes a [[Quillen equivalence]] of the classical model structure $sSet_{Quillen}$ of def. \ref{ClassesOfMorphismsOnsSetQuillen} with the  [[classical model structure on topological spaces]], def. \ref{ClassesOfMorhismsInTopQuillen}:
+
+$$
+  ({\vert -\vert}\dashv Sing)
+  \colon
+  Top_{Quillen}
+  \stackrel{\overset{{\vert -\vert}}{\leftarrow}}{\underset{Sing}{\to}}
+  sSet_{Quillen}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, the adjunction is indeed a [[Quillen adjunction]]: prop. \ref{SingDetextsAndReflectsFibrations} says in particular that $Sing(-)$ takes [[Serre fibrations]] to [[Kan fibrations]] and prop. \ref{TopologicalRealizationOfsSetLandsInCWComplexes} gives that ${\vert-\vert}$ sends monomorphisms of simplicial sets to [[relative cell complexes]].
+
+Now prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes} says that the derived adjunction unit and counit are weak equivalences, and hence the Quillen adjunction is a Quillen equivalence.
+
+=--
+
+### Basic properties
+
++-- {: .num_prop}
+###### Proposition
+
+In model structure $sSet_{Quillen}$, def. \ref{ClassesOfMorphismsOnsSetQuillen}, the following holds.
+
+* The fibrant objects are precisely the [[Kan complexes]].
+
+* A morphism $f : X \to Y$ of fibrant simplicial sets / [[Kan complexes]] is a weak equivalence precisely if it induces an [[isomorphism]] on all [[simplicial homotopy groups]], def. \ref{UnderlyingSetsOfSimplicialHomotopyGroups}.
+
+* All simplicial sets are cofibrant with respect to this model structure. 
+
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The **acyclic fibrations** in $sSet_{Quillen}$(i.e. the maps that are both fibrations as well as weak equivalences) between [[Kan complexes]] are precisely the morphisms $f : X \to Y$ that have the [[right lifting property]] with respect to all inclusions $\partial \Delta[n] \hookrightarrow \Delta[n]$ of boundaries of $n$-simplices into their $n$-simplices
+  $$
+    \array{
+      \partial \Delta[n] &\to& X
+      \\
+      \downarrow &{}^\exists\nearrow& \downarrow^f 
+      \\
+      \Delta[n] &\to& Y
+    }
+    \,.
+  $$
+
+=--
+
+This appears spelled out for instance as ([Goerss-Jardine, theorem 11.2](#GoerssJardine)).
+
+
+In fact:
+
++-- {: .num_prop}
+###### Proposition
+
+$sSet_{Quillen}$ is a [[cofibrantly generated model category]] with
+
+* generating cofibrations the [[boundary]] inclusions $\partial \Delta[n] \to \Delta[n]$;
+
+* generating acyclic cofibrations the [[horn]] inclusions $\Lambda^i[n] \to \Delta[n]$.
+
+=--
+
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $W$ be the smallest class of morphisms in $sSet$ satisfying the following conditions:
+
+1. The class of monomorphisms that are in $W$ is closed under [[pushout]], [[transfinite composition]], and [[retracts]].
+2. $W$ has the [[two-out-of-three]] property in $sSet$ and contains all the [[isomorphisms]].
+3. For all natural numbers $n$, the unique morphism $\Delta [n] \to \Delta [0]$ is in $W$.
+
+Then $W$ is the class of weak homotopy equivalences.
+=--
+
++-- {: .proof}
+###### Proof
+
+* First, notice that the horn inclusions $\Lambda^0 [1] \hookrightarrow \Delta [1]$ and $\Lambda^1 [1] \hookrightarrow \Delta [1]$ are in $W$.
+* Suppose that the horn inclusion $\Lambda^k [m] \hookrightarrow \Delta [m]$ is in $W$ for all $m \lt n$ and all $0 \le k \le m$. Then for $0 \le l \le n$, the horn inclusion $\Lambda^l [n] \hookrightarrow \Delta [n]$ is also in $W$.
+* Quillen's [[small object argument]] then implies all the trivial cofibrations are in $W$.
+* If $p : X \to Y$ is a trivial Kan fibration, then its right lifting property implies there is a morphism $s : Y \to X$ such that $p \circ s = id_Y$, and the two-out-of-three property implies $s : Y \to X$ is a trivial cofibration. Thus every trivial Kan fibration is also in $W$.
+* Every weak homotopy equivalence factors as $p \circ i$ where $p$ is a trivial Kan fibration and $i$ is a trivial cofibration, so every weak homotopy equivalence is indeed in $W$.
+* Finally, noting that the class of weak homotopy equivalences satisfies the conditions in the theorem, we deduce that it is the _smallest_ such class.
+
+=--
+
+As a corollary, we deduce that the classical model structure on $sSet$ is the smallest (in terms of weak equivalences) model structure for which the cofibrations are the monomorphisms and the weak equivalences include the (combinatorial) homotopy equivalences.
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\pi_0 : sSet \to Set$ be the connected components functor, i.e. the left adjoint of the constant functor $cst : Set \to sSet$. A morphism $f : Z \to W$ in $sSet$ is a weak homotopy equivalence if and only if the induced map
+$$\pi_0 K^f : \pi_0 K^W \to \pi_0 K^Z$$
+is a bijection for all _Kan complexes_ $K$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+One direction is easy: if $K$ is a Kan complex, then axiom SM7 for [[simplicial model categories]] implies  the functor $K^{(-)} : sSet^{op} \to sSet$ is a right [[Quillen functor]], so Ken Brown's lemma implies it preserves all weak homotopy equivalences; in particular, $\pi_0 K^{(-)} : sSet^{op} \to Set$ sends weak homotopy equivalences to bijections.
+
+Conversely, when $K$ is a Kan complex, there is a natural bijection between $\pi_0 K^X$ and the hom-set $Ho (sSet) (X, K)$, and thus by the [[Yoneda lemma]], a morphism $f : Z \to W$ such that the induced morphism $\pi_0 K^W \to \pi_0 K^Z$ is a bijection for all Kan complexes $K$ is precisely a morphism that becomes an isomorphism in $Ho (sSet)$, i.e. a weak homotopy equivalence.
+
+=--
+
 
 ### Homotopy fiber sequences
 
@@ -3784,7 +3925,7 @@ is a [[homotopy pushout]] (hence also a [[homotopy pullback]]).
 Original statements of this include ([Bousfield 79](#Bousfield79), [Sullivan 05, prop. 3.20](#Sullivan05)). Review includes ([van Koughnett 13, prop. 4.5](#VanKoughnett13)). 
 
 
-So the [[nLab:arithmetic fracture square]] from [[nLab:Weil uniformization theorem|Weil uniformization]] over [[nLab:Spec(S)]] synthesizes spectra from their formal completion and torsion approximation:
+So the [[arithmetic fracture square]] from [[Weil uniformization theorem|Weil uniformization]] over [[Spec(S)]] synthesizes spectra from their formal completion and torsion approximation:
 
 
 $$
@@ -3803,7 +3944,7 @@ $$
   \,,
 $$
 
-(and there is further fracturing of the $p$-local part by [[nLab:chromatic homotopy theory]]).
+(and there is further fracturing of the $p$-local part by [[chromatic homotopy theory]]).
 
 +-- {: .num_prop #ReformulationOfProdOverPComletionByLocalizationAtCoproduct}
 ###### Proposition
@@ -3921,13 +4062,13 @@ Let $X$ be a [[topological space]] and $A \hookrightarrow X$ a [[topological sub
 +-- {: .num_defn #RelativeSingularHomology}
 ###### Definition
 
-The (degreewise) [[nLab:cokernel]] of this inclusion, hence the [[quotient]] $C_\bullet(X)/C_\bullet(A)$ of $C_\bullet(X)$ by the [[image]] of $C_\bullet(A)$ under the inclusion, is the **chain complex of $A$-relative singular chains**. 
+The (degreewise) [[cokernel]] of this inclusion, hence the [[quotient]] $C_\bullet(X)/C_\bullet(A)$ of $C_\bullet(X)$ by the [[image]] of $C_\bullet(A)$ under the inclusion, is the **chain complex of $A$-relative singular chains**. 
 
-* A [[nLab:boundary]] in this quotient is called an **$A$-relative singular boundary**, 
+* A [[boundary]] in this quotient is called an **$A$-relative singular boundary**, 
 
-* a [[nLab:cycle]] is called an **$A$-relative singular cycle**.
+* a [[cycle]] is called an **$A$-relative singular cycle**.
 
-* The [[nLab:chain homology]] of the quotient is the **$A$-relative singular homology of $X$**
+* The [[chain homology]] of the quotient is the **$A$-relative singular homology of $X$**
 
   $$
     H_n(X , A)\coloneqq H_n(C_\bullet(X)/C_\bullet(A))
@@ -3939,17 +4080,17 @@ The (degreewise) [[nLab:cokernel]] of this inclusion, hence the [[quotient]] $C_
 +-- {: .num_remark}
 ###### Remark
 
-This means that a singular $(n+1)$-chain $c \in C_{n+1}(X)$ is an $A$-relative cycle precisely if its [[nLab:boundary]] $\partial c \in C_{n}(X)$ is, while not necessarily 0, contained in the $n$-chains of $A$: $\partial c \in C_n(A) \hookrightarrow C_n(X)$. So the boundary vanishes possibly only "up to contributions coming from $A$".
+This means that a singular $(n+1)$-chain $c \in C_{n+1}(X)$ is an $A$-relative cycle precisely if its [[boundary]] $\partial c \in C_{n}(X)$ is, while not necessarily 0, contained in the $n$-chains of $A$: $\partial c \in C_n(A) \hookrightarrow C_n(X)$. So the boundary vanishes possibly only "up to contributions coming from $A$".
 
 =--
 
-We record two evident but important classes of [[nLab:long exact sequences]] that relative homology groups sit in:
+We record two evident but important classes of [[long exact sequences]] that relative homology groups sit in:
 
 +-- {: .num_prop #RelativeHomologyLongExactSequence}
 ###### Proposition
 
-Let $A \stackrel{i}{\hookrightarrow} X$ be a [[nLab:topological subspace]] inclusion. The corresponding 
-relative singular homology, def. \ref{RelativeSingularHomology}, sits in a [[nLab:long exact sequence]] of the form
+Let $A \stackrel{i}{\hookrightarrow} X$ be a [[topological subspace]] inclusion. The corresponding 
+relative singular homology, def. \ref{RelativeSingularHomology}, sits in a [[long exact sequence]] of the form
 
 $$
   \cdots
@@ -3970,21 +4111,21 @@ $$
   \,.
 $$
 
-The [[nLab:connecting homomorphism]] $\delta_{n} \colon H_{n+1}(X, A) \to H_n(A)$ sends an element $[c] \in H_{n+1}(X, A)$ represented by an $A$-relative cycle $c \in C_{n+1}(X)$, to the class represented by the [[nLab:boundary]] $\partial^X c \in C_n(A) \hookrightarrow C_n(X)$.
+The [[connecting homomorphism]] $\delta_{n} \colon H_{n+1}(X, A) \to H_n(A)$ sends an element $[c] \in H_{n+1}(X, A)$ represented by an $A$-relative cycle $c \in C_{n+1}(X)$, to the class represented by the [[boundary]] $\partial^X c \in C_n(A) \hookrightarrow C_n(X)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-This is the _[[nLab:homology long exact sequence]]_, prop. \ref{HomologyLongExactSequence}, induced by the defining [[nLab:short exact sequence]] $0 \to C_\bullet(A) \stackrel{i}{\hookrightarrow} C_\bullet(X) \to coker(i)  \simeq C_\bullet(X)/C_\bullet(A)  \to 0$ of chain complexes.
+This is the _[[homology long exact sequence]]_, prop. \ref{HomologyLongExactSequence}, induced by the defining [[short exact sequence]] $0 \to C_\bullet(A) \stackrel{i}{\hookrightarrow} C_\bullet(X) \to coker(i)  \simeq C_\bullet(X)/C_\bullet(A)  \to 0$ of chain complexes.
 
 =--
 
 +-- {: .num_prop #RelativeTripleHomologyLongExactSequence}
 ###### Proposition
 
-Let $B \hookrightarrow A \hookrightarrow X$ be a sequence of two [[nLab:topological subspace]] inclusions. Then there is a [[nLab:long exact sequence]] of [[nLab:relative singular homology]] groups of the form
+Let $B \hookrightarrow A \hookrightarrow X$ be a sequence of two [[topological subspace]] inclusions. Then there is a [[long exact sequence]] of [[relative singular homology]] groups of the form
 
 $$
   \cdots \to H_n(A , B) \to H_n(X , B) \to H_n(X , A ) \to H_{n-1}(A , B) \to \cdots
@@ -3996,14 +4137,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Observe that we have a [[nLab:short exact sequence]] of chain complexes, def. \ref{ShortExactSequenceOfChainComplexes}
+Observe that we have a [[short exact sequence]] of chain complexes, def. \ref{ShortExactSequenceOfChainComplexes}
 
 $$
   0 \to C_\bullet(A)/C_\bullet(B) \to C_\bullet(X)/C_\bullet(B) \to C_\bullet(X)/C_\bullet(A) \to 0
   \,.
 $$
 
-The corresponding [[nLab:homology long exact sequence]], prop. \ref{HomologyLongExactSequence}, is the long exact sequence in question.
+The corresponding [[homology long exact sequence]], prop. \ref{HomologyLongExactSequence}, is the long exact sequence in question.
 
 =--
 
