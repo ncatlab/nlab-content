@@ -9,6 +9,11 @@
 =--
 =--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
 
 [[philosophy]] of science
 
@@ -16,6 +21,9 @@
 
 * [[philosophy of mathematics]]
 
+## Related entries
+
+* [[structuralism]]
 
 ## References
 
