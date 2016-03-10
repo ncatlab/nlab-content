@@ -78,7 +78,7 @@ a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say t
 
 1. a $Q$-cofibation if it is a cofibration.
 
-1. a $A$-fibration if it ha the [[right lifting property]] against the morphisms that are both $Q$-fibrations as well as $Q$-weak equivalences.
+1. a $Q$-fibration if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
 Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
 
@@ -115,12 +115,35 @@ Moreover
 
 ([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
 
++-- {: .proof}
+###### Proof
+
+First notice that
+
+**a)** _A morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$._
+
+It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration.
+
+In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+
+$$
+  f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
+  \,.
+$$
+
+Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+
+
+=--
 
 ## Examples
 
 ### Stable model structure on sequential spectra
 
 The [[Bousfield-Friedlander model structure]] $SeqSpectra_{stable}$ on [[sequential spectra]] (in [[sSet]] or in [[Top]]), modelling [[stable homotopy theory]], arises via the Bousfield-Friedlander theorem from localizing the strict model structure $SeqSpectra_{strict}$ [[transferred model structure|transferred]] from the model structure on sequences (in the [[classical model structure on simplicial sets]]/[[classical model structure on topological spaces|on topological spaces]]) at the [[spectrification]] endofunctor.
+
+
+
 
 ## References
 
