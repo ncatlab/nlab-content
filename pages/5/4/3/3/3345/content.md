@@ -19,7 +19,7 @@
 
 ## Idea
 
-There is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s whose [[homotopy theory]] is that of the standard [[model structure on simplicial sets]].
+There is a [[model category]] structure on the [[category]] $[\Box^{op},Set]$ of [[cubical set]]s whose [[homotopy theory]] is that of the [[classical model structure on simplicial sets]].
 
 Using this version of the [[homotopy hypothesis]]-theorem, cubical sets are a way to describe the [[homotopy type]] of [[∞-groupoid]]s using of all the [[geometric shapes for higher structures]] the [[cube]].
 
