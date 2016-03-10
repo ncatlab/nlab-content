@@ -29,7 +29,7 @@ The original proof assumed that $\mathcal{C}$ is a [[proper model category]], bu
 ###### Definition
 
 Let $\mathcal{C}$ be a [[proper model category]]. 
-Say that **Quillen idempotent monad** on $\mathcal{C}$ is
+Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
  
 1. an [[endofunctor]] 
 
@@ -74,55 +74,28 @@ such that
 For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad}, say that a morphism $f$ in $\mathcal{C}$ is
 
-1. a $Q$-weak equivalence if $Q(f)$ is a weak equivalence;
+1. a **$Q$-weak equivalence** if $Q(f)$ is a weak equivalence;
 
-1. a $Q$-cofibation if it is a cofibration.
+1. **a $Q$-cofibation** if it is a cofibration.
 
-1. a $Q$-fibration if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
+1. **a $Q$-fibration** if it has the [[right lifting property]] against the morphisms that are both ($Q$-)cofibrations as well as $Q$-weak equivalences.
 
 Write $\mathcal{C}_Q$ for $\mathcal{C}$ equipped with these classes of morphisms.
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
-**(Bousfield-Friedlander theorem)**
++-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
+###### Lemma
 
-For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
-a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
-then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} is a [[model category]].
-
-Moreover
-
-1. a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
-
-   1. $f$ is a fibration;
-
-   1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
-
-      $$
-        \array{
-          X &\stackrel{\eta_X}{\longrightarrow}& Q(X)
-          \\
-          {}^{\mathllap{f}}\downarrow &{}^{(pb)^h}& \downarrow^{\mathrlap{Q(f)}}
-          \\
-          Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
-        }
-        \,.
-      $$
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, 
+a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$.
 
 =--
-
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
 
 +-- {: .proof}
 ###### Proof
 
-First consider
-
-**$\star$)** _A morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$._
-
-Proof: It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
 $$
   f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
@@ -131,11 +104,115 @@ $$
 
 Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
 
-Now $\star)$ implies immediately that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
+=--
 
-Conversely....
++-- {: .num_lemma #SecondLemmaForBousfieldFriedlander}
+###### Lemma
+
+In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}, if a morphism $f \colon X \longrightarrow Y$ is a fibration, and $\eta_X, \eta_Y$ are weak equivalences, then $f$ is a $Q$-fibration.
+
+=--
+
+The proof of this is a little fiddly. Full details are spelled out in ([Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96)).
+
++-- {: .num_prop #BousfieldFriedlanderTheorem}
+###### Proposition
+**(Bousfield-Friedlander theorem)**
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
+then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} is a [[model category]].
+
+=--
+
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
+
++-- {: .proof}
+###### Proof
+
+The [[two-out-of-three]] poperty for $Q$-fibrations is evident. We discuss the two factorization conditions, from these the lifting follows by the [[retract argument]].
+
+First, lemma \ref{FirstLemmaForBousfieldFriedlander} directly implies that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
+
+For the other factorization, let $f \colon X \longrightarrow Y$ be a morphism. By regarding morphisms as objects of the [[arrow category]] $Func(\Delta[1],\mathcal{C})$ and regarding this as equipped with the injective [[model structure on functors]], applying fibrant replacement to $Q(f) \to \widehat{Q(f)}$ in $\mathcal{C}^{\Delta[1]}_{inj}$ and composing this with $\eta_f$ yields a diagram 
+
+$$
+  \array{
+     X &\underoverset{}{\eta_X}{\longrightarrow}& Q(X) &\underoverset{W\cap Cof}{u}{\longrightarrow}& \widehat{Q(X)}
+     \\
+     \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{Q(f)}} && \downarrow^{\mathrlap{{\widehat{Q(f)} \atop {\in Fib}}}}
+     \\
+     Y &\underoverset{}{\eta_Y}{\longrightarrow}& Q(Y) &\underoverset{W\cap Cof}{v}{\longrightarrow}& \widehat{Q(Y)}
+  }
+  \,.
+$$
+
+Since $u$ is a weak equivalence, using the weak idempotency of $Q$ and [[two-out-of-three]] in the naturality square of $\eta$ on $u$ gives that $\eta_{\widehat{Q(X)}}$ is a weak equivalence. By the same argument $\eta_{\widehat{Q(Y)}}$ is a weak equivalence. From this, lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $\widehat{Q(f)}$ is a $Q$-fibration.
+
+Next, observe that the total bottom morphism $v \circ \eta_X$ is a $Q$-equivalence by the first two conditions on $Q$. Hence the third condition on $Q$ says that the pullback $\widehat{Q(f)}^\ast(v \circ \eta_X) \colon E \to \widehat{Q(X)}$ is also a $Q$-equivalence
+
+$$
+  \array{
+     E &\underoverset{\in W_Q}{}{\longrightarrow}& \widehat{Q(X)}
+     \\
+     {}^{\mathllap{g \atop {\in Fib_Q}}}\downarrow &(pb)& \downarrow^{\mathrlap{\widehat{Q(f)}}}
+     \\
+     Y &\underset{v \circ \eta_X}{\longrightarrow}& \widehat{Q(Y)}
+  }
+  \,.
+$$
+
+Then by [[two-out-of-three]] for $Q$-weak equivalences, the induced morphism $X \to E$ is a $Q$-weak equivalence, so by the previous factorization statement it factors as
+
+$$
+  X 
+    \overset{W_Q \cap Cof_Q}{\longrightarrow} 
+  D
+    \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
+  E
+  \,.
+$$
+
+The resulting composite
+
+$$
+  f  
+    \;\colon\;
+    X 
+      \overset{W_Q \cap Cof_Q}{\longrightarrow} 
+    D
+      \stackrel{W_Q \cap Fib_Q}{\longrightarrow} 
+      \underoverset{g}{Fib_Q}{\longrightarrow}
+    Y
+$$
+
+is the desired factorization.
+
+=--
 
 
++-- {: .num_prop}
+###### Proposition
+
+For $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+a Quillen idempotent monad according to def. \ref{QuillenIdempotentMonad},
+then in the model structure $\mathcal{C}_Q$ from prop. \ref{BousfieldFriedlanderTheorem},
+a morphism $f\colon X \to Y$ is a $Q$-fibration precisely if 
+
+1. $f$ is a fibration;
+
+1. the $\eta$-naturality square on $f$ exhibits a [[homotopy pullback]]
+
+   $$
+     \array{
+       X &\stackrel{\eta_X}{\longrightarrow}& Q(X)
+       \\
+       {}^{\mathllap{f}}\downarrow &{}^{(pb)^h}& \downarrow^{\mathrlap{Q(f)}}
+       \\
+       Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+     }
+     \,.
+   $$
 
 =--
 
@@ -164,5 +241,5 @@ The properness condition is shown to be unnecessary in
 
 Textbook accounts include
 
-* [[Paul Goerss]], [[Rick Jardine]], section X.4 of_[[Simplicial homotopy theory]]_, (1996)
+* {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section X.4 of _[[Simplicial homotopy theory]]_, (1996)
 
