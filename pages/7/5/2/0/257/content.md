@@ -50,7 +50,7 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 A **model structure** on a [[category]] $C$ consists of three distinguished [[classes]] of [[morphisms]] - the **cofibrations** $Cof \subset Mor(C)$, the **fibrations** $Fib$, and the **weak equivalences** $W$ - satisfying the following two conditions:
 
-* (i) $W$ makes $C$ into a [[category with weak equivalences]], meaning that it is closed under **2-out-of-3**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
+* (i) $W$ makes $C$ into a [[category with weak equivalences]], meaning that it contains all [[isomorphisms]] and is closed under **[[two-out-of-three]]**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
 
 * (ii) $(Cof, Fib \cap W)$ and $(Cof \cap W, Fib)$ are two [[weak factorization system|weak factorization systems]] on $C$.
 
@@ -74,7 +74,7 @@ Often, the fibrant and cofibrant objects are the ones one is "really" interested
 
 ### Slight variations on the axioms
 
-Quillen's original definition required only finite limits and colimits, which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
+Quillen's original definition required only [[finite limits]] and [[finite colimits]], which are enough for the basic constructions.  Colimits of larger cardinality are sometimes required for the [[small object argument]], however.
 
 Some authors, notably [[Mark Hovey]], require that the factorizations given by (ii) are actually _functorial_. In practice, Quillen's [[small object argument]] means that many model categories can be made to have functorial factorizations.
 
@@ -111,7 +111,7 @@ There is also a slight variant of the full notion of model category by Thomason 
 
 ### Closure of morphism classes under retracts
 
-As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all closed under [[retract]]s in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphism]]s of $C$. 
+As a consequence of the definition, the classes $Cof, Fib$, and $W$ are all closed under [[retracts]] in the [[arrow category]] $Arr C$ and under composition and contain the [[isomorphisms]] of $C$. 
 
 This is least obvious in the case of $W$. In the presence of functorial factorizations, it is easy to show that closure under retracts follows from axioms (i) and (ii); with a bit of cleverness, this can also be done without functoriality.
 
@@ -140,7 +140,7 @@ This statement appears for instance as ([Joyal, prop. E.1.10](#Joyal))
 +-- {: .proof}
 ###### Proof
 
-So let $\mathcal{E}$ with $C,F,W \subset Mor(\mathcal{E})$ be a model category.
+Let $\mathcal{E}$ with $C,F,W \subset Mor(\mathcal{E})$ be a model category.
 
 By the above remark it is sufficient to show that the cofibrations and the fibrant objects determine the class of weak equivalences. Moreover, these are already determined by the weak equivalences between cofibrant objects, because for $u : A \to B$ any morphism, functorial cofibrant replacement $\emptyset \hookrightarrow \hat A \stackrel{\simeq}{\to} A$ and $\emptyset \hookrightarrow \hat B \stackrel{\simeq}{\to} B$ with 2-out-of-3 implies that $u$ is a weak equivalence precisely if $\hat u : \hat A \to \hat B $ is.
 
