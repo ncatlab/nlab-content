@@ -1,14 +1,16 @@
 
 #Cogroup objects#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 
 ## Idea ##
 
-**Cogroup objects** are sort of dual to [[group objects]].  The defining property of a cogroup object is that morphisms *out* of it form a [[group]].  Specifically, if $C$ is a category, then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
+**Cogroup objects** are [[group object]] in an [[opposite category]], and often one takes the [[opposite category]] of group object in an opposite category to be the category of cogroup objects.  
 
-There are many examples of cogroup objects.  Perhaps the most well-known are the [[sphere]]s in the homotopy category of based topological spaces, $\operatorname{hTop}_*$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that the [[homotopy group]] $\pi_n(X)$ is a group, naturally in $X$, for all topological spaces $X$.  (Note that this fails for $n = 0$.)
+The defining property of a cogroup object is that morphisms *out* of it form a [[group]].  Specifically, if $C$ is a category, then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
+
+There are many examples of cogroup objects.  Perhaps the most well-known are the [[n-sphere]] in the [[homotopy category]] of [[pointed topological spaces]], $\operatorname{hTop}_*$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that the [[homotopy group]] $\pi_n(X)$ for $n \geq 1$ is indeed a [[group9], naturally in $X$, for all topological spaces $X$.
 
 
 ## Definition ##
@@ -17,6 +19,7 @@ The basic definition is as follows.
 
 +-- {: .num_defn}
 ###### Definition
+
 Let $C$ be a category.  To give an object $G$ of $C$ a **cogroup structure** in $C$ is to give the functor $\operatorname{Hom}(G,-)$ a [[lift]] from $\operatorname{Set}$ to $\operatorname{Grp}$.
 
 A **cogroup object** in $C$ is an object $G$ together with a choice of cogroup structure.
@@ -38,7 +41,7 @@ Here, the phrase "the other way around" means: take the normal diagrams for a [[
 
 ## Relationship To Group Objects ##
 
-A cogroup object in a category, say $C$, is nothing more than a group object in the [[opposite category]]: $C^{op}$.  However, morphisms in the cogroup category go the other way around.  That is to say, with the obvious notation:
+A cogroup object in a category, say $C$, is nothing more than a [[group object]] in the [[opposite category]]: $C^{op}$.  However, morphisms in the cogroup category go the other way around.  That is to say, with the obvious notation:
 
 $$
 C\operatorname{coGrp} = (C^{op}\operatorname{Grp})^{op}
@@ -54,13 +57,19 @@ Some terminological care should be taken in the case of [[comonoid]], which make
 
 ## Examples ##
 
-1. As mentioned in the introduction, spheres are cogroup objects in the homotopy category of based topological spaces, $\operatorname{hTop}_*$.  More generally, any [[suspension]] is a cogroup object with the "pinch" map as the comultiplication.  (Since the $0$-sphere is not a suspension in $\operatorname{hTop}_*$, but only in $\operatorname{hTop}$, it need not be a cogroup and in fact is not.)  This is dual to, and equivalent to, the statement that (based) loop spaces are group objects in $\operatorname{hTop}_*$ since there is an [[adjunction]], internal to $\operatorname{hTop}_*$:
+1. All [[n-spheres]] for all $n$ are cogroup objects in the [[homotopy category]] of [[based topological spaces]], $\operatorname{hTop}_*$.  
+
+   This is the origin of the [[group]] structure on [[homotopy groups]]. it is also crucial in the structure of the [[Brown representability theorem]].
+
+   The higher spheres are actually _abelian_ cogroup objects, as demonstrated by the fact that $\pi_n(X)$ is abelian for $n \ge 2$.
+
+
+1. More generally, any [[suspension]] is a cogroup object with the "pinch" map as the comultiplication.  (Since the $0$-sphere is not a suspension in $\operatorname{hTop}_*$, but only in $\operatorname{hTop}$, it need not be a cogroup and in fact is not.)  This is dual to, and equivalent to, the statement that (based) [[loop spaces]] are group objects in $\operatorname{hTop}_*$ since there is an [[adjunction]], internal to $\operatorname{hTop}_*$:
 
    $$
    \operatorname{Hom}(\Sigma X,Y) \cong \operatorname{Hom}(X,\Omega Y)
    $$
 
-   The higher spheres are actually _abelian_ cogroup objects, as demonstrated by the fact that $\pi_n(X)$ is abelian for $n \ge 2$.
 
 2. There are examples of spaces that are cogroups in $\operatorname{hTop}_*$ that are **not** suspensions, see Bernstein & Harper _Cogroups which are not suspensions_.  Note that cogroups in $\operatorname{hTop}_*$ are the same as [[co-H-spaces]] which are additionally (co-)associative and have (co-)inverses.
 
