@@ -323,7 +323,7 @@ $$
   \,,
 $$
 
-where the first morphism is any [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length.
+where the first morphism is any [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (this is the _[[cogroup]]_ operation on spheres in $Ho(Top^{\ast/})$).
 
 By [[composition]], this construction extends to a [[functor]] 
 
