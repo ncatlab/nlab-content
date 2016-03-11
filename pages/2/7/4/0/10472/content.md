@@ -1,17 +1,30 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A [[pointed object|pointed]] [[topological space]]
+A [[pointed object|pointed]] [[topological space]].
 
 $$
   X \in Top^{\ast/}
 $$
 
 ## Related concepts
+
+* [[loop space]], [[reduced suspension]]
 
 * [[smash product]]
 
@@ -20,3 +33,6 @@ $$
 * [[spectrum]]
 
 [[!redirects pointed topological spaces]]
+
+[[!redirects based topological space]]
+[[!redirects based topological spaces]]
