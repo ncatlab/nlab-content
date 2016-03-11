@@ -130,38 +130,6 @@ into the actual [[pullback]] is an [[epimorphism]].
 
 =--
 
-
-+-- {: .num_theorem #BrownRepresentabilityOnPresentableInfinityCategories}
-###### Theorem
-**(Brown representability)**
-
-Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]]. 
-
-If 
-
-1. $\mathcal{C}$ is [[compactly generated (∞,1)-category|generated]] by a set
-
-   $$
-    \{S_i \in \mathcal{C}\}_{i \in I}
-   $$
-
-   of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
-
-1. each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$, 
-
-then a [[functor]]
-
-$$
-  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
-$$
-
-(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
-is [[representable functor|representable]] precisely if it is a [[Brown functor]], def. \ref{BrownFunctorOnInfinityCategory}.
-
-=--
-
-([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
-
 +-- {: .num_example #SuspensionsAreHCogroupObjects}
 ###### Example
 **([[suspensions are H-cogroup objects]])**
@@ -202,7 +170,127 @@ $$
 =--
 
 
-+-- {: .num_example}
+
++-- {: .num_theorem #BrownRepresentabilityOnPresentableInfinityCategories}
+###### Theorem
+**(Brown representability)**
+
+Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]]. 
+
+If 
+
+1. $\mathcal{C}$ is [[compactly generated (∞,1)-category|generated]] by a set
+
+   $$
+    \{S_i \in \mathcal{C}\}_{i \in I}
+   $$
+
+   of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
+
+1. each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$, 
+
+then a [[functor]]
+
+$$
+  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
+$$
+
+(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+is [[representable functor|representable]] precisely if it is a [[Brown functor]], def. \ref{BrownFunctorOnInfinityCategory}.
+
+=--
+
+([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
+
++-- {: .proof}
+###### Proof
+
+First observe that under the given assumption of compact generation a version of the [[Whitehead theorem]] holds in $\mathcal{C}$: a morphism $f \colon X \longrightarrow Y$ in $\mathcal{C}$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for all the generators $S_i$ the induced morphism $Ho(\mathcal{C})(S_i,f)$ is an [[isomorphism]]. In the classical example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem} this is the classical statement that [[weak homotopy equivalences]] are equivalences.
+
+Due to this we are essentially reduced to showing that [[Brown functors]] $F$ are representable on the $S_i$. To that end consider the following lemma.
+
+(We will in the following notationally identify, via the [[Yoneda lemma]], objects of $\mathcal{C}$, hence of $Ho(\mathcal{C})$, with the functors they [[representable functor|represent]].)
+
+Lemma ($\star$): _Given $X \in \mathcal{C}$ and $\eta \in F(X)$, hence $\eta \colon X \to F$, then there exists a morphism $f \colon X \to X'$ and an [[extension]] $\eta' \colon X' \to F$ of $\eta$ which induces for each $S_i$ a [[bijection]] $\eta'\circ (-) \colon Ho(\mathcal{C})(S_i,X') \stackrel{\simeq}{\longrightarrow} Ho(\mathcal{C})(S_i,F) \simeq F(S_i)$._
+
+To see this, first notice that we may directly find an extension $\eta_0$ along a map $X\to X_o$ such as to make a [[surjection]]: simply take $X_0$ to be the [[coproduct]] of **all** possible elements in the codomain
+
+$$
+  \eta_0
+  \;\colon\;
+   X 
+     \coprod 
+   \left(
+     \underset{{i \in I} \atop {S_i \stackrel{\gamma}{\to} F}}{\coprod} 
+     S_i
+   \right)
+   \longrightarrow
+   F
+$$
+
+the canonical map. (Using that $F$, by assumption, turns coproducts into products, we may think of the coproduct in $\mathcal{C}$ on the left equivalently as the coporduct of the corresponding functors.)
+
+To turn the surjection thus constructed into a bijection, we now successively form quotients of $X_0$. To that end proceed by [[induction]] and suppose that $\eta_n \colon X_n \to F$ has been constructed. Then for $i \in I$ let
+
+$$
+  K_i 
+    \coloneqq 
+  ker
+  \left( 
+     Ho(\mathcal{C})(S_i, X_n) 
+        \stackrel{\eta_n \circ (-)}{\longrightarrow} 
+     F(S_i) 
+   \right)
+$$
+
+be the [[kernel]] of the $\eta_n$ on $S_i$. These are the pieces that need to go away. Hence define $X_{n+1}$ to be their joint [[homotopy cofiber]]
+
+$$
+  X_{n+1} 
+     \coloneqq 
+   coker\left(
+     \underset{{i \in I} \atop {\gamma \in K_i}}{\sqcup} S_i
+     \longrightarrow
+     X_n
+  \right)
+  \,.
+$$
+
+Then by the assumption that $F$ takes this homotopy kernel to a weak fiber, there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$. 
+
+It is now clear that we want to take
+
+$$
+  X' \coloneqq \underset{\rightarrow}{\lim}_n X_n
+$$
+
+and extend all the $\eta_n$ to that colimit. Since we have no condition for evaluating $F$ on colimits other than pushouts, observe that this sequential colimit is equivalent to the following pushout:
+
+$$
+  \array{
+    \underset{n}{\sqcup} X_n
+    &\longrightarrow& \underset{n}{\sqcup} X_{2n}
+    \\
+    \downarrow && \downarrow
+    \\
+    \underset{n}{\sqcup} X_{2n+1} &\longrightarrow& X'
+  }
+  \,,
+$$
+
+where the components of the top and left map alternate between the identity on $X_n$ and the above successor maps $X_n \to X_{n+1}$.
+Now the excision property of $F$ applies to this pushout, and we conclude the desired  extension $\eta' \colon X' \to F$.
+
+It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]] and then injectivity follows because by construction we killed the kernel at each stage.
+
+This concludes the proof of Lemma ($\star$).
+
+Now...
+
+=--
+
+
++-- {: .num_example #TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem}
 ###### Example
 
 In bare [[pointed homotopy types]] $\mathcal{C} = $[[∞Grpd]]${}^{\ast/}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. These are certainly [[compact object in an (∞,1)-category|compact objects]]. 
@@ -384,7 +472,7 @@ Let $\mathcal{C}$be an [[(∞,1)-category]] which satisfies the conditions of th
 +-- {: .proof}
 ###### Proof
 
-Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories} gives the first clause. With this, the second clause follows by the [[(∞,1)-Yoneda lemma]].
+Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories} gives the first clause. With this, the second clause follows by the [[(∞,1)-Yoneda lemma]] (in fact just with the [[Yoneda lemma]]).
 
 =--
 
