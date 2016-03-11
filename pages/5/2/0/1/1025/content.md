@@ -32,9 +32,11 @@ Introductions and further pointers are at
 
 * [Algebraic Set Theory Website](http://www.phil.cmu.edu/projects/ast/index.html)
 
-An introduction is in 
+Two introductions are: 
 
 * [[Steve Awodey]], _An Outline of Algebraic Set Theory_ ([pdf](http://caae.phil.cmu.edu/projects/ast/Papers/awodey_outline.pdf))
+
+* Benno van den Berg, Ieke Moerdijk, _A Unified Approach to Algebraic Set Theory_ [arXiv](http://arxiv.org/abs/0710.3066)
 
 A standard textbook is
 
