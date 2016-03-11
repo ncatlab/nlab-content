@@ -104,6 +104,9 @@ An ordinary [[vector bundle]] is a [[bundle]] of $k$-[[module]]s for $k$ some [[
 
 ## Related concepts
 
+[[!include homological and higher algebra -- table]]
+
+
 * [[ring spectrum]], [[algebra spectrum]]
 
 * [[(∞,1)-category of (∞,1)-modules]]
