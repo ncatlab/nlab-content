@@ -182,6 +182,9 @@ The relation to "[[2-framings]]" is duscussed in
 [[!redirects parallelizable sphere]]
 [[!redirects parallelizable spheres]]
 
+[[!redirects parallelizable]]
+
+
 [[!redirects n-framing]]
 [[!redirects n-framings]]
 [[!redirects 1-framing]]
