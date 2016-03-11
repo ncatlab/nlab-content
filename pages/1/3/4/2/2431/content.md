@@ -33,19 +33,21 @@ In particular, there is no Brown representability theorem for functors from the 
 
 ## Classical Brown representability
 
-Let $Ho(Top_*^c)$ denote the homotopy category of pointed, connected, [[topological spaces]] under [[weak homotopy equivalence]] --- or equivalently the homotopy category of pointed connected [[CW complexes]] under homotopy equivalence.  Then $Ho(Top_*^c)$ has [[coproducts]] (given by wedge sums) and also [[weak limit|weak pushouts]] (namely, [[homotopy pushouts]]).
+Let $Ho(Top_*^c)$ denote the [[homotopy category]] of connected [[pointed topological spaces]] under [[weak homotopy equivalence]] --- or equivalently the homotopy category of pointed connected [[CW complexes]] under [[homotopy equivalence]].  Then $Ho(Top_*^c)$ has [[coproducts]] (given by [[wedge sums]]) and also [[weak limit|weak pushouts]] (namely, [[homotopy pushouts]]).
 
 +-- {: .num_theorem #Classical}
 ###### Theorem
 **(Brown)**
-If a functor $F:Ho(Top_*^c)^{op} \to Set_*$ [[preserved limit|takes]] coproducts to products, and weak pushouts to weak pullbacks, then it is [[representable functor|representable]].  That is, there is a pointed connected CW-complex $(Y,y_0)$ and a universal element $u\in F(Y,y_0)$ such that $T_u:[-,(Y,y_0)]\to F$ is a natural isomorphism.
+
+If a [[functor]] $F:Ho(Top_*^c)^{op} \to Set_*$ [[preserved limit|takes]] [[coproducts]] to [[products]], and weak [[pushouts]] to weak [[pullbacks]], then it is [[representable functor|representable]].  That is, there is a pointed connected [[CW-complex]] $(Y,y_0)$ and a universal element $u\in F(Y,y_0)$ such that $T_u:[-,(Y,y_0)]\to F$ is a [[natural isomorphism]].
+
 =--
 
 Note that it is immediate that every representable functor has the given properties; the nontrivial statement is that these properties already characterize representable functors.
 
 When the theorem is stated in terms of CW complexes, the second property (taking weak pushouts to weak pullbacks) is often phrased equivalently as:
 
-* The **Mayer-Vietoris axiom**: For every [[triple]] $(X; A_1, A_2)$ of CW-spaces (with $A_1\cup A_2 = X$) and any elements $x_1\in F(A_1)$, $x_2\in F(A_2)$ such that $x_1|A_1\cap A_2 = x_2|A_1\cap A_2$, there exists $y\in F(X)$ such that $y|A_1 = x_1$ and $y|A_2 = x_2$.
+* The **Mayer-Vietoris axiom**: For every [[CW-pair|CW-triple]] $(X; A_1, A_2)$ (with $A_1\cup A_2 = X$) and any elements $x_1\in F(A_1)$, $x_2\in F(A_2)$ such that $x_1|A_1\cap A_2 = x_2|A_1\cap A_2$, there exists $y\in F(X)$ such that $y|A_1 = x_1$ and $y|A_2 = x_2$.
 
 ## Generalizations
 
