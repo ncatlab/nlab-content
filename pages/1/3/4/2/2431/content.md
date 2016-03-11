@@ -138,10 +138,10 @@ Then $F$ is [[representable functor|representable]].
 This follows essentially immediately from Theorem \ref{Categorical} applied to $Ho(C)$.  Jardine also proves a more refined version.
 
 
-### In $(\infty,1)$-categories
+### For homotopy categories of $(\infty,1)$-categories
  {#InInfinity1Categories}
 
-We discuss the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of (∞,1)-categories]] [[(infinity,1)-category theory]] ([Lurie, section 1.4.1](#LurieHigherAlgebra)), see also the quick exposition in [Mathew 11](#Mathew11)).
+We discuss the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of (∞,1)-categories]] ([Lurie, section 1.4.1](#LurieHigherAlgebra)), see also the quick exposition in [Mathew 11](#Mathew11)).
 
 +-- {: .num_prop}
 ###### Proposition
@@ -179,6 +179,7 @@ is [[representable functor|representable]] precisely if it satisfies these two c
 =--
 
 ([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
+
 
 ## Related concepts
 
