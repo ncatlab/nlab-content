@@ -72,7 +72,7 @@ If $V$ admits a suitable function defining a spherical subset (such as a norm) t
 
 * These spheres, or rather their underlying [[topological space]]s or [[simplicial set]]s, are fundamental in (ungeneralised) [[homotopy theory]].  In a sense, [[Whitehead's theorem]] says that these are all that you need; no further [[generalized (Eilenberg-Steenrod) homotopy theory|generalised homotopy theory]] (in a sense [[Eckmann–Hilton duality|dual]] to [[Eilenberg–Steenrod cohomology theory]]) is needed.
 
-* Every $n$-sphere has natural H-[[cogroup]]-structure ([[cogroup]] structure in the [[homotopy category]] of [[pointed topological spaces]]. This is the origin of the [[group]] structure on [[homotopy groups]]). 
+* [[positive dimension spheres are H-cogroup objects]], and this is the origin of the [[group]] structure on [[homotopy groups]]). 
 
 * Precisely four spheres are [[parallelizable]], and three of these are so via [[Lie group]] structure (hence are the only spheres with Lie group structure) (see at _[[Hopf invariant one theorem]]_):
 
