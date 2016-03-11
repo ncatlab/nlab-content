@@ -1,0 +1,8 @@
+
+The binary operation in a [[group]] or [[ring]].
+
+## Related concepts
+
+* [[multiplicative cohomology theory]]
+
+[[!redirects multiplications]]
