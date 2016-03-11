@@ -3469,7 +3469,7 @@ We start with plain sequential spectra here as a transparent means to see the [[
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
-A _[[spectrum]]_ $X$ in the following means a [[sequential spectrum|sequential]] [[pre-spectrum]] in [[simplicial sets]], hence an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
+A **[[sequential spectrum]]** (or sequential [[pre-spectrum]], form emphasis) in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
 
  A [[homomorphism]] $f \colon X \to Y$ of spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
 
@@ -3485,7 +3485,7 @@ $$
 
 [[commuting diagram|commute]].
 
-Write $SeqSpec(sSet)$ for this [[category]] of spectra.
+Write $SeqSpec(sSet)$ for this [[category]] of sequential spectra.
 
 =--
 
@@ -7065,7 +7065,7 @@ gives the classical [[Adams spectral sequence]] for computation of 2-primary par
 
   (... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
 
-* The case $E = H \mathbb{F}_p$ and $X = M U$ is used to compute the [[stable homotopy groups]] of the complex [[Thom spetrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
+* The case $E = H \mathbb{F}_p$ and $X = M U$ is used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
 
   (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
