@@ -21,12 +21,13 @@
 
 ## Idea
 
-The statement of the [[Yoneda lemma]] has a straightforward generalization from [[category|categories]] to [[(∞,1)-category|(∞,1)-categories]].
+The statement of the [[Yoneda lemma]] generalizes from [[categories]] to [[(∞,1)-categories]].
 
 
-## Yoneda embedding {#YonedaEmbedding}
+## Yoneda embedding 
+ {#YonedaEmbedding}
 
-+-- {: .un_def }
++-- {: .num_defn }
 ###### Definition
 
 For $C$ an [[(∞,1)-category]] and $PSh(C)$ its [[(∞,1)-category of (∞,1)-presheaves]], the **$(\infty,1)$-Yoneda embedding** is the [[(∞,1)-functor]]
@@ -46,11 +47,11 @@ given by $y(X) : U \mapsto C(U,X)$.
 
 ### Yoneda lemma
 
-+-- {: .un_theorem }
-###### Theorem
++-- {: .num_prop }
+###### Proposition
 **$(\infty,1)$-Yoneda embedding**
 
-Let $C$ be an [[(∞,1)-category]] and $PSh(C) := Func(C^\op, \infty Grpd)$ be the corresponding [[(∞,1)-category of (∞,1)-presheaves]]. Then the canonical [[(∞,1)-functor]]
+Let $C$ be an [[(∞,1)-category]] and $PSh(C) \coloneqq Func(C^\op, \infty Grpd)$ be the corresponding [[(∞,1)-category of (∞,1)-presheaves]]. Then the canonical [[(∞,1)-functor]]
 
 $$
   Y : C \to PSh(C) 
@@ -60,19 +61,12 @@ is a [[full and faithful (∞,1)-functor]].
 
 =--
 
-
-+-- {: .proof}
-###### Proof
-
-In terms of [[quasi-categories]], this is proposition 5.1.3.1 in
-
-* [[Jacob Lurie]], [[Higher Topos Theory]]
-
-=--
+([[Higher Topos Theory|HTT, prop. 5.1.3.1]])
 
 
-+-- {: .un_theorem }
-###### Theorem
+
++-- {: .num_prop }
+###### Proposition
 **$(\infty,1)$-Yoneda theorem**
 
 For $C$ a small $(\infty,1)$-category and $F : C^{op} \to \infty Grpd$ an $(\infty,1)$-functor, the composite
@@ -83,12 +77,13 @@ $$
 $$
 
 is equivalent to $F$.
+
 =--
+
+([[Higher Topos Theory|HTT, Lemma 5.5.2.1]])
 
 +-- {: .proof}
 ###### Proof
-
-This appears as [[Higher Topos Theory|HTT Lemma 5.5.2.1]].
 
 The statement is a direct consequence of the [[sSet]]-[[enriched category theory|enriched]] [[Yoneda lemma]] by using the fact that the [[(∞,1)-category of (∞,1)-presheaves]] $PSh_{(\infty,1)}(C)$ is modeled by the [[enriched functor category]] $[C^{op}, sSet]_{proj}$ with $C$ regarded as a [[simplicially enriched category]] and using the global [[model structure on simplicial presheaves]].
 
@@ -97,20 +92,21 @@ The statement is a direct consequence of the [[sSet]]-[[enriched category theory
 ### Preservation of limits
 
 
-+-- {: .un_theorem }
-###### Theorem
++-- {: .num_prop }
+###### Proposition
 
 The $(\infty,1)$-Yoneda embedding $y : C \to PSh(C)$ preserves all [[(∞,1)-limit]]s that exist in $C$.
 
 =--
 
-This appears as [[Higher Topos Theory|HTT, prop. 5.1.3.2]].
+([[Higher Topos Theory|HTT, prop. 5.1.3.2]])
 
 
-### Local Yoneda embedding {#LocalYonedaEmbedding}
+### Local Yoneda embedding 
+  {#LocalYonedaEmbedding}
 
 
-+-- {: .un_prop }
++-- {: .num_prop }
 ###### Proposition
 
 For $C$ an [[(∞,1)-site]] and $\mathcal{X}$ an [[(∞,1)-topos]], [[(∞,1)-geometric morphism]]s $(f^* \dashv f_*) Sh(C) \stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}} \mathcal{X}$ from the [[(∞,1)-sheaf (∞,1)-topos]] $Sh(C)$ to $\mathcal{X}$ correspond to the **local** [[(∞,1)-functor]]s $f^* : C \to \mathcal{X}$, those that 
@@ -139,15 +135,15 @@ is a [[full and faithful (∞,1)-functor]] and its essential image is spanned by
 
 =--
 
-This appears as ([[Higher Topos Theory|HTT, prop. 6.2.3.20]]).
+([[Higher Topos Theory|HTT, prop. 6.2.3.20]])
+
+## Related concepts
+
+* [[Brown representability theorem]]
 
 ## References
 
-Published statements appear in 
-
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-
-as indicated above.
+* {#LurieHTT} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 See also the  [discussion on MathOverflow](http://mathoverflow.net/questions/9737/the-yoneda-lemma-for-oo-1-categories).
 
