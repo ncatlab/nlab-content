@@ -52,7 +52,7 @@ When the theorem is stated in terms of CW complexes, the second property (taking
 ## Counterexamples
  {#Counterexamples}
 
-Brown representability stated without the restricted to *connected* pointed spaces is false, as is the analogous statement for unpointed spaces.
+Brown representability stated without the restriction to *connected* pointed spaces is false, as is the analogous statement for unpointed spaces.
 
 In ([Freyd-Heller 93](#FreydHeller93)), it is show that if $G$ is [[Thompson's group F]], with $g:G\to G$ its canonical endomorphism, then $g$ does not [[split idempotent|split]] in the quotient of [[Grp]] by conjugacy.  Since the quotient of [[Grp]] by conjugacy embeds as the full subcategory of the unpointed homotopy category $Ho(Top)$ on connected [[homotopy 1-types]], we have an endomorphism $B g:B G \to B G$ of the [[classifying space]] of $G$ which does not split in $Ho(Top)$.
 
