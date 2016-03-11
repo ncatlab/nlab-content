@@ -7,3 +7,8 @@ See page 24 of [An Outline of Algebraic Set Theory](http://www.phil.cmu.edu/proj
 * [4] S. Awodey, C. Butz, A. Simpson and T. Streicher, Relating first-order set theories, toposes and categories of classes. In preparation, 2007. Preliminary version available [here](http://www.phil.cmu.edu/projects/ast/).
 
 * [5] S. Awodey and H. Forssell, [Algebraic models of intuitionistic theories of sets and classes](http://www.tac.mta.ca/tac/volumes/15/5/15-05abs.html), Theory and Applications of Categories 15(1): 147-163, 2005.
+
+This is part of [[algebraic set theory]].
+
+* Steve Awodey, Henrik Forssell and Michael A. Warren,
+_Algebraic models of sets and classes in categories of ideals_ [PDF](http://www.phil.cmu.edu/projects/ast/Papers/afw_06.pdf)
