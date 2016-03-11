@@ -64,7 +64,7 @@ Some terminological care should be taken in the case of [[comonoid]], which make
    The higher spheres are actually _abelian_ cogroup objects, as demonstrated by the fact that $\pi_n(X)$ is abelian for $n \ge 2$.
 
 
-1. More generally, any [[suspension]] is a cogroup object with the "pinch" map as the comultiplication.  (Since the $0$-sphere is not a suspension in $\operatorname{hTop}_*$, but only in $\operatorname{hTop}$, it need not be a cogroup and in fact is not.)  This is dual to, and equivalent to, the statement that (based) [[loop spaces]] are group objects in $\operatorname{hTop}_*$ since there is an [[adjunction]], internal to $\operatorname{hTop}_*$:
+1. More generally, any [[suspension]] is a cogroup object with the "pinch" map as the comultiplication.  See at _[[suspensions are H-cogroup objects]]_. (Since the $0$-sphere is not a suspension in $\operatorname{hTop}_*$, but only in $\operatorname{hTop}$, it need not be a cogroup and in fact is not.)  This is dual to, and equivalent to, the statement that (based) [[loop spaces]] are group objects in $\operatorname{hTop}_*$ since there is an [[adjunction]], internal to $\operatorname{hTop}_*$:
 
    $$
    \operatorname{Hom}(\Sigma X,Y) \cong \operatorname{Hom}(X,\Omega Y)
@@ -85,6 +85,9 @@ Some terminological care should be taken in the case of [[comonoid]], which make
 
 
 [[!redirects co-H-object]]
+
 [[!redirects cogroup object]]
+[[!redirects cogroup objects]]
+
 [[!redirects co-group object]]
 [[!redirects co-group]]
