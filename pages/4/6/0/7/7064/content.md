@@ -49,7 +49,7 @@ $$
 
 In fact, by the [[Freudenthal suspension theorem]], the value of the $\pi_{n+k}(S^n)$ stabilizes for $n \gt k+1$ (depend only on $k$ in this range), whence the name.
 
-The stable homotopy groups of sphere are equivalently the [[homotopy groups of a spectrum]] for the [[sphere spectrum]] $\mathbb{S}$
+The [[stable homotopy groups]] of sphere are equivalently the [[homotopy groups of a spectrum]] for the [[sphere spectrum]] $\mathbb{S}$
 
 $$
   \pi_k^S = \pi_k(\mathbb{S})
