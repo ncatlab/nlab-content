@@ -15,7 +15,15 @@
 * table of contents
 {:toc}
 
+## Idea
+
+Stable homotopy groups are [[homotopy groups]] as seen in [[stable homotopy theory]].
+
+A [[morphism]] inducing an [[isomorphism]] on all stable homotopy groups is called a [[stable weak homotopy equivalence]].
+
 ## Definition
+
+### For pointed topological spaces
 
 Given a [[pointed topological space]] $X$, then its _stable homotopy groups_ are the [[colimit]] of ordinary [[homotopy groups]] of its [[reduced suspensions]]
 
@@ -24,7 +32,9 @@ $$
   \,.
 $$
 
-More generallly, given a sequential [[spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
+### For sequential spectra
+
+Given a  [[sequential spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
 
 $$
   \pi_n(E) 
@@ -34,6 +44,9 @@ $$
 $$
 
 over the [[homotopy groups]] of the component spaces.
+
+For sequential spectra in [[simplicial sets]], the same formula applies for the [[geometric realization]] of the component simplicial sets.
+
 
 ## Properties
 
@@ -51,12 +64,18 @@ $$
   \simeq
   \left\{
     \array{
-      \pi_k(E_0) & for \; k \geq 0
+      \pi_n(E_0) & for \; n \geq 0
       \\
-      \pi_0(E_k) & for k \leq 0
+      \pi_0(E_n) & for \;n \leq 0
     }
   \right.
 $$
+
+## Examples
+
+* [[stable homotopy groups of spheres]]
+
+* [[Thom's theorem]]
 
 ## Related concepts
 
