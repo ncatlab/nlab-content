@@ -388,14 +388,14 @@ Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{
 
 =--
 
+
 ## Further variants
-
-
 
 ### For triangulated categories and model categories
 
-For [[triangulated categories]]  asdiscussion is in ([Neeman 96](#Neeman96)).
+For [[triangulated categories]]  a discussion is in ([Neeman 96](#Neeman96)).
 
+For [[model categories]] a discussion is in ([Jardine 09](#Jardine09)):
 
 Let $C$ be a [[simplicial model category]] with a [[zero object]] and such that there is a [[set]] $S$ of [[cofibrant object|cofibrant]] [[compact objects]] such that the [[weak equivalences]] in $C$ are precisely the $S$-[[local morphisms]].
 
