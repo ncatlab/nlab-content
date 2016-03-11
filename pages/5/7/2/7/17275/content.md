@@ -1,0 +1,66 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+[[suspension objects]] are canonically [[cogroup objects]] up to [[homotopy]], via their [[fold map]] (pinch map). In particular this is the case for positive dimensional [[n-spheres]]. 
+
+## Statement
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with a [[zero object]]. Write $\Sigma \colon X \mapsto 0 \underset{X}{\coprod} 0$ for the [[reduced suspension]] functor.
+
+Then the [[fold map]]
+
+$$
+  \Sigma X \coprod \Sigma X
+    \simeq
+  0 \underset{X}{\sqcup} 0 \underset{X}{\sqcup} 0
+    \longrightarrow
+  0 \underset{X}{\sqcup} X \underset{X}{\sqcup} 0
+  \simeq
+  0 \underset{X}{\sqcup} 0
+  \simeq
+  \Sigma X
+$$
+
+exhibits [[cogroup]] structure on the image of $\Sigma X$ in the [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(\mathcal{C})$.
+
+This is equivalently the [[group]]-structure of the first ([[fundamental group|fundamental]]) [[homotopy group]] of the values of [[representable functor|functor co-represented]] by $\Sigma X$:
+
+$$
+  Ho(\mathcal{C})(\Sigma X, -)
+   \;\colon\;
+  Y 
+   \mapsto
+  Ho(\mathcal{C})(\Sigma X, Y)
+   \simeq
+  Ho(\mathcal{C})(X, \Omega Y)
+   \simeq
+  \pi_1 Ho(\mathcal{C})(X, Y)
+  \,.
+$$
+
+## Examples
+
+### Positive-dimensional spheres in $\infty Grpd$
+
+All [[n-spheres]], regarded as their [[homotopy types]] in $\mathcal{C} = $[[∞Grpd]] suspensions for $n \geq 1$: $S^{n+1}\simeq \Sigma S^n$, hence they carry [[cogroup]] structure in the classical [[homotopy category]]. Under the $\Sigma \dashv \Omega$-[[adjunction]], this cogroup structure turns into the [[group]] structure on all [[homotopy groups]] in positive degree.
+
+
+[[!redirects positive dimension spheres are H-cogroup objects]]
