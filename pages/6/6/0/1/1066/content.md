@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[homotopy category]] of an [[(∞,1)-category]] $\mathcal{C}$ is its [[decategorification]] to an ordinary [[category]] obtained by identifying 1-[[morphism]]s that are connected by a [[2-morphism]].
+The [[homotopy category]] of an [[(∞,1)-category]] $\mathcal{C}$ is its [[decategorification]] to an ordinary [[category]] obtained by identifying 1-[[morphisms]] that are connected by a [[2-morphism]].
 
 If the [[(∞,1)-category]] $\mathcal{C}$ is presented by a [[category with weak equivalences]] $C$ (for instance as the [[simplicial localization]] $\mathcal{C} = L C$) then the notion of [[homotopy category]] of $C$ (where the weak equivalences are universally turned into [[isomorphism]]s) coinicides with that of $\mathcal{C}$:
 
@@ -30,11 +30,9 @@ $$
 $$
 
 
-
-
 ## Definition 
 
-The details of the definition depend on the chosen model for $(\infty,1)$-categories, as either
+The component-wise definition depend on the chosen model for $(\infty,1)$-categories, as either
 
 * [[simplicially enriched category]]/ Top-category
 
@@ -44,7 +42,7 @@ The details of the definition depend on the chosen model for $(\infty,1)$-catego
 
 * [[quasi-category]]
 
-## For simplicially enriched categories##
+### In terms of simplicially enriched categories
 
 The **homotopy category** $h C$ of a [[sSet]]-[[enriched category]] $C$ (equivalently of a [[Top]]-[[enriched category]]) is hom-wise the image under the functor
 
@@ -83,22 +81,73 @@ This inuces a canonical functor $h:sSet Cat\to Ho(sSet) Cat$ which is given by t
 
 
 
-## For complete Segal spaces and Segal categories ##
+### In terms of complete Segal spaces and Segal categories
 
 Similar, but more complicated, definitions work for [[complete Segal space]]s and [[Segal category|Segal categories]].
 
 
-##For quasi-categories ##
+### In terms of quasi-categories
 
 For [[quasi-category|quasi-categories]], one can write down a definition similar to those of $sSet$-enriched categories.
 
 Viewing $C$ as a [[simplicial set]], the homotopy category $hC$ can also be described as its [[fundamental category]] $\tau_1(C)$, i.e. the image of $C$ by the [[left adjoint]] $\tau_1 : SSet \to Cat$ of the [[nerve]] functor $N$.
 
+## Properties
+
+### Brown representability 
+ {#BrownRepresentability}
+
+The [[Brown representability theorem]] characterizes [[representable functors]] on homotopy categories of $(\infty,1)$-categories:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]], [[compactly generated (∞,1)-category|generated]] by a set
+
+$$
+  \{S_i \in \mathcal{C}\}_{i \in I}
+$$
+
+of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
+
+If each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$, then a [[functor]]
+
+$$
+  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
+$$
+
+(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+
+is [[representable functor|representable]] precisely if it satisfies these two conditions:
+
+1. $F$ sends small [[coproducts]] to [[products]];
+
+1. $F$ sends [[(∞,1)-pushouts]] $X \underset{Z}{\sqcup}Y$ to [[epimorphisms]], i.e. the canonical morphisms into the [[fiber product]]
+
+   $$
+     F\left(X \underset{Z}{\sqcup}Y\right)
+     \stackrel{epi}{\longrightarrow}
+     F(X) \underset{F(Z)}{\times} F(Y)
+   $$
+
+   are [[surjections]].
+
+=--
+
+([Lurie "Higher Algebra", theorem 1.4.1.2](#LurieHigherAlgebra))
+
+
 ## References
 
-[Section 1.2.3, p. 33](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=33) of
 
-* [[Jacob Lurie]], [[Higher Topos Theory]]
 
+* [[Jacob Lurie]], [Section 1.2.3, p. 33](http://arxiv.org/PS_cache/math/pdf/0608/0608040v4.pdf#page=33)  of [[Higher Topos Theory]]
+
+* {#LurieHigherAlgebra} [[Jacob Lurie]], section 1.4.1 of _[[Higher Algebra]]_
+
+
+[[!redirects homotopy categories of (infinity,1)-categories]]
 
 [[!redirects homotopy category of an (∞,1)-category]]
+[[!redirects homotopy categories of (∞,1)-categories]]
+
