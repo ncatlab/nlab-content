@@ -138,9 +138,47 @@ Then $F$ is [[representable functor|representable]].
 This follows essentially immediately from Theorem \ref{Categorical} applied to $Ho(C)$.  Jardine also proves a more refined version.
 
 
-### For $(\infty,1)$-categories
+### In $(\infty,1)$-categories
+ {#InInfinity1Categories}
 
-In [[(infinity,1)-category theory]] ([Lurie](#LurieHigherAlgebra)), exposition is in ([Mathew 11](#Mathew11))
+We discuss the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of (∞,1)-categories]] [[(infinity,1)-category theory]] ([Lurie, section 1.4.1](#LurieHigherAlgebra)), see also the quick exposition in [Mathew 11](#Mathew11)).
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]], [[compactly generated (∞,1)-category|generated]] by a set
+
+$$
+  \{S_i \in \mathcal{C}\}_{i \in I}
+$$
+
+of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
+
+If each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$, then a [[functor]]
+
+$$
+  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
+$$
+
+(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+
+is [[representable functor|representable]] precisely if it satisfies these two conditions:
+
+1. $F$ sends small [[coproducts]] to [[products]];
+
+1. $F$ sends [[(∞,1)-pushouts]] $X \underset{Z}{\sqcup}Y$ to [[epimorphisms]], i.e. the canonical morphisms into the [[fiber product]]
+
+   $$
+     F\left(X \underset{Z}{\sqcup}Y\right)
+     \stackrel{epi}{\longrightarrow}
+     F(X) \underset{F(Z)}{\times} F(Y)
+   $$
+
+   are [[surjections]].
+
+=--
+
+([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
 
 ## Related concepts
 
