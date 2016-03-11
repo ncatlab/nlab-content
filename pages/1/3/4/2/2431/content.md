@@ -202,14 +202,13 @@ is [[representable functor|representable]] precisely if it is a [[Brown functor]
 
 ([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
 
-+-- {: .proof}
++-- {: .proof #ProofFollowingLurie}
 ###### Proof
 
-First observe that under the given assumption of compact generation a version of the [[Whitehead theorem]] holds in $\mathcal{C}$: a morphism $f \colon X \longrightarrow Y$ in $\mathcal{C}$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for all the generators $S_i$ the induced morphism $Ho(\mathcal{C})(S_i,f)$ is an [[isomorphism]]. In the classical example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem} this is the classical statement that [[weak homotopy equivalences]] are equivalences.
+First observe that under the given assumption of compact generation, a version of the [[Whitehead theorem]] holds in $\mathcal{C}$: a morphism $f \colon X \longrightarrow Y$ in $\mathcal{C}$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for all the generators $S_i$ the induced morphism $Ho(\mathcal{C})(S_i,f)$ is an [[isomorphism]]. In the classical example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem} this is the classical statement that [[weak homotopy equivalences]] are [[homotopy equivalences]] on good representatives.
 
 Due to this we are essentially reduced to showing that [[Brown functors]] $F$ are representable on the $S_i$. To that end consider the following lemma.
-
-(We will in the following notationally identify, via the [[Yoneda lemma]], objects of $\mathcal{C}$, hence of $Ho(\mathcal{C})$, with the functors they [[representable functor|represent]].)
+(In the following we notationally identify, via the [[Yoneda lemma]], objects of $\mathcal{C}$, hence of $Ho(\mathcal{C})$, with the functors they [[representable functor|represent]].)
 
 Lemma ($\star$): _Given $X \in \mathcal{C}$ and $\eta \in F(X)$, hence $\eta \colon X \to F$, then there exists a morphism $f \colon X \to X'$ and an [[extension]] $\eta' \colon X' \to F$ of $\eta$ which induces for each $S_i$ a [[bijection]] $\eta'\circ (-) \colon Ho(\mathcal{C})(S_i,X') \stackrel{\simeq}{\longrightarrow} Ho(\mathcal{C})(S_i,F) \simeq F(S_i)$._
 
@@ -219,16 +218,16 @@ $$
   \eta_0
   \;\colon\;
    X 
-     \coprod 
+     \sqcup
    \left(
-     \underset{{i \in I} \atop {S_i \stackrel{\gamma}{\to} F}}{\coprod} 
+     \underset{{i \in I,} \atop {\gamma \colon S_i \stackrel{}{\to} F}}{\coprod} 
      S_i
    \right)
    \longrightarrow
    F
 $$
 
-the canonical map. (Using that $F$, by assumption, turns coproducts into products, we may think of the coproduct in $\mathcal{C}$ on the left equivalently as the coporduct of the corresponding functors.)
+the canonical map. (Using that $F$, by assumption, turns coproducts into products, we may imdeed treat the coproduct in $\mathcal{C}$ on the left as the coproduct of the corresponding functors.)
 
 To turn the surjection thus constructed into a bijection, we now successively form quotients of $X_0$. To that end proceed by [[induction]] and suppose that $\eta_n \colon X_n \to F$ has been constructed. Then for $i \in I$ let
 
@@ -249,7 +248,9 @@ $$
   X_{n+1} 
      \coloneqq 
    coker\left(
-     \underset{{i \in I} \atop {\gamma \in K_i}}{\sqcup} S_i
+     \left(
+        \underset{{i \in I,} \atop {\gamma \in K_i}}{\sqcup} S_i
+     \right)
      \longrightarrow
      X_n
   \right)
@@ -264,7 +265,7 @@ $$
   X' \coloneqq \underset{\rightarrow}{\lim}_n X_n
 $$
 
-and extend all the $\eta_n$ to that colimit. Since we have no condition for evaluating $F$ on colimits other than pushouts, observe that this sequential colimit is equivalent to the following pushout:
+and extend all the $\eta_n$ to that colimit. Since we have no condition for evaluating $F$ on colimits other than pushouts, observe that this [[sequential colimit]] is equivalent to the following pushout:
 
 $$
   \array{
@@ -281,11 +282,79 @@ $$
 where the components of the top and left map alternate between the identity on $X_n$ and the above successor maps $X_n \to X_{n+1}$.
 Now the excision property of $F$ applies to this pushout, and we conclude the desired  extension $\eta' \colon X' \to F$.
 
-It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]] and then injectivity follows because by construction we killed the kernel at each stage.
+It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]].With this, injectivity follows because by construction we quotiented out the kernel at each stage.
 
 This concludes the proof of Lemma ($\star$).
 
-Now...
+Now apply the construction given by this lemma to the case 
+$X_0 \coloneqq 0$ and the unique $\eta_0 \colon 0 \stackrel{\exists !}{\to} F$. Lemma $(\star)$ then produces an object $X'$ which represents $F$ on all the $S_i$, and we want to show that this $X'$ actually represents $F$ generally, hence that for every $Y \in \mathcal{C}$ the function
+
+$$
+  \theta \coloneqq \eta'\circ (-)
+  \;\colon\;
+  Ho(\mathcal{C})(Y,X')
+   \stackrel{}{\longrightarrow}
+  F(Y)
+$$
+
+is a [[bijection]].
+
+First, to see that $\theta$ is surjective, we need to find a preimage of any $\rho \colon Y \to F$. Applying Lemma $(\star)$ to $(\eta',\rho)\colon X'\sqcup Y \longrightarrow F$ we get an extension $\kappa$ of this through some $X' \sqcup Y \longrightarrow Z$ and the morphism on the right the following commuting diagram:
+
+$$
+  \array{
+    Ho(\mathcal{C})(-,X') && \longrightarrow && Ho(\mathcal{C})(-, Z)
+    \\
+    & {}_{\mathllap{\eta'\circ(-)}}\searrow && \swarrow_{\mathrlap{\kappa \circ (-)}}
+    \\
+    && F(-)
+  }
+  \,.
+$$
+
+Morover, Lemma $(\star)$ gives that evaluated on all $S_i$, the two diagonal morphisms here become isomorphisms. But then the [[Whitehead theorem]] which holds in $\mathcal{C}$ implies that $X' \longrightarrow Z$ is in fact an equivalence. Hence the component map $Y \to Z \simeq Z$ is a lift of $\kappa$ through $\theta$.
+
+Second, to see that $\theta$ is injective, suppose $f,g \colon Y \to X'$ have the same image under $\theta$. Then conside their homotopy pushout
+
+$$
+  \array{
+    Y \sqcup Y &\stackrel{(f,g)}{\longrightarrow}& X'
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\longrightarrow& Z
+  }
+$$
+ 
+along the [[codiagonal]] of $Y$. Using that $F$ sends this to a weak pullback, we obatain an extension $\bar \eta$ of $\eta'$ along $X' \to Z$. Applying Lemma $(\star)$ to this gives a further extension $\bar \eta' \colon Z' \to Z$ which now makes the following diagram
+
+$$
+  \array{
+    Ho(\mathcal{C})(-,X') && \longrightarrow && Ho(\mathcal{C})(-, Z)
+    \\
+    & {}_{\mathllap{\eta'\circ(-)}}\searrow && \swarrow_{\mathrlap{\bar \eta' \circ (-)}}
+    \\
+    && F(-)
+  }
+$$
+
+such that the diagonal maps become isomorphisms when evaluated on the $S_i$. As before, it follows that the morphism
+$h \colon X' \longrightarrow Z'$ is an equivalence.
+
+Since by this construction $h\circ f$ and $h\circ g$ are homotopic
+
+$$
+  \array{
+    Y \sqcup Y &\stackrel{(f,g)}{\longrightarrow}& X'
+    \\
+    \downarrow && \downarrow & \searrow^{\mathrlap{\stackrel{h}{\simeq}}}
+    \\
+    Y &\longrightarrow& Z &\longrightarrow& Z'
+  }
+$$
+
+it follows with $h$ being an equivalence that already $f$ and $g$ were homotopic, hence that they represented the same element.
+
 
 =--
 
