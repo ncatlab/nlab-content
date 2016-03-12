@@ -21,7 +21,7 @@
 
 ## Idea
 
-The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representable presheaf]] $h_c$ into an arbitrary [[presheaf]] $F$ is in natural bijection with the set $F(c)$ assigned by $F$ to the representing [[object]] $c$.
+The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representable presheaf]] $h_c$ into an arbitrary [[presheaf]] $F$ is in [[natural bijection]] with the set $F(c)$ assigned by $F$ to the representing [[object]] $c$.
 
 The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]], [[universal construction]], and [[universal element]]. 
 
@@ -210,6 +210,8 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 * [[Yoneda reduction]]
 
 * [[co-Yoneda lemma]]
+
+* [[Brown representability theorem]]
 
 ## Applications
 
