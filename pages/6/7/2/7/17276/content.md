@@ -1,0 +1,39 @@
+# Spaces stratified by a poset
+
+* table of contents
+{:toc}
+
+## Idea
+
+A **poset-stratified space** is a particular way to define a [[stratified space]] that is convenient for some purposes.
+
+## Definition
+
+A **poset-stratified space** is a continuous map $X\to P$, where $X$ is an arbitrary topological space and $P$ is a $T_0$ [[Alexandroff space]], i.e. a [[poset]] with the Alexandroff topology.
+
+The category of stratified spaces is a full subcategory of the [[arrow category]] of [[Top]].  Note that Alexandroff topologies embed [[Pos]] fully-faithfully in [[Top]], so a map of stratified spaces consists of a continuous map $X\to Y$ and a poset map $P\to Q$ making a square commute.
+
+## Examples
+
+* The *cone* on a stratified space $X\to P$ is the quotient $X\times [0,1) / X\times \{0\}$, stratified by the poset $P^\lhd$ that adjoins a new bottom element to $P$.
+
+* The standard stratification of the $n$-simplex $\Delta^n$ is obtained by regarding it as the $(n+1)$-fold cone of $\emptyset$.  It is stratified by the poset $[n] = \{0,\dots,n\}$.  Note that every stratified map $\Delta^n \to \Delta^m$ has an underlying poset map $[n]\to [m]$; it is a theorem the resulting map $Strat(\Delta^n,\Delta^m) \to Pos([n],[m])$ is a homotopy equivalence.  Thus, we have an embedding of the [[simplex category]] into $Strat$.
+
+## Exit categories
+
+For a stratified space $X$, its **exit category** is a [[simplicial space]] defined by 
+
+$$Exit(X)_p = Strat(\Delta^p,X)$$
+
+using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Francis-Rozenblyum](#AFR) that this is a [[complete Segal space]].
+
+## References
+
+* [[Jacob Lurie]], [[Higher Algebra]], Appendix A.5
+
+* David Ayala, John Francis, Hiro Lee Tanaka, *Local structures on stratified spaces*, [arXiv](http://arxiv.org/abs/1409.0501)
+
+* David Ayala, John Francis, Nick Rozenblyum, *Factorization homology from higher categories*, [arXiv](http://arxiv.org/abs/1504.04007)
+
+* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+{#AFR}
