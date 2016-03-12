@@ -19,11 +19,13 @@ A notion of _stratified space_ is supposed to be a notion of [[topological space
 
 Examples include [[polyhedra]], [[algebraic varieties]], [[orbit spaces]] of many group actions on manifolds and [[mapping cylinders]] of maps between manifolds.
 
-There are various ways in the literature to make this precise.
+## Definitions
 
-Among them are 
+There are various ways in the literature to make this precise, including:
 
-* [[stratifolds]], [[orbifolds]], ...
+* [[stratifolds]]
+* [[orbifolds]]
+* [[poset-stratified space]]
 
 ## Examples
 
