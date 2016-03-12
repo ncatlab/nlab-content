@@ -1,2 +1,11 @@
 
-k
+$$
+  \begin{aligned}
+    \pi_n \mathcal{C}(-,-) & \simeq \pi_0 \mathcal{C}(-,\Omega^n(-)) 
+    \\
+    & \simeq \pi_0\mathcal{C}(\Sigma^n(-),-)
+    \\
+    & \simeq Ho(\mathcal{C})(\Sigma^n(-),-)
+  \end{aligned}
+$$
+
