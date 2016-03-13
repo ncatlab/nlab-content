@@ -45,3 +45,6 @@ using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Fran
 * David Ayala, John Francis, Nick Rozenblyum, *Factorization homology from higher categories*, [arXiv](http://arxiv.org/abs/1504.04007)
 
 * {#AFRshh} David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+
+
+[[!redirects poset-stratified spaces]]
