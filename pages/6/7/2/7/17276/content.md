@@ -19,21 +19,29 @@ The category of stratified spaces is a full subcategory of the [[arrow category]
 
 * The standard stratification of the $n$-simplex $\Delta^n$ is obtained by regarding it as the $(n+1)$-fold cone of $\emptyset$.  It is stratified by the poset $[n] = \{0,\dots,n\}$.  Note that every stratified map $\Delta^n \to \Delta^m$ has an underlying poset map $[n]\to [m]$; it is a theorem the resulting map $Strat(\Delta^n,\Delta^m) \to Pos([n],[m])$ is a homotopy equivalence.  Thus, we have an embedding of the [[simplex category]] into $Strat$.
 
-## Exit categories
+* Any manifold $M$ can be equipped with the trivial stratification over the terminal poset.  As a special case, the *extended simplices* $\Delta^n_e = \{ \vec{t} \in \mathbb{R}^{n+1} : \sum t_i = 1\}$ assemble into a cosimplicial object $\Delta^\bullet_e \in cStrat$.
 
-For a stratified space $X$, its **exit category** is a [[simplicial space]] defined by 
+## Conically smooth atlases and the $\infty$-category $\mathcal{S}trat$
 
-$$Exit(X)_p = Strat(\Delta^p,X)$$
+There is a notion of a *conically smooth atlas* on a stratified space.  (The definition is quite involved, inducting on a number of parameters simultaneously; see ([Ayala--Francis--Tanaka, section 3](#AFT)).)  The category of conically smooth stratified spaces (with conically smooth maps among them) is often again simply called $Strat$.
 
-using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Francis-Rozenblyum](#AFR) that this is a [[complete Segal space]].
+One can endow this new category $Strat$ with an enrichment in Kan complexes via the extended simplices, by defining $\mathrm{map}_{Strat}(X,Y)_\bullet = \mathrm{hom}_{Strat}(X \times \Delta^\bullet_e,Y)$.  This presents the $\infty$-categorical localization $\mathcal{S}trat$ of $Strat$ at the _stratified homotopy equivalences_ (see ([Ayala--Francis--Rozenblyum, Theorem 2.4.5](#AFRshh))).
+
+## Exit path $\infty$-categories
+
+
+For a stratified space $X$, its **exit path $\infty$-category** is a [[simplicial space]] (in the $\infty$-categorical sense) defined by 
+
+$$Exit(X)_p = \hom_{\mathcal{S}trat}(\Delta^p,X)$$
+
+using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Francis-Rozenblyum](#AFRshh) that this is indeed a [[complete Segal space]].  The main result of that paper is the **stratified homotopy hypothesis**, which is the assertion that this construction defines a fully-faithful embedding $Exit : \mathcal{S}trat \hookrightarrow Cat_\infty$.
 
 ## References
 
 * [[Jacob Lurie]], [[Higher Algebra]], Appendix A.5
 
-* David Ayala, John Francis, Hiro Lee Tanaka, *Local structures on stratified spaces*, [arXiv](http://arxiv.org/abs/1409.0501)
+* {#AFT} David Ayala, John Francis, Hiro Lee Tanaka, *Local structures on stratified spaces*, [arXiv](http://arxiv.org/abs/1409.0501)
 
 * David Ayala, John Francis, Nick Rozenblyum, *Factorization homology from higher categories*, [arXiv](http://arxiv.org/abs/1504.04007)
 
-* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
-{#AFR}
+* {#AFRshh} David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
