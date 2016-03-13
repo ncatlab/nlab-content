@@ -27,7 +27,7 @@ Since $R$ is compact and $\widehat{R}$ is Hausdorff, the image $\pi(R)$ is close
 
 So, we are to show that if $U \subseteq \widehat{R}$ is open and [[inhabited set|inhabited]], then there exists $x \in R$ with $\pi(x) \in U$. Let $\pi_I: \widehat{R} \to R/I$ denote a typical component map of the limit cone. A [[basis of a topology|basis]] for the topology of $\widehat{R}$ consists of inhabited finite intersections of the form $U = \pi_{I_1}^{-1}(x_1) \cap \ldots \cap \pi_{I_n}^{-1}(x_n)$ where each $x_k$ is a point of $R/I_k$. 
 
-Let $x = \langle x_I \rangle_{I \in \mathcal{O}(R)} \in \widehat{R}$ be a point belonging to $U$, and put $J = \bigcap_{i=1}^n I_i$. Then for each $x_i$ the coordinate $x_J$ maps to $x_i$ under the map $R/J \to R/I_i$, precisely because of the compatibility conditions on the coordinates imposed by the limit. Then, letting $x \in R$ be an element that maps to $x_J$ under $R \to R/J$, the element $\pi(x)$ lies in $U$ and we are done. 
+Let $x = \langle x_I \rangle_{I \in \mathcal{O}(R)} \in \widehat{R}$ be a point belonging to $U$, and put $J = \bigcap_{i=1}^n I_i$. Then for each $x_i$ the coordinate $x_J$ maps to $x_i$ under the map $R/J \to R/I_i$, precisely because of the compatibility conditions on the coordinates imposed by the limit. Then, letting $x' \in R$ be an element that maps to $x_J$ under $R \to R/J$, the element $\pi(x')$ lies in $U$ and we are done. 
 =-- 
 
 ## Compact rings are totally disconnected 
