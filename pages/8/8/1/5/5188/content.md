@@ -88,12 +88,12 @@ Write
 Then every collection $K \in V Coll$ defines a functor $\bar K : \mathbb{T}^{op} \to V$ by the inductive formula
 
 $$
-  \bar K : | \mapsto I
+  \bar K (|) \coloneqq I
 $$
 
 $$
-  \bar K : T \mapsto \bar K(t_n(T_1, \cdots, T_n))
-  := K(n) \otimes K(T_1) \otimes \cdots K(T_n)
+  \bar K(t_n(T_1, \cdots, T_n))
+  \coloneqq K(n) \otimes \bar K(T_1) \otimes \cdots \bar K(T_n)
   \,.
 $$
 
