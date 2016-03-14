@@ -34,7 +34,7 @@ $$
 
 where the first sum is the [[perturbation series]] itself and where the terms with a prefactor of the form $\exp(-A/g)$ are the contributions of the [[instantons]] ($A$ is the contribution of the [[instanton]] [[action functional]]). Since all the [[derivatives]] of the function $g \mapsto e^{-1/g}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the path integral does not appear in [[perturbation series]], even though it is present. Therefore this is called a _non-perturbative effect_.
 
-See at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
+The mathematics behind this is called _[[resurgence theory]]_. See also at _[perturbation theory -- Divergence/convergence](perturbation+theory#DivergenceConvergence)_ for more.
 
 ## Examples
 
