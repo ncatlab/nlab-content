@@ -304,6 +304,10 @@ Categorical aspects are looked at in
 
 For more on this see also at _[[Delta-generated space]]_.
 
+Applications to computer science are presented in
+
+* [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], [[Directed Algebraic Topology and Concurrency]]
+
 The fundamental category of a pospace is discussed in
 
 * [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], and  [[Martin Raussen]], Components of the fundamental category. Appl.Cat. Struct. Vol. 12, pp.81-108, 2004
