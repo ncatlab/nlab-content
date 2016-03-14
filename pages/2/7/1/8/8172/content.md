@@ -1262,6 +1262,10 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 
 (...)
 
+([Bruner 09](#Bruner09))
+
+(...)
+
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]]))
@@ -1734,11 +1738,11 @@ Reviews include
 
 * [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_ ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
-* {#Bruner} R. Bruner, _An Adams spectral sequence primer_ ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
+* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
 * [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
 
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
+* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 Other notes that are available include
 
