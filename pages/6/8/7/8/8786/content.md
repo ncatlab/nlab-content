@@ -12,6 +12,8 @@
 
 * [[models for concurrency]]
 
+* [[Directed Algebraic Topology and Concurrency]]
+
 * [[Some geometric perspectives in concurrency theory]]
 
 * in a wider sense also articles related to [[directed homotopy theory]], e.g.
@@ -24,7 +26,9 @@
 ## References
 
 * [[Bob Harper]], _[Parallelism is not concurrency](http://existentialtype.wordpress.com/2011/03/17/parallelism-is-not-concurrency/)_
- {#Harper} 
+ {#Harper}
+
+* [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], [[Directed Algebraic Topology and Concurrency]]
 
 
 category:computer science
