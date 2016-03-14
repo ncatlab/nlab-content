@@ -7063,7 +7063,11 @@ For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsS
 * The case $E = H \mathbb{F}_p$ and $X = \mathbb{S}$
 gives the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
 
-  (... [Hatcher 04](#Hatcher04), [Rognes 12](#Rognes12)... )
+  (... [Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12) [Rognes 12](#Rognes12)... )
+
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]]))
 
 * The case $E = H \mathbb{F}_p$ and $X = M U$ is used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
 
