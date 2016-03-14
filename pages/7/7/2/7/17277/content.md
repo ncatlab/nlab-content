@@ -1,5 +1,14 @@
 
+John Lane Bell works in mathematical [[logic]], [[philosophy of mathematics]], [[set theory]] and [[category theory]]
+
+* [webpage](http://publish.uwo.ca/~jbell/)
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/John_Lane_Bell)
+
+> (beware that there is also the physicist [[John Stewart Bell]])
+
+## related $n$Lab entries
+
+* [[synthetic differential geometry]]
 
 category: people
