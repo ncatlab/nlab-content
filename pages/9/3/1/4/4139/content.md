@@ -1,8 +1,12 @@
+
+
 John Stewart Bell was an Irish physicist credited with developing one of the most profound theorems in [[quantum physics]], now known as [[Bell's theorem]].
 
 * [biography](http://www-groups.dcs.st-and.ac.uk/~history/Biographies/Bell_John.html) (detailed)
 
 * [biography](http://en.wikipedia.org/wiki/John_Stewart_Bell) (detailed)
+
+> (beware that there is also the mathematician and philopher [[John Lane Bell]])
 
 ## related $n$Lab entries
 
@@ -19,3 +23,5 @@ John Stewart Bell was an Irish physicist credited with developing one of the mos
 * [[interpretation of quantum mechanics]]
 
 category: people
+
+[[!redirects John Stewart Bell]]
