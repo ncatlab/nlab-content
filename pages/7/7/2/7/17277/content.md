@@ -1,0 +1,5 @@
+
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/John_Lane_Bell)
+
+category: people
