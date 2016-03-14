@@ -74,7 +74,7 @@ $$
 
 where the first sum is the [[perturbation series]] itself and where the terms with a prefactor of the form $\exp(-A/g)$ are the contributions of the [[instantons]] ($A$ is the contribution of the [[instanton]] [[action functional]]). Since all the [[derivatives]] of the function $g \mapsto e^{-1/g}$ vanish at [[coupling constant]] $g = 0$, the [[Taylor series]] of this part of the path integral does not appear in [[perturbation series]], even though it is present. Therefore this is called a _[[non-perturbative effect]]_.
 
-See the [references below](#ReferencesDivergenceConvergence) for details.
+See the [references below](#ReferencesDivergenceConvergence) for details. The mathematics behind this is called _[[resurgence theory]]_.
 
 (See also at _[string theory FAQ -- Isn't it fatal that the string perturbation series does not converge?](string+theory+FAQ#NonConvergenceOfPerturbationSeries)_.)
 
