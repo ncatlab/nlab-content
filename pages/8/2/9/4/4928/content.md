@@ -72,6 +72,8 @@ What do you think? As I suggested please do get onto the n-forum if you have the
 
 ##References##
 
+ * [[Lisbeth Fajstrup]], [[Eric Goubault]], [[Emmanuel Haucourt]], [[Samuel Mimram]], [[Martin Raussen]], [[Directed Algebraic Topology and Concurrency]]
+
  *  [[Eric Goubault]], [[Some geometric perspectives in concurrency theory]], 
 
 *   [[Eric Goubault]] and [[Samuel Mimram]], [Formal Relationships Between Geometrical and Classical Models for Concurrency](http://fr.arxiv.org/abs/1004.2818)
