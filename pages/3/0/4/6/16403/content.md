@@ -5086,11 +5086,21 @@ On the other hand, both groupoids and chain complexes naturally have incarnation
 
 $$
   \array{
-    Groupoids && && chain\;complexes
+    && {topological \atop spaces} 
     \\
-    & {}_{\mathllap{Grothendieck \atop nerve}}\searrow && \swarrow_{\mathrlap{Dold-Kan\atop correspondence}}
+    &&
+     \downarrow^{\mathrlap{{higher \atop path}\atop groupoid}}
+    & 
     \\
-    && Kan\;complexes &\hookrightarrow& simplicial\;sets
+    groupoids 
+      &\stackrel{{Grothendieck \atop nerve}}{\longrightarrow}& 
+    { {\mathbf{Kan}\;\mathbf{complexes}} \atop {\simeq \infty-groupoids} }
+      &\stackrel{{Dold-Kan \atop correspondence}}{\longleftarrow}&
+    {chain \atop complexes}
+    \\
+    && \downarrow^{\mathrlap{included \atop in}}
+    \\
+    && {simplicial \atop sets}
   }
 $$
 
@@ -5106,17 +5116,17 @@ $$
 
 as specifying
 
-* a set $[0] \mapsto K_0$ of [[object]]s;
+* a set $[0] \mapsto K_0$ of [[objects]];
 
-* a set $[1] \mapsto K_1$ of [[morphism]];
+* a set $[1] \mapsto K_1$ of [[morphisms]];
 
-* a set $[2] \mapsto K_2$ of [[2-morphism]];
+* a set $[2] \mapsto K_2$ of [[2-morphisms]];
 
-* a set $[3] \mapsto K_3$ of [[3-morphism]];
+* a set $[3] \mapsto K_3$ of [[3-morphisms]];
 
 and generally
 
-* a set $[k] \mapsto K_k$ of [[k-morphism]]s
+* a set $[k] \mapsto K_k$ of [[k-morphisms]]
 
 as well as specifying
 
@@ -5261,7 +5271,7 @@ This is called an **outer horn** if $k = 0$ or $k = n$.  Otherwise it is an **in
 ###### Remark
 
 
-Since [[sSet]]  is a [[presheaf topos]], [[unions] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
+Since [[sSet]]  is a [[presheaf topos]], [[unions]] of [[subobjects]] make sense and they are calculated objectwise, thus in this case dimensionwise.  This way it becomes clear what the structure of a horn as a functor $\Lambda^k[n]: \Delta^{op} \to Set$ must therefore be: it takes $[m]$ to the collection of ordinal maps $f: [m] \to [n]$ which do not have the element $k$ in the image.
 
 =--
 
@@ -5781,8 +5791,7 @@ For $A$ a [[simplicial abelian group]] its **alternating face maps chain complex
 
 * which in degree 0 equals is just $((C A)/D(A))_0 \coloneqq A_0$;
 
-* which in degree $n+1$ is the [[quotient]] group obtained by dividing out the group
-  the degenerate elements, def. \ref{DegenerateElement}:
+* which in degree $n+1$ is the [[quotient]] group obtained by dividing out the group of degenerate elements, def. \ref{DegenerateElement}:
 
   $$
     ((C A)/D(A))_{n+1} := A_{n+1} / D(A_{n+1})
