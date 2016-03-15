@@ -162,4 +162,7 @@ See [[Riesz representation theorem]] for examples from [[functional analysis]].
 [[!redirects topological duals]]
 
 [[!redirects linear dual]]
+[[!redirects linear duals]]
+
+
 
