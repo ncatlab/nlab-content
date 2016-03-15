@@ -1,4 +1,26 @@
 
+$$
+  \array{
+    && {topological \atop spaces} 
+    \\
+    &&
+     \downarrow^{\mathrlap{{higher \atop path}\atop groupoid}}
+    & 
+    \\
+    groupoids 
+      &\stackrel{{Grothendieck \atop nerve}}{\longrightarrow}& 
+    { {\mathbf{Kan}\;\mathbf{complexes}} \atop {\simeq \infty-groupoids} }
+      &\stackrel{{Dold-Kan \atop correspondence}}{\longleftarrow}&
+    {chain \atop complexes}
+    \\
+    && \downarrow^{\mathrlap{included \atop in}}
+    \\
+    && {simplicial \atop sets}
+  }
+$$
+
+
+
 [[ClassicalAdamsSpectralSequence.jpg:file]]
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
