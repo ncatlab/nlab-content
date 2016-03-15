@@ -1,6 +1,6 @@
 This entry is about the text:
 
-[[Eric Goubault]], Some geometric perspectives in [[concurrency theory]], appears in in : Homology Homotopy Appl. Volume 5, Number 2 (2003), 95-136.][pdf](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.hha/1088453323)
+[[Eric Goubault]], Some geometric perspectives in [[concurrency theory]], appears in : Homology Homotopy Appl. Volume 5, Number 2 (2003), 95-136.][pdf](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.hha/1088453323)
 
 #Abstract#
 
