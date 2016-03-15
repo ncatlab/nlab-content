@@ -7060,21 +7060,28 @@ For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsS
 #### Examples
 
 
-* The case $E = H \mathbb{F}_p$ and $X = \mathbb{S}$
-gives the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
+##### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
 
-  (... [Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12) [Rognes 12](#Rognes12)... )
+
+the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
+
+([Bruner 09](#Bruner09))
+
+ also ([Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12) [Rognes 12](#Rognes12))
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]]))
 
-* The case $E = H \mathbb{F}_p$ and $X = M U$ is used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
+##### The case $E = H \mathbb{F}_p$ and $X = M U$ 
+
+used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
 
   (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
-* The case $E = M U$ and $X = \mathbb{S}$
-  converges faster than the classical choice $E = H \mathbb{F}_p$ to the [[stable homotopy groups of spheres]], this is the classical _[[Adams-Novikov spectral sequence]]_ (...)
+##### The case $E = M U$ and $X = \mathbb{S}$
+
+this is the classical _[[Adams-Novikov spectral sequence]]_ ,  converges faster than the classical choice $E = H \mathbb{F}_p$ to the [[stable homotopy groups of spheres]], (...)
 
 
 
@@ -8089,11 +8096,15 @@ For the discussion of [[ring spectra]] we pass to [[symmetric spectra]]. A compr
 
 For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
 
-For **2) Adams spectral sequence** we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
+In **2) Adams spectral sequence** for the general theory we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
 and we take some further clues from ([Adams 74, III.15](#Adams74)).
+
+For the special case of the classical Adams spectral sequence a comprehensive survey is in 
+
+* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
 For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
 
