@@ -1,21 +1,28 @@
 
 $$
   \array{
-    && {topological \atop spaces} 
+    && && ([n] \mapsto \Delta^n)
     \\
-    &&
+    \\
+    && && {topological \atop spaces} 
+    \\
+    && &&
      \downarrow^{\mathrlap{{higher \atop path}\atop groupoid}}
     & 
     \\
+      ([n] \mapsto \Delta[n])
+    &&
     groupoids 
       &\stackrel{{Grothendieck \atop nerve}}{\longrightarrow}& 
     { {\mathbf{Kan}\;\mathbf{complexes}} \atop {\simeq \infty-groupoids} }
       &\stackrel{{Dold-Kan \atop correspondence}}{\longleftarrow}&
     {chain \atop complexes}
+    &&
+    ([n] \mapsto N(\Delta[n]))
     \\
-    && \downarrow^{\mathrlap{included \atop in}}
+    && && \downarrow^{\mathrlap{included \atop in}}
     \\
-    && {simplicial \atop sets}
+    && && {simplicial \atop sets}
   }
 $$
 
