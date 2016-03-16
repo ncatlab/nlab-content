@@ -25,7 +25,7 @@
 
 ### General idea
 
-In [[type theory]], the paradigm of __propositions as types__ says that a [[propositions]] and [[types]] are essentially the same.  A proposition is identified with the type (collection) of all its [[proofs]], and a type is identified with the proposition that it has a [[term]] (so that each of its terms is in turn a proof of the corresponding proposition).  
+In [[type theory]], the paradigm of __propositions as types__ says that [[propositions]] and [[types]] are essentially the same.  A proposition is identified with the type (collection) of all its [[proofs]], and a type is identified with the proposition that it has a [[term]] (so that each of its terms is in turn a proof of the corresponding proposition).  
 
 > ... to show that a proposition is true in type theory corresponds to exhibiting an element $[$ [[term]] $]$ of the type corresponding to that proposition. We regard the elements of this type as _evidence_ or _witnesses_ that the proposition is true. (They are sometimes even called _proofs_... (from [[Homotopy Type Theory -- Univalent Foundations of Mathematics]], section 1.11)
 
