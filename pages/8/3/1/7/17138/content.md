@@ -3381,43 +3381,9 @@ Here $\delta$ is called the _[[connecting homomorphism]]_.
 We set up [[stable homotopy theory]].
  
 **Literature.** For a decent quick idea see ([Malkiewich 14](#Malkiewich14)).
-The original is still good: ([Adams 74, part III sections 2-7](#Adams74)),
-except where it considers the [[stable homotopy category]] in its incarnation
-as the [[Adams category]], better to consider the [[homotopy category]] of the
-[[Bousfield-Friedlander model structure]]. We go through this [below](#Spectra).
+For a little more details the original lecture ([Adams 74, part III sections 2-7](#Adams74)) is still recommendable (except where it considers the [[stable homotopy category]] in its incarnation as the [[Adams category]], better to consider the [[homotopy category]] of the [[Bousfield-Friedlander model structure]]; we go through this [below](#Spectra)). A genuine textbook account is ([Schwede 12](#Schwede12)).
 
-
-### Motivating theorems
-
-The 0th approximation to making [[Ho(Top)]] become more like an [[abelian category]] is passage to [[pointed topological spaces]], and [[pointed objects|pointed]] [[simplicial sets]]:
-
-every category of [[pointed objects]] has 
-
-1. a [[zero object]] (the point) and [[zero morphisms]] (those factoring through the point);
-
-1. a canonical non-Cartesian [[tensor product]], the _[[smash product]]_ $\wedge$.
-
-Given the base point, there is the [[loop space]]-construction $\Omega(-) \simeq [S^1,-]$ on that base point. It has a [[left adjoint]], the [[reduced suspension]] operation $\Sigma(-) \simeq S^1 \wedge (-)$.
-
-Motivation for stabilization under $(\Sigma \dashv \Omega)$:
-
-* [[Eckmann-Hilton argument]] (...[[May recognition theorem]])
-
-* [[Freudenthal suspension theorem]]
-
-* [[triangulated category]]-structure on [[Spanier-Whitehead category]]
-
-Further motivation which is the subject of the [seminar](#ComplexOrientedCohomology):
-
-* [[generalized cohomology]]
-
-  * [[suspension isomorphism]]
-
-  * [[Brown representability theorem]]
-
-* [[cobordism theory]]
-
-  [[Thom's theorem]]
+$\,$
 
 The [[stable homotopy category]] is to be the proper [[stabilization]] of the classical [[homotopy category]] [[Ho(Top)]] $\simeq$ [[Ho(sSet)]] under the operation of forming [[loop space objects]] $\Omega$ and [[reduced suspensions]] $\Sigma$: via forming [[suspension spectra]] $\Sigma^\infty$ every [[pointed object]] in the classical [[homotopy category]] maps to the stable homotopy category, and under this map the [[loop space]]- and [[reduced suspension]]-[[functors]] become inverse [[equivalence of categories|equivalences]] on the stable homotopy category.
 
@@ -3458,18 +3424,58 @@ There is a variety of different models for the [[stable homotopy theory]] of spe
 
 As one moves down this list, the objects modelling the spectra become richer. This means on the one hand that their abstract properties become better as one moves down the list, on the other hand it means that it is more immediate to construct and manipulate examples as one stays further up in the list. 
 
-We start with plain sequential spectra here as a transparent means to see the [[stable homotopy category]]. When we get to the discussion of [[ring spectra]] [below](#RingSpectra) with the basic applications in mind, it is convenient to pass to the richer model of [[symmetric spectra]].
+We start with plain sequential spectra [below](#SequentialSpectra) as a transparent means to see the [[stable homotopy category]]. When we get to the discussion of [[ring spectra]] [eventually](#RingSpectra) with the basic applications in mind, it is convenient to pass to the richer model of [[symmetric spectra]], [further below](#SymmetricSpectra).
+
+But first we now consider some facts in plain ("un-stable") [[algebraic topology]]/[[homotopy thepory]] that serve to motivate the passeage to [[stable homotopy theory]] in the first place.
+
+### Motivating theorems
+
+The 0th approximation to making [[Ho(Top)]] become more like an [[abelian category]] is passage to [[pointed topological spaces]], and [[pointed objects|pointed]] [[simplicial sets]]:
+
+every category of [[pointed objects]] has 
+
+1. a [[zero object]] (the point) and [[zero morphisms]] (those factoring through the point);
+
+1. a canonical non-Cartesian [[tensor product]], the _[[smash product]]_ $\wedge$.
+
+Given the base point, there is the [[loop space]]-construction $\Omega(-) \simeq [S^1,-]$ on that base point. It has a [[left adjoint]], the [[reduced suspension]] operation $\Sigma(-) \simeq S^1 \wedge (-)$.
+
+Motivation for stabilization under $(\Sigma \dashv \Omega)$:
+
+* [[Eckmann-Hilton argument]] (...[[May recognition theorem]])
+
+* [[Freudenthal suspension theorem]]
+
+* [[triangulated category]]-structure on [[Spanier-Whitehead category]]
+
+Further motivation which is the subject of the [seminar](#ComplexOrientedCohomology):
+
+* [[generalized cohomology]]
+
+  * [[suspension isomorphism]]
+
+  * [[Brown representability theorem]]
+
+* [[cobordism theory]]
+
+  [[Thom's theorem]]
+
 
 
 
 ### **1.1)** Sequential spectra
+ {#SequentialSpectra}
+
+The most lighweight model for [[spectra]] are _[[sequential spectra]]_. They support most of [[stable homotopy theory]] in a straightforward way, and have the advantage that examples tend to be immediate (for instance the proof of the [[Brown representability theorem]] spits out sequential spectra). 
+
+The key disadvantage of sequential spectra is that they do not support a functorial [[smash product of spectra]] before passing to the [[stable homotopy category]], much less a [[symmetric smash product of spectra]]. This is the structure needed for a decent discussion of the [[higher algebra]] of [[ring spectra]]. To accomodate this, further [below](#SymmetricSpectra) we enhance sequential spectra to the slightly richer model of [[symmetric spectra]]. But both these models are connected by a [[free-forgetful adjunction]] and for workinbg with either model it is useful to pass back and forth.
 
 #### Sequential pre-spectra
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
-A **[[sequential spectrum]]** (or sequential [[pre-spectrum]], form emphasis) in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
+A **[[sequential spectrum]]** (or sequential [[pre-spectrum]], for emphasis) in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
 
  A [[homomorphism]] $f \colon X \to Y$ of spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
 
@@ -3751,6 +3757,7 @@ A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 
 
 ### **1.2)** Symmetric spectra
+ {#SymmetricSpectra}
 
 **Literature.** ([Schwede 12](#Schwede12))
 
@@ -6165,8 +6172,13 @@ This gives $E_\bullet(X)$ the structure of a [[module]] over the [[Hopf algebroi
 
 $\,$
 
-**Literature** We follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in ([Aramian](#Aramian)). See also ([Adams 74, part III.15](#Adams74)).
 
+### **2.1)** Theory
+ {#TheoryforAdamsSpectralSequences}
+
+Here we set up the general theory of $E$-[[Adams spectral sequences]]. (We consider examples and applications further [below](#ExamplesOfAdamsSpectralSequences).)
+
+**Literature** We follow the perspective in ([Hopkins 99, section 5](#Hopkins99)) as worked out in ([Aramian](#Aramian)). We also use some input from ([Adams 74, part III.15](#Adams74)).
 
 
 
@@ -6714,7 +6726,7 @@ carefully by [[induction]]. This takes a bit of work, crucially using properties
 +-- {: .num_defn #EAdamsSpectralSequence}
 ###### Definition
 
-Given an $E$-Adams resolution, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower, def. \ref{EAdamsTower}, 
+Given [[spectra]] $X$ and $Y$, and given an $E$-Adams resolution of $X$, def. \ref{EAdamsResolution}, or equivalently (by prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions}) an $E$-Adams tower over $X$, def. \ref{EAdamsTower}, 
 
 $$
   \array{
@@ -6739,7 +6751,31 @@ $$
 $$
 
 
-then the corresponding **$E$-Adams spectral sequence** is the associated [[spectral sequence of a tower of fibrations]], example \ref{AdamsTypeSpectralSequenceOfATower}.
+then the corresponding **$E$-Adams spectral sequence** for the [[mapping spectrum]] $[Y,X]$ is the associated [[spectral sequence of a tower of fibrations]] of the image of that [[tower of fibrations]] under the [[mapping spectrum]] operation $[Y,-]$:
+
+$$
+  \array{
+    && \vdots
+    \\
+    && \downarrow^{\mathrlap{[Y,p_2]}}
+    \\
+    && [Y,X_2] &\stackrel{[Y,\kappa_2]}{\longrightarrow}& [Y,\Omega^2 I_3]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
+    \\
+    && X_1 &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
+    \\
+    &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
+    \\
+    [Y,X] 
+    &\underset{}{\longrightarrow}&
+    [Y,X_0] = [Y,I_0]
+    &\stackrel{[Y,\kappa_0]}{\longrightarrow}&
+    [Y,I_1]
+  }
+  \,.
+$$
+
 
 More in detail, the associated [[exact couple]] of the tower is
 
@@ -6759,40 +6795,47 @@ $$
   \mathcal{D} \coloneqq
   \oplus_{s,t} \mathcal{D}^{s,t}
   \coloneqq
-  \oplus_{s,t} \pi_{t-s}(X_s)
+  \oplus_{s,t} \pi_{t-s}([Y,X_s])
 $$
 
 $$
   \mathcal{E} \coloneqq 
   \oplus_{s,t} \mathcal{E}^{s+1,t}
   \coloneqq
-  \oplus_{s,t} \pi_{t-s}(\Omega^s I_{s+1})
+  \oplus_{s,t} \pi_{t-s}([Y,\Omega^s I_{s+1}])
 $$
 
 and
 
 $$
-  p \colon \pi_{t-s}(X_{s+1})\stackrel{\pi_{t-s}(p_s)}{\longrightarrow}
-   X_{t-s}(X_s)
+  p 
+    \colon 
+  \pi_{t-s}([Y,X_{s+1}])
+    \stackrel{\pi_{t-s}([Y,p_s])}{\longrightarrow}
+   X_{t-s}([Y,X_s])
 $$
 
 $$
-  \kappa \colon \pi_{t-s}(X_s)
-  \stackrel{\pi_{t-s}(\kappa_s)}{\longrightarrow} \pi_{t-s}(\Omega^s I_{s+1})
+  \kappa 
+    \colon 
+  \pi_{t-s}([Y,X_s])
+    \stackrel{\pi_{t-s}([Y,\kappa_s])}{\longrightarrow} 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
 $$
 
 $$
-  \partial \colon \pi_{t-s}(\Omega^s I_{s+1})
-  \stackrel{\pi_{t-s}(\partial_s)}{\longrightarrow}
-  \pi_{t-s}(\Sigma X_{s+1})
+  \partial 
+    \colon 
+  \pi_{t-s}([Y,\Omega^s I_{s+1}])
+    \stackrel{\pi_{t-s}([Y,\partial_s])}{\longrightarrow}
+  \pi_{t-s}([Y,\Sigma X_{s+1}])
   \,.
 $$
 
-The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this exact couple.
-
-More generally, for $Y$ any [[spectrum]] then the Adams spectral sequence for the [[mapping spectrum]] $[Y,X]$ is the [[spectral sequence of a tower of fibrations]] of the image under $[Y,-]$ of the given $E$-Adams tower.
+The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequence induced](exact+couple#SpectralSequencesFromExactCouples) by this [[exact couple]].
 
 =--
+
 
 +-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
 ###### Proposition
@@ -6802,55 +6845,69 @@ Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corre
 =--
 
 
-#### The $\mathcal{E}_1$-term and Hopf algebroids
+#### The first page and Hopf algebroids
 
 Due to prop. \ref{UniquenessOfEAdamsSpectralSequence}, 
 for understanding the $\mathcal{E}_2$-page of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, 
-it is sufficient to understand the $\mathcal{E}_1$-pahe 
+it is sufficient to understand the $\mathcal{E}_1$-page 
 of the $E$-Adams spectral sequence that is induced by the
 standard $E$-resolution of example \ref{StandardEResolution}.
-
-By construction, that page is of the simple form
+By construction, that page is 
 
 $$
   \mathcal{E}_1^{s,\bullet}
-  \simeq
-  \pi_\bullet(E^{\wedge (s+1)}\wedge X )
+    \simeq
+  \pi_\bullet(\;[Y,E^{\wedge (s+1)}\wedge X] \;)
 $$
 
-with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. Here we discuss how, under good conditions, these are the chain complexes that compute [[Ext]]-functors of [[comodules]] over a [[Hopf algebroid]] canonically induced by $E$.
+with the differentials being the image under $\pi_\bullet$ of the alternating sum of the morphisms that insert unit elements. 
 
-The condition needed for this is the following
+We discuss now how, under favorable conditions, these homotopy groups of mapping spectra of the form $[Y,E^{\wedge (s+1)}\wedge X]$ may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-homology of the $\mathcal{E}_1$-page is seen to compute the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. This re-formulation of the $\mathcal{E}_2$-page is the one that makes it be useful for computations.
+
+The first condition needed for this to work is the following.
 
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call the [[ring spectrum]] $E$ _flat_ if
+Call the [[commutative ring spectrum]] $E$ _flat_ if one, equivalently both, of the morphisms
 
 $$
-  \eta_L,\eta_R \colon E_\bullet \longrightarrow E_\bullet(E)
+  \eta_L \coloneqq \pi_\bullet(e \wedge id) 
+  \;\colon\; 
+  E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+$$
+  \eta_r 
+  \;\coloneqq\; 
+  \pi_\bullet(id \wedge e) \colon E_\bullet \longrightarrow E_\bullet(E)
 $$
 
 is a [[flat morphism]].
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ExamplesOfFlatRingSpectra}
 ###### Example
 
 Examples of ring spectra that are flat according to def. \ref{FlatE} include
+$E = $
 
-* $E = H \mathbb{F}_p$ an [[Eilenberg-MacLane spectrum]] with $mod\;p$ [[coefficients]];
+* [[sphere spectrum|S]], 
 
-* $E = B P$ the [[Brown-Peterson spectrum]];
+* [[HR]] for $R = \mathbb{F}_p$ a [[prime field]],
 
-* $E = MU$ the [[complex cobordism cohomology theory|complex cobordism spectrum]];
+* [[MO]], [[MU]], [[MSp]], 
 
-Examples of ring spectra that are _not_ flat include
+* [[KO]], [[KU]].
 
-* $E = H \mathbb{Z}$ the [[Eilenberg-MacLane spectrum]] for [[integers|integer]] [[coefficients]];
 
-* $E = M S U$.
+=--
+
++-- {: .num_example}
+###### Example
+
+Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
 
 =--
 
@@ -6888,7 +6945,7 @@ $$
 
 =--
 
-(e.g. [Schwede 12, prop. 6.20](#Schwede12))
+(e.g. [Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .proof}
 ###### Proof
@@ -6928,97 +6985,339 @@ $$
 
 =--
 
-+-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
-###### Corollary
++-- {: .num_defn #CommutativeHopfAlgebroid}
+###### Definition
 
-If $E$ is flat, def. \ref{FlatE}, then the the cosimplicial spectrum $E^{\wedge^\bullet}$ from example \ref{StandardEResolution} induces on [[stable homotopy groups]] a [[Hopf algebroid]]-structure on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$ via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}.
-
-=--
-
-
-
-+-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
-###### Proposition
-
-For $X$ a [[spectrum]], then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence} of the standard $E$-Adams resolution, example \ref{StandardEResolution}, has 
-entries $\pi_\bullet(E^{\wedge^\bullet}\wedge X)$. By  prop. \ref{FlatnessOfEImpliesKeyConsequence} this implies that the sequences of $d_1$-differentials are equivalently of the form
-
-$$
-  0 
-    \to 
-  E_\bullet(E) 
-    \to 
-  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
-    \to
-  E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet
-  \to 
-   \cdots
-$$
+A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
 
 =--
 
-Under suitable conditions this generalizes from a computation of homotopy groups of the $E$-localization of spectra $X$
++-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
+###### Remark
 
-$$
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet, E_\bullet(X))
-  \Rightarrow
-  \pi_\bullet(X^E)
-$$
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
 
-to computation of $E$-localization of mapping spectra into $X$, out of any $Y$
-
-$$
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
-  \Rightarrow
-  \pi_\bullet([Y,X]^E)
-  \,.
-$$
-
-+-- {: .num_prop #AdamsUCT}
-###### Proposition
-
-If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KU]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
-
-$$
- \pi_\bullet[X,F] 
-  \longrightarrow
-  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet F)_\bullet
-$$
-
-is an [[isomorphism]].
-
-=--
-
-This is one of the [[universal coefficient theorems]] of [[Frank Adams]] ([Adams 74, chapter III, prop. 13.5](#Adams74), [Schwede 12, chapter II, prop. 6.20](#Schwede12)).
-
-Now given the standard $E$-Adams tower for some $X$, then applying $[Y,-]$ yields another [[tower of homotopy fibers]] whose tower spectral sequence on page one has $[Y, E^{\wedge^{\bullet}}\wedge X]$. This sits in a commuting diagram of the form
+An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
 
 $$
   \array{
-    [X,E^{\wedge^{\bullet+1}}\wedge X]
-    &\longrightarrow&
-    Hom_{E_\bullet(E)}(
-      E_\bullet(X), 
-      E_\bullet(E^{\wedge^{\bullet+1}}\wedge X)
-    )
+    Spec(\Gamma) \underset{Spec(A)}{\times} Spec(\Gamma)
     \\
-    & \searrow & \downarrow^{\mathrlap{\simeq}}
+    \downarrow^{\mathrlap{\circ}}
     \\
-    && Hom_{\pi_\bullet(E)}(E_\bullet(X), E_\bullet(E^{\wedge^\bullet}\wedge X))
+    Spec(\Gamma)
+    \\
+    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    \\
+    Spec(A)
   }
   \,,
 $$
 
-where the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree Hopf co-module. (...)  
-Now if $E$ satisfies the condition of prop. \ref{AdamsUCT}, then the diagonal morphism is an iso, too, and hence so is the top morphism.
+(where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
 
+$$
+  inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
+$$
+
+acting as assigning [[inverses]] with respect to $\circ$.
+
+The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
+$$
+  Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
+  \simeq
+  Spec(R_1 \otimes_{R_3} R_2)
+  \,.
+$$
+
+This means that the above is equivalently a diagram in [[CRing]] of the form
+
+$$
+  \array{
+    \Gamma \underset{A}{\otimes} \Gamma
+    \\
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma 
+    \\
+    {}^{\mathllap{\eta_L}}\uparrow 
+    \downarrow^{\mathrlap{\epsilon}} \;
+    \uparrow^{\mathrlap{\eta_R}}
+    \\
+    A
+  }
+$$
+
+as well as
+
+$$
+  c \; \colon \; \Gamma \longrightarrow \Gamma
+$$
+
+and satisfying dual conditions. Here 
+
+* $\Psi$ is called the _[[comultiplication]]_;
+
+* $c$ is called the _[[antipode]]_.
+
+=--
+
++-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
+###### Remark
+
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they mayke $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the tensor product of bimodules that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative [[Hopf algebra]] $\Gamma$ over $A$.
+
+=--
+
+
+
++-- {: .num_prop #CoFreeComodules}
+###### Proposition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, there is a [[free-forgetful adjunction]]
+
+$$
+  \Gamma CoMod
+   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+  A Mod
+$$
+
+between the [[category]] of $\Gamma$-[[comodules]] and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
+
+The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
+
+=--
+
+Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
+
++-- {: .num_prop #HopfAlgebroidStructureOnDualEOperations}
+###### Proposition
+
+If $E$ is flat according to def. \ref{FlatE}, then,
+via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
+
+1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on $E_\bullet(E)$ over $\pi_\bullet(E)$ -- called the **dual $E$-[[Steenrod algebra]]**;
+
+1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over the dual $E$-[[Steenrod algebra]].
+
+=--
+
+(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
++-- {: .proof}
+###### Proof
+
+Via prop. \ref{FlatnessOfEImpliesKeyConsequence}, the image under $\pi_\bullet(-)$ of the cosimplicial spectrum $E^{\wedge^\bullet}(E)$ is identified as on the right of the following diagram
+
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge E) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \pi_\bullet(E \wedge E) &=& E_\bullet(E)
+    \\
+    {}^{\mathllap{\pi_\bullet(e \wedge id)}}\uparrow
+     \downarrow^{\mathrlap{\pi_\bullet(\mu)}}
+     \;\;\;\;\;\;
+     \uparrow^{\mathrlap{\pi_\bullet(id \wedge e)}}
+     &&
+     {}^{\mathllap{\eta_L}}\uparrow 
+     \downarrow^{\mathrlap{\epsilon}} 
+     \uparrow^{\mathrlap{\eta_R}}
+    \\
+    \pi_\bullet(E) &=& \pi_\bullet(E)
+  }
+  \,.
+$$
+
+Analogously the [[coaction]] is induced as on the right of the following diagram
+
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge X) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi_X}}
+    \\
+    \pi_\bullet(E \wedge X) &=& E_\bullet(X)
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the cases
+
+$E = $
+
+* [[HA|H]]$\mathbb{F}_p$,
+
+* ...
+
+=--
+
+The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited from maps of spectra under smashing with $E$:
+
++-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
+###### Example
+
+For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+$$
+
+factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+  \,.
+$$
+
+=--
+
+In order to put all this together, we need to invoke a [[universal coefficient theorem]] in the following form.
+
++-- {: .num_prop #AdamsUCT}
+###### Proposition
+
+If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
+the morphism of $\mathbb{Z}$-[[graded abelian groups]]
+
+$$
+ \pi_\bullet[Y,N] 
+   \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet N)_\bullet
+$$
+
+(from the [[stable homotopy group]] of the [[mapping spectrum]] to the [[hom-object|hom groups]] of $\pi_\bullet(E)$-[[modules]])
+
+is an [[isomorphism]].
+
+
+=--
+
+This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+
+With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
+
++-- {: .num_prop}
+###### Proposition
+
+If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} in the form
+
+$$
+ \pi_\bullet(E\wedge (-))
+   \;\colon\;
+ \pi_\bullet[Y, E\wedge N] 
+   \stackrel{}{\longrightarrow}
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
+$$
+
+is an [[isomorphism]].
+
+=-- 
 
 ([Adams 74, part III, page 323](#Adams74))
 
 
++-- {: .proof}
+###### Proof
+
+By the general formula for expressing [[adjuncts]], the morphism fits into the following [[commuting diagram]]
+
+$$
+  \array{
+    [Y, E \wedge N]
+      &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
+    Hom_{E_\bullet(E)}(
+      E_\bullet(Y), 
+      E_\bullet(E \wedge N)
+    )
+    \\
+    {}^{\mathllap{{\phi \mapsto} \atop {\mu \circ (id \wedge \phi)}}}
+      \downarrow^{\mathrlap{\simeq}}
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+      &\stackrel{\simeq}{\longleftarrow}& 
+    Hom_{E_\bullet(E)}(
+      E_\bullet(Y), 
+      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    )
+  }
+  \,,
+$$
+
+where 
+
+1. the right vertical map comes from the isomorphism of prop. \ref{FlatnessOfEImpliesKeyConsequence};
+
+1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
+
+1. the the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
+
+Therefore also the top morphism is an iso.
+
+=--
+
+In conclusion:
+
++-- {: .num_cor #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
+###### Corollary
+
+For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by of the standard $E$-Adams resolution for $X$, example \ref{StandardEResolution}, is of the form
+
+$$
+  0 
+    \to 
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(X))
+    \stackrel{d_1}{\longrightarrow}
+  Hom_{E_\bullet(E)}^\bullet(
+     E_\bullet(Y),
+     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+  )
+    \stackrel{d_1}{\longrightarrow}
+  Hom_{E_\bullet(E)}^\bullet(
+     E_\bullet(Y),
+     E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+   )
+    \stackrel{d_1}{\longrightarrow}
+   \cdots
+  \,.
+$$
+
+=--
 
 
-#### The $\mathcal{E}_2$-term and Ext-groups of Hopf comodules
+The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
+
+
+
+#### The second page and homological co-algebra
 
 +-- {: .num_prop}
 ###### Proposition
@@ -7049,7 +7348,7 @@ $$
 ###### Proof idea
 
 By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
-For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard bar complex resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
+For that case the $\mathcal{E}_1$ is given by corollary \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard [[bar complex]] resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
 
 =--
 
@@ -7057,29 +7356,32 @@ For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsS
 
 
 
-#### Examples
+### **2.2)** Examples
+ {#ExamplesOfAdamsSpectralSequences}
 
 
-##### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
+We here consider examples applying the general theory of $E$-[[Adams spectral sequences]] [above](#TheoryforAdamsSpectralSequences) in special cases to the concrete computation of certain stable homotopy groups. 
+
+#### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
 
 
 the classical [[Adams spectral sequence]] for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
 
 ([Bruner 09](#Bruner09))
 
- also ([Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12) [Rognes 12](#Rognes12))
+ also ([Hatcher 04](#Hatcher04), [Schwede 12, chapter II, section 10](#Schwede12), [Rognes 12](#Rognes12))
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]]))
 
-##### The case $E = H \mathbb{F}_p$ and $X = M U$ 
+#### The case $E = H \mathbb{F}_p$ and $X = M U$ 
 
 used to compute the [[stable homotopy groups]] of the complex [[Thom spectrum]] $M U$ (hence, by [[Thom's theorem]], equivalently the complex [[cobordism ring]] $\Omega_\bullet^U \simeq \pi_\bulletU)$) from the [[homology of MU]]. This is the _[[Milnor-Quillen theorem on MU]]_, see [here](#QuillenTheoremOnMU).
 
   (...) [Adams 74, part II, around section 8 ](#Adams74), [Lurie 10, around lecture 9](Lurie10) (...)
 
-##### The case $E = M U$ and $X = \mathbb{S}$
+#### The case $E = M U$ and $X = \mathbb{S}$
 
 this is the classical _[[Adams-Novikov spectral sequence]]_ ,  converges faster than the classical choice $E = H \mathbb{F}_p$ to the [[stable homotopy groups of spheres]], (...)
 
@@ -7213,6 +7515,568 @@ In applications and modern theory, it is mostly the spectra that matter, and hen
 There is a slight refinement of the concept of generalized homology functors to that of "[[excisive ∞-functors]]". These are fully equivalent to spectra.
 
 **Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
+
+$\,$
+
+The [classical formulation](#ClassicalFormulation) of Brown representability is only superficially concerned with [[topological spaces]]. Instead, via the [[classical model structure on topological spaces]], one finds that the statement only concerns the [[simplicial localization]] of [[Top]] at the [[weak homotopy equivalences]], hence the [[(∞,1)-category]] $L_{whe} Top\simeq $ [[∞Grpd]].
+
+We discuss now the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of (∞,1)-categories]] following ([Lurie, section 1.4.1](#LurieHigherAlgebra)). See also the exposition in ([Mathew 11](Brown+representability+theorem#Mathew11)).
+
++-- {: .num_defn #BrownFunctorOnInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]]. A [[functor]]
+
+$$
+  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
+$$
+
+(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+
+is called a **[[Brown functor]]** if 
+
+1. it sends small [[coproducts]] to [[products]];
+
+1. it sends [[(∞,1)-pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+A _[[weak pullback]]_ is a diagram that satisfies the existence clause of a [[pullback]], but not necessarily the uniqueness condition. Hence the second clause in def. \ref{BrownFunctorOnInfinityCategory} says that for a [[(∞,1)-pushout]] square 
+
+$$
+  \array{
+    Z &\longrightarrow& X
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    Y &\longrightarrow& X \underset{Z}{\sqcup}Y 
+  }
+$$
+
+in $\mathcal{C}$, then the induced universal morphism
+
+
+$$
+  F\left(X \underset{Z}{\sqcup}Y\right)
+  \stackrel{epi}{\longrightarrow}
+  F(X) \underset{F(Z)}{\times} F(Y)
+$$
+
+into the actual [[pullback]] is an [[epimorphism]].
+
+=--
+
++-- {: .num_defn #CompactGenerationByCogroupObjects}
+###### Definition
+
+Say that  a [[locally presentable (∞,1)-category]] $\mathcal{C}$
+is **compactly generated by cogroup objects closed under suspensions** if
+
+
+1. $\mathcal{C}$ is [[compactly generated (∞,1)-category|generated]] by a set
+
+   $$
+    \{S_i \in \mathcal{C}\}_{i \in I}
+   $$
+
+   of [[compact object in an (infinity,1)-category|compact objects]] (i.e. every object of $\mathcal{C}$ is an [[(∞,1)-colimit]] of the objects $S_i$.)
+
+1. each $S_i$ admits the structure of a [[cogroup]] object in the [[homotopy category of an (infinity,1)-category|homotopy category]] $Ho(\mathcal{C})$;
+
+1. the set $\{S_i\}$ is closed under forming [[reduced suspensions]].
+
+=--
+
++-- {: .num_example #SuspensionsAreHCogroupObjects}
+###### Example
+**([[suspensions are H-cogroup objects]])**
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with a [[zero object]]. Write $\Sigma \colon X \mapsto 0 \underset{X}{\coprod} 0$ for the [[reduced suspension]] functor.
+
+Then the [[fold map]]
+
+$$
+  \Sigma X \coprod \Sigma X
+    \simeq
+  0 \underset{X}{\sqcup} 0 \underset{X}{\sqcup} 0
+    \longrightarrow
+  0 \underset{X}{\sqcup} X \underset{X}{\sqcup} 0
+  \simeq
+  0 \underset{X}{\sqcup} 0
+  \simeq
+  \Sigma X
+$$
+
+exhibits [[cogroup]] structure on the image of any [[suspension object]] $\Sigma X$ in the [[homotopy category of an (∞,1)-category|homotopy category]].
+
+This is equivalently the [[group]]-structure of the first ([[fundamental group|fundamental]]) [[homotopy group]] of the values of [[representable functor|functor co-represented]] by $\Sigma X$:
+
+$$
+  Ho(\mathcal{C})(\Sigma X, -)
+   \;\colon\;
+  Y 
+   \mapsto
+  Ho(\mathcal{C})(\Sigma X, Y)
+   \simeq
+  Ho(\mathcal{C})(X, \Omega Y)
+   \simeq
+  \pi_1 Ho(\mathcal{C})(X, Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem}
+###### Example
+
+In bare [[pointed homotopy types]] $\mathcal{C} = $[[∞Grpd]]${}^{\ast/}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. And of course they are [[compact object in an (∞,1)-category|compact objects]]. 
+
+So while $\{S^n\}_{n \in \mathbb{N}}$ generates all of $\infty Grpd^{\ast/}$, the latter is _not_ an example of def. \ref{CompactGenerationByCogroupObjects} due to the failure of $S^0$ to have [[cogroup]] structure.
+
+Removing that generator, the $(\infty,1)$-category generated by $\{S^n\}_{{n \in \mathbb{N}} \atop {n \geq 1}}$ is $\infty Grpd^{\ast/}_{\geq 1}$, that of _[[connected object|connected]]_ [[pointed homotopy types]]. This is one way to see how the connectedness condition in the classical version of Brown representability theorem arises.
+
+=--
+
+See also ([Lurie, example 1.4.1.4](#LurieHigherAlgebra))
+
+In $\infty$-categories compactly generated by cogroup objects closed under forming suspensions, the following strenghtening of the [[Whitehead theorem]] holds.
+
++-- {: .num_prop #WhiteheadTheoremForCompactGenerationByCogroupObjects}
+###### Proposition
+
+In an $(\infty,1)$-category compactly generated by cogroup objects $\{S_i\}_{i \in I}$ closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}, a morphism $f\colon X \longrightarrow Y$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for each $i \in I$ the induced function of maps in the [[homotopy category of an (infinity,1)-category|homotopy category]]
+
+$$
+  Ho(\mathcal{C})(S_i,F)
+  \;\colon\;
+  Ho(\mathcal{C})(S_i,X)
+   \longrightarrow
+  Ho(\mathcal{C})(S_i,Y)
+$$
+
+is an [[isomorphism]] (a [[bijection]]).
+
+=--
+
+([Lurie, p. 114, Lemma star](#LurieHigherAlgebra))
+
++-- {: .proof }
+###### Proof
+
+By the [[(∞,1)-Yoneda lemma]], the morphism $f$ is an [[equivalence in an (∞,1)-category|equivalence]] precisely if for all objects $A \in \mathcal{C}$  the induced morphism 
+
+$$
+  \mathcal{C}(A,f)
+  \;\colon\;
+  \mathcal{C}(A,X)
+   \longrightarrow
+  \mathcal{C}(A,Y)
+$$
+
+is an equivalence in [[∞Grpd]]. By assumption of compact generation and since the hom-functor $\mathcal{C}(-,-)$ sends $\infty$-colimits in the first argument to $\infty$-limits, this is the case precisely already if it is the case for $A \in \{S_i\}_{i \in I}$.
+
+Now by the standard [[Whitehead theorem]] in [[∞Grpd]] (being a [[hypercomplete (∞,1)-topos]]), the morphisms
+
+$$
+  \mathcal{C}(S_i,f)
+  \;\colon\;
+  \mathcal{C}(S_i,X)
+   \longrightarrow
+  \mathcal{C}(S_i,Y)
+$$
+
+in [[∞Grpd]] are  [[equivalence in an (∞,1)-category|equivalences]] precisely if they are [[weak homotopy equivalences]], hence precisely if they induce [[isomorphisms]] on all [[homotopy group]] $\pi_n$ for **all basepoints**.
+
+It is this last condition of testing on all basepoints that the assumed [[cogroup]] structure on the $S_i$ allows to do away with: this cogroup structure implies that $\mathcal{C}(S_i,-)$ has the structure of an $H$-group, and this implies (by group multiplication), that all [[connected components]] have the same homotopy groups, hence that all homotopy groups are independent of the choice of basepoint, up to isomorphism.
+
+Therefore the above morphisms are equivalences precisely if they are so under applying $\pi_n$ based on the connected component of the [[zero morphism]]
+
+$$
+  \pi_n\mathcal{C}(S_i,f)
+    \;\colon\;
+  \pi_n \mathcal{C}(S_i,X)
+     \longrightarrow
+  \pi_n\mathcal{C}(S_i,Y)
+  \,.
+$$
+
+Now in this pointed situation we may use that 
+
+$$
+  \begin{aligned}
+    \pi_n \mathcal{C}(-,-) & \simeq \pi_0 \mathcal{C}(-,\Omega^n(-)) 
+    \\
+    & \simeq \pi_0\mathcal{C}(\Sigma^n(-),-)
+    \\
+    & \simeq Ho(\mathcal{C})(\Sigma^n(-),-)
+  \end{aligned}
+$$
+
+to find that $f$ is an equivalence in $\mathcal{C}$ precisely if the induced morphisms
+
+$$
+  Ho(\mathcal{C})(\Sigma^n S_i, f)
+    \;\colon\;
+  Ho(\mathcal{C})(\Sigma^n S_i,X)
+    \longrightarrow
+  Ho(\mathcal{C})(\Sigma^n S_i,Y)
+$$
+
+are isomorphisms for all $i \in I$ and $n \in \mathbb{N}$.
+
+Finally by the assumption that each suspension $\Sigma^n S_i$ of a generator is itself among the set of generators, the claim follows.
+
+=--
+
++-- {: .num_theorem #BrownRepresentabilityOnPresentableInfinityCategories}
+###### Theorem
+**(Brown representability)**
+
+Let $\mathcal{C}$ be an $(\infty,1)$-category compactly generated by cogroup objects closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}. Then a [[functor]]
+
+$$
+  F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
+$$
+
+(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+is [[representable functor|representable]] precisely if it is a [[Brown functor]], def. \ref{BrownFunctorOnInfinityCategory}.
+
+=--
+
+([Lurie, theorem 1.4.1.2](#LurieHigherAlgebra))
+
++-- {: .proof #ProofFollowingLurie}
+###### Proof
+
+
+Due to the version of the Whitehead theorem of prop. \ref{WhiteheadTheoremForCompactGenerationByCogroupObjects} we are essentially reduced to showing that [[Brown functors]] $F$ are representable on the $S_i$. To that end consider the following lemma.
+(In the following we notationally identify, via the [[Yoneda lemma]], objects of $\mathcal{C}$, hence of $Ho(\mathcal{C})$, with the functors they [[representable functor|represent]].)
+
+Lemma ($\star$): _Given $X \in \mathcal{C}$ and $\eta \in F(X)$, hence $\eta \colon X \to F$, then there exists a morphism $f \colon X \to X'$ and an [[extension]] $\eta' \colon X' \to F$ of $\eta$ which induces for each $S_i$ a [[bijection]] $\eta'\circ (-) \colon Ho(\mathcal{C})(S_i,X') \stackrel{\simeq}{\longrightarrow} Ho(\mathcal{C})(S_i,F) \simeq F(S_i)$._
+
+To see this, first notice that we may directly find an extension $\eta_0$ along a map $X\to X_o$ such as to make a [[surjection]]: simply take $X_0$ to be the [[coproduct]] of **all** possible elements in the codomain and take
+
+$$
+  \eta_0
+  \;\colon\;
+   X 
+     \sqcup
+   \left(
+     \underset{{i \in I,} \atop {\gamma \colon S_i \stackrel{}{\to} F}}{\coprod} 
+     S_i
+   \right)
+   \longrightarrow
+   F
+$$
+
+to be the canonical map. (Using that $F$, by assumption, turns coproducts into products, we may indeed treat the coproduct in $\mathcal{C}$ on the left as the coproduct of the corresponding functors.)
+
+To turn the surjection thus constructed into a bijection, we now successively form quotients of $X_0$. To that end proceed by [[induction]] and suppose that $\eta_n \colon X_n \to F$ has been constructed. Then for $i \in I$ let
+
+$$
+  K_i 
+    \coloneqq 
+  ker
+  \left( 
+     Ho(\mathcal{C})(S_i, X_n) 
+        \stackrel{\eta_n \circ (-)}{\longrightarrow} 
+     F(S_i) 
+   \right)
+$$
+
+be the [[kernel]] of  $\eta_n$ evaluated on $S_i$. These $K_i$ are the pieces that need to go away in order to make a bijection. Hence define $X_{n+1}$ to be their joint [[homotopy cofiber]]
+
+$$
+  X_{n+1} 
+     \coloneqq 
+   coker\left(
+     \left(
+        \underset{{i \in I,} \atop {\gamma \in K_i}}{\sqcup} S_i
+     \right)
+     \longrightarrow
+     X_n
+  \right)
+  \,.
+$$
+
+Then by the assumption that $F$ takes this homotopy kernel to a weak fiber, there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$. 
+
+It is now clear that we want to take
+
+$$
+  X' \coloneqq \underset{\rightarrow}{\lim}_n X_n
+$$
+
+and extend all the $\eta_n$ to that colimit. Since we have no condition for evaluating $F$ on colimits other than pushouts, observe that this [[sequential colimit]] is equivalent to the following pushout:
+
+$$
+  \array{
+    \underset{n}{\sqcup} X_n
+    &\longrightarrow& \underset{n}{\sqcup} X_{2n}
+    \\
+    \downarrow && \downarrow
+    \\
+    \underset{n}{\sqcup} X_{2n+1} &\longrightarrow& X'
+  }
+  \,,
+$$
+
+where the components of the top and left map alternate between the identity on $X_n$ and the above successor maps $X_n \to X_{n+1}$.
+Now the excision property of $F$ applies to this pushout, and we conclude the desired  extension $\eta' \colon X' \to F$.
+
+It remains to confirm that this indeed  gives the desired bijection. Surjectivity is clear. For injectivity use that all the $S_i$ are, by assumption, [[compact object|compact]], hence they may be taken inside the [[sequential colimit]].With this, injectivity follows because by construction we quotiented out the kernel at each stage.
+
+This concludes the proof of Lemma ($\star$).
+
+Now apply the construction given by this lemma to the case 
+$X_0 \coloneqq 0$ and the unique $\eta_0 \colon 0 \stackrel{\exists !}{\to} F$. Lemma $(\star)$ then produces an object $X'$ which represents $F$ on all the $S_i$, and we want to show that this $X'$ actually represents $F$ generally, hence that for every $Y \in \mathcal{C}$ the function
+
+$$
+  \theta \coloneqq \eta'\circ (-)
+  \;\colon\;
+  Ho(\mathcal{C})(Y,X')
+   \stackrel{}{\longrightarrow}
+  F(Y)
+$$
+
+is a [[bijection]].
+
+First, to see that $\theta$ is surjective, we need to find a preimage of any $\rho \colon Y \to F$. Applying Lemma $(\star)$ to $(\eta',\rho)\colon X'\sqcup Y \longrightarrow F$ we get an extension $\kappa$ of this through some $X' \sqcup Y \longrightarrow Z$ and the morphism on the right of the following commuting diagram:
+
+$$
+  \array{
+    Ho(\mathcal{C})(-,X') && \longrightarrow && Ho(\mathcal{C})(-, Z)
+    \\
+    & {}_{\mathllap{\eta'\circ(-)}}\searrow && \swarrow_{\mathrlap{\kappa \circ (-)}}
+    \\
+    && F(-)
+  }
+  \,.
+$$
+
+Moreover, Lemma $(\star)$ gives that evaluated on all $S_i$, the two diagonal morphisms here become isomorphisms. But then prop. \ref{WhiteheadTheoremForCompactGenerationByCogroupObjects} implies that $X' \longrightarrow Z$ is in fact an equivalence. Hence the component map $Y \to Z \simeq Z$ is a lift of $\kappa$ through $\theta$.
+
+Second, to see that $\theta$ is injective, suppose $f,g \colon Y \to X'$ have the same image under $\theta$. Then consider their [[homotopy pushout]]
+
+$$
+  \array{
+    Y \sqcup Y &\stackrel{(f,g)}{\longrightarrow}& X'
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\longrightarrow& Z
+  }
+$$
+ 
+along the [[codiagonal]] of $Y$. Using that $F$ sends this to a [[weak pullback]] by assumption, we obtain an extension $\bar \eta$ of $\eta'$ along $X' \to Z$. Applying Lemma $(\star)$ to this gives a further extension $\bar \eta' \colon Z' \to Z$ which now makes the following diagram
+
+$$
+  \array{
+    Ho(\mathcal{C})(-,X') && \longrightarrow && Ho(\mathcal{C})(-, Z)
+    \\
+    & {}_{\mathllap{\eta'\circ(-)}}\searrow && \swarrow_{\mathrlap{\bar \eta' \circ (-)}}
+    \\
+    && F(-)
+  }
+$$
+
+such that the diagonal maps become isomorphisms when evaluated on the $S_i$. As before, it follows via prop. \ref{WhiteheadTheoremForCompactGenerationByCogroupObjects} that the morphism
+$h \colon X' \longrightarrow Z'$ is an equivalence.
+
+Since by this construction $h\circ f$ and $h\circ g$ are homotopic
+
+$$
+  \array{
+    Y \sqcup Y &\stackrel{(f,g)}{\longrightarrow}& X'
+    \\
+    \downarrow && \downarrow & \searrow^{\mathrlap{\stackrel{h}{\simeq}}}
+    \\
+    Y &\longrightarrow& Z &\longrightarrow& Z'
+  }
+$$
+
+it follows with $h$ being an equivalence that already $f$ and $g$ were homotopic, hence that they represented the same element.
+
+
+=--
+
+
+
+
++-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[(∞,1)-pushouts]], and with a [[zero object]] $0 \in \mathcal{C}$. Write $\Sigma \colon \mathcal{C} \to \mathcal{C}\colon X\mapsto 0 \underset{X}{\sqcup} 0$ for the corresponding [[suspension]] [[(∞,1)-functor]].
+
+A **reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathcal{C}$ is 
+
+1. a [[functor]]
+
+   $$
+     H^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
+   $$
+
+
+   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy categiry]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
+
+1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
+
+   $$
+     \delta \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
+   $$
+
+such that $H^\bullet$
+
+1. takes small [[coproducts]] to [[products]];
+
+1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
+
+=--
+
++-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
+###### Definition
+
+Given a generalized cohomology theory $(H^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+
+$$
+  X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
+  \stackrel{coker(g)}{\longrightarrow}
+  \Sigma X
+  \,,
+$$
+
+then the corresponding **[[connecting homomorphism]]** is the composite
+
+$$
+  \partial 
+    \;\colon\; 
+  H^\bullet(X)
+   \stackrel{\delta}{\longrightarrow}
+  H^{\bullet+1}(\Sigma X)
+   \stackrel{coker(g)^\ast}{\longrightarrow}
+  H^{\bullet+1}(Z)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
+###### Proposition
+
+The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
+
+$$
+  \cdots
+   \stackrel{\partial}{\longrightarrow}
+  H^{\bullet}(Z) \longrightarrow H^\bullet(Y) \longrightarrow H^\bullet(X)
+  \stackrel{\partial}{\longrightarrow}
+  H^{\bullet+1}(Z)
+   \to \cdots
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the defining exactness of $H^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
+
+=--
+
++-- {: .num_prop #CohomologyFunctorOnInfinityCategoryIsBrownFunctor}
+###### Proposition
+
+Given a generalized cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first condition on a [[Brown functor]] holds by definition of $H^\bullet$. For the second condition, given a homotopy pushout square
+
+
+$$
+  \array{
+    X_1 &\stackrel{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{} && \downarrow
+    \\
+    X_2 &\stackrel{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+in $\mathcal{C}$, consider the induced morphism of the [[long exact sequences]] given by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
+
+$$
+  \array{
+    H^\bullet(coker(f_2))
+      &\longrightarrow&
+    H^\bullet(Y_2) 
+      &\stackrel{f^\ast_2}{\longrightarrow}& 
+    H^\bullet(X_2)
+      &\stackrel{}{\longrightarrow}&
+    H^{\bullet+1}(\Sigma coker(f_2))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow && \downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    H^\bullet(coker(f_1))
+      &\longrightarrow&
+    H^\bullet(Y_1) 
+      &\stackrel{f^\ast_1}{\longrightarrow}& 
+    H^\bullet(X_1)
+      &\stackrel{}{\longrightarrow}&
+    H^{\bullet+1}(\Sigma coker(f_1))
+  }
+$$
+
+Here the outer vertical morphisms are [[isomorphisms]], as shown, due to the [[pasting law]] (see also at _[fiberwise recognition of stable homotopy pushouts](homotopy+pullback#FiberwiseRecognitionInStableCase)_). 
+This means that the [[four lemma]] applies to this diagram. Inspection shows that this implies the claim.
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+Let $\mathcal{C}$be an [[(∞,1)-category]] which satisfies the conditions of theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories}, and let $(H^\bullet, \delta)$ be a [[generalized cohomology]] functor on $\mathcal{C}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}. Then there exists a  [[spectrum object]] $E \in Stab(\mathcal{C})$ such that 
+
+1. $H\bullet$ is degreewise [[representable functor|represented]] by $E$:
+
+   $$
+     H^\bullet \simeq Ho(\mathcal{C})(-,E_\bullet)
+     \,,
+   $$
+
+1. the [[suspension isomorphism]] $\delta$ is given by the structure morphisms $\tilde \sigma_n \colon E_n \to \Omega E_{n+1}$ of the spectrum, in that
+
+   $$
+     \delta 
+       \colon
+     H^n(-)
+      \simeq
+     Ho(\mathcal{C})(-,E_n)
+      \stackrel{Ho(\mathcal{C})(-,\tilde\sigma_n) }{\longrightarrow}
+     Ho(\mathcal{C})(-,\Omega E_{n+1})
+       \simeq
+     Ho(\mathcal{C})(\Sigma (-), E_{n+1})
+       \simeq
+     H^{n+1}(\Sigma(-))
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories} gives the first clause. With this, the second clause follows by the [[(∞,1)-Yoneda lemma]] (in fact just with the [[Yoneda lemma]]).
+
+=--
 
 
 #### Milnor exact sequence
@@ -8152,9 +9016,13 @@ a useful survey is in
 
 * {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
 
-and a wealth of details is in
+a wealth of details is in
 
 * {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+and new foundations have been laid in
+
+* {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
 
 Further useful lecture notes pointed to above include the following:
 
