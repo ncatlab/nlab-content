@@ -142,7 +142,6 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 * [[Kathryn Hess]], [[Brooke Shipley]], _The homotopy theory of coalgebras over a comonad_ ([arXiv:1205.3979](http://arxiv.org/abs/1205.3979))
 
 
-[[!redirects coalgebra]]
 [[!redirects coalgebras]]
 
 [[!redirects coassociative coalgebra]]
@@ -150,3 +149,9 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 [[!redirects cocommutative coalgebra]]
 [[!redirects cocommutative coalgebras]]
+
+[[!redirects co-algebra]]
+[[!redirects co-algebras]]
+
+[[!redirects comultiplication]]
+[[!redirects co-multiplication]]
