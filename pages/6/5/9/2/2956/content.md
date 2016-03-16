@@ -1,4 +1,3 @@
-
 #Contents#
 * table of contents
 {:toc}
@@ -40,3 +39,5 @@ See also
 * [[Jacob Lurie]], section 5.1.2 _[[Higher Algebra]]_
 
 * {#Batanin15} [[Michael Batanin]], _An operadic proof of Baez-Dolan stabilization hypothesis_ ([arXiv:1511.09130](http://arxiv.org/abs/1511.09130))
+
+[[!redirects stabilisation hypothesis]]
