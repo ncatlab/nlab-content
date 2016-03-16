@@ -358,7 +358,7 @@ $$
 
 =--
 
-This was highlighted as ([MMSS 00, prop. 22.1](#MMSS00)).
+This was highlighted as ([MMSS 00, prop. 22.1](#MMSS00)); but as mentioned [here](http://mathoverflow.net/a/130619/49) it was stated already in Day's thesis.
 
 +-- {: .proof}
 ###### Proof
