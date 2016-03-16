@@ -253,7 +253,7 @@ gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral
 ### The $E$-Adams spectral sequence
  {#ViaInjectiveResolutions}
 
-We here discuss Adams spectral sequences for computation of $E$-[[Bosufield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for by $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
+We here discuss Adams spectral sequences for computation of $E$-[[Bousfield localization of spectra|localization]] of [[mapping spectra]] $[Y,X]$ for by $E$ a general [[commutative ring spectrum]] which is flat in a certain sense (def. \ref{FlatE} below).
 
 The classical Adams spectral sequence is the special case with $Y = X = \mathbb{S}$ and $E = $ [[HA|A]]$\mathbb{F}_p$, discussed [below](#ClassicalCase).
 
@@ -970,10 +970,10 @@ is a [[flat morphism]].
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #ExamplesOfFlatRingSpectra}
 ###### Example
 
-Examples of ring spectra that are flat according to def. \ref{FlatE} include
+Examples of [[commutative ring spectra]] that are flat according to def. \ref{FlatE} include
 $E = $
 
 * [[sphere spectrum|S]], 
@@ -1367,11 +1367,12 @@ Therefore also the top morphism is an iso.
 
 =--
 
+In conclusion:
+
 +-- {: .num_cor #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
 ###### Corollary
 
-For $X$ a [[spectrum]], and under the above assumptions (...) then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence} of the standard $E$-Adams resolution, example \ref{StandardEResolution}, has 
-entries 
+For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by of the standard $E$-Adams resolution for $X$, example \ref{StandardEResolution}, is of the form
 
 $$
   0 
@@ -1389,6 +1390,7 @@ $$
    )
     \stackrel{d_1}{\longrightarrow}
    \cdots
+  \,.
 $$
 
 =--
@@ -1427,7 +1429,7 @@ $$
 ###### Proof idea
 
 By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
-For that case the $\mathcal{E}_1$ is given by prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard bar complex resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
+For that case the $\mathcal{E}_1$ is given by corollary \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}. It remains to see that the sequences of differentials $d_1$ on this page constitute the standard bar complex resolution for computation of Hopf co-module [[Ext]]-[[derived functors]]. (...)
 
 =--
 
