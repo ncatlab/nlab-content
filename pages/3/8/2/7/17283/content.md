@@ -1,0 +1,485 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _commutative Hopf algebroid_ is a [[Hopf algebroid]] where all multiplication operations (as opposed to the [[comultiplication]] operation) is required to be commutative. This concept is the [[formal dual]] to [[internal groupoids]] in the [[opposite category]] of [[CRing]].
+
+A commutative Hopf algebroid is in particular a _[[Hopf algebroid over a commutative base]]_, but the latter may be more general.
+
+Commutative Hopf algebroids appear prominently in [[stable homotopy theory]]/[[higher algebra]] as the [[dual Steenrod algebras]] of certain classes of [[multiplicative cohomology theory|multiplicative]] [[generalized homology theories]] $E$. As such they play a key role in the $E$-[[Adams spectral sequence]].
+
+## Definition
+
++-- {: .num_defn #CommutativeHopfAlgebroid}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+
+=--
+
++-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
+###### Remark
+
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
+
+An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
+
+$$
+  \array{
+    Spec(\Gamma) \underset{Spec(A)}{\times} Spec(\Gamma)
+    \\
+    \downarrow^{\mathrlap{\circ}}
+    \\
+    Spec(\Gamma)
+    \\
+    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    \\
+    Spec(A)
+  }
+  \,,
+$$
+
+(where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
+
+$$
+  inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
+$$
+
+acting as assigning [[inverses]] with respect to $\circ$.
+
+The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
+$$
+  Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
+  \simeq
+  Spec(R_1 \otimes_{R_3} R_2)
+  \,.
+$$
+
+This means that the above is equivalently a diagram in [[CRing]] of the form
+
+$$
+  \array{
+    \Gamma \underset{A}{\otimes} \Gamma
+    \\
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma 
+    \\
+    {}^{\mathllap{\eta_L}}\uparrow 
+    \downarrow^{\mathrlap{\epsilon}} \;
+    \uparrow^{\mathrlap{\eta_R}}
+    \\
+    A
+  }
+$$
+
+as well as
+
+$$
+  c \; \colon \; \Gamma \longrightarrow \Gamma
+$$
+
+and satisfying dual conditions. Here 
+
+* $\Psi$ is called the _[[comultiplication]]_;
+
+* $c$ is called the _[[antipode]]_.
+
+=--
+
++-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
+###### Remark
+
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they mayke $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the tensor product of bimodules that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative [[Hopf algebra]] $\Gamma$ over $A$.
+
+=--
+
+## Properties
+
+### Comodules
+
++-- {: .num_prop #CoFreeComodules}
+###### Proposition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, there is a [[free-forgetful adjunction]]
+
+$$
+  \Gamma CoMod
+   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+  A Mod
+$$
+
+between the [[category]] of $\Gamma$-[[comodules]] and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
+
+The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
+
+=--
+
+
+
+## Examples
+
+### From ring spectra
+
+The [[cosimplicial object|cosimplicial]] spectra of certain [[commutative ring spectra]] $E$ (their [[Amitsur complexes]]) yield commutative Hopf algebroids when truncated. The Hopf algebroids appearing this way govern the corresponding $E$-[[Adams spectral sequences]].
+
++-- {: .num_defn #FlatE}
+###### Definition
+
+Call a [[commutative ring spectrum]] $E$ _flat_ if one, equivalently both, of the morphisms
+
+$$
+  \eta_L \coloneqq \pi_\bullet(e \wedge id) 
+  \;\colon\; 
+  E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+$$
+  \eta_r 
+  \;\coloneqq\; 
+  \pi_\bullet(id \wedge e) \colon E_\bullet \longrightarrow E_\bullet(E)
+$$
+
+is a [[flat morphism]].
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Examples of ring spectra that are flat according to def. \ref{FlatE} include
+$E = $
+
+* [[sphere spectrum|S]], 
+
+* [[HR]] for $R = \mathbb{F}_p$ a [[prime field]],
+
+* [[MO]], [[MU]], [[MSp]], 
+
+* [[KO]], [[KU]].
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
+
+=--
+
+
+The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
+
++-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
+###### Proposition
+
+If $E$ is flat, def. \ref{FlatE}, then for all spectra $X$ there is a [[natural isomorphisms]]
+
+$$
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+    \stackrel{}{\longrightarrow}
+  \pi_\bullet(E \wedge E \wedge X)
+$$
+
+and hence for all $n \in \mathbb{N}$ there are isomorphisms
+
+$$
+  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
+    \simeq
+  \underset{n+1\,factors}{
+  \underbrace{E_\bullet(E)
+    \otimes_{\pi_\bullet(E)}
+    \cdots
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(E)
+  }}
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+  \,.
+$$
+
+
+=--
+
+(e.g. [Adams 96, part III, lemma 12.5](#Adams96), [Schwede 12, prop. 6.20](#Schwede12))
+
++-- {: .proof}
+###### Proof
+
+The desired natural homomorphism
+
+$$
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(E \wedge E \wedge X)
+$$
+
+is given on $[\alpha] \in \pi_\bullet(E \wedge E)$ and $[\beta] \in \pi_\bullet(E \wedge X)$ by $([\alpha, \beta])\mapsto [(id \wedge \mu \wedge id) \circ (\alpha \wedge \beta)]$.
+
+To see that this is an isomorphism, observe that by flatness of $E$, the assignment $X \mapsto E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(-)$ is a [[generalized homology]] functor, hence [[Brown representability theorem|represented]] by some spectrum. The above morphism, natural in $X$, thus constitutes a homomorphism  of generalized homology theories, and so for these to be equivalent it is sufficient to check that they induce isomorphisms on the point. This is manifestly the case.
+
+Finally we get the claimed isomorphisms for all $n$ by [[induction]]:
+
+$$
+  \begin{aligned}
+    \pi_\bullet(E^{\wedge^{n+2}} \wedge X)
+    & \simeq
+    \pi_\bullet(E \wedge E \wedge E^{\wedge^n} \wedge X))
+    \\
+    &\simeq 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     E_\bullet( E^{\wedge^n} \wedge X )
+     \\
+     & = 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     \pi_\bullet( E^{\wedge^{n+1}} \wedge X )       
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+Now we may identify the commutative Hopf algebroids arising from flat commutative ring spectra.
+
++-- {: .num_prop #HopfAlgebroidStructureOnDualEOperations}
+###### Proposition
+
+If a [[commutative ring spectrum]] $E$ is flat according to def. \ref{FlatE}, then, via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
+
+1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on $E_\bullet(E)$ over $\pi_\bullet(E)$ -- called the **dual $E$-[[Steenrod algebra]]**;
+
+1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over the dual $E$-[[Steenrod algebra]].
+
+=--
+
+(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
+
++-- {: .proof}
+###### Proof
+
+Via prop. \ref{FlatnessOfEImpliesKeyConsequence}, the image under $\pi_\bullet(-)$ of the cosimplicial spectrum $E^{\wedge^\bullet}(E)$ is identified as on the right of the following diagram
+
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge E) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \pi_\bullet(E \wedge E) &=& E_\bullet(E)
+    \\
+    {}^{\mathllap{\pi_\bullet(e \wedge id)}}\uparrow
+     \downarrow^{\mathrlap{\pi_\bullet(\mu)}}
+     \;\;\;\;\;\;
+     \uparrow^{\mathrlap{\pi_\bullet(id \wedge e)}}
+     &&
+     {}^{\mathllap{\eta_L}}\uparrow 
+     \downarrow^{\mathrlap{\epsilon}} 
+     \uparrow^{\mathrlap{\eta_R}}
+    \\
+    \pi_\bullet(E) &=& \pi_\bullet(E)
+  }
+  \,.
+$$
+
+Analogously the [[coaction]] is induced as on the right of the following diagram
+
+$$
+  \array{
+    \pi_\bullet(E\wedge E \wedge X) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+    \\
+    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
+    &&
+    \uparrow^{\mathrlap{\Psi_X}}
+    \\
+    \pi_\bullet(E \wedge X) &=& E_\bullet(X)
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the cases
+
+$E = $
+
+* [[HA|H]]$\mathbb{F}_p$,
+
+* ...
+
+=--
+
+The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the purpose of the $E$-[[Adams spectral sequence]] is that it is extra structure inherited from maps of spectra under smashing with $E$:
+
++-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
+###### Example
+
+For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+$$
+
+factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+  \,.
+$$
+
+=--
+
+In order to make use of this we need to invoke a [[universal coefficient theorem]] in the following form.
+
++-- {: .num_prop #AdamsUCT}
+###### Proposition
+
+If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
+the morphism of $\mathbb{Z}$-[[graded abelian groups]]
+
+$$
+ \pi_\bullet[Y,N] 
+   \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet N)_\bullet
+$$
+
+(from the [[stable homotopy group]] of the [[mapping spectrum]] to the [[hom-object|hom groups]] of $\pi_\bullet(E)$-[[modules]])
+
+is an [[isomorphism]].
+
+
+=--
+
+This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
+
+With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
+
++-- {: .num_prop}
+###### Proposition
+
+If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} in the form
+
+$$
+ \pi_\bullet(E\wedge (-))
+   \;\colon\;
+ \pi_\bullet[Y, E\wedge N] 
+   \stackrel{}{\longrightarrow}
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
+$$
+
+is an [[isomorphism]].
+
+=-- 
+
+([Adams 74, part III, page 323](#Adams74))
+
+
++-- {: .proof}
+###### Proof
+
+By the general formula for expressing [[adjuncts]], the morphism fits into the following [[commuting diagram]]
+
+$$
+  \array{
+    [Y, E \wedge N]
+      &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
+    Hom_{E_\bullet(E)}(
+      E_\bullet(Y), 
+      E_\bullet(E \wedge N)
+    )
+    \\
+    {}^{\mathllap{{\phi \mapsto} \atop {\mu \circ (id \wedge \phi)}}}
+      \downarrow^{\mathrlap{\simeq}}
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+      &\stackrel{\simeq}{\longleftarrow}& 
+    Hom_{E_\bullet(E)}(
+      E_\bullet(Y), 
+      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    )
+  }
+  \,,
+$$
+
+where 
+
+1. the right vertical map comes from the isomorphism of prop. \ref{FlatnessOfEImpliesKeyConsequence};
+
+1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
+
+1. the the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
+
+Therefore also the top morphism is an iso.
+
+=--
+
+
+
+## References
+
+* {#Adams74} [[Frank Adams]],  _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+
+* [[Doug Ravenel]], chapter 2 and appendix 1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf)
+
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
+
+
+* [[Paul Goerss]], _Quasi-coherent sheaves on the moduli stack of formal groups_, [pdf](http://www.math.northwestern.edu/~pgoerss/papers/modfg.pdf)
+
+* [[Mark Hovey]], _Homotopy theory of comodules over a Hopf algebroid_, [pdf](http://math.wesleyan.edu/~mhovey/papers/comodule.pdf); _Morita theory of Hopf algebroids_ ([pdf](http://math.wesleyan.edu/~mhovey/talks/hopfalgebroids.pdf))
+
+
+* Barry Walker, _Hopf algebroids and stacks_  ([pdf](http://www.math.umn.edu/~tlawson/old/stackstalk.pdf))
+
+
+* {#BakerLazarev01} [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
+ 
+
+* {#BakerJeanneret02} [[Andrew Baker]], Alain Jeanneret, _Brave new Hopf algebroids and extensions of $MU$-algebras_, Homology Homotopy Appl. __4__:1 (2002), 163-173, [MR1937961](http://www.ams.org/mathscinet-getitem?mr=1937961), [euclid](http://projecteuclid.org/euclid.hha/1139840059)
+ 
+
+See also 
+
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
+
+
+[[!redirects commutative Hopf algebroids]]
