@@ -176,7 +176,7 @@ It turns out that every $(\infty,1)$-functor $C \to \infty Grpd$ can be **rectif
 +-- {: .un_theorem}
 ###### Theorem
 
-For $C = N(\mathbf{C})$ a quasi-catwgeory given as the [[homotopy coherent nerve]] of a Kan-complex enriched category $\mathbf{C}$ (which may for instance be just an ordinary 1-category), write 
+For $C = N(\mathbf{C})$ a quasi-category given as the [[homotopy coherent nerve]] of a Kan-complex enriched category $\mathbf{C}$ (which may for instance be just an ordinary 1-category), write 
 
 $$
   [\mathbf{C}^{op}, \mathbf{sSet}]
