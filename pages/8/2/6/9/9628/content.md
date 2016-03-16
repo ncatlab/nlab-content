@@ -214,4 +214,6 @@ Discussion with an eye towards [[stable homotopy theory]] and the [[Steenrod alg
 category: algebra
 
 [[!redirects Hopf algebroids over a commutative base]]
+
 [[!redirects commutative Hopf algebroid]]
+[[!redirects commutative Hopf algebroids]]
