@@ -1123,7 +1123,7 @@ $$
     \\
     Spec(\Gamma)
     \\
-    {}^{\mathllap{s}}\downarrow \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
     \\
     Spec(A)
   }
@@ -1133,10 +1133,10 @@ $$
 (where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
 
 $$
-  inv \colon Spec(\Gamma) \longrightarrow Spec(\Gamma)
+  inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
 $$
 
-acting as assigning [[inverses]].
+acting as assigning [[inverses]] with respect to $\circ$.
 
 The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
 
@@ -1147,7 +1147,8 @@ $$
   \,.
 $$
 
-This means that the above is equivalently a diagram
+This means that the above is equivalently a diagram in [[CRing]] of the form
+
 $$
   \array{
     \Gamma \underset{A}{\otimes} \Gamma
@@ -1157,38 +1158,68 @@ $$
     \Gamma 
     \\
     {}^{\mathllap{\eta_L}}\uparrow 
-    \downarrow^{\mathrlap{\epsilon}} 
+    \downarrow^{\mathrlap{\epsilon}} \;
     \uparrow^{\mathrlap{\eta_R}}
     \\
     A
   }
 $$
 
-with
+as well as
 
 $$
-  c \colon \Gamma \longrightarrow \Gamma
+  c \; \colon \; \Gamma \longrightarrow \Gamma
 $$
 
-satisfying dual conditions. Here 
+and satisfying dual conditions. Here 
 
-* $\Psi$ is called the _[[coproduct]]_;
+* $\Psi$ is called the _[[comultiplication]]_;
 
 * $c$ is called the _[[antipode]]_.
 
+=--
+
++-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
+###### Remark
+
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they mayke $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the tensor product of bimodules that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative [[Hopf algebra]] $\Gamma$ over $A$.
 
 =--
 
 
-+-- {: .num_cor #HopfAlgebroidStructureOnDualEOperations}
-###### Corollary
+
++-- {: .num_prop #CoFreeComodules}
+###### Proposition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, there is a [[free-forgetful adjunction]]
+
+$$
+  \Gamma CoMod
+   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+  A Mod
+$$
+
+between the [[category]] of $\Gamma$-[[comodules]] and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
+
+The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
+
+=--
+
+Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
+
++-- {: .num_prop #HopfAlgebroidStructureOnDualEOperations}
+###### Proposition
 
 If $E$ is flat according to def. \ref{FlatE}, then,
 via the isomorphism of proposition \ref{FlatnessOfEImpliesKeyConsequence}, the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$ (the $E$-standard resolution of $X$ from example \ref{StandardEResolution}) exhibits:
 
-1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on the "dual $E$-[[Steenrod operations]]" $E_\bullet(E)$ over $\pi_\bullet(E)$;
+1. for $X = E$: [[Hopf algebroid]]-structure, def. \ref{CommutativeHopfAlgebroid}, remark \ref{CommutativeHopfAlgebroidSpelledOut}, on $E_\bullet(E)$ over $\pi_\bullet(E)$ -- called the **dual $E$-[[Steenrod algebra]]**;
 
-1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over this Hopf algebroid.
+1. for general $X$: [[comodule]]-structure on $E_\bullet(X)$ over the dual $E$-[[Steenrod algebra]].
 
 =--
 
@@ -1241,39 +1272,90 @@ $$
 =--
 
 
++-- {: .num_example}
+###### Example
 
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of corollary \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the cases
+
+$E = $
+
+* [[HA|H]]$\mathbb{F}_p$,
+
+* ...
+
+=--
+
+The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited from maps of spectra under smashing with $E$:
+
++-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
+###### Example
+
+For $Y,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+$$
+
+factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
+
+$$
+  \pi_\bullet(E \wedge -)
+    \;\colon\;
+  \pi_\bullet([Y,N])
+    \longrightarrow
+  Hom^\bullet_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+    \longrightarrow
+  Hom^\bullet_{Ab}(E_\bullet(Y), E_\bullet(N))
+  \,.
+$$
+
+=--
+
+In order to put all this together, we need to invoke a [[universal coefficient theorem]] in the following form.
 
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
 
-If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ the canonical morphism
+If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
+the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
  \pi_\bullet[Y,N] 
-   \longrightarrow
-  Hom_{\pi_\bullet(E)}(E_\bullet(Y), \pi_\bullet N)_\bullet
+   \stackrel{\phi \mapsto \rho \circ (id\wedge \phi)}{\longrightarrow}
+  Hom_{\pi_\bullet(E)}^\bullet(E_\bullet(Y), \pi_\bullet N)_\bullet
 $$
 
+(from the [[stable homotopy group]] of the [[mapping spectrum]] to the [[hom-object|hom groups]] of $\pi_\bullet(E)$-[[modules]])
+
 is an [[isomorphism]].
+
 
 =--
 
 This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 13.5](#Adams74)), see also ([Schwede 12, chapter II, prop. 6.20](#Schwede12)).
 
-+-- {: .num_cor}
-###### Corollary
+With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
 
-If the assumptions of prop. \ref{AdamsUCT} hold, then the canonical morphism
++-- {: .num_prop}
+###### Proposition
+
+If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} in the form
 
 $$
+ \pi_\bullet(E\wedge (-))
+   \;\colon\;
  \pi_\bullet[Y, E\wedge N] 
-   \longrightarrow
-  Hom_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(E\wedge N))_\bullet
+   \stackrel{}{\longrightarrow}
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
 $$
 
-is an isomorphism.
+is an [[isomorphism]].
 
-=--
+=-- 
 
 ([Adams 74, part III, page 323](#Adams74))
 
@@ -1281,26 +1363,40 @@ is an isomorphism.
 +-- {: .proof}
 ###### Proof
 
-We have a [[commuting diagram]] of the form
+By the general formula for expressing [[adjuncts]], the morphism fits into the following [[commuting diagram]]
 
 $$
   \array{
-    [Y,E^{\wedge^{\bullet+1}}\wedge X]
-    &\longrightarrow&
+    [Y, E \wedge N]
+      &\stackrel{\pi_\bullet(E\wedge(-))}{\longrightarrow}&
     Hom_{E_\bullet(E)}(
       E_\bullet(Y), 
-      E_\bullet(E^{\wedge^{\bullet+1}}\wedge X)
+      E_\bullet(E \wedge N)
     )
     \\
-    & \searrow & \downarrow^{\mathrlap{\simeq}}
+    {}^{\mathllap{{\phi \mapsto} \atop {\mu \circ (id \wedge \phi)}}}
+      \downarrow^{\mathrlap{\simeq}}
+    && \downarrow^{\mathrlap{\simeq}}
     \\
-    && Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(E^{\wedge^\bullet}\wedge X))
+    Hom_{\pi_\bullet(E)}(E_\bullet(Y), E_\bullet(N))
+      &\stackrel{\simeq}{\longleftarrow}& 
+    Hom_{E_\bullet(E)}(
+      E_\bullet(Y), 
+      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+    )
   }
   \,,
 $$
 
-Here the vertical morphism is an iso since $E_\bullet(E \wedge \cdots)$ is a cofree co-module.
-If moreover, by prop. \ref{AdamsUCT} the diagonal morphism is an iso, then so is the top morphism
+where 
+
+1. the right vertical map comes from the isomorphism of prop. \ref{FlatnessOfEImpliesKeyConsequence};
+
+1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
+
+1. the the left vertical morphism is an isomorphism by prop. \ref{AdamsUCT}. 
+
+Therefore also the top morphism is an iso.
 
 =--
 
@@ -1314,22 +1410,23 @@ $$
   0 
     \to 
   Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(X))
-    \longrightarrow
+    \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
      E_\bullet(Y),
      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
   )
-    \longrightarrow
+    \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
      E_\bullet(Y),
      E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
    )
-    \longrightarrow
+    \stackrel{d_1}{\longrightarrow}
    \cdots
 $$
 
 =--
 
+The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
 
 #### The second page and homological algebra of Hopf modules
  {#TheE2TermOfTheEAdamsSpectralSequence}
