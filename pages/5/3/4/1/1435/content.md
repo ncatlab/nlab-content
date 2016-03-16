@@ -18,9 +18,33 @@
 
 $CRing$ is the category of commutative [[ring]]s and ring homomorphisms.
 
-A commutative ring is a commutative [[monoid object]] in [[Ab]], so $CRing = CMon(Ab)$.  As for commutative monoid objects in any [[symmetric monoidal category]], the [[tensor product]] of commutative rings is again a commutative ring, and is the [[coproduct]] in $CRing$; thus $CRing$ is cocartesian monoidal.
+A commutative ring is a commutative [[monoid object]] in [[Ab]], so $CRing = CMon(Ab)$ is the [[category of commutative monoids]] in [[abelian groups]]. 
 
-The [[opposite category]] $CRing^{op}$ is the category of [[affine scheme]]s.
+
+
+
+The [[opposite category]] $CRing^{op}$ is the category of [[affine schemes]].
+
+## Properties
+
+### Cocartesian co-monoidal structure
+ {#CocartesianComnonoidalStructure}
+
++-- {: .num_prop #CoproductIsTensorProduct}
+###### Proposition
+
+The [[coproduct]] in $CRing$ is given by the underlying [[tensor product of abelian groups]], equipped with its canonically induced commutative ring structure.
+
+=--
+
+By [this general proposition](category+of+monoids#PushoutsInCMonGivenByTensorProduct) discussed at _[[category of commutative monoids]]_.
+
++-- {: .num_remark }
+###### Remark
+
+Prop. \ref{CoproductIsTensorProduct} means that tensor product of commutative rings exhibits [[cartesian monoidal category]] structure on the [[opposite category]] $CRing^{op}$. 
+
+=--
 
 ## Generalizations ##
 
