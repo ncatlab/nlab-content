@@ -148,7 +148,7 @@ is more incolved.
  {#PushoutOfCommutativeMonoids}
 
 
-+-- {: .num_prop }
++-- {: .num_prop #PushoutsInCMonGivenByTensorProduct}
 ###### Proposition
 
 Suppose that $C$ is 
