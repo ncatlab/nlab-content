@@ -25,12 +25,16 @@ Commutative Hopf algebroids appear prominently in [[stable homotopy theory]]/[[h
 
 ## Definition
 
+### Commutative Hopf algebroids
+
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
 
 A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
 
 =--
+
+(e.g. [Ravenel 86, def. A1.1.1](#Ravenel86))
 
 +-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
 ###### Remark
@@ -54,7 +58,7 @@ $$
   \,,
 $$
 
-(where the [[fiber product]] at the top is over $s$ and the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
+(where the [[fiber product]] at the top is over $s$ on the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
 
 $$
   inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
@@ -95,18 +99,24 @@ $$
   c \; \colon \; \Gamma \longrightarrow \Gamma
 $$
 
-and satisfying dual conditions. Here 
+and satisfying [[formal duality|formally dual]] conditions, spelled out as def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below. Here 
+
+* $\eta_L, \etaR$ are called the left and right _[[unit]] maps_;
+
+* $\epsilon$ is called the _co-unit_;
 
 * $\Psi$ is called the _[[comultiplication]]_;
 
-* $c$ is called the _[[antipode]]_.
+* $c$ is called the _[[antipode]]_ or _conjugation_
+
+
 
 =--
 
 +-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
 ###### Remark
 
-Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they mayke $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the tensor product of bimodules that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
 
 An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
@@ -114,9 +124,105 @@ Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\lon
 
 =--
 
-## Properties
+Writing out the formally dual axioms of an [[internal groupoid]] as in remark \ref{CommutativeHopfAlgebroidSpelledOut} yields the following equivalent but maybe more explicit definition of commutative Hopf algebroids, def. \ref{CommutativeHopfAlgebroid}
+
++-- {: .num_defn #CommutativeHopfAlgebroidDefinitionInExplicitComponents}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is
+
+1. two [[commutative rings]], $R$ and $\Gamma$;
+
+1. ring [[homomorphisms]]
+
+   1. (left/right unit) 
+  
+      $\eta_L,\eta_R \colon A \longrightarrow \Gamma$; 
+
+   1. (comultiplication) 
+ 
+      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} A$;
+
+   1. (counit) 
+ 
+      $\epsilon \colon \Gamma \longrightarrow A$;
+
+   1. (conjugation) 
+
+      $c \colon \Gamma \longrightarrow \Gamma$
+
+such that
+
+1. (co-[[unitality]])
+
+   1.  $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
+
+   1. $(id_\Gamma\otimes_A\epsilon) \circ \Delta  = (\epsilon \otimes_A id_\Gamma) \circ \Delta = id_\Gamma$;
+
+1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
+
+1. ([[inverses]])
+
+   1. $c \circ c = id_\Gamma$;
+
+   1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
+
+   1. the universally induced $\nabla_c \colon \Gamma \otimes_A \Gamma \longrightarrow \Gamma$ satifies
+
+      $\nabla_c \circ \Psi = \epsilon \circ \eta_L = \epsilon \circ \eta_R$.
+   
+=--
 
 ### Comodules
+
++-- {: .num_defn #HopfComoduleRing}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$ as in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, hence an [[internal groupoid]] in $CRing^{op}$, then a **comodule ring** over it is an [[action]] in $CRing^{op}$ of that internal groupoid.
+
+=--
+
+In the same spirit, a **[[comodule]]** over a commutative Hopf algebroid (not necessarily a comodule ring) is a [[quasicoherent sheaf]] on the corresponding [[internal groupoid]] (regarded as a ([[algebraic stack|algebraic]]) [[stack]]) (e.g. [Hopkins 99, prop. 11.6](#Hopkins99)). Explicitly in components:
+
++-- {: .num_defn #CommutativeHopfAlgebroidComodule}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+then a **left [[comodule]]** over $\Gamma$ is
+
+1. an $A$-[[module]] $N$;
+
+1. an $A$-[[module]] [[homomorphism]] (co-action)
+
+   $\Psi_N \;\colon\; N \longrightarrow \Gamma \otimes_A N$;
+
+such that
+
+1. ([[unitality]])
+
+   $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
+
+1. ([[associativity]])
+
+   $(\Psi \otimes_A N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+
+A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
+
+$$
+  \Gamma CoMod
+$$
+
+for the resulting [[category]] of (left) comodules over $\Gamma$.
+
+=--
+
+
+
+
+
+## Properties
+
+### Co-free Comodules
 
 +-- {: .num_prop #CoFreeComodules}
 ###### Proposition
@@ -129,7 +235,7 @@ $$
   A Mod
 $$
 
-between the [[category]] of $\Gamma$-[[comodules]] and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
+between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlgebroidComodule} and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
 
 The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
 
@@ -458,7 +564,7 @@ Therefore also the top morphism is an iso.
 
 * {#Adams74} [[Frank Adams]],  _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
-* [[Doug Ravenel]], chapter 2 and appendix 1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, [pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf)
+* {#Ravenel86} [[Doug Ravenel]], chapter 2 and appendix A.1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 * {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
 
