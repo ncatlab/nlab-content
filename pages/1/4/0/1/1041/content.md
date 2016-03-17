@@ -37,7 +37,7 @@ Recall the following fact about [[pre-abelian categories]] from [this propositio
 +-- {: .num_prop #DecompositionOfMorphisms}
 ###### Proposition
 
-Every [[morphism]] $f:A\to B$ in a [[pre-abelian category]] has a canonical decomposition
+Every [[morphism]] $f \colon A\to B$ in a [[pre-abelian category]] has a canonical decomposition
 
 $$
   A\stackrel{p}\to \coker(\ker f)\stackrel{\bar{f}}\to\ker(\coker f)\stackrel{i}\to B
@@ -53,7 +53,7 @@ where $p$ is a [[cokernel]], hence  an [[epimorphism|epi]], and $i$ is a [[kerne
 
 An **abelian category** is a [[pre-abelian category]] satisfying the following equivalent conditions.
 
-1. For every [[morphism]] $f$, the canonical morphism $\bar{f} : coker(ker(f)) \to ker(coker(f))$ (described at [[pre-abelian category]]) is an [[isomorphism]].
+1. For every [[morphism]] $f$, the canonical morphism $\bar{f} \colon coker(ker(f)) \to ker(coker(f))$ of prop. \ref{DecompositionOfMorphisms} is an [[isomorphism]].
 
 1. Every [[monomorphism]] is a [[kernel]] and every [[epimorphism]] is a [[cokernel]].
 
