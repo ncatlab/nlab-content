@@ -410,6 +410,10 @@ On the Verdier hypercovering theorem see
 
 * [[John Frederick Jardine]], _The Verdier hypercovering theorem_ ([pdf](http://www.math.uwo.ca/~jardine/papers/preprints/Verdier4.pdf))
 
+* [[Zhen Lin Low]], _Cocycles in categories of fibrant objects_, ([pdf](http://arxiv.org/abs/1502.03925v3))
+
+
+
 Split hypercover refinement over general sites is discussed in 
 
 * {#Low} [[Zhen Lin Low]], _[[Notes on homotopical algebra]]_
