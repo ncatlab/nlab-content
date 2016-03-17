@@ -211,7 +211,7 @@ Dually for right exact functors.
 ###### Remark
 
 Proposition \ref{LeftRightExactFunctorsCharacterizedByExactSequences} is
-clearly the motivation for the terminology in def. \ref{LeftRightExactFunctor}: a functor is left exact if is preserves short exact sequences to the left, and right exact if it preserves them to the right.
+clearly the motivation for the terminology in def. \ref{LeftRightExactFunctor}: a functor is left exact if it preserves short exact sequences to the left, and right exact if it preserves them to the right.
 
 =--
 
@@ -296,6 +296,7 @@ $$
 =--
 
 ## Properties
+ {#Properties}
 
 ### Basic properties
 
@@ -764,11 +765,15 @@ Conversely:
 +-- {: .num_defn #AcyclicObject}
 ###### Definition
 
-Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive functor. An object $A \in \mathcal{A}$ is called an $F$-**[[nLab:acyclic object]]** is all positive-degree right/left derived functors of $F$ are zero. 
+Let $F \colon \mathcal{A} \to \mathcal{B}$ be a left or right exact additive functor. An object $A \in \mathcal{A}$ is called an $F$-**[[nLab:acyclic object]]** if all positive-degree right/left derived functors of $F$ are zero on $A$. 
 
 =--
 
-Acyclic objects are useful for computing derived functors on non-acyclic objects. More generally, we now discuss how the derived functor of an additive functor $F$ may also be computed not necessarily with genuine injective/projective resolutions, but with (just) "$F$-injective"/"$F$-projective resolutions".
+
+### Via acyclic resolutions
+ {#ViaAcyclicResolutions}
+
+We now discuss how the derived functor of an additive functor $F$ may also be computed not necessarily with genuine injective/projective resolutions as in def. \ref{RightDerivedFunctorOfLeftExactFunctor}, but with (just) "$F$-injective"/"$F$-projective resolutions".
 
 While projective resolutions in $\mathcal{A}$ are _sufficient_ for computing _every_ [[nLab:left derived functor]] on $Ch_\bullet(\mathcal{A})$ and injective resolutions are sufficient for computing _every_ [[nLab:right derived functor]] on $Ch^\bullet(\mathcal{A})$, if one is interested just in a single functor $F$ then such resolutions may be more than _necessary_. A weaker kind of resolution which is still sufficient is then often more convenient for applications. These _$F$-projective resolutions_ and _$F$-injective resolutions_, respectively, we discuss now. A special case of both are _$F$-[[nLab:acyclic resolutions]]_.
 
@@ -984,9 +989,6 @@ $$
 
 
 
-## Properties
- {#Properties}
-
 
 
 ### Derived adjoint functors
@@ -1012,16 +1014,6 @@ is a pair of [[additive functor|additive]] [[adjoint functors]], then
 
 
 (...)
-
-
-### General
-
-+-- {: .num_theorem}
-###### Theorem
-
-A left derived functor $L_\bullet F$ is a universal homological [[delta-functor]].
-
-=--
 
 
 
