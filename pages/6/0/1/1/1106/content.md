@@ -297,3 +297,4 @@ category: reference
 
 [[!redirects Sheaves in geometry and logic]]
 [[!redirects sheaves in geometry and logic]]
+[[!redirects Mac Lane-Moerdijk]] 
