@@ -241,6 +241,56 @@ The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ e
 
 =--
 
+### Homological algebra of Hopf comodules
+ {#HomologicalAlgebraOfHopfComodulles}
+
++-- {: .num_prop }
+###### Proposition
+
+If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then the [[category]] $\Gamma CoMod$ of [[comodules]] over $\Gamma$, def. \ref{CommutativeHopfAlgebroidComodule}, is an [[abelian category]].
+
+=--
+
+(e.g. [Ravenel 86, theorem A1.1.3](#Ravenel86)) 
+
++-- {: .proof}
+###### Proof
+
+The main point is to see that in $\Gamma CoMod$ [[kernels]] and [[cokernels]] exist. Let $f\colon \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+
+$$
+  \array{
+    N_1 &\stackrel{f}{\longrightarrow}& N_2
+    \\
+    \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \\
+    \Gamma \otimes_A N_1
+    &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A N_2
+  }
+  \,.
+$$
+
+Consider the kernel $ker(f)$ of $f$ in $A$[[Mod]] and its image under $\Gamma \otimes_A (-)$
+
+$$
+  \array{
+    ker(f) &\longrightarrow& N_1 &\stackrel{f}{\longrightarrow}& N_2
+    \\
+    \downarrow && \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \\
+    \Gamma \otimes_A ker(f) && \Gamma \otimes_A N_1
+    &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A N_2
+  }
+  \,.
+$$
+
+By the assumption that $\Gamma$ is a [[flat module]] over $A$, also $\Gamma \otimes_A ker(f) \simeq ker(\Gamma \otimes_A f)$ is a [[kernel]]. By its [[universal property]] this induces uniquely a morphism as shown on the left, making the above [[commuting diagram|diagram commute]]. This means that the $A$-module $ker(f)$ uniquely inherits the structure of a $\Gamma$-comodule such as to make $ker(f) \to N_1$ a comodule homomorphism. By the same universal property it follows that $ker(f)$ with this comodule structure is in fact the kernel of $f$ in $\Gamma CoMod$.
+
+The argument for the existence of cokernels is [[formal dual|formally dual]].
+
+=--
 
 
 ## Examples
