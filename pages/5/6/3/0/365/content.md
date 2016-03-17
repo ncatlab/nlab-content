@@ -55,7 +55,7 @@ On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the
 
 ## Properties
 
-* The classes $(L,R)$ of a weak factorization system enjoy many good closure properties. Both are closed under [[retracts]] and contain all [[isomorphisms]]. $L$ is closed under [[pushouts]] and $R$ is closed under [[pullbacks]]. $L$ is closed under arbitrary [[coproducts]] and $R$ is closed under arbitrary [[products]]. $L$ is also closed under [[transfinite composition]]. The closure properties for $L$ can be summarized by saying that $L$ is **saturated**, which means precisely this.
+* The classes $(L,R)$ of a weak factorization system enjoy many good closure properties. Both are closed under composition ([Hirs](#Hirschorn) 7.2.4 for the case of model categories). Both are closed under [[retracts]] and contain all [[isomorphisms]]. $L$ is closed under [[pushouts]] and $R$ is closed under [[pullbacks]]. $L$ is closed under arbitrary [[coproducts]] and $R$ is closed under arbitrary [[products]]. $L$ is also closed under [[transfinite composition]]. The closure properties for $L$ can be summarized by saying that $L$ is **saturated**, which means precisely this.
 
 * However, $L$ is not closed under all [[colimits]] in $arr(K)$ and similarly $R$ is not closed under all [[limits]] in $arr(K)$; they are not necessarily closed under ([[coequalizer|co]])[[equalizers]]. However, if $(L,R)$ is an _orthogonal_ factorzation system, then $L$ is closed under all colimits and $R$ is closed under all limits.
 
@@ -70,9 +70,7 @@ $R$ is preserved under [[pullback]].
 
 =--
 
-This is for instance lemma 7.2.11 in
-
-* Hirschhorn, _Model categories and their localization_ .
+This is for instance lemma 7.2.11 in [Hirs](#Hirschorn).
 
 +-- {: .proof}
 ###### Proof
@@ -196,6 +194,9 @@ A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ su
 ## References
 
 * [[joyalscatlab:HomePage|Joyal's CatLab]], _[[joyalscatlab:Weak factorisation systems]]_
+
+* {#Hirschorn} Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
 
 [[!redirects weak factorization systems]]
 
