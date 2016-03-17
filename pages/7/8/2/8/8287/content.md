@@ -33,6 +33,9 @@ In the context of [[generalized (Eilenberg-Steenrod) cohomology]] the generalize
 
 * [[Harold Hastings]], _On function spectra_, Proceedings of the AMS, volume 44, Number 1, May 1974 ([pdf](http://www.ams.org/journals/proc/1974-044-01/S0002-9939-1974-0343258-4/S0002-9939-1974-0343258-4.pdf))
 
+For [[symmetric spectra]]:
+
+* [[Stefan Schwede]], example 3.38 of _[[Symmetric spectra]]_ (2012)
 
 [[!redirects function spectra]]
 
