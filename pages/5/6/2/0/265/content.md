@@ -1,4 +1,6 @@
 
+> This entry discusses the concept of derived functors in full generality. For the dedicated discussion of the traditional case see at [[derived functors in homological algebra]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -206,7 +208,11 @@ This is prop. 5.2.4.6 and remark 5.2.4.7 in ([Lurie](#Lurie)). For more along th
 ### In homological algebra 
  {#InHomologicalAlgebra}
 
-Often and traditionally, the concept of derived functors is considered in [[homological algebra]] exclusively in the context of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ in an [[abelian category]] $\mathcal{A}$.
+Often and traditionally, the concept of derived functors is considered in [[homological algebra]] exclusively in the context of [[categories of chain complexes]] $Ch_\bullet(\mathcal{A})$ in an [[abelian category]] $\mathcal{A}$. The definitions in this case are disucssed in detail at 
+
+* **[[derived functor in homological algebra]]**
+
+Here put that special case a bit more into the general perspective.
 
 By taking [[quasi-isomorphism]]s as weak equivalences, $Ch_\bullet(\mathcal{A})$ is naturally a [[category with weak equivalences]]. In much of the literature on homological algebra, the refinement of this structure to a projective or injective [[model structure on chain complexes]] is implicit.  For instance, an injective [[resolution]] of chain complexes is nothing but a fibrant replacement in the injective model structure.  Dually, a projective resolution is a cofibrant replacement in the projective model structure.  (Note, though, that hypotheses on $\mathcal{A}$ are required in order for these model structures to exist.)
 
@@ -262,7 +268,7 @@ Traditionally, in homological algebra, one only takes left derived functors of r
 
 Specifically, suppose we have a [[short exact sequence]]
 $$ 0 \to A \to B \to C \to 0$$
-in $\mathcal{A}$.  Assuming $\mathcal{A}$ has enough projectives, we can then find projective resolutions $Q A$, $Q B$, and $Q C$ of $A$, $B$, and $C$, respectively, such that
+in $\mathcal{A}$.  Assuming $\mathcal{A}$ has [[enough projectives]], we may then find [[projective resolutions]] $Q A$, $Q B$, and $Q C$ of $A$, $B$, and $C$, respectively, such that
 $$ 0 \to Q A \to Q B \to Q C \to 0 $$
 is a short exact sequence of chain complexes.  But since $Q C$ is projective, this short exact sequence is split, and therefore preserved by any additive functor.  Thus we have another short exact sequence
 $$ 0 \to F Q A \to F Q B \to F Q C \to 0 $$
