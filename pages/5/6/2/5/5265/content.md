@@ -10,11 +10,26 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
+
+
+## Definition
+
+In [[homological algebra]]:
+
 For $F : \mathcal{A} \to \mathcal{B}$ a [[left exact functor|left exact]] [[additive functor]] between [[abelian categories]], an [[object]] $A \in \mathcal{A}$ is $F$-**acyclic** if the right [[derived functor]] of $F$ has no cohomology on $A$ in positive degree
 
 $$
   (p \gt 0) \Rightarrow R^p F A = 0
   \,.
 $$
+
+## Properties
+
+A [[resolution]] by $F$-acyclic objects serves to compute the [[derived functor]] of $F$. See at _[derived functor in homological algebra -- Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_
 
 [[!redirects acyclic objects]]
