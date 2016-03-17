@@ -256,7 +256,9 @@ If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopf
 +-- {: .proof}
 ###### Proof
 
-The main point is to see that in $\Gamma CoMod$ [[kernels]] and [[cokernels]] exist. Let $f\colon \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+It is clear that, without any condition the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
+
+We discuss that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
 
 $$
   \array{
@@ -279,8 +281,10 @@ $$
     \\
     \downarrow && \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
     \\
-    \Gamma \otimes_A ker(f) && \Gamma \otimes_A N_1
-    &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
+    \Gamma \otimes_A ker(f) 
+      &\longrightarrow& 
+    \Gamma \otimes_A N_1
+      &\stackrel{id_\Gamma \otimes_A f}{\longrightarrow}&
     \Gamma \otimes_A N_2
   }
   \,.
@@ -288,9 +292,16 @@ $$
 
 By the assumption that $\Gamma$ is a [[flat module]] over $A$, also $\Gamma \otimes_A ker(f) \simeq ker(\Gamma \otimes_A f)$ is a [[kernel]]. By its [[universal property]] this induces uniquely a morphism as shown on the left, making the above [[commuting diagram|diagram commute]]. This means that the $A$-module $ker(f)$ uniquely inherits the structure of a $\Gamma$-comodule such as to make $ker(f) \to N_1$ a comodule homomorphism. By the same universal property it follows that $ker(f)$ with this comodule structure is in fact the kernel of $f$ in $\Gamma CoMod$.
 
-The argument for the existence of cokernels is [[formal dual|formally dual]].
+The argument for the existence of [[cokernels]] proceeds [[formal dual|formally dually]]. Therefore it follows that the comparison morphism
+
+$$
+  coker(ker(f)) \longrightarrow ker(coker(f))
+$$
+
+formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism in $A Mod$. There this is an [[isomorphism]], hence it is an isomorphism also in $\Gamma CoMod$, and so the latter is not just a [[pre-abelian category]] but in fact an [[abelian category]] itself.
 
 =--
+
 
 
 ## Examples
