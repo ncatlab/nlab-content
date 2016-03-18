@@ -75,6 +75,10 @@ The following article gives a large class of categories which are [[fibrant]] in
 * [[Lennart Meier]], [[Viktoriya Ozornova]], _Fibrancy of partial model categories_,
 [pdf](http://people.virginia.edu/~flm5z/PartialModCats.pdf), [slides](http://people.virginia.edu/~flm5z/Kopenhagen2014.pdf).
 
+Some posets that are cofibrant in the Thomason model structure are studied in
+
+* Roman Bruckner, Christoph Pegel, _Cofibrant objects in the Thomason Model Structure_, [arXiv](http://arxiv.org/abs/1603.05448)
+
 The analog of the Thomason model structure for the _stable_ case -- an equivalence between connective [[stable homotopy theory]] and [[nerve]]s of [[symmetric monoidal categories]] -- is discussed in 
 
 * [[Robert Thomason]], _Symmetric monoidal categories model all connective spectra_ , Theory and applications of Categories, Vol. 1, No. 5, (1995) pp. 78-118
