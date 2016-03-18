@@ -1,4 +1,6 @@
 
+
+
 $$
   \array{
     && && ([n] \mapsto \Delta^n)
