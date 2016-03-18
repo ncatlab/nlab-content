@@ -242,10 +242,10 @@ The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ e
 =--
 
 
-### Homological algebra of Hopf comodules
+### Homological algebra of comodules
  {#HomologicalAlgebraOfHopfComodules}
 
-We discuss aspects of the [[homological algebra]] in [[categories]] of Hopf comodules, def. \ref{CommutativeHopfAlgebroidComodule}.
+We discuss aspects of the [[homological algebra]] in [[categories]] of comodules over commutative Hopf algebroids, def. \ref{CommutativeHopfAlgebroidComodule}.
 
 +-- {: .num_prop #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
 ###### Proposition
@@ -261,7 +261,7 @@ If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopf
 
 It is clear that, without any condition the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
 
-We need to show that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of Hopf comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+We need to show that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
 
 $$
   \array{
