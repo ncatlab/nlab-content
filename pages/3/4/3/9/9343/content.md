@@ -22,4 +22,6 @@
 
 * Wikipedia, _[Mathematical singularity](http://en.wikipedia.org/wiki/Mathematical_singularity)_
 
+* A. O. Remizov, _A brief introduction to singularity theory_, ([pdf](http://www.sissa.it/fa/download/publications/remizov.pdf))
+
 [[!redirects singularities]]
