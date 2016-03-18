@@ -118,7 +118,7 @@ In a 2-category, a 1-cell and a 2-cell can be composed in one direction (horizon
 In _Globular_, composition works differently: a $p$-cell and a $q$-cell can be composed in just _one_ way: along a common boundary $(\text{min}(p,q)-1)$-cell. The reason for this design decision is that in terms of the graphical calculus, of all the different composites that an ordinary globular $n$-category allows, this is the only composition that results in a diagram in _generic position_. Nothing is lost by this restriction, since (conjecturally) the other composites can be recovered up to isomorphism by whiskering, in just the same way that horizontal composition of 2-cells in a 2-category can be expressed in terms of vertical composites and whiskering of 2-cell by identity 1-cell.
 
 For every way that _Globular_ _doesn't_ let you compose cells---that is, for every $p,q$ and every $0 \leq n \lt \text{min}(p,q)$---there exists a $(p+q-n-1)$-cell, which _resolves_ the singularity that would be created if this composite were actually formed. These singularity resolutions manifest in _Globular_ as higher-dimensional cells, which allow parts of a diagram to move around each other; using them effectively is a key part of formalizing higher-dimensional proofs.
-A significant effort in the development of _Globular_ has been writing code that allows _Globular_ to understand each of them.
+The main difficulty in the definition of semistrict $n$-categories is describing these structures.
 
 In this section we list the singularities which _Globular_ recognizes. We organize them by categorical dimension, because to formalize a proof in an $n$-category, you may need to make use of every type of $k$-category singularity for $k \leq n$. Also, you can add any fixed natural number to the dimensions involved to get higher-dimensional versions of the same singularities; for example, interchangers arise as the composite of two $n$-cells along a common boundary $(n-2)$-cell.
 
@@ -128,17 +128,19 @@ In this section we list the singularities which _Globular_ recognizes. We organi
 
 **Composite:** two $2$-cells composed along a common boundary 0-cell, forming a 3-cell resolution.
 
-**Renderings:**
+**Interface:** When unprojected, click the vertex to be interchanged and drag it up or down; if the interchanger is ambiguous because the source or target is the identity, then make your drag slightly to the left or right. When projected, grab the wire to be interchanged, and drag in the desired direction.
 
-**Interface:**
+![Interchanger source](http://globular.science/nlab/interchanger-source.png)
+$\mathraisebox{1.8cm}{\to}$
+![Interchanger target](http://globular.science/nlab/interchanger-target.png)
+$\qquad\qquad$
+![Interchanger projection](http://globular.science/nlab/interchanger-projection.png)
 
 ### 3-category singularities ###
 
 #### Naturality of the interchanger in one variable ####
 
-**Composite:** a $2$-cell and a $3$-cell composed along a common boundary 0-cell, forming a 4-cell.
-
-**Renderings:**
+**Composite:** a $2$-cell and a $3$-cell composed along a common boundary 0-cell, forming a 4-cell resolution.
 
 **Interface:**
 
@@ -146,25 +148,19 @@ In this section we list the singularities which _Globular_ recognizes. We organi
 
 #### Naturality of naturality of the interchanger in one variable ####
 
-**Composite:** a 2-cell and a 4-cell composed along a common boundary 0-cell, forming a 5-cell.
-
-**Renderings:**
+**Composite:** a 2-cell and a 4-cell composed along a common boundary 0-cell, forming a 5-cell resolution.
 
 **Interface:**
 
 #### Naturality of the interchanger in two variables ####
 
-**Composite:** two 3-cells composed along a common boundary 0-cell, forming a 5-cell.
-
-**Renderings:**
+**Composite:** two 3-cells composed along a common boundary 0-cell, forming a 5-cell resolution.
 
 **Interface:**
 
 #### Naturality of invertibility of the interchanger ####
 
 **Composite:** ...
-
-**Renderings:**
 
 **Interface:**
 
