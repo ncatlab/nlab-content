@@ -88,7 +88,7 @@ An [[additive category]] canonically carries the structure of an [[Ab-enriched c
 +-- {: .num_prop #AdditiveIsAbEnriched}
 ###### Proposition
 
-With respect to the canonical [[Ab-enriched category]]-structre on additive categories $\mathcal{A}$, $\mathcal{B}$, additive functors $F : \mathcal{A} \to \mathcal{B}$ are equivalently [[Ab]]-[[enriched functors]].
+With respect to the canonical [[Ab-enriched category]]-structure on additive categories $\mathcal{A}$, $\mathcal{B}$, additive functors $F : \mathcal{A} \to \mathcal{B}$ are equivalently [[Ab]]-[[enriched functors]].
 
 =--
 
