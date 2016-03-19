@@ -321,7 +321,7 @@ $$
   \mathcal{A}
 $$
 
-between [[abelian categories]] such that the [[left adjoint]] $L$ is a [[left exact functor]], then the [[right adjoint]] preserves injective objects.
+between [[abelian categories]] such that the [[left adjoint]] $L$ is a [[left exact functor]] (thus automatically exact), then the [[right adjoint]] preserves injective objects.
 
 =--
 
@@ -334,6 +334,13 @@ $$
   Hom_{\mathcal{A}}(-,R(I))\simeq Hom_{\mathcal{B}}(L(-),I)
   \,.
 $$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Additivity of the left adjoint follows from the remaining assumptions, since exact functors preserve biproducts.
 
 =--
 
