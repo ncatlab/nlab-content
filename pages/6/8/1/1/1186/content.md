@@ -29,6 +29,7 @@ See also at _[[locally presentable categories - introduction]]_.
 
 **Warning on terminology.** In [Lurie](#Lurie) the term _presentable $(\infty,1)$-category_ is used for what we call a _locally presentable $(\infty,1)$-category_ here, in order to be in line with the established terminology of _[[locally presentable category]]_ in ordinary [[category theory]]. 
 
+**Terminological variant.** The term "$\kappa$-[[compactly generated (∞,1)-category]]" is sometimes used to mean "locally $\kappa$-presentable (∞,1)-category. See there for a discussion of usage differences.
 
 ## Definition 
  {#Definition}
