@@ -60,11 +60,11 @@ $$F(\sigma) = F(\partial_i\sigma(.(I^i \times m \times I^{n-i}),$$
 
 where $m : I^2 \to I$ is the multiplicative structure on $I = \Delta[1]$ by the 'max' function on $\{0,1\}$;
 
-(iii) if $f_n = id$, $F(\sigma) = F(\partial_n \sigma)$;
+(iii) if $f_n = id$, $F(\sigma) = F(\partial_n \sigma)(I^{n-1} \times proj)$;
 
 (iv)$_{i}$  $F(\sigma)|(I^{i-1}\times \{0\} \times I^{n-i}) = F(\partial_i\sigma), 1 \leq i \leq n-1$;
 
-(v)$_{i}$  $F(\sigma)|( I^{i-1}\times \{1\} \times I^{n-i}) = F(\sigma^\prime_i) . F(\sigma_i)$, where $\sigma_i = (f_0, \ldots, f_{i-1}$ 
+(v)$_{i}$  $F(\sigma)|( I^{i-1}\times \{1\} \times I^{n-i}) = F(\sigma^\prime_i) . F(\sigma_i)$, where $\sigma_i = (f_0, \ldots, f_{i-1})$ 
 and $\sigma^\prime = (f_i, \ldots, f_n)$.  We have used $\partial_i$ for the face operators in the nerve of $\mathbb{A}$.
 
 
@@ -128,7 +128,7 @@ h. c. diagram of shape $BG$, the corresponding one object groupoid to $G$.)
 ###### Theorem
 **Cordier (1980)**
 
-For each a [[small category]], the [[sSet]]-[[enriched category]]
+For each a [[small category]] $\mathbb{A}$, the [[sSet]]-[[enriched category]]
 ${S(\mathbb{A})}$ defined in [[homotopy coherent nerve#the_cosimplicial_category]] is such that a
 h.c. diagram of shape ${\mathbb{A}}$ in [[Top]] is given precisely by an 
 [[sSet]]-[[enriched functor]]
