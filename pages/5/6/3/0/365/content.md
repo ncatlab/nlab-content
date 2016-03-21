@@ -25,6 +25,8 @@
 
 ## Definition
 
+### Weak factorization systems
+
 A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes of morphisms such that
 
 (i) Every morphism $f$ of $K$ can be factored as $f=r l$ with $l \in L$ and $r \in R$.
@@ -36,13 +38,22 @@ A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes 
 See the [[joyalscatlab:Weak factorisation systems|Catlab]] for the theory. 
 
 
-## Orthogonal Factorization Systems
+### Orthogonal Factorization Systems
 
 An **[[orthogonal factorization system]]** is a weak factorization system where we additionally require that the solutions to each [[lifting problem]] be _unique_.
 
 While every OFS is evidently a WFS, the primary examples of each are different.  A "basic example" of an OFS is (epi, mono) in [[Set]] (meaning $L$ is the collection of [[epimorphisms]] and $R$ that of [[monomorphisms]]), while a "basic example" of a WFS is (mono, epi) in $Set$.  The superficial similarity of these two examples masks the fact that they generalize in very different ways.  The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
 
 On the other hand, saying that (mono,epi) is a WFS in $Set$ is equivalent to the [[axiom of choice]].  A less loaded statement is that $(L,R)$ is a WFS, where $L$ is the class of inclusions $A\hookrightarrow A\sqcup B$ into a binary coproduct and $R$ is the class of [[split epimorphism|split epis]].  In this form the statement generalizes to any [[extensive category]]; see also [[weak factorization system on Set]].
+
+### Functorial Factorization
+
+The precise requirements for factorization of morphisms to be _[[functorial factorization|functorial]]_ are frequently misstated. What follows is a fairly uncommon (but correct) definition:
+
+Write $[2]$ and $[3]$ for the [[ordinal numbers]], regarded as categories. So $arr(K)$ is isomorphic to the functor category $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$. This induces a functor $c : [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
+
+A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]]) are, but all orthogonal ones are automatically functorial.
+
 
 ## Examples
 
@@ -179,13 +190,6 @@ The commutativity of the diagrams that we have established so far shows that the
 
 
 
-## Functorial Factorization
-
-The precise requirements for a factorization of morphisms to be _functorial_ are frequently misstated. What follows is a fairly uncommon (but correct) definition:
-
-Write $[2]$ and $[3]$ for the [[ordinal numbers]], regarded as categories. So $arr(K)$ is isomorphic to the functor category $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$. This induces a functor $c : [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
-
-A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  Not all weak factorization systems are functorial, although most (including those produced by the [[small object argument]]) are, but all orthogonal ones are automatically functorial.
 
 
  
