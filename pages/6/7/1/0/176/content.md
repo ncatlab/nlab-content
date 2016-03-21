@@ -348,14 +348,6 @@ $$
 =--
 
 
-+-- {: .num_theorem}
-###### Theorem
-
-Two [[vertex operator algebra]]s $V$ may appear as the left and right chiral 
-halfs of a full conformal field theory precisely if their [[modular tensor categories]] of representations have the same
-Witt class.
-
-=--
 
 
 ## Examples
