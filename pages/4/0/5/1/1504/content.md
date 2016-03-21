@@ -611,7 +611,7 @@ Discussion of the mathematical aspects is in
 
 * [[Jim Stasheff]], _Closed string field theory, strong homotopy Lie algebras and the operad actions of moduli space_ Talk given at the _Conference on Topics in Geometry and Physics_ (1992) ([arXiv:hep-th/9304061](http://arxiv.org/abs/hep-th/9304061))
 
-* {#Markl} [[Martin Markl]], _Loop Homotopy Algebras in Closed String Field Theory_ (1997) ([arXiv:hep-th/9711045](http://arxiv.org/abs/hep-th/9711045))
+* {#Markl} [[Martin Markl]], _Loop Homotopy Algebras in Closed String Field Theory_, Comm. Math. Phys. 221(2):367--384, 2001. ([arXiv:hep-th/9711045](http://arxiv.org/abs/hep-th/9711045))
  
 * [[Alessandro Tomasiello]], _A-infinity structure and superpotentials_ ([arXiv:hep-th/0107195](http://arxiv.org/abs/hep-th/0107195))
 
