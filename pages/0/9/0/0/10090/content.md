@@ -24,14 +24,16 @@ A breakthrough happened in 2005, when [[Martin Schnabl]] found an analytic expre
 
 ## References
 
-* [[Ashoke Sen]], _Universality of the Tachyon Potential_,  	JHEP 9912:027,1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
- {#Sen99}
+* {#Sen99} [[Ashoke Sen]], _Universality of the Tachyon Potential_,  	JHEP 9912:027,1999 ([arXiv:hep-th/9911116](http://arxiv.org/abs/hep-th/9911116))
+ 
+An analytic solution was given in 
 
-* [[Martin Schnabl]], _Analytic solution for tachyon condensation in open string field theory_ ([arXiv:hep-th/0511286](http://arxiv.org/abs/hep-th/0511286))
- {#Schnabl05}
+* {#Schnabl05} [[Martin Schnabl]], _Analytic solution for tachyon condensation in open string field theory_, Adv. Theor. Math. Phys.
+Volume 10, Number 4 (2006), 433-501. ([arXiv:hep-th/0511286](http://arxiv.org/abs/hep-th/0511286))
+ 
 
-* Ian Ellwood, [[Martin Schnabl]], _Proof of vanishing cohomology at the tachyon vacuum_, JHEP 0702:096,2007 ([arXiv:hep-th/0606142](http://arxiv.org/abs/hep-th/0606142))
- {#EllwoodSchnabl06}
+* {#EllwoodSchnabl06} Ian Ellwood, [[Martin Schnabl]], _Proof of vanishing cohomology at the tachyon vacuum_, JHEP 0702:096,2007 ([arXiv:hep-th/0606142](http://arxiv.org/abs/hep-th/0606142))
+ 
 
 For more references see at 
 
