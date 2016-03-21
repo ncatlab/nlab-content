@@ -127,6 +127,8 @@ then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuill
 
 ([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01))
 
+Warning: this proof assumes that $\mathcal{C}$ admits [[functorial factorization]].
+
 +-- {: .proof}
 ###### Proof
 
@@ -134,7 +136,7 @@ The [[two-out-of-three]] poperty for $Q$-fibrations is evident. We discuss the t
 
 First, lemma \ref{FirstLemmaForBousfieldFriedlander} directly implies that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
 
-For the other factorization, let $f \colon X \longrightarrow Y$ be a morphism. By regarding morphisms as objects of the [[arrow category]] $Func(\Delta[1],\mathcal{C})$ and regarding this as equipped with the injective [[model structure on functors]], applying fibrant replacement to $Q(f) \to \widehat{Q(f)}$ in $\mathcal{C}^{\Delta[1]}_{inj}$ and composing this with $\eta_f$ yields a diagram 
+For the other factorization, let $f \colon X \longrightarrow Y$ be a morphism. By applying functorial fibrant replacement to $Q(f) \to \widehat{Q(f)}$ in $\mathcal{C}^{\Delta[1]}_{inj}$ and composing this with $\eta_f$ yields a diagram 
 
 $$
   \array{
