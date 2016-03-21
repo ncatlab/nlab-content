@@ -170,7 +170,7 @@ The issue then is that the restricted hom-spaces of $StdSpheres$ do not see the 
 
 More concretely, the enriched category $StdSpheres$ does not inherit monoidal structure: defining the smash product on hom spaces requires permuting smash copies of spheres, which is not available.  Thus there is no Day convolution product on sequential spectra at all.
 
-One could further restrict along $\mathbb{N} \to StdSpheres$ and use the monoidal structure $(\mathbb{N},+)$ to define at least a smash product on sequences of pointed spaces by [[Day convolution]] over $(\mathbb{N},+)$ as in ([MMSS 00, example 4.1](#MMSS00)). But then in addition to the above problem that this does not give a functorial smash product on spectra (it will not respect the structure maps), moreover $(\mathbb{N},+)$ is trivially [[braided monoidal category|braided]] and so, again, under restriction of excisive functors to $\mathbb{N}$ there is no way to recover the information in the smash product of spectra that is encoded in the non-trivial braiding of the smash product of spheres.
+One could further restrict along $\mathbb{N} \to StdSpheres$ and use the monoidal structure $(\mathbb{N},+)$ to define at least a smash product on sequences of pointed spaces by [[Day convolution]] over $(\mathbb{N},+)$ as in ([MMSS 00, example 4.1](#MMSS00), [Hovey-Shipley-Smith 00, below prop. 2.3.4](#HoveyShipleySmith00)). But then in addition to the above problem that this does not give a functorial smash product on spectra (it will not respect the structure maps), moreover $(\mathbb{N},+)$ is trivially [[braided monoidal category|braided]] and so, again, under restriction of excisive functors to $\mathbb{N}$ there is no way to recover the information in the smash product of spectra that is encoded in the non-trivial braiding of the smash product of spheres.
 
 =--
 
@@ -210,6 +210,8 @@ for [[S-modules]]:
 
 for [[symmetric spectra]]:
 
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/people/schwede/SymSpec-v3.pdf))
 
 Discussion of the smash product as a suitable [[Day convolution]] is, for [[highly structured spectra]], in
@@ -219,7 +221,6 @@ Discussion of the smash product as a suitable [[Day convolution]] is, for [[high
 and for [[excisive functors]] in
 
 * {#Lydakis98} Lydakis, _Simplicial functors and stable homotopy theory_ Preprint, available via Hopf archive, 1998 ([pdf](http://hopf.math.purdue.edu/Lydakis/s_functors.pdf))
-
 
 
 The uniqueness of the smash product on spectra is discussed in
