@@ -375,7 +375,9 @@ Section 4.2 in
 
 ### In generalized (co)homology
 
-See the corresponding references at _[[universal coefficient theorem]]_.
+* [[Stefan Schwede]], part II, section 6.2 of _[[Symmetric spectra]]_ (2012)
+
+See also the corresponding references at _[[universal coefficient theorem]]_.
 
 In the context of [[parameterized spectra]]
 
