@@ -486,7 +486,7 @@ There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedl
 
 ### Relation to symmetric spectra
 
-There is a [[Quillen equivalence]] to the [[model structure on symmetric spectra]] ([Hovey-Shipley-Smith 00, section 4.3](#HoveyShipleySmith00)).
+There is a [[Quillen equivalence]] to the [[model structure on symmetric spectra]] ([Hovey-Shipley-Smith 00, section 4.3](#HoveyShipleySmith00), [Mandell-May-Schwede-Shipley 01, theorem 0.1](#MandellMaySchwedeShipley01)).
 
 ### Relation to excisive functors
  {#RelationToExcisiveFunctors}
@@ -684,4 +684,7 @@ Discussion of the [[Quillen equivalence]] to the [[model structure on excisive f
 Discussion of the [[Quillen equivalence]] to the [[model structure on symmetric spectra]] is in
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
 [[!redirects Bousfield-Friedlander model category]] 
