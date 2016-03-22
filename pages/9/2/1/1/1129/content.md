@@ -348,7 +348,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Additivity of the left adjoint follows from the remaining assumptions, since exact functors preserve biproducts.
+Additivity of the left adjoint follows from the remaining assumptions, since [[additive functor#SufficientConditions|exact functors preserve biproducts]].
 
 =--
 
