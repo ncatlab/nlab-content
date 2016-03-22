@@ -1,4 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -54,6 +67,8 @@ from the codomain $b$ of $f$ to the domain $c$ of $g$ such that both triangles c
 * [[factorization system]]
 * [[homotopy lifting property]]
 * [[Kan lift]]
+
+* [[Joyal-Tierney calculus]]
 
 [[!redirects lifting]]
 [[!redirects lifts]]
