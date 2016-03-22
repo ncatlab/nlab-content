@@ -51,7 +51,9 @@ Among the model structures on "[[highly structured spectra]]" with a [[symmetric
 
 * [[model structure on S-modules]].
 
+A unified treatment and comparison of these is in
 
+* [[Model categories of diagram spectra]]
 
 
 ## Related concepts
@@ -86,7 +88,7 @@ and a similar model structure for functors on topological spaces has been given 
 
 See also
 
-* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+* [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 A discussion of model structures on spectra in general ambient model categories (general [[spectrum objects]], including e.g. [[motivic spectra]]) is in
 
