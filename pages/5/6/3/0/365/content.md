@@ -192,7 +192,9 @@ The commutativity of the diagrams that we have established so far shows that the
 
 
 
- 
+## Related concepts
+
+* [[retract argument]] 
 
 
 ## References
