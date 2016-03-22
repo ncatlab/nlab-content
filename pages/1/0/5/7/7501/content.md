@@ -64,7 +64,7 @@ $$
   f \pitchfork (S \to *)
 $$
 
-and if $\mathcal{E}$ has an [[initial object]] $\epmtyset$ we have equivalently 
+and if $\mathcal{E}$ has an [[initial object]] $\emptyset$ we have equivalently 
 
 $$
   S \pitchfork f 
@@ -79,7 +79,7 @@ ${}^{\pitchfork}Q$ and $\mathcal{E}^Q$ for the class of morphisms with left or r
 =--
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 If $(L \dashv R) : \mathcal{E} \to \mathcal{F}$ is a pair of [[adjoint functors]], then
 
@@ -135,7 +135,7 @@ $$
 =--
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 If $\otimes$ is divisble on both sides, then there are [[natural isomorphisms]]  between the collections of morphisms
 
@@ -159,7 +159,7 @@ $$
 =--
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 For every $f \in Mor(\mathcal{E}_1)$, $g \in Mor(\mathcal{E}_2)$ and $X \in \mathcal{E}_3$ we have
 
@@ -188,7 +188,7 @@ $$
 
 ### Pushout-tensoring
 
-Let now $\mathcal{E}_3$ have [[finite limits|finite]] [[colimits]] and $\otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ a functor.
+Let now $\mathcal{E}_3$ have [[finite limits|finite]] [[colimits]] and let $\otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a [[functor]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -217,7 +217,7 @@ $$
 =--
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 The pushout-product extends to a functor
 
@@ -230,25 +230,31 @@ where $C^I$ denotes the [[arrow category]] of $C$.
 =--
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
-If in the above situation $\mathcal{E}_1$ and $\mathcal{E}_2$ have [[finite limits]] and $\otimes$ is divisble on both sides, def. \ref{Divisibility}, then also $\bar \otimes$ is divisible on both sides:
+If in the above situation $\mathcal{E}_1$ and $\mathcal{E}_2$ have [[finite limits]] and $\otimes$ is divisble on both sides, def. \ref{Divisibility}, then also $\bar{\otimes}$ is divisible on both sides:
 
 1. for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_3$, the left quotient is
 
    $$  
-     f \bar \backslash g : B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
+     f \bar \backslash g 
+     \;\colon\; 
+     B \backslash X \to B \backslash Y \times_{A \backslash Y} A \backslash X
      \,;
    $$
 
 1. for $f : S \to T$ in $\mathcal{E}_2$ and $g : X \to Y$ in $\mathcal{E}_3$, the right quotient is
 
    $$  
-      g \bar / f : X / T \to Y / T \times_{Y / S} X / S
+      g \bar / f 
+      \;\colon\; 
+      X / T \to Y / T \times_{Y / S} X / S
      \,;
    $$
 
 =--
+
+A key statement now is the following, characterizing the [[right lifting property]] again [[pushout product]] morphisms:
 
 +-- {: .num_prop #IteratedLifting}
 ###### Proposition
@@ -260,7 +266,7 @@ $$
   \;\;
   \Leftrightarrow
   \;\;
-  U \pitchfork f \bar /v
+  u \pitchfork f \bar /v
   \;\;
   \Leftrightarrow
   \;\;
@@ -310,7 +316,7 @@ $$
 (Here on the right we have the canonical [[tensoring]] of $\mathcal{E}$ over [[Set]], where $S_n \cdot X \simeq \coprod_{s \in S_n} X$.)
 
 +-- {: .num_prop}
-###### Observation
+###### Proposition
 
 The functor $\Box$ is divisible on both sides. 
 
