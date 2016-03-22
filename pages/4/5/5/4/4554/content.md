@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -293,4 +293,5 @@ For instance page 4 of
 
 * [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_ .
 
+[[!redirects Ken Brown's lemma]]
 [[!redirects ken brown's lemma]]
