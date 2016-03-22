@@ -27,15 +27,19 @@
 
 ### Weak factorization systems
 
-A **weak factorization system** on a category $K$ is a pair $(L, R)$ of classes of morphisms such that
++-- {: .num_defn #WeakFactroizationSystem}
+###### Definition
 
-(i) Every morphism $f$ of $K$ can be factored as $f=r l$ with $l \in L$ and $r \in R$.
+A **weak factorization system** on a [[category]] $K$ is a pair $(L, R)$ of [[classes]] of [[morphisms]] of $K$ such that
 
-(ii) $L$ is the class of morphisms which have the [[left lifting property]] with respect to every morphism of $R$.
+1. Every morphism $f$ of $K$ may be factored as $f = r\circ l$ with $l \in L$ and $r \in R$.
 
-(iii) $R$ is the class of morphisms which have the [[right lifting property]] with respect to every morphism of $L$.
+1. $L$ is the class of morphisms which have the [[left lifting property]] with respect to every morphism of $R$.
 
-See the [[joyalscatlab:Weak factorisation systems|Catlab]] for the theory. 
+1. $R$ is the class of morphisms which have the [[right lifting property]] with respect to every morphism of $L$.
+
+=--
+
 
 
 ### Orthogonal Factorization Systems
@@ -66,16 +70,17 @@ A **functorial factorization** is a functor $F : [[2],K] \rightarrow [[3],K]$ su
 
 ## Properties
 
-* The classes $(L,R)$ of a weak factorization system enjoy many good closure properties. Both are closed under composition ([Hirs](#Hirschorn) 7.2.4 for the case of model categories). Both are closed under [[retracts]] and contain all [[isomorphisms]]. $L$ is closed under [[pushouts]] and $R$ is closed under [[pullbacks]]. $L$ is closed under arbitrary [[coproducts]] and $R$ is closed under arbitrary [[products]]. $L$ is also closed under [[transfinite composition]]. The closure properties for $L$ can be summarized by saying that $L$ is **saturated**, which means precisely this.
+### Closure properties
+
+* The classes $(L,R)$ of a weak factorization system, def. \ref{WeakFactroizationSystem}, enjoy many good closure properties. Both are closed under composition ([Hirs](#Hirschorn) 7.2.4 for the case of model categories). Both are closed under [[retracts]] and contain all [[isomorphisms]]. $L$ is closed under [[pushouts]] and $R$ is closed under [[pullbacks]]. $L$ is closed under arbitrary [[coproducts]] and $R$ is closed under arbitrary [[products]]. $L$ is also closed under [[transfinite composition]]. The closure properties for $L$ can be summarized by saying that $L$ is **saturated**, which means precisely this.
 
 * However, $L$ is not closed under all [[colimits]] in $arr(K)$ and similarly $R$ is not closed under all [[limits]] in $arr(K)$; they are not necessarily closed under ([[coequalizer|co]])[[equalizers]]. However, if $(L,R)$ is an _orthogonal_ factorzation system, then $L$ is closed under all colimits and $R$ is closed under all limits.
 
 
 We give the details of the proof that morphisms defined by a right lifting property are stable under pullback.
 
-+-- {: .un_lemma }
++-- {: .num_lemma }
 ###### Lemma
-
 
 $R$ is preserved under [[pullback]].
 
