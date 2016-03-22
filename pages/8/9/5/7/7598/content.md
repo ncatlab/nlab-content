@@ -19,14 +19,21 @@ Let $\mathcal{C}$ be a ([[cofibrantly generated model category|cofibrantly gener
 
 Write $[\mathcal{D}, \mathcal{C}]_{proj}$ for the [[projective model structure]] on the [[functor category]] of [[functors]] from $\mathcal{D}$ to $\mathcal{C}$, hence of $\mathcal{D}$-[[diagrams]] in $\mathcal{C}$.
 
-+-- {: .num_defn}
++-- {: .num_defn #ProjectivelyCofibrantDiagram}
 ###### Definition
 
 A functor/diagram $X : \mathcal{D} \to \mathcal{C}$ is a **projectively cofibrant diagram** in $\mathcal{C}$ if it is a [[cofibrant object]] in the [[projective model structure]] $[\mathcal{D}, \mathcal{C}]_{proj}$.
 
 =--
 
-This means that a [[diagram]] $X :\mathcal{D}\to \mathcal{C}$ is projectively cofibrant precisely if the inclusion $\emptyset \to X$ of the [[initial object|initial]] diagram has the [[left lifting property]] with respect to [[natural transformations]] of diagrams
++-- {: .num_remark}
+###### Remark
+
+
+We unwind the condition in def. \ref{ProjectivelyCofibrantDiagram}.
+
+
+ First of all it says of course that a [[diagram]] $X \colon \mathcal{D}\to \mathcal{C}$ is projectively cofibrant precisely if the inclusion $\emptyset \to X$ of the [[initial object|initial]] diagram has the [[left lifting property]] with respect to [[natural transformations]] of diagrams
 
 $$
   (A \stackrel{p}{\to} B) : \mathcal{C} \to \mathcal{D}
@@ -34,7 +41,7 @@ $$
 
 which are projective acyclic fibrations, hence which are such that for each $c \in \mathcal{C}$ the component $\eta_c : A(c) \to B(c)$ is an acyclic fibration in $\mathcal{C}$.
 
-This means that $F$ is projectively cofibrant precisely if for every diagram of natural transformations
+This in turn means that $F$ is projectively cofibrant precisely if for every diagram of natural transformations
 
 $$
  \array{
