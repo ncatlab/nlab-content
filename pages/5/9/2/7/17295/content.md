@@ -1,0 +1,47 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Factorization systems
++--{: .hide}
+[[!include factorization systems - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+### Injective and projective
+
+Given a [[category]] $\mathcal{C}$ and a [[class]] $J \subset Mor(\mathcal{C})$ of its [[morphisms]], then any morphism $f \in Mor(\mathcal{C})$ is called
+
+* a **$J$-injective morphism** if it has the [[right lifting property]] against elements in $S$;
+
+* a **$J$-projective morphism** if it has the [[left lifting property]] against elements in $S$.
+
+If $\mathcal{C}$ has a [[terminal object]] $\ast$, then an object $X$ for which $X \stackrel{\exists!}{\to} \ast$ is a $J$-injective morphism is called a $J$-[[injective object]].
+
+If $\mathcal{C}$ has an [[initial object]] $\emptyset$, then an object $X$ for which $\emptyset \stackrel{\exists!}{\to} X$ is a $J$-projective morphism is called a $J$-[[projective object]].
+
+### Fibration and cofibration
+
+Frequently one furthermore says:
+
+* a **$J$-[[cofibration]]** is a morphism that has the [[left lifting property]] against all $J$-injective morphisms;
+
+* a **$J$-[[fibration]]** is a morphism that has the [[right lifting property]] against all $J$-projective morphisms.
+
+## Related concepts
+
+* the [[small object argument]] is about factoring morphisms into $J$-cofibrations followed by $J$-injective morphisms.
+
+[[!redirects injective morphism]]
+[[!redirects injective morphisms]]
+
+[[!redirects projective morphism]]
+[[!redirects projextive morphisms]]
