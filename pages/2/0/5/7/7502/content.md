@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+The concept of _pushout product_is a natural kind of pairing operation on [[morphisms]] in [[categories]] equipped with a pairing operation on [[objects]] (e.g. a [[tensor product]]) and having [[pushouts]]. It sends two morphisms to the universal morphism out of the [[pushout]] of the [[span]]-diagram they form by pairing their [[domain]] objects.
+
+
+
 ## Definition
 
 Let $ \otimes : \mathcal{E}_1 \times \mathcal{E}_2 \to \mathcal{E}_3$ be a functor (e.g. a [[tensor product]], [[tensoring]]). Let $\mathcal{E}_3$ have [[pushouts]].
