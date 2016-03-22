@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 > This entry is about extension of morphisms, dual to [[lift]]. For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
