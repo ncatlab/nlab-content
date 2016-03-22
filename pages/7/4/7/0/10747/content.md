@@ -28,7 +28,10 @@ The main technical issue with symmetric spectra is that the naive definition of 
 
 ## Definition
 
-A symmetric spectrum is a [[sequential spectrum]] equipped with an [[action]] of the [[symmetric group]] on each component space, such that the structure maps [[intertwiner|intertwine]] these actions combined with the canonical permutaion action on the [[n-spheres]]:
+### In components
+ {#InComponents}
+
+A symmetric spectrum is a [[sequential spectrum]] equipped with an [[action]] of the [[symmetric group]] on each component space, such that the structure maps [[intertwiner|intertwine]] these actions combined with the canonical permutation action on the [[n-spheres]]:
 
 +-- {: .num_defn #SymmetricSpectrum}
 ###### Definition
@@ -75,6 +78,70 @@ such that
 =--
 
 ([Hovey-Shipley-Smith 00, def. 1.2.1](HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+
+### As $\mathbb{S}_{Sym}$-modules
+ {#AsSModules}
+
+A more concise equivalent formulation is the following:
+
++-- {: .num_defn #SphereSpectrumAsDayConvolutionMonoidOverSym}
+###### Definition
+
+Write $Sym$ for the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], with [[objects]] labeled by [[natural numbers]], all morphisms [[automorphisms]] and the automorphisms of $n$ forming the [[symmetric group]] $\Sigma_n$. The [[disjoint union]] monoidal structure on [[FinSet]] gives $Sym$ the structure of a [[monoidal category]] with tensor product given by addition of natural numbers on objects.
+
+Write $[Sym,sSet^{\ast/}]$ for the [[functor category]] equipped with the induced [[Day convolution]] product. Write
+
+$$
+  \mathbb{S}_{Sym} \in [Sym,sSet^{\ast/}]
+$$
+
+for the functor which sends $n$ to the minimal simplicial [[n-sphere]] $S^n = (S^1)^{\wedge^n}$ and which sends elements of the symmetric group to the corresponding endomorphisms of $S^n$ exchanging [[smash product]] factors.
+
+Regard $\mathbb{S}_{Sym}$ as a [[monoid object]] with respect to [[Day convolution]], whose monoidal structure is given via the [discussion there](Day+convolution#Monoids) by the system of canonical natural morphisms
+
+$$
+  S^{n_1}\wedge S^{n_2} \longrightarrow S^{n_1 + n_2}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #SymmetricSpectrumAsSModule}
+###### Proposition
+
+Symmetric spectra in the sense of def. \ref{SymmetricSpectrum} are equivalently right [[module objects]] in $([Sym,sSet^{\ast/}], \otimes_{Day})$ over the [[monoid object]] $\mathbb{S}_{Sym}$, according to def. \ref{SphereSpectrumAsDayConvolutionMonoidOverSym}:
+
+$$
+  SymSpec(sSet)
+  \simeq
+  \mathbb{S}_{Sym}Mod_r
+  \,.
+$$
+
+=--
+
+This point of view was highlighted and almost made explicit in ([Mandell-May-Schwede-Shipley 01](#MandellMaySchwedeShipley01)).
+
++-- {: .proof}
+###### Proof
+
+By the discussion [there](Day+convolution#Monoids), right $\mathbb{S}_{Sym}$-modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{Sym}$ as in def. \ref{SphereSpectrumAsDayConvolutionMonoidOverSym}. This means that they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ equipped with [[natural transformations]]
+
+$$
+  X_p \wedge S^{q}  \longrightarrow X_{p+q}
+$$
+
+satisfying the evident [[categorification|categorified]] [[action]] property. In the present case this action property says that these morphisms are determined by 
+
+$$
+  X_p \wedge S^1 \longrightarrow X_{p+1}
+$$
+
+under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these morphisms as functors on $Sym$ is the equivariance under the symmetric group actions in def. \ref{SymmetricSpectrum}.
+
+
+=--
 
 
 ## Properties
