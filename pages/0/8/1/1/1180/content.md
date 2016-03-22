@@ -60,6 +60,16 @@ In practice, functors between additive categories are generally assumed to be ad
 
 =--
 
++-- {: .num_remark #SufficientConditions}
+###### Remark
+
+Each of the following conditions is sufficient for guaranteeing that a functor $\mathcal{A} \to \mathcal{B}$ preserves biproducts (where $\mathcal{A}$ and $\mathcal{B}$ are categories with a zero object):
+
+* The functor preserves finite products (for instance, because it's a right adjoint) and any product in $\mathcal{B}$ is a biproduct.
+* The functor preserves finite coproducts (for instance, because it's a left adjoint) and any coproduct in $\mathcal{B}$ is a biproduct.
+* The functor preserves finite products and coproducts.
+
+=--
 
 ## Examples
 
