@@ -359,7 +359,7 @@ and their [[homotopy theory]] and [[Quillen equivalences]] of [[model categories
 
 * [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_ ([K-theory:0318](http://www.math.uiuc.edu/K-theory/0318/), [pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
 
-* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _Model categories of diagram spectra_, 1998 ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
+* {#MMSS98b} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _[[Model categories of diagram spectra]]_, 1998 ([KTheory:0320](http://www.math.uiuc.edu/K-theory/0320/))
 
 
 and for [[equivariant spectra]] in
