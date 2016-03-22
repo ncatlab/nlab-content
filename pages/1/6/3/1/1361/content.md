@@ -66,13 +66,15 @@ is a [[Quillen bifunctor]].
 
 * The most familiar examples of enriched model categories are [[simplicial model category|simplicial model categories]].
 
+* For a [[pointed category|pointed]] model category or even [[stable model category]] there is enrichment in [[pointed]] simplicial sets with the [[smash product]] as tensor product.
+
 ## Related concepts
 
 * The concept can be generalized to [[enriched homotopical category]].
 
 ## References
 
-* Bertrand Guillou, [[Peter May]], _Enriched model categories and diagram categories_ ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567))
+* [[Bertrand Guillou]], [[Peter May]], _Enriched model categories and diagram categories_ ([arXiv:1110.3567](http://arxiv.org/abs/1110.3567))
 
 [[!redirects enriched model categories]]
 
