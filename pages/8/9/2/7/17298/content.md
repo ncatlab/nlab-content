@@ -45,7 +45,7 @@ Define the following $Top$-[[enriched categories|enriched]] [[symmetric monoidal
 
 1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0;
 
-1. $Sym$ a [[skeletal category|skeleton]] of [[FinSet]], tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]],
+1. $Sym$ a [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]],
 
 1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] and as morphisms the [[linear map|linear]] [[isometries]] between these;
 
