@@ -224,18 +224,24 @@ A homomorphism of [[sequential spectra]], def. \ref{SequentialSpectra}, is a [[s
 =--
 
 
-## The stable model structure on sequential spectra
+## The strict model structure on sequential spectra
+ {#TheStrictModelStructure}
+
+The [[model category]] structure on [[sequential spectra]] which [[presentable (infinity,1)-category|presents]] [[stable homotopy theory]] is the "stable model structure" discussed [below](#TheStableModelStructure). It's fibrant-cofibrant objects are (in particular) [[Omega-spectra]], hence are the proper [[spectrum objects]] among the pre-spectrum objects.
+
+But for technical purposes it is useful to also be able to speak of a model structure on pre-spectra, which sees their homotopy theory as sequences of simplicial sets equipped with suspension maps, but not their stable structure. This is called the "strict model structure" for sequential spectra. It's main point is that the stable model structure of interest arises fromit via [[Bousfield localization of model categories|left Bousfield localization]].
 
 
-
-+-- {: .num_defn #ClassesOfMorphisms}
++-- {: .num_defn #ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}
 ###### Definition
 
 Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(sSet)$, def. \ref{SequentialSpectra} is
 
-* a **stable weak equivalence** if it is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra};
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a weak equivalence in the [[classical model structure on simplicial sets]] (hence a [[weak homotopy equivalence]] of [[geometric realizations]]);
 
-* a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on simplicial sets]] (hence a [[Kan fibration]]);
+
+* a **strict cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
 
   $$
     X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
@@ -243,28 +249,14 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
     Y_{n+1}
   $$
 
-  are cofibrations of simplicial sets in the standard [[model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
-
-* a **stable fibration** if it is degreewise a fibration of simplicial sets, hence degreewise a [[Kan fibration]], and if in addition the naturality squares of the [[spectrification]], def. \ref{Spectrification},
-
-  $$
-    \array{
-      X_n &\stackrel{}{\longrightarrow}& (Q X)_n
-      \\
-      \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{Q f_n}}
-      \\
-      Y_n &\stackrel{}{\longrightarrow}& (Q Y)_n
-    }
-  $$
-
-  are [[homotopy pullback]] squares (with respect to the standard [[model structure on simplicial sets]]).
+  are cofibrations of simplicial sets in the  [[classical model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
 
 =--
 
-+-- {: .num_prop #IsModelCategory}
++-- {: .num_prop #StrictModelStructureOnSequentialPrespectraIsModelCategory}
 ###### Proposition
 
-The classes of morphisms in def. \ref{ClassesOfMorphisms} give the structure of a [[model category]] $SeqSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra.
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(sSet)_{strict}$, called the **strict model structure** on sequential spectra.
 
 Moreover, this is
 
@@ -274,7 +266,8 @@ Moreover, this is
 
 =--
 
-([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
+([Bousfield-Friedlander 78, prop. 2.2](#BousfieldFriedlander78)).
+
 
 +-- {: .proof}
 ###### Proof
@@ -298,7 +291,65 @@ $$
   \,.
 $$
 
-By corollary \ref{StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}, the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of this strict model structure at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqSpectra(sSet) \longrightarrow SeqSpectra(sSet)$, def. \ref{Spectrification}. By prop. \ref{PropertiesOfStandardSpectrification}  $Q$ satisfies the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
+=--
+
+
+## The stable model structure on sequential spectra
+ {#TheStableModelStructure}
+
++-- {: .num_defn #ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}
+###### Definition
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(sSet)$, def. \ref{SequentialSpectra} is
+
+* a **stable weak equivalence** if it is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsSetSpectra};
+
+* a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+
+  $$
+    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
+    \longrightarrow
+    Y_{n+1}
+  $$
+
+  are cofibrations of simplicial sets in the [[classical model structure on simplicial sets]] (i.e.: [[monomorphisms]] of simplicial sets);
+
+* a **stable fibration** if it is degreewise a fibration of simplicial sets, hence degreewise a [[Kan fibration]], and if in addition the naturality squares of the [[spectrification]], def. \ref{Spectrification},
+
+  $$
+    \array{
+      X_n &\stackrel{}{\longrightarrow}& (Q X)_n
+      \\
+      \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{Q f_n}}
+      \\
+      Y_n &\stackrel{}{\longrightarrow}& (Q Y)_n
+    }
+  $$
+
+  are [[homotopy pullback]] squares (with respect to the [[classical model structure on simplicial sets]]).
+
+=--
+
++-- {: .num_prop #StableModelStructureOnSequentialSpectraIsModelCategory}
+###### Proposition
+
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(sSet)_{stable}$, called the **stable model structure** on sequential spectra.
+
+Moreover, this is
+
+* a [[proper model category]];
+
+* a [[simplicial model category]] with respect to the simplicial enrichment of prop. \ref{SimplicialEnrichment}.
+
+=--
+
+([Bousfield-Friedlander 78, theorem 2.3](#BousfieldFriedlander78)).
+
++-- {: .proof}
+###### Proof
+
+
+By corollary \ref{StableWeakHomotopyEquivalencesofSeqsSetSpectraIsDegreewsieWeakHomotopyEquivalencesOfSpectrification}, the stable model structure $SeqSpectra(sSet)_{stable}$ is, if indeed it exists, the [[left Bousfield localization]] of the strict model structure of prop. \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} at the morphisms that become weak equivalences under the [[spectrification]] functor $Q \colon SeqSpectra(sSet) \longrightarrow SeqSpectra(sSet)$, def. \ref{Spectrification}. By prop. \ref{PropertiesOfStandardSpectrification}  $Q$ satisfies the conditions of the [[Bousfield-Friedlander theorem]], and this implies the claim.
 
 =--
 
@@ -322,7 +373,7 @@ A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 +-- {: .num_prop}
 ###### Proposition
 
-There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqSpec(sSet)_{stable}$, def. \ref{ClassesOfMorphisms}, prop. \ref{IsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
+There is a [[zig-zag]] of [[Quillen equivalences]] relating the Bousfield-Friedlander model structure $SeqSpec(sSet)_{stable}$, def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}, prop. \ref{StableModelStructureOnSequentialSpectraIsModelCategory} with standard model structures on [[sequential spectra]] in [[topological spaces]] and with Kan's [[combinatorial spectra]].
 
 =--
 
