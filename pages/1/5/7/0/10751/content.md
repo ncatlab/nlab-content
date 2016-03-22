@@ -50,6 +50,8 @@ with [[symmetric monoidal smash product of spectra]]
 
 * [[excisive functor]], [[model structure on excisive functors]]
 
+* [[Model categories of diagram spectra]]
+
 
 ## References
 
