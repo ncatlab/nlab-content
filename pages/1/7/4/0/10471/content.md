@@ -324,6 +324,8 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 
 ## Related concepts
 
+* [[free orthogonal spectrum]]
+
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
 
 * [[symmetric spectrum]], [[model structure on symmetric spectra]]
