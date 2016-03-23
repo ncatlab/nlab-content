@@ -26,6 +26,10 @@ This page collects material related to
 
 on a unified construction and comparison of the [[Bousfield-Friedlander model structure|model structure on sequential spectra]], [[model structure on symmetric spectra]], [[model structure on orthogonal spectra]], [[model structure on excisive functors]].
 
+Related references include
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_ (2012)
+
 ***
 
 
@@ -246,7 +250,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Write $\mathbb{S}_{diag}$ for any of the three monoids. By the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, right modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{diag}$ as in remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
+Write $\mathbb{S}_{dia}$ for any of the three monoids. By the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, right modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{dia}$ as in remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
 
 $$
   X_p \wedge S^{q}  \longrightarrow X_{p+q}
@@ -346,7 +350,7 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #SystemOfAdjunctionsForDiagramSpectra}
 ###### Proposition
 
 The horizontal adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} lift to adjunctions between categories of modules, such as to give a [[commuting diagram]] of adjunctions as follows:
@@ -390,6 +394,27 @@ $$
 
 ([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
 
+In order to conveniently speak about all columns of the system of adjunctions in prop. \ref{SystemOfAdjunctionsForDiagramSpectra} in a unified way, we introduce the following notation.
+
++-- {: .num_defn #NotationForGenericDiagramSpectra}
+###### Definition
+
+For $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$ any one of the four incarnations of [[generalized the|the]] [[sphere spectrum]] according to def. \ref{StandardRepresentativeOfTheSphereSpectrum}, write
+
+
+$$
+  \mathbb{S}_{dia}Mod 
+   \stackrel{seq_!}{\underset{seq^\ast}{\longrightarrow}}
+  \mathbb{S}_{Seq}Mod
+  \simeq
+  SeqSpec(Top)
+$$
+
+for the [[composition]] of the sequence of [[adjunctions]] to the right of the corresponding category of modules in the diagram in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, regarded via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} and landing in the category of [[sequential spectra]].
+
+=--
+
+
 ## Part II. Model categories of diagram spectra
  {#PartII}
 
@@ -400,6 +425,8 @@ We now discuss equipping the diagram categories of [part I](#PartI) with [[model
  {#ModelStructuresForPlainSpectra}
 
 Here we discuss model structures for plain spectra, [below](ModelStructuresOnRingSpectraAndModuleSpectra) we discuss model structures for [[ring spectra]] and [[module spectra]].
+
+#### Statement of the model structure
 
 First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stabel model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
 
@@ -456,8 +483,6 @@ The model structure $\mathbb{S}_{seq} Mod_{strict}$ in def. \ref{StrictModelStru
 is the _[strict Bousfield-Friedlander model structure](Bousfield-Friedlander%20model%20structure#TheStrictModelStructure)_.
 
 
-We generically write $seq^\ast$ for the composites to the right of the right adjoints in the sequence.
-
 $$
  \array{
    \mathbb{S} Mod_{strict}
@@ -476,7 +501,7 @@ $$
 +-- {: .num_defn #StableEquivalencesForDiagramSpectra}
 ###### Definition
 
-Say for any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramSpectra} that:
+For any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramSpectra}, we say that:
 
 1. an object $X$ is an _Omega-spectrum_ if $seq^\ast X $ is an [[Omega spectrum]] in the standard sense of [[sequential spectra]];
 
@@ -523,9 +548,9 @@ but the reverse implication is false.
 The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra}, we call these the _stable model structures_
 
 $$
-  \mathbb{S}_{diag} Mod_{stable}
+  \mathbb{S}_{dia} Mod_{stable}
     \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
-  \mathbb{S}_{diag} Mod_{strict}
+  \mathbb{S}_{dia} Mod_{strict}
   \,.
 $$
 
@@ -571,6 +596,56 @@ $$
 =--
 
 ([MMSS 00, section 10](#MMSS00))
+
+#### Proof of the model structure
+
++-- {: .num_defn #FreeStructuredSpectrum}
+###### Definition
+
+For each $n \in \mathbb{N}$, the functor 
+
+$$
+  (-)_n
+  \;\colon\;
+  \mathbb{S}_{dia}Mod \stackrel{seq^\ast}{\longrightarrow} \mathbb{S}_{Seq}Mod \simeq SeqSpec(Top) \stackrel{(-)_n}{\longrightarrow} Top^{\ast/}
+$$
+
+that sends a [[structured spectrum]] (notation as in def. \ref{NotationForGenericDiagramSpectra}) to the $n$th component space of its underlying [[sequential spectrum]] has a [[left adjoint]]
+
+$$
+  F_n \;\colon\; Top^{\ast/} \longrightarrow \mathbb{S}_{dia}Mod
+  \,.
+$$
+
+This is called the _[[free structured spectrum]]_-functor.
+
+=--
+
+([MMSS 00, section 8](#MMSS00) [Schwede 12, example 3.20](#Schwede12))
+
++-- {: .num_defn }
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
+$$
+
+for the [[adjunct]] under the ([[free structured spectrum]] $\dahsv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the canonical [[topological suspace]] inclusion
+
+$$
+  S^1 \hookrightarrow (F_n S^0)_{n+1}
+  \,.
+$$
+
+=--
+
+([MMSS 00, def. 8.4](#MMSS00) [Schwede 12, example 4.26](#Schwede12))
+
+
+(...)
+
 
 ### 11.-16. Ring spectra and module spectra
  {#ModelStructuresOnRingSpectraAndModuleSpectra}
