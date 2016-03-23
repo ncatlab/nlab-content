@@ -148,6 +148,9 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
 =--
 
+## Examples
+
+* the [[classical model structure on pointed topological spaces]] is the model structure on the undercategory under the point of the [[classical model structure on topological spaces]].
 
 ## Related concepts
 
@@ -172,8 +175,8 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
 ## References ##
 
-* Hirschhorn, _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
-{#OvMod}
+* {#OvMod} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
+
 
 [[!redirects model structure on an overcategory]]
 [[!redirects model structure on an under category]]
