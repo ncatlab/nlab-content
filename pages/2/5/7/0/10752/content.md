@@ -19,7 +19,7 @@
 
 ## Idea
 
-The term _highly structured spectrum_ refers to models for [[spectra]] by [[model categories]] which carry a [[symmetric monoidal smash product of spectra]] (see there for more background). This includes [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]].
+The term _highly structured spectrum_ refers to models for [[spectra]] by [[model categories]] which carry more [[structure]] than [[sequential spectra]], such as to support a [[symmetric monoidal smash product of spectra]] (see there for more background). This includes [[excisive functors]], [[orthogonal spectra]], [[symmetric spectra]] and [[S-modules]]. 
 
 Similarly a _highly structured ring spectrum_ is a [[monoid]] in this context (a model for an [[A-infinity algebra]]/[[E-infinity algebra]]).
 
@@ -50,3 +50,6 @@ See at the following entries:
 
 [[!redirects highly structured ring spectrum]]
 [[!redirects highly structured ring spectra]]
+
+[[!redirects structured spectrum]]
+[[!redirects structured spectra]]
