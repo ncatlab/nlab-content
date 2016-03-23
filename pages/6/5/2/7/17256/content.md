@@ -65,6 +65,8 @@ Basic Examples:
 
 * [[mapping spectrum]]
 
+* [[free symmetric spectrum]]
+
 #### 3.3 Constructions involving ring spectra
 
 ### 4. Stable equivalences
