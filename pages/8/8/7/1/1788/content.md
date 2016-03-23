@@ -1,10 +1,4 @@
 
-+-- {: .num_theorem}
-###### Theorem
-
-Yes
-
-=--
 
 
 $$
