@@ -1,0 +1,43 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Stable Homotopy theory
++-- {: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+For [[highly structured spectra]] such as [[symmetric spectra]] and [[orthogonal spectra]], the [[functor]] $(-)_n$ which picks their $n$th component space, for any $n \in \mathbb{N}$, has a [[left adjoint]] $F_n$. A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)).
+
+## Properties
+
+For $n = 0$ the free construction is [[isomorphism|isomorphic]] to the corresponding structured [[suspension spectrum]] construction: $F_0 \simeq \Sigma^\infty$. Generally, the [[stable homotopy type]] of $F_n K$ is that of $\Omega^n (\Sigma^\infty K)$ ([Schwede 12, example 4.35](#Schwede12)).
+
+
+
+
+## References
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_ (2012)
+
+[[!redirects free spectra]]
+
+[[!redirects free structured spectrum]]
+[[!redirects free structured spectra]]
+
+[[!redirects free symmetric spectrum]]
+[[!redirects free symmetric spectra]]
+
+[[!redirects free orthogonal spectrum]]
+[[!redirects free orthogonal spectra]]
+
