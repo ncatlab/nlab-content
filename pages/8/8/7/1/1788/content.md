@@ -2,6 +2,20 @@
 $\box$ $\Box$
 
 $$
+ \array{
+   [Top_{fin}^{\ast/}, Top^{\ast/}]
+     \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
+   [Orth, Top^{\ast/}]
+     \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
+   [Sym, Top^{\ast/}] 
+     \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+   [Seq, Top^{\ast/}] 
+ }
+  \,.
+$$
+
+
+$$
   \array{
     X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
     \\
