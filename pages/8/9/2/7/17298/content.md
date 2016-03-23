@@ -599,6 +599,9 @@ $$
 
 #### Proof of the model structure
 
+The generating (acyclic) cofibrations are going to be the those induced from the [[classical model structure on topological spaces]], subject to a little addition arising as follows.
+
+
 +-- {: .num_defn #FreeStructuredSpectrum}
 ###### Definition
 
@@ -623,7 +626,7 @@ This is called the _[[free structured spectrum]]_-functor.
 
 ([MMSS 00, section 8](#MMSS00) [Schwede 12, example 3.20](#Schwede12))
 
-+-- {: .num_defn }
++-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
 ###### Definition
 
 For $n \in \mathbb{N}$, write
@@ -632,7 +635,7 @@ $$
   \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
 $$
 
-for the [[adjunct]] under the ([[free structured spectrum]] $\dahsv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the canonical [[topological suspace]] inclusion
+for the [[adjunct]] under the ([[free structured spectrum]] $\dashv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the canonical [[topological subspace]] inclusion
 
 $$
   S^1 \hookrightarrow (F_n S^0)_{n+1}
@@ -641,8 +644,137 @@ $$
 
 =--
 
-([MMSS 00, def. 8.4](#MMSS00) [Schwede 12, example 4.26](#Schwede12))
+([MMSS 00, def. 8.4](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
 
+The point of the morphisms in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} is that they corepresent the [[adjuncts]] of the structure maps of underlying [[sequential spectra]]:
+
++-- {: .num_lemma #IndeedCorepresentationOfAdjunctsOfStructureMaps}
+###### Lemma
+
+For any $X\in \mathbb{S}_{dia} Mod$ there is for each $n \in \mathbb{N}$ a [[commuting diagram]] of the form
+
+$$
+  \array{
+    \mathbb{S}_{dia}Mod(F_n S^0, X) &\simeq& Top^{\ast/}(S^0,X_n) &\simeq& X_n
+    \\
+    \downarrow^{\mathrlap{\lambda_n^\ast}}
+    && &&
+    \downarrow^{\mathrlap{\tilde \sigma_n}}
+    \\
+    \mathbb{S}_{dia}Mod(F_{n+1} S^1, X)
+    &\simeq&
+    Top^{\ast/}(S^1, X_{n+1})
+    &\simeq&
+    \Omega X_{n+1}
+  }
+  \,,
+$$
+
+where the left morphism is precomposition with the map from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
+
+=--
+
+([MMSS 00, lemma 8.5](#MMSS00))
+
++-- {: .num_lemma}
+###### Lemma
+
+The maps $\lambda_n$ in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}.
+
+=--
+
+([MMSS 00, def. 8.6](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+
+We need a cofibration resolution of these morphisms:
+
++-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
+###### Definition
+
+For $n \in \mathbb{N}$ write
+
+$$
+  \lambda_n \colon F_{n+} \stackrel{k_n}{\longrightarrow}
+  Cyl(\lambda_n)
+  \stackrel{def.retr.}{\longrightarrow}
+  F_n S^0
+$$
+
+for the factorization of the morphism $\lambda_n$ of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} through its [[mapping cylinder]] followed by a [[deformation retraction]] ([here](mapping+cylinder#FactorizationOfMapThroughMappingCylinderFollowedByDeformationRetraction)).
+
+=--
+
+With this we may finally state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
+
++-- {: .num_defn #GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}
+###### Definition
+
+Recall the sets
+
+$$
+  I \coloneqq \{S^{n-1} \hookrightarrow D^n\}_{n \in \mathbb{N}}
+$$
+
+$$
+  J \coloneqq \{D^n \hookrightarrow D^n \times I\}_{n \in \mathbb{N}}
+$$
+
+of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on topological spaces]].
+
+For $Dia \in \{Seq, Sym, Orth, Top^{\ast/}_{fin}\}$ any one of the four [[sites]], write
+
+$$
+  F I \coloneqq \{ y(x) \otimes i_+ \}_{{x \in Dia} \atop {i \in I}}
+$$
+
+for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating cofibration.
+Similarly, write
+
+$$
+  F J \coloneqq \{ y(x) \otimes j_+ \}_{{x \in Dia} \atop {j \in J}}
+  \,,
+$$
+
+for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on topological spaces]] (with basepoint adjoined).
+
+Finally write 
+
+$$
+  K 
+  \coloneqq
+  F J
+  \;\cup\;
+  \{
+    k_n \Box i_+
+  \}_{{n \in \mathbb{N}} \atop {i \in I}}
+$$
+
+for the [[disjoint union]] of $F J$ with the [[pushout products]] of the resolved maps $k_n$ from def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} with the elements in $I$.
+
+=--
+
+([MMSS 00, def. 9.3](#MMSS00))
+
+The point of the class $K$ in def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra} is to make the following true:
+
++-- {: .num_prop}
+###### Proposition
+
+A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective morphism]] (for $K$ from def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}) precisely if 
+
+1. it is fibration in the strict model structure (hence degreewise a fibration)
+
+1. for all $n \in \mathbb{N}$ the [[commuting squares]] of structure map compatibiliy on the underlying [[sequential spectra]] exhibit [[homotopy pullbacks]].  
+
+=--
+
+([MMSS 00, prop. 9.5](#MMSS00))
+
++-- {: .proof}
+###### Proof idea
+
+Lifting against $F J$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{k_n}$, which means that $f^{k_n}$ is a weak homotopy equivalence. But by construction and by lemma \ref{IndeedCorepresentationOfAdjunctsOfStructureMaps}, $f^{k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
+
+=--
 
 (...)
 
