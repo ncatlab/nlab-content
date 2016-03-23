@@ -143,6 +143,7 @@ under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these 
 
 =--
 
+For more on this see at _[[Model categories of diagram spectra]] -- [part I](Model%20categories%20of%20diagram%20spectra#PartI)_.
 
 ## Properties
 
@@ -167,6 +168,8 @@ does _not_ in general come out in the homotopy correct way; instead one needs to
 Among the various (now) common models for [[spectra]], this issue is unique to symmetric spectra, see also the comment in ([Mandell-May-Schwede-Shipley 01, p. 3](#MandellMaySchwedeShipley01)).
 
 In particular, this problem goes away for the concept of [[orthogonal spectra]], which otherwise is very similar to that of symmetric spectra and shares most of its advantages (except that it does not admit a version based on [[simplicial sets]]).
+
+Technically, the issue comes down to the fact that the [[quotients]] of [[symmetric groups]] $\Sigma_q/\Sigma_{q-n}$ do not become highly connected for large $q$ the way the quotients $O(q)/O(n-q)$ of [[orthogonal groups]] do ([Mandell-May-Schwede-Shipley 01, proof of lemma 8.6, top of p. 26](#MandellMaySchwedeShipley01)).
 
 ## Related concepts
 
