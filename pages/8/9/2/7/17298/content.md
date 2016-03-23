@@ -1,4 +1,3 @@
-fpart II
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -141,6 +140,8 @@ The sequence of inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} 
 
 (e.g. [MMSS 00, I.3](#MMSS00))
 
+
+
 Notice the following:
 
 +-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
@@ -220,7 +221,6 @@ $$
 =--
 
 
-
 Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{StandardRepresentativeOfTheSphereSpectrum}.
 
 +-- {: .num_prop #HighlyStructuredSpectraAsDayConvolutionSModules}
@@ -281,13 +281,33 @@ $$
   \,,
 $$
 
-which holds simply because by def. \ref{StandardRepresentativeOfTheSphereSpectrum} $\mathbb{S}$ is in fact the [[tensor unit]] in $([Top^{\ast/}_{fin}, Top^{\ast/}],\otimes_{Day})$, so that every object here is canonically a module object over $\mathbb{S}$.
+which holds tautologically because by def. \ref{StandardRepresentativeOfTheSphereSpectrum} $\mathbb{S}$ is in fact the [[tensor unit]] in $([Top^{\ast/}_{fin}, Top^{\ast/}],\otimes_{Day})$, so that every object here is canonically a module object over $\mathbb{S}$.
 
 Now the [[model structure on excisive functors]] shows that the category $[Top^{\ast/}_{fin}, Top^{\ast/}]$ constitutes a model for [[stable homotopy theory]], while this is not the case for either of its restrictions. 
 
 Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as saying that while restricting the domain of [[excisive functors]] breaks their property of being a model for [[stable homotopy theory]], but at the same time retaining the correspondingly restricted [[sphere spectrum]]-[[module]] structure first of all becomes non-tautological after restriction and second restores the property of the objects to model spectra.
 
 =--
+
++-- {: .num_defn #SymmetricSmashProductOfDiagramSpectra}
+###### Definition
+
+By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such thy inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
+
+$$
+  (SymSpec(Top), \wedge)
+$$
+
+on the category of [[symmetric spectra]] and 
+
+$$
+  (OrthSpec(Top), \wedge)
+$$
+
+on that of [[orthogonal spectra]]. This is called the _[[symmetric monoidal smash product of spectra]]_.
+
+=--
+
 
 +-- {: .num_remark #SystemOfStructuredSpectraAndDiagrams}
 ###### Remark
@@ -379,7 +399,7 @@ We now discuss equipping the diagram categories of [part I](#PartI) with [[model
 ### 5.-10. Plain spectra
  {#ModelStructuresForPlainSpectra}
 
-We discuss model structures for plain spectra, [below](ModelStructuresOnRingSpectraAndModuleSpectra) we discuss model structures for [[ring spectra]] and [[module spectra]].
+Here we discuss model structures for plain spectra, [below](ModelStructuresOnRingSpectraAndModuleSpectra) we discuss model structures for [[ring spectra]] and [[module spectra]].
 
 First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stabel model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
 
@@ -497,7 +517,7 @@ but the reverse implication is false.
 
 ([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
 
-+-- {: .num_thm #StableModelStructuresOnDiagramSpectra}
++-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
 The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra}, we call these the _stable model structures_
@@ -524,7 +544,7 @@ Moreover these stable model structures are
 
 
 
-+-- {: .num_thm #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
++-- {: .num_theorem #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
 The sequence of [[Quillen adjunctions]] between the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
