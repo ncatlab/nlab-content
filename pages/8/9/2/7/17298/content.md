@@ -514,33 +514,26 @@ For any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramS
 
 ([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
-Except for the case of [[symmetric spectra]], the concepts of stable weak homotopy equivalences and of stable equivalences coincide
-
-+-- {: .num_prop #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
++-- {: .num_prop #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}
 ###### Proposition
 
-In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Leftrightarrow\;
-  stable \; equivalence
-  \,.
-$$
-
-In $\mathbb{S}_{Sym}Mod$ however we only have
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Rightarrow\;
-  stable \; equivalence
-$$
-
-but the reverse implication is false.
+A stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra}) is in particular a weak equivalence in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}).
 
 =--
 
-([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
++-- {: .proof}
+###### Proof
+
+If $f \colon X \to Y$ is a stable equivalence, then by assumption and by definition, in particular
+
+$$
+  [f,X]_{strict} \;\colon\; [Y,X]_{strict} \longrightarrow [X,X]_{strict}
+$$
+
+is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an inverse to $f$ in the [[homotopy category]] of the strict model structure. Hence $f$ represents an isomorphism in the strict homotopy category and is hence a strict weak equivalence.
+
+=--
+
 
 +-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
 ###### Theorem
@@ -599,13 +592,13 @@ $$
 
 #### Proof of the model structure
 
-The generating (acyclic) cofibrations are going to be the those induced from the [[classical model structure on topological spaces]], subject to a little addition arising as follows.
+The generating cofibrations and acylic cofibrations are going to be the those induced from the [[classical model structure on topological spaces]], except that we add a set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
 
 +-- {: .num_defn #FreeStructuredSpectrum}
 ###### Definition
 
-For each $n \in \mathbb{N}$, the functor 
+For $dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ and for each $n \in \mathbb{N}$, the functor 
 
 $$
   (-)_n
@@ -616,52 +609,55 @@ $$
 that sends a [[structured spectrum]] (notation as in def. \ref{NotationForGenericDiagramSpectra}) to the $n$th component space of its underlying [[sequential spectrum]] has a [[left adjoint]]
 
 $$
-  F_n \;\colon\; Top^{\ast/} \longrightarrow \mathbb{S}_{dia}Mod
+  F^{dia}_n \;\colon\; Top^{\ast/} \longrightarrow \mathbb{S}_{dia}Mod
   \,.
 $$
 
 This is called the _[[free structured spectrum]]_-functor.
 
-=--
-
-([MMSS 00, section 8](#MMSS00) [Schwede 12, example 3.20](#Schwede12))
-
-+-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
-###### Definition
-
-For $n \in \mathbb{N}$, write
+The [[adjunction units]] in the sequence of adjunctions equip these with canonical [[natural transformations]]
 
 $$
-  \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
-$$
-
-for the [[adjunct]] under the ([[free structured spectrum]] $\dashv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the canonical [[topological subspace]] inclusion
-
-$$
-  S^1 \hookrightarrow (F_n S^0)_{n+1}
+  F_n^{Seq}
+    \stackrel{f_n^{Seq}}{\longrightarrow}
+  F_n^{Sym}
+    \stackrel{f_n^{Sym}}{\longrightarrow}
+  F_n^{Orth}
+    \stackrel{f_n^{Orth}}{\longrightarrow}
+  F_n^{Top^{\ast/}_{fin}}
   \,.
 $$
 
 =--
 
-([MMSS 00, def. 8.4](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+([MMSS 00, section 8](#MMSS00))
 
-The point of the morphisms in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} is that they corepresent the [[adjuncts]] of the structure maps of underlying [[sequential spectra]]:
+This allows to co-represent the adjuncts of structure morphism of underlying sequential spectra
 
-+-- {: .num_lemma #IndeedCorepresentationOfAdjunctsOfStructureMaps}
++-- {: .num_lemma #CorepresentingOfAdjunctsOfStructureMapsExists}
 ###### Lemma
 
-For any $X\in \mathbb{S}_{dia} Mod$ there is for each $n \in \mathbb{N}$ a [[commuting diagram]] of the form
+For each $n \in \mathbb{N}$ there exists a morphism
+
+$$
+  \lambda_n
+  \;\colon\;
+  F_{n+1}^{dia}S^1
+  \longrightarrow
+  F_n^{dia} S^0
+$$
+
+such that for every $X\in \mathbb{S}_{dia} Mod$ precomposition $\lambda_n^\ast$ forms a [[commuting diagram]] of the form
 
 $$
   \array{
-    \mathbb{S}_{dia}Mod(F_n S^0, X) &\simeq& Top^{\ast/}(S^0,X_n) &\simeq& X_n
+    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, X) &\simeq& Top^{\ast/}(S^0,X_n) &\simeq& X_n
     \\
     \downarrow^{\mathrlap{\lambda_n^\ast}}
     && &&
-    \downarrow^{\mathrlap{\tilde \sigma_n}}
+    \downarrow^{\mathrlap{\tilde \sigma^X_n}}
     \\
-    \mathbb{S}_{dia}Mod(F_{n+1} S^1, X)
+    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, X)
     &\simeq&
     Top^{\ast/}(S^1, X_{n+1})
     &\simeq&
@@ -670,22 +666,44 @@ $$
   \,,
 $$
 
-where the left morphism is precomposition with the map from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
+where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
 
 =--
 
-([MMSS 00, lemma 8.5](#MMSS00))
++-- {: .proof}
+###### Proof
 
-+-- {: .num_lemma}
-###### Lemma
+Since all prescribed morphisms in the diagram are [[natural transformations]], this is in fact a diagram of copreheaves on $\mathbb{S}_{dia} Mod$
 
-The maps $\lambda_n$ in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}.
+$$
+  \array{
+    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, -) &\simeq& Top^{\ast/}(S^0,(-)_n) &\simeq& (-)_n
+    \\
+    \downarrow^{\mathrlap{}}
+    && &&
+    \downarrow^{\mathrlap{\tilde \sigma^{(-)}_n}}
+    \\
+    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, -)
+    &\simeq&
+    Top^{\ast/}(S^1, (-)_{n+1})
+    &\simeq&
+    \Omega (-)_{n+1}
+  }
+  \,.
+$$
+
+With this the statement follows by the [[Yoneda lemma]].
 
 =--
 
-([MMSS 00, def. 8.6](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
++-- {: .num_remark }
+###### Remark
 
-We need a cofibration resolution of these morphisms:
+By construction, the morphisms $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} are stable equivalences according to def. \ref{StableEquivalencesForDiagramSpectra}.
+
+=--
+
+We need to in addition resolve them by suitable cofibrations:
 
 +-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
 ###### Definition
@@ -699,11 +717,11 @@ $$
   F_n S^0
 $$
 
-for the factorization of the morphism $\lambda_n$ of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} through its [[mapping cylinder]] followed by a [[deformation retraction]] ([here](mapping+cylinder#FactorizationOfMapThroughMappingCylinderFollowedByDeformationRetraction)).
+for the factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} through its [[mapping cylinder]] followed by a [[deformation retraction]] ([here](mapping+cylinder#FactorizationOfMapThroughMappingCylinderFollowedByDeformationRetraction)).
 
 =--
 
-With this we may finally state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
+With this we may state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
 
 +-- {: .num_defn #GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}
 ###### Definition
@@ -756,8 +774,8 @@ for the [[disjoint union]] of $F J$ with the [[pushout products]] of the resolve
 
 The point of the class $K$ in def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra} is to make the following true:
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_lemma #KInjectivesAreAcyclicCofibrations}
+###### Lemma
 
 A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective morphism]] (for $K$ from def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}) precisely if 
 
@@ -772,11 +790,153 @@ A morphism $f \colon X \to Y$ in $\mathbb{S}_{dia} Mod$ is a $K$-[[injective mor
 +-- {: .proof}
 ###### Proof idea
 
-Lifting against $F J$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{k_n}$, which means that $f^{k_n}$ is a weak homotopy equivalence. But by construction and by lemma \ref{IndeedCorepresentationOfAdjunctsOfStructureMaps}, $f^{k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
+Lifting against $F J$ alone characterizes strict fibrations, hence degreewise fibrations. Lifting against the remaining [[pushout product]] morphism $k_n \Box i_+$ is, by [[Joyal-Tierney calculus]], equivalent to left lifting $i_+$ against the dual pullback product of $f^{k_n}$, which means that $f^{k_n}$ is a weak homotopy equivalence. But by construction (lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}) $f^{k_n}$ is the comparison morphism into the homotopy pullback under consideration. 
+
+=--
+
++-- {: .num_cor #KInjectivesObjectsAreOmegaSpectra}
+###### Corollary
+
+A $K$-[[injective object]] (for $K$ from def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}) is in particular an Omega-spectrum, def. \ref{StableEquivalencesForDiagramSpectra}.
+
+=--
+
+
++-- {: .num_lemma }
+###### Lemma
+
+A morphism in $\mathbb{S}_{dia}Mod$ which is both a stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra}) as well as a $K$-[[injective morphisms]] (with respect to $K$ from def. \ref{GeneratingAndGenetatingAcyclicCofibrationsForDiagramSpectra}) is a weak equivalence in the stric model structure, def. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] of topological spaces.
+
+=--
+
+([MMSS 00, corollary 9.8](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Let $f\colon E \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection by assumption, also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
+
+Observe also that $F$, being the pullback of a $K$-injective morphisms is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] imply that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But by the above $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
 
 =--
 
 (...)
+
+#### The relation between stable equivalences and stable weak homotopy equivalences
+
+> some more stuff, to be organized...
+
++-- {: .num_prop #ExplicitFormOfFreeSpectra}
+###### Proposition
+
+Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
+
+For [[sequential spectra]]: $(F_n K)_q = K \wedge S^{q-n}$;
+
+for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge O^{q-n}$;
+
+for [[symmetric spectra]]: $(F_n K)_q = \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
+
+=--
+
+(e.g. [Schwede 12, example 3.20](#Schwede12))
+
++-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
+$$
+
+for the [[adjunct]] under the ([[free structured spectrum]] $\dashv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the composite morphism
+
+$$
+  S^1 
+    \stackrel{=}{\to}
+  (F_n^{Seq}(S^0))_{n+1}
+    \stackrel{(f_n^{Seq})_{n+1}}{\hookrightarrow} 
+  (F^{dia}_n S^0)_{n+1}
+  \,,
+$$
+
+where the first morphism is via prop. \ref{ExplicitFormOfFreeSpectra} and the second comes from the adjunction units according to def. \ref{FreeStructuredSpectrum}.
+
+=--
+
+([MMSS 00, def. 8.4](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+
++-- {: .num_lemma #IndeedCorepresentationOfAdjunctsOfStructureMaps}
+###### Lemma
+
+The morphisms of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are those whose existence is asserted by prop. \ref{CorepresentingOfAdjunctsOfStructureMapsExists}.
+ 
+=--
+
+([MMSS 00, lemma 8.5](#MMSS00))
+
+
++-- {: .num_lemma}
+###### Lemma
+
+The maps $\lambda_n$ in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
+
+1. stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for all four $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$
+
+1. stable weak homotopy equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Seq}\}$;
+
+1. _not_ stable weak homotopy equivalences for $\mathbb{S}_{dia} = \mathbb{S}_{Sym}$
+
+
+
+=--
+
+([MMSS 00, def. 8.6](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+
++-- {: .proof}
+###### Proof
+
+The first statement is an immediate consequence of lemma \ref{IndeedCorepresentationOfAdjunctsOfStructureMaps}.
+
+The other two follow from inspection of the explicit form of the map according to prop. \ref{ExplicitFormOfFreeSpectra}. 
+
+=--
+
+Except for the case of [[symmetric spectra]], the concepts of stable weak homotopy equivalences and of stable equivalences coincide:
+
++-- {: .num_prop #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
+###### Proposition
+
+In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Leftrightarrow\;
+  stable \; equivalence
+  \,.
+$$
+
+In $\mathbb{S}_{Sym}Mod$ however we only have
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Rightarrow\;
+  stable \; equivalence
+$$
+
+but the reverse implication is false.
+
+=--
+
+([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
+
+
+
+(...)
+
 
 
 ### 11.-16. Ring spectra and module spectra
