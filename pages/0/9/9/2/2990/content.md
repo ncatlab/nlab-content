@@ -37,10 +37,12 @@ Set-theoretically, the mapping cylinder is usually represented as the [[quotient
 
 As any other pushout, the mapping cylinder has a [[universal property]]: for any space $Z$ and mapping $g_1:X\times I\to Z$, $g_2:Y\to Z$ such that $g_1(x,0)=g_2(f(x))$ for all $x\in X$, there is a unique $k:Cyl(f)\to Z$, such that the composition $X\times I\to Cyl(f)\stackrel{k}\to Z$ equals $g_1$ and the composition $Y\to Cyl(f)\stackrel{k}\to Z$ equals $g_2$.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #FactorizationOfMapThroughMappingCylinderFollowedByDeformationRetraction}
 ###### Theorem
-Let $f:X\to Y$ be any continuous map.
-The canonical map $j:=f_*(\sigma_0):Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. 
+
+For  $f \colon X\to Y$ a [[continuous function]],
+the canonical map $j \coloneq f_*(\sigma_0):Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. In particular every continuous function facts as a map into its mapping cylinder followed by a deformation retraction.
+
 =--
 
 +-- {: .proof}
