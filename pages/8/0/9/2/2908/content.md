@@ -51,7 +51,7 @@ An algebraic (or monadic) category is __finitary__ if the following condition ho
 *  For every finitely [[directed colimit]] in $A$, the universal [[cocone]] is jointly [[surjection|surjective]] in $Set$.
 =--
 
-Note that this a weakening of the condition that the forgetful functor $U$ is [[finitary functor|fintary]] (that is, that $U$ preserves directed colimits); every universal cocone in $Set$ is jointly surjective, but not conversely.
+Note that this a weakening of the condition that the forgetful functor $U$ is [[finitary functor|finitary]] (that is, that $U$ preserves directed colimits); every universal cocone in $Set$ is jointly surjective, but not conversely.
 
 
 ## Properties
