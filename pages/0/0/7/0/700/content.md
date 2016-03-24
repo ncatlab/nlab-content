@@ -108,7 +108,7 @@ This implies:
 +-- {: .num_prop #RetractOfIso}
 ###### Proposition
 
-In every category $C$ the class of [[isomorphism]]s is preserved under retracts in $[\Delta[1], C]$
+In every category $C$ the class of [[isomorphism]]s is preserved under retracts in the [[arrow category]] $[\Delta[1], C]$
 
 =--
 
@@ -119,11 +119,11 @@ This is also checked directly: for
 
 $$
   \array{
-    Id: & a_1 &\to& a_2 &\to& a_1
+    id \colon & a_1 &\to& a_2 &\to& a_1
     \\
     & \downarrow && \downarrow && \downarrow
     \\
-    Id: & b_1 &\to& b_2 &\to& b_1    
+    id \colon & b_1 &\to& b_2 &\to& b_1    
   }
 $$
 
