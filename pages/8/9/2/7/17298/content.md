@@ -349,6 +349,81 @@ $$
 
 =--
 
+In order to conveniently speak about all columns of the system of adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} in a unified way, we introduce the following notation.
+
++-- {: .num_defn #NotationForGenericDiagramSpectra}
+###### Definition
+
+We write $dia \in \{Top^{\ast/, Orth, Sym, Seq}\}$ generically for any one of the four sites in def. \ref{TopologicalDiagramCategoriesForSpectra}.
+
+Accordingly we write $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$ generically for any one of the four incarnations of [[generalized the|the]] [[sphere spectrum]] according to def. \ref{StandardRepresentativeOfTheSphereSpectrum}, over these sites.
+
+Finally we will write
+
+
+$$
+  \mathbb{S}_{dia}Mod 
+   \stackrel{\overset{seq!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+  \mathbb{S}_{Seq}Mod
+  \simeq
+  SeqSpec(Top)
+$$
+
+for the [[composition]] of the sequence of [[adjunctions]] to the right of the corresponding category of modules in the diagram below in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, regarded via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} and landing in the category of [[sequential spectra]].
+
+=--
+
+
+
+We would like to lift the horizontal adjunctions in the diagram in remark \ref{SystemOfStructuredSpectraAndDiagrams} from the bottom row to the top row. To that end, oberve that the [[categories of modules]] involved here are themselves still [[enriched functor categories]]:
+
++-- {: .num_lemma #SModulesAsEnrichedFunctors}
+###### Lemma
+
+Let ${dia} \in \{Top^{\ast/}, {Orth}, {Sym}, {Seq}\}$ be any one of the sites in def. \ref{TopologicalDiagramCategoriesForSpectra}. 
+
+1. There is an [[equivalence of categories]]
+
+   $$
+     \mathbb{S}_{dia} Mod \simeq [ \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/} ]
+   $$
+
+   between the corresponding [[category of modules]] (prop.   \ref{HighlyStructuredSpectraAsDayConvolutionSModules}) and the $Top^{\ast/}$-[[enriched functor category]] over the [[opposite category|opposite]] of its [[full subcategory]] on the [[free modules]].
+
+1. If $\mathbb{S}_{dia}$ is a [[commutative monoid]] (hence for $dia \in \{Top^\ast/, Orth,Sym\}$ but not for $dia = Seq$) then $\mathbb{S}_{dia} FreeMod^{op}$ carries a [[symmetric monoidal category]] structure such that under the above equivalence its [[Day convolution]] is the [[tensor product of modules]].
+
+1. There is a $Top^{\ast/}$-[[enriched functor]]
+
+   $$
+     \delta \colon dia \longrightarrow \mathbb{S}_{dia} FreeMod^{op}
+   $$
+
+   which is monoidal when $\mathbb{S}_{dia}$ is commutative and which is such that the ([[free module]]$\dashv$[[forgetful functor]])-adjunction is equivalently the [[base change]] along $\delta$:
+
+   $$
+     \array{
+       \mathbb{S}_{dia} Mod 
+         &\simeq&
+       [ \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}] 
+       \\
+       {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+       &&
+       {}^{\mathllap{\delta^\ast}}\downarrow \uparrow^{\mathrlap{\delta_!}}
+       \\
+       [dia, Top^{\ast/}] 
+         &=&
+       [dia, Top^{\ast/}] 
+     }
+     \,.
+   $$
+
+=--
+
+
+This is a general statement about modules with respect to [[Day convolution]] monoidal structures, see [this proposition](Day+convolution#ModulesInDayConvolutionAreFunctorsOnFreeModulesOp)  ([MMSS 00, theorem 2.2](#MMSS00)). 
+
+From lemma \ref{SModulesAsEnrichedFunctors} we immediately get the following:
+
 
 +-- {: .num_prop #SystemOfAdjunctionsForDiagramSpectra}
 ###### Proposition
@@ -393,26 +468,6 @@ $$
 =--
 
 ([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
-
-In order to conveniently speak about all columns of the system of adjunctions in prop. \ref{SystemOfAdjunctionsForDiagramSpectra} in a unified way, we introduce the following notation.
-
-+-- {: .num_defn #NotationForGenericDiagramSpectra}
-###### Definition
-
-For $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$ any one of the four incarnations of [[generalized the|the]] [[sphere spectrum]] according to def. \ref{StandardRepresentativeOfTheSphereSpectrum}, write
-
-
-$$
-  \mathbb{S}_{dia}Mod 
-   \stackrel{seq_!}{\underset{seq^\ast}{\longrightarrow}}
-  \mathbb{S}_{Seq}Mod
-  \simeq
-  SeqSpec(Top)
-$$
-
-for the [[composition]] of the sequence of [[adjunctions]] to the right of the corresponding category of modules in the diagram in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, regarded via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} and landing in the category of [[sequential spectra]].
-
-=--
 
 
 ## Part II. Model categories of diagram spectra
@@ -887,9 +942,57 @@ In the other direction, if $f$ is a stable equivalence and strict cofibration, b
 
 (...)
 
-#### Relation between stable equivalences and stable weak homotopy equivalences
+#### Relating stable equivalences and stable weak homotopy equivalences
 
-> some more stuff, to be organized...
+Here we discuss that the two concepts of stable equivalences and of stable weak homotopy equivalences in def. \ref{StableEquivalencesForDiagramSpectra} agree in the cases of pre-[[excisive funtors]], [[orthogonal spectra]] and [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalence:
+
++-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
+###### Theorem
+
+In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Leftrightarrow\;
+  stable \; equivalence
+  \,.
+$$
+
+In $\mathbb{S}_{Sym}Mod$ however we only have
+
+$$
+  stable\;weak\;homotopy\;equivalence 
+  \;\Rightarrow\;
+  stable \; equivalence
+$$
+
+but the reverse implication is false.
+
+=--
+
+([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
+
+
+This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
+
+The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly abstract ("formal"). This we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement however relies on explicit analysis of the class $K$ of generatinc acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. This takes a bit more work below.
+
++-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
+###### Proposition
+
+In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equivalence is a stable equivalence.
+
+=--
+
+([MMSS 00, prop. 8.8](#MMSS00))
+
+
+(...)
+
+
+Now for the converse
+
+
 
 +-- {: .num_prop #ExplicitFormOfFreeSpectra}
 ###### Proposition
@@ -967,34 +1070,6 @@ The first statement is an immediate consequence of lemma \ref{IndeedCorepresenta
 The other two follow from inspection of the explicit form of the map according to prop. \ref{ExplicitFormOfFreeSpectra}. 
 
 =--
-
-Except for the case of [[symmetric spectra]], the concepts of stable weak homotopy equivalences and of stable equivalences coincide:
-
-+-- {: .num_prop #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
-###### Proposition
-
-In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Leftrightarrow\;
-  stable \; equivalence
-  \,.
-$$
-
-In $\mathbb{S}_{Sym}Mod$ however we only have
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Rightarrow\;
-  stable \; equivalence
-$$
-
-but the reverse implication is false.
-
-=--
-
-([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
 
 
 
