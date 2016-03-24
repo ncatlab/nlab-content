@@ -486,10 +486,10 @@ Here we discuss model structures for plain spectra, [below](ModelStructuresOnRin
 
 #### Statement of the model structure
 
-First we consider, def. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stable model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
+First we consider, prop. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stable model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
 
-+-- {: .num_defn #StrictModelStructureOnDiagramSpectra}
-###### Definition
++-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
+###### Proposition
 
 Write $[Seq, Top^{\ast/}_{Quillen}]$ for the [[model category]] structure on $\mathbb{N}$-parameterized sequences of pointed topological spaces, whose weak equivalences, fibrations and cofibrations are degreewise those of the [[classical model structure on pointed topological spaces]]. (This is equivalently the induced injective or projective [[model structure on functors]]).
 
@@ -534,25 +534,27 @@ $$
 
 (see [MMSS 00, Variant 6.10](#MMSS00))
 
++-- {: .proof}
+###### Proof
+
+To see that indeed all the adjunctions here are [[Quillen adjunctions]], use that by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and lemma \ref{SModulesAsEnrichedFunctors} all [[right adjoints]] are given by restrictions of [[sites]]. By definition of the strict model structures and transferred moddel structures their fibrations and acyclic fibrations are objectwise so, and hence are preserved by these restriction functors.
+
+=--
+
+
 +-- {: .num_remark #TheStrictModelStructuresOnDiagramSpectra}
 ###### Remark
 
-The model structure $\mathbb{S}_{seq} Mod_{strict}$ in def. \ref{StrictModelStructureOnDiagramSpectra}
+The model structure 
+
+$$
+  \mathbb{S}_{seq} Mod_{strict}
+  \simeq
+  SeqSpec(Top)_{strict}
+$$ 
+
+in prop. \ref{StrictModelStructureOnDiagramSpectra}
 is the _[strict Bousfield-Friedlander model structure](Bousfield-Friedlander%20model%20structure#TheStrictModelStructure)_.
-
-
-$$
- \array{
-   \mathbb{S} Mod_{strict}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Orth} Mod_{strict}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Sym} Mod_{strict}
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Seq} Mod_{strict}
- }
-  \,.
-$$
 
 =--
 
@@ -565,7 +567,7 @@ For any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramS
 
 1. a morphism $f$ is a _stable weak homotopy equivalence_ if $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the standard sense of [[sequential spectra]] (an [[isomorphism]] on all [[stable homotopy groups]] of sequential spectra);
 
-1. a morphism $f$ is a _stable equivalence_ if for all Omega spectra $X$ in the above sense, the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category]] of the strict model structure of def. \ref{StrictModelStructureOnDiagramSpectra}.
+1. a morphism $f$ is a _stable equivalence_ if for all Omega spectra $X$ in the above sense, the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category]] of the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 
 =--
@@ -577,7 +579,7 @@ For any of the four categories in remark \ref{TheStrictModelStructuresOnDiagramS
 +-- {: .num_prop #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}
 ###### Proposition
 
-The weak equivalences in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}) and the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} are related as follows:
+The weak equivalences in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}) and the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} are related as follows:
 
 1. Every weak equivalence with respect to the strict model structure is a stable equivalence.
 
@@ -607,7 +609,7 @@ is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an
 +-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
-The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} exist,  called these the _stable model structures_
+The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} exist,  called these the _stable model structures_
 
 $$
   \mathbb{S}_{dia} Mod_{stable}
@@ -634,7 +636,7 @@ Moreover these stable model structures are
 +-- {: .num_theorem #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
-The sequence of [[Quillen adjunctions]] between the strict model structures of def. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
+The sequence of [[Quillen adjunctions]] between the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
 
 $$
  \array{
@@ -645,11 +647,11 @@ $$
    && \downarrow^{\mathrlap{\simeq}}
    \\
    \mathbb{S} Mod_{stable}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{\simeq_{Qu}}{\longrightarrow}}&
    \mathbb{S}_{Orth} Mod_{stable}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{\simeq_{Qu}}{\longrightarrow}}&
    \mathbb{S}_{Sym} Mod_{stable}
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{\simeq_{Qu}}{\longrightarrow}}&
    \mathbb{S}_{Seq} Mod_{stable}
  }
   \,.
@@ -853,7 +855,7 @@ for the [[disjoint union]] of $F J$ with the [[pushout products]] of the resolve
 
 Every element in $K$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) is both:
 
-1. a cofibration with respect to the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra});
+1. a cofibration with respect to the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra});
 
 1. a stable equivalence (def. \ref{StableEquivalencesForDiagramSpectra}).
 
@@ -908,7 +910,7 @@ A morphism in $\mathbb{S}_{dia}Mod$ which is both
 
 1. a $K$-[[injective morphisms]] (with respect to $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) 
 
-is an acyclic fibration in the stric model structure, def. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
+is an acyclic fibration in the stric model structure, prop. \ref{StrictModelStructureOnDiagramSpectra}, hence is degreewise a [[weak homotopy equivalence]] and [[Serre fibration]] of topological spaces;
 
 =--
 
@@ -917,7 +919,7 @@ is an acyclic fibration in the stric model structure, def. \ref{StrictModelStruc
 +-- {: .proof}
 ###### Proof
 
-Let $f\colon E \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
+Let $f\colon E \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the fiber $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
 
 Observe also that $F$, being the pullback of a $K$-injective morphisms is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] imply that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
@@ -932,7 +934,7 @@ For $K$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpect
 
 1. stable equivalences (def. \ref{StableEquivalencesForDiagramSpectra}), 
 
-1. as well as a cofibration with respect to the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}).
+1. as well as a cofibration with respect to the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}).
 
 =--
 
@@ -970,7 +972,7 @@ A morphism in $\mathbb{S}_{dia}Mod$ is both
 
 1. [[injective morphism|injective]] with respect to the cofibrations of the strict model structure that are also stable equivalences;
 
-precisely if it is an acylic fibration in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}).
+precisely if it is an acylic fibration in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}).
 
 =--
 
@@ -994,6 +996,15 @@ The non-trivial points to check are the two [[weak factorization systems]].
 That $(cof_{stable}\cap weq_{stable} \;,\; fib_{stable})$ is a weak factorization system follows from lemma \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations} and the [[small object argument]]. 
 
 By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the stable acyclic fibrations are equivalently the strict acyclic fibrations and hence the weak factorization system $(cof_{stable} \;,\; fib_{stable} \cap we_{stable})$ is identified with that of the strict model structure $(cof_{strict} \;,\; fib_{strict} \cap we_{strict})$.
+
+=--
+
+#### Proof of the Quillen equivalence of all stable model structures
+
++-- {: .num_prop }
+###### Proposition
+
+(...)
 
 =--
 
@@ -1084,7 +1095,7 @@ for the 0th-component map into the colimit.
 
 The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the following properties.
 
-1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (def. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
+1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
 
 1. for $f\colon X \longrightarrow Y$ a stable weak homotopy equivalence according to def. \ref{StableEquivalencesForDiagramSpectra}, then $R^\infty f \colon R^\infty X \longrightarrow R^\infty Y$ is a weak equivalence in the strict model structure.
 
