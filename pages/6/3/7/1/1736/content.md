@@ -53,7 +53,9 @@ The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the follow
 
 * For every cofibrant object $c \in C$ and every fibrant object $d \in D$, a morphism $c \to R(d)$ is a weak equivalence in $C$ precisely when the [[adjunct]] morphism $L(c) \to d$ is a weak equivalence in $D$.
 
-* For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ is a weak equivalence in $C$, and for every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ is a weak equivalence in $D$, where $(-)^{fib}$ and $(-)^{cof}$ denote fibrant and cofibrant [[resolutions]], respectively.
+* 1. For every cofibrant object $c\in C$, the composite $c \to R(L(c)) \to R(L(c)^{fib})$ (of the [[adjunction unit]] with a fibrant replacement $R(L(c) \stackrel{\simeq}{\to} L(c)^{fib})$) is a weak equivalence in $C$, 
+
+  1. For every fibrant object $d\in D$, the composite $L(R(d)^{cof}) \to L(R(d)) \to d$ (of the [[adjunction counit]] with cofibrant replacement $L(R(d)^{cof} \stackrel{\simeq}{\to} R(d))$) is a weak equivalence in $D$.
 
 =--
 
@@ -67,7 +69,9 @@ Not every equivalence between homotopy categories of model categories lifts to a
 
 ## Properties
 
-### 2-out-of-3 {#TwoOutOfThree}
+### 2-out-of-3 
+  {#TwoOutOfThree}
+
 
 Since [[equivalence of categories|equivalences of categories]] enjoy the [[category with weak equivalences|2-out-of-3-property]], so do Quillen equivalences.
 
