@@ -48,16 +48,38 @@ If the model category happens to be a [[combinatorial simplicial model category]
 
 ## Definition
 
-A **model structure** on a [[category]] $C$ consists of three distinguished [[classes]] of [[morphisms]] - the **cofibrations** $Cof \subset Mor(C)$, the **fibrations** $Fib$, and the **weak equivalences** $W$ - satisfying the following two conditions:
++-- {: .num_defn #ModelStructure}
+###### Definition
 
-* (i) $W$ makes $C$ into a [[category with weak equivalences]], meaning that it contains all [[isomorphisms]] and is closed under **[[two-out-of-three]]**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third.
+A **model structure** on a [[category]] $\mathcal{C}$ is a choice of three distinguished [[classes]] of [[morphisms]]
 
-* (ii) $(Cof, Fib \cap W)$ and $(Cof \cap W, Fib)$ are two [[weak factorization system|weak factorization systems]] on $C$.
+* _cofibrations_ $Cof \subset Mor(\mathcal{C})$, 
 
-A **model category** is a [[complete category|complete]] and [[cocomplete category]] $C$ equipped with a model structure $(Cof,Fib,W)$.  
+* _fibrations_ $Fib \subset Mor(\mathcal{C})$, 
+
+* _weak equivalences_ $W \subset Mor(\mathcal{C})$ 
+
+satisfying the following conditions:
+
+1.  $W$ makes $\mathcal{C}$ into a [[category with weak equivalences]], 
+
+    (meaning that it contains all [[isomorphisms]] and is closed under **[[two-out-of-three]]**: given a composable pair of morphisms $f,g$, if two out of the three morphisms $f, g, g f$ are in $W$, so is the third);
+
+1. $(Cof, Fib \cap W)$ and $(Cof \cap W, Fib)$ are two [[weak factorization systems]] on $\mathcal{C}$.
+
+=--
+
++-- {: .num_defn #ModelCategory}
+###### Definition
+
+A **model category** is a [[complete category|complete]] and [[cocomplete category]] $\mathcal{C}$ equipped with a model structur according to def. \ref{ModelStructure}.
+
+=--
 
 
-**Terminology**
++-- {: .num_defn }
+###### Definition
+**(terminology)**
 
 * The morphisms in $W \cap Fib$ (the fibrations that are also weak equivalences) are called **trivial fibrations** or **[[acyclic fibrations]]** 
 
@@ -67,8 +89,14 @@ A **model category** is a [[complete category|complete]] and [[cocomplete catego
 
 * An object is called **[[fibrant]]** if the unique morphism $X\to *$ to the [[terminal object]] is a fibration.  
 
+=--
+
++-- {: .num_remark }
+###### Remark
+
 Often, the fibrant and cofibrant objects are the ones one is "really" interested in, but the category consisting only of these is not well-behaved (as a 1-category).  The factorizations supply fibrant and cofibrant replacement functors which allow us to treat any object of the model category as a 'model' for its fibrant-cofibrant replacement.
 
+=--
 
 ## Variants 
 
@@ -173,22 +201,23 @@ Every category with limits and colimits carries the [[trivial model structure]] 
 
 The archetypical model structures are the
 
-* [[Quillen model structure on topological spaces]] 
+* [[classical model structure on topological spaces]] 
 
 and the
 
-*  [[Quillen model structure on simplicial sets]].
+*  [[classical model structure on simplicial sets]].
 
-These model categories are [[Quillen equivalence|Quillen equivalent]] and encapsulate much of "classical" homotopy theory.  From a higher-categorical viewpoint, they can be regarded as models for [[∞-groupoid]]s (in terms of [[CW complexes]] or [[Kan complex]]es, respectively).
+These model categories are [[Quillen equivalence|Quillen equivalent]] and encapsulate much of "classical" [[homotopy theory]].  From a higher-categorical viewpoint, they can be regarded as models for [[∞-groupoids]] (in terms of [[CW complexes]] or [[Kan complexes]], respectively).
 
-Other classical topological objects of study, such as [[spectra]], [[equivariant homotopy theory|equivariant spaces]], and [[parametrized homotopy theory|parametrized spaces]], also form model categories.
+The passage to [[stable homotopy theory]] is given by [[model structures on spectra]] built out of either of these two classical model structures. See at _[[Model categories of diagram spectra]]_ for a unified treatment.
 
-In addition, there are also
+Accordingly [[homological algebra]] with its [[derived categories]] and [[derived functors]] (which may be thought of as a sub-topic of [[stable homotopy theory]] via the [[stable Dold-Kan correspondence]]) is reflected by 
 
-* [[model structures on chain complexes]] and similarly
-* [[model structures on dg-algebras]],
+* [[model structures on chain complexes]] 
 
-which encapsulate classical homological algebra, and are related to the [[model structure on simplicial sets]] by the [[Dold-Kan correspondence]].  In fact, Quillen's original definition of model categories was motivated by the analogy between homotopy theory and homological algebra.
+* [[model structures on dg-algebras]]
+
+In fact, the original definition of model categories in ([Quillen 67](#Quillen67)) was motivated by the [[analogy]] between constructions in [[homotopy theory]] and [[homological algebra]].
 
 ### Categorical model structures
 
