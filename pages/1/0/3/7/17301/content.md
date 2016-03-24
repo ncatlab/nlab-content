@@ -17,7 +17,9 @@
 
 For [[sequential spectra]] and for [[highly structured spectra]] such as [[symmetric spectra]] and [[orthogonal spectra]], the [[functor]] $(-)_n$ which picks their $n$th component space, for any $n \in \mathbb{N}$, has a [[left adjoint]] $F_n$. 
 
-A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Hovey-Shipley-Smith 00, def. 2.2.5](HoveyShipleySmith00), [Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)). For a general abstract account see also ([MMSS 01, def. 1.3 with construction 2.1 and  theorem 2.2](#MandellMaySchwedeShipley01)).
+A structured spectrum in the image of this [[free functor]] is called a _free symmetric spectrum_ or _free orthogonal spectrum_, respectively ([Hovey-Shipley-Smith 00, def. 2.2.5](HoveyShipleySmith00), [Mandell-May-Schwede-Shipley 01, section 8](#MandellMaySchwedeShipley01), [Schwede 12, example 3.20](#Schwede12)). 
+
+For a general abstract account see at _[[Model categories of diagram spectra]]_ the section _[Free spectra](Model+categories+of+diagram+spectra#FreeSpectra)_.
 
 
 +-- {: .num_prop #ExplicitFormOfFreeSpectra}
@@ -27,7 +29,7 @@ Explicitly, these free spectra look as follows:
 
 For [[sequential spectra]]: $(F_n K)_q = K \wedge S^{q-n}$;
 
-for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge O^{q-n}$;
+for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge S^{q-n}$;
 
 for [[symmetric spectra]]: $(F_n K)_q = \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
 
