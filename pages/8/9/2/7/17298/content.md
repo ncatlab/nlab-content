@@ -68,7 +68,7 @@ Throughout, write
 
 Throughout part I we are dealing with $(Top^{\ast/},\wedge)$-[[enriched categories]],  $(Top^{\ast/}, \wedge)$-[[enriched functors]], etc., and then in [part II](#PartII) we are dealing with $(Top_{Quillen}^{\ast/}, \wedge)$-[[enriched model categories]] etc.
 
-
+### $\mathbb{S}$-modules
 
 
 +-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
@@ -299,7 +299,7 @@ Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as
 +-- {: .num_defn #SymmetricSmashProductOfDiagramSpectra}
 ###### Definition
 
-By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such thy inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
+By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
 
 $$
   (SymSpec(Top), \wedge)
@@ -472,6 +472,67 @@ $$
 
 ([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
 
+###  Free spectra
+
+The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters more is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells (as in [[cell complexes]]). Specifically the free spectra on the [[n-spheres]] play the role of generating cells in the stable [[model structures on spectra]] that the plain [[n-spheres]] play in the [[classical model structure on topological spaces]].
+
+Moreover, while free [[sequential spectra]] are just re-indexed [[suspension spectra]], free [[symmetric spectra]] and free [[orthogonal spectra]] in addition come with suitably freely generated [[actions]] of the [[symmetric group]] and the [[orthogonal group]]. It turns out that this is not entirely trivial; it leads to a subtle issue (lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} below) where the [[adjuncts]] of certain canonical inclusions of free spectra are [[stable weak homotopy equivalences]] for sequential and orthogonal spectra, but _not_ for symmetric spectra.  The fine analysis of this phenomenon is crucial in the proof of the [[Quillen equivalences]] between the stable model structures on the four models of spectra (theorem \ref{QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}). 
+
+
++-- {: .num_defn #FreeStructuredSpectrum}
+###### Definition
+
+For $dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ and for each $n \in \mathbb{N}$, the functor 
+
+$$
+  (-)_n
+  \;\colon\;
+  \mathbb{S}_{dia}Mod \stackrel{seq^\ast}{\longrightarrow} \mathbb{S}_{Seq}Mod \simeq SeqSpec(Top) \stackrel{(-)_n}{\longrightarrow} Top^{\ast/}
+$$
+
+that sends a [[structured spectrum]] (notation as in def. \ref{NotationForGenericDiagramSpectra}) to the $n$th component space of its underlying [[sequential spectrum]] has a [[left adjoint]]
+
+$$
+  F^{dia}_n \;\colon\; Top^{\ast/} \longrightarrow \mathbb{S}_{dia}Mod
+  \,.
+$$
+
+This is called the _[[free structured spectrum]]_-functor.
+
+The [[adjunction units]] in the sequence of adjunctions equip these with canonical [[natural transformations]]
+
+$$
+  F_n^{Seq}
+    \stackrel{f_n^{Seq}}{\longrightarrow}
+  F_n^{Sym}
+    \stackrel{f_n^{Sym}}{\longrightarrow}
+  F_n^{Orth}
+    \stackrel{f_n^{Orth}}{\longrightarrow}
+  F_n^{Top^{\ast/}_{fin}}
+  \,.
+$$
+
+=--
+
+([MMSS 00, section 8](#MMSS00))
+
+
++-- {: .num_prop #ExplicitFormOfFreeSpectra}
+###### Proposition
+
+Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
+
+For [[sequential spectra]]: $(F_n K)_q = K \wedge S^{q-n}$;
+
+for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge O^{q-n}$;
+
+for [[symmetric spectra]]: $(F_n K)_q = \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
+
+=--
+
+(e.g. [Schwede 12, example 3.20](#Schwede12))
+
+(...)
 
 ## Part II. Model categories of diagram spectra
  {#PartII}
@@ -479,12 +540,13 @@ $$
 
 We now discuss equipping the diagram categories of [part I](#PartI) with [[model category]] structures, each presenting the [[stable homotopy theory]] (the [[stable (infinity,1)-category of spectra]]), and how the system of [[adjunctions]] between these categories becomes a system of [[Quillen equivalences]] between these model structures.
 
-### 5.-10. Plain spectra
+### 5.-10.) Model structures on plain spectra
  {#ModelStructuresForPlainSpectra}
 
 Here we discuss model structures for plain spectra, [below](ModelStructuresOnRingSpectraAndModuleSpectra) we discuss model structures for [[ring spectra]] and [[module spectra]].
 
-#### Statement of the model structure
+#### The stable model structures
+ {#ProofOfTheStableModelStructure}
 
 First we consider, prop. \ref{StrictModelStructureOnDiagramSpectra} below, the "strict" model structures which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a Bousfield localization of the strict model structures to the genuine stable model structures below in theorem \ref{StableModelStructuresOnDiagramSpectra}
 
@@ -629,86 +691,14 @@ Moreover these stable model structures are
 
 =--
 
-([MMSS00, theorem 9.2](#MMSS00)) We give the proof [below](#StableModelStructureOnDiagramSpectraProof), after a bunch of lemmas.
+([MMSS00, theorem 9.2](#MMSS00)) 
 
-
-
-+-- {: .num_theorem #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
-###### Theorem
-
-The sequence of [[Quillen adjunctions]] between the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
-
-$$
- \array{
-   && OrthSpec(Top)_{stable} && SymSpec(Top)_{stable} && SeqSpec(Top)_{stable}
-   \\
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_{stable}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{\simeq_{Qu}}{\longrightarrow}}&
-   \mathbb{S}_{Orth} Mod_{stable}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{\simeq_{Qu}}{\longrightarrow}}&
-   \mathbb{S}_{Sym} Mod_{stable}
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{\simeq_{Qu}}{\longrightarrow}}&
-   \mathbb{S}_{Seq} Mod_{stable}
- }
-  \,.
-$$
-
-=--
-
-([MMSS 00, section 10](#MMSS00))
-
-
-#### Proof of the stable model structure
- {#ProofOfTheStableModelStructure}
-
-
-We here spell out the proof ([below](#StableModelStructureOnDiagramSpectraProof)) of the existence of the stable model structure on $\mathbb{S}_{dia}Mod$ in theorem \ref{StableModelStructuresOnDiagramSpectra}.
+We given the proof of theorem \ref{StableModelStructuresOnDiagramSpectra} [below](#StableModelStructureOnDiagramSpectraProof), it involves the following definitions and lemmas.
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
 
-+-- {: .num_defn #FreeStructuredSpectrum}
-###### Definition
-
-For $dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ and for each $n \in \mathbb{N}$, the functor 
-
-$$
-  (-)_n
-  \;\colon\;
-  \mathbb{S}_{dia}Mod \stackrel{seq^\ast}{\longrightarrow} \mathbb{S}_{Seq}Mod \simeq SeqSpec(Top) \stackrel{(-)_n}{\longrightarrow} Top^{\ast/}
-$$
-
-that sends a [[structured spectrum]] (notation as in def. \ref{NotationForGenericDiagramSpectra}) to the $n$th component space of its underlying [[sequential spectrum]] has a [[left adjoint]]
-
-$$
-  F^{dia}_n \;\colon\; Top^{\ast/} \longrightarrow \mathbb{S}_{dia}Mod
-  \,.
-$$
-
-This is called the _[[free structured spectrum]]_-functor.
-
-The [[adjunction units]] in the sequence of adjunctions equip these with canonical [[natural transformations]]
-
-$$
-  F_n^{Seq}
-    \stackrel{f_n^{Seq}}{\longrightarrow}
-  F_n^{Sym}
-    \stackrel{f_n^{Sym}}{\longrightarrow}
-  F_n^{Orth}
-    \stackrel{f_n^{Orth}}{\longrightarrow}
-  F_n^{Top^{\ast/}_{fin}}
-  \,.
-$$
-
-=--
-
-([MMSS 00, section 8](#MMSS00))
-
-This allows to co-represent the [[adjuncts]] of structure morphisms of underlying sequential spectra:
+This spring allows to co-represent the [[adjuncts]] of structure morphisms of underlying sequential spectra:
 
 +-- {: .num_lemma #CorepresentingOfAdjunctsOfStructureMapsExists}
 ###### Lemma
@@ -1000,10 +990,10 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 =--
 
-#### Relating stable equivalences and stable weak homotopy equivalences
+#### Stable equivalences 
  {#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences}
 
-Here we discuss that the two concepts of stable equivalences and of stable weak homotopy equivalences in def. \ref{StableEquivalencesForDiagramSpectra} agree in the cases of pre-[[excisive functors]], [[orthogonal spectra]] and [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalence:
+Here we discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and v) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences:
 
 +-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
 ###### Theorem
@@ -1188,20 +1178,6 @@ Now for the converse.
 
 
 
-+-- {: .num_prop #ExplicitFormOfFreeSpectra}
-###### Proposition
-
-Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
-
-For [[sequential spectra]]: $(F_n K)_q = K \wedge S^{q-n}$;
-
-for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge O^{q-n}$;
-
-for [[symmetric spectra]]: $(F_n K)_q = \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
-
-=--
-
-(e.g. [Schwede 12, example 3.20](#Schwede12))
 
 +-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
 ###### Definition
@@ -1247,7 +1223,7 @@ Check the statement of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}
 =--
 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}
 ###### Lemma
 
 The maps $\lambda_n$ in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
@@ -1281,7 +1257,38 @@ The other two follow from inspection of the explicit form of the map according t
 
 
 
-#### Proof of the Quillen equivalence of all stable model structures
+#### Quillen equivalence of all stable model structures
+
++-- {: .num_theorem #QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra}
+###### Theorem
+
+The sequence of [[Quillen adjunctions]] between the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} remain Quillen adjunctions for the stable model structures of theorem \ref{StableModelStructuresOnDiagramSpectra} and indeed become a sequence of [[Quillen equivalences]] 
+
+$$
+ \array{
+   && OrthSpec(Top)_{stable} && SymSpec(Top)_{stable} && SeqSpec(Top)_{stable}
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{stable}
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Orth} Mod_{stable}
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Sym} Mod_{stable}
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+   \mathbb{S}_{Seq} Mod_{stable}
+ }
+  \,.
+$$
+
+=--
+
+([MMSS 00, section 10](#MMSS00))
+
+We give the proof [below](#ProofOfQuillenEquivalencesOfStableModelStructures), after a few preliminaries.
+
 
 +-- {: .num_lemma #AdjunctionsBetweenDiagramSpectraAreStableQuillenAdjunctions}
 ###### Lemma
@@ -1320,7 +1327,7 @@ By lemma \ref{KInjectivesAreAcyclicCofibrations} these are characterized by data
 
 =--
 
-+-- {: .proof}
++-- {: .proof #ProofOfQuillenEquivalencesOfStableModelStructures}
 ###### Proof idea
 (of theorem \ref{QuillenEquivalencesBetweenStableModelStructuresOnDiagramSpectra})
 
@@ -1334,23 +1341,25 @@ Since both adjoints in the presnt case preserve [[colimits]], [[tensoring]] with
 
 (...)
 
+(...)
+
 =--
 
 
 
-### 11.-16. Ring spectra and module spectra
+### 11.-16.) Model structures on ring spectra and module spectra
  {#ModelStructuresOnRingSpectraAndModuleSpectra}
 
 (...)
 
-### 17.-18. Relation to $\Gamma$-spaces
+### 17.-18.) Relation to $\Gamma$-spaces
 
 (...)
 
-### 19. Simplicial and topological diagram spectra
+### 19.) Simplicial and topological diagram spectra
 
 (...)
 
-### Part III Symmetric monoidal categories and FSPs
+### Part III. Symmetric monoidal categories and FSPs
 
 category: reference
