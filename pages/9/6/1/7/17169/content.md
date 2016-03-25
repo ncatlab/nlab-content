@@ -37,18 +37,68 @@ $$
 Given a  [[sequential spectrum]] $E$, in the form of a sequence of component spaces $E_n$ with structure maps $\Sigma E_n \to E_{n+1}$, then for $k \in \mathbb{Z}$ the $n$th _homotopy group_ of $E$ is the [[colimit]]
 
 $$
+  \begin{aligned}
   \pi_n(E) 
-    \coloneqq 
+    & \coloneqq 
   \underset{\longrightarrow}{\lim}_k
   \pi_{n+k}(E_k)
+  \\
+  & \coloneqq
+  \underset{\longrightarrow}{\lim}
+  \left(
+    \cdots
+      \to
+    \pi_{n+k}(E_k)
+       \stackrel{\Sigma}{\longrightarrow}
+    \pi_{n+k+1}(\Sigma E_k)
+       \stackrel{\pi_{n+k+1}(\sigma_k^E)}{\longrightarrow}
+    \pi_{n+k+1}(E_{k+1})
+       \to
+    \cdots
+  \right)
+  \end{aligned}
 $$
 
-over the [[homotopy groups]] of the component spaces.
+over the [[homotopy groups]] of the component spaces. 
 
 For sequential spectra in [[simplicial sets]], the same formula applies for the [[geometric realization]] of the component simplicial sets.
 
 
 ## Properties
+
+### Suspension isomorphism
+
+Let 
+
+$$
+  \Sigma
+  \;\colon\;
+  SeqSpec
+  \longrightarrow
+  SeqSpec
+$$
+
+be the operation of forming degreewise the [[smash product]] with the circle, the (un-derived, [[reduced suspension|reduced]]) [[suspension]] of $X$.
+
++-- {: .num_prop #SuspensionIsomorphismOfStableHomotopyGroups}
+###### Proposition
+
+For $X$ a [[sequential spectrum]], smashing with $S^1$ constitutes [[natural isomorphisms]] of stable homotopy groups of $X$ with the stable homotopy groups in one degree higher of the suspension spectrum of $X$
+
+$$ 
+  S^1 \wedge (-)
+    \;\colon\; 
+  \pi_\bullet(X)
+    \stackrel{\simeq}{\longrightarrow}
+  \pi_{\bullet+1}(\Sigma X)
+  \,.
+$$
+
+=--
+
+(e.g. [Schwede 12, part I, prop. 2.6](#Schwede12))
+
+### For suspension spectra
 
 For $E = \Sigma^\infty X$ the [[suspension spectrum]] of a [[pointed topological space]], we have
 
@@ -56,6 +106,8 @@ $$
   \pi_n^S(X) \simeq \pi_n(\Sigma^\infty X)
   \,.
 $$
+
+### For Omega-spectra
 
 For $E$ a (weak) [[Omega spectrum]] then the colimit is attained:
 
@@ -97,6 +149,8 @@ $$
 ## References
 
 * [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_ (2012)
 
 [[!redirects homotopy groups of a spectrum]]
 
