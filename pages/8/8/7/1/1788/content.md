@@ -1,5 +1,22 @@
 
+$$
+  \array{
+    O(q)_+ \wedge S^q 
+     &\stackrel{id}{\longrightarrow}& 
+    O(q)_+ \wedge S^q 
+     &\stackrel{id}{\longrightarrow}& 
+    O(q)_+ \wedge S^q 
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{p_2}}
+    \\
+    Q(q)_+ \wedge_{Q(q-n-1)} S^q 
+     &\longrightarrow&
+    Q(q)_+ \wedge_{Q(q)} S^q
+    & \stackrel{\simeq}{\longrightarrow} & S^q
+  }
+$$
 
+$\,$
 
 $$
  \array{
