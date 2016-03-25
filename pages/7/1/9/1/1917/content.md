@@ -98,7 +98,7 @@ These $B$-manifolds are the objects of interest, but they have to be related by 
 A **$B$-cobordism**, $(W,F)$, from $(X_0,g)$ to $(X_1,h)$ is a [[cobordism]] $W : X_0 \to X_1$ endowed with a [[homotopy class]] relative to the boundary of a [[continuous function]] $F : W \to B$  such that 
 
 $$
-  F|_{X_0} =  g \,, \;\;\;\;  F|_{X_1} = h$
+  F|_{X_0} =  g \,, \;\;\;\;  F|_{X_1} = h
 $$
 
 =--
