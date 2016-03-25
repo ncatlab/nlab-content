@@ -378,7 +378,11 @@ $R$[[Mod]]
 
 ### 8.6 Canonical resolutions
 
-* [[monad]](=triple)/[[bar construction]], [[comonad]], [[classifying space]]
+* [[monad]](=triple) [[comonad]]
+
+  [[bar construction]], 
+
+  [[classifying space]]
 
 
 ### 8.7 Cotriple homology 
