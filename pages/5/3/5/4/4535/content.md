@@ -21,6 +21,8 @@
 
 The [[spacetime]] that describes a [[black hole]] with a given [[mass]]. And nothing else.
 
+Described for instance by [[Kruskal–Szekeres coordinates]].
+
 ## Related concepts
 
 [[!include charged and rotating black holes -- table]]
