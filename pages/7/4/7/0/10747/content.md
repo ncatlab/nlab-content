@@ -169,7 +169,7 @@ Among the various (now) common models for [[spectra]], this issue is unique to s
 
 In particular, this problem goes away for the concept of [[orthogonal spectra]], which otherwise is very similar to that of symmetric spectra and shares most of its advantages (except that it does not admit a version based on [[simplicial sets]]).
 
-Technically, the issue comes down to the fact that the [[quotients]] of [[symmetric groups]] $\Sigma_q/\Sigma_{q-n}$ do not become highly connected for large $q$ the way the quotients $O(q)/O(n-q)$ of [[orthogonal groups]] do ([Mandell-May-Schwede-Shipley 01, proof of lemma 8.6, top of p. 26](#MandellMaySchwedeShipley01)).
+Technically, the issue comes down to the fact that the [[quotients]] of [[symmetric groups]] $\Sigma_q/\Sigma_{q-n}$ do not become highly connected for large $q$ the way the quotients $O(q)/O(n-q)$ of [[orthogonal groups]] do ([Mandell-May-Schwede-Shipley 01, proof of lemma 8.6, top of p. 26](#MandellMaySchwedeShipley01)). See [this proposition](Model+categories+of+diagram+spectra#AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences) at _[[Model categories of diagram spectra]]_.
 
 ## Related concepts
 
