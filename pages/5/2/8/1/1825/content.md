@@ -22,6 +22,10 @@
 
 ### Finite-dimensional spheres
 
+
++-- {: .num_defn}
+###### Definition
+
 The $n$-dimensional unit **sphere** , or simply **$n$-sphere**, is the [[topological space]] given by the [[subset]] of the $(n+1)$-dimensional [[Cartesian space]] $\mathbb{R}^{n+1}$ consisting of all points $x$ whose distance from the origin is $1$
 
 $$ 
@@ -31,9 +35,27 @@ $$
 
 The $n$-dimensional sphere of radius $r$ is
 $$ S^n_r = \{ x: \mathbb{R}^{n+1} \;|\; \|x\| = r \} .$$
-Topologically, this is equivalent to the unit sphere for $r \gt 0$, or a [[point]] for $r = 0$.
+Topologically, this is equivalent ([[homeomorphism|homeomorphic]]) to the unit sphere for $r \gt 0$, or a [[point]] for $r = 0$.
 
 This is naturally also a [[smooth manifold]] of [[dimension]] $n$, with the [[smooth structure]] induced from the standard sooth structure on $\mathbb{R}$^n.
+
+=--
+
++-- {: .num_remark #nSphereAsCosetSpace}
+###### Remark
+
+The n-spheres are [[coset spaces]] of [[orthogonal groups]]
+
+$$
+  S^n \simeq O(n+1)/O(n)
+  \,.
+$$
+
+For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+=--
+
+
 
 ### Infinite dimensional spheres 
 
