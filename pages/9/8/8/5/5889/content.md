@@ -24,16 +24,90 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
 
 ## Examples
 
-* A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie group]]s this is also called [[Klein geometry]].
+* A special case of homogeneous spaces are [[coset spaces]] arising from the [[quotient]] $G/H$ of a [[group]] $G$ by a subgroup. For the case of [[Lie groups]] this is also called [[Klein geometry]].
 
 * Specifically for $G$ a [[compact Lie group]] and $T\hookrightarrow G$ a [[maximal torus]], then the coset $G/T$ play a central role in [[representation theory]] and [[cohomology]], for instance in the [[splitting principle]].
 
 * In [[analysis]] and [[number theory]], certain functions on certain coset spaces play a role as _[[automorphic forms]]_ (e.g. [[modular forms]]). See there for more.
 
 
++-- {: .num_example #nSphereAsCosetSpace}
+###### Example
+
+The [[n-spheres]] are coset spaces of [[orthogonal groups]]
+
+$$
+  S^n \simeq O(n+1)/O(n)
+  \,.
+$$
+
+For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+=--
+
 ## Properties
 
-Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
+### Relation between homogenous spaces and coset spaces
+
+Under weak topological conditions (cf. [Hegason](#Hegason)), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
+
+### Sequences of coset spaces
+ {#QuotientMapsOfCosetSpaces}
+
+For $K \hookrightarrow H \hookrightarrow G$
+two consecutive group inclusions, then there is a sequence of coset spaces of the form
+
+$$
+  H/K \longrightarrow G/K \longrightarrow G/H
+$$
+
+where the second map is the [[cofiber]] of the first. If this happens to be also a [[homotopy cofiber]] (or is turned into such, say by applying the [[singular simplicial complex]])-functor, then it induces the corresponding [[long exact sequence of homotopy groups]]
+
+$$
+  \cdots
+  \to 
+  \pi_{n+1}(G/H)
+  \longrightarrow
+  \pi_n(H/K) \longrightarrow \pi_n(G/K) \longrightarrow \pi_n(G/H)
+  \longrightarrow 
+  \pi_{n-1}(H/K)
+  \to \cdots
+$$
+
+
++-- {: .num_example #CofiberSequencesOfCosetsOfOrthogonalGroups}
+###### Example
+
+Consider a sequence of inclusions of [[orthogonal groups]] of the form
+
+$$
+  O(n) \hookrightarrow O(n+1) \hookrightarrow O(n+k)
+  \,.
+$$
+
+Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and hence there is a [[long exact sequence of homotopy groups]] of the form 
+
+$$
+  \cdots
+  \to 
+  \pi_q(S^n) 
+  \longrightarrow \pi_q(O(n+k)/O(n)) \longrightarrow \pi_q(O(n+k)/O(n+1))
+  \longrightarrow 
+  \pi_{q-1}(S^n)
+  \to \cdots
+  \,.
+$$
+
+Now for $q \lt n$ then $\pi_q(S^n) = 0$ and hence in this range we have [[isomorphisms]]
+
+$$
+  \pi_{\bullet \lt n}(O(n+k)/O(n)) 
+     \stackrel{\simeq}{\longrightarrow}
+  \pi_{\bullet \lt n}(O(n+k)/O(n+1))
+ \,.
+$$
+
+=--
 
 
 ## Related concepts
@@ -48,6 +122,10 @@ Under weak topological conditions (cf. Sigurdur Helgason, _Differential geometry
 
 * [[Schubert calculus]]
 
+
+## References
+
+* {#Hegason} Sigurdur Helgason, _Differential geometry, Lie groups and symmetric spaces_
 
 [[!redirects homogeneous spaces]]
 [[!redirects coset space]]
