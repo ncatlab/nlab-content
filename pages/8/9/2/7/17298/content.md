@@ -946,11 +946,12 @@ $$
 
 The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
 
-1. stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for all four $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$
+1. stable equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for all four cases of spectra, ${Dia} \in \{Top^{\ast/}, Orth, Sym, Seq\}$;
 
-1. stable weak homotopy equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Seq}\}$;
+1. stable weak homotopy equivalences, according to def. \ref{StableEquivalencesForDiagramSpectra}, for sequential spectra, symmetric spectra and pre-excisive functors ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
 
-1. _not_ stable weak homotopy equivalences for $\mathbb{S}_{dia} = \mathbb{S}_{Sym}$
+
+1. **not** stable weak homotopy equivalences for the case of symmetric spectra ${Dia} = {Sym}$.
 
 
 
@@ -963,7 +964,7 @@ The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \re
 
 The first statement is an immediate consequence of lemma \ref{IndeedCorepresentationOfAdjunctsOfStructureMaps}.
 
-The other two follow from inspection of the explicit form of the map according to prop. \ref{ExplicitFormOfFreeSpectra} in each case separately:
+The other two statements follow from inspection of the explicit form of the maps, via prop. \ref{ExplicitFormOfFreeSpectra}, in each case separately:
 
 **sequential case**
 
@@ -1002,20 +1003,85 @@ Here for $q \geq n+1$ the $q$-component of $\lambda_n$ is the [[quotient]] map
 $$
   (\lambda_n)_q 
     \;\colon\;
-  O(q)_+ \wedge_{O(q-n-1)} S^1 \wedge S^{q-n-1}
-  \simeq
   O(q)_+ \wedge_{O(q-n-1)} S^{q-n}
+   \simeq
+  O(q)_+ \wedge_{O(q-n-1)} S^1 \wedge S^{q-n-1}
   \longrightarrow
   O(q)_+ \wedge_{O(q-n)}S^{q-n}
   \,.
 $$
 
-now
+By prop. ... $\lambda_n$ is a stable weak homotopy equivalence precisely if any of its [[reduced suspension|suspensions]] is. Hence consider instead $\Sigma^n \lambda_n$, whose $q$-component is (...)
 
-(...)
+$$
+  (\Sigma^n\lambda_n)_q 
+    \;\colon\;
+  O(q)_+ \wedge_{O(q-n-1)} S^{q}
+    \longrightarrow
+  O(q)_+ \wedge_{O(q-n)}S^{q}
+  \,.
+$$
 
-   
 
+Now observe that due to the fact that $O(q-k)$-action on $S^q$ lifts to an $O(q)$-action, the quotients of the diagonal action of $O(q-k)$ equivalently become quotients of just the left action. Formally this is due to the existence of the [[commuting diagram]]
+
+$$
+  \array{
+    O(q)_+ \wedge S^q 
+     &\stackrel{id}{\longrightarrow}& 
+    O(q)_+ \wedge S^q 
+     &\stackrel{id}{\longrightarrow}& 
+    O(q)_+ \wedge S^q 
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{p_2}}
+    \\
+    Q(q)_+ \wedge_{Q(q-k)} S^q 
+     &\longrightarrow&
+    Q(q)_+ \wedge_{Q(q)} S^q
+    & \stackrel{\simeq}{\longrightarrow} & S^q
+  }
+$$
+
+which says that the image of any $(g,s) \in O(q)_+  \wedge S^q$ in the quotient $Q(q)_+ \wedge_{Q(q-k)} S^q$ is labeled by $([g],s)$.
+
+It follows that $(\Sigma^n\lambda_n)_q$ is the smash product of a projection map of [[coset]] spaces with the identity on the sphere:
+
+$$
+  (\Sigma^n\lambda_n)_q 
+    \simeq
+  proj_+ \wedge id_{S^q} 
+    \;\colon\;
+  O(q)/O(q-n-1)_+ \wedge S^q
+    \longrightarrow
+  O(q)/O(q-n)_+ \wedge S^{q}
+  \,.
+$$
+
+Now finally observe that this projection function
+
+$$
+  proj
+  \;\colon\;
+  O(q)/O(q-n-1) 
+    \longrightarrow
+  O(q)/O(q-n)
+$$
+
+is $(2q - n -1 )$-connected (...). The key here is the growth with $q$. This implies that for each $s$ there exists $q$ such that $\pi_{s+q}((\Sigma^n \lambda_n)_q)$ becomes an isomorphism. Hence $\Sigma^n \lambda_n$ is a stable weak homotopy equivalence and therefore so is $\lambda_n$.
+
+**symmetric case**
+ 
+Here the morphism $\lambda_n$ has the same form as in the orthogonal case above, except that all occurences of [[orthogonal groups]] are replaced by just their sub-[[symmetric groups]].
+
+Accordingly, the analysis then proceeds entirely analogously, with the key difference that the projection
+
+$$
+  \Sigma(q)/\Sigma(q-n-1) 
+    \longrightarrow
+  \Sigma(q)/\Sigma(q-n)
+$$
+
+does _not_ become highly connected as $q$ increases, due to the [[discrete topological space]] underlying the symmetric group. Accordingly the conclusion now is the opposite: $\lambda_n$ is not a stable weak homotopy equivalence in this case.
 
 =--
 
