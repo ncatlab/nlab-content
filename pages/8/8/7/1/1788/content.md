@@ -114,3 +114,5 @@ $$
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]]))
+
+Test.
