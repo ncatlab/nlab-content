@@ -249,7 +249,7 @@ $$
     \\
     & {}^{\mathllap{U(t_1,t_2)}}\nearrow && \searrow^{\mathrlap{U(t_2,t_3)}}
     \\
-    V_1 && \stackrel{U(t_1,t_3)}{\longrightarrow} && V_2
+    V_1 && \stackrel{U(t_1,t_3)}{\longrightarrow} && V_3
   }
 $$
 
