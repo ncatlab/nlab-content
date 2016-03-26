@@ -65,7 +65,7 @@ Write $Sd \Delta[n]$ for the [[nerve]] of [[category of non-degenerate simplices
 For $X$ an arbitrary [[simplicial set]], its barycentric subdivision is
 
 $$
-  Sd X \simeq \underset{\to}{\lim}_{\Delta[n] \to K} Sd \Delta[n]
+  Sd X \simeq \underset{\to}{\lim}_{\Delta[n] \to X} Sd \Delta[n]
   \,.
 $$
 
