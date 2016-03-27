@@ -13,7 +13,7 @@ Let $Aff$ be the category [[opposite category|opposite]] to the category of [[co
 
 ## Related concepts
 
-[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ **&#233;tale site** $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
+[[fpqc-site]] $\to$ [[fppf-site]] $\to$ [[syntomic site]] $\to$ [[étale site]] $\to$ [[Nisnevich site]] $\to$ [[Zariski site]]
 
 
 category: algebraic geometry
