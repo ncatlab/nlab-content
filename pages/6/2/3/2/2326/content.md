@@ -30,7 +30,7 @@ The [[frame]] of [[open set|opens]] specifying the locale may indeed be taken as
 
   Thus, in general we regard a localic geometric morphism $E \to S$ as exhibiting E as a "localic S-topos".
 
-* Moreover, just localic topoi can be identified with locales, for any base topos $S$ the [[2-category]] of localic $S$-topoi is equivalent to the 2-category [[Loc]]$(S)$ of [[internalization|internal]] [[locale]]s in $S$.
+* Moreover, just as localic topoi can be identified with locales, for any base topos $S$ the [[2-category]] of localic $S$-topoi is equivalent to the 2-category [[Loc]]$(S)$ of [[internalization|internal]] [[locale]]s in $S$.
 
   $$
     LocTopos(S) \simeq (Topos/S)_{loc} \simeq Loc(S)
