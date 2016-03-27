@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of  _posite_ (or _$(0,1)$-site_ , less properly _$0$-site_ ) is a [[decategorification]] of the notion of _[[site]]_ (which may also be called a $1$-site or $(1,1)$-site). For [[categorifications]] thereof, see [[(∞,1)-site]] and [[2-site]].
+The notion of  _posite_ (or _$(0,1)$-site_, less properly _$0$-site_) is a [[decategorification]] of the notion of _[[site]]_ (which may also be called an $1$-site or $(1,1)$-site). For [[categorifications]] thereof, see [[(∞,1)-site]] and [[2-site]].
 
 Just as a site is a [[category]] with a [[coverage]], whose ([[set]]-valued) [[sheaves]] form a [[Grothendieck topos]], so a posite is a [[poset]] with a coverage, whose $(0,1)$-sheaves ([[truth value]]-valued sheaves) form a [[locale]].  On the other hand, we can also consider a posite as a site in its own right, in which case the $1$-sheaves on it form a [[localic topos]].
 
