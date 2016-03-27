@@ -41,7 +41,7 @@ See also [[etale space]].
 ## Examples
  {#Examples}
 
-For $Y$ any [[topological space]] and  for $S$ any [[set]] regarded as a [[discrete space]], the [[projection]]
+For $X$ any [[topological space]] and  for $S$ any [[set]] regarded as a [[discrete space]], the [[projection]]
 
 $$
   X \times S \to X
