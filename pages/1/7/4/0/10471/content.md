@@ -283,7 +283,7 @@ The smash product of orthogonal spectra $X \wedge Y$, def. \ref{SmashProduct}, i
 +-- {: .num_example #OrthogonalSphereSpectrum}
 ###### Example
 
-The canonical incarnation of the [[sphere spectrum]] $\mathbb{S}$ as as orthogonal spectrum, def. \ref{OrthogonalSpectrum}, has $n$th level space
+The canonical incarnation of the [[sphere spectrum]] $\mathbb{S}$ as an orthogonal spectrum, def. \ref{OrthogonalSpectrum}, has $n$th level space
 
 $$
   \mathbb{S}_n = S^n
