@@ -1045,7 +1045,7 @@ $$
 
 which says that the image of any $(g,s) \in O(q)_+  \wedge S^q$ in the quotient $Q(q)_+ \wedge_{Q(q-k)} S^q$ is labeled by $([g],s)$.
 
-It follows that $(\Sigma^n\lambda_n)_q$ is the smash product of a projection map of [[coset]] spaces with the identity on the sphere:
+It follows that $(\Sigma^n\lambda_n)_q$ is the smash product of a projection map of [[coset spaces]] with the identity on the sphere:
 
 $$
   (\Sigma^n\lambda_n)_q 
@@ -1068,7 +1068,7 @@ $$
   O(q)/O(q-n)
 $$
 
-is $(q - n -1 )$-connected (see [here](homogeneous+space#CofiberSequencesOfCosetsOfOrthogonalGroups)). Hence its smash product with $S^q$ is $(2q - n -1 )$-connected.
+is $(q - n -1 )$-connected (see [here](coset+space#CofiberSequencesOfCosetsOfOrthogonalGroups)). Hence its smash product with $S^q$ is $(2q - n -1 )$-connected.
 
 The key here is the fast growth of the connectivity with $q$. This implies that for each $s$ there exists $q$ such that $\pi_{s+q}((\Sigma^n \lambda_n)_q)$ becomes an isomorphism. Hence $\Sigma^n \lambda_n$ is a stable weak homotopy equivalence and therefore so is $\lambda_n$.
 
