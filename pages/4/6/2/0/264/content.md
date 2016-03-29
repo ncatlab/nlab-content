@@ -17,34 +17,34 @@
 {:toc}
 
 ## Idea
+ {#Idea}
 
-In the category of 'spaces', by 'invariants' we often mean 'homotopy invariants', so as well as giving a functor on the category of spaces taking values, say, in the category of Abelian groups, such an invariant also induces one on the 'homotopy category', that is the category of spaces and homotopy classes of maps between them.  This 'homotopy category' construction can be viewed as a general construction on categories having a congruence relation on their hom-sets, and hence as a sort of way of extracting an interesting and hopefully more tractable, category from a 'higher category' of some sort, perhaps a 2-category or more generally an $(\infty,1)$-category. The relationship between the higher category, the basic category, say of spaces, and this 'homotopy category' is simple, but needs looking at from the nPOV.
+Given a [[category with weak equivalences]] $(\mathcal{C},W)$, then its _homotopy category_ $Ho(\mathcal{C})$ is, if it exists, the result of universally forcing the [[weak equivalences]] to become actual [[isomorphisms]], also called the _[[localization]]_ at the weak equivalences
 
-Quite often one encounters an ordinary [[category]] $C$ which is known in some way or other to be the $1$-[[1-category|categorical]] truncation of a [[higher category theory|higher category]] $\hat C$. 
-Standard examples include the categories [[SimpSet]] of [[simplicial set]]s (or [[Top]] of [[topological space]]s) and $Ch(Ab)$ of [[chain complex]]es of [[abelian group]]s. Both are obtained from full [[(infinity,1)-category|(infinity,1)-categories]] by forgetting higher morphisms.
+$$
+  \mathcal{C} \longrightarrow Ho(\mathcal{C})= \mathcal{C}[W^{-1}]
+  \,.
+$$
 
-The most important information that is lost by forgetting the higher morphisms of a higher category is that about which 1-morphisms are, while not [[isomorphism]]s, invertible up to higher cells, i.e. [[equivalence]]s. 
+The classical example is the category of [[topological spaces]] with weak equivalences those [[continuous functions]] which are _[[homotopy equivalences]]_ or _[[weak homotopy equivalences]]_. The corresponding homotopy category is often referred to as "the homotopy category", by default, or the "[[classical homotopy category]]" for emphasis. This turns out to be equivalent to the category of topological spaces or (for weak homotopy equivalences) of just those [[homeomorphism|homoemorphic]] to [[CW-complexes]] with [[left homotopy]]-[[homotopy class|classes]] of continuous functions between them, whence the name "homotopy category".
 
-To the full $(\infty,1)$-category $\hat C$ is canonically associated a 1-category $Ho(\hat C)$ called the [[homotopy category of an (infinity,1)-category]], which is obtained from $\hat C$ not by simply forgetting the higher morphisms, but by quotienting them out, i.e. by remembering the _equivalence classes_ of 1-morphisms. In the $(\infty,1)$-category [[Top]] (restricted to sufficiently nice objects, such as compactly generated weakly Hausdorff topological spaces) these higher morphisms are literally the [[homotopy|homotopies]] between 1-morphisms, and more generally one tends to address higher cells in $(\infty,1)$-categories as homotopies. Therefore the name _homotopy category of an $(\infty,1)$-category_ for $Ho(\hat C)$. In particular $Ho(\hat{Top})$ is the standard homotopy category originally introduced in topology.
+The existence of a homotopy category, as well as tractable presentations of it typically require extra [[properties]] of the class of weak equivalences (such as that they admit a [[calculus of fractions]]) or even extra [[structure]] (such as [[fibration category]]/[[cofibration category]] structure, or full [[model category]] structure, or further enhancements of that to [[simplicial model category]] structures, etc).
+
+More generally, to every [[(∞,1)-category]] is associated a homotopy category, whose morphisms are literally the [[homotopy classes]] of the original morphisms (see also at _[[homotopy category of an (∞,1)-category]]_).
+
+These two concepts of "homotopy category" are compatible: to a [[category with weak equivalences]] is associated, if it exsists, an [[(∞,1)-category]] obtained by universally forcing the [[weak equivalences]] to become actual [[homotopy equivalences]], also called the _[[simplicial localization]]_ $L_W \mathcal{C}$ at the weak equivalences. The homotopy categories of $(\mathcal{C},W)$ and of $L_W \mathcal{C}$ coincide, which justifies the terminology "homotopy category" generally.
 
 
-Now a slightly different viewpoint comes in that interacts neatly with this one of 'dividing out by 1-morphisms'.  Suppose we are given just the truncated 1-category $C$, but now equipped with the structure of a [[category with weak equivalences]] which indicates which morphisms in $C$ are to be regarded as equivalences in a higher categorical context, there is a universal solution to the problem of finding a category $Ho(C)$ equipped with a functor $Q : C \to Ho(C)$ such that $Q$ sends all (morphisms labeled as) weak equivalences in 
-$C$ to isomorphisms in $Ho(C)$.
+## Definition
 
-In good situations, one may also find an $(\infty,1)$-category $\hat C$ corresponding to $C$, and the notions of homotopy category $Ho(C)$ and $Ho(\hat C)$ then coincide. 
-
-This is, in particular, the case when $C$ is equipped with the structure of a combinatorial [[simplicial model category]] and $\hat C$ is the $(\infty,1)$-category [[presentable (infinity,1)-category|presented]] by $C$ with its model structure. (For instance [[Higher Topos Theory|HTT, remark A.3.1.8]]).
-
- We thus have several interrelated notions of homotopy category, which in most useful contexts more or less coincide.  Because of that, the term tends to be used widely, and the context then determines the exact definition to apply. We will give some of the most common ones, selected for their use in other entries.
-
-##Definition (for a simplicially enriched category)
+### For simplicially enriched categories
 
 Given a simplicially enriched category $C$, we can form for each pair of objects, $x,y$, of objects of $C$, the set, $\pi_0C(x,y)$, of connected components of the 'function space' $C(x,y)$.  As $\pi_0$ preserves finite limits, this gives a category, denoted $\pi_0(C)$.  As 1-simplices in $C(x,y)$ can be often interpreted as being homotopies, this category $\pi_0(C)$ is often called the _homotopy category of $C$_, and then the notation $Ho(C)$ may be used.  
 
 
 This notions is closely related to the next, by using, say the [[hammock localisation]] of Dwyer and Kan, as then $\pi_0$ of that simplicially enriched category, coincides with the following.
 
-## Definition (for a category with weak equivalences)
+### For categories with weak equivalences
 
 Given a [[category with weak equivalences]] (such as a [[model category]]), its __homotopy category__ $Ho(C)$ is -- if it exists -- the [[category]] which is universal with the property that there is a [[functor]]
 
