@@ -76,7 +76,7 @@ $$
   X \sqcup X \stackrel{\iota_X}{\longrightarrow} Cyl(X) \stackrel{\sigma}{\longrightarrow} X
 $$
 
-and consider the [[commuting square]]
+and consider the square
 
 $$
   \array{
@@ -87,10 +87,12 @@ $$
     \\
     Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& y
   }
-  \,.
+  \,,
 $$
 
-By construction this admits a [[lift]] $\eta$, and that constitutes a [[left homotopy]] $f^{-1}\circ f \Rightarrow_L id$.
+which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right inverse of $f$.
+
+By construction, this [[commuting square]] now admits a [[lift]] $\eta$, and that constitutes a [[left homotopy]] $\eta \colon f^{-1}\circ f \Rightarrow_L id$.
 
 =--
 
@@ -113,20 +115,32 @@ $$
   Ho(\mathcal{C})
 $$
 
-for the [[functor]] to the homotopy category, def. \ref{WhiteheadTheoremInModelCategories} which sends an object $X$ to the object $R Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the homotopy class the result of first lifting in 
+for the [[functor]] to the homotopy category, def. \ref{WhiteheadTheoremInModelCategories} which sends an object $X$ to the object $R Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in 
 
 $$
   \array{
     \emptyset &\longrightarrow& Q Y
     \\
-    \downarrow &{}^{Q F}\nearrow& \downarrow^{\mathrlap{p_Y}}
+    {}^{\mathllap{i_X}}\downarrow &{}^{Q f}\nearrow& \downarrow^{\mathrlap{p_Y}}
     \\
     Q X &\underset{f\circ p_X}{\longrightarrow}& Y
   }
 $$
 
-and then lifting dually. ...
+and then lifting in 
 
+$$
+  \array{ 
+    Q X &\longrightarrow& R Q Y
+    \\
+    {}^{\mathllap{j_{Q X}}}\downarrow &{}^{R Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
+    \\
+    R Q X
+    &\longrightarrow&
+    \ast
+  }
+  \,.
+$$
 
 =--
 
@@ -140,7 +154,7 @@ The construction in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCatego
 +-- {: .proof}
 ###### Proof
 
-The object $R Q X$ is both fibrant and cofibrant as well as related by a [[zig-zag]] of weak equivalences to $X$, since 
+First of all, the object $R Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):  
 
 $$
   \array{
@@ -157,6 +171,19 @@ $$
   \,.
 $$
 
+Now to see that the image on morphisms is well defined. First observe that any two choices $(Q f)_{i}$ of the first lift in the definition are left homotopic to each other, exhibited by lifting in
+
+$$
+  \array{
+    Q X \sqcup Q X &\stackrel{((Q f)_1, (Q f)_2 )}{\longrightarrow}& Q Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{p_{Y}}}
+    \\
+    Cyl(Q X)
+    &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}& 
+    Y
+  }
+$$
 
 (...)
 
