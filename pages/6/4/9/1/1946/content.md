@@ -549,9 +549,9 @@ The discussion of enriched Reedy model structures is in
 The main statement is theorem 4.7 there.
 
 
-The Reedy model structure on towers is discussed for instance in section 6 of 
+The Reedy model structure on towers is discussed for instance in chapter 6 of 
 
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html))
+* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html) [PDF](http://dodo.pdmi.ras.ru/~topology/books/goerss-jardine.pdf)) 
  {#GoerssJardine}
 
 The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
