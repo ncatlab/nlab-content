@@ -70,7 +70,7 @@ where $Cyl(X) \to X$ is a weak equivalence. This is called a **good cylinder obj
 +-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
 ###### Remark
 
-By the factorization axioms every object in a model category has both a good path object and as weall as good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
+By the factorization axioms every object in a model category has both a good path object and as well as a good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
 
 For instance in the [[classical model structure on topological spaces]], the obvious object $X\times [0,1]$ is a cylinder object, but not a good cylinder unless $X$ itself is cofibrant (a [[cell complex]] in this case).
 
@@ -83,7 +83,7 @@ More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInA
 
 Let $f,g \colon X \longrightarrow Y$ be two [[parallel morphisms]] in a [[model category]].
 
-* A **left homotopy** $\eta \colon f \Lognrightarrow_L g$ is and  morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]: 
+* A **left homotopy** $\eta \colon f \Rightarrow_L g$ is a morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]: 
 
 $$
   \array{
@@ -149,7 +149,7 @@ Likewise if there is a [[cylinder functor]], one gets functorially defined [[cyl
 
 ## References 
 
-See the references at [[homotopy theory]] and [[model category]].
+See the references at _[[homotopy theory]]_ and at _[[model category]]_.
 
 [[!redirects left homotopy]]
 [[!redirects right homotopy]]
