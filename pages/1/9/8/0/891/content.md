@@ -48,12 +48,12 @@ In particular,
 
 +-- {: .num_cor} 
 ###### Corollary 
-Suppose $\mathbf{C}$ is a category where every morphism has an [[image|epi-mono factorization]]. If the kernel pair of a regular epi $q$ exists, then $q = coeq \circ \ker(q)$. If the coequalizer of a kernel pair $i = \langle e_1, e_2 \rangle$ exists, then $i = \ker \circ coeq(i)$. 
+Suppose $\mathbf{C}$ is a category where every morphism has an [[image|epi-mono factorization]]. If the kernel pair of a regular epi $q$ exists, then $q$ is the coequalizer of its kernel pair: $q = coeq \circ \ker(q)$. If the coequalizer of a kernel pair $i = \langle e_1, e_2 \rangle$ exists, then $i$ is the kernel pair of it coequalizer: $i = \ker \circ coeq(i)$. 
 =-- 
 
 +-- {: .proof} 
 ###### Proof 
-We just prove the first statement; the second is proved similarly. We have of course a [[counit]] $coeq \circ \ker(q) \leq q$. On the other hand, if $q = coeq(f, g)$ (where we may assume $\langle f, g \rangle$ is monic by the epi-mono factorization), then we have a unit $\langle f, g \rangle \leq \ker \circ coeq(f, q) = \ker(q)$; by applying $coeq$ to each side, we have $q \leq coeq \circ \ker(q)$, as desired. 
+We just prove the first statement; the second is proved similarly. We have of course a [[counit]] $coeq \circ \ker(q) \leq q$. On the other hand, if $q = coeq(f, g)$ (where we may assume $\langle f, g \rangle$ is monic by the epi-mono factorization), then we have a unit $\langle f, g \rangle \leq \ker \circ coeq(f, g) = \ker(q)$; by applying $coeq$ to each side, we have $q \leq coeq \circ \ker(q)$, as desired. 
 =-- 
 
 ## In higher category theory
