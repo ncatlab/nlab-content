@@ -14,7 +14,9 @@
 
 ## Idea
 
-Given a [[group]] $G$ and a [[subgroup]] $H$, then their _coset_ is the [[quotient]] $G/H$.
+Given a [[group]] $G$ and a [[subgroup]] $H$, then their _coset_ is the [[quotient]] $G/H$, hence the set of [[equivalence classes]] of elements of $G$ where two are regarded as equivalent if they differ by right multiplication with an element in $H$.
+
+If $G$ is a [[topological group]], then the quotient is a [[topological space]] and usually called the _coset space_. This is in particular a [[homogeneous space]], see there for more.
 
 ## Definition
 
@@ -96,6 +98,92 @@ $$
   }
 $$
 
+## Examples
+
+### $n$-Spheres
+
++-- {: .num_example #nSphereAsCosetSpace}
+###### Example
+
+The [[n-spheres]] are coset spaces of [[orthogonal groups]]
+
+$$
+  S^n \simeq O(n+1)/O(n)
+  \,.
+$$
+
+For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+=--
+
+### Sequences of coset spaces
+ {#QuotientMapsOfCosetSpaces}
+
+For $K \hookrightarrow H \hookrightarrow G$
+two consecutive group inclusions, then there is a [[fiber bundle]] of the form
+
+$$
+  \array{
+    H/K & \longrightarrow&  G/K 
+    \\
+    && \downarrow 
+    \\
+    && G/H
+  }
+  \,.
+$$
+
+If this is indeed a [[homotopy fiber sequence]], then it induces the corresponding [[long exact sequence of homotopy groups]]
+
+$$
+  \cdots
+  \to 
+  \pi_{n+1}(G/H)
+  \longrightarrow
+  \pi_n(H/K) \longrightarrow \pi_n(G/K) \longrightarrow \pi_n(G/H)
+  \longrightarrow 
+  \pi_{n-1}(H/K)
+  \to \cdots
+  \,.
+$$
+
+
++-- {: .num_example #CofiberSequencesOfCosetsOfOrthogonalGroups}
+###### Example
+
+Consider a sequence of inclusions of [[orthogonal groups]] of the form
+
+$$
+  O(n) \hookrightarrow O(n+1) \hookrightarrow O(n+k)
+  \,.
+$$
+
+Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and hence there is a [[long exact sequence of homotopy groups]] of the form 
+
+$$
+  \cdots
+  \to 
+  \pi_q(S^n) 
+  \longrightarrow \pi_q(O(n+k)/O(n)) \longrightarrow \pi_q(O(n+k)/O(n+1))
+  \longrightarrow 
+  \pi_{q-1}(S^n)
+  \to \cdots
+  \,.
+$$
+
+Now for $q \lt n$ then $\pi_q(S^n) = 0$ and hence in this range we have [[isomorphisms]]
+
+$$
+  \pi_{\bullet \lt n}(O(n+k)/O(n)) 
+     \stackrel{\simeq}{\longrightarrow}
+  \pi_{\bullet \lt n}(O(n+k)/O(n+1))
+ \,.
+$$
+
+=--
+
+
+
 ## Related concepts
 
 * [[coset space]]
@@ -118,3 +206,7 @@ $$
 [[!redirects right coset]]
 [[!redirects left cosets]]
 [[!redirects right cosets]]
+
+[[!redirects coset space]]
+[[!redirects coset spaces]]
+
