@@ -23,8 +23,9 @@
 
 In many [[category|categories]] $C$ in which one does [[homotopy theory]], there is a notion of _homotopy_ between morphisms, which is closely related to the higher morphisms in [[higher category theory]].  If we regard such a category as a presentation of an $(\infty,1)$-[[(infinity,1)-category|category]], then homotopies $f\sim g$ present the 2-cells $f\Rightarrow g$ in the resulting $(\infty,1)$-category.
 
+## Definition
 
-## Definition in enriched categories 
+### In enriched categories 
 
 If $C$ is [[enriched category|enriched]] over [[Top]], then a **homotopy** in $C$ between maps $f,g:X\,\rightrightarrows \,Y$ is a map $H:[0,1] \to C(X,Y)$ in $Top$ such that $H(0)=f$ and $H(1)=g$.  In $Top$ itself this is the classical notion.
 
@@ -33,37 +34,62 @@ If $C$ has [[copower|copowers]], then an equivalent definition is a map $[0,1]\o
 There is a similar definition in a [[simplicially enriched category]], replacing $[0,1]$ with the 1-simplex $\Delta^1$, with the caveat that in this case not all _simplicial homotopies_ need be composable even if they match correctly. (This depends on whether or not all (2,1)-[[horn]]s  in the simplicial set, $C(X,Y)$, have fillers.)   Likewise in a [[dg-category]] we can use the "chain complex interval" to get a notion of _chain homotopy_.
 
 
-## Definition in model categories 
+### In model categories 
 
-If $C$ is instead a [[model category]], it has an intrinsic notion of homotopy determined by its factorizations.
+If $\mathcal{C}$ is a [[model category]], it has an intrinsic notion of homotopy determined by its factorizations. For more on the following see at _[[homotopy in a model category]]_.
 
-* A **[[path object]]** $Path(X)$ for an object $X$ is a factorization of the diagonal $X \to X \times X$ as
++-- {: .num_defn #PathAndCylinderObjectsInAModelCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]] and $X \in \mathcal{C}$ an [[object]].
+
+* A **[[path object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
+
 $$
-  X \to Path(X) \to X \times X
+  \nabla_X 
+  \;\colon\;
+   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
   \,.
 $$
-where $X\to Path(X)$ is a weak equivalence.
 
-* A **[[cylinder object]]** $Cyl(X)$ is a factorization of the codiagonal (or "fold") $X \sqcup X \to X$ as
+where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a fibration.
+
+* A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X X \sqcup X \to X$ as
+
 $$
-  X \sqcup X \to Cyl(X) \to X
+  \Delta_X
+  \;\colon\;
+  X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
   \,.
 $$
-where $Cyl(X) \to X$ is a weak equivalence.
 
-Frequently one asks as well that $Path(X)\to X\times X$ be a fibration and $X\sqcup X\to Cyl(X)$ be a cofibration; we call such paths and cylinders _good_.  Clearly any object has a good path object and a good cylinder object.  However, in the usual [[model structure on topological spaces]], the obvious object $X\times I$ is a cylinder, but not a good cylinder unless $X$ itself is cofibrant.
+where $Cyl(X) \to X$ is a weak equivalence. This is called a **good cylinder object** if in addition $X \sqcup X \to Cyl(X)$ is a cofibration.
 
-We think of $Path(X)$ as an analogue of $\pitchfork(I,X)$ and $Cyl(X)$ as an analogue of $I\odot X$.  In fact, if $C$ is a $Top$-enriched model category and $X$ is cofibrant, then these powers and copowers  are in fact examples of path and cylinder objects.  (This works more  generally if $C$ is a $V$-model category and $e\sqcup e \to I \to e$ is a good cylinder object for the cofibrant unit object $e$ of $V$.)
+=--
 
++-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
+###### Remark
 
-Then:
+By the factorization axioms every object in a model category has both a good path object and as weall as good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
 
-* A **left homotopy** between two morphisms $f,g : X \to Y$ in $C$ is a morphism $\eta : Cyl(X) \to Y$ such that
+For instance in the [[classical model structure on topological spaces]], the obvious object $X\times [0,1]$ is a cylinder object, but not a good cylinder unless $X$ itself is cofibrant (a [[cell complex]] in this case).
+
+More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cyclinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
+
+=--
+
++-- {: .num_defn #LeftAndRightHomotopyInAModelCategory}
+###### Definition
+
+Let $f,g \colon X \longrightarrow Y$ be two [[parallel morphisms]] in a [[model category]].
+
+* A **left homotopy** $\eta \colon f \Lognrightarrow_L g$ is and  morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]: 
+
 $$
   \array{
-    X &\rightarrow& Cyl(X) &\leftarrow& X
+    X &\longrightarrow& Cyl(X) &\longleftarrow& X
     \\
-    & {}_f\searrow &\downarrow^\eta& \swarrow_g
+    & {}_{\mathllap{f}}\searrow &\downarrow^{\mathrlap{\eta}}& \swarrow_{\mathrlap{g}}
     \\
     && 
     Y
@@ -71,25 +97,37 @@ $$
   \,.
 $$
 
-* A **right homotopy** between two morphisms $f,g : X \to Y$ in $C$ is a morphism $\eta : X \to Path(Y)$ such that
+* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path object]] of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
+
 $$
   \array{
     && X
     \\
-    & {}^f\swarrow & \downarrow^\eta & \searrow^{g} 
+    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\eta}} & \searrow^{\mathrlap{g}} 
     \\
-    Y &\leftarrow& Path(Y) &\rightarrow& Y
+    Y &\longleftarrow& Path(Y) &\longrightarrow& Y
   }
   \,.
 $$
 
-By the above remarks about powers and copowers, it follows that in a $Top$-model category, any enriched homotopy between maps $X\to Y$ is a left homotopy if $X$ is cofibrant and a right homotopy if $Y$ is fibrant.  Similar remarks hold for other enrichments.
+=--
 
-## Remarks 
++-- {: .num_remark }
+###### Remark
 
-Path objects and right homotopies also exist in various other situations, for instance, if there is not the full structure of a [[model category]] but just of a [[category of fibrant objects]] is given.  Likewise for cylinder objects and left homotopies in a category of cofibrant objects.
+By remark \ref{RemarkOnChoicesOfNonGoodPathAndCylinderObjects} it follows that in a $Top$-[[enriched model category]], any enriched homotopy between maps $X\to Y$ is a left homotopy if $X$ is cofibrant and a right homotopy if $Y$ is fibrant.  Similar remarks hold for other enrichments.
 
-Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder object]]s. 
+=--
+
+For more see at _[[homotopy in a model category]]_.
+
+### In (co-)fibration categories
+
+Clearly the concepf of left homotopy in def. \ref{PathAndCylinderObjectsInAModelCategory} only needs part of the model category axioms and thus makes sense more generally in suitable [[cofibration categories]]. Dually, the concepf of path ojects in def. \ref{PathAndCylinderObjectsInAModelCategory} makes sense more generally in suitable [[fibration categories]] such as [[categories of fibrant objects]] in the sense of Brown.
+
+Likewise if there is a [[cylinder functor]], one gets functorially defined [[cylinder objects]], etc.
+
+
 
 ## Related concepts
 
