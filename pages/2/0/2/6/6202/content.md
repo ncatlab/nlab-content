@@ -22,7 +22,7 @@
 
 ## Definition
 
-Let $C$ and $D$ be [[monoidal categories]], and $F\colon C \leftrightarrows D : G$ a _comonoidal adjunction_ , i.e. an [[adjunction]] in the [[2-category]] of colax [[monoidal functors]].  (By [[doctrinal adjunction]], this implies that $G$ is a strong monoidal functor.)  This adjunction is a **Hopf adjunction** if the canonical morphisms
+Let $C$ and $D$ be [[monoidal categories]], and $F\colon C \rightleftarrows D : G$ a _comonoidal adjunction_ , i.e. an [[adjunction]] $F\dashv G$ in the [[2-category]] of colax [[monoidal functors]].  (By [[doctrinal adjunction]], this is actually equivalent to requiring that $G$ is a strong monoidal functor.)  This adjunction is a **Hopf adjunction** if the canonical morphisms
 
 $$ F(x \otimes G y) \to F x \otimes y $$
 $$ F(G y \otimes x) \to y \otimes F x $$
