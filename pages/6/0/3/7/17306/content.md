@@ -1,0 +1,14 @@
+
+## Idea
+
+Something like a 
+
+* [[category of fibrant objects]]
+
+or similar
+
+## Related entries
+
+* [[cofibration category]]
+
+[[!redirects fibration categories]]
