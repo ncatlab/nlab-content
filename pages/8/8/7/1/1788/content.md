@@ -1,6 +1,20 @@
 
 $$
   \array{
+    F(X) &\underoverset{iso}{F(p_X)}{\longleftarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X) 
+    \\
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{F(Q f)}} && \downarrow^{\mathrlap{F(R Q f) } 
+   && 
+    \\
+    F(Y) &\underoverset{F(p_y)}{iso}{\longleftarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y) 
+  }
+  \,,
+$$
+
+$\,$
+
+$$
+  \array{
     O(q)_+ \wedge S^q 
      &\stackrel{id}{\longrightarrow}& 
     O(q)_+ \wedge S^q 
