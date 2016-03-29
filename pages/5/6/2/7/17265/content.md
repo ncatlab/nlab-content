@@ -23,7 +23,7 @@
 
 ## Idea
 
-The _classical model structure on topological spaces_ or _Quillen-Serre model structure_ $Top_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard classical [[homotopy theory]]. 
+The _classical model structure on topological spaces_ or _Quillen-Serre model structure_ $Top_{Quillen}$ ([Quillen 67, II.3](#Quillen67)) is a [[model category]] structure on the [[category]] [[Top]] of [[topological spaces]] (also on many [[convenient categories of topological spaces]]) which represents the standard [[homotopy theory]] of [[CW-complexes]], in that its [[homotopy category of a model category]] is the [[classical homotopy category]] on [[cell complexes]]/[[CW-complexes]].
 
 Its [[weak equivalences]] are the [[weak homotopy equivalences]], its [[fibrations]] are the [[Serre fibrations]] and its [[cofibrations]] are the [[retracts]] of [[relative cell complexes]].
 
