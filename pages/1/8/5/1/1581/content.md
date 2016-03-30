@@ -12,7 +12,7 @@ The **basis theorem** for [[vector space]]s states that every [[vector space]] $
 +-- {: .un_theorem}
 ###### Basis theorem
 
-If $V$ is a [[vector space]] over any [[field]] $K$, then $V$ has a [[basis of a vector space|basis]].
+If $V$ is a [[vector space]] over any [[field]] (or, say, a left vector space over a [[skewfield]]) $K$, then $V$ has a [[basis of a vector space|basis]].
 
 =--
 
@@ -33,6 +33,14 @@ we must have $a_0 = 0$ -- else we can multiply by $1/a_0$ and express $v$ as a l
 =--
 
 I'll write out a proof of the converse, that the axiom of choice follows from the basis theorem, as soon as I've digested it -- Todd. 
+
+
++-- {: .un_theorem}
+###### Equipotence of vector space bases (Steinitz) 
+
+Any two bases of a vector space are of the same cardinality. 
+
+=--
 
 ## Generalisations
 
