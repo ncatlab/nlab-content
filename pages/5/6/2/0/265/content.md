@@ -50,7 +50,7 @@ $$
 
 Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consists of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
 
-### On model category structure
+### On model categories
 
 In highly structured situations where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
 
@@ -62,7 +62,7 @@ $$
   (F \dashv G) : C \stackrel{\leftarrow}{\to} D
 $$
 
-an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]] between [[simplicial model categories]], combining $F$ and $G$ with cofibrant-fibrant replacement induces a pair of [[adjoint (∞,1)-functor]]s
+an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]] between [[simplicial model categories]], combining $F$ and $G$ with cofibrant-fibrant replacement induces a pair of [[adjoint (∞,1)-functors]]
 
 $$
   \mathbb{L}F 
