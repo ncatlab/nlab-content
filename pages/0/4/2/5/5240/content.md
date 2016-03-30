@@ -83,21 +83,33 @@ then the [[transferred model structure]] along the [[free-forgetful adjunction]]
 
 Monoidal model categories that satisfy the monoid axiom (as well as the other conditions sufficient for the [above theorem](#ExistenceOfModelstructureOnMonoids) on the existence of transferred model structures on categories of monoids) include
 
+with respect to [[Cartesian product]]
+
 * the standard [[model structure on simplicial sets]];
 
-* the projective [[model structure on chain complexes]] for connective chanin complexes with fibrations the surjections in positibe degree
+with respect to [[tensor product of chain complexes]]:
+
+* the projective [[model structure on chain complexes]] for connective chanin complexes with fibrations the surjections in positive degree
+
+and with respect to a [[symmetric monoidal smash product of spectra]]:
 
 * the [[model structure on symmetric spectra]]
+
+* the [[model structure on orthogonal spectra]]
+
+* the [[model structure for excisive functors]]
 
 * the [[model structure on Gamma-spaces]]
 
 =--
 
-([Schwede-Shipley 00, section 5](#SchwedeShipley))
+([Schwede-Shipley 00, section 5](#SchwedeShipley), [MMSS 00, theorem 12.1 (iii)](#MMSS00))
 
 ## References
 
 * {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], part III of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
 
 [[!redirects model structure on monoids]]
