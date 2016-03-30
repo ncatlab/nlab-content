@@ -50,7 +50,47 @@ $$
 
 =--
 
+## Properties
+ {#Properties}
+
+For $\mathcal{C}$ any [[category]] and $K\subset Mor(\mathcal{C})$ any [[class]] of its morphisms, write $K Inj$ for the $K$-[[injective morphisms]] and $K Cof \coloneqq  (K Inj)Proj$ for the $K Inj$-[[projective morphisms]]. 
+
++-- {: .num_prop #PushoutProductOfCofClassIsCofClassOfPushoutProduct}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] with [[finite limits]] and [[finite colimits]], and let $I_1, I_2\subset Mor(\mathcal{C})$ be two [[classes]] of its morphisms. 
+
+Then under [[pushout product]] $\Box$:
+
+$$
+  (I_1 Cof) \Box (I_2 Cof)
+  \subset 
+  (I_1 \Box I_2) Cof
+  \,.
+$$
+
+=--
+
+([Hovey-Shipley-Smith 00](#HoveyShipleySmith00))
+
++-- {: .proof}
+###### Proof
+
+By a little [[Joyal-Tierney calculus]].
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the context of [[monoidal model category]] theory, prop. \ref{PushoutProductOfCofClassIsCofClassOfPushoutProduct} implies that for checking the [[pushout-product axiom]] in the case of [[cofibrantly generated model categories]] it is sufficient to check it on generatic cofibrations.
+
+=--
+
+
+
 ## Examples
+ {#Examples}
 
 +-- {: .num_example #PushoutProductOfSpheresInclusionsIntoDisks}
 ###### Example
@@ -76,6 +116,10 @@ $$
 * [[pushout-product axiom]]
 
 * [[Joyal-Tierney calculus]]
+
+## References
+
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
 
 [[!redirects pushout product]]
