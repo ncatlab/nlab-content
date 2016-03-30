@@ -1138,10 +1138,10 @@ where we used the adjoint characterization ([here](Day+convolution#DayConvolutio
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #PushoutSmashProductOfFreeSpectraOnGeneratingCofibrationsOfTop}
 ###### Lemma
 
-The [[symmetric monoidal smash product of spectra]] of the [[free spectrum]] constructions (def. \ref{FreeStructuredSpectrum}) on the generating cofibrations $\{S^{n-1}\overset{i_n}{\hookrightarrow} D^n\}_{n \in \mathbb{B}}$ of the [[classical model structure on topological spaces]] is given by addition of indiuces
+The [[symmetric monoidal smash product of spectra]] of the [[free spectrum]] constructions (def. \ref{FreeStructuredSpectrum}) on the generating cofibrations $\{S^{n-1}\overset{i_n}{\hookrightarrow} D^n\}_{n \in \mathbb{B}}$ of the [[classical model structure on topological spaces]] is given by addition of indices
 
 $$
   (F_k i_{n_1}) \Box_{\mathbb{S}_{dia}} (F_\ell i_{n_2})
@@ -1155,7 +1155,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{SmashProductOfFreeSpectra} the [[commuting diagram]] defining the [[pushout product]] of [[free]] specta
+By lemma \ref{SmashProductOfFreeSpectra} the [[commuting diagram]] defining the [[pushout product]] of [[free spectra]]
 
 $$
   \array{
@@ -1172,9 +1172,11 @@ $$
     \\
     && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
   }
-  \;\;\;\;
-  \,,
-  \;\;\;\;
+$$
+
+is equivalent to this diagram:
+
+$$
   \array{
     && F_{k+\ell}((S^{n_1-1}\times S^{n_2-1})_+)
     \\
@@ -1189,38 +1191,23 @@ $$
     \\
     && F_{k+ \ell}( (D^{n_1}\times D^{n_2})_+ )
   }
+  \,.
 $$
 
-(...)
-
-=--
-
-+-- {: .num_lemma}
-###### Lemma
-
-The [[pushout product]] of two cofibrations in $\mathbb{S}_{dia}Mod_{stable}$ is again a cofibration.
-
-=--
-
-+-- {: .proof}
-###### Proof
+Since the [[free spectrum]] construction is a left adjoint, it preserves pushouts, and so 
 
 $$
-  \array{
-    && F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
-    \\
-    & \swarrow && \searrow
-    \\
-    F_k D^{n_1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
-    &&
-    &&
-    F__k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} D^{n_2-1}_+
-    \\
-    & \searrow && \swarrow
-    \\
-    && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
-  }
+  (F_{k}i_{n_1}) 
+    \Box_{\mathbb{S}_{dia}}
+  (F_{\ell}i_{n_2})
+   \simeq
+  F_{k + \ell}( i_{n_1} \Box i_{n_2})
+   \simeq
+  F_{k + \ell}( i_{n_1 + n_2})
+ \,,
 $$
+
+where in the second step we used [this lemma](pushout-product#PushoutProductOfSpheresInclusionsIntoDisks).
 
 =--
 
@@ -1322,13 +1309,14 @@ $$
 
 of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on topological spaces]].
 
-For $Dia \in \{Seq, Sym, Orth, Top^{\ast/}_{fin}\}$ any one of the four [[sites]], write
+Write
 
 $$
   F I \coloneqq \{ y(x) \otimes i_+ \}_{{x \in Dia} \atop {i \in I}}
 $$
 
-for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating cofibration.
+for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the class $I$ above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} FreeMod$ the [[site]] for $\mathbb{S}_{dia}Mod$ from lemma \ref{SModulesAsEnrichedFunctors}.
+ 
 Similarly, write
 
 $$
@@ -1839,7 +1827,60 @@ are compatible with their [[monoidal category]] structure given by the [[symmetr
 
 =--
 
-([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00))
+([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00)) 
+
+We give the proof below (...) after a sequence of lemmas.
+
++-- {: .num_lemma #PushoutSmashProductOfStableCofibsIsStableCofib}
+###### Lemma
+
+The [[pushout product]] of two cofibrations in $\mathbb{S}_{dia}Mod_{stable}$ is again a cofibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A general abstract fact about [[pushout-products]] ([Hovey-Shipley-Smith 00, prop. 5.3.4](#HoveyShipleySmith00), see _[here](pushout-product#PushoutProductOfCofClassIsCofClassOfPushoutProduct)_) is that for $I_1, I_2$ two classes of morphisms in a [[symmetric monoidal category|closed]] [[symmetric monoidal category]] with [[finite limits]] and [[finite colimits]], and writing $I_i Cof$ for their saturated classes, then under [[pushout-product]] $\Box$:
+
+$$
+  (I_1 Cof) \Box (I_2 Cof)
+  \subset 
+  (I_1 \Box I_2) Cof
+  \,.
+$$
+
+Since the cofibrations of the stable model structure, theorem \ref{StableModelStructuresOnDiagramSpectra}, are elements in
+
+
+$$
+  Cof_{stable} = (F I) Cof
+$$
+
+with $F I$ the class of [[free spectra]] on the class of generating cofibrations $I$ of the [[classical model structure on topological spaces]], def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, this implies in the present case that 
+
+$$
+  Cof_{stable} \Box Cof_{stable}
+  \subset
+  (F I \Box F I) Cof
+  \,.
+$$
+
+Now lemma \ref{PushoutSmashProductOfFreeSpectraOnGeneratingCofibrationsOfTop} implies that 
+
+$$
+  F I \Box F I
+  =
+  F(I \Box I)
+  =
+  F I 
+$$
+
+and hence the claim follows.
+
+=--
+
+
 
 +-- {: .num_lemma }
 ###### Lemma
@@ -1880,14 +1921,22 @@ sends acylic cofibrations in the stable model structure to morphisms that are st
 
 ([MMSS 00, prop. 12.5](#MMSS00))
 
-+-- {: .num_prop }
++-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Proposition
 
-The smash product $\wedge_{\mathbb{S}_{dia}}$ on $\mathbb{S}_{dia} Mod_{stable}$ satisfies the [[pushout-product axiom]].
+The [[symmetric monoidal smash product of spectra]] $\wedge_{\mathbb{S}_{dia}}$ on $\mathbb{S}_{dia} Mod$, def. \ref{SymmetricSmashProductOfDiagramSpectra} satisfies the [[pushout-product axiom]] with respect to the stable model structure $\mathbb{S}_{dia} Mod$ of theorem \ref{StableModelStructuresOnDiagramSpectra}.
 
 =--
 
 ([MMSS 00, prop. 12.6](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+That the pushout product of two stable cofibrations is again a stable cofibration is the content of lemma \ref{PushoutSmashProductOfStableCofibsIsStableCofib}. It remains to show that if at least one of them is a stanble equivalence, def. \ref{StableEquivalencesForDiagramSpectra}, then so is the pushout-product.
+That follows with a laborious argument using the above lemmas (...).
+
+=--
 
 (...)
 
