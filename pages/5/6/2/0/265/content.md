@@ -50,7 +50,7 @@ $$
 
 Here if this zig-zag consists just of one morphism to the left one would speak of a **left derived functor**. If it consists of just one morphism to the right, one would speak of a **right derived functor**. In general, it is just a derived functor.
 
-### In the presence of model category structure
+### On model category structure
 
 In highly structured situations where $C$ and $D$ are equipped not just with weak equivalences but with the full structure of a [[model category]] and if $F$ is a left or right [[Quillen adjunction|Quillen functor]] with respect to these model structures, there are accordingly more structured ways to solve this problem:
 
@@ -65,28 +65,31 @@ $$
 an [[sSet]]-[[enriched category theory|enriched]] [[Quillen adjunction]] between [[simplicial model categories]], combining $F$ and $G$ with cofibrant-fibrant replacement induces a pair of [[adjoint (∞,1)-functor]]s
 
 $$
-  \mathbb{L}F : \mathbf{C} \stackrel{\leftarrow}{\to} \mathbf{D}
-  : 
+  \mathbb{L}F 
+    \colon 
+    \mathbf{C} \stackrel{\longleftarrow}{\longrightarrow} \mathbf{D}
+  \colon
   \mathbb{R}G
 $$
 
 between [[quasi-category|quasi-categories]] $\mathbf{C} = N(C^\circ)$, $D = N(D^\circ)$, where $N$ is the [[homotopy coherent nerve]] functor. 
 
-Often a simplified version of this situation is considered, where instead of the [[(∞,1)-categories]] $\mathbf{C}$ and $\mathbf{D}$ only [[homotopy category of an (∞,1)-category|their homotopy categories]] are remembered, equivalently the [[homotopy category|homotopy categories]] of $C$ and $D$. The above [[adjoint (∞,1)-functor]]s restrict to functors
+Often a simplified version of this situation is considered, where instead of the [[(∞,1)-categories]] $\mathbf{C}$ and $\mathbf{D}$ only [[homotopy category of an (∞,1)-category|their homotopy categories]] are remembered, equivalently the [[homotopy category of a model category|homotopy categories of the model categories]]  $C$ and $D$. The above [[adjoint (∞,1)-functors]] restrict to functors
 
 $$
-  L F : Ho(C) \stackrel{\leftarrow}{\to} Ho(D)
-  : 
+  L F \colon 
+    Ho(C) \stackrel{\longleftarrow}{\longrightarrow} Ho(D)
+  \colon
   R G
 $$
 
-on [[homotopy category|homotopy categories]], and often it is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature
+on [[homotopy category of a model category|homotopy categories]], and often it is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature.
 
 More generally, derived functors in this sense may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
 
 ### On homotopy categories
 
-If one forgets the [[nPOV]] and that a [[category with weak equivalences]] should be regarded as presentation for an [[(∞,1)-category]], then it might seem as if all one wants when deriving a [[homotopical functor]] $f : C \to D$ is to extend it to a diagram
+If one forgets the [[nPOV]] and that a [[category with weak equivalences]] should be regarded as presentation for an [[(∞,1)-category]], then it might seem as if all one wants when deriving a [[homotopical functor]] $f \colon C \longrightarrow D$ is to [[extension|extend]] it to a diagram
 
 $$
   \array{
@@ -99,11 +102,11 @@ $$
   \,,
 $$
 
-where $Q_C : C \to Ho(C)$ is the universal morphism characterizing the [[homotopy category]] and similarly for $Q_D$.
+where $Q_C \colon C \longrightarriw Ho(C)$ is the universal morphism characterizing the [[homotopy category]] and similarly for $Q_D$.
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
-This is often in the literature given as the _definition_ of, respectively, [[total derived functor|total]] left and right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category]] theory picture. Moreover, the examples of derived functors that play any practical role are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It then also happens that the functors so obtained are left or right Kan extensions.
+In the literature this is often takes as the _definition_ of [[total derived functor|total]] left or right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category theory|(∞,1)-category theoretic]] situation above. Moreover, the examples of derived functors that play a role in practice are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It is then but a happy byproduct that the functors so obtained also happen to be left or right Kan extensions.
 
 
 ## Definition
