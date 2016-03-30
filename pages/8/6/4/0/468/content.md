@@ -26,7 +26,7 @@ The _pushout-product axiom_ is a compatibility condition between
 
 1. a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal]] structure 
 
-2. and [[model category]] structure
+2. a [[model category]] structure
 
 on a category.
 
@@ -38,12 +38,13 @@ This is relevant in [[enriched homotopy theory]], which pairs [[enriched categor
 
 Let $C$ be a [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] equipped with a [[model category]] structure. 
 
-Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ the [[pushout-product]] morphis, the induced morphism out of the [[coproduct]]
+Then $C$ satisfies the _pushout-product axiom_ if for any pair of cofibrations $f : X \to Y$ and $f' : X' \to Y'$ their [[pushout-product]], hence the induced morphism out of the [[coproduct]]
 
 $$
   (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
   \to
   Y \otimes Y'
+  \,,
 $$
 
 is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
