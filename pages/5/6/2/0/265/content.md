@@ -56,6 +56,7 @@ In highly structured situations where $C$ and $D$ are equipped not just with wea
 
 The **left derived functor** $\mathbb{L}F : \mathbf{C} \to \mathbf{D}$ of a [[left Quillen functor]] $F : C \to D$ is obtained by applying $F$ to _[[cofibrant objects]]_ of $C$. Similarly a **right derived functor** $\mathbb{R}G : \mathbf{D} \to \mathbf{C}$ of a [[right Quillen functor]] $G : D \to C$ is obtained by applying $G$ to _[[fibrant objects]]_. 
 
+
 Recalling that the [[(∞,1)-category]] [[presentable (∞,1)-category|presented]] by a [[simplicial model category]] $C$ may be identified with the full [[sSet]]-[[subcategory]] $C^\circ$ of fibrant-cofibrant objects, this may be understood as ensuring that the derived functor indeed respects the $(\infty,1)$-categorical structure. More precisely, for
 
 $$
@@ -83,7 +84,7 @@ $$
   R G
 $$
 
-on [[homotopy category of a model category|homotopy categories]], and often it is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature.
+on [[homotopy category of a model category|homotopy categories]], and often it is these functors that are called ([[total derived functor|total]]) **derived functors** in the literature. For more on this see at _[[homotopy category of a model category]]_ the section _[derived functors](homotopy+category+of+a+model+category#DerivedFunctors)_.
 
 More generally, derived functors in this sense may be considered in situations where less than the above extra structure is available (no [[model category]] structure or not [[Quillen adjunction]]).
 
@@ -318,16 +319,14 @@ General discussion of derived functors in [[homotopy theory]] is for instance in
 
 * {#Adams74} [[Frank Adams]], part III, section 8 of _[[Stable homotopy and generalised homology]]_, 1974
 
-* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]], 
-  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories
-and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
+* [[William Dwyer]], [[Philip Hirschhorn]], [[Daniel Kan]],  [[Jeff Smith]], _[[Homotopy Limit Functors on Model Categories and Homotopical Categories]]_, volume 113 of Mathematical Surveys and Monographs
 
 * [[Bruno Kahn]], [[Georges Maltsiniotis]], _[[Structures de Dérivabilité]]_
 
 Discussion in the context of [[(∞,1)-categories]] is in section 5.2.4 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
+ 
 
 ### In homological algebra
 
@@ -341,8 +340,8 @@ A systematic discussion of this case from the point of view of [[localization]] 
 
 and, similarly, in section 7 of 
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
- {#Schapira}
+* {#Schapira} [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ 
 
 
 
