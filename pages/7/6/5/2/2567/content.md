@@ -23,7 +23,7 @@ The notion of Quillen bifunctor enters the definition of [[monoidal model catego
 
 ##Definition##
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 **(Quillen bifunctor)**
 
@@ -32,7 +32,7 @@ Let $C, D, E$ be [[model category|model categories]]. A
 if it satisfies the following two conditions:
 
 1. for any cofibration $i : c \to c'$ in $C$ and cofibration 
-   $j : d \to d'$ in $D$, the induced morphism 
+   $j : d \to d'$ in $D$, the induced ([[pushout product]]) morphism 
    
    $$
      F(c', d) \coprod_{F(c,d)} F(c,d') \to F(c', d')
@@ -196,13 +196,15 @@ Using the above proposition, it follows in particular explicitly that the homoto
 
 A nice discussion of this is in ([Gambino](#Gambino)).
 
+## Related concepts
+
+* [[two-variable adjunction]]
 
 ## References
 
 Appendix A.2 of 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
-{#Lurie}
+* 
+{#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
-* Nicola Gambino, _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
-{#Gambino}
+* {#Gambino} [[Nicola Gambino]], _Weighted limits in simplicial homotopy theory_ ([pdf](http://www.crm.cat/Publications/08/Pr790.pdf))
