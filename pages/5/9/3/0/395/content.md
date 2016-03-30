@@ -23,9 +23,9 @@
 
 A _category of fibrant objects_ is a [[category with weak equivalences]] equipped with extra structure somewhat weaker than that of a [[model category]]. 
 
-The extra structure of fibrations _and_ cofibrations in a [[model category]] is, while convenient if it exists, not carried by many [[category with weak equivalences|categories with weak equivalences]] which still admit many constructions in [[homotopy theory]]. These are notably categories of [[presheaf|presheaves]] with values in a [[model category]]. 
+The extra structure of fibrations _and_ cofibrations in a [[model category]] is, while convenient if it exists, not carried by many [[categories with weak equivalences]] which nevertheless admit many constructions in [[homotopy theory]]. Even if they do, sometimes the cofibrations are intractable in practice.
 
-A _category of fibrant objects_ is essentially like a [[model category]] but with all axioms concerning the cofibrations dropped, while at the same time assuming that all objects are fibrant (hence the name). It turns out that this is sufficient for many useful constructions. In particular, it is sufficient for giving a convenient construction of the [[homotopy category]] in terms of [[span]]s of length one. This makes categories of fibrant objects useful in [[homotopical cohomology theory]].
+A _category of fibrant objects_ is essentially like a [[model category]] but with all axioms concerning the cofibrations dropped, the concept of fibrations retained ("[[fibration category]]") and assuming that all objects are fibrant (whence the name). It turns out that this is sufficient for many useful constructions. In particular, it is sufficient for giving a convenient construction of the [[homotopy category]] in terms of [[span]]s of length one. This makes categories of fibrant objects useful in [[homotopical cohomology theory]].
 
 ## Definition
 
