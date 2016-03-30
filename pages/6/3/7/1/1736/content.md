@@ -32,20 +32,20 @@ $$
 
 be a [[Quillen adjunction]] with $L$ [[left adjoint]] to $R$.
 
-Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category|homotopy categories]].
+Write $Ho C$ and $Ho D$ for the corresponding [[homotopy category of a model category|homotopy categories]].
 
-Notice that $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
+By the discussion there, $Ho C$ may be regarded as obtained by first passing to the full [[subcategory]] on cofibrant objects and then [[localization|inverting]] [[weak equivalences]], and $L$ (being a left Quillen adjoint) preserves weak equivalences between cofibrant objects.  Thus, $L$ induces a functor 
 
 $$
   \mathbb{L} : Ho C \to Ho D
 $$ 
 
-between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$.
+between the [[homotopy category|homotopy categories]], called its (total) left [[derived functor]].  Similarly (but dually), $R$ induces a (total) right derived functor $\mathbb{R} : Ho D \to Ho C$. See at _[homotopy category of a model category -- derived functors](homotopy+category+of+a+model+category#DerivedFunctors)_ for more.
 
 +-- {: .num_defn}
 ###### Definition
 
-The Quillen adjunction $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
+A [[Quillen adjunction]] $(L \dashv R)$ is a **Quillen equivalence** if the following equivalent conditions are satisfied.
 
 * The total left [[derived functor]] $\mathbb{L} : Ho(C) \to Ho(D)$ is an [[equivalence of categories|equivalence]] of the [[homotopy categories]];
 
