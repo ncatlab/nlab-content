@@ -237,12 +237,18 @@ one sees that $(R Q g)\circ (R Q f)$ is a lift of $g \circ f$ and hence the same
 
 =--
 
-+-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
-###### Theorem
++-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
+###### Definition
 
-For $\mathcal{C}$ a [[model category]], the functor $\gamma_{R,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]]: 
+For $\mathcal{C}$ a [[category with weak equivalences]], its _[[homotopy category]]_ (or: _[[localization]]_ at the weak equivalences) is, if it exists, a [[category]] $Ho(\mathcal{C})$ equipped with a [[functor]] 
 
-For $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] that takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]]
+$$
+  \gamma \colon \mathcal{C} \longrightarrow Ho(C)
+$$ 
+
+which sends weak equivalences to [[isomorphisms]], and which is [[universal property|universal with this property]]:
+
+for $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] out of $\mathcal{C}$ into any [[category]], such that $F$ takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]]
 
 $$
   \array{
@@ -255,6 +261,14 @@ $$
 $$
 
 and this factorization is unique up to unique isomorphism, in that for $(\tilde F_1, \rho_1)$ and $(\tilde F_2, \rho_2)$ two such factorizations, then there is a unique [[natural isomorphism]] $\kappa \colon \tilde F_1 \Rightarrow \tilde F_2$ making the evident diagram of natural isomorphisms commute.
+
+=--
+
+
++-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
+###### Theorem
+
+For $\mathcal{C}$ a [[model category]], the functor $\gamma_{R,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]], in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}. 
 
 =--
 
@@ -369,7 +383,7 @@ $$
   }
 $$
 
-for the system of [[full subcategory]] inclusions on the cofibrant objects ($\mathcal{C}_c$), the fibrant objects ($\mathcal{C}_f$) and the objects which are both fibrant and cofibrant ($\mathcal{C}_{fc}$), all regarded a [[catgeories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
+for the system of [[full subcategory]] inclusions on the cofibrant objects ($\mathcal{C}_c$), the fibrant objects ($\mathcal{C}_f$) and the objects which are both fibrant and cofibrant ($\mathcal{C}_{fc}$), all regarded a [[categories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
 
 =--
 
@@ -382,7 +396,7 @@ Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObje
 
 The proof of theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} immediately implies the following:
 
-+-- {: .num_cor}
++-- {: .num_cor #HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}
 ###### Corollary
 
 For $\mathcal{C}$ a [[model category]], the restriction of the localization functor $\gamma\;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (using remark \ref{EssentialUniquenessOfLocalizationFunctorOfModelCategory}) to any of the sub-[[categories with weak equivalences]] of def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}
@@ -418,8 +432,169 @@ $$
   \,.
 $$
 
+=--
+
+## Derived functors
+ {#DerivedFunctors}
+
++-- {: .num_defn #HomotopicalFunctor}
+###### Definition
+
+For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], then a [[functor]] $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ is called _[[homotopical functor]]_ if it sends weak equivalences to weak equivalences.
 
 =--
+
++-- {: .num_defn #DerivedFunctorOfAHomotopicalFunctor}
+###### Definition
+
+Given a [[homotopical functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ (def. \ref{HomotopicalFunctor}) between [[categories with weak equivalences]] whose [[homotopy categories]] $Ho(\mathcal{C})$ and $Ho(\mathcal{D})$ exist (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}), then its _[[derived functor]]_ is the functor $Ho(F)$ between these homotopy categories which is induced uniquely, up to unique isomorphism, by their universal property (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}):
+
+$$
+  \array{
+    \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+    \\
+    {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+    &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{\exists \; Ho(F)}{\longrightarrow}&
+    Ho(\mathcal{D})
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+While many functors of interest between [[model categories]] are not homotopical in the sense of def. \ref{HomotopicalFunctor}, many become homotopical after restriction to the [[full subcategories]] of fibrant object or of cofibrant objects, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. By corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects} this is just as good for the purpose of [[homotopy theory]].
+
+=--
+
+Therefore one considers the following generalization of def. \ref{DerivedFunctorOfAHomotopicalFunctor}:
+
++-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
+###### Definition
+
+Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ into a [[category with weak equivalences]] $\mathcal{D}$. 
+
+1. If the restriction of $F$ to the [[full subcategory]] $\mathcal{C}_f$ of fibrant object becomes a [[homotopical functor]] (def. \ref{HomotopicalFunctor}), then the [[derived functor]] of that restriction, according to def. \ref{DerivedFunctorOfAHomotopicalFunctor}, is called the _[[right derived functor]]_ of $F$ and denoted by $\mathbb{R}F$:
+
+   $$
+     \array{
+       & \mathcal{C}_f &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       & {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow 
+       &&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+       &\swArrow_{\simeq}&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       \mathbb{R} F \colon & Ho(\mathcal{C}_f) &\simeq& Ho(\mathcal{C})
+       &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+   Here the commuting square on the left is from corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the square on the right is that of def. \ref{DerivedFunctorOfAHomotopicalFunctor}.
+
+1. If the restriction of $F$ to the [[full subcategory]] $\mathcal{C}_c$ of cofibrant object becomes a homotopical functor (def. \ref{HomotopicalFunctor}), then the [[derived functor]] of that restriction, according to def. \ref{DerivedFunctorOfAHomotopicalFunctor}, is called the _[[left derived functor]]_ of $F$ and denoted by $\mathbb{L}F$:
+
+   $$
+     \array{
+       & \mathcal{C}_c &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       & {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow 
+       &&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+       &\swArrow_{\simeq}&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       \mathbb{L} F \colon & Ho(\mathcal{C}_c) &\simeq& Ho(\mathcal{C})
+       &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+   Here the commuting square on the left is from corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the square on the right is that of def. \ref{DerivedFunctorOfAHomotopicalFunctor}.
+
+=--
+
+The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} practically useful is the following
+
++-- {: .num_prop #KenBrownLemma}
+###### Proposition
+**([[Ken Brown's lemma]])**
+
+Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{C}_f, \mathcal{C}_c$ [[category of fibrant objects|of fibrant objects]] and [[cofibrtion category|of cofibrant objects]] respectively (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Let $\mathcal{D}$ be a [[category with weak equivalences]].
+
+1. A [[functor]]
+
+   $$
+     F \;\colon\; \mathcal{C}_f \longrightarrow \mathcal{D}
+   $$
+
+  is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic fibrations to weak equivalences.
+
+1. A [[functor]]
+
+   $$
+     F \;\colon\; \mathcal{C}_c \longrightarrow \mathcal{D}
+   $$
+
+  is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic cofibrations to weak equivalences.
+
+=--
+
++-- {: .num_cor #LeftAndRightDerivedFunctors}
+###### Corollary
+
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ a [[functor]]. Then:
+
+1. If $F$ preserves cofibrant objects and acyclic cofibrations between these, then its [[left derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) $\mathbb{L}F$ exists, fitting into a [[diagram]]
+
+   $$
+     \array{
+       \mathcal{C}_{c} &\overset{F}{\longrightarrow}& \mathcal{D}_{c}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+       &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) &\overset{\mathbb{L}F}{\longrightarrow}& Ho(\mathcal{D})
+     }
+   $$
+
+1. If $F$ preserves fibrant objects and acyclic fibrants between these, then its [[right derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) $\mathbb{R}F$ exists, fitting into a [[diagram]]
+
+   $$
+     \array{
+       \mathcal{C}_{f} &\overset{F}{\longrightarrow}& \mathcal{D}_{f}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+       &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) &\overset{\mathbb{R}F}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{C}$ and $\mathcal{D}$ be [[model categories]]. A [[functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is called
+
+1. a _[[left Quillen functor]]_ if it preserves cofibrations and acy
+
+=--
+
+
 
 ## References
 
