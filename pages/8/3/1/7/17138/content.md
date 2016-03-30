@@ -814,14 +814,15 @@ such that
 
 1. the class $W$ makes $\mathcal{C}$ into a **[[category with weak equivalences]]**, def. \ref{CategoryWithWeakEquivalences};
 
-1. The systems $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are [[weak factorization systems]].
+1. The systems $(W \cap Cof\;,\; Fib)$ and $(Cap\;,\; W\cap Fib)$ are [[weak factorization systems]], def. \ref{WeakFactorizationSystem}.
  
 =--
 
 We now expand on what this means.
 
-##### Lifting and extension
 
+##### Weak factorization systems
+ {#WeakFactorizationSystems}
 
 +-- {: .num_defn #LiftingAndExtension}
 ###### Definition
@@ -1032,8 +1033,22 @@ $$
 
 =--
 
++-- {: .num_defn #WeakFactorizationSystem}
+###### Definition
 
-##### The small object argument
+A **[[weak factorization system]]** on a [[category]] $\mathcal{C}$ is a [[tuple]] $L,R \subset Mor(\mathcal{C})$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
+
+1. Every morphism $f$ of $\mathcal{C}$ may be factored as $f = r\circ l$ with $l \in L$ and $r \in R$.
+
+1. $L$ is the class of morphisms which have the [[left lifting property]] with respect to every morphism of $R$.
+
+1. $R$ is the class of morphisms which have the [[right lifting property]] with respect to every morphism of $L$.
+
+=--
+
+... closure...
+
+**Small object argument**
 
 Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
@@ -1163,6 +1178,1001 @@ $$
   \,.
 $$
  
+=--
+
+##### Homotopy and The homotopy category
+
+
++-- {: .num_defn #PathAndCylinderObjectsInAModelCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]] and $X \in \mathcal{C}$ an [[object]].
+
+* A **[[path object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
+
+$$
+  \nabla_X 
+  \;\colon\;
+   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
+  \,.
+$$
+
+where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a fibration.
+
+* A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X X \sqcup X \to X$ as
+
+$$
+  \Delta_X
+  \;\colon\;
+  X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
+  \,.
+$$
+
+where $Cyl(X) \to X$ is a weak equivalence. This is called a **good cylinder object** if in addition $X \sqcup X \to Cyl(X)$ is a cofibration.
+
+=--
+
++-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
+###### Remark
+
+By the factorization axioms every object in a model category has both a good path object and as well as a good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
+
+For instance in the [[classical model structure on topological spaces]], the obvious object $X\times [0,1]$ is a cylinder object, but not a good cylinder unless $X$ itself is cofibrant (a [[cell complex]] in this case).
+
+More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cyclinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
+
+=--
+
++-- {: .num_defn #LeftAndRightHomotopyInAModelCategory}
+###### Definition
+
+Let $f,g \colon X \longrightarrow Y$ be two [[parallel morphisms]] in a [[model category]].
+
+* A **left homotopy** $\eta \colon f \Rightarrow_L g$ is a morphism $\eta \colon Cyl(X) \longrightarrow Y$ from a [[cylinder object]] of $X$,  def. \ref{PathAndCylinderObjectsInAModelCategory}, such that it makes this [[commuting diagram|diagram commute]]: 
+
+$$
+  \array{
+    X &\longrightarrow& Cyl(X) &\longleftarrow& X
+    \\
+    & {}_{\mathllap{f}}\searrow &\downarrow^{\mathrlap{\eta}}& \swarrow_{\mathrlap{g}}
+    \\
+    && 
+    Y
+  }
+  \,.
+$$
+
+* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path object]] of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    && X
+    \\
+    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\eta}} & \searrow^{\mathrlap{g}} 
+    \\
+    Y &\longleftarrow& Path(Y) &\longrightarrow& Y
+  }
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_lemma #ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually}
+###### Lemma
+
+If 
+$
+  X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
+$
+is a good [[cylinder object]] for a cofibrant object $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibratins.
+
+Dually, if 
+$
+   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
+$
+
+is a good path object for a fibrant object $X$, then both component $p_0,p_1 \colon Path(X)\to X$ are acyclic fibrations.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first case, the second is [[formal dual|formally dual]]. First observe that the two inclusions $X \to X \sqcup X$ are cofibrations, since they are the [[pushout]] of the cofibration $\emptyset \to X$. This implies that $i_0$ and $i_1$ are composites of two cofibrations
+
+$$
+  i_0, i_1 
+   \;\colon\;
+  X \overset{\in Cof}{\longrightarrow} X\sqcup X  
+  \overset{\in Cof}{\longrightarrow}
+$$
+
+and hence are themselves cofibrations. That they are in addition weak equivalences follows from [[two-out-of-three]] applied to the identity
+
+$$
+  id_X \;\colon\;
+  X \overset{\in W}{\longrightarrow}
+  Cyl(X)
+  \overset{i_0}{\longrightarrow}
+  X
+  \,.
+$$
+
+implied by the fact that the cylinder by definition factors the [[codiagonal]].
+
+=--
+
+The following says that the choice of cylinder/path objects in def. \ref{LeftAndRightHomotopyInAModelCategory} is irrelevant as long it is "good".
+
++-- {: .num_lemma #GoodCylinderObjectsSupportEveryLeftHomotopyAndDually}
+###### Lemma
+
+For $\eta \colon f \Rightarrow_L g \colon X \to Y$ a [[left homotopy]] in some [[model category]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $Y$ is a fibrant object, then for $Cyl(X)$ any choice of _good_ [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X &\longrightarrow& Cyl(X) &\longleftarrow& X
+    \\
+    & {}_{\mathllap{f}}\searrow &\downarrow^{\mathrlap{\tilde \eta}}& \swarrow_{\mathrlap{g}}
+    \\
+    && 
+    Y
+  }
+  \,.
+$$
+
+Dually, for $\eta \colon f \Rightarrow_R g \colon X \to Y$ a [[right homotopy]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $X$ is cofibrant, then for $Path(X)$ any choice of _good_ [[path object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
+
+
+$$
+  \array{
+    && X
+    \\
+    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\tilde \eta}} & \searrow^{\mathrlap{g}} 
+    \\
+    Y &\longleftarrow& Path(Y) &\longrightarrow& Y
+  }
+  \,.
+$$
+
+=---
+
++-- {: .proof}
+###### Proof
+
+We discuss the first statement, the second is [[formal dual|formally dual]].
+Let $\eta \colon \hat X \longrightarrow Y$ be the given left homotopy with respect to a given cylinder object $\hat X$ of $X$. Factor it as 
+
+$$
+  \eta 
+    \;\colon\; 
+  \hat X \overset{\in Cof}{\longrightarrow} Z \overset{\in W \cap Fib}{\longrightarrow} 
+  Y
+  \,.
+$$
+
+Then find liftings $\ell$ and $k$ in the following two [[commuting diagrams]]
+
+$$
+  \array{
+    X \sqcup X &\overset{}{\longrightarrow}& \hat X &\longrightarrow& Z
+    \\
+    \downarrow && & {}^{\mathllap{\ell}}\nearrow & \downarrow
+    \\
+    Cyl(X) &\longrightarrow& &\longrightarrow& Y 
+  }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+  \array{
+    \hat X &\overset{\eta}{\longrightarrow}& Y
+    \\
+    \downarrow &{}^{\mathllap{k}}\nearrow& \downarrow
+    \\
+    Z &\longrightarrow& \ast 
+  }
+  \,.
+$$
+
+Now the composite $\eta \coloneqq k \circ \ell$ is of the required kind, 
+
+$$
+  \array{
+    X \sqcup X &\overset{}{\longrightarrow}& \hat X &\longrightarrow& Z &\overset{k}{\longrightarrow}& Y
+    \\
+    \downarrow &&&  {}^{\mathllap{\ell}}\nearrow &
+    \\
+    Cyl(X) &\longrightarrow& 
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}
+###### Lemma
+
+Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]]. 
+
+* Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path object.
+
+* Let $X$ is fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first case, the second is [[formal dual|formally dual]].
+Let $\eta \colon Cyl(X) \longrightarrow Y$ be the given left homotopy. By lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} we may assume without restriction that $Cyl(X)$ is _good_ in the sense of def. \ref{PathAndCylinderObjectsInAModelCategory}, for otherwise replace it by one that is. With this, lemma \ref{ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually} implies that we have a lift $h$ in the following [[commuting diagram]]
+
+$$
+  \array{
+    X &\overset{i \circ f}{\longrightarrow}& Path(Y)
+    \\
+    {}^{\mathllap{i_0}}_{\mathllap{\in W \cap Cof}}\downarrow 
+    &{}^{\mathllap{h}}\nearrow& 
+    \downarrow^{\mathrlap{p_0,p_1}}_{\mathrlap{\in Fib}}
+    \\
+    Cyl(X)
+    &\underset{(f \circ p,\eta)}{\longrightarrow}& Y \times Y
+  }
+  \,,
+$$
+
+where on the right we have the chosen path space object. Now the composite $\tilde \eta \coloneqq h \circ i_1$ is a right homotopy as required.
+
+$$
+  \array{
+    && && Path(Y)
+    \\
+    && &{}^{\mathllap{h}}\nearrow& 
+    \downarrow^{\mathrlap{p_0,p_1}}_{\mathrlap{\in Fib}}
+    \\
+    X &\overset{i_1}{\longrightarrow}& Cyl(X)
+    &\underset{(f \circ p,\eta)}{\longrightarrow}&
+    Y \times Y
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]], then the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+That both relations coincide under the (co-)fibrancy assumption follows directly from lemma \ref{LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}.
+
+To see that left homotopy with domain $X$ is a [[transitive relation]] first use lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} to obtain that every left homotopy is exhibited by a _good_ cylinder object $Cyl(X)$ and then lemma \ref{ComponentsOfGoodCylinderOfCofibrantAreAcyclicCofibrationsAndDually} to see that the cofiber coproduct $Cyl(X)\underset{X}{\sqcup} Cyl(X)$ in 
+
+$$
+  \array{
+     && && X
+     \\
+     && && \downarrow^{\mathrlap{i_0}}
+     \\
+     && X &\underoverset{\in W}{i_1}{\longrightarrow}& Cyl(X)
+     \\
+     && {}^{\mathllap{i_0}}\downarrow &(po)& \downarrow
+     \\
+     X &\underset{i_1}{\longrightarrow}& 
+    Cyl(X) &\underset{\in W}{\longrightarrow}& Cyl(X) \underset{X}{\sqcup} Cyl(X)
+     \\
+     && &{}_{\mathllap{}}\searrow& & \searrow
+     \\
+     && && \underset{\in W}{\longrightarrow} &\longrightarrow& X
+  }
+$$
+
+is again a [[cylinder object]], def. \ref{PathAndCylinderObjectsInAModelCategory}. The [[symmetric relation|symmetry]] and [[reflexive relation|reflexivity]] of the relation is obvious.
+
+=--
+
+
++-- {: .num_defn #HomotopyCategoryOfAModelCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]]. Write $Ho(\mathcal{C})$ for the [[category]] whose
+
+* [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
+
+* [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under [[left homotopy]].
+
+=--
+
+This is, up to [[equivalence of categories]], the _homotopy category of the model category_ $\mathcal{C}$.
+
+
+We spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfies the [[universal property]] that defines the [[homotopy category]] of a [[category with weak equivalences]].
+
++-- {: .num_lemma #WhiteheadTheoremInModelCategories}
+###### Lemma
+**([[Whitehead theorem]] in model categories)**
+
+Let $\mathcal{C}$ be a [[model category]]. A [[weak equivalence]] between two objects which are both fibrant and cofibrant is a [[homotopy equivalence]].
+
+=--
+
+(e.g. [Goerss-Jardine 96, part I, theorem 1.10](#GoerssJardine96))
+
++-- {: .proof}
+###### Proof
+
+By the factorization axioms in $\mathcal{C}$, every weak equivalence $f\colon X \longrightarrow Y$ factors through an object $Z$ as an acyclic cofibration followed by an acyclic fibration. In particular it follows that with $X$ and $Y$ both fibrant and cofibrant, so is $Z$, and hence it is sufficient to prove that acyclic (co-)fibrations between such objects are homotopy equivalences.
+
+So let $f \colon X \longrightarrow Y$ be an acyclic fibration between fibrant-cofibrant objects, the case of acyclic cofibrations is [[formal dual|formally dual]]. Then in fact it has a genuine [[right inverse]] given by a lift $f^{-1}$ in the diagram
+
+$$
+  \array{
+    \emptyset &\rightarrow& X
+    \\
+    {}^{\mathllap{\in cof}}\downarrow 
+     &{}^{{f^{-1}}}\nearrow& 
+   \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib \cap W}}
+    \\
+    X &=& X
+  }
+  \,.
+$$
+
+To see that $f^{-1}$ is also a [[left inverse]] up to [[left homotopy]], let $Cyl(X)$ be any [[cylinder object]] on $X$, hence a factorization of the [[codiagonal]] on $X$ as a cofibration followed by a an acyclic fibration 
+
+$$
+  X \sqcup X \stackrel{\iota_X}{\longrightarrow} Cyl(X) \stackrel{\sigma}{\longrightarrow} X
+$$
+
+and consider the square
+
+$$
+  \array{
+    X \sqcup X 
+    &\stackrel{(f^{-1}\circ f, id)}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_X}}{}_{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W \cap Fib}}
+    \\
+    Cyl(X) &\underset{f\circ \sigma}{\longrightarrow}& y
+  }
+  \,,
+$$
+
+which [[commuting square|commutes]] due to $f^{-1}$ being a genuine right inverse of $f$. By construction, this [[commuting square]] now admits a [[lift]] $\eta$, and that constitutes a [[left homotopy]] $\eta \colon f^{-1}\circ f \Rightarrow_L id$.
+
+=--
+
++-- {: .num_defn #FibrantCofibrantReplacementFunctorToHomotopyCategory}
+###### Definition
+
+Given a [[model category]] $\mathcal{C}$, consider a _choice_ for each object $X \in \mathcal{C}$ of 
+
+1. a factorization $\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_x}{\longrightarrow} X$ of the initial morphism, such that when $X$ is already cofibrant then $p_X = id_X$;
+
+1. a factorization $X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} R X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast$ of the terminal morphism, such that when $X$ is already fibrant then $j_X = id_X$.
+
+Write then 
+
+$$
+  \gamma_{R,Q} 
+  \;\colon\;
+  \mathcal{C}
+   \longrightarrow
+  Ho(\mathcal{C})
+$$
+
+for the [[functor]] to the homotopy category, def. \ref{HomotopyCategoryOfAModelCategory}, which sends an object $X$ to the object $R Q X$ and sends a morphism $f \colon X \longrightarrow Y$ to the [[homotopy class]] of the result of first lifting in 
+
+$$
+  \array{
+    \emptyset &\longrightarrow& Q Y
+    \\
+    {}^{\mathllap{i_X}}\downarrow &{}^{Q f}\nearrow& \downarrow^{\mathrlap{p_Y}}
+    \\
+    Q X &\underset{f\circ p_X}{\longrightarrow}& Y
+  }
+$$
+
+and then lifting (here: [[extension|extending]]) in 
+
+$$
+  \array{ 
+    Q X &\overset{j_{Q Y} \circ Q f}{\longrightarrow}& R Q Y
+    \\
+    {}^{\mathllap{j_{Q X}}}\downarrow &{}^{R Q f}\nearrow& \downarrow^{\mathrlap{q_{Q Y}}}
+    \\
+    R Q X
+    &\longrightarrow&
+    \ast
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined}
+###### Lemma
+
+The construction in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} is indeed well defined.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First of all, the object $R Q X$ is indeed both fibrant and cofibrant (as well as related by a [[zig-zag]] of weak equivalences to $X$):  
+
+$$
+  \array{
+     \emptyset 
+     \\
+     {}^{\mathllap{\in Cof}}\downarrow & \searrow^{\mathrlap{\in Cof}}
+     \\
+     Q X &\underset{\in W \cap Cof}{\longrightarrow}& R Q X &\underset{\in Fib}{\longrightarrow}& \ast
+     \\
+     {}^{\mathllap{\in W}}\downarrow
+     \\
+     X
+  }
+  \,.
+$$
+
+Now to see that the image on morphisms is well defined. First observe that any two choices $(Q f)_{i}$ of the first lift in the definition are left homotopic to each other, exhibited by lifting in
+
+$$
+  \array{
+    Q X \sqcup Q X &\stackrel{((Q f)_1, (Q f)_2 )}{\longrightarrow}& Q Y
+    \\
+    {}^{\mathllap{\in W \cap Cof}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{p_{Y}}}_{\mathrlap{\in Fib}}
+    \\
+    Cyl(Q X)
+    &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}& 
+    Y
+  }
+  \,.
+$$
+
+Hence also the composites $j_{Q Y}\circ (Q_f)_i $ are [[left homotopy|left homotopic]] to each other, and since their domain is cofibrant, they are also [[right homotopy|right homotopic]] (via [this](homotopy+in+a+model+category#LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually) lemma) by a right homotopy $\kappa$. This implies finally, by lifting in
+
+$$
+  \array{
+    Q X &\overset{\kappa}{\longrightarrow}& Path(R Q Y)
+    \\
+    {}^{\mathllap{\in W \cap Cof}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    R Q X &\underset{(R (Q f)_1, R (Q f)_2)}{\longrightarrow}&
+    R Q Y \times R Q Y
+  }
+$$
+
+that also $R (Q f)_1$ and $R (Q f)_2$ are right homotopic, hence that indeed $R Q f$ represents a well-defined [[homotopy class]].
+
+Finally to see that the assignment is indeed [[functor|functorial]], observe that the commutativity of the lifting diagrams for $Q f$ and $R Q f$ imply that also the following diagram commutes
+
+$$
+  \array{
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underset{p_y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& R Q Y
+  }
+  \,.
+$$
+
+Now from the [[pasting]] composite 
+
+$$
+  \array{
+    X &\overset{p_X}{\longleftarrow}& Q X &\overset{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underset{p_Y}{\longleftarrow}& Q Y &\underset{j_{Q Y}}{\longrightarrow}& R Q Y
+    \\
+    {}^{\mathllap{g}}\downarrow && \downarrow^{\mathrlap{Q g}} && \downarrow^{\mathrlap{R Q g}}
+    \\
+    Z &\underset{p_Z}{\longleftarrow}& Q Z &\underset{j_{Q Z}}{\longrightarrow}& R Q Z
+  }
+$$
+
+one sees that $(R Q g)\circ (R Q f)$ is a lift of $g \circ f$ and hence the same argument as above gives that it is homotopic to the chosen $ R Q(g \circ f)$. 
+
+
+=--
+
++-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
+###### Definition
+
+For $\mathcal{C}$ a [[category with weak equivalences]], its _[[homotopy category]]_ (or: _[[localization]]_ at the weak equivalences) is, if it exists, a [[category]] $Ho(\mathcal{C})$ equipped with a [[functor]] 
+
+$$
+  \gamma \colon \mathcal{C} \longrightarrow Ho(C)
+$$ 
+
+which sends weak equivalences to [[isomorphisms]], and which is [[universal property|universal with this property]]:
+
+for $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] out of $\mathcal{C}$ into any [[category]], such that $F$ takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]]
+
+$$
+  \array{
+    \mathcal{C} && \overset{F}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
+    \\
+    && Ho(\mathcal{C})
+  }
+$$
+
+and this factorization is unique up to unique isomorphism, in that for $(\tilde F_1, \rho_1)$ and $(\tilde F_2, \rho_2)$ two such factorizations, then there is a unique [[natural isomorphism]] $\kappa \colon \tilde F_1 \Rightarrow \tilde F_2$ making the evident diagram of natural isomorphisms commute.
+
+=--
+
+
++-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
+###### Theorem
+
+For $\mathcal{C}$ a [[model category]], the functor $\gamma_{R,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]], in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First, to see that that $\gamma$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined} the morphism $R Q f$ is a weak equivalence if $f$ is:
+
+$$
+  \array{
+    X &\underoverset{\simeq}{p_X}{\longleftarrow}& Q X &\underoverset{\simeq}{j_{Q X}}{\longrightarrow}& R Q X
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{Q f}} && \downarrow^{\mathrlap{R Q f}}
+    \\
+    Y &\underoverset{p_y}{\simeq}{\longleftarrow}& Q Y &\underoverset{j_{Q Y}}{\simeq}{\longrightarrow}& R Q Y
+  }
+$$
+
+With this the "Whitehead theorem for model categories", lemma \ref{WhiteheadTheoremInModelCategories}, implies that $R Q f$ represents an isomorphism in $Ho(\mathcal{C})$.
+
+Now let $F \colon \mathcal{C}\longrightarrow D$ be any functor that sends weak equivalences to isomorphisms. We need to show that it factors as
+
+$$
+  \array{
+    \mathcal{C} && \overset{F}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
+    \\
+    && Ho(\mathcal{C})
+  }
+$$
+
+uniquely up to unique [[natural isomorphism]]. Now by construction of $R$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{R,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that 
+
+$$
+  \tilde F([f]) \simeq F(f)
+  \,.
+$$ 
+
+But by def. \ref{HomotopyCategoryOfAModelCategory} that already fixes $\tilde F$ on all of $Ho(\mathcal{C})$, up to unique [[natural isomorphism]]. Hence it only remains to check that with this definition of $\tilde F$ there exists any [[natural isomorphism]] $\rho$ filling the diagram above. 
+
+To that end, apply $F$ to the above [[commuting diagram]] to obtain
+
+$$
+  \array{
+    F(X) &\underoverset{iso}{F(p_X)}{\longleftarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X)
+    \\
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{F(Q f)}} && \downarrow^{\mathrlap{F(R Q f)}}
+    \\
+    F(Y) &\underoverset{F(p_y)}{iso}{\longleftarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y)
+  }
+  \,.
+$$
+
+Here now all horizontal morphisms are [[isomorphisms]], by assumption on $F$. It follows that defining $\rho_X \coloneqq F(j_{Q X}) \circ F(p_X)^{-1}$ makes the required natural isomorphism:
+
+$$
+  \array{
+    \rho_X \colon & F(X) &\underoverset{iso}{F(p_X)^{-1}}{\longrightarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X)
+   &=&
+   \tilde F(\gamma_{R,Q}(X))
+    \\
+    & {}^{\mathllap{F(f)}}\downarrow 
+     && 
+     && \downarrow^{\mathrlap{F(R Q f)}}
+     && \downarrow^{\tilde F(\gamma_{R,Q}(X))}
+    \\
+    \rho_Y\colon& F(Y) &\underoverset{F(p_y)^{-1}}{iso}{\longrightarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y)
+   &=&
+   \tilde F(\gamma_{R,Q}(X))
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #EssentialUniquenessOfLocalizationFunctorOfModelCategory}
+###### Remark
+
+Due to theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} we may suppress the choices of cofibrant $Q$ and fibrant replacement $R$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} and just speak of [[generalized the|the]] [[localization functor]]
+
+$$
+  \gamma \;\colon\;
+  \mathcal{C}
+  \longrightarrow
+  Ho(\mathcal{C})
+$$
+
+up to [[natural isomorphism]].
+
+=--
+
+
+While the construction of the homotopy category in def. \ref{HomotopyCategoryOfAModelCategory} combines the restriction to good (fibrant/cofibrant) objects with the passage to [[homotopy classes]] of morphisms, it is often useful to consider intermediate stages:
+
++-- {: .num_defn #FullSubcategoriesOfFibrantCofibrantObjects}
+###### Definition
+
+Given a [[model category]] $\mathcal{C}$, write 
+
+$$
+  \array{
+   && \mathcal{C}_{fc}
+   \\
+   & \swarrow && \searrow
+   \\
+   \mathcal{C}_c && && \mathcal{C}_f
+   \\
+   & \searrow && \swarrow
+   \\
+   && \mathcal{C}
+  }
+$$
+
+for the system of [[full subcategory]] inclusions on the cofibrant objects ($\mathcal{C}_c$), the fibrant objects ($\mathcal{C}_f$) and the objects which are both fibrant and cofibrant ($\mathcal{C}_{fc}$), all regarded a [[categories with weak equivalences]], via the weak equivalences inherited from $\mathcal{C}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
+
+=--
+
+The proof of theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} immediately implies the following:
+
++-- {: .num_cor #HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}
+###### Corollary
+
+For $\mathcal{C}$ a [[model category]], the restriction of the localization functor $\gamma\;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (using remark \ref{EssentialUniquenessOfLocalizationFunctorOfModelCategory}) to any of the sub-[[categories with weak equivalences]] of def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}
+
+$$
+  \array{
+   && \mathcal{C}_{fc}
+   \\
+   & \swarrow && \searrow
+   \\
+   \mathcal{C}_c && && \mathcal{C}_f
+   \\
+   & \searrow && \swarrow
+   \\
+   && \mathcal{C}
+   \\
+   && \downarrow^{\mathrlap{\gamma}}
+   \\
+   && Ho(\mathcal{C})
+  }
+$$
+
+exhibits $Ho(\mathcal{C})$ equivalently as the [[homotopy category]] also of these subcategories. In particular there are [[equivalences of categories]]
+
+$$
+  Ho(\mathcal{C})
+   \simeq
+  Ho(\mathcal{C}_{f})
+   \simeq
+  Ho(\mathcal{C}_{c})
+   \simeq
+  Ho(\mathcal{C}_{fc})
+  \,.
+$$
+
+=--
+
+
+
+##### Derived functors and Quillen adjunctions
+
+
++-- {: .num_defn #HomotopicalFunctor}
+###### Definition
+
+For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], then a [[functor]] $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ is called _[[homotopical functor]]_ if it sends weak equivalences to weak equivalences.
+
+=--
+
++-- {: .num_defn #DerivedFunctorOfAHomotopicalFunctor}
+###### Definition
+
+Given a [[homotopical functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ (def. \ref{HomotopicalFunctor}) between [[categories with weak equivalences]] whose [[homotopy categories]] $Ho(\mathcal{C})$ and $Ho(\mathcal{D})$ exist (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}), then its _[[derived functor]]_ is the functor $Ho(F)$ between these homotopy categories which is induced uniquely, up to unique isomorphism, by their universal property (def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}):
+
+$$
+  \array{
+    \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+    \\
+    {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+    &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{\exists \; Ho(F)}{\longrightarrow}&
+    Ho(\mathcal{D})
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+While many functors of interest between [[model categories]] are not homotopical in the sense of def. \ref{HomotopicalFunctor}, many become homotopical after restriction to the [[full subcategories]] of fibrant object or of cofibrant objects, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. By corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects} this is just as good for the purpose of [[homotopy theory]].
+
+=--
+
+Therefore one considers the following generalization of def. \ref{DerivedFunctorOfAHomotopicalFunctor}:
+
++-- {: .num_defn #LeftAndRightDerivedFunctorsOnModelCategories}
+###### Definition
+
+Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [[model category]] $\mathcal{C}$ into a [[category with weak equivalences]] $\mathcal{D}$. 
+
+1. If the restriction of $F$ to the [[full subcategory]] $\mathcal{C}_f$ of fibrant object becomes a [[homotopical functor]] (def. \ref{HomotopicalFunctor}), then the [[derived functor]] of that restriction, according to def. \ref{DerivedFunctorOfAHomotopicalFunctor}, is called the _[[right derived functor]]_ of $F$ and denoted by $\mathbb{R}F$:
+
+   $$
+     \array{
+       & \mathcal{C}_f &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       & {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow 
+       &&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+       &\swArrow_{\simeq}&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       \mathbb{R} F \colon & Ho(\mathcal{C}_f) &\simeq& Ho(\mathcal{C})
+       &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+   Here the commuting square on the left is from corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the square on the right is that of def. \ref{DerivedFunctorOfAHomotopicalFunctor}.
+
+1. If the restriction of $F$ to the [[full subcategory]] $\mathcal{C}_c$ of cofibrant object becomes a homotopical functor (def. \ref{HomotopicalFunctor}), then the [[derived functor]] of that restriction, according to def. \ref{DerivedFunctorOfAHomotopicalFunctor}, is called the _[[left derived functor]]_ of $F$ and denoted by $\mathbb{L}F$:
+
+   $$
+     \array{
+       & \mathcal{C}_c &\hookrightarrow& \mathcal{C} &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       & {}^{\mathllap{\gamma}_{\mathcal{C}_f}}\downarrow 
+       &&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+       &\swArrow_{\simeq}&
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       \mathbb{L} F \colon & Ho(\mathcal{C}_c) &\simeq& Ho(\mathcal{C})
+       &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+   Here the commuting square on the left is from corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the square on the right is that of def. \ref{DerivedFunctorOfAHomotopicalFunctor}.
+
+=--
+
+The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} practically useful is the following
+
++-- {: .num_prop #KenBrownLemma}
+###### Proposition
+**([[Ken Brown's lemma]])**
+
+Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{C}_f, \mathcal{C}_c$ [[category of fibrant objects|of fibrant objects]] and [[cofibration category|of cofibrant objects]] respectively (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Let $\mathcal{D}$ be a [[category with weak equivalences]].
+
+1. A [[functor]]
+
+   $$
+     F \;\colon\; \mathcal{C}_f \longrightarrow \mathcal{D}
+   $$
+
+  is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic fibrations to weak equivalences.
+
+1. A [[functor]]
+
+   $$
+     F \;\colon\; \mathcal{C}_c \longrightarrow \mathcal{D}
+   $$
+
+  is a [[homotopical functor]], def. \ref{HomotopicalFunctor}, already if it sends acylic cofibrations to weak equivalences.
+
+=--
+
++-- {: .num_cor #LeftAndRightDerivedFunctors}
+###### Corollary
+
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ a [[functor]]. Then:
+
+1. If $F$ preserves cofibrant objects and acyclic cofibrations between these, then its [[left derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) $\mathbb{L}F$ exists, fitting into a [[diagram]]
+
+   $$
+     \array{
+       \mathcal{C}_{c} &\overset{F}{\longrightarrow}& \mathcal{D}_{c}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+       &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) &\overset{\mathbb{L}F}{\longrightarrow}& Ho(\mathcal{D})
+     }
+   $$
+
+1. If $F$ preserves fibrant objects and acyclic fibrants between these, then its [[right derived functor]] (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) $\mathbb{R}F$ exists, fitting into a [[diagram]]
+
+   $$
+     \array{
+       \mathcal{C}_{f} &\overset{F}{\longrightarrow}& \mathcal{D}_{f}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}}}}\downarrow 
+       &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) &\underset{\mathbb{R}F}{\longrightarrow}& Ho(\mathcal{D})
+     }
+     \,.
+   $$
+
+=--
+
+In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied in the following neat way:
+
++-- {: .num_defn #QuillenAdjunction}
+###### Definition
+
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] between them
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{D}
+$$
+
+is called a _[[Quillen adjunction]]_ (and $L$,$R$ are called left/right _Quillen functors_, respectively) if the following equivalent conditions are satisfied
+
+1. $L$ preserves cofibrations and $R$ preserves fibrations;
+
+1. $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations;
+
+1. $L$ preserves cofibrations and acylic cofibrations;
+
+1. $R$ preserves fibrations and acyclic fibrations.
+
+
+=--
+
++-- {: .num_prop #ConditionsOnQuillenAdjunctionAreIndeedEquivalent}
+###### Proposition
+
+The conditions in def. \ref{QuillenAdjunction} are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that
+
+* (i) _A [[left adjoint]] $L$ between [[model categories]] preserves acyclic cofibrations precisely if its [[right adjoint]] $R$ preserves fibrations.
+
+* (ii) _A [[left adjoint]] $L$ between [[model categories]] preserves cofibrations precisely if its [[right adjoint]] $R$ preserves acyclic fibrations.
+
+We discuss statement (i), statement (ii) is [[formal dual|formally dual]].  So let $f\colon A \to B$ be an acyclic cofibration in $\mathcal{D}$ and $g \colon X \to Y$ a fibration in $\mathcal{C}$. Then for every [[commuting diagram]] as on the left of the following, its $(L\dashv R)$-[[adjunct]] is a commuting diagram as on the right here:
+
+$$
+  \array{
+    A &\longrightarrow& R(X)
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{R(g)}}
+    \\
+    B &\longrightarrow& R(Y)
+  }
+  \;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;
+  \array{
+    L(A) &\longrightarrow& X
+    \\
+    {}^{\mathllap{L(f)}}\downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    L(B) &\longrightarrow& Y
+  }
+  \,.
+$$
+
+If $L$ preserves acyclic cofibrations, then the diagram on the right has a [[lift]], and so the $(L\dashv R)$-[[adjunct]] of that lift is a lift of the left diagram. This shows that $R(g)$ has the [[right lifting property]] against all acylic cofibrations and hence is a fibration. 
+Conversely, if $R$ preserves fibrations, the same argument run from right to left gives that $L$ preserves acyclic fibrations.
+
+Now by repeatedly applying (i) and (ii), all four conditions in question are seen to be equivalent.
+
+=--
+
++-- {: .num_defn #QuillenEquivalence}
+###### Definition
+
+For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction}) 
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{D}
+$$
+
+is called a **[[Quillen equivalence]]** if the following equivalent conditions hold.
+
+1. The [[right derived functor]] of $R$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
+
+   $$
+     \mathbb{R}R \colon Ho(\mathcal{C}) \overset{\simeq}{\longrightarrow} Ho(\mathcal{D})
+     \,.
+   $$
+
+1. The [[left derived functor]] of $L$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
+
+   $$
+     \mathbb{L}L \colon Ho(\mathcal{D}) \overset{\simeq}{\longrightarrow} Ho(\mathcal{C})
+     \,.
+   $$
+
+
+1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is
+
+   $$
+      \frac{
+        d \overset{\in W_{\mathcal{D}}}{\longrightarrow} R(c)
+      }{
+         L(d) \overset{\in W_{\mathcal{C}}}{\longrightarrow} c
+      }
+      \,.
+   $$
+
+1. For every cofibrant object $d\in \mathcal{C}$, the composite 
+
+   $$
+     d \longrightarrow R(L(d)) \longrightarrow R(L(d)^{fib})
+   $$ 
+
+   (of the [[adjunction unit]] with any fibrant replacement) is a weak equivalence. 
+
+  1. For every fibrant object $c \in \mathcal{C}$, the composite 
+  
+     $$
+       L(R(c)^{cof}) \longrightarrow L(R(c)) \longrightarrow c
+     $$ 
+
+     (of the [[adjunction counit]] with any cofibrant replacement) is a weak equivalence in $D$.
+
 =--
 
 
