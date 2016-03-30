@@ -1,14 +1,36 @@
 
 $$
   \array{
-    F(X) &\underoverset{iso}{F(p_X)}{\longleftarrow}& F(Q X) &\underoverset{iso}{F(j_{Q X})}{\longrightarrow}& F(R Q X) 
+    && F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
     \\
-    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{F(Q f)}} && \downarrow^{\mathrlap{F(R Q f) } 
-   && 
+    & \swarrow && \searrow
     \\
-    F(Y) &\underoverset{F(p_y)}{iso}{\longleftarrow}& F(Q Y) &\underoverset{F(j_{Q Y})}{iso}{\longrightarrow}& F(R Q Y) 
+    F_k D^{n_1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    &&
+    &&
+    F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} D^{n_2-1}_+
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
   }
+  \;\;\;\;
   \,,
+  \;\;\;\;
+  \array{
+    && F_{k+\ell}((S^{n_1-1}\times S^{n_2-1})_+)
+    \\
+    & \swarrow && \searrow
+    \\
+    F_{k+\ell}((D^{n_1} \times S^{n_2-1})_+)
+    &&
+    &&
+    F_{k+\ell}((S^{n_1-1} \times D^{n_2})_+)
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_{k+ \ell}( (D^{n_1}\times D^{n_2})_+ )
+  }
 $$
 
 $\,$
