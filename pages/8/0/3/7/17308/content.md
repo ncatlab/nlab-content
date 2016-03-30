@@ -419,7 +419,7 @@ $$
   }
 $$
 
-exhibits $Ho(\mathcal{C})$ equivalrntly as the [[homotopy category]] also of these subcategories. In particular there are [[equivalences of categories]]
+exhibits $Ho(\mathcal{C})$ equivalently as the [[homotopy category]] also of these subcategories. In particular there are [[equivalences of categories]]
 
 $$
   Ho(\mathcal{C})
@@ -528,7 +528,7 @@ The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} 
 ###### Proposition
 **([[Ken Brown's lemma]])**
 
-Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{C}_f, \mathcal{C}_c$ [[category of fibrant objects|of fibrant objects]] and [[cofibrtion category|of cofibrant objects]] respectively (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Let $\mathcal{D}$ be a [[category with weak equivalences]].
+Let $\mathcal{C}$ be a [[model category]] with [[full subcategories]] $\mathcal{C}_f, \mathcal{C}_c$ [[category of fibrant objects|of fibrant objects]] and [[cofibration category|of cofibrant objects]] respectively (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Let $\mathcal{D}$ be a [[category with weak equivalences]].
 
 1. A [[functor]]
 
@@ -577,24 +577,145 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
        &\swArrow_{\simeq}& 
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
-       Ho(\mathcal{C}) &\overset{\mathbb{R}F}{\longrightarrow}& Ho(\mathcal{D})
+       Ho(\mathcal{C}) &\underset{\mathbb{R}F}{\longrightarrow}& Ho(\mathcal{D})
      }
      \,.
    $$
 
 =--
 
+In practice it turns out to be useful to arrange for the assumptions in corollary \ref{LeftAndRightDerivedFunctors} to be satisfied in the following neat way:
 
-+-- {: .num_defn}
++-- {: .num_defn #QuillenAdjunction}
 ###### Definition
 
-Let $\mathcal{C}$ and $\mathcal{D}$ be [[model categories]]. A [[functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is called
+Let $\mathcal{C}, \mathcal{D}$ be [[model categories]]. A pair of [[adjoint functors]] between them
 
-1. a _[[left Quillen functor]]_ if it preserves cofibrations and acy
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{D}
+$$
+
+is called a _[[Quillen adjunction]]_ (and $L$,$R$ are called left/right _Quillen functors_, respectively) if the following equivalent conditions are satisfied
+
+1. $L$ preserves cofibrations and $R$ preserves fibrations;
+
+1. $L$ preserves acyclic cofibrations and $R$ preserves acyclic fibrations;
+
+1. $L$ preserves cofibrations and acylic cofibrations;
+
+1. $R$ preserves fibrations and acyclic fibrations.
+
 
 =--
 
++-- {: .num_prop #ConditionsOnQuillenAdjunctionAreIndeedEquivalent}
+###### Proposition
 
+The conditions in def. \ref{QuillenAdjunction} are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that
+
+* (i) _A [[left adjoint]] $L$ between [[model categories]] preserves acyclic cofibrations precisely if its [[right adjoint]] $R$ preserves fibrations.
+
+* (ii) _A [[left adjoint]] $L$ between [[model categories]] preserves cofibrations precisely if its [[right adjoint]] $R$ preserves acyclic fibrations.
+
+We discuss statement (i), statement (ii) is [[formal dual|formally dual]].  So let $f\colon A \to B$ be an acyclic cofibration in $\mathcal{D}$ and $g \colon X \to Y$ a fibration in $\mathcal{C}$. Then for every [[commuting diagram]] as on the left of the following, its $(L\dashv R)$-[[adjunct]] is a commuting diagram as on the right here:
+
+$$
+  \array{
+    A &\longrightarrow& R(X)
+    \\
+    {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{R(g)}}
+    \\
+    B &\longrightarrow& R(Y)
+  }
+  \;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;
+  \array{
+    L(A) &\longrightarrow& X
+    \\
+    {}^{\mathllap{L(f)}}\downarrow && \downarrow^{\mathrlap{g}}
+    \\
+    L(B) &\longrightarrow& Y
+  }
+  \,.
+$$
+
+If $L$ preserves acyclic cofibrations, then the diagram on the right has a [[lift]], and so the $(L\dashv R)$-[[adjunct]] of that lift is a lift of the left diagram. This shows that $R(g)$ has the [[right lifting property]] against all acylic cofibrations and hence is a fibration. 
+Conversely, if $R$ preserves fibrations, the same argument run from right to left gives that $L$ preserves acyclic fibrations.
+
+Now by repeatedly applying (i) and (ii), all four conditions in question are seen to be equivalent.
+
+=--
+
++-- {: .num_defn #QuillenEquivalence}
+###### Definition
+
+For $\mathcal{C}, \mathcal{D}$ two [[model categories]],  a [[Quillen adjunction]] (def.\ref{QuillenAdjunction}) 
+
+$$
+  (L \dashv R)
+  \;\colon\;
+  \mathcal{C}
+    \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}}
+  \mathcal{D}
+$$
+
+is called a **[[Quillen equivalence]]** if the following equivalent conditions hold.
+
+1. The [[right derived functor]] of $R$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
+
+   $$
+     \mathbb{R}R \colon Ho(\mathcal{C}) \overset{\simeq}{\longrightarrow} Ho(\mathcal{D})
+     \,.
+   $$
+
+1. The [[left derived functor]] of $L$ (via prop. \ref{ConditionsOnQuillenAdjunctionAreIndeedEquivalent}, corollary \ref{LeftAndRightDerivedFunctors}) is an [[equivalence of categories]]
+
+   $$
+     \mathbb{L}L \colon Ho(\mathcal{D}) \overset{\simeq}{\longrightarrow} Ho(\mathcal{C})
+     \,.
+   $$
+
+
+1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is
+
+   $$
+      \frac{
+        d \overset{\in W_{\mathcal{D}}}{\longrightarrow} R(c)
+      }{
+         L(d) \overset{\in W_{\mathcal{C}}}{\longrightarrow} c
+      }
+      \,.
+   $$
+
+1. For every cofibrant object $d\in \mathcal{C}$, the composite 
+
+   $$
+     d \longrightarrow R(L(d)) \longrightarrow R(L(d)^{fib})
+   $$ 
+
+   (of the [[adjunction unit]] with any fibrant replacement) is a weak equivalence. 
+
+  1. For every fibrant object $c \in \mathcal{C}$, the composite 
+  
+     $$
+       L(R(c)^{cof}) \longrightarrow L(R(c)) \longrightarrow c
+     $$ 
+
+     (of the [[adjunction counit]] with any cofibrant replacement) is a weak equivalence in $D$.
+
+=--
 
 ## References
 
