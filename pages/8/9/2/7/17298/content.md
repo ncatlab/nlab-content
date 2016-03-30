@@ -211,7 +211,7 @@ Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid ob
 | [[commutative monoid object]] | yes | yes | yes | no |
 | [[tensor unit]] | yes | no | no | no |
 
-Explicitly, by the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, monoids with resepct to Day convolution are equivalently [[lax monoidal functors]] on the site, and as such $\mathbb{S}_{Orth}$ is the one given by the canonical [[natural transformations]]
+Explicitly, by the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, monoids with respect to Day convolution are equivalently [[lax monoidal functors]] on the site, and as such $\mathbb{S}_{Orth}$ is the one given by the canonical [[natural transformations]]
 
 $$
   S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
@@ -278,7 +278,7 @@ etc. and their functoriality embodies the [[orthogonal group]]-equivariance in t
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #PreExcisiveFunctorsAreSModules}
 ###### Remark
 
 For completeness we may trivially add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
@@ -1678,6 +1678,35 @@ Since both adjoints in the present case preserve [[colimits]], [[tensoring]] wit
 
 (...)
 
++-- {: .num_theorem}
+###### Theorem
+
+The stable model structures from theorem \ref{StableModelStructuresOnDiagramSpectra} on the [[categories of modules]] from prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}, remark \ref{PreExcisiveFunctorsAreSModules}
+
+$$
+  \mathbb{S}Mod_r \simeq [Top_{fin}^{\ast/}, Top^{\ast/}]
+$$
+
+$$
+  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
+$$
+
+are compatible with their [[monoidal category]] structure given by the [[symmetric monoidal smash product of spectra]] $\wedge$ of def. \ref{SymmetricSmashProductOfDiagramSpectra}, in that $(\mathbb{S}_{dia} Mod_{stable}, \wedge)$ in these cases
+
+1. is a [[stable model category]];
+
+1. satisfying the [[monoid axiom in a monoidal model category]].
+
+=--
+
+([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00))
+
+(...)
+
 ### 17.-18.) Relation to $\Gamma$-spaces
 
 (...)
@@ -1691,5 +1720,7 @@ Since both adjoints in the present case preserve [[colimits]], [[tensoring]] wit
 * [[Day convolution]]
 
 * [[functors with smash product]]
+
+[[!redirects Model Categories of diagram spectra]]
 
 category: reference
