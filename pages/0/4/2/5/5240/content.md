@@ -36,11 +36,11 @@ The _monoid axiom_ is an extra condition on a [[monoidal model category]] that h
 +-- {: .num_defn}
 ###### Definition
 
-We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushout]]s of [[tensor product]]s of acyclic cofibrations with any object is a weak equivalence.
+We say a [[monoidal model category]] satisfies the **monoid axiom** if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] of acyclic cofibrations with any object is a weak equivalence.
 
 =--
 
-This appears as [SchwedeShipley, def. 3.3.](#SchwedeShipley).
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
 
 ## Properties 
 
@@ -55,11 +55,11 @@ Let $C$ be a
 
 * [[monoidal model category]].
 
-Then if the monoid axiom hold for the set of generating acyclic cofibrations it holds for all acyclic cofibrations.
+Then if the monoid axiom holds for the set of generating acyclic cofibrations it holds for all acyclic cofibrations.
 
 =--
 
-This is ([SchwedeShipley, lemma 3.5](#SchwedeShipley)).
+([Schwede-Shipley 00, lemma 3.5](#SchwedeShipley)).
 
 +-- {: .num_theorem #ExistenceOfModelstructureOnMonoids}
 ###### Theorem
@@ -68,13 +68,13 @@ If a [[monoidal model category]] satisfies the monoid axiom and
 
 * it is a [[cofibrantly generated model category]];
 
-* all objects are [[small object]]s,
+* all objects are [[small objects]],
 
-then the [[transferred model structure]] along the [[free functor]]/[[forgetful functor]] [[adjunction]] $(F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C$ exists on its [[category of monoids]] and hence provides a [[model structure on monoids in a monoidal model category|model structure on monoids]].
+then the [[transferred model structure]] along the [[free-forgetful adjunction]] $(F \dashv U) : Mon(C) \stackrel{\overset{F}{\leftarrow}}{\underset{U}{\to}} C$ exists on its [[category of monoids]] and hence provides a [[model structure on monoids in a monoidal model category|model structure on monoids]].
 
 =--
 
-This is part of ([SchwedeShipley, theorem 4.1](#SchwedeShipley)).
+([Schwede-Shipley 00, theorem 4.1](#SchwedeShipley))
 
 ## Examples
 
@@ -93,12 +93,12 @@ Monoidal model categories that satisfy the monoid axiom (as well as the other co
 
 =--
 
-This is in ([SchwedeShipley, section 5](#SchwedeShipley)).
+([Schwede-Shipley 00, section 5](#SchwedeShipley))
 
 ## References
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
-{#SchwedeShipley}
+* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+
 
 [[!redirects model structure on monoids]]
 
