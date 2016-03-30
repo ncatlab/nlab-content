@@ -9,7 +9,7 @@
 =--
 =--
 
-> This entry is about extension of morphisms, dual to [[lift]]. For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
+> This entry is about extension of morphisms, [[formal dual|dual]] to [[lift]]. For extensions in the sense of "added structure" see at _[[group extension]]_, _[[Lie algebra extension]]_, _[[infinitesimal extension]]_ etc. In [[foundations]] and [[formal logic]]  there is also [[extension (semantics)]] and [[context extension]].
 
 #Contents#
 * table of contents
@@ -52,5 +52,9 @@ The [[Tietze extension theorem]] is about *extensions of continuous maps* from a
 ### Group extensions
 
 For example, in the category [[Grp]] of (possibly nonabelian) groups one has a short exact sequence usually denoted $1\to X\to Z\to Y\to 1$ corresponding to a [[group extension]].
+
+## Related concepts
+
+* [[homotopy extension property]]
 
 [[!redirects extensions]]
