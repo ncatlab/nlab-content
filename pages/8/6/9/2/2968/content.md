@@ -1,12 +1,25 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Homotopy theory
++--{: .hide}
+[[!include homotopy - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 In classical [[homotopy theory]], a _homotopy lifting property_ is a condition satisfied by [[continuous map]]s between [[topological space]]s. 
 More generally, such a condition may appear in more general context of a [[category]] with [[product]]s and with an [[interval object]] $I$:
+
+The [[Eckmann-Hilton duality|Eckmann–Hilton dual]] of the homotopy lifting property is the [[homotopy extension property]].
 
 
 ## Definition
@@ -59,7 +72,6 @@ is an [[epimorphism]]. If it is even an [[isomorphism]] then the lift $\sigma$ e
 
 The homotopy lifting property is an instance of a [[right lifting property]]. 
 
-The [[Eckmann-Hilton duality|Eckmann–Hilton dual]] of the homotopy lifting property is the [[homotopy extension property]].
 
 ## Examples
 
