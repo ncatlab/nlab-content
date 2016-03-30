@@ -19,18 +19,22 @@
 
 ## Idea
 
-The _factorisation lemma_ is a fundamental tool in [[categories of fibrant objects]] (dually: of cofibrant objects). It mimics the _factorisation axioms_ in a [[model category]].
+The _factorisation lemma_ ([Brown 73](#Brown73), prop. \ref{TheFactorizationLemma} below) is a fundamental tool in the theory of [[categories of fibrant objects]] ([[formal dual|dually]]: [[cofibration category|of cofibrant objects]]). It mimics one half of the _factorisation axioms_ in a [[model category]] in that it asserts that every morphisms may be factored as, in particular, a weak equivalence followed by a fibration.
+
+A key corollary of the factorization lemma is the statement, widely known as _Ken Brown's lemma_ (prop. \ref{KenBrownLemma} below) which says that for a functor from a category of fibrant objects  to be a [[homotopical functors]], it is sufficient already that it sends acyclic fibrations to weak equivalences. 
 
 ## Factorisation lemma
 
 Let $\mathcal{C}$ be a [[category of fibrant objects]].
 
-+-- {: .num_lemma}
++-- {: .num_lemma }
 ###### Lemma
+
 Given any [[product]]
   $$ X \overset{p_{X}}{\leftarrow} X \times Y
        \overset{p_{Y}}{\rightarrow} Y $$
 in $\mathcal{C}$, the [[projections]] $p_{X}$ and $p_{Y}$ are [[fibrations]].
+
 =--
 
 +-- {: .proof}
@@ -111,7 +115,7 @@ where $e$ is the [[final object]] of $C$.
 Here, the first morphism $id_X \times_Y d$ is a fibration because it is a base change of the fibration $d$; the second is a fibration because it is a base change of the fibration $Y \to e$ ($Y$ is [[fibrant object|fibrant]]).
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TheFactorizationLemma}
 ###### Proposition
 **(Factorization lemma).**
 Any morphism $f : X \to Y$ in $\mathcal{C}$ admits a factorization as a [[weak equivalence]] $i$ followed by a [[fibration]] $p$, such that $i$ is [[right inverse]] to a [[trivial fibration]].
@@ -156,18 +160,20 @@ commute.
 
 ## Ken Brown's lemma
 
-+-- {: .num_cor}
-###### Corollary
++-- {: .num_prop #KenBrownLemma}
+###### Porposition
+**(Ken Brown's lemma)**
 
-Let $\mathcal{C}$ be a category of fibrant objects. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F : C \to D$ be a functor with the property that, for every arrow $f$ of $\mathcal{C}$ which is a trivial fibration, we have that $F(f)$ is a weak equivalence. 
+Let $\mathcal{C}$ be a [[category of fibrant objects]]. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F \colon C \longrightarrow D$ be a [[functor]] which takes acyclic fibrations to weak equivalences.
 
-Let $w : X \to Y$ be an arrow of $\mathcal{C}$ which is a weak equivalence. Then $F(w)$ is a weak equivalence. 
+Then $F$ is a [[homotopical functor]] in that it takes _all_ weak equivalences to weak equivalences.
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the factorization lemma, there is a commutative diagram 
+By the factorization lemma, prop. \ref{TheFactorizationLemma}, there is a [[commutative diagram]]
 
 $$
    \array{
@@ -179,17 +185,18 @@ $$
   
 in $\mathcal{C}$ such that the following hold.
 
-1) The arrow $g : Z \to Y$ is a fibration.
+1. The morphism $g : Z \to Y$ is a fibration.
 
-2) There is a trivial fibration $r : Z \to X$ such that the following diagram in $\mathcal{C}$ commutes.
+1. There is a trivial fibration $r : Z \to X$ such that the following diagram in $\mathcal{C}$ commutes.
 
-$$
-   \array{
-      X &  \overset{j}{\to}                & Z \\
-          &  \underset{id}{\searrow} & \downarrow r \\
-          &                                           & X 
-   }
-$$
+   $$
+      \array{
+         X &  \overset{j}{\to}                & Z \\
+             &  \underset{id}{\searrow} & \downarrow r \\
+             &                                           & X 
+      }
+      \,.
+   $$
 
 By the commutativity of the diagram 
 
@@ -247,16 +254,12 @@ Since $F(j)$ and $F(r)$ are weak equivalences, we conclude, by one of the axioms
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-In other words, $F$ is a [[homotopical functor]].
-
-=--
 
 +-- {: .num_remark}
 ###### Remark
-If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+
+If $C$ is the full subcategory of fibrant objects in a [[model category]], then prop. \ref{KenBrownLemma} asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+
 =--
 
 ## Homotopy pullbacks
@@ -289,9 +292,7 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 
 ## References
 
-For instance page 4 of
-
-* [[Kenneth Brown]], _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_ .
+* {#Brown73} [[Kenneth Brown]], around p. 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458, 1973 .
 
 [[!redirects Ken Brown's lemma]]
 [[!redirects ken brown's lemma]]
