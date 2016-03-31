@@ -39,15 +39,22 @@ Reviews with emphases of the AQFT-point of view include
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _[Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)_
 
-* Robert Wald: [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
+* [[Robert Wald]], [The Formulation of Quantum Field Theory in Curved Spacetime] (http://de.arxiv.org/abs/0907.0416)
 
-* Robert M. Wald: [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
+* [[Robert  Wald]], [The History and Present Status of Quantum Field Theory in Curved Spacetime] (http://lanl.arxiv.org/abs/gr-qc/0608018v1)
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
+
 
 Papers about the application of [[microlocal analysis]] include
 
 * Alexander Strohmaier, Rainer Verch, Manfred Wollenberg: _Microlocal analysis of quantum fields on curved spacetimes: Analytic wavefront sets and Reeh-Schlieder theorems_ ([arXiv] (http://xxx.uni-augsburg.de/abs/math-ph/0202003)).
+
+Discussion of [[renormalization]] in AQFT on curved spacetimes inclides
+
+* {#KhavkineMoretti16} [[Igor Khavkine]], [[Valter Moretti]], _Analytic Dependence is an Unnecessary Requirement in Renormalization of Locally Covariant QFT_, Communications in Mathematical Physics, March 2016 ([arXiv:1411.1302](http://arxiv.org/abs/1411.1302), [publisher](http://link.springer.com/article/10.1007%2Fs00220-016-2618-7))
+
+
 
 Discussion of the [[standard model of cosmology]] in the context of AQFT on curved spacetimes is in 
 
