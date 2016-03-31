@@ -471,7 +471,7 @@ a **relative $C$-cell complex** is a [[transfinite composition]] of [[pushouts]]
 
 =--
 
-Given a relative $C$-cell complex $\iota \colon  X \to Y$, def. \ref{TopologicalCCellComplex}, it is typically interesting to study the [[extension]] problem along $f$, i.e. to ask which topological spaces $E$ are such that every [[continuous function]] $f\colon X \longrightarrow E$ has an extension $\tilde $ along $\iota$ 
+Given a relative $C$-cell complex $\iota \colon  X \to Y$, def. \ref{TopologicalCCellComplex}, it is typically interesting to study the [[extension]] problem along $f$, i.e. to ask which topological spaces $E$ are such that every [[continuous function]] $f\colon X \longrightarrow E$ has an extension $\tilde f$ along $\iota$ 
 
 $$
   \array{
@@ -484,7 +484,7 @@ $$
   \,.
 $$
 
-If so, then this means that $E$ is sufficiently "spead out" with respect to the maps in $C$. More generally one considers this extension problem fiberwise, i.e. with both $E$ and $Y$ (hence also $X$) equipped with a map to some base space $B$.
+If so, then this means that $E$ is sufficiently "spread out" with respect to the maps in $C$. More generally one considers this extension problem fiberwise, i.e. with both $E$ and $Y$ (hence also $X$) equipped with a map to some base space $B$.
 
 
 +-- {: .num_defn #RightLiftingProperty}
@@ -902,51 +902,52 @@ The [[proof]] ([below](#VerificationOfTopQuillen)) that def. \ref{ClassesOfMorhi
 +-- {: .num_lemma #CompactSubsetsAreSmallInCellComplexes}
 ###### Lemma
 
-Every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
+Assuming the [[axiom of choice]] and the [[law of excluded middle]],
+every [[compact topological space|compact]] [[topological subspace|subspace]] of a topological [[cell complex]], def. \ref{TopologicalCellComplex}, is contained in the [[union]] of a [[finite number]] of cells.
 
 =--
 
-(e.g. [Hirschhorn 15, section 3.1](#Hirschhorn15)).
+(e.g. [Hirschhorn 15, section 3.1](#Hirschhorn15))
 
 +-- {: .proof}
 ###### Proof
 
-So let $Y$ be a topological cell complex and $C \hookrightarrow Y$ a [[compact topological space|compact]] [[topological subspace|subspace]].
-
-Define a subset 
+So let $Y$ be a topological cell complex and $C \hookrightarrow Y$ a [[compact topological space|compact]] [[topological subspace|subspace]]. Define a subset 
 
 $$
   P \subset Y
 $$ 
 
-by _choosing_ one point in the [[interior]] of each cell of $Y$ that intersects $C$.
+by _choosing_ one point in the [[interior]] of the intersection with $C$ of each cell of $Y$ that intersects $C$.
 
-It is now sufficient to show that $P$ has no [[accumulation point]]. Because, by the [[compact topological space|compactness]] of $X$ every non-finite subset of $C$ does have an accumulation point, and hence the lack of such shows that $P$ is a [[finite set]] and hence that $C$ intersects finitely many cells of $Y$.
+It is now sufficient to show that $P$ has no [[accumulation point]]. Because, by the [[compact topological space|compactness]] of $X$, every non-finite subset of $C$ does have an accumulation point, and hence the lack of such shows that $P$ is a [[finite set]] and hence that $C$ intersects finitely many cells of $Y$.
 
-To that end, let $c\in C$ be any point. Write $e_c$ for the unique cell of $Y$ that contains $c$ in its [[interior]]. Since, by construction, there is exactly one point of $P$ in the interior of $e_c$ either $c$ equals that point, or else there is an [[open neighbourhood]] $c \in U_c \subset e_c$ containing no points of $P$.
+To that end, let $c\in C$ be any point. Write $e_c$ for the unique cell of $Y$ that contains $c$ in its [[interior]]. By construction, there is exactly one point of $P$ in the interior of $e_c$. Hence there is an [[open neighbourhood]] $c \in U_c \subset e_c$ containing no further points of $P$ beyond possibly $c$ itself, if $c$ happens to be that single point of $P$ in $e_c$.
 
-Hence it is now sufficient to show that $U_c$ may be enlarged to an open subset of $Y$ containing no point of $P$, except for possibly $c$ itself, for that means that $c$ is not an accumulation point of $P$.
+It is now sufficient to show that $U_c$ may be enlarged to an open subset $\tilde U_c$ of $Y$ containing no point of $P$, except for possibly $c$ itself, for that means that $c$ is not an accumulation point of $P$.
 
-To that end, let $\alpha_c$ be the [[ordinal]] that labels the stage of the [[transfinite composition]] in the [[cell complex]]-presentation of $Y$ at which the cell $e_c$ above appears. Let $\gamma$ be the ordinal of the full cell complex. Then define the set
+To that end, let $\alpha_c$ be the [[ordinal]] that labels the stage $Y_{\alpha_c}$ of the [[transfinite composition]] in the [[cell complex]]-presentation of $Y$ at which the cell $e_c$ above appears. Let $\gamma$ be the ordinal of the full cell complex. Then define the set
 
 $$
   T 
   \coloneqq
   \left\{
+    \;
     (\beta, U)
     \;|\;
-    \alpha \leq \beta \leq \gamma
+    \alpha_c \leq \beta \leq \gamma
     \;\,,\;
-    U \subset_{open} Y_\beta
+    U \underset{open}{\subset} Y_\beta
     \;\,,\;
     U \cap Y_\alpha = U_c
     \;\,,\;
     U \cap P \in \{ \emptyset, \{c\} \}
+    \;
   \right\}
-  \,.
+  \,,
 $$
 
-Regard this as a [[poset]] by declaring that 
+and regard this as a [[partially ordered set]] by declaring a partial ordering via
 
 $$
   (\beta_1, U_1) \lt (\beta_2, U_2)
@@ -959,7 +960,13 @@ $$
   \,.
 $$
 
-(...)
+This is set up such that every element $(\beta, U)$ of $T$ with $\beta$ the maximum value $\beta = \gamma$ is an extension $\tilde U_c$ that we are after. 
+
+Observe then that for $(\beta_s, U_s)_{s\in S}$ a chain in $(T,\lt)$ (a subset on which the relation $\lt$ restricts to a [[total order]]), it has an upper bound in $T$ given by the [[union]] $({\cup}_s \beta_s ,\cup_s U_s)$. Therefore [[Zorn's lemma]] applies, saying that $(T,\lt)$ contains a [[maximal element]] $(\beta_{max}, U_{max})$.
+
+Hence it is now sufficient to show that $\beta_{max} = \gamma$. We argue this by showing that assuming $\beta_{\max}\lt \gamma$ leads to a contradiction.
+
+So assume $\beta_{max}\lt \gamma$. Then to construct an  element of $T$ that is larger than $(\beta_{max},U_{max})$, consider for each cell $d$ at stage $Y_{\beta_{max}+1}$ its attaching map $h_d \colon S^{n-1} \to Y_{\beta_{max}}$ and the corresponding preimage open set $h_d^{-1}(U_{max})\subset S^{n-1}$. Enlarging all these  preimages to open subsets of $D^n$ (such that their image back in $X_{\beta_{max}+1}$ does not contain $c$), then $(\beta_{max}, U_{max}) \lt (\beta_{max}+1, \cup_d U_d )$. This is a contradiction. Hence $\beta_{max} = \gamma$, and we are done.
 
 =--
 
