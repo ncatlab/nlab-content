@@ -1,11 +1,17 @@
 
-Rudolf Haag is a [[mathematical physicist]] working in the context of [[AQFT]].
+Rudolf Haag was a [[mathematical physicist]] working in the context of [[AQFT]].
 
 * [Wikipedia entry](http://de.wikipedia.org/wiki/Rudolf_Haag)
 
+## some writings
+
+* _Some people and some problems met in half a century of commitment to mathematical physics_, Personal recollection, The European Physical Journal H
+November 2010, Volume 35, Issue 3, pp 263-307 ([web](http://link.springer.com/article/10.1140%2Fepjh%2Fe2010-10032-4))
+
 ## related $n$Lab entries
 
-* [[Haag-Kastler axioms]]
+
+* [[Haag-Kastler axioms]], [[AQFT]]
 
 * [[DHR superselection theory]]
 
