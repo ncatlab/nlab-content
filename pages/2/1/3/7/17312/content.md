@@ -1,0 +1,25 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+* [[Saunders MacLane]],
+
+  _Lectures on category theory_
+
+  Bowdoin Summer School 1969
+
+  Notes taken by [[Ellis Cooper]] ([pdf](https://dl.dropboxusercontent.com/u/12630719/MacLaneBowdoinLectures69.pdf))
+
+on [[category theory]]. 
+
+These lectures are close to what eventually became the classical textbook _[[Categories for the Working Mathematician]]_.  One difference is long discussion of [[William Lawvere]]'s dissertation results on [[algebraic theories]].
+
+
+category: reference
