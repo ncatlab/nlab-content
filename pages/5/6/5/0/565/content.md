@@ -121,7 +121,8 @@ A [[finitely complete category]] is concretizable, i.e., admits a [[faithful fun
 
 +-- {: .num_remark} 
 ###### Remark 
-A relatively deep application of Isbell's result is that the homotopy category of topological spaces is _not_ concretizable, even though it is a quotient of $Top$ which _is_ concretizable. 
+A relatively deep application of Isbell's result is that the [[classical homotopy category]] [[Ho(Top)]] of [[topological spaces]] is _not_ concretizable, even though it is a quotient of $Top$ which _is_ concretizable. ([Freyd 70](#Freyd70))
+
 =-- 
 
 ## Related concepts
@@ -138,8 +139,9 @@ A relatively deep application of Isbell's result is that the homotopy category o
 * [[John Isbell]], _Two set-theoretical theorems in categories_, Fund. Math 53 (1963)
 {#Isbell}
 
-* [[Peter Freyd]], _Concreteness_, JPAA 3 (1973)
-{#Freyd}
+* {#Freyd} [[Peter Freyd]], _Concreteness_, JPAA 3 (1973)
+
+* {#Freyd70} [[Peter Freyd]], _Homotopy is not concrete_, in _The Steenrod Algebra and its Applications_, Springer Lecture Notes in Mathematics Vol. 168, Springer-Verlag, 1970, Republished in: Reprints in Theory and Applications of Categories, No. 6 (2004) pp 1-10 ([web](http://www.tac.mta.ca/tac/reprints/articles/6/tr6abs.html))
 
 
 [[!redirects concrete category]]
