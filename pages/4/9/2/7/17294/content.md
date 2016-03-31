@@ -51,15 +51,39 @@ Functorial factorizations play a prominent role in [[model category]] theory. On
 
 ## Definition
 
-The precise requirements for factorization of morphisms to be _[[functorial factorization|functorial]]_ are frequently misstated. What follows is a fairly uncommon (but correct) definition:
++-- {: .num_defn #FunctorialFactorization}
+###### Definition
 
-Write $[2]$ and $[3]$ for the [[ordinal numbers]], regarded as [[categories]]. So the [[arrow category]] $arr(K)$ is isomorphic to the [[functor category]] $[[2],K]$. There are three injective functors $[2] \rightarrow [3]$; let $d_1$ be the functor that sends the objects $\{0,1\}$ of $[2]$ to the objects $\{0,2\}$ of $[3]$ (see also at _[[simplicial object]]_). This induces a functor $c \colon [[3],K] \rightarrow [[2],K]$ which can be thought of as "composition."
+For $\mathcal{C}$ a [[category]], a **functorial factorization** of the morphisms in $\mathcal{C}$ is a [[functor]] 
 
-A **functorial factorization** is a functor $F \colon [[2],K] \rightarrow [[3],K]$ such that $c F$ is the identity on $arr(K)$.  
+$$
+  fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
+$$ 
+
+which is a [[section]] of the [[composition]] functor $d_1 \;\colon\; \mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
+
+Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
+By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
+
+* $d_1$ sends a pair of composable morphisms to their [[composition]];
+
+* $d_2$ sends a pair of composable morphisms to the first morphisms;
+
+* $d_0$ sends a pair of composable morphisms to the second morphisms.
+
+
+=--
 
 ## Examples
 
-Not all [[weak factorization systems]] are functorial, although most (including those produced by the [[small object argument]]) are.
+Not all [[weak factorization systems]] are functorial, although most (including those produced by the [[small object argument]], with due care) are.
 
 All [[orthogonal factorization systems]] are automatically functorial.
 
