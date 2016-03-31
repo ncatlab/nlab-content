@@ -24,6 +24,8 @@ Just as the notion of a [[monad]] in a [[bicategory]] $K$ generalizes that of a 
 
 Modules over monads, especially in [[Cat]], are also often called *algebras* for the monad; see below.
 
+The [[formal dual|formally dual]] concept is that of _[[coalgebra over a comonad]]_.
+
 ## Definition
 
 Let $K$ be a bicategory and $t \colon a \to a$ a monad in $K$ with structure 2-cells $\mu \colon t t \Rightarrow t$ and $\eta \colon 1_a \Rightarrow t$.  Then a **left $t$-module** is given by a 1-cell $x \colon b \to a$ and a 2-cell $\lambda \colon t x \Rightarrow x$, where
