@@ -16,7 +16,7 @@
 ## Idea
  {#Idea}
 
-A [[topological space]] (or more generally [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
+A [[topological space]] (or more generally: a [[convergence space]]) is _compact_ if everything converges as much as possible. It is a kind of ultimate topological expression of the general idea of a space being "closed and bounded": every [[net]] must accumulate somewhere in the space; by boundedness it cannot escape, and by closure the point is in the space. There is also a notion of compactness for [[locales]].
 
 It is also common to work with _compact [[subsets]]_ of a space.  These are those subsets which are compact spaces with the [[subspace topology]].
 
@@ -24,33 +24,50 @@ It is also common to work with _compact [[subsets]]_ of a space.  These are thos
 ## Definitions 
 
 There are many ways to say that a space $X$ is compact. The first is perhaps the most common: 
+
 +-- {: .num_defn #hb}
 ###### Definition
-For every collection of open sets whose [[union]] is $X$ (which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (a [[finite cover|finite sub-cover]]).
+
+$X$ is compact if for every collection of [[open subsets]] whose [[union]] is $X$ (i.e. which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (i.e. a [[finite cover|finite sub-cover]]).
+
 =--
-If [[excluded middle]] is assumed, this is easily equivalent to: 
+
+If [[excluded middle]] is assumed, this is easily seen to be equivalent to: 
+
 +-- {: .num_defn #fip}
 ###### Definition
-For any collection of closed sets of $X$ whose [[intersection]] is [[empty set|empty]], some finite subcollection also has empty intersection.
+
+$X$ is compact if for any collection of [[closed subsets]] of $X$ whose [[intersection]] is [[empty set|empty]], some finite subcollection also has empty intersection.
+
 =--
 
 If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assumed, compactness can be characterized in terms of [[ultrafilter]] (or ultranet) convergence: 
+
 +-- {: .num_defn #ultrafilter}
 ###### Definition
-Every ultrafilter $\mathcal{U}$ (or ultranet $\nu$) on $X$ converges to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
+
+Every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
+
 =--
-In any case, compactness can be characterized in terms of [[filter]] (or [[net]]) convergence:
+
+In any case, compactness can be characterized in terms of [[proper filter]] or equivalently (see at _[[eventuality filter]]_) of [[net]] [[convergence]] . 
+
 +-- {: .num_defn #refinement}
 ###### Definition
-Every proper filter (or net) on $X$ has a convergent proper [[refinement]] (or subnet).
+
+$X$ is compact if every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/subnet.
+
 =--
 
 This is equivalent to the characterization given in the [Idea-section](#Idea) above:
  
 +-- {: .num_defn #clustering}
 ###### Definition
-Every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
+
+$X$ is compact if every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
+
 =--
+
 While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]].
 
 The definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  An equivalent way to phrase it is
