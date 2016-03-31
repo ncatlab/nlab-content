@@ -117,6 +117,8 @@ category: analysis
 [[!redirects convergences]]
 [[!redirects convergencies]]
 
+[[!redirects converges]]
+
 [[!redirects convergence of a sequence]]
 [[!redirects convergence of sequences]]
 [[!redirects convergence of a net]]
@@ -135,3 +137,5 @@ category: analysis
 [[!redirects limit of a filter]]
 [[!redirects limits of a filter]]
 [[!redirects limits of filters]]
+
+
