@@ -19,7 +19,7 @@
 
 ## Idea 
 
-_Nets_ are generalisations of [[sequences]] that are used especially in [[topology]].  They are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to [[proper filters]].
+_Nets_ are generalisations of [[sequences]] that are used especially in [[topology]].  They are also called _Moore--Smith sequences_ and are equivalent (in a certain sense) to [[proper filters]], their _[[eventuality filters]]_.
 
 
 ## Definitions
