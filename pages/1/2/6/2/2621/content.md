@@ -158,6 +158,10 @@ Reviews includes
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative Construction of Models of Algebraic Quantum Field Theory_ ([arXiv:1503.07814](http://arxiv.org/abs/1503.07814))
 
+Further developments in perturbation theory in [[AQFT on curved spacetimes]] icludes
+
+* {#KhavkineMoretti16} [[Igor Khavkine]], [[Valter Moretti]], _Analytic Dependence is an Unnecessary Requirement in Renormalization of Locally Covariant QFT_, Communications in Mathematical Physics, March 2016 ([arXiv:1411.1302](http://arxiv.org/abs/1411.1302), [publisher](http://link.springer.com/article/10.1007%2Fs00220-016-2618-7))
+
 ### In BV-BRST formalism
 
 Perturbative quantization in [[BV-BRST formalism]] is nicely systematically discussed in section 5 of 
