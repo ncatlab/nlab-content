@@ -281,7 +281,7 @@ etc. and their functoriality embodies the [[orthogonal group]]-equivariance in t
 +-- {: .num_remark #PreExcisiveFunctorsAreSModules}
 ###### Remark
 
-For completeness we may trivially add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
+For completeness, we may, trivially, add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
 
 $$
   \mathbb{S} Mod_r \simeq [Top^{\ast/}_{fin}, Top^{\ast/}]
