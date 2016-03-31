@@ -46,7 +46,7 @@ If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assum
 +-- {: .num_defn #ultrafilter}
 ###### Definition
 
-Every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
+$X$ is compact if every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
 
 =--
 
@@ -71,38 +71,54 @@ $X$ is compact if every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a 
 While the usual definitions (\ref{hb}&\ref{fip}) are for [[topological spaces]], the convergence definitions (\ref{ultrafilter}--\ref{clustering}) make sense in any [[convergence space]].
 
 The definition (\ref{hb}) also works for [[locales]], since it refers only to the [[frame]] of open sets.  An equivalent way to phrase it is
+
 +-- {: .num_defn #directed}
 ###### Definition
-Given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
+
+$X$ is compact if given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
+
 =--
+
 As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, we can also say
+
 +-- {: .num_defn #object}
 ###### Definition
-The ambient space $X$ is a [[compact object]] in $Op(X)$.
+
+$X$ is compact it it is a [[compact object]] in $Op(X)$.
+
 =--
 
 Compactness is equivalent to the condition of being "stably closed" (and it is this condition which suggests the correct notion of [[proper map]] in [[algebraic geometry]] and elsewhere):
+
 +-- {: .num_defn #projection}
 ###### Definition
-For any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
+
+$X$ is compact if for any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
+
 =--
 
 Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction). 
 
 Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
+
 +-- {: .num_defn #quantification}
 ###### Definition
-For any space $Y$ and any open subset $U$ of $X \times Y$, the subset
+
+$X$ is compact if for any space $Y$ and any open subset $U$ of $X \times Y$, the subset
 $$ \forall_X U = \{ b : Y \;|\; \forall\; a: X,\; (a, b) \in U \} $$
 is open in $Y$.
+
 =--
+
 To remove it from dependence on points, we can also write the definition like this:
+
 +-- {: .num_defn #pointless}
 ###### Definition
-Given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
+$X$ is compact if given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
 $$ V \subseteq \forall_X U \;\Leftrightarrow\; X \times V \subseteq U $$
 for every open $V$ in $Y$.
 =--
+
 A [[de Morgan duality|dual]] condition is satisfied by an [[overt space]].
 
 
