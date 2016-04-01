@@ -176,7 +176,7 @@ $\,$
  {#ClassicalHomotopyTheory}
 
 
-We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the plain [[homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
+We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the [[classical homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
 
 ### **P.1)** Topological homotopy theory
  {#TheClassicalHomotopyCategory}
@@ -193,6 +193,197 @@ The [[category]] of topological spaces obtained by [[localization of a category|
 This section recalls relevant concepts from actual [[topology]] ("point-set topology") and highlights facts that motivate the axiomatics of [[model categories]] [below](#ModelCategoryTheory). We prove two technical lemmas (lemma \ref{CompactSubsetsAreSmallInCellComplexes} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}) that serve to establish the abstract homotopy theory of topological spaces [further below](#TheClassicalModelStructureOfTopologicalSpaces). 
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
+
+$\,,$
+
+Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]]. 
+
+(Further [below](#SimplicialSets) in the discussion of [[geometric realization]] we restrict attention to the [[full subcategory]] of [[compactly generated topological spaces]].)
+
+
+##### Universal constructions
+
+Some basics on [[universal constructions]] in [[Top]], such as [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]].
+
++-- {: .num_defn #InitialAndFinalTopologies}
+###### Definition
+
+Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[set]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
+
+* For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
+
+* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{initial}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+
+=--
+
++-- {: .num_example #TopologicalSubspace}
+###### Example
+
+For $X$ a single topological space, and $\iota_S \colon S \hookrightarrow U(X)$ a subset of its underlying set, then the initial topology $\tau_{intial}(\iota_S)$, def. \ref{InitialAndFinalTopologies}, is the [[subspace topology]], making
+
+$$
+  \iota_S
+  \;\colon\;
+  (S, \tau_{initial}(\iota_S))
+  \hookrightarrow
+  X
+$$
+
+a [[topological subspace]] inclusion.
+
+=--
+
+
+
+
++-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
+###### Poposition
+
+Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
+
+1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
+
+   $$
+     \array{
+       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       S_i && \underset{}{\longrightarrow} && S_j
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
+   $$
+
+1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
+
+   $$
+     \array{
+       S_i && \longrightarrow && S_j
+       \\
+       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+       \\
+       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+   $$
+
+=--
+
+(e.g. [Bourbaki 71, section I.4](#Bourbaki71))
+
++-- {: .proof}
+###### Proof
+
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for 
+
+$$
+  \array{
+    && (S,\tau)
+    \\
+    & {}^{\mathllap{f_i}}\swarrow && \searrow^{\mathrlap{f_j}} 
+    \\
+    X_i && \underset{}{\longrightarrow} && X_j
+  }
+$$
+
+any [[cone]] over the diagram, then by construction there is a unique function of underlying sets $S \longrightarrow \underset{\longleftarrow}{\lim}_{i \in I} S_i$ making the required diagrams commute, and so all that is required is that this unique function is always [[continuous function|continuous]]. But this is precisely what the [[initial topology]] ensures.
+
+The case of the colimit is [[formal dual|formally dual]].
+
+=--
+
+
+
+
++-- {: .num_example #PointTopologicalSpaceAsEmptyLimit}
+###### Example
+
+The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its unique topology.
+
+=--
+
++-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
+###### Example
+
+For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}{\coprod}\ast $  is the set $S$ itself equipped with the [[final topology]], hence is the [[discrete topological space]] on $S$.
+
+=--
+
++-- {: .num_example #ProductTopologicalSpace}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
+
+In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then the open subsets in the product topology are just the [[Cartesian products]] of the open subsets of each factor space.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Let 
+
+$$
+  i_n \colon S^{n-1}\longrightarrow D^n
+$$
+
+be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]] (both regarded as [[topological spaces]] with their [[subspace topology]] as subspaces of the [[Cartesian space]] $\mathbb{R}^n$).
+
+Then the colimit in [[Top]] under the diagram 
+
+$$
+  \left\{
+     D^n \overset{i_n}{\longleftarrow} S^{n-1} \overset{i_n}{\longrightarrow}
+     D^n
+  \right\}
+  \,,
+$$
+
+(i.e. the [[pushout]] of $i_n$ along itself) is the [[n-sphere]] $S^n$:
+
+$$
+  \array{
+    S^{n-1} &\overset{i_n}{\longrightarrow}& D^n
+    \\
+    {}^{\mathllap{i_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^n
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
+
+$$
+  eq(f,g) \hookrightarrow S_X \stackrel{\longrightarrow}{\longrightarrow} S_Y
+$$
+
+and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
+
 
 
 ##### Homotopy
@@ -218,9 +409,7 @@ $$
 
 this is the standard [[interval object]] in [[Top]].
 
-For $X \in Top$, the [[product topological space]] $X\times I$
-is called the standard _[[cylinder object]]_ over $X$.
-The endpoint inclusions of the interval make it factor the [[codiagonal]] on $X$
+For $X \in Top$, the [[product topological space]] $X\times I$, example \ref{ProductTopologicalSpace}, is called the standard _[[cylinder object]]_ over $X$. The endpoint inclusions of the interval make it factor the [[codiagonal]] on $X$
 
 $$
   \nabla_X 
@@ -234,7 +423,6 @@ $$
 $$
 
 =--
-
 
 
 +-- {: .num_defn #LeftHomotopy}
