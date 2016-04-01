@@ -15,13 +15,116 @@
 
 ## Definition
 
-**Top** is the [[category]] of [[topological spaces]] and [[continuous maps]] between them.
+**Top** denotes the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them.
 
-How exactly this is understood depends a bit on context: of course $Top$ forms an ordinary [[category]]. But it is also naturally an [[(∞,1)-category]]. This, in turn, may be [[presentable (∞,1)-category|presented]] by regarding $Top$ as a [[model category]] equipped with the [[model structure on topological spaces|Quillen model structure]].
+Often one considers (sometimes by default) [[subcategories]] of [[nice topological spaces]] such as [[compactly generated topological spaces]], notably because these are [[cartesian closed category]]. There other other [[convenient categories of topological spaces]]. With any one such choice understood, it is often useful to regard it as "the" category of topological spaces.
 
-Moreover, what exactly counts as an object in $Top$ often varies in different contexts. For many applications it is useful to restrict to a [[subcategory]] of [[nice topological space]]s such as [[compactly generated space]]s or [[CW-complex]]es. There other other [[convenient categories of topological spaces]].
+The [[homotopy category]] of $Top$ given by its [[localization]] at the [[weak homotopy equivalences]] is the [[classical homotopy category]] [[Ho(Top)]]. This is the central object of study in [[homotopy theory]], see also at _[[classical model structure on topological spaces]]_.  The [[simplicial localization]] of [[Top]] at the [[weak homotopy equivalences]] is the archetypical [[(∞,1)-category]], [[equivalence of (infinity,1)-categories|equivalent]] to [[∞Grpd]] (see at _[[homotopy hypothesis]]_).
 
-The [[homotopy category]] of $Top$ with respect to [[weak homotopy equivalences]] is [[Ho(Top)]]. This is the central object of study in [[homotopy theory]].  Regarded as an [[(∞,1)-category]]  $Top$ is the archetypical [[homotopy theory]], equivalent to [[∞Grpd]].
+## Properties
+
+### Universal constructions
+
++-- {: .num_prop }
+###### Poposition
+
+Let $X_\bullet \colon I \longrightarrow Top$ be a [[diagram]] in [[Top]], with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
+
+1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]] for the functions $p_i$ which are the limiting [[cone]] components:
+
+   $$
+     \array{
+       && \underset{\longleftarrow}{\lim}_{i \in I} S_i
+       \\
+       & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+       \\
+       S_i && \underset{}{\longrightarrow} && S_j
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
+   $$
+
+1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]] $\tau_{final}$ for the component maps $\iota_i$ of the colimiting [[cocone]]
+
+   $$
+     \array{
+       S_i && \longrightarrow && S_j
+       \\
+       & {}_{\mathllap{\iota_i}}\searrow && \swarrow_{\mathrlap{\iota_j}}
+       \\
+       && \underset{\longrightarrow}{\lim}_{i \in I} S_i
+     }
+     \,.
+   $$
+
+   Hence
+
+   $$
+     \underset{\longleftarrow}{\lim}_{i \in I} S_i  
+     \simeq
+     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+   $$
+
+=--
+
++-- {: .num_example #PointTopologicalSpace}
+###### Example
+
+* The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its unique topology.
+
+* For $S \in Set$, the $S$-index [[coproduct]] of the point is the set $S$ itself equipped with the [[initial topology]], hence is the [[discrete topological space]] on $S$.
+
+=--
+
+
+### Relation with $Set$
+
++-- {: .num_defn #ForgetfulFunctorFromTopToSet}
+###### Definition
+
+Write
+
+$$
+  U \colon Top \longrightarrow Set
+$$
+
+for the [[forgetful functor]] that sends a topological space $X = (S,\tau)$ to its underlying set $U(X) = S$.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[forgetful functor]] $U$ from def. \ref{ForgetfulFunctorFromTopToSet} has a [[left adjoint]] $disc$, given by sending a [[set]] $S$ to the corresponding [[discrete topological space]]
+
+$$
+  Top
+  \stackrel{\overset{disc}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+  Set
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[forgetful functor]] $U$ from def. \ref{ForgetfulFunctorFromTopToSet} exhibits $Top$ as 
+
+* a [[concrete category]]
+
+* a [[topological concrete category]].
+
+=--
+
 
 ## Related concepts
 
