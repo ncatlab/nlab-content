@@ -585,6 +585,7 @@ $$
 
 =--
 
+
 +-- {: .num_remark}
 ###### Remark
 
@@ -595,6 +596,53 @@ Therefore the condition on a [[Serre fibration]] is also called the _[[homotopy 
 More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_. 
 
 =--
+
++-- {: .num_remark #SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}
+###### Remark
+
+The precise shape of $D^n$ and $D^n \times I$ in def. \ref{SerreFibration} turns out not to actually matter much for the nature of Serre fibrations. We will eventually find below (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}) that what actually matters here is only that the inclusions $D^n \hookrightarrow D^n \times I$ are [[relative cell complexes]] and [[weak homotopy equivalences]] and that all of these may be generated from them in a suitable way.
+
+But for simple special cases this is readily seen directly, too. Notably it is trivial, but nevertheless important in applications, that we could replace the [[n-disks]] in def. \ref{SerreFibration} with any [[homeomorphism|homeomorphic]] topological space. A choice that becomes important in the comparison to the [[classical model structure on simplicial sets]] is to instead take the topological [[n-simplices]] $\Delta^n$. Hence a Serre fibration is equivalently characterized as having lifts in all diagrams of the form
+
+$$
+  \array{
+    \Delta^n &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \Delta^n\times I &\longrightarrow& B
+  }
+  \,.
+$$
+
+Other deformations of the $n$-disks are useful in computations, too. For instance there is a homeomorphism from the $n$-disk to its "cylinder with interior and end removed", formally:
+
+$$
+  \array{
+    (D^n \times \{0\})\cup (\partial D^n \times I) &\simeq& D^n
+    \\
+    \downarrow && \downarrow
+    \\
+    D^n \times I \times I &\simeq& D^n\times I
+  }
+$$
+
+and hence $f$ is a Serre fibration equivalently also if it admits lifts in all diagrams of the form
+
+$$
+  \array{
+    (D^n \times \{0\})\cup (\partial D^n \times I) &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \Delta^n\times I &\longrightarrow& B
+  }
+  \,.
+$$
+
+
+
+=---
 
 
 
@@ -1205,8 +1253,9 @@ $$
 
 It is now sufficient to show that every situation like this, for $f$ a Serre fibration, we may further deform the lift such as to make the diagram genuinely commute.
 
-
 (...)
+
+...use remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions} to build a deformation...
 
 (...)
 
@@ -1318,7 +1367,7 @@ Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equival
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}
 ###### Proposition
 
 Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
