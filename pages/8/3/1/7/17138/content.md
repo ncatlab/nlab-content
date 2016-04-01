@@ -1021,6 +1021,55 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 
 =--
 
++-- {: .num_remark #SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}
+###### Remark
+
+The precise shape of $D^n$ and $D^n \times I$ in def. \ref{SerreFibration} turns out not to actually matter much for the nature of Serre fibrations. We will eventually find below (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}) that what actually matters here is only that the inclusions $D^n \hookrightarrow D^n \times I$ are [[relative cell complexes]] and [[weak homotopy equivalences]] and that all of these may be generated from them in a suitable way.
+
+But for simple special cases this is readily seen directly, too. Notably it is trivial, but nevertheless important in applications, that we could replace the [[n-disks]] in def. \ref{SerreFibration} with any [[homeomorphism|homeomorphic]] topological space. A choice that becomes important in the comparison to the [[classical model structure on simplicial sets]] is to instead take the topological [[n-simplices]] $\Delta^n$. Hence a Serre fibration is equivalently characterized as having lifts in all diagrams of the form
+
+$$
+  \array{
+    \Delta^n &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \Delta^n\times I &\longrightarrow& B
+  }
+  \,.
+$$
+
+Other deformations of the $n$-disks are useful in computations, too. For instance there is a homeomorphism from the $n$-disk to its "cylinder with interior and end removed", formally:
+
+$$
+  \array{
+    (D^n \times \{0\})\cup (\partial D^n \times I) &\simeq& D^n
+    \\
+    \downarrow && \downarrow
+    \\
+    D^n \times I \times I &\simeq& D^n\times I
+  }
+$$
+
+and hence $f$ is a Serre fibration equivalently also if it admits lifts in all diagrams of the form
+
+$$
+  \array{
+    (D^n \times \{0\})\cup (\partial D^n \times I) &\longrightarrow& E
+    \\
+    {}^{\mathllap{(id,\delta_0)}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \Delta^n\times I &\longrightarrow& B
+  }
+  \,.
+$$
+
+
+=---
+
+
+
+
 The following statement is foreshadowing the [[long exact sequences of homotopy groups]] induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) after having developed more of the abstract homotopy theory.
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
@@ -1210,9 +1259,192 @@ and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
 
 By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
 
-**C) Acyclic Serre fibrations are in particular $I_{Top}$-fibrations**
+**C) Acyclic Serre fibrations are in particular $I_{Top}$-[[injective morphisms]]**
 
-A proof of this is spelled out in ([Hirschhorn 15, section 6](#Hirschhorn15)).
+([Hirschhorn 15, section 6](#Hirschhorn15)).
+
+Let $f\colon X \to Y$ be a Serre fibration that induces isomorphisms
+on homotopy groups. In degree 0 this means that $f$ is an isomorphism on [[connected components]], and this means that there is a lift in every [[commuting square]] of the form
+
+$$
+  \array{
+    S^{-1} = \emptyset &\longrightarrow& X 
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^0 = \ast &\longrightarrow& Y
+  }
+$$
+
+(this is $\pi_0(f)$ being surjective) and in every commuting square of the form
+
+$$
+  \array{
+    S^0  &\longrightarrow& X 
+    \\
+    {}^{\mathllap{\iota_0}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^1 = \ast &\longrightarrow& Y
+  }
+$$
+
+(this is $\pi_0(f)$ being injective). Hence we are reduced to showing that for $n \geq 2$ every diagram of the form
+
+$$
+  \array{
+    S^{n-1}  &\overset{\alpha}{\longrightarrow}& X 
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^n  &\overset{\kappa}{\longrightarrow}& Y
+  }
+$$
+
+has a lift.  
+
+
+To that end, pick a basepoint on $S^{n-1}$ and write $x$ and $y$ for its images in $X$ and $Y$, respectively 
+
+Then the diagram above expresses that $f_\ast[\alpha] = 0 \in \pi_{n-1}(Y,y)$ and hence by assumption on $f$ it follows that $[\alpha] = 0 \in \pi_{n-1}(X,x)$, which in turn mean that there is $\kappa'$ making the upper triangle of our lifting problem commute:
+
+$$
+  \array{
+    S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow & \nearrow_{\mathrlap{\kappa'}}
+    \\
+    D^n
+  }
+  \,.
+$$
+
+It is now sufficient to show that any such $\kappa'$ may be deformed tho a $\rho'$ which keeps making this upper triangle commute but also makes the remaining lower triangle commute.
+
+To that end, notice that by the commutativity of the original square, we already have at least this commuting square:
+
+$$
+  \array{
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow && \downarrow^{\mathrlap{f \circ \kappa'}}
+    \\
+    D^n &\underset{\kappa}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+This induces the universal map from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
+
+$$
+  \array{
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow 
+    &(po)& 
+    \downarrow^{\mathrlap{f \circ \kappa'}}
+    \\
+    D^n &\underset{\kappa}{\longrightarrow}& S^n
+    \\
+    && & \searrow^{(\kappa,f \circ \kappa')}
+    \\
+    && && Y
+  }
+  \,.
+$$
+
+This universal morphism represents an element
+
+$$
+  [(\kappa,f \circ \kappa')]
+   \in
+  \pi_n(Y,y)
+$$
+
+and by assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
+
+$$
+  f_\ast [\rho] = [(\kappa,f \circ \kappa')]
+$$ 
+
+hence on representatives there is a lift
+
+$$
+  \array{
+    && X
+    \\
+    &{}^{\mathllap{\rho}}\nearrow& \downarrow^{\mathrlap{f}}
+    \\
+    S^n
+    &\underset{(\kappa,f\circ \kappa')}{\longrightarrow}&
+    Y
+  }
+  \,.
+$$
+
+Morever, we may always find $\rho$ of the form $(\rho', \kappa')$ for some $\rho' \colon D^n \to X$. ("Paste $\kappa'$ to the reverse of $\rho$.")
+
+Consider then the map
+
+$$
+  S^n \overset{(f\circ \rho', \kappa)}{\longrightarrow} Y
+$$
+
+and observe that this represents a trivial class:
+
+$$
+  \begin{aligned}
+    [(f \circ \rho', \kappa)]
+    & =
+    [(f\circ \rho', f\circ \kappa')]
+     +
+      [(f\circ \kappa', \kappa)]
+    \\
+    & = f_\ast \underset{= [\rho]}{\underbrace{[(\rho',\kappa')]}}
+      +
+        [(f\circ \kappa', \kappa)]
+    \\
+    & = [(\kappa,f \circ \kappa')]
+      +
+        [(f\circ \kappa', \kappa)]
+    \\
+    & = 0     
+  \end{aligned}
+  \,.
+$$
+
+Equivalently this means that there is a homotopy
+
+$$
+  \phi \colon f\circ \rho' \Rightarrow \kappa
+  \,.
+$$
+
+In conclusion, so far this achieves that we have a solution to our lifting problem _except_ that it makes the lower triangle commute only up to the homotopy $\phi$
+
+$$
+  \array{
+    S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow 
+    & 
+      {}^{\rho'}\nearrow_{\Downarrow^{\phi}}
+    &
+    \downarrow^{\mathrlap{f}}
+    \\
+    D^n &\longrightarrow& Y
+  }
+  \,.
+$$
+
+Finally, we may conclude by showing that in every situation like this, we may further deform the lift such as to make the diagram genuinely commute.
+
+(...)
+
+...use remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions} to build a deformation...
+
+(...)
+
+=--
 
 
 =--
@@ -3201,7 +3433,7 @@ Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equival
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}
 ###### Proposition
 
 Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
