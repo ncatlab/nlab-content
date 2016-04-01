@@ -77,6 +77,8 @@ A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
 
 * [[created limit]]
 
+* [[lifted limit]]
+
 [[!redirects reflection of limits]]
 [[!redirects reflected limits]]
 [[!redirects reflected colimit]]
