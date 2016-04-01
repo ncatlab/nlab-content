@@ -1,1 +1,21 @@
 
+
+$$
+  \begin{aligned}
+    [(f \circ \rho', \kappa)]
+    & =
+    [(f\circ \rho', f\circ \kappa')]
+     +
+      [(f\circ \kappa', \kappa)]
+    \\
+    & = f_\ast \underset{= [\rho]}{\underbrace{[(\rho',\kappa')]}}
+      +
+        [(f\circ \kappa', \kappa)]
+    \\
+    & = (-1)\cdot[(\kappa,f \circ \kappa')]
+      +
+        [(f\circ \kappa', \kappa)]
+    \\
+    & = 0     
+  \end{aligned}
+$$
