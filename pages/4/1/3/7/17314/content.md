@@ -1,0 +1,28 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A [[functor]] $F\colon \mathcal{C}\to \mathcal{D}$ is said to _lift_ [[limits]] or [[colimits]], respectively, if every limiting [[cone]] or colimiting [[cocone]] in $\mathcal{D}$ is the image of a limiting cone or colimiting cocone, respectively, in $\mathcal{D}$.
+
+## Related concepts
+
+* [[preserved limit]]
+
+* [[reflected limit]]
+
+* [[created limit]]
+
+* **lifted limit**
