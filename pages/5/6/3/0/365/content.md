@@ -22,11 +22,11 @@
 
 ## Idea
 
-A _weak factorization system_ on a [[category]] is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] ("[[projective morphisms]]" and "[[injective morphisms]]") such that 1) every morphism of the category factors as the composite of one in $Proj$ followed by one in $Inj$, and 2) $Proj$ and $Inj$ are closed under having the [[lifting property]] against each other.
+A _weak factorization system_ on a [[category]] is a [[pair]] $(\mathcal{L},\mathcal{R})$ of [[classes]] of [[morphisms]] ("[[projective morphisms]]" and "[[injective morphisms]]") such that 1) every morphism of the category factors as the composite of one in $\mathcal{L}$ followed by one in $\mathcal{R}$, and 2) $\mathcal{L}$ and $\mathcal{R}$ are closed under having the [[lifting property]] against each other.
 
 If the liftings here are unique, then one speaks of an _orthogonal factorization system_. A classical example of an orthogonal factorization system is the [[(epi,mono)-factorization system]] on the category [[Set]] or in fact on any [[tops]].
 
-Non-orthogonal weak factorization systems are the key ingredient in [[model categories]], which by definition carry a weak factorization system called ($Proj = $ [[cofibrations]],$Inj = $ [[acyclic fibrations]]) and another one called ($Proj =$ [[acyclic cofibrations]], $Inj =$ [[fibrations]]). Indeed most examples of non-orthogonal weak factorization systems arise in the context of model category theory.  A key tool for constructing these, or verifying their existence, is the _[[small object argument]]_.
+Non-orthogonal weak factorization systems are the key ingredient in [[model categories]], which by definition carry a weak factorization system called ($\mathcal{L} = $ [[cofibrations]],$\mathcal{R} = $ [[acyclic fibrations]]) and another one called ($\mathcal{L} =$ [[acyclic cofibrations]], $\mathcal{R} =$ [[fibrations]]). Indeed most examples of non-orthogonal weak factorization systems arise in the context of model category theory.  A key tool for constructing these, or verifying their existence, is the _[[small object argument]]_.
 
 There are other [[properties]] which one may find or impose on a weak factorization system, for instance [[functorial factorization]]. There is also [[extra structure]] which one may find or impose, such as for [[algebraic weak factorization systems]]. For more variants see at _[[factorization system]]_.
 
@@ -37,31 +37,31 @@ There are other [[properties]] which one may find or impose on a weak factorizat
 +-- {: .num_defn #WeakFactorizationSystem}
 ###### Definition
 
-A **weak factorization system** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(Proj,Inj)$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
+A **weak factorization system** (WFS) on a [[category]] $\mathcal{C}$ is a [[pair]] $(\mathcal{L},\mathcal{R})$ of [[classes]] of [[morphisms]] of $\mathcal{C}$ such that
 
-1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $Proj$ followed by one in $Inj$ 
+1. Every [[morphism]] $f \colon X\to Y$ of $\mathcal{C}$ may be factored as the [[composition]] of a morphism in $\mathcal{L}$ followed by one in $\mathcal{R}$
 
    $$
-     f\;\colon\;  X \overset{\in Proj}{\longrightarrow} Z \overset{\in Inj}{\longrightarrow} Y
+     f\;\colon\;  X \overset{\in \mathcal{L}}{\longrightarrow} Z \overset{\in \mathcal{R}}{\longrightarrow} Y
      \,.
    $$
 
 1. The classes are closed under having the [[lifting property]] against each other:
 
-   1. $Proj$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $Inj$;
+   1. $\mathcal{L}$ is precisely the class of morphisms having the [[left lifting property]] against every morphisms in $\mathcal{R}$;
 
-   1. $Inj$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $Proj$.
+   1. $\mathcal{R}$ is precisely the class of morphisms having the [[right lifting property]] against every morphisms in $\mathcal{L}$.
 
 =--
 
 +-- {: .num_defn #FunctorialFactorization}
 ###### Definition
 
-For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]] 
+For $\mathcal{C}$ a [[category]], a **[[functorial factorization]]** of the morphisms in $\mathcal{C}$ is a [[functor]]
 
 $$
   fact \;\colon\; \mathcal{C}^{\Delta[1]} \longrightarrow \mathcal{C}^{\Delta[2]}
-$$ 
+$$
 
 which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C}^{\Delta[2]}\to \mathcal{C}^{\Delta[1]}$.
 
@@ -72,8 +72,8 @@ which is a [[section]] of the [[composition]] functor $d_1 \;\colon \;\mathcal{C
 
 In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
 
-Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
-By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
+Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image.
+By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here
 
 * $d_1$ sends a pair of composable morphisms to their [[composition]];
 
@@ -86,7 +86,7 @@ By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]
 +-- {: .num_defn #FunctorialWeakFactorizationSystem}
 ###### Definition
 
-A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $Proj$ and $d_0\circ fact$ in $Inj$.
+A weak factorization system, def. \ref{WeakFactorizationSystem}, is called a **functorial weak factorization system** if the factorization of morphisms may be chosen to be a [[functorial factorization]] $fact$, def. \ref{FunctorialFactorization}, i.e. such that $d_2 \circ fact$ lands in $\mathcal{L}$ and $d_0\circ fact$ in $\mathcal{R}$.
 
 =--
 
@@ -105,17 +105,17 @@ Not all weak factorization systems are functorial, although most (including thos
 +-- {: .num_defn #OrthogonalFactorizationSystem}
 ###### Definition
 
-An **[[orthogonal factorization system]]** (OFS) is a weak factorization system $(Proj,Inj)$, def. \ref{WeakFactorizationSystem} such that the lifts of elements in $Proj$ against elements in $Inj$ are _unique_.
+An **[[orthogonal factorization system]]** (OFS) is a weak factorization system $(\mathcal{L},\mathcal{R})$, def. \ref{WeakFactorizationSystem} such that the lifts of elements in $\mathcal{L}$ against elements in $\mathcal{R}$ are _unique_.
 
 =--
 
 +-- {: .num_remark }
 ###### Remark
 
-While every OFS (def. \ref{OrthogonalFactorizationSystem}) is a WFS (def. \ref{WeakFactorizationSystem}), the primary examples of each are different:  
+While every OFS (def. \ref{OrthogonalFactorizationSystem}) is a WFS (def. \ref{WeakFactorizationSystem}), the primary examples of each are different:
 
-A "basic example" of an OFS is [[(epi,mono)-factorization]] in [[Set]] (meaning $L$ is the collection of [[epimorphisms]] and $R$ that of [[monomorphisms]]), while a "basic example" of a WFS is (mono, epi) in $Set$.  
-The superficial similarity of these two examples masks the fact that they generalize in very different ways.  
+A "basic example" of an OFS is [[(epi,mono)-factorization]] in [[Set]] (meaning $L$ is the collection of [[epimorphisms]] and $R$ that of [[monomorphisms]]), while a "basic example" of a WFS is (mono, epi) in $Set$.
+The superficial similarity of these two examples masks the fact that they generalize in very different ways.
 
 The OFS (epi, mono) generalizes to any [[topos]] or [[pretopos]], and in fact to any [[regular category]] if we replace "epi" with [[regular epimorphism|regular epi]].  Likewise it generalizes to any [[quasitopos]] if we instead replace "mono" with [[regular monomorphism|regular mono]].
 
@@ -132,23 +132,23 @@ On the other hand, saying that (mono,epi) is a WFS in [[Set]] is equivalent to t
 +-- {: .num_prop #ClosuredPropertiesOfWeakFactorizationSystem}
 ###### Proposition
 
-Let $(Proj,Inj)$ be a weak factorization system, def. \ref{WeakFactorizationSystem} on some [[category]] $\mathcal{C}$. Then
+Let $(\mathcal{L},\mathcal{R})$ be a weak factorization system, def. \ref{WeakFactorizationSystem} on some [[category]] $\mathcal{C}$. Then
 
 1. Both classes contain the class of [[isomorphism]] of $\mathcal{C}$.
 
 1. Both classes are closed under [[composition]] in $\mathcal{C}$.
 
-   $Proj$ is also closed under [[transfinite composition]].
+   $\mathcal{L}$ is also closed under [[transfinite composition]].
 
 1. Both classes are closed under forming [[retracts]] in the [[arrow category]] $\mathcal{C}^{\Delta[1]}$ (see remark \ref{RetractsOfMorphisms}).
 
-1. $Proj$ is closed under forming [[pushouts]] of morphisms in $\mathcal{C}$ ("[[cobase change]]").
+1. $\mathcal{L}$ is closed under forming [[pushouts]] of morphisms in $\mathcal{C}$ ("[[cobase change]]").
 
-   $Inj$ is closed under forming [[pullback]] of morphisms in $\mathcal{C}$ ("[[base change]]").
+   $\mathcal{R}$ is closed under forming [[pullback]] of morphisms in $\mathcal{C}$ ("[[base change]]").
 
-1. $Proj$ is closed under forming [[coproducts]] in $\mathcal{C}^{\Delta[1]}$.
+1. $\mathcal{L}$ is closed under forming [[coproducts]] in $\mathcal{C}^{\Delta[1]}$.
 
-   $Inj$ is closed under forming [[products]] in $\mathcal{C}^{\Delta[1]}$.
+   $\mathcal{R}$ is closed under forming [[products]] in $\mathcal{C}^{\Delta[1]}$.
 
 =--
 
@@ -171,7 +171,7 @@ $$
   }
 $$
 
-with the left morphism an isomorphism, the a [[lift]] is given by using the [[inverse]] of this isomorphism ${}^{{f \circ i^{-1}}}\nearrow$. Hence in particular there is a lift when $p \in Inj$ and so $i \in Proj$. The other case is [[formal dual|formally dual]].
+with the left morphism an isomorphism, the a [[lift]] is given by using the [[inverse]] of this isomorphism ${}^{{f \circ i^{-1}}}\nearrow$. Hence in particular there is a lift when $p \in \mathcal{R}$ and so $i \in \mathcal{L}$. The other case is [[formal dual|formally dual]].
 
 **closure under composition**
 
@@ -181,9 +181,9 @@ $$
   \array{
     A &\longrightarrow& X
     \\
-    \downarrow && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Inj}}
+    \downarrow && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in \mathcal{R}}}
     \\
-    {}^{\mathllap{i}}_{\mathllap{\in Proj}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{i}}_{\mathllap{\in \mathcal{L}}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B &\longrightarrow& Y
   }
@@ -195,10 +195,10 @@ $$
   \array{
     A &\longrightarrow& X
     \\
-    \downarrow 
-    &\searrow& \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Inj}}
+    \downarrow
+    &\searrow& \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in \mathcal{R}}}
     \\
-    {}^{\mathllap{i}}_{\mathllap{\in Proj}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{i}}_{\mathllap{\in \mathcal{L}}}\downarrow && \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B &\longrightarrow& Y
   }
@@ -211,51 +211,51 @@ $$
   \array{
     A &\longrightarrow& X
     \\
-    {}^{\mathllap{i}}_{\mathllap{\in Proj}}\downarrow 
-    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{i}}_{\mathllap{\in \mathcal{L}}}\downarrow
+    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in \mathcal{R}}}
     \\
-    \downarrow &\nearrow& \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in Inj}}
+    \downarrow &\nearrow& \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B &\longrightarrow& Y
   }
 $$
 
-and now the top commuting square has a lift by assumption. This is now equivalently a lift in the total diagram, showing that $p_1\circ p_1$ has the right lifting property against $Proj$ and is hence in $Inj$. The case of composing two morphisms in $Proj$  is [[formal dual|formally dual]]. From this the closure of $Proj$ under [[transfinite composition]] follows since the latter is given by [[colimits]] of sequential composition and successive lifts against the underlying sequence as above constitutes a [[cocone]], whence the extension of the lift to the colimit follows by its [[universal property]].
+and now the top commuting square has a lift by assumption. This is now equivalently a lift in the total diagram, showing that $p_1\circ p_1$ has the right lifting property against $\mathcal{L}$ and is hence in $\mathcal{R}$. The case of composing two morphisms in $\mathcal{L}$  is [[formal dual|formally dual]]. From this the closure of $\mathcal{L}$ under [[transfinite composition]] follows since the latter is given by [[colimits]] of sequential composition and successive lifts against the underlying sequence as above constitutes a [[cocone]], whence the extension of the lift to the colimit follows by its [[universal property]].
 
 **closure under retracts**
 
-Let $j$ be the [[retract]] of an $i \in Proj$, i.e. let there be a [[commuting diagram]] of the form.
+Let $j$ be the [[retract]] of an $i \in \mathcal{L}$, i.e. let there be a [[commuting diagram]] of the form.
 
 $$
   \array{
     id_A \colon & A &\longrightarrow& C &\longrightarrow& A
     \\
-    & \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in Proj}} && \downarrow^{\mathrlap{j}}
+    & \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in \mathcal{L}}} && \downarrow^{\mathrlap{j}}
     \\
     id_B \colon & B &\longrightarrow& D &\longrightarrow& B
   }
   \,.
 $$
 
-Then for 
+Then for
 
 $$
   \array{
      A &\longrightarrow& X
      \\
-     {}^{\mathllap{j}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+     {}^{\mathllap{j}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
      \\
      B &\longrightarrow& Y
   }
 $$
 
-a [[commuting square]], it is equivalent to its [[pasting]] composite with that retract diagram 
+a [[commuting square]], it is equivalent to its [[pasting]] composite with that retract diagram
 
 $$
   \array{
     A &\longrightarrow& C &\longrightarrow& A &\longrightarrow& X
     \\
-    \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in Proj}} && \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{i}}_{\mathrlap{\in \mathcal{L}}} && \downarrow^{\mathrlap{j}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B &\longrightarrow& D &\longrightarrow& B &\longrightarrow & Y
   }
@@ -268,26 +268,26 @@ $$
   \array{
     A &\longrightarrow& C &\longrightarrow& A &\longrightarrow& X
     \\
-    \downarrow^{\mathrlap{j}} 
-      && 
-    \downarrow^{\mathrlap{i}}_{\mathrlap{\in Proj}} 
-      && 
-    \nearrow 
-      && 
-    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    \downarrow^{\mathrlap{j}}
+      &&
+    \downarrow^{\mathrlap{i}}_{\mathrlap{\in \mathcal{L}}}
+      &&
+    \nearrow
+      &&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B &\longrightarrow& D &\longrightarrow& B &\longrightarrow & Y
   }
   \,.
 $$
 
-By composition, this is also a lift in the total outer rectangle, hence in the original square. Hence $j$ has the left lifting property against all $p \in Inj$ and hence is in $Proj$. The other case is [[formal duality|formally dual]].
+By composition, this is also a lift in the total outer rectangle, hence in the original square. Hence $j$ has the left lifting property against all $p \in \mathcal{R}$ and hence is in $\mathcal{L}$. The other case is [[formal duality|formally dual]].
 
 
 
 **closure under pushout and pullback**
 
-Let $p \in Inj$ and and let 
+Let $p \in \mathcal{R}$ and and let
 
 $$
   \array{
@@ -295,17 +295,17 @@ $$
     \\
     {}^{\mathllap{{f^* p}}}\downarrow && \downarrow^{\mathrlap{p}}
     \\
-    Z &\stackrel{f}{\longrightarrow} & Y 
+    Z &\stackrel{f}{\longrightarrow} & Y
   }
 $$
 
-be a [[pullback]] diagram in $\mathcal{C}$. We need to show that $f^* p$ has the [[right lifting property]] with respect to all $i \in Proj$. So let
+be a [[pullback]] diagram in $\mathcal{C}$. We need to show that $f^* p$ has the [[right lifting property]] with respect to all $i \in \mathcal{L}$. So let
 
 $$
   \array{
      A &\longrightarrow& Z \times_f X
      \\
-     {}^{\mathllap{i}}_{\mathllap{\in Proj}}\downarrow && \downarrow^{\mathrlap{\mathrlap{f^* p}}}
+     {}^{\mathllap{i}}_{\mathllap{\in \mathcal{L}}}\downarrow && \downarrow^{\mathrlap{\mathrlap{f^* p}}}
      \\
      B &\stackrel{g}{\longrightarrow}& Z
   }
@@ -317,7 +317,7 @@ $$
   \array{
      A &\longrightarrow& Z \times_f X &\longrightarrow& X
      \\
-     {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{f^* p}} 
+     {}^{\mathllap{i}}\downarrow && \downarrow^{\mathrlap{f^* p}}
      && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
@@ -344,7 +344,7 @@ $$
   \array{
      && Z \times_f X &\longrightarrow& X
      \\
-     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}} 
+     &{}^{\hat g} \nearrow& \downarrow^{\mathrlap{f^* p}}
      && \downarrow^{\mathrlap{p}}
      \\
      B &\stackrel{g}{\longrightarrow}& Z &\stackrel{f}{\longrightarrow}& Y
@@ -352,7 +352,7 @@ $$
   \,.
 $$
 
-In order for $\hat g$ to qualify as the intended lift of the total diagram, it remains to show that 
+In order for $\hat g$ to qualify as the intended lift of the total diagram, it remains to show that
 
 $$
   \array{
@@ -366,7 +366,7 @@ $$
 
 commutes. To do so we notice that we obtain two [[cones]] with tip $A$:
 
-* one is given by the morphisms 
+* one is given by the morphisms
   1. $A \to Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$
 
@@ -377,9 +377,9 @@ commutes. To do so we notice that we obtain two [[cones]] with tip $A$:
 * the other by
   1. $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X \to X$
   2. $A \stackrel{i}{\to} B \stackrel{g}{\to} Z$.
-  
+
   with universal morphism into the pullback being
-  
+
   * $A \stackrel{i}{\to} B \stackrel{\hat g}{\to} Z \times_f X$.
 
 The commutativity of the diagrams that we have established so far shows that the first and second morphisms here equal each other, respectively. By the fact that the universal morphism into a pullback diagram is _unique_ this implies the required identity of morphisms.
@@ -388,22 +388,22 @@ The other case is [[formal dual|formally dual]].
 
 **closure under (co-)products**
 
-Let $\{(A_s \overset{i_s}{\to} B_s) \in Proj\}_{s \in S}$ be a set of elements of $Proj$. Since [[colimits]] in the [[presheaf category]] $\mathcal{C}^{\Delta[1]}$ are computed componentwise, their [[coproduct]] in this [[arrow category]] is the universal morphism out of the coproduct of objects $\underset{s \in S}{\coprod} A_s$ induced via its [[universal property]] by the set of morphisms $i_s$:
+Let $\{(A_s \overset{i_s}{\to} B_s) \in \mathcal{L}\}_{s \in S}$ be a set of elements of $\mathcal{L}$. Since [[colimits]] in the [[presheaf category]] $\mathcal{C}^{\Delta[1]}$ are computed componentwise, their [[coproduct]] in this [[arrow category]] is the universal morphism out of the coproduct of objects $\underset{s \in S}{\coprod} A_s$ induced via its [[universal property]] by the set of morphisms $i_s$:
 
 $$
   \underset{s \in S}{\sqcup} A_s
   \overset{(i_s)_{s\in S}}{\longrightarrow}
-  \underset{s \in S}{\sqcup} B_s  
+  \underset{s \in S}{\sqcup} B_s
   \,.
 $$
 
-Now let 
+Now let
 
 $$
   \array{
     \underset{s \in S}{\sqcup} A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow && \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     \underset{s \in S}{\sqcup} B_s
     &\longrightarrow&
@@ -419,9 +419,9 @@ $$
   \array{
     A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{i_s}}_{\mathllap{\in Proj}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{i_s}}_{\mathllap{\in \mathcal{L}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B_s
     &\longrightarrow&
@@ -440,8 +440,8 @@ $$
   \array{
     A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{i_s}}_{\mathllap{\in Proj}}\downarrow 
-      &{}^{\ell_s}\nearrow& \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{i_s}}_{\mathllap{\in \mathcal{L}}}\downarrow
+      &{}^{\ell_s}\nearrow& \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     B_s
     &\longrightarrow&
@@ -457,9 +457,9 @@ $$
   \array{
     \underset{s \in S}{\sqcup} A_s &\longrightarrow& X
     \\
-    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow 
-     &{}^{(\ell_s)_{s\in S}}\nearrow& 
-    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Inj}}
+    {}^{\mathllap{(i_s)_{s\in S}}}\downarrow
+     &{}^{(\ell_s)_{s\in S}}\nearrow&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in \mathcal{R}}}
     \\
     \underset{s \in S}{\sqcup} B_s
     &\longrightarrow&
@@ -468,7 +468,7 @@ $$
   \,.
 $$
 
-This shows that the coproduct of the $i_s$ has the left lifting property against all $f\in Inj$ and is hence in $Proj$. The other case is [[formal dual|formally dual]].
+This shows that the coproduct of the $i_s$ has the left lifting property against all $f\in \mathcal{R}$ and is hence in $\mathcal{L}$. The other case is [[formal dual|formally dual]].
 
 
 
@@ -479,7 +479,7 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 ###### Remark
 
 Beware, in the situation of prop. \ref{ClosuredPropertiesOfWeakFactorizationSystem},
-that $Proj$ is not in general closed under all [[colimits]] in $\mathcal{C}^{\Delta[1]}$, and similarly $Inj$ is not in general closed under all [[limits]] in $\mathcal{C}^{\Delta[1]}$. Also $$Proj not in general closed under formng [[coequalizers]] in $\mathcal{C}$, and $Inj$ is not in general closed under forming [[equalizers]] in $\mathcal{C}$. However, if $(Proj,Inj)$ is an [[orthogonal factoization system]], def. \ref{OrthogonalFactorizationSystem}, then $Proj$ is closed under all colimits and $Inj$ is closed under all limits.
+that $\mathcal{L}$ is not in general closed under all [[colimits]] in $\mathcal{C}^{\Delta[1]}$, and similarly $\mathcal{R}$ is not in general closed under all [[limits]] in $\mathcal{C}^{\Delta[1]}$. Also $$\mathcal{L} not in general closed under formng [[coequalizers]] in $\mathcal{C}$, and $\mathcal{R}$ is not in general closed under forming [[equalizers]] in $\mathcal{C}$. However, if $(\mathcal{L},\mathcal{R})$ is an [[orthogonal factoization system]], def. \ref{OrthogonalFactorizationSystem}, then $\mathcal{L}$ is closed under all colimits and $\mathcal{R}$ is closed under all limits.
 
 =--
 
@@ -531,7 +531,7 @@ Then:
 =--
 
 +-- {: .proof}
-###### Proof 
+###### Proof
 
 We discuss the first statement, the second is [[formal duality|formally dual]].
 
@@ -539,7 +539,7 @@ Write the factorization of $f$ as a [[commuting square]] of the form
 
 $$
   \array{
-    X &\stackrel{i}{\longrightarrow}& A 
+    X &\stackrel{i}{\longrightarrow}& A
     \\
     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{p}}
     \\
@@ -552,7 +552,7 @@ By the assumed [[lifting property]] of $f$ against $p$ there exists a diagonal f
 
 $$
   \array{
-    X &\stackrel{i}{\longrightarrow}& A 
+    X &\stackrel{i}{\longrightarrow}& A
     \\
     {}^{\mathllap{f}}\downarrow &{}^{\mathllap{g}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
@@ -561,15 +561,15 @@ $$
   \,.
 $$
 
-By rearranging this diagram a little, it is equivalent to 
+By rearranging this diagram a little, it is equivalent to
 
 $$
   \array{
-    & X &=& X 
+    & X &=& X
     \\
-    & {}^{\mathllap{f}}\downarrow 
+    & {}^{\mathllap{f}}\downarrow
      &&
-    {}^{\mathllap{i}}\downarrow 
+    {}^{\mathllap{i}}\downarrow
     \\
     id_Y \colon & Y &\underset{g}{\longrightarrow}& A &\underset{p}{\longrightarrow}&
     Y
@@ -583,9 +583,9 @@ $$
   \array{
     id_X \colon & X &=& X &=& X
     \\
-    & {}^{\mathllap{f}}\downarrow 
+    & {}^{\mathllap{f}}\downarrow
      &&
-    {}^{\mathllap{i}}\downarrow 
+    {}^{\mathllap{i}}\downarrow
      &&
      {}^{\mathllap{f}}\downarrow
     \\
@@ -607,14 +607,14 @@ $$
 * The existence of certain [[weak factorization system on Set|WFS on Set]] is related to the [[axiom of choice]].
 
 
-* See the [[joyalscatlab:Weak factorisation systems|Catlab]] for more examples. 
+* See the [[joyalscatlab:Weak factorisation systems|Catlab]] for more examples.
 
 
 
 
 ## Related concepts
 
-* [[retract argument]] 
+* [[retract argument]]
 
 * [[injective and projective morphisms]]
 
