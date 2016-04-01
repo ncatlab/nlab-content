@@ -38,6 +38,8 @@ One should beware that in [[Categories Work]], a more restrictive notion of "cre
 
 * **created limit**
 
+* [[lifted limit]]
+
 [[!redirects created limits]]
 [[!redirects creation of limits]]
 [[!redirects created colimit]]
