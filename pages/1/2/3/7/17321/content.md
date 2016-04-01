@@ -1,0 +1,8 @@
+### Related concepts
+
+* [[positive type]]
+* [[negative type]]
+
+## References
+
+* [[Robert Harper]], _Polarity in Type Theory_, ([blog post](https://existentialtype.wordpress.com/2012/08/25/polarity-in-type-theory/))
