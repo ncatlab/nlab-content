@@ -29,7 +29,7 @@ What is known as _(Grothendieck's) six operations_ is a formalization of structu
 
 These are _four operations_ and together with
 
-* a [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal]] [[tensor product]]/[[internal hom]] [[adjunction]] $(\otimes X \dashv [X,-])$ 
+* a [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal]] [[tensor product]]/[[internal hom]] [[adjunction]] $((-)\otimes X \dashv [X,-])$ 
 
 form _six operations_. 
 
