@@ -16,7 +16,7 @@
 
 ## Idea
 
-_Higher Lie theore_ is the refinement of [[Lie theory]] to [[higher geometry]] ([[higher differential geometry]]).  It studies [[smooth ∞-groupoids]] and [[L-∞ algebroids]] and their relation via [[Lie integration]] and [[Lie differentiation]].
+_Higher Lie theory_ is the refinement of [[Lie theory]] to [[higher geometry]] ([[higher differential geometry]]).  It studies [[smooth ∞-groupoids]] and [[L-∞ algebroids]] and their relation via [[Lie integration]] and [[Lie differentiation]].
 
 ## Related concepts
 
