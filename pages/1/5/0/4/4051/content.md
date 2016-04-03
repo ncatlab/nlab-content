@@ -221,23 +221,23 @@ Despite the length of the list of axioms, it should be noted that they generally
 
 Hence, the only "irremovable" existential clauses (that necessitate passing from essentially algebraic logic to a larger fragment of first-order logic) are well-pointedness and the axiom of choice. The axiom of choice belongs to [[geometric logic]]. 
 
-This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater. 
+This is in marked contrast to ZFC, whose axiom list is superficially shorter (ignoring the fact that axiom schemas are technically infinite lists of axioms!) but whose logical complexity is much greater.
 
 It must be added that this fully formal presentation masks much of the conceptual clarity afforded by the underlying categorical and structural insights that are actually at work, particularly the systematic use of universal mapping properties. To put it more sharply: the traditional syntactic machinery used to present first-order theories is not really a natural or well-adapted 'home' for presenting categorical theories such as ETCS. The natural mode of presentation would use diagrams of arrows from the outset, as formalized say by Freyd's [[Q-sequence]]s, and that is as fully formal as the more traditional mode adopted here, which after all goes back to Frege and hasn't changed in a century.
 
 
 ## References
 
-Over the years various people at 
+Over the years various people at
 
 * _Foundations of Mathematics_ [mailing list](http://www.math.psu.edu/simpson/fom/) (around 1998)
 {#FOM}
 
-have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS. 
+have challenged [[category theory|category theorists]] to write down a fully formal presentation of ETCS.
 
-[note1]: Note how cumbersome are the traditional "machine-level" logical scripts for expressing this theory, as opposed to the more visual and easily apprehended arrow-theoretic notations (which are just as rigorous). No doubt this was anticipated by those in the FOM debate who wished to portray categorical foundations in the worst possible light: traditional 1-dimensional logical notations tend to make the theory look as clumsy as possible! 
+note1: Note how cumbersome are the traditional "machine-level" logical scripts for expressing this theory, as opposed to the more visual and easily apprehended arrow-theoretic notations (which are just as rigorous). No doubt this was anticipated by those in the FOM debate who wished to portray categorical foundations in the worst possible light: traditional 1-dimensional logical notations tend to make the theory look as clumsy as possible!
 
-[note2]: We use $\vdash$ to denote an entailment between formulas; axioms of our theory are written in the form $\Gamma \dash P$ where $\Gamma$ is a finite, possibly empty list of formulas which provide the _context_ in which $P$ is asserted. Obviously one could eschew this symbol entirely, and instead give each axiom in the form of a single formula with appropriately embedded implication symbols $\Rightarrow$. But, as explained in this article, this would obscure the later point that large fragments of ETCS, in fact all axioms except well-pointedness, are manifestly expressible in _coherent logic_. 
+note2: We use $\vdash$ to denote an entailment between formulas; axioms of our theory are written in the form $\Gamma \vdash P$ where $\Gamma$ is a finite, possibly empty list of formulas which provide the _context_ in which $P$ is asserted. Obviously one could eschew this symbol entirely, and instead give each axiom in the form of a single formula with appropriately embedded implication symbols $\Rightarrow$. But, as explained in this article, this would obscure the later point that large fragments of ETCS, in fact all axioms except well-pointedness, are manifestly expressible in _coherent logic_.
 
 [[!redirects fully formal ETCS]]
 [[!redirects fully formal definition of ETCS]]
