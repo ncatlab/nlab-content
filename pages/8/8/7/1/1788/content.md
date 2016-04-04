@@ -1,6 +1,9 @@
 
-?[[Nuomenology of Spirit]]
 
 $$
-  
+  R Q X \wedge R Q Y 
+$$
+
+$$
+  R Q (X \wedge Y)
 $$
