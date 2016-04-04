@@ -18,6 +18,8 @@
 
 A [[sheaf]] $F$ of [[set]]s on (the [[category of open subsets]] of) a [[topological space]] $X$ is __flabby__ (flasque) if for any open subset $U\subset X$, the restriction morphism $F(X)\to F(U)$ is [[surjection|onto]]. Equivalently, for any open $U\subset V\subset X$ the restriction $F(V)\to F(U)$ is surjective. In mathematical literature in English, the original French word __flasque__ is still often used instead of flabby here. 
 
+The concept generalizes in a straightforward manner to flabby sheaves on [[locales]].
+
 
 ## Properties
 
@@ -45,7 +47,9 @@ where $F_x$ denotes the [[stalk]] of $F$ at point $x$.
 Let $F$ be a sheaf on a topological space (or [[locale]]) $X$. Then the following statements are equivalent.
 
 1. $F$ is flabby.
-2. For any open subset $U \subseteq X$, any section $s \in F(U)$, and any point $x \in X$, there is an open neighbourhood $V$ of $x$ and an extension of $s$ to $U \cup V$ (that is, a section $s' \in F(U \cup V)$ such that $s'|_U = s$).
+2. For any open subset $U \subseteq X$ and any section $s \in F(U)$ there is an open covering $X = \bigcup_i V_i$ such that, for each $i$, there is an extension of $s$ to $U \cup V_i$ (that is, a section $s' \in F(U \cup V_i)$ such that $s'|_U = s$).
+ (If $X$ is a space instead of a locale, this can be equivalently formulated as follows: For any open subset $U \subseteq X$, any section $s \in F(U)$, and any point $x \in X$, there is an open neighbourhood $V$ of $x$ and an extension of $s$ to $U \cup V$ (that is, a section $s' \in F(U \cup V)$ such that $s'|_U = s$).)
+
 3. From the point of view of the [[internal language]] of the [[topos]] of sheaves over $X$, for any [[subsingleton]] $K \subseteq F$ there exists an element $s : F$ such that $s \in K$ if $K$ is [[inhabited]]. More precisely,
 $$ Sh(X) \models
   \forall K \subseteq F.
@@ -79,7 +83,7 @@ Condition 2 of the proposition is, unlike the standard definition of flabbiness 
 +-- {: .num_remark}
 ###### Remark
 
-The object $\mathcal{P}_{\leq 1}(F)$ of subsingletons of $F$ can be interpreted as the object of "partially-defined elements" of $F$. The sheaf $F$ is flabby if and only if any such partially-defined element can be refined to an honest element of $F$.
+The object $\mathcal{P}_{\leq 1}(F)$ of subsingletons of $F$ can be interpreted as the object of [[partial map classifier|"partially-defined elements"]] of $F$. The sheaf $F$ is flabby if and only if any such partially-defined element can be refined to an honest element of $F$.
 
 =--
 
