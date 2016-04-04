@@ -717,6 +717,10 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 
 =--
 
+## Related concepts
+
+* [[monoidal homotopy category of a monoidal model category]]
+
 ## References
 
 The original account is due to
