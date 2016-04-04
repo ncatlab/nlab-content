@@ -65,7 +65,7 @@ where the first morphism is the [[projection]] onto the [[quotient]] and the sec
 +-- {: .num_defn #RefinedCollapseMap}
 ###### Remark
 
-Since in the construction of def. \ref{CollapseMap} every point of $N_i X$ is associated to a particular point of $X$, the collapse map lifts to a map
+Since in the construction of remark \ref{CollapseMap} every point of $N_i X$ is associated to a particular point of $X$, the collapse map lifts to a map
 
 $$ 
   Y 
