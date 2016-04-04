@@ -9,7 +9,7 @@
 =--
 =--
 
-* [[Saunders MacLane]],
+* [[Saunders Mac Lane]],
 
   _Lectures on category theory_
 
