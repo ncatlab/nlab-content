@@ -29,7 +29,7 @@ More generally, given a [[fibred product]]-preserving functor $u : E \to F$ betw
 +-- {: .num_prop}
 ###### Proposition
 
-For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]], the [[slice category]] $\mathcal{T}_{/X}$ is itself again a [[topos]].
+For $\mathcal{T}$ a [[topos]] and $X \in \mathcal{T}$ any [[object]], the [[slice category]] $\mathcal{T}{/X}$ is itself again a [[topos]].
 
 =--
 
@@ -38,7 +38,7 @@ A proof is spelled out for instance in [MacLane-Moerdijk, IV.7 theorem 1](#MacLa
 +-- {: .num_prop}
 ###### Proposition
 
-If $\Omega \in \mathcal{T}$ is the [[subobject classifier]] in $\mathcal{T}$, then the [[projection]] $\Omega \times X \to X$ regarded as an object in the slice over $X$ is the subobject classifier of $\mathcal{T}_{/X}$.
+If $\Omega \in \mathcal{T}$ is the [[subobject classifier]] in $\mathcal{T}$, then the [[projection]] $\Omega \times X \to X$ regarded as an object in the slice over $X$ is the subobject classifier of $\mathcal{T}{/X}$.
 
 =--
 
@@ -164,7 +164,7 @@ Write
 
 * $PSh(C/c) = [(C/c)^{op}, Set]$ for the [[category of presheaves]] on $C/c$ 
 
-* and write $PSh(C)/Y(y)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(c)$ is the [[Yoneda embedding]]. 
+* and write $PSh(C)/Y(c)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(C)$ is the [[Yoneda embedding]]. 
 
 +-- {: .num_prop}
 ###### Proposition
