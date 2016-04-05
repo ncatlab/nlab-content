@@ -203,7 +203,7 @@ Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topolo
 
 ##### Universal constructions
 
-To begin with, we recall some basics on [[universal constructions]] in [[Top]], such as [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]].
+To begin with, we recall some basics on [[universal constructions]] in [[Top]]: [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]]; [[exponential objects]].
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
@@ -323,6 +323,23 @@ The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its uniqu
 
 =--
 
++-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
+
+=--
+
++-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
+
+=--
+
+
+In particular:
+
 +-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
 ###### Example
 
@@ -432,7 +449,10 @@ $$
 
 be the canonical inclusion of the standard [[n-sphere|(n-1)-sphere]] as the [[boundary]] of the standard [[n-disk]] (both regarded as [[topological spaces]] with their [[subspace topology]] as subspaces of the [[Cartesian space]] $\mathbb{R}^n$).
 
-Then the colimit in [[Top]] under the diagram 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"></div>
+
+Then the colimit in [[Top]] under the diagram, i.e. the [[pushout]] of $i_n$ along itself,
 
 $$
   \left\{
@@ -442,7 +462,7 @@ $$
   \,,
 $$
 
-(i.e. the [[pushout]] of $i_n$ along itself) is the [[n-sphere]] $S^n$:
+is the [[n-sphere]] $S^n$:
 
 $$
   \array{
@@ -454,6 +474,8 @@ $$
   }
   \,.
 $$
+
+(graphics from Ueno-Shiga-Morita 95)
 
 =--
 
@@ -545,6 +567,80 @@ $$
 
 =--
 
+
+We now turn to the discussion of [[mapping spaces]]/[[exponential objects]]
+
++-- {: .num_defn #CompactOpenTopology}
+###### Definition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **[[mapping space]]**
+
+$$
+  X^Y \in Top
+$$
+
+is the [[topological space]] 
+
+* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous 
+functions]] $Y \to X$, 
+
+* whose [[open subsets]] are [[finitary intersections]] of [[unions]] of the following [[topological base|subbase]] of standard open subsets:
+
+  the standard open subset $U_{K,U} \subset Hom_{Top}(Y,X)$ for 
+
+  * $K \hookrightarrow Y$ a [[compact topological space]] subset
+
+  * $U \hookrightarrow X$ an [[open subset]]
+
+  is the subset of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
+
+  $$
+    \array{
+       K &\hookrightarrow& Y
+       \\
+       \downarrow && \downarrow^{\mathrlap{f}}
+       \\
+       U &\hookrightarrow& X
+    }
+    \,.
+  $$
+
+Accordingly this is called the _[[compact-open topology]]_ on the set of functions.
+
+The construction extends to a [[functor]] 
+
+$$
+  (-)^{(-)} \;\colon\; Top_{lcH}^{op} \times Top \longrightarrow Top
+  \,.
+$$
+
+=--
+ 
++-- {: .num_prop #MappingTopologicalSpaceIsExponentialObject}
+###### Proposition
+
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **topological [[mapping space]]** $X^Y$ from def. \ref{CompactOpenTopology} is an [[exponential object]], i.e. the functor $(-)^Y$ is [[right adjoint]] to the product functor $Y \times (-)$: there is a [[natural bijection]]
+
+$$
+  Hom_{Top}(Z \times Y, X) \simeq Hom_{Top}(Z, X^Y)
+$$ 
+
+between continuous functions out of any [[product topological space]] of $Y$ with any $Z \in Top$ and continuous functions from $Z$ into the mapping space.
+
+=--
+
+(e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02))
+
++-- {: .num_remark #ProblemWithExponentialsInTop}
+###### Remark
+
+Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact and Hausdorff. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
+
+This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
+
+On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{ck} \hookrightarrow Top$ (def. \ref{kTop}) which is [[Cartesian closed category|Cartesian closed]].
+
+=--
 
 
 ##### Homotopy
@@ -832,82 +928,12 @@ it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stack
 
 Of course the concept of left homotopy in def. \ref{LeftHomotopy} is accompanied by a concept of _[[right homotopy]]_. This we turn to now.
 
-For $Y$ a [[topological space]], the set $Hom_{Top}(I,Y)$ of continuous functions from the standard interval $I$, def. \ref{TopologicalInterval}, to $Y$ is the set of continuous paths in $X$. Every such path may be thought of as a [[left homotopy]] between its endpoints. Hence a function $X \longrightarrow Hom_{Top}(I,Y)$ is an $X$-parameterized collection of such paths. In order for that to also give a concept of homotopy, we need to impose a continuity condition on how the paths may vary, hence we need to put a suitable [[topological space|topology]] on $Hom_{Top}(I,X)$. This is the [[compact-open topology]]:
 
-+-- {: .num_defn #CompactOpenTopology}
-###### Definition
-
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **[[mapping space]]**
-
-$$
-  X^Y \in Top
-$$
-
-is the [[topological space]] 
-
-* whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous 
-functions]] $Y \to X$, 
-
-* whose [[open subsets]] are [[finitary intersections]] of [[unions]] of the following [[topological base|subbase]] of standard open subsets:
-
-  the standard open subset $U_{K,U} \subset Hom_{Top}(Y,X)$ for 
-
-  * $K \hookrightarrow Y$ a [[compact topological space]] subset
-
-  * $U \hookrightarrow X$ an [[open subset]]
-
-  is the subset of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
-
-  $$
-    \array{
-       K &\hookrightarrow& Y
-       \\
-       \downarrow && \downarrow^{\mathrlap{f}}
-       \\
-       U &\hookrightarrow& X
-    }
-    \,.
-  $$
-
-Accordingly this is called the _[[compact-open topology]]_ on the set of functions.
-
-The construction extends to a [[functor]] 
-
-$$
-  (-)^{(-)} \;\colon\; Top_{lcH}^{op} \times Top \longrightarrow Top
-  \,.
-$$
-
-=--
- 
-+-- {: .num_prop #MappingTopologicalSpaceIsExponentialObject}
-###### Proposition
-
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **topological [[mapping space]]** $X^Y$ from def. \ref{CompactOpenTopology} is an [[exponential object]]: there is a [[natural isomorphism|natural]] [[bijection]]
-
-$$
-  Hom_{Top}(Z \times Y, X) \simeq Hom_{Top}(Z, X^Y)
-$$ 
-
-between continuous functions out of any [[product topological space]] of $Y$ with any $Z \in Top$ and continuous functions from $Z$ into the mapping space.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails if $Y$ is not locally compact and Hausdorff. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
-
-This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
-
-On the other hand, without changing any of the following discussion one may just pass to a more [[convenient category of topological spaces]] such as notably the [[full subcategory]] of [[compactly generated topological spaces]] $Top_{ck} \hookrightarrow Top$ (def. \ref{kTop}) which is [[Cartesian closed category|Cartesian closed]].
-
-=--
 
 +-- {: .num_defn #TopologicalPathSpace}
 ###### Definition
 
-For $X$ a [[topological space]], its **[[path space object]]** is the topological [[mapping space]] $X^I$, def. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
+For $X$ a [[topological space]], its **[[path space object]]** is the topological [[mapping space]] $X^I$, prop. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
 
 
 =--
@@ -925,7 +951,7 @@ $$
   \,.
 $$
 
-Here
+This is the [[formal dual]] to example \ref{TopologicalInterval}. As in that example, below we will see that this factorization has good properties, in that 
 
 1. $X^{I \to \ast}$ is a [[weak homotopy equivalence]];
 
@@ -961,20 +987,22 @@ $$
   \,.
 $$
 
-
 =--
 
 
+
 ##### Cell complexes
+
+We consider topological spaces that are built consecutively by attaching basic cells.
 
 +-- {: .num_defn #TopologicalGeneratingCofibrations}
 ###### Definition
 
 For $n \in \mathbb{N}$ write
 
-* $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]];
+* $D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert \leq 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-disk]] (equipped with its [[subspace topology]] as a subset of [[Cartesian space]]);
 
-* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for the standard topological [[n-sphere]];
+* $S^{n-1} = \partial D^n \coloneqq \{ \vec x\in \mathbb{R}^n | \; {\vert \vec x \vert = 1}\} \hookrightarrow \mathbb{R}^n$ for its [[boundary]], the standard topological [[n-sphere]].
 
 Write
 
@@ -995,7 +1023,7 @@ Notice that $S^{-1} = \emptyset$ and that $S^0 = \ast \sqcup \ast$.
 +-- {: .num_defn #TopologicalCellComplex}
 ###### Definition
 
-For $X \in Top$ and for $n \in \mathbb{N}$, an **$n$-cell attachment** to $X$ is the [[pushout]] of a generatic cofibration, def. \ref{TopologicalGeneratingCofibrations}
+For $X \in Top$ and for $n \in \mathbb{N}$, an **$n$-cell attachment** to $X$ is the [[pushout]] ("attaching space", example \ref{PushoutInTop}) of a generating cofibration, def. \ref{TopologicalGeneratingCofibrations}
 
 $$
   \array{
@@ -1003,32 +1031,33 @@ $$
     \\
     {}^{\mathllap{\iota_n}}\downarrow && \downarrow
     \\
-    D^n &\longrightarrow& X {}_\phi\underset{S^{n-1}}{\sqcup} D^n
+    D^n &\longrightarrow& X \underset{S^{n-1}}{\sqcup} D^n & = X \cup_\phi D^n
   }
 $$
 
 along some [[continuous function]] $\phi$.
 
-A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, hence if it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]]
+A continuous function $f \colon X \longrightarrow Y$ is called a **topological [[relative cell complex]]** if it is exhibited by a (possibly infinite) sequence of cell attachments to $X$, in that it is a [[transfinite composition]] (def. \ref{TransfiniteComposition}) of [[pushouts]] (example \ref{PushoutInTop})
 
 $$
   \array{
-    \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k-1}
+    \underset{i}{\coprod} S^{n_i - 1} &\longrightarrow& X_{k}
     \\
     {}^{\mathllap{\underset{i}{\coprod}\iota_{n_i}}}\downarrow 
-     &(pb)& \downarrow  
+     &(po)& 
+    \downarrow  
     \\
-    \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k}
+    \underset{i}{\coprod} D^{n_i} &\longrightarrow& X_{k+1}
   }
 $$
 
-of [[coproducts]] of [[generating cofibrations]].
+of [[coproducts]] (example \ref{DisjointUnionOfTopologicalSpacesIsCoproduct}) of [[generating cofibrations]] (def. \ref{TopologicalGeneratingCofibrations}).
 
-A topological space is a **[[cell complex]]** if $\emptyset \longrightarrow X$ is a relative cell complex.
+A topological space $X$ is a **[[cell complex]]** if $\emptyset \longrightarrow X$ is a relative cell complex.
 
 A relative cell complex is called a **finite relative cell complex** if it is obtained from a [[finite number]] of cell attachments.
 
-A (relative) cell complex is called a (relative) **[[CW-complex]]** if in the above transfinite composition is countable 
+A (relative) cell complex is called a (relative) **[[CW-complex]]** if the above transfinite composition is countable 
 
 $$
   \array{
@@ -1127,7 +1156,7 @@ So assume $\beta_{max}\lt \gamma$. Then to construct an  element of $T$ that is 
 =--
 
 
-It is immediate and useful to generalize the concept of topoligical cell complexes as follows.
+It is immediate and useful to generalize the concept of topological cell complexes as follows.
 
 +-- {: .num_defn #TopologicalCCellComplex}
 ###### Definition
@@ -1154,7 +1183,7 @@ $$
   \,.
 $$
 
-If so, then this means that $E$ is sufficiently "spread out" with respect to the maps in $C$. More generally one considers this extension problem fiberwise, i.e. with both $E$ and $Y$ (hence also $X$) equipped with a map to some base space $B$.
+If such extensions exists, it means that $E$ is sufficiently "spread out" with respect to the maps in $C$. More generally one considers this extension problem fiberwise, i.e. with both $E$ and $Y$ (hence also $X$) equipped with a map to some base space $B$:
 
 
 +-- {: .num_defn #RightLiftingProperty}
@@ -1207,7 +1236,7 @@ $$
 
 for the [[set]] of inclusions of the topological [[n-disks]], def. \ref{TopologicalGeneratingCofibrations}, into their [[cylinder objects]], def. \ref{TopologicalInterval}, along (for definiteness) the left endpoint inclusion.
 
-These inclusions are similar to the standard topological [[generating cofibrations]] of def. \ref{TopologicalGeneratingCofibrations}, but in contrast to these they are "acyclic" (meaning: trivial on homotopy classes of maps from "cycles" given by [[n-spheres]]) in that they are [[weak homotopy equivalences]] (example \ref{FactoringTopologicalCodiagonalThroughCylinder}).
+These inclusions are similar to the standard topological [[generating cofibrations]] of def. \ref{TopologicalGeneratingCofibrations}, but in contrast to these they are "acyclic" (meaning: trivial on homotopy classes of maps from "cycles" given by [[n-spheres]]) in that they are [[weak homotopy equivalences]] (by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}).
 
 Accordingly, $J$ is to be called the set of standard **topological [[generating acyclic cofibrations]]**.
 
@@ -1217,6 +1246,47 @@ Accordingly, $J$ is to be called the set of standard **topological [[generating 
 ###### Lemma
 
 The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAcyclicCofibrations} are finite [[relative cell complexes]], def. \ref{TopologicalCellComplex}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+There is a [[homeomorphism]]
+
+$$
+  \array{
+     D^n & = & D^n 
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow  && \downarrow
+     \\
+     D^n \times I &\simeq& D^{n+1}
+  }
+$$
+
+such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of attaching two cells:
+
+$$
+  \array{
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n 
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^{n}
+    \\
+    && \downarrow^{=}
+    \\
+    S^n &\overset{id}{\longrightarrow}& S^n
+    \\
+    {}^{\mathllap{\iota_{n+1}}}\downarrow &(po)& \downarrow
+    \\
+    D^{n+1} &\underset{id}{\longrightarrow}& D^{n+1}
+  }
+  \,.
+$$
+
+here the top pushout is the one from example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}.
 
 =--
 
@@ -1269,7 +1339,7 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 +-- {: .num_remark #SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}
 ###### Remark
 
-The precise shape of $D^n$ and $D^n \times I$ in def. \ref{SerreFibration} turns out not to actually matter much for the nature of Serre fibrations. We will eventually find below (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}) that what actually matters here is only that the inclusions $D^n \hookrightarrow D^n \times I$ are [[relative cell complexes]] and [[weak homotopy equivalences]] and that all of these may be generated from them in a suitable way.
+The precise shape of $D^n$ and $D^n \times I$ in def. \ref{SerreFibration} turns out not to actually matter much for the nature of Serre fibrations. We will eventually find below (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}) that what actually matters here is only that the inclusions $D^n \hookrightarrow D^n \times I$ are [[relative cell complexes]] (lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}) and [[weak homotopy equivalences]] (prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}) and that all of these may be generated from them in a suitable way.
 
 But for simple special cases this is readily seen directly, too. Notably it is trivial, but nevertheless important in applications, that we could replace the [[n-disks]] in def. \ref{SerreFibration} with any [[homeomorphism|homeomorphic]] topological space. A choice that becomes important in the comparison to the [[classical model structure on simplicial sets]] is to instead take the topological [[n-simplices]] $\Delta^n$. Hence a Serre fibration is equivalently characterized as having lifts in all diagrams of the form
 
@@ -1500,9 +1570,9 @@ $$
 
 and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
 
-**B) $I_{Top}$-fibrations are in particular Serre fibrations**
+**B) $I_{Top}$-injective morphisms are in particular Serre fibrations**
 
-By lemma \ref{SaturationOfGeneratingCofibrations} an $I_{Top}$-fibration has also the [[right lifting property]] against all [[relative cell complexes]], and hence by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} it is also a $J_{Top}$-fibration, hence a Serre fibration.
+By an immediate closure property of lifting problems (we spell this out in generality as prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{SaturationOfGeneratingCofibrations} below) an $I_{Top}$-[[injective morphism]] has the [[right lifting property]] against all [[relative cell complexes]], and hence, by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}, it is also a $J_{Top}$-injective morphism, hence a Serre fibration.
 
 **C) Acyclic Serre fibrations are in particular $I_{Top}$-[[injective morphisms]]**
 
@@ -1563,7 +1633,7 @@ $$
   \,.
 $$
 
-It is now sufficient to show that any such $\kappa'$ may be deformed to a $\rho'$ which keeps making this upper triangle commute, but also makes the remaining lower triangle commute.
+It is now sufficient to show that any such $\kappa'$ may be deformed to a $\rho'$ which keeps making this upper triangle commute but also makes the remaining lower triangle commute.
 
 To that end, notice that by the commutativity of the original square, we already have at least this commuting square:
 
@@ -1578,7 +1648,7 @@ $$
   \,.
 $$
 
-This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}):
+This induces the universal map $(\kappa,f \circ \kappa')$ from the [[pushout]] of its [[cospan]] in the top left, which is the [[n-sphere]] (see [this](Top#TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself) example):
 
 $$
   \array{
@@ -1597,27 +1667,28 @@ $$
   \,.
 $$
 
-This universal morphism represents an element
+This universal morphism represents an element of the $n$th homotopy group:
 
 $$
   [(\kappa,f \circ \kappa')]
    \in
   \pi_n(Y,y)
+  \,.
 $$
 
-and by assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
+By assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
 
 $$
   f_\ast [\rho] = [(\kappa,f \circ \kappa')]
 $$ 
 
-hence on representatives there is a lift
+hence on representatives there is a lift up to homotopy
 
 $$
   \array{
     && X
     \\
-    &{}^{\mathllap{\rho}}\nearrow& \downarrow^{\mathrlap{f}}
+    &{}^{\mathllap{\rho}}\nearrow_{\mathrlap{\Downarrow}} & \downarrow^{\mathrlap{f}}
     \\
     S^n
     &\underset{(\kappa,f\circ \kappa')}{\longrightarrow}&
@@ -1634,7 +1705,7 @@ $$
   S^n \overset{(f\circ \rho', \kappa)}{\longrightarrow} Y
 $$
 
-and observe that this represents a trivial class:
+and observe that this represents the trivial class:
 
 $$
   \begin{aligned}
@@ -1657,10 +1728,10 @@ $$
   \,.
 $$
 
-Equivalently this means that there is a homotopy
+This means equivalently that there is a homotopy
 
 $$
-  \phi \colon f\circ \rho' \Rightarrow \kappa
+  \phi \; \colon \; f\circ \rho' \Rightarrow \kappa
   \,.
 $$
 
@@ -1681,7 +1752,7 @@ $$
   \,.
 $$
 
-Finally, we may conclude by showing that in every situation like this, we may further deform the lift such as to make the diagram genuinely commute. This works by the same argument as in the proof of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}.
+It is now sufficient to show that every situation like this, for $f$ a Serre fibration, we may further deform the lift such as to make the diagram genuinely commute. This works by the same argument as in the proof of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}.
 
 =--
 
@@ -1865,7 +1936,7 @@ dually:
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ClosurePropertiesOfInjectiveAndProjectiveMorphisms}
 ###### Proposition
 
 Let $\mathcal{C}$ be a [[category]] and let $K\subset Mor(\mathcal{C})$ be a [[class]] of [[morphisms]]. Write $K Proj$ and $K Inj$, respectively, for the sub-classes of $K$-[[projective morphisms]] and of $K$-[[injective morphisms]], def. \ref{LiftingAndExtension}. Then:
@@ -2210,6 +2281,18 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 
 =--
 
+An immediate consequence of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} is this:
+
++-- {: .num_prop #SaturationOfGeneratingCofibrations}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
+and let $K\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
+
+Then every $K$-[[injective morphism]], def. \ref{LiftingAndExtension}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $K$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+
+=--
+
 
 
 
@@ -2240,16 +2323,6 @@ $$
 =--
 
 
-
-+-- {: .num_lemma #SaturationOfGeneratingCofibrations}
-###### Lemma
-
-Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
-and let $K\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
-
-Then every $K$-[[injective morphism]], def. \ref{LiftingAndExtension}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $K$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
-
-=--
 
 +-- {: .num_lemma #RetractArgument}
 ###### Lemma
@@ -3547,7 +3620,7 @@ $\,$
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
 ###### Definition
 
-Say that a [[continuous function]], hence a [[morphism]] in [[Top]] is
+Say that a [[continuous function]], hence a [[morphism]] in [[Top]], is
 
 * a (classical) **weak equivalence** if it is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces};
 
@@ -6829,7 +6902,7 @@ We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorph
 #### Categorical algebra
  {#MonoidalAndEnrichedCategories}
 
-##### Monoidal categories
+##### Monoidal and enriched categories
 
 * [[monoidal category]] 
 
@@ -6842,14 +6915,237 @@ We write $OrthSpectra$ for the [[category]] of orthogonal spectra with homomorph
 * [[monoid object]], [[module object]]
 
 
-##### Enriched categories
-
 * [[enriched category]]
 
   * [[enriched functor category]]
 
 * [[Day convolution]]
 
+
+##### Monoidal homotopy theory
+
+We now combine the concepts of [[model category]] and [[monoidal category]].
+
+
++-- {: .num_defn #MonoidalModelCategory}
+###### Definition
+
+A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
+such that the following two compatibility conditions are satisfied
+
+1. ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
+
+   $$
+     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     \longrightarrow
+     Y \otimes Y'
+     \,,
+   $$
+
+   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+
+   (Equivalently this says that the [[tensor product]] $\otimes : C \times C \to C$ is a left [[Quillen bifunctor]].)
+
+1. (unit axiom) For every cofibrant object $X$ and every cofibrant resolution $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} \ast$ of the [[tensor unit]] $I$, the resulting morphism
+
+   $$
+     Q I \otimes X \stackrel{p_I \otimes X}{\longrightarrow} I\otimes X \stackrel{\simeq}{\longrightarrow} X
+   $$ 
+
+  is a weak equivalence.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
+
+In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. 
+
+=--
+
++-- {: .num_defn #MonoidAxiom}
+###### Definition
+
+We say a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the **[[monoid axiom]]**, def. \ref{MonoidalModelCategory}, if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
+
+=--
+
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+
++-- {: .num_remark}
+###### Remark
+
+In particular, the axiom in def. \ref{MonoidAxiom} says that for every object $X$ the functor $X \otimes (-)$ sends acyclic cofibrations to weak equivalences.
+
+=--
+
+
++-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
+###### Proposition
+
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exsists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
+
+If in in addition $(\mathcal{C}, \otimes)$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]], then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ carries the structure of a [[lax monoidal functor]]
+
+$$
+  \gamma
+  \;\colon\;
+  (\mathcal{C}, \otimes, I)
+   \longrightarrow
+  (Ho(\mathcal{C}), \otimes^L , \gamma(I))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the explicit model of $Ho(\mathcal{C})$ as the category of fibrant-cofibrant objects in $\mathcal{C}$ with left/right-homotopy classes of morphisms between them (discussed at _[[homotopy category of a model category]]_).
+
+A [[derived functor]] exists if its restriction to this subcategory preserves weak equivalences. Now the [[pushout-product axiom]] implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations, and then the preservation of all weak equivalences follows by [[Ken Brown's lemma]]. 
+
+Hence $\otimes^L$ exists and its [[associativity]] follows simply by restriction. It remains to see its [[unitality]].
+
+To that end, consider the construction of the localization functor $\gamma$ via a fixed but arbitrary choice of (co-)fibrant replacements $Q$ and $R$, assumed to be the identity on (co-)fibrant objects. We fix notation as follows:
+
+$$
+\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_x}{\longrightarrow} X
+\;\;\,,\;\;
+X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} R X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast
+  \,.
+$$
+
+ 
+Now to see that $\gamma(I)$ is the [[tensor unit]] for $\otimes^L$, notice that in the [[zig-zag]]
+
+$$
+  (R Q I) \otimes (R Q X)
+    \overset{j_{Q I} \otimes (R Q X)}{\longleftarrow}
+  (Q I) \otimes (R Q X)
+    \overset{(Q I)\otimes j_{Q X}}{\longleftarrow}
+  (Q I) \otimes (Q X)
+    \overset{p_I \otimes (Q X)}{\longrightarrow}
+  I \otimes Q X
+    \simeq
+  Q X
+$$
+
+all morphisms are weak equivalences: For the first two this is due to the [[pushout-product axiom]], for the third this is due to the unit axiom on a monoidal model category. It follows that under $\gamma(-)$ this zig-zig gives an isomorphism
+
+$$
+  \gamma(I) \otimes^L \gamma(X)\simeq \gamma(X)
+$$
+
+and similarly for tensoring with $\gamma(I)$ from the right.
+
+To exhibit lax monoidal structure on $\gamma$, we need to construct a [[natural transformation]]
+
+$$
+  \gamma(X) \otimes^L \gamma(Y) \longrightarrow \gamma(X \otimes Y)
+$$
+
+and show that it satisfies the the appropriate [[associativity]] and [[unitality]] condition.
+
+By the definitions at _[[homotopy category of a model category]]_, the morphism in question is to be of the form
+
+$$
+  (R Q X) \otimes (R Q Y) \longrightarrow R Q (X\otimes Y)
+$$
+
+
+To this end, consider the [[zig-zag]]
+
+$$
+  (R Q X) \otimes (R Q Y)
+   \underoverset{\in Cof \cap W}{j_{Q X} \otimes R Q Y}{\longleftarrow}
+  (Q X) \otimes (R Q Y)
+    \underoverset{\in Cof \cap W}{(Q X) \otimes  j_{Q Y} }{\longleftarrow}
+  (Q X) \otimes (Q Y)
+    \overset{p_X \otimes (Q Y)}{\longrightarrow}
+  X \otimes (Q Y)
+    \overset{Y \otimes p_Y}{\longrightarrow}   
+  X \otimes Y
+  \,,
+$$
+
+and observe that the two morphisms on the left are weak equivalences, as indicated, by the [[pushout-product axiom]] satisfied by $\otimes$.
+
+Hence applying $\gamma$ to this zig-zag, which is given by the two horizontal part of the following digram
+
+$$
+  \array{
+    (R Q X) \otimes (R Q Y) &\longleftarrow& R( Q X \otimes Q Y ) &\longrightarrow& R Q (X \otimes Y)
+    \\
+    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y}}} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}}}
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{p_{X\otimes Y}}}
+    \\
+    (R Q X) \otimes (R Q Y)
+     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y}}{\longleftarrow}&
+    (Q X) \otimes (Q Y)
+      &\overset{p_X \otimes p_Y}{\longrightarrow}&
+    X \otimes Y
+  }
+  \,,
+$$
+
+and inverting the first two morphisms, this yields a natural transformation as required. 
+
+
+To see that this satisfies associativity if the monoid axiom holds, tensor the entire diagram above on the right with $(R Q Z)$ and consider the following [[pasting]] composite:
+
+$$
+  \array{
+    (R Q X) \otimes (R Q Y) \otimes (R Q Z) &\longleftarrow& R( Q X \otimes Q Y ) \otimes (R Q Z) &\longrightarrow& (R Q (X \otimes Y)) \otimes (R Q Z)
+    \\
+    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y} \otimes id }} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}\otimes id }}
+    \\
+    && && Q(X \otimes Y) \otimes (R Q Z) &\overset{id \otimes j_{Q Z}}{\longleftarrow}& Q(X\otimes Y) \otimes (Q Z)
+    \\
+       \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} 
+    && 
+      \downarrow^{\mathrlap{p_{(X\otimes Y)} \otimes id }} 
+    &(\star)& 
+     \downarrow^{\mathrlap{p_{(X \otimes Y)} \otimes id}}
+    \\
+    (R Q X) \otimes (R Q Y) \otimes (R Q Z)
+     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y} \otimes id}{\longleftarrow}&
+    (Q X) \otimes (Q Y) \otimes (R Q Z)
+      &\overset{p_X \otimes p_Y \otimes id}{\longrightarrow}&
+    X \otimes Y \otimes (R Q Z)
+      &\underset{id \otimes j_{Q Z}}{\longleftarrow}&
+    X\otimes Y \otimes Q Z 
+      &\overset{id \otimes p_Z}{\longrightarrow}& 
+    X \otimes Y \otimes Z  
+  }
+  \,,
+$$
+
+Observe that under $\gamma$ the total top [[zig-zag]] in this diagram gives
+
+$$
+  (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
+  \to \gamma(X\otimes Y)\otimes^L \gamma(Z)
+  \,.
+$$
+
+Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not by the pushout-product axiom!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place, and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
+
+$$
+  \gamma(p_X \otimes p_Y \otimes p_Z) 
+  \circ 
+  \gamma(j_{Q X} \otimes j_{Q Y} \otimes j_{Q Z})^{-1}
+  \,.
+$$
+
+The same argument applies to left tensoring with $R Q Z$ instead of right tensoring, and so in both cases we reduce to the same morphism in the homotopy category, thus showing the associativity condition on the transformation that exhibits $\gamma$ as a lax monoidal functor.
+
+=--
 
 
 
