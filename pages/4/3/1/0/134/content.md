@@ -38,7 +38,7 @@ Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological s
 
 * For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
 
-* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{initial}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
 =--
 
@@ -56,6 +56,8 @@ $$
 $$
 
 a [[topological subspace]] inclusion.
+
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the [[quotient topology]].
 
 =--
 
@@ -147,7 +149,7 @@ The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its uniqu
 +-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
 ###### Example
 
-For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}{\coprod}\ast $  is the set $S$ itself equipped with the [[final topology]], hence is the [[discrete topological space]] on $S$.
+For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}{\coprod}\ast $,  is the set $S$ itself equipped with the [[final topology]], hence is the [[discrete topological space]] on $S$.
 
 =--
 
@@ -157,6 +159,19 @@ For $S \in Set$, the $S$-indexed [[coproduct]] of the point, $\underset{s \in S}
 For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
 
 In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then the open subsets in the product topology are just the [[Cartesian products]] of the open subsets of each factor space.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
+
+$$
+  eq(f,g) \hookrightarrow S_X \stackrel{\longrightarrow}{\longrightarrow} S_Y
+$$
+
+and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
 
 =--
 
@@ -198,18 +213,6 @@ $$
 =--
 
 
-+-- {: .num_example }
-###### Example
-
-The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
-
-$$
-  eq(f,g) \hookrightarrow S_X \stackrel{\longrightarrow}{\longrightarrow} S_Y
-$$
-
-and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
-
-=--
 
 ### Relation with $Set$
 
