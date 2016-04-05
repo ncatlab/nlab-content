@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[suspension objects]] are canonically [[cogroup objects]] up to [[homotopy]], via their [[fold map]] (pinch map). In particular this is the case for positive dimensional [[n-spheres]]. 
+[[suspension objects|Suspension objects]] are canonically [[cogroup objects]] up to [[homotopy]], via their [[fold map]] (pinch map). In particular this is the case for positive dimensional [[n-spheres]]. 
 
 ## Statement
 
