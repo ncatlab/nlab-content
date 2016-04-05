@@ -151,6 +151,15 @@ The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its uniqu
 
 =--
 
++-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
+###### Example
+
+For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
+
+=--
+
+In particular:
+
 +-- {: .num_example #DiscreteTopologicalSpaceAsCoproduct}
 ###### Example
 
