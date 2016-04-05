@@ -233,7 +233,12 @@ a [[topological subspace]] inclusion.
 
 =--
 
++-- {: .num_example #QuotientTopology}
+###### Example
 
+Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the final topology $\tau_{final}(p_S)$ on $S$ is the _[[quotient topology]]_.
+
+=--
 
 
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
@@ -366,11 +371,11 @@ $$
   coeq(f,g)
 $$
 
-(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #PushoutInTop}
 ###### Example
 
 For 
@@ -419,7 +424,7 @@ of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]]
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
 
-Let 
+As an important special case of example \ref{PushoutInTop}, let 
 
 $$
   i_n \colon S^{n-1}\longrightarrow D^n
@@ -615,6 +620,32 @@ $$
 
 =--
 
++-- {: .num_example #StandardContractionOfStandardInterval}
+###### Example
+
+Let 
+
+$$
+  const_0 \;\colon\; I \longrightarrow \ast \overset{\delta_0}{\longrightarrow} I
+$$
+
+be the [[continuous function]] from the standard interval $I = [0,1]$ to itself that is constant on the value 0. Then there is a left homotopy, def. \ref{LeftHomotopy}, from the identity function
+
+$$
+  \eta \;\colon\; id_I \Rightarrow const_0
+$$
+
+given by
+
+$$
+  \eta(x,t) \coloneqq x(1-t)
+  \,.
+$$
+
+
+=--
+
+
 +-- {: .num_defn #HomotopyEquivalence}
 ###### Definition
 
@@ -691,20 +722,19 @@ from [[pointed topological spaces]] to [[graded object|graded]] [[groups]].
 
 =--
 
+Notice that often one writes the value of this functor on a morphism $f$ as $f_\ast = \pi_\bullet(f)$.
+
 +-- {: .num_remark}
 ###### Remark
 
-At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]].
+At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]]. But this is important, for instance in the proof of the  [[Brown representability theorem]] [below](#BrownRepresentabilityTheorem).
 
 =--
 
 +-- {: .num_defn #WeakHomotopyEquivalenceOfTopologicalSpaces}
 ###### Definition
 
-A [[continuous function]] $f \colon X \longrightarrow Y$
-is called  a **[[weak homotopy equivalence]]** if its image
-under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces}
-is an [[isomorphism]], hence if 
+A [[continuous function]] $f \colon X \longrightarrow Y$ is called  a **[[weak homotopy equivalence]]** if its image under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces} is an [[isomorphism]], hence if 
 
 $$
   \pi_0(f) \;\colon\; \pi_0(X) \stackrel{\simeq}{\longrightarrow} \pi_0(X)
@@ -720,12 +750,58 @@ $$
 
 =--
 
-+-- {: .num_example #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
-###### Example
++-- {: .num_prop #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
+###### Proposition
 
 Every [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence, def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
 
 In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that for all $X\in$ [[Top]] the inclusion maps 
+
+$$
+  X \overset{(id,\delta_0)}{\longrightarrow} X \times I
+$$
+
+into the standard [[cylinder object]], def. \ref{TopologicalInterval}, are weak homotopy equivalences: by postcomposition with the contracting homotopy of the interval from example \ref{StandardContractionOfStandardInterval} all homotopy groups of $X \times I$ have representatives that factor through this inclusion.
+
+Then given a general [[homotopy equivalence]], apply the homotopy groups functor to the corresponding homotopy diagrams (where for the moment we notationally suppress the choice of basepoint for readability) to get two commuting diagrams
+
+$$
+  \array{
+     \pi_\bullet(X) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
+     \\
+     \pi_\bullet(X \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(Y)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(X)
+  }
+  \;\;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;\;
+  \array{
+     \pi_\bullet(Y) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(g)\circ \pi_\bullet(f)}}
+     \\
+     \pi_\bullet(Y \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(X)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(Y)
+  }
+  \,.
+$$
+
+By the previous observation, the vertical morphisms here are isomorphisms, and hence these diagrams exhibit $\pi_\bullet(f)$ as the inverse of $\pi_\bullet(g)$, hence both as isomorphisms.
 
 =--
 
@@ -735,28 +811,28 @@ In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a
 
 For $X\in Top$, the projection $X\times I \longrightarrow X$
 from the [[cylinder object]] of $X$, def. \ref{TopologicalInterval},
-is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}. 
-
-This means that the factorization 
+is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.  This means that the factorization 
 
 $$
   \nabla_X 
-  \;\colon\;
+    \;\colon\;
   X \sqcup X
-  \stackrel{}{\longrightarrow}
+    \stackrel{}{\hookrightarrow}
   X\times I
-  \stackrel{\simeq}{\longrightarrow}
+    \stackrel{\simeq}{\longrightarrow}
+  X
 $$
 
 of the [[codiagonal]] $\nabla_X$ in def. \ref{TopologicalInterval}, which in general is far from being a [[monomorphism]], may be thought of as factoring it through a monomorphism after replacing $X$, up to weak homotopy equivalence, by $X\times I$.
 
-In fact $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
-it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ (def. \ref{SerreFibration}) that are also [[weak homotopy equivalences]].
+In fact, further below we see that $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
+it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ that are also [[weak homotopy equivalences]].
 
 =--
 
+Of course the concept of left homotopy in def. \ref{LeftHomotopy} is accompanied by a concept of _[[right homotopy]]_. This we turn to now.
 
-For $Y$ a [[topological space]], the set $Hom_{Top}(I,Y)$ of continuous functions from the standard interval $I$, def. \ref{TopologicalInterval}, to $Y$ is the set of continuous paths in $X$. Every such path may be though of as a [[left homotopy]] between its endpoints. Hence a function $X \longrightarrow Hom_{Top}(I,Y)$ is an $X$-parameterized collection of such paths. In order for that to also give a concept of homotopy, we need to impose a continuity condition on how the paths may vary, hence we need to put a suitable [[topological space|topology]] on $Hom_{Top}(I,X)$. This is the [[compact-open topology]]:
+For $Y$ a [[topological space]], the set $Hom_{Top}(I,Y)$ of continuous functions from the standard interval $I$, def. \ref{TopologicalInterval}, to $Y$ is the set of continuous paths in $X$. Every such path may be thought of as a [[left homotopy]] between its endpoints. Hence a function $X \longrightarrow Hom_{Top}(I,Y)$ is an $X$-parameterized collection of such paths. In order for that to also give a concept of homotopy, we need to impose a continuity condition on how the paths may vary, hence we need to put a suitable [[topological space|topology]] on $Hom_{Top}(I,X)$. This is the [[compact-open topology]]:
 
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
@@ -780,7 +856,7 @@ functions]] $Y \to X$,
 
   * $U \hookrightarrow X$ an [[open subset]]
 
-  is the subset of [[continuous functions]] $f$ of all those  that fit into a [[commuting diagram]] of the form
+  is the subset of all those [[continuous functions]] $f$ that fit into a [[commuting diagram]] of the form
 
   $$
     \array{
@@ -3587,7 +3663,7 @@ By definition this makes $\hat X \to X$ a [[Serre fibration]], hence a fibration
 
 By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
 
-Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
+Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
 
 
 =--
