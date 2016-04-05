@@ -24,7 +24,7 @@
 
 Given a [[monad]] $T$ on some [[category]] $\mathcal{C}$, the _Kleisli category_ of $T$ has as [[objects]] the objects of $\mathcal{C}$, but a morphism $X \to Y$ in the Kleisli category is a morphism $X \to T(Y)$ in $\mathcal{C}$. The monad structure induces a natural [[composition]] of such "$T$-shifted" morphisms.
 
-Equivalently, the Kleisli category is the full [[subcategory]] of the [[Eilenberg–Moore category]] of $T$ on the [[free construction|free]] [[algebra for a monad|T-algebras]] (the free $T$[[modules]]).
+Equivalently, the Kleisli category is the full [[subcategory]] of the [[Eilenberg–Moore category]] of $T$ on the [[free construction|free]] [[algebra for a monad|T-algebras]] (the free $T$-[[modules]]).
 
 
 ## Definition
