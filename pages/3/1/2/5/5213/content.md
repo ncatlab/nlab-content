@@ -19,7 +19,7 @@
 
 ## Idea
 
-There is a sense in which a [[sheaf]] $F$ is like a [[categorification]] of a [[function]]: the [[stalk]]-map from [[point of a topos|topos point]]s to [[set]]s $(x^* \dashv x_*) \mapsto F(x) := x^* F \in Set$ we may think of under [[decategorification]] as a [[cardinality]]-valued [[function]].
+There is a sense in which a [[sheaf]] $F$ is like a [[categorification]] of a [[function]]: We may think of the [[stalk]]-map from [[point of a topos|topos point]]s to [[set]]s $(x^* \dashv x_*) \mapsto F(x) := x^* F \in Set$ under [[decategorification]] as a [[cardinality]]-valued [[function]].
 
 Under this interpretation, many constructions in [[category theory]] have analogs in [[linear algebra]]: for instance products of numbers correspond to categorical [[product]]s (more generally to [[limit]]s) and addition of numbers to [[coproduct]]s (more generally to [[colimit]]s). Accordingly a [[colimit]]-preserving [[functor]] between [[sheaf topos]]es is analogous to a [[linear map]] or to a [[distribution]]: one also speaks of [[Lawvere distribution]]s.
 
@@ -112,7 +112,7 @@ This means that in as far as $C, D \in $ [[Pr(∞,1)Cat]] are analogous to vecto
 
 We consider from now on some fixed ambient [[(∞,1)-topos]] $\mathbf{H}$. 
 
-Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extent that we think of these as **function objects** , and of locally presentable $(\infty,1)$-categories as linear spaces, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
+Notice that for each [[object]] $X \in \mathbf{H}$ the [[over-(∞,1)-topos]] $\mathbf{H}/X$ is the [[little topos]] of $(\infty,1)$-sheaves on $X$. So to the extent that we think of these as **function objects**, and of locally presentable $(\infty,1)$-categories as linear spaces, we may think of $\mathbf{H}/X$ as the $\infty$-vector space of $\infty$-functions on $X$
 
 +-- {: .un_remark #EtaleIdentificationRemark}
 ###### Remark
