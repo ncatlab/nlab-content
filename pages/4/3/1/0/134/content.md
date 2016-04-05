@@ -162,19 +162,85 @@ In the case that $S$ is a [[finite set]], such as for binary product spaces $X \
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #EqualizerInTop}
 ###### Example
 
 The [[equalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the equalizer of the underlying functions of sets 
 
 $$
-  eq(f,g) \hookrightarrow S_X \stackrel{\longrightarrow}{\longrightarrow} S_Y
+  eq(f,g) 
+   \hookrightarrow 
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
 $$
 
-and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
 
 =--
 
+
++-- {: .num_example #CoequalizerInTop}
+###### Example
+
+The [[coequalizer]] of two [[continuous functions]] $f, g \colon X \stackrel{\longrightarrow}{\longrightarrow} Y$ in $Top$ is the coequalizer of the underlying functions of sets 
+
+$$
+  S_X 
+    \stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}} 
+  S_Y
+    \longrightarrow 
+  coeq(f,g)
+$$
+
+(hence the [[quotient set]] by the [[equivalence relation]] $f(x) \sim g(y)$)  and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For 
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow
+     \\
+     X
+  }
+$$
+
+two [[continuous functions]] out of the same [[domain]], then the [[colimit]] under this diagram is also called the _[[pushout]]_, denoted
+
+$$
+  \array{
+     A &\overset{g}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{f}}\downarrow && \downarrow^{\mathrlap{g_\ast f}}
+     \\
+     X &\longrightarrow& X \sqcup_A Y
+     \,.
+  }
+  \,.
+$$
+
+(Here $g_\ast f$ is also called the pushout of $f$, or the _[[base change|cobase change]]_ of $f$ along $g$.) If $g$ is an inclusion, one also write $X \cup_f Y$ and calls this the _attaching space_.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="450"></div>
+
+By example \ref{CoequalizerInTop} the pushout/attaching space is the [[quotient topological space]]
+
+$$
+  X \sqcup_A Y \simeq (X\sqcup Y)/\sim
+$$
+
+of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
+
+(graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
+
+=--
 
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
@@ -302,6 +368,10 @@ For proof see [there](subspace+topology#pushout).
 ## References
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], _Elements of Mathematics -- General topology_, 1971, 1990
+
+See also 
+
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 An axiomatic desciption of $Top$ along the lines of [[ETCS]] for [[Set]] is discussed in
 
