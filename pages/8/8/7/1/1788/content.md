@@ -1,5 +1,9 @@
 
 
+[[AttachingSpace.jpg:file]]
+
+<img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="400"> 
+
 $$
   R Q X \wedge R Q Y 
 $$
