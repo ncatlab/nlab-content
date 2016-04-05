@@ -550,6 +550,43 @@ The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAc
 
 =--
 
++-- {: .proof}
+###### Proof
+
+There is a [[homeomorphism]]
+
+$$
+  \array{
+     D^n & = & D^n 
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow  && \downarrow
+     \\
+     D^n \times I &\simeq& D^{n+1}
+  }
+$$
+
+such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of attaching two cells:
+
+$$
+  \array{
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n 
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^{n}
+    \\
+    && \downarrow^{=}
+    \\
+    S^n &\overset{id}{\longrightarrow}& S^n
+    \\
+    {}^{\mathllap{\iota_{n+1}}}\downarrow &(po)& \downarrow
+    \\
+    D^{n+1} &\underset{id}{\longrightarrow}& D^{n+1}
+  }
+  \,.
+$$
+
+=--
 
 +-- {: .num_defn #SerreFibration}
 ###### Definition
@@ -900,6 +937,13 @@ Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
 and let $C\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
 
 Then every $C$-[[injective morphism]], def. \ref{RightLiftingProperty}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $C$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is an immediate consequence of the general fact ([here](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) that classes of morphisms characterized by a [[left lifting property]] are closed under the operations of [[coproducts]], [[pushouts]], [[retracts]] and [[transfinite composition]].
 
 =--
 
@@ -1295,27 +1339,28 @@ $$
   \,.
 $$
 
-This universal morphism represents an element
+This universal morphism represents an element of the $n$th homotopy group:
 
 $$
   [(\kappa,f \circ \kappa')]
    \in
   \pi_n(Y,y)
+  \,.
 $$
 
-and by assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
+By assumption that $f$ is a weak homotopy equivalence, there is a $[\rho] \in \pi_{n}(X,x)$ with 
 
 $$
   f_\ast [\rho] = [(\kappa,f \circ \kappa')]
 $$ 
 
-hence on representatives there is a lift
+hence on representatives there is a lift up to homotopy
 
 $$
   \array{
     && X
     \\
-    &{}^{\mathllap{\rho}}\nearrow& \downarrow^{\mathrlap{f}}
+    &{}^{\mathllap{\rho}}\nearrow_{\mathrlap{\Downarrow}} & \downarrow^{\mathrlap{f}}
     \\
     S^n
     &\underset{(\kappa,f\circ \kappa')}{\longrightarrow}&
@@ -1332,7 +1377,7 @@ $$
   S^n \overset{(f\circ \rho', \kappa)}{\longrightarrow} Y
 $$
 
-and observe that this represents a trivial class:
+and observe that this represents the trivial class:
 
 $$
   \begin{aligned}
@@ -1355,10 +1400,10 @@ $$
   \,.
 $$
 
-Equivalently this means that there is a homotopy
+This means equivalently that there is a homotopy
 
 $$
-  \phi \colon f\circ \rho' \Rightarrow \kappa
+  \phi \; \colon \; f\circ \rho' \Rightarrow \kappa
   \,.
 $$
 
