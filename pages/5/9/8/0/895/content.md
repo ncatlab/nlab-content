@@ -90,6 +90,12 @@ Given $X\in C$, there is trivial cofibration $X\rightarrow RX$ with $RX$ fibrant
 
 * If $C$ has a model category structure then the full subcategory of  cofibrant objects forms a cofibration category.
 
+## Related concepts
+
+* [[fibration category]]
+
+* [[category of cofibrant objects]]
+
 ## References
 
 H.J. Baues, _Algebraic homotopy_, Cambridge studies in advanced mathematics 15,  Cambridge University Press, (1989). 
