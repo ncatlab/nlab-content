@@ -5474,15 +5474,15 @@ in the colimiting diagram
 
 $$
   \array{
-    && X &\stackrel{f}{\to}& Y
+    && X &\stackrel{f}{\longrightarrow}& Y
     \\
     && \downarrow^{\mathrlap{i_1}} && \downarrow^{\mathrlap{i}}
     \\
-    X &\stackrel{i_0}{\to}& Cyl(X)
+    X &\stackrel{i_0}{\longrightarrow}& Cyl(X)
     \\
     \downarrow && & \searrow^{\mathrlap{\eta}} & \downarrow
     \\
-    {*} &\to& &\to& Cone(f) 
+    {*} &\longrightarrow& &\longrightarrow& Cone(f) 
   }
   \,,
 $$
@@ -5517,7 +5517,7 @@ where $Path(Y)$ is a [[path space object]] for $Y$, def. \ref{PathAndCylinderObj
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_remark }
 ###### Remark
 
 If we write homotopies (def. \ref{LeftHomotopyOfSimplicialSets}) as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in def. \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
@@ -5555,15 +5555,15 @@ The colimit appearing in the definition of the [[mapping cone]] in def. \ref{Map
 
 $$
   \array{
-    && X &\stackrel{f}{\to}& Y
+    && X &\stackrel{f}{\longrightarrow}& Y
     \\
     && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{i}}
     \\
-    X &\stackrel{i_0}{\to}& Cyl(X) &\longrightarrow& Cyl(f)
+    X &\stackrel{i_0}{\longrightarrow}& Cyl(X) &\longrightarrow& Cyl(f)
     \\
     \downarrow &(po)& \downarrow & (po) & \downarrow
     \\
-    {*} &\to& Cone(X) &\to& Cone(f) 
+    {*} &\longrightarrow& Cone(X) &\longrightarrow& Cone(f) 
   }
   \,.
 $$
@@ -5582,9 +5582,9 @@ $$
     \\
     \downarrow &(pb)& \downarrow &(pb)& \downarrow^{\mathrlap{f}}
     \\
-    Path_\ast(Y)  &\longrightarrow&  Path(Y) &\underset{\delta_0}{\longrightarrow}& Y
+    Path_\ast(Y)  &\longrightarrow&  Path(Y) &\underset{p_1}{\longrightarrow}& Y
     \\
-    \downarrow &(pb)& \downarrow
+    \downarrow &(pb)& \downarrow^{\mathrlap{p_0}}
     \\
     \ast &\longrightarrow& Y
   }
@@ -5597,6 +5597,69 @@ The two intermediate objects appearing here are called
 
 * the **mapping path space** or **mapping co-cylinder** $Path(f) \coloneqq X \underset{Y}{\times} Path(X)$.
 
+=--
+
++-- {: .num_defn #SuspensionAndLoopSpaceObject}
+###### Definition
+
+Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
+
+1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the **[[suspension]]** of $X$, denoted 
+
+   $$
+     \Sigma X = Cone(X\to\ast)\,.
+   $$
+
+   Via prop. \ref{ConeAndMappingCylinder} this is equivalently the coproduct of two copies of the cone on $X$ over their base:
+
+   $$
+     \array{
+       && X &\stackrel{}{\longrightarrow}& \ast
+       \\
+       && \downarrow^{\mathrlap{i_1}} &(po)& \downarrow^{\mathrlap{}}
+       \\
+       X &\stackrel{i_0}{\longrightarrow}& Cyl(X) &\longrightarrow& Cone(X)
+       \\
+       \downarrow &(po)& \downarrow & (po) & \downarrow
+       \\
+       {*} &\longrightarrow& Cone(X) &\longrightarrow& \Sigma X
+     }
+     \,.
+   $$
+
+
+1. The [[mapping cocone]], def. \ref{ConeAndMappingCylinder}, of $\ast \to X$ is called the **[[loop space object]]** of $X$, denoted
+
+   $$
+     \Omega X = Path_\ast(\ast \to X)
+     \,.
+   $$
+
+   Via prop. \ref{ConeAndMappingCylinder} this is equivalently 
+
+   $$
+     \array{
+       \Omega X &\longrightarrow& Path_\ast(X) &\longrightarrow& \ast
+       \\
+       \downarrow &(pb)& \downarrow &(pb)& \downarrow^{}
+       \\
+       Path_\ast(X)  &\longrightarrow&  Path(X) &\underset{p_1}{\longrightarrow}& X
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{p_0}}
+       \\
+       \ast &\longrightarrow& X
+     }
+     \,.
+   $$
+
+   This is also equivalently the [[fiber]] of $(p_0,p_1)$: 
+
+   $$
+     \Omega X 
+     \overset{fib(p_0,p_1)}{\longrightarrow}
+     Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
+     \,.
+   $$
 
 =--
 
@@ -5615,6 +5678,8 @@ For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder obj
 1. attaching to one end of that cylinder the space $Y$ as specified by the map $f$.
 
 1. shrinking the other end of the cylinder to the point.
+
+Accoringly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
 
