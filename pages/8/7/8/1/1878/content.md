@@ -44,11 +44,10 @@ Moreover, we also write, now for $I \subset Mor(C)$:
 
 =--
 
-+-- {: .num_defn}
-###### Definition (cofibrantly generated model category)
++-- {: .num_defn #CofibrantlyGeneratedModelCategory}
+###### Definition 
 
-
-A [[model category]] with all [[colimits]] is **cofibrantly generated** if there is a small [[set]] $I$ and a small set $J$ such that
+A [[model category]] $\mathcal{C}$ is **cofibrantly generated** if there are small [[sets]] of morphisms $I, J \subset Mor(\mathcal{C})$ such that
 
 * $cof(I)$ is precisely the collection of cofibrations of $C$;
 
@@ -79,12 +78,12 @@ And therefore the fibrations are precisely $rlp(J)$ and the acyclic fibrations p
 
 The argument is the same for $I$ and $J$. So take $I$. 
 
-By definition we have $I \subset llp(rlp(I))$ and it is checked that collections of morphisms given by a left lifting property are stable under pushouts, transfinite composition and retracts. So $cof(I) \subset llp(rlp(I))$.
+By definition we have $I \subset llp(rlp(I))$ and it is readily checked that collections of morphisms given by a left lifting property are stable under pushouts, transfinite composition and retracts (see [here](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms) for details). So $cof(I) \subset llp(rlp(I))$.
 
 For the converse inclusion we use the [[small object argument]]: let $f : X \to Z$ be in $llp(rlp(I))$. The small object argument produces a factorization
 $f : X \stackrel{f' \in cof(I)}{\to} Y \stackrel{f''\in rlp(I)}{\to} Z$. 
 
-It follows that $f$ has the left [[lifting property]] with respect to $f''$ which yields a morphism $\sigma$ in
+Finally we apply the "[[retract argument]]": It follows that $f$ has the left [[lifting property]] with respect to $f''$ which yields a morphism $\sigma$ in
 
 $$
   \array{
@@ -104,7 +103,7 @@ $$
      X &\stackrel{=}{\to}& X &\stackrel{=}{\to}& X
      \\
      \downarrow^{\mathrlap{f}} && 
-     \downarrow^{\mathrlap{f''}} && 
+     \downarrow^{\mathrlap{f'}} && 
      \downarrow^{\mathrlap{f}}
      \\
      Z &\stackrel{\sigma}{\to}& Y
@@ -123,6 +122,7 @@ Therefore $f \in cof(I)$.
 ## Properties 
 
 ### Recognition theorem
+ {#RecognitionTheorems}
 
 The following theorem allows one to recognize cofibrantly generated model categories by checking fewer conditions.
 
@@ -156,11 +156,11 @@ on $C$ with
 
 =--
 
+This is originally due to [[Daniel Kan]], reproduced for instance as ([Hirschhorn 03, theorem 11.3.1](#Hirschhorn03)). 
+
 
 +-- {: .proof}
 ###### Proof
-
-This is originally due to [[Dan Kan]], reproduced for instance as theorem 11.3.1 in _ModLoc_ .
 
 We have to show that with weak equivalences $W$
 setting $cof_C := cof(I)$ and $fib_C := inj(J)$ defines a model category
@@ -168,8 +168,7 @@ structure.
 
 The existence of [[limit]]s, [[colimit]]s and the [[category with weak equivalences|2-out-of-3 property]] holds by assumption. Closure under retracts of the weak equivalences will hold automatically if we check the rest of the axioms without using it, by an argument of A. Joyal.
 Closure under retracts of $fib$ and $cof$ follows by the general statement that
-classes of morphisms defined by a left or right lifting property are closed under
-retracts (e.g. 7.2.8 in _ModLoc_ ).
+classes of morphisms defined by a left or right lifting property are closed under retracts (e.g. [Hirschhorn 03, 7.2.8, ](#Hirschhorn03)).
 
 The factorization property follows by applying the [[small object argument]]
 to the set $I$, showing that every morphism may be factored as 
@@ -250,6 +249,38 @@ that exhibits $f$ as a weak equivalence.
 
 =--
 
+### Transfer along adjunctions
+
++-- {: .num_theorem #TransferOfCofibrantlyGeneratedModelStructure}
+###### Theorem 
+
+Let $\mathcal{C}$ be a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acyclic) cofibrations $I$ (and $J$). Let $\mathcal{D}$ be any [[category]] with all small [[limits]] and [[colimits]] and consider a pair of  [[adjoint functors]]
+
+$$
+  (F \dashv U)
+   \;\colon\;
+  \array{
+    \mathcal{D}
+      \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
+    \mathcal{C}
+  }
+  \,.
+$$
+
+Write $F I \coloneqq \{F(i) | i \in I\}$ and $F J \coloneqq \{F(j) | j \in J\}$. If
+
+1. both $F I$ and $F J$ admit the [[small object argument]];
+
+1. $U$ takes $F J$-[[relative cell complexes]] to weak equivalences
+
+then $F I$, $F J$ induce a cofibrantly generated model structure, def. \ref{CofibrantlyGeneratedModelCategory}, on $\mathcal{D}$. Its weak equivalences are the morphisms that are taken to weak equivalences by $U$. Moreover, the above [[adjunction]] is a [[Quillen adjunction]] for these model structures.
+
+=--
+
+This is due to [[Daniel Kan]], reproduced in ([Hirschhorn 03, theorem 11.3.2](#Hirschhorn03)). See also at _[[transferred model structure]]_.
+ 
+
+
 ### Presentation and generation
  {#PresentationAndGeneration}
 
@@ -272,20 +303,54 @@ This appears as ([Dugger, prop. A.5](#Dugger)).
 
 ## Examples ##
 
-* The category of (based, compactly generated) topological spaces has a cofibrantly generated model structure in which the set of cells is
-$$I = \{S^{n-1}_+ \rightarrow D^n_+\}_{n\geq 0}$$
-and the set of acyclic cells is
-$$J = \{D^n_+ \rightarrow (D^n \times I)_+\}_{n\geq 0}$$
-Here $+$ means disjoint basepoint, not northern hemisphere. The category of unbased spaces has a similar cofibrantly generated model structure.
+### On topological spaces
 
-* The category of prespectra has two cofibrantly generated model structures. Let $F_d A$ denote a prespectrum whose $n$th space is $\Sigma^{n-d} A$ when $n \geq d$, and $*$ otherwise. Then the _level model structure_ is generated by cells
-$$I = \{F_d S^{n-1}_+ \rightarrow F_d D^n_+\}_{d,n\geq 0}$$
-and the set of acyclic cells is
-$$J = \{F_d D^n_+ \rightarrow F_d (D^n \times I)_+\}_{d,n\geq 0}$$
+The category of (based, compactly generated) topological spaces has a cofibrantly generated model structure (the [[classical model structure on pointed topological spaces]]) in which the set of cells is 
+
+$$
+   I = \{S^{n-1}_+ \rightarrow D^n_+\}_{n\geq 0}
+$$ 
+
+and the set of acyclic cells is 
+
+$$
+  J = \{D^n_+ \rightarrow (D^n \times I)_+\}_{n\geq 0}
+  \,.
+$$ 
+
+(Here $+$ means disjoint basepoint, not northern hemisphere.) 
+
+The category of unbased spaces has a similar cofibrantly generated model structure. (The [[classical model structure on topological spaces]].)
+
+### On sequential spectra
+
+The category of [[sequential prespectra]] has two cofibrantly generated model structures (the [[Bousfield-Friedlander model structures]]). 
+
+Let $F_d A$ denote a prespectrum whose $n$th space is $\Sigma^{n-d} A$ when $n \geq d$, and $*$ otherwise. Then the _level model structure_ is generated by cells 
+
+$$
+  I = \{F_d S^{n-1}_+ \rightarrow F_d D^n_+\}_{d,n\geq 0}
+$$ 
+
+and the set of acyclic cells is 
+
+$$
+  J = \{F_d D^n_+ \rightarrow F_d (D^n \times I)_+\}_{d,n\geq 0}
+$$ 
+
 The _stable model structure_ has the same cells, but more acyclic cells, which in turn guarantees that the fibrant spectra are the $\Omega$-spectra.
-The categories of symmetric and orthogonal spectra have similar cofibrantly generated level and stable model structures (see Mandell, May, Schwede, Shipley, _Model Categories of Diagram Spectra_.)
 
-* The category of diagrams indexed by a fixed small category $D$, taking values in another cofibrantly generated model category $C$.
+### On structured spectrd
+
+The categories of [[symmetric spectra]] and [[orthogonal spectra]] have similar cofibrantly generated level and stable model structures ([[model structure on symmetric spectra]], [[model structure on orthogonal spectra]]).
+
+(see Mandell, May, Schwede, Shipley: _[[Model categories of diagram spectra]]_.)
+
+### On diagrams
+
+The category of diagrams indexed by a fixed small category $D$, taking values in another cofibrantly generated model category $C$.
+
+(The [[model structure on functors]].)
 
 
 
@@ -297,9 +362,10 @@ The categories of symmetric and orthogonal spectra have similar cofibrantly gene
 
 ## References ##
 
-A standard textbook reference is section 11 of
+A standard textbook reference is 
 
-* **ModLoc**, Hirschhorn, _Model categories and their localization_ .
+* {#Hirschhorn03} [[Philip Hirschhorn]], section 11 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
 
 For the general case a useful reference is for instance the first section of 
 
