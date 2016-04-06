@@ -688,3 +688,5 @@ Discussion of the [[Quillen equivalence]] to the [[model structure on symmetric 
 * {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], theorem 0.1 of _Model categories of diagram spectra_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 [[!redirects Bousfield-Friedlander model category]] 
+
+[[!redirects Bousfield-Friedlander model structures]]
