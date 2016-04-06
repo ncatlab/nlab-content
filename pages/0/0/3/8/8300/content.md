@@ -16,6 +16,8 @@ Beware that in both cases there are various slight variants of the axioms to be 
 
 * [[category with weak equivalences]]
 
+* [[cofibration category]]
+
 * [[Waldhausen category]]
 
 * [[model category]]
