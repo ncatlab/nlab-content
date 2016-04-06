@@ -23,17 +23,21 @@ The _factorisation lemma_ ([Brown 73](#Brown73), prop. \ref{TheFactorizationLemm
 
 A key corollary of the factorization lemma is the statement, widely known as _Ken Brown's lemma_ (prop. \ref{KenBrownLemma} below) which says that for a functor from a category of fibrant objects  to be a [[homotopical functors]], it is sufficient already that it sends acyclic fibrations to weak equivalences. 
 
+
 ## Factorisation lemma
 
 Let $\mathcal{C}$ be a [[category of fibrant objects]].
 
-+-- {: .num_lemma }
-###### Lemma
++-- {: .num_prop}
+###### Fact
 
-Given any [[product]]
-  $$ X \overset{p_{X}}{\leftarrow} X \times Y
-       \overset{p_{Y}}{\rightarrow} Y $$
-in $\mathcal{C}$, the [[projections]] $p_{X}$ and $p_{Y}$ are [[fibrations]].
+Let 
+
+$$
+X \overset{p_{X}}{\leftarrow} X \times Y \overset{p_{Y}}{\rightarrow} Y
+$$
+
+be a product in $\mathcal{C}$. Then $p_{X}$ and $p_{Y}$ are fibrations.
 
 =--
 
@@ -58,12 +62,29 @@ By one of the axioms for a category of fibrant objects, it follows from 1) and 2
 
 =--
 
-+-- {: .num_lemma}
-###### Lemma
-Given an object $X$ in $\mathcal{C}$, let $X^I$ be a [[path space object]] for $X$ and let
-  $$ d = (d_0, d_1) : X^I \twoheadrightarrow X \times X $$
-denote the canonical [[fibration]].
-The morphisms $d_0 : X^I \to X$ and $d_1 : X^I \to X$ are both [[trivial fibrations]].
++-- {: .num_prop}
+###### Fact
+
+Let $X$ be an object of $\mathcal{C}$. Let 
+
+$$
+X \overset{p_{0}}{\leftarrow} X \times X \overset{p_{1}}{\rightarrow} X
+$$ 
+
+be a product in $\mathcal{C}$. By one of the axioms for a category of fibrant objects, there is a commutative diagram 
+
+$$
+   \array{
+      X &  \overset{c}{\to}                      & X^I \\
+          &    \underset{\Delta}{\searrow} & \downarrow e \\
+          &                                                   & X \times X 
+   }
+$$
+
+in $\mathcal{C}$ in which $c$ is a weak equivalence, and in which $e$ is a fibration. 
+
+The arrow $e_0 : X^I \to X$ given by $p_0 \circ e$ is a trivial fibration. The arrow $e_1 : X^I \to X$ given by $p_1 \circ e$ is a trivial fibration.
+
 =--
 
 +-- {: .proof}
@@ -75,105 +96,202 @@ We have the following.
 
 $$
    \array{
-      X &  \overset{i}{\hookrightarrow}                                         & X^I \\
-          &    \underset{id_X}{\searrow}                    & \downarrow d_{0} \\
+      X &  \overset{c}{\to}                                         & X^I \\
+          &    \underset{id_X}{\searrow}                    & \downarrow e_{0} \\
           &                                                                    & X
    }
 $$
 
-2) By one of the axioms for a category of fibrant objects, $id_X$ is a weak equivalence. 
+2 By one of the axioms for a category of fibrant objects, $id_X$ is a weak equivalence. 
 
-By the 2-out-of-3 axiom for a category of fibrant objects, we deduce from 1), 2), and the fact that $c$ is a weak equivalence, that $d_{0}$ is a weak equivalence.
+By one of the axioms for a category of fibrant objects, we deduce from 1), 2), and the fact that $c$ is a weak equivalence, that $e_{0}$ is a weak equivalence.
 
-An entirely analogous argument demonstrates that $d_{1}$ is a weak equivalence.
-=--
+An entirely analogous argument demonstrates that $e_{1}$ is a weak equivalence.
 
-+-- {: .num_lemma #FibrantResolution}
-###### Lemma
-**(Fibrant resolution of a morphism).**
-Let $f : X \to Y$ a morphism in $\mathcal{C}$.  There exists a canonical [[fibration]] $g : X \times_Y Y^I \twoheadrightarrow Y$ which factors through $f$ via a [[trivial fibration]] $s: X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$.
-Here $Y^I$ is a [[path space object]] for $Y$.
-
-$$
-   \array{
-      X \times_Y Y^I & \overset{s}{\to} & X \\
-          & \underset{g}{\searrow} & \downarrow{f} \\
-          & & Y 
-   }
-$$
-=--
-
-+-- {: .proof}
-###### Proof
-Let $d = (d_0, d_1) : Y^I \twoheadrightarrow Y \times Y$ be the canonical [[fibration]].  Let $s : X \times_Y Y^I \stackrel{\sim}{\twoheadrightarrow} X$ denote the [[base change]] of $d_0$ along $f$; this is a [[trivial fibration]] because $d_0$ is by lemma 2, and trivial fibrations are stable under base change.
-
-Let $g$ denote the composite
-  $$ g : X \times_Y Y^I \to Y^I \stackrel{d_1}{\twoheadrightarrow} Y. $$
-One can see that this is a fibration by observing that it is the same as the composite
-  $$ X \times_Y Y^I \to X \times_Y Y \times Y = X \times Y \to X \times e = X $$
-where $e$ is the [[final object]] of $C$.
-Here, the first morphism $id_X \times_Y d$ is a fibration because it is a base change of the fibration $d$; the second is a fibration because it is a base change of the fibration $Y \to e$ ($Y$ is [[fibrant object|fibrant]]).
 =--
 
 +-- {: .num_prop #TheFactorizationLemma}
 ###### Proposition
-**(Factorization lemma).**
-Any morphism $f : X \to Y$ in $\mathcal{C}$ admits a factorization as a [[weak equivalence]] $i$ followed by a [[fibration]] $p$, such that $i$ is [[right inverse]] to a [[trivial fibration]].
+**(factorization lemma)**
+
+Let $f : X \to Y$ be an arrow of $\mathcal{C}$. There is a commutative diagram 
+
 $$
    \array{
-      X &  \overset{i}{\to}             & \hat X \\
-          & \underset{f}{\searrow} & \downarrow p \\
+      X &  \overset{j}{\to}             & Z \\
+          & \underset{f}{\searrow} & \downarrow g \\
           &                                        & Y 
    }
 $$
+  
+in $\mathcal{C}$ such that the following hold.
+
+1) The arrow $g : Z \to Y$ is a fibration.
+
+2) There is a trivial fibration $r : Z \to X$ such that the following diagram in $\mathcal{C}$ commutes.
+
+$$
+   \array{
+      X &  \overset{j}{\to}                & Z \\
+          &  \underset{id}{\searrow} & \downarrow r \\
+          &                                           & X 
+   }
+$$
+
+
 =--
 
 +-- {: .proof}
 ###### Proof
-Let $p : \hat X = X \times_Y Y^I \twoheadrightarrow Y$ be a [[fibration|fibrant]] resolution of $f$ as in Lemma 3, so that there is a commutative diagram
+
+By one of the axioms for a category of fibrant objects, there is a commutative diagram 
+
 $$
    \array{
-      \hat X & \overset{s}{\to} & X \\
-          & \underset{p}{\searrow} & \downarrow{f} \\
-          & & Y 
+      Y &  \overset{c}{\to}                    & Y^I \\
+         &  \underset{\Delta}{\searrow} & \downarrow e \\
+         &                                                 & Y \times Y 
    }
 $$
-Let $j : Y \stackrel{\sim}{\to} Y^I$ denote the canonical [[weak equivalence]].  Since the square
+
+in $\mathcal{C}$ in which $c$ is a weak equivalence, and in which $e$ is a fibration. 
+
+Since $e$ is a fibration, there is, by one of the axioms for a category of fibrant objects, a cartesian square in $\mathcal{C}$ as follows.
+
 $$
    \array{
-      X & \overset{id_X}{\to} & X \\
-      \downarrow{j f} & & \downarrow{f} \\
-      Y^I & \overset{d_0}{\to} & Y
+      Z                            &  \overset{u_{0}}{\to} & Y^I \\
+      u_{1} \downarrow &                                      & \downarrow e \\
+      X \times Y               & \underset{f \times id}{\to}  & Y \times Y 
    }
 $$
-commutes, one gets an induced morphism $i = (id_X, j f) : X \to \hat X$ by the [[universal property]] of the [[pullback]], which by definition has left inverse $s$ and makes the diagram
+
+Let $g : Z \to Y$ be $p_{Y} \circ u_{1}$, where $p_{Y} : X \times Y \to Y$ is the projection arrow. 
+
+Since $e$ is a fibration, we have, by one of the axioms for a category of fibrant objects, that $u_{1}$ is a fibration. By Fact 1, the arrow $p_{Y}$ is a fibration. Since a composition of fibrations in a category of fibrant objects is a fibration, we deduce that $g$ is a fibration.
+
+The following diagram in $\mathcal{C}$ commutes.
+
 $$
    \array{
-      X &  \overset{i}{\to}             & \hat X \\
-          & \underset{f}{\searrow} & \downarrow p \\
-          &                                        & Y 
+      X                                  &  \overset{c \circ f}{\to}      & Y^I \\
+      id \times f \downarrow &                                             & \downarrow e \\
+      X \times Y                     & \underset{f \times id}{\to} & Y \times Y \\ 
    }
 $$
-commute.
+
+By the universal property of a pullback, we deduce that there is an arrow $j : X \to Z$ such that the diagrams 
+
+$$
+   \array{
+      X                                  &  \overset{f}{\to}            & Y \\
+      j \downarrow                &                                        & \downarrow c \\
+      Z \times Y                     & \underset{u_{0}}{\to}  & Y^I \\ 
+   }
+$$
+
+and 
+
+$$
+   \array{
+      X &  \overset{j}{\to}                             & Z \\
+         &   \underset{id \times f}{\searrow} & \downarrow u_{1} \\
+         &                                                         & X \times Y
+   }
+$$
+
+in $\mathcal{C}$ commute. By the commutativity of the second of these diagrams, and the fact that the diagram 
+
+$$
+   \array{
+      X &  \overset{id \times f}{\to}  & X \times Y \\
+          &  \underset{id}{\searrow} & \downarrow p_{X} \\
+          &                                           & X 
+   }
+$$
+
+in $\mathcal{C}$ commutes, the diagram 
+
+$$
+   \array{
+      X &  \overset{j}{\to}                & Z \\
+         &  \underset{id}{\searrow} & \downarrow r \\
+         &                                           & X 
+   }
+$$
+
+in $\mathcal{C}$ commutes.
+
+Let $r : Z \to X$ be $p_{X} \circ u_{1}$, where $p_{X} : X \times Y \to X$ is the projection arrow. 
+
+Let 
+
+$$
+Y \overset{p_{0}}{\leftarrow} Y \times Y \overset{p_{1}}{\rightarrow} Y
+$$ 
+
+be a product diagram in $\mathcal{C}$. The following diagram in $\mathcal{C}$ is a cartesian square. 
+
+$$
+   \array{
+      X \times Y               &  \overset{f \times id }{\to} & Y  \times Y \\
+      p_{X} \downarrow &                                            & \downarrow p_{0} \\
+      X                            &  \underset{f}{\to}              & Y \\ 
+   }
+$$
+
+Thus the following diagram in $\mathcal{C}$ is a cartesian square. 
+
+$$
+   \array{
+      Z                    &  \overset{u_{0}}{\to} & Y^I \\
+      r \downarrow &                                      & \downarrow p_{0} \circ e \\
+      X                    & \underset{f}{\to}         & Y \\ 
+   }
+$$
+
+By Fact 2, the arrow $p_{0} \circ e$ is a trivial fibration. By one of the axioms for a category of fibrant objects, we deduce that $r$ is a trivial fibration. 
+
 =--
 
++-- {: .num_remark}
+###### Remark
+
+That $r$ is a fibration can be demonstrated in exactly the same way as that $g$ is a fibration. It is to prove the stronger assertion that $r$ is a trivial fibration that the argument with which we concluded the proof is needed.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+By the commutativity of the diagram
+
+$$
+   \array{
+      X &  \overset{j}{\to}                & Z \\
+          &  \underset{id}{\searrow} & \downarrow r \\
+          &                                           & X 
+   }
+$$
+
+and the fact that $r$ is a weak equivalence, we have, by one of the axioms for a category of fibrant objects, that $j$ is a weak equivalence. 
+
+=--
 
 ## Ken Brown's lemma
 
 +-- {: .num_prop #KenBrownLemma}
-###### Porposition
-**(Ken Brown's lemma)**
+###### Proposition
 
-Let $\mathcal{C}$ be a [[category of fibrant objects]]. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F \colon C \longrightarrow D$ be a [[functor]] which takes acyclic fibrations to weak equivalences.
+Let $\mathcal{C}$ be a category of fibrant objects. Let $\mathcal{D}$ be a [[category with weak equivalences]]. Let $F : C \to D$ be a functor with the property that, for every arrow $f$ of $\mathcal{C}$ which is a trivial fibration, we have that $F(f)$ is a weak equivalence. 
 
-Then $F$ is a [[homotopical functor]] in that it takes _all_ weak equivalences to weak equivalences.
-
+Let $w : X \to Y$ be an arrow of $\mathcal{C}$ which is a weak equivalence. Then $F(w)$ is a weak equivalence. 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the factorization lemma, prop. \ref{TheFactorizationLemma}, there is a [[commutative diagram]]
+By Proposition 3, there is a commutative diagram 
 
 $$
    \array{
@@ -185,18 +303,17 @@ $$
   
 in $\mathcal{C}$ such that the following hold.
 
-1. The morphism $g : Z \to Y$ is a fibration.
+1) The arrow $g : Z \to Y$ is a fibration.
 
-1. There is a trivial fibration $r : Z \to X$ such that the following diagram in $\mathcal{C}$ commutes.
+2) There is a trivial fibration $r : Z \to X$ such that the following diagram in $\mathcal{C}$ commutes.
 
-   $$
-      \array{
-         X &  \overset{j}{\to}                & Z \\
-             &  \underset{id}{\searrow} & \downarrow r \\
-             &                                           & X 
-      }
-      \,.
-   $$
+$$
+   \array{
+      X &  \overset{j}{\to}                & Z \\
+          &  \underset{id}{\searrow} & \downarrow r \\
+          &                                           & X 
+   }
+$$
 
 By the commutativity of the diagram 
 
@@ -254,15 +371,19 @@ Since $F(j)$ and $F(r)$ are weak equivalences, we conclude, by one of the axioms
 
 =--
 
-
 +-- {: .num_remark}
 ###### Remark
 
-If $C$ is the full subcategory of fibrant objects in a [[model category]], then prop. \ref{KenBrownLemma} asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+In other words, $F$ is a [[homotopical functor]].
 
 =--
 
-## Homotopy pullbacks
++-- {: .num_remark}
+###### Remark
+If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+=--
+
+## Computing a homotopy pullback by means of an ordinary pullback
 
 +-- {: .num_cor}
 ###### Corollary
@@ -292,7 +413,9 @@ See the section _[Concrete constructions](http://ncatlab.org/nlab/show/homotopy+
 
 ## References
 
-* {#Brown73} [[Kenneth Brown]], around p. 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458, 1973 .
+
+* [[Kenneth Brown]], page 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, 1973 .
+
+[[!redirects ken brown's lemma]]
 
 [[!redirects Ken Brown's lemma]]
-[[!redirects ken brown's lemma]]
