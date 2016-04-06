@@ -45,7 +45,6 @@ Accordingly, a **[[split monomorphism]]** is a morphism that *has* a retraction;
 
 ## Properties
 
-### General
 
 +-- {: .num_remark #RetractsPreservedByFunctor}
 ###### Remark
@@ -104,9 +103,36 @@ Let $C$ be a [[category]] with [[split idempotent]]s and write $PSh(C) = [C^{op}
 This appears as ([Borceux, lemma 6.5.6](#Borceux))
 
 
-### Retracts of morphisms
+
+## Examples
+
+### To the point
+
+* In a category with [[terminal object]] $*$ every morphism of the form $* \to X$ is a retract, and the unique morphism $X \to *$ is the corresponding retraction.
+
+### Of simplices
+
+The inclusion of standard topological [[horn]]s into the topological [[simplex]] $\Lambda^n_k \hookrightarrow \Delta^n$ is a retract in [[Top]]. 
+
+### In arrow categories
 
 Let $\Delta[1] = \{0 \to 1\}$ be the [[interval category]]. For every category $C$ the [[functor category]] $[\Delta[1], C]$ is the [[arrow category]] of $C$.
+
+In the theory of [[weak factorization systems]] and [[model categories]], an important role is played by retracts in $C^{\Delta[1]}$, the [[arrow category]] of $C$.  Explicitly spelled out in terms of the original category $C$, a morphism $f:X\to Y$ is a retract of a morphism $g:Z\to W$ if we have commutative squares
+
+$$
+  \array{
+     id_X \colon & X & \to & Z & \to & X
+     \\
+     & f \downarrow  & & g \downarrow & & \downarrow f
+     \\
+     id_Y \colon & Y & \to & W & \to & Y
+  }
+$$
+
+such that the top and bottom rows compose to identities.
+
+
 
 +-- {: .num_prop #RetractsOfMorphismWithLiftingProperty}
 ###### Proposition
@@ -115,12 +141,14 @@ Classes of morphisms in a category $C$ that are given by a left or right [[lifti
 
 =--
 
+This is fairly immediate, a proof is made explicit [here](ClosurePropertiesOfInjectiveAndProjectiveMorphisms).
+
 This implies:
 
 +-- {: .num_prop #RetractOfIso}
 ###### Proposition
 
-In every category $C$ the class of [[isomorphism]]s is preserved under retracts in the [[arrow category]] $[\Delta[1], C]$
+In every category $C$ the class of [[isomorphisms]] is preserved under retracts in the [[arrow category]] $[\Delta[1], C]$
 
 =--
 
@@ -253,23 +281,6 @@ With this the claim follows as in prop. \ref{RetractsOfLimits}.
 
 =--
 
-## Examples
-
-### General
-
-* In a category with [[terminal object]] $*$ every morphism of the form $* \to X$ is a retract, and the unique morphism $X \to *$ is the corresponding retraction.
-
-### Of simplices
-
-The inclusion of standard topological [[horn]]s into the topological [[simplex]] $\Lambda^n_k \hookrightarrow \Delta^n$ is a retract in [[Top]]. 
-
-### In arrow categories
-
-In the theory of [[weak factorization systems]] and [[model category|model categories]], an important role is played by retracts in $C^{\mathbf{2}}$, the [[arrow category]] of $C$.  Explicitly spelled out in terms of the original category $C$, a morphism $f:X\to Y$ is a retract of a morphism $g:Z\to W$ if we have commutative squares
-$$\array{X & \to & Z & \to & X\\
-  f \downarrow  & & g \downarrow & & \downarrow f\\
-  Y & \to & W & \to & Y}$$
-such that the top and bottom rows compose to identities.
 
 ## Related concepts
 
