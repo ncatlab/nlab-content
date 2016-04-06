@@ -1,0 +1,32 @@
+
+Factor the diagram in question
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+through the pullback of the bottom horizontal line:
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{id}}
+    \\
+    fib(\phi) &\longrightarrow& f^\ast X_2 &\underoverset{\in Fib}{\phi}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
+
+Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. Hence the claim follows with lemma \ref{spring}.
