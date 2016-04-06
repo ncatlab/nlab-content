@@ -273,7 +273,7 @@ $$
 where now the diagram on the right is cofibrant as a diagram, so that its ordinary pushout
 
 $$
-  X' := L' \coprod_{K'} Y'
+  X' \coloneqq L' \coprod_{K'} Y'
 $$
 
 is a homotopy colimit of the original diagram. To obtain the weak equivalence from there to $X$, first form the further pushouts
@@ -296,7 +296,7 @@ $$
     & {}^{\mathllap{\in W}}
     \swarrow &&&& \searrow^{\mathrlap{\simeq}} & 
     \\
-    L'':= K \coprod_{K'} L 
+    L'' \coloneqq K \coprod_{K'} L 
     &&&\to&&& 
     L'' \coprod_{K} Y
     \\
@@ -473,9 +473,9 @@ The usefulness of right properness for constructions of [[homotopy category|homo
 * [[Rick Jardine]], _Cocycle categories_ ([pdf](http://arxiv.org/PS_cache/math/pdf/0605/0605198v1.pdf))
 
 
-The general theory can be found in Chapter 13 of 
+The general theory can be found in 
 
-* {#Hirschhorn} Philip S. Hirschhorn, _Model Categories and Their Localizations_ ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+* {#Hirschhorn} [[Philip Hirschhorn]], chapter 13 of _Model Categories and Their Localizations_, 2003 ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
  
 
 also in 
