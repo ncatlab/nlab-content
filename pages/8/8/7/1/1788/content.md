@@ -1,34 +1,135 @@
++-- {: .num_defn #CategoryOfPointedObjects}
+###### Definition
 
-[[GluingHemispheres.jpg:file]]
+For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, write $\mathcal{C}^{\ast/}$ for the corresponding _[[category of pointed objects]]_: its
 
-<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"> 
+* objects are morphisms in $\mathcal{C}$ of the form $\ast \overset{x}{\to} X$ (hence an object $X$ equipped with a choice of point; i.e. a _[[pointed object]]_);
 
-(graphics from Ueno-Shiga-Morita 95)
+* morphisms are [[commuting diagram|commuting triangles]] of the form
+
+  $$
+    \array{
+       && \ast
+       \\
+       & {}^{\mathllap{x}}\swarrow && \searrow^{\mathrlap{y}}
+       \\
+       X && \overset{f}{\longrightarrow} && Y
+    }
+  $$
+
+  (hence morphisms in $\mathcal{C}$ which preserve the chosen points).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
+
+In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
 
 $$
-  \array{
-     \pi_\bullet(X) 
-     \\
-     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
-     \\
-     \pi_\bullet(X \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(Y)
-     \\
-     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
-     \\
-     \pi_\bullet(X)
-  }
+  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
   \,.
 $$
 
+=--
 
-[[AttachingSpace.jpg:file]]
++-- {: .num_prop #LimitsAndColimitsOfPointedObjects}
+###### Proposition
 
-<img src="http://ncatlab.org/nlab/files/AttachingSpace.jpg" width="400"> 
+Let $\mathcal{C}$ be a [[category]] with all [[limits]] and [[colimits]]. Then also the [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, has all limits and colimits.
+
+Moreover:
+
+1. the limits are the limits of the underlying diagrams in $\mathcal{C}$, with the base point of the limit induced by its universal property in $\mathcal{C}$;
+
+1. the colimits are the limits in $\mathcal{C}$ of the diagrams _with the basepoint adjoined_.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+Given two pointed objects $(X,x)$ and $(Y,y)$, then:
+
+1. their [[product]] in $\mathcal{C}^{\ast/}$ is $(X\times Y, (x,y))$;
+
+1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ is the [[pushout]] in $\mathcal{C}$ of the form:
+
+   $$
+     \array{
+       \ast &\overset{x}{\longrightarrow}& X
+       \\
+       {}^{\mathllap{y}}\downarrow &(po)& \downarrow
+       \\
+       Y &\longrightarrow& X \vee Y
+     }
+     \,.
+   $$
+
+   This is called the _[[wedge sum]]_ operation.
+
+=--
+
++-- {: .num_defn #FiberAndCofiberInPointedObjects}
+###### Definition
+
+Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
+
+1. its _[[fiber]]_ is the [[pullback]] of the point inclusion
+
+   $$
+     \array{
+       fib(f) &\longrightarrow& \ast
+       \\
+       \downarrow &(pb)& \downarrow
+       \\
+       X &\longrightarrow& Y
+     }
+   $$
+
+1. its _[[fiber]]_ is the [[pushout]] of the point projection
+
+   $$
+     \array{
+       X &\overset{f}{\longrightarrow}& Y
+       \\
+       \downarrow &(po)& \downarrow
+       \\
+       \ast &\longrightarrow& cofib(f)
+     }
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$ first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
 
 $$
-  R Q X \wedge R Q Y 
+  \array{
+    \ast
+    \\
+    & \searrow
+    \\
+    & & X &\overset{f}{\longrightarrow}& Y
+    \\
+    & & \downarrow && 
+    \\
+    & & \ast && 
+   }
 $$
 
-$$
-  R Q (X \wedge Y)
-$$
+be computed, but one readily checks that in this special case this does not affect the result.
+
+=--
