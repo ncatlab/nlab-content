@@ -6057,7 +6057,44 @@ Hence it is now sufficient to observe that in category of fibrant objects, base 
 
 (...)
 
-#### Long exact sequences of homotopy groups
+#### Long exact sequences
+
+(...)
+
++-- {: .num_prop }
+###### Proposition
+
+Let $\mathcal{C}$ be a model category. For $f \colon X \to Y$ a morphism and $A$ an object, then there is a [[long exact sequence]]
+
+$$
+  \cdots
+  \to 
+  [X,\Omega^2 Y]_\ast
+  \longrightarrow
+  [X,\Omega hofib(f)]_\ast
+  \longrightarrow
+  [A, \Omega X]_\ast 
+  \longrightarrow
+  [A,\Omega Y]
+  \longrightarrow
+  [X,hofib(f)]_\ast
+  \longrightarrow
+  [A,X]_\ast 
+  \longrightarrow
+  [A,Y]
+  \,,
+$$ 
+
+where $[-,-]_\ast$ denotes the hom-sets in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C}^{\ast/})$
+
+=--
+
+([Quillen 67, I.3, prop. 4](#Quillen67))
+
+(...)
+
+
+Some comments on how this comes about more conceptually:
 
 Given a morphism $f \colon A \longrightarrow B$ there is the following pasting composite of [[homotopy fibers]]
 
