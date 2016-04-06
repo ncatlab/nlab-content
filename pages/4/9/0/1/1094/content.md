@@ -381,7 +381,9 @@ Extension of sheafification of presheaves with values in other categories has be
 
 * [[Alex Heller]], K. A. Rowe, _On the category of sheaves_ , Amer. J. Math. 84, 1962, 205-216.
 
-* Barr, Grillet and Van Osdol, _Exact categories and categories of sheaves_ , Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971 
+* Barr, Grillet and Van Osdol, _Exact categories and categories of sheaves_ , Lecture Notes in Math., Vol. 236, Springer, Berlin, 1971
+
+* Friedrich Ulmer, _On the existence and exactness of the associated sheaf functor_, J. Pure Appl. Algebra 3, 1971, 295-306 
 
 * [[Alexander Rosenberg]], _Almost quotient categories, sheaves and localizations_ , 181 p. Seminar on supermanifolds 25, University of Stockholm, D. Leites editor, 1988 (in Russian; partial remake in English exists)
 
