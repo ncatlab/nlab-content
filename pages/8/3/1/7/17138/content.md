@@ -573,7 +573,7 @@ We now turn to the discussion of [[mapping spaces]]/[[exponential objects]]
 +-- {: .num_defn #CompactOpenTopology}
 ###### Definition
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **[[mapping space]]**
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for every point, every neighbourhood contains a compact neighbourhood), the **[[mapping space]]**
 
 $$
   X^Y \in Top
@@ -619,7 +619,7 @@ $$
 +-- {: .num_prop #MappingTopologicalSpaceIsExponentialObject}
 ###### Proposition
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space|locally compact]] [[Hausdorff topological space]], the **topological [[mapping space]]** $X^Y$ from def. \ref{CompactOpenTopology} is an [[exponential object]], i.e. the functor $(-)^Y$ is [[right adjoint]] to the product functor $Y \times (-)$: there is a [[natural bijection]]
+For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (in that for each point, each open neighbourhood contains a [[compact subset|compact]] [[neighbourhood]]), the **topological [[mapping space]]** $X^Y$ from def. \ref{CompactOpenTopology} is an [[exponential object]], i.e. the functor $(-)^Y$ is [[right adjoint]] to the product functor $Y \times (-)$: there is a [[natural bijection]]
 
 $$
   Hom_{Top}(Z \times Y, X) \simeq Hom_{Top}(Z, X^Y)
@@ -629,12 +629,21 @@ between continuous functions out of any [[product topological space]] of $Y$ wit
 
 =--
 
-(e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02))
+A proof is spelled out [here](compact-open+topology#GivesExponentialObject). 
+(or see e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02))
+
++-- {: .num_remark}
+###### Remark
+
+In the context of prop. \ref{MappingTopologicalSpaceIsExponentialObject} it is often assumed that $Y$ is also a [[Hausdorff topological space]]. But this is not necessary. What assuming Hausdorffness only achieves is that all alternative definitions of "locally compact" become equivalent to the one that is needed for the proposition: for every point, every open neighbourhood contains a compact neighbourhood.
+
+=--
+
 
 +-- {: .num_remark #ProblemWithExponentialsInTop}
 ###### Remark
 
-Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact and Hausdorff. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
+Proposition \ref{MappingTopologicalSpaceIsExponentialObject} fails in general if $Y$ is not locally compact. Therefore the plain category [[Top]] of all topological spaces is not a [[Cartesian closed category]]. 
 
 This is no problem for the construction of the homotopy theory of topological spaces as such, but it becomes a technical nuisance when comparing it for instance to the [[simplicial homotopy theory]] via the singular [[nerve and realization]] adjunction, since it implies that [[geometric realization]] of [[simplicial sets]] does not necessarily preserve [[finite limits]].
 
