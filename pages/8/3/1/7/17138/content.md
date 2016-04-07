@@ -194,7 +194,7 @@ This section recalls relevant concepts from actual [[topology]] ("point-set topo
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
-$\,,$
+$\,$
 
 Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]] between them. Its [[isomorphisms]] are the [[homeomorphisms]]. 
 
@@ -5586,7 +5586,7 @@ Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objec
      }
    $$
 
-1. its _[[fiber]]_ or _[[cokernel]]_ is the [[pushout]] of the point projection
+1. its _[[cofiber]]_ or _[[cokernel]]_ is the [[pushout]] of the point projection
 
    $$
      \array{
@@ -6591,7 +6591,7 @@ In the case where $\mathcal{C}^{\ast/} = Top^{\ast/}$ this is the operation of c
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #LoopingAsFunctorOnHomotopyCategory}
 ###### Proposition
 
 Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
@@ -6701,11 +6701,123 @@ $$
 
 =--
 
-(...)
 
-#### Long exact sequences
+#### Long sequences
 
-(...)
+The ordinary [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
+
+$$
+   \ast \simeq fib(fib(f)) \longrightarrow fib(f) \longrightarrow X \overset{f}{\longrightarrow} Y
+  \,.
+$$
+
+This is crucially different for the [[homotopy fiber]], def. \ref{HomotopyFiber}. Here we discuss how this comes about and what the consequences are.
+
++-- {: .num_prop #HomotopyFiberOfHomotopyFiberIsLooping}
+###### Proposition
+
+Let $\mathcal{C}_f$ be a [[model category]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} and $f \colon X \longrightarrow Y$ a morphism in its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}. Then the [[homotopy fiber]] of its [[homotopy fiber]], def. \ref{HomotopyFiber}, is isomorphic (in $Ho(\mathcal{C}^{\ast/})$) to the [[loop space object]] $\Omega Y$ of $Y$ (def. \ref{SuspensionAndLoopSpaceObject}, prop. \ref{LoopingAsFunctorOnHomotopyCategory}):
+
+$$
+  hofib(hofib(X \overset{f}{\to}Y)) \simeq \Omega Y
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume without restriction that $f \colon X \to Y$ is already a fibration between fibrant objects in $\mathcal{C}$ (otherwise replace and rename). Then its homotopy fiber is its ordinary fiber, sitting in a pullback square 
+
+$$
+  \array{
+    hofib(f) &\overset{i}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,.
+$$
+
+In order to compute $hofib(hofib(f))$, i.e. $hofib(i)$, we need to replace the fiber inclusion $i$ by a fibration. Using the [[factorization lemma]] \ref{FactorizationLemma} for this purpose yields, after a choice of [[path space object]] $Path(X)$ (def. \ref{PathAndCylinderObjectsInAModelCategory}), a replacement of the form
+
+$$
+  \array{
+    hofib(f) &\overset{\in W}{\longrightarrow}& F \times_X Path(X)
+    \\
+    &{}_{\mathllap{i}}\searrow& \downarrow^{\mathrlap{\tilde i}}_{\mathrlap{\in Fib}} 
+    \\
+    && X
+  }
+  \,.
+$$
+
+Hence $hofib(i)$ is the ordinary fiber of this map:
+
+$$
+  hofib(hofib(f)) \simeq  F \times_X Path(X) \times_X \ast \;\;\;\; \in Ho(\mathcal{C}^{\ast/})
+  \,.
+$$
+
+Notice that 
+
+$$
+  F \times_X Path(X)  \times_X \simeq \ast \times_Y Path(X)
+$$
+
+because of the [[pasting law]]:
+
+$$
+  \array{
+     F \times_X Path(X) &\longrightarrow& Path(X)
+     \\
+     \downarrow &(pb)& \downarrow
+     \\
+     F &\overset{i}{\longrightarrow}& X
+     \\
+     \downarrow &(pb)& \downarrow^{\mathrlap{f}}
+     \\
+     \ast &\longrightarrow& Y
+  }
+  \,.
+$$
+
+Now we claim that there is a choice of path space objects $Path(X)$ and $Path(Y)$ such that this model for the homotopy fiber (as an object in $\mathcal{C}^{\ast/}$) sits in a [[pullback]] diagram of the following form:
+
+$$
+  \array{
+    \ast \times_Y Path(X) \times_X \ast &\longrightarrow& Path(X)
+    \\
+    \downarrow && \downarrow\mathrlap{\in W \cap F}
+    \\
+    \Omega Y &\longrightarrow& Path(Y)\times_Y X
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow&  Y \times X
+  }
+  \,.
+$$
+
+By the pullback stability of acyclic fibrations, this will prove the claim.
+
+To construct this ([Quillen 67, page 3.1](#Quillen67)): Let $Path(Y)$ be any path space object for $Y$ and let $Path(X)$ be given by the following factorization:
+
+$$
+  (id_X, s^Y \circ f, id_X)
+  \;\colon\;
+  X
+  \overset{\in W}{\to}
+  Path(X)
+  \overset{\in Fib}{\longrightarrow}
+  X \times_Y Path(Y) \times_Y X
+$$ 
+
+and regarded as a path space object of $X$ by further comoposing with $(pr_1,pr_3)\colon X \times_Y Path(Y) \times_Y X \overset{\in Fib}{\longrightarrow} X \times X$. By inspection (...), this has the required properties.
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
@@ -6731,7 +6843,9 @@ $$
   \,,
 $$ 
 
-where $[-,-]_\ast$ denotes the hom-sets in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C}^{\ast/})$
+where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
+
+For $A = \ast$ this is called the [[long exact sequence of homotopy groups]] induced by $f$.
 
 =--
 
@@ -6740,14 +6854,17 @@ where $[-,-]_\ast$ denotes the hom-sets in the [[homotopy category of a model ca
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage} and prop. \ref{...}.
+By combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
 
 =--
 
-(...)
++-- {: .num_prop }
+###### Remark
 
+These long exact sequences of homotopy groups play the key role below in the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum).
 
-...see also below the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum)...
+=--
+
 
 (...)
 
