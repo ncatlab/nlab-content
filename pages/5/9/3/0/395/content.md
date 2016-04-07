@@ -911,7 +911,7 @@ weak equivalences are preserved under pullback along fibrations.
 
 This we establish in two lemmas.
 
-+-- {: .num_lemma }
++-- {: .num_lemma #BaseChangePreservesFibrationsAndWeakEquivalences}
 ###### Lemma
 
 Let 
@@ -1152,7 +1152,7 @@ $p \times Id : E \stackrel{\in W}{\to} E_1$
 into the pullback is a weak equivalence
 by [[category with weak equivalences|2-out-of-3]].
 
-The above lemma says that weak equivalences between fibrations over $B$
+The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$
 are themselves preserved by base extension along
 $u : B' \to B$. In total this yields the following diagram
 
