@@ -586,7 +586,7 @@ functions]] $Y \to X$,
 
 * whose [[open subsets]] are [[finitary intersections]] of [[unions]] of the following [[topological base|subbase]] of standard open subsets:
 
-  the standard open subset $U_{K,U} \subset Hom_{Top}(Y,X)$ for 
+  the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for 
 
   * $K \hookrightarrow Y$ a [[compact topological space]] subset
 
