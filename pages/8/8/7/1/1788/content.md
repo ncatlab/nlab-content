@@ -1,28 +1,45 @@
-+-- {: .num_example}
-###### Example
 
-If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ in
+..
+We claim that the inverse-assigning operation is given by the left map in the following pasting composite 
 
 $$
   \array{
-    && && Path_1(X) \times_X Path_2(X) 
+    \Omega' X &\longrightarrow& Path'(X) &\overset{}{\longrightarrow}& X \times X
     \\
-    && & \swarrow && \searrow
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\simeq}} &(pb)& \downarrow^{\mathrlap{swap}}
     \\
-    && Path_1(X) && && Path_2(X)
-    \\
-    &{}^{\mathllap{p_0}}\swarrow 
-    && 
-    {}_{\mathllap{p_1}}\searrow
-    && 
-    \swarrow_{\mathrlap{p_0}} && \searrow^{\mathrlap{p_1}}
-    \\
-    X && && X && && X
+    \Omega X &\longrightarrow& Path(X) &\overset{(p_0,p_1)}{\longrightarrow}& X \times X
   }
+  \,,
 $$
 
-is another path space object for $X$: by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the morphisms in the above diagram are all acyclic fibrations
+(where $Path'(X)$, thus defined, is the path space object obtained from $Path(X)$ by "reversing the notion of source and target of a path").
 
-=--
+To see that this is indeed an inverse, it is sufficient (...) to see that the two morphisms 
 
+$$ 
+  \Omega X \stackrel{\longrightarrow}{\longrightarrow} (\Omega X)_2
+$$
 
+induced from 
+
+$$
+  \array{
+  Path(X) 
+\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}
+  Path(X) \times_X Path'(X)
+ }
+$$
+
+coincide in the homotopy category. This follows with lemma \ref{UniquenessOfFibersOfQualizedMorphismsInHoC} applied to the following commuting diagram:
+
+$$
+  \array{
+    X &\longrightarrow& Path(X) &\stackrel{\overset{\Delta}{\longrightarrow}}{\underset{(s\circ p_0,s \circ p_0)}{\longrightarrow}}& Path(X)\times_X Path'(X)
+    \\
+    && {}^{\mathllap{(p_0,p_1)}}\downarrow && \downarrow^{\mathrlap{}}
+    \\
+    && X\times X &\overset{\Delta \circ pr_1}{\longrightarrow}& X \times X 
+  }
+  \,.
+$$
