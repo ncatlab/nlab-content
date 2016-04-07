@@ -23,7 +23,7 @@ This is one flavor of the various [[natural model structure]]s on categories and
 ## Definition
 
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and [[functor]]s between them. Say a morphism in $Grpd$ -- a [[functor]] $f : C \to D$ -- is 
@@ -36,7 +36,7 @@ Let [[Grpd]] be the 1-[[category]] of [[small category|small]] [[groupoid]]s and
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Equipped with this structure $Grpd_{nat}$ is a [[model category]] which is
@@ -49,11 +49,11 @@ Equipped with this structure $Grpd_{nat}$ is a [[model category]] which is
 
 =--
 
-This is originally due to ([Anderson](#Andeson)) and ([Bousfield](#Bousfield)). A detailed discussion is in section 6 of ([Strickland](#Strickland)). In the context of the [[model structure for (2,1)-sheaves]] it appears as ([Hollander, theorem 2.1](#Hollander)).
+This is originally due to ([Anderson 78](#Anderson78)) and ([Bousfield 89](#Bousfield89)). A detailed discussion is in  ([Strickland 00, section 6](#Strickland00)). In the context of the [[model structure for (2,1)-sheaves]] it appears as ([Hollander 01, theorem 2.1](#Hollander01)).
 
 ## Properties
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Observation
 
 The model structure $Grpd_{nat}$ is the restriction of the
@@ -63,7 +63,7 @@ The model structure $Grpd_{nat}$ is the restriction of the
 
 See [[natural model structure]] for more.
 
-+-- {: .un_def}
++-- {: .num_defn}
 ###### Definition
 
 Let
@@ -77,7 +77,7 @@ be the pair of [[adjoint functor]]s, where $N$ is the [[nerve]] of [[groupoid]]s
 
 =--
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 With the natural model structure on $Grpd$ and the standard [[model structure on simplicial sets]] this is a [[Quillen adjunction]]
@@ -115,18 +115,18 @@ This model category structure appears originally in
 
 and
 
-* A. K. _Bousfield, Homotopy Spectral Sequences and Obstructions_ , Israel Journal of Math., Vol.66, Nos.1-3, (1989), 54-105.
-{#Bousfield}
+* {#Bousfield89} [[Aldridge Bousfield]], _Homotopy Spectral Sequences and Obstructions_ , Israel Journal of Math., Vol.66, Nos.1-3, (1989), 54-105.
+
 
 A detailed description is in section 6 of
 
-* [[Neil Strickland]] _$K(n)$-local duality for finite groups and groupoids_ , Topology 39, (2000).
-{#Strickland}
+* {#Strickland00} [[Neil Strickland]] _$K(n)$-local duality for finite groups and groupoids_ , Topology 39, (2000).
+
 
 The model structure on functors with values in $Grpd_{nat}$ (a [[model structure for (2,1)-sheaves]]) is discussed in
 
-* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
-{#Hollander}
+* {#Hollander01} [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
+
 
 [[!redirects natural model structure on groupoids]]
 
