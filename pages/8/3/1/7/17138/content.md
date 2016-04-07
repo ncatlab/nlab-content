@@ -513,7 +513,7 @@ A _[[limit ordinal]]_ is one that is not a successor.
 =--
 
 +-- {: .num_example}
-###### Examples
+###### Example
 
 The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well-orders $\{0 \leq 1 \leq 2 \cdots \leq n\}$. Here $(n+1)$ is the successor of $n$. The first limit ordinal is $\omega = [(\mathbb{N}, \leq)]$.
 
@@ -5373,7 +5373,7 @@ For $\mathcal{C}$ a [[category]] with [[terminal object]] $\ast$, the [[coslice 
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #PointedObjectsHaveZeroObject}
 ###### Remark
 
 In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, the [[terminal object]] coincides with the [[initial object]], both are given by $\ast \in \mathcal{C}$ itself, pointed in the unique way. 
@@ -5414,6 +5414,23 @@ For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topologica
 
 =--
 
++-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
+###### Example
+
+For $\mathcal{C}$ any [[model category]], with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model structure]] according to prop. \ref{ModelStructureOnSliceCategory}, then the corresponding [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) is, by remark \ref{PointedObjectsHaveZeroObject}, canonically [[enriched category|enriched]] in [[pointed sets]], in that its [[hom-functor]] is of the form
+
+$$
+  [-,-]_\ast
+  \;\colon\;
+  Ho(\mathcal{C}^{\ast/})^\op
+  \times
+  Ho(\mathcal{C}^{\ast/})
+  \longrightarrow
+  Set^{\ast/}
+  \,.
+$$
+
+=--
 
 +-- {: .num_defn }
 ###### Definition
@@ -6036,7 +6053,7 @@ $$
  }
 $$
 
-be a morphism of fibrations over  some object $B$ in $\mathcal{C}_f$
+be a morphism over  some object $B$ in $\mathcal{C}_f$
 and let $u \colon B' \to B$ be any morphism in 
 $\mathcal{C}$. Let 
 
@@ -6152,7 +6169,7 @@ The top two vertical composite morphisms are identities. Hence by [[two-out-of-t
 +-- {: .num_lemma #InCfPullbackAlongFibrationPreservesWeakEquivalences}
 ###### Lemma
 
-In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, the pullback of a weak equivalence along a fibration is again a weak equivalence.
+In a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, the pullback of a weak equivalence along a fibration is again a weak equivalence.
 
 =--
 
@@ -6279,14 +6296,14 @@ so that with $p \times Id  : E \to E_1$ a weak equivalence also $u^* (p \times I
 
 Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence. By 2-out-of-3 for that it is now sufficient to show that $u^* E_1  \to E_1$ is a weak equivalence.
 
-That finally follows now since by assumption the total bottom horizontal morphism is the identity. Hence so is the top horizontal morphism. Hence $u^\ast E_1  \to E_1$ is right inverse to a weak equivalence, hence is a weak equivalence.
+That finally follows now since, by assumption, the total bottom horizontal morphism is the identity. Hence so is the top horizontal morphism. Hence $u^\ast E_1  \to E_1$ is right inverse to a weak equivalence, hence is a weak equivalence.
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #UniquenessOfFibersOfQualizedMorphismsInHoC}
 ###### Lemma
 
-Let $\mathcal{C}^{}$ be a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Given any [[commuting diagram]] in $\mathcal{C}^{}$ of the form
+Let $(\mathcal{C}^{\ast/})_f$ be a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} in a [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}). Given any [[commuting diagram]] in $\mathcal{C}^{}$ of the form
 
 $$
   \array{
@@ -6294,18 +6311,13 @@ $$
     \\
     && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
       && 
-    \downarrow^{\mathrlap{p_2}}_{\in Fib}
+    \downarrow^{\mathrlap{p_2}}_{\mathrlap{\in Fib}}
     \\
     && B &\overset{u}{\longrightarrow}& C
   }
 $$
 
-(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon \mathcal{C}\to Ho(\mathcal{C})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) takes $f$ and $g$ to the same morphism:
-
-$$
-  \gamma(f) = \gamma(g)
-  \,.
-$$
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms induced by $f$ and $g$ on [[fibers]] (def. \ref{FiberAndCofiberInPointedObjects}) $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ to the same morphism, in the homotopy category.
 
 =--
 
@@ -6354,16 +6366,16 @@ The result then follows by observing that we have a commuting square of [[functo
 
 $$
   \array{
-     \mathcal{C}_{/B} &\overset{U}{\longrightarrow}& \mathcal{C}
+     (\mathcal{C}^{\ast/}_{/B})_f &\overset{fib}{\longrightarrow}& \mathcal{C}^{\ast/}
      \\
      \downarrow^{\mathrlap{\gamma_B}} &\swArrow& \downarrow^{\mathrlap{\gamma}}
      \\
-     Ho(\mathcal{C}_{/B}) &\longrightarrow& Ho(\mathcal{C})
+     Ho(\mathcal{C}^{\ast/}_{/B}) &\longrightarrow& Ho(\mathcal{C}^{\ast/})
   }
   \,,
 $$
 
-because, by prop. \ref{ModelStructureOnSliceCategory}, the top and right composite sends weak equivalences to isomorphisms, and hence the bottom filler exists by theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}. This implies the claim.
+because, by lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences}, the top and right composite sends weak equivalences to isomorphisms, and hence the bottom filler exists by theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}. This implies the claim.
 
 =--
 
@@ -6481,7 +6493,7 @@ $$
 
 is [[exact sequence|exact]] as a sequence of [[pointed sets]]. 
 
-(Where the sequence here is the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]] $[A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}$.)
+(Where the sequence here is the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor $[A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}$ from example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.)
 
 
 =--
@@ -6524,12 +6536,12 @@ Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square
 
 =--
 
-Also the loop space construction becomes well-defined on the homotopy category
+With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} it also follows notably that the loop space construction becomes well-defined on the homotopy category:
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes a [[functor]] on the [[homotopy category of a model category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}):
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
 
 $$
   \Omega 
@@ -6544,6 +6556,38 @@ $$
 
 ([Brown 73, section 4, theorem 3](#Brown73))
 
++-- {: .proof}
+###### Proof
+
+
+
+Given an object $X \in \mathcal{C}^{\ast/}$ and given two choices of path space objects $Path(X)$ and $\widetilde{Path(X)}$, we need to produce an isomorphism in $Ho(\mathcal{C}^{\ast/})$ between $\Omega X$ and $\tilde \Omega X$.
+
+To that end, first lemma \ref{ReplacementOfPathObjects} implies that any two choices of path space objects are connected via a third path space by a [[span]] of morphisms compatible with the structure maps. By [[two-out-of-three]] every morphisms of path objects compatible with the inclusion of the base object is a weak equivalence. With this lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} implies that these morphisms induce weak equivalences on the corresponding loop space objects. This shows that all choices of loop space objects become isomorphic in the homotopy category.
+
+Moreover, all the isomorphisms produced this way are actually equal: this follows from lemma \ref{UniquenessOfFibersOfQualizedMorphismsInHoC} applied to
+
+$$
+  \array{
+     X &\overset{s}{\longrightarrow}& Path(X) &\stackrel{\longrightarrow}{\longrightarrow}& \widetilde{Path(X)}
+     \\
+     && \downarrow && \downarrow
+     \\
+     && X\times X &\overset{id}{\longrightarrow}&  X \times X
+  }
+  \,.
+$$
+
+This way we obtain a functor
+
+$$
+  \Omega \;\colon\; \mathcal{C}^{\ast/}_f \longrightarrow Ho(\mathcal{C}^{\ast/})
+  \,.
+$$
+
+By lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the claim now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
+
+=--
 
 (...)
 
@@ -11427,7 +11471,7 @@ A spectral sequence $\{E^r_{p,q}\}$ is called a **bounded spectral sequence** if
 =--
 
 +-- {: .num_defn #QuadrantSpectralSequence}
-###### Example
+###### Definition
 
 A [[nLab:spectral sequence]] $\{E^r_{p,q}\}$ is called
 
