@@ -32,7 +32,7 @@ Traditionally fiber sequences have been considered in the context of [[homotopic
 ## Definition
  {#Definition}
 
-### In higher category theory
+### In $(\infty,1)$-category theory
 
 Let $C$ be an [[(∞,1)-category]] with small [[limits]] and consider [[pointed objects]] of $C$, i.e. morphisms ${*} \to A$ from the [[terminal object]] ${*}$ ([[generalized the|the]] [[point]]) to some object $A$. All unlabeled morphisms from the point in the following are these chosen ones and all other morphisms are taken with respect to these points.
 
@@ -55,6 +55,151 @@ $$
   }
   \,.
 $$
+
+### In categories of fibant objects
+
+> under construction
+
+In ([Quillen 67, section I.3](#Quillen67)) it was shown how the theory of fiber sequences and [[cofiber sequences]] arises in the abstract homotopy theory of [[model categories]]. Focusing on the fiber sequences, this perspective depends only on the [[category of fibrant objects]] inside the model category, and in fact makes sense generally in this context. This was spelled out in ([Brown 73, section 4](#Brown73)), which we review here. 
+
+
++-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
+###### Lemma
+
+In [[pointed objects]] $\mathcal{C}_f^{\ast/}$ of a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow && \downarrow
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+  \,.
+$$
+
+If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism in the left
+
+=--
+
+([[BrownAHT|Brown 73, section 4, lemma 3]])
+
+
++-- {: .proof}
+###### Proof
+
+Factor the diagram in question
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+through the pullback of the bottom horizontal line:
+
+$$
+  \array{
+    fib(f_1) &\longrightarrow& X_1 &\underoverset{\in Fib}{f_1}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{id}}
+    \\
+    fib(\phi) &\longrightarrow& f^\ast X_2 &\underoverset{\in Fib}{\phi}{\longrightarrow}& Y_1
+    \\
+    \downarrow^{\mathrlap{}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \\
+    fib(f_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{f_2}{\longrightarrow}& Y_2
+  }
+$$
+
+Here $f^\ast X_2 \to X_2$ is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} and with this $X_1 \to f^\ast X_2$ is a weak equivalence by assumption and [[two-out-of-three]].
+
+Moreover, this diagram exhibits $fib(f_1)\to fib(\phi)$ as the base change (along $\ast \to Y_2$) of $X_1 \to f^\ast X_2$. 
+
+Hence it is now sufficient to observe that in category of fibrant objects, base change preserves weak equivalences (...).
+
+=--
+
+Hence we say:
+
++-- {: .num_defn #HomotopyFiber}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism, then its **[[homotopy fiber]]**
+
+$$
+  hofib(f)\longrightarrow X
+$$
+
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
+
+=--
+
+We may now state the abstract version of the statement of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}:
+
++-- {: .num_prop #ExactSequenceOfHomotopyFiberAtOneStage}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \to Y$ any morphism of [[pointed objects]], and for $A$ a [[pointed object]], def. \ref{CategoryOfPointedObjects}, then the sequence
+
+$$
+  [A,hofib(f)]_\ast \overset{i_\ast}{\longrightarrow} [A,X]_\ast \overset{f_\ast}{\longrightarrow} [A,Y]_{\ast}
+$$
+
+is [[exact sequence|exact]] (the sequence being the image of the [[homotopy fiber]] sequence of def. \ref{HomotopyFiber} under the hom-functor of the pointed [[homotopy category of a model category]]
+
+$$
+  [A,-]_\ast \;\colon\; Ho(\mathcal{C}^{/\ast}) \longrightarrow Set^{\ast/}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may choose representatives such that $A$ is cofibrant, and $f$ is a fibration. Then we are faced with an ordinary pullback diagram
+
+$$
+  \array{
+    hofib(f) &\overset{i}{\longrightarrow}& X
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    \ast &\longrightarrow& Y
+  }
+$$ 
+
+and the hom-classes are represented by genuine morphisms in $\mathcal{C}$. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$. Hence it remains to show that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
+
+But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
+
+$$
+  \array{
+     && A &\overset{\alpha}{\longrightarrow}& X
+     \\
+     && {}^{\mathllap{i_0}}\downarrow &{}^{\tilde \eta}\nearrow& \downarrow^{\mathrlap{p}}
+     \\
+     A &\overset{i_1}{\longrightarrow} & Cyl(A) &\overset{\eta}{\longrightarrow}& Y
+     \\
+     \downarrow && && \downarrow^{\mathrlap{=}}
+     \\
+     \ast && \longrightarrow && Y
+  }
+  \,.
+$$
+
+Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square here has a lift $\tilde \eta$, as shown. This means that $i_1 \circ\tilde \eta$ is left homotopic to $\alpha$. But by the universal property of the fiber, $i_1 \circ \tilde \eta$ factors through $i \colon hofib(f) \to X$.
+
+=--
+
+
 
 ### In homotopy type theory
 
@@ -888,9 +1033,13 @@ Classical textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], prop. 3.2.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-The construction in the axiomatioc homotopy theory of [[model categories]] is due to 
+The construction in the axiomatic homotopy theory of [[model categories]] is due to 
 
 * {#Quillen67} [[Daniel Quillen]], chapter I.3 of  _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
+
+and in the context of [[categories of fibrant objects]] due to 
+
+* {#Brown73} [[Kenneth Brown]], section 4 of _[[BrownAHT|Abstract Homotopy Theory and Generalized sheaf Cohomology]]_, 1973 .
 
 
 A discussion of fiber sequences in terms of [[associated ∞-bundles]] is in
