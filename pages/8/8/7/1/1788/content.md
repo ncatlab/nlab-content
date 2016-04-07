@@ -1,25 +1,12 @@
 
-+-- {: .num_lemma}
-###### Lemma
-
-Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant obects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\tilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
-
 $$
   \array{
-    && X &\overset{f}{\longrightarrow}& Y
+    X'_1 &\overset{t}{\longrightarrow}& X_1 &\stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}& X_2
     \\
-    &\swarrow& \downarrow && \downarrow
+    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
+      && 
+    \downarrow^{\mathrlap{p_2}}_{\in Fib}
     \\
-    Path(X) &\underset{\in W \cap Fib}{\longleftarrow}& \widetilde{Path(X)} &\overset{\phi}{\longrightarrow}& Path(Y)
-    \\
-    &{}_{\mathllap{(p^X_0,p^X_1)}}\searrow& \downarrow^{\mathrlap{(p^Y_0,p^Y_1)}} && \downarrow^{\mathrlap{(\tilde p^X_0,\tilde p^X_1)}}
-    \\
-    && X \times X &\overset{(f,f)}{\longrightarrow}& Y \times Y
+    && B &\overset{u}{\longrightarrow}& C
   }
-  \,.
 $$
-
-=--
-
-([[BrownAHT|Brown 73, section 2, lemma 2]])
-
