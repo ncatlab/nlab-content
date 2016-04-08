@@ -78,7 +78,7 @@ Kinship systems are studied from a mathematical perspective in
 
 * Per Hage, Frank Harary, _The Logical Structure of Asymmetric Marriage_ , L'Homme **36** no.139 (1996) pp.109-124. ([link](http://www.persee.fr/doc/hom_0439-4216_1996_num_36_139_370120))
 
-* Paul Jorion, Gis&#232;le De Meur, Trudeke Vuyk, _Le mariage pende_  , L'Homme **22** no.1 (1982) pp.53-73. ([link](http://www.persee.fr/doc/hom_0439-4216_1982_num_22_1_368256))
+* Paul Jorion, Gis&#232;le De Meur, Trudeke Vuyk, _Le mariage Pende_  , L'Homme **22** no.1 (1982) pp.53-73. ([link](http://www.persee.fr/doc/hom_0439-4216_1982_num_22_1_368256))
 
 * Pin-Hsiung Liu, _Foundations of Kinship Mathematics_ , Academica Sinica Nankang 1986.
 
@@ -87,6 +87,8 @@ Kinship systems are studied from a mathematical perspective in
 * Gis&#232;le De Meur (ed.), _New Trends in Mathematical Anthropology_ , Routledge London 1986.
 
 * Gis&#232;le De Meur, Alain Gottcheiner, _Prescriptive Kinship Systems, Permutations, Groups, and Graphs_ , Math. Anthr. **1** no. 1 (2000). ([pdf](http://mathematicalanthropology.org/Pdf/MACTdeMEUR1100.pdf))
+
+* Franklin E. Tjon Sie Fat, _Representing Kinship: Simple Models of Elementary Structures_ , PhD. Leiden University 1990.
 
 * [[André Weil]], _Sur l'&#233;tude alg&#233;brique de certains types de lois de mariage (Syst&#232;me Murngin)_ , pp.257-263 in [L&#233;vi-Strauss (1949/1967)](#LS67).
 
