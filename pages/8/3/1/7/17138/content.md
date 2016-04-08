@@ -4046,6 +4046,7 @@ $$
 
 (obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _good [[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
+
 =--
 
 +-- {: .proof}
@@ -6048,6 +6049,7 @@ The two intermediate objects appearing here are called
 
 =--
 
+
 +-- {: .num_defn #SuspensionAndLoopSpaceObject}
 ###### Definition
 
@@ -6144,6 +6146,8 @@ For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder obj
 Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
+
+Below in prop. \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
 
 =--
 
@@ -6783,7 +6787,7 @@ Hence we say:
 +-- {: .num_defn #HomotopyFiber}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism, then its **[[homotopy fiber]]**
+Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism in its [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy fiber]]**
 
 $$
   hofib(f)\longrightarrow X
@@ -6791,7 +6795,50 @@ $$
 
 is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
 
+Dually:
+
+For $f \colon X \longrightarrow Y$ any morphism in its [[category of cofibrant objects]] $\mathcal{C}_c$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy cofiber]]**
+
+$$
+  Y \longrightarrow hocofib(f)
+$$
+
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any cofibration resolution of $f$ .
+
+
 =--
+
+In topological homotopy theory this becomes the following:
+
++-- {: .num_prop #StandardTopologicalMappingConeIsHomotopyCofiber}
+###### Proposition
+
+For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the attaching space (example \ref{PushoutInTop}) 
+
+$$
+  Y \cup_f Cone(X) \;\; \in Top
+$$
+
+of $Y$ with the standard cone $Cone(X)$ given collapsing one end of the standard topological cyclinder $X \times I$ (def. \ref{TopologicalInterval}) as shown in example \ref{MappingConesInTopologicalSpaces}. 
+
+Equipped with the canonical continuous function
+
+$$
+  Y \longrightarrow Y \cup_f Cone(X)
+$$
+
+this is represents the [[homotopy cofiber]], def. \ref{HomotopyFiber}, of $f$ in $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{StandardContractionOfStandardInterval}, for $X$ a [[CW-complex]] then the standard topological cylinder object $X\times I$ is indeed a good cyclinder object in $Top_{Quillen}$. Therefore by prop. \ref{ConeAndMappingCylinder} and the [[factorization lemma]] \ref{FactorizationLemma}, the mapping cone construction indeed produces first a cofibrant replacement of $f$ and then the ordinary cofiber of that, hence a model for the homotopy cofiber.
+
+=--
+
+
 
 We may now state the abstract version of the statement of prop. \ref{SerreFibrationGivesExactSequenceOfHomotopyGroups}:
 
