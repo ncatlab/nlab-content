@@ -159,9 +159,9 @@ The computation of [[homotopy groups]] of spectra that make use of their decompo
 
 ### S) Complex oriented cohomology
 
-For this reason special importance is carried by those [[E-∞ rings]] such that $Spec(E) \to Spec(\mathbb{S})$ is already a [[covering]], for these the $E$-[[∞-modules]] equipped with descent data give an equivalent, but in general more tractable, incarnation of the stable homotopy theory of spectra.
+For this reason special importance is carried by those [[E-∞ rings]] such that $Spec(E) \to Spec(\mathbb{S})$ is already a [[covering]], in a suitable sense, for these the $E$-[[∞-modules]] equipped with descent data give an equivalent, but in general more tractable, incarnation of the stable homotopy theory of spectra.
 
-Curiously, this way a good bit of [[differential topology]] -- [[cobordism theory]] -- arises within stable homotopy theory: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ is $E = $ [[MU]], the [[Thom spectrum]] representing [[complex cobordism cohomology]].
+Curiously, this way a good bit of [[differential topology]] -- [[cobordism theory]] -- arises within stable homotopy theory: the archetypical $Spec(E)$ which covers $Spec(\mathbb{S})$ in a suitable sense is $E = $ [[MU]], the [[Thom spectrum]] representing [[complex cobordism cohomology]].
 
 An [[commutative ring spectrum]] $E$ over $MU$, hence a $Spec(E)\to Spec(MU)$ is now a [[multiplicative cohomology theory|multiplicative]] "[[complex oriented cohomology theory]]". 
 
