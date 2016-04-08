@@ -170,11 +170,11 @@ The [[p-localization]] of $MU$ decomoses into the
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy theory and generalized homology_, Chicago lectures in mathematics, 1974
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
- 
+* {#Landweber70} [[Peter Landweber]], _On the complex bordism and cobordism of infinite complexes_, Bull. Amer. Math. Soc. Volume 76, Number 3 (1970) ([Euclid](http://projecteuclid.org/euclid.bams/1183531832)) 
+
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986
 
 * {#Hopkins99} [[Mike Hopkins]], section 4 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
-
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 5 _Complex bordism_ 
 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
