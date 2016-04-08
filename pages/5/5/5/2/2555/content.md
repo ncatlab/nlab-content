@@ -72,6 +72,14 @@ If $C$ has the structure of a [[model category]] then "nice" means that $X \copr
 
 * [[cylinder spectrum]]
 
+## References
+
+The precise argument that for $X$ a [[cell complex]] then also the standard cyclinder $X\times I$ is a cell complex is spelled out for instance as prop. 2.9 in 
+
+* {#Ottina14} Ottina, _An A-based cofibrantly generated model category_ ([arXi:1405.2086](http://arxiv.org/abs/1405.2086))
+
+
+
 [[!redirects cylinder objects]]
 [[!redirects cylinder]]
 [[!redirects cylinders]]
