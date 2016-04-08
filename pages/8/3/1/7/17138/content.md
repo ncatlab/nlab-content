@@ -5523,7 +5523,7 @@ Given two pointed objects $(X,x)$ and $(Y,y)$, then:
      \,.
    $$
 
-   This is called the _[[wedge sum]]_ operation.
+   This is called the _[[wedge sum]]_ operation on pointed objects.
 
 =--
 
@@ -5564,9 +5564,15 @@ $$
   }
   \,.
 $$
-
  
 =--
+
+These two operations are going to be ubiquituous in [[stable homotopy theory]]:
+
+| symbol | name | category theory |
+|--------|------|-----------------|
+| $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
+| $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
 
 
 +-- {: .num_defn #FiberAndCofiberInPointedObjects}
@@ -5815,6 +5821,19 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
+   This is also equivalently the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$ 
+
+   $$
+     X \vee X
+      =
+     X \sqcup X 
+      \overset{(i_0,i_1)}{\longrightarrow}
+     Cyl(X)
+     \longrightarrow
+     \Sigma X
+     \,.
+   $$
+
 
 1. The [[mapping cocone]], def. \ref{ConeAndMappingCylinder}, of $\ast \to X$ is called the **[[loop space object]]** of $X$, denoted
 
@@ -5840,7 +5859,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   This is also equivalently the [[fiber]] of $(p_0,p_1)$: 
+   This is also equivalently the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(p_0,p_1)$: 
 
    $$
      \Omega X 
@@ -6450,7 +6469,7 @@ The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says 
 +-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
 ###### Lemma
 
-In [[pointed objects]] $\mathcal{C}_f^{\ast/}$ of a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
+In the [[category of fibrant objects]] $(\mathcal{C}^{\ast/})_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, of a [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -6463,7 +6482,7 @@ $$
   \,.
 $$
 
-If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism in the left
+If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism on the left
 
 =--
 
