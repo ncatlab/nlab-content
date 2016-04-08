@@ -243,7 +243,7 @@ See _[[table - models for (∞,1)-categories]]_.
 
 ## A model-independent approach
 
-In practice, it can be useful to be able to treat all "presentations of $(\infty,1)$-categories" on the same equal footing (e.g. relative categories and topologically-enriched categories).  While truly model-independent foundations of $(\infty,1)$-category theory do not (yet) exist, this can be accomplished _within_ any model of $(\infty,1)$-categories, which process we proceed to describe.  As quasicategories are by far the most well-developed, we use them as an ambient framework.  We also take care to make as few choices (even "contractible" ones) as possible.  However, we do not explicitly mention set-theoretic issues, though these are easily handled using Grothendieck universes.
+In practice, it can be useful to be able to treat all "presentations of $(\infty,1)$-categories" on the same equal footing (e.g. relative categories and topologically-enriched categories).  While truly model-independent foundations of $(\infty,1)$-category theory do not (yet) exist, this can be accomplished _within_ any model of $(\infty,1)$-categories, which we proceed to describe.  As quasicategories are by far the most well-developed, we use them as an ambient framework.  We also take care to make as few choices (even "contractible" ones) as possible.  However, we do not explicitly mention set-theoretic issues, though these are easily handled using Grothendieck universes.
 
 1. Consider the $Kan$-enriched category $\underline{QCat}$ of quasicategories; for quasicategories $C$ and $D$, the Kan complex of morphisms between them is $\underline{hom}_{\underline{QCat}} = \iota(\underline{hom}_{sSet}(C,D))$, the largest Kan complex contained in their internal hom simplicial set.
 
