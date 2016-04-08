@@ -154,18 +154,14 @@ Because the sphere spectrum is the [[initial object]] in $E_\infty Ring$.
 The crucial input for the entire construction is the following statement.
 
 
-+-- {: .num_prop}
-###### Proposition
 
-The formal dual of the [[complex cobordism cohomology|complex cobordism]] [[Thom spectrum]] $M U$ is a [[well-supported object]] in $\mathbf{H}$, in that the morphism 
+The idea is that the formal dual of the [[complex cobordism cohomology|complex cobordism]] [[Thom spectrum]] $M U$ is in a suitable sense a covering
 
 $$
-  Spec M U \to *
+  Spec M U \to  Spec \mathbb{S}
 $$
 
-to the [[terminal object]] in $\mathbf{H}$ is an [[effective epimorphism]].
-
-=--
+of the [[terminal object]] in $\mathbf{H}$. (See at _[Adams spectral sequence -- As derived descent](Adams%20spectral%20sequence#DefinitionInHigherAlgebra)_)
 
 
 This means that $Spec M U$ plays the role of a [[cover]] of the point. This allows to do some computations with ring spectra _locally on the cover $Spec M U$_ . Since $M U^*$ is the [[Lazard ring]], this explains why [[formal group law]]s show up all over the place.
