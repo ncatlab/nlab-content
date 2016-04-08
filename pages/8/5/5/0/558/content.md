@@ -91,6 +91,8 @@ The [[2-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s, and [[natural transf
 
 =--
 
+See [[homotopy hypothesis for 1-types]] for more.
+
 ### For 2-groupoids
  {#For2Groupoids}
 
