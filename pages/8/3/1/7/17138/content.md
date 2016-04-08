@@ -378,12 +378,6 @@ The limit over the empty diagram in $Top$ is the [[point]] $\ast$ with its uniqu
 
 =--
 
-+-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
-###### Example
-
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[coproduct]] $\underset{i \in I}{\sqcup} X_i \in Top$ is their _[[disjoint union]]_.
-
-=--
 
 +-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
 ###### Example
@@ -600,7 +594,7 @@ A _[[limit ordinal]]_ is one that is not a successor.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ExamplesOfOrdinals}
 ###### Example
 
 The finite ordinals are labeled by $n \in \mathbb{N}$, corresponding to the well-orders $\{0 \leq 1 \leq 2 \cdots \leq n\}$. Here $(n+1)$ is the successor of $n$. The first limit ordinal is $\omega = [(\mathbb{N}, \leq)]$.
@@ -720,7 +714,7 @@ between continuous functions out of any [[product topological space]] of $Y$ wit
 A proof is spelled out [here](compact-open+topology#GivesExponentialObject). 
 (or see e.g. [Aguilar-Gitler-Prieto 02, prop. 1.3.1](#AguilarGitlerPrieto02))
 
-+-- {: .num_remark}
++-- {: .num_remark #UseOfHausdorffnessInCOTopology}
 ###### Remark
 
 In the context of prop. \ref{MappingTopologicalSpaceIsExponentialObject} it is often assumed that $Y$ is also a [[Hausdorff topological space]]. But this is not necessary. What assuming Hausdorffness only achieves is that all alternative definitions of "locally compact" become equivalent to the one that is needed for the proposition: for every point, every open neighbourhood contains a compact neighbourhood.
@@ -1030,7 +1024,7 @@ Of course the concept of left homotopy in def. \ref{LeftHomotopy} is accompanied
 +-- {: .num_defn #TopologicalPathSpace}
 ###### Definition
 
-For $X$ a [[topological space]], its **[[path space object]]** is the topological [[mapping space]] $X^I$, prop. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
+For $X$ a [[topological space]], its **standard topological [[path space object]]** is the topological [[mapping space]] $X^I$, prop. \ref{MappingTopologicalSpaceIsExponentialObject}, out of the standard interval $I$ of def. \ref{TopologicalInterval}.
 
 
 =--
@@ -2719,7 +2713,7 @@ $$
   \,.
 $$
 
-where $X\to Path(X)$ is a weak equivalence. This is called a **good path object** if in addition $Path(X) \to X \times X$ is a fibration.
+where $X\to Path(X)$ is a weak equivalence. This is called a **good path space object** if in addition $Path(X) \to X \times X$ is a fibration.
 
 * A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X X \sqcup X \to X$ as
 
@@ -2737,11 +2731,8 @@ where $Cyl(X) \to X$ is a weak equivalence. This is called a **good cylinder obj
 +-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
 ###### Remark
 
-By the factorization axioms every object in a model category has both a good path object and as well as a good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
-
-For instance in the [[classical model structure on topological spaces]], the obvious object $X\times [0,1]$ is a cylinder object, but not a good cylinder unless $X$ itself is cofibrant (a [[cell complex]] in this case).
-
-More generally, the path object $Path(X)$ of def. \ref{PathAndCylinderObjectsInAModelCategory} is analogous to the [[powering]] $\pitchfork(I,X)$ with an [[interval object]] and the cyclinder object $Cyl(X)$ is analogous to the [[tensoring]]  with a cylinder object $I\odot X$.  In fact, if $\mathcal{C}$ is a $V$-[[enriched model category]] and $X$ is fibrant/cofibrant, then these powers and copowers  are in fact examples of (good) path and cylinder objects if the [[interval object]] is sufficiently good. 
+By the factorization axioms every object in a model category has both a good path space object and as well as a good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
+For instance in the [[classical model structure on topological spaces]] which we establish below (theorem \ref{TopQuillenModelStructure}), the standard topological cylinder $X\times [0,1]$ from def.\ref{TopologicalInterval} is a cylinder object, but not a good cylinder unless $X$ itself is a [[CW-complex]] (prop. \ref{StandardContractionOfStandardInterval} below).
 
 =--
 
@@ -4034,12 +4025,152 @@ define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}
 +-- {: .num_remark} 
 ###### Remark
 
-Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets) ) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
 
 =--
 
-(...)
+We conclude this section by checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
++-- {: .num_prop #StandardContractionOfStandardInterval}
+###### Proposition
+
+Let $X$ be a [[CW-complex]], def. \ref{TopologicalCellComplex}. Then the standard topological cylinder of def. \ref{TopologicalInterval}
+
+$$
+  X \sqcup X
+   \overset{(i_0,i_1)}{\longrightarrow}  
+  X\times I
+   \longrightarrow
+  X
+$$ 
+
+(obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _good [[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We describe the proof informally. It is immediate how to turn this into a formal proof, but the notation becomes tedious. (One place where it is spelled out completely is [Ottina 14, prop. 2.9](cylinder+object#Ottina14).)
+
+So let $X_0 \to X_1 \to X_2\to \cdots \to X$ be a presentation of $X$ as a CW-complex. Proceed by induction on the cell dimension. 
+
+First observe that the cylinder $X_0 \times I$ over $X_0$ is a cell complex: First $X_0$ itself is a disjoint union of points. Adding a second copy for every point (i.e. attaching along $S^{-1}\to D^0$) yields $X_0 \sqcup X_0$, then attaching an inteval between any two corresponding points (along $S^0 \to D^1$) yields $X_0 \times I$.
+
+So assume that for $n \in \mathbb{N}$ it has been shown that $X_n \times I$ has the structure of a CW-complex of dimension $(n+1)$. Then for each cell of $X_{n+1}$, attach it _twice_ to $X_n \times I$, once at $X_n \times \{0\}$, and once at $X_n \times \{1\}$.
+
+The result is $X_{n+1}$ with a _hollow cylinder_ erected over each of its $(n+1)$-cells. Now fill these hollow cylinders (along $S^{n+1} \to D^{n+1}$)$ to obtain $X_{n+1}\times I$.
+
+This completes the induction, hence the proof of the CW-structure on $X\times I$.
+
+The construction also manifestly exhibits the inclusion $X\squcp X \overset{(i_0,i_1)}{\longrightarrow}$ as a [[relative cell complex]].
+
+Finally, it is clear (prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}) that $X \times I \to X$ is a weak homotopy equivalence.
+
+=--
+
+Conversely:
+
++-- {: .num_prop }
+###### Proposition
+
+Let $X$ be any [[topological space]]. Then the standard topological [[path space object]] (def. \ref{TopologicalPathSpace})
+
+$$
+  X 
+    \longrightarrow 
+  X^I 
+    \overset{(X^{\delta_0}, X^{\delta_1})}{\longrightarrow}
+  X \times X
+$$
+
+(obtained by forming the [[mapping space]], def. \ref{CompactOpenTopology}, with the standard topological intervall $I = [0,1]$) is indeed a _good [[path space object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that $const \colon X\to X^I$ is a [[weak homotopy equivalence]] it is sufficient, by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, to exhibit a [[homotopy equivalence]]. Let the homotopy inverse be $X^{\delta_0} \colon X^I \to X$. Then the composite
+
+$$
+  X \overset{const}{\longrightarrow} X^I \overset{X^{\delta_0}}{\longrightarrow} X
+$$
+
+is already equal to the identity. The other we round, the rescaling of paths provides the required homotopy
+
+$$
+  \array{
+    I \times X^I &\overset{(t,\gamma)\mapsto \gamma(t\cdot(-))}{\longrightarrow}& 
+    X^I
+  }
+  \,.
+$$
+
+
+To see that $X^I \to X\times X$ is a fibration, we need to show that every commuting square of the form
+
+$$
+  \array{
+    D^n &\longrightarrow& X^I
+    \\
+    {}^{\mathllap{i_0}}\downarrow && \downarrow^{}
+    \\
+    D^n \times I &\longrightarrow& X \times X
+  }
+$$
+
+has a lift. 
+
+Now first use the [[adjunction]] $(I \times (-))\dashv (-)^I$ from prop. \ref{MappingTopologicalSpaceIsExponentialObject} to rewrite this equivalently as the following commuting square:
+
+$$
+  \array{
+    D^n \sqcup D^n 
+      &\overset{(i_0, i_0)}{\longrightarrow}& 
+    (D^n \times I) \sqcup (D^n \times I)
+    \\
+    {}^{\mathllap{(i_0, i_1)}}\downarrow && \downarrow
+    \\
+    D^n \times I &\longrightarrow& X
+  }
+  \,.
+$$
+
+This square is equivalently (example \ref{PushoutInTop}) a morphism out of the [[pushout]]
+
+$$
+  D^n \times I 
+    \underset{D^n \sqcup D^n }{\sqcup}
+  (D^n \times I) \sqcup (D^n \times I)
+  \longrightarrow
+  X
+  \,.
+$$
+
+By the same reasoning, a lift in the original diagram is now equivalently a lifting in 
+
+$$
+  \array{
+    D^n \times I 
+      \underset{D^n \sqcup D^n }{\sqcup}
+    (D^n \times I) \sqcup (D^n \times I)
+    &\longrightarrow&
+    X
+    \\
+    \downarrow && \downarrow
+    \\
+    (D^n \times I)\times I &\longrightarrow& \ast
+  }
+  \,.
+$$
+
+Inspection of the component maps shows that the left vertical morphism here is the inclusion into the square times $D^n$ of three of its faces times $D^n$. This is homeomorphic to the inclusion $D^{n+1} \to D^{n+1} \times I$ (as in remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}). Therefore a lift in this square exsists, and hence a lift in the original square exists.
+
+
+
+
+=--
 
 
 ### **P.2)** Simplicial homotopy theory 
@@ -7001,7 +7132,7 @@ By combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{E
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_remark }
 ###### Remark
 
 These long exact sequences of homotopy groups play the key role below in the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum).
