@@ -1,0 +1,125 @@
+# Contents
+* table of contents
+{: toc}
+
+## Introduction
+
+We give a proof that [[groupoid | groupoids]] model [[homotopy 1-type | homotopy 1-types]]. More precisely, we construct a Quillen equivalence between a model structure on the category of groupoids, and a certain model structure on the category of cubical sets.
+
+## Preliminaries
+
++-- {: .num_defn}
+###### Notation
+
+We denote the category of [[groupoid | groupoids]] by $\mathsf{Grpd}$.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\square_{\leq 1}$ the category defined uniquely (up to isomorphism) by the following.
+
+1) There are exactly two objects, which we shall denote by $I^{0}$ and $I^{1}$.
+
+2) There are exactly two arrows $i_{0}, i_{1} : I^{0} \rightarrow I^{1}$.
+
+3) There is exactly one arrow $p : I^{1} \rightarrow I^{0}$.
+
+4) There are no other non-identity arrows.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\square_{\leq 1}$ the category defined uniquely (up to isomorphism) by the following.
+
+1) There are exactly two objects, which we shall denote by $I^{0}$ and $I^{1}$.
+
+2) There are exactly two arrows $i_{0}, i_{1} : I^{0} \rightarrow I^{1}$.
+
+3) There is exactly one arrow $p : I^{1} \rightarrow I^{0}$.
+
+4) There are no other non-identity arrows.
+
+=--
+
++-- {: .num_rmk}
+###### Remark
+
+In particular, the diagram 
+
+$$
+   \array{
+      I^{0}  &  \overset{i_{0}}{\to}                          & I^{1} \\
+                 &  \underset{id}{\searrow}                    & \downarrow p \\
+                 &                                                             & I^{0}
+   }
+$$
+
+commutes in $\square_{\leq 1}$, and the diagram 
+
+$$
+   \array{
+      I^{0}  &  \overset{i_{1}}{\to}                          & I^{1} \\
+                 &  \underset{id}{\searrow}                    & \downarrow p \\
+                 &                                                             & I^{0}
+   }
+$$
+
+commutes in $\square_{\leq 1}$.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\square$ the [[free strict monoidal category]] on $\square_{\leq 1}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to $\square$ as the _category of cubes_.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\mathsf{Set}^{\square^{op}}$ the [[free co-completion]] of $\square$, or, more explicitly, the category of presheaves of sets on $\square$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to an object of $\mathsf{Set}^{\square^{op}}$ as a _cubical set_, and to an arrow of $\mathsf{Set}^{\square^{op}}$ as a _morphism of cubical sets_.
+
+=--
+
+## Fundamental groupoid adjunction
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\Pi_{\leq 1} : \square_{\leq 1} \rightarrow \mathsf{Grpd}$ the functor determined uniquely by the following.
+
+1) We define $\Pi_{\leq 1}(I^{0})$ to be the unique (up to isomorphism) groupoid with a single object and a single arrow. We can also describe $\Pi_{\leq 1}(I^{0})$ as the free groupoid on the directed graph with the same description.
+
+2) We define $\Pi_{\leq 1}(I^{1})$ to be the groupoid determined uniquely (up to isomorphism) by the following.
+
+a) There are exactly two objects, which we shall denote by $0$ and $1$.
+
+b) There is exactly one arrow $i : 0 \rightarrow 1$.
+
+c) There is exactly one arrow $i^{-1} : 1 \rightarrow 0$.
+
+d) There are no other non-identity arrows.
+
+We can also describe $\Pi_{\leq 1}(I^{1})$ as the free groupoid on the directed graph described by a) and b). 
+
+=--
+
