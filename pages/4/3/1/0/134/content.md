@@ -111,9 +111,9 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
    Hence
 
    $$
-     \underset{\longleftarrow}{\lim}_{i \in I} X_i  
+     \underset{\longrightarrow}{\lim}_{i \in I} X_i  
      \simeq
-     \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
+     \left(\underset{\longrightarrow}{\lim}_{i \in I} S_i,\; \tau_{final}(\{\iota_i\}_{i \in I})\right)
    $$
 
 =--
