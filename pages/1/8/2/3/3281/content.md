@@ -25,20 +25,25 @@
 
 ## Idea
 
-A _stable model category_ is a 1-[[category]] structure used to present a [[stable (∞,1)-category]] in analogy to how a general [[model category]] encodes a general [[(∞,1)-category]].
+A _stable model category_ is a 1-[[category]] structure used to present a [[stable (∞,1)-category]] in analogy to how a general [[model category]] encodes a (generally non-stable) [[(∞,1)-category]].
 
 
 ## Defintion
 
-A **stable model category** $C$ is
+A **stable model category** $\mathcal{C}$ is
 
 * a [[pointed category|pointed]] [[model category]]
 
-* such that the [[loop space object]] functor $\Omega$ and the [[suspension object]] functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category]] $Ho(C)$:
+* such that the [[loop space object]] functor $\Omega$ and the [[suspension object]] functor $\Sigma$, are inverse [[equivalence of categories|equivalences]] on the [[homotopy category of a model category|homotopy category]] $Ho(C)$:
 
   $$ 
-    \Omega : Ho(C) \stackrel{\overset{\simeq}{\leftarrow}}{\underset{\simeq}{\to}} : 
-   Ho(C) : \Sigma
+    \Omega 
+    \colon 
+    Ho(\mathcal{C}) 
+     \stackrel{\overset{\simeq}{\longleftarrow}}{\underset{\simeq}{\longrightarrow}}  
+   Ho(\mathcal{C}) 
+   \colon 
+  \Sigma
    \,.
   $$
 
