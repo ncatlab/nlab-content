@@ -5559,7 +5559,7 @@ $$
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #BasePointAdjoined}
 ###### Definition
 
 Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
@@ -5591,14 +5591,14 @@ It is immediate to check the relevant [[universal property]]. For details see at
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #WedgeSumAsCoproduct}
 ###### Example
 
 Given two pointed objects $(X,x)$ and $(Y,y)$, then:
 
-1. their [[product]] in $\mathcal{C}^{\ast/}$ is $(X\times Y, (x,y))$;
+1. their [[product]] in $\mathcal{C}^{\ast/}$ is simply $(X\times Y, (x,y))$;
 
-1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ is the [[pushout]] in $\mathcal{C}$ of the form:
+1. their [[coproduct]] in $\mathcal{C}^{\ast/}$ has to be computed using the second clause in prop. \ref{LimitsAndColimitsOfPointedObjects}: since the point $\ast$ has to be adjoined to the diagram, it is given not by the coproduct in $\mathcal{C}$, but by the [[pushout]] in $\mathcal{C}$ of the form:
 
    $$
      \array{
@@ -5652,6 +5652,13 @@ $$
   }
   \,.
 $$
+
+In terms of the [[wedge sum]] from def. \ref{WedgeSumAsCoproduct}, this may be written concisely as
+
+$$
+  X \wedge Y = \frac{X\times Y}{X \vee Y}
+  \,.
+$$
  
 =--
 
@@ -5661,6 +5668,36 @@ These two operations are going to be ubiquituous in [[stable homotopy theory]]:
 |--------|------|-----------------|
 | $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
 | $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
+
++-- {: .num_example #StandardReducedCyclinderInTop}
+###### Example
+
+Let $\mathcal{C}^{\ast/} = Top^{\ast/}$ be [[pointed topological spaces]]. Then 
+
+$$
+  I_+ \in Top^{\ast/}
+$$
+
+denotes the standard interval object $I = [0,1]$ from def. \ref{TopologicalInterval}, with a djoint basepoint adjoined, def. \ref{BasePointAdjoined}. Now for $X$ any [[pointed topological space]], then 
+
+$$
+  X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
+$$
+
+is the **reduced cyclinder** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+
+(Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
+
+
+Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the based cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+  \,.
+$$
+
+=--
+
 
 
 +-- {: .num_defn #FiberAndCofiberInPointedObjects}
@@ -5742,8 +5779,7 @@ Instead of going through the full theory of what this means, we observe that thi
 +-- {: .num_defn #MappingConeAndMappingCocone}
 ###### Definition
 
-Let $\mathcal{C}$ a [[model category]], def. \ref{ModelCategory}. 
-
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. 
 For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $\mathcal{C}_c\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cone]]_ is the object 
 
 $$
@@ -5886,7 +5922,7 @@ The two intermediate objects appearing here are called
 
 Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
 
-1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the **[[suspension]]** of $X$, denoted 
+1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the ([[reduced suspension|reduced]]) **[[suspension]]** of $X$, denoted 
 
    $$
      \Sigma X = Cone(X\to\ast)\,.
@@ -5909,7 +5945,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   This is also equivalently the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$ 
+   This is also equivalently the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
 
    $$
      X \vee X
@@ -5974,7 +6010,7 @@ For $\mathcal{C} =$ [[Top]] with $Cyl(X) = X\times I$ the standard cyclinder obj
 
 1. shrinking the other end of the cylinder to the point.
 
-Accoringly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
+Accordingly the [[suspension]] of a topological space is the result of shrinking both ends of the cylinder on the object two the point. This is homeomoprhic to attaching two copies of the cone on the space at the base of the cone.
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
 
