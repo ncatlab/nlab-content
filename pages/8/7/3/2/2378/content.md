@@ -139,7 +139,7 @@ To demonstrate this, we make the following observations.
 
 5) By 3), we have that $\{x \} \times A \subset f^{-1}(U) \cap (X \times A)$. 
 
-6) Since $A \in \mathcal{O}^{c}_{Y}$, it follows from 4), 5), and the tube lemma that there is a $U' \in \mathcal{O}_{X}$ such that $x \in U'$ and such that $U' \times A \subset f^{-1}(U) \cap (X \times A) \subset f^{-1}(U)$.
+6) Since $A \in \mathcal{O}^{c}_{Y}$, it follows from 4), 5), and the [[tube lemma]] that there is a $U' \in \mathcal{O}_{X}$ such that $x \in U'$ and such that $U' \times A \subset f^{-1}(U) \cap (X \times A) \subset f^{-1}(U)$.
 
 7)  We deduce from 6) that $f(U' \times A) \subset U$. This is the same as to say that $f_{x'}(a) \in U$ for all $x' \in U'$. Thus $f_{x'}$ belongs to $M_{A,U}$ for all $x' \in U'$, which is the same as to say that $\alpha_{f}(U') \subset M_{A,U}$.
 
