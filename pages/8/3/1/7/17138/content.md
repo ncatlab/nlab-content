@@ -4017,17 +4017,33 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 
 * $C = $ [[retracts]] of [[relative cell complexes]]
 
-define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}$.
+define a [[model category]] structure (def. \ref{ModelCategory})  $Top_{Quillen}$, the "[[classical model structure on topological spaces]]".
+
+=--
+
+Hence we get:
+
++-- {: .num_defn #ClassicalHomotopyCategory} 
+###### Definition
+
+The _[[classical homotopy category]]_ is the [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory}, of the [[classical model structure on topological spaces]] $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}: we write 
+
+$$
+  Ho(Top) \coloneqq Ho(Top_{Quillen})
+  \,.
+$$
 
 =--
 
 
-+-- {: .num_remark} 
+
++-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex} 
 ###### Remark
 
-Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets) ) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
 
 =--
+
 
 We conclude this section by checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
@@ -4060,7 +4076,7 @@ First observe that the cylinder $X_0 \times I$ over $X_0$ is a cell complex: Fir
 
 So assume that for $n \in \mathbb{N}$ it has been shown that $X_n \times I$ has the structure of a CW-complex of dimension $(n+1)$. Then for each cell of $X_{n+1}$, attach it _twice_ to $X_n \times I$, once at $X_n \times \{0\}$, and once at $X_n \times \{1\}$.
 
-The result is $X_{n+1}$ with a _hollow cylinder_ erected over each of its $(n+1)$-cells. Now fill these hollow cylinders (along $S^{n+1} \to D^{n+1}$)$ to obtain $X_{n+1}\times I$.
+The result is $X_{n+1}$ with a _hollow cylinder_ erected over each of its $(n+1)$-cells. Now fill these hollow cylinders (along $S^{n+1} \to D^{n+1}$) to obtain $X_{n+1}\times I$.
 
 This completes the induction, hence the proof of the CW-structure on $X\times I$.
 
@@ -5666,10 +5682,10 @@ This is immediate by inspection.
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #ClassicalPointedHomotopyCategory}
 ###### Example
 
-For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$.
+For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _classical pointed homotopy theory_ $Ho(Top^{\ast/})$.
 
 =--
 
@@ -6827,7 +6843,7 @@ $$
   Y \longrightarrow Y \cup_f Cone(X)
 $$
 
-this is represents the [[homotopy cofiber]], def. \ref{HomotopyFiber}, of $f$ in $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}.
+this represents the [[homotopy cofiber]], def. \ref{HomotopyFiber}, of $f$ with respect to the [[classical model structure on topological spaces]] $\mathcal{C}= Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}.
 
 =--
 
@@ -14366,6 +14382,199 @@ An important example of a generalised cohomology theory other than [[ordinary co
 **Literature.** ([Aguilar-Gitler-Prieto 02, section 12 and section 9](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96)).
 
 
+$\,$
+
+The traditional formulation of (reduced) generalized cohomology in terms of point-set topology is this:
+
++-- {: .num_defn #ReducedGeneralizedCohomology}
+###### Definition
+
+A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
+
+$$
+  \tilde E^\bullet 
+   \;\colon\; 
+  (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from the [[opposite category|opposite]] of [[pointed topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]] to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
+
+$$
+  \tilde E 
+    \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+    \mapsto
+  (\tilde E^\bullet(Y) 
+    \stackrel{f^\ast}{\longrightarrow}
+  \tilde E^\bullet(X))
+  \,,
+$$
+
+and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
+
+$$
+  \tilde E^\bullet(-) 
+   \overset{\simeq}{\longrightarrow} 
+   \tilde E^{\bullet +1}(\Sigma -) 
+$$
+
+such that:
+
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+
+   $$
+     f_1^\ast = f_2^\ast
+     \,.
+   $$
+
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+
+   $$
+     \tilde E^\bullet(Cone(i)) 
+      \overset{j^\ast}{\longrightarrow} 
+     \tilde E^\bullet(X)
+       \overset{i^\ast}{\longrightarrow}
+     \tilde E^\bullet(A)
+     \,.
+   $$
+
+1. **([[wedge axiom|wedge]])** For $\vee_i X_i$ the [[wedge sum]] of a set of objects, then $E^\bullet$ takes it to a [[product]].
+
+=--
+
+(e.g. [AGP 02, def. 12.1.4](#AGP02))
+
+This is equivalent to the following more succinct homotopy-theoretic definition:
+
++-- {: .num_defn #ReducedGeneralizedCohomologyHomotopyTheoretically}
+###### Definition
+
+A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
+
+$$
+  \tilde E^\bullet 
+   \;\colon\; 
+  Ho(Top^{\ast/})^{op} \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from the [[opposite category|opposite]] of the pointed [[classical homotopy category]], def. \ref{ClassicalHomotopyCategory}, example \ref{ClassicalPointedHomotopyCategory}, to $\mathbb{Z}$-[[graded abelian groups]], and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
+
+$$
+  \tilde E^\bullet(-) 
+   \overset{\simeq}{\longrightarrow} 
+   \tilde E^{\bullet +1}(\Sigma -) 
+$$
+
+such that:
+
+1. it takes small [[wedge sums]] in $Ho(Top^{\ast/})$ to [[products]];
+
+1. it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ (def. \ref{HomotopyFiber}), to [[exact sequence|exact sequences]].
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The two definitions \ref{ReducedGeneralizedCohomology} and \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{TopQuillenModelStructure}, remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex} and corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}, the homotopy invariance axiom in def. \ref{ReducedGeneralizedCohomology} is equivalent to the functor passing to the classical pointed homotopy category. In view of this and by prop. \ref{StandardTopologicalMappingConeIsHomotopyCofiber}, on CW-complexes the standard topological mapping cone construction is a model for the [[homotopy cofiber]], this gives the equivalence of the two versions of the exactness axiom.
+
+=--
+
+From def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} it is natural to consider this more general definition:
+
++-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory} with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model category]], prop. \ref{ModelStructureOnSliceCategory}. 
+
+A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]] ** on $\mathcal{C}$ is 
+
+1. a [[functor]]
+
+   $$
+     E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
+   $$
+
+1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
+
+   $$
+     \delta \; \colon \; E^\bullet \longrightarrow E^{\bullet+1} \circ \Sigma
+   $$
+
+such that $E^\bullet$
+
+1. takes small [[coproducts]] to [[products]];
+
+1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
+
+=--
+
++-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
+###### Definition
+
+Given a generalized cohomology theory $(E^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+
+$$
+  X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
+  \stackrel{coker(g)}{\longrightarrow}
+  \Sigma X
+  \,,
+$$
+
+then the corresponding **[[connecting homomorphism]]** is the composite
+
+$$
+  \partial 
+    \;\colon\; 
+  E^\bullet(X)
+   \stackrel{\delta}{\longrightarrow}
+  E^{\bullet+1}(\Sigma X)
+   \stackrel{coker(g)^\ast}{\longrightarrow}
+  E^{\bullet+1}(Z)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
+###### Proposition
+
+The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
+
+$$
+  \cdots
+   \stackrel{\partial}{\longrightarrow}
+  E^{\bullet}(Z) 
+    \longrightarrow 
+  E^\bullet(Y) 
+    \longrightarrow 
+  E^\bullet(X)
+    \stackrel{\partial}{\longrightarrow}
+  E^{\bullet+1}(Z)
+   \to \cdots
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
+
+=--
+
+
+
 
 #### Brown representability theorem
  {#BrownRepresentabilityTheorem}
@@ -14387,26 +14596,25 @@ There is a slight refinement of the concept of generalized homology functors to 
 
 $\,$
 
-The [classical formulation](#ClassicalFormulation) of Brown representability is only superficially concerned with [[topological spaces]]. Instead, via the [[classical model structure on topological spaces]], one finds that the statement only concerns the [[simplicial localization]] of [[Top]] at the [[weak homotopy equivalences]], hence the [[(∞,1)-category]] $L_{whe} Top\simeq $ [[∞Grpd]].
+We discuss the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of model categories]] following ([Lurie, section 1.4.1](#LurieHigherAlgebra)). See also the exposition in ([Mathew 11](Brown+representability+theorem#Mathew11)).
 
-We discuss now the natural formulation of the Brown representability theorem for functors out of [[homotopy categories of (∞,1)-categories]] following ([Lurie, section 1.4.1](#LurieHigherAlgebra)). See also the exposition in ([Mathew 11](Brown+representability+theorem#Mathew11)).
 
 +-- {: .num_defn #BrownFunctorOnInfinityCategory}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[locally presentable (∞,1)-category]]. A [[functor]]
+Let $\mathcal{C}$ be a [[model category]]. A [[functor]]
 
 $$
   F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
 $$
 
-(from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy category]] of $\mathcal{C}$ to [[Set]])
+(from the [[opposite category|opposite]] of the [[homotopy category of a model category|homotopy category]] of $\mathcal{C}$ to [[Set]])
 
 is called a **[[Brown functor]]** if 
 
 1. it sends small [[coproducts]] to [[products]];
 
-1. it sends [[(∞,1)-pushouts]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
+1. it sends [[homotopy pushout]] in $\mathcal{C}\to Ho(\mathcal{C})$ to [[weak pullbacks]] in [[Set]]. 
 
 =--
 
@@ -14463,7 +14671,7 @@ is **compactly generated by cogroup objects closed under suspensions** if
 ###### Example
 **([[suspensions are H-cogroup objects]])**
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with a [[zero object]]. Write $\Sigma \colon X \mapsto 0 \underset{X}{\coprod} 0$ for the [[reduced suspension]] functor.
+Let $\mathcal{C}$ be a [[model category]] and $\mathcal{C}^{\ast/}$ its pointed model category, prop. \ref{ModelStructureOnSliceCategory} with [[zero object]], remark \ref{PointedObjectsHaveZeroObject}. Write $\Sigma \colon X \mapsto 0 \underset{X}{\coprod} 0$ for the [[reduced suspension]] functor.
 
 Then the [[fold map]]
 
@@ -14501,26 +14709,27 @@ $$
 +-- {: .num_example #TheClassicalPointedConnectedHomotopyCategoryAsDomainForTheAbstractBrownRepresentabilityTheorem}
 ###### Example
 
-In bare [[pointed homotopy types]] $\mathcal{C} = $[[∞Grpd]]${}^{\ast/}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. And of course they are [[compact object in an (∞,1)-category|compact objects]]. 
+In bare [[pointed homotopy types]] $\mathcal{C} = Top^{\ast/}_{Quillen}$, the ([[homotopy types]] of) [[n-spheres]] $S^n$ are [[cogroup]] objects for $n \geq 1$, but not for $n = 0$, by example \ref{SuspensionsAreHCogroupObjects}. And of course they are [[compact object in an (∞,1)-category|compact objects]]. 
 
-So while $\{S^n\}_{n \in \mathbb{N}}$ generates all of $\infty Grpd^{\ast/}$, the latter is _not_ an example of def. \ref{CompactGenerationByCogroupObjects} due to the failure of $S^0$ to have [[cogroup]] structure.
+So while $\{S^n\}_{n \in \mathbb{N}}$ generates all of the homotopy theory of $Top^{\ast/}$, the latter is _not_ an example of def. \ref{CompactGenerationByCogroupObjects} due to the failure of $S^0$ to have [[cogroup]] structure.
 
-Removing that generator, the $(\infty,1)$-category generated by $\{S^n\}_{{n \in \mathbb{N}} \atop {n \geq 1}}$ is $\infty Grpd^{\ast/}_{\geq 1}$, that of _[[connected object|connected]]_ [[pointed homotopy types]]. This is one way to see how the connectedness condition in the classical version of Brown representability theorem arises.
+Removing that generator, the homotopy theory generated by $\{S^n\}_{{n \in \mathbb{N}} \atop {n \geq 1}}$ is $Top^{\ast/}_{\geq 1}$, that of _[[connected object|connected]]_ [[pointed homotopy types]]. This is one way to see how the connectedness condition in the classical version of Brown representability theorem arises.
 
 =--
 
+
 See also ([Lurie, example 1.4.1.4](#LurieHigherAlgebra))
 
-In $\infty$-categories compactly generated by cogroup objects closed under forming suspensions, the following strenghtening of the [[Whitehead theorem]] holds.
+In homotopy theories compactly generated by cogroup objects closed under forming suspensions, the following strenghtening of the [[Whitehead theorem]] holds.
 
 +-- {: .num_prop #WhiteheadTheoremForCompactGenerationByCogroupObjects}
 ###### Proposition
 
-In an $(\infty,1)$-category compactly generated by cogroup objects $\{S_i\}_{i \in I}$ closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}, a morphism $f\colon X \longrightarrow Y$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for each $i \in I$ the induced function of maps in the [[homotopy category of an (infinity,1)-category|homotopy category]]
+In a  homotopy theory compactly generated by cogroup objects $\{S_i\}_{i \in I}$ closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}, a morphism $f\colon X \longrightarrow Y$ is an [[equivalence in an (infinity,1)-category|equivalence]] precisely if for each $i \in I$ the induced function of maps in the [[homotopy category of a model category|homotopy category]]
 
 $$
   Ho(\mathcal{C})(S_i,F)
-  \;\colon\;
+   \;\colon\;
   Ho(\mathcal{C})(S_i,X)
    \longrightarrow
   Ho(\mathcal{C})(S_i,Y)
@@ -14774,88 +14983,6 @@ it follows with $h$ being an equivalence that already $f$ and $g$ were homotopic
 
 
 
-
-+-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
-###### Definition
-
-Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[(∞,1)-pushouts]], and with a [[zero object]] $0 \in \mathcal{C}$. Write $\Sigma \colon \mathcal{C} \to \mathcal{C}\colon X\mapsto 0 \underset{X}{\sqcup} 0$ for the corresponding [[suspension]] [[(∞,1)-functor]].
-
-A **reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathcal{C}$ is 
-
-1. a [[functor]]
-
-   $$
-     H^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
-   $$
-
-
-   (from the [[opposite category|opposite]] of the [[homotopy category of an (infinity,1)-category|homotopy categiry]] of $\mathcal{C}$ into $\mathbb{Z}$-[[graded abelian groups]]);
-
-1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
-
-   $$
-     \delta \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
-   $$
-
-such that $H^\bullet$
-
-1. takes small [[coproducts]] to [[products]];
-
-1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
-
-=--
-
-+-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
-###### Definition
-
-Given a generalized cohomology theory $(H^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
-
-$$
-  X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
-  \stackrel{coker(g)}{\longrightarrow}
-  \Sigma X
-  \,,
-$$
-
-then the corresponding **[[connecting homomorphism]]** is the composite
-
-$$
-  \partial 
-    \;\colon\; 
-  H^\bullet(X)
-   \stackrel{\delta}{\longrightarrow}
-  H^{\bullet+1}(\Sigma X)
-   \stackrel{coker(g)^\ast}{\longrightarrow}
-  H^{\bullet+1}(Z)
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}
-###### Proposition
-
-The [[connecting homomorphisms]] of def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory} are parts of [[long exact sequences]]
-
-$$
-  \cdots
-   \stackrel{\partial}{\longrightarrow}
-  H^{\bullet}(Z) \longrightarrow H^\bullet(Y) \longrightarrow H^\bullet(X)
-  \stackrel{\partial}{\longrightarrow}
-  H^{\bullet+1}(Z)
-   \to \cdots
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By the defining exactness of $H^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
-
-=--
 
 +-- {: .num_prop #CohomologyFunctorOnInfinityCategoryIsBrownFunctor}
 ###### Proposition
