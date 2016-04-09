@@ -50,7 +50,27 @@ The polynomial $g = \sum_{i=0}^{k-1} r_i x^{d_k - d_i} f_i$ belongs to $I_k$, so
 
 =-- 
 
+## A homological characterization
 
++-- {: .num_theorem}
+###### Theorem
+For a unital ring $R$ the following are equivalent:
+
+1. $R$ is left Noetherian
+1. Any small direct sum of injective left $R$-modules is injective.
+1. $\operatorname{Ext}^k_R(A, \cdot)$ commutes with small direct sums for any finitely generated $A$.
+=--
+
++-- {: .proof} 
+###### Proof 
+$1 \Rightarrow 2$: assume that $R$ is Noetherian and $I_\alpha$ are injective modules. In order to verify that $I := \bigoplus_\alpha I_\alpha$ is injective it is enough to show that for any ideal $\mathfrak{j}$ any morphism of left modules $f : \mathfrak{j} \to I$ factors through $\mathfrak{j} \to R$. Since $R$ is Notherian, $\mathfrak{j}$ is finitely generated, so the image of $f$ lies in a finite sum $I_{\alpha_1} \oplus \dots \oplus I_{\alpha_n}$. Thus an extension to $R$ exists by the injectivity of each $I_{\alpha_k}$.
+
+$2 \Rightarrow 1$: if $R$ is not left Noetherian then there is a sequence of left ideals $\mathfrak{j}_1 \subsetneq \mathfrak{j}_2 \subsetneq \dots$. Take $\mathfrak{j} := \bigcup_k \mathfrak{j}_k$. The obvious map $j \to \prod_k (\mathfrak{j} / \mathfrak{j}_k)$ factors through $\bigoplus_k (\mathfrak{j} / \mathfrak{j}_k)$, since any element lies in all but finitely many $\mathfrak{j}_k$. Now take any injective $I_k$ with $0 \to \mathfrak{j} / \mathfrak{j}_k \to I_k$. The map $\mathfrak{j} \to \bigoplus_k I_k$ cannot extend to the whole $R$, since otherwise its image would be contained in a sum of finitely many $I_k$. Therefore, $\bigoplus_k I_k$ is not injective.
+
+$2 \Rightarrow 3$: $\operatorname{Ext}^k_R(A, \bigoplus_\alpha X_\alpha)$ can be computed by taking an injective resolution of $\bigoplus_\alpha X_\alpha$. Since direct sums of injective modules are assumed to be injective, we can take a direct sum of injective resolutions of each $X_\alpha$. It remains to note that Hom out of a finitely generated module commutes with arbitrary direct sums.
+
+$3 \Rightarrow 2$: Follows from the fact that $I$ is injective iff $\operatorname{Ext}^1_R(R / \mathfrak{i}, I) = 0$ for any ideal $\mathfrak{i}$.
+=--
 ## Related concepts
 
 * [[Noetherian module]]
