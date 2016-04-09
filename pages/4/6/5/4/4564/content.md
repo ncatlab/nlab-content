@@ -45,7 +45,7 @@ This appears ([Johnstone, p. 225](#Johnstone)).
 
   This includes for instance the case when $C=M$ is a [[monoid]], and the topos of [[simplicial set|simplicial sets]].
 
-* A [[locally connected topos|locally connected]] and [[local topos]] is hyperconnected precisely if as a [[cohesive topos]] it satisfies _pieces have points_ or equivalently _discrete objects are concrete_ . See [[cohesive topos]] for details.
+* A [[locally connected topos|locally connected]] and [[local topos]] is hyperconnected precisely if as a [[cohesive topos]] it satisfies _pieces have points_ or equivalently _discrete objects are concrete_. See [[cohesive topos]] for details.
 
 ## Properties
 
