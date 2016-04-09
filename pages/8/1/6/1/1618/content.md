@@ -244,7 +244,7 @@ In
 * Carsten Butz, _Logical and cohomological aspects of the space of points of a topos_ ([web](http://www.academia.edu/9139781/Logical_and_Cohomological_Aspects_of_the_Space_of_Points_of_a_Topos))
  {#Butz}
 
-is a discussion of how for every topos with enough points there is a [[topological space]] whose [[cohomology]] and [[homotopy theory]] is related to the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]]of the topos.
+is a discussion of how for every topos with enough points there is a [[topological space]] whose [[cohomology]] and [[homotopy theory]] is related to the [[cohomology|intrinsic cohomology]] and [[homotopy groups in an (infinity,1)-topos|intrinsic homtopy theory]] of the topos.
 
 More on this is in
 
