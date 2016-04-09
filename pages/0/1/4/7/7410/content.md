@@ -17,7 +17,11 @@
 
 ## Idea
 
-In [[model theory]], an $n$-type is a set of [[first-order logic|first order formulas]] $p(x_1,\ldots,x_n)$ in a language $L$ with $n$ free variables $x_1,\ldots,x_n$, which are true for some sequence of $n$-elements of an $L$-structure $M$ substituted for $x_1,\ldots,x_n$. One often limits consideration to the models $M$ of a given $L$-[[theory]] $T$. 
+In [[model theory]], an $n$-type is a set of [[first-order logic|first order formulas]] $p(x_1,\ldots,x_n)$ in a language $L$ with $n$ free variables $x_1,\ldots,x_n$, which are true for some sequence of $n$-elements of an $L$-structure $M$ substituted for $x_1,\ldots,x_n$. One often limits consideration to the models $M$ of a given $L$-[[theory]] $T$.
+
+A type is said to be _complete_ if it is a maximally consistent set of $L$-formulas.
+
+Complete types correspond to ultrafilters of definable sets. By [[Stone duality]], the set of all $n$-types of a theory $T$ inherits a Stone topology, and is called the _Stone space_ $S_n(T)$ of the theory $T$.
 
 There are some extension of this notion of type beyond first order, for example the notion of [[Galois type]]s in [[infinitary logic]], which is particularly important i the study of [[abstract elementary class]]es.  
 
