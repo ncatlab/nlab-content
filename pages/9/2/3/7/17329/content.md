@@ -89,6 +89,13 @@ We refer to $\square$ as the _category of cubes_.
 +-- {: .num_defn}
 ###### Notation
 
+Let $n \geq 0$ be an integer. We shall often denote the object $\underbrace{I^{1} \otimes \cdots \otimes I^{1}}_{n}$ by $I^{n}$. 
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
 We denote by $\mathsf{Set}^{\square^{op}}$ the [[free co-completion]] of $\square$, or, more explicitly, the category of presheaves of sets on $\square$.
 
 =--
@@ -100,12 +107,48 @@ We refer to an object of $\mathsf{Set}^{\square^{op}}$ as a _cubical set_, and t
 
 =--
 
++-- {: .num_defn}
+###### Notation
+
+We denote by $\square_{\leq 2}$ the full sub-category of $\square$ whose objects are $I^{0}$, $I^{1}$, and $I^{2}$. 
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\mathsf{Set}^{\square_{\leq 2}^{op}}$ the [[free co-completion]] of $\square_{\leq 2}$, or, more explicitly, the category of presheaves of sets on $\square_{\leq 2}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to an object of $\mathsf{Set}^{\square_{\leq 2}^{op}}$ as a _2-truncated cubical set_, and to an arrow of $\mathsf{Set}^{\square_{\leq 2}^{op}}$ as a _morphism of 2-truncated cubical sets_.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $i_{\leq 2} : \square_{\leq 2} \rightarrow \square$ the inclusion functor. We denote by $tr_{2} : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Set}^{\square_{\leq 2}^{op}}$ the functor $i_{\leq 2}^{*}$ induced by $i_{\leq 2}$. We denote the left Kan extension of $tr_{2}$ by $sk_{2}: \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$, and denote the right Kan extension of $tr_{2}$ by $cosk_{2}: \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$. 
+
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to the functor $tr_{2}$ as the _2-truncation_ functor, to the functor $sk_{2}$ as the _2-skeleton_ functor, and to the functor $cosk_{2}$ as the _2-coskeleton_ functor.
+
+=--
+
 ## Fundamental groupoid adjunction
 
 +-- {: .num_defn}
 ###### Notation
 
-We denote by $\Pi_{\leq 1} : \square_{\leq 1} \rightarrow \mathsf{Grpd}$ the functor determined uniquely by the following.
+We denote by $\Pi : \square_{\leq 1} \rightarrow \mathsf{Grpd}$ the functor determined uniquely by the following.
 
 1) We define $\Pi_{\leq 1}(I^{0})$ to be the unique (up to isomorphism) groupoid with a single object and a single arrow. We can also describe $\Pi_{\leq 1}(I^{0})$ as the free groupoid on the directed graph with the same description.
 
@@ -121,5 +164,80 @@ d) There are no other non-identity arrows.
 
 We can also describe $\Pi_{\leq 1}(I^{1})$ as the free groupoid on the directed graph described by a) and b). 
 
+3) We define $\Pi_{\leq 1}(i_{0})$ to be the functor determined uniquely by sending the single object of $\Pi_{\leq 1}(I^{0})$ to the object $0$ of $\Pi_{\leq 1}(I^{1})$.
+
+4) We define $\Pi_{\leq 1}(i_{1})$ to be the functor determined uniquely by sending the single object of $\Pi_{\leq 1}(I^{1})$ to the object $1$ of $\Pi_{\leq 1}(I^{1})$.
+
+5) We define $\Pi_{\leq 1}(p)$ to be the unique functor from $\Pi_{\leq 1}(I^{1})$ to $\Pi_{\leq 1}(I^{0})$.
+
 =--
 
++-- {: .num_defn #NotationPiCategoryOfCubes}
+###### Notation
+
+Making use of the cartesian monoidal structure upon $\mathsf{Grpd}$, we denote by $\Pi : \square \rightarrow \mathsf{Grpd}$ the canonical functor determined, by means of the universal property of $\square$ as the free strict monoidal category on $\square_{\leq 1}$, by the functor $\Pi_{\leq 1}$. 
+
+=--
+
++-- {: .num_defn #NotationPi2TruncatedCategoryOfCubes}
+###### Notation
+
+We denote by $\Pi_{\leq 2} : \square_{\leq 2} \rightarrow \mathsf{Grpd}$ the functor $Pi \circ i_{\leq 2}$.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+Appealing to the fact that $\mathsf{Grpd}$ is co-complete, we also denote by $\Pi_{\leq 2} : \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Grpd}$ the canonical functor determined, by the universal property of $\mathsf{Set}^{\square_{\leq 2}^{op}}$ as the free co-completion of $\square_{\leq 2}$, by the functor $\Pi_{\leq 2} : \square_{\leq 2} \rightarrow \mathsf{Grpd}$ of Notation \ref{NotationPi2TruncatedCategoryOfCubes}.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to $\Pi_{\leq 2} : \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Grpd}$ as the _fundamental groupoid_ functor.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+By the usual argument discussed at [[nerve and realization | nerve and realisation]], the functor $\Pi_{\leq 2} : \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Grpd}$ admits a right adjoint, which we shall denote by $N_{\leq 2} : \mathsf{Grpd} \rightarrow  \mathsf{Set}^{\square_{\leq 2}^{op}}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to $N_{\leq 2} : \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square_{\leq 2}^{op}}$ as the _nerve_ functor.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\Pi : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Grpd}$ the functor $\Pi_{\leq 2} \circ tr_{2}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We also refer to $\Pi : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Grpd}$ as the _fundamental groupoid_ functor.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $N: \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square^{op}}$ the functor $cosk_{2} \circ N_{\leq 2}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We also refer to $N : \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square^{op}}$ as the _nerve_ functor.
+
+=--
