@@ -29,7 +29,7 @@ This is the dual notion of a _[[projective module]]_.
 Let $R$ be a [[commutative ring]] and  $C = R Mod$ the category of $R$-[[modules]]. We discuss [[injective modules]] over $R$ (see there for more).
 
 +-- {: .num_theorem #BaerTheorem}
-###### Proposition 
+###### Theorem 
 **([[Baer's criterion]])**
 
 
