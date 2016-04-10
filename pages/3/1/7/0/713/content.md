@@ -407,3 +407,4 @@ Then on p. 9 the universal morphism that we are looking for here is identified a
 
 
 [[!redirects free colimit completion]]
+[[!redirects free co-completion]]
