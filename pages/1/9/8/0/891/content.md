@@ -126,7 +126,7 @@ For instance an [[action groupoid]] is a quotient of a group action in 2-categor
 
 ## References 
 
-* {#Pare74} [[Robert Paré]], _Colimits in Topoi_, Bull. AMS 80 (1974) pp.556-661. ([pdf](http://www.ams.org/journals/bull/1974-80-03/S0002-9904-1974-13497-X/S0002-9904-1974-13497-X.pdf))
+* {#Pare74} [[Robert Paré]], _Colimits in Topoi_, Bull. AMS 80 (1974) pp.556-561. ([pdf](http://www.ams.org/journals/bull/1974-80-03/S0002-9904-1974-13497-X/S0002-9904-1974-13497-X.pdf))
  {#RP}
 
 [[!redirects quotient object]]
