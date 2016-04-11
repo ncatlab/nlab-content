@@ -1016,7 +1016,7 @@ $$
 
 of the [[codiagonal]] $\nabla_X$ in def. \ref{TopologicalInterval}, which in general is far from being a [[monomorphism]], may be thought of as factoring it through a monomorphism after replacing $X$, up to weak homotopy equivalence, by $X\times I$.
 
-In fact, further below we see that $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
+In fact, further below (prop. \ref{StandardContractionOfStandardInterval}) we see that $X \sqcup X \to X \times I$ has better properties than the generic monomorphism has, in particular better homotopy invariant properties:
 it has the [[left lifting property]] against all [[Serre fibrations]] $ E \stackrel{p}{\longrightarrow} B$ that are also [[weak homotopy equivalences]].
 
 =--
@@ -1046,7 +1046,7 @@ $$
   \,.
 $$
 
-This is the [[formal dual]] to example \ref{TopologicalInterval}. As in that example, below we will see that this factorization has good properties, in that 
+This is the [[formal dual]] to example \ref{TopologicalInterval}. As in that example, below we will see (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}) that this factorization has good properties, in that 
 
 1. $X^{I \to \ast}$ is a [[weak homotopy equivalence]];
 
@@ -1297,13 +1297,13 @@ $$
   \,,
 $$
 
-with $c \in C$, has a [[lift]] $w$, in that it may be completed to a [[commuting diagram]] of the form
+with $c \in C$, has a [[lift]] $h$, in that it may be completed to a [[commuting diagram]] of the form
 
 $$
   \array{
     X &\longrightarrow& E
     \\
-    {}^{\mathllap{c}}\downarrow &{}^{\mathllap{w}}\nearrow& \downarrow^{\mathrlap{p}}
+    {}^{\mathllap{c}}\downarrow &{}^{\mathllap{h}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
     Y &\longrightarrow& B
   }
@@ -1404,14 +1404,14 @@ $$
   \,,
 $$
 
-has a [[lift]] $w$, in that it may be completed to a [[commuting diagram]] of the form
+has a [[lift]] $h$, in that it may be completed to a [[commuting diagram]] of the form
 
 $$
   \array{
     D^n &\longrightarrow& E
     \\
     {}^{\mathllap{(id,\delta_0)}}\downarrow 
-     &{}^{\mathllap{w}}\nearrow& \downarrow^{\mathrlap{p}}
+     &{}^{\mathllap{h}}\nearrow& \downarrow^{\mathrlap{p}}
     \\
     D^n\times I &\longrightarrow& B
   }
@@ -1423,8 +1423,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Def. \ref{SerreFibration} says, in view of the definition of [[left homotopy]], that a [[Serre fibration]] $p$ is a map with the property that given a [[left homotopy]], def. \ref{LeftHomotopy}, between two functions into its [[codomain]], and given a lift of one the two functions through $p$, then also the homotopy between the two lifts, in particular the second function lifts, too, and both lifts are related by left homotopy.
-
+Def. \ref{SerreFibration} says, in view of the definition of [[left homotopy]], that a [[Serre fibration]] $p$ is a map with the property that given a [[left homotopy]], def. \ref{LeftHomotopy}, between two functions into its [[codomain]], and given a lift of one the two functions through $p$, then also the homotopy between the two lifts.
 Therefore the condition on a [[Serre fibration]] is also called the _[[homotopy lifting property]]_ for maps whose domain is an [[n-disk]].
 
 More generally one may ask functions $p$ to have such [[homotopy lifting property]] for functions with arbitrary domain. These are called _[[Hurewicz fibrations]]_. 
@@ -1436,7 +1435,7 @@ More generally one may ask functions $p$ to have such [[homotopy lifting propert
 
 The precise shape of $D^n$ and $D^n \times I$ in def. \ref{SerreFibration} turns out not to actually matter much for the nature of Serre fibrations. We will eventually find below (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}) that what actually matters here is only that the inclusions $D^n \hookrightarrow D^n \times I$ are [[relative cell complexes]] (lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}) and [[weak homotopy equivalences]] (prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}) and that all of these may be generated from them in a suitable way.
 
-But for simple special cases this is readily seen directly, too. Notably it is trivial, but nevertheless important in applications, that we could replace the [[n-disks]] in def. \ref{SerreFibration} with any [[homeomorphism|homeomorphic]] topological space. A choice that becomes important in the comparison to the [[classical model structure on simplicial sets]] is to instead take the topological [[n-simplices]] $\Delta^n$. Hence a Serre fibration is equivalently characterized as having lifts in all diagrams of the form
+But for simple special cases this is readily seen directly, too. Notably we could replace the [[n-disks]] in def. \ref{SerreFibration} with any [[homeomorphism|homeomorphic]] topological space. A choice important in the comparison to the [[classical model structure on simplicial sets]] ([below](#GeometricRealizationSection)) is to instead take the topological [[n-simplices]] $\Delta^n$. Hence a Serre fibration is equivalently characterized as having lifts in all diagrams of the form
 
 $$
   \array{
@@ -1457,7 +1456,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    D^n \times I \times I &\simeq& D^n\times I
+    D^n \times I &\simeq& D^n\times I
   }
 $$
 
@@ -1480,7 +1479,7 @@ $$
 
 
 
-The following statement is foreshadowing the [[long exact sequences of homotopy groups]] induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) after having developed more of the abstract homotopy theory.
+The following statement is foreshadowing the [[long exact sequences of homotopy groups]] ([below](#LongSequences)) induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) after having developed more of the abstract homotopy theory.
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
@@ -1547,9 +1546,9 @@ $$
     \\
     && D^n &\overset{\kappa}{\longrightarrow}& Y
     \\
-    && \downarrow^{\mathrlap{(id,1)}} && \downarrow^{\mathrlap{id}}
+    && \downarrow^{\mathrlap{(id,\delta_1)}} && \downarrow^{\mathrlap{id}}
     \\
-    D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    D^n &\overset{(id,\delta_0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
     \\
     \downarrow && &&  \downarrow
     \\
@@ -1565,7 +1564,7 @@ $$
   \array{
     S^{n-1} &\longrightarrow& &\overset{\alpha}{\longrightarrow}& X
     \\
-    {}^{\mathllap{(id,1)}}\downarrow 
+    {}^{\mathllap{(id,\delta_1)}}\downarrow 
     &&
     && \downarrow^{\mathrlap{f}}
     \\
@@ -1597,11 +1596,11 @@ combining $\tilde \eta$ with the previous diagram shows that it sits in the foll
 
 $$
   \array{
-    \alpha' \colon & S^{n-1} &\overset{(id,0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
+    \alpha' \colon & S^{n-1} &\overset{(id,\delta_0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
     \\
     & \downarrow^{\iota_n} && \downarrow^{\mathrlap{(\iota_n,id)}} && \downarrow^{\mathrlap{f}}
     \\
-    & D^n &\overset{(id,0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
+    & D^n &\overset{(id,\delta_0)}{\longrightarrow}& D^n \times I &\overset{\eta}{\longrightarrow}& Y
     \\
     & \downarrow && &&  \downarrow
     \\
@@ -4092,7 +4091,7 @@ Finally, it is clear (prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyE
 
 Conversely:
 
-+-- {: .num_prop }
++-- {: .num_prop #TopologicalPathSpaceIsGoodPathSpaceObject}
 ###### Proposition
 
 Let $X$ be any [[topological space]]. Then the standard topological [[path space object]] (def. \ref{TopologicalPathSpace})
@@ -4203,6 +4202,7 @@ The nature of [[objects]] in any [[category]] is not determined by how we presen
 **Literature.** ([Goerss-Jardine 99, chapter I](#GoerssJardine99), [Joyal-Tierney 05](#JoyalTierney05)). 
 
 #### Background from combinatorial topology
+
 
 ##### Simplicial sets
 
@@ -4960,37 +4960,8 @@ $$
 
 =--
 
-This is the simplicial incarnation of the concept of [[Serre fibrations]] of topological spaces:
+This is the simplicial incarnation of the concept of [[Serre fibrations]] of topological spaces, def. \ref{SerreFibration}.
 
-+-- {: .num_defn #SerreFibration}
-###### Definition
-
-A [[continuous function]] $f \colon X \longrightarrow Y$ between [[topological spaces]] is a [[Serre fibration]] if for all [[CW-complexes]] $C$ and for every [[commuting diagram]] in [[Top]] of the form
-
-$$
-  \array{
-    C &\longrightarrow& X 
-    \\
-    \downarrow && \downarrow^{\mathrlap{f}}
-    \\
-    C \times I &\longrightarrow& Y
-  }
-$$
-
-there exists a lift
-
-$$
-  \array{
-    C &\longrightarrow& X 
-    \\
-    \downarrow &\nearrow& \downarrow^{\mathrlap{f}}
-    \\
-    C \times I &\longrightarrow& Y
-  }
-  \,.
-$$
-
-=--
 
 +-- {: .num_prop #SingDetextsAndReflectsFibrations}
 ###### Proposition
@@ -5125,6 +5096,7 @@ Moreover, for all $n$ the morphisms $\Delta[n] \to \Delta[0] \to \Delta[n]$ are 
 =--
 
 ##### Geometric realization
+ {#GeometricRealizationSection}
 
 So far we we have considered passing from [[topological spaces]] to [[simplicial sets]] by applying the [[singular simplicial complex]] functor of def. \ref{SingularSimplicialComplex}.
 Now we discuss a [[left adjoint]] of this functor, called [[geometric realization]], which turns a simplicial set into a topological space by identifying each of its abstract [[n-simplices]] with the standard topological $n$-simplex. 
@@ -7044,6 +7016,7 @@ $$
 
 
 #### Long sequences
+ {#LongSequences}
 
 The ordinary [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
 
