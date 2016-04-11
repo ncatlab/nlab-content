@@ -160,6 +160,8 @@ One often wishes to study [[compact Hausdorff spaces]].  For locales, one usuall
 
   * [[Stone-Cech compactification]]
 
+* [[compact-open topology]]
+
 * [[closed manifold]]
 
 * [[compact topos]]
