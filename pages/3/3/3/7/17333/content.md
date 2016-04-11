@@ -1,18 +1,1 @@
-author: mod massas
-company: 
-title: agar.io
-subtitle: 
-slide_theme: default
-slide_footer: 
-
-slide_subfooter: 
-
-:category: S5-slideshow
-
-agar.io
-==============
-
-My First Slide
------------------
-
-agario mod 147698 massas agar.io
+ctegory:empty
