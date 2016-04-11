@@ -45,7 +45,7 @@ This is theorem A.5 of [[Locally Presentable and Accessible Categories]].
 
 * M. Adelman, [[Andreas Blass|A. Blass]], _Exact functors, local connectedness and measurable cardinals_ , Rend. Sem. Mat. Fis. Milano **54** (1984) pp.9-28.
 
-* {#Blass_76} [[Andreas Blass]], _Exact Functors and Measurable Cardinals_ , Pacific J. Math. **63** (1976) pp.335-346. ([euclid](http://www.google.de/url?q=https://projecteuclid.org/euclid.pjm/1102867389))
+* {#Blass_76} [[Andreas Blass]], _Exact Functors and Measurable Cardinals_ , Pacific J. Math. **63** (1976) pp.335-346. ([euclid](https://projecteuclid.org/euclid.pjm/1102867389))
 
 
 * [[Andreas Blass]], _Corrections to: 'Exact Functors and Measurable Cardinals'_ , Pacific J. Math. **73** (1977) p.540. ([euclid](https://projecteuclid.org/euclid.pjm/1102810622))
