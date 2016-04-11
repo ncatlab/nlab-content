@@ -4615,7 +4615,7 @@ on the [[hom set]] $Hom_{sSet}(X,Y)$, is an [[equivalence relation]].
 
 =--
 
-+-- {: .num_defn #HomotopyEquivalence}
++-- {: .num_defn #SimplicialHomotopyEquivalence}
 ###### Definition
 
 A morphism $f \colon X \longrightarrow Y$ of [[simplicial sets]] is a left/right [[homotopy equivalence]] if there exists a morphisms $X \longleftarrow Y \colon g$ and left/right homotopies (def. \ref{LeftHomotopyOfSimplicialSets})
@@ -5013,7 +5013,7 @@ Then apply the [[natural isomorphism]] $Top({\vert-\vert},-) \simeq sSet(-,Sing(
 +-- {: .num_lemma #PullbackOfKanFibrationSendsLeftHomotopyToFiberwiseHomotopyequivalence}
 ###### Lemma
 
-Let $p \colon X \longrightarrow Y$ be a [[Kan fibration]], def. \ref{KanFibration}, and let $f_1,f_2 \colon A \longrightarrow X$ be two morphisms. If there is a [[left homotopy]] (def. \ref{LeftHomotopyOfSimplicialSets}) $f_1 \Rightarrow f_2$ between these maps, then there is a fiberwise [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, between the [[pullback]] fibrations $f_1^\ast X \simeq f_2^\ast X$.
+Let $p \colon X \longrightarrow Y$ be a [[Kan fibration]], def. \ref{KanFibration}, and let $f_1,f_2 \colon A \longrightarrow X$ be two morphisms. If there is a [[left homotopy]] (def. \ref{LeftHomotopyOfSimplicialSets}) $f_1 \Rightarrow f_2$ between these maps, then there is a fiberwise [[homotopy equivalence]], def. \ref{SimplicialHomotopyEquivalence}, between the [[pullback]] fibrations $f_1^\ast X \simeq f_2^\ast X$.
 
 =--
 
@@ -5093,7 +5093,7 @@ Choose representatives by [[induction]], use that in the induction step one need
 +-- {: .num_lemma #FiberwiseHomotopyEquivalenceOfMinimalFibrationsIsIso}
 ###### Lemma
 
-A morphism between [[minimal Kan fibrations]], def. \ref{MinimalKanFibration}, which is fiberwise a [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is already an [[isomorphism]].
+A morphism between [[minimal Kan fibrations]], def. \ref{MinimalKanFibration}, which is fiberwise a [[homotopy equivalence]], def. \ref{SimplicialHomotopyEquivalence}, is already an [[isomorphism]].
 
 =--
 
