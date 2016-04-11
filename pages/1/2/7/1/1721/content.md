@@ -549,7 +549,7 @@ The axioms including the dimension axiom are due to
 
 * {#EilenbergSteenrod52} [[Samuel Eilenberg]], [[Norman Steenrod]], _Foundations of algebraic topology_, Princeton 1952 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/eilestee.pdf))
 
-The concept of generalized homology obtained by discrading the dimension axiom and the observation that every [[spectrum]] induces an example is due to
+The concept of generalized homology obtained by discarding the dimension axiom and the observation that every [[spectrum]] induces an example is due to
 
 * {#Whitehead62} [[George Whitehead]], _Generalized homology theories_, Transactions of the American Mathematical Society, 102 (1962) 227-283 ([pdf](http://www.ams.org/journals/tran/1962-102-02/S0002-9947-1962-0137117-6/S0002-9947-1962-0137117-6.pdf))
 
@@ -565,9 +565,13 @@ An early lecture note account is in
 
 Textbook accounts include
 
+* {#Switzer75} [[Robert Switzer]], chapter 7 (and 8-12) of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
+
 * {#Kochmann96} [[Stanley Kochmann]], section 3.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
