@@ -14789,7 +14789,7 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 A _[[cohomology theory]]_ (unreduced) is a [[functor]]
 
 $$
-  E^\bullet : (Top^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
+  E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
 $$
 
 to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] 
@@ -14837,16 +14837,31 @@ We say $E^\bullet$ is **additive** if in addition
 
 e.g. [AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02). 
 
++-- {: .num_defn #UnreducedFromReduced}
+###### Definition
+
+Given a reduced cohomology theory $\tilde E^\bullet$, def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}, define an unreduced theory by
+
+$$
+  E^\bullet(X,A)
+  \coloneqq
+  \tilde E^\bullet(X \cup Cone(A))
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 
-The construction xy constitutes an [[equivalence of categories]] between reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology}, and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory}.
+The construction in def. \ref{UnreducedFromReduced} constitutes an [[equivalence of categories]] between reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology}, and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory}.
 
 =--
 
 (e.g. [Switzer, 7.42, 7.44](#Switzer75)) 
 
-
+(...)
 
 
 #### Brown representability theorem
