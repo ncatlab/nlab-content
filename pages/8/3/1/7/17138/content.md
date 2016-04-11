@@ -5702,9 +5702,10 @@ In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \r
 +-- {: .proof}
 ###### Proof
 
-This is immediate by inspection.
+The model strcuture as claimed is immediate by inspection.
 
 =--
+
 
 +-- {: .num_example #ClassicalPointedHomotopyCategory}
 ###### Example
@@ -5712,6 +5713,18 @@ This is immediate by inspection.
 For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _classical pointed homotopy theory_ $Ho(Top^{\ast/})$.
 
 =--
+
++-- {: .num_example #NonDegenerateBasepointAsCofibrantObjects}
+###### Example
+
+The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$.
+
+But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
+
+For $\mathcal{C}^{\ast/} = Top^{\ast/}$, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
+
+=--
+
 
 +-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
 ###### Example
@@ -5847,6 +5860,52 @@ These two operations are going to be ubiquituous in [[stable homotopy theory]]:
 | $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
 | $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
 
++-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
+###### Example
+
+For $X, Y \in Top$, with $X_+,Y_+ \in Top^{\ast/}$, def. \ref{BasePointAdjoined}, then
+
+* $X_+ \vee Y_+ \simeq (X \sqcup Y)_+$;
+
+* $X_+ \wedge Y_+ \simeq (X \times Y)_+$. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{WedgeSumAsCoproduct}, $X_+ \vee Y_+$ is given by the colimit in $Top$ over the diagram
+
+$$
+  \array{
+    && && \ast
+    \\
+    && & \swarrow && \searrow
+    \\
+    X &\,\,& \ast && && \ast &\,\,& Y
+  }  
+  \,.
+$$
+
+This is clearly $A \sqcup \ast \sqcup B$. Then, by definition \ref{SmashProductOfPointedObjects}
+
+$$
+  \begin{aligned}
+    X_+ \wedge Y_+
+    & \simeq
+    \frac{(X \sqcup \ast) \times (X \sqcup \ast)}{(X\sqcup \ast) \vee (Y \sqcup \ast)}
+    \\
+    & \simeq 
+    \frac{X \times Y \sqcup X \sqcup Y \sqcup \ast}{X \sqcup Y \sqcup \ast}
+    \\
+    & \simeq
+    X \times Y \sqcup \ast
+    \,.
+  \end{aligned} 
+$$
+
+=--
+
 +-- {: .num_example #StandardReducedCyclinderInTop}
 ###### Example
 
@@ -5957,8 +6016,8 @@ Instead of going through the full theory of what this means, we observe that thi
 +-- {: .num_defn #MappingConeAndMappingCocone}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. 
-For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $\mathcal{C}_c\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cone]]_ is the object 
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory} with $\mathcal{C}^{\ast/}$ its model structure on pointed objects, prop. \ref{ModelStructureOnSliceCategory}.  
+For $f \colon X \longrightarrow Y$ a morphism between cofibrant objects (hence a morphism in $(\mathcal{C}^{\ast/})_c\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its **reduced [[mapping cone]]** is the object 
 
 $$
   Cone(f)
@@ -5985,7 +6044,7 @@ $$
 
 where $Cyl(X)$ is a [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
-Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $\mathcal{C}_f\hookrightarrow \mathcal{C}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cocone]]_ is the object 
+Dually, for $f \colon X \longrightarrow Y$ a morphism between fibrant objects (hence a morphism in $(\mathcal{C}^{\ast})_f\hookrightarrow \mathcal{C}^{\ast/}$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}), its _[[mapping cocone]]_ is the object 
 
 $$
   Path_\ast(f) \coloneqq \ast \underset{Y}{\times} Path(Y)\underset{Y}{\times} Y
@@ -6047,7 +6106,7 @@ $$
 +-- {: .num_prop #ConeAndMappingCylinder}
 ###### Proposition
 
-The colimit appearing in the definition of the [[mapping cone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pushouts]]:
+The colimit appearing in the definition of the reduced [[mapping cone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pushouts]]:
 
 $$
   \array{
@@ -6066,9 +6125,9 @@ $$
 
 The two intermediate objects appearing here are called
 
-* the plain **[[cone]]**  $Cone(X) \coloneqq \ast \underset{X}{\sqcup} Cyl(X)$;
+* the plain **reduced [[cone]]**  $Cone(X) \coloneqq \ast \underset{X}{\sqcup} Cyl(X)$;
 
-* the **[[mapping cylinder]]** $Cyl(f) \coloneqq Cyl(X) \underset{X}{\sqcup} Y$.
+* the **reduced [[mapping cylinder]]** $Cyl(f) \coloneqq Cyl(X) \underset{X}{\sqcup} Y$.
 
 Dually, the limit appearing in the definition of the [[mapping cocone]] in def. \ref{MappingConeAndMappingCocone} is equivalent to three consecutive [[pullbacks]]:
 
@@ -6101,7 +6160,7 @@ The two intermediate objects appearing here are called
 
 Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
 
-1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the ([[reduced suspension|reduced]]) **[[suspension]]** of $X$, denoted 
+1. The [[mapping cone]], def. \ref{ConeAndMappingCylinder}, of $X \to \ast$ is called the  **[[reduced suspension|reduced]] [[suspension]]** of $X$, denoted 
 
    $$
      \Sigma X = Cone(X\to\ast)\,.
@@ -6197,7 +6256,60 @@ Below in prop. \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the
 
 =--
 
++-- {: .num_remark #UnreducedCone}
+###### Remark
+
+The _formula_ for the [[mapping cone]] in prop. \ref{ConeAndMappingCylinder} (as opposed to that of the mapping co-cone) does not require the presence of the basepoint: for $f \colon X \longrightarrow Y$ a morphism in $\mathcal{C}$ (as opposed to in $\mathcal{C}^{\ast/}$) we may still define
+
+$$
+  Cone'(f) \coloneqq Y \underset{X}{\sqcup} Cone'(X)
+  \,,
+$$
+
+where the prime denotes the _unreduced cone_, formed from a cylinder object in $\mathcal{C}$.
+
+
+=--
+
++-- {: .num_prop #UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}
+###### Proposition
+
+For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone, remark \ref{UnreducedCone}, with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, def. \ref{MappingConeAndMappingCocone}, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined, def. \ref{BasePointAdjoined}) with respect to the standard reduced cylinder (example \ref{StandardReducedCyclinderInTop}):
+
+$$
+  Cone'(f) \simeq Cone(f_+)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{LimitsAndColimitsOfPointedObjects} and example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}, $Cone(f_+)$ is given by the colimit in $Top$ over the following diagram:
+
+$$
+  \array{
+    \ast &\longrightarrow& X \sqcup \ast &\overset{(f,id)}{\longrightarrow}& Y \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X \sqcup\ast &\longrightarrow& (X \times I) \sqcup \ast
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast &\longrightarrow& &\longrightarrow& Cone(f_+)  
+  }
+  \,.
+$$
+
+This is manifestly a cocone under $(-)_+$ applied to the diagram for the unreduced cone. Since $(-)_+$ is itself given by a colimit, it preserves colimits, and hence the result follows.
+
+=--
+
+
 Example \ref{MappingConesInTopologicalSpaces} makes it clear that every [[cycle]] $S^n \to Y$ in $Y$ that happens to be in the image of $X$ can be _continuously_ translated in the cylinder-direction, keeping it constant in $Y$, to the other end of the cylinder, where it shrinks away to the point. This means that every [[homotopy group]] of $Y$, def. \ref{HomotopyGroupsOftopologicalSpaces}, in the image of $f$ vanishes in the mapping cone. Hence in the mapping cone **the image of $X$ under $f$ in $Y$ is removed up to homotopy**. This makes it intuitively clear how $Cone(f)$ is a homotopy-version of the [[cokernel]] of $f$. We now discuss this formally.
+
 
 +-- {: .num_lemma #FactorizationLemma}
 ###### Lemma
@@ -7208,33 +7320,41 @@ and regarded as a path space object of $X$ by further comoposing with $(pr_1,pr_
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #LongFiberSequence}
 ###### Proposition
 
-Let $\mathcal{C}$ be a model category. For $f \colon X \to Y$ a morphism and $A$ an object, then there is a [[long exact sequence]]
+Let $\mathcal{C}$ be a model category. For $f \colon X \to Y$ a morphism in $\mathcal{C}^{\ast/}$, then in $Ho(\mathcal{C})$ there is a long sequence to the left of the form
+
+$$
+  \cdots \longrightarrow \Omega X \longrightarrow \Omega Y \longrightarrow hofib(f) \longrightarrow X \overset{f}{\longrightarrow} Y
+  \,,
+$$
+
+where each morphism is the [[homotopy fiber]] (def. \ref{HomotopyFiber}) of the following one: the **[[homotopy fiber sequence]]** of $f$.
+
+Moreover, for $A\in \mathcal{C}^{\ast/}$ an object, then there is a [[long exact sequence]]
 
 $$
   \cdots
   \to 
-  [X,\Omega^2 Y]_\ast
+  [A,\Omega^2 Y]_\ast
   \longrightarrow
-  [X,\Omega hofib(f)]_\ast
+  [A,\Omega hofib(f)]_\ast
   \longrightarrow
   [A, \Omega X]_\ast 
   \longrightarrow
   [A,\Omega Y]
   \longrightarrow
-  [X,hofib(f)]_\ast
+  [A,hofib(f)]_\ast
   \longrightarrow
   [A,X]_\ast 
   \longrightarrow
   [A,Y]
-  \,,
 $$ 
 
-where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
+of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
 
-For $A = \ast$ this is called the [[long exact sequence of homotopy groups]] induced by $f$.
+For $A = \ast$ this is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
 
 =--
 
@@ -7246,6 +7366,14 @@ For $A = \ast$ this is called the [[long exact sequence of homotopy groups]] ind
 By combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+In ([Quillen 67, I.3, prop. 3, prop. 4](#Quillen67)) more is shown than stated in prop. \ref{LongFiberSequence}: there the [[connecting homomorphism]] $\Omega  Y \to hofib(f)$ is not just shown to exist, but is described in detail via an [[action]] of $\Omega Y$ on $hofib(f)$ in $Ho(\mathcal{C})$ in . For all applications that follow, however, it is sufficient to know that such a morphism exists at all, hence that $\Omega Y \simeq hofib(hofib(f))$.
+
+=--
+
 
 +-- {: .num_remark }
 ###### Remark
@@ -7498,11 +7626,11 @@ The [[stable homotopy category]] is to be the proper [[stabilization]] of the  [
 
 $$
   \array{
-     Ho(Top)^{\ast/} 
+     Ho(Top^{\ast/}) 
       &
       \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
       &
-     Ho(Top)^{\ast/}
+     Ho(Top^{\ast/})
      \\
      {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
      &&
@@ -14434,7 +14562,9 @@ An important example of a generalised cohomology theory other than [[ordinary co
 
 $\,$
 
-The traditional formulation of (reduced) generalized cohomology in terms of point-set topology is this:
+##### Reduced cohomology
+
+The traditional formulation of reduced generalized cohomology in terms of point-set topology is this:
 
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
@@ -14506,7 +14636,7 @@ then it is called an **ordinary** cohomology theory.
 
 =--
 
-(e.g. [AGP 02, def. 12.1.4](#AGP02))
+(e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
 
 +-- {: .num_remark}
 ###### Remark
@@ -14592,7 +14722,7 @@ such that $E^\bullet$
 +-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
 ###### Definition
 
-Given a generalized cohomology theory $(E^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$
+Given a generalized cohomology theory $(E^\bullet,\delta)$ on some $\mathcal{C}$ as in def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and given a [[homotopy cofiber sequence]] in $\mathcal{C}$, prop. \ref{LongFiberSequence},
 
 $$
   X \stackrel{f}{\longrightarrow} Y \stackrel{g}{\longrightarrow} Z
@@ -14644,6 +14774,77 @@ $$
 By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
 
 =--
+
+
+
+##### Reduced cohomology
+
+Given a reduced [[generalized cohomology theory]] as in def. \ref{ReducedGeneralizedCohomology}, we may "un-reduce" it and evaluate it on unpointed topological spaces $X$ simply by evaluating it on $X_+$, def. \ref{BasePointAdjoined}. It is conventional to further generalize to [[relative cohomology]] and evaluate on unpointed subspace inclusions $i \colon A \hookrightarrow X$, taken as placeholders for their [[mapping cones]] $Cone(i_+)$ (prop. \ref{UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}).
+
+In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top_{CW}^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of $Top_{CW}$ on the inclusions). We identify $Top_{CW} \hookrightarrow Top_{CW}^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
+
++-- {: .num_defn #GeneralizedCohomologyTheory}
+###### Definition
+
+A _[[cohomology theory]]_ (unreduced) is a [[functor]]
+
+$$
+  E^\bullet : (Top^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
+$$
+
+to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] 
+
+$$
+  \delta \colon  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  \,.
+$$ 
+
+such that:
+
+1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequence
+
+   $$ 
+     \cdots 
+       \to 
+     E^n(X, U) 
+       \longrightarrow 
+     E^n(X) 
+       \longrightarrow
+     E^n(U) 
+       \stackrel{\delta}{\longrightarrow} 
+     E^{n+1}(X, U) 
+       \to 
+     \cdots 
+   $$
+
+   is a [[long exact sequence]] of abelian groups.
+
+1. **(homotopy invariance)** For $f \colon X \to Y$ a [[weak homotopy equivalence]] then 
+
+   $$
+     E^\bullet(f) \colon E^\bullet(Y) \stackrel{\simeq}{\longrightarrow} E^\bullet(X)
+   $$
+
+   is an [[isomorphism]].
+
+1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
+
+We say $E^\bullet$ is **additive** if in addition
+
+* **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
+
+=--
+
+e.g. [AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02). 
+
++-- {: .num_prop}
+###### Proposition
+
+The construction xy constitutes an [[equivalence of categories]] between reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology}, and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory}.
+
+=--
+
+(e.g. [Switzer, 7.42, 7.44](#Switzer75)) 
 
 
 
