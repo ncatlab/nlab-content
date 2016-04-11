@@ -14557,7 +14557,7 @@ from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian
 
 An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, section 12 and section 9](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96)).
+**Literature.** ([Switzer 75, section 7](#Switzer75), [Aguilar-Gitler-Prieto 02, section 12 and section 9](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96)).
 
 
 $\,$
@@ -14777,7 +14777,7 @@ By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGener
 
 
 
-##### Reduced cohomology
+##### Unreduced cohomology
 
 Given a reduced [[generalized cohomology theory]] as in def. \ref{ReducedGeneralizedCohomology}, we may "un-reduce" it and evaluate it on unpointed topological spaces $X$ simply by evaluating it on $X_+$, def. \ref{BasePointAdjoined}. It is conventional to further generalize to [[relative cohomology]] and evaluate on unpointed subspace inclusions $i \colon A \hookrightarrow X$, taken as placeholders for their [[mapping cones]] $Cone(i_+)$ (prop. \ref{UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}).
 
@@ -14863,9 +14863,9 @@ Due to [[phantom maps]], there remains a subtle difference between generalized (
 
 In applications and modern theory, it is mostly the spectra that matter, and hence the Brown representability theory is used to transfer extra structure on spectra to extra structure on cohomology theories. For instance a _[[multiplicative cohomology theory]]_ is one which is represented by a [[ring spectrum]].
 
-There is a slight refinement of the concept of generalized homology functors to that of "[[excisive ∞-functors]]". These are fully equivalent to spectra.
+There is a slight refinement of the concept of generalized homology functors to that of "[[excisive functors]]". These are fully equivalent to spectra.
 
-**Literature.** ([Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
+**Literature.** ([Switzer 75, section 9](#Switzer75), [Aguilar-Gitler-Prieto 02, section 12](#AguilarGitlerPrieto02), [Kochman 96, 3.4](#Kochman96))
 
 $\,$
 
