@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -25,13 +24,20 @@ There is a [[category]], $\mathbf{Hask}$, whose objects are Haskell [[type|types
 
 With $\to$ and $\times$ etc., $\mathbf{Hask}$ is almost Cartesian closed. A particular problem is the polymorphic term $\text{undefined}$, which is defined to be term of every type. It prevents, for example, initial objects (i.e. there no analog to the empty set). Or, when it comes to setting up the categorical product, the projections $\pi_1$ and $\pi_2$ couldn't distinguish between $(\text{undefined},\text{undefined})$ and just $\text{undefined}$, spoiling uniqueness. A related deficit is that when it comes to passing functions as arguments, Haskell sees more than just Hask morphisms. 
 
-Haskell is famous for its use of  [[monads (in computer science)]] acting on this category.
+The standard notion of functors in Haskell are not terms of a Hask type but operate on one level above those, the kind level. If '7' is of type 'Int' and 'Int' is of kind 'U', then a functor corresponds to a map 'U $\to$ U $\to$ U'. Functors form a class, in the sense used in computer science, i.e. a standardly employed abstraction or interface. 
+
+The object mappings of functors in Haskell are type formers (e.g. mapping a type of integers to the type of lists of such integers) and these is often used without any reference to the arrow mappings in the code. For each declaration of a functor, the user must code its action on the arrows (a function called 'fmap'), which here are Haskell function terms. It must be noted that all algebraic laws (e.g. compatibility of functors with function concatenation in the sense of the definition of functors) are not checked or enforced by the Haskell compiler. That is to say, in this language, its written code is only checked for the arrow mapping of a user defined functor is well-typed, while the user could, in principle, declare a "'Functor'" that doesn't actually fulfill all the defining properties of a functor. 
+Today, there are also software modules that implement category theoretical notions more abractly, i.e. one may set up categories in which the arrows are not necessarily Haskell functions.
+
+Haskell is famous for its use of [[monads (in computer science)]], a subclass of functors. Here, the unit (called 'return') and co-unit must be implemented. However, stemming from the way that monads are actually used by programmers, rather it is standard to implement the function 'return' and another function called 'bind', with infix '>>=', which is a composite of the functor and the two natural transformations and which can be derived from the others.
 
 ### Similar and related software
 
 Languages similar to Haskell but refining it from plain [[type theory]] to [[dependent type theory]] include
 
-* [[Coq]] and [[Agda]]
+* [[Coq]], [[Agda]] and Idris
+
+Coq and Agda is consistent with [[Homotopy type theory]], while Idris [is not](http://cstheory.stackexchange.com/questions/27979/formalizing-homotopy-type-theory-in-idris/28013#28013).
 
 A wiki platform based on Haskell, running texmath
 
