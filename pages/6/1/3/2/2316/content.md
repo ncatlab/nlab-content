@@ -135,7 +135,7 @@ $$
 
 where...
 
-For $n = 2 k +1$ odd, a [[Sullivan model]] for the $n$-spehere is the very simple [[dg-algebra]] with a single generator $c$ in degree $n$ and vanishing differential, i.e. the morphism
+For $n = 2 k +1$ odd, a [[Sullivan model]] for the $n$-sphere is the very simple [[dg-algebra]] with a single generator $c$ in degree $n$ and vanishing differential, i.e. the morphism
 
 $$
   (\wedge^\bullet \langle c\rangle, d = 0)
