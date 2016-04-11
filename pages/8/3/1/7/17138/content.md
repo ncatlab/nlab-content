@@ -3867,7 +3867,7 @@ and as usual:
 
 
 
-We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure on the category [[Top]]:
+We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]]:
 
 
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
