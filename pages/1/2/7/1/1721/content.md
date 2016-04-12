@@ -50,13 +50,46 @@ More abstractly, via the [[classical model structure on topological spaces]], th
 
 $\,$
 
-There are two versions of the statement of the axioms (equivalent on topological spaces homeomorphic to [[CW-complexes]]), one for [[reduced cohomology]], the other for unreduced cohomology.
+There are two versions of the statement of the axioms:
+
+* _[Reduced cohomology](#ReducedCohomology)_;
+
+* _[Unreduced cohomology](#UnreducedCohomology)_.
+
+There are functors taking any reduced cohomology theory to an unreduced one, and vice versa. When some fine detail in the axioms is suitably set up, then this establishes an [[equivalence of categories|equivalence]] between reduced and unreduced generalized cohomology:
+
+* _[Relation between reduced and unreduced cohomology](#RelationBetweenReducedAndUnreduced)_
+
+The fine detail in the axioms that makes this work is such as to ensure that a cohomology theory is a functor on the [[opposite category|opposite]] of the (pointed/pairwise) [[classical homotopy category]]. Since this has different presentations, there are corresponding different versions of suitable axioms:
+
+1. On the one hand, $Ho(Top_{Quillen})$ may be presented by topological spaces homeomorphic to [[CW-complexes]] and with [[homotopy equivalence]]-classes of continuous functions between them, and accordingly a generalized cohomology theory may be taken to be a funtor on (pointed/pairs of) CW-complexes invariant under [[homotopy equivalence]].
+
+1. On the other hand, $Ho(Top_{Quillen})$ may be presented by all topological spaces with [[weak homotopy equivalences]] [[localization|inverted]], and accordingly a generalized cohomology theory may be taken to be a functor on all (pointed/pairs of) topological spaces that sends weak homotopy equivalences to isomorphisms.
+
+Notice however that "[[classical homotopy category]]" is already ambiguous. Pre Quillen this was the category of _all_ topological spaces with homotopy equivalence classes of maps between them, and often generalized cohomology functors are defined on this larger category and only restricted to CW-complexes or required to preserve weak homotopy equivalences when need be (e.g. [Switzer 75, p.117](#Switzer75)), such as for establishing the equivalence between reduced and unreduced theories.
+
+Moreover, historically, these conditions have been decomposed in several numbers of ways. Notably ([Eilenberg-Steenrod 52](#EilenbergSteenrod52)) originally listed 7 axioms for unreduced cohomology, more than typically counted today, but their axioms 1 and 2 jointly just said that we have a functor on topological spaces, axiom 3 was the condition for the connecting homomorphism to be a [[natural transformation]], conditions which later ([Switzer 75, p. 99,100](#Switzer75)) were absorbed in the underlying structure. 
+
+Finally, following the historical development it is common to state the exactness properties of cohomology functors in terms of [[mapping cone]] constructions. These are models for [[homotopy cofibers]], but in general only when some technical conditions are met, such that the underlying topological spaces are CW-complexes. 
+
+For these reasons, in the following we stick to two points of views: where we discuss cohomology theories as functors on topological spaces we restrict attention to those homeomorphic to CW-complexes. In a second description we speak fully abstractly about functors on the homotopy category of a given model category of $\infty$-category.
 
 ### Reduced cohomology
  {#ReducedCohomology}
 
-Throughout, write [[Top]]${}_{CW}$ for the category of [[topological spaces]] [[homeomorphism|homeomorphic]] to a [[CW-complexes]]. Write $Top^{\ast/}_{CW}$ for the corresponding category of [[pointed topological spaces]]. Write
+Throughout, write [[Top]]${}_{CW}$ for the category of [[topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]]. Write $Top^{\ast/}_{CW}$ for the corresponding category of [[pointed topological spaces]]. 
 
+Recall that [[colimits]] in $Top^{\ast/}$ are computed as colimits in $Top$ after adjoining the base point and its inclusion maps top the given diagram
+
++-- {: .num_example #WedgeSumAsCoproduct}
+###### Example
+
+The [[coproduct]] in [[pointed topological spaces]] is the _[[wedge sum]]_, denoted $\vee_{i \in I} X_i$.
+
+=--
+
+
+Write
 
 $$
   \Sigma \coloneqq S^1 \wedge (-)
@@ -66,12 +99,12 @@ $$
 
 for the [[reduced suspension]] functor.
 
-Write $\mathbb{A}^{\mathbb{Z}}$ for the category of integer-[[graded abelian groups]].
+Write $Ab^{\mathbb{Z}}$ for the category of integer-[[graded abelian groups]].
 
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A **reduced generalized [[cohomology theory]]** is a [[functor]]
+A **reduced [[cohomology theory]]** is a [[functor]]
 
 $$
   \tilde E^\bullet 
@@ -92,9 +125,11 @@ $$
   \,,
 $$
 
-and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
+and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
 
 $$
+  \sigma
+  \;\colon\;
   \tilde E^\bullet(-) 
    \overset{\simeq}{\longrightarrow} 
    \tilde E^{\bullet +1}(\Sigma -) 
@@ -132,24 +167,19 @@ We say $\tilde E^\bullet$ is **additive** if in addition
 
   from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
 
-=--
+We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
 
-(e.g. [AGP 02, def. 12.1.4](#AGP02))
-
-Write $\mathbb{S}^0$ for the [[0-sphere]], canonically regarded as a [[pointed topological space]].
-
-+-- {: .num_defn}
-###### Definition
-
-A reduced generalized cohomology theory $\tilde E^\bullet$, def. \ref{ReducedGeneralizedCohomology}, is called _ordinary_ if
-
-* **(dimension)** $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+* **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
 
 =--
+
+(e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
+
 
 ### Unreduced cohomology
+ {#UnreducedCohomology}
 
-In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]]  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of [[Top]] on the inclusions). We identify $Top \hookrightarrow Top^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
+In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topological spaces]] ([[CW-complexes]])  $U \hookrightarrow X$.  Whenever only one space is mentioned, the subspace is assumed to be the [[empty set]] $(X, \emptyset)$. Write $Top_{CW}^{\hookrightarrow}$ for the category of such pairs (the [[full subcategory]] of the [[arrow category]] of $Top_{CW}$ on the inclusions). We identify $Top_{CW} \hookrightarrow Top_{CW}^{\hookrightarrow}$ by $X \mapsto (X,\emptyset)$.
 
 
 +-- {: .num_defn #GeneralizedCohomologyTheory}
@@ -158,17 +188,29 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 A _[[cohomology theory]]_ (unreduced) is a [[functor]]
 
 $$
-  E^\bullet : (Top^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
+  E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
 $$
 
-to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] 
+to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
 $$
-  \delta \colon  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  \delta_{(X,U)} 
+    \;\colon\;  
+  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
   \,.
 $$ 
 
 such that:
+
+1. **(homotopy invariance)** For $f \colon (X_1,U_1) \to (X_2,U_2)$ a [[homotopy equivalence]] of pairs, then 
+
+   $$
+     E^\bullet(f) 
+      \;\colon\; 
+     E^\bullet(X_2,U_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,U_1)
+   $$
+
+   is an [[isomorphism]];
 
 1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequence
 
@@ -186,30 +228,72 @@ such that:
      \cdots 
    $$
 
-   is a [[long exact sequence]] of abelian groups.
-
-1. **(homotopy invariance)** For $f \colon X \to Y$ a [[homotopy equivalence]] then 
-
-   $$
-     E^\bullet(f) \colon E^\bullet(Y) \stackrel{\simeq}{\longrightarrow} E^\bullet(X)
-   $$
-
-   is an [[isomorphism]].
+   is a [[long exact sequence]] of [[abelian groups]].
 
 1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
 
-We say $E^\bullet$ is **additive** if in addition
+We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
 * **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
 
+We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in degree 0
+
+* **(Dimension)**: $E^{\bullet \neq 0}(\ast,\emptyset) = 0$.
 
 =--
 
-e.g. [AGP 02, def. 12.1.1 ](#AGP02). 
+e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
-A generalized cohomology theory is called _ordinary_ if in addition 
++-- {: .num_prop #ExactSequenceOfATriple}
+###### Proposition
+**(exact sequence of a triple)**
 
-* **Dimension**: $E^{\bullet \neq 0}(\ast) = 0$.
+For $E^\bullet$ an unreduced generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}, then every inclusion of two consecutive subspaces
+
+$$
+  B \hookrightarrow A \hookrightarrow X
+$$
+
+induces a [[long exact sequence]] of cohomology groups of the form
+
+$$
+  \cdots
+   \to
+  E^{q-1}(A,B) 
+    \stackrel{\bar \delta}{\longrightarrow}
+  E^q(X,A)
+    \stackrel{}{\longrightarrow}
+  E^q(X,B)
+    \stackrel{}{\longrightarrow}
+  E^q(A,B)
+    \to
+  \cdots
+$$
+
+where 
+
+$$
+  \bar \delta 
+    \;\colon \;
+  E^{q-1}(A,B) 
+   \longrightarrow
+  E^{q-1}(A)
+   \stackrel{\delta}{\longrightarrow}
+  E^{q}(A,X)
+  \,.
+$$
+
+=--
+
+(e.g. [AGP 02, prop. 12.1.11](#AguilarGitlerPrieto02)).
+
++-- {: .num_remark}
+###### Remark
+
+The property expressed by prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
+
+=--
+
 
 
 
@@ -229,7 +313,7 @@ is a reduced cohomology theory in the sense of def. \ref{ReducedGeneralizedCohom
 
 =--
 
-(e.g [AGP 02, theorem 12.1.12](#AGP02))
+(e.g [AGP 02, theorem 12.1.12](#AguilarGitlerPrieto02))
 
 +-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
 ###### Proposition
@@ -286,58 +370,7 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 =--
 
 
-### Exact sequence for triples
- {#ExactnessForTriples}
 
-+-- {: .num_prop #ExactSequenceOfATriple}
-###### Proposition
-**(exact sequence of a triple)**
-
-For $E$ a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}, then every inclusion of two consecutive subspaces
-
-$$
-  B \hookrightarrow A \hookrightarrow X
-$$
-
-induces a [[long exact sequence]] of cohomology groups of the form
-
-$$
-  \cdots
-   \to
-  E^{q-1}(A,B) 
-    \stackrel{\bar \delta}{\longrightarrow}
-  E^q(X,A)
-    \stackrel{}{\longrightarrow}
-  E^q(X,B)
-    \stackrel{}{\longrightarrow}
-  E^q(A,B)
-    \to
-  \cdots
-$$
-
-where 
-
-$$
-  \bar \delta 
-    \;\colon \;
-  E^{q-1}(A,B) 
-   \longrightarrow
-  E^{q-1}(A)
-   \stackrel{\delta}{\longrightarrow}
-  E^{q}(A,X)
-  \,.
-$$
-
-=--
-
-(e.g. [AGP 02, prop. 12.1.11](#AGP02)).
-
-+-- {: .num_remark}
-###### Remark
-
-The property expressed by prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
-
-=--
 
 
 ## Abstract homotopy theoretic formulation
@@ -573,7 +606,7 @@ Textbook accounts include
 * {#May99} [[Peter May]] chapter 18 of _A Concise Course on Algebraic Topology_, Chicago Lecture Notes  1999 ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
 
-* {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
+* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 * {#KonoTamaki02} Akira Kono, Dai Tamaki, _Generalized cohomology_, AMS 2002, esp. chapter 2 ([[GeneralizedCohomology.pdf:file]])
 
