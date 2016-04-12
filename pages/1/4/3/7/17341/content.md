@@ -3,6 +3,35 @@ Hello! My name is Christian Williams (christianwilliams124@tamu.edu). I am a mat
 This page is currently under construction, and will be far from acceptable quality for some time; please don't mind the mess until then. Right now it is just for documentation; the possibility of people seeing my work will focus me, and I prefer this format over developing a LaTeX PDF. Thank you very much!
 
 ### Links ###
-[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
+[(co)ends](https://ncatlab.org/nlab/show/end#examples), 
+[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations), 
+[double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses), 
+[function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
 
-[(co)end commutativity](https://ncatlab.org/nlab/show/end#commutativity_of_ends_and_coends)
+[profunctor nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor), 
+[LT Topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology), 
+[star-quantales](https://ncatlab.org/nlab/show/quantale#quantales), 
+[star-autonomous category](https://ncatlab.org/nlab/show/quantale#quantales)
+
+[oriental](https://ncatlab.org/nlab/show/oriental), 
+[omega-nerve](https://ncatlab.org/nlab/show/omega-nerve), 
+[geometric realization](https://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces), 
+[totalization](https://ncatlab.org/nlab/show/totalization), 
+[copower](https://ncatlab.org/nlab/show/%28%E2%88%9E%2C1%29-limit)
+
+[quasicategory](https://ncatlab.org/nlab/show/quasi-category), 
+[generalized multicategory](https://ncatlab.org/nlab/show/generalized+multicategory), 
+[weak enrichment](https://ncatlab.org/nlab/show/weak+enrichment), 
+[internalization](https://ncatlab.org/nlab/show/internalization), 
+[hypercomplete topos](https://ncatlab.org/nlab/show/hypercomplete+%28infinity%2C1%29-topos), 
+[cosmos](https://ncatlab.org/nlab/show/cosmos#streets_second_definition)
+
+[monadic adjunction](https://ncatlab.org/nlab/show/monadic+adjunction), 
+[idempotent adjunction](https://ncatlab.org/nlab/show/idempotent+adjunction), 
+[lax idempotent 2-adjunction](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction), 
+[relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
+
+[simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization), 
+[infinity-hom space](https://ncatlab.org/nlab/show/(infinity,1)-categorical+hom-space), 
+[simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category), 
+[truncation-connection](https://ncatlab.org/nlab/show/(n-connected,+n-truncated)+factorization+system)
