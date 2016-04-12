@@ -251,7 +251,7 @@ e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)).
 For $E^\bullet$ an unreduced generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}, then every inclusion of two consecutive subspaces
 
 $$
-  B \hookrightarrow A \hookrightarrow X
+  Z \hookrightarrow Y \hookrightarrow X
 $$
 
 induces a [[long exact sequence]] of cohomology groups of the form
@@ -259,13 +259,13 @@ induces a [[long exact sequence]] of cohomology groups of the form
 $$
   \cdots
    \to
-  E^{q-1}(A,B) 
+  E^{q-1}(Y,Z) 
     \stackrel{\bar \delta}{\longrightarrow}
-  E^q(X,A)
+  E^q(X,Y)
     \stackrel{}{\longrightarrow}
-  E^q(X,B)
+  E^q(X,Z)
     \stackrel{}{\longrightarrow}
-  E^q(A,B)
+  E^q(Y,Z)
     \to
   \cdots
 $$
@@ -275,17 +275,28 @@ where
 $$
   \bar \delta 
     \;\colon \;
-  E^{q-1}(A,B) 
+  E^{q-1}(Y,Z) 
    \longrightarrow
-  E^{q-1}(A)
+  E^{q-1}(Y)
    \stackrel{\delta}{\longrightarrow}
-  E^{q}(A,X)
+  E^{q}(X,Y)
   \,.
 $$
 
 =--
 
-(e.g. [AGP 02, prop. 12.1.11](#AguilarGitlerPrieto02)).
++-- {: .proof}
+###### Proof
+
+Apply the [[braid lemma]] to the interlocking long exact sequences of the three pairs $(X,Y)$, $(X,Z)$, $(Y,Z)$. See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
+
+The dual braid diagram for [[generalized homology]] is this:
+
+<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+
+(graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
+
+=---
 
 +-- {: .num_remark}
 ###### Remark
