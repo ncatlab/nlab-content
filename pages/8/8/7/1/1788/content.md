@@ -1,5 +1,42 @@
++-- {: .num_defn #LeftHomotopy}
+###### Definition
+
+For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]** 
+
+$$
+  \eta \colon f \,\Rightarrow_L\, g
+$$ 
+
+is a [[continuous function]]
+
+$$
+  \eta \;\colon\; X \times I \longrightarrow Y
+$$
 
 
-[[BraidDiagramForHomologyOnTripled.jpg:file]]
+out of the standard [[cylinder object]] over $X$, def. \ref{TopologicalInterval}, such that this fits into a [[commuting diagram]] of the form
 
-<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
+</div>
+
+
+$$
+  \array{
+     X 
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{f}}
+     \\
+     X \times I &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{g}}
+     \\
+     X
+  }
+  \,.
+$$
+
+(graphics grabbed from J. Tauber [here](http://jtauber.com/blog/2005/07/01/path_homotopy/))
+
+=--
+
