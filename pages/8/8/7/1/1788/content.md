@@ -40,3 +40,226 @@ $$
 
 =--
 
++-- {: .num_example #PathsAsLeftHomotopyBetweenPoints}
+###### Example
+
+Let $X$ be a [[topological space]] and let $x,y \in X$ be two of its points, regarded as functions $x,y \colon \ast \longrightarrow X$ from the point to $X$. Then a left homotopy, def. \ref{LeftHomotopy}, between these two functions is a commuting diagram of the form
+
+$$
+  \array{
+     \ast 
+     \\
+     {}^{\mathllap{\delta_0}}\downarrow & \searrow^{\mathrlap{x}}
+     \\
+     I &\stackrel{\eta}{\longrightarrow}& Y
+     \\
+     {}^{\mathllap{\delta_1}}\uparrow & \nearrow_{\mathrlap{y}}
+     \\
+     \ast
+  }
+  \,.
+$$
+
+This is simply a continuous path in $X$ whose endpoints are $x$ and $y$.
+
+=--
+
+For instance:
+
++-- {: .num_example #StandardContractionOfStandardInterval}
+###### Example
+
+Let 
+
+$$
+  const_0 \;\colon\; I \longrightarrow \ast \overset{\delta_0}{\longrightarrow} I
+$$
+
+be the [[continuous function]] from the standard interval $I = [0,1]$ to itself that is constant on the value 0. Then there is a left homotopy, def. \ref{LeftHomotopy}, from the identity function
+
+$$
+  \eta \;\colon\; id_I \Rightarrow const_0
+$$
+
+given by
+
+$$
+  \eta(x,t) \coloneqq x(1-t)
+  \,.
+$$
+
+
+=--
+
+
+
+A key application of the concept of left homotopy is to the definition of [[homotopy groups]]:
+
++-- {: .num_defn #HomotopyGroupsOftopologicalSpaces}
+###### Definition
+
+For $X$ a [[topological space]], then its set $\pi_0(X)$
+of _[[connected components]]_, also called the **0-th homotopy set**, 
+is the set of 
+[[left homotopy]]-[[equivalence classes]] (def. \ref{LeftHomotopy}) of points $x \colon \ast \to X$, hence the set of path-connected components of $X$ (example \ref{PathsAsLeftHomotopyBetweenPoints}). By [[composition]] this extends to a [[functor]]
+
+$$
+  \pi_0 \colon Top \longrightarrow Set
+  \,.
+$$
+
+For $n \in \mathbb{N}$, $n \geq 1$ and for $x \colon \ast \to X$
+any point, then the $n$th **[[homotopy group]]** $\pi_n(X,x)$ of $X$ at $x$
+is the [[group]] 
+
+* whose underlying [[set]] is the set of [[left homotopy]]-[[equivalence classes]] of maps $I^n \longrightarrow X$ that take the [[boundary]] of $I^n$ to $x$ and where the left homotopies $\eta$ are constrained to be constant on the boundary;
+
+* whose [[group]] product operation takes $[\alpha \colon I^n \to X]$ and $[\beta \colon I^n \to X]$ to $[\alpha \cdot \beta]$ with
+
+$$
+  \alpha \cdot \beta
+  \;\colon\;
+  I^n 
+  \stackrel{\simeq}{\longrightarrow}
+  I^n \underset{I^{n-1}}{\sqcup} I^n
+  \stackrel{(\alpha,\beta)}{\longrightarrow}
+  X
+  \,,
+$$
+
+where the first map is a [[homeomorphism]] from the unit $n$-[[cube]] to the $n$-cube with one side twice the unit length (e.g. $(x_1, x_2, x_3, \cdots) \mapsto (2 x_1, x_2, x_3, \cdots)$). 
+
+By [[composition]], this construction extends to a [[functor]] 
+
+$$
+  \pi_{\bullet \geq 1}
+    \;\colon\; 
+  Top^{\ast/}
+   \longrightarrow 
+  Grp^{\mathbb{N}_{\geq 1}}
+$$
+
+from [[pointed topological spaces]] to [[graded object|graded]] [[groups]].
+
+=--
+
+Notice that often one writes the value of this functor on a morphism $f$ as $f_\ast = \pi_\bullet(f)$.
+
++-- {: .num_remark}
+###### Remark
+
+At this point we don't go further into the abstract reason why def. \ref{HomotopyGroupsOftopologicalSpaces} yields group structure above degree 0, which is that [[positive dimension spheres are H-cogroup objects]]. But this is important, for instance in the proof of the  [[Brown representability theorem]] [below](#BrownRepresentabilityTheorem).
+
+=--
+
++-- {: .num_defn #HomotopyEquivalence}
+###### Definition
+
+A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
+is called a **[[homotopy equivalence]]** if there exists a 
+continuous function the other way around,
+$g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
+
+$$
+  \eta_1 \;\colon\; f\circ g \Rightarrow_L id_Y
+$$
+
+and
+
+$$
+  \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
+  \,.
+$$
+
+If here $\eta_2$ is constant along $I$, $f$ is is said to exhibit $X$ as a **[[deformation retract]]** of $Y$.
+
+=--
+
+
++-- {: .num_defn #WeakHomotopyEquivalenceOfTopologicalSpaces}
+###### Definition
+
+A [[continuous function]] $f \colon X \longrightarrow Y$ is called  a **[[weak homotopy equivalence]]** if its image under all the [[homotopy group]] functors of def. \ref{HomotopyGroupsOftopologicalSpaces} is an [[isomorphism]], hence if 
+
+$$
+  \pi_0(f) \;\colon\; \pi_0(X) \stackrel{\simeq}{\longrightarrow} \pi_0(X)
+$$
+
+and for all $x \in X$ and all $n \geq 1$
+
+$$
+  \pi_n(f) \;\colon\; \pi_n(X,x) \stackrel{\simeq}{\longrightarrow} \pi_n(Y,f(y))
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
+###### Proposition
+
+Every [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence, def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
+
+In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First observe that for all $X\in$ [[Top]] the inclusion maps 
+
+$$
+  X \overset{(id,\delta_0)}{\longrightarrow} X \times I
+$$
+
+into the standard [[cylinder object]], def. \ref{TopologicalInterval}, are weak homotopy equivalences: by postcomposition with the contracting homotopy of the interval from example \ref{StandardContractionOfStandardInterval} all homotopy groups of $X \times I$ have representatives that factor through this inclusion.
+
+Then given a general [[homotopy equivalence]], apply the homotopy groups functor to the corresponding homotopy diagrams (where for the moment we notationally suppress the choice of basepoint for readability) to get two commuting diagrams
+
+$$
+  \array{
+     \pi_\bullet(X) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
+     \\
+     \pi_\bullet(X \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(Y)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(X)
+  }
+  \;\;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;\;
+  \array{
+     \pi_\bullet(Y) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(g)\circ \pi_\bullet(f)}}
+     \\
+     \pi_\bullet(Y \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(X)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(Y)
+  }
+  \,.
+$$
+
+By the previous observation, the vertical morphisms here are isomorphisms, and hence these diagrams exhibit $\pi_\bullet(f)$ as the inverse of $\pi_\bullet(g)$, hence both as isomorphisms.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The converse of prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences} is not true generally: not every weak homotopy equivalence between topological spaces is a homotopy equivalence.  (For an example with full details spelled out see for instance Fritsch, Piccinini: "Cellular Structures in Topology", p. 289-290).
+
+However, as we will explain and prove below, it turns out that
+
+1. every weak homotopy equivalence between [[CW-complexes]] is a homotopy equivalence;
+
+1. every topological space is connected by a weak homotopy equivalence to a CW-complex.
+
+=--
+
