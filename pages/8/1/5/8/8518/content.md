@@ -9,3 +9,4 @@
 
   * [[snake lemma]] $\Rightarrow$ [[connecting homomorphism]]
 
+  * [[braid lemma]]
