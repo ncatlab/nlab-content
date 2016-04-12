@@ -1,1 +1,5 @@
-?[[sol]]
+
+
+[[BraidDiagramForHomologyOnTripled.jpg:file]]
+
+<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
