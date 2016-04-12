@@ -1,3 +1,8 @@
 Hello! My name is Christian Williams (christianwilliams124@tamu.edu). I am a mathematics M.S. at Texas A&M University, conducting independent research that incorporates category theory.
 
 This page is currently under construction, and will be far from acceptable quality for some time; please don't mind the mess until then. Right now it is just for documentation; the possibility of people seeing my work will focus me, and I prefer this format over developing a LaTeX PDF. Thank you very much!
+
+### Links ###
+[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
+
+[(co)end commutativity](https://ncatlab.org/nlab/show/end#commutativity_of_ends_and_coends)
