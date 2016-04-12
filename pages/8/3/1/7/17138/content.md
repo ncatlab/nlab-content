@@ -6303,7 +6303,30 @@ $$
   \,.
 $$
 
-This is manifestly a cocone under $(-)_+$ applied to the diagram for the unreduced cone. Since $(-)_+$ is itself given by a colimit, it preserves colimits, and hence the result follows.
+We may factor the vertical maps to give
+
+$$
+  \array{
+    \ast &\longrightarrow& X \sqcup \ast &\overset{(f,id)}{\longrightarrow}& Y \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X \sqcup\ast &\longrightarrow& (X \times I) \sqcup \ast
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast \sqcup \ast &\longrightarrow& &\longrightarrow& Cone'(f)_+
+    \\
+    \downarrow && && \downarrow
+    \\
+    \ast &\longrightarrow& &\longrightarrow& Cone'(f)  
+  }
+  \,.
+$$
+
+
+
+This way the top part of the diagram (using the [[pasting law]] to compute the colimit in two stages) is manifestly a cocone under the result of applying $(-)_+$ to the diagram for the unreduced cone. Since $(-)_+$ is itself given by a colimit, it preserves colimits, and hence gives the partial colimit $Cone'(f)_+$ as shown. The remaining pushout then contracts the remaining copy of the point away.
 
 =--
 
@@ -7798,7 +7821,7 @@ Moreover, this is
 
 =--
 
-([Bousfield-Friedlander+model+structure#Bousfield-Friedlander 78, prop. 2.2](#BousfieldFriedlander78)).
+([Bousfield-Friedlander 78, prop. 2.2](Bousfield-Friedlander+model+structure#BousfieldFriedlander78)). 
 
 
 +-- {: .proof}
@@ -14610,7 +14633,7 @@ such that:
      \,.
    $$
 
-1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], def. \ref{ConeAndMappingCylinder}, then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(Cone(i)) 
@@ -14637,9 +14660,31 @@ We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$
 
 * **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
 
+A [[homomorphism]] of reduced cohomology theories
+
+$$
+  \eta \;\colon\; \tilde E^\bullet \longrightarrow \tilde F^\bullet
+$$
+
+is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
+
+$$
+  \array{
+    \tilde E^\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F^\bullet(X)
+    \\
+    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
+    \\
+    \tilde E^{\bullet + 1}(\Sigma X) 
+    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
+    \tilde F^{\bullet + 1}(\Sigma X)
+  }
+  \,.
+$$
+
 =--
 
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
+
 
 
 This is equivalent (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} below) to the following more succinct homotopy-theoretic definition:
@@ -14658,9 +14703,11 @@ $$
 from the [[opposite category|opposite]] of the pointed [[classical homotopy category]], def. \ref{ClassicalHomotopyCategory}, example \ref{ClassicalPointedHomotopyCategory}, to $\mathbb{Z}$-[[graded abelian groups]], and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
 
 $$
+  \sigma
+    \;\colon\;
+  \tilde E^{\bullet +1}(\Sigma -) 
+    \overset{\simeq}{\longrightarrow} 
   \tilde E^\bullet(-) 
-   \overset{\simeq}{\longrightarrow} 
-   \tilde E^{\bullet +1}(\Sigma -) 
 $$
 
 such that:
@@ -14704,7 +14751,7 @@ A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology
 1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
 
    $$
-     \delta \; \colon \; E^\bullet \longrightarrow E^{\bullet+1} \circ \Sigma
+     \sigma \; \colon \; E^\bullet \longrightarrow E^{\bullet+1} \circ \Sigma
    $$
 
 such that $E^\bullet$
@@ -14733,7 +14780,7 @@ $$
   \partial 
     \;\colon\; 
   E^\bullet(X)
-   \stackrel{\delta}{\longrightarrow}
+   \stackrel{\sigma}{\longrightarrow}
   E^{\bullet+1}(\Sigma X)
    \stackrel{coker(g)^\ast}{\longrightarrow}
   E^{\bullet+1}(Z)
@@ -14767,7 +14814,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\delta$ is by definition an isomorphism.
+By the defining exactness of $E^\bullet$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, and the way this appears in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}, using that $\sigma$ is by definition an isomorphism.
 
 =--
 
@@ -14782,7 +14829,7 @@ In the following a _pair_ $(X,U)$ refers to a [[subspace]] inclusion of [[topolo
 +-- {: .num_defn #GeneralizedCohomologyTheory}
 ###### Definition
 
-A _[[cohomology theory]]_ (unreduced) is a [[functor]]
+A _[[cohomology theory]]_ (unreduced, [[relative cohomology|relative]]) is a [[functor]]
 
 $$
   E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
@@ -14791,36 +14838,36 @@ $$
 to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
 $$
-  \delta_{(X,U)} 
+  \delta_{(X,A)} 
     \;\colon\;  
-  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  E^\bullet(A, \emptyset) \to E^{\bullet + 1}(X, A)
   \,.
 $$ 
 
 such that:
 
-1. **(homotopy invariance)** For $f \colon (X_1,U_1) \to (X_2,U_2)$ a [[homotopy equivalence]] of pairs, then 
+1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then 
 
    $$
      E^\bullet(f) 
       \;\colon\; 
-     E^\bullet(X_2,U_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,U_1)
+     E^\bullet(X_2,A_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,A_1)
    $$
 
    is an [[isomorphism]];
 
-1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequence
+1. {#ExactnessUnreduced} **(exactness)** For $A \hookrightarrow X$ the induced sequence
 
    $$ 
      \cdots 
        \to 
-     E^n(X, U) 
+     E^n(X, A) 
        \longrightarrow 
      E^n(X) 
        \longrightarrow
-     E^n(U) 
+     E^n(A) 
        \stackrel{\delta}{\longrightarrow} 
-     E^{n+1}(X, U) 
+     E^{n+1}(X, A) 
        \to 
      \cdots 
    $$
@@ -14835,7 +14882,6 @@ such that:
      E^n(X, A)
       \overset{\simeq}{\longrightarrow}
      E^n(X-U, A-U)  
-     \,.
    $$
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
@@ -14846,18 +14892,130 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 
 * **(Dimension)**: $E^{\bullet \neq 0}(\ast,\emptyset) = 0$.
 
+A [[homomorphism]] of unreduced cohomology theories 
+
+$$
+  \eta \;\colon\; E^\bullet \longrightarrow F^\bullet
+$$
+
+is a [[natural transformation]] of the underlying functors that is compatible with the connecting homomorphisms, hence such that all these [[commuting square|squares commute]]:
+
+$$
+  \array{
+     E^\bullet(A,\emptyset) &\overset{\eta_{(A,\emptyset)}}{\longrightarrow}& F^\bullet(A,\emptyset)
+     \\
+     {}^{\mathllap{\delta_E}}\downarrow && \downarrow^{\mathrlap{\delta_F}}
+     \\
+     E^{\bullet +1}(X,A) 
+       &\overset{\eta_{(X,A)}}{\longrightarrow}&
+     F^{\bullet +1}(X,A)
+  }
+  \,.
+$$
+
 =--
 
 e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
 
++-- {: .num_defn #AlternativeFormulationOfExcisionAxiom}
+###### Lemma
+
+The excision axiom in def. \ref{GeneralizedCohomologyTheory} is equivalent to the following statement:
+
+For all $A,B \hookrightarrow X$ with $X = Int(A) \cup Int(B)$, then the inclusion
+
+$$
+  i \colon (A, A \cap B) \longrightarrow (X,B) 
+$$
+
+induces an isomorphism,
+
+$$
+  i^\ast 
+    \;\colon\;
+  E^\bullet(X, B)
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(A, A \cap B)
+$$
+
+=--
+
+(e.g [Switzer 75, 7.2](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+In one direction, suppose that $E^\bullet$ satisfies the original excision axiom. Given $A,B$ with $X = \Int(A) \cup Int(B)$, set $U \coloneqq X-A$ and observe that 
+
+$$
+  \begin{aligned}
+     \overline{U} 
+        & = \overline{X-A} 
+     \\ & = X- Int(A)
+     \\ & \subset Int(B)
+  \end{aligned}
+$$
+
+and that
+
+$$
+  (X-U, B-U) = (A, A \cap B)
+  \,.
+$$
+
+Hence the excision axiom implies $  E^\bullet(X, B) \overset{\simeq}{\longrightarrow} E^\bullet(A, A \cap B)$. 
+
+Conversely, suppose $E^\bullet$ satisfies the alternative condition. Given $U \hookrightarrow A \hookrightarrow X$ with $\overline{U} \subset Int(A)$, observe that we have a cover
+
+$$
+  \begin{aligned}
+          Int(X-U) \cup Int(A) 
+      & = (X - \overline{U}) \cap \Int(A)
+   \\ & \supset (X - Int(A)) \cap Int(A)
+   \\ & = X   
+  \end{aligned}
+$$
+
+and that
+
+$$
+  (X-U, (X-U) \cap A) = (X-U, A - U)
+  \,.
+$$
+
+Hence
+
+$$
+  E^\bullet(X-U,A-U)
+  \simeq
+  E^\bullet(X-U, (X-U)\cap A)
+  \simeq
+  E^\bullet(X,A)
+  \,.
+$$
+
+=--
+
+The following lemma shows that the dependence in pairs of spaces in a generalized cohomology theory is really a stand-in for evaluation on [[homotopy cofibers]] of inclusions.
+
 +-- {: .num_lemma #EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}
 ###### Lemma
 
-Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$ be (the [[retract]] of) a [[relative cell complex]] inclusion. Then the morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
+Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$. Then there is an isomorphism 
 
 $$
-  p^\ast 
+  E^\bullet(X,A)
+    \stackrel{\simeq}{\longrightarrow}
+  E^\bullet(X \cup Cone(A), \ast)
+$$
+
+between the value of $E^\bullet$ on the pair $(X,A)$ and its value on the unreduced [[mapping cone]] of the inclusion (remark \ref{UnreducedCone}), relative to a basepoint.
+
+If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell complex]] inclusion, then also morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
+
+$$
+  E^\bullet(p)
     \;\colon\; 
   E^\bullet(X/A,\ast)
     \longrightarrow
@@ -14873,23 +15031,24 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Consider first the quotient of the [[mapping cone]] of the inclusion:
+Consider $U \coloneqq (Cone(A)-A \times \{0\}) \hookrightarrow Cone(A)$, the cone on $A$ minus the base $A$. We have
+
+$$
+  ( X\cup Cone(A)-U, Cone(A)-U) \simeq (X,A)
+$$
+
+and hence the first isomorphism in the statement is given by the excision axiom.
+
+Next consider the quotient of the [[mapping cone]] of the inclusion:
 
 $$
   ( X\cup Cone(A), Cone(A) ) \longrightarrow (X/A,\ast)
   \,.
 $$
 
-This is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence a homotopy equivalence on CW-complexes.
+If $A \hookrightarrow X$ is a cofibration, then this is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] \ref{FactorizationLemma} and by lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences}, $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence (by theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}) a homotopy equivalence on CW-complexes.
 
-Then consider $U \coloneqq (Cone(A)-A \times \{0\}) \hookrightarrow Cone(A)$ the cone on $A$ minus the base $A$. We have
-
-$$
-  ( X\cup Cone(A)-U, Cone(A)-U) \simeq (X,A)
-  \,.
-$$
-
-Hence we get a composite isomorphism
+Hence now we get a composite isomorphism
 
 $$
   E^\bullet(X/A,\ast)
@@ -14897,10 +15056,9 @@ $$
   E^\bullet( X\cup Cone(A), Cone(A) )
     \overset{\simeq}{\longrightarrow}
   E^\bullet(X,A)
-  \,,
+  \,.
 $$
 
-where the first morphism is an iso by the homotopy invariance clause on $E^\bullet$, while the second is an iso by excision.
 
 =--
 
@@ -14965,13 +15123,14 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Apply the [[braid lemma]] to the interlocking long exact sequences of the three pairs $(X,Y)$, $(X,Z)$, $(Y,Z)$. See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
-
-The dual braid diagram for [[generalized homology]] is this:
+Apply the [[braid lemma]] to the interlocking long exact sequences of the three pairs $(X,Y)$, $(X,Z)$, $(Y,Z)$:
 
 <img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
 
-(graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
+(graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526), showing the dual situation for homology)
+
+See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
+
 
 =---
 
@@ -15015,10 +15174,13 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 =--
 
+
+
 ##### Relation between unreduced and reduced cohomology
 
 +-- {: .num_defn #FromUnreducedToReducedCohomology}
 ###### Definition
+**(unreduced to reduced cohomology)**
 
 Let $E^\bullet$ be an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
 
@@ -15056,7 +15218,125 @@ The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a r
 
 =--
 
-(e.g [AGP 02, theorem 12.1.12](#AguilarGitlerPrieto02))
+(e.g [Switzer 75, 7.34](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+We need to check the exactness axiom given any $A\hookrightarrow X$. By lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient} we have an isomorphism
+
+$$
+  \tilde E^\bullet(X \cup Cone(A))
+  =
+  E^\bullet(X \cup Cone(A), \{\ast\})
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(X,A)
+  \,.
+$$
+
+Unwinding the constructions shows that this makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+     \tilde E^\bullet(X\cup Cone(A)) 
+        &\overset{\simeq}{\longrightarrow}&
+     E^\bullet(X,A)
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde E^\bullet(X) &=& E^\bullet(X,\{x\})
+     \\
+     \downarrow && \downarrow
+     \\
+     \tilde E^\bullet(A) &=& E^\bullet(A,\{a\})
+  }
+  \,,
+$$
+
+where the vertical sequence on the right is exact by prop. \ref{ExactSequenceOfATriple}. Hence the left vertical sequence is exact.
+
+=--
+
+
++-- {: .num_defn #ReducedToUnreducedGeneralizedCohomology}
+###### Definition
+**(reduced to unreduced cohomology)**
+
+Let $(\tilde E^\bullet, \sigma)$ be a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by 
+
+$$
+  E^\bullet(X,A)
+  \coloneqq
+  \tilde E^\bullet( X_+ \cup Cone(A_+))
+$$
+
+and let the connecting homomorphism be as in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}.
+
+=--
++-- {: .num_prop}
+###### Proposition
+
+The construction in def. \ref{ReducedToUnreducedGeneralizedCohomology} indeed yields an unreduced cohomology theory.
+
+=--
+
+e.g. ([Switzer 75, 7.35](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+Exactness holds by prop. \ref{LongExactSequenceOfACohomologyTheoryOnAnInfinityCategory}. For excision, it is sufficient to consider the alternative formulation of lemma \ref{AlternativeFormulationOfExcisionAxiom}.  For CW-inclusions, this follows immediately with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The constructions of def. \ref{ReducedToUnreducedGeneralizedCohomology} and def. \ref{FromUnreducedToReducedCohomology} constitute a pair of [[functors]] between then [[categories]] of reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology} and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory} which exhbit an [[equivalence of categories]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+(...careful with checking the respect for suspension iso and connecting homomorphism..)
+
+To see that there are [[natural isomorphisms]] relating the two composites of these two functors to the identity:
+
+One composite is
+
+$$
+  \begin{aligned}
+    E^\bullet 
+    & \mapsto
+    (\tilde E^\bullet \colon (X,x) \mapsto E^\bullet(X,\{x\})) 
+    \\
+    & \mapsto
+    ((E')^\bullet \colon (X,A) \mapsto E^\bullet( X_+ \cup Cone(A_+) ), \ast)
+  \end{aligned}
+  \,,
+$$
+
+where on the right we have, from the construction, the reduced mapping cone of the original inclusion $A \hookrightarrow X$ with a base point adjoined. That however is isomorphic to the unreduced mapping cone of the original inclusion, by prop. \ref{UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}. With this the natural isomorphism is given by lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}.
+
+The other composite is
+
+$$
+  \begin{aligned}
+    \tilde E^\bullet
+     & \mapsto
+    (E^\bullet \colon (X,A) \mapsto \tilde E^\bullet(X_+ \cup Cone(A_+)))
+    \\
+    & \mapsto 
+    ((\tilde E')^\bullet \colon X \mapsto \tilde E^\bullet(X_+ \cup Cone(*_+)))
+  \end{aligned}
+$$
+
+where on the right we have the reduced mapping cone of the point inclusion with a point adoined. As before, this is isomorphic to the unreduced mapping cone of the point inclusion. That finally is clearly homotopy equivalent to $X$, and so now the natural isomorphism follows with homotopy invariance.
+ 
+=--
+
+Finally we record the following basic relation between reduced and unreduced cohomology:
 
 +-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
 ###### Proposition
@@ -15069,13 +15349,12 @@ $$
 
 of the unreduced cohomology of $X$ with the [[direct sum]] of the reduced cohomology of $X$ and the unreduced cohomology of the base point.
 
-
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The pair $\ast \hookrightarrow X$ induces the seqence
+The pair $\ast \hookrightarrow X$ induces the sequence
 
 $$
   \cdots
@@ -15354,7 +15633,7 @@ Finally by the assumption that each suspension $\Sigma^n S_i$ of a generator is 
 ###### Theorem
 **(Brown representability)**
 
-Let $\mathcal{C}$ be an $(\infty,1)$-category compactly generated by cogroup objects closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}. Then a [[functor]]
+Let $\mathcal{C}$ be a model category compactly generated by cogroup objects closed under forming suspensions, according to def. \ref{CompactGenerationByCogroupObjects}. Then a [[functor]]
 
 $$
   F \;\colon\; Ho(\mathcal{C})^{op} \longrightarrow Set
@@ -15611,7 +15890,7 @@ Let $\mathcal{C}$be an [[(∞,1)-category]] which satisfies the conditions of th
 +-- {: .proof}
 ###### Proof
 
-Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories} gives the first clause. With this, the second clause follows by the [[(∞,1)-Yoneda lemma]] (in fact just with the [[Yoneda lemma]]).
+Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{BrownRepresentabilityOnPresentableInfinityCategories} gives the first clause. With this, the second clause follows by the [[Yoneda lemma]].
 
 =--
 
