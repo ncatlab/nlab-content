@@ -129,10 +129,10 @@ and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[s
 
 $$
   \sigma
-  \;\colon\;
+    \;\colon\;
+  \tilde E^{\bullet +1}(\Sigma -) 
+    \overset{\simeq}{\longrightarrow} 
   \tilde E^\bullet(-) 
-   \overset{\simeq}{\longrightarrow} 
-   \tilde E^{\bullet +1}(\Sigma -) 
 $$
 
 such that:
@@ -244,6 +244,14 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 
 e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
+
++-- {: .num_example #GeneralizedCohomologyOnHomotopyQuotientMaps}
+###### Example
+
+Let $E^\bullet$ be a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Let $(X,x)$ be a [[pointed topological space]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone to the [[reduced suspension]], then $E^\bullet(p)$ is an isomorphism.
+
+=--
+
 +-- {: .num_prop #ExactSequenceOfATriple}
 ###### Proposition
 **(exact sequence of a triple)**
@@ -301,7 +309,40 @@ The dual braid diagram for [[generalized homology]] is this:
 +-- {: .num_remark}
 ###### Remark
 
-The property expressed by prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
+The exact sequence of a triple in prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
+
+=--
+
++-- {: .num_example #ExtractingSuspensionIsomorphismFromUnreducedCohomology}
+###### Example
+
+For $(X,x)$ a [[pointed topological space]] and $Cone(X) = (X \wedge (I_+))/X$ its reduced [[cone]], the long exact sequence of the triple $(\{x\}, X, Cone(X))$, prop. \ref{ExactSequenceOfATriple},
+
+$$
+   0
+   \simeq
+   E^q(Cone(X), \{x\})
+     \longrightarrow
+   E^q(X,\{x\})
+     \overset{\bar \delta}{\longrightarrow}
+   E^{q+1}(Cone(X),X)
+     \longrightarrow
+   E^{q+1}(Cone(X), \{x\})
+   \simeq 0
+$$
+
+exhibits the [[connecting homomorphism]] $\bar \delta$ here as an [[isomorphism]]
+
+$$
+   \bar \delta
+     \;\colon\;
+   E^q(X,\{x\})
+     \overset{\simeq}{\longrightarrow}
+   E^{q+1}(Cone(X),X)
+  \,.
+$$
+
+This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology theory, see def. \ref{FromUnreducedToReducedCohomology} below.
 
 =--
 
@@ -311,16 +352,42 @@ The property expressed by prop. \ref{ExactSequenceOfATriple} is what gives rise 
 ### Relation between reduced and unreduced cohomology
  {#RelationBetweenReducedAndUnreduced}
 
-+-- {: .num_defn}
++-- {: .num_defn #FromUnreducedToReducedCohomology}
 ###### Definition
 
-For $E^\bullet(-,-) \colon Top^{\hookrightarrow} \to Ab^{\mathbb{Z}}$ a cohomology theory in the sense of def. \ref{GeneralizedCohomologyTheory}, then the functor $\tilde E^\bullet(-)$ on [[pointed topological spaces]] $(X,\ast)$ given by
+Let $E^\bullet$ be an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
+
+For $x \colon \ast \to X$ a [[pointed topological space]], set
 
 $$
-  \tilde E^\bullet(X,x_0) \coloneqq E^\bullet(X,\{x_0\})
+  \tilde E^\bullet(X,x) \coloneqq E^\bullet(X,\{x\})
+  \,.
 $$
 
-is a reduced cohomology theory in the sense of def. \ref{ReducedGeneralizedCohomology}.
+This is clearly [[functor|functorial]]. Take the [[suspension isomorphism]] to be the composite
+
+$$
+  \sigma 
+   \;\colon\;
+  \tilde E^{\bullet+1}(\Sigma X)
+   =
+  E^{\bullet+1}(\Sigma X, \{x\})
+   \overset{E^\bullet(p)}{\longrightarrow}
+  E^{\bullet+1}(Cone(X),X)
+    \overset{\bar \delta^{-1}}{\longrightarrow}
+  E^\bullet(X,\{x\})
+   =
+  \tilde E^{\bullet}(X)
+$$
+
+of the isomorphism $E^\bullet(p)$ from example \ref{GeneralizedCohomologyOnHomotopyQuotientMaps} and the [[inverse]] of the isomorphism $\bar \delta$ from example \ref{ExtractingSuspensionIsomorphismFromUnreducedCohomology}.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a reduced cohomology theory.
 
 =--
 
@@ -329,18 +396,20 @@ is a reduced cohomology theory in the sense of def. \ref{ReducedGeneralizedCohom
 +-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
 ###### Proposition
 
-For $(X,\ast)$ a pointed topological space, then
+Let $E^\bullet$ be an unreduced cohomology theory, and $\tilde E^\bullet$ its reduced cohomology theory from def. \ref{FromUnreducedToReducedCohomology}. For $(X,\ast)$ a pointed topological space, then there is an identification
 
 $$
   E^\bullet(X) \simeq \tilde E^\bullet(X) \oplus E^\bullet(\ast)
 $$
+
+of the unreduced cohomology of $X$ with the [[direct sum]] of the reduced cohomology of $X$ and the unreduced cohomology of the base point.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The pair $\ast \hookrightarrow X$ induces the seqence
+The pair $\ast \hookrightarrow X$ induces the sequence
 
 $$
   \cdots
