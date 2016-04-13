@@ -66,6 +66,26 @@ There is also a version of the definition for [[pointed spaces]].
 
 ## Properties
 
+### Inclusions
+
++-- {: .num_prop}
+###### Proposition
+
+An [[topological subspace]] inclusion $A \hookrightarrow X $ is a Hurewicz cofibration precisely if $A \times I \cup X \times \{0\}$ is a [[retract]] of $X\times I$.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+A subcomplex inclusion into a [[CW-complex]] is a Hurewicz cofibration
+
+=--
+
+e.g. Bredon _Topology and Geometry_, p. 431
+
+
+
 ### Closedness
  {#Closedness}
 
