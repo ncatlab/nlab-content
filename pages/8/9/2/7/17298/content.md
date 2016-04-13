@@ -28,6 +28,11 @@ on a unified construction and comparison of the [[Bousfield-Friedlander model st
 
 Related references include
 
+* {#Piacenza91} [[Robert Piacenza]], _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
+
+  also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
+
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
 
@@ -525,7 +530,7 @@ $$
 
 =--
 
-(see [MMSS 00, Variant 6.10](#MMSS00))
+([MMSS 00, def. 6.1](#MMSS00))
 
 +-- {: .proof}
 ###### Proof
