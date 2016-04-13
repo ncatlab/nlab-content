@@ -13,6 +13,8 @@
 
 * [[model structure on functors]]
 
+* [[Elmendorf's theorem]]
+
 * [[Model categories of diagram spectra]]
 
 
