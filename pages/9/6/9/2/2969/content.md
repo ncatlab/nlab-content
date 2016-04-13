@@ -46,7 +46,7 @@ $$
 In situations where both [[path space objects]] as well as [[cylinder objects]] exist and are compatible, so that the concepts of left and right homotopy coincide, one may equivalently rephrase right homotopy extension in terms of left homotopy (and left homotopy lifting in terms of right homotopy). 
 
 The resulting definition is necessarily less transparent (def. \ref{LeftHomotopyExtensionPropertyInTop} below), but it happens to be more commonly used in the literature.
-Specifically in the archetypical case that the ambient category is that of [[topological spaces]] and cylinders and path space objects are induced from the standard topological [[interval object]], a _[[Hurewicz cofibration]]_ is a [[continuous function]] that satisfies the left homotopy extension property with respect to all topological spaces.
+Specifically in the archetypical case that the ambient category is that of [[topological spaces]] and cylinders and path space objects are induced from the standard topological [[interval object]], a _[[Hurewicz cofibration]]_ (often just called _cofibration_ ) is a [[continuous function]] that satisfies the left homotopy extension property with respect to all topological spaces.
 
 
 ## Definition
@@ -56,12 +56,12 @@ Specifically in the archetypical case that the ambient category is that of [[top
 +-- {: .num_defn #LeftHomotopyExtensionPropertyInTop}
 ###### Definition
 
-A [[continuous function|(continuous)]] map $i:A\to X$ of [[topological spaces]] is said to satisfy the (left) **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}:X\to Y$ and a [[homotopy]] $F:A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}:X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. 
+A [[continuous function]] $i \colon A\to X$ of [[topological spaces]] is said to satisfy the (left) **homotopy extension property** (HEP) with respect to a space $Y$ if for any map $\tilde{f}\colon X\to Y$ and a [[homotopy]] $F \colon A\times I\to Y$ such that $F(-,0)=\tilde{f}\circ i$, a homotopy $\tilde{F}\colon X\times I\to Y$ exists such that $\tilde{F}\circ (i\times id_I)=F$. 
 
 If we write 
 
 $$
-  f:=\tilde{f}\circ i=F(-,0)
+  f \coloneqq \tilde{f}\circ i=F(-,0)
   \,;
 $$ 
 
@@ -82,7 +82,7 @@ $$
 }
 $$
 
-Here we denote $\sigma_0:x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. The map $\tilde{f}$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_. $\tilde{F}$ is the extension of the homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
+Here we denote $\sigma_0 \colon x\mapsto (x,0)$, so that $F\circ\sigma_0=F(-,0)$. The map $\tilde{f}$ is sometimes said to be the _initial condition_ of a _homotopy extension problem_. $\tilde{F}$ is the extension of the homotopy $F$ with given initial condition which itself extends $F\circ\sigma_0$. 
 
 =--
 
@@ -109,14 +109,16 @@ A map is a **[[Hurewicz cofibration]]** if it satisfies the homotopy extension p
 
 ## Properties
 
+### Closure
+
 +-- {: .num_prop}
 ###### Proposition
 
-If a map $i:A\to X$ has the homotopy extension property with respect to a space $Y$, then for any map $g:A\to Z$, the [[pushout]] $g_*(i)=i\amalg_A Z :Z\to X\amalg_A Z$ has the homotopy extension property with respect to the space $Y$. 
+If a map $i\colon A\to X$ has the homotopy extension property with respect to a space $Y$, then for any map $g \colon A\to Z$, the [[pushout]] $g_*(i)=i\amalg_A Z :Z\to X\amalg_A Z$ has the homotopy extension property with respect to the space $Y$. 
 
 =--
 
-This is a general statement about classes of morphisms defined by a [[left lifting property]].
+This is a general statement about classes of morphisms defined by a [[left lifting property]], see at _[injective and projective morphisms -- closure properties](injective+or+projective+morphism#ClosureProperties)_
 
 +-- {: .proof}
 ###### Proof
@@ -154,6 +156,7 @@ $ev_0\circ\tilde{F}=F$ as $\tilde{F}\circ g_*(i)=f$ holds by the construction of
 
 By the definition of $\tilde{G}$ and the commutativity of the original double square diagram, $ev_0\circ \tilde{F}\circ i_*(g)=ev_0\circ\tilde{G}=F\circ i_*(g)$ and $ev_0\circ \tilde{F}\circ g_*(i)=ev_0\circ f=F\circ g_*(i)$. This is almost what we wanted except that we precompose the wanted identity with both maps into the pushout. Thus by the uniqueness part of the universal property of pushout it follows that $ev_0\circ\tilde{F}=F$.
 =--
+
 
 
 [[!redirects h-cofibration]]
