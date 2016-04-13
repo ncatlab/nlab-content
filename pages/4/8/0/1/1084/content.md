@@ -1406,13 +1406,14 @@ for some $u:A\to B$ where all the morphisms in the triangle are appropriatedly i
 
 In the context of [[chain complexes]] the construction is discussed for instance in
 
-section 3.2 and section 7 of
+* {#Schapira} [[Pierre Schapira]], section 3.2 and section 7 of _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
+ 
 
-* [[Pierre Schapira]], _Categories and homological algebra_ (2011) ([pdf](http://people.math.jussieu.fr/~schapira/lectnotes/HomAl.pdf))
- {#Schapira}
+* {#Weibel} [[Charles Weibel]], section 1.5 of  _[[An Introduction to Homological Algebra]]_ .
 
-in section 1.5 of 
+In the context of [[spectra]] discussion includes
 
-* {#Weibel} [[Charles Weibel]], _[[An Introduction to Homological Algebra]]_ .
+* {#Switzer75} [[Robert Switzer]], around 8. 17 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 
 [[!redirects mapping cones]]
