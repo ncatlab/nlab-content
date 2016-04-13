@@ -405,6 +405,25 @@ $$
 
 =--
 
++-- {: .num_example #QuotientSpaceAsPushout}
+###### Example
+
+For $A\hookrightarrow X$ a [[topological subspace]] inclusion, example \ref{TopologicalSubspace}, then the pushout
+
+$$
+  \array{
+    A &\hookrightarrow& X
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& X/A
+  }
+$$
+
+is the [[quotient space]] or _[[cofiber]]_, denoted $X/A$.
+
+=--
+
 
 +-- {: .num_example #TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}
 ###### Example
@@ -5789,6 +5808,19 @@ Generally for a set $\{X_i\}_{i \in I}$ in $Top^{\ast/}$
 1. their [[coproduct]] is formed by the [[colimit]] in $Top$ over the diagram with a basepoint adjoined, and is called the [[wedge sum]] $\vee_{i \in I} X_i$.
 
 =--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[CW-complex]], def. \ref{TopologicalCellComplex} then for every $n \in \mathbb{N}$ the [[quotient]] (example \ref{QuotientSpaceAsPushout}) of its $n$-skeleton by its $(n-1)$-skeleton is the [[wedge sum]], def. \ref{WedgeSumAsCoproduct}, of $n$-spheres, one for each $n$-cell of $X$:
+
+$$
+  X^n / X^{n-1} \simeq \underset{i \in I_n}{\vee} S^n
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_defn #SmashProductOfPointedObjects}
 ###### Definition
