@@ -36,7 +36,7 @@ in the category [[Cat]]. Here $F_0$ is the object component of $F$ and $codisc(F
 
 ## Full images of forgetful functors ##
 
-Let $F$ be interpreted as a [[forgetful functor]], so that the objects of $C$ are thought of as objects of $D$ with some [[stuff, structure, property]].  Then the full image of $D$ consists of objects of $D$ with only a property: specifically the property that they are capable of taking the stuff or structure of being an object of $C$.
+Let $F$ be interpreted as a [[forgetful functor]], so that the objects of $C$ are thought of as objects of $D$ with some [[stuff, structure, property]].  Then the full image of $F$ consists of objects of $D$ with only a property: specifically the property that they are capable of taking the stuff or structure of being an object of $C$.
 
 For example, any [[inhabited set]] is capable of taking the structure of a [[group]] (at least, assuming the [[axiom of choice]]).  So the full image of the forgetful functor from [[Grp]] to [[Set]] is equivalent to the category $Set \setminus \{\empty\}$ of inhabited sets.
 
