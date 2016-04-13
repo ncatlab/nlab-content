@@ -1,3 +1,5 @@
+## Bijective-on-objects functors
+
 A [[functor]] is called **bijective on objects**, or **bo**, if it is, well, bijective on objects.  One reason bo functors are important is because together with [[full functor|full and faithful (ff) functors]] they form an [[weak factorization system|orthogonal factorization system]] on [[Cat]]; see [[bo-ff factorization system]].  This factorization system can also be constructed using a [[generalized kernel]].
 
 To be less [[evil]], one could require that the functor be bijective on objects only up to isomorphism; that is, it is [[essentially surjective functor|essentially surjective]] and [[full functor|full]] on isomorphisms.  However, from the point of view of [[factorization system]]s, the non-evil version of a bo functor is nothing more or less than an [[essentially surjective functor]], since essentially surjective functors and ff functors form a bicategorical factorization system on the [[bicategory]] $Cat$.
@@ -8,6 +10,11 @@ Proposition. A functor is bijective on objects if and only if it exhibits its
 codomain as the (2-categorical) [[descent object|codescent object]] of some simplicial category.
 
 This can be generalized to any [[regular 2-category]].
+
+## Related pages
+
+* [[surjective on objects functor]]
+* [[essentially surjective functor]]
 
 [[!redirects bo functors]]
 [[!redirects b.o. functor]]
