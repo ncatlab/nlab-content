@@ -43,6 +43,7 @@ Frequently one furthermore says:
 ## Properties
 
 ### Closure properties
+ {#ClosureProperties}
 
 +-- {: .num_prop #ClosurePropertiesOfInjectiveAndProjectiveMorphisms}
 ###### Proposition
@@ -401,3 +402,4 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 [[!redirects projective morphisms]]
 
 [[!redirects injective and projective morphisms]]
+[[!redirects projective and injective morphisms]]
