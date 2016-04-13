@@ -31,7 +31,7 @@ This is often used as the first, and in good cases the only, obstruction to a na
 +-- {: .num_defn}
 ###### Definition
 
-Given a tower $A_\bullet$ of [[abelian groups]]
+Given a [[tower]] $A_\bullet$ of [[abelian groups]]
 
 $$
   \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
@@ -95,8 +95,8 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}
 ### Vanishing of $\lim^1$
 
 
-+-- {: .num_prop #MittagLefflerCondition}
-###### Proposition
++-- {: .num_defn #MittagLefflerCondition}
+###### Definition
 
 A tower $A_\bullet$ of [[abelian groups]]
 
@@ -104,7 +104,7 @@ $$
   \cdots \to A_3 \to A_2 \to A_1 \to A_0
 $$
 
-is said to satify the _[[Mittag-Leffler condition]]_ if for all $i \geq k$ there exists $j \geq i \geq k$ such that the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_K$
+is said to satify the _[[Mittag-Leffler condition]]_ if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
  
 $$
   im(A_i \to A_k) \simeq im(A_j \to A_k)
