@@ -1034,8 +1034,11 @@ Write
 $$
   I_{Top}
     \coloneqq
-  \{S^{n-1} \stackrel{\iota_n}{\hookrightarrow} D^{n}\}_{n \in \mathbb{N}}
-    \subset 
+  \left\{
+    S^{n-1} \stackrel{\iota_n}{\hookrightarrow} D^{n}
+  \right\}_{n \in \mathbb{N}}
+  \;
+   \subset 
   Mor(Top)
 $$
 
@@ -1190,6 +1193,105 @@ a **relative $C$-cell complex** is a [[transfinite composition]] (def. \ref{Tran
 
 =--
 
++-- {: .num_defn #TopologicalGeneratingAcyclicCofibrations}
+###### Definition
+
+Write
+
+$$
+  J_{Top}
+    \coloneqq
+  \left\{
+    D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I
+  \right\}_{n \in \mathbb{N}}
+  \;
+  \subset Mor(Top)
+$$
+
+for the [[set]] of inclusions of the topological [[n-disks]], def. \ref{TopologicalGeneratingCofibrations}, into their [[cylinder objects]], def. \ref{TopologicalInterval}, along (for definiteness) the left endpoint inclusion.
+
+These inclusions are similar to the standard topological [[generating cofibrations]] $I_{Top}$ of def. \ref{TopologicalGeneratingCofibrations}, but in contrast to these they are "acyclic" (meaning: trivial on homotopy classes of maps from "cycles" given by [[n-spheres]]) in that they are [[weak homotopy equivalences]] (by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}).
+
+Accordingly, $J_{Top}$ is to be called the set of standard **topological [[generating acyclic cofibrations]]**.
+
+=--
+
++-- {: .num_lemma #CylinderOverCWComplexIsJTopRelativeCellComplex}
+###### Lemma
+
+For $X$ a [[CW-complex]] (def. \ref{TopologicalCellComplex}), then its inclusion $X \overset{(id, \delta_0)}{\longrightarrow} X\times I$ into its standard [[cylinder object|cylinder]] (def. \ref{TopologicalInterval}) is a $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalCCellComplex}, def. \ref{TopologicalGeneratingAcyclicCofibrations}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First erect a cylinder over all 0-cells
+
+$$ 
+  \array{
+     \underset{x \in X_0}{\coprod} D^0 &\longrightarrow& X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     \underset{x\in X_0}{\coprod} D^1 &\longrightarrow& Y_1
+  }
+  \,.
+$$
+
+Assume then that the cylinder over all $n$-cells of $X$ has been erected using attachment from $J_{Top}$. Then the union of any $(n+1)$-cell $\sigma$ of $X$ with the cylinder over its boundary is homeomorphic to $D^{n+1}$ and is like the cylinder over the cell "with end and interior removed". Hence via attaching along $D^{n+1} \to D^{n+1}\times I$ the cylinder over $\sigma$ is erected.
+
+=--
+
+
++-- {: .num_lemma #TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}
+###### Lemma
+
+The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAcyclicCofibrations} are finite [[relative cell complexes]], def. \ref{TopologicalCellComplex}. In other words, the elements of $J_{Top}$ are $I_{Top}$-[[relative cell complexes]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+There is a [[homeomorphism]]
+
+$$
+  \array{
+     D^n & = & D^n 
+     \\
+     {}^{\mathllap{(id,\delta_0)}}\downarrow  && \downarrow
+     \\
+     D^n \times I &\simeq& D^{n+1}
+  }
+$$
+
+such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of attaching two cells:
+
+$$
+  \array{
+    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n 
+    \\
+    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
+    \\
+    D^n &\longrightarrow& S^{n}
+    \\
+    && \downarrow^{=}
+    \\
+    S^n &\overset{id}{\longrightarrow}& S^n
+    \\
+    {}^{\mathllap{\iota_{n+1}}}\downarrow &(po)& \downarrow
+    \\
+    D^{n+1} &\underset{id}{\longrightarrow}& D^{n+1}
+  }
+  \,.
+$$
+
+here the top pushout is the one from example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}.
+
+=--
+
 
 ##### Fibrations
 
@@ -1242,76 +1344,6 @@ We will also say that $f$ is a **$C$-[[injective morphism]]** if it satisfies th
 
 =--
 
-
-
-
-+-- {: .num_defn #TopologicalGeneratingAcyclicCofibrations}
-###### Definition
-
-Write
-
-$$
-  J_{Top}
-    \coloneqq
-  \{D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I\}_{n \in \mathbb{N}}
-  \subset Mor(Top)
-$$
-
-for the [[set]] of inclusions of the topological [[n-disks]], def. \ref{TopologicalGeneratingCofibrations}, into their [[cylinder objects]], def. \ref{TopologicalInterval}, along (for definiteness) the left endpoint inclusion.
-
-These inclusions are similar to the standard topological [[generating cofibrations]] of def. \ref{TopologicalGeneratingCofibrations}, but in contrast to these they are "acyclic" (meaning: trivial on homotopy classes of maps from "cycles" given by [[n-spheres]]) in that they are [[weak homotopy equivalences]] (by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}).
-
-Accordingly, $J$ is to be called the set of standard **topological [[generating acyclic cofibrations]]**.
-
-=--
-
-+-- {: .num_lemma #TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}
-###### Lemma
-
-The maps $D^n \hookrightarrow D^n \times I$ in def. \ref{TopologicalGeneratingAcyclicCofibrations} are finite [[relative cell complexes]], def. \ref{TopologicalCellComplex}.
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-There is a [[homeomorphism]]
-
-$$
-  \array{
-     D^n & = & D^n 
-     \\
-     {}^{\mathllap{(id,\delta_0)}}\downarrow  && \downarrow
-     \\
-     D^n \times I &\simeq& D^{n+1}
-  }
-$$
-
-such that the map on the right is the inclusion of one hemisphere into the [[boundary]] [[n-sphere]] of $D^{n+1}$. This inclusion is the result of attaching two cells:
-
-$$
-  \array{
-    S^{n-1} &\overset{\iota_n}{\longrightarrow}& D^n 
-    \\
-    {}^{\mathllap{\iota_n}}\downarrow &(po)& \downarrow
-    \\
-    D^n &\longrightarrow& S^{n}
-    \\
-    && \downarrow^{=}
-    \\
-    S^n &\overset{id}{\longrightarrow}& S^n
-    \\
-    {}^{\mathllap{\iota_{n+1}}}\downarrow &(po)& \downarrow
-    \\
-    D^{n+1} &\underset{id}{\longrightarrow}& D^{n+1}
-  }
-  \,.
-$$
-
-here the top pushout is the one from example \ref{TopologicalnSphereIsPushoutOfBoundaryOfnBallInclusionAlongItself}.
-
-=--
 
 
 +-- {: .num_defn #SerreFibration}
@@ -1404,6 +1436,14 @@ $$
 
 =---
 
+The following is a general fact about closure of morphisms defined by lifting properties which we prove in generality below as prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}.
+
++-- {: .num_prop #SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}
+###### Proposition
+
+A [[Serre fibration]], def. \ref{SerreFibration} has the [[right lifting property]] against all [[retracts]] of $J_{Top}$-[[relative cell complexes]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCellComplex}).
+
+=--
 
 
 
@@ -1505,13 +1545,13 @@ $$
   \,.
 $$
 
-Because $f$ is a [[Serre fibration]], this has a [[lift]] 
+Because $f$ is a [[Serre fibration]] and by lemma \ref{CylinderOverCWComplexIsJTopRelativeCellComplex} and prop. \ref{SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}, this has a [[lift]] 
+
 $$
   \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
   \,.
 $$
 
-(...).
 
 Notice that $\tilde \eta$ is a basepoint preserving [[left homotopy]] from $\alpha = \tilde \eta|_1$ to some $\alpha' \coloneqq \tilde \eta|_0$. Being homotopic, they represent the same element of $\pi_{n-1}(X,x)$:
 
@@ -3849,7 +3889,7 @@ $$
   X 
    \stackrel{\in Cof}{\longrightarrow}
   \hat X
-   \stackrel{\in I_{top} Inj}{\longrightarrow}
+   \stackrel{\in I_{Top} Inj}{\longrightarrow}
   Y
   \,.
 $$
