@@ -9,16 +9,18 @@ This page is currently under construction, and will be far from acceptable quali
 [function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
 
 [profunctor nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor), 
-[LT Topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology), 
-[star-quantales](https://ncatlab.org/nlab/show/quantale#quantales), 
-[star-autonomous category](https://ncatlab.org/nlab/show/quantale#quantales), 
+[LT topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology), 
+[star-quantale](https://ncatlab.org/nlab/show/quantale#quantales), 
+[star-autonomy](https://ncatlab.org/nlab/show/quantale#quantales), 
 [Bohr](https://ncatlab.org/nlab/show/Bohr+topos)
 
 [oriental](https://ncatlab.org/nlab/show/oriental), 
 [omega-nerve](https://ncatlab.org/nlab/show/omega-nerve), 
-[geometric realization](https://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces), 
+[realization](https://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces), 
 [totalization](https://ncatlab.org/nlab/show/totalization), 
-[copower](https://ncatlab.org/nlab/show/%28%E2%88%9E%2C1%29-limit)
+[copower](https://ncatlab.org/nlab/show/%28%E2%88%9E%2C1%29-limit), 
+[simplex](https://ncatlab.org/nlab/show/simplex), 
+[decalage](https://ncatlab.org/nlab/show/decalage#DecalageComonad)
 
 [quasicategory](https://ncatlab.org/nlab/show/quasi-category), 
 [generalized multicategory](https://ncatlab.org/nlab/show/generalized+multicategory), 
@@ -28,8 +30,8 @@ This page is currently under construction, and will be far from acceptable quali
 [cosmos](https://ncatlab.org/nlab/show/cosmos#streets_second_definition)
 
 [monadic adjunction](https://ncatlab.org/nlab/show/monadic+adjunction), 
-[idempotent adjunction](https://ncatlab.org/nlab/show/idempotent+adjunction), 
-[lax idempotent 2-adjunction](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction), 
+[idempotence](https://ncatlab.org/nlab/show/idempotent+adjunction), 
+[lax idempotence](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction), 
 [relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
 
 [simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization), 
@@ -53,3 +55,9 @@ This page is currently under construction, and will be far from acceptable quali
 [fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects), 
 [tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category), 
 [simplicial model](https://ncatlab.org/nlab/show/model+structure+on+cosimplicial+simplicial+sets)
+
+[Schreiber](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf), 
+[Long March](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseFr.pdf), 
+[Shulman](https://ncatlab.org/michaelshulman/show/HomePage), 
+[Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#RelationToPhilosophy), 
+[Hegel](https://www.marxists.org/reference/archive/hegel/hl_index.htm)
