@@ -229,6 +229,10 @@ see at _[[ordinary homology spectra split]]_
 
 ## References
 
+For instance
+
+* {#Switzer75} [[Robert Switzer]], chapter 10 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 The [[Riemann-Hilbert correspondence]]/[[de Rham theorem]] for $H A$-modules is established in 
 
 * [[Jonathan Block]], Aaron Smith, _A Riemann--Hilbert correspondence for infinity local systems_ ([arXiv:0908.2843](http://arxiv.org/abs/0908.2843))
