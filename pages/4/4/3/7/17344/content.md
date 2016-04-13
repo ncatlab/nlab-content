@@ -42,6 +42,10 @@ Main page: _[[Introduction to Stable homotopy theory]]_.
 ***
 
 
+#Contents#
+* table of contents
+{:toc}
+
 ## **Part 1) Stable homotopy theory**
  {#StableHomotopyTheory}
 
