@@ -118,6 +118,8 @@ The first hint of such a general structure came in the paper by Brown and Spence
 
 There is a discussion of cubical vs simplicial singular homology and for other aspects at ([this mathoverflow] (http://mathoverflow.net/questions/3656/cubical-vs-simplicial-singular-homology)). 
 
+A complete cubical approach to algebraic topology at the border between homotopy and homology is given in the book discussed in these pages at [[Nonabelian Algebraic Topology]] see ([here] (https://ncatlab.org/nlab/show/Nonabelian+Algebraic+Topology)). As an example, the theory shows how the [[Relative Hurewicz Theorem]] follows from a Higher Homotopy Seifert-van Kampen Theorem, withut using singular homology. 
+
 
 
 ## References
