@@ -55,9 +55,29 @@ The Str&#248;m model structure on the category of [[compactly generated spaces]]
 
 ### Quillen adjunctions
 
-The identity functor $Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[Quillen model structure on topological spaces]] (or the mixed model structure) to the Str&#248;m model structure, and of course right Quillen in the other direction.  This is just the observation that any [[Hurewicz fibration]] is a [[Serre fibration]], and any [[homotopy equivalence]] is a [[weak homotopy equivalence]]---or dually, that any relative cell complex is a Hurewicz cofibration.
+The identity functor $id \colon Top \to Top$ is [[Quillen adjunction|left Quillen]] from the [[Quillen model structure on topological spaces]] (or the mixed model structure) to the Str&#248;m model structure, and of course right Quillen in the other direction.  
 
-It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {|-|} \colon sSet \leftrightarrows Top : Sing$ is [[Quillen adjunction|Quillen]] between the standard [[model structure on simplicial sets]] and the Str&#248;m model structure.
+$$
+  Top_{Strom}
+    \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+  Top_{Quillen}
+  \,.
+$$
+
+
+This is just the observation that any [[Hurewicz fibration]] is a [[Serre fibration]], and any [[homotopy equivalence]] is a [[weak homotopy equivalence]]---or dually, that any [[relative cell complex]] is a Hurewicz cofibration.
+
+It follows, by composition, that the ([[geometric realization]] $\dashv$ [[singular simplicial complex]])-[[adjunction]] $ {\vert-\vert} \colon sSet \leftrightarrows Top : Sing$ is a [[Quillen adjunction]] between the [[classical model structure on simplicial sets]] and the Str&#248;m model structure.
+
+$$
+  Top_{Strom}
+    \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
+  Top_{Quillen}
+    \stackrel{\overset{{\vert-\vert}}{\longleftarrow}}{\underset{Sing}{\longrightarrow}}
+  sSet_{Quillen}
+  \,.
+$$
+
 
 ### Simplicial structure
 
