@@ -11,7 +11,8 @@ This page is currently under construction, and will be far from acceptable quali
 [profunctor nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor), 
 [LT Topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology), 
 [star-quantales](https://ncatlab.org/nlab/show/quantale#quantales), 
-[star-autonomous category](https://ncatlab.org/nlab/show/quantale#quantales)
+[star-autonomous category](https://ncatlab.org/nlab/show/quantale#quantales), 
+[Bohr](https://ncatlab.org/nlab/show/Bohr+topos)
 
 [oriental](https://ncatlab.org/nlab/show/oriental), 
 [omega-nerve](https://ncatlab.org/nlab/show/omega-nerve), 
@@ -36,8 +37,19 @@ This page is currently under construction, and will be far from acceptable quali
 [weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system), 
 [semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
 
-[category-type theory](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory), 
-[dependent linear TT](https://ncatlab.org/nlab/show/dependent+linear+type+theory), 
+[category-type](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory), 
+[dependent linear tt](https://ncatlab.org/nlab/show/dependent+linear+type+theory), 
 [higher inductive type](https://ncatlab.org/nlab/show/higher+inductive+type), 
 [six operations](https://ncatlab.org/nlab/show/six+operations), 
 [Grothendieck construction](https://ncatlab.org/nlab/show/Grothendieck+construction)
+
+[ind-object](https://ncatlab.org/nlab/show/ind-object), 
+[deduction theorem](https://ncatlab.org/nlab/show/deduction+theorem), 
+[preset](https://ncatlab.org/nlab/show/preset), 
+[class](https://ncatlab.org/nlab/show/proper+class), 
+[tensional](https://ncatlab.org/nlab/show/type+theory#ExtensionalIntensional)
+
+[monadescent](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs), 
+[fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects), 
+[tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category), 
+[simplicial model](https://ncatlab.org/nlab/show/model+structure+on+cosimplicial+simplicial+sets)
