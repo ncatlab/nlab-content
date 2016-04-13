@@ -206,6 +206,9 @@ Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pj
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], section IX.2 of _Homotopy limits, completions and localization_, Springer 1972
 
+* {#Switzer75} [[Robert Switzer]], appendix to chapter 7  of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
+
 * {#Weibel94} [[Charles Weibel]], section 3.5 of _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994)
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
