@@ -22,6 +22,8 @@ This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still th
 
 ## Definition
 
+### In components
+
 In what follows, [[sSet]] denotes the [[category]] of [[simplicial sets]] and $sSet^{\ast/}$ the category $\ast/sSet$ of [[pointed objects|pointed]] simplicial sets (the [[undercategory]] under the [[terminal object]] $\ast$), which may be thought of as a possible base of [[enriched category|enrichment]]. 
 
 +-- {: .num_defn #Spectra}
@@ -80,7 +82,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahsv$pointed-hom [[adjuncts]]
+An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahv$pointed-hom [[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
@@ -89,6 +91,87 @@ $$
 of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]].
 
 =--
+
+### As diagram spectra
+
++-- {: .num_defn #CategoriesOfStandardSpheres}
+###### Definition
+
+Write $S^1_{std} \coloneqq \Delta[1]/\partial\Delta[1]\in sSet^{\ast/}$ for the standard minimal pointed simplicial [[1-sphere]].
+
+Write 
+
+$$
+  \iota \;\colon\; StdSpheres \longrightarrow sSet^{\ast/}_{fin}
+$$
+
+for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] of pointed [[simplicial object|simplicial]] [[finite sets]], def. \ref{SimplicialSetsPointedAndFinite} whose
+
+* [[objects]] are the [[smash product]] powers $S^n_{std} \coloneqq (S^1_{std})^{\wedge^n}$ (the standard minimal simplicial [[n-spheres]]);
+
+* [[hom-objects]] are
+
+  $$
+    [S^{n}_{std}, S^{n+k}_{std}]_{StdSpheres}
+    \coloneqq
+    \left\{
+      \array{
+        \ast & for & k \lt 0
+        \\
+        im(S^{k}_{std} \stackrel{}{\to} [S^n_{std}, S^{n+k}_{std}]_{sSet^{\ast/}_{fin}})
+        & otherwise
+      }
+    \right.
+  $$
+
+=--
+
+([Lydakis 98, def. 4.2](#Lydakis98)), see also ([MMSS 00](#MMSS00))
+
+
+
++-- {: .num_prop }
+###### Proposition
+
+There is an $sSet^{\ast/}$-[[enriched functor]] 
+
+$$
+  (-)^seq
+  \;\colon\;
+  [StdSpheres,sSet^{\ast/}]
+    \longrightarrow
+  SeqPreSpec(sSet)
+$$
+
+(from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of [[sequential prespectra]] in [[sSet]]) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+
+$$
+  X^{seq}_n \coloneqq X(S^n_{std})
+$$
+
+and with structure maps
+
+$$
+  \frac{S^1_{std} \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1_{std} \longrightarrow [X^{seq}_n, X^{seq}_{n+1}]}
+$$
+
+given by
+
+$$
+  S^1_{std} 
+    \stackrel{\widetilde{id}}{\longrightarrow}
+  [S^n_{std}, S^{n+1}_{std}]
+    \stackrel{X_{S^n_{std}, S^{n+1}_{std}}}{\longrightarrow}
+  [X^{seq}_n, X^{seq}_{n+1}]
+  \,.
+$$
+
+This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of categories]].
+
+=--
+
+([Lydakis 98, prop. 4.3](#Lydakis98)), see also ([MMSS 00](#MMSS00))
+
 
 ## Properties
 
