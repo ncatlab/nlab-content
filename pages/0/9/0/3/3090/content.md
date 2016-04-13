@@ -19,11 +19,31 @@
 
 ## Definition
 
++-- {: .num_defn #TopologicalGeneratingAcyclicCofibrations}
+###### Definition
+
+Write
+
+$$
+  J_{Top}
+    \coloneqq
+  \left\{
+      D^n \stackrel{(id,\delta_0)}{\hookrightarrow} D^n \times I
+  \right\}_{n \in \mathbb{N}}
+  \;\subset Mor(Top)
+$$
+
+for the [[set]] of inclusions of the topological [[n-disks]], into their [[cylinder objects]], along (for definiteness) the left endpoint inclusion.
+
+
+=--
+
+
 +-- {: .num_defn #SerreFibration}
 ###### Definition
 
 
-A **Serre fibration** is a [[continuous function]] between [[topological spaces]] that has the [[right lifting property]] with respect to all inclusions of the form $(id,0) \colon D^n \hookrightarrow D^n \times I$ that include the standard topological [[n-disk]] into its standard [[cylinder object]].
+A **Serre fibration** is a $J_{Top}$-[[injective morphism]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, hence a [[continuous function]] $f \colon X \longrightarrow Y$ that  has the [[right lifting property]] with respect to all inclusions of the form $(id,0) \colon D^n \hookrightarrow D^n \times I$ that include the standard topological [[n-disk]] into its standard [[cylinder object]].
 
 =--
 
@@ -72,7 +92,53 @@ The class of Serre fibrations serves as the class of abstract [[fibrations]] in 
 ## Properties
  {#Properties}
 
+### Closure properties
+
++-- {: .num_prop #SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}
+###### Proposition
+
+A Serre fibration has the right lifting property against all [[retracts]] of $J_{Top}$-[[relative cell complexes]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By general closure properties of [[projective and injective morphisms]], see there [this proposition](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms) for details.
+
+=--
+
+
 ### Long exact sequences of homotopy groups
+
+Since Serre fibrations are the abstract fibrations in the Serre-[[classical model structure on topological spaces]], the following statement follows from general [[model category]] theory. But it may also be seen by direct inspection, as follows.
+
++-- {: .num_lemma #CylinderOverCWComplexIsJTopRelativeCellComplex}
+###### Lemma
+
+For $X$ a finite [[CW-complex]], then its inclusion $X \overset{(id, \delta_0)}{\longrightarrow} X \times I$ into its standard [[cylinder object|cylinder]] is a $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First erect a cylinder over all 0-cells
+
+$$ 
+  \array{
+     \underset{x \in X_0}{\coprod} D^0 &\longrightarrow& X
+     \\
+     \downarrow &(po)& \downarrow
+     \\
+     \underset{x\in X_0}{\coprod} D^1 &\longrightarrow& Y_1
+  }
+  \,.
+$$
+
+Assume then that the cylinder over all $n$-cells of $X$ has been erected using attachment from $J_{Top}$. Then the union of any $(n+1)$-cell $\sigma$ of $X$ with the cylinder over its boundary is homeomorphic to $D^{n+1}$ and is like the cylinder over the cell "with end and interior removed". Hence via attaching along $D^{n+1} \to D^{n+1}\times I$ the cylinder over $\sigma$ is erected.
+
+=--
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
@@ -170,12 +236,13 @@ $$
   \,.
 $$
 
-Because $f$ is a [[Serre fibration]], this has a [[lift]] 
+Because $f$ is a [[Serre fibration]] and by lemma \ref{CylinderOverCWComplexIsJTopRelativeCellComplex} and prop. \ref{SerreFibrationHasRightLiftingAgainstJTopRelativeCellComplexes}, this has a [[lift]] 
+
 $$
   \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
   \,.
 $$
-(Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere $S_\pm^{n-1} \simeq D^{n-1}$ of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
+
 
 Notice that $\tilde \eta$ is a basepoint preserving [[left homotopy]] from $\alpha = \tilde \eta|_1$ to some $\alpha' \coloneqq \tilde \eta|_0$. Being homotopic, they represent the same element of $\pi_{n-1}(X,x)$:
 
