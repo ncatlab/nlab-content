@@ -775,12 +775,12 @@ $$
   \,.
 $$
 
-Because $f$ is a [[Serre fibration]], this has a [[lift]] 
+Because $S^{n-1} \to S^{n-1}\times I$ is a $J_{Top}$-[[relative cell complex]] and $f$ is a [[Serre fibraiton]] (see there), this has a [[lift]] 
+
 $$
   \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
   \,.
 $$
-(Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere $S_\pm^{n-1} \simeq D^{n-1}$ of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
 
 Notice that $\tilde \eta$ is a basepoint preserving [[left homotopy]] from $\alpha = \tilde \eta|_1$ to some $\alpha' \coloneqq \tilde \eta|_0$. Being homotopic, they represent the same element of $\pi_{n-1}(X,x)$:
 
