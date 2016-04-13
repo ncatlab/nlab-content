@@ -265,7 +265,7 @@ In practice, it can be useful to be able to treat all "presentations of $(\infty
 
 This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem asserts that after choosing a basepoint, this Kan complex is a model for $B(\mathbb{Z}/2)$.  Thus, any sort of object which might be considered as "a presentation of an $(\infty,1)$-category" canonically determines an object of $Cat_{(\infty,1)}$ (where "canonical" must still be taken in the quasicategorical sense).  On the other hand, it is completely independent of which vertex of $(The(\infty,1)Cats)$ we choose.
 
-A diagram taking place in $N^{hc}(\underline{QCat})$ which elaborates on certain salient aspects of the passage from models of $(\infty,1)$-categories to a model-independent approach can be found [here](https://math.berkeley.edu/~aaron/relcats-modelcats-qcats-inftycats.jpg).
+A diagram taking place in $N^{hc}(\underline{QCat})$ which elaborates on certain salient aspects of the passage from models of $(\infty,1)$-categories to a model-independent approach can be found [here](https://math.berkeley.edu/~aaron/relcats-modelcats-qcats-inftycats.jpg).  (For a small amount of explanation of this diagram, see [here](https://nforum.ncatlab.org/discussion/7029/a-diagram-relating-different-models-of-inftycategories/#Item_0).)
 
 
 ## Related concepts
