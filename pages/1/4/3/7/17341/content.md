@@ -3,16 +3,39 @@ Hello! My name is Christian Williams (christianwilliams124@tamu.edu). I am a mat
 This page is currently under construction, and will be far from acceptable quality for some time; please don't mind the mess until then. Right now it is just for documentation; the possibility of people seeing my work will focus me, and I prefer this format over developing a LaTeX PDF. Thank you very much!
 
 ### Links ###
+[Schreiber](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf), 
+[Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#RelationToPhilosophy), 
+[Long March](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseFr.pdf), 
+[Shulman](https://ncatlab.org/michaelshulman/show/HomePage), 
+[Hegel](https://www.marxists.org/reference/archive/hegel/hl_index.htm)
+
 [(co)ends](https://ncatlab.org/nlab/show/end#examples), 
 [profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations), 
 [double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses), 
 [function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
+[free loop space object](https://ncatlab.org/nlab/show/free+loop+space+object)
+
+[monadicity](https://ncatlab.org/nlab/show/monadicity+theorem)
+[monadic adjunction](https://ncatlab.org/nlab/show/monadic+adjunction), 
+[idempotence](https://ncatlab.org/nlab/show/idempotent+adjunction), 
+[lax idempotence](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction), 
+[relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
+
+[monadescent](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs), 
+[fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects), 
+[tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category), 
+[simplicial model](https://ncatlab.org/nlab/show/model+structure+on+cosimplicial+simplicial+sets)
 
 [profunctor nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor), 
 [LT topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology), 
 [star-quantale](https://ncatlab.org/nlab/show/quantale#quantales), 
 [star-autonomy](https://ncatlab.org/nlab/show/quantale#quantales), 
 [Bohr](https://ncatlab.org/nlab/show/Bohr+topos)
+
+[simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization), 
+[simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category), 
+[weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system), 
+[semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
 
 [oriental](https://ncatlab.org/nlab/show/oriental), 
 [omega-nerve](https://ncatlab.org/nlab/show/omega-nerve), 
@@ -29,15 +52,11 @@ This page is currently under construction, and will be far from acceptable quali
 [hypercomplete topos](https://ncatlab.org/nlab/show/hypercomplete+%28infinity%2C1%29-topos), 
 [cosmos](https://ncatlab.org/nlab/show/cosmos#streets_second_definition)
 
-[monadic adjunction](https://ncatlab.org/nlab/show/monadic+adjunction), 
-[idempotence](https://ncatlab.org/nlab/show/idempotent+adjunction), 
-[lax idempotence](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction), 
-[relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
-
-[simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization), 
-[simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category), 
-[weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system), 
-[semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
+[ind-object](https://ncatlab.org/nlab/show/ind-object), 
+[deduction theorem](https://ncatlab.org/nlab/show/deduction+theorem), 
+[preset](https://ncatlab.org/nlab/show/preset), 
+[class](https://ncatlab.org/nlab/show/proper+class), 
+[tensional](https://ncatlab.org/nlab/show/type+theory#ExtensionalIntensional)
 
 [category-type](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory), 
 [dependent linear tt](https://ncatlab.org/nlab/show/dependent+linear+type+theory), 
@@ -45,19 +64,3 @@ This page is currently under construction, and will be far from acceptable quali
 [six operations](https://ncatlab.org/nlab/show/six+operations), 
 [Grothendieck construction](https://ncatlab.org/nlab/show/Grothendieck+construction)
 
-[ind-object](https://ncatlab.org/nlab/show/ind-object), 
-[deduction theorem](https://ncatlab.org/nlab/show/deduction+theorem), 
-[preset](https://ncatlab.org/nlab/show/preset), 
-[class](https://ncatlab.org/nlab/show/proper+class), 
-[tensional](https://ncatlab.org/nlab/show/type+theory#ExtensionalIntensional)
-
-[monadescent](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs), 
-[fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects), 
-[tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category), 
-[simplicial model](https://ncatlab.org/nlab/show/model+structure+on+cosimplicial+simplicial+sets)
-
-[Schreiber](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf), 
-[Long March](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseFr.pdf), 
-[Shulman](https://ncatlab.org/michaelshulman/show/HomePage), 
-[Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#RelationToPhilosophy), 
-[Hegel](https://www.marxists.org/reference/archive/hegel/hl_index.htm)
