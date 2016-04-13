@@ -4101,7 +4101,7 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 We conclude this section by checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
-+-- {: .num_prop #StandardContractionOfStandardInterval}
++-- {: .num_prop #TopologicalCylinderOnCWComplexIsGoodCylinderObject}
 ###### Proposition
 
 Let $X$ be a [[CW-complex]], def. \ref{TopologicalCellComplex}. Then the standard topological cylinder of def. \ref{TopologicalInterval}
@@ -5942,7 +5942,7 @@ is the **reduced cyclinder** over $X$: the result of forming the ordinary cyclin
 (Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
 
 
-Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the based cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
+Just like the ordinary cylinder $X\times I$ receives a canonical injection from the [[coproduct]] $X \sqcup X$ formed in $Top$, so the reduced cyclinder receives a canonical injection from the coproduct $X \sqcup X$ formed in $Top^{\ast/}$, which is the [[wedge sum]] from example \ref{WedgeSumAsCoproduct}:
 
 $$
   X \vee X \longrightarrow X \wedge (I_+)
@@ -6986,17 +6986,17 @@ Hence we say:
 +-- {: .num_defn #HomotopyFiber}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]]. For $f \colon X \longrightarrow Y$ any morphism in its [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy fiber]]**
+Let $\mathcal{C}$ be a [[model category]] and $\mathcal{C}^{\ast/}$ its model category of [[pointed objects]], prop. \ref{ModelStructureOnSliceCategory}. For $f \colon X \longrightarrow Y$ any morphism in its [[category of fibrant objects]] $(\mathcal{C}^{\ast/})_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy fiber]]**
 
 $$
   hofib(f)\longrightarrow X
 $$
 
-is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C}^{\ast/})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
 
 Dually:
 
-For $f \colon X \longrightarrow Y$ any morphism in its [[category of cofibrant objects]] $\mathcal{C}_c$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy cofiber]]**
+For $f \colon X \longrightarrow Y$ any morphism in its [[category of cofibrant objects]] $(\mathcal{C}^{\ast/})_c$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, then its **[[homotopy cofiber]]**
 
 $$
   Y \longrightarrow hocofib(f)
@@ -7007,7 +7007,7 @@ is the morphism in the [[homotopy category of a model category|homotopy category
 
 =--
 
-In topological homotopy theory this becomes the following:
+In topological homotopy theory ([above](#TheClassicalHomotopyCategory)) this becomes the following:
 
 +-- {: .num_prop #StandardTopologicalMappingConeIsHomotopyCofiber}
 ###### Proposition
@@ -7144,7 +7144,18 @@ $$
   \,.
 $$
 
-Moreover, the pairing operation induced on the objects in the image of this functor via remark \ref{ConcatenatedLoopSpaceObject} (concatenation of loops) gives the objects [[group object]] structure, and makes this functor lift as
+Dually, the [[reduced suspension]] operation, def. \ref{SuspensionAndLoopSpaceObject}, which on $\mathcal{C}^{\ast/}$ depends on a choice of [[cylinder object]], becomes a functor on the homotopy category
+
+$$
+  \Sigma
+   \;\colon\;
+  Ho(\mathcal{C}^{\ast/})
+    \longrightarrow
+  Ho(\mathcal{C}^{\ast/})
+  \,.
+$$
+
+Moreover, the pairing operation induced on the objects in the image of this functor via remark \ref{ConcatenatedLoopSpaceObject} (concatenation of loops) gives the objects in the image of $\Omega$ [[group object]] structure, and makes this functor lift as
 
 $$
   \Omega 
