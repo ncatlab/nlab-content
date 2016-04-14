@@ -60,7 +60,7 @@ $$
   \;\colon\;
   c \mapsto
   \int^{c_1, c_2 \in \mathcal{C}}
-  F(c_1) \otimes F(c_2) \otimes [c_1 \otimes c_2, c]
+  X(c_1) \otimes X(c_2) \otimes [c_1 \otimes c_2, c]
   \,.
 $$
 
