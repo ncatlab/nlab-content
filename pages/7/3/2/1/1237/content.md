@@ -15,25 +15,28 @@
 
 ## Idea
 
-For $(X,x_0) as $ [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is obtained by taking  the cylinder $I\times X$ and identifying the subspace $\{0,1\}\times X\cup I\times \{x_0\}$ to a point.  
+For $(X,x) as $ [[pointed topological space]], then its *reduced suspension* $\Sigma X$ is equivalently 
 
-(Think of crushing the two ends of the cylinder and the line through the base point to a point.) 
+* obtained from the standard [[cylinder]] $I\times X$ by identifying the subspace $(\{0,1\}\times X) \cup (I\times \{x\})$ to a point.  
 
-Equivalently this is the [[smash product]] $S^1\wedge X$, of $X$ with the [[circle]] (based at some point) with $X$.
+  (Think of crushing the two ends of the cylinder and the line through the base point to a point.) 
 
-$$
-  \Sigma X \simeq S^1 \wedge X
-$$
+* obtained from the bare [[suspension]] $S X$ of $X$ and identifying $\{x_0\} \times I$ with a single point.
 
+* obtained from the [[reduced cylinder]] by collapsing the two ends, i.e. the [[cofiber]]
 
-This is in turn the result of taking the bare [[suspension]] $S X$ of $X$ and identifying $\{x_0\} \times I$ with a single point.
+  $$
+    \Sigma X \simeq cofib(X \vee X \to X \wedge (I_+))
+  $$
 
+* the [[mapping cone]] in [[pointed topological spaces]] formed with respect to the [[reduced cylinder]] $X \wedge (I_+)$ of the map $X \to \ast$;
 
+* the [[smash product]] $S^1\wedge X$, of $X$ with the [[circle]] (based at some point) with $X$.
 
-## Definition
-
-For a pointed space $(X,x_0)$,
-$$\Sigma X = (I\times X)/\{0,1\}\times X\cup I\times \{x_0\}$$
+  $$
+    \Sigma X \simeq S^1 \wedge X
+    \,.
+  $$
 
 
 ## Properties
