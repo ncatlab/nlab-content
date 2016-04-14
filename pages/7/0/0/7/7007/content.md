@@ -9,6 +9,8 @@ An introduction to [[program|programming]] languages in terms of [[type theory]]
 
 * _Practical foundations for programming languages_, Cambridge University Press 2012 ([draft pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf))
 
+A [second edition](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB) has now been produced. Author's comments on the changes are [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).  
+
 An introduction to programming in Standard ML
 
 *  _Programming in Standard ML_, [draft pdf](http://www.cs.cmu.edu/~rwh/smlbook/book.pdf)
