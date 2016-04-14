@@ -3935,10 +3935,7 @@ and as usual:
 * an **acyclic fibration** if it is a fibration and a weak equivalence.
 
 
-##### Verification
-
-
-We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]]:
+We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]].
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
@@ -4402,9 +4399,317 @@ Hence it remains to see that this adjunction is compatible with passing to homot
 
 ##### Model structure on topological functors
 
-(...)
+In the following we say _[[Top]]-[[enriched category]]_ and _[[Top]]-[[enriched functor]]_ etc. for what often is referred to as "[[topological category]]" and "[[topological functor]]" etc. As discussed there, these latter terms are ambiguous.
 
 
++-- {: .num_defn #TopEnrichedCategory}
+###### Definition
+
+A **[[topologically enriched category]]** $\mathcal{C}$ is a [[Top]]-[[enriched category]], hence:
+
+1. a [[class]] $Obj(\mathcal{C})$, called the **class of [[objects]]**;
+
+1. for each $a,b\in Obj(\mathcal{C})$ a topological space 
+
+   $$
+     \mathcal{C}(a,b)\in Top
+     \,,
+   $$
+
+   called the **space of [[morphisms]]** or the **[[hom-space]]** between $a$ and $b$;
+
+1. for each $a,b,c\in Obj(\mathcal{C})$ a [[continuous function]]
+
+   $$
+     \circ_{a,b,c} \;\colon\; \mathcal{C}(a,b)\times \mathcal{C}(b,c) \longrightarrow \mathcal{C}(a,c)
+   $$
+
+   out of the [[product topological space]], called the _[[composition]]_ operation
+
+1. for each $a \in Obj(\mathcal{C})$ a point $Id_a\in \mathcal{C}(a,a)$, called the _[[identity]]_ morphism on $a$
+
+such that the composition is [[associativity|associative]] and [[unitality|unital]].
+
+=--
+
++-- {: .num_remark #UnderlyingCategoryOfTopEnrichedCategory}
+###### Remark
+
+Given a [[topologically enriched category]] as in def. \ref{TopEnrichedCategory}, then forgetting the topology on the [[hom-spaces]] (along the [[forgetful functor]] $U \colon Top_k \to Set$) yields an ordinary [[locally small category]] with
+
+$$
+  Hom_{\mathcal{C}}(a,b) = U(\mathcal{C}(a,b))
+  \,.
+$$
+
+It is in this sense that $\mathcal{C}$ is a category with [[extra structure]], and hence "[[enriched category|enriched]]".
+ 
+=---
+
+The archetypical example is the following:
+
++-- {: .num_example #TopkAsATopologicallyEnrichedCategory}
+###### Example
+
+Write 
+
+$$
+  Top_k \hookrightarrow Top
+$$ 
+
+for the [[full subcategory]] of [[Top]] on the [[compactly generated topological spaces]]. Under forming [[Cartesian product]] 
+
+$$
+  (-)\times (-)
+  \;\colon\;
+  Top_k \times Top_k \longrightarrow Top_k
+$$
+
+
+and [[mapping spaces]] 
+
+$$
+  (-)^{(-)}
+  \;\colon\;
+  Top_k^{op}\times Top_k
+  \longrightarrow
+  Top_k
+$$
+
+this is a [[cartesian closed category]] (see at _[[convenient category of topological spaces]]_). As such it canonically obtains the structure of a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, with [[hom-spaces]] given by [[mapping spaces]]
+
+$$
+  Top_k(X,Y)
+  \coloneqq
+  Y^X
+$$
+
+and with [[composition]] 
+
+$$
+  Y^X \times Z^Y
+  \longrightarrow
+  Z^X
+$$
+
+given by the (product$\dashv$ mapping-space)-[[adjunct]] of the [[evaluation morphism]]
+
+$$
+  X \times Y^X \times Z^Y
+  \overset{(ev, id)}{\longrightarrow}
+  Y \times Z^Y
+  \overset{ev}{\longrightarrow}
+  Z
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #TopologicallyEnrichedFunctor}
+###### Definition
+
+A [[topologically enriched functor]] between two [[topologically enriched categories]] 
+
+$$
+  F \;\colon\;  \mathcal{C}  \longrightarrow \mathcal{D}
+$$
+
+is a [[Top]]-[[enriched functor]], hence:
+
+1. a [[function]]
+
+   $$
+     F_0 \colon Obj(\mathcal{C}) \longrightarrow Obj(\mathcal{D})
+   $$
+
+   of [[objects]];
+
+1. for each $a,b \in Obj(\mathcal{C})$ a [[continuous function]]
+
+   $$
+     F_{a,b} \;\colon\; \mathcal{C}(a,b) \longrightarrow \mathcal{D}(F_0(a), F_0(b))
+   $$
+
+   of [[hom-spaces]]
+
+such that this preserves [[composition]] and [[identity]] morphisms in the evident sense.
+
+A [[homomorphism]] of topologically enriched functors $F \Rightarrow G$ is a [[Top]]-[[enriched natural transformation]], which is just a [[natural transformation]] of the underlying ordinary functors.
+
+We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologically enriched functors. This itself naturally obtains the structure of [[topologically enriched category]], see at _[[enriched functor category]]_.
+
+=--
+
+
++-- {: .num_example #TopologicallyEnrichedFunctorsToTopk}
+###### Example
+
+For $\mathcal{C}$ any topologically enriched category, def. \ref{TopEnrichedCategory} then a topologically enriched functor
+
+$$
+  F \;\colon\; \mathcal{C} \longrightarrow Top_k
+$$
+
+to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
+
+Such a functor is equivalently 
+
+* a [[compactly generated topological space]] $F_a\in Top_k$ for each object $a \in Obj(\mathcal{C})$;
+
+* a [[continuous function]]
+
+  $$
+     F_a \times \mathcal{C}(a,b) \longrightarrow F_b
+  $$
+
+  for all pairs of objects $a,b \in Obj(\mathcal{C})$
+
+such that composition is respected, in the evident sense.
+
+For every object $c \in \mathcal{C}$, there is a topologically enriched [[representable functor]], denoted $y(c) or \mathcal{C}(c,-)$ which sends objects to 
+
+$$
+  y(c)(d) = \mathcal{C}(c,d) \in Top
+$$
+
+and whose action on morphisms is, under the above identification, just the [[composition]] operation in $\mathcal{C}$.
+
+The topologically enriched functor category $[\mathcal{C}, Top_k]$ is canonically [[tensoring|tensored]] over $Top_k$, in that there is a canonical functor
+
+$$
+  \cdot
+  \;\colon \;
+  [\mathcal{C}, Top_k] \times Top_k
+  \longrightarrow
+  [\mathcal{C}, Top_k]
+$$
+
+given by forming the [[Cartesian product]] in $Top_k$ objectwise:
+
+$$
+  F \cdot X \;\colon\; c \mapsto F(c)\times X
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #GeneratingCofibrationsForProjectiveStructureOnFunctors}
+###### Definition
+
+For $\mathcal{C}$ a [[small category|small]] topologically enriched category, def. \ref{TopEnrichedCategory}, write
+
+$$
+  I_{Top}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (S^{n-1} \overset{\iota_n}{\longrightarrow} D^n)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+and 
+
+$$
+  J_{Top}^{\mathcal{C}}
+  \;\coloneqq\;
+  \left\{
+    y(c)\cdot (D^n \overset{(id, \delta_0)}{\longrightarrow} D^n \times I)
+  \right\}_{{n \in \mathbb{N}} \atop {c \in Obj(\mathcal{C})}}
+$$
+
+for the classes (here: sets) of morphisms given by [[tensoring]] the representable functors, example \ref{TopologicallyEnrichedFunctorsToTopk} with the generating cofibrations (def.\ref{TopologicalGeneratingCofibrations}) and acyclic generating cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $Top_k$, respectively.
+
+These are going to be called the **[[generating cofibrations]]** and **acyclic generating cofibrations** for the projective model structure on topologically enriched functors on $\mathcal{C}$.
+
+=--
+
++-- {: .num_remark #MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}
+###### Remark
+
+By the [[Yoneda lemma]] and the defining property of [[tensoring]] over $Top_k$, there are [[natural bijections]]
+
+$$
+  \frac{
+    y(c)\cdot X \longrightarrow F
+  }{
+    X \longrightarrow F(c)
+  }
+$$
+
+between 
+
+1. [[natural transformations]] from $y(c)\cdot X$  (the [[tensoring]] with $X \in Top_k$ of the [[representable functor]] of $c\in Obj(\mathcal{C})$) to some topologically enriched functor $F$ , 
+
+1. [[continuous functions]] from $X$ to the value of that topological functor on the object $c$.
+
+=--
+
++-- {: .num_defn #ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors}
+###### Definition
+
+Given a [[small category|small]] [[topologically enriched category]] $\mathcal{C}$, def. \ref{TopEnrichedCategory}, say that a morphism in the category of topologically enriched copresheaves $[\mathcal{C}, Top_k]$, example \ref{TopologicallyEnrichedFunctorsToTopk}, hence a [[natural transformation]] between topologically enriched functors, $\eta \colon F \to G$ is
+
+* a **projective weak equivalence**, if for all $c\in Obj(\mathcal{C})$ the component $\eta_c \colon F(c) \to G(c)$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces});
+
+* a **projective fibration** if for all $c\in Obj(\mathcal{C})$ the component $\eta_c \colon F(c) \to G(c)$ is a [[Serre fibration]] (def. \ref{SerreFibration});
+
+* a **projective cofibration** if it is a [[retract]] (rmk. \ref{RetractsOfMorphisms}) of an $I_{Top}^{\mathcal{C}}$-[[relative cell complex]] (def. \ref{TopologicalCCellComplex}, def. \ref{GeneratingCofibrationsForProjectiveStructureOnFunctors}).
+
+Write 
+
+$$ 
+  [\mathcal{C}, Top_{Quillen}]_{proj}
+$$
+
+for the category of topologically enriched functors equipped with these classes of morphisms.
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top]$, called the **[[projective model structure on enriched functors]]** $[\mathcal{C}, Top_{Quillen}]_{proj}$.
+
+=--
+
+([Piacenza 91, theorem 5.4](classical+model+structure+on+topological+spaces#Piacenza91))
+
++-- {: .proof}
+###### Proof
+
+Via remark \ref{MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor}, the statement essentially reduces objectwise to the proof of theorem \ref{TopQuillenModelStructure}:
+
+In particular, the technical lemmas \ref{CompactSubsetsAreSmallInCellComplexes}, \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and \ref{AcyclicSerreFibrationsAreTheJTopFibrations} generalize immediately to the present situation, with the evident small change of wording. 
+
+For instance the fact that a morphism of topologically enriched functors $\eta \colon F \to G$ that has the right lifting property against the elements of $I_{Top}^{\mathcal{C}}$ is a projective weak equivalence, follows by noticing that remark \ref{MorphismsFromTensoredRepresentableToTopologicallyEnrichedFunctor} gives a [[natural bijection]] of commuting diagrams (and their fillers) of the form
+
+$$
+  \left(
+  \array{
+    y(c) \cdot S^{n-1} &\longrightarrow& F
+    \\
+    {}^{\mathllap{(id\cdot \iota_n)}}\downarrow && \downarrow^{\mathrlap{\eta}}
+    \\ 
+    y(c) \cdot D^n &\longrightarrow& G
+  }
+  \right)
+  \;\;\;\leftrightarrow\;\;\;
+  \left(
+  \array{
+     S^{n-1} &\longrightarrow& F(c)
+     \\
+     \downarrow && \downarrow^{\mathrlap{\eta_c}}
+     \\
+     D^n &\longrightarrow& G(c)
+  }
+  \right)
+  \,,
+$$
+
+and hence the statement follows with part A) of the proof of lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
+
+With these three lemmas in hand, the remaining formal part of the proof goes through verbatim as [above](#VerificationOfTopQuillen): repeatedly use the [[small object argument]] and the [[retract argument]] to establish the two weak factorization systems. (While again the structure of a [[category with weak equivalences]] is evident.)
+
+=--
 
 ### **P.2)** Simplicial homotopy theory 
  {#SimplicialSets}
