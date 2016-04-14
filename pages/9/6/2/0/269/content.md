@@ -17,6 +17,10 @@
 
 A **cubical set** is a [[presheaf]] on the [[cube category]] $\Box$. 
 
+## Expository material
+
+For expository material, see [[cubical set - exposition]]. 
+
 ## Idea
 
 The definition is to be understood from the point of view of [[space and quantity]]: a _cubical set_ is a [[space]] characterized by the fact that and how it may be _probed_ by mapping standard cellular [[cubes]] into it: the set $S_n$ assigned by a cubical set to the standard $n$-[[cube]] $[n]$ is the set of $n$-[[cubes]] in this space, hence the way of mapping a standard $n$-[[cube]] into this spaces.
