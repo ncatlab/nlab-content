@@ -81,11 +81,46 @@ Throughout part I we are dealing with $(Top^{\ast/},\wedge)$-[[enriched categori
 
 Define the following $Top^{\ast/}$-[[enriched categories|enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is an [[enriched functor]]):
 
-1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0;
+1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0. As a $Top^{\ast/}$-[[enriched category]] the hom-spaces are
 
-1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], objects are the sets $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]];
+   $$
+     Seq(n_1,n_2) = 
+     \left\{
+       \array{
+          S^0 & for\; n_1 = n_2
+          \\
+          \ast & otherwise
+       }
+    \right.
+   $$
 
-1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence all morphisms are [[automorphisms]] and the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space;
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], objects are the sets $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]]; we turn this into a $Top^{\ast/}$-[[enriched category]] by adjoining a basepoint:
+
+   $$
+     Sym(n_1, n_2) =
+     \left\{
+       \array{
+          (\Sigma_{n_1})_+ & for \; n_1 = n_2
+          \\
+          \ast & otherwise
+       }
+     \right.
+   $$
+
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
+  
+  $$
+    Orth(V_1,V_2) 
+    \simeq
+    \left\{
+       \array{
+         O(V_1)_+ & for \; dim(V_1) = dim(V_2)
+         \\
+         \ast & otherwise
+       }
+    \right.
+  $$
+
 
 1. $Top_{fin}^{\ast/}$ is the [[full subcategory]] of [[pointed topological space]] on those [[homeomorphism|homeomorphic]] to [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]] $S^0$.
 
@@ -118,7 +153,7 @@ $$
   \,,
 $$
 
-where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon \Sigma_n \hookrightarrow O(n)$ is the inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V) \hookrightarrow Aut(S^V)$ is the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometric isometries of $V$.
+where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$.
 
 =--
 
