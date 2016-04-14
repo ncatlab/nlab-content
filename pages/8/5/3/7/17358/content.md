@@ -37,42 +37,42 @@ We refer to $tr_{n}$ as the _$n$-truncation_ functor.
 +-- {: .num_defn}
 ###### Definition
 
-Let $n \geq 0$ be an integer. The _category of $n$-truncated cubical sets is the free co-completion of $\square_{\leq n}$. 
+Let $n \geq 0$ be an integer. The _category of $n$-truncated cubical sets is the free co-completion of $\square_{n}$. 
 
 =--
 
 +-- {: .num_defn}
 ###### Remark
 
-The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] presheaves of sets on this category. Thus we can also think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{\leq n}$.
+The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] presheaves of sets on this category. Thus we can also think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{n}$.
 
 =--
 
 +-- {: .num_defn}
 ###### Notation
 
-We denote the category of $n$-truncated cubical sets by $\mathsf{Set}^{\square_{\leq n}^{op}}$.
+We denote the category of $n$-truncated cubical sets by $\mathsf{Set}^{\square_{n}^{op}}$.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-An _$n$-truncated cubical set_ is an object of $\mathsf{Set}^{\square_{\leq n}^{op}}$.
+An _$n$-truncated cubical set_ is an object of $\mathsf{Set}^{\square_{n}^{op}}$.
 
 =--
 
 +-- {: .num_defn}
 ###### Remark
 
-When we think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{\leq n}$, we consequently think of an $n$-truncated cubical set as a presheaf of sets on $\square_{\leq n}$.
+When we think of the category of $n$-truncated cubical sets as the category of presheaves of sets on $\square_{n}$, we consequently think of an $n$-truncated cubical set as a presheaf of sets on $\square_{n}$.
 
 =--
 
 +-- {: .num_defn}
 ###### Definition
 
-A _morphism of $n$-truncated cubical sets_ is an arrow of $\mathsf{Set}^{\square_{\leq n}}^{op}}$.
+A _morphism of $n$-truncated cubical sets_ is an arrow of $\mathsf{Set}^{\square_{n}^{op}}$.
 
 =--
 
