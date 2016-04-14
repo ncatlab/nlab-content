@@ -454,7 +454,7 @@ between the [[category of modules]] over $R$ and the [[enriched functor category
 +-- {: .proof}
 ###### Proof idea
 
-Use that identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
 
 $$
   N(c_1) \otimes R(c_2) \longrightarrow N(c_1 \otimes c_2)
