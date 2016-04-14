@@ -280,6 +280,8 @@ See also
 
 [[!redirects projective model structure on functors]]
 
-
 [[!redirects global model structures on functor categories]]
 [[!redirects global model structure on functors]]
+
+[[!redirects model structure on enriched functors]]
+[[!redirects model structures on enriched functors]]
