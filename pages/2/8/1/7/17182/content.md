@@ -272,24 +272,15 @@ Moreover, this is
 +-- {: .proof}
 ###### Proof
 
-Write $sSet^{\mathbb{N}}$ for the category of $\mathbb{N}$-sequences of simplicial sets. This may be thought of as the category of [[simplicial presheaves]] on the [[discrete category]] $\mathbb{N}^{op}$, and as such it carries the projective [[model structure on functors]]/[[model structure on simplicial presheaves]] $sSet^{\mathbb{N}}_{proj}$.
-
-Consider then the [[free-forgetful adjunction]]
+The representation of [sequential spectra as diagram spectra](sequential%20spectrum#AsDiagramSpectra) says that the category of sequential spectra is [[equivalence of categories|equivalently]] an [[enriched functor category]]
 
 $$
-  SeqSpectra(sSet)
-  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
-  sSet^{\mathbb{N}}
+  SeqSpec(sSet)
+  \simeq
+  [StdSpheres, sSet^{\ast/}]
 $$
 
-and the corresponding [[transferred model structure]] $SeqSpectra(sSet)_{strict}$,
-
-$$
-  SeqSpectra(sSet)_{strict}
-  \stackrel{\overset{F}{\longleftarrow}}{\underset{U}{\longrightarrow}}
-  sSet^{\mathbb{N}}_{proj}
-  \,.
-$$
+([this proposition](sequential+spectrum#SequentialSpectraAsDiagramSpectra)). Accordingly, this carries the [[projective model structure on enriched functors]], and unwinding the definitions, this gives the statement for the fibrations and the weak equivalences.
 
 It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
 
