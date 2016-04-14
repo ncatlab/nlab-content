@@ -57,11 +57,11 @@ $$G \int H = G \ltimes H^n$$
 
 with the action of $G$ on $H^n$ induced from the action on $[n]$. 
 
-Another, more abstract, way to describe this substitution product is as follows: there is a [[cartesian monad]] $T$ on $Cat$ whose algebras are symmetric strict monoidal categories, and we have $\mathbf{P} = T 1$, where $1$ is the [[terminal category]].  The substitution product $\Gamma \circ D$ can then be described as the following pullback in $Cat$.
-$$\array{\Gamma \circ D & \overset{}{\to} & T D\\
-  \downarrow && \downarrow^{T !}\\
-  C & \underset{\Gamma}{\to} & T 1 & = \mathbf{P}}$$
-
+Another, more abstract, way to describe this substitution product is as follows: there is a [[cartesian monad]] $S$ on $Cat$ whose algebras are symmetric strict monoidal categories, and we have $\mathbf{P} = S 1$, where $1$ is the [[terminal category]].  The substitution product $\Gamma \circ D$ can then be described as the following pullback in $Cat$.
+$$\array{\Gamma \circ D & \overset{}{\to} & S D\\
+  \downarrow && \downarrow^{S !}\\
+  C & \underset{\Gamma}{\to} & S 1 & = \mathbf{P}}$$
+See below for a general version of this construction.
 
 ### Substitution product as monoidal product
 
@@ -131,7 +131,21 @@ and on morphisms, it is given by the operad structure on $Aut(n) = Lin(n)$ discu
 
 * Let $C$ be any (permutative) operad valued in $Set$, with underlying species $\mathbf{P} \to Set$. Then category of elements gives a functor $\Gamma: El(C) \to \mathbf{P}$, and this carries a club structure induced from the operad structure on $C$. In this way, clubs generalize operads.  In fact, operads in $Set$ can be identified with those clubs for which the functor $\Gamma\colon C\to \mathbf{P}$ is a [[discrete fibration]].
 
-## Clubs over finite sets 
+## Clubs over cartesian monads
+
+The foregoing construction can be generalized to any [[cartesian monad]] $S$ on $Cat$.  Since a monad is a [[monoid]] in the [[monoidal category]] of [[endofunctors]], the [[slice category]] $[Cat,Cat]/S$ inherits a monoidal structure.  We also have an "evaluate at $1$" functor $[Cat,Cat]/S \to Cat/S1$, which has a right adjoint defined by pulling back: given $A\to S1$, we define an endofunctor $\hat{A}$ of $Cat$ by the following pullbacks:
+
+$$ \array{ \hat{A}(X) & \to & A \\
+\downarrow && \downarrow\\
+S(X) & \to & S(1) }$$
+
+This right adjoint is fully faithful and embeds $Cat/S1$ into $[Cat,Cat]/S$ as the endofunctors equipped with a [[cartesian natural transformation]] to $S$.  Finally, the cartesianness of $S$ implies that $Cat/S1$ is closed under the monoidal structure of $[Cat,Cat]/S$.  This induced monoidal structure on $Cat/S1$ is, in the case when $S$ is the symmetric strict monoidal category monad, exactly the substitution product defined above.  Thus, a club is a monoid for this monoidal structure, and the inclusion of $Cat/S1$ into $[Cat,Cat]/S$ thereby sends it to a monad over $S$.
+
+Note, however, that this construction depends on no special features of $Cat$; it can be performed for any cartesian monad $S$ on any category with finite limits.  This can be found in [(Kelly, Clubs and datatype constructors)](#KellyCDT).
+
+## Clubs over finite sets
+
+(To be written...)
 
 ## Clubs of mixed variance
 
@@ -206,6 +220,10 @@ A club over $\mathbf{G}$ induces (via the actegory structure) a monad on $Cat$, 
 
 Clubs over $\mathbf{G}$ are _not_ however examples of generalized operads over a cartesian monad. 
 
+## References
+
+* [[Max Kelly]], *On clubs and data-type constructors*, Applications of Categories in Computer Science, Proceedings of the London Mathematical Society Symposium, Durham 1991
+ {#KellyCDT}
 
 [[!redirects club]]
 [[!redirects clubs]]
