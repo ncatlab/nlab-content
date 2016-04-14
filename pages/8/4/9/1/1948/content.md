@@ -285,3 +285,7 @@ See also
 
 [[!redirects model structure on enriched functors]]
 [[!redirects model structures on enriched functors]]
+
+[[!redirects model projective structure on enriched functors]]
+[[!redirects model projective structures on enriched functors]]
+
