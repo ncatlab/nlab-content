@@ -1,2 +1,21 @@
 
-qq
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+$$
+
+$$
+  (X \vee X)_{n+1}
+  \underset{S^1 \wedge (X\vee X)_n}{\sqcup}
+  S^1 \wedge (X \wedge (I_+))_n
+  \longrightarrow
+  (X \wedge (I_+))_{n+1}
+$$
+
+$$
+  (X_{n+1} \vee X_{n+1})
+  \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
+   S^1 \wedge X_n \wedge (I_+)
+  \longrightarrow
+  X_{n+1} \wedge I_+
+$$
