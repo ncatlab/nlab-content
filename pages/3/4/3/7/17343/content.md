@@ -3858,11 +3858,9 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 #### The classical model structure on topological spaces
  {#TheClassicalModelStructureOfTopologicalSpaces}
 
+
 We now discuss that the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) classes of maps of topological spaces indeed satisfy the axioms of abstract homotopy theory ([[model category]]) theory, def. \ref{ModelCategory}.
 
-**Literature** ([Hirschhorn 15](#Hirschhorn15))
-
-$\,$
 
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
 ###### Definition
@@ -3884,9 +3882,14 @@ and as usual:
 * an **acyclic fibration** if it is a fibration and a weak equivalence.
 
 
+##### Verification
+
 
 We prove that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]]:
 
+**Literature** ([Hirschhorn 15](#Hirschhorn15))
+
+$\,$
 
 +-- {: .num_prop #QuillenWeakEquivalencesSatisfyTwoOutOfThree}
 ###### Proposition
@@ -3963,8 +3966,6 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. 
-
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
 topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
@@ -3992,7 +3993,7 @@ Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equival
 +-- {: .num_prop #LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}
 ###### Proposition
 
-Every [[commuting diagram|commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
+Every [[commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
 
 $$
   \array{
@@ -4075,7 +4076,8 @@ define a [[model category]] structure, $Top_{Quillen}$.
 
 =--
 
-Hence we get:
+
+##### The classical homotopy category
 
 +-- {: .num_defn #ClassicalHomotopyCategory} 
 ###### Definition
@@ -4094,12 +4096,13 @@ $$
 +-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex} 
 ###### Remark
 
-Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}. 
+
+Therefore writing $Top_{CW}\hookrightarrow Top$ for the [[full subcategory]] on those topological spaces homeomorphic to a CW-complex, then $Ho(Top)$ is equivalent to $Top_{CW}$ with homotopy-equivalence classes of maps.
 
 =--
 
-
-We conclude this section by checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
+We checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
 +-- {: .num_prop #TopologicalCylinderOnCWComplexIsGoodCylinderObject}
 ###### Proposition
@@ -4238,10 +4241,119 @@ $$
 
 Inspection of the component maps shows that the left vertical morphism here is the inclusion into the square times $D^n$ of three of its faces times $D^n$. This is homeomorphic to the inclusion $D^{n+1} \to D^{n+1} \times I$ (as in remark \ref{SerreFibrationsByLiftingAgainstMapsHomeomorphicToDiskInclusions}). Therefore a lift in this square exsists, and hence a lift in the original square exists.
 
+=--
 
+We now consider the general [[loop space object]] and [[reduced suspension]] functors from prop. \ref{LoopingAsFunctorOnHomotopyCategory} specialized to the case of the model category $\mathcal{C} = Top_{Quillen}$. In fact prop. \ref{SuspensionAndLoopAreAdjointOnHomotopyCategory} below holds generally for every model category ([Quillen 67](#Quillen67)), but using the above properties of the topological interval $I$ we get an elegant and transparent proof.
+
++-- {: .num_prop #ReducedSuspensionBySmashProductWithCircle}
+###### Proposition
+
+In [[pointed topological spaces]] $Top^{\ast/}$, 
+
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard reduced cylinder $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
+
+  $$
+    \Sigma X \simeq X \wedge S^1
+    \,,
+  $$
+
+Dually:
+
+* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the pointed [[mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
+
+  $$
+    \Omega X \simeq X^{S^1}
+    \,.
+  $$
+
+Moreover, by the [[exponential object]]-property of the pointed [[mapping space]] (example \ref{PointedMappingSpace}) these form [[adjoint functors]]
+
+$$
+  ((-)\wedge S^1 \dashv (-)^{S^1})
+  \;\colon\;
+  Top^{\ast/}
+  \longrightarrow 
+  Top^{\ast/}
+  \,.
+$$
 
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
+
+The adjunction follows from general principles:
+
+$$
+  \begin{aligned}
+     Hom_{Top^{\ast/}}(X, Y^{S^1})
+     & =
+     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
+     \\
+     & \simeq
+     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
+     \\
+     & \simeq
+     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
+     \\
+     & \simeq 
+     Hom_{Top}^{\ast/}(X \wedge S^1, Y)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_prop #SuspensionAndLoopAreAdjointOnHomotopyCategory}
+###### Proposition
+
+The [[loop space]] functor $\Omega$ and [[reduced suspension]] functor $\Sigma$ on the [[classical homotopy category]] of [[pointed topological spaces]] (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) are [[adjoint functors]], with $\Sigma$ [[left adjoint]] and $\Omega$ [[right adjoint]]:
+
+$$
+  (\Sigma \dashv \Omega)
+  \;\colon\;
+  Ho(Top_{Quillen}^{\ast/})
+   \longrightarrow
+  Ho(Top_{Quillen}^{\ast/})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the universal property of the homotopy category (thm. \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}) and by the fact that every topological space is weakly equivalent to a [[CW-complex]] (rmk. \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may consider $\Omega$ and $\Sigma$ on the category $Top_{CW}^{\ast/}$ of pointed CW-complexes and homotopy classes of continuous functions between them.
+
+By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of good [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a good cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a good path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
+
+Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
+
+$$
+  (\Sigma \dashv \Omega) 
+  \;\colon\;
+  Top_{CW}^{\ast/}
+  \longrightarrow
+  Top_{CW}^{\ast/}
+  \,.
+$$
+
+
+Hence it remains to see that this adjunction is compatible with passing to homotopy equivalence classes of functions. Hence let $X \wedge I_+ \to \Omega Y$ be a [[left homotopy]]. By prop. \ref{ReducedSuspensionBySmashProductWithCircle} its [[adjunct]] is $(X \wedge I_+) \wedge S^1\simeq (X\wedge S^1)\wedge I_+ \simeq (\Sigma X)\wedge I_+$.
+
+=--
+
+##### Model structure on topological functors
+
+(...)
+
 
 
 ### **P.2)** Simplicial homotopy theory 
@@ -5948,6 +6060,31 @@ $$
   X \vee X \longrightarrow X \wedge (I_+)
   \,.
 $$
+
+=--
+
++-- {: .num_example #PointedMappingSpace}
+###### Example
+
+For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **pointed mapping space** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
+
+$$
+  (X,x)^{(Y,y)}
+    \hookrightarrow
+  (X^Y, const_x)
+$$
+
+on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
+
+The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
+
+$$
+  Hom_{Top^{\ast/}}((Z,z) \wedge (Y,y), (X,x))
+  \simeq
+  Hom_{Top^{\ast/}}((Z,z), (X,x)^{(Y,y)})
+$$
+
+between basepoint-preserving continuous functions out of a [[smash product]], def. \ref{SmashProductOfPointedObjects}, with pointed continuous functions of one variable into the pointed mapping space.
 
 =--
 
