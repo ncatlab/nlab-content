@@ -59,7 +59,7 @@ for the operation of freely adjoining a basepoint.
 +-- {: .num_prop}
 ###### Proposition
 
-The [[coslice model structure]] $(Top_{Quillen})^{\ast/}$ is itself [[cofibrantly generated model category|cofibrantly generated], with generating cofibrations
+The [[coslice model structure]] $(Top_{Quillen})^{\ast/}$ is itself [[cofibrantly generated model category|cofibrantly generated]], with generating cofibrations
 
 $$
   I_{Top^{\ast/}}
