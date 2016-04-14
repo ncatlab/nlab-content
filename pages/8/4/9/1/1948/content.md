@@ -97,7 +97,7 @@ In particular, every cofibration if $[C,A]_{proj}$ is in particular a cofibratio
 
 This is argued in the beginning of the proof of [[Higher Topos Theory|HTT, lemma A.2.8.3]].
 
-For $Top$-enriched functors, this is ([Piacenza 91, section 5](#Piacenza91)).
+For $Top$-enriched functors, this is ([Piacenza 91, section 5](#Piacenza91)). For details see at _[classical model structure on topological spaces -- Model structure on enriched functors](classical+model+structure+on+topological+spaces#ModelStructureOnTopEnrichedFunctors)_.
 
 
 ### Relation to other model structures
@@ -286,6 +286,6 @@ See also
 [[!redirects model structure on enriched functors]]
 [[!redirects model structures on enriched functors]]
 
-[[!redirects model projective structure on enriched functors]]
-[[!redirects model projective structures on enriched functors]]
+[[!redirects projective model structure on enriched functors]]
+[[!redirects projective model structures on enriched functors]]
 
