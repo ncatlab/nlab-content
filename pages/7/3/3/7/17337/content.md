@@ -2,6 +2,9 @@
 
 In [[type theory]], **type refinement** is a term initially coined to refer to "datasort refinements", sub-datatypes induced by refining the set of available constructors, but later broadened to include "index refinements".
 
+###Related concepts
+* [[intrinsic and extrinsic views of typing]]
+
 ###References
 
 * _A refinement type by any other name_, ([blog post](http://www.weaselhat.com/2015/03/16/a-refinement-type-by-any-other-name/))
@@ -13,3 +16,4 @@ In [[type theory]], **type refinement** is a term initially coined to refer to "
 * [[Frank Pfenning]], _Church and Curry: Combining Intrinsic
 and Extrinsic Typing_, ([pdf](https://www.cs.cmu.edu/~fp/papers/andrews08.pdf))
 * [[Paul-André Melliès]], [[Noam Zeilberger]], _Type refinement and monoidal closed bifibrations_, [arXiv:1310.0263](http://arxiv.org/abs/1310.0263)
+* [[Paul-André Melliès]], [[Noam Zeilberger]], _Functors are Type Refinement Systems_, ([pdf](http://noamz.org/papers/funts.pdf))
