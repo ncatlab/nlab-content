@@ -464,6 +464,29 @@ A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 
 ## Properties
 
+### Fibrant and cofibrant objects
+ {#FibrantAndCofibrantObjects}
+
+A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibration) if 
+
+1. $X_0$ is cofibrant in [[sSet]] (no condition)
+
+1. $$
+     \ast_{n+1}\underset{S^1 \wedge \ast_n}{\coprod} S^1 \wedge X_n
+     \longrightarrow
+     X_{n+1}
+   $$
+
+   is a cofibration. But in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
+
+   $$
+     S^1 \wedge X_n \longrightarrow X_{n+1}
+   $$
+
+   being cofibrations, hence inclusions, in [[sSet]].
+
+Doing the same analysis in $SeqSpec(Top)_{stable}$ gives that the cofibrant objects are the "cell complex spectra", those for which each component space is a [[cell complex]] and all the structure maps are [[relative cell complexes]]. If the cell complexes here happen to be just [[CW-complexes]], then this is a _[[CW-spectrum]]_.
+
 ### Relation to sequential spectra in $Top$ and to combinatorial spectra
 
 +-- {: .num_prop}
