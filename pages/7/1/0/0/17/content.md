@@ -90,7 +90,7 @@ The inbuilt export features of the n-Lab have been switched off.  However, it is
 +-- {: .query}
 The following command line magic depends on the [list of all pages](http://ncatlab.org/nlab/list) which no longer works. Is there any other way to download a copy of the nLab?
 
-[[Andrew Stacey|Andrew]]: The "all pages" is currently reenabled, but there are alternative methods depending on exactly what you want to do with the copy.  Best route would be to join us in the [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum) and discuss it so that we can come up with the best method.
+[[Andrew Stacey|Andrew]]: The "all pages" is currently reenabled, but there are alternative methods depending on exactly what you want to do with the copy.  Best route would be to join us in the [nForum](https://nforum.ncatlab.org/) and discuss it so that we can come up with the best method.
 
 (For housekeeping, I'll delete this query box in a few days.)
 =--
