@@ -4343,7 +4343,7 @@ We now consider the general [[loop space object]] and [[reduced suspension]] fun
 
 In [[pointed topological spaces]] $Top^{\ast/}$, 
 
-* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard reduced cylinder $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
 
   $$
     \Sigma X \simeq X \wedge S^1
@@ -6453,7 +6453,7 @@ $$
   X \wedge (I_+) = (X \times I)/(\{x_0\} \times I)
 $$
 
-is the **reduced cyclinder** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
+is the **[[reduced cyclinder]]** over $X$: the result of forming the ordinary cyclinder over $X$ as in def. \ref{TopologicalInterval}, and then identifying the interval over the basepoint of $X$ with the point.
 
 (Generally, any construction in $\mathcal{C}$ properly adapted to pointed objects $\mathcal{C}^{\ast/}$ is called the "reduced" version of the unpointed construction. Notably so for "[[reduced suspension]]" which we come to [below](#MappingCones).)
 
@@ -6831,7 +6831,7 @@ where the prime denotes the _unreduced cone_, formed from a cylinder object in $
 +-- {: .num_prop #UnreducedMappingConeAsReducedConeOfBasedPointAdjoined}
 ###### Proposition
 
-For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone, remark \ref{UnreducedCone}, with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, def. \ref{MappingConeAndMappingCocone}, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined, def. \ref{BasePointAdjoined}) with respect to the standard reduced cylinder (example \ref{StandardReducedCyclinderInTop}):
+For $f \colon X \longrightarrow Y$ a morphism in [[Top]], then its unreduced mapping cone, remark \ref{UnreducedCone}, with respect to the standard cylinder object $X \times I$ def. \ref{TopologicalInterval}, is isomorphic to the reduced mapping cone, def. \ref{MappingConeAndMappingCocone}, of the morphism $f_+ \colon X_+ \to Y_+$ (with a basepoint adjoined, def. \ref{BasePointAdjoined}) with respect to the standard [[reduced cylinder]] (example \ref{StandardReducedCyclinderInTop}):
 
 $$
   Cone'(f) \simeq Cone(f_+)
