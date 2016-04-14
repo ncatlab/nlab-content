@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -16,6 +15,7 @@ The book
   _Practical Foundations for Programming Languages, second edition_, Cambridge University Press (2016), ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
 
 lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
+In over 500 pages, the author formally specifies and step-by-step extends established type systems and reasons about type savefty and operational semantics (not so much dependent types and categorical semantics). The book also contains a discussion of logic in type theory and features of variants of the Algol programming language, in particular.
 
 The first edition (2012) is available as a [pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
 
