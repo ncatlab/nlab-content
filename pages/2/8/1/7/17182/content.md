@@ -464,12 +464,25 @@ A spectrum $X \in SeqSpec(sSet)_{stable}$ is
 
 ## Properties
 
-### Fibrant and cofibrant objects
+### Fibrantions and cofibrantions
  {#FibrantAndCofibrantObjects}
 
-A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibration) if 
++-- {: .num_prop}
+###### Proposition
 
-1. $X_0$ is cofibrant in [[sSet]] (no condition)
+A [[sequential spectrum]] $X\in SeqSpec(sSet)_{stable}$ is cofibrant precisely if all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[monomorphisms]].
+
+A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]] are cofibrant in $SeqSpec(Top)_{stable}$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibrations) if 
+
+1. $X_0$ is cofibrant; this is no condition in [[sSet]], while in [[Top]] it means that $X_0$ is a retract of a [[cell complex]];
 
 1. $$
      \ast_{n+1}\underset{S^1 \wedge \ast_n}{\coprod} S^1 \wedge X_n
@@ -483,9 +496,50 @@ A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphis
      S^1 \wedge X_n \longrightarrow X_{n+1}
    $$
 
-   being cofibrations, hence inclusions, in [[sSet]].
+   being cofibrations;  hence inclusions in [[sSet]], and [[relative cell complexes]] in [[Top]].
 
-Doing the same analysis in $SeqSpec(Top)_{stable}$ gives that the cofibrant objects are the "cell complex spectra", those for which each component space is a [[cell complex]] and all the structure maps are [[relative cell complexes]]. If the cell complexes here happen to be just [[CW-complexes]], then this is a _[[CW-spectrum]]_.
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], then its standard [[cylinder spectrum]] $X \wedge (X_+)$ is a _good_ [[cylinder object]] in that the inclusion
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+$$
+
+is a cofibration in $SeqSpec(Top)_{stable}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} we need to check that for all $n$ the morphism
+
+$$
+  (X \vee X)_{n+1}
+  \underset{S^1 \wedge (X\vee X)_n}{\sqcup}
+  S^1 \wedge (X \wedge (I_+))_n
+  \longrightarrow
+  (X \wedge (I_+))_{n+1}
+$$
+
+is a retract of a relative cell complex. After distributing indices and smash products over wedge sums, this is equivalently
+
+$$
+  (X_{n+1} \vee X_{n+1})
+  \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
+   S^1 \wedge X_n \wedge (I_+)
+  \longrightarrow
+  X_{n+1} \wedge I_+
+  \,.
+$$
+
+Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-complex, and this implies that $X_n \wedge (I_+)$ is a relative cell complex in $Top^{\ast/}$. With this, inspection shows that also the above morphism is a relative cell complex.
+
+=--
 
 ### Relation to sequential spectra in $Top$ and to combinatorial spectra
 
