@@ -13,11 +13,12 @@ The book
 
 * [[Robert Harper]]
 
-  _Practical Foundations for Programming Languages_
-
-  Cambridge University Press (2012) [draft pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf)
+  _Practical Foundations for Programming Languages, second edition_, Cambridge University Press (2016), ([webpage](http://www.cambridge.org/us/academic/subjects/computer-science/programming-languages-and-applied-logic/practical-foundations-programming-languages-2nd-edition?format=HB))
 
 lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
+
+The first edition (2012) is available as a [pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
+
 
 
 ## Related entries
