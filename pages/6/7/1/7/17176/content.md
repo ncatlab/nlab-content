@@ -36,6 +36,10 @@ The term "Adams category" for this starts to be used for instance in
 
 * [[Harold Hastings]], _On function spectra_, Proceedings of the AMS, volume 44, Number 1, May 1974 ([pdf](http://www.ams.org/journals/proc/1974-044-01/S0002-9939-1974-0343258-4/S0002-9939-1974-0343258-4.pdf))
 
+An account following ([Adams 74](#Adams74)) is also in 
+
+* {#Switzer75} [[Robert Switzer]], section 8 of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
 Comments on the historical development are in
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, preamble of  _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics, 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
