@@ -3,48 +3,9 @@
 
 ***
 
-
-
 $\,$
 
 $\,$
-
-
-+-- {: .standout}
-
-
-[V4D2 -- Algebraic Topology II](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=109556&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
-
-$\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
-
-$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
-
-[Lecture](#Introduction) and [Seminar](#ComplexOrientedCohomology)
-
-=--
-
-$\,$
-
-
-**Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [seminar](#ComplexOrientedCohomology) we work through related classical results in [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
-
-
-
-$\,$
-
-***
-
-Lecture notes.
-
-Main page: _[[Introduction to Stable homotopy theory]]_.
-
-***
-
-#Contents#
-* table of contents
-{:toc}
-
-## Seminar) Complex oriented cohomology
 
 
 +-- {: .standout}
@@ -64,7 +25,22 @@ $\,$
 **Abstract.** _The [[(infinity,1)-category|category]] of [[generalized cohomology theories]] equipped with a universal "[[complex oriented cohomology theory|complex]] [[orientation in generalized cohomology|orientation]]" happens to unify within it the abstract structure theory of [[stable homotopy theory]] with the concrete richness of the [[differential topology]] of [[cobordism theory]] and of the [[arithmetic geometry]] of [[formal group laws]] (of [[higher Jacobians]]), such as [[elliptic curves]]. In the seminar we work through classical results in [[algebraic topology]], organized such as to give in the end a first glimpse of the modern picture of [[chromatic homotopy theory]]._
 
 
-**Literature.** ([Kochman 96](#Kochman96)).
+
+$\,$
+
+***
+
+Accompanying notes.
+
+Main page: _[[Introduction to Stable homotopy theory]]_.
+
+***
+
+#Contents#
+* table of contents
+{:toc}
+
+## Seminar) Complex oriented cohomology
 
 
 **Outline.** We start with two classical topics of [[algebraic topology]] that first run independently in parallel:
@@ -79,6 +55,7 @@ The development of either of these happens to give rise to the concept of _[[spe
 
 $\,$
 
+**Literature.** ([Kochman 96](#Kochman96)).
 
 
 ### **S.1)** Generalized cohomology
