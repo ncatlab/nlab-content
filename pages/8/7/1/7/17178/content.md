@@ -45,14 +45,14 @@ $$
 
 [[commuting diagram|commute]].
 
-This gives a [[category]] $SeqPreSpec(sSet)$ of sequential prespectra.
+This gives a [[category]] $SeqSpec(sSet)$ of sequential prespectra.
 
 =--
 
 +-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
 ###### Example
 
-For $X \in SeqPreSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum which is degreewise given by the [[smash product]] of [[pointed objects]]
+For $X \in SeqSpec(sSet)$ and $K \in $ [[sSet]], hence $K_+ \in sSet^{\ast/}$ then $X \wedge K_+$ is the spectrum which is degreewise given by the [[smash product]] of [[pointed objects]]
 
 $$
   (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
@@ -70,10 +70,10 @@ $$
 +-- {: .num_prop #SimplicialEnrichment}
 ###### Proposition
 
-The category $SeqPreSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
+The category $SeqSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
 
 $$
-  [X,Y]_n \coloneqq Hom_{SeqPreSpec(sSet)}(X\wedge \Delta[n]_+,Y)
+  [X,Y]_n \coloneqq Hom_{SeqSpec(sSet)}(X\wedge \Delta[n]_+,Y)
   \,.
 $$
 
@@ -93,6 +93,7 @@ of the structure maps ${\vert \sigma_n\vert}$ are [[weak homotopy equivalences]]
 =--
 
 ### As diagram spectra
+ {#AsDiagramSpectra}
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
 ###### Definition
@@ -130,7 +131,7 @@ for the non-full $sSet^{\ast/}$-[[enriched category|enriched]] [[subcategory]] o
 
 
 
-+-- {: .num_prop }
++-- {: .num_prop #SequentialSpectraAsDiagramSpectra}
 ###### Proposition
 
 There is an $sSet^{\ast/}$-[[enriched functor]] 
@@ -140,7 +141,7 @@ $$
   \;\colon\;
   [StdSpheres,sSet^{\ast/}]
     \longrightarrow
-  SeqPreSpec(sSet)
+  SeqSpec(sSet)
 $$
 
 (from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of [[sequential prespectra]] in [[sSet]]) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
@@ -171,6 +172,14 @@ This is an $sSet^{\ast/}$ [[enriched category theory|enriched]] [[equivalence of
 =--
 
 ([Lydakis 98, prop. 4.3](#Lydakis98)), see also ([MMSS 00](#MMSS00))
+
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{SequentialSpectraAsDiagramSpectra} is a special case of a more general statement expressing structured spectra equivalently as enriched functors. Analogous statements hold for [[symmetric spectra]] and [[orthogonal spectra]]. See at _[[Model categories of diagram spectra]]_ [this lemma](Model+categories+of+diagram+spectra#SModulesAsEnrichedFunctors) and [this example](Model+categories+of+diagram+spectra#SequentialSpectraAsFunctorsOnFreeSSequModules).
+
+=--
 
 
 ## Properties
@@ -298,7 +307,7 @@ $$
   \;\colon\;
   [StdSpheres,sSet^{\ast/}]
     \longrightarrow
-  SeqPreSpec(sSet)
+  SeqSpec(sSet)
 $$
 
 (from the category of $sSet^{\ast/}$-[[enriched presheaves|enriched copresheaves]] on the categories of standard simplicial spheres of def. \ref{CategoriesOfStandardSpheres} to the category of sequential prespectra in [[sSet]], def. \ref{Spectra}) given on objects by sending $X \in [StdSpheres,sSet^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
@@ -343,7 +352,7 @@ $$
     \stackrel{\overset{\iota_\ast}{\longleftarrow}}{\underset{\iota^\ast}{\longrightarrow}}
   [StdSpheres, sSet^{\ast/}]
     \underoverset{\simeq}{(-)^{seq}}{\longrightarrow}
-  SeqPreSpec(sSet)_{BF}
+  SeqSpec(sSet)_{BF}
 $$
 
 (given by restriction $\iota^\ast$ along the defining inclusion $\iota$ of def. \ref{CategoriesOfStandardSpheres} and by left [[Kan extension]] $\iota_\ast$ along $\iota$, and combined with the equivalence $(-)^{seq}$ of prop. \ref{SequentialSpectraAsSimplicialFunctorsOnStandardSpheres}) is a  [[Quillen adjunction]] and in fact a [[Quillen equivalence]] between the [[Bousfield-Friedlander model structure]] on sequential prespectra and Lydakis' [[model structure for excisive functors]].
