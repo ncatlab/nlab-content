@@ -1311,6 +1311,59 @@ here the top pushout is the one from example \ref{TopologicalnSphereIsPushoutOfB
 
 =--
 
++-- {: .num_lemma #JTopRelativeCellComplexesAreWeakHomotopyEquivalences}
+###### Lemma
+
+Every $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}) is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \longrightarrow \hat X$ be a $J_{Top}$-relative cell complex. 
+
+Notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{\alpha} \to X_{\alpha+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. 
+
+This means that all morphisms in the following diagram (notationally suppressing basepoints and showing only the finite stages)
+
+$$
+  \array{
+    \pi_n(X)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_1)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_2)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_3)
+      &\overset{\simeq}{\longrightarrow}&
+    \cdots
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & 
+      \downarrow^{\mathrlap{\simeq}}
+    & \swarrow_{\mathrlap{\simeq}} & \cdots
+    \\
+    && \underset{\longleftarrow}{\lim}_\alpha \pi_n(X_\alpha)
+  }
+$$
+
+are isomorphisms.
+
+Moreover, lemma \ref{CompactSubsetsAreSmallInCellComplexes} gives that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exists at some finite stage $X_k$. This means that also the universally induced morphism
+
+$$
+  \underset{\longleftarrow}{\lim}_\alpha \pi_n(X_\alpha)
+  \overset{\simeq}{\longrightarrow}
+  \pi_n(\hat X)
+$$
+
+is an isomorphism. Hence the composite $\pi_n(X) \overset{\simeq}{\longrightarrow} \pi_n(\hat X)$ is an isomorphism.
+
+=--
+
+
+
+
 
 ##### Fibrations
 
@@ -3983,10 +4036,7 @@ $$
 
 By definition this makes $\hat X \to Y$ a [[Serre fibration]], hence a fibration.
 
-By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
-
-Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
-
+By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. Hence $X \to \hat X$ is a cofibration. By lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} it is also a weak equivalence.
 
 =--
 
@@ -4051,7 +4101,7 @@ $$
   \,.
 $$
 
-It follows that $f$ has the left lefting property again $\hat Y \to Y$, and hence by the [[retract argument]] it is a retract of $X \to \hat Y$, which proves the claim for $Cof$.
+It follows that $f$ has the left lefting property again $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \to \hat Y$. This proves the claim for $Cof$.
 
 The argument for $W \cap Cof$ is analogous, using the [[small object argument]] now for $J_{Top}$.
 
