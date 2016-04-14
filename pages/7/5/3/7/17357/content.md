@@ -1,0 +1,34 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The concept of _reduced cyclinder_ is the analog for [[pointed objects]] of [[cylinder]] constructions.
+
+Specifically in [[topological spaces]], with $I = [0,1] \in $ [[Top]] the standard topological interval and $I_+ \in Top^{\ast/}$ its version with a basepoint freely adjoined, then for $X$ a [[pointed topological space]], the **standard reduced cylinder** over it is the [[smash product]]
+
+$$
+  X \wedge (I_+) \;\; \in Top^{\ast/}
+  \,.
+$$ 
+
+This is obtained from the ordinary standard cylinder $X \times I$ by collapsing the copy of $I$ that sits over the basepoint of $X$.
+
+The [[mapping cone]] of $X \to \ast$ formed with the standard reduced cylinder is the [[reduced suspension]] of $X$.
+
+Applying the reduced cylinder construction degreewise to a [[sequential spectrum]] yields the standard [[cylinder spectrum]] construction.
+
+## References
+
+Early lecture notes include
+
+* [[Frank Adams]], part III, section 2 _[[Stable homotopy and generalised homology]]_, 1974
+
+
+
+[[!redirects reduced cylinders]]
+
+[[!redirects reduced cylinder object]]
+[[!redirects reduced cylinder objects]]
