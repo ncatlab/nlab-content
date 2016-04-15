@@ -373,3 +373,10 @@ $$
 
 [[!redirects Top-enriched functor]]
 [[!redirects Top-enriched functors]]
+
+[[!redirects pointed topologically enriched category]]
+[[!redirects pointed topologically enriched categories]]
+
+[[!redirects pointed topologically enriched functor]]
+[[!redirects pointed topologically enriched functors]]
+
