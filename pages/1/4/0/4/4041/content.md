@@ -74,3 +74,6 @@ A general way to construct free objects is with a [[transfinite construction of 
 [[!redirects co-free objects]]
 [[!redirects fascist object]]
 [[!redirects fascist objects]]
+
+[[!redirects free property]]
+[[!redirects free properties]]
