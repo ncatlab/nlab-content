@@ -9,16 +9,25 @@
 =--
 =--
 
+By a **generlized cohomology theory** is usually meant a contravariant functor on a [[homotopy category]] satisfying all abstract properties of [[ordinary cohomology]], except possibly for the dimension axiom. For more on this see at 
 
-What is usually called "generalized cohomology" is obtained from a generalization of the axioms of Eilenberg--Steenrod. 
+* **[[generalized (Eilenberg-Steenrod) cohomology]]**.
+  
+  (and for the dual concept see at _[[generalized homology]]_).
 
-By [[Brown's representability theorem]] this is equivalent to [[cohomology]] with coefficient object a [[spectrum]]. See
+But there are more general generalizations of the concept of ordiary cohomology, too. For instance there is also 
 
-* [[generalized (Eilenberg-Steenrod) cohomology]]
+* [[nonabelian cohomology]]
 
-  * [[spectrum]]
+* [[sheaf cohomology]]
 
-* [[cohomology group]] .
+* [[differential cohomology]]
 
-Notice that there are "generalizations of generalized cohomology". See the discussion at _[[cohomology]]_.
+etc.
+
+For a fully general concept of generalized cohomology, see at
+
+* [[cohomology]].
+
+[[!include homotopy-homology-cohomology]]
 
