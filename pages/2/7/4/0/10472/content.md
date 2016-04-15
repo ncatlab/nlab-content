@@ -24,9 +24,11 @@ $$
 
 ## Related concepts
 
+* [[pointed simplicial set]]
+
 * [[loop space]], [[reduced suspension]]
 
-* [[smash product]]
+* [[smash product]], [[wedge sum]]
 
 * [[pointed homotopy type]]
 
