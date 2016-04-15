@@ -184,7 +184,7 @@ The total space object $P$ of this bundle -- the _[[dependent sum type]]_ -- is 
     sigT (fun (x : X) => P x) : Type.
     sigT P : Type
 
-The first one is syntactic sugar for the second.  The third is related to the second by [[eta expansion]], which (assuming [[function extensionality]]) is an equivalence in Coq, but not the identity.  In the next version of Coq, all three types above will be identical.
+The first one is [[sugaring|syntactic sugar]] for the second.  The third is related to the second by [[eta expansion]], which (assuming [[function extensionality]]) is an equivalence in Coq, but not the identity.  In the next version of Coq, all three types above will be identical.
 
 One might expect to also call the dependent sum type
 
