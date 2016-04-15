@@ -385,7 +385,13 @@ such that:
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
-* **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
+* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+
+  $$
+    E^n(X, A) \overset{\simeq}{\longrightarrow} \prod_i E^n(X_i, A_i)
+  $$
+
+  is an [[isomorphism]] from the value on $(X,A)$ to the [[product]] of values on the summands.
 
 We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in degree 0
 
@@ -893,15 +899,209 @@ with the right map an epimorphism. Hence this is a [[split exact sequence]] and 
 
 =--
 
+##### Generalized homology functors
+
+All of the above has a dual version with [[generalized cohomology]] replaced by [[generalized homology]]. For ease of reference, we record these dual definitions:
+
++-- {: .num_defn #ReducedGeneralizedHomology}
+###### Definition
+
+A **reduced homology theory** is a [[functor]]
+
+$$
+  \tilde E_\bullet 
+   \;\colon\; 
+  (Top^{\ast/}_{CW}) \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from the category of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[homology groups]]"), in components
+
+$$
+  \tilde E _\bullet
+    \;\colon\; 
+  (X \stackrel{f}{\longrightarrow} Y)
+    \mapsto
+  (\tilde E_\bullet(X) 
+    \stackrel{f_\ast}{\longrightarrow}
+  \tilde E_\bullet(Y))
+  \,,
+$$
+
+and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
+
+$$
+  \sigma
+    \;\colon\;
+  \tilde E_\bullet(-) 
+    \overset{\simeq}{\longrightarrow} 
+  \tilde E_{\bullet +1}(\Sigma -) 
+$$
+
+such that:
+
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+
+   $$
+     f_1_\ast = f_2_\ast
+     \,.
+   $$
+
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+
+   $$
+     \tilde E_\bullet(A)
+      \overset{i_\ast}{\longrightarrow} 
+     \tilde E_\bullet(X)
+       \overset{j_\ast}{\longrightarrow}
+     \tilde E_\bullet(Cone(i)) 
+     \,.
+   $$
+
+We say $\tilde E_\bullet$ is **additive** if in addition
+
+* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+
+  $$
+    \oplus_{i \in I} \tilde E_\bullet(X_i)
+      \longrightarrow
+    \tilde E^\bullet(\vee_{i \in I} X_i) 
+  $$
+
+  from the [[direct sum]] of the value on the summands to the value on the [[wedge sum]], example \ref{WedgeSumAsCoproduct}, is an [[isomorphism]].
+
+We say $\tilde E_\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
+
+* **(Dimension)**  $\tilde E_{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
+
+A [[homomorphism]] of reduced cohomology theories
+
+$$
+  \eta \;\colon\; \tilde E_\bullet \longrightarrow \tilde F_\bullet
+$$
+
+is a [[natural transformation]] between the underlying functors which is compatible with the suspension isomorphisms in that all the following [[commuting square|squares commute]]
+
+$$
+  \array{
+    \tilde E_\bullet(X) &\overset{\eta_X}{\longrightarrow}&  \tilde F_\bullet(X)
+    \\
+    {}^{\mathllap{\sigma_E}}\downarrow && \downarrow^{\mathrlap{\sigma_F}}
+    \\
+    \tilde E_{\bullet + 1}(\Sigma X) 
+    &\overset{\eta_{\Sigma X}}{\longrightarrow}&
+    \tilde F_{\bullet + 1}(\Sigma X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #GeneralizedHomologyTheory}
+###### Definition
+
+A **homology theory** (unreduced, [[relative cohomology|relative]]) is a [[functor]]
+
+$$
+  E_\bullet : (Top_{CW}^{\hookrightarrow}) \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
+
+$$
+  \delta_{(X,A)} 
+    \;\colon\;  
+  E_{\bullet + 1}(X, A)
+    \longrightarrow
+  E^\bullet(A, \emptyset)  
+  \,.
+$$ 
+
+such that:
+
+1. **(homotopy invariance)** For $f \colon (X_1,A_1) \to (X_2,A_2)$ a [[homotopy equivalence]] of pairs, then 
+
+   $$
+     E_\bullet(f) 
+      \;\colon\; 
+     E_\bullet(X_1,A_1) \stackrel{\simeq}{\longrightarrow} E_\bullet(X_2,A_2)
+   $$
+
+   is an [[isomorphism]];
+
+1. {#ExactnessUnreduced} **(exactness)** For $A \hookrightarrow X$ the induced sequence
+
+   $$ 
+     \cdots 
+       \to 
+     E_{n+1}(X, A) 
+       \stackrel{\delta}{\longrightarrow} 
+     E_n(A) 
+       \longrightarrow
+     E_n(X) 
+       \longrightarrow 
+     E_n(X, A) 
+       \to 
+     \cdots 
+   $$
+
+   is a [[long exact sequence]] of [[abelian groups]].
+
+1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism 
+
+   $$
+     E_\bullet(i) 
+      \;\colon\; 
+     E_n(X-U, A-U)  
+      \overset{\simeq}{\longrightarrow}
+     E_n(X, A)
+   $$
+
+We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[direct sums]]:
+
+* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+
+  $$
+    \oplus_i E^n(X_i, A_i) \overset{\simeq}{\longrightarrow} E^n(X, A)
+  $$
+
+  is an [[isomorphism]]from the [[direct sum]] of the value on the summands, to the value on the total pair.
+
+We say $E_\bullet$ is **ordinary** if its value on the point is concentrated in degree 0
+
+* **(Dimension)**: $E_{\bullet \neq 0}(\ast,\emptyset) = 0$.
+
+A [[homomorphism]] of unreduced homology theories 
+
+$$
+  \eta \;\colon\; E_\bullet \longrightarrow F_\bullet
+$$
+
+is a [[natural transformation]] of the underlying functors that is compatible with the connecting homomorphisms, hence such that all these [[commuting square|squares commute]]:
+
+$$
+  \array{
+     E_{\bullet +1}(X,A) 
+       &\overset{\eta_{(X,A)}}{\longrightarrow}&
+     F_{\bullet +1}(X,A)
+     \\
+     {}^{\mathllap{\delta_E}}\downarrow && \downarrow^{\mathrlap{\delta_F}}
+     \\
+     E_\bullet(A,\emptyset) &\overset{\eta_{(A,\emptyset)}}{\longrightarrow}& F^\bullet(A,\emptyset)
+  }
+  \,.
+$$
+
+=--
+
 
 
 #### Brown representability theorem
  {#BrownRepresentabilityTheorem}
 
 
-**Idea.** Given any [[functor]] such as the generalized (co)homology functor [above](#GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list. This is a _[[spectrum]]_.
+**Idea.** Given any [[functor]] such as the generalized (co)homology functor [above](#GeneralizedHomologyAndCohomologyFunctors), an important question to ask is whether it is a _[[representable functor]]_. Due to the $\mathbb{Z}$-grading and the [[suspension isomorphisms]], if a generalized (co)homology functor is representable at all, it must be represented by a $\mathbb{Z}$-indexed sequence of [[pointed topological spaces]] such that the [[reduced suspension]] of one is comparable to the next one in the list. This is a _[[spectrum]]_ or more specifically: a _[[sequential spectrum]]_ .
 
-Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum.
+Whitehead observed that indeed every [[spectrum]] represents a generalized (co)homology theory.  The _[[Brown representability theorem]]_ states that, conversely, every generalized (co)homology theory is represented by a spectrum, subject to conditions of additivity.
 
 As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary cohomology]] may be characterized via Brown representability.
 
