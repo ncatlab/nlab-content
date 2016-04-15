@@ -458,7 +458,7 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructur
 
 =--
 
-Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears as a special case in ([Mandell-May-Schwede-Shipley 01](#MandellMaySchwedeShipley01)).
+Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears as a special case in ([Mandell-May-Schwede-Shipley 01](#MMSS00)).
 
 
 ## Properties
@@ -466,7 +466,7 @@ Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78))
 ### Fibrations and cofibrations
  {#FibrantAndCofibrantObjects}
 
-+-- {: .num_prop}
++-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
 ###### Proposition
 
 A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]] are cofibrant in $SeqSpec(Top)_{stable}$.
@@ -496,10 +496,10 @@ A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphis
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CylinderSpectrumOverCWSpectrumIsGood}
 ###### Proposition
 
-For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], then its standard [[cylinder spectrum]] $X \wedge (X_+)$ is a _good_ [[cylinder object]] in that the inclusion
+For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], then its standard [[cylinder spectrum]] $X \wedge (I_+)$ is a _good_ [[cylinder object]] in that the inclusion
 
 $$
   X \vee X \longrightarrow X \wedge (I_+)
