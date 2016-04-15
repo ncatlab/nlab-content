@@ -132,6 +132,14 @@ Associativity fails in general for the category [[Top]] of all topological space
 
 See at _[[symmetric smash product of spectra]]_.
 
+## Related concepts
+
+* [[pointed object]]
+
+* [[wedge sum]]
+
+* [[pointed mapping space]]
+
 ## References
 
 On the general definition of smash products via [[closed monoidal category]] structure on [[pointed objects]]
