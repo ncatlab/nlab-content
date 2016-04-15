@@ -52,6 +52,7 @@ From the [[nPOV]], computer science is part of the [[computational trinity]], to
 
 * [[transition systems]]
 
+* [[sugaring]]
 
 ## Some (theoretical) computer scientists
 
