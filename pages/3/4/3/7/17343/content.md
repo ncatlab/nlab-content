@@ -4418,7 +4418,7 @@ In [[pointed topological spaces]] $Top^{\ast/}$,
 
 Dually:
 
-* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the pointed [[mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
+* the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
 
   $$
     \Omega X \simeq X^{S^1}
@@ -6596,7 +6596,7 @@ $$
 +-- {: .num_example #PointedMappingSpace}
 ###### Example
 
-For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **pointed mapping space** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
+For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **[[pointed mapping space]]** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
 
 $$
   (X,x)^{(Y,y)}
