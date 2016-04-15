@@ -8,7 +8,7 @@ Often there are many ways to sugar a formal expression into natural language.
 
 Consider the type theoretic expression $\sum_{x: man} \sum_{y: donkey} x\;owns\; y$.
 
-Ranta (1994, p. 68) gives nine sugarings for it:
+Ranta (1994, p. 68) gives nine natural language sugarings for it:
 
 * there is a man and there is a donkey and he owns it,
 * there is a man and he owns a donkey,
