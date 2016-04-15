@@ -483,7 +483,7 @@ $$
 
 between the value of $E^\bullet$ on the pair $(X,A)$ and its value on the [[mapping cone]] of the inclusion, relative to a basepoint.
 
-If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell complex]] inclusion, then also morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
+If moreover $A \hookrightarrow X$ is (the [[retract]] of) a [[relative cell complex]] inclusion, then also the morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
 
 $$
   E^\bullet(p)
@@ -508,7 +508,7 @@ $$
   ( X\cup Cone(A)-U, Cone(A)-U) \simeq (X,A)
 $$
 
-and hence the first isomorphism in the statement is given by the excision axiom.
+and hence the first isomorphism in the statement is given by the excision axiom followed by homotopy invariance (along the contraction of the cone to the point).
 
 Next consider the quotient of the [[mapping cone]] of the inclusion:
 
