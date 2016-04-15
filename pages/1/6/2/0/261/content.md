@@ -224,6 +224,8 @@ For the moment see at _[[dendroidal set]]_ the section [Relation to simplicial s
 * [[simplicial object]]
 
   * **simplicial set**
+  
+  * [[pointed simplicial set]]
 
   * [[simplicial object in an (∞,1)-category]]
 
