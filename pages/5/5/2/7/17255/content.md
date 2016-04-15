@@ -3,9 +3,13 @@
 
 A [[model category]] structure on [[sequential spectra]].
 
-For sequential spectra in [[sSet]]:
+For sequential spectra in the [[classical model structure on simplicial sets]]:
 
 * [[Bousfield-Friedlander model structure]]
+
+For sequential spectral in the [[classical model structure on topological spaces]]
+
+* [[model structure on topological sequential spectra]]
 
 ## Related concepts
 
