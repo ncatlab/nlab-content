@@ -18,7 +18,7 @@ The generalization of [[Teichmüller theory]] to [[arithmetic geometry]] has bee
 
 {#InterUniversal} The term "inter-universal" apparently refers to the fact that the theory is meant to formulated explicitly in a way that respects [[universe enlargement]], hence that it is [[universe polymorphism|universe polymorphic]] ([Mochizuki 12d, remark 3.1.4](#Mochizuki12d), [Yamashita 13](#Yamashita13)).
 
-It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a proof of the [[abc conjecture]] can be found from [[anabelian geometry]] this context.
+It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a proof of the [[abc conjecture]] can be found from [[anabelian geometry]] in this context.
 
 ## Related concepts
 
