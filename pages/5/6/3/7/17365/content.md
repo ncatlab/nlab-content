@@ -1,0 +1,569 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+#### Model category theory
++--{: .hide}
+[[!include model category theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The standard [[model category]] structure on the [[category]] of [[sequential spectra]] in ([[pointed topological space|pointed]]) [[topological spaces]] is a standard [[model structure on sequential spectra]]. An immediate variant works for [[sequential spectra]] in [[simplicial set]], see at _[[Bousfield-Friedlander model structure]]_.
+
+As such, the model structure on topological sequential spectra [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
+
+
+## Background on sequential spectra
+
+### Sequential pre-spectra
+
+Write $S^1 \in Top^{\ast/}$ for the standard topological circle.  Write
+
+$$
+  \wedge 
+  \;\colon\;
+  Top^{\ast/}
+  \times
+  Top^{\ast/}
+  \longrightarrow
+  Top^{\ast/}
+$$
+
+for the [[smash product]] of [[pointed topological spaces]].
+
+
+The following is the standard component-wise definition of sequential spectra. 
+
++-- {: .num_defn #SequentialSpectra}
+###### Definition
+
+A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
+
+* an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space]] $X_\bullet$ 
+
+* equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$.
+
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+
+$$
+  \array{
+    S^1 \wedge X_n &\stackrel{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_n
+    \\
+    \downarrow^{\mathrlap{\sigma_n^X}} && \downarrow^{\mathrlap{\sigma_n^Y}}
+    \\
+    X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+$$
+
+[[commuting diagram|commute]].
+
+Write $SeqSpec(Top)$ for this [[category]] of topological sequential spectra.
+
+=--
+
++-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
+###### Example
+
+For $X \in SeqSpec(Top)$ and $K \in $ [[Top]], hence $K_+ \in Top^{\ast/}$ then $X \wedge K_+$ is the sequential spectrum degreewise given by the [[smash product]] of pointed objects
+
+$$
+  (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
+$$
+
+and with structure maps given by
+
+$$
+  S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
+  \,.
+$$
+
+=--
+
+The following is an equivalent reformulation of the component-wise definition of sequential spectra which will be useful.
+
++-- {: .num_defn #CategoriesOfStandardSpheres}
+###### Definition
+
+Write 
+
+$$
+  \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
+$$
+
+for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] of [[pointed topological spaces]] whose
+
+* [[objects]] are the standard [[n-spheres]] identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
+
+* [[hom-spaces]] are
+
+  $$
+    StdSpheres(S^{n}, S^{n+k})
+      \coloneqq
+    \left\{
+      \array{
+        \ast & for & k \lt 0
+        \\
+        im \left( S^{k} \stackrel{}{\to} (S^{n+k})^{S^n} \right)
+        & otherwise
+      }
+    \right.
+  $$
+
+=--
+
+
++-- {: .num_prop #SequentialSpectraAsDiagramSpectra}
+###### Proposition
+
+There is an [[equivalence of categories]]
+
+$$
+  (-)^seq
+  \;\colon\;
+  [StdSpheres,Top_{cg}^{\ast/}]
+    \longrightarrow
+  SeqSpec(Top)
+$$
+
+from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra} given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+
+$$
+  X^{seq}_n \coloneqq X(S^n)
+$$
+
+and with structure maps
+
+$$
+  \frac{S^1 \wedge X^{seq}_n \stackrel{\sigma_n}{\longrightarrow} X^{seq}_n}{S^1 \longrightarrow (X^{seq}_{n+1})^{X^{seq}_n}}
+$$
+
+given by
+
+$$
+  S^1
+    \stackrel{\widetilde{id}}{\longrightarrow}
+  (S^{n+1})^{S^n}
+    \stackrel{X_{S^n, S^{n+1}}}{\longrightarrow}
+  (X^{seq}_{n+1})^{X^{seq}_n}
+  \,.
+$$
+
+
+=--
+
+The version of this in [[simplicial sets]] appears as ([Lydakis 98, prop. 4.3](#Lydakis98)), see also ([MMSS 00](#MMSS00)) [this example](Model+categories+of+diagram+spectra#SequentialSpectraAsFunctorsOnFreeSSequModules).
+
+
+
+
+
+
+
+
+
+### Omega-spectra
+
++-- {: .num_defn #StableHomotopyGroups}
+###### Definition
+
+The [[stable homotopy groups]] of a [[sequential spectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian groups]] given by the [[colimit]] of [[homotopy groups]] of the component spaces
+
+$$
+  \pi_\bullet(X)
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_k
+  \pi_{\bullet+k}(X_n)
+  \,.
+$$
+
+This constitutes a [[functor]]
+
+$$
+  \pi_\bullet \;\colon\; SeqSpec(Top) \longrightarrow Ab^{\mathbb{Z}}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #StableWeakEquivalenceOfSequentialsTopologicalSpectra}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a [[stable weak homotopy equivalence]], if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
+
+$$
+  \pi_\bullet(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #OmegaSpectrum}
+###### Definition
+
+A _[[Omega-spectrum]]_ is a sequential spectrum $X$, def. \ref{SequentialSpectra}, such that the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]]
+
+$$
+  X_n  \stackrel{}{\longrightarrow}  X^{n+1}^{S^1}
+$$
+
+of the structure maps $\sigma_n$ are [[weak homotopy equivalences]].
+
+=--
+
++-- {: .num_remark #StableHomotopyGroupsOfOmegaSpectrum}
+###### Remark
+
+If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, 
+then its colimiting [[stable homotopy groups]], def. \ref{StableHomotopyGroups}, are attained as the actual homotopy groups of its components:
+
+$$
+  \pi_k(X) \simeq 
+  \simeq
+  \left\{
+    \array{
+      \pi_k X_0  & if\; k \geq 0
+      \\
+      \pi_0 X_k  & if \; k \lt 0
+    }
+  \right.
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_defn #Spectrification}
+###### Definition
+
+The canonical _$\Omega$-[[spectrification]]_ $Q X$ of a  [[CW-spectrum]] $X$, def. \ref{SequentialSpectra}, is the operation of forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
+
+$$
+  (Q X)_n
+  \coloneqq
+  \underset{\longrightarrow}{\lim}_{k }
+  \Omega^k X_{n+k}
+  \,,
+$$
+
+where $Sing$ denotes the [[singular simplicial complex]] functor.
+
+=--
+
+
+
+
+
+
+## The strict model structure on sequential spectra
+ {#TheStrictModelStructure}
+
+The [[model category]] structure on [[sequential spectra]] which [[presentable (infinity,1)-category|presents]] [[stable homotopy theory]] is the "stable model structure" discussed [below](#TheStableModelStructure). Its fibrant-cofibrant objects are (in particular) [[Omega-spectra]], hence are the proper [[spectrum objects]] among the pre-spectrum objects.
+
+But for technical purposes it is useful to also be able to speak of a model structure on pre-spectra, which sees their homotopy theory as sequences of simplicial sets equipped with suspension maps, but not their stable structure. This is called the "strict model structure" for sequential spectra. It's main point is that the stable model structure of interest arises fromit via [[Bousfield localization of model categories|left Bousfield localization]].
+
+
++-- {: .num_defn #ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}
+###### Definition
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(Top)$, def. \ref{SequentialSpectra} is
+
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a weak equivalence in the [[classical model structure on topological spaces]] (hence a [[weak homotopy equivalence]]);
+
+* a **strict weak equivalence** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on topological spaces]] (hence a [[Serre fibration]]);
+
+* a **strict cofibration** if the maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+
+  $$
+    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
+    \longrightarrow
+    Y_{n+1}
+  $$
+
+  are cofibrations in the  [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]);
+
+=--
+
++-- {: .num_prop #StrictModelStructureOnSequentialPrespectraIsModelCategory}
+###### Proposition
+
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{strict}$, called the **strict model structure** on sequential spectra.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Prop. \ref{SequentialSpectraAsDiagramSpectra} says that the category of sequential spectra is [[equivalence of categories|equivalently]] an  [[enriched functor category]]
+
+$$
+  SeqSpec(Top)
+  \simeq
+  [StdSpheres, Top_{cg}^{\ast}]
+  \,.
+$$
+
+Accordingly, this carries the [[projective model structure on enriched functors]], and unwinding the definitions, this gives the statement for the fibrations and the weak equivalences.
+
+It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
+
+$$
+  \array{
+    X_\bullet &\stackrel{h_\bullet}{\longrightarrow}& A_\bullet
+    \\
+    \downarrow^{\mathrlap{f_\bullet}} && \downarrow
+    \\
+    Y_\bullet &\longrightarrow& B_\bullet
+  }
+  \,.
+$$
+
+By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams of simplicial sets of the form
+
+$$
+  \array{
+    X_n &\stackrel{h_n}{\longrightarrow}& A_n
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow
+    \\
+    Y_n &\longrightarrow& B_n
+  }
+$$
+
+such that all structure maps are respected.
+
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    \\
+    & \searrow && \searrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+  \;\;\;
+  \Rightarrow
+  \;\;\;
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    & \searrow^{\mathrlap{h_n}} && \searrow^{\mathrlap{h_{n+1}}}
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+    \\
+    && \downarrow && \downarrow
+    \\
+    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+  }
+  \,.
+$$
+
+Hence a [[lifting]] in the original diagram is a lifting in each degree $n$, such that the lifting in degree $n+1$ makes these diagrams of structure maps commute.
+
+Since components are parameterized over $\mathbb{N}$, this condition has solutions by [[induction]]. First of all there must be an ordinary lifting in degree 0. Then assume a lifting $l_n$ in degree $n$ has been found
+
+$$
+  \array{
+    X_n &\stackrel{h_n}{\longrightarrow}& A_n
+    \\
+    \downarrow^{\mathrlap{f_n}} &\nearrow_{\mathrlap{l_n}}& \downarrow
+    \\
+    Y_n &\longrightarrow& B_n
+  }
+$$
+
+the lifting $l_{n+1}$ in the next degree has to also make the following diagram commute
+
+$$
+  \array{
+    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{h_{n+1}}}
+    & \searrow 
+    \\
+    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    && 
+    \\
+    & \searrow^{\mathrlap{l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
+    \\
+    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+  }
+  \,.
+$$
+
+This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+
+$$
+  \array{
+    Y_n \underset{X_n}{\sqcup} X_{n+1}
+    &\stackrel{(\sigma_n^A l_n,h_{n+1})}{\longrightarrow}&
+    A_{n+1}
+    \\
+    \downarrow &{}^{\mathllap{l_{n+1}}}\nearrow& \downarrow
+    \\
+    Y_{n+1} &\stackrel{}{\longrightarrow}& B_{n+1}
+  }
+  \,.
+$$
+
+
+=--
+
+
+## The stable model structure on sequential spectra
+ {#TheStableModelStructure}
+
++-- {: .num_defn #ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}
+###### Definition
+
+Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the category $SeqSpec(Top)$, def. \ref{SequentialSpectra} is
+
+* a **stable weak equivalence** if it is a [[stable weak homotopy equivalence]], def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra};
+
+* a **stable cofibration** if the simplicial maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+
+  $$
+    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
+    \longrightarrow
+    Y_{n+1}
+  $$
+
+  are cofibrations in the [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]).
+
+
+=--
+
++-- {: .num_prop #StableModelStructureOnSequentialSpectraIsModelCategory}
+###### Proposition
+
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{stable}$, called the **stable model structure** on sequential spectra.
+
+=--
+
+Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears as a special case in ([Mandell-May-Schwede-Shipley 01](#MandellMaySchwedeShipley01)).
+
+
+## Properties
+
+### Fibrations and cofibrations
+ {#FibrantAndCofibrantObjects}
+
++-- {: .num_prop}
+###### Proposition
+
+A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]] are cofibrant in $SeqSpec(Top)_{stable}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibrations) if 
+
+1. $X_0$ is cofibrant, hence a retract of a [[cell complex]];
+
+1. $$
+     \ast_{n+1}\underset{S^1 \wedge \ast_n}{\coprod} S^1 \wedge X_n
+     \longrightarrow
+     X_{n+1}
+   $$
+
+   is a cofibration. But in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
+
+   $$
+     S^1 \wedge X_n \longrightarrow X_{n+1}
+   $$
+
+   being cofibrations; hence [[retracts]] of [[relative cell complexes]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $X\in SeqSpec(Top)_{stable}$ a [[CW-spectrum]], then its standard [[cylinder spectrum]] $X \wedge (X_+)$ is a _good_ [[cylinder object]] in that the inclusion
+
+$$
+  X \vee X \longrightarrow X \wedge (I_+)
+$$
+
+is a cofibration in $SeqSpec(Top)_{stable}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} we need to check that for all $n$ the morphism
+
+$$
+  (X \vee X)_{n+1}
+  \underset{S^1 \wedge (X\vee X)_n}{\sqcup}
+  S^1 \wedge (X \wedge (I_+))_n
+  \longrightarrow
+  (X \wedge (I_+))_{n+1}
+$$
+
+is a retract of a relative cell complex. After distributing indices and smash products over wedge sums, this is equivalently
+
+$$
+  (X_{n+1} \vee X_{n+1})
+  \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
+   S^1 \wedge X_n \wedge (I_+)
+  \longrightarrow
+  X_{n+1} \wedge I_+
+  \,.
+$$
+
+Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-complex, and this implies that $X_n \wedge (I_+)$ is a relative cell complex in $Top^{\ast/}$. With this, inspection shows that also the above morphism is a relative cell complex.
+
+=--
+
+### Relation to sequential spectra in $sSet$ and to combinatorial spectra
+
++-- {: .num_prop}
+###### Proposition
+
+There is a [[zig-zag]] of [[Quillen equivalences]] relating the [[Bousfield-Friedlander model structure]] $SeqSpec(sSet)_{stable}$, with $SeqSpec(Top)_{stable}$ from def. \ref{StableModelStructureOnSequentialSpectraIsModelCategory} and with Kan's [[combinatorial spectra]].
+
+=--
+
+([Bousfield-Friedlander 78, section 2.5](#BousfieldFriedlander78)).
+
+
+### Relation to structure spectra and excisive functors
+ {#RelationToExcisiveFunctors}
+
+... _[[Model categories of diagram spectra]]_...
+
+
+## References
+
+
+* {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
+
+* {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
+
+* {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
+[[!redirects Bousfield-Friedlander model category]] 
+
+[[!redirects Bousfield-Friedlander model structures]]
