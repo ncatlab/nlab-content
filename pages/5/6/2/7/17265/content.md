@@ -2241,7 +2241,7 @@ for the category of topologically enriched functors equipped with these classes 
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ProjectiveModelStructureOnTopEnrichedFunctors}
 ###### Theorem
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsInTheProjectiveModelStructureOnTopEnrichedFunctors} constitute a [[model category]] structure on $[\mathcal{C}, Top]$, called the **[[projective model structure on enriched functors]]** $[\mathcal{C}, Top_{Quillen}]_{proj}$.
