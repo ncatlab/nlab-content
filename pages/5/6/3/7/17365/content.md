@@ -458,7 +458,192 @@ The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructur
 
 =--
 
-Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears as a special case in ([Mandell-May-Schwede-Shipley 01](#MMSS00)).
+Mentioned without proof in ([Bousfield-Friedlander 78](#BousfieldFriedlander78)). A full proof appears as a special case in ([Mandell-May-Schwede-Shipley 01](#MMSS00)). This we follow now.
+
++-- {: .num_defn #FreeSequentialSpectra}
+###### Definition
+
+For $K \in Top$, and $n \in \mathbb{N}$, write $F_n K \in SeqSpec(Top)$ for the **[[free spectrum]]** on $K$ at $n$, with components
+
+$$
+  (F_n K)_q \coloneqq 
+  \left\{
+    \array{
+      \ast & for \; q \lt n
+      \\
+      S^{q-n} \wedge K & for \; q \geq n
+    }
+  \right.
+$$
+
+and with structure maps $\sigma_q$ the canonical identifications for $q \geq n$
+
+$$
+  \sigma_q
+  \;\colon\;
+  S^1 \wedge (F_n K)_q
+  = 
+  S^1 \wedge S^{q-n} \wedge K
+  \overset{\simeq}{\longrightarrow}
+  S^{q+1-n} \wedge K
+  =
+  (F_n K)_{q+1}
+  \,.
+$$
+
+For $n \in \mathbb{N}$, write
+
+$$
+  k_n
+  \;\colon\;
+  F_{n+1}S^1 
+  \longrightarrow
+  F_n S^0
+$$
+
+for the canonical morphisms of free sequential spectra with the following components
+
+$$
+  \array{
+    & \vdots && \vdots
+    \\
+    (k_n)_{n+3} & S^3 &\stackrel{id}{\longrightarrow}& S^3
+    \\
+    (k_n)_{n+2} & S^2 &\stackrel{id}{\longrightarrow}& S^2
+    \\
+    (k_n)_{n+1} & S^1 &\stackrel{id}{\longrightarrow}& S^1
+    \\
+    (k_n)_n \colon & \ast &\stackrel{0}{\longrightarrow}& S^0
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \vdots && \vdots
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \underbrace{\,\,\,} && \underbrace{\,\,\,}
+    \\
+    k_n \colon & F_{n+1} S^1 &\stackrel{}{\longrightarrow}& F_n S^0
+  }
+$$
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The morphisms of [[free spectra]] $\{k_n\}_{n \in \mathbb{N}}$ from def. \ref{FreeSequentialSpectra} co-represent the adjunct structure maps of sequential spectra:
+
+for $X \in SeqSpec(Top)$, then 
+
+$$
+  \array{
+    [F_n S^0, X] &\simeq& X_n
+    \\
+    {}^{\mathllap{[k_n,X]}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma_n^X}}
+    \\
+    [F_{n+1}S^1, X] &\simeq& \Omega X_{n+1}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Recall that we are precomposing with
+
+$$
+  \array{
+    & \vdots && \vdots
+    \\
+    (k_n)_{n+3} & S^3 &\stackrel{id}{\longrightarrow}& S^3
+    \\
+    (k_n)_{n+2} & S^2 &\stackrel{id}{\longrightarrow}& S^2
+    \\
+    (k_n)_{n+1} & S^1 &\stackrel{id}{\longrightarrow}& S^1
+    \\
+    (k_n)_n \colon & \ast &\stackrel{0}{\longrightarrow}& S^0
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \vdots && \vdots
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \underbrace{\,\,\,} && \underbrace{\,\,\,}
+    \\
+    k_n \colon & F_{n+1} S^1 &\stackrel{}{\longrightarrow}& F_n S^0
+  }
+$$
+
+
+Now for $X$ any sequential spectrum, then a morphism $f \colon F_n S^0 \to X$ is uniquely determined by its $n$th component $f_n \colon S^0 \to X_n$: the compatibility with the structure maps forces the next component, in particular, to be $\sigma_n^X\circ \Sigma f$:
+
+$$
+  \array{
+    \Sigma S^0 &\stackrel{\Sigma f}{\longrightarrow}& \Sigma X_n
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\sigma_n^X}}
+    \\
+    S^1 &\stackrel{\sigma_n^X \circ \Sigma f}{\longrightarrow}& X_n
+  }
+  \,.
+$$
+
+But that $(n+1)$st component is just the component that similarly determines the precompositon of $f$ with $k_n$, hence $f\circ k_n$ is uniquely determined by the map $\sigma_n^X \circ \Sigma f$. Therefore $[k_n,-]$ is the function
+
+$$
+  [k_n,-]
+   \;\colon\;
+  X_n 
+  = 
+  [S^0, X_n]
+    \stackrel{f \mapsto \sigma_n^X \circ \Sigma f}{\longrightarrow}
+  \Maps(S^1, X_{n+1})
+  =
+  \Omega X_{n+1}
+  \,.
+$$
+
+It remains to see that this is indeed the $(\Sigma \dashv \Omega)$-[[adjunct]] of $\sigma_n^X$. By the general formula for adjuncts, this is
+
+$$
+  \tilde \sigma_n^X 
+    \;\colon\; 
+  X_n 
+     \stackrel{\eta}{\longrightarrow} 
+  \Omega \Sigma X_n
+     \stackrel{\Omega \sigma_n^X}{\longrightarrow}
+  \Omega X_{n+1}
+  \,.
+$$
+
+To compare to the above, we check what this does on points: $S^0 \stackrel{f}{\longrightarrow} X_n$ is sent to the composite
+
+$$
+   S^0 
+     \stackrel{f}{\longrightarrow}
+   X_n 
+     \stackrel{\eta}{\longrightarrow} 
+   \Omega \Sigma X_n
+     \stackrel{\Omega \sigma_0^X}{\longrightarrow}
+   \Omega X_{n+1}
+   \,.
+$$
+
+To identify this as a map $S^1 \to X_{n+1}$ we use the adjunction isomorphism once more to throw all the $\Omega$-s on the right back to $\Sigma$-s the left, to finally find that this is indeed
+
+$$
+  \sigma_n^X \circ \Sigma f
+    \;\colon\;
+  S^1 = \Sigma S^0 \stackrel{\Sigma f}{\longrightarrow} \Sigma X_n \stackrel{\sigma_n^X}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+=--
+
 
 
 ## Properties
