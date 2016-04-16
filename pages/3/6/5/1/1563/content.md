@@ -35,7 +35,7 @@ is an influential [[category theory|category theorist]].
 
 See 
 
-* _An interview with F. William Lawvere_, [Bulletin of the International Center for Mathematics](http://www.cim.pt/?q=publications) ([part 1, December 2007](http://www.cim.pt/files/publications/b23www.pdf), [part 2, June 2008](http://www.cim.pt/files/publications/b24www.pdf),  [full pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf))
+* {#Interview07} _An interview with F. William Lawvere_, [Bulletin of the International Center for Mathematics](http://www.cim.pt/?q=publications) ([part 1, December 2007](http://www.cim.pt/files/publications/b23www.pdf), [part 2, June 2008](http://www.cim.pt/files/publications/b24www.pdf),  [full pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf))
 
 for a survey of his academic path and work. See also
 
