@@ -4,7 +4,7 @@
 
 ## Definition
 
-We shall make use of the notation of [[cubical set]], and the notation which that page makes use of.
+We shall make use of the notation established at [[cubical set]], and the notation which that page makes use of.
 
 +-- {: .num_defn}
 ###### Definition
@@ -20,3 +20,7 @@ $$
 $$
 
 =--
+
+## Homotopy groups
+
+Cubical Kan complexes admit a notion of homotopy group. The theory of these homotopy groups can be developed analogously to the theory of homotopy groups of a topological space. See [[homotopy groups of a cubical Kan complex]]. 
