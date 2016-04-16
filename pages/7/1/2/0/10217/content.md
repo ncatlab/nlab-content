@@ -40,7 +40,7 @@ We define the [[equational theory]] $\mathbf{PRA}$ ([[primitive recursive arithm
 
 The [[first-order theory]] of [[Peano arithmetic]], PA for short, can be presented as a [[Boolean hyperdoctrine]]
 
-$$T: \mathbf{PRA}^{op} \to Bool$$ 
+$$T: \mathbf{PRA}^{op} \to BooleanAlgebra$$ 
 
 taking $j \in Ob(\mathbf{PRA}) = \mathbb{N}$ to the set $T(j)$ consisting of $j$-ary [[predicates]] in the language of PA, modulo provable equivalence in PA. If $f: j \to k$ is a morphism of $\mathbf{PRA}$ and $R \in T(k)$, we let $f^\ast (R)$ denote $T(f)(R) \in T(j)$; it can be described as the result of substituting or pulling back $R$ along $f$. There is a corresponding "action" of $\mathbf{PRA}$ on $T$, 
 
