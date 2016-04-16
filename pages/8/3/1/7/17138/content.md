@@ -131,32 +131,68 @@ $\,$
 ## **Prelude) Classical homotopy theory**
  {#ClassicalHomotopyTheory}
 
+$\,$
+
 
 This section is at: _[[Introduction to Stable homotopy theory -- P]]_
+
+$\,$
+
+$\,$
 
 
 ## **Part 1) Stable homotopy theory**
  {#StableHomotopyTheory}
 
+$\,$
+
 This section is at _[[Introduction to Stable homotopy theory -- 1]]_
+
+$\,$
+
+$\,$
 
 
 ## **Interlude) Spectral sequences**
  {#SpectralSequences}
 
+$\,$
+
 
 This section is at _[[Introduction to Stable homotopy theory -- I]]_
+
+$\,$
+
+$\,$
 
 
 ## **Part 2) Adams spectral sequences**
 
+$\,$
+
 This section is at _[[Introduction to Stable homotopy theory -- 2]]_
+
+$\,$
+
+$\,$
+
 
 ## **Seminar) Complex oriented cohomology**
  {#ComplexOrientedCohomology}
 
+$\,$
+
+
 This section is at _[[Introduction to Stable homotopy theory -- S]]_
 
+$\,$
+
+
+$\,$
+
+***
+
+$\,$
 
 ## References
  {#References}
