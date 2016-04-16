@@ -17,7 +17,7 @@
 
 ## Idea
 
-Quite generally, one says that an [[object]] $A$ in a [[category]] of [[higher category theory|higher category]] $\mathcal{C}$ satisfies _[[descent]]_ along a given [[morphism]] $p : \hat X \to X$ in $\mathcal{C}$ if it is a _$p$-[[local object]]_, hence if the induced map -- the _[[descent morphism]]_
+Quite generally, one says that an [[object]] $A$ in a [[category]] or [[higher category theory|higher category]] $\mathcal{C}$ satisfies _[[descent]]_ along a given [[morphism]] $p : \hat X \to X$ in $\mathcal{C}$ if it is a _$p$-[[local object]]_, hence if the induced map -- the _[[descent morphism]]_
 
 $$
   \mathcal{C}(X, A) \to \mathcal{C}(\hat X, A)
