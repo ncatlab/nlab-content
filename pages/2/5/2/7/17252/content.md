@@ -26,6 +26,8 @@ _La d&#233;finition des cat&#233;gories, comme syst&#232;mes form&#233;s &#224; 
 
 ## References
 
+* Mauro W. Barbosa De Almeida, _Symmetry and Entropy: Mathematical Metaphors in the Work of L&#233;vi-Strauss_ , Current Anthropology **31** no.4 (1990) pp.367-385.
+
 * Maurice Godelier, _L&#233;vi-Strauss_ , Seuil Paris 2013.
 
 * Claude L&#233;vi-Strauss, _The Structural Study of Myth_ , J. American Folklore **78** no. 278 (1955) pp.428-444.
@@ -34,7 +36,7 @@ _La d&#233;finition des cat&#233;gories, comme syst&#232;mes form&#233;s &#224; 
 
 * {#LS71} Claude L&#233;vi-Strauss, _Mythologiques IV: L'Homme nu_ , Plon Paris 1971.
 
-* Claude L&#233;vi-Strauss, _Reflexions sur l'atome de parent&#233;_ , L'Homme **13** no.3 (1973) pp.5-30. ([link](http://www.persee.fr/doc/hom_0439-4216_1973_num_13_3_367355))
+* Claude L&#233;vi-Strauss, _R&#233;flexions sur l'atome de parent&#233;_ , L'Homme **13** no.3 (1973) pp.5-30. ([link](http://www.persee.fr/doc/hom_0439-4216_1973_num_13_3_367355))
 
 * Dan Sperber, _On Anthropological Knowledge_ , chapter 3, Cambridge UP 1985. ([pdf](http://www.dan.sperber.fr/wp-content/uploads/On-Anthropological-Knowledge.pdf))
 
