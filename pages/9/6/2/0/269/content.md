@@ -87,9 +87,7 @@ Let $X$ be a cubical set. Let $n \geq 0$ be an integer. By an _$n$-cube_ of $X$,
 +-- {: .num_defn}
 ###### Notation
 
-Let $n \geq 1$ be an integer. We denote by $\partial \square^{n}$ the cubical set defined by $sk_{n-1} \circ tr_{n-1}(\square^{n})$, where $tr_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | truncation]] functor for cubical sets, and $sk_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | skeleton]] functor for cubical sets.
-
-We let $\partial \square^{0}$ be (recalling that $\mathsf{Set}^{\square^{op}}$ is, by construction, co-complete) the initial object of $\mathsf{Set}^{\square^{op}}$.
+Let $n \geq 1$ be an integer. We denote by $\partial : \mathsf{Set}^{\square^{op}} \rightarrow \mathsf{Set}^{\square^{op}}$ the functor given by defined by $sk_{n-1} \circ tr_{n-1}$, where $tr_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | truncation]] functor for cubical sets, and $sk_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | skeleton]] functor for cubical sets.
 
 =--
 
@@ -97,6 +95,13 @@ We let $\partial \square^{0}$ be (recalling that $\mathsf{Set}^{\square^{op}}$ i
 ###### Terminology
 
 Let $n \geq 0$ be an integer. We refer to $\partial \square^{n}$ as the _boundary_ of $\square^{n}$.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We also denote by $\partial \square^{0}$ (recalling that $\mathsf{Set}^{\square^{op}}$ is, by construction, co-complete) the initial object of $\mathsf{Set}^{\square^{op}}$.
 
 =--
 
@@ -114,13 +119,13 @@ Let $n \geq 1$ be an integer. We denote by $i_{n} : \partial \square^{n} \righta
 
 Let $n \geq 1$ be an integer, let $1 \leq i \leq n$ be an integer, and let $0 \leq \epsilon \leq 1$ be an integer. 
 
-We denote (recalling that $\mathsf{Set}^{\square^{op}}$ is co-complete by construction) by $\sqcap^{n}$ a cubical set fitting into a [[pushout | co-cartesian square]] in $\mathsf{Set}^{\square^{op}}$ as follows.
+We denote (recalling that $\mathsf{Set}^{\square^{op}}$ is co-complete by construction) by $\sqcap^{n,i, \epsilon}$ a cubical set fitting into a [[pushout | co-cartesian square]] in $\mathsf{Set}^{\square^{op}}$ as follows.
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{\partial \square^{n-1} \otimes i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes \square^{1} \\
+      \partial \square^{n-1} & \overset{\partial(\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i})}{\rightarrow}  & \partial \square^{n} \\
        \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{r_{0}} \\
-      \square^{n-1}            & \underset{r_{1 }}{\rightarrow} & \sqcap^{n}
+      \square^{n-1}            & \underset{r_{1 }}{\rightarrow} & \sqcap^{n,i,\epsilon}
    }
 $$
 
@@ -128,9 +133,9 @@ We denote by $i_{i,\epsilon} : \sqcap^{n} \rightarrow \square^{n}$ the canonical
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{\partial \square^{n-1} \otimes i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes \square^{1} \\
-       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{i_{n-1} \otimes \square^{1}} \\
-      \square^{n-1}            & \underset{y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n-i})}{\rightarrow} & \square^{n}
+      \partial \square^{n-1} & \overset{\partial (\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i})}{\rightarrow}  & \partial \square^{n} \\
+       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{i_{n}} \\
+      \square^{n-1}            & \underset{\square^{i-1} \otimes y(i_{\epsilon}) \otimes \square^{n-i}}{\rightarrow} & \square^{n}
    }
 $$
 
