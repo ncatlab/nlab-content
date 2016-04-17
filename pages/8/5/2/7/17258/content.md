@@ -186,7 +186,7 @@ Classical anthropological texts are
 
 * {#LS67}[[Claude Lévi-Strauss]], _Les structures &#233;l&#233;mentaires de la parent&#233;_ , 2nd ed. Mouton The Hague 1967.
 
-* [[Claude Lévi-Strauss]], _Reflexions sur l'atome de parent&#233;_ , L'Homme **13** no.3 (1973) pp.5-30. ([link](http://www.persee.fr/doc/hom_0439-4216_1973_num_13_3_367355))
+* [[Claude Lévi-Strauss]], _R&#233;flexions sur l'atome de parent&#233;_ , L'Homme **13** no.3 (1973) pp.5-30. ([link](http://www.persee.fr/doc/hom_0439-4216_1973_num_13_3_367355))
 
 The permutation model originates with
 
@@ -249,6 +249,8 @@ Kinship systems are studied from a mathematical perspective in
 For related ideas see also
 
 * John P. Boyd, _The Universal Semigroup of Relations_ , Social Networks **2** no.2 (1979) pp.91-117.
+
+* John P. Boyd, _Social Semigroups_ , George Mason UP 1991.
 
 * Fran&#231;ois Lorrain, _R&#233;seaux sociaux et classifications sociales: Essai sur l 'alg&#232;bre et la g&#233;om&#233;trie des structures sociales_ , Hermann Paris 1975.
 
