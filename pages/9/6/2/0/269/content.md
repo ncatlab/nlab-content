@@ -49,7 +49,7 @@ When we think of the category of cubical sets as the category of presheaves of s
 +-- {: .num_defn}
 ###### Definition
 
-A _morphism of cubical sets_ is an arrow of $\mathsf{Set}^{\square^{op}}$.
+A _morphism_ of cubical sets is an arrow of $\mathsf{Set}^{\square^{op}}$.
 
 =--
 
@@ -87,7 +87,7 @@ Let $X$ be a cubical set. Let $n \geq 0$ be an integer. By an _$n$-cube_ of $X$,
 +-- {: .num_defn}
 ###### Notation
 
-Let $n \geq 1$ be an integer. We denote by $\partial \square^{n}$ the cubical set defined by $tr_{n-1}(\square^{n})$, where $tr_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | truncation]] functor for cubical sets.
+Let $n \geq 1$ be an integer. We denote by $\partial \square^{n}$ the cubical set defined by $sk_{n-1} \circ tr_{n-1}(\square^{n})$, where $tr_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | truncation]] functor for cubical sets, and $sk_{n-1}$ is the $(n-1)$-[[cubical truncation, skeleton, and co-skeleton | skeleton]] functor for cubical sets.
 
 We let $\partial \square^{0}$ be (recalling that $\mathsf{Set}^{\square^{op}}$ is, by construction, co-complete) the initial object of $\mathsf{Set}^{\square^{op}}$.
 
@@ -103,7 +103,7 @@ Let $n \geq 0$ be an integer. We refer to $\partial \square^{n}$ as the _boundar
 +-- {: .num_defn}
 ###### Notation
 
-Let $n \geq 1$ be an integer. We denote by $i_{n} : \partial \square^{n} \rightarrow \square^{n}$ the morphism of cubical sets corresponding, under the adjunction between $sk_{n-1}$ and $tr_{n-1}$ described at [[cubical truncation, skeleton, and co-skeleton]], to the identity arrow $\partial \square^{n} \rightarrow \partial \square^{n}$ in $\mathsf{Set}^{\square_{n-1}^{op}}$.
+Let $n \geq 1$ be an integer. We denote by $i_{n} : \partial \square^{n} \rightarrow \square^{n}$ the morphism of cubical sets corresponding, under the adjunction between $sk_{n-1}$ and $tr_{n-1}$ described at [[cubical truncation, skeleton, and co-skeleton]], to the identity arrow $tr_{n}(\square^{n}) \rightarrow tr_{n}(\square^{n})$ in $\mathsf{Set}^{\square_{n-1}^{op}}$.
 
 =--
 
@@ -118,8 +118,8 @@ We denote (recalling that $\mathsf{Set}^{\square^{op}}$ is co-complete by constr
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes I \\
-       i_{n} \downarrow    &                                    & \downarrow r_{0} \\
+      \partial \square^{n-1} & \overset{\partial \square^{n-1} \otimes i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes \square^{1} \\
+       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{r_{0}} \\
       \square^{n-1}            & \underset{r_{1 }}{\rightarrow} & \sqcap^{n}
    }
 $$
@@ -128,9 +128,9 @@ We denote by $i_{i,\epsilon} : \sqcap^{n} \rightarrow \square^{n}$ the canonical
 
 $$
    \array{
-      \partial \square^{n-1} & \overset{i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes I \\
-       i_{n} \downarrow    &                                    & \downarrow i_{n} \otimes I \\
-      \square^{n-1}            & \underset{y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n+1-i})}{\rightarrow} & \square^{n}
+      \partial \square^{n-1} & \overset{\partial \square^{n-1} \otimes i_{0}}{\rightarrow}  & \partial \square^{n-1} \otimes \square^{1} \\
+       \mathllap{i_{n-1}} \downarrow    &                                    & \downarrow \mathrlap{i_{n-1} \otimes \square^{1}} \\
+      \square^{n-1}            & \underset{y(I^{i-1} \otimes i_{\epsilon} \otimes I^{n-i})}{\rightarrow} & \square^{n}
    }
 $$
 
@@ -158,7 +158,6 @@ The choice of $i_{0}$ as opposed to $i_{1}$ in the upper row of the co-cartesian
 We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{p \otimes p \otimes \cdots p}_{n})$ of $\mathsf{Set}^{\square^{op}}$, making use of the fact that $\underbrace{\square^{0} \otimes \square^{0} \otimes \cdots \square^{0}}_{n}$ is $\square^{0}$, since $\square^{0}$ is the unit of the monoidal structure on $\mathsf{Set}^{\square^{op}}$.
 
 =--
-
 
 ## Expository material
 
