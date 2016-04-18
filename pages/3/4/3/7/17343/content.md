@@ -2714,7 +2714,7 @@ $$
 
 **Small object argument**
 
-Given a class $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
+Given a set $C \subset Mor(\mathcal{C})$ of morphisms in some [[category]] $\mathcal{C}$, a natural question is how to factor any given morphism $f\colon X \longrightarrow Y$ through a relative $C$-cell complex, def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
   f 
@@ -2822,26 +2822,37 @@ The concept of _[[small object]]_ is just what makes this intuition precise and 
 ###### Definition
 
 For $\mathcal{C}$ a [[category]] and $C \subset Mor(\mathcal{C})$
-a sub-[[class]] of its morphisms, say that these have _small [[domains]]_
+a sub-[[set]] of its morphisms, say that these have _small [[domains]]_
 if there is an [[ordinal]] $\alpha$ (def. \ref{PosetsWosetTosetsAndOrdinals}) such that for every $c\in C$ and for every $C$-[[relative cell complex]] given by a [[transfinite composition]] (def. \ref{TransfiniteComposition})
 
 $$
   f
   \;\colon\; 
-  X \to X_1 \to \cdots  \longrightarrow \hat X
+  X \to X_1 \to X_2 \to \cdots  \to X_\beta \to \cdots  \longrightarrow \hat X
 $$ 
 
-every morphism  $dom(c)\longrightarrow \hat X$ factors through a stage $X_\beta \to \hat X$ of order $\beta \lt \alpha$.
+every morphism  $dom(c)\longrightarrow \hat X$ factors through a stage $X_\beta \to \hat X$ of order $\beta \lt \alpha$:
+
+$$
+  \array{
+     && X_\beta
+     \\
+     & \nearrow & \downarrow
+     \\
+     dom(c) &\longrightarrow& \hat X
+  }
+  \,.
+$$
 
 =--
 
-The above discussion shows the following:
+The above discussion proves the following:
 
 +-- {: .num_prop #SmallObjectArgument}
 ###### Proposition
 **(small object argument)**
 
-Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[class]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
+Let $\mathcal{C}$ be a [[locally small category]] with all small [[colimits]]. If a [[set]] $C\subset Mor(\mathcal{C})$ of morphisms has all small domains in the sense of def. \ref{ClassOfMorphismsWithSmallDomains}, then every morphism $f\colon X\longrightarrow $ in $\mathcal{C}$ factors through a $C$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $C$-[[injective morphism]], def. \ref{RightLiftingProperty}
 
 $$
   f \;\colon\;
@@ -2868,76 +2879,36 @@ Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}, and $X \in 
 $$
   \nabla_X 
   \;\colon\;
-   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \overset{(p_0,p_1)}{\longrightarrow} X \times X
+   X \underoverset{\in W}{i}{\longrightarrow} Path(X) \underoverset{\in Fib}{(p_0,p_1)}{\longrightarrow} X \times X
   \,.
 $$
 
-where $X\to Path(X)$ is a weak equivalence. This is called a **good path space object** if in addition $Path(X) \to X \times X$ is a fibration.
+where $X\to Path(X)$ is a weak equivalence and $Path(X) \to X \times X$ is a fibration.
 
 * A **[[cylinder object]]** $Cyl(X)$ for $X$ is a factorization of the [[codiagonal]] (or "fold map") $\Delta_X X \sqcup X \to X$ as
 
 $$
   \Delta_X
   \;\colon\;
-  X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
+  X \sqcup X \underoverset{\in Cof}{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{\in W}{p}{\longrightarrow} X
   \,.
 $$
 
-where $Cyl(X) \to X$ is a weak equivalence. This is called a **good cylinder object** if in addition $X \sqcup X \to Cyl(X)$ is a cofibration.
+where $Cyl(X) \to X$ is a weak equivalence. and $X \sqcup X \to Cyl(X)$ is a cofibration.
 
 =--
 
 +-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
 ###### Remark
 
-By the factorization axioms every object in a model category has both a good path space object and as well as a good cylinder object according to def. \ref{PathAndCylinderObjectsInAModelCategory}. But in some situations one is genuinely interested in using non-good such objects.  
-For instance in the [[classical model structure on topological spaces]] which we establish below (theorem \ref{TopQuillenModelStructure}), the standard topological cylinder $X\times [0,1]$ from def.\ref{TopologicalInterval} is a cylinder object, but not a good cylinder unless $X$ itself is a [[CW-complex]] (prop. \ref{StandardContractionOfStandardInterval} below).
+The terminology in def. \ref{PathAndCylinderObjectsInAModelCategory} follows ([Quillen 67, I.1 def. 4](#Quillen67)). Some authors use extra adjectives to distinguish the following slight variants of this definition:
 
-=--
+1. One might require just that $Cyl(X) \to X$ and $X \to Path(X)$ are weak equivalence. In this case the terminology best matches the classical situation for the standard topological cylinder $X\times [0,1]$ from def. \ref{TopologicalInterval} (by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}). But in the [[classical model structure on topological spaces]] which we establish below (theorem \ref{TopQuillenModelStructure}), the standard cylinder $X \times I$ is a cylinder object in the stronger sense of prop. \ref{PathAndCylinderObjectsInAModelCategory} only if $X$ is at least a [[CW-complex]] (this is shown as prop. \ref{StandardContractionOfStandardInterval} below).
 
+1. Adding the requirement that $X \sqcup X \overset{\in Cof}{\to} Cyl(X)$ and that $Path(X) \overset{\in Fib}{\to} X\times X$ as in def. \ref{PathAndCylinderObjectsInAModelCategory} is referred to by some authors as "good cylinder obects" and "good path space objects".
 
-+-- {: .num_lemma #ComponentMapsOfCylinderAndPathSpaceInGoodSituation}
-###### Lemma
+1. Adding the further requirement that moreover $Cyl(X) \overset{\in W \cap Fib}{\to} X$ and $X \overset{W \cap Cof}{\to} Cyl(X)$ is accordingly sometimes referred to as "very good cylinder objects" and "very good path space objects".  By the factorization axioms, every object in a [[model category]], def. \ref{ModelCategory}, has very good cylinder and path space objects. However, the "good" concept from def. \ref{PathAndCylinderObjectsInAModelCategory} is sufficient for the theory to go through well, and some crucial constructions only preserve "good" but not "very good" cylinder/path-space objects, for instance left and right Quillen functors (this is lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} below).
 
-Let $\mathcal{C}$ be a [[model category]]. If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
-
-$$
-  i_0, i_1 \colon X \longrightarrow Cyl(X)
-$$
-
-is an acyclic cofibration separately.
-
-Dually, if $X \in \mathcal{C}$ is fibrant, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
-
-$$
-  p_0, p_1 \colon Path(X) \longrightarrow X
-$$
-
-is an acyclic fibration separately.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-We discuss the case of the path space object. The other case is [[formal dual|formally dual]].
-
-First, that the component maps are weak equivalences follows generally: by definition they have a [[right inverse]] $Path(X) \to X$ and so this follows by [[two-out-of-three]].
-
-But if $X$ is fibrant, then also the two projection maps out of the product $X \times X \to X$ are fibrations, because they are both pullbacks of the fibration $X \to \ast$
-
-$$
-  \array{
-      X\times X &\longrightarrow& X 
-      \\
-      \downarrow &(pb)& \downarrow
-      \\
-      X &\longrightarrow& \ast
-  }
-  \,.
-$$
-
-hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration.
 
 =--
 
@@ -2946,7 +2917,7 @@ Path space objects are very non-unique as objects up to isomorphism:
 +-- {: .num_example #ComposedPathSpaceObjects}
 ###### Example
 
-If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two good [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another good path space object for $X$: the pullback square 
+If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another path space object for $X$: the pullback square 
 
 $$
   \array{
@@ -2973,11 +2944,58 @@ $$
   }
 $$
 
-gives that the induced projection is again a fibration. Using lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} and [[two-out-of-three]] gives that $X \to Path_1(X) \times_X Path_2(X)$ is a weak equivalence.
+gives that the induced projection is again a fibration. Moreover, using lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} and [[two-out-of-three]] gives that $X \to Path_1(X) \times_X Path_2(X)$ is a weak equivalence.
 
 For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^{[0,2]}$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
 
 
+=--
+
+
+
++-- {: .num_lemma #ComponentMapsOfCylinderAndPathSpaceInGoodSituation}
+###### Lemma
+
+Let $\mathcal{C}$ be a [[model category]]. If $X \in \mathcal{C}$ is cofibrant, then for every [[cylinder object]] $Cyl(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(i_0,i_1) \colon X \sqcup X \to X$ a cofibration, but each
+
+$$
+  i_0, i_1 \colon X \longrightarrow Cyl(X)
+$$
+
+is an acyclic cofibration separately.
+
+Dually, if $X \in \mathcal{C}$ is fibrant, then for every [[path space object]] $Path(X)$ of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, not only is $(p_0,p_1) \colon Path(X)\to X \times X$ a cofibration, but each
+
+$$
+  p_0, p_1 \colon Path(X) \longrightarrow X
+$$
+
+is an acyclic fibration separately.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the case of the path space object. The other case is [[formal dual|formally dual]].
+
+First, that the component maps are weak equivalences follows generally: by definition they have a [[right inverse]] $Path(X) \to X$ and so this follows by [[two-out-of-three]].
+
+But if $X$ is fibrant, then also the two projection maps out of the product $X \times X \to X$ are fibrations, because they are both pullbacks of the fibration $X \to \ast$
+
+$$
+  \array{
+      X\times X &\longrightarrow& X 
+      \\
+      \downarrow &(pb)& \downarrow
+      \\
+      X &\longrightarrow& \ast
+  }
+  \,.
+$$
+
+hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration.
 
 =--
 
@@ -3018,104 +3036,16 @@ $$
 
 
 
-
-
-
-The following says that the choice of cylinder/path objects in def. \ref{LeftAndRightHomotopyInAModelCategory} is irrelevant as long it is "good".
-
-+-- {: .num_lemma #GoodCylinderObjectsSupportEveryLeftHomotopyAndDually}
-###### Lemma
-
-For $\eta \colon f \Rightarrow_L g \colon X \to Y$ a [[left homotopy]] in some [[model category]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $Y$ is a fibrant object, then for $Cyl(X)$ any choice of _good_ [[cylinder object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
-
-$$
-  \array{
-    X &\longrightarrow& Cyl(X) &\longleftarrow& X
-    \\
-    & {}_{\mathllap{f}}\searrow &\downarrow^{\mathrlap{\tilde \eta}}& \swarrow_{\mathrlap{g}}
-    \\
-    && 
-    Y
-  }
-  \,.
-$$
-
-Dually, for $\eta \colon f \Rightarrow_R g \colon X \to Y$ a [[right homotopy]], def. \ref{LeftAndRightHomotopyInAModelCategory}, such that $X$ is cofibrant, then for $Path(X)$ any choice of _good_ [[path object]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a [[commuting diagram]] of the form
-
-
-$$
-  \array{
-    && X
-    \\
-    & {}^{\mathllap{f}}\swarrow & \downarrow^{\mathrlap{\tilde \eta}} & \searrow^{\mathrlap{g}} 
-    \\
-    Y &\longleftarrow& Path(Y) &\longrightarrow& Y
-  }
-  \,.
-$$
-
-=---
-
-+-- {: .proof}
-###### Proof
-
-We discuss the first statement, the second is [[formal dual|formally dual]].
-Let $\eta \colon \hat X \longrightarrow Y$ be the given left homotopy with respect to a given cylinder object $\hat X$ of $X$. Factor it as 
-
-$$
-  \eta 
-    \;\colon\; 
-  \hat X \overset{\in Cof}{\longrightarrow} Z \overset{\in W \cap Fib}{\longrightarrow} 
-  Y
-  \,.
-$$
-
-Then find liftings $\ell$ and $k$ in the following two [[commuting diagrams]]
-
-$$
-  \array{
-    X \sqcup X &\overset{}{\longrightarrow}& \hat X &\longrightarrow& Z
-    \\
-    {}^{\mathllap{\in Cof}}\downarrow && & {}^{\mathllap{\ell}}\nearrow & \downarrow^{\mathrlap{\in W \cap Fib}}
-    \\
-    Cyl(X) &\longrightarrow& &\longrightarrow& Y 
-  }
-  \;\;\;\;\;
-  \,,
-  \;\;\;\;\;
-  \array{
-    \hat X &\overset{\eta}{\longrightarrow}& Y
-    \\
-    {}^{\mathllap{\in Cof}}\downarrow &{}^{\mathllap{k}}\nearrow& \downarrow^{\mathrlap{\in W }}
-    \\
-    Z &\longrightarrow& \ast 
-  }
-  \,.
-$$
-
-Now the composite $\eta \coloneqq k \circ \ell$ is of the required kind, 
-
-$$
-  \array{
-    X \sqcup X &\overset{}{\longrightarrow}& \hat X &\longrightarrow& Z &\overset{k}{\longrightarrow}& Y
-    \\
-    \downarrow &&&  {}^{\mathllap{\ell}}\nearrow &
-    \\
-    Cyl(X) &\longrightarrow& 
-  }
-  \,.
-$$
-
-=--
-
 +-- {: .num_lemma #LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}
 ###### Lemma
 
 Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]]. 
 
-* Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path object.
+1. Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path object.
 
-* Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object. 
+1. Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object. 
+
+In particular if $X$ is cofibrant and $Y$ is fibrant, then by going back and forth it follows that every left homotopy is exhibited by every cylinder object, and every right homotopy is exhibited by every path space object.
 
 =--
 
@@ -3123,7 +3053,7 @@ Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]].
 ###### Proof
 
 We discuss the first case, the second is [[formal dual|formally dual]].
-Let $\eta \colon Cyl(X) \longrightarrow Y$ be the given left homotopy. By lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} we may assume without restriction that $Cyl(X)$ is _good_ in the sense of def. \ref{PathAndCylinderObjectsInAModelCategory}, for otherwise replace it by one that is. With this, lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} implies that we have a lift $h$ in the following [[commuting diagram]]
+Let $\eta \colon Cyl(X) \longrightarrow Y$ be the given left homotopy. Lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} implies that we have a lift $h$ in the following [[commuting diagram]]
 
 $$
   \array{
@@ -3139,7 +3069,7 @@ $$
   \,,
 $$
 
-where on the right we have the chosen path space object. Now the composite $\tilde \eta \coloneqq h \circ i_1$ is a right homotopy as required.
+where on the right we have the chosen path space object. Now the composite $\tilde \eta \coloneqq h \circ i_1$ is a right homotopy as required:
 
 $$
   \array{
@@ -3171,28 +3101,10 @@ For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]],
 
 That both relations coincide under the (co-)fibrancy assumption follows directly from lemma \ref{LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually}.
 
-To see that left homotopy with domain $X$ is a [[transitive relation]] first use lemma \ref{GoodCylinderObjectsSupportEveryLeftHomotopyAndDually} to obtain that every left homotopy is exhibited by a _good_ cylinder object $Cyl(X)$ and then lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} to see that the cofiber coproduct $Cyl(X)\underset{X}{\sqcup} Cyl(X)$ in 
+The [[symmetric relation|symmetry]] and [[reflexive relation|reflexivity]] of the relation is obvious.
 
-$$
-  \array{
-     && && X
-     \\
-     && && \downarrow^{\mathrlap{i_0}}
-     \\
-     && X &\underoverset{\in W}{i_1}{\longrightarrow}& Cyl(X)
-     \\
-     && {}^{\mathllap{i_0}}\downarrow &(po)& \downarrow
-     \\
-     X &\underset{i_1}{\longrightarrow}& 
-    Cyl(X) &\underset{\in W}{\longrightarrow}& Cyl(X) \underset{X}{\sqcup} Cyl(X)
-     \\
-     && &{}_{\mathllap{}}\searrow& & \searrow
-     \\
-     && && \underset{\in W}{\longrightarrow} &\longrightarrow& X
-  }
-$$
+That right homotopy (hence also left homotopy) with domain $X$ is a [[transitive relation]] follows from using example \ref{ComposedPathSpaceObjects} to compose path space objects.
 
-is again a [[cylinder object]], def. \ref{PathAndCylinderObjectsInAModelCategory}. The [[symmetric relation|symmetry]] and [[reflexive relation|reflexivity]] of the relation is obvious.
 
 =--
 
@@ -3207,12 +3119,54 @@ Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Write $Ho(\
 
 * [[objects]] are those objects of $\mathcal{C}$ which are both fibrant and cofibrant;
 
-* [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under [[left homotopy]].
+* [[morphisms]] are the [[homotopy classes]] of morphisms of $\mathcal{C}$, hence the [[equivalence classes]] of morphism under the equivalence relation of prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}.
+
+and whose [[composition]] operation is given on representatives by composition in $\mathcal{C}$.
+
+This is, up to [[equivalence of categories]], the **[[homotopy category of a model category|homotopy category of the model category]]** $\mathcal{C}$.
 
 =--
 
-This is, up to [[equivalence of categories]], the _homotopy category of the model category_ $\mathcal{C}$.
++-- {: .num_prop}
+###### Proposition
 
+Def. \ref{HomotopyCategoryOfAModelCategory} is well defined, in that composition of morphisms between fibrant-cofibrant objects in $\mathcal{C}$ indeed passes to [[homotopy classes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Fix any morphism $X \overset{f}{\to} Y$ between fibrant-cofibrant objects. Then for precomposition
+
+$$
+ (-) \circ [f] \;\colon\; Hom_{Ho(\mathcal{C})}(Y,Z) \to Hom_{Ho(\mathcal{C}(X,Z))}
+$$
+
+to be well defined, we need that with $(g\sim h)\colon Y \to Z$ also $(f g \sim f h)\colon X \to Z$. But by prop \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations} we may take the homotopy $\sim$ to be exhibited by a right homotopy $\eta \colon Y \to Path(Z)$, for which case the statement is evident from this diagram:
+
+$$
+  \array{
+    && && Z
+    \\
+    && & {}^{\mathllap{f}}\nearrow & \uparrow^{\mathrlap{p_1}}
+    \\
+    X 
+      &\overset{f}{\longrightarrow} & 
+    Y
+      &\overset{\eta}{\longrightarrow}&
+    Path(Z)
+    \\
+    && & {}_{\mathllap{g}}\searrow & \downarrow_{\mathrlap{p_0}}
+    \\
+    && && Z
+  }
+  \,.
+$$
+
+For postcomposition we may choose to exhibit homotopy by left homotopy and argue dually.
+
+=--
 
 We spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfies the [[universal property]] that defines the [[homotopy category]] of a [[category with weak equivalences]].
 
@@ -3620,7 +3574,7 @@ The following says that for computing the hom-sets in the [[homotopy category of
 For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
 
 $$
- Ho(\mathcal{C})(X,Y)
+ Hom_{Ho(\mathcal{C})}(X,Y)
   =
  Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
    \longrightarrow
@@ -3979,6 +3933,38 @@ Now by repeatedly applying (i) and (ii), all four conditions in question are see
 
 =--
 
++-- {: .num_lemma #LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects}
+###### Lemma
+
+Let $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{\bot}{R}{\longrightarrow}}$ be a [[Quillen adjunction]], def. \ref{QuillenAdjunction}. 
+
+1. For $X \in \mathcal{C}$ a fibrant object and $Path(X)$ a path space object for it according to def. \ref{PathAndCylinderObjectsInAModelCategory}, then $R(Path(X))$ is a path space object for $R(X)$.
+
+1. For $X \in \mathcal{C}$ a cofibrant object and $Cyl(X)$ a cylinder object for it according to def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(X))$ is a path space object for $L(X)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the second case, the first is [[formal dual|formally dual]].
+
+First Observe that  $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]].
+
+Hence
+
+$$
+  L(\X \sqcup X \overset{\in Cof}{\to} Cyl(X))
+  =
+  (L(X) \sqcup L(X) \overset{\in Cof}{\to } L (Cyl(X)))
+$$
+
+is a cofibration.
+
+Second, observe that with $Y$ cofibrant then also $Y \sqcup Y$ is cofibrant (being the pushout of the cofibration $\emptyset \to Y$ along itself), hence also $Cyl(Y)$ is cofibrant. Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
+
+=--
+
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
 
@@ -4007,7 +3993,7 @@ $$
   \,.
 $$
 
-Since by assumption such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. For this it is sufficient that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L Y$, for then left homotopies
+Since by assumption such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. To that end, use from lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L(Y)$. This implies that left homotopies
 
 $$
   (f \Rightarrow_L g) \;\colon\;  L X \longrightarrow Y
@@ -4031,16 +4017,6 @@ $$
   \tilde \eta \;\colon\; Cyl(X) \longrightarrow R X
   \,.
 $$
-
-To see that $L$ indeed preserves cylinder objects on $Y$, observe that 
-
-1. $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]];
-
-1. with $Y$ cofibrant then also $Y \sqcup Y$ is cofibrant (being the pushout of the cofibration $\emptyset \to Y$ along itself), 
-
-1. hence also $Cyl(Y)$ is cofibrant; 
-
-1. hence by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
 
 =--
 
@@ -4406,7 +4382,7 @@ $$
   X
 $$ 
 
-(obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _good [[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+(obtained by forming the [[product]] with the standard topological intervall $I = [0,1]$) is indeed a _[[cylinder object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
 
 =--
@@ -4447,7 +4423,7 @@ $$
   X \times X
 $$
 
-(obtained by forming the [[mapping space]], def. \ref{CompactOpenTopology}, with the standard topological intervall $I = [0,1]$) is indeed a _good [[path space object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
+(obtained by forming the [[mapping space]], def. \ref{CompactOpenTopology}, with the standard topological intervall $I = [0,1]$) is indeed a _[[path space object]]_ in the abstract sense of def. \ref{PathAndCylinderObjectsInAModelCategory}.
 
 =--
 
@@ -4621,7 +4597,7 @@ $$
 
 By the universal property of the homotopy category (thm. \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}) and by the fact that every topological space is weakly equivalent to a [[CW-complex]] (rmk. \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}) we may consider $\Omega$ and $\Sigma$ on the category $Top_{CW}^{\ast/}$ of pointed CW-complexes and homotopy classes of continuous functions between them.
 
-By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of good [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a good cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a good path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
+By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we are restricted to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
 
 Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
 
@@ -7830,7 +7806,7 @@ this represents the [[homotopy cofiber]], def. \ref{HomotopyFiber}, of $f$ with 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StandardContractionOfStandardInterval}, for $X$ a [[CW-complex]] then the standard topological cylinder object $X\times I$ is indeed a good cyclinder object in $Top_{Quillen}$. Therefore by prop. \ref{ConeAndMappingCylinder} and the [[factorization lemma]] \ref{FactorizationLemma}, the mapping cone construction indeed produces first a cofibrant replacement of $f$ and then the ordinary cofiber of that, hence a model for the homotopy cofiber.
+By prop. \ref{StandardContractionOfStandardInterval}, for $X$ a [[CW-complex]] then the standard topological cylinder object $X\times I$ is indeed a  cyclinder object in $Top_{Quillen}$. Therefore by prop. \ref{ConeAndMappingCylinder} and the [[factorization lemma]] \ref{FactorizationLemma}, the mapping cone construction indeed produces first a cofibrant replacement of $f$ and then the ordinary cofiber of that, hence a model for the homotopy cofiber.
 
 =--
 
@@ -7916,7 +7892,7 @@ With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} it also follow
 +-- {: .num_remark #ConcatenatedLoopSpaceObject}
 ###### Remark
 
-Given an object $X \in \mathcal{C}^{\ast/}_f$, and picking any good [[path space object]] $Path(X)$, def. \ref{PathAndCylinderObjectsInAModelCategory} with induced [[loop space object]] $\Omega X$, def. \ref{SuspensionAndLoopSpaceObject}, write $Path(X)_2$ for the path space object given by the fiber square of $Path(X)$ via example \ref{ComposedPathSpaceObjects}. From the pullback diagram there, the fiber inclusion $\Omega X \to Path(X)$ induces a morphism
+Given an object $X \in \mathcal{C}^{\ast/}_f$, and picking any [[path space object]] $Path(X)$, def. \ref{PathAndCylinderObjectsInAModelCategory} with induced [[loop space object]] $\Omega X$, def. \ref{SuspensionAndLoopSpaceObject}, write $Path(X)_2$ for the path space object given by the fiber square of $Path(X)$ via example \ref{ComposedPathSpaceObjects}. From the pullback diagram there, the fiber inclusion $\Omega X \to Path(X)$ induces a morphism
 
 $$
   \Omega X \times \Omega X \longrightarrow (\Omega X)_2
