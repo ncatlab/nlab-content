@@ -3132,7 +3132,7 @@ $$
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}
 ###### Proposition
 
 For $X$ a cofibrant object in a [[model category]] and $Y$ a [[fibrant object]], then the [[relations]] of [[left homotopy]] $f \Rightarrow_L g$ and of [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) on the [[hom set]] $Hom(X,Y)$ coincide and are both [[equivalence relations]].
@@ -3586,27 +3586,86 @@ $$
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
+The following says that for computing the hom-sets in the [[homotopy category of a model category|homotopy category]], even a mixed variant of the above will do; it is sufficient that the domain is cofibrant and the codomain is fibrant:
 
-For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then the morphism
++-- {: .num_lemma #HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}
+###### Lemma
+
+For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
 
 $$
  Ho(\mathcal{C})(X,Y)
   =
- Hom_{\mathcal{C}}(P Q X, P Q Y)/_{\sim}
-   \longrigtharrow
- Hom_{\mathcal{C}}(Q X,P Y)/_{\sim}
+ Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+   \longrightarrow
+ Hom_{\mathcal{C}}(X,Y)/_{\sim}
 $$
 
-(on homotopy classes of morphisms) is a natural bijection.
+(on homotopy classes of morphisms, well defined by prop. \ref{BetweenCofibFibLeftAndRightHomotopyAreEquivalentEquivalenceRelations}) is a natural bijection.
 
 =--
+
+([Quillen 67, I.1 lemma 7](#Quillen67))
 
 +-- {: .proof}
 ###### Proof
 
-spring
+We may factor the morphism in question as the composite
+
+$$
+  Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
+    \longrightarrow
+  Hom_{\mathcal{C}}(P X, Y)/_{\sim}
+    \longrigtharrow
+  Hom_{\mathcal{C}}(X,Y)/_{\sim}
+  \,.
+$$
+
+This shows that it is sufficient to show that for $X$ cofibrant and $Y$ fibrant, then 
+
+$$
+  \phi 
+   \;\colon\; 
+  Hom_{\mathcal{C}}(X, Q Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism, and dually that
+
+$$
+  Hom_{\mathcal{C}}(P X, Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
+$$
+
+is an isomorphism. We discuss this for $\phi$; the second is formally dual:
+
+First, that $\phi$ is surjective is the [[lifting property]] in 
+
+$$
+  \array{
+    \emptyset &\longrightarrow& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{\in W \cap Fib}}
+    \\
+    X &\overset{f}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+which says that any morphism $f \colon X \to Y$ comes from a morphism $\hat f \colon X \to Q Y$ under postcomposition with $Q Y \to Y$.
+
+Second, that $\phi$ is injective is the lifting property in 
+
+$$
+  \array{
+    X \sqcup X &\overset{(f,g)}{\longrightarrow}& Q Y
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{\in W \cap Fib}}
+    \\
+    Cyl(X) &\underset{\eta}{\longrightarrow}& Y
+  }
+  \,,
+$$
+
+which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after postcomposition with $Q X \to Y$, then they were already homotopic before.
 
 =--
 
@@ -3894,7 +3953,7 @@ Now by repeatedly applying (i) and (ii), all four conditions in question are see
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
 
 For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via prop. \ref{KenBrownLemma}, form a pair of [[adjoint functors]]
@@ -3909,6 +3968,55 @@ $$
 =--
 
 ([Quillen 67, I.4 theorem 3](#Quillen67))
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} and lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} it is sufficient to see that for $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, then there is a natural bijection
+
+$$
+  Hom_{\mathcal{C}}(L X , Y)/_\sim
+   \simeq
+  Hom_{\mathcal{C}}(X, R Y)/_\sim
+  \,.
+$$
+
+Since by assumption such a natural bijection exists before passing to homotopy classes $(-)/_\sim$, it is sufficient to see that this respects homotopy classes. For this it is sufficient that with $Cyl(Y)$ a [[cylinder object]] for $Y$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then $L(Cyl(Y))$ is a cylinder object for $L Y$, for then left homotopies
+
+$$
+  (f \Rightarrow_L g) \;\colon\;  L X \longrightarrow Y
+$$
+
+given by
+
+$$
+ \eta \;\colon\; Cyl(L X) =  L Cyl(X) \longrightarrow Y
+$$
+
+are in bijection to left homotopies
+
+$$
+  (\tilde f \Rightarrow_L \tilde g) \;\colon\; X \longrightarrow R Y
+$$
+
+given by
+
+$$
+  \tilde \eta \;\colon\; Cyl(X) \longrightarrow R X
+  \,.
+$$
+
+To see that $L$ indeed preserves cylinder objects on $Y$, observe that 
+
+1. $L(Y \sqcup Y) \simeq L Y \sqcup L Y$ because $L$ is [[left adjoint]] and hence preserves [[colimits]], hence in particular [[coproducts]];
+
+1. with $Y$ cofibrant then also $Y \sqcup Y$ is cofibrant (being the pushout of the cofibration $\emptyset \to Y$ along itself), 
+
+1. hence also $Cyl(Y)$ is cofibrant; 
+
+1. hence by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
+
+=--
 
 +-- {: .num_defn #QuillenEquivalence}
 ###### Definition
