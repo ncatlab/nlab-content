@@ -189,11 +189,11 @@ Then there exists a cofibrantly generated model structure on the category of $V$
 
 The conditions of the above theorems are satisfied for
 
-* $V = $ [[sSet]] with the standard [[model structure on simplicial sets]].
+* $V = $ [[sSet]] with the [[classical model structure on simplicial sets]].
 
   The induced model structure on $sSet$-operads is [[Quillen equivalence|Quillen equivalent]] to the [[model structure on dendroidal sets]].
 
-* $V = $ [[Top]] the equivalence model structure on compactly generated topological spaces;
+* $V = $ [[Top]] the equivalent [[classical model structure on topological spaces]] ([[compactly generated topological spaces]]);
 
   The _homotopy algebras_ over a simplicial/topological operad as defined by Boardman and Vogt (see references below), are algebras for cofibrant replacements of these operads in this model structure. This is essentially the statement of theorem 4.1 in ([Vogt](#Vogt))
 
@@ -422,5 +422,7 @@ The induced model structures and their properties on [[algebras over operads]] a
 
 The [[model structure on dg-operads]] is discussed in
 
-* {#BergerMoerdijkAlgebras} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-{#Hinich}
+* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+
+[[!redirects model structure on topological operads]]
+
