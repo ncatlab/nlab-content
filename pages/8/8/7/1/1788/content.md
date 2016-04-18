@@ -1,2 +1,37 @@
++-- {: .num_example #ComposedPathSpaceObjects}
+###### Example
 
-..
+If $X \in \mathcal{C}$ is a fibrant object in a [[model category]], def. \ref{ModelCategory}, and for $Path_1(X)$ and $Path_2(X)$ two good [[path space objects]] for $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, then the [[fiber product]] $Path_1(X) \times_X Path_2(X)$ is another good path space object for $X$: the pullback square 
+
+$$
+  \array{
+     X &\overset{\Delta_X}{\longrightarrow}&  X \times X
+     \\
+     \downarrow && \downarrow
+     \\
+     Path_1(X) \underset{X}{\times} Path_2(X) 
+     &\longrightarrow&
+     Path_1(X)\times Path_2(X)
+     \\
+     {}^{\mathllap{\in Fib}}\downarrow 
+     &(pb)& 
+     \downarrow^{\mathrlap{\in Fib}}
+     \\
+     X \times X \times X
+     &\overset{(id,\Delta_X,id)}{\longrightarrow}& X \times X\times X \times X
+     \\
+     \downarrow^{\mathrlap{(pr_1,pr_3)}}_{\mathrlap{\in Fib}}
+     &&
+     \downarrow^{\mathrlap{(p_1, p_4)}}
+     \\
+     X\times X &=& X \times X 
+  }
+$$
+
+gives that the induced projection is again a fibration. Using lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} and [[two-out-of-three]] gives that $X \to Path_1(X) \times_X Path_2(X)$ is a weak equivalence.
+
+For the case of the canonical topological path space objects of def \ref{TopologicalPathSpace}, with $Path_1(X) = Path_2(X) = X^I = X^{[0,1]}$  then this new path space object is $X^{I \vee I} = X^{[0,2]}$, the [[mapping space]] out of the standard interval of length 2 instead of length 1.
+
+
+
+=--
