@@ -1,15 +1,2 @@
-+-- {: .num_prop}
-###### Proposition
 
-For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underset{R}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via prop. \ref{KenBrownLemma}, form a pair of [[adjoint functors]]
-
-$$
-  Ho(\mathcal{C})
-    \stackrel{\overset{\mathbb{L}L}{\longleftarrow}}{\underoverset{\mathbb{R}R}{\bot}{\longrightarrow}}
-  Ho(\mathcal{D})
-  \,.
-$$
-
-=--
-
-([Quillen 67, I.4 theorem 3](#Quillen67))
+..
