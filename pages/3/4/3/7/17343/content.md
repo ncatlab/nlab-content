@@ -4256,7 +4256,7 @@ admits a [[lift]] as soon as one of the two is also a weak equivalence.
 +-- {: .proof}
 ###### Proof
 
-**A)** If the fibration $f$ is also a weak equivalence, then lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} says that it has the right lifting property against the generating cofibrations $I_{Top}$, and lemma \ref{SaturationOfGeneratingCofibrations} implies the claim.
+**A)** If the fibration $f$ is also a weak equivalence, then lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} says that it has the right lifting property against the generating cofibrations $I_{Top}$, and prop. \ref{SaturationOfGeneratingCofibrations} implies the claim.
 
 **B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
 
