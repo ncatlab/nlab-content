@@ -11,11 +11,17 @@
 
 This entry is about the book
 
-* [[Pierre Gabriel]], [[Michel Zisman]], _Calculus of Fractions and Homotopy Theory_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967) 
+* [[Pierre Gabriel]], [[Michel Zisman]], 
 
-on _[[homotopy theory]]_.
+  _Calculus of Fractions and Homotopy Theory_, 
 
-This book first introduced a general [[localization]] of a [[category]] at  an arbitrary [[class]] of [[morphisms]] (nowadays sometimes called the [[Gabriel-Zisman localization]]); however the [[size issues]] are not discussed and the formalism of [[Grothendieck universe|universes]] is understood as an excuse. The special case of [[calculus of fractions|categories of fractions]] is treated in detail. 
+  Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967) 
+ 
+  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
+on _[[homotopy theory]]_ and specifically the [[calculus of fractions]] for constructing [[homotopy categories]].
+
+This book first introduced a general [[localization]] of a [[category]] at  an arbitrary [[class]] of [[morphisms]] (nowadays sometimes called the _Gabriel-Zisman localization_ (see also _[[Gabriel localization]]_)); however the [[size issues]] are not discussed and the formalism of [[Grothendieck universe|universes]] is understood as an excuse. The special case of [[calculus of fractions|categories of fractions]] is treated in detail. 
 
 The book has large historical importance for a clean and innovative formalism treating the interaction of [[category theory]] (including [[adjoint functors]], [[Kan extensions]], [[strict 2-category|strict 2-categories]]), [[simplicial set|simplicial]] methods and [[homotopy theory]]. An important version of a definition of a [[homotopy category]] by the abstract categorical localization by the class of [[weak equivalences]] is introduced. 
 
