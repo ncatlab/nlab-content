@@ -644,6 +644,30 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+**([[Mayer-Vietoris sequence]])**
+
+Given $E^\bullet$ an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Given a topological space covered by the [[interior]] of two spaces as $X = Int(A) \cup Int(B)$, then for each $C \subset A \cap B$ there is a [[long exact sequence]] of cohomology groups of the form
+
+$$
+  \cdots
+  \to 
+  E^{n-1}(A \cap B , C)
+  \overset{\bar \delta}{\longrightarrow}
+  E^n(X,C)
+  \longrightarrow
+  E^n(A,C) \oplus E^n(B,C)
+  \longrightarrow
+  E^n(A \cap B, C)
+  \to
+  \cdots
+  \,.
+$$
+
+=--
+
+e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem 12.1.22](#AguilarGitlerPrieto02))
 
 
 ## Relation between reduced and unreduced cohomology
@@ -689,7 +713,7 @@ The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a r
 
 =--
 
-(e.g [Switzer 75, 7.34](#Switzer75))
+(e.g. [Switzer 75, 7.34](#Switzer75))
 
 +-- {: .proof}
 ###### Proof
