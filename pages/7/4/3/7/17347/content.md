@@ -680,9 +680,36 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 =--
 
++-- {: .num_prop #MayerVietorisSequenceInGeneralizedCohomology}
+###### Proposition
+**([[Mayer-Vietoris sequence]])**
+
+Given $E^\bullet$ an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Given a topological space covered by the [[interior]] of two spaces as $X = Int(A) \cup Int(B)$, then for each $C \subset A \cap B$ there is a [[long exact sequence]] of cohomology groups of the form
+
+$$
+  \cdots
+  \to 
+  E^{n-1}(A \cap B , C)
+  \overset{\bar \delta}{\longrightarrow}
+  E^n(X,C)
+  \longrightarrow
+  E^n(A,C) \oplus E^n(B,C)
+  \longrightarrow
+  E^n(A \cap B, C)
+  \to
+  \cdots
+  \,.
+$$
+
+=--
+
+e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem 12.1.22](#AguilarGitlerPrieto02))
+
+
 
 
 ##### Relation between unreduced and reduced cohomology
+ {#RelationBetweenUnreducedAndReducedCohomology}
 
 +-- {: .num_defn #FromUnreducedToReducedCohomology}
 ###### Definition
@@ -1127,14 +1154,21 @@ such that
 
 1. **(additivity)** $F$ takes small coproducts ([[wedge sums]]) to [[products]];
 
-1. **(Mayer-Vietoris)** If $X = A \cup B$ then for all $x_A \in F(A)$ and $x_B \in F(B)$ such that $(x_A)|_{A \cap B} = (x_B)|_{A \cap B}$ then there exists $x_X \in F(X)$ such that $x_A = (x_X)|_A$ and $x_B = (x_X)|_B$.
+1. **(Mayer-Vietoris)** If $X = Int(A) \cup Int(B)$ then for all $x_A \in F(A)$ and $x_B \in F(B)$ such that $(x_A)|_{A \cap B} = (x_B)|_{A \cap B}$ then there exists $x_X \in F(X)$ such that $x_A = (x_X)|_A$ and $x_B = (x_X)|_B$.
 
 =--
 
 +-- {: .num_prop}
 ###### Proposition
 
-For every reduced additive cohomology functor $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each $E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+For every reduced additive cohomology functor $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Under the relation between reduced and unreduced cohomology [above](#RelationBetweenUnreducedAndReducedCohomology), this follows from the [[exact sequence|exactness]] of the [[Mayer-Vietoris sequence]] of prop. \ref{MayerVietorisSequenceInGeneralizedCohomology}.
 
 =--
 
