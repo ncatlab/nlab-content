@@ -13,8 +13,13 @@ $$
 
 ## Related concepts
 
-* [[pointed topological space]]
+* [[pointed topological space]], [[pointed simplicial set]]
 
 * [[spectrum]]
+
+## References
+
+* {#GabrielZisman67} [[Pierre Gabriel]], [[Michel Zisman]], chapter IV.4 of _[[Calculus of fractions and homotopy theory]]_, Ergebnisse der Mathematik und ihrer Grenzgebiete, Band 35, Springer (1967)  ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/GZ.pdf))
+
 
 [[!redirects pointed homotopy types]]
