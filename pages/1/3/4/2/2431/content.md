@@ -265,7 +265,7 @@ $$
   \mathcal{C}(S_i,Y)
 $$
 
-in [[∞Grpd]] are  [[equivalence in an (∞,1)-category|equivalences]] precisely if they are [[weak homotopy equivalences]], hence precisely if they induce [[isomorphisms]] on all [[homotopy group]] $\pi_n$ for **all basepoints**.
+in [[∞Grpd]] are  [[equivalence in an (∞,1)-category|equivalences]] precisely if they are [[weak homotopy equivalences]], hence precisely if they induce [[isomorphisms]] on all [[homotopy groups]] $\pi_n$ for **all basepoints**.
 
 It is this last condition of testing on all basepoints that the assumed [[cogroup]] structure on the $S_i$ allows to do away with: this cogroup structure implies that $\mathcal{C}(S_i,-)$ has the structure of an $H$-group, and this implies (by group multiplication), that all [[connected components]] have the same homotopy groups, hence that all homotopy groups are independent of the choice of basepoint, up to isomorphism.
 
@@ -590,7 +590,7 @@ it follows with $h$ being an equivalence that already $f$ and $g$ were homotopic
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[(∞,1)-pushouts]], and with a [[zero object]] $0 \in \mathcal{C}$. Write $\Sigma \colon \mathcal{C} \to \mathcal{C}\colon X\mapsto 0 \underset{X}{\sqcup} 0$ for the corresponding [[suspension]] [[(∞,1)-functor]].
 
-A **reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathcal{C}$ is 
+A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathcal{C}$ is 
 
 1. a [[functor]]
 
@@ -607,11 +607,12 @@ A **reduced [[generalized (Eilenberg-Steenrod) cohomology]] theory** on $\mathca
      \delta \; \colon \; H^\bullet \longrightarrow H^{\bullet+1} \circ \Sigma
    $$
 
-such that $H^\bullet$
+such that $H^\bullet$ 
 
-1. takes small [[coproducts]] to [[products]];
+1. **(exactness)** takes [[homotopy cofiber sequences]] to [[exact sequences]].
 
-1. takes [[homotopy cofiber sequences]] to [[exact sequences]].
+1. **(additivity)** takes small [[coproducts]] to [[products]];
+
 
 =--
 
@@ -670,14 +671,14 @@ By the defining exactness of $H^\bullet$, def. \ref{GeneralizedCohomologyOnGener
 +-- {: .num_prop #CohomologyFunctorOnInfinityCategoryIsBrownFunctor}
 ###### Proposition
 
-Given a generalized cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
+Given a reduced addive generalized cohomology functor $H^\bullet \colon Ho(\mathcal{C})^{op}\to Ab^{\mathbb{Z}}$, def. \ref{GeneralizedCohomologyOnGeneralInfinityCategory}, its underlying [[Set]]-valued functors $H^n \colon Ho(\mathcal{C})^{op}\to Ab\to Set$ are [[Brown functors]], def. \ref{BrownFunctorOnInfinityCategory}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first condition on a [[Brown functor]] holds by definition of $H^\bullet$. For the second condition, given a homotopy pushout square
+The first condition on a [[Brown functor]] holds by additivity. For the second condition, given a homotopy pushout square
 
 
 $$
