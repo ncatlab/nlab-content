@@ -1,3 +1,4 @@
+[[!redirects Discovery]]
 ## Ways of Figuring Things Out in Mathematics ##
 
 Mathematical activity is characterized by discovery of new truths, methods, relations, objects, ideas and possibilities. What are the ways of figuring things out?  This is a big question in the [[big picture]] of [[mathematics]].
