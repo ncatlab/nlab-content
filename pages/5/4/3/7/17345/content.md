@@ -154,12 +154,12 @@ The corresponding [[homology long exact sequence]], prop. \ref{HomologyLongExact
 
 We look at some concrete fundamental examples in a moment. But first it is useful to make explicit the following general sub-notion of relative homology.
 
-Let $X$ still be a given [[nLab:topological space]].
+Let $X$ still be a given [[topological space]].
 
 +-- {: .num_defn}
 ###### Definition
 
-The **[[nLab:augmentation]] map** for the [[nLab:singular homology]] of $X$ is the [[nLab:homomorphism]] of [[nLab:abelian groups]]
+The **[[augmentation]] map** for the [[singular homology]] of $X$ is the [[homomorphism]] of [[abelian groups]]
 
 $$
   \epsilon \colon C_0(X) \to \mathbb{Z}
@@ -172,7 +172,7 @@ $$
   \,.
 $$
 
-Since the [[nLab:boundary]] of a 1-chain is in the [[nLab:kernel]] of this map, by example \ref{BasicExamplesOfChainBoundaries}, it constitutes a [[nLab:chain map]]
+Since the [[boundary]] of a 1-chain is in the [[kernel]] of this map, by example \ref{BasicExamplesOfChainBoundaries}, it constitutes a [[chain map]]
 
 $$
   \epsilon \colon C_\bullet(X) \to \mathbb{Z}
@@ -186,14 +186,14 @@ where now $\mathbb{Z}$ is regarded as a chain complex concentrated in degree 0.
 +-- {: .num_defn #ReducedSingularChainComplex}
 ###### Definition
 
-The **reduced singular chain complex** $\tilde C_\bullet(X)$ of $X$ is the [[nLab:kernel]] of the augmentation map, the chain complex sitting in the [[nLab:short exact sequence]]
+The **reduced singular chain complex** $\tilde C_\bullet(X)$ of $X$ is the [[kernel]] of the augmentation map, the chain complex sitting in the [[short exact sequence]]
 
 $$
   0 \to \tilde C_\bullet(C) \to C_\bullet(X) \stackrel{\epsilon}{\to} \mathbb{Z} \to 0
   \,.
 $$
 
-The **reduced singular homology** $\tilde H_\bullet(X)$ of $X$ is the [[nLab:chain homology]] of the reduced singular chain complex
+The **reduced singular homology** $\tilde H_\bullet(X)$ of $X$ is the [[chain homology]] of the reduced singular chain complex
 
 $$
   \tilde H_\bullet(X) \coloneqq H_\bullet(\tilde C_\bullet(X))
@@ -207,7 +207,7 @@ Equivalently:
 +-- {: .num_defn}
 ###### Definition
 
-The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[nLab:chain homology]] of the [[nLab:augmentation|augmented]] chain complex
+The **reduced singular homology** of $X$, denoted $\tilde H_\bullet(X)$, is the [[chain homology]] of the [[augmentation|augmented]] chain complex
 
 $$
   \cdots \to C_2(X) \stackrel{\partial_1}{\to} C_1(X) \stackrel{\partial_0}{\to} C_0(X) \stackrel{\epsilon}{\to}
@@ -217,12 +217,12 @@ $$
 
 =--
 
-Let $X$ be a [[nLab:topological space]], $H_\bullet(X)$ its [[nLab:singular homology]] and $\tilde H_\bullet(X)$ its reduced singular homology, def. \ref{ReducedSingularChainComplex}.
+Let $X$ be a [[topological space]], $H_\bullet(X)$ its [[singular homology]] and $\tilde H_\bullet(X)$ its reduced singular homology, def. \ref{ReducedSingularChainComplex}.
 
 +-- {: .num_prop #RelationBetweenReducedSingularAndSingular}
 ###### Proposition
 
-For $n \in \mathbb{N}$ there is an [[nLab:isomorphism]]
+For $n \in \mathbb{N}$ there is an [[isomorphism]]
 
 $$
   H_n(X)
@@ -305,7 +305,7 @@ Now we can discuss the relation between reduced homology and relative homology.
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ an [[nLab:inhabited set|inhabited]] [[nLab:topological space]], its [[nLab:reduced singular homology]], def. \ref{ReducedSingularChainComplex}, coincides with its [[nLab:relative singular homology]] relative to any base point $x \colon * \to X$:
+For $X$ an [[inhabited set|inhabited]] [[topological space]], its [[reduced singular homology]], def. \ref{ReducedSingularChainComplex}, coincides with its [[relative singular homology]] relative to any base point $x \colon * \to X$:
 
 $$
   \tilde H_\bullet(X)
@@ -422,7 +422,7 @@ A [[nLab:topological subspace]] inclusion $A \hookrightarrow X$ is called a **go
 +-- {: .num_prop #HomologyOfQuotientSpace}
 ###### Proposition
 
-If $A \hookrightarrow X$ is a [[nLab:topological subspace]] inclusion which is _good_ in the sense of def. \ref{GoodPair}, then the $A$-relative singular homology of $X$ coincides with the [[nLab:reduced singular homology]], def. \ref{ReducedSingularChainComplex}, of the [[nLab:quotient space]] $X/A$: 
+If $A \hookrightarrow X$ is a [[nLab:topological subspace]] inclusion which is _good_ in the sense of def. \ref{GoodPair}, then the $A$-relative singular homology of $X$ coincides with the [[reduced singular homology]], def. \ref{ReducedSingularChainComplex}, of the [[quotient space]] $X/A$: 
 
 $$
   H_n(X/A)
@@ -719,7 +719,7 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 =--
 
-We can now discuss the _[[nLab:cellular homology]]_ of a [[nLab:CW complex]].
+We may now discuss the _[[cellular homology]]_ of a [[CW complex]].
 
 +-- {: .num_defn #CellularChainComplex} 
 ###### Definition
@@ -780,14 +780,16 @@ This means that
 
 This kind of situation -- chains that are cycles only up to lower filtering degree and boundaries that come from specified higher filtering degree -- has an evident generalization to higher relative filtering degrees. And in this greater generality the concept is of great practical relevance. Therefore before discussing cellular homology further now, we consider this more general "higher-order relative homology" that it suggests (namely the formalism of [[nLab:spectral sequences]]). After establishing a few fundamental facts about that we will come back in prop. \ref{SpectralSequenceOfCWComplex} below to analyse the above cellular situation using this conceptual tool.
 
-First we abstract the structure on chain complexes that in the above example was induced by the CW-complex structure on the [[nLab:singular chain complex]].
+In theorem \ref{CelluarEquivalentToSingularFromSpectralSequence} we conclude that cellular homology and singular homology agree of [[CW-complexes]] agres.
+
+First we abstract the structure on chain complexes that in the above example was induced by the CW-complex structure on the [[singular chain complex]].
 
 #### Filtered chain complexes
 
 +-- {: .num_defn #FilteredChainComplex}
 ###### Definition
 
-The structure of a **[[nLab:filtered chain complex]]** in a [[nLab:chain complex]] $C_\bullet$ is a sequence of [[nLab:chain map]] inclusions
+The structure of a **[[filtered chain complex]]** in a [[chain complex]] $C_\bullet$ is a sequence of [[chain map]] inclusions
 
 $$
   \cdots
@@ -799,7 +801,7 @@ $$
   \,.
 $$
 
-The **[[nLab:associated graded]] complex** of a filtered chain complex, denoted $G_\bullet C_\bullet$, is the collection of [[nLab:quotient]] chain complexes
+The **[[associated graded]] complex** of a filtered chain complex, denoted $G_\bullet C_\bullet$, is the collection of [[quotient]] chain complexes
 
 $$
   G_p C_\bullet \coloneqq F_p C_\bullet / F_{p-1} C_\bullet
@@ -815,7 +817,7 @@ We say that element of $G_p C_\bullet$ are _in filtering degree_ $p$.
 
 In more detail this means that
 
-1. $[\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to} C_{n-1} \to \cdots]$ is a [[nLab:chain complex]], hence $\{C_n\}$ are [[nLab:objects]] in $\mathcal{A}$ ($R$-[[nLab:modules]]) and $\{\partial_n\}$ are [[nLab:morphisms]] (module [[nLab:homomorphisms]]) with $\partial_{n+1} \circ \partial_{n} = 0$;
+1. $[\cdots \stackrel{\partial_{n}}{\to} C_n \stackrel{\partial_{n-1}}{\to} C_{n-1} \to \cdots]$ is a [[chain complex]], hence $\{C_n\}$ are [[objects]] in $\mathcal{A}$ ($R$-[[nLab:modules]]) and $\{\partial_n\}$ are [[nLab:morphisms]] (module [[nLab:homomorphisms]]) with $\partial_{n+1} \circ \partial_{n} = 0$;
 
 1. For each $n \in \mathbb{Z}$ there is a [[nLab:filtered object|filtering]] $F_\bullet C_n$ on $C_n$ and all these filterings are compatible with the [[nLab:differentials]] in that 
 
@@ -1419,10 +1421,10 @@ By straightforward and immediate analysis of the definitions.
 
 As a result of these general considerations we now obtain the promised isomorphism between the cellular homology and the singular homology of a CW-complex $X$:
 
-+-- {: .num_cor #CelluarEquivalentToSingularFromSpectralSequence} 
-###### Corollary
++-- {: .num_theorem #CelluarEquivalentToSingularFromSpectralSequence} 
+###### Theorem
 
-For $X \in $ [[nLab:Top]] a [[nLab:CW complex]], def. \ref{CWComplex}, its [[nLab:cellular homology]], def. \ref{CellularChainComplex} $H^{CW}_\bullet(X)$ coincides with its singular homology $H_\bullet(X)$, def. \ref{SingularHomology}:  
+For $X \in $ [[Top]] a [[CW complex]], def. \ref{CWComplex}, its [[cellular homology]], def. \ref{CellularChainComplex} $H^{CW}_\bullet(X)$ coincides with its [[singular homology9] $H_\bullet(X)$:  
 
 $$ 
   H^{CW}_\bullet(X) \simeq H_\bullet(X)
