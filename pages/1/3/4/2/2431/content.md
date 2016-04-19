@@ -373,13 +373,45 @@ $$
      \left(
         \underset{{i \in I,} \atop {\gamma \in K_i}}{\sqcup} S_i
      \right)
-     \longrightarrow
+     \overset{(\gamma)_{{i \in I} \atop {\gamma\in K_i}}}{\longrightarrow}
      X_n
   \right)
   \,.
 $$
 
-Then by the assumption that $F$ takes this homotopy cokernel to a [[weak limit|weak]] [[fiber]] (as in remark \ref{WeakPullbacks}), there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$. 
+Then by the assumption that $F$ takes this homotopy cokernel to a [[weak limit|weak]] [[fiber]] (as in remark \ref{WeakPullbacks}), there exists an extension $\eta_{n+1}$ of $\eta_n$ along $X_n \to X_{n+1}$:
+
+$$
+  \array{
+    \left(
+      \underset{{i \in I}\atop {\gamma \in K_i}}{\sqcup} S_i
+    \right)
+    &\overset{(\gamma)_{{i \in I}\atop \gamma \in K_i}}{\longrightarrow}&
+    X_n
+    &\overset{\eta_n}{\longrightarrow}& F
+    \\
+    \downarrow &(po^{h})& \downarrow & \nearrow_{\mathrlap{\exists \eta_{n+1}}}
+    \\
+    \ast &\longrightarrow& X_{n+1}
+  }
+  \;\;\;\;\;\;\;\;\;\;\;
+  \Leftrightarrow
+  \;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    && F(X_{n+1}) &\longrightarrow& \ast 
+    \\
+    &{}^{\mathllap{\exists \eta_{n+1}}}\nearrow& \downarrow^{\mathrlap{epi}} && \downarrow
+    \\
+    \ast &\overset{\eta_n}{\longrightarrow}& ker\left((\gamma^\ast\right)_{{i \in I} \atop {\gamma \in K_i}}) &\longrightarrow& \ast 
+    \\
+    &{}_{\mathllap{\eta_n}}\searrow& \downarrow &(pb)& \downarrow
+    \\
+    && F(X_n)
+    &\underset{(\gamma^\ast)_{{i \in I} \atop {\gamma \in K_i}} }{\longrightarrow}&
+    \underset{{i \in I}\atop {\gamma\in K_i}}{\prod}F(S_i)
+  }
+  \,.
+$$
 
 It is now clear that we want to take
 
