@@ -644,7 +644,7 @@ This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #MayerVietorisSequenceInGeneralizedCohomology}
 ###### Proposition
 **([[Mayer-Vietoris sequence]])**
 
