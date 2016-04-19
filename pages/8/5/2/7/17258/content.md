@@ -13,6 +13,11 @@
 * table of contents
 {:toc}
 
++-- {: .rightHandSide}
+> Historiquement parlant, ces pages ont une grande importance. Toute la math&#233;matique de la parent&#233; qui s'est beaucoup d&#233;velopp&#233;e depuis en est sortie. Et cela continue.[^LS]
+=--
+
+[^LS]: L&#233;vi-Strauss on [Weil (1949)](#Weil49) quoted from C. L&#233;vi-Strauss, D. Eribon, _De pr&#232;s et de loin_ , Odile Jacob Paris (1990, p.78).
 
 ## Idea
 
