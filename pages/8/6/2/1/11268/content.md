@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+#### Logic
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,8 +21,7 @@
 ## Idea
 
 
-
-Various [[diagonal arguments]], such as those found in the proofs of the [[halting theorem]], [[Cantor's theorem]], and [[Gödel]]'s [[incompleteness theorem]], are all instances of the _Lawvere fixed point theorem_, which says that for any [[cartesian closed category]], if there is a suitable notion of [[epimorphism]] from some [[object]] $A$ to the [[exponential object]]/[[internal hom]] from $A$ into some other object $B$
+Various [[diagonal arguments]], such as those found in the proofs of the [[halting theorem]], [[Cantor's theorem]], and [[Gödel]]'s [[incompleteness theorem]], are all instances of the _Lawvere fixed point theorem_ ([Lawvere 69](#Lawvere69)), which says that for any [[cartesian closed category]], if there is a suitable notion of [[epimorphism]] from some [[object]] $A$ to the [[exponential object]]/[[internal hom]] from $A$ into some other object $B$
 
 $$
   A \longrightarrow B^A
