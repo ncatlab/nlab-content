@@ -20,7 +20,7 @@
 
 ## Idea 
 
-A realizability topos is a [[topos]] which embodies the [[realizability interpretation]] of [[intuitionistic mathematics|intuitionistic]] [[number theory]] (due to Kleene) as part of its [[internal logic]]. Realizability toposes form an important class of toposes that are not [[Grothendieck toposes]], and don't even have a [[geometric morphism]] to [[Set]].
+A realizability topos is a [[topos]] which embodies the [[realizability interpretation]] of [[intuitionistic mathematics|intuitionistic]] [[number theory]] (due to Kleene) as part of its [[internal logic]]. Realizability toposes form an important class of [[elementary toposes]] that are not [[Grothendieck toposes]], and don't even have a [[geometric morphism]] to [[Set]].
 
 The input datum for forming a realizability topos is a [[partial combinatory algebra]], or PCA. 
 
@@ -113,49 +113,6 @@ A characterization of realizability toposes analogous to the [[Giraud axioms]] f
 
 * {#Frey14} [[Jonas Frey]], _A Characterization of Realizability Toposes_ ([arXiv:1404.6997](http://arxiv.org/abs/1404.6997))
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 [[!redirects realizability topos]]
 [[!redirects realizability topoi]]
