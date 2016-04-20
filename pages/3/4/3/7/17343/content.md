@@ -19,7 +19,7 @@ $\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
 
 $\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
 
-[Lecture](#Introduction) and [Seminar](#ComplexOrientedCohomology)
+[[Introduction to Stable homotopy theory|Lecture]] and [[Introduction to Stable homotopy theory -- S|Seminar]]
 
 =--
 
@@ -36,9 +36,16 @@ $\,$
 
 Lecture notes.
 
-Main page: _[[Introduction to Stable homotopy theory]]_.
+Main page: _[[Introduction to Stable homotopy theory]]_
+
+This section: _Prelude -- Classical homotopy theory_
+
+Next section: _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_
+
 
 ***
+
+$\,$
 
 
 #Contents#
@@ -680,7 +687,7 @@ Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
 
 * every [[topological manifold]];
 
-* every [[CW-complex]]; 
+* every [[CW-complex]] (def. \ref{TopologicalCellComplex}); 
 
 * every [[first countable space]]
 
@@ -6804,6 +6811,8 @@ $$
 
 on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
 
+In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $X^{I_+}$.
+
 The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
 
 $$
@@ -8235,6 +8244,65 @@ and regarded as a path space object of $X$ by further comoposing with $(pr_1,pr_
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+There is a conceptual way to understand prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} as follows: 
+If we draw double arrows to indicate [[homotopies]], then a [[homotopy fiber]] (def. \ref{HomotopyFiber}) is depicted by the following filled square:
+
+$$
+  \array{
+    hofib(f) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    X &\underset{f}{\longrightarrow}& Y
+  }
+$$
+
+just like the ordinary [[fiber]] (def. \ref{FiberAndCofiberInPointedObjects}) is given by a plain square
+
+$$
+  \array{
+    fib(f) &\longrightarrow& \ast
+    \\
+    \downarrow && \downarrow
+    \\
+    X &\underset{f}{\longrightarrow}& Y
+  }
+  \,.
+$$
+
+One may show that just like the fiber is the _universal_ solution to making such a commuting square (a [[pullback]] [[limit|limit cone]] def. \ref{LimitsAndColimits}), so the homotopy fiber is the universal solution up to homotopy to make such a commuting square up to homotopy -- a [[homotopy pullback]] [[homotopy limit|homotopy limit cone]].
+
+Now just like ordinary [[pullbacks]] satisfy the [[pasting law]] saying that attaching two pullback squares gives a pullback rectangle, the analogue is true for homotopy pullbacks. This implies that if take the homotopy fiber of a homotopy fiber, thereby producing this double homotopy pullback square
+
+$$
+  \array{
+    hofib(g) &\longrightarrow& hofib(f) &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow^{\mathrlap{g}} &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& X &\underset{f}{\longrightarrow}& Y
+  }
+$$
+
+then the total outer rectangle here is itself a homotopy pullback. But the outer rectangle exhibits the homotopy fiber of the point inclusion, which, via def. \ref{SuspensionAndLoopSpaceObject} and lemma \ref{FactorizationLemma}, is the [[loop space object]]:
+
+$$
+  \array{
+    \Omega Y &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& Y
+  }
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop #LongFiberSequence}
 ###### Proposition
 
@@ -8278,8 +8346,6 @@ Let $\mathcal{C}$ be a model category and let $f \colon X \to Y$ be morphism in 
    $$ 
 
    of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
-
-   For $A = \ast$ this is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
 
 1. Dually, there is a long sequence to the right in $\mathcal{C}^{\ast/}$ of the form
 
@@ -8339,244 +8405,79 @@ In ([Quillen 67, I.3, prop. 3, prop. 4](#Quillen67)) more is shown than stated i
 =--
 
 
-+-- {: .num_remark }
-###### Remark
++-- {: .num_example #LongExactSequeceOfHomotopyGroups}
+###### Example
 
-These long exact sequences of homotopy groups play the key role below in the [unrolled exact couple of a filtered spectrum](#UnrolledExactCoupleOfAFiltrationOnASpectrum).
-
-=--
-
-
-(...)
-
-Some comments on how this comes about more conceptually:
-
-Given a morphism $f \colon A \longrightarrow B$ there is the following pasting composite of [[homotopy fibers]]
+Let $\mathcal{C} = Top_{Quillen}$ be the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}. Then using the  standard topological path space objects $X^I$ from def. \ref{TopologicalPathSpace} as the abstract path space objects in def. \ref{PathAndCylinderObjectsInAModelCategory}, via prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}, or rather the pointed version $X^{I_+}$ from example \ref{PointedMappingSpace}, gives that
 
 $$
-  \array{
-    \cdots && \vdots
-    \\
-    && \downarrow && \downarrow
-    \\
-    && \Omega ker(f) &\longrightarrow& \Omega A &\longrightarrow& \ast
-    \\
-    && \downarrow &\swArrow& \downarrow &\swArrow& \downarrow
-    \\
-    && \ast &\longrightarrow& \Omega B &\stackrel{}{\longrightarrow}& ker(f) &\longrightarrow& \ast
-    \\
-    && && \downarrow &\swArrow& \downarrow^{\mathrlap{g}} &\swArrow& \downarrow
-    \\
-    && && \ast &\longrightarrow& A &\stackrel{f}{\longrightarrow}& B
-  }
+  [\ast, \Omega^n X] \simeq \pi_n(X)
 $$
 
+is the $n$th [[homotopy group]], def. \ref{HomotopyGroupsOftopologicalSpaces}, of $X$ at its basepoint.
 
-hence a long [[homotopy fiber sequence]] of morphisms 
-
-$$
-  \cdots
-    \to
-  \Omega ker(f)
-    \longrightarrow
-  \Omega A 
-    \stackrel{\Omega f}{\longrightarrow}
-  \Omega B 
-    \longrightarrow 
-  ker(f) 
-    \stackrel{g}{\longrightarrow}
-  A 
-    \stackrel{f}{\longrightarrow} B
-  \,.
-$$
-
-+-- {: .num_remark}
-###### Remark
-
-A subtlety to be aware of here is that $\Omega B$ is not quite $ker(ker(f))$, but the latter instead is $\bar \Omega f$, where $\bar \Omega$ denotes loops with reversed orientation.
-
-A classical discussion of this in terms of computing homotopy fibers via [[path space object]] fibrant replacements is e.g. in
-([Switzer 75, around 2.57](#Switzer75)). But let's see it abstractly:
-
-First observe that it is indeed $\Omega f$ and not $\bar \Omega f$ that appears in the above: by "bending around" the bottom left "$\ast \to $" we get
+Hence using $A = \ast$ in the first item of prop. \ref{LongFiberSequence}, the [[long exact sequence]] this gives is of the form
 
 $$
-  \array{
-    \Omega A &\longrightarrow& \ast
-    \\
-    \downarrow^{\mathrlap{\Omega f}} && \downarrow
-    \\
-    \Omega B & \longrightarrow & ker(f) &\longrightarrow& \ast
-    \\
-    \downarrow && \downarrow^{\mathrlap{g}} && \downarrow
-    \\
-    \ast &\longrightarrow & A &\stackrel{f}{\longrightarrow}& B
-  }
-  \;\;\;\;\;
-  \simeq  
-  \;\;\;\;\;
-  \left(
-  \array{
-    \ast &\longrightarrow& \ast
-    \\
-    \downarrow && \downarrow
-    \\
-    ker(f) &\longrightarrow& \ast
-    \\
-    \downarrow^{\mathrlap{g}} && \downarrow
-    \\
-    A &\stackrel{f}{\longrightarrow}& B
-    \\
-    \uparrow && \uparrow
-    \\
-    \ast &\longrightarrow& \ast
-  }
-  \right)
-  \stackrel{\underset{\longleftarrow}{\lim}}{\mapsto}
-  \left(
-    \Omega A \stackrel{\Omega f}{\longrightarrow} \Omega B
-  \right)
-  \,.
-$$
-
-On the other hand, if we define the homotopy fiber of any morphism $\phi$ by the diagram
-
-$$
-  \array{
-    ker(\phi) &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    & \stackrel{\phi}{\longrightarrow} & 
-  }
-$$
-
-then $ker(g)$ is given by the diagram
-
-$$
-  \array{
-    ker(g) &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    ker(f) &\stackrel{g}{\longrightarrow}& A
-  }
-$$
-
-but what appears in the above pasting diagram is instead this diagram "reflected at the diagonal axis"
-
-$$
-  \array{
-    ker(g) &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    ker(f) &\stackrel{g}{\longrightarrow}& A
-  }
-  \;\;\;
-  \simeq
-  \;\;\;
-  \array{
-    \Omega B &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    ker(f) &\stackrel{g}{\longrightarrow}& A
-  }
-  \;\;\;\;
-  \simeq
-  \;\;\;\;
-  \left(
-  \array{
-    \Omega B &\longrightarrow& ker(f)
-    \\
-    \downarrow &\swArrow& \downarrow
-    \\
-    \ast &\longrightarrow& A
-  }
-  \right)^{-1}
-$$
-
-Here "$(-)^{-1}$" denotes the inverse of the [[2-morphism]] ([[homotopies]]). Since it is these 2-morphisms/homotopies that become the loops in the loop space, it is here that loop reversal appears in translating between the naive iterated homotopy fiber to the construction that actually appears in the above pasting composite.
-
-=--
-
-By the [[universal property]] of the homotopy pullback:
-
-If
-
-$$
-  ker(f) \stackrel{g}{\longrightarrow} A \stackrel{f}{\longrightarrow} B
-$$
-
-is a [[homotopy fiber sequence]], then its image under the 0th [[simplicial homotopy group]] functor, def. \ref{UnderlyingSetsOfSimplicialHomotopyGroups},
-
-$$
-  \pi_0(ker(f)) 
-    \stackrel{\pi_0(g)}{\longrightarrow}
-  \pi_0(A)
-    \stackrel{\pi_0(f)}{\longrightarrow}
-  \pi_0(B)
-$$
-
-is an [[exact sequence]].
-
-
-Applying this to a long [[homotopy fiber sequence]]
-
-$$
-  \cdots
-    \to
-  \Omega ker(f)
-    \longrightarrow
-  \Omega A 
-    \stackrel{\Omega f}{\longrightarrow}
-  \Omega B 
-    \longrightarrow 
-  ker(f) 
-    \stackrel{g}{\longrightarrow}
-  A 
-    \stackrel{f}{\longrightarrow} B
-  \,.
-$$
-
-yields a [[long exact sequence]] (of groups, ending in pointed sets)
-
-$$
-  \cdots
+   \cdots
   \to
-  \pi_{n+1}(B)
-    \stackrel{\delta}{\longrightarrow}
-  \pi_n(ker(f))
-    \stackrel{g_\ast}{\longrightarrow}
-  \pi_n(A)
-    \stackrel{f_\ast}{\longrightarrow}
-  \pi_n(B)
-    \stackrel{\delta}{\longrightarrow}
-  \pi_{n-1}(ker(f))
-    \to
-  \cdots
+  \pi_3(X)
+   \overset{f_\ast}{\longrightarrow}
+  \pi_3(Y)
+   \longrightarrow
+  \pi_2(hofib(f))
+   \overset{}{\longrightarrow}
+  \pi_2(X)
+   \overset{f_\ast}{\longrightarrow}
+  \pi_2(Y)
+   \longrightarrow
+  \pi_1(hofib(f))
+   \overset{}{\longrightarrow}
+  \pi_1(X)
+    \overset{f_\ast}{\longrightarrow}
+  \pi_1(Y)
+   \overset{}{\longrightarrow}
+  \ast
+  \,.
 $$
 
+
+This is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
+
+As we pass to [[stable homotopy theory]] (in [[Introduction to Stable homotopy theory -- 1|Part 1)]]), these sequences become long not just to the left, but also to the right. Given then a [[tower of fibrations]], then there is an induced sequence of such long exact sequences of homotopy groups, which organizes into an _[[exact couple]]_. For more on this see at _[[Introduction to Stable homotopy theory -- I|Interlude) Spectral sequences]]_ [this remark](Introduction+to+Stable+homotopy+theory+--+I#UnrolledExactCoupleOfAFiltrationOnASpectrum).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let again $\mathcal{C} = Top_{Quillen}$ be the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, as in example \ref{LongExactSequeceOfHomotopyGroups}. For $E \in Top^{\ast/}$ any [[pointed topological space]] and $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, the exactness of the sequence in the second item of prop. \ref{LongFiberSequence}
+
 $$
-  \cdots 
-    \to
-  \pi_1(B) 
-    \stackrel{\delta}{\longrightarrow}
-  \pi_0(ker(f)) 
-    \stackrel{g_\ast}{\longrightarrow} 
-  \pi_0(A) 
-    \stackrel{f_\ast}{\longrightarrow}
-  \pi_0(B)
+  \cdots \to [hocofib(i,)E] \longrightarrow [X,E]_\ast \longrightarrow [A,E]_\ast \to \cdots
 $$
 
-called the _[[long exact sequence of homotopy groups]]_. associated with $f$.
-Here $\delta$ is called the _[[connecting homomorphism]]_.
+gives that the functor
+
+$$
+  [-,E]_\ast 
+  \;\colon\;
+  (Top^{\ast/}_{CW})^{op}
+  \longrightarrow
+  Set^{\ast/}
+$$
+
+behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+--+S#WedgeAxiom) [[reduced cohomology theory]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomology)). The [[Brown representability theorem]] ([thm.](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityTraditional)) implies that all additive reduced cohomology theories are degreewise representable this way ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)).
+
+=--
+
+
+
 
 
 ### The $(\Sigma \dashv \Omega)$-adjunction
 
-We conclude here with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
+We conclude this discussion of classical homotopy theory with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
 
 +-- {: .num_defn #ClassicalModelStructureOnPointedTopologicalSpaces}
 ###### Definition
@@ -8757,7 +8658,7 @@ What is called _[[stable homotopy theory]]_ is the result of universally forcing
 
 =--
 
-This is the topic of the next section at_[[Introduction to Stable homotopy theory -- 1]]_.
+This is the topic of the next section at _[[Introduction to Stable homotopy theory -- 1]]_.
 
 
 ## References
