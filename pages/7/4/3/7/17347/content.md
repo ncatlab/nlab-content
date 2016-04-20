@@ -2080,7 +2080,7 @@ If for each bidegree $(s,t)$ there exists $R \gg 1$ such that for all $r \geq R$
 
 1. $g \colon D^{s+R,t-R} \stackrel {\simeq}{\longrightarrow} D^{s+R -1, t-R-1}$;
 
-1. $g\colon D^{s-R+1, t+R-2} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
+1. $g\colon D^{s-R+1, t+R-1} \stackrel{0}{\longrightarrow} D^{s-R,t+R-1}$ 
 
 then this spectral sequence converges to the [[inverse limit]] group
 
@@ -2165,7 +2165,7 @@ $$
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}) such that its value $A^\bullet(\ast)$ on the point is bounded below in degree. Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}). Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
 
 $$
   \array{
@@ -2227,7 +2227,6 @@ $$
   }
   \;\;\;\;\;\;\;
   \left(
-    $$
       \array{
         A^{s+t}(X_s) & \longrightarrow & A^{s+t}(X_{s-1})
         \\
@@ -2235,7 +2234,6 @@ $$
         \\
         A^{s+t}(X_s, X_{s-1}) && A^{s+t+1}(X_{s}, X_{s-1})
       }
-    $$  
   \right)
   \,,
 $$
@@ -2288,7 +2286,7 @@ $$
     \\
     & \simeq \underset{\sigma \in C(s)}{\prod} A^t(F)
     \\
-    & \simeq C^n(B,A^t(F))
+    & \simeq C^s_{cell}(B,A^t(F))
   \end{aligned}
   \,,
 $$
@@ -2296,7 +2294,7 @@ $$
 where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}, 
 then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. 
 
-The last group appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
+The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
 
 Hence to conclude, it remains to show that on this group the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
 
@@ -2308,12 +2306,12 @@ $$
   \array{
     \partial^\ast
      \colon
-    & C^{s-1}(X,A^t(\ast))
+    & C^{s-1}_{cell}(X,A^t(\ast))
       & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
       && \longrightarrow &&
     \underset{i \in I_s}{\prod} A^t(\ast)
     & = & 
-    C^{s}(X,A^t(\ast))
+    C_{cell}^{s}(X,A^t(\ast))
     \\
     && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
     \\
@@ -2334,7 +2332,7 @@ $$
     \downarrow && \downarrow && \downarrow
     \\
     && & 
-    A^{s+1-1}(S^{s-1}, \emptyset)
+    A^{s+t-1}(S^{s-1}, \emptyset)
       &\overset{}{\longrightarrow}&
     A^{s+t-1}(S^{s-1})
       &\overset{\delta}{\longrightarrow}&
