@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -176,10 +175,6 @@ This self-duality figures in Tate's thesis; for more, see [[ring of adeles]].
 * [[p-adic homotopy]]
 
 * [[p-adic cohomology]]
-
-* [[p-adic physics]]
-
-  * [[p-adic string theory]]
 
 ## References
  {#References}
