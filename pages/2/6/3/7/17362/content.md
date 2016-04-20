@@ -26,9 +26,18 @@ The reverse process to expressions in the more formal language is sometimes know
 
 ## Examples
 
-* In a set theory where [[classes]] are not "first-class objects" (for example [[ZFC]], but not [[NBG]]), classes are only syntactic sugar and have no independent existence. For instance, if one defines a class $M \coloneqq \{ X | \varphi(X) \}$ by [[comprehension]], then "$X \in M$" is syntactic sugar for "$\varphi(X)$".
 
-* In [[formal linguistics]], natural language versions of formal expressions are described as 'sugarings' (Ranta 1994). Often there are many ways to sugar a formal expression into natural language. 
++-- {: .num_example}
+###### Example
+
+In a [[set theory]] where [[classes]] are not "first-class objects" (for example [[ZFC]], but not [[NBG]]), classes are only syntactic sugar and have no independent existence. For instance, if one defines a class $M \coloneqq \{ X | \varphi(X) \}$ by [[comprehension]], then "$X \in M$" is syntactic sugar for "$\varphi(X)$".
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In [[formal linguistics]], natural language versions of formal expressions are described as 'sugarings' (Ranta 1994). Often there are many ways to sugar a formal expression into natural language. 
 
 Consider the [[type theory|type theoretic]] expression $\sum_{x: man} \sum_{y: donkey} (x\;owns\; y)$. Ranta (1994, p. 68) gives nine natural language sugarings for it by applying three different operations twice:
 
@@ -42,6 +51,7 @@ Consider the [[type theory|type theoretic]] expression $\sum_{x: man} \sum_{y: d
 * there is a man who owns a donkey,
 * there is a man such that there is a donkey that he owns.
 
+=--
 
 
 ## References
