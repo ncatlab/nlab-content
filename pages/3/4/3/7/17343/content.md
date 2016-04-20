@@ -2903,14 +2903,34 @@ where $Cyl(X) \to X$ is a weak equivalence. and $X \sqcup X \to Cyl(X)$ is a cof
 +-- {: .num_remark #RemarkOnChoicesOfNonGoodPathAndCylinderObjects}
 ###### Remark
 
-The terminology in def. \ref{PathAndCylinderObjectsInAModelCategory} follows ([Quillen 67, I.1 def. 4](#Quillen67)). Some authors use extra adjectives to distinguish the following slight variants of this definition:
+For every object $X \in \mathcal{C}$ in a model category, a cylinder object and a path space object according to def. \ref{PathAndCylinderObjectsInAModelCategory} exist: the factorization axioms guarantee that there exists
 
-1. One might require just that $Cyl(X) \overset{\in W}{\to} X$ and $X \overset{\in W}{\to} Path(X)$. In this case the terminology best matches the classical situation for the standard topological cylinder $X\times [0,1]$ from def. \ref{TopologicalInterval} (by prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}). But in the [[classical model structure on topological spaces]] which we establish below (theorem \ref{TopQuillenModelStructure}), the standard cylinder $X \times I$ is a cylinder object in the stronger sense of prop. \ref{PathAndCylinderObjectsInAModelCategory} only if $X$ is at least a [[CW-complex]] (this is shown as prop. \ref{StandardContractionOfStandardInterval} below).
+1. a factorization of the [[codiagonal]] as
 
-1. Adding the requirement that $X \sqcup X \overset{\in Cof}{\to} Cyl(X)$ and that $Path(X) \overset{\in Fib}{\to} X\times X$ that we do assume in def. \ref{PathAndCylinderObjectsInAModelCategory} is referred to by some authors as "good cylinder obects" and "good path space objects".
+   $$
+     \nabla_X \;\colon\; X \sqcup X \overset{\in Cof}{\longrightarrow} Cyl(X) \overset{\in W \cap Fib}{\longrightarrow} X
+   $$
 
-1. Adding the further requirement that moreover $Cyl(X) \overset{\in W \cap Fib}{\to} X$ and $X \overset{W \cap Cof}{\to} Cyl(X)$ is accordingly sometimes referred to as "very good cylinder objects" and "very good path space objects".  By the factorization axioms, every object in a [[model category]], def. \ref{ModelCategory}, has very good cylinder and very good path space objects in this sense. However, the "good" concept from def. \ref{PathAndCylinderObjectsInAModelCategory} is sufficient for the theory to go through well, and some crucial constructions only preserve "good" but not "very good" cylinder/path-space objects, for instance left and right Quillen functors (this is lemma \ref{LeftRightQuillenFunctorsPreserveCyclinderPathSpaceObjects} below).
+1. a factorization of the diagonal as
 
+   $$
+     \Delta_X 
+       \;\colon\;
+     X
+      \overset{\in W \cap Cof}{\longrightarrow}
+     Path(X)
+      \overset{\in Fib}{\longrightarrow}
+     X \times X
+     \,.
+   $$
+
+The cylinder and path space objects obtained this way are actually better than required by def. \ref{PathAndCylinderObjectsInAModelCategory}: in addition to $Cyl(X)\to X$ being just a weak equivalence, for these this is actually an acyclic fibration, and dually in addition to $X\to Path(X)$ being a weak equivalence, for these it is actually an acyclic cofibrations.
+
+Some authors call cylinder/path-space objects with this extra property "very good" cylinder/path-space objects, respectively.
+
+One may also consider dropping a condition in def. \ref{PathAndCylinderObjectsInAModelCategory}: what mainly matters is the weak equivalence, hence some authors take cylinder/path-space objects to be defined as in def. \ref{PathAndCylinderObjectsInAModelCategory} but without the condition that $X \sqcup X\to Cyl(X)$ is a cofibration and without the condition that $Path(X) \to X$ is a fibration. Such authors would then refer to the concept in def. \ref{PathAndCylinderObjectsInAModelCategory} as "good" cylinder/path-space objects.
+
+The terminology in def. \ref{PathAndCylinderObjectsInAModelCategory} follows the original ([Quillen 67, I.1 def. 4](#Quillen67)). With the induced concept of left/right homotopy below in def. \ref{LeftAndRightHomotopyInAModelCategory}, this admits a quick derivation of the key facts in the following, as we spell out below. 
 
 =--
 
@@ -2956,7 +2976,7 @@ $$
   \,.
 $$
 
-hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration.
+hence $p_i \colon Path(X)\to X \times X \to X$ is the composite of two fibrations, and hence itself a fibration, by prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}.
 
 =--
 
@@ -3022,7 +3042,7 @@ $$
   \,.
 $$
 
-* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path object]] of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
+* A **right homotopy** $\eta \colon f \Rightarrow_R g$ is a morphism $\eta \colon X \to Path(Y)$ to some [[path space object]] of $X$, def. \ref{PathAndCylinderObjectsInAModelCategory}, such that this [[commuting diagram|diagram commutes]]:
 
 $$
   \array{
@@ -3044,7 +3064,7 @@ $$
 
 Let $f,g \colon X \to Y$ be two [[parallel morphisms]] in a [[model category]]. 
 
-1. Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path object.
+1. Let $X$ be cofibrant. If there is a [[left homotopy]] $f \Rightarrow_L g$ then there is also a [[right homotopy]] $f \Rightarrow_R g$ (def. \ref{LeftAndRightHomotopyInAModelCategory}) with respect to any chosen path space object.
 
 1. Let $X$ be fibrant. If there is a [[right homotopy]] $f \Rightarrow_R g$ then there is also a [[left homotopy]] $f \Rightarrow_L g$ with respect to any chosen cylinder object. 
 
@@ -3171,7 +3191,7 @@ For postcomposition we may choose to exhibit homotopy by left homotopy and argue
 
 =--
 
-We now spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfies the [[universal property]] that defines the [[homotopy category]] of a [[category with weak equivalences]].
+We now spell out that def. \ref{HomotopyCategoryOfAModelCategory} indeed satisfies the [[universal property]] that defines the [[localization]] of a [[category with weak equivalences]] at its weak equivalences.
 
 +-- {: .num_lemma #WhiteheadTheoremInModelCategories}
 ###### Lemma
@@ -3319,7 +3339,7 @@ $$
   \,.
 $$
 
-Hence also the composites $j_{Q Y}\circ (Q_f)_i $ are [[left homotopy|left homotopic]] to each other, and since their domain is cofibrant, they are also [[right homotopy|right homotopic]] (via [this](homotopy+in+a+model+category#LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually) lemma) by a right homotopy $\kappa$. This implies finally, by lifting in
+Hence also the composites $j_{Q Y}\circ (Q_f)_i $ are [[left homotopy|left homotopic]] to each other, and since their domain is cofibrant, then by lemma \ref{LeftHomotopyWithCofibrantDomainImpliesRightHomotopyAndDually} they are also [[right homotopy|right homotopic]] by a right homotopy $\kappa$. This implies finally, by lifting in
 
 $$
   \array{
@@ -3388,27 +3408,35 @@ Such $\eta$ is called a _[[natural isomorphism]]_ if its $\eta_c$ are [[isomorph
 +-- {: .num_defn #HomotopyCategoryOfACategoryWithWeakEquivalences}
 ###### Definition
 
-For $\mathcal{C}$ a [[category with weak equivalences]], its **[[homotopy category]]** $Ho(\mathcal{C})$ (or: "[[localization]] at the weak equivalences" $\mathcal{C}[W^{-1}]$) is, if it exists, a [[category]] $Ho(\mathcal{C})$ equipped with a [[functor]] 
+For $\mathcal{C}$ a [[category with weak equivalences]], its  **[[localization]] at the weak equivalences** is, if it exists, 
 
-$$
-  \gamma \;\colon\; \mathcal{C} \longrightarrow Ho(C)
-$$ 
+1. a [[category]] denoted $\mathcal{C}[W^{-1}]$ 
 
-which sends weak equivalences to [[isomorphisms]], and which is [[universal property|universal with this property]], in that:
+1. a [[functor]] 
 
-for $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] out of $\mathcal{C}$ into any [[category]] $D$, such that $F$ takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]] $\rho$
+   $$
+     \gamma \;\colon\; \mathcal{C} \longrightarrow \mathcal{C}[W^{-1}]
+   $$ 
 
-$$
-  \array{
-    \mathcal{C} && \overset{F}{\longrightarrow} && D
-    \\
-    & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
-    \\
-    && Ho(\mathcal{C})
-  }
-$$
+such that
 
-and this factorization is unique up to unique isomorphism, in that for $(\tilde F_1, \rho_1)$ and $(\tilde F_2, \rho_2)$ two such factorizations, then there is a unique [[natural isomorphism]] $\kappa \colon \tilde F_1 \Rightarrow \tilde F_2$ making the evident diagram of natural isomorphisms commute.
+1. $\gamma$ sends weak equivalences to [[isomorphisms]];
+
+1. $\gamma$ is [[universal property|universal with this property]], in that:
+
+   for $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] out of $\mathcal{C}$ into any [[category]] $D$, such that $F$ takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]] $\rho$
+
+   $$
+     \array{
+       \mathcal{C} && \overset{F}{\longrightarrow} && D
+       \\
+       & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
+       \\
+       && Ho(\mathcal{C})
+     }
+   $$
+
+   and this factorization is unique up to unique isomorphism, in that for $(\tilde F_1, \rho_1)$ and $(\tilde F_2, \rho_2)$ two such factorizations, then there is a unique [[natural isomorphism]] $\kappa \colon \tilde F_1 \Rightarrow \tilde F_2$ making the evident diagram of natural isomorphisms commute.
 
 =--
 
@@ -3416,7 +3444,18 @@ and this factorization is unique up to unique isomorphism, in that for $(\tilde 
 +-- {: .num_theorem #UniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Theorem
 
-For $\mathcal{C}$ a [[model category]], the functor $\gamma_{P,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $P$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]], in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}. 
+For $\mathcal{C}$ a [[model category]], the functor $\gamma_{P,Q}$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $P$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[localization]] of the underlying [[category with weak equivalences]] at its weak equivalences, in the sense of def. \ref{HomotopyCategoryOfACategoryWithWeakEquivalences}:
+
+$$
+  \array{
+     \mathcal{C} &=& \mathcal{C}
+     \\
+     {}^{\mathllap{\gamma_{P,Q}}}\downarrow && \downarrow^{\mathrlap{\gamma}}
+     \\
+     Ho(\mathcal{C}) &\simeq& \mathcal{C}[W^{-1}]
+  }
+  \,.
+$$
 
 =--
 
@@ -3535,7 +3574,16 @@ $$
   }
 $$
 
-for the system of [[full subcategory]] inclusions of: the [[category of cofibrant objects]] ($\mathcal{C}_c$), the [[category of fibrant objects]] ($\mathcal{C}_f$) and the category of fibrant-cofibrant objects ($\mathcal{C}_{fc}$), all regarded a [[categories with weak equivalences]] (def. \ref{CategoryWithWeakEquivalences}), via the weak equivalences inherited from $\mathcal{C}$.
+for the system of [[full subcategory]] inclusions of: 
+
+1. the [[category of fibrant objects]] $\mathcal{C}_f$ 
+
+1. the [[category of cofibrant objects]] $\mathcal{C}_c$, 
+
+1. the category of fibrant-cofibrant objects $\mathcal{C}_{fc}$, 
+
+all regarded a [[categories with weak equivalences]] (def. \ref{CategoryWithWeakEquivalences}), via the weak equivalences inherited from $\mathcal{C}$, which we write $(\mathcal{C}_f, W_f)$, $(\mathcal{C}_c, W_c)$ and $(\mathcal{C}_{f c}, W_{f c})$.
+
 
 =--
 
@@ -3544,7 +3592,7 @@ for the system of [[full subcategory]] inclusions of: the [[category of cofibran
 
 Of course the subcategories in def. \ref{FullSubcategoriesOfFibrantCofibrantObjects} inherit more structure than just that of [[categories with weak equivalences]] from $\mathcal{C}$. $\mathcal{C}_f$ and $\mathcal{C}_c$ each inherit "half" of the factorization axioms. One says that $\mathcal{C}_f$ has the structure of a "[[fibration category]]" called a "Brown-[[category of fibrant objects]]", while $\mathcal{C}_c$ has the structure of a "[[cofibration category]]".
 
-We discuss further properties of these categories of (co-)fibrant objects further below in _[Homotopy fiber sequences](#HomotopyFiberSequences)_. 
+We discuss properties of these categories of (co-)fibrant objects below in _[Homotopy fiber sequences](#HomotopyFiberSequences)_. 
 
 =--
 
@@ -3557,7 +3605,7 @@ For $\mathcal{C}$ a [[model category]], the restriction of the localization func
 
 $$
   \array{
-   && \mathcal{C}_{fc}
+   && \mathcal{C}_{f c}
    \\
    & \swarrow && \searrow
    \\
@@ -3573,16 +3621,18 @@ $$
   }
 $$
 
-exhibits $Ho(\mathcal{C})$ equivalently as the [[homotopy category]] also of these subcategories. In particular there are [[equivalences of categories]]
+exhibits $Ho(\mathcal{C})$ equivalently as the [[localization]] also of these subcategories with weak equivalences, at their weak equivalences. In particular there are [[equivalences of categories]]
 
 $$
   Ho(\mathcal{C})
+    \simeq
+  \mathcal{C}[W^{-1}]
    \simeq
-  Ho(\mathcal{C}_{f})
+  \mathcal{C}_f[W_f^{-1}]
    \simeq
-  Ho(\mathcal{C}_{c})
-   \simeq
-  Ho(\mathcal{C}_{f c})
+  \mathcal{C}_c[W_c^{-1}]
+    \simeq
+  \mathcal{C}_{f c}[W_{f c}^{-1}]
   \,.
 $$
 
@@ -3681,7 +3731,7 @@ which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after 
 +-- {: .num_defn #HomotopicalFunctor}
 ###### Definition
 
-For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, then a [[functor]] $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ is called _[[homotopical functor]]_ if it sends weak equivalences to weak equivalences.
+For $\mathcal{C}$ and $\mathcal{D}$ two [[categories with weak equivalences]], def. \ref{CategoryWithWeakEquivalences}, then a [[functor]] $F \colon \mathcal{C}\longrightarrow \mathcal{D}$ is called a **[[homotopical functor]]** if it sends weak equivalences to weak equivalences.
 
 =--
 
@@ -3917,7 +3967,7 @@ $$
     \downarrow^{\mathrlap{g\circ (-)\circ R(g)}}
     \\
     Hom_{\mathcal{C}}(L(d_2), c_2)
-     & \underoverset{\phi_{d_1,c_1}}{\simeq}{\longrightarrow} &
+     & \underoverset{\phi_{d_2, c_2}}{\simeq}{\longrightarrow} &
     Hom_{\mathcal{D}}(d_2, R(c_2))
   }
   \,.
@@ -4181,13 +4231,15 @@ Say that a [[continuous function]], hence a [[morphism]] in [[Top]], is
 
 * a (classical) **cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
 
+Write $W_{cl}$, $Fib_{cl}$ and $Cof_{cl}$ for the classes of these morphisms, respectively.
+
 =--
 
 and as usual:
 
-* an **acyclic cofibration** if it is a cofibration and a weak equivalence;
+* a (classical) **acyclic cofibration** if it is a classical cofibration and a classical weak equivalence;
 
-* an **acyclic fibration** if it is a fibration and a weak equivalence.
+* a (classical) **acyclic fibration** if it is a classical fibration and a classical weak equivalence.
 
 
 We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]].
@@ -4219,9 +4271,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{\in Cof}{\longrightarrow}
+    \stackrel{\in Cof_{cl}}{\longrightarrow}
   \hat X
-    \stackrel{\in W \cap Fib}{\longrightarrow}
+    \stackrel{\in W_{cl} \cap Fib_{cl}}{\longrightarrow}
   Y
   \,.
 $$
@@ -4239,7 +4291,7 @@ $$
   f 
   \;\colon\;
   X 
-   \stackrel{\in Cof}{\longrightarrow}
+   \stackrel{\in Cof_{cl}}{\longrightarrow}
   \hat X
    \stackrel{\in I_{Top} Inj}{\longrightarrow}
   Y
@@ -4259,9 +4311,9 @@ $$
   f
   \;\colon\;
   X 
-    \stackrel{\in W \cap Cof}{\longrightarrow}
+    \stackrel{\in W_{cl} \cap Cof_{cl}}{\longrightarrow}
   \hat X
-    \stackrel{\in Fib}{\longrightarrow}
+    \stackrel{\in Fib_{cl}}{\longrightarrow}
   Y
   \,.
 $$
@@ -4301,13 +4353,13 @@ $$
   \array{
     &\longrightarrow&
     \\
-    {}^{\mathllap{{g \in} \atop { Cof}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop Fib}}
+    {}^{\mathllap{{g \in} \atop {Cof_{cl}}}}\downarrow && \downarrow^{\mathrlap{{f \in }\atop Fib_{cl}}}
     \\
     &\longrightarrow&
   }
 $$
 
-admits a [[lift]] as soon as one of the two is also a weak equivalence.
+admits a [[lift]] as soon as one of the two is also a classical weak equivalence.
 
 
 =--
@@ -4320,7 +4372,7 @@ admits a [[lift]] as soon as one of the two is also a weak equivalence.
 **B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
 
 $$
-  g \;\colon\; \stackrel{\in J_{Top} Cell}{\longrightarrow} \stackrel{\in Fib}{\longrightarrow}
+  g \;\colon\; \stackrel{\in J_{Top} Cell}{\longrightarrow} \stackrel{\in Fib_{cl}}{\longrightarrow}
   \,,
 $$
 
@@ -4333,7 +4385,7 @@ Finally:
 +-- {: .num_prop #LiftingExhausted}
 ###### Proposition
 
-The systems $(Cof , W \cap Fib)$ and $(\W \cap Cof, Fib)$ are [[weak factorization systems]].
+The systems $(Cof_{cl} , W_{cl} \cap Fib_{cl})$ and $(W_{cl} \cap Cof_{cl}, Fib_{cl})$ from def. \ref{ClassesOfMorhismsInTopQuillen} are [[weak factorization systems]].
 
 =--
 
@@ -4342,20 +4394,20 @@ The systems $(Cof , W \cap Fib)$ and $(\W \cap Cof, Fib)$ are [[weak factorizati
 
 We have already seen the factorization and the lifting property, it remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
 
-For the fibrations this is by definition, for the the acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
+For the classical fibrations this is by definition, for the the classical acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
-The remaining statement for $Cof$ and $W\cap Cof$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]]:
+The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]]:
 
-So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract of a relative cell complex. To that end, apply the [[small object]] argument to factor $f$ as 
+So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument to factor $f$ as 
 
 $$
   f \;\colon \; X \overset{}{\longrightarrow} \hat Y \overset{\in I Inj}{\longrightarrow} Y
   \,.
 $$
 
-It follows that $f$ has the left lefting property again $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \to \hat Y$. This proves the claim for $Cof$.
+It follows that $f$ has the [[left lifting property]] against $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \to \hat Y$. This proves the claim for $Cof_{cl}$.
 
-The argument for $W \cap Cof$ is analogous, using the [[small object argument]] now for $J_{Top}$.
+The argument for $W_{cl} \cap Cof_{cl}$ is directly analogous, using the [[small object argument]] now for $J_{Top}$.
 
 
 =--
@@ -4368,11 +4420,11 @@ In conclusion:
 
 The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuillen},
 
-* $W = $ [[weak homotopy equivalences]],
+* $W_{cl} = $ [[weak homotopy equivalences]],
 
-* $F = $ [[Serre fibrations]] 
+* $Fib_{cl} = $ [[Serre fibrations]] 
 
-* $C = $ [[retracts]] of [[relative cell complexes]]
+* $Cof_{cl} = $ [[retracts]] of [[relative cell complexes]]
 
 define a [[model category]] structure, $Top_{Quillen}$, the **[[classical model structure on topological spaces]]** or **Serre-Quillen model structure**.
 
@@ -4679,7 +4731,7 @@ $$
 ###### Proof
 
 
-By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since may restrict to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
+By the statement of their existence (prop. \ref{LoopingAsFunctorOnHomotopyCategory}) we may represent $\Sigma$ and $\Omega$ by any choice of [[cylinder objects]] and [[path space objects]] (def. \ref{PathAndCylinderObjectsInAModelCategory}). Since we may restrict to CW-complexes, the standard topological cylinder $(-)\times I$ is a cylinder object (prop. \ref{TopologicalCylinderOnCWComplexIsGoodCylinderObject}) and, generally, the standard topological path space $(-)^I$ is a path space object (prop. \ref{TopologicalPathSpaceIsGoodPathSpaceObject}).
 
 Now the adjunction of prop. \ref{ReducedSuspensionBySmashProductWithCircle} gives an adjunction
 
@@ -7438,7 +7490,7 @@ This establishes the claim.
 +-- {: .num_lemma #ReplacementOfPathObjects}
 ###### Lemma
 
-Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path object $\widetilde{Path(X)}$ along an acylic fibration, such that $\widetilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
+Let $f\colon X \longrightarrow Y$ be a morphism in a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Then given any choice of [[path space objects]] $Path(X)$ and $Path(Y)$, def. \ref{PathAndCylinderObjectsInAModelCategory}, there is a replacement of $Path(X)$ by a path space object $\widetilde{Path(X)}$ along an acylic fibration, such that $\widetilde{Path(X)}$ has a morphism $\phi$ to $Path(Y)$ which is compatible with the structure maps, in that the following diagram commutes
 
 $$
   \array{
@@ -8128,7 +8180,7 @@ $$
 
 Given an object $X \in \mathcal{C}^{\ast/}$ and given two choices of path space objects $Path(X)$ and $\widetilde{Path(X)}$, we need to produce an isomorphism in $Ho(\mathcal{C}^{\ast/})$ between $\Omega X$ and $\tilde \Omega X$.
 
-To that end, first lemma \ref{ReplacementOfPathObjects} implies that any two choices of path space objects are connected via a third path space by a [[span]] of morphisms compatible with the structure maps. By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) every morphisms of path objects compatible with the inclusion of the base object is a weak equivalence. With this lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} implies that these morphisms induce weak equivalences on the corresponding loop space objects. This shows that all choices of loop space objects become isomorphic in the homotopy category.
+To that end, first lemma \ref{ReplacementOfPathObjects} implies that any two choices of path space objects are connected via a third path space by a [[span]] of morphisms compatible with the structure maps. By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) every morphisms of path space objects compatible with the inclusion of the base object is a weak equivalence. With this lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} implies that these morphisms induce weak equivalences on the corresponding loop space objects. This shows that all choices of loop space objects become isomorphic in the homotopy category.
 
 Moreover, all the isomorphisms produced this way are actually equal: this follows from lemma \ref{UniquenessOfFibersOfQualizedMorphismsInHoC} applied to
 
@@ -8433,8 +8485,8 @@ $$
 
 A subtlety to be aware of here is that $\Omega B$ is not quite $ker(ker(f))$, but the latter instead is $\bar \Omega f$, where $\bar \Omega$ denotes loops with reversed orientation.
 
-A classical discussion of this in terms of computing homotopy fibers via [[path object]] fibrant replacements is e.g. in
-([Switzer 75, around 2.57](#Switzer75)). But let's see it just diagrammatically:
+A classical discussion of this in terms of computing homotopy fibers via [[path space object]] fibrant replacements is e.g. in
+([Switzer 75, around 2.57](#Switzer75)). But let's see it abstractly:
 
 First observe that it is indeed $\Omega f$ and not $\bar \Omega f$ that appears in the above: by "bending around" the bottom left "$\ast \to $" we get
 
