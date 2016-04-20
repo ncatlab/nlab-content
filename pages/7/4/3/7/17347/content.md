@@ -392,7 +392,7 @@ such that:
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
-* **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
+* {#UnreducedAdditivity} **(additivity)** If $(X, A) = \coprod_i (X_i, A_i)$ is a [[coproduct]], then the canonical comparison morphism 
 
   $$
     E^n(X, A) \overset{\simeq}{\longrightarrow} \prod_i E^n(X_i, A_i)
@@ -721,7 +721,7 @@ e.g. ([Switzer 75, theorem 7.19](#Switzer75), [Aguilar-Gitler-Prieto 02, theorem
 ###### Definition
 **(unreduced to reduced cohomology)**
 
-Let $E^\bullet$ be an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
+Let $E^\bullet$ be an [[generalized (Eilenberg-Steenrod) cohomology|unreduced cohomology theory]], def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
 
 For $x \colon \ast \to X$ a [[pointed topological space]], set
 
@@ -801,7 +801,7 @@ where the vertical sequence on the right is exact by prop. \ref{ExactSequenceOfA
 ###### Definition
 **(reduced to unreduced cohomology)**
 
-Let $(\tilde E^\bullet, \sigma)$ be a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by 
+Let $(\tilde E^\bullet, \sigma)$ be a [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}. Define an unreduced cohomolog theory $E^\bullet$, def. \ref{GeneralizedCohomologyTheory}, by 
 
 $$
   E^\bullet(X,A)
@@ -1146,7 +1146,7 @@ As a first application, [[Eilenberg-MacLane spectra]] representing [[ordinary co
  {#BrownRepresentabilityTraditional}
 
 
-Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\ast/}$ for the category of pointed and _connected_ topological spaces homeomorphic to a [[CW-complex]].
+Write $Top_{CW,cn}^{\ast} \hookrightarrow Top_{CW}^{\ast} \hookrightarrow Top^{\ast/}$ for the category of [[pointed topological space|pointed]] and _[[connected topological space|connected]]_ [[topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]]. Write $Set^{\ast/}$ for the category of [[pointed sets]].
 
 +-- {: .num_defn #BrownFunctorTraditional}
 ###### Definition
@@ -1304,7 +1304,7 @@ The [exactnes](#ReducedExactnessAxiom) follows from the [[long exact sequences]]
 
 ##### Homotopy-theoretic discussion
 
-Using abstract [[homotopy theory]] in the guise of [[model category]] theory (see the _[[Introduction to Stable homotopy theory -- P|lecture notes on classical homotopy theory]]), the proof of the Brown representability theorem becomes more transparent ([Lurie, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
+Using abstract [[homotopy theory]] in the guise of [[model category]] theory (see the _[[Introduction to Stable homotopy theory -- P|lecture notes on classical homotopy theory]]), the traditional proof and further discussion of the [[Brown representability theorem]] [above](#BrownRepresentabilityTraditional) becomes more transparent ([Lurie, section 1.4.1](#LurieHigherAlgebra), for exposition see also [Mathew 11](Brown+representability+theorem#Mathew11)). 
 
 This abstract homotopy-theoretic proof uses the general concept of [[homotopy colimits]] in [[model categories]] as well as the concept of [[derived hom-spaces]] ("[[(∞,1)-category|∞-categories]]"). Even though in the accompanying [[Introduction to Stable homotopy theory -- P|Lecture notes on classical homotopy theory]] these concepts are only briefly indicated, the following is included for the interested reader.
 
@@ -1932,7 +1932,7 @@ A **cohomology [[spectral sequence]]** $\{E_r^{p,q}, d_r\}$ is
 
 such that 
 
-* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$:, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$, for all $r \in \mathbb{N}$, $r \geq 1$.
+* $H_{r+1}^{\bullet,\bullet}$ is the [[cochain cohomology]] of $d_r$, i.e. $E_{r+1}^{\bullet, \bullet} = H(E_r^{\bullet,\bullet},d_r)$, for all $r \in \mathbb{N}$, $r \geq 1$.
 
 Given a $\mathbb{Z}$-[[graded abelian group]]_ $C^\bullet$ equipped with a decreasing [[filtration]]
 
@@ -2165,7 +2165,20 @@ $$
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
 
-Let $A^\bullet$ be a an unreduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] functor (def. \ref{GeneralizedCohomologyTheory}) such that its value $A^\bullet(\ast)$ on the point is bounded below in degree. Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[fibration]] with [[fibers]] $F$. Then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}) such that its value $A^\bullet(\ast)$ on the point is bounded below in degree. Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
+
+$$
+  \array{
+    F &\longrightarrow& X
+    \\
+    && \downarrow^{\mathrlap{\in Fib_{cl}}}
+    \\
+    && X
+  }
+  \,.
+$$
+
+Then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
 $$
   E_2^{p,q} 
@@ -2202,16 +2215,28 @@ The [exactness axiom](#ExactnessUnreduced) for $A$ gives an [[exact couple]], de
 
 $$
   \array{
-    A^{s+t}(X_{s})
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
     &&
       \stackrel{}{\longrightarrow} 
     &&
-    A^\bullet(X_{s})
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
     \\
     & \nwarrow && \swarrow
     \\
-    && A^{s+t}(X_{s}, X_{s-1})
+    && \underset{s,t}{\prod} A^{s+t}(X_{s}, X_{s-1})
   }
+  \;\;\;\;\;\;\;
+  \left(
+    $$
+      \array{
+        A^{s+t}(X_s) & \longrightarrow & A^{s+t}(X_{s-1})
+        \\
+        \uparrow && \downarrow_{\mathrlap{\delta}}
+        \\
+        A^{s+t}(X_s, X_{s-1}) && A^{s+t+1}(X_{s}, X_{s-1})
+      }
+    $$  
+  \right)
   \,,
 $$
 
