@@ -81,7 +81,7 @@ With this notation one has the following rules for computation:
 where in each case the sum of morphisms is taken using the canonical [[enriched category|enrichment]] of $C$ in abelian [[monoids]] (as described at [[biproduct]]).
 
 
-As can be seen in the above formulas, particularly for matrix multiplication, this is a context is which the **[Einstein summation convention](https://secure.wikimedia.org/wikipedia/en/wiki/Einstein_summation_convention)** can be used, with a distinction drawn between upper and lower indices.  Then repeated indices (in formulas with general applicability) will always appear once upper and once lower, summed over.  However, this convention can apply only to the morphisms, not to the objects.
+As can be seen in the above formulas, particularly for matrix multiplication, this is a context is which the [[Einstein summation convention]] can be used, with a distinction drawn between upper and lower indices.  Then repeated indices (in formulas with general applicability) will always appear once upper and once lower, summed over.  However, this convention can apply only to the morphisms, not to the objects.
 
 ## In dagger categories
 
