@@ -1,3 +1,4 @@
+
 # Cauchy sequences
 * table of contents
 {: toc}
@@ -13,7 +14,7 @@ A Cauchy sequence is an infinite [[sequence]] which ought to converge in the sen
 The precise definition varies with the context.
 
 
-A sequence $(x_i)_i$ of [[real number]]s is __Cauchy__ if, for every positive number $\epsilon$, almost all terms are within $\epsilon$ of one another.  Explicitly:
+A sequence $(x_i)_i$ of [[real numbers]] is __Cauchy__ if, for every positive number $\epsilon$, almost all terms are within $\epsilon$ of one another.  Explicitly:
 $$ \forall \epsilon,\; \exists N,\; \forall i, j \geq n,\; |x_i - x_j| \leq \epsilon .$$
 
 
@@ -32,22 +33,27 @@ $$ \forall U,\; \exists N,\; \forall i, j \geq n,; x_i \approx_U x_j .$$
 
 
 In a [[Cauchy space]], a sequence $(x_i)_i$ is __Cauchy__ if it generates a [[Cauchy filter]].  Explicitly:
-
-*  the proper filter $ \{ A \;|\; \exists N,\; \forall i, j \geq n,\; x_i \in A \} $ is Cauchy.
+$$ \{ A \;|\; \exists N,\; \forall i, j \geq n,\; x_i \in A \} \in \mathcal{C} ,$$
+where $\mathcal{C}$ is the collection of [[Cauchy filters]] that defines the structure of the Cauchy space.
 
 All of the above are in fact special cases of this.
 
 
-## Generalisations
+## Generalizations
 
-A [[net]] is a generalisation of a sequence; the definitions above serve to define a __Cauchy net__ without any change, other than allowing $(x_i)_i$ to be a net.  This is fundamental to the concept of [[Cauchy space]]; instead of defining Cauchy nets in terms of Cauchy filters as above, we may equally well define a Cauchy filter to be a proper [[filter]] whose canonical net is Cauchy.
+A [[net]] is a generalization of a sequence; the definitions above serve to define a __Cauchy net__ without any change, other than allowing $(x_i)_i$ to be a net.  This is precisely the structure of a [[Cauchy space]]; instead of defining Cauchy nets in terms of Cauchy filters as above, we may equally well define a Cauchy filter to be a [[proper filter]] whose [[canonical net]] is Cauchy.
 
-Note that in a [[complete space]], every Cauchy net has a limit, not just every Cauchy sequence.  However, a space in which every Cauchy sequence converges is called __sequentially complete__.  Note that a metric space (or even a Lawvere metric space) is complete if and only if it is sequentially complete (although this result is not valid in some weak [[foundations]]); in particular, the [[real line]] $\mathbf{R}$ is complete.
+Note that in a [[complete space]], every Cauchy net has a limit, not just every Cauchy sequence.  Rather, a space in which every Cauchy sequence converges is called __sequentially complete__.  Note that a metric space (or even a Lawvere metric space) is in fact complete if it is sequentially complete (although this result is not valid in some weak [[foundations]]); in particular, the [[real line]] $\mathbf{R}$ is complete.
 
-When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categories]] over the [[closed monoidal category|closed monoidal]] [[poset]] $(\mathbf{R}^+,+)$, he identified Cauchy sequences in such spaces with certain [[adjunction]]s of [[bimodule]]s, enough so that a metric space would be a Cauchy [[complete space]] if and only if every adjunction of bimodules in induces by an [[enriched functor]].  Generalising this condition from $(\mathbf{R}^+,+)$ to an arbitrary closed monoidal category, we have the concept of [[Cauchy complete category]].
+When [[Bill Lawvere]] idenitified Lawvere metric spaces with [[enriched categories]] over the [[closed monoidal category|closed monoidal]] [[poset]] $(\mathbf{R}^+,+)$, he identified Cauchy sequences in such spaces with certain [[adjunctions]] of [[bimodules]], enough so that a metric space would be a Cauchy-[[complete space]] if and only if every adjunction of bimodules is induced by an [[enriched functor]].  Generalising this condition from $(\mathbf{R}^+,+)$ to an arbitrary closed monoidal category, we have the concept of [[Cauchy-complete category]].
 
 
 [[!redirects Cauchy sequence]]
 [[!redirects Cauchy sequences]]
+
 [[!redirects Cauchy net]]
 [[!redirects Cauchy nets]]
+
+[[!redirects sequentially complete space]]
+[[!redirects sequentially complete spaces]]
+[[!redirects sequentially complete]]
