@@ -28,7 +28,7 @@ More abstractly, the Hamiltonian is a function on [[phase space]], a [[manifold]
 
 To begin with, we often take phase space to be the [[cotangent bundle]] of [[configuration space]].  (Compare that state space is the [[tangent bundle]] of configuration space.)  This comes equipped with a natural $2$-[[differential form|form]]
 $$ \omega = \sum_i \mathrm{d}p_i \wedge \mathrm{d}q^i ,$$
-or simply $\omega = \mathrm{d}p_i \wedge \mathrm{d}q^i$ using the Einstein summation convention.  This $2$-form is closed, in fact exact, since it is the [[exterior derivative|differential]] of the [[action functional|action form]] $\bar{\mathrm{d}}S = p_i \wedge \mathrm{d}q^i$, and therefore it is a [[symplectic form]].
+or simply $\omega = \mathrm{d}p_i \wedge \mathrm{d}q^i$ using the [[Einstein summation convention]].  This $2$-form is closed, in fact exact, since it is the [[exterior derivative|differential]] of the [[action functional|action form]] $\bar{\mathrm{d}}S = p_i \wedge \mathrm{d}q^i$, and therefore it is a [[symplectic form]].
 
 However, it is also possible to take phase space to be *any* [[symplectic manifold]], or even any [[Poisson manifold]].  In any case, phase space itself gives only the [[kinematics]] (in a momentum-based rather than velocity-based sense); you need the Hamiltonian $H$ to get the [[dynamics]].
 
