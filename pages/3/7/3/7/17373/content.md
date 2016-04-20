@@ -1,0 +1,20 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The yoga of handling [[tensors]], in particular contracting them with each other; and in the case of [[tensor products]] of sections of a [[tangent bundle]] and [[cotangent bundle]] also the operations of [[differentiation]] of tensors, hence the generalization of "[[calculus]]" ([[analysis]]) from [[vectors]] to [[tensors]].
+
+## Related entries
+
+* [[Einstein summation convention]]
+
+* [[tensor product]]
+
+* [[tensor category]]
+
+## Wikipedia
+
+* Wikipedia, _[Tensor calculus](https://en.wikipedia.org/wiki/Tensor_calculus)_
