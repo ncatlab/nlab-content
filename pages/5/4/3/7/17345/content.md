@@ -1557,7 +1557,7 @@ $$
   \,.
 $$
 
-By prop. \ref{LongExactSequenceofHomotopyGroups}, here each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] via [[connecting homomorphisms]] $\delta_\bullet^k$
+Each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([expl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups)) via [[connecting homomorphisms]] $\delta_\bullet^k$
 
 $$
   \cdots
