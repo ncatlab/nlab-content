@@ -92,36 +92,38 @@ The traditional formulation of reduced generalized cohomology in terms of point-
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A **reduced [[cohomology theory]]** is a [[functor]]
+A **[[reduced cohomology theory]]** is 
 
-$$
-  \tilde E^\bullet 
-   \;\colon\; 
-  (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
-$$
+1. a [[functor]]
 
-from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
+   $$
+     \tilde E^\bullet 
+      \;\colon\; 
+     (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
+   $$
 
-$$
-  \tilde E 
-    \;\colon\; 
-  (X \stackrel{f}{\longrightarrow} Y)
-    \mapsto
-  (\tilde E^\bullet(Y) 
-    \stackrel{f^\ast}{\longrightarrow}
-  \tilde E^\bullet(X))
-  \,,
-$$
+   from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
 
-{#SuspensionIsomorphismForReducedGeneralizedCohomology} and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
+   $$
+     \tilde E 
+       \;\colon\; 
+     (X \stackrel{f}{\longrightarrow} Y)
+       \mapsto
+     (\tilde E^\bullet(Y) 
+       \stackrel{f^\ast}{\longrightarrow}
+     \tilde E^\bullet(X))
+     \,,
+   $$
 
-$$
-  \sigma
-    \;\colon\;
-  \tilde E^{\bullet +1}(\Sigma -) 
-    \overset{\simeq}{\longrightarrow} 
-  \tilde E^\bullet(-) 
-$$
+1. {#SuspensionIsomorphismForReducedGeneralizedCohomology} equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
+
+   $$
+     \sigma_E
+       \;\colon\;
+     \tilde E^\bullet(-) 
+       \overset{\simeq}{\longrightarrow} 
+     \tilde E^{\bullet +1}(\Sigma -) 
+   $$
 
 such that:
 
@@ -1162,10 +1164,10 @@ such that
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor}
 ###### Proposition
 
-For every reduced additive cohomology functor $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
+For every additive [[reduced cohomology theory]] $\tilde E^\bullet$ (def. \ref{ReducedGeneralizedCohomology}), each degree $\tilde E^n$ is a Brown functor (def. \ref{BrownFunctorTraditional}).
 
 =--
 
@@ -1201,6 +1203,59 @@ See also example \ref{TheClassicalPointedConnectedHomotopyCategoryAsDomainForThe
 
 =--
 
+Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} give that every degree $\tilde E^n$ of an additive [[reduced cohomology theory]] $\tilde E^\bullet$ is [[representable functor|representable]] on pointed connected CW-complexes. But moreover, by definition these degrees are related by [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology). This implies that the representing sequence of topological spaces carries extra structure relating the spaces in different degree:
+
++-- {: .num_defn #OmegaSpectrum}
+###### Definition
+
+An **[[Omega-spectrum]]** $X$ ([def.](Introduction+to+Stable+homotopy+theory+--+1#OmegaSpectrum)) is a sequence $\{X_n\}_{n \in \mathbb{N}}$ of [[topological spaces]] equipped with [[weak homotopy equivalences]]
+
+$$
+  \tilde \sigma_n
+  \;\colon\;
+  X_n \longrightarrow \Omega X_{n+1}
+$$
+
+for each $n \in \mathbb{N}$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Every additive [[reduced cohomology theory]] $\tilde E^\bullet \colon (Top_{CW}^\ast)^{op} \longrightarrow Ab^{\mathbb{Z}}$ according to def. \ref{ReducedGeneralizedCohomology}, when restricted to [[connected topological space|connected]] spaces is [[representable functor|represented]] by an [[Omega-spectrum]] $E$ (def. \ref{OmegaSpectrum}) in that in each degree $n \in \mathbb{N}$
+
+1. $\tilde E^n$ is represented by $E_n$;
+
+1. the [suspension isomorphisms](#SuspensionIsomorphismForReducedGeneralizedCohomology) $\sigma_n$ is represented by the structure map $\tilde \sigma_n$ in that for all $X \in Top^{\ast/}_{CW,cn}$ the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       \tilde E^{n}(X) 
+         &\overset{\sigma_n(X)}{\longrightarrow}& 
+       \tilde E^{n+1}(\Sigma X) 
+       \\
+       {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+       \\
+       [X,E_n]_\ast
+         \overset{[X,\tilde \sigma_n]_\ast}{\longrightarrow}
+       [X, \Omega E_{n+1}]_\ast
+        \simeq
+       [\Sigma X,E_{n+1}]_\ast
+     }
+     \,,
+   $$
+
+   where $[-,-]_\ast \coloneqq Hom_{Ho(Top_{CW,cn}^{\ast/})}$ and where in the bottom right we have the $(\Sigma\dashv \Omega)$-[[adjunction]] isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopAreAdjointOnHomotopyCategory)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Theorem \ref{BrownRepresentabilityTraditional} with prop. \ref{EveryComponentOfAdditiveReducedCohomologyIsBrownFunctor} gives the existence of the $\{E_n\}_{n \in \mathbb{N}}$. The remaining statement follows with the [[Yoneda lemma]], which says that morphisms between [[representable functors]] are in [[natural bijection]] with the morphisms of objects that represent them.
+
+=--
 
 ##### Homotopy-theoretic discussion
 
