@@ -1,17 +1,20 @@
 
-   $$
-     \array{
-       \tilde E^{n}(X) 
-         &\overset{\sigma_n(X)}{\longrightarrow}& 
-       \tilde E^{n+1}(\Sigma X) 
-       \\
-       {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
-       \\
-       [X,E_n]_\ast
-         &\overset{[X,\tilde \sigma_n]_\ast}{\longrightarrow}&
-       [X, \Omega E_{n+1}]_\ast
-        \simeq
-       [\Sigma X,E_{n+1}]_\ast
-     }
-     \,,
-   $$
+$$
+  \array{
+    A^{s+t}(X_s) && \longrightarrow && A^{s+t}(X_{s-1})
+    \\
+    & \nwarrow && \swarrow_{\mathrlap{\delta}}
+    \\
+    &&  A^{s+t}(X_s, X_{s-1})
+  }
+$$
+
+$$
+  \array{
+    A^{s+t}(X_s) & \longrightarrow & A^{s+t}(X_{s-1})
+    \\
+    \uparrow && \downarrow_{\mathrlap{\delta}}
+    \\
+    A^{s+t}(X_s, X_{s-1}) && A^{s+t+1}(X_{s}, X_{s-1})
+  }
+$$
