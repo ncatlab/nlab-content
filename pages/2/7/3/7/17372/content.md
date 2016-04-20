@@ -1,5 +1,5 @@
 ##Idea
-In situations such as the [[tensor calculus]], the **Einstein summation convention** allows for compact expression of sums over common upper and lower indices. For example, for $n$-dimensional vector $v$ and covector $e$, we write $v_i e^i := \sum_{1 \le i \le n} v_i e^i$.
+In situations such as the [[tensor calculus]], the **Einstein summation convention** allows for compact expression of sums over common upper and lower indices. For example, for $n$-dimensional vector $v$ and covector $e$, we write $v_i e^i \coloneqq \sum_{1 \le i \le n} v_i e^i$.
 
 ###Related entries
 
