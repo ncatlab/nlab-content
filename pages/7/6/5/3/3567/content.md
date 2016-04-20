@@ -67,3 +67,6 @@ category: category
 
 [[!redirects classical homotopy category]]
 [[!redirects classical homotopy categories]]
+
+[[!redirects classical pointed homotopy category]]
+[[!redirects classical pointed homotopy categories]]
