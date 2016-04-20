@@ -23,7 +23,7 @@
 
 The _derived (infinity,1)-category_ or _derived category_ of an [[abelian category]] $\mathcal{A}$ is the setting for [[homological algebra]] in $\mathcal{A}$: the [[(infinity,1)-categorical localization]] of the [[category of chain complexes]] in $\mathcal{A}$ at the class of [[quasi-isomorphisms]]. The derived category is a fundamental example of a [[stable (infinity,1)-category]]. By the [[stable Dold-Kan correspondence]], it may be viewed as a linearization of the [[stable (infinity,1)-category of spectra]].
 
-The derived (infinity,1)-category is presented by various [[dg-model structures]] on the [[category of chain complexes]], as described at [[model structures on chain complexes]]. As such it has also has a natural incarnation as a [[pretriangulated dg-category]], which might be called the _derived dg-category_.
+The derived (infinity,1)-category is presented by various [[dg-model structures]] on the [[category of chain complexes]], as described at [[model structures on chain complexes]]. As such it has also a natural incarnation as a [[pretriangulated dg-category]], which might be called the _derived dg-category_.
 
 Like any [[stable (infinity,1)-category]], the [[homotopy category of an (infinity,1)-category|homotopy category]] of the derived (infinity,1)-category admits a canonical [[triangulated category]] structure. Often in the literature, the term _derived category_ refers to the [[homotopy category of an (infinity,1)-category|homotopy category]], viewed only as a [[triangulated category]]. The loss of information can often be problematic, but for many purposes is not important.
 
