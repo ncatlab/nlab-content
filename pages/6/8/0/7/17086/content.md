@@ -26,6 +26,6 @@
 
 In observational [[cosmology]]:
 
-* Jonathan Pritchard, _Cosmological probes if inflation and the 21 cm line_ ([video recording](http://www.perimeterinstitute.ca/videos/cosmological-probes-inflation-and-21-cm-line))
+* Jonathan Pritchard, _Cosmological probes of inflation and the 21 cm line_ ([video recording](http://www.perimeterinstitute.ca/videos/cosmological-probes-inflation-and-21-cm-line))
 
 
