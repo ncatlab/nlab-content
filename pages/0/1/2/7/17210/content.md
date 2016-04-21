@@ -27,8 +27,10 @@ This is often used as the first, and in good cases the only, obstruction to a na
 
 
 ## Definition
+ {#Definition}
 
-+-- {: .num_defn}
+
++-- {: .num_defn #TheBoundaryMapDefiningLim1}
 ###### Definition
 
 Given a [[tower]] $A_\bullet$ of [[abelian groups]]
@@ -37,23 +39,73 @@ $$
   \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
 $$
 
-then $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is defined by the [[long exact sequence]]
+write
+
+$$
+  \partial
+    \;\colon\;
+  \underset{n}{\prod} A_n
+    \longrightarrow
+  \underset{n}{\prod} A_n
+$$
+
+for the homomorphism given by 
+
+$$
+  \partial \;\colon\; 
+    (a_n)_{n \in \mathbb{N}} 
+  \mapsto  
+    (a_n - f_n(a_{n+1}))_{n \in \mathbb{N}}.
+
+=--
+
++-- {: .num_defn #LimitAsKernelAnalogousToLim1}
+###### Remark
+
+The [[limit]] of a sequence as in def. \ref{TheBoundaryMapDefiningLim1} -- hence the group $\underset{\longleftarrow}{\lim}_n A_n$ universally equipped with morphisms $\underset{\longleftarrow}{\lim}_n A_n \overset{p_n}{\to} A_n$ such that all
+
+$$
+  \array{
+     && \underset{\longleftarrow}{\lim}_n A_n
+     \\
+     & {}^{\mathllap{p_{n+1}}}\swarrow && \searrow^{\mathrlap{p_n}}
+     \\
+     A_{n+1} && \overset{f_n}{\longrightarrow} && A_n
+  }
+$$
+
+[[commuting diagram|commute]] -- is equivalently the [[kernel]] of the morphism $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}.
+
+=--
+
++-- {: .num_defn #Lim1ViaCokernel}
+###### Definition
+
+Given a [[tower]] $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
+$$
+
+then $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is the [[cokernel]] of the map $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}, hence the group that makes a [[long exact sequence]] of the form
 
 $$
   0 \to 
   \underset{\longleftarrow}{\lim}_n A_n
-   \stackrel{\prod_k (f_k - f_{k+1})}{\longrightarrow}
+  \longrightarrow
+  \underset{n}{\prod} A_n
+   \stackrel{\partial}{\longrightarrow}
   \underset{n}{\prod} A_n
     \longrightarrow
   \underset{\longleftarrow}{\lim}^1_n A_n
   \to 0
-  \,.
+  \,,
 $$
 
 
 =--
 
-There is a generalization to groups (not necessarily abelian) (...)
+There is a generalization to groups (not necessarily abelian).
 
 
 ## Properties
@@ -90,7 +142,7 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}
 
 =--
 
-(e.g. [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
+(e.g. [Switzer 75, prop. 7.63](#Switzer75), [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
 
 ### Vanishing of $\lim^1$
 
@@ -113,6 +165,8 @@ $$
 
 =--
 
+(e.g. [Switzer 75, def. 7.74](#Switzer75))
+
 +-- {: .num_example}
 ###### Example
 
@@ -132,10 +186,12 @@ $$
 
 =--
 
-([e.g. Weibel 94, prop. 3.5.7](#Weibel94))
+e.g. ([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96), [Weibel 94, prop. 3.5.7](#Weibel94))
 
 
-### Milnor exact sequences
+## Milnor exact sequences
+
+### For homology of chain complexes
 
 +-- {: .num_example}
 ###### Example
@@ -166,6 +222,9 @@ $$
 
 (e.g. [Weibel 94, prop. 3.5.8](#Weibel94))
 
+
+
+### For homotopy groups
 
 +-- {: .num_prop}
 ###### Proposition
@@ -198,13 +257,184 @@ for $\pi_\bullet$ the [[homotopy group]]-functor. (Exact as [[pointed sets]] for
 
 e.g. ([Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
 
+### For generalized (co-)homology groups
+
+
++-- {: .num_prop #MilorSequenceForReducedCohomologyOnCWComplex}
+###### Proposition
+
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an additive [[reduced cohomology theory]]. 
+
+Then the canonical morphisms make a [[short exact sequence]]
+
+   $$
+     0 
+      \to 
+     \underset{\longleftarrow}{\lim}^1_n \tilde E^{\bullet-1}(X_n)
+      \longrightarrow
+     \tilde E^{\bullet}(X)
+      \longrightarrow
+     \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
+     \to 
+     0
+     \,,
+   $$
+
+saying that 
+
+1. the failure of the canonical comparison map $\tilde E^\bullet(X) \to \underset{\longleftarrow}{\lim} \tilde E^\bullet(X_n)$ to the [[limit]] of the [[cohomology groups]] on the finite stages to be an [[isomorphism]] is at most in a non-vanishing [[kernel]];
+
+1. this kernel is precisely the $\lim^1$ (def. \ref{Lim1ViaCokernel}) of the cohomology groups at the finite stages in one degree lower.
+
+=--
+
+e.g. ([Switzer 75, prop. 7.66](#Switzer75), [Kochmann 96, prop. 4.2.2](#Kochmann96))
+
+
++-- {: .proof}
+###### Proof
+
+
+For 
+
+$$
+  X_\bullet
+  = 
+  \left(
+    X_0 
+      \overset{i_0}{\hookrightarrow}
+    X_1 
+      \overset{i_1}{\hookrightarrow}
+    X_2 
+      \overset{i_1}{\hookrightarrow}
+    \cdots
+  \right)
+$$ 
+
+the sequence of stages of the ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, write
+
+$$
+  \begin{aligned}
+    A_X 
+    &\coloneqq 
+    \underset{n \in \mathbb{N}}{\sqcup} X_{2n} \times [2n,{2n}+1];
+  \\
+    B_X 
+    &\coloneqq 
+    \underset{n \in \mathbb{N}}{\sqcup} X_{(2n+1)} \times [2n+1,{2n}+2].
+  \end{aligned}
+$$
+
+for the [[disjoint unions]] of the [[cylinders]] over all the stages in even and all those in odd degree, respectively.
+
+These come with canonical inclusion maps into the [[mapping telescope]] $Tel(X_\bullet)$ ([def.](mapping+telescope#MappingTelescope)), which we denote by
+
+$$
+  \array{
+    A_X && && B_X
+    \\
+    & {}_{\mathllap{\iota_{A_x}}}\searrow && \swarrow_{\mathrlap{\iota_{B_x}}}
+    \\
+    && Tel(X_\bullet)
+  }
+  \,.
+$$
+
+Observe that 
+
+1. $A_X \cup B_X \simeq Tel(X_\bullet)$;
+
+1. $A_X \cap B_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_n$;
+
+and that there are [[homotopy equivalences]]
+
+1. $A_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_{2n+1}$
+
+1. $B_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_{2n}$
+
+1. $Tel(X_\bullet) \simeq X$.
+
+The first two are obvious, the third is [this proposition](mapping+telescope#TelescopeOfCWComplexEquivalentToTheOriginal). 
+
+This implies that the [[Mayer-Vietoris sequence]] ([prop.](generalized+cohomology#MayerVietorisSequenceInGeneralizedCohomology)) for $\tilde E^\bullet$ on the cover $A \sqcup B \to X$ is isomorphic to the bottom horizontal sequence in the following diagram:
+
+$$
+  \array{
+     \tilde E^{\bullet-1}(A_X)\oplus \tilde E^{\bullet-1}(B_X)
+      &\longrightarrow&
+    \tilde E^{\bullet-1}(A_X \cap B_X)
+      &\longrightarrow& 
+    \tilde E^\bullet(X)
+      &\overset{(\iota_{A_x})^\ast - (\iota_{B_x})^\ast}{\longrightarrow}&
+    \tilde E^\bullet(A_X)\oplus \tilde E^\bullet(B_X)
+      &\overset{}{\longrightarrow}&
+    \tilde E^\bullet(A_X \cap B_X)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+     &&
+    \downarrow^{\mathrlap{\simeq}} 
+      && 
+    \downarrow^{\mathrlap{=}}
+      &&
+    {}^{\mathllap{(id, -id)}}\downarrow^{\mathrlap{\simeq}}
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n)
+      &\underset{\partial}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n) 
+      &\longrightarrow& 
+    \tilde E^\bullet(X)
+      &\overset{(i_n^\ast)_{n}}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^\bullet(X_n)
+      &\underset{\partial}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^\bullet(X_n)
+  }
+  \,,
+$$
+
+hence that the bottom sequence is also a [[long exact sequence]].
+
+To identify the morphism $\partial$, notice that it comes from pulling back $E$-cohomology classes along the inclusions $A \cap B \to A$ and $A\cap B \to B$. Comonentwise these are the inclusions of each $X_n$ into the left and the right end of its cylinder inside the [[mapping telescope]], respectively. By the construction of the [[mapping telescope]], one of these ends is embedded via $i_n \colon X_n \hookrightarrow X_{n+1}$ into the cylinder over $X_{n+1}$. In conclusion, $\partial$ acts by
+
+$$
+  \partial
+    \;\colon\;
+  (a_n)_{n \in \mathbb{N}}
+    \mapsto
+  ( a_n - i_n^\ast(a_{n+1}) )
+  \,.
+$$
+
+(The relative sign is the one in $(\iota_{A_x})^\ast - (\iota_{B_x})^\ast$ originating in the definition of the [[Mayer-Vietoris sequence]] and properly propagated to the bottom sequence while ensuring that $\tilde E^\bullet(X)\to \prod_n \tilde E^\bullet(X_n)$ is really $(i_n^\ast)_n$ and not $(-1)^n(i_n^\ast)_n$, as needed for the statement to be proven.)
+
+This is the morphism from def. \ref{TheBoundaryMapDefiningLim1} for the sequence
+
+$$
+   \cdots
+    \to 
+  \tilde E^\bullet(X_{n+1}) 
+    \overset{i_n^\ast}{\longrightarrow}
+  \tilde E^\bullet(X_n)
+    \overset{i_n^\ast}{\longrightarrow}
+  \tilde E^{\bullet}(X_{n-1})
+   \to
+   \cdots
+ \,.
+$$
+
+Hence truncating the above long exact sequence by forming kernel and cokernel of $\partial$, the result follows via remark \ref{LimitAsKernelAnalogousToLim1} and definition \ref{Lim1ViaCokernel}.
+
+=--
+
+In contrast:
 
 +-- {: .num_prop}
 ###### Proposition
 
 Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$.
 
-1. For $\tilde E_\bullet$ a reduced [[generalized homology theory]], then
+For $\tilde E_\bullet$ an additive reduced [[generalized homology theory]], then
 
    $$
      \underset{\longrightarrow}{\lim}_n \tilde E_\bullet(X_n)
@@ -214,34 +444,11 @@ Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underse
 
    is an [[isomorphism]].
 
-1. For $\tilde E^\bullet$ a [[reduced cohomology theory]], then there is a [[short exact sequence]]
-
-   $$
-     0 
-      \to 
-     \underset{\longleftarrow}{\lim}^1_n
-     \tilde E^{\bullet-1}(X_n)
-      \longrightarrow
-     \tilde E^{\bullet}(X)
-      \longrightarrow
-     \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
-     \to 
-     0
-     \,.
-   $$
-
-
 =--
 
-e.g. ([Switzer 75, prop. 7.53 and prop. 7.66](#Switzer75) [Kochmann 96, prop. 4.2.2](#Kochmann96))
+([Switzer 75, prop. 7.53](#Switzer75))
 
 
-+-- {: .proof}
-###### Proof
-
-...use the [[mapping telescope]] of $X$...
-
-=--
 
 ## References
 
@@ -250,7 +457,7 @@ Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pj
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], section IX.2 of _Homotopy limits, completions and localization_, Springer 1972
 
-* {#Switzer75} [[Robert Switzer]], appendix to chapter 7  of _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+* {#Switzer75} [[Robert Switzer]], section 7 from def. 7.57 on in _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
 
 
 * {#Weibel94} [[Charles Weibel]], section 3.5 of _[[An Introduction to Homological Algebra]]_, Cambridge University Press (1994)
