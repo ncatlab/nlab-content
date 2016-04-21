@@ -157,7 +157,7 @@ such that:
 
 We say $\tilde E^\bullet$ is **additive** if in addition
 
-* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical comparison morphism
+* {#WedgeAxiom} **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical comparison morphism
 
   $$
     \tilde E^\bullet(\vee_{i \in I} X_i) 
