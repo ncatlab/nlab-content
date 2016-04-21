@@ -405,7 +405,7 @@ between the image of the internal hom under $f^*$ and the internal hom of the im
 +-- {: .num_prop #MorphismFromDepProductOfFuncTypeToFuncTypeOfDepSum}
 ###### Proposition
 
-For $\mathbf{H}$ a [[locally cartesian closed category]], $f \colon X \to Y$ any [[morphism]], and $A, B \in \mathbf{H}_{/X}$ two objects in the slice over $X$, there is a natural morphism
+For $\mathbf{H}$ a [[locally cartesian closed category]], $f \colon X \to Y$ any [[morphism]], and $A, B \in \mathbf{H}_{/X}$ two objects in the slice over $X$, there is a natural morphism (not in general an isomorphism)
 
 $$
   \prod_f \left[A,B \right] \to \left[ \sum_f A, \sum_f B\right]
@@ -437,7 +437,7 @@ $$
      \mathbf{H}_{/Y}( U \times \sum_f A , \sum_f B )
      \\
      & \simeq
-    \mathbf{H}_{/Y}(U, \sum_f A , \sum_f B)
+    \mathbf{H}_{/Y}(U, [\sum_f A , \sum_f B])
   \end{aligned}
 $$
 
