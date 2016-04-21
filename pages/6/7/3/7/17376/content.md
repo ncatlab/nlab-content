@@ -30,7 +30,7 @@ The mapping telescope is a representation for the [[homotopy colimit]] over $X_\
 
 ## Definition
 
-+-- {: .num_defn #SheavesOnCartSp}
++-- {: .num_defn #MappingTelescope}
 ###### Definition
 
 For
@@ -49,13 +49,13 @@ $$
   \right)
 $$
 
-a sequence ([[cotower]]) in [[Top]], its **mapping telescope** is the [[quotient topological space]] of the [[disjoint union]] of [[product topological spaces]]
+a sequence  in [[Top]], its **mapping telescope** is the [[quotient topological space]] of the [[disjoint union]] of [[product topological spaces]]
 
 $$
   Tel(X_\bullet)
   \coloneqq
   \left(
-  \underset{n \in \mathbb{N}}{sqcup}  
+  \underset{n \in \mathbb{N}}{\sqcup}  
   \left(
     X_n \times [n,n+1]
   \right)
@@ -76,7 +76,7 @@ $$
   Tel(X_\bullet)
   \coloneqq
   \left(
-  \underset{n \in \mathbb{N}}{sqcup}  
+  \underset{n \in \mathbb{N}}{\sqcup}  
   \left(
     X_n \wedge [n,n+1]_+
   \right)
@@ -86,6 +86,115 @@ $$
 
 =--
 
+## Properties
+
+### For CW-complexes
+
++-- {: .num_defn }
+###### Definition
+
+For $X_\bullet$ be the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, then the canonical map
+
+$$
+  Tel(X_\bullet)
+  \longrightarrow
+  X
+$$
+
+from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equivalence]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We show that the map is a [[weak homotopy equivalence]]. Because domain and codomain are [[CW-complexes]], by [[Whitehead's theorem]] it is then also a homotopy equivalence.
+
+Write in the following $Tel(X)$ for $Tel(X_\bullet)$ and write $Tel(X_n)$ for the mapping telescop of the substages of the finite stage $X_n$ of $X$. It is intuitively clear that each of the projections at finite stage
+
+$$
+  Tel(X_n) \longrightarrow X_n
+$$
+
+is a homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
+
+Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that 
+
+$$
+  \underset{\longrightarrow}{\lim}_n \pi_q(Tel(X_n)) 
+    \overset{\simeq}{\longrightarrow} 
+  \pi_q(Tel(X))
+$$
+
+are [[isomorphisms]] for all $q\in \mathbb{N}$ and all choices of basepoints (not shown). 
+
+Together these two facts imply that in the following commuting square, three morphisms are isomorphisms, as shown.
+
+$$
+  \array{
+    \underset{\longleftarrow}{\lim}_n \pi_q(Tel(X_n))
+    &\overset{\simeq}{\longrightarrow}&
+    \pi_q(Tel(X))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow
+    \\
+    \underset{\longleftarrow}{\lim}_n \pi_q(X_n)
+    &\underset{\simeq}{\longrightarrow}&
+    \pi_q(X)    
+  }
+  \,.
+$$
+
+Therefore also the remaining morphism is an isomorphism. Since this holds for all $q$ and all basepoints, it is a weak homotopy equivalence.
+
+=--
+
++-- {: .num_defn #CoverOfMappingTelescopeOfCWComplex}
+###### Definition
+
+For $X_\bullet$ be the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, write
+
+$$
+  A_X \coloneqq \underset{n \in \mathbb{N}}{\sqcup} X_{2n} \times [2n,{2n}+1];
+$$
+
+$$
+  B_X \coloneqq \underset{n \in \mathbb{N}}{\sqcup} X_{(2n+1)} \times [2n+1,{2n}+2].
+$$
+
+There are canonical inclusion maps into the mapping telescope $Tel(X_\bullet)$, def. \ref{MappingTelescope}:
+
+$$
+  \array{
+    A_X && && B_X
+    \\
+    & \searrow && \swarrow
+    \\
+    && Tel(X_\bullet)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the situation of def. \ref{CoverOfMappingTelescopeOfCWComplex}
+
+1. $A \cup B \simeq Tel(X_\bullet)$;
+
+1. $A \cap B \simeq \underset{n \in \mathbb{N}}{\sqcup} X_n$;
+
+=--
+
+
 ## Related concepts
 
 * [[mapping cone]]
+
+## References
+
+* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
+
