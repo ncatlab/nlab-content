@@ -1424,7 +1424,7 @@ As a result of these general considerations we now obtain the promised isomorphi
 +-- {: .num_theorem #CelluarEquivalentToSingularFromSpectralSequence} 
 ###### Theorem
 
-For $X \in $ [[Top]] a [[CW complex]], def. \ref{CWComplex}, its [[cellular homology]], def. \ref{CellularChainComplex} $H^{CW}_\bullet(X)$ coincides with its [[singular homology9] $H_\bullet(X)$:  
+For $X \in $ [[Top]] a [[CW complex]], def. \ref{CWComplex}, its [[cellular homology]], def. \ref{CellularChainComplex} $H^{CW}_\bullet(X)$ coincides with its [[singular homology]] $H_\bullet(X)$:  
 
 $$ 
   H^{CW}_\bullet(X) \simeq H_\bullet(X)
