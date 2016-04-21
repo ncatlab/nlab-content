@@ -1594,7 +1594,7 @@ A [[Serre fibration]], def. \ref{SerreFibration} has the [[right lifting propert
 
 
 
-The following statement is foreshadowing the [[long exact sequences of homotopy groups]] ([below](#LongSequences)) induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) after having developed more of the abstract homotopy theory.
+The following statement is foreshadowing the [[long exact sequences of homotopy groups]] ([below](#LongSequences)) induced by any [[fiber sequence]], the full version of which we come to [below](HomotopyFiberSequences) (example \ref{LongExactSequeceOfHomotopyGroups}) after having developed more of the abstract homotopy theory. 
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
@@ -4465,7 +4465,6 @@ $$
 =--
 
 
-
 +-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex} 
 ###### Remark
 
@@ -4475,7 +4474,9 @@ Therefore writing $Top_{CW}\hookrightarrow Top$ for the [[full subcategory]] on 
 
 =--
 
-We checking that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
+
+
+We now check that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
 +-- {: .num_prop #TopologicalCylinderOnCWComplexIsGoodCylinderObject}
 ###### Proposition
@@ -7142,7 +7143,7 @@ Accordingly the [[suspension]] of a topological space is the result of shrinking
 
 (graphics taken from [Muro 10](http://personal.us.es/fmuro/praha.pdf))
 
-Below in prop. \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
+Below in example \ref{StandardTopologicalMappingConeIsHomotopyCofiber} we find the homotopy-theoretic interpretation of this standard topological mapping cone as a model for the _[[homotopy cofiber]]_.
 
 =--
 
@@ -7881,10 +7882,45 @@ is the morphism in the [[homotopy category of a model category|homotopy category
 
 =--
 
-In topological homotopy theory ([above](#TheClassicalHomotopyCategory)) this becomes the following:
++-- {: .num_example #FibersOfSerreFibrations}
+###### Example
+**(fibers of Serre fibrations)**
 
-+-- {: .num_prop #StandardTopologicalMappingConeIsHomotopyCofiber}
-###### Proposition
+In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (def. \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration} 
+
+$$
+  \array{
+    F &\longrightarrow& X
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    && B
+  }
+$$
+
+over any point is actually a [[homotopy fiber]] in the sense of def. \ref{HomotopyFiber}. With lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} this implies that the [[weak homotopy type]] of the fiber only depends on the Serre fibration up to weak homotopy equivalence in that if $p' \colon X' \to B'$ is another Serre fibration fitting into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X &\overset{\in W_{cl}}{\longrightarrow}& X'    
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{p'}}
+    \\
+    B &\overset{\in W_{cl}}{\longrightarrow}& B'
+  }
+$$
+
+then $F \overset{\in W_{cl}}{\longrightarrow} F'$. 
+
+In particular this gives that the [[weak homotopy type]] of the fiber of a Serre fibration does not change as the basepoint is moved in the same connected component. (Pull back along any path $I \to B$ and use that $I \stackrel{\in W_{cl}}{\to} \ast$).
+
+Or if $p \colon X\to B$ is already the restriction of a Serre fibration over a CW-complex to one cell $B = D^n$, then choosing $B' = \ast$ shows that the restriction of the original Serre fibration to that cell is weakly homotopy equivalent to $D^n \times F$. These arguments are used when deriving the [[Serre spectral sequence]] for $p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
+
+=--
+
+
++-- {: .num_example #StandardTopologicalMappingConeIsHomotopyCofiber}
+###### Example
 
 For every [[continuous function]] $f \colon X \longrightarrow Y$ between [[CW-complexes]], def. \ref{TopologicalCellComplex}, then the standard topological mapping cone is the attaching space (example \ref{PushoutInTop}) 
 
@@ -8442,7 +8478,7 @@ $$
 $$
 
 
-This is called the **[[long exact sequence of homotopy groups]]** induced by $f$.
+This is called the **[[long exact sequence of homotopy groups]]** induced by $f$. 
 
 As we pass to [[stable homotopy theory]] (in [[Introduction to Stable homotopy theory -- 1|Part 1)]]), these sequences become long not just to the left, but also to the right. Given then a [[tower of fibrations]], then there is an induced sequence of such long exact sequences of homotopy groups, which organizes into an _[[exact couple]]_. For more on this see at _[[Introduction to Stable homotopy theory -- I|Interlude) Spectral sequences]]_ [this remark](Introduction+to+Stable+homotopy+theory+--+I#UnrolledExactCoupleOfAFiltrationOnASpectrum).
 
