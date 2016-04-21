@@ -187,7 +187,6 @@ $$
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
 
 
-
 This is equivalent (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} below) to the following more succinct homotopy-theoretic definition:
 
 +-- {: .num_defn #ReducedGeneralizedCohomologyHomotopyTheoretically}
@@ -213,28 +212,73 @@ $$
 
 such that:
 
-1. it takes small [[wedge sums]] in $Ho(Top^{\ast/})$ to [[products]];
+* **(exactness)** it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) to [[exact sequence|exact sequences]].
 
-1. it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), to [[exact sequence|exact sequences]].
 
 =--
 
+As a consequence (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} below), we find yet another equivalent definition:
+
++-- {: .num_defn #ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}
+###### Definition
+
+A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
+
+$$
+  \tilde E^\bullet 
+   \;\colon\; 
+  Top^{\ast/}^{op} \longrightarrow Ab^{\mathbb{Z}}
+$$
+
+from the [[opposite category|opposite]] of the category of [[pointed topological spaces]] to $\mathbb{Z}$-[[graded abelian groups]], such that 
+
+* **(WHE)** it takes [[weak homotopy equivalences]] to isomorphisms
+
+and equipped with [[natural isomorphism]], to be called the **[[suspension isomorphism]]** of the form
+
+$$
+  \sigma
+    \;\colon\;
+  \tilde E^{\bullet +1}(\Sigma -) 
+    \overset{\simeq}{\longrightarrow} 
+  \tilde E^\bullet(-) 
+$$
+
+such that
+
+* **(exactness)** it takes [[homotopy cofiber]] sequences in $Ho(Top^{\ast/})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), to [[exact sequence|exact sequences]].
+
+=--
 
 +-- {: .num_prop #HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent}
 ###### Proposition
 
-The two definitions \ref{ReducedGeneralizedCohomology} and \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} are indeed equivalent.
+The three definitions 
+
+* def. \ref{ReducedGeneralizedCohomology}  
+
+* def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} 
+
+* def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor} 
+
+are indeed equivalent.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
+Regarding the equivalence of def. \ref{ReducedGeneralizedCohomology} with def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}:
+
 By the existence of the [[classical model structure on topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), its [[Quillen adjunction]] to the [[classical model structure on simplicial sets]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#EveryTopologicalSpaceWeaklyEquivalentToACWComplex)) and the characterization of its [[homotopy category of a model category|homotopy category]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects)), the homotopy invariance axiom in def. \ref{ReducedGeneralizedCohomology} is equivalent to the functor passing to the classical pointed homotopy category. In view of this and since on CW-complexes the standard topological mapping cone construction is a model for the [[homotopy cofiber]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#StandardTopologicalMappingConeIsHomotopyCofiber)), this gives the equivalence of the two versions of the exactness axiom.
+
+Regarding the equivalence of def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} with def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}:
+
+This is the [[universal property]] of the [[classical homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) which identifies it  with the [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of $Top^{\ast/}$ at the weak homotopy equivalences ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)).
 
 =--
 
-From def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} it is natural to consider this more general definition:
+Prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} naturally suggests (e.g. [Lurie, section 1.4](#LurieHigherAlgebra)) that the concept of generalized cohomology be formulated in the generality of any abstract homotopy theory ([[model category]]), not necessarily that of (pointed) topological spaces:
 
 +-- {: .num_defn #GeneralizedCohomologyOnGeneralInfinityCategory}
 ###### Definition
@@ -246,23 +290,27 @@ A **reduced additive [[generalized (Eilenberg-Steenrod) cohomology|generalized c
 1. a [[functor]]
 
    $$
-     E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
+     \tilde E^\bullet \;\colon \; Ho(\mathcal{C})^{op} \longrightarrow Ab^{\mathbb{Z}}
    $$
 
-1. a [[natural isomorphisms]] ("[[suspension isomorphisms]]") of degree +1
+1. a [[natural isomorphism]] ("[[suspension isomorphisms]]") of degree +1
 
    $$
-     \sigma \; \colon \; E^\bullet \longrightarrow E^{\bullet+1} \circ \Sigma
+     \sigma \; \colon \; \tilde E^\bullet \longrightarrow \tilde E^{\bullet+1} \circ \Sigma
    $$
 
-such that $E^\bullet$
+such that 
 
-1. **(exactness)** takes [[homotopy cofiber sequences]] to [[exact sequences]].
+* **(exactness)** $\tilde E^\bullet$ takes [[homotopy cofiber sequences]] to [[exact sequences]].
+
+In addition one may require
  
-1. **(additivity)** takes small [[coproducts]] to [[products]];
+* **(additivity)** $\tilde E^\bullet$ takes small [[coproducts]] to [[products]].
 
 
 =--
+
+We now discuss some constructions and consequences implied by the concept of reduced cohomology theories:
 
 +-- {: .num_defn #ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}
 ###### Definition
@@ -2589,12 +2637,14 @@ $$
 
 ##### The AHSS
 
+The following proposition requires, in general, to evaluate cohomology functors not just on [[CW-complexes]], but on all topological spaces. Hence we invoke prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} to regard a [[reduced cohomology theory]] as a contravariant functor on all pointed topological spaces, which sends [[weak homotopy equivalences]] to isomorphisms (def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}).
+
+
 +-- {: .num_prop #AHSSExistence}
 ###### Proposition
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
-
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
 
 $$
   \array{
