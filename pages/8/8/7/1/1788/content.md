@@ -1,21 +1,16 @@
+
 $$
-   \cdots
-  \to
-  \pi_3(X)
-   \overset{f_\ast}{\longrightarrow}
-  \pi_3(Y)
-   \longrightarrow
-  \pi_2(hofib(f))
-   \overset{}{\longrightarrow}
-  \pi_2(X)
-   \overset{f_\ast}{\longrightarrow}
-  \pi_2(Y)
-   \longrightarrow
-  \pi_1(hofib(f))
-   \overset{}{\longrightarrow}
-  \pi_1(X)
-    \overset{f_\ast}{\longrightarrow}
-  \pi_1(Y)
-   \overset{}{\longrightarrow}
-  \ast
+  \array{
+    \underset{\longleftarrow}{\lim}_n \pi_q(Tel(X_n))
+    &\overset{\simeq}{\longrightarrow}&
+    \pi_q(Tel(X))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow
+    \\
+    \underset{\longleftarrow}{\lim}_n \pi_q(X_n)
+    &\underset{\simeq}{\longrightarrow}&
+    \pi_q(X)    
+  }
+  \,.
 $$
+
