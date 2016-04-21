@@ -1898,7 +1898,436 @@ Via prop. \ref{CohomologyFunctorOnInfinityCategoryIsBrownFunctor}, theorem \ref{
 
 We need this for instance for the computation of [[Conner-Floyd Chern classes]] [below](#ConnerFloydChernClasses).
 
-**Literature.** ([Goerss-Jardine 99, section VI.2](#GoerssJardine99), [Kochman 96, section 4.2](#Kochman96))
+**Literature.** ([Switzer 75, section 7 from def. 7.57 on](#Switzer75), [Kochman 96, section 4.2](#Kochman96), [Goerss-Jardine 99, section VI.2](#GoerssJardine99), )
+
+##### $Lim^1$ and Mittag-Leffler condition
+ {#Lim1}
+
++-- {: .num_defn #TheBoundaryMapDefiningLim1}
+###### Definition
+
+Given a [[tower]] $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
+$$
+
+write
+
+$$
+  \partial
+    \;\colon\;
+  \underset{n}{\prod} A_n
+    \longrightarrow
+  \underset{n}{\prod} A_n
+$$
+
+for the homomorphism given by 
+
+$$
+  \partial \;\colon\; 
+    (a_n)_{n \in \mathbb{N}} 
+  \mapsto  
+    (a_n - f_n(a_{n+1}))_{n \in \mathbb{N}}.
+
+=--
+
++-- {: .num_defn #LimitAsKernelAnalogousToLim1}
+###### Remark
+
+The [[limit]] of a sequence as in def. \ref{TheBoundaryMapDefiningLim1} -- hence the group $\underset{\longleftarrow}{\lim}_n A_n$ universally equipped with morphisms $\underset{\longleftarrow}{\lim}_n A_n \overset{p_n}{\to} A_n$ such that all
+
+$$
+  \array{
+     && \underset{\longleftarrow}{\lim}_n A_n
+     \\
+     & {}^{\mathllap{p_{n+1}}}\swarrow && \searrow^{\mathrlap{p_n}}
+     \\
+     A_{n+1} && \overset{f_n}{\longrightarrow} && A_n
+  }
+$$
+
+[[commuting diagram|commute]] -- is equivalently the [[kernel]] of the morphism $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}.
+
+=--
+
++-- {: .num_defn #Lim1ViaCokernel}
+###### Definition
+
+Given a [[tower]] $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
+$$
+
+then its "[[lim^1]]" $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is the [[cokernel]] of the map $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}, hence the group that makes a [[long exact sequence]] of the form
+
+$$
+  0 \to 
+  \underset{\longleftarrow}{\lim}_n A_n
+  \longrightarrow
+  \underset{n}{\prod} A_n
+   \stackrel{\partial}{\longrightarrow}
+  \underset{n}{\prod} A_n
+    \longrightarrow
+  \underset{\longleftarrow}{\lim}^1_n A_n
+  \to 0
+  \,,
+$$
+
+
+=--
+
++-- {: .num_defn #MittagLefflerCondition}
+###### Definition
+
+A tower $A_\bullet$ of [[abelian groups]]
+
+$$
+  \cdots \to A_3 \to A_2 \to A_1 \to A_0
+$$
+
+is said to satify the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
+ 
+$$
+  im(A_i \to A_k) \simeq im(A_j \to A_k)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The Mittag-Leffler condition, def. \ref{MittagLefflerCondition}, is satisfied in particular when all morphisms $A_{i+1}\to A_i$ are [[epimorphisms]] (hence [[surjections]] of the underlying [[sets]]).
+
+=--
+
++-- {: .num_prop #Lim1VanihesUnderMittagLeffler}
+###### Proposition
+
+If a tower $A_\bullet$ satisfies the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, then its $\underset{\leftarrow}{\lim}^1$ vanishes:
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet = 0
+  \,.
+$$
+
+=--
+
+([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96))
+
+
+##### Mapping telescopes
+
++-- {: .num_defn #MappingTelescope}
+###### Definition
+
+For
+
+$$
+  X_\bullet
+  =
+  \left(
+  X_0 
+   \overset{f_0}{\longrightarrow}
+  X_1
+   \overset{f_1}{\longrightarrow}
+  X_2
+   \overset{f_2}{\longrightarrow}
+  \cdots
+  \right)
+$$
+
+a sequence  in [[Top]], its **mapping telescope** is the [[quotient topological space]] of the [[disjoint union]] of [[product topological spaces]]
+
+$$
+  Tel(X_\bullet)
+  \coloneqq
+  \left(
+  \underset{n \in \mathbb{N}}{\sqcup}  
+  \left(
+    X_n \times [n,n+1]
+  \right)
+  \right)/_\sim
+$$
+
+where the [[equivalence relation]] quotiented out is
+
+$$
+  (x_n, n) \sim (f(x_n), n+1)
+$$
+
+for all $n\in \mathbb{N}$ and $x_n \in X_n$.
+
+Analogously for $X_\bullet$ a sequence of [[pointed topological spaces]] then use [[reduced cylinders]] to set
+
+$$
+  Tel(X_\bullet)
+  \coloneqq
+  \left(
+  \underset{n \in \mathbb{N}}{\sqcup}  
+  \left(
+    X_n \wedge [n,n+1]_+
+  \right)
+  \right)/_\sim
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #TelescopeOfCWComplexEquivalentToTheOriginal}
+###### Definition
+
+For $X_\bullet$ the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, then the canonical map
+
+$$
+  Tel(X_\bullet)
+  \longrightarrow
+  X
+$$
+
+from the [[mapping telescope]], def. \ref{MappingTelescope}, is a [[homotopy equivalence]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+We show that the map is a [[weak homotopy equivalence]]. Because domain and codomain are [[CW-complexes]], by [[Whitehead's theorem]] it is then also a homotopy equivalence.
+
+Write in the following $Tel(X)$ for $Tel(X_\bullet)$ and write $Tel(X_n)$ for the mapping telescop of the substages of the finite stage $X_n$ of $X$. It is intuitively clear that each of the projections at finite stage
+
+$$
+  Tel(X_n) \longrightarrow X_n
+$$
+
+is a homotopy equivalence. A concrete construction of a homotopy inverse is given for instance in ([Switzer 75, proof of prop. 7.53](#Switzer75)).
+
+Moreover, since spheres are [[compact object|compact]], so that elements of [[homotopy groups]] $\pi_q(Tel(X))$ are represented at some finite stage $\pi_q(Tel(X_n))$ it follows that 
+
+$$
+  \underset{\longrightarrow}{\lim}_n \pi_q(Tel(X_n)) 
+    \overset{\simeq}{\longrightarrow} 
+  \pi_q(Tel(X))
+$$
+
+are [[isomorphisms]] for all $q\in \mathbb{N}$ and all choices of basepoints (not shown). 
+
+Together these two facts imply that in the following commuting square, three morphisms are isomorphisms, as shown.
+
+$$
+  \array{
+    \underset{\longleftarrow}{\lim}_n \pi_q(Tel(X_n))
+    &\overset{\simeq}{\longrightarrow}&
+    \pi_q(Tel(X))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow
+    \\
+    \underset{\longleftarrow}{\lim}_n \pi_q(X_n)
+    &\underset{\simeq}{\longrightarrow}&
+    \pi_q(X)    
+  }
+  \,.
+$$
+
+Therefore also the remaining morphism is an isomorphism ([[two-out-of-three]]). Since this holds for all $q$ and all basepoints, it is a weak homotopy equivalence.
+
+=--
+
+##### Milnor sequences
+
++-- {: .num_prop #MilorSequenceForReducedCohomologyOnCWComplex}
+###### Proposition
+
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$ and let $\tilde E^\bullet$ an [additive](#WedgeAxiom) [[reduced cohomology theory]], def. \ref{ReducedGeneralizedCohomology}.
+
+Then the canonical morphisms make a [[short exact sequence]]
+
+   $$
+     0 
+      \to 
+     \underset{\longleftarrow}{\lim}^1_n \tilde E^{\bullet-1}(X_n)
+      \longrightarrow
+     \tilde E^{\bullet}(X)
+      \longrightarrow
+     \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
+     \to 
+     0
+     \,,
+   $$
+
+saying that 
+
+1. the failure of the canonical comparison map $\tilde E^\bullet(X) \to \underset{\longleftarrow}{\lim} \tilde E^\bullet(X_n)$ to the [[limit]] of the [[cohomology groups]] on the finite stages to be an [[isomorphism]] is at most in a non-vanishing [[kernel]];
+
+1. this kernel is precisely the $\lim^1$ (def. \ref{Lim1ViaCokernel}) of the cohomology groups at the finite stages in one degree lower.
+
+=--
+
+e.g. ([Switzer 75, prop. 7.66](#Switzer75), [Kochmann 96, prop. 4.2.2](#Kochmann96))
+
+
++-- {: .proof}
+###### Proof
+
+
+For 
+
+$$
+  X_\bullet
+  = 
+  \left(
+    X_0 
+      \overset{i_0}{\hookrightarrow}
+    X_1 
+      \overset{i_1}{\hookrightarrow}
+    X_2 
+      \overset{i_1}{\hookrightarrow}
+    \cdots
+  \right)
+$$ 
+
+the sequence of stages of the ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, write
+
+$$
+  \begin{aligned}
+    A_X 
+    &\coloneqq 
+    \underset{n \in \mathbb{N}}{\sqcup} X_{2n} \times [2n,{2n}+1];
+  \\
+    B_X 
+    &\coloneqq 
+    \underset{n \in \mathbb{N}}{\sqcup} X_{(2n+1)} \times [2n+1,{2n}+2].
+  \end{aligned}
+$$
+
+for the [[disjoint unions]] of the [[cylinders]] over all the stages in even and all those in odd degree, respectively.
+
+These come with canonical inclusion maps into the [[mapping telescope]] $Tel(X_\bullet)$ ([def.](mapping+telescope#MappingTelescope)), which we denote by
+
+$$
+  \array{
+    A_X && && B_X
+    \\
+    & {}_{\mathllap{\iota_{A_x}}}\searrow && \swarrow_{\mathrlap{\iota_{B_x}}}
+    \\
+    && Tel(X_\bullet)
+  }
+  \,.
+$$
+
+Observe that 
+
+1. $A_X \cup B_X \simeq Tel(X_\bullet)$;
+
+1. $A_X \cap B_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_n$;
+
+and that there are [[homotopy equivalences]]
+
+1. $A_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_{2n+1}$
+
+1. $B_X \simeq \underset{n \in \mathbb{N}}{\sqcup} X_{2n}$
+
+1. $Tel(X_\bullet) \simeq X$.
+
+The first two are obvious, the third is [this proposition](mapping+telescope#TelescopeOfCWComplexEquivalentToTheOriginal). 
+
+This implies that the [[Mayer-Vietoris sequence]] ([prop.](generalized+cohomology#MayerVietorisSequenceInGeneralizedCohomology)) for $\tilde E^\bullet$ on the cover $A \sqcup B \to X$ is isomorphic to the bottom horizontal sequence in the following diagram:
+
+$$
+  \array{
+     \tilde E^{\bullet-1}(A_X)\oplus \tilde E^{\bullet-1}(B_X)
+      &\longrightarrow&
+    \tilde E^{\bullet-1}(A_X \cap B_X)
+      &\longrightarrow& 
+    \tilde E^\bullet(X)
+      &\overset{(\iota_{A_x})^\ast - (\iota_{B_x})^\ast}{\longrightarrow}&
+    \tilde E^\bullet(A_X)\oplus \tilde E^\bullet(B_X)
+      &\overset{}{\longrightarrow}&
+    \tilde E^\bullet(A_X \cap B_X)
+    \\
+    \downarrow^{\mathrlap{\simeq}}
+     &&
+    \downarrow^{\mathrlap{\simeq}} 
+      && 
+    \downarrow^{\mathrlap{=}}
+      &&
+    {}^{\mathllap{(id, -id)}}\downarrow^{\mathrlap{\simeq}}
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n)
+      &\underset{\partial}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^{\bullet-1}(X_n) 
+      &\longrightarrow& 
+    \tilde E^\bullet(X)
+      &\overset{(i_n^\ast)_{n}}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^\bullet(X_n)
+      &\underset{\partial}{\longrightarrow}&
+    \underset{n}{\prod}\tilde E^\bullet(X_n)
+  }
+  \,,
+$$
+
+hence that the bottom sequence is also a [[long exact sequence]].
+
+To identify the morphism $\partial$, notice that it comes from pulling back $E$-cohomology classes along the inclusions $A \cap B \to A$ and $A\cap B \to B$. Comonentwise these are the inclusions of each $X_n$ into the left and the right end of its cylinder inside the [[mapping telescope]], respectively. By the construction of the [[mapping telescope]], one of these ends is embedded via $i_n \colon X_n \hookrightarrow X_{n+1}$ into the cylinder over $X_{n+1}$. In conclusion, $\partial$ acts by
+
+$$
+  \partial
+    \;\colon\;
+  (a_n)_{n \in \mathbb{N}}
+    \mapsto
+  ( a_n - i_n^\ast(a_{n+1}) )
+  \,.
+$$
+
+(The relative sign is the one in $(\iota_{A_x})^\ast - (\iota_{B_x})^\ast$ originating in the definition of the [[Mayer-Vietoris sequence]] and properly propagated to the bottom sequence while ensuring that $\tilde E^\bullet(X)\to \prod_n \tilde E^\bullet(X_n)$ is really $(i_n^\ast)_n$ and not $(-1)^n(i_n^\ast)_n$, as needed for the statement to be proven.)
+
+This is the morphism from def. \ref{TheBoundaryMapDefiningLim1} for the sequence
+
+$$
+   \cdots
+    \to 
+  \tilde E^\bullet(X_{n+1}) 
+    \overset{i_n^\ast}{\longrightarrow}
+  \tilde E^\bullet(X_n)
+    \overset{i_n^\ast}{\longrightarrow}
+  \tilde E^{\bullet}(X_{n-1})
+   \to
+   \cdots
+ \,.
+$$
+
+Hence truncating the above long exact sequence by forming kernel and cokernel of $\partial$, the result follows via remark \ref{LimitAsKernelAnalogousToLim1} and definition \ref{Lim1ViaCokernel}.
+
+=--
+
+In contrast:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underset{\longleftarrow}{\lim}_n X_n$.
+
+For $\tilde E_\bullet$ an additive reduced [[generalized homology theory]], then
+
+   $$
+     \underset{\longrightarrow}{\lim}_n \tilde E_\bullet(X_n)
+     \overset{\simeq}{\longrightarrow}
+     \tilde E_\bullet(X)
+   $$
+
+   is an [[isomorphism]].
+
+=--
+
+([Switzer 75, prop. 7.53](#Switzer75))
+
+
+
 
 
 #### Serre-Atiyah-Hirzebruch spectral sequence
@@ -2182,7 +2611,7 @@ If at least one of the following two conditions is met
 
 * $B$ is [[finite number|finite]]-dimensional as a [[CW-complex]];
 
-* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] for all $p$;
+* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}) for all $p$;
 
 then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
@@ -2352,7 +2781,7 @@ $$
   \,.
 $$
 
-If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]], then this limit is $A^\bullet(X)$.
+If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then this limit is $A^\bullet(X)$, by prop. \ref{Lim1VanihesUnderMittagLeffler}.
 
  
 =--
