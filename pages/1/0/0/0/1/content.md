@@ -23,9 +23,6 @@ $\,$
 $\,$
 =--
 
-
-[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
-
 # The $n$Lab
 * table of contents
 {:toc}
@@ -33,15 +30,17 @@ $\,$
 ## Purpose
 {#purpose}
 
-We think of this wiki as our **lab book** that we happen to keep open for all to see.
-
 +-- {: .standout}
+
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
+
+=--
+
+We think of this wiki as our **lab book** that we happen to keep open for all to see.
 
 The **purpose of the $n$Lab** is to provide a public place where people can make notes about stuff. The purpose is not to make polished expositions of material;  that is a happy by-product. 
 
 We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
-
-=--
 
 For more see 
 
