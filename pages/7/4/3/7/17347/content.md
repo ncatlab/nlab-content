@@ -1957,7 +1957,7 @@ if
 
     $E_\infty^{s,t} \coloneqq E_{\gg 1}^{s,t}$;
 
-1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the the filtered $C^\bullet$ in that
+1. $E_\infty^{\bullet,\bullet}$ is the [[associated graded]] of the filtered $C^\bullet$ in that
 
    $E_\infty^{s,t} \simeq F^s C^{s+t} / F^{s+1}C^{s+t}$.
 
@@ -2165,7 +2165,7 @@ $$
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}). Let $B$ be a [[simply connected topological space|simply connected]] [[finite CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{GeneralizedCohomologyTheory}). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
 
 $$
   \array{
@@ -2173,12 +2173,18 @@ $$
     \\
     && \downarrow^{\mathrlap{\in Fib_{cl}}}
     \\
-    && X
+    && B
   }
   \,.
 $$
 
-Then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
+If at least one of the following two conditions is met
+
+* $B$ is [[finite number|finite]]-dimensional as a [[CW-complex]];
+
+* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] for all $p$;
+
+then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
 $$
   E_2^{p,q} 
@@ -2238,21 +2244,9 @@ $$
   \,,
 $$
 
-where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. This immediately implies that the convergence conditions for the induced spectral sequence in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} are met, so that we indeed have convergence to 
+where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. 
 
-$$
-  \underset{\longleftarrow}{\lim}
-  \left(
-    \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
-    \to \cdots
-  \right)
-  \simeq
-  A^\bullet(X).
-$$
-
-In order to determine the $E_2$-page, we analyze the $E_1$-page:
-
-By definition
+In order to determine the $E_2$-page, we analyze the $E_1$-page: By definition
 
 $$
   E_1^{s,t}
@@ -2294,13 +2288,13 @@ $$
 where we used the relation to [[reduced cohomology]] $\tilde A$, prop. \ref{ReducedToUnreducedGeneralizedCohomology} together with lemma \ref{EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}, 
 then the [wedge axiom](#WedgeAxiom) and the [suspension isomorphism](#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. 
 
-The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$.
+The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$. 
 
-Hence to conclude, it remains to show that on this group the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
+Since [[cellular cohomology]] of a [[CW-complex]] agrees with its [[singular cohomology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence with its [[ordinary cohomology]], to conclude that the $E_2$-page is as claimed, it is now sufficient to show that the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
 
-We discuss this now for $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following:
+We discuss this now for $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following: 
 
-Consider the following commuting diagram
+Consider the following diagram, which [[commuting diagram|commutes]] due to the [[natural transformation|naturality]] of the [connecting homomorphism](#ConnectingHomomorphismOfUnreducedCohomology) $\delta$ of $A^\bullet$:
 
 $$
   \array{
@@ -2341,9 +2335,24 @@ $$
   \,.
 $$
 
-Here the bottom vertical morphisms are those induced from any chosen cell inclusion $(D^s , S^{s-1}) \hookrightarrow (X_s, X_{s-1})$ and $\delta$ are the [connecting homomorphisms](#ConnectingHomomorphismOfUnreducedCohomology).
- 
-The differential $d_1$ in the spectral sequence is the middle horizontal composite, the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
+Here the bottom vertical morphisms are those induced from any chosen cell inclusion $(D^s , S^{s-1}) \hookrightarrow (X_s, X_{s-1})$.
+
+The differential $d_1$ in the spectral sequence is the middle horizontal composite. From this the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
+
+Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} to obtain convergence. 
+
+By that proposition the convergence is to the [[inverse limit]]
+
+$$
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
+    \to \cdots
+  \right)
+  \,.
+$$
+
+If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]], then this limit is $A^\bullet(X)$.
 
  
 =--
