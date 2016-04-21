@@ -222,7 +222,7 @@ Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underse
      \underset{\longleftarrow}{\lim}^1_n
      \tilde E^{\bullet-1}(X_n)
       \longrightarrow
-     \tilde E^{\bullet(X)}
+     \tilde E^{\bullet}(X)
       \longrightarrow
      \underset{\longleftarrow}{\lim}_n \tilde E^{\bullet}(X_n)
      \to 
@@ -230,7 +230,16 @@ Let $X$ be a [[pointed topological space|pointed]] [[CW-complex]], $X = \underse
      \,.
    $$
 
-e.g. ([Kochmann 96, prop. 4.2.2](#Kochmann96))
+
+=--
+
+e.g. ([Switzer 75, prop. 7.53 and prop. 7.66](#Switzer75) [Kochmann 96, prop. 4.2.2](#Kochmann96))
+
+
++-- {: .proof}
+###### Proof
+
+...use the [[mapping telescope]] of $X$...
 
 =--
 
