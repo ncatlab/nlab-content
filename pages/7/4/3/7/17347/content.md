@@ -2118,6 +2118,25 @@ $$
 
 ##### Mapping telescopes
 
+Given a sequence 
+
+$$
+  X_\bullet
+  =
+  \left(
+  X_0 
+   \overset{f_0}{\longrightarrow}
+  X_1
+   \overset{f_1}{\longrightarrow}
+  X_2
+   \overset{f_2}{\longrightarrow}
+  \cdots
+  \right)
+$$
+
+of ([[pointed topological space|pointed]]) [[topological spaces]], then its _mapping telescope_ is the result of forming the (reduced) [[mapping cylinder]] $Cyl(f_n)$ for each $n$ and then attaching all these cylinders to each other in the canonical way
+
+
 +-- {: .num_defn #MappingTelescope}
 ###### Definition
 
@@ -2158,7 +2177,7 @@ $$
 
 for all $n\in \mathbb{N}$ and $x_n \in X_n$.
 
-Analogously for $X_\bullet$ a sequence of [[pointed topological spaces]] then use [[reduced cylinders]] to set
+Analogously for $X_\bullet$ a sequence of [[pointed topological spaces]] then use [[reduced cylinders]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) to set
 
 $$
   Tel(X_\bullet)
