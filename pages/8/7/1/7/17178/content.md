@@ -196,13 +196,13 @@ Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[point
 
 1. $X \wedge K$ is the sequential spectrum with 
 
-   * $(X \wedge K)_n \coloneqq X_n \wedge K$
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
 
    * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
 
 1. $X^K$ is the sequential spectrum with
 
-   * $(X^K)_n \coloneqq (X_n)^K$
+   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
 
    * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
  
@@ -237,9 +237,9 @@ There are _three_ common constructions of looping and suspension of sequential s
 
 For $X$ a [[sequential spectrum]] and $k \in \mathbb{Z}$, the $k$-fold **shifted spectrum** of $X$ is the sequential spectrum denoted $X[k]$ given by
 
-* $(X[k])_n \coloneqq X_{n+k}$;
+* $(X[k])_n \coloneqq \left\{ \array{X_{n+k} & for \; n+k \geq 0 \\ \ast & otherwise } \right. $;
 
-* $\sigma_n^{X[k]} \coloneqq \sigma^X_{n+k}$.
+* $\sigma_n^{X[k]} \coloneqq \left\{ \array{ \sigma^X_{n+k} & for \; n+k \geq 0 \\ 0 & otherwise} \right. $.
 
 =--
 
@@ -288,10 +288,107 @@ The canonical morphism
 
 1. $X[-1] \longrightarrow \Omega X$ is given in degree $n$ by $\tilde \sigma^X_{n-1}$.
 
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The constructions from def. \ref{ShiftedSpectrum}, def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
+
+1. $(-)[1] \dashv (-)[-1]$;
+
+1. $(-)\wedge S^1 \dashv (-)^{S^1}$;
+
+1. $\Sigma \dashv \Omega$.
 
 =--
 
++-- {: .proof}
+###### Proof
 
+The first is immediate from the definition. 
+
+The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
+
+The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
+
+Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
+
+$$
+  \array{  
+    S^1 \wedge S^1 \wedge X_{n} 
+      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
+    S^1 \wedge Y_{n}
+    \\
+    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{\sigma^Y_n}}
+    \\
+    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
+  \,.
+$$
+
+Applying the adjunction isomorphism diagonally once gives a bijection to diagrams of this form:
+
+$$
+  \array{
+   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
+   \\
+   {}^{\mathllap{\sigma_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+   \\
+   X_{n+1} &\underset{\tilde f_n}{\longrightarrow}& (Y_{n+1})^{S^1}
+  }
+  \,.
+$$
+
+Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+
+$$
+  \array{
+    X_n &\overset{\tilde f_n}{\longrightarrow}& (Y_n)^{S^1}
+    \\
+    {}^{\mathllap{\tilde \sigma_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{(\tilde \sigma^Y_n)^{S^1}}}
+    \\
+    (X_{n+1})^{S^1}
+    &\underset{(\tilde f_n)^{S^1}}{\longrightarrow}&
+    \left((Y_{n+1})^{S^1}\right)^{S^1}
+  }
+  \,.
+$$
+
+This finally equivalently exhibits morphisms of the form
+
+$$
+  X \longrightarrow \Omega Y
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a sequential spectrum, then $X[-1][1] = X$ while $X[1][-1]$ is $X$ with its 0-th component space set to the point. The [[adjunction unit]] $X \to X[1][-1]$ has components
+
+$$
+  \array{
+     \vdots && \vdots
+     \\
+     X_2 &\overset{id}{\longrightarrow}& X_2
+     \\
+     X_1 &\overset{id}{\longrightarrow}& X_1
+     \\
+     \underbrace{X_0} &\overset{0}{\longrightarrow}& \underbrace{\;\ast\;}
+     \\
+     X &\overset{\eta}{\longrightarrow}& X[1][-1]
+  }
+  \,.
+$$
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
@@ -316,7 +413,6 @@ between the real looping (def. \ref{SequentialSpectrumRealSuspension}), the fake
 =--
 
 ([Jardine 15, corollary 10.54](#Jardine15))
-
 
 
 ### Relation to excisive functors
