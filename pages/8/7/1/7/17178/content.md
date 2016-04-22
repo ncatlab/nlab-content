@@ -274,10 +274,17 @@ For $X$ a sequential spectrum, then
 
 Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
 
-
 =--
 
 e.g. ([Jardine 15, section 10.4](#Jardine15)).
+
++-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
+###### Remark
+
+The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} commute with shifting, def. \ref{ShiftedSpectrum}. Therefore in expressions like $\Sigma (X[1])$ etc. we may omit the parenthesis.
+
+=--
+
 
 +-- {: .num_defn }
 ###### Definition
@@ -290,12 +297,12 @@ The canonical morphism
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
 ###### Proposition
 
 The constructions from def. \ref{ShiftedSpectrum}, def. \ref{SequentialSpectrumRealSuspension} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
 
-1. $(-)[1] \dashv (-)[-1]$;
+1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
 
 1. $(-)\wedge S^1 \dashv (-)^{S^1}$;
 
@@ -329,15 +336,15 @@ $$
   \,.
 $$
 
-Applying the adjunction isomorphism diagonally once gives a bijection to diagrams of this form:
+Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
 
 $$
   \array{
    S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
    \\
-   {}^{\mathllap{\sigma_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
    \\
-   X_{n+1} &\underset{\tilde f_n}{\longrightarrow}& (Y_{n+1})^{S^1}
+   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& (Y_{n+1})^{S^1}
   }
   \,.
 $$
@@ -393,6 +400,106 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
+For $X$ a sequential spectrum, then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
+
+1. the structure maps constitute a homomorphism
+
+   $$
+     \Sigma X[-1]
+     \longrightarrow
+     X
+   $$
+
+   and this is a stable equivalence.
+
+1. the adjunct structure maps constitute a homomorphism
+
+   $$
+     X
+     \longrightarrow
+     \Omega X[1]
+     \,.
+   $$
+
+   If $X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) then this is a weak equivalence in the strict model structure, hence in particular a stable equivalence.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The diagrams that need to commute for the structure maps to give a homomorphism as claimed are in degree 0 this one
+
+$$
+  \array{
+    S^1 \wedge S^1 \wedge \ast &\overset{0}{\longrightarrow}& X_0
+    \\
+    {}^{\mathllap{S^1 \wedge 0}}\downarrow && \downarrow^{\mathrlap{\sigma_0}}
+    \\
+    S^1 \wedge X_0 &\underset{\sigma_0}{\longrightarrow}& X_1
+  }
+$$
+
+and in degree $n \geq 1$ these:
+
+$$
+  \array{
+     S^1 \wedge S^1 \wedge X_{n-1} 
+        &\overset{S^1 \wedge \sigma_{n-1}}{\longrightarrow}& 
+     X_n
+     \\
+     {}^{\mathllap{S^1 \wedge \sigma_{n-1}}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\sigma_n}}
+     \\
+     S^1 \wedge X_{n} 
+       &\underset{\sigma_n}{\longrightarrow}& 
+     X_{n+1}
+  }
+  \,.
+$$
+
+But in all these cases commutativity it trivially satisfied. 
+
+Now as in the proof of prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}, under applying the $(S^1\wedge (-)) \dashv (-)^{S^1}$-adjunction isomorphism twice, these diagrams are in bijection to diagrams for $n \geq 1$ of the form
+
+$$
+  \array{
+    X_{n-1} &\overset{\tilde \sigma_{n-1}}{\longrightarrow}& (X_n)^{S^1}
+    \\
+    {}^{\mathllap{\tilde \sigma_{n-1}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\tilde \sigma_n}}
+    \\
+    (X_n)^{S^1}
+      &\underset{(\tilde \sigma_n)^{S^1}}{\longrightarrow}&
+    \left((X_n)^{S^1}\right)^{S^1}
+  }
+  \,.
+$$
+
+This gives the claimed morphism $X \to \Omega X[-1]$.
+
+If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
+
+From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+
+$$
+  \array{
+     [X, Y]_{strict} &\overset{}{\longrightarrow}& [\Sigma X[-1],Y]_{strict}
+     \\
+     {}^{\mathllap{id}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     [X,Y]_{strict}  &\underset{\simeq}{\longrightarrow}& [X, \Omega Y[1]]_{strict}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
 For $X$ a sequential spectrum in simplicial sets. Then there are stable equivalences
 
 $$
@@ -413,6 +520,7 @@ between the real looping (def. \ref{SequentialSpectrumRealSuspension}), the fake
 =--
 
 ([Jardine 15, corollary 10.54](#Jardine15))
+
 
 
 ### Relation to excisive functors
