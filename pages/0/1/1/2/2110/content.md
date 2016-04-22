@@ -34,3 +34,5 @@ $$
 for some $t : X_i \to X$ and some $i$.
 
 This is a smallness condition in that the family is required to be indexed by a [[small set]].
+
+## Examples
