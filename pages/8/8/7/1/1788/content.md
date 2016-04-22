@@ -1,30 +1,18 @@
 $$
   \array{
-     S^1 \wedge S^1 \wedge X_n &\longrightarrow& S^1 \wedge X_n \wedge S^1
+     && L Q R (\Sigma X)
+       &\underoverset{\in W_{st}}{L Q \tau}{\longrightarrow}&
+     L Q R (X\wedge S^1)
      \\
-     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
-       &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
+     &{}^{\mathllap{\in W_{st}}}
+       \swarrow & \downarrow && \downarrow & 
+       \searrow^{\mathrlap{\in W_{st}}}
      \\
-     S^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S^1
+     \Sigma X
+     &\longleftarrow& L R (\Sigma X) 
+     & \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow} &
+     L R (X \wedge S^1)
+     &\longrightarrow&
+     X \wedge S^1
   }
 $$
-
-Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
-
-$$
-  \array{
-     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
-     \\
-     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
-       &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
-     \\
-     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
-  }
-$$
-
-This makes it manifest that as $S^1_a$ passes long the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
-
-However, we may get around this by considering two consecutive structure maps, such that $S_a^2$ is to be braided around. Then it works.
-
