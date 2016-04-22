@@ -395,6 +395,8 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 
 * the [[small object argument]] is about factoring morphisms into $J$-cofibrations followed by $J$-injective morphisms.
 
+[[!redirects injective or projective morphisms]]
+
 [[!redirects injective morphism]]
 [[!redirects injective morphisms]]
 
