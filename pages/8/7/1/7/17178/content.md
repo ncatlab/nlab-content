@@ -184,11 +184,37 @@ Prop. \ref{SequentialSpectraAsDiagramSpectra} is a special case of a more genera
 
 ## Properties
 
+### Tensoring and powering over pointed spaces
+
+
+The following defines [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
+
++-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
+###### Definition
+
+Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
+
+1. $X \wedge K$ is the sequential spectrum with 
+
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$
+
+   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
+
+1. $X^K$ is the sequential spectrum with
+
+   * $(X^K)_n \coloneqq (X_n)^K$
+
+   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
+ 
+=--
+
+
+
 
 ### Model category structures
  {#ModelCategoryStructures}
 
-There is a standard [[model structure on spectra]] for sequential spectra in [[Top]] ([Kan 63](#Kan63)) and for sequential spectra in [[simplicial sets]]: this is the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
+There is a standard [[model structure on spectra]] for sequential spectra in [[Top]] the [[model structure on topological sequential spectra]] ([Kan 63](#Kan63), [MMSS 00](#MMSS00))  and in [[simplicial sets]], the [[Bousfield-Friedlander model structure]] ([Bousfield-Friedlander 78](#BousfieldFriedlander78)).
 
 The _strict_ Bousfield-Friedlander model structure (of which the actual stable version is the [[Bousfield localization of model categories|left Bousfield localization]] at the [[stable weak homotopy equivalences]]) is equivalently the [[projective model structure on enriched functors]] for the presentation of sequential spectra from prop. \ref{SequentialSpectraAsDiagramSpectra}:
 
@@ -200,6 +226,97 @@ $$
   [StdSpheres, Top^{\ast/}_{Quillen}]_{proj}
   \,.
 $$
+
+### Suspension and looping
+ {#SuspensionAndLooping}
+
+There are _three_ common constructions of looping and suspension of sequential spectra (with analogues for [[highly structured spectra]]). While they are not isomorphic, they are stably equivalent. 
+
++-- {: .num_defn #ShiftedSpectrum}
+###### Definition
+
+For $X$ a [[sequential spectrum]] and $k \in \mathbb{Z}$, the $k$-fold **shifted spectrum** of $X$ is the sequential spectrum denoted $X[k]$ given by
+
+* $(X[k])_n \coloneqq X_{n+k}$;
+
+* $\sigma_n^{X[k]} \coloneqq \sigma^X_{n+k}$.
+
+=--
+
+
++-- {: .num_defn #SequentialSpectrumRealSuspension}
+###### Definition
+
+For $X$ a sequential spectrum, then
+
+1. the **real suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+
+1. the **real looping** of $X$ is $X^{S^1}$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+
+=--
+
++-- {: .num_defn #SequentialSpectrumFakeSuspension}
+###### Definition
+
+For $X$ a sequential spectrum, then
+
+1. the **fake suspension** of $X$ is the sequential spectrum $\Sigma X$ with
+
+   1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
+
+   1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
+
+1. the **fake looping** of $X$ is the sequential spectrum $\Omega X$ with
+
+   1. $(\Omega X)_n \coloneqq (X_n)^{S^1}$;
+
+   1. $\tilde \sigma_n^{\Omega X} \coloneqq (\sigma_n)^{S^1}$.  
+
+Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigma_n$.
+
+
+=--
+
+e.g. ([Jardine 15, section 10.4](#Jardine15)).
+
++-- {: .num_defn }
+###### Definition
+
+The canonical morphism
+
+1. $\Sigma X \longrightarrow X[1]$ is given in degree $n$ by $\sigma_n^X$.
+
+1. $X[-1] \longrightarrow \Omega X$ is given in degree $n$ by $\tilde \sigma^X_{n-1}$.
+
+
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a sequential spectrum in simplicial sets. Then there are stable equivalences
+
+$$
+  X\wedge S^1 \longrightarrow \Sigma X \longrightarrow X[1]
+$$
+
+between the real suspension (def. \ref{SequentialSpectrumRealSuspension}), the fake suspension (def. \ref{SequentialSpectrumFakeSuspension}) and the shift by +1 (def. \ref{ShiftedSpectrum}) of $X$.
+
+If each $X_n$ is a [[Kan complex]], then there are stable equivalences
+
+$$
+  X^{S^1} \longrightarrow \Omega X \longrightarrow X[-1]
+$$
+
+between the real looping (def. \ref{SequentialSpectrumRealSuspension}), the fake looping (def. \ref{SequentialSpectrumFakeSuspension}) and the shift by -1 (def. \ref{ShiftedSpectrum}) of $X$.
+
+
+=--
+
+([Jardine 15, corollary 10.54](#Jardine15))
+
 
 
 ### Relation to excisive functors
@@ -378,8 +495,9 @@ Under the Quillen equivalence of prop.
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], section 11 of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
-
 * {#Schwede12} [[Stefan Schwede]], _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
+* {#Jardine15} [[John F. Jardine]], section 10 of _[[Local homotopy theory]]_, 2016
 
 [[!redirects sequential spectra]]
 
