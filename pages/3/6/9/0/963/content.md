@@ -22,10 +22,10 @@
 ## Definition
 
 A **quantale** is a [[closed monoidal category|closed monoidal]] [[suplattice]].  Equivalently, it is a [[monoid|monoid object]] in the closed symmetric monoidal category of suplattices where the 
-morphisms are the set maps that preserve arbitrary joins. This means it is a poset having all [[joins]] and an associative, unital [[tensor product]] $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]).The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.  Unitality is 
+morphisms are the set maps that preserve arbitrary joins. This means it is a poset having all [[joins]] and an associative, unital [[tensor product]] $\otimes$ which distributes over joins (the internal-homs then come automatically by the [[adjoint functor theorem]]). The internal-homs in a quantale are sometimes called _residuations_ and written $x\backslash y$ and $y/x$.  Unitality is 
 skipped by some authors; in that case we can talk about subclass of unital quantales. 
 
-As a semigroup (monoid if unital) in suplattices, a quantale is essentially the same thing as a 1-object [[quantaloid]], i.e., a 1-object category enriched in suplattices. 
+As a semigroup (monoid if unital) in suplattices, a quantale is essentially the same thing as an 1-object [[quantaloid]], i.e., an 1-object category enriched in suplattices. 
 
 
 ## Quantales and Frames
@@ -78,9 +78,9 @@ On very general grounds, the forgetful functor from the category of frames to th
 
 ## Quantale congruences and nuclei 
 
-A *quantale congruence* is simply an [[equivalence relation]] $\equiv \hookrightarrow Q \times Q$ on a quantale $Q$ that respects the quantale multiplication and the taking of sups: if $a \equiv b$ and $x \equiv y$, then $a x \equiv b y$, and if $x_i \equiv y_i$ for all $i \in I$, then $\bigvee_{i \in I} x_i \equiv \bigvee_{i \in I} y_i$. 
+A *quantale congruence* is simply an [[equivalence relation]] $({\equiv}) \hookrightarrow Q \times Q$ on a quantale $Q$ that respects the quantale multiplication and the taking of sups: if $a \equiv b$ and $x \equiv y$, then $a x \equiv b y$, and if $x_i \equiv y_i$ for all $i \in I$, then $\bigvee_{i \in I} x_i \equiv \bigvee_{i \in I} y_i$. 
 
-Consequently, $Q/\equiv$ defines a quantale $\tilde{Q}$ with operations inherited along a quantale quotient map $q: Q \to \tilde{Q}$. Since $q$ preserves arbitrary sups, it has a right adjoint $r: \tilde{Q} \to Q$ by the [[adjoint functor theorem]] applied to posets. Thus we have a [[monad]] or [[closure operator]] $r q: Q \to Q$, and the algebras/fixpoints of the monad/closure operator are identified with the elements of $\tilde{Q}$, i.e., $r: \tilde{Q} \to Q$ is isomorphic to the inclusion $Fix(r q) \hookrightarrow Q$. 
+Consequently, $Q/{\equiv}$ defines a quantale $\tilde{Q}$ with operations inherited along a quantale quotient map $q: Q \to \tilde{Q}$. Since $q$ preserves arbitrary sups, it has a right adjoint $r: \tilde{Q} \to Q$ by the [[adjoint functor theorem]] applied to posets. Thus we have a [[monad]] or [[closure operator]] $r q: Q \to Q$, and the algebras/fixpoints of the monad/closure operator are identified with the elements of $\tilde{Q}$, i.e., $r: \tilde{Q} \to Q$ is isomorphic to the inclusion $Fix(r q) \hookrightarrow Q$. 
 
 The monad $r q$ is a quantale nucleus in the sense of the following definition: 
 
