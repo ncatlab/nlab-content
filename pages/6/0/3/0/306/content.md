@@ -147,7 +147,7 @@ It is not usually true in [[toposes]] that $\Omega$ is the [[coproduct]] $\mathb
 
 The subobject classifier in a [[presheaf]] topos $PSh(S)$ is the presheaf that sends each object $U \in S$ to the set $sieves(U)$ of [[sieve]]s on it, equivalently the set of subobjects of the [[representable functor|representable]] [[presheaf]] $Y(U)$: $\Omega : U \mapsto sieves(U)$.
 
-The corresponding morphism $true : * \to \Omega$ of presheaves is the [[natural transformation]] that picks over each object the _maximal sieve_ $true_U = maximal_{sieves(U)} : * \to sieves(U)$
+The corresponding morphism $true : * \to \Omega$ of presheaves is the [[natural transformation]] that picks over each object the _maximal sieve_ $true_U = maximal_{sieves(U)} : * \to sieves(U)$.
 
 #### In $G Set$
 
