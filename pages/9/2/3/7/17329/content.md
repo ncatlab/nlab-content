@@ -18,7 +18,7 @@ We denote the category of [[groupoid | groupoids]] by $\mathsf{Grpd}$.
 +-- {: .num_defn}
 ###### Notation
 
-We make use throughout of the notation of [[category of cubes]], [[cubical set]], and [[cubical truncation, skeleton, and co-skeleton]].
+We make use throughout of the notation of [[category of cubes]], [[cubical set]], [[cubical truncation, skeleton, and co-skeleton]], and [[fundamental groupoid of a cubical set]]. 
 
 =--
 
