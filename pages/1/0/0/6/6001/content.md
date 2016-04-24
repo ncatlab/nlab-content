@@ -64,7 +64,7 @@ Then $(Q \Sigma^\infty X)_n \coloneqq Q(\Sigma^n X)$ is the $\Omega$-spectrum co
 
 ### K-theory spectrum
 
-The standard incarnation of the spetrum [[Brown representability theorem|representing]] complex and real [[topological K-theory]] $K U$ and $K O$ is already an $\Omega$-spectrum, due to [[Bott periodicity]]
+The standard incarnation of the spectrum [[Brown representability theorem|representing]] complex and real [[topological K-theory]] $K U$ and $K O$ is already an $\Omega$-spectrum, due to [[Bott periodicity]]
 
 $$
   \Omega^2(B U \times \mathbb{Z}) \simeq B U \times \mathbb{Z}
