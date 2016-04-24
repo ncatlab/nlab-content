@@ -1,0 +1,343 @@
+[[!redirects fundamental groupoid of a cubical set]]
+# Contents
+* table of contents
+{: toc}
+
+## Introduction
+
+We construct an adjunction between the category of [[groupoid | groupoids]] and the category of [[cubical set | cubical sets]], the left adjoint of which is the _fundamental groupoid_ of a cubical set, and the right adjoint of which is the (cubical) _nerve_ of a groupoid.
+
+## Preliminaries
+
++-- {: .num_defn}
+###### Notation
+
+We denote the category of [[groupoid | groupoids]] by $\mathsf{Grpd}$.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We make use throughout of the notation of [[category of cubes]], [[cubical set]], [[cubical truncation, skeleton, and co-skeleton]], and [[fundamental groupoid of a cubical set]]. 
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+By an _$n$-cube_ of a cubical set $X$, or an $m$-truncated cubical set for some $m \geq n$, we shall mean a morphism $y(I^{n}) \rightarrow X$ of cubical sets (respectively $m$-truncated cubical sets), where $y : \square \rightarrow \mathsf{Set}^{\square^{op}}$ (respectively $y : \square_{\leq m} \rightarrow \mathsf{Set}^{\square_{\leq m}^{op}}$) is the Yoneda embedding functor.
+
+=--
+
+## Fundamental groupoid adjunction
+
++-- {: .num_defn #NotationFundamentalGroupoid}
+###### Notation
+
+We denote by $\Pi_{1} : \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Grpd}$ the functor defined as follows.
+
+1) To a 2-truncated cubical set $X$, we associate the groupoid $\Pi_{1}(X)$ defined as follows.
+
+a) The objects of $\Pi_{1}(X)$ are the 0-cubes of $X$.
+
+b) The arrows of $\Pi_{1}(X)$ are zig-zags of 1-cubes of $X$ up to the notion of equivalence defined below, where by a zig-zag of 1-cubes of $X$ we mean, for some integer $n \geq 0$, a set of 1-cubes of $X$ whose faces match up as follows. 
+
+$$
+   \array{
+      x_{0} & \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+We identify a pair of zig-zags if one can be obtained from the other by a sequence of the following manipulations.
+
+i) We may remove or add a pair of arrows (anywhere in the zig-zag) of the form 
+
+$$
+   \array{
+      x_{0} & \overset{f}{\rightarrow} & x_{1} & \overset{f}{\leftarrow} & x_{0}
+   }
+$$
+
+or of the following form.
+
+$$
+   \array{
+      x_{0} & \overset{f}{\leftarrow} & x_{1} & \overset{f}{\rightarrow} & x_{0}
+   }
+$$  
+
+ii) We may replace an entire zig-zag  
+
+$$
+   \array{
+      x_{0} & \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+with a zig-zag 
+
+$$
+   \array{
+      x'_{0} & \overset{f'_{1}}{\rightarrow} & x'_{1} \overset{g'_{1}}{\leftarrow} & x'_{2} & \cdots & x'_{2n-2} & \overset{f'_{n}}{\rightarrow} & x'_{2n-1} \overset{g'_{n}}{\leftarrow} & x'_{2n}
+   }
+$$
+
+if there is, for every $1 \leq i \leq n$, a 2-cube of $X$ whose horizontal 1-cubes are as follows
+
+$$
+   \array{
+      x_{2i-2}   & \overset{f_{i}}{\to}   & x'_{2i-1} \\
+      \downarrow &                        & \downarrow \\
+      x'_{2i-2}  & \underset{f'_{i}}{\to} & x'_{2i-1}
+   }
+$$
+
+and there is, for every $1 \leq i \leq n$, a 2-cube of $X$ whose horizontal 1-cubes are as follows.
+
+$$
+   \array{
+      x_{2i-1}   & \overset{g_{i}}{\leftarrow}   & x'_{2i} \\
+      \downarrow &                        & \downarrow \\
+      x'_{2i-1}  & \underset{g'_{i}}{\leftarrow} & x'_{2i}
+   }
+$$
+
+c) The source of a zig-zag as at the beginning of b) is $x_{0}$, and the target is $x_{2n}$.
+
+d) Composition of arrows is given by concatenation of zig-zags (it is immediately verified that this is well-defined with respect to the equivalence relation of b)).
+
+e) The identity arrow on an object $x$ of $\Pi_{1}(X)$ is the zig-zag with $n = 0$ consisting simply of $x$.
+
+f) The inverse of an arrow 
+
+$$
+   \array{
+      x_{0} & \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+of $\Pi_{1}(X)$ is the following arrow (it is immediately verified that this is well-defined with respect to the equivalence relation of b)).
+
+$$
+   \array{
+      x_{2n} & \overset{g_{n}}{\rightarrow} & x_{2n-1} \overset{f_{n}}{\leftarrow} & x_{2n-2} & \cdots & x_{2} & \overset{g_{1}}{\rightarrow} & x_{1} \overset{f_{1}}{\leftarrow} & x_{0}
+   }
+$$
+
+2) To a morphism of 2-truncated cubical sets $F : X \rightarrow Y$, we associate the functor $\Pi_{1}(F) : \Pi_{1}(X) \rightarrow \Pi_{1}(Y)$ defined as follows.
+
+a) On objects, $\Pi_{1}(F)$ is the same as $F$.
+
+b) To a zig-zag as follows 
+
+$$
+   \array{
+      x_{0}  &  \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+we associate the following zig-zag. 
+
+$$
+   \array{
+      F(x_{0}) &  \overset{F(f_{1})}{\rightarrow} & F(x_{1}) \overset{F(g_{1})}{\leftarrow} & F(x_{2}) & \cdots & F(x_{2n-2}) & \overset{F(f_{n})}{\rightarrow} & F(x_{2n-1}) \overset{F(g_{n})}{\leftarrow} & F(x_{2n})
+   }
+$$
+
+It is immediately verified that this is well-defined with respect to the equivalence relation of 1) b).
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to $\Pi_{1} : \mathsf{Set}^{\square_{\leq 2}^{op}} \rightarrow \mathsf{Grpd}$ as the _fundamental groupoid_ functor.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $N : \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square_{\leq 2}^{op}}$ the functor defined as follows.
+
+1) To a groupoid $\mathcal{A}$, we associate the 2-truncated cubical set $N(X)$ defined as follows.
+
+a) The 0-cubes of $N(X)$ are the objects of $\Pi_{1}(X)$.
+
+b) The 1-cubes $f : x_{0} \rightarrow x_{1}$ of $N(X)$ are the arrows $f$ of $\Pi_{1}(X)$ with source $x_{0}$ and target $x_{1}$.
+
+c) The 2-cubes 
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
+      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+of $N(X)$ are the commutative squares $\sigma$ of $\Pi_{1}(X)$ whose boundary looks the same as this.
+
+d) The degenerate 1-cubes of $N(X)$ are the identity arrows of $\Pi_{1}(X)$.
+
+e) The degenerate 2-cubes of $N(X)$ are the commutative squares of $\Pi_{1}(X)$ which look as follows
+
+$$
+   \array{
+      x_{0}         & \overset{f}{\to}  & x_{1} \\
+      id \downarrow & \sigma            & \downarrow id \\
+      x_{0}         & \underset{f}{\to} & x_{1}
+   }
+$$
+
+or as follows.
+
+$$
+   \array{
+      x_{0}        & \overset{id}{\to}  & x_{0} \\
+      f \downarrow & \sigma             & \downarrow f \\
+      x_{1}        & \underset{id}{\to} & x_{1}
+   }
+$$
+
+2) To a functor $F : \mathcal{A} \rightarrow \mathcal{B}$, we associate the morphism of 2-truncated cubical sets $N(F) : N(\mathcal{A}) \rightarrow N(\mathcal{B})$ defined as follows.
+
+a) On 0-cubes, $N(F)$ is the same as $F$.
+
+b) On 1-cubes, $N(F)$ is the same as $F$. 
+
+c) On 2-cubes, $N(F)$ sends a commutative square 
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
+      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+of $\mathcal{A}$ to the commutative square 
+
+$$
+   \array{
+      F(x_{0})            & \overset{F(f_{0})}{\to}  & F(x_{1}) \\
+      F(f_{2}) \downarrow & F(\sigma)                & \downarrow F(f_{1}) \\
+      F(x_{2})            & \underset{F(f_{3})}{\to} & F(x_{3})
+   }
+$$
+
+of $\mathcal{A}$.
+
+=--
+
++-- {: .num_defn}
+###### Terminology
+
+We refer to $N : \mathsf{Grpd} \rightarrow \mathsf{Set}^{\square_{\leq 2}^{op}}$ as the _nerve_ functor.
+
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\epsilon : \Pi_{1} \circ N \rightarrow id$ the natural transformation which to a groupoid $\mathcal{A}$ associates the functor $\epsilon(\mathcal{A}) : \Pi_{1} \circ N(\mathcal{A}) \rightarrow \mathcal{A}$ defined as follows.
+
+1) On objects it is the identity.
+
+2) To an arrow of $\Pi_{1} \circ N(\mathcal{A})$, given by a zig-zag of arrows   
+
+$$
+   \array{
+      x_{0}  &  \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}}{\leftarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}}{\leftarrow} & x_{2n}
+   }
+$$
+
+of $\mathcal{A}$, we associate the arrow of $\mathcal{A}$ given by the composition in $\mathcal{A}$ of the arrows
+
+$$
+   \array{
+      x_{0}  &  \overset{f_{1}}{\rightarrow} & x_{1} \overset{g_{1}^{-1}}{\rightarrow} & x_{2} & \cdots & x_{2n-2} & \overset{f_{n}}{\rightarrow} & x_{2n-1} \overset{g_{n}^{-1}}{\rightarrow} & x_{2n}
+   }
+$$
+
+of $\mathcal{A}$. 
+
+It is straightforward to check that this is well-defined with respect to the equivalence relation of 1 b) of Notation 
+\ref{NotationFundamentalGroupoid}, and that we indeed have a functor.
+ 
+=--
+
++-- {: .num_defn}
+###### Notation
+
+We denote by $\eta : id \rightarrow N \circ \Pi_{1}$ the natural transformation which to a 2-truncated cubical set $X$ associates the morphism of 2-truncated cubical sets $\eta(X) : X \rightarrow N \circ \Pi_{1}(X)$ defined as follows.
+
+1) On objects it is the identity.
+
+2) To a 1-cube $f : x_{0} \rightarrow x_{1}$ of $X$ we associate the following zig-zag of 1-cubes of $X$, where the right arrow is the degeneracy on $x_{1}$.
+
+$$
+   \array{
+      x_{0}  &  \overset{f}{\rightarrow} & x_{1} \overset{id}{\leftarrow} & x_{1} }
+$$
+
+3) To a 2-cube 
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
+      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+of $X$ we associate the commutative square in $\Pi_{1}(X)$ given as follows.
+
+$$
+   \array{
+      x_{0}            & \overset{f_{0}}{\to}  & x_{1} & \overset{id}{\leftarrow}  & x_{1} \\
+      f_{2} \downarrow &                       &       &                           & \downarrow f_{1} \\
+      x_{2}            &                       &       &                           & x_{3} \\
+      id    \downarrow &                       &       &                           & \downarrow id \\
+      x_{2}            & \underset{f_{3}}{\to} & x_{2} & \underset{id}{\leftarrow} & x_{3} \\       
+   }
+$$
+
+The following diagram of commutative squares in $\Pi_{1}(X)$ illustrates that the above square does indeed commute in $\Pi_{1}(X)$.
+
+$$
+   \array{
+      x_{0}         & \overset{f_{0}}{\rightarrow}  & x_{1}        & \overset{id}{\leftarrow} & x_{1}        & \overset{f_{1}}{\rightarrow}   & x_{2}         & \overset{id}{\leftarrow} & x_{2} \\
+      id \downarrow &                               & \downarrow A &                          & \downarrow A &                            & \downarrow id &                          & \downarrow id \\
+      x_{0}         & \underset{f_{2}}{\rightarrow} & x_{2}        & \underset{id}{\leftarrow} & x_{2}        & \underset{f_{3}}{\rightarrow} & x_{3}         & \underset{id}{\leftarrow} & x_{3}
+   }
+$$
+
+Here A is $f_{2} \circ f_{0}^{-1}$. That the square  
+
+ $$
+   \array{
+      x_{1}        & \overset{f_{1}}{\to}     & x_{3} \\
+      A \downarrow &                       & \downarrow id \\
+      x_{2}        & \underset{f_{3}}{\to} & x_{3}
+   }
+$$
+
+commutes follows easily from the commutativity of the square arising from the 2-cube $\sigma$ of $X$ above. 
+
+=--
+
++-- {: .num_defn}
+###### Proposition
+
+The natural transformations $\eta$ and $\epsilon$ define an adjunction between $\Pi_{1}$ and $N$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Straightforward verification that the triangle identities hold.
+
+=--
