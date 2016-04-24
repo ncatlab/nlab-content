@@ -1,4 +1,5 @@
 [[!redirects fundamental groupoid of a cubical set]]
+[[!redirects cubical nerve of a groupoid]]
 # Contents
 * table of contents
 {: toc}
@@ -19,14 +20,7 @@ We denote the category of [[groupoid | groupoids]] by $\mathsf{Grpd}$.
 +-- {: .num_defn}
 ###### Notation
 
-We make use throughout of the notation of [[category of cubes]], [[cubical set]], [[cubical truncation, skeleton, and co-skeleton]], and [[fundamental groupoid of a cubical set]]. 
-
-=--
-
-+-- {: .num_defn}
-###### Terminology
-
-By an _$n$-cube_ of a cubical set $X$, or an $m$-truncated cubical set for some $m \geq n$, we shall mean a morphism $y(I^{n}) \rightarrow X$ of cubical sets (respectively $m$-truncated cubical sets), where $y : \square \rightarrow \mathsf{Set}^{\square^{op}}$ (respectively $y : \square_{\leq m} \rightarrow \mathsf{Set}^{\square_{\leq m}^{op}}$) is the Yoneda embedding functor.
+We make use throughout of the notation of [[category of cubes]], [[cubical set]], and [[cubical truncation, skeleton, and co-skeleton]]. 
 
 =--
 
