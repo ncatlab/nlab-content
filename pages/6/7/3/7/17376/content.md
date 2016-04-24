@@ -36,7 +36,7 @@ $$
   \right)
 $$
 
-of ([[pointed topological space|pointed]]) [[topological spaces]], then its _mapping telescope_ is the result of forming the (reduced) [[mapping cylinder]] $Cyl(f_n)$ for each $n$ and then attaching all these cylinders to each other in the canonical way
+of ([[pointed topological space|pointed]]) [[topological spaces]], then its _mapping telescope_ is the result of forming the (reduced) [[mapping cylinder]] $Cyl(f_n)$ for each $n$ and then attaching all these cylinders to each other in the canonical way.
 
 
 At least if all the $f_n$ are inclusions, this is the sequential attachment of ever "larger" cylinders, whence the name "telescope".
