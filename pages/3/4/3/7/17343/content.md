@@ -3953,8 +3953,10 @@ $$
 such that there is a [[natural bijection]] between [[hom-sets]] with $L$ on the left and those with $R$ on the right:
 
 $$
+  \phi_{d,c}
+   \;\colon\;
   Hom_{\mathcal{C}}(L(d),c)
-   \underoverset{\simeq}{\phi_{c,d}}{\longrightarrow}
+   \underoverset{\simeq}{}{\longrightarrow}
   Hom_{\mathcal{D}}(d, R(c))
 $$
 
@@ -3977,7 +3979,11 @@ $$
   \,.
 $$
 
-We write $(L \dashv R)$ to indicate this and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair. If $f \colon L(d) \to c$ is any morphism, then the image $\phi_{d,c}(f) \colon d \to R(c)$ is called its _[[adjunct]]_, and conversely. The fact that adjuncts are in bijection is also expressed by the notation
+We write $(L \dashv R)$ to indicate an adjunction and call $L$ the _[[left adjoint]]_ and $R$ the _[[right adjoint]]_ of the adjoint pair. 
+
+The archetypical example of a pair of adjoint functors is that consisting of forming [[Cartesian products]] $Y \times (-)$ and forming [[mapping spaces]] $(-)^Y$, as in the category of [[compactly generated topological spaces]] of def. \ref{kTop}.
+
+If $f \colon L(d) \to c$ is any morphism, then the image $\phi_{d,c}(f) \colon d \to R(c)$ is called its _[[adjunct]]_, and conversely. The fact that adjuncts are in bijection is also expressed by the notation
 
 $$
   \frac{
@@ -3988,7 +3994,16 @@ $$
   \,.
 $$
 
-The archetypical example of a pair of adjoint functors is that consisting of forming [[Cartesian products]] $Y \times (-)$ and forming [[mapping spaces]] $(-)^Y$, as in the category of [[compactly generated topological spaces]] of def. \ref{kTop}.
+For an object $d\in \mathcal{D}$, the [[adjunct]] of the identity on $L d$ is called the _[[adjunction unit]]_ $\eta_d \;\colon\; d \longrightarrow R L d$.
+
+For an object $c \in \mathcal{C}$, the [[adjunct]] of the identity on $R c$ is called the _[[adjunction counit]]_ $\epsilon_c \;\colon\; L R c \longrightarrow c$.
+
+Adjunction units and counits turn out to encode the [[adjuncts]] of all other morphisms by the formulas
+
+* $\widetilde{(L d\overset{f}{\to}c)} = (d\overset{\eta}{\to} R L d \overset{R f}{\to} R c)$
+
+* $\widetilde{(d\overset{g}{\to} R c)} = (L d \overset{L g}{\to} L R c \overset{\epsilon}{\to} c)$. 
+
 
 +-- {: .num_defn #QuillenAdjunction}
 ###### Definition
@@ -4003,7 +4018,7 @@ $$
   \mathcal{D}
 $$
 
-is called a _[[Quillen adjunction]]_ (and $L$,$R$ are called left/right _Quillen functors_, respectively) if the following equivalent conditions are satisfied
+is called a **[[Quillen adjunction]]** (and $L$,$R$ are called left/right **Quillen functors**, respectively) if the following equivalent conditions are satisfied
 
 1. $L$ preserves cofibrations and $R$ preserves fibrations;
 
@@ -4022,6 +4037,8 @@ is called a _[[Quillen adjunction]]_ (and $L$,$R$ are called left/right _Quillen
 The conditions in def. \ref{QuillenAdjunction} are indeed all equivalent.
 
 =--
+
+([Quillen 67, I.4, theorem 3](#Quillen67))
 
 +-- {: .proof}
 ###### Proof
@@ -4184,7 +4201,7 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
      d 
        \overset{\eta}{\longrightarrow} 
      R(L(d)) 
-       \overset{R(p_{L(d)})}{\longrightarrow}
+       \overset{R(j_{L(d)})}{\longrightarrow}
      R(P(L(d)))
    $$ 
 
@@ -4224,10 +4241,77 @@ The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
 
 =--
 
-+-- {: .proof}
-###### Proof sketch
+([Quillen 67, I.4, theorem 3](#Quillen67))
 
-That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other). The equivalence $1),2) \Leftrightarrow 3)$ follows by backtracking lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} to find that the "derived (co-)units" are indeed the (co-)units of the adjunction $(\mathbb{L}L \dashv \mathbb{R}R)$ of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
++-- {: .proof}
+###### Proof
+
+That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other). 
+
+To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called "derived adjunction (co-)units" above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
+We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
+
+To that end, first observe that for $d \in \mathcal{D}_f$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
+
+$$
+  \array{
+    \mathcal{D}_c &\overset{L}{\longrightarrow}& \mathcal{C}
+    \\
+    {}^{\mathllap{\gamma_P}}\downarrow 
+      &\swArrow_{\simeq}& 
+    \downarrow^{\mathrlap{\gamma_{P,Q}}}
+    \\
+    Ho(\mathcal{D}) &\underset{\mathbb{L}L}{\longrightarrow}& Ho(\mathcal{C})
+  }
+$$
+
+(using fibrant and fibrant/cofirbatn replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that 
+
+$$
+  (\mathbb{L} L ) d \simeq P L P d \simeq P L d \;\;\;\; \in Ho(\mathcal{C})
+  \,,
+$$
+
+where the second isomorphism holds because the left Quillen functor $L$ sends the acyclic cofibration $j_d \colon d \to P d$ to a weak equivalence.
+
+The adjunction unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ on $P d \in Ho(\mathcal{C})$ is the image of the identity under
+
+$$
+  Hom_{Ho(\mathcal{C})}((\mathbb{L}L) P d, (\mathbb{L} L) P d)
+  \overset{\simeq}{\to}
+  Hom_{Ho(\mathcal{C})}(P d, (\mathbb{R}R)(\mathbb{L}L) P d)
+  \,.
+$$
+
+By the above and the proof of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}, that adjunction isomorphism is equivalently that of $(L \dashv R)$ under the isomorphism
+
+$$
+  Hom_{Ho(\mathcal{C})}(P L d , P L d)
+    \overset{Hom(j_{L d}, id)}{\longrightarrow}
+  Hom_{\mathcal{C}}(L X, P L X)/_\sim
+$$
+
+of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of 
+
+$$
+  L d 
+    \overset{j_{L d}}{\longrightarrow}
+  P L d
+    \overset{id}{\to}
+  P L d
+  \,,
+$$
+
+which indeed (by the formula for [[adjuncts]]) is 
+
+$$
+  X 
+    \overset{\eta}{\longrightarrow} 
+  R L d 
+    \overset{R (j_{L d})}{\longrightarrow}
+  R P L d 
+  \,.
+$$
 
 To see that $4) \Rightarrow 3)$:
 
@@ -4245,24 +4329,23 @@ by assumption 4) this is again a weak equivalence, which is the requirement for 
 
 To see $3) \Rightarrow 4)$: 
 
-Choose a _functorial_ fibrant replacement.
-
-Consider $f \colon L X \to Y$ a weak equivalence out of cofibrant $Y$. Its [[adjunct]] sits in a commuting diagram
+Consider any $f \colon L d \to c$ a weak equivalence for cofibrant $d$, firbant $c$. Its [[adjunct]] $\tilde f$ sits in a commuting diagram
 
 $$
   \array{
-    X &\longrightarrow&  R L X &\overset{R f}{\longrightarrow}& R Y
+    \tilde f \colon & d &\overset{\eta}{\longrightarrow}&  R L d &\overset{R f}{\longrightarrow}& R c
     \\
-    \downarrow && \downarrow^{\mathrlap{R j_{L X}}} && \downarrow^{\mathrlap{R j_Y}} 
+    & {}^{\mathllap{=}}\downarrow && \downarrow^{\mathrlap{R j_{L d}}} && \downarrow^{\mathrlap{R j_c}} 
     \\
-    X &\longrightarrow& R P L X &\overset{R P Y}{\longrightarrow}& R P Y
+    & d &\underset{\in W}{\longrightarrow}& R P L d &\overset{R P f}{\longrightarrow}& R P c
   }
-  \,.
+  \,,
 $$
 
+where $P f$ is any lift constructed as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}.
 
-Since $f$ is a weak equivalence, so is $P f$. Since $R$ preserves weak equivalences between fibrant objects, $R P f$ is a weak equivalence. Thus the bottom composite and the right morphisms are weak equivalences, and hence by [[two-out-of-three]] so is the top composite. And dually. 
-
+This exhibits the bottom left morphism as the derived adjunction unit, hence a weak equivalence by assumption. But since $f$ was a weak equivalence, so is $P f$ (by [[two-out-of-three]]).  Thereby also $R P f$ and $R j_Y$, are weak equivalences by [[Ken Brown's lemma]] \ref{KenBrownLemma} and the assumed fibrancy of $c$. Therefore by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) also the [[adjunct]] $\tilde f$ is a weak equivalence.
+ 
 =--
 
 #### The classical model structure on topological spaces
@@ -4646,10 +4729,16 @@ $$
   hTop \coloneqq Top/_\sim
 $$
 
-obtained from _all_ topological spaces with morphisms the homotopy equivalences. This category is "too large", the correct homotopy category is just genuine the [[full subcategory]]
+obtained from _all_ topological spaces with morphisms the homotopy classes of continuous functions. This category is "too large", the correct homotopy category is just the genuine [[full subcategory]]
 
 $$
-  Ho(Top_{Quillen}) \hookrightarrow hTop
+  Ho(Top_{Quillen}) 
+   \simeq 
+  (Top_{Retract(Cell)})/_\sim
+   \simeq
+  Top/_\sim
+    =
+  \hookrightarrow hTop
   \,.
 $$
 
@@ -5284,9 +5373,7 @@ $$
 
 ##### Topological enrichment
 
-So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far does not interplay with the topology on [[hom-spaces]].
-
-The following statements say that in fact the model structure and the topology on the hom-spaces are compatible in a suitable sense (for more see at "[[enriched model categories]]").
+So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far has not been related the topology on [[hom-spaces]]. The following statements say that in fact the model structure and the topology on the hom-spaces are compatible in a suitable sense (for more see at "[[enriched model categories]]").
 
 +-- {: .num_lemma #PushoutProductOfRelativeCWComplexes}
 ###### Lemma
