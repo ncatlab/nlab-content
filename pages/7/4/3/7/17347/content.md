@@ -237,7 +237,20 @@ By the existence of the [[classical model structure on topological spaces]] ([th
 
 Regarding the equivalence of def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically} with def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}:
 
-This is the [[universal property]] of the [[classical homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) which identifies it  with the [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of $Top^{\ast/}$ at the weak homotopy equivalences ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)).
+This is the [[universal property]] of the [[classical homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) which identifies it  with the [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of $Top^{\ast/}$ at the weak homotopy equivalences ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), together with the existence of [[CW approximations]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#EveryTopologicalSpaceWeaklyEquivalentToACWComplex)): jointly this says that, up to [[natural isomorphism]], there is a bijection between functors $F$ and $\tilde F$ in the following diagram (which is filled by a natural isomorphism itself):
+
+$$
+  \array{
+    Top^{op} &\overset{F}{\longrightarrow}& Ab^{\mathbb{Z}}
+    \\
+    {}^{\mathllap{\gamma_{Top}}}\downarrow & \nearrow_{\mathrlap{\tilde F}}
+    \\
+    Ho(Top)^{op}\simeq (Top_{CW})/_\sim
+  }
+$$
+
+where $F$ sends weak homotopy equivalences to isomorphisms and where $(-)_\sim$ means identifying homotopic maps.
+
 
 =--
 
