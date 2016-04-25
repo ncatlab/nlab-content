@@ -1,0 +1,7 @@
+
+* wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education)
+* [[New Math]]
+* Liping Ma, _Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States_ (Studies in Mathematical Thinking and Learning Series)
+   * Liping Ma, _A critique of the structure of U.S. elementary school mathematics_, Notices AMS, Oct 2013 [pdf](http://www.ams.org/notices/201310/fea-ma.pdf)
+   * Liping Ma, [webpage](http://lipingma.net/math/math.html)
+   * blog opinion [What Does Liping Ma REALLY say?](http://rationalmathed.blogspot.hr/2007/06/what-does-liping-ma-really-say.html)
