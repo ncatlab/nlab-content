@@ -1,4 +1,14 @@
-*A Concise Course in Algebraic Topology* is a textbook on [[algebraic topology]] and [[homotopy theory]] by [[Peter May]], published by University of Chicago Press.  It is available online at [Peter May's web site](http://www.math.uchicago.edu/~may/PAPERSMaster.html).
+
+
+* [[Peter May]]
+
+  _A Concise Course in Algebraic Topology_
+  
+  University of Chicago Press
+
+  ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+
+is a textbook on [[algebraic topology]] and [[homotopy theory]].  
 
 category: reference
 
