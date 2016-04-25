@@ -4178,18 +4178,6 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
      \,.
    $$
 
-
-1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is:
-
-   $$
-      \frac{
-        d \overset{\in W_{\mathcal{D}}}{\longrightarrow} R(c)
-      }{
-         L(d) \overset{\in W_{\mathcal{C}}}{\longrightarrow} c
-      }
-      \,.
-   $$
-
 1. For every cofibrant object $d\in \mathcal{C}$, the "derived adjunction unit", hence the composite 
 
    $$
@@ -4214,8 +4202,68 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 
      (of the [[adjunction counit]] with any cofibrant replacement as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence in $D$.
 
+
+1. For every cofibrant object $d \in \mathcal{D}$ and every fibrant object $c \in \mathcal{C}$, a morphism $d \longrightarrow R(c)$ is a weak equivalence precisely if its [[adjunct]] morphism $L(c) \to d$ is:
+
+   $$
+      \frac{
+        d \overset{\in W_{\mathcal{D}}}{\longrightarrow} R(c)
+      }{
+         L(d) \overset{\in W_{\mathcal{C}}}{\longrightarrow} c
+      }
+      \,.
+   $$
+
+
 =--
 
++-- {: .num_prop }
+###### Poposition
+
+The conditions in def. \ref{QuillenEquivalence} are indeed all equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof sketch
+
+That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories} (if in an adjoint pair one is an equivalence, then so is the other). The equivalence $1),2) \Leftrightarrow 3)$ follows by backtracking lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory} to find that the "derived (co-)units" are indeed the (co-)units of the adjunction $(\mathbb{L}L \dashv \mathbb{R}R)$ of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}.
+
+To see that $4) \Rightarrow 3)$:
+
+Consider the weak equivalence $L X \overset{j_{L X}}{\longrightarrow} P L X$. Its $(L \dashv R)$-[[adjunct]] is
+
+$$
+  X 
+    \overset{\eta}{\longrightarrow}
+  R L X 
+    \overset{R j_{L X}}{\longrightarrow}
+  R P L X 
+$$
+
+by assumption 4) this is again a weak equivalence, which is the requirement for the derived unit in 3). Dually for derived counit.
+
+To see $3) \Rightarrow 4)$: 
+
+Choose a _functorial_ fibrant replacement.
+
+Consider $f \colon L X \to Y$ a weak equivalence out of cofibrant $Y$. Its [[adjunct]] sits in a commuting diagram
+
+$$
+  \array{
+    X &\longrightarrow&  R L X &\overset{R f}{\longrightarrow}& R Y
+    \\
+    \downarrow && \downarrow^{\mathrlap{R j_{L X}}} && \downarrow^{\mathrlap{R j_Y}} 
+    \\
+    X &\longrightarrow& R P L X &\overset{R P Y}{\longrightarrow}& R P Y
+  }
+  \,.
+$$
+
+
+Since $f$ is a weak equivalence, so is $P f$. Since $R$ preserves weak equivalences between fibrant objects, $R P f$ is a weak equivalence. Thus the bottom composite and the right morphisms are weak equivalences, and hence by [[two-out-of-three]] so is the top composite. And dually. 
+
+=--
 
 #### The classical model structure on topological spaces
  {#TheClassicalModelStructureOfTopologicalSpaces}
