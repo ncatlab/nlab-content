@@ -4090,7 +4090,7 @@ $$
 
 is a cofibration.
 
-Second, observe that with $Y$ cofibrant then also $Y \sqcup Y$ is cofibrant (being the pushout of the cofibration $\emptyset \to Y$ along itself), hence also $Cyl(Y)$ is cofibrant. Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
+Second, with $Y$ cofibrant then also $Y \sqcup Cyl(Y)$ is a cofibrantion, since $Y \to Y \sqcup Y$ is a cofibration (lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}). Therefore by [[Ken Brown's lemma]] (prop. \ref{KenBrownLemma}) $L$ preserves the weak equivalence $Cyl(Y) \overset{\in W}{\longrightarrow} Y$.
 
 =--
 
