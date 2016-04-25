@@ -20,13 +20,31 @@
 
 ## Idea
 
-For every [[topological space]] $X$ there is a [[CW complex]] $Z$ and a [[weak homotopy equivalence]] $f :Z\to X$. Such a map $f :Z\to X$ is called a **CW approximation** to $X$.
+For every [[topological space]] $X$ there is a [[CW complex]] $Z$ and a [[weak homotopy equivalence]] $f  \colon Z\to X$. Such a map $f  \colon Z\to X$ is called a **CW approximation** to $X$.
 
-This is the notion of [[cofibrant replacement]] in the standard [[model structure on topological spaces]].
+Such CW-approximation may be constructed case-by-case by iteratively attaching (starting from the empty space) cells for each representative of a [[homotopy group]] of $X$ and further cells to kill off spurious homotopy groups introduced this way (e.g. [Hatcher, p. 352-353](#Hatcher)).
+
+In the [[classical model structure on topological spaces]] $Top_{Quillen}$, the cofibrant objects are the [[retracts]] of [[cell complexes]], and hence CW approximations are in particular cofibrant replacements in this model structure.
+
+The [[Quillen equivalence]] $Top_{Quillen} \stackrel{\overset{{\vert - \vert}}{\longleftarrow}}{\underset{Sing}{\longrightarrow}} sSet_{Quillen}$ to the [[classical model structure on simplicial sets]] ("[[homotopy hypothesis]]") yields a _functorial_ CW approximation (by [this proposition](geometric+realization#mono)) via
+
+$$
+  X \mapsto {\vert Sing X\vert}
+$$
+
+([[geometric realization]] of the [[singular simplicial complex]] of $X$) with the [[adjunction counit]]
+
+$$
+  {\vert Sing X\vert}
+  \overset{\in W}{\longrightarrow}
+  X
+$$
+
+a weak homotopy equivalence.
 
 ## References
 
-* [[Allen Hatcher]], _Algebraic topology_, Cambridge Univ. Press 2002; Chapter 4, [Section 4.1 pdf](http://www.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf)
+* {#Hatcher} [[Allen Hatcher]], _Algebraic topology_, Cambridge Univ. Press 2002; Chapter 4, [Section 4.1 pdf](http://www.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf)
 
 
 [[!redirects CW-approximation]]
