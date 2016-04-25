@@ -1013,7 +1013,7 @@ By the previous observation, the vertical morphisms here are isomorphisms, and h
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #NotEveryHomotopyEquivalenceIsAWeakHomotopyEquivalence}
 ###### Remark
 
 The converse of prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences} is not true generally: not every weak homotopy equivalence between topological spaces is a homotopy equivalence.  (For an example with full details spelled out see for instance Fritsch, Piccinini: "Cellular Structures in Topology", p. 289-290).
@@ -4275,8 +4275,8 @@ Since [[isomorphisms]] (of [[homotopy groups]]) satisfy 2-out-of-3, this propert
 
 =--
 
-+-- {: .num_prop #FactorizationInTopQuillen}
-###### Proposition
++-- {: .num_lemma #FactorizationInTopQuillen}
+###### Lemma
 
 Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a classical cofibration followed by an acyclic classical fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
@@ -4315,8 +4315,8 @@ By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$
 
 =--
 
-+-- {: .num_prop #ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}
-###### Proposition
++-- {: .num_lemma #ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}
+###### Lemma
 
 Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic classical cofibration followed by a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
@@ -4357,8 +4357,8 @@ By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} 
 
 =--
 
-+-- {: .num_prop #LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}
-###### Proposition
++-- {: .num_lemma #LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}
+###### Lemma
 
 Every [[commuting square]] in [[Top]] with the left morphism a classical cofibration and the right morphism a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}
 
@@ -4389,7 +4389,7 @@ $$
   \,,
 $$
 
-as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. By prop. \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} the morphism $\overset{\in J_{Top} Cell}{\longrightarrow}$ is a weak homotopy equivalence, and so by [[two-out-of-three]] (prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}) the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally cor. \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+as in the proof of lemma \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. By lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} the morphism $\overset{\in J_{Top} Cell}{\longrightarrow}$ is a weak homotopy equivalence, and so by [[two-out-of-three]] (prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}) the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally cor. \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
 
 =--
 
@@ -4405,13 +4405,13 @@ The systems $(Cof_{cl} , W_{cl} \cap Fib_{cl})$ and $(W_{cl} \cap Cof_{cl}, Fib_
 +-- {: .proof}
 ###### Proof
 
-Since we have already seen the factorization property (prop. \ref{FactorizationInTopQuillen}, prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}) and the lifting properties (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}), it only remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
+Since we have already seen the factorization property (lemma \ref{FactorizationInTopQuillen}, lemma \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}) and the lifting properties (lemma \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}), it only remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
 
 For the classical fibrations this is by definition, for the the classical acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
 The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a general argument ([here](cofibrantly+generated+model+category#RetractsOfCellComplexesExchaustLLPOfRLP)) for [[cofibrantly generated model categories]] (def. \ref{CofibrantlyGeneratedModelCategory}), which we spell out:
 
-So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument to factor $f$ as 
+So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument as in lemma \ref{FactorizationInTopQuillen} to factor $f$ as 
 
 $$
   f \;\colon \; X \overset{I_{Top} Cell}{\longrightarrow} \hat Y \overset{\in I_{Top} Inj}{\longrightarrow} Y
@@ -4442,7 +4442,31 @@ define a [[model category]] structure (def. \ref{ModelCategory}) $Top_{Quillen}$
 
 =--
 
-In fact we have shown a bit more. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]]. 
+In particular
+
+1. every object in $Top_{Quillen}$ is fibrant;
+
+1. the cofibrant object in $Top_{Quillen}$ are the [[retracts]] of [[cell complexes]].
+
+Hence in particular the following classical statement is an immediate corollary:
+
++-- {: .num_cor #WhiteheadTheorem} 
+###### Corollary
+**(Whitehead theorem)**
+
+Every [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) between [[topological spaces]] that are [[homeomorphism|homeomorphic]] to a [[retract]] of a [[cell complex]], in particular to a [[CW-complex]] (def. \ref{TopologicalCellComplex}), is a [[homotopy equivalence]] (def. \ref{HomotopyEquivalence}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the "Whitehead theorem in model categories", lemma \ref{WhiteheadTheoremInModelCategories}, specialized to $Top_{Quillen}$ via theorem \ref{TopQuillenModelStructure}.
+
+=--
+
+
+In proving theorem \ref{TopQuillenModelStructure} we have in fact shown a bit more that stated. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]]. 
 
 Therefore we make this situation explicit:
 
@@ -4506,13 +4530,15 @@ The proof of the third and fourth item is directly analogous, just with $J$ repl
 ##### The classical homotopy category
  {#TheClassicalHomotopyCategory}
 
+With the [[classical model structure on topological spaces]] in hand, we now have good control over the [[classical homotopy category]]:
+
 +-- {: .num_defn #ClassicalHomotopyCategory} 
 ###### Definition
 
-The _[[classical homotopy category]]_ is the [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory}, of the [[classical model structure on topological spaces]] $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}: we write 
+The **Serre-Quillen [[classical homotopy category]]** is the [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory}, of the [[classical model structure on topological spaces]] $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure}: we write 
 
 $$
-  Ho(Top) \coloneqq Ho(Top_{Quillen})
+  Ho(Top) \coloneqq Ho(Top_{Quillen}) 
   \,.
 $$
 
@@ -4522,15 +4548,67 @@ $$
 +-- {: .num_remark #EveryTopologicalSpaceWeaklyEquivalentToACWComplex} 
 ###### Remark
 
-Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}. 
+From just theorem \ref{TopQuillenModelStructure}, the definition \ref{HomotopyCategoryOfAModelCategory} (def. \ref{ClassicalHomotopyCategory}) gives that 
 
-Therefore writing $Top_{CW}\hookrightarrow Top$ for the [[full subcategory]] on those topological spaces homeomorphic to a CW-complex, then $Ho(Top)$ is equivalent to $Top_{CW}$ with homotopy-equivalence classes of maps.
+$$
+  Ho(Top_{Quillen}) \simeq (Top_{Retract(Cell)})/_\sim
+$$
 
+is the category whose objects are [[retracts]] of [[cell complexes]] (def. \ref{TopologicalCellComplex}) and whose morphisms are [[homotopy classes]] of [[continuous functions]]. But in fact more is true:
+
+
+Theorem \ref{TopQuillenModelStructure} in itself implies that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], this cell complex may even be taken to be a [[CW complex]]. 
+
+Better yet, by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] (discussed [below](#SimplicialSets)) every topological space is weakly homotopy equivalent to the [[geometric realization]] ${\vert Sing X \vert}$ of its [[singular simplicial complex]] $Sing X$, and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}. Hence the $({\vert -\vert} \dashv Sing)$-[[adjunction unit]] yields a _functorial_ [[CW approximation]]
+
+$$
+  {\vert Sing X\vert} \overset{\in W_{cl}}{\longrightarrow} X
+$$
+
+(prop. \ref{UnitOfSingularNerveAndRealizationIsWEOnKanComplexes}).
+
+Hence  the Serre-Quillen [[classical homotopy category]] is also equivalently the category of just the [[CW-complexes]] whith [[homotopy classes]] of [[continuous functions]] between them
+
+$$
+  \begin{aligned}
+    Ho(Top_{Quillen}) & \simeq (Top_{Retract(Cell)})/_\sim
+    \\
+    & \simeq (Top_{CW})/_{\sim}
+  \end{aligned}
+  \,.
+$$
+
+It follows that the [[universal property]] of the homotopy category (theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory})
+
+$$
+  Ho(Top_{Quillen}) \simeq Top[W_{cl}^{-1}]
+$$
+
+implies that there is a bijection, up to [[natural isomorphism]], between
+
+1. functors out of $Top_{CW}$ which agree on homotopy-equivalent maps;
+
+1. functors out of all of $Top$ which send weak homotopy equivalences to isomorphisms.
+
+This statement in particular serves to show that two different axiomatizations of [[generalized (Eilenberg-Steenrod) cohomology]] theories are equivalent to each other. See at _[[Introduction to Stable homotopy theory -- S]]_ the section _[generalized cohomology functors](Introduction+to+Stable+homotopy+theory+--+S#GeneralizedHomologyAndCohomologyFunctors)_ ([this prop.](Introduction+to+Stable+homotopy+theory+--+S#HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent))
+
+**Beware** that, by remark \ref{NotEveryHomotopyEquivalenceIsAWeakHomotopyEquivalence}, what is **not** equivalent to $Ho(Top_{Quillen})$ is the category 
+
+$$
+  hTop \coloneqq Top/_\sim
+$$
+
+obtained from _all_ topological spaces with morphisms the homotopy equivalences. This category is "too large", the correct homotopy category is just genuine the [[full subcategory]]
+
+$$
+  Ho(Top_{Quillen}) \hookrightarrow hTop
+  \,.
+$$
+
+Beware also the ambiguity of terminology: "classical homotopy category" some literature refers to $hTop$ instead of $Ho(Top_{Quillen})$. However, here we never have any use for $hTop$ and will not mention it again.
+ 
 =--
 
-
-
-We now check that some standard constructions of topological spaces still mean what we thought they should mean in terms of the model category structure.
 
 +-- {: .num_prop #TopologicalCylinderOnCWComplexIsGoodCylinderObject}
 ###### Proposition
@@ -4565,7 +4643,7 @@ The result is $X_{n+1}$ with a _hollow cylinder_ erected over each of its $(n+1)
 
 This completes the induction, hence the proof of the CW-structure on $X\times I$.
 
-The construction also manifestly exhibits the inclusion $X\squcp X \overset{(i_0,i_1)}{\longrightarrow}$ as a [[relative cell complex]].
+The construction also manifestly exhibits the inclusion $X \sqcup X \overset{(i_0,i_1)}{\longrightarrow}$ as a [[relative cell complex]].
 
 Finally, it is clear (prop. \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}) that $X \times I \to X$ is a weak homotopy equivalence.
 
@@ -4860,7 +4938,7 @@ $$
 
 according to def. \ref{TopologicallyEnrichedFunctor} may be thought of as the ([[copresheaf|co-]])[[presheaf category]] over $\mathcal{C}$ in the realm of topological enriched categories.
 
-A funcotor $F \in [\mathcal{C}, Top_k]$ is equivalently 
+A functor $F \in [\mathcal{C}, Top_k]$ is equivalently 
 
 * a [[compactly generated topological space]] $F_a\in Top_k$ for each object $a \in Obj(\mathcal{C})$;
 
@@ -5156,7 +5234,7 @@ $$
 
 =--
 
-##### Topological enrichement
+##### Topological enrichment
 
 So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far does not interplay with the topology on [[hom-spaces]].
 
