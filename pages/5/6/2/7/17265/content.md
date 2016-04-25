@@ -1749,7 +1749,9 @@ We may now pass to the [[homotopy category of a model category]] and find [[Ho(T
 +-- {: .num_remark} 
 ###### Remark
 
-Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]] every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) even a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+Theorem \ref{TopQuillenModelStructure} in itself implies only that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], every topological space is weakly homotopy equivalent even to a [[CW complex]]. In particular, by the [[Quillen equivalence]] to the [[Quillen model structure on simplicial sets]], every topological space is weakly homotopy equivalent to the [[geometric realization]] of its [[singular simplicial complex]] (and every geometric realization of a [[simplicial set]] is (by [this proposition](geometric+realization#mono)) a [[CW-complex]], def. \ref{TopologicalCellComplex}.
+
+
 
 =--
 
