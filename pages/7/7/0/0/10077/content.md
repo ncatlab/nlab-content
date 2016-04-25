@@ -136,6 +136,7 @@ In a braided monoidal category regarded as a normal duoidal one, this reduces to
 ## Related concepts
 
 * [[distributivity for monoidal structures]]
+* [[intercategory]]
 
 ## References
 
