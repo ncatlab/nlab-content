@@ -57,6 +57,9 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 
 * Since pseudofunctors between strict 2-categories compose strictly associatively, and between any 2-categories $A$ and $B$ there is a strict 2-category $Ps(A,B)$ of pseudofunctors, pseudonatural transformations, and modifications, one might hope that there is a Gray-category consisting of strict 2-categories, *pseudofunctors*, pseudonatural transformations, and modifications, despite the fact that the prototypical example $Gray$ contains only strict 2-functors.  However, this is false, because in a Gray-category the [[whiskering]] of 2-cells by a 1-cell is strictly functorial relative to composition of 2-cells along 1-cells, but this fails for whiskering of pseudonaturals by a pseudofunctor.
 
+## Related pages
+
+* [[intercategory]]
 
 ## References
 
