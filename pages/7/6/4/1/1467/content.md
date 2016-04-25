@@ -20,6 +20,9 @@ A [[topological space]] (or more generally: a [[convergence space]]) is _compact
 
 It is also common to work with _compact [[subsets]]_ of a space.  These are those subsets which are compact spaces with the [[subspace topology]].
 
+One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
+
+
 
 ## Definitions 
 
@@ -133,21 +136,53 @@ Another term in usage is 'compactum' to mean a [[compact Hausdorff space]] (even
 
 ## Properties
 
-* Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
++-- {: .num_prop }
+###### Proposition
 
-* The direct [[image]] of a compact subspace under a [[continuous map]] is compact. A topological space becomes a [[bornological set]] by taking the bounded sets to be subsets contained in some compact subspace, and under this bornology, every continuous function is a bounded map.
+Assuming the [[axiom of choice]], the category of compact spaces admits all small [[limits]]. In any case, the category of compact locales admits all small limits. See also [[Tychonoff theorem]].
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The direct [[image]] of a compact subspace under a [[continuous map]] is compact. A topological space becomes a [[bornological set]] by taking the bounded sets to be subsets contained in some compact subspace, and under this bornology, every continuous function is a bounded map.
 
 If the spaces in question are $T_1$, then the sets with compact closure also constitute a bornology and continuous maps become bounded. In a non-Hausdorff situation these bornologies might differ because the closure of a compact set need not be compact.
 
-* A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
+=--
 
-* The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
 
-* In a [[Hausdorff topological space]], [[compact subsets]] are in particular [[closed subsets]] ([proof](http://planetmath.org/acompactsetinahausdorffspaceisclosed))
++-- {: .num_prop }
+###### Proposition
 
-* A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
+A compact [[Hausdorff space]] must be [[normal space|normal]].  That is, the [[separation axioms]] $T_2$ through $T_4$ (when interpreted as an increasing sequence) are equivalent in the presence of compactness.
 
-One often wishes to study [[compact Hausdorff spaces]].  For locales, one usually speaks of compact [[regular space|regular]] locales; these are equivalent (since every locale is $T_0$ and hence $T_3$ if regular, while every Hausdorff space is $T_3$ if compact) since regularity is easier to formulate and handle than Hausdorffness in locale theory.
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+[[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
+
+=--
 
 
 ## Related concepts
