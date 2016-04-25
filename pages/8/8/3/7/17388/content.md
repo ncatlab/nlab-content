@@ -1,4 +1,10 @@
 
++-- {: .num_prop }
+###### Proposition
+
+A [[compact subspace]] of a [[Hausdorff topological space]] is a [[closed subspace]].
+
+=--
 
 A proof is spelled out at 
 
