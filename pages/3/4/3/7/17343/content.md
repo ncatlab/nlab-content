@@ -58,7 +58,7 @@ $\,$
 We are interested in the [[stable homotopy category]] of [[spectra]], to which we turn [below](#Spectra). But since its existence is an adjunct of the [[classical homotopy category]] [[Ho(Top)]] of [[homotopy types]] of [[topological spaces]]/[[simplicial sets]], we here review that first.
 
 ### **P.1)** Topological homotopy theory
- {#TheClassicalHomotopyCategory}
+ {#TopologicalHomotopyTheory}
 
 
 While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]] ("point-set topology"), but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. 
@@ -1780,7 +1780,7 @@ and so here the lift gives a representative of a preimage in $\pi_{n}(\hat X)$.
 
 **B) $I_{Top}$-injective morphisms are in particular Serre fibrations**
 
-By an immediate closure property of lifting problems (we spell this out in generality as prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{SaturationOfGeneratingCofibrations} below) an $I_{Top}$-[[injective morphism]] has the [[right lifting property]] against all [[relative cell complexes]], and hence, by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}, it is also a $J_{Top}$-injective morphism, hence a Serre fibration.
+By an immediate closure property of lifting problems (we spell this out in generality as prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, cor. \ref{SaturationOfGeneratingCofibrations} below) an $I_{Top}$-[[injective morphism]] has the [[right lifting property]] against all [[relative cell complexes]], and hence, by lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes}, it is also a $J_{Top}$-injective morphism, hence a Serre fibration.
 
 **C) Acyclic Serre fibrations are in particular $I_{Top}$-[[injective morphisms]]**
 
@@ -2592,11 +2592,10 @@ This shows that the coproduct of the $i_s$ has the left lifting property against
 An immediate consequence of prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} is this:
 
 +-- {: .num_prop #SaturationOfGeneratingCofibrations}
-###### Proposition
+###### Corollary
 
 Let $\mathcal{C}$ be a [[category]] with all small [[colimits]],
 and let $K\subset Mor(\mathcal{C})$ be a sub-[[class]] of its morphisms.
-
 Then every $K$-[[injective morphism]], def. \ref{LiftingAndExtension}, has the [[right lifting property]], def. \ref{LiftingAndExtension}, against all $K$-[[relative cell complexes]], def. \ref{TopologicalCCellComplex} and their [[retracts]], remark \ref{RetractsOfMorphisms}.
 
 =--
@@ -3651,7 +3650,7 @@ The following says that for computing the hom-sets in the [[homotopy category of
 For $X, Y \in \mathcal{C}$ with $X$ cofibrant and $Y$ fibrant, and for $P, Q$ fibrant/cofibrant replacement functors as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, then the morphism
 
 $$
- Hom_{Ho(\mathcal{C})}(X,Y)
+ Hom_{Ho(\mathcal{C})}(P X,Q Y)
   =
  Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
    \overset{Hom_{\mathcal{C}}(j_X, p_Y)}{\longrightarrow}
@@ -3671,17 +3670,17 @@ We may factor the morphism in question as the composite
 
 $$
   Hom_{\mathcal{C}}(P X, Q Y)/_{\sim}
-    \overset{Hom_{Ho(\mathcal{C})}(id_{P X}, p_Y) }{\longrightarrow}
+    \overset{Hom_{\mathcal{C}}(id_{P X}, p_Y)/_\sim }{\longrightarrow}
   Hom_{\mathcal{C}}(P X, Y)/_{\sim}
-    \overset{Hom_{Ho(\mathcal{C})}(j_X, id_Y)}{\longrightarrow}
+    \overset{Hom_{\mathcal{C}}(j_X, id_Y)/_\sim}{\longrightarrow}
   Hom_{\mathcal{C}}(X,Y)/_{\sim}
   \,.
 $$
 
-This shows that it is sufficient to show that for $X$ cofibrant and $Y$ fibrant, then 
+This shows that it is sufficient to see that for $X$ cofibrant and $Y$ fibrant, then 
 
 $$
-  Hom_{Ho(\mathcal{C})}(id_X, p_Y)
+  Hom_{\mathcal{C}}(id_X, p_Y)/_\sim
    \;\colon\; 
   Hom_{\mathcal{C}}(X, Q Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
 $$
@@ -3689,20 +3688,20 @@ $$
 is an isomorphism, and dually that
 
 $$
-  Hom_{Ho(\mathcal{C})}(j_X, id_Y) 
+  Hom_{\mathcal{C}}(j_X, id_Y)/_\sim 
   \;\colon\;
   Hom_{\mathcal{C}}(P X, Y)/_\sim \to Hom_{\mathcal{C}}(X,Y)/_\sim
 $$
 
 is an isomorphism. We discuss this for the former; the second is [[formal dual|formally dual]]:
 
-First, that $Hom_{Ho(\mathcal{C})}(id_X, p_Y)$ is surjective is the [[lifting property]] in 
+First, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is surjective is the [[lifting property]] in 
 
 $$
   \array{
     \emptyset &\longrightarrow& Q Y
     \\
-    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{\in W \cap Fib}}
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
     \\
     X &\overset{f}{\longrightarrow}& Y
   }
@@ -3711,20 +3710,20 @@ $$
 
 which says that any morphism $f \colon X \to Y$ comes from a morphism $\hat f \colon X \to Q Y$ under postcomposition with $Q Y \overset{p_Y}{\to} Y$.
 
-Second, that $\phi$ is injective is the lifting property in 
+Second, that $Hom_{\mathcal{C}}(id_X, p_Y)$ is injective is the lifting property in 
 
 $$
   \array{
     X \sqcup X &\overset{(f,g)}{\longrightarrow}& Q Y
     \\
-    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{\in W \cap Fib}}
+    {}^{\mathllap{\in Cof}}\downarrow && \downarrow^{\mathrlap{p_Y}}_{\mathrlap{\in W \cap Fib}}
     \\
     Cyl(X) &\underset{\eta}{\longrightarrow}& Y
   }
   \,,
 $$
 
-which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after postcomposition with $Q X \to Y$, then they were already homotopic before.
+which says that if two morphisms $f, g \colon X \to Q Y$ become homotopic after postcomposition with $p_Y \colon Q X \to Y$, then they were already homotopic before.
 
 =--
 
@@ -3790,7 +3789,7 @@ Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [
        &&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
-       \mathbb{R} F \colon & Ho(\mathcal{C}_f) &\simeq& Ho(\mathcal{C})
+       \mathbb{R} F \colon & \mathcal{C}_f[W^{-1}] &\simeq& Ho(\mathcal{C})
        &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
      }
      \,,
@@ -3811,7 +3810,7 @@ Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [
        &&
        \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
        \\
-       \mathbb{L} F \colon & Ho(\mathcal{C}_c) &\simeq& Ho(\mathcal{C})
+       \mathbb{L} F \colon & \mathcal{C}_c[W^{-1}] &\simeq& Ho(\mathcal{C})
        &\underset{Ho(F)}{\longrightarrow}& Ho(\mathcal{D})
      }
      \,,
@@ -3821,7 +3820,7 @@ Consider a functor $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ out of a [
 
 =--
 
-The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} practically relevant is the following
+The key fact that makes def. \ref{LeftAndRightDerivedFunctorsOnModelCategories} practically relevant is the following:
 
 +-- {: .num_prop #KenBrownLemma}
 ###### Proposition
@@ -4098,7 +4097,7 @@ Second, observe that with $Y$ cofibrant then also $Y \sqcup Y$ is cofibrant (bei
 +-- {: .num_prop #QuillenAdjunctionInducesAdjunctionOnHomotopyCategories}
 ###### Proposition
 
-For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via prop. \ref{KenBrownLemma}, form a pair of [[adjoint functors]]
+For $\mathcal{C} \stackrel{\overset{L}{\longleftarrow}}{\underoverset{R}{\bot}{\longrightarrow}} \mathcal{D}$ a [[Quillen adjunction]], def. \ref{QuillenAdjunction}, then also the corresponding left and right [[derived functors]], def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}, via cor. \ref{LeftAndRightDerivedFunctors}, form a pair of [[adjoint functors]]
 
 $$
   Ho(\mathcal{C})
@@ -4191,7 +4190,7 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
       \,.
    $$
 
-1. For every cofibrant object $d\in \mathcal{C}$, the composite 
+1. For every cofibrant object $d\in \mathcal{C}$, the "derived adjunction unit", hence the composite 
 
    $$
      d 
@@ -4203,7 +4202,7 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
 
    (of the [[adjunction unit]] with any fibrant replacement $P$ as in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) is a weak equivalence;
 
-   and for every fibrant object $c \in \mathcal{C}$, the composite 
+   and for every fibrant object $c \in \mathcal{C}$, the "derived adjunction counit", hence the composite 
   
      $$
        L(Q(R(c))) 
@@ -4222,7 +4221,7 @@ is called a **[[Quillen equivalence]]** if the following equivalent conditions h
  {#TheClassicalModelStructureOfTopologicalSpaces}
 
 
-We now discuss that the [above](#BackgroundOnTopologicalHomotopyTheoryFromAlgebraicTopology) classes of maps of topological spaces indeed satisfy the axioms of abstract homotopy theory ([[model category]]) theory, def. \ref{ModelCategory}.
+We now discuss how the category [[Top]] of [[topological spaces]] satisfies the axioms of abstract homotopy theory ([[model category]]) theory, def. \ref{ModelCategory}.
 
 
 +-- {: .num_defn #ClassesOfMorhismsInTopQuillen}
@@ -4234,13 +4233,14 @@ Say that a [[continuous function]], hence a [[morphism]] in [[Top]], is
 
 * a **classical fibration** if it is a [[Serre fibration]], def. \ref{SerreFibration};
 
-* a **classical cofibration** if it is a [[retract]], rem \ref{RetractsOfMorphisms}, of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+* a **classical cofibration** if it is a [[retract]] (rem. \ref{RetractsOfMorphisms}) of a [[relative cell complex]], def. \ref{TopologicalCellComplex}.
+
 
 and hence
 
-* a **classical acyclic cofibration** if it is a classical cofibration as well as a classical weak equivalence;
+* a **acyclic classical cofibration** if it is a classical cofibration as well as a classical weak equivalence;
 
-* a **classical acyclic fibration** if it is a classical fibration as well as a classical weak equivalence.
+* a **acyclic classical fibration** if it is a classical fibration as well as a classical weak equivalence.
 
 Write 
 
@@ -4255,7 +4255,7 @@ for the classes of these morphisms, respectively.
 =--
 
 
-We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satify the conditions for a [[model category]] structure, def. \ref{ModelCategory}, on the category [[Top]] (after some lemmas, this is theorem \ref{TopQuillenModelStructure} below).
+We first prove now that the classes of morphisms in def. \ref{ClassesOfMorhismsInTopQuillen} satisfy the conditions for a [[model category]] structure, def. \ref{ModelCategory} (after some lemmas, this is theorem \ref{TopQuillenModelStructure} below). Then we discuss the resulting [[classical homotopy category]] ([below](#TheClassicalHomotopyCategory)) as well as some further related phenomena.
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
@@ -4275,10 +4275,10 @@ Since [[isomorphisms]] (of [[homotopy groups]]) satisfy 2-out-of-3, this propert
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #FactorizationInTopQuillen}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a classical cofibration followed by an acyclic fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as a classical cofibration followed by an acyclic classical fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -4298,7 +4298,7 @@ $$
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $I_{Top} = \{S^{n-1}\hookrightarrow D^n\}$ of 
-topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-relative cell complex, hence just a plain relative cell complex, followed by an $I_{Top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}.
+topological [[generating cofibrations]], def. \ref{TopologicalGeneratingCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-spheres]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $I_{Top}$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, hence just a plain relative cell complex, def. \ref{TopologicalCellComplex}, followed by an $I_{Top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
   f 
@@ -4311,7 +4311,7 @@ $$
   \,.
 $$
 
-By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$ is both a weak equivalence as well as a Serre fibration.
+By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$ is both a [[weak homotopy equivalence]] as well as a [[Serre fibration]].
 
 =--
 
@@ -4338,7 +4338,7 @@ $$
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
-topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-relative cell complex, followed by an $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
+topological [[generating acyclic cofibrations]], def. \ref{TopologicalGeneratingAcyclicCofibrations}, has small domains, in the sense of def. \ref{ClassOfMorphismsWithSmallDomains} (the [[n-disks]] are [[compact topological space|compact]]). Hence by the [[small object argument]], prop. \ref{SmallObjectArgument}, $f$ factors as an $J_{Top}$-[[relative cell complex]], def. \ref{TopologicalCCellComplex}, followed by a $J_{top}$-[[injective morphisms]], def. \ref{RightLiftingProperty}:
 
 $$
   f
@@ -4353,7 +4353,7 @@ $$
 
 By definition this makes $\hat X \to Y$ a [[Serre fibration]], hence a fibration.
 
-By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. Hence $X \to \hat X$ is a cofibration. By lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} it is also a weak equivalence.
+By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. Hence $X \to \hat X$ is a classical cofibration. By lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} it is also a [[weak homotopy equivalence]], hence a clasical weak equivalence.
 
 =--
 
@@ -4380,7 +4380,7 @@ admits a [[lift]] as soon as one of the two is also a classical weak equivalence
 +-- {: .proof}
 ###### Proof
 
-**A)** If the fibration $f$ is also a weak equivalence, then lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} says that it has the right lifting property against the generating cofibrations $I_{Top}$, and prop. \ref{SaturationOfGeneratingCofibrations} implies the claim.
+**A)** If the fibration $f$ is also a weak equivalence, then lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} says that it has the right lifting property against the generating cofibrations $I_{Top}$, and cor. \ref{SaturationOfGeneratingCofibrations} implies the claim.
 
 **B)** If the cofibration $g$ on the left is also a weak equivalence, consider any factorization into a relative $J_{Top}$-cell complex, def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}, followed by a fibration,
 
@@ -4389,7 +4389,7 @@ $$
   \,,
 $$
 
-as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. Now by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}), prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}, the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally lemma \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
+as in the proof of prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}. By prop. \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} the morphism $\overset{\in J_{Top} Cell}{\longrightarrow}$ is a weak homotopy equivalence, and so by [[two-out-of-three]] (prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree}) the factorizing fibration is actually an acyclic fibration. By case A), this acyclic fibration has the [[right lifting property]] against the cofibration $g$ itself, and so the [[retract argument]], lemma \ref{RetractArgument} gives that $g$  is a [[retract]] of a relative $J_{Top}$-cell complex. With this, finally cor. \ref{SaturationOfGeneratingCofibrations} implies that $f$ has the [[right lifting property]] against $g$.
 
 =--
 
@@ -4405,7 +4405,7 @@ The systems $(Cof_{cl} , W_{cl} \cap Fib_{cl})$ and $(W_{cl} \cap Cof_{cl}, Fib_
 +-- {: .proof}
 ###### Proof
 
-We have already seen the factorization and the lifting property, it remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
+Since we have already seen the factorization property (prop. \ref{FactorizationInTopQuillen}, prop. \ref{ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}) and the lifting properties (prop. \ref{LiftingPropertyInTheClassicalModelStructureOnTopologicalSpaces}), it only remains to see that the given left/right classes exhaust the class of morphisms with the given lifting property. 
 
 For the classical fibrations this is by definition, for the the classical acyclic fibrations this is by lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}.
 
@@ -4414,19 +4414,18 @@ The remaining statement for $Cof_{cl}$ and $W_{cl}\cap Cof_{cl}$ follows from a 
 So let $f \colon X \longrightarrow Y$ be in $(I_{Top} Inj) Proj$, we need to show that then $f$ is a retract (remark \ref{RetractsOfMorphisms}) of a [[relative cell complex]]. To that end, apply the [[small object]] argument to factor $f$ as 
 
 $$
-  f \;\colon \; X \overset{}{\longrightarrow} \hat Y \overset{\in I Inj}{\longrightarrow} Y
+  f \;\colon \; X \overset{I_{Top} Cell}{\longrightarrow} \hat Y \overset{\in I_{Top} Inj}{\longrightarrow} Y
   \,.
 $$
 
-It follows that $f$ has the [[left lifting property]] against $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \to \hat Y$. This proves the claim for $Cof_{cl}$.
+It follows that $f$ has the [[left lifting property]] against $\hat Y \to Y$, and hence by the [[retract argument]] (lemma \ref{RetractArgument}) it is a retract of $X \overset{I Cell}{\to} \hat Y$. This proves the claim for $Cof_{cl}$.
 
 The argument for $W_{cl} \cap Cof_{cl}$ is directly analogous, using the [[small object argument]] now for $J_{Top}$.
-
 
 =--
 
 
-In conclusion:
+In conclusion, prop. \ref{QuillenWeakEquivalencesSatisfyTwoOutOfThree} and prop. \ref{LiftingExhausted} say that:
 
 +-- {: .num_theorem #TopQuillenModelStructure} 
 ###### Theorem
@@ -4439,11 +4438,13 @@ The classes of morphisms in $Mor(Top)$ of def.  \ref{ClassesOfMorhismsInTopQuill
 
 * $Cof_{cl} = $ [[retracts]] of [[relative cell complexes]]
 
-define a [[model category]] structure, $Top_{Quillen}$, the **[[classical model structure on topological spaces]]** or **Serre-Quillen model structure**.
+define a [[model category]] structure (def. \ref{ModelCategory}) $Top_{Quillen}$, the **[[classical model structure on topological spaces]]** or **Serre-Quillen model structure** .
 
 =--
 
-In fact we have shown a bit more. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as model categories of spectra. Therefore we make this situation explicit:
+In fact we have shown a bit more. Looking back, all the structure of $Top_{Quillen}$ is entirely induced by the set $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) of generating cofibrations and the set $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of generating acyclic cofibrations (whence the terminology). This phenomenon will keep recurring and will keep being useful as we construct further model categories, such as the [[classical model structure on pointed topological spaces]] (def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}), the [[projective model structure on enriched functors|projective model structure on topological functors]] (thm. \ref{ProjectiveModelStructureOnTopologicalFunctors}), and finally various [[model structures on spectra]] which we turn to in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]]. 
+
+Therefore we make this situation explicit:
 
 +-- {: .num_defn #CofibrantlyGeneratedModelCategory} 
 ###### Definition
@@ -4465,7 +4466,7 @@ of its class of morphisms, such that
 +-- {: .num_prop} 
 ###### Proposition
 
-For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory} with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
+For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
 
 
 1. $Cof = (I Inj) Proj$
@@ -4503,6 +4504,7 @@ The proof of the third and fourth item is directly analogous, just with $J$ repl
 
 
 ##### The classical homotopy category
+ {#TheClassicalHomotopyCategory}
 
 +-- {: .num_defn #ClassicalHomotopyCategory} 
 ###### Definition
