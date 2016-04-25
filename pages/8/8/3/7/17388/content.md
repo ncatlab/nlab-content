@@ -1,0 +1,7 @@
+
+
+A proof is spelled out at 
+
+* ProofWiki _[Compact Subspace of Hausdorff Space is Closed](https://proofwiki.org/wiki/Compact_Subspace_of_Hausdorff_Space_is_Closed)_
+
+
