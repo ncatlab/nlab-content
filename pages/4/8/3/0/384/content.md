@@ -16,12 +16,25 @@
 
 ## Idea
 
-A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching $n$-[[dimension|dimensional]] [[disks]] $D^n$ along their [[boundary]] [[spheres]] $S^{n.1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
+A **CW-complex** is a [[nice topological space]] which is or can be built up inductively, by a process of attaching [[n-disks]] $D^n$ along their [[boundary]] [[n-spheres|(n-1)-spehres]] $S^{n-1}$ for all $n \in \mathbb{N}$: a [[cell complex]] built from the basic topological cells $S^{n-1} \hookrightarrow D^n$. 
 
 Being, therefore,  essentially combinatorial objects, CW complexes are the principal objects of interest in [[algebraic topology]]; in fact, most spaces of interest to algebraic topologists are [[homotopy equivalence|homotopy equivalent]] to CW-complexes. Notably the [[geometric realization]] of every [[simplicial set]], hence also of every [[groupoid]], [[2-groupoid]], etc., is a CW complex. 
 
-Also, CW complexes are the [[cofibrant objects]] in the standard [[Quillen model structure on topological spaces]]. 
-This means in particular that _every_ ([[Hausdorff topological space|Hausdorff]]) topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
+Also, CW complexes are the [[cofibrant objects]] in the [[classical model structure on topological spaces]]. 
+This means in particular that _every_  topological space is _[[weak homotopy equivalence|weakly homotopy equivalent]]_ to a CW-complex (but need not be [[homotopy equivalence|strongly homotopy equivalent]] to one). See also at _[[CW-approximation]]_.  Since every topological space is a [[fibrant object]] in this [[model category]] structure, this means that the [[full subcategory]] of [[Top]] on the CW-complexes is a category of "homotopically very good representatives" of [[homotopy types]]. See at _[[homotopy theory]]_ and _[[homotopy hypothesis]]_ for more on this.
+
+## Terminology
+ {#Terminology}
+
+The terminology "CW-complex" goes back to [[John Henry Constantine Whitehead]] (see [Hatcher, "Topology of cell complexes", p. 520](#HatcherTopologyOfCellComplexes)). It stands for the following two properties shared by any CW complex:
+
+* **C** = "closure finiteness": a [[compact subset]] of a CW complex intersects the [[interior]] of only finitely many cells ([prop.](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)), hence in particular so does the closure of any cell.
+
+
+* **W** = "weak topology": Since a CW-complex is a [[colimit]] in [[Top]] over its cells, and as such equipped with the [[final topology]] of the cell inclusion maps, a subset of a CW-complex is open or closed precisely if its restriction to (the closure of) each cell is open or closed, respectively.
+
+(Whitehead called the [[interior]] of the [[n-disks]] the "cells", so that their closure of each cell is the corresponding $n$-disk.)
+
 
 ## Definition
 
@@ -60,17 +73,35 @@ A CW-complex is a [[locally contractible topological space]].
 
 For instance ([Hatcher, prop. A.4](#Hatcher)). 
 
+### Compact generation
+
++-- {: .num_prop #CWComplexIsCompactlyGenerated}
+###### Proposition
+
+Every CW-complex is a [[compactly generated topological space]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since a CW-complex $X$ is a [[colimit]] in [[Top]] over attachments of standard [[n-disks]] $D^{n_i}$ (its cells), by the characterization of colimits in $Top$ ([prop.](Top#DescriptionOfLimitsAndColimitsInTop)) a subset of $X$ is open or closed precisely if its restriction to each cell is open or closed, respectively. Since the $n$-disks are compact, this implies one direction: if a subset $A$ of $X$ intersected with all compact subsets is closed, then $A$ is closed. 
+
+For the converse direction, since the CW-complex is Hausdorff and since compact subspaces of Hausdorff spaces are closed, the intersection of a closed subset with a compact subset is closed.
+
+=--
+
 
 ### Up to homotopy equivalence 
 
 +-- {: .num_theorem} 
 ###### Theorem 
 
-Every CW complex is homotopy equivalent to (the [realization](/nlab/show/simplicial+complex#geometric_realisations_and_polyhedra) of) a [[simplicial complex]]. 
+Every CW complex is homotopy equivalent to (the [realization](simplicial+complex#geometric_realisations_and_polyhedra) of) a [[simplicial complex]]. 
 
 =-- 
 
-See [Gray](#Gray), Corollary 16.44 (p. 149) and Corollary 21.15 (p. 206). 
+See [Gray](#Gray), Corollary 16.44 (p. 149) and Corollary 21.15 (p. 206).  For more see at _[[CW approximation]]_.
 
 +-- {: .num_cor} 
 ###### Corollary 
@@ -260,6 +291,8 @@ Basic textbook accounts include
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
   
+* {#HatcherTopologyOfCellComplexes} [[Allen Hatcher]], _Topology of cell complexes_ ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATapp.pdf)) in _Algebraic Topology_
+
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
