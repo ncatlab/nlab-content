@@ -1,6 +1,29 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Philosophy
++--{: .hide}
+[[!include philosophy - contents]]
+=--
+#### Foundations
++--{: .hide}
+[[!include foundations - contents]]
+=--
+=--
+=--
 
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+>$\mu\alpha\theta\eta\sigma\iota\varsigma$ - Learning (Gr.)
+
+This page collects material that is relevant for the **teaching of mathematics**.
+
+## Thematical Links
 * wikipedia: [mathematics education](https://en.wikipedia.org/wiki/Mathematics_education), [Common Core State Standards Initiative](https://en.wikipedia.org/wiki/Common_Core_State_Standards_Initiative), [New Math](https://en.wikipedia.org/wiki/New_Math), [Moore method](https://en.wikipedia.org/wiki/Moore_method)
-* [[New Math]]
 * [NCTM](http://www.nctm.org) National Organization of Teachers of Mathematics
 * [Common Core](http://www.corestandards.org/Math) math standards
 * Liping Ma, _Knowing and Teaching Elementary Mathematics: Teachers' Understanding of Fundamental Mathematics in China and the United States_ (Studies in Mathematical Thinking and Learning Series)
@@ -9,5 +32,31 @@
    * blog opinion [What Does Liping Ma REALLY say?](http://rationalmathed.blogspot.hr/2007/06/what-does-liping-ma-really-say.html)
 * Elizabeth Green, [Why Do Americans Stink at Math?](http://www.nytimes.com/2014/07/27/magazine/why-do-americans-stink-at-math.html), New York Times opinion story (moral: good ideas in the reforms never materialized in practice)
 * [Guy Brousseau](http://www.ardm.eu/contenu/guy-brousseau-english) and at French [wikipedia](https://pt.wikipedia.org/wiki/Guy_Brousseau)
+
+## Related Pages
+
+* [[New Math]]
+
+* [[Practical Foundations of Mathematics]]
+
+## References
+
+The following texts contain useful material for teaching **elementary geometry** at an intermediate high-school and undergraduate level:
+
+* Robin Hartshorne, _Teaching Geometry According to Euclid_ , Notices AMS **47** no.4 (2000) pp.460-465. ([pdf](http://www.ams.org/notices/200004/fea-hartshorne.pdf))
+
+* Robin Hartshorne, _Geometry - Euclid and Beyond_ , UTM Springer 2000.
+
+* [[David Hilbert]], Stefan Cohn-Vossen, _Anschauliche Geometrie_ , Springer Berlin 1932. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/toc/?PID=PPN379425343))
+
+* David Henderson, Daina Taimina, _Experiencing Geometry_ , Prentice-Hall Upper Saddle River 2005. (Supplementary online material: [link](http://www.math.cornell.edu/~henderson/ExpGeom/ExpGeomSuppl.html))
+
+* John Stillwell, _The Four Pillars of Geometry_ , UTM Springer 2005.
+
+The following book is a unique attempt to teach an introductory [[category theory]] course at the high school level:
+
+* [[F. William Lawvere]], [[Stephen H. Schanuel]], _Conceptual Mathematics: A First Introduction to Categories_ , Cambridge UP 1997.
+
+
 
 category: education
