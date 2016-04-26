@@ -1,0 +1,3 @@
+* T. Etzion, L. Storme, _Galois geometries and coding theory_, Designs, Codes and Cryptography 78:1 (2016) 311-350 [doi](http://dx.doi.org10.1007/s10623-015-0156-5)
+
+    
