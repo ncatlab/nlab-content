@@ -1820,7 +1820,13 @@ This is a special case of a general statement about cofibrant generation of [[co
 
 ### Model structure on compactly generated topological spaces
 
-The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it is needed for a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors).
+The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
+
+1. the [[smash product]] on [[pointed topological spaces]] is [[associative]];
+
+1. there is a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors).
+
+1. [[geometric realization]] of [[simplicial sets]] preserves [[products]].
 
 Now, since, by the above, the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space, it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
 
@@ -1851,7 +1857,7 @@ for the [[full subcategory]] of [[Top]] on the compactly generated topological s
 Write
 
 $$
-  k \colon Top_ \longrightarrow Top_{cg} \hookrightarrow Top_ 
+  Top \overset{k}{\longrightarrow} Top_{cg} \hookrightarrow Top
 $$
 
 for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets.
@@ -1865,7 +1871,7 @@ for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the 
 Let $X \in Top_{cg} \hookrightarrow Top$ and let $Y\in Top$. Then [[continuous functions]]
 
 $$
-  X \longrigtharrow Y
+  X \longrightarrow Y
 $$
 
 are also continuous when regarded as functions
@@ -1878,7 +1884,7 @@ with $k$ from def. \ref{kfication}.
 
 =--
 
-e.g. ([Strickland 09, cor. 1.10](#Strickland09))
+This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). See  ([Strickland 09, cor. 1.10](#Strickland09)).
 
 +-- {: .num_cor #kTopIsCoreflectiveSubcategory}
 ###### Corollary
@@ -1910,12 +1916,114 @@ Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[l
 
 =--
 
++-- {: .num_defn #CompactlyGeneratedMappingSpaces}
+###### Definition
+
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset X$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+
+$$
+  U^\kappa \coloneqq \left\{ f\in C(X,Y) | f(\kappa(K)) \subset U \right\}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #CartesianClosureOfTopcg}
+###### Proposition
+
+The category $Top_{cg}$ (def. \ref{kTop}) is [[cartesian closed category|cartesian closed]]: 
+
+for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the Cartesian product in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
+
+$$
+  Top_{cg}
+    \stackrel{\overset{X \times (-)}{\longleftarrow}}{\underset{(-)^X}{\longrightarrow}}
+  Top_{cg}
+  \,.
+$$
+
+=--
+
+e.g. ([Strickland 09, prop. 2.12](#Strickland09))
+
 Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
 
++-- {: .num_example}
+###### Example
 
-...examples...
+spring
 
-#### Compactly generated weakly Hausdorff
+=--
+
+
+
+#### Pointed compactly generated topological spaces
+
+Moreover:
+
++-- {: .num_prop}
+###### Proposition
+
+Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]]
+
+$$
+  (-)\wedge (-)
+  \;\colon\;
+  Top_{cg}^{\ast/}
+    \times
+  Top_{cg}^{\ast/}
+    \longrightarrow
+  Top_{cg}^{\ast/}
+$$
+
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it, hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].
+
+Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast}$ becomes a [[closed monoidal category]]: 
+
+for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $(-)_\ast^X$ constitute a pair of [[adjoint functors]]
+
+$$
+  Top_{cg}^{\ast/}
+    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{(-)_\ast^X}{\longrightarrow}}
+  Top_{cg}^{\ast/}
+ \,.
+$$
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, since $(-)\times X$ is a [[left adjoint]] by prop. \ref{CartesianClosureOfTopcg}, it presevers [[colimits]] and in particular [[quotient space]] projections. Therefore with $X, Y, Z \in Top_{cg}^{\ast/}$ then
+
+$$
+  \begin{aligned}
+    (X \wedge Y) \wedge Z
+    & =
+    \frac{
+      \frac{X\times Y}{X \times\{y\} \sqcup \{x\}\times Y}
+      \times Z
+    }{ (X \wedge Y)\times \{z\} \sqcup \{[x] = [y]\} \times Z}
+    \\
+    & \simeq
+    \frac{\frac{X \times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z}}{
+      X \times Y \times \{z\}
+    }
+   \\
+   &\simeq
+    \frac{X\times Y \times Z}{ X \vee Y \vee Z}
+  \end{aligned}
+  \,.
+$$
+
+The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
+
+=--
+
+
+
+#### Compactly generated weakly Hausdorff spaces
 
 +-- {: .num_defn #WeaklyHausdorff}
 ###### Definition
@@ -2458,8 +2566,6 @@ $$
   \,.
 $$
 
-
-
 =--
 
 
@@ -2480,6 +2586,8 @@ An expository, concise and comprehensive writeup of the proof of the model categ
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
 
 Useful discussion of the issue of [[compactly generated topological spaces]] in the context of homotopy theory is in 
+
+* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
 * {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
 
