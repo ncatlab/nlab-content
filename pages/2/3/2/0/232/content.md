@@ -263,10 +263,14 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 ## References
 
-The standard reference on enriched categories is
+A standard reference on enriched categories is
 
 * [[Max Kelly]], _Basic concepts of enriched category theory_,
 London Math. Soc. Lec. Note Series __64__, Cambridge Univ. Press 1982, 245 pp.; remake: TAC reprints 10, [tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html),[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf)
+
+Also 
+
+* [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
 
 Vista of some modern generalizations is in
 
@@ -277,7 +281,6 @@ Change of base is discussed in
 
 * [[Geoff Cruttwell]], _Normed Spaces and the Change of Base for Enriched Categories_, [pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf)
 
-##### Blog entries
 
 * John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
 
