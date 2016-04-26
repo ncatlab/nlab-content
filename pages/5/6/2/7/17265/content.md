@@ -1818,6 +1818,144 @@ The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhi
 This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties). But it also follows by a proof directly analogous to that of theorem \ref{TopQuillenModelStructure}.
 
 
+### Model structure on compactly generated topological spaces
+
+The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it is needed for a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors).
+
+Now, since, by the above, the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space, it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
+
+Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now.
+
++-- {: .num_defn #kTop}
+###### Definition
+
+Let $X$ be a [[topological space]].
+
+A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
+
+$X$ is called **[[compactly generated topological space|compactly generate]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
+
+Write
+
+$$
+  Top_{cg} \hookrightarrow Top
+$$
+
+for the [[full subcategory]] of [[Top]] on the compactly generated weakly Hausdorff topological spaces.
+
+=--
+
++-- {: .num_defn #kfication}
+###### Definition
+
+Write
+
+$$
+  k \colon Top_ \longrightarrow Top_{cg} \hookrightarrow Top_ 
+$$
+
+for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets.
+
+=--
+
+
++-- {: .num_lemma #ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}
+###### Lemma
+
+Let $X \in Top_{cg} \hookrightarrow Top$ and let $Y\in Top$. Then [[continuous functions]]
+
+$$
+  X \longrigtharrow Y
+$$
+
+are also continuous when regarded as functions
+
+$$
+  X \longrightarrow k(Y)
+$$
+
+with $k$ from def. \ref{kfication}.
+
+=--
+
+e.g. ([Strickland 09, cor. 1.10](#Strickland09))
+
++-- {: .num_cor #kTopIsCoreflectiveSubcategory}
+###### Corollary
+
+For $X \in Top_{cg}$ there is a [[natural bijection]]
+
+$$
+  Hom_{Top}(X,Y) \simeq Hom_{Top_{cg}}(X, k(Y))
+  \,,
+$$
+
+which means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
+
+$$
+  Top
+    \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
+  Top_{cg}
+  \,.
+$$
+
+This in turn means equivalently that $Top_{cg} \hookrightarrow Top$ is a [[coreflective subcategory]] with coreflector $k$. In particular $k$ is [[idempotent monad|idemotent]] in that there are [[natural isomorphisms|natural]] [[homeomorphisms]]
+
+$$
+  k(k(X))\simeq k(X)
+  \,.
+$$
+
+Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[limits]] in $Top_{cg}$ exists, these are obtained by computing the limit in [[Top]] and then applying the functor $k$ to the result.
+
+=--
+
+Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
+
+
+...examples...
+
+#### Compactly generated weakly Hausdorff
+
++-- {: .num_defn #WeaklyHausdorff}
+###### Definition
+
+A [[topological space]] $X$ is called **[[weakly Hausdorff topological space|weakly Hausdorff]]** if for every [[continuous function]]
+
+$$
+  f \;\colon\; K \longrightarrow X
+$$
+
+out of a [[compact topological space|compact]] [[Hausdorff space]] $K$, its [[image]] $f(K) \subset X$  is a [[closed subset]] of $X$.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Every [[Hausdorff space]] is a [[weakly Hausdorff space]], def. \ref{WeaklyHausdorff}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[compact subspaces of Hausdorff spaces are closed]].
+
+=--
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $X$ a [[weakly Hausdorff topological space]], def. \ref{WeaklyHausdorff}, then a subset $A \subset X$ is $k$-closed, def. \ref{kTop}, precisely if for every subset $K \subset X$ that is [[compact subspace|compact]] [[Hausdorff space|Hausdorff]] with respect to the [[subspace topology]], then the [[intersection]] $K \cap A$ is a [[closed subset]] of $X$.
+
+=--
+
+e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
+
+
 
 
 ### The model structure on $Top_{Quillen}$-enriched functors
@@ -2340,6 +2478,11 @@ The original article is
 An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
+
+Useful discussion of the issue of [[compactly generated topological spaces]] in the context of homotopy theory is in 
+
+* {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
+
 
 The observation that the proof directly extends to give the [[projective model structures on enriched functors]], enriched over $Top_{Quillen}$, is due to 
 
