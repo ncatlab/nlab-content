@@ -119,7 +119,7 @@ To prove $K$ uncountable, we use the fact that an algebraically closed field is 
 
 +-- {: .num_lemma #ultrapower} 
 ###### Lemma 
-If $X$ is infinite and $U$ is a non-principal ultrafilter on $\mathbb{N}$, then the ultrapower $X^\mathbb{N}/U$ has cardinality at least $2^{\aleph_0}$. 
+If $X$ is an infinite set and $U$ is a non-principal ultrafilter on $\mathbb{N}$, then the ultrapower $X^\mathbb{N}/U$ has cardinality ${|X|}^{\aleph_0}$ (so at least $2^{\aleph_0}$). 
 =-- 
 
 +-- {: .proof} 
