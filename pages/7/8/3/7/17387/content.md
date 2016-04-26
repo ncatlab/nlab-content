@@ -22,6 +22,8 @@ are morphisms between composites $\alpha:h\circ f \to k\circ g$.  The name arise
 
 * Quintets in a [[Gray-category]] form an [[intercategory]].
 
+* By a certain stretch of terminology, the singular [[cubical set]] of a [[topological space]] might be called a quintet construction.
+
 
 ## Applications
 
