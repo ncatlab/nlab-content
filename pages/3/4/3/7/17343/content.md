@@ -4970,7 +4970,7 @@ Inspection of the component maps shows that the left vertical morphism here is t
 
 A _[[pointed object]]_ $(X,x)$ is of course an [[object]] $X$ equipped with a [[point]] $x \colon \ast \to X$, and a morphism of pointed objects $(X,x) \longrightarrow (Y,y)$ is a morphism $X \longrightarrow Y$ that takes $x$ to $y$. Trivial as this is in itself, it is good to record some basic facts, which we do here. 
 
-Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in [Part 1)](#StableHomotopyTheory).
+Passing to pointed objects is also the first step in linearizing classical homotopy theory to [[stable homotopy theory]]. In particular, every category of pointed objects has a [[zero object]], hence has [[zero morphisms]]. And crucially, if the original category had [[Cartesian products]], then its pointed objects canonically inherit a non-cartesian [[tensor product]]: the [[smash product]]. These ingredients will be key below in the [[Introduction to Stable homotopy theory -- 1|section on stable homotopy theory]].
 
 +-- {: .num_defn #SliceCategory}
 ###### Definition
@@ -4989,7 +4989,7 @@ Dually, the _[[coslice category]]_ $\mathcal{C}^{X/}$ is the category whose
 
 * morphisms are [[commuting diagram|commuting triangles]] $\array{ && X \\ & \swarrow && \searrow \\ A && \longrightarrow && B }$ in $\mathcal{C}$.
 
-There is the canonical [[forgetful functor]]
+There are the canonical [[forgetful functors]]
 
 $$
   U \;\colon \; \mathcal{C}_{/X}, \mathcal{C}^{X/} \longrightarrow \mathcal{C}
@@ -5031,70 +5031,21 @@ In a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOf
 
 In this situation one says that $\ast$ is a _[[zero object]]_ and that $\mathcal{C}^{\ast/}$ is a _[[pointed category]]_. 
 
-It follows that also all [[hom-sets]] $\mathcal{C}^{\ast/}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
+It follows that also all [[hom-sets]] $Hom_{\mathcal{C}^{\ast/}}(X,Y)$ of $\mathcal{C}^{\ast/}$ are canonically [[pointed sets]], pointed by the _[[zero morphism]]_
 
 $$
   0 
     \;\colon\;
-  X \overset{\exists!}{\longrightarrow} 0 \overset{\exists}{\longrightarrow} Y
+  X 
+    \overset{\exists !}{\longrightarrow} 
+  0 
+    \overset{\exists !}{\longrightarrow} Y
   \,.
 $$
 
 =--
 
-+-- {: .num_prop #ModelStructureOnSliceCategory}
-###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
-
-In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The model strcuture as claimed is immediate by inspection. spring
-
-=--
-
-
-+-- {: .num_example #ClassicalPointedHomotopyCategory}
-###### Example
-
-For $\mathcal{C} = Top_{Quillen}$, the [[classical model structure on topological spaces]] from theorem \ref{TopQuillenModelStructure}, then the model structure on [[pointed topological spaces]] induced via prop. \ref{ModelStructureOnSliceCategory} we call the _[[classical model structure on pointed topological spaces]]_ $Top_{Quillen}^{\ast/}$. Its [[homotopy category of a model category]] is the _pointed [[classical homotopy category]]_ $Ho(Top^{\ast/})$. We discuss this in more detail starting with def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} below.
-
-=--
-
-+-- {: .num_example #NonDegenerateBasepointAsCofibrantObjects}
-###### Example
-
-The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$.
-
-But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
-
-For $\mathcal{C}^{\ast/} = Top^{\ast/}$, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
-
-=--
-
-
-+-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
-###### Example
-
-For $\mathcal{C}$ any [[model category]], with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model structure]] according to prop. \ref{ModelStructureOnSliceCategory}, then the corresponding [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) is, by remark \ref{PointedObjectsHaveZeroObject}, canonically [[enriched category|enriched]] in [[pointed sets]], in that its [[hom-functor]] is of the form
-
-$$
-  [-,-]_\ast
-  \;\colon\;
-  Ho(\mathcal{C}^{\ast/})^\op
-  \times
-  Ho(\mathcal{C}^{\ast/})
-  \longrightarrow
-  Set^{\ast/}
-  \,.
-$$
-
-=--
 
 +-- {: .num_defn #BasePointAdjoined}
 ###### Definition
@@ -5218,12 +5169,26 @@ $$
  
 =--
 
++-- {: .num_remark}
+###### Remark
+
+For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects}, the [[smash product]] need not be [[associativity|associative]], namely it fails to be associative if the functor $(-)\times Z$ does not preserve the [[quotients]] involved in the definition. 
+
+In particular this may happen for $\mathcal{C} = $ [[Top]].
+
+A sufficient condition for $(-) \times Z$ to preserve quotients is that it is a [[left adjoint]] functor. This is the case in the smaller subcategory of [[compactly generated topological spaces]], we come to this in prop. \ref{SmashProductInTopcgIsAssociative} below. spring
+
+
+
+=--
+
 These two operations are going to be ubiquituous in [[stable homotopy theory]]:
 
 | symbol | name | category theory |
 |--------|------|-----------------|
 | $X \vee Y$ | [[wedge sum]] | [[coproduct]] in $\mathcal{C}^{\ast/}$ |
 | $X \wedge Y$ | [[smash product]] | [[tensor product]] in $\mathcal{C}^{\ast/}$|
+
 
 +-- {: .num_example #WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces}
 ###### Example
@@ -5306,7 +5271,7 @@ $$
 For $(X,x),(Y,y)$ [[pointed topological spaces]] with $Y$ a [[locally compact topological space]], then the **[[pointed mapping space]]** is the [[topological subspace]] of the [[mapping space]] of def. \ref{CompactOpenTopology}
 
 $$
-  [(Y,y),(X,x)]_\ast
+  Maps((Y,y),(X,x))_\ast
     \hookrightarrow
   (X^Y, const_x)
 $$
@@ -5320,17 +5285,15 @@ The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject
 $$
   Hom_{Top^{\ast/}}((Z,z) \wedge (Y,y), (X,x))
   \simeq
-  Hom_{Top^{\ast/}}((Z,z), [(Y,y),(X,x)]_\ast)
+  Hom_{Top^{\ast/}}((Z,z), Maps((Y,y),(X,x))_\ast)
 $$
 
 between basepoint-preserving continuous functions out of a [[smash product]], def. \ref{SmashProductOfPointedObjects}, with pointed continuous functions of one variable into the pointed mapping space.
 
 =--
 
-
-
-+-- {: .num_defn #FiberAndCofiberInPointedObjects}
-###### Definition
++-- {: .num_example #FiberAndCofiberInPointedObjects}
+###### Example
 
 Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objects]] $\mathcal{C}^{\ast/}$, def. \ref{CategoryOfPointedObjects}, with finite limits and colimits,
 
@@ -5364,7 +5327,7 @@ Given a morphism $f \colon X \longrightarrow Y$ in a [[category of pointed objec
 +-- {: .num_remark }
 ###### Remark
 
-In the situation of def. \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$, first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
+In the situation of example \ref{FiberAndCofiberInPointedObjects}, both the pullback as well as the pushout are equivalently computed in $\mathcal{C}$. For the pullback this is the first clause of prop. \ref{LimitsAndColimitsOfPointedObjects}. The second clause says that for computing the pushout in $\mathcal{C}$, first the point is to be adjoined to the diagram, and then the colimit over the larger diagram
 
 $$
   \array{
@@ -5384,22 +5347,113 @@ be computed. But one readily checks that in this special case this does not affe
 
 =--
 
++-- {: .num_prop #ModelStructureOnSliceCategory}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
+
+In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way. 
+
+The corresponding [[homotopy category of a model category]], def. \ref{HomotopyCategoryOfAModelCategory}, we call the **[[pointed category|pointed]] [[homotopy category of a model category|homotopy category]]** $Ho(\mathcal{C}^{\ast/})$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate: 
+
+By prop. \ref{LimitsAndColimitsOfPointedObjects} the (co-)slice category has all limits and colimits. By definition of the weak equivalences in the (co-)slice, they satisfy [[two-out-of-three]], def. \ref{CategoryWithWeakEquivalences}, because the do in $\mathcal{C}$.
+
+Similarly, the factorization and lifting is all induced by $\mathcal{C}$: Consider the coslice category $\mathcal{C}^{X/}$, the case of the slice category is formally dual; then if
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow && \searrow
+    \\
+    A && \underset{f}{\longrightarrow} && B
+  }
+$$
+
+commutes in $\mathcal{C}$, and a factorization of $f$ exists in $\mathcal{C}$, it uniquely makes this diagram commute
+
+$$
+  \array{
+    && X
+    \\
+    & \swarrow &\downarrow& \searrow
+    \\
+    A &\longrightarrow& C & \longrightarrow& B
+  }
+  \,.
+$$
+
+Similarly, if 
+
+$$
+  \array{
+    A &\longrightarrow& C
+    \\
+    \downarrow && \downarrow
+    \\
+    B &\longrightarrow& D
+  }
+$$
+
+is a [[commuting diagram]] in $\mathcal{C}^{X/}$, hence a commuting diagram in $\mathcal{C}$ as shown, with all objects equipped with compatible morphisms from $X$, then inspection shows that any lift in the diagram necessarily respects the maps from $X$, too.
+
+=--
+
++-- {: .num_example #HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}
+###### Example
+
+For $\mathcal{C}$ any [[model category]], with $\mathcal{C}^{\ast/}$ its [[slice model structure|pointed model structure]] according to prop. \ref{ModelStructureOnSliceCategory}, then the corresponding [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) is, by remark \ref{PointedObjectsHaveZeroObject}, canonically [[enriched category|enriched]] in [[pointed sets]], in that its [[hom-functor]] is of the form
+
+$$
+  [-,-]_\ast
+    \;\colon\;
+  Ho(\mathcal{C}^{\ast/})^\op
+    \times
+  Ho(\mathcal{C}^{\ast/})
+    \longrightarrow
+  Set^{\ast/}
+  \,.
+$$
+
+=--
+
+
+
 +-- {: .num_defn #ClassicalModelStructureOnPointedTopologicalSpaces}
 ###### Definition
 
-Write $Top^{\ast/}_{Quillen}$ for the **[[classical model structure on pointed topological spaces]]**, given from the [[classical model structure on topological spaces]] $Top_{Quillen}$ (theorem \ref{TopQuillenModelStructure}) via the induced [[coslice model structure]] of prop. \ref{ModelStructureOnSliceCategory}.
+Write $Top^{\ast/}_{Quillen}$ for the **[[classical model structure on pointed topological spaces]]**, obtained from the [[classical model structure on topological spaces]] $Top_{Quillen}$ (theorem \ref{TopQuillenModelStructure}) via the induced [[coslice model structure]] of prop. \ref{ModelStructureOnSliceCategory}.
 
-Its [[homotopy category of a model category|homotopy category]] 
+Its [[homotopy category of a model category|homotopy category]], def. \ref{HomotopyCategoryOfAModelCategory},
 
 $$
   Ho(Top^{\ast/})
-  \coloneqq
+    \coloneqq
   Ho(Top_{Quillen}^{\ast/})
 $$
 
 we call the **[[classical pointed homotopy category]]**.
 
 =---
+
+
++-- {: .num_remark #NonDegenerateBasepointAsCofibrantObjects}
+###### Remark
+
+The fibrant objects in the pointed model structure $\mathcal{C}^{\ast/}$, prop. \ref{ModelStructureOnSliceCategory}, are those that are fibrant as objects of $\mathcal{C}$. But the cofibrant objects in $\mathcal{C}^{\ast}$ are now those for which the basepoint inclusion is a cofibration in $X$.
+
+For $\mathcal{C}^{\ast/} = Top^{\ast/}_{Quillen}$ from def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces}, then the corresponding cofibrant pointed topological spaces are tyically referred to as spaces _with non-degenerate basepoints_. Notice that the point itself is cofibrant in $Top_{Quillen}$, so that cofibrant pointed topological spaces are in particular cofibrant topological spaces.
+
+=--
+
+While the existence of the model structure on $Top^{\ast/}$ is immediate, via prop. \ref{ModelStructureOnSliceCategory}, for the discussion of [[topologically enriched functors]] ([below](#ModelStructureOnTopEnrichedFunctors)) it is useful to record that this, too, is a [[cofibrantly generated model category]] (def. \ref{CofibrantlyGeneratedModelCategory}), as follows:
 
 +-- {: .num_defn #GeneratingCofibrationsForPointedTopologicalSpaces}
 ###### Definition
@@ -5436,11 +5490,11 @@ respectively, for the sets of morphisms obtained from the classical generating c
 +-- {: .num_theorem #CofibrantGenerationOfPointedTopologicalSpaces}
 ###### Theorem
 
-The classes in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}.
+The sets $I_{Top^{\ast/}}$ and $J_{Top^{\ast/}}$ in def. \ref{GeneratingCofibrationsForPointedTopologicalSpaces} exhibit the [[classical model structure on pointed topological spaces]] $Top^{\ast/}_{Quillen}$ of def. \ref{ClassicalModelStructureOnPointedTopologicalSpaces} as a [[cofibrantly generated model category]], def. \ref{CofibrantlyGeneratedModelCategory}.
 
 =--
 
-(This is a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).)
+(This is also a special case of a general statement about cofibrant generation of [[coslice model structures]], see [this proposition](model+structure+on+an+over+category#ModelStructureInheritsGoodProperties).)
 
 +-- {: .proof}
 ###### Proof
@@ -5449,27 +5503,30 @@ Due to the fact that in $J_{Top^{\ast/}}$ a basepoint is freely adjoined, lemma 
 
 =--
 
+
 ##### Model structure on compactly generated topological spaces
  {#ModelStructureOnCompactlyGeneratedTopologicalSpaces}
 
-The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) exist only for $Y$ a [[locally compact topological space]] but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
+The category [[Top]] has the technical inconvenience that [[mapping spaces]] $X^Y$ (def. \ref{CompactOpenTopology}) satisfying exponential property (prop. \ref{MappingTopologicalSpaceIsExponentialObject}) exist in general only for $Y$ a [[locally compact topological space]], but fail to exist more generally. In other words: [[Top]] is not [[cartesian closed category|cartesian closed]]. But cartesian closure is necessary for some purposes of homotopy theory, for instance it ensures that
 
-1. the [[smash product]] on [[pointed topological spaces]] is [[associative]];
+1. the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) on [[pointed topological spaces]] is [[associative]] (prop. \ref{SmashProductInTopcgIsAssociative} below);
 
-1. there is a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors).
+1. there is a concept of [[topologically enriched functors]] with values in topological spaces, to which we turn [below](#ModelStructureOnTopEnrichedFunctors);
 
-1. [[geometric realization]] of [[simplicial sets]] preserves [[products]].
+1. [[geometric realization]] of [[simplicial sets]] preserves [[products]] (prop. \ref{Timesk} below).
 
-Now, since, by the above, the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space, it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
+The first two of these are crucial for the development of [[stable homotopy theory]] in the [[Introduction to Stable homotopy theory -- 1|next section]], the third is a great convenience in computations.
 
-Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now.
+Now, since the [[homotopy theory]] of topological spaces only cares about the [[CW approximation]] to any topological space (remark \ref{EveryTopologicalSpaceWeaklyEquivalentToACWComplex}), it is plausible to ask for a [[full subcategory]] of [[Top]] which still contains all [[CW-complexes]], still has all [[limits]] and [[colimits]], still supports a model category structure constructed in the same way as above, but which in addition is [[cartesian closed category|cartesian closed]], and preferably such that the model structure interacts well with the cartesian closure.
+
+Such a full subcategory exists, the category of [[compactly generated topological spaces]]. This we briefly describe now. For full proofs of the following claims, which all are short and elementary arguments in point-set topology, see ([Strickland 09](#Strickland09)).
 
 +-- {: .num_defn #kTop}
 ###### Definition
 
 Let $X$ be a [[topological space]].
 
-A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
+A subset $A \subset X$ is called **compactly closed** or **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
 
 $X$ is called **[[compactly generated topological space|compactly generated]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
 
@@ -5492,7 +5549,7 @@ $$
   Top \overset{k}{\longrightarrow} Top_{cg} \hookrightarrow Top
 $$
 
-for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets.
+for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the  topological space with the same underlying set $S$, but with open subsets $k \tau$ the collection of all $k$-open subsets of $\tau$.
 
 =--
 
@@ -5516,7 +5573,14 @@ with $k$ from def. \ref{kfication}.
 
 =--
 
-This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). See  ([Strickland 09, cor. 1.10](#Strickland09)).
++-- {: .proof}
+###### Proof
+
+We need to show that for $A \subset X$ a $k$-closed subset, then the [[preimage]] $f^{-1}(A) \subset X$ is closed subset. 
+
+Let $\phi \colon K \longrightarrow X$ be any continuous function out of a compact Hausdorff space $K$. Since $A$ is $k$-closed by assumption, we have that $(f \circ \phi)^{-1}(A) = \phi^{-1}(f^{-1}(A))\subset K$ is closed in $K$. This means that $f^{-1}(A)$ is $k$-closed in $X$. But by the assumption that $X$ is compactly generated, it follows that $f^{-1}(A)$ is already closed.
+
+=--
 
 +-- {: .num_cor #kTopIsCoreflectiveSubcategory}
 ###### Corollary
@@ -5525,10 +5589,10 @@ For $X \in Top_{cg}$ there is a [[natural bijection]]
 
 $$
   Hom_{Top}(X,Y) \simeq Hom_{Top_{cg}}(X, k(Y))
-  \,,
+  \,.
 $$
 
-which means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
+This means equivalently that the functor $k$ (def. \ref{kfication}) together with the inclusion from def. \ref{kTop} forms an pair of [[adjoint functors]]
 
 $$
   Top_{cg}
@@ -5548,10 +5612,12 @@ Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[l
 
 =--
 
+The following is a slight variant of def. \ref{CompactOpenTopology}, appropriate for the context of $Top_{cg}$.
+
 +-- {: .num_defn #CompactlyGeneratedMappingSpaces}
 ###### Definition
 
-For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset X$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset Y$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
 
 $$
   U^\kappa \coloneqq \left\{ f\in C(X,Y) | f(\kappa(K)) \subset U \right\}
@@ -5564,7 +5630,7 @@ $$
 +-- {: .num_prop #CartesianClosureOfTopcg}
 ###### Proposition
 
-The category $Top_{cg}$ (def. \ref{kTop}) is [[cartesian closed category|cartesian closed]]: 
+The category $Top_{cg}$ of def. \ref{kTop} is [[cartesian closed category|cartesian closed]]: 
 
 for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the Cartesian product in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
 
@@ -5577,9 +5643,9 @@ $$
 
 =--
 
-e.g. ([Strickland 09, prop. 2.12](#Strickland09))
+For proof see for instance ([Strickland 09, prop. 2.12](#Strickland09)).
 
-Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
+Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know plenty of conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it and one may continue working as in $Top$.
 
 +-- {: .num_example CWComplexIsCompactlyGenerated}
 ###### Example
@@ -5599,22 +5665,24 @@ For the converse direction, since [[a CW-complex is a Hausdorff space]] and sinc
 
 =--
 
+For completeness we record further classes of examples:
+
 +-- {: .num_example}
 ###### Example
 
 The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
 
-1. all [[locally compact topological spaces]]
+1. all [[locally compact topological spaces]],
 
-1. all [[first-countable topological spaces]]
+1. all [[first-countable topological spaces]],
 
    hence in particular
 
-   1. all [[metrizable topological spaces]]
+   1. all [[metrizable topological spaces]],
 
-   1. all [[discrete topological spaces]]
+   1. all [[discrete topological spaces]],
 
-   1. all [[codiscrete topological spaces]]
+   1. all [[codiscrete topological spaces]].
 
 =--
 
@@ -5625,20 +5693,34 @@ Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] o
 +-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
 
-The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex is [[compactly generated topological space|compactly generated]].
+The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex, and more generally with a [[locally compact topological space|locally compact]] CW-complex, is [[compactly generated topological space|compactly generated]].
 
 =--
 
 ([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
 
++-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
+###### Proposition
+
+For every topological space $X$, the canonical function $k(X) \longrightarrow X$ is a [[weak homotopy equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} and lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, continuous functions $S^n \to k(X)$ and their left homotopies $S^n \times I \to k(X)$ are in bijection with functions $S^n \to X$ and their homotopies $S^n \times I \to X$.
+
+=--
+
 
 +-- {: .num_theorem } 
 ###### Theorem
 
-The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
+The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]] (def. \ref{QuillenEquivalence})
 
 $$
-  Top_{cg, Quillen}
+  (Top_{cg})_{Quillen}
     \stackrel{\hookrightarrow}{\underoverset{k}{\bot}{\longleftarrow}}
   Top_{Quillen}
   \,.
@@ -5649,16 +5731,19 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{CWComplexIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+
+Hence the (acyclic) cofibrations in $(Top_{cg})_{Quillen}$ are identified with those in $Top_{Quillen}$, and so the inclusion is a part of a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}). To see that this is a [[Quillen equivalence]] (def. \ref{QuillenEquivalence}), it is sufficient to check that for $X$ a compactly generated space then a continuous function $f \colon X \longrightarrow Y$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) precisely if the [[adjunct]] $\tilde f \colon X \to k(Y)$ is a weak homotopy equivalence. But, by lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, $\tilde f$ is the same function as $f$, just considered with different codomain. Hence the result follows with prop. \ref{kificationComparisonIsWeakHomotopyEquivalence}.
+
 
 =--
 
-The use of compactly generated topological spaces also improves the behaviour of pointed topological spaces:
+The use of compactly generated topological spaces also improves the behaviour of [[pointed topological spaces]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #SmashProductInTopcgIsAssociative}
 ###### Proposition
 
-Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
+Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] (def. \ref{CategoryOfPointedObjects}) [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
 
 $$
   (-)\wedge (-)
@@ -5670,15 +5755,15 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it (hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]]).
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it. (Hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].)
 
-Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast}$ becomes a [[closed monoidal category]]: 
+Moreover together with the [[pointed mapping space]] version $Maps(X,-)_\ast$ (example \ref{PointedMappingSpace}) of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast/}$ becomes a [[closed monoidal category]]: 
 
-for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $(-)_\ast^X$ constitute a pair of [[adjoint functors]]
+for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $Maps(X,-)_\ast$ constitute a pair of [[adjoint functors]]
 
 $$
   Top_{cg}^{\ast/}
-    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{(-)_\ast^X}{\longrightarrow}}
+    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{Maps(X,-)_\ast}{\longrightarrow}}
   Top_{cg}^{\ast/}
  \,.
 $$
@@ -5711,6 +5796,8 @@ $$
 $$
 
 The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
+
+The second statement follows directly with prop. \ref{CartesianClosureOfTopcg}.
 
 =--
 
@@ -5771,6 +5858,7 @@ e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 
 ##### Model structure on (pointed) topological functors
+ {#ModelStructureOnTopEnrichedFunctors}
 
 With classical topological homotopy theory in hand, it is straightforward now to generalize this to a homotopy theory of _topological diagrams_. This is going to be the basis for the [[stable homotopy theory]] of [[spectra]], for spectra may be identified with certain topological diagrams.
 
@@ -7623,7 +7711,7 @@ We consider this here just for the special case of [[homotopy fibers]] and [[hom
  {#MappingCones}
 
 
-In the context of [[homotopy theory]], a [[pullback]] diagram, such as in the definition of the [[fiber]] in def. \ref{FiberAndCofiberInPointedObjects}
+In the context of [[homotopy theory]], a [[pullback]] diagram, such as in the definition of the [[fiber]] in example \ref{FiberAndCofiberInPointedObjects}
 
 $$
   \array{
@@ -7702,7 +7790,7 @@ where $Path(Y)$ is a [[path space object]] for $Y$, def. \ref{PathAndCylinderObj
 +-- {: .num_remark }
 ###### Remark
 
-If we write homotopies (def. \ref{LeftHomotopyOfSimplicialSets}) as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in def. \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
+If we write homotopies (def. \ref{LeftHomotopyOfSimplicialSets}) as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in example \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
 
 $$
   \array{
@@ -7810,7 +7898,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   This is also equivalently the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
+   This is also equivalently the [[cofiber]], example \ref{FiberAndCofiberInPointedObjects} of $(i_0,i_1)$, hence (example \ref{WedgeSumAsCoproduct}) of the [[wedge sum]] inclusion:
 
    $$
      X \vee X
@@ -7848,7 +7936,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      \,.
    $$
 
-   This is also equivalently the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects} of $(p_0,p_1)$: 
+   This is also equivalently the [[fiber]], example \ref{FiberAndCofiberInPointedObjects} of $(p_0,p_1)$: 
 
    $$
      \Omega X 
@@ -8444,7 +8532,7 @@ $$
   }
 $$
 
-(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms induced by $f$ and $g$ on [[fibers]] (def. \ref{FiberAndCofiberInPointedObjects}) $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ to the same morphism, in the homotopy category.
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms induced by $f$ and $g$ on [[fibers]] (example \ref{FiberAndCofiberInPointedObjects}) $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ to the same morphism, in the homotopy category.
 
 =--
 
@@ -8517,7 +8605,7 @@ We now discuss the homotopy-theoretic properties of the [[mapping cone]]- and [[
 +-- {: .num_remark}
 ###### Remark
 
-The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMappingCylinder} says that the [[mapping cocone]] of a morphism $f$, def. \ref{MappingConeAndMappingCocone}, is equivalently the plain [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a fibrant resolution $\tilde f$ of $f$:
+The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMappingCylinder} says that the [[mapping cocone]] of a morphism $f$, def. \ref{MappingConeAndMappingCocone}, is equivalently the plain [[fiber]], example \ref{FiberAndCofiberInPointedObjects}, of a fibrant resolution $\tilde f$ of $f$:
 
 $$
   \array{
@@ -8603,7 +8691,7 @@ $$
   hofib(f)\longrightarrow X
 $$
 
-is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C}^{\ast/})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C}^{\ast/})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[fiber]], example \ref{FiberAndCofiberInPointedObjects}, of any fibration resolution of $f$.
 
 Dually:
 
@@ -8613,7 +8701,7 @@ $$
   Y \longrightarrow hocofib(f)
 $$
 
-is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[cofiber]], def. \ref{FiberAndCofiberInPointedObjects}, of any cofibration resolution of $f$ .
+is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[cofiber]], example \ref{FiberAndCofiberInPointedObjects}, of any cofibration resolution of $f$ .
 
 
 =--
@@ -8622,7 +8710,7 @@ is the morphism in the [[homotopy category of a model category|homotopy category
 ###### Example
 **(fibers of Serre fibrations)**
 
-In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (def. \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration} 
+In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (example \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration} 
 
 $$
   \array{
@@ -8901,7 +8989,7 @@ $$
 #### Long sequences
  {#LongSequences}
 
-The ordinary [[fiber]], def. \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
+The ordinary [[fiber]], example \ref{FiberAndCofiberInPointedObjects}, of a morphism has the property that taking it _twice_ is always trivial:
 
 $$
    \ast \simeq fib(fib(f)) \longrightarrow fib(f) \longrightarrow X \overset{f}{\longrightarrow} Y
@@ -9032,7 +9120,7 @@ $$
   }
 $$
 
-just like the ordinary [[fiber]] (def. \ref{FiberAndCofiberInPointedObjects}) is given by a plain square
+just like the ordinary [[fiber]] (example \ref{FiberAndCofiberInPointedObjects}) is given by a plain square
 
 $$
   \array{
