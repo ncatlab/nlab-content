@@ -1,0 +1,7 @@
+
+$$
+  Top_{cg}^{\ast/}
+    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{Maps(X,-)_\ast}{\longrightarrow}}
+  Top_{cg}^{\ast/}
+ \,.
+$$
