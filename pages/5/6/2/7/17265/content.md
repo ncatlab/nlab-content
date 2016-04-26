@@ -1833,7 +1833,7 @@ Let $X$ be a [[topological space]].
 
 A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
 
-$X$ is called **[[compactly generated topological space|compactly generate]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
+$X$ is called **[[compactly generated topological space|compactly generated]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
 
 Write
 
@@ -1841,7 +1841,7 @@ $$
   Top_{cg} \hookrightarrow Top
 $$
 
-for the [[full subcategory]] of [[Top]] on the compactly generated weakly Hausdorff topological spaces.
+for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
 
 =--
 
