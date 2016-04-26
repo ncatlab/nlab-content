@@ -103,7 +103,7 @@ $$
   \,,
 $$
 
-where $Q_C \colon C \longrightarriw Ho(C)$ is the universal morphism characterizing the [[homotopy category]] and similarly for $Q_D$.
+where $Q_C \colon C \longrightarrow Ho(C)$ is the universal morphism characterizing the [[homotopy category]] and similarly for $Q_D$.
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
