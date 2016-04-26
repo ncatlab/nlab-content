@@ -1852,7 +1852,7 @@ Such a full subcategory exists, the category of [[compactly generated topologica
 
 Let $X$ be a [[topological space]].
 
-A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $f^{-1}(A)$ is a [[closed subset]] of $K$.
+A subset $A \subset X$ is called **$k$-closed** if for every [[continuous function]] $\phi \colon K \longrightarrow X$ out of a [[compact topological space|compact]] [[Hausdorff topological space|Hausdorff]] $K$, then the [[preimage]] $\phi^{-1}(A)$ is a [[closed subset]] of $K$.
 
 $X$ is called **[[compactly generated topological space|compactly generated]]** if its closed subsets exhaust (hence coincide with) the $k$-closed subsets.
 
@@ -1883,13 +1883,13 @@ for the [[functor]] which sends any [[topological space]] $X = (S,\tau)$ to the 
 +-- {: .num_lemma #ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}
 ###### Lemma
 
-Let $X \in Top_{cg} \hookrightarrow Top$ and let $Y\in Top$. Then [[continuous functions]]
+Let $X \in Top_{cg} \hookrightarrow Top$ (def. \ref{kTop}) and let $Y\in Top$. Then [[continuous functions]]
 
 $$
   X \longrightarrow Y
 $$
 
-are also continuous when regarded as functions
+are also continuous when regarded as a function
 
 $$
   X \longrightarrow k(Y)
@@ -1899,7 +1899,14 @@ with $k$ from def. \ref{kfication}.
 
 =--
 
-This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). See  ([Strickland 09, cor. 1.10](#Strickland09)).
++-- {: .proof}
+###### Proof
+
+We need to show that for $A \subset X$ a $k$-closed subset, then $f^{-1}(A) \subset X$ is closed subset. 
+
+Let $\phi \colon K \longrightarrow X$ be any continuous function out of a compact Hausdorff space $K$. Since $A$ is $k$-closed by assumption, we have that $(f \circ \phi)^{-1}(A) = \phi^{-1}(f^{-1}(A))\subset K$ is closed in $K$. This means that $f^{-1}(A)$ is $k$-closed in $X$. But by the assumption that $X$ is compactly generated, it follows that $f^{-1}(A)$ is already closed.
+
+=--
 
 +-- {: .num_cor #kTopIsCoreflectiveSubcategory}
 ###### Corollary
@@ -1934,7 +1941,7 @@ Hence [[colimits]] in $Top_{cg}$ exists and are computed as in [[Top]]. Also [[l
 +-- {: .num_defn #CompactlyGeneratedMappingSpaces}
 ###### Definition
 
-For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset X$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset Y$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
 
 $$
   U^\kappa \coloneqq \left\{ f\in C(X,Y) | f(\kappa(K)) \subset U \right\}
@@ -1962,7 +1969,7 @@ $$
 
 e.g. ([Strickland 09, prop. 2.12](#Strickland09))
 
-Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know many conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
+Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know plenty of conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it.
 
 +-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
@@ -2005,7 +2012,7 @@ The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
 
 Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] of compactly generated spaces are again compactly generated.
 
-+-- {: .num_example #CWComplexIsCompactlyGenerated}
++-- {: .num_example #ProductOfCWWithLocallyCompactCWIsCompactlyGenerated}
 ###### Example
 
 The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex is [[compactly generated topological space|compactly generated]].
@@ -2014,11 +2021,36 @@ The [[product topological space]] of a [[CW-complex]] with a [[compact topologic
 
 ([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
 
+More generally:
+
++-- {: .num_prop }
+###### Proposition
+
+The [[product topological space]] of a [[compactly generated topological space]] with a [[locally compact toopological space|locally compact]] [[Hausdorff topological space]] is itself compactly generated.
+
+=--
+
+([Strickland 09, prop. 2.6](#Strickland09))
+
++-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
+###### Proposition
+
+For every topological space $X$, the canonical function $k(X) \longrightarrow X$ is a [[weak homotopy equivalence]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} and lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, continuous functions $S^n \to k(X)$ and their left homotopies $S^n \times I \to k(X)$ are in bijection with functions $S^n \to X$ and their homotopies $S^n \times I \to X$.
+
+=--
+
 
 +-- {: .num_theorem } 
 ###### Theorem
 
-The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
+The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
 
 $$
   Top_{cg, Quillen}
@@ -2032,7 +2064,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{CWComplexIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+By example \ref{CWComplexIsCompactlyGenerated}, the sets $I_{Top}$ and $J_{Top}$ are indeed in $Mor(Top_{cg})$. By example \ref{ProductOfCWWithLocallyCompactCWIsCompactlyGenerated} all arguments above about left homotopies between maps out of these basic cells go through verbatim in $Top_{cg}$. Hence the three technical lemmas above depending on actual point-set topology,  topology, lemma \ref{CompactSubsetsAreSmallInCellComplexes}, lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} and lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations}, go through verbatim as before. Accordingly, since the remainder of the proof of theorem \ref{TopQuillenModelStructure} of $Top_{Quillen}$ follows by general abstract arguments from these, it also still goes through verbatim for $(Top_{cg})_{Quillen}$.
+
+Hence the (acyclic) cofibrations in $(Top_{cg})_{Quillen}$ are identified with those in $Top_{Quillen}$, and so the inclusion is a part of a [[Quillen adjunction]]. To see that this is a [[Quillen equivalence]], it is sufficient to check that for $X$ a compactly generated space then a continuous function $f \colon X \longrightarrow Y$ is a [[weak homotopy equivalence]] (def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}) precisely if the [[adjunct]] $\tilde f \colon X \to k(Y)$ is a weak homotopy equivalence. But, by lemma \ref{ContinuousFunctionsOutOfCompactlyGeneratedFactorThroughCompactlyGeneratedClosureOfCodomain}, $\tilde f$ is the same function as $f$, just considered with different codomain. Hence the result follows with prop. \ref{kificationComparisonIsWeakHomotopyEquivalence}.
 
 =--
 
@@ -2058,7 +2092,7 @@ $$
 
 is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it, hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].
 
-Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast}$ becomes a [[closed monoidal category]]: 
+Moreover together with the [[pointed mapping space]] version $(-)_\ast^X$ of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast/}$ becomes a [[closed monoidal category]]: 
 
 for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $(-)_\ast^X$ constitute a pair of [[adjoint functors]]
 
