@@ -2011,8 +2011,10 @@ We need this for instance for the computation of [[Conner-Floyd Chern classes]] 
 
 **Literature.** ([Switzer 75, section 7 from def. 7.57 on](#Switzer75), [Kochman 96, section 4.2](#Kochman96), [Goerss-Jardine 99, section VI.2](#GoerssJardine99), )
 
+
 ##### $Lim^1$ and Mittag-Leffler condition
  {#Lim1}
+
 
 +-- {: .num_defn #TheBoundaryMapDefiningLim1}
 ###### Definition
@@ -2043,7 +2045,7 @@ $$
 
 =--
 
-+-- {: .num_defn #LimitAsKernelAnalogousToLim1}
++-- {: .num_remark #LimitAsKernelAnalogousToLim1}
 ###### Remark
 
 The [[limit]] of a sequence as in def. \ref{TheBoundaryMapDefiningLim1} -- hence the group $\underset{\longleftarrow}{\lim}_n A_n$ universally equipped with morphisms $\underset{\longleftarrow}{\lim}_n A_n \overset{p_n}{\to} A_n$ such that all
@@ -2071,7 +2073,7 @@ $$
   \cdots \to A_3 \stackrel{f_2}{\to} A_2 \stackrel{f_1}{\to} A_1 \stackrel{f_0}{\to} A_0
 $$
 
-then its "[[lim^1]]" $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is the [[cokernel]] of the map $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}, hence the group that makes a [[long exact sequence]] of the form
+then $\underset{\longleftarrow}{\lim}^1 A_\bullet$ is the [[cokernel]] of the map $\partial$ in def. \ref{TheBoundaryMapDefiningLim1}, hence the group that makes a [[long exact sequence]] of the form
 
 $$
   0 \to 
@@ -2086,6 +2088,201 @@ $$
   \,,
 $$
 
+=--
+
++-- {: .num_prop #PropertiesOfLim1}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) satisfies
+
+1. for every [[short exact sequence]] $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0 \;\;\; \in Ab^{(\mathbb{N}, \geq)}$ then the induced sequence
+
+   $$
+    0 
+    \to
+    \underset{\longleftarrow}{\lim}_n A_n
+    \to
+    \underset{\longleftarrow}{\lim}_n B_n
+    \to
+    \underset{\longleftarrow}{\lim}_n C_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1  A_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1 B_n
+    \to
+    \underset{\longleftarrow}{\lim}_n^1 C_n
+    \to 0
+   $$
+
+   is a [[long exact sequence]] of abelian groups;
+
+1. if $A_\bullet$ is a tower such that all maps are [[surjections]], then $\underset{\longleftarrow}{\lim}^1_n A_n \simeq 0$.
+
+=--
+
+(e.g. [Switzer 75, prop. 7.63](#Switzer75), [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
+
+
++-- {: .proof}
+###### Proof
+
+For the first property: Given $A_\bullet$ a tower of abelian groups, write
+
+$$
+  L^\bullet(A_\bullet)
+  \coloneqq
+  \left[
+    0
+   \to 
+  \underset{deg \, 0}{\underbrace{\underset{n}{\prod} A_n}}
+    \overset{\partial}{\longrightarrow}
+  \underset{deg\, 1}{\underbrace{\underset{n}{\prod} A_n}}
+   \to 
+   0
+  \right]
+$$
+
+for the homomorphism from def. \ref{TheBoundaryMapDefiningLim1} regarded as the single non-trivial differential in a [[cochain complex]] of abelian groups.
+Then by remark \ref{LimitAsKernelAnalogousToLim1} and def. \ref{Lim1ViaCokernel} we have $H^0(L(A_\bullet)) \simeq \underset{\longleftarrow}{\lim} A_\bullet$ and $H^1(L(A_\bullet)) \simeq \underset{\longleftarrow}{\lim}^1 A_\bullet$.
+
+With this, then for a short exact sequence of towers $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$ the long exact sequence in question is the [[long exact sequence in homology]] of the corresponding short exact sequence of complexes
+
+$$
+  0 
+    \to 
+  L^\bullet(A_\bullet) 
+    \longrightarrow 
+  L^\bullet(B_\bullet)
+    \longrightarrow
+  L^\bullet(C_\bullet)
+    \to
+  0
+  \,.
+$$
+
+For the second statement: If all the $f_k$ are surjective, then inspection shows that the homomorphism $\partial$ in def. \ref{TheBoundaryMapDefiningLim1} is surjective. Hence its [[cokernel]] vanishes.
+
+=--
+
++-- {: .num_prop #Lim1IsDerivedLimit}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the [[derived functor in homological algebra|first right derived functor]] of the [[limit]] functor $\underset{\longleftarrow}{\lim} \colon Ab^{(\mathbb{N},\geq)} \longrightarrow Ab$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let 
+
+$$
+  0 
+    \to 
+  A_\bullet 
+    \overset{j^0}{\longrightarrow} 
+  J^0_\bullet 
+    \overset{j^1}{\longrightarrow}
+  J^1_\bullet
+    \overset{j^2}{\longrightarrow}
+  J^2_\bullet
+    \overset{}{\longrightarrow}
+  \cdots
+$$
+
+be an [[injective resolution]]. We need to show that 
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  ker(\underset{\longleftarrow}{\lim}(j^2))/im(\underset{\longleftarrow}{\lim}(j^1))
+  \,.
+$$
+
+Since limits preserve [[kernels]], this is equivalently
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  (\underset{\longleftarrow}{\lim}(ker(j^2)_\bullet))/im(\underset{\longleftarrow}{\lim}(j^1))
+$$
+
+Now observe that each injective $J^q_\bullet$ is a tower of epimorphism. This follows by the defining [[right lifting property]] applied against the monomorphisms of towers of the following form
+
+$$
+  \array{
+      \cdots &\to & 0 &\to& 0 &\longrightarrow& 0 &\longrightarrow& \mathbb{Z} &\overset{id}{\longrightarrow}& \cdots &\overset{id}{\longrightarrow}& \mathbb{Z} &\overset{id}{\longrightarrow}& \mathbb{Z}
+     \\
+     \cdots
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{incl}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     \\
+     \cdots &\to& 0 &\to& 0 &\to & \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \cdots &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z}
+  }
+$$
+
+Therefore by the second item of prop. \ref{PropertiesOfLim1} the long exact sequence from the first item of prop. \ref{PropertiesOfLim1} applied to the [[short exact sequence]]
+
+$$ 
+  0
+   \to 
+  A_\bullet
+   \overset{j^0}{\longrightarrow}
+  J^0_\bullet
+   \overset{j^1}{\longrightarrow}
+  ker(j^2)_\bullet
+   \to
+  0
+$$
+
+becomes
+
+$$
+   0
+     \to
+   \underset{\longleftarrow}{\lim} A_\bullet
+    \overset{\underset{\longleftarrow}{\lim} j^0}{\longrightarrow}
+  \underset{\longleftarrow}{\lim} J^0_\bullet
+    \overset{\underset{\longleftarrow}{\lim}j^1}{\longrightarrow}
+  \underset{\longleftarrow}{\lim}(ker(j^2)_\bullet)
+    \longrightarrow
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \longrightarrow 
+  0 
+  \,.
+$$
+
+Exactness of this sequence gives the desired identification 
+$  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  (\underset{\longleftarrow}{\lim}(ker(j^2)_\bullet))/im(\underset{\longleftarrow}{\lim}(j^1))
+ \,.
+$
+
+=--
+
++-- {: .num_prop #AbstractCharacterizationOfLim1}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is in fact the unique functor, up to [[natural isomorphism]], satisfying the conditions in prop. \ref{AbstractCharacterizationOfLim1}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof of prop. \ref{Lim1IsDerivedLimit} only used the conditions from prop. \ref{PropertiesOfLim1}, hence any functor satisfying these conditions is the first right derived functor of $\underset{\longleftarrow}{\lim}$, up to natural isomorphism.
 
 =--
 
@@ -2107,6 +2304,8 @@ $$
 
 =--
 
+(e.g. [Switzer 75, def. 7.74](#Switzer75))
+
 +-- {: .num_example}
 ###### Example
 
@@ -2114,7 +2313,7 @@ The Mittag-Leffler condition, def. \ref{MittagLefflerCondition}, is satisfied in
 
 =--
 
-+-- {: .num_prop #Lim1VanihesUnderMittagLeffler}
++-- {: .num_prop }
 ###### Proposition
 
 If a tower $A_\bullet$ satisfies the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, then its $\underset{\leftarrow}{\lim}^1$ vanishes:
@@ -2126,7 +2325,14 @@ $$
 
 =--
 
-([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96))
+e.g. ([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96), [Weibel 94, prop. 3.5.7](#Weibel94))
+
++-- {: .proof}
+###### Proof idea
+
+One needs to show that with the Mittag-Leffler condition, then the [[cokernel]] of $\partial$ in def. \ref{TheBoundaryMapDefiningLim1} vanishes, hence that $\partial$ is an [[epimorphism]] in this case, hence that every $(a_n)_{n \in \mathbb{N}} \in \underset{n}{\prod} A_n$ has a preimage under $\partial$. So use the Mittag-Leffler condition to find pre-images of $a_n$ by [[induction]] over $n$.
+
+=--
 
 
 ##### Mapping telescopes
