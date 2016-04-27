@@ -5050,12 +5050,15 @@ $$
 +-- {: .num_defn #BasePointAdjoined}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $\mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point"), this is denoted by
+Let $\mathcal{C}$ be a [[category]] with [[terminal object]] and [[finite colimits]]. Then the [[forgetful functor]] $U \colon \mathcal{C}^{\ast/} \to \mathcal{C}$ from its [[category of pointed objects]], def. \ref{CategoryOfPointedObjects}, has a [[left adjoint]] 
 
 $$
-  (-)_+ \coloneqq (-) \sqcup \ast \;\colon \; \mathcal{C} \longrightarrow \mathcal{C}^{\ast/}
-  \,.
+  \mathcal{C}^{\ast/}
+     \stackrel{\overset{(-)_+}{\longleftarrow}}{\underoverset{U}{\bot}{\longrightarrow}}
+  \mathcal{C}
 $$
+
+given by forming the [[disjoint union]] ([[coproduct]]) with a base point ("adjoining a base point").
 
 =--
 
