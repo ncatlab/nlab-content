@@ -1015,6 +1015,8 @@ being a fibration sequence. The corresponding long exact sequence in cohomology 
 
 * [[tower of homotopy fibers]]
 
+* [triangulated category -- long fiber-cofiber sequences](triangulated+category#LongExactSequences)
+
 ## References
 
 The observation of [[long exact sequences of homotopy groups]] for homotopy fiber sequences originates (according to [Switzer 75, p. 35](#Switzer75)) in 
