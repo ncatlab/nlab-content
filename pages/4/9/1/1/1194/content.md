@@ -366,7 +366,7 @@ and the obvious rules saying that $\pi_1\langle x,y\rangle = x$ and $\pi_2\langl
 
 ### Universes
 
-Of course, this begs the question---what is the type of $Type$?  We don't strictly need it to have one---nothing says that everything has to be a term of some type.  But it is also sometimes convenient to write $Type = Type_0$ and introduce a hierarchy of additional "universes," so that $Type_0 : Type_1$, $Type_1:Type_2$, and so on.  A technique called "universe polymorphism" means that usually we can forget about the indices and just treat "$Type$" as a single entity to which everything belongs, unless we do perverse things to try to get paradoxes.
+Of course, this raises the question---what is the type of $Type$?  We don't strictly need it to have one---nothing says that everything has to be a term of some type.  But it is also sometimes convenient to write $Type = Type_0$ and introduce a hierarchy of additional "universes," so that $Type_0 : Type_1$, $Type_1:Type_2$, and so on.  A technique called "universe polymorphism" means that usually we can forget about the indices and just treat "$Type$" as a single entity to which everything belongs, unless we do perverse things to try to get paradoxes.
 
 ### Dependent types
 
@@ -415,6 +415,7 @@ Here are some blog discussions about the difference between type theory and set 
 
 * [one](http://golem.ph.utexas.edu/category/2009/09/towards_a_computeraided_system.html#c026984)
 * [two](http://golem.ph.utexas.edu/category/2009/10/syntax_semantics_and_structura.html#c028459)
+* [three](https://golem.ph.utexas.edu/category/2013/01/from_set_theory_to_type_theory.html)
 
 
 ### Semantics of type-theoretical foundations
