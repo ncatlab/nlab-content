@@ -72,6 +72,10 @@ Textbook accounts include the following.
 
 * {#May} [[Peter May]], chapter 22, section 5 of _A concise course in algebraic topology_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maybook.pdf))
 
+A treatment of the differential refinement of cohomology operations is in 
+
+* [[Daniel Grady]], [[Hisham Sati]], _Primary operations in differential cohomology_, ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988))
+
 [[!redirects Steenrod operation]]
 [[!redirects Steenrod operations]]
 [[!redirects cohomology operations]]
