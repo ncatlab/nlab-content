@@ -23,7 +23,7 @@
 
 The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the first [[derived functor]] $R^1 \underset{\longleftarrow}{\lim}$ of the [[limit]] functor over [[sequential diagrams]] of [[abelian groups]] (prop. \ref{Lim1IsDerivedLimit} below).
 
-In good cases this is the only obstruction to a naive [[limit]] already giving the correct [[homotopy limit]]. 
+In good cases this is the only obstruction to a naive [[limit]] of homotopy sets being the the homotopy classes of the correct [[homotopy limit]]. Such a situation is expressed by a [[short exact sequence|short exact]] _Milnor sequence_ ([below](#MilnorSequences)).
 
 
 ## Definition
@@ -59,7 +59,7 @@ $$
 
 =--
 
-+-- {: .num_defn #LimitAsKernelAnalogousToLim1}
++-- {: .num_remark #LimitAsKernelAnalogousToLim1}
 ###### Remark
 
 The [[limit]] of a sequence as in def. \ref{TheBoundaryMapDefiningLim1} -- hence the group $\underset{\longleftarrow}{\lim}_n A_n$ universally equipped with morphisms $\underset{\longleftarrow}{\lim}_n A_n \overset{p_n}{\to} A_n$ such that all
@@ -111,19 +111,10 @@ There is a generalization to groups (not necessarily abelian). ([Bousfield-Kan 7
 
 ### Abstract characterizations
 
-+-- {: .num_prop #Lim1IsDerivedLimit}
++-- {: .num_prop #PropertiesOfLim1}
 ###### Proposition
 
-The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the [[derived functor in homological algebra|first right derived functor]] of the [[limit]] functor $\underset{\longleftarrow}{\lim} \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$.
-
-=--
-
-([Bousfield-Kan 72,chapter IX.2, remark 2.6](#BousfieldKan72))
-
-+-- {: .num_prop}
-###### Proposition
-
-The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the unique functor, up to [[natural isomorphism]], which satisfies
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) satisfies
 
 1. for every [[short exact sequence]] $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0 \;\;\; \in Ab^{(\mathbb{N}, \geq)}$ then the induced sequence
 
@@ -150,7 +141,227 @@ The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}
 
 =--
 
-(e.g. [Switzer 75, prop. 7.63](#Switzer75), [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
+(e.g. [Bousfield-Kan 72, ch IX, prop. 2.3 and 2.4](#BousfieldKan72), [Switzer 75, prop. 7.63](#Switzer75), [Goerss-Jardine 96, section VI. lemma 2.11](#GoerssJardine96))
+
+
++-- {: .proof}
+###### Proof
+
+For the first property: Given $A_\bullet$ a tower of abelian groups, write
+
+$$
+  L^\bullet(A_\bullet)
+  \coloneqq
+  \left[
+    0
+   \to 
+  \underset{deg \, 0}{\underbrace{\underset{n}{\prod} A_n}}
+    \overset{\partial}{\longrightarrow}
+  \underset{deg\, 1}{\underbrace{\underset{n}{\prod} A_n}}
+   \to 
+   0
+  \right]
+$$
+
+for the homomorphism from def. \ref{TheBoundaryMapDefiningLim1} regarded as the single non-trivial differential in a [[cochain complex]] of abelian groups.
+Then by remark \ref{LimitAsKernelAnalogousToLim1} and def. \ref{Lim1ViaCokernel} we have $H^0(L(A_\bullet)) \simeq \underset{\longleftarrow}{\lim} A_\bullet$ and $H^1(L(A_\bullet)) \simeq \underset{\longleftarrow}{\lim}^1 A_\bullet$.
+
+With this, then for a short exact sequence of towers $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0$ the long exact sequence in question is the [[long exact sequence in homology]] of the corresponding short exact sequence of complexes
+
+$$
+  0 
+    \to 
+  L^\bullet(A_\bullet) 
+    \longrightarrow 
+  L^\bullet(B_\bullet)
+    \longrightarrow
+  L^\bullet(C_\bullet)
+    \to
+  0
+  \,.
+$$
+
+For the second statement: If all the $f_k$ are surjective, then inspection shows that the homomorphism $\partial$ in def. \ref{TheBoundaryMapDefiningLim1} is surjective. Hence its [[cokernel]] vanishes.
+
+=--
+
++-- {: .num_lemma #TowersOfAbelianGroupsHasEnoughInjectives}
+###### Lemma
+
+The category $Ab^{(\mathbb{N}, \geq)}$ of [[towers]] of [[abelian groups]] has [[enough injectives]].
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The functor $(-)_n \colon Ab^{(\mathbb{N}, \geq)} \to Ab$ that picks the $n$-th component of the tower has a [[right adjoint]] $r_n$, which sends an abelian group $A$ to the tower
+
+$$
+  r_n
+  \coloneqq
+  \left[
+    \cdots \overset{id}{\to}
+    A \overset{id}{\to}
+    \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
+    \underset{= (r_n)_n}{\underbrace{A}} 
+       \overset{id}{\to}
+    \underset{= (r_n)_{n-1}}{\underbrace{0}}
+    \to 
+    0
+    \to
+    \cdots
+    \to
+    0
+    \to 
+    0
+  \right]
+  \,.
+$$
+
+Since $(-)_n$ itself is evidently an [[exact functor]], its right adjoint preserves injective objects ([prop.](injective+object#RightAdjointsOfExactFunctorsPreserveInjectives)). 
+
+So with $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$, let $A_n \hookrightarrow \tilde A_n$ be an injective resolution of the abelian group $A_n$, for each $n \in \mathbb{N}$. Then 
+
+$$
+  A_\bullet 
+    \overset{(\eta_n)_{n \in \mathbb{N}}}{\longrightarrow}
+  \underset{n \in \mathbb{R}}{\prod}
+  r_n A_n
+  \hookrightarrow
+  \underset{n \in \mathbb{N}}{\prod} r_n \tilde A_n
+$$
+
+is an injective resolution for $A_\bullet$.
+
+=--
+
++-- {: .num_prop #Lim1IsDerivedLimit}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the [[derived functor in homological algebra|first right derived functor]] of the [[limit]] functor $\underset{\longleftarrow}{\lim} \colon Ab^{(\mathbb{N},\geq)} \longrightarrow Ab$.
+
+=--
+
+([Bousfield-Kan 72, chapter IX.2, remark 2.6](#BousfieldKan72))
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{TowersOfAbelianGroupsHasEnoughInjectives} there are [[enough injectives]] in $Ab^{(\mathbb{N}, \geq)}$. 
+So for $A_\bullet \in Ab^{(\mathbb{N}, \geq)}$ the given tower of abelian groups, let 
+
+$$
+  0 
+    \to 
+  A_\bullet 
+    \overset{j^0}{\longrightarrow} 
+  J^0_\bullet 
+    \overset{j^1}{\longrightarrow}
+  J^1_\bullet
+    \overset{j^2}{\longrightarrow}
+  J^2_\bullet
+    \overset{}{\longrightarrow}
+  \cdots
+$$
+
+be an [[injective resolution]]. We need to show that 
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  ker(\underset{\longleftarrow}{\lim}(j^2))/im(\underset{\longleftarrow}{\lim}(j^1))
+  \,.
+$$
+
+Since limits preserve [[kernels]], this is equivalently
+
+$$
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  (\underset{\longleftarrow}{\lim}(ker(j^2)_\bullet))/im(\underset{\longleftarrow}{\lim}(j^1))
+$$
+
+Now observe that each injective $J^q_\bullet$ is a tower of epimorphism. This follows by the defining [[right lifting property]] applied against the monomorphisms of towers of the following form
+
+$$
+  \array{
+      \cdots &\to & 0 &\to& 0 &\longrightarrow& 0 &\longrightarrow& \mathbb{Z} &\overset{id}{\longrightarrow}& \cdots &\overset{id}{\longrightarrow}& \mathbb{Z} &\overset{id}{\longrightarrow}& \mathbb{Z}
+     \\
+     \cdots
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{incl}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     &&
+     \downarrow^{\mathrlap{id}}
+     &&
+     \downarrow^{\mathrlap{id}}
+     \\
+     \cdots &\to& 0 &\to& 0 &\to & \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \cdots &\underset{id}{\longrightarrow}& \mathbb{Z} &\underset{id}{\longrightarrow}& \mathbb{Z}
+  }
+$$
+
+Therefore by the second item of prop. \ref{PropertiesOfLim1} the long exact sequence from the first item of prop. \ref{PropertiesOfLim1} applied to the [[short exact sequence]]
+
+$$ 
+  0
+   \to 
+  A_\bullet
+   \overset{j^0}{\longrightarrow}
+  J^0_\bullet
+   \overset{j^1}{\longrightarrow}
+  ker(j^2)_\bullet
+   \to
+  0
+$$
+
+becomes
+
+$$
+   0
+     \to
+   \underset{\longleftarrow}{\lim} A_\bullet
+    \overset{\underset{\longleftarrow}{\lim} j^0}{\longrightarrow}
+  \underset{\longleftarrow}{\lim} J^0_\bullet
+    \overset{\underset{\longleftarrow}{\lim}j^1}{\longrightarrow}
+  \underset{\longleftarrow}{\lim}(ker(j^2)_\bullet)
+    \longrightarrow
+  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \longrightarrow 
+  0 
+  \,.
+$$
+
+Exactness of this sequence gives the desired identification 
+$  \underset{\longleftarrow}{\lim}^1 A_\bullet
+    \simeq
+  (\underset{\longleftarrow}{\lim}(ker(j^2)_\bullet))/im(\underset{\longleftarrow}{\lim}(j^1))
+ \,.
+$
+
+=--
+
++-- {: .num_prop #AbstractCharacterizationOfLim1}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon Ab^{(\mathbb{N}, \geq)} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is in fact the unique functor, up to [[natural isomorphism]], satisfying the conditions in prop. \ref{AbstractCharacterizationOfLim1}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof of prop. \ref{Lim1IsDerivedLimit} only used the conditions from prop. \ref{PropertiesOfLim1}, hence any functor satisfying these conditions is the first right derived functor of $\underset{\longleftarrow}{\lim}$, up to natural isomorphism.
+
+=--
+
 
 ### Vanishing of $\lim^1$
 
@@ -164,7 +375,7 @@ $$
   \cdots \to A_3 \to A_2 \to A_1 \to A_0
 $$
 
-is said to satify the _[[Mittag-Leffler condition]]_ if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
+is said to satify the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
  
 $$
   im(A_i \to A_k) \simeq im(A_j \to A_k)
@@ -196,40 +407,17 @@ $$
 
 e.g. ([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96), [Weibel 94, prop. 3.5.7](#Weibel94))
 
++-- {: .proof}
+###### Proof idea
 
-## Milnor exact sequences
-
-### For homology of chain complexes
-
-+-- {: .num_example}
-###### Example
-
-Let 
-
-$$
-  \cdots \to C_3 \to C_2 \to C_1 \to C_0
-$$
-
-be a tower of [[chain complexes]] (of [[abelian groups]]) such that it satisfies degree-wise the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, and write
-
-$$
-  C \coloneqq \underset{\longleftarrow}{\lim}_n C_n
-$$
-
-for its [[limit]]. Then for each $q \in \mathbb{Z}$ the [[chain homology]] $H_q(-)$ of the limit sits in a [[short exact sequence]] with the ordinary $\underset{\longleftarrow}{\lim}$ and the $\underset{\longleftarrow}{\lim}^1$ of the chain homologies:
-
-$$
-  0 \to \underset{\longleftarrow}{\lim}^1_i H_{q+1}(C_i)
-  \longrightarrow H_q(C)
-  \longrightarrow \underset{\longleftarrow}{\lim}_i H_q(C_i)
-  \to 0
-  \,.
-$$
+One needs to show that with the Mittag-Leffler condition, then the [[cokernel]] of $\partial$ in def. \ref{TheBoundaryMapDefiningLim1} vanishes, hence that $\partial$ is an [[epimorphism]] in this case, hence that every $(a_n)_{n \in \mathbb{N}} \in \underset{n}{\prod} A_n$ has a preimage under $\partial$. So use the Mittag-Leffler condition to find pre-images of $a_n$ by [[induction]] over $n$.
 
 =--
 
-(e.g. [Weibel 94, prop. 3.5.8](#Weibel94))
 
+
+## Milnor exact sequences
+ {#MilnorSequences}
 
 
 ### For homotopy groups
@@ -263,7 +451,39 @@ for $\pi_\bullet$ the [[homotopy group]]-functor. (Exact as [[pointed sets]] for
 
 =--
 
-e.g. ([Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
+e.g. ([Bousfield-Kan 72, chapter IX, theorem 3.1](#BousfieldKan72), [Goerss-Jardine 96, section VI. prop. 2.15](#GoerssJardine96))
+
+### For chain homology
+
++-- {: .num_example}
+###### Example
+
+Let 
+
+$$
+  \cdots \to C_3 \to C_2 \to C_1 \to C_0
+$$
+
+be a tower of [[chain complexes]] (of [[abelian groups]]) such that it satisfies degree-wise the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, and write
+
+$$
+  C \coloneqq \underset{\longleftarrow}{\lim}_n C_n
+$$
+
+for its [[limit]]. Then for each $q \in \mathbb{Z}$ the [[chain homology]] $H_q(-)$ of the limit sits in a [[short exact sequence]] with the ordinary $\underset{\longleftarrow}{\lim}$ and the $\underset{\longleftarrow}{\lim}^1$ of the chain homologies:
+
+$$
+  0 \to \underset{\longleftarrow}{\lim}^1_i H_{q+1}(C_i)
+  \longrightarrow H_q(C)
+  \longrightarrow \underset{\longleftarrow}{\lim}_i H_q(C_i)
+  \to 0
+  \,.
+$$
+
+=--
+
+(e.g. [Weibel 94, prop. 3.5.8](#Weibel94))
+
 
 ### For generalized (co-)homology groups
 
@@ -301,7 +521,6 @@ e.g. ([Switzer 75, prop. 7.66](#Switzer75), [Kochmann 96, prop. 4.2.2](#Kochmann
 
 +-- {: .proof}
 ###### Proof
-
 
 For 
 
@@ -456,6 +675,11 @@ For $\tilde E_\bullet$ an additive reduced [[generalized homology theory]], then
 
 ([Switzer 75, prop. 7.53](#Switzer75))
 
+## Related concepts
+
+* [[homotopy limit]]
+
+* [[spectral sequence of a tower of fibrations]]
 
 
 ## References
