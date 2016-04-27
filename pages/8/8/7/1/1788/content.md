@@ -1,21 +1,113 @@
-$$
-  r_n
-  \coloneqq
-  \left[
-    \cdots \overset{id}{\to}
-    A \overset{id}{\to}
-    \underset{= (r_n)_{n+1}}{\underbrace{A}} \overset{id}{\to}
-    \underset{= (r_n)_n}{\underbrace{A}} 
-       \overset{id}{\to}
-    \underset{= (r_n)_{n-1}}{\underbrace{0}}
-    \to 
-    0
-    \to
-    \cdots
-    \to
-    0
-    \to 
-    0
-  \right]
-  \,.
-$$
+
++-- {: .num_defn }
+###### Definition
+
+A **[[triangulated category]]** is
+
+1. an [[additive category]] $Ho$;
+
+1. a [[functor]], called the **suspension functor** or **[[shift functor]]**
+
+   $$
+     \Sigma \;\colon\; Ho \longrightarrow Ho
+   $$
+
+   which is an [[equivalence of categories]];
+
+1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
+
+   $$
+     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow} C \overset{}{\longrightarrow} \Sigma A
+   $$
+
+   which is also denoted as
+
+   $$
+     \array{
+        A && \overset{f}{\longrightarrow} && B
+        \\
+        & {}_{\mathllap{[1]}}\nwarrow && \swarrow_{\mathrlap{}}
+        \\
+        && B/A
+     }
+   $$
+
+   (whence the name);
+
+such that the following conditions hold:
+
+* **T0** If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
+     && \downarrow^{\mathrlap{\in Iso}}
+     && \downarrow^{\mathrlap{\in Iso}}
+     \\
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'      
+     
+    }
+  $$
+
+  then $(f',g',h')$ is also a distinguished triangle;
+
+
+* **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
+
+  $$
+    0 \longrightarrow X \overset{id_X}{\longrightarrow} X 
+    \overset{}{\longrightarrow} 0
+    \,;
+  $$
+
+
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
+
+  $$
+    A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+  $$
+
+  is, then so is
+
+  $$
+    B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
+    \,.
+  $$
+
+* **T3** Given a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{f}{\longrightarrow}& 
+     B &\overset{g}{\longrightarrow}& 
+     B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{}}
+     && \downarrow^{\mathrlap{}} 
+     && 
+     && \downarrow^{\mathrlap{}}
+     \\
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+  where the top and bottom are distinguished triangles, then there exists a filler, i.e. a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
+  
+  $$
+    \array{    
+     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{}}
+     && \downarrow^{\mathrlap{}} 
+     && \downarrow^{\mathrlap{\exists}}
+     && \downarrow^{\mathrlap{}}
+     \\
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+* **T4** 
+
+=--
