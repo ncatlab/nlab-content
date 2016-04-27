@@ -21,9 +21,9 @@
 
 ## Idea
 
-The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the first [[derived functor]] $R^1 \underset{\longleftarrow}{\lim}$ of the [[limit]] functor over a [[sequential diagram]] of [[abelian groups]].
+The notation "$\underset{\longleftarrow}{\lim}^1$" is common notation for the first [[derived functor]] $R^1 \underset{\longleftarrow}{\lim}$ of the [[limit]] functor over [[sequential diagrams]] of [[abelian groups]] (prop. \ref{Lim1IsDerivedLimit} below).
 
-This is often used as the first, and in good cases the only, obstruction to a naive [[limit]] already giving the correct [[homotopy limit]].
+In good cases this is the only obstruction to a naive [[limit]] already giving the correct [[homotopy limit]]. 
 
 
 ## Definition
@@ -105,17 +105,25 @@ $$
 
 =--
 
-There is a generalization to groups (not necessarily abelian).
-
+There is a generalization to groups (not necessarily abelian). ([Bousfield-Kan 72, IX.2.1](#BousfieldKan72))
 
 ## Properties
 
-### Abstract characterization
+### Abstract characterizations
+
++-- {: .num_prop #Lim1IsDerivedLimit}
+###### Proposition
+
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the [[derived functor in homological algebra|first right derived functor]] of the [[limit]] functor $\underset{\longleftarrow}{\lim} \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$.
+
+=--
+
+([Bousfield-Kan 72,chapter IX.2, remark 2.6](#BousfieldKan72))
 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ is the unique functor, up to [[natural isomorphism]], which satisfies
+The [[functor]] $\underset{\longleftarrow}{\lim}^1 \colon \mathbb{A}^{\mathbb{N}_{\geq}} \longrightarrow Ab$ (def. \ref{Lim1ViaCokernel}) is the unique functor, up to [[natural isomorphism]], which satisfies
 
 1. for every [[short exact sequence]] $0 \to A_\bullet \to B_\bullet \to C_\bullet \to 0 \;\;\; \in Ab^{(\mathbb{N}, \geq)}$ then the induced sequence
 
