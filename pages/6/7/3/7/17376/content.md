@@ -105,8 +105,8 @@ $$
 
 ### For CW-complexes
 
-+-- {: .num_defn #TelescopeOfCWComplexEquivalentToTheOriginal}
-###### Definition
++-- {: .num_prop #TelescopeOfCWComplexEquivalentToTheOriginal}
+###### Proposition
 
 For $X_\bullet$ the sequence of stages of a ([[pointed topological space|pointed]]) [[CW-complex]] $X = \underset{\longleftarrow}{\lim}_n X_n$, then the canonical map
 
