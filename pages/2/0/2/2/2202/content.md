@@ -42,6 +42,10 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 $$(X \stackrel{f}{\to} I) \otimes (Y \stackrel{g}{\to} I) = (X \otimes Y \stackrel{f \otimes g}{\to} I \otimes I \cong I)$$ 
 where the isomorphism displayed is the canonical one. This monoidal product is semicartesian. The forgetful functor $\Sigma: M/I \to M$ is strong monoidal, and is universal in the sense of exhibiting the fact that semicartesian monoidal functors and strong monoidal functors form a coreflective sub-bicategory of the bicategory of monoidal categories and strong monoidal functors. (Check this.) 
 
+## Internal logic
+
+The [[internal logic]] of a semicartesian monoidal category is [[affine logic]], which is like [[linear logic]] but permits the [[weakening rule]].
+
 ## Properties
 
 ### Semicartesian vs. cartesian
@@ -61,11 +65,11 @@ and
 $$ x \stackrel{\Delta_x}{\longrightarrow} x \otimes x \stackrel{1 \otimes e_x}{\longrightarrow} x \otimes I \stackrel{r_x}{\longrightarrow} x $$
 are identity morphisms.  Then $(C, \otimes, I)$ is a cartesian monoidal category. 
 
-So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a monoidal natural transformation.  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.    The converse is also true.
+So, suppose $(C, \otimes, 1)$ is a semicartesian monoidal category.  The unique map $e_x : x \to I$ is a monoidal natural transformation.  Thus, if there exists a monoidal natural transformation $\Delta_x: x \to x \otimes x$ obeying the above two conditions, $(C, \otimes, 1)$ is cartesian.  The converse is also true.
 
 The characterization of cartesian monoidal categories in terms of $e$ and $\Delta$, apparently discovered by Robin Houston, is mentioned here:
 
-* John Baez, Universal algebra and diagrammatic reasoning, 2006. [[pdf](http://math.ucr.edu/home/baez/universal/)]
+* John Baez, Universal algebra and diagrammatic reasoning, 2006. [pdf](http://math.ucr.edu/home/baez/universal/)
 
 and as of 2014, Nick Gurski plans to write up the proof in a paper on semicartesian monads.  
 
@@ -81,6 +85,11 @@ The notion of [[semicartesian operad]] is a type of [[generalized multicategory]
 
 * [Characterizing finite measure spaces](http://golem.ph.utexas.edu/category/2011/05/an_operadic_introduction_to_en.html#c038131) (blog comment)
 
+## Related pages
+
+* [[cartesian monoidal category]]
+
+* A [[relevance monoidal category]] is the "dual" of a semicartesian monoidal category, with diagonals but not projections.
 
 [[!redirects semicartesian category]]
 [[!redirects semi-cartesian category]]
