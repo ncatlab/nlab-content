@@ -23,7 +23,7 @@ Regarded in the more general context of [[smooth groupoids]]/[[smooth stacks]], 
 +-- {: .num_defn #ExplicitDefinition}
 ###### Definition
 
-A _Lie groupoid_ $X:=X_1 \rightrightarrows X_0$ is a [[groupoid]] such that both the space of arrows $X_1$ and the space of objects $X_0$ are smooth manifolds, all structure maps are smooth,  and source and target maps $s, t: X_1\rightrightarrows X_0$ are surjective submersions. 
+A _Lie groupoid_ $X \coloneq (X_1 \rightrightarrows X_0)$ is a [[groupoid]] such that both the space of arrows $X_1$ and the space of objects $X_0$ are smooth manifolds, all structure maps are smooth,  and source and target maps $s, t: X_1\rightrightarrows X_0$ are surjective submersions. 
 
 =--
 
