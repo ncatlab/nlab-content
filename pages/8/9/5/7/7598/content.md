@@ -116,7 +116,7 @@ The colimit over such a diagram is the [[homotopy pushout]] of the span.
 
 
 
-+-- {: .num_example}
++-- {: .num_example #CofibrantCotowerDiagram}
 ###### Example
 
 A _cotower_ diagram
