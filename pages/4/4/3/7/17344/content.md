@@ -187,25 +187,135 @@ Write $SeqSpec(Top)$ for this [[category]] of topological sequential spectra.
 
 =--
 
-+-- {: .num_example #SmashProductOfSpectrumWithSimplicialSet}
+The [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]:
+
++-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
+###### Definition
+
+Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
+
+1. $X \wedge K$ is the sequential spectrum with 
+
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
+
+   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
+
+1. $X^K$ is the sequential spectrum with
+
+   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
+
+   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
+ 
+=--
+
+
+
+##### Suspension spectra and free spectra
+
++-- {: .num_example #SuspensionSpectrum}
 ###### Example
 
-For $X \in SeqSpec(Top)$ and $K \in $ [[Top]], hence $K_+ \in Top^{\ast/}$ then $X \wedge K_+$ is the sequential spectrum degreewise given by the [[smash product]] of pointed objects
+For $X\in Top^{\ast/}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra} with
+
+* $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
+
+* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$. 
+
+=--
+
++-- {: .num_prop #SigmaInfinityOmegaInfinity}
+###### Proposition
+
+The construction of [[suspension spectra]], def. \ref{SuspensionSpectrum}, canonically extends to a [[functor]] $\Sigma^\infty$. This has a [[right adjoint]] functor $\Omega^\infty$
 
 $$
-  (X \wedge K_+)_n \coloneqq (X_n \wedge K_+)
+  (\Sigma^\infty \dashv \Omega^\infty)
+  \;\colon\;
+  SeqSpec(Top)
+    \stackrel{\overset{\Sigma^\infty}{\longleftarrow}}{\underset{\Omega^{\infty}}{\longrightarrow}}
+  Top^{\ast/}
+  \,,
 $$
 
-and with structure maps given by
+where $\Omega^\infty(X) = X_0$.
+
+=--
+
+
++-- {: .num_defn #FreeSequentialSpectra}
+###### Definition
+
+For $K \in Top$, and $n \in \mathbb{N}$, write $F_n K \in SeqSpec(Top)$ for the **[[free spectrum]]** on $K$ at $n$, with components
 
 $$
-  S^1 \wedge (X_n \wedge K_+) \simeq (S^1 \wedge X_n) \wedge K_+ \stackrel{\sigma_n \wedge K_+}{\longrightarrow} X_{n+1}\wedge K_+
+  (F_n K)_q \coloneqq 
+  \left\{
+    \array{
+      \ast & for \; q \lt n
+      \\
+      S^{q-n} \wedge K & for \; q \geq n
+    }
+  \right.
+$$
+
+and with structure maps $\sigma_q$ the canonical identifications for $q \geq n$
+
+$$
+  \sigma_q
+  \;\colon\;
+  S^1 \wedge (F_n K)_q
+  = 
+  S^1 \wedge S^{q-n} \wedge K
+  \overset{\simeq}{\longrightarrow}
+  S^{q+1-n} \wedge K
+  =
+  (F_n K)_{q+1}
   \,.
+$$
+
+For $n \in \mathbb{N}$, write
+
+$$
+  k_n
+  \;\colon\;
+  F_{n+1}S^1 
+  \longrightarrow
+  F_n S^0
+$$
+
+for the canonical morphisms of free sequential spectra with the following components
+
+$$
+  \array{
+    & \vdots && \vdots
+    \\
+    (k_n)_{n+3} & S^3 &\stackrel{id}{\longrightarrow}& S^3
+    \\
+    (k_n)_{n+2} & S^2 &\stackrel{id}{\longrightarrow}& S^2
+    \\
+    (k_n)_{n+1} & S^1 &\stackrel{id}{\longrightarrow}& S^1
+    \\
+    (k_n)_n \colon & \ast &\stackrel{0}{\longrightarrow}& S^0
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \vdots && \vdots
+    \\
+    & \ast &\longrightarrow& \ast
+    \\
+    & \underbrace{\,\,\,} && \underbrace{\,\,\,}
+    \\
+    k_n \colon & F_{n+1} S^1 &\stackrel{}{\longrightarrow}& F_n S^0
+  }
 $$
 
 =--
 
-The following is an equivalent reformulation of the component-wise definition of sequential spectra which will be useful.
+
+##### As topological diagrams
+
+The following is an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
 ###### Definition
@@ -762,75 +872,6 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 =--
 
-+-- {: .num_defn #FreeSequentialSpectra}
-###### Definition
-
-For $K \in Top$, and $n \in \mathbb{N}$, write $F_n K \in SeqSpec(Top)$ for the **[[free spectrum]]** on $K$ at $n$, with components
-
-$$
-  (F_n K)_q \coloneqq 
-  \left\{
-    \array{
-      \ast & for \; q \lt n
-      \\
-      S^{q-n} \wedge K & for \; q \geq n
-    }
-  \right.
-$$
-
-and with structure maps $\sigma_q$ the canonical identifications for $q \geq n$
-
-$$
-  \sigma_q
-  \;\colon\;
-  S^1 \wedge (F_n K)_q
-  = 
-  S^1 \wedge S^{q-n} \wedge K
-  \overset{\simeq}{\longrightarrow}
-  S^{q+1-n} \wedge K
-  =
-  (F_n K)_{q+1}
-  \,.
-$$
-
-For $n \in \mathbb{N}$, write
-
-$$
-  k_n
-  \;\colon\;
-  F_{n+1}S^1 
-  \longrightarrow
-  F_n S^0
-$$
-
-for the canonical morphisms of free sequential spectra with the following components
-
-$$
-  \array{
-    & \vdots && \vdots
-    \\
-    (k_n)_{n+3} & S^3 &\stackrel{id}{\longrightarrow}& S^3
-    \\
-    (k_n)_{n+2} & S^2 &\stackrel{id}{\longrightarrow}& S^2
-    \\
-    (k_n)_{n+1} & S^1 &\stackrel{id}{\longrightarrow}& S^1
-    \\
-    (k_n)_n \colon & \ast &\stackrel{0}{\longrightarrow}& S^0
-    \\
-    & \ast &\longrightarrow& \ast
-    \\
-    & \vdots && \vdots
-    \\
-    & \ast &\longrightarrow& \ast
-    \\
-    & \underbrace{\,\,\,} && \underbrace{\,\,\,}
-    \\
-    k_n \colon & F_{n+1} S^1 &\stackrel{}{\longrightarrow}& F_n S^0
-  }
-$$
-
-=--
-
 
 +-- {: .num_defn #GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}
 ###### Definition
@@ -1171,27 +1212,6 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 ##### Looping and suspension
 
 We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of spectra.
-
-First, recall the [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
-
-+-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
-###### Definition
-
-Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
-
-1. $X \wedge K$ is the sequential spectrum with 
-
-   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
-
-   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
-
-1. $X^K$ is the sequential spectrum with
-
-   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
-
-   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
- 
-=--
 
 
 +-- {: .num_defn #ShiftedSpectrum}
