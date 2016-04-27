@@ -197,9 +197,9 @@ is an exact sequence.
 +-- {: .proof}
 ###### Proof
 
-If $0 \to A \to B \to C$ is exact then $A \hookrightarrow B$ is a [[nLab:monomorphism]] by prop. \ref{CharacterizationOfShortExactSequences}.
+If $0 \to A \to B \to C$ is exact then $A \hookrightarrow B$ is a [[monomorphism]].
 But then the statement that $A \to B \to C$ is exact at $B$ says 
-precisely that $A$ is the [[nLab:kernel]] of $B \to C$. 
+precisely that $A$ is the [[kernel]] of $B \to C$. 
 So if $F$ is left exact then by definition also $F(A) \to F(B)$
 is the kernel of $F(B) \to F(C)$ and so is in particular also 
 a monomorphism.
@@ -226,10 +226,11 @@ $$
   F : \mathcal{A} \to \mathcal{A}'
 $$
 
-be a [[nLab:left exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has [[enough injectives]]. For $n \in \mathbb{N}$ the **$n$th [[nLab:right derived functor]]** of $F$ is the composite
+be a [[left exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has [[enough injectives]]. For $n \in \mathbb{N}$ the **$n$th [[right derived functor]]** of $F$ is the composite
 
 $$
-  R^n F : 
+  R^n F 
+    \;\colon\;
   \mathcal{A}
    \stackrel{P}{\to}
   \mathcal{K}^\bullet(\mathcal{I}_{\mathcal{A}})
@@ -242,11 +243,11 @@ $$
 
 where
 
-* $P$ is the [[nLab:injective resolution]] functor of theorem \ref{InjectiveResolutionFunctors};
+* $P$ is an [[injective resolution]] functor;
 
 * $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
 
-* $H^n(-)$ is the $n$-[[nLab:chain homology]] functor. Hence
+* $H^n(-)$ is the $n$-[[chain homology]] functor. Hence
 
 $$
   (R^n F)(X^\bullet) \coloneqq H^n(F(P(X)^\bullet))
@@ -263,13 +264,14 @@ Dually:
 Let 
 
 $$
-  F : \mathcal{A} \to \mathcal{A}'
+  F \colon \mathcal{A} \to \mathcal{A}'
 $$
 
-be a [[nLab:right exact functor]] between [[nLab:abelian categories]] such that $\mathcal{A}$ has [[enough projectives]]. For $n \in \mathbb{N}$ the **$n$th [[nLab:left derived functor]]** of $F$ is the composite
+be a [[right exact functor]] between [[abelian categories]] such that $\mathcal{A}$ has [[enough projectives]]. For $n \in \mathbb{N}$ the **$n$th [[left derived functor]]** of $F$ is the composite
 
 $$
-  L_n F : 
+  L_n F 
+   \;\colon\;
   \mathcal{A}
    \stackrel{Q}{\to}
   K_\bullet(\mathcal{P}_{\mathcal{A}})
@@ -282,11 +284,11 @@ $$
 
 where
 
-* $Q$ is the [[nLab:projective resolution]] functor of theorem \ref{ProjectiveResolutionFunctors};
+* $Q$ is a [[projective resolution]] functor;
 
 * $\mathcal{K}(F)$ is the prolongation of $F$ according to def. \ref{ProlongationOfFunctorToChainComplexes};
 
-* $H_n(-)$ is the $n$-[[nLab:chain homology]] functor. Hence
+* $H_n(-)$ is the $n$-[[chain homology]] functor. Hence
 
 $$
   (L_n F)(X_\bullet) \coloneqq H_n(F(Q(X)_\bullet))
@@ -305,7 +307,7 @@ The following proposition says that in degree 0 these derived functors coincide 
 +-- {: .num_prop #BasicPropertiesOfDerivedFunctors}
 ###### Proposition
 
-Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[nLab:left exact functor]], def. \ref{LeftRightExactFunctor} in the presence of [[enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[nLab:natural isomorphism]]
+Let $F \colon \mathcal{A} \to \mathcal{B}$ a [[left exact functor]], def. \ref{LeftRightExactFunctor} in the presence of [[enough injectives]]. Then for all $X \in \mathcal{A}$ there is a [[nLab:natural isomorphism]]
 
 $$
   R^0F(X) \simeq F(X)
