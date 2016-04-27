@@ -4938,7 +4938,7 @@ This square is equivalently (example \ref{PushoutInTop}) a morphism out of the [
 $$
   D^n \times I 
     \underset{D^n \sqcup D^n }{\sqcup}
-  (D^n \times I) \sqcup (D^n \times I)
+  \left((D^n \times I) \sqcup (D^n \times I)\right)
   \longrightarrow
   X
   \,.
@@ -4950,11 +4950,11 @@ $$
   \array{
     D^n \times I 
       \underset{D^n \sqcup D^n }{\sqcup}
-    (D^n \times I) \sqcup (D^n \times I)
-    &\longrightarrow&
+    \left((D^n \times I) \sqcup (D^n \times I)\right)
+      &\longrightarrow&
     X
     \\
-    \downarrow && \downarrow
+      \downarrow && \downarrow
     \\
     (D^n \times I)\times I &\longrightarrow& \ast
   }
@@ -5278,7 +5278,7 @@ $$
 
 on those maps which preserve the basepoints, and pointed by the map constant on the basepoint of $X$.
 
-In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $X^{I_+}$.
+In particular, the **standard topological pointed path space object** on some pointed $X$ (the pointed variant of def. \ref{TopologicalPathSpace}) is the pointed mapping space $Maps(I_+,X)_\ast$.
 
 The pointed consequence of prop. \ref{MappingTopologicalSpaceIsExponentialObject} then gives that there is a [[natural bijection]]
 
@@ -5629,6 +5629,14 @@ $$
 $$
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+If $X$ is a [[Hausdorff space]], then the topological on the compactly generated mapping space $X^Y$ in def. \ref{CompactlyGeneratedMappingSpaces} agrees with the [[compact-open topology]] of def. \ref{CompactOpenTopology}. Beware that it is common to also say "compact-open topology" for the topology of the compactly generated mapping space when $X$ is not Hausdorff. In that case, however, the two definitions in general disagree.
+
+=--
+
 
 
 +-- {: .num_prop #CartesianClosureOfTopcg}
