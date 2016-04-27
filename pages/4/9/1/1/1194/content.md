@@ -83,7 +83,7 @@ A couple of side notes for experts:
 ### The internal language of a category
  {#TheInternalLanguageOfACategory}
 
-Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory (see e.g. in [Taylor](#Taylor), [section 2.8](www.paultaylor.eu/ASD/foufct/cattype.html)).  
+Given a [[category]] $\mathcal{C}$, we may speak about its **internal language** as a type theory (see e.g. in [Taylor](#Taylor), [section 2.8](http://www.paultaylor.eu/ASD/foufct/cattype.html)).  
 
 There is a whole page on [[internal logic]], but here our goal is to exhibit it as a particular type theory, to help explain the meaning of type-theoretic notions.  The [[syntax|syntactic]] constructs corresponding to [[object]]s and [[morphism]]s are called _[[type]]s_ and _[[terms]]_, respectively. The types correspond to [[object]]s (with various subtleties), while the [[terms]] denote [[morphism]]s by using _[[variables]]_ to indicate [[domain]]s.  
 
