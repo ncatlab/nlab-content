@@ -38,7 +38,7 @@ That is,
 
 $$
 \array { x &          &            &          & y \\
-           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
+           & {}_{\mathllap{i_x}}\searrow &            & \swarrow_{\mathrlap{i_y}} \\
            &          & x \oplus y \\
            & {}^{\mathllap{p_x}}\swarrow &            & \searrow^{\mathrlap{p_y}} \\
          x &          &            &          & y }
