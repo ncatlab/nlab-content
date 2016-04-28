@@ -181,7 +181,7 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 According to ([Adams 74, p. 131](#Adams74)) the notion of spectrum is due to 
 
-* E. L. Lima, _Duality and Postnikov invariants_, Thesis, University of Chicago, Chicago 1958
+* {#Lima58} E. L. Lima, _Duality and Postnikov invariants_, Thesis, University of Chicago, Chicago 1958
 
 > It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams74, p. 131](#Adams74))
 
