@@ -278,7 +278,7 @@ $$
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #AdjunctionBetweenSmashTensoringAndPowering}
 ###### Proposition
 
 For any $K \in Top^{\ast/}_{cg}$ the functors of smash tensoring and powering with $K$, from def. \ref{TensoringAndPoweringOfSequentialSpectra}, constitute a pair of [[adjoint functors]]
@@ -298,17 +298,110 @@ $$
 +-- {: .proof}
 ###### Proof
 
+For $X, Y\in SeqSpec(Top_{cg})$ and $K \in Top_{cg}^{\ast/}$, let
+
+$$
+  X \wedge K \overset{f}{\longrightarrow} Y
+$$
+
+be a morphism, with component maps fitting into commuting squares of the form
+
+$$
+  \array{
+    S^1 \wedge X_n \wedge K 
+      &\overset{S^1 \wedge f_n}{\longrightarrow}&
+    S^1 \wedge Y_n
+    \\
+    {}^{\mathllap{\sigma^X_n \wedge K}}\downarrow 
+      && 
+    \downarrow^{\sigma^Y_n}
+    \\
+    X_{n+1} \wedge K
+     &\overset{f_{n+1}}{\longrightarrow}&
+   Y_{n+1}
+  }
+  \,.
+$$
+
 The adjunction
 
 $$
   Top_{cg}^{\ast/}
-    \stackrel{\overset{K \wedge (-)}{\longleftarrow}}{\underoverset{Maps(K,-)_\ast}{\bot}{\longrightarrow}}
+    \stackrel{\overset{(-) \wedge K}{\longleftarrow}}{\underoverset{Maps(K,-)_\ast}{\bot}{\longrightarrow}}
   Top_{cg}^{\ast/}
 $$
 
-(from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) applies componentwise. Since in def. \ref{TensoringAndPoweringOfSequentialSpectra} the structure maps do not interact with the smash product operation, this yields the adjunction in question.
+(from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in natural bijection with squares of the form
+
+$$
+  \array{
+    S^1 \wedge X_n
+      &\overset{\widetilde{S^1 \wedge f_n}}{\longrightarrow}&
+    Maps(K,S^1 \wedge Y_n)_\ast
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{Maps(K,\sigma_n^Y)_\ast}}
+    \\
+    X_{n+1} 
+      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+    Maps(K, Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+But since the map $S^1 \wedge f_n$ is the smash product of two maps, only one of which involves the smash factor of $K$, one sees that here the top map factors through the inclusion of the space of those functions $K \to S^1 \wedge Y^n$ whose first component is constant on the basepoint, hence through 
+
+$$
+  S^1 \wedge Maps(K,Y_n)_\ast 
+    \longrightarrow 
+  Maps(K, S^1 \wedge Y_n)_\ast
+$$
+
+$$
+  [s,\phi] \mapsto [const_s,\phi]
+  \,.
+$$
+
+Hence the commuting square above factors as
+
+$$
+  \array{
+    S^1 \wedge X_n
+      &\overset{S^1 \wedge \tilde f_n}{\longrightarrow}&
+    S^1 \wedge Maps(K, Y_n)_\ast
+    \\
+    {}^{\mathllap{\sigma_n^X}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma_n^{Maps(K,Y)_\ast}}}
+    \\
+    X_{n+1}
+      &\overset{\tilde f_{n+1}}{\longrightarrow}&
+    Maps(K, Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+This gives the structure maps for a homomorphism
+
+$$
+  \tilde f 
+    \;\colon\;
+  X \longrightarrow Maps(K,Y)_\ast
+  \,.
+$$
+
+Running this argument backwards shows that the map $f \mapsto \tilde f$ given thereby is a bijection.
 
 =--
+
++-- {: .num_remark}
+###### Remark
+
+For the [[adjunction]] of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} it is crucial that the smash tensoring in def. \ref{TensoringAndPoweringOfSequentialSpectra} is from the _right_, at least as long as the structure maps in def. \ref{SequentialSpectra} are defined as they are, with the circle smash factor on the left. We could change both at once: take the structure maps to be from smash products with the circle on the right, and take smash tensoring to be from the left. But having both on the right or both on the left does not work.
+
+=--
+
 
 +-- {: .num_example #StandardCylinderSpectrumSequential}
 ###### Example
@@ -343,6 +436,42 @@ $$
 (where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct)).)
 
 =--
+
++-- {: .num_example #StandardPathSpaceSpectrumSequential}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard path space spectrum** is its [[powering]] $Maps(I_+,X)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the path space spectrum are the standard path space objects of the component spaces of $X$:
+
+$$
+  (Maps(I_+, X)_\ast)_n
+  =
+  Maps(I_+, X)_\ast
+  \,.
+$$
+
+By the functoriality of the [[powering]], the factoring 
+
+$$
+  \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
+$$
+
+of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[diagonal]] of $X$ through its standard path space spectrum
+
+$$
+  \Delta_X
+    \;\colon\;
+  X
+   \overset{Maps(I_+ \to S^0, X)_\ast, }{\longrightarrow}
+  Maps(I_+,X)_\ast
+   \overset{Maps(S^0 \vee S^0 \to I_+, X)_\ast}{\longrightarrow}
+  X \times X
+$$
+
+(where we are using that [[wedge sum]] is the [[coproduct]] in [[pointed topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))).
+
+=--
+
+
 
 +-- {: .num_prop #SigmaInfinityOmegaInfinity}
 ###### Proposition
@@ -587,7 +716,7 @@ $$
   \,.
 $$
 
-This finally equivalently exhibits morphisms of the form
+This, finally, equivalently exhibits morphisms of the form
 
 $$
   X \longrightarrow \Omega Y
@@ -595,6 +724,10 @@ $$
 $$
 
 =--
+
+spring
+
+ReducedSuspensionBySmashProductWithCircle
 
 
 ##### As topological diagrams
@@ -1594,6 +1727,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 
 ##### Stability
+ {#StabilityOfTheStableModelStructure}
 
 We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
 
