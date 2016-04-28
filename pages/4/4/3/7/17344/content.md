@@ -158,18 +158,24 @@ The key disadvantage of sequential spectra is that they do not support a functor
 
 #### Sequential pre-spectra 
 
-The following is the standard component-wise definition of sequential spectra. 
+The following def. \ref{SequentialSpectra} is the standard component-wise definition of [[sequential spectra]], due to ([Lima 58](spectrum#Lima58), [Boardman 65](spectrum#Boardman65)).  
+
+> It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams74, p. 131](#Adams74))
+
+Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition as "diagram spectra", namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
+
+Throughout we say "[[topological space]]" for [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop))
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-* an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space]] $X_\bullet$ 
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  $X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}$ (the **component spaces**); 
 
-* equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$.
+1. pointed [[continuous functions]] $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
 
- A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of homomorphisms of pointed simplicial sets, such that all [[diagrams]] of the form
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
 $$
   \array{
@@ -183,43 +189,109 @@ $$
 
 [[commuting diagram|commute]].
 
-Write $SeqSpec(Top)$ for this [[category]] of topological sequential spectra.
+Write $SeqSpec(Top_{cg})$ for this [[category]] of topological sequential spectra.
 
 =--
-
-The [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]:
-
-+-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
-###### Definition
-
-Let $X$ be a sequential spectrum and $K$ a [[pointed topological space]]/[[pointed simplicial set]]. Then
-
-1. $X \wedge K$ is the sequential spectrum with 
-
-   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]])
-
-   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
-
-1. $X^K$ is the sequential spectrum with
-
-   * $(X^K)_n \coloneqq (X_n)^K$ ([[pointed mapping space]])
-
-   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
- 
-=--
-
-
-
-##### Suspension spectra and free spectra
 
 +-- {: .num_example #SuspensionSpectrum}
 ###### Example
 
-For $X\in Top^{\ast/}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra} with
+For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty X$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra} with
 
 * $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
 
-* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$. 
+* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$ the canonical [[homeomorphism]].
+
+=--
+
++-- {: .num_example #SuspensionSpectrum}
+###### Example
+
+The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]** 
+
+$$
+  \mathbb{S}_{seq} \coloneqq \Sigma^\infty \ast
+  \,.
+$$
+
+Its $n$th component space is the standard [[n-sphere]]
+ 
+$$ 
+  (\mathbb{S}_{seq})_n = S^n
+  \,.
+$$
+
+This construction extends to a [[functor]]
+
+$$
+  \Sigma^\infty
+    \;\colon\;
+  Top^{\ast/}_{cg}
+    \longrightarrow
+  SeqSpec(Top_{cg})
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
+###### Definition
+
+Let $X\in SeqSpec(Top_{cg})$ be a [[sequential spectrum]] and $K \in Top^{\ast/}_{cg}$ a [[pointed topological space|pointed]] [[compactly generated topological space]]. Then
+
+1. $X \wedge K$ (the **[[smash product|smash]] [[tensoring]]** of $X$ with $K$) is the sequential spectrum with 
+
+   * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
+
+   * $\sigma_n^{X\wedge K} \coloneqq \sigma_n^{X} \wedge id_{K}$.
+
+1. $X^K$ (the **[[powering]]** of $K$ into $X$) is the sequential spectrum with
+
+   * $(X^K)_n \coloneqq (X_n)^K$ (compactly generated [[pointed mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces) [def.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)))
+
+   * $\sigma_n^{(X^k)} \colon S^1 \wedge X_n^K \to (S^1 \wedge X_n)^K \overset{(\sigma_n)^K}{\longrightarrow} (X_{n+1})^K$.
+
+These operations extend to [[functors]]
+
+$$
+  (-)\wedge (-)
+    \;\colon\;
+  SeqSpec(Top_{cg})
+  \times Top^[\ast/}_{cg}
+    \longrightarrow
+  SeqSpec(Top^{\ast}_{cg})
+$$
+
+and
+
+$$
+  (-)^{(-)}
+    \;\colon\;
+  (Top^{\ast/}_{cg})^{op}
+  \times
+  SeqSpec(Top_{cg})
+    \longrightarrow
+  SeqSpec(Top_{cg})
+  \,.
+$$
+
+By spring
+ 
+=--
+
++-- {: .num_example #StandardCylinderSpectrumSequential}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, its **standard [[cylinder spectrum]]** is its [[smash product|smash]] [[tensoring]] $X \wedge (I_+)$, def. \ref{TensoringAndPoweringOfSequentialSpectra}, with the standard interval ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalInterval)) with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)). The component spaces of the [[cylinder spectrum]] are the standard [[reduced cylinders]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of the component spaces of $X$:
+
+$$
+  (X \wedge (I_+))_n
+  =
+  X_n \wedeg I_+
+  \,.
+$$
+
+spring
 
 =--
 
@@ -778,6 +850,7 @@ where $Sing$ denotes the [[singular simplicial complex]] functor.
 
 
 #### The stable model structure on sequential spectra
+ {#StableModelStructureOnSequentialSpectra}
 
 
 In order to do [[stable homotopy theory]] with [[sequential spectra]], we need to equip the [[category]] of sequential [[pre-spectra]] of def. \ref{SequentialSpectra} with a [[model category]] structure whose weak equivalences are the [[stable weak homotopy equivalences]] of def. \ref{StableWeakEquivalenceOfSequentialTopologicalSpectra}. This class contains the degreewise weak homotopy equivalences of the strict model structure of def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} but is strictly larger. There are then different choices for the fibrations and cofibrations, but it is particularly convenient to keep the cofibrations those of the strict model structure, for then we are in the situation of [[Bousfield localization of model categories]]:
