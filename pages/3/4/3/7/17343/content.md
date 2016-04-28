@@ -9463,7 +9463,7 @@ behaves like one degree in an [additive](Introduction+to+Stable+homotopy+theory+
 
 
 
-### The $(\Sigma \dashv \Omega)$-adjunction
+### The suspension/looping adjunction
 
 We conclude this discussion of classical homotopy theory with the key statement that leads over to [[stable homotopy theory]] in _[[Introduction to Stable homotopy theory -- 1]]_: the suspension and looping adjunction on the classical pointed homotopy category.
 
@@ -9475,10 +9475,10 @@ Consider the general [[loop space object]] and [[reduced suspension]] functors f
 
 In [[pointed topological spaces]] $Top^{\ast/}$, 
 
-* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]] 
+* the [[reduced suspension]] objects (def. \ref{SuspensionAndLoopSpaceObject}) for [[cylinder object]] beng the standard [[reduced cylinder]] $(-)\wedge (I_+)$ of example \ref{StandardReducedCyclinderInTop} are isomorphic to the [[smash product]] (def. \ref{SmashProductOfPointedObjects}) with the [[1-sphere]], for later purposes we choose to smash **on the left** and write
 
   $$
-    \Sigma X \simeq X \wedge S^1
+    \Sigma X \simeq S^1 \wedge X 
     \,,
   $$
 
@@ -9487,17 +9487,19 @@ Dually:
 * the [[loop space objects]] (def. \ref{SuspensionAndLoopSpaceObject}) induced from the standard pointed path space object $(-)^{I_+}$  are isomorphic to the [[pointed mapping space]] (example \ref{PointedMappingSpace})  with the [[1-sphere]]
 
   $$
-    \Omega X \simeq [S^1, X]_\ast
+    \Omega X \simeq Maps(S^1, X)_\ast
     \,.
   $$
 
 Moreover, by the [[exponential object]]-property of the pointed [[mapping space]] (example \ref{PointedMappingSpace}) these form [[adjoint functors]]
 
 $$
-  ((-)\wedge S^1 \dashv [S^1,-]_\ast)
-  \;\colon\;
+  (\Sigma \dashv \Omega)
+    \simeq
+  (S^1 \wedge (-) \dashv Maps(S^1,-)_\ast)
+    \;\colon\;
   Top^{\ast/}
-  \longrightarrow 
+    \longrightarrow 
   Top^{\ast/}
   \,.
 $$
@@ -9508,27 +9510,30 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By immediate inspection. For instance the fiber of $X^{I_+} \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
+By immediate inspection. For instance the fiber of $Maps(I_+,X)_\ast \longrightarrow X\times X$ is clearly the subspace of the unpointed mapping space $X^I$ on elements that take the endpoints of $I$ to the basepoint of $X$.
 
-The adjunction follows from general principles:
+The adjunction follows from the adjunction of prop. \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces} and from the fact that [[hom-functors]] preserves [[limits]] (i.e. preserve limits in the second, covariant, variable, and send colimits to limits in the first, contravariant, variable).
 
 $$
   \begin{aligned}
-     Hom_{Top^{\ast/}}(X, Y^{S^1})
+     Hom_{Top_{cg}^{\ast/}}(X, Maps(S^1,Y)_\ast)
      & =
-     Hom_{Top^{\ast/}}(X, fib(Y^{I_+} \to Y \times Y))
+     Hom_{Top_{cg}^{\ast/}}(X, fib(Maps(I_+,Y)_\ast \to Y \times Y))
      \\
      & \simeq
-     fib( Hom_{Top^{\ast/}}( X, Y^{I_+}) \to Hom_{Top_{CW}^{\ast/}}(X, Y \times Y) )
+     fib( Hom_{Top_{cg}^{\ast/}}( X, Maps(I_+,Y)_\ast) \to Hom_{Top_{cg}^{\ast/}}(X, Y \times Y) )
      \\
      & \simeq
-     fib( Hom_{Top^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{CW}^{\ast/}}(X\vee X, Y) )
+     fib( Hom_{Top_{cg}^{\ast/}}( X \wedge I_+, Y ) \to Hom_{Top_{cg}^{\ast/}}(X \vee X, Y) )
      \\
      & \simeq
-     Hom_{Top^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
+     Hom_{Top_{cg}^{\ast/}}( cofib( X \vee X \to X \wedge I_+), Y )     
      \\
      & \simeq 
      Hom_{Top}^{\ast/}(X \wedge S^1, Y)
+     &
+     \simeq
+     Hom_{Top}^{\ast/}(S^1 \wedge X , Y)     
   \end{aligned}
   \,.
 $$
