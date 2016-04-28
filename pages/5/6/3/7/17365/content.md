@@ -294,7 +294,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
     Y_{n+1}
   $$
 
-  are cofibrations in the  [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]);
+  are cofibrations in the  [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]) for all $n \in \mathbb{N}$;
 
 =--
 
@@ -397,29 +397,29 @@ such that all structure maps are respected.
 
 $$
   \array{
-    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
     \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \downarrow^{\mathrlap{S^1 \wedge f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
     \\
-    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    S^1 \wedge Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
     \\
     & \searrow && \searrow
     \\
-    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+    && S^1 \wedge B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
   }
   \;\;\;
   \Rightarrow
   \;\;\;
   \array{
-    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
     \\
-    & \searrow^{\mathrlap{h_n}} && \searrow^{\mathrlap{h_{n+1}}}
+    & \searrow^{\mathrlap{S^1 \wedge h_n}} && \searrow^{\mathrlap{h_{n+1}}}
     \\
-    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+    && S^1 \wedge A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
     \\
     && \downarrow && \downarrow
     \\
-    && B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
+    && S^1 \wedge B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
   }
   \,.
 $$
@@ -442,17 +442,17 @@ the lifting $l_{n+1}$ in the next degree has to also make the following diagram 
 
 $$
   \array{
-    X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
+    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
     \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{h_{n+1}}}
-    & \searrow 
+    \downarrow^{\mathrlap{S^1 \wedge f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    & \searrow^{\mathrlap{h_{n+1}}}
     \\
-    Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
+    S^1 \wedge Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
     && 
     \\
-    & \searrow^{\mathrlap{l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
+    & \searrow^{\mathrlap{S^1 \wedge l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
     \\
-    && A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
+    && S^1 \wedge A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
   }
   \,.
 $$
@@ -461,8 +461,10 @@ This is a [[cocone]] under the the commuting square for the structure maps, and 
 
 $$
   \array{
-    Y_n \underset{X_n}{\sqcup} X_{n+1}
-    &\stackrel{(\sigma_n^A l_n,h_{n+1})}{\longrightarrow}&
+    S^1 \wedge Y_n 
+      \underset{S^1 \wedge X_n}{\sqcup} 
+    X_{n+1}
+    &\stackrel{(\sigma_n^A \circ S^1 \wedge l_n,h_{n+1})}{\longrightarrow}&
     A_{n+1}
     \\
     \downarrow &{}^{\mathllap{l_{n+1}}}\nearrow& \downarrow
@@ -471,6 +473,8 @@ $$
   }
   \,.
 $$
+
+
 
 =--
 
