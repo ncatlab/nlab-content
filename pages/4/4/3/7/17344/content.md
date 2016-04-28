@@ -165,6 +165,8 @@ $$
   \,,
 $$
 
+This we establish in corollary \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory} below.
+
 The notation $\Sigma^\infty$ and $\Omega^\infty$ is meant to be suggestive of the intuition behind how this stabilization will work: The universal way of making a topological space $X$ become stable under suspension is to pass to its infinite suspension in a suitable sense. That suitable sense is going to be called the _[[suspension spectrum]]_ of $X$ (def. \ref{SuspensionSpectrum} below). Conversely, if an object does not change up to equivalence, by forming its loop spaces, it must give an [[infinite loop space]].
 
 In contrast to the [[classical homotopy category]], the [[stable homotopy category]] is a [[triangulated category]] (a shadow of the fact that the [[(∞,1)-category of spectra]] is a [[stable (∞,1)-category]]). As such it may be thought of as a refinement of the [[derived category]] [[category of chain complexes|of chain complexes]] (of [[abelian groups]]): every [[chain complex]] gives rise to a [[spectrum]] and every [[chain map]] to a map between these spectra (the [[stable Dold-Kan correspondence]]), but there are many more spectra and maps between them than arise from chain complexes and chain maps.
@@ -1239,7 +1241,7 @@ Since the (acyclic) fibrations of $SeqSpec(Top_{cg})_{strict}$ are by definition
 
 In summary, prop. \ref{StabilizationAdjunctionSquareExists}, prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential} and prop.  \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} say that 
 
-+-- {: .num_cor }
++-- {: .num_cor #SuspensionLoopingAdjunctionSystemForStrictModelStructure}
 ###### Corollary
 
 
@@ -1259,7 +1261,10 @@ $$
      \\
      SeqSpec(Top_{cg})_{strict}
      &
-     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
      &
      SeqSpec(Top_{cg})_{strict}
   }
@@ -1432,10 +1437,13 @@ $$
 
 
 
+
+
+
 +-- {: .num_defn #Spectrification}
 ###### Definition
 
-The canonical _$\Omega$-[[spectrification]]_ $Q X$ of a  [[CW-spectrum]] $X$, def. \ref{CWSpectrum}, is the operation of forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
+The canonical **$\Omega$-[[spectrification]]** $Q X$ of a  [[CW-spectrum]] $X$, def. \ref{CWSpectrum}, is the operation of forming degreewise the [[colimit]] of higher [[loop space objects]] $\Omega(-)\coloneqq (-)^{S^1}$
 
 $$
   (Q X)_n
@@ -1654,11 +1662,22 @@ for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{
 +-- {: .num_theorem #StableModelStructureOnSequentialSpectraIsModelCategory}
 ###### Theorem
 
-The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{stable}$, called the **stable [[model structure on topological sequential spectra]]**.
+The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra} give the structure of a [[model category]] $SeqSpec(Top)_{stable}$, called the **stable [[model structure on topological sequential spectra]]**, hence the identity functors
+
+$$
+  SeqSpec(Top_{cg})_{stable}
+   \underoverset
+    {\underset{id}{\longrightarrow}}
+    {\overset{id}{\longrightarrow}}
+    {\bot}
+  SeqSpec(Top_{cg})_{strict}
+$$
+
+constitute a [[Quillen adjunction]] exhibiting the stable model structure as a [[Bousfield localization of model categories|left Bousfield localization]] (def. \ref{BousfieldLocalizationOfModelCategories}) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
 Its fibrant objects are precisely the [[Omega-spectra]], def. \ref{OmegaSpectrum}.
 
-Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory -- P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{SeqSpec}^{stable}$ (and $J_{SeqSpec}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}.
+Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I_{SeqSpec}^{stable}$ (and $J_{SeqSpec}^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable}.
 
 =--
 
@@ -1962,7 +1981,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 ##### Stability
  {#StabilityOfTheStableModelStructure}
 
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
 
 +-- {: .num_defn #StableModelCategory}
 ###### Definition
@@ -1973,12 +1992,17 @@ $$
   (\Sigma \dashv \Omega)
   \;\colon\;
   Ho(\mathcal{C})
-   \stackrel{\overset{\Sigma}{\longleftarrow}}{\underoverset{\Omega}{\simeq}{\longrightarrow}}
+   \underoverset
+     {\overset{\Sigma}{\longleftarrow}}
+     {\underset{\Omega}{\longrightarrow}}
+     {\simeq}
   Ho(\mathcal{C})
   \,.
 $$
 
 =--
+
+In order to prove that this is the case for $SeqSpec(Top_{cg})$ we first relate now the operations of "standard suspension" and of "alternative suspension" to each other:
 
 +-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
 ###### Lemma
@@ -1999,7 +2023,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $(L \dashv R) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ for the [[Quillen equivalence]] between standard spectra with structure morphisms $S^1 \wedge X_n \to X_{n+1}$ to doubly-staged sequential spectra with structure morhisms $S^2 \wedge X'_n \to X'_{n+1}$. (...) 
+Let $(L \dashv R) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ for the [[Quillen equivalence]] between standard spectra with structure maps $S^1 \wedge X_n \to X_{n+1}$ to doubly-staged sequential spectra with structure morhisms $S^2 \wedge X'_n \to X'_{n+1}$. (...) 
 
 
 Via the discussion in remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, there is a [[natural isomorphism]] in $SeqSpec(Top)$ between the image under $R$ of the two suspension operations
@@ -2022,9 +2046,10 @@ Let $Q$ be any choice of cofibrant replacement, i.e. a factorization for each ob
 
 $$  
   \emptyset
-   \overset{\in Cof}{\longrightarrow}
+    \underoverset{\in Cof}{i_X}{\longrightarrow}
   Q X
-   \overset{\in W \cap Fib}{\longrightarrow}
+    \underoverset{\in W \cap Fib}{p_X}{\longrightarrow}
+  X
   \,.
 $$
 
@@ -2032,17 +2057,17 @@ For $f \colon X \to Y$ a morphism, let $Q f$ be given by any choice of lift in
 
 $$
   \array{
-    \emptyset && \longrightarrow && Q Y
+    \emptyset & \longrightarrow & Q Y
     \\
     \downarrow &{}^{\mathllap{Q f}}\nearrow& \downarrow
     \\
-    Q X &\to& X &\overset{f}{\to}& Y
+    Q X &\overset{f \circ p_X}{\longrightarrow}& Y
   }
   \,.
 $$
 
 
-Then because $(L \dahsv R)$ above is a Quillen equivalence, we get the following diagram
+Then because $(L \dashv R)$ above is a [[Quillen equivalence]], we get the following diagram
 
 $$
   \array{
@@ -2082,17 +2107,34 @@ With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping fu
 +-- {: .proof}
 ###### Proof
 
-The first statement is clear. Moreover it is clear that $\Omega$ preserves strict fibrations and strict acyclic fibrations (since this is equivalently degreewise the statement that $(-)^{S^1} \colon Top^{\ast/}_{Quillen}\to Top^{\ast/}_{Quillen}$ does so). Therefore the adjunction $(\Sigma \dashv \Omega)$ from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen adjunction]] on $SeqSpec(Top)_{strict}$, hence passes to an adjunction on the [[homotopy category of a model category|homotopy category]]. 
+Regarding the first statement:
+
+By prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, $\Omega$ acts on component spaces and adjunct structure maps as the [[Quillen adjunction|right Quillen functor]]
+
+$$
+  Maps(S^1,-)_\ast
+  \;\colon\;
+  (Top_{cg}^{\ast/})_{Quillen}
+    \longrightarrow
+  (Top_{cg}^{\ast/})
+$$
+
+on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde^X_{n}$ a weak homotopy equivalence, so is
+$\tilde^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
+
+Regarding the second statement: 
+
+By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]] for the strict model structure, hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) it passes to an adjunction of its [[derived functors]] on the [[homotopy category of a model category|homotopy category]]. 
 
 Therefore with $f$ a stable equivalence and $Y$ any Omega-spectrum, then
 
 $$
-  [\Sigma f,Y]_{strict}
+  Hom_{Ho(SeqSpec(Top_{cg})_{strict})}(\Sigma f,Y)
   =
-  [f,\Omega Y]_{strict}
+  Hom_{Ho(SeqSpec(Top_{cg})_{strict})}(f,\Omega Y)
 $$
 
-is an isomorphism, and hence $\Sigma f$ is a stable equivalence.
+is an isomorphism by the first statement above, and hence $\Sigma f$ is a stable equivalence.
 
 =--
 
@@ -2110,7 +2152,7 @@ For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithL
      X
    $$
 
-   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra})
+   and this is a stable equivalence (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}),
 
 1. the adjunct structure maps constitute a homomorphism
 
@@ -2212,6 +2254,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .proof}
@@ -2237,6 +2280,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .proof}
@@ -2246,9 +2290,134 @@ By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] (def. \re
 
 =--
 
-##### Triangulated category structure
+In fact this lifts to a Quillen equivalence:
 
-The [[homotopy category of a model category|homotopy category]] of a [[stable model category]], def. \ref{StableModelCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable model category.
++-- {: .num_prop #AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure}
+###### Proposition
+
+The $(\Sigma \dashv \Omega)$-[[adjunction]] from prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} is a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) with respect to the stable model structure of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}:
+
+$$
+  SeqSpec(Top_{cg})_{stable}
+    \underoverset
+     {\underset{\Omega}{\longrightarrow}}
+     {\overset{\Sigma}{\longrightarrow}}
+     {\bot_{\mathrlap{Qu.equiv.}}}
+  SeqSpec(Top_{cg})_{stable}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential} and the fact that the stable model structure has the same cofibrations as the strict model structure,  $\Sigma$ preserves stable cofibrations. Moreover, by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves in fact all stable weak equivalences. Hence $\Sigma$ is a left Quillen functor and so $(\Sigma \dashv \Omega)$ is a [[Quillen adjunction]].
+
+With this, lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives that this Quillen adjunction is a Quillen equivalence.
+
+=--
+
+In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonucal $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
+
++-- {: .num_cor #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
+###### Corollary
+
+The [[classical model structure on pointed topological spaces|classical model structure]] $(Top^{\ast/}_{cg})_{Quillen}$ on [[pointed topological space|pointed]] [[compactly generated topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) and the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ (theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) sit in a [[commuting diagram]] of [[Quillen adjunctions]] of the form
+
+$$
+  \array{
+     (Top_{cg}^{\ast/})_{Quillen}
+      &
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     (Top^{\ast/}_{cg})_{Quillen}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     SeqSpec(Top_{cg})_{strict}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+     SeqSpec(Top_{cg})_{strict}
+     \\
+     {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}}
+     &&
+     {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}}
+     \\
+     SeqSpec(Top_{cg})_{stable}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longrightarrow}}
+       {\simeq_{\mathrlap{Q}}}
+     &
+     SeqSpec(Top_{cg})_{stable}
+  }
+  \,,
+$$
+
+where the top parts is from corollary \ref{SuspensionLoopingAdjunctionSystemForStrictModelStructure}, the bottom vertical Quillen adjunction is the [[Bousfield localization of model categories|Bousfield localization]] of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} and the bottom horizontal adjunction is the [[Quillen equivalence]] of prop. \ref{AlternativeLoopingAndSuspensionIsQuillenEquivalenceOnStableModelStructure}.
+
+Hence (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) the [[derived functors]] of the functors in this diagram yield a commuting square of [[adjoint functors]] between the [[classical homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalHomotopyCategory)) and the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) of the form
+
+$$
+  \array{
+    Ho(Top^{\ast/})
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\bot}
+    &
+    Ho(Top^{\ast}_{cg})
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    \\
+    Ho(Spectra)
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\simeq}
+    &
+    Ho(Spectra)
+  }
+  \,.
+$$
+
+=--
+
+
+##### The stable homotopy category
+
++-- {: .num_defn #TheStableHomotopyCategory}
+###### Definition
+
+Write
+
+$$
+  Ho(Spectra)
+  \coloneqq
+  Ho(SeqSpec(Top_{cg})_{stable})
+$$
+
+for the [[homotopy category of a model category|homotopy category]] of the stable [[model structure on topological sequential spectra]] from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}. 
+
+This is called the **[[stable homotopy category]]**.
+
+=--
+
+
+The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable model category.
 
 +-- {: .num_defn #AdditiveCategory}
 ###### Definition
