@@ -1173,17 +1173,17 @@ For $f \colon X \to Y$ a morphism, let $Q f$ be given by any choice of lift in
 
 $$
   \array{
-    \emptyset && \longrightarrow && Q Y
+    \emptyset & \longrightarrow & Q Y
     \\
     \downarrow &{}^{\mathllap{Q f}}\nearrow& \downarrow
     \\
-    Q X &\to& X &\overset{f}{\to}& Y
+    Q X \overset{f \circ p_X}{\longrightarrow}& Y
   }
   \,.
 $$
 
 
-Then because $(L \dahsv R)$ above is a Quillen equivalence, we get the following diagram
+Then because $(L \dashv R)$ above is a [[Quillen equivalence]], we get the following diagram
 
 $$
   \array{
