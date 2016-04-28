@@ -1,12 +1,14 @@
-  $$
-    Top_{cg}^{\ast/}
-       \underoverset
-       {
-         \underset{Maps(X,-)_\ast}{\longrightarrow}
-       }
-       {
-         \overset{X \wedge (-)}{\longleftarrow}
-       }
-       {\overset{abcdefghijkl}{\longrightarrow}}
-    Top_{cg}^{\ast/}
-  $$
+
+$$
+  SeqSpec(Top_{cg})
+    \underoverset
+    {
+      \underset{Maps(K,-)_\ast}{\longrightarrow}
+    }
+    {
+      \overset{(-) \wedge K}{\longleftarrow}
+    }
+    {\bot}
+  SeqSpec(Top_{cg})
+  \,.
+$$
