@@ -3073,7 +3073,7 @@ The following proposition requires, in general, to evaluate cohomology functors 
 ###### Proposition
 **(Serre-Cartan-Eilenberg-Whitehead-Atiyah-Hirzebruch spectral sequence)**
 
-Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}). Let $B$ be a [[simply connected topological space|simply connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$. 
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  (def. \ref{ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor}). Let $B$ be a [[connected topological space|connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$ (well defined up to [[weak homotopy equivalence]], by [this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)): 
 
 $$
   \array{
