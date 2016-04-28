@@ -27,7 +27,7 @@ This can be somewhat confusing when comparing a Hilbert system to other systems 
 
 $$ \array{\arrayopts{\rowlines{solid}} A \qquad B \\ A\& B } $$
 
-(where $\&$ represents the [[additive conjunction]]), which is a Hilbert system would be written as $A,B\vdash A\& B$.  But the *sequent* $A,B\vdash A\& B$ is not valid in the usual sequent-calculus presentations of such logics, because the comma in the sequent context (on the left) is usually a judgment-level version of the [[multiplicative conjunction]].
+(where $\&$ represents the [[additive conjunction]]), which in a Hilbert system would be written as $A,B\vdash A\& B$.  But the *sequent* $A,B\vdash A\& B$ is not valid in the usual sequent-calculus presentations of such logics, because the comma in the sequent context (on the left) is usually a judgment-level version of the [[multiplicative conjunction]].
 
 ## Related pages
 
