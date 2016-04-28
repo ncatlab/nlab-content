@@ -5172,7 +5172,7 @@ $$
  
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #SmashProductOnTopNotAssociative}
 ###### Remark
 
 For a general category $\mathcal{C}$ in def. \ref{SmashProductOfPointedObjects}, the [[smash product]] need not be [[associativity|associative]], namely it fails to be associative if the functor $(-)\times Z$ does not preserve the [[quotients]] involved in the definition. 
@@ -5624,10 +5624,10 @@ The following is a slight variant of def. \ref{CompactOpenTopology}, appropriate
 +-- {: .num_defn #CompactlyGeneratedMappingSpaces}
 ###### Definition
 
-For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(X,Y)$ of [[continuous functions]] $f \colon X \to Y$, and for which a [[topological base|subbase]] for its topology has elements $U^\kappa$, for $U \subset Y$ any [[open subset]] and $\kappa \colon K \to X$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(Y,X)$ of [[continuous functions]] $f \colon Y \to X$, and for which a [[topological base|subbase]] for its topology has elements $U^{\phi(K)}$, for $U \subset X$ any [[open subset]] and $\pho \colon K \to K$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
 
 $$
-  U^\kappa \coloneqq \left\{ f\in C(X,Y) | f(\kappa(K)) \subset U \right\}
+  U^{\phi(\kappa)} \coloneqq \left\{ f\in C(Y,X) | f(\phi(K)) \subset U \right\}
   \,.
 $$
 
@@ -5636,7 +5636,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-If $X$ is a [[Hausdorff space]], then the topological on the compactly generated mapping space $X^Y$ in def. \ref{CompactlyGeneratedMappingSpaces} agrees with the [[compact-open topology]] of def. \ref{CompactOpenTopology}. Beware that it is common to also say "compact-open topology" for the topology of the compactly generated mapping space when $X$ is not Hausdorff. In that case, however, the two definitions in general disagree.
+If $X$ is a [[Hausdorff space]], then the topological on the compactly generated mapping space $X^Y$ in def. \ref{CompactlyGeneratedMappingSpaces} agrees with the [[compact-open topology]] of def. \ref{CompactOpenTopology}. Beware that it is common to say "compact-open topology" also for the topology of the compactly generated mapping space when $X$ is not Hausdorff. In that case, however, the two definitions in general disagree.
 
 =--
 
@@ -5647,7 +5647,7 @@ If $X$ is a [[Hausdorff space]], then the topological on the compactly generated
 
 The category $Top_{cg}$ of def. \ref{kTop} is [[cartesian closed category|cartesian closed]]: 
 
-for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the Cartesian product in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
+for every $X \in Top_{cg}$ then the operation $X\times (-) \times (-)\times X$ of forming the [[Cartesian product]] in $Top_{cg}$ (which by cor. \ref{kTopIsCoreflectiveSubcategory} is $k$ applied to the usual [[product topological space]]) together with the operation $(-)^X$ of forming the compactly generated [[mapping space]] (def. \ref{CompactlyGeneratedMappingSpaces}) forms a pair of [[adjoint functors]]
 
 $$
   Top_{cg}
@@ -5660,9 +5660,109 @@ $$
 
 For proof see for instance ([Strickland 09, prop. 2.12](#Strickland09)).
 
++-- {: .num_cor #SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}
+###### Corollary
+
+For $X, Y \in Top_{cg}^{\ast/}$, the operation of forming the [[pointed mapping space]] (example \ref{PointedMappingSpace}) inside the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}
+
+$$
+  Maps(Y,X)_\ast
+  \coloneqq
+  fib\left(
+    X^Y \overset{ev_y}{\longrightarrow} X
+    \;,
+    x
+  \right)
+$$
+
+is [[left adjoint]] to the [[smash product]] operation on [[pointed topological space|pointed]] [[compactly generated topological spaces]].
+
+$$
+  Top_{cg}^{\ast/}
+    \stackrel{\overset{Y \wedge (-)}{\longleftarrow}}{\underoverset{Maps(Y,-)_\ast}{\bot}{\longrightarrow}}
+  Top_{cg}^{\ast/}
+ \,.
+$$
+
+=--
+
+Moreover, compact generation fixes the associativity of the smash product (remark \ref{SmashProductOnTopNotAssociative}):
+
++-- {: .num_prop #SmashProductInTopcgIsAssociative}
+###### Proposition
+
+On [[pointed topological space|pointed]] (def. \ref{CategoryOfPointedObjects}) [[compactly generated topological spaces]] (def. \ref{kTop}) the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
+
+$$
+  (-)\wedge (-)
+  \;\colon\;
+  Top_{cg}^{\ast/}
+    \times
+  Top_{cg}^{\ast/}
+    \longrightarrow
+  Top_{cg}^{\ast/}
+$$
+
+is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it. 
+ 
+=--
+
++-- {: .proof}
+###### Proof
+
+Since $(-)\times X$ is a [[left adjoint]] by prop. \ref{CartesianClosureOfTopcg}, it presevers [[colimits]] and in particular [[quotient space]] projections. Therefore with $X, Y, Z \in Top_{cg}^{\ast/}$ then
+
+$$
+  \begin{aligned}
+    (X \wedge Y) \wedge Z
+    & =
+    \frac{
+      \frac{X\times Y}{X \times\{y\} \sqcup \{x\}\times Y}
+      \times Z
+    }{ (X \wedge Y)\times \{z\} \sqcup \{[x] = [y]\} \times Z}
+    \\
+    & \simeq
+    \frac{\frac{X \times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z}}{
+      X \times Y \times \{z\}
+    }
+   \\
+   &\simeq
+    \frac{X\times Y \times Z}{ X \vee Y \vee Z}
+  \end{aligned}
+  \,.
+$$
+
+The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
+
+The second statement follows directly with prop. \ref{CartesianClosureOfTopcg}.
+
+=--
+
++-- {: .num_remark #PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed}
+###### Remark
+
+Corollary \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces} together with prop. \ref{SmashProductInTopcgIsAssociative} says that under the [[smash product]] the category of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] is a [[closed monoidal category|closed]] [[symmetric monoidal category]] with [[tensor unit]] the [[0-sphere]].
+
+$$
+  (Top_{cg}^{\ast/}, \wedge, S^0)
+  ,.
+$$
+
+Notice that by prop. \ref{CartesianClosureOfTopcg} also unpointed compactly generated spaces under [[Cartesian product]] form a [[closed monoidal category|closed]] [[symmetric monoidal category]], hence a [[cartesian closed category]]
+
+$$
+  (Top_{cg}, \times , \ast)
+  \,.
+$$
+
+The fact that $Top_{cg}^{\ast/}$ is still closed symmetric monoidal but no longer Cartesian exhibits $Top_{cg}^{\ast/}$ as being "more [[linear logic|linear]]" than $Top_{cg}$. The "full linearization" of $Top_{cg}$ is the closed symmteric monoidal category of [[structured spectra]] under [[smash product of spectra]]
+which we discuss in [[Introduction to Stable homotopy theory -- 1|section 1]].
+ 
+=--
+
 Due to the [[idempotent monad|idempotency]] $k \circ k \simeq k$ (cor. \ref{kTopIsCoreflectiveSubcategory}) it is useful to know plenty of conditions under which a given topological space is already compactly generated, for then applying $k$ to it does not change it and one may continue working as in $Top$.
 
-+-- {: .num_example CWComplexIsCompactlyGenerated}
++-- {: .num_example #CWComplexIsCompactlyGenerated}
 ###### Example
 
 Every [[CW-complex]] is [[compactly generated topological space|compactly generated]]. 
@@ -5705,7 +5805,7 @@ The category $Top_{cg}$ of [[compactly generated topological spaces]] includes
 
 Recall that by corollary \ref{kTopIsCoreflectiveSubcategory}, all [[colimits]] of compactly generated spaces are again compactly generated.
 
-+-- {: .num_example #CWComplexIsCompactlyGenerated}
++-- {: .num_example #ProductOfCWWithLocallyCompactCWIsCompactlyGenerated}
 ###### Example
 
 The [[product topological space]] of a [[CW-complex]] with a [[compact topological space|compact]] CW-complex, and more generally with a [[locally compact topological space|locally compact]] CW-complex, is [[compactly generated topological space|compactly generated]].
@@ -5714,12 +5814,11 @@ The [[product topological space]] of a [[CW-complex]] with a [[compact topologic
 
 ([Hatcher "Topology of cell complexes", theorem A.6](CW+complex#HatcherTopologyOfCellComplexes))
 
+
 +-- {: .num_prop #kificationComparisonIsWeakHomotopyEquivalence}
 ###### Proposition
 
-For every 
-
-topological space $X$, the canonical function $k(X) \longrightarrow X$ is a [[weak homotopy equivalence]].
+For every topological space $X$, the canonical function $k(X) \longrightarrow X$ (the [[adjunction unit]]) is a [[weak homotopy equivalence]].
 
 =--
 
@@ -5755,69 +5854,9 @@ Hence the (acyclic) cofibrations in $(Top_{cg})_{Quillen}$ are identified with t
 
 =--
 
-The use of compactly generated topological spaces also improves the behaviour of [[pointed topological spaces]]:
+$\,$
 
-+-- {: .num_prop #SmashProductInTopcgIsAssociative}
-###### Proposition
-
-Write $Top_{cg}^{\ast/}$ for the category of [[pointed topological space|pointed]] (def. \ref{CategoryOfPointedObjects}) [[compactly generated topological spaces]] (def. \ref{kTop}). Then the [[smash product]] (def. \ref{SmashProductOfPointedObjects})
-
-$$
-  (-)\wedge (-)
-  \;\colon\;
-  Top_{cg}^{\ast/}
-    \times
-  Top_{cg}^{\ast/}
-    \longrightarrow
-  Top_{cg}^{\ast/}
-$$
-
-is [[associativity|associative]] and the [[0-sphere]] is a [[tensor unit]] for it. (Hence $(Top_{cg}^{\ast/}, \wedge, S^0)$ is a [[symmetric monoidal category]].)
-
-Moreover together with the [[pointed mapping space]] version $Maps(X,-)_\ast$ (example \ref{PointedMappingSpace}) of the compactly generated mapping space of def. \ref{CompactlyGeneratedMappingSpaces}, $Top_{cg}^{\ast/}$ becomes a [[closed monoidal category]]: 
-
-for every $X \in Top_{cg}^{\ast/}$ then the operations of forming the [[smash product]] $X\wedge (-)$ and of forming the [[pointed mapping space]] $Maps(X,-)_\ast$ constitute a pair of [[adjoint functors]]
-
-$$
-  Top_{cg}^{\ast/}
-    \stackrel{\overset{X \wedge (-)}{\longleftarrow}}{\underset{Maps(X,-)_\ast}{\longrightarrow}}
-  Top_{cg}^{\ast/}
- \,.
-$$
- 
-=--
-
-+-- {: .proof}
-###### Proof
-
-For the first statement, since $(-)\times X$ is a [[left adjoint]] by prop. \ref{CartesianClosureOfTopcg}, it presevers [[colimits]] and in particular [[quotient space]] projections. Therefore with $X, Y, Z \in Top_{cg}^{\ast/}$ then
-
-$$
-  \begin{aligned}
-    (X \wedge Y) \wedge Z
-    & =
-    \frac{
-      \frac{X\times Y}{X \times\{y\} \sqcup \{x\}\times Y}
-      \times Z
-    }{ (X \wedge Y)\times \{z\} \sqcup \{[x] = [y]\} \times Z}
-    \\
-    & \simeq
-    \frac{\frac{X \times Y \times Z}{X \times \{y\}\times Z \sqcup \{x\}\times Y \times Z}}{
-      X \times Y \times \{z\}
-    }
-   \\
-   &\simeq
-    \frac{X\times Y \times Z}{ X \vee Y \vee Z}
-  \end{aligned}
-  \,.
-$$
-
-The analogous reasoning applies to yield also $X \wedge (Y\wedge Z) \simeq \frac{X\times Y \times Z}{ X \vee Y \vee Z}$.
-
-The second statement follows directly with prop. \ref{CartesianClosureOfTopcg}.
-
-=--
-
+**Compactly generated weakly Hausdorff topological spaces**
 
 
 While the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} does satisfy the requirement that it gives a [[cartesian closed category]] with all [[limits]] and [[colimits]] and containing all [[CW-complexes]], one may ask for yet smaller subcategories that still share all these properties but potentially exhibit further convenient properties still.
