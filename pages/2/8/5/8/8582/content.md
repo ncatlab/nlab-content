@@ -50,7 +50,13 @@ where $a$, $b$, etc. are [[metavariable]]s.  [[substitution|Substituting]] parti
 ## Proof trees and theorems
 
 A **proof tree** in a deductive system is a rooted tree whose edges are labeled by judgments and whose nodes are labeled by steps.  We usually draw these like so:
-$$ \frac{\frac{J_1 \quad J_2}{J_3} \quad \frac{J_4}{J_5}}{J_6} $$
+$$
+\array{\arrayopts{\rowlines{solid}}
+\array{\arrayopts{\rowlines{solid}} J_1 \quad J_2 \\ J_3} \quad
+\array{\arrayopts{\rowlines{solid}} J_4 \\ J_5} \\
+J_6 }
+$$
+(To draw such trees on the nLab, see the [[HowTo]] for a hack using the `array` command.  For LaTeX papers, there is the [mathpartir](https://www.ctan.org/pkg/mathpartir) package.)
 
 If there is a proof tree with root $J$ and no leaves (which means that every branch must terminate in an axiom), we say that $J$ is a [[theorem]] and write
 $$\vdash J.$$
@@ -72,6 +78,7 @@ Depending on the strength of the metalanguage used to define the judgments and s
 * [[natural deduction]]
 * [[type theory]]
 * [[sequent calculus]]
+* [[Hilbert system]]
 
 [[!redirects deductive system]]
 [[!redirects deductive systems]]
