@@ -61,6 +61,8 @@ For a unital ring $R$ the following are equivalent:
 1. $\operatorname{Ext}^k_R(A, \cdot)$ commutes with small direct sums for any finitely generated $A$.
 =--
 
+Direct sums here can be replaced by filtered colimits.
+
 +-- {: .proof} 
 ###### Proof 
 $1 \Rightarrow 2$: assume that $R$ is Noetherian and $I_\alpha$ are injective modules. In order to verify that $I := \bigoplus_\alpha I_\alpha$ is injective it is enough to show that for any ideal $\mathfrak{j}$ any morphism of left modules $f : \mathfrak{j} \to I$ factors through $\mathfrak{j} \to R$. Since $R$ is Notherian, $\mathfrak{j}$ is finitely generated, so the image of $f$ lies in a finite sum $I_{\alpha_1} \oplus \dots \oplus I_{\alpha_n}$. Thus an extension to $R$ exists by the injectivity of each $I_{\alpha_k}$.
