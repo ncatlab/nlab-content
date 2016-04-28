@@ -1,105 +1,12 @@
-It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
-
 $$
-  \array{
-    X_\bullet &\stackrel{h_\bullet}{\longrightarrow}& A_\bullet
-    \\
-    \downarrow^{\mathrlap{f_\bullet}} && \downarrow
-    \\
-    Y_\bullet &\longrightarrow& B_\bullet
-  }
-  \,.
-$$
-
-By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams of simplicial sets of the form
-
-$$
-  \array{
-    X_n &\stackrel{h_n}{\longrightarrow}& A_n
-    \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow
-    \\
-    Y_n &\longrightarrow& B_n
-  }
-$$
-
-such that all structure maps are respected.
-
-$$
-  \array{
-    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
-    \\
-    \downarrow^{\mathrlap{S^1 \wedge f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
-    \\
-    S^1 \wedge Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
-    \\
-    & \searrow && \searrow
-    \\
-    && S^1 \wedge B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
-  }
-  \;\;\;
-  \Rightarrow
-  \;\;\;
-  \array{
-    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
-    \\
-    & \searrow^{\mathrlap{S^1 \wedge h_n}} && \searrow^{\mathrlap{h_{n+1}}}
-    \\
-    && S^1 \wedge A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
-    \\
-    && \downarrow && \downarrow
-    \\
-    && S^1 \wedge B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
-  }
-  \,.
-$$
-
-Hence a [[lifting]] in the original diagram is a lifting in each degree $n$, such that the lifting in degree $n+1$ makes these diagrams of structure maps commute.
-
-Since components are parameterized over $\mathbb{N}$, this condition has solutions by [[induction]]. First of all there must be an ordinary lifting in degree 0. Then assume a lifting $l_n$ in degree $n$ has been found
-
-$$
-  \array{
-    X_n &\stackrel{h_n}{\longrightarrow}& A_n
-    \\
-    \downarrow^{\mathrlap{f_n}} &\nearrow_{\mathrlap{l_n}}& \downarrow
-    \\
-    Y_n &\longrightarrow& B_n
-  }
-$$
-
-the lifting $l_{n+1}$ in the next degree has to also make the following diagram commute
-
-$$
-  \array{
-    S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
-    \\
-    \downarrow^{\mathrlap{S^1 \wedge f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
-    & \searrow^{\mathrlap{h_{n+1}}}
-    \\
-    S^1 \wedge Y_n &\stackrel{\sigma_n^Y}{\longrightarrow}& Y_{n+1}
-    && 
-    \\
-    & \searrow^{\mathrlap{l_n}} && \searrow^{\mathrlap{l_{n+1}}} & \downarrow
-    \\
-    && S^1 \wedge A_n &\stackrel{\sigma_n^A}{\longrightarrow}& A_{n+1}
-  }
-  \,.
-$$
-
-This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$, while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
-
-$$
-  \array{
-    S^1 \wedge Y_n 
-      \underset{S^1 \wedge X_n}{\sqcup} 
-    X_{n+1}
-    &\stackrel{(\sigma_n^A \circ S^1 \wedge l_n,h_{n+1})}{\longrightarrow}&
-    A_{n+1}
-    \\
-    \downarrow &{}^{\mathllap{l_{n+1}}}\nearrow& \downarrow
-    \\
-    Y_{n+1} &\stackrel{}{\longrightarrow}& B_{n+1}
-  }
-  \,.
-$$
+\array{
+\arrayopts{\rowlines{solid}}
+\array{\arrayopts{\rowlines{solid}}
+X \times B \to P A\;\;\; in\; \mathbf{S} \\
+X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S})} \qquad
+\array{\arrayopts{\rowlines{solid}}
+X \times B \to P A\;\;\; in\; \mathbf{S} \\
+X \times B \nrightarrow A\;\;\; in\; Rel(\mathbf{S})} \\
+X \nrightarrow A \times B\;\;\; in\; Rel(\mathbf{S}) \\
+X \to P(A \times B)\;\;\; in \; \mathbf{S}
+}$$
