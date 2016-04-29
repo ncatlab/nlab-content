@@ -1,1 +1,8 @@
-$\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
+$$
+  SeqSpec(Top_{cg})_{stable}
+    \underoverset
+      {\underset{Sing}{\longrightarrow}}
+      {\overset{\vert - \vert}{\longleftarrow}}
+      {\simeq_{\mathrlap{Q}}}
+  SeqSpec(sSet)_{stable}
+$$
