@@ -130,7 +130,7 @@ Lecture notes on [[G-spectra]] modeled as [[orthogonal spectra]] with $G$-action
 
 A textbook account in terms of [[G-spectra]] modeled on a complete [[G-universe]] is in 
 
-* L.G. Lewis, [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+* [[L. Gaunce Lewis]], [[Peter May]], and M. Steinberger (with contributions by J.E. McClure), _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
 and a more modern version taking into account the theory of [[symmetric monoidal categories of spectra]] is in
 
@@ -160,7 +160,7 @@ The characterization of $G$-equivariant functors in terms of topological [[Macke
 
 A comprehensive construction of equivariant stable homotopy theory in terms of [[Mackey functors]] is in the series
 
-* B. Guillou and [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
+* [[Bert Guillou]], [[Peter May]],  _Models of $G$-spectra as presheaves of spectra, ([arXiv:1110.3571](http://arxiv.org/abs/1110.3571))
 
   _Permutative $G$-categories in equivariant infinite loop space theory ([arXiv:1207.3459](http://arxiv.org/abs/1207.3459))
 
