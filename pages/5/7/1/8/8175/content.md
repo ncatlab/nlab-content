@@ -254,7 +254,7 @@ Here the bottom vertical morphisms are those induced from any chosen cell inclus
 
 The differential $d_1$ in the spectral sequence is the middle horizontal composite. From this the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
 
-Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} to obtain convergence. 
+Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in [this prop.](Introduction+to+Stable+homotopy+theory+--+S#CohomologicalSpectralSequenceOfAnExactCouple) is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+S#CohomologicalSpectralSequenceOfAnExactCouple) to obtain convergence. 
 
 By that proposition the convergence is to the [[inverse limit]]
 
@@ -267,7 +267,7 @@ $$
   \,.
 $$
 
-If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then this limit is $A^\bullet(X)$, by prop. \ref{Lim1VanihesUnderMittagLeffler}.
+If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#MittagLefflerCondition)), then this limit is $A^\bullet(X)$, by [this prop.](Introduction+to+Stable+homotopy+theory+--+S#Lim1VanihesUnderMittagLeffler).
 
 
 =--
