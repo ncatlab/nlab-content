@@ -76,75 +76,199 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 +-- {: .num_prop}
 ###### Proposition
 
-For $X$ be a finite [[CW-complex]], and $E$ be a [[spectrum]], 
-i.e. $E^\bullet$ a [[generalized cohomology theory]], 
-then there is a [[spectral sequence]] of the form
+
+Let $A^\bullet$ be a an [additive](#UnreducedAdditivity)  unreduced  [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology functor]]  ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomologyHomotopyHomotopicalFunctor)). Let $B$ be a [[connected topological space|connected]] [[CW-complex]] and let $X \stackrel{\pi}{\to} B$ be a [[Serre fibration]] with [[fibers]] $F$ (well defined up to [[weak homotopy equivalence]], by [this example](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)): 
+
+$$
+  \array{
+    F &\longrightarrow& X
+    \\
+    && \downarrow^{\mathrlap{\in Fib_{cl}}}
+    \\
+    && B
+  }
+  \,.
+$$
+
+If at least one of the following two conditions is met
+
+* $B$ is [[finite number|finite]]-dimensional as a [[CW-complex]];
+
+* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#MittagLefflerCondition)) for all $p$;
+
+then there is a cohomology [[spectral sequence]], ([def.](Introduction+to+Stable+homotopy+theory+--+S#CohomologySpectralSequence)), whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
 $$
   E_2^{p,q} 
-   = 
-  H^p(X, E^q(\ast))
-  \Rightarrow 
-  E^{p+q}(X)
+    = 
+  H^p(B, A^q(F)) 
+   \;
+    \Rightarrow 
+   \;
+  A^\bullet(X)
+$$ 
+
+with respect to the filtering given by
+
+$$
+  F^p A^\bullet(X) 
+   \coloneqq 
+  ker\left(
+    A^\bullet(X) 
+      \to 
+    A^\bullet(X_{p-1})
+  \right)
   \,,
 $$
 
-i.e. converging to the $E$-[[generalized cohomology]] of $X$ with second page the [[ordinary cohomology]] of $X$ with [[coefficients]] in the $E$-[[cohomology groups]] of the point.
+where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the [[CW-complex]] $B = \underset{\longleftarrow}{\lim}_n B_n$.
 
 =--
 
-The [following proof](#ProofOfAHSS) is the original argument due to ([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61)). A more elegant argument, producing the AHSS as the [[spectral sequence of a tower of fibrations]] of [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] of $E$ is due to ([Shulman 13](#Shulman13)).
+The [following proof](#ProofOfAHSS) is the standard and original argument due to ([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61)).  A more elegant argument, producing the AHSS as the [[spectral sequence of a tower of fibrations]] of [[mapping spectra]] $[X,-]$ into the [[Postnikov tower]] of $E$ is due to ([Shulman 13](#Shulman13)).
 
 +-- {: .proof #ProofOfAHSS}
 ###### Proof
 
-Write $X_{k}$ for the [[simplicial skeleton|k-skeleton]] of the [[CW-complex]] $X$.
-
-Since $E^\bullet$ is a [[generalized cohomology theory]],
-it satisfies the [[Eilenberg-Steenrod axioms]] (except possibly the
-dimension axiom) and hence we have a
-[[Cartan-Eilenberg spectral sequence]] 
+The [exactness axiom](#ExactnessUnreduced) for $A$ gives an [[exact couple]], ([def.](Introduction+to+Stable+homotopy+theory+--+S#ExactCoupleAndDerivedExactCouple)), of the form
 
 $$
-  E_1^{p,q} 
-   = 
-  E^{p+q}(X_p, X_{p-1})
-  \Rightarrow 
-  E^{p+q}(X)
-$$
-
-converging to the desired cohomology group, with first page consisting of the generalized [[relative cohomology]] groups of the $p$-skeleta ralative the $(p-1)$-skeleta.
-
-To analyze this, consider the [[homotopy cofiber sequence]]
-
-$$
-  X_{p-1} \hookrightarrow X_p \longrightarrow \underset{i}{\bigvee} \sigma_i/\partial \sigma_i
+  \array{
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
+    &&
+      \stackrel{}{\longrightarrow} 
+    &&
+    \underset{s,t}{\prod} A^{s+t}(X_{s})
+    \\
+    & \nwarrow && \swarrow
+    \\
+    && \underset{s,t}{\prod} A^{s+t}(X_{s}, X_{s-1})
+  }
+  \;\;\;\;\;\;\;
+  \left(
+      \array{
+        A^{s+t}(X_s) & \longrightarrow & A^{s+t}(X_{s-1})
+        \\
+        \uparrow && \downarrow_{\mathrlap{\delta}}
+        \\
+        A^{s+t}(X_s, X_{s-1}) && A^{s+t+1}(X_{s}, X_{s-1})
+      }
+  \right)
   \,,
 $$
 
-where $i$ runs over the set of $p$-cells $\sigma_i$ of $X$. Homming that into $E$ gives that the $E$-[[relative cohomology]] of $X_p$ relative to $X_{p-1}$ is the [[direct sum]] over all $p$-cells of the [[cohomology groups]] of the $p$-cells relative their boundary, hence of the [[reduced cohomology]] of the [[n-sphere|p-sphere]]:
+where we take $X_{\gg 1} = X$ and $X_{\lt 0} = \emptyset$. 
+
+In order to determine the $E_2$-page, we analyze the $E_1$-page: By definition
+
+$$
+  E_1^{s,t}
+   =
+  A^{s+t}(X_s, X_{s-1})
+$$
+
+
+Let $C(s)$ be the set of $s$-dimensional cells of $B$, and notice that for $\sigma \in C(s)$ then 
+
+$$
+  (\pi^{-1}(\sigma), \pi^{-1}(\partial \sigma)) \simeq (D^n, S^{n-1}) \times F_\sigma
+  \,,
+$$
+
+where $F_\sigma$ is [[weak homotopy equivalence|weakly homotopy equivalent]] to $F$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)).
+ 
+This implies that 
 
 $$
   \begin{aligned}
-    E^{p+q}(X_p, X_{p-1})
-      & \simeq
-    \underset{i}{\oplus} E^{p+q}(\sigma_i,\partial \sigma_i)
-     \\
-      & \simeq
-    \underset{i}{\oplus} \tilde E^{p+q}(S^p)
+    E_1^{s,t}
+    & \coloneqq
+    A^{s+t}(X_s, X_{s-1})
     \\
-     & \simeq
-    \underset{i}{\oplus} \tilde E^{q}(\ast)
-     \\
-     & \simeq
-      C^p(X, E^q(\ast))
+    & \simeq \tilde A^{s+t}(X_s/X_{s-1})
+    \\
+    & \simeq \tilde A^{s+t}(\underset{\sigma \in C(n)}{\vee} S^s \wedge F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^{s+t}(S^s \wedge F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} \tilde A^t(F_+)
+    \\
+    & \simeq \underset{\sigma \in C(s)}{\prod} A^t(F)
+    \\
+    & \simeq C^s_{cell}(B,A^t(F))
   \end{aligned}
+  \,,
+$$
+
+where we used the relation to [[reduced cohomology]] $\tilde A$, ([prop.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) together with ([lemma](Introduction+to+Stable+homotopy+theory+--+S#EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient)), 
+then the [wedge axiom](Introduction+to+Stable+homotopy+theory+--+S#WedgeAxiom) and the [suspension isomorphism](Introduction+to+Stable+homotopy+theory+--+S#SuspensionIsomorphismForReducedGeneralizedCohomology) of the latter. 
+
+The last group $C^s_{cell}(B,A^t(F))$ appearing in this sequence of isomorphisms is that of [[cellular cohomology|cellular cochains]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)) of degree $s$ on $B$ with [[coefficients]] in the group $A^t(F)$. 
+
+Since [[cellular cohomology]] of a [[CW-complex]] agrees with its [[singular cohomology]] ([thm.](Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence with its [[ordinary cohomology]], to conclude that the $E_2$-page is as claimed, it is now sufficient to show that the differential $d_1$ coincides with the differential in the [[cellular cochain complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). 
+
+We discuss this now for $\pi = id$, hence $X = B$ and $F = \ast$. The general case works the same, just with various factors of $F$ appearing in the following: 
+
+Consider the following diagram, which [[commuting diagram|commutes]] due to the [[natural transformation|naturality]] of the [connecting homomorphism](#ConnectingHomomorphismOfUnreducedCohomology) $\delta$ of $A^\bullet$:
+
+$$
+  \array{
+    \partial^\ast
+     \colon
+    & C^{s-1}_{cell}(X,A^t(\ast))
+      & =&  \underset{i \in I_{s-1}}{\prod} A^t(\ast)
+      && \longrightarrow &&
+    \underset{i \in I_s}{\prod} A^t(\ast)
+    & = & 
+    C_{cell}^{s}(X,A^t(\ast))
+    \\
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && & \underset{i \in I_{s-1}}{\prod} \tilde A^{s+t-1}(S^{s-1}) 
+      && &&
+    \underset{i \in I_s}{\prod} \tilde A^{s+t}(S^{s}) 
+    \\
+    && & {}^{\mathllap{\simeq}}\downarrow && && \downarrow^{\mathrlap{\simeq}}
+    \\
+    && d_1 \colon &
+    A^{s+t-1}(X_{s-1}, X_{s-2})
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(X_{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(X_s, X_{s-1})
+    \\
+    && & 
+    \downarrow && \downarrow && \downarrow
+    \\
+    && & 
+    A^{s+t-1}(S^{s-1}, \emptyset)
+      &\overset{}{\longrightarrow}&
+    A^{s+t-1}(S^{s-1})
+      &\overset{\delta}{\longrightarrow}&
+    A^{s+t}(D^s , S^{s-1})
+  }
   \,.
 $$
 
-Here in the middle step we applied the [[suspension isomorphism]] and in the last step we used the assumption that there is just a [[finite set]] of cells.
+Here the bottom vertical morphisms are those induced from any chosen cell inclusion $(D^s , S^{s-1}) \hookrightarrow (X_s, X_{s-1})$.
 
-This shows that the entries of the $E_1$-page are the [[cellular cohomology|cellular cochains]]  of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the spectral sequence acts as the cellular coboundary operator.  This follows by unwinding the definition of $d_1$, for more details see the proof [here](Introduction+to+Stable+homotopy+theory+--+S#ProofOfTheAHSS).
+The differential $d_1$ in the spectral sequence is the middle horizontal composite. From this the vertical isomorphisms give the top horizontal map. But the bottom horizontal map identifies this top horizontal morphism componentwise with the restriction to the boundary of cells. Hence the top horizontal morphism is indeed the coboundary operator $\partial^\ast$ for the [[cellular cohomology]] of $X$ with coefficients in $A^\bullet(\ast)$ ([def.](Introduction+to+Stable+homotopy+theory+--+I#CellularChainComplex)). This cellular cohomology coincides with [[singular cohomology]] of the [[CW-complex]] $X$ ([thm.](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+I#CelluarEquivalentToSingularFromSpectralSequence)), hence computes the [[ordinary cohomology]] of $X$.
+
+Now to see the convergence. If $B$ is finite dimensional then the convergence condition as stated in prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} is met.  Alternatively, if $A^\bullet(F)$ is bounded below in degree, then by the above analysis the $E_1$-page has a horizontal line below which it vanishes. Accordingly the same is then true for all higher pages, by each of them being the cohomology of the previous page. Since the differentials go right and down, eventually they pass beneath this vanishing line and become 0. This is again the condition needed in the proof of prop. \ref{CohomologicalSpectralSequenceOfAnExactCouple} to obtain convergence. 
+
+By that proposition the convergence is to the [[inverse limit]]
+
+$$
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots \stackrel{}{\to} A^\bullet(X_{s+1}) \longrightarrow A^\bullet(X_{s})
+    \to \cdots
+  \right)
+  \,.
+$$
+
+If $X$ is finite dimensional or more generally if the sequences that this limit is over satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then this limit is $A^\bullet(X)$, by prop. \ref{Lim1VanihesUnderMittagLeffler}.
+
 
 =--
 
