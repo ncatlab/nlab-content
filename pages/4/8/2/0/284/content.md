@@ -245,8 +245,6 @@ See _[[table - models for (∞,1)-categories]]_.
 
 In practice, it can be useful to be able to treat all "presentations of $(\infty,1)$-categories" on the same equal footing (e.g. relative categories and topologically-enriched categories).  While truly model-independent foundations of $(\infty,1)$-category theory do not (yet) exist, this can be accomplished _within_ any model of $(\infty,1)$-categories, which we proceed to describe.  As quasicategories are by far the most well-developed, we use them as an ambient framework.  We also take care to make as few choices (even "contractible" ones) as possible.  However, we do not explicitly mention set-theoretic issues, though these are easily handled using Grothendieck universes.
 
-[[relcats-modelcats-qcats-inftycats.jpg:file]]
-
 1. Consider the $Kan$-enriched category $\underline{QCat}$ of quasicategories; for quasicategories $C$ and $D$, the Kan complex of morphisms between them is $\underline{hom}_{\underline{QCat}} = \iota(\underline{hom}_{sSet}(C,D))$, the largest Kan complex contained in their internal hom simplicial set.
 
 1. Define a _relative quasicategory_ to be a quasicategory equipped with a full sub-quasicategory of "weak equivalences" containing all equivalences.  For relative quasicategories $(C,W_C)$ and $(D,W_D)$, write $\underline{hom}_{\underline{RelQCat}}((C,W_C),(D,W_D)) \subset \underline{hom}_{\underline{QCat}}(C,D)$ for the sub-Kan complex consisting of those maps which take $W_C$ into $W_D$.  Note that using this definition, this is actually the inclusion of a disjoint union of connected components among Kan complexes (in the strictest possible sense).
@@ -267,7 +265,7 @@ In practice, it can be useful to be able to treat all "presentations of $(\infty
 
 This sequence of maneuvers balances twin aims.  On the one hand, Toen's theorem asserts that after choosing a basepoint, this Kan complex is a model for $B(\mathbb{Z}/2)$.  Thus, any sort of object which might be considered as "a presentation of an $(\infty,1)$-category" canonically determines an object of $Cat_{(\infty,1)}$ (where "canonical" must still be taken in the quasicategorical sense).  On the other hand, it is completely independent of which vertex of $(The(\infty,1)Cats)$ we choose.
 
-A diagram taking place in $N^{hc}(\underline{QCat})$ which elaborates on certain salient aspects of the passage from models of $(\infty,1)$-categories to a model-independent approach can be found [here](https://math.berkeley.edu/~aaron/relcats-modelcats-qcats-inftycats.jpg).  (For a small amount of explanation of this diagram, see [here](https://nforum.ncatlab.org/discussion/7029/a-diagram-relating-different-models-of-inftycategories/#Item_0).)
+[This diagram](http://ncatlab.org/nlab/files/relcats-modelcats-qcats-inftycats.jpg), taking place in $N^{hc}(\underline{QCat})$, elaborates on certain salient aspects of the passage from models of $(\infty,1)$-categories to a model-independent approach.  (For a small amount of explanation of this diagram, see [here](https://nforum.ncatlab.org/discussion/7029/a-diagram-relating-different-models-of-inftycategories/#Item_0).)
 
 
 ## Related concepts
