@@ -38,9 +38,7 @@ $$
   \delta_n : T_n(C) \to T_{n-1}(A)
 $$
 
-such that
-
-for each such short exact sequence there is, [[natural transformation|naturally]] a [[long exact sequence]]
+such that for each such short exact sequence there is, [[natural transformation|naturally]] a [[long exact sequence]]
 
 $$
       \cdots T_{n+1}(C) \stackrel{\delta}{\to} T_n(A) \to T_n(B) \to T_n(C) \stackrel{\delta }{\to} T_{n-1}(A) \to \cdots
@@ -62,6 +60,11 @@ $$
 from the [[category of chain complexes]] of some [[abelian category]] (for $\mathbb{N}$-graded complexes).
 
 The _universal_ example are (non-total) [[right derived functors]].
+
+## Related concepts
+
+* [[derived functor in homological algebra]]
+
 
 ## References
 
