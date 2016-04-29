@@ -331,4 +331,3 @@ For [[abelian sheaves]] over the [[etale site]]:
 
 [[!redirects injective modules]]
 
-[[!redirects enough injectives]]
