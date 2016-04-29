@@ -2379,7 +2379,7 @@ $$
 
 =--
 
-e.g. ([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96), [Weibel 94, prop. 3.5.7](#Weibel94))
+e.g. ([Switzer 75, theorem 7.75](#Switzer75), [Kochmann 96, prop. 4.2.3](#Kochmann96), [Weibel 94, prop. 3.5.7](lim1#Weibel94))
 
 +-- {: .proof}
 ###### Proof idea
