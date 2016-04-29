@@ -1753,322 +1753,6 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 =--
 
-## Topological enrichment
- {#TopologicalEnrichment}
-
-
-+-- {: .num_defn #PushoutProduct}
-###### Definition
-
-Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be morphisms in $Top_{cg}$, def. \ref{kTop}. Their **[[pushout product]]** 
-
-$$
-  i_1\Box i_2
-   \coloneqq
-  ((id, i_2), (i_1,id))
-$$ 
-
-is the universal morphism in the following diagram
-
-$$
-  \array{
-    && X_1 \times X_2
-    \\
-    & {}^{\mathllap{(i_1,id)}}\swarrow && \searrow^{\mathrlap{id,i_2}}
-    \\
-    Y_1 \times X_2 && (po) && X_1 \times Y_2
-    \\
-    & {}_{\mathllap{}}\searrow && \swarrow
-    \\
-    && (Y_1 \times X_2) \underset{X_1 \times X_2}{\sqcup} (X_1 \times Y_2)
-    \\
-    && \downarrow^{\mathrlap{((id, i_2), (i_1,id))}}
-    \\
-    && Y_1 \times Y_2
-  }
-$$
-
-=--
-
-+-- {: .num_example #PushoutProductOfTwoInclusions}
-###### Example
-
-If $i_1 \colon X_1 \hookrightarrow Y_1$ and $i_2 \colon X_2 \hookrightarrow Y_2$ are inclusions, then their pushout product $i_1 \Box i_2$ from def. \ref{PushoutProduct} is the inclusion
-
-$$
-  \left(
-     X_1 \times Y_2 \;\cup\; Y_1 \times X_2
-  \right)
-    \hookrightarrow
-  Y_1 \times Y_2
-  \,.
-$$
-
-For instance 
-
-$$
-  \left(
-    \{0\} \hookrightarrow I
-  \right)
-   \Box
-  \left(
-    \{0\} \hookrightarrow I
-  \right)
-$$
-
-is the inclusion of two adjacent edges of a square into the square.
-
-
-=--
-
-
-+-- {: .num_defn #PushoutProduct}
-###### Definition
-
-Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Write then
-
-$$
-  p^{\Box i}
-  \coloneqq
-  (p^B, X^i)
-$$ 
-
-for the universal morphism in 
-
-$$
-  \array{
-    && X^B
-    \\
-    && \downarrow^{\mathrlap{(p^B, X^i)}}
-    \\
-    && Y^B \underset{Y^A}{\times} X^A
-    \\
-    & \swarrow && \searrow
-    \\
-    Y^B && (pb) && X^A
-    \\
-    & {}_{\mathllap{Y^i}}\searrow && \swarrow_{\mathrlap{p^A}}
-    \\
-    && Y^A   
-  }
-$$
-
-=--
-
-+-- {: .num_prop #JoyalTierneyCalculus}
-###### Proposition
-
-Let $i_1, i_2 , p$ be three morphisms in $Top_{cg}$, def. \ref{kTop}. Then the following are equivalent:
-
-1. $i_1 \Box i_2$ has LLP against $p$;
-
-1. $i_1$ has LLP against $p^{\Box i_2}$;
-
-1. $i_2$ has LLP agains $p^{\Box i_1}$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$:
-
-$$
-  \array{
-    Q &\overset{f}{\longrightarrow}& X^B
-    \\
-    {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^{\Box i_2}}}
-    \\
-    P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
-  }
-  \;\;\;\;
-  \leftrightarrow
-  \;\;\;\;
-  \array{
-    Q \times B \underset{Q \times A}{\sqcup} P \times A
-    &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
-    X
-    \\
-    {}^{\mathllap{i_1 \Box i_2}}\downarrow && \downarrow^{\mathrlap{p}}
-    \\
-    P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
-  }
-  \,.
-$$
-
-=--
-
-
-
-+-- {: .num_lemma #PushoutProductOfCellComplexWithEndpointInclusionInInterval}
-###### Lemma
-
-The [[pushout-product]], def. \ref{PushoutProduct}, of a classical cofibration with the endpoint inclusion of the interval is again a classical cofibration:
-
-$$
-  \left(
-     X \underoverset{\in Cof_{cl}}{f}{\longrightarrow}  Y
-  \right)
-  \Box
-  \left(
-    \{0\} \hookrightarrow I
-  \right)
-  \;\;\;
-  \in 
-  Cof_{cl}
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First observe that 
-
-$$
-  (S^{n-1} \overset{\iota_n}{\hookrightarrow} D^n) 
-    \Box 
-  (\{0\} \hookrightarrow I)
-$$
-
-is a classical acyclic cofibration: Because by definition this is
-
-$$
-  \left(D^n \times \{0\} \;\cup\; S^{n-1} \times I\right)
-    \hookrightarrow
-  D^n \times I
-  \,,
-$$
-
-which is clearly homeomorphic to
-
-$$
-  D^n \overset{(id,\delta_0)}{\hookrightarrow} D^n \times I
-  \,.
-$$
-
-
-Let then $p$ be any classical fibration. By prop. \ref{PushoutProduct}
-
-$$
-  (S^{n-1} \overset{\iota_n}{\hookrightarrow} D^n) 
-    \;\;\text{has LLP against} \;\;
-   p^{\Box(\{0\}\hookrightarrow I)}
-  \,.
-$$ 
-
-Hence by the closure properties ([prop.](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), all classical acyclic cofibrations have that lifting property, in particular 
-
-$$
-  f 
-    \;\;\text{has LLP against}\;\; 
-  p^{\Box(\{0\}\hookrightarrow I)}
-  \,.
-$$
-
-Hence, again by prop. \ref{PushoutProduct}, 
-
-$$
-  f \Box (\{0\} \to I)  \;\;\text{has LLP against}\;\; p
-  \,.
-$$ 
-
-Since this holds for all fibrations $p$, then $f \Box (\{0\} \to I)$ is a classical acyclic cofibration, by theorem \ref{TopQuillenModelStructure}.
-
-=--
-
-
-+-- {: .num_prop }
-###### Proposition
-
-The [[pushout-product]] $f_1 \Box f_2$ of two relative cell complexes is a classical cofibration. If $f_1$ or $f_2$ is actually a relative $J_{Top}$-cell complex, then $f_1 \Box f_2$ is a classical acyclic cofibration.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-It is clear, as in example \ref{PushoutProductOfTwoInclusions}, that $f_1 \Box f_2$ is a relative cell complex, hence a classical cofibration. We show that it is a classical acyclic cofibration if $f_2$ is a relative $J_{Top}$-complex. The case that $f_1$ is such then goes the same.
-
-So suppose that $f_2$ is a relative $J_{Top}$-cell complex. 
-
-First observe that the class of maps $g$ such that $f_1 \Box g$ is a classical acylic cofibration is closed under [[transfinite composition]], [[pushouts]], and [[coproducts]]: because by prop. \ref{JoyalTierneyCalculus}
-
-$$
-\begin{aligned}
-  & f_1 \Box g \in W \cap Cof
-  \\
-  \Leftrightarrow & f_1 \Box g \;\text{has LLP against}\; Fib
-  \\
-  \Leftrightarrow & g \;\text{has LLP against}\; Fib^{f_1}
-\end{aligned}
-$$
-
-and so it follows by the closure properties ([prop.](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)).
-
-Hence it is sufficient to show that 
-
-$$
-  f_1 \Box (D^n \overset{(id,\delta_0)}{\longrightarrow} D^n \times I)
-$$
-
-is a classical acyclic cofibration for all $n \in \mathbb{N}$. But
-this is isomorphic (homeomorphic) to 
-
-$$
-  f_1 \Box 
-  \left(  
-    \left(
-      D^n \times \{0\} \;\cup\; S^{n-1}\times I
-    \right) 
-    \hookrightarrow 
-    D^n \times I
-  \right)
-  \,.
-$$
-
-If $f_1 \colon X\hookrightarrow Y$ then this is
-
-$$
-  X \times D^n \times I 
-   \;\cup\; 
-  Y \times \left(D^n \times \{0\} \;\cup\; S^{n-1}\times I\right)
-    \underset{\in I_{Top} Cell}{\hookrightarrow}
-  Y \times D^n \times I
-  \,.
-$$
-
-By distributing products over unions and collecting terms, this is homeomorphic to 
-
-$$
-  Y \times D^n \times \{0\}
-    \;\cup\;
-  \left( X\times D^n \;\cup\; Y \times S^{n-1}\right) \times I
-    \hookrightarrow
-  Y \times D^n \times I
-$$
-
-which is
-
-$$
-  \left(
-    (X\times D^n \;\cup\; Y \times S^{n-1}) 
-      \hookrightarrow 
-     Y \times D^n
-  \right)
-   \Box
-  (\{0\}\hookrightarrow I)
-  \,.
-$$
-
-Hence the claim follows by lemma \ref{PushoutProductOfCellComplexWithEndpointInclusionInInterval}.
-
-=--
-
-
-
 
 
 ## Related model structures
@@ -2364,7 +2048,7 @@ By example \ref{CWComplexIsCompactlyGenerated}, example \ref{ProductOfCWWithLoca
 =--
 
 
-+-- {: .num_theorem } 
++-- {: .num_theorem #ModelStructureOnTopcg} 
 ###### Theorem
 
 The restriction of the [[model category]] structure on $Top_{Quillen}$ from theorem \ref{TopQuillenModelStructure} along the inclusion $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} is still a model category structure, which is [[cofibrantly generated model category|cofibrantly generated]] by the same sets $I_{Top}$ (def. \ref{TopologicalGeneratingCofibrations}) and $J_{Top}$ (def. \ref{TopologicalGeneratingAcyclicCofibrations}) The coreflection of cor. \ref{kTopIsCoreflectiveSubcategory} is a  [[Quillen equivalence]]
@@ -3013,6 +2697,332 @@ $$
 =--
 
 
+## Topological enrichment
+ {#TopologicalEnrichment}
+
++-- {: .num_defn #PushoutProduct}
+###### Definition
+
+Let $i_1 \colon X_1 \to Y_1$ and $i_2 \colon X_2 \to Y_2$ be morphisms in $Top_{cg}$, def. \ref{kTop}. Their **[[pushout product]]** 
+
+$$
+  i_1\Box i_2
+   \coloneqq
+  ((id, i_2), (i_1,id))
+$$ 
+
+is the universal morphism in the following diagram
+
+$$
+  \array{
+    && X_1 \times X_2
+    \\
+    & {}^{\mathllap{(i_1,id)}}\swarrow && \searrow^{\mathrlap{id,i_2}}
+    \\
+    Y_1 \times X_2 && (po) && X_1 \times Y_2
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && (Y_1 \times X_2) \underset{X_1 \times X_2}{\sqcup} (X_1 \times Y_2)
+    \\
+    && \downarrow^{\mathrlap{((id, i_2), (i_1,id))}}
+    \\
+    && Y_1 \times Y_2
+  }
+$$
+
+=--
+
++-- {: .num_example #PushoutProductOfTwoInclusions}
+###### Example
+
+If $i_1 \colon X_1 \hookrightarrow Y_1$ and $i_2 \colon X_2 \hookrightarrow Y_2$ are inclusions, then their pushout product $i_1 \Box i_2$ from def. \ref{PushoutProduct} is the inclusion
+
+$$
+  \left(
+     X_1 \times Y_2 \;\cup\; Y_1 \times X_2
+  \right)
+    \hookrightarrow
+  Y_1 \times Y_2
+  \,.
+$$
+
+For instance 
+
+$$
+  \left(
+    \{0\} \hookrightarrow I
+  \right)
+   \Box
+  \left(
+    \{0\} \hookrightarrow I
+  \right)
+$$
+
+is the inclusion of two adjacent edges of a square into the square.
+
+=--
+
++-- {: .num_example #PushoutProductWithInitialMorphism}
+###### Example
+
+The pushout product with an [[initial object|initial]] morphism
+is just the ordinary [[Cartesian product]] with the given object:
+
+$$
+  (\emptyset \to X) \Box (-)
+  \simeq
+  X \times (-)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #PushoutProductOfITopwithITopAndJTop}
+###### Example
+
+With 
+
+$$
+  I_{Top} \colon \{ S^{n-1} \overset{i_n}{\hookrightarrow} D^n\}
+  \;\;\;
+  and
+  \;\;\;
+  J_{Top} \colon \{ D^n \overset{j_n}{\hookrightarrow} D^n \times I\}
+$$
+
+the generating cofibrations and generating acyclic cofibrations, then
+their [[pushout-products]] (def. \ref{PushoutProduct}) are
+
+$$
+  \begin{aligned}
+  i_{n_1} \Box i_{n_2} & \simeq i_{n_1 + n_2}
+  \\
+  i_{n_1} \Box j_{n_2} & \simeq j_{n_1 + n_2}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+In low dimension one readily sees that
+
+$$
+  i_1 \Box i_1
+  \;\colon\;
+    (\; = \;\cup\; \vert\vert\;) 
+    \hookrightarrow
+    \Box
+$$
+
+and
+
+$$
+  i_1 \Box j_0
+  \;\colon\;
+    (\; = \;\cup\; \vert \; ) 
+    \hookrightarrow
+    \Box
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #PullbackPowering}
+###### Definition
+
+Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Their **pullback powering** is
+
+$$
+  p^{\Box i}
+  \coloneqq
+  (p^B, X^i)
+$$ 
+
+being the universal morphism in 
+
+$$
+  \array{
+    && X^B
+    \\
+    && \downarrow^{\mathrlap{(p^B, X^i)}}
+    \\
+    && Y^B \underset{Y^A}{\times} X^A
+    \\
+    & \swarrow && \searrow
+    \\
+    Y^B && (pb) && X^A
+    \\
+    & {}_{\mathllap{Y^i}}\searrow && \swarrow_{\mathrlap{p^A}}
+    \\
+    && Y^A   
+  }
+$$
+
+=--
+
++-- {: .num_prop #JoyalTierneyCalculus}
+###### Proposition
+
+Let $i_1, i_2 , p$ be three morphisms in $Top_{cg}$, def. \ref{kTop}. Then for their [[pushout-products]] (def. \ref{PushoutProduct}) and pullback-powerings (def. \ref{PullbackPowering}) the following [[lifting properties]] are equivalent:
+
+$$
+  \array{
+    &  i_1 \Box i_2 & \text{has LLP against} & p 
+    \\
+    \Leftrightarrow & i_1 &  \text{has LLP against} & p^{\Box i_2}
+    \\
+    \Leftrightarrow & i_2 &  \text{has LLP against} & p^{\Box i_1}
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$:
+
+$$
+  \array{
+    Q &\overset{f}{\longrightarrow}& X^B
+    \\
+    {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^{\Box i_2}}}
+    \\
+    P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
+  }
+  \;\;\;\;
+  \leftrightarrow
+  \;\;\;\;
+  \array{
+    Q \times B \underset{Q \times A}{\sqcup} P \times A
+    &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
+    X
+    \\
+    {}^{\mathllap{i_1 \Box i_2}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #PushoutProductInTopCGSendsCofCofToCof}
+###### Proposition
+
+The [[pushout-product]] in $Top_{cg}$ (def. \ref{kTop}) of two classical cofibrations is a classical cofibration:
+
+$$
+  Cof \Box Cof \subset Cof
+  \,.
+$$
+
+If one of them is acyclic, then so is the pushout-product:
+
+$$
+  Cof \Box (W\cap Cof) \subset W\cap Cof
+  \,.
+$$
+
+This says that the model category $(Top_{cg})_{Quillen}$ from theorem \ref{ModelStructureOnTopcg} is an [[enriched model category]] over itself.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point:
+
+By example \ref{PushoutProductOfITopwithITopAndJTop} we have
+
+$$
+  I_{Top}\Box I_{Top} \subset I_{Top}
+$$
+
+Hence
+
+$$
+  \array{
+    & I_{Top} \Box I_{Top} & \text{has LLP against} & W_{cl} \cap Fib_{cl}
+    \\
+    \Leftrightarrow
+    & I_{Top} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
+    \\
+    \Rightarrow
+    & Cof & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
+    \\
+    \Leftrightarrow
+    & 
+    I_{Top} \Box Cof & \text{has LLP against} & W_{cl} \cap Fib_{cl}
+    \\
+    \Leftrightarrow
+    &
+    I_{Top} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof}
+    \\
+    \Rightarrow
+    & Cof & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof}
+    \\
+    \Leftrightarrow
+    & Cof \Box \Cof  & \text{has LLP against} & W_{cl} \cap Fib_{cl}
+  }
+  \,,
+$$
+
+where all logical equivalences used are those of prop. \ref{JoyalTierneyCalculus} and where all implications appearing are by the closure property of lifting problems ([prop.](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)).
+
+Regarding the second point: By example \ref{PushoutProductOfITopwithITopAndJTop} we moreover have
+
+$$
+  I_{Top}\Box J_{Top} \subset J_{Top}
+$$
+
+and the conclusion follows by the same kind of reasoning.
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]]) then the product-hom-adjunction for $Y$ is a [[Quillen adjunction]]
+
+$$
+  (Top_{cg})_{Quillen}
+   \underoverset
+     \underset{(-)^X}{\longrightarrow}
+     \overset{X \times (-)}{\longleftarrow}
+     {\bot}
+  (Top_{cg})_{Quillen}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{PushoutProductWithInitialMorphism} we have that the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
+
+$$
+  X \times (-)
+  \simeq
+  (\emptyset \to X) \Box (-)
+  \,.
+$$
+
+By assumption $(\emptyset \to X)$ is a cofibration, and hence prop. \ref{PushoutProductInTopCGSendsCofCofToCof} says that this is a left Quillen functor.
+
+=--
+
+
+
+
 ## Related concepts
 
 * [[classical model structure on simplicial sets]]
@@ -3041,6 +3051,10 @@ The observation that the proof directly extends to give the [[projective model s
 * {#Piacenza91} [[Robert Piacenza]]  section 5 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
 
   also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+
+The quick way to see the topological enrichment is indicated for instance in
+
+* [[Stefan Schwede]], pages 5-6 of _Orbispaces, orthogonal spaces, and the universal compact Lie group_ ([pdf](http://www.math.uni-bonn.de/people/schwede/orbispaces.pdf))
 
 [[!redirects Quillen model structure on topological spaces]]
 [[!redirects Quillen model structure on Top]]
