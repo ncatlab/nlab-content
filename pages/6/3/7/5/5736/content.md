@@ -3,7 +3,9 @@ John Frederick Jardine or Rick Jardine is a
 
 * [webpage](http://www.math.uwo.ca/~jardine)
 
-* [[Paul Goerss|P.G. Goerss]], J.F. Jardine, _[[Simplicial homotopy theory]]_, 1999
+## Books
+
+* (with [[Paul Goerss|P.G. Goerss]]) _[[Simplicial homotopy theory]]_, 1999
 
 * _[[Local homotopy theory]]_, 2015
 
