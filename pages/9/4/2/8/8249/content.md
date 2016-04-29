@@ -1036,6 +1036,10 @@ See [here](http://mathoverflow.net/questions/97658/left-derived-functors-commute
 
 (...)
 
+## Related concepts
+
+* [[delta-functor]]
+
 
 ## References
 
