@@ -1093,6 +1093,11 @@ Vol. 355, No. 9 (Sep., 2003), pp. 3611-3623 ([JSTOR](http://www.jstor.org/stable
 
 [[!redirects left Bousfield localization]]
 [[!redirects left Bousfield localizations]]
+
+[[!redirects left Bousfield localization of model categories]]
+[[!redirects left Bousfield localizations of model categories]]
+
+
 [[!redirects right Bousfield localization]]
 [[!redirects right Bousfield localizations]]
 [[!redirects left Bousfield localisation]]
