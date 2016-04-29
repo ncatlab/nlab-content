@@ -653,14 +653,17 @@ Using tools from the theory of [[accessible categories]], injective objects are 
 
 See also 
 
-* T.-Y. Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics 189, Springer Verlag (1999). 
-{#Lam}
+* 
+{#Lam} T.-Y. Lam, _Lectures on modules and rings_, Graduate Texts in Mathematics 189, Springer Verlag (1999). 
 
 See
 
-* Roswitha Harting, _Locally injective abelian groups in a topos_, Communications in Algebra 11 (4), 1983
-{#Harting}
+* {#Harting} Roswitha Harting, _Locally injective abelian groups in a topos_, Communications in Algebra 11 (4), 1983
+
 
 for a detailed discussion of internal notions of injectivity.
 
 [[!redirects injective objects]]
+
+[[!redirects enough injectives]]
+
