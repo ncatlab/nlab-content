@@ -42,6 +42,12 @@ $$
 
 a weak homotopy equivalence.
 
+## Related concepts
+
+* [[Whitehead's theorem]]
+
+* [CW-approximation for sequential spectra](CW-spectrum#CWApproximation)
+
 ## References
 
 * {#Hatcher} [[Allen Hatcher]], _Algebraic topology_, Cambridge Univ. Press 2002; Chapter 4, [Section 4.1 pdf](http://www.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf)
