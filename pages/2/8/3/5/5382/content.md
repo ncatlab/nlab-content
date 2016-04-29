@@ -36,7 +36,7 @@ By the [[cobordism hypothesis]]-theorem, symmetric monoidal [[(∞,n)-functor]]s
 
 * In the [[symmetric monoidal category]] [[Vect]] of [[vector space]]s (over some [[field]]), the fully dualizable objects are the finite-[[dimension]]al vector spaces.
 
-* In the [[2-category]] of [[associative algebras]]  with [[bimodules]] between them as morphisms, over a [[perfect field]], fully dualizable objects [[separable algebras]] which are a [[projective module]] over $k$ [SchommerPries 11, section 3.8.3](#SchommerPries11). 
+* In the [[2-category]] of [[associative algebras]]  with [[bimodules]] between them as morphisms, over a [[commutative ring]], fully dualizable objects are [[separable algebras]] which are [[projective modules]] over the base ring (these conditions are given in [SchommerPries 11, Definition 3.70] (#SchommerPries11) and attributed to Lurie's paper cited below). 
 
 * In the [[symmetric monoidal (infinity,n)-category|symmetric monoidal 3-category]] of [[monoidal categories]] and [[bimodule categories]] between them, the fully dualizable objects are (or at least contain) the [[fusion categories]]. ([DSPS 13](#DSPS13)).
 
