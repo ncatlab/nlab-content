@@ -74,6 +74,7 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
  {#Construction}
 
 ### Statement
+ {#Statement}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -127,7 +128,8 @@ where $X_{p} \coloneqq \pi^{-1}(B_{p})$ is the fiber over the $p$th stage of the
 
 =--
 
-### Proof by filtering the base space
+### Construction by filtering the base space
+ {#ConstructionByFilteringTheBaseSpace}
 
 The [following proof](#ProofOfAHSS) is the standard and original argument due to ([Atiyah-Hirzebruch 61, p. 17](#AtiyahHirzebruch61)).  
 
@@ -277,14 +279,14 @@ If $X$ is finite dimensional or more generally if the sequences that this limit 
 
 =--
 
-### Proof by filtering the coefficient spectrum
- {#ProofByFilteringTheCoefficientSpectrum}
+### Construction by filtering the coefficient spectrum
+ {#ConstructionByFilteringTheCoefficientSpectrum}
 
 One also gets the Atiyah-Hirzebruch spectral sequence, up to isomorphism, by instead using the filtering given by the [[Postnikov tower]] of an [[Omega-spectrum]] [[Brown representability theorem|representing]] the given generalized cohomology theory.
 
-This is due to [Maunder 63, theorem 3.3](#Maunder63)
+This is due to ([Maunder 63, theorem 3.3](#Maunder63))
 
-The alternative construction there should be the one that is discussed in ([Shulman 13](#Shulman13)) from a perspective of [[homotopy type theory]].
+This alternative construction should be the one that is discussed in ([Shulman 13](#Shulman13)) from the perspective of [[homotopy type theory]].
 
 [[!include Lurie spectral sequences -- table]]
 
@@ -377,7 +379,7 @@ but the proof given consists essentially in pointing to section XV.7 ("a more ge
 
 * {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], _Homological algebra_, Princeton Univ. Press (1956)
 
-This is by filtering over the stages of the base space CW-complex. That one gets an isomorphic spectral sequence by instead filtering over the [[Postnikov tower]] of any [[Omega-spectrum]] [[Brown representability theorem|representing]] the given [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theor is due to
+This is by filtering over the stages of the base space CW-complex. That one gets an isomorphic spectral sequence by instead filtering over the [[Postnikov tower]] of any [[Omega-spectrum]] [[Brown representability theorem|representing]] the given [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] theory is due to
 
 * {#Maunder63} C. R. F. Maunder, _The spectral sequence of an extraordinary cohomology theory_, Mathematical Proceedings of the Cambridge Philosophical Society, vol 59, no 3 (1963), pp 567- 574 ([publisher](http://journals.cambridge.org/abstract_S0305004100037245))
  
