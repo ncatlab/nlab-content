@@ -218,6 +218,13 @@ From all this it follows that $Fix(p) \cap V' = g^{-1}(0) \cap V'$, meaning $Fix
 is the category of all smooth manifolds. This powerful theorem justifies bypassing the complicated considerations of charts, coordinate transformations, and atlases commonly offered as a "basic" definition of the concept of manifold. For example the 2-sphere, a manifold but not an open set of any Euclidean space, may be fully specified with its smooth structure by considering any open set $A$ in 3-space $E$ which contains it but not its center (taken to be $0$) and the smooth idempotent endomap of $A$ given by $e(x) = x/{|x|}$. All general constructions (i.e., functors into categories which are Cauchy complete) on manifolds now follow easily (without any need to check whether they are compatible with coverings, etc.) provided they are known on the opens of Euclidean spaces: for example, the tangent bundle on the sphere is obtained by splitting the idempotent $e'$ on the tangent bundle $A \times V$ of $A$ ($V$ being the vector space of translations of $E$) which is obtained by differentiating $e$. The same for cohomology groups, etc." 
 =-- 
 
+### Projective modules and vector bundles
+
+The category of projective modules over any ring is the Karoubi envelope of its full subcategory of free modules.
+
+The category of (locally trivial, finite dimensional) vector bundles over any fixed paracompact space is the Karoubi envelope of its full subcategory of trivial bundles.
+
+Both examples are related by the [[Serre-Swan theorem]]. In fact both these facts together with the observation that the global sections functor is an equivalence from the category trivial bundles over $X$ to the category of free modules over $C(X)$ prove the Serre-Swan theorem itself.
 
 ## Related concepts
 
