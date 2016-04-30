@@ -1,6 +1,6 @@
 ##Idea
 
-The intrinsic and extrinsic views of typing correspond to different interpretations of types, also known as the contrast between "types &#224; la Church" and "types &#224; la Curry".
+The intrinsic and extrinsic views of [[type theory|typing]] correspond to different interpretations of types, also known as the contrast between "types &#224; la Church" and "types &#224; la Curry".
 
 Reynolds claims ([Rey00](#Rey00)),
 
