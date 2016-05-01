@@ -216,6 +216,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathematics Under the Microscope](http://micromath.wordpress.com) (Alexandre Borovik)
 
+* [Mathematics without Apologies](https://mathematicswithoutapologies.wordpress.com) (Michael Harris)
+
 * [Mathlinks / Art of Problem Solving](http://www.artofproblemsolving.com/Forum/portal.php?ml=1) community, math olympiad style problems discussed
 
 * [Mathlog](http://www.scienceblogs.de/mathlog) (in German, variety of topics from Open Access journals to Klein groups and geometry)
@@ -298,6 +300,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [The Polymath Blog](http://polymathprojects.wordpress.com) (Tim Gowers "polymath" group projects: number theory, polynomials, algorithms, complexity, ...--last updated July 2011)
 
+* [The Rising Sea](http://therisingsea.org) (Daniel Murfet, previous blog moved to more of a homepage format, with arXiv of neat LaTeX notes on algebraic geometry, triangulated categories, sheaves...)
+
 * [The Twofold Gaze](http://twofoldgaze.wordpress.com) (a grad student at NYU: genetic algorithms, inequalities, competitions)
 
 * [The Unapologetic Mathematician](http://unapologetic.wordpress.com) (An expository "blath" by former academic John Armstrong)
@@ -344,8 +348,6 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [mathlight](http://mathlight.wordpress.com) (by an $n$lab regular--last update December 2010)
 
 * [Noncommutative geometry with point](http://noncommutativeag.wordpress.com), by a grad student at Kansas--last updated September 2010
-
-* [The Rising Sea](http://therisingsea.org/) (Daniel Murfet on algebraic geometry, triangulated categories, sheaves...; lots of neat LaTeX notes--last updated December 2009)
 
 * [Vivatsgasse 7](http://vivatsgasse7.wordpress.com) (Max Planck Bonn graduate students-- last update November 2007)
 
@@ -416,7 +418,7 @@ Please see [this page](http://wiki.henryfarrell.net/wiki/index.php/Computer_Scie
 * [LaTeX on Blogger](http://watchmath.com/vlog/?p=438) for installing LaTeX on Blogger.
 
 
-category: meta
+category: meta, references
 
 [[!redirects Online]]
 [[!redirects Online resources]]
