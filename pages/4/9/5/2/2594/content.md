@@ -36,7 +36,7 @@ In the general context of [[structured (∞,1)-topos]]es and [[generalized schem
 
 =--
 
-It is curious that the field of algebraic geometry has induced, first with [[Alexander Grothendieck]] now with [[Jacob Lurie]], so much [[category theory]] and [[higher category theory]], while at the same time it is common practice in this field to effectively disregard one of the major guidelines that practitioners in pure [[category theory]] are fond of adhering to: that of separation of context and implementation. [[Bill Lawvere]]'s famous dichotomy between _theory_ and _model_ .
+It is curious that the field of algebraic geometry has induced, first with [[Alexander Grothendieck]] now with [[Jacob Lurie]], so much [[category theory]] and [[higher category theory]], while at the same time it is common practice in this field to effectively disregard one of the major guidelines that practitioners in pure [[category theory]] are fond of adhering to: that of separation of context and implementation. [[Bill Lawvere]]'s famous dichotomy between _theory_ and _model_.
 
 In fact, it seems that [[William Lawvere]] found the axioms of [[synthetic differential geometry]] not without the idea of capturing central structures in [[algebraic geometry]] this way, too. But, possibly due to the very term chosen, [[synthetic differential geometry]] it has apparently always (if at all) attracted more the attention of those interested in ordinary [[differential geometry]] than those interested in [[algebraic geometry]].
 
