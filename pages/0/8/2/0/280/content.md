@@ -41,7 +41,7 @@ Here $(x\mapsto act(x,-))$ is the _[[currying|curried]]_ function $\widehat{act}
 
 Usually the key aspect of an action of some $X$ is that $X$ itself carries an algebraic structure, such as being a [[group]] (or just a [[monoid]]) or being a [[ring]] or an [[associative algebra]]. (If these structures act on an [[abelian group]] or [[vector space]] $Y$ by [[linear functions]], then one calls the action also a _[[module]]_ or _[[representation]]_.)
 
-With such algebraic structure on $X$, the action crucially is to respect this structure in that acting comnsecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
+With such algebraic structure on $X$, the action crucially is to respect this structure in that acting consecutively with two elements in $X$ is the same as first multiplying them and then acting with the result:
 
 $$
   act(x_2,act(x_1,y)) = act(x_2\cdot x_1, y)
