@@ -25,7 +25,7 @@ The compact-open topology on the set of [[continuous functions]] $X \to Y$ is ge
 
 When restricting to continuous functions between [[compactly generated topological spaces]] one usually modifies this definition to a subbase of open subsets $U^{\phi(K)}$, where now $\phi(K)$ is the [[image]] of a [[compact topological space]] under any continuous function $\phi \colon K \to X$. This definition gives a [[cartesian closed category|cartesian]] [[internal hom]] in the category of [[compactly generated topological spaces]] (see also at _[[convenient category of topological spaces]]_).
 
-The two definitions agree when $Y$ is a [[Hausdorff space]], but not in general. Beware that texts on compactly generated spaces nevertheless commonly say "compact-open topology" for the second definition.
+The two definitions agree when the [[domain]] $X$ is a [[compactly generated topological space|compactly generated]]  [[Hausdorff space]], but not in general. Beware that texts on compactly generated spaces nevertheless commonly say "compact-open topology" for the second definition.
 
 
 
