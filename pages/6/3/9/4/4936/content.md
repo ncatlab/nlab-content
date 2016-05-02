@@ -1,8 +1,16 @@
 [[!redirects star-shaped neighborhood]]
 
-For $V$ a [[vector space]], a **star domain** about the origin is an inhabited subset $U \subset V$ such that with $v \in U$ and $s \in [0,1]$ also $s v \in U$.
+## Idea
 
-More generally, for $X$ a [[real number|real]] [[affine space]], a **star domain** about a point $x\in X$ is an inhabited subset $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
+A star-shaped domain is a subset $U$ of an appropriate ambient space for which there exists a basepoint that can be connected to every other point by a "straight line in $U$".
+Such a subset is a [[contractible space]], using the contraction that travels each point back to the basepoint along the given lines.
+
+
+## Definition
+
+For $X$ a [[real number|real]] [[affine space]], a **star domain** about a point $x\in X$ is an inhabited subset $U \subset X$ such that with $y \in X$, the straight line segment connecting $x$ with $y$ in $X$ is also contained in $U$. 
+
+For $V$ a [[vector space]], a star domain about the origin is an inhabited subset $U \subset V$ that is [[radial]].
 
 These definitions can be modified in various obvious ways. For example, a **star shaped neighbourhood** of a point $x$ in an affine space $X$ is an open [[neighbourhood]] $U \subset X$ of $x$ that is a star domain about $x$. Or, a subset is a star domain if it is a star domain about one of its points. 
 
