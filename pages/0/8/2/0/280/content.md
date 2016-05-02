@@ -136,12 +136,15 @@ As an example, within the category of [[profinite group]]s, not all objects have
 (...)
 
 ## Related concepts
+ {#RelatedConcepts}
 
 * **action**, [[∞-action]],
 
   * [[conjugation action]], [[adjoint action]]
 
   * [[diagonal action]]
+
+  * [[transitive action]], [[free action]], [[regular action]]
 
 * [[coaction]]
 
