@@ -34,7 +34,7 @@ A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
 equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
 such that the following two compatibility conditions are satisfied
 
-1. ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
+1. {#PushoutProductAxiom} ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
 
    $$
      (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
@@ -61,11 +61,13 @@ such that the following two compatibility conditions are satisfied
 +-- {: .num_remark }
 ###### Remark
 
-The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
+The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ is  preserves cofibrations and acyclic cofibrations.
 
-In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. 
+In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the [pushout-product axiom](#PushoutProductAxiom). (Because then $Q I \to I$ is a weak equivalence between cofibrant objects and such are preserved by functors that preserve acyclic cofibrations, by [[Ken Brown's lemma]]. ) 
 
 =--
+
+
 
 +-- {: .num_defn #MonoidAxiom}
 ###### Definition
