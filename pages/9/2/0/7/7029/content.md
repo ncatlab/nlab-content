@@ -18,7 +18,8 @@ Equivalently, an action is free when for any pair of elements $x,y \in X$, there
 
 * Any group $G$ acts freely on itself by multiplication $\cdot : G \times G \to G$, which is called the (left) [[regular representation]] of $G$.
 
-* For any set $X$ equipped with a [[transitive action]] $* : G \times X \to X$, the group $Aut_G(X)$ of $G$-equivariant automorphisms of $X$ (i.e., [[bijections]] $\phi : X \to X$ commuting with the action of $G$) acts freely on $X$.  In particular, suppose $\phi \in Aut_G(X)$ is such that $\phi(x) = x$ for some $x\in X$, and let $y\in X$ be arbitrary.  By the assumption that $G$ acts transitively, there is a $g \in G$ such that $y = g*x$. But then $G$-equivariance implies that $\phi(y) = \phi(g*x) = g*\phi(x) = g*x = y$.
+* For any set $X$ equipped with a [[transitive action]] $* : G \times X \to X$, the group $Aut_G(X)$ of $G$-equivariant automorphisms of $X$ (i.e., [[bijections]] $\phi : X \to X$ commuting with the action of $G$) acts freely on $X$.  In particular, suppose $\phi \in Aut_G(X)$ is such that $\phi(x) = x$ for some $x\in X$, and let $y\in X$ be arbitrary.  By the assumption that $G$ acts transitively, there is a $g \in G$ such that $y = g*x$. But then $G$-equivariance implies that $\phi(y) = \phi(g*x) = g*\phi(x) = g*x = y$. Since this holds for all $y\in Y$, $\phi$ must be equal to the identity $\phi = id_X$, and therefore $Aut_G(X)$ acts freely on $X$.
+
 
 ## Related concepts
 
