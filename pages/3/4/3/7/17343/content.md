@@ -5663,7 +5663,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-If $X$ is a [[Hausdorff space]], then the topological on the compactly generated mapping space $X^Y$ in def. \ref{CompactlyGeneratedMappingSpaces} agrees with the [[compact-open topology]] of def. \ref{CompactOpenTopology}. Beware that it is common to say "compact-open topology" also for the topology of the compactly generated mapping space when $X$ is not Hausdorff. In that case, however, the two definitions in general disagree.
+If $Y$ is (compactly generated and) a [[Hausdorff space]], then the topology on the compactly generated mapping space $X^Y$ in def. \ref{CompactlyGeneratedMappingSpaces} agrees with the [[compact-open topology]] of def. \ref{CompactOpenTopology}. Beware that it is common to say "compact-open topology" also for the topology of the compactly generated mapping space when $Y$ is not Hausdorff. In that case, however, the two definitions in general disagree.
 
 =--
 
@@ -5964,7 +5964,6 @@ e.g. ([Strickland 09, lemma 1.4 (c)](#Strickland09))
 
 So far the [[classical model structure on topological spaces]] which we established in theorem \ref{TopQuillenModelStructure}, as well as the [[projective model structure on functors|projective model structures on topologically enriched functors]] induced from it in theorem \ref{ProjectiveModelStructureOnTopologicalFunctors}, concern the [[hom-sets]], but not the [[hom-spaces]] (def. \ref{TopEnrichedCategory}), i.e. the model structure so far has not been related to the topology on [[hom-spaces]]. The following statements say that in fact the model structure and the enrichment by topology on the hom-spaces are compatible in a suitable sense: we have an "[[enriched model category]]". This implies in particular that the product/hom-adjunctions are [[Quillen adjunctions]], which is crucial for a decent discusson of the derived functors of the suspension/looping adjunction [below](#TheSuspensionLoopingDiscussion).
 
-
 +-- {: .num_defn #PushoutProduct}
 ###### Definition
 
@@ -6036,7 +6035,7 @@ is just the ordinary [[Cartesian product]] with the given object:
 
 $$
   (\emptyset \to X) \Box (-)
-  \simeq
+    \simeq
   X \times (-)
   \,.
 $$
@@ -6056,7 +6055,7 @@ $$
   J_{Top} \colon \{ D^n \overset{j_n}{\hookrightarrow} D^n \times I\}
 $$
 
-the generating cofibrations and generating acyclic cofibrations, then
+the generating cofibrations (def. \ref{TopologicalGeneratingCofibrations}) and generating acyclic cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $(Top_{cg})_{Quillen}$ (theorem \ref{ModelStructureOnTopcg}), then
 their [[pushout-products]] (def. \ref{PushoutProduct}) are
 
 $$
@@ -6073,14 +6072,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[homeomorphism]], as n-cubes and their boundaries.
-
-To see the idea of the proof, consider the situation in low dimensions, where one readily sees that
+To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[homeomorphism]], as $n$-cubes $D^\n \simeq [0,1]^n \subset \mathbb{R}^n$ and their boundaries $S^{n-1} \simeq \partial [0,1]^n$ . For the idea of the proof, consider the situation in low dimensions, where one readily sees pictorially that
 
 $$
   i_1 \Box i_1
   \;\colon\;
-    (\; = \;\cup\; \vert\vert\;) 
+    \left(\;\; = \;\;\cup\;\; \vert\vert\;\;\right) 
     \hookrightarrow
     \Box
 $$
@@ -6090,15 +6087,15 @@ and
 $$
   i_1 \Box j_0
   \;\colon\;
-    (\; = \;\cup\; \vert \; ) 
+    \left(\;\; = \;\;\cup\;\; \vert \;\; \right) 
     \hookrightarrow
     \Box
   \,.
 $$
 
-Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1.
+Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1. 
 
-Accordingly $S^{n_1} \times D^{n_2} $ is the spaces of $(n_1+n_2)$-tuples, such that one of the first $n_1$ coordinates is equal to 0 or 1, and hence
+Accordingly, $S^{n_1} \times D^{n_2} \hookrightarrow D^{n_1 + n_2}$ is the subspace of $(n_1+n_2)$-tuples, such that at least one of the first $n_1$ coordinates is equal to 0 or 1, while $D^{n_1} \times S^{n_2} \hookrightarrow D^{n_1+ n_2}$ is the subspace of $(n_1 + n_2)$-tuples such that east least one of the last $n_2$ coordinates is equal to 0 or to 1. Therefore
 
 $$
   S^{n_1} \times D^{n_2} \cup D^{n_1} \times S^{n_2} \simeq S^{n_1 + n_2}
@@ -6109,18 +6106,17 @@ And of course it is clear that $D^{n_1} \times D^{n_2} \simeq D^{n_1 + n_2}$. Th
 
 For the second, use that $S^{n_1} \times D^{n_2} \times I$ is contractible to $S^{n_1} \times D^{n_2}$ in $D^{n_1} \times D^{n_2} \times I$, and that $S^{n_1} \times D^{n_2}$ is a subspace of $D^{n_1} \times D^{n_2}$.
 
-
 =--
 
 
 +-- {: .num_defn #PullbackPowering}
 ###### Definition
 
-Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Their **pullback powering** is 
+Let $i \colon A \to B$ and $p \colon X \to Y$ be two morphisms in $Top_{cg}$, def. \ref{kTop}. Their **pullback powering** is
 
 $$
   p^{\Box i}
-  \coloneqq
+    \coloneqq
   (p^B, X^i)
 $$ 
 
@@ -6167,7 +6163,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$ (prop. \ref{CartesianClosureOfTopcg}) there is a natural bijection of commuting diagrams of the form
+We claim that by the [[cartesian closed category|cartesian closure]] of $Top_{cg}$, and carefully collecting terms, one finds a natural bijection between [[commuting squares]] and their [[lifts]] as follows:
 
 $$
   \array{
@@ -6177,9 +6173,9 @@ $$
     \\
     P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
   }
-  \;\;\;\;
+  \;\;\;\;\;\;\;
   \leftrightarrow
-  \;\;\;\;
+  \;\;\;\;\;\;\;
   \array{
     Q \times B \underset{Q \times A}{\sqcup} P \times A
     &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
@@ -6192,7 +6188,117 @@ $$
   \,,
 $$
 
-and there is a natural bijection between the lifts in these diagrams.
+where the tilde denotes product/hom-[[adjuncts]], for instance
+
+$$
+  \frac{
+    P \overset{g_1}{\longrightarrow} Y^B
+  }{
+    P \times B \overset{\tilde g_1}{\longrightarrow} Y
+  }
+$$
+
+etc. 
+
+To see this in more detail, observe that both squares above each represent two squares from the two components into the fiber product and out of the pushout, respectively, as well as one more square exhibiting the compatibility condition on these components:
+
+$$
+ \begin{aligned}
+   &
+   \;\;\;\; 
+  \array{
+    Q &\overset{f}{\longrightarrow}& X^B
+    \\
+    {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^{\Box i_2}}}
+    \\
+    P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
+  }
+   \\
+  \simeq &
+   \;\;\;\;
+   \left\{
+    \;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^B}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& Y^B
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{X^{i_2}}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& X^A
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+  \array{
+    P &\overset{g_2}{\longrightarrow}& X^A
+    \\
+    {}^{\mathllap{g_1}}\downarrow && \downarrow^{\mathrlap{p^A}}
+    \\
+    Y^B &\underset{Y^{i_2}}{\longrightarrow}& Y^A
+  }
+  \;\;\;\;\;
+  \right\}
+  \\
+  \leftrightarrow
+  &
+  \;\;\;\;
+  \left\{
+    \;\;\;\;\;
+    \array{
+      Q \times B &\overset{\tilde f}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_2}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      Q \times A &\overset{(id,i_2)}{\longrightarrow}& Q \times B
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{\tilde f}}
+      \\
+      P \times A &\underset{\tilde g_2}{\longrightarrow}& X
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      P \times A &\overset{\tilde g_2}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(id,i_2)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_1}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+  \right\}
+  \\
+  \simeq
+  &
+  \;\;\;\;
+  \array{
+    Q \times B \underset{Q \times A}{\sqcup} P \times A
+    &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
+    X
+    \\
+    {}^{\mathllap{i_1 \Box i_2}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
+  }
+  \end{aligned}
+  \,.
+$$
+
 
 =--
 
@@ -6203,18 +6309,17 @@ and there is a natural bijection between the lifts in these diagrams.
 The [[pushout-product]] in $Top_{cg}$ (def. \ref{kTop}) of two classical cofibrations is a classical cofibration:
 
 $$
-  Cof \Box Cof \subset Cof
+  Cof_{cl} \Box Cof_{cl} \subset Cof_{cl}
   \,.
 $$
 
 If one of them is acyclic, then so is the pushout-product:
 
 $$
-  Cof \Box (W\cap Cof) \subset W\cap Cof
+  Cof_{cl} \Box (W_{cl} \cap Cof_{cl}) \subset W_{cl}\cap Cof_{cl}
   \,.
 $$
 
-This says that the model category $(Top_{cg})_{Quillen}$ from theorem \ref{ModelStructureOnTopcg} is an [[enriched model category]] over itself.
 
 =--
 
@@ -6226,7 +6331,7 @@ Regarding the first point:
 By example \ref{PushoutProductOfITopwithITopAndJTop} we have
 
 $$
-  I_{Top}\Box I_{Top} \subset I_{Top}
+  I_{Top} \Box I_{Top} \subset I_{Top}
 $$
 
 Hence
@@ -6239,41 +6344,55 @@ $$
     & I_{Top} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
     \\
     \Rightarrow
-    & Cof & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
+    & Cof_{cl} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{\Box I_{Top}}
     \\
     \Leftrightarrow
     & 
-    I_{Top} \Box Cof & \text{has LLP against} & W_{cl} \cap Fib_{cl}
+    I_{Top} \Box Cof_{cl} & \text{has LLP against} & W_{cl} \cap Fib_{cl}
     \\
     \Leftrightarrow
     &
-    I_{Top} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof}
+    I_{Top} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof_{cl}}
     \\
     \Rightarrow
-    & Cof & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof}
+    & Cof_{cl} & \text{has LLP against} & (W_{cl} \cap Fib_{cl})^{Cof_{cl}}
     \\
     \Leftrightarrow
-    & Cof \Box \Cof  & \text{has LLP against} & W_{cl} \cap Fib_{cl}
+    & Cof_{cl} \Box \Cof_{cl}  & \text{has LLP against} & W_{cl} \cap Fib_{cl}
   }
   \,,
 $$
 
-where all logical equivalences used are those of prop. \ref{JoyalTierneyCalculus} and where all implications appearing are by the closure property of lifting problems (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}).
+where all logical equivalences used are those of prop. \ref{JoyalTierneyCalculus} and where all implications appearing are by the closure property of lifting problems ([prop.](injective+or+projective+morphism#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)).
 
 Regarding the second point: By example \ref{PushoutProductOfITopwithITopAndJTop} we moreover have
 
 $$
-  I_{Top}\Box J_{Top} \subset J_{Top}
+  I_{Top} \Box J_{Top} \subset J_{Top}
 $$
 
 and the conclusion follows by the same kind of reasoning.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In [[model category]] theory the property in proposition \ref{PushoutProductInTopCGSendsCofCofToCof} is referred to as saying that the model category $(Top_{cg})_{Quillen}$ from theorem \ref{ModelStructureOnTopcg}
+
+1. is a [[monoidal model category]] with respect to the [[Cartesian product]] on $Top_{cg}$;
+
+1. is an [[enriched model category]], over itself.
+
+
+=--
+
+A key point of what this entails is the following:
+
 +-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}
 ###### Proposition
 
-For $X \in (Top_{cg})_{Quillen}$ cofibrant in the [[classical model structure on topological spaces|classical model structure]] on compactly generated spaces from theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces} (hence a [[retract]] of a [[cell complex]]) then the product-hom-adjunction from prop. \ref{CartesianClosureOfTopcg}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
+For $X \in (Top_{cg})_{Quillen}$ cofibrant (a [[retract]] of a [[cell complex]]) then the product-hom-adjunction for $Y$ (prop. \ref{CartesianClosureOfTopcg}) is a [[Quillen adjunction]]
 
 $$
   (Top_{cg})_{Quillen}
@@ -6290,11 +6409,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{PushoutProductWithInitialMorphism} the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
+By example \ref{PushoutProductWithInitialMorphism} we have that the [[left adjoint]] functor is equivalently the [[pushout product]] functor with the initial morphism of $X$: 
 
 $$
   X \times (-)
-  \;\simeq\;
+  \simeq
   (\emptyset \to X) \Box (-)
   \,.
 $$
@@ -6303,12 +6422,12 @@ By assumption $(\emptyset \to X)$ is a cofibration, and hence prop. \ref{Pushout
 
 =--
 
-This discussion has a direct analog for [[pointed topological spaces|pointed]] [[compactly generated topological spaces]]. Here we consider the **smash pushout product** and **smash pullback powering** in the evident sense. Everything goes through as before, and one finds the pointed analog of prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}:
+The statement and proof of prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen} has a direct analogue in [[pointed topological spaces]]
 
 +-- {: .num_prop #HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen}
 ###### Proposition
 
-For $X \in (Top^{\ast/}_{cg})_{Quillen}$ cofibrant with respect to the [[classical model structure on pointed topological spaces|classical model structure on pointed]] compactly generated spaces (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}, prop. \ref{ModelStructureOnSliceCategory}) (a retract of a cell complex with non-degenerate basepoint, remark \ref{NonDegenerateBasepointAsCofibrantObjects}) then the pointed product-hom-adjunction from corollary \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
+For $X \in (Top^{\ast/}_{cg})_{Quillen}$ cofibrant with respect to the [[classical model structure on pointed topological spaces|classical model structure on pointed]] [[compactly generated topological spaces]] (theorem \ref{ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces}, prop. \ref{ModelStructureOnSliceCategory}) (hence a [[retract]] of a [[cell complex]] with non-degenerate basepoint, remark \ref{NonDegenerateBasepointAsCofibrantObjects}) then the pointed product-hom-adjunction from corollary \ref{SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces}  is a [[Quillen adjunction]] (def. \ref{QuillenAdjunction}):
 
 $$
   (Top^{\ast/}_{cg})_{Quillen}
@@ -6319,6 +6438,29 @@ $$
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
 $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let now $\Box_\wedge$ denote the **smash pushout product** and $(-)^{\Box(-)}$ the **smash pullback powering** defined as in def. \ref{PushoutProduct} and def. \ref{PullbackPowering}, but with [[Cartesian product]] replaced by [[smash product]] (def. \ref{SmashProductOfPointedObjects}) and compactly generated [[mapping space]] replaced by pointed mapping spaces (def. \ref{PointedMappingSpace}).
+
+By theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces} $(Top_{cg}^{\ast/})_{Quillen}$ is [[cofibrantly generated model category|cofibrantly generated]] by $I_{Top^{\ast/}} = (I_{Top})_+$ and $J_{Top^{\ast/}}= (J_{Top})_+$. Example \ref{WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces} gives that for $i_n \in I_{Top}$ and $j_n \in J_{Top}$ then
+
+$$
+  (i_{n_1})_+ \Box_\wedge (i_{n_2})_+ \simeq (i_{n_1 + n_2})_+
+$$
+
+and
+
+$$
+  (i_{n_1})_+ \wedge_\wedge (i_{n_2})_+ \simeq (i_{n_1 + n_2})_+
+  \,.
+$$
+
+Hence the pointed analog of prop. \ref{PushoutProductInTopCGSendsCofCofToCof} holds and therefore so does the pointed analog of the conclusion in prop. \ref{HomProductAdjunctionForCofibrantObjectInTopCGIsQuillen}.
+
 
 =--
 
@@ -7361,15 +7503,15 @@ To see that the vertical composite is indeed a fibration, notice that, by the [[
 $$
   \array{
     Path(f)
-     &\stackrel{}{\longrightarrow}& 
+     &\underoverset{\in Fib}{(f,id)^\ast(p_1,p_0)}{\longrightarrow}& 
      X \times Y 
-     &\stackrel{p_1}{\to}& 
+     &\stackrel{pr_1}{\to}& 
      X
      \\
      \downarrow && \downarrow^{\mathrlap{(f, Id)}} && \downarrow^\mathrlap{f}
      \\
-     Y^I &\stackrel{(p_1,p_0) }{\longrightarrow}&
-     Y \times Y &\stackrel{p_1}{\longrightarrow}&
+     Y^I &\overset{(p_1,p_0) \in Fib }{\longrightarrow}&
+     Y \times Y &\stackrel{pr_1}{\longrightarrow}&
      Y
      \\
      {}^{\mathllap{p_0}}\downarrow & \swarrow_{\mathrlap{p_2}}
@@ -7385,13 +7527,16 @@ Similarly, since $X$ is fibrant, also the [[projection]] map $X \times Y \to Y$ 
 Since the vertical composite is thereby exhibited as the composite of two fibrations
 
 $$
-   Path(f) \to X \times Y
-    \stackrel{p_2 \circ (f ,Id)}{\longrightarrow}
+   Path(f) 
+     \overset{(f,id)^\ast(p_1,p_0)}{\longrightarrow} 
+   X \times Y
+     \stackrel{pr_2 \circ (f ,Id) = pr_2}{\longrightarrow}
   Y
   \,,
 $$
 
 it is itself a fibration.
+
 
 
 Next, by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}, both projections $p_i \colon Path(X)\to X$ are weak equivalences,  By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $Path(f) \to X$ fitting into this [[pasting]] diagram
