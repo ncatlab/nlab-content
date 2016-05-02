@@ -210,6 +210,7 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 * In the context of [[fiber integration]] in [[generalized cohomology]], the analog of a measure is an [[orientation in generalized cohomology]].
 
+* The [[density of a subset]] can be considered as taking the measure of sets normally considered to be not well behaved in measure theory, such as infinite subsets of the natural numbers.
 
 category: analysis
 
