@@ -54,7 +54,7 @@ The following theorem is known as the **[[comparison lemma]]**.
 +-- {: .num_theorem}
 ###### Theorem 
 
-Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then pair of [[adjoint functor]]s
+Let $(C,J)$ be a (possibly [[large site|large]]) [[site]] with $C$ a [[locally small category]] and let $f : D \to C$ be a [[small category|small]] [dense sub-site](#DenseSubSite). Then the pair of [[adjoint functor]]s
 
 $$
   (f^* \dashv f_*) 
