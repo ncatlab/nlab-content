@@ -1,0 +1,31 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+An [[action]]
+
+$$
+  \rho : G \times X \to X
+$$
+
+of a group $G$ on a set $X$ is **regular** if it is both [[transitive action|transitive]] and [[free action|free]], that is, if for any pair of elements $x,y \in X$, there is _exactly one_ group element $g \in G$ such that $g x = y$.
+
+## Examples
+
+* The action of $G$ on itself by multiplication $\cdot : G \times G \to G$ (on the left or on the right) is a regular action, called the (left or right) [[regular representation]] of $G$.
+
+* A (oriented) [[combinatorial map]] can be viewed as a transitive action of the (oriented) [[cartographic group]], which is regular just in case it represents a _regular map_ ([Siran 2006](#SiranSurvey)).  For example, the five [[Platonic solids]] may be represented as regular combinatorial maps.
+
+## Related concepts
+
+* [[free action]]
+* [[transitive action]]
+* [[torsor]]
+
+## References
+
+* {#SiranSurvey} Jozef Siran, "Regular Maps on a Given Surface: A Survey", _Topics in Discrete Mathematics_, 2006. ([pdf](http://dfgm.math.msu.su/files/papers-sym/regular%20maps%20on%20a%20given%20surface.pdf))
+
+[[!redirects regular actions]]
