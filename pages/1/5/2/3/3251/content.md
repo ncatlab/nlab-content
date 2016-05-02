@@ -35,7 +35,7 @@ The definition of _[[G-spectrum]]_ is typically given in generalization of the d
 
 A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of [[countable|countably]] many copies of a given [[set]] of (finite dimensional? -DMR) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
 
-Each such subspace of $U$ (representation contained in $U$? -DMR) is called an _indexing space_ ([[RO(G)-grading]]). For $V \subset W$ indexing spaces, write $W-V$ for the orthogonal complement of $V$ in $W$. Write $S^V$ for the [[one-point compactification]] of $V$; and for $X$ any (pointed) [[topological space]] write $\Omega^V := [S^V,X]$ for the corresponding (based) sphere space.
+Each such subspace of $U$ (representation contained in $U$? -DMR) is called an _indexing space_ ([[RO(G)-grading]]). For $V \subset W$ indexing spaces, write $W-V$ for the [[orthogonal complement]] of $V$ in $W$. Write $S^V$ for the [[one-point compactification]] of $V$; and for $X$ any (pointed) [[topological space]] write $\Omega^V := [S^V,X]$ for the corresponding (based) sphere space.
 
 A **[[G-space]]** in the following means a [[pointed object|pointed]] [[topological space]] equipped with a continuous [[action]] of the [[topological group]] $G$ that fixes the base point. A  morphism of $G$-spaces is a continuous map that fixes the basepoints and is $G$-equivariant.
 
