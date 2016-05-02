@@ -128,6 +128,7 @@ etc.
 
 
 ## Examples 
+ {#Examples}
 
 * A group object in [[Set]] is a [[group]].
 * A group object in [[Top]] is a [[topological group]].
