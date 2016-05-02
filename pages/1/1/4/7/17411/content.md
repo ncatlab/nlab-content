@@ -28,6 +28,10 @@ The following overview of elementary mathematics is written by a Lebesgue's stud
 
 * Lucienne F&#233;lix, _The modern aspect of mathematics_, (Rus. transl. &#1069;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1072;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1072; &#1074; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1084; &#1080;&#1079;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080;, 1967)
 
+Soviet mathematicains (A. D. Aleksandrov, complex analyst Markushevich and Hinchin) wrote in 1950s an ambitious 5-volume work "Encyclopaedia of elementary mathematics" (basic calculus included; geometry is volumes 4 and 5, redacated by Yaglom and Boltianskii):
+
+* &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;&#1086;&#1074;, &#1052;&#1072;&#1088;&#1091;&#1082;&#1091;&#1096;&#1077;&#1074;&#1080;&#1095;, &#1061;&#1080;&#1085;&#1095;&#1080;&#1085;, _&#1069;&#1085;&#1094;&#1080;&#1082;&#1083;&#1086;&#1087;&#1077;&#1076;&#1080;&#1103; &#1101;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1086;&#1081; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;_ 
+
 ### References on elementary geometry
 
 Here we try to include only mathematically sound references which brought something new or are very influential, pedagogically original or well written. 
