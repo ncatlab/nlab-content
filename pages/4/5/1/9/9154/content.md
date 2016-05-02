@@ -3,14 +3,77 @@
 * table of contents
 {: toc}
 
+
+## Idea
+
+For $V$ a [[vector space]] and $r$ a [[cardinal number]] (generally taken to be a [[natural number]]), the **Grassmannian** $Gr(r,V)$ is the space of all  $r$-[[dimension|dimensional]] [[linear subspaces]] of $V$.
+
 ## Definition
 
-For $V$ a [[vector space]] and $r$ a [[cardinal number]] (generally taken to be a [[natural number]]), the **Grassmannian** $Gr(r,V)$ is the space of all linear [[subspaces]] of $V$ of [[dimension]] $r$.
+For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\mathbb{R}^n$. More generally, say that a [[Euclidean space|Euclidean]] [[vector space]] $V$ is an [[inner product space]] such that there exists a [[linear map|linear]] [[isometry]] $V \overset{\simeq}{\to} \mathbb{R}^n$ to $\mathbb{R}^n$ equipped with its canonical inner product. Then write $O(V)$ for the group of linear isometric [[automorphisms]] of $V$. For the following we regard these groups as [[topological groups]] in the canonical way.
+
++-- {: .num_defn}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **Grassmannian** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  Gr_n(k) \coloneqq O(k)/(O(n) \times O(k-n))
+  \,,
+$$
+
+where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$.
+
+Generally, for $W \subset V$ an inclusion of [[Euclidean space|Euclidean]] vector spaces, then 
+
+$$
+  Gr_W(V) \coloneqq O(V)/(O(W)\times O(V-W))
+  \,,
+$$
+
+where $V-W$ denotes the [[orthogonal complement]] of $W$ in $V$. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(n)\times O(k-n)$. In this way the underlying set of $Gr_n(k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$. The realization as a [[coset]] as above serves to euqip this set naturally with a [[topology|topological space]].
+
+=--
+
+
+## Properties
+
+### Relation to Stiefel manifolds and universal bundles
+
+Similarly, the _[[Stiefel manifold]]_ is the [[coset]]
+
+$$
+  V_n(k) \coloneqq O(k)/O(n)
+  \,.
+$$
+
+The [[quotient]] [[projection]]
+
+$$
+  V_{k-n}(k)\longrightarrow Gr_n(k)
+$$
+
+is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
+
+
+
+## Examples
 
 Special cases:
+
 * For $r = 0$, this is the [[point]].
+
 * For $r = 1$, this is the [[projective space]] of $V$.
+
 * For $r = \dim V$, this is the point again.
+
 * For $r \gt \dim V$, this is the [[empty space]].
 
 If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines an [[isomorphism]] between $Gr(r,V)$ and $Gr(\dim V - r,V)$.
