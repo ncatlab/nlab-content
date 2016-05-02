@@ -15,7 +15,7 @@
 
 ## Idea
 
-The [[Cartesian product]] in the [[category]] of [[groups]] if often called the _direct product_ of groups. For [[abelian groups]] and a [[finite number]] of factors, this is also the [[direct sum]] of groups.
+The [[Cartesian product]] in the [[category]] of [[groups]] is often called the _direct product_ of groups. For [[abelian groups]] and a [[finite number]] of factors, this is also the [[direct sum]] of groups.
 
 ## Related concepts
 
