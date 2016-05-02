@@ -71,11 +71,31 @@ See at _[[∞-action]]_ for more on this definition. See at _[[higher Klein geom
 
 ## Properties 
 
+### For normal subgroups
+
 The coset inherits the structure of a group if $H$ is a [[normal subgroup]].
 
 Unless $G$ is abelian, considering both left and right coset spaces provide different information. 
 
-The natural projection $G\to G/H$, mapping the element $g$ to the element $g H$, realizes $G$ as an $H$-[[principal bundle]] over $G/H$. We therefore have a [[homotopy pullback]]
+### Quotient maps
+
++-- {: .num_prop #QuotientProjectionForCompactLieSubgroupIsPrincipal}
+###### Proposition
+
+For $G$ a [[Lie group]] and $H \subset G$ a [[compact Lie group|compact]] [[subgroup]], then the [[coset]] [[quotient]] [[projection]]
+
+$$
+  G \longrightarrow G/H
+$$
+
+is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).  
+
+=--
+
+originally due to ([Samelson 41](#Samelson41)). See e.g. Cohen "The topology of fiber bundles".
+
+
+The natural projection $G\to G/H$, mapping the element $g$ to the element $g H$, realizes $G$ as an $H$-[[principal bundle]] over $G/H$ (...). We therefore have a [[homotopy pullback]]
 $$
   \array{
    G & \to&* 
@@ -133,7 +153,7 @@ $$
   \,.
 $$
 
-If this is indeed a [[homotopy fiber sequence]], then it induces the corresponding [[long exact sequence of homotopy groups]]
+When $G/K \to G/H$ is a [[Serre fibration]] (so that this is indeed a [[homotopy fiber sequence]] with respect to the [[classical model structure on topological spaces]]) then it induces the corresponding [[long exact sequence of homotopy groups]]
 
 $$
   \cdots
@@ -158,7 +178,7 @@ $$
   \,.
 $$
 
-Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and hence there is a [[long exact sequence of homotopy groups]] of the form 
+Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and by prop. \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the quotient map is a [[Serre fibration]]. Hence there is a [[long exact sequence of homotopy groups]] of the form 
 
 $$
   \cdots
@@ -199,6 +219,10 @@ $$
 * [[Klein geometry]]
 
 * [[WZW model]]
+
+## References
+
+* {#Samelson41} H. Samelson, _Beitrage zur Topologie der Gruppenmannigfaltigkeiten_, Ann. of Math. 2, 42, (1941), 1091 - 1137.
 
 [[!redirects coset]]
 [[!redirects cosets]]
