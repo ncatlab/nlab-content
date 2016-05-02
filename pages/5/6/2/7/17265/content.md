@@ -2456,7 +2456,7 @@ $$
   \array{
     && X_1 \times X_2
     \\
-    & {}^{\mathllap{(i_1,id)}}\swarrow && \searrow^{\mathrlap{id,i_2}}
+    & {}^{\mathllap{(i_1,id)}}\swarrow && \searrow^{\mathrlap{(id,i_2)}}
     \\
     Y_1 \times X_2 && (po) && X_1 \times Y_2
     \\
@@ -2506,12 +2506,47 @@ is the inclusion of two adjacent edges of a square into the square.
 ###### Example
 
 The pushout product with an [[initial object|initial]] morphism
-is just the ordinary [[Cartesian product]] with the given object:
+is just the ordinary [[Cartesian product]] functor
 
 $$
   (\emptyset \to X) \Box (-)
     \simeq
   X \times (-)
+  \,,
+$$
+
+i.e.
+
+$$
+  (\emptyset \to X) \Box (A \overset{f}{\to} B)
+  \simeq
+  (X\times A \overset{X \times f}{\longrightarrow} X \times B ) 
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[product topological space]] with the [[empty set|empty]] space is the empty space, hence the map $\emptyset \times A \overset{(id,f)}{\longrightarrow} \emptyset \times B$ is an isomorphism, and so the pushout in the pushout product is $X \times A$. From this one reads off the universal map in question to be $X \times  f$:
+
+$$
+  \array{
+    && \emptyset \times A
+    \\
+    & {}^{\mathllap{}}\swarrow && \searrow^{\mathrlap{\simeq}}
+    \\
+    X \times A && (po) && \emptyset \times B
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && X \times A
+    \\
+    && \downarrow^{\mathrlap{((id, f), \exists !)}}
+    \\
+    && X \times B
+  }
   \,.
 $$
 
