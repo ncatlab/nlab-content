@@ -2286,7 +2286,7 @@ $$
   J_{Top} \colon \{ D^n \overset{j_n}{\hookrightarrow} D^n \times I\}
 $$
 
-the generating cofibrations (def. \ref{TopologicalGeneratingCofibrations}) and generating acyclic cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $(Top_{cg})_{Quillen}$ (def. \ref{ModelStructureOnTopcg}), then
+the generating cofibrations (def. \ref{TopologicalGeneratingCofibrations}) and generating acyclic cofibrations (def. \ref{TopologicalGeneratingAcyclicCofibrations}) of $(Top_{cg})_{Quillen}$ (theorem \ref{ModelStructureOnTopcg}), then
 their [[pushout-products]] (def. \ref{PushoutProduct}) are
 
 $$
@@ -2303,12 +2303,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[homeomorphism]], as n-cubes and their boundaries. For the idea of the proof, consider the situation in low dimensions, where one readily sees that
+To see this, it is profitable to model [[n-disks]] and [[n-spheres]], up to [[homeomorphism]], as $n$-cubes $D^\n \simeq [0,1]^n \subset \mathbb{R}^n$ and their boundaries $S^{n-1} \simeq \partial [0,1]^n$ . For the idea of the proof, consider the situation in low dimensions, where one readily sees pictorially that
 
 $$
   i_1 \Box i_1
   \;\colon\;
-    (\; = \;\cup\; \vert\vert\;) 
+    \left(\;\; = \;\;\cup\;\; \vert\vert\;\;\right) 
     \hookrightarrow
     \Box
 $$
@@ -2318,16 +2318,15 @@ and
 $$
   i_1 \Box j_0
   \;\colon\;
-    (\; = \;\cup\; \vert \; ) 
+    \left(\;\; = \;\;\cup\;\; \vert \;\; \right) 
     \hookrightarrow
     \Box
   \,.
 $$
 
-Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1.
+Generally, $D^n$ may be represented as the space of $n$-tuples of elements in $[0,1]$, and $S^n$ as the suspace of tuples for which at least one of the coordinates is equal to 0 or to 1. 
 
 Accordingly, $S^{n_1} \times D^{n_2} \hookrightarrow D^{n_1 + n_2}$ is the subspace of $(n_1+n_2)$-tuples, such that at least one of the first $n_1$ coordinates is equal to 0 or 1, while $D^{n_1} \times S^{n_2} \hookrightarrow D^{n_1+ n_2}$ is the subspace of $(n_1 + n_2)$-tuples such that east least one of the last $n_2$ coordinates is equal to 0 or to 1. Therefore
-
 
 $$
   S^{n_1} \times D^{n_2} \cup D^{n_1} \times S^{n_2} \simeq S^{n_1 + n_2}
@@ -2395,7 +2394,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By the [[cartesian closed category|cartesian closure]] of $Top_{cg}$:
+We claim that by the [[cartesian closed category|cartesian closure]] of $Top_{cg}$, and carefully collecting terms, one finds a natural bijection between [[commuting squares]] and their [[lifts]] as follows:
 
 $$
   \array{
@@ -2405,8 +2404,118 @@ $$
     \\
     P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
   }
-  \;\;\;\;
+  \;\;\;\;\;\;\;
   \leftrightarrow
+  \;\;\;\;\;\;\;
+  \array{
+    Q \times B \underset{Q \times A}{\sqcup} P \times A
+    &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
+    X
+    \\
+    {}^{\mathllap{i_1 \Box i_2}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
+  }
+  \,,
+$$
+
+where the tilde denotes product/hom-[[adjuncts]], for instance
+
+$$
+  \frac{
+    P \overset{g_1}{\longrightarrow} Y^B
+  }{
+    P \times B \overset{\tilde g_1}{\longrightarrow} Y
+  }
+$$
+
+etc. 
+
+To see this in more detail, observe that both squares above each represent two squares from the two components into the fiber product and out of the pushout, respectively, as well as one more square exhibiting the compatibility condition on these components:
+
+$$
+ \begin{aligned}
+   &
+   \;\;\;\; 
+  \array{
+    Q &\overset{f}{\longrightarrow}& X^B
+    \\
+    {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^{\Box i_2}}}
+    \\
+    P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
+  }
+   \\
+  \simeq &
+   \;\;\;\;
+   \left\{
+    \;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^B}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& Y^B
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{X^{i_2}}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& X^A
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+  \array{
+    P &\overset{g_2}{\longrightarrow}& X^A
+    \\
+    {}^{\mathllap{g_1}}\downarrow && \downarrow^{\mathrlap{p^A}}
+    \\
+    Y^B &\underset{Y^{i_2}}{\longrightarrow}& Y^A
+  }
+  \;\;\;\;\;
+  \right\}
+  \\
+  \leftrightarrow
+  &
+  \;\;\;\;
+  \left\{
+    \;\;\;\;\;
+    \array{
+      Q \times B &\overset{\tilde f}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_2}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      Q \times A &\overset{(id,i_2)}{\longrightarrow}& Q \times B
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{\tilde f}}
+      \\
+      P \times A &\underset{\tilde g_2}{\longrightarrow}& X
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      P \times A &\overset{\tilde g_2}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(id,i_2)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_1}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+  \right\}
+  \\
+  \simeq
+  &
   \;\;\;\;
   \array{
     Q \times B \underset{Q \times A}{\sqcup} P \times A
@@ -2417,8 +2526,10 @@ $$
     \\
     P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
   }
+  \end{aligned}
   \,.
 $$
+
 
 =--
 
