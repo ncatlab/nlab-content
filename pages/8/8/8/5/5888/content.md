@@ -102,6 +102,13 @@ A [[localic geometric morphism]] is atomic precisely if it is an [[etale geometr
 
 This appears as ([Johnstone, lemma 3.5.4 (iii)](#Johnstone)).
 
++-- {: .num_prop}
+###### Proposition
+
+Every [[etale geometric morphism]] is atomic.
+
+=--
+
 ### Decomposition of atomic toposes
 
 Atomic toposes decompose as [[disjoint unions]] of [[connected topos|connected]] atomic toposes. Connected atomic toposes with a [[point of a topos]] are the [[classifying toposes]] of [[localic groups]].
@@ -110,19 +117,19 @@ An example of a connected atomic topos without a [[point of a topos]] is given i
 
 ## Examples
 
-+-- {: .num_prop}
-###### Proposition
+*  A [[category of presheaves]] $Set^{\mathcal{C}^{op}}$ is atomic precisely iff $\mathcal{C}$ is a groupoid (cf. [Barr-Diaconescu (1980)](#Barr-Diaconescu80)).
 
-Every [[etale geometric morphism]] is atomic.
+* Another example of an atomic Grothendieck topos is the [[Schanuel topos]].
 
-=--
 
 ## References
 
-Section C3.5 of
+* {#Barr-Diaconescu80}[[Michael Barr]], [[Radu Diaconescu]], _Atomic Toposes_ , JPAA **17** (1980) pp.1-24.
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* [[Olivia Caramello]], _Atomic toposes and countable categoricity_ , Appl. Cat. Struc. **20** no. 4 (2012) pp.379-391. ([arXiv:0811.3547](http://arxiv.org/abs/0811.3547))
+
+* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. 2_ , Oxford UP 2002. (section C3.5, pp.684-695)
+ 
 
 [[!redirects atomic geometric morphisms]]
 
