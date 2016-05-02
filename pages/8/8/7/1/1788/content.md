@@ -1,9 +1,97 @@
 $$
+ \begin{aligned}
+   &
+   \;\;\;\; 
   \array{
-    &  i_1 \Box i_2 & \text{has LLP against} & p 
+    Q &\overset{f}{\longrightarrow}& X^B
     \\
-    \Leftrightarrow & i_1 &  \text{has LLP against} & p^{\Box i_2}
+    {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^{\Box i_2}}}
     \\
-    \Leftrightarrow & i_2 &  \text{has LLP against} & p^{\Box i_1}
+    P &\underset{(g_1,g_2)}{\longrightarrow}& Y^B \underset{Y^A}{\times} X^A
   }
+   \\
+  \simeq &
+   \;\;\;\;
+   \left\{
+    \;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{p^B}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& Y^B
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+    \array{
+      Q &\overset{f}{\longrightarrow}& X^B
+      \\
+      {}^{\mathllap{i_1}}\downarrow && \downarrow^{\mathrlap{X^{i_2}}}
+      \\
+      P &\underset{g_1}{\longrightarrow}& X^A
+    }
+  \;\;\;\;\;
+  \,,
+  \;\;\;\;\;
+  \array{
+    P &\overset{g_2}{\longrightarrow}& X^A
+    \\
+    {}^{\mathllap{g_1}}\downarrow && \downarrow^{\mathrlap{p^A}}
+    \\
+    Y^B &\underset{Y^{i_2}}{\longrightarrow}& Y^A
+  }
+  \;\;\;\;\;
+  \right\}
+  \\
+  \leftrightarrow
+  \;\;\;\;
+  &
+  \;\;\;\;
+  \left\{
+    \;\;\;\;\;
+    \array{
+      Q \times B &\overset{\tilde f}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_2}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      Q \times A &\overset{(id,i_2)}{\longrightarrow}& Q \times B
+      \\
+      {}^{\mathllap{(i_1,id)}}\downarrow && \downarrow^{\mathrlap{\tilde f}}
+      \\
+      P \times A &\underset{\tilde g_2}{\longrightarrow}& X
+    }
+    \;\;\;\;\;
+    \,,
+    \;\;\;\;\;
+    \array{
+      P \times A &\overset{\tilde g_2}{\longrightarrow}& X
+      \\
+      {}^{\mathllap{(id,i_2)}}\downarrow && \downarrow^{\mathrlap{p}}
+      \\
+      P \times B &\underset{\tilde g_1}{\longrightarrow}& Y
+    }
+    \;\;\;\;\;
+  \right\}
+  \\
+  \simeq
+  &
+  \;\;\;\;
+  \array{
+    Q \times B \underset{Q \times A}{\sqcup} P \times A
+    &\overset{(\tilde f, \tilde g_2)}{\longrightarrow}&
+    X
+    \\
+    {}^{\mathllap{i_1 \Box i_2}}\downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    P \times B & \underset{\tilde g_1}{\longrightarrow} & Y
+  }
+  \end{aligned}
 $$
+
