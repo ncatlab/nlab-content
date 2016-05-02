@@ -37,7 +37,7 @@ We take [[Top]] to be the category of [[k-space]]s in the following.
 +-- {: .num_defn #WellPointedSimplicialTopologicalGroup}
 ###### Definition
 
-A simplicial topological group $G$ is called **well-pointed** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibration]]s.
+A simplicial topological group $G$ is called **well-pointed** if for $*$ the trivial simplicial topological group and $i : * \to G$ the unique [[homomorphism]], all components $i_n : * \to G_n$ are [[closed cofibrations]].
 
 =--
 
