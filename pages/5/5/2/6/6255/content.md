@@ -8,7 +8,9 @@
 =--
 =--
 
-* tic
+
+#Contents#
+* table of contents
 {: toc}
 
 
@@ -119,7 +121,7 @@ Thus we start with an embedding of $M$ in some Euclidean space,
 say $\iota \colon M \to \mathbb{R}^{n}$. Then $d_{p} \iota \colon
 T_{p} M \to T_{\iota(p)} \mathbb{R}^{n}$ embeds $T_{p} M$ in
 $T_{\iota(p)} \mathbb{R}^{n}$. Using the orthogonal structure on
-$\mathbb{R}^{n}$, we can form the orthogonal complement of $T_{p}
+$\mathbb{R}^{n}$, we can form the [[orthogonal complement]] of $T_{p}
 M$ in $T_{\iota(p)} \mathbb{R}^{n}$. Let us write this as
 $N_{p}$. Then $N_{p}$ is the fibre of the normal bundle of the
 embedding at $p$.
