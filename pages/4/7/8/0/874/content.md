@@ -1,9 +1,11 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Category theory
-+-- {: .hide}
-[[!include category theory - contents]]
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
 =--
 #### Monoidal categories
 +--{: .hide}
@@ -19,20 +21,89 @@
 
 ## Idea
 
-In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]].
+In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set]], the category of [[sets]]. Hence for $S_1$ and $S_2$ two [[sets]], their cartesian product is the set denoted $S_1\times S_2$ whose elements are pairs of elements in $S_1$ and $S_2$, respectively.
 
-More generally, one says _cartesian product_ to mean the  [[product]] in any [[cartesian monoidal category]] and to distinguish it from other [[tensor product]]s that this may carry.
+The abstract concept of such [[products]] generalizes from [[Set]] to any other [[category]] (as a special case of a category-theoretic _[[limit]]_), only that in general products of any given [[objects]] may or may not actually exist in that category. 
 
-For instance one speaks of the cartesian product on [[Cat]] and on [[2Cat]] in contrast to the [[Gray tensor product]].
+(If they all exists, then one one speaks of a [[cartesian monoidal category]]. Especially if the category is also a [[monoidal category]] with respect to some other [[tensor product]], then one says "Cartesian product" to distinguish the two. For instance one speaks of the cartesian product on [[Cat]] and on [[2Cat]] in contrast to the [[Gray tensor product]].) 
+
+A product [[created limit|created]] by the [[forgetful functor]] of a [[concrete category]], especially in [[algebra]], is often called a [[direct product]] (for instance a [[direct product of groups]]).
 
 
 ## Definition 
+ {#Definition}
+
+### In Sets
 
 Given any family $(A_i)_{i:I}$ of sets, the __cartesian product__ $\prod_i A_i$ of the family is the set of all [[functions]] $f$ from the index set $I$ with $f_j$ in $A_j$ for each $j$ in $I$.
 
 As stated, the [[target]] of such a function depends on the argument, which is natural in dependent [[type theory]]; but if you don't like this, then define $\prod_i A_i$ to be the set of those functions $f$ from $I$ to the [[disjoint union]] $\biguplus_i A_i$ such that $f_j \in A_j$ (treating $A_j$ as a [[subset]] of $\biguplus_i A_i$ as usual) for each $j$ in $I$.
 
 In traditional forms of [[set theory]], one can also take the target of $f$ to be the [[union]] $\bigcup_i A_i$ or even the class of all objects (equivalently, leave it unspecified).
+
+### In a general category
+ {#InAGeneraCategory}
+
+Given any [[category]] $\mathcal{C}$, and any set $\{X_i\}_{i \in I}$ of its [[objects]], then the product of all these objects is, if it exists, an object denoted 
+
+$$
+  \underset{i \in I}{\prod} X_i
+  \in 
+  \mathcal{C}
+$$ 
+
+and equipped with [[morphisms]] 
+
+$$
+  p_i \;\colon\; \left(\underset{i \in I}{\prod} X_i\right)
+   \longrightarrow 
+  X_i
+$$
+
+
+(the _[[projections]]_), for each $i \in I$, such that it is [[universal property|universal with this property]], i.e. such that given any other object $Q \in \mathcal{C}$ with morphisms 
+
+$$
+  Q \overset{f_i}{\longrightarrow}  X_i
+$$
+
+for $i \in I$, then there is a _unique_ morphism 
+
+$$
+  (f_i)_{i \in I}
+  \;\colon\; 
+  Q \longrightarrow \underset{i \in I}{\prod} X_i
+$$
+
+which factors the $f_i$ through the $p_i$, i.e. such that all these [[commuting diagram|diagrams commute]]:
+
+$$
+  \array{
+    Q 
+    \\  
+    {}^{\mathllap{(f_i)_{i \in I}}}\downarrow & \searrow^{\mathrlap{f_i}}
+    \\
+    \underset{i \in I}{\prod} X_i &\underset{p_i}{\longrightarrow}& X_i
+  }
+$$
+
+for all $i \in I$.
+
+
+The case of a binary products it is also denoted by "$(-)\times(-)$":
+
+$$
+  \array{
+    && Q
+    \\
+    & \swarrow &\downarrow^{\mathrlap{\exists !}}& \searrow
+    \\
+    X_1 &\overset{p_1}{\longleftarrow}& X_1 \times X_2 &\overset{p_2}{\longrightarrow}& X_2
+  }
+  \,.
+$$
+
+
 
 
 ## Examples
@@ -51,9 +122,10 @@ Given a set $A$, the cartesian product of the unary family $(A)$ may be identifi
 
 The cartesian product of the empty family $()$ is the [[point]], a set whose only element is the __[[empty list]]__ $()$; we often call this set $1$ (or $\pt$, when we\'re Urs) and write its element as $*$.
 
+
 ### Further examples
 
-* In categories of algebras, products are constructed in the "obvious" manner; see for example [[direct product group]]. 
+* In categories of [[algebras]], products are constructed in the "obvious" manner; see for example [[direct product group]]. 
 
 For [[algebraic categories]] like [[Grp]], where the objects are sets equipped with (globally defined) specified operations that satisfy specified universally quantified identities, products are always constructed in the way you'd expect, viz. by taking products at the level of the underlying sets and endowing them with operations defined in the evident pointwise fashion, just like the way it works in $Grp$. More commentary on this in more general contexts will be given below.  
 
@@ -61,9 +133,9 @@ For [[algebraic categories]] like [[Grp]], where the objects are sets equipped w
 
 * In categories of topological type, products are again constructed in a common sense manner; see for instance [[product topological space]] for a prototype. 
 
-For [[topological categories]], which include examples like [[Top]] and [[Preord]], products are always constructed in the way one expects, by taking products at the level of the underlying sets and endowing them with an initial lift structure; e.g., in the case of $Top$, the smallest or initial topology for which the projection maps are continuous. 
+For [[topological categories]], which include examples like [[Top]] and [[Preord]], products (e.g. [[product topological spaces]]) are always constructed in the way one expects, by taking products at the level of the underlying sets and endowing them with an initial lift structure; e.g., in the case of $Top$, the smallest or initial topology for which the projection maps are continuous. 
 
-This principle continues to hold even for *infinitary* products, where the correct structure might not be obvious without guidance from categorical considerations. For example, for topological spaces, for an infinite product $\prod_{i \in I} X_i$, we use the product topology, and not say the [[box topology]] which might be the first thing one would try. 
+This principle continues to hold even for *infinitary* products, where the correct structure might not be obvious without guidance from categorical considerations. For example, for topological spaces, for an infinite product $\prod_{i \in I} X_i$, we use the [[product topology]], and not say the [[box topology]] which might be the first thing one would try. 
 
 * In any [[presheaf category]], i.e., a category of type $Set^C$ where $C$ is a [[small category]], products are calculated in obvious pointwise fashion, where $(F \times G)(c) = F(c) \times G(c)$ with the pointwise product projection maps. This even works if $C$ is [[large category|large]] (making $Set^C$ 'very large'). 
 
@@ -93,8 +165,21 @@ This principle continues to hold even for *infinitary* products, where the corre
 
 * In the category [[SupLat]] of [[sup-lattices]], arbitrary products coincide with coproducts (and in fact the functor $X \mapsto X^{op}$ that takes a sup-lattice to its posetal opposite is part of a perfect duality $SupLat^{op} \to SupLat$, taking a sup-lattice map $f: X \to Y$ to $g^{op}: Y^{op} \to X^{op}$ where $f \dashv g$). This example descends to $Rel$ itself, so we conclude that products in $Rel$ are actually given by coproducts in $Rel$ which in turn are given by coproducts in $Set$. 
 
+See also
 
-## Foundational status
+* [[product of simplices]]
+
+
+## Properties
+
+### Relation to type theory
+
+Under the [[relation between category theory and type theory]] products in a category correspond to [[product types]] in [[type theory]].
+
+[[!include product natural deduction - table]]
+
+
+### Foundational status
 
 In [[material set theory]], the existence of binary cartesian products follows from the [[axiom of pairing]] and the axiom of [[weak replacement]] (which is very weak).  In [[structural set theory]], their existence generally must be stated as an axiom: the __axiom of products__.  See [[ordered pair]] for more details.
 
@@ -102,6 +187,25 @@ In [[material set theory]], the existence of binary cartesian products follows f
 ## Related entries
 
 * [[cartesian monoidal category]]
+
+* [[finite product]]
+
+* [[tensor product]]
+
+* [[sum]]
+
+* [[external product]]
+
+* [[restricted product]]
+
+* [[product type]]
+
+* [[base change]]
+
+  * [[dependent sum]], [[dependent product]]
+
+  * [[dependent sum type]], [[dependent product type]]
+
 
 category: foundational axiom
 
@@ -117,4 +221,10 @@ category: foundational axiom
 [[!redirects axiom of cartesian products]]
 [[!redirects axiom of Cartesian products]]
 [[!redirects axiom of products]]
+
+[[!redirects product]]
+[[!redirects products]]
+
+[[!redirects finite product]]
+[[!redirects finite products]]
 
