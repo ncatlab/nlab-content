@@ -118,7 +118,7 @@ for the $\mathbb{R}$-[[linear subspace]] of Hamiltonian vector fields among all 
 +-- {: .num_remark}
 ###### Remark
 
-When $\omega$ is symplectic then, evidently, there is a unique Hamiltonian vector field, def. \ref{HamiltonianVectorField}, associated with every Hamiltonian, i.e. every smooth function is then the Hamiltonian of precisely one Hamiltonian vector field (but two different Hamiltonians may still have the same Hamiltonian vector field uniquely associated with them). As far as [[prequantum geometry]] is concerned, this is all that the non-degeneracy condition that makes a closed 2-form be symplectic is for. But we will see that the definitions of [[Poisson brackets]] and of [[quantomorphism groups]] directly generalize also to the presymplectic situation, simply by considering not just Hamiltonian fuctions but pairs of a Hamiltonian vector field and a compatible Hamiltonian.
+When $\omega$ is symplectic then, evidently, there is a unique Hamiltonian vector field, def. \ref{HamiltonianVectorField}, associated with every Hamiltonian, i.e. every smooth function is then the Hamiltonian of precisely one Hamiltonian vector field (but two different Hamiltonians may still have the same Hamiltonian vector field uniquely associated with them). As far as [[prequantum geometry]] is concerned, this is all that the non-degeneracy condition that makes a closed 2-form be symplectic is for. But we will see that the definitions of [[Poisson brackets]] and of [[quantomorphism groups]] directly generalize also to the presymplectic situation, simply by considering not just Hamiltonian functions but pairs of a Hamiltonian vector field and a compatible Hamiltonian.
 
 =--
 
