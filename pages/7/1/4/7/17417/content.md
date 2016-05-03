@@ -42,7 +42,9 @@ Since $g*y = y$ for all $y \in X$, therefore $g = 1$ by the assumption that $G$ 
 
 ##In homotopy type theory
 
-Since doing [representation theory](representation+theory#in_homotopy_type_theory) corresponds to working in the context of a [[delooped group]] in [[homotopy type theory]], the regularity of an action is naturally expressed there. Transitivity ensures that all the points in the homotopy quotient are connected by equivalences, while freeness means that the space of equivalences between two points is itself contractible. Hence if $\ast: \mathbf{B} G \vdash X(\ast): Type$ corresponds to a regular action, then the quotient $\sum_{\ast: \mathbf{B} G} X(\ast)$ is contractible.
+Since doing group [representation theory](representation+theory#in_homotopy_type_theory) corresponds to working in the context of a [[delooped group]] in [[homotopy type theory]], the regularity of an action is naturally expressed there. Transitivity ensures that all the points in the homotopy quotient are connected by equivalences, while freeness means that the space of equivalences between two points is itself contractible. Hence if $\ast: \mathbf{B} G \vdash X(\ast): Type$ corresponds to a regular action, then the quotient $\sum_{\ast: \mathbf{B} G} X(\ast)$ is contractible.
+
+Restriction to 1-groups is unnecessary here, and we may speak of a regular [[infinity-action]] by an [[infinity-group]] as one with contractible homotopy quotient.
 
 ## Related concepts
 
