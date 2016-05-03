@@ -37,7 +37,7 @@ $\,$
 
 Lecture notes.
 
-_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_
+_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-P.pdf))
 
 _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_
 
