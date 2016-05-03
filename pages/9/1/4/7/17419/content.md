@@ -30,3 +30,6 @@ The [[Cartesian product]] in the [[category]] of [[groups]] is often called the 
 [[!redirects product group]]
 [[!redirects product groups]]
 
+
+[[!redirects direct product of groups]]
+[[!redirects direct products of groups]]
