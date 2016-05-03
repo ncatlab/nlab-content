@@ -20,6 +20,8 @@ Just as linear logic (with the [[exchange rule]], but not contraction or weakeni
 An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.422-8. ([doi](http://doi.org/10.1007/BF01084083))
  {#Mints}
 
+* Peter W. O'Hearn and David J. Pym. The Logic of Bunched Implications. _Bulletin of Symbolic Logic_ 5(2):215-244. ([pdf](http://www.lsv.ens-cachan.fr/~demri/OHearnPym99.pdf)) ([doi](https://dx.doi.org/10.2307%2F421090))
+
 [[!redirects relevance logics]]
 [[!redirects relevant logic]]
 [[!redirects relevant logics]]
