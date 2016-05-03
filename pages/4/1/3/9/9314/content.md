@@ -140,3 +140,10 @@ This is a traditional description of the [[associated bundle]] in question.
 
 [[!redirects associated bundles]]
 
+
+## References
+
+* [[Norman Steenrod]], _The topology of fibre bundles_, Princeton Mathematical Series __14__, 1951. viii+224 pp. [MR39258](http://www.ams.org/mathscinet-getitem?mr=39258); reprinted 1994 
+
+* [[Dale Husemöller]], _Fibre bundles_, McGraw-Hill 1966 (300 p.); Springer Graduate Texts in Math. __20__, 2nd ed. 1975 (327 p.), 3rd. ed. 1994 (353 p.) 
+
