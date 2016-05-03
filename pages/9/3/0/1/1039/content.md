@@ -21,7 +21,9 @@
 
 A [[topological space]] $X$ is **contractible** if the canonical map $X \to \ast$ is a [[homotopy equivalence]]. It is **weakly contractible** is this map is a [[weak homotopy equivalence]], hence if all [[homotopy groups]] of $X$ are trivial.
 
-An [[∞-groupoid]] is **weakly contractible** if it is [[weak equivalence|weakly equivalent]] to the [[point]].
+Where the [[Whitehead theorem]] does not apply, we may find examples of weakly contractible but not contractible spaces, such as the [double comb space](http://topospaces.subwiki.org/wiki/Double_comb_space) in [[Top]].
+
+Since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly equivalent to the point is the same as there being a contraction. So an [[∞-groupoid]] is **weakly contractible** if and only if it is **contractible**.
 
 $$
   (C \;\text{is weakly contractible}) \Leftrightarrow
@@ -36,10 +38,6 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 * an $\infty$-groupoid is **(-1)-[[truncated]]** (is a [[(-1)-groupoid]]) if it is either empty or equivalent to the point;
 
 * an $\infty$-groupoid is **(-2)-[[truncated]]** (is a [[(-2)-groupoid]]) if it is equivalent to the point.
-
-Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly equivalent to the point is the same as there being a contraction.
-
-
 
 
 ## Related concepts
