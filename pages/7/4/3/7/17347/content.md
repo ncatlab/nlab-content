@@ -3310,7 +3310,7 @@ Here we first concentrate on its real avatar, the [[Thom spectrum]] [[MO]]. The 
 **Literature.** ([Kochman 96, chapter I and sections II.2, II6](Kochman96)). A quick efficient account is in ([Malkiewich 11](#Malkiewich11)). See also ([Aguilar-Gitler-Prieto 02, section 11](#AguilarGitlerPrieto02)).
 
 
-#### Classifying spaces, $G$-Structure and Bordism
+#### Classifying spaces and $G$-Structure 
  {#ClassifyingSpaces}
 
 **Idea.** Every [[manifold]] $X$ of [[dimension]] $n$ carries a canonical [[vector bundle]] of [[rank]] $n$: its [[tangent bundle]]. There is a [[universal vector bundle]] of rank $n$, of which all others arise by [[pullback]], up to [[isomorphism]]. The base space of this universal bundle is hence called the [[classifying space]] and denoted $B GL(n) \simeq B O(n)$ (for $O(n)$ the [[orthogonal group]]). This may be realized as the [[homotopy type]] of a [[direct limit]] of [[Grassmannian manifolds]]. In particular the tangent bundle of a manifold $X$ is classified by a map $X \longrightarrow B O(n)$, unique up to homotopy. For $G$ a [[subgroup]] of $O(n)$, then a lift of this map through the canonical map $B G \longrightarrow B O(n)$ of classifying spaces is a _[[G-structure]]_ on $X$
@@ -3331,6 +3331,502 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
 
 **Literature.** ([Kochman 96, 1.3-1.4](#Kochman96))
 
+##### Coset spaces
+
++-- {: .num_example #nSphereAsCosetSpace}
+###### Example
+
+The [[n-spheres]] are [[coset]] spaces of [[orthogonal groups]]:
+
+$$
+  S^n \simeq O(n+1)/O(n)
+  \,.
+$$
+
+The odd-dimensional spheres are also coset spaces of [[unitary groups]]:
+
+$$
+  S^{2n+1}
+  \simeq
+  U(n+1)/U(n)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+Fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+The second statement follows by the same kind of reasoning:
+
+Clearly $U(n+1)$ [[transitive action|acts transitively]] on the unit sphere $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
+
+$$
+  \left(
+    \array{
+      1 & \vec 0
+      \\
+      \vec 0 & A
+    }
+  \right)
+$$
+
+where $A \in U(n)$.
+
+=--
+
+
++-- {: .num_prop #QuotientProjectionForCompactLieGroupActingFreelyOnManifoldIsPrincipa}
+###### Proposition
+
+For $X$ a [[smooth manifold]] and $G$ a [[compact Lie group]] equipped with a [[free action|free]] smooth [[action]] on $X$, then the [[quotient]] [[projection]]
+
+$$
+  X \longrightarrow X/G
+$$
+
+is a $G$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
+
+=--
+
+This is originally due to ([Gleason 50](coset#Gleason50)). See e.g. ([Cohen, theorem 1.3](coset#Cohen))
+
+
++-- {: .num_cor #QuotientProjectionForCompactLieSubgroupIsPrincipal}
+###### Corollary
+
+For $G$ a [[Lie group]] and $H \subset G$ a [[compact Lie group|compact]] [[subgroup]], then the [[coset]] [[quotient]] [[projection]]
+
+$$
+  G \longrightarrow G/H
+$$
+
+is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).  
+
+=--
+
+
++-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
+###### Proposition
+
+For $G$ a [[compact Lie group]] and $K \subset H \subset G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map on [[coset spaces]] 
+
+$$
+  p \;\colon\; G/K \longrightarrow G/H
+$$
+
+is a locally trivial $H/K$-[[fiber bundle]] (hence in particular a [[Serre fibration]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the projection map in question is equivalently
+
+$$
+  G \times_H (H/K) \longrightarrow G/H
+  \,,
+$$
+
+(where on the left we form the [[Cartesian product]] and then divide out the [[diagonal action]] by $H$). This exhibits it as the $H/K$-[[fiber bundle]] [[associated bundle|associated]] to the $H$-[[principal bundle]] of corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}.
+
+=--
+
+##### Stiefel manifolds and Grassmannians
+
+Throughout we work in the [[category]] $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)). For these the [[Cartesian product]] $X \times (-)$ is a [[left adjoint]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CartesianClosureOfTopcg)) and hence preserves [[colimits]].
+
+
++-- {: .num_defn #StiefelManifold}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real [[Stiefel manifold]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  V_n(\mathbb{R}^k) \coloneqq O(k)/O(k-n)
+  \,,
+$$
+
+where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrightarrow O(k)$.
+
+=--
+
++-- {: .num_defn #RealAndComplexGrassmannian}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real [[Grassmannian]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  Gr_n(\mathbb{R}^k) \coloneqq O(k)/(O(n) \times O(k-n))
+  \,,
+$$
+
+where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$ into the [[orthogonal group]].
+
+Similarly the $n$th **complex [[Grassmannian]]** of $\mathbb{C}^k$ is the [[coset]] [[topological space]].
+
+$$
+  Gr_n(\mathbb{C}^k) \coloneqq U(k)/(U(n) \times U(k-n))
+  \,,
+$$
+
+where the [[action]] of the [[product group]] is via its canonical embedding $U(n)\times U(k-n) \hookrightarrow U(n)$ into the [[unitary group]].
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+* $G_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
+
+* $G_1(\mathbb{C}^{n+1}) \simeq \mathbb{C}P^n$ is [[complex projective space]] of [[dimension]] $n$.
+
+
+=--
+
+
++-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
+###### Proposition
+
+For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmannian]] is a $O(n)$-[[principal bundle]]
+
+$$
+  \array{
+    O(n) &\hookrightarrow& V_n(\mathbb{R}^k)
+    \\
+    && \downarrow 
+    \\
+    && Gr_n(\mathbb{R}^k)
+  }
+  \,.
+$$
+
+=--
+
+By prop \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} and prop \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}.
+
++-- {: .num_prop #CWComplexStructure}
+###### Proposition
+
+The real [[Grassmannians]] $Gr_n(\mathbb{R}^k)$ and the complex Grassmannians $Gr_n(\mathbb{C}^k)$ of def. \ref{RealAndComplexGrassmannian} admit the structure of [[CW-complexes]]. Moreover the canonical inclusions
+
+$$
+  Gr_n(\mathbb{R}^k)
+  \hookrightarrow
+  Gr_n(\mathbb{R}^{k+1})
+$$
+
+are subcomplex incusion (hence [[relative cell complex]] inclusions).
+
+Accordingly there is an induced CW-complex structure on the [[classifying space]] (def. \ref{EOn}).
+
+$$
+  B O(n) \simeq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+  \,.
+$$
+
+=--
+
+A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](Grassmannian#Hatcher)). 
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ from def. \ref{StiefelManifold} admits the structure of a [[CW-complex]].
+
+=--
+
+e.g. ([James 59, p. 3](Stiefel+manifold#James59), [James 76, p. 5 with p. 21](Stiefel+manifold#James76), [Blaszczyk 07](Stiefel+manifold#Blaszczyk07))
+
+(And I suppose with that cell structure the inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ are subcomplex inclusions.) 
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(n-1)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+    \longrightarrow
+  O(k)
+    \longrightarrow
+  O(k)/O(n) 
+    = 
+  V_n(\mathbb{R}^k)
+  \,.
+$$
+
+Since the [[orthogonal group]] is a [[compact Lie group]] ([this prop.](orthogonal+group#OrthogonalGroupIsCompact)), by cor. \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq n-1}(O(k))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(O(n))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(V_n(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(\mathbb{R}^k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+
+=--
+
+ 
+
+
+##### Classifying spaces
+
++-- {: .num_defn #EOn}
+###### Definition
+
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions is denoted
+
+$$
+  B O(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+  \,.
+$$
+
+By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
+
+$$
+  E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
+  \,.
+$$
+
+The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there is an induced projection
+
+$$
+  \left(
+  \array{
+    E O(n)
+    \\
+    \downarrow
+    \\
+    B O(n) 
+  }
+  \right)
+  \;\;
+   \simeq
+  \;\;
+  \underset{\longrightarrow}{\lim}_k
+  \left(
+    \array{
+       V_n(\mathbb{R}^k)
+       \\
+       \downarrow
+       \\
+       Gr_n(\mathbb{R}^k)
+    }
+  \right)
+  \,.
+$$
+
+=--
+
+Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that the colimiting bundle is still an $O(n)$-[[principal bundle]]
+
+$$
+  \begin{aligned} 
+    (E O(n))/O(n)
+    &
+    \simeq
+    (\underset{\longrightarrow}{\lim}_k V_{n}(\mathbb{R}^k))/O(n)
+    \\
+    & \simeq 
+    \underset{\longrightarrow}{\lim}_k (V_n(\mathbb{R}^k)/O(n))
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+    \\
+    & \simeq B O(n)
+  \end{aligned}
+  \,.
+$$
+
+As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
+
+
++-- {: .num_cor #EOnIsWeaklyContractible}
+###### Corollary
+
+The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+
+=--
+
++-- {: .num_prop #HomotopyGroupsOfBOnThoseOfOnShifted}
+###### Proposition
+
+The [[homotopy groups]] of the classifying space $B O(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ shifted up in degree: there is an [[isomorphism]]
+
+$$
+  \pi_{\bullet+1}(B O(n))
+  \simeq
+  \pi_\bullet O(n)
+$$
+
+(for homotopy groups based at the canonical basepoint).
+
+=---
+
++-- {: .proof}
+###### Proof
+
+Consider the sequence
+
+$$
+  O(n)
+    \longrightarrow
+  E O(n)
+    \longrightarrow
+  B O(n)
+$$
+
+from def. \ref{EOn}, with $O(n)$ the [[fiber]]. Since (by prop. \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}) the second map is a [[Serre fibration]], this is a [[fiber sequence]] and so it induces a [[long exact sequence of homotopy groups]] of the form
+
+$$
+  \cdots
+    \to
+  \pi_\bullet(O(n))
+    \longrightarrow
+  \pi_\bullet(E O(n))
+    \longrightarrow
+  \pi_\bullet(B O(n))
+    \longrightarrow
+  \pi_{\bullet-1}(O (n))
+   \longrightarrow
+  \pi_{\bullet-1}(E O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+Since by cor. \ref{EOnIsWeaklyContractible} $\pi_\bullet(E O(n))= 0$, exactness of the sequence implies that 
+
+$$
+  \pi_\bullet(B O(n))
+   \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1}(O (n))
+$$
+
+is an isomorphism.
+
+
+=--
+
+
++-- {: .num_prop #HomotopyFiberOfInclusionOfConsecutiveClassifyingSpaces}
+###### Proposition
+
+For $n \in \mathbb{N}$ there is a [[homotopy fiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber))
+
+$$
+  S^n
+    \longrightarrow 
+  B O(n)
+    \longrightarrow
+  B O(n+1)
+  \,.
+$$
+
+This means ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
+
+$$
+  \array{
+     B O(n) &\hookrightarrow& B O(n+1)
+     \\
+     {}^{\mathllap{{weak \, homotopy} \atop equivalence}}\downarrow  & \nearrow_{\mathrlap{Serre \, fib.}}
+     \\
+     \tilde B O(n)
+  }
+$$
+
+such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Take $\tilde B O(n) \coloneqq (E O(n+1))/O(n)$. 
+
+To see that the canonical map $B O(n)\longrightarrow (E O(n+1))/O(n)$ is a [[weak homotopy equivalence]] consider the [[commuting diagram]]
+
+$$
+  \array{
+    O(n) &\overset{id}{\longrightarrow}& O(n)
+    \\
+    \downarrow && \downarrow
+    \\
+    E O(n) &\longrightarrow& E O(n+1)
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(n) &\longrightarrow& (E O(n+1))/O(n)
+  }
+  \,.
+$$
+
+By prop. \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup} both bottom vertical maps are [[Serre fibrations]] and so both vertical sequences are [[fiber sequences]]. By prop. \ref{HomotopyGroupsOfBOnThoseOfOnShifted} part of the induced morphisms of [[long exact sequences of homotopy groups]] looks like this
+
+$$
+  \array{
+    \pi_\bullet(B O(n))
+    &\overset{}{\longrightarrow}&
+    \pi_\bullet( (E O(n+1))/O(n) )
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \pi_{\bullet-1}(O(n))
+    &\overset{=}{\longrightarrow}&
+    \pi_{\bullet-1}(O(n))
+  }
+  \,,
+$$
+
+where the vertical and the bottom morphism are isomorphisms. Hence also the to morphisms is an isomorphism.
+
+That $B O(n)\to \tilde B O(n+1)$ is indeed a [[Serre fibration]] follows again with prop. \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}, which gives the [[fiber sequence]]
+
+$$
+  O(n+1)/O(n)
+    \longrightarrow
+  (E O(n+1))/O(n)
+    \longrightarrow
+  (E O(n+1))/O(n+1)
+  \,.
+$$
+
+The claim then follows since ([this exmpl.](coset#nSphereAsCosetSpace))
+
+$$
+  O(n+1)/O(n) \simeq S^n
+  \,.
+$$
+
+=--
+
 
 #### Thom spectra
  {#ThomSpectra}
@@ -3346,7 +3842,7 @@ Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] natural
 **Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I exaple 1.16](#Schwede12))
 
 
-#### Thom's theorem
+#### Bordism and Thom's theorem
  {#ThomTheorem}
 
 **Idea.** By the [[Pontryagin-Thom collapse]] construction [above](#ThomSpectra), there is an assignment
