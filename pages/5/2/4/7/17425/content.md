@@ -1,0 +1,1 @@
+$Preord$ (or sometimes $PreOrd$) denotes the category of [[preorders]]. 
