@@ -10,10 +10,10 @@ For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\ma
 +-- {: .num_defn #StiefelManifold}
 ###### Definition
 
-For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **Stiefel manifold** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real Stiefel manifold** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
 
 $$
-  V_n(k) \coloneqq O(k)/O(n)
+  V_n(k) \coloneqq O(k)/O(k-n)
   \,,
 $$
 
@@ -28,6 +28,19 @@ The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimen
 
 =--
 
++-- {: .num_defn #EOn}
+###### Definition
+
+By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see there) over these inclusions is denoted
+
+$$
+  E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(k)
+  \,.
+$$
+
+=--
+
+This is a model for the total space of the $O(n)$-[[universal principal bundle]].
 
 ## Properties
 
@@ -43,9 +56,59 @@ The Stiefel manifold $V_n(k)$ is [[n-connected topological space|(n-1)-connected
 +-- {: .proof}
 ###### Proof
 
-tomorrow.
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+    \longrightarrow
+  O(k)
+    \longrightarrow
+  O(k)/O(n) 
+    = 
+  V_n(k)
+  \,.
+$$
+
+By [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and by [this corolary](coset+QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq n-1}(O(k))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(O(n))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(V_n(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
 
 =--
+
++-- {: .num_cor}
+###### Corollary
+
+The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+
+=--
+
+### CW-complex structure
+
++-- {: .num_prop}
+###### Proposition
+
+The Stiefel manifold $V_n(k)$ admits the structure of a [[CW-complex]].
+
+=--
+
+([James 76, p. 5 with p. 21](#James76))
 
 
 ### Relation to Grassmannians and universal bundles
@@ -60,7 +123,7 @@ $$
 The [[quotient]] [[projection]]
 
 $$
-  V_{k-n}(k)\longrightarrow Gr_n(k)
+  V_{n}(k)\longrightarrow Gr_n(k)
 $$
 
 is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
@@ -74,6 +137,13 @@ is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n
 * [[classifying space]]
 
 ## References
+
+* {#Stiefel35} [[Eduard Stiefel]], _Richtungsfelder und Fernparallelismus in
+$n$-dimensionalen Mannigfaltigkeiten_, Comment. Math. Helv. , 8(1935/6),
+3-51.
+
+
+* {#James76} [[Ioan Mackenzie James]], _The topology of Stiefel manifolds_, Cambridge University Press, 1976
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
