@@ -23,6 +23,7 @@ Linear implication is the most common version of [[implication]]/[[function type
 
 The [[categorical semantics]] of linear implication is as the [[internal hom]] in the [[closed monoidal category]] of [[types]].
 
+Closely related is the *multiplicative implication* of [[bunched implication]] logic, though they behave somewhat differently.
 
 ## Related concepts
 
@@ -31,3 +32,5 @@ The [[categorical semantics]] of linear implication is as the [[internal hom]] i
 * [[function type]]
 
 * [[hypothetical judgement]]
+
+[[!redirects multiplicative implication]]
