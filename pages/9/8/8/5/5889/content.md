@@ -34,7 +34,9 @@ There are generalizations, e.g. the [[quantum homogeneous space]] for the case o
 
 ## Properties
 
-### Relation between homogenous spaces and coset spaces
+### Relation to coset spaces
+ {#RelationToCosetSpaces}
+ 
 
 Under weak topological conditions (cf. [Hegason](#Hegason)), every topological homogeneous space $M$ is isomorphic to a __[[coset]] space__ $G/H$ for a [[closed subspace|closed]] subgroup $H\subset G$ (the [[stabilizer]] of a fixed point in $X$).
 
