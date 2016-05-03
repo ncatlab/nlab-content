@@ -91,15 +91,21 @@ A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)).
 
 ## Examples
 
-Special cases:
 
-* For $r = 0$, this is the [[point]].
++-- {: .num_example}
+###### Example
 
-* For $r = 1$, this is the [[projective space]] of $V$.
+The [[Grassmannian]] $Gr_r(\mathbb{R}^{n+1})$ (def. \ref{RealAndComplexGrassmannian}) is
 
-* For $r = \dim V$, this is the point again.
+* for $r = 0$: the point;
 
-* For $r \gt \dim V$, this is the [[empty space]].
+* for $r = 1$: the [[real projective space]] $\mathbb{R}P^n$;
+
+* for $r = k+1$: the point;
+
+* for $r \gt k+1$: the empty space $\emptyset$.
+
+=--
 
 If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines an [[isomorphism]] between $Gr(r,V)$ and $Gr(\dim V - r,V)$.
 
