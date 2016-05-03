@@ -6655,6 +6655,28 @@ We write $[\mathcal{C}, \mathcal{D}]$ for the resulting category of topologicall
 
 =--
 
++-- {: .num_remark #TopologicallyEnrichedNaturalTransformationIsTransformationOfUnderlyingFunctors}
+###### Remark
+
+The condition on an [[enriched natural transformation]] in def. \ref{TopologicallyEnrichedFunctor} is just that on an ordinary [[natural transformation]] on the underlying unenriched functors, saying that for every morphisms $f \colon c \to d$ there is a [[commuting square]]
+
+$$
+  f
+  \;\;\;\;
+  \mapsto
+  \;\;\;\;
+  \array{
+    \mathcal{C}(c,c) \times X &\overset{\eta_c}{\longrightarrow}& F(c)
+    \\
+    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F(f)}}
+    \\
+    \mathcal{C}(c,d) \times X &\underset{\eta_d}{\longrightarrow}& F(d)
+  }
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_example #TopologicallyEnrichedFunctorsToTopk}
 ###### Example
@@ -6781,7 +6803,7 @@ Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnriche
    $$
      (-)^{(-)}
        \;\colon\;
-     Top_{cg} \times [\mathcal{C}, Top_{cg}]
+     (Top_{cg})^{op} \times [\mathcal{C}, Top_{cg}]
        \longrightarrow
      [\mathcal{C}, Top_{cg}]
    $$
@@ -6814,7 +6836,7 @@ Analogously, for $\mathcal{C}$ be a pointed [[topologically enriched category]],
      \,.
    $$
 
-   This is called the **[[tensoring]]** of $[\mathcal{C},Top^{\ast/}_{cg}]$ over $Top^{\ast/}_{cg}$.
+   This is called the **smash [[tensoring]]** of $[\mathcal{C},Top^{\ast/}_{cg}]$ over $Top^{\ast/}_{cg}$.
 
 1. Define a functor
 
@@ -6833,7 +6855,7 @@ Analogously, for $\mathcal{C}$ be a pointed [[topologically enriched category]],
      \,.
    $$
 
-   This is called the **[[powering]]** of $[\mathcal{C}, Top_{cg}]$ over $Top_{cg}$.
+   This is called the **pointed [[powering]]** of $[\mathcal{C}, Top_{cg}]$ over $Top_{cg}$.
 
 
 =--
@@ -6907,7 +6929,7 @@ $$
   F(d)^{\mathcal{C}(c,c) \times X}
 $$
 
-agree. This means that they may be thought of jointly as a function with values in commuting squares in $Top_{cg}$ of this form:
+agree. This means (remark \ref{TopologicallyEnrichedNaturalTransformationIsTransformationOfUnderlyingFunctors}) that they may be thought of jointly as a function with values in commuting squares in $Top_{cg}$ of this form:
 
 $$
   f
@@ -7111,6 +7133,36 @@ With these three lemmas in hand, the remaining formal part of the proof goes thr
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Given examples \ref{TopkAsATopologicallyEnrichedCategory} and \ref{TopologicallyEnrichedFunctorsToTopk}, the next evident example of a pointed [[topologically enriched category]] besides $Top^{\ast/}_{cg}$ itself is the functor category 
+
+$$
+  [Top_{cg}^{\ast/}, Top_{cg}^{\ast/}]
+  \,.
+$$ 
+
+The only technical problem with this is that $Top^{\ast/}_{cg}$ is not a [[small category]] (it has a [[proper class]] of objects), which means that the existence of all limits and colimits via prop. \ref{TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits} may (and does) fail. 
+
+But so we just restrict to a small topologically enriched subcategory. A good choice is the [[full subcategory]]
+
+$$
+  Top^{\ast/}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
+$$
+
+of topological spaces homoemorphic to [[finite CW-complexes]]. The resulting projective model category (via theorem \ref{ProjectiveModelStructureOnTopologicalFunctors})
+
+$$
+  [Top_{cg,fin}^{\ast/}\;,\; (Top^{\ast/}_{cg})_{Quillen}]_{proj}
+$$
+
+is also also known as the **strict [[model structure for excisive functors]]**. (This terminology is the special case for $n = 1$ of the terminology "[[n-excisive functors]]" as used in "[[Goodwillie calculus]]", a homotopy-theoretic analog of [[differential calculus]].)  After enlarging its class of weak equivalences while keeping the cofibrations fixed, this will become [[Quillen equivalence|Quillen equivalent]] to a [[model structure for spectra]]. This we discuss in the next section, _[[Introduction to Stable homotopy theory -- 1]]_.
+
+
+=--
+
+
 
 
 ### **P.4)** Homotopy fiber sequences
@@ -7205,7 +7257,7 @@ where $Path(Y)$ is a [[path space object]] for $Y$, def. \ref{PathAndCylinderObj
 +-- {: .num_remark }
 ###### Remark
 
-If we write homotopies (def. \ref{LeftHomotopyOfSimplicialSets}) as double arrows between morphisms, then then limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in example \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the right homotopy given by the component map denoted $\eta$:
+When we write homotopies (def. \ref{LeftAndRightHomotopyInAModelCategory}) as double arrows between morphisms, then the limit diagram in def. \ref{MappingConeAndMappingCocone} looks just like the square in the definition of [[fibers]] in example \ref{FiberAndCofiberInPointedObjects}, except that it is filled by the [[right homotopy]] given by the component map denoted $\eta$:
 
 $$
   \array{
@@ -7218,7 +7270,7 @@ $$
   \,.
 $$
 
-Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a left homotopy 
+Dually, the colimiting diagram for the mapping cone turns to look just like the square for the [[cofiber]], except that it is filled with a [[left homotopy]] 
 
 $$
   \array{
@@ -7478,7 +7530,7 @@ Let $\mathcal{C}_c$ be a [[category of cofibrant objects]],  def. \ref{FullSubca
      f 
        \;\colon\;
      X 
-        \underoverset{\in Fib}{(i_1)_\ast f\circ i_0}{\longrightarrow} 
+        \underoverset{\in Cof}{(i_1)_\ast f\circ i_0}{\longrightarrow} 
      Cyl(f)
        \underset{\in W}{\longrightarrow} 
      Y
@@ -7515,13 +7567,13 @@ So consider the [[mapping cocylinder]]-construction from prop. \ref{ConeAndMappi
 
 $$
   \array{
-     Path(f) &\longrightarrow& X
+     Path(f) &\overset{\in W \cap Fib}{\longrightarrow}& X
      \\
      {}^{\mathllap{p_1^\ast f}}\downarrow &(pb)& \downarrow^{\mathrlap{f}}
      \\
-     Path(Y) &\stackrel{p_1}{\longrightarrow}& Y
+     Path(Y) &\underoverset{\in W \cap Fib}{p_1}{\longrightarrow}& Y
      \\
-     \downarrow^{\mathrlap{p_0}}
+     {}^{\mathllap{\in W \cap Fib}}\downarrow^{\mathrlap{p_0}}
      \\
      Y
   }
@@ -7541,11 +7593,11 @@ $$
      \\
      \downarrow && \downarrow^{\mathrlap{(f, Id)}} && \downarrow^\mathrlap{f}
      \\
-     Y^I &\overset{(p_1,p_0) \in Fib }{\longrightarrow}&
+     Path(Y) &\overset{(p_1,p_0) \in Fib }{\longrightarrow}&
      Y \times Y &\stackrel{pr_1}{\longrightarrow}&
      Y
      \\
-     {}^{\mathllap{p_0}}\downarrow & \swarrow_{\mathrlap{p_2}}
+     {}^{\mathllap{p_0}}\downarrow & \swarrow_{\mathrlap{pr_2 \atop {\in Fib}}}
      \\
      Y
   }
@@ -7568,26 +7620,33 @@ $$
 
 it is itself a fibration.
 
+Then to see that there is a weak equivalence as claimed: 
 
-
-Next, by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation}, both projections $p_i \colon Path(X)\to X$ are weak equivalences,  By the [[universal property]] of  [[pullbacks]], this induces a right inverse of $Path(f) \to X$ fitting into this [[pasting]] diagram
+The [[universal property]] of the [[pullback]] $Path(f)$ induces a right inverse of $Path(f) \to X$ fitting into this diagram
 
 $$
   \array{
-     id_X \colon & X &\underset{\in W}{\longrightarrow}
-       & Path(f) &
-     \longrightarrow& X
+     id_X \colon & X &\underoverset{\in W}{\exists}{\longrightarrow}
+       & Path(f) 
+       &
+         \overset{\in W \cap Fib}{\longrightarrow}& 
+       X
      \\
      & {}^{\mathrlap{f}}\downarrow && \downarrow && \downarrow^{\mathrlap{f}}
      \\
-     id_Y\colon& Y &\underset{\in W}{\longrightarrow}& Y^I &\stackrel{p_1}{\to}& Y
+     id_Y\colon& Y 
+       &\underoverset{\in W}{i}{\longrightarrow}& 
+     Path(Y) 
+       &\stackrel{p_1}{\to}& Y
      \\
      & & {}_{\mathllap{Id}}\searrow& \downarrow^{\mathrlap{p_0}} 
      \\
      & && Y
   }
-  \,.
+  \,,
 $$
+
+which is a weak equivalence, as indicated, by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}).
 
 This establishes the claim.
 
@@ -7822,7 +7881,7 @@ $$
   \array{
     E \times_B B' &\to& B'
     \\
-    \;\;\;\;\downarrow^{\mathrlap{\Rightarrow \in W} } 
+    \downarrow^{\mathrlap{\Rightarrow \in W} } 
     && \;\downarrow^{\mathrlap{\in W}}
     \\
     E &\stackrel{\in F}{\to}& B
@@ -7832,9 +7891,17 @@ $$
 is a fibration. 
 
 First of all, using the [[factorization lemma]] \ref{FactorizationLemma}
-we may always factor $B' \to B$ as
-$B ' \stackrel{\in W}{\to} Path(u) 
- \stackrel{\in W \cap F}{\to} B$ with the first morphism a weak equivalence that is a right inverse to an acyclic fibration and the right one an acyclic fibration.
+we may factor $B' \to B$ as
+
+$$
+  B' 
+    \stackrel{\in W}{\longrightarrow} 
+  Path(u) 
+   \stackrel{\in W \cap F}{\longrightarriw} 
+  B
+$$ 
+
+with the first morphism a weak equivalence that is a right inverse to an acyclic fibration and the right one an acyclic fibration.
 
 Then the pullback diagram in question may be decomposed
 into two consecutive pullback diagrams
@@ -7950,7 +8017,7 @@ $$
   }
 $$
 
-(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms induced by $f$ and $g$ on [[fibers]] (example \ref{FiberAndCofiberInPointedObjects}) $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ to the same morphism, in the homotopy category.
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ induced by $f$ and $g$ on [[fibers]] (example \ref{FiberAndCofiberInPointedObjects})  to the same morphism, in the homotopy category.
 
 =--
 
@@ -8027,7 +8094,7 @@ The [[factorization lemma]] \ref{FactorizationLemma} with prop. \ref{ConeAndMapp
 
 $$
   \array{
-    Path_\ast(f) &\longrightarrow& \tilde X
+    Path_\ast(f) &\longrightarrow& Path(f)
     \\
     \downarrow &(pb)& \downarrow^{\mathrlap{\tilde f}}
     \\
@@ -8038,11 +8105,11 @@ $$
 
 =--
 
-The following lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation now is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. 
+The following prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} says that, up to equivalence, this situation is independent of the specific fibration resolution $\tilde f$ provided by the [[factorization lemma]] (hence by the prescription for the [[mapping cocone]]), but only depends on it being _some_ fibration resolution. 
 
 
-+-- {: .num_lemma #FiberOfFibrationIsCompatibleWithWeakEquivalences}
-###### Lemma
++-- {: .num_prop #FiberOfFibrationIsCompatibleWithWeakEquivalences}
+###### Proposition
 
 In the [[category of fibrant objects]] $(\mathcal{C}^{\ast/})_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, of a [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) consider a morphism of [[fiber]]-diagrams, hence a [[commuting diagram]] of the form
 
@@ -8057,7 +8124,7 @@ $$
   \,.
 $$
 
-If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism on the left
+If the two vertical morphisms on the right are weak equivalences, then so is the vertical morphism on the left.
 
 =--
 
@@ -8140,7 +8207,7 @@ $$
   }
 $$
 
-over any point is actually a [[homotopy fiber]] in the sense of def. \ref{HomotopyFiber}. With lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} this implies that the [[weak homotopy type]] of the fiber only depends on the Serre fibration up to weak homotopy equivalence in that if $p' \colon X' \to B'$ is another Serre fibration fitting into a [[commuting diagram]] of the form
+over any point is actually a [[homotopy fiber]] in the sense of def. \ref{HomotopyFiber}. With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} this implies that the [[weak homotopy type]] of the fiber only depends on the Serre fibration up to weak homotopy equivalence in that if $p' \colon X' \to B'$ is another Serre fibration fitting into a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -8211,7 +8278,7 @@ $$
   \,.
 $$
 
-Hence by lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} in this case the ordinary fiber of $f$ is weakly equivalent to the [[mapping cocone]], def. \ref{MappingConeAndMappingCocone}.
+Hence by prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} in this case the ordinary fiber of $f$ is weakly equivalent to the [[mapping cocone]], def. \ref{MappingConeAndMappingCocone}.
 
 =--
 
@@ -8356,7 +8423,7 @@ $$
   \,.
 $$
 
-By lemma \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the functor on homotopy categories now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
+By prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} (and using that Cartesian product preserves weak equivalences) this functor sends weak equivalences to isomorphisms. Therefore the functor on homotopy categories now follows with theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}.
 
 It is immediate to see that the operation of loop concatenation from remark \ref{ConcatenatedLoopSpaceObject} gives the objects $\Omega X \in Ho(\mathcal{C}^{\ast/})$ the structure of [[monoids]]. It is now sufficient to see that these are in fact groups.
 
