@@ -102,6 +102,8 @@ Given an arrow $f: A \to 0$, we have that $\pi_A: A \times 0 \to A$ is a retract
 
 * [[extensive category]]
 
+* A distributive category that is a [[poset]] is a [[distributive lattice]].
+
 ## References 
 
 * [[Aurelio Carboni]],  and [[Stephen Lack]],  and [[Robert F. C. Walters]], _Introduction to extensive and distributive categories_,  Journal of Pure and Applied Algebra 84 (1993) 145-158, 
