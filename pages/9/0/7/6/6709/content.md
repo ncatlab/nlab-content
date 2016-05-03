@@ -155,6 +155,8 @@ More generally, the SW classes are then given by the [[Chern character]]. See fo
 
 ## References 
 
+Named after [[Eduard Stiefel]] and [[Hassler Whitney]].
+
 Textbook accounts include
 
 * {#MilnorStasheff} [[John Milnor]], [[Jim Stasheff|James D. Stasheff]], _Characteristic Classes_, Annals of Mathematics Studies 76, Princeton University Press (1974). 
