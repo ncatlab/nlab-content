@@ -69,7 +69,7 @@ $$
   \,.
 $$
 
-By [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and by [this corolary](coset+QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+By [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
 
 $$
   \cdots
