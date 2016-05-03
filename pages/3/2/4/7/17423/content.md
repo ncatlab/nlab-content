@@ -1,0 +1,5 @@
+An __archetypal example__ of a notion in mathematics are classes of examples satisfying the condition of a definion which are in some sense exhaustive. For example, the example is both typical in mathematician practice and generic in the sense of some measure. Even better is when the archetypal example exhausts all examples up to isomorphism, equivalence or some other minor difference. 
+
+For example, all [[homogeneous spaces]] for Hausdorff paracompact topological groups are isomorphic to [[coset space]]s of that group. Hence the coset spaces are the archetypal example of a homogeneous space, provided we take rather weak conditions on a topological group.
+
+[[!redirects archetypal examples]]
