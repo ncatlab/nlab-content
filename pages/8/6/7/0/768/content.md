@@ -66,9 +66,12 @@ For more details on this construction see the section <a href="http://ncatlab.or
 As discussed there, too, this construction generalizes to more general [[simplicial topological group]]s and classifying spaces for their [[principal ∞-bundle]]s.
 
 ### For orthogonal and unitary principal bundles
+ {#ForOrthogonalAndUnitaryPrincipalBundles}
+
+#### Idea
 
 For $G = O(n)$ the [[orthogonal group]] and
-$G = U(n)$ the unitary group, there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. 
+$G = U(n)$ the [[unitary group]], there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. 
 
 Let $V_n(\mathbb{R}^q)$ be the [[Stiefel manifold]] of [[orthonormal basis|orthonormal]] $n$-frames in the [[Cartesian space]] $\mathbb{R}^q$. Its points are $n$-[[tuples]] of orthonormal [[vectors]] in $\mathbb{R}^q$, and it is topologized as a [[subspace topology|subspace]] of $(\mathbb{R}^q)^n$,
 or, equivalently, as a subspace of $(S^{q-1})^n$. It is a [[compact space|compact]] [[manifold]]. 
@@ -82,15 +85,6 @@ $V_n(\mathbb{R}^q) \hookrightarrow V_n(\mathbb{R}^{q+1})$ and $G_n(\mathbb{R}^q)
 
 Then $G_n(\mathbb{R}^\infty)$ is a model for the classifying space $B O(n)$.
 
-For instance 
-
-$$
-  G_1(\mathbb{R}^\infty)
-  =
-  \mathbb{R}P^\infty
-$$
-
-is the [[real projective space|real]] [[projective space]] that classifies [[line bundles]].
 
 #### Definitions
 
@@ -114,16 +108,37 @@ where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrigh
 +-- {: .num_defn #RealAndComplexGrassmannian}
 ###### Definition
 
-For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **[[Grassmannian]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real [[Grassmannian]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
 
 $$
   Gr_n(\mathbb{R}^k) \coloneqq O(k)/(O(n) \times O(k-n))
   \,,
 $$
 
-where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$.
+where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$ into the [[orthogonal group]].
+
+Similarly the $n$th **complex [[Grassmannian]]** of $\mathbb{C}^k$ is the [[coset]] [[topological space]].
+
+$$
+  Gr_n(\mathbb{C}^k) \coloneqq U(k)/(U(n) \times U(k-n))
+  \,,
+$$
+
+where the [[action]] of the [[product group]] is via its canonical embedding $U(n)\times U(k-n) \hookrightarrow U(n)$ into the [[unitary group]].
+
 
 =--
+
++-- {: .num_example}
+###### Example
+
+* $G_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
+
+* $G_1(\mathbb{C}^{n+1}) \simeq \mathbb{C}P^n$ is [[complex projective space]] of [[dimension]] $n$.
+
+
+=--
+
 
 +-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
 ###### Proposition
@@ -214,12 +229,250 @@ $$
 
 As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
 
-+-- {: .num_defn #RealAndComplexGrassmannian}
-###### Definition
+#### Properties
 
-spring
++-- {: .num_prop #CWComplexStructure}
+###### Proposition
+
+The real [[Grassmannians]] $Gr_n(\mathbb{R}^k)$ and the complex Grassmannians $Gr_n(\mathbb{C}^k)$ of def. \ref{RealAndComplexGrassmannian} admit the structure of [[CW-complexes]]. Moreover the canonical inclusions
+
+$$
+  Gr_n(\mathbb{R}^k)
+  \hookrightarrow
+  Gr_n(\mathbb{R}^{k+1})
+$$
+
+are subcomplex incusion (hence [[relative cell complex]] inclusions).
+
+Accordingly there is an induced CW-complex structure on the [[classifying space]] (def. \ref{EOn}).
+
+$$
+  B O(n) \simeq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+  \,.
+$$
 
 =--
+
+A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](#Hatcher)). 
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ from def. \ref{StiefelManifold} admits the structure of a [[CW-complex]].
+
+=--
+
+e.g. ([James 59, p. 3](Stiefel+manifold#James59), [James 76, p. 5 with p. 21](Stiefel+manifold#James76), [Blaszczyk 07](Stiefel+manifold#Blaszczyk07))
+
+(And I suppose with that cell structure the inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ are subcomplex inclusions.) 
+
+
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(n-1)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+    \longrightarrow
+  O(k)
+    \longrightarrow
+  O(k)/O(n) 
+    = 
+  V_n(\mathbb{R}^k)
+  \,.
+$$
+
+By [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq n-1}(O(k))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(O(n))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(V_n(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(\mathbb{R}^k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+
+=--
+
++-- {: .num_cor #EOnIsWeaklyContractible}
+###### Corollary
+
+The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+
+=--
+
++-- {: .num_prop #HomotopyGroupsOfBOnThoseOfOnShifted}
+###### Proposition
+
+The [[homotopy groups]] of the classifying space $B O(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ shifted up in degree: there is an [[isomorphism]]
+
+$$
+  \pi_{\bullet+1}(B O(n))
+  \simeq
+  \pi_\bullet O(n)
+$$
+
+(for homotopy groups based at the canonical basepoint).
+
+=---
+
++-- {: .proof}
+###### Proof
+
+Consider the sequence
+
+$$
+  O(n)
+    \longrightarrow
+  E O(n)
+    \longrightarrow
+  B O(n)
+$$
+
+from def. \ref{EOn}, with $O(n)$ the [[fiber]]. Since (by [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup)) the second map is a [[Serre fibration]], this is a [[fiber sequence]] and so it induces a [[long exact sequence of homotopy groups]] of the form
+
+$$
+  \cdots
+    \to
+  \pi_\bullet(O(n))
+    \longrightarrow
+  \pi_\bullet(E O(n))
+    \longrightarrow
+  \pi_\bullet(B O(n))
+    \longrightarrow
+  \pi_{\bullet-1}(O (n))
+   \longrightarrow
+  \pi_{\bullet-1}(E O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+Since by cor. \ref{EOnIsWeaklyContractible} $\pi_\bullet(E O(n))= 0$, exactness of the sequence implies that 
+
+$$
+  \pi_\bullet(B O(n))
+   \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1}(O (n))
+$$
+
+is an isomorphism.
+
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+For $n \in \mathbb{N}$ there is a [[homotopy fiber sequence]]
+
+$$
+  S^n
+    \longrightarrow 
+  B O(n)
+    \longrightarrow
+  B O(n+1)
+  \,.
+$$
+
+This means, there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
+
+$$
+  \array{
+     B O(n) &\hookrightarrow& B O(n+1)
+     \\
+     {}^{\mathllap{{weak \, homotopy} \atop equivalence}}\downarrow  & \nearrow_{\mathrlap{Serre \, fib.}}
+     \\
+     \tilde B O(n)
+  }
+$$
+
+such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Take $\tilde B O(n) \coloneqq (E O(n+1))/O(n)$. 
+
+To see that the canonical map $B O(n)\longrightarrow (E O(n+1))/O(n)$ is a [[weak homotopy equivalence]] consider the [[commuting diagram]]
+
+$$
+  \array{
+    O(n) &\overset{id}{\longrightarrow}& O(n)
+    \\
+    \downarrow && \downarrow
+    \\
+    E O(n) &\longrightarrow& E O(n+1)
+    \\
+    \downarrow && \downarrow
+    \\
+    B O(n) &\longrightarrow& (E O(n+1))/O(n)
+  }
+  \,.
+$$
+
+By [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup) both bottom vertical maps are [[Serre fibrations]] and so both vertical sequences are [[fiber sequences]]. By prop. \ref{HomotopyGroupsOfBOnThoseOfOnShifted} part of the induced morphisms of [[long exact sequences of homotopy groups]] looks like this
+
+$$
+  \array{
+    \pi_\bullet(B O(n))
+    &\overset{}{\longrightarrow}&
+    \pi_\bullet( (E O(n+1))/O(n) )
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    \pi_{\bullet-1}(O(n))
+    &\overset{=}{\longrightarrow}&
+    \pi_{\bullet-1}(O(n))
+  }
+  \,,
+$$
+
+where the vertical and the bottom morphism are isomorphisms. Hence also the to morphisms is an isomorphism.
+
+That $B O(n)\to \tilde B O(n+1)$ is indeed a [[Serre fibration]] follows again with [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup), which gives the [[fiber sequence]]
+
+$$
+  O(n+1)/O(n)
+    \longrightarrow
+  (E O(n+1))/O(n)
+    \longrightarrow
+  (E O(n+1))/O(n+1)
+  \,.
+$$
+
+The claim then follows since ([this exmpl.](coset#nSphereAsCosetSpace))
+
+$$
+  O(n+1)/O(n) \simeq S^n
+  \,.
+$$
+
+=--
+
 
 
 ### For crossed complexes
