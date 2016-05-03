@@ -7,7 +7,7 @@
 
 For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\mathbb{R}^n$. For the following we regard these groups as [[topological groups]] in the canonical way.
 
-+-- {: .num_defn}
++-- {: .num_defn #StiefelManifold}
 ###### Definition
 
 For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **Stiefel manifold** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
