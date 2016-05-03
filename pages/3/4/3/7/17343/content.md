@@ -8160,6 +8160,12 @@ Or if $p \colon X\to B$ is already the restriction of a Serre fibration over a C
 
 =--
 
++-- {: .num_example}
+###### Example
+
+The [[homotopy fiber]] of the inclusion of [[classifying spaces]] $B O(n) \hookrightarrow B O(n+1)$ is the [[n-sphere]] $S^n$. See [this prop.](Introduction+to+Stable+homotopy+theory+--+S#HomotopyFiberOfInclusionOfConsecutiveClassifyingSpaces) at _[Classifying spaces and G-structure](Introduction+to+Stable+homotopy+theory+--+S#ClassifyingSpaces)_.
+
+=--
 
 +-- {: .num_example #StandardTopologicalMappingConeIsHomotopyCofiber}
 ###### Example
