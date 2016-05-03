@@ -53,7 +53,7 @@ $$
   O(n) \hookrightarrow O(k)
 $$
 
-is an $(n-1)$-[[weak homotopy equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\leq n-1$.
+is an [[n-equivalence|(n-1)-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt n-1$ and a [[surjection]] in degree $n-1$.
 
 =--
 
@@ -71,7 +71,7 @@ $$
   \,.
 $$
 
-By prop. \ref{OrthogonalGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corolary](coset+QuotientProjectionForCompactLieSubgroupIsPrincipal), the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
 
 $$
   S^{n}\simeq O(n+1)/O(n)
@@ -83,7 +83,7 @@ Therefore the [[long exact sequence of homotopy groups]] of the [[fiber sequence
 $$
   \cdots
     \to
-  \pi_{\bullet-1}(S^n)
+  \pi_{\bullet+1}(S^n)
     \longrightarrow
   \pi_\bullet(O(n))
     \longrightarrow
@@ -97,12 +97,20 @@ $$
 Since $\pi_{\lt n}(S^n) = 0$, this implies that 
 
 $$
-  \pi_{\lt n}(O(n))
+  \pi_{\lt n-1}(O(n))
     \overset{\simeq}{\longrightarrow}
-  \pi_{\lt n}(O(n+1))
+  \pi_{\lt n-1}(O(n+1))
 $$
 
-is an isomorphism. Hence now the statement follows by induction over $k-n$.
+is an isomorphism and that
+
+$$
+  \pi_{n-1}(O(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{n-1}(O(n+1))
+$$
+
+is surjective. Hence now the statement follows by induction over $k-n$.
 
 =--
 
@@ -192,6 +200,7 @@ Given a [[manifold]] $X$, lifts of the structure map $X \to \mathcal{B}O(n)$ of 
 on $X$.
 
 ### Coset spaces
+ {#CosetSpaces}
 
 +-- {: .num_example #nSphereAsCosetSpace}
 ###### Example
@@ -220,6 +229,52 @@ is called the $n$th _[[Stiefel manifold]]_ of $\mathbb{R}^k$.
 
 =--
 
++-- {: .num_prop }
+###### Proposition
+
+The [[Stiefel manifold]] $V_n(k)$ is [[n-connected topological space|(n-1)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+    \longrightarrow
+  O(k)
+    \longrightarrow
+  O(k)/O(n) 
+    = 
+  V_n(k)
+  \,.
+$$
+
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following structure in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq n-1}(O(k))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(O(n))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq n-1}(V_n(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt n-1}(O(n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+
+
+=--
 
 ## Related concepts
 
