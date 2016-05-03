@@ -114,7 +114,7 @@ This is originally due to ([Samelson 41](#Samelson41)).
 +-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
 ###### Proposition
 
-For $G$ a [[compact Lie group]] and $K \subset H \subseg G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map
+For $G$ a [[compact Lie group]] and $K \subset H \subset G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map
 
 $$
   p \;\colon\; G/K \longrightarrow G/H
