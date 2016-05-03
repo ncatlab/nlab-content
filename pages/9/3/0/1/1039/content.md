@@ -19,15 +19,17 @@
 
 ## Definition
 
-### General
+A [[topological space]] $X$ is **contractible** if the canonical map $X \to \ast$ is a [[homotopy equivalence]]. It is **weakly contractible** is this map is a [[weak homotopy equivalence]], hence if all [[homotopy groups]] of $X$ are trivial.
 
-An [[∞-groupoid]] or a [[topological space]] or another realization of the concept [[(n,r)-category|(∞,0)-category]] is **contractible** if it is [[weak equivalence|weakly equivalent]] to the [[point]].
+An [[∞-groupoid]] is **weakly contractible** if it is [[weak equivalence|weakly equivalent]] to the [[point]].
 
 $$
-  (C \;\text{is contractible}) \Leftrightarrow
+  (C \;\text{is weakly contractible}) \Leftrightarrow
   (C \stackrel{\simeq}{\to} *)
   \,.
 $$
+
+In this context one tends to drop the "weakly" qualifier.
 
 Sometimes one allows also the empty object $\emptyset$ to be contractible. To distinguish this, we say
 
@@ -38,9 +40,6 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly equivalent to the point is the same as there being a contraction.
 
 
-### For topological spaces
-
-...
 
 
 ## Related concepts
@@ -54,8 +53,15 @@ Notice that since the [[Whitehead theorem]] applies in [[∞Grpd]], being weakly
 [[!redirects contractible space]]
 [[!redirects contractible spaces]]
 
+[[!redirects weakly contractible space]]
+[[!redirects weakly contractible spaces]]
+
 [[!redirects contractible topological space]]
 [[!redirects contractible topological spaces]]
+
+[[!redirects weakly contractible topological space]]
+[[!redirects weakly contractible topological spaces]]
+
 
 [[!redirects contractible object]]
 [[!redirects contractible objects]]
