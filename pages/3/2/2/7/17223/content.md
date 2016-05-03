@@ -13,28 +13,28 @@ For $n \in \mathbb{N}$, write $O(n)$ for the [[orthogonal group]] acting on $\ma
 For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real Stiefel manifold** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
 
 $$
-  V_n(k) \coloneqq O(k)/O(k-n)
+  V_n(\mathbb{R}^k) \coloneqq O(k)/O(k-n)
   \,,
 $$
 
-where the [[action]] of $O(n)$ is via its canonical embedding $O(n)\hookrightarrow O(k)$.
+where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrightarrow O(k)$.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]] equipped with an [[orthonormal basis]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(k-n)$. In this way the underlying set of $V_n(k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$ and equipped with orthonormal basis. The realization as a [[coset]] as above serves to euqip this set naturally with a [[topology|topological space]].
+The group $O(k)$ [[transitive action|acts transitively]] on the set of $n$-dimensional [[linear subspaces]] equipped with an [[orthonormal basis]], and given any such, then its [[stabilizer subgroup]] in $O(k)$ is isomorphic to $O(k-n)$. In this way the underlying set of $V_n(\mathbb{R}^k)$ is in [[natural bijection]] to the set of $n$-dimensional linear subspaces in $\mathbb{R}^k$ equipped with [[orthonormal basis]]. The realization as a [[coset]] as above serves to euqip this set naturally with a [[topology|topological space]].
 
 =--
 
 +-- {: .num_defn #EOn}
 ###### Definition
 
-By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see there) over these inclusions is denoted
+By def. \ref{StiefelManifold} there are canonical inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see there) over these inclusions is denoted
 
 $$
-  E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(k)
+  E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
   \,.
 $$
 
@@ -65,7 +65,7 @@ $$
     \longrightarrow
   O(k)/O(n) 
     = 
-  V_n(k)
+  V_n(\mathbb{R}^k)
   \,.
 $$
 
@@ -88,14 +88,14 @@ $$
   \,.
 $$
 
-This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(\mathbb{R}^k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
 
 =--
 
 +-- {: .num_cor}
 ###### Corollary
 
-The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
 =--
 
@@ -104,7 +104,7 @@ The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(k)$ from de
 +-- {: .num_prop}
 ###### Proposition
 
-The Stiefel manifold $V_n(k)$ admits the structure of a [[CW-complex]].
+The Stiefel manifold $V_n(\mathbb{R}^k)$ admits the structure of a [[CW-complex]].
 
 =--
 
@@ -116,17 +116,17 @@ The Stiefel manifold $V_n(k)$ admits the structure of a [[CW-complex]].
 Similarly, the _[[Grassmannian manifold]]_ is the [[coset]]
 
 $$
-  Gr_n(k) \coloneqq O(k)/(O(n)\times O(k-n))
+  Gr_n(\mathbb{R}^k) \coloneqq O(k)/(O(n)\times O(k-n))
   \,.
 $$
 
 The [[quotient]] [[projection]]
 
 $$
-  V_{n}(k)\longrightarrow Gr_n(k)
+  V_{n}(\mathbb{R}^k)\longrightarrow Gr_n(\mathbb{R}^k)
 $$
 
-is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
+is an $O(n)$-[[principal bundle]], with [[associated bundle]] $V_n(\mathbb{R}^k)\times_{O(n)} \mathbb{R}^n$ a [[vector bundle]] of [[rank]] $n$. In the limit ([[colimit]]) that $k \to \infty$ is this gives a presentation of the $O(n)$-[[universal principal bundle]] and of the [[universal vector bundle]] of rank $n$, respectively.. The base space $Gr_n(\infty)\simeq_{whe} B O(n)$ is the [[classifying space]] for $O(n)$-[[principal bundles]] and rank $n$ vector bundles.
 
 
 
