@@ -41,6 +41,9 @@ Like any meet, conjunction is an associative operation, so we can take the conju
 
 As truth values form a poset, which is a degenerate kind of [[category]], so truth values under conjunction form a [[meet-semilattice]], which is a degenerate kind of [[cartesian monoidal category]].  Self-referentially, a [[poset]] is (up to [[equivalence of categories|equivalence]]) simply a [[category enriched]] over the cartesian monoidal category of truth values.  With [[implication]] as [[internal hom]], truth values form a [[closed cartesian category]].
 
+In the context of [[substructural logics]] such as [[linear logic]], the conjunction defined above is also called __additive conjunction__ to disambiguate it from the [[multiplicative conjunction]].
+
+
 
 ## Rules of inference
 
@@ -76,7 +79,8 @@ The rules above are written so as to remain valid in logics without the [[exchan
 
 * in [[linear logic]]: _[[multiplicative conjunction]]_
 
-[[!redirects logical conjunction]]
 [[!redirects and]]
-
+[[!redirects logical conjunction]]
 [[!redirects logical conjunctions]]
+[[!redirects additive conjunction]]
+[[!redirects additive conjunctions]]
