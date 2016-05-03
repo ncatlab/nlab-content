@@ -36,6 +36,8 @@ More generally, if $p$ and $q$ are any two [[relations]] on the same domain, the
 
 Disjunction as defined above is sometimes called __inclusive disjunction__ to distinguish it from [[exclusive disjunction]], where *exactly* one of $p$ and $q$ must be true.
 
+In the context of [[substructural logics]] such as [[linear logic]], it is also called __additive disjunction__ to disambiguate it from the [[multiplicative disjunction]].
+
 Disjunction is [[de Morgan dual]] to [[logical conjunction|conjunction]].
 
 Like any join, disjunction is an associative operation, so we can take the disjunction of any finite positive whole number of truth values; the disjunction is true if and only if at least one of the various truth values is true.  Disjunction also has an [[identity element]], which is the [[falsity|false]] truth value.  Some logics allow a notion of infinitary disjunction.  Indexed disjunction is [[existential quantification]].
@@ -65,30 +67,10 @@ $$ \begin {gathered}
    \frac { \Gamma \vdash q } { \Gamma \vdash p \vee q } \; \text {introduction 1} \\
 \end {gathered} $$
 
-<a href="http://www.seoweblog.net">Jasa SEO</a>
-<a href="http://www.seoweblog.net">Jasa SEO Murah</a>
-<a href="http://www.seoweblog.net">SEO Indonesia</a>
-<a href="http://www.seoweblog.net">SEO</a>
-<a href="http://www.bisnisukm.biz">Bisnis UKM</a>
-<a href="http://www.tertinggal.com">Tertinggal</a>
-<a href="http://www.bisnismodalkecil.org">Bisnis Modal Kecil</a>
-<a href="http://www.cheapes.info">Cheapes</a>
-<a href="http://www.hostgator-coupon.co">Hostgator Coupon</a>
-<a href="http://www.linkbooking.info">Link Booking</a>
-<a href="http://www.televisoriofferte.info">Televisori offerte</a>
-<a href="http://www.notebook-offerte.info">Notebook Offerte</a>
-<a href="http://www.govr.info">Govr</a>
-<a href="http://www.ezido.info">Edo Ziedo</a>
-<a href="http://www.portatileapple.info">Portatile Apple</a>
-<a href="http://www.rdanet.info">RDAnet</a>
-<a href="http://www.lorks.info">Lorks</a>
-<a href="http://www.karikaturmurah.com">Karikatur</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Toko Sepatu Online</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu</a>
-<a href="http://www.pusatsepatuonline.com">Sepatu Safety</a>
+
 [[!redirects disjunction]]
 [[!redirects logical disjunction]]
 [[!redirects inclusive disjunction]]
+[[!redirects additive disjunction]]
 [[!redirects or]]
 [[!redirects inclusive or]]
