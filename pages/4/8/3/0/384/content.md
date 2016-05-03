@@ -73,7 +73,16 @@ A CW-complex is a [[locally contractible topological space]].
 
 For instance ([Hatcher, prop. A.4](#Hatcher)). 
 
-### Compact generation
+### Compactness properties
+
++-- {: .num_prop }
+###### Proposition
+
+Every CW-complex is a [[paracompact topological space]].
+
+=--
+
+See for instance ([Hatcher K-theory, appendix of section 1.2](#HatcherK)). For a discussion that highlights which [[axiom of choice|choice principles]] are involved, see ([Fritsch-Piccinini 90, Theorem 1.3.5 (p. 29 and following)](#FP)).
 
 +-- {: .num_prop #CWComplexIsCompactlyGenerated}
 ###### Proposition
@@ -280,18 +289,22 @@ and hence that with the above the map $H_{n-1}(X_{n-1}) \to H_{n-1}(X)$ is surje
 
 * [[G-CW complex]]
 
+
 ## References
 
 Basic textbook accounts include
 
 * Brayton Gray, _Homotopy Theory: An Introduction to Algebraic Topology_, Academic Press, New York (1975). 
 
-* {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press (1999)
- 
+* {#May} [[Peter May]], _[[A Concise Course in Algebraic Topology]]_, U. Chicago Press (1999) 
 
 * {#Hatcher} [[Allen Hatcher]], _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_, 2002
   
 * {#HatcherTopologyOfCellComplexes} [[Allen Hatcher]], _Topology of cell complexes_ ([pdf](https://www.math.cornell.edu/~hatcher/AT/ATapp.pdf)) in _Algebraic Topology_
+
+* {#HatcherK} [[Alan Hatcher]], _Vector bundles & K-theory_ ([web](https://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
+
+* {#FP} Rudolf Fritsch and Renzo A. Piccinini, _Cellular structures in topology_, Cambridge studies in advanced mathematics Vol. 19, Cambridge University Press (1990). ([pdf](https://epub.ub.uni-muenchen.de/4493/1/4493.pdf)) 
 
 
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 5.1 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
