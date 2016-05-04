@@ -1,4 +1,10 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Shoshichi_Kobayashi)
 
+## related $n$Lab entries
+
+* [[differential geometry]]
+
+* [[G-structure]]
+
 category: people
