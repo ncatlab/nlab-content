@@ -7801,12 +7801,12 @@ $$
   \array{
     B' \times_B A_1 &\longrightarrow& A_1
     \\
-    \;\;\downarrow^{\mathrlap{u^* f \in F}} 
-    && \;\;\downarrow^{\mathrlap{f \in F}}
+    \;\;\downarrow^{\mathrlap{u^* f \in Fib}} 
+    && \;\;\downarrow^{\mathrlap{f \in Fib}}
     \\
     B' \times_B A_2 &\longrightarrow& A_2
     \\
-    \;\downarrow^{\mathrlap{\in F}} && \;\downarrow^{\mathrlap{\in F}}
+    \;\downarrow^{\mathrlap{\in Fib}} && \;\downarrow^{\mathrlap{\in Fib}}
     \\
     B' &\stackrel{u}{\longrightarrow}& B
   }
@@ -7897,12 +7897,12 @@ left vertical morphism in the [[pullback]]
 
 $$
   \array{
-    E \times_B B' &\to& B'
+    E \times_B B' &\longrightarrow& B'
     \\
     \downarrow^{\mathrlap{\Rightarrow \in W} } 
     && \;\downarrow^{\mathrlap{\in W}}
     \\
-    E &\stackrel{\in F}{\to}& B
+    E &\stackrel{\in Fib}{\longrightarrow}& B
   }
 $$
 
@@ -7930,12 +7930,12 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    Q &\stackrel{\in F}{\to}& Path(u)
+    Q &\stackrel{\in Fib}{\to}& Path(u)
     \\
-    \;\;\downarrow^{\mathrlap{\in W \cap F}} 
-    && \;\;\downarrow^{\mathrlap{\in W \cap F}}
+    \;\;\downarrow^{\mathrlap{\in W \cap Fib}} 
+    && \;\;\downarrow^{\mathrlap{\in W \cap Fib}}
     \\
-    E &\stackrel{\in F}{\to}& B
+    E &\stackrel{\in Fib}{\longrightarrow}& B
   }
   \,,
 $$
@@ -7952,26 +7952,31 @@ map to a weak equivalence under pullback along a fibration.
 
 Given such $u$ with right inverse $v$, consider the pullback diagram
 
+
 $$
   \array{
+    & E
+    \\ 
+    & 
+    {}^{\mathllap{{(p,id)}\atop \in W}}\downarrow
+    & 
+      \searrow^{\mathrlap{id}}
+    \\
+    E_1 \coloneqq 
+      & 
+    B \times_{B'} E 
+      &
+    \stackrel{\in W \cap Fib }{\longrightarrow} 
+      & 
     E
     \\
-    & {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
+    & \downarrow^{\mathrlap{\in Fib}} && \downarrow^{\mathrlap{p \in Fib }}
     \\
-    &&
-       E_1 \coloneqq B \times_{B'} E 
-    &
-       \stackrel{\in W \cap F}{\to} 
-    & 
-       E
+    & &(pb)& B 
     \\
-    &&\downarrow^{\mathrlap{\in F}} && \downarrow^{\mathrlap{p \in F}}
+    & \downarrow && \downarrow^{\mathrlap{v \in W \cap Fib}}
     \\
-    &&&& B 
-    \\
-    &&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
-    \\
-    &&B &\stackrel{v \in W \cap F}{\to}& B'
+    & B &\overset{v \in Fib \cap W}{\longrightarrow}& B'
   }
   \,.
 $$
@@ -7980,41 +7985,49 @@ Notice that the indicated universal morphism  $p \times Id \colon E \stackrel{\i
 
 The previous lemma \ref{BaseChangePreservesFibrationsAndWeakEquivalences} says that weak equivalences between fibrations over $B$ are themselves preserved by base extension along $u \colon B' \to B$. In total this yields the following diagram
 
+
 $$
   \array{
+    && 
     u^* E = B' \times_B E
-    &\longrightarrow &E
+      &\longrightarrow &
+    E
     \\
-    &{}_{\in W}\searrow^{u^*(p \times Id)}
-    && {}_{\in W}\searrow^{p \times Id} && \searrow^{Id}
+    && 
+    {}^{\mathllap{ {u^*(p \times Id)} \atop {\in W} }}\downarrow
+      && 
+    {}^{\mathllap{ {p \times Id} \atop {\in W}  }}\downarrow 
+     &  
+    \searrow^{\mathrlap{id}}
     \\
     &&
     u^* E_1
-    &\longrightarrow&
-       E_1     &
-       \stackrel{\in W \cap F}{\to} 
-    & 
-       E
+      &\longrightarrow&
+    E_1     
+      &\stackrel{\in W \cap Fib}{\longrightarrow}& 
+    E
     \\
-    &&\downarrow^{\mathrlap{\in F}}&&\downarrow^{\mathrlap{\in F}} 
-    && \downarrow^{\mathrlap{p \in F}}
+    &&\downarrow^{\mathrlap{\in Fib}}&&\downarrow^{\mathrlap{\in Fib}} 
+    && \downarrow^{\mathrlap{p \in Fib}}
     \\
     &&&&&& B 
     \\
-    &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in F \cap W}}
+    &&\downarrow&&\downarrow && \downarrow^{\mathrlap{v \in W \cap Fib}}
     \\
     &&
     B'
-    &\stackrel{u}{\to}&
-    B &\stackrel{v \in W \cap F}{\to}& B'
+      &\stackrel{u}{\longrightarrow}&
+    B 
+      &\stackrel{v \in W \cap Fib}{\longrightarrow}& 
+    B'
   }
 $$
 
 so that with $p \times Id  : E \to E_1$ a weak equivalence also $u^* (p \times Id)$ is a weak equivalence, as indicated.
 
-Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence. By 2-out-of-3 for that it is now sufficient to show that $u^* E_1  \to E_1$ is a weak equivalence.
+Notice that $u^* E = B' \times_B E \to E$ is the morphism that we want to show is a weak equivalence. By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) for that it is now sufficient to show that $u^* E_1  \to E_1$ is a weak equivalence.
 
-That finally follows now since, by assumption, the total bottom horizontal morphism is the identity. Hence so is the top horizontal morphism. Hence $u^\ast E_1  \to E_1$ is right inverse to a weak equivalence, hence is a weak equivalence.
+That finally follows now since, by assumption, the total bottom horizontal morphism is the identity. Hence so is the top horizontal morphism. Therefore $u^\ast E_1  \to E_1$ is right inverse to a weak equivalence, hence is a weak equivalence.
 
 =--
 
@@ -8212,8 +8225,80 @@ $$
 
 is the morphism in the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$, def. \ref{HomotopyCategoryOfAModelCategory}, which is represented by the [[cofiber]], example \ref{FiberAndCofiberInPointedObjects}, of any cofibration resolution of $f$ (hence any cofibration $\tilde f$ such that $f$ factors as $\tilde f$ followed by a weak equivalence).
 
+=--
+
++-- {: .num_prop #HomotopyFiberIndependentOfChoiceOfFibrantReplacement}
+###### Proposition
+
+The homotopy fiber in def. \ref{HomotopyFiber} is indeed well defined,in that for $f_1$ and $f_2$ two fibration replacements of any morphisms $f$ in $\mathcal{C}_f$, then their fibers are isomorphic in $Ho(\mathcal{C}^{\ast/})$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to exhibit an isomorphism in $Ho(\mathcal{C}^{\ast/})$ from the fiber of the fibration replacement given by the [[factorization lemma]] \ref{FactorizationLemma} (for any choice of [[path space object]]) to the fiber of any other fibration resolution.
+
+Hence given a morphism $f \colon Y \longrightarrow X$ and a factorization
+
+$$
+  f
+  \;\colon\;
+  X 
+    \underset{\in W}{\longrightarrow}
+  \hat X 
+   \underoverset{f_1}{\in Fib}{\longrightarrow}
+  Y
+$$
+
+consider, for any choice $Path(Y)$ of [[path space object]] (def. \ref{PathAndCylinderObjectsInAModelCategory}),  the diagram
+
+$$
+  \array{
+    Path(f) &\overset{\in W \cap Fib}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\in W}}\downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{\in W}}
+    \\
+    Path(f_1) &\overset{\in W \cap Fib}{\longrightarrow}& \hat X
+    \\
+    {}^{\mathllap{\in Fib}}\downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{ {f_1} \atop {\in Fib}}}
+    \\
+    Path(Y) &\underoverset{\in W \cap Fib}{p_1}{\longrightarrow}& Y
+    \\
+    {}^{\mathllap{ {p_0} \atop \in W \cap Fib}}\downarrow
+    \\
+    Y
+  }
+$$
+
+as in the proof of lemma \ref{FactorizationLemma}. Now by repeatedly using prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences}:
+
+1. the bottom square gives a weak equivalence form the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $f_1$;
+
+1. The square
+
+   $$
+     \array{
+        Path(f_1) &\overset{id}{\longrightarrow}& Path(f_1)
+        \\
+        \downarrow && \downarrow
+        \\
+        Path(Y) &\longrightarrow& Y
+     }
+   $$
+
+   gives a weak equivalence form the fiber of $Path(f_1) \to Path(Y)$ to the fiber of $Path(f_1)\to Y$.
+
+1. Similarly the total vertical composite gives a weak equivalence from the fiber of $Path(f) \to Y$ to the fiber of $Path(f_1)\to Y$.
+
+Together this is a [[zig-zag]] of weak equivalences between the fiber of $Path(f) \to Y$ and the fiber of $f_1$. This gives an isomorphism in the homotopy category.
+
+=--
+
 
 +-- {: .num_example #FibersOfSerreFibrations}
 ###### Example
