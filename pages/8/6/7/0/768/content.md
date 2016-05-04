@@ -164,7 +164,7 @@ $$
   }
 $$
 
-and the projection from the complex Stiefel manifold to the Grassmannian us a $U(n)$-principal bundle.
+and the projection from the complex Stiefel manifold to the Grassmannian us a $U(n)$-[[principal bundle]]:
 
 $$
   \array{
@@ -174,6 +174,7 @@ $$
     \\
     && Gr_n(\mathbb{C}^k)
   }
+  \,.
 $$
 
 =--
@@ -218,13 +219,13 @@ respectively.
 Moreover, by def. \ref{StiefelManifold} there are canonical inclusions 
 
 $$
-   V_n(\mathbb{R}^k) \hookrightarrow V_n(mathbb{R}^{k+1})
+   V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})
 $$ 
 
 and
 
 $$
-  V_n(\mathbb{C}^k) \hookrightarrow V_n(mathbb{C}^{k+1})
+  V_n(\mathbb{C}^k) \hookrightarrow V_n(\mathbb{C}^{k+1})
   \,,
 $$ 
 
@@ -367,10 +368,10 @@ e.g. ([James 59, p. 3](Stiefel+manifold#James59), [James 76, p. 5 with p. 21](St
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop }
 ###### Proposition
 
-The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(n-1)-connected]].
+The [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(k-n-1)-connected]].
 
 =--
 
@@ -380,30 +381,30 @@ The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected 
 Consider the [[coset]] [[quotient]] [[projection]]
 
 $$
-  O(n)
+  O(k-n)
     \longrightarrow
   O(k)
     \longrightarrow
-  O(k)/O(n) 
+  O(k)/O(k-n) 
     = 
   V_n(\mathbb{R}^k)
   \,.
 $$
 
-By [this prop.](orthogonal+group#OrthogonalGroupIsCompact) and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
     \to
-  \pi_{\bullet \leq n-1}(O(k))
+  \pi_{\bullet \leq k-n-1}(O(k-n))
     \overset{epi}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(O(n))
+  \pi_{\bullet \leq k-n-1}(O(k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(V_n(k))
+  \pi_{\bullet \leq k-n-1}(V_n(\mathbb{R}^k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(k))
+  \pi_{\bullet-1 \lt k-n-1}(O(k))
     \overset{\simeq}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(n))
+  \pi_{\bullet-1 \lt k-n-1}(O(k-n))
     \to
   \cdots
   \,.
@@ -411,24 +412,87 @@ $$
 
 This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(\mathbb{R}^k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
 
+
 =--
+
+Similarly:
+
++-- {: .num_prop }
+###### Proposition
+
+The complex [[Stiefel manifold]] $V_n(\mathbb{C}^k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|2(k-n)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  U(k-n)
+    \longrightarrow
+  U(k)
+    \longrightarrow
+  U(k)/U(k-n) 
+    = 
+  V_n(\mathbb{C}^k)
+  \,.
+$$
+
+By prop. \ref{UnitaryGroupIsCompact} and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $U(k)\to U(k)/U(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq 2(k-n)}(U(k-n))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(U(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(V_n(\mathbb{C}^k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k-n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. 
+
+
+=--
+
+
 
 +-- {: .num_cor #EOnIsWeaklyContractible}
 ###### Corollary
 
 The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
+The colimiting space $E U(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+
+
 =--
 
 +-- {: .num_prop #HomotopyGroupsOfBOnThoseOfOnShifted}
 ###### Proposition
 
-The [[homotopy groups]] of the classifying space $B O(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ shifted up in degree: there is an [[isomorphism]]
+The [[homotopy groups]] of the classifying spaces $B O(n)$ and $B U(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ and of the [[unitary group]] $U(n)$, respectively, shifted up in degree: there are [[isomorphisms]]
 
 $$
   \pi_{\bullet+1}(B O(n))
-  \simeq
+    \simeq
   \pi_\bullet O(n)
+$$
+
+and
+
+$$
+  \pi_{\bullet+1}(B U(n))
+    \simeq
+  \pi_\bullet U(n)
 $$
 
 (for homotopy groups based at the canonical basepoint).
@@ -477,6 +541,7 @@ $$
 
 is an isomorphism.
 
+The same kind of argument applies to the complex case.
 
 =--
 
@@ -484,7 +549,7 @@ is an isomorphism.
 +-- {: .num_prop }
 ###### Proposition
 
-For $n \in \mathbb{N}$ there is a [[homotopy fiber sequence]]
+For $n \in \mathbb{N}$ there are [[homotopy fiber sequences]]
 
 $$
   S^n
@@ -492,10 +557,20 @@ $$
   B O(n)
     \longrightarrow
   B O(n+1)
+$$
+
+and
+
+$$
+  S^{2n+1}
+    \longrightarrow 
+  B U(n)
+    \longrightarrow
+  B U(n+1)
   \,.
 $$
 
-This means, there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
+This means, that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
 
 $$
   \array{
@@ -507,7 +582,7 @@ $$
   }
 $$
 
-such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$.
+such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$, and analogously for the complex case.
 
 =--
 
@@ -563,12 +638,20 @@ $$
   \,.
 $$
 
-The claim then follows since ([this exmpl.](coset#nSphereAsCosetSpace))
+The claim in then follows since ([this exmpl.](coset#nSphereAsCosetSpace))
 
 $$
   O(n+1)/O(n) \simeq S^n
   \,.
 $$
+
+The argument for the complex case is of the same form, concluding now with the identification ([this exmpl.](unitary+group#nSphereAsUnitaryCosetSpace))
+
+$$
+  U(n+1)/U(n) \simeq S^{2n+1}
+  \,.
+$$
+
 
 =--
 
