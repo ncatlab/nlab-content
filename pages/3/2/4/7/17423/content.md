@@ -1,4 +1,5 @@
-An __archetypal example__ of a notion in mathematics is a class of examples such that every instance of the notion in some sense reduces to the archetypal example: by being isomorphic to it, equivalent in some other sense, or at least that the archetypal example has all essential features (for the problem at hand) found in general case.
+
+An __archetypal example__ of a notion in mathematics is a class of examples such that every instance of the notion in some sense reduces to it: by being isomorphic to it, equivalent in some other sense, or at least that the archetypal example has all essential features (for the problem at hand) found in general case.
 
 It is often the case that the fact that some example is in fact archetypal is an insight which comes only after nontrivial study of the subject. Its special role is often a conjecture in the development of the subject. The terminology is not meant so much to label the subclasses of objects, as to emphasise on the exhaustive status of some examples in studying the general case of the notion. It is often used not only for objects but often for procedures, algorithms and alike. 
 
