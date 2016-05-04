@@ -64,14 +64,14 @@ Consider the [[coset]] [[quotient]] [[projection]]
 
 $$
   O(n)
-  \longrightarrow
+    \longrightarrow
   O(n+1)
-  \longrightarrow
+    \longrightarrow
   O(n+1)/O(n)
   \,.
 $$
 
-By prop. \ref{OrthogonalGroupIsCompact} and by [this corolary](coset+QuotientProjectionForCompactLieSubgroupIsPrincipal), the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corollary](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal), the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
 
 $$
   S^{n}\simeq O(n+1)/O(n)
@@ -219,20 +219,20 @@ For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defini
 +-- {: .num_example #StiefelManifold}
 ###### Example
 
-The [[coset]]
+For $n \leq k$, the [[coset]]
 
 $$
-   V_n(k) \coloneqq O(k)/O(n)
+   V_n(\mathbb{R}^k) \coloneqq O(k)/O(k-n)
 $$
 
-is called the $n$th _[[Stiefel manifold]]_ of $\mathbb{R}^k$.
+is called the $n$th _real [[Stiefel manifold]]_ of $\mathbb{R}^k$.
 
 =--
 
 +-- {: .num_prop }
 ###### Proposition
 
-The [[Stiefel manifold]] $V_n(k)$ is [[n-connected topological space|(n-1)-connected]].
+The [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ (example \ref{StiefelManifold}) is [[n-connected topological space|(k-n-1)-connected]].
 
 =--
 
@@ -242,36 +242,36 @@ The [[Stiefel manifold]] $V_n(k)$ is [[n-connected topological space|(n-1)-conne
 Consider the [[coset]] [[quotient]] [[projection]]
 
 $$
-  O(n)
+  O(k-n)
     \longrightarrow
   O(k)
     \longrightarrow
-  O(k)/O(n) 
+  O(k)/O(k-n) 
     = 
-  V_n(k)
+  V_n(\mathbb{R}^k)
   \,.
 $$
 
-By prop. \ref{OrthogonalGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following structure in degrees bounded by $n$:
+By prop. \ref{OrthogonalGroupIsCompact} and by [this corollary](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
     \to
-  \pi_{\bullet \leq n-1}(O(k))
+  \pi_{\bullet \leq k-n-1}(O(k-n))
     \overset{epi}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(O(n))
+  \pi_{\bullet \leq k-n-1}(O(k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(V_n(k))
+  \pi_{\bullet \leq k-n-1}(V_n(\mathbb{R}^k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(k))
+  \pi_{\bullet-1 \lt k-n-1}(O(k))
     \overset{\simeq}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(n))
+  \pi_{\bullet-1 \lt k-n-1}(O(k-n))
     \to
   \cdots
   \,.
 $$
 
-This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
+This implies the claim. (Exactness of the sequence says that every element in $\pi_{\bullet \leq n-1}(V_n(\mathbb{R}^k))$ is in the kernel of zero, hence in the image of 0, hence is 0 itself.)
 
 
 =--
