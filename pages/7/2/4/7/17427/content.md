@@ -13,6 +13,8 @@ $$ A,B,(C;(D,E);F),(G;H) \vdash K $$
 
 The sub-contexts surrounded by parentheses are informally called *bunches*.  The phrase *bunched logic* is not entirely standard, although the word "bunches" has been used for multiple logics of this form.
 
+Each type of punctuation also comes with a nullary version.  The punctuation symbols like comma and semicolon are sometimes called *structural connectives*, since they are part of the judgmental structure (like [[structural rules]]) but are closely related to the [[logical connectives]] such as conjunction and disjunction.
+
 Usually the reason for using a bunched logic is that the bunches of different sorts obey different [[structural rules]].  For instance, the semicolon-bunches might allow the [[contraction rule]] and/or the [[weakening rule]], while the comma-bunches do not.
 
 ## Examples
@@ -58,3 +60,5 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.
 [[!redirects bunched implication]]
 [[!redirects bunched implications]]
 [[!redirects BI]]
+[[!redirects structural connective]]
+[[!redirects structural connectives]]
