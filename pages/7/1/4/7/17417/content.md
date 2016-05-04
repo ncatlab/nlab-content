@@ -46,6 +46,64 @@ Since doing group [representation theory](representation+theory#in_homotopy_type
 
 Restriction to 1-groups is unnecessary here, and we may speak of a regular [[infinity-action]] by an [[infinity-group]] as one with contractible homotopy quotient.
 
+For any $G$-action $X : BG \to U$, we define
+$$
+BAut_G(X) := \sum_{(P:BG \to U)} \|P=X\|
+$$
+and 
+$$\tilde{X} : BAut_G(X) \to U$$ 
+by $\tilde{X}(P,-) := P(\ast)$.
+
++-- {: .num_prop}
+###### Proposition
+If $X$ is regular, then $\tilde{X}$ is regular.
+=--
+
++-- {: .proof} 
+###### Proof
+First, we need to argue that $X(\ast)$ is merely inhabited. Since $X$ is regular, we have $\sum_{(b:BG)} X(b)$ contractible. This gives a center of contraction $(b,x)$. Now, since $BG$ is connected, it follows that $\|b=\ast\|$. Since we are proving the mere proposition $\|X(\ast)\|$, we get to use $b=\ast$. Now we obtain $\|X(\ast)\|$ . 
+
+Next, to show that $\tilde{X}$ is regular we need to show that $\tilde{X}$ has a contractible total space. The type $\sum_{(b : BAut_G(X))} \tilde{X}(b)$ is equivalent to $\sum_{(P:BG \to U)} \|P=X\| \times P(\ast)$. Contractibility is a mere proposition, and we have $\|X(\ast)\|$, so we get to use a point $x:X(\ast)$. This gives us a center of contraction $(X,refl,x)$ of the total space of $\tilde{X}$. 
+
+Now let $P : BG \to U$, let $ \| P = X \|$, let $p_0 : P(\ast)$. To show regularity, it suffices to find a term of type
+
+$\sum_{\alpha : P = X} \mathrm{trans}(\alpha)(p_0) = x$
+
+This type is equivalent to showing that there are
+
+$K : \prod_{b:BG} P(b) \simeq X(b)$, and
+$K(*,p_0) = x_0$
+
+Now we use that $X(b)$ is equivalent to $b=\ast$ (we get this fact from regularity, together with a point $x:X(\ast)$). 
+Since we need this particular fiberwise equivalence, it suffices to show that
+
+$\sum_{b:BG} P(b)$
+
+is contractible. Now this is a mere proposition, so we can eliminate $t : \| P = X \|$ to obtain the proof.
+=--
+
++-- {: .num_prop}
+###### Proposition
+If $X$ is a principal homogeneous space on $G$, in the sense that the type $\sum_{(g:G)} g_\ast(x)=y$ is contractible for all $x,y:X(\ast)$, and $\tilde{X}$ is regular, then $X$ is regular.
+=--
+
++-- {: .proof}
+###### Proof
+Again, we first show that $X(\ast)$ is merely inhabited. The total space of $\tilde{X}$ has center of contraction $(P,p_0)$. Since $\|P=X\|$ and since we are proving a mere proposition, we get to use $P=X$. Now $\|X(\ast)\|$ follows from $p_0:P(\ast)$. The regularity of $X$ is a mere proposition, so we get to use $x_0:X(\ast)$. This gives us the center of contraction $(\ast,x_0)$. It remains to show that
+
+$\prod_{(b:BG)} \prod_{(x:X(b))} \sum_{(\alpha : b=\ast)} \mathrm{trans}(\alpha,x) = x_0$.
+
+Of course, it would suffice to prove the stronger statement
+
+$\prod_{(b:BG)} \prod_{(x:X(b))} \mathrm{isContr} (\sum_{(\alpha : b=\ast)} \mathrm{trans}(\alpha,x) = x_0)$.
+
+However, now we get to use that $BG$ is connected. Therefore it suffices to show that
+
+$\prod_{x:X(*)} isContr (\sum_{\alpha : G} \mathrm{trans}(\alpha,x) = x_0)$
+
+This holds by assumption.
+=--
+
 ## Related concepts
 
 * [[free action]]
