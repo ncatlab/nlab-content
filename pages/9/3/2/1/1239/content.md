@@ -25,11 +25,9 @@ _Representation theory_ is concerned with the study of [[algebra|algebraic]] [[s
 See also at _[[geometric representation theory]]_.
 
 ## In homotopy type theory
+ {#InHomotopyTypeTheory}
 
-The fundamental of representation theory have a particular natural formulation in 
-[[homotopy theory]] and in fact in [[homotopy type theory]], which also 
-refines it from the study of [[representations]] of [[groups]] to that of    
-[[∞-representations]] of [[∞-groups]]. This includes both [[discrete ∞-groups]] as well as [[geometric homotopy types]] such as [[smooth ∞-groups]], the higher analog of [[Lie groups]].
+The fundamental concept of representation theory have a particular natural formulation in  [[homotopy theory]] and in fact in [[homotopy type theory]], which also  refines it from the study of [[representations]] of [[groups]] to that of     [[∞-representations]] of [[∞-groups]]. This includes both [[discrete ∞-groups]] as well as [[geometric homotopy types]] such as [[smooth ∞-groups]], the higher analog of [[Lie groups]].
 
 The key observation to this translation is that 
 
