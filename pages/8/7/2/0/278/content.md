@@ -93,7 +93,7 @@ Similarly, standard models of [[synthetic differential geometry]] in [[higher ge
 
 Textbooks include
 
-* Shoshichi Kobayashi, Katsumi Nomizu, _Foundations of differential geometry_ , Wiley Classics Library
+* [[Shoshichi Kobayashi]], [[Katsumi Nomizu]], _Foundations of differential geometry_ , Volume 1 (1963), Volume 2 (1969), Interscience Publishers, reprinted 1996 by Wiley Classics Library
 
 * [[Michael Spivak]], _A comprehensive introduction to differential geometry_ (5 Volumes) 
 
