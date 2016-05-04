@@ -50,6 +50,8 @@ a weak homotopy equivalence.
 
 ## References
 
+* {#tomDieck08} [[Tammo tom Dieck]], section 8.6 of _Algebraic topology_, EMS (2008)
+
 * {#Hatcher} [[Allen Hatcher]], _Algebraic topology_, Cambridge Univ. Press 2002; Chapter 4, [Section 4.1 pdf](http://www.math.cornell.edu/~hatcher/AT/AT-CWapprox.pdf)
 
 
