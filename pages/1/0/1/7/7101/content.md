@@ -32,6 +32,10 @@ The universal principal bundle is characterized, up to equivalence, by its total
 
 More generally, we can ask for a universal bundle for _numerable_ bundles, that is principal bundles which admit a trivialisation over a [[numerable]] [[open cover]]. Such a bundle exists, and classifies numerable bundles over _all_ topological spaces, not just [[paracompact]] spaces or CW-complexes.
 
+## Details
+
+See at _[[classifying space]]_.
+
 ## Related concepts
 
 * [[classifying space]]
