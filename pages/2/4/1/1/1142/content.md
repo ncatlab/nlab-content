@@ -147,3 +147,6 @@ The second definition is discussed for instance in section 17.1 of
 
 * [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_
 
+[[!redirects ccc structure on presheaves]]
+[[!redirects cartesian closed structure on presheaves]]
+[[!redirects cartesian closed monoidal structure on presheaves]]
