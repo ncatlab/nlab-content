@@ -72,7 +72,8 @@ $$
 to [[generalized the|the]] [[object classifier]], that modulates $X$ (the "name" of $X$).
 
 
-### In the syntax of homotopy type theory
+### In homotopy type theory
+ {#InHomotopyTypeTheory}
 
 Let $\mathcal{C}$ be an [[(∞,1)-topos]]. Then its [[internal language]] is [[homotopy type theory]]. In terms of this the object $X \in \mathcal{C}$ is a [[type]] ([[homotopy type]]). In the type theory syntax the internal automorphism $\infty$-group $\mathbf{Aut}(X)$ then is (as a type, without yet the group structure)
 
