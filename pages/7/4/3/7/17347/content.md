@@ -3333,52 +3333,6 @@ All this generalizes, for instance from tangent bundles to [[normal bundles]] wi
 
 ##### Coset spaces
 
-+-- {: .num_example #nSphereAsCosetSpace}
-###### Example
-
-The [[n-spheres]] are [[coset]] spaces of [[orthogonal groups]]:
-
-$$
-  S^n \simeq O(n+1)/O(n)
-  \,.
-$$
-
-The odd-dimensional spheres are also coset spaces of [[unitary groups]]:
-
-$$
-  S^{2n+1}
-  \simeq
-  U(n+1)/U(n)
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Regarding the first statement:
-
-Fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
-
-The second statement follows by the same kind of reasoning:
-
-Clearly $U(n+1)$ [[transitive action|acts transitively]] on the unit sphere $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
-
-$$
-  \left(
-    \array{
-      1 & \vec 0
-      \\
-      \vec 0 & A
-    }
-  \right)
-$$
-
-where $A \in U(n)$.
-
-=--
-
-
 +-- {: .num_prop #QuotientProjectionForCompactLieGroupActingFreelyOnManifoldIsPrincipa}
 ###### Proposition
 
@@ -3436,6 +3390,212 @@ $$
 
 =--
 
+##### Orthogonal and Unitary groups
+
++-- {: .num_prop #OrthogonalGroupIsCompact}
+###### Proposition
+
+The orthogonal group $O(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
+ 
+=--
+
++-- {: .num_prop #UnitaryGroupIsCompact}
+###### Proposition
+
+The unitary group $U(n)$ is [[compact topological space]], hence in particular a [[compact Lie group]].
+ 
+=--
+
++-- {: .num_example #nSphereAsCosetSpace}
+###### Example
+
+The [[n-spheres]] are [[coset]] spaces of [[orthogonal groups]]:
+
+$$
+  S^n \simeq O(n+1)/O(n)
+  \,.
+$$
+
+The odd-dimensional spheres are also coset spaces of [[unitary groups]]:
+
+$$
+  S^{2n+1}
+  \simeq
+  U(n+1)/U(n)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+Fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+The second statement follows by the same kind of reasoning:
+
+Clearly $U(n+1)$ [[transitive action|acts transitively]] on the unit sphere $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
+
+$$
+  \left(
+    \array{
+      1 & \vec 0
+      \\
+      \vec 0 & A
+    }
+  \right)
+$$
+
+where $A \in U(n)$.
+
+=--
+
+
++-- {: .num_prop #InclusionOfOnIntoOkIsnMinus1Equivalence}
+###### Proposition
+
+For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of [[orthogonal groups]]
+
+$$
+  O(n) \hookrightarrow O(k)
+$$
+
+is an [[n-equivalence|(n-1)-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt n-1$ and a [[surjection]] in degree $n-1$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  O(n)
+    \longrightarrow
+  O(n+1)
+    \longrightarrow
+  O(n+1)/O(n)
+  \,.
+$$
+
+By prop. \ref{OrthogonalGroupIsCompact} and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $O(n+1)\to O(n+1)/O(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere]] 
+
+$$
+  S^{n}\simeq O(n+1)/O(n)
+  \,.
+$$
+
+Therefore the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups))of the [[fiber sequence]] $O(n)\to O(n+1)\to S^n$ has the form
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet+1}(S^n)
+    \longrightarrow
+  \pi_\bullet(O(n))
+    \longrightarrow
+  \pi_\bullet(O(n+1))
+    \longrightarrow
+  \pi_\bullet(S^n)
+   \to
+  \cdots
+$$
+
+Since $\pi_{\lt n}(S^n) = 0$, this implies that 
+
+$$
+  \pi_{\lt n-1}(O(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\lt n-1}(O(n+1))
+$$
+
+is an isomorphism and that
+
+$$
+  \pi_{n-1}(O(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{n-1}(O(n+1))
+$$
+
+is surjective. Hence now the statement follows by [[induction]] over $k-n$.
+
+=--
+
+Similarly:
+
++-- {: .num_prop #InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence}
+###### Proposition
+
+For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of [[unitary groups]]
+
+$$
+  U(n) \hookrightarrow U(k)
+$$
+
+is a [[n-equivalence|2n-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt 2n$ and a [[surjection]] in degree $2n$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  U(n)
+  \longrightarrow
+  U(n+1)
+  \longrightarrow
+  U(n+1)/U(n)
+  \,.
+$$
+
+By prop. \ref{UnitaryGroupIsCompact} and corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $U(n+1)\to U(n+1)/U(n)$ is a [[Serre fibration]]. Furthermore, example \ref{nSphereAsCosetSpace} identifies the [[coset]] with the [[n-sphere|(2n+1)-sphere]] 
+
+$$
+  S^{2n+1}\simeq U(n+1)/U(n)
+  \,.
+$$
+
+Therefore the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups))of the [[fiber sequence]] $U(n)\to U(n+1) \to S^{2n+1}$ is of the form
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet+1}(S^{2n+1})
+    \longrightarrow
+  \pi_\bullet(U(n))
+    \longrightarrow
+  \pi_\bullet(U(n+1))
+    \longrightarrow
+  \pi_\bullet(S^{2n+1})
+   \to
+  \cdots
+$$
+
+Since $\pi_{\leq 2n}(S^{2n+1}) = 0$, this implies that 
+
+$$
+  \pi_{\lt 2n}(U(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\lt 2n}(U(n+1))
+$$
+
+is an isomorphism and that
+
+$$
+  \pi_{2n}(U(n))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{2n}(U(n+1))
+$$
+
+is surjective. Hence now the statement follows by induction over $k-n$.
+
+=--
+
+
+
 ##### Stiefel manifolds and Grassmannians
 
 Throughout we work in the [[category]] $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)). For these the [[Cartesian product]] $X \times (-)$ is a [[left adjoint]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CartesianClosureOfTopcg)) and hence preserves [[colimits]].
@@ -3453,7 +3613,17 @@ $$
 
 where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrightarrow O(k)$.
 
+Similarly the $n$th **complex Stiefel manifold** of $\mathbb{C}^k$ is
+
+$$
+  V_n(\mathbb{C}^k) \coloneqq U(k)/U(k-n)
+  \,,
+$$
+
+here the [[action]] of $U(k-n)$ is via its canonical embedding $U(k-n)\hookrightarrow U(k)$.
+
 =--
+
 
 +-- {: .num_defn #RealAndComplexGrassmannian}
 ###### Definition
@@ -3503,12 +3673,29 @@ $$
     \\
     && Gr_n(\mathbb{R}^k)
   }
+$$
+
+and the projection from the complex Stiefel manifold to the Grassmannian us a $U(n)$-[[principal bundle]]:
+
+$$
+  \array{
+    U(n) &\hookrightarrow& V_n(\mathbb{C}^k)
+    \\
+    && \downarrow 
+    \\
+    && Gr_n(\mathbb{C}^k)
+  }
   \,.
 $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
 By prop \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} and prop \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}.
+
+=--
 
 +-- {: .num_prop #CWComplexStructure}
 ###### Proposition
@@ -3534,10 +3721,10 @@ $$
 
 A proof is spelled out in ([Hatcher, section 1.2 (pages 31-34)](Grassmannian#Hatcher)). 
 
-+-- {: .num_prop}
++-- {: .num_prop #CWComplexStructureOnStiefelManifold}
 ###### Proposition
 
-The [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ from def. \ref{StiefelManifold} admits the structure of a [[CW-complex]].
+The [[Stiefel manifolds]] $V_n(\mathbb{R}^k)$ and $V_n(\mathbb{C}^k)$ from def. \ref{StiefelManifold} admits the structure of a [[CW-complex]].
 
 =--
 
@@ -3547,10 +3734,10 @@ e.g. ([James 59, p. 3](Stiefel+manifold#James59), [James 76, p. 5 with p. 21](St
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #RealStiefelManifoldIsHighlyConnected}
 ###### Proposition
 
-The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(n-1)-connected]].
+The real [[Stiefel manifold]] $V_n(\mathbb{R}^k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|(k-n-1)-connected]].
 
 =--
 
@@ -3560,30 +3747,30 @@ The [[Stiefel manifold]] $V_n(k)$ (def. \ref{StiefelManifold}) is [[n-connected 
 Consider the [[coset]] [[quotient]] [[projection]]
 
 $$
-  O(n)
+  O(k-n)
     \longrightarrow
   O(k)
     \longrightarrow
-  O(k)/O(n) 
+  O(k)/O(k-n) 
     = 
   V_n(\mathbb{R}^k)
   \,.
 $$
 
-Since the [[orthogonal group]] is a [[compact Lie group]] ([this prop.](orthogonal+group#OrthogonalGroupIsCompact)), by cor. \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the projection $O(k)\to O(k)/O(n)$ is a [[Serre fibration]]. Therefore there is the [[long exact sequence of homotopy groups]] of this [[fiber sequence]] and by [this prop.](orthogonal+group#InclusionOfOnIntoOkIsnMinus1Equivalence) it has the following structure in degrees bounded by $n$:
+By prop. \ref{OrthogonalGroupIsCompact} and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}, the projection $O(k)\to O(k)/O(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfOnIntoOkIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
     \to
-  \pi_{\bullet \leq n-1}(O(k))
+  \pi_{\bullet \leq k-n-1}(O(k-n))
     \overset{epi}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(O(n))
+  \pi_{\bullet \leq k-n-1}(O(k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet \leq n-1}(V_n(k))
+  \pi_{\bullet \leq k-n-1}(V_n(\mathbb{R}^k))
     \overset{0}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(k))
+  \pi_{\bullet-1 \lt k-n-1}(O(k))
     \overset{\simeq}{\longrightarrow}
-  \pi_{\bullet-1 \lt n-1}(O(n))
+  \pi_{\bullet-1 \lt k-n-1}(O(k-n))
     \to
   \cdots
   \,.
@@ -3593,6 +3780,53 @@ This implies the claim. (Exactness of the sequence says that every element in $\
 
 =--
 
+Similarly:
+
++-- {: .num_prop #ComplexStiefelManifoldIsHighlyConnected}
+###### Proposition
+
+The complex [[Stiefel manifold]] $V_n(\mathbb{C}^k)$ (def. \ref{StiefelManifold}) is [[n-connected topological space|2(k-n)-connected]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[coset]] [[quotient]] [[projection]]
+
+$$
+  U(k-n)
+    \longrightarrow
+  U(k)
+    \longrightarrow
+  U(k)/U(k-n) 
+    = 
+  V_n(\mathbb{C}^k)
+  \,.
+$$
+
+By prop. \ref{UnitaryGroupIsCompact} and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the projection $U(k)\to U(k)/U(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+
+$$
+  \cdots
+    \to
+  \pi_{\bullet \leq 2(k-n)}(U(k-n))
+    \overset{epi}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(U(k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet \leq 2(k-n)}(V_n(\mathbb{C}^k))
+    \overset{0}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k))
+    \overset{\simeq}{\longrightarrow}
+  \pi_{\bullet-1 \lt 2(k-n)}(U(k-n))
+    \to
+  \cdots
+  \,.
+$$
+
+This implies the claim. 
+
+=--
  
 
 
@@ -3601,21 +3835,62 @@ This implies the claim. (Exactness of the sequence says that every element in $\
 +-- {: .num_defn #EOn}
 ###### Definition
 
-By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions is denoted
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions 
+
+$$
+  Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})
+$$ 
+
+and
+
+$$
+  Gr_n(\mathbb{C}^k) \hookrightarrow Gr_n(\mathbb{C}^{k+1})
+$$ 
+
+for all $k \in \mathbb{N}$. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions is denoted
 
 $$
   B O(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
-  \,.
 $$
 
-By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
+and
+
+$$
+  B U(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{C}^k)
+  \,,
+$$
+
+respectively.
+
+Moreover, by def. \ref{StiefelManifold} there are canonical inclusions 
+
+$$
+   V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})
+$$ 
+
+and
+
+$$
+  V_n(\mathbb{C}^k) \hookrightarrow V_n(\mathbb{C}^{k+1})
+$$ 
+
+that are compatible with the $O(n)$-[[action]] and with the $U(n)$-action, respectively. The [[colimit]] (in [[Top]], see [there](Top#UniversalConstructions), or rather in $Top_{cg}$, see [this cor.](Introduction+to+Stable+homotopy+theory#--#P#kTopIsCoreflectiveSubcategory)) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
 
 $$
   E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
-  \,.
 $$
 
-The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there is an induced projection
+and
+
+$$
+  E U(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{C}^k)
+  \,,
+$$
+
+respectively.
+
+
+The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there are induced projections
 
 $$
   \left(
@@ -3640,8 +3915,40 @@ $$
        Gr_n(\mathbb{R}^k)
     }
   \right)
-  \,.
 $$
+
+and
+
+and
+
+$$
+  \left(
+  \array{
+    E U(n)
+    \\
+    \downarrow
+    \\
+    B U(n) 
+  }
+  \right)
+  \;\;
+   \simeq
+  \;\;
+  \underset{\longrightarrow}{\lim}_k
+  \left(
+    \array{
+       V_n(\mathbb{C}^k)
+       \\
+       \downarrow
+       \\
+       Gr_n(\mathbb{C}^k)
+    }
+  \right)
+  \,,
+$$
+
+respectively.
+
 
 =--
 
@@ -3662,28 +3969,48 @@ $$
     \\
     & \simeq B O(n)
   \end{aligned}
-  \,.
+  \,,
 $$
 
-As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
+and anlogously for $E U(n)$.
+
+As such this is the standard presentation for the $O(n)$-[[universal principal bundle]] and $U(n)$-[[universal principal bundle]], respectively. Its base space $B O(n)$ is the corresponding **[[classifying space]]**.
 
 
-+-- {: .num_cor #EOnIsWeaklyContractible}
-###### Corollary
++-- {: .num_prop #EOnIsWeaklyContractible}
+###### Proposition
 
 The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
+The colimiting space $E U(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+
 =--
+
++-- {: .proof}
+###### Proof
+
+By propositions \ref{RealStiefelManifoldIsHighlyConnected}, and \ref{ComplexStiefelManifoldIsHighlyConnected}, the Stiefel manifolds are more and more highly connected as $k$ increases. Since the inclusions are relative cell complex inclusions by prop. \ref{CWComplexStructureOnStiefelManifold}, the claim follows.
+
+=--
+
 
 +-- {: .num_prop #HomotopyGroupsOfBOnThoseOfOnShifted}
 ###### Proposition
 
-The [[homotopy groups]] of the classifying space $B O(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ shifted up in degree: there is an [[isomorphism]]
+The [[homotopy groups]] of the classifying spaces $B O(n)$ and $B U(n)$ (def. \ref{EOn}) are those of the [[orthogonal group]] $O(n)$ and of the [[unitary group]] $U(n)$, respectively, shifted up in degree: there are [[isomorphisms]]
 
 $$
   \pi_{\bullet+1}(B O(n))
-  \simeq
+    \simeq
   \pi_\bullet O(n)
+$$
+
+and
+
+$$
+  \pi_{\bullet+1}(B U(n))
+    \simeq
+  \pi_\bullet U(n)
 $$
 
 (for homotopy groups based at the canonical basepoint).
@@ -3732,6 +4059,7 @@ $$
 
 is an isomorphism.
 
+The same kind of argument applies to the complex case.
 
 =--
 
@@ -3739,7 +4067,7 @@ is an isomorphism.
 +-- {: .num_prop #HomotopyFiberOfInclusionOfConsecutiveClassifyingSpaces}
 ###### Proposition
 
-For $n \in \mathbb{N}$ there is a [[homotopy fiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber))
+For $n \in \mathbb{N}$ there are [[homotopy fiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber))
 
 $$
   S^n
@@ -3747,8 +4075,19 @@ $$
   B O(n)
     \longrightarrow
   B O(n+1)
+$$
+
+and
+
+$$
+  S^{2n+1}
+    \longrightarrow 
+  B U(n)
+    \longrightarrow
+  B U(n+1)
   \,.
 $$
+
 
 This means ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
 
@@ -3762,7 +4101,8 @@ $$
   }
 $$
 
-such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$.
+such that $S^n$ is the ordinary [[fiber]] of $B O(n)\to \tilde B O(n+1)$, and analogously for the complex case.
+
 
 =--
 
@@ -3818,12 +4158,22 @@ $$
   \,.
 $$
 
-The claim then follows since ([this exmpl.](coset#nSphereAsCosetSpace))
+The claim then follows with the identification
 
 $$
   O(n+1)/O(n) \simeq S^n
-  \,.
 $$
+
+of example \ref{nSphereAsCosetSpace}. 
+
+The argument for the complex case is directly analogous, concluding instead with the identification 
+
+$$
+  U(n+1)/U(n)\simeq S^{2n+1}
+$$
+
+from example \ref{nSphereAsCosetSpace}.
+
 
 =--
 
