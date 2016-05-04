@@ -17,9 +17,9 @@ Usually the reason for using a bunched logic is that the bunches of different so
 
 ## Examples
 
-### Bunched implication
+### Bunched implications
 
-In **bunched implication** ([BI](#BI)), the semicolon-bunches allow contraction and weakening while the comma-bunches do not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
+In **bunched implications** logic ([BI](#BI)), the semicolon-bunches allow contraction and weakening while the comma-bunches do not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
 
 ### Relevance logic
 
@@ -27,7 +27,7 @@ Some forms of [[relevance logic]] can be presented with a bunched sequent calcul
 
 ## Categorical semantics
 
-Bunched logics naturally have semantics in categories with more than one [[monoidal structure]], so that a bunch such as $(A,(B;C),((D,E);F))$ can be interpreted as $A \otimes (B\boxtimes C) \otimes ((D\otimes E)\boxtimes F)$.  Frequently (e.g. if one kind of bunch admits contraction and weakening) one of the two monoidal structures is a [[cartesian monoidal category|cartesian]] one.
+Bunched logics naturally have semantics in categories with more than one [[monoidal structure]], so that a bunch such as $(A,(B;C),((D,E);F))$ can be interpreted as $A \otimes (B\boxtimes C) \otimes ((D\otimes E)\boxtimes F)$.  Frequently (e.g. if one kind of bunch admits contraction and weakening) one of the two monoidal structures is a [[cartesian monoidal category|cartesian]] one.  A typical and motivating example of a model for BI is the [[category of presheaves]] $[C^{op},Set]$ over a monoidal category $C$, which comes equipped both with the ordinary [[ccc structure on presheaves]] as well as the closed monoidal structure given by [[Day convolution]].
 
 ## Related pages
 
@@ -56,4 +56,5 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.
 [[!redirects bunch]]
 [[!redirects bunches]]
 [[!redirects bunched implication]]
+[[!redirects bunched implications]]
 [[!redirects BI]]
