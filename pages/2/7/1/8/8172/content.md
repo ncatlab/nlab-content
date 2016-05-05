@@ -20,9 +20,11 @@
 
 ## Idea
 
-The _Adams spectral sequence_ ([Adams 58](#Adams58)) is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It computes the [[homotopy groups]] of a certain [[nilpotent completion]] of a [[spectrum]] (sometimes, but not necessarily, a [[Bousfield localization of spectra|Bousfield localization of spectra]]) from its [[homology]]/[[cohomology]], as [[modules]]/[[comodules]] over its [[cohomology operations]]. The Adams spectral sequence can be seen as a variant of the [[Serre spectral sequence]] obtained by replacing a single fibration by an "[[Adams resolution]]". 
+The _Adams spectral sequence_ ([Adams 58](#Adams58)) is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It computes the [[homotopy groups]] of a certain [[nilpotent completion]] of a [[spectrum]] (sometimes, but not necessarily, a [[Bousfield localization of spectra|Bousfield localization of spectra]]) from its [[homology]]/[[cohomology]], as [[modules]]/[[comodules]] over its [[cohomology operations]]. The Adams spectral sequence may be seen as a variant of the [[Serre spectral sequence]] obtained by replacing a single fibration by an "[[Adams resolution]]". 
 
-The original Adams spectral sequence for [[ordinary cohomology]] is further refined by the _[[Adams-Novikov spectral sequence]]_ ([Novikov 67](#Novikov67)) by replacing [[ordinary cohomology]] modulo $p$ by [[complex cobordism cohomology theory]] or [[Brown-Peterson theory]] or the like. Generally, for $E$ a suitable [[E-infinity algebra]] there is a corresponding $E$-Adams(-Novikov) spectral sequence whose second page is given by $E$-[[generalized cohomology]] and which arises as the [[spectral sequence of a simplicial stable homotopy type]] of the [[cosimplicial object|cosimplicial]] object which is the [[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]] of $E$. As such the Adams spectral sequence is an analog in [[stable homotopy theory]] of the [[Bousfield-Kan spectral sequence|Bousfield-Kan]] [[homotopy spectral sequence]].
+The original _[[classical Adams spectral sequence]]_ for [[ordinary cohomology]] is further refined by the _[[Adams-Novikov spectral sequence]]_ ([Novikov 67](#Novikov67)) by replacing [[ordinary cohomology]] modulo $p$ by [[complex cobordism cohomology theory]] or [[Brown-Peterson theory]]. 
+
+Generally, for $E$ a suitable [[E-infinity algebra]] there is a corresponding _$E$-Adams(-Novikov) spectral sequence_ whose second page is given by $E$-[[generalized cohomology]] and which arises as the [[spectral sequence of a simplicial stable homotopy type]] of the [[cosimplicial object|cosimplicial]] object which is the [[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]] of $E$. As such the Adams spectral sequence is an analog in [[stable homotopy theory]] of the [[Bousfield-Kan spectral sequence|Bousfield-Kan]] [[homotopy spectral sequence]] in unstable [[homotopy theory]].
 
 Working with the Adams spectral sequence tends to be fairly involved, as is clear from the subtlety of the results it computes (notably [[stable homotopy groups of spheres]]) and as witnessed by the fact that one uses further [[spectral sequences]] just to compute the low pages of the Adams spectral sequence, e.g. the [[May spectral sequence]] and the  [[chromatic spectral sequence]]. 
 
@@ -47,199 +49,6 @@ Moreover, a [[spectrum]] $X$ is equivalently a [[quasicoherent sheaf]] on $Spec(
 In general, notably for $E = H \mathbb{F}_p$, the [[1-image]] of $Spec(E) \to Spec(\mathbb{S})$ is smaller than $Spec(\mathbb{S})$ and therefore this process computes not all of $X$, but just the restriction to that one image (for instance just the $p$-local component). Examples of ring spectra which are "complete" with respect to the sphere spectrum in that the above 1-image coincides with $Spec(S)$ notably includes the [[complex cobordism cohomology]] spectrum $E = $[[MU]] ([Hopkins 99, p. 70](#Hopkins99)). 
 
 That explains the relevance of the [[Adams-Novikov spectral sequence]] (noticing that the wedge summands of $MU_{(p)}$ are the [[Brown-Peterson spectrum|BP-spectra]]) and the close interplay between the ANSS and [[chromatic homotopy theory]].  
-
-
-
-### Via iterated Hurewicz theorem and Serre spectral sequence
- {#MotivationFromHurewiczTheoremAndSerreSpectralSequence}
-
-The Adams spectral sequence may be motivated from the strategy to 
-compute [[homotopy groups]] from [[cohomology groups]] by subsequently applying the [[Hurewicz theorem]] to compute the lowest-degree non-trivial homotopy group from the corresponding [[cohomology group]], then co-killing that by forming its [[homotopy fiber]], finally applying the [[Serre spectral sequence]] to  identify the next lowest non-trivial cohomology group of that fiber, and then iterating this process. The Adams spectral sequence arises when in this kind of strategy instead of co-killing only the lowest lying [[cohomology group]], one at a time, one co-kills _all_ nontrivial cohomology groups, then forms the corresponding [[homotopy fiber]] and so on.
-
-This was apparently historically the way that [[John Adams]] indeed proceeded from [[Jean-Pierre Serre]]'s approach and this is still a good motivation for the whoe construction, a nice exposition is in  ([Wilson 13, 1.1](#Wilson13)).
-
-We now say this again in more detail.
-
-Given $n \in \mathbb{N}$, consider the probem of computing the [[homotopy groups]] $\pi_k(S^n) \;mod \;2$ of the $n$-[[sphere]] $S^n$. For $k \leq n$ this is clear: first for $k \lt n$ they all vanish, and second for $k = n$ we have, by the very nature of [[Eilenberg-MacLane spaces]] $K(\mathbb{Z}_2, n)$, that the [[ordinary cohomology]] is
-
-$$
-  H^n(S^n, \mathbb{Z}_2) \simeq [S^n, K(\mathbb{Z}_2,n)] \simeq \pi_n(K(\mathbb{Z}_2,n)) \simeq \mathbb{Z}_2
-$$
-
-so that by the [[Hurewicz theorem]] it follows that also
-
-$$
-  \pi_n(S^n) \;mod\;2 \;\simeq \mathbb{Z}_2
-  \,.
-$$
-
-The [[Hurewicz theorem]] does not say anything beyond the first non-vanishing cohomology group, but so to apply it again we can move up one step in the [[Whitehead tower]] of $S^n$ and hence consider the [[homotopy fiber]]
-
-$$
-  \array{
-     F_1
-     \\
-     \downarrow
-     \\
-     S^n &\stackrel{c_1}{\longrightarrow}& K(\mathbb{Z}_2,n)
-  }
-$$
-
-of the generator $[c_1] = 1 \in \pi_n(S^n) \simeq \mathbb{Z}_2$.
-
-To apply the [[Hurewicz theorem]] to that fiber we need to know its lowest non-trivial [[cohomology group]] again, and this is computed via the [[Serre spectral sequence]] applied to this [[fiber sequence]]. 
-
-From here on the process repeats, and one moves higher through the [[Whitehead tower]] of $S^n$
-
-
-$$
-  \array{
-     \vdots
-     \\
-     \downarrow
-     \\
-     F_1 &\stackrel{c_2}{\longrightarrow}& K(\mathbb{Z}_2, n+1)
-     \\
-     \downarrow
-     \\
-     S^n &\stackrel{c_1}{\longrightarrow}& K(\mathbb{Z}_2,n)
-  }
-  \,.
-$$
-
-The Adams spectral sequence arises from this strategy by co-killing not just the first non-trivial [[cohomology group]] at each stage, but _all_ nontrivial cohomology groups at a given stage.
-
-This is done in [[stable homotopy theory]], so let now $X$ be a [[spectrum]] (for instance the [[sphere spectrum]] $X = \mathbb{S}$ if we still with the computation of the [[stable homotopy groups of spheres]]). Write $H \mathbb{F}_2$ for the [[Eilenberg-MacLane spectrum]] for [[ordinary cohomology]] with [[coefficients]] in $\mathbb{Z}_2$, so that an element in [[cohomology]]
-
-$$
-  [c] \in H^n(X) 
-$$
-
-is represented by the [[homotopy class]] of a [[homomorphism]] of [[spectra]] of the form
-
-$$
-  c \;\colon\;  X \longrightarrow \Sigma^n H\mathbb{F}_2
-$$
-
-(a [[cocycle]]), where "$\Sigma$" denotes [[suspension]], as usual.
-
-If $X$ is a [[spectrum]] of [[finite type]] then there is a [[finite]] $I$ of non-trivial cohomology classes like this, and a choice of [[cocycles]] $c_i$ for each of them gives a single map
-
-$$
-  f_0 
-    \coloneqq 
-   (c_i)_I \;\colon\; 
-   X \longrightarrow K_0 \coloneqq \bigvee_{i \in I} \Sigma^{n_i}H \mathbb{F}_2
-$$
-
-into a [[generalized Eilenberg-MacLane spectrum]]. As before, this map classifies its [[homotopy fiber]]
-
-$$
-  \array{
-    F_1
-    \\
-    \downarrow
-    \\
-     X &\stackrel{f_0}{\longrightarrow}& K_0
-  }
-$$
-
-which may be thought of as encoding all information about $X$ beyond its [[cohomology groups]]. Iterating this process gives the corresponding analog of the [[Whitehead tower]], called the _[[Adams resolution]]_ of $X$:
-
-$$
-  \array{
-    \vdots
-    \\
-    \downarrow
-    \\
-    F_2 &\stackrel{f_2}{\longrightarrow}& K_2
-    \\
-    \downarrow
-    \\
-    F_1 &\stackrel{f_1}{\longrightarrow}& K_1
-    \\
-    \downarrow
-    \\
-     X &\stackrel{f_0}{\longrightarrow}& K_0
-  }
-  \,.
-$$
-
-The _Adams spectral sequence_ is that induced by the [[exact couple]] obtained by applying $\pi_\bullet$ to this [[Adams resolution]].
-
-We now say this more in detail.
-
-The [[long exact sequences of homotopy groups]] for all the [[homotopy fibers]] in this diagram arrange into a diagram of the form
-
-$$
-  \array{
-    \vdots
-    \\
-    \downarrow & \nwarrow
-    \\
-    \pi_\bullet(F_2) &\stackrel{\pi_\bullet(f_2)}{\longrightarrow}& \pi_\bullet(K_2)
-    \\
-    \downarrow & \nwarrow^{\mathrlap{\partial_2}}
-    \\
-    \pi_\bullet(F_1) &\stackrel{\pi_\bullet(f_1)}{\longrightarrow}& \pi_\bullet(K_1)
-    \\
-    \downarrow & \nwarrow^{\mathrlap{\partial_1}}
-    \\
-    \pi_\bullet(X) &\stackrel{\pi_\bullet(f_0)}{\longrightarrow}& \pi_\bullet(K_0)
-  }
-  \,,
-$$
-
-where the diagonal maps are the [[connecting homomorphisms]] and hence decrease degree in $\pi_\bullet$ by one.
-The idea now is to compute the [[homotopy groups]] of $X$ from the decomposed information in this diagram as follows.
-
-First, by construction the homotopy groups $\pi_\bullet(K_s)$ are known, therefore we can identify elements 
-
-$$
-  \sigma \in \pi_\bullet(X)
-$$
-
-if they come from elements 
-
-$$
-  \sigma_s \in \pi_\bullet(X_s)
-$$
-
-whose image 
-
-$$
-  \pi_\bullet(f_s)(\sigma_s) \in \pi_\bullet(K_s)
-$$
-
-we understand. So the task is to understand the image of $\pi_\bullet(f_s)$ in $\pi_\bullet(K_s)$, for each $s$.
-
-By [[exact sequence|exactness]] an element $\kappa_s \in \pi_\bullet(K_s)$ is in this image if its image 
-
-$$
-  \rho_{s+1} \coloneqq \partial(\kappa_s) \in \pi_{\bullet-1}(X_{s+1})
-$$
-
-vanishes. Now, by construction of the resolution, "evidence" for this is that $f_{s+1}(\partial(\kappa_s)) \in \pi_{\bullet-1}(K_{s+1})$ vanishes, which in turn by [[exact sequence|exactness]] means equivalently that $\partial(\kappa_s)$ is the image of an element  $\rho_{s+2} \in  \pi_{\bullet-1}(X_{s+2}) \to \pi_{\bullet-1}(X_{s+1})$. Now again "evidence" for $\rho_{s+2}$ to vanish is that its image $f_{s+2}(\rho(s+2))$ vanishes, which again means that it comes from an element $\rho_{s+3} \in  \pi_{\bullet-1}(X_{s+3}) \to \pi_{\bullet-1}(X_{s+2})$.
-
-Proceeding by [[induction]] this way, we find that accumulated "evidence" in homotopy groups of $K_\bullet$ for an element $\kappa_s$ to represent an element in $\pi_\bullet(X)$ is that its differential $\partial \kappa_s$ factors through all the $\pi_{\bullet-1}(X_{s+k}) \to \pi_{\bullet-1}(X_s)$. This in turn means that it factors through the [[inverse limit]] $\underset{\leftarrow}{\lim}_s \pi_{\bullet-1}(X_s)$.
-Such an element $\kappa_s$ with 
-
-$$
-  \partial \kappa_s \in \underset{\leftarrow}{\lim}_s \pi_{\bullet-1}(X_s) \to \pi_{\bullet-1}(X_{s+1})
-$$
-
-is called a _permanent cycle_.
-
-In good cases, the [[Adams resolution]] is indeed a [[resolution]] which means that  the [[inverse limit]] $\underset{\leftarrow}{\lim}_s X_s $ is in fact [[contractible]]. This means that all the "evidence" accumulated in a permanent cycle is indeed sufficient evidence to prove the existence of an element $\sigma_s \in \pi_\bullet(X_s)$ and hence of an element $\sigma \in \pi_\bullet(X)$.
-
-
-A trivial way for this to be the case is that the original $\sigma_s$ is itself in the image under $\partial$ of some element, in which case $\kappa_s = 0$ already all by itself. These elements are called _eventual boundaries_. Therefore if the Adams resolution is indeed a resolution, then the quotient group
-
-$$
-  \frac{permanent\;cycles}{eventual\;boundaries}
-$$
-
-gives elements in $\pi_\bullet(S)$, and this quotient is what the Adams spectral sequence computes.
 
 
 
@@ -2174,10 +1983,11 @@ $$
 
 * [[May spectral sequence]], [[chromatic spectral sequence]]
 
-
 * [[Steenrod algebra]]
 
 * [[descent spectral sequence]]
+
+* [[equivariant Adams spectral sequence]]
 
 [[!include Lurie spectral sequences -- table]]
 
@@ -2237,14 +2047,6 @@ Reviews include
 * {#Schwede12} [[Stefan Schwede]], chapter II, section 10.3 of  _[[Symmetric spectra]]_, 2012
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
-
-Other notes that are available include
-
-* [[Alexander Kupers]], _An introduction to the Adams spectral sequence_ (following [Rognes 12](#Rognes12)) ([pdf](http://math.stanford.edu/~kupers/adamsss.pdf))
-
-* Michael Adamaszek, _An elementary guide to the Adams-Novikov $Ext$_ ([pdf](http://www.math.uni-bremen.de/~aszek/bp.pdf))
-
-* [pdf](http://www.math.harvard.edu/~sia/notes/classical_topology_adams.pdf)
 
 
 The modern point of view of [[higher algebra]] is in 
