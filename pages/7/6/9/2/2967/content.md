@@ -230,7 +230,7 @@ $$
 +-- {: .un_prop}
 ###### Proposition
 
-In the 1-[[category]] of [[Lie ∞-algebroid]s, [[automorphism]]s of the standard Courant algebroid of a cartesian space, $\mathfrak{c}(\mathbb{R}^n)$, that 
+In the 1-[[category]] of [[Lie ∞-algebroid]]s, [[automorphism]]s of the standard Courant algebroid of a cartesian space, $\mathfrak{c}(\mathbb{R}^n)$, that 
 
 * respect the projection $\mathfrak{c}(X) \to T X$ 
 
