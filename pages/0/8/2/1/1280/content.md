@@ -31,9 +31,11 @@ and the _disjunctive syllogism_:
 $$ \neg A ,\, A \vee B \;\vdash\; B. $$
 The fact that the two of these together imply _ex contradictione quodlibet_ is known the _Lewis independent argument_.
 
-The rest of this page surveys some paraconsistent logics.  In-depth development of particular paraconsistent logics should be done on separate individual pages.
+## Examples
 
-## Aristotelian syllogistic
+Here we survey some paraconsistent logics.  In-depth development of particular paraconsistent logics should be done on separate individual pages.
+
+### Aristotelian syllogistic
 
 Paraconsistent logic may seem bizarre to a modern mathematician, but the universal adoption of _ex contradictione quodlibet_ is actually quite recent, dating roughly to the invention in the 19th century of what is now called (clearly inappropriately) [[classical logic]].
 
@@ -45,13 +47,13 @@ One of the oldest formalizations of logic is Aristotelian syllogistic, which is 
 
 But this is not one of the valid forms of syllogism.
 
-## Minimal logic
+### Minimal logic
 
 In [[minimal logic]], one simply omits _ex falso quodlibet_ from any of the usual presentations of intuitionistic logic.  The law of non-contradiction remains valid.  Minimal logic satisfies the law
 $$ A,\, \neg A \;\vdash\; \neg B $$
 for any $A$ and $B$.  This is a weaker form of _ex contradictione quodlibet_, which is still strong enough to be undesirable if one wants to do serious things with a paraconsistent logic.
 
-## Dual intuitionistic logic
+### Dual intuitionistic logic
 
 In a certain sense, _ex contradictione quodlibet_ is "dual" to the law of [[excluded middle]].  The former asserts that $A \wedge \neg A$ is the least truth value (it implies everything else), while the latter asserts that $A\vee \neg A$ is the greatest truth value (namely "true").
 
@@ -59,7 +61,7 @@ In particular, just as [[intuitionistic logic]] is classical logic without LEM (
 
 Dual intuitionistic logic may be presented as a [[sequent calculus]] with the restriction that the left-hand side of any sequent has at most one formula.  It can be modeled by the [[closed subsets]] of any topological space, in which $\wedge$ and $\vee$ are intersection and union, and $\neg$ is the closure of the complement.  Thus $A \vee \neg A$ holds because $A \cup \overline{X\setminus A} = X$, but the law of non-contradiction fails because $A\cap \overline{X\setminus A}$ need not be empty (it is one definition of the [[boundary]] of $A$).
 
-## Linear logic
+### Linear logic
 
 [[linear logic|Linear logic]] is also paraconsistent, although the analysis becomes complicated because connectives such as $\vee$ and $\wedge$, and even $\top$ and $\bot$, bifurcate into positive and negative linear versions.  With the usual definition of linear negation, we have the following.
 
@@ -78,19 +80,22 @@ Note that linear logic does include an alternative negation which *is* explosive
 Also worth noting is that _ex contradictione quodlibet_ can alternatively be stated in terms of a conjuction as $A \wedge \neg A \vdash B$.  In linear logic, of course, the meaning of this depends on whether the conjunction $\wedge$ is positive or negative.  The comma separating multiple formulas in a linear sequent is equivalent to a positive conjunction $\otimes$, so in that case the same analysis above applies.  But for the negative conjunction $\&$, even the "explosive" negation is no longer explosive: $A\& (A\multimap 0)$ doesn't entail $0$, since we can only extract $A$ or $A\multimap 0$ but not both.
 
 
-## Relevant logics
+### Relevance logics
 
-In some versions of [[relevance logic]], no sequent can be valid unless the hypothesis and conclusion have a variable in common.  Thus, _ex contradictione quodlibet_ is invalid in general, but special cases such as $p, \neg{p} \vdash p$ or $p \wedge q, \neg{p \wedge q} \vdash p \vee r$ are valid.
-
-+-- {: .query}
-But why doesn\'t the Lewis independent argument work?  Maybe it should be that every variable in the consequent appears somewhere in the antecedent?  (In which case we can\'t have $r$ in that last example.)
-=--
+One goal of [[relevance logic]] is to ensure that no sequent can be valid unless the hypothesis and conclusion have a variable in common.  Thus, _ex contradictione quodlibet_ is invalid in general, but special cases such as $p, \neg{p} \vdash p$ or $p \wedge q, \neg{p \wedge q} \vdash p \vee r$ are valid.  Many relevance logics turn out to also be paraconsistent (although this is not a proof).
 
 
-## Other paraconsistent logics
+### Other paraconsistent logics
 
 (There are many other paraconsistent logics one could discuss...)
 
+## Applications
+
+### Paraconsistent set theory
+
+One potential application of paraconsistent logic would be to give a [[set theory]] in which the unrestricted [[comprehension rule]] is valid, but which is nontrivial.  For instance, if $R = \{ x \mid x\notin x \}$ is the set from [[Russell's paradox]], then a paraconsistent logic could admit that both $R\in R$ and $R\notin R$ without trivializing.
+
+It should be noted, however, that not all paraconsistent logics remain nontrivial in the presence of full comprehension.  If the [[contraction rule]] is permitted (as it is in many [[relevance logics]], then it seems hard to avoid [[Curry's paradox]] in the following form.  For any statement $P$, consider the Curry-Russell set $C = \{ x \mid (x\in x) \to P \}$.  Suppose $C\in C$; then by definition of $C$ we have $(C\in C)\to P$, and so (using $C\in C$ again, by contraction) we have $P$.  Therefore, $(C\in C) \to P$.  But then by definition of $C$ we have $C\in C$, and hence by [[modus ponens]] we have $P$.  Note that this argument does not require ECQ.
 
 ## Links
 
