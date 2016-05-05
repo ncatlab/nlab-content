@@ -112,7 +112,7 @@ e.g. ([James 59, p. 3](#James59), [James 76, p. 5 with p. 21](#James76), [Hatche
 
 {#CellularInclusionOfStiefelManifolds} And it should be true that with that cell structure the inclusions $V_n(\mathbb{R}^k) \hookrightarrow V_n(\mathbb{R}^{k+1})$ are subcomplex inclusions:
 
-According to ([Yokota 56](#Yokota56)) the inclusions $SU(n)\hookrightarrow SU(k)$ are cellular and this is compatible with the group action (reviewed [here](http://web.stanford.edu/~kupers/liegroups.pdf) in 3.3 and 3.3.1). Also the projection $SU(k) \to SU(k)/SU(k-n)$ is cellular ([Hatcher, p. 302](#Hatcher)).
+According to ([Yokota 56](#Yokota56)) the inclusions $SU(n)\hookrightarrow SU(k)$ are cellular and this is compatible with the group action (reviewed [here](http://web.stanford.edu/~kupers/liegroups.pdf) in 3.3 and 3.3.1). This implies that also the projection $SU(k) \to SU(k)/SU(k-n)$ is cellular (e.g. [Hatcher, p. 302](#Hatcher)).
 
 
 
