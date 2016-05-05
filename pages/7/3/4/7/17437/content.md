@@ -1,0 +1,7 @@
+A collineation is a bijection from a projective space to a projective space of the same finite dimension which preserves the inclusions of subspaces. 
+
+A projective collineation is a collineation such that its restriction to every projective hyperplane is a projective isomorphism. 
+
+A perspective collineation is a (projective) collineation from a projective plane to itself such that the restriction to one, and hence to any projective line is a perspectivity onto its image line.
+
+Similarly, a correlation is a bijection from a projective space to a projective space of the same finite dimension which reverses the inclusions of subspaces. 
