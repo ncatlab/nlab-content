@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -49,7 +48,7 @@ In the [[categorical semantics]] where each [[sequent]] here is interpreted as a
 
 ## Cut elimination
 
-> "A logic without cut elimination is like a car without an engine" -- Jean-Yves Girard
+> "A logic without cut elimination is like a car without an engine" -- Jean-Yves Girard (in [Linear logic](http://iml.univ-mrs.fr/~girard/Synsem.pdf.gz))
 
 The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s [[Gentzen's Hauptsatz|Hauptsatz]]") asserts that every [[judgement]] which has a [[proof]] using the cut-rule also has a proof not using it (a "cut-free proof").  While Gentzen\'s original theorem was for a few particular sequent calculi that he was considering, it is true of many other sequent calculi and is generally seen as desirable.  (That said, there are some useful sequent calculi in which it fails.) 
 
