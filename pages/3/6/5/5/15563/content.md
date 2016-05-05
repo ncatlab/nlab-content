@@ -54,7 +54,7 @@ Here the expression
 $\partial_p n \in \mathbb{Z}$ is uniquely defined by this equation, it is given by the [[Fermat quotient]] operation
 
 $$
-  \partial_p : n \mapsto \partial_p n := \frac{n^p - n}{p}
+  \partial_p : n \mapsto \partial_p n \coloneqq \frac{n^p - n}{p}
   \,.
 $$
 
@@ -112,7 +112,7 @@ equation is equivalently a "$\Lambda_p$-ring" (see at _[[Lambda ring]]_). Or rat
 the whole collection of operators $\mathrm{id} + p \cdot\partial_p$ for all primes $p$ and hence are to ask that $\Phi$ satisfies the above equation for all $p$ and hence defines
 for all primes $p$ the derivation-like operator (function on the underlying set of $R$)
 $$
-  \partial^\Phi_p  := \frac{(-)^p - \Phi}{p} : R \to R
+  \partial^\Phi_p  \coloneqq \frac{(-)^p - \Phi}{p} : R \to R
   \,.
 $$
 This is the general form of an "[[arithmetic jet space|arithmetic differential operator]]", see for instance the first pages of ([Buium 13](#Buium13)) for review.
