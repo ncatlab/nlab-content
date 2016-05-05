@@ -29,7 +29,7 @@ Prior to ([Hill-Hopkins-Ravenel 09](#HillHopkinsRavenel09)), all that was known 
 
 The solution of the problem in the negative, except for one outstanding dimension (namely 126), appears in
 
-* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics, to appear, [journal version](http://annals.math.princeton.edu/articles/9563), arXiv:[0908.3724](http://arxiv.org/abs/0908.3724)
+* {#HillHopkinsRavenel09} [[Michael Hill]], [[Michael Hopkins]], [[Douglas Ravenel]], _On the non-existence of elements of Kervaire invariant one_, Annals of Mathematics ([journal version](http://annals.math.princeton.edu/articles/9563), arXiv:[0908.3724](http://arxiv.org/abs/0908.3724), [talk slides](https://www.math.rochester.edu/people/faculty/doug/otherpapers/Skye_handout.pdf)) 
 
 On the [[equivariant homotopy theory]] involved:
 
