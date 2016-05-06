@@ -65,7 +65,7 @@ A decreasing filtration $\{X_s\}_s$ of $X$ (def. \ref{Filtration}) is called
 
 * **exhaustive** if $\underset{\longrightarrow}{\lim}_s X_s \simeq X$ ($X$ is the [[colimit]]) of the filter stages)
 
-* **Hausdorff** if $\underset{\longleftarrow}{\lim}_s X_s \simeq \emptyset$ (the [[limit]] of the the filter stages is [[initial object|empty]] ([[zero object|zero]] in the case of an [[abelian category]]))
+* **Hausdorff** if $\underset{\longleftarrow}{\lim}_s X_s \simeq \emptyset$ (the [[limit]] of the the filter stages is [[initial object|initial]] ([[zero object|zero]] in the case of an [[abelian category]]))
 
 and for a filtration of [[abelian groups]]:
 
@@ -75,8 +75,8 @@ and for a filtration of [[abelian groups]]:
 
 ([Boardman 99, def. 2.1](#Boardman99), see also [Rognes 12, section 2.1](#Rognes12))
 
-+-- {: .num_defn #ExhaustiveHausdorffAndCompleteFiltrations}
-###### Definition
++-- {: .num_remark }
+###### Remark
 
 Beware that for decreasing filtrations (def. \ref{Filtration}) often exhaustiveness (def. \ref{ExhaustiveHausdorffAndCompleteFiltrations}) is understood by default, and often it is even assumed by default that $X_s = X$ for $s \leq 0$.
 
