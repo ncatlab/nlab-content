@@ -2821,6 +2821,7 @@ We need the AHSS for instance for the computation of [[Conner-Floyd Chern classe
 
 See also the accompanying  _[[Introduction to Stable homotopy theory -- I|lecture notes on spectral sequences]]_. 
 
+
 ##### Converging spectral sequences
 
 +-- {: .num_defn #CohomologySpectralSequence}
@@ -2828,12 +2829,12 @@ See also the accompanying  _[[Introduction to Stable homotopy theory -- I|lectur
 
 A **cohomology [[spectral sequence]]** $\{E_r^{p,q}, d_r\}$ is
 
-1. a sequence $\{E_r^{\bullet,\bullet}\}$ (for $r \in \mathbb{N}$, $r \geq 2$) of [[bigraded object|bigraded]] [[abelian groups]];
+1. a sequence $\{E_r^{\bullet,\bullet}\}$ (for $r \in \mathbb{N}$, $r \geq 1$) of [[bigraded object|bigraded]] [[abelian groups]] (the "pages");
 
-1. a sequence of [[linear maps]] ("[[differentials]]") 
+1. a sequence of [[linear maps]] (the "[[differentials]]") 
 
    $$
-     \{d_r \colon E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}
+     \{d_r \;\colon\; E_r^{\bullet,\bullet} \longrightarrow E_r^{\bullet+r, \bullet-r+1}\}
    $$
 
 such that 
@@ -2879,6 +2880,20 @@ such that
 1. each $d_{r}$ is a [[derivation]] with respect to the (induced) algebra structure on ${E_r^{\bullet,\bullet}}$, graded of degree 1 with respect to total degree;
 
 1. the multiplication on $E_\infty^{\bullet,\bullet}$ is compatible with that on $C^\bullet$.
+
+=--
+
++-- {: .num_defn #CohomologySpectralSequence}
+###### Remark
+
+The point of [[spectral sequences]] is that by subdividing the data in any [[graded abelian group]] $C^\bullet$ into filtration stages, with each stage itself subdivided into bidegrees, such that each consecutive stage depends on the previous one in way tightly controled by the bidegrees, then this tends to give much control on the computation of $C^\bullet$. For instance it often happens that one may argue that the differentials in some spectral sequence all vanish from some page on (one says that the spectral sequence _collapses_ at that page) by pure degree reasons, without any further computation.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The archetypical example of (co-)homology spectral sequences as in def. \ref{CohomologySpectralSequence} are induced from a [[filtered chain complex|filtering]] on a (co-)chain complex, converging to the (co-)[[chain homology]] of the chain complex by consecutively computing relative (co-)chain homologies, relative to decreasing (increasing) filtering degrees. For more on such [[spectral sequences of filtered complexes]] see at _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ the section _[For filtered complexes](Introduction+to+Stable+homotopy+theory%20--%20I#SpectralSequencesForFilteredChainComplexes)_.
 
 =--
 
