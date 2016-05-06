@@ -949,3 +949,5 @@ for instance section 5 of
 [[!redirects spectral sequence of a filtration]]
 
 [[!redirects spectral sequence of a filtered chain complex]]
+
+[[!redirects spectral sequences of filtered complexes]]
