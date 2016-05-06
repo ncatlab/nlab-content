@@ -29,13 +29,17 @@ To distinguish the two situations further qualification is being used. Sometimes
 
 Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
 
+[[!include homological and higher algebra -- table]]
 
-Under the [[Brown representability theorem]], a ring spectrum represents a [[multiplicative cohomology theory]].
+## Properties
+
+### Relation to multiplicative generalized cohomology
+
+Under the [[Brown representability theorem]], the [[generalized cohomology theory]] represented by a ring spectrum inherits the structure of a [[multiplicative cohomology theory]].
 
 
 ## Related concepts
 
-[[!include homological and higher algebra -- table]]
 
 
 * [[module spectrum]], [[algebra spectrum]]
@@ -54,10 +58,11 @@ Under the [[Brown representability theorem]], a ring spectrum represents a [[mul
 
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
-Survey includes
+* {#TamakiKono06} [[Dai Tamaki]], [[Akira Kono]], appendix C of _Generalized Cohomology_, Translations of Mathematical Monographs, American Mathematical Society, 2006 ([[GeneralizedCohomology.pdf:file]])
+
+Quick survey includes
 
 * {#Malkiewich14} [[Cary Malkiewich]], section 1.3 of _The stable homotopy category_, 2014 ([pdf](http://math.stanford.edu/~carym/stable.pdf))
-
 
 Discussion of connective ring spectra as monoids with respect to a smash product on [[Gamma-spaces]] is in
 
