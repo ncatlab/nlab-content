@@ -3105,7 +3105,7 @@ If at least one of the following two conditions is met
 
 * $B$ is [[finite number|finite]]-dimensional as a [[CW-complex]];
 
-* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}) for all $p$;
+* $A^\bullet(F)$ is bounded below in degree and the sequences $\cdots \to A^p(X_{n+1}) \to A^p(X_n) \to \cdots$ satisfy the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}) for all $p$;
 
 then there is a cohomology [[spectral sequence]], def. \ref{CohomologySpectralSequence}, whose $E_2$-page is the [[ordinary cohomology]] $H^\bullet(B,A^\bullet(F))$ of $B$ with [[coefficients]] in the $A$-[[cohomology groups]] $A^\bullet(F)$ of the fiber, and which converges to the $A$-cohomology groups of the total space
 
