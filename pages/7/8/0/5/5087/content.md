@@ -21,7 +21,7 @@
 
 A [[geometric morphism]] between [[toposes]] $(f^* \dashv f_*) : \mathcal{E} \to \mathcal{F}$ is **surjective** or a **geometric surjection** if it satisfies the following equivalent criteria:
 
-* its [[inverse image functor]] $f^*$ is [[faithful functor|faithful]] (in contrast to the [[direct image]] being [[full and faithful functor|full and faithful]] as for a [[geometric embedding]] ); 
+* its [[inverse image functor]] $f^*$ is [[faithful functor|faithful]] (in contrast to the [[direct image]] being [[full and faithful functor|full and faithful]] as for a [[geometric embedding]]); 
 
 * its [[inverse image functor]] $f^*$ is [[conservative 
 functor|conservative]];
