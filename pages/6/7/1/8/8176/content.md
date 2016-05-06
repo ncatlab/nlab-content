@@ -30,14 +30,14 @@ $$
   }
 $$
 
-the the corresponding cohomology Serre spectral sequence looks like
+over a simply connected space $X$, then the corresponding cohomology Serre spectral sequence looks like
 
 $$
   E_2^{p,q}= H^p(X, H^q(F)) \Rightarrow H^{p+q}(E)
   \,.
 $$
 
-The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_.
+The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_, see there for details.
 
 There is also a generalization to [[equivariant cohomology]]: for [cohomology with coefficients in a Mackey functor](Mackey+functor#Cohomology) with[[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $E \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
 
