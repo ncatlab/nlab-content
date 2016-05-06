@@ -12,6 +12,6 @@ Theorem ([[EGA]] IV 1.8.4.) If $f:X\to Y$ is a finitely presented morphism of sc
 
 The relation to the [[elimination of quantifiers]] for the theory of algebraically closed fields is discussed in 
 
-* D. Sustretov, blog: [model theory IV: algebraically closed fields and compact complex manifolds](http://shenme.de/blog/2012/08/28/model-theory-iv-algebraically-closed-fields-and-compact-complex-manifolds)
+* D. Sustretov, blog: [model theory IV: algebraically closed fields and compact complex manifolds](http://shenme.de/blog/posts/2012-08-28-model-theory-algebraically-closed-fields-and-compact-complex-manifelds.html)
 
 category: algebraic geometry
