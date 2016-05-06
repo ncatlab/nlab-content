@@ -1,0 +1,13 @@
+
+
+
+
+## related $n$Lab entries
+
+* [[generalized (Eilenberg-Steenrod) cohomology]]
+
+  * [[Brown representability theorem]]
+
+  * [[multiplicative cohomology theory]]
+
+category: people
