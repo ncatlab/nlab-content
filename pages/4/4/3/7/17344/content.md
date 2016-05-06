@@ -855,7 +855,7 @@ In various references the "alternative suspension" from def. \ref{SequentialSpec
 
 There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity of smash products of spheres (prop. \ref{GradedCommutativityOfSmashOfSpheres}): 
 
-namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way round) would have to make the following diagrams commute:
+namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
 
 $$
   \array{
@@ -912,7 +912,7 @@ The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{Sh
 
 The first is immediate from the definition. 
 
-The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
+The second is a special case of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}.
 
 The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
 
@@ -941,12 +941,12 @@ $$
    \\
    {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
    \\
-   X_{n+1} &\underset{\tilde f_{n+1}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
+   X_{n+1} &\underset{\widetilde {f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
   }
   \,.
 $$
 
-Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+Then applying the adjunction isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
 
 $$
   \array{
@@ -972,7 +972,6 @@ $$
 
 =--
 
-In conclusion:
 
 +-- {: .num_prop #StabilizationAdjunctionSquareExists}
 ###### Proposition
@@ -1046,7 +1045,7 @@ $$
   \,.
 $$
 
-(As long as we are not smash-permuting the $S^1$ with the $S^n$ -- and here we don't -- then the fact that they get mixed under this isomorphism is irrelevant. The point where this does become relevant is the content of remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} below.)
+(As long as we are not smash-permuting the $S^1$ factor with the $S^n$ factor -- and here we are not -- then the fact that they get mixed under this isomorphism is irrelevant. The point where this does become relevant is the content of remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} below.)
 
 =--
 
@@ -1084,7 +1083,7 @@ for the non-full [[topologically enriched category|topologically enriched]] [[su
     \right.
   $$
 
-* [[composition]] is induced from compistion in $Top^{\ast/}_{cg}$ by regarding the [[hom-space]] $S^k$ above as its [[image]] in $Maps({S^n},S^{k+n})_\ast$ under the [[adjunct]]
+* [[composition]] is induced from composition in $Top^{\ast/}_{cg}$ by regarding the [[hom-space]] $S^k$ above as its [[image]] in $Maps({S^n},S^{k+n})_\ast$ under the [[adjunct]]
 
 $$
   S^{k} \stackrel{}{\to} Maps({S^n},S^{k+n})_\ast
@@ -1150,8 +1149,34 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The action of a given topological functor $X$ on hom-spaces between spheres of consecutive dimension 
+
+$$
+  X_{S^n, S^{n+1}}
+    \;\colon\;
+  S^1 
+    \longrightarrow
+  Maps(X(S^n), X(S^{n+1}))_\ast
+$$
+
+is naturally identified with its [[adjunct]]
+
+$$
+  \widetilde {X_{S^n, S^{n+1}}}
+    \;\colon\;
+  S^1 \wedge X(S^n) \longrightarrow S^{n+1}
+  \,.
+$$
+
+This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, and functoriality completely fixes the formed by the latter.
 
 
+=--
+
+We now use prop. \ref{SequentialSpectraAsDiagramSpectra} to naturally induce a model  structure on the category of topological sequential spectra.
 
 #### The strict model structure on sequential spectra
 
@@ -6041,5 +6066,4 @@ Further useful lecture notes pointed to above include the following:
 * {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
-
 
