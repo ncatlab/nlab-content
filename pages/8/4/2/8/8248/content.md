@@ -154,7 +154,7 @@ $$
 
 Here and in the following we write $g^{-1}$ etc. for the operation of choosing a [[preimage]] under a given function $g$. In each case it is left implicit that the given expression is independent of which choice is made.
 
-+-- {: .num_prop}
++-- {: .num_prop #CohomologicalSpectralSequenceOfAnExactCouple}
 ###### Proposition
 **(cohomological spectral sequence of an exact couple)**
 
