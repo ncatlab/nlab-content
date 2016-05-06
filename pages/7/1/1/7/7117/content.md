@@ -60,7 +60,7 @@ to the [[real numbers]], such that for all $x, y \in A$
 and boundedness means that there exists $C \gt 0$ such that for all $x \in A$
 
 $$
-  {\vert x \vert}_A \leq C {\Vert x\Vert}
+  {\Vert x\Vert} \leq C {\vert x \vert}_A
   \,.
 $$
 
