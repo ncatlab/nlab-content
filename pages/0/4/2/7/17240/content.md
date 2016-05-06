@@ -308,6 +308,10 @@ concludes that the lower square above also commutes.
 
 =--
 
+## Related concepts
+
+* [[multiplicative cohomology theory]]
+
 ## References
 
 
