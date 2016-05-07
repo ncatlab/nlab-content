@@ -213,7 +213,7 @@ If $C$ has [[pullback|pullbacks]] and epimorphisms are preserved by pullback, as
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ProjectiveObjectsInAbAreFreeGroups}
 ###### Example
 
 An object in [[Ab]], an [[abelian group]], is projective precisely if it is a [[free group]].
