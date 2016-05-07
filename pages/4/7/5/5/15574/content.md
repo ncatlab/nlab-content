@@ -86,17 +86,17 @@ So now let's get down to business and do some mathematics!
 
 In ([Lawvere 2000](#Law00)) a particularly simple example of the [[adjoint cylinder]] was suggested that we use in the following as a running thread.
 
-Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n):=2n$ and $R(n):=2n+1$.
+Let $N$ be the [[natural numbers]] $\{0, 1,\dots\}$ viewed as a [[category]] via their usual [[poset|ordering]]. Let $L,R:N\to N$ be the two parallel [[functors]] '_even_' and '_odd_' defined by $L(n) \coloneqq 2n$ and $R(n) \coloneqq 2n+1$.
 
 Both are [[fully faithful functor|full and faithful]], hence candidates for an [[adjoint cylinder]], and so we look now for a third functor $N\to N$ which with a clin d'oeil to [[Charles Sanders Peirce|C. S. Peirce's]] concept of _thirdness_ we will call $T$ , such that its forms an [[adjoint triple]] $L\dashv T\dashv R$.
 
 For our simple [[poset]] example these [[adjunctions]] amount to $L(n)\leq m$ iff $n\leq T(m)$ and $n\leq R(m)$ iff $T(n)\leq m$. When such a $T$ exists it must satisfy $T\circ L \cong id\cong T\circ R$ which in our case just gives $T\circ L = id = T\circ R$ - the thirdness $T$ mediates the _identity_ of $L$ and $R$. Spelled out this says $T(2n)=n$ and $T(2n+1)=n$ which we simply take as the definition for $T$.
 
-We also see here how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint_ subcategories e.g. for $L(n)=2n$ and $G(n):=3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
+We also see here how $T$ mediates the _opposition_ between $L$ and $R$ because in order for such a $T$ to exist the functors $L$ and $R$ must actually correspond to inclusions of _disjoint_ subcategories e.g. for $L(n)=2n$ and $G(n) \coloneqq 3n\quad$ $T$ would have to invert e.g. 6 to 2 and to 3 at the same time, which a function of course cannot do.
 
 The _unity_ of the opposites is finally provided by the encompassing $N$ where they sit as subcategories $E$ and $O$ of even and odd numbers, respectively.
 
-Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$ : in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
+Whereas $T$$L$ and $T$$R$ are each the identity, the reverse compositions $L$$T$ and $R$$T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time with an _unmediated opposition_ $sk\dashv cosk$ which expresses the conflict between $E$ and $O$, even and odd.
  
 ### The mathematics of _Aufhebung_
  {#TheMathematicsOfAufhebung}
@@ -121,7 +121,7 @@ An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is r
 
 =--
 
-An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box _i := i_!i^*$ and $\bigcirc _i :=i_*i^*$.
+An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box _i \coloneqq i_!i^*$ and $\bigcirc _i \coloneqq i_*i^*$.
 
 The [[modalities]] yield notions of _[[modal types]]_, which may be called
 
