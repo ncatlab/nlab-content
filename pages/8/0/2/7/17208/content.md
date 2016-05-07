@@ -19,8 +19,22 @@ Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A
 
 ## Properties
 
-### Cohomology 
+### Homology and Cohomology 
  {#Cohomology}
+
+The [[ordinary homology]] of $\mathbb{C}P^n$ is
+
+$$
+  H_k(\mathbb{C}P^n)\simeq
+  \left\{
+    \array{
+       \mathbb{Z} & for \; k \;even\; and \; k \leq 2n 
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
 
 The [[ordinary cohomology]] of $\mathbb{C}P^n$ is 
 
@@ -35,6 +49,24 @@ $$
   \right.
   \,.
 $$
+
+It follows that the analogue remains true for general [[coefficient]] [[groups]] $A$
+
+$$
+  H^k(\mathbb{C}P^n,A)
+   \simeq
+  \left\{
+    \array{
+       A & for \; k \;even\; and \; k \leq 2n 
+       \\
+       0 & otherwise
+    }
+  \right.
+  \,.
+$$
+
+(Use the [[universal coefficient theorem]] and the fact ([prop.](projective+object#ProjectiveObjectsInAbAreFreeGroups)) that the free group $H_k(\mathbb{C}P^n)$ is projective, so that the $Ext^1$-correction vanishes.)
+
 
 Under [[cup product]] this forms a [[graded ring]]
 
