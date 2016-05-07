@@ -30,7 +30,7 @@ $$
   U \mapsto Hom_{Set}(|U|, S)
 $$
 
-where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| := Hom_C({*}, U)$ of points underlying the object $U$ in the [[concrete site]] $C$.
+where $S$ is a [[set]] and $|U|$ is the [[set]] $|U| \coloneqq Hom_C({*}, U)$ of points underlying the object $U$ in the [[concrete site]] $C$.
 
 ## Definition
 
@@ -205,7 +205,7 @@ We discuss properties of the [[over-topos]] $\mathcal{E}/X$.
 Notice that
 
 $$
-  e_0 := (\Gamma \dashv coDisc) : \mathcal{S} \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}} \mathcal{E}
+  e_0 \coloneqq (\Gamma \dashv coDisc) : \mathcal{S} \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}} \mathcal{E}
 $$
 
 is the canonical [[point of a topos|topos point]] of $\mathcal{E}$. 
