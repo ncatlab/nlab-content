@@ -223,7 +223,7 @@ $$
 Write
 
 $$
-  (Disc \dashv \Gamma)
+  (\Gamma \dashv coDisc)
   : 
   Sh_j(\mathcal{E})
    \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}  
@@ -712,7 +712,7 @@ and Chapter C3.6 of
 
 A completely [[internal logic|internal]] characterization of local toposes is discussed in
 
-* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz), [[AwodeyBirkedalLocalTopos.pdf:file]] )
+* [[Steve Awodey]], [[Lars Birkedal]], _Elementary axioms for local maps of toposes_, Journal of Pure and Applied Algebra, 177(3):215-230, (2003) ([ps](http://www.itu.dk/people/birkedal/papers/elealm.ps.gz), [[AwodeyBirkedalLocalTopos.pdf:file]])
  {#AwodeyBirkedal}
 
 This is based on part 2 of
