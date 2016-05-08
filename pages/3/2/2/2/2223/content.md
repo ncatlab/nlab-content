@@ -56,7 +56,7 @@ $$
 Here the object on the right is any [[0-connected]] [[∞-groupoid]]. By the assumption of [[homotopy dimension]] 0 and by the discussion at [[looping and delooping]] this is necessarily the [[delooping]] of some [[∞-group]], to be denoted $G\sslash K$. By the discussion at [[fiber sequence]] it follows that $G\sslash K \simeq \Omega \mathbf{B}(G \sslash K)$ is the [[homotopy fiber]] of $\mathbf{B}f$, hence that we have a long fiber sequence
 
 $$
- G\sslash K \to \mathbf{B}K \stackrel{\mathbf{B}f}{\to}\mathbf{B}G \to \mathbf{B}G/K
+ G\sslash K \to \mathbf{B}K \stackrel{\mathbf{B}f}{\to}\mathbf{B}G \to \mathbf{B}G\sslash K
   \,.
 $$
 
