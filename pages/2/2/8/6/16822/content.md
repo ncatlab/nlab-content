@@ -2,4 +2,6 @@
 
 An [[essential geometric morphism|essential]] [[subtopos]], also called a [[level of a topos]].
 
+Any subtopos is an [[internal locale|internal sublocale]] of the one-point locale. The subtopos is essential if and only if this sublocale is an [[essential sublocale]].
+
 [[!redirects essential subtoposes]]
