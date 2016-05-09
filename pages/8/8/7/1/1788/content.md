@@ -1,21 +1,17 @@
-
-
 $$
-  \array{
-    \vdots && \vdots 
-    \\
-    a_3 && a_2 && a_1 && \cdots
-    \\
-    a_2 && a_1 && a_0 && \cdots
-    \\
-    a_1 && a_0 && a_{-1} && \cdots
-    \\
-    \underset{A_0}{\underbrace{a_0}}
-    &&
-    \underset{A_1}{\underbrace{a_{-1}}}
-    &&
-    \underset{A_2}{\underbrace{a_{-2}}}
-    &&
-    \cdots
-  }
+  X \; \text{Omega-spectrum}
+  \;\;\;\;\;
+   \Rightarrow
+  \;\;\;\;\;
+  \pi_k(X)
+    \simeq
+  \left\{
+    \array{
+      \pi_k X_0  & if\; k \geq 0
+      \\
+      \pi_0 X_k  & if \; k \lt 0
+    }
+  \right.
+  \,.
 $$
+
