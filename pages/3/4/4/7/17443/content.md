@@ -1,0 +1,24 @@
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Essential [[sublocales]] are intermediate between [[open sublocales]] and [[locally connected geometric morphism|locally connected sublocales]].
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+A [[sublocale]] $X_j$ of a [[locale]] $X$, given by a [[nucleus]] $j : \mathcal{O}(X) \to \mathcal{O}(X)$, is called *essential* (sometimes also *principal*) if and only if the following equivalent conditions are satisfied:
+
+1. There is a monotone map $b : \mathcal{O}(X) \to \mathcal{O}(X)$ which is [[left adjoint]] to $j$.
+2. The nucleus $j$ preserves arbitrary (not only finite) meets.
+3. For any $u \in \mathcal{O}(X)$, there is a smallest $v \in \mathcal{O}(X)$ such that $u \preceq j(v)$.
+4. The sheafification functor $\mathrm{Sh}(X) \to \mathrm{Sh}(X_j)$ possesses a left adjoint (it always has a right adjoint).
+5. The [[geometric embedding]] $\mathrm{Sh}(X_j) \hookrightarrow \mathrm{Sh}(X)$ is an [[essential geometric morphism]].
+=--
+
+The equivalence of 1. and 2. is by the [[adjoint functor theorem]] for complete lattices, which furthermore gives an explicit formula for the left adjoint $b$, namely
+$$ b(u) \coloneqq inf \{ v \in \mathcal{O}(X) \,|\, u \preceq j(v) \}. $$
+This also shows the equivalence of 1. and 3.
