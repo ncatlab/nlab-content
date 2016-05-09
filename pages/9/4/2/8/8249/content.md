@@ -376,7 +376,7 @@ Let $F$ be an [[nLab:additive functor]].
 +-- {: .proof}
 ###### Proof
 
-If $N$ is projective then the chain complex $[\cdots \to 0 \to 0 \to N]$ is already a [[nLab:projective resolution]] and hence by definition $L_n F(N) \simeq H_n(0)$ for $n \geq 1$. Dually if $N$ is an injective object.
+If $N$ is projective then the chain complex $[\cdots \to 0 \to 0 \to N]$ is already a [[projective resolution]] and hence by definition $L_n F(N) \simeq H_n(0)$ for $n \geq 1$. Dually if $N$ is an injective object.
 
 =--
 
@@ -593,7 +593,7 @@ The formally dual statement to lemma \ref{ProjectiveResolutionOfExactSequenceByE
 ###### Lemma
 
 For $0 \to A \to B \to C \to 0$ a [[nLab:short exact sequence]]
-in an [[nLab:abelian category]] with [[nLab:injective object|enough injectives]], 
+in an [[abelian category]] with [[injective object|enough injectives]], 
 there exists a [[nLab:commuting diagram]] of cochain complexes
 
 $$
@@ -630,9 +630,9 @@ The central general fact about derived functors to be discussed here is now the 
 +-- {: .num_prop #LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence}
 ###### Proposition
 
-Let $\mathcal{A}, \mathcal{B}$ be [[nLab:abelian categories]] and assume that $\mathcal{A}$ has [[nLab:injective object|enough injectives]].
+Let $\mathcal{A}, \mathcal{B}$ be [[abelian categories]] and assume that $\mathcal{A}$ has [[injective object|enough injectives]].
 
-Let $F : \mathcal{A} \to \mathcal{B}$ be a [[nLab:left exact functor]] and let
+Let $F : \mathcal{A} \to \mathcal{B}$ be a [[left exact functor]] and let
 
 $$
   0 \to A \to B \to C \to 0
@@ -816,13 +816,13 @@ With the $\mathcal{I},\mathcal{P}\subset \mathcal{A}$ as above, we say:
 
 For $A \in \mathcal{A}$, 
 
-* an **$F$-injective resolution** of $A$ is a [[nLab:cochain complex]] $I^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
+* an **$F$-injective resolution** of $A$ is a [[cochain complex]] $I^\bullet \in Ch^\bullet(\mathcal{I}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
 
   $$
     A \stackrel{\simeq_{qi}}{\to} I^\bullet
   $$ 
 
-* an **$F$-projective resolution** of $A$ is a [[nLab:cochain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
+* an **$F$-projective resolution** of $A$ is a [[chain complex]] $Q_\bullet \in Ch_\bullet(\mathcal{P}) \subset Ch^\bullet(\mathcal{A})$ and a [[nLab:quasi-isomorphism]]
 
   $$
     Q_\bullet \stackrel{\simeq_{qi}}{\to} A
@@ -831,7 +831,7 @@ For $A \in \mathcal{A}$,
 
 =--
 
-Let now $\mathcal{A}$ have [[enough projectives]] / [[enough injectives]], respectively, def. \ref{EnoughInjectivesEnoughProjectives}.
+Let now $\mathcal{A}$ have [[enough projectives]] / [[enough injectives]], respectively.
 
 +-- {: .num_example #FAcyclicObjectsAreFProjectiveObjects}
 ###### Example
@@ -873,7 +873,7 @@ Similarly, the third condition is equivalent to $R^1 F(A) \simeq 0$.
 +-- {: .num_example #FAcyclicResolution}
 ###### Example
 
-The $F$-projective/injective resolutions by [[nLab:acyclic objects]] as in example \ref{FAcyclicObjectsAreFProjectiveObjects} are called **$F$-acyclic resolutions**.
+The $F$-projective/injective resolutions (def. \ref{FProjectivesResolution}) by [[acyclic objects]] as in example \ref{FAcyclicObjectsAreFProjectiveObjects} are called **$F$-acyclic resolutions**.
 
 =--
 
