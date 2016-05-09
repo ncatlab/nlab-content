@@ -138,7 +138,7 @@ where the [[action]] of the [[product group]] is via its canonical embedding $U(
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RealComplexProjectiveSpaceAsGrassmannian}
 ###### Example
 
 * $Gr_1(\mathbb{R}^{n+1}) \simeq \mathbb{R}P^n$ is [[real projective space]] of [[dimension]] $n$.
