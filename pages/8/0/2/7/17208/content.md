@@ -15,7 +15,46 @@
 
 ## Idea
 
-Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}\mathbb{P}^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]].
+Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]].
+
+Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$
+
+## Definition
+
++-- {: .num_defn #ComplexProjectiveSpace}
+###### Definition
+
+For $n \in \mathbb{N}$, then **complex $n$-dimensional complex projective space** is the [[complex manifold]] (often just regarded as its underlying [[topological space]]) defined as the [[quotient]]
+
+$$
+  \mathbb{C}P^n \coloneqq (\mathbb{C}^{n+1}-\{0\})/_\sim
+$$ 
+
+where $(z \sim w) \Leftrightarrow (z = \kappa w)$.
+
+=--
+
+The following equivalent characterizations are immediate but useful:
+
++-- {: .num_prop #ComplexProjectiveSpaceAsS1Quotient}
+###### Proposition
+
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-sphere|(2n+1)-sphere]] by the [[circle group]] $S^1 \simeq \{ \kappa  \in \mathbb{C}| {\vert \kappa \vert} = 1\}$
+
+$$
+  \mathbb{C}P^n \simeq S^{2n+1}/S^1
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ComplexProjectiveSpaceAsQutientOfDisk}
+###### Proposition
+
+For $n \in \mathbb{N}$ then complex projective space, def. \ref{ComplexProjectiveSpace}, is equivalently the quotient of the [[n-disk|2n-disk]] by $\kappa$ with ${\vert \kappa \vert}\leq 1$.
+
+
+=--
 
 ## Properties
 
@@ -24,9 +63,11 @@ Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A
 +-- {: .num_prop #CellComplexStructure}
 ###### Proposition
 
-There is a [[cell complex]] structure on the $\mathbb{C}P^n$ for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2n$.
+There is a [[cell complex]] structure on the $\mathbb{C}P^n$ for $n \in \mathbb{N}$, given by [[induction]], where $\mathbb{C}P^{n+1}$ arises from $\mathbb{C}P^n$ by attaching a single cell of dimension $2n$ with attaching map the [[projection]] $S^{2n+1} \longrightarrow \mathbb{C}P^n$ from prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
 
 =--
+
+Proof: by combining prop. \ref{ComplexProjectiveSpaceAsQutientOfDisk} with prop. \ref{ComplexProjectiveSpaceAsS1Quotient}.
 
 ### Homology and Cohomology 
  {#Cohomology}
