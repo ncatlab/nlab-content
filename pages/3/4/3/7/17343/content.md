@@ -7542,7 +7542,7 @@ Let $\mathcal{C}_c$ be a [[category of cofibrant objects]],  def. \ref{FullSubca
 
 1. the composite morphism $X \overset{i_0}{\longrightarrow} Cyl(X) \overset{(i_1)_\ast f}{\longrightarrow} Cyl(f)$ is a cofibration;
 
-1. $f$ factors through this morphism by a weak equivalence.
+1. $f$ factors through this morphism by a weak equivalence left inverse to an acyclic cofibration
 
    $$
      f 
@@ -7561,7 +7561,7 @@ Let $\mathcal{C}_f$ be a [[category of fibrant objects]],  def. \ref{FullSubcate
 
 1. the composite morphism $Path(f) \overset{p_1^\ast f}{\longrightarrow} Path(Y) \overset{p_0}{\longrightarrow} Y$ is a fibration;
 
-1. $f$ factors through this morphism by a weak equivalence.
+1. $f$ factors through this morphism by a weak equivalence right inverse to an acyclic fibration:
 
    $$
      f 
@@ -7794,8 +7794,7 @@ Then
 +-- {: .num_proof}
 ###### Proof
 
-For $f \in F$ the statement follows from 
-the fact that in the diagram
+For $f \in Fib$ the statement follows from the [[pasting law]] which says that if in 
 
 $$
   \array{
@@ -7812,9 +7811,7 @@ $$
   }
 $$
 
-all squares (the two inner ones as well as the
-outer one) are [[pullback]] squares,
-since pullback squares compose under pasting.
+the bottom and the total square are pullback squares, then so is the top square.
 
 The same reasoning applies for $f \in W \cap Fib$.
 
@@ -8184,7 +8181,7 @@ $$
       &\underoverset{\in Fib}{f^\ast p_2}{\longrightarrow}& 
     Y_1
     \\
-    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\in W}} && \downarrow^{\mathrlap{f}}_{\mathrlap{\in W}}    
     \\
     fib(p_2) &\longrightarrow& X_2 &\underoverset{\in Fib}{p_2}{\longrightarrow}& Y_2
   }
