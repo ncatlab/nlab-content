@@ -281,7 +281,7 @@ A category of [[concrete presheaves]] inside a [[category of presheaves]] on a [
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #TheReflectiveSubcategoriesOfSet}
 ###### Example
 
 Assuming classical logic, the category [[Set]] has exactly three reflective (and [[replete subcategory|replete]]) subcategories: the full subcategory containing all [[singleton set|singleton sets]]; the full subcategory containing all [[subsingletons]]; and $Set$ itself.
