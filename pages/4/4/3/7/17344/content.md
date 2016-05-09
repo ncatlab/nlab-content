@@ -194,7 +194,7 @@ The following def. \ref{SequentialSpectra} is the traditional component-wise def
 
 Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequrntial spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
 
-Throughout we say "[[topological space]]" for [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop))
+Throughout, out ambient [[category]] of [[topological spaces]] is $Top_{cg}$, the category of [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop)).
 
 +-- {: .num_defn #SequentialSpectra}
 ###### Definition
@@ -205,7 +205,7 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
 
 1. pointed [[continuous functions]] $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
 
- A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous functions, such that these respect the structure maps in that all [[diagrams]] of the form
 
 $$
   \array{
@@ -249,15 +249,13 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
 
 $$
   \array{
-    Maps(S^1, X_n)_\ast 
-     &\stackrel{Maps(S^1, \widetilde{f_n})_\ast}{\longrightarrow}& 
-    Maps(S^1, Y_n)_\ast
+    X_n &\overset{f_n}{\longrightarrow}& Y_n
     \\
-    \downarrow^{\mathrlap{\tilde \sigma_n^X}} 
-      && 
-    \downarrow^{\mathrlap{\tilde \sigma_n^Y}}
+    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
     \\
-    X_{n+1} &\stackrel{\widetilde{f_{n+1}}}{\longrightarrow}& Y_{n+1}
+    Maps(S^1, X_{n+1})
+    &\underset{Maps(S^1,f_{n+1})}{\longrightarrow}&
+    Maps(S^1, Y_{n+1})
   }
 $$
 
@@ -271,9 +269,9 @@ $$
 
 For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension spectrum]]** $\Sigma^\infty X$ is the [[sequential spectrum]] , def. \ref{SequentialSpectra}, with
 
-* $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
+* $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$ ([[smash product]] of $X$ with the [[n-sphere]]);
 
-* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$ the canonical [[homeomorphism]].
+* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$ (the canonical [[homeomorphism]]).
 
 This construction extends to a [[functor]]
 
@@ -313,7 +311,7 @@ $$
 
 Let $X\in SeqSpec(Top_{cg})$ be a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $K \in Top^{\ast/}_{cg}$ a [[pointed topological space|pointed]] [[compactly generated topological space]]. Then
 
-1. $X \wedge K$ (the **[[smash product|smash]] [[tensoring]]** of $X$ with $K$) is the sequential spectrum with 
+1. $X \wedge K$ (the **[[smash product|smash]] [[tensoring]]** of $X$ with $K$) is the sequential spectrum given by
 
    * $(X \wedge K)_n \coloneqq X_n \wedge K$ ([[smash product]] on component spaces ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)))
 
@@ -335,7 +333,7 @@ $$
     \;\colon\;
   SeqSpec(Top_{cg}) \times Top^{\ast/}_{cg}
     \longrightarrow
-  SeqSpec(Top^{\ast}_{cg})
+  SeqSpec(Top_{cg})
 $$
 
 and
@@ -414,7 +412,7 @@ $$
   Top_{cg}^{\ast/}
 $$
 
-from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in [[natural bijection]] with squares of the form
+from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)) gives that these squares are in [[natural bijection]] with squares of the form
 
 $$
   \array{
