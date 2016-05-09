@@ -43,6 +43,8 @@ A **bi-Heyting algebra** is a bounded distributive lattice $L$ that carries a He
 
 Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting algebras were introduced and studied in a series of papers by Cecylia Rauszer in the 1970s who called them _semi-Boolean algebras_ which suggests to view them as a generalization of [[Boolean algebra|Boolean algebras]].
 
+A [[topos]] $\mathcal{E}$ such that the lattice $sub(X)$ of subobjects is a Bi-Heyting algebra for every object $X\in\mathcal{E}$ are called [[Bi-Heyting topos|Bi-Heyting toposes]].
+
 ## Examples
 
 * The lattice of closed subsets of a topological space is a co-Heyting algebra with $X\backslash Y=\overline{X\cap Y^c}\quad$.
@@ -67,12 +69,13 @@ Co-Heyting algebras were initially called _Brouwerian algebras_ . Bi-Heyting alg
 
 ##Related entries
 
-+ [[co-Heyting negation]]
+* [[co-Heyting negation]]
 * [[co-Heyting boundary]]
 * [[Heyting algebra]]
 * [[Heyting category]]
 * [[distributive category]]
 * [[mereology]]
+* [[bi-Heyting topos]]
 * [[bitopological space]]
 
 ##References
