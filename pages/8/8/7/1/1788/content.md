@@ -1,17 +1,66 @@
+In showing that [[Serre fibrations]] are abstract fibrations in the sense of [[model category]] theory, theorem \ref{TopQuillenModelStructure} implies that the [[fiber]] $F$ (example \ref{FiberAndCofiberInPointedObjects}) of a [[Serre fibration]], def. \ref{SerreFibration} 
+
 $$
-  X \; \text{Omega-spectrum}
-  \;\;\;\;\;
-   \Rightarrow
-  \;\;\;\;\;
-  \pi_k(X)
-    \simeq
-  \left\{
-    \array{
-      \pi_k X_0  & if\; k \geq 0
-      \\
-      \pi_0 X_k  & if \; k \lt 0
-    }
-  \right.
+  \array{
+    F &\longrightarrow& X
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    && B
+  }
+$$
+
+over any point is actually a [[homotopy fiber]] in the sense of def. \ref{HomotopyFiber}. With prop. \ref{FiberOfFibrationIsCompatibleWithWeakEquivalences} this implies that the [[weak homotopy type]] of the fiber only depends on the Serre fibration up to weak homotopy equivalence in that if $p' \colon X' \to B'$ is another Serre fibration fitting into a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X &\overset{\in W_{cl}}{\longrightarrow}& X'    
+    \\
+    \downarrow^{\mathrlap{p}} && \downarrow^{\mathrlap{p'}}
+    \\
+    B &\overset{\in W_{cl}}{\longrightarrow}& B'
+  }
+$$
+
+then $F \overset{\in W_{cl}}{\longrightarrow} F'$. 
+
+In particular this gives that the [[weak homotopy type]] of the fiber of a Serre fibration $p \colon X \to B$ does not change as the basepoint is moved in the same connected component. For let $\gamma \colon I \longrightarrow B$ be a path between two points 
+
+$$
+  b_{0,1} 
+    \;\colon\; 
+  \ast 
+    \underoverset{\in W_{cl}}{i_{0,1}}{\longrightarrow} 
+  I 
+    \overset{\gamma}{\longrightarrow}
+  B
   \,.
 $$
 
+Then since all objects in $(Top_{cg})_{Quillen}$ are fibrant, and since the endpoint inclusions $i_{0,1}$ are weak equivalences, lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} gives the [[zig-zag]] of top horizontal weak equivalences in the following diagram:
+
+$$
+  \array{
+    F_{b_0} = & b_0^\ast p
+      &\overset{\in W_{cl}}{\longrightarrow}&
+    \gamma^{\ast}p 
+      &\overset{\in W_{cl}}{\longleftarrow}&
+    b_1^\ast p
+    &
+    = F_{b_1}
+    \\
+    & \downarrow &(pb)& \downarrow{\mathrlap{{\gamma^\ast f} \atop {\in \atop {Fib}}}} &\;\;(pb)& \downarrow
+    \\
+    & \ast 
+      &\underoverset{i_0}{\in W_{cl}}{\longrightarrow}& 
+    I
+      &\underoverset{i_1}{\in W_{cl}}{\longleftarrow}&
+    \ast
+  }
+$$
+
+and hence an isomorphism $F_{b_0} \simeq F_{b_1}$ in the [[classical homotopy category]] (def. \ref{ClassicalHomotopyCategory}).  
+
+The same kind of argument applied to maps from the square $I^2$ gives that if $\gamma_1, \gamma_2\colon I \to B$ are two homotopic paths with coinciding endpoints, then the isomorphisms between fibers over endpoints which they induce are equal. (But in general the isomorphism between the fibers does depend on the choice of homotopy class of paths connecting the basepoints!)
+
+The same kind of argument also shows that if $B$ has the structure of a [[cell complex]] (def. \ref{TopologicalCellComplex}) then the restriction of the Serre fibration to one cell $D^n$ may be identified in the homotopy category with  $D^n \times F$, and may be canonically identified so if the [[fundamental group]] of $X$ is trivial. This is used when deriving the [[Serre spectral sequence|Serre]]-[[Atiyah-Hirzebruch spectral sequence]] for $p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
