@@ -257,6 +257,10 @@ The projective model structure on $Top_{Quillen}$-enriched functors is discussed
 
   also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
+See also 
+
+* [[Alex Heller]], _Homotopy in functor categories_, Transactions of the AMS, vol 272, Number 1, July 1982 ([JSTOR](http://www.jstor.org/stable/1998955))
+
 General review and discussion includes
 
 * [[Philip Hirschhorn]], section 11.6 in _Model categories and their localizations_, 2003 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
@@ -288,4 +292,3 @@ See also
 
 [[!redirects projective model structure on enriched functors]]
 [[!redirects projective model structures on enriched functors]]
-
