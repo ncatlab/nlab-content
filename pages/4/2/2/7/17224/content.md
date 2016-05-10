@@ -9,6 +9,55 @@
 
 ...implies for instance the strong form of the [[Freudenthal suspension theorem]]...
 
+## Statement
+
++-- {: .num_prop}
+###### Proposition
+
+Let 
+
+$$
+  \array{
+    F &\overset{i}{\longrightarrow}& X
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    && B 
+  }
+$$
+
+be a [[Serre fibration]] such that 
+
+1. the base space $B$ is $(n_1-1)$-[[n-connected topological space|connected]];
+
+1. the [[fiber]] $F$ is $(n_2-1)$-connected, for $n_2 \geq 2$ and $n_1 \geq 1$;
+
+then for every [[abelian group]] $A$ there is a [[long exact sequence]] of [[ordinary homology]] groups of the form
+
+$$
+  H_{n_1 + n_2 - 1}(F,A)
+    \overset{i_\ast}{\longrightarrow}
+  H_{n_1 + n_2 - 1}(X,A)
+    \overset{p_\ast}{\longrightarrow}
+  H_{n_1 + n_2 - 1}(B,A)
+    \overset{\tau}{\longrightarrow}
+  H_{n_1 + n_2 - 2}(F,A)
+    \overset{i_\ast}{\longrightarrow}
+  \cdots
+    \overset{i_\ast}{\longrightarrow}
+  H_1(X,A)        
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+spring
+
+=--
+
 ## Related concepts
 
 * [[long exact sequence in cohomology]]
