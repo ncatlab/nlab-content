@@ -192,7 +192,7 @@ The following def. \ref{SequentialSpectra} is the traditional component-wise def
 
 > It is generally supposed that [[George Whitehead|G. W. Whitehead]] also had something to do with it, but the latter takes a modest attitude about that. ([Adams 74, p. 131](#Adams74))
 
-Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequential spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
+Below in prop. \ref{SequentialSpectraAsDiagramSpectra} we discuss an equivalent definition of sequential spectra as "topological diagram spectra" ([Mandell-May-Schwede-Shipley 00](#MMSS00)), namely as [[topologically enriched functors]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) on a [[topologically enriched category]] of [[n-spheres]], which is useful for establishing the [[stable model category]] structure ([below](#StableModelStructureOnSequentialSpectra)) and for establishing the [[symmetric monoidal smash product of spectra]] (in [1.2](#DiagramSpectra)).
 
 Throughout, our ambient [[category]] of [[topological spaces]] is $Top_{cg}$, the category of [[compactly generated topological space]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#kTop)).
 
@@ -201,11 +201,23 @@ Throughout, our ambient [[category]] of [[topological spaces]] is $Top_{cg}$, th
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  $X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}$ (the **component spaces**); 
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  
 
-1. pointed [[continuous functions]] $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
+   $$
+     X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}
+   $$ 
 
- A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous functions, such that these respect the structure maps in that all [[diagrams]] of the form
+   (the **component spaces**); 
+
+1. pointed [[continuous functions]] 
+
+   $$
+     \sigma_n \colon S^1 \wedge X_n \to X_{n+1}
+   $$ 
+
+   for all $n \in \mathbb{N}$ (the **structure maps**) from the [[smash product]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects))  of one component space with the standard [[1-sphere]] to the next component space.
+
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous functions between component spaces, such that these respect the structure maps in that all [[diagrams]] of the form
 
 $$
   \array{
@@ -241,9 +253,21 @@ from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] (
 
 A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
 
-1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  $X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}$ (the **component spaces**); 
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  
+  
+   $$
+     X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}
+   $$ 
 
-1. pointed [[continuous functions]] $\tilde \sigma_n \colon X_n \to Maps(S^1,X_{n+1})_\ast$ for all $n \in \mathbb{N}$ (the **adjunct structure maps**) from one component space to the pointed mapping space ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) out of $S^1$ into the next component space.
+   (the **component spaces**); 
+
+1. pointed [[continuous functions]] 
+
+   $$
+     \tilde \sigma_n \colon X_n \to Maps(S^1,X_{n+1})_\ast
+   $$ 
+
+   for all $n \in \mathbb{N}$ (the **adjunct structure maps**) from one component space to the pointed [[mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) out of $S^1$ into the next component space.
 
  A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $\widetilde{f_\bullet} \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
@@ -253,9 +277,9 @@ $$
     \\
     {}^{\mathllap{\tilde \sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
     \\
-    Maps(S^1, X_{n+1})
-    &\underset{Maps(S^1,f_{n+1})}{\longrightarrow}&
-    Maps(S^1, Y_{n+1})
+    Maps(S^1, X_{n+1})_\ast
+      &\underset{Maps(S^1,f_{n+1})_\ast}{\longrightarrow}&
+    Maps(S^1, Y_{n+1})_\ast
   }
 $$
 
@@ -287,7 +311,7 @@ $$
 
 =--
 
-+-- {: .num_example #SuspensionSpectrum}
++-- {: .num_example #StandardSphereSpectrum}
 ###### Example
 
 The [[suspension spectrum]] (example \ref{SuspensionSpectrum}) of the point is the **standard sequential [[sphere spectrum]]** 
@@ -724,6 +748,7 @@ $$
   \,.
 $$
 
+
 =--
 
 +-- {: .num_prop}
@@ -755,23 +780,6 @@ $$
   \,.
 $$
 
-
-=--
-
-+-- {: .num_defn #StableWeakEquivalenceOfSequentialTopologicalSpectra}
-###### Definition
-
-A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
-
-$$
-  \pi_\bullet(f) 
-    \;\colon\; 
-  \pi_\bullet(X) 
-    \overset{\simeq}{\longrightarrow}
-  \pi_\bullet(Y)
-  \,.
-$$
-
 =--
 
 +-- {: .num_example}
@@ -794,7 +802,39 @@ $$
   \,.
 $$
 
+Specifically for $X = S^0$ the [[0-sphere]], with suspension spectrum the standard [[sphere spectrum]] (def. \ref{StandardSphereSpectrum}), its stable homotopy groups are the [[stable homotopy groups of spheres]]:
+
+$$
+  \begin{aligned}
+    \pi_q^S(S^0)
+      & \;\coloneqq\;
+    \pi_q(\mathbb{S})
+    \\
+      & =
+    \underset{\longleftarrow}{\lim}_{k} \pi_{q + k}(S^k)
+  \end{aligned}
+  \,.
+$$
+
 =--
+
+
++-- {: .num_defn #StableWeakEquivalenceOfSequentialTopologicalSpectra}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
+
+$$
+  \pi_\bullet(f) 
+    \;\colon\; 
+  \pi_\bullet(X) 
+    \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(Y)
+  \,.
+$$
+
+=--
+
 
 
 +-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
