@@ -108,6 +108,8 @@ $$
   }
 $$
 
+... (???) ...
+
 =--
 
 The **Freudenthal suspension theorem** ([Freudenthal 37](#Freudenthal37)) is the following theorem about [[homotopy groups]] of [[n-spheres]]:
