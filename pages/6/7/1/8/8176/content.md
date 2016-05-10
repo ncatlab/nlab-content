@@ -54,6 +54,8 @@ where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coeff
 
 * [[Gysin sequence]]
 
+
+
 ## References
 
 ### General
