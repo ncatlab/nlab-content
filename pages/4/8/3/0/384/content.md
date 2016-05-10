@@ -60,13 +60,28 @@ A _[[finite CW-complex]]_ is one which admits a presentation in which there are 
 
 Formally this means that (relative) CW-complexes are special (relative) [[cell complexes]] with respect to the [[cofibrantly generated model category|generating cofibrations]] in the standard [[Quillen model structure on topological spaces]]: they are those cell complexes which are obtained from a _countable_ [[transfinite composition]] of cell attachments, and where in addition the stage $X_n$ is obtained from $X_{n-1}$ by attaching cells of dimension $n$, instead of cells of arbitrary dimension.
 
+A **cellular map** between CW-complexes $X$ and $Y$ is a [[continuous function]] $f\colon X \to Y$ such that $f(X_n) \subset Y_n$.
+
 Milnor has argued that the category of spaces which are homotopy equivalent to CW-complexes, also called [[m-cofibrant spaces]], is a [[nice category of spaces|convenient category of spaces]] for [[algebraic topology]].
 
 
 ## Properties
 
+### Closure properties
+
+If $A \hookrightarrow X$ is an inclusion of CW-complexes, then the quotient $X/A$ is naturally itself a CW-complex, such that the quotient map $X \to X/A$ is cellular.
+
+
+If $X$ is a CW-complex and $K$ is a [[finite CW-complex]], then the [[product topological space]] $X \times K$ is naturally itself a CW-complex.
+
+For example the [[suspension]] of a CW-complex itself carries the structure of a CW-complex.
+
+Similarly for [[pointed topological space|pointed]] CW-complexes: the [[smash product]] of a pointed CW-complex with a finite pointed CW-complex is a pointed CW-complex. For example the [[reduced suspension]] $S^1 \wedge X$ of a  pointed CW-complex $X$ is itself a CW-complex.
+
+
 ### Local contractibility
  {#LocalContractibility}
+
 
 +-- {: .num_prop }
 ###### Proposition
