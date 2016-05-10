@@ -375,6 +375,20 @@ $$
 
 =--
 
++-- {: .num_example}
+###### Example
+
+The tensoring (def. \ref{TensoringAndPoweringOfSequentialSpectra}) of the standard [[sphere spectrum]] $\mathbb{S}_{std}$ (def. \ref{StandardSphereSpectrum}) with a space $X \in Top_{cg}$ is isomorphic to the [[suspension spectrum]] of $X$ (def. \ref{SuspensionSpectrum}):
+
+$$
+  \mathbb{S}_{std} \wedge X
+    \simeq
+  \Sigma^\infty X
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop #AdjunctionBetweenSmashTensoringAndPowering}
 ###### Proposition
@@ -1122,6 +1136,40 @@ That the limits and colimits exist and are computed objectwise follows via prop.
 
 =--
 
++-- {: .num_example #WedgeSumOfSpectra}
+###### Example
+
+The [[coproduct]] of [[spectra]] $X, Y \in SeqSpec(Top_{cg})$, called the **wedge sum of spectra** 
+
+$$
+  X \vee Y
+    \coloneqq
+  X \sqcup Y
+$$
+
+is componentwise the [[wedge sum]] of pointed topological spaces ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))
+
+$$
+  (X \vee Y)_n
+  =
+  X_n \vee Y_n
+$$
+
+with structure maps
+
+$$
+  \sigma_n^{X \vee Y}
+    \;\colon\;
+  S^1 \wedge (X \vee Y)
+    \simeq
+  S^1 \wedge X \,\vee\, S^1 \wedge Y
+    \overset{(\sigma_n^X, \sigma_n^Y)}{\longrightarrow}
+  X_{n+1} \vee Y_{n+1}
+  \,.
+$$
+
+
+=--
 
 ##### Suspension and looping
 
@@ -1136,7 +1184,12 @@ For $X$ a sequential spectrum, then
 
 1. the **standard looping** of $X$ is the [[powering]] $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
-The standard suspension is equivalently the [[cofiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
+=--
+
++-- {: .num_prop #StandardSuspensionSpectrumIsCofiberOfStandardCylinderSpectrum}
+###### Proposition
+
+For $X\in SeqSpec(Top_{cg})$, the standard suspension $X \wedge S^1$ of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[cofiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical inclusion of boundaries into the standard [[cylinder spectrum]]  $X \wedge (I_+)$ of example \ref{StandardCylinderSpectrumSequential}:
 
 $$
   X \wedge S^1 
@@ -1147,7 +1200,7 @@ $$
   \,.
 $$
 
-The standard looping is equivalently the [[fiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (example \ref{StandardPathSpaceSpectrumSequential}):
+Dually, the standard looping spectrum $Maps(S^1,X)_\ast$ of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[fiber]] (formed via prop. \ref{LimitsAndColimitsOfSequentialSpectra}) of the canonical projection from the standard path space spectrum $Maps(I_+,X)_\ast$ (example \ref{StandardPathSpaceSpectrumSequential}):
 
 $$
   Maps(S^1,X)_\ast 
@@ -1158,8 +1211,39 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .proof}
+###### Proof
+
+For the standard suspension this is immediate from the componentwise construction of the smash tensoring and the componentwise computation of colimits of spectra via prop. \ref{LimitsAndColimitsOfSequentialSpectra}.
+
+For the standard looping spectrum it is more tedious to check this in components, but it follows from the previous statement and the adjunction of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering} that for all $X, Y \in SeqSpec(Top_{cg})$ there is a [[natural bijection]]
+
+$$
+  \array{
+    Hom(X, Maps(S^1, Y)_\ast)
+      & \overset{\simeq}{\longrightarrow} &
+    Hom(X \wedge S^1, Y)
+    \\
+    && \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom(X, fib(Maps(I_+,Y)_\ast \to Y \times Y))
+      & \overset{\simeq}{\longleftarrow} &
+    Hom(cofib(X \vee X \to X \wedge I_+), Y)
+  }
+  \,.
+$$
+
+Since this in natural in $X$, the [[Yoneda lemma]] implies an isomorphism
+
+$$
+  Maps(S^1, Y)_\ast \simeq fib(Maps(I_+,Y)_\ast \to Y \times Y)
+  \,.
+$$
 
 =--
+
 
 There are two other models for suspension and looping of spectra, which are not isomorphic in $SeqSpec(Top_{cg})$, but which will turn out to be isomorphic in the [[stable homotopy category]], and which will be useful for computations:
 
@@ -2655,7 +2739,7 @@ $$
   (Top_{cg}^{\ast/})_{Quillen}
 $$
 
-on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies says that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
+on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrants, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
 $\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
 
 Regarding the second statement: 
