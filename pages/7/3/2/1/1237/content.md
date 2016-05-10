@@ -43,7 +43,7 @@ For $(X,x) as $ [[pointed topological space]], then its *reduced suspension* $\S
 
 ### Relation to suspension
 
-For [[CW-complex]]es the reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
+For [[CW-complexes]] $X$ that are also [[pointed topological space|point]], with the point identified with a 0-cell, then their reduced suspension is [[weak homotopy equivalence|weakly homotopy equivalent]] to the ordinary suspension: $\Sigma X \simeq S X$.
 
 ### Cogroup structure
 
