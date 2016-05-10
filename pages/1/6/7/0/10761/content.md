@@ -54,6 +54,8 @@ for $n \in \mathbb{N}$ and for $\Sigma$ the [[suspension]] functor.
 
 * Any of the above with $\mathcal{C}$ and $\mathcal{A}$ replaced by their [[opposite categories]].
 
+* Any reduced [[generalized homology theory]].
+
 =--
 
 ## Related concepts
