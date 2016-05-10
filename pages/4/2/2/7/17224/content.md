@@ -25,7 +25,7 @@ It arises as a special case of the information contained in the corresponding [[
 
 ## Statement
 
-+-- {: .num_prop}
++-- {: .num_prop #SerreLongExactSequenceForHighlyConnectedBaseAndFiber}
 ###### Proposition
 
 Let 
