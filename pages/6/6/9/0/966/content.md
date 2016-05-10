@@ -198,7 +198,7 @@ but it is not itself representable (hence has no [[left adjoint]]).
 =--
 
 [[André Joyal]] has been attributing this example to [[Saunders MacLane]],
-It appears in print for instance right at the beginning of ([Ad&#225;mekKoubekTrnkov&#225;01](#AdamekKoubekTrnkova)).
+it appears in print for instance right at the beginning of ([Ad&#225;mekKoubekTrnkov&#225;01](#AdamekKoubekTrnkova)).
 
 ### In toposes
 
@@ -209,7 +209,7 @@ Every [[sheaf topos]] is a [[total category]] and a [[cototal category]].
 
 =--
 
-See the discussion at _[[Grothendieck topos]]_ . 
+See the discussion at _[[Grothendieck topos]]_. 
 
 
 It follows that
