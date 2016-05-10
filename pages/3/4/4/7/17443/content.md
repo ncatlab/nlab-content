@@ -50,6 +50,8 @@ In the case that $X_j$ is an essential sublocale, this presheaf is simply given 
 $$ u \mapsto \mathcal{F}(b(u)) $$
 and is already a sheaf, so sheafification is not necessary.
 
+* A sublocale of the one-point locale is essential if and only if it is [[open morphism|open]]. This is because the extra [[Frobenius reciprocity]] condition demanded by openness is automatically satisfied (in classical mathematics and in impredicative [[constructive mathematics]]).
+
 * The lattice of essential sublocales of a given locale is [[complete lattice|complete]]. Suprema are calculated as in the lattice of all sublocales; infima, however, are not. There are counterexamples in ([Kelly and Lawvere (1989)](#KL89)), however in the slightly different context of essential [[localizations of categories]].
  
 
