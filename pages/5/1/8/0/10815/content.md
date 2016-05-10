@@ -249,6 +249,8 @@ $$
 
 * [[Gysin map]]
 
+* [[Serre long exact sequence]]
+
 * [[Serre spectral sequence]]
 
 ## References
