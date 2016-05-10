@@ -712,32 +712,32 @@ $$
   \,,
 $$
 
-where the colimit is over the [[sequential diagram]] whose component morphisms are
+where the colimit is over the [[sequential diagram]] whose component morphisms are given in terms of the structure maps of def. \ref{SequentialSpectra} by
 
 $$
-  \pi_q(X_n)
+  \pi_{q+k}(X_k)
     \overset{\simeq}{\to}
-  [S^q,X_n]_\ast
-    \overset{(S^1\wedge(-))_{S^q,X_n}}{\longrightarrow}
-  [S^{q+1}, S^1 \wedge X_n]_\ast
-    \overset{[S^{q+1}, \sigma_n]}{\longrightarrow}
-  [S^{q+1}, X_{n+1}]_\ast
+  [S^{q+k},X_k]_\ast
+    \overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}
+  [S^{q+k+1}, S^1 \wedge X_k]_\ast
+    \overset{[S^{q+k+1}, \sigma_k]}{\longrightarrow}
+  [S^{q+k+1}, X_{k+1}]_\ast
     \overset{\simeq}{\to}
-  \pi_{n+1}(X_{n+1})
+  \pi_{q+k+1}(X_{k+1})
 $$
 
-or equivalently
+and equivalently are given in terms of the adjunct structure maps of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} by
 
 $$
-  \pi_q(X_n)
+  \pi_{q+k}(X_k)
     \overset{\simeq}{\longrightarrow}
-  [S^q, X_n]_\ast
-    \overset{[S^q, \tilde \sigma_n]}{\longrightarrow}
-  [S^q, Maps(S^1,X_{n+1})_\ast]_\ast
+  [S^{q+k}, X_k]_\ast
+    \overset{[S^{q+k}, \tilde \sigma_k]}{\longrightarrow}
+  [S^{q+k}, Maps(S^1,X_{k+1})_\ast]_\ast
     \simeq
-  [S^1 \wedge S^{q}, X_{n+1}]_\ast
+  [S^1 \wedge S^{q+k}, X_{k+1}]_\ast
     \simeq
-  \pi_{q+1}(X_{n+1})
+  \pi_{q+k+1}(X_{k+1})
   \,.
 $$
 
@@ -761,24 +761,26 @@ The two component morphisms given in def. \ref{StableHomotopyGroups} indeed agre
 +-- {: .proof}
 ###### Proof
 
-That they agree on any $\alpha \in \pi_q(X_n) \simeq [S^q, X_n]_\ast$ follows by chasing the identity on $S^1 \wedge X_n$ through the defining naturality square of the $(S^1 \wedge (-)) \dashv Maps(S^1,-)_\ast$-adjunction of prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}: 
+Consider the following instance of the defining naturality square of the $(S^1 \wedge (-)) \dashv Maps(S^1,-)_\ast$-adjunction of prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}: 
 
 $$
   \array{
-    [S^1 \wedge X_n, S^1 \wedge X_n]_\ast
+    [S^1 \wedge X_k, S^1 \wedge X_k]_\ast
       &\overset{\simeq}{\longrightarrow}&
-    [X_n, Maps(S^1, S^1 \wedge X_n)_\ast]_\ast
+    [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
     \\
-    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_n]}}\downarrow 
-      &\searrow^{\mathrlap{[\alpha,\tilde \sigma_n]}}& 
-    \downarrow^{\mathrlap{[\alpha, Maps(S^1,\sigma_n)_\ast]_\ast}}
+    {}^{\mathllap{[S^1 \wedge \alpha, \sigma_k]}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{[\alpha, Maps(S^1,\sigma_k)_\ast]_\ast}}
     \\
-    [S^1 \wedge S^q, X_{n+1}]_\ast
+    [S^1 \wedge S^{q+k}, X_{k+1}]_\ast
       &\underset{\simeq}{\longrightarrow}&
-    [S^q, Maps(S^1, X_{n+1})_\ast]_\ast
+    [S^{q+k}, Maps(S^1, X_{k+1})_\ast]_\ast
   }
   \,.
 $$
+
+Then consider the identity element in the top left hom-set. Its image under the left vertical map is the first of the two given component morphisms. Its image under going around the other way is the second of the two component morphisms. By the commutativity of the diagram, these two images agree.
 
 =--
 
@@ -815,6 +817,35 @@ $$
   \end{aligned}
   \,.
 $$
+
+Recall the [[Freudenthal suspension theorem]], which states that if $X$ is an [[n-connected topological space|n-connected]] pointed [[CW-complex]] then the comparison map
+
+$$
+  \pi_{q}(X) \longrightarrow \pi_{q+1}(\Sigma X)
+$$
+
+is an isomorphism for $q \leq 2n$. This implies first of all that every $\Sigma^k X$ is $(k-1)$-connected
+
+$$
+  \begin{aligned}
+    \pi_0(\Sigma X) & \simeq \ast
+    \\    
+    \pi_1(\Sigma^2 X) & \simeq \pi_0(\Sigma X) \simeq \ast
+    \\
+    \pi_2(\Sigma^3 X) & \simeq \pi_1(\Sigma^2 X) \simeq \pi_0(\Sigma X) \simeq \ast
+    \\
+    \cdots
+  \end{aligned}
+$$
+
+and then that the $q$th stable homotopy group of $X$ is attained at stage $k = q+2$ in the colimit:
+
+$$
+  \pi^S_q(X) \simeq \pi_{q + (q+2)}(\Sigma^{q+2}X)
+  \,.
+$$
+ 
+Historically, this fact was one of the motivations for finding a [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory} below). 
 
 =--
 
