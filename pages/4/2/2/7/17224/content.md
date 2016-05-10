@@ -204,8 +204,60 @@ $$
 $$
 
 
+=--
+
+## Examples and Applications
+
++-- {: .num_prop }
+###### Proposition
+
+For $X$ ab [[n-connected topological space]], then for $k \leq 2n$ there are [[isomorphisms]]
+
+$$
+  H_k(X) \simeq H_{k-1}(\Omega X)
+$$
+
+between the [[ordinary homology]] of $X$ in degree $k$ and the ordinary homology of the [[loop space]] of $X$ in degree $k-1$.
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+The Serre long exact sequence from prop. \ref{SerreLongExactSequenceForHighlyConnectedBaseAndFiber} applied to the based [[path space]] [[Serre fibration]] of $X$
+
+$$
+  \Omega X \longrightarrow Path_\ast(X) \longrightarrow X
+$$
+
+is of the form
+
+$$
+  H_{2n}(\Omega X)
+    \overset{i_\ast}{\longrightarrow}
+  H_{2n}(Path_\ast(X))
+    \overset{p_\ast}{\longrightarrow}
+  H_{2n}(X)
+    \overset{\tau}{\longrightarrow}
+  H_{2n-1}(\Omega X)
+    \overset{i_\ast}{\longrightarrow}
+  \cdots
+    \overset{i_\ast}{\longrightarrow}
+  H_1(X)        
+  \,.
+$$
+
+Since $Path_\ast(X)$ is [[contractible topological space|contractible]], every third group in this sequence vanishes, and hence exactness gives the isomorphisms
+
+$$
+  \tau \colon H_k(X) \simeq H_{k-1}(\Omega X)
+$$
+
+for $k \leq 2n$. 
+
+=--
+
 
 ## Related concepts
 
