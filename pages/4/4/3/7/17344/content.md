@@ -1023,7 +1023,7 @@ $$
   \,.
 $$
 
-This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, 
+This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, for instance:
 
 $$
   \array{
@@ -1048,7 +1048,7 @@ Further [below](#StrictModelStructureOnSequentialSpectra) we use prop. \ref{Sequ
 +-- {: .num_remark #TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}
 ###### Remark
 
-Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the general concept of tensoring of [[topologically enriched functors]] over topological spaces (according to [this def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) restricts to the concept of tensoring of sequential spectral over topological spaces of def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+Under the equivalence of prop. \ref{SequentialSpectraAsDiagramSpectra}, the general concept of tensoring of [[topologically enriched functors]] over topological spaces (according to [this def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)) restricts to the concept of tensoring of sequential spectral over topological spaces according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
 =--
 
@@ -1239,7 +1239,7 @@ $$
   }
 $$
 
-This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\pi_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
 
 =--
 
@@ -1289,7 +1289,20 @@ $$
   \,.
 $$
 
-Applying the adjunction isomorphism diagonally  (for instance for the [[adjunct]]] of the left and bottom morphism chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways 
+Applying the adjunction isomorphism diagonally   gives a natural bijection to diagrams of this form:
+
+$$
+  \array{
+   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
+   \\
+   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+   \\
+   X_{n+1} &\underset{\widetilde {f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
+  }
+  \,.
+$$
+
+(To see this in full detail, for instance for the [[adjunct]] of the left and bottom morphism: chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways 
 
 $$
   \array{
@@ -1307,18 +1320,7 @@ $$
   }
 $$
 
-through the adjunction naturality square) gives a natural bijection to diagrams of this form:
-
-$$
-  \array{
-   S^1 \wedge X_n &\overset{f_n}{\longrightarrow}& Y_n
-   \\
-   {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
-   \\
-   X_{n+1} &\underset{\widetilde {f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
-  }
-  \,.
-$$
+through the adjunction naturality square. The other cases follow analogously.)
 
 Then applying the adjunction isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
 
@@ -1446,7 +1448,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 * a **strict fibration** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on topological spaces]] (hence a [[Serre fibration]]);
 
-* a **strict cofibration** if the maps $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] of $f_n$ with the structure maps of $X$
+* a **strict cofibration** if the maps $f_0\colon X_0 \to Y_0$ as well as for all $n \in \mathbb{N}$ the [[pushout products]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)) of $f_n$ with the structure maps of $X$
 
   $$
     X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
@@ -1454,7 +1456,7 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
     Y_{n+1}
   $$
 
-  are cofibrations in the  [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]) for all $n \in \mathbb{N}$;
+  are cofibrations in the [[classical model structure on topological spaces]] (hence [[retracts]] of [[relative cell complexes]]);
 
 =--
 
@@ -1465,7 +1467,7 @@ $$
 $$
 
 $$
-  J_{Top^{\ast/}} \coloneqq \{D^n \overset{(id,\delta_0)_+}{\longrightarrow} D^n \times I\}_{n \in \mathbb{N}}
+  J_{Top^{\ast/}} \coloneqq \{D^n \overset{(j_n)_+}{\longrightarrow} D^n \times I\}_{n \in \mathbb{N}}
 $$
 
 of standard generating (acyclic) cofibrations ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) of the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantGenerationOfPointedTopologicalSpaces)).
@@ -1481,7 +1483,7 @@ $$
     \coloneqq 
   \left\{ 
     y(S^n) \cdot i_+ 
-  \right\}_{{S^n \in StdSpheres} \atop {i_+ \in I_{Top^{\ast/}}}}
+  \right\}_{{S^n \in StdSpheres,} \atop {i_+ \in I_{Top^{\ast/}}}}
   \;\;
   \in [StdSpheres, Top^{\ast/}] \simeq SeqSpec(Top)
 $$
@@ -1499,7 +1501,7 @@ $$
   \,,
 $$
 
-for the set of morphisms arising as the [[tensoring]] (remark \ref{TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}) of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on pointed topological spaces]].
+for the set of morphisms arising as the [[tensoring]] (remark \ref{TensoringOfSeqSpectraOverSpacesAsSpecialCaseOfTensoringTopologicalFunctors}) of a [[representable functor|representable]] ([exmpl.](#Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) with a generating acyclic cofibration of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)).
 
 =--
 
@@ -1510,7 +1512,7 @@ for the set of morphisms arising as the [[tensoring]] (remark \ref{TensoringOfSe
 
 The classes of morphisms in def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} give the structure of a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) to be denoted $SeqSpec(Top)_{strict}$ and called the **strict [[model structure on topological sequential spectra]]** (or: **level model structure**).
 
-This is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{SeqSpec}^{strict}$ (resp. $J_{SeqSpec}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
+Moreover, this is a [[cofibrantly generated model category]] with generating (acyclic) cofibrations the set $I_{SeqSpec}^{strict}$ (resp. $J_{SeqSpec}^{strict}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict}.
 
 =--
 
@@ -1570,7 +1572,7 @@ $$
     && S^1 \wedge B_n &\stackrel{\sigma_n^B}{\longrightarrow}& B_{n+1}
   }
   \;\;\;
-  \Rightarrow
+  =
   \;\;\;
   \array{
     S^1 \wedge X_n &\stackrel{\sigma_n^X}{\longrightarrow}& X_{n+1}
@@ -1588,7 +1590,11 @@ $$
 
 Hence a [[lifting]] in the original diagram is a lifting in each degree $n$, such that the lifting in degree $n+1$ makes these diagrams of structure maps commute.
 
-Since components are parameterized over $\mathbb{N}$, this condition has solutions by [[induction]]. First of all there must be an ordinary lifting in degree 0. Then assume a lifting $l_n$ in degree $n$ has been found
+Since components are parameterized over $\mathbb{N}$, this condition has solutions by [[induction]]:
+
+First of all there must be an ordinary lifting in degree 0. Since the strict fibrations are degreewise classical fibrations, this gives the condition that for $f_\bullet$ to be a strict cofibration, then $f_0$ is to be a classical cofibration.
+
+Then assume that a lifting $l_n$ in degree $n$ has been found
 
 $$
   \array{
@@ -1598,9 +1604,10 @@ $$
     \\
     Y_n &\longrightarrow& B_n
   }
+  \,.
 $$
 
-the lifting $l_{n+1}$ in the next degree has to also make the following diagram commute
+Now the lifting $l_{n+1}$ in the next degree has to also make the following diagram commute
 
 $$
   \array{
@@ -1619,7 +1626,7 @@ $$
   \,.
 $$
 
-This is a [[cocone]] under the the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)), while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+This is a [[cocone]] under the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)), while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
 
 $$
   \array{
@@ -1636,6 +1643,7 @@ $$
   \,.
 $$
 
+This shows that $f_\bullet$ is a strict cofibration precisely if (in addition to $f_0$ being a classical cofibration) all these pushout products are classical cofibrations.
 
 =--
 
@@ -1683,7 +1691,7 @@ $$
   \,.
 $$
 
-Therefore $\Sigma^\infty f$ is a strict cofibration, according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}, precisely if $(\Sigma^\infty f)_0 = f$ is a classical cofibration and all the structure maps of $\Sigma^\infty Y$ are classical cofibrations. But the latter are even isomorphisms, so that this is no extra condition. Hence $\Sigma^\infty$ sends cofibrations to cofibrations.
+Therefore $\Sigma^\infty f$ is a strict cofibration, according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}, precisely if $(\Sigma^\infty f)_0 = f$ is a classical cofibration and all the structure maps of $\Sigma^\infty Y$ are classical cofibrations. But the latter are even isomorphisms, so that this is no extra condition ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)). Hence $\Sigma^\infty$ sends cofibrations to cofibrations.
 
 Furthermore, it is clear that $\Sigma^\infty$ sends weak equivalences to weak  equivalences. Hence it preserves also acyclic cofibrations, hence is a left Quillen functor.
 
@@ -1749,6 +1757,7 @@ $$
 
 =--
 
+Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences that the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure. 
 
 ##### CW-spectra
 
@@ -6212,110 +6221,17 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 ## References
  {#References}
 
-### Basic reading
-
-For **Prelude) Classical homotopy theory** 
-
-A concise and yet comprehensive and self-contained re-write of the proof ([Quillen 67](#Quillen67)) of the [[classical model structure on topological spaces]] is in
-
-* {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_ ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942)).
-
-For general [[model category]] theory a decent concise account is in
-
-* {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
-
-For the restriction to the [[convenient category of topological spaces|convenient category]] of [[compactly generated topological spaces]] good sources are
-
-* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
-
-* {#Strickland09} [[Neil Strickland]], _The category of CGWH spaces_, 2009 ([pdf](http://neil-strickland.staff.shef.ac.uk/courses/homotopy/cgwh.pdf))
-
-For section **1) Stable homotopy theory** we follow the modern picture of the stable homotopy category for which an enjoyable survey may be found in
+We give the modern picture of the stable homotopy category for which an enjoyable survey may be found in
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
-The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read, but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3. What we actually do follows 
+The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read, but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3. 
+
+What we actually consider follows 
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
 For the discussion of [[ring spectra]] we pass to [[symmetric spectra]] and [[orthogonal spectra]]. A comprehensive account of the former is in
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
-
-
-For **Interlude: Spectral sequences** a discussion streamlined for our purposes is in ([Rognes 12, section 2](#Rognes12)).
-
-In **2) Adams spectral sequence** for the general theory we follow ([Hopkins 99, section 5](#Hopkins99)) as worked out in
-
-* {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
-
-and we take some further clues from ([Adams 74, III.15](#Adams74)).
-
-For the special case of the classical Adams spectral sequence a comprehensive survey is in 
-
-* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
-
-For the **Seminar on Complex oriented cohomology** an excellent textbook to hold on to is
-
-* {#Kochman96} [[Stanley Kochman]], chapters I - IV of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
-
-While this gives detailed proofs, some standard steps used are made more explicit for instance in 
-
-* {#Switzer75} [[Robert Switzer]], _Algebraic Topology - Homotopy and Homology_, Die  Grundlehren der Mathematischen Wissenschaften in Einzeldarstellungen, Vol. 212, Springer-Verlag, New York, N. Y., 1975. 
-
-
-Specifically for **S.1) Generalized cohomology** a neat account is in:
-
-* {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
-
-
-For **S.2) Cobordism theory** an efficient collection of the highlights is in
-
-* {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
-
-except that it omits proof of the [[Leray-Hirsch theorem]]/[[Serre spectral sequence]] and that of the [[Thom isomorphism]], but see the references there and see ([Kochman 96](#Kochman96), [Aguilar-Gitler-Prieto 02, section 11.7](#AguilarGitlerPrieto02)) for details.
- 
-For **S.3) Complex oriented cohomology** besides ([Kochman 96, chapter 4](#Kochman96)) have a look at part II of 
-
-* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
-
-and
-
-* {#Lurie10} [[Jacob Lurie]], lectures 1-10 of _[[Chromatic Homotopy Theory]]_, 2010
-
-(These overlap, pick the one that seems more inviting on first reading.)
-
-### Further reading
-
-The two originals
-
-* {#Quillen67} [[Daniel Quillen]], _Axiomatic homotopy theory_ in  _Homotopical algebra_, Lecture Notes in Mathematics, No. 43 43, Berlin (1967)
-
-* {#Brown73} [[Kenneth Brown]], _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458  ([JSTOR](http://www.jstor.org/stable/1996573))
-
-are still an excellent source. For further reading on homotopy theory and stable homotopy theory a useful collection is
-
-* {#James95} [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_ 1995
-
-The modern chromatic picture originates around
-
-* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
-
-a useful survey is in
-
-* {#Wilson13} [[Dylan Wilson]] section 1.2 of _Spectral Sequences from Sequences of Spectra: Towards the Spectrum of the Category of Spectra_ lecture at _[2013 Pre-Talbot Seminar](http://math.harvard.edu/~hirolee/pretalbot2013/)_, March 2013 ([[DylanWilsonOnANSS.pdf:file]])
-
-a wealth of details is in
-
-* {#Ravenel86} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1987/2003 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
-
-and new foundations have been laid in
-
-* {#LurieHigherAlgebra} [[Jacob Lurie]], _[[Higher Algebra]]_
-
-Further useful lecture notes pointed to above include the following:
-
-* {#Hatcher04} [[Alan Hatcher]], _[Spectral sequences in algebraic topology](http://www.math.cornell.edu/~hatcher/SSAT/SSATpage.html)_ _II: The Adams spectral sequence_, 2004 ([pdf](http://www.math.cornell.edu/~hatcher/SSAT/SSch2.pdf))
-
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
