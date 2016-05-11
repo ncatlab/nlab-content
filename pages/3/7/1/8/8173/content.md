@@ -75,10 +75,13 @@ While that article was still being translated to English, [[Frank Adams]] learne
 
 Reviews include
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 11 0f chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, page 11 of chapter I _An introduction to the homotopy groups of spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel1.pdf))
 
 
 * [[Doug Ravenel]], _[Complex cobordism and stable homotopy groups of spheres](http://www.math.rochester.edu/people/faculty/doug/mu.html)_, chapter IV _$B P$-Theory and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenel4.pdf))
+
+* {#Kochman96} [[Stanley Kochman]], sections 4.7 and 5.6 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 
 * [[Jacob Lurie]], _Localizations and the Adams-Novikov Spectral Sequence_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture30.pdf))
 
