@@ -1525,20 +1525,17 @@ $\,$
 ## References
  {#References}
 
-For the general theory we follow section 5 of 
+For the general theory we follow 
 
-* {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
+* {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 
 
 as worked out in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
-For the special case of the [[classical Adams spectral sequence]] a comprehensive survey is in 
+For the special case of the [[classical Adams spectral sequence]] we follow
 
-* {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
+* {#Kochman96} [[Stanley Kochman]], chapter 5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-See also
-
-* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 
