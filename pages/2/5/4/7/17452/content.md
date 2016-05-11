@@ -1,0 +1,49 @@
+# Multiplicative disjunction
+
+* table of contents
+{: toc}
+
+## Idea
+
+In [[linear logic]]/[[linear type theory]], and also sometimes in other [[substructural logics]] such as [[relevance logic]], the **multiplicative disjunction** (also called **negative disjunction**, **intensional disjunction**, or **fission**) is a [[logical connective]] that is [[dual]] to the [[multiplicative conjunction]].  In linear logic it is usually written $A\invamp B$.
+
+It is probably the rarest of the binary connectives of linear logic to appear semantically.  The additive conjunction and additive disjunction are categorically [[products]] and [[coproducts]], while the [[multiplicative conjunction]] is the [[tensor product]] of a [[monoidal category]] and the [[linear implication]] is the [[internal-hom]] of a [[closed category]]; but the multiplicative disjunction only appears nontrivially (i.e. without coinciding with one of the others) in a [[star-autonomous category]] that is not [[compact closed category|compact]].  Syntactically, this means that it really only appears when the multiplicative connectives are "classical", i.e. the multiplicative [[negation]] is involutive.
+
+It is probably also the hardest to understand intuitively of any of the linear logic connectives.
+
+## Definition
+
+In terms of the [[multiplicative conjunction]] $\otimes$ and an involutive multiplicative [[negation]] $\neg$, the multiplicative disjunction can be defined as
+
+$$ A \invamp B \coloneqq \neg (\neg A \otimes \neg B) $$
+
+When classical linear logic is expressed with multiple-conclusion [[sequent calculus]], its left and right rules are
+
+$$ \frac{\Gamma \vdash \Delta,A,B}{\Gamma \vdash \Delta, A\invamp B}  \qquad 
+\frac{\Gamma,A \vdash \Delta \quad \Gamma',B\vdash \Delta'}{\Gamma,\Gamma',A\invamp B \vdash \Delta,\Delta'}$$
+
+## Explanations
+
+Here we collect some possible ways to understand $\invamp$ intuitively.
+
+### In terms of resources
+
+When linear logic is interpreted as tracking the usage of resources, we can interpret $A\invamp B$ as saying that only one of $A$ or $B$ will happen, but we don't know which, so we have to allocate enough resources to deal with each of them separately.  For example, a military general who knows that he will be attacked from either the east or the north must divide his forces between both fronts, even if the attack will only come from one direction; thus what he has is "attack from east $\invamp$ attack from north".  (If he had spies out that would be able to inform him in advance where the attack was coming from so that he could concentrate his forces there, then he would instead have an additive disjunction "attack from east $\oplus$ attack from north".)
+
+### As a delayed or nondeterministic choice
+
+Relatedly, we can interpret $A\invamp B$ as a "delayed choice" $A$ and $B$.  That is, if I give you $A\invamp B$, then it might appear at first that what I gave you is $A$, but as you proceed to make use of $A$ I might change my mind and decide that really I wanted to give you $B$ instead.  This can also be regarded as a "nondeterministic" choice, so that your responses to being given $A$ or $B$ have to proceed in parallel.
+
+In particular, note that in classical linear logic it is the multiplicative disjunction, not the additive one, that is "classical" in the sense that it satisfies [[excluded middle]]:
+
+$$ \vdash A \invamp \neg A$$
+
+We don't have $A\oplus \neg A$ because, as in [[constructive mathematics]], we can't decide which of $A$ or $\neg A$ might hold.  But we can say $A \invamp \neg A$ because that allows us to delay making a choice until we have enough information.  This is similar to how constructively we can say $\neg\neg(A\vee \neg A)$ by a "continuation-passing" argument (see [[excluded middle]] for details).
+
+[[!redirects multiplicative disjunction]]
+[[!redirects multiplicative disjunctions]]
+[[!redirects intensional disjunction]]
+[[!redirects intensional disjunctions]]
+[[!redirects negative disjunction]]
+[[!redirects negative disjunctions]]
+[[!redirects fission]]
