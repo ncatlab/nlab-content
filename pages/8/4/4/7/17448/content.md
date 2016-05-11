@@ -1,0 +1,48 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+##Idea
+A **scattered topos** is the topos-theoretic analogue of a [[scattered space|scattered topological space]] and therefore provides a natural environment for an internal interpretation of [[provability logic]].
+
+##Definition
+A topos $\mathcal{E}$ is called $\bot\negthinspace$-scattered if the subtopos $Sh_{\neg\neg}(\mathcal{E})$ of [[double negation|double negation sheaves]] is an [[open subtopos]].
+
+A topos $\mathcal{E}$ is called _scattered_ if every [[closed subtopos]] of $\mathcal{E}$ is $\bot$-scattered.
+
+##Example
+
+....
+
+##Properties
+
+....
+
+##Related entries
+
+* [[scattered space]]
+
+* [[provability logic]]
+
+* [[double negation]]
+
+* [[De Morgan topos]]
+
+##References
+
+* {#EJP00} Leo Esakia, [[Mamuka Jibladze]], Dito Pataraia, _Scattered Toposes_ , APAL **103** (2000) pp.97-107.
