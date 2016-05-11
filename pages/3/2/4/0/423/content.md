@@ -125,3 +125,7 @@ See also [[examples in topology]].
 * [[computational topology]]
 * [[topological data analysis]]
 * [[sources in computational topology]]
+
+## References
+
+* [[Topospaces]], a Wiki with basic material on topology.
