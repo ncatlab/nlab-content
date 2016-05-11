@@ -258,6 +258,8 @@ See the [references below](#ReferencesHopfAlgebroid).
 
 * [[Pi-algebra]]
 
+* [[Lambda-algebra]]
+
 * [[Adams resolution]], [[Adams spectral sequence]], [[Adams-Novikov spectral sequence]]
 
 * [[Brown-Gitler spectrum]]
