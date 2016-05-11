@@ -927,6 +927,8 @@ $$ E^{(2)}_{p,q} \simeq H_p(B,\mathcal{H}_q(A|_{b})) $$
 
 * {#CartanEilenberg56} [[Henri Cartan]], [[Samuel Eilenberg]], chapter XV of _Homological algebra_, Princeton Univ. Press (1956)
 
+* {#Kochmann96} [[Stanley Kochman]], section 5.3 of  of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 * {#Orlich} Jennifer Orlich, _Spectral sequences and an application_, 1998 ([pdf](http://www.math.osu.edu/~flicker.1/orlich.pdf))
 
 
