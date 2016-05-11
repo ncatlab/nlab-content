@@ -226,11 +226,15 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[stable homotopy groups of spheres]]
 
+* [[classical Adams spectral sequence]]
+
 ### 5.2 Lambda algebras
 
 ### 5.3 May spectral sequences
 
 * [[May spectral sequence]]
+
+* [[classical Adams spectral sequence]]
 
 ### 5.4 Massey products
 
