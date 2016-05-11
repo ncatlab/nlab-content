@@ -44,10 +44,8 @@ The left adjoint $b$ automatically satisfies $b(u) \preceq u$, $b(b(u)) = u$, $j
 
 ## Properties
 
-* For a general sublocale $i : X_j \hookrightarrow X$ and a sheaf $\mathcal{F}$ on $X$, the pullback $i^{-1} \mathcal{F}$ is the [[sheafification]] of the presheaf
-$$ u \mapsto \colim_{u \preceq j(v)} \mathcal{F}(v). $$
-In the case that $X_j$ is an essential sublocale, this presheaf is simply given by the formula
-$$ u \mapsto \mathcal{F}(b(u)) $$
+* For a general sublocale $i : X_j \hookrightarrow X$ and a sheaf $\mathcal{F}$ on $X$, the pullback $i^{-1} \mathcal{F}$ is the [[sheafification]] of the presheaf $u \mapsto \colim_{u \preceq j(v)} \mathcal{F}(v)$.
+In the case that $X_j$ is an essential sublocale, this presheaf is simply given by the formula $u \mapsto \mathcal{F}(b(u))$
 and is already a sheaf, so sheafification is not necessary.
 
 * A sublocale of the one-point locale is essential if and only if it is [[open morphism|open]]. This is because the extra [[Frobenius reciprocity]] condition demanded by openness is automatically satisfied (in classical mathematics and in impredicative [[constructive mathematics]]).
