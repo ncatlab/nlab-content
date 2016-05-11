@@ -25,9 +25,11 @@ A topos $\mathcal{E}$ is called $\bot\negthinspace$-scattered if the subtopos $S
 
 A topos $\mathcal{E}$ is called _scattered_ if every [[closed subtopos]] of $\mathcal{E}$ is $\bot$-scattered.
 
-##Example
+##Examples
 
-....
+Every [[Boolean topos]] $\mathcal{E}$ is $\bot$-scattered since it obviously coincides with $Sh_{\neg\neg}(\mathcal{E})$ and is [[open subtopos|open]] in itself (and [[closed subtopos|closed]] as well). Accordingly, $\mathcal{E}$ is scattered since subtoposes of Boolean toposes are Boolean.
+
+A simple example of a non-Boolean scattered topos is the [[Sierpinski topos]] $Set^\rightarrow$ that consists of two copies of $Set$ [[Artin gluing|glued]] together such that one copy corresponding to $Sh_{\neg\neg}(Set^\rightarrow)$ is open and the other one is closed. Since $Set^\rightarrow$ and the closed copy of $Set$ are both $\bot$-scattered the claim follows.
 
 ##Properties
 
@@ -42,6 +44,8 @@ A topos $\mathcal{E}$ is called _scattered_ if every [[closed subtopos]] of $\ma
 * [[double negation]]
 
 * [[De Morgan topos]]
+
+* [[locally closed subtopos]]
 
 ##References
 
