@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -99,7 +98,7 @@ Here we define the set of propositions:
    *  $A \& B$ (read 'with'), the __additive [[logical conjunction|conjunction]]__ of $A$ and $B$;
    *  $A \oplus B$ (read 'plus'), the __additive [[disjunction]]__ of $A$ and $B$;
    *  $A \otimes B$ (read 'times'), the __[[multiplicative conjunction]]__ of $A$ and $B$;
-   *  $A \parr B$ (read 'par' and sometimes written $A \mid B$), the __multiplicative disjunction__ of $A$ and $B$.
+   *  $A \parr B$ (read 'par' and sometimes written $A \mid B$), the __[[multiplicative disjunction]]__ of $A$ and $B$.
 *  There are also four constants to go with the four binary operations above:
    *  $\top$ (read 'top'), the __additive [[truth]]__;
    *  $\mathbf{0}$ (read 'zero'), the __additive [[falsity]]__;
