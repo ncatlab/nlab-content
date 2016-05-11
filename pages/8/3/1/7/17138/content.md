@@ -45,7 +45,7 @@ _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]
 
 _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_
 
-_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_
+_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-S.pdf) under construction)
 
 
 ***
