@@ -40,6 +40,7 @@ On the other hand, if PEM holds, then we can show by induction that if $A$ and $
 In particular, the axiom of choice implies PEM.  This argument, due originally to Diaconescu, can be internalized in any [[topos]]. However, other weak versions of choice such as [[countable choice]] (any surjection to a countable set (which for this purpose is any set isomorphic to the set of natural numbers) has a section), [[dependent choice]], or even [[COSHEP]] do not imply PEM. In fact, it is often claimed that axiom of choice is *true* in constructive mathematics (by the BHK or [[Brouwer-Heyting-Kolmogorov interpretation]] of predicate logic), leading to much argument about exactly what that means.
 
 ## Double-negated PEM
+ {#DoubleNegatedPEM}
 
 While PEM is not valid in constructive mathematics, its double negation 
 
