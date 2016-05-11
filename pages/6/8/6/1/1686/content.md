@@ -48,7 +48,7 @@ Throughout, let $\mathcal{A}$ be an [[abelian category]].
 
 ### Spectral sequence
 
-+-- {: .num_defn}
++-- {: .num_defn #CohomologySpectralSequence}
 ###### Definition
 
 A __cohomology spectral sequence__ in $\mathcal{A}$ is 
@@ -298,6 +298,48 @@ $$
 
 =--
 
+
+### Extension problem
+ {#ExtensionProblem}
+
+
+Given a spectral sequence, then even if it converges strongly (def. \ref{Convergence}), computing its infinity-page still just gives the [[associated graded]] of the [[filtered object]] that it converges to, not the filtered object itself. The latter is in each filter stage an [[extension]] of the previous stage by the corresponding stage of the infinity-page, but there are in general several possible extensions (the trivial extension or some twisted extensions). The problem of determining these extensions and hence the problem of actually determining the filtered object from a spectral sequence converging to it is often refferred to as the _extension problem_.
+
+More in detail, consider, for definiteness, a cohomology spectral sequence (def. \ref{CohomologySpectralSequence}) converging (def. \ref{Convergence}) to some [[filtered object|filtered]] $F^\bullet H^\bullet$
+
+$$
+  E^{p,q} \;\Rightarrow\; H^\bullet
+  \,.
+$$
+
+Then by definition of convergence there are isomorphisms
+
+$$
+  E_\infty^{p,\bullet} \simeq F^p H^{p + \bullet} / F^{p+1} H^{p + \bullet}
+  \,.
+$$
+
+Equivalently this means that there are [[short exact sequences]] of the form
+
+$$
+  0 \to F^{p+1}H^{p +\bullet} \hookrightarrow F^p H^{p +\bullet} \longrightarrow E_\infty^{p,\bullet} \to 0
+  \,.
+$$
+
+for all $p$. The extension problem then is to inductively deduce $F^p H^\bullet$ from knowledge of $F^{p+1}H^\bullet$ and $E_\infty^{p,\bullet}$.
+
+In good cases these short exact sequences happen to be [[split exact sequences]], which means that the extension problem is solved by the [[direct sum]]
+
+$$
+  F^p H^{p+\bullet} \simeq F^{p+1} H^{p+\bullet} \oplus E_\infty^{p,\bullet}
+  \,.
+$$
+
+But in general this need not be the case. 
+
+One sufficient condition that these exact sequences split is that they consist of homomorphisms of $R$-[[modules]], for some $R$, and that $E_\infty^{p,\bullet}$ are [[projective modules]] (for instance [[free modules]]) over $R$. Because then the [[Ext]]-group $Ext^1(E_\infty^{p,\bullet},-)$ vanishes, and hence all extensions are trivial, hence split.
+
+So for instance for every spectral sequence in [[vector spaces]] the extension problem is trivial (since every vector space is a free module).
 
 
 ## Examples
