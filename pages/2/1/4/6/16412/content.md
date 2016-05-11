@@ -1,16 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+ [[Georg Cantor]] used to define the [[continuum]] as a **perfect space** that is [[connected space|connected]] as well. Hence, the property of 'being perfect', as the name indicates as well, can be viewed as forming part of the concept of a 'prototypical' topological space.
+
+## Definition
+
 A [[topological space]] $X$ is **perfect** if it has no isolated points, i.e., if every point $x$ belongs to the topological [[closure operator|closure]] of its [[complement]] $X \setminus \{x\}$. 
 
 In a topological space $X$, a [[subset]] is said to be _perfect_ if it is [[closed set|closed]] in $X$ and perfect in its [[subspace topology]]. 
 
-## Related 
+## Example
 
-See also 
+* The [[Cantor space]] $2^\mathbb{N}$ is perfect, in fact, it is the only [[totally disconnected space|totally disconnected]], [[compact]], metric space that is perfect.
+
+## Properties
+
+* Every topological space $X$ is the disjoint union of a [[scattered space| scattered subset]] and a perfect subset.
+
+## Related entries
+
+* [[scattered space]]
 
 * [[limit point]] 
+
+* [[Cantor space]]
 
 * [[Polish space]] 
 
 * [[descriptive set theory]] 
+
+## Reference
+
+* S. Willard, _General Topology_ , Addison-Wesley Reading 1970. (Dover reprint 2004, pp.216ff)
 
 [[!redirects perfect set]] 
 [[!redirects perfect spaces]] 
