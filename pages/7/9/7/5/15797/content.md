@@ -8,6 +8,8 @@ Sam Gitler was a Mexican [[algebraic topology|algebraic topologist]]. He was ver
 
 * [[generalized (Eilenberg-Steenrod) cohomology]]
 
+* [[Brown-Gitler spectrum]]
+
 ## Writings
 
 * Marcelo Aguilar, Samuel Gitler, Carlos Prieto,  _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
