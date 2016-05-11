@@ -234,6 +234,8 @@ The original article is
 
 Review includes
 
+* [[John McCleary]], chapter 9 of _A User's Guide to Spectral Sequences_, Cambridge University Press (1985, 2001)
+
 * {#Bruner09} [[Robert Bruner]], _An Adams spectral sequence primer_, 2009 ([pdf](http://www.math.wayne.edu/~rrb/papers/adams.pdf))
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
