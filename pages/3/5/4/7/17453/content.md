@@ -24,17 +24,19 @@ Scattered spaces are used to provide topological models of [[provability logic]]
 
 ## Definition
 
-A subset $A$ of a topological space is called _dense in itself_ if $A$ contains all its limit points.
+A subset $A$ of a topological space is called _dense in itself_ if  each point of $A$ is a [[limit point]] of $A$.
 
-A topological space $X$ is called _scattered_ if $X$ doesn't contain dense-in-itself subsets.
+A topological space $X$ is called _scattered_ if $X$ doesn't contain nonempty dense-in-itself subsets.
 
 ## Example
+
+* The [[Sierpinski space]] $X=\{a,b\}$ with topology $\{\emptyset ,\{a\}, X\}$ is scattered: whereas $b$ is a limit point of $X$, $a$ isn't, whence $X$ fails to be dense in itself. $\{a\}$ fails to be dense in itself since, whereas $b$ is a limit point, $a$ isn't. Finally, $\{b\}$ has no limit points at all. 
 
 * Discrete spaces are scattered.
 
 ## Properties
 
-* Every topological space $X$ is the disjoint union of a scattered subset and a [[perfect]] subset.
+* Every topological space $X$ is the disjoint union of a scattered subset and a [[perfect space|perfect]] subset.
 
 ## Related entries
 
