@@ -1507,6 +1507,10 @@ We here consider examples applying the general theory of $E$-[[Adams spectral se
 
 ([Kochman 96, section 5](#Kochman96))
 
+...[[Lambda-algebra]]...
+
+...[[May spectral sequence]]...
+
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]]))
