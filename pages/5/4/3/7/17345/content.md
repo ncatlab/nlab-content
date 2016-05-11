@@ -1951,7 +1951,7 @@ $$
 ## References
  {#References}
 
-A gentle (but lengthy) exposition of the general idea of spectral sequences is in 
+A gentle exposition of the general idea of spectral sequences is in 
 
 * [[John McCleary]], _A User's Guide to Spectral Sequences_, Cambridge University Press (1985, 2001)
 
