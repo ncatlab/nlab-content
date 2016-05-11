@@ -487,6 +487,8 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 ## References
 
+* [[Topospaces]], _[Complex projective space](http://topospaces.subwiki.org/wiki/Complex_projective_space)_
+
 * Wikipedia, _[Complex projective space](https://en.wikipedia.org/wiki/Complex_projective_space)_
 
 [[!redirects complex projective spaces]]
