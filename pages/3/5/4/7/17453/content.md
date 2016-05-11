@@ -1,0 +1,50 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+[[!redirects scattered set]]
+[[!redirects dense-in-itself subset]]
+[[!redirects scattered spaces]]
+
+#Contents#
+* automatic table of contents goes here
+{:toc}
+
+## Idea
+A **scattered space** is a [[topological space]] that on the scale of 'connectivity' is at the extreme opposite of [[perfect space|perfect spaces]].
+
+Scattered spaces are used to provide topological models of [[provability logic]].
+
+## Definition
+
+A subset $A$ of a topological space is called _dense in itself_ if $A$ contains all its limit points.
+
+A topological space $X$ is called _scattered_ if $X$ doesn't contain dense-in-itself subsets.
+
+## Example
+
+* Discrete spaces are scattered.
+
+## Properties
+
+* Every topological space $X$ is the disjoint union of a scattered subset and a [[perfect]] subset.
+
+## Related entries
+
+* [[scattered topos]]
+
+* [[perfect space]]
+
+* [[provability logic]]
+
+## Reference
+
+* S. Willard, _General Topology_ , Addison-Wesley Reading 1970. (Dover reprint 2004, p.219)
+
