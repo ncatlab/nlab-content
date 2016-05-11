@@ -1,4 +1,3 @@
-[[!redirects continuation passing style]]
 
 ## Related concepts
 
@@ -10,8 +9,13 @@
 
 * [[Yoneda lemma]]
 
+* [double-negated principle of excluded middle](excluded+middle#DoubleNegatedPEM)
+
 ## References
 
 * Wikipedia, _[Continuation-passing style](http://en.wikipedia.org/wiki/Continuation-passing_style)_
 
+[[!redirects continuation passing style]]
 
+[[!redirects continuation-passing]]
+[[!redirects continuation passing]]
