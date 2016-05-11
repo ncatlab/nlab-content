@@ -228,13 +228,19 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[classical Adams spectral sequence]]
 
+* [[Adams-Novikov spectral sequence]]
+
 ### 5.2 Lambda algebras
+
+* [[EHP spectral sequence]]
+
+* [[Curtis algorithm]]
 
 ### 5.3 May spectral sequences
 
-* [[May spectral sequence]]
+* [[spectral sequence of a filtered complex]]
 
-* [[classical Adams spectral sequence]]
+* [[May spectral sequence]]
 
 ### 5.4 Massey products
 
@@ -243,6 +249,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 ### 5.5 The Lambda Complex $\Gamma^\ast$
 
 ### 5.6 The Lambda Complex $\Gamma^\ast_{BP}$
+
+* [[Adams-Novikov spectral sequence]]
 
 ### 5.7 Toda brackets and stable stems
 
