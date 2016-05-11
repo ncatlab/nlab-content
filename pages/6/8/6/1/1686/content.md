@@ -303,7 +303,7 @@ $$
  {#ExtensionProblem}
 
 
-Given a spectral sequence, then even if it converges strongly (def. \ref{Convergence}), computing its infinity-page still just gives the [[associated graded]] of the [[filtered object]] that it converges to, not the filtered object itself. The latter is in each filter stage an [[extension]] of the previous stage by the corresponding stage of the infinity-page, but there are in general several possible extensions (the trivial extension or some twisted extensions). The problem of determining these extensions and hence the problem of actually determining the filtered object from a spectral sequence converging to it is often refferred to as the _extension problem_.
+Given a spectral sequence, then even if it converges strongly (def. \ref{Convergence}), computing its infinity-page still just gives the [[associated graded]] of the [[filtered object]] that it converges to, not the filtered object itself. The latter is in each filter stage an [[extension]] of the previous stage by the corresponding stage of the infinity-page, but there are in general several possible extensions (the trivial extension or some twisted extensions). The problem of determining these extensions and hence the problem of actually determining the filtered object from a spectral sequence converging to it is often referred to as the _extension problem_.
 
 More in detail, consider, for definiteness, a cohomology spectral sequence (def. \ref{CohomologySpectralSequence}) converging (def. \ref{Convergence}) to some [[filtered object|filtered]] $F^\bullet H^\bullet$
 
