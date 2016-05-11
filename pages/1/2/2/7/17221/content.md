@@ -232,6 +232,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 ### 5.2 Lambda algebras
 
+* [[Lambda algebra]]
+
 * [[EHP spectral sequence]]
 
 * [[Curtis algorithm]]
