@@ -1103,3 +1103,6 @@ More references relating to the [[nPOV]] on cohomology include:
 
 [[!redirects generalized (Eilenberg-Steenrod) cohomlogy theory]]
 [[!redirects generalized (Eilenberg-Steenrod) cohomlogy theories]]
+
+[[!redirects extraordinary cohomology theory]]
+[[!redirects extraordinary cohomology theories]]
