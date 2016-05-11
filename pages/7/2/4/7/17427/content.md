@@ -11,21 +11,25 @@ This can be indicated syntactically by the use of two or more punctuation symbol
 
 $$ A,B,(C;(D,E);F),(G;H) \vdash K $$
 
-The sub-contexts surrounded by parentheses are informally called *bunches*.  The phrase *bunched logic* is not entirely standard, although the word "bunches" has been used for multiple logics of this form.
+The contexts put together with both commas and semicolons are called *bunches*.  The general phrase *bunched logic* is not entirely standard, although the word "bunches" has been used with more than one logic of this form (the original is "bunched implication (BI)", below).
 
 Each type of punctuation also comes with a nullary version.  The punctuation symbols like comma and semicolon are sometimes called *structural connectives*, since they are part of the judgmental structure (like [[structural rules]]) but are closely related to the [[logical connectives]] such as conjunction and disjunction.
 
-Usually the reason for using a bunched logic is that the bunches of different sorts obey different [[structural rules]].  For instance, the semicolon-bunches might allow the [[contraction rule]] and/or the [[weakening rule]], while the comma-bunches do not.
+Usually the reason for using a bunched logic is that the different structural connectives obey different [[structural rules]].  For instance, the semicolon might allow the [[contraction rule]] and/or the [[weakening rule]], while the comma does not.
 
 ## Examples
 
 ### Bunched implications
 
-In **bunched implications** logic ([BI](#BI)), the semicolon-bunches allow contraction and weakening while the comma-bunches do not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
+In **bunched implications** logic ([BI](#BI)), the semicolon allows contraction and weakening while the comma does not.  This allows defining both an [[additive conjunction]] and a [[multiplicative conjunction]], internalizing the semicolon and the comma respectively, such that both [[distributive law|distribute]] over the [[additive disjunction]] and moreover both come with a corresponding implication: the [[additive implication]] and the [[multiplicative implication]].
 
 ### Relevance logic
 
-Some forms of [[relevance logic]] can be presented with a bunched sequent calculus that is similar to BI, but in which the comma-bunches also have contraction (though not weakening) and there is no additive implication.  See for instance ([Mints](#Mints)).
+Some forms of [[relevance logic]] can be presented with a bunched sequent calculus that is similar to BI, but in which the comma also has contraction (though not weakening) and there is no additive implication.  See for instance ([Mints](#Mints)).
+
+### Classical bunched implication
+
+A logic of **classical bunched implication** is like BI but with arbitrary bunches on the right as well as on the left.  On the right, the semicolon represents the [[additive disjunction]] and the comma represents a [[multiplicative disjunction]], and there are both an additive and a multiplicative [[negation]] that move formulas back and forth.  Both negations are "classical" with respect to their corresponding connectives, e.g. we have $\sim\sim A \multimap A$ (where $\sim$ is the multiplicative negation and $\multimap$ the multiplicative implication) and also $\neg\neg A \to A$ (where $\neg$ is the additive negation and $\to$ the additive implication).  See [Pym 2002](#Pym2002) and [this discussion](https://nforum.ncatlab.org/discussion/4004/paraconsistent-logic/?Focus=57557#Comment_57557).
 
 ## Categorical semantics
 
@@ -51,6 +55,7 @@ An English translation appears in the Journal of Soviet Mathematics 6 (1976) pp.
 * Bodil Biering, *On the logic of bunched implications - and its relation to separation logic*, [masters thesis](http://www.itu.dk/people/biering/papers/speciale.ps)
 
 * David Pym, *The Semantics and Proof Theory of the Logic of Bunched Implications*, [Google books](https://books.google.com/books/about/The_Semantics_and_Proof_Theory_of_the_Lo.html?id=0bAfqhzDuOcC&redir_esc=y)
+ {#Pym2002}
 
 * Brotherston and Calcagno, *Classical BI: Its Semantics and Proof Theory*, [arxiv](http://arxiv.org/abs/1005.2340)
 
