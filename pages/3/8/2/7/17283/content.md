@@ -212,13 +212,9 @@ $$
   \Gamma CoMod
 $$
 
-for the resulting [[category]] of (left) comodules over $\Gamma$.
+for the resulting [[category]] of (left) comodules over $\Gamma$. Analogously there are right comodules.
 
 =--
-
-
-
-
 
 ## Properties
 
@@ -240,6 +236,134 @@ between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlg
 The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ equipped with the [[coaction]] induced by the [[comultiplication]] $\Psi$ in $\Gamma$.
 
 =--
+
+### Cotensor product of comodules
+
++-- {: .num_prop #LeftComodulesToRightComodules}
+###### Proposition
+
+Consider a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+Any left comodule $N$ over $\Gamma$ (def. \ref{CommutativeHopfAlgebroidComodule}) becomes a right comodule via the coaction
+
+$$
+  N
+    \overset{\Psi}{\longrightarrow}
+  \Gamma \otimes_A N
+    \overset{\simeq}{\longrightarrow}
+  N \otimes_A \Gamma
+    \overset{id \otimes_A c}{\longrightarrow}
+  N \otimes_A \Gamma
+  \,,
+$$
+
+where the isomorphism in the middle the is [[braiding]] in $A Mod$ and where $c$ is the conjugation map of $\Gamma$.
+
+Dually, a right comodule $N$ becoomes a left comodule with the coaction
+
+$$
+  N
+    \overset{\Psi}{\longrightarrow}
+  N \otimes_A \Gamma
+    \overset{\simeq}{\longrightarrow}
+  \Gamma \otimes_A N
+    \overset{c \otimes_A id}{\longrightarrow}
+  \Gamma \otimes_A N
+  \,.
+$$
+
+
+
+=--
+
+
++-- {: .num_defn #CotensorProductOfComodules}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1$ a right $\Gamma$-comodule and $N_2$ a left comodule (def. \ref{CommutativeHopfAlgebroidComodule}), then their **[[cotensor product]]** $N_1 \Box_\Gamma N_2$ is the [[kernel]] of the difference of the two coaction morphisms:
+
+$$
+  N_1 \Box_\Gamma N_2
+    \;\coloneqq\;
+  ker
+  \left(
+    N_1 \otimes_A N_2
+    \overset{\Psi_{N_1}\otimes_{A} id - id \otimes_A \Psi_{N_2} }{\longrightarrow}
+  \right)
+  \,.
+$$
+
+If both $N_1$ and $N_2$ are left comodules, then their cotensor product is the cotensor product of $N_2$ with $N_1$ regarded as a right comodule via prop. \ref{LeftComodulesToRightComodules}.
+
+=--
+
+e.g. ([Ravenel 86, def. A1.1.4](#Ravenel86)).
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1, N_2$ two left $\Gamma$-comodules (def. \ref{CommutativeHopfAlgebroidComodule}), then their [[cotensor product]] (def. \ref{CotensorProductOfComodules}) is commutative, in that there is an [[isomorphism]]
+
+$$
+  N_1 \Box N_2 \;\simeq\; N_2 \Box N_1
+  \,.
+$$
+
+=--
+
+(e.g. [Ravenel 86, prop. A1.1.5](#Ravenel86)) 
+
++-- {: .num_lemma #ComoduleHomInTermsOfCotensorProduct}
+###### Lemma
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+and given $N_1, N_2$ two left $\Gamma$-comodules (def. \ref{CommutativeHopfAlgebroidComodule}), such that $N_1$ is [[projective module|projective]] as an $A$-[[module]], then
+
+1. The morphism
+
+   $$
+      Hom_A(N_1, A)
+       \overset{f \mapsto (id \otimes_A f) \circ \Psi_{N_1}}{\longrightarrow}
+      Hom_A(N_1, \Gamma \otimes_A A)
+       \simeq
+      Hom_A(N_1, \Gamma)
+       \simeq
+      Hom_A(N_1, A) \otimes_A \Gamma
+   $$
+ 
+   gives $Hom_A(N_1,A)$ the structure of a right $\Gamma$-comodule;
+
+1. The [[cotensor product]] (def. \ref{CotensorProductOfComodules}) with respect to this right comodule structure is isomorphic to the hom of $\Gamma$-comodules:
+
+   $$
+     Hom_A(N_1, A) \Box_\Gamma N_2
+     \simeq
+     Hom_\Gamma(N_1, N_2)
+     \,.
+   $$
+
+   Hence in particular
+
+   $$
+     A \Box_\Gamma N_2 
+      \;\simeq\;
+     Hom_\Gamma(A,N_2)
+   $$
+
+=--
+
+(e.g. [Ravenel 86, lemma A1.1.6](#Ravenel86))
+
++-- {: .num_remark}
+###### Remark
+
+In computing the second page of $E$-[[Adams spectral sequences]], the second statement in lemma \ref{ComoduleHomInTermsOfCotensorProduct} is the key translation that makes the comodule [[Ext]]-groups on the page be equivalent to a [[Cotor]]-groups. The latter lend themselves to computation, for instance via [[Lambda-algebra]] or via the [[May spectral sequence]].
+
+=--
+
+
+
 
 
 ### Homological algebra of comodules
