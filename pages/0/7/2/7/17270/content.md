@@ -61,7 +61,7 @@ such that
 
    1. $f$ is a fibration and $Y$ is fibrant;
 
-   1. $Q(\eta_X)$, $Q(\eta_Y)$ and $Q(h)$ are weak equivalences
+   1. $\eta_X$, $\eta_Y$, and $Q(h)$ are weak equivalences
 
    then $Q(f^\ast h)$ is a weak equivalence.
 
