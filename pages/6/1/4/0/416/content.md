@@ -1,4 +1,8 @@
 
+> This entry is about the [[formal dual]] to [[tensoring]] in the generality of [[category theory]]. For the different concept of _[[cotensor product]]_ of [[comodules]] see there.
+
+***
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
