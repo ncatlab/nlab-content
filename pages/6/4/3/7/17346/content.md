@@ -1651,7 +1651,7 @@ Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful
 Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
 Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
 
-Then  (assuming the [[axiom of choice]]) every co-free commodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
+Then  (assuming the [[axiom of choice]]) every co-free comodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
 
 =--
 
@@ -1868,7 +1868,7 @@ $\tau_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 The coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given for all $p$ by
 
 $$
-  \Psi(\xi)
+  \Psi(\xi_n)
   =
   \underoverset{k = 0}{n}{\sum} \xi_{n-k}^{p^k} \otimes \xi_k
 $$
