@@ -544,6 +544,8 @@ For instance ([Weibel, cor. 3.2.13](#Weibel)).
 
 * [[Ext]]
 
+* [[Cotor]]
+
 * [[flat resolution lemma]]
 
 * [[universal coefficient theorem]]
