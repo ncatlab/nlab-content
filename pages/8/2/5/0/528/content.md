@@ -193,6 +193,8 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 * [[Hopf algebroid]]
 
+  * [[commutative Hopf algebroid]]
+
 * [[Hopf C-star algebra]]
 
 * [[Hopf monoid]]
