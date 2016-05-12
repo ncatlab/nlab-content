@@ -303,5 +303,9 @@ See also
 
 [[!redirects Steenrod squares]]
 
+[[!redirects Steenrod operation]]
+[[!redirects Steenrod operations]]
+
+
 [[!redirects stable cohomology operation]]
 [[!redirects stable cohomology operations]]
