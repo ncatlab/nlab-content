@@ -51,14 +51,6 @@ These topologically motivated constructions can be applied in much greater gener
 
 \[B :pre \varepsilon CDGA \to pre CDGHA\]
 
-+-- {: .query}
- 
-[[Urs Schreiber|Urs]]:
- This is a bit abrupt. Could we just say this in words, once, like "The bar construction, originally due to MacLane, is a map that sends xyz to abc such that rst."? I would also  greatly appreciate some more motivational background and other helpful side remarks. Such as: why does the bar/cobar-construction go between algebras and coalgebras, instead of being an endomorphism of either? 
-
-[[Tim Porter|Tim]]:
-I have tried to motivate this a bit above. This needs more filling in (and also I think that (slowly) I will go through changing pre-gvs etc to gvs and then talk about positively or negatively graded gvs and so on.)
-=--
 
 
 ## Definition
