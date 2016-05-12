@@ -27,7 +27,7 @@ This notion generalizes straightforwardly to unital [[corings]] over $R$.
 
 ### Primitive element in a comodule
 
-Let $N$ be a [[comodule]] over $C$, with co-action map $\Psi \colon N \longrightarrow C \otimes_R N$. Then an element $n \in N$ is called a **primitive element** if $\Psi(n) = 1 \otimes n$.
+Let $N$ be a [[comodule]] over $C$, with co-action map $\Psi \colon N \longrightarrow C \otimes_R N$. Then an element $n \in N$ is called a **primitive element** or **[[coinvariant]]** if $\Psi(n) = 1 \otimes n$.
 
 The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|naturally]] to 
 
