@@ -138,6 +138,8 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 
 * [[composite system]]
 
+* [[cotensor product]]
+
 [[!include homotopy-homology-cohomology]]
 
 
