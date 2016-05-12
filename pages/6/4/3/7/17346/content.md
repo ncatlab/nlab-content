@@ -1075,7 +1075,7 @@ such that
 
 1. ([[associativity]])
 
-   $(\Psi \otimes_A N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+   $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
 A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
 
@@ -1083,7 +1083,37 @@ $$
   \Gamma CoMod
 $$
 
-for the resulting [[category]] of (left) comodules over $\Gamma$.
+for the resulting [[category]] of left comodules over $\Gamma$. Analogously for right comodules.
+
+=--
+
++-- {: .num_example #GroundRingIsCanonicalComoduleOverHopfAlgebroid}
+###### Example
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, then $A$ itself becomes a left $\Gamma$-[[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) with [[coaction]] given by
+
+$$
+  \Psi_A
+    \;\colon\;
+  A 
+    \overset{\eta_L}{\longrightarrow}
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+$$
+
+and a right $\Gamma$-comodule with coaction given by
+
+$$
+  \Psi_A
+    \;\colon\;
+  A 
+    \overset{\eta_R}{\longrightarrow}
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+  \,.
+$$
 
 =--
 
@@ -1168,6 +1198,25 @@ If both $N_1$ and $N_2$ are left comodules, then their cotensor product is the c
 
 e.g. ([Ravenel 86, def. A1.1.4](#Ravenel86)).
 
++-- {: .num_example #PrimitiveElementInAComodule}
+###### Example
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidDefinitionInExplicitComponents)), and given $N$ a left $\Gamma$-comodule ([def.](commutative+Hopf+algebroid#CommutativeHopfAlgebroidComodule)). Regard $A$ itself canonically as a right $\Gamma$-comodule via example \ref{GroundRingIsCanonicalComoduleOverHopfAlgebroid}. Then the cotensor product 
+
+$$
+  Prim(N) \coloneqq A \Box_\Gamma N
+$$
+
+is called the **[[primitive elements]]** of $N$:
+
+$$
+  Prim(N) = \{ n \in N \;\vert\; \Psi_N(n) = 1 \otimes n \}
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -1224,12 +1273,6 @@ and given $N_1, N_2$ two left $\Gamma$-comodules (def. \ref{CommutativeHopfAlgeb
 
 (e.g. [Ravenel 86, lemma A1.1.6](#Ravenel86))
 
-+-- {: .num_remark}
-###### Remark
-
-In computing the second page of $E$-[[Adams spectral sequences]], the second statement in lemma \ref{ComoduleHomInTermsOfCotensorProduct} is the key translation that makes the comodule [[Ext]]-groups on the page be equivalent to a [[Cotor]]-groups. The latter lend themselves to computation, for instance via [[Lambda-algebra]] or via the [[May spectral sequence]].
-
-=--
 
 
 
