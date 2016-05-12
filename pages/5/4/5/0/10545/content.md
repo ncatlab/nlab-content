@@ -256,23 +256,23 @@ $$
   \mathbb{F}_2[\xi_1, \xi_2, \cdots]
 $$
 
-where $\xi_n$ is linear dual to $Sq^{2^{n-1}} Sq^{2^n-2}\cdots Sp^{2} Sq^1$;
+where $\xi_n$ is linear dual to $Sq^{2^{n-1}} Sq^{2^{n-2}}\cdots Sp^{2} Sq^1$;
 
 **for $p\gt 2$**:
 
 $$
   \mathcal{A}^\ast_{\mathbb{F}_p}
-  \simeq
-  \mathbb{F}_2[\xi_1, \xi_2, \cdots]
-   \otimes
-  \wedge^\bullet_{\mathbb{F}_2}(\tau_0, \tau_1, \cdots)
+    \simeq
+  \mathbb{F}_p[\xi_1, \xi_2, \cdots]
+    \otimes
+  \wedge^\bullet_{\mathbb{F}_p}(\tau_0, \tau_1, \cdots)
 $$
 
 where 
 
-$\xi_n$ is linear dual to $P^{p^n-1} P^{p^{n-2}} \cdots P^p P^1$
+$\xi_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$
 
-$\tau_n$ is linear dual to $P^{p^n-1} P^{p^{n-2}} \cdots P^p P^1\beta$.
+$\tau_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 
 The coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given for all $p$ by
 
