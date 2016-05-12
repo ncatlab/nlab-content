@@ -21,7 +21,7 @@ A Hopf algebroid is an associative [[bialgebroid]] with an [[antipode]].
 
 A _Hopf algebroid_ is a (possibly [[noncommutative geometry|noncommutative]]) generalization of a structure which is dual to a [[groupoid]] (equipped with [[atlas]]) in the sense of [[Isbell duality|space-algebra duality]]. This is the concept that generalizes [[Hopf algebras]] with their relation to [[groups]] from groups to groupoids.
 
-Specifically [[commutative Hopf algebroids]] are the [[internal groupoids]] in the [[opposite category]] of [[CRing]]. These arise notably in [[stable homotopy theory]] as generalized [[dual Steenrod algebras]] for [[generalized cohomology]].
+Specifically _[[commutative Hopf algebroids]]_ are the [[internal groupoids]] in the [[opposite category]] of [[CRing]]. These arise notably in [[stable homotopy theory]] as generalized [[dual Steenrod algebras]] for [[generalized cohomology]].
 
 More generally there are _[[Hopf algebroids over a commutative base]]_, examples of which are [[convolution algebras]] of [[Lie groupoids]].
 
@@ -36,7 +36,7 @@ is defined as a pair of a left algebroid and right algebroid together with a lin
 
 ### Commutative Hopf algebroids
 
-Given an  [[internal groupoid]] in the [[category]] $Aff_k = Alg_k^{op}$ of affine algebraic $k$-[[schemes]], where $k$ is a [[field]], the $k$-algebras of [[global sections]] over the scheme of objects and the scheme of morphisms have an additional structure of a [[commutative Hopf algebroid]]. In fact this is an [[dual equivalence|antiequivalence of categories]]. 
+Given an  [[internal groupoid]] in the [[category]] $Aff_k = Alg_k^{op}$ of affine algebraic $k$-[[schemes]], where $k$ is a [[field]], the $k$-algebras of [[global sections]] over the scheme of objects and the scheme of morphisms have an additional structure of a **[[commutative Hopf algebroid]]**. In fact this is an [[dual equivalence|antiequivalence of categories]]. 
 
 These [[commutative Hopf algebroids]] play a key role in [[stable homotopy theory]]/[[brave new algebra]], as they arise as the [[dual Steenrod algebras]] for certain classes of [[generalized cohomology theories]] $E$  and as such govern the $E$-[[Adams spectral sequence]].
 
