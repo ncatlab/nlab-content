@@ -9,13 +9,45 @@
 =--
 =--
 
-## Idea 
+#Contents#
+* table of contents
+{:toc}
 
-Working over a commutative ring $R$, recall that a _unital_ or _coaugmented_ coalgebra is an $R$-[[coalgebra]] $(C, \Delta: C \to C \otimes_R C, \epsilon: C \to R)$ equipped with a coalgebra map $u: R \to C$. Abusing notation, denote $u(1) \in C$ by $1$; then an element $x\in C$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$. This condition implies $\epsilon(x) = 0$. 
+## Definition
+
+Working over a [[commutative ring]] $R$, recall that a _unital_ or _coaugmented_ [[coalgebra]] is an $R$-[[coalgebra]] $(C, \Delta: C \to C \otimes_R C, \epsilon: C \to R)$ equipped with a coalgebra map $u: R \to C$. Abusing notation, denote $u(1) \in C$ by $1$. 
+
+### Primitive element in a coalgebra
+
+An element  $x$ in a [[coalgebra]] $C$ is __primitive__ if $\Delta(x) = 1\otimes x + x\otimes 1$. This condition implies $\epsilon(x) = 0$. 
 
 This notion generalizes straightforwardly to unital [[corings]] over $R$. 
 
-## Primitives in a Hopf algebra 
+### Primitive element in a comodule
+
+Let $N$ be a [[comodule]] over $C$, with co-action map $\Psi \colon N \longrightarrow C \otimes_R N$. Then an element $n \in N$ is called a **primitive element** if $\Psi(n) = 1 \otimes n$.
+
+The $R$-module $prim(N)$ of primitive elements of $N$ is [[natural isomorphism|naturally]] to 
+
+1. the module of comodule homomorphisms out of $R$ into $N$
+
+   $$
+     prim(N) \simeq Hom_{C}(R,N)
+     \,.
+   $$
+
+1. the [[cotensor product]] of $N$ with $A$
+
+   $$
+     prim(N) \simeq A \Box_R N
+     \,.
+   $$
+
+
+
+## Properties
+
+### Primitives in a Hopf algebra 
 
 A straightforward calculation shows that the module of primitive elements in a [[Hopf algebra]] $H$ (or even in a [[bialgebra]] $H$) is a Lie subalgebra of the underlying [[Lie algebra]] of $H$ (whose bracket is the algebra [[commutator]]). 
 Thus, taking primitive elements yields a functor 
