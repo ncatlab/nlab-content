@@ -39,7 +39,7 @@ The [[Ext]]-groups between [[comodules]] for these [[commutative Hopf algebroids
 
 ### For generalized cohomology
 
-The Steenrod algebra and its standard properties, such as the [Adem relations](#OnAdemRelations), follow abstractly from the co-[[Tor]] groups of [[comodules]] over any [[commutative Hopf algebroid]].
+The Steenrod algebra and its standard properties, such as the [Adem relations](#OnAdemRelations), follow abstractly from the [[Cotor]] groups of [[comodules]] over any [[commutative Hopf algebroid]].
 
 This is due to ([May 70, 11.8](#May70)). A review is in ([Ravenel, appendix 1, theorem A1.5.2](#Ravenel)).
 
