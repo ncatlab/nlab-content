@@ -1001,7 +1001,7 @@ Writing out the formally dual axioms of an [[internal groupoid]] as in remark \r
 
 A **[[commutative Hopf algebroid]]** is
 
-1. two [[commutative rings]], $R$ and $\Gamma$;
+1. two [[commutative rings]], $A$ and $\Gamma$;
 
 1. ring [[homomorphisms]]
 
@@ -1011,7 +1011,7 @@ A **[[commutative Hopf algebroid]]** is
 
    1. (comultiplication) 
  
-      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} A$;
+      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} \Gamma$;
 
    1. (counit) 
  
@@ -1442,7 +1442,10 @@ Now by prop. \ref{CoFreeComodules} we have the [[adjunction]]
 
 $$
   \Gamma CoMod
-   \stackrel{\overset{co-free}{\longleftarrow}}{\underset{forget}{\longrightarrow}}
+   \underoverset
+     {\underset{forget}{\longrightarrow}}
+     {\overset{co-free}{\longleftarrow}}
+     {\bot}
   A Mod
  \,.
 $$
