@@ -204,7 +204,7 @@ such that
 
 1. ([[associativity]])
 
-   $(\Psi \otimes_A N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+   $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
 A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
 
