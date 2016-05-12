@@ -23,7 +23,8 @@ A _May spectral sequence_ ([May 64](#May64), [May 74](#May74), [Ravenel 86, 3.2]
 
 The May spectral sequence is the [[spectral sequence of a filtered complex]] induced by filtering the canonical (but intractable) [[bar complex]] model for [[Ext]]/[[Cotor]] by co-powers of the unit co-ideal of the given Hopf algebra (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96)).
 
-## Construction
+
+## Construction of the May spectral sequence
 
 Throughout, let $A$ be a [[commutative ring]] and let $\Gamma$ be a graded [[commutative Hopf algebroid|commutative Hopf algebra]] over $A$. We write $(\Gamma,A)$ for this data.
 
@@ -162,13 +163,60 @@ $$
 By that same lemma, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\Gamma$. Hence on generators 
 
 $$
-  d \xi_n^{2^k}
+  d_1 (\xi_n^{2^k})
   =
   \underoverset{j = 0}{n}{\sum}  \xi_{n-j}^{2^{k+j}} \otimes \xi_j^{2^k}
   \,.
 $$
 
 This is the May spectral sequence.
+
+## The second page of the classical Adams spectral sequence
+
+
+Now we use the above formula to explicitly compute the cohomology of the first page of the May spectral sequence.
+
+In doing so it is now crucial that the standard bar complex resolution for $Ext$ is built from $\overline{\Gamma} \coloneqq coker(\eta)$ instead of from $\Gamma$. In $\overline{\Gamma}$ the generator $\xi_0 = 1$ has disappeared.
+
+Hence we find
+
+$$
+  d_1(\xi_1^{2^k})
+  =
+  \xi_1^{2^k} \underset{= 0}{\underbrace{\xi_0^{2 k}}}
+  + 
+  \underset{= 0}{\underbrace{\xi_0^{2^{k+1}}}} \xi_1^{2^k}
+  = 
+  0
+$$
+
+and hence all the
+
+$$
+  h_i \coloneqq \xi_1^{2^i}
+$$
+
+are cocycles. 
+
+Similarly for instance
+
+$$
+  d_1(\xi_2) 
+    = 
+  \xi_2 \underset{= 0}{\underbrace{\xi_0}}
+    +
+  \xi_1^{2} \xi_1
+    +
+  \underset{= 0}{\underbrace{\xi_0}} \xi_2
+$$
+
+and so this is not a cocycle, but gives the relation that the product
+
+$$
+  \xi_1^{2} \xi_1 = 0
+$$
+
+in cohomology. And so forth.
 
 
 
