@@ -1,3 +1,1 @@
-Daniel Luckhardt is currently a PhD student at the university of G&#246;ttingen.
-
-_[omnis determinatio est negatio](https://de.wikipedia.org/wiki/Determinatio)_ (Hegel's [determinate negation]
+Daniel Luckhardt is currently a PhD student at the university of G&#246;ttingen, check out my [page there](http://www.uni-math.gwdg.de/dluckha/website/index.html).
