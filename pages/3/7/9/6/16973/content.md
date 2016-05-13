@@ -54,7 +54,7 @@ $$
 $$
 One can view the real Hopf fibration as the boundary of a [[Möbius strip]], which is the non-trivial double cover of the circle.
 
-As an element in $\pi_1(S^1) \simeq \mathbb{Z}$, $p_{\mathbb{R}} = 2$.
+As an element in the first ([[stable homotopy group|stable]]) [[homotopy group]] [[homotopy groups of spheres|of spheres]] $\pi_1(S^1) \simeq \mathbb{Z}$, the real Hopf fibration represents $p_{\mathbb{R}} = 2$.
 
 ## Related concepts
 
