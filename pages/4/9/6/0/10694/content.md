@@ -57,11 +57,11 @@ converging to the [[Ext]] over $\Gamma$, with first page the Ext over the [[asso
 
 ([Ravenel 86, lemma 3.1.9](#Ravenel86), [Kochman 96, prop. 3.7.5](#Kochman96))
 
-Proof: The filtering induces a filtering on the standard bar complex which computes $Ext_\Gamma$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]].
+Proof: The filtering induces a filtering on the standard bar complex which computes $Ext_\Gamma$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex ([prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
 
 $\,$
 
-Let now $A \coloneqq \mathbb{F}_2$,  $\Gamma \coloneqq \mathcal{A}^\bullet_{\mathbb{F}_2}$ be the mod 2 [[dual Steenrod algebra]]. Recall that as a $\mathbb{F}_2$-algebra this is
+Let now $A \coloneqq \mathbb{F}_2$,  $\Gamma \coloneqq \mathcal{A}^\bullet_{\mathbb{F}_2}$ be the mod 2 [[dual Steenrod algebra]]. Recall that as an $\mathbb{F}_2$-algebra this is
 
 $$
   \mathcal{A}^\bullet_{\mathbb{F}_2} 
