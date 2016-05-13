@@ -336,12 +336,12 @@ At every stage we have a new family of long exact sequences.
 ### In low-degree pages
  {#InLowDegreePages}
 
-We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{ExplicitForm} for low values of $r$ and, below in prop. \ref{ConvergingToGenuineHomology}, for $r \to \infty$.
+We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{ExplicitForm} for low values of $r$ and, below in prop. \ref{AbuttingFiltrationConvergesToHomology}, for $r \to \infty$.
 
-+-- {: .num_prop}
++-- {: .num_prop #FirstPages}
 ###### Proposition
 
-We have
+For the spectral seuence of a filtered complex $G_\bullet C_\bullet$ from def. \ref{ExplicitForm}, the first pages have the following form:
 
 * $E^0_{p,q} = G_p C_{p+q} = F_p C_{p+q} / F_{p-1} C_{p+q}$ 
 
