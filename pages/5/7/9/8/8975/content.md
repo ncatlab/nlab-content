@@ -13,6 +13,18 @@
 
 ## References
 
+Some historical references for continuations and continuation-passing style include:
+
+* [[John C. Reynolds]]. Definitional interpreters for higher-order programming languages. In _Proceedings of the ACM National Conference_, 1972. ([pdf](http://surface.syr.edu/cgi/viewcontent.cgi?article=1012&context=lcsmith_other))
+
+* Christopher Strachey and C. P. Wadsworth. Continuations: A Mathematical Semantics for Handling Full Jumps, Technical Monograph PRG-11, Oxford, 1974. ([pdf](http://repository.readscheme.org/ftp/papers/plsemantics/oxford/strachey-continuations.PDF))
+
+* [[Gordon Plotkin]]. Call-by-name, call-by-value, and the lambda-calculus. _Theoretical Computer Science_ 1 (1975), 125-159. ([pdf](http://homepages.inf.ed.ac.uk/gdp/publications/cbn_cbv_lambda.pdf))
+
+* [[John C. Reynolds]]. The Discoveries of Continuations. _LISP and Symbolic Computation_ 6 (1993), 233-247. ([pdf](http://www.math.bas.bg/bantchev/place/iswim/conti-disco.pdf))
+
+Other references include:
+
 * Wikipedia, _[Continuation-passing style](http://en.wikipedia.org/wiki/Continuation-passing_style)_
 
 [[!redirects continuation passing style]]
