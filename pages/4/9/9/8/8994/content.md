@@ -72,6 +72,10 @@ $$\begin{aligned}
 \end{aligned}$$
 Conversely, a polycategory that is suitably "representable" yields a linearly distributive category; see ([Cockett-Seely 97](#CockettSeely97)).
 
+### Symmetric monoidal categories
+
+Any [[symmetric monoidal category]] becomes a linearly distributive category in which both monoidal structures are the same; all the required structure and coherence conditions follow straight from coherence for symmetric monoidal categories.  Note that such examples are almost never [[star-autonomous]].
+
 ## History
 
 The concept was originally called a _weakly distributive category_  and was introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
