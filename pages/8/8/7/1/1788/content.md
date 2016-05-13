@@ -1,18 +1,3 @@
-$$
-  \begin{aligned}
-    \Psi(h_{i,n})
-    & = 
-    \Psi\left(\xi_i^{2^n}\right)
-    \\
-    & = (\Psi(\xi_i))^{2n}
-    \\
-    & = \underoverset{k = 0}{i}{\sum} \left(\xi_{i-k}^{2^k}\right)^{2^n} \otimes \xi^{2^n}_k
-    \\
-    & = \underoverset{k = 0}{i}{\sum} \xi_{i-k}^{2^k \cdot 2^n} \otimes \xi^{2^n}_k
-    \\
-    & = \underoverset{k = 0}{i}{\sum} \xi_{i-k}^{2^{(k+n)}} \otimes \xi^{2^n}_k
-    \\
-    & = \underoverset{k = 0}{i}{\sum} h_{i-k,n+k}\otimes h_{k,n}
-  \end{aligned}
-$$
-
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | 
