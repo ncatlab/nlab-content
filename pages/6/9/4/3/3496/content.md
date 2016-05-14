@@ -298,7 +298,7 @@ As many other things, it all started as an exercise in
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, ex.7.6, pp.414-417)
 
-Speaking of exercises, consider the results of Roos on essential points reported in exercise 7.3 of
+Speaking of exercises, consider the results of [[Jan Erik Roos|Roos]] on essential points reported in exercise 7.3 of
 
 * {#JTT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014, pp.254f)
 
@@ -308,7 +308,7 @@ The case of sheaves valued in [[FinSet]] is considered in
 
 The standard reference for _essential localizations_ [^further], aka [[level|levels]], is
 
-* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.261-299.
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
 [^further]: See at [[Aufhebung]] for further references on essential localizations.
 
