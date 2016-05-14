@@ -1,23 +1,126 @@
-This page contains links related to
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Contents {: .clickToReveal}
+### Contents {: .clickToHide tabindex="0"}
++-- {: .hide}
+[[!include contents]]
+=--
++-- {: .hide}
+[[!include mathematicscontents]]
+=--
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
 
-* Alessandra Capotosti,
++-- {: .query} 
+$\,$ 
+ <div align="center" >
+ <em>Search the nLab ([[Searching the nLab|hints]])</em> 
+ <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="http://nlab.mathforge.org/nlab/"/></form>
+</div>
+$\,$
+=--
 
-  _From String structures to Spin structures on loop spaces_
 
-  Ph.D. thesis, Rome, April 2016
+[[About|This]] is a [wiki](http://en.wikipedia.org/wiki/Wiki)-lab for collaborative work on _[[Mathematics]]_, _[[Physics]]_ and _[[Philosophy]]_ --- especially from the [[n-point of view]]: insofar as these subjects are usefully treated with tools and notions of [[category theory]] or [[higher category theory]].
 
-  (**[thesis pdf](https://www.dropbox.com/s/oe9jkafcm8d4agl/Ph.D.Thesis_2016_A.Capotosti.pdf?dl=0)**, **[talk slides](https://www.dropbox.com/s/9xu5opee2f1kltd/Presentation.pdf?dl=0)**).
+# The $n$Lab
+* table of contents
+{:toc}
+
+## Purpose
+{#purpose}
+
+We think of this wiki as our **lab book** that we happen to keep open for all to see.
+
++-- {: .standout}
+
+The **purpose of the $n$Lab** is to provide a public place where people can make notes about stuff. The purpose is not to make polished expositions of material;  that is a happy by-product. 
+
+We all make notes as we read papers, read books and doodle on pads of paper. The $n$Lab is somewhere to put all those notes, and, incidentally, to make them available to others. Others might read them and add or polish them. But even if they don't, it is still easier to link from them to other notes that you've made.
+
+=--
+
+For more see 
+
+* [[schreiber:What is... the nLab]]?
+
+* [[About]].
+
+* Wikipedia entry: _[nLab](https://en.wikipedia.org/wiki/NLab)_
+
+## Discussion, Comments, Questions
+ {#Discussion}
+
+While we work on the $n$Lab, we talk to each other on the [nForum](http://nforum.ncatlab.org). In particular, for all but the most trivial edits (correcting spelling or punctuation, etc.), we make a note of our latest edits to the $n$Lab in the part [nForum -- latest changes](http://nforum.ncatlab.org/5/), where they may be discussed further.
+
+If you do make **contributions** to the $n$Lab, you are strongly encouraged to similarly drop a short note there about what you have done -- or maybe just about what you plan to do or even what you would like others to do. 
+See _[[nlabmeta:Welcome to the nForum]]_ for more information.
+
+If you do not want to contribute to the $n$Lab, but if you have  **comments** on an entry -- say because you are an expert and feel that information is wrong or missing -- or **questions** -- say because you are a layperson and feel that things could be explained better -- then we generally prefer that you post that comment or question to the [nForum](http://nforum.ncatlab.org), where it is visible to everybody who might be concerned.
+
+In case that you do feel that this is not an option and that you do need to contact privately (say by email) a single author of an $n$Lab page, please make sure that you know who the right author is. Beware that the $n$Lab pages are visibly "signed" only by the name of the last person who made any edit on the page, no matter how minor. To find the author who made the edit that you want to comment or ask about privately, you should click on the link "History" at the bottom of any page to see which version was authored by whom. 
 
 
 
-**Abstract**
+## Contributing to the $n$Lab
+ {#Contributing}
 
- Let $X$ be a $n$-dimensional [[nLab:smooth manifold]], with $n \geq 3$. In a series of papers culminating in _Spin structures on loop spaces that characterize string manifolds_, ${arXiv:1209.1731}$, [[nLab:Konrad Waldorf]] recently gave the first rigorous proof that a String structure on $X$ induces a Spin structure on its loop space.
+If after looking around for a while you feel like contributing yourself, you are welcome to do so. But read [[About]] to be sure you understand what we are doing here (to the extent that we understand this ourselves, at least). If you feel unsure about appropriate content, see [[What to Contribute]]. For technical hints see [[HowTo]].
 
- Here we give a completely independent proof of this result by working with smooth higher stacks. The unfamiliar reader, to begin, may take an initial look at [[nLab:motivation for sheaves, cohomology and higher stacks]], even if part of the thesis itself presents smooth stacks and suggests how to describe some classical objects as [[nLab:bundle gerbes]] with and without [[nLab:connection]] by means of them.
+If you make any edits to the $n$Lab, please inform the rest of the $n$Lab community by dropping a brief message in the _latest changes_ section of the [nForum](http://nforum.ncatlab.org)!
 
- Why we did use this approach in our proof? Because, rereading the question in this more general setting, the result can be obtained in a very natural and easy way. In particular, the crucial point in our proof is the existence of a natural morphism of smooth stacks 
-$$
-\mathbf{B}Spin \rightarrow {\mathbf{B}}^2({\mathbf{B}}U(1)_{conn})
-$$
-refining the first fractional [[nLab:Pontryagin class]]. Once this morphism is exhibited, we show how Waldorf's result follows from general constructions in the setting of smooth stacks.
+
+## Using the $n$Lab
+ {#TermsOfUse}
+
+One goal of the $n$Lab is to help make information widely available and usefully related to other information.  In this users and contributors are expected to follow traditional academic practice:
+
+* Using and distributing content obtained from the $n$Lab is free and encouraged if you acknowledge the source, as usual in academia.
+
+  (There is currently no consensus on a more formal license statement, but if it matters check if relevant individual contributors state such on their nLab homepages.)
+
+  If you cite a page you may want to point to a specific version of it, because $n$Lab pages can change.  You can find a list of all the versions of a page by clicking on the **History** link at the bottom of the page itself.
+
+* Conversely, any content contributed to the $n$Lab is publicly available and you should be aware that others may use your contributions (whatever you decide to do with their content elsewhere) and indeed may edit them. In the first case you trust that users will cite your contributions properly, in the second that they will respect and only improve on them. At the same time, you are expected to properly acknowledge sources of information for material entered into the $n$Lab. 
+
+Usually this works well. If there is need for discussion, the 
+[nForum](http://nforum.ncatlab.org) is the forum to turn to. If serious problems arise, the [steering committee](#SteeringCommitte) might intervene. 
+
+
+## Software requirements
+ {#SoftwareRequirements}
+
+The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
+
+Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
+
+Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
+
+
+
+
+## Server
+ {#Server}
+
+The domain $ncatlab.org$ is owned by [[Urs Schreiber]]. The server is hosted at Carnegie Mellon University, funded in the context of the [HoTT MURI grant](http://homotopytypetheory.org/2014/04/29/hott-awarded-a-muri/). The technical administration of the software installation is done by [[Adeel Khan Yusufzai]] (and was previously done by [[Andrew Stacey]] for several years).
+
+> The nLab runs on a server at Carnegie Mellon University that is supported by MURI grant FA9550-15-1-0053 from the Air Force Office of Scientific Research. Any opinions, findings and conclusions or recommendations expressed on the nLab are those of the authors and do not necessarily reflect the views of the AFOSR.
+
+## Steering Committee 
+ {#SteeringCommitte}
+
+The $n$Lab is a community undertaking. But for all matters that do require that the $n$Lab is represented to the outside by  an official decision-taking body, we have the [[nlabmeta:steering committee|steering committee]]. _Nobody "is in charge of the $n$Lab"._ But the steering committee is the closest approximation to a body being in charge that we have. 
+
+
+category: meta
+
+[[!redirects HomePage]]
+[[!redirects Home Page]]
+[[!redirects Homepage]]
+[[!redirects Home page]]
+[[!redirects homepage]]
+[[!redirects home page]]
+[[!redirects nLab]]
