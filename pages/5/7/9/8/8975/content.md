@@ -1,6 +1,6 @@
 ## Idea
 
-The idea that procedures may be modelled as mathematical [[functions]] is useful for compositional reasoning, but at first seems to rule out programming with more sophisticated control structures which can actually be very useful in practice.  For example, we might want to write an integer division routine which raises an exception on division-by-zero, or a procedure that lazily computes the first satisfying assignment to a boolean formula while giving the user the ability to query to obtain additional ones.
+In the theory of [[programming languages]], the idea that procedures may be modelled as mathematical [[functions]] is useful for compositional reasoning, but at first seems to rule out programming with more sophisticated control structures which can actually be very useful in practice.  For example, we might want to write an integer division routine which raises an exception on division-by-zero, or a procedure that lazily computes the first satisfying assignment to a boolean formula while giving the user the ability to query to obtain additional ones.
 
 Now, an "impure" functional language such as OCaml lets us do some of this directly.  For example, we can write the following code for integer division:
 
