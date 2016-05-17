@@ -3347,7 +3347,7 @@ An **[[additive category]]** is an [[Ab]]-[[enriched category]] (hence a [[categ
 +-- {: .num_remark #BiproductsInAdditiveCategories}
 ###### Remark
 
-The first condition in def. \ref{AdditiveCategory} means in perticular that there are [[zero morphisms]] and with the second condition this means that the empty coproduct is a [[zero object]]. Since the zero morphisms allow to form the diagrams
+The first condition in def. \ref{AdditiveCategory} means in particular that there are [[zero morphisms]] and with the second condition this means that the empty coproduct is a [[zero object]]. Since the zero morphisms allow to form the diagrams
 
 $$
   \array{  
