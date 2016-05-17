@@ -1,17 +1,10 @@
 $$
-  \begin{aligned}
-    \pi_q( (P^\infty X)_n )
-    & 
-    \simeq
-    \pi_q( \underset{\longrightarrow}{\holim}_k \Omega^k X_{k+n} )  
-    \\
-    & \simeq
-    \underset{\longrightarrow}{lim}_k \pi_q \Omega^k X_{k+n}
-    \\
-    & \simeq
-    \underset{\longrightarrow}{lim}_k \pi_{q+k} X_{k+n}
-    \\
-    & \simeq
-    \pi_{q-n}(X)
-  \end{aligned}
+  \Sigma X
+    \underset{\in W_{st}}{\longleftarrow} 
+  L_2 R_2 (\Sigma X) 
+    \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow}
+  L_2 R_2 (X \wedge S^1)
+    \underset{\in W_{st}}{\longrightarrow}
+  X \wedge S^1
+  \,.
 $$
