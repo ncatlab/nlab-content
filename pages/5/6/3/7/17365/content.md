@@ -299,7 +299,7 @@ $$
   \nabla_{S^0} \;\colon\; S^0 \vee S^0 \longrightarrow I_+ \longrightarrow S^0
 $$
 
-of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[codiagonal]] of $X$ through its standard cylinder spectrum
+of the [[codiagonal]] on the [[0-sphere]] through the standard interval with a base point adjoined, gives a factoring of the [[codiagonal]] of $X$ through its standard [[cylinder spectrum]]
 
 $$
   \nabla_X
@@ -817,7 +817,7 @@ $$
 +-- {: .num_defn #StableWeakEquivalenceOfSequentialsTopologicalSpectra}
 ###### Definition
 
-A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a [[stable weak homotopy equivalence]], if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
+A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
 
 $$
   \pi_\bullet(f) \;\colon\; \pi_\bullet(X) \longrightarrow \pi_\bullet(Y)
@@ -911,6 +911,8 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
   $$
 
   are cofibrations in the  [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]) for all $n \in \mathbb{N}$;
+
+We write $W_{strict}$, $Fib_{strict}$ and $Cof_{strict}$ for these classes of morphisms, respectively.
 
 =--
 
@@ -1786,8 +1788,15 @@ $$
 
 ### Stable equivalences
 
+We discuss the relation between the stable equivalences (def. \ref{ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}) and [[stable weak homotopy equivalences]] (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}).
+
++-- {: .num_defn #AlmostSpectrificationForTopologicalSequentialSpectra}
+###### Definition
+
+For $X \in SeqSpec(Top_{cg})$, write 
+
 $$
-  R X 
+  Q X
     \coloneqq
   hocolim\left(
     X 
@@ -1802,8 +1811,47 @@ $$
   \right)
 $$
 
-spring
+for the [[mapping telescope]] (with respect to the standard [[cylinder spectrum]] from def. \ref{StandardCylinderSpectrumSequential}) of the sequence of iterations of the morphism from lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}.
 
+Write 
+
+$$
+  i_X \;\colon\; X \longrightarrow Q X
+$$
+
+for the canonical induced morphism (inclusion of the first component).
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+1. If $X$ is an [[Omega-spectrum]], then $i_X$ from def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is in $W_{strict}$ (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+
+1. If $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakEquivalenceOfSequentialsTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ is in $W_{strict}$ (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use that
+
+$$
+  \pi_q( (P^\infty X)_n )
+  &
+  \simeq
+  \pi_q( \underset{\longrightarrow}{\holim}_k \Omega^k X_{k+n} )
+  \\
+  & \simeq
+  \underset{\longrightarrow}{lim}_k \pi_q \Omega^k X_{k+n}
+  & \simeq
+  \underset{\longrightarrow}{lim}_k \pi_{q+k} X_{k+n}
+  & \simeq
+  \pi_{q-n}(X)
+$$
+
+=--
 
 
 ### Stability
