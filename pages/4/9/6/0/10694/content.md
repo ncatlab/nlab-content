@@ -406,9 +406,25 @@ $$
 
 Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
 
-In doing so it is now crucial that the standard bar complex resolution for $Ext$ is built from $\overline{\Gamma} \coloneqq coker(\eta)$ instead of from $\Gamma$. In $\overline{\Gamma}$ the generator $h_{0,n} = \xi_0 = 1$ has disappeared.
+In doing so it is now crucial that the differential in the standard bar complex resolution for $Ext$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
 
-Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} that
+$$
+  d \;\colon\;
+  A \otimes_A \Gamma \otimes_A \amma
+  \longrightarrow
+  A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
+$$
+
+$$
+  \begin{aligned}
+    d(1,h,1) & = 
+   (d 1 , h , 1) - (1 , d h , 1) + (1 , h , d 1)
+   \\
+   & = (1,1,h,1) - (1, \Psi(h) , 1 ) + (1 , h, 1, 1)
+  \end{aligned}  
+$$
+
+Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
 
 $$
   \begin{aligned}
