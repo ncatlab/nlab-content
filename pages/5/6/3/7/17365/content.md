@@ -787,6 +787,111 @@ $$
 
 =--
 
++-- {: .num_prop #LimitsAndColimitsOfSequentialSpectra}
+###### Proposition
+
+The category $SeqSpec(Top_{cq})$ of sequential spectra (def. \ref{SequentialSpectra}) has all [[limits]] and [[colimits]], and they are computed objectwise: 
+
+Given
+
+$$
+  X_\bullet
+    \;\colon\;
+  I
+    \longrightarrow
+  SeqSpec(Top_{cg})
+$$
+
+a [[diagram]] of sequential spectra, then:
+
+1. its colimiting spectrum has component spaces the colimit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longrightarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longrightarrow}{\lim}_i X(i)_n
+      \,,
+   $$
+
+1. its limiting spectrum has component spaces the limit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longleftarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longleftarrow}{\lim}_i X(i)_n
+      \,;
+   $$
+
+moreover:
+
+1. the colimiting spectrum has structure maps in the sense of def. \ref{SequentialSpectra} given by
+
+   $$
+     S^1 \wedge (\underset{\longrightarrow}{\lim}_i X(i)_n)
+     \simeq
+     \underset{\longrightarrow}{\lim}_i ( S^1 \wedge X(i)_n )
+     \overset{\underset{\longrightarrow}{\lim}_i \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longrightarrow}{\lim}_i X(i)_{n+1}
+   $$
+
+   where the first isomorphism exhibits that $S^1 \wedge(-)$ preserves all colimits, since it is a [[left adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory};
+
+1. the limiting spectrum has adjunct structure maps in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} given by
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X(i)_n
+      \overset{\underset{\longleftarrow}{\lim}_i \tilde \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_i Maps(S^1, X(i)_n)_\ast 
+     \simeq
+     Maps(S^1, \underset{\longleftarrow}{\lim}_i X(i)_n)_\ast
+   $$
+
+   where the last isomorphism exhibits that $Maps(S^1,-)_\ast$ preserves all limits, since it is a [[right adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the limits and colimits exist and are computed objectwise follows via prop. \ref{SequentialSpectraAsDiagramSpectra} from the general statement for categories of topological functors ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits)). But it is also immediate to directly check the [[universal property]].
+
+=--
+
++-- {: .num_example #WedgeSumOfSpectra}
+###### Example
+
+The [[coproduct]] of [[spectra]] $X, Y \in SeqSpec(Top_{cg})$, called the **wedge sum of spectra** 
+
+$$
+  X \vee Y
+    \coloneqq
+  X \sqcup Y
+$$
+
+is componentwise the [[wedge sum]] of pointed topological spaces ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))
+
+$$
+  (X \vee Y)_n
+  =
+  X_n \vee Y_n
+$$
+
+with structure maps
+
+$$
+  \sigma_n^{X \vee Y}
+    \;\colon\;
+  S^1 \wedge (X \vee Y)
+    \simeq
+  S^1 \wedge X \,\vee\, S^1 \wedge Y
+    \overset{(\sigma_n^X, \sigma_n^Y)}{\longrightarrow}
+  X_{n+1} \vee Y_{n+1}
+  \,.
+$$
+
+
+=--
+
 
 
 
@@ -1101,8 +1206,6 @@ $$
  {#TheStableModelStructure}
 
 
-
-
 +-- {: .num_defn #ClassesOfMorphismsOfTheStableModelStructureOnSequentialSpectra}
 ###### Definition
 
@@ -1121,6 +1224,8 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
   are cofibrations in the [[classical model structure on topological spaces]] (i.e.: [[retracts]] of [[relative cell complexes]]).
 
 =--
+
+
 
 +-- {: .num_defn #FreeSequentialSpectra}
 ###### Definition
@@ -2570,6 +2675,8 @@ and here the horizontal adjunctions are the canonically induced (via [this prop.
 
 ### The triangulated stable homotopy category 
 
+> under construction
+
 +-- {: .num_defn #TheStableHomotopyCategory}
 ###### Definition
 
@@ -2586,6 +2693,93 @@ for the [[homotopy category of a model category|homotopy category]] of the stabl
 This is called the **[[stable homotopy category]]**.
 
 =--
+
+The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
+
++-- {: .num_lemma}
+###### Lemma
+
+For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
+
+$$
+  X \vee Y 
+   \longrightarrow
+  X \times Y
+$$
+
+out of the [[coproduct]] ([[wedge sum]], example \ref{WedgeSumOfSpectra}) into the [[product]] (via prop. \ref{LimitsAndColimitsOfSequentialSpectra}), given by
+
+$$
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow 
+     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
+    \\
+    X && && Y
+  }
+$$
+
+represents an [[isomorphism]] in the [[stable homotopy category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may represent both $X$ and $Y$ by [[CW-spectra]] in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+
+$$
+  i_X \colon X \longrightarrow X \vee Y
+$$
+
+is a stable cofibration, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+
+Hence its ordinary cofiber, which is $Y$,  is its homotopy cofiber, hence we have a homotopy cofiber sequence
+
+$$
+  X \longrightarrow X \vee Y \longrightarrow Y
+$$
+
+moreover, under forming [[stable homotopy groups]], the the inclusion map evidently gives an injection, and the projection map gives a surjection. Hence the [[long exact sequence of homotopy groups]] gives a [[short exact sequence]]
+
+$$
+  0 \to
+  \pi_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(X \vee Y)
+  \longrightarrow
+  \pi_\bullet(Y)
+  \to 
+  0
+  \,.
+$$
+
+Moreover, due to the fact that the inclusion and projection for one of the two summands constitute a [[retraction]], this is a [[split exact sequence]], hence exhibits an isomorphism
+
+$$
+  \pi_k(X \vee Y)  
+  \overset{\simeq}{\longrightarrow}
+  \pi_k(X)\oplus \pi_k(Y)
+$$
+
+for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
+
+=--
+
+
 
 +-- {: .num_prop}
 ###### Proposition
