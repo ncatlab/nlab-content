@@ -1710,7 +1710,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 Here we discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and c) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences.
 
-This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
+This is important in practice, since while the stable equivalences are the weak equivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, it is the [[stable weak homotopy equivalences]] that are typically more readily identified.
 
 
 +-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
@@ -1777,7 +1777,7 @@ $$
   \right)
 $$
 
-for the [[homotopy colimit]] over the resulting sequence of iterations. Write 
+for the [[homotopy colimit]] over the resulting sequence of iterations (formed with respec to the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}). Write 
 
 $$
   r_X \colon X \longrightarrow R^\infty X
@@ -1837,20 +1837,20 @@ $$
   [X, R^\infty E]_{strict}  
 $$
 
-Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{AKindOfAlmostSpectrification},
+Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{PropertiesOfAKindOfAlmostSpectrification},
 
 $$
   \array{
      &
       &&
     [R^\infty X, E]_{strict}
-      &\stackrel{}{\longrightarrow}&
+      &\stackrel{[r_X, E]_{strict}}{\longrightarrow}&
     [X, E]_{strict}  
     \\
     & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]}} 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]_{strict}}} 
      && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]}}
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]_{strict}}}
     \\
     [X,r_E]_{strict}
       \;\colon\;
@@ -1858,7 +1858,7 @@ $$
     [X,E]_{strict} 
       &\stackrel{R^\infty}{\longrightarrow}&
     [R^\infty X, R^\infty E]_{strict}
-      &\stackrel{[r_X,E]_{strict}}{\longrightarrow}&
+      &\stackrel{[r_X, R^\infty E]_{strict}}{\longrightarrow}&
     [X, R^\infty E]_{strict}  
   }
 $$
@@ -1870,7 +1870,7 @@ $$
   \,,
 $$ 
 
-which is natural in $X$. This naturality now implies a retraction of morphisms
+which is natural in $X$ (that this composite is indeed the identity is again the naturality of $r_{(-)}$). This naturality now implies a retraction of morphisms
 
 $$
   \array{
