@@ -88,7 +88,7 @@ On topological spaces, this model structure has
 ### Restriction to convenient categories of topological spaces
  {#OnNiceTopologicalSpaces}
 
-For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to [[convenient categories of topological spaces].]
+For the discussion of the [[homotopy theory]] given by the model structure on topological spaces, it is necessary or at least useful to pass to [[convenient categories of topological spaces]].
 
 +-- {: .num_defn}
 ###### Definition
