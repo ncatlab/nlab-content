@@ -201,6 +201,8 @@ For a more detailed account of the relationship of Frobenius-, [[Verschiebung mo
 
 * [[Weil conjecture]]
 
+* [[restricted Lie algebra]]
+
 * [[shtuka]]
 
 * [[cyclotomic spectrum]]
