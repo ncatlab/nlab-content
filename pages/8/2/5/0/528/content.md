@@ -152,6 +152,10 @@ Mike, can you do something with these notes that I took at some point as a grad 
 
 Hopf algebras can be characterized among bialgebras by the fundamental theorem on [[Hopf module|Hopf modules]]: the category of Hopf modules over a bialgebra is canonically equivalent to the category of vector spaces over the ground ring iff the bialgebra is a Hopf algebra.  This categorical fact enables a definition of Hopf monoids in some setups that do not allow a sensible definition of antipode.
 
+### Relation to Lie algebras
+
+* [[Milnor-Moore theorem]]
+
 ### Tannaka duality
  {#TannakaDuality}
 
@@ -219,13 +223,13 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
-* [[John Milnor]], [[John Moore]], _The structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264.
+* {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
 * Susan Montgomery, _Hopf algebras and their action on rings_, AMS 1994, 240p.
 
 * B. Parshall, J.Wang, _Quantum linear groups_, Mem. Amer. Math. Soc. 89(1991), No. 439, vi+157 pp.
 
-* M. Sweedler, _Hopf algebras_, Benjamin 1969.
+* [[Moss Sweedler]], _Hopf algebras_, Benjamin 1969.
 
 * William C. Waterhouse, _Introduction to affine group schemes_, Graduate Texts in Mathematics __66__, Springer 1979. xi+164 pp.
 
