@@ -36,7 +36,7 @@ A morphism $c\colon B \to C$ in a category $\mathcal{C}$ is __constant__ if, for
 
 This second definition implies the first, but they are not equivalent in general.  In the [[category of sets]], the first implies the second if the set $B$ is [[inhabited set|inhabited]].  More generally, if $c\colon B \to C$ is a morphism in a category $\mathcal{C}$, then the two definitions are equivalent if $\mathcal{C}(A,B)$ is inhabited for every $A$.  If $\mathcal{C}$ has a terminal object $1$, then this is equivalent to the existence of a [[global section]] $b\colon 1 \to B$.
 
-See the [forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2689) for further discussion of this.
+See the [forum](https://nforum.ncatlab.org/discussion/2689/constant-morphism/) for further discussion of this.
 
 
 ## Relation to (sub)terminal objects
