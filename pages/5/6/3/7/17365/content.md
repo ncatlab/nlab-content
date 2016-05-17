@@ -25,6 +25,9 @@ The standard [[model category]] structure on the [[category]] of [[sequential sp
 
 As such, the model structure on topological sequential spectra [[presentable (infinity,1)-category|presents]] the [[stable (infinity,1)-category of spectra]] of [[stable homotopy theory]], hence, in particular, its [[homotopy category]] is the classical [[stable homotopy category]].
 
+## Sequential spectra
+
+For ease of reference, we collect some basic definitions from _[[sequential spectra]]_.
 
 The following def. \ref{SequentialSpectra} is the traditional component-wise definition of [[sequential spectra]], was first stated in ([Lima 58](spectrum#Lima58)) and became widely appreciated with ([Boardman 65](spectrum#Boardman65)).  
 
@@ -1780,6 +1783,26 @@ $$
 
 =--
 
+
+### Stable equivalences
+
+$$
+  R X 
+    \coloneqq
+  hocolim\left(
+    X 
+      \longrightarrow
+    \Omega X[1]
+      \longrightarrow
+    \Omega^2 X[2]
+      \longrightarrow
+    \Omega^3 X[3]
+      \longrightarrow
+    \cdots
+  \right)
+$$
+
+spring
 
 
 
