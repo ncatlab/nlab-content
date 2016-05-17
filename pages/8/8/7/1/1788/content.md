@@ -1,14 +1,17 @@
-
-**$p = 2$-primary component**
-
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" width="800" />
-
-
-**$p = 3$-primary component**
-
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D3pic.gif" alt="stable homotopy groups of spheres at 3" width="800" />
-
-
-**$p = 5$-primary component**
-
-<img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D5pic.gif" alt="stable homotopy groups of spheres at 5" width="800" />
+$$
+  \begin{aligned}
+    \pi_q( (P^\infty X)_n )
+    & 
+    \simeq
+    \pi_q( \underset{\longrightarrow}{\holim}_k \Omega^k X_{k+n} )  
+    \\
+    & \simeq
+    \underset{\longrightarrow}{lim}_k \pi_q \Omega^k X_{k+n}
+    \\
+    & \simeq
+    \underset{\longrightarrow}{lim}_k \pi_{q+k} X_{k+n}
+    \\
+    & \simeq
+    \pi_{q-n}(X)
+  \end{aligned}
+$$
