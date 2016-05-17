@@ -1841,7 +1841,7 @@ $$
   [X, R^\infty E]_{strict}
 $$
 
-is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
+is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares give a factorization of this morphism as
 
 $$
   [X,r_E]_{strict}
@@ -1851,6 +1851,7 @@ $$
   [R^\infty X, R^\infty E]_{strict}
     \stackrel{[r_X,E]_{strict}}{\longrightarrow}
   [X, R^\infty E]_{strict}  
+  \,.
 $$
 
 Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{PropertiesOfAKindOfAlmostSpectrification},
@@ -1886,7 +1887,7 @@ $$
   \,,
 $$ 
 
-which is natural in $X$ (that this composite is indeed the identity is again the naturality of $r_{(-)}$). This naturality now implies a retraction of morphisms
+which is natural in $X$ (that the bottom and right composite is indeed the identity is again the naturality of $r_{(-)}$). This naturality now implies a retraction of morphisms
 
 $$
   \array{
@@ -1901,7 +1902,7 @@ $$
   \,.
 $$
 
-Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f^\ast$ is a stable equivalence.
+Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
 
 
 =--
