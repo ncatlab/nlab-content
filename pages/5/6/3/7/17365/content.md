@@ -3475,12 +3475,6 @@ such that the following conditions hold:
 
 =--
 
-+-- {: .num_prop}
-###### Proposition
-
-spring
-
-=--
 
 
 +-- {: .num_prop}
@@ -3520,6 +3514,364 @@ With this again the universal property of the ordinary cofiber gives the fourth 
 Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
 
 =--
+
+#### Long fiber/cofiber sequences
+
++-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
+###### Lemma
+
+For $(Ho,\Sigma, CofSeq)$ a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, and 
+
+$$
+  A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+$$
+
+a distinguished triangle, then 
+
+$$
+  g\circ f = 0
+$$
+
+is the [[zero morphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Observe that the top part is a distinguished triangle by axioms T1 and T2 in def. \ref{CategoryWithCofiberSequences}. Hence by T3 there is an extension to 
+a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{id}{\longrightarrow}& 
+    A 
+      &\overset{}{\longrightarrow}&
+    0
+      &\overset{}{\longrightarrow}&
+    \Sigma A
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{f}}
+    && \downarrow
+    && \downarrow^{\mathrlap{\Sigma f}}
+    \\
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A    
+  }
+  \,.
+$$
+
+Now the commutativity of the middle square proves the claim.
+
+=--
+
+
+
++-- {: .num_prop #FiberCofiberSequencesInATriangulatedCategory}
+###### Proposition
+
+Let $(Ho,\Sigma, CofSeq)$ be a [[triangulated category]], def. \ref{CategoryWithCofiberSequences}, with [[hom-functor]] denoted by $[-,-]_\ast \colon Ho^{op}\times Ho \to Ab$. For $X\in Ho$ any object, and for $D\in CofSeq$ any distinguished triangle
+
+$$
+  D = (A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A)
+$$
+
+then the sequences of [[abelian groups]]
+
+1. (long cofiber sequence) 
+    
+   $$
+    [\Sigma A, X]_\ast
+      \overset{[h,X]_\ast}{\longrightarrow}
+    [B/A,X]_\ast
+      \overset{[g,X]_\ast}{\longrightarrow}
+    [B,X]_\ast
+      \overset{[f,X]_\ast}{\longrightarrow}
+    [A,X]_\ast
+   $$
+
+1. (long fiber sequence)
+
+   $$
+     [X,A]_\ast
+       \overset{[X,f]_\ast}{\longrightarrow}
+     [X,B]_\ast
+       \overset{[X,g]_\ast}{\longrightarrow}
+     [X,B/A]_\ast
+       \overset{[X,h]_\ast}{\longrightarrow}
+     [X,\Sigma A]_\ast 
+   $$
+
+are [[long exact sequences]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first case:
+
+Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon C \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+The top part of this diagram is a distinguished triangle by assumption, and the bottom part is by condition $T1$ in def. \ref{CategoryWithCofiberSequences}. Hence by condition T3 there exists $\phi$ fitting into a commuting diagram of the form
+
+$$
+  \array{
+    A 
+      &\overset{f}{\longrightarrow}& 
+    B 
+      &\overset{g}{\longrightarrow}& 
+    B/A 
+      &\overset{h}{\longrightarrow}& 
+    \Sigma A
+    \\
+    \downarrow && {}^{\mathllap{\psi}}\downarrow && \downarrow^{\mathrlap{\phi}} && \downarrow
+    \\
+    0 
+      &\overset{}{\longrightarrow}&
+    X
+      &\overset{id}{\longrightarrow}&
+    X
+      &\overset{}{\longrightarrow}&
+    0
+  }
+  \,.
+$$
+
+Here the commutativity of the middle square exhibits the desired conclusion.
+
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished traingle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+
+Regarding the second case: 
+
+Again, from lemma \ref{CompositesInADistinguishedTriangleAreZero} it is immediate that 
+
+$$
+  im([X,f]_\ast) \subset ker([X,g]_\ast)
+$$
+
+so that we need to show that for $\psi \colon X \to B$ in the kernel of $[X,g]_\ast$, hence such that $g\circ \psi = 0$, then there exists $\phi \colon X \to A$ with $f \circ \phi = \psi$.
+
+To that end, consider the commuting diagram
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} && \downarrow
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+where the commutativity of the left square exhibits our assumption.
+
+Now the top part of this diagram is a distinguished triangle by conditions T1 and T2 in def. \ref{CategoryWithCofiberSequences}, while the bottom part is a distinguished triangle by applying T2 to the given distinguished triangle. Hence by T3 there exists $\tilde \phi \colon \Sigma X \to \Sigma A$ such as to extend to a commuting diagram of the form
+
+$$
+  \array{
+    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    \\
+    \downarrow^{\mathrlap{\psi}} 
+      && 
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\tilde \phi}}
+      &&
+    \downarrow^{\mathrlap{\Sigma \psi}}
+    \\
+     B 
+       &\overset{g}{\longrightarrow}&
+     B/A
+       &\overset{h}{\longrightarrow}&
+     \Sigma A
+       &\overset{-\Sigma f}{\longrightarrow}&
+     \Sigma B
+  }
+  \,,
+$$
+
+At this point we appeal to the condition in def. \ref{CategoryWithCofiberSequences} that $\Sigma \colon Ho \to Ho$ is an [[equivalence of categories]], so that in particular it is a [[fully faithful functor]]. It being a [[full functor]] implies that there exists $\phi \colon X \to A$ with $\tilde \phi = \Sigma \phi$. It being faithful then implies that the whole commuting square on the right is the image under $\Sigma$ of a commuting square
+
+$$
+  \array{
+    X &\overset{-id}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\phi}}\downarrow && \downarrow^{\mathrlap{\psi}}
+    \\
+    A &\underset{-f}{\longrightarrow}& B
+  }
+  \,.
+$$
+
+This exhibits the claim to be shown.
+
+=--
+
++-- {: .num_lemma #TwoOutOfThreeForMorphismsOfDistinguishedTriangles}
+###### Lemma
+
+Consider a morphism of distinguished triangles in a triangulated category (def. \ref{CategoryWithCofiberSequences}):
+
+$$
+  \array{    
+   A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+   \\
+   \downarrow^{\mathrlap{a}} 
+   && \downarrow^{\mathrlap{b}} 
+   && \downarrow^{\mathrlap{c}}
+   && \downarrow^{\mathrlap{\Sigma a}}
+   \\
+   A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'          
+   }
+ \,.
+$$
+
+If two out of $\{a,b,c\}$ are isomorphisms, then so is the third.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the image of the situation under the hom-functor $[X,-]_\ast$ out of any object $X$:
+
+$$
+  \array{    
+   [X,A]_\ast &\overset{}{\longrightarrow}& [X,B]_\ast &\overset{g}{\longrightarrow}& [X,B/A]_\ast &\overset{h}{\longrightarrow}& [X,\Sigma A]_\ast &\longrightarrow& [X,\Sigma B]_\ast
+   \\
+   \downarrow^{\mathrlap{a_\ast}} 
+   && \downarrow^{\mathrlap{b_\ast}} 
+   && \downarrow^{\mathrlap{c_\ast}}
+   && \downarrow^{\mathrlap{(\Sigma a)_\ast }}
+   && \downarrow^{\mathrlap{(\Sigma b)_\ast }}
+   \\
+   [X,A']_\ast &\overset{}{\longrightarrow}& [X,B']_\ast &\overset{}{\longrightarrow}& [X,B'/A']_\ast &\overset{}{\longrightarrow}& [X,\Sigma A']_\ast &\longrightarrow& [X,\Sigma B']_\ast           
+   }
+ \,,
+$$
+
+where we extended one step to the right using axiom T2 (def. \ref{CategoryWithCofiberSequences}).
+
+By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} here the top and bottom are [[exact sequences]].
+
+So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] then implies that $c$ is an isomorphism.
+
+If instead $b$ and $c$ are isomorphisms, apply this same argument to the triple $(b,c,\Sigma a)$ to conclude that $\Sigma a$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], this implies then that $a$ is an isomorphism.
+
+Analogously for the third case.
+
+=--
+
++-- {: .num_lemma #TwoOutOfThreeForMorphismsOfDistinguishedTriangles}
+###### Lemma
+
+If $(g,h,-\Sigma f)$ is a distinguished triangle in a triangulated category (def. \ref{CategoryWithCofiberSequences}), then so is $(f,g,h)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By T0 there is some distinguished triangle of the form $(f,g',h')$. By T2 this gives a distinguished triangle $(-\Sigma f, -\Sigma g', -\Sigma h')$. By T3 there is a morphism $c'$ giving a commuting diagram
+
+$$
+  \array{
+    \Sigma A 
+      &\overset{-\Sigma f}{\longrightarrow}&
+    \Sigma B
+      &\overset{-\Sigma g}{\longrightarrow}&
+    \Sigma C
+      &\overset{-\Sigma h}{\longrightarrow}&    
+    \Sigma^2 A
+    \\
+    {}^{\mathllap{=}}\downarrow
+    &&
+    {}^{\mathllap{=}}\downarrow
+    &&
+    {}^{\mathllap{c'}}\downarrow
+    &&
+    {}^{\mathllap{=}}\downarrow
+    \\
+    \Sigma A 
+      &\overset{-\Sigma f}{\longrightarrow}&
+    \Sigma B
+      &\overset{-\Sigma g'}{\longrightarrow}&
+    \Sigma C
+      &\overset{-\Sigma h'}{\longrightarrow}&    
+    \Sigma^2 A
+  }
+  \,.
+$$
+
+Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. This $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
+
+=--
+
+In conclusion, this says that in the stable homotopy category homotopy (co-)fiber sequences run indefinitely in both directions. In particular for $[\mathbb{S},-]_\ast$, the [[long exact sequences of homotopy groups]] do.
 
 ### Relation to sequential spectra in $sSet$ and to combinatorial spectra
 
