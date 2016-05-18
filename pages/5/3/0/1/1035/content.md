@@ -93,7 +93,7 @@ whose components are identities for $i = j$ and are [[zero morphism|zero]] other
 +-- {: .proof}
 ###### Proof
 
-Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has be the zero element in the abelian group structure. But it also has be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
+Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has to be the zero element in the abelian group structure. But it also has to be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
 
 $$
   0 \;\colon\; \emptyset \overset{\simeq}{\longrightarrow} \ast
