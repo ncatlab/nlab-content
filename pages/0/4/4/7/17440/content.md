@@ -258,7 +258,11 @@ Further review includes
 
 * {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
+and
+
 * [[Alexander Kupers]], _An introduction to the Adams spectral sequence_ (following [Rognes 12](#Rognes12)) ([pdf](http://math.stanford.edu/~kupers/adamsss.pdf))
+
+* Paolo Masulli, _Stable homotopy and the Adams spectral sequence_ ([pdf](http://www.math.ku.dk/~jg/students/masulli.msproject.2011.pdf))
 
 * [pdf](http://www.math.harvard.edu/~sia/notes/classical_topology_adams.pdf)
 
