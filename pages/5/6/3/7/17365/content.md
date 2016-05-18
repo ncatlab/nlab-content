@@ -1709,17 +1709,40 @@ See ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopA
 ### CW-spectra
  {#FibrantAndCofibrantObjects}
 
++-- {: .num_defn #CWSpectrum}
+###### Definition
+
+A **[[CW-spectrum]]** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top_{cg})$, def. \ref{SequentialSpectra}, such that
+
+1. all component spaces $X_n$ are [[CW-complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), 
+
+1. all structure maps $\Sigma X_n \longrightarrow X_{n+1}$ are inclusions of subcomplexes 
+
+=--
+
++-- {: .num_prop #ClosureOfCWSpectra}
+###### Proposition
+
+The class of CW-spectra is closed under the following operations
+
+* finite [[wedge sum]] (def. \ref{WedgeSumOfSpectra})
+
+* ...
+
+=--
+
+
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
 ###### Proposition
 
-A [[sequential spectrum]] $X\in SeqSpec(Top)_{stable}$ is cofibrant in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]] are cofibrant in $SeqSpec(Top)_{stable}$.
+A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]], def. \ref{CWSpectrum}, are cofibrant in $SeqSpec(Top)_{strict}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} (in either the strict or stable model structure, they have the same cofibrations) if 
+A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} if 
 
 1. $X_0$ is cofibrant, hence a retract of a [[cell complex]];
 
@@ -1779,6 +1802,144 @@ $$
 Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-complex, and this implies that $X_n \wedge (I_+)$ is a relative cell complex in $Top^{\ast/}$. With this, inspection shows that also the above morphism is a relative cell complex.
 
 =--
+
+We now turn to discussion of [[CW-approximation]] of sequential spectra. First recall the relative version of CW-approximation for topological spaces:
+
++-- {: .num_lemma #nConnectedCWApproximationOfContinuousFunction}
+###### Lemma
+
+Let $f \;\colon\; A \longrightarrow X$ be a [[continuous function]] between [[topological spaces]]. Then there exists for each $n \in \mathbb{N}$ a [[relative CW-complex]] $\hat f \colon A \hookrightarrow \hat Y$ together with an [[extension]] $\phi \colon Y \to X$, i.e.
+
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{\hat f}}\downarrow & \nearrow_{\mathrlap{\phi}}
+    \\
+    \hat X
+  }
+$$ 
+
+such that $\phi$ is [[n-connected continuous function|n-connected]].
+
+Moreover:
+
+* if $f$ itself is [[n-connected continuous function|k-connected]], then the relative CW-complex $\hat f$ may be chosen to have cells only of [[dimension]] $k + 1 \leq dim \leq n$.
+
+* if $A$ is already a [[CW-complex]], then $\hat f \colon A \to X$ may be chosen to be a subcomplex inclusion.
+
+=--
+
+([tomDieck 08, theorem 8.6.1](CW+approximation#tomDieck08))
+
++-- {: .num_prop #CWApproximationForContinuousFunctions}
+###### Proposition
+
+For every [[continuous function]] $f \colon A \longrightarrow X$ out of a [[CW-complex]] $A$, there exists a [[relative CW-complex]] $\hat f \colon A \longrightarrow \hat X$ that factors $f$ followed by a [[weak homotopy equivalence]] 
+
+$$
+  \array{   
+     A && \overset{f}{\longrightarrow} && X
+     \\
+     & {}_{\mathllap{\hat f}}\searrow && \nearrow_{\mathrlap{{\phi} \atop {\in WHE}}}
+     \\
+     && \hat X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply lemma \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for all $n$ to produce a sequence with [[cocone]] of the form
+
+$$
+  \array{
+    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    \\
+    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_1}} & \swarrow_{\mathrlap{\phi_2}} & \cdots 
+    \\
+    && X
+  }
+  \,,
+$$
+
+where each $f_i$ is a [[relative CW-complex]] and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
+
+Let then $\hat X$ be the [[colimit]] over the sequence (its [[transfinite composition]]) and $\hat f \colon A \to X$ the induced component map. By definition of relative CW-complexes, this $\hat f$ is itself a relative CW-complex.
+
+By the [[universal property]] of the colimit this factors $f$ as
+
+$$
+  \array{
+    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    \\
+    &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots 
+    \\
+    && \hat X
+    \\
+    && \downarrow^{\mathrlap{\phi}}
+    \\
+    && X
+  }
+  \,.
+$$
+
+Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_n$, which is $n$-connected and hence an isomorphism on the homotopy class of $\alpha$.
+
+=--
+
++-- {: .num_prop #CWApproximationForSequentialSpectra}
+###### Proposition
+
+For $X$ any topological [[sequential spectrum]] (def.\ref{SequentialSpectra}), then there exists a [[CW-spectrum]] $\hat X$ (def. \ref{CWSpectrum}) and a homomorphism 
+
+$$
+  \phi \colon  \hat X \overset{\in W_{strict}}{\longrightarrow} X
+  \,.
+$$ 
+
+which is degreewise a [[weak homotopy equivalence]], hence a weak equivalence in the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
+
+$$
+  \Sigma \hat X_n \overset{\Sigma \phi_n}{\longrightarrow} \Sigma X_n \overset{\sigma_n}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
+
+$$
+  \Sigma X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
+  \,.
+$$
+
+Hence we have obtained the next stage of the CW-approximation. The respect for the structure maps is just this factorization property:
+
+$$
+  \array{  
+    \Sigma \hat X_n 
+      &\overset{\Sigma \phi_n}{\longrightarrow}& 
+    \Sigma X_n
+    \\
+    {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
+    \\
+    \hat X_{n+1} &\underset{\phi_{n+1}}{\longrightarrow}& X_{n+1}
+  }
+  \,.
+$$
+
+=--
+
+
 
 ### Looping and suspension
 
@@ -2673,9 +2834,8 @@ and here the horizontal adjunctions are the canonically induced (via [this prop.
 
 =--
 
-### The triangulated stable homotopy category 
+### The stable homotopy category 
 
-> under construction
 
 +-- {: .num_defn #TheStableHomotopyCategory}
 ###### Definition
@@ -2696,10 +2856,159 @@ This is called the **[[stable homotopy category]]**.
 
 The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
 
+#### Additivity
+ {#AdditivityOfTheStableHomotopyCategory}
+
+
++-- {: .num_lemma #StableHomotopyCategoryHasCoproducts}
+###### Lemma
+
+The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) has [[finite product|finite]] [[coproducts]]. They are represented by [[wedge sums]] (example \ref{WedgeSumOfSpectra}) of [[CW-spectra]] (def. \ref{CWSpectrum}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Having finite coproducts means having empty coproducts, which are [[initial objects]], and having binary coproducts. 
+
+Regarding the initial object:
+
+The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All together with means that for $X$ any fibrant-cofibrant spectrum, then 
+
+$$
+  Hom_{Ho(Spectra)}(\Sigma^\infty \ast, Z)
+  \simeq
+  Hom_{SeqSpec}(\Sigma^\infty \ast, Z)/_\sim
+  \simeq
+  \ast
+  \,.
+$$
+
+Now regarding binary coproducts:
+
+By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \wedge Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
+
+Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in _[Prelude -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory).
+
+We claim now that $P(X \wedge Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
+
+$$
+  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  \simeq
+  Hom_{SeqSpec}(P X, Q Z)/_\sim \times Hom_{SeqSpec}(P Y, Q Z)/_\sim
+$$
+
+between [[left homotopy]]-classes of morphisms of sequential spectra.
+
+But since $X \vee Y$ is cofibrant and $Z$ is fibrant, there is a natural isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory))
+
+$$
+  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
+  \,.
+$$
+
+Now the wedge sum $X \vee Y$ is the coproduct in $SeqSpec(Top_{cg})$, and hence morphisms out of it are indeed in natural bijection with pairs of morphisms out of the two summands. But we need this property to hold still after dividing out left homotopy. The key is that smash tensoring (def. \ref{TensoringAndPoweringOfSequentialSpectra}) distributes over wedge sum
+
+$$
+  (X \vee Y) \wedge (I_+) \simeq (X \wedge (I_+)) \vee (Y\wedge (I_+))
+$$
+
+(due to the fact that the [[smash product]] of compactly generated [[pointed topological spaces]] distributes this way over wedge sum of pointed spaces). This means that also left homotopies out of $X \vee Y$ are in natural bijection with pairs of left homotopies out of the summands separately, and hence that there is a natural isomorphism
+
+$$
+  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
+  \,.
+$$
+
+Finally we may apply the inverse of the natural isomorphism used before ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) to obtain in total
+
+$$
+  Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(P X,Q Z)/_\sim \times Hom_{SeqSpec}(P Y,Q Z)/_\sim
+  \,.
+$$
+
+The composite of all these isomorphisms proves the claim.
+
+=--
+
++-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
+###### Lemma
+
+Consider the group structure on [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) which is induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ has an inverse $\Sigma$, so that
+
+$$
+  Hom_{Ho(Spectra)}(X,Y)
+  \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+  \,.
+$$
+
+This group structure is [[abelian group|abelian]] and [[composition]] is [[bilinear map|bilinear]] with respect to it. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Recall ([prop](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory), [rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) that the group structure is given by concatenation of loops 
+
+$$
+  X 
+    \overset{\Delta_X}{\to}
+  X \times X
+    \overset{(f,g)}{\longrightarrow}
+  \Omega \Sigma X \times \Omega \Sigma X
+  \overset{}{\longrightarrow}
+  \Omega \Sigma X
+  \,.
+$$
+
+
+That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since 
+
+$$
+  Hom_{Ho(Spectra)}(X,Y)
+    \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+    \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y)
+    =
+  Hom_{(Ho(Spectra))}(X, \Omega^2 \Sigma^2 Y)
+  \,.
+$$
+
+That composition distributes over composition in this group structure is the naturality of the loop composition map, which is evident from the standard model ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject))
+
+$$
+  \array{
+    \Omega \Sigma X \times \Omega \Sigma X
+    &\longrightarrow&
+    \Omega \Sigma X
+    \\
+    {}^{\mathllap{(f,f)}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \Omega \Sigma Y \times \Omega \Sigma Y
+    &\longrightarrow&
+    \Omega \Sigma Y
+  }
+  \,.
+$$
+
+=--
+
+In summary, lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched} state that the [[stable homotopy category]] is an [[Ab-enriched category]] with finite [[coproducts]]. This is called an _[[additive category]]_:
+ 
 +-- {: .num_defn #AdditiveCategory}
 ###### Definition
 
-An **additive category** is a [[category]] which is
+An **[[additive category]]** is a [[category]] which is
 
 1. an [[Ab-enriched category]];
 
@@ -2731,7 +3040,7 @@ whose components are identities for $i = j$ and are [[zero morphism|zero]] other
 +-- {: .proof}
 ###### Proof
 
-Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has be the zero element in the abelian group structure. But it also has be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
+Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has to be the zero element in the abelian group structure. But it also has to be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
 
 $$
   0 \;\colon\; \emptyset \overset{\simeq}{\longrightarrow} \ast
@@ -2822,7 +3131,7 @@ By a [[formal dual|dual]] argument, the binary coproduct $X_1 \sqcup X_2$ is see
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #BiproductsInAdditiveCategories}
 ###### Remark
 
 Finite coproducts coinciding with products as in prop. \ref{ProductsAreBiproducts} ar also called _[[biproducts]]_ or _[[direct sums]]_, denoted
@@ -2908,7 +3217,23 @@ Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says
 
 =--
 
+In conclusion we have:
 
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) is an [[additive category]] (def. \ref{AdditiveCategory}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched}.
+
+=--
+
+Hence prop. \ref{ProductsAreBiproducts} implies that in the stable homotopy category finite coproducts and finite products agree, in that they are finite [[biproducts]]. We may also check this explicitly:
 
 +-- {: .num_lemma}
 ###### Lemma
@@ -2992,6 +3317,152 @@ $$
 for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
 
 =--
+
+#### Triangulated structure
+ {#TriangulatedStructure}
+
+
++-- {: .num_defn #AdditiveFunctor}
+###### Definition
+
+A [[functor]] $F \colon  \mathcal{A} \to \mathcal{B}$ between [[additive categories]], def. \ref{AdditiveCategory} is called an **[[additive functor]]** if it preserves finite [[biproducts]] (remark \ref{BiproductsInAdditiveCategories}). That is, 
+
+1. $F$ maps a [[zero object]] to a zero object, $F(0) \simeq 0 \in \mathcal{B}$; 
+
+1. given any two [[objects]] $X, Y \in \mathcal{A}$, there is an [[isomorphism]] $F(X \oplus Y) \cong F(x) \oplus F(y)$, and this respects the inclusion and projection maps of the [[direct sum]]:
+
+$$
+\array { X &          &            &          & Y \\
+           & {}_{\mathllap{i_X}}\searrow &            & \swarrow_{\mathrlap{i_Y}} \\
+           &          & X \oplus Y \\
+           & {}^{\mathllap{p_X}}\swarrow &            & \searrow^{\mathrlap{p_Y}} \\
+         x &          &            &          & y }
+\quad\quad\stackrel{F}{\mapsto}\quad\quad
+\array { F(X) &          &                                      &          & F(Y) \\
+              & {}_{\mathllap{i_{F(X)}}}\searrow &   & \swarrow_{\mathrlap{i_{F(Y)}}} \\
+              &          & F(X \oplus Y) \cong F(X) \oplus F(Y) \\
+              & {}^{\mathllap{p_{F(X)}}}\swarrow &                                      & \searrow^{\mathrlap{p_{F(Y)}}} \\
+         F(X) &          &                                      &          & F(Y) }
+$$
+
+=--
+
+
+
++-- {: .num_defn #CategoryWithCofiberSequences}
+###### Definition
+
+A **[[triangulated category]]** is
+
+1. an [[additive category]] $Ho$ (def. \ref{AdditiveCategory});
+
+1. an [[additive functor]] (def. \ref{AdditiveFunctor}), called the **suspension functor** or **[[shift functor]]**
+
+   $$
+     \Sigma \;\colon\; Ho \overset{\simeq}{\longrightarrow} Ho
+   $$
+
+   which is required to be an [[equivalence of categories]];
+
+1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
+
+   $$
+     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow} C \overset{}{\longrightarrow} \Sigma A
+   $$
+
+   which is also denoted as
+
+   $$
+     \array{
+        A && \overset{f}{\longrightarrow} && B
+        \\
+        & {}_{\mathllap{[1]}}\nwarrow && \swarrow_{\mathrlap{}}
+        \\
+        && B/A
+     }
+   $$
+
+   (whence the name);
+
+such that the following conditions hold:
+
+* **T0** If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
+     && \downarrow^{\mathrlap{\in Iso}}
+     && \downarrow^{\mathrlap{\in Iso}}
+     \\
+     A' &\overset{f'}{\longrightarrow}& B' &\overset{g'}{\longrightarrow}& B'/A' &\overset{h'}{\longrightarrow}& \Sigma A'      
+     
+    }
+  $$
+
+  then $(f',g',h')$ is also a distinguished triangle;
+
+
+* **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
+
+  $$
+    0 \longrightarrow X \overset{id_X}{\longrightarrow} X 
+    \overset{}{\longrightarrow} 0
+    \,;
+  $$
+
+
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$ and conversely; hence if
+
+  $$
+    A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
+  $$
+
+  is, then so is
+
+  $$
+    B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
+  $$
+
+  and conversely.
+
+* **T3** Given a [[commuting diagram]] in $Ho$ of the form
+
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& 
+     B &\overset{}{\longrightarrow}& 
+     B/A &\overset{}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
+     && 
+     && 
+     \\
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+  where the top and bottom are distinguished triangles, then there exists a morphism $B/A \to B'/A'$ such as to make the completed diagram commute
+  
+  $$
+    \array{    
+     A &\overset{}{\longrightarrow}& B &\overset{}{\longrightarrow}& B/A &\overset{}{\longrightarrow}& \Sigma A      
+     \\
+     \downarrow^{\mathrlap{\phi_A}}
+     && \downarrow^{\mathrlap{\phi_B}} 
+     && \downarrow^{\mathrlap{\exists}}
+     && \downarrow^{\mathrlap{\Sigma \phi_A}}
+     \\
+     A' &\overset{}{\longrightarrow}& B' &\overset{}{\longrightarrow}& B'/A' &\overset{}{\longrightarrow}& \Sigma A'           
+    }
+  $$
+
+* **T4** 
+
+=--
+
 
 
 
