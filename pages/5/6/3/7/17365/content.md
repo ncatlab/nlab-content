@@ -3372,7 +3372,13 @@ such that the following conditions hold:
   $$
 
   then $(f',g',h')$ is also a distinguished triangle;
+  
+  Moreover, for every morphism $f \colon A \to B$ there is a distinguished triangle of the form
 
+  $$
+    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
+    \,.
+  $$
 
 * **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
 
@@ -3383,7 +3389,7 @@ such that the following conditions hold:
   $$
 
 
-* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$ and conversely; hence if
+* **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
 
   $$
     A \overset{f}{\longrightarrow} B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A
@@ -3393,9 +3399,8 @@ such that the following conditions hold:
 
   $$
     B \overset{g}{\longrightarrow} B/A \overset{h}{\longrightarrow} \Sigma A \overset{-\Sigma f}{\longrightarrow} \Sigma B
+    \,.
   $$
-
-  and conversely.
 
 * **T3** Given a [[commuting diagram]] in $Ho$ of the form
 
@@ -3429,20 +3434,92 @@ such that the following conditions hold:
     }
   $$
 
-* **T4** 
+* **T4** For every pair of composable morphisms $f \colon A \to B$ and $f' \colon B \to D$ then there is a [[commutative diagram]] of the form
+  
+  $$
+    \array{
+      A 
+        &\overset{f}{\longrightarrow}& 
+      B 
+        &\overset{g}{\longrightarrow}& 
+      C 
+        &\overset{h}{\longrightarrow}&
+      \Sigma A
+      \\
+      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      \\
+      A 
+        &\underset{f' \circ f}{\longrightarrow}&
+      B
+        &\underset{g''}{\longrightarrow}&
+      E
+        &\underset{h''}{\longrightarrow}&
+      \Sigma A
+      \\
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && \downarrow^{\mathrlap{\Sigma f}}
+      \\
+      && 
+      F 
+       &\underset{=}{\longrightarrow}& 
+      F
+        &\underset{h'}{\longrightarrow}& 
+      \Sigma B
+      \\
+      && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
+      \\
+      && \Sigma B &\underset{\Sigma g}{\longrightarrow}& \Sigma C
+    }
+  $$
+
+  such that the two top horizontal sequences and the two middle vertical sequences each are distinguished triangles.
 
 =--
 
++-- {: .num_prop}
+###### Proposition
 
+spring
+
+=--
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ from corollary \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory} is a [[triangulated category]].
+The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the canonical suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is a [[triangulated category]] (def. \ref{CategoryWithCofiberSequences}) for the distinguished triangles being precisely the images (under localization $SeqSpec(Top_{cg})_{stable} \to Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the stable model category of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory})
+of the canonical long [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) 
+
+$$
+  A \overset{f}{\longrightarrow} B 
+  \overset{}{\longrightarrow} hocofib(f)
+  \longrightarrow
+  \Sigma A
+  \,.
+$$
+
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By prop. \ref{TheStableHomotopyCategoryIsAdditive} the stable homotopy category is additive, by theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} the functor $\Sigma$ is an equivalence.
+
+The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences. 
+
+The axiom T2 is the very characterization of long homotopy cofiber sequences (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
+
+Regarding axiom T3:
+
+By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). This way the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that we may also complete the last vertical morphism, observe that generally these [[connecting homomorphisms]] may be represented functorially: 
+
+By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients are (cylinders, replacement, cofibers). 
+
+With this again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
+
+Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
+
+=--
 
 ### Relation to sequential spectra in $sSet$ and to combinatorial spectra
 
