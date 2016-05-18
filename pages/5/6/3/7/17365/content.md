@@ -2696,6 +2696,220 @@ This is called the **[[stable homotopy category]]**.
 
 The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
 
++-- {: .num_defn #AdditiveCategory}
+###### Definition
+
+An **additive category** is a [[category]] which is
+
+1. an [[Ab-enriched category]];
+
+   (sometimes called a [[pre-additive category]]--this means that each [[hom-set]] carries the structure of an [[abelian group]] and composition is [[bilinear map|bilinear]])
+
+1. which admits [[finite limit|finite]] [[coproducts]] 
+
+   (and hence, by prop. \ref{ProductsAreBiproducts} below, finite [[products]] which coincide with the coproducts, hence finite [[biproducts]]).
+
+=--
+
++-- {: .num_prop #ProductsAreBiproducts}
+###### Proposition
+
+In an [[Ab-enriched category]], a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.  
+
+This statement includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every [[additive category]] (def. \ref{AdditiveCategory}) has a [[zero object]].  
+
+More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, then the unique morphism 
+
+$$
+  \underset{i \in I}{\coprod} X_i \longrightarrow \underset{j \in I}{\prod} X_j
+$$
+
+whose components are identities for $i = j$ and are [[zero morphism|zero]] otherwise is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has be the zero element in the abelian group structure. But it also has be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
+
+$$
+  0 \;\colon\; \emptyset \overset{\simeq}{\longrightarrow} \ast
+  \,.
+$$
+
+Consider now the case of binary (co-)products. Using the existence of the [[zero object]], hence of [[zero morphisms]], then in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also receives "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
+
+$$
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow && X_1 \times X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    & \swarrow_{\mathrlap{p_{X_1}}} && {}_{\mathllap{p_{X_2}}}\searrow
+    \\
+    X_1 && && X_2
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\,,\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{i_{X_1}}} && {}^{\mathllap{i_{X_2}}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow 
+     && X_1 \sqcup X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X_1 && && X_2
+  }
+  \,.
+$$
+
+Then using the additivity of morphisms, it follows that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+
+$$
+  \phi \;\colon\; f_1 \circ p_1 + f_2 \circ p_2
+$$
+
+gives a morphism of [[cocones]]
+
+$$
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow && X_1 \times X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    &  && 
+    \\
+    X_1 && \downarrow^{\mathrlap{\phi}} && X_2
+    \\
+    & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+    \\
+    && Q
+  }
+  \,.
+$$
+
+Moreover, this is in fact unique: suppose $\phi'$ is another morphism filling this diagram, then 
+
+$$
+  \begin{aligned}
+    (\phi-\phi')
+    & = 
+    (\phi - \phi') \circ id_{X_1 \times X_2}
+    \\
+    &= 
+    (\phi - \phi') \circ ( (id_{X_1},0) \circ p_1 + (0,id_{X_2})\circ p_2 )
+    \\
+    & =
+    \underset{ = 0}{\underbrace{(\phi - \phi') \circ (id_{X_1}, 0)}} \circ p_1
+    + 
+    \underset{ = 0}{\underbrace{(\phi - \phi') \circ (0, id_{X_2})}} \circ p_2
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+and hence $\phi = \phi'$. This means that $X_1\times X_2$ satisfies the [[universal property]] of a [[coproduct]].
+
+By a [[formal dual|dual]] argument, the binary coproduct $X_1 \sqcup X_2$ is seen to also satisfy the universal property of the binary product. By [[induction]], this implies the statement for all finite (co-)products.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+Finite coproducts coinciding with products as in prop. \ref{ProductsAreBiproducts} ar also called _[[biproducts]]_ or _[[direct sums]]_, denoted
+
+$$
+  X_1 \oplus X_2 \coloneqq X_1 \sqcup X_2 \simeq X_1 \times X_2
+  \,.
+$$
+
+The [[zero object]] is denoted "0", of course.
+
+=--
+
+Conversely:
+
++-- {: .num_defn #SemiadditiveCategory}
+###### Definition
+
+A **[[semiadditive category]]** is a [[category]] that has all [[finite products]] which, moreover, are [[biproducts]] in that they coincide with finite [[coproducts]] as in def. \ref{ProductsAreBiproducts}.
+
+=--
+
++-- {: .num_prop #SemiAdditivityInducesAbelianMonoidEnrichment}
+###### Proposition
+
+In a [[semiadditive category]], def. \ref{SemiadditiveCategory}, the [[hom-sets]] acquire the structure of [[commutative monoids]] by defining the sum of two morphisms $f,g \;\colon\; X \longrightarrow Y$ to be
+
+$$
+  f + g 
+    \;\coloneqq\;
+  X \overset{\Delta_X}{\to} X \times X
+  \simeq
+  X \oplus X
+  \overset{f \oplus g}{\longrightarrow}
+  Y \oplus Y
+  \simeq
+  Y \sqcup Y
+  \overset{\nabla_X}{\to}
+  Y
+  \,.
+$$
+
+With respect to this operation, [[composition]] is [[bilinear map|bilinear]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$.
+
+=--
+
++-- {: .num_prop #SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment}
+###### Proposition
+
+Given an [[additive category]] according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may write the formula for the addition of two morphisms induced by semiadditve structure equivalently as
+
+$$
+  f+g \;\colon\; 
+  X \overset{\Delta_X}{\to} X \times X
+  \overset{(f,g)}{\longrightarrow}
+  Y \times Y
+  \overset{p_1 + p_2}{\longrightarrow}
+  Y
+$$
+
+where the last morphism is identified as the sum of the two projections as in the proof of prop. \ref{ProductsAreBiproducts}. This implies the claim.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying beforehand with respect to which abelian group structure on the hom-sets.
+
+=--
+
+
+
 +-- {: .num_lemma}
 ###### Lemma
 
