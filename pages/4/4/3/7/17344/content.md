@@ -3313,7 +3313,7 @@ and here the horizontal adjunctions are the canonically induced (via [this prop.
 =--
 
 
-##### The stable homotopy category
+#### The stable homotopy category
 
 +-- {: .num_defn #TheStableHomotopyCategory}
 ###### Definition
@@ -3333,21 +3333,399 @@ This is called the **[[stable homotopy category]]**.
 =--
 
 
-
-
 The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
 
+
+##### Additivity
+
+
++-- {: .num_lemma #StableHomotopyCategoryHasCoproducts}
+###### Lemma
+
+The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) has [[finite product|finite]] [[coproducts]]. They are represented by [[wedge sums]] (example \ref{WedgeSumOfSpectra}) of [[CW-spectra]] (def. \ref{CWSpectrum}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Having finite coproducts means having empty coproducts, which are [[initial objects]], and having binary coproducts. 
+
+Regarding the initial object:
+
+The spectrum $\Sigma^\infty \ast$ ([[suspension spectrum]] (example \ref{SuspensionSpectrum}) on the point) is both an [[initial object]] and a [[terminal object]] in $SeqSpec(Top_{cg})$. This implies in particular that it is both fibrant and cofibrant. Finally its standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is trivial $(\Sigma^\infty \ast) \wedge (I_+)\simeq \Sigma^\infty \ast$. All together with means that for $X$ any fibrant-cofibrant spectrum, then 
+
+$$
+  Hom_{Ho(Spectra)}(\Sigma^\infty \ast, Z)
+  \simeq
+  Hom_{SeqSpec}(\Sigma^\infty \ast, Z)/_\sim
+  \simeq
+  \ast
+  \,.
+$$
+
+Now regarding binary coproducts:
+
+By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \wedge Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
+
+Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in _[Prelude -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory).
+
+We claim now that $P(X \wedge Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
+
+$$
+  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  \simeq
+  Hom_{SeqSpec}(P X, Q Z)/_\sim \times Hom_{SeqSpec}(P Y, Q Z)/_\sim
+$$
+
+between [[left homotopy]]-classes of morphisms of sequential spectra.
+
+But since $X \vee Y$ is cofibrant and $Z$ is fibrant, there is a natural isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory))
+
+$$
+  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
+  \,.
+$$
+
+Now the wedge sum $X \vee Y$ is the coproduct in $SeqSpec(Top_{cg})$, and hence morphisms out of it are indeed in natural bijection with pairs of morphisms out of the two summands. But we need this property to hold still after dividing out left homotopy. The key is that smash tensoring (def. \ref{TensoringAndPoweringOfSequentialSpectra}) distributes over wedge sum
+
+$$
+  (X \vee Y) \wedge (I_+) \simeq (X \wedge (I_+)) \vee (Y\wedge (I_+))
+$$
+
+(due to the fact that the [[smash product]] of compactly generated [[pointed topological spaces]] distributes this way over wedge sum of pointed spaces). This means that also left homotopies out of $X \vee Y$ are in natural bijection with pairs of left homotopies out of the summands separately, and hence that there is a natural isomorphism
+
+$$
+  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
+  \,.
+$$
+
+Finally we may apply the inverse of the natural isomorphism used before ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) to obtain in total
+
+$$
+  Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
+  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(P X,Q Z)/_\sim \times Hom_{SeqSpec}(P Y,Q Z)/_\sim
+  \,.
+$$
+
+The composite of all these isomorphisms proves the claim.
+
+=--
+
++-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
+###### Lemma
+
+Consider the group structure on [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) which is induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ has an inverse $\Sigma$, so that
+
+$$
+  Hom_{Ho(Spectra)}(X,Y)
+  \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+  \,.
+$$
+
+This group structure is [[abelian group|abelian]] and [[composition]] is [[bilinear map|bilinear]] with respect to it. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Recall ([prop](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory), [rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) that the group structure is given by concatenation of loops 
+
+$$
+  X 
+    \overset{\Delta_X}{\to}
+  X \times X
+    \overset{(f,g)}{\longrightarrow}
+  \Omega \Sigma X \times \Omega \Sigma X
+  \overset{}{\longrightarrow}
+  \Omega \Sigma X
+  \,.
+$$
+
+
+That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since 
+
+$$
+  Hom_{Ho(Spectra)}(X,Y)
+    \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+    \simeq
+  Hom_{(Ho(Spectra))}(X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y)
+    =
+  Hom_{(Ho(Spectra))}(X, \Omega^2 \Sigma^2 Y)
+  \,.
+$$
+
+That composition distributes over composition in this group structure is the naturality of the loop composition map, which is evident from the standard model ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject))
+
+$$
+  \array{
+    \Omega \Sigma X \times \Omega \Sigma X
+    &\longrightarrow&
+    \Omega \Sigma X
+    \\
+    {}^{\mathllap{(f,f)}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    \Omega \Sigma Y \times \Omega \Sigma Y
+    &\longrightarrow&
+    \Omega \Sigma Y
+  }
+  \,.
+$$
+
+=--
+
+In summary, lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched} state that the [[stable homotopy category]] is an [[Ab-enriched category]] with finite [[coproducts]]. This is called an _[[additive category]]_:
+ 
 +-- {: .num_defn #AdditiveCategory}
 ###### Definition
 
-An **[[additive category]]** is an [[Ab]]-[[enriched category]] (hence a [[category]] equipped with the structure of an [[abelian group]] on each [[hom-set]] such that [[composition]] is [[bilinear map|bilinear]]) and such that it has [[finite colimit|finite]] [[coproducts]].
+An **[[additive category]]** is a [[category]] which is
+
+1. an [[Ab-enriched category]];
+
+   (sometimes called a [[pre-additive category]]--this means that each [[hom-set]] carries the structure of an [[abelian group]] and composition is [[bilinear map|bilinear]])
+
+1. which admits [[finite limit|finite]] [[coproducts]] 
+
+   (and hence, by prop. \ref{ProductsAreBiproducts} below, finite [[products]] which coincide with the coproducts, hence finite [[biproducts]]).
 
 =--
+
++-- {: .num_prop #ProductsAreBiproducts}
+###### Proposition
+
+In an [[Ab-enriched category]], a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.  
+
+This statement includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every [[additive category]] (def. \ref{AdditiveCategory}) has a [[zero object]].  
+
+More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, then the unique morphism 
+
+$$
+  \underset{i \in I}{\coprod} X_i \longrightarrow \underset{j \in I}{\prod} X_j
+$$
+
+whose components are identities for $i = j$ and are [[zero morphism|zero]] otherwise is an [[isomorphism]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider first the zero-ary case. Given an [[initial object]] $\emptyset$ and a [[terminal object]] $\ast$, observe that since the [[hom-sets]] $Hom(\emptyset,\emptyset)$ and $Hom(\ast,\ast)$ by definition contain a single element, this element has to be the zero element in the abelian group structure. But it also has to be the identity morphism, and hence $id_\emptyset = 0$ and $id_{\ast} = 0$. It follows that the 0-element in $Hom(\ast, \emptyset)$ is a left and right inverse to the unique element in $Hom(\emptyset,\ast)$, and so this is an [[isomorphism]]
+
+$$
+  0 \;\colon\; \emptyset \overset{\simeq}{\longrightarrow} \ast
+  \,.
+$$
+
+Consider now the case of binary (co-)products. Using the existence of the [[zero object]], hence of [[zero morphisms]], then in addition to its canonical [[projection]] maps $p_i \colon X_1 \times X_2 \to X_i$, any binary [[product]] also receives "injection" maps $X_i \to X_1 \times X_2$, and dually for the [[coproduct]]:
+
+$$
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow && X_1 \times X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    & \swarrow_{\mathrlap{p_{X_1}}} && {}_{\mathllap{p_{X_2}}}\searrow
+    \\
+    X_1 && && X_2
+  }
+  \;\;\;\;\;\;\;\;\;\;\;\;\,,\;\;\;\;\;\;\;\;\;\;\;\;
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{i_{X_1}}} && {}^{\mathllap{i_{X_2}}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow 
+     && X_1 \sqcup X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X_1 && && X_2
+  }
+  \,.
+$$
+
+Then using the additivity of morphisms, it follows that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+
+$$
+  \phi \;\colon\; f_1 \circ p_1 + f_2 \circ p_2
+$$
+
+gives a morphism of [[cocones]]
+
+$$
+  \array{  
+    X_1 && && X_2
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_{X_1}}}\downarrow && X_1 \times X_2 && \downarrow^{\mathrlap{id_{X_2}}}
+    \\
+    &  && 
+    \\
+    X_1 && \downarrow^{\mathrlap{\phi}} && X_2
+    \\
+    & {}_{\mathllap{f_1}}\searrow && \swarrow_{\mathrlap{f_2}}
+    \\
+    && Q
+  }
+  \,.
+$$
+
+Moreover, this is in fact unique: suppose $\phi'$ is another morphism filling this diagram, then 
+
+$$
+  \begin{aligned}
+    (\phi-\phi')
+    & = 
+    (\phi - \phi') \circ id_{X_1 \times X_2}
+    \\
+    &= 
+    (\phi - \phi') \circ ( (id_{X_1},0) \circ p_1 + (0,id_{X_2})\circ p_2 )
+    \\
+    & =
+    \underset{ = 0}{\underbrace{(\phi - \phi') \circ (id_{X_1}, 0)}} \circ p_1
+    + 
+    \underset{ = 0}{\underbrace{(\phi - \phi') \circ (0, id_{X_2})}} \circ p_2
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+and hence $\phi = \phi'$. This means that $X_1\times X_2$ satisfies the [[universal property]] of a [[coproduct]].
+
+By a [[formal dual|dual]] argument, the binary coproduct $X_1 \sqcup X_2$ is seen to also satisfy the universal property of the binary product. By [[induction]], this implies the statement for all finite (co-)products.
+
+=--
+
 
 +-- {: .num_remark #BiproductsInAdditiveCategories}
 ###### Remark
 
-The first condition in def. \ref{AdditiveCategory} means in particular that there are [[zero morphisms]] and with the second condition this means that the empty coproduct is a [[zero object]]. Since the zero morphisms allow to form the diagrams
+Finite coproducts coinciding with products as in prop. \ref{ProductsAreBiproducts} ar also called _[[biproducts]]_ or _[[direct sums]]_, denoted
+
+$$
+  X_1 \oplus X_2 \coloneqq X_1 \sqcup X_2 \simeq X_1 \times X_2
+  \,.
+$$
+
+The [[zero object]] is denoted "0", of course.
+
+=--
+
+Conversely:
+
++-- {: .num_defn #SemiadditiveCategory}
+###### Definition
+
+A **[[semiadditive category]]** is a [[category]] that has all [[finite products]] which, moreover, are [[biproducts]] in that they coincide with finite [[coproducts]] as in def. \ref{ProductsAreBiproducts}.
+
+=--
+
++-- {: .num_prop #SemiAdditivityInducesAbelianMonoidEnrichment}
+###### Proposition
+
+In a [[semiadditive category]], def. \ref{SemiadditiveCategory}, the [[hom-sets]] acquire the structure of [[commutative monoids]] by defining the sum of two morphisms $f,g \;\colon\; X \longrightarrow Y$ to be
+
+$$
+  f + g 
+    \;\coloneqq\;
+  X \overset{\Delta_X}{\to} X \times X
+  \simeq
+  X \oplus X
+  \overset{f \oplus g}{\longrightarrow}
+  Y \oplus Y
+  \simeq
+  Y \sqcup Y
+  \overset{\nabla_X}{\to}
+  Y
+  \,.
+$$
+
+With respect to this operation, [[composition]] is [[bilinear map|bilinear]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$.
+
+=--
+
++-- {: .num_prop #SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment}
+###### Proposition
+
+Given an [[additive category]] according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We may write the formula for the addition of two morphisms induced by semiadditve structure equivalently as
+
+$$
+  f+g \;\colon\; 
+  X \overset{\Delta_X}{\to} X \times X
+  \overset{(f,g)}{\longrightarrow}
+  Y \times Y
+  \overset{p_1 + p_2}{\longrightarrow}
+  Y
+$$
+
+where the last morphism is identified as the sum of the two projections as in the proof of prop. \ref{ProductsAreBiproducts}. This implies the claim.
+
+=--
+
++-- {: .num_remark #AdditiveCategoryIsProperty}
+###### Remark
+
+Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying beforehand with respect to which abelian group structure on the hom-sets.
+
+=--
+
+In conclusion we have:
+
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) is an [[additive category]] (def. \ref{AdditiveCategory}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopyCategoryIsAbEnriched}.
+
+=--
+
+Hence prop. \ref{ProductsAreBiproducts} implies that in the stable homotopy category finite coproducts and finite products agree, in that they are finite [[biproducts]]. We may also check this explicitly:
+
++-- {: .num_lemma}
+###### Lemma
+
+For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
+
+$$
+  X \vee Y 
+   \longrightarrow
+  X \times Y
+$$
+
+out of the [[coproduct]] ([[wedge sum]], example \ref{WedgeSumOfSpectra}) into the [[product]] (via prop. \ref{LimitsAndColimitsOfSequentialSpectra}), given by
 
 $$
   \array{  
@@ -3361,15 +3739,6 @@ $$
     & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
     \\
     X && && Y
-  }
-  \,.
-$$
-
-it follows that with the [[coproduct]] $X\sqcup Y$ also the [[product]] $X \times Y$ exists and is canonically identified with the coproduct, and in fact the above diagram is equivalent to
-
-$$
-  \array{  
-    X && && Y
     \\
     & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
     \\
@@ -3379,17 +3748,59 @@ $$
     \\
     X && && Y
   }
-  \,.
 $$
 
-One calls this a [[biproduct]] and writes
-
-$$
-  X \oplus Y \simeq  X \sqcup Y \simeq X \times Y
-  \,.
-$$
+represents an [[isomorphism]] in the [[stable homotopy category]].
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We may represent both $X$ and $Y$ by [[CW-spectra]] in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+
+$$
+  i_X \colon X \longrightarrow X \vee Y
+$$
+
+is a stable cofibration, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+
+Hence its ordinary cofiber, which is $Y$,  is its homotopy cofiber, hence we have a homotopy cofiber sequence
+
+$$
+  X \longrightarrow X \vee Y \longrightarrow Y
+$$
+
+moreover, under forming [[stable homotopy groups]], the the inclusion map evidently gives an injection, and the projection map gives a surjection. Hence the [[long exact sequence of homotopy groups]] gives a [[short exact sequence]]
+
+$$
+  0 \to
+  \pi_\bullet(X)
+  \longrightarrow
+  \pi_\bullet(X \vee Y)
+  \longrightarrow
+  \pi_\bullet(Y)
+  \to 
+  0
+  \,.
+$$
+
+Moreover, due to the fact that the inclusion and projection for one of the two summands constitute a [[retraction]], this is a [[split exact sequence]], hence exhibits an isomorphism
+
+$$
+  \pi_k(X \vee Y)  
+  \overset{\simeq}{\longrightarrow}
+  \pi_k(X)\oplus \pi_k(Y)
+$$
+
+for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
+
+=--
+
+
+
+##### Triangulated structure
+
 
 +-- {: .num_defn #AdditiveFunctor}
 ###### Definition
@@ -3531,6 +3942,7 @@ such that the following conditions hold:
 * **T4** 
 
 =--
+
 
 ##### Long fiber-cofiber sequences
 
