@@ -1783,9 +1783,9 @@ Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable 
 +-- {: .num_defn #CWSpectrum}
 ###### Definition
 
-A **CW-spectrum** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top)$, def. \ref{SequentialSpectra}, such that
+A **[[CW-spectrum]]** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top_{cg})$, def. \ref{SequentialSpectra}, such that
 
-1. all component spaces $X_n$ are [[CW-complexes]], 
+1. all component spaces $X_n$ are [[CW-complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), 
 
 1. all structure maps $\Sigma X_n \longrightarrow X_{n+1}$ are inclusions of subcomplexes 
 
@@ -1796,7 +1796,7 @@ A **CW-spectrum** is a [[sequential spectrum]] $X_\bullet\in SeqSpec(Top)$, def.
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
 ###### Proposition
 
-A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]], def. \ref{CWSpectrum} are cofibrant in $SeqSpec(Top)_{strict}$.
+A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]], def. \ref{CWSpectrum}, are cofibrant in $SeqSpec(Top)_{strict}$.
 
 =--
 
