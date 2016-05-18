@@ -3516,6 +3516,7 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
 =--
 
 #### Long fiber/cofiber sequences
+ {#LongFiberCofiberSequences}
 
 +-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
 ###### Lemma
