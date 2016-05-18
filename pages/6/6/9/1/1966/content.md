@@ -8,7 +8,7 @@ Crans also made an influential contribution to the theory of [[models for ∞-st
 
 A collection of articles by Sjoerd Crans is here:
 
-* [Articles by Sjoerd Crans](http://home.tiscali.nl/secrans/papers/)
+* [Articles by Sjoerd Crans](http://home.tiscali.nl/secrans/papers/) (the site seems to be down, see the [cached version of the site](https://web.archive.org/web/20130514042310/http://home.tiscali.nl/secrans/papers/))
 
 
 # Related $n$Lab entries #
