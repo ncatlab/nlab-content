@@ -195,6 +195,8 @@ $$
   }
 $$
 
+If TR5 is not reuqired, one speaks of a **pretriangulated category**.
+
 =--
 
 +-- {: .num_remark #RedundancyInDefinition}
@@ -582,8 +584,14 @@ Discussion of the redundancy in the traditional definition of triangulated categ
 There was also some discussion at the [nForum](http://nforum.mathforge.org/discussion/3638/triangulated-category).
 
 category: triangulated categories
+
 [[!redirects triangulated categories]]
 [[!redirects distinguished triangle]]
 [[!redirects distinguished triangles]]
 [[!redirects triangulated structure]]
 [[!redirects triangulated structures]]
+
+[[!redirects pretriangulated category]]
+[[!redirects pretriangulated categories]]
+[[!redirects pre-triangulated category]]
+[[!redirects pre-triangulated categories]]
