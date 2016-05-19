@@ -649,7 +649,7 @@ Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation 
 +-- {: .num_defn #StableHomotopyGroups}
 ###### Definition
 
-The [[stable homotopy groups]] of a [[sequential spectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian group]] given by the [[colimit]] of [[homotopy groups]] of the component spaces
+The **[[stable homotopy groups]]** of a [[sequential spectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian group]] given by the [[colimit]] of [[homotopy groups]] of the component spaces
 
 $$
   \pi_\bullet(X)
