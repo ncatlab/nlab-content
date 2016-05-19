@@ -580,7 +580,7 @@ such that
 
 Call this the _associated $E$-Adams resolution_ of the $E$-Adams tower.
 
-The _associated inverse sequence_ is
+Moreover, the sequence 
 
 $$
   X 
@@ -594,14 +594,14 @@ $$
   \cdots
 $$
 
-where $C_{k+1} \coloneqq hocofib(i_k)$.
+(where $C_{k+1} \coloneqq hocofib(i_k)$) we call the **associated inverse sequence** of the $E$-Adams tower 
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86](#Ravenel86)) it is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86, def. 2.2.1](#Ravenel86)) it is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
 
