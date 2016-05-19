@@ -20,9 +20,9 @@
 
 ## Idea
 
-The _Adams spectral sequence_ ([Adams 58](#Adams58)) is a type of [[spectral sequences]] used for computations  in [[stable homotopy theory]]. It computes the [[homotopy groups]] of a certain [[nilpotent completion]] of a [[spectrum]] (sometimes, but not necessarily, a [[Bousfield localization of spectra|Bousfield localization of spectra]]) from its [[homology]]/[[cohomology]], as [[modules]]/[[comodules]] over its [[cohomology operations]]. The Adams spectral sequence may be seen as a variant of the [[Serre spectral sequence]] obtained by replacing a single fibration by an "[[Adams resolution]]". 
+The _Adams spectral sequence_ ([Adams 58](#Adams58)) is a type of [[spectral sequences]] used for computations of [[stable homotopy groups]] of [[spectra]] in terms of their [[generalized homology]]/[[generalized cohomology]]. Given a spectrum $X$ and a [[ring spectrum]] $E$, then under mild assumptions the Adams spectral sequence converges to the [[homotopy groups]] of the $E$-[[nilpotent completion]] of $X$, while under stronger assumptions the latter is the $E$-[[Bousfield localization of spectra|Bousfield localization of spectra]]. The second page of the spectral sequence is given by the $E$-[[homology]] of $X$ as [[modules]] over the dual $E$-[[Steenrod operations]]. The Adams spectral sequence may be seen as a variant of the [[Serre spectral sequence]] obtained by replacing a single fibration by an "[[Adams resolution]]". 
 
-The original _[[classical Adams spectral sequence]]_ for [[ordinary cohomology]] is further refined by the _[[Adams-Novikov spectral sequence]]_ ([Novikov 67](#Novikov67)) by replacing [[ordinary cohomology]] modulo $p$ by [[complex cobordism cohomology theory]] or [[Brown-Peterson theory]]. 
+The original _[[classical Adams spectral sequence]]_ is the case where $E = H\mathbb{F}_p$ is [[ordinary homology]] mod $p$, while the _[[Adams-Novikov spectral sequence]]_ ([Novikov 67](#Novikov67)) is the case where $E = $ [[MU]] is [[complex cobordism cohomology theory]] or $E = $ [[BP]], [[Brown-Peterson theory]]. 
 
 Generally, for $E$ a suitable [[E-infinity algebra]] there is a corresponding _$E$-Adams(-Novikov) spectral sequence_ whose second page is given by $E$-[[generalized cohomology]] and which arises as the [[spectral sequence of a simplicial stable homotopy type]] of the [[cosimplicial object|cosimplicial]] object which is the [[Cech nerve]]/[[Sweedler coring]]/[[Amitsur complex]] of $E$. As such the Adams spectral sequence is an analog in [[stable homotopy theory]] of the [[Bousfield-Kan spectral sequence|Bousfield-Kan]] [[homotopy spectral sequence]] in unstable [[homotopy theory]].
 
@@ -574,7 +574,7 @@ where $C_{k+1} \coloneqq hocofib(i_k)$.
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86](#Ravenel86)) it is is the associated inverse sequence that is called an $E$-Adams resolution.
+In ([Ravenel 86](#Ravenel86)) it is the associated inverse sequence that is called an $E$-Adams resolution.
 
 =--
 
@@ -655,7 +655,7 @@ $$
     \\
     &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
     \\
-    && X_1 &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
+    && [Y,X_1] &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
     \\
     &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
     \\
