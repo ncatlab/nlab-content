@@ -1,1 +1,1 @@
-ctegory:empty
+category: empty
