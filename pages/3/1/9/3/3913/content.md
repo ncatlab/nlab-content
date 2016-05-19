@@ -132,6 +132,8 @@ $$
 ## Properties
  {#Properties}
 
+### Behaviour under direct sum of vector bundles
+
 +-- {: .num_prop #ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks}
 ###### Proposition
 
@@ -166,7 +168,7 @@ For $V$ a [[vector bundle]] then the Thom space (def. \ref{ThomSpace}) of $\math
 
 
 $$
-  Th(V \oplus \mathbb{R}^n) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
+  Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
   \,.
 $$
 
@@ -191,15 +193,12 @@ $$
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #SuspensionPropertyOfThomSpacesInducesThomSpectra}
 ###### Remark
 
-This implies that for every vector bundle $V$ the sequence of spaces
-$Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is _the [[Thom spectrum]]_ of $V$.
+Prop. \ref{SuspensionOfThomSpaces} implies that for every vector bundle $V$ the sequence of spaces $Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is _the [[Thom spectrum]]_ of $V$.
 
 =--
-
-
 
 +-- {: .num_example}
 ###### Example
@@ -219,6 +218,29 @@ $$
 Therefore a general Thom space may be thought of as "twisted suspension", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
 
 =--
+
++-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
+###### Proposition
+
+For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space is the [[smash product]] of the individual Thom spaces:
+
+$$
+  Th(V_1 \boxtimes V_2)
+  \simeq
+  Th(V_1) \wedge Th(V_2)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} induces on the [[Thom spectra]] of remark \ref{SuspensionPropertyOfThomSpacesInducesThomSpectra} the structure of [[ring spectra]].
+
+=--
+
+
 
 ## Related concepts
 
