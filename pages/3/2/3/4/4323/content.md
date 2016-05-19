@@ -68,6 +68,9 @@ between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundl
 
 =--
 
+See at _[[Thom space]]_ [this prop.](Thom+space#SuspensionOfThomSpaces).
+
+
 +-- {: .num_defn}
 ###### Definition
 
@@ -101,7 +104,7 @@ Without qualifiers, _the_ Thom spectrum is that of the universal vector bundles:
 For each $n \in \mathbb{N}$ let 
 
 $$
-  M O(n) := (B O)^{V(n)}
+  M O(n) \coloneqq (B O)^{V(n)}
 $$
 
 be the Thom spectrum of the vector bundle $V(n)$ that is canonically [[associated bundle|associated]] to the $O(n)$-[[universal principal bundle]] $E O(n) \to B O(n)$ over the [[classifying space]] of the [[orthogonal group]] of dimension $n$.
@@ -109,7 +112,7 @@ be the Thom spectrum of the vector bundle $V(n)$ that is canonically [[associate
 The inclusions $O(n) \hookrightarrow O(n+1)$ (by adding one [[coordinate]] ob, say, the right) induce a directed system of such spectra. The **Thom spectrum** is the [[colimit]]
 
 $$
-  M O := {\lim_\to}_n M O(n) 
+  M O \coloneqq {\lim_\to}_n M O(n) 
   \,.
 $$
 
@@ -140,7 +143,7 @@ $$
 +-- {: .num_defn #UniversalThomSpectrum}
 ###### Definition
 
-The _Thom specturm_ $M O$ is the [[spectrum]] whose $n$th component space is 
+The _Thom spectrum_ $M O$ is the [[spectrum]] whose $n$th component space is 
 the [[Thom space]] $Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the universal rank-$n$ [[vector bundle]], and whose structure maps 
 
 $$
@@ -233,7 +236,7 @@ between [[CRing]] and [[Ab]], where $\mathbb{Z}[-]$ forms the [[group ring]].
 Write 
 
 $$
-  b gl_1(R) := \Sigma gl_1(R)
+  b gl_1(R) \coloneqq \Sigma gl_1(R)
 $$
 
 for the [[suspension]] of the group of units $gl_1(R)$. 
@@ -342,10 +345,10 @@ This definition does subsume the [above](ForSphereBundles) definition of Thom sp
 +-- {: .num_prop}
 ###### Proposition
 
-Let $R = S$ be the [[sphere spectrum]]. Then for $f : b \to gl_1(S)$ a cocycle for an $S$-bundle, 
+Let $R = S$ be the [[sphere spectrum]]. Then for $f \colon b \to gl_1(S)$ a cocycle for an $S$-bundle, 
 
 $$
-  G := \Omega^\infty g : B \to B GL_1(S)
+  G \coloneqq \Omega^\infty g \colon B \to B GL_1(S)
 $$
 
 is the classifying map for a [[spherical fibration]] over $B \in Top$. 
@@ -473,7 +476,7 @@ The [[cobordism ring|cobordism group]] of un[[oriented]] $n$-[[dimension]]al [[m
 
 $$
   \Omega^{un}_\bullet \simeq \pi_\bullet M O 
-   :=
+   \coloneqq
   {\lim_{\to}}_{k \to \infty} \pi_{n+k} M O(k)
   \,.
 $$
