@@ -1,4 +1,7 @@
 
+> This article is about ends (and coends) in [[category theory]].  For ends in [[topology]], see at [[end compactification]].
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -18,17 +21,13 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
-
-## Disambiguation
-
-This articles is about ends (and coends) in [[category theory]].  For ends in [[topology]], see [[end compactification]].
 
 
 ## Idea
 
-An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _bifunctor_).
+An _end_ is a special kind of [[limit]] over a [[functor]] of the form $F : C^{op} \times C \to D$ (sometimes called a _[[bifunctor]]_).
 
 If we think of such a functor in the sense of [[profunctor]]s as encoding a left and right [[action]] on the object
 
@@ -70,18 +69,25 @@ Let $V$ be a [[symmetric monoidal category]], and let $C$ be a $V$-[[enriched ca
 
 Then in particular there is a covariant [[action]] of $C$ on $F$, with components
 $$\lambda_{c, d, e}: F(c, d) \otimes C(d, e) \to F(c, e),$$
-[where $C(d, e)$ is customary notation for the enriched hom $\hom_C(d, e)$ of $C$ in $V$], and a contravariant action of $C$ on $F$, with components
+(where $C(d, e)$ is customary notation for the [[hom-object]] $\hom_C(d, e)$ of $C$ in $V$), and a contravariant action of $C$ on $F$, with components
 $$\rho_{c, d, e}: F(d, e) \otimes C(c, d) \to F(c, e).$$ 
 
 In detail, the covariant action is the [[adjunct]] of the morphism 
 
-$$(F(c,-) : C(d,e) \to [F(c,d), F(c,e)]) \in Hom_V(C(d,e),[F(c,d), F(c,e)])
+$$
+  (F(c,-) 
+    \colon 
+  C(d,e) \to [F(c,d), F(c,e)]) 
+    \in 
+  Hom_V(C(d,e),[F(c,d), F(c,e)])
 $$ 
 
 under the [[closed monoidal category|Hom-adjunction]] 
 
 $$
-Hom_V(C(d,e),[F(c,d), F(c,e)]) \stackrel{\simeq}{\to} Hom_V(C(d,e)\otimes F(c,d),F(c,e))
+  Hom_V(C(d,e),[F(c,d), F(c,e)]) 
+    \stackrel{\simeq}{\longrightarrow} 
+  Hom_V(C(d,e)\otimes F(c,d),F(c,e))
 $$ 
 
 in $V$. Similarly for the contravariant action. 
@@ -245,44 +251,46 @@ This way of writing the [[limit]] clearly suggests that it is more natural to ha
 ##### Enriched ends over $V$-valued functors as equalizers
 
 For $V$ a [[symmetric monoidal category]], $C$ a $V$-[[enriched category]] and 
-$F : C^{op} \times C \to V$ a 
-$V$-[[enriched functor]],
+$F \colon C^{op} \times C \to V$ a  $V$-[[enriched functor]],
 the **end** of $F$ is the [[equalizer]]
 
 $$
   \int_{c \in C}
   F(c,c)
-  \to 
+    \longrightarrow
   \prod_{c \in Obj(C)}
   F(c,c)
-  \stackrel{\stackrel{\rho}{\to}}{\stackrel{\lambda}{\to}}  
+   \underoverset
+    {\underset{\lambda}{\longrightarrow}}  
+    {\overset{\rho}{\longrightarrow}}
+    {}
   \prod_{c_1,c_2 \in Obj(C)}
-  [C(c_1,c_2),F(c_1,c_2)]
+    [C(c_1,c_2),F(c_1,c_2)]
   \label{endeq}
 $$
 
 with $\rho$ in components given by
 
 $$
-  \rho_{c_1, c_2} : F(c_1,c_1) \to [C(c_1,c_2), F(c_1,c_2)]
+  \rho_{c_1, c_2} \colon F(c_1,c_1) \longrightarrow [C(c_1,c_2), F(c_1,c_2)]
 $$
 
 being the [[adjunct]] of
 
 $$
-  F(c_1,-) : C(c_1, c_2) \to [F(c_1,c_1), F(c_1,c_2)]
+  F(c_1,-) \colon  C(c_1, c_2) \longrightarrow [F(c_1,c_1), F(c_1,c_2)]
 $$
 
 and
 
 $$
-  \lambda_{c_1, c_2} : F(c_2,c_2) \to [C(c_1,c_2), F(c_1,c_2)]
+  \lambda_{c_1, c_2} \colon F(c_2,c_2) \longrightarrow [C(c_1,c_2), F(c_1,c_2)]
 $$
 
 being the [[adjunct]] of
 
 $$
-  F(-,c_2) : C(c_1, c_2) \to [F(c_2,c_2), F(c_1,c_2)]
+  F(-,c_2) \colon C(c_1, c_2) \longrightarrow [F(c_2,c_2), F(c_1,c_2)]
   \,.
 $$
 
