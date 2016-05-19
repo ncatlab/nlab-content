@@ -4267,13 +4267,49 @@ and anlogously for $E U(n)$.
 
 As such this is the standard presentation for the $O(n)$-[[universal principal bundle]] and $U(n)$-[[universal principal bundle]], respectively. Its base space $B O(n)$ is the corresponding **[[classifying space]]**.
 
++-- {: .num_defn #InclusionOfBOnIntoBOnPlusOne}
+###### Definition
+
+There are canonical inclusions
+
+$$
+  Gr_n(\mathbb{R}^k)
+  \hookrightarrow
+  Gr_{n+1}(\mathbb{R}^{k+1})
+$$
+
+and
+
+$$
+  Gr_n(\mathbb{C}^k)
+  \hookrightarrow
+  Gr_{n+1}(\mathbb{C}^{k+1})
+$$
+
+given by adjoining one coordinate to the ambient space and to any subspace. Under the colimit of def. \ref{EOn} these induce maps of classifying spaces
+
+$$
+  B O(n) \longrightarrow B O(n+1)
+$$
+
+and
+
+$$
+  B U(n) \longrightarrow B U(n+1)
+  \,.
+$$
+
+
+=--
+
+
 
 +-- {: .num_prop #EOnIsWeaklyContractible}
 ###### Proposition
 
-The colimiting space $E O(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E O(n) = \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
-The colimiting space $E U(n) = \underset{\longleftarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
+The colimiting space $E U(n) = \underset{\longrightarrow}{\lim}_k V_n(\mathbb{C}^k)$ from def. \ref{EOn} is [[weakly contractible topological space|weakly contractible]].
 
 =--
 
@@ -4376,8 +4412,9 @@ $$
   B U(n)
     \longrightarrow
   B U(n+1)
-  \,.
 $$
+
+exhibiting the [[n-sphere]] ($(2n+1)$-sphere) as the [[homotopy fiber]] of the canonical maps from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
 
 
 This means ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure)), that there is a replacement of the canonical inclusion $B O(n) \hookrightarrow B O(n+1)$ (induced via def. \ref{EOn}) by a [[Serre fibration]]
