@@ -4210,8 +4210,6 @@ $$
 
 and
 
-and
-
 $$
   \left(
   \array{
@@ -4238,7 +4236,20 @@ $$
   \,,
 $$
 
-respectively.
+respectively. These are the standard models for the **[[universal principal bundles]]** for $O$ and $U$, respectively. The corresponding [[associated bundles|associated]] [[vector bundles]]
+
+$$
+ E O(n) \underset{O(n)}{\times} \mathbb{R}^n
+$$
+
+and
+
+$$
+ E U(n) \underset{U(n)}{\times} \mathbb{C}^n
+$$
+
+are the corresponding **[[universal vector bundles]]**.
+
 
 
 =--
@@ -4736,7 +4747,7 @@ Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] natural
 +-- {: .num_defn #ThomSpace}
 ###### Definition
 
-Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ (def. \ref{EOn}) over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
 
 1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
 
