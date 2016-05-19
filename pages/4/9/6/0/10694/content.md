@@ -410,7 +410,7 @@ In doing so it is now crucial that the differential in the standard bar complex 
 
 $$
   d \;\colon\;
-  A \otimes_A \Gamma \otimes_A \amma
+  A \otimes_A \Gamma \otimes_A \Gamma
   \longrightarrow
   A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
 $$
@@ -550,7 +550,7 @@ The origin is in
 
 * [[Peter May]], _Some remarks on the structure of Hopf algebras_, Proceedings of the AMS, vol 23, No. 3 (1969) ([pdf](http://www.math.uchicago.edu/~may/PAPERS/9.pdf))
  
-Further computational improvements and a computation of the first 70 differentials (for the case of the mod 2[[Steenrod algebra]]) was given in
+Further computational improvements and a computation of the first 70 differentials (for the case of the mod 2 [[Steenrod algebra]]) was given in
 
 * {#Tangora17} [[Martin Tangora]], _On the cohomology of the Steenrod algebra_, Math. Z. 116, 18-64 (1970)
 
