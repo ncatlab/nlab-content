@@ -22,7 +22,7 @@
 The **Thom space** $Th(V)$ of a real [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the [[topological space]] obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fibers]] of $V$ (with respect to a [[metric]] given by any choice of [[orthogonal structure]]) and then identifying to a point the [[boundaries]] of all the disks, i.e. forming the [[quotient topological space]] by the [[sphere bundle]] $S(V)$:
 
 $$
-  Th(V) \coloneq D(V)/S(V)
+  Th(V) \coloneqq D(V)/S(V)
   \,.
 $$
 
@@ -159,10 +159,10 @@ Notice that
 
 =--
 
-+-- {: .num_cor}
-###### Corollary
++-- {: .num_prop #SuspensionOfThomSpaces}
+###### Proposition
 
-For $V$ a vector bundle then the Thom space (def. \ref{ThomSpace}) of $\mathbb{R}^n \oplus V$, the [[direct sum of vector bundles]] with the trivial rank $n$ vector bundle, is [[homeomorphism|homeomorphic]] to the [[smash product]] of the Thom space of $V$ with the $n$-[[sphere]] (the $n$-fold [[reduced suspension]]).
+For $V$ a [[vector bundle]] then the Thom space (def. \ref{ThomSpace}) of $\mathbb{R}^n \oplus V$, the [[direct sum of vector bundles]] with the trivial rank $n$ vector bundle, is [[homeomorphism|homeomorphic]] to the [[smash product]] of the Thom space of $V$ with the $n$-[[sphere]] (the $n$-fold [[reduced suspension]]).
 
 
 $$
@@ -191,6 +191,16 @@ $$
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+This implies that for every vector bundle $V$ the sequence of spaces
+$Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is _the [[Thom spectrum]]_ of $V$.
+
+=--
+
+
+
 +-- {: .num_example}
 ###### Example
 
@@ -202,14 +212,6 @@ $$
 
 is the [[smash product]] of the $n$-[[sphere]] with $X$ with one base 
 point freely adjoined (the $n$-fold [[suspension]]).
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-This implies that for every vector bundle $V$ the sequence of spaces
-$Th(\mathbb{R}^n \oplus V)$ forms a [[suspension spectrum]]: this is called the [[Thom spectrum]] of $V$.
 
 =--
 
