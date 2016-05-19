@@ -4302,6 +4302,50 @@ $$
 
 =--
 
++-- {: .num_defn #WhitneySumMapOnClassifyingSpaces}
+###### Definition
+
+There are canonical maps
+
+$$
+  Gr_{n_1}(\mathbb{R}^{k_1})
+  \times
+  Gr_{n_2}(\mathbb{R}^{k_2})  
+  \longrightarrow
+  Gr_{n_1 + n_2}(\mathbb{R}^{k_1 + k_2})
+$$
+
+and
+
+$$
+  Gr_{n_1}(\mathbb{C}^{k_1})
+  \times
+  Gr_{n_2}(\mathbb{C}^{k_2})  
+  \longrightarrow
+  Gr_{n_1 + n_2}(\mathbb{C}^{k_1 + k_2})
+$$
+
+
+given by sending ambient spaces and subspaces to their [[direct sum]].
+
+Under the colimit of def. \ref{EOn} these induce maps of classifying spaces
+
+$$
+  B O(n_1) \times B O(n_2)
+  \longrightarrow
+  B O(n_1 + n_2)
+$$
+
+and
+
+$$
+  B U(n_1) \times B U(n_2)
+  \longrightarrow
+  B U(n_1 + n_2)
+$$
+
+=--
+
 
 
 +-- {: .num_prop #EOnIsWeaklyContractible}
@@ -4572,7 +4616,7 @@ $$
 
 where the bottom map is the canonical one from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
 
-The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical such maps 
+The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps of def. \ref{classifying+space#WhitneySumMapOnClassifyingSpaces}
 
 $$
   \array{
@@ -4685,6 +4729,399 @@ This curious construction turns out to have excellent formal properties: as the 
 Moreover, via [[Whitney sum]] of [[vector bundle]] the [[Thom spectrum]] naturally is a [[ring spectrum]], and under the Pontryagin-Thom collapse the [[Cartesian product]] of manifolds is compatible with this ring structure.
 
 **Literature.** ([Kochman 96, 1.5](#Kochman96), [Schwede 12, chapter I, example 1.16](#Schwede12))
+
+
+##### Thom spaces
+
++-- {: .num_defn #ThomSpace}
+###### Definition
+
+Let $X$ be a [[topological space]] and let $V \to X$ be a [[vector bundle]] over $X$ of [[rank]] $n$, which is [[associated bundle|associated]] to an [[orthogonal group|O(n)]]-[[principal bundle]]. Equivalently this means that $V \to X$ is the [[pullback]] of the [[universal vector bundle]] $E_n \to B O(n)$ over the [[classifying space]]. Since $O(n)$ preserves the [[metric]] on $\mathbb{R}^n$, by definition, such $V$ inherits the structure of a [[metric space]]-[[fiber bundle]]. With respect to this structure:
+
+1. the **unit disk bundle** $D(V) \to X$ is the subbundle of elements of [[norm]] $\leq 1$;
+
+1. the **unit sphere bundle** $S(V)\to X$ is the subbundle of elements of norm $= 1$;
+
+   $S(V) \overset{i_V}{\hookrightarrow} D(V) \hookrightarrow V$;
+
+1. the **[[Thom space]]** $Th(V)$ is the [[cofiber]] (formed in [[Top]] ([prop.](Top#DescriptionOfLimitsAndColimitsInTop))) of $i_V$ 
+
+   $$
+     Th(V) \coloneqq cofib(i_V)
+   $$
+
+   canonically regarded as a [[pointed topological space]].
+
+$$
+  \array{
+    S(V) &\overset{i_V}{\longrightarrow}& D(V)
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& Th(V)
+  }
+  \,.
+$$
+
+If $V \to X$ is a general real vector bundle, then there exists an isomorphism to an $O(n)$-[[associated bundle]] and the Thom space of $V$ is, up to based [[homeomorphism]], that of this orthogonal bundle.
+
+=--
+
+
++-- {: .num_remark #ThomSpaceForRankZeroBundle}
+###### Remark
+
+If the [[rank]] of $V$ is positive, then $S(V)$ is non-empty and then the Thom space (def. \ref{ThomSpace}) is the [[quotient topological space]]
+
+$$
+  Th(V) \simeq D(V)/S(V)
+  \,.
+$$
+
+However, in the degenerate case that the [[rank]] of $V$ vanishes, hence the case that $V = X\times \mathbb{R}^0 \simeq X$, then $D(V) \simeq V \simeq X$, but $S(V) = \emptyset$. Hence now the [[pushout]] defining the cofiber is
+
+$$
+  \array{
+    \emptyset &\overset{i_V}{\longrightarrow}& X
+    \\
+    \downarrow &(po)& \downarrow
+    \\
+    \ast &\longrightarrow& Th(V) \simeq X_*
+  }
+  \,,
+$$
+
+which exhibits $Th(V)$ as the [[coproduct]] of $X$ with the point, hence as $X$ with a basepoint freely adjoined.
+
+$$
+  Th(X \times \mathbb{R}^0) = Th(X) \simeq X_+
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks}
+###### Proposition
+
+Let $V_1,V_2 \to X$ be two real [[vector bundles]]. Then the Thom space (def. \ref{ThomSpace}) of the [[direct sum of vector bundles]] $V_1 \oplus V_2 \to X$ is expressed in terms of the Thom space of the [[pullbacks]] $V_2|_{D(V_1)}$ and $V_2|_{S(V_1)}$ of $V_2$ to the disk/sphere bundle of $V_1$ as
+
+$$
+  Th(V_1 \oplus V_2)
+  \simeq
+  Th(V_2|_{D(V_1)})/Th(V_2|_{S(V_1)})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that 
+
+1. $D(V_1 \oplus V_2) \simeq D(V_2|_{Int D(V_1)}) \cup S(V_1)$;
+
+1. $S(V_1 \oplus V_2) \simeq S(V_2|_{Int D(V_1)}) \cup Int D(V_2|_{S(V_1)})$.
+
+(Since a point at radius $r$ in $V_1 \oplus V_2$ is a point of radius $r_1 \leq r$ in $V_2$ and a point of radius $\sqrt{r^2 - r_1^2}$ in $V_1$.)
+
+=--
+
++-- {: .num_prop #SuspensionOfThomSpaces}
+###### Proposition
+
+For $V$ a [[vector bundle]] then the Thom space (def. \ref{ThomSpace}) of $\mathbb{R}^n \oplus V$, the [[direct sum of vector bundles]] with the trivial rank $n$ vector bundle, is [[homeomorphism|homeomorphic]] to the [[smash product]] of the Thom space of $V$ with the $n$-[[sphere]] (the $n$-fold [[reduced suspension]]).
+
+
+$$
+  Th(\mathbb{R}^n \oplus V) \simeq S^n \wedge Th(V) = \Sigma^n Th(V)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Apply prop. \ref{ThomSpaceOfDirectSumAsQuotientOfThomSpacesOfPullbacks} with $V_1 = \mathbb{R}^n$ and $V_2 = V$. Since $V_1$ is a trivial bundle, then
+
+$$
+  V_2|_{D(V_1)} \simeq V_2\times D^n
+$$
+
+(as a bundle over $X\times D^n$) and similarly
+
+$$
+  V_2|_{S(V_1)} \simeq V_2\times S^n
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+By prop. \ref{SuspensionOfThomSpaces} and remark \ref{ThomSpaceForRankZeroBundle}  the Thom space (def. \ref{ThomSpace}) of a trivial vector bundle of rank $n$ is the $n$-fold [[suspension]] of the base space 
+
+$$
+  \begin{aligned}
+    Th(X \times \mathbb{R}^n) 
+    & \simeq S^n \wedge Th(X\times \mathbb{R}^0) 
+    \\
+    & \simeq S^n \wedge (X_+)
+  \end{aligned}
+  \,.
+$$
+
+Therefore a general Thom space may be thought of as "twisted suspension", with twist encoded by a vector bundle (or rather by its underlying [[spherical fibration]]). See at _[Thom spectrum -- For infinity-module bundles](Thom+spectrum#ForInfinityModuleBundles)_ for more on this.
+
+=--
+
++-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
+###### Proposition
+
+For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space (def. \ref{ThomSpace}) is the [[smash product]] of the individual Thom spaces:
+
+$$
+  Th(V_1 \boxtimes V_2)
+  \simeq
+  Th(V_1) \wedge Th(V_2)
+  \,.
+$$
+
+=--
+
+
+##### Universal Thom spectra $M G$
+
++-- {: .num_prop #PullbackOfUniversalOnBundleUnderCoordinateRestriction}
+###### Proposition
+
+For each $n \in \mathbb{N}$ the [[pullback]] of the [[rank]]-$(n+1)$ [[universal vector bundle]] to the [[classifying space]] of rank $n$ vector bundles is the [[direct sum of vector bundles]] of the rank $n$ universal vector bundle with the trivial rank-1 bundle: there is a [[pullback]] [[diagram]] of [[topological spaces]] of the form
+
+$$
+  \array{
+    \mathbb{R}\oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^n)
+    &\longrightarrow&
+    E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B O(n) &\longrightarrow& B O(n+1)
+  }
+  \,,
+$$
+
+where the bottom morphism is the canonical one ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
+
+=--
+
+(e.g. [Kochmann 96, p. 25](#Kochmann96))
+
++-- {: .proof}
+###### Proof
+
+For each $k \in \mathbb{N}$, $k \geq n$ there is such a pullback of the canonical vector bundles over [[Grassmannians]]
+
+$$
+  \array{
+    \left\{
+      {V_{n}\subset \mathbb{R}^k, }
+      \atop
+      {v \in V_n, v_{n+1} \in \mathbb{R}}
+    \right\}
+    &\longrightarrow&
+    \left\{
+      {V_{n+1} \subset \mathbb{R}^{k+1}},
+      \atop
+      v \in V_{n+1}
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    Gr_n(\mathbb{R}^k)
+    &\longrightarrow&
+    Gr_{n+1}(\mathbb{R}^{k+1})
+  }
+$$
+
+where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking [[colimit]] over $k$, this produces the claimed pullback.
+
+=--
+
+
++-- {: .num_defn #UniversalThomSpectrum}
+###### Definition
+
+The **[[Thom spectrum]]** $M O$ is the [[spectrum]], which is represented by the [[sequential prespectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) whose $n$th component space is the [[Thom space]] (def. \ref{ThomSpace})
+
+$$
+  (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
+$$ 
+
+of the rank-$n$ [[universal vector bundle]], and whose structure maps are the image under the [[Thom space]] functor $Th(-)$ of the top morphisms in prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}, via the homeomorphisms of prop. \ref{SuspensionOfThomSpaces}:
+
+$$
+  \sigma_n
+   \;\colon\;
+  \Sigma (M O)_n
+    \simeq 
+  Th(\mathbb{R}\oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^n))
+    \stackrel{}{\longrightarrow} 
+  Th(E O(n+1) \underset{O(n+1)}{\times} \mathbb{R}^{n+1}) 
+    = 
+  (M O)_{n+1}
+  \,.
+$$
+
+=--
+
+
+
+More generally, there are universal Thom spectra associated with any other tangent structure ("[[(B,f)]-structure]"), notably for the orthogonal group replaced by the [[special orthogonal groups]] $SO(n)$, or the [[spin groups]] $Spin(n)$, or the [[string 2-group]] $String(n)$, or the [[fivebrane 6-group]] $Fivebrane(n)$,..., or any level in the [[Whitehead tower]] of $O(n)$. To any of these groups there corresponds a Thom spectrum (denoted, respectively, $M SO$, $M Spin$, $M String$, $M Fivebrane$, etc.), which is in turn related to oriented cobordism, spin cobordism, string cobordism, et cetera.
+
+
++-- {: .num_defn #VectorBundleAssociatedWithBfStructure}
+###### Definition
+
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), write
+
+$$
+  E^{\mathcal{B}}_n
+    \coloneqq 
+  f_n^\ast ( E O(n) \underset{O(n)}{\times} \mathbb{R}^n )
+$$
+
+for the [[pullback]] of the rank-$n$ [[universal vector bundle]] from $B O(n)$ to $B_n$ along $f_n$.
+
+=--
+
+Observe that the analog of prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction} still holds:
+
++-- {: .num_prop #PullbackOfUniversalBfBundleUnderCoordinateRestriction}
+###### Proposiiton
+
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pullback of its rank-$(n+1)$ vector bundle $E^{\mathcal{B}}_{n+1}$ (def. \ref{VectorBundleAssociatedWithBfStructure}) along the map $j_n \colon B_n \to B_{n+1}$ is the [[direct sum of vector bundles]] of the rank-$n$ bundle $E^{\mathcal{B}}_n$ with the trivial rank-1-bundle: there is a pullback square
+
+$$
+  \array{
+    \mathbb{R} \oplus E^{\mathcal{B}}_n 
+      &\longrightarrow&
+    E^{\mathcal{B}}_{n+1}
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B_n &\underset{j_n}{\longrightarrow}& B_{n+1}
+  }
+  \,.
+$$
+
+=---
+
++-- {: .proof}
+###### Proof
+
+Unwinding the definitions, the pullback in question is
+
+$$
+  \begin{aligned}
+    j_n^\ast E^{\mathcal{B}}_{n+1}
+      & =
+    j_n^\ast f_{n+1}^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
+    \\
+    & \simeq
+    (j_n \circ f_{n+1})^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
+    \\
+    & \simeq
+    ( f_n \circ i_n )^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
+    \\
+    & \simeq
+    f_n^\ast i_n^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
+    \\
+    & \simeq
+    f_n^\ast (\mathbb{R} \oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^{n}))
+    \\
+    &\simeq \mathbb{R} \oplus E^{\mathcal{B}_n}
+    \,,
+  \end{aligned}
+$$
+
+where the second but last step is due to prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), its Thom spectrum $M \mathcal{B}$ is, as a [[sequential prespectrum]], given by component spaces being the [[Thom spaces]] (def. \ref{ThomSpace}) of the $\mathcal{B}$-associated vector bundles of def. \ref{VectorBundleAssociatedWithBfStructure}
+
+$$
+  (M \mathcal{B})_n
+  \coloneqq
+  Th(E^{\mathcal{B}}_n)
+$$
+
+and with structure maps given via prop. \ref{SuspensionOfThomSpaces} by the top maps in prop. \ref{PullbackOfUniversalBfBundleUnderCoordinateRestriction}:
+
+$$
+  \sigma_n
+    \;\colon\;
+  \Sigma (M \mathcal{B})_n
+    =
+  \Sigma Th(E^{\mathcal{E}}_n)
+    \simeq
+  Th(\mathbb{R}\oplus E^{\mathcal{E}}_n)
+    \longrightarrow
+  Th(E^{\mathcal{E}}_{n+1})
+  =
+  (M \mathcal{B})_{n+1}
+  \,.
+$$
+
+Similarly for a $(B,f)$-structure indexed on the even natural numbers, there is the corresponding Thom spectrum as an $S^2$-sequential spectrum ([def.](model+structure+on+topological+sequential+spectra#SequentialS2Spectra)).
+
+If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usually writes $M G$ for $M \mathcal{B}$. For instance $M SO$, $M Spin$, $M U$ etc.
+
+If the $(B,f)$-structure is multiplicative (def. \ref{BfStructure}), then the Thom spectrum $M \mathcal{B}$ canonical becomes a [[ring spectrum]]: the multiplication maps $B_{n_1} \times B_{n_2}\to B_{n_1 + n_2}$ are covered by maps of vector bundles
+
+$$
+  E^{\mathcal{B}}_{n_1} \boxtimes E^{\mathcal{B}}_{n_2}
+  \longrightarrow
+  E^{\mathcal{B}}_{n_1 + n_2}
+$$
+
+and under forming [[Thom spaces]] this yields ([prop.](Thom+space#ThomSpaceOfExternalProductOfVectorBundles)) maps
+
+$$
+  (M \mathcal{B})_{n_1}
+  \wedge
+  (M \mathcal{B})_{n_2}
+  \longrightarrow
+  (M \mathcal{B})_{n_1 + n_2}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The Thom spectrum of the _[[framing]] structure_ ([exmpl.](G-structure#ExamplesOfBfStructures)) is equivalently the [[sphere spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StandardSphereSpectrum))
+
+$$
+  M 1 \simeq \mathbb{S}
+  \,.
+$$
+
+Because in this case $B_n \simeq \ast$ and so $E^{\mathcal{B}}_n \simeq \mathbb{R}^n$, whence $Th(E^{\mathcal{B}}_n) \simeq S^n$.
+
+=--
+
+
+
 
 
 #### Bordism and Thom's theorem
