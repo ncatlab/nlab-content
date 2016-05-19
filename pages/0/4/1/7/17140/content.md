@@ -83,7 +83,22 @@ $$
 
 ## Examples
 
-* The nilpotent completion of a [[connective spectrum]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}$, happens to be the spectrum itself (by a [[Postnikov tower]] argument).
+
+The nilpotent completion of a [[connective spectrum]] at the [[Eilenberg-MacLane spectrum]] $H \mathbb{Z}$, happens to be the spectrum itself (by a [[Postnikov tower]] argument).
+
++-- {: .num_example}
+###### Examples
+
+For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is the [[formal completion]] $X^{\hat}_p$.
+
+The [[MU]]-nilpotent completion of any spectrum $X$ is $X$.
+
+The [[BP]]-nilpotent completion at prime $p$ of any spectrum $X$ is $X_{(p)}$.
+
+=--
+ 
+([Ravenel 84, example 1.16](#Ravenel84))
+
 
 ## Related concepts
 
