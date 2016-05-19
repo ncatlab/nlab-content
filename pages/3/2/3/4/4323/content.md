@@ -267,8 +267,6 @@ indexed only on the even natural numbers.
 
 Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), write
 
-Write
-
 $$
   E^{\mathcal{B}}_n \coloneqq f_n^\ast ( E O(n) \underset{O(n)}{\times} \mathbb{R}^n )
 $$
