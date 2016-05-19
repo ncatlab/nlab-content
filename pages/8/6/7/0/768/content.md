@@ -297,7 +297,19 @@ $$
   \,,
 $$
 
-respectively.
+respectively. These are the standard models for the **[[universal principal bundles]]** for $O$ and $U$, respectively. The corresponding [[associated bundles|associated]] [[vector bundles]]
+
+$$
+ E O(n) \underset{O(n)}{\times} \mathbb{R}^n
+$$
+
+and
+
+$$
+ E U(n) \underset{U(n)}{\times} \mathbb{C}^n
+$$
+
+are the corresponding **[[universal vector bundles]]**.
 
 
 =--
