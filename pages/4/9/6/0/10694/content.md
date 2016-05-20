@@ -470,7 +470,7 @@ in cohomology. Proceeding this way by explicit inspection, one obtains:
 +-- {: .num_lemma }
 ###### Lemma
 
-In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\matbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
+In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
 
 * $h_n$
 
