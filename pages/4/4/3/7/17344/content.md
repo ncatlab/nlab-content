@@ -831,7 +831,7 @@ $$
     \array{
       \pi_k X_0  & if\; k \geq 0
       \\
-      \pi_0 X_k  & if \; k \lt 0
+      \pi_0 X_{\vert k \vert}  & if \; k \lt 0
     }
   \right.
   \,.
@@ -845,6 +845,174 @@ $$
 ###### Proof
 
 For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ are [[weak homotopy equivalences]], by definition, hence are classical weak equivalences. Hence $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)). Therefore, by prop. \ref{TwoVersionsOfComponentsForStableHomotopyGroupsAgree}, the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
+
+=--
+
+
++-- {: .num_defn #SpectrificationForTopolicalSequentialSpectra}
+###### Definition
+
+
+For $X \in SeqSpec(Top_{cg})$, defne a spectrum $Q X \in SeqSpec(Top_{cg})$ and a morphism
+
+$$
+  j_X \;\colon\; X \longrightarrow Q X
+$$
+
+(to be called the **[[spectrification]]** of $X$) as follows.
+
+First introduce for the components and adjunct structure maps of $X$ the notation
+
+$$
+  Z_{0,k} \coloneqq X_{k}
+  \,,
+  \;\;\;\;\;\;
+  \tilde \sigma_{0,k} \coloneqq \tilde \sigma_k
+  \,.
+$$
+
+Now assume, by [[induction]], that sets of objects $\{Z_{i,k}\}_{k \in \mathbb{N}}$ and maps $\{Z_{i,k} \overset{\tilde \sigma_{i,k}}{\to} \Omega Z_{i,k+1}\}_{k \in \mathbb{N}}$ have been constructed for some $i \in \mathbb{N}$. 
+
+Then construct $Z_{i+1,k}\in Top_{cg}$ by factorizing $\tilde \sigma_{i,k}$, with respect to the model structure $(Top^{\ast/}_{cg})_{Quillen}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces))  as a classical cofibration followed by a classical weak equivalence. More specifically, apply the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) with respect to the set of generating cofibrations $I_{Top}$ to produce [[functorial factorizations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialWeakFactorizationSystem)) into a [[relative cell complex]] followed by a [[weak homotopy equivalence]] (as in the proof of [this lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationInTopQuillen)):
+
+$$
+  \tilde \sigma_{i,k}
+    \;\colon\;
+  Z_{i,k}
+   \underoverset{\in I_{Top} Cell}{\iota_{i,k}}{\longrightarrow}
+  Z_{i+1,k}
+   \underoverset{\in W_{cl}}{\phi_{i,k}}{\longrightarrow}
+  \Omega Z_{i,k+1}
+  \,.
+$$
+
+Then define $\tilde \sigma_{i+1,k}$ as the composite
+
+$$
+  \tilde \sigma_{i+1,k}
+    \;\colon\;
+  Z_{i+1,k}
+    \overset{\phi_{i,k}}{\longrightarrow}
+  \Omega Z_{i,k+1}
+    \overset{\Omega (\iota_{i,k+1})}{\longrightarrow}
+  \Omega Z_{i+1,k+1} 
+  \,.
+$$
+
+This produces for each $i \in \mathbb{N}$ a [[commuting diagram]] of the form
+
+$$
+  \array{
+    X_k = Z_{0,k}
+     &\underoverset{\in I_{Top} Cell}{\iota_{0,k}}{\longrightarrow}&
+    Z_{1,k}
+     &\underoverset{\in I_{Top} Cell}{\iota_{1,k}}{\longrightarrow}&
+    Z_{2,k}
+     &\underoverset{\in I_{Top} Cell}{\iota_{2,k}}{\longrightarrow}&
+    \cdots
+    \\
+    {}^{\mathllap{\tilde \sigma_k = \tilde \sigma_{0,k}}}\downarrow
+    &&
+    {}^{\mathllap{\tilde \sigma_{1,k}}}\downarrow
+    &&
+    {}^{\mathllap{\tilde \sigma_{2,k}}}\downarrow
+    &&
+    \cdots
+    \\
+    \Omega X_{k+1}
+    =
+    \Omega Z_{0,k+1}
+    &\overset{\Omega \iota_{0,k+1}}{\longrightarrow}&
+    \Omega Z_{1,k+1}
+    &\overset{\Omega \iota_{1,k+1}}{\longrightarrow}&
+    \Omega Z_{2,k+1}
+    &\overset{\Omega \iota_{2,k+1}}{\longrightarrow}&
+    \cdots
+  }
+  \,.
+$$
+
+Now let $Q X$ be the spectrum with component spaces the [[colimit]] 
+
+$$
+  (Q X)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z_{i,k}
+$$
+
+and with adjunct structure maps (via def. \ref{SequentialSpectrumViaAdjunctStructureMaps}) given by the map induced under colimits by the above diagrams
+
+$$
+  \tilde \sigma^{Q X}_k
+  \;\coloneqq\;
+  \underset{\longrightarrow}{\lim} \tilde \sigma_{i,k}
+  \,.
+$$
+
+Finally, let $j_X \colon X \to Q X$ be degreewise the inclusion of the first component ($i = 0$) into the colimit. By construction, this is a homomorphism of sequential spectra (according to def. \ref{SequentialSpectrumViaAdjunctStructureMaps}).
+
+
+=--
+
++-- {: .num_prop #SpectrificationForTopologicalSequentialSpectra}
+###### Proposition
+
+Let $X\in SeqSpec(Top_{cg})$ be a sequential spectrum with $j_X \colon X \to Q X$ from def. \ref{SpectrificationForTopolicalSequentialSpectra}. Then:
+
+1. $Q X$ is an Omega-spectrum (def. \ref{OmegaSpectrum}).
+
+1. $j_X \colon X \to Q X$ is a stable weak homotopy equivalence (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
+1. If $X$ is an [[Omega-spectrum]], then $j_X$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+
+1. If $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
+
+=--
+
+([Schwede 97, lemma 2.1.3](spectrification#Schwede97))
+
++-- {: .proof}
+###### Proof
+
+Since the colimit defining $Q X$ is a [[transfinite composition]] of [[relative cell complexes]], each component map $X_k \to (Q X)_k$ is itself a relative cell complex. Since [[n-spheres]] are [[compact topological spaces]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that each element of a [[homotopy group]] in $\pi_\bullet((Q X)_k)$ is in the image of a finite stage $\pi_\bullet(X_k) \to \pi_\bullet(Z_{i,k})$ for some $i \in \mathbb{N}$.
+
+From this, all statements follow by inspection at finite stages.
+
+Regarding first statement: 
+
+Since each $\tilde \sigma_{i,k}$ by construction is a weak homotopy equivalence followed by an inclusion of stages in the colimit, as any element of $\pi_q((Q X)_k)$ is sent along $\tilde \sigma^{Q X}_k$ it passes through one such $\pi_q(\tilde \sigma_{i ,k})$ at some stage $i$, hence also through all the following, and is hence identically preserved in the colimit. 
+
+Regarding the second statement: 
+
+By the previous statement and by example \ref{StableHomotopyGroupsOfOmegaSpectrum} the map $\pi_\bullet(j_X) \colon \pi_\bullet(X)\to \pi_\bullet(Q X)$ is given in degree $q \geq 0$ by
+
+$$
+  \underset{
+    \simeq \underset{\longleftarrow}{\lim}_k  \pi_q \left(\Omega^k X_k\right)
+  }
+  {
+  \underbrace{
+    \underset{\longrightarrow}{\lim}_{k \in \mathbb{N}}  \pi_{q+k}(X_k)
+  }}
+  \longrightarrow
+  \underset{
+    \simeq
+    \pi_q \left(
+      \underset{\longrightarrow}{\lim}_k \Omega^k X_k
+    \right)
+  }{
+  \underbrace{
+    \pi_q \left(
+      (Q X)_0
+    \right)
+  }}
+$$
+
+and similarly in degree $q\lt 0$. That these morphisms are isomorphism, hence that forming homotopy groups commutes over the sequential colimit, is again due to the compactness of the $n$-spheres.
+
+Regarding the third statement:
+
+If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigma_k$ are weak homotopy equivalences, then by [[two-out-of-three]] also the maps $\iota_{i,k}$ in def. \ref{SpectrificationForTopolicalSequentialSpectra} are weak homotopy equivalences. Hence $(j_X)_k \colon  X_k \to (Q X)_k$ is the map into a sequential colimit over acyclic relative cell complexes, and again by the compactness of the spheres, this means that it is itself a weak homotopy equivalence.
+
+Similarly for the fourth statement.
 
 =--
 
@@ -2685,96 +2853,7 @@ Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equa
 
 =--
 
-+-- {: .num_defn #AlmostSpectrificationForTopologicalSequentialSpectra}
-###### Definition
 
-For $X \in SeqSpec(Top_{cg})$, write 
-
-$$
-  Q X
-    \coloneqq
-  hocolim\left(
-    X 
-      \overset{\eta_X}{\longrightarrow}
-    \Omega X[1]
-      \overset{\eta_{\Omega X[1]}}{\longrightarrow}
-    \Omega^2 X[2]
-      \overset{\eta_{\Omega^2 X[1]}}{\longrightarrow}
-    \Omega^3 X[3]
-      \overset{}{\longrightarrow}
-    \cdots
-  \right)
-$$
-
-for the [[homotopy colimit]] (in the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) of the sequence of iterations of the natural morphism  from lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}; concretely for the [[mapping telescope]] (with respect to the standard [[cylinder spectra]] from def. \ref{StandardCylinderSpectrumSequential}):
-
-$$
-  Q X
-    \coloneqq
-  coeq
-  \left(
-    \underset{n \in \mathbb{N}}{\sqcup}
-     \Omega^n X[n]
-       \underoverset
-        {\underset{\left(i_0 \circ \eta_{\Omega^n X[n]}\right)_{n \in \mathbb{N}} }{\longrightarrow}}
-        {\overset{(i_1)_{n \in \mathbb{N}}}{\longrightarrow}}
-        {}
-    \underset{n \in \mathbb{N}}{\sqcup}
-    \Omega^n X[n] \wedge (I_+)
-  \right)
-  \,.
-$$
-
-Equivalently this is the spectrum whose $n$th component space is a corresponding [[mapping telescope]] of [[pointed topological spaces]] formed via the standard [[reduced cylinder]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) smashed from the right and with structure maps acting independently from the left.
-
-Write 
-
-$$
-  i_X \;\colon\; X \longrightarrow Q X
-$$
-
-for the canonical induced morphism (inclusion of the first component).
-
-This construction clearly extends to a [[functor]] and $i_{(-)}$ to a [[natural transformation]].
-
-=--
-
-+-- {: .num_lemma #PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}
-###### Lemma
-
-1. If $X$ is an [[Omega-spectrum]], then $i_X  \colon X \to Q X$ from def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
-
-1. If $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), then $Q f \colon Q X \to Q Y$ def. \ref{AlmostSpectrificationForTopologicalSequentialSpectra} is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Regarding the first item:
-
-By lemma \ref{FakeLoopingPreservesOmegaSpectra} and lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}, if $X$ is an Omega-spectrum then each stage $\Omega^k X[k] \to \Omega^{k+n} X[k+n]$ is in $W_{strict}$. Hence $i_X$ is componentwise a [[mapping telescope]] over [[weak homotopy equivalences]]. Since the [[n-spheres]] are small objects with respect to cell attachments ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) each [[homotopy group]] is represented at a finite stage
-
-$$
-  \begin{aligned}
-    \pi_q( \underset{\longrightarrow}{\holim}_n( (\Omega^n X[n])_k ))
-    & \simeq
-    \pi_q( \underset{\longrightarrow}{\holim}_n( \Omega^n X_{k+n} ))
-    \\
-    & \simeq
-    \underset{\longrightarrow}{\lim}_n (\pi_q \Omega^n X_{k+n})
-    \\
-    & \simeq
-    \underset{\longrightarrow}{\lim}_n (\pi_{q+n} X_{k+n})
-  \end{aligned}
-  \,.
-$$
-
-Since by lemma \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence} the components of $i_X \colon X \to Q X$ are given by the iterations of the adjunct structure maps, the claim follows with remark \ref{StableHomotopyGroupsOfOmegaSpectrum}.
-
-The second claim follows with the same kind of reasoning.
-
-=--
 
 +-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
 ###### Proposition
@@ -2787,51 +2866,51 @@ Every [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivale
 +-- {: .proof}
 ###### Proof
 
-Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the first item of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism
+Let $E$ be an Omega-spectrum (def. \ref{OmegaSpectrum}). Then by the third item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, for every $X$ the morphism
 
 $$
-  [X,i_E]_{strict}
+  [X,j_E]_{strict}
     \;\colon\; 
   [X,E]_{strict} 
     \longrightarrow 
   [X, Q E]_{strict}
 $$
 
-is an isomorphism. Since $i_{(-)}$ is a [[natural transformation]] (by def. \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
+is an isomorphism. Since $j_{(-)}$ is a [[natural transformation]] (by def. \ref{SpectrificationForTopologicalSequentialSpectra}), the naturality squares give a factorization of this morphism as
 
 $$
-  [X,i_E]_{strict}
+  [X,j_E]_{strict}
     \;\colon\;
   [X,E]_{strict} 
     \stackrel{Q}{\longrightarrow}
   [Q X, Q E]_{strict}
-    \stackrel{[i_X,E]_{strict}}{\longrightarrow}
+    \stackrel{[j_X,E]_{strict}}{\longrightarrow}
   [X, Q]_{strict}  
   \,.
 $$
 
-Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra},
+Combining this with vertical morphisms as below, which are isomorphisms again by item 3 of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra},
 
 $$
   \array{
      &
       &&
     [Q X, E]_{strict}
-      &\stackrel{[i_X, E]_{strict}}{\longrightarrow}&
+      &\stackrel{[j_X, E]_{strict}}{\longrightarrow}&
     [X, E]_{strict}  
     \\
     & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, i_E]_{strict}}} 
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[Q X, j_E]_{strict}}} 
      && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, i_E]_{strict}}}
+    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X, j_E]_{strict}}}
     \\
-    [X, i_E]_{strict}
+    [X, j_E]_{strict}
       \;\colon\;
      &
     [X,E]_{strict} 
       &\stackrel{Q}{\longrightarrow}&
     [Q X, Q E]_{strict}
-      &\stackrel{[i_X, Q E]_{strict}}{\longrightarrow}&
+      &\stackrel{[j_X, Q E]_{strict}}{\longrightarrow}&
     [X, Q E]_{strict}  
   }
 $$
@@ -2843,7 +2922,7 @@ $$
   \,,
 $$ 
 
-which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $i_{(-)}$). This naturality now implies a retraction of morphisms
+which is natural in $X$ (that the bottom and right composite is indeed the identity is again due to the naturality of $j_{(-)}$). This naturality now implies a retraction of morphisms
 
 $$
   \array{
@@ -2858,7 +2937,7 @@ $$
   \,.
 $$
 
-Finally, by the second item of lemma \ref{PropertiesOfAlmostSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
+Finally, by the fourth item of lemma \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([prop.](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f$ is a stable equivalence.
 
 
 =--
