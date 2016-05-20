@@ -1397,7 +1397,7 @@ Here we discuss model structures for plain spectra, [below](ModelStructuresOnRin
 +-- {: .num_theorem #StableModelStructuresOnDiagramSpectra}
 ###### Theorem
 
-The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} exist, to be called the _stable model structures_. 
+The [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} at the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} exists, to be called the _stable model structures_. 
 
 Explicitly, there is a model structure $\mathbb{S}_{dia} Mod_{stable}$ whose
 
@@ -1511,7 +1511,7 @@ $$
   K 
   \coloneqq
   F J
-  \;\cup\;
+  \;\sqcup\;
   \{
     k_n \Box i_+
   \}_{{n \in \mathbb{N}} \atop {i \in I}}
@@ -1926,7 +1926,7 @@ In the case $Dia \in \{Top^{\ast/}, Orth, Seq\}$, hence for [[sequential spectra
 
 By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrations}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
 
-Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore stable weak homotopy equivalences. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, as stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their pushout products $k_n \Box i$. 
+Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore [[stable weak homotopy equivalences]]. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their [[pushout products]] $k_n \Box i$. 
 
 =--
 
