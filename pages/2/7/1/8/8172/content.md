@@ -421,14 +421,16 @@ There are two $E$-Adams resolutions that we will consider. Following ([Hopkins 9
 ###### Example
 **(normalized $E$-Adams resolution)**
 
-Let $\overline{E}$ denote the [[homotopy cofiber]] of the unit of the ring spectrum $E$, fitting into a [[homotopy fiber sequence]]
+Let $\overline{E}$ denote the [[homotopy fiber]] of the unit of the ring spectrum $E$, fitting into a [[homotopy fiber sequence]]
 
 $$
+  \overline{E}
+    \longrightarrow
   \mathbb{S}
     \overset{e}{\longrightarrow}
   E
     \longrightarrow  
-  \overline{E}
+  \Sigma \overline{E}
   \,.
 $$
 
@@ -440,17 +442,17 @@ $$
       &\overset{(e,id)}{\longrightarrow}& 
     E \wedge X 
       && \longrightarrow  && 
-    E \wedge \overline{E} \wedge X
+    E \wedge (\Sigma \overline{E}) \wedge X
       && \longrightarrow &&
-    E \wedge \overline{E} \wedge \overline{E} \wedge X
+    E \wedge (\Sigma \overline{E}) \wedge (\Sigma \overline{E}) \wedge X
       && \longrightarrow &&
     \cdots
     \\
     && & \searrow && \nearrow_{\mathrlap{(e,id)}}
     &&    \searrow && \nearrow_{\mathrlap{(e,id)}}
     \\
-    && && \overline{E}\wedge X
-    &&&&  \overline{E} \wedge \overline{E} \wedge X
+    && && (\Sigma \overline{E})\wedge X
+    &&&&  (\Sigma \overline{E}) \wedge \overline{E} \wedge X
   }
 $$
 
@@ -462,7 +464,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Beware that some authors (e.g. [Bousfield 79](#Bousfield79)) denote by $\overline{E}$ not the homotopy cofiber (as in def. \ref{NormalizedEResolution}) but the homotopy fiber of $\mathbb{S} \to E$. The two conventions are related by suspension/looping.
+The notation for $\overline{E}$ in def. \ref{NormalizedEResolution} follows ([Bousfield 79, section 5](#Bousfield79)). In ([Hopkins 99](#Hopkins99)) the same notation is used not for the homotopy fiber but for the homotopy cofiber. While our notation makes plenty of "$\Sigma$"s appear in the above resolution, the advantage is that in the induced inverse sequence of a normalized resolution below in example \ref{NormalizedEResolutionAssociatedSequence} these all drop out and we are left with the original form of the expressions as considered by ([Adams 74](#Adams74)) and followed in most of the literature. 
 
 =--
 
@@ -563,6 +565,7 @@ Moreover, the terms in the sequence are all $E$-injective by lemma \ref{EInjecti
 
 =--
 
+##### $E$-Adams towers
 
 +-- {: .num_defn #EAdamsTower}
 ###### Definition
@@ -661,7 +664,7 @@ $$
     && && && {}_{\mathllap{\rho_2}}\searrow
     && \nearrow_{\mathrlap{\sigma_2}}
     \\
-    X && && && && C_2
+    C_0 \coloneqq X && && && && C_2
   }
 $$
 
@@ -689,33 +692,91 @@ There is another tower associated with an $E$-Adams resolutions:
 Given an $E$-Adams resolutions $X \to I_\bullet$ (def. \ref{EAdamsResolution}), its **associated inverse sequence** is 
 
 $$
-  X 
-    = 
-  X_0 
-    \stackrel{\gamma_0}{\longleftarrow} 
-  \Sigma^{-1} C_1 
-    \stackrel{\gamma_1}{\longleftarrow} 
-  \Sigma^{-2} C_2 
-    \longleftarrow 
-  \cdots
+  \array{
+    X 
+      = 
+    C_0
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \Sigma^{-1} C_1 
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \Sigma^{-2} C_2 
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    I_0 && \Sigma^{-1} I_1 && ^\Sigma^{-2} I_2
+  }
 $$
 
 with the $C_i$ as in the proof of prop. \ref{RelationBetweenEAdamsTowersAndEAdamsResolutions} and 
-$\gamma_n \coloneqq \Sigma^{-1} hofib(\sigma_n)$.
-
-
+$\gamma_n \coloneqq \Sigma^{-} hofib(\sigma_n)$.
 
 =--
 
++-- {: .num_example #NormalizedEResolutionAssociatedSequence}
+###### Example
+
+Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a _normalized $E$-Adams resolution_ according to example \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is 
+
+
+$$
+  \array{
+    X 
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \overline{E} \wedge X
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \overline{E} \wedge \overline{E} \wedge X
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    E \wedge X 
+      && 
+    \Sigma^{-1}(E \wedge (\Sigma \overline{E}) \wedge X)
+      && 
+    \Sigma^{-2}(E \wedge (\Sigma\overline{E}) \wedge (\Sigma \overline{E}) \wedge X
+  }
+$$
+
+hence
+
+$$
+  \array{
+    X 
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \overline{E} \wedge X
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \overline{E} \wedge \overline{E} \wedge X
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    E \wedge X 
+      && 
+    E \wedge \overline{E} \wedge X
+      && 
+    E \wedge \overline{E} \wedge \overline{E} \wedge X
+  }
+  \,.
+$$
+
+This is the tower of spectra considered in the original texts ([Adams 74, p. 318](#Adams74)) and ([Bousfield 79, p. 271](#Bousfield79)).
+
+=--
 
 
 +-- {: .num_remark}
 ###### Remark
 
-In ([Ravenel 86, def. 2.21](#Ravenel86)) it is the associated inverse sequence (of def. \ref{EAdamsTower}) that is called an $E$-Adams resolution.
+In ([Ravenel 86, def. 2.21](#Ravenel86)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using that term for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, and ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
 
 =--
 
+
+##### $E$-Adams spectral sequences
 
 
 +-- {: .num_defn #EAdamsSpectralSequence}
@@ -744,7 +805,6 @@ $$
     I_1
   }
 $$
-
 
 then the corresponding **$E$-Adams spectral sequence** for the [[mapping spectrum]] $[Y,X]$ is the associated [[spectral sequence of a tower of fibrations]] of the image of that [[tower of fibrations]] under the [[mapping spectrum]] operation $[Y,-]$:
 
@@ -835,7 +895,25 @@ The _$E$-Adams spectral sequence_ of the $E$-Adams tower is the [spectral sequen
 +-- {: .num_prop #UniquenessOfEAdamsSpectralSequence}
 ###### Proposition
 
-Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on
+Given two $E$-Adams towers, def. \ref{EAdamsTower}, for some $X$, then the corresponding two $E$-Adams spectral sequences, def. \ref{EAdamsSpectralSequence}, are [[isomorphism|isomorphic]] from the $\mathcal{E}_2$-page on.
+
+=--
+
++-- {: .num_prop #TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}
+###### Proposition
+
+Given an $E$-Adams resolution (def. \ref{EAdamsResolution}), there is an [[isomorphism]] of spectral sequences between 
+
+1. the [[tower spectral sequence]] of its associated $E$-Adams tower (def. \ref{EAdamsTower}), i.e. the spectral sequence of def. \ref{EAdamsSpectralSequence};
+
+1. the [[tower spectral sequence]] of its associated inverse sequence (def. \ref{AssociatedInverseSequence}).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Hence both of these construction are to be called the $E$-Adams spectral sequence. It is in fact the second construction -- for the case of the normalized resolution as in example \ref{NormalizedEResolutionAssociatedSequence} -- that is considered in the original sources ([Adams 74, p. 318](#Adams74), [Bousfield 79, p. 271](#Bousfield79)). But it is the first construction that relates to the totalization tower of the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$.
 
 =--
 
@@ -1778,7 +1856,7 @@ With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 
 ... [[converges conditionally]] to the [[E-nilpotent completion]]
 
-([Ravenel 84](#Ravenel84))...
+([Bousfield 79, section 5 and 6](#Bousfield79), [Ravenel 84](#Ravenel84))...
 
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
