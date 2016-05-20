@@ -19,7 +19,23 @@
 
 ## Idea
 
-What is called _Thom's theorem_ ([Thom 54](#Thom54)) states that the [[homotopy group of a spectrum|homotopy groups]] of the universal [[Thom spectrum]] $M O$ form the [[cobordism ring]], and that the identification is exhibited by the [[Pontryagin-Thom construction]] (see [here](https://ncatlab.org/nlab/show/Pontrjagin-Thom+collapse+map#ForEmbeddingsIntoAnNSphere)).
+What is called _Thom's theorem_ or the _Pontrjagin-Thom isomorphism_ (due to [Thom 54](#Thom54)) states that for a given universal [[G-structure]] the [[homotopy group of a spectrum|homotopy groups]] of the universal [[Thom spectrum]] $M G$ form the [[cobordism ring]]
+
+$$
+  \Omega^G_\bullet \simeq \pi_\bullet(M G)
+$$
+
+and that this [[isomorphism]] is exhibited by the [[Pontryagin-Thom construction]] (see [here](Pontrjagin-Thom+collapse+map#ForEmbeddingsIntoAnNSphere)).
+
+More generally, for $X$ a [[topological space]] then the group of $G$-bordism classes of $G$-manifolds in $X$ is isomorphic to the [[generalized homology]] of $X$ with [[coefficients]] in $M G$:
+
+$$
+  \Omega^G_\bullet(X)
+   \simeq
+  \pi_\bullet( M G \wedge X_+)
+   \simeq
+  M G_\bullet(X)
+$$
 
 ## Related entries
 
@@ -46,6 +62,8 @@ Further lecture notes include
 * {#Malkiewich11} [[Cary Malkiewich]], section 3 of _Unoriented cobordism and $M O$_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
 * Tom Weston, Part I of _An introduction to cobordism theory_ ([pdf](http://people.math.umass.edu/~weston/oldpapers/cobord.pdf)) 
+
+* [[Manifold Atlas]], _[The Pontrjagin-Thom isomorphism](http://www.map.mpim-bonn.mpg.de/B-Bordism#The_Pontrjagin-Thom_isomorphism)_
 
 
 [[!redirects Thom theorem]]
