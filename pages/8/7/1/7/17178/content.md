@@ -26,7 +26,7 @@ This is the original definition of _[[spectrum]]_ (or pre-spectrum) and still th
 
 In what follows, [[sSet]] denotes the [[category]] of [[simplicial sets]] and $sSet^{\ast/}$ the category $\ast/sSet$ of [[pointed objects|pointed]] simplicial sets (the [[undercategory]] under the [[terminal object]] $\ast$), which may be thought of as a possible base of [[enriched category|enrichment]]. 
 
-+-- {: .num_defn #Spectra}
++-- {: .num_defn #SequentialSpectra}
 ###### Definition
 
 A _sequential_ [[pre-spectrum]] in [[simplicial sets]], is an $\mathbb{N}$-[[graded object|graded]] [[pointed object|pointed]] [[simplicial set]] $X_\bullet$ equipped with morphisms $\sigma_n \colon S^1 \wedge X_n \to X_{n+1}$ for all $n \in \mathbb{N}$, where $S^1 \coloneqq \Delta[1]/\partial\Delta[1]$ is the minimal simplicial [[circle]], and where $\wedge$ is the [[smash product]] of [[pointed objects]].
@@ -70,7 +70,7 @@ $$
 +-- {: .num_prop #SimplicialEnrichment}
 ###### Proposition
 
-The category $SeqSpec$ of def. \ref{Spectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
+The category $SeqSpec$ of def. \ref{SequentialSpectra} becomes a [[simplicially enriched category]] (in fact an $sSet^{\ast/}$-[[enriched category]]) with [[hom objects]] $[X,Y]\in sSet$ given by
 
 $$
   [X,Y]_n \coloneqq Hom_{SeqSpec(sSet)}(X\wedge \Delta[n]_+,Y)
@@ -82,7 +82,7 @@ $$
 +-- {: .num_defn #OmegaSpectrum}
 ###### Definition
 
-An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{Spectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahv$pointed-hom [[adjuncts]]
+An _[[Omega-spectrum]]_ in the following is a sequential prespectrum $X$, def. \ref{SequentialSpectra}, such that after [[geometric realization]]/[[Kan fibrant replacement]] ${\vert -\vert}$ the smash$\dahv$pointed-hom [[adjuncts]]
 
 $$
   {\vert X_n\vert} \stackrel{}{\longrightarrow} {\vert X^{n+1}\vert}^{{\vert S^1\vert}}
@@ -184,8 +184,115 @@ Prop. \ref{SequentialSpectraAsDiagramSpectra} is a special case of a more genera
 
 ## Properties
 
-### Tensoring and powering over pointed spaces
+### Limits and colimits
 
++-- {: .num_prop #LimitsAndColimitsOfSequentialSpectra}
+###### Proposition
+
+The category $SeqSpec(Top_{cq})$ of sequential spectra (def. \ref{SequentialSpectra}) has all [[limits]] and [[colimits]], and they are computed objectwise: 
+
+Given
+
+$$
+  X_\bullet
+    \;\colon\;
+  I
+    \longrightarrow
+  SeqSpec(Top_{cg})
+$$
+
+a [[diagram]] of sequential spectra, then:
+
+1. its colimiting spectrum has component spaces the colimit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longrightarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longrightarrow}{\lim}_i X(i)_n
+      \,,
+   $$
+
+1. its limiting spectrum has component spaces the limit of the component spaces formed in $Top_{cg}$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop) and [this corollary](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)):
+
+   $$
+     (\underset{\longleftarrow}{\lim}_i X(i))_n
+     \simeq
+      \underset{\longleftarrow}{\lim}_i X(i)_n
+      \,;
+   $$
+
+moreover:
+
+1. the colimiting spectrum has structure maps in the sense of def. \ref{SequentialSpectra} given by
+
+   $$
+     S^1 \wedge (\underset{\longrightarrow}{\lim}_i X(i)_n)
+     \simeq
+     \underset{\longrightarrow}{\lim}_i ( S^1 \wedge X(i)_n )
+     \overset{\underset{\longrightarrow}{\lim}_i \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longrightarrow}{\lim}_i X(i)_{n+1}
+   $$
+
+   where the first isomorphism exhibits that $S^1 \wedge(-)$ preserves all colimits, since it is a [[left adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory};
+
+1. the limiting spectrum has adjunct structure maps in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} given by
+
+   $$
+     \underset{\longleftarrow}{\lim}_i X(i)_n
+      \overset{\underset{\longleftarrow}{\lim}_i \tilde \sigma_n^{X(i)}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_i Maps(S^1, X(i)_n)_\ast 
+     \simeq
+     Maps(S^1, \underset{\longleftarrow}{\lim}_i X(i)_n)_\ast
+   $$
+
+   where the last isomorphism exhibits that $Maps(S^1,-)_\ast$ preserves all limits, since it is a [[right adjoint]] by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the limits and colimits exist and are computed objectwise follows via prop. \ref{SequentialSpectraAsDiagramSpectra} from the general statement for categories of topological functors ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits)). But it is also immediate to directly check the [[universal property]].
+
+=--
+
++-- {: .num_example #WedgeSumOfSpectra}
+###### Example
+
+The [[coproduct]] of [[spectra]] $X, Y \in SeqSpec(Top_{cg})$, called the **wedge sum of spectra** 
+
+$$
+  X \vee Y
+    \coloneqq
+  X \sqcup Y
+$$
+
+is componentwise the [[wedge sum]] of pointed topological spaces ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeSumAsCoproduct))
+
+$$
+  (X \vee Y)_n
+  =
+  X_n \vee Y_n
+$$
+
+with structure maps
+
+$$
+  \sigma_n^{X \vee Y}
+    \;\colon\;
+  S^1 \wedge (X \vee Y)
+    \simeq
+  S^1 \wedge X \,\vee\, S^1 \wedge Y
+    \overset{(\sigma_n^X, \sigma_n^Y)}{\longrightarrow}
+  X_{n+1} \vee Y_{n+1}
+  \,.
+$$
+
+
+=--
+
+
+### Tensoring and powering over pointed spaces
 
 The following defines [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
 
@@ -634,7 +741,7 @@ The [[smash product of spectra]] realized on sequential spectra never has good p
 +-- {: .num_defn #SmashProductByDoublingDegrees}
 ###### Definition
 
-For $X,Y$ two sequential spectra, def. \ref{Spectra}, their smash product $X \wedge Y$ is the sequential spectrum which in even degrees is given by the [[smash product]] fo the pointed component spaces of half that degree
+For $X,Y$ two sequential spectra, def. \ref{SequentialSpectra}, their smash product $X \wedge Y$ is the sequential spectrum which in even degrees is given by the [[smash product]] fo the pointed component spaces of half that degree
 
 $$
   (X\wedge Y)_{2n} \coloneqq X_n \wedge Y_n
