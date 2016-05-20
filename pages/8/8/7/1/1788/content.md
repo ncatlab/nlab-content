@@ -1,97 +1,71 @@
 
-
-+-- {: .num_defn #TubularNeighbourhood}
-###### Definition
-
-For $X$ a [[smooth manifold]] and $i \colon X \hookrightarrow \mathbb{R}^k$ an [[embedding]], then a **[[tubular neighbourhood]]** of $X$ is a subset of the form
-
 $$
-  \tau_i X
-  \coloneqq
-  \left\{
-    x \in \mathbb{R}^k \;\vert\; d(x,i(X)) \lt \epsilon
-  \right\}
-$$
-
-for some $\epsilon \in \mathbb{R}$, $\epsilon \gt 0$, small enough such that the map 
-
-$$
-  N_i X \longrightarrow \tau_i X
+  \array{
+    X 
+      = 
+    C_0
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \Sigma^{-1} C_1 
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \Sigma^{-2} C_2 
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    I_0 && \Sigma^{-1} I_1 && \Sigma^{-2} I_2
+  }
 $$
 
-from the [[normal bundle]] (def. \ref{ClassifyingMapOfNormalBundle}) given by
++-- {: .num_example #NormalizedEResolution}
+###### Example
+
+Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a normalized $E$-Adams resolution according to def. \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is 
+
 
 $$
-  (i(x),v) \mapsto (i(x), \epsilon (1-e^{- {\vert v\vert}}) v )
+  \array{
+    X 
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \overline{E} \wedge X
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \overline{E} \wedge \overline{E} \wedge X
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    E \wedge X 
+      && 
+    \Sigma^{-1}(E \wedge (\Sigma \overline{E}) \wedge X)
+      && 
+    \Sigma^{-2}(E \wedge (\Sigma\overline{E}) \wedge (\Sigma \overline{E}) \wedge X
+  }
 $$
 
-is a [[diffeomorphism]]. 
+hence
+
+$$
+  \array{
+    X 
+      &\stackrel{\gamma_0}{\longleftarrow}&
+    \overline{E} \wedge X
+      &\stackrel{\gamma_1}{\longleftarrow}&
+    \overline{E} \wedge \overline{E} \wedge X
+      &\longleftarrow&
+    \cdots
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    E \wedge X 
+      && 
+    E \wedge \overline{E} \wedge X)
+      && 
+    E \wedge \overline{E} \wedge \overline{E} \wedge X
+  }
+  \,.
+$$
+
+This is the tower of spectra considered in the original texts ([Adams 74, p. 318](#Adams74)) and ([Bousfield 79, p. 271](#Bousfield79)).
 
 =--
-
-+-- {: .num_remark #IngredientsOfPontrjaginThomConstruction}
-###### Remark
-
-Given an embedding $i \colon X \hookrightarrow \mathbb{R}^k$ with a tubuluar neighbourhood $\tau_i X \hookrigtharrow \mathbb{R}^k$ (def. \ref{TubularNeighbourhood}) then by construction:
-
-1. the [[Thom space]] (def. \ref{ThomSpace}) of the [[normal bundle]] (def. \ref{ClassifyingMapOfNormalBundle}) is [[homeomorphism|homeomorphic]] to the [[quotient topological space]] of the [[topological closure]] of the tubular neighbourhood by its [[boundary]]:
-
-   $Th(N_i(X)) \simeq \overline{ \tau_i(X)}/\partial \overline{\tau_i(X)}$;
-
-1. there exists a continous function
-
-   $$
-     \mathbb{R}^k 
-       \longrightarrow 
-     \overline{ \tau_i(X)}/\partial \overline{\tau_i(X)}
-   $$
-
-   which is the identity on $\tau_i(X)\subset \mathbb{R}^k$ and is constant on the basepoint of the quotient on all other points.
-
-=--
-
-+-- {: .num_defn #PontrjaginThomConstruction}
-###### Definition
-
-For $X$ a [[smooth manifold]] of [[dimension]] $n$ and for $i \colon X \hookrightarrow \mathbb{R}^k$ an [[embedding]], then the **[[Pontrjagin-Thom collapse map]]** is, for any choice of [[tubular neighbourhood]] $\tau_i(X)\subset \mathbb{R}^k$ (def. \ref{TubularNeighbourhood}) the composite map of [[pointed topological spaces]]
-
-$$
-  S^k
-    \overset{\simeq}{\to}
-  (\mathbb{R}^k)^\ast
-    \longrightarrow
-  \overline{ \tau_i(X)}/\partial \overline{\tau_i(X)}
-   \overset{\simeq}{\to}
-  Th(N_i X)
-$$
-
-where the first map identifies the [[n-sphere|k-sphere]] as the [[one-point compactification]] of $\mathbb{R}^k$; and where the second and third maps are those of remark \ref{IngredientsOfPontrjaginThomConstruction}.
-
-The **Pontrjagin-Thom construction** is the further composite
-
-$$
-  \xi_i
-  \;\colon\;
-  S^k 
-   \longrightarrow
-  Th(N_i X)
-   \overset{Th(g_i)}{\longrightarrow}
-  Th( E O(k-n) \underset{O(k-n)}{\times} \mathbb{R}^{k-n} )
-    \simeq
-  (M O)_{k-n}
-$$
-
-with the image under the [[Thom space]] construction of the classifying map $g_i$ of the normal bundle (def. \ref{ClassifyingMapOfNormalBundle}).
-
-This defines an element 
-
-$$
-  [S^{n+(k-n)} \overset{\xi_i}{\to} (M O)_{k-n}]
-    \in 
-  \pi_{n} M O
-$$
-
-in the $n$th [[stable homotopy group]] of the [[Thom spectrum]].
-
-=--
-
