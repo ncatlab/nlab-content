@@ -1867,6 +1867,158 @@ Here the second equivalence is the cofree/forgetful adjunction isomorphism of pr
 
 With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of theorem \ref{SecondPageOfEAdamsSpectralSequence} is completed.
 
+#### Convergence
+
+
++-- {: .num_defn #ENilpotentCompletion}
+###### Definition
+
+For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
+
+$$
+  \overline{E}^{\wedge^\bullet} \wedge X
+  =
+  \left( X \leftarrow \overline{E}\wedge X \leftarrow \overline{E} \wedge \overline{E} \wedge X \leftarrow \cdots
+  \right)
+$$
+
+associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. The **[[E-nilpotent completion]]** $E^{\hat{}} X$ of $X$ is the [[homotopy limit]] over the sequence of [[homotopy cofibers]] of this tower:
+
+$$
+  E\hat{}X
+    \coloneqq
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots
+    \to
+    cofib(\overline{E}\wedge \overline{E}\wedge X)
+    \to
+    cofib(\overline{E}X \to X)
+    \to
+    0
+  \right)
+  \,.
+$$
+
+This exists and comes with a canonical morphism $X \to E\hat{}X$.
+
+=---
+
+([Bousfield 79, prop. 5.5](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
+
+
+([Ravenel 84, example 1.16](#Ravenel84)
+
+
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+There is a canonical map
+
+$$
+  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
+
+
+=--
+
+We consider now conditions for this morphism to be an [[equivalence]].
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _core_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}_n$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X \stackrel{\simeq}{\longrightarrow} 
+  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  \,.
+$$
+
+=--
+
+([Bousfield 79](#Bousfield79)).
+
++-- {: .num_examples #ExamplesOfEnilpotentLocalizations}
+###### Example
+
+* $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is its [[p-completion]]
+
+  $$
+    (H\mathbb{F}_p)\hat{}X
+    \simeq
+    X^{\hat{}}_p 
+    \coloneqq
+    \underset{\longleftarrow}{\lim}_{n \in \mathbb{N}}
+    X  \wedge M(\mathbb{Z}/p^n)
+  $$
+
+  (where $M A$ denotes the [[Moore spectrum]] of the [[abelian group]] $A$).
+
+* $E = $ [[MU]]. Every spectrum is alreay $MU$-nilpotently complete 
+
+  $$
+    MU\hat{}X \simeq X
+    \,.
+  $$
+
+* $E = $ [[BP]] at prime $p$. For every spectrum $X$ its $BP$-nilpotent completion is its [[p-localization]] 
+
+  $$
+    BP\hat{}X \simeq X_{(p)} \coloneqq X \wedge M \mathbb{Z}_{(p)}
+  $$
+
+  (where $\mathbb{Z}_{(p)}\subset \mathbb{Q}$ is the result of inverting all primes different from $p$).
+
+=--
+
+
++-- {: .num_theorem #ConvergenceOfEAdamsSpectralSequenceToECompletion}
+###### Theorem
+
+For $X$ a [[spectrum]] and $E$ a [[ring spectrum]], consider [[generalized the|the]] $E$-Adams spectral sequence $\{\mathcal{E}_r^{\bullet,\bullet}, d_r\}$ of $X$ (def. \ref{EAdamsSpectralSequence}, prop. \ref{UniquenessOfEAdamsSpectralSequence}, prop. \ref{TowerSpectralSequencesOfAdamsTowerAndInverseSequenceCoincide}). If for each $s,t$ there is $r$ such that
+
+$$
+  \mathcal{E}_r^{s,t} \simeq \mathcal{E}_\infty^{s,t}
+$$
+
+then the $E$-Adams spectral sequence converges strongly ([def.](spectral+sequence#Convergence)) to the [[stable homotopy groups]] of the [[E-nilpotent completion]] of $X$ (def. \ref{ENilpotentCompletion}):
+
+$$
+  \mathcal{E}_1^{s,t} \;\Rightarrow\;  \pi_\bullet(E\hat{}X)
+  \,.
+$$
+
+=--
+
+([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
 
 ### **2.2)** Examples
  {#ExamplesOfAdamsSpectralSequences}
@@ -1874,8 +2026,38 @@ With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 
 We here consider examples applying the general theory of $E$-[[Adams spectral sequences]] [above](#TheoryforAdamsSpectralSequences) in special cases to the concrete computation of certain stable homotopy groups. 
 
-#### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
++-- {: .num_example}
+###### Examples
 
+* For $X = \mathbb{S}$ and $E = H\mathbb{F}_p$, then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+
+  $$
+    Ext_{\mathcal{A}^\ast_p}(\mathbb{F}_p, \mathbb{F}_p)
+    \;\Rightarrow\;
+    \pi_\bullet(\mathbb{S})\otimes Z^\wedge_p
+    \,.
+  $$
+
+  This is the _[[classical Adams spectral sequence]]_.
+
+* For $X = \mathbb{S}$ and $E = $ [[MU]], then theorem \ref{SecondPageOfEAdamsSpectralSequence} and theorem \ref{ConvergenceOfEAdamsSpectralSequenceToECompletion} with example \ref{ExamplesOfEnilpotentLocalizations} gives a spectral sequence
+
+  $$
+    Ext_{MU_\ast(MU)}(MU_\ast, MU_\ast)
+    \;\Rightarrow\;
+    \pi_\bullet(\mathbb{S})
+    \,.
+  $$
+
+  This is the _[[Adams-Novikov spectral sequence]]_.
+
+
+=--
+
+
+
+
+#### The case $E = H \mathbb{F}_2$ and $X = \mathbb{S}$
 
 This is the _[[classical Adams spectral sequence]]_ for computation of 2-primary parts of the [[stable homotopy groups of spheres]]...
 
@@ -2625,6 +2807,11 @@ For the general convergence results one still goes back to the originals
 * {#Adams74} [[Frank Adams]], section III.15 of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
 * {#Bousfield79} [[Aldridge Bousfield]], sections 5 and 6 of _The localization of spectra with respect to homology_, Topology 18 (1979), no. 4, 257--281. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/bousfield-topology-1979.pdf))
+
+A concise review is in 
+
+* {#Ravenel84} [[Douglas Ravenel]], section 1 of _Localization with respect to certain periodic homology theories_, American Journal of Mathematics, Vol. 106, No. 2, (Apr., 1984), pp. 351-414 ([pdf](https://www.math.rochester.edu/people/faculty/doug/mypapers/loc.pdf))
+
 
 For the special case of the [[classical Adams spectral sequence]] and the [[Adams-Novikov spectral sequence]] we follow
 
