@@ -72,7 +72,7 @@ finite-dimensional Lie group $G$ over real or complex numbers is canonically iso
 
 * [[N. Bourbaki]], _Lie groups and Lie algebras_
 
-* [[Jacques Dixmier]], _Enveloping algebras_, Graduate Studies in Mathematics 11, Amer. Math. Soc. 
+* [[Jacques Dixmier]]; 1974; _[[Algèbres enveloppantes]]; Cahiers Scientifique. English translation: 1996; _Enveloping Algebras_; Graduate Studies in Mathematics 11, American Mathematical Society.
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
