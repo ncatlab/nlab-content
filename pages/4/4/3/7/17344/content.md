@@ -698,7 +698,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #TwoVersionsOfComponentsForStableHomotopyGroupsAgree}
 ###### Proposition
 
 The two component morphisms given in def. \ref{StableHomotopyGroups} indeed agree.
@@ -818,8 +818,7 @@ $$
 +-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
 ###### Example
 
-If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, 
-then its colimiting [[stable homotopy groups]], def. \ref{StableHomotopyGroups}, are attained as the actual homotopy groups of its components, in that:
+If a [[sequential spectrum]] $X$ is an [[Omega-spectrum]], def. \ref{OmegaSpectrum}, then its colimiting [[stable homotopy groups]] reduce to the actual homotopy groups of the component spaces, in that:
 
 $$
   X \; \text{Omega-spectrum}
@@ -845,9 +844,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The second of the two equivalent versions of the component morphisms in def. \ref{StableHomotopyGroups} makes manifest that if $\tilde \sigma_n$ is a weak homotopy equivalence, so that $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)), then the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
+For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ are [[weak homotopy equivalences]], by definition, hence are classical weak equivalences. Hence $[S^1, \tilde \sigma_n]_\ast$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)). Therefore, by prop. \ref{TwoVersionsOfComponentsForStableHomotopyGroupsAgree}, the [[sequential colimit]] in def. \ref{StableHomotopyGroups} is entirely over isomorphisms and hence is given already by the first object of the sequence.
 
 =--
+
 
 ##### As topological diagrams
 
@@ -2209,7 +2209,7 @@ $$
   \}_{{n \in \mathbb{N}} \atop {i_+ \in I_{Top^{\ast/}}}}
 $$
 
-for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict} with the set of [[pushout-products]] (under [[tensoring]]) of the morphisms $k_n$ from def. \ref{FreeSequentialSpectra} with the generating cofibrations of the [[classical model structure on pointed topological spaces]].
+for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict} with the set of [[pushout-products]] (under [[smash product|smash]] [[tensoring]], def. \ref{TensoringAndPoweringOfSequentialSpectra}) of the morphisms $k_n$ from def. \ref{FreeSequentialSpectra} with the generating cofibrations of the [[classical model structure on pointed topological spaces]].
 
 =--
 
