@@ -2460,13 +2460,15 @@ The [[spectrum]]-level discussion of the ASS goes back to around
 
 * R. M. F. Moss, _On the composition pairing of Adams spectral sequences_, Proceedings of the London Mathematical Society 3.1 (1968): 179-192.
 
-A streamlined presentation of this close in spirit to constructions in [[homological algebra]] was given in
+A streamlined presentation of this which is close in spirit to constructions in [[homological algebra]] was given in
 
 * {#Miller81} [[Haynes Miller]], _On relations between Adams spectral sequences, with an application to the stable homotopy of a Moore space_, J. Pure Appl. Algebra 20 (1981) ([pdf](http://math.mit.edu/~hrm/papers/miller-relations-between-adams-spectral-sequences.pdf))
 
-and is reproduced in 
+further highlighted in 
 
 * {#Hopkins99} [[Mike Hopkins]], section 5 of _[[Complex oriented cohomology theories and the language of stacks]]_, course notes 1999 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
+
+and worked out in some more detail in
 
 * {#Aramian} [[Nersés Aramian]], _The Adams spectral sequence_ ([[AramianANSS.pdf:file]])
 
