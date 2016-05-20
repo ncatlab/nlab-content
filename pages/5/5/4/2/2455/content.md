@@ -3,9 +3,9 @@
 
 ***
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Definition
 
@@ -19,3 +19,6 @@ where $\tau=\tau_{A,A}$ is the symmetry $A\otimes A\to A\otimes A$.
 
 The enveloping monoid is sometimes called the __enveloping algebra__, especially if the monoidal category is a category of vector spaces. The left $A^e$-modules in $C$ are in 1-1 correspondence with the $A$-$A$-bimodules in $C$.
 
+
+[[!redirects enveloping algebra]]
+[[!redirects enveloping algebras]]
