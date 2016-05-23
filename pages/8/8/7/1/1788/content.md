@@ -1,41 +1,15 @@
-Let $f \colon X \to Y$ be a stable cofibration that is also a stable weak homotopy equivalence, and let $g \colon X \to X'$ be any morphism. Consider the [[pushout]] diagram 
-
 $$
-  \array{
-     X &\overset{f}{\longrightarrow}& Y &\longrightarrow& cof(f)
-     \\
-     {}^{\mathllap{g}}\downarrow 
-       &(po)& 
-     \downarrow
-       &&
-     \downarrow^{\mathrlap{\simeq}}
-     \\
-     X' &\underset{g_\ast f}{\longrightarrow}& Y' &\longrightarrow& cof(g_\ast f)
-  }
+  \begin{aligned}
+    \underset{\longrightarrow}{\lim}_{i} \Omega Z_{i,k}
+      & =
+    \underset{\longrightarrow}{\lim}_{i} Maps(S^1, Z_{i,k})_\ast
+    \\
+    & \simeq
+    Maps(S^1, \underset{\longrightarrow}{\lim}_i Z_{i,k} )_\ast
+    \\
+     & =  \Omega \underset{\longrightarrow}{\lim}_i Z_{i,k}
+    \\
+    & \simeq \Omega Q X
+  \end{aligned}
   \,.
 $$
-
-The induced map on [[cofibers]] on the right is an isomorphism by the [[pasting law]]. Since $f$ is a cofibration, so is its pushout $g_\ast f$ (by the model structure), and hence both these cofibers are actually [[homotopy cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)). Hence by prop. \ref{LongExactSequenceOfStableHomotopyGroups} there is a diagram of [[stable homotopy groups]] of the form
-
-$$
-  \array{
-     \pi_{\bullet+1}(cof(f))
-     &\longrightarrow&
-     \pi_\bullet(X) &\overset{f_\ast}{\longrightarrow}& \pi_\bullet(Y) &\longrightarrow& \pi_\bullet(cof(f))
-     \\
-     {}^{\mathllap{\simeq}}\downarrow 
-       && 
-     {}^{\mathllap{g_\ast}}\downarrow 
-       && 
-     \downarrow
-       &&
-     \downarrow^{\mathrlap{\simeq}}
-     \\
-     \pi_{\bullet+1}(cof(g_\ast f))
-     &\longrightarrow&
-     \pi_\bullet(X') &\underset{(g_\ast f)_\ast}{\longrightarrow}& \pi_\bullet(Y') &\longrightarrow& \pi_\bullet(cof(g_\ast f))
-  }
-$$
-
-where both horizontal sequences are exact. That $f$ is a stable weak homotopy equivalence means precisely that $f_\ast$ is an isomorphism, and hence exactness of the top sequence implies that $\pi_\bullet(cof(f)) = 0$. Then the isomorphisms on the right and left imply that also $\pi_\bullet(cof(g_\ast f)) = 0$ and so exactness of the bottom sequence implies that $(g_\ast f)_\ast$ is an isomorphism, hence that the pushout $g_\ast f$ is a stable weak homotopy equivalence.
-
