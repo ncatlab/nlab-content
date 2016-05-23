@@ -91,4 +91,4 @@ in Combinatorics, Paul Erd&#337;s is Eighty, Bolyai Society Mathematical Studies
 
 [[!redirects monster group]]
 
-[[!redirects Monster simple grouo]]
+[[!redirects Monster simple group]]
