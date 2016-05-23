@@ -1,0 +1,9 @@
+
+
+* [webpage](https://sitp.stanford.edu/people/natalie-m-paquette)
+
+## related $n$Lab entries
+
+* [[Moonshine]]
+
+category: people
