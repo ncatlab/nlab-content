@@ -6,5 +6,7 @@
 
 * [[equivariant cohomology]]
 
+* [[equivariant complex cobordism cohomology theory]]
+
 
 category: people
