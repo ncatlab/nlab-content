@@ -507,17 +507,26 @@ Clearly the only way to go about achieving this is to have the horizontal morphi
 
 $$
   \array{
-     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
+     S_a^1 \wedge S_b^1 \wedge X_n 
+       &\longrightarrow& 
+     S_a^1 \wedge X_n \wedge S_b^1
      \\
      {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
        &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1_b}}
      \\
-     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
+     S_a^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S_b^1
   }
 $$
 
-This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\pi_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+If we had $S^1_a \wedge \sigma_n$ on the left and $\sigma_n \wedge S^1_a$ on the right, then the [[natural transformation|naturality]] of the [[braiding]] would give a commuting diagram. But since this is not the case, the only way to achieve this would be by exchanging in the top left
+
+$$
+  S^1_a \wedge S^1_b \longrightarrow S^1_b \wedge S^1_a
+  \,.
+$$
+
+However, this map is non-trivial. It represents $-1$ in $[S^2, S^2]_\ast = \pi_2(S^2) = \mathbb{Z}$. Hence inserting this map in the top of the previous diagram still does not make it commute.
 
 =--
 
