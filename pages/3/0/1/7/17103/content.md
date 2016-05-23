@@ -26,6 +26,8 @@ Just like [[CW-complexes]] are cofibrant objects in the [[classical model struct
 
 ## Definition
 
+### In components
+
 +-- {: .num_defn #CWSpectrum}
 ###### Definition
 
@@ -37,7 +39,7 @@ A **CW-spectrum** $X_\bullet\in SeqSpec(Top)$ is a [[sequential spectrum]] in [[
 
 =--
 
-e.g. ([Adams 74, p. 139](#Adams74)) Beware that for instance ([Switzer 75, def. 81](#Switzer75)) says just "spectrum" for "CW-spectrum".
+e.g. ([Adams 74, p. 139](#Adams74)) Beware that for instance ([Switzer 75, def. 8.1](#Switzer75)) says just "spectrum" for "CW-spectrum".
 
 For a CW-spectrum $X$ there is a concept of "cell of a spectrum": 
 
@@ -50,7 +52,52 @@ A **cell** of a CW-spectrum, def. \ref{CWSpectrum} is a cell of one of the compo
 
 This way every CW-spectrum is the union of all its cells in the sense of def. \ref{CellOfACWSpectrum}. (e.g. [Switzer 75, 8.4](Switzer75)).
 
-More abstractly:
++-- {: .num_defn }
+###### Definition
+
+A CW-spectrum, def. \ref{CWSpectrum}, is called a _[[finite spectrum]]_ (or countable spectrum, etc.) if it has [[finite number|finitely many]] cells (countably many cells) according to def. \ref{CellOfACWSpectrum}.
+
+=--
+
+
+### Via spectrum attaching maps
+
+
++-- {: .num_defn #SphereSpectrumOfIntegerDimension}
+###### Definition
+
+For $n \in \mathbb{Z}$ (possibly negative) define $\mathbb{S}^n$ to be the [[sequential prespectrum]] with component spaces
+
+$$
+ (\mathbb{S}^{n})_k
+   \coloneqq
+ \left\{
+   \array{
+     S^{k+n} & if \; k + n \geq 0
+     \\
+     \ast & otherwise
+   }
+ \right.
+$$
+
+and with structure maps the canonical isomorphisms. 
+
+=--
+ 
+([Lewis-May-Steinberger 86, def. 4.3](#LewisMaySteinberger86))
+
++-- {: .num_defn}
+###### Remark
+
+In def. \ref{SphereSpectrumOfIntegerDimension} 
+
+* for $n = 0$ then $\mathbb{S}^0 = \mathbb{S} = \Sigma^\infty S^0$ is standard sequential incarnation of the [[sphere spectrum]];
+
+* for $n \geq n$ then $\mathbb{S}^n \simeq \Sigma^\infty S^n$ is the [[suspension spectrum]] on the [[n-sphere]];
+
+* for general $n$ then $\mathbb{S}^n \simeq F_{-n} S^0$ is also known as the $(-n)$th [[free spectrum]] on $S^0$.
+
+=--
 
 +-- {: .num_defn }
 ###### Definition
@@ -61,7 +108,7 @@ $$
   j_n 
    \;\colon\; 
    \left(
-      \underset{i \in I_n}{\sqcup} \Sigma^\infty S^{q_n}
+      \underset{i \in I_n}{\sqcup} \mathbb{S}^{q_n}
    \right)
    \longrightarrow
    X_n
@@ -69,19 +116,15 @@ $$
 
 with $X_{n+1}= Cone(j_n)$ (the [[mapping cone]]).
 
+(?)
+
 A cell spectrum is a **CW-spectrum** if each attaching map $\Sigma^\infty S^{q_n}\to X_n$ factors through a $X_k \to X_n$ with $k \lt q$.
 
 =--
 
-(e.g. [Lewis-May-Steinberger 86, def. 5.1, def. 52](#LewisMaySteinberger86), [Weiss](#Weiss))
+(e.g. [Lewis-May-Steinberger 86, def. 5.1, def. 5.2](#LewisMaySteinberger86), [Weiss](#Weiss))
 
 
-+-- {: .num_defn #CellOfACWSpectrum}
-###### Definition
-
-A CW-spectrum, def. \ref{CWSpectrum}, is called a _[[finite spectrum]]_ (or countable spectrum, etc.) if it has [[finite number|finitely many]] cells (countably many cells) according to def. \ref{CellOfACWSpectrum}.
-
-=--
 
 ## Properties
 
