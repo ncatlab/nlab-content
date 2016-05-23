@@ -171,7 +171,11 @@ For $X$ and $A$ any two objects and $Q X $ and $P A$ a cofibrant and fibrant rep
 
 ### General
 
-* The standard [[model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
+* The  [[classical model structure on simplicial sets]] $sSet_{Quillen}$ is a [[closed monoidal category|closed]] [[monoidal model category]] and is hence naturally enriched, as a model category, over itself. This is the archetypical simplicial model category.
+
+* The [[classical model structure on topological spaces]] for [[compactly generated topological spaces]] ([here](classical+model+structure+on+topological+spaces#ModelStructureOnCompactlyGeneratedTopologicalSpaces)) is similarly enriched over itself. Under [[geometric realization]] this makes also makes it a simplicial model category. 
+
+  (See also for instance [Goerss-Schemmerhorn 06, p. 26](#GoerssSchemmerhorn06))
 
 * For $C$ any small [[sSet]]-[[enriched category]] and $A$ [[simplicial combinatorial model category]], the [[global model structure on functors]] $[C^{op}, A]_{proj}$ and $[C^{op},A]_{inj}$ are themselved simplicial combinatorial model categories. See _[[model structure on simplicial presheaves]]_.
 
@@ -580,6 +584,10 @@ Textbook references include
 
 * [[Jacob Lurie]], section A.3 in _[[Higher Topos Theory]]_
 
+Further review includes
+
+* {#GoerssSchemmerhorn06} [[Paul Goerss]], [[Kristen Schemmerhorn]], _Model categories and simplicial methods_ ([arXiv:math/0609537](http://arxiv.org/abs/math/0609537))
+ 
 Further developments include
 
 * {#RezkSchwedeShipley} [[Charles Rezk]], [[Stefan Schwede]], [[Brooke Shipley]], _Simplicial structures on model categories and functors_, American Journal of Mathematics, Vol. 123, No. 3 (Jun., 2001), pp. 551-575  ([arXiv:0101162](http://arxiv.org/abs/math/0101162), [jstor](http://www.jstor.org/stable/pdfplus/25099071.pdf))
