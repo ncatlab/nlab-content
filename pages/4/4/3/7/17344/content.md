@@ -837,14 +837,6 @@ $$
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-The second of the two equivalent incarnations of the component maps in the defining colimit (def. \ref{StableHomotopyGroups}) makes it manifest that for an Omega-spectrum all these component maps are isomorphisms, so that the colimit is isomorphic to, in particular, its first component.
-
-=--
-
-
 
 +-- {: .proof}
 ###### Proof
@@ -987,21 +979,21 @@ $$
   \,.
 $$
 
-Notice that this is well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-spheres]] $S^1$  is [[compact topological spaces]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that 
+Notice that this is indeed well-defined: since each component map $X_{i,k} \to X_{i+1,k}$ is a [[relative cell complex]] and since the [[1-spheres]] $S^1$  is [[compact topological space|compact]], it follows ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that 
 
 $$
   \begin{aligned}
-  \underset{\longrightarrow}{\lim}_{i} \Omega Z_{i,k}
-    & =
-  \underset{\longrightarrow}{\lim}_{i} Maps(S^1, Z_{i,k})_\ast
-  \\
+    \underset{\longrightarrow}{\lim}_{i} \Omega Z_{i,k}
+      & =
+    \underset{\longrightarrow}{\lim}_{i} Maps(S^1, Z_{i,k})_\ast
+    \\
     & \simeq
-  Maps(S^1, \underset{\longrightarrow}{\lim}_i Z_{i,k} )_\ast
-  \\
-   & =  \Omega 
-  \underset{\longrightarrow}{\lim}_i Z_{i,k}
-  \\
-  & \simeq \Omega Q X
+    Maps(S^1, \underset{\longrightarrow}{\lim}_i Z_{i,k} )_\ast
+    \\
+     & =  \Omega \underset{\longrightarrow}{\lim}_i Z_{i,k}
+    \\
+    & \simeq (\Omega Q X)
+  \end{aligned}
   \,.
 $$
 
@@ -1082,7 +1074,7 @@ Similarly for the fourth statement.
 
 ##### As topological diagrams
 
-The following is an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+In order to conveniently understand the stable[[model category]] structure on spectra, we now consider an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
 
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
@@ -1094,7 +1086,7 @@ $$
   \iota \;\colon\; StdSpheres \longrightarrow Top_{cg}^{\ast/}
 $$
 
-for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) of that of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopkAsATopologicallyEnrichedCategory)):
+for the non-full [[topologically enriched category|topologically enriched]] [[subcategory]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) of that of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopkAsATopologicallyEnrichedCategory)) where:
 
 * [[objects]] are the standard [[n-spheres]] $S^n$, for $n \in \mathbb{N}$, identified as the [[smash product]] powers $S^n \coloneqq (S^1)^{\wedge^n}$ of the standard circle;
 
@@ -1145,7 +1137,7 @@ There is an [[equivalence of categories]]
 $$
   (-)^seq
     \;\colon\;
-  [StdSpheres,Top_{cg}^{\ast/}]
+  [StdSpheres,\; Top_{cg}^{\ast/}]
     \overset{\simeq}{\longrightarrow}
   SeqSpec(Top_{cg})
 $$
@@ -1201,7 +1193,8 @@ $$
   \,.
 $$
 
-This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the smash product of the hom-spaces between the consecutive spheres, for instance:
+This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the 
+[[smash product]] of the hom-spaces between the consecutive spheres, for instance:
 
 $$
   \array{
@@ -1379,9 +1372,9 @@ We discuss models for the operation of [[reduced suspension]] and forming [[loop
 
 For $X$ a sequential spectrum, then
 
-1. the **standard suspension** of $X$ is the [[tensoring]] $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+1. the **standard suspension** of $X$ is the [[smash product]]-[[tensoring]] $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
 
-1. the **standard looping** of $X$ is the [[powering]] $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+1. the **standard looping** of $X$ is the smash [[powering]] $Maps(S^1,X)_\ast$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
 =--
 
@@ -1408,8 +1401,7 @@ This is immediate from the componentwise construction of the smash tensoring and
 
 =--
 
-
-There are two other models for suspension and looping of spectra, which are not isomorphic in $SeqSpec(Top_{cg})$, but which will turn out to be isomorphic in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}), and which will be useful for computations:
+This means that once we know that $X\vee X \to X \wedge (I_+)$ is suitably a cofibration (to which we turn [below](#CWSpectra)) then the standard suspension is a homotopy-correct model for the suspension operation. However, some properties of suspension are hard to prove directly with the standard suspension model. For such there are two other models for suspension and looping of spectra. These three models are not isomorphic to each other in $SeqSpec(Top_{cg})$, but (this is lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} below) they will become isomorphic in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}).
 
 
 +-- {: .num_defn #ShiftedSpectrum}
@@ -1469,7 +1461,7 @@ $$
        &(nc)& 
      \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
      \\
-     S^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S^1
+     S^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S^1
   }
 $$
 
@@ -1477,17 +1469,36 @@ Clearly the only way to go about achieving this is to have the horizontal morphi
 
 $$
   \array{
-     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
+     S_a^1 \wedge S_b^1 \wedge X_n 
+       &\longrightarrow& 
+     S_a^1 \wedge X_n \wedge S_b^1
      \\
      {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
        &(nc)& 
-     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1_b}}
      \\
-     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
+     S_a^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S_b^1
   }
 $$
 
-This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\pi_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+If we had $S^1_a \wedge \sigma_n$ on the left and $\sigma_n \wedge S^1_a$ on the right, then the [[natural transformation|naturality]] of the [[braiding]] would give a commuting diagram. But since this is not the case, the only way to achieve this would be by exchanging in the top left
+
+$$
+  S^1_a \wedge S^1_b \longrightarrow S^1_b \wedge S^1_a
+  \,.
+$$
+
+However, this map is non-trivial. It represents $-1$ in $[S^2, S^2]_\ast = \pi_2(S^2) = \mathbb{Z}$. Hence inserting this map in the top of the previous diagram still does not make it commute.
+
+But this technical problem points to its own solutions: if we were to restrict spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$ then the braiding required to make two models of suspension comparable would be
+
+$$
+  S^2_a \wedge S^1_b \longrightarrow $S^1_b \wedge S^2_a$
+$$
+
+and this is indeed trivial. This we turn to below (see def. \ref{SequentialS2Spectra} below).
+
+More generally, the kind of issue encountered here will be taken of by the concept of [[symmetric spectra]], to which we turn [further below](#SymmetricSpectra).
 
 =--
 
@@ -1776,7 +1787,7 @@ Prop. \ref{SequentialSpectraAsDiagramSpectra} says that the category of sequenti
 $$
   SeqSpec(Top)
   \simeq
-  [StdSpheres, Top_{cg}^{\ast}]
+  [StdSpheres,\; Top_{cg}^{\ast}]
   \,.
 $$
 
@@ -1795,7 +1806,7 @@ $$
   \,.
 $$
 
-By definition, this is equivalently a $\mathbb{N}$-collection of commuting diagrams in $Top_{cg}$ of the form
+By definition, this is equivalently an $\mathbb{N}$-collection of commuting diagrams in $Top_{cg}$ of the form
 
 $$
   \array{
@@ -2010,6 +2021,7 @@ $$
 Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences that the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure. 
 
 ##### CW-spectra
+ {#CWSpectra}
 
 +-- {: .num_defn #CWSpectrum}
 ###### Definition
@@ -2221,7 +2233,7 @@ $$
 Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
 
 $$
-  \Sigma X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
+  \Sigma \hat X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
   \,.
 $$
 
@@ -6900,7 +6912,7 @@ $$
 $$
 
 $$
-  J \coloneqq \{D^n \hookrightarrow D^n \times I\}_{n \in \mathbb{N}}
+  J \coloneqq \{D_+^n \hookrightarrow (D^n \times I)_+\}_{n \in \mathbb{N}}
 $$
 
 of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on topological spaces]].
