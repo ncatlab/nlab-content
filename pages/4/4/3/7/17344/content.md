@@ -2534,7 +2534,7 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
 
 Regarding the first two items:
 
-Using the properties of hte [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) we get
+Using the properties of the [[weak factorization systems]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakFactorizationSystem)) of (acyclic cofibratiojns,\; fibrations) and (cofibrations,\; acyclic fibrations) for both model structures we get
 
 $$
   \begin{aligned}
@@ -2758,7 +2758,7 @@ $$
   \}_{n \in \mathbb{N},i_+ \in \left(I_{Top^{\ast/}}\right)}
 $$
 
-for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict} with the set $ \{k_n \Box i_+\}_{n,i_+}$ of [[pushout-products]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)) under [[smash product|smash]] [[tensoring]] (def. \ref{TensoringAndPoweringOfSequentialSpectra}) of the morphisms $k_n$ from def. \ref{FreeSequentialSpectra} with the generating cofibrations of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)).
+for the [[disjoint union]] of the other set of morphisms appearing in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStrict} with the set $ \{k_n \Box i_+\}_{n,i_+}$ of [[pushout-products]] under smash tensoring (according to def. \ref{PushoutProductWithRespectToSmashTensoring}) of the morphisms $k_n$ from def. \ref{FreeSequentialSpectra} with the generating cofibrations of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)).
 
 =--
 
@@ -2894,7 +2894,7 @@ $$
    \,.
 $$
 
-To identify this as a map $S^1 \to X_{n+1}$ we use the adjunction isomorphism once more to throw all the $\Omega$-s on the right back to $\Sigma$-s the left, to finally find that this is indeed
+To identify this as a map $S^1 \to X_{n+1}$, we use the adjunction isomorphism once more to throw all the $\Omega$-s on the right back to $\Sigma$-s the left, to finally find that this is indeed
 
 $$
   \sigma_n^X \circ \Sigma f
@@ -2948,13 +2948,12 @@ hence a stable acylic cofibration according to def. \ref{ClassesOfMorphismsOfThe
 ###### Proof 
 
 For the elements in $J_{SeqSpec}^{strict}$ this is part of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+It only remains to see that the morphisms $k_n \Box i_+$ are stable acyclic cofibrations.
 
-It remains to see that the morphisms $k_n \Box i_+$ are stable acyclic cofibrations.
-
-To see that the $k_n \Box i_+$ are strict cofibrations: By [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)) $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against the pullback powering $f^{\Box i_+}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)). By $SeqSpec(Top_{cg})_{strict}$ being a $(Top_{cg}^{\ast/})_{Quillen}$-[[enriched model category]] (prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms}) the latter is still a strict acyclic fibration. Since $k_n$ is evidently a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+To see that the $k_n \Box i_+$ are strict cofibrations: By [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)) $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against the pullback powering $f^{\Box i_+}$ (def. \ref{PushoutProductWithRespectToSmashTensoring}). By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ is evidently a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
 
 
-To see that they are stable equivalences: The morphisms $k_n$ by construction, by [[two-out-of-three]] and by lemma \ref{CorepresentationOfAdjunctStructureMaps} are stable equivalences. Hence the [[derived hom-space]] out of $k_n \Box i_+$ is the homotopy pullback of a weak equivalence, hence is a weak equivalence, hence on the homotopy category an iso.
+To see that the $k_n \Box i_+$ are stable equivalences: The morphisms $k_n$ by construction, by [[two-out-of-three]] and by lemma \ref{CorepresentationOfAdjunctStructureMaps} are stable equivalences (...). Hence the [[derived hom-space]] out of $k_n \Box i_+$ is the homotopy pullback of a weak equivalence, hence is a weak equivalence, hence on the homotopy category an iso (...).
 
 =--
 
