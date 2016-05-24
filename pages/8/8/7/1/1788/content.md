@@ -1,15 +1,14 @@
 $$
   \begin{aligned}
-    \underset{\longrightarrow}{\lim}_{i} \Omega Z_{i,k}
-      & =
-    \underset{\longrightarrow}{\lim}_{i} Maps(S^1, Z_{i,k})_\ast
+    \tilde \sigma_{i+1,k} \circ \iota_{i,k}
+    & =
+    (\Omega(\iota_{i,k+1}) \circ \phi_{i,k}) \circ \iota_{i,k}
     \\
-    & \simeq
-    Maps(S^1, \underset{\longrightarrow}{\lim}_i Z_{i,k} )_\ast
+    & =
+    \Omega(\iota_{i,k+1}) \circ (\phi_{i,k} \circ \iota_{i,k})
     \\
-     & =  \Omega \underset{\longrightarrow}{\lim}_i Z_{i,k}
-    \\
-    & \simeq \Omega Q X
+    & = 
+    \Omega(\iota_{i,k+1}) \circ \tilde \sigma_{i,k}
+   \,.
   \end{aligned}
-  \,.
 $$
