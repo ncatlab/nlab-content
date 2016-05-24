@@ -31,13 +31,13 @@ A **$V$-enriched model category** is
 
 * an V-[[enriched category]] $C$
 
-  * which is [[power]]ed and [[copower]]ed over $V$;
+  * which is [[powering|powered]] and [[tensoring|copowered]] over $V$;
 
-* with the structure of a [[model category]] on the [underlying category](http://ncatlab.org/nlab/show/enriched+category#BaseChange) $C_0$
+* with the structure of a [[model category]] on the [underlying category](enriched+category#BaseChange) $C_0$
 
 * such that 
 
-  * for every cofibration $i : A \to B$ and every fibration $p : X \to Y$ in $C_0$ the morphism (dual to the [[pushout-product axiom|pushout product]]) in $V$ 
+  * for every cofibration $i \colon A \to B$ in $V_0$ and every fibration $p \colon X \to Y$ in $C_0$ the pullback-powering morphism (dual to the [[pushout product]]) with respect to the powering in $V$ 
 
     $$
       C(B,X) \stackrel{(i^* , p_*)}{\to} C(A,X) \times_{C(A,Y)} C(B,Y)
