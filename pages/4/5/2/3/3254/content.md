@@ -94,20 +94,20 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Apply prop. \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for all $n$ to produce a sequence with [[cocone]] of the form
+Apply lemma \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for $n \in \mathbb{N}$ to produce a sequence with [[cocone]] of the form
 
 $$
   \array{
-    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_2}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
-    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_1}} & \swarrow_{\mathrlap{\phi_2}} & \cdots 
+    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_0}} & \swarrow_{\mathrlap{\phi_1}} & \cdots 
     \\
     && X
   }
   \,,
 $$
 
-where each $f_i$ is a [[relative CW-complex]] and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
+where each $f_n$ is a [[relative CW-complex]] adding cells exactly of dimension $n$, and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
 
 Let then $\hat X$ be the [[colimit]] over the sequence (its [[transfinite composition]]) and $\hat f \colon A \to X$ the induced component map. By definition of relative CW-complexes, this $\hat f$ is itself a relative CW-complex.
 
@@ -115,7 +115,7 @@ By the [[universal property]] of the colimit this factors $f$ as
 
 $$
   \array{
-    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_1}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
     &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots 
     \\
@@ -128,7 +128,8 @@ $$
   \,.
 $$
 
-Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_n$, which is $n$-connected and hence an isomorphism on the homotopy class of $\alpha$.
+Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_i$, which is $(i \gt n)$-connected and hence an isomorphism on the homotopy class of $\alpha$.
+
 
 =--
 
