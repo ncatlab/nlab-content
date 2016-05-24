@@ -1,9 +1,36 @@
+Let $f \colon X \to B$ be both a stable equivalence as well as a $K$-injective morphism. Since $K$ contains the generating acyclic cofibrations for the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), $f$ is in particular a strict fibration, hence a degreewise fibration. 
+
+Consider the fiber $F$ of $f$, hence the morphism $F \to \ast$ which is the pullback of $f$ along $\ast \to B$. We claim that 
+
+1. $F$ is an Omega-spectrum;
+
+1. $F\to \ast$ is a stable weak equivalence. 
+
+The first item follows since $F$, being the pullback of a $K$-injective morphisms, is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ it is an Omega-spectrum. 
+
+For the second, choose a strict cofibrant replacement $\hat F$ of $f$. Then choose a factorization $\hat F \overset{\in Cof_{strict}}{\longrightarrow} \hat X \overset{\in W_{strict}}{\longrightarrow} X$ and then a factorization $\hat X \overset{\in Cof_{strict}}{\longrightarrow} \hat B \overset{\in W_{strict}}{\longrightarrow} B$. Let $X$ be any Omega-spectrum and consider the diagram
+
 $$
-  J_{SeqSpec}^{stable}
-    \coloneqq 
-  J_{SeqSpec}^{strict}
-   \sqcup
-  \{
-    k_n \Box i_+
-  \}_{n \in \mathbb{N},i_+ \in \left(I_{Top^{\ast/}}\right)}
+  \array{
+    && E
+    \\
+    &{}^{\mathllap{\phi}}\nearrow& 
+    \\
+    \hat F &\overset{\in Cof_{strict}}{\longrightarrow}& \hat X 
+    \\
+    {}^{\mathllap{\in W_{strict}}}\downarrow && {}^{\mathllap{\in W_{strict}}}\downarrow & \searrow^{\mathrlap{\in W_{stable}}}
+    \\
+    F &\longrightarrow& X & & \hat B
+    \\
+    \downarrow && \downarrow & \swarrow_{\mathrlap{\in W_{strict}}}
+    \\
+    \ast &\longrightarrow& B
+  }
+  \,,
 $$
+
+where $\phi$ is any map. Observe that every object in $SeqSpec(Top_{cg})_{strict}$ is fibrant, so that $\phi$ represents an element in $[F,E]_{strict}$, similarly for all the extensions that we consider now: $\phi$ extends first to $\hat X$, by the extending morphism being a cofibration, and then it extends to $B$, by the vertical composite being a stable equivalence. This shows that $\phi$ factors through the point, hence that $\hat F \to \ast$ and hence $F \to \ast$ is a stable weak equivalence.
+
+Now with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} these two properties imply that $F \to \ast$ is already a weak equivalence in the strict model structure. From this the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+-+P#LongExactSequeceOfHomotopyGroups)) implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
