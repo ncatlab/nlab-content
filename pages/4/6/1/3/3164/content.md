@@ -88,7 +88,7 @@ An almost entirely self-contained introduction and (according to Werner Kleinert
 
 Lecture notes include
 
-* {#Sutherland13} [[Andrew Sutherland]], _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/))
+* {#Sutherland13} [[Andrew Sutherland]], _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/index.htm))
 
 * [[Christophe Soulé|C. Soulé]], D. Abramovich, J. F. Burnol, J. K. Kramer, _Lectures on Arakelov Geometry_, Cambridge Studies in Advanced Mathematics __33__, 188 pp.
 
