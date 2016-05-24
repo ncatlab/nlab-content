@@ -64,6 +64,61 @@ Write $SeqSpec(Top_{cg})$ for this [[category]] of topological sequential spectr
 
 =--
 
+Due to the classical [[adjunction]]
+
+$$
+  Top_{cg}^{\ast/}
+    \underoverset
+     {\underset{Maps(S^1,-)_\ast}{\longrightarrow}}
+     {\overset{S^1 \wedge (-)}{\longleftarrow}}
+     {\bot}
+  Top_{cg}^{\ast/}
+$$
+
+from [[Introduction to Stable homotopy theory -- P|classical homotopy theory]] ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#PointedCompactlyGeneratedTopologicalSpacesIsSymmetricMonoidalClosed)), the definition of sequential spectra in def. \ref{SequentialSpectra} is equivalent to the following definition
+
++-- {: .num_defn #SequentialSpectrumViaAdjunctStructureMaps}
+###### Definition
+
+A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]**, or just **[[sequential spectrum]]** for short (or even just **[[spectrum]]), is
+
+1. an $\mathbb{N}$-[[graded object|graded]] [[pointed topological space|pointed]] [[compactly generated topological space]]  
+  
+   $$
+     X_\bullet = (X_n \in Top_{cg}^{\ast/})_{n \in \mathbb{N}}
+   $$ 
+
+   (the **component spaces**); 
+
+1. pointed [[continuous functions]] 
+
+   $$
+     \tilde \sigma_n \colon X_n \to Maps(S^1,X_{n+1})_\ast
+   $$ 
+
+   for all $n \in \mathbb{N}$ (the **adjunct structure maps**) from one component space to the pointed [[mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) out of $S^1$ into the next component space.
+
+ A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $\widetilde{f_\bullet} \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
+
+$$
+  \array{
+    X_n &\overset{f_n}{\longrightarrow}& Y_n
+    \\
+    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+    \\
+    Maps(S^1, X_{n+1})_\ast
+      &\underset{Maps(S^1,f_{n+1})_\ast}{\longrightarrow}&
+    Maps(S^1, Y_{n+1})_\ast
+  }
+$$
+
+[[commuting diagram|commute]].
+
+=--
+
+
+
+
 +-- {: .num_example #SuspensionSpectrum}
 ###### Example
 
@@ -542,7 +597,7 @@ The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspens
 
 The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{ShiftedSpectrum} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
 
-1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
+1. $(-)[-1] \dashv (-)[1]$;
 
 1. $(-)\wedge S^1 \dashv Maps(S^1,-)_\ast$;
 
@@ -553,13 +608,66 @@ The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{Sh
 +-- {: .proof}
 ###### Proof
 
-The first is immediate from the definition. 
+Regarding the first statement: 
 
-The second is just degreewise the adjunction [[smash product]]$\dashv$[[pointed mapping space]] (discussed [here](pointed+object#ClosedMonoidalStructure)), since by definition the smash product and mapping spaces here do not interact non-trivially with the structure maps.
+A morphism of the form 
+$f \;\colon\; X[-1] \longrightarrow Y$ has components of the form
 
-The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    \\
+    X_1 &\overset{f_2}{\longrightarrow}& Y_2
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+    \\
+    \ast &\overset{f_0 = 0}{\longrightarrow}& Y_0
+  }
+$$
 
-Morphisms $f\colon \Sigma X \to Y$ are in components given by commuting diagrams of this form:
+and the compatibility condition with the structure maps in lowest degree is automatically satisfied
+
+$$
+  \array{
+    \ast &\overset{(S^1 \wedge f_0) = 0}{\longrightarrow}& S^1 \wedge Y_0
+    \\
+    {}^{\mathllap{\sigma^{X[-1]}_0 = 0}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma^Y_0}}
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+  }
+  \,.
+$$
+
+Therefore this is equivalent to components
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    \\
+    X_1 &\overset{f_2}{\longrightarrow}& Y_2
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+  }
+$$
+
+hence to a morphism $X \longrightarrow Y[1]$.
+
+
+
+
+The second statement is a special case of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}.
+
+Regarding the third statement:
+
+This follows by applying the ([[smash product]]$\dashv$[[pointed mapping space]])-adjunction isomorphism twice, like so:
+
+Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
 $$
   \array{  
@@ -576,7 +684,7 @@ $$
   \,.
 $$
 
-Applying the adjunction isomorphism diagonally gives a bijection to diagrams of this form:
+Applying the adjunction isomorphism diagonally   gives a natural bijection to diagrams of this form:
 
 $$
   \array{
@@ -584,16 +692,36 @@ $$
    \\
    {}^{\mathllap{\sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
    \\
-   X_{n+1} &\underset{\widetilde{f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
+   X_{n+1} &\underset{\widetilde {f_{n+1}}}{\longrightarrow}& Maps(S^1,Y_{n+1})_\ast
   }
   \,.
 $$
 
-Then applying the same isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+(To see this in full detail, for instance for the [[adjunct]] of the left and bottom morphism: chase the identity $id_{S^1 \wedge X_{n+1}}$ in both ways 
 
 $$
   \array{
-    X_n &\overset{\widetilde{f_n}}{\longrightarrow}& Maps(S^1,Y_n)_\ast
+    Hom(S^1 \wedge X_{n+1}, S^1 \wedge X_{n+1})
+      &\overset{\simeq}{\longrightarrow}&
+    Hom(X_{n+1}, Maps(S^1, S^1 \wedge X_{n+1})_\ast)
+    \\
+    {}^{\mathllap{Hom(S^1 \wedge \sigma^X_n, f_{n+1})}}\downarrow 
+    && 
+    \downarrow^{\mathrlap{Hom(\sigma^X_n, Maps(S^1, f_{n+1})_\ast)}}
+    \\
+    Hom(S^1 \wedge S^1 \wedge X_n, Y_{n+1})
+     &\overset{\simeq}{\longrightarrow}&
+    Hom(S^1 \wedge X_n, Maps(S^1, Y_{n+1})_\ast)
+  }
+$$
+
+through the adjunction naturality square. The other cases follow analogously.)
+
+Then applying the adjunction isomorphism diagonally once more gives a further bijection to  commuting diagrams of this form:
+
+$$
+  \array{
+    X_n &\overset{\widetilde {f_n}}{\longrightarrow}& Maps(S^1,Y_n)_\ast
     \\
     {}^{\mathllap{\tilde \sigma_n}}\downarrow 
       && 
@@ -606,12 +734,13 @@ $$
   \,.
 $$
 
-This, finally, equivalently exhibits morphisms of the form
+This, finally, equivalently exhibits homomorphisms of the form
 
 $$
   X \longrightarrow \Omega Y
-  \,.
 $$
+
+in the sense of def. \ref{SequentialSpectrumViaAdjunctStructureMaps}.
 
 =--
 
