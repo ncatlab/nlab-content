@@ -5313,7 +5313,7 @@ $\,$
 
 ##### Complex projective space
 
-Complex projective space $\mathbb{C}P^n$ the the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ the [[complex numbers]] (and for $n \in \mathbb{N}$), a [[complex manifold]] of complex [[dimension]] $n$ (real dimension $2n$). Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$ (def. \ref{RealAndComplexGrassmannian}). For the special case $n = 1$ then $\mathbb{C}P^1 \simeq S^2$ is the [[Riemann sphere]].
+Complex projective space $\mathbb{C}P^n$ is the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ being the [[complex numbers]] (and for $n \in \mathbb{N}$), a [[complex manifold]] of complex [[dimension]] $n$ (real dimension $2n$). Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$ (def. \ref{RealAndComplexGrassmannian}). For the special case $n = 1$ then $\mathbb{C}P^1 \simeq S^2$ is the [[Riemann sphere]].
 
 As $n$ ranges, there are natural inclusions
 
@@ -5520,6 +5520,8 @@ $$
   \,.
 $$
 
+(Or else the [[polynomial ring]] $R[c_1]$, see remark \ref{ChoiceOfRingStructureOnGradedCohomologyGroupOfMultiplicativeCohomologyTheory})
+
 =--
 
 +-- {: .proof}
@@ -5631,6 +5633,89 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 =--
 
++-- {: .num_remark #ChoiceOfRingStructureOnGradedCohomologyGroupOfMultiplicativeCohomologyTheory}
+###### Remark
+
+There is in general a choice to be made in interpreting the [[cohomology groups]] of a [[multiplicative cohomology theory]] $E$ (def. \ref{MultiplicativeCohomologyTheory}) as a [[ring]]:
+
+a priori $E^\bullet(X)$ is a sequence 
+
+$$
+  \{E^n(X)\}_{n \in \mathbb{Z}}
+$$
+
+of [[abelian groups]], together with a system of group homomorphisms
+
+$$
+  E^{n_1}(X) \otimes E^{n_2}(X)
+    \longrightarrow
+  E^{n_1 + n_2}(X)
+  \,,
+$$
+
+one for each pair $(n_1,n_2) \in \mathbb{Z}\times\mathbb{Z}$.
+
+In turning this into a single [[ring]] by forming [[formal sums]] of elements in the groups $E^n(X)$, there is in general the choice of whether allowing formal sums of only finitely many elements, or allowing arbitrary formal sums.
+
+In the former case the ring obtained is the [[direct sum]]
+
+$$
+  \oplus_{n \in \mathbb{N}} E^n(X)
+$$
+
+while in the latter case it is the [[Cartesian product]]
+
+$$
+  \prod_{n \in \mathbb{N}} E^n (X)
+  \,.
+$$
+
+These differ in general. For instance if $E$ is [[ordinary cohomology]] with [[integer]] [[coefficients]] and $X$ is infinite [[complex projective space]] $\mathbb{C}P^\infty$, then (prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}))
+
+$$
+  E^n(X)
+  =
+  \left\{
+    \array{
+      \mathbb{Z} & n \; even
+      \\
+      0 & otherwise
+    }
+  \right.
+$$
+
+and the product operation is given by
+
+$$
+  E^{2{n_1}}(X)\otimes E^{2 n_2}(X)
+    \longrightarrow
+  E^{2(n_1 + n_2)}(X)
+$$
+
+for all $n_1, n_2$ (and zero in odd degrees, necessarily).  Now taking the [[direct sum]] of these, this is the [[polynomial ring]] on one generator (in degree 2)
+
+$$
+  \oplus_{n \in \mathbb{N}} E^n(X) \;\simeq\; \mathbb{Z}[c_1]
+  \,.
+$$
+
+But taking the [[Cartesian product]], then this is the [[formal power series ring]]
+
+$$
+  \prod_{n \in \mathbb{N}} E^n(X) \;\simeq\; \mathbb{Z} [ [ c_1 ] ]
+  \,.
+$$
+
+A priori both of these are sensible choices. The former is the usual choice in traditional [[algebraic topology]]. However, from the point of view of regarding [[ordinary cohomology]] theory as a [[multiplicative cohomology theory]] right away, then the second perspective tends to be more natural:
+
+The cohomology of $\mathbb{C}P^\infty$ is naturally computed as the [[inverse limit]] of the cohomolgies of the $\mathbb{C}P^n$, each of which unambiguously has the ring structure $\mathbb{Z}[c_1]/((c_1)^{n+1})$. So we may naturally take the limit in the [[category]] of [[commutative rings]] right away, instead of first taking it in $\mathbb{Z}$-indexed sequences of abelian groups, and then looking for ring structure on the result. But the limit taken in the category of rings gives the [[formal power series ring]] (see [here](formal+scheme#FormalPowerSeries)).
+
+See also for instance remark 1.1. in [[Jacob Lurie]]: _[[A Survey of Elliptic Cohomology]]_.
+
+
+=--
+
+
 ##### Complex orientation
  {#ComplexOrientatioon}
 
@@ -5690,7 +5775,7 @@ $$
   E^\bullet(\mathbb{C}P^\infty) \simeq E^\bullet(\ast)[ [ c_1^E ] ]
 $$
 
-between the $E$-[[cohomology ring]] of infinite-dimensional complex projective space (def. \ref{ComplexProjectiveSpace}) and the [[formal power series]] in one generator of even degree over the $E$-[[cohomology ring]] of the point.
+between the $E$-[[cohomology ring]] of infinite-dimensional complex projective space (def. \ref{ComplexProjectiveSpace}) and the [[formal power series]] (see remark \ref{ChoiceOfRingStructureOnGradedCohomologyGroupOfMultiplicativeCohomologyTheory}) in one generator of even degree over the $E$-[[cohomology ring]] of the point.
 
 
 =--
