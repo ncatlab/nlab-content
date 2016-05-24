@@ -951,14 +951,17 @@ That this indeed commutes is the identity
 
 $$
   \begin{aligned}
-    \iota_{i,k}\tilde \sigma_{i+1,k}
+    \tilde \sigma_{i+1,k} \circ \iota_{i,k}
     & =
-    \iota_{i,k} \phi_{i,k} \Omega(\iota_{i,k+1})
+    (\Omega(\iota_{i,k+1}) \circ \phi_{i,k}) \circ \iota_{i,k}
+    \\
+    & =
+    \Omega(\iota_{i,k+1}) \circ (\phi_{i,k} \circ \iota_{i,k})
     \\
     & = 
-    \tilde \sigma_{i,k} \Omega(\iota_{i,k+1})
-   \,.
+    \Omega(\iota_{i,k+1}) \circ \tilde \sigma_{i,k}
   \end{aligned}
+  \,.
 $$
 
 Now let $Q X$ be the spectrum with component spaces the [[colimit]] 
@@ -1493,12 +1496,10 @@ However, this map is non-trivial. It represents $-1$ in $[S^2, S^2]_\ast = \pi_2
 But this technical problem points to its own solutions: if we were to restrict spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$ then the braiding required to make two models of suspension comparable would be
 
 $$
-  S^2_a \wedge S^1_b \longrightarrow $S^1_b \wedge S^2_a$
+  S^2_a \wedge S^1_b \longrightarrow S^1_b \wedge S^2_a
 $$
 
-and this is indeed trivial. This we turn to below (see def. \ref{SequentialS2Spectra} below).
-
-More generally, the kind of issue encountered here will be taken of by the concept of [[symmetric spectra]], to which we turn [further below](#SymmetricSpectra).
+and this map is indeed trivial. This we turn to in def. \ref{SequentialS2Spectra} below. More generally, the kind of issue encountered here is taken care of by the concept of [[symmetric spectra]], to which we turn [further below](#SymmetricSpectra).
 
 =--
 
@@ -1514,7 +1515,7 @@ The looping and suspension operations in def. \ref{SequentialSpectrumRealSuspens
 
 The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{ShiftedSpectrum} and def. \ref{SequentialSpectrumFakeSuspension} form pairs of [[adjoint functors]] $SeqSpec \to SeqSpec$ like so:
 
-1. $(-)[1] \;\dashv\; (-)[-1] \;\dashv\; (-)[1] \;\dashv\; \cdots $;
+1. $(-)[-1] \dashv (-)[1]$;
 
 1. $(-)\wedge S^1 \dashv Maps(S^1,-)_\ast$;
 
@@ -1525,11 +1526,64 @@ The constructions from def. \ref{SequentialSpectrumRealSuspension}, def. \ref{Sh
 +-- {: .proof}
 ###### Proof
 
-The first is immediate from the definition. 
+Regarding the first statement: 
 
-The second is a special case of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}.
+A morphism of the form 
+$f \;\colon\; X[-1] \longrightarrow Y$ has components of the form
 
-The third follows by applying the [[smash product]]$\dashv$[[pointed mapping space]]-adjunction isomorphism twice, like so:
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    \\
+    X_1 &\overset{f_2}{\longrightarrow}& Y_2
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+    \\
+    \ast &\overset{f_0 = 0}{\longrightarrow}& Y_0
+  }
+$$
+
+and the compatibility condition with the structure maps in lowest degree is automatically satisfied
+
+$$
+  \array{
+    \ast &\overset{(S^1 \wedge f_0) = 0}{\longrightarrow}& S^1 \wedge Y_0
+    \\
+    {}^{\mathllap{\sigma^{X[-1]}_0 = 0}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma^Y_0}}
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+  }
+  \,.
+$$
+
+Therefore this is equivalent to components
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    X_2 &\overset{f_2}{\longrightarrow}& Y_3  
+    \\
+    X_1 &\overset{f_2}{\longrightarrow}& Y_2
+    \\
+    X_0 &\overset{f_1}{\longrightarrow}& Y_1
+  }
+$$
+
+hence to a morphism $X \longrightarrow Y[1]$.
+
+
+
+
+The second statement is a special case of prop. \ref{AdjunctionBetweenSmashTensoringAndPowering}.
+
+Regarding the third statement:
+
+This follows by applying the ([[smash product]]$\dashv$[[pointed mapping space]])-adjunction isomorphism twice, like so:
 
 Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
@@ -2212,7 +2266,7 @@ Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] a
 For $X$ any topological [[sequential spectrum]] (def.\ref{SequentialSpectra}), then there exists a [[CW-spectrum]] $\hat X$ (def. \ref{CWSpectrum}) and a homomorphism 
 
 $$
-  \phi \colon  \hat X \overset{\in W_{strict}}{\longrightarrow} X
+  \phi \;\colon\;  \hat X \overset{\in W_{strict}}{\longrightarrow} X
   \,.
 $$ 
 
@@ -2571,7 +2625,7 @@ $$
   \,.
 $$
 
-It remains to see that this is indeed the $(\Sigma \dashv \Omega)$-[[adjunct]] of $\sigma_n^X$. By the general formula for adjuncts, this is
+It remains to see that this is indeed the $(\Sigma \dashv \Omega)$-[[adjunct]] of $\sigma_n^X$. By the general formula for [[adjuncts]], this is
 
 $$
   \tilde \sigma_n^X 
@@ -2713,9 +2767,9 @@ is an acyclic fibration in the strict model structure, hence is degreewise a [[w
 
 Let $f\colon E \to B$ be both a stable equivalence as well as a $J_{SeqSpec}^{stable}$-injective morphism. Since $J_{SeqSpec}^{stable}$ contains the generating acyclic cofibrations for the strict model structure, $f$ is in particular a strict fibration, hence a degreewise fibration. Therefore the [[fiber]] $F$ of $f$ is its [[homotopy fiber]] in the strict model structure. This implies that for any $E$ that with $[f,E]_{strict}$ a bijection, by assumption also $[\ast,E]_{strict} \to [F,E]_{strict}$ is a bijection, hence that $F\to \ast$ is also a stable weak equivalence. 
 
-Observe also that $F$, being the pullback of a $J_{SeqSpec}^{stable}$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $J_{SeqSpec}^{stable}$-[[injective object]], so that by lemma \ref{KInjectivesAreAcyclicCofibrations} $F$ is an [[Omega-spectrum]]. Together this implies with lemma \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+Observe also that $F$, being the pullback of a $J_{SeqSpec}^{stable}$-injective morphisms (by the [closure properties](injective+or+projective+morphism#ClosureProperties) [prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)) is a $J_{SeqSpec}^{stable}$-[[injective object]], so that by lemma \ref{KInjectivesAreAcyclicCofibrations} $F$ is an [[Omega-spectrum]]. Together this implies with lemma \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
-To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $J_{SeqSpec}^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in pointed topological spaces) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
+To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $J_{SeqSpec}^{stable}$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a [[homotopy pullback]] (in $(Top_{cg}^{\ast/})_{Quillen}$) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
 
 =--
 
