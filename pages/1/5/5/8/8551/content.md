@@ -27,16 +27,28 @@ Krull dimension of the ring is $1$.
 
 ## Related concepts
 
-* [[complex curve]]
+* [[complex curve]], [[Riemann surface]]
 
 * [[arithmetic curve]]
 
+* [[elliptic curve]]
+
+* [[stable curve]], 
+
 * [[moduli stack of curves]]
+
+* [[Jacobian variety]], 
+
+* [[Mordell conjecture]], 
+
+* [[Bezout's theorem]]
+
+
 
 ## References
 
-Related $n$Lab entries include [[moduli space of curves]], [[stable curve]], [[Jacobian variety]], [[Mordell conjecture]], [[Riemann surface]],
-[[elliptic curve]], [[Bezout's theorem]]
+
+* [[William Fulton]], _Algebraic curves_ ([pdf](http://www.math.lsa.umich.edu/~wfulton/CurveBook.pdf))
 
 * Wikipedia, _[Algebraic curve](http://en.wikipedia.org/wiki/Algebraic_curve)_
 
