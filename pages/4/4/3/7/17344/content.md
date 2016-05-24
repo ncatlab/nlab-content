@@ -1078,7 +1078,7 @@ Similarly for the fourth statement.
 
 ##### As topological diagrams
 
-In order to conveniently understand the stable[[model category]] structure on spectra, we now consider an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
+In order to conveniently understand the stable [[model category]] structure on spectra, we now consider an equivalent reformulation of the component-wise definition of sequential spectra, def. \ref{SequentialSpectra}, as [[topologically enriched functors]] ([defn. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). 
 
 
 +-- {: .num_defn #CategoriesOfStandardSpheres}
@@ -1494,7 +1494,7 @@ $$
 
 However, this map is non-trivial. It represents $-1$ in $[S^2, S^2]_\ast = \pi_2(S^2) = \mathbb{Z}$. Hence inserting this map in the top of the previous diagram still does not make it commute.
 
-But this technical problem points to its own solutions: if we were to restrict spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$ then the braiding required to make two models of suspension comparable would be
+But this technical problem points to its own solutions: if we were to restrict to spectra which had structure maps only of the form $S^2 \wedge X_n \to X_{n+2}$, then the braiding required to make the two models of suspension comparable would be
 
 $$
   S^2_a \wedge S^1_b \longrightarrow S^1_b \wedge S^2_a
@@ -1762,11 +1762,13 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
 * a **strict fibration** if each component $f_n \colon X_n \to Y_n$ is a fibration in the [[classical model structure on topological spaces]] (hence a [[Serre fibration]]);
 
-* a **strict cofibration** if the maps $f_0\colon X_0 \to Y_0$ as well as for all $n \in \mathbb{N}$ the [[pushout products]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)) of $f_n$ with the structure maps of $X$
+* a **strict cofibration** if the maps $f_0\colon X_0 \to Y_0$ as well as for all $n \in \mathbb{N}$ the maps
 
   $$
-    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
-    \longrightarrow
+    (f_{n+1}, \sigma^Y_n)
+      \;\colon\;
+    X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 \wedge Y_n
+      \longrightarrow
     Y_{n+1}
   $$
 
@@ -1842,7 +1844,7 @@ Prop. \ref{SequentialSpectraAsDiagramSpectra} says that the category of sequenti
 $$
   SeqSpec(Top)
   \simeq
-  [StdSpheres,\; Top_{cg}^{\ast}]
+  [StdSpheres,\; Top_{cg}^{\ast/}]
   \,.
 $$
 
@@ -1852,11 +1854,11 @@ It only remains to check that the cofibrations are as claimed. To that end, cons
 
 $$
   \array{
-    X_\bullet &\stackrel{h_\bullet}{\longrightarrow}& A_\bullet
+    X &\stackrel{h}{\longrightarrow}& A
     \\
-    \downarrow^{\mathrlap{f_\bullet}} && \downarrow
+    \downarrow^{\mathrlap{f}} && \downarrow
     \\
-    Y_\bullet &\longrightarrow& B_\bullet
+    Y &\longrightarrow& B
   }
   \,.
 $$
@@ -1942,24 +1944,26 @@ $$
   \,.
 $$
 
-This is a [[cocone]] under the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)), while the compatible lift $l_{n+1}$ is equivalently a lift against this pushout product:
+This is a [[cocone]] under the commuting square for the structure maps, and therefore the outer diagram is equivalently a morphism out of the [[domain]] of the [[pushout product]] $f_n \Box \sigma_n^X$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)), while the compatible lift $l_{n+1}$ is equivalently a lift against this [[pushout product]]:
 
 $$
   \array{
     S^1 \wedge Y_n 
       \underset{S^1 \wedge X_n}{\sqcup} 
     X_{n+1}
-    &\stackrel{(\sigma_n^A \circ S^1 \wedge l_n,h_{n+1})}{\longrightarrow}&
+      &\stackrel{(\sigma_n^A \circ S^1 \wedge l_n,\;h_{n+1})}{\longrightarrow}&
     A_{n+1}
     \\
-    \downarrow &{}^{\mathllap{l_{n+1}}}\nearrow& \downarrow
+    {}^{\mathllap{f_n \Box \sigma^X_n}}\downarrow 
+      &{}^{\mathllap{l_{n+1}}}\nearrow& 
+    \downarrow
     \\
     Y_{n+1} &\stackrel{}{\longrightarrow}& B_{n+1}
   }
   \,.
 $$
 
-This shows that $f_\bullet$ is a strict cofibration precisely if (in addition to $f_0$ being a classical cofibration) all these pushout products are classical cofibrations.
+This shows that $f_\bullet$ is a strict cofibration precisely if, in addition to $f_0$ being a classical cofibration, all these pushout products are classical cofibrations.
 
 =--
 
@@ -2073,7 +2077,7 @@ $$
 
 =--
 
-Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences that the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure. 
+Further [below](#StableModelStructureOnSequentialSpectra) we pass to the stable model structure in order to make the bottom adjunction in this diagram become a [[Quillen equivalence]]. This stable model structure will have more weak equivalences than the strict model structure, but will have the same cofibrations. Therefore we first consider now cofibrancy conditions already in the strict model structure. 
 
 ##### CW-spectra
  {#CWSpectra}
@@ -2105,7 +2109,7 @@ The class of CW-spectra is closed under the following operations:
 +-- {: .num_prop #CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}
 ###### Proposition
 
-A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]]. In particular [[CW-spectra]], def. \ref{CWSpectrum}, are cofibrant in $SeqSpec(Top)_{strict}$.
+A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict model structure $SeqSpec(Top_{cg})_{strict}$ of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory} in particular if all component spaces are [[cell complexes]] and all its structure morphisms $S^1 \wedge X_n \to X_{n+1}$ are [[relative cell complexes]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)). In particular [[CW-spectra]], def. \ref{CWSpectrum}, are cofibrant in $SeqSpec(Top)_{strict}$.
 
 =--
 
@@ -2114,21 +2118,23 @@ A [[sequential spectrum]] $X \in SeqSpec(Top_{cg})$ is cofibrant in the strict m
 
 A morphism $\ast \to X$ is a cofibration according to def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra} if 
 
-1. $X_0$ is cofibrant, hence a retract of a [[cell complex]];
+1. The object $X_0$ is a classical cofibrant, hence a retract of a [[cell complex]];
 
-1. $$
-     \ast_{n+1}\underset{S^1 \wedge \ast_n}{\coprod} S^1 \wedge X_n
+1. The morphisms
+
+   $$
+     \ast_{n+1}\underset{S^1 \wedge \ast_n}{\sqcup} S^1 \wedge X_n
      \longrightarrow
      X_{n+1}
    $$
 
-   is a cofibration. But in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
+   are classical cofibrations. But in this case the [[pushout]] reduces to just its second summand, and so this is now equivalent to
 
    $$
      S^1 \wedge X_n \longrightarrow X_{n+1}
    $$
 
-   being cofibrations; hence [[retracts]] of [[relative cell complexes]].
+   being classical cofibrations; hence [[retracts]] of [[relative cell complexes]].
 
 =--
 
@@ -2141,7 +2147,7 @@ $$
   X \vee X \longrightarrow X \wedge (I_+)
 $$
 
-is a cofibration in $SeqSpec(Top)_{stable}$.
+(of the [[wedge sum]] of $X$ with itself, example \ref{WedgeSumOfSpectra}) is a cofibration in $SeqSpec(Top)_{stable}$.
 
 =--
 
@@ -2165,7 +2171,7 @@ $$
   \underset{(S^1 \wedge X_n )\vee (S^1 \wedge X_n))}{\sqcup}
    S^1 \wedge X_n \wedge (I_+)
   \longrightarrow
-  X_{n+1} \wedge I_+
+  X_{n+1} \wedge (I_+)
   \,.
 $$
 
@@ -2173,7 +2179,15 @@ Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-comple
 
 =--
 
-We now turn to discussion of [[CW-approximation]] of sequential spectra. First recall the relative version of CW-approximation for topological spaces:
+We now turn to discussion of [[CW-approximation]] of sequential spectra. First recall the relative version of CW-approximation for topological spaces.
+
+For the following, recall that a [[continuous function]] $f \colon X \to Y$ between [[topological spaces]] is called an **[[n-connected map]]** if the unduced morphism on [[homotopy groups]] $\pi_\bullet(f)\colon \pi_\bullet(X,x) \to \pi_\bullet(Y,f(x))$ is
+
+1. an [[isomorphism]] in degree $\lt n$;
+
+1. an [[epimorphism]] in degree $n$.
+
+(Hence an [[weak homotopy equivalence]] is an "$\infty$-connected map".)
 
 +-- {: .num_lemma #nConnectedCWApproximationOfContinuousFunction}
 ###### Lemma
@@ -2223,20 +2237,20 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Apply lemma \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for all $n$ to produce a sequence with [[cocone]] of the form
+Apply lemma \ref{nConnectedCWApproximationOfContinuousFunction} iteratively for $n \in \mathbb{N}$ to produce a sequence with [[cocone]] of the form
 
 $$
   \array{
-    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_2}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
-    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_1}} & \swarrow_{\mathrlap{\phi_2}} & \cdots 
+    &{}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\phi_0}} & \swarrow_{\mathrlap{\phi_1}} & \cdots 
     \\
     && X
   }
   \,,
 $$
 
-where each $f_i$ is a [[relative CW-complex]] and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
+where each $f_n$ is a [[relative CW-complex]] adding cells exactly of dimension $n$, and where $\phi_n$ in [[n-connected continuous function|n-connected]]. 
 
 Let then $\hat X$ be the [[colimit]] over the sequence (its [[transfinite composition]]) and $\hat f \colon A \to X$ the induced component map. By definition of relative CW-complexes, this $\hat f$ is itself a relative CW-complex.
 
@@ -2244,7 +2258,7 @@ By the [[universal property]] of the colimit this factors $f$ as
 
 $$
   \array{
-    A &\overset{f_1}{\longrightarrow}& X_1 &\overset{f_2}{\longrightarrow}& X_2 &\longrightarrow & \cdots
+    A &\overset{f_0}{\longrightarrow}& X_0 &\overset{f_1}{\longrightarrow}& X_1 &\longrightarrow & \cdots
     \\
     &{}_{\mathllap{}}\searrow & \downarrow^{\mathrlap{}} & \swarrow_{\mathrlap{}} & \cdots 
     \\
@@ -2257,7 +2271,7 @@ $$
   \,.
 $$
 
-Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_n$, which is $n$-connected and hence an isomorphism on the homotopy class of $\alpha$.
+Finally to see that $\phi$ is a weak homotopy equivalence: since [[n-spheres]] are [[compact topological spaces]], then every map $\alpha \colon S^n \to \hat X$ factors through a finite stage $i \in \mathbb{N}$ as $S^n \to X_i \to  \hat X$ (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)). By possibly including further into higher stages, we may choose $i \gt n$.  But then the above says that further mapping along $\hat X \to X$ is the same as mapping along $\phi_i$, which is $(i \gt n)$-connected and hence an isomorphism on the homotopy class of $\alpha$.
 
 =--
 
@@ -2281,14 +2295,22 @@ which is degreewise a [[weak homotopy equivalence]], hence a weak equivalence in
 First let $\hat X_0 \longrightarrow X_0$ be a CW-approximation of the component space in degree 0, via prop. \ref{CWApproximationForContinuousFunctions}. Then proceed by [[induction]]: suppose that for $n \in \mathbb{N}$ a [[CW-approximation]] $\phi_{k \leq n} \colon  \hat X_{k \leq n} \to X_{k \leq n}$ has been found such that all the structure maps are respected. Consider then the continuous function
 
 $$
-  \Sigma \hat X_n \overset{\Sigma \phi_n}{\longrightarrow} \Sigma X_n \overset{\sigma_n}{\longrightarrow} X_{n+1}
+  S^1 \wedge \hat X_n 
+    \overset{S^1 \wedge \phi_n}{\longrightarrow} 
+  S^1 \wedge X_n 
+    \overset{\sigma_n}{\longrightarrow} 
+  X_{n+1}
   \,.
 $$
 
 Applying prop. \ref{CWApproximationForContinuousFunctions} to this function factors it as
 
 $$
-  \Sigma \hat X_n \hookrightarrow \hat X_{n+1} \overset{\phi_{n+1}}{\longrightarrow} X_{n+1}
+  S^1 \wedge \hat X_n 
+    \hookrightarrow 
+  \hat X_{n+1} 
+    \overset{\phi_{n+1}}{\longrightarrow} 
+  X_{n+1}
   \,.
 $$
 
@@ -2296,9 +2318,9 @@ Hence we have obtained the next stage of the CW-approximation. The respect for t
 
 $$
   \array{  
-    \Sigma \hat X_n 
-      &\overset{\Sigma \phi_n}{\longrightarrow}& 
-    \Sigma X_n
+    S^1 \wedge \hat X_n 
+      &\overset{S^1 \wedge \phi_n}{\longrightarrow}& 
+    S^1 \wedge X_n
     \\
     {}^{incl}\downarrow && \downarrow^{\mathrlap{\sigma_n}}
     \\
@@ -2714,11 +2736,13 @@ Say that a homomorphism $f_\bullet \colon X_\bullet \to Y_\bullet$ in the catego
 
   (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{strict})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory))of the strict model structure of theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
-* a **stable cofibration** if it is a strict cofibation (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) hence if the 0th component map $f_0\colon X_0 \to Y_0$ as well as all [[pushout products]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProduct)) of all $f_n$ with the structure maps of $X$
+* a **stable cofibration** if it is a strict cofibation (def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) hence if the 0th component map $f_0\colon X_0 \to Y_0$ as well as all  
 
   $$
-    X_{n+1}\underset{S^1 \wedge X_n}{\coprod} S^1 \wedge Y_n
-    \longrightarrow
+    (f_{n+1}, \sigma^Y_n)
+      \;\colon\;
+    X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 \wedge Y_n
+      \longrightarrow
     Y_{n+1}
   $$
 
@@ -5480,7 +5504,7 @@ Taking into account the automorphisms by [[orthogonal group|orthogonal transform
 
 To contrast these more structured models for spectra with the plain [[sequential spectra]], they are sometimes referred to as _[[highly structured spectra]]_.
 
-Below in _[S-modules](#SModules)_ we give a unified discussion of all four models of spectra thus obtained (sequential, symmetric, orthogonal, excisive). Further below in _[The stable model structures](#TheStableModelStructures)_ we use this to construction and understand the [[model structures on spectra]] that present [[stable homotopy theory]].
+Below in _[S-modules](#SModules)_ we give a unified discussion of all four models of spectra thus obtained (sequential, symmetric, orthogonal, excisive). Further below in _[The stable model structures](#TheStableModelStructures)_ we use this to construct and understand the [[model structures on spectra]] that present [[stable homotopy theory]].
 
 $\,$
 
@@ -6661,7 +6685,7 @@ $$
   \,.
 $$
 
-In the symmetric case ($Dia = Sym$) the formula is similar except that $S^0 = Seq(q,q)_+$ is replaced by $Sym(q,q)_+ = \Sigma(q)_+$ and the colimit goes over the automorphisms that fix $q-n$ elements, thereby producing the partial smash tensor shown in the statement. Analogously for the orthogonal case ($Dia = Orth$).
+In the symmetric case ($Dia = Sym$) the formula is similar, except that $S^0 = Seq(q,q)_+$ is replaced by $Sym(q,q)_+ = \Sigma(q)_+$ and the colimit goes over the automorphisms that fix $q-n$ elements, thereby producing the partial smash tensor shown in the statement. Analogously for the orthogonal case ($Dia = Orth$).
 
 =--
 
