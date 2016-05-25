@@ -27,16 +27,22 @@ Natural transformations are the [[2-morphism]]s in the [[2-category]] [[Cat]].
 Given [[categories]] $C$ and $D$ and [[functor]]s $F, G:C \to D,$ a __natural transformation__ $\alpha:F \Rightarrow G$, denoted
 
 $$
-  \array{
-    \\
-    & \nearrow \searrow^F
-    \\
-    C
-    &\Downarrow^{\alpha}&
-    D
-    \\
-    & \searrow \nearrow_G
-  }
+C
+\mathrlap{\underoverset{\textsize{G}}{\textsize{F}}{\begin{matrix}\begin{svg}
+<svg width="76" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3466">
+ <g class="layer">
+  <title>Layer 1</title>
+  <path fill="none" stroke="#000000" d="m1,14c24,-15 52,-15 72,0" id="svg_3466_2" marker-end="url(#se_marker_end_svg_3466_2)"/>
+  <path fill="none" stroke="#000000" d="m0,27c24,15 44,15 72,0" id="svg_3466_3" marker-end="url(#se_marker_end_svg_3466_2)"/>
+ </g>
+ <defs>
+  <marker id="se_marker_end_svg_3466_2" markerUnits="strokeWidth" orient="auto" viewBox="0 0 100 100" markerWidth="5" markerHeight="5" refX="50" refY="50">
+   <path id="svg_3466_1" d="m100,50l-100,40l30,-40l-30,-40l100,40z" fill="#000000" stroke="#000000" stroke-width="10"/>
+  </marker>
+ </defs>
+</svg>
+\end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
+{\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\alpha}\space{0}{0}{12}\phantom{a}} D
   \,,
 $$
 
