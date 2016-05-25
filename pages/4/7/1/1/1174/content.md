@@ -27,7 +27,7 @@ A\mathrlap{\underoverset{\textsize{F_1}}{\textsize{G_1}}{\begin{matrix}\begin{sv
  <use xlink:href="#curvearrows3466"/>
 </svg>
 \end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
-\qquad\Downarrow\mathrlap{\alpha}\qquad B
+{\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\alpha}\space{0}{0}{12}\phantom{a}} B
 \mathrlap{\underoverset{\textsize{F_2}}{\textsize{G_2}}{\begin{matrix}\begin{svg}
 <svg width="76" id="curvearrows3466" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3466">
  <g>
@@ -42,9 +42,10 @@ A\mathrlap{\underoverset{\textsize{F_1}}{\textsize{G_1}}{\begin{matrix}\begin{sv
  </defs>
 </svg>
 \end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
-\qquad\Downarrow\mathrlap{\beta}\qquad C
+{\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\beta}\space{0}{0}{12}\phantom{a}} C
 \mapsto 
-A\mathrlap{\underoverset{\textsize{F_1\colon F_2}}{\textsize{G_1\colon G_2}}{\begin{matrix}\begin{svg}
+A
+\mathrlap{\underoverset{\textsize{F_1\colon F_2}}{\textsize{G_1\colon G_2}}{\begin{matrix}\begin{svg}
 <svg width="86" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3467">
  <g>
   <title>Layer 1</title>
@@ -58,7 +59,7 @@ A\mathrlap{\underoverset{\textsize{F_1\colon F_2}}{\textsize{G_1\colon G_2}}{\be
  </defs>
 </svg>
 \end{svg}\includegraphics[width=65]{curvearrows3467}\end{matrix}}}
-\qquad\Downarrow\mathrlap{\alpha\ast\beta}\space{0}{0}{25} C
+{\phantom{a}\quad\Downarrow\mathrlap{\alpha\ast\beta}\space{0}{0}{20}\phantom{a}} C
 $$
 
 ## Definition
