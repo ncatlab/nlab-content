@@ -120,6 +120,8 @@ Let the ambient [[monoidal category]] be [[Ab]] equipped with the [[tensor produ
 
 Let $R$ be a [[commutative ring]]. Then $R Mod$ is an [[abelian category]].
 
+In fact $R Mod$ is a [[Grothendieck category]].
+
 =--
 
 We discuss now all the ingredients of this statement in detail.
@@ -296,6 +298,17 @@ Using prop. \ref{RModHasKernelsAndCokernels} this is directly checked on the und
 
 Now cor. \ref{RModIsAdditive} and prop. \ref{InRModMonosAreKernelOfTheirCokernel} imply theorem \ref{RModIsAbelian}, by definition.
 
++-- {: .num_prop #FilteredColimitsInRModAreExact}
+###### Proposition
+
+The operation of forming [[filtered colimits]] in $R Mod$
+is an [[exact functor]].
+
+=--
+
+(e.g. [Kiersz, prop. 4](#Kiersz))
+
+
 ### $R Mod$ is a closed monoidal category
  {#RModIsClosedMonoidalCategory}
 
@@ -400,17 +413,18 @@ For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categori
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
 
+* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-
+mod_and_Abelian_Categories.pdf))
 
-* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
+Discussion of limits and colimits in $R Mod$ is in 
+
+* {#Kiersz} Andy Kiersz, _Colimits and homological algebra_, 2006 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
+
 
 A summary of the discussion in [Mod as a bifibration](#ModAsBifibration) and [Tangents and deformation theory](#TangentsAndDeformationTheory) together with their embedding into the bigger picture of [[tangent (∞,1)-category|tangent (∞,1)-categories]] is in
 
 * [[Jacob Lurie]], _[[Deformation Theory]]_
 
-Discussion of limits and colimits in $R Mod$ is in 
-
-* Andy Kiersz, _Colimits and homological algebra_ ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
- {#Kiersz}
 
 
 category: category
