@@ -574,85 +574,16 @@ $$
 =--
 
 
-##### Omega-spectra
- {#OmegaSpectra}
 
-In order to motivate [[Omega-spectra]] consider the following shadow of the structure they will carry:
+##### Stable homotopy groups
 
-+-- {: .num_example #BlueprintForIdeaOfOmegaSpectra}
-###### Example
+In analogy to how [[homotopy groups]] are the fundamental invariants in [[Introduction to Stable homotopy theory -- P|classial homotopy theory]], the fundamental invariants of stable homtopy theory are _stable homtopy groups_:
 
-A $\mathbb{Z}$-[[graded abelian group]] is equivalently a sequence $\{A_n\}_{n \mathbb{Z}}$ of $\mathbb{N}$-graded abelian groups $A_n$, together with isomorphisms
-
-$$
-  A_n \simeq A_{n+1}[1]
-  \,,
-$$
-
-(where $[1]$ denotes the operation of shifting all entries in a graded abelian group down in degree by -1). Because this means that the sequence of $\mathbb{N}$-graded abelian groups is of the following form
-
-$$
-  \array{
-    \vdots && \vdots 
-    \\
-    a_3 && a_2 && a_1 && \cdots
-    \\
-    a_2 && a_1 && a_0 && \cdots
-    \\
-    a_1 && a_0 && a_{-1} && \cdots
-    \\
-    \underset{A_0}{\underbrace{a_0}}
-    &&
-    \underset{A_1}{\underbrace{a_{-1}}}
-    &&
-    \underset{A_2}{\underbrace{a_{-2}}}
-    &&
-    \cdots
-  }
-  \,.
-$$
-
-This allows to recover the $\mathbb{Z}$-graded abelian group $\{a_n\}_{n \in \mathbb{Z}}$ from an $\mathbb{N}$-sequence of $\mathbb{N}$-graded abelian groups.
-
-Then consider the case that the $\mathbb{N}$-graded abelian groups here are [[homotopy groups]] of some [[topological space]]. Then shifting the degree of the component groups corresponds to forming [[loop spaces]], because for any topological space $X$ then 
-
-$$
-  \pi_\bullet(\Omega X) 
-  \simeq
-  \pi_{\bullet + 1}(X)
-  \,.
-$$
-
-(This may be seen concretely in point-set topology or abstractly by looking at the [[long exact sequence of homotopy groups]] for the fiber sequence $\Omega X \to Path_*(X) \to X$.)
-
-We find this kind of behaviour for the stable homotopy groups of Omega-spectra below in example \ref{StableHomotopyGroupsOfOmegaSpectrum}.
-
-=--
-
-
-+-- {: .num_defn #OmegaSpectrum}
-###### Definition
-
-An **[[Omega-spectrum]]** is a [[sequential spectrum]] $X$ of topological spaces, def. \ref{SequentialSpectra}, such that the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]] $\tilde \sigma_n$ of the structure maps $\sigma_n \colon \Sigma X_n \to X_{n+1}$ of $X$ are [[weak homotopy equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakHomotopyEquivalenceOfTopologicalSpaces)), hence classical weak equivalences ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassesOfMorhismsInTopQuillen)):
-
-$$
-  \tilde \sigma_n
-  \;\colon\;
-  X_n  \stackrel{\in W_{cl}}{\longrightarrow}  Maps(S^1,X_{n+1})_\ast
-$$
-
-for all $n \in \mathbb{N}$.
-
-Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} such that all adjunct structure maps are weak homotopy equivalences.
-
-=--
-
-We will see that Omega-spectra are singled out among all sequential pre-spectra as having good behaviour for the following definition of _stable homotopy groups_.
 
 +-- {: .num_defn #StableHomotopyGroups}
 ###### Definition
 
-The **[[stable homotopy groups]]** of a [[sequential prespectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian group]] given by the [[colimit]] of [[homotopy groups]] of the component spaces
+The **[[stable homotopy groups]]** of a [[sequential prespectrum]] $X$, def. \ref{SequentialSpectra}, is the $\mathbb{Z}$-[[graded abelian group]] given by the [[colimit]] of [[homotopy groups]] of the component spaces ([def.](Introduction+to+Stable+homotopy+theory+-+P#HomotopyGroupsOftopologicalSpaces))
 
 $$
   \pi_\bullet(X)
@@ -750,7 +681,7 @@ Then consider the identity element in the top left hom-set. Its image under the 
 +-- {: .num_example}
 ###### Example
 
-Given $X \in Top_{cg}$, then the [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) of its [[suspension spectrum]] (example \ref{SuspensionSpectrum}) are given by
+Given $X \in Top^{\ast/}_{cg}$, then the [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) of its [[suspension spectrum]] (example \ref{SuspensionSpectrum}) are given by
 
 $$
   \begin{aligned}
@@ -812,6 +743,196 @@ Historically, this fact was one of the motivations for finding a [[stable homoto
 
 =--
 
+
+
+
++-- {: .num_defn #StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}
+###### Definition
+
+A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
+
+$$
+  \pi_\bullet(f) 
+    \;\colon\; 
+  \pi_\bullet(X) 
+    \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(Y)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #OmegaSigmaAdjunctionUnitOnSequentialSpectraIsStableWeakHomotopyEquivalence}
+###### Example
+
+For $X \in SeqSpec(Top_{cg})$ then the [[adjunction unit]]
+
+$$
+  \eta_X 
+  \;\colon\;
+  X \longrightarrow Maps(S^1, S^1 \wedge X)_\ast
+$$
+
+(of the adjunction from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering})
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the proof of prop. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}, on component spaces the adjunction is the corresponding adjunction of topological spaces from prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}. Hence the morphism of directed systems of groups that enter the defininition of stable homotopy groups in def. \ref{StableHomotopyGroups} looks as follows
+
+$$
+  \array{
+    \cdots 
+      &\to&
+    [S^{q+k},X_k]_\ast
+      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge X_k]_\ast
+      &\overset{[S^{q+k+1}, \sigma_k]}{\longrightarrow}&
+    [S^{q+k+1}, X_{k+1}]_\ast
+      &\to&
+    \cdots
+    \\
+    &&
+    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
+    && 
+    \downarrow
+    &&
+    \downarrow
+    \\
+    \cdots
+      &\to&
+    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+      &\overset{}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+      &\overset{}{\longrightarrow}&
+    [S^{q+k+1}, Maps(S^1, S^1 \wedge X_{k+1})_\ast]_\ast    
+      &\to&
+    \cdots 
+  }
+  \,.
+$$
+
+Observe then that the adjunction isomorphism $[S^{q+k+1}, S^1 \wedge X_k]_\ast \overset{\simeq}{\to} [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast$ fits into a commuting triangle
+
+$$
+  \array{
+    [S^{q+k},X_k]_\ast
+      &\overset{(S^1\wedge(-))_{S^{q+k},X_k}}{\longrightarrow}&
+    [S^{q+k+1}, S^1 \wedge X_k]_\ast
+    \\
+    {}^{\mathllap{[S^{q+k},\eta_{X_k}]_\ast }}\downarrow
+      & \swarrow_{\mathrlap{\simeq}}
+    \\
+    [S^{q+k},Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+  }
+  \,.
+$$
+
+To see this in detail, consider for any $\alpha \in [S^{q+k},X_k]$ the adjunction naturality square
+
+$$
+  \array{
+    [S^1 \wedge X_k, S^1 \wedge X_k]_\ast
+      &\overset{\simeq}{\longrightarrow}&
+    [X_k, Maps(S^1, S^1 \wedge X_k)_\ast]_\ast
+    \\
+    {}^{\mathllap{S^1 \wedge \alpha \circ (-) \circ id}}\downarrow 
+    &&
+    \downarrow^{\mathrlap{\alpha \circ (-) \circ Maps(S^1, id)_\ast}}
+    \\
+    [S^{q+k+1}, S^1 \wedge X_k]
+      &\underset{\simeq}{\longrightarrow}&
+    [S^{q+k}, Maps(S^1, S^1 \wedge X_k)]
+  }
+$$
+
+and chase $id_{S^1 \wedge X_k}$ both ways from top left to bottom right.
+
+These diagonal isomorphism imply that under taking the [[colimit]] over the horizontal sequences, the vertical morphisms induce an isomorphism.
+
+
+=--
+
+
+##### Omega-spectra
+ {#OmegaSpectra}
+
+
+In order to motivate [[Omega-spectra]] consider the following shadow of the structure they will carry:
+
++-- {: .num_example #BlueprintForIdeaOfOmegaSpectra}
+###### Example
+
+A $\mathbb{Z}$-[[graded abelian group]] is equivalently a sequence $\{A_n\}_{n \mathbb{Z}}$ of $\mathbb{N}$-graded abelian groups $A_n$, together with isomorphisms
+
+$$
+  A_n \simeq A_{n+1}[1]
+  \,,
+$$
+
+(where $[1]$ denotes the operation of shifting all entries in a graded abelian group down in degree by -1). Because this means that the sequence of $\mathbb{N}$-graded abelian groups is of the following form
+
+$$
+  \array{
+    \vdots && \vdots 
+    \\
+    a_3 && a_2 && a_1 && \cdots
+    \\
+    a_2 && a_1 && a_0 && \cdots
+    \\
+    a_1 && a_0 && a_{-1} && \cdots
+    \\
+    \underset{A_0}{\underbrace{a_0}}
+    &&
+    \underset{A_1}{\underbrace{a_{-1}}}
+    &&
+    \underset{A_2}{\underbrace{a_{-2}}}
+    &&
+    \cdots
+  }
+  \,.
+$$
+
+This allows to recover the $\mathbb{Z}$-graded abelian group $\{a_n\}_{n \in \mathbb{Z}}$ from an $\mathbb{N}$-sequence of $\mathbb{N}$-graded abelian groups.
+
+Then consider the case that the $\mathbb{N}$-graded abelian groups here are [[homotopy groups]] of some [[topological space]]. Then shifting the degree of the component groups corresponds to forming [[loop spaces]], because for any topological space $X$ then 
+
+$$
+  \pi_\bullet(\Omega X) 
+  \simeq
+  \pi_{\bullet + 1}(X)
+  \,.
+$$
+
+(This may be seen concretely in point-set topology or abstractly by looking at the [[long exact sequence of homotopy groups]] for the fiber sequence $\Omega X \to Path_*(X) \to X$.)
+
+We find this kind of behaviour for the stable homotopy groups of Omega-spectra below in example \ref{StableHomotopyGroupsOfOmegaSpectrum}.
+
+=--
+
+
++-- {: .num_defn #OmegaSpectrum}
+###### Definition
+
+An **[[Omega-spectrum]]** is a [[sequential spectrum]] $X$ of topological spaces, def. \ref{SequentialSpectra}, such that the ([[smash product]] $\dashv$ [[pointed mapping space]])-[[adjuncts]] $\tilde \sigma_n$ of the structure maps $\sigma_n \colon \Sigma X_n \to X_{n+1}$ of $X$ are [[weak homotopy equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#WeakHomotopyEquivalenceOfTopologicalSpaces)), hence classical weak equivalences ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassesOfMorhismsInTopQuillen)):
+
+$$
+  \tilde \sigma_n
+  \;\colon\;
+  X_n  \stackrel{\in W_{cl}}{\longrightarrow}  Maps(S^1,X_{n+1})_\ast
+$$
+
+for all $n \in \mathbb{N}$.
+
+Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation of def. \ref{SequentialSpectrumViaAdjunctStructureMaps} such that all adjunct structure maps are weak homotopy equivalences.
+
+=--
+
+Omega-spectra are singled out among all sequential pre-spectra as having good behaviour under forming [[stable homotopy groups]].
+
 +-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
 ###### Example
 
@@ -847,24 +968,7 @@ For an Omega-spectrum, the adjunct structure maps $\tilde \sigma_X$ are [[weak h
 =--
 
 
-
-+-- {: .num_defn #StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}
-###### Definition
-
-A morphism $f \colon X \longrightarrow Y$ of [[sequential spectra]], def. \ref{SequentialSpectra}, is called a **[[stable weak homotopy equivalence]]**, if its image under the [[stable homotopy group]]-functor of def. \ref{StableHomotopyGroups} is an [[isomorphism]]
-
-$$
-  \pi_\bullet(f) 
-    \;\colon\; 
-  \pi_\bullet(X) 
-    \overset{\simeq}{\longrightarrow}
-  \pi_\bullet(Y)
-  \,.
-$$
-
-=--
-
-We now show that every sequential pre-spectrum may be completed to an Omega-spectrum:
+We now show that every sequential pre-spectrum may be completed to an Omega-spectrum, up to stable weak homotopy equivalence:
 
 +-- {: .num_defn #SpectrificationForTopologicalSequentialSpectra}
 ###### Definition
@@ -1074,6 +1178,11 @@ If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigm
 Similarly for the fourth statement.
 
 =--
+
+
+
+
+
 
 
 ##### As topological diagrams
