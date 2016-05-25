@@ -51,7 +51,7 @@ a\mathrlap{\begin{matrix}\begin{svg}
   </marker>
  </defs>
 </svg>
-\end{svg}\includegraphics[width=56]{curvearrows}\end{matrix}}\qquad\Downarrow\qquad b
+\end{svg}\includegraphics[width=56]{curvearrows}\end{matrix}}{\phantom{a}\space{0}{0}{13}\Downarrow\space{0}{0}{13}\phantom{a}} b
 $$
 
 A **simplicial** $2$-morphism looks like this:
