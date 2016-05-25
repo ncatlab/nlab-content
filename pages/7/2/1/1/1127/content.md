@@ -34,13 +34,13 @@ In terms of the AB$n$ hierarchy discussed at [[additive and abelian categories]]
 
 A **Grothendieck category** is an [[additive and abelian categories|AB5-category]] which has a [[separator|generator]].
 
-This means that a **Grothendieck category** is an [[abelian category|abelian]] [[small category]]
+This means that a **Grothendieck category** is a [[small category|small]] [[abelian category]]
 
 * that admits a [[separator|generator]];
 
 * that admits small [[colimits]];
 
-* such that small [[filtered category|filtered]] [[colimits]] are _exact_ in the following sense:
+* such that small [[filtered category|filtered]] [[colimits]] are _[[exact functor|exact]]_ in the following sense:
 
   * for $I$ a [[direction|directed set]] and $0 \to A_i \to B_i \to C_i \to 0$ an [[exact sequence]] for each $i \in I$, then $0 \to colim_i A_i \to colim_i B_i \to colim_i C_i \to 0$ is also an [[exact sequence]].
 
@@ -66,7 +66,7 @@ Much of the localization theory of rings generalizes to general Grothendieck cat
 
 ## Examples
 
-* For $R$ a [[ring]], $R$[[Mod]] is a [[Grothendieck category]].
+* For $R$ a [[commutative ring]], its [[category of modules]] $R$[[Mod]] is a Grothendieck category. (see e.g [Kiersz 06, prop. 4](#Kiersz) for the proof that filtered colimits here are exact.)
 
 * For $C$ a [[small category|small]] [[abelian category]], the category $Ind(C)$ of [[ind-objects]] in $C$ is a Grothendieck category.
 
@@ -87,7 +87,11 @@ Grothendieck categories are mentioned at the end of section 8.3 in
 
 The relation to complexes is in section 14.1.
 
-See also books
+The proof that filtered colimits in $R Mod$ are exact is spelled out for instance in 
+
+* {#Kiersz} Andy Kiersz, _Colimits and homological algebra_, 2006 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2006/PAPERS/Kiersz.pdf))
+
+See also 
 
 * [[Peter Freyd]], _Abelian categories_, Harper (1966O) 
 * Nicolae Popescu, _An introduction to Abelian categories with applications to rings and modules_, Academic Press 1973
