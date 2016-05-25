@@ -778,6 +778,7 @@ $$
 (of the adjunction from prop. \ref{AdjunctionBetweenSmashTensoringAndPowering})
 is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
 
+
 =--
 
 +-- {: .proof}
@@ -857,6 +858,12 @@ These diagonal isomorphism imply that under taking the [[colimit]] over the hori
 
 =--
 
++-- {: .num_example #MorphismsOfSequentialSpectraIsStableWeakHomotopyEquivalencePreviselyIfItsSmashWithCircleIs}
+###### Example
+
+A morphsim $f\colon X \to Y$ in $SeqSpec(Top_{cg})$ is a [[stable weak homotopy equivalence]] precisely if its smash tensoring $f \wedge S^1 \colon X \wedge S^1 \to Y \wedge S^1$ is.
+
+=--
 
 
 +-- {: .num_prop #LongExactSequenceofStableHomotopyGroupsViaMappingCones}
@@ -899,9 +906,13 @@ $$
      \cdots 
      \\
      && 
-      {}^{\mathllap{\phi_\ast}}\downarrow^{\mathrlap{\simeq}}
+      {}^{\mathllap{\simeq}}\downarrow^{\phi_\ast}
         &&
-      \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{=}} && \downarrow^{\mathrlap{\simeq}}
+      {}^{\mathllap{\simeq}}\downarrow^{\eta_X} 
+        && 
+      {}^{\mathllap{\simeq}}\downarrow^{\eta_Y} 
+        && 
+      {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{\phi}}
     \\
     \cdots
       &\to&
@@ -918,16 +929,66 @@ $$
   \,,
 $$
 
-where the top and bottom are [[long exact sequences]].
+where the top and bottom are [[long exact sequences]], and where $\eta_{X}\colon X \to \Omega \Sigma X$ is [[stable weak homotopy equivalence]] from example \ref{OmegaSigmaAdjunctionUnitOnSequentialSpectraIsStableWeakHomotopyEquivalence}.
+
+Dually, the canonical morphism
+
+$$
+  \tilde \phi \;\colon\; Path_\ast(f) \wedge S^1 \longrightarrow Cone(f)
+$$
+
+is a [[stable weak homotopy equivalence]] and it sits in a similar commuting diagram
+ 
+
+$$
+  \array{
+    \cdots
+      &\to&
+    \pi_{\bullet+1}(Cone(f))
+     &\longrightarrow&
+    \pi_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    \pi_\bullet(Y)
+      &\overset{j_\ast}{\longrightarrow}&
+    \pi_\bullet(Cone(f)) 
+      &\to&
+    \cdots
+     \\
+     && 
+      {}^{\mathllap{\simeq}}\downarrow^{\tiilde \phi_\ast}
+        &&
+      {}^{\mathllap{\simeq}}\downarrow^{\epsilon_X} 
+        && 
+      {}^{\mathllap{\simeq}}\downarrow^{\epsilon_Y} 
+        && 
+      {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{\tilde \phi}}
+    \\
+     \cdots
+       &\to&
+     \pi_{\bullet}(Path_\ast(f))
+       &\overset{i_\ast}{\longrightarrow}&
+     \pi_\bullet(X)
+       &\overset{}{\longrightarrow}&
+     \pi_\bullet(Y)
+       &\longrightarrow&
+     \pi_{\bullet-1}(Path_\ast(f))
+       &\to&
+     \cdots 
+  }
+  \,,
+$$
+
 
 =--
 
-(e.g. [Mandell-May-Schwede-Shipley 01, theorem 7.4 (vi)](#MMSS00))
+([Lewis-May-Steinberger 86, lemma 2.1, lemma 2.3, theorem 2.4](#LewisMaySteinberger86), [Mandell-May-Schwede-Shipley 01, theorem 7.4 (vi)](#MMSS00))
 
 +-- {: .proof}
 ###### Proof
 
 For the following discussion, recall from the nature of the standard sequential cylinder spectrum $X \wedge (I_+)$ and the fact that limits and colimits of sequential spectra are computed degreewise (prop. \ref{LimitsAndColimitsOfSequentialSpectra}) it follows that the mapping cones and mapping cocones of sequential spectra are degreewise the mapping cones and mapping cocones of pointed topological spaces induced from the standard reduced cyclinder construction ([def.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) of pointed topological spaces.
+
+We consider the first case. The second is formally dual.
 
 Regarding the exactness of the top sequence:
 
@@ -994,7 +1055,6 @@ $$
 $$
 
 and that this is exact follows since on the category [[Ab]] of [[abelian group]], forming [[filtered colimits]] is an [[exact functor]] ([prop.](Mod#FilteredColimitsInRModAreExact)).
-
 
 Now regarding the exactness of the bottom sequence:
 
@@ -1104,42 +1164,7 @@ $$
 
 Finally regarding the vertical morphisms $\phi_\ast$
 
-First notice that $\phi$ makes commuting squares in the first place, by unwinding the [[limits]] which give the [[mapping cocones]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#MappingConeAndMappingCocone)) and the induced looping ([def.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopSpaceObject)):
-
-$$
-  \array{
-    & \ast &\longrightarrow& X &\longrightarrow& \ast
-    \\
-    & \downarrow  && \downarrow && \downarrow
-    \\
-    & Y &\overset{id}{\longrightarrow}& Y &\overset{j}{\longrightarrow}& Cone(f)
-    \\
-    & \uparrow && \uparrow && \uparrow
-    \\
-    & Maps(I_+,Y)_\ast &\overset{id}{\longrightarrow}& Maps(I_+,Y)_\ast &\overset{Maps(I_+,j)_\ast}{\longrightarrow}& Maps(I_+,Cone(f))_\ast
-    \\
-    & \downarrow && \downarrow && \downarrow
-    \\
-    & Y &\overset{id}{\longrightarrow}& Y &\overset{j}{\longrightarrow}& Cone(f)
-    \\
-    & \uparrow && \uparrow && \uparrow
-    \\
-    & \ast &\longrightarrow& \ast &\longrightarrow& \ast
-    \\
-    {}^{\mathllap{\underset{\longrightarrow}{\lim}}}\downarrow
-    \\
-    \Omega j \colon 
-      & 
-    \Omega Y 
-      &\longrightarrow& 
-    Path_\ast(f) 
-      &\overset{\phi}{\longrightarrow}& 
-    \Omega Cone(f)
-  }
-  \,.
-$$
-
-Hence in summary we do have a commuting diagram of exact sequences as shown in the statement, and hence the fact that $\phi_\ast$ is an isomorphism follows from exactness via the [[five lemma]]. Hence $\phi$ is a stable weak homotopy equivalence.
+First notice that $\phi$ makes commuting squares in the first place. Hence in summary we do have a commuting diagram of exact sequences as shown in the statement, and hence the fact that $\phi_\ast$ is an isomorphism follows from exactness via the [[five lemma]]. Hence $\phi$ is a stable weak homotopy equivalence.
 
 =--
 
@@ -3727,6 +3752,8 @@ The first item follows since $F$, being the pullback of a $K$-injective morphism
 
 For the second item: (...)
 
+This establishes the second property above.
+
 Now with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalencesForSequentialSpectra} these two properties imply that $F \to \ast$ is already a weak equivalence in the strict model structure. From this the [[long exact sequence of homotopy groups]] ([exmpl.](Introduction+to+Stable+homotopy+theory+-+P#LongExactSequeceOfHomotopyGroups)) implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
 To deduce the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrationsForSequentialSpectra} gives that $f_0$ is the pullback (in topological spaces) of $\Omega (f_{1})$. But by the above $\Omega f_{1}$ is a weak homotopy equivalence, and since $\Omega = Maps(S^1,-)_\ast$ is a  right Quillen functor (prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}) it is also a Serre fibration. Therefore $f_0$ is the pullback of an acyclic Serre fibration and hence itself a weak homotopy equivalence.
@@ -5679,6 +5706,8 @@ with $\pi_0$ of the 0-component of $Q X$. With this the statement follows with e
 =--
 
 As a consequence, we finally obtain the abstract homotopy theoretic verification of the long exact sequences of stable homotopy groups that we constructed via [[mapping cones]] in prop. \ref{LongExactSequenceofStableHomotopyGroupsViaMappingCones}:
+
+> (the following secretly uses left propertness)
 
 +-- {: .num_prop #LongExactSequenceOfStableHomotopyGroups}
 ###### Proposition
@@ -8605,13 +8634,17 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 ## References
  {#References}
 
-We give the modern picture of the stable homotopy category, for which an enjoyable survey may be found in
+We give the modern picture of the stable homotopy category, for which a quick survey may be found in
 
 * {#Malkiewich14} [[Cary Malkiewich]], _The stable homotopy category_, 2014 ([pdf](http://math.uiuc.edu/~cmalkiew/stable.pdf)).
 
-The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is still a good read, but ignore the "[[Adams category]]"-construction of the [[stable homotopy category]] in sections III.2 and III.3. 
+Textbook accounts on stable homotopy theory for "unstructured" spectra include
 
-What we actually consider follows 
+* {#Adams74} [[Frank Adams]], part III sections 2, 4-7 of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
+
+* {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, chapter I of _Equivariant stable homotopy theory_ Springer Lecture Notes in Mathematics Vol.1213. 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
+
+What we actually consider above follows 
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
