@@ -22,13 +22,13 @@
 The __Godement product__ of two [[natural transformations]] between appropriate [[functors]] is their [[horizontal composition]] as 2-cells in the [[2-category]] [[Cat]] of [[categories]], functors and natural transformations:
 
 $$
-A\mathrlap{\underoverset{\textsize{F_1}}{\textsize{G_1}}{\begin{matrix}\begin{svg}
+A\mathrlap{\underoverset{\textsize{G_1}}{\textsize{F_1}}{\begin{matrix}\begin{svg}
 <svg width="76" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
  <use xlink:href="#curvearrows3466"/>
 </svg>
 \end{svg}\includegraphics[width=53]{curvearrows3466}\end{matrix}}}
 {\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\alpha}\space{0}{0}{12}\phantom{a}} B
-\mathrlap{\underoverset{\textsize{F_2}}{\textsize{G_2}}{\begin{matrix}\begin{svg}
+\mathrlap{\underoverset{\textsize{G_2}}{\textsize{F_2}}{\begin{matrix}\begin{svg}
 <svg width="76" id="curvearrows3466" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3466">
  <g>
   <title>Layer 1</title>
@@ -45,7 +45,7 @@ A\mathrlap{\underoverset{\textsize{F_1}}{\textsize{G_1}}{\begin{matrix}\begin{sv
 {\phantom{a}\space{0}{0}{12}\Downarrow\mathrlap{\beta}\space{0}{0}{12}\phantom{a}} C
 \mapsto 
 A
-\mathrlap{\underoverset{\textsize{F_1\colon F_2}}{\textsize{G_1\colon G_2}}{\begin{matrix}\begin{svg}
+\mathrlap{\underoverset{\textsize{G_1\colon G_2}}{\textsize{F_1\colon F_2}}{\begin{matrix}\begin{svg}
 <svg width="86" height="39" xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" se:nonce="3467">
  <g>
   <title>Layer 1</title>
