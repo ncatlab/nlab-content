@@ -113,7 +113,167 @@ In the situation of def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillen
 
 =--
 
-The proof of this is a little fiddly. Full details are spelled out in ([Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96)).
+(e.g. [Goerss-Jardine 96, chapter X, lemma 4.4](#GoerssJardine96)).
+
++-- {: .proof}
+###### Proof
+
+We need to show that for every [[commuting square]] of the form
+
+$$
+  \array{
+    A &\overset{\alpha}{\longrightarrow}& X
+    \\
+    {}^{\mathllap{i}}_{\mathllap{\in W_Q \cap Cof_Q}}\downarrow 
+     && 
+    \downarrow^{\mathrlap{f}}
+    \\
+    B &\underset{\beta}{\longrightarrow}& Y
+  }
+$$
+
+there exists a lifting.
+
+To that end, first consider a factorization of the image under $Q$ of this square as follows:
+
+$$
+  \array{
+    Q(A) &\overset{Q(\alpha)}{\longrightarrow}& Q(X)
+    \\
+    {}^{\mathllap{Q(i)}}\downarrow && \downarrow^{\mathrlap{Q(f)}}
+    \\
+    Q(B) &\underset{Q(\beta)}{\longrightarrow}& Q(Y)
+  }
+  \;\;\;\;\;\;
+  \simeq
+  \;\;\;\;\;\;
+  \array{
+    Q(A) 
+     &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
+    Z 
+     &\underoverset{\in Fib}{p_\alpha}{\longrightarrow}& 
+    Q(X)
+    \\
+    {}^{\mathllap{Q(i)}}\downarrow 
+      &&
+    \downarrow^{\pi}
+      && 
+    \downarrow^{\mathrlap{Q(f)}}
+    \\
+    Q(B) 
+      &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
+    W 
+      &\underoverset{p_\beta}{\in Fib}{\longrightarrow}& 
+    Q(Y)
+  }
+$$
+
+(This exists even without assuming [[functorial factorization]]: factor the bottom morphism, form the pullback of the resulting $p_\beta$, observe that this is still a fibration, and then factor (through $j_\alpha$) the universal morpism from the outer square into this pullback.)
+
+Now consider the pullback of the right square above along the naturality square of $\eta \colon id \to Q$, take this to be the right square in the following diagram
+
+$$
+  \array{
+    \alpha \colon
+    & 
+    A 
+      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
+    Z \underset{Q(X)}{\times} X
+      &\overset{}{\longrightarrow}&
+    X
+    \\
+    & {}^{\mathllap{i}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{(\pi,f)}}
+      &&
+    \downarrow^{\mathrlap{f}}&
+    \\
+    \beta \colon 
+    & 
+    B 
+      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
+    W \underset{Q(Y)}{\times} Y
+      &\underset{}{\longrightarrow}&
+    Y
+  }
+  \,,
+$$
+
+where the left square is the universal morphism into the pullback which is induced from the naturality squares of $\eta$ on $\alpha$ and $\beta$.
+
+We claim that $(\pi,f)$ here is a weak equivalence. This implies that we find the desired lift by factoring $(\pi,f)$ into an acyclic cofibration followed by an acyclic fibration and then lifting consecutively as follows
+
+$$
+  \array{
+    \alpha \colon
+    & 
+    A 
+      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
+    Z \underset{Q(X)}{\times} X
+      &\overset{}{\longrightarrow}&
+    X
+    \\
+    & {}^{\mathllap{id}}\downarrow 
+      &&
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}&
+    \\
+    & 
+    A 
+      &\longrightarrow& 
+      &\overset{\phantom{AAAAAAA}}{\longrightarrow}&
+    Y
+    \\
+    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow 
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
+      &&
+    \downarrow^{\mathrlap{id}}&
+    \\
+    \beta \colon & 
+    B 
+      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
+    W \underset{Q(Y)}{\times} Y
+      &\longrightarrow&
+    Y
+  }
+  \,.
+$$
+
+To see that $(\phi,f)$ indeed is a weak equivalence:
+
+Consider the diagram
+
+$$
+  \array{
+     Q(A) 
+       &\underoverset{\in W \cap Cof}{j_\alpha}{\longrightarrow}& 
+     Z
+       &\underoverset{\in W}{pr_1}{\longleftarrow}&
+     Z \underset{Q(X)}{\times} X
+     \\
+     {}^{\mathllap{Q(i)}}_{\mathllap{\in W}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{\pi}}
+       && 
+     \downarrow^{\mathrlap{(\pi,f)}}
+     \\
+     Q(B) 
+       &\underoverset{j_\beta}{\in W \cap Cof}{\longrightarrow}& 
+     Z
+       &\underoverset{pr_2}{\in W}{\longleftarrow}&
+     W \underset{Q(X)}{\times} X
+  }
+  \,.
+$$
+
+Here the projections are weak equivalences as shown, because by assumption in def. \ref{QuillenIdempotentMonad} the ambient model category is [[right proper model category|right proper]] and these projections are the pullbacks along the fibrations $p_\alpha$ and $p_\beta$ of the morphisms $\eta_X$ and $\eta_Y$, respectively, where the latter are weak equivalences by assumption. Moreover $Q(i)$ is a weak equivalence, since $i$ is a $Q$-weak equivalence.
+
+Hence now it follows by [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) that $\pi$ and then $(\pi,f)$ are weak equivalences.
+
+=--
+
 
 +-- {: .num_prop #BousfieldFriedlanderTheorem}
 ###### Proposition
