@@ -1533,7 +1533,7 @@ The sets $F I$ and $F J$ from def. \ref{GeneratingAndGeneratingAcyclicCofibratio
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed topologically [[model structure on enriched functors]]
+By prop. \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
 
 $$
   \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}FreeMod^{op}, Top^{\ast/}]_{proj}
