@@ -1,13 +1,37 @@
 $$
   \array{
-    Q(X \underset{B}{\times}Y) &\longrightarrow& Q(Y)
+    \alpha \colon
+    & 
+    A 
+      &\overset{(j_\alpha \circ \eta_A, \alpha)}{\longrightarrow}&
+    Z \underset{Q(X)}{\times} A
+      &\overset{}{\longrightarrow}&
+    X
     \\
-    {}^{\mathllap{\in W_{strict}}}\downarrow && \downarrow^{\mathrlap{\in W_{strict}}}
+    & {}^{\mathllap{id}}\downarrow 
+      &&
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}&
     \\
-    X \underset{B}{\times} \widehat{Q X} &\overset{\in W_{strict}}{\longrightarrow}& \widehat{Q Y}
+    & 
+    A 
+      &\longrightarrow& 
+      &\overset{\phantom{AAAAAAA}}{\longrightarrow}&
+    Y
     \\
-    \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib_{strict}}}
+    & {}^{\mathllap{i}}_{\mathllap{\in Cof}}\downarrow 
+      &{}^{\mathllap{\exists}}\nearrow&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
+      &&
+    \downarrow^{\mathrlap{id}}&
     \\
-    X &\underset{\in W_{strict}}{\longrightarrow}& B
+    \beta \colon & 
+    B 
+      &\underset{(j_\beta\circ\eta_B,\beta)}{\longrightarrow}&
+    W \underset{Q(Y)}{\times} Y
+      &\longrightarrow&
+    Y
   }
+  \,,
 $$
