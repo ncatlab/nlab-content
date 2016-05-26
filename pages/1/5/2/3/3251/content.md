@@ -21,7 +21,7 @@
 
 ## Idea
 
-Equivariant stable homotopy theory over some [[topological group]] $G$ is the [[stable homotopy theory]] of [[G-spectra]]. This includes the [[naive G-spectra]] which constitute the actual [[stabilization]] of [[equivariant homotopy theory]], but is more general, one speaks of _genuine $G$-spectra_. Notably a genuine $G$-spectrum has [[homotopy groups]] graded by the group of [[integers]], but by the [[representation ring]] of $G$ (usually called [[RO(G)-grading]]).
+Equivariant stable homotopy theory over some [[topological group]] $G$ is the [[stable homotopy theory]] of [[G-spectra]]. This includes the [[naive G-spectra]] which constitute the actual [[stabilization]] of [[equivariant homotopy theory]], but is more general, one speaks of _genuine $G$-spectra_. Notably a genuine $G$-spectrum has [[homotopy groups]] graded not by the group of [[integers]], but by the [[representation ring]] of $G$ (usually called [[RO(G)-grading]]).
 
 The concept of [[cohomology]] in equivariant stable homotopy theory is _[[equivariant cohomology]]_:
 
