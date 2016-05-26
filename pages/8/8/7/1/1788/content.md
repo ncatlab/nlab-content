@@ -1,17 +1,15 @@
 $$
   \array{
-    X &\overset{\eta_X}{\longrightarrow}& Q(X)
+    X_n 
+      &\underoverset{\in W_{cl}}{(\eta_X)_n}{\longrightarrow}&
+    (Q X)_n
     \\
-    \downarrow && \downarrow^{\mathrlap{i}}_{\mathrlap{\in W}}
-    \\
-    Y \underset{Q(Y)}{\times} Z 
-      &\overset{p^\ast \eta_Y\in W}{\longrightarrow}&
-    Z
-    \\
-    {}^{\mathllap{\in Fib_Q}}\downarrow 
+    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow 
       && 
-    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
+    \downarrow^{\mathrlap{\tilde \sigma^{Q X}_n}}_{\mathrlap{\in W_{cl}}}
     \\
-    Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
+    Maps(S^1,X_{n+1})
+     &\underoverset{\Maps(S^1,(\eta_X)_{n+1})}{\in W_{cl}}{\longrightarrow}&
+    Maps(S^1, (Q X)_{n+1})
   }
 $$
