@@ -48,6 +48,8 @@ The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of an $E_\infty$-
 
 * [[ring spectrum]], [[functor with smash products]]
 
+* [[symmetric ring spectrum]]
+
 * [[model structure for ring spectra]]
 
 * [[∞-group of units]]
