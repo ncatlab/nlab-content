@@ -4993,7 +4993,12 @@ $$
   }
 $$
 
-where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). Under taking [[colimit]] over $k$, this produces the claimed pullback. (To see that the colimit commutes with the pullback here, remembering that we work in compactly generated spaces, use that each of the four colimits if over a sequence of relative cell complex inclusions, then use that the universal property of the resulting pullback may be tested by mapping compact spaces into it. These maps may be taken into the colimits.)
+where the bottom morphism is the canonical inclusion ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)). 
+
+Now we claim that taking the [[colimit]] in each of the four corners of this system of pullback diagrams yields again a pullback diagram, and this proves the claim. 
+
+To see this, remember that we work in the category $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)). By their nature, we may test the [[universal property]] of a would-be [[pullback]] space already by mapping [[compact topological spaces]] into it. Now observe that all the inclusion maps in the four corners of this system of diagrams are [[relative cell complex]] inclusions, by prop. \ref{CWComplexStructure}. Together this implies (via [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)) that we may test the universal property of the colimiting square at finite stages. And so this implies the claim by the above fact that at each finite stage there is a pullback diagram.
+
 
 =--
 
@@ -5327,7 +5332,292 @@ Specifically we are interested in [[complex oriented cohomology]] theories $E$, 
 
 $\,$
 
+##### Universal $E$-orientation
+
++-- {: .num_defn #EOrientationOfAVectorBundle}
+###### Definition
+
+Let $E$  be a [[multiplicative cohomology theory]] (def. \ref{MultiplicativeCohomologyTheory}) and let $V \to X$ be a topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-[[orientation in generalized cohomology|orientation]]** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
+
+$$
+  u \in \tilde E^n(Th(V))
+$$ 
+
+in the [[reduced cohomology|reduced]] $E$-[[cohomology ring]] of the [[Thom space]] (def. \ref{ThomSpace}) of $V$, such that for every point $x \in X$ its restriction $i_x^* u$ along 
+
+$$
+  i_x 
+    \;\colon\; 
+  S^n \simeq Th(\mathbb{R}^n) \overset{Th(j_x)}{\longrightarrow} Th(V)
+$$ 
+
+(for $\mathbb{R}^n \overset{fib_x}{\hookrightarrow} V$ the [[fiber]] of $V$ over $x$) is a _generator_, in that it is of the form
+
+$$
+  i^\ast u = \epsilon \cdot \gamma_n 
+$$
+
+for
+
+* $\epsilon \in \tilde E^0(S^0) $ a [[unit]] in $E^\bullet$;
+
+* $\gamma_n \in \tilde E^n(S^n)$ the image of the multiplicative unit
+  under the [[suspension isomorphism]] $\tilde E^0(S^0) \stackrel{\simeq}{\to}\tilde E^n(S^n)$.   
+
+=--
+
+(e.g. [Kochmann 96, def. 4.3.4](#Kochmann96))
+
++-- {: .num_remark}
+###### Remark
+
+Recall that a _[[(B,f)-structure]]_ $\mathcal{B}$ (def. \ref{BfStructure}) is a system of [[Serre fibrations]] $B_n \overset{f_n}{\longrightarrow} B O(n)$ over the [[classifying spaces]] for [[orthogonal structure]] equipped with maps  
+
+$$
+  j_n \;\colon\; B_n \longrightarrow B_{n+1}
+$$ 
+
+covering the canonical inclusions of classifying spaces. For instance for $G_n \to O(n)$ a compatible system of [[topological group]] [[homomorphisms]], then the $(B,f)$-structure given by the [[classifying spaces]] $B G_n$ (possibly suitably resolved for the maps $B G_n \to B O(n)$ to become Serre fibrations) defines _[[G-structure]]_. 
+
+Given a $(B,f)$-structure, then there are the [[pullbacks]] $V^{\mathcal{B}}_n \coloneqq f_n^\ast (E O(n)\underset{O(n)}{\times}\mathbb{R}^n)$ of the [[universal vector bundles]] over $B O(n)$, which are the _universal vector bundles equipped with $(B,f)$-structure_
+
+$$
+  \array{
+    V^{\mathcal{B}}_n &\longrightarrow& E O(n)\underset{O(n)}{\times} \mathbb{R}^n
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B_n & \underset{f_n}{\longrightarrow} & B O(n)
+  }
+  \,.
+$$
+
+Finally recall that there are canonical morphisms ([prop.](Thom+spectrum#PullbackOfUniversalOnBundleUnderCoordinateRestriction))
+
+$$
+  \phi_n 
+    \;\colon\; 
+  \mathbb{R} \oplus V^{\mathcal{B}}_n 
+    \longrightarrow 
+  V^{\mathcal{B}}_{n+1}
+$$
+
+=--
+
+
++-- {: .num_defn #EOrientationOfABfStructure}
+###### Definition
+
+Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle}, for each rank-$n$ universal vector bundle with $\mathcal{B}$-structure:
+
+$$
+  \xi_n 
+    \in 
+  \tilde E^n(Th(V_n^{\mathcal{B}}))
+  \;\;\;\;
+  \forall n \in \mathbb{N}
+$$
+
+such that these are compatible in that
+
+1. for all $n \in \mathbb{N}$ then
+
+   $$  
+     \xi_n = \phi_n^\ast \xi_{n+1}
+     \,,
+   $$
+
+   where 
+
+   $$
+     \xi_n 
+      \in 
+     \tilde E^n(Th(V_n)) 
+       \simeq 
+     \tilde E^{n+1}(\Sigma Th(V_n))
+        \simeq 
+     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))   
+   $$
+
+   (with the first isomorphism is the [[suspension isomorphism]] of $E$ and the second exhibiting the [[homeomorphism]] of Thom spaces $Th(\mathbb{R} \oplus V)\simeq \Sigma Th(V)$ (prop. \ref{SuspensionOfThomSpaces}) and where 
+
+   $$
+     \phi_n^\ast
+     \;\colon\;
+      \tilde E^{n+1}(Th(V_{n+1}))
+      \longrightarrow
+     \tilde E^{n+1}(Th(\mathbb{R}\oplus V_n))
+   $$
+
+   is pullback along the canonical $\phi_n \colon \mathbb{R}\oplus V_n \to V_{n+1}$ (prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}).
+
+1. for all $n_1, n_2 \in \mathbb{N}$ then
+
+   $$
+     \xi_{n+1} \cdot \xi_{n+2} = \xi_{n_1 + n_2}
+     \,.
+   $$
+
+=--
+
++-- {: .num_prop #UniversalEOrientationsAreEquivalentlyMorphismsOfRingSpectra}
+###### Proposition
+
+A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure}, for vector bundles with [[(B,f)-structure]] $\mathcal{B}$, is equivalently (the homotopy class of) a homomorphism of [[ring spectra]]
+
+$$
+  \xi \;\colon\; M\mathcal{B} \longrightarrow E
+$$
+
+from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which via the [[Brown representability theorem]] (theorem \ref{BrownRepresentabilityForTraditionalBrownFunctors}) represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] $E$ (and which we denote by the same symbol).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#TheStableHomotopyCategory)) by actual morphisms 
+
+$$
+  \xi
+   \;\colon\;
+  M \mathcal{B}
+    \longrightarrow
+  E
+$$
+
+of sequential spectra (due to [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
+
+Now by definition ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) such a homomorphism is precissely a sequence of base-point preserving [[continuous functions]]
+
+$$
+  \xi_n 
+    \;\colon\;
+  (M\mathcal{B})_n
+   =
+  Th(V_n^{\mathcal{B}})
+    \longrightarrow
+  E_n
+$$
+
+for $n \in \mathbb{N}$, such that they are compatible with the structure maps $\sigma_n$ and equivalently with their $(S^1 \wedge(-)\dashv Maps(S^1,-)_\ast)$-[[adjuncts]] $\tilde \sigma_n$, in that these diagrams commute:
+
+$$
+  \array{
+    S^1 \wedge Th(V^{\mathcal{B}}_n)
+     &\overset{S^1 \wedge \xi_n}{\longrightarrow}&
+    S^1 \wedge E_n
+    \\
+    {}^{\mathllap{\sigma^{M\mathcal{B}}_n}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\sigma^E_n}}
+    \\
+    Th(V^{\mathcal{B}}_{n+1})
+      &\underset{\xi_{n+1}}{\longrightarrow}&
+    E_{n+1}
+  }
+  \;\;\;\;\;\;\;\;\;
+  \leftrightarrow
+  \;\;\;\;\;\;\;\;\;
+  \array{
+     Th(V^{\mathcal{B}}_n)
+       &\overset{\xi_n}{\longrightarrow}&
+     E_n
+     \\
+     {}^{\mathllap{\tilde \sigma^{M\mathcal{B}}_n}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{\tilde \sigma^E_n}}
+     \\
+     Maps(S^1,Th(V^{\mathcal{B}}_{n+1}))
+       &\underset{Maps(S^1,\xi_{n+1})_\ast}{\longrightarrow}&
+     Maps(S^1, E_{n+1})_{\ast}
+  }
+$$
+
+for all $n \in \mathbb{N}$. 
+
+First of all this means (via the identification given by the [[Brown representability theorem]], see prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}, that the components $\xi_n$ are equivalently representatives of elements in the [[cohomology groups]]
+
+$$
+  \xi_n \in \tilde E^n(Th(V^{\mathcal{B}}_n))
+$$
+
+(which we denote by the same symbol, for brevity).
+
+Now by the definition of universal [[Thom spectra]] (def. \ref{UniversalThomSpectrum}, def. \ref{UniversalThomSpectrumForBfStructure}), the structure map $\sigma_n^{M\mathcal{B}}$ is just the map $\phi_n \colon \mathbb{R}\oplus Th(V^{\mathcal{B}}_n)\to Th(V_{n+1}^{\mathcal{B}})$ from above.
+
+Moreover, by the [[Brown representability theorem]], the [[adjunct]]   $\tilde \sigma_n^E \circ \xi_n$ (on the right) of $\sigma^E_n \circ S^1 \wedge \xi_n$ (on the left) is what represents (again by prop. \ref{AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum}) the image of 
+
+$$
+  \xi_n \in E^n(Th(V^{\mathcal{B}}_n))
+$$
+
+under the [[suspension isomorphism]]. Hence the [[commutative square|commutativity]] of the above squares is equivalently the first compatibility condition from def. \ref{EOrientationOfABfStructure}: $\xi_n \simeq \phi_n^\ast \xi_{n+1}$ in $\tilde E^{n+1}(Th(\mathbb{R}\oplus V_n^{\mathcal{B}}))$ 
+
+Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we should be modelling $M\mathcal{B}$ and $E$ as [[structured spectra]] ([here.](Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)) to be more precise on this point, but the conclusion is the same) that for all $n_1, n_2\in \mathbb{N}$ then
+
+$$
+  \array{
+    Th(V_{n_1}^{\mathcal{B}}) \wedge Th(T_{n+2}^{\mathcal{B}})
+      &\overset{}{\longrightarrow}&
+    Th(V_{n_1 + n_2})
+    \\
+    {}^{\mathllap{\xi_{n_1} \wedge \xi_{n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\xi_{n_1 + n_2}}}
+    \\
+    E_{n_1} \wedge E_{n_2}
+      &\underset{\cdot}{\longrightarrow}&
+    E_{n_1 + n_2}
+  }
+  \,.
+$$
+
+This is equivalently the condition $\xi_{n_1} \cdot \xi_{n_2} \simeq \xi_{n_1  + n_2}$.
+
+Finally, since $M\mathcal{B}$ is a [[ring spectrum]], there is an essentially unique multiplicative homomorphism from the [[sphere spectrum]]
+
+$$
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  M\mathcal{B}
+  \,.
+$$
+
+This is given by the component maps
+
+$$
+  e_n 
+    \;\colon\;
+  S^n 
+    \simeq
+  Th(\mathbb{R}^n)
+    \longrightarrow
+  Th(V_{n}^{\mathcal{B}})
+$$
+
+that are induced by inclusing the fiber of $V_{n}^{\mathcal{B}}$. 
+
+> (Maybe we should assume here that $\mathcal{B}$ is G-structure with $B_n = B G_n$ connected and canonically and compatibly pointed.)
+
+Accordingly the composite 
+
+$$
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  M\mathcal{B}
+    \overset{\xi}{\longrightarrow}
+  E
+$$
+
+has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrientationOfAVectorBundle}. At the same time, also $E$ is a ring spectrum, hence it also has an essentially unique multiplicative morphism $\mathbb{S} \to E$, which hence must agree with $i^\ast \xi$, up to homotopy. If we represent $E$ as a [[symmetric ring spectrum]], then the canonical such has the required property: $e_0$ is the identity element in degree 0 (being a unit of an ordinary ring, by definition) and hence $e_n$ is necessarily its image under the suspension isomorphism, due to compatibility with the structure maps and using the above analysis.
+
+=--
+
+
 ##### Complex projective space
+
+For the fine detail of the discussion of [[complex oriented cohomology theories]] [below](#ComplexOrientatioon), we recall basic facts about [[complex projective space]].
 
 Complex projective space $\mathbb{C}P^n$ is the [[projective space]] $\mathbb{A}P^n$ for $\mathbb{A} = \mathbb{C}$ being the [[complex numbers]] (and for $n \in \mathbb{N}$), a [[complex manifold]] of complex [[dimension]] $n$ (real dimension $2n$). Equivalently, this is the complex [[Grassmannian]] $Gr_1(\mathbb{C}^{n+1})$ (def. \ref{RealAndComplexGrassmannian}). For the special case $n = 1$ then $\mathbb{C}P^1 \simeq S^2$ is the [[Riemann sphere]].
 
