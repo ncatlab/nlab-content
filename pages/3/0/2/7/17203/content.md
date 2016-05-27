@@ -28,7 +28,7 @@ The complex analog of [[MO]]. The underlying non-equivariant theory of [[MR-theo
 ## The $M U$ spectrum 
 
 The spectrum denoted $M U$
-is the [[spectrum]] is in degree $2 n$ given by the [[Thom space]] of the [[vector bundle]] that is  [[associated bundle|associated]] by the defining [[representation]] of the [[unitary group]] $U(n)$ on $\mathbb{C}^n$ to the [[generalized universal bundle|universtal]] $U(n)$-[[principal bundle]]:
+is, as a [[sequential spectrum]], in degree $2 n$ given by the [[Thom space]] of the underlying real vector bundle of the complex [[universal vector bundle]]:  the [[vector bundle]] that is  [[associated bundle|associated]] by the defining [[representation]] of the [[unitary group]] $U(n)$ on $\mathbb{C}^n$ to the $U(n)$-[[universal principal bundle]]:
 
 $$
   M U(2n) = Thom
@@ -40,8 +40,10 @@ $$
   \right)
 $$
 
+A priori this yields a  [sequential S2-spectrum](Introduction+to+Stable+homotopy+theory+--+1#SequentialTSpectra), which is then turned into a sequential $S^1$-spectrum by taking the component spaces in odd degree to be the [[smash product]] of the [[circle]] $S^1$ with those in even degree.
 
-This is a [[complex oriented cohomology theory]] and indeed the universal one among these, see at _[[universal complex orientation on MU]]_.
+
+This represents a [[complex oriented cohomology theory]] and indeed the universal one among these, see at _[[universal complex orientation on MU]]_.
 
 The _periodic_ complex cobordism theory is given by adding up all the even degree powers of this theory:
 
@@ -50,8 +52,7 @@ $$
 $$
 
 
-
-The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group law]]s.
+The [[cohomology ring]] $M P({*})$ is the [[Lazard ring]] which is the universal coefficient ring for [[formal group laws]], see at _[[Milnor-Quillen theorem on MU]]_ .
 
 The [[periodic cohomology theory|periodic]] version is sometimes written $PMU$.
 
