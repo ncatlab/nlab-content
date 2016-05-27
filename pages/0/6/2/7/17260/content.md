@@ -3,4 +3,4 @@ The [[Thom spectrum]] for stable [[almost symplectic structure]].
 
 ## Related entries
 
-* [[MO]], [[MU]]
+* [[MO]], [[MU]], [[MSpin]]
