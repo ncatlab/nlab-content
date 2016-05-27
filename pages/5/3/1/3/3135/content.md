@@ -283,6 +283,8 @@ This implies the claim.
 
 * The analog of the unitary group for real metric spaces is the [[orthogonal group]].
 
+* similarly: [[quaternionic unitary group]]
+
 * The [[Lie algebra]] is the [[unitary Lie algebra]].
 
 * [[unitary representation]]
