@@ -22,7 +22,7 @@
 
 ### General
 
-In [[physics]], the [[field (physics)|fields]] in ([[prequantum field theory|pre]]-)[[quantum field theory]] whose [[dynamics]] is described by the [[theory (physics)|theory]] may in general depend on certain fixed [[stuff, structure, property|structure]] which also has an interpretation of a [[field (physics)|fields]], but one that is fixed and not regarded as having dynamics in the given [[model (in theoretical physics)]]. These are often called **background fields**.
+In [[physics]], the [[field (physics)|fields]] in ([[prequantum field theory|pre]]-)[[quantum field theory]] whose [[dynamics]] is described by the [[theory (physics)|theory]] may in general depend on certain fixed [[stuff, structure, property|structure]] which also has an interpretation of a [[field (physics)|field]], but one that is fixed and not regarded as having dynamics in the given [[model (in theoretical physics)]]. These are often called **background fields**.
 
 ### For sigma-models
 
