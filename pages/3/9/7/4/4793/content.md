@@ -63,7 +63,7 @@ See also at _[normed division algebra -- automorphism](normed+division+algebra#A
 
 * [[quaternionic quantum mechanics]]
 
-* [[quaternion group]]
+* [[quaternion group]], [[quaternionic unitary group]]
 
 ## References
 
