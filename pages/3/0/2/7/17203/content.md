@@ -163,7 +163,7 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## Related concepts
 
-* [[MO]], [[MSp]]
+* [[MO]], [[MSp]], [[MSpin]]
 
 ## References
 
