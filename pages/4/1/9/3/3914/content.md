@@ -40,7 +40,7 @@ The existence of an $E$-orientation is necessary in order to have a notion of [[
 +-- {: .num_defn #EOrientationOfAVectorBundle}
 ###### Definition
 
-Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
+Let $E$  be a [[multiplicative cohomology theory]] and let $V \to X$ be a topological [[vector bundle]] of [[rank]] $n$. Then an **$E$-orientation** or **$E$-[[Thom class]]** on $V$ is an element of degree $n$ 
 
 $$
   u \in \tilde E^n(Th(V))
@@ -111,7 +111,7 @@ $$
 +-- {: .num_defn #EOrientationOfABfStructure}
 ###### Definition
 
-Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle} for each rank-$n$ universal vector bundle with $\mathcal{B}$-structure
+Let $E$  be a [[multiplicative cohomology theory]] and let $\mathcal{B}$ be a multiplicative [[(B,f)-structure]]. Then a **universal $E$-orientation for vector bundles with $\mathcal{B}$-structure** is an $E$-orientation, according to def. \ref{EOrientationOfAVectorBundle}, for each rank-$n$ universal vector bundle with $\mathcal{B}$-structure:
 
 $$
   \xi_n 
@@ -163,23 +163,23 @@ such that these are compatible in that
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #UniversalEOrientationsAreEquivalentlyMorphismsOfRingSpectra}
 ###### Proposition
 
-A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure} for vector bundles with [[(B,f)-structure]] $\mathcal{B}$ is equivalently a homomorphism of [[ring spectra]]
+A universal $E$-orientation, in the sense of def. \ref{EOrientationOfABfStructure}, for vector bundles with [[(B,f)-structure]] $\mathcal{B}$, is equivalently (the homotopy class of) a homomorphism of [[ring spectra]]
 
 $$
   \xi \;\colon\; M\mathcal{B} \longrightarrow E
 $$
 
-from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which under [[Brown representability theorem]] represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] (which we denote by the same symbol).
+from the universal $\mathcal{B}$-[[Thom spectrum]] to a spectrum which via the [[Brown representability theorem]] represents the given [[generalized (Eilenberg-Steenrod) cohomology theory]] $E$ (and which we denote by the same symbol).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Then we are looking at actual morphism of sequential spectra
+The [[Thom spectrum]] $M\mathcal{B}$ has a standard structure of a [[CW-spectrum]]. Let now $E$ denote a [[sequential spectrum|sequential]] [[Omega-spectrum]] representing the multiplicative cohomology theory of the same name. Since, in the standard [[model structure on topological sequential spectra]], [[CW-spectra]] are cofibrant ([prop.](Introduction+to+Stable+homotopy+theory+--+1#CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra)) and Omega-spectra are fibrant ([thm.](Introduction+to+Stable+homotopy+theory+--+1#StableModelStructureOnSequentialSpectraIsModelCategory)) we may represent all morphisms in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#TheStableHomotopyCategory)) by actual morphisms 
 
 $$
   \xi
@@ -187,10 +187,11 @@ $$
   M \mathcal{B}
     \longrightarrow
   E
-  \,.
 $$
 
-This is equivalently a sequence of base-point preserving [[continuous functions]]
+of sequential spectra (due to [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
+
+Now by definition ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra)) such a homomorphism is precissely a sequence of base-point preserving [[continuous functions]]
 
 $$
   \xi_n 
@@ -218,9 +219,9 @@ $$
       &\underset{\xi_{n+1}}{\longrightarrow}&
     E_{n+1}
   }
-  \;\;\;\;
+  \;\;\;\;\;\;\;\;\;
   \leftrightarrow
-  \;\;\;\;
+  \;\;\;\;\;\;\;\;\;
   \array{
      Th(V^{\mathcal{B}}_n)
        &\overset{\xi_n}{\longrightarrow}&
@@ -230,11 +231,89 @@ $$
        && 
      \downarrow^{\mathrlap{\tilde \sigma^E_n}}
      \\
-     Maps(S^1,Th(V_{n+1}))
+     Maps(S^1,Th(V^{\mathcal{B}}_{n+1}))
        &\underset{Maps(S^1,\xi_{n+1})_\ast}{\longrightarrow}&
      Maps(S^1, E_{n+1})_{\ast}
   }
 $$
+
+for all $n \in \mathbb{N}$. 
+
+First of all this means (via the identification given by the [[Brown representability theorem]], see [this prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)) that the components $\xi_n$ are equivalently representatives of elements in the [[cohomology groups]]
+
+$$
+  \xi_n \in \tilde E^n(Th(V^{\mathcal{B}}_n))
+$$
+
+(which we denote by the same symbol, for brevity).
+
+Now by the definition of universal [[Thom spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#UniversalThomSpectrum), [def.](Introduction+to+Stable+homotopy+theory+--+S#UniversalThomSpectrumForBfStructure)), the structure map $\sigma_n^{M\mathcal{B}}$ is just the map $\phi_n \colon \mathbb{R}\oplus Th(V^{\mathcal{B}}_n)\to Th(V_{n+1}^{\mathcal{B}})$ from above.
+
+Moreover, by the [[Brown representability theorem]], the [[adjunct]]   $\tilde \sigma_n^E \circ \xi_n$ (on the right) of $\sigma^E_n \circ S^1 \wedge \xi_n$ (on the left) is what represents (again by [this prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)) the image of 
+
+$$
+  \xi_n \in E^n(Th(V^{\mathcal{B}}_n))
+$$
+
+under the [[suspension isomorphism]]. Hence the [[commutative square|commutativity]] of the above squares is equivalently the first compatibility condition from def. \ref{EOrientationOfABfStructure}: $\xi_n \simeq \phi_n^\ast \xi_{n+1}$ in $\tilde E^{n+1}(Th(\mathbb{R}\oplus V_n^{\mathcal{B}}))$ 
+
+Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we should be modelling $M\mathcal{B}$ and $E$ as [[structured spectra]] ([here.](Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)) to be more precise on this point, but the conclusion is the same) that for all $n_1, n_2\in \mathbb{N}$ then
+
+$$
+  \array{
+    Th(V_{n_1}^{\mathcal{B}}) \wedge Th(T_{n+2}^{\mathcal{B}})
+      &\overset{}{\longrightarrow}&
+    Th(V_{n_1 + n_2})
+    \\
+    {}^{\mathllap{\xi_{n_1} \wedge \xi_{n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\xi_{n_1 + n_2}}}
+    \\
+    E_{n_1} \wedge E_{n_2}
+      &\underset{\cdot}{\longrightarrow}&
+    E_{n_1 + n_2}
+  }
+  \,.
+$$
+
+This is equivalently the condition $\xi_{n_1} \cdot \xi_{n_2} \simeq \xi_{n_1  + n_2}$.
+
+Finally, since $M\mathcal{B}$ is a [[ring spectrum]], there is an essentially unique multiplicative homomorphism from the [[sphere spectrum]]
+
+$$
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  M\mathcal{B}
+  \,.
+$$
+
+This is given by the component maps
+
+$$
+  e_n 
+    \;\colon\;
+  S^n 
+    \simeq
+  Th(\mathbb{R}^n)
+    \longrightarrow
+  Th(V_{n}^{\mathcal{B}})
+$$
+
+that are induced by inclusing the fiber of $V_{n}^{\mathcal{B}}$. 
+
+> (Maybe we should assume here that $\mathcal{B}$ is G-structure with $B_n = B G_n$ connected and canonically and compatibly pointed.)
+
+Accordingly the composite 
+
+$$
+  \mathbb{S}
+    \overset{e}{\longrightarrow}
+  M\mathcal{B}
+    \overset{\xi}{\longrightarrow}
+  E
+$$
+
+has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrientationOfAVectorBundle}. At the same time, also $E$ is a ring spectrum, hence it also has an essentially unique multiplicative morphism $\mathbb{S} \to E$, which hence must agree with $i^\ast \xi$, up to homotopy. If we represent $E$ as a [[symmetric ring spectrum]], then the canonical such (see e.g.[Schwede 12, def. 1.3](symmetric+spectrum#Schwede12)) has the required property: $e_0$ is the identity element (see e.g.[Schwede 12, top of p. 10](symmetric+spectrum#Schwede12)), and hence each $e_n$ it necessarily its image under the suspension isomorphism, due to compatibility with the structure maps and using the above analysis.
 
 =--
 
@@ -312,9 +391,9 @@ $$
   \,.
 $$
 
-This is the generalized **Thom spectrum**. For $R = K O$ the real [[K-theory spectrum]] this is given by the ordinary [[Thom space]] construction on a [[vector bundle]] $V \to X$.
+This is the generalized **[[Thom spectrum]]**. For $R = K O$ the real [[K-theory spectrum]] this is given by the ordinary [[Thom space]] construction on a [[vector bundle]] $V \to X$.
 
-An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where fiberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
+An $E$-orientation of a vector bundle $V \to X$ is a trivialization of the $E$-module bundle $E \wedge S^V$, where we fiberwise form the [[smash product]] of $E$ with the [[Thom space]] of $V$.
 
 +-- {: .num_prop}
 ###### Proposition
