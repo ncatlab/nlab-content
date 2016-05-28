@@ -1,35 +1,74 @@
-One consequence of theorem \ref{ProjectiveModelStructureOnTopologicalFunctors} is the model category theoretic incarnation of the theory of [[homotopy colimits]].
++-- {: .num_prop}
+###### Proposition
 
-Observe that ordinary [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits}) are equivalently characterized in terms of [[adjoint functors]]:
+In the [[projective model structure on functors|projective model structures]] on [[cotowers]] in topological spaces, $[\mathbb{N}^{\leq}, (Top_{cg})_{Quillen}]_{proj}$ and $[\mathbb{N}^{\leq}, (Top^{\ast/}_{cg})_{Quillen}]_{proj}$ from def. \ref{ProjectiveModelStructureOnNSequencesOfTopologicalSpaces}, the following holds:
 
-Let $\mathcal{C}$ be any [[category]] and let $I$ be a [[small category]]. Write $[I,\mathcal{C}]$ for the corresponding [[functor category]]. We may think of its objects as $I$-shaped [[diagrams]] in $\mathcal{C}$, and of its morphisms as homomorphisms of these diagrams.  There is a canonical functor
+1. The [[colimit]] functor preserves fibrations between sequences of [[relative cell complex]] inclusions;
+
+1. Let $I$ be a [[finite category]], let $D_\bullet(-) \colon I \to [\mathbb{N}^{\leq}, Top_{cg}]$ be a finite [[diagram]] of sequences of relative cell complexes. Then there is a [[weak homotopy equivalence]]
+
+   $$
+     \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        D_n(i)
+      \right)
+       \overset{\in W_{cl}}{\longrightarrow}
+     \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+        D_n(i)
+      \right)
+   $$
+
+   from the colimit over the limit sequnce to the limit of the colimits of sequences.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+Use that both $(Top_{cg})_{Quillen}$ and $(Top^{\ast/}_{cg})_{Quillen}$ are [[cofibrantly generated model categories]] (theorem \ref{CofibrantGenerationOfPointedTopologicalSpaces}) whose generating acyclic cofibrations have [[compact topological spaces]] as [[domains]] and [[codomains]]. The colimit over a sequence of relative cell complexes (being a [[transfinite composition]]) yields another [[relative cell complex]], and hence lemma \ref{CompactSubsetsAreSmallInCellComplexes} says that every morphism out of the domain or codomain of a generating acyclic cofibration into this colimit factors through a finite stage inclusion. Since a projective fibration is a degreewise fibration, we have the [[lifting property]] at that finite stage, and hence also the lifting property against the morphisms of colimits.
+
+Regarding the second statement:
+
+This is a model category theoretic version of a standard fact of plain [[category theory]], which says that in the category [[Set]] of sets,[filtered colimits commute with finite limits](commutativity+of+limits+and+colimits#FilteredColimitsCommuteWithFiniteLimits) in that there is an isomorphism of sets of the form which we have to prove is a weak homotopy equivalence of topological spaces. But now using that weak homotopy equivalences are detected by forming [[homotopy groups]] (def. \ref{HomotopyGroupsOftopologicalSpaces}), hence [[hom-sets]] out of [[n-spheres]], and since $n$-[[spheres]] are [[compact topological spaces]], lemma \ref{CompactSubsetsAreSmallInCellComplexes} says that homming out of $n$-spheres commutes over the colimits in question. Moreover, generally homming out of anything commutes over [[limits]], in particular [[finite limits]] (every [[hom functor]] is [[left exact functor]] in the second variable). Therefore we find isomorphisms of the form
 
 $$
-  \mathcal{C} \overset{const}{\longrightarrow} [I,\mathcal{C}]
+  Hom\left(
+    S^q,
+    \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        D_n(i)
+      \right)
+  \right)
+  \simeq
+    \underset{\longrightarrow}{\lim}_{n}
+      \left(
+        \underset{\longleftarrow}{\lim}_i
+        Hom\left(S^q, D_n(i)\right)
+      \right) 
+   \overset{\sim}{\longrightarrow}
+    \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+        Hom\left(S^q D_n(i)\right)
+      \right) 
+   \simeq
+    Hom\left(
+     S^q,
+    \underset{\longleftarrow}{\lim}_i
+      \left(
+        \underset{\longrightarrow}{\lim}_{n}
+          D_n(i)
+      \right) 
+   \right)
 $$
 
-which sends each object of $\mathcal{C}$ to the diagram that is constant on this object. Then unwinding the definition of the [[universal properties]] of [[limits]] and [[colimits]], one sees that 
-
-1. precisely when $\mathcal{C}$ has all [[colimits]] of shape $I$, then the functor $const$ has a [[left adjoint]] functor, which is the operation of forming these colimits:
-
-   $$
-     [I,\mathcal{C}]
-       \underoverset
-        {\underset{const}{\longleftarrow}}
-        {\overset{\underset{\longrightarrow}{\lim}}{\longrightarrow}}
-        {\bot}
-     \mathcal{C}
-   $$
-
-1. precisely when $\mathcal{C}$ has all [[limits]] of shape $I$, then the functor $const$ has a [[right adjoint]] functor, which is the operation of forming these limits.
-
-   $$
-     [I,\mathcal{C}]
-       \underoverset
-        {\underset{\underset{\longleftarrow}{\lim}}{\longrightarrow}}
-        {\overset{const}{\longleftarrow}}
-     \mathcal{C}
-   $$
-
-
+and similarly for the [[left homotopies]] $Hom(S^q \times I,-)$ (and similarly for the pointed case). This implies the claimed isomorphism on homotopy groups.
+ 
+=--
 
