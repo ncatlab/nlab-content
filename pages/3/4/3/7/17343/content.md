@@ -8893,6 +8893,145 @@ $$
 
 =--
 
+#### Homotopy pullbacks
+
+The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case of the more general concept of [[homotopy pullbacks]]. 
+
+
++-- {: .num_defn #HomotopyPullback}
+###### Definition
+
+Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Then a [[commuting square]]
+
+$$
+  \array{
+    A &\longrightarrow& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{g}}
+    \\
+     C &\underset{f}{\longrightarrow}& D
+  }
+$$
+
+in $\mathcal{C}_f$ is called a **[[homotopy pullback]]** (of $f$ along $g$ and equivalently of $g$ along $f$) if equivalently
+
+1. for any factorization 
+
+   $$
+     g \colon C \overset{\in W}{\longrightarrow} \hat B \overset{\in Fib}{\longrightarrow} D
+   $$
+
+   such that the universally induced morphism from $A$ into the pullback of $\hat B$ along $f$ is a weak equivalence:
+
+   $$
+     \array{
+       A &\longrightarrow& B
+       \\
+       {}^{\mathllap{\in W}}\downarrow && \downarrow^{\mathrlap{\in W}}
+       \\
+       C \underset{D}{\times} \hat B
+        &\longrightarrow&
+       \hat B
+       \\
+       \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib}}
+       \\
+       C &\longrightarrow& D
+     }
+     \,.
+   $$
+
+
+1. for any factorization 
+
+   $$
+     f \colon C \overset{\in W}{\longrightarrow} \hat C \overset{\in Fib}{\longrightarrow} D
+   $$
+
+   such that the universally induced morphism from $A$ into the pullback of $\hat D$ along $g$ is a weak equivalence:
+
+   $$
+     A \overset{\in W}{\longrightarrow} \hat C \underset{D}{\times} B
+     \,.
+   $$
+
+=--
+
++-- {: .num_prop #HomotopyPullbackPreservesWeakEquivalencesOfSpans}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Given a [[diagram]] in $\mathcal{C}_f$ of the form
+
+$$
+  \array{
+    A &\longrightarrow& B &\overset{\in Fib}{\longleftarrow}& C
+    \\
+    \downarrow^{\mathrlap{\in W}}
+      &&
+    \downarrow^{\mathrlap{\in W}}
+      &&
+    \downarrow^{\mathrlap{\in W}}
+    \\
+    D &\longrightarrow& E &\underset{\in Fib}{\longleftarrow}& F 
+  }
+$$
+
+then the induced morphism on [[pullbacks]] is a weak equivalence
+
+$$
+  A \underset{B}{\times} C
+   \overset{\in W}{\longrightarrow}
+  D \underset{E}{\times} F
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+The two conditions in def. \ref{HomotopyPullback} are indeed equivalent.
+
+=--
+
+Homotopy pullbacks satisfy the usual abstract properties of pullbacks:
+
++-- {: .num_prop #HomotopyPullbackOfWeakEquivalences}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). 
+If in a [[commuting square]] in $\mathcal{C}_f$ one edge is a weak equivalence, then the square is a [[homotopy pullback]] square precisely if the opposite edge is a weak equivalence, too.
+
+=--
+
+
++-- {: .num_prop #ClosurePropertiesOfHomotopyPullbacks}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). 
+
+1. ([[pasting law]]) If in a [[commuting diagram]]
+   
+   $$
+     \array{
+       A &\longrightarrow& B &\longrightarrow& C
+        \\
+        \downarrow
+          &&
+       \downarrow
+          &&
+        \downarrow
+        \\
+        D &\longrightarrow& E &\underset{}{\longrightarrow}& F 
+      }
+   $$
+
+   the square on the right is a homotoy pullback (def. \ref{HomotopyPullback}) then the left square is, too, precisely if the total rectangle is;
+
+1. every [[retract]] of a homotopy pullback square (in the category $\mathcal{C}_f^{\Box}$ of commuting squares in $\mathcal{C}_f$) is itself a homotopy pullback square.
+
+=--
+
 
 #### Long sequences
  {#LongSequences}
