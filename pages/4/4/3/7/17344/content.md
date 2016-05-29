@@ -4,21 +4,20 @@
 
 ***
 
-
 +-- {: .standout}
 
 
 [V4D2 -- Algebraic Topology II](https://basis.uni-bonn.de/qisserver/rds?state=verpublish&status=init&vmfile=no&publishid=109556&moduleCall=webInfo&publishConfFile=webInfo&publishSubDir=veranstaltung)
 
-$\;\;\;\;\;\;\;\;\;\;\;$ **Stable Homotopy Theory**
-
-$\;\;\;\;\;\;\;\;\;\;\;$ Dr. [[Urs Schreiber]]
+> **Stable Homotopy Theory**
+>
+> Dr. [[Urs Schreiber]]
 
 [[Introduction to Stable homotopy theory|Lecture]] and [[Introduction to Stable homotopy theory -- S|Seminar]]
 
 =--
 
-$\,$
+<br/>
 
 
 **Abstract** _We give an introduction to the [[stable homotopy category]] and to its key computational tool, the [[Adams spectral sequence]]. In the accompanying [[Introduction to Stable homotopy theory -- S|seminar]] we consider applications to [[cobordism theory]] and [[complex oriented cohomology]] such as to converge in the end to a glimpse of the modern picture of [[chromatic homotopy theory]]._
@@ -38,7 +37,7 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
 
 ***
 
-$\,$
+<br/>
 
 
 #Contents#
@@ -62,8 +61,8 @@ $$
   Top_{cg}^{\ast/}
    \;
    \underoverset
-     {\underset{Maps(S^1,-)_\ast}{\longrightarrow}}
-     {\overset{S^1 \wedge (-)}{\longleftarrow}}
+     {\xrightarrow[Maps(S^1,-)_\ast]{}}
+     {\xrightarrow{S^1 \wedge (-)}}
      {\bot}
    \;
   Top_{cg}^{\ast/}
@@ -113,26 +112,25 @@ See ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#SuspensionAndLoopA
 The _[[stable homotopy category]]_ $Ho(Spectra)$ is to be the result of stabilizing the adjunction in prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory}, in the sense of forcing it to become an [[equivalence of categories]] in a compatible way, i.e. such as to fit into a diagram of categories of the form
 
 $$
-  \array{
+\begin{matrix}
      Ho(Top^{\ast/}) 
       &
-      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      \underoverset{\xrightarrow[\quad\Omega\quad]{}}{\xleftarrow{\quad\Sigma\quad}}{\scriptsize{\bot}}
       &
      Ho(Top^{\ast/})
      \\
-     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \left.\scriptsize{\mathllap{\Sigma^\infty}}\right\downarrow \dashv \left\uparrow\scriptsize{\mathrlap{\Omega^\infty}}\right.
      &&
-     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \left.\scriptsize{\mathllap{\Sigma^\infty}}\right\downarrow \dashv \left\uparrow\scriptsize{\mathrlap{\Omega^\infty}}\right.
      \\
      Ho(Spectra) 
      &
-     \underoverset{\underset{\Omega}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{\simeq}
+     \underoverset{\xrightarrow[\quad\Omega\quad]{}}{\xleftarrow{\quad\Sigma\quad}}{\simeq}
      &
      Ho(Spectra)
-  }
+\end{matrix}
   \,.
 $$
-
 Moreover, for [[stable homotopy theory]] proper we are to refine this situation from [[homotopy categories]] to [[model categories]] and ask it to be the diagram of [[derived functors]] (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunctionInducesAdjunctionOnHomotopyCategories)) of a diagram of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction))
 
 $$
