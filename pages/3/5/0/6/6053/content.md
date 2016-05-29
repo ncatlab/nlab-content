@@ -90,11 +90,12 @@ A characterization of the (quasi-)Hopf algebras arising this way is in
 
 * Sonia Natale, _On group theoretical Hopf algebras and exact factorization of finite groups_ ([arXiv:math/0208054](http://arxiv.org/abs/math/0208054))
 
-The equivalence of modules over the Drinfeld double for the case of [[orbifolds]], hence representations of the [[inertia orbifold]], with the [[Drinfeld center]] of the category of representations of the original orbifold is discussed in
+The equivalence of category of modules over the Drinfeld double for the case of [[orbifolds]], hence representations of the [[inertia orbifold]], with the [[Drinfeld center]] of the category of representations of the original orbifold is discussed in
 
-* [[Vladimir Hinich]], _Drinfeld double for orbifolds_, [math.QA/0511476](http://arxiv.org/abs/math/0511476)
+* [[Vladimir Hinich]], _Drinfeld double for orbifolds_,  Contemporary Math, 433, AMS Providence, 2007, 251-265, [math.QA/0511476](http://arxiv.org/abs/math/0511476)
  {#Hinich}
 
+Essentially the same conclusion (with similar motivation and in terms of equivariant fibres of monoidal fibered categories with orbifolds encoded as internal groupoid objects in the base) was independently obtained by [[Zoran Škoda]] at MPI Bonn in 2004 (unpublished).
 
 [[!redirects Drinfeld double]]
 [[!redirects quantum double]]
