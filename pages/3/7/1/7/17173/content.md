@@ -21,7 +21,7 @@
 ## Definition
 
 
-+-- {: .num_defn}
++-- {: .num_defn #TubularNeighbourhood}
 ###### Definition
 
 For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular neighbourhood** of $X$ in $Y$ is
@@ -31,7 +31,7 @@ For $i : X \hookrightarrow Y$ an [[embedding]] of [[manifold]]s, a **tubular nei
 * an extension of $i$ to an [[isomorphism]]
 
   $$
-    \hat i : E \to U_{i(X)}
+    \hat i \;\colon\; E \to U_{i(X)}
   $$
 
   with an [[open neighbourhood]] of $X$ in $Y$.
@@ -51,9 +51,9 @@ The [[derivative]] of $\hat i$ provides an [[isomorphism]] of $E$ with the [[nor
 
 +-- {: .num_prop}
 ###### Proposition
-**(tubular neighbourhood theorem)**
+**([[tubular neighbourhood theorem]])**
 
-Every [[embedding]] does admit a tubular neighbourhood.
+Every [[embedding]] of [[smooth manifolds]] does admit a tubular neighbourhood, def. \ref{TubularNeighbourhood}.
 
 =--
 
@@ -94,7 +94,7 @@ This appears as ([Godin, prop. 31](#Godin)).
 
 Basics on tubular neighbourhoods are reviewed for instance in
 
-* {#DaSilva} Ana Cannas da Silva, section 3 of _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
+* {#DaSilva} [[Ana Cannas da Silva]], section 3 of _Prerequisites from differential geometry_ ([pdf](http://www.math.princeton.edu/~acannas/appendix_dg.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.2 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
  
@@ -112,13 +112,10 @@ see also
 
 * wikipedia [tubular neighborhood](http://en.wikipedia.org/wiki/Tubular_neighborhood)
 
+
 [[!redirects tubular neighbourhoods]]
-
-[[!redirects tubular neighbourhood theorem]]
-
 
 [[!redirects tubular neighborhood]]
 [[!redirects tubular neighborhoods]]
 
-[[!redirects tubular neighborhood theorem]]
 
