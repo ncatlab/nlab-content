@@ -5307,7 +5307,7 @@ $$
   \,.
 $$
 
-This is the _[[Thom isomorphism]]_. It follow from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]).
+This is the _[[Thom isomorphism]]_. It follows from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]).
 
 We need this below to compute (co)homology of universal Thom spectra $M U$ in terms of that of the [[classifying spaces]] $B U$.
 
