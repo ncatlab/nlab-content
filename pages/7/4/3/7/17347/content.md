@@ -5558,7 +5558,7 @@ Next,  $\xi$ being a homomorphism of [[ring spectra]] means equivalently (we sho
 
 $$
   \array{
-    Th(V_{n_1}^{\mathcal{B}}) \wedge Th(T_{n+2}^{\mathcal{B}})
+    Th(V_{n_1}^{\mathcal{B}}) \wedge Th(V_{n_2}^{\mathcal{B}})
       &\overset{}{\longrightarrow}&
     Th(V_{n_1 + n_2})
     \\
@@ -5596,7 +5596,7 @@ $$
   Th(V_{n}^{\mathcal{B}})
 $$
 
-that are induced by inclusing the fiber of $V_{n}^{\mathcal{B}}$. 
+that are induced by including the fiber of $V_{n}^{\mathcal{B}}$. 
 
 > (Maybe we should assume here that $\mathcal{B}$ is G-structure with $B_n = B G_n$ connected and canonically and compatibly pointed.)
 
