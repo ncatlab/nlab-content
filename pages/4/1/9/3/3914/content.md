@@ -302,8 +302,6 @@ $$
 
 that are induced by including the fiber of $V_{n}^{\mathcal{B}}$. 
 
-> (Maybe we should assume here that $\mathcal{B}$ is G-structure with $B_n = B G_n$ connected and canonically and compatibly pointed.)
-
 Accordingly the composite 
 
 $$
