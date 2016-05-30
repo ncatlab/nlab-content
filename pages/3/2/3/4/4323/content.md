@@ -54,6 +54,9 @@ All these Thom spectra happen to naturally have the structure of [[E-∞ rings]]
 ### For vector bundles
  {#ForVectorBundles}
 
+First recall the following two basic facts about the construction of [[Thom spaces]]. See at _[[Thom space]]_ [this prop.](Thom+space#SuspensionOfThomSpaces).
+
+
 +-- {: .num_prop #SuspensionOfThomSpaces}
 ###### Proposition
 
@@ -67,8 +70,21 @@ between, on the one hand, the [[Thom space]] of the [[direct sum of vector bundl
 
 =--
 
-See at _[[Thom space]]_ [this prop.](Thom+space#SuspensionOfThomSpaces).
++-- {: .num_prop #ThomSpaceOfExternalProductOfVectorBundles}
+###### Proposition
 
+For $V_1 \to X_1$ and $V_2 \to X_2$ to vector bundles, let $V_1 \boxtimes V_2 \to X_1 \times X_2$ be the [[direct sum of vector bundles]] of their [[pullbacks]] to $X_1 \times X_2$. The corresponding Thom space is the [[smash product]] of the individual Thom spaces:
+
+$$
+  Th(V_1 \boxtimes V_2)
+  \simeq
+  Th(V_1) \wedge Th(V_2)
+  \,.
+$$
+
+=--
+
+Prop. \ref{SuspensionOfThomSpaces} will give rise to universal Thom spectra in the following, while prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} will give them the struture of [[ring spectra]].
 
 +-- {: .num_defn #ThomSpectrumOfAVectorBundle}
 ###### Definition
@@ -369,7 +385,7 @@ $$
   E^{\mathcal{B}}_{n_1 + n_2}
 $$
 
-and under forming [[Thom spaces]] this yields ([prop.](Thom+space#ThomSpaceOfExternalProductOfVectorBundles)) maps
+and under forming [[Thom spaces]] this yields, by prop. \ref{ThomSpaceOfExternalProductOfVectorBundles}, maps
 
 $$
   (M \mathcal{B})_{n_1}
@@ -670,7 +686,7 @@ $$
   \,.
 $$
 
-Applying the [[Thom space]] functor to the top morphisms here gives morphisms
+Applying the [[Thom space]] functor to the top morphisms and using prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} gives morphisms
 
 $$
   M O(k) \wedge M O(\ell)
