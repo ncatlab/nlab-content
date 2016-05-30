@@ -1840,7 +1840,7 @@ Given a [[left Bousfield localization of model categories|left Bousfield localiz
 1. $Fib_{loc} \subset Fib$;
 
 
-1. $W_{loc} \cap Cof_{loc} = W \cap Cof$;
+1. $W_{loc} \cap Fib_{loc} = W \cap Fib$;
 
 1. the identity functors constitute a [[Quillen adjunction]]
 
@@ -1959,7 +1959,7 @@ such that
 
    are weak equivalences;
 
-1. (preservation of homotopy pullbacks) if in a [[pullback]] square in $\mathcal{C}$
+1. (right-properness of the localization) if in a [[pullback]] square in $\mathcal{C}$
 
    $$
      \array{
@@ -2265,9 +2265,9 @@ $$
   &
   Q(Q(X))
     &\underoverset{Q(i)}{\in W}{\longrightarrow}&
-  Z
+  Q(Z)
     &\underset{}{\longrightarrow}&
-  Q(Y)
+  Q(Q(Y))
   }
   \,,
 $$
@@ -2285,7 +2285,7 @@ $$
   \,.
 $$
 
-Now for $g$ an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $f$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
+Now for $g$ an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $g$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
 
 $$
   \array{
@@ -2353,13 +2353,13 @@ then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \re
      }
    $$
 
-   exhibits a [[homotopy pullback]] in $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)), in that for any factorization of $Q(f)$ trough a weak equivalence followed by a fibration $p$, then the universally induced morphism
+   exhibits a [[homotopy pullback]] in $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)), in that for any factorization of $Q(f)$ through a weak equivalence followed by a fibration $p$, then the universally induced morphism
 
-  $$
-    X \longrightarrow p^\ast Y
-  $$
+   $$
+     X \longrightarrow p^\ast Y
+   $$
 
-  is weak equivalence (in $\mathcal{C}$).
+   is weak equivalence (in $\mathcal{C}$).
 
 =--
 
@@ -2437,7 +2437,7 @@ $$
 
 As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure and the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
 
-Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
 
 So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
 
@@ -2505,9 +2505,8 @@ $$
 
 where now $Q(p^\ast \eta_Y) \in W$ since $p^\ast \eta_Y \in W_Q$, by the previous remark. This means that the right square is again a homotopy pullback, and since the total rectangle still is, so is now also the left square.
 
-To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism with this property, 
+To conclude, use the observation from the first part of the proof that $f$ is a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of $\tilde p \circ \pi$, where $\pi$ is an acyclic fibration. Notice that the $\eta$-naturality square of a weak equivalence is a homotopy pullback ($Q$ preserves the weak equivalence) and that the composite of two morphisms with this property still has this property. Therefore $f$ is the retract of a morphism whose $\eta$-naturality square is a homotopy pullback, and so it is itself a homotopy pullback square ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)).
 
-Hence the $\eta$-naturality square of $f$ is the retract of a homotopy pullback square, and so it is itself a homotopy pullback square.
 
 =--
 
@@ -2552,13 +2551,13 @@ Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theor
 $$
   Z^X_{i,k}
    \overset{\in J_{Top} Cell}{\longrightarrow}
-  W_\bullet
+  W_i
     \overset{\in Fib_{cl}}{\longrightarrow}
-  Z^Y_{\bullet,k}
+  Z^Y_{i,k}
   \,.
 $$
 
-Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequences of [[relative cell complexes]]. This implies by the way the [[small object argument]] works and the commutativity of each
+Notice that by construction $Z^K_{\bullet,k}$ and $Z^Y_{\bullet,k}$ are sequences of [[relative cell complexes]]. This implies, by the way the [[small object argument]] works and by the commutativity of each
 
 $$
   \array{
@@ -2574,6 +2573,7 @@ $$
      &\overset{\in J_{(Top^{\ast/})} Cell}{\longrightarrow}&
     W_{i+1}
   }
+  \,,
 $$
 
 that also $W_\bullet$ is a sequence of relative cell complex inclusions.
@@ -2636,7 +2636,7 @@ By universality of the pullback there is a commuting triangle
 $$
   \array{
      Z^{B\times_Y X}_{i,k}
-     && \longrightarrow &&
+     && \overset{\phi_i}{\longrightarrow} &&
       Z^B_{i,k} \underset{Z^Y_{i,k}}{\times}
      W_i
      \\
@@ -2657,7 +2657,7 @@ $$
   (Q(B \underset{Y}{\times} X))_k
   =
   \underset{\longrightarrow}{\lim}_i Z^{B \times_Y X}_{i,k}
-    \overset{\in W_{cl}}{\longrightarrow}
+    \underoverset{\in W_{cl}}{\underset{\longleftarrow}{\lim}_i \phi_i}{\longrightarrow}
   \left(\underset{\longrightarrow}{\lim}_i Z^B_{i,k}\right)
     \underset{
          \underset{\longrightarrow}{\lim}_i Z^Y_{i,k}
@@ -2666,7 +2666,11 @@ $$
      \underset{\longrightarrow}{\lim}_i W_i
    \right)
    =
-  (Q B)_k \underset{(Q Y)_k}{\times} \underset{\longrightarrow}{\times}_i W_i
+  (Q B)_k 
+    \underset{(Q Y)_k}{\times} 
+  \left(
+    \underset{\longrightarrow}{\lim}_i W_i
+  \right)
   \,.
 $$
 
