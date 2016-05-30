@@ -110,7 +110,9 @@ a morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyc
 +-- {: .proof}
 ###### Proof
 
-It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+Let $f$ be a fibration and a weak equivalence. Since $Q$ preserves weak equivalences by condition 1 in def. \ref{QuillenIdempotentMonad}, $f$ is also a $Q$-weak equivalence. Since $Q$-cofibrations are cofibrations, the acyclic fibration $f$ has right lifting against $Q$-cofibrations, hence in particular against against $Q$-acyclic $Q$-cofibrations, hence is a $Q$-fibration.
+
+In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
 $$
   f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
@@ -300,7 +302,7 @@ then $\mathcal{C}_Q$, def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuill
 
 =--
 
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, lemma 4.5, lemma 4.6](#GoerssJardine96))
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, chapter X lemma 4.5, lemma 4.6](#GoerssJardine96))
 
 
 +-- {: .proof}
@@ -447,7 +449,7 @@ then a morphism $f \colon X \to Y$ in $\mathcal{C}$ is a $Q$-fibration (def. \re
 
 =--
 
-(e.g. [Goerss-Jardine 96, theorem 4.8](#GoerssJardine96))
+(e.g. [Goerss-Jardine 96, chapter X, theorem 4.8](#GoerssJardine96))
 
 +-- {: .proof}
 ###### Proof
