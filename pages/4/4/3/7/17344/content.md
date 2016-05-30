@@ -62,7 +62,7 @@ $$
    \;
    \underoverset
      {\xrightarrow[Maps(S^1,-)_\ast]{}}
-     {\xrightarrow{S^1 \wedge (-)}}
+     {\xleftarrow{S^1 \wedge (-)}}
      {\bot}
    \;
   Top_{cg}^{\ast/}
@@ -218,13 +218,13 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
  A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous functions between component spaces, such that these respect the structure maps in that all [[diagrams]] of the form
 
 $$
-  \array{
-    S^1 \wedge X_n &\stackrel{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_n
+\begin{matrix}
+    S^1 \wedge X_n &\xrightarrow{\quad S^1 \wedge f_n\quad}& S^1 \wedge Y_n
     \\
-    \downarrow^{\mathrlap{\sigma_n^X}} && \downarrow^{\mathrlap{\sigma_n^Y}}
+    \left\downarrow\scriptsize{\mathrlap{\sigma_n^X}}\right. && \left\downarrow\scriptsize{\mathrlap{\sigma_n^Y}}\right.
     \\
-    X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
-  }
+    X_{n+1} &\xrightarrow{\qquad f_{n+1}\qquad}& Y_{n+1}
+\end{matrix}
 $$
 
 [[commuting diagram|commute]].
@@ -270,16 +270,17 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
  A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $\widetilde{f_\bullet} \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
 $$
-  \array{
-    X_n &\overset{f_n}{\longrightarrow}& Y_n
+\begin{matrix}
+    X_n &\xrightarrow{\space{0}{0}{45}f_n\space{0}{0}{45}}& Y_n
     \\
-    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+    \left.\scriptsize{\mathllap{\tilde \sigma^X_n}}\right\downarrow && \left\downarrow\scriptsize{\mathrlap{\tilde \sigma^Y_n}}\right.
     \\
     Maps(S^1, X_{n+1})_\ast
-      &\underset{Maps(S^1,f_{n+1})_\ast}{\longrightarrow}&
+      &\xrightarrow[\quad Maps(S^1,f_{n+1})_\ast\quad]{}&
     Maps(S^1, Y_{n+1})_\ast
-  }
+\end{matrix}
 $$
+
 
 [[commuting diagram|commute]].
 
@@ -2050,17 +2051,17 @@ This follows by applying the ([[smash product]]$\dashv$[[pointed mapping space]]
 Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
 $$
-  \array{  
+\begin{matrix}  
     S^1 \wedge S^1 \wedge X_{n} 
-      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
+      &\xrightarrow{\quad S^1 \wedge f_{n}\quad}&
     S^1 \wedge Y_{n}
     \\
-    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
+    \left.\scriptstyle{\mathllap{S^1 \wedge \sigma_n^X}}\right\downarrow 
      && 
-    \downarrow^{\mathrlap{\sigma^Y_n}}
+    \left\downarrow\scriptstyle{\mathrlap{\sigma^Y_n}}\right.
     \\
-    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
-  }
+    S^1 \wedge X_{n+1} &\xrightarrow[\quad f_{n+1}\quad]{}& Y_{n+1}
+\end{matrix}
   \,.
 $$
 
