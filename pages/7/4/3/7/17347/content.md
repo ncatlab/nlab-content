@@ -4609,7 +4609,7 @@ $$
 +-- {: .num_defn #BfStructure}
 ###### Definition
 
-A **[[(B,f)-structure]]** is 
+A **$(B,f)$-structure** is 
 
 1. for each $n\in \mathbb{N}$ a [[pointed topological space|pointed]] [[CW-complex]] $B_n \in Top_{CW}^{\ast/}$
 
@@ -4625,17 +4625,17 @@ A **[[(B,f)-structure]]** is
      }
    $$
 
-   to the [[classifying space]] $B O(n)$ from def. \ref{EOn};
+   to the [[classifying space]] $B O(n)$ ([def.](classifying+space#EOn));
 
-1. for all $n_1 \leq n_2$ a continuous function
+1. for all $n_1 \leq n_2$ a pointed continuous function
 
-   $B_{n-1} \longrightarrow B_{n_2}$
+   $\iota_{n_1, n_2} \;\colon\; B_{n_1} \longrightarrow B_{n_2}$
 
-such that all these squares commute
+such that for all $n_1 \leq n_2 \in \mathbb{N}$ these [[commuting square|squares commute]]
 
 $$
   \array{
-    B_{n_1} &\longrightarrow& B_{n_2}
+    B_{n_1} &\overset{\iota_{n_1,n_2}}{\longrightarrow}& B_{n_2}
     \\
     {}^{\mathllap{f_{n_1}}}\downarrow && \downarrow^{\mathrlap{f_{n_2}}}
     \\
@@ -4646,15 +4646,17 @@ $$
 
 where the bottom map is the canonical one from def. \ref{InclusionOfBOnIntoBOnPlusOne}.
 
-The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps of def. \ref{classifying+space#WhitneySumMapOnClassifyingSpaces}
+The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $\mu_{n_1,n_2} \colon B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps ([def.](classifying+space#WhitneySumMapOnClassifyingSpaces))
 
 $$
   \array{
     B_{n_1} \times B_{n_2}
-      &\longrightarrow&
+      &\overset{\mu_{n_1, n_2}}{\longrightarrow}&
     B_{n_1 + n_2}
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{f_{n_1} \times f_{n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{f_{n_1 + n_2}}}
     \\
     B O(n_1) \times B O(n_2)
      &\longrightarrow&
@@ -4662,7 +4664,44 @@ $$
   }
 $$
  
-and which satisfy the evident versions of [[associativity]] and [[unitality]].
+and which satisfy the evident [[associativity]] and [[unitality]], for $B_0 = \ast$ the unit, and, finally, which commute with the maps $\iota$ in that all $n_1,n_2, n_3 \in \mathbb{N}$ these squares commute:
+
+
+$$
+  \array{
+    B_{n_1} \times B_{n_2}
+      &\overset{id \times \iota_{n_2,n_2+n_3}}{\longrightarrow}&
+    B_{n_1} \times B_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1,n_2 + n_3}}}
+    \\
+    B_{n_1 + n_2}
+      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
+    B_{n_1 + n_2 + n_3}
+  }
+$$
+
+and
+
+$$
+  \array{
+    B_{n_1} \times B_{n_2}
+      &\overset{\iota_{n_1,n_1+n_3} \times id}{\longrightarrow}&
+    B_{n_1+n_3} \times B_{n_2 }
+    \\
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1 + n_3 , n_2}}}
+    \\
+    B_{n_1 + n_2}
+      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
+    B_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
 
 Similarly, an **$S^2$-$(B,f)$-structure** is a compatible system
 
@@ -4670,12 +4709,12 @@ $$
   f_{2n} \colon B_{2n} \longrightarrow B O(2n)
 $$
 
-indexed only on the even natural numbers. 
+indexed only on the even natural numbers.
 
 Generally, an **$S^k$-$(B,f)$-structure** for $k \in \mathbb{N}$, $k \geq 1$ is a compatible system
 
 $$
-  f_{k n} \colon B_{ kn} \longrightarrow B O( kn)
+  f_{k n} \colon B_{ kn} \longrightarrow B O(k n)
 $$
 
 for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
@@ -4710,10 +4749,10 @@ Examples of $S^4$-$(B,f)$-structures (def. \ref{BfStructure}) include
 =--
 
 
-+-- {: .num_defn }
++-- {: .num_defn #ManifoldWithBfStructure}
 ###### Definition
 
-Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-structure as in def. \ref{BfStructure}, then a **$(B,f)$-structure on the manifold** is an [[equivalence class]] of the following structure:
+Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-structure as in def. \ref{BfStructure}, then a **$(B,f)$-structure on the normal bundle of the manifold** is an [[equivalence class]] of the following structure:
 
 1. an [[embedding]] $i_X \; \colon \; X \hookrightarrow \mathbb{R}^k$ for some $k \in \mathbb{N}$;
 
@@ -4725,7 +4764,7 @@ Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-struct
        \\
        &{}^{\mathllap{\hat g}}\nearrow& \downarrow^{\mathrlap{f_{k-n}}}
        \\
-       X &\overset{g}{\hookrightarrow}& B O(k-n)
+       X &\overset{g}{\longrightarrow}& B O(k-n)
      }
      \,.
    $$
@@ -5204,6 +5243,14 @@ is a [[diffeomorphism]].
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+**([[tubular neighbourhood theorem]])**
+
+For every [[embedding]] of [[smooth manifolds]], there exists a [[tubular neighbourhood]] according to def. \ref{TubularNeighbourhood}.
+
+=--
+
 +-- {: .num_remark #IngredientsOfPontrjaginThomConstruction}
 ###### Remark
 
@@ -5268,6 +5315,28 @@ $$
 
 in the $n$th [[stable homotopy group]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StableHomotopyGroups)) of the [[Thom spectrum]] $M O$ (def. \ref{UniversalThomSpectrum}).
 
+More generally, for $X$ a smooth manifold with normal [[(B,f)-structure]] $(X,i,\hat g_i)$ according to def. \ref{ManifoldWithBfStructure}, then its Pontrjagin-Thom construction is the composite
+
+$$
+  \xi_i
+    \;\colon\;
+  S^k 
+   \longrightarrow
+  Th(N_i X)
+   \overset{Th(\hat g_i)}{\longrightarrow}
+  Th( V^{\mathcal{B}}_{k-n} )
+    \simeq
+  (M \mathbb{B})_{k-n}
+$$
+
+with 
+
+$$
+  V^{\mathcal{B}}_{k-n} \coloneqq f_{k-n}^\ast(E O(k-n) \underset{O(k-n)}{\times} \mathbb{R}^{k-n})
+$$
+
+the [[universal vector bundle]] pulled back to the corresponding space of the $(B,f)$-structure.
+
 =--
 
 
@@ -5282,16 +5351,26 @@ $$
   n Manifolds \longrightarrow \pi_n(M O)
 $$
 
-which sends [[disjoint union]] and [[Cartesian product]] of manifolds to sum and product in the [[ring]] of [[stable homotopy groups]] of the [[Thom spectrum]]. One finds then that two manifolds map to the same element in $\pi_\bullet(M O)$ precisely if they are connected by a [[bordism]] as [above](#ClassifyingSpaces). The [[bordism]]-classes $\Omega_\bullet^O$ of manifolds  form a [[commutative ring]] under [[disjoint union]] and [[Cartesian product]], called the _[[bordism ring]]_, and hence Pontrjagin-Thom collapse produces a ring [[homomorphism]]
+which sends [[disjoint union]] and [[Cartesian product]] of manifolds to sum and product in the [[ring]] of [[stable homotopy groups]] of the [[Thom spectrum]]. One finds then that two manifolds map to the same element in the [[stable homotopy groups]] $\pi_\bullet(M O)$ of the universal [[Thom spectrum]] precisely if they are connected by a [[bordism]]. The [[bordism]]-classes $\Omega_\bullet^O$ of manifolds  form a [[commutative ring]] under [[disjoint union]] and [[Cartesian product]], called the _[[bordism ring]]_, and Pontrjagin-Thom collapse produces a ring [[homomorphism]]
 
 $$
   \Omega_\bullet^O \longrightarrow \pi_\bullet(M O)
   \,.
 $$
 
-[[Thom's theorem]] states that this homomorphism is an [[isomorphism]].
+[[Thom's theorem]] states that this homomorphism is an [[isomorphism]]. 
+
+More generally, for $\mathcal{B}$ a multiplicative [[(B,f)-structure]], def. \ref{BfStructure}, there is such an identification
+
+$$
+  \Omega_\bullet^{\mathcal{B}} \simeq \pi_\bullet(M \mathbb{B})
+$$
+
+between the ring of $\mathcal{B}$-cobordism classes of manifolds with $\mathcal{B}$-structure and the [[stable homotopy groups]] of the universal $\mathcal{B}$-[[Thom spectrum]].
 
 **Literature.** ([Kochman 96, 1.5](#Kochman96))
+
+
 
 
 #### Thom isomorphism
@@ -5597,8 +5676,6 @@ $$
 $$
 
 that are induced by including the fiber of $V_{n}^{\mathcal{B}}$. 
-
-> (Maybe we should assume here that $\mathcal{B}$ is G-structure with $B_n = B G_n$ connected and canonically and compatibly pointed.)
 
 Accordingly the composite 
 
