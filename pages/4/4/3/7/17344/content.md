@@ -3050,7 +3050,7 @@ In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespe
 For $X \in SeqSpec(Top_{cg})$ a sequential spectrum, $f \in Mor(SeqSpec(Top_{cg}))$ any morphism of sequential spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[compact topological space|copact]] [[Hausdorff spaces]], then the [[hom-spaces]] of def. \ref{HomSpaceBetweenSequentialSpectra} interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
 
 $$
-  SeqSpec(f \box g, X)
+  SeqSpec(f \Box g, X)
     \simeq
   SeqSpec(f,X)^{\Box g}
   \,.
