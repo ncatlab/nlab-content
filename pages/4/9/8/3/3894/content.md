@@ -65,15 +65,15 @@ A **$(B,f)$-structure** is
 
    to the [[classifying space]] $B O(n)$ ([def.](classifying+space#EOn));
 
-1. for all $n_1 \leq n_2$ a continuous function
+1. for all $n_1 \leq n_2$ a pointed continuous function
 
-   $B_{n-1} \longrightarrow B_{n_2}$
+   $\iota_{n_1, n_2} \;\colon\; B_{n_1} \longrightarrow B_{n_2}$
 
-such that all these squares commute
+such that for all $n_1 \leq n_2 \in \mathbb{N}$ these [[commuting square|squares commute]]
 
 $$
   \array{
-    B_{n_1} &\longrightarrow& B_{n_2}
+    B_{n_1} &\overset{\iota_{n_1,n_2}}{\longrightarrow}& B_{n_2}
     \\
     {}^{\mathllap{f_{n_1}}}\downarrow && \downarrow^{\mathrlap{f_{n_2}}}
     \\
@@ -84,15 +84,17 @@ $$
 
 where the bottom map is the canonical one ([def.](classifying+space#InclusionOfBOnIntoBOnPlusOne)).
 
-The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps ([def.](classifying+space#WhitneySumMapOnClassifyingSpaces))
+The $(B,f)$-structure is **multiplicative** if it is moreover equipped with a system of maps $\mu_{n_1,n_2} \colon B_{n_1}\times B_{n_2} \to B_{n_1 + n_2}$ which cover the canonical multiplication maps ([def.](classifying+space#WhitneySumMapOnClassifyingSpaces))
 
 $$
   \array{
     B_{n_1} \times B_{n_2}
-      &\longrightarrow&
+      &\overset{\mu_{n_1, n_2}}{\longrightarrow}&
     B_{n_1 + n_2}
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{f_{n_1} \times f_{n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{f_{n_1 + n_2}}}
     \\
     B O(n_1) \times B O(n_2)
      &\longrightarrow&
@@ -100,7 +102,44 @@ $$
   }
 $$
  
-and which satisfy the evident versions of [[associativity]] and [[unitality]].
+and which satisfy the evident [[associativity]] and [[unitality]], for $B_0 = \ast$ the unit, and, finally, which commute with the maps $\iota$ in that all $n_1,n_2, n_3 \in \mathbb{N}$ these squares commute:
+
+
+$$
+  \array{
+    B_{n_1} \times B_{n_2}
+      &\overset{id \times \iota_{n_2,n_2+n_3}}{\longrightarrow}&
+    B_{n_1} \times B_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1,n_2 + n_3}}}
+    \\
+    B_{n_1 + n_2}
+      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
+    B_{n_1 + n_2 + n_3}
+  }
+$$
+
+and
+
+$$
+  \array{
+    B_{n_1} \times B_{n_2}
+      &\overset{\iota_{n_1,n_1+n_3} \times id}{\longrightarrow}&
+    B_{n_1+n_3} \times B_{n_2 }
+    \\
+    {}^{\mathllap{\mu_{n_1, n_2}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1 + n_3 , n_2}}}
+    \\
+    B_{n_1 + n_2}
+      &\underset{\iota_{n_1+n_2, n_1 + n_2 + n_3}}{\longrightarrow}&
+    B_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
 
 Similarly, an **$S^2$-$(B,f)$-structure** is a compatible system
 
@@ -109,6 +148,14 @@ $$
 $$
 
 indexed only on the even natural numbers.
+
+Generally, an **$S^k$-$(B,f)$-structure** for $k \in \mathbb{N}$, $k \geq 1$ is a compatible system
+
+$$
+  f_{k n} \colon B_{ kn} \longrightarrow B O(k n)
+$$
+
+for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
 
 =--
 
