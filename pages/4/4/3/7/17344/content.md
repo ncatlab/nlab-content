@@ -1325,7 +1325,7 @@ We now show that every sequential pre-spectrum may be completed to an Omega-spec
 For $X \in SeqSpec(Top_{cg})$, define a spectrum $Q X \in SeqSpec(Top_{cg})$ and a morphism
 
 $$
-  j_X \;\colon\; X \longrightarrow Q X
+  \eta_X \;\colon\; X \longrightarrow Q X
 $$
 
 (to be called the **[[spectrification]]** of $X$) as follows.
@@ -1458,7 +1458,7 @@ $$
 Finally, let 
 
 $$
-  j_X \colon X \to Q X
+  \eta_X \colon X \to Q X
 $$ 
 
 be degreewise the inclusion of the first component ($i = 0$) into the colimit. By construction, this is a homomorphism of sequential spectra (according to def. \ref{SequentialSpectrumViaAdjunctStructureMaps}).
@@ -1473,9 +1473,9 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential prespectrum]] with $j_X \colon X 
 
 1. $Q X$ is an [[Omega-spectrum]] (def. \ref{OmegaSpectrum});
 
-1. $j_X \colon X \to Q X$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}):
+1. $\eta_X \colon X \to Q X$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}):
 
-1. $j_X$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) precisely if $X$ is an [[Omega-spectrum]];
+1. $\eta_X$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}) precisely if $X$ is an [[Omega-spectrum]];
 
 1. a morphism $f \colon X  \to Y$ is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}), precisely if $Q f \colon Q X \to Q Y$ is a level weak equivalence (is in $W_{strict}$, def. \ref{ClassesOfMorphismsOfTheStrictModelStructureOnSequentialSpectra}).
 
@@ -1494,7 +1494,7 @@ Since each $\tilde \sigma_{i,k}$ by construction is a weak homotopy equivalence 
 
 Regarding the second statement: 
 
-By the previous statement and by example \ref{StableHomotopyGroupsOfOmegaSpectrum}, the map $\pi_\bullet(j_X) \colon \pi_\bullet(X)\to \pi_\bullet(Q X)$ is given in degree $q \geq 0$ by
+By the previous statement and by example \ref{StableHomotopyGroupsOfOmegaSpectrum}, the map $\pi_\bullet(\eta_X) \colon \pi_\bullet(X)\to \pi_\bullet(Q X)$ is given in degree $q \geq 0$ by
 
 $$
   \underset{
@@ -1528,7 +1528,7 @@ If $X$ is an Omega-spectrum in that all its adjunct structure maps $\tilde \sigm
 
 In the other direction:
 
-If $j_X$ is degrewise a weak homotopy equivalence, then by applying [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) to the compatibility squares for the adjunct structure morphisms (def. \ref{SequentialSpectrumViaAdjunctStructureMaps}), using that $\tilde \sigma^{Q X}_n$ is a weak homotopy equivalence by the first point above
+If $\eta_X$ is degrewise a weak homotopy equivalence, then by applying [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) to the compatibility squares for the adjunct structure morphisms (def. \ref{SequentialSpectrumViaAdjunctStructureMaps}), using that $\tilde \sigma^{Q X}_n$ is a weak homotopy equivalence by the first point above
 
 $$
   \array{
@@ -2085,17 +2085,17 @@ This follows by applying the ([[smash product]]$\dashv$[[pointed mapping space]]
 Morphisms $f\colon \Sigma X \to Y$ in the sense of def. \ref{SequentialSpectra} are in components given by commuting diagrams of this form:
 
 $$
-\begin{matrix}  
+  \array{  
     S^1 \wedge S^1 \wedge X_{n} 
-      &\xrightarrow{\quad S^1 \wedge f_{n}\quad}&
+      &\overset{S^1 \wedge f_{n}}{\longrightarrow}&
     S^1 \wedge Y_{n}
     \\
-    \left.\scriptstyle{\mathllap{S^1 \wedge \sigma_n^X}}\right\downarrow 
+    {}^{\mathllap{S^1 \wedge \sigma_n^X}}\downarrow 
      && 
-    \left\downarrow\scriptstyle{\mathrlap{\sigma^Y_n}}\right.
+    \downarrow^{\mathrlap{\sigma^Y_n}}
     \\
-    S^1 \wedge X_{n+1} &\xrightarrow[\quad f_{n+1}\quad]{}& Y_{n+1}
-\end{matrix}
+    S^1 \wedge X_{n+1} &\underset{f_{n+1}}{\longrightarrow}& Y_{n+1}
+  }
   \,.
 $$
 
@@ -3398,7 +3398,7 @@ for $\mathcal{C}$ equipped with these classes of morphisms.
 
 Since $Q$ preserves weak equivalences (by def. \ref{QuillenIdempotentMonad}) then if the classes of morphisms in def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} do constitute a [[model category]] structure, then this is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$, according to def. \ref{BousfieldLocalizationOfModelCategories}.
 
-We establish a couple of lemmas that will prove that the model structure indeed exsists (prop. \ref{BousfieldFriedlanderTheorem} below).
+We establish a couple of lemmas that will prove that the model structure indeed exists (prop. \ref{BousfieldFriedlanderTheorem} below).
 
 
 +-- {: .num_lemma #FirstLemmaForBousfieldFriedlander}
@@ -3915,7 +3915,7 @@ We show now that the operation of [[Omega-spectrification]] of topological seque
 +-- {: .num_lemma #OmegaSpectrificationOfSequentiaSpectraPreservesHomotopyPullback}
 ###### Lemma
 
-The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra}  preserves [[homotopy pullbacks]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) in the strict model structure $SeqSpec(Top_{cg})_{strict}$ from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+The [[Omega-spectrification]] $(Q,\eta)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra}  preserves [[homotopy pullbacks]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) in the strict model structure $SeqSpec(Top_{cg})_{strict}$ from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
 
 =--
 
@@ -4078,7 +4078,7 @@ This exhibits (degreewise and hence globally) the [[homotopy pullback]] property
 +-- {: .num_prop #OmegaSpectrificationOnTopologicalSequentialSpectraIsQuillenIdempotentMonad}
 ###### Proposition
 
-The [[Omega-spectrification]] $(Q,j)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad} on the strict model structre theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
+The [[Omega-spectrification]] $(Q,\eta)$ from def. \ref{SpectrificationForTopologicalSequentialSpectra} is a Quillen idempotent monad in the sense of def. \ref{QuillenIdempotentMonad} on the strict model structre theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}:
 
 $$
   Q 
@@ -4272,7 +4272,7 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-s
      \array{ 
         \mathcal{X}_n & if \; n \in k \mathbb{N}
         \\ 
-        S^q \wedge \mathcal{X}_{n-q} & if \; q \lt k \; and n-q \in k \mathbb{N}
+        S^q \wedge \mathcal{X}_{n-q} & if \; q \lt k \; and \; n-q \in k \mathbb{N}
      }
    \right.
   $$ 
@@ -4284,7 +4284,7 @@ between sequential spectra (def. \ref{SequentialSpectra}) and sequential $S^k$-s
     =
     \left\{
       \array{
-        \sigma^{\mathcal{X}}_{n - (k-1)} & if n+1 \in k \mathbb{N}
+        \sigma^{\mathcal{X}}_{n - (k-1)} & if \; n+1 \in k \mathbb{N}
         \\
         id_{S^1 \wedge \mathcal{X}_n} & otherwise
         \\
@@ -4614,12 +4614,30 @@ $$
      & \downarrow & 
    \swarrow_{\mathrlap{\tau_{S^2, S^1}}}
    \\
-   && S^3 \wedge 
+   && S^3 
   }
   \,.
 $$
 
-By forming the [[smash product]] of the entire diagram with $X_{2n}$ and [[pasting]] on the right the naturality square for the braiding with $S^1$, this yields the diagram
+By forming the [[smash product]] of the entire diagram with $X_{2n}$ and [[pasting]] on the right the naturality square for the braiding with $S^1$
+
+$$
+  \array{
+     S^1 \wedge S^2 \wedge X_{2n}
+       &\overset{\tau_{S^2 \wedge X_{2n}, S^1} }{\longleftarrow}&
+     S^2 \wedge X_{2n} \wedge S^1
+     \\
+     {}^{\mathllap{S^1 \wedge (\sigma_{2n+1} \circ (S^1 \wedge \sigma_{2n}))}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{(\sigma_{2n+1} \circ (S^1 \wedge \sigma_{2n})) \wedge S^1 }}
+     \\
+     S^1 \wedge X_{2(n+1)}
+      &\underset{\tau_{X_{2n}, S^1}}{\longleftarrow}&
+     X_{2n} \wedge S^1
+  }
+$$
+
+this yields the diagram
 
 $$
   \array{
@@ -4628,7 +4646,7 @@ $$
    (I_+) \wedge S^3 \wedge X_{2n}
       &\overset{i_1}{\longleftarrow}& 
    S^3 \wedge X_{2n}
-     &\overset{\tau_{S^2\wedge X_{2n}, S^1}}{\longleftarrow}&
+     &\overset{S^2\wedge \tau_{ X_{2n}, S^1}}{\longleftarrow}&
    S^2 \wedge X_{2n} \wedge S^1
    \\
    & {}_{\mathllap{id}}\searrow 
@@ -4645,9 +4663,9 @@ $$
    &&
    &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
    & 
-   \swarrow_{\mathrlap{\tau_{S^1, X_{2n}}}}
+   \swarrow_{\mathrlap{\tau_{X_{2n}, S^1}}}
    \\
-   && && S^1 \wedge X_{2(n+1)}
+   && && S^1 \wedge X_{2 n}
   }
   \,.
 $$
@@ -4906,7 +4924,7 @@ $$
   [X,E]_{strict} 
     \stackrel{Q}{\longrightarrow}
   [Q X, Q E]_{strict}
-    \stackrel{[j_X,E]_{strict}}{\longrightarrow}
+    \stackrel{[\eta_X,E]_{strict}}{\longrightarrow}
   [X, Q]_{strict}  
   \,.
 $$
@@ -4918,7 +4936,7 @@ $$
      &
       &&
     [Q X, E]_{strict}
-      &\stackrel{[j_X, E]_{strict}}{\longrightarrow}&
+      &\stackrel{[\eta_X, E]_{strict}}{\longrightarrow}&
     [X, E]_{strict}  
     \\
     & &\nearrow& 
@@ -4932,7 +4950,7 @@ $$
     [X,E]_{strict} 
       &\stackrel{Q}{\longrightarrow}&
     [Q X, Q E]_{strict}
-      &\stackrel{[j_X, Q E]_{strict}}{\longrightarrow}&
+      &\stackrel{[\eta_X, Q E]_{strict}}{\longrightarrow}&
     [X, Q E]_{strict}  
   }
 $$
@@ -5726,7 +5744,7 @@ For every $X \in SeqSpec(Top_{cg})$, then the [[spectrification]] from def. \ref
 
 $$  
   X 
-    \underoverset{\in W_{stable}}{j_X}{\longrightarrow}
+    \underoverset{\in W_{stable}}{\eta_X}{\longrightarrow}
   Q X
     \underset{\in Fib_{stable}}{\longrightarrow}
   \ast
@@ -5740,7 +5758,7 @@ $$
 
 By the first item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q X$ is an [[Omega-spectrum]]; by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} these are fibrant in the stable model structure.
 
-By the second item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} $j_X$ is a stable weak equivalence, and by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} these are in $W_{stable}$. 
+By the second item of prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra} $\eta_X$ is a stable weak equivalence, and by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence} these are in $W_{stable}$. 
 
 =--
 
