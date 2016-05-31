@@ -659,15 +659,35 @@ More generally, there are universal Thom spectra associated with any other tange
 +-- {: .num_defn #VectorBundleAssociatedWithBfStructure}
 ###### Definition
 
-Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), write
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}),  write $V^\mathcal{B}_n$ for the [[pullback]] of the [[universal vector bundle]] (def. \ref{EOn}) to the corresponding space of the $(B,f)$-structure and with
 
 $$
-  E^{\mathcal{B}}_n
-    \coloneqq 
-  f_n^\ast ( E O(n) \underset{O(n)}{\times} \mathbb{R}^n )
+  \array{
+    V^{\mathcal{B}}
+      &\overset{}{\longrightarrow}&
+    V O(n) \underset{O(n)}{\times} \mathbb{R}^n
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B_n &\underset{f_n}{\longrightarrow}& B O(n)
+  }
 $$
 
-for the [[pullback]] of the rank-$n$ [[universal vector bundle]] from $B O(n)$ to $B_n$ along $f_n$.
+and we write $e_{n_1,n_2}$ for the maps of total space of vector bundles over the $g_{n_1,n_2}$:
+
+$$
+  \array{
+    V^{\mathcal{B}}_{n_1}
+     &\overset{e_{n_1,n_2}}{\longrightarrow}&
+    V^{\mathcal{B}}_{n_2}
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    B_{n_1} &\underset{g_{n_1,n_2}}{\longrightarrow}& B_{n_2}
+  }
+  \,.
+$$
+
 
 =--
 
@@ -676,13 +696,13 @@ Observe that the analog of prop. \ref{PullbackOfUniversalOnBundleUnderCoordinate
 +-- {: .num_prop #PullbackOfUniversalBfBundleUnderCoordinateRestriction}
 ###### Proposiiton
 
-Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pullback of its rank-$(n+1)$ vector bundle $E^{\mathcal{B}}_{n+1}$ (def. \ref{VectorBundleAssociatedWithBfStructure}) along the map $g_{n,n+1} \colon B_n \to B_{n+1}$ is the [[direct sum of vector bundles]] of the rank-$n$ bundle $E^{\mathcal{B}}_n$ with the trivial rank-1-bundle: there is a pullback square
+Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pullback of its rank-$(n+1)$ vector bundle $V^{\mathcal{B}}_{n+1}$ (def. \ref{VectorBundleAssociatedWithBfStructure}) along the map $g_{n,n+1} \colon B_n \to B_{n+1}$ is the [[direct sum of vector bundles]] of the rank-$n$ bundle $V^{\mathcal{B}}_n$ with the trivial rank-1-bundle: there is a pullback square
 
 $$
   \array{
-    \mathbb{R} \oplus E^{\mathcal{B}}_n 
+    \mathbb{R} \oplus V^{\mathcal{B}}_n 
       &\overset{e_{n,n+1}}{\longrightarrow}&
-    E^{\mathcal{B}}_{n+1}
+    V^{\mathcal{B}}_{n+1}
     \\
     \downarrow &(pb)& \downarrow
     \\
@@ -700,7 +720,7 @@ Unwinding the definitions, the pullback in question is
 
 $$
   \begin{aligned}
-    (g_{n,n+1})^\ast E^{\mathcal{B}}_{n+1}
+    (g_{n,n+1})^\ast V^{\mathcal{B}}_{n+1}
       & =
     (g_{n,n+1})^\ast f_{n+1}^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
     \\
@@ -716,7 +736,7 @@ $$
     & \simeq
     f_n^\ast (\mathbb{R} \oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^{n}))
     \\
-    &\simeq \mathbb{R} \oplus E^{\mathcal{B}_n}
+    &\simeq \mathbb{R} \oplus V^{\mathcal{B}_n}
     \,,
   \end{aligned}
 $$
@@ -733,7 +753,7 @@ Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), its **univer
 $$
   (M \mathcal{B})_n
     \coloneqq
-  Th(E^{\mathcal{B}}_n)
+  Th(V^{\mathcal{B}}_n)
 $$
 
 and with structure maps given via prop. \ref{SuspensionOfThomSpaces} by the top maps in prop. \ref{PullbackOfUniversalBfBundleUnderCoordinateRestriction}:
@@ -743,11 +763,11 @@ $$
     \;\colon\;
   \Sigma (M \mathcal{B})_n
     =
-  \Sigma Th(E^{\mathcal{E}}_n)
+  \Sigma Th(V^{\mathcal{E}}_n)
     \simeq
-  Th(\mathbb{R}\oplus E^{\mathcal{E}}_n)
+  Th(\mathbb{R}\oplus V^{\mathcal{E}}_n)
     \overset{Th(e_{n,n+1})}{\longrightarrow}
-  Th(E^{\mathcal{E}}_{n+1})
+  Th(V^{\mathcal{E}}_{n+1})
   =
   (M \mathcal{B})_{n+1}
   \,.
@@ -760,22 +780,36 @@ If $B_n = B G_n$ for some natural system of groups $G_n \to O(n)$, then one usua
 If the $(B,f)$-structure is multiplicative (def. \ref{BfStructure}), then the Thom spectrum $M \mathcal{B}$ canonical becomes a [[ring spectrum]]: the multiplication maps $B_{n_1} \times B_{n_2}\to B_{n_1 + n_2}$ are covered by maps of vector bundles
 
 $$
-  E^{\mathcal{B}}_{n_1} \boxtimes E^{\mathcal{B}}_{n_2}
+  V^{\mathcal{B}}_{n_1} \boxtimes V^{\mathcal{B}}_{n_2}
   \longrightarrow
-  E^{\mathcal{B}}_{n_1 + n_2}
+  V^{\mathcal{B}}_{n_1 + n_2}
 $$
 
 and under forming [[Thom spaces]] this yields ([prop.](Thom+space#ThomSpaceOfExternalProductOfVectorBundles)) maps
 
 $$
   (M \mathcal{B})_{n_1}
-  \wedge
+    \wedge
   (M \mathcal{B})_{n_2}
-  \longrightarrow
+    \longrightarrow
   (M \mathcal{B})_{n_1 + n_2}
-  \,.
 $$
 
+which are [[associativity|associative]] by the associativity condition in a multiplicative $(B,f)$-structure. The unit is 
+
+
+$$
+  (M \mathcal{B})_0
+  =
+  Th(V^{\mathcal{B}}_0)
+    \simeq
+  Th(\ast)
+    \simeq
+  S^0
+  \,,
+$$
+
+by remark \ref{ThomSpaceForRankZeroBundle}.
 
 =--
 
@@ -950,6 +984,8 @@ $$
 The [[Pontrjagin-Thom construction]] (def. \ref{PontrjaginThomConstruction}) respects the equivalence classes entering the definition of manifolds with stable normal $\mathcal{B}$-structure (def. \ref{ManifoldWithBfStructure}) hence descends to a [[function]] (of [[sets]])
 
 $$
+  \xi
+  \;\colon\;
   \left\{
     {n\text{-}manifolds\;with\;stable}
     \atop
@@ -1089,10 +1125,99 @@ from the $\mathcal{B}$-[[bordism ring]] (def. \ref{BordismGroupAndBordismRing}) 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By prop. \ref{PontrjaginThomConstructionGivesWellDefinedStableHomotopyGroup} the underlying function of sets is well-defined before dividing out the bordism relation (def. \ref{BordismRelation}). To descend this further to a function out of the set underlying the bordism ring, we need to see that the Pontrjagin-Thom construction respects the bordism relation. But the definition of bordism is just so as to exhibit under $\xi$ a [[left homotopy]] of representatives of homotopy groups.
+
+Next we need to show that it is 
+
+1. a group homomorphism;
+
+1. a ring homomorphism.
+
+Regarding the first point:
+
+The element 0 in the [[cobordism group]] is represented by the empty manifold. It is clear that the Pontrjagin-Thom construction takes this to the trivial stable homotopy now.
+
+Given two $n$-manifolds with $\mathcal{B}$-structure, we may consider an embedding of their [[disjoint union]] into some $\mathbb{R}^{k}$ such that the [[tubular neighbourhoods]] of the two direct summands do not intersect. There is then a map from two copies of the [[n-cube|k-cube]], glued at one face
+
+$$
+  \Box^k \underset{\Box^{k-1}}{\sqcup} \Box^k
+  \longrightarrow
+  \mathbb{R}^k
+$$
+
+such that the first manifold with its tubular neighbourhood sits inside the image of the first cube, while the second manifold with its tubular neighbourhood sits indide the second cube. After applying the Pontryagin-Thom construction to this setup, each cube separately maps to the image under $\xi$ of the respective manifold, while the union of the two cubes manifestly maps to the sum of the resulting elements of homotopy groups, by the very definition of the group operation in the homotopy groups ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyGroupsOftopologicalSpaces)). This shows that $\xi$ is a group homomorphism.
+
+Regarding the second point:
+
+The element 1 in the [[cobordism ring]] is represented by the manifold which is the point. Without restriction we may consoder this as embedded into $\mathbb{R}^0$, by the identity map. The corresponding [[normal bundle]] is of [[rank]] 0 and hence (by remark \ref{ThomSpaceForRankZeroBundle}) its [[Thom space]] is $S^0$, the [[0-sphere]]. Also $V^{\mathcal{B}}_0$ is the rank-0 vector bundle over the point, and hence $(M \mathcal{B})_0 \simeq S^0$ (by def. \ref{UniversalThomSpectrumForBfStructure}) and so $\xi(\ast) \colon (S^0 \overset{\simeq}{\to} S^0)$ indeed represents the unit element in $\pi_\bullet(M\mathcal{B})$.
+
+
+Finally regarding respect for the ring product structure: for two manifolds with stable normal $\mathcal{B}$-structure, represented by embeddings into $\mathbb{R}^{k_i}$, then the normal bundle of the embedding of their [[Cartesian product]] is the [[direct sum of vector bundles]] of the separate normal bundles bulled back to the product manifold. In the notation of prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} there is a diagram of the form
+
+$$
+  \array{
+    \nu_1 \boxtimes \nu_2
+      &\overset{\hat e_1 \boxtimes \hat e_2}{\longrightarrow}&
+    V^{\mathcal{B}}_{n_1} \boxtimes V^{\mathcal{B}}_{n_2}
+      &\overset{\kappa_{n_1,n_2}}{\longrightarrow}&
+    V^{\mathcal{B}}_{n_1 + n_2}
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    X_1 \times X_2
+      &\underset{\hat g_1 \times \hat g_2}{\longrightarrow}&
+    B_{k_1-n_1} \times B_{k_2-n_2}
+      &\underset{\mu_{k_1-n_1,k_2-n_2}}{\longrightarrow}&
+    B_{k_1 + k_2 - n_1 - n_2}
+  }
+  \,.
+$$ 
+
+To the Pontrjagin-Thom construction of the product manifold is by definition the top composite in the diagram
+
+$$
+  \array{
+    S^{n_1 +n_2 + (k_1 + k_2 - n_1 - n_2)}
+      &\overset{}{\longrightarrow}&
+    Th(\nu_1 \boxtimes \nu_2)
+      &\overset{Th(\hat e_1 \boxtimes \hat e_2)}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1-n_1} \boxtimes V^{\mathcal{B}}_{k_2-n_2})
+      &\overset{\kappa_{k_1-n_1, k_2-n_2}}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1 + k_2 - n_1 - n_2})
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      && 
+    \downarrow^{\mathrlap{\simeq}}
+      &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    S^{n_1 + (k_1 - n_1)}
+      \wedge
+    S^{n_2 + (k_2 - n_2)}
+      &\overset{}{\longrightarrow}&
+    Th(\nu_1) \wedge Th(\nu_2)
+      &\overset{Th(\hat e_1)\wedge Th(\hat e_2)}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_1) \wedge Th(V^{\mathcal{B}}_2)
+      &\overset{\kappa_{k_1-n_1, k_2-n_2}}{\longrightarrow}&
+    Th(V^{\mathcal{B}}_{k_1 + k_2 - n_1 - n_2})
+   }
+   \,,
+$$
+
+which hence is equivalently the bottom composite, which in turn manifestly represents the product of the separate PT constructions in $\pi_\bullet(M\mathcal{B})$.
+
+
+=--
+
 +-- {: .num_theorem}
 ###### Theorem
 
-The ring homomorphsim in def. lemma \ref{PontrjaginThomIsRingHomomorphims} is an [[isomorphism]].
+The ring homomorphsim in lemma \ref{PontrjaginThomIsRingHomomorphims} is an [[isomorphism]].
 
 =--
 
