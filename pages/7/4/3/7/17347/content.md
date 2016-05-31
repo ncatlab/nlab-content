@@ -4826,7 +4826,7 @@ Examples of $S^4$-$(B,f)$-structures (def. \ref{BfStructure}) include
 +-- {: .num_defn #ManifoldWithBfStructure}
 ###### Definition
 
-Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-structure as in def. \ref{BfStructure}, then a **$(B,f)$-structure on the normal bundle of the manifold** is an [[equivalence class]] of the following structure:
+Given a [[smooth manifold]] $X$ of [[dimension]] $n$, and given a $(B,f)$-structure as in def. \ref{BfStructure}, then a **$(B,f)$-structure on the stable normal bundle of the manifold** is an [[equivalence class]] of the following structure:
 
 1. an [[embedding]] $i_X \; \colon \; X \hookrightarrow \mathbb{R}^k$ for some $k \in \mathbb{N}$;
 
@@ -5172,7 +5172,7 @@ Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pul
 $$
   \array{
     \mathbb{R} \oplus E^{\mathcal{B}}_n 
-      &\longrightarrow&
+      &\overset{\hat j_n}{\longrightarrow}&
     E^{\mathcal{B}}_{n+1}
     \\
     \downarrow &(pb)& \downarrow
@@ -5237,7 +5237,7 @@ $$
   \Sigma Th(E^{\mathcal{E}}_n)
     \simeq
   Th(\mathbb{R}\oplus E^{\mathcal{E}}_n)
-    \longrightarrow
+    \overset{Th(\hat j_n)}{\longrightarrow}
   Th(E^{\mathcal{E}}_{n+1})
   =
   (M \mathcal{B})_{n+1}
@@ -5400,7 +5400,7 @@ $$
    \overset{Th(\hat g_i)}{\longrightarrow}
   Th( V^{\mathcal{B}}_{k-n} )
     \simeq
-  (M \mathbb{B})_{k-n}
+  (M \mathcal{B})_{k-n}
 $$
 
 with 
@@ -5437,7 +5437,7 @@ $$
 More generally, for $\mathcal{B}$ a multiplicative [[(B,f)-structure]], def. \ref{BfStructure}, there is such an identification
 
 $$
-  \Omega_\bullet^{\mathcal{B}} \simeq \pi_\bullet(M \mathbb{B})
+  \Omega_\bullet^{\mathcal{B}} \simeq \pi_\bullet(M \mathcal{B})
 $$
 
 between the ring of $\mathcal{B}$-cobordism classes of manifolds with $\mathcal{B}$-structure and the [[stable homotopy groups]] of the universal $\mathcal{B}$-[[Thom spectrum]].
