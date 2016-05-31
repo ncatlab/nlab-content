@@ -163,6 +163,8 @@ for all $n \in \mathbb{N}$, hence for all $k n \in k \mathbb{N}$.
 
 ([Lashof 63](#Lashof63), [Stong 68, beginning of chapter II](#Stong68), [Kochmann 96, section 1.4](#Kochmann96))
 
+See also at _[[B-bordism]]_.
+
 
 +-- {: .num_example #ExamplesOfBfStructures}
 ###### Example
