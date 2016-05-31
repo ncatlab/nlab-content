@@ -1263,6 +1263,23 @@ Equivalently: an [[Omega-spectrum]] is a sequential spectrum in the incarnation 
 
 =--
 
++-- {: .num_example}
+###### Example
+
+The [[Brown representability theorem]] ([thm.](Introduction+to+Stable+homotopy+theory+--+S#BrownRepresentabilityForTraditionalBrownFunctors)) implies ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AdditiveReducedCohomologyTheoryRepresentedByOmegaSpectrum)) that every [[generalized (Eilenberg-Steenrod) cohomology theory]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedGeneralizedCohomology)) is represented by an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}).
+
+Applied to [[ordinary cohomology]] with [[coefficients]] some [[abelian group]] $A$, this yields the **[[Eilenberg-MacLane spectra]]** $H A$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+S#EilenbergMacLaneSpectrum)). These are the Omega-spectra whose $n$th component space is an [[Eilenberg-MacLane space]]
+
+$$
+  (H A)_n \simeq K(A,n)
+  \,.
+$$
+
+A genuinely generalized (i.e. non-ordinary, hence "extra-ordinary") [[cohomology theory]] is [[topological K-theory]] $K^\bullet(-)$. Applying the [[Brown representability theorem]] to [[topological K-theory]] yields the K-theory spectrum denoted [[KU]].
+
+=--
+
+
 Omega-spectra are singled out among all sequential pre-spectra as having good behaviour under forming [[stable homotopy groups]].
 
 +-- {: .num_example #StableHomotopyGroupsOfOmegaSpectrum}
