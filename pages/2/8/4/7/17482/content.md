@@ -1,0 +1,14 @@
+
+
+* [webpage](http://math.mit.edu/~guozhen/)
+
+
+## related $n$Lab entries
+
+* [[cobordism ring]]
+
+* [[homotopy groups of spheres]]
+
+category: people
+
+[[!redirects Wang Guozhen]]
