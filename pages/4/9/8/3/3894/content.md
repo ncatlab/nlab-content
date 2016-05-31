@@ -69,6 +69,8 @@ A **$(B,f)$-structure** is
 
    $\iota_{n_1, n_2} \;\colon\; B_{n_1} \longrightarrow B_{n_2}$
 
+   which is the identity for $n_1 = n_2$;
+
 such that for all $n_1 \leq n_2 \in \mathbb{N}$ these [[commuting square|squares commute]]
 
 $$
