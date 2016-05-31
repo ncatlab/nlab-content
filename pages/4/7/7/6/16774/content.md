@@ -56,6 +56,12 @@ $$
   }
 $$
 
+## Definition 
+
+Regard the [[icosahedron]], determined uniquely up to [[isometry]] on $\mathbb{R}^3$ as a regular convex polyhedron with $20$ faces, as a metric subspace $S$ of $\mathbb{R}^3$. Then the *icosahedral group* may be defined as the group of isometries of $S$. 
+
+More to be added. 
+
 ## Properties
 
 ### Group order
