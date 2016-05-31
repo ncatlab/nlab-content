@@ -126,6 +126,7 @@ for $F_m$ a [[finite group]].
 The [[Nishida nilpotence theorem]]...
 
 ### Relation to the framed bordism ring
+ {#RelationToFramedBordismRing}
 
 By [[Thom's theorem]], for any [[(B,f)-structure]] $\mathcal{B}$, there is an [[isomorphism]] (of [[commutative rings]])
 
@@ -137,7 +138,7 @@ $$
 
 from the [[cobordism ring]] of manifolds with stable normal $\mathcal{B}$-structure to the [[homotopy groups of a spectrum|homotopy groups]] of the universal $\mathcal{B}$-[[Thom spectrum]]. 
 
-Now for $\mathcal{B} = Fr$ bei g [[framing]] structure, then 
+Now for $\mathcal{B} = Fr$ [[framing]] structure, then 
 
 $$
   M Fr \simeq \mathbb{S}
@@ -154,6 +155,12 @@ $$
 between the framed cobordism ring and the stable homotopy groups of spheres.
 
 For discussion of computation of $\pi_\bullet(\mathbb{S})$ this way, see for instance ([Wang-Xu 10, section 2](#WangXu10)) and ([Putnam](#Putnam)).
+
+For instance 
+
+* $\Omega^{fr}_0 = \mathbb{Z}$ because there are two $k$-framings on a single point, corresponding to $\pi_0(O(k)) \simeq \mathbb{Z}_2$, the negative of a point with one framing is the point with the other framing, and so under disjoint union, the framed points form the group of integers;
+
+* $\Omega^{fr}_1 = \mathbb{Z}_2$ because the only compact connected 1-manifold is the circle, there are two framings on the circle, corresponding to $\pi_1(O(k)) \simeq \mathbb{Z}_2$ and they are their own negatives.
 
 
 ### J-homomorphism and Adams e-invariant
