@@ -56,7 +56,7 @@ $$
   \,.
 $$
 
-### In categories of fibant objects
+### In categories of fibrant objects
 
 > under construction
 
