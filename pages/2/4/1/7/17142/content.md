@@ -1104,6 +1104,7 @@ This manifestly identifies $\alpha_{k_2}$ as being the image of $\alpha$ under t
 =--
 
 ## Thom's theorem
+ {#ThomTheorem}
 
 Recall that the [[Pontrjagin-Thom construction]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#PontrjaginThomConstruction)) associates to an embbeded manifold $(X,i,\hat g)$ with normal $\mathcal{B}$-structure ([def.](Introduction+to+Stable+homotopy+theory+--+S#ManifoldWithBfStructure)) an element in the [[stable homotopy group]] $\pi_{dim(X)}(M \mathcal{B})$ of the universal $\mathcal{B}$-[[Thom spectrum]] in degree the dimension of that manifold.
 
@@ -1214,7 +1215,7 @@ which hence is equivalently the bottom composite, which in turn manifestly repre
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #MorphismFromCobordismRingToStableHomotopyGroupsOfThomSpectrumIsIso}
 ###### Theorem
 
 The ring homomorphsim in lemma \ref{PontrjaginThomIsRingHomomorphims} is an [[isomorphism]].
@@ -1223,6 +1224,89 @@ The ring homomorphsim in lemma \ref{PontrjaginThomIsRingHomomorphims} is an [[is
 
 Due to ([Thom 54](#Thom54), [Pontrjagin 55](#Pontrjagin55)). See for instance ([Kochmann 96, theorem 1.5.10](#Kochmann96)).
 
++-- {: .proof}
+###### Proof idea
+
+Observe that given the result $\alpha \colon S^{n+(k-n)} \to Th(V_{k-n})$ of the Pontrjagin-Thom construction map, the original manifold $X \overset{i}{\hookrightarrow} \mathbb{R}^k$  may be recovered as this [[pullback]]:
+
+$$
+  \array{
+    X &\overset{i}{\longrightarrow}& S^{n + (k-n)}
+    \\
+    {}^{\mathllap{g_i}}\downarrow &(pb)& \downarrow^{\mathrlap{\alpha}}
+    \\
+    B O(k-n) &\longrightarrow& Th(V^{B O}_{k-n})
+  }
+  \,.
+$$
+
+To see this more explicitly, break it up into pieces:
+
+$$
+  \array{
+   X &\longrightarrow& X_+ &\hookrightarrow& S^{n + (k-n)}
+   \\
+   \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    X &\longrightarrow& X_+ \simeq Th(X) &\overset{Th(0)}{\longrightarrow}& Th(\nu_i)
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    B_{k-n}
+      &\longrightarrow& 
+    (B_{k-n})_+ \simeq Th(B_{k-n}) 
+    &\underset{Th(0)}{\longrightarrow}& Th(V^{\mathcal{B}}_{k-n})
+    \\
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    B O(k-n)
+      &\longrightarrow& 
+    (B O(k-n))_+ \simeq Th(B O(k-n)) 
+      &\longrightarrow& 
+    Th(V^{B O}_{k-n})
+  }
+  \,.
+$$
+
+Moreover, since the [[n-spheres]] are [[compact topological spaces]], and since the [[classifying space]] $B O(n)$, and hence its universal Thom space, is a [[sequential colimit]] over [[relative cell complex]] inclusions, the right vertical map factors through some finite stage (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), the manifold $X$ is equivalently recovered as a pullback of the form
+
+$$
+  \array{
+    X &\longrightarrow& S^{n + (k-n)}
+    \\
+    {}^{\mathllap{g_i}}\downarrow &(pb)& \downarrow
+    \\
+    Gr_{k-n}(\mathbb{R}^k) 
+      &\overset{i}{\longrightarrow}&
+    Th( V_{k-n}(\mathbb{R}^k) \underset{O(k-n)}{\times} \mathbb{R}^{k-n})
+  }
+  \,.
+$$
+
+(Recall that $V^{\mathcal{B}}_{k-n}$ is our notation for the [[universal vector bundle]] with $\mathcal{B}$-structure, while $V_{k-n}(\mathbb{R}^k)$ denotes a [[Stiefel manifold]].)
+
+The idea of the proof now is to use this property as the blueprint of the construction of an [[inverse]] $\zeta$ to $\xi$: given an element in $\pi_{n}(M \mathcal{B})$ represented by a map as on the right of the above diagram, try to define $X$ and the structure map $g_i$ of its normal bundle as the pullback on the left.
+
+The technical problem to be overcome is that for a general continuous function as on the right, the pullback has no reason to be a smooth manifold, and for two reasons:
+
+1. the map $S^{n+(k-n)} \to Th(V_{k-n})$ may not be smooth around the image of $i$;
+
+1. even if it is smooth around the image of $i$, it may not be [[transversal map|transversal]] to $i$, and the intersection of two non-transversal smooth functions is in general still not a smooth manifold.
+
+The heart of the proof is in showing that for any $\alpha$ there are small homotopies relating it to an $\alpha'$ that is both smooth around the image of $i$ and transversal to $i$.
+
+The first condition is guaranteed by [[Sard's theorem]], the second by [[Thom's transversality theorem]].
+
+(...)
+
+
+
+
+
+
+
+
+=--
 
 
 
