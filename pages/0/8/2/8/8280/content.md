@@ -2,7 +2,7 @@ There are several different (sometimes related) mathematical objects called ''sp
 
 * [[spectrum]] in [[stable homotopy theory]].
 
-* [[spectrum (geometry)]] in [[geometry]]
+* [[spectrum (geometry)]] in [[geometry]], [[Cole's theory of spectrum]]
 
 * inlcuding [[spectral theory]] such _[[spectrum of an operator]]_, spectra of families, of a Banach algebra, _[[Gelfand spectrum]]_, prime (primitive etc.) [[spectrum of a commutative ring]] [[spectrum of a ring]], _[[analytic spectrum]]_, [[Cole's theory of spectrum]], _[[spectrum of an abelian category]]_, _[[Orlov spectrum]]_ [[spectrum of a triangulated category]], [[prime spectrum of a symmetric monoidal stable (∞,1)-category]], etc.
 
