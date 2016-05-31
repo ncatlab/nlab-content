@@ -9,11 +9,16 @@ The five [[regular polyhedron|regular]] [[convex set|convex]] [[polyhedron]] in 
 
 [[tetrahedron]], [[cube]], [[octahedron]], [[dodecahedron]], [[icosahedron]]
 
-## Related concepts
+## Platonic symmetry groups
+ {#PlatonicSymmetryGroups}
 
-### As part of the ADE pattern
+Regarding a Platonic solid, determined uniquely up to [[isometry]] on $\mathbb{R}^3$ as a regular convex [[polyhedron]], as a [[metric space|metric]] subspace $S$ of $\mathbb{R}^3$. Then is [[symmetry]] [[group]] may be defined as the group of [[isometries]] of $S$. 
+
+The groups arising this way are called the groups of ADE-type:
 
 [[!include ADE -- table]]
+
+## Related concepts
 
 * [[Johannes Kepler]], [[Music of the Spheres]]
 
