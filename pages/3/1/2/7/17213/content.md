@@ -59,216 +59,6 @@ For the monoidal [[model structure]] for excisive functors, the fact that monoid
 
 ## Details
 
-### Monoidal categories
-
-+-- {: .num_defn #MonoidalCategory} 
-###### Definition
-
-A **[[monoidal category]]** is a [[category]] $\mathcal{C}$ equipped with 
-
-1. a [[functor]]
-
-   $$ 
-      \otimes 
-        \;\colon\; 
-      \mathcal{C} \times \mathcal{C}  
-       \longrightarrow
-      \mathcal{C}
-   $$
-
-   called the **[[tensor product]]**, 
-
-1. an object
-
-   $$ 
-     1 \in \mathcal{C} 
-   $$
-
-   called the **[[unit object]]** or **[[tensor unit]]**, 
-
-1. a [[natural isomorphism]] 
-
-   $$
-     a 
-       \;\colon\; 
-     ((-)\otimes (-)) \otimes (-)
-       \overset{\simeq}{\longrightarrow}
-     (-) \otimes ((-)\otimes(-))
-   $$
-
-   with components of the form 
-
-
-   $$ 
-     a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) 
-   $$
-
-   called the **[[associator]]**, 
-
-1. a [[natural isomorphism]] 
-
-   $$
-     \lambda 
-       \;\colon\; 
-     (1 \otimes (-)) 
-       \overset{\simeq}{\longrightarrow}
-     (-)
-   $$
-
-   with components of the form 
-
-
-   $$ 
-     \lambda_x \colon 1 \otimes x \to x 
-   $$
-
-   called the **[[left unitor]]**, and a natural isomorphism 
-
-   $$
-     \rho \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
-   $$
-
-   with components of the form 
-
-
-   $$  
-     \rho_x \colon x \otimes 1 \to x 
-   $$
-
-    called the **[[right unitor]]**, 
-
-such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
-
-1. **triangle identity** (not to be confused with the [[triangle identities]] of an [[adjunction]]):
-
-   $$
-     \array{
-        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
-         \\     
-         & {}_{\rho_x \otimes 1_y}\searrow       
-         && \swarrow_{1_x \otimes \lambda_y}
-         & 
-        \\
-        &&
-        x \otimes y
-        &&
-     }
-   $$
-
-
-1. the **[[pentagon identity]]** (or **pentagon equation**):
-
-+-- {: style="text-align:center"}
-[[!include monoidal category > pentagon]]
-=--
-
-
-=--
-
-
-+-- {: .num_defn #BraidedMonoidalCategory} 
-###### Definition
-
-A **[[braided monoidal category]]**, is a [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
-
-$$ 
-  \tau_{x,y} \colon x \otimes y \to y \otimes x 
-$$
-
-called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved:
-
-$$
-  \array{
-   (x \otimes y) \otimes z 
-   &\stackrel{a_{x,y,z}}{\to}&
-   x \otimes (y \otimes z)
-   &\stackrel{B_{x,y \otimes z}}{\to}&
-   (y \otimes z) \otimes x
-   \\
-   \downarrow^{B_{x,y}\otimes Id}
-   &&&&
-   \downarrow^{a_{y,z,x}}
-   \\
-   (y \otimes x) \otimes z
-   &\stackrel{a_{y,x,z}}{\to}&
-   y \otimes (x \otimes z)
-   &\stackrel{Id \otimes B_{x,z}}{\to}&
-   y \otimes (z \otimes x)
-  }
-$$
-
-and
-
-$$
-  \array{
-   x \otimes (y \otimes z) 
-   &\stackrel{a^{-1}_{x,y,z}}{\to}&
-   (x \otimes y) \otimes z
-   &\stackrel{B_{x \otimes y, z}}{\to}&
-   z \otimes (x \otimes y)
-   \\
-   \downarrow^{Id \otimes B_{y,z}}
-   &&&&
-   \downarrow^{a^{-1}_{z,x,y}}
-   \\
-   x \otimes (z \otimes y)
-   &\stackrel{a^{-1}_{x,z,y}}{\to}&
-   (x \otimes z) \otimes y
-   &\stackrel{B_{x,z} \otimes Id}{\to}&
-   (z \otimes x) \otimes y
-  }
-  \,,
-$$
-
-where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$. 
-
-=--
-
-+-- {: .num_defn #SymmetricMonoidalCategory} 
-###### Definition
-
-
-A **[[symmetric monoidal category]]** is a [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
-
-$$ 
-   B_{x,y} \colon x \otimes y \to y \otimes x 
-$$
-
-satisfies the condition:
-
-$$ 
-  B_{y,x} \circ B_{x,y} = 1_{x \otimes y}  
-$$
-
-for all objects $x, y$
-
-=--
-
-+-- {: .num_example #TopAsASymmetricMonoidalCategory} 
-###### Example
-
-The category [[Set]] of [[sets]] and [[functions]] between them becomes a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[tensor product]] the [[Cartesian product]] $\times$ of sets. The [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident (almost unnoticable) canonical identifications.
-
-Similarly the category [[Top]] of [[topological spaces]] and its [[full subcategory]] $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) become [[symmetric monoidal categories]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming (k-ified [cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
- 
-Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
-
-=--
-
-+-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} 
-###### Example
-
-The category $Top_{cg}^{\ast/}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]] with [[tensor product]] the  [[smash product]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)) 
-
-$$
-  X \wedge Y \coloneqq \frac{X\times Y}{X\vee Y}
-$$
-
-is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
-
-The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]). This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
-
-=--
 
 ### Topological ends and coends
  {#TopologicalEndsAndCoends}
@@ -769,48 +559,295 @@ $$
 
 =--
 
-### Day convolution
+### Monoidal topological categories
 
-+-- {: .num_defn #DayConvolutionProduct}
++-- {: .num_defn #MonoidalCategory} 
 ###### Definition
 
-For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on the [[enriched functor category]] $[\mathcal{C},V]$ is the [[functor]]
+A **(pointed) topologically enriched [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
+
+1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+
+   $$ 
+      \otimes 
+        \;\colon\; 
+      \mathcal{C} \times \mathcal{C}  
+       \longrightarrow
+      \mathcal{C}
+   $$
+
+   out of the (pointed) topologival [[product category]] of $\mathcal{C}$ with itself (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), called the **[[tensor product]]**, 
+
+1. an object
+
+   $$ 
+     1 \in \mathcal{C} 
+   $$
+
+   called the **[[unit object]]** or **[[tensor unit]]**, 
+
+1. a [[natural isomorphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+
+   $$
+     a 
+       \;\colon\; 
+     ((-)\otimes (-)) \otimes (-)
+       \overset{\simeq}{\longrightarrow}
+     (-) \otimes ((-)\otimes(-))
+   $$
+
+   called the **[[associator]]**, 
+
+1. a [[natural isomorphism]] 
+
+   $$
+     \ell
+       \;\colon\; 
+     (1 \otimes (-)) 
+       \overset{\simeq}{\longrightarrow}
+     (-)
+   $$
+
+   called the **[[left unitor]]**, and a natural isomorphism 
+
+   $$
+     r \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
+   $$
+
+   called the **[[right unitor]]**, 
+
+such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
+
+1. **triangle identity**:
+
+   $$
+     \array{
+        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
+         \\     
+         & {}_{\rho_x \otimes 1_y}\searrow       
+         && \swarrow_{1_x \otimes \lambda_y}
+         & 
+        \\
+        &&
+        x \otimes y
+        &&
+     }
+   $$
+
+
+1. the **[[pentagon identity]]**:
+
++-- {: style="text-align:center"}
+[[!include monoidal category > pentagon]]
+=--
+
+
+=--
+
+
++-- {: .num_defn #BraidedMonoidalCategory} 
+###### Definition
+
+A **(pointed) topological [[braided monoidal category]]**, is a (pointed) topological [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
+
+$$ 
+  \tau_{x,y} \colon x \otimes y \to y \otimes x 
+$$
+
+called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved:
 
 $$
-  \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
+  \array{
+   (x \otimes y) \otimes z 
+   &\stackrel{a_{x,y,z}}{\to}&
+   x \otimes (y \otimes z)
+   &\stackrel{B_{x,y \otimes z}}{\to}&
+   (y \otimes z) \otimes x
+   \\
+   \downarrow^{B_{x,y}\otimes Id}
+   &&&&
+   \downarrow^{a_{y,z,x}}
+   \\
+   (y \otimes x) \otimes z
+   &\stackrel{a_{y,x,z}}{\to}&
+   y \otimes (x \otimes z)
+   &\stackrel{Id \otimes B_{x,z}}{\to}&
+   y \otimes (z \otimes x)
+  }
 $$
 
-given by the [[coend]]
+and
+
+$$
+  \array{
+   x \otimes (y \otimes z) 
+   &\stackrel{a^{-1}_{x,y,z}}{\to}&
+   (x \otimes y) \otimes z
+   &\stackrel{B_{x \otimes y, z}}{\to}&
+   z \otimes (x \otimes y)
+   \\
+   \downarrow^{Id \otimes B_{y,z}}
+   &&&&
+   \downarrow^{a^{-1}_{z,x,y}}
+   \\
+   x \otimes (z \otimes y)
+   &\stackrel{a^{-1}_{x,z,y}}{\to}&
+   (x \otimes z) \otimes y
+   &\stackrel{B_{x,z} \otimes Id}{\to}&
+   (z \otimes x) \otimes y
+  }
+  \,,
+$$
+
+where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$. 
+
+=--
+
++-- {: .num_defn #SymmetricMonoidalCategory} 
+###### Definition
+
+A **(pointed) topological [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
+
+$$ 
+   B_{x,y} \colon x \otimes y \to y \otimes x 
+$$
+
+satisfies the condition:
+
+$$ 
+  B_{y,x} \circ B_{x,y} = 1_{x \otimes y}  
+$$
+
+for all objects $x, y$
+
+=--
+
++-- {: .num_example #TopAsASymmetricMonoidalCategory} 
+###### Example
+
+The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] according to def. \ref{SymmetricMonoidalCategory} with [[tensor product]] the [[Cartesian product]] $\times$ of sets. The [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident (almost unnoticable but nevertheless nontrivial) canonical identifications.
+
+Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
+ 
+Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
+
+=--
+
++-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} 
+###### Example
+
+The category $Top_{cg}^{\ast/}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]] with [[tensor product]] the  [[smash product]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)) 
+
+$$
+  X \wedge Y \coloneqq \frac{X\times Y}{X\vee Y}
+$$
+
+is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
+
+The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]). This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
+
+=--
+
+
+### Day convolution
+
++-- {: .num_defn #TopologicalDayConvolutionProduct}
+###### Definition
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes\;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
+
+Then the **[[Day convolution]] tensor product** on the [[topological functor category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ (def. \ref{PointedTopologicalFunctorCategory}) is the [[functor]]
+
+$$
+  \otimes_{Day} 
+    \;\colon\; 
+  [\mathcal{C},Top^{\ast/}_{cg}] \times [\mathcal{C},Top^{\ast/}_{cg}] 
+    \longrightarrow 
+  [\mathcal{C},Top^{\ast/}_{cg}]
+$$
+
+out of the pointed topological [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   X \otimes_{Day} Y
-  \;\colon\;
+    \;\colon\;
   c \mapsto
-  \int^{c_1, c_2 \in \mathcal{C}}
-  X(c_1) \otimes Y(c_2) \otimes [c_1 \otimes c_2, c]
+  \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
+    \mathcal{C}(c_1 \otimes c_2, c) \wedge X(c_1) \wedge Y(c_2)
   \,.
 $$
 
 =--
 
-We may think of this equivalently as a [[Kan extension]]:
++-- {: .num_example}
+###### Example
+
+Let $\mathb{N}$ be the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects:
+
+$$
+  \mathbf{N}(n_1,n_2)
+  \coloneqq
+  \left\{
+    S^0 & if\; n_1 = n_2
+    \\
+    \ast & otherwise
+  \right.
+  \,.
+$$
+
+Regard this as a pointed topologically enriched category in the unique way. The operation of addition of natural numbers $\otimes = +$ makes this a monoidal category.
+
+An object $X_\bullet \in [disc(\mathbb{N}), Top_{cg}^{\ast/}]$ is an $\mathbb{N}$-sequence of pointed topological spaces. Given two such, then their Day convolution according to def. \ref{TopologicalDayConvolutionProduct} is
+
+$$
+  \begin{aligned}
+    (X \otimes_{Day} Y)_n
+    & =
+    \overset{(n_1,n_2) \in\mathbb{N}\times\mathbb{N}}{\int}
+     \underset{\mathbf{N}(n_1 + n_2 , n)}
+     \wedge 
+     X_{n_1} \wedge X_{n_2}
+    \\
+    & = \underset{n_1+n_2 = n}{\coprod} X_{n_1}\wedge X_{n_2}
+  \end{aligned} 
+  \,.
+$$
+
+=--
+
+
+Day convolution is equivalently a [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}):
 
 +-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched|topological]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)).  Its **[[external tensor product]]** is the pointed [[topologically enriched functor]]
 
 $$
-  \tilde \otimes 
-   \coloneqq
-   \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow 
-   [\mathcal{C}\times \mathcal{C}, V]
+  \overline{\wedge} 
+   \;\colon\; 
+  [\mathcal{C},Top^{\ast/}_{cg}] 
+    \times 
+  [\mathcal{C},Top^{\ast/}_{cg}] 
+    \longrightarrow 
+  [\mathcal{C}\times \mathcal{C}, Top^{\ast/}_{cg}]
 $$
 
 given by 
 
 $$
-  X \tilde \otimes Y  \coloneqq \otimes \circ (X,Y)
+  X \overline{\wedge} Y  
+    \;\coloneqq\; 
+  \wedge \circ (X,Y)
+  \,,
+$$
+
+i.e.
+
+$$
+  (X \overline\wedge Y)(c_1,c_2)
+  =
+  X(c_1)\wedge X(c_2)
   \,.
 $$
 
@@ -820,12 +857,12 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
+The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently the [[Kan extension]] $Lan_{\otimes_{\mathcal{C}}} \overline{\wedge}$ (def. \ref{TopologicalLeftKanExtensionBCoend}) along the tensor product $\otimes_{\mathcal{D}}$ of $\mathcal{C}$ of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
   \simeq
-  Lan_\otimes (X \tilde \otimes Y)
+  Lan_{\otimes_{\mathcal{C}}} (X \overline{\wedge} Y)
   \,.
 $$
 
