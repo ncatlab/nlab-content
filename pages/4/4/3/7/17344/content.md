@@ -2929,7 +2929,7 @@ From the way things are presented, it is immediate that these operations on spec
 +-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
 ###### Definition
 
-Let $f \;\colon \; X \to Y$ be a morphism in $SeqSpec(Top_{cg})$ (def. \ref{SequentialSpectra}) and let $i \;\colon\; A \to B$ a morpism in $Top_{cg}^{\ast/}$. 
+Let $f \;\colon \; X \to Y$ be a morphism in $SeqSpec(Top_{cg})$ (def. \ref{SequentialSpectra}) and let $i \;\colon\; A \to B$ a morphism in $Top_{cg}^{\ast/}$. 
 
 Their **[[pushout product]] with respect to smash tensoring** is the universal morphism 
 
@@ -3428,7 +3428,7 @@ $$
   \,.
 $$
 
-Observe that $Q$-equivalences satisfy [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)), by functoriality and since the plain equivalences do. Now the assumption that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This implies that $f$ has the [[right lifting property]] against $i$ (since $f$ is assumed to be a $Q$-fibration, which is defined by this lifting property). Hence the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)), implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+Observe that $Q$-equivalences satisfy [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)), by functoriality and since the plain equivalences do. Now the assumption that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This implies that $f$ has the [[right lifting property]] against $i$ (since $f$ is assumed to be a $Q$-fibration, which is defined by this lifting property). Hence the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
 
 =--
 
@@ -3605,14 +3605,14 @@ Hence now it follows by [[two-out-of-three]] ([def.](Introduction+to+Stable+homo
 ###### Proposition
 **(Bousfield-Friedlander theorem)**
 
-Let $\mathcal{C}$ be a [[model category]]. Let $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
+Let $\mathcal{C}$ be a [[right proper model category|right proper]] [[model category]]. Let $Q \colon \mathcal{C} \longrightarrow \mathcal{C}$
 be a Quillen idempotent monad on $\mathcal{C}$, according to def. \ref{QuillenIdempotentMonad}.
 
-Then the [[Bousfield localization of model categories|Bousfield localization]] model category $\mathcal{C}_Q$ (def. \ref{BousfieldLocalizationOfModelCategories}) at the $Q$-weak equivalences (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) exists, hence the model structure on $\mathcal{C}$ with the classes of morphisms in def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}.
+Then the [[Bousfield localization of model categories|Bousfield localization]] model category $\mathcal{C}_Q$ (def. \ref{BousfieldLocalizationOfModelCategories}) at the $Q$-weak equivalences (def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}) exists, in that the model structure on $\mathcal{C}$ with the classes of morphisms in def. \ref{ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad} exists.
 
 =--
 
-([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, chapter X, lemma 4.5, lemma 4.6](#GoerssJardine96)) 
+([Bousfield-Friedlander 78, theorem 8.7](#BousfieldFriedlander78), [Bousfield 01, theorem 9.3 ](#Bousfield01), [Goerss-Jardine 96, chapter X, lemma 4.5, lemma 4.6, theorem 4.1](#GoerssJardine96)) 
 
 +-- {: .proof}
 ###### Proof
@@ -3636,7 +3636,7 @@ $$
   \,.
 $$
 
-Here $i$ is already a $Q$-acyclic $Q$-cofibration. Now apply $Q$ to obtain
+Here $i$ is already a $Q$-acyclic $Q$-cofibration, since $Q$ preserves weak equivalences by the first clause in def. \ref{QuillenIdempotentMonad}. Now apply $id \overset{\eta}{\to} Q$ to obtain
 
 $$
   \array{
@@ -3666,7 +3666,7 @@ $$
   \,,
 $$
 
-where $\eta_{Q(X)}$ and $\eta_{Q(Y)}$ are weak equivalences by idempotency, and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Therefore lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $p$ is a $Q$-fibration, and hence the above factorization is already as desired
+where $\eta_{Q(X)}$ and $\eta_{Q(Y)}$ are weak equivalences by idempotency (the second clause in def. \ref{QuillenIdempotentMonad}), and $Q(i)$ is a weak equivalence since $Q$ preserves weak equivalences. Hence by [[two-out-of-three]] also $\eta_Z$ is a weak equivalence. Therefore lemma \ref{SecondLemmaForBousfieldFriedlander} gives that $p$ is a $Q$-fibration, and hence the above factorization is already as desired
 
 $$
   f 
@@ -3679,7 +3679,7 @@ $$
   \,.
 $$
 
-Now for an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $g$ into the pullback of the resulting $Q$-fibration along $\eta_Y$:
+Now for an arbitrary morphism $g \colon X \to Y$, form a factorization of $Q(g)$ as above and then decompose the naturality square for $\eta$ on $g$ into the [[pullback]] of the resulting $Q$-fibration along $\eta_Y$:
 
 $$
   \array{
@@ -3710,7 +3710,7 @@ $$
   \,.
 $$
 
-This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a $Q$-fibration, and hence itself as a $Q$-weak equivalence (by item 3 in def. \ref{QuillenIdempotentMonad}). This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
+This exhibits $\eta'$ as the pullback of a $Q$-weak equivalence along a fibration between objects on which $\eta$ is a weak equivalence. Then the third clause in def. \ref{QuillenIdempotentMonad} says that $\eta'$ is itself as a $Q$-weak equivalence. This way, [[two-out-of-three]] implies that $\tilde i$ is a $Q$-weak equivalence.
 
 Finally, apply factorization in $(Cof,\; W\cap Fib)$ to $\tilde i$ to obtain the desired factorization
 
@@ -3725,7 +3725,7 @@ $$
 
 =--
 
-So far this leaves open a more explicit characterization of the $Q$-fibrations. This is provided by the next statement.
+While this establishes the $Q$-model structure, so far this leaves open a more explicit description of the $Q$-fibrations. This is provided by the next statement.
 
 
 +-- {: .num_prop #CharacterizationOfFibrationsInBFModelStructures}
@@ -3779,7 +3779,7 @@ $$
   \,.
 $$
 
-By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure, also due to prop. \ref{BousfieldFriedlanderTheorem}, its pullback is also a $Q$-fibration
+By the proof of prop. \ref{BousfieldFriedlanderTheorem} the morphism $p$ is also a $Q$-fibration. Hence by the existence of the $Q$-local model structure, also due to prop. \ref{BousfieldFriedlanderTheorem}, its [[pullback]] is also a $Q$-fibration
 
 $$
   \array{
@@ -3794,7 +3794,7 @@ $$
     Z
     \\
     {}^{\mathllap{\tilde p}}_{\mathllap{\in Fib_Q}}\downarrow 
-      && 
+      &(pb)& 
     \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib_Q}}
     \\
     Y &\underset{\eta_Y}{\longrightarrow}& Q(Y)
@@ -3802,7 +3802,7 @@ $$
   \,.
 $$
 
-Here $\tilde i$ is a weak equivalence by assumption that the diagram exhibits a homotopy pullback. Hence it factors as
+Here $\tilde i$ is a weak equivalence by assumption that the diagram exhibits a [[homotopy pullback]]. Hence it factors as
 
 $$
   \tilde i
@@ -3833,7 +3833,7 @@ $$
 
 As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this diagram is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure (prop. \ref{BousfieldFriedlanderTheorem}) and by the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
 
-Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ it is immediate that $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$, $f$ is also a fibration (prop. \ref{BasicPropertiesOfLectBousfieldLocalizations}). We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
 
 So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
 
