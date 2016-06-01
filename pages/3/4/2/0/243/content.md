@@ -299,7 +299,7 @@ This definition manifestly exhibits the **end as the equalizer of the left and r
 Dually, the coend of $F$ is the [[coequalizer]]
 
 $$
-\coprod_{c_1,c_2} C(c_2,c_1) \times F(c_1,c_2)\, \rightrightarrows\,
+\coprod_{c_1,c_2} C(c_2,c_1) \otimes F(c_1,c_2)\, \rightrightarrows\,
 \coprod_c F(c,c)\,\to\,
 \int^c F(c,c)
 \label{coendcoeq}
