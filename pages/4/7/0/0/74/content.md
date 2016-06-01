@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
@@ -78,6 +78,8 @@ For more references see at _[[enriched category]]_.
 * [[closed monoidal category]]
 
 * [[cartesian monoidal category]]
+
+* [[braided monoidal category]], [[symmetric monoidal category]]
 
 * [[Day convolution]]
 
