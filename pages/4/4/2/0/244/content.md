@@ -28,11 +28,27 @@ In general, the term _symmetric monoidal_ is used for the maximally commutative 
 
 ## Definition
 
-A **symmetric monoidal category** is a [[braided monoidal category]] for which the braiding 
-$$ B_{x,y} : x \otimes y \to y \otimes x $$
-satisfies an additional axiom:
-$$ B_{y,x} B_{x,y} = 1_{x \otimes y}  $$
-for all objects $x, y$.  Intuitively this says that switching things twice has no effect.
++-- {: .num_defn} 
+###### Definition
+
+
+A **symmetric monoidal category** is a [[braided monoidal category]] for which the [[braiding]] 
+
+$$ 
+   B_{x,y} \colon x \otimes y \to y \otimes x 
+$$
+
+satisfies the condition:
+
+$$ 
+  B_{y,x} \circ B_{x,y} = 1_{x \otimes y}  
+$$
+
+for all objects $x, y$
+
+=--
+
+Intuitively this says that switching things twice _in the same direction_ has no effect.
 
 Expanding this out a bit: a  **symmetric monoidal category** is, to begin with a [[category]] $M$ equipped with a [[functor]]
 $$ \otimes : M \times M \to M $$
