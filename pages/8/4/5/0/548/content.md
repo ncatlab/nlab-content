@@ -320,7 +320,7 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 * the second [[Stiefel-Whitney class]] 
 
   $$
-    w_2 : \mathbf{B}Spin \to \mathbf{B}\mathbb{Z}_2
+    w_2 : \mathbf{B}SO \to \mathbf{B}^2\mathbb{Z}_2
   $$ 
 
   is induced this way from the central extension $\mathbb{Z}_2 \to Spin \to SO$ of the [[special orthogonal group]] by the [[spin group]];
