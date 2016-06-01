@@ -37,40 +37,106 @@ This functor, which we can think of as a kind of 'multiplication', makes $M$ int
 +-- {: .num_defn} 
 ###### Definition
 
-A **monoidal category** is a [[category]] $M$ equipped with a [[functor]]
-$$ \otimes : M \times M \to M $$
-called the **[[tensor product]]**, an object
-$$ 1 \in M $$
-called the **[[unit object]]** or **[[tensor unit]]**, a [[natural isomorphism]] with components of the form 
-$$ a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) $$
-called the **[[associator]]**, a natural isomorphism with components of the form 
-$$ \lambda_x : 1 \otimes x \to x $$
-called the **[[left unitor]]**, and a natural isomorphism with components of the form 
-$$  \rho_x : x \otimes 1 \to x $$
-called the **[[right unitor]]**, which must make two diagrams commute: the famous **[[pentagon identity]]** (or **pentagon equation**):
+A **monoidal category** is a [[category]] $\mathcal{C}$ equipped with 
+
+1. a [[functor]]
+
+   $$ 
+      \otimes 
+        \;\colon\; 
+      \mathcal{C} \times \mathcal{C}  
+       \longrightarrow
+      \mathcal{C}
+   $$
+
+   called the **[[tensor product]]**, 
+
+1. an object
+
+   $$ 
+     1 \in \mathcal{C} 
+   $$
+
+   called the **[[unit object]]** or **[[tensor unit]]**, 
+
+1. a [[natural isomorphism]] 
+
+   $$
+     a 
+       \;\colon\; 
+     ((-)\otimes (-)) \otimes (-)
+       \overset{\simeq}{\longrightarrow}
+     (-) \otimes ((-)\otimes(-))
+   $$
+
+   with components of the form 
+
+
+   $$ 
+     a_{x,y,z} : (x \otimes y) \otimes z \to x \otimes (y \otimes z) 
+   $$
+
+   called the **[[associator]]**, 
+
+1. a [[natural isomorphism]] 
+
+   $$
+     \lambda 
+       \;\colon\; 
+     (1 \otimes (-)) 
+       \overset{\simeq}{\longrightarrow}
+     (-)
+   $$
+
+   with components of the form 
+
+
+   $$ 
+     \lambda_x \colon 1 \otimes x \to x 
+   $$
+
+   called the **[[left unitor]]**, and a natural isomorphism 
+
+   $$
+     \rho \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
+   $$
+
+   with components of the form 
+
+
+   $$  
+     \rho_x \colon x \otimes 1 \to x 
+   $$
+
+    called the **[[right unitor]]**, 
+
+such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
+
+1. **triangle identity** (not to be confused with the [[triangle identities]] of an [[adjunction]]):
+
+   $$
+     \array{
+        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
+         \\     
+         & {}_{\rho_x \otimes 1_y}\searrow       
+         && \swarrow_{1_x \otimes \lambda_y}
+         & 
+        \\
+        &&
+        x \otimes y
+        &&
+     }
+   $$
+
+
+
+1. the **[[pentagon identity]]** (or **pentagon equation**):
 
 +-- {: style="text-align:center"}
 [[!include monoidal category > pentagon]]
 =--
 
-and the **triangle identity** (not to be confused with the [[triangle identities]] of an adjunction):
 
-$$
-  \array{
-     & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
-      \\
-      
-      & {}_{\rho_x \otimes 1_y}\searrow
-       
-       && \swarrow_{1_x \otimes \lambda_y}
-      & 
-     \\
-     &&
-     x \otimes y
-     &&
-     
-  }
-$$
 
 =--
 
