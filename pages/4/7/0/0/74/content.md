@@ -57,6 +57,9 @@ The standard monograph on enriched category is
 
 Also
 
+* [[Francis Borceux]], I. Stubbe, _Short introduction to enriched categories_ ([pdf](http://www-lmpa.univ-littoral.fr/~stubbe/PDF/EnrichedCatsKLUWER.pdf))
+
+
 * [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
 
 For more references see at _[[enriched category]]_.
