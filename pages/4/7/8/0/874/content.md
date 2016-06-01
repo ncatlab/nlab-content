@@ -165,6 +165,8 @@ This principle continues to hold even for *infinitary* products, where the corre
 
 * In the category [[SupLat]] of [[sup-lattices]], arbitrary products coincide with coproducts (and in fact the functor $X \mapsto X^{op}$ that takes a sup-lattice to its posetal opposite is part of a perfect duality $SupLat^{op} \to SupLat$, taking a sup-lattice map $f: X \to Y$ to $g^{op}: Y^{op} \to X^{op}$ where $f \dashv g$). This example descends to $Rel$ itself, so we conclude that products in $Rel$ are actually given by coproducts in $Rel$ which in turn are given by coproducts in $Set$. 
 
+* In the [[Cat]] the cartesian product is the [[product of categories]].
+
 See also
 
 * [[product of simplices]]
