@@ -754,9 +754,9 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes\;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes\;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
 
-Then the **[[Day convolution]] tensor product** on the [[topological functor category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ (def. \ref{PointedTopologicalFunctorCategory}) is the [[functor]]
+Then the **[[Day convolution]] tensor product** on the pointed topological [[enriched functor category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ (def. \ref{PointedTopologicalFunctorCategory}) is the [[functor]]
 
 $$
   \otimes_{Day} 
@@ -766,14 +766,15 @@ $$
   [\mathcal{C},Top^{\ast/}_{cg}]
 $$
 
-out of the pointed topological [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by the [[coend]] (def. \ref{EndAndCoendInTopcgSmash})
+out of the pointed topological [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by the following [[coend]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   X \otimes_{Day} Y
     \;\colon\;
-  c \mapsto
+  c 
+    \;\mapsto\;
   \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
-    \mathcal{C}(c_1 \otimes c_2, c) \wedge X(c_1) \wedge Y(c_2)
+    \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, c) \wedge X(c_1) \wedge Y(c_2)
   \,.
 $$
 
@@ -782,29 +783,31 @@ $$
 +-- {: .num_example}
 ###### Example
 
-Let $\mathb{N}$ be the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects:
+Let $Seq$ denote the category with objects the [[natural numbers]], and only the [[zero morphisms]] and [[identity morphisms]] on these objects:
 
 $$
-  \mathbf{N}(n_1,n_2)
+  Seq(n_1,n_2)
   \coloneqq
   \left\{
-    S^0 & if\; n_1 = n_2
-    \\
-    \ast & otherwise
+    \array{
+      S^0 & if\; n_1 = n_2
+      \\
+      \ast & otherwise
+    }
   \right.
   \,.
 $$
 
 Regard this as a pointed topologically enriched category in the unique way. The operation of addition of natural numbers $\otimes = +$ makes this a monoidal category.
 
-An object $X_\bullet \in [disc(\mathbb{N}), Top_{cg}^{\ast/}]$ is an $\mathbb{N}$-sequence of pointed topological spaces. Given two such, then their Day convolution according to def. \ref{TopologicalDayConvolutionProduct} is
+An object $X_\bullet \in [Seq, Top_{cg}^{\ast/}]$ is an $\mathbb{N}$-sequence of pointed topological spaces. Given two such, then their Day convolution according to def. \ref{TopologicalDayConvolutionProduct} is
 
 $$
   \begin{aligned}
     (X \otimes_{Day} Y)_n
     & =
     \overset{(n_1,n_2) \in\mathbb{N}\times\mathbb{N}}{\int}
-     \underset{\mathbf{N}(n_1 + n_2 , n)}
+     Seq(n_1 + n_2 , n)
      \wedge 
      X_{n_1} \wedge X_{n_2}
     \\
@@ -821,7 +824,7 @@ Day convolution is equivalently a [[left Kan extension]] (def. \ref{TopologicalL
 +-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched|topological]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)).  Its **[[external tensor product]]** is the pointed [[topologically enriched functor]]
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)).  Its **[[external tensor product]]** is the pointed [[topologically enriched functor]]
 
 $$
   \overline{\wedge} 
@@ -857,7 +860,7 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently the [[Kan extension]] $Lan_{\otimes_{\mathcal{C}}} \overline{\wedge}$ (def. \ref{TopologicalLeftKanExtensionBCoend}) along the tensor product $\otimes_{\mathcal{D}}$ of $\mathcal{C}$ of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
+The Day convolution product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
@@ -873,54 +876,45 @@ This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
 +-- {: .proof}
 ###### Proof
 
-The general formula for pointwise Kan extension via coends ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
-
-$$
-  Lan_p F \;\colon\; e \mapsto \int^{d\in \mathcal{D}} \mathcal{E}(p(d), e) \otimes F(d)
-  \,.
-$$
-
-In our case 
-
-* $\mathcal{D} = \mathcal{C}\times \mathcal{C}$;
-
-* $\mathcal{E} = \mathcal{C}$;
-
-* $p = \otimes$;
-
-*  $F = X \tilde \otimes X$ 
-
-and hence the general formula here becomes
+By prop. \ref{TopologicalLeftKanExtensionBCoend} we may compute the left Kan extension as the following [[coend]]:
 
 $$
   \begin{aligned}
-    (Lan_{\otimes} X \tilde \otimes Y)(c)
-    & \simeq
-    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
-    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( (X \tilde \otimes Y)(c_1,c_2) )
-    \\
-    & \simeq 
-    \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
-    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( X(c_1) \otimes Y(c_2) )
-  \end{aligned}
+     Lan_{\otimes_{\mathcal{C}}} (X\overline{\wedge} Y)(c)
+     &
+     \simeq
+      \overset{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}{\int} 
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c )
+      \wedge
+      (X\overline{\wedge}Y)(c_1,c_2)
+     \\
+    & =
+    \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
+    \mathcal{C}(c_1\otimes c_2) 
+    \wedge
+     X(c_1)\wedge X(c_2) 
+  \end{aligned} 
   \,.
 $$
+
 
 =--
 
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
 
-Day convolution $\otimes_{Day}$, def. \ref{DayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
+Day convolution $\otimes_{Day}$, def. \ref{TopologicalDayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
 
 $$
-  [\mathcal{C},V](X \otimes_{Day} Y, Z) 
+  [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
     \simeq 
-  [\mathcal{C}\times \mathcal{C},V](X \tilde{\otimes} Y, Z \circ \otimes)
+  [\mathcal{C}\times \mathcal{C},Top^{\ast/}_{cg}](
+    X \overline{\wedge} Y,\; Z \circ \wedge
+  )
   \,,
 $$
 
-where $\tilde \otimes$ is the external product of def. \ref{ExternalTensorProduct}.
+where $\overline{\wedge}$ is the external product of def. \ref{ExternalTensorProduct}.
 
 =--
 
@@ -934,56 +928,62 @@ By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and sinc
 Write
 
 $$
-  y \colon \mathcal{C}^{op} \longrightarrow [\mathcal{C}, V]
+  y \;\colon\; \mathcal{C}^{op} \longrightarrow [\mathcal{C}, Top^{\ast/}_{cg}]
 $$
 
-for the $V$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ any [[object]], $y(c)$ is the [[representable functor|corepresented functor]] $y(c)\colon c' \mapsto [c,c']$.
+for the $Top^{\ast/}_{cg}$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ any [[object]], $y(c)$ is the [[representable functor|corepresented functor]] $y(c)\colon d \mapsto \mathcal{C}(c,d)$.
 
 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
 
-For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]],
-the Day convolution product $\otimes_{Day}$ of def. \ref{DayConvolutionProduct} makes
+For $\mathcal{C}$ a small monoidal pointed topologically enriched category,
+the Day convolution product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
-  ( [\mathcal{C}, V], \otimes, y(I))
+  ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(I))
 $$
 
-a [[closed monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+a topological [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
 To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
-use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
+use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
 
 $$
   \begin{aligned}
      X \otimes_{Day} y(I)
      & 
      =
-     \int^{c_1,c_2 \in \mathcal{C}}
-     X(c_1) \otimes [I,c_2] \otimes [c_1\otimes c_2,-]
+     \overset{c_1,c_2 \in \mathcal{C}}{\int}
+     \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
+      \wedge 
+     X(c_1) \wedge \mathcal{C}(I,c_2)
      \\
      & \simeq 
-     \int^{c_1\in \mathcal{C}}
+     \overset{c_1\in \mathcal{C}}{\int}
       X(c_1) 
-         \otimes  
-      \int^{c_2 \in \mathcal{C}}  [I,c_2] \otimes [c_1\otimes c_2,-]
+        \wedge  
+      \overset{c_2 \in \mathcal{C}}{\int}  
+        \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
+        \wedge 
+        \mathcal{C}(I,c_2) 
     \\
     & \simeq 
-      \int^{c_1\in \mathcal{C}}
+      \overset{c_1\in \mathcal{C}}{\int}
       X(c_1) 
-         \otimes
-      [c_1 \otimes I, -]
+         \wedge
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} I, -)
     \\
     & \simeq 
-      \int^{c_1\in \mathcal{C}}
+      \overset{c_1\in \mathcal{C}}{\int}
       X(c_1) 
-         \otimes
-      [c_1, -]  
+         \wedge
+      \mathcal{C}(c_1, -)
     \\
     & \simeq
     X(-)
@@ -994,10 +994,29 @@ $$
   \,.
 $$
 
-
 =--
 
+### Pre-Excisive functors
 
+Write $Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$ for the full inclusion on the topological spaces isomorphic to a [[finite CW-complex]].
+
+Then 
+
+$$
+ [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
+$$
+
+is the category of _[[pre-excisive functors]]_. Its [[symmetric monoidal smash product of spectra]] is the [[Day convolution]] $\wedge_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) of the plain smash product. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} this gives a topological [[monoidal category]]
+
+
+$$
+  \left( 
+    [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
+    ,\;
+    \wedge_{Day}
+    , y(S^0)
+  \right)
+$$
 
 
 ## Examples
