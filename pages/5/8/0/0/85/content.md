@@ -29,25 +29,13 @@ This may be generalized by replacing [[Set]] with a more general [[cocomplete ca
 ### For monoidal categories
  {#ForMonoidalCategories}
 
-For $(C, \otimes)$ a [[small category|small]] [[monoidal category]] and for $F, G \colon C^{op} \to Set$ two [[presheaf|presheaves]] on $C$, their _Day convolution product_ $F \star G$ is the presheaf given by the [[coend]]
-
-$$
-  F \star G
-  \coloneqq
-  \int^{c,d \in C}
-  F(c) \times G(d) \times Hom_C(-, c \otimes d)
-  \,.
-$$
-
-More generally: 
-
 Let $V$ be a good [[symmetric monoidal category]] for $V$-[[enriched category theory]] (in particular having all small [[colimits]], e.g. a [[Benabou cosmos]]).
-For $\mathcal{C}$ a $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
+For $\mathcal{C}$ a  $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
 
 +-- {: .num_defn #DayConvolutionProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on $[\mathcal{C},V]$ is the [[functor]]
+For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on the [[enriched functor category]] $[\mathcal{C},V]$ is the [[functor]]
 
 $$
   \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
