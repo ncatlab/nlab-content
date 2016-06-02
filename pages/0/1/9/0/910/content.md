@@ -212,6 +212,8 @@ Fibre preserving maps and functional spaces. Algebraic topology (Proc. Conf., Un
 
 * Samuel Smith, _The homotopy theory of function spaces: a survey_ ([arXiv:1009.0804](http://arxiv.org/abs/1009.0804))
 
+* {#Schwede12} [[Stefan Schwede]], section A.2 of _[[Symmetric spectra]]_ (2012)
+
 
 [[!redirects compactly generated topological space]]
 [[!redirects compactly generated topological spaces]]
