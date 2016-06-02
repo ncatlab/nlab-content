@@ -57,8 +57,7 @@ For the case of [[highly structured spectra]] such as [[orthogonal spectra]], [[
 
 For the monoidal [[model structure]] for excisive functors, the fact that monoids with respect to the [[symmetric smash product of spectra]] are equivalently FSPs is discussed in ([Lydakis 98, remark 5.12](#Lydakis98)). See [this proposition](model+structure+for+excisive+functors#MonoidsInLydakisModelStructureAreFSP).
 
-## Details
-
+## Ingredients
 
 ### Topological ends and coends
  {#TopologicalEndsAndCoends}
@@ -911,6 +910,25 @@ for all objects $x, y$
 
 =--
 
++-- {: .num_defn #ClosedMonoidalCategory}
+###### Definition
+
+Given a pointed topological [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{[-,X]}{\longrightarrow}}
+      {\overset{X\otimes(-)}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,.
+$$
+
+The object $[Y,X] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $Y$ and $X$.
+
+=--
+
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
 ###### Example
 
@@ -943,7 +961,7 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes\;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
 
 Then the **[[Day convolution]] tensor product** on the pointed topological [[enriched functor category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ (def. \ref{PointedTopologicalFunctorCategory}) is the [[functor]]
 
@@ -963,7 +981,7 @@ $$
   c 
     \;\mapsto\;
   \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
-    \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, c) \wedge X(c_1) \wedge Y(c_2)
+    \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c) \wedge X(c_1) \wedge Y(c_2)
   \,.
 $$
 
@@ -1008,7 +1026,7 @@ $$
 =--
 
 
-Day convolution is equivalently a [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}):
+We observe now that [[Day convolution]] is equivalently a [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}). This will be key for understanding [[monoids]] and [[modules]] with respect to Day convolution.
 
 +-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
@@ -1139,23 +1157,55 @@ for the $Top^{\ast/}_{cg}$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
 
-For $\mathcal{C}$ a small monoidal pointed topologically enriched category,
-the Day convolution product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
   ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
 $$
 
-a topological [[monoidal category]] with [[tensor unit]] $y(1)$ co-represented by the tensor unit $1$ of $\mathcal{C}$. 
+a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+Regarding [[associativity]], observe that
 
+$$
+  \begin{aligned}
+    (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+      \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, \,c) 
+        \wedge
+      X(c_1) 
+       \wedge
+      \overset{(d_1,d_2)}{\int}
+       \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_2 )
+       (Y(d_2) \wedge Z(d_2))
+    \\
+    &\simeq \overset{c_1, d_1, d_2}{\int}
+    \underset{\simeq \mathcal{C}(c_1 \otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c )}{
+      \underbrace{
+       \overset{c_2}{\int} 
+         \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2 , c)
+           \wedge
+         \mathcal{C}(d_1 \otimes_{\mathcal{C}}d_2, c_2 )
+      }
+    }
+    \wedge X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+    \\
+    &\simeq 
+    \overset{c_1, d_1, d_2}{\int}
+     \mathcal{C}(c_1\otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c ) 
+       \wedge  
+     X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+  \end{aligned}
+  \,,
+$$
 
+where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
 
 To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
@@ -1201,6 +1251,285 @@ $$
 $$
 
 =--
+
+
++-- {: .num_prop}
+###### Proposition
+
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(I))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+
+$$
+  [X,Y]_{Day}(c)
+  \simeq
+   \underset{c_1,c_2}{\int}
+      V\left( 
+        \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
+        V(X(c_1), Y(c_2)) 
+      \right)       
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}), there is the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{aligned}
+     [\mathcal{C},V]( X, [Y,Z]_{Day} )
+       & \simeq
+     \underset{c}{\int} V\left(
+        X(c), 
+        \underset{c_1,c_2}{\int}
+        V\left( 
+          \mathcal{C}(c \otimes_{\mathcal{C}} c_1 , c_2),
+          V(Y(c_1), Z(c_2)) 
+        \right)
+     \right)
+     \\
+     &
+     \simeq
+     \underset{c}{\int}
+     \underset{c_1,c_2}{\int}
+     V\left(
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \wedge
+       X(c)
+         \wedge
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     & \simeq
+     \underset{c_2}{\int}
+     V\left(
+       \overset{c,c_1}{\int}
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \wedge
+       X(c)
+         \wedge 
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     &\simeq
+     \underset{c_2}{\int}
+       V\left(
+         (X \otimes_{Day} Y)(c_2),
+         Z(c_2)
+       \right)
+     \\
+     &\simeq
+     [\mathcal{C},V](X \otimes_{Day} Y, Z)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+In the situation of def. \ref{DayConvolutionYieldsMonoidalCategoryStructure}, the [[Yoneda embedding]] $c\mapsto \mathcal{C}(c,-)$  constitutes a  [[strong monoidal functor]] 
+
+$$
+  (\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, y(I))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
+
+$$
+  \begin{aligned}
+    (y(c_1) \otimes_{Day} y(c_2))(c)
+    &
+    \simeq
+    \overset{d_1, d_2}{\int} 
+      \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c )
+    \wedge
+      \mathcal{C}(c_1,d_1)
+    \wedge
+      \mathcal{C}(c_2,d_2)
+    \\
+    & \simeq \mathcal{C}(c_1\otimes_{\mathcal{C}}c_2 , c )
+    \\
+    & 
+    = y(c_1 \otimes_{\mathcal{C}} c_2 )(c)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+## Functors with smash product
+
+Given any [[monoidal category]] then one may consider [[monoid objects]] and [[module objects]] inside it.
+
++-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
+###### Proposition
+
+For $(\mathcal{C}, \otimes)$ a [[small category|small]] ([[symmetric monoidal category|symmetric]]) [[monoidal category|monoidal]] $V$-[[enriched category]],
+then ([[commutative monoid object|commutative]]) [[monoid objects]] in the Day convolution monoidal category $([\mathcal{C},V], \otimes_{Day}, y(I))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]] $\mathcal{C} \to V$:
+
+$$
+  Mon([\mathcal{C},V], \otimes_{Day}, y(I))
+  \simeq
+  MonFunc(\mathcal{C},V)
+$$
+
+$$
+  CMon([\mathcal{C},V], \otimes_{Day}, y(I))
+  \simeq
+  SymMonFunc(\mathcal{C},V)
+  \,.
+$$
+
+Moreover, [[module objects]] over these monoid objects are equivalent to the corresponding [[modules over monoidal functors]].
+
+=--
+
+This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)). It was highlighted again in ([MMSS 00, prop. 22.1](#MMSS00)). 
+
++-- {: .proof}
+###### Proof
+
+A [[lax monoidal functor]] $F \colon \mathcal{C} \to V$ is given by [[natural transformations]]
+
+$$
+  I_V \longrightarrow F(I_{\mathcal{C}})
+$$
+
+$$
+  F(c_1) \otimes_V F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
+$$
+
+satisfying compatibility conditions. Under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} these are identified with natural transformations
+
+$$
+  y(I) \to F
+$$
+
+$$
+  F \otimes_{Day} F \longrightarrow F
+$$
+
+satisfying analogous conditions. This is just the structure of a [[monoid object]] on $F$ under $\otimes_{Day}$.
+
+Similarly for [[module objects]] and [[modules over monoidal functors]].
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+In the case that $V$ is [[pointed topological spaces]] or pointed [[simplicial sets]] equipped with the [[smash product]] of [[pointed objects]] and that $\mathcal{C}$ is a diagram category for [[spectra]], then monoids in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as [[ring spectra]] and the [[lax monoidal functors]] in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as the incarnation of ring spectra as "[[functors with smash product]]".
+
+=--
+
+([MMSS 00, section 22](#MMSS00)).
+
++-- {: .num_defn #FreeModulesOverAMonoidInDayConvolution}
+###### Definition
+
+For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $R$, write
+
+$$
+  R FreeMod \hookrightarrow R Mod
+$$
+
+for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]]. Hence the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
+
+$$
+  \begin{aligned}
+    R FreeMod(c_1,c_2)
+      & \coloneqq
+    R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
+    \\
+      & \simeq
+    [\mathcal{C},V](y(c_1), y(c_2) \otimes_{Day} R)
+    \\
+      & \simeq
+    (y(c_2) \otimes_{Day} R)(c_1)
+    \\
+      & \simeq
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_1)
+         \otimes_V
+       \mathcal{C}(c_2, c_3) \otimes_V R(c_4)
+     \\
+     & \simeq 
+     \overset{c_4}{\int}
+       \mathcal{C}(c_2 \otimes c_4,c_1)
+       \otimes_V R(c_4)
+  \end{aligned} 
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}
+###### Proposition
+
+For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
+
+$$
+  R Mod \simeq [R FreeMod^{op}, V]
+$$
+
+between the [[category of modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
+
+=--
+
+([MMSS 00, theorem 2.2](#MMSS00))
+
++-- {: .proof}
+###### Proof idea
+
+Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+
+$$
+  N(c_1) \otimes R(c_2) \longrightarrow N(c_1 \otimes c_2)
+  \,.
+$$
+
+These transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ of the form
+
+$$
+  N(c_1) \otimes \mathcal{C}(c_1,c_2) \longrightarrow N(c_2)
+  \,.
+$$
+
+Hence we may unify these two kinds of transformarmations in a single kind of the form
+
+$$
+  N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4) 
+  \longrightarrow
+  N(c_2)
+  \;\;\;
+  for c_2 = c_3 \otimes c_4
+$$
+
+and subject to certain identifications.
+
+By comparison with def. \ref{FreeModulesOverAMonoidInDayConvolution}, this is just the form of the functoriality of an enriched functor
+over $R FreeMod^{op}$.
+
+=--
+
+
+
+
+## Examples
 
 ### Pre-Excisive functors
 
