@@ -29,7 +29,8 @@ This may be generalized by replacing [[Set]] with a more general [[cocomplete ca
 ### For monoidal categories
  {#ForMonoidalCategories}
 
-Let $V$ be a good [[symmetric monoidal category]] for $V$-[[enriched category theory]] (in particular having all small [[colimits]], e.g. a [[Benabou cosmos]]).
+Let $V$ be [[closed monoidal category|closed]] [[symmetric monoidal category]] with all small [[limits]] and [[colimits]].
+
 For $\mathcal{C}$ a  $V$-[[enriched category]], write $[\mathcal{C},V]$ for the $V$-[[enriched functor category]] to $V$, etc.
 
 +-- {: .num_defn #DayConvolutionProduct}
@@ -48,7 +49,7 @@ $$
   \;\colon\;
   c \mapsto
   \int^{c_1, c_2 \in \mathcal{C}}
-   [c_1 \otimes_{\mathcal{C}} c_2, c] \otimes_V X(c_1) \otimes_V Y(c_2) 
+   \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c) \otimes_V X(c_1) \otimes_V Y(c_2) 
   \,.
 $$
 
@@ -182,7 +183,9 @@ Let $V$ be a [[Benabou cosmos]], and $A$ a small $V$-[[enriched category]].
 
 +-- {: .num_prop}
 ###### Proposition
-There is an equivalence of categories between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with strong monoidal functors between them.  
+
+There is an [[equivalence of categories]] between the category of [[pro-monoidal structures]] on $A$ with strong pro-monoidal functors between them and the category of biclosed monoidal structures on $V^{A^{op}}$ with [[strong monoidal functors]] between them.  
+
 =--
 
 This is claimed without proof in ([Day 70](#Day70)).
@@ -193,8 +196,8 @@ This is claimed without proof in ([Day 70](#Day70)).
   {#Properties}
 
 
-### Basic properties
- {#BasicProperties}
+### Closed monoidal structure
+ {#ClosedMonoidalStructure}
 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
@@ -211,6 +214,44 @@ a [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor
 
 +-- {: .proof}
 ###### Proof
+
+Regarding [[associativity]], observe that
+
+$$
+  \begin{aligned}
+    (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+      \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, \,c) 
+        \otimes_V
+      X(c_1) 
+       \otimes_V
+      \overset{(d_1,d_2)}{\int}
+       \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_2 )
+       (Y(d_2) \otimes_V Z(d_2))
+    \\
+    &\simeq \overset{c_1, d_1, d_2}{\int}
+    \underset{\simeq \mathcal{C}(c_1 \otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c )}{
+      \underbrace{
+       \overset{c_2}{\int} 
+         \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2 , c)
+           \otimes_V
+         \mathcal{C}(d_1 \otimes_{\mathcal{C}}d_2, c_2 )
+      }
+    }
+    \otimes_V X(c_1) \otimes_V (Y(d_1) \otimes_V Z(d_2))
+    \\
+    &\simeq 
+    \overset{c_1, d_1, d_2}{\int}
+     \mathcal{C}(c_1\otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c ) 
+       \otimes_V  
+     X(c_1) \otimes_V (Y(d_1) \otimes_V Z(d_2))
+  \end{aligned}
+  \,,
+$$
+
+where we used the [[Fubini theorem]] for coends, and the [[co-Yoneda lemma]].
+Similarly for $((X \otimes_{Day} Y) \otimes_{Day} Z)(c)$. Hence associativity follows from the associativity of $\otimes_{\mathcal{C}}$ and $\otimes_V$.
 
 To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
@@ -253,13 +294,21 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #DayMonoidalStructureIsClosed}
 ###### Proposition
 
+For $(\mathcal{C}, \otimes_{\mathcal{C}}, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the monoidal category with Day convolution $([\mathcal{C},V], \otimes_{Day}, y(I))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]]. Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]]
 
-1. $([\mathcal{C},V], \otimes_{Day}, j(I))$ is a [[closed monoidal category]];
-
-1. the [[Yoneda embedding]] constitutes a strong [[monoidal functor]] $(\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, j(I))$.
+$$
+  [X,Y]_{Day}(c)
+  \simeq
+   \underset{c_1,c_2}{\int}
+      V\left( 
+        \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
+        V(X(c_1), Y(c_2)) 
+      \right)       
+  \,.
+$$
 
 =--
 
@@ -268,23 +317,162 @@ $$
 
 In analogy to the cartesian [[closed monoidal structure on presheaves]]
 we see that if the [[internal hom]] in $[\mathcal{C},V]$ exists at all, 
-(with $[-,F]$ [[right adjoint]] to $(-) \otimes_{Day} F$) then by the [[enriched Yoneda lemma]] it has to be given by
+(with $[-,X]_{Day}$ [[right adjoint]] to $(-) \otimes_{Day} X$) then by the [[enriched Yoneda lemma]] and by the [[end]]-expression for the [[hom-objects]] in the [[enriched functor category]] $[\mathcal{C},V]$ it has to be given by
 
 $$
   \begin{aligned}
-    [G,F](c) 
+    [X,Y]_{Day}(c) 
       & \simeq 
-    \mathcal{C}(j(c), [G,F])
+    [\mathcal{C},V](y(c), [X,Y])
     \\
     &
-    \simeq \mathcal{C}(j(c) \otimes_{Day} G, F)
+    \simeq 
+      [\mathcal{C},V](y(c) \otimes_{Day} X, Y)
+    \\
+    & \simeq
+    \underset{c_1}{\int} V((y(c) \otimes_{\mathcal{C}} X)(c_1), Y(c_1))
+    \\
+    &\simeq
+    \underset{c_1}{\int} 
+      V\left(
+         \overset{d_2}{\int}
+         \overset{d_1}{\int}
+         \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_1)
+           \otimes_V
+         \mathcal{C}(c,d_1)
+         \otimes_V
+         X(d_2)
+         ,
+         Y(c_1)
+      \right)
+    \\
+    & \simeq
+    \underset{c_1}{\int} 
+    \underset{d_2}{\int}
+      V\left(
+        \underset{\simeq \mathcal{C}(c \otimes_{\mathcal{C}} d_2, c_1 )}{
+          \underbrace{
+            \overset{d_1}{\int}
+            \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_1)
+              \otimes_V
+            \mathcal{C}(c,d_1)
+           }
+         }
+         \otimes_V
+         X(d_2)
+         ,
+         Y(c_1)
+      \right)
+      \\
+      & \simeq
+      \underset{c_1,d_2}{\int}
+      V\left( 
+        \mathcal{C}(c \otimes_{\mathcal{C}} d_2,c_1),
+        V(X(d_2), Y(c_1)) 
+      \right)
+      \\
+      & =
+      \underset{c_1,c_2}{\int}
+      V\left( 
+        \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
+        V(X(c_1), Y(c_2)) 
+      \right)       
   \end{aligned}
   \,.
 $$
 
-...
+This exists, by the assumption that $\mathcal{C}$ is [[small category|small]] and that $V$ has all small limits. Now to check that this really gives a right adjoint:
+
+$$
+  \begin{aligned}
+     [\mathcal{C},V]( X, [Y,Z]_{Day} )
+       & \simeq
+     \underset{c}{\int} V\left(
+        X(c), 
+        \underset{c_1,c_2}{\int}
+        V\left( 
+          \mathcal{C}(c \otimes_{\mathcal{C}} c_1 , c_2),
+          V(Y(c_1), Z(c_2)) 
+        \right)
+     \right)
+     \\
+     &
+     \simeq
+     \underset{c}{\int}
+     \underset{c_1,c_2}{\int}
+     V\left(
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \otimes_V
+       X(c)
+         \otimes_V 
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     & \simeq
+     \underset{c_2}{\int}
+     V\left(
+       \overset{c,c_1}{\int}
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \otimes_V
+       X(c)
+         \otimes_V 
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     &\simeq
+     \underset{c_2}{\int}
+       V\left(
+         (X \otimes_{Day} Y)(c_2),
+         Z(c_2)
+       \right)
+     \\
+     &\simeq
+     [\mathcal{C},V](X \otimes_{Day} Y, Z)
+  \end{aligned}
+  \,.
+$$
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[Yoneda embedding]] constitutes a  [[strong monoidal functor]] $(\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, y(I))$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the tensor product is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
+
+$$
+  \begin{aligned}
+    (y(c_1) \otimes_{Day} y(c_2))(c)
+    &
+    \simeq
+    \overset{d_1, d_2}{\int} 
+      \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c )
+    \otimes_V
+      \mathcal{C}(c_1,d_1)
+    \otimes_V
+      \mathcal{C}(c_2,d_2)
+    \\
+    & \simeq \mathcal{C}(c_1\otimes_{\mathcal{C}}c_2 , c )
+    \\
+    & 
+    = y(c_1 \otimes_{\mathcal{C}} c_2 )(c)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 
 ### Monoids with respect to Day convolution
@@ -374,17 +562,24 @@ $$
   \begin{aligned}
     R FreeMod(c_1,c_2)
       & \coloneqq
-    R Mod( y(c_1) \otimes R , y(c_2)\otimes R)
+    R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
     \\
       & \simeq
-    [\mathcal{C},V](y(c_1), y(c_2) \otimes R)
+    [\mathcal{C},V](y(c_1), y(c_2) \otimes_{Day} R)
     \\
       & \simeq
-    (y(c_2) \otimes R)(c_1)
+    (y(c_2) \otimes_{Day} R)(c_1)
     \\
       & \simeq
-    \underset{\underset{c_3 \otimes c_4\to c_1}{\longrightarrow}}{\lim}
-     \mathcal{C}(c_2, c_3) \otimes R(c_4)
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_1)
+         \otimes_V
+       \mathcal{C}(c_2, c_3) \otimes_V R(c_4)
+     \\
+     & \simeq 
+     \overset{c_4}{\int}
+       \mathcal{C}(c_2 \otimes c_4,c_1)
+       \otimes_V R(c_4)
   \end{aligned} 
   \,.
 $$
