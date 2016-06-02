@@ -3374,6 +3374,66 @@ One sufficient condition that these exact sequences split is that they consist o
 So for instance for every spectral sequence in [[vector spaces]] the extension problem is trivial (since every vector space is a free module).
 
 =--
+ 
+Under certain conditions one may say more:
+
++-- {: .num_lemma #lemma}
+###### Lemma
+
+Consider a cohomology [[spectral sequence]] (def. \ref{CohomologySpectralSequence}) converging to some $C^\bullet$ with the special property that $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$. Then there are [[short exact sequences]] of the form
+
+$$
+  0 \to E_\infty^{s,0} \longrightarrow C^s \longrightarrow  E_\infty^{s-n,n} \to 0
+  \,.
+$$
+
+=--
+
+(e.g. [Switzer 75, p. 356](#Switzer75))
+
++-- {: .proof}
+###### Proof
+
+By definition of convergence the $E_{\infty}^{s,t}$ sit in [[short exact sequences]] of the form
+
+$$
+  0 \to F^{s+1}C^{s+t} \longrightarrow F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
+  \,.
+$$
+
+So when $E_\infty^{s,t} = 0$ the left morphism here is an [[isomorphism]].
+
+We may use this to either shift away the filtering degree
+
+* if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s-1+t+1} = F^0 C^{s+t} \simeq C^{s+t}$.
+
+or to shift away the offset of the filtering to the total degree:
+
+* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = F^{s+t}C^{s+1+t-1} = F^{s+t}C^{s+t}$
+
+* if $t \lt 0$ then $F^{s}C^{s+t} = 0$.
+
+In particular $F^{s}C^{s} \simeq E_\infty^{s,0}$.
+
+Hence the defining exact sequence
+
+$$
+  0 \to F^{s+1}C^{s+n} \longrightarrow F^{s}C^{s+n} \longrightarrow E_\infty^{s,n} \to 0
+$$
+
+becomes
+
+$$
+  0 \to E_\infty^{s+n,0} \longrightarrow C^{s+n} \longrightarrow E_\infty^{s,n}
+ \to 0
+  \,.
+$$
+
+=--
+
+
+
+
 
 ##### The AHSS
 
@@ -5926,7 +5986,7 @@ $$
   \,.
 $$
 
-This is the _[[Thom isomorphism]]_. It follows from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]).
+This is the _[[Thom isomorphism]]_. It follows from the [[Serre spectral sequence]] (or else from the [[Leray-Hirsch theorem]]). A closely related statement gives the _[[Thom-Gysin sequence]]_.
 
 We need this below to compute (co)homology of universal Thom spectra $M U$ in terms of that of the [[classifying spaces]] $B U$.
 
@@ -5935,6 +5995,168 @@ Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isom
 
 **Literature.** ([Kochman 96, 2.6](#Kochman96))
 
+##### Thom-Gysin sequence
+
+Let $R$ be a [[commutative ring]] and let
+
+$$
+  \array{
+    S^n &\longrightarrow& E
+    \\
+    && \downarrow^{\mathrlap{\pi}}
+    \\
+    && B
+  }
+$$
+
+be a [[fiber bundle]] of [[n-spheres]] over a [[simply connected topological space|simply connected]] [[simplicial complex]]. 
+
++-- {: .num_prop }
+###### Proposition
+
+There exists a [[Thom class]]  $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+
+$$
+  \cdots 
+   \to 
+   H^k(B; R) 
+     \stackrel{\pi^\ast}{\longrightarrow}
+   H^k(E; R)
+    \stackrel{}{\longrightarrow}
+   H^{k-n}(B;R)
+   \stackrel{c \cup (-)}{\longrightarrow}
+   H^{k+1}(B; R)
+   \to
+   \cdots
+  \,.
+$$
+
+=--
+
+(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochman96))
+
++-- {: .proof}
+###### Proof
+
+There is the corresponding [[Serre spectral sequence]] 
+
+$$
+  E_2^{s,t}
+  =
+  H^s(B; H^t(S^n;R))
+  \;\Rightarrow\;
+  H^{s+t}(E; R)
+  \,.
+$$
+
+Since the [[ordinary cohomology]] of the [[n-sphere]] [[fiber]] is concentrated in just two degees
+
+$$
+  H^t(S^n; R)
+  =
+  \left\{
+    \array{
+      R & for \; t= 0 \; and \; t = n
+      \\
+      0 & otherwise
+    }
+  \right.
+$$
+
+most terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, vanish. As a consequence, the only possible non-vanishing differentials $d_r$ are those on the $(n+1)$-page, of the form
+
+$$
+  \array{
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow
+     \\
+     E_{n+1}^{s+n+1,0} & \simeq &  H^{s+n+1}(B;R)
+  }
+  \,.
+$$
+
+Now since the [[coefficients]] $R$ is a [[ring]], then by prop. \ref{AHSSForMultiplicativeCohomologyIsMultiplicative} the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
+
+To make use of this, write
+
+$$
+  \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
+$$
+
+for the unit in the cup product ring $H^\bullet(X;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that, as such, $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
+
+$$
+  c \coloneqq d_{n+1}(\iota) \in E_{n+1}^{n+1,0} \stackrel{\simeq}{\longrightarrow} H^{n+1}(B; R)
+$$
+
+for this element. This is the Thom class in question.
+
+Because, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$, and since $d_{n+1}$ is a [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$, it follows that its action is fixed by 
+
+$$
+  \begin{aligned}
+    d_{n+1}(\iota \cdot b)
+    & =
+    d_{n+1}(\iota) \cdot b + (-1)^{n} \iota \cdot \underset{= 0}{\underbrace{d_{n+1}(b)}}
+    \\
+    & = c \cdot b
+  \end{aligned}
+  \,.
+$$
+
+This shows that 
+
+$$
+  \array{
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
+     \\
+     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
+  }
+  \,.
+$$
+
+Hence the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
+
+$$
+  \array{
+     0
+     \\
+     \downarrow
+     \\
+     E_\infty^{s,n}
+     \\
+     {}^{\mathllap{ker(d_{n+1})}}\downarrow
+     \\
+     E_{n+1}^{s,n} & \simeq & H^s(B;R)
+     \\
+     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
+     \\
+     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
+     \\
+     {}^{\mathllap{coker}(d_{n+1})}\downarrow
+     \\
+     E_\infty^{s+n+1,0}
+     \\
+     \downarrow
+     \\
+     0
+  }  
+  \,.
+$$
+
+Finally observe (lemma \ref{lemma}) that due to the sparseness of the $E_\infty$-page, there are also [[short exact sequences]] of the form
+
+$$
+  0 \to E_\infty^{s,0} \longrightarrow H^s(E; R) \longrightarrow  E_\infty^{s-n,n} \to 0
+  \,.
+$$
+
+Concatenating these with the above exact sequences yields the desired [[long exact sequence]].
+
+=--
 
 
 #### Orientation in generalized cohomology
@@ -6868,220 +7090,6 @@ Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B 
 
 $\,$
 
-Let $R$ be a [[commutative ring]] and let
-
-$$
-  \array{
-    S^n &\longrightarrow& E
-    \\
-    && \downarrow^{\mathrlap{\pi}}
-    \\
-    && B
-  }
-$$
-
-be a [[fiber bundle]] of [[n-spheres]] over a [[simply connected topological space|simply connected]] [[simplicial complex]]. 
-
-+-- {: .num_prop }
-###### Proposition
-
-There exists a [[Thom class]]  $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
-
-$$
-  \cdots 
-   \to 
-   H^k(B; R) 
-     \stackrel{\pi^\ast}{\longrightarrow}
-   H^k(E; R)
-    \stackrel{}{\longrightarrow}
-   H^{k-n}(B;R)
-   \stackrel{c \cup (-)}{\longrightarrow}
-   H^{k+1}(B; R)
-   \to
-   \cdots
-  \,.
-$$
-
-=--
-
-(e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochman96))
-
-+-- {: .proof}
-###### Proof
-
-There is the corresponding [[Serre spectral sequence]] 
-
-$$
-  E_2^{s,t}
-  =
-  H^s(B; H^t(S^n;R))
-  \;\Rightarrow\;
-  H^{s+t}(E; R)
-  \,.
-$$
-
-Since the [[ordinary cohomology]] of the [[n-sphere]] [[fiber]] is concentrated in just two degees
-
-$$
-  H^t(S^n; R)
-  =
-  \left\{
-    \array{
-      R & for \; t= 0 \; and \; t = n
-      \\
-      0 & otherwise
-    }
-  \right.
-$$
-
-most terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, vanish. As a consequence, the only possible non-vanishing differentials $d_r$ are those on the $(n+1)$-page, of the form
-
-$$
-  \array{
-     E_{n+1}^{s,n} & \simeq & H^s(B;R)
-     \\
-     {}^{\mathllap{d_{n+1}}}\downarrow
-     \\
-     E_{n+1}^{s+n+1,0} & \simeq &  H^{s+n+1}(B;R)
-  }
-  \,.
-$$
-
-Now since the [[coefficients]] $R$ is a [[ring]], then by prop. \ref{AHSSForMultiplicativeCohomologyIsMultiplicative} the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product.
-
-To make use of this, write
-
-$$
-  \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
-$$
-
-for the unit in the cup product ring $H^\bullet(X;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that as such $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
-
-$$
-  c \coloneqq d_{n+1}(\iota) \in E_{n+1}^{n+1,0} \stackrel{\simeq}{\longrightarrow} H^{n+1}(B; R)
-$$
-
-for this element. This is the Thom class in question.
-
-Because, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$, and since $d_{n+1}$ is a [[derivation]] and vanishes on $E_{n+1}^{\bullet,0}$, it follows that its action is fixed by 
-
-$$
-  \begin{aligned}
-    d_{n+1}(\iota \cdot b)
-    & =
-    d_{n+1}(\iota) \cdot b + (-1)^{n} \iota \cdot \underset{= 0}{\underbrace{d_{n+1}(b)}}
-    \\
-    & = c \cdot b
-  \end{aligned}
-  \,.
-$$
-
-This shows that 
-
-$$
-  \array{
-     E_{n+1}^{s,n} & \simeq & H^s(B;R)
-     \\
-     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
-     \\
-     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
-  }
-  \,.
-$$
-
-Hence the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
-
-$$
-  \array{
-     0
-     \\
-     \downarrow
-     \\
-     E_\infty^{s,n}
-     \\
-     {}^{\mathllap{ker(d_{n+1})}}\downarrow
-     \\
-     E_{n+1}^{s,n} & \simeq & H^s(B;R)
-     \\
-     {}^{\mathllap{d_{n+1}}}\downarrow && \downarrow^{\mathrlap{c \cup (-)}}
-     \\
-     E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
-     \\
-     {}^{\mathllap{coker}(d_{n+1})}\downarrow
-     \\
-     E_\infty^{s+n+1,0}
-     \\
-     \downarrow
-     \\
-     0
-  }  
-  \,.
-$$
-
-Finally observe (lemma \ref{lemma}) that due to the sparseness of the $E_\infty$-page, there are also [[short exact sequences]] of the form
-
-$$
-  0 \to E_\infty^{s,0} \longrightarrow H^s(E; R) \longrightarrow  E_\infty^{s-n,n} \to 0
-  \,.
-$$
-
-Concatenating these with the above exact sequences yields the desired [[long exact sequence]].
-
-=--
-
-+-- {: .num_lemma #lemma}
-###### Lemma
-
-For a cohomology [[spectral sequence]] converging to some $C^\bullet$ with the property that $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$, then there are [[short exact sequences]] of the form
-
-$$
-  0 \to E_\infty^{s,0} \longrightarrow C^s \longrightarrow  E_\infty^{s-n,n} \to 0
-  \,.
-$$
-
-=--
-
-(e.g. [Switzer 75, p. 356](#Switzer75))
-
-+-- {: .proof}
-###### Proof
-
-By definition of convergence the $E_{\infty}^{s,t}$ sit in [[short exact sequences]] of the form
-
-$$
-  0 \to F^{s+1}C^{s+t} \longrightarrow F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
-  \,.
-$$
-
-So when $E_\infty^{s,t} = 0$ the left morphism here is an [[isomorphism]].
-
-We may use this to either shift away the filtering degree
-
-* if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s-1+t+1} = F^0 C^{s+t} \simeq C^{s+t}$.
-
-or to shift away the offset of the filtering to the total degree:
-
-* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = F^{s+t}C^{s+1+t-1} = F^{s+t}C^{s+t}$
-
-* if $t \lt 0$ then $F^{s}C^{s+t} = 0$.
-
-In particular $F^{s}C^{s} \simeq E_\infty^{s,0}$.
-
-Hence the defining exact sequence
-
-$$
-  0 \to F^{s+1}C^{s+n} \longrightarrow F^{s}C^{s+n} \longrightarrow E_\infty^{s,n} \to 0
-$$
-
-becomes
-
-$$
-  0 \to E_\infty^{s+n,0} \longrightarrow C^{s+n} \longrightarrow E_\infty^{s,n}
- \to 0
-  \,.
-$$
-
-=--
 
 
 
