@@ -1000,7 +1000,7 @@ $$
      \wedge 
      X_{n_1} \wedge X_{n_2}
     \\
-    & = \underset{{n_1+n_2} \atop {= n}}{\coprod} X_{n_1}\wedge X_{n_2}
+    & = \underset{{n_1+n_2} \atop {= n}}{\coprod} \left(X_{n_1}\wedge X_{n_2}\right)
   \end{aligned} 
   \,.
 $$
@@ -1091,13 +1091,13 @@ $$
      Lan_{\otimes_{\mathcal{C}}} (X\overline{\wedge} Y)(c)
      &
      \simeq
-      \overset{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}{\int} 
+      \overset{(c_1,c_2)}{\int} 
       \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c )
       \wedge
       (X\overline{\wedge}Y)(c_1,c_2)
      \\
     & =
-    \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
+    \overset{(c_1,c_2)}{\int}
     \mathcal{C}(c_1\otimes c_2) 
     \wedge
      X(c_1)\wedge X(c_2) 
@@ -1111,7 +1111,7 @@ $$
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
 
-Day convolution $\otimes_{Day}$, def. \ref{TopologicalDayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
+Day convolution $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
@@ -1126,12 +1126,6 @@ where $\overline{\wedge}$ is the external product of def. \ref{ExternalTensorPro
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and since left [[Kan extension]] along any $f$ is the [[left adjoint]] to precomposition with $f$.
-
-=--
 
 Write
 
@@ -1149,28 +1143,32 @@ For $\mathcal{C}$ a small monoidal pointed topologically enriched category,
 the Day convolution product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
-  ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(I))
+  ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
 $$
 
-a topological [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+a topological [[monoidal category]] with [[tensor unit]] $y(1)$ co-represented by the tensor unit $1$ of $\mathcal{C}$. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
+Associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+
+
+
+To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
 
 $$
   \begin{aligned}
-     X \otimes_{Day} y(I)
+     X \otimes_{Day} y(1)
      & 
      =
      \overset{c_1,c_2 \in \mathcal{C}}{\int}
      \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
       \wedge 
-     X(c_1) \wedge \mathcal{C}(I,c_2)
+     X(c_1) \wedge \mathcal{C}(1,c_2)
      \\
      & \simeq 
      \overset{c_1\in \mathcal{C}}{\int}
@@ -1179,13 +1177,13 @@ $$
       \overset{c_2 \in \mathcal{C}}{\int}  
         \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
         \wedge 
-        \mathcal{C}(I,c_2) 
+        \mathcal{C}(1,c_2) 
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
       X(c_1) 
          \wedge
-      \mathcal{C}(c_1 \otimes_{\mathcal{C}} I, -)
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} 1, -)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
