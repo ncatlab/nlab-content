@@ -912,6 +912,26 @@ for all objects $x, y$
 
 =--
 
++-- {: .num_defn #ClosedMonoidalCategory}
+###### Definition
+
+Given a pointed topological [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{[-,X]}{\longrightarrow}}
+      {\overset{X\otimes(-)}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,.
+$$
+
+The object $[Y,X] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $Y$ and $X$.
+
+=--
+
+
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
 ###### Example
 
@@ -945,7 +965,7 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes\;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$. 
 
 Then the **[[Day convolution]] tensor product** on the pointed topological [[enriched functor category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ (def. \ref{PointedTopologicalFunctorCategory}) is the [[functor]]
 
@@ -965,7 +985,7 @@ $$
   c 
     \;\mapsto\;
   \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
-    \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, c) \wedge X(c_1) \wedge Y(c_2)
+    \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c) \wedge X(c_1) \wedge Y(c_2)
   \,.
 $$
 
@@ -997,12 +1017,12 @@ $$
   \begin{aligned}
     (X \otimes_{Day} Y)_n
     & =
-    \overset{(n_1,n_2) \in\mathbb{N}\times\mathbb{N}}{\int}
+    \overset{(n_1,n_2)}{\int}
      Seq(n_1 + n_2 , n)
      \wedge 
      X_{n_1} \wedge X_{n_2}
     \\
-    & = \underset{n_1+n_2 = n}{\coprod} X_{n_1}\wedge X_{n_2}
+    & = \underset{{n_1+n_2} \atop {= n}}{\coprod} \left(X_{n_1}\wedge X_{n_2}\right)
   \end{aligned} 
   \,.
 $$
@@ -1010,7 +1030,7 @@ $$
 =--
 
 
-Day convolution is equivalently a [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}):
+We observe now that [[Day convolution]] is equivalently a [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}). This will be key for understanding [[monoids]] and [[modules]] with respect to Day convolution.
 
 +-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
@@ -1060,6 +1080,25 @@ $$
   \,.
 $$
 
+Hence the [[adjunction unit]] is a [[natural transformation]] of the form
+
+$$
+  \array{
+    \mathcal{C} \times \mathcal{C}
+    &&
+      \overset{X \overline{\wedge} Y}{\longrightarrow}
+    &&
+      Top^{\ast/}_{cg}
+    \\
+    & {}^{\mathllap{\otimes}}\searrow 
+     &\Downarrow&
+    \nearrow_{\mathrlap{X \otimes_{Day} Y}}
+    \\
+    && \mathcal{C}
+  }
+  \,.
+$$
+
 =--
 
 This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
@@ -1074,13 +1113,13 @@ $$
      Lan_{\otimes_{\mathcal{C}}} (X\overline{\wedge} Y)(c)
      &
      \simeq
-      \overset{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}{\int} 
+      \overset{(c_1,c_2)}{\int} 
       \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_2, c )
       \wedge
       (X\overline{\wedge}Y)(c_1,c_2)
      \\
     & =
-    \overset{(c_1,c_2)\in \mathcal{C}\times \mathcal{C}}{\int}
+    \overset{(c_1,c_2)}{\int}
     \mathcal{C}(c_1\otimes c_2) 
     \wedge
      X(c_1)\wedge X(c_2) 
@@ -1094,7 +1133,7 @@ $$
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
 
-Day convolution $\otimes_{Day}$, def. \ref{TopologicalDayConvolutionProduct}, is universally characterized by the property that there are [[natural isomorphisms]]
+Day convolution $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
@@ -1109,12 +1148,6 @@ where $\overline{\wedge}$ is the external product of def. \ref{ExternalTensorPro
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} and since left [[Kan extension]] along any $f$ is the [[left adjoint]] to precomposition with $f$.
-
-=--
 
 Write
 
@@ -1128,32 +1161,68 @@ for the $Top^{\ast/}_{cg}$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ 
 +-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
 ###### Proposition
 
-For $\mathcal{C}$ a small monoidal pointed topologically enriched category,
-the Day convolution product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[Day convolution]] tensor product $\otimes_{Day}$ of def. \ref{TopologicalDayConvolutionProduct} makes the pointed topologically [[enriched functor category]]
 
 $$
-  ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(I))
+  ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
 $$
 
-a topological [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
+a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
+Regarding [[associativity]], observe that
+
+$$
+  \begin{aligned}
+    (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
+    & \simeq
+    \overset{(c_1,c_2)}{\int}
+      \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2, \,c) 
+        \wedge
+      X(c_1) 
+       \wedge
+      \overset{(d_1,d_2)}{\int}
+       \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c_2 )
+       (Y(d_2) \wedge Z(d_2))
+    \\
+    &\simeq \overset{c_1, d_1, d_2}{\int}
+    \underset{\simeq \mathcal{C}(c_1 \otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c )}{
+      \underbrace{
+       \overset{c_2}{\int} 
+         \mathcal{C}(c_1 \otimes_{\mathcal{D}} c_2 , c)
+           \wedge
+         \mathcal{C}(d_1 \otimes_{\mathcal{C}}d_2, c_2 )
+      }
+    }
+    \wedge X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+    \\
+    &\simeq 
+    \overset{c_1, d_1, d_2}{\int}
+     \mathcal{C}(c_1\otimes_{\mathcal{C}} d_1 \otimes_{\mathcal{C}} d_2, c ) 
+       \wedge  
+     X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
+  \end{aligned}
+  \,,
+$$
+
+where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+
+To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
 
 $$
   \begin{aligned}
-     X \otimes_{Day} y(I)
+     X \otimes_{Day} y(1)
      & 
      =
      \overset{c_1,c_2 \in \mathcal{C}}{\int}
      \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
       \wedge 
-     X(c_1) \wedge \mathcal{C}(I,c_2)
+     X(c_1) \wedge \mathcal{C}(1,c_2)
      \\
      & \simeq 
      \overset{c_1\in \mathcal{C}}{\int}
@@ -1162,13 +1231,13 @@ $$
       \overset{c_2 \in \mathcal{C}}{\int}  
         \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
         \wedge 
-        \mathcal{C}(I,c_2) 
+        \mathcal{C}(1,c_2) 
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
       X(c_1) 
          \wedge
-      \mathcal{C}(c_1 \otimes_{\mathcal{C}} I, -)
+      \mathcal{C}(c_1 \otimes_{\mathcal{C}} 1, -)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
@@ -1187,7 +1256,126 @@ $$
 
 =--
 
+
++-- {: .num_prop #DayMonoidalStructureIsClosed}
+###### Proposition
+
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(I))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+
+$$
+  [X,Y]_{Day}(c)
+  \simeq
+   \underset{c_1,c_2}{\int}
+      V\left( 
+        \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
+        V(X(c_1), Y(c_2)) 
+      \right)       
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}), there is the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{aligned}
+     [\mathcal{C},V]( X, [Y,Z]_{Day} )
+       & \simeq
+     \underset{c}{\int} V\left(
+        X(c), 
+        \underset{c_1,c_2}{\int}
+        V\left( 
+          \mathcal{C}(c \otimes_{\mathcal{C}} c_1 , c_2),
+          V(Y(c_1), Z(c_2)) 
+        \right)
+     \right)
+     \\
+     &
+     \simeq
+     \underset{c}{\int}
+     \underset{c_1,c_2}{\int}
+     V\left(
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \wedge
+       X(c)
+         \wedge
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     & \simeq
+     \underset{c_2}{\int}
+     V\left(
+       \overset{c,c_1}{\int}
+       \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
+         \wedge
+       X(c)
+         \wedge 
+       Y(c_1)
+       ,\;
+       Z(c_2)
+     \right)
+     \\
+     &\simeq
+     \underset{c_2}{\int}
+       V\left(
+         (X \otimes_{Day} Y)(c_2),
+         Z(c_2)
+       \right)
+     \\
+     &\simeq
+     [\mathcal{C},V](X \otimes_{Day} Y, Z)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+In the situation of def. \ref{DayConvolutionYieldsMonoidalCategoryStructure}, the [[Yoneda embedding]] $c\mapsto \mathcal{C}(c,-)$  constitutes a  [[strong monoidal functor]] 
+
+$$
+  (\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, y(I))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] twice to get the following natural isomorphism
+
+$$
+  \begin{aligned}
+    (y(c_1) \otimes_{Day} y(c_2))(c)
+    &
+    \simeq
+    \overset{d_1, d_2}{\int} 
+      \mathcal{C}(d_1 \otimes_{\mathcal{C}} d_2, c )
+    \wedge
+      \mathcal{C}(c_1,d_1)
+    \wedge
+      \mathcal{C}(c_2,d_2)
+    \\
+    & \simeq \mathcal{C}(c_1\otimes_{\mathcal{C}}c_2 , c )
+    \\
+    & 
+    = y(c_1 \otimes_{\mathcal{C}} c_2 )(c)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
 ##### Pre-Excisive functors
+ {#OnPreExcisiveFunctors}
 
 Write $Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$ for the full inclusion on the topological spaces isomorphic to a [[finite CW-complex]].
 
@@ -1197,8 +1385,7 @@ $$
  [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of _[[pre-excisive functors]]_. Its [[symmetric monoidal smash product of spectra]] is the [[Day convolution]] $\wedge_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) of the plain smash product. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} this gives a topological [[monoidal category]]
-
+is the category of _[[pre-excisive functors]]_. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} the [[smash product]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] induces a topological [[closed monoidal category]]
 
 $$
   \left( 
@@ -1209,9 +1396,20 @@ $$
   \right)
 $$
 
-#### For symmetric and orthogonal spectra
+with 
 
-... restrict the above along rhe inclusions
+1. [[tensor product]] the [[Day convolution product]] $\otimes_{Day}$ from def. \ref{TopologicalDayConvolutionProduct},
+
+   this is the _symmetric monoidal [[smash product of spectra]]_ for the model of pre-excisive functors;
+
+1. [[internal hom]] the dual operation $[-,-]_{Day}$ from prop. \ref{DayMonoidalStructureIsClosed},
+
+   this is the corresponding _[[mapping spectrum]]_ construction for pre-excisive functors.
+
+
+### For symmetric and orthogonal spectra
+
+... restrict the [above](#OnPreExcisiveFunctors) discussion for excisive functors along rhe inclusions
 
 $$
   Sym \hookrightarrow Orth \hookrightarrow Top^{\ast/}_{cg,fin}
