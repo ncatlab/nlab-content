@@ -225,6 +225,29 @@ Basic Examples:
 
 ## Chapter IV. Module spectra
 
+## Appendix A. Miscellaneous tools
+
+### Model category theory
+
+* [[model category]]
+
+### Compactly generated spaces
+
+* [[compactly generated topological spaces]]
+
+* [[classical model structure on topological spaces]]
+
+### Simplicial sets
+
+* [[simplicial sets]]
+
+* [[classical model structure on simplicial sets]]
+
+### Equivariant homotopy theory
+
+* [[equivariant homotopy theory]]
+
+
 ## Errata
 
 * p. 273. the definition of [[Kronecker pairing]] (construction 6.13) is missign the application of the multiplication map
