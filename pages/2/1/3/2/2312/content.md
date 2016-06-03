@@ -43,7 +43,7 @@ $$
     \otimes
   E_2^{n_2}(Y,B)
     \longrightarrow
-  E_r^{n_1 + n_2}(X\times Y \;,\; A\times Y \cup X \times B)
+  E_3^{n_1 + n_2}(X\times Y \;,\; A\times Y \cup X \times B)
 $$
 
 such that this is compatible with the connecting homomorphisms $\delta_i$ of $E_i$, in that the following are [[commuting squares]]
