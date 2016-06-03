@@ -879,6 +879,7 @@ $$
 and let the connecting homomorphism be as in def. \ref{ConnectinHomomorphismForCohomologyTheoryOnInfinityCategory}.
 
 =--
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -6039,30 +6040,30 @@ Composed with pullback along the [[Pontryagin-Thom collapse map]], the Thom isom
 
 ##### Thom-Gysin sequence
 
-+-- {: .num_prop }
++-- {: .num_prop #ThomGysinSequence}
 ###### Proposition
 
-Let $R$ be a [[commutative ring]] and let
+Let
 
 $$
   \array{
     S^n &\longrightarrow& E
     \\
-    && \downarrow^{\mathrlap{\pi}}
+    && \downarrow^{\mathrlap{p}}
     \\
     && B
   }
 $$
 
-be a [[Serre fibration]] over a [[simply connected topological space|simply connected]] [[CW-complex]] with typical [[fiber]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)) the [[n-sphere]].
+be a [[Serre fibration]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)) over a [[simply connected topological space|simply connected]] [[CW-complex]] with typical [[fiber]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#FibersOfSerreFibrations)) the [[n-sphere]].
 
-Then there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the **Euler class** of $\pi$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
+For $R$ a [[commutative ring]], there exists an element $c \in H^{n+1}(E; R)$ (in the [[ordinary cohomology]] of the total space with [[coefficients]] in $R$, called the **Euler class** of $p$) such that the [[cup product]] operation $c \cup (-)$ sits in a [[long exact sequence]] of [[cohomology groups]] of the form
 
 $$
   \cdots 
    \to 
    H^k(B; R) 
-     \stackrel{\pi^\ast}{\longrightarrow}
+     \stackrel{p^\ast}{\longrightarrow}
    H^k(E; R)
     \stackrel{}{\longrightarrow}
    H^{k-n}(B;R)
@@ -6070,14 +6071,16 @@ $$
    H^{k+1}(B; R)
    \to
    \cdots
-  \,.
+  \,,
 $$
+
+called the **[[Thom-Gysin sequence]]** of $E$ for coefficients in $R$.
 
 =--
 
 (e.g. [Switzer 75, section 15.30](#Switzer75), [Kochman 96, corollary 2.2.6](#Kochmann96))
 
-+-- {: .proof}
++-- {: .proof #ProofOfThomGysinSequence} 
 ###### Proof
 
 Under the given assumptions there is the corresponding [[Serre spectral sequence]] (prop. \ref{AHSSExistence}) of the form
@@ -6130,12 +6133,12 @@ $$
   \,.
 $$
 
-Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] under [[cup product]] and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product. (See at _[multiplicative spectral sequence -- Examples -- AHSS for multiplicative cohomology](multiplicative+spectral+sequence#AHSSForMultiplicativeCohomology)_.)
+Now since the [[coefficients]] $R$ is a [[ring]], the [[Serre spectral sequence]] is [[multiplicative spectral sequence|multiplicative]] (prop. \ref{AHSSForMultiplicativeCohomologyIsMultiplicative}) under [[cup product]], and the [[differential]] is a [[derivation]] (of total degree 1) with respect to this product. 
 
 To make use of this, write
 
 $$
-  \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
+  \iota \coloneq 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
 $$
 
 for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an element in bidegree $(0,n)$ in the $(n+1)$-page of the spectral sequence. (In particular $\iota$ does _not_ denote the unit in bidegree $(0,0)$, and hence $d_{n+1}(\iota)$ need not vanish; while by the [[derivation]] property, it does vanish on the actual unit $1 \in H^0(B;R) \simeq E_{n+1}^{0,0} \simeq $.)
@@ -6224,6 +6227,131 @@ $$
 Concatenating these with the above exact sequences yields the desired [[long exact sequence]].
 
 =--
+
+##### Thom isomorphism
+
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+Let $V \to B$ be a topological [[vector bundle]] of [[rank]] $n \gt 0$ over a [[simply connected topological space|simply connected]] [[CW-complex]] $B$. Let $R$ be a [[commutative ring]]. 
+
+There exists an element $c \in H^n(Th(V);R)$ (in the [[ordinary cohomology]], with [[coefficients]] in $R$, of the [[Thom space]] of $V$, called a **[[Thom class]]**) such that forming the [[cup product]] with $c$ induces an [[isomorphism]]
+
+$$
+  H^\bullet(B;R)
+    \overset{c \cup (-)}{\longrightarrow}
+  \tilde H^{\bullet + n}(Th(V);R)
+$$
+
+of degree $n$ from the unreduced [[cohomology group]] of $B$ to the [[reduced cohomology]] of the [[Thom space]] of $V$.
+
+=--
+
++-- {: .proof #ProofOfThomIsomorphismViaFiberwiseThomSpaceFibration}
+###### Proof 
+
+Choose an [[orthogonal structure]] on $V$. Consider the _fiberwise_ [[cofiber]] 
+
+$$
+  E \coloneqq D(V)/_B S(V)
+$$
+
+of the inclusion of the unit sphere bundle into the unit disk bundle of $V$ (def. \ref{ThomSpace}).
+
+$$
+  \array{
+    S^{n-1} &\hookrightarrow& D^n &\longrightarrow& S^n
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    S(V) &\hookrightarrow& D(V) &\longrightarrow& E
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    B &=& B &=& B
+  }
+$$
+
+Observe that this has the following properties
+
+1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
+
+1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
+
+1. the [[Thom space]] $Th(V)\simeq E/B$ ((def. \ref{ThomSpace})) is the [[quotient topological space|quotient]] of $E$ by the base space, hence the [[reduced cohomology]] (def. \ref{ReducedGeneralizedCohomology}) of the Thom space is (def. \ref{ReducedToUnreducedGeneralizedCohomology}) the [[relative cohomology]] of $E$ relative $B$
+
+   $$
+     \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
+     \,.
+   $$
+
+In the following we write $H^\bullet(-)\coloneqq H^\bullet(-;R)$, for short.
+
+By the first point, there is the [[Thom-Gysin sequence]] (prop. \ref{ThomGysinSequence}), an [[exact sequence]] running vertically in the following diagram
+
+$$
+  \array{
+    && H^\bullet(B)
+    \\
+    && {}^{\mathllap{p^\ast}}\downarrow  & \searrow^{\mathrlap{\simeq}}
+    \\
+    \tilde H^\bullet(Th(V))
+      &\longrightarrow&
+    H^\bullet(E)
+      &\underset{s^\ast}{\longrightarrow}&
+    H^\bullet(B)
+    \\
+    && \downarrow
+    \\
+    && H^{\bullet-n}(B)
+  }
+  \,.
+$$ 
+
+By the second point above this is [[split exact sequence|split]], as shown by the diagonal isomorphism in the top right. By the third point above there is the horizontal exact sequence, as shown, which is the [exact sequence in relative cohomology](generalized+%28Eilenberg-Steenrod%29+cohomology#ExactnessUnreduced) $\cdots \to H^\bullet(E,B) \to H^\bullet(E) \to H^\bullet(B) \to \cdots$ induced from the section $B \hookrightarrow E$.
+
+Hence using the splitting to decompose the term in the middle as a [[direct sum]], and then using horizontal and vertical exactness at that term yields
+
+$$
+  \array{
+    && H^\bullet(B)
+    \\
+    && {}^{\mathllap{(0,id)}}\downarrow  & \searrow^{\mathrlap{\simeq}}
+    \\
+    \tilde H^\bullet(Th(V))
+      &\overset{(id,0)}{\hookrightarrow}&
+    \tilde H^\bullet(Th(V))
+      \oplus 
+    H^\bullet(B)
+      &\underset{(0,id)}{\longrightarrow}&
+    H^\bullet(B)
+    \\
+    && \downarrow^{\mathrlap{(id,0)}}
+    \\
+    && H^{\bullet-n}(B)
+  }
+$$ 
+
+and hence an isomorphism
+
+$$
+  \tilde H^\bullet(Th(V))
+    \overset{\simeq}{\longrightarrow}
+  H^{\bullet-n}(B)
+  \,.
+$$
+
+To see that this is the inverse of a morphism of the form $c \cup (-)$, inspect the [proof of the Gysin sequence](#ProofOfThomGysinSequence). This shows that $H^{\bullet-n}(B)$ here is identified with elements that on the second page of the corresponding [[Serre spectral sequence]] are cup products 
+
+$$
+  \iota \cup b
+$$ 
+
+with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\bullet(B)$ any element. Since $H^\bullet(-;R)$ is a [[multiplicative cohomology theory]] (because the [[coefficients]] form a [[ring]] $R$), cup producs are preserved as one passes to the $E_\infty$-page of the spectral sequence, and the morphism $H^\bullet(E) \to B^\bullet(B)$ above, hence also the isomorphism $\tilde H^\bullet(Th(V)) \to H^\bullet(B)$, factors through the $E_\infty$-page (see towards the end of the [proof of the Gysin sequence](#ProofOfThomGysinSequence)). Hence the image of $\iota$ on the $E_\infty$-page is the Thom class in question.
+
+=--
+
+
 
 
 #### Orientation in generalized cohomology
