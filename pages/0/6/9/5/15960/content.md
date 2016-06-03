@@ -74,6 +74,8 @@ A computer [[proof assistant]] for working with opetopic type theory is
 
 * [[Eric Finster]], _Orchard_ ([GitHub repository](https://github.com/ericfinster/orchard))
 
+* [[Eric Finster]], _Opetopic_ ([GitHub repository](https://github.com/ericfinster/opetopic)) ([Website](http://opetopic.net/))
+
 An online demo version is at
 
 * [[Eric Finster]], _[Opetope!](http://sma.epfl.ch/~finster/opetope/opetope.html)_ (online opetopic type theory system)
