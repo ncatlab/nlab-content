@@ -29,16 +29,16 @@ $$
   c \cup (-)
     \;\colon\; 
   H^\bullet(X) 
-     \stackrel{\simeq}{\to} 
+     \stackrel{\simeq}{\longrightarrow} 
   \tilde H^{\bullet + n}(Th(V))
   \,.
 $$
 
-from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, induced by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
+from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by pullback to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows from the nature of [[Thom classes]], for instance via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
 
-One may think of the Thom isomorphism from left to right as [[cup product|cupping]] with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]].
+One may think of the Thom isomorphism from left to right as [[cup product|cupping]] with a generalized [[volume form]] on the fibers, and from right to left as performing [[fiber integration]] against this volume form.
 
-## Definition
+## Statement
 
 ### Concretely
 
@@ -81,7 +81,7 @@ $$
     \\
     S(V) &\hookrightarrow& D(V) &\longrightarrow& E
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow && \downarrow && \downarrow^{\mathrlap{p}}
     \\
     B &=& B &=& B
   }
@@ -89,11 +89,11 @@ $$
 
 Observe that this has the following properties
 
-1. $E \to B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
+1. $E \overset{p}{\to} B$ is an [[n-sphere]] [[fiber bundle]], hence in particular a [[Serre fibration]];
 
-1. $E \to B$ has a global [[section]] $B \to E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
+1. $E \overset{p}{\to} B$ has a global [[section]] $B \overset{s}{\to} E$ (given over any point $b \in B$ by the class of any point in the fiber of $S(V) \to B$ over $b$);
 
-1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, hence the [[reduced cohomology]] of the Thom space is the [[relative cohomology]] of $E$ relative $B$
+1. the [[Thom space]] $Th(V)\simeq E/B$ is the quotient of $E$ by the base space, hence the [[reduced cohomology]] of the Thom space is ([def.](Introduction+to+Stable+homotopy+theory+--+S#ReducedToUnreducedGeneralizedCohomology)) the [[relative cohomology]] of $E$ relative $B$
 
    $$
      \tilde H^\bullet(Th(V);R) \simeq H^\bullet(E,B;R)
@@ -108,12 +108,12 @@ $$
   \array{
     && H^\bullet(B)
     \\
-    && \downarrow  & \searrow^{\mathrlap{\simeq}}
+    && {}^{\mathllap{p^\ast}}\downarrow  & \searrow^{\mathrlap{\simeq}}
     \\
     \tilde H^\bullet(Th(V))
       &\longrightarrow&
     H^\bullet(E)
-      &\longrightarrow&
+      &\underset{s^\ast}{\longrightarrow}&
     H^\bullet(B)
     \\
     && \downarrow
@@ -162,16 +162,16 @@ $$
   \iota \cup b
 $$ 
 
-with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\bullet(B)$ any element. Since $H^\bullet(-;R)$ is a [[multiplicative cohomology theory]], cup producs are preserved as one passes to the $E_\infty$-page of the spectral sequence, and the morphism $H^\bullet(E) \to B^\bullet(B)$ above, hence also the isomorphism $\tilde H^\bullet(Th(V)) \to H^\bullet(B)$, factors through the $E_\infty$-page (see towards the end of the [proof of the Gysin sequence](Thom-Gysin+sequence#ProofOfThomGysinSequence)). Hence the image of $\iota$ on the $E_\infty$-page is the Thom class in question.
+with $\iota$ fiberwise the canonical class $1 \in H^n(S^n)$ and with $b \in H^\bullet(B)$ any element. Since $H^\bullet(-;R)$ is a [[multiplicative cohomology theory]] (because the [[coefficients]] form a [[ring]] $R$), cup producs are preserved as one passes to the $E_\infty$-page of the spectral sequence, and the morphism $H^\bullet(E) \to B^\bullet(B)$ above, hence also the isomorphism $\tilde H^\bullet(Th(V)) \to H^\bullet(B)$, factors through the $E_\infty$-page (see towards the end of the [proof of the Gysin sequence](Thom-Gysin+sequence#ProofOfThomGysinSequence)). Hence the image of $\iota$ on the $E_\infty$-page is the Thom class in question.
 
 
 =--
 
 
 
-### General abstractly
+### Abstractly
 
-A fully general abstract discussion is around page 30, 31 of ([ABGHR](#ABGHR)).
+A general abstract discussion is around page 30, 31 of ([ABGHR](#ABGHR)).
 
 (...)
 
