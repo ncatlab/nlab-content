@@ -116,7 +116,7 @@ $$
   \iota = 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
 $$
 
-for the unit in the cup product ring $H^\bullet(X;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that, as such, $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
+for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, regarded as an element in the $(n+1)$-page of the spectral sequence. Notice that, as such, $\iota$ is not in degree 0, but in bidegree $(0,n)$, in particular $\iota$ is _not_ in $E_{n+1}^{0,0}$ and in particular is not the unit in there, and hence $d_{n+1}(\iota)$ need not vanish. Write
 
 $$
   c \coloneqq d_{n+1}(\iota) \in E_{n+1}^{n+1,0} \stackrel{\simeq}{\longrightarrow} H^{n+1}(B; R)
@@ -168,7 +168,7 @@ $$
      \\
      E_{n+1}^{s+n+1, 0} & \simeq & H^{s+n+1}(B;R)
      \\
-     {}^{\mathllap{coker}(d_{n+1})}\downarrow
+     {}^{\mathllap{coker(d_{n+1})}}\downarrow
      \\
      E_\infty^{s+n+1,0}
      \\
