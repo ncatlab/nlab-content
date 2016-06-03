@@ -16,6 +16,7 @@ Each of the following definitions is a special case of a general concept to foll
 ### Of sets
 
 Given a [[set]] $S$, a __partition__ of $S$ is a collection $\pi$ of [[inhabited subsets]] of $S$ such that
+
 *  For $A, B \in \pi$, if $A \cap B$ is inhabited, then $A = B$;
 *  The [[union]] $\bigcup \pi$ is all of $S$ (the [[improper subset]]).
 
