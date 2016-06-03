@@ -4160,13 +4160,13 @@ exhibits a [[homotopy pullback]] in $SeqSpec(Top_{cg})_{strict}$. Since every  o
 ##### Stability of the homotopy theory
  {#StabilityOfTheStableModelStructure}
 
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation $\Sigma$ is an [[equivalence of categories]] from the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
+We discuss that the stable model structure $SeqSpec(Top_{cg})_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a _[[stable model category]]_, in that the canonical [[reduced suspension]] operation is an [[equivalence of categories]] from the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) to itself. This is theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory} below. 
 
 
 +-- {: .num_defn #StableModelCategory}
 ###### Definition
 
-A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) is an [[equivalence of categories]]
+A [[pointed category|pointed]] [[model category]] $\mathcal{C}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets)) is called a **[[stable model category]]** if the canonically induced [[reduced suspension]] and [[loop space object]]-[[functors]] ([prop. ](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) on its [[homotopy category]] ([defn.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) constitute an [[equivalence of categories]]
 
 $$
   (\Sigma \dashv \Omega)
@@ -4182,11 +4182,12 @@ $$
 
 =--
 
-In order to prove that this is the case for $SeqSpec(Top_{cg})_{stable}$ we first relate now the operations of "standard suspension" (def. \ref{SequentialSpectrumRealSuspension}) and of "alternative suspension" (def. \ref{SequentialSpectrumFakeSuspension}) to each other. The former is manifestly a model for the correct suspension, but the latter is better behaved, so we will show that they are naturally isomorphic in the stable homotopy category. According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable} both will be directly comparable and isomorphic (in $Ho(Spectra)$) in even degrees, but non-comparable in odd degree. Therefore we now first introduce the concept of sequential spectra with components only in even degree and then use an adjunction back to ordinary sequential spectra.
-
 **Literature** ([Jardine 15, sections 10.3 and 10.4](#Jardine15))
 
 $\,$
+
+
+First we observe that the _alternative suspension_ induces an equivalence of homotopy categories:
 
 +-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
 ###### Lemma
@@ -4195,7 +4196,8 @@ With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping fu
 
 1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
 
-1. $\Sigma$ preserves stable weak homotopy equivalences.
+1. $\Sigma$ preserves [[stable weak homotopy equivalences]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
+
 =--
 
 +-- {: .proof}
@@ -4216,9 +4218,51 @@ $$
 on the [[classical model structure on pointed topological spaces|classical model structure]] on pointed compactly generated topological spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)). Since in this model structure all objects are fibrant, [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)) implies that with $\tilde \sigma^X_n$ a [[weak homotopy equivalence]], so is
 $\tilde \sigma^{\Omega X}_n = Maps(S^1,\tilde \sigma^X_n)$.
 
+Regarding the second point:
+
+Let $f \colon X \to Y$ be a stable weak homotopy equivalence. By the existence of the model structure $SeqSpec(Top_{cg})_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, $\Sigma f$ is a stable weak homotopy equivalence precisely if its image in the [[homotopy category of a model category|homotopy category]] $Ho(SeqSpec(Top_{cg})_{stable})$ is an isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MorphismIsWeakEquivalenceIfIsoInHomotopyCategoryForQuillen)). By the [[Yoneda lemma]], this is the case if for all $Z \in Ho(SeqSpec(Top_{cg})_{stable})$ the function
+
+$$
+  [\Sigma f, Z]_{stable}
+   \;\colon\;
+  [\Sigma Y,Z]_{stable}
+    \longrightarrow
+  [\Sigma X,Z]_{stable}
+$$
+
+is a [[bijection]]. By the fact that the stable model structure is a [[left Bousfield localization]] of the strict model structure with fibrant objects the [[Omega-spectra]], this is the case equivalently (using [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) if 
+
+$$
+  [\Sigma f, Z]_{strict}
+   \;\colon\;
+  [\Sigma Y,Z]_{strict}
+    \longrightarrow
+  [\Sigma X,Z]_{strict}
+$$
+
+is a bijection for all Omega-spectra $Z$. Now by the [[Quillen adjunction]] $\Sigma \dashv \Omega$ on the strict model category (prop. \ref{AlternativeSuspensionIsLeftQuillenOnStrictModelStructureOnSequential}) this is equivalent to 
+
+$$
+  [f, \Omega Z]_{strict}
+   \;\colon\;
+  [Y,\Omega Z]_{strict}
+    \longrightarrow
+  [X,\Omega Z]_{strict}
+$$
+
+being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this in turn is equivalent to (using again the property of the left Bousfield localization) to 
+
+$$
+  [f, \Omega Z]_{stable}
+   \;\colon\;
+  [Y,\Omega Z]_{stable}
+    \longrightarrow
+  [X,\Omega Z]_{stable}
+$$
+
+being a bijection for all $\Omega Z$. But this is indeed a bijection, since $f$ is a stable weak homotopy equivalence, hence an isomorphism in the homotopy category.
 
 =--
-
 
 +-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 ###### Lemma
@@ -4288,7 +4332,7 @@ That the adjunct structure maps constitute a morphism $X \to \Omega X[1]$ follow
 
 If $X$ is an [[Omega-spectrum]], then by definition this last morphism is already a weak equivalence in the strict model structure, hence in particular a weak equivalence in the stable model structure.
 
-From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec}
+From this it follows that also the first morphism is a stable equivalence, because for every [[Omega-spectrum]] $Y$ then by the adjunctions in prop. \ref{AdjunctionsBetweenLoopingAndDeloopingForSeqSpec} we have a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -4301,7 +4345,7 @@ $$
   \,.
 $$
 
-(To see the commutativity of this last diagram in detail, consider for any $[f] \in [X,Y]_{strict}$ chasing the element $\sigma_n^Y$ in the two possible ways through the natural adjunction isomorphism:
+(To see the commutativity of this diagram in detail, consider for any $[f] \in [X,Y]_{strict}$ chasing the element $\sigma_n^Y$ in the two possible ways through the natural adjunction isomorphism:
 
 $$
   \array{
@@ -4320,12 +4364,72 @@ $$
 
 Sending $\sigma_n^Y$ down gives $\sigma_n^Y \circ S^1 \wedge f_{n-1}$ which equals (by the homomorphism property) $f_n \circ \sigma_n^X$. Instead sending $\sigma_n^Y$ to the right yields $\tilde \sigma_n^Y$ and then down yields $\tilde \sigma_n^Y \circ f_{n-1}$. By commutativity this is adjunct to $f_n \circ \sigma_n^X$.)
 
+Hence 
+
+$$
+  [X, Y]_{strict} \overset{}{\longrightarrow} [\Sigma X[-1],Y]_{strict}
+$$
+
+is a bijection for all Omega-spectra $Y$, and so the conclusion that $\Sigma X[-1]\to X$ is a stable weak homotopy equivalence follows as in the proof of lemma \ref{FakeLoopingPreservesOmegaSpectra}.
+
 =--
 
-$\,$
++-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
+###### Lemma
+
+The total [[derived functor]] of the alternative suspension operation $\Sigma$ of def. \ref{SequentialSpectrumFakeSuspension} exists and constitutes an [[equivalence of categories]] from the [[stable homotopy category]] to itself:
+
+$$
+  \Sigma
+  \;\colon\;
+  Ho(SeqSpec(Top)_{stable})
+   \overset{\simeq}{\longrightarrow}
+  Ho(SeqSpec(Top)_{stable})
+  \,.
+$$
 
 
-Observe that the definition of the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] in def. \ref{SequentialSpectra} does not require anything specific of the circle $S^1$: the same kind of definition may be considered for any other pointed topological space $T$ in place of $S^1$. Now the construction of the stable model structure $SeqSpec(Top_{cg})_{stable}$ in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} does depend on the nature of $S^1$ in that it uses that a) $S^n$ co-represents [[homotopy groups]] in the classical pointed homotopy category $[S^1, -]_{\ast}\simeq \pi_1(-)$ and b) that $S^n = (S^1)^{\wedge^n}$ is [[compact topological space|compact]] (so that it may be passes through colimits of relative cell complex inclusions). Both of these still hold with $S^1$ replaced by $S^1 \wedge K_+$, for $K$ any contractible compact topological space. Moreover, since only the [[stable homotopy groups]] matter for the construction of the stable model category, one could replace $S^1$ by any $S^k$: While the smash powers $(S^k)^{\wedge n}$ co-represent only every $k$th homotopy group, this is still sufficient to co-represent the stable homotopy groups.
+=--
+
++-- {: .proof}
+###### Proof
+
+The total derived functor of $\Sigma$ exists because by lemma \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable weak homotopy equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
+There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
+and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
+
+=--
+
++-- {: .num_lemma #StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}
+###### Lemma
+
+The canonical suspension functor on the [[homotopy category of a model category|homotopy category]] of any [[model category]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) in the case of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra) = Ho(SeqSpec(Top_{cg})_{stable})$ is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[CW-approximation]] (prop. \ref{CWApproximationForSequentialSpectra}), every object in the stable homotopy category is represented by a [[CW-spectrum]]. 
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
+
+=--
+
+
+
+
+This means that in order to show that $SeqSpec(Top_{cg})_{stable}$ is indeed a [[stable model category]] according to def. \ref{StableModelCategory}, we are reduced now to showing that in the homotopy category the alternative suspension operation is naturally isomorphic to the "standard suspension" (def. \ref{SequentialSpectrumRealSuspension}). This we turn to now.
+
+According to remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, both should be directly comparable and isomorphic in the homotopy category "in even degrees", but non-comparable in odd degree. Therefore we now first introduce the concept of sequential spectra with components only in even degree and then use an adjunction back to ordinary sequential spectra.
+
+
+Observe that the definition of the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] in def. \ref{SequentialSpectra} does not require anything specific of the circle $S^1$: the same kind of definition may be considered for any other pointed topological space $T$ in place of $S^1$.  The construction of the stable model structure $SeqSpec(Top_{cg})_{stable}$ in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} does depend on the nature of $S^1$ in that it uses that 
+
+1. $S^n$ co-represents [[homotopy groups]] in the classical pointed homotopy category $[S^1, -]_{\ast}\simeq \pi_1(-)$ 
+
+1. that $S^n = (S^1)^{\wedge^n}$ is [[compact topological space|compact]] (so that it may be passes through colimits of relative cell complex inclusions). 
+
+Both of these points still hold with $S^1$ replaced by $S^1 \wedge K_+$, for $K$ any contractible compact topological space. Moreover, since only the [[stable homotopy groups]] matter for the construction of the stable model category, one could replace $S^1$ by any $S^k$: While the smash powers $(S^k)^{\wedge n}$ co-represent only every $k$th homotopy group, this is still sufficient to co-represent the stable homotopy groups.
 
 +-- {: .num_defn #SequentialTSpectra}
 ###### Definition
@@ -4443,7 +4547,7 @@ $$
   L_k R_k X \longrightarrow X
 $$
 
-is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}) hence (by lemma \ref{StableWeakHomotopyEquivalenceInSeqSpecIsStableEquivalence}) a stable weak equivalence.
+is a [[stable weak homotopy equivalence]] (def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}).
 
 =--
 
@@ -4821,46 +4925,6 @@ Here the left diagonal composite is the structure map of $R_2 (\Sigma X)$ in deg
 
 
 
-+-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
-###### Lemma
-
-The total [[derived functor]] of the alternative suspension operation $\Sigma$ of def. \ref{SequentialSpectrumFakeSuspension} exists and constitutes an [[equivalence of categories]] from the [[stable homotopy category]] to itself:
-
-$$
-  \Sigma
-  \;\colon\;
-  Ho(SeqSpec(Top)_{stable})
-   \overset{\simeq}{\longrightarrow}
-  Ho(SeqSpec(Top)_{stable})
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The total derived functor of $\Sigma$ exists because by prop. \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
-There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
-and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
-
-=--
-
-+-- {: .num_lemma #StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension}
-###### Lemma
-
-The canonical suspension functor on the [[homotopy category of a model category|homotopy category]] of any [[model category]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) in the case of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) $Ho(Spectra) = Ho(SeqSpec(Top_{cg})_{stable})$ is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By [[CW-approximation]] (prop. \ref{CWApproximationForSequentialSpectra}), every object in the stable homotopy category is represented by a [[CW-spectrum]]. 
-By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, on [[CW-spectra]] the canonical suspension functor on the homotopy category (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is represented by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. 
-
-=--
 
 +-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
 ###### Theorem
