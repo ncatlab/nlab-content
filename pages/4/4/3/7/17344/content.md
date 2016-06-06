@@ -5758,14 +5758,14 @@ $$
 
 Now regarding binary coproducts:
 
-By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \wedge Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
+By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \vee Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
 
 Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in _[Prelude -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory).
 
-We claim now that $P(X \wedge Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
+We claim now that $P(X \vee Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
 
 $$
-  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  Hom_{SeqSpec}(P(X \vee Y), Q Z)/_\sim
   \simeq
   Hom_{SeqSpec}(P X, Q Z)/_\sim \times Hom_{SeqSpec}(P Y, Q Z)/_\sim
 $$
@@ -5775,9 +5775,9 @@ between [[left homotopy]]-classes of morphisms of sequential spectra.
 But since $X \vee Y$ is cofibrant and $Z$ is fibrant, there is a natural isomorphism ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory))
 
 $$
-  Hom_{SeqSpec}(P(X \wedge Y), Q Z)/_\sim
+  Hom_{SeqSpec}(P(X \vee Y), Q Z)/_\sim
   \overset{\simeq}{\longrightarrow}
-  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
+  Hom_{SeqSpec}(X \vee Y, Z)/_\sim  
   \,.
 $$
 
@@ -5790,8 +5790,8 @@ $$
 (due to the fact that the [[smash product]] of compactly generated [[pointed topological spaces]] distributes this way over wedge sum of pointed spaces). This means that also left homotopies out of $X \vee Y$ are in natural bijection with pairs of left homotopies out of the summands separately, and hence that there is a natural isomorphism
 
 $$
-  Hom_{SeqSpec}(X \wedge Y, Z)/_\sim  
-  \overset{\simeq}{\longrightarrow}
+  Hom_{SeqSpec}(X \vee Y, Z)/_\sim  
+    \overset{\simeq}{\longrightarrow}
   Hom_{SeqSpec}(X,Z)/_\sim \times Hom_{SeqSpec}(Y,Z)/_\sim
   \,.
 $$
@@ -6005,7 +6005,7 @@ By a [[formal dual|dual]] argument, the binary coproduct $X_1 \sqcup X_2$ is see
 +-- {: .num_remark #BiproductsInAdditiveCategories}
 ###### Remark
 
-Finite coproducts coinciding with products as in prop. \ref{ProductsAreBiproducts} ar also called _[[biproducts]]_ or _[[direct sums]]_, denoted
+Finite coproducts coinciding with products as in prop. \ref{ProductsAreBiproducts} are also called _[[biproducts]]_ or _[[direct sums]]_, denoted
 
 $$
   X_1 \oplus X_2 \coloneqq X_1 \sqcup X_2 \simeq X_1 \times X_2
