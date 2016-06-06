@@ -9132,7 +9132,7 @@ $$
   \,,
 $$
 
-where the inner morphisms are fibrations and weak equivallences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences in categories of fibrant objects (lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}).
+where the inner morphisms are fibrations and weak equivalences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences in categories of fibrant objects (lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}).
 Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) that also the comparison morphism $A \to \hat C \underset{D}{\times} B$ is a weak equivalence.  
 
 In conclusion, if the homotopy pullback condition is satisfied for one factorization of $g$, then it is satisfied for all factorizations of $f$. Since the argument is symmetric in $f$ and $g$, this proves the claim.
