@@ -3816,7 +3816,7 @@ $$
   \;\colon\;
   X 
     \underoverset{\in W \cap Cof}{j}{\longrightarrow}
-  W
+  \hat X
     \underoverset{\in W \cap Fib = W_Q \cap Fib_Q}{\pi}{\longrightarrow}
   Y \underset{Q(Y)}{\times} Z
   \,.
@@ -3832,10 +3832,29 @@ $$
       &{}^{\mathllap{\exists}}\nearrow& 
     \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
     \\
-    W 
+    \hat X
       &\underoverset{\tilde p \circ \pi}{\in Fib_Q}{\longrightarrow}&
     Y
   }
+  \;\;\;\;\;\;\;\;
+  \leftrightarrow
+  \;\;\;\;\;\;\;\;
+  \array{
+    X 
+      &\overset{j}{\longrightarrow}& 
+    \hat X 
+      &\overset{\exists}{\longrightarrow}&
+    X
+    \\
+    {}^{\mathllap{}f}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\tilde p \circ \pi}}
+      &&
+    \downarrow^{\mathrlap{f}}
+    \\
+    Y &=& Y &=& Y
+  } 
+  \,.
 $$
 
 As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this diagram is seen to exhibit $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure (prop. \ref{BousfieldFriedlanderTheorem}) and by the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
@@ -3931,7 +3950,7 @@ The [[Omega-spectrification]] $(Q,\eta)$ from def. \ref{SpectrificationForTopolo
 +-- {: .proof}
 ###### Proof
 
-Since, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q$ preserves weak equivalences, it is sufficient to show that every pullbacl square in $SeqSpec(Top_{cg})$ of a fibration
+Since, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}, $Q$ preserves weak equivalences, it is sufficient to show that every pullback square in $SeqSpec(Top_{cg})$ of a fibration
 
 $$
   \array{
