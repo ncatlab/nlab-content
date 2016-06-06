@@ -192,6 +192,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[Conner-Floyd Chern classes]]
 
+* [[cap product]]
+
 * [[orientation in generalized cohomology]]
 
 * [[fiber integration in generalized cohomology]]
