@@ -38,6 +38,8 @@ The existence of an $E$-orientation is necessary in order to have a notion of [[
 ### Concretely
  {#TraditionalDefinition}
 
+#### Orientation of a vector bundle
+
 +-- {: .num_defn #EOrientationOfAVectorBundle}
 ###### Definition
 
@@ -71,6 +73,39 @@ for
 =--
 
 (e.g. [Kochmann 96, def. 4.3.4](#Kochmann96))
+
+
+#### Orientation of a manifold
+
++-- {: .num_defn}
+###### Definition
+
+Let $E$  be a [[multiplicative cohomology theory]] and let $X$ be a [[manifold]], possibly [[manifold with boundary|with boundary]], of [[dimension]] $n$. An **$E$-orientation** of $X$ is a class in the $E$-[[generalized homology]]
+
+$$
+  \iota \in E_n(X,\partial X)
+$$
+
+with the property that for each point $x \in Int(X)$ in the [[interior]], it maps to a generator of $E_\bullet(\ast)$ under the map
+
+$$
+  E_\bullet(X,\partial X)
+    \longrightarrow
+  E_\bullet(X,\; X - \{x\})
+    \simeq
+  E_\bullet(D^n, S^{n-1})
+    \simeq
+  E_{\bullet-n}(\ast)
+  \,,
+$$
+
+where the isomorphism is the excision isomorphism ([def.](generalized+homology#excision)) for the complement of a closed [[n-ball]] around $x$.
+
+=--
+
+(e.g.  [Kochmann 96, p. 134](#Kochmann96))
+
+#### Universal orientation of vector bundles
 
 +-- {: .num_remark}
 ###### Remark
