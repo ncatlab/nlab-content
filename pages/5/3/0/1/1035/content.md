@@ -75,11 +75,11 @@ Some authors use **additive category** to simply mean an Ab-enriched category, w
 +-- {: .num_prop #ProductsAreBiproducts}
 ###### Proposition
 
-In an [[Ab-enriched category]], a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.  
+In an [[Ab-enriched category]] (or even just a $CMon$-enriched category), a [[finite product|finite]] [[product]] is also a [[coproduct]], and dually.  
 
 This statement includes the zero-ary case: any [[terminal object]] is also an [[initial object]], hence a [[zero object]] (and dually), hence every additive category has a [[zero object]].  
 
-More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, then the unique morphism 
+More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enriched category, the unique morphism 
 
 $$
   \underset{i \in I}{\coprod} X_i \longrightarrow \underset{j \in I}{\prod} X_j
