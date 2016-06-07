@@ -6214,7 +6214,13 @@ A **[[triangulated category]]** is
 1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
 
    $$
-     A \overset{}{\longrightarrow} B \overset{}{\longrightarrow}  \overset{}{\longrightarrow} \Sigma A
+     A 
+       \overset{}{\longrightarrow} 
+     B 
+       \overset{}{\longrightarrow} 
+     B/A 
+       \overset{}{\longrightarrow} 
+     \Sigma A
      \,,
    $$
 
@@ -6234,11 +6240,18 @@ A **[[triangulated category]]** is
 
 such that the following conditions hold:
 
-* **T0** If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
+* **T0**  For every morphism $f \colon A \to B$, there does exist a distinguished triangle of the form
+
+  $$
+    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
+    \,.
+  $$
+
+  If $(f,g,h)$ is a distinguished triangle and there is a [[commuting diagram]] in $Ho$ of the form
 
   $$
     \array{    
-     A &\overset{}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
+     A &\overset{f}{\longrightarrow}& B &\overset{g}{\longrightarrow}& B/A &\overset{h}{\longrightarrow}& \Sigma A      
      \\
      \downarrow^{\mathrlap{\in Iso}} && \downarrow^{\mathrlap{\in Iso}} 
      && \downarrow^{\mathrlap{\in Iso}}
@@ -6249,15 +6262,8 @@ such that the following conditions hold:
     }
   $$
 
-  then $(f',g',h')$ is also a distinguished triangle;
+  (with all vertical morphisms being [[isomorphisms]]) then $(f',g',h')$ is also a distinguished triangle.
   
-  Moreover, for every morphism $f \colon A \to B$ there is a distinguished triangle of the form
-
-  $$
-    A \overset{f}{\longrightarrow} B \longrightarrow B/A \longrightarrow \Sigma A
-    \,.
-  $$
-
 * **T1** For every object $X \in Ho$ then $(0,id_X,0)$ is a distinguished triangle
 
   $$
@@ -6379,15 +6385,15 @@ By prop. \ref{TheStableHomotopyCategoryIsAdditive} the stable homotopy category 
 
 The axioms T0 and T1 are immediate from the definition of homotopy cofiber sequences. 
 
-The axiom T2 is the very characterization of long homotopy cofiber sequences (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
+The axiom T2 is the very characterization of long [[homotopy cofiber sequences]] (from [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)).
 
 Regarding axiom T3:
 
 By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). This way the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that we may also complete the last vertical morphism, observe that generally these [[connecting homomorphisms]] may be represented functorially: 
 
-By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients are (cylinders, replacement, cofibers). 
+By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients (cylinders, replacement, cofibers) are functorial. 
 
-With this again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
+With this, again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
 
 Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
 
