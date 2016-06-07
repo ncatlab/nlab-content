@@ -8868,7 +8868,14 @@ $$
   \,.
 $$
 
-In the case where $\mathcal{C}^{\ast/} = Top^{\ast/}$ this is the operation of concatenating two loops parameterized by $[0,1]$ to a single loop parameterized by $[0,2]$.
+In the case where $\mathcal{C}^{\ast/} = Top^{\ast/}$ and $\Omega$ is induced, via def. \ref{SuspensionAndLoopSpaceObject}, from the standard path space object (def. \ref{TopologicalPathSpace}), i.e. in the case that
+
+$$
+  \Omega X = fib(Maps(I_+,X)_\ast \longrightarrow X \times X)
+  \,,
+$$
+
+then this is the operation of concatenating two loops parameterized by $I = [0,1]$ to a single loop parameterized by $[0,2]$.
 
 =--
 
