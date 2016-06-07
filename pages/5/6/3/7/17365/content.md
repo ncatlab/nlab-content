@@ -5562,7 +5562,7 @@ Write
 
 $$
   Ho(Spectra)
-  \coloneqq
+    \coloneqq
   Ho(SeqSpec(Top_{cg})_{stable})
 $$
 
@@ -5570,10 +5570,19 @@ for the [[homotopy category of a model category|homotopy category]] ([defn.](Int
 
 This is called the **[[stable homotopy category]]**.
 
+As generically for all [[homotopy category of a model category|homotopy categories]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets)), we write
+
+$$
+  [X,Y] \coloneqq [X,Y]_\ast \coloneqq Hom_{Ho(Spectra)}(X,Y)
+$$
+
+for the [[pointed set|pointed]] [[hom-sets]] in the stable homotopy category (we may omit the subsript basepoint, since $\mathcal{C} = SeqSpec(Top_{cg})_{stable}$ is already pointed, in that $\mathcal{C} \simeq \mathcal{C}^{\ast/}$).
+
+
 =--
 
 
-The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) which happen to coincide in stable homotopy theory.
+The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherits particularly nice properties that are usefully axiomatized for themselves. This axiomatics is called _[[triangulated category]]_ structure (def. \ref{CategoryWithCofiberSequences} below) where the "triangles" are referring to the structure of the long fiber sequences and long cofiber sequences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)), which happen to coincide in stable homotopy theory.
 
 
 ##### Additivity
@@ -5589,7 +5598,11 @@ The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) has [[fi
 +-- {: .proof}
 ###### Proof
 
-Having finite coproducts means having empty coproducts, which are [[initial objects]], and having binary coproducts. 
+Having finite coproducts means 
+
+1. having empty coproducts, hence [[initial objects]], 
+
+1. and having binary coproducts. 
 
 Regarding the initial object:
 
@@ -5601,16 +5614,17 @@ $$
   Hom_{SeqSpec}(\Sigma^\infty \ast, Z)/_\sim
   \simeq
   \ast
-  \,.
 $$
+
+and so $\Sigma^\infty \ast$ also represents the initial object in the stable homotopy category.
 
 Now regarding binary coproducts:
 
 By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \vee Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
 
-Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in _[Prelude -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory).
+Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in the section_[Classical homotopy theory -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory)_.
 
-We claim now that $P(X \vee Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
+We claim now that $P(X \vee Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum (hence an [[Omega-spectrum]] by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) then there is a [[natural isomorphism]]
 
 $$
   Hom_{SeqSpec}(P(X \vee Y), Q Z)/_\sim
@@ -5657,19 +5671,32 @@ The composite of all these isomorphisms proves the claim.
 
 =--
 
++-- {: .num_defn #GroupStructureOnHomsInStableHomotopyCategory}
+###### Definition
+
+Define [[group]] structure on the [[pointed set|pointed]] [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) 
+
+$$
+  [X,Y] \in Grp
+$$
+
+induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ and $\Sigma$ are inverse to each other, so that
+
+$$
+  [X,Y]
+    \simeq
+  [X, \Omega \Sigma Y]
+  \,,
+$$
+
+
+=--
+
+
 +-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
 ###### Lemma
 
-Consider the group structure on [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) which is induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ has an inverse $\Sigma$, so that
-
-$$
-  Hom_{Ho(Spectra)}(X,Y)
-  \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
-  \,.
-$$
-
-This group structure is [[abelian group|abelian]] and [[composition]] is [[bilinear map|bilinear]] with respect to it. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
+The group structure in def. \ref{GroupStructureOnHomsInStableHomotopyCategory} is [[abelian group|abelian]] and [[composition]] in $Ho(Spectra)$ is [[bilinear map|bilinear]] with respect to this group structure. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
 
 =--
 
@@ -5690,32 +5717,58 @@ $$
 $$
 
 
-That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since 
+That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since, by stability 
 
 $$
-  Hom_{Ho(Spectra)}(X,Y)
+  [X,Y]
     \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+  [X, \Omega \Sigma Y]
     \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y)
+  [X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y]
     =
-  Hom_{(Ho(Spectra))}(X, \Omega^2 \Sigma^2 Y)
+  [X, \Omega^2 \Sigma^2 Y]
   \,.
 $$
 
-That composition distributes over composition in this group structure is the naturality of the loop composition map, which is evident from the standard model ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject))
+That composition of morphisms distributes over the operation in this group structure is the [[natural transformation|naturality]] of the loop composition map, which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}):
 
 $$
   \array{
+    X \times X
+      &\overset{\simeq}{\longrightarrow}&
     \Omega \Sigma X \times \Omega \Sigma X
-    &\longrightarrow&
+      &\overset{\simeq}{\longrightarrow}&
+    Q(Maps(S^1,\Sigma X) \times Maps(S^1,\Sigma X))
+      &\longrightarrow&
+    Q(Maps(S^2, \Sigma X))
+      &\simeq&
     \Omega \Sigma X
+      &\simeq&
+    X
     \\
-    {}^{\mathllap{(f,f)}}\downarrow && \downarrow^{\mathrlap{f}}
+    {}^{\mathllap{f \times f}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Omega \Sigma f \times \Omega \Sigma f}}
+      &&
+    \downarrow^{\mathrlap{Q(Maps(S^1, \Sigma f)_\ast \times Maps(S^1,\Omega \Sigma f)_\ast)}}
+      &&
+    \downarrow^{\mathrlap{Q(Maps(S^2,\Sigma X)_\ast)}}
+      &&
+    \downarrow^{\mathrlap{\Omega \Sigma f}}
+      &&
+    \downarrow^{f}
     \\
-    \Omega \Sigma Y \times \Omega \Sigma Y
-    &\longrightarrow&
-    \Omega \Sigma Y
+    X \times X
+      &\overset{\simeq}{\longrightarrow}&
+    \Omega \Sigma X \times \Omega \Sigma X
+      &\overset{\simeq}{\longrightarrow}&
+    Q(Maps(S^1,\Sigma X) \times Maps(S^1,\Sigma X))
+      &\longrightarrow&
+    Q(Maps(S^2, \Sigma X))
+      &\simeq&
+    \Omega \Sigma X
+      &\simeq&
+    X
   }
   \,.
 $$
