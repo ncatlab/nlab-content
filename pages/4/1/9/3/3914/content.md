@@ -676,3 +676,6 @@ which are motivated towards constructing the [[string orientation of tmf]], base
 
 
 [[!redirects orientations in generalized cohomology]]
+
+[[!redirects E-orientation]]
+[[!redirects E-orientations]]
