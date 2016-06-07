@@ -4009,6 +4009,99 @@ Let $\mathcal{C}, \mathcal{D}$ be [[model categories]] and consider $F \colon \m
 
 =--
 
++-- {: .num_example #ComputationOfLeftRightDerivedFunctorsViaResolutions}
+###### Proposition
+
+Let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a functor between two [[model categories]] (def. \ref{ModelCategory}). 
+
+1. If $F$ preserves fibrant objects and weak equivalences between fibrant objects, then the total [[right derived functor]] $\mathbb{R}F \coloneqq \mathbb{R}(\gamma_{\mathcal{D}}\circ F)$ (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) in
+
+   $$
+     \array{
+       \mathcal{C}_f &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}_f}}}\downarrow 
+         &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) 
+         &\underset{\mathbb{R}F}{\longrightarrow}&
+       Ho(\mathcal{D})
+     }
+   $$
+
+   is given, up to isomorphism, on any object $ X\in \mathcal{C} \overset{\gamma_{\mathcal{C}}}{\longrightarrow} Ho(\mathcal{C})$ by appying $F$ to a fibrant replacement $P X$ of $X$ and then forming a cofibrant replacement $Q(F(P X))$ of the result:
+
+
+  $$
+    \mathbb{R}F(X)
+      \simeq
+    Q(F(P X))
+    \,.
+  $$
+
+1. If $F$ preserves cofibrant objects and weak equivalences between cofibrant objects, then the total [[left derived functor]] $\mathbb{L}F \coloneqq \mathbb{L}(\gamma_{\mathcal{D}}\circ F)$ (def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}) in
+
+   $$
+     \array{
+       \mathcal{C}_c &\overset{F}{\longrightarrow}& \mathcal{D}
+       \\
+       {}^{\mathllap{\gamma_{\mathcal{C}_c}}}\downarrow 
+         &\swArrow_{\simeq}& 
+       \downarrow^{\mathrlap{\gamma_{\mathcal{D}}}}
+       \\
+       Ho(\mathcal{C}) 
+         &\underset{\mathbb{L}F}{\longrightarrow}&
+       Ho(\mathcal{D})
+     }
+   $$
+
+   is given, up to isomorphism, on any object $ X\in \mathcal{C} \overset{\gamma_{\mathcal{C}}}{\longrightarrow} Ho(\mathcal{C})$ by appying $F$ to a cofibrant replacement $Q X$ of $X$ and then forming a fibrant replacement $P(F(Q X))$ of the result:
+
+
+  $$
+    \mathbb{L}F(X)
+      \simeq
+    P(F(Q X))
+    \,.
+  $$
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the first case, the second is [[formal duality|formally dual]]. By the proof of theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory} we have
+
+$$
+  \begin{aligned}
+    \mathbb{R}F(X) 
+      & \simeq
+    \gamma_{\mathcal{D}}(F(\gamma_{\mathcal{C}}))
+    \\
+      & \simeq
+     \gamma_{\mathcal{D}}F(Q(P(X)) )
+  \end{aligned}
+  \,.
+$$
+
+But since $F$ is a homotopical functor on fibrant objects, the cofibrant replacement morphism $F(Q(P(X)))\to F(P(X))$ is a weak equivalence in $\mathcal{D}$, hence becomes an isomorphism under $\gamma_{\mathcal{D}}$. Therefore 
+
+$$
+  \mathbb{R}F(X)
+    \simeq
+  \gamma_{\mathcal{D}}(F(P(X)))
+  \,.
+$$
+
+Now since $F$ is assumed to preserve fibrant objects, $F(P(X))$ is fibrant in $\mathcal{D}$, and hence $\gamma_{\mathcal{D}}$ acts on it (only) by cofibrant replacement.
+
+=--
+
+
+
 #### Quillen adjunctions
  {#QuillenAdjunctions}
 
