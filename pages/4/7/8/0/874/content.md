@@ -25,7 +25,7 @@ In the strict sense of the word, a _cartesian product_ is a [[product]] in [[Set
 
 The abstract concept of such [[products]] generalizes from [[Set]] to any other [[category]] (as a special case of a category-theoretic _[[limit]]_), only that in general products of any given [[objects]] may or may not actually exist in that category. 
 
-(If they all exists, then one one speaks of a [[cartesian monoidal category]]. Especially if the category is also a [[monoidal category]] with respect to some other [[tensor product]], then one says "Cartesian product" to distinguish the two. For instance one speaks of the cartesian product on [[Cat]] and on [[2Cat]] in contrast to the [[Gray tensor product]].) 
+(If they all exists, then one speaks of a [[cartesian monoidal category]]. Especially if the category is also a [[monoidal category]] with respect to some other [[tensor product]], then one says "Cartesian product" to distinguish the two. For instance one speaks of the cartesian product on [[Cat]] and on [[2Cat]] in contrast to the [[Gray tensor product]].) 
 
 A product [[created limit|created]] by the [[forgetful functor]] of a [[concrete category]], especially in [[algebra]], is often called a [[direct product]] (for instance a [[direct product of groups]]).
 
