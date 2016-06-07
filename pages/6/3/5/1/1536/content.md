@@ -285,8 +285,8 @@ Cartesian lifts are not required to be unique, but are automatically unique up t
 #### Statement of the equivalence
 
 
-+-- {: .un_defn}
-###### Definition
++-- {: .un_proposition}
+###### Proposition
 
 The Grothendieck construction factors through [[Grothendieck fibration]]s over $C$
 
