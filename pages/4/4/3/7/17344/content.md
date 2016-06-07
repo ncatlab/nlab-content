@@ -5729,6 +5729,11 @@ The [[stable homotopy category]] of def. \ref{TheStableHomotopyCategory} inherit
 
 
 ##### Additivity
+ {#Additivity}
+
+The [[stable homotopy category]] $Ho(Spectra)$ is the analog in [[homotopy theory]] of the category [[Ab]] of [[abelian groups]] in [[homological algebra]]. While the stable homotopy category is _not_ an _[[abelian category]]_, as [[Ab]] is, but a homotopy-theoretic version of that to which we turn [below](#TriangulatedStructure), it _is_ an [[additive category]].
+
+$\,$
 
 
 +-- {: .num_lemma #StableHomotopyCategoryHasCoproducts}
@@ -5741,7 +5746,11 @@ The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) has [[fi
 +-- {: .proof}
 ###### Proof
 
-Having finite coproducts means having empty coproducts, which are [[initial objects]], and having binary coproducts. 
+Having finite coproducts means 
+
+1. having empty coproducts, hence [[initial objects]], 
+
+1. and having binary coproducts. 
 
 Regarding the initial object:
 
@@ -5753,16 +5762,17 @@ $$
   Hom_{SeqSpec}(\Sigma^\infty \ast, Z)/_\sim
   \simeq
   \ast
-  \,.
 $$
+
+and so $\Sigma^\infty \ast$ also represents the initial object in the stable homotopy category.
 
 Now regarding binary coproducts:
 
 By prop. \ref{CWApproximationForSequentialSpectra} and prop. \ref{CellSpectraAreCofibrantInModelStructureOnTopologicalSequentialSpectra}, every spectrum has a cofibrant replacement by a [[CW-spectrum]]. By prop. \ref{ClosureOfCWSpectra} the [[wedge sum]] $X \vee Y$ of two CW-spectra is still a CW-spectrum, hence still cofibrant. 
 
-Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in _[Prelude -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory).
+Let $P$ and $Q$ be fibrant and cofibrant replacement functors, respectively, as in the section_[Classical homotopy theory -- The homotopy category](Introduction+to+Stable+homotopy+theory+--+P#TheHomotopyCategory)_.
 
-We claim now that $P(X \vee Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum then there is a [[natural isomorphism]]
+We claim now that $P(X \vee Y) \in Ho(Spectra)$ is the coproduct of $P X$ with $P Y$ in $Ho(Spectra)$. By definition of the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) this is equivalent to claiming that for $Z$ any stable fibrant spectrum (hence an [[Omega-spectrum]] by theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) then there is a [[natural isomorphism]]
 
 $$
   Hom_{SeqSpec}(P(X \vee Y), Q Z)/_\sim
@@ -5809,19 +5819,32 @@ The composite of all these isomorphisms proves the claim.
 
 =--
 
++-- {: .num_defn #GroupStructureOnHomsInStableHomotopyCategory}
+###### Definition
+
+Define [[group]] structure on the [[pointed set|pointed]] [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) 
+
+$$
+  [X,Y] \in Grp
+$$
+
+induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ and $\Sigma$ are inverse to each other, so that
+
+$$
+  [X,Y]
+    \simeq
+  [X, \Omega \Sigma Y]
+  \,,
+$$
+
+
+=--
+
+
 +-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
 ###### Lemma
 
-Consider the group structure on [[hom-sets]] of the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) which is induced from the fact ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) that the [[hom-sets]] of any [[homotopy category of a model category|homotopy category]] into an object in the image of the canonical loop space functor $\Omega$ inherit group structure, together with the fact (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}) that on the [[stable homotopy category]] $\Omega$ has an inverse $\Sigma$, so that
-
-$$
-  Hom_{Ho(Spectra)}(X,Y)
-  \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
-  \,.
-$$
-
-This group structure is [[abelian group|abelian]] and [[composition]] is [[bilinear map|bilinear]] with respect to it. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
+The group structure in def. \ref{GroupStructureOnHomsInStableHomotopyCategory} is [[abelian group|abelian]] and [[composition]] in $Ho(Spectra)$ is [[bilinear map|bilinear]] with respect to this group structure. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
 
 =--
 
@@ -5842,35 +5865,87 @@ $$
 $$
 
 
-That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since 
+That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since, by stability 
 
 $$
-  Hom_{Ho(Spectra)}(X,Y)
+  [X,Y]
     \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \Sigma Y)
+  [X, \Omega \Sigma Y]
     \simeq
-  Hom_{(Ho(Spectra))}(X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y)
+  [X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y]
     =
-  Hom_{(Ho(Spectra))}(X, \Omega^2 \Sigma^2 Y)
+  [X, \Omega^2 \Sigma^2 Y]
   \,.
 $$
 
-That composition distributes over composition in this group structure is the naturality of the loop composition map, which is evident from the standard model ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject))
+That composition of morphisms distributes over the operation in this group structure is the [[natural transformation|naturality]] of the loop composition map, which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
+
+To make this fully explicit, consider the following diagram in $Ho(Spectra)$:
 
 $$
   \array{
+    X \times X
+      &\overset{\simeq}{\longrightarrow}&
     \Omega \Sigma X \times \Omega \Sigma X
-    &\longrightarrow&
+      &\overset{\simeq}{\longrightarrow}&
+    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
+      &\longrightarrow&
+    Q(Maps(S^2, \Sigma X))_\ast
+      &\simeq&
     \Omega \Sigma X
+      &\simeq&
+    X
     \\
-    {}^{\mathllap{(f,f)}}\downarrow && \downarrow^{\mathrlap{f}}
+    {}^{\mathllap{f \times f}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Omega \Sigma f \times \Omega \Sigma f}}
+      &&
+    \downarrow^{\mathrlap{Q(Maps(S^1, \Sigma f)_\ast \times Maps(S^1,\Omega \Sigma f)_\ast)}}
+      &&
+    \downarrow^{\mathrlap{Q(Maps(S^2,\Sigma X)_\ast)}}
+      &&
+    \downarrow^{\mathrlap{\Omega \Sigma f}}
+      &&
+    \downarrow^{f}
     \\
-    \Omega \Sigma Y \times \Omega \Sigma Y
-    &\longrightarrow&
-    \Omega \Sigma Y
+    X \times X
+      &\overset{\simeq}{\longrightarrow}&
+    \Omega \Sigma X \times \Omega \Sigma X
+      &\overset{\simeq}{\longrightarrow}&
+    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
+      &\longrightarrow&
+    Q(Maps(S^2, \Sigma X)_\ast)
+      &\simeq&
+    \Omega \Sigma X
+      &\simeq&
+    X
   }
   \,.
 $$
+
+Here the leftmost square and the rightmost square are the naturality squares of the [[equivalence of categories]] $(\Sigma\dashv \Omega)$ (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}). 
+
+The second square from the left and the second square from the right exhibit the equivalent expression of $\Omega$ as the [[right derived functor]] of (either the standard or the alternative, by lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}) degreewise loop space functor. Here we let $\Sigma X$ denote any fibrant representative, for notational brevity, and use that the derived functor of a right Quillen functor is given on fibrant objects by the original functor followed by cofibrant replacement ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ComputationOfLeftRightDerivedFunctorsViaResolutions)). 
+
+The middle square is the image under $Q$ of the evident naturality square 
+
+$$
+  \array{
+    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
+     &\longrightarrow&
+    Maps(S^2, Y)
+    \\
+    {}^{\mathllap{Maps(S^1,f)_\ast \times Maps(S^1, f)_\ast} }\downarrow 
+     && 
+    \downarrow^{\mathrlap{Maps(S^2,f)_\ast}}
+    \\
+    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
+     &\longrightarrow&
+    Maps(S^2, Y)    
+  }
+$$
+
+for concatenation of loops (for $Y \coloneqq \Sigma X$). This is where we use that we have the standard model for forming loop spaces and concatenation of loops ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)): the diagram commutes because the loops are always poinwise pushed forward along the map $f$.
 
 =--
 
@@ -5948,10 +6023,46 @@ $$
   \,.
 $$
 
-Then using the additivity of morphisms, it follows that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+Observe some basic compatibility of the $Ab$-enrichment with the product: 
+
+First, for $(\alpha_1,\beta_1), (\alpha_2, \beta_2)\colon R \to X_1 \times X_2$ then 
 
 $$
-  \phi \;\colon\; f_1 \circ p_1 + f_2 \circ p_2
+  (\star)
+  \;\;\;\;\;\;
+  (\alpha_1,\beta_1) + (\alpha_2, \beta_2) 
+    = 
+  (\alpha_1+ \alpha_2 , \; \beta_1 + \beta_2)
+$$
+
+(using that the projections $p_1$ and $p_2$ are linear and by the universal property of the porduct).
+
+Second, $(id,0) \circ p_1$ and $(0,id) \circ p_2$ are two projections on $X_1\times X_2$ whose sum is the identity:
+
+$$
+  (\star\star)
+  \;\;\;\;\;\;
+  (id, 0) \circ p_1
+  +
+  (0, id) \circ p_2
+    =
+  id_{X_1 \times X_2} 
+  \,.
+$$
+
+(We may check this, via the [[Yoneda lemma]] on [[generalized elements]]: for $(\alpha, \beta) \colon R \to X_1\times X_2$ any morphism, then $(id,0)\circ p_1 \circ (\alpha,\beta) = (\alpha,0)$ and $(0,id)\circ p_2\circ (\alpha,\beta) = (0,\beta)$, so the statement follows with equation $(\star)$.)
+
+
+Now observe that for $f_i \;\colon\; X_i \to Q$ any two morphisms, the sum 
+
+$$
+  \phi 
+    \;\coloneqq\; 
+  f_1 \circ p_1 + f_2 \circ p_2
+    \;\colon\;
+  X_1 \times X_2
+    \longrightarrow
+  Q
 $$
 
 gives a morphism of [[cocones]]
@@ -5975,7 +6086,7 @@ $$
   \,.
 $$
 
-Moreover, this is in fact unique: suppose $\phi'$ is another morphism filling this diagram, then 
+Moreover, this is unique: suppose $\phi'$ is another morphism filling this diagram, then, by using equation $(\star \star)$, we get
 
 $$
   \begin{aligned}
@@ -6052,41 +6163,97 @@ With respect to this operation, [[composition]] is [[bilinear map|bilinear]].
 +-- {: .proof}
 ###### Proof
 
-The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$.
+The [[associativity]] and commutativity of $+$ follows directly from the corresponding properties of $\oplus$. Bilinearity of composition follows from [[natural transformation|naturality]] of the [[diagonal]] $\Delta_X$ and [[codiagonal]] $\nabla_X$:
+
+$$
+  \array{
+    W 
+      &\overset{\Delta_W}{\longrightarrow}& 
+    W \times W
+      &\overset{\simeq}{\longrightarrow}&
+    W \oplus W
+    \\
+    \downarrow^{\mathrlap{e}}
+      &&
+    \downarrow^{\mathrlap{e \times e}} 
+      && 
+    \downarrow^{\mathrlap{e \oplus e}}
+    \\
+    X 
+      &\overset{\Delta_X}{\to}& 
+    X \times X
+      &\simeq&
+    X \oplus X
+      &\overset{f \oplus g}{\longrightarrow}&
+    Y \oplus Y
+      &\simeq&
+    Y \sqcup Y
+      &\overset{\nabla_X}{\to}&
+    Y
+    \\
+      &&
+      &&
+      &&
+    \downarrow^{\mathrlap{h \oplus h}}
+      &&
+    \downarrow^{\mathrlap{h \sqcup h}}
+      &&
+    \downarrow^{\mathrlap{h}}
+    \\
+      && 
+      &&
+      &&
+    Z \oplus Z
+      &\simeq&
+    Z \sqcup Z
+      &\overset{\nabla_Z}{\to}&
+    Z
+  }
+$$
 
 =--
 
 +-- {: .num_prop #SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment}
 ###### Proposition
 
-Given an [[additive category]] according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
+Given an additive category according to def. \ref{AdditiveCategory}, then the enrichement in [[commutative monoids]] which is induced on it via prop. \ref{ProductsAreBiproducts} and prop. \ref{SemiAdditivityInducesAbelianMonoidEnrichment} from its underlying [[semiadditive category]] structure coincides with the original enrichment.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We may write the formula for the addition of two morphisms induced by semiadditve structure equivalently as
+By the proof of prop. \ref{ProductsAreBiproducts}, the [[codiagonal]] on any object in an additive category is the sum of the two projections:
 
 $$
-  f+g \;\colon\; 
-  X \overset{\Delta_X}{\to} X \times X
-  \overset{(f,g)}{\longrightarrow}
-  Y \times Y
-  \overset{p_1 + p_2}{\longrightarrow}
-  Y
+  \nabla_X \;\colon\; X \oplus X \overset{p_1 + p_2}{\longrightarrow} X
+  \,.
 $$
 
-where the last morphism is identified as the sum of the two projections as in the proof of prop. \ref{ProductsAreBiproducts}. This implies the claim.
+Therefore (checking on [[generalized elements]], as in the proof of prop. \ref{ProductsAreBiproducts}) for all morphisms $f,g \colon X \to Y$ we have [[commuting squares]] of the form
+
+$$
+  \array{
+    X &\overset{f+g}{\longrightarrow}& Y
+    \\
+    {}^{\mathllap{\Delta_X}}\downarrow && \uparrow^{\mathrlap{\nabla_Y =}}_{\mathrlap{p_1 + p_2}}
+    \\
+    X \oplus X 
+      &\underset{f \oplus g}{\longrightarrow}& 
+   Y\oplus Y
+  }
+  \,.
+$$
 
 =--
 
-+-- {: .num_remark #AdditiveCategoryIsProperty}
++-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying beforehand with respect to which abelian group structure on the hom-sets.
+Prop. \ref{SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment} says that being an [[additive category]] is an extra [[property]] on a category, not extra [[structure]]. We may ask whether a given category is additive or not, without specifying with respect to which abelian group structure on the hom-sets.
 
 =--
+
 
 In conclusion we have:
 
@@ -6149,21 +6316,22 @@ represents an [[isomorphism]] in the [[stable homotopy category]].
 +-- {: .proof}
 ###### Proof
 
-We may represent both $X$ and $Y$ by [[CW-spectra]] in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
 
 $$
   i_X \colon X \longrightarrow X \vee Y
 $$
 
-is a stable cofibration, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
 
-Hence its ordinary cofiber, which is $Y$,  is its homotopy cofiber, hence we have a homotopy cofiber sequence
+Hence its ordinary [[cofiber]], which is $Y$,  is its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), and so we have a [[homotopy cofiber sequence]]
 
 $$
   X \longrightarrow X \vee Y \longrightarrow Y
+  \,.
 $$
 
-moreover, under forming [[stable homotopy groups]], the the inclusion map evidently gives an injection, and the projection map gives a surjection. Hence the [[long exact sequence of homotopy groups]] gives a [[short exact sequence]]
+Moreover, under forming [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}), the inclusion map evidently gives an [[injection]], and the projection map gives a [[surjection]]. Hence the [[long exact sequence of homotopy groups]] gives the [[short exact sequence]]
 
 $$
   0 \to
@@ -6183,6 +6351,10 @@ $$
   \pi_k(X \vee Y)  
   \overset{\simeq}{\longrightarrow}
   \pi_k(X)\oplus \pi_k(Y)
+   \simeq
+  \pi_k(X) \times \pi_k(Y)
+   \simeq
+  \pi_k(X\times Y)
 $$
 
 for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
@@ -6192,8 +6364,17 @@ for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable wea
 
 
 ##### Triangulated structure
+ {#TriangulatedStructure}
+
+We have seen [above](#Additivity) that the [[stable homotopy category]] $Ho(Spectra)$ is an [[additive category]]. In the context of [[homological algebra]], when faced with an [[additive category]] one next asks for the existence of [[kernels]] ([[fibers]]) and [[cokernels]] ([[cofibers]]) to yield a [[pre-abelian category]], and then asks that these are suitably compatible, to yield an [[abelian category]]. 
+
+Now here in [[stable homotopy theory]], the concept of kernels and cokernels is replaced by that of [[homotopy fibers]] and [[homotopy cofibers]]. That these certainly exist for homotopy theories presented by [[model categories]] was the topic of the general discussion in the section _[Homotopy theory -- Homotopy fibers](#Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_. Various of the properties they satisfy was the topic of the sections _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_ and _[Homotopy theory -- Homotopy pullbacks.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbacks)_. For the special case of _stable homotopy theory_ we will find a crucial further property relating homotopy fibers to homotopy cofibers. 
+
+The axiomatic formulation of a subset of these properties of stable homotopy fibers and stable homotopy cofibers is called a _[[triangulated category]]_ structure. This is the analog in [[stable homotopy theory]] of [[abelian category]] structure in [[homological algebra]].
 
 **Literature** ([Schwede 12, II.2](#Schwede12))
+
+$\,$
 
 
 +-- {: .num_defn #CategoryWithCofiberSequences}
@@ -6318,7 +6499,7 @@ such that the following conditions hold:
     }
   $$
 
-* **T4** For every pair of composable morphisms $f \colon A \to B$ and $f' \colon B \to D$ then there is a [[commutative diagram]] of the form
+* **T4 ([[octahedral axiom]])** For every pair of composable morphisms $f \colon A \to B$ and $f' \colon B \to D$ then there is a [[commutative diagram]] of the form
   
   $$
     \array{
@@ -6326,7 +6507,7 @@ such that the following conditions hold:
         &\overset{f}{\longrightarrow}& 
       B 
         &\overset{g}{\longrightarrow}& 
-      C 
+      B/A 
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
@@ -6334,24 +6515,25 @@ such that the following conditions hold:
       \\
       A 
         &\underset{f' \circ f}{\longrightarrow}&
-      B
+      D
         &\underset{g''}{\longrightarrow}&
-      E
+      D/A
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
-      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && \downarrow^{\mathrlap{\Sigma f}}
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} 
       \\
       && 
-      F 
-       &\underset{=}{\longrightarrow}& 
-      F
-        &\underset{h'}{\longrightarrow}& 
-      \Sigma B
+      D/B 
+       &\underset{\simeq}{\longrightarrow}& 
+      D/B
       \\
       && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
       \\
-      && \Sigma B &\underset{\Sigma g}{\longrightarrow}& \Sigma C
+        && 
+      \Sigma B 
+        &\underset{\Sigma g}{\longrightarrow}& 
+      \Sigma B/A
     }
   $$
 
@@ -6395,16 +6577,82 @@ By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequenti
 
 With this, again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
 
-Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$ by cofibrations. Then the diagram in question exists and commutes by functoriality of the connecting homomorphisms and by the universal properties of cofibers as above.
+Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra and represent $f$ and $f'$, hence also $f'\circ f$,  by cofibrations. Then forming the functorial [[mapping cones]] as above produces the commuting diagram
+
+  $$
+    \array{
+      A 
+        &\overset{f}{\longrightarrow}& 
+      B 
+        &\overset{g}{\longrightarrow}& 
+      B/A 
+        &\overset{h}{\longrightarrow}&
+      \Sigma A
+      \\
+      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      \\
+      A 
+        &\underset{f' \circ f}{\longrightarrow}&
+      D
+        &\underset{g''}{\longrightarrow}&
+      D/A
+        &\underset{h''}{\longrightarrow}&
+      \Sigma A
+      \\
+      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && 
+      \\
+      && 
+      D/B 
+       &\underset{\simeq}{\longrightarrow}& 
+      D/B
+      \\
+      && {}^{\mathllap{h'}}\downarrow && \downarrow^{\mathrlap{(\Sigma g)\circ h'}}
+      \\
+        && 
+      \Sigma B 
+        &\underset{\Sigma g}{\longrightarrow}& 
+      \Sigma B/A
+    }
+  $$
+
+The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)). 
+
+More in detail: draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point, and use that to assemble the top left three squares above to a pasting of two commuting cubes. Then the bottom and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), namely $A \overset{\simeq}{\to} A$ and $\ast \to \ast$). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square is a pushout, and applying it again gives that the bottom square is a homotopy pushout. That bottom square is 
+
+$$
+  \array{
+    \ast &\longrightarrow& D/B
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& D/B
+  }
+  \,.
+$$
+
+Since here the left edge is a weak equivalence, necessarily, so is the right edge ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+All we used in the proof (of prop. \ref{StableHomotopyCategoryIsTriangulated}) of the [[octahedral axiom]] (T4) is the existence and nature of [[homotopy pushouts]]. In fact one may show that the octahedral axiom is equivalent to the existence of homotopy pushouts, in the sense of axiom B in ([Hubery](#Hubery)).
+
 
 =--
 
 
 
-
 ##### Long fiber-cofiber sequences
 
+In [[homotopy theory]] there are generally long [[homotopy fiber sequences]] to the left and long [[homotopy cofiber sequences]] to the right, as discussed in the section _[Homotopy theory -- Long sequences](Introduction+to+Stable+homotopy+theory+--+P#LongSequences)_. We prove now, in the generality of the axiomatics of [[triangulated categories]] (since the [[stable homotopy category]] is triangulated by prop. \ref{StableHomotopyCategoryIsTriangulated}), that in [[stable homotopy theory]] both these sequences are long in both directions, and in fact coincide.
+
+
 **Literature** ([Schwede 12, II.2](#Schwede12))
+
+$\,$
 
 +-- {: .num_lemma #CompositesInADistinguishedTriangleAreZero}
 ###### Lemma
@@ -6839,7 +7087,7 @@ $$
   \,.
 $$
 
-By prop. \ref{SpectrificationIsFibrantReplacement} a fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
+By theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}, fibrant replacement for $X$ is provided by its [[spectrification]] $Q X$ according to def. \ref{SpectrificationForTopologicalSequentialSpectra}. 
 
 So it follows that $[\mathbb{S},X]_\ast$ is given by left homotopy classes of morphisms 
 
