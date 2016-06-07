@@ -15,8 +15,10 @@
 
 ## Idea
 
+### In ordinary cohomology
+
 The _Serre spectral sequence_ or _Leray-Serre spectral sequence_
-is a [[spectral sequence]] for computation of [[singular homology]] of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
+is a [[spectral sequence]] for computation of [[ordinary cohomology]] ([[ordinary homology]]) of [[topological spaces]] in a [[Serre fibration|Serre]]-[[fiber sequence]] of [[topological spaces]].
 
 Given a [[homotopy fiber sequence]]
 
@@ -24,7 +26,7 @@ $$
   \array{
      F &\longrightarrow& E
      \\
-     && \downarrow
+     && \downarrow^{\mathrlap{p}}
      \\
      && X
   }
@@ -37,7 +39,72 @@ $$
   \,.
 $$
 
+### In generalized cohomology
+
 The generalization of this from [[ordinary cohomology]] to [[generalized (Eilenberg-Steenrod) cohomology]] is the _[[Atiyah-Hirzebruch spectral sequence]]_, see there for details.
+
+### In relative cohomology
+ {#InRelativeCohomology}
+
+There are two kinds of **relative Serre spectral sequences**.
+
+For $F \to E \to X$ as above and $A \hookrightarrow X$ a subspace, the induced restriction of the fibration
+
+$$
+  \array{   
+    F & \simeq & F
+    \\
+    \downarrow && \downarrow
+    \\
+    p^{-1}(A) &\longrightarrow& E
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    A &\hookrightarrow& X
+  }
+$$
+
+induces a spectral sequence in [[relative cohomology]] of the base space of the form
+
+$$
+  E_2^{p,q}
+  =
+  H^p(X,A; H^q(F))
+    \;\Rightarrow\;
+  H^\bullet(E, p^{-1}(A))
+  \,.
+$$
+
+(e.g. [Davis 91, theorem 9.33](#Davis91))
+
+Conversely, for 
+
+$$
+  \array{   
+    F' & \hookrightarrow & F
+    \\
+    \downarrow && \downarrow
+    \\
+    E' &\hookrightarrow& E
+    \\
+    \downarrow && \downarrow^{\mathrlap{p}}
+    \\
+    X &\hookrightarrow& X
+  }
+$$
+
+a sub-fibration over the same base, then this induces a spectral sequence for [[relative cohomology]] of the the total space in terms of ordinary cohomology with coefficients in the relative cohomology of the fibers:
+
+$$
+  E^{p,q}_2 = H^p(X; H^q(F,F'))
+    \;\Rightarrow\;
+  H^\bullet(E,E')
+  \,.
+$$
+
+(e.g. [Kochmann 96, theorem 2.6.3](#Kochmann96), [Davis 91, theorem 9.34](#Davis91))
+
+### In equivariant cohomology
 
 There is also a generalization to [[equivariant cohomology]]: for [cohomology with coefficients in a Mackey functor](Mackey+functor#Cohomology) with[[RO(G)-grading]] for [[representation spheres]] $S^V$, then for $E \to X$ an $F$-fibration of [[topological G-spaces]] and for $A$ any $G$-[[Mackey functor]], the equivariant Serre spectral sequence looks like ([Kronholm 10, theorem 3.1](#Kronholm10)):
 
@@ -47,6 +114,11 @@ $$
 $$
 
 where on the left in the $E_2$-page we have [[ordinary cohomology]] with [[coefficients]] in the genuine equivariant cohomology groups of the fiber.
+
+
+## Details
+
+For details on the plain Serre spectral sequence see at _[[Atiyah-Hirzebruch spectral sequence]]_ and take $E = H R$ to be ordinary cohomology.  
 
 ## Consequences
 
@@ -70,6 +142,7 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.2. of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* {#Davis91} Davis, _Lecture notes in algebraic topology_, 1991
 
 Lecture notes etc. includes
 
