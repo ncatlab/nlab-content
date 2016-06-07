@@ -6,7 +6,7 @@
 
 Derived analytic geometry is the study of derived analogs of analytic spaces in various context, such as [[complex analytic geometry]], [[non-archimedean analytic geometry]] and [[global analytic geometry]].
 
-The main motivation for the introduction of derived analytic spaces is to have a proper functorial setting for deformation theory and the cotangent complex in analytic geometry.
+The main motivation for the introduction of derived analytic spaces is to have a proper functorial setting for deformation theory and the cotangent complex in analytic geometry, to prove an Artin/Lurie representability theorem, that characterizes Artin stacks among higher derived stacks.
 
 One also gets, using these methods, a derived construction of the Chern character and an analytic version of derived de Rham cohomology.
 
@@ -25,6 +25,8 @@ Derived analytic methods may also be useful to study intersection theory and vir
 * [[Jacob Lurie]], _[[Closed Immersions]]_ (DAG IX).
 
 * [[Mauro Porta]], [[Tony Yue Yu]], _Higher analytic stacks and GAGA theorems_, [arXiv:1412.5166](http://arxiv.org/abs/1412.5166).
+
+* [[Mauro Porta]], [[Tony Yue Yu]], _Derived non-archimedean analytic spaces_, [arXiv:1601.00859](http://arxiv.org/abs/1601.00859).
 
 * [[Mauro Porta]], _Derived complex analytic geometry I: GAGA theorems_, [arXiv:1506.09042](http://arxiv.org/abs/1506.09042).
 
