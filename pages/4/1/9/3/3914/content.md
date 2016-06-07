@@ -77,7 +77,7 @@ for
 
 #### Orientation of a manifold
 
-+-- {: .num_defn}
++-- {: .num_defn #EOrientationOfAManifold}
 ###### Definition
 
 Let $E$  be a [[multiplicative cohomology theory]] and let $X$ be a [[manifold]], possibly [[manifold with boundary|with boundary]], of [[dimension]] $n$. An **$E$-orientation** of $X$ is a class in the $E$-[[generalized homology]]
@@ -104,6 +104,15 @@ where the isomorphism is the excision isomorphism ([def.](generalized+homology#e
 =--
 
 (e.g.  [Kochmann 96, p. 134](#Kochmann96))
+
++-- {: .num_prop}
+###### Proposition
+
+$E$-orientations of manifolds (def. \ref{EOrientationOfAManifold}) are equivalent to $E$-orientations of their stable [[normal bundle]] (def. \ref{EOrientationOfAVectorBundle}).
+
+=--
+
+(e.g. [Rudyak 98, chapter V, theorem 2.4](#Rudyak98)) (also [Kochmann 96, prop. 4.3.5](#Kochmann96), but maybe that proof needs an extra argument)
 
 #### Universal orientation of vector bundles
 
@@ -635,6 +644,9 @@ Discussion in terms of [[Thom classes]]:
 * [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#Rudyak98} [[Yuli Rudyak]], _In Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+
 
 * [[Jacob Lurie]], lecture 5 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
