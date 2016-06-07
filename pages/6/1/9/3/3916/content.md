@@ -77,6 +77,8 @@ from $Y$ to the [[smash product]] of the [[Thom space]] (canonically regarded as
 
 =--
 
+(e.g. [Rudyak 98, p. 317](#Rudyak98))
+
 +-- {: .num_example #ForEmbeddingsIntoAnNSphere}
 ###### Example
 
@@ -263,6 +265,8 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 * {#Milnor65} [[John Milnor]], section 7 of _Topology -- From the differentiable viewpoint_, 1965 ([pdf](http://teachingdm.unito.it/paginepersonali/sergio.console/Dispense/Milnor%20Topology%20from%20%23681EA.pdf))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 1.5 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+* {#Rudyak98} [[Yuli Rudyak]], _In Thom spectra, Orientability and Cobordism_, Springer 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and MO_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
