@@ -360,7 +360,13 @@ The analogs of Proposition \ref{EquivalenceOfInternalNotionsOfInjectivity} and P
 
 In the category [[Top]] of all topological spaces, the injective objects are precisely the [[inhabited set|inhabited]] [[indiscrete spaces]]. 
 
-In the category of $T_0$ spaces (see [[separation axiom]]), the injective objects are precisely those given by [[Scott topologies]] on [[continuous lattices]]; as [[locales]] these are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
+In the category of $T_0$ spaces (see [[separation axiom]]), the injective objects are the terminal spaces.
+
+In the above two cases, this refers to injectivity with respect to monomorphisms.
+
+In the category of $T_0$ spaces, the injective objects with respect to homeomorphic embeddings are precisely those given by [[Scott topologies]] on [[continuous lattices]]; as [[locales]] these are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
+
+In the category of all spaces, the injectives with respect to homeomorphic embeddings are the spaces whose $T_0$ reflections are continuous lattices under the Scott topology.
 
 ### In Boolean algebras 
 
