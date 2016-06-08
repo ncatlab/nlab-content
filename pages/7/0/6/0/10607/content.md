@@ -251,7 +251,7 @@ The corresponding unity-transformation is the
 
 $$
   \array{
-    \Im X \longrightarrow X \longrightarrow \& X
+    \& X \longrightarrow X \longrightarrow \Im X
   }
 $$
 
