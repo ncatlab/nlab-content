@@ -1,35 +1,6 @@
-$$
-  \array{
-    S^3 \wedge X_{2n}
-      &\overset{i_0}{\longrightarrow}& 
-   (I_+) \wedge S^3 \wedge X_{2n}
-      &\overset{i_1}{\longleftarrow}& 
-   S^3 \wedge X_{2n}
-     &\underoverset{\simeq}{S^2\wedge \tau_{ X_{2n}, S^1}}{\longleftarrow}&
-   S^2 \wedge X_{2n} \wedge S^1
-   \\
-   & {}_{\mathllap{id}}\searrow 
-     & \downarrow & 
-   \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
-   && & \downarrow 
-   \\
-   && 
-   S^3 \wedge X_{2n} 
-     && 
-     && 
-   \downarrow^{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
-   \\
-   &&
-   &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
-   & 
-   &&
-   \downarrow
-   \\
-    && && 
-   S^1 \wedge X_{2 n}
-    &\underoverset{\tau_{X_{2n}, S^1}}{\simeq}{\longleftarrow}&
-   X_{2n} \wedge S^1
-  }
-  \,.
-$$
 
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| $\oplus$ [[direct sum]]  | $\vee$ [[wedge sum]]  |
+| $\otimes$ [[tensor product of abelian groups|tensor product]] | $\wedge$ [[smash product of spectra|smash product]] |
+  
