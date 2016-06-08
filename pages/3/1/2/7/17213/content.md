@@ -1087,7 +1087,7 @@ $$
   \,.
 $$
 
-For the resulting [[category of modules]] of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
+For the resulting **[[category of modules]]** of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
 
 $$
   A Mod(\mathcal{C})
@@ -1170,7 +1170,143 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 
 =--
 
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a morphism
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of functors with smash product [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+
+=--
+
+
 ### Day convolution
+
+
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
@@ -1281,7 +1417,7 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
+The [[Day convolution]] product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
@@ -1343,7 +1479,7 @@ $$
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
 
-Day convolution $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
+The [[Day convolution]] $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
@@ -1584,32 +1720,35 @@ $$
 
 =--
 
+
 ## Functors with smash product
+ {#FunctorsWithSmashProduct}
 
 
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
 ###### Proposition
 
-Let $(\mathcal{C},\otimes I)$ be a a pointed [[topologically enriched category]] (def. \ref{MonoidalCategory}).
+Let $(\mathcal{C},\otimes I)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
 
-Then ([[commutative monoid in a symmetric monoidal category||commutative]]) [[monoid in a monoidal category|monoids in]] in the Day convolution monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[symmetric monoidal functor|symmetric]]) [[lax monoidal functors]] 
+Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
 
 $$
   (\mathcal{C},\otimes, I) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
+  \,,
 $$
 
-called _functors with smash products_ on $\mathcal{C}$, i.e. there are [[equivalences of categories]] of the form
+called **functors with smash products** on $\mathcal{C}$, i.e. there are [[equivalences of categories]] of the form
 
 $$
   \begin{aligned}
-    Mon([\mathcal{C},Top^{\ast/}_{cg}], \wedge_{Day}, y(S^0))
+    Mon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))
       &\simeq
     MonFunc(\mathcal{C},Top^{\ast/}_{cg})
     \\
-    CMon([\mathcal{C},V], \otimes_{Day}, y(I))
+    CMon([\mathcal{C},V], \otimes_{Day}, y(S^0))
       &\simeq
     SymMonFunc(\mathcal{C},Top^{\ast/}_{cg})
-  \end{array}
+  \end{aligned}
   \,.
 $$
 
@@ -1617,18 +1756,18 @@ Moreover, [[module objects]] over these monoid objects are equivalent to the cor
 
 =--
 
-This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)). It was highlighted again in ([MMSS 00, prop. 22.1](#MMSS00)). 
+This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)). It is highlighted again in ([MMSS 00, prop. 22.1](#MMSS00)). 
 
 +-- {: .proof}
 ###### Proof
 
-By definition, a [[lax monoidal functor]] $F \colon \mathcal{C} \to Top^{\ast/}_{cg}$ is determined by [[natural transformations|natural]] maps of pointed topological spaces
+By definition \ref{LaxMonoidalFunctor}, a [[lax monoidal functor]] $F \colon \mathcal{C} \to Top^{\ast/}_{cg}$ is a topologically enriched functor equipped with a morphism of [[pointed topological spaces]] of the form
 
 $$
   S^0 \longrightarrow F(I_{\mathcal{C}})
 $$
 
-and
+and equipped with a [[natural transformation|natural]] system of maps of pointed topological spaces of the form
 
 $$
   F(c_1) \wedge F(c_2) \longrightarrow F(c_1 \otimes_{\mathcal{C}} c_2)
@@ -1636,46 +1775,38 @@ $$
 
 for all $c_1,c_2 \in \mathcal{C}$.
 
-Under the [[Yoneda lemma]] (prop. \ref{YonedaReductionTopological}) the first of these is identified with a morphism of the form
+Under the [[Yoneda lemma]] (prop. \ref{YonedaReductionTopological}) the first of these is equivalently a morphism in $[\mathcal{C}, Top^{\ast/}_{cg}]$ of the form
 
 $$
   y(S^0) \longrightarrow F
   \,.
 $$
 
-Moreover, under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} the second of these is identified with a morphism of the form
+Moreover, under the [[natural isomorphism]] of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} the second of these is equivalently a morphism in $[\mathcal{C}, Top^{\ast/}_{cg}]$ of the form
 
 $$
   F \otimes_{Day} F \longrightarrow F
   \,.
 $$
 
-Translating the conditions satisfied by a [[lax monoidal functor]] through these identifications gives precisely the conditions on a ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoid in]] on $F$ under $\otimes_{Day}$.
+Translating the conditions of def. \ref{LaxMonoidalFunctor} satisfied by a [[lax monoidal functor]] through these identifications gives precisely the conditions of def. \ref{MonoidsInMonoidalCategory} on a ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoid in]] object $F$ under $\otimes_{Day}$.
 
 Similarly for [[module objects]] and [[modules over monoidal functors]].
 
 =--
 
 
-+-- {: .num_example}
-###### Example
-
-In the case that $V$ is [[pointed topological spaces]] or pointed [[simplicial sets]] equipped with the [[smash product]] of [[pointed objects]] and that $\mathcal{C}$ is a diagram category for [[spectra]], then monoids in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as [[ring spectra]] and the [[lax monoidal functors]] in prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} are known as the incarnation of ring spectra as "[[functors with smash product]]".
-
-=--
-
-([MMSS 00, section 22](#MMSS00)).
 
 +-- {: .num_defn #FreeModulesOverAMonoidInDayConvolution}
 ###### Definition
 
-For $(\mathcal{C},\otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], and for $R \in Mon([\mathcal{C}, V],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $R$, write
+For $(\mathcal{C},\otimes_{\matchcal{C}}, 1_{\mathcal{}})$ a [[small category|small]] (pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(S^0))$ a [[monoid object]] (def. \ref{MonoidsInMonoidalCategory}) with respect to [[Day convolution]] over $\mathcal{C}$ (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}), write
 
 $$
   R FreeMod \hookrightarrow R Mod
 $$
 
-for the [[full subcategory]] of the [[category of modules]] over $R$ on those that are [[free modules]]. Hence the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
+for the [[full subcategory]] of the [[category of modules]] over $R$ (def. \ref{ModulesInMonoidalCategory}) on those that are [[free modules]]: the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
 
 $$
   \begin{aligned}
@@ -1684,24 +1815,27 @@ $$
     R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
     \\
       & \simeq
-    [\mathcal{C},V](y(c_1), y(c_2) \otimes_{Day} R)
+    [\mathcal{C},Top^{\ast/}_{cg}](y(c_1), y(c_2) \otimes_{Day} R)
     \\
       & \simeq
     (y(c_2) \otimes_{Day} R)(c_1)
     \\
       & \simeq
      \overset{c_3,c_4}{\int}
-       \mathcal{C}(c_3 \otimes c_4,c_1)
+       \mathcal{C}(c_3 \otimes_{\mathcal{C}} c_4,c_1)
          \otimes_V
-       \mathcal{C}(c_2, c_3) \otimes_V R(c_4)
+       \mathcal{C}(c_2, c_3) \wedge R(c_4)
      \\
      & \simeq 
      \overset{c_4}{\int}
        \mathcal{C}(c_2 \otimes c_4,c_1)
-       \otimes_V R(c_4)
+         \wedge 
+       R(c_4)
   \end{aligned} 
-  \,.
+  \,,
 $$
+
+where after the definition in the first line we used first the free property, then the topologically [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then definition \ref{TopologicalDayConvolutionProduct} of Day convolution via [[coends]], and finally the [[co-Yoneda lemma]], prop. \ref{TopologicalCoYonedaLemma}.
 
 =--
 
@@ -1737,7 +1871,7 @@ $$
   \,.
 $$
 
-Hence we may unify these two kinds of transformarmations in a single kind of the form
+Hence we may unify these two kinds of transformations into a single kind of the form
 
 $$
   N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4) 
