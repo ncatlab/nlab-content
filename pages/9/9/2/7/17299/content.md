@@ -23,7 +23,7 @@ To the extent that a [[monoidal functor]] is analogous to a [[monoid]], a _modul
 
 Let 
 
-1. $\mathcal{C},\mathcal{D}$ be [[monoidal categories]], hence equipped with a product functors $\otimes_{\mathcal{C}}\colon \mathcal{C} \otimes \mathcal{C}\to \mathcal{C}$ and $\otimes_{\mathcal{D}}\colon \mathcal{D} \otimes \mathcal{D}\to \mathcal{D}$;
+1. $\mathcal{C},\mathcal{D}$ be [[monoidal categories]], hence equipped with a product functors $\otimes_{\mathcal{C}}\colon \mathcal{C} \times \mathcal{C}\to \mathcal{C}$ and $\otimes_{\mathcal{D}}\colon \mathcal{D} \times \mathcal{D}\to \mathcal{D}$;
 
 1. $\mathcal{N}$ be a left [[module category]] over $\mathcal{C}$, hence equipped with a compatible [[action]] functor $\rho \colon \mathcal{C}\times\mathcal{N} \to \mathcal{N}$;
 
