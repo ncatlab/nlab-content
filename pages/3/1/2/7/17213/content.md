@@ -749,10 +749,12 @@ $$
 
 ### Monoidal topological categories
 
+We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. All examples are at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below.
+
 +-- {: .num_defn #MonoidalCategory} 
 ###### Definition
 
-A **(pointed) topologically enriched [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
+A **(pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
 
 1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
 
@@ -836,7 +838,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 +-- {: .num_defn #BraidedMonoidalCategory} 
 ###### Definition
 
-A **(pointed) topological [[braided monoidal category]]**, is a (pointed) topological [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
+A **(pointed) [[topologically enriched category|topological]] [[braided monoidal category]]**, is a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
 
 $$ 
   \tau_{x,y} \colon x \otimes y \to y \otimes x 
@@ -849,17 +851,17 @@ $$
    (x \otimes y) \otimes z 
    &\stackrel{a_{x,y,z}}{\to}&
    x \otimes (y \otimes z)
-   &\stackrel{B_{x,y \otimes z}}{\to}&
+   &\stackrel{\tau_{x,y \otimes z}}{\to}&
    (y \otimes z) \otimes x
    \\
-   \downarrow^{B_{x,y}\otimes Id}
+   \downarrow^{\tau_{x,y}\otimes Id}
    &&&&
    \downarrow^{a_{y,z,x}}
    \\
    (y \otimes x) \otimes z
    &\stackrel{a_{y,x,z}}{\to}&
    y \otimes (x \otimes z)
-   &\stackrel{Id \otimes B_{x,z}}{\to}&
+   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
    y \otimes (z \otimes x)
   }
 $$
@@ -871,17 +873,17 @@ $$
    x \otimes (y \otimes z) 
    &\stackrel{a^{-1}_{x,y,z}}{\to}&
    (x \otimes y) \otimes z
-   &\stackrel{B_{x \otimes y, z}}{\to}&
+   &\stackrel{\tau_{x \otimes y, z}}{\to}&
    z \otimes (x \otimes y)
    \\
-   \downarrow^{Id \otimes B_{y,z}}
+   \downarrow^{Id \otimes \tau_{y,z}}
    &&&&
    \downarrow^{a^{-1}_{z,x,y}}
    \\
    x \otimes (z \otimes y)
    &\stackrel{a^{-1}_{x,z,y}}{\to}&
    (x \otimes z) \otimes y
-   &\stackrel{B_{x,z} \otimes Id}{\to}&
+   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
    (z \otimes x) \otimes y
   }
   \,,
@@ -894,16 +896,16 @@ where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ den
 +-- {: .num_defn #SymmetricMonoidalCategory} 
 ###### Definition
 
-A **(pointed) topological [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
+A **(pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
 
 $$ 
-   B_{x,y} \colon x \otimes y \to y \otimes x 
+   \tau_{x,y} \colon x \otimes y \to y \otimes x 
 $$
 
 satisfies the condition:
 
 $$ 
-  B_{y,x} \circ B_{x,y} = 1_{x \otimes y}  
+  \tau_{y,x} \circ \tau_{x,y} = 1_{x \otimes y}  
 $$
 
 for all objects $x, y$
@@ -913,21 +915,171 @@ for all objects $x, y$
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
 
-Given a pointed topological [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
 
 $$
   \mathcal{C}
     \underoverset
-      {\underset{[-,X]}{\longrightarrow}}
+      {\underset{[X,-]}{\longrightarrow}}
       {\overset{X\otimes(-)}{\longleftarrow}}
       {\bot}
   \mathcal{C}
   \,.
 $$
 
-The object $[Y,X] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $Y$ and $X$.
+For any other object $Y$, the object $[X,Y] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $X$ and $Y$. 
 
 =--
+
++-- {: .num_defn #MonoidsInMonoidalCategory}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, then a **[[monoid in a monoidal category|monoid internal to]]** $(\mathcal{C}, \otimes, 1)$ is
+
+1. an [[object]] $A \in \mathcal{C}$;
+
+1. a morphism $e \;\colon\; 1 \longrightarrow A$ (called the _[[unit]]_)
+
+1. a morphism $\mu \;\colon\; A \otimes A \longrightarrow A$ (called the _product_); 
+
+such that
+
+1. ([[associativity]]) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes A 
+         &\underoverset{\simeq}{a_{A,A,A}}{\longrightarrow}&
+       A \otimes (A \otimes A)
+         &\overset{A \otimes \mu}{\longrightarrow}&
+       A \otimes A
+       \\
+       {}^{\mathllap{\mu \otimes A}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\mu}}
+       \\
+       A \otimes A
+         &\longrightarrow&
+         &\overset{\mu}{\longrightarrow}&
+       A
+     }
+     \,,
+   $$
+
+   where $a$ is the associator isomorphism of $\mathcal{C}$;
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes A 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes A
+         &\overset{id \otimes e}{\longleftarrow}& 
+       A \otimes 1
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\mu}} &
+       & \swarrow_{\mathrlap{r}}
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
+
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $B$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+
+* (commutativity) the following [[commuting diagram|diagram commutes]]
+
+  $$
+    \array{
+      A \otimes A 
+        && \underoverset{\simeq}{\tau_{A,A}}{\longrightarrow} &&
+      A \otimes A
+      \\
+      & {}_{\mathllap{\mu}}\searrow && \swarrow_{\mathrlap{\mu}}
+      \\
+      && A
+    }
+    \,.
+  $$
+
+=--
+
++-- {: .num_defn #MonoidsInMonoidalCategory}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
+
+1. an [[object]] $N \in \mathcal{C}$;
+
+1. a [[morphism]] $\rho \;\colon\; A \otimes N \longrightarrow N$ (called the _[[action]]_);
+
+such that 
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes N 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes N
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\rho}} 
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ is the left unitor isomorphism of $\mathcal{C}$.
+
+
+1. (action property) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes N
+         &\underoverset{\simeq}{a_{A,A,N}}{\longrightarrow}&
+       A \otimes (A \otimes N)
+         &\overset{A \otimes \rho}{\longrightarrow}&
+       A \otimes N
+       \\
+       {}^{\mathllap{\mu \otimes N}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\rho}}
+       \\
+       A \otimes N
+         &\longrightarrow&
+         &\overset{\rho}{\longrightarrow}&
+       N
+     }
+     \,,
+   $$
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
+
+$$
+  N_1 \otimes A \otimes N_2
+  \underoverset
+    {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
+    {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
+    {\phantom{AAAA}}
+  N_1 \otimes N_1
+    \overset{coequ}{\longrightarrow}
+  N_1 \otimes_A N_2
+$$
+
+=--
+
 
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
 ###### Example
@@ -937,6 +1089,17 @@ The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enr
 Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
  
 Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
+
+=--
+
++-- {: .num_example #CanonicalR2PhaseSpace}
+###### Example
+
+The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]].
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]].
+
+A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ is equivalently a [[ring]]. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mmathbb{Z}}, \mathbb{Z})$ is equivalently a [[commutative ring]].
 
 =--
 
