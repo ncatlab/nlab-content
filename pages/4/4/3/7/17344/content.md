@@ -154,7 +154,7 @@ $$
   \,,
 $$
 
-This we establish in corollary \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory} below.
+This we establish in theorem \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory} below.
 
 The notation $\Sigma^\infty$ and $\Omega^\infty$ is meant to be suggestive of the intuition behind how this stabilization will work: The universal way of making a topological space $X$ become stable under suspension is to pass to its infinite suspension in a suitable sense. That suitable sense is going to be called the _[[suspension spectrum]]_ of $X$ (def. \ref{SuspensionSpectrum} below). Conversely, if an object does not change up to equivalence, by forming its loop spaces, it must give an [[infinite loop space]].
 
@@ -5198,8 +5198,8 @@ Finally lemma \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories} gives t
 
 In summary, this concludes the characterization of the [[stable homotopy category]] as the result of stabilizing the canonical $(\Sigma \dashv \Omega)$-adjunction on the [[classical homotopy category]]:
 
-+-- {: .num_cor #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
-###### Corollary
++-- {: .num_theorem #StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}
+###### Theorem
 
 The [[classical model structure on pointed topological spaces|classical model structure]] $(Top^{\ast/}_{cg})_{Quillen}$ on [[pointed topological space|pointed]] [[compactly generated topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) and the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ (theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) sit in a [[commuting diagram]] of [[Quillen adjunctions]] of the form
 
@@ -5274,8 +5274,6 @@ $$
 where the horizontal adjunctions are the canonically induced (via [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory))suspension/looping functors by prop. \ref{SuspensionAndLoopAdjunctionInClassicalHomotopyTheory} and by lemma \ref{StandardSuspensionOfSequentialSpectraRepresentsCanonicalSuspension} and theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}.
 
 =--
-
-
 
 
 
@@ -7249,11 +7247,94 @@ Via lemmma \ref{StableHomotopyGrouspAsHomsOutOfSphereSpectrum} this is a special
 ### **1.2)** Structured spectra
  {#DiagramSpectra}
 
-Given that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]], we want to consider [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" ([below](#HigherAlgebra)) accordingly is the theory of [[ring spectra]] and [[module spectra]].
+The key result of section 1.1 was (theorem \ref{StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory}),the construction of a [[stable homotopy theory]] of [[spectra]], embodied by a stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ with its corresponding [[stable homotopy category]] $Ho(Spectra)$, which stabilizes the canonical looping/suspension adjunction on [[pointed topological spaces]] in that it fits into a diagram of (Quillen-)adjunctions of the form
+
+$$
+  \array{
+     (Top_{cg}^{\ast/})_{Quillen}
+      &
+      \underoverset{\underoverset{\Omega}{\bot}{\longrightarrow}}{\overset{\Sigma}{\longleftarrow}}{} 
+      &
+     (Top^{\ast/}_{cg})_{Quillen}
+     \\
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     &&
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+     \\
+     SeqSpec(Top_{cg})_{stable}
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\simeq_{\mathrlap{Q}}}
+     &
+     SeqSpec(Top_{cg})_{stable}
+  }
+  \;\;\;\;\;\;\;\;\;\;\;
+    \overset{\gamma}{\longrightarrow}
+  \;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    Ho(Top^{\ast/})
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\bot}
+    &
+    Ho(Top^{\ast/})
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+    \\
+    Ho(Spectra)
+    &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\simeq}
+    &
+    Ho(Spectra)
+  } 
+  \,.
+$$
+
+But fitting into such a diagram does not yet uniquely characterize the stable homotopy category. For instance the trivial category on a single object would also form such a diagram. On the other hand, there is more canonical structure on the category of pointed topological spaces which is not yet reflected here. 
+
+Namely the [[smash product]] 
+
+$$
+  \wedge \;\colon\; Ho(Top^{\ast/}) \longrightarrow Ho(Top^{\ast/})
+$$
+
+of pointed topological spaces gives it the structure of a [[monoidal category]] (def. \ref{MonoidalCategory}) below, and so it is natural to ask that the above stabilization diagram reflects and respects that extra structure. This means that there should be a [[smash product of spectra]]
+
+$$
+  \wedge \;\colon\; Ho(Spectra) \longrightarrow Ho(Spectra)
+$$
+
+such that $(\Sigma^\infty \dashv \Omega^\infty)$ is compatible, in that
+
+$$
+  \Sigma^\infty (X\wedge Y) \simeq (\Sigma^\infty X) \wedge (\Sigma^\infty Y)
+  \,.
+$$
+
+We had already seen [above](#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a  [[direct sum]] operation $\oplus$ on spectra. We discuss now that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
+
+
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| $\oplus$ [[direct sum]]  | $\vee$ [[wedge sum]]  |
+| $\otimes$ [[tensor product of abelian groups|tensor product]] | $\wedge$ [[smash product of spectra|smash product]] |
+   
+This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. 
+
+With the analog of the tensor product in hand, we may consider doing [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" ([below](#HigherAlgebra)) accordingly is the theory of _[[ring spectra]]_ and _[[module spectra]]_.
 
 [[!include homological and higher algebra -- table]]
 
-Hence where a [[ring]] is equivalently a [[monoid]] with respect to the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]]/[[pointed object|pointed]] [[simplicial sets]].
+Where a [[ring]] is equivalently a [[monoid]] with respect to the [[tensor product of abelian groups]], we are after a corresponding [[tensor product]] of [[spectra]]. This is to be the [[smash product of spectra]], induced by the [[smash product]] on [[pointed topological spaces]]/[[pointed object|pointed]] [[simplicial sets]].
 
 
 There is a key point to be dealt with here: the [[smash product of spectra]] has to exhibit a certain _graded commutativity_. Informally, there are two ways to see this:
@@ -7349,7 +7430,7 @@ This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
 =--
 
 
-This phenomenon suggests that if we "[[categorify]]" the [[natural numbers]] to the [[n-spheres]] and think of the $n$th component space of a [[sequential spectrum]] as being the value assigned to the [[n-sphere]]
+This phenomenon suggests that as we "[[categorify]]" the [[natural numbers]] to the [[n-spheres]], hence to the [[sphere spectrum]], and as we think of the $n$th component space of a [[sequential spectrum]] as being the value assigned to the [[n-sphere]]
 
 $$
   E_n \simeq E(S^n)
