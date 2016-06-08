@@ -1541,7 +1541,7 @@ $$
 
 is a [[homotopy fiber sequence]]. 
 
-To break this down into invariants, apply the [[stable homotopy groups]]-[[functor]]. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
+To break this down into invariants, apply the [[stable homotopy groups]]-[[functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#StableHomotopyGroups)). This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
 
 $$
   \array{
@@ -1562,7 +1562,7 @@ $$
   \,.
 $$
 
-Each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([expl.](Introduction+to+Stable+homotopy+theory+--+P#LongExactSequeceOfHomotopyGroups)) via [[connecting homomorphisms]] $\delta_\bullet^k$
+Each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) via [[connecting homomorphisms]] $\delta_\bullet^k$
 
 $$
   \cdots
