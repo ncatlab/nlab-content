@@ -1,107 +1,35 @@
-+-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
-###### Lemma
-
-The group structure in def. \ref{GroupStructureOnHomsInStableHomotopyCategory} is [[abelian group|abelian]] and [[composition]] in $Ho(Spectra)$ is [[bilinear map|bilinear]] with respect to this group structure. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Recall ([prop](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory), [rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) that the group structure is given by concatenation of loops 
-
-$$
-  X 
-    \overset{\Delta_X}{\to}
-  X \times X
-    \overset{(f,g)}{\longrightarrow}
-  \Omega \Sigma X \times \Omega \Sigma X
-  \overset{}{\longrightarrow}
-  \Omega \Sigma X
-  \,.
-$$
-
-
-That the group structure is abelian follows via the [[Eckmann-Hilton argument]] from the fact that there is always a compatible second (and indeed arbitrarily many compatible) further group structures, since, by stability 
-
-$$
-  [X,Y]
-    \simeq
-  [X, \Omega \Sigma Y]
-    \simeq
-  [X, \Omega \circ (\Omega \Sigma) \circ \Sigma Y]
-    =
-  [X, \Omega^2 \Sigma^2 Y]
-  \,.
-$$
-
-That composition of morphisms distributes over the operation in this group structure is the [[natural transformation|naturality]] of the loop composition map, which is manifest when representing loop spectra via the standard topological loop space object $\Omega X = fib( Maps(I_+,X)\to X \times X )$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)) under smash powering (def. \ref{TensoringAndPoweringOfSequentialSpectra}).
-
-To make this fully explicit, consider the following diagram in $Ho(Spectra)$:
-
 $$
   \array{
-    X \times X
-      &\overset{\simeq}{\longrightarrow}&
-    \Omega \Sigma X \times \Omega \Sigma X
-      &\overset{\simeq}{\longrightarrow}&
-    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
-      &\longrightarrow&
-    Q(Maps(S^2, \Sigma X))_\ast
-      &\simeq&
-    \Omega \Sigma X
-      &\simeq&
-    X
-    \\
-    {}^{\mathllap{f \times f}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\Omega \Sigma f \times \Omega \Sigma f}}
-      &&
-    \downarrow^{\mathrlap{Q(Maps(S^1, \Sigma f)_\ast \times Maps(S^1,\Omega \Sigma f)_\ast)}}
-      &&
-    \downarrow^{\mathrlap{Q(Maps(S^2,\Sigma X)_\ast)}}
-      &&
-    \downarrow^{\mathrlap{\Omega \Sigma f}}
-      &&
-    \downarrow^{f}
-    \\
-    X \times X
-      &\overset{\simeq}{\longrightarrow}&
-    \Omega \Sigma X \times \Omega \Sigma X
-      &\overset{\simeq}{\longrightarrow}&
-    Q(Maps(S^1,\Sigma X)_\ast \times Maps(S^1,\Sigma X)_\ast)
-      &\longrightarrow&
-    Q(Maps(S^2, \Sigma X)_\ast)
-      &\simeq&
-    \Omega \Sigma X
-      &\simeq&
-    X
-  }
-  \,.
-$$
-
-Here the leftmost square and the rightmost square are the naturality squares of the [[equivalence of categories]] $(\Sigma\dashv \Omega)$ (theorem \ref{StableModelStructureOnSequentiaSpectraIsStableModelCategory}). 
-
-The second square from the left and the second square from the right exhibit the equivalent expression $\Omega$ as the [[right derived functor]] of (either the standard or the alternative) degreewise loop space functor. Here we let $\Sigma X$ denote any fibrant representative, for notational brevity, and use that the derived functor of a right Quillen functor is given on fibrant objects by the original functor followed by cofibrant replacement ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ComputationOfLeftRightDerivedFunctorsViaResolutions)). 
-
-The middle square is the image under $Q$ of the evident naturality square 
-
-$$
-  \array{
-    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
-     &\longrightarrow&
-    Maps(S^2, Y)
-    \\
-    {}^{\mathllap{Maps(S^1,f)_\ast \times Maps(S^1, f)_\ast} }\downarrow 
+    S^3 \wedge X_{2n}
+      &\overset{i_0}{\longrightarrow}& 
+   (I_+) \wedge S^3 \wedge X_{2n}
+      &\overset{i_1}{\longleftarrow}& 
+   S^3 \wedge X_{2n}
+     &\underoverset{\simeq}{S^2\wedge \tau_{ X_{2n}, S^1}}{\longleftarrow}&
+   S^2 \wedge X_{2n} \wedge S^1
+   \\
+   & {}_{\mathllap{id}}\searrow 
+     & \downarrow & 
+   \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
+   && & \downarrow 
+   \\
+   && 
+   S^3 \wedge X_{2n} 
      && 
-    \downarrow^{\mathrlap{Maps(S^2,f)_\ast}}
-    \\
-    Maps(S^1,Y)_\ast \times Maps(S^1,Y)
-     &\longrightarrow&
-    Maps(S^2, Y)    
+     && 
+   \downarrow^{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
+   \\
+   &&
+   &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
+   & 
+   &&
+   \downarrow
+   \\
+    && && 
+   S^1 \wedge X_{2 n}
+    &\underoverset{\tau_{X_{2n}, S^1}}{\simeq}{\longleftarrow}&
+   X_{2n} \wedge S^1
   }
+  \,.
 $$
 
-for concatenation of loops (for $Y \coloneqq \Sigma X$). This is where we use that we have the standard model for forming loop spaces and concatenation of loops ([rmk.](Introduction+to+Stable+homotopy+theory+--+P#ConcatenatedLoopSpaceObject)): the diagram commutes because the loops are always poinwise pushed forward along the map $f$.
-
-=--
