@@ -22,12 +22,36 @@ Classical commutative monoids are of course just commutative monoids in [[Set]] 
 
 ## Definition
 
-A **commutative monoid** in a [[symmetric monoidal category]] $(C,\otimes,I)$ with braiding $B$ is a [monoid](http://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) $M$ with multiplication $\mu$ and unit $\eta$ such that the following diagram commutes:
+A **commutative monoid** in a [[symmetric monoidal category]] $(C,\otimes,I)$ with [[braiding]] $B$ is a [monoid](http://ncatlab.org/nlab/show/monoid+in+a+monoidal+category) $M$ with multiplication $\mu$ and unit $\eta$ such that the following diagram commutes:
 $$ \array{
 M \otimes M & \overset{B_{M,M}}{\longrightarrow} & M \otimes M \\
 {}_{\mu} \searrow & & \swarrow_{\mu} \\
 & M & 
 } $$
+
+## Examples
+
++-- {: .num_example}
+###### Example
+
+Write $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ for the category [[Ab]] of [[abelian groups]], equipped with the [[tensor product of abelian groups]] whose [[tensor unit]] is the additive group of [[integers]]. With the evident [[braiding]] this is a [[symmetric monoidal category]]. 
+
+A commutative monoid in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ is equivalently a [[commutative ring]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Write $(SymSpec(Top_{cg}),\wedge, \mathbb{S}_{sym})$ and $(OrthSpec(Top_{cg}),\wedge, \mathbb{S}_{orth})$ and $([Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}], \wedge, \mathbb{S} )$ for the categories, respectively of [[symmetric spectra]], [[orthogonal spectra]] and [[pre-excisive functors]], equipped with their [[symmetric monoidal smash product of spectra]], whose [[tensor unit]] is the corresponding standard incarnation of the [[sphere spectrum]]. 
+
+A commutative monoid in any one of these three categories is equivalently a [[commutative ring spectrum]] in the strong sense: via the respective [[model structure on spectra]] it represents an [[E-infinity ring]].
+
+=--
+
+
+
+
 
 ## Related concepts
 
