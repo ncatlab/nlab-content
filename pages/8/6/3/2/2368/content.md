@@ -920,7 +920,7 @@ Given a pointed topological [[symmetric monoidal category]] $\mathcal{C}$ with [
 $$
   \mathcal{C}
     \underoverset
-      {\underset{[-,X]}{\longrightarrow}}
+      {\underset{[X,-]}{\longrightarrow}}
       {\overset{X\otimes(-)}{\longleftarrow}}
       {\bot}
   \mathcal{C}
