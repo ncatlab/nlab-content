@@ -1172,7 +1172,7 @@ such that
 
    where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
 
-Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $B$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
 
 * (commutativity) the following [[commuting diagram|diagram commutes]]
 
@@ -1188,6 +1188,42 @@ Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric mon
     }
     \,.
   $$
+
+A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
+
+$$
+  f \;\colon\; A_1 \longrightarrow A_2
+$$ 
+
+in $\mathcal{C}$, such that the following two [[commuting diagram|diagrams commute]]
+
+$$
+  \array{
+    A_1 \otimes A_1 
+      &\overset{f \otimes f}{\longrightarrow}&
+    A_2 \otimes A_2
+    \\
+    {}^{\mathllap{\mu_1}}\downarrow && \downarrow^{\mathrlap{\mu_2}}
+    \\
+    A_1 &\underset{f}{\longrightarrow}& A_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    1_{\mathcal{c}} &\overset{e_1}{\longrightarrow}& A_1
+    \\
+    & {}_{\mathllap{e_2}}\searrow & \downarrow^{\mathrlap{f}}
+    \\
+    && A_2
+  }
+  \,.
+$$
+
+Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+
 
 =--
 
@@ -1313,7 +1349,7 @@ Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #AlgebrasOverAAreMonoidsUnderA}
 ###### Propposition
 
 Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
@@ -1908,7 +1944,7 @@ $$
 
 Let $(\mathcal{C},\otimes I)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
 
-Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
+Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
 
 $$
   (\mathcal{C},\otimes, I) \longrightarrow (Top^{\ast}_{cg}, \wedge, S^0)
@@ -1919,11 +1955,11 @@ called **functors with smash products** on $\mathcal{C}$, i.e. there are [[equiv
 
 $$
   \begin{aligned}
-    Mon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))
+    Mon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))
       &\simeq
     MonFunc(\mathcal{C},Top^{\ast/}_{cg})
     \\
-    CMon([\mathcal{C},V], \otimes_{Day}, y(S^0))
+    CMon([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))
       &\simeq
     SymMonFunc(\mathcal{C},Top^{\ast/}_{cg})
   \end{aligned}
@@ -1942,7 +1978,7 @@ This is stated in some form in ([Day 70, example 3.2.2](Day+convolution#Day70)).
 By definition \ref{LaxMonoidalFunctor}, a [[lax monoidal functor]] $F \colon \mathcal{C} \to Top^{\ast/}_{cg}$ is a topologically enriched functor equipped with a morphism of [[pointed topological spaces]] of the form
 
 $$
-  S^0 \longrightarrow F(I_{\mathcal{C}})
+  S^0 \longrightarrow F(1_{\mathcal{C}})
 $$
 
 and equipped with a [[natural transformation|natural]] system of maps of pointed topological spaces of the form
@@ -1974,7 +2010,7 @@ Similarly for [[module objects]] and [[modules over monoidal functors]].
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}
 ###### Proposition
 
 Let $f \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between pointed [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). Then the induced functor
@@ -1987,106 +2023,38 @@ $$
   [\mathcal{C}, Top_{cg}^{\ast}]
 $$
 
-given by $(f^\ast X)(c)\coloneqq X(f(c))$ preserves [[monoid in a monoidal category|monoids]] under [[Day convolution]]. If $\mathcal{C}$ and $\mathcal{D}$ are [[braided monoidal categories]] and $f$ is a [[braided monoidal functor]], then $f^\ast$ also preserves commutative monoids
+given by $(f^\ast X)(c)\coloneqq X(f(c))$ preserves [[monoid in a monoidal category|monoids]] under [[Day convolution]]
+
+$$
+  f^\ast
+    \;\colon\;
+  Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+    \longrightarrow
+  Mon([\mathcal{C}, Top_{cg}^{\ast}], \otimes_{Day}, y(1_{\mathcal{C}})
+$$
+
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $f$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}), then $f^\ast$ also preserves [[commutative monoids in a symmetric monoidal category|commutative monoids]]
+
+$$
+  f^\ast
+    \;\colon\;
+  CMon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+    \longrightarrow
+  CMon([\mathcal{C}, Top_{cg}^{\ast}], \otimes_{Day}, y(1_{\mathcal{C}})
+  \,.
+$$
+
 
 =--
-
-by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
-
-spring
-
-
-
-+-- {: .num_defn #FreeModulesOverAMonoidInDayConvolution}
-###### Definition
-
-For $(\mathcal{C},\otimes_{\matchcal{C}}, 1_{\mathcal{C}})$ a [[small category|small]] (pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(S^0))$ a [[monoid object]] (def. \ref{MonoidsInMonoidalCategory}) with respect to [[Day convolution]] over $\mathcal{C}$ (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}), write
-
-$$
-  R FreeMod \hookrightarrow R Mod
-$$
-
-for the [[full subcategory]] of the [[category of modules]] over $R$ (def. \ref{ModulesInMonoidalCategory}) on those that are [[free modules]]: the [[objects]] of $R FreeMod$ are those of $\mathcal{C}$ and the [[hom-objects]] are
-
-$$
-  \begin{aligned}
-    R FreeMod(c_1,c_2)
-      & \coloneqq
-    R Mod( y(c_1) \otimes_{Day} R , y(c_2) \otimes_{Day} R)
-    \\
-      & \simeq
-    [\mathcal{C},Top^{\ast/}_{cg}](y(c_1), y(c_2) \otimes_{Day} R)
-    \\
-      & \simeq
-    (y(c_2) \otimes_{Day} R)(c_1)
-    \\
-      & \simeq
-     \overset{c_3,c_4}{\int}
-       \mathcal{C}(c_3 \otimes_{\mathcal{C}} c_4,c_1)
-         \otimes_V
-       \mathcal{C}(c_2, c_3) \wedge R(c_4)
-     \\
-     & \simeq 
-     \overset{c_4}{\int}
-       \mathcal{C}(c_2 \otimes c_4,c_1)
-         \wedge 
-       R(c_4)
-  \end{aligned} 
-  \,,
-$$
-
-where after the definition in the first line we used first the free property, then the topologically [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then definition \ref{TopologicalDayConvolutionProduct} of Day convolution via [[coends]], and finally the [[co-Yoneda lemma]], prop. \ref{TopologicalCoYonedaLemma}.
-
-=--
-
-+-- {: .num_prop #ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}
-###### Proposition
-
-For $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ a [[small category|small]] pointed [[topologically enriched category|topologically enriched]] [[monoidal category]] , and for $R \in Mon([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day})$ a [[monoid object]] with respect to [[Day convolution]] over $\mathcal{C}$, then there is an [[equivalence of categories]]
-
-$$
-  R Mod \simeq [R FreeMod^{op}, Top^{\ast/}_{cg}]
-$$
-
-between the [[category of modules]] over $R$ and the [[enriched functor category]] out of the [[opposite category]] of that of free $R$-modules from def. \ref{FreeModulesOverAMonoidInDayConvolution}.
-
-=--
-
-([MMSS 00, theorem 2.2](#MMSS00))
 
 +-- {: .proof}
-###### Proof idea
+###### Proof
 
-Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $R$ with a [[lax monoidal functor]] and of any $R$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
-
-$$
-  N(c_1) \otimes R(c_2) \longrightarrow N(c_1 \otimes c_2)
-  \,.
-$$
-
-These transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ of the form
-
-$$
-  N(c_1) \otimes \mathcal{C}(c_1,c_2) \longrightarrow N(c_2)
-  \,.
-$$
-
-Hence we may unify these two kinds of transformations into a single kind of the form
-
-$$
-  N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4) 
-  \longrightarrow
-  N(c_2)
-  \;\;\;
-  for c_2 = c_3 \otimes c_4
-$$
-
-and subject to certain identifications.
-
-By comparison with def. \ref{FreeModulesOverAMonoidInDayConvolution}, this is just the form of the functoriality of an enriched functor
-over $R FreeMod^{op}$.
+This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
 
 =--
+
 
 
 
@@ -2134,7 +2102,7 @@ $$
   \mathbb{S} \simeq y(S^0)
 $$
 
-in its incarnation as an excisive functor. Under the [[model structure on excisive functors]], excisive functors represent the [[stable (infinity,1)-category of spectra]] and the above Day convolution represents the [[symmetric monoidal smash product of spectra]].
+in its standard incarnation as an excisive functor. Under the [[model structure on excisive functors]], excisive functors represent the [[stable (infinity,1)-category of spectra]] and the above Day convolution represents the [[symmetric monoidal smash product of spectra]].
 
 Hence a structured [[ring spectrum]] is a monoid with respect to the above day convolution, and by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this is equivalently a pre-excisive functor with smash products, hence a functor
 
@@ -2158,7 +2126,7 @@ for all pointed [[finite CW-complexes]] $K_1$ and $K_2$, satisfying appropriate 
 
 ### For orthogonal spectra
 
-Consider the non-full inclusion of topologically enriched categories
+Consider the non-full inclusion of [[topologically enriched categories]]
 
 $$
   Orth \hookrightarrow Top^{\ast/}_{cg,fin}
@@ -2179,53 +2147,53 @@ $$
   \,.
 $$
 
-Restricting a [[pre-excisive functor]] along this inclusion yields its underlying [[orthogonal spectrum]]. 
+Regard Orth as a [[monoidal category]] with monoidal structure induced form $(Top^{\ast/}_{cg}, \wedge, S^0)$ (via example \ref{TopAsASymmetricMonoidalCategory}) under the restriction. This makes the inclusion a [[braided monoidal functor|braided]] [[monoidal functor]].
 
-Restricting the standard pre-excisive model $y(S^0)$ of the [[sphere spectrum]] yields $\mathbb{S}_{orth}$. Since restriction is a monoidal functor, and since $y(S^0)$ is the tensor unit and hence canonically a monoid, $\mathbb{S}_{orth}$ is still a monoid with respect to Day convolution, in fact a commutative monoid.
 
-The category of [[orthogonal spectra]] is
+Restricting the standard pre-excisive model $y(S^0)$ of the [[sphere spectrum]] yields $\mathbb{S}_{orth}$. Since restriction is a monoidal functor, and since $y(S^0)$ is the tensor unit and hence canonically a monoid, prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} says that $\mathbb{S}_{orth}$ is still a commutative monoid with respect to Day convolution:
+
+$$
+  CMon([Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))
+  \longrightarrow
+  CMon([Orth, Top^{\ast/}_{cg}], \otimes_{Day}, y(S^0))
+$$
+
+$$
+  (\mathbb{S}_{exc},\mu = id,e = id) \mapsto (\mathbb{S}_{orth}, \mu, e)
+  \,.
+$$
+
+The category of [[orthogonal spectra]] is the category of $\mathbb{S}_{orth}$-modules (def. \ref{ModulesInMonoidalCategory}):
 
 $$
   \begin{aligned}
     OrthSpec(Top_{cg})
     &=
     \mathbb{S}_{orth}Mod( [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}] )
-    \\
-    & \simeq
-    [ \mathbb{S}_{orth} FreeMod^{op}, Top^{\ast/}_{cg} ]
   \end{aligned}
   \,,
 $$
 
-where we used prop. \ref{ModulesInDayConvolutionAreFunctorsOnFreeModulesOp}.
-
-By prop. \ref{MonoidalCategoryOfModules} the original Day convolution induces a tensor product on $\mathbb{S}_{orth} Mod$, hence on $mathbb{S}_{orth} FreeMod$, hence on $mathbb{S}_{orth} FreeMod^{op}$, and hence Day convolution induces a tensor product on 
-$  
-OrthSpec(Top_{cg})
-  \simeq
-  [ \mathbb{S}_{orth} FreeMod^{op}, Top^{\ast/}_{cg} ]
-$
 
 
-Accordingly a ring spectrum incarnated as a functor with smash products is now a topologically enriched functor
+Since $\mathbb{S}_{orth}$ is a commutative monoid, prop. \ref{MonoidalCategoryOfModules} says that there is a [[symmetric monoidal category]] structure $\otimes_{\mathbb{S}_{orth}}$ on $OrthSpec(Top_{cg})$.
+This is the [[symmetric monoidal smash product of spectra]] for orthogonal spectra.
+
+An orthogonal _[[ring spectrum]]_ $E$ is a monoid with respect to $\otimes_{\mathbb{S}_{orth}}$, hence an $\mathbb{S}_{orth}$-[[associative algebra|algebra]] (def. \ref{AAlgebra}). By prop. \ref{AlgebrasOverAAreMonoidsUnderA}, such $E$ is equivalently a monoid with respect to $\otimes_{Day}$ and equipped with a monoid homomorphism $\mathbb{S}_{orth} \longrightarrow E$. Finally, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this is equivalently a functor with smash products
 
 $$
-  F \;\colon\; \mathbb{S}_{orth} FreeMod^{op} \longrightarrow Top^{\ast/}_{cg}
+  E \;\colon\; Orth \longrightarrow Top^{\ast/}_{cg}
 $$
 
-equipped with a map
+equipped with a natural transformation of functors with smash product
 
 $$
-  S^0 \longrightarrow F(S^0)
+  \mathbb{S}_{orth} \longrightarrow E
+  \,.
 $$
 
-and equipped with a natural system of maps
 
-$$
-  F(n_1) \wedge F(n_2) \longrightarrow F(n_1 + n_2)
-$$
-
-(where $F(n) \coloneqq F(S^n)$), satisfying associativity and unitality. In the terminology of [MMSS 00, def. 22.5](#MMSS00) this is an "$Orth$-FSP over $\mathbb{S}_{Orth}$".
+In the terminology of [MMSS 00, def. 22.5](#MMSS00) this is an "$Orth$-FSP over $\mathbb{S}_{Orth}$".
 
 ### Symmetric spectra
 
@@ -2256,9 +2224,13 @@ $$
 
 where $Seq$ still has the same objects, the $n$-spheres, but no non-trivial morphisms (just the identity morphisms and the zero morphisms).
 
-Restricting $\mathbb{S}$ along this inclusion yields $\mathbb{S}_{seq}$.  This is still a monoid with respect to Day convolution, the $\mathbb{S}_{seq}$-modules are the [[sequential spectra]]. 
+Now the inclusion $Seq \longrightarrow Top^{\ast/}_{cg}$ is no longer a [[braided monoidal functor]], for the braiding on $Seq$ is trivial, while on $Top^{\ast/}_{cg}$ it is not. Accordingly the assumption of the second clause in prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} is vialoted.
 
-However, $\mathbb{S}_{seq}$ it is not a commutative monoid anymore (see at [smash product of spectra -- graded commutativity](smash+product+of+spectra#GradedCommutativity)) and hence the assumption of prop. \ref{MonoidalCategoryOfModules} is violated. Accordingly there is no induced tensor product on $\mathbb{S}_{seq}Mod$ and hence the story ends here. 
+Indeed, restricting $\mathbb{S}$ along this inclusion yields the stndard sequential [[sphere spectrum]] $\mathbb{S}_{seq}$ which is still a monoid with respect to Day convolution, but not a commutative monoid anymore (see at [smash product of spectra -- graded commutativity](smash+product+of+spectra#GradedCommutativity)) and hence the assumption of prop. \ref{MonoidalCategoryOfModules} is violated. 
+
+The $\mathbb{S}_{seq}$-[[module objects]] (def. \ref{ModulesInMonoidalCategory}) are equivalently the [[sequential spectra]].
+
+But since $\mathbb{S}_{seq}$ is not a commutative monoid, the assumption of prop. \ref{MonoidalCategoryOfModules}  there is no induced tensor product on $\mathbb{S}_{seq}Mod$ and hence the story ends here. 
 
 
 ## Examples
