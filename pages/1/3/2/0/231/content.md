@@ -706,6 +706,16 @@ higher versions
 
 ## References
 
+The original source for the notion of monoidal category is 
+
+* [[Saunders Mac Lane]], _Natural Associativity and Commutativity_, Rice University Studies 49 (1963), 28-46. 
+ {#Mac Lane}
+
+Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence axioms could be whittled down to just two: 
+
+* [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra 1 (1964), 397-402. 
+ {#Kelly}
+
 A fairly comprehensive set of lecture notes on the [[higher algebra]] monoidal categories is in
 
 * [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], _Topics in Lie theory and Tensor categories_, Lecture notes (spring 2009) ([web](http://ocw.mit.edu/courses/mathematics/18-769-topics-in-lie-theory-tensor-categories-spring-2009/lecture-notes/))
