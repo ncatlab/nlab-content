@@ -931,6 +931,189 @@ For any other object $Y$, the object $[X,Y] \in \mathcal{C}$ is then called the 
 
 =--
 
++-- {: .num_example #TopAsASymmetricMonoidalCategory} 
+###### Example
+
+The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] according to def. \ref{SymmetricMonoidalCategory} with [[tensor product]] the [[Cartesian product]] $\times$ of sets. The [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident (almost unnoticable but nevertheless nontrivial) canonical identifications.
+
+Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
+ 
+Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
+
+=--
+
++-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} 
+###### Example
+
+The category $Top_{cg}^{\ast/}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]] with [[tensor product]] the  [[smash product]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)) 
+
+$$
+  X \wedge Y \coloneqq \frac{X\times Y}{X\vee Y}
+$$
+
+is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
+
+The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]). This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
+
+=--
+
+
++-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
+###### Example
+
+The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
+
+1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
+
+1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
+
+1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
+
+1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
+
+1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
+
+=--
+
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a morphism
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of functors with smash product [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+
+=--
+
+### Algebras and modules
+ {#AlgebrasAndModules}
+
+
 +-- {: .num_defn #MonoidsInMonoidalCategory}
 ###### Definition
 
@@ -1123,183 +1306,177 @@ Given a (pointed) [[topologically enriched category|topological]] [[symmetric mo
 
 =--
 
-
-+-- {: .num_example #TopAsASymmetricMonoidalCategory} 
-###### Example
-
-The category [[Set]] of [[sets]] and [[functions]] between them, regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] according to def. \ref{SymmetricMonoidalCategory} with [[tensor product]] the [[Cartesian product]] $\times$ of sets. The [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident (almost unnoticable but nevertheless nontrivial) canonical identifications.
-
-Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#kTop)) becomes a [[symmetric monoidal category]] with [[tensor product]] the corresponding [[Cartesian products]], hence the operation of forming k-ified ([cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) [[product topological spaces]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#ProductTopologicalSpace)). The underlying functions of the [[associator]], [[unitor]] and [[braiding]] isomorphisms are just those of the underlying sets, as above. 
- 
-Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
-
-=--
-
-+-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} 
-###### Example
-
-The category $Top_{cg}^{\ast/}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]] with [[tensor product]] the  [[smash product]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductOfPointedObjects)) 
-
-$$
-  X \wedge Y \coloneqq \frac{X\times Y}{X\vee Y}
-$$
-
-is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
-
-The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]). This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
-
-=--
-
-
-+-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
-###### Example
-
-The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
-
-This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
-
-1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
-
-1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
-
-1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
-
-1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
-
-1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
-
-=--
-
-+-- {: .num_defn #LaxMonoidalFunctor}
++-- {: .num_defn #AAlgebra}
 ###### Definition
 
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ as in prop. \ref{MonoidalCategoryOfModules}, then a [[monoid in a monoidal category|monoid]] $(E, \mu, e)$ in  $(A Mod , \otimes_A , A)$ (def. \ref{MonoidsInMonoidalCategory}) is called an **$A$-[[associative algebra|algebra]]**.
 
-1. a [[topologically enriched functor]] 
+=--
 
-   $$
-     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
-     \,,
-   $$
++-- {: .num_prop }
+###### Propposition
 
-1. a morphism
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
 
-   $$
-     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
-   $$  
+$$
+  A Alg_{comm}(\mathcal{C}) 
+    \coloneqq 
+  CMon(A Mod)
+   \simeq
+  CMon(\mathcal{C})^{A/}
+$$
 
-1. a [[natural transformation]]
+between the [[category of commutative monoids]] in $A Mod$ and the [[coslice category]] of commutative monoids in $\mathcal{C}$ under $A$, hence between commutative $A$-algebras in $\mathcal{C}$ and commutative monoids $E$ in $\mathcal{C}$ that are equipped with a homomorphism of monoids $A \longrightarrow E$.
 
-   $$
-     \mu_{x,y} 
-       \;\colon\; 
-     F(x) \otimes_{\mathcal{D}} F(y) 
-       \longrightarrow 
-     F(x \otimes_{\mathcal{C}} y)
-   $$
+=--
 
-   for all $x,y \in \mathcal{C}$
+(e.g. [EKMM 97, VII lemma 1.3](#EKMM97))
 
-satisfying the following conditions:
++-- {: .proof}
+###### Proof
 
-1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
-         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
-       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
-       \\
-       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
-       \\
-       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
-        &&
-       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
-       \\
-       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
-       \\
-       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
-         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
-       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
-     }
-     \,,
-   $$
-
-   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
-
-
-1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
-         &\overset{\epsilon \otimes id}{\longrightarrow}&
-       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
-       \\
-       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
-       \\
-       F(x) 
-         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
-       F(1 \otimes_{\mathcal{C}} x  )
-     }
-   $$
-
-   and  
-
-   $$
-     \array{
-       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
-         &\overset{id \otimes \epsilon }{\longrightarrow}&
-       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
-       \\
-       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
-         && 
-       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
-       \\
-       F(x) 
-         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
-       F(x \otimes_{\mathcal{C}} 1  )
-     }
-     \,,
-   $$
-
-   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
-
-If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
-
-If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+In one direction, consider a $A$-algebra $E$ with unit $e_E \;\colon\; A \longrightarrow E$ and product $\mu_{E/A} \colon E \otimes_A E \longrightarrow E$. There is the underlying product $\mu_E$ 
 
 $$
   \array{
-    F(x) \otimes_{\mathcal{C}} F(y)
-      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
-    F(y) \otimes_{\mathcal{D}} F(x)
+    E \otimes A \otimes E
+    & 
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longrightarrow}}
+      {\phantom{AAA}}
+    &
+    E \otimes E
+     &\overset{coeq}{\longrightarrow}&
+    E \otimes_A E
     \\
-    {}^{\mathllap{\mu_{x,y}}}\downarrow 
-      && 
-    \downarrow^{\mathrlap{\mu_{y,x}}}
+    && & {}_{\mathllap{\mu_E}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
     \\
-    F(x \otimes_{\mathcal{C}} y )
-      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
-    F( y \otimes_{\mathcal{C}} x )
+    && && E
   }
   \,.
 $$
 
-=--
+By considering a diagram of such coequalizer diagrams with middle vertical morphism $e_E\circ e_A$, one find that this is a unit for $\mu_E$ and that $(E, \mu_E, e_E \circ e_A)$ is a commutative monoid in $(\mathcal{C}, \otimes, 1)$.
 
-+-- {: .num_remark}
-###### Remark
+Then consider the two conditions on the unit $e_E \colon A \longrightarrow E$. First of all this is an $A$-module homomorphism, which means that
 
-In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of functors with smash product [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+$$
+  (\star)
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \array{
+    A \otimes A &\overset{id \otimes e_E}{\longrightarrow}& A \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow && \downarrow^{\mathrlap{\rho}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+$$
 
-If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+[[commuting diagram|commutes]]. Moreover it satisfies the unit property
+
+$$
+  \array{
+    A \otimes_A E 
+      &\overset{e_A \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && E
+  }
+  \,.
+$$
+
+By forgetting the tensor product over $A$, the latter gives
+
+$$
+  \array{
+    A \otimes E 
+      &\overset{e \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    A \otimes_A E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    E &=& E
+  }
+  \;\;\;\;\;\;\;\;
+   \simeq
+  \;\;\;\;\;\;\;\;
+  \array{
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\rho}}\downarrow && \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    E &\underset{id}{\longrightarrow}& E  
+  }
+  \,,
+$$
+
+where the top vertical morphisms on the left the canonical coequalizers, which identifies the vertical composites on the right as shown. Hence this may be [[pasting|pasted]] to the square $(\star)$ above, to yield a [[commuting square]]
+
+$$
+  \array{
+    A \otimes A
+     &\overset{id\otimes e_E}{\longrightarrow}&
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    {}^{\mathllap{\rho}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E &\underset{id}{\longrightarrow}& E  
+  }  
+  \;\;\;\;\;\;\;\;\;\;
+   =
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+    A \otimes A 
+     &\overset{e_E \otimes e_E}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_E}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+  \,.
+$$
+
+This shows that the unit $e_A$ is a homomorphism of monoids $(A,\mu_A, e_A) \longrightarrow (E, \mu_E, e_E\circ e_A)$.
+
+Now for the converse direction, assume that $(A,\mu_A, e_A)$ and $(E, \mu_E, e'_E)$ are two commutative monoids in $(\mathcal{C}, \otimes, 1)$ with $e_E \;\colon\; A  \to E$ a monoid homomorphism. Then $E$ inherits a left $A$-[[module]] structure by
+
+$$
+  \rho
+    \;\colon\;
+  A \otimes E 
+    \overset{e_A \otimes id}{\longrightarrow} 
+  E \otimes E
+    \overset{\mu_E}{\longrightarrow}
+  E
+  \,.
+$$
+
+By commutativity and associativity it follows that $\mu_E$ coequalizes the two induced morphisms $E \otimes A \otimes E \underoverset{\longrightarrow}{\longrightarrow}{\phantom{AA}} E \otimes E$. Hence the [[universal property]] of the [[coequalizer]] gives a factorization through some $\mu_{E/A}\colon E \otimes_A E \longrightarrow E$. This shows that $(E, \mu_{E/A}, e_E)$ is a commutative $A$-algebra.
+
+Finally one checks that these two constructions are inverses to each other, up to isomorphism.
 
 =--
 
@@ -2096,6 +2273,9 @@ A systematic account is in
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], part III of _[[Model categories of diagram spectra]]_, Proceedings London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
 
+Based on discussion in
+
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_ 1997 ([pdf](www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
 
 [[!redirects FSP]]
