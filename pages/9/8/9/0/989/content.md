@@ -485,7 +485,7 @@ Finally one checks that these two constructions are inverses to each other, up t
 
 ## References
 
-* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _[[Rings, modules and algebras in stable homotopy theory]]_ 1997 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
 
 
 
