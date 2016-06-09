@@ -43,7 +43,36 @@ If we regard $\mathcal{E}$ as a topos over $\mathcal{S}$ via $f$, then when $f$ 
 
 If $f := \Gamma\colon \mathcal{E}\to Set$ is the [[global section]] geometric morphism of a topos (such a geometric morphism being unique if it exists), then it is bounded if and only if $\mathcal{E}$ is a [[Grothendieck topos]]. As such we can also call Grothendieck toposes "bounded $Set$-toposes".
 
-Almost all geometric morphisms in practice are bounded, so that often when people work in the 2-category [[Topos]] of toposes and geometric morphisms, they mean that the geometric morphisms are bounded. See [[unbounded topos]] for the few examples of unbounded geometric morphisms.
+More generally, bounded toposes over $\mathcal{S}$ are precisely the toposes of $\mathcal{S}$-valued sheaves on internal sites in $\mathcal{S}$ (see Section B3.3 in the [[Elephant]]).
+
+If $f:\mathcal{E}\to\mathcal{S}$ is bounded and $\mathcal{S}$ is a [[Grothendieck topos]], then $\mathcal{E}$ is a Grothendieck topos as well. This is a consequence of the following.
+
++-- {: .num_prop}
+###### Proposition
+
+Bounded geometric morphisms are stable under composition.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume that $f : \mathcal{F} \to \mathcal{S}$ is bounded by $B\in\mathcal{F}$, and  $g:\mathcal{G}\to\mathcal{F}$ is bounded by $C\in\mathcal{G}$. Let $A\in\mathcal{G}$. Then there exist $J\in \mathcal{F}$ and $I\in\mathcal{S}$, and  subquotient spans
+$A\leftarrow\bullet\rightarrow g^*J\times C$ and $J\leftarrow\bullet\rightarrow f^*I\times B$. By applying $g^*(-)\times C$ to the second subquotient and forming a pullback, we get the diagram
+$$
+\begin{matrix}
+\bullet & \to & \bullet & \to A \\
+\downarrow && \downarrow \\
+\bullet & \rightarrow & g*J\times C \\
+\downarrow \\
+g^*f^* I\times g^* B \times C
+\end{matrix}
+$$
+where the vertical arrows are monos and the horizontal ones are epis (using the fact that epis are stable under $g^*$, products, and pullbacks), from which we can see that $f g$ is bounded by $g^*B\times C$.
+
+=--
+
+Almost all geometric morphisms in practice are bounded, so that often when people work in the 2-category [[Topos]] of toposes and geometric morphisms, they mean that the geometric morphisms are bounded. See [[unbounded topos]] for the few examples of unbounded geometric morphisms. 
 
 ## Related concepts
 
