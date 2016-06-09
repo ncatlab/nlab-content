@@ -75,6 +75,9 @@ Review and exposition includes
 
 * {#May} [[Peter May]], _Topological Hochschild and Cyclic Homology and Algebraic K-theory_ ([pdf](http://www.math.uchicago.edu/~may/TALKS/THHTC.pdf))
 
+* {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], chapter IX of _[[Rings, modules and algebras in stable homotopy theory]]_, AMS Mathematical Surveys and Monographs Volume 47 (1997) ([pdf](http://www.math.uchicago.edu/~may/BOOKS/EKMM.pdf))
+
+
 * {#DundasGoodwillieMcCarthy13} [[Bjørn Dundas]], [[Thomas Goodwillie]], [[Randy McCarthy]], _The local structure of algebraic K-theory_, Springer 2013 ([pdf](http://math.mit.edu/~nrozen/juvitop/dundas.pdf))
 
 
@@ -130,7 +133,7 @@ THH and TC specifically of [[KU|ku]] and [[KO|ko]] is discussed in
 
 and of [[tmf]] in 
 
-* Bob Bruner, John Rognes, _Topological Hochschild homology of topological modular forms_ 2008 ([pdf](http://folk.uio.no/rognes/papers/ntnu08.pdf))
+* [[Bob Bruner]], [[John Rognes]], _Topological Hochschild homology of topological modular forms_ 2008 ([pdf](http://folk.uio.no/rognes/papers/ntnu08.pdf))
 
 
 [[!redirects topological Hochschild homology]]
