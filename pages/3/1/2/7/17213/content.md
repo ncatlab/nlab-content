@@ -1039,7 +1039,7 @@ satisfying the following conditions:
    where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
 
 
-1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
 
    $$
      \array{
@@ -1898,6 +1898,7 @@ $$
 =--
 
 
+
 ## Functors with smash product
  {#FunctorsWithSmashProduct}
 
@@ -1971,6 +1972,28 @@ Translating the conditions of def. \ref{LaxMonoidalFunctor} satisfied by a [[lax
 Similarly for [[module objects]] and [[modules over monoidal functors]].
 
 =--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Let $f \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between pointed [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). Then the induced functor
+
+$$
+  f^\ast
+    \;\colon\;
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+    \longrightarrow
+  [\mathcal{C}, Top_{cg}^{\ast}]
+$$
+
+given by $(f^\ast X)(c)\coloneqq X(f(c))$ preserves [[monoid in a monoidal category|monoids]] under [[Day convolution]]. If $\mathcal{C}$ and $\mathcal{D}$ are [[braided monoidal categories]] and $f$ is a [[braided monoidal functor]], then $f^\ast$ also preserves commutative monoids
+
+=--
+
+by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
+
+spring
 
 
 
