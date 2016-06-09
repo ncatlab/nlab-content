@@ -148,7 +148,7 @@ In the proofs below, monoidal product symbols $\otimes$ will be suppressed, to s
 
 +-- {: .num_lemma #kel1} 
 ###### Lemma 
-**([Kelly](#Kelly))** 
+**([Kelly 64](#Kelly))** 
 In a monoidal category, the equation $\lambda_x y = \lambda_{x y} \circ \alpha_{1, x, y}$ holds, i.e., the diagram 
 
 $$\array{
@@ -193,7 +193,7 @@ which uses the pentagon coherence condition, naturality of $\alpha$, and a unit 
 
 +-- {: .num_lemma #kel2} 
 ###### Lemma 
-**(Kelly)** 
+**([Kelly 64](#Kelly))** 
 The equation $\lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ holds in a monoidal category. 
 =-- 
 
@@ -713,8 +713,8 @@ The original source for the notion of monoidal category is
 
 Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence axioms could be whittled down to just two: 
 
-* [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra 1 (1964), 397-402. 
- {#Kelly}
+* {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra 1 (1964), 397-402. 
+ 
 
 A fairly comprehensive set of lecture notes on the [[higher algebra]] monoidal categories is in
 
