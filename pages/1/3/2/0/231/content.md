@@ -162,15 +162,23 @@ commutes. Similarly, the following equation holds: $\rho_{x y} = (x \rho_y) \cir
 
 +-- {: .proof} 
 ###### Proof 
-We prove only the first equation; the proof of the second is entirely analogous. Since the functor $1 \otimes -$ is an equivalence (being isomorphic to the identity functor), it suffices to show that the triangle marked by a question mark in the diagram below commutes: 
+We prove only the first equation; the proof of the second is entirely analogous. Since the functor $1 \otimes -$ is an equivalence (being isomorphic to the identity functor), it suffices to show that the triangle on the right in the diagram below commutes: 
 
-$$\array{
-((1 1)x) y & \stackrel{\alpha_{1, 1, x}y}{\to} & (1(1 x))y & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) & \stackrel{1\alpha_{1, x, y}}{\to} & 1(1(x y)) \\ 
+$$
+  \array{
+    ((1 1)x) y 
+      & \stackrel{\alpha_{1, 1, x}y}{\to} & 
+    (1(1 x))y 
+       & \stackrel{\alpha_{1, 1 x, y}}{\longrightarrow} & 
+    1((1 x)y) 
+       & \stackrel{1\alpha_{1, x, y}}{\to} & 
+    1(1(x y)) 
+    \\ 
  &  ^\mathllap{(\rho_1 x)y} \searrow & \downarrow^\mathrlap{(1 \lambda_x)y} & & ^\mathllap{1(\lambda_x y)} \downarrow & ? \swarrow^\mathrlap{1(\lambda_{x y})} & \\ 
  & & (1 x)y & \underset{\alpha_{1, x, y}}{\to} & 1(x y) & & 
 }$$ 
 
-where the unmarked square commutes by naturality of $\alpha$, and the unmarked triangle commutes by a unit coherence triangle (tensored by $y$ on the right). Since all the arrows are isomorphisms, it suffices to show that the diagram formed by the perimeter commutes. But this follows from the commutativity of the diagram 
+where the square in the middle [[commuting square|commutes]] by [[naturality|natural transformation]] of $\alpha$, and the triangle on the left commutes by a unit coherence triangle (tensored by $y$ on the right). Since all the arrows are isomorphisms, it suffices to show that the diagram formed by the perimeter commutes. But this follows from the commutativity of the diagram 
 
 $$\array{
  & & (1(1 x))y & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) \\
@@ -183,7 +191,7 @@ $$\array{
 which uses the pentagon coherence condition, naturality of $\alpha$, and a unit coherence condition. 
 =-- 
 
-+-- {: .num_lemma} 
++-- {: .num_lemma #kel2} 
 ###### Lemma 
 **(Kelly)** 
 The equation $\lambda_1 = \rho_1 \colon 1 \otimes 1 \to 1$ holds in a monoidal category. 
