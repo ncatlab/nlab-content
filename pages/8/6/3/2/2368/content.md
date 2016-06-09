@@ -61,7 +61,7 @@ Similarly, just as an ordinary [[ring]] is a [[monoid]] in the category $Mod_\ma
 ### For excisive functors
 
 
-##### Topological ends and coends
+#### Topological ends and coends
  {#TopologicalEndsAndCoends}
 
 For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
@@ -446,7 +446,7 @@ Moreover, the morphism that hence exhibits $F(c)$ as the [[coequalizer]] of the 
 
 $$
   \mathcal{C}(d,c) \wedge F(c)
-  \longrightarrow
+   \longrightarrow
   F(d)
 $$
 
@@ -534,6 +534,7 @@ and so if all the preimages of a given subset of the coequalizer under these com
 
 
 =--
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -748,13 +749,14 @@ $$
 
 =--
 
-##### Monoidal topological categories
- {#MonoidalTopologicalCategories}
+#### Monoidal topological categories
+
+We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. All examples are at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below.
 
 +-- {: .num_defn #MonoidalCategory} 
 ###### Definition
 
-A **(pointed) topologically enriched [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
+A **(pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
 
 1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
 
@@ -838,7 +840,7 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 +-- {: .num_defn #BraidedMonoidalCategory} 
 ###### Definition
 
-A **(pointed) topological [[braided monoidal category]]**, is a (pointed) topological [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
+A **(pointed) [[topologically enriched category|topological]] [[braided monoidal category]]**, is a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
 
 $$ 
   \tau_{x,y} \colon x \otimes y \to y \otimes x 
@@ -851,17 +853,17 @@ $$
    (x \otimes y) \otimes z 
    &\stackrel{a_{x,y,z}}{\to}&
    x \otimes (y \otimes z)
-   &\stackrel{B_{x,y \otimes z}}{\to}&
+   &\stackrel{\tau_{x,y \otimes z}}{\to}&
    (y \otimes z) \otimes x
    \\
-   \downarrow^{B_{x,y}\otimes Id}
+   \downarrow^{\tau_{x,y}\otimes Id}
    &&&&
    \downarrow^{a_{y,z,x}}
    \\
    (y \otimes x) \otimes z
    &\stackrel{a_{y,x,z}}{\to}&
    y \otimes (x \otimes z)
-   &\stackrel{Id \otimes B_{x,z}}{\to}&
+   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
    y \otimes (z \otimes x)
   }
 $$
@@ -873,17 +875,17 @@ $$
    x \otimes (y \otimes z) 
    &\stackrel{a^{-1}_{x,y,z}}{\to}&
    (x \otimes y) \otimes z
-   &\stackrel{B_{x \otimes y, z}}{\to}&
+   &\stackrel{\tau_{x \otimes y, z}}{\to}&
    z \otimes (x \otimes y)
    \\
-   \downarrow^{Id \otimes B_{y,z}}
+   \downarrow^{Id \otimes \tau_{y,z}}
    &&&&
    \downarrow^{a^{-1}_{z,x,y}}
    \\
    x \otimes (z \otimes y)
    &\stackrel{a^{-1}_{x,z,y}}{\to}&
    (x \otimes z) \otimes y
-   &\stackrel{B_{x,z} \otimes Id}{\to}&
+   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
    (z \otimes x) \otimes y
   }
   \,,
@@ -896,16 +898,16 @@ where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ den
 +-- {: .num_defn #SymmetricMonoidalCategory} 
 ###### Definition
 
-A **(pointed) topological [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
+A **(pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
 
 $$ 
-   B_{x,y} \colon x \otimes y \to y \otimes x 
+   \tau_{x,y} \colon x \otimes y \to y \otimes x 
 $$
 
 satisfies the condition:
 
 $$ 
-  B_{y,x} \circ B_{x,y} = 1_{x \otimes y}  
+  \tau_{y,x} \circ \tau_{x,y} = 1_{x \otimes y}  
 $$
 
 for all objects $x, y$
@@ -915,7 +917,7 @@ for all objects $x, y$
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
 
-Given a pointed topological [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $X\in \mathcal{X}$ the functor $X \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted
 
 $$
   \mathcal{C}
@@ -927,10 +929,9 @@ $$
   \,.
 $$
 
-The object $[Y,X] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $Y$ and $X$.
+For any other object $Y$, the object $[X,Y] \in \mathcal{C}$ is then called the **[[internal hom]]** object between $X$ and $Y$. 
 
 =--
-
 
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
 ###### Example
@@ -959,8 +960,700 @@ The components of the [[associator]], the [[unitors]] and the [[braiding]] are t
 =--
 
 
-##### Topological Day convolution
- {#TopologicalDayConvolution}
++-- {: .num_example #ExampleAbelianGroupsOfMonoidalCategory}
+###### Example
+
+The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
+
+This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
+
+1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
+
+1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
+
+1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
+
+1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
+
+1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
+
+=--
+
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a morphism
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(Z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}), then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature often the term "monoidal functor" refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a braided monoidal functor (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+
+=--
+
+#### Algebras and modules
+ {#AlgebrasAndModules}
+
+
++-- {: .num_defn #MonoidsInMonoidalCategory}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, then a **[[monoid in a monoidal category|monoid internal to]]** $(\mathcal{C}, \otimes, 1)$ is
+
+1. an [[object]] $A \in \mathcal{C}$;
+
+1. a morphism $e \;\colon\; 1 \longrightarrow A$ (called the _[[unit]]_)
+
+1. a morphism $\mu \;\colon\; A \otimes A \longrightarrow A$ (called the _product_); 
+
+such that
+
+1. ([[associativity]]) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes A 
+         &\underoverset{\simeq}{a_{A,A,A}}{\longrightarrow}&
+       A \otimes (A \otimes A)
+         &\overset{A \otimes \mu}{\longrightarrow}&
+       A \otimes A
+       \\
+       {}^{\mathllap{\mu \otimes A}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\mu}}
+       \\
+       A \otimes A
+         &\longrightarrow&
+         &\overset{\mu}{\longrightarrow}&
+       A
+     }
+     \,,
+   $$
+
+   where $a$ is the associator isomorphism of $\mathcal{C}$;
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes A 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes A
+         &\overset{id \otimes e}{\longleftarrow}& 
+       A \otimes 1
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\mu}} &
+       & \swarrow_{\mathrlap{r}}
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
+
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+
+* (commutativity) the following [[commuting diagram|diagram commutes]]
+
+  $$
+    \array{
+      A \otimes A 
+        && \underoverset{\simeq}{\tau_{A,A}}{\longrightarrow} &&
+      A \otimes A
+      \\
+      & {}_{\mathllap{\mu}}\searrow && \swarrow_{\mathrlap{\mu}}
+      \\
+      && A
+    }
+    \,.
+  $$
+
+A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
+
+$$
+  f \;\colon\; A_1 \longrightarrow A_2
+$$ 
+
+in $\mathcal{C}$, such that the following two [[commuting diagram|diagrams commute]]
+
+$$
+  \array{
+    A_1 \otimes A_1 
+      &\overset{f \otimes f}{\longrightarrow}&
+    A_2 \otimes A_2
+    \\
+    {}^{\mathllap{\mu_1}}\downarrow && \downarrow^{\mathrlap{\mu_2}}
+    \\
+    A_1 &\underset{f}{\longrightarrow}& A_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    1_{\mathcal{c}} &\overset{e_1}{\longrightarrow}& A_1
+    \\
+    & {}_{\mathllap{e_2}}\searrow & \downarrow^{\mathrlap{f}}
+    \\
+    && A_2
+  }
+  \,.
+$$
+
+Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+
+
+=--
+
++-- {: .num_defn #ModulesInMonoidalCategory}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $(\mathcal{C}, \otimes, 1)$, and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
+
+1. an [[object]] $N \in \mathcal{C}$;
+
+1. a [[morphism]] $\rho \;\colon\; A \otimes N \longrightarrow N$ (called the _[[action]]_);
+
+such that 
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes N 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes N
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\rho}} 
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ is the left unitor isomorphism of $\mathcal{C}$.
+
+
+1. (action property) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes N
+         &\underoverset{\simeq}{a_{A,A,N}}{\longrightarrow}&
+       A \otimes (A \otimes N)
+         &\overset{A \otimes \rho}{\longrightarrow}&
+       A \otimes N
+       \\
+       {}^{\mathllap{\mu \otimes N}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\rho}}
+       \\
+       A \otimes N
+         &\longrightarrow&
+         &\overset{\rho}{\longrightarrow}&
+       N
+     }
+     \,,
+   $$
+
+A [[homomorphism]] of left $A$-module objects 
+
+$$
+  (N_1, \rho_1) \longrightarrow (N_2, \rho_2)
+$$
+
+is a morphism 
+
+$$
+  f\;\colon\; N_1 \longrightarrow N_2
+$$
+
+in $\mathcal{C}$, such that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    A\otimes N_1 &\overset{A \otimes f}{\longrightarrow}& A\otimes N_2
+    \\
+    {}^{\mathllap{\rho_1}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho_2}}
+    \\
+    N_1 &\underset{f}{\longrightarrow}& N_2
+  }
+  \,.
+$$
+
+For the resulting **[[category of modules]]** of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
+
+$$
+  A Mod(\mathcal{C})
+  \,.
+$$
+
+This is naturally a (pointed) [[topologically enriched category]] itself.
+
+=--
+
+
++-- {: .num_prop #MonoidModuleOverItself} 
+###### Proposition
+
+In the situation of def. \ref{ModulesInMonoidalCategory}, the monoid $(A,\mu, e)$ canonically becomes a left module over itself by setting $\rho \coloneqq \mu$. More generally, for $C \in \mathcal{C}$ any object, then $A \otimes C$ naturally becomes a left $A$-module by setting:
+
+$$
+  \rho
+  \;\colon\;
+  A \otimes (A \otimes C)
+   \underoverset{\simeq}{a^{-1}_{A,A,C}}{\longrightarrow}
+  (A \otimes A) \otimes C
+    \overset{\mu \otimes id}{\longrightarrow}
+  A \otimes C
+  \,.
+$$
+
+The $A$-modules of this form are called **[[free modules]]**.
+
+The [[free functor]] $F$ constructing free $A$-modules is [[left adjoint]] to the [[forgetful functor]] $U$ which sends a module $(N,\rho)$ to the underlying object $U(N,\rho) \coloneqq N$.
+
+$$
+  A Mod(\mathcal{C})
+    \underoverset
+     {\underset{U}{\longrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\bot}
+  \mathcal{C}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A homomorphism out of a free $A$-module is a morphism in $\mathcal{C}$ of the form
+
+$$
+  f \;\colon\; A\otimes C \longrightarrow N
+$$
+
+fitting into the diagram (where we are notationally suppressing the [[associator]])
+
+$$
+  \array{
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,.
+$$
+
+Consider the composite
+
+$$
+  \tilde f
+    \;\colon\;
+  C
+    \underoverset{\simeq}{\ell_C}{\longrightarrow}
+  1 \otimes C
+    \overset{e\otimes id}{\longrightarrow}
+  A \otimes C
+    \overset{f}{\longrightarrow}
+  N
+  \,,
+$$
+
+i.e. the restriction of $f$ to the unit "in" $A$. This fits into a square of the form
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+   \\
+   A \otimes A \otimes C
+    &\underset{id \otimes f}{\longrightarrow}&
+  }
+  \,.
+$$
+
+Pasting this square onto the top of the previous one yields
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,,
+$$
+
+where now the left vertical composite is the identity. This shows that $f$ is uniquely determined by $\tilde f$ via the relation
+
+$$
+  f = \rho \circ (id_A \otimes \tilde f)
+  \,.
+$$
+
+This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
+
+
+=--
+
++-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
+
+$$
+  N_1 \otimes A \otimes N_2
+  \underoverset
+    {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
+    {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
+    {\phantom{AAAA}}
+  N_1 \otimes N_1
+    \overset{coequ}{\longrightarrow}
+  N_1 \otimes_A N_2
+$$
+
+=--
+
++-- {: .num_prop #MonoidalCategoryOfModules}
+###### Proposition
+
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+
+=--
+
++-- {: .num_defn #AAlgebra}
+###### Definition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ as in prop. \ref{MonoidalCategoryOfModules}, then a [[monoid in a monoidal category|monoid]] $(E, \mu, e)$ in  $(A Mod , \otimes_A , A)$ (def. \ref{MonoidsInMonoidalCategory}) is called an **$A$-[[associative algebra|algebra]]**.
+
+=--
+
++-- {: .num_prop #AlgebrasOverAAreMonoidsUnderA}
+###### Propposition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
+
+$$
+  A Alg_{comm}(\mathcal{C}) 
+    \coloneqq 
+  CMon(A Mod)
+   \simeq
+  CMon(\mathcal{C})^{A/}
+$$
+
+between the [[category of commutative monoids]] in $A Mod$ and the [[coslice category]] of commutative monoids in $\mathcal{C}$ under $A$, hence between commutative $A$-algebras in $\mathcal{C}$ and commutative monoids $E$ in $\mathcal{C}$ that are equipped with a homomorphism of monoids $A \longrightarrow E$.
+
+=--
+
+(e.g. [EKMM 97, VII lemma 1.3](#EKMM97))
+
++-- {: .proof}
+###### Proof
+
+In one direction, consider a $A$-algebra $E$ with unit $e_E \;\colon\; A \longrightarrow E$ and product $\mu_{E/A} \colon E \otimes_A E \longrightarrow E$. There is the underlying product $\mu_E$ 
+
+$$
+  \array{
+    E \otimes A \otimes E
+    & 
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longrightarrow}}
+      {\phantom{AAA}}
+    &
+    E \otimes E
+     &\overset{coeq}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    && & {}_{\mathllap{\mu_E}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && && E
+  }
+  \,.
+$$
+
+By considering a diagram of such coequalizer diagrams with middle vertical morphism $e_E\circ e_A$, one find that this is a unit for $\mu_E$ and that $(E, \mu_E, e_E \circ e_A)$ is a commutative monoid in $(\mathcal{C}, \otimes, 1)$.
+
+Then consider the two conditions on the unit $e_E \colon A \longrightarrow E$. First of all this is an $A$-module homomorphism, which means that
+
+$$
+  (\star)
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \array{
+    A \otimes A &\overset{id \otimes e_E}{\longrightarrow}& A \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow && \downarrow^{\mathrlap{\rho}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+$$
+
+[[commuting diagram|commutes]]. Moreover it satisfies the unit property
+
+$$
+  \array{
+    A \otimes_A E 
+      &\overset{e_A \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && E
+  }
+  \,.
+$$
+
+By forgetting the tensor product over $A$, the latter gives
+
+$$
+  \array{
+    A \otimes E 
+      &\overset{e \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    A \otimes_A E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    E &=& E
+  }
+  \;\;\;\;\;\;\;\;
+   \simeq
+  \;\;\;\;\;\;\;\;
+  \array{
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\rho}}\downarrow && \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    E &\underset{id}{\longrightarrow}& E  
+  }
+  \,,
+$$
+
+where the top vertical morphisms on the left the canonical coequalizers, which identifies the vertical composites on the right as shown. Hence this may be [[pasting|pasted]] to the square $(\star)$ above, to yield a [[commuting square]]
+
+$$
+  \array{
+    A \otimes A
+     &\overset{id\otimes e_E}{\longrightarrow}&
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    {}^{\mathllap{\rho}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E &\underset{id}{\longrightarrow}& E  
+  }  
+  \;\;\;\;\;\;\;\;\;\;
+   =
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+    A \otimes A 
+     &\overset{e_E \otimes e_E}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_E}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+  \,.
+$$
+
+This shows that the unit $e_A$ is a homomorphism of monoids $(A,\mu_A, e_A) \longrightarrow (E, \mu_E, e_E\circ e_A)$.
+
+Now for the converse direction, assume that $(A,\mu_A, e_A)$ and $(E, \mu_E, e'_E)$ are two commutative monoids in $(\mathcal{C}, \otimes, 1)$ with $e_E \;\colon\; A  \to E$ a monoid homomorphism. Then $E$ inherits a left $A$-[[module]] structure by
+
+$$
+  \rho
+    \;\colon\;
+  A \otimes E 
+    \overset{e_A \otimes id}{\longrightarrow} 
+  E \otimes E
+    \overset{\mu_E}{\longrightarrow}
+  E
+  \,.
+$$
+
+By commutativity and associativity it follows that $\mu_E$ coequalizes the two induced morphisms $E \otimes A \otimes E \underoverset{\longrightarrow}{\longrightarrow}{\phantom{AA}} E \otimes E$. Hence the [[universal property]] of the [[coequalizer]] gives a factorization through some $\mu_{E/A}\colon E \otimes_A E \longrightarrow E$. This shows that $(E, \mu_{E/A}, e_E)$ is a commutative $A$-algebra.
+
+Finally one checks that these two constructions are inverses to each other, up to isomorphism.
+
+=--
+
+
+#### Day convolution
+
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
@@ -1071,7 +1764,7 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
+The [[Day convolution]] product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
@@ -1133,7 +1826,7 @@ $$
 +-- {: .num_cor #DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
 ###### Corollary
 
-Day convolution $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
+The [[Day convolution]] $\otimes_{Day}$ (def. \ref{TopologicalDayConvolutionProduct}) is universally characterized by the property that there are [[natural isomorphisms]]
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
@@ -1260,16 +1953,17 @@ $$
 +-- {: .num_prop #DayMonoidalStructureIsClosed}
 ###### Proposition
 
-For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(I))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+For $\mathcal{C}$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor product]] denoted $\otimes_{\mathcal{C}} \;\colon\; \mathcal{C} \times\mathcal{C} \to \mathcal{C}$, the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   [X,Y]_{Day}(c)
   \simeq
    \underset{c_1,c_2}{\int}
-      V\left( 
+      Maps\left( 
         \mathcal{C}(c \otimes_{\mathcal{C}} c_1,c_2),
-        V(X(c_1), Y(c_2)) 
-      \right)       
+        \;
+        Maps(X(c_1) ,  Y(c_2))_\ast 
+      \right)_\ast       
   \,.
 $$
 
@@ -1278,26 +1972,27 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}), there is the following sequence of [[natural isomorphisms]]:
+Using the [[Fubini theorem]] (def. \ref{CoendsCommuteWithEachOther}) and the [[co-Yoneda lemma]] (def. \ref{TopologicalCoYonedaLemma}) and in view of definition \ref{PointedTopologicalFunctorCategory} of the [[enriched functor category]], there is the following sequence of [[natural isomorphisms]]:
 
 $$
   \begin{aligned}
      [\mathcal{C},V]( X, [Y,Z]_{Day} )
        & \simeq
-     \underset{c}{\int} V\left(
+     \underset{c}{\int} 
+     Maps\left(
         X(c), 
         \underset{c_1,c_2}{\int}
-        V\left( 
+        Maps\left( 
           \mathcal{C}(c \otimes_{\mathcal{C}} c_1 , c_2),
-          V(Y(c_1), Z(c_2)) 
-        \right)
-     \right)
+          Maps(Y(c_1), Z(c_2))_\ast 
+        \right)_\ast
+     \right)_\ast
      \\
      &
      \simeq
      \underset{c}{\int}
      \underset{c_1,c_2}{\int}
-     V\left(
+     Maps\left(
        \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
          \wedge
        X(c)
@@ -1305,11 +2000,11 @@ $$
        Y(c_1)
        ,\;
        Z(c_2)
-     \right)
+     \right)_\ast
      \\
      & \simeq
      \underset{c_2}{\int}
-     V\left(
+     Maps\left(
        \overset{c,c_1}{\int}
        \mathcal{C}(c \otimes_{\mathcal{C}} c_1, c_2)
          \wedge
@@ -1318,14 +2013,14 @@ $$
        Y(c_1)
        ,\;
        Z(c_2)
-     \right)
+     \right)_\ast
      \\
      &\simeq
      \underset{c_2}{\int}
-       V\left(
+       Maps\left(
          (X \otimes_{Day} Y)(c_2),
          Z(c_2)
-       \right)
+       \right)_\ast
      \\
      &\simeq
      [\mathcal{C},V](X \otimes_{Day} Y, Z)
@@ -1350,7 +2045,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
 
 $$
   \begin{aligned}
@@ -1374,25 +2069,64 @@ $$
 
 =--
 
-##### Pre-Excisive functors
+
+
+
+
+#### Pre-Excisive functors
  {#OnPreExcisiveFunctors}
 
-Write $Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$ for the full inclusion on the topological spaces isomorphic to a [[finite CW-complex]].
++-- {: .num_defn #FinitePointedCWComplexes}
+###### Definition
 
-Then 
+Write 
 
 $$
- [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
+  \iota_{fin}\;\colon\; Top^{\ast}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}
+$$ 
+
+for the [[full subcategory]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#Top)) on those that admit the structure of a [[finite CW-complex]] (a [[CW-complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)) with a [[finite number]] of cells). 
+
+We say that the pointed topological [[enriched functor category]] (def. \ref{PointedTopologicalFunctorCategory})
+
+$$
+  Exc(Top_{cg})
+   \coloneqq 
+  [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of _[[pre-excisive functors]]_. By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} the [[smash product]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] induces a topological [[closed monoidal category]]
+is the category of **[[pre-excisive functors]]**. 
+
+Write
+
+$$
+  \mathbb{S}_{exc}
+    \coloneqq
+  y(S^0)
+  \coloneqq
+  Top^{\ast/}_{cg,fin}(S^0,-)
+$$
+
+for the [[representable functor|functor co-represented]] by [[0-sphere]]. This is equivalently the inclusion $\iota_{fin}$ itself:
+
+$$
+  \mathbb{S}_{exc} = \iota_{fin} 
+    \;\colon\;
+  K \mapsto K
+  \,.
+$$
+
+We call this the standard incarnation of the **[[sphere spectrum]]** as a pre-excisive functor.
+
+By prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} the [[smash product]] of [[pointed topological spaces|pointed]] [[compactly generated topological spaces]] induces the structure of a [[closed monoidal category|closed]] (def. \ref{ClosedMonoidalCategory}) [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})
 
 $$
   \left( 
-    [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
+    Exc(Top_{cg})
     ,\;
     \wedge_{Day}
-    , y(S^0)
+    ,\; 
+   \mathbb{S}_{exc}
   \right)
 $$
 
@@ -1400,22 +2134,479 @@ with
 
 1. [[tensor product]] the [[Day convolution product]] $\otimes_{Day}$ from def. \ref{TopologicalDayConvolutionProduct},
 
-   this is the _symmetric monoidal [[smash product of spectra]]_ for the model of pre-excisive functors;
+   called the **[[symmetric monoidal smash product of spectra]]** for the model of pre-excisive functors;
 
 1. [[internal hom]] the dual operation $[-,-]_{Day}$ from prop. \ref{DayMonoidalStructureIsClosed},
 
-   this is the corresponding _[[mapping spectrum]]_ construction for pre-excisive functors.
+   called the **[[mapping spectrum]]** construction for pre-excisive functors.
+
+=--
 
 
 ### For symmetric and orthogonal spectra
 
-... restrict the [above](#OnPreExcisiveFunctors) discussion for excisive functors along the inclusions
+
+#### Diagram spectra
+
++-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
+###### Definition
+
+Define the following [[pointed topologically enriched categories|pointed topologically enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is a [[pointed topologically enriched functor]]):
+
+1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0. As a $Top^{\ast/}$-[[enriched category]] the hom-spaces are
+
+   $$
+     Seq(n_1,n_2) = 
+     \left\{
+       \array{
+          S^0 & for\; n_1 = n_2
+          \\
+          \ast & otherwise
+       }
+    \right.
+   $$
+
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]], objects are the sets $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]]; we turn this into a $Top^{\ast/}$-[[enriched category]] by adjoining a basepoint:
+
+   $$
+     Sym(n_1, n_2) =
+     \left\{
+       \array{
+          (\Sigma_{n_1})_+ & for \; n_1 = n_2
+          \\
+          \ast & otherwise
+       }
+     \right.
+   $$
+
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
+  
+  $$
+    Orth(V_1,V_2) 
+    \simeq
+    \left\{
+       \array{
+         O(V_1)_+ & for \; dim(V_1) = dim(V_2)
+         \\
+         \ast & otherwise
+       }
+    \right.
+  $$
+
+
+1. $Top_{fin}^{\ast/}$ is the [[full subcategory]] of [[pointed topological space]] on those [[homeomorphism|homeomorphic]] to [[finite CW-complexes]], tensor product is their [[smash product]], tensor unit is the [[0-sphere]] $S^0$.
+
+Denote the canonical [[faithful functor|faithful]] [[subcategory]] inclusions by
 
 $$
-  Sym \hookrightarrow Orth \hookrightarrow Top^{\ast/}_{cg,fin}
+ \array{
+   Seq 
+     &\stackrel{seq}{\hookrightarrow}& 
+   Sym 
+    &\stackrel{sym}{\hookrightarrow}& 
+   Orth 
+     &\stackrel{orth}{\hookrightarrow}& 
+   Top_{fin}^{\ast/}
+   \\
+   n 
+    &\mapsto& 
+   \{1,\cdots, n\} 
+     &\mapsto& 
+   \mathbb{R}^n 
+    &\mapsto& 
+   S^n
+   \\
+    && 
+    && 
+   V
+    &\mapsto& 
+   S^V
+  }
+  \,,
 $$
 
-(notation as in the entry _[[Model categories of diagram spectra]]_)
+where $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the topological subspace inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$.
+
+=--
+
++-- {: .num_prop #PropertiesOfTopologicalDiagramCategoriesForSpectra}
+###### Proposition
+
+The sequence of inclusions in def. \ref{TopologicalDiagramCategoriesForSpectra} satisfies the following properties:
+
+1. All three inclusions are [[strong monoidal functors]].
+
+1. Under passing to [[enriched functor categories]], restriction $(-)^\ast$ along these inclusions and [[left Kan extension]] $(-)_!$ along them yields a sequence of [[adjunctions]]
+
+   $$
+    \array{
+      [Top_{fin}^{\ast/}, Top^{\ast/}]
+        \stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}
+      [Orth, Top^{\ast/}]
+        \stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}
+      [Sym, Top^{\ast/}] 
+        \stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+      [Seq, Top^{\ast/}] 
+    }
+     \,.
+   $$
+
+1. All four [[enriched functor categories]] become [[symmetric monoidal categories]] with the [[Day convolution]] monoidal product structure induced by the monoidal structure of their [[sites]]. 
+
+1. With respect to this all [[adjunctions]] above are symmetric [[monoidal adjunctions]] (the [[right adjoint]] is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]], the [[left adjoint]] is even a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]]).
+
+=--
+
+(e.g. [MMSS 00, I.3](#MMSS00))
+
+
+
+Notice the following:
+
++-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
+###### Lemma
+
+For $\mathcal{C}$ a $V$-[[enriched category|enriched]] [[monoidal category]], under the [[Yoneda embedding]]
+
+$$
+  y \colon \mathcal{C}^{op} \hookrightarrow [\mathcal{C}, Top^{\ast/}]
+$$
+
+the [[tensor unit]] in $\mathcal{C}$ goes to the tensor unit of the induced [[Day convolution]] structure on $[\mathcal{C}, Top^{\ast/}]$.
+
+=--
+
+(see at _[[Day convolution]]_ [this lemma](Day+convolution#DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite))
+
+
++-- {: .num_defn #StandardRepresentativeOfTheSphereSpectrum}
+###### Definition
+
+Write
+
+$$
+  \mathbb{S} \coloneqq y(S^0) \in [Top_{fin}^{\ast/}, Top^{\ast/}]
+$$
+
+for the image under the [[Yoneda embedding]] of the [[tensor unit]] in $Top_{fin}^{\ast/}$ with its [[smash product]] (the [[0-sphere]]), which by lemma \ref{DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite} is the tensor unit in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$.
+
+Since this is going to be the standard presentation of the [[sphere spectrum]] in the [[model structure for excisive functors]] on $[Top_{fin}^{\ast/}, Top^{\ast/}]$ we refer to it as _[[generalized the|the]] [[sphere spectrum]]_.
+
+For its restrictions along the above sub-site inclusions, prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, write
+
+$$
+  \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S} 
+  \,,
+  \;
+  \mathbb{S}_{Sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
+  \,,
+  \;
+  \mathbb{S}_{Seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
+  \,.
+$$
+
+
+=--
+
++-- {: .num_remark #RestrictionsOfSphereSpectrumAreStillMonoidObjects}
+###### Remark
+
+While $\mathbb{S}$ in def. \ref{StandardRepresentativeOfTheSphereSpectrum} is the [[tensor unit]] in $([Top_{fin}^{\ast/}, Top^{\ast/}], \otimes_{Day})$, neither of its restrictions $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ is the tensor unit in $([Orth, Top^{\ast/}],\otimes_{Day}), ([Sym, Top^{\ast/}],\otimes_{Day}), ([Seq, Top^{\ast/}],\otimes_{Day})$, respectively. 
+
+Nevertheless, because by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} the restriction functors are [[strong monoidal functors]] and because the tensor unit $\mathbb{S}$ canonically has the structure of a [[monoid object]], each of $\mathbb{S}_{Orth},\mathbb{S}_{Sym}, \mathbb{S}_{Seq}$ inherts the structure of a [[monoid object]] in the respective [[Day convolution]] [[monoidal category]].
+
+Moreover, $\mathbb{S}_{Orth}$ and $\mathbb{S}_{Sym}$ are [[commutative monoid objects]], while $\mathbb{S}_{Seq}$ is not commutative (due to the [graded commutativity in the smash product of spheres](smash+product+of+spectra#GradedCommutativity) which is not reflected in the trivial symmetry of the tensor product on $Seq$).
+
+| | $\mathbb{S}$ | $\mathbb{S}_{Orth}$ | $\mathbb{S}_{Sym}$ | $\mathbb{S}_{Seq}$ |
+|--|--------------|---------------------|--------------------|-------------------|
+| [[monoid object]] | yes | yes | yes | yes |
+| [[commutative monoid object]] | yes | yes | yes | no |
+| [[tensor unit]] | yes | no | no | no |
+
+Explicitly, by the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, monoids with resepct to Day convolution are equivalently [[lax monoidal functors]] on the site, and as such $\mathbb{S}_{Orth}$ is the one given by the canonical [[natural transformations]]
+
+$$
+  S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
+$$
+
+and $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ the ones given by the canonical natural transformations
+
+$$
+  S^{n_1} \wedge S^{n_2} \longrightarrow S^{n_1 + n_2}
+  \,.
+$$
+
+
+=--
+
+
+Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{StandardRepresentativeOfTheSphereSpectrum}.
+
++-- {: .num_prop #HighlyStructuredSpectraAsDayConvolutionSModules}
+###### Proposition
+
+The category of right [[module objects]] over $\mathbb{S}_{Orth}$, $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ from def. \ref{StandardRepresentativeOfTheSphereSpectrum}, which are [[monoid objects]] by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra}, remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}, are [[equivalence of categories|equivalent]], respectively, to the categories of [[orthogonal spectra]], [[symmetric spectra]] and [[sequential spectra]] (in [[compactly generated topological spaces]]):
+
+$$
+  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
+$$
+
+$$
+  \mathbb{S}_{Seq} Mod_r \simeq SeqSpec(Top)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Write $\mathbb{S}_{dia}$ for any of the three monoids. By the discussion at _[Day convolutions -- Properties -- Monoids](Day+convolution#Monoids)_, right modules with respect to [[Day convolution]] are equivalently right [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{dia}$ as in remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects}. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
+
+$$
+  X_p \wedge S^{q}  \longrightarrow X_{p+q}
+$$
+
+satisfying the evident [[categorification|categorified]] [[action]] property. In the present case this action property says that these morphisms are determined by 
+
+$$
+  X_p \wedge S^1 \longrightarrow X_{p+1}
+$$
+
+under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these morphisms as functors on $Sym$ is the equivariance under the symmetric group actions in the definition of [[symmetric spectra]]. 
+
+Similarly, modules over $\mathbb{S}_{Orth}$ are equivalently functors
+
+$$
+  X_V \wedge S^{W}  \longrightarrow X_{V \oplus W}
+$$
+
+etc. and their functoriality embodies the [[orthogonal group]]-equivariance in the definition of [[orthogonal spectra]].
+
+
+=--
+
++-- {: .num_remark #PreExcisiveFunctorsAreSModules}
+###### Remark
+
+For completeness, we may, trivially, add to the three statements in prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} the equivalence
+
+$$
+  \mathbb{S} Mod_r \simeq [Top^{\ast/}_{fin}, Top^{\ast/}]
+  \,,
+$$
+
+which holds tautologically because by def. \ref{StandardRepresentativeOfTheSphereSpectrum} $\mathbb{S}$ is in fact the [[tensor unit]] in $([Top^{\ast/}_{fin}, Top^{\ast/}],\otimes_{Day})$, so that every object here is canonically a module object over $\mathbb{S}$.
+
+Now the [[model structure on excisive functors]] shows that the category $[Top^{\ast/}_{fin}, Top^{\ast/}]$ constitutes a model for [[stable homotopy theory]], while this is not the case for either of its restrictions. 
+
+Hence we may read prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} as saying that while restricting the domain of [[excisive functors]] breaks their property of being a model for [[stable homotopy theory]], but at the same time retaining the correspondingly restricted [[sphere spectrum]]-[[module]] structure first of all becomes non-tautological after restriction and second restores the property of the objects to model spectra.
+
+=--
+
++-- {: .num_defn #SymmetricSmashProductOfDiagramSpectra}
+###### Definition
+
+By remark \ref{RestrictionsOfSphereSpectrumAreStillMonoidObjects} the categories $\mathbb{S}_{Sym} Mod_r$, $\mathbb{S}_{Orth} Mod_r$ and $\mathbb{S}_{Orth} Mod_r$ are [[categories of modules]] over a [[commutative monoid object]] and as such they inherit [[symmetric monoidal category]] structure themselves.  Via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} this is equivalently symmetric monoidal product structure 
+
+$$
+  (SymSpec(Top), \wedge)
+$$
+
+on the category of [[symmetric spectra]] and 
+
+$$
+  (OrthSpec(Top), \wedge)
+$$
+
+on that of [[orthogonal spectra]]. This is called the _[[symmetric monoidal smash product of spectra]]_.
+
+=--
+
+
++-- {: .num_remark #SystemOfStructuredSpectraAndDiagrams}
+###### Remark
+
+Combined with the [[free-forgetful adjunctions]] for [[module objects]] ([[free modules]] $\dashv$ underlying objects) the situation described by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} jointly is the following diagram of [[adjunctions]]
+
+$$
+ \array{
+   && OrthSpec(Top) && SymSpec(Top) && SeqSpec(Top)
+   \\
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_r && \mathbb{S}_{Orth} Mod_r && \mathbb{S}_{Sym} Mod_r && \mathbb{S}_{Seq} Mod_r
+   \\
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   &&
+   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
+   \\
+   [Top_{fin}^{\ast/}, Top^{\ast/}]
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   [Orth, Top^{\ast/}]
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   [Sym, Top^{\ast/}] 
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   [Seq, Top^{\ast/}] 
+ }
+  \,.
+$$
+
+=--
+
+In order to conveniently speak about all columns of the system of adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} in a unified way, we introduce the following notation.
+
++-- {: .num_defn #NotationForGenericDiagramSpectra}
+###### Definition
+
+We write $dia \in \{Top^{\ast/, Orth, Sym, Seq}\}$ generically for any one of the four sites in def. \ref{TopologicalDiagramCategoriesForSpectra}.
+
+Accordingly we write $\mathbb{S}_{dia} \in \{\mathbb{S}, \mathbb{S}_{Orth}, \mathbb{S}_{Sym}, \mathbb{S}_{Seq}\}$ generically for any one of the four incarnations of [[generalized the|the]] [[sphere spectrum]] according to def. \ref{StandardRepresentativeOfTheSphereSpectrum}, over these sites.
+
+Finally we will write
+
+
+$$
+  \mathbb{S}_{dia}Mod 
+   \stackrel{\overset{seq!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}
+  \mathbb{S}_{Seq}Mod
+  \simeq
+  SeqSpec(Top)
+$$
+
+for the [[composition]] of the sequence of [[adjunctions]] to the right of the corresponding category of modules in the diagram below in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, regarded via prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules} and landing in the category of [[sequential spectra]].
+
+=--
+
+
+
+
+
+#### Symmetric and orthogonal spectra
+ {#SymmetricSpectra}
+
+**Literature.** ([Schwede 12](#Schwede12)) 
+
+$\,$
+
+In order to accomodate the graded commutativity phenomenon of spheres in prop. \ref{GradedCommutativityOfSmashOfSpheres}, we enrich the model of [[stable homotopy theory]] based on [[sequential spectra]], def. \ref{SequentialSpectra}, by adding in [[mathematical structure|structure]] which captures the fact that the $n$th component $X_n$ of a sequential spectrum $X$ is to be thought of as the evaluation on the [[n-sphere]] and thus ought to be [[action|acted]] on by the [[automorphisms]] of the $n$-sphere. 
+
+Taking into account just the automorphisms by [[coordinate]] [[permutations]] on $S^n \simeq (S^1)^{\wedge^n}$ yields the concept of _[[symmetric spectra]]_.
+Taking into account the automorphisms by [[orthogonal group|orthogonal transformations]] on $S^n \simeq (\mathbb{R}^n)^+$ yields the concept of _[[orthogonal spectra]]_. Using _all_ automorphisms yields the concept of _pre-[[excisive functors]]_.
+
+To contrast these more structured models for spectra with the plain [[sequential spectra]], they are sometimes referred to as _[[highly structured spectra]]_.
+
+Below in _[S-modules](#SModules)_ we give a unified discussion of all four models of spectra thus obtained (sequential, symmetric, orthogonal, excisive). Further below in _[The stable model structures](#TheStableModelStructures)_ we use this to construct and understand the [[model structures on spectra]] that present [[stable homotopy theory]].
+
+$\,$
+
++-- {: .num_defn #SymmetricSpectrum}
+###### Definition
+
+A topological **[[symmetric spectrum]]** $X$  is
+
+1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
+
+1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+
+1. a sequence of morphisms  $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+
+such that
+
+* for all $n, k \in \mathbb{N}$ the [[composition|composite]]
+
+  $$
+    X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
+  $$
+
+  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+
+A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
+
+* a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
+
+such that
+
+1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma_n$-[[action]];
+
+1. the following [[commuting diagram|diagrams commute]]
+
+   $$
+     \array{
+        X_n \wedge S^1 &\stackrel{f_n \wedge id}{\longrightarrow}& Y_n \wedge S^1
+        \\
+        \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
+        \\
+        X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+     }
+     \,.
+   $$
+
+We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+
+=--
+
++-- {: .num_defn #OrthogonalSpectrum}
+###### Definition
+
+An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
+
+1. a sequence of [[pointed topological spaces]] $X_n \in Top_{cg}^{\ast/}$ (the _$n$th level_);
+
+1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
+
+1. based-point preserving [[continuous functions]] $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[smash product]] with the [[1-sphere]] (the _$n$th structure map_)
+
+such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
+
+* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_{n+k}$ given as the [[compositions]]
+
+  $$
+    \sigma^k \colon
+    X_n \wedge S^k  
+     \stackrel{\sigma_n \wedge S^{k-1}}{\longrightarrow}
+    X_{n+1} \wedge S^{k-1}
+     \stackrel{\sigma_{n-1} \wedge S^{k-2}}{\longrightarrow}
+    X_{n+2} \wedge S^{k-2}
+     \stackrel{\sigma_{n-2} \wedge S^{k-3}}{\longrightarrow}
+     \cdots
+     \stackrel{\sigma_{n+k-2} \wedge S^{1}}{\longrightarrow}
+   X_{n+k-1} \wedge S^1
+     \stackrel{\sigma_{n+k-1} }{\longrightarrow}
+    X_{n+k}  
+  $$
+
+  is $O(n) \times O(k)$-equivariant
+
+  (with respect to the $O(k)$-[[action]] on $S^k$ regarded as the [[representation sphere]] of the defining action on $\mathbb{R}^k$ and via the diagonal embedding $O(n)\times O(k) \hookrightarrow O(n+k)$).
+
+A [[homomorphism]] $f \colon X \longrightarrow Y$ of orthogonal spectra is a sequence of $O(n)$-equivariant based continuous functions $f_n \colon X_n \longrightarrow Y_n$ [[commuting diagram|commuting]] with the structure maps
+
+$$
+  \array{
+    X_n \wedge S^1 & \stackrel{\sigma_n^X}{\longrightarrow} & X_{n+1}  
+    \\
+    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
+    \\
+    Y_n \wedge S^1 & \stackrel{\sigma_n^Y}{\longrightarrow} & Y_{n+1}      
+  }
+  \,.
+$$
+
+We write $OrthSpec(Top_{cg})$ for the [[category]] of orthogonal spectra with homomorphisms between them.
+
+=--
+
 
 
 ## Related concepts
