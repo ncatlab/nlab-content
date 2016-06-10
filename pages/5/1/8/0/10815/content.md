@@ -24,7 +24,7 @@
 
 ## Idea
 
-A [[long exact sequence in cohomology]] induced by a [[spherical fibration]]. A corollary of the [[Serre spectral sequence]]:
+The _Thom-Gysin sequence_ is a type of [[long exact sequence in cohomology]] induced by a [[spherical fibration]] and expressing the [[cohomology groups]] of the total space in terms of those of the base plus correction. The sequence may be obtained as a corollary of the [[Serre spectral sequence]] for the given fibration. It induces, and is induced by, the [[Thom isomorphism]].
 
 ## Statement
  {#Statement}
@@ -96,7 +96,7 @@ $$
   \right.
 $$
 
-the only possibly non-vanishing terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, are
+the only possibly non-vanishing terms on the $E_2$ page of this spectral sequence, and hence on all the further pages, are in bidegrees $(\bullet,0)$ and $(\bullet,n)$:
 
 $$
   E^{\bullet,0}_2 \simeq H^\bullet(B; R)
@@ -108,7 +108,7 @@ $$
   \,.
 $$
 
-As a consequence, since the differentials $d_r$ in the Serre spectral sequence have bidegree $(r+1,-r)$, the only possibly non-vanishing differentials are those on the $(n+1)$-page of the form
+As a consequence, since the differentials $d_r$ on the $r$th page of the Serre spectral sequence have bidegree $(r+1,-r)$, the only possibly non-vanishing differentials are those on the $(n+1)$-page of the form
 
 $$
   \array{
@@ -129,7 +129,7 @@ $$
   \iota \coloneqq 1 \in H^0(B;R) \stackrel{\simeq}{\longrightarrow} E_{n+1}^{0,n} 
 $$
 
-for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an element in bidegree $(0,n)$ in the $(n+1)$-page of the spectral sequence. (In particular $\iota$ does _not_ denote the unit in bidegree $(0,0)$, and hence $d_{n+1}(\iota)$ need not vanish; while by the [[derivation]] property, it does vanish on the actual unit $1 \in H^0(B;R) \simeq E_{n+1}^{0,0} \simeq $.)
+for the unit in the [[cohomology ring]] $H^\bullet(B;R)$, but regarded as an element in bidegree $(0,n)$ on the $(n+1)$-page of the spectral sequence. (In particular $\iota$ does _not_ denote the unit in bidegree $(0,0)$, and hence $d_{n+1}(\iota)$ need not vanish; while by the [[derivation]] property, it does vanish on the actual unit $1 \in H^0(B;R) \simeq E_{n+1}^{0,0}$.)
 
 Write
 
@@ -143,7 +143,7 @@ $$
   H^{n+1}(B; R)
 $$
 
-for the image of this element under the differential. We will show that this is the Euler class.
+for the image of this element under the differential. We will show that this is the Euler class in question.
 
 To that end, notice that every element in $E_{n+1}^{\bullet,n}$ is of the form $\iota \cdot b$ for $b\in E_{n+1}^{\bullet,0} \simeq H^\bullet(B;R)$. 
 
@@ -163,7 +163,7 @@ $$
   \,.
 $$
 
-This shows that 
+This shows that $d_{n+1}$ is identified with the cup product operation in question:
 
 $$
   \array{
@@ -176,7 +176,7 @@ $$
   \,.
 $$
 
-Therefore the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
+In summary, the non-vanishing entries of the $E_\infty$-page of the spectral sequence sit in [[exact sequences]] like so
 
 $$
   \array{
@@ -205,7 +205,7 @@ $$
   \,.
 $$
 
-Finally observe (lemma \ref{lemma}) that due to the sparseness of the $E_\infty$-page, there are also [[short exact sequences]] of the form
+Finally observe (lemma \ref{ImplicationsOfSparesnessOfSSSForSphericalFibration}) that due to the sparseness of the $E_\infty$-page, there are also [[short exact sequences]] of the form
 
 $$
   0 \to E_\infty^{s,0} \longrightarrow H^s(E; R) \longrightarrow  E_\infty^{s-n,n} \to 0
@@ -216,13 +216,21 @@ Concatenating these with the above exact sequences yields the desired [[long exa
 
 =--
 
-+-- {: .num_lemma #lemma}
++-- {: .num_lemma #ImplicationsOfSparesnessOfSSSForSphericalFibration}
 ###### Lemma
 
-For a cohomology [[spectral sequence]] converging to some $C^\bullet$ with the property that $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$, then there are [[short exact sequences]] of the form
+Consider a cohomology [[spectral sequence]] converging to some [[filtered object|filtered]] [[graded abelian group]] $F^\bullet C^\bullet$ such that 
+
+1. $F^0 C^\bullet = C^\bullet$;
+
+1. $F^{s} C^{\lt s} = 0$;
+
+1. $E_\infty^{s,t} = 0$ unless $t = 0$ or $t = n$, 
+
+for some $n \in \mathbb{N}$, $n \geq 1$. Then there are [[short exact sequences]] of the form
 
 $$
-  0 \to E_\infty^{s,0} \longrightarrow C^s \longrightarrow  E_\infty^{s-n,n} \to 0
+  0 \to E_\infty^{s,0} \overset{}{\longrightarrow} C^s \longrightarrow  E_\infty^{s-n,n} \to 0
   \,.
 $$
 
@@ -233,40 +241,67 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition of convergence the $E_{\infty}^{s,t}$ sit in [[short exact sequences]] of the form
+By definition of convergence of a spectral sequence, the $E_{\infty}^{s,t}$ sit in [[short exact sequences]] of the form
 
 $$
-  0 \to F^{s+1}C^{s+t} \longrightarrow F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
+  0 \to F^{s+1}C^{s+t} \overset{i}{\longrightarrow} F^s C^{s+t} \longrightarrow E_\infty^{s,t} \to 0
   \,.
 $$
 
-So when $E_\infty^{s,t} = 0$ the left morphism here is an [[isomorphism]].
+So when $E_\infty^{s,t} = 0$ then the morphism $i$ above is an [[isomorphism]].
 
 We may use this to either shift away the filtering degree
 
-* if $t \geq n$ then $F^s C^{s+t} = F^{s}C^{s-1+t+1} \simeq F^0 C^{s-1+t+1} = F^0 C^{s+t} \simeq C^{s+t}$.
+* if $t \geq n$ then $F^s C^{s+t} = F^{(s-1)+1}C^{(s-1)+(t+1)} \underoverset{\simeq}{i^{s-1}}{\longrightarrow} F^0 C^{(s-1)+(t+1)} = F^0 C^{s+t} \simeq C^{s+t}$;
 
 or to shift away the offset of the filtering to the total degree:
 
-* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{s+1+t-1} = F^{s+t}C^{s+1+t-1} = F^{s+t}C^{s+t}$
+* if $0 \leq t-1 \leq n-1$ then $F^{s+1}C^{s+t} = F^{s+1}C^{(s+1)+(t-1)} 
+  \underoverset{\simeq}{i^{-(t-1)}}{\longrightarrow} F^{s+t}C^{(s+1)+(t-1)} = F^{s+t}C^{s+t}$
 
-* if $t \lt 0$ then $F^{s}C^{s+t} = 0$.
-
-In particular $F^{s}C^{s} \simeq E_\infty^{s,0}$.
-
-Hence the defining exact sequence
+Moreover, by the assumption that if $t \lt 0$ then $F^{s}C^{s+t} = 0$, we also get
 
 $$
-  0 \to F^{s+1}C^{s+n} \longrightarrow F^{s}C^{s+n} \longrightarrow E_\infty^{s,n} \to 0
-$$
-
-becomes
-
-$$
-  0 \to E_\infty^{s+n,0} \longrightarrow C^{s+n} \longrightarrow E_\infty^{s,n}
- \to 0
+  F^{s}C^{s} \simeq E_\infty^{s,0}
   \,.
 $$
+
+In summary this yields the vertical isomorphisms
+
+$$
+  \array{
+  0 
+    &\to& 
+  F^{s+1}C^{s+n} 
+    &\longrightarrow& 
+  F^{s}C^{s+n} 
+    &\longrightarrow& 
+  E_\infty^{s,n} 
+    &\to& 
+  0
+  \\
+  && 
+    {}^{\mathllap{i^{-(n-1)}}}\downarrow^{\mathrlap{\simeq}} 
+  &&
+    {}^{\mathllap{i^{s-1}}}\downarrow^{\mathrlap{\simeq}}
+  &&
+    \downarrow^{\mathrlap{=}}
+  \\
+  0 
+    &\to& 
+  F^{s+n}C^{s+n}
+  \simeq
+  E_\infty^{s+n,0} 
+    &\longrightarrow& 
+  C^{s+n} 
+    &\longrightarrow& 
+  E_\infty^{s,n}
+    &\to& 
+  0
+  }
+$$
+
+and hence with the top sequence here being exact, so is the bottom sequence.
 
 =--
 
