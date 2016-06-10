@@ -1,18 +1,2 @@
-$$
-  \array{
-    E \otimes A \otimes E
-    & 
-    \underoverset
-      {\underset{}{\longrightarrow}}
-      {\overset{}{\longrightarrow}}
-      {\phantom{AAA}}
-    &
-    E \otimes E
-     &\overset{coeq}{\longrightarrow}&
-    E \otimes_A E
-    \\
-    && & {}_{\mathllap{\mu_A}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
-    \\
-    && && A
-  }
-$$
+
+$\bigvee$
