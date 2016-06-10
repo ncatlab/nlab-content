@@ -22,6 +22,8 @@
 
 A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of interesting examples and applications.
 
+Many semicartesian monoidal categories are also [[symmetric monoidal category|symmetric]], and sometimes that is included in the definition.
+
 ## Examples
 
 Some examples of semicartesian monoidal categories that are not cartesian include the following.
@@ -44,7 +46,7 @@ where the isomorphism displayed is the canonical one. This monoidal product is s
 
 ## Internal logic
 
-The [[internal logic]] of a semicartesian monoidal category is [[affine logic]], which is like [[linear logic]] but permits the [[weakening rule]].
+The [[internal logic]] of a (symmetric) semicartesian monoidal category is [[affine logic]], which is like [[linear logic]] but permits the [[weakening rule]] (and also the [[exchange rule]], if the monoidal structure is symmetric).
 
 ## Properties
 
