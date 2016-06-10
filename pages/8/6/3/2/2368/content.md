@@ -1928,7 +1928,28 @@ $$
   ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
 $$
 
-a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
+into a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
+
+Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then $( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ becomes itself a [[braided monoidal category]] with braiding given by
+
+$$
+  \array{
+    (X \otimes_{Day} Y)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
+    \\
+    {}^{\mathllap{\tau}_{X,Y}(c)}\downarrow
+    &&
+    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
+    \\
+    (Y \otimes_{Day} X)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
+  }
+  \,.
+$$
 
 =--
 
@@ -1971,6 +1992,8 @@ $$
 $$
 
 where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+
+Similarly, if $\mathcal{C}$ is braided then the hexagon identity for the [[braiding]] follows, under the coend, from the hexagon identities for the braidings in $\mathcal{C}$ and $Top^{\ast/}_{cg}$.
 
 To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
@@ -2250,6 +2273,25 @@ $$
   \,.
 $$
 
+Similarly, for 
+
+$$
+   A 
+    \in 
+   Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+$$
+
+any fixed monoid, then $f^\ast$ sends $A$-[[module object]] to $f^\ast(A)$-modules
+
+$$
+  f^\ast
+    \;\colon\;
+  A Mod(\mathcal{D})
+    \longrightarrow
+  (f^\ast A)Mod(\mathcal{C})
+  \,.
+$$
+
 
 =--
 
@@ -2371,9 +2413,9 @@ Define the following [[pointed topologically enriched categories|pointed topolog
     \right.
    $$
 
-   The tensor product is the addition of natural numbers, $\otimes = +$, and the [[tensor unit]] is 0. 
+   The tensor product is the addition of natural numbers, $\otimes = +$, and the [[tensor unit]] is 0. The [[braiding]] is, necessarily, the identity.
 
-1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\{1, \cdots,n\}$ for $n \in \mathbb{N}$, all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$, all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma_n$, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
 
    $$
      Sym(n_1, n_2) =
@@ -2386,7 +2428,18 @@ Define the following [[pointed topologically enriched categories|pointed topolog
      \right.
    $$
 
-   The tensor product is the [[disjoint union]] of sets, tensor unit is the [[empty set]].
+   The [[tensor product]] is the [[disjoint union]] of sets, tensor unit is the [[empty set]]. The [[braiding]] 
+
+   $$
+     \tau_{n_1 , n_2}
+     \;\colon\;
+     \overline{n_1} \cup \overline{n_2}
+       \overset{}{\longrightarrow}
+     \overline{n_2} \cup \overline{n_1}
+   $$
+
+   is given by the canonical [[permutation]] in $\Sigma_{n_1+n_2}$ that [[shuffle|shuffles]] the first $n_1$ elements past the remaining $n_2$ elements.
+
 
 1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
   
@@ -2401,6 +2454,8 @@ Define the following [[pointed topologically enriched categories|pointed topolog
        }
     \right.
   $$
+
+   The [[tensor product]] is the [[direct sum]] of linear inner product spaces, tensor unit is the 0-vector space. The [[braiding]] is that of $Sym$, under the canonical embedding $\Sigma_{n_1+n_2} \hookrightarrow O(n_1+n_2)$ of the [[symmetric group]] into the [[orthogonal group]].
 
 
 There is a sequence of canonical [[faithful functor|faithful]] pointed topological [[subcategory]] inclusions 
@@ -2453,13 +2508,13 @@ $$
 Write 
 
 $$
-  \mathbb{S}_{Orth} \coloneqq orth^\ast \mathbb{S}_{exc} 
+  \mathbb{S}_{orth} \coloneqq orth^\ast \mathbb{S}_{exc} 
   \,,
-  \;
-  \mathbb{S}_{Sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
+  \;\;\;\;\;\;\;\;
+  \mathbb{S}_{sym} \coloneqq sym^\ast \mathbb{S}_{orth} 
   \,,
-  \;
-  \mathbb{S}_{Seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
+  \;\;\;\;\;\;\;\;
+  \mathbb{S}_{seq} \coloneqq seq^\ast \mathbb{S}_{sym} 
 $$
 
 for the restriction of the excisive functor incarnation of the [[sphere spectrum]] (from def. \ref{FinitePointedCWComplexes}) along these inclusions.
@@ -2467,15 +2522,47 @@ for the restriction of the excisive functor incarnation of the [[sphere spectrum
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #RestrictionsOfExcisiveSphere}
 ###### Remark
 
 
-Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}, all these restricted sphere spectra are still [[monoid object|monoids]]. However, while $orth$ and $sym$ are [[braided monoidal functors]], the functor $seq$ is not braided, hence $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids, but $\mathbb{S}_{Seq}$ is not commutative.
+Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolution]] product on pre-excisive functors, and since it is therefore canonically a [[commutative monoid]], by example \ref{MonoidGivenByTensorUnit}, 
+prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution}
+says that all these restricted sphere spectra are still [[monoid object|monoids]], and that under restriction every [[pre-excisive functor]], regarded as a $\mathbb{S}_{exc}$-[[module object|module]] via remark \ref{EveryPreExcisiveFunctorIsSModule}, canonically becomes a [[module object|module]] under the restricted sphere spectrum:
+
+$$
+  \begin{aligned}
+    orth^\ast
+    & \colon\;
+  Exc(Top_{cg})
+  \simeq
+  \mathbb{S}_{exc} Mod
+   \longrightarrow
+  \mathbb{S}_{orth} Mod
+  \\
+  sym^\ast
+   &\colon\;
+  Exc(Top_{cg})
+  \simeq
+  \mathbb{S}_{exc} Mod
+   \longrightarrow
+  \mathbb{S}_{sym} Mod
+  \\
+  seq^\ast
+   &\colon\;
+  Exc(Top_{cg})
+  \simeq
+  \mathbb{S}_{exc} Mod
+   \longrightarrow
+  \mathbb{S}_{seq} Mod
+  \end{aligned}
+  \,.
+$$
+
+However, while $orth$ and $sym$ are [[braided monoidal functors]], the functor $seq$ is not braided, hence $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids, but $\mathbb{S}_{Seq}$ is not commutative. Hence prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} gives the following situation
 
 
-
-| | $\mathbb{S}$ | $\mathbb{S}_{Orth}$ | $\mathbb{S}_{Sym}$ | $\mathbb{S}_{Seq}$ |
+| [[sphere spectrum]] | $\mathbb{S}_{exc}$ | $\mathbb{S}_{orth}$ | $\mathbb{S}_{sym}$ | $\mathbb{S}_{seq}$ |
 |--|--------------|---------------------|--------------------|-------------------|
 | [[monoid in a monoidal category|monoid]] | yes | yes | yes | yes |
 | [[commutative monoid in a symmetric monoidal category|commutative monoid]] | yes | yes | yes | no |
@@ -2484,74 +2571,174 @@ Since $\mathbb{S}_{exc}$ is the [[tensor unit]] with repect to the [[Day convolu
 
 =--
 
-
-Therefore we may consider [[module objects]] over the restrictions of [[generalized the|the]] [[sphere spectrum]] from def. \ref{TopologicalDiagramCategoriesForSpectra}.
-
-+-- {: .num_prop #HighlyStructuredSpectraAsDayConvolutionSModules}
++-- {: .num_prop #SseqModulesAreSequentialSpectra}
 ###### Proposition
 
-The [[categories of modules]] (def. \ref{ModulesInMonoidalCategory}) over $\mathbb{S}_{Orth}$, $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) are [[equivalence of categories|equivalent]], respectively, to the categories of [[orthogonal spectra]], [[symmetric spectra]] and [[sequential spectra]] (in [[compactly generated topological spaces]]):
+There is an [[equivalence of categories]]
 
 $$
-  \mathbb{S}_{Orth} Mod \simeq OrthSpec(Top_{cg})
+  (-)^{seq}
+  \;\colon\;
+  \mathbb{S}_{seq} Mod
+    \overset{}{\longrightarrow}
+  SeqSpec(Top_{cg})
 $$
 
-$$
-  \mathbb{S}_{Sym} Mod \simeq SymSpec(Top_{cg})
-$$
+which identifies the [[category of modules]] (def. \ref{ModulesInMonoidalCategory}) over the [[monoid object|monoid]] $\mathbb{S}_{seq}$ (remark \ref{RestrictionsOfExcisiveSphere}) in the [[Day convolution]] monoidal structure (prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}) over the topological functor category $[Seq,Top^{\ast/}_{cg}]$ from def. \ref{TopologicalDiagramCategoriesForSpectra} with the category of [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1#SequentialSpectra))
+
+Under this equivalence, an $\mathbb{S}_{seq}$-module $X$ is taken to the sequential pre-spectrum $X^{seq}$ whose component spaces are the values of the [[pre-excisive functor]] $X$ on the standard [[n-sphere]] $S^n = (S^1)^{\wedge n}$
 
 $$
-  \mathbb{S}_{Seq} Mod \simeq SeqSpec(Top_{cg})
+  (X^{seq})_n \coloneqq X(seq(n)) = X(S^n)
+$$
+
+and whose structure maps are the images of the action morphisms
+
+$$
+  \mathbb{S}_{seq} \otimes_{Day} X
+    \longrightarrow
+  X
+$$
+
+under the isomorphism of corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}
+
+$$
+  \mathbb{S}_{seq}(n_1) \wedge X(n_1) \longrightarrow X_{n_1 + n_2}
+$$
+
+evaluated at $n_1 = 1$
+
+$$
+  \array{
+    \mathbb{S}_{seq}(1) \wedge X(n) 
+      &\longrightarrow& 
+    X_{n+1}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\simeq}}
+    \\
+    S^1 \wedge X_n &\longrightarrow& X_{n+1}
+  }
   \,.
 $$
+
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Write $\mathbb{S}_{dia}$ for any of the three monoids. By prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, left modules with respect to [[Day convolution]] are equivalently [[modules over monoidal functors]] over the monoidal functor corresponding to $\mathbb{S}_{dia}$. This means that for $\mathbb{S}_{Sym}$ and $\mathbb{S}_{Seq}$ they are functors $X \colon Sym \longrightarrow sSet^{\ast/}$ or $X \colon Seq \longrightarrow sSet^{\ast/}$, respectively equipped with [[natural transformations]]
+After unwinding the definitions, the only point to observe is that due to the action property, 
 
 $$
-  S^1 \wedge X_p   \longrightarrow X_{p+q}
+  \array{
+    \mathbb{S}_{seq} \otimes_{Day} \mathbb{S}_{seq} \otimes_{Day} X
+      &\overset{id \otimes_{Day} \rho}{\longrightarrow}&
+    \mathbb{S}_{seq} \otimes_{Day} X
+    \\
+    {}^{\mathllap{\mu \otimes_{Day} id } }\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    \mathbb{S}_{seq} \otimes_{Day} X
+      &\underset{\rho}{\longrightarrow}&
+    X
+  }
 $$
 
-satisfying the evident [[categorification|categorified]] [[action]] property. In the present case this action property says that these morphisms are determined by 
+any $\mathbb{S}_{seq}$-action 
 
 $$
-  S^1 \wedge X_p  \longrightarrow X_{p+1}
+  \rho
+  \;\colon\;
+  \mathbb{S}_{seq} \otimes_{Day} X \longrightarrow X
 $$
 
-under the isomorphisms $S^p \simeq S^1 \wedge S^{p-1}$. Naturality of all these morphisms as functors on $Sym$ is the equivariance under the symmetric group actions in the definition of [[symmetric spectra]]. 
-
-Similarly, modules over $\mathbb{S}_{Orth}$ are equivalently functors
+is indeed uniquely fixed by the components of the form
 
 $$
-  S^W \wedge X_V   \longrightarrow X_{V \oplus W}
+  \mathbb{S}_{seq}(1) \wedge X(n) \longrightarrow X(n)
+  \,.
 $$
 
-etc. and their functoriality embodies the [[orthogonal group]]-equivariance in the definition of [[orthogonal spectra]].
+This is because under corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} the action property is identified with the componentwise property
+
+$$
+  \array{
+    S^{n_1} \wedge S^{n_2} \wedge X_{n_3}
+      &\overset{id \wedge \rho_{n_2,n_3}}{\longrightarrow}&
+    S^{n_1} \wedge X_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\rho_{n_1,n_2+n_3}}}
+    \\
+    S^{n_1 + n_2} \wedge X_{n_3}
+     &\underset{\rho_{n_1+n_2,n_3}}{\longrightarrow}&
+    X_{n_1 + n_2 + n_3}
+  }
+  \,,
+$$
+
+where the left vertical morphism is an isomorphism by the nature of $\mathbb{S}_{seq}$. Hence this fixes the components $\rho_{n',n}$ to be the $n'$-fold composition of the structure maps $\sigma_n \coloneqq \rho(1,n)$.
+
+=--
+
+However, since, by remark \ref{SseqModulesAreSequentialSpectra}, $\mathbb{S}_{seq}$ is not commutative, there is no tensor product induced on $SeqSpec(Top_{cg})$ under the identification in prop. \ref{SseqModulesAreSequentialSpectra}. But since $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids by remark \ref{SseqModulesAreSequentialSpectra}, it makes sense to consider the following definition.
+
++-- {: .num_defn #SsymModuleSymmetricSpectra}
+###### Definition
+
+In the terminology of remark \ref{RestrictionsOfExcisiveSphere} we say that
+
+$$
+  OrthSpec(Top_{cg})
+   \coloneqq
+  \mathbb{S}_{orth} Mod
+$$
+
+is the **[[category]] of [[orthogonal spectra]]**; and that
+
+$$
+  SymSpec(Top_{cg})
+   \coloneqq
+  \mathbb{S}_{sym} Mod
+$$
+
+is the **[[category]] of [[symmetric spectra]]**.
+
+By remark \ref{RestrictionsOfExcisiveSphere} and by prop. \ref{MonoidalCategoryOfModules} these categories canonically carry a [[symmetric monoidal category|symmetric monoidal]] [[tensor product]] $\otimes_{\mathbb{S}_{orth}}$ and $\otimes_{\mathbb{S}_{seq}}$, respectively. This we call the **[[symmetric monoidal smash product of spectra]]**. We usually just write for short
+
+$$
+  \wedge 
+    \coloneqq 
+  \otimes_{\mathbb{S}_{orth}}   
+  \;\colon\;
+  OrthSpec(Top_{cg}) \times OrthSpec(Top_{cg})
+   \longrightarrow
+  OrthSpec(Top_{cg})
+$$
+
+and
+
+$$
+  \wedge 
+    \coloneqq 
+  \otimes_{\mathbb{S}_{sym}}   
+  \;\colon\;
+  SymSpec(Top_{cg}) \times SymSpec(Top_{cg})
+   \longrightarrow
+  SymSpec(Top_{cg})
+$$
 
 
 =--
 
-
-
-
-
+In the next section we work out what these symmetric monoidal categories of orthogonal and of symmetric spectra look like more explicitly.
 
 ### For symmetric and orthogonal spectra
+ {#ForSymmetricAndOrthogonalSpectra}
 
-In order to accomodate the graded commutativity phenomenon of spheres in prop. \ref{GradedCommutativityOfSmashOfSpheres}, we enrich the model of [[stable homotopy theory]] based on [[sequential spectra]], def. \ref{SequentialSpectra}, by adding in [[mathematical structure|structure]] which captures the fact that the $n$th component $X_n$ of a sequential spectrum $X$ is to be thought of as the evaluation on the [[n-sphere]] and thus ought to be [[action|acted]] on by the [[automorphisms]] of the $n$-sphere. 
+We now define [[symmetric spectra]] and [[orthogonal spectra]] and their symmetric monoidal smash product. We proceed by giving the explicit definitions and then checking that these are equivalent to the abstract definition \ref{SsymModuleSymmetricSpectra} from above.
 
-Taking into account just the automorphisms by [[coordinate]] [[permutations]] on $S^n \simeq (S^1)^{\wedge^n}$ yields the concept of _[[symmetric spectra]]_.
-Taking into account the automorphisms by [[orthogonal group|orthogonal transformations]] on $S^n \simeq (\mathbb{R}^n)^+$ yields the concept of _[[orthogonal spectra]]_. Using _all_ automorphisms yields the concept of _pre-[[excisive functors]]_.
-
-To contrast these more structured models for spectra with the plain [[sequential spectra]], they are sometimes referred to as _[[highly structured spectra]]_.
-
-Below in _[S-modules](#SModules)_ we give a unified discussion of all four models of spectra thus obtained (sequential, symmetric, orthogonal, excisive). Further below in _[The stable model structures](#TheStableModelStructures)_ we use this to construct and understand the [[model structures on spectra]] that present [[stable homotopy theory]].
-
-$\,$
 
 +-- {: .num_defn #SymmetricSpectrum}
 ###### Definition
@@ -2560,21 +2747,30 @@ A topological **[[symmetric spectrum]]** $X$  is
 
 1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
 
-1. a sequence of morphisms  $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ 
+1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
 such that
 
 * for all $n, k \in \mathbb{N}$ the [[composition|composite]]
 
   $$
-    X_n \wedge S^{k} \stackrel{\sigma_n \wedge id}{\longrightarrow} X_{n+1} \wedge S^{k-1} \stackrel{\sigma_{n+1}\wedge id}{\longrightarrow} \cdots \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
+    S^{k} \wedge X_n 
+     \simeq
+    S^{k-1} \wedge S^1 \wedge X_n
+      \stackrel{id \wedge \sigma_n }{\longrightarrow} 
+    S^{k-1} \wedge X_{n+1} 
+      \simeq
+    S^{k-2}\wedge S^1 \wedge X_{n+2}
+      \stackrel{id \wedge \sigma_{n+1}}{\longrightarrow} 
+    \cdots 
+    \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $\Sigma_{n+k}$-[[action]].
+  [[intertwiner|intertwines]] the $\Sigma_{n} \times \Sigma_k$-[[action]].
 
-A [[morphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
+A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 * a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
 
@@ -2586,7 +2782,9 @@ such that
 
    $$
      \array{
-        X_n \wedge S^1 &\stackrel{f_n \wedge id}{\longrightarrow}& Y_n \wedge S^1
+        S^1 \wedge X_n  
+          &\stackrel{f_n \wedge id}{\longrightarrow}& 
+        S^1 \wedge Y_n 
         \\
         \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
         \\
@@ -2599,54 +2797,228 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 =--
 
+(e.g. [Schwede 12, def. 1.1](#Schwede12))
+
+
 +-- {: .num_defn #OrthogonalSpectrum}
 ###### Definition
 
-An _[[orthogonal spectrum]]_ $X$ consists of for each $n \in \mathbb{N}$
+A topological **[[orthogonal spectrum]]** $X$  is
 
-1. a sequence of [[pointed topological spaces]] $X_n \in Top_{cg}^{\ast/}$ (the _$n$th level_);
+1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a base-point preserving [[continuous function|continuous]] [[action]] of the [[topological group|topological]] [[orthogonal group]] $O(n)$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[orthogonal group]] $O(n)$ on $X_n$;
 
-1. based-point preserving [[continuous functions]] $\sigma_n \colon X_n \wedge S^1 \longrightarrow X_{n+1}$ from the [[smash product]] with the [[1-sphere]] (the _$n$th structure map_)
+1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
-such that for all $n,k \in \mathbb{N}$ with $k \geq 1$
+such that
 
-* the [[continuous functions]] $\sigma^k \colon X_n \wedge S^k \longrightarrow X_{n+k}$ given as the [[compositions]]
+* for all $n, k \in \mathbb{N}$ the [[composition|composite]]
 
   $$
-    \sigma^k \colon
-    X_n \wedge S^k  
-     \stackrel{\sigma_n \wedge S^{k-1}}{\longrightarrow}
-    X_{n+1} \wedge S^{k-1}
-     \stackrel{\sigma_{n-1} \wedge S^{k-2}}{\longrightarrow}
-    X_{n+2} \wedge S^{k-2}
-     \stackrel{\sigma_{n-2} \wedge S^{k-3}}{\longrightarrow}
-     \cdots
-     \stackrel{\sigma_{n+k-2} \wedge S^{1}}{\longrightarrow}
-   X_{n+k-1} \wedge S^1
-     \stackrel{\sigma_{n+k-1} }{\longrightarrow}
-    X_{n+k}  
+    S^{k} \wedge X_n 
+     \simeq
+    S^{k-1} \wedge S^1 \wedge X_n
+      \stackrel{id \wedge \sigma_n }{\longrightarrow} 
+    S^{k-1} \wedge X_{n+1} 
+      \simeq
+    S^{k-2}\wedge S^1 \wedge X_{n+2}
+      \stackrel{id \wedge \sigma_{n+1}}{\longrightarrow} 
+    \cdots 
+    \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  is $O(n) \times O(k)$-equivariant
+  [[intertwiner|intertwines]] the $O(n) \times Ok()$-[[action]].
 
-  (with respect to the $O(k)$-[[action]] on $S^k$ regarded as the [[representation sphere]] of the defining action on $\mathbb{R}^k$ and via the diagonal embedding $O(n)\times O(k) \hookrightarrow O(n+k)$).
+A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
-A [[homomorphism]] $f \colon X \longrightarrow Y$ of orthogonal spectra is a sequence of $O(n)$-equivariant based continuous functions $f_n \colon X_n \longrightarrow Y_n$ [[commuting diagram|commuting]] with the structure maps
+* a sequence of maps $f_n \colon X_n \longrightarrow Y_n$
+
+such that
+
+1. each $f_n$ [[intertwiner|intetwines]] the $O(n)$-[[action]];
+
+1. the following [[commuting diagram|diagrams commute]]
+
+   $$
+     \array{
+        S^1 \wedge X_n  
+          &\stackrel{f_n \wedge id}{\longrightarrow}& 
+        S^1 \wedge Y_n 
+        \\
+        \downarrow^{\mathrlap{\sigma^X_n}} && \downarrow^{\mathrlap{\sigma^Y_n}}
+        \\
+        X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
+     }
+     \,.
+   $$
+
+We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+
+=--
+
+
++-- {: .num_prop #DiagramSpectraGiveSymmetricAndOrthogonalSpectra}
+###### Proposition
+
+Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
+are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
 $$
-  \array{
-    X_n \wedge S^1 & \stackrel{\sigma_n^X}{\longrightarrow} & X_{n+1}  
-    \\
-    \downarrow^{\mathrlap{f_n}} && \downarrow^{\mathrlap{f_{n+1}}}
-    \\
-    Y_n \wedge S^1 & \stackrel{\sigma_n^Y}{\longrightarrow} & Y_{n+1}      
-  }
+  OrthSpec(Top_{cg})
+   \simeq
+  \mathbb{S}_{orth} Mod
+$$
+
+and
+
+$$
+  SymSpec(Top_{cg})
+   \simeq
+  \mathbb{S}_{sym} Mod
   \,.
 $$
 
-We write $OrthSpec(Top_{cg})$ for the [[category]] of orthogonal spectra with homomorphisms between them.
+=--
+
++-- {: .num_defn #SmashProductOfSymmetricSpectra}
+###### Definition
+
+Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{SymmetricSpectrum}, then their **[[smash product of spectra]]** is the symmetric spectrum
+
+$$
+  X \wedge Y \in SymSpec(Top_{cg})
+$$
+
+with component spaces the [[coequalizer]]
+
+$$
+  \underset{p+1+q = n}{\bigvee}
+  (\Sigma_{p+1+q})_+ 
+    \underset{\Sigma_p \times \Sigma_1 \times \Sigma_q}{\wedge}
+  X_p \wedge S^1 \wedge X_q
+  \underoverset
+   {\underset{r}{\longrightarrow}}
+   {\overset{\ell}{\longrightarrow}}
+   {\phantom{AAAA}}
+  \underset{p+q=n}{\bigvee}
+   (\Sigma_{p+q})_+
+   \underset{\Sigma_p \times \Sigma_q}{\wedge}
+   X_p \wedge X_q
+  \overset{coequ}{\longrightarrow}
+  (X \wedge Y)(n)
+$$
+
+where $\ell$ has components given by the structure maps
+
+$$
+  X_p \wedge S^1 \wedge X_q
+    \overset{id \wedge \sigma_q}{\longrightarrow}
+  X_p \wedge X_q
+$$
+
+while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
+
+$$
+  X_p \wedge S^1 \wedge X_q
+    \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
+  S^1 \wedge X_p \wedge X_q
+    \overset{\sigma_p\wedge id}{\longrightarrow}
+  X_{p+1} \wedge X_q
+    \overset{\chi_{p,1} \wedge id}{\longrightarrow}
+  X_{1+p} \wedge X_q
+  \,.
+$$
+
+The structure maps of $X \wedge Y$ are those induced under the coequalizer by
+
+$$
+  S^1 \wedge X_p \wedge X_q
+   \overset{\sigma_p\wedge id}{\longrightarrow}
+  X_{p+1} \wedge X_q
+  \,.
+$$
+
+=--
+
+(e.g. [Schwede 12, p. 82](#Schwede12))
+
++-- {: .num_prop #AbstractFormulaGivesSmashProductOfSymmetricSpectra}
+###### Proposition
+
+Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
+
+$$
+  \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
+
+$$
+  X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
+  \underoverset
+    {\underset{\rho_{1}\circ (\tau_{X, \mathbb{S}_{sym}} \otimes Y)}{\longrightarrow}}
+    {\overset{X \otimes \rho_2}{\longrightarrow}}
+    {\phantom{AAAA}}
+  X \otimes Y
+    \overset{coequ}{\longrightarrow}
+  X \otimes_{\mathbb{S}_{seq}} Y
+  \,.
+$$
+
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra} and hence for any two symmetric spectra $A$ and $B$ this is
+
+$$
+  \begin{aligned}
+    (A \otimes_{Day} B)(n)
+    & =
+    \overset{n_1,n_2}{\int}
+     \underset{
+      = \left\{
+          \array{
+             \Sigma_{n_1 + n_2} & if \; n_1+n_2 = n 
+             \\
+             \emptyset & otherwise
+           }
+      \right.
+     }{
+       \underbrace{Sym(n_1 + n_2, n)}
+     }_+
+      \wedge
+     A_{n_1}
+      \wedge
+     B_{n_1}
+    \\
+    & \simeq
+    \underset{n_1 + n_2 = n}{\bigvee}
+     (\Sigma_{n_1+n_2})_+
+     \underset{\Sigma_{n_1}\times \Sigma_{n_2}}{\wedge}     
+     \left(
+       A_{n_1}
+         \wedge
+       B_{n_2}
+     \right)
+  \end{aligned}
+  \,.
+$$
+
+This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves conjugation by the braiding $\tau^{Top^{\ast/}_{cg}}$ in $Top^{\ast/}_{cg}$ and the symmetric group action, which by def. \ref{TopologicalDiagramCategoriesForSpectra} is the braiding $\tau^{Sym}_{n_1,n_2}$ in $Sym$, use the formula for the braiding of the Day convolution tensor product from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+
+$$
+  \tau_{A,B}(n)
+  =
+  \overset{n_1,n_2}{\int}
+   Sym( \tau^{Sym}_{n_1,n_2}, n )
+    \wedge 
+   \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
+  \,.
+$$
 
 =--
 
