@@ -271,15 +271,15 @@ $$
     \\
     &
     \simeq
-    f^{-1}(im(g^R))/im(h)
+    f^{-1}(im(g^{R-1}))/im(h)
     \\
     &
     \simeq
-    im(g^R) \cap im(f)
+    im(g^{R-1}) \cap im(f)
     \\
     & 
     \simeq
-    im(g^R) \cap ker(g)
+    im(g^{R-1}) \cap ker(g)
   \end{aligned}
 $$
 
