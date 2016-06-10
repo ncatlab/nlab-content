@@ -36,6 +36,7 @@ $$
 
 from the [[cohomology]] of $X$ to the [[reduced cohomology]] of the [[Thom space]] $Th(V)$, given by pullback to the [[Thom space]] followed by [[cup product]] with a [[Thom class]] $c \in H^n(Th(V))$. That this is indeed an [[isomorphism]] follows via the [[Leray-Hirsch theorem]] (see e.g. [Ebert 12, 2.3,2.4](#Ebert12)) or from running a [[Serre spectral sequence]] (e.g. [Kochmann 96, section 2.6](#Kochmann96)).
 
+In the special case that the vector bundle is trivial of rank $n$, then its [[Thom space]] coincides with the $n$-fold [[suspension]] of the base space ([exmpl.](Thom+space#ThomSpaceConstructionReducingToSuspension)) and the Thom isomorphism coincides with the [[suspension isomorphism]]. In this sense the Thom isomorphism may be regarded as a _twisted suspension isomorphism_.
 
 More generally for $E$ a [[multiplicative cohomology theory]], and $V \to X$ a [[vector bundle]] of rank $n$, which is $E$-[[orientation in generalized cohomology|orientable]], there is a generalization to a  **Thom-Dold isomorphism** 
  
