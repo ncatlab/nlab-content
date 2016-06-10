@@ -30,7 +30,7 @@ The _Thom-Gysin sequence_ is a type of [[long exact sequence in cohomology]] ind
  {#Statement}
 
 
-+-- {: .num_prop }
++-- {: .num_prop #ThomGysinSequence}
 ###### Proposition
 
 Let $R$ be a [[commutative ring]] and let
