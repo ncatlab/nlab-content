@@ -41,7 +41,6 @@ For $E = M \mathbb{Z}_p$ the [[Moore spectrum]] of the [[cyclic group]] $\mathbb
 +-- {: .num_defn #AcyclicAndLocal}
 ###### Definition
 
-
 Let $E \in Spec$ be a [[spectrum]]. 
 
 Say that another spectrum
@@ -59,7 +58,7 @@ Say that a morphism $f \colon X \to Y$ is an **$E$-equivalence** if it becomes a
 +-- {: .num_prop #LocalizationCofiber}
 ###### Proposition
 
-For $E$ a [[spectrum]], every spectrum sits in an essentially unique [[homotopy cofiber sequence]]
+For $E \in Ho(Spectra)$ any [[spectrum]], every spectrum $X$ sits in an essentially unique [[homotopy cofiber sequence]]
 
 $$
   G_E(X) \to X \to L_E(X)
@@ -78,12 +77,13 @@ according to def. \ref{AcyclicAndLocal}.
 
 =--
 
-(e.g. [Lurie, Lecture 20, example 4](#Lurie10))
+([Bousfield 79, theorem 1.1](#Bousfield79), [Lurie, Lecture 20, example 4](#Lurie10))
+
 
 +-- {: .num_remark #Acyclification}
 ###### Remark
 
-Hence where $L_E$ is traditionally called "$E$-localization", $G_E$ might be called "$E$-acyclification", though that terminology is not used very commonly. 
+Hence where $L_E$ is traditionally called "$E$-localization", $G_E$ might be called "$E$-acyclification", though that terminology is not used commonly. 
 
 =--
 
@@ -96,7 +96,102 @@ in prop. \ref{LocalizationCofiber} exhibit the [[localization of an (infinity,1)
 
 =--
 
+
 ## Properties
+
+### Existence
+ {#Existence}
+
+We prove that the $E$-localization of any spectrum $X$ always exists.
+
+> under construction
+
++-- {: .num_lemma #KappaCellSpectrumWitnessingELocalization}
+###### Lemma
+
+For every [[spectrum]] $E$ there exists a infinite [[cardinal number]] $\kappa$ and a spectrum $A$ such that
+
+1. $A$ is a $\kappa$-[[cell spectrum]] (hence a cell spectrum with at most $\kappa$ many cells);
+
+1. a spectrum $X$ is $E$-local (def. \ref{AcyclicAndLocal}) precisely if $[A,X]_\ast = 0$.
+
+=--
+
+([Bousfield 79, lemma 1.13 with lemma 1.14](#Bousfield79)) 
+
++-- {: .proof}
+###### Proof 
+of prop. \ref{LocalizationCofiber}
+
+(following the hint in [VanKoughnett 13, p. 8](#VanKoughnett13))
+
+Let 
+
+$$
+  I_A
+  \coloneqq
+  \{A \to Cone(A)\}
+$$
+
+be the set containing the single morphism from the $\kappa$-cell spectrum $A$ of lemma \ref{KappaCellSpectrumWitnessingELocalization} into its [[cone]]. 
+
+Then observe that this is a set with small domains, in the sense of the [[small object argument]], for $\kappa$-[[transfinite composition]].
+
+This is because each cell is compact and hence commutes over transfinite composition, and since $\kappa$-[[filtered colimits]] commute with $\kappa$-small limits. Namely write
+
+$$
+  A = \underset{\longrightarrow}{\lim}_\sigma c_\signa
+$$
+
+for $A$ exhibited as a $\kappa$-cell spectrum. Let $\underset{\longrightarrow}{\lim}_i X_i$ be any $\kappa$-filtered colimit. Then
+
+$$
+  \begin{aligned}
+    Hom( A, \underset{\longrightarrow}{\lim}_i X_i )
+    & \simeq
+    Hom( \underset{\longrightarrow}{\lim}_\sigma c_\sigma,  \underset{\longrightarrow}{\lim}_i X_i )
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_\sigma Hom(c_\sigma, \underset{\longrightarrow}{\lim}_i X_i )
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_\sigma  
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(c_\sigma, X_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    \underset{\longleftarrow}{\lim}_\sigma  
+    Hom(c_\sigma, X_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(\underset{\longrightarrow}{\lim}_\sigma  c_\sigma, X_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(A, X_i )
+  \end{aligned}
+  \,.
+$$
+
+Hence the $\kappa$-[[small object argument]] applies, and it factors the morphism $X \to 0$ as
+
+$$
+  X
+    \overset{I_A Cell}{\longrightarrow} 
+  L_E X
+    \overset{I_A Inj}{\longrightarrow}
+  0
+  \,.
+$$
+
+The morphism $L_E X\to 0$ being an $I_A$-[[injective morphism]] means that $[A,E] = 0$. Hence by lemma \ref{KappaCellSpectrumWitnessingELocalization} this exhibits $L_E X$ as being $E$-local. 
+
+Now to see that the fiber of $X \to L_E X$ is $E$-acyclic... (?)
+
+=--
+
 
 ### Localization at Moore spectra of abelian groups
 
