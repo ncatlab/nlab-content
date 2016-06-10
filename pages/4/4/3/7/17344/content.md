@@ -9142,7 +9142,28 @@ $$
   ( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))
 $$
 
-a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
+into a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
+
+Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then $( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ becomes itself a [[braided monoidal category]] with braiding given by
+
+$$
+  \array{
+    (X \otimes_{Day} Y)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
+    \\
+    {}^{\mathllap{\tau}_{X,Y}(c)}\downarrow
+    &&
+    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
+    \\
+    (Y \otimes_{Day} X)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
+  }
+  \,.
+$$
 
 =--
 
@@ -9185,6 +9206,8 @@ $$
 $$
 
 where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). An analogous formula follows for $X \otimes_{Day}  (Y \otimes_{Day} Z)))(c)$, and so associativity follows via prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor} from the associativity of the [[smash product]] and of the tensor product $\otimes_{\mathcal{C}}$.
+
+Similarly, if $\mathcal{C}$ is braided then the hexagon identity for the [[braiding]] follows, under the coend, from the hexagon identities for the braidings in $\mathcal{C}$ and $Top^{\ast/}_{cg}$.
 
 To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
@@ -9463,6 +9486,27 @@ $$
   CMon([\mathcal{C}, Top_{cg}^{\ast}], \otimes_{Day}, y(1_{\mathcal{C}})
   \,.
 $$
+
+Similarly, for 
+
+$$
+   A 
+    \in 
+   Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
+$$
+
+any fixed monoid, then $f^\ast$ sends $A$-[[module object]] to $f^\ast(A)$-modules
+
+$$
+  f^\ast
+    \;\colon\;
+  A Mod(\mathcal{D})
+    \longrightarrow
+  (f^\ast A)Mod(\mathcal{C})
+  \,.
+$$
+
+
 
 
 =--
