@@ -164,7 +164,7 @@ Formalization of modalities in [[homotopy type theory]] is discussed
 
 * [[Egbert Rijke]], [[Bas Spitters]], around def. 1.11 of _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
-* Kevin Quirin, _Lawvere-Tierney Sheafification in Homotopy Type Theory_, [Workshop](http://hott-uf.gforge.inria.fr) talk 2015 ([pdf](http://hott-uf.gforge.inria.fr/HoTTUF_kevin.pdf))
+* Kevin Quirin and Nicolas Tabareau, _Lawvere-Tierney Sheafification in Homotopy Type Theory_, [Workshop](http://hott-uf.gforge.inria.fr/2015/) talk 2015 ([pdf](http://hott-uf.gforge.inria.fr/2015/HOTTUF_Kevin.pdf))
 
 
 Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
