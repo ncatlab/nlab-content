@@ -1,7 +1,7 @@
 
 ## In physics
 
-[[universality class]]
+See [[universality class]].
 
 ## In mathematics, category theory 
 
