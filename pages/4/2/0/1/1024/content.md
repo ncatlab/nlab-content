@@ -14,12 +14,11 @@
 {:toc}
 
 ## Idea and definition
+In a broad, non-technical sense, an "element" is a "building block", "component", or "basic part" of a more substantial whole. Ordinary or [[global elements|global]] elements of a [[set]] are simply the [[points]] of that set, and hence sufficiently capture this broad notion of "element" in [[Set]], since by definition sets are no more than collections of points.
 
-In the category [[Set]] of [[set]]s, for $X$ a set, an element $x \in X$ is equivalently a [[morphism]] in [[Set]] (namely a function of sets) $x : {*} \to X$, where "$*$" denotes [[generalized the|the]] [[point]] -- the set with a single element.
+However, in general, knowing about the points of an object is insufficient to count as knowing its elements (construed broadly). From the point of view of the category [[Set]], most things that can be said and done about elements of a set $X$, can more generally be said and done for morphisms $x \colon U\to X$, for _any_ other set $U$.  The point is just that many constructions can be performed "elementwise".  For instance, the fact that elements of $X\times Y$ are exactly pairs $(x,y)$ of an element of $X$ and an element of $Y$, when performed "elementwise" for morphisms out of $U$, expresses the universal property of a [[product]].  In [[structural set theory]] such as [[ETCS]], one sometimes (but not necessarily) takes this point of view for axiomatizing the structure of $Set$.
 
-However, from the point of view of the category [[Set]], most things that can be said and done about elements of a set $X$, can more generally be said and done for morphisms $x \colon U\to X$, for _any_ other set $U$.  The point is just that many constructions can be performed "elementwise".  For instance, the fact that elements of $X\times Y$ are exactly pairs $(x,y)$ of an element of $X$ and an element of $Y$, when performed "elementwise" for morphisms out of $U$, expresses the universal property of a [[product]].  In [[structural set theory]] such as [[ETCS]], one sometimes (but not necessarily) takes this point of view for axiomatizing the structure of $Set$.
-
-On the other hand, once elements of objects are regarded as morphisms into these objects, the same reasoning applies to _every_ [[category]] $C$.  Accordingly, for $C$ any [[category]] and $X$ an [[object]] of $C$, one may refer to a [[morphism]] $x \colon U \to X$ a **generalized element** of $X$. One says this is a generalized element with **stage of definition** given by $U$.
+On the other hand, once elements of objects are regarded as morphisms into these objects, the same reasoning applies to _every_ [[category]] $C$.  Accordingly, for $C$ any [[category]] and $X$ an [[object]] of $C$, one may refer to a [[morphism]] $x \colon U \to X$ a **generalized element** of $X$. One says this is a generalized element with **stage of definition** given by $U$, or a **figure** of shape $U$ in $X$.
 
 The perspective of generalized elements of objects of a category $C$ is related to regarding $C$ as its image under the [[Yoneda embedding]]
 
