@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _[[conformal transformation]]_ (conformal mapping) is a transformation of a space which preserves the angles between the curves. In other words, it preserves the angels infinitesimally. __Conformal group__ of a space which has well defined notion of angles between the curves is the group of space automorphisms which are also conformal transformations. 
+A _[[conformal transformation]]_ (conformal mapping) is a transformation of a space which preserves the angles between the curves. In other words, it preserves the angles infinitesimally. __Conformal group__ of a space which has well defined notion of angles between the curves is the group of space automorphisms which are also conformal transformations. 
 
 
 ## Examples
