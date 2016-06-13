@@ -5957,6 +5957,7 @@ such that the following conditions hold:
   $$
 
 
+
 * **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
 
   $$
@@ -6092,7 +6093,11 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
-      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      {}^{\mathllap{=}}\downarrow 
+        &(1)& 
+      {}^{\mathllap{f'}}\downarrow 
+        &(2)& 
+      \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
       \\
       A 
         &\underset{f' \circ f}{\longrightarrow}&
@@ -6102,7 +6107,7 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
-      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && 
+      && {}^{\mathllap{g'}}\downarrow &(3)& \downarrow^{\mathrlap{y}} && 
       \\
       && 
       D/B 
@@ -6118,22 +6123,40 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
     }
   $$
 
-The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)). 
+The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)):
 
-More in detail: draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point, and use that to assemble the top left three squares above to a pasting of two commuting cubes. Then the bottom and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), namely $A \overset{\simeq}{\to} A$ and $\ast \to \ast$). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square is a pushout, and applying it again gives that the bottom square is a homotopy pushout. That bottom square is 
+Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face 
 
 $$
   \array{
-    \ast &\longrightarrow& D/B
+     A &\longrightarrow & \ast
+     \\
+     {}^{\mathllap{\simeq}}\downarrow 
+       && 
+     \downarrow
+     \\
+     A &\longrightarrow& \ast
+  }
+$$
+
+is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square (2) is a homotopy pushout. Applying the pasting law once more this way, now for the bottom cube, gives that the bottom square 
+
+$$
+  \array{
+    \ast &\longrightarrow& \ast
     \\
     \downarrow && \downarrow
     \\
-    \ast &\longrightarrow& D/B
+    D/B &\longrightarrow& (D/A)/(B/A)
   }
-  \,.
 $$
 
-Since here the left edge is a weak equivalence, necessarily, so is the right edge ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
+is a homotopy pushout.  Since here the left edge is a weak equivalence, necessarily, so is the right edge ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), which hence exhibits the claimed identification
+
+$$
+  D/B \simeq (D/A)/(B/A)
+  \,.
+$$
 
 
 =--
@@ -6282,7 +6305,7 @@ are [[long exact sequences]].
 
 Regarding the first case:
 
-Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon C \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
+Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon B/A \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
 
 $$
   \array{
@@ -6511,6 +6534,10 @@ Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'
 
 =--
 
+
+
+
+
 In conclusion: 
 
 +-- {: .num_prop #LongFiberSequencesOfMapsOfSpectra}
@@ -6554,9 +6581,12 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StableHomotopyCategoryIsTriangulated} this is a special case of prop. \ref{FiberCofiberSequencesInATriangulatedCategory}.
+By prop. \ref{StableHomotopyCategoryIsTriangulated} the above abstract reasoning in triangulated categories applies. By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} we have long exact sequences to the right as shown. By lemma \ref{TrianglesMayBeShiftedToTheLeft} these also extend to the left as shown.
 
 =--
+
+This suggests that homotopy cofiber sequences coincide with homotopy fiber sequence in the stable homotopy category. This is indeed the case:
+
 
 +-- {: .num_prop #HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra}
 ###### Proposition
