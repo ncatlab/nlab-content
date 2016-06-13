@@ -177,7 +177,7 @@ There is a variety of different models for the [[stable homotopy theory]] of spe
 
 As one moves down this list, the objects modelling the spectra become richer. This means on the one hand that their abstract properties become better as one moves down the list, on the other hand it means that it is more immediate to construct and manipulate examples as one stays further up in the list. 
 
-We start with plain sequential spectra in [1.1)](#SequentialSpectraSection) as a transparent means to construct the [[stable homotopy category]]. In order to discuss of [[ring spectra]] below in [1.3)](#HigherAlgebra), it is convenient to first pass to the richer model of [[highly structured spectra]], this we do in [1.2)](#SymmetricSpectra). 
+We start with plain sequential spectra in [1.1)](#SequentialSpectraSection) as a transparent means to construct the [[stable homotopy category]]. In order to discuss [[ring spectra]] below in [1.3)](#HigherAlgebra), it is convenient to first pass to the richer model of [[highly structured spectra]], this we do in [1.2)](#SymmetricSpectra). 
 
 
 
@@ -1372,7 +1372,7 @@ That the limits and colimits exist and are computed objectwise follows via prop.
 +-- {: .num_example #InitialSequentialSpectrum}
 ###### Example
 
-The [[initial object]] and the [[terminal object]] in $SeqSpec(Top_{cg})$ agree and are both given by the spectum constant on the point, which is also the [[suspension spectrum]] $\Sigma^\infty \ast$ (def. \ref{SuspensionSpectrum}) of the point). We will denote this spectrum $\ast$ or $0$ (since it is hence a [[zero object]] ):
+The [[initial object]] and the [[terminal object]] in $SeqSpec(Top_{cg})$ agree and are both given by the spectrum constant on the point, which is also the [[suspension spectrum]] $\Sigma^\infty \ast$ (def. \ref{SuspensionSpectrum}) of the point). We will denote this spectrum $\ast$ or $0$ (since it is hence a [[zero object]] ):
 
 $$
   \ast_n = \ast
@@ -1937,7 +1937,7 @@ $$
   \,.
 $$
 
-Accordingly, this carries the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)). This immediately gives the statement for the fibrations and the weak equivalences.
+Accordingly, this carries the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)). This immediately gives the statement for the fibrations and the weak equivalences.
 
 It only remains to check that the cofibrations are as claimed. To that end, consider a [[commuting square]] of sequential spectra
 
@@ -3612,7 +3612,7 @@ is taken by $Q$ to a homotopy pullback square. By prop. \ref{LimitsAndColimitsOf
 Let $Z^X_{i,k}$, $Z^Y_{i,k}$ etc. denote the objects appearing in the definition of $(Q X)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^X_{i,k}$, $(Q Y)_k \coloneqq \underset{\longrightarrow}{\lim}_i Z^Y_{i,k} $, etc. (def. \ref{SpectrificationForTopologicalSequentialSpectra}). 
 
 
-Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acyclic generating cofibrations in $(Top^{\ast/}_{cg})_{Quillen}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic [[relative cell complex]] inclusions (Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex) followed by [[Serre fibrations]] (Introduction+to+Stable+homotopy+theory+--+P#SerreFibration) in each degree
+Use the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) for the set $J_{(Top^{\ast/})}$ of acyclic generating cofibrations in $(Top^{\ast/}_{cg})_{Quillen}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)) to construct a [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)) through acyclic [[relative cell complex]] inclusions ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)) followed by [[Serre fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#SerreFibration)) in each degree:
 
 $$
   Z^X_{i,k}
@@ -5626,9 +5626,10 @@ More precisely, for $\{X_i\}_{i \in I}$ a [[finite set]] of objects in an Ab-enr
 
 $$
   \underset{i \in I}{\coprod} X_i \longrightarrow \underset{j \in I}{\prod} X_j
+  \,,
 $$
 
-whose components are identities for $i = j$ and are [[zero morphism|zero]] otherwise is an [[isomorphism]].
+whose components are identities for $i = j$ and are [[zero morphism|zero]] otherwise, is an [[isomorphism]].
 
 =--
 
@@ -5911,6 +5912,13 @@ In conclusion we have:
 
 The [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) is an [[additive category]] (def. \ref{AdditiveCategory}).
 
+Hence prop. \ref{ProductsAreBiproducts} implies that in the stable homotopy category finite coproducts ([[wedge sums]]) and finite products agree, in that they are finite [[biproducts]] ([[direct sums]]).
+
+$$
+  \vee \simeq \times \simeq \oplus \;\;\in \;\; Ho(Spectra)
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
@@ -5920,95 +5928,7 @@ By lemma \ref{StableHomotopyCategoryHasCoproducts} and lemma \ref{StableHomotopy
 
 =--
 
-Hence prop. \ref{ProductsAreBiproducts} implies that in the stable homotopy category finite coproducts and finite products agree, in that they are finite [[biproducts]]. We may also check this explicitly:
 
-+-- {: .num_lemma #ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory}
-###### Lemma
-
-For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
-
-$$
-  X \vee Y 
-   \longrightarrow
-  X \times Y
-$$
-
-out of the [[coproduct]] ([[wedge sum]], example \ref{WedgeSumOfSpectra}) into the [[product]] (via prop. \ref{LimitsAndColimitsOfSequentialSpectra}), given by
-
-$$
-  \array{  
-    X && && Y
-    \\
-    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
-    \\
-    {}^{\mathllap{id_X}}\downarrow 
-     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
-    \\
-    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
-    \\
-    X && && Y
-    \\
-    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
-    \\
-    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
-    \\
-    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
-    \\
-    X && && Y
-  }
-$$
-
-represents an [[isomorphism]] in the [[stable homotopy category]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
-
-$$
-  i_X \colon X \longrightarrow X \vee Y
-$$
-
-is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
-
-Hence its ordinary [[cofiber]], which is $Y$,  is its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), and so we have a [[homotopy cofiber sequence]]
-
-$$
-  X \longrightarrow X \vee Y \longrightarrow Y
-  \,.
-$$
-
-Moreover, under forming [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}), the inclusion map evidently gives an [[injection]], and the projection map gives a [[surjection]]. Hence the [[long exact sequence of homotopy groups]] gives the [[short exact sequence]]
-
-$$
-  0 \to
-  \pi_\bullet(X)
-  \longrightarrow
-  \pi_\bullet(X \vee Y)
-  \longrightarrow
-  \pi_\bullet(Y)
-  \to 
-  0
-  \,.
-$$
-
-Moreover, due to the fact that the inclusion and projection for one of the two summands constitute a [[retraction]], this is a [[split exact sequence]], hence exhibits an isomorphism
-
-$$
-  \pi_k(X \vee Y)  
-  \overset{\simeq}{\longrightarrow}
-  \pi_k(X)\oplus \pi_k(Y)
-   \simeq
-  \pi_k(X) \times \pi_k(Y)
-   \simeq
-  \pi_k(X\times Y)
-$$
-
-for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
-
-=--
 
 
 
@@ -6021,7 +5941,15 @@ Now here in [[stable homotopy theory]], the concept of kernels and cokernels is 
 
 The axiomatic formulation of a subset of these properties of stable homotopy fibers and stable homotopy cofibers is called a _[[triangulated category]]_ structure. This is the analog in [[stable homotopy theory]] of [[abelian category]] structure in [[homological algebra]].
 
-**Literature** ([Schwede 12, II.2](#Schwede12))
+
+| | [[Ab|category of abelian groups]] | [[stable homotopy category]] |
+|-|-------------------------|----------------------------|
+| [[direct sums]] and [[hom-object|hom]]-[[abelian groups]] | [[additive category]] | [[additive category]] |
+| ([[homotopy fiber|homotopy]]) [[fibers]] and cofibers exist | [[pre-additive category]] | [[homotopy category of a model category]] |
+| ([[homotopy fiber|homotopy]]) [[fibers]] and cofibers are compatible | [[abelian category]] |  [[triangulated category]]  |
+
+
+**Literature** ([Hubery](#Hubery), [Schwede 12, II.2](#Schwede12))
 
 $\,$
 
@@ -6041,7 +5969,7 @@ A **[[triangulated category]]** is
 
    which is required to be an [[equivalence of categories]];
 
-1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element is of the form
+1. a sub-[[class]] $CofSeq \subset Mor(Ho^{\Delta[3]})$ of the class of triples of composable morphisms, called the class of **distinguished triangles**, where each element that starts at $A$ ends at $\Sigma A$; we write these as
 
    $$
      A 
@@ -6054,7 +5982,7 @@ A **[[triangulated category]]** is
      \,,
    $$
 
-   which is also denoted as
+   or
 
    $$
      \array{
@@ -6066,7 +5994,7 @@ A **[[triangulated category]]** is
      }
    $$
 
-   (whence the name);
+   (whence the name _triangle_);
 
 such that the following conditions hold:
 
@@ -6101,7 +6029,6 @@ such that the following conditions hold:
     \overset{}{\longrightarrow} 0
     \,;
   $$
-
 
 * **T2** If $(f,g,h)$ is a distinguished triangle, then so is $(g,h, - \Sigma f)$; hence if
 
@@ -6238,7 +6165,11 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
         &\overset{h}{\longrightarrow}&
       \Sigma A
       \\
-      {}^{\mathllap{=}}\downarrow && {}^{\mathllap{f'}}\downarrow && \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
+      {}^{\mathllap{=}}\downarrow 
+        &(1)& 
+      {}^{\mathllap{f'}}\downarrow 
+        &(2)& 
+      \downarrow^{\mathrlap{x}} && \downarrow^{\mathrlap{=}}
       \\
       A 
         &\underset{f' \circ f}{\longrightarrow}&
@@ -6248,7 +6179,7 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
         &\underset{h''}{\longrightarrow}&
       \Sigma A
       \\
-      && {}^{\mathllap{g'}}\downarrow && \downarrow^{\mathrlap{y}} && 
+      && {}^{\mathllap{g'}}\downarrow &(3)& \downarrow^{\mathrlap{y}} && 
       \\
       && 
       D/B 
@@ -6264,22 +6195,42 @@ Axiom T4 follows in the same fashion: we may represent all spectra by CW-spectra
     }
   $$
 
-The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)). 
+The fact that the second horizontal morphism from below is indeed an isomorphism follows by applying the [[pasting law]] for [[homotopy pushouts]] twice ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)):
 
-More in detail: draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point, and use that to assemble the top left three squares above to a pasting of two commuting cubes. Then the bottom and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), namely $A \overset{\simeq}{\to} A$ and $\ast \to \ast$). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square is a pushout, and applying it again gives that the bottom square is a homotopy pushout. That bottom square is 
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/OctahedralProofFromPastingPushouts.jpg" width="400"></div>
+
+Draw all homotopy cofibers as [[homotopy pushout]] squares ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)) with one edge going to the point.  Then assemble the squares (1)-(3) in the pasting composite of two cubes on top of each other: (1) as the left face of the top cube, (2) as the middle face where the two cubes touch, and (3) as the front face of the bottom cube. All remaining edges are points. This way the rear and front face of the top cube and the left and right face of the bottom cube are homotopy pushouts by construction. Also the top face 
 
 $$
   \array{
-    \ast &\longrightarrow& D/B
+     A &\longrightarrow & \ast
+     \\
+     {}^{\mathllap{\simeq}}\downarrow 
+       && 
+     \downarrow
+     \\
+     A &\longrightarrow& \ast
+  }
+$$
+
+is a homotopy pushout, since two opposite edges of it are weak equivalences ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)). From this the [[pasting law]] for homotopy pushouts ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfHomotopyPullbacks)) gives that also the middle square (2) is a homotopy pushout. Applying the pasting law once more this way, now for the bottom cube, gives that the bottom square 
+
+$$
+  \array{
+    \ast &\longrightarrow& \ast
     \\
     \downarrow && \downarrow
     \\
-    \ast &\longrightarrow& D/B
+    D/B &\longrightarrow& (D/A)/(B/A)
   }
-  \,.
 $$
 
-Since here the left edge is a weak equivalence, necessarily, so is the right edge ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)).
+is a homotopy pushout.  Since here the left edge is a weak equivalence, necessarily, so is the right edge ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullbackOfWeakEquivalences)), which hence exhibits the claimed identification
+
+$$
+  D/B \simeq (D/A)/(B/A)
+  \,.
+$$
 
 
 =--
@@ -6428,7 +6379,7 @@ are [[long exact sequences]].
 
 Regarding the first case:
 
-Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon C \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
+Since $g \circ f = 0$ by lemma \ref{CompositesInADistinguishedTriangleAreZero}, we have an inclusion $im([g,X]_\ast) \subset ker([f,X]_\ast)$. Hence it is sufficient to show that if $\psi \colon B \to X$ is in the kernel of $[f,X]_\ast$ in that $\psi \circ f = 0$, then there is $\phi \colon B/A \to X$ with $\phi \circ g = \psi$. To that end, consider the commuting diagram
 
 $$
   \array{
@@ -6482,7 +6433,7 @@ $$
 
 Here the commutativity of the middle square exhibits the desired conclusion.
 
-This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished traingle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
 
 Regarding the second case: 
 
@@ -6604,7 +6555,7 @@ where we extended one step to the right using axiom T2 (def. \ref{CategoryWithCo
 
 By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} here the top and bottom are [[exact sequences]].
 
-So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] then implies that $c$ is an isomorphism.
+So assume the case that $a$ and $b$ are isomorphisms, hence that $a_\ast$, $b_\ast$, $(\Sigma a)_\ast$ and $(\Sigma b)_\ast$ are isomorphisms. Then by exactness of the horizontal sequences, the [[five lemma]] implies that $c_\ast$ is an isomorphism. Since this holds [[natural transformation|naturally]] for all $X$, the [[Yoneda lemma]] then implies that $c$ is an isomorphism.
 
 If instead $b$ and $c$ are isomorphisms, apply this same argument to the triple $(b,c,\Sigma a)$ to conclude that $\Sigma a$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], this implies then that $a$ is an isomorphism.
 
@@ -6700,9 +6651,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StableHomotopyCategoryIsTriangulated} this is a special case of prop. \ref{FiberCofiberSequencesInATriangulatedCategory}.
+By prop. \ref{StableHomotopyCategoryIsTriangulated} the above abstract reasoning in triangulated categories applies. By prop. \ref{FiberCofiberSequencesInATriangulatedCategory} we have long exact sequences to the right as shown. By lemma \ref{TrianglesMayBeShiftedToTheLeft} these also extend to the left as shown.
 
 =--
+
+This suggests that homotopy cofiber sequences coincide with homotopy fiber sequence in the stable homotopy category. This is indeed the case:
 
 +-- {: .num_prop #HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra}
 ###### Proposition
@@ -6769,9 +6722,9 @@ $$
        &\longrightarrow&
      X
        &\longrightarrow&
-     \ast
+     Cone(X)
        &\longrightarrow&
-     \ast
+     Cone(X)
      \\
      \downarrow 
        &&
@@ -6785,7 +6738,7 @@ $$
        &\underset{=}{\longrightarrow}&
      Y
        &\underset{}{\longrightarrow}&
-     hocof(f)
+     Cone(f)
        &\longrightarrow&
      \Sigma X
   }
@@ -6812,7 +6765,7 @@ $$
       &\overset{id}{\longrightarrow}& 
     X
       &\longrightarrow&
-    \ast
+    Cone(X)
     \\
     \downarrow && \downarrow && \downarrow
     \\
@@ -6822,9 +6775,29 @@ $$
       &\longrightarrow&
     \Sigma X
   }
+  \,,
 $$
 
-Namely the bottom composite is equal, in the homotopy category, to the previous bottom composite by $\Sigma X$ being the homotopy cofiber of $Y \to hocof(f)$; and the middle composite is trivially equal to the previous one since its codomain is the 0 object. Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
+due to the defining pasting composite of pushouts
+
+$$
+  \array{
+    X &\longrightarrow& Cone(X)
+    \\
+    \downarrow && \downarrow
+    \\
+    Y &\longrightarrow& Cone(f)
+    \\
+    \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& \Sigma X
+  }
+  \,.
+$$
+
+
+
+Hence the top composite is equal, by universality of homotopy fibers, to the previous top composite. Since $\eta$ is an isomorphism in the stable homotopy category, this gives the commutativity of the right part of the diagram to be proven.
 
 So far we have shown that
 
@@ -7029,6 +7002,97 @@ Via lemmma \ref{StableHomotopyGrouspAsHomsOutOfSphereSpectrum} this is a special
 
 =--
 
+As an example, we check explicitly what we already deduced abstractly in prop. \ref{TheStableHomotopyCategoryIsAdditive}, that in the [[stable homotopy category]] [[wedge sum]] and [[Cartesian product]] of spectra agree and constitute a [[biproduct]]/[[direct sum]]:
+
++-- {: .num_example #ExplicitCheckThatWedgeSumIsProductInStableHomotopyCategory}
+###### Example
+
+For $X,Y \in SeqSpec(Top_{cg})$, then the canonical morphism
+
+$$
+  X \vee Y 
+   \longrightarrow
+  X \times Y
+$$
+
+out of the [[coproduct]] ([[wedge sum]], example \ref{WedgeSumOfSpectra}) into the [[product]] (via prop. \ref{LimitsAndColimitsOfSequentialSpectra}), given by
+
+$$
+  \array{  
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{i_X}} && {}^{\mathllap{i_X}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow 
+     && X \sqcup Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{(id,0)}} && {}_{\mathllap{(0,id)}}\searrow
+    \\
+    X && && Y
+    \\
+    & \searrow^{\mathrlap{(id,0)}} && {}^{\mathllap{(0,id)}}\swarrow
+    \\
+    {}^{\mathllap{id_X}}\downarrow && X \times Y && \downarrow^{\mathrlap{id_Y}}
+    \\
+    & \swarrow_{\mathrlap{p_X}} && {}_{\mathllap{p_Y}}\searrow
+    \\
+    X && && Y
+  }
+$$
+
+represents an [[isomorphism]] in the [[stable homotopy category]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{CWApproximationForSequentialSpectra}, we may represent both $X$ and $Y$ by [[CW-spectra]] (def. \ref{CWSpectrum}) in $(SeqSpec(Top_{cg})_{stable})_c[W_{st}^{-1}]$. Then the canonical morphism 
+
+$$
+  i_X \colon X \longrightarrow X \vee Y
+$$
+
+is a cofibration according to theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}, because $X_{n+1}\underset{S^1 \wedge X_n}{\sqcup} S^1 (X \vee Y) \simeq X_{n+1} \vee S^1 \wedge Y_n$.
+
+Hence its ordinary [[cofiber]], which is $Y$,  is its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), and so we have a [[homotopy cofiber sequence]]
+
+$$
+  X \longrightarrow X \vee Y \longrightarrow Y
+  \,.
+$$
+
+Moreover, under forming [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}), the inclusion map evidently gives an [[injection]], and the projection map gives a [[surjection]]. Hence the [[long exact sequence of homotopy groups|long exact sequence of stable homotopy groups]] from prop. \ref{LongExactSequenceOfStableHomotopyGroups} gives the [[short exact sequence]]
+
+$$
+  0 \to
+  \pi_\bullet(X)
+   \longrightarrow
+  \pi_\bullet(X \vee Y)
+   \longrightarrow
+  \pi_\bullet(Y)
+   \to 
+  0
+  \,.
+$$
+
+Finally, due to the fact that the inclusion and projection for one of the two summands constitute a [[retraction]], this is a [[split exact sequence]], hence exhibits an isomorphism
+
+$$
+  \pi_k(X \vee Y)  
+  \overset{\simeq}{\longrightarrow}
+  \pi_k(X)\oplus \pi_k(Y)
+   \simeq
+  \pi_k(X) \times \pi_k(Y)
+   \simeq
+  \pi_k(X\times Y)
+$$
+
+for all $k$. But this just says that $X \vee Y \to X \times Y$ is a [[stable weak homotopy equivalence]].
+
+=--
+
+
 
 +-- {: .num_remark}
 ###### Final Remark 
@@ -7040,6 +7104,7 @@ We discuss how these spectral sequences arise in the section _[[Introduction to 
 We discuss in detail the special case of the [[Adams spectral sequences]] in the section _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_.
 
 =--
+
 
 But for handling any of these spectral sequences it is convenient, or, in many cases, necessary to have multiplicative structure available, induced from a  [[symmetric monoidal smash product of spectra]]. This we turn to now in _[Section 1.2 --  Structured spectra](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)_.
 
@@ -7070,7 +7135,11 @@ For the discussion of the stability of the homotopy theory of sequential spectra
 
 * {#Jardine15} [[John F. Jardine]], sections 10.3 and 10.4 of _[[Local homotopy theory]]_, 2016
 
-For the discussion of the [[triangulated category|triangulated]] structure of the stable homotopy category we follow 
+For the definition of [[triangulated categories]] and a discussion of various equivalent versions of the octahedral axiom the following brief note is useful:
+
+* {#Hubery} [[Andrew Hubery]], _Notes on the octahedral axiom_, ([pdf](http://math-www.uni-paderborn.de/user/hubery/static/Octahedral.pdf))
+
+For the discussion of the [[triangulated category|triangulated]] structure of the stable homotopy category we follow
 
 * {#Schwede12} [[Stefan Schwede]], section II.2 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
