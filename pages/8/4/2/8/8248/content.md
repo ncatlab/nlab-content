@@ -267,7 +267,7 @@ Moreover, $im(d_{r-1})$ consists of the image under $h$ of those $x \in D^{s-1,t
 
 (Beware this subtlety: while $g^{R_{s,t}}|_{D^{s-1,t}}$ vanishes by the convergence assumption, the expression $g^{R_{s,t}}|_{D^{s+r-1,t-r+1}}$ need not vanish yet. Only the higher power $g^{R_{s,t}+ R_{s+1,t+2}+2}|_{D^{s+r-1,t-r+1}}$ is again guaranteed to vanish. ) 
 
-It follows that
+{#InfinityPage} It follows that
 
 $$
   \begin{aligned}
@@ -278,6 +278,10 @@ $$
     &
     \simeq
     f^{-1}(im(g^{R-1}))/im(h)
+    \\
+    &
+    \simeq
+    f^{-1}(im(g^{R-1}))/ker(f)
     \\
     &
     \underoverset{\simeq}{f}{\longrightarrow}
