@@ -96,7 +96,9 @@ The mathematics of inclusions of _subfactors_ is giving deep structural insights
 * [[Vaughan Jones]], [[Scott Morrison]], [[Noah Snyder]], _The classification of subfactors of index at most 5_ ([arXiv:1304.6141](http://arxiv.org/abs/1304.6141))
 * Vaughan F. R. Jones, David Penneys, _Infinite index subfactors and the GICAR categories_, [arxiv/1410.0856](http://arxiv.org/abs/1410.0856)
 
+### Relation to quantum field theory
 
+* [[Jakob Yngvason]], _The Role of Type III Factors in Quantum Field Theory_ ([arXiv:math-ph/0411058](https://arxiv.org/abs/math-ph/0411058))
 
 
 [[!redirects von Neumann algebra factors]]
