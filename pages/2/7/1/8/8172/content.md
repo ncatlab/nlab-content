@@ -737,30 +737,14 @@ $$
     \Sigma^{-1}(E \wedge (\Sigma \overline{E}) \wedge X)
       && 
     \Sigma^{-2}(E \wedge (\Sigma\overline{E}) \wedge (\Sigma \overline{E}) \wedge X
-  }
-$$
-
-hence
-
-$$
-  \array{
-    X 
-      &\stackrel{\gamma_0}{\longleftarrow}&
-    \overline{E} \wedge X
-      &\stackrel{\gamma_1}{\longleftarrow}&
-    \overline{E} \wedge \overline{E} \wedge X
-      &\longleftarrow&
-    \cdots
     \\
-    \downarrow && \downarrow && \downarrow
+      && \simeq && \simeq 
     \\
-    E \wedge X 
-      && 
+    &&
     E \wedge \overline{E} \wedge X
       && 
     E \wedge \overline{E} \wedge \overline{E} \wedge X
   }
-  \,.
 $$
 
 This is the tower of spectra considered in the original texts ([Adams 74, p. 318](#Adams74)) and ([Bousfield 79, p. 271](#Bousfield79)).
@@ -772,7 +756,7 @@ This is the tower of spectra considered in the original texts ([Adams 74, p. 318
 ###### Remark
 
 
-In ([Ravenel 84, p. 356](#Ravenel84)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called the "Adams tower", while in ([Ravenel 86, def. 2.21](#Ravenel86)) this is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using "$E$-Adams resoltuon" for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, "$E$-Adams tower" for def. \ref{EAdamsTower} and follow ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
+In ([Ravenel 84, p. 356](#Ravenel84)) it is the associated inverse sequence as in example \ref{NormalizedEResolutionAssociatedSequence} that is called the "Adams tower", while in ([Ravenel 86, def. 2.21](#Ravenel86)) this is called an "$E$-Adams resolution". We instead follow ([Hopkins 99](#Hopkins99)) in using "$E$-Adams resolution" for "$E$-injective resolution" as in def. \ref{EAdamsResolution}, "$E$-Adams tower" for def. \ref{EAdamsTower} and follow ([Aramian](#Aramian)) in saying "associated inverse sequence" for the above.
 
 =--
 
