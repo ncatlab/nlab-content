@@ -1,0 +1,8 @@
+
+* [webpage](https://en.wikipedia.org/wiki/Jakob_Yngvason)
+
+## related $n$Lab entries
+
+* [[von Neumann algebra factor]]
+
+category: people
