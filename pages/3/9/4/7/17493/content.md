@@ -1,0 +1,32 @@
+| Ordinal                                      | FOA                                        | SOA                                    | Other                          |
+|----------------------------------------------|--------------------------------------------|----------------------------------------|--------------------------------|
+| **Finitist systems**                         |                                            |                                        |                                |
+| $\omega^3$                                   | EFA                                        | RCA$_0^*$                              |                                |
+| $\omega^\omega$                              | PRA                                        | RCA$_0$, WKL$_0$                       | CPRC                           |
+| **Predicative systems**                      |                                            |                                        |                                |
+| $\varepsilon_0=\varphi(1,0)$                 | PA                                         | ACA$_0$                                | EM$_0$                         |
+| $\varphi(1,\varepsilon_0)$                   |                                            | ACA                                    |                                |
+| $\varphi(\omega,0)$                          | ID$_1^#$                                   | $\Delta_1^1$-CR                        | EM$_0$+JR                      |
+| $\varphi(\varepsilon_0,0)$                   | $\widehat{\mathrm{ID}}_1$                  | $\Delta_1^1$-CA, $\Sigma^1_1$-AC       | EM$_0$+J, ML$_1$               |
+| $\Gamma_0=\varphi(1,0,0)$                    | $\widehat{\mathrm{ID}}_{\lt\omega}$, U(PA) | ATR$_0$,$\Delta^1_1$-CA+BR             | ML$_{\lt\omega}$, MLU, KPi$^0$ |
+| **Meta-predicative systems**                 |                                            |                                        |                                |
+| $\varphi(1,0,\varepsilon_0)$                 | $\widehat{\mathrm{ID}}_{\omega}$           | ATR                                    | KPl$^0$+F-I$_\omega$           |
+| $\varphi(1,\omega,0)$                        | $\widehat{\mathrm{ID}}_{\lt\omega^\omega}$ | ATR$_0$+($\Sigma^1_1$-DC)              | KPi$^0$+$\Sigma_1$-I$_\omega$  |
+| $\varphi(1,\varepsilon_0,0)$                 | $\widehat{\mathrm{ID}}_{\lt\varepsilon_0}$ | ATR+($\Sigma^1_1$-DC)                  | KPi$^0$+F-I$_\omega$           |
+| $\varphi(1,\Gamma_0,0)$                      | $\widehat{\mathrm{ID}}_{\lt\Gamma_0}$      |                                        | MLS                            |
+| $\varphi(2,0,0)$                             | Aut($\widehat{\mathrm{ID}}$)               |                                        | KPh$^0$                        |
+| $\varphi(\omega,0,0)$                        |                                            |                                        | KPm$^0$                        |
+| **Inductive types**                          |                                            |                                        |                                |
+| $\psi_\Omega(\varepsilon_{\Omega+1})$        | ID$_1$                                     |                                        | KP$\omega$, CZF, ML$_1$V       |
+| $\psi_\Omega(\Gamma_{\Omega+1})$             | U(ID$_1$)                                  |                                        |                                |
+| $\psi_\Omega(\Omega_\omega)$                 | ID$_{\lt\omega}$                           | $\Pi^1_1$-CA$_0$,$\Delta^1_2$-CA$_0$   |                                |
+| $\psi_\Omega(\Omega_\omega \varepsilon_0)$   | W-ID$_\omega$                              | $\Pi^1_1$-CA                           | W-KPl                          |
+| $\psi_\Omega(\varepsilon_{\Omega_\omega+1})$ | ID$_\omega$                                | $\Pi^1_1$-CA+(BI)                      | KPl                            |
+| $\psi_\Omega(\Omega_{\omega^\omega})$        | ID$_{\lt\omega^\omega}$                    | $\Delta^1_2$-CR                        |                                |
+| $\psi_\Omega(\Omega_{\varepsilon_0})$        | ID$_{\lt\varepsilon_0}$                    | $\Delta^1_2$-CA, $\Sigma^1_2$-AC       | W-KPi                          |
+| $\psi_\Omega(\varepsilon_{I+1})$             |                                            | $\Delta^1_2$-CA+BI, $\Sigma^1_2$-AC+BI | KPi, T$_0$, CZF+REA            |
+| $\psi_\Omega(\Omega_{I+\omega})$             |                                            |                                        | ML$_1$W                        |
+| $\psi_\Omega(\Omega_L)$                      |                                            |                                        | KPh, ML$_{\lt\omega}$W         |
+| **Inductive-recursive types**                |                                            |                                        |                                |
+| $\psi_\Omega(\varepsilon_{M+1})$             |                                            | $\Delta^1_2$-CA+BI+(M)                 | CZFM, KPm                      |
+| $\psi_\Omega(\Omega_{M+\omega})$             |                                            |                                        | KPM$^+$, MLM, Agda             |
