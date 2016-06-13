@@ -3391,9 +3391,9 @@ $$
   \array{
     Q X \sqcup Q X &\stackrel{((Q f)_1, (Q f)_2 )}{\longrightarrow}& Q Y
     \\
-    {}^{\mathllap{\in W \cap Cof}}\downarrow 
+    {}^{\mathllap{\in Cof}}\downarrow 
      && 
-    \downarrow^{\mathrlap{p_{Y}}}_{\mathrlap{\in Fib}}
+    \downarrow^{\mathrlap{p_{Y}}}_{\mathrlap{\in W \cap Fib}}
     \\
     Cyl(Q X)
     &\underset{f \circ p_{X} \circ \sigma_{Q X}}{\longrightarrow}& 
