@@ -674,6 +674,9 @@ The equivalence between the [[dendroidal set]]-formulation and the one in terms 
 
 * [[Gijs Heuts]], [[Vladimir Hinich]], [[Ieke Moerdijk]], _The equivalence between Lurie's model and the dendroidal model for infinity-operads_ ([arXiv:1305.3658](http://arxiv.org/abs/1305.3658))
 
+Further equivalence to Barwicks's complete Segal operads is discussed in
+
+* Hongyi Chu, [[Rune Haugseng]], [[Gijs Heuts]], _Two models for the homotopy theory of $\infty$-operads_ ([arXiv:1606.03826](https://arxiv.org/abs/1606.03826))
 
 [[!redirects (∞,1)-operad]]
 [[!redirects (∞,1)-operads]]
