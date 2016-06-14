@@ -11067,7 +11067,7 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
-#### The strict model structure on diagram spectra
+#### The strict model structure on structured spectra
 
 In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ (prop. \ref{SequentialSpectraAsDiagramSpectra}) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
 
@@ -11239,52 +11239,31 @@ It is fairly straightforward to see that, under the above identifications, funct
 =--
 
 
-+-- {: .num_lemma #SModulesAsEnrichedFunctors}
-###### Lemma
-
-Let ${dia} \in \{Top^{\ast/}, {Orth}, {Sym}, {Seq}\}$ be any one of the sites in def. \ref{TopologicalDiagramCategoriesForSpectra}. 
-
-
-1. If $\mathbb{S}_{dia}$ is a [[commutative monoid]] (hence for $dia \in \{Top^\ast/, Orth,Sym\}$ but not for $dia = Seq$) then $\mathbb{S}_{dia} FreeMod^{op}$ carries a [[symmetric monoidal category]] structure such that under the above equivalence its [[Day convolution]] is the [[tensor product of modules]].
-
-1. There is a $Top^{\ast/}$-[[enriched functor]]
-
-   $$
-     \delta \colon dia \longrightarrow \mathbb{S}_{dia} FreeMod^{op}
-   $$
-
-   which is monoidal when $\mathbb{S}_{dia}$ is commutative and which is such that the ([[free module]]$\dashv$[[forgetful functor]])-adjunction is equivalently the [[base change]] along $\delta$:
-
-   $$
-     \array{
-       \mathbb{S}_{dia} Mod 
-         &\simeq&
-       [ \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}] 
-       \\
-       {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-       &&
-       {}^{\mathllap{\delta^\ast}}\downarrow \uparrow^{\mathrlap{\delta_!}}
-       \\
-       [dia, Top^{\ast/}] 
-         &=&
-       [dia, Top^{\ast/}] 
-     }
-     \,.
-   $$
-
-=--
-
-
 
 
 
 +-- {: .num_example #SequentialSpectraAsFunctorsOnFreeSSequModules}
 ###### Example
 
-For the sequential case $dia = Seq$, then the opposite category $\mathbb{S}_{Seq} FreeMod^{op}$ of [[free modules]] over $\mathbb{S}_{Seq}$ (def. \ref{StandardRepresentativeOfTheSphereSpectrum}) in lemma \ref{SModulesAsEnrichedFunctors} is identified as the category $StdSpheres$ 
-from def. \ref{CategoriesOfStandardSpheres}.
+For the sequential case $dia = Seq$ (def. \ref{TopologicalDiagramCategoriesForSpectra}), then the opposite category of [[free modules]] on objects in $Seq$ over $\mathbb{S}_{Seq}$ (def. \ref{StandardRepresentativeOfTheSphereSpectrum}) in lemma \ref{SModulesAsEnrichedFunctors} is identified as the category $StdSpheres$ 
+from def. \ref{CategoriesOfStandardSpheres}:
 
-Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} reduces to prop. \ref{SequentialSpectraAsDiagramSpectra}.
+$$
+  \mathbb{S}_{seq} Free_{seq}Mod^{op}
+   \;\simeq\;
+  StdSpheres
+$$
+
+Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} reduces to prop. \ref{SequentialSpectraAsDiagramSpectra}:
+
+$$
+  [ \mathbb{S}_{seq} Free_{seq}Mod^{op}, Top^{\ast/}_{cg} ]
+    \simeq
+  [StdSpheres, Top^{\ast/}_{cg}]
+    \simeq
+  SeqSpec(Top_{cg})
+  \,.
+$$
 
 
 =--
@@ -11293,7 +11272,7 @@ Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}
 +-- {: .proof}
 ###### Proof
 
-There is one object for each natural number. Moreover we compute
+There is one object $y(n)$ for each $n \in \mathbb{N}$. Moreover, from the expression in the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} we compute the [[hom-spaces]] between these to be
 
 $$
   \begin{aligned}
@@ -11319,378 +11298,110 @@ $$
   \,.
 $$
 
+These are the objects and hom-spaces of the category $StdSpheres$. It is straightforward to check that the definition of composition agrees, too.
 
 =--
 
 
-From lemma \ref{SModulesAsEnrichedFunctors} we immediately get the following:
-
-
-+-- {: .num_prop #SystemOfAdjunctionsForDiagramSpectra}
-###### Proposition
-
-The horizontal adjunctions in remark \ref{SystemOfStructuredSpectraAndDiagrams} lift to adjunctions between categories of modules, such as to give a [[commuting diagram]] of adjunctions as follows:
-
-$$
- \array{
-   && OrthSpec(Top) && SymSpec(Top) && SeqSpec(Top)
-   \\
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_r 
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Orth} Mod_r 
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Sym} Mod_r 
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
-   \mathbb{S}_{Seq} Mod_r
-   \\
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   \\
-   [Top_{fin}^{\ast/}, Top^{\ast/}]
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
-   [Orth, Top^{\ast/}]
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
-   [Sym, Top^{\ast/}] 
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
-   [Seq, Top^{\ast/}] 
- }
-  \,.
-$$
-
-=--
-
-([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
-
-
-We consider now, prop. \ref{StrictModelStructureOnDiagramSpectra} below, "strict" [[model category]] structures on the above categories of spectra, which regard spectra only as diagrams of topological spaces, ignoring the fact that it is not the degreewise [[homotopy groups]] but the [[stable homotopy groups]] that are to be invariants of [[stable homotopy types]] (this is def. \ref{StableEquivalencesForDiagramSpectra} below with an extra subtlety in the case of symmetric spectra, see prop. \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra} below). Incorporating the latter is accomplished by a [[Bousfield localization of model categories|left Bousfield localizatiob]] of the strict model structures to the genuine stable model structures [below](#ProofOfTheStableModelStructure).
 
 +-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
 ###### Proposition
 
-Write $[Seq, Top^{\ast/}_{Quillen}]$ for the [[model category]] structure on $\mathbb{N}$-parameterized sequences of pointed topological spaces, whose weak equivalences, fibrations and cofibrations are degreewise those of the [[classical model structure on pointed topological spaces]]. (This is equivalently the injective as well as the  projective [[model structure on functors]] over the discrete category $\mathbb{N}$).
+The four categories of 
 
-Then for each of the categories in the diagram of prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, say that the **strict model structure** on it is the [[transferred model structure]] from $[Seq, Top^{\ast/}_{Quillen}]$ along the composite adjunction connecting the two in that diagram, so that we get a diagram of [[Quillen adjunctions]]
+1. [[pre-excisive functors]] $Exc(Top_{cg})$;
+
+1. [[orthogonal spectra]] $OrthSpec(Top_{cg})$;
+
+1. [[symmetric spectra]] $SymSpec(Top_{cg})$;
+
+1. [[sequential spectra]] $SeqSpec(Top_{cg})$
+
+each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
+These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
+
+Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
+
+
 
 $$
  \array{
-   && OrthSpec(Top)_{strict} && SymSpec(Top)_{strict} && SeqSpec(Top)_{strict}
+   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
    \\
+   \downarrow^{\mathrlap{\simeq}}
    && \downarrow^{\mathrlap{\simeq}}
    && \downarrow^{\mathrlap{\simeq}}
    && \downarrow^{\mathrlap{\simeq}}
    \\
    \mathbb{S} Mod_{strict}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
+   &
+     \underoverset
+       {\underset{orth^\ast}{\longrightarrow}}
+       {\overset{orth_!}{\longleftarrow}}
+       {\bot}
+   &
    \mathbb{S}_{Orth} Mod_{strict}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
+   &
+     \underoverset
+       {\underset{sym^\ast}{\longrightarrow}}
+       {\overset{sym_!}{\longleftarrow}}
+       {\bot}
+   &
    \mathbb{S}_{Sym} Mod_{strict}
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
+   &
+     \underoverset
+       {\underset{seq^\ast}{\longrightarrow}}
+       {\overset{seq_!}{\longleftarrow}}
+       {\bot}
+   &
    \mathbb{S}_{Seq} Mod_{strict}
-   \\
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   &&
-   {}^{\mathllap{U}}\downarrow \uparrow^{\mathrlap{F}}
-   \\
-   [Top_{fin}^{\ast/}, Top^{\ast/}]_{strict}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underset{orth^\ast}{\longrightarrow}}&
-   [Orth, Top^{\ast/}]_{strict}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underset{sym^\ast}{\longrightarrow}}&
-   [Sym, Top^{\ast/}]_{strict} 
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underset{seq^\ast}{\longrightarrow}}&
-   [Seq, Top^{\ast/}_{Quillen}] 
- }
+  }
   \,.
 $$
 
 =--
 
-(see [MMSS 00, Variant 6.10](#MMSS00))
 
 +-- {: .proof}
 ###### Proof
 
-To see that indeed all the adjunctions here are [[Quillen adjunctions]], use that by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and lemma \ref{SModulesAsEnrichedFunctors} all [[right adjoints]] are given by restrictions of [[sites]]. By definition of the strict model structures and transferred model structures their fibrations and acyclic fibrations are objectwise so, and hence are preserved by these restriction functors.
-
-=--
-
-
-
-The strict model structures of prop. \ref{StrictModelStructureOnDiagramSpectra} [[presentable (infinity,1)-category|present]] the [[homotopy theory]] of the given diagrams of homotopy types, hence a homotopy theory of pre-spectra. To obtain from this the genuine [[stable homotopy theory]] of genuine spectra we need to restrict this to [[Omega-spectra]], in the following sense.
-
-+-- {: .num_defn #StableEquivalencesForDiagramSpectra}
-###### Definition
-
-For any of the four categories of spectra in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, we say (with notation from def. \ref{NotationForGenericDiagramSpectra}) that:
-
-1. an object $X$ is an _Omega-spectrum_ if $seq^\ast X $ is an [[Omega spectrum]] in the standard sense of [[sequential spectra]];
-
-1. a morphism $f$ is a _stable weak homotopy equivalence_ if $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the standard sense of [[sequential spectra]] (an [[isomorphism]] on all [[stable homotopy groups]] of sequential spectra);
-
-1. a morphism $f$ is a _stable equivalence_ if for all Omega-spectra $X$ in the above sense, the morphism $[f,E]_{strict}$ is a [[bijection]] (where $[-,E]_{strict}$ is the [[hom-functor]] of the [[homotopy category]] of the strict model structure of prop. \ref{StrictModelStructureOnDiagramSpectra}.
-
-
-=--
-
-([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
-
-
-The following proposition says that def. \ref{StableEquivalencesForDiagramSpectra} makes sense, in that if the [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structures at the stable equivalences exists (which we check [below](ProofOfTheStableModelStructure)) then it indeed localizes the homotopy theory to the [[Omega-spectra]].
-
-+-- {: .num_prop #StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences}
-###### Proposition
-
-The weak equivalences in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}) and the stable equivalences of def. \ref{StableEquivalencesForDiagramSpectra} are related as follows:
-
-1. Every weak equivalence with respect to the strict model structure is a stable equivalence.
-
-1. Every stable equivalence between Omega-spectra (def. \ref{StableEquivalencesForDiagramSpectra}) is a weak equivalence in the strict model structure.
-
-=--
-
-([MMSS 00, lemma 8.11](#MMSS00))
-
-+-- {: .proof}
-###### Proof
-
-The first statement follows by def. \ref{StableEquivalencesForDiagramSpectra} since weak equivalences become isomorphisms in the [[homotopy category]].
-
-For the second statement, let $f \colon X \to Y$ be a stable equivalence between Omega-spectra. Then by definition, in particular
+By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
 
 $$
-  [f,X]_{strict} \;\colon\; [Y,X]_{strict} \longrightarrow [X,X]_{strict}
+  \mathbb{S}_{dia}Mod
+   \simeq
+  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
 $$
 
-is a [[bijection]]. Therefore the pre-image of $[id_X] \in [X,X]_{strict}$ is an inverse to $f$ in the [[homotopy category]] of the strict model structure. Hence $f$ represents an isomorphism in the strict homotopy category and is hence a weak equivalence in the strict model structure.
+and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+
+The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
+
+Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
 
 =--
+
 
 
 
 #### The stable model structure on diagram spectra
  {#MonoidalStableModelStructure}
 
-##### Stable equivalences
 
-We discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and c) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences. 
-
-This is important in practice, since the stable equivalences are the weakequivalences in the stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra}, while the [[stable weak homotopy equivalences]] are typically more readily identified.
-
-
-
-+-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
-###### Theorem
-
-In $\mathbb{S}Mod$, $\mathbb{S}_{Orth} Mod$ and in $\mathbb{S}_{Seq} Mod$ we have for the concepts from def. \ref{StableEquivalencesForDiagramSpectra} that
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Leftrightarrow\;
-  stable \; equivalence
-  \,.
-$$
-
-In $\mathbb{S}_{Sym}Mod$ however we only have
-
-$$
-  stable\;weak\;homotopy\;equivalence 
-  \;\Rightarrow\;
-  stable \; equivalence
-$$
-
-but the reverse implication is false.
-
-=--
-
-([MMSS00, prop. 8.7, prop. 8.8](#MMSS00))
-
-We break up this statement below as prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} and prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences}.
-
-The argument that every stable weak homotopy equivalence is in particular a stable equivalence is fairly formal; this we turn to first in prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below. The converse statement in prop. \ref{StableEquivalencesThatAreStableWeakHomotopyEquivalences} however relies on explicit analysis of the class $K$ of generating acylic cofibrations in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. 
-
-+-- {: .num_defn #AKindOfAlmostSpectrification}
++-- {: .num_defn #StableEquivalencesForDiagramSpectra}
 ###### Definition
 
-For $\lambda_0 \colon F^{dia}_1 S^1 \to F^{dia}_0 S^0$ from lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, consider the [[natural transformation]] in $X \in \mathbb{S}_{dia}Mod$ given by the left vertical morphism in 
+For any of the four categories of spectra in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, we say that:
 
-$$
-  \array{
-    X &\simeq& \mathbb{S}_{dia} Mod(F^{dia}_0 S^0, X)
-    \\
-    \downarrow^{\mathrlap{\lambda_0^\ast(X)}} && \downarrow^{\mathrlap{\mathbb{S}_{dia}Mod(\lambda_0, X)}}
-    \\
-    R X &\coloneqq& \mathbb{S}_{dia}Mod(F^{dia}_1 S^1, X)
-  }
-  \,,
-$$
+1. an object $X$ is an **structured [[Omega-spectrum]]** if the [[sequential spectrum]] $seq^\ast X $ is an [[Omega spectrum]] in the sense of def. \ref{OmegaSpectrum};
 
-where the top morphism is the $(F^{dia}_0 \dashv (-)_0)$-adjunction isomorphism.
-Write
-
-$$
-  R^\infty X
-  \coloneqq
-  \underset{\longrightarrow}{\lim}
-  \left(
-    X 
-     \stackrel{\lambda_0^\ast(X)}{\longrightarrow}
-    R X
-     \stackrel{R(\lambda_0^\ast(X))}{\longrightarrow}
-    R R X  
-     \stackrel{R R(\lambda_0^\ast(X))}{\longrightarrow}
-    \cdots
-  \right)
-$$
-
-for the [[homotopy colimit]] over the resulting sequence of iterations. Write 
-
-$$
-  r_X \colon X \longrightarrow R^\infty X
-$$
-
-for the 0th-component map into the colimit.
+1. a morphism $f$ is a _stable weak homotopy equivalence_ if the undrlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the sense of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}.
 
 =--
 
-
-+-- {: .num_lemma #PropertiesOfAKindOfAlmostSpectrification}
-###### Lemma
-
-The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the following properties.
-
-1. for $E$ an Omega-spectrum according to def. \ref{StableEquivalencesForDiagramSpectra}, then, by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists}, $\lambda_0^\ast(E)$ is weak equivalence in the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra}), and hence so is $r_E$;
-
-1. for $f\colon X \longrightarrow Y$ a stable weak homotopy equivalence according to def. \ref{StableEquivalencesForDiagramSpectra}, then $R^\infty f \colon R^\infty X \longrightarrow R^\infty Y$ is a weak equivalence in the strict model structure.
-
-=--
-
-([MMSS 00, prop. 8.8](#MMSS00))
+([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
 
-+-- {: .num_prop #StableWeakHomotopyEquivalenceIsStableEquivalence}
-###### Proposition
-
-In def. \ref{StableEquivalencesForDiagramSpectra} every stable weak homotopy equivalence is a stable equivalence.
-
-=--
-
-([MMSS 00, prop. 8.8](#MMSS00), following [Hovey-Shipley-Smith 00, theorem 3.1.11](#HoveyShipleySmith00))
-
-
-+-- {: .proof}
-###### Proof
-
-Let $E$ be an Omega-spectrum. Then by the first item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, for every $X$ the morphism obtained by homming $X$ into  $r_E$ of $E$ 
-
-$$
-  [X,r_E]_{strict}
-    \;\colon\; 
-  [X,E]_{strict} 
-    \longrightarrow 
-  [X, R^\infty E]_{strict}
-$$
-
-(in the [[homotopy category of a model category|homotopy category]] of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}) is an isomorphism. Since $r_{(-)}$ is a [[natural transformation]] (by def. \ref{AKindOfAlmostSpectrification}), the naturality squares gives a factorization of this morphism as
-
-$$
-  [X,r_E]_{strict}
-    \;\colon\;
-  [X,E]_{strict} 
-    \stackrel{R^\infty}{\longrightarrow}
-  [R^\infty X, R^\infty E]_{strict}
-    \stackrel{[r_X,E]_{strict}}{\longrightarrow}
-  [X, R^\infty E]_{strict}  
-$$
-
-Combining this with vertical morphisms as below, which are isomorphisms again by item 1 of lemma \ref{AKindOfAlmostSpectrification},
-
-$$
-  \array{
-     &
-      &&
-    [R^\infty X, E]_{strict}
-      &\stackrel{}{\longrightarrow}&
-    [X, E]_{strict}  
-    \\
-    & &\nearrow& 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[R^\infty X,r_E]}} 
-     && 
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{[X,r_E]}}
-    \\
-    [X,r_E]_{strict}
-      \;\colon\;
-     &
-    [X,E]_{strict} 
-      &\stackrel{R^\infty}{\longrightarrow}&
-    [R^\infty X, R^\infty E]_{strict}
-      &\stackrel{[r_X,E]_{strict}}{\longrightarrow}&
-    [X, R^\infty E]_{strict}  
-  }
-$$
-
-exhibits a [[retraction]] 
-
-$$
-  id \colon [X,E]_{strict} \longrightarrow [R^\infty X,E]_{strict} \longrightarrow [X,E]_{strict}
-  \,,
-$$ 
-
-which is natural in $X$. This naturality now implies a retraction of morphisms
-
-$$
-  \array{
-    id_{[Y,E]_{strict}} \colon & [Y,E]_{strict} &\longrightarrow& [R^\infty Y,E]_{strict} &\longrightarrow& [Y,E]_{strict}
-    \\
-    & \downarrow^{\mathrlap{[f,E]_{strict}}} && \downarrow^{\mathrlap{[R^\infty f,E]_{strict}}}
-     &&
-     \downarrow^{\mathrlap{[f,E]_{strict}}}
-    \\
-    id_{[X,E]_{strict}} \colon & [X,E]_{strict} &\longrightarrow& [R^\infty X,E]_{strict} &\longrightarrow& [X,E]_{strict}
-  }
-  \,.
-$$
-
-Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrification}, the middle vertical morphism here is an isomorphism, hence $[f^\ast, E]_{strict}$ is the retract of an iso and hence ([here](retract#RetractOfIso)) an isomorphism itself, for all Omega-spectra $E$. This means by definition that $f^\ast$ is a stable equivalence.
-
-
-=--
-
-
-Now for the converse.
-
-
-
-+-- {: .num_prop #StableEquivalencesThatAreStableWeakHomotopyEquivalences}
-###### Proposition
-
-In the case $Dia \in \{Top^{\ast/}, Orth, Seq\}$, hence for [[sequential spectra]], [[orthogonal spectra]] and pre-[[excisive functors]], stable equivalences are stable weak homotopy equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
-
-=--
-
-([MMSS 00, p.31-32](#MMSS00))
-
-+-- {: .proof}
-###### Proof idea
-
-By theorem ref. \ref{StableModelStructuresOnDiagramSpectra}, and by lemmas  \ref{KInjectiveStableEquivalencesAreStrictEquivalences} and \ref{RetractsOfRelativeKCellComplexesAreTheStableEquivalencesAndStrictCofibrationsForSequentialSpectra}, every stable weak equivalence factors as a $K$-[[relative cell complex]] followed by weak equivalence in the strict model structure. Since the latter is degreewise a [[weak homotopy equivalence]] it is in particular a [[stable weak homotopy equivalence]]. Hence we are reduced to showing that every $K$-[[relative cell complex]] is a stable weak homotopy equivalence.
-
-Observe now that we know this to be true for the elements of $K$ itself (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}): first of all, the elements in $F J$ are [[retracts]] of [[deformation retracts]] and therefore stable weak homotopy equivalences. Second, the morphisms denoted $k_n$ in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, which resolve the maps $\lambda_n$ from def. \ref{CorepresentationOfAdjunctsOfStructureMaps}, as stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}.  This implies that so are their pushout products $k_n \Box i$. 
-
-=--
-
-This completes the proof of theorem \ref{RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}.
 
 
 ##### Monoidal model structure
