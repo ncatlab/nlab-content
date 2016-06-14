@@ -618,7 +618,7 @@ $$
 
 and subject to certain identifications.
 
-Now observe that the hom-objects of $R FreeMod$ (def. \ref{FreeModulesOverAMonoidInDayConvolution}) have just this structure:
+Now observe that the hom-objects of $R Free_{\mathcal{C}}Mod$ (def. \ref{FreeModulesOverAMonoidInDayConvolution}) have just this structure:
 
 $$
   \begin{aligned}
@@ -650,7 +650,7 @@ We claim that under this identification, composition in $R Free_{\mathcal{C}}Mod
 
 $$
   \begin{aligned}
-    R FreeMod(c_2, c_1) \otimes_V R FreeMod(c_3, c_2)
+    R Free_{\mathcal{C}}Mod(c_2, c_1) \otimes_V R Free_{\mathcal{C}}Mod(c_3, c_2)
     & =
     \left(
     \overset{c_4}{\int} \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2)     
