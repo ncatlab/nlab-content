@@ -4,12 +4,12 @@
 
 ## Idea and benefits
 
-The proof-theoretic ordinal of a theory $T$ is commonly defined as
+The proof-theoretic ordinal of a [[theory]] $T$ is commonly defined as
 
 $$ {\vert T\vert} = \sup\{ \mathrm{otyp}({\prec}) \mid {\prec}\text{is primitive recursive and}\;
  T \vdash \mathrm{TI}({\prec},X) \}$$
 
-where $\mathrm{otyp}({\prec})$ is the order-type of the well-order
+where $\mathrm{otyp}({\prec})$ is the order-type of the [[well-order]]
 $\prec$. For most theories, this is equal to the $\Pi^1_1$-ordinal of
 the theory,
 
@@ -21,7 +21,7 @@ $\Pi^1_1$-sentence $F$ (if $T$ is a first-order theory, we interpret
 $T \vdash \forall X.F(X)$ as $T \vdash F(X)$ with a free set parameter
 $X$).
 
-The proof-theoretic ordinal is always a recursive ordinal ($\lt\omega_1^{\mathrm{CK}}$) if the theory is recursive.
+The proof-theoretic ordinal is always a recursive [[ordinal]] ($\lt\omega_1^{\mathrm{CK}}$) if the theory is recursive.
 
 Note that the proof-theoretic ordinal is a rather blunt invariant, because if $F$ is any true $\Sigma^1_1$-sentence, then
 
