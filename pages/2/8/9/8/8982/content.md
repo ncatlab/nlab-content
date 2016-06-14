@@ -25,7 +25,7 @@ On a [[local topos]]/[[local (∞,1)-topos]] $\mathbf{H}$, hence with extra [[fu
 
 * The [[codiscrete objects]] in a local topos are the [[modal types]] for the [[sharp modality]].
 
-* The [[discrete object]] in a local topos are the [[modal types]] for the flat modality.
+* The [[discrete objects]] in a local topos are the [[modal types]] for the flat modality.
 
 ## Related concepts
 
