@@ -3173,6 +3173,321 @@ $$
 =--
 
 
+##### As diagram spectra
+
+In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ (prop. \ref{SequentialSpectraAsDiagramSpectra}) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+
+Now we discuss the analogous construction for the more general structured spectra from [above](#SModules).
+
++-- {: .num_prop #ModulesForDayConvolutionAsEnrichedFunctors}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ be a [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and let $A \in Mon([\mathcal{C},Top^{\ast/}_{cg}],\otimes_{Day}, y(1_{\mathcal{C}}))$ be a [[monoid in a monoidal category|monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the pointed topological [[Day convolution]] monoidal category over $\mathcal{C}$ from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}.
+
+Then the [[category of modules|category of left A-modules]] (def. \ref{ModulesInMonoidalCategory}) is a pointed topologically [[enriched functor category]] category ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk))
+
+$$
+  A Mod
+  \;\simeq\;
+  [ A Free_{\mathcal{C}}Mod^{op}, \; Top_{cg}^{\ast/} ]
+  \,,
+$$
+
+over the category of [[free modules]] over $A$ (def. \ref{MonoidModuleOverItself}) on objects in $\mathcal{C}$ (under the [[Yoneda embedding]] $y \colon \mathcal{C}^{op} \to [\mathcal{C}, Top^{\ast/}_{cg}]$). Hence the objects of $A Free_{\mathcal{C}}Mod$ are identified with those of $\mathcal{C}$, and its [[hom-spaces]] are
+
+$$
+  A Free_{\mathcal{C}}Mod( c_1, c_2)
+  \;=\;
+  A Mod( A \otimes_{Day} y(c_1),\; A \otimes_{Day} y(c_2) )
+  \,.
+$$
+
+=--
+
+([MMSS 00, theorem 2.2](#MMSS00))
+
+
++-- {: .proof}
+###### Proof
+
+
+Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $A$ with a [[lax monoidal functor]] and of any $A$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+
+$$
+  A(c_1)\otimes N(c_2) \overset{\rho_{c_1,c_2}}{\longrightarrow} N(c_1 \otimes c_2)
+  \,.
+$$
+
+Notice that these transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) of the form
+
+$$
+  \mathcal{C}(c_1,c_2) \otimes N(c_1) \overset{}{\longrightarrow} N(c_2)
+  \,.
+$$
+
+Hence we may unify these two kinds of transformations into a single kind of the form
+
+$$
+   \mathcal{C}(c_3 \otimes c_1 , c_2) 
+        \otimes 
+      A(c_3)
+      \otimes
+    N(c_1)   
+      \overset{id \otimes \rho_{c_3,c_1}}{\longrightarrow}
+    \mathcal{C}(c_3 \otimes c_1, c_2) 
+      \otimes
+    N(c_3 \otimes c_2)    
+      \longrightarrow
+    N(c_2)
+$$
+
+and subject to certain identifications.
+
+Now observe that the hom-objects of $A Free_{\mathcal{C}}Mod$  have just this structure:
+
+$$
+  \begin{aligned}
+    A Free_{\mathcal{C}}Mod(c_2,c_1)
+      & =
+    A Mod( A \otimes_{Day} y(c_2) , A \otimes_{Day} y(c_1) )
+    \\
+      & \simeq
+    [\mathcal{C},Top^{\ast/}_{cg}](y(c_2), A \otimes_{Day} y(c_1) )
+    \\
+      & \simeq
+    (A \otimes_{Day} y(c_1) )(c_2)
+    \\
+      & \simeq
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_2)
+         \wedge
+       A(c_3) \wedge \mathcal{C}(c_1, c_4)
+     \\
+     & \simeq 
+     \overset{c_3}{\int}
+       \mathcal{C}(c_3 \otimes c_1, c_2)
+       \wedge  A (c_3)
+  \end{aligned}
+  \,.
+$$
+
+Here we used first the [[free-forgetful adjunction]] of prop. \ref{MonoidModuleOverItself}, then the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then the [[coend]]-expression for [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}) and finally the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}).
+
+We claim that under this identification, composition in $A Free_{\mathcal{C}}Mod$ is given by the following composite.
+
+$$
+  \begin{aligned}
+    A Free_{\mathcal{C}}Mod(c_3, c_2)
+      \wedge
+    A Free_{\mathcal{C}}Mod(c_2, c_1) 
+    & =
+    \left(
+    \overset{c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3 )
+      \wedge A(c_5)
+    \right)
+      \wedge
+    \left(
+    \overset{c_4}{\int} 
+       \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2)     
+       \wedge
+       A(c_4)
+    \right)
+    \\
+    & \simeq
+    \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
+        \wedge
+      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2 )
+        \wedge
+      A(c_5) \wedge A(c_4)    
+    \\
+    & \longrightarrow
+      \overset{c_4,c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
+        \wedge
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
+        \wedge
+       A(c_5  \otimes_{\mathcal{C}}  c_4   )     
+     \\
+     & \longrightarrow
+      \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
+        \wedge
+       A(c_5  \otimes_{\mathcal{C}} c_4 )     
+     \\
+     & \longrightarrow
+      \overset{c_4}{\int} 
+      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1  , c_3)
+        \otimes_V
+      A(c_4 )
+  \end{aligned}
+  \,,
+$$
+
+where
+
+1. the equivalence is [[braiding]] in the integrand (and the [[Fubini theorem]], prop. \ref{CoendsCommuteWithEachOther});
+
+1. the first morphism is, in the integrand, the smash product of 
+
+   1. forming the tensor product of hom-objects of $\mathcal{C}$ with the identity morphism on $c_5$;
+
+   1. the monoidal functor incarnation $A(c_5) \wedge A(c_4)\longrightarrow A(c_5 \otimes_{\mathcal{C}} c_4 )$ of the monoid structure on $A$;
+
+1. the second morphism is, in the integrand, given by composition in $\mathcal{C}$;
+
+1. the last morphism is the morphism induced on [[coends]] by regarding [[extranatural transformation|extranaturality]] in $c_4$ and $c_5$ separately as a special case of extranaturality in $c_6 \coloneqq c_4 \otimes c_5$ (and then renaming).
+
+It is fairly straightforward to see that, under the above identifications, functoriality under this composition is equivalently functoriality in $\mathcal{C}$ together with the action property over $A$.
+
+
+=--
+
+
+
+
+
++-- {: .num_example #SequentialSpectraAsFunctorsOnFreeSSequModules}
+###### Example
+
+For the sequential case $dia = Seq$ (def. \ref{TopologicalDiagramCategoriesForSpectra}), then the opposite category of [[free modules]] on objects in $Seq$ over $\mathbb{S}_{Seq}$ (def. \ref{StandardRepresentativeOfTheSphereSpectrum}) in lemma \ref{SModulesAsEnrichedFunctors} is identified as the category $StdSpheres$ 
+from def. \ref{CategoriesOfStandardSpheres}:
+
+$$
+  \mathbb{S}_{seq} Free_{seq}Mod^{op}
+   \;\simeq\;
+  StdSpheres
+$$
+
+Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} reduces to prop. \ref{SequentialSpectraAsDiagramSpectra}:
+
+$$
+  [ \mathbb{S}_{seq} Free_{seq}Mod^{op}, Top^{\ast/}_{cg} ]
+    \simeq
+  [StdSpheres, Top^{\ast/}_{cg}]
+    \simeq
+  SeqSpec(Top_{cg})
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+There is one object $y(n)$ for each $n \in \mathbb{N}$. Moreover, from the expression in the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} we compute the [[hom-spaces]] between these to be
+
+$$
+  \begin{aligned}
+    \mathbb{S}_{seq} Free_{seq}Mod( 
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_2}
+       ,
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_1}
+    )
+    &  
+    \simeq
+    \overset{n}{\int} Seq(n + k_1 , k_2) \wedge \mathbb{S}_{seq}(n)
+    \\
+    &
+    \simeq
+    \left\{
+      \array{
+        S^{k_2-k_1} & if \; k_2 \geq k_1
+        \\
+        \ast & otherwise
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+These are the objects and hom-spaces of the category $StdSpheres$. It is straightforward to check that the definition of composition agrees, too.
+
+=--
+
+
+
++-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
+###### Proposition
+
+The four categories of 
+
+1. [[pre-excisive functors]] $Exc(Top_{cg})$;
+
+1. [[orthogonal spectra]] $OrthSpec(Top_{cg})$;
+
+1. [[symmetric spectra]] $SymSpec(Top_{cg})$;
+
+1. [[sequential spectra]] $SeqSpec(Top_{cg})$
+
+each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
+These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
+
+Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
+
+
+
+$$
+ \array{
+   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{strict}
+   &
+     \underoverset
+       {\underset{orth^\ast}{\longrightarrow}}
+       {\overset{orth_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Orth} Mod_{strict}
+   &
+     \underoverset
+       {\underset{sym^\ast}{\longrightarrow}}
+       {\overset{sym_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Sym} Mod_{strict}
+   &
+     \underoverset
+       {\underset{seq^\ast}{\longrightarrow}}
+       {\overset{seq_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Seq} Mod_{strict}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
+
+$$
+  \mathbb{S}_{dia}Mod
+   \simeq
+  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
+$$
+
+and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+
+The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
+
+Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
+
+=--
+
+
 
 ##### Free spectra
  {#FreeSpectra}
@@ -3184,7 +3499,7 @@ Moreover, while free [[sequential spectra]] are just re-indexed [[suspension spe
 +-- {: .num_defn #FreeStructuredSpectrum}
 ###### Definition
 
-For $dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra}, and for each $n \in \mathbb{N}$, the functor 
+For $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra}, and for each $n \in \mathbb{N}$, the functor 
 
 $$
   (-)_n
@@ -3211,30 +3526,24 @@ This is called the **[[free structured spectrum]]**-functor.
 +-- {: .num_lemma #ExplicitExpressionForFreeSpectra}
 ###### Lemma
 
-Under the equivalence of lemma \ref{SModulesAsEnrichedFunctors}
+Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra} and consider  the equivalence $\mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia}Free_{dia}Mod, Top^{\ast/}_{cg}]$ of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}. Then
 
 1. the [[free spectrum]] on $K \in Top^{\ast/}$ is 
 
    $$
      F^{dia}_n K
-      \;=\;
-     \mathbb{S}_{dia}FreeMod( - , y(n)\wedge \mathbb{S}_{dia} ) \wedge K
-      \;\in\; 
-     [ \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]
-      \;\stackrel{\simeq}{\to}\;
-     \mathbb{S}_{dia}Mod
+      \;\simeq\;
+     \mathbb{S}_{dia}Free_{dia}Mod( - , \mathbb{S}_{dia} \wedge y(n) ) \wedge K
      \,,
    $$
 
-   where $y(n)$ denotes the [[representable functor|functor represented]] by $dia(n)$ (i.e. by $n$ if $dia = Seq$, by $\{1,\cdots,n\}$ if $dia = Sym$, by $\mathbb{R}^n$ if $dia = Orth$ and by $S^n$ if $dia = Top^{\ast/}_{fin}$).
-
-1. On the free $\mathbb{S}_{dia}$-module on $e \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}]$ this takes the value
+1. on the $\mathbb{S}_{dia}$-[[free module]] on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}]$ this takes the value
 
   $$
     (F^{dia}_n K)(e)
-      \;=\;
-    \underset{\underset{e_1 \otimes e_2 \to e}{\longrightarrow}}{\lim}
-    Dia(n,e_1)\wedge \mathbb{S}_{dia}(e_2) \wedge K
+      \;\simeq\;
+    \overset{n_1 \in Dia}{\int}
+      Dia(n_1 \otimes n, n') \wedge S^{n_1} \wedge K
     \,.
   $$
 
@@ -3242,29 +3551,35 @@ Under the equivalence of lemma \ref{SModulesAsEnrichedFunctors}
 
 ([MMSS00, p. 7 with theorem 2.2](#MMSS00))
 
+
 +-- {: .proof}
 ###### Proof
 
-Generally, for $\mathcal{C}$ a $V$-[[enriched category|enriched]] [[symmetric monoidal category]], and for $c\in \mathcal{C}$ an object, then there is an [[adjunction]]
+The first statement is a special case of the general fact that for $\mathcal{C}$ a pointed topologically enriched category, and for $c \in \mathcal{C}$ any [[object]], then there is an [[adjunction]]
 
 $$
-  [\mathcal{C}, V]
-    \stackrel{\overset{y(d)\otimes(-)}{\longleftarrow}}{\underset{(-)_c}{\longrightarrow}}
-  V
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+    \underoverset
+      {\underset{(-)_c}{\longrightarrow}}
+      {\overset{y(c)\wedge(-)}{\longleftarrow}}
+      {\bot}
+  Top^{\ast/}_{cg}
 $$
 
-whose characterizing [[natural isomorphism]] is the combination of that of [[tensoring]] with the [[Yoneda embedding]]:
+witnessed by the following composite [[natural isomorphism]]:
 
 $$
-  [\mathcal{C},V]( y(d) \otimes K, F )
-    \simeq
-  V( K, [\mathcal{C},V]( y(d), F ) )
-    \simeq
-  V(K, F(d))
-  \,.
-$$ 
+  [\mathcal{C}, Top^{\ast/}_{cg}](y(c)\wedge K, F)
+    \;\simeq\;
+  Top^{\ast/}_{cg}(K, [\mathcal{C}, Top^{\ast/}_{cg}](y(c),  F)  )
+    \;\simeq\;
+  Top^{\ast/}_{cg}(K,F(c))
+  \,,
+$$
 
-Specializing this to our case with $V = Top^{\ast/}$ and $\mathcal{C} = \mathbb{S}_{dia} FreeMod^{op}$ yields the first statement. The second follows from similar yoga, see the formula at _[Day convolution -- Modules](Day+convolution#FreeModulesOverAMonoidInDayConvolution)_.
+where thefirst is the defining isomorphism of [[tensoring]], while the second is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}).
+
+From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
 
 =--
 
@@ -3770,319 +4085,7 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
-#### The strict model structure on structured spectra
 
-In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ (prop. \ref{SequentialSpectraAsDiagramSpectra}) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
-
-Now we discuss the analogous construction for the more general structured spectra from [above](#SModules).
-
-+-- {: .num_prop #ModulesForDayConvolutionAsEnrichedFunctors}
-###### Proposition
-
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ be a [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and let $A \in Mon([\mathcal{C},Top^{\ast/}_{cg}],\otimes_{Day}, y(1_{\mathcal{C}}))$ be a [[monoid in a monoidal category|monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the pointed topological [[Day convolution]] monoidal category over $\mathcal{C}$ from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}.
-
-Then the [[category of modules|category of left A-modules]] (def. \ref{ModulesInMonoidalCategory}) is a pointed topologically [[enriched functor category]] category ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk))
-
-$$
-  A Mod
-  \;\simeq\;
-  [ A Free_{\mathcal{C}}Mod^{op}, \; Top_{cg}^{\ast/} ]
-  \,,
-$$
-
-over the category of [[free modules]] over $A$ (def. \ref{MonoidModuleOverItself}) on objects in $\mathcal{C}$ (under the [[Yoneda embedding]] $y \colon \mathcal{C}^{op} \to [\mathcal{C}, Top^{\ast/}_{cg}]$). Hence the objects of $A Free_{\mathcal{C}}Mod$ are identified with those of $\mathcal{C}$, and its [[hom-spaces]] are
-
-$$
-  A Free_{\mathcal{C}}Mod( c_1, c_2)
-  \;=\;
-  A Mod( A \otimes_{Day} y(c_1),\; A \otimes_{Day} y(c_2) )
-  \,.
-$$
-
-=--
-
-([MMSS 00, theorem 2.2](#MMSS00))
-
-
-+-- {: .proof}
-###### Proof
-
-
-Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $A$ with a [[lax monoidal functor]] and of any $A$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
-
-$$
-  A(c_1)\otimes N(c_2) \overset{\rho_{c_1,c_2}}{\longrightarrow} N(c_1 \otimes c_2)
-  \,.
-$$
-
-Notice that these transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) of the form
-
-$$
-  \mathcal{C}(c_1,c_2) \otimes N(c_1) \overset{}{\longrightarrow} N(c_2)
-  \,.
-$$
-
-Hence we may unify these two kinds of transformations into a single kind of the form
-
-$$
-   \mathcal{C}(c_3 \otimes c_1 , c_2) 
-        \otimes 
-      A(c_3)
-      \otimes
-    N(c_1)   
-      \overset{id \otimes \rho_{c_3,c_1}}{\longrightarrow}
-    \mathcal{C}(c_3 \otimes c_1, c_2) 
-      \otimes
-    N(c_3 \otimes c_2)    
-      \longrightarrow
-    N(c_2)
-$$
-
-and subject to certain identifications.
-
-Now observe that the hom-objects of $A Free_{\mathcal{C}}Mod$  have just this structure:
-
-$$
-  \begin{aligned}
-    A Free_{\mathcal{C}}Mod(c_2,c_1)
-      & =
-    A Mod( A \otimes_{Day} y(c_2) , A \otimes_{Day} y(c_1) )
-    \\
-      & \simeq
-    [\mathcal{C},Top^{\ast/}_{cg}](y(c_2), A \otimes_{Day} y(c_1) )
-    \\
-      & \simeq
-    (A \otimes_{Day} y(c_1) )(c_2)
-    \\
-      & \simeq
-     \overset{c_3,c_4}{\int}
-       \mathcal{C}(c_3 \otimes c_4,c_2)
-         \wedge
-       A(c_3) \wedge \mathcal{C}(c_1, c_4)
-     \\
-     & \simeq 
-     \overset{c_3}{\int}
-       \mathcal{C}(c_3 \otimes c_1, c_2)
-       \wedge  A (c_3)
-  \end{aligned}
-  \,.
-$$
-
-Here we used first the [[free-forgetful adjunction]] of prop. \ref{MonoidModuleOverItself}, then the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then the [[coend]]-expression for [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}) and finally the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}).
-
-We claim that under this identification, composition in $A Free_{\mathcal{C}}Mod$ is given by the following composite.
-
-$$
-  \begin{aligned}
-    A Free_{\mathcal{C}}Mod(c_3, c_2)
-      \wedge
-    A Free_{\mathcal{C}}Mod(c_2, c_1) 
-    & =
-    \left(
-    \overset{c_5}{\int} 
-      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3 )
-      \wedge A(c_5)
-    \right)
-      \wedge
-    \left(
-    \overset{c_4}{\int} 
-       \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2)     
-       \wedge
-       A(c_4)
-    \right)
-    \\
-    & \simeq
-    \overset{c_4, c_5}{\int} 
-      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
-        \wedge
-      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2 )
-        \wedge
-      A(c_5) \wedge A(c_4)    
-    \\
-    & \longrightarrow
-      \overset{c_4,c_5}{\int} 
-      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
-        \wedge
-      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
-        \wedge
-       A(c_5  \otimes_{\mathcal{C}}  c_4   )     
-     \\
-     & \longrightarrow
-      \overset{c_4, c_5}{\int} 
-      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
-        \wedge
-       A(c_5  \otimes_{\mathcal{C}} c_4 )     
-     \\
-     & \longrightarrow
-      \overset{c_4}{\int} 
-      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1  , c_3)
-        \otimes_V
-      A(c_4 )
-  \end{aligned}
-  \,,
-$$
-
-where
-
-1. the equivalence is [[braiding]] in the integrand (and the [[Fubini theorem]], prop. \ref{CoendsCommuteWithEachOther});
-
-1. the first morphism is, in the integrand, the smash product of 
-
-   1. forming the tensor product of hom-objects of $\mathcal{C}$ with the identity morphism on $c_5$;
-
-   1. the monoidal functor incarnation $A(c_5) \wedge A(c_4)\longrightarrow A(c_5 \otimes_{\mathcal{C}} c_4 )$ of the monoid structure on $A$;
-
-1. the second morphism is, in the integrand, given by composition in $\mathcal{C}$;
-
-1. the last morphism is the morphism induced on [[coends]] by regarding [[extranatural transformation|extranaturality]] in $c_4$ and $c_5$ separately as a special case of extranaturality in $c_6 \coloneqq c_4 \otimes c_5$ (and then renaming).
-
-It is fairly straightforward to see that, under the above identifications, functoriality under this composition is equivalently functoriality in $\mathcal{C}$ together with the action property over $A$.
-
-
-=--
-
-
-
-
-
-+-- {: .num_example #SequentialSpectraAsFunctorsOnFreeSSequModules}
-###### Example
-
-For the sequential case $dia = Seq$ (def. \ref{TopologicalDiagramCategoriesForSpectra}), then the opposite category of [[free modules]] on objects in $Seq$ over $\mathbb{S}_{Seq}$ (def. \ref{StandardRepresentativeOfTheSphereSpectrum}) in lemma \ref{SModulesAsEnrichedFunctors} is identified as the category $StdSpheres$ 
-from def. \ref{CategoriesOfStandardSpheres}:
-
-$$
-  \mathbb{S}_{seq} Free_{seq}Mod^{op}
-   \;\simeq\;
-  StdSpheres
-$$
-
-Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} reduces to prop. \ref{SequentialSpectraAsDiagramSpectra}:
-
-$$
-  [ \mathbb{S}_{seq} Free_{seq}Mod^{op}, Top^{\ast/}_{cg} ]
-    \simeq
-  [StdSpheres, Top^{\ast/}_{cg}]
-    \simeq
-  SeqSpec(Top_{cg})
-  \,.
-$$
-
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-There is one object $y(n)$ for each $n \in \mathbb{N}$. Moreover, from the expression in the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} we compute the [[hom-spaces]] between these to be
-
-$$
-  \begin{aligned}
-    \mathbb{S}_{seq} Free_{seq}Mod( 
-       \mathbb{S}_{seq} \otimes_{Day} y_{k_2}
-       ,
-       \mathbb{S}_{seq} \otimes_{Day} y_{k_1}
-    )
-    &  
-    \simeq
-    \overset{n}{\int} Seq(n + k_1 , k_2) \wedge \mathbb{S}_{seq}(n)
-    \\
-    &
-    \simeq
-    \left\{
-      \array{
-        S^{k_2-k_1} & if \; k_2 \geq k_1
-        \\
-        \ast & otherwise
-      }
-    \right.
-  \end{aligned}
-  \,.
-$$
-
-These are the objects and hom-spaces of the category $StdSpheres$. It is straightforward to check that the definition of composition agrees, too.
-
-=--
-
-
-
-+-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
-###### Proposition
-
-The four categories of 
-
-1. [[pre-excisive functors]] $Exc(Top_{cg})$;
-
-1. [[orthogonal spectra]] $OrthSpec(Top_{cg})$;
-
-1. [[symmetric spectra]] $SymSpec(Top_{cg})$;
-
-1. [[sequential spectra]] $SeqSpec(Top_{cg})$
-
-each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
-These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
-
-Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
-
-
-
-$$
- \array{
-   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
-   \\
-   \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_{strict}
-   &
-     \underoverset
-       {\underset{orth^\ast}{\longrightarrow}}
-       {\overset{orth_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Orth} Mod_{strict}
-   &
-     \underoverset
-       {\underset{sym^\ast}{\longrightarrow}}
-       {\overset{sym_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Sym} Mod_{strict}
-   &
-     \underoverset
-       {\underset{seq^\ast}{\longrightarrow}}
-       {\overset{seq_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Seq} Mod_{strict}
-  }
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
-
-$$
-  \mathbb{S}_{dia}Mod
-   \simeq
-  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
-$$
-
-and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
-
-The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
-
-Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
-
-=--
 
 
 
