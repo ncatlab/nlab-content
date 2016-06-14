@@ -11293,82 +11293,32 @@ Accordingly, in this case prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}
 +-- {: .proof}
 ###### Proof
 
-The free $\mathbb{S}_{Dia}$ modules are those of the form $y(d)\wedge \mathbb{S}_{Dia}$, where $d \in Dia$ is an object, and $y$ denotes the [[Yoneda embedding]]. For the case $Dia = Seq$ this means that they are labeled by $k \in \mathbb{N}$, their underlying functor $F(k) \in [Seq,Top^{\ast/}]$ is given by
+There is one object for each natural number. Moreover we compute
 
 $$
-  F(k)
-  \;\colon\;
-  n 
-  \mapsto
-  \left\{
-    \array{
-      S^{n-k} & for\; n \geq k
-      \\
-      \ast & otherwise
-    }
-  \right.
-$$
-
-and the $\mathbb{S}_{Seq}$-[[action]] on these is, expressed as [[modules over monoidal functors]] (via [this fact](Day+convolution#DayMonoidsAreLaxMonoidalFunctorsOnTheSite) about modules with respect to [[Day convolution]]) by the canonical identifications
-
-$$
-  S^{n_1} \wedge F(k)_{n_2}
-  =
-  S^{n_1} \wedge S^{n_2-k}
-  \overset{}{\longrightarrow}
-  S^{n_1 + n_2 - k}
-  =
-  F(k)_{n_1+ n_2}
-$$
-
-whenever $n_2 \geq k$, and by the [[zero morphism]] otherwise.
-
-Now for $R$ any other $\mathbb{S}_{Seq}$-module, with action
-
-$$
-  S^{n_1} \wedge R_{n_2} \overset{\rho_{n_1,n_2}}{\longrightarrow} R_{n_1 + n_2}
-$$
-
-then a homomorphism of $\mathbb{S}_{Seq}$-modules $\phi \colon F(k)\to R$ has components $\phi_{n}\colon S^{n-k} \to R_n$ fitting into commuting diagrams of the form
-
-$$
-  \array{
-     S^{n_1} \wedge S^{n_2 - k} &\overset{\simeq}{\longrightarrow}& S^{n_1 + n_2 - k}
-     \\
-     {}^{\mathllap{(id,\phi_{n_2})}}\downarrow 
-       && 
-     \downarrow^{\mathrlap{\phi_{n_1+n_2}}}
-     \\
-     S^{n_1} \wedge R_{n_2} &\overset{\rho_{n_1,n_2}}{\longrightarrow}& R_{n_1+n_2}
-  }
-$$
-
-for $n_2 \geq k$. By the fact that the top morphism here is an isomorphism, all the components $\phi_{n \geq k}$ are uniquely fixed by the component $\phi_k$ as 
-
-$$
-  \phi_{n geq k} = \rho_{n-k,k} \circ \phi_k 
-$$
-
-(and $\phi_{n \lt k} = 0$). Of course this just confirms the [[free property]] of free spectra: morphisms of $\mathbb{S}_{Seq}$-modules $F(k) \longrightarrow R$ are equivalent to morphisms in $[Seq,Top^{\ast/}]$ from $y(k)$ to $R$, which by the [[Yoneda lemma]] form the space $R_k \in Top^{\ast/}$.
-
-Specialized to $R$ a free spectrum itself this verifies that the hom-spaces between free $\mathbb{S}_{Seq}$-modules are as claimed:
-
-$$
-  \mathbb{S}_{Seq}FreeMod(F(k_2),F(k_1))
-  \simeq
-  F(k_1)_{k_2} 
-  \simeq
-  \left\{
-    \array{
-      S^{k_2-k_1} & for \; k_2 \geq k_1
-      \\
-      \ast & otherwise
-    }
-  \right.
+  \begin{aligned}
+    \mathbb{S}_{seq} Free_{seq}Mod( 
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_2}
+       ,
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_1}
+    )
+    &  
+    \simeq
+    \overset{n}{\int} Seq(n + k_1 , k_2) \wedge \mathbb{S}_{seq}(n)
+    \\
+    &
+    \simeq
+    \left\{
+      \array{
+        S^{k_2-k_1} & if \; k_2 \geq k_1
+        \\
+        \ast & otherwise
+      }
+    \right.
+  \end{aligned}
   \,.
 $$
 
-Of course this is just the defining free property. But now comparison with the above commuting square for the case $n_1 = k_1$ and $n_2 = k_2$ shows that composition in $\mathbb{S}_{Seq} FreeMod^{op}$ is indeed the composition in $Top^{\ast/}$ under the identification of $F(k)$ with $S^k$ and of the above hom-space $S^{k_2-k_1}$ with its image under $S^{k_2-k_1} \to Top^{\ast/}(S^{k_1},S^{k_2})$.
 
 =--
 
