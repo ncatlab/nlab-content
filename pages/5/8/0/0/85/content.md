@@ -621,7 +621,7 @@ $$
 Hence we may unify these two kinds of transformations into a single kind of the form
 
 $$
-  N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4) 
+  N(c_1) \otimes ( \mathcal{C}(c_1, c_3) \otimes R(c_4))
   \longrightarrow
   N(c_2)
   \;\;\;
