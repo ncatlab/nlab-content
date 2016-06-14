@@ -698,7 +698,7 @@ of lemma \ref{SModulesAsEnrichedFunctors}, the strict model structure is the pro
 +-- {: .proof}
 ###### Proof
 
-To see that indeed all the adjunctions here are [[Quillen adjunctions]], use that by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and lemma \ref{SModulesAsEnrichedFunctors} all [[right adjoints]] are given by restrictions of [[sites]]. By definition of the strict model structures and transferred moddel structures their fibrations and acyclic fibrations are objectwise so, and hence are preserved by these restriction functors.
+To see that indeed all the adjunctions here are [[Quillen adjunctions]], use that by prop. \ref{PropertiesOfTopologicalDiagramCategoriesForSpectra} and lemma \ref{SModulesAsEnrichedFunctors} all [[right adjoints]] are given by restrictions of [[sites]]. By definition of the strict model structures and transferred model structures their fibrations and acyclic fibrations are objectwise so, and hence are preserved by these restriction functors.
 
 =--
 
