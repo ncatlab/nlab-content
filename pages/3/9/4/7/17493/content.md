@@ -56,7 +56,7 @@ Most ordinal analyses proceed by embedding the theory in an infinitary
 proof calculus deriving judgments $\vdash^\alpha_\rho F$ meaning $F$
 has an infinitary derivation of height less than $\alpha$ using only
 cuts of rank less than $\rho$, or some refinement of such, for
-instance using operator controlled derivations. Then one analyses how
+instance using operator controlled derivations. Then one analyzes how
 the height of a derivation changes during cut-elimination. For
 predicative theories, we'll have
 
@@ -82,7 +82,7 @@ See below for explanations.
 |----------------------------------------------|--------------------------------------------|----------------------------------------|--------------------------------|
 | **Finitist systems**                         |                                            |                                        |                                |
 | $\omega^3$                                   | EFA                                        | RCA$_0^*$                              |                                |
-| $\omega^\omega$                              | PRA                                        | RCA$_0$, WKL$_0$                       | CPRC                           |
+| $\omega^\omega$                              | PRA,I$\Sigma_1$                            | RCA$_0$, WKL$_0$                       | CPRC                           |
 | **Predicative systems**                      |                                            |                                        |                                |
 | $\varepsilon_0=\varphi(1,0)$                 | PA                                         | ACA$_0$                                | EM$_0$                         |
 | $\varphi(1,\varepsilon_0)$                   |                                            | ACA                                    |                                |
@@ -115,9 +115,13 @@ The sections of the table corresponds roughly to the kinds of reasoning captured
 
 * Finitistic reasoning about the natural numbers (and other finitistic inductive types)
 * Predicative reasoning about the natural numbers
-* Metapredicative reasoning about the natural numbers
+* Meta-predicative reasoning about the natural numbers
 * Reasoning about general inductive types
 * Reasoning about general inductive-recursive types
+
+Note that these are all very much weaker than full second-order arithmetic, and of course much weaker than Zermelo or Zermolo-Fraenkel set theory.
+
+After the meta-predicative systems, all ordinals use a notation which refers to a much larger ordinal, often patterned on a large cardinal.
 
 ### Ordinal notations
 
