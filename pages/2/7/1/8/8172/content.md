@@ -898,7 +898,7 @@ Given an $E$-Adams resolution (def. \ref{EAdamsResolution}), there is an [[isomo
 +-- {: .num_remark}
 ###### Remark
 
-Hence both of these construction are to be called the $E$-Adams spectral sequence. It is in fact the second construction -- for the case of the normalized resolution as in example \ref{NormalizedEResolutionAssociatedSequence} -- that is considered in the original sources ([Adams 74, p. 318](#Adams74), [Bousfield 79, p. 271](#Bousfield79)). But it is the first construction that relates to the totalization tower of the cosimplicial spectrum $E^{\wedge^\bullet} \wedge X$.
+Hence both of these construction are to be called the $E$-Adams spectral sequence. It is in fact the second construction -- for the case of the normalized resolution as in example \ref{NormalizedEResolutionAssociatedSequence} -- that is considered in the original sources ([Adams 74, p. 318](#Adams74), [Bousfield 79, p. 271](#Bousfield79)). 
 
 =--
 
