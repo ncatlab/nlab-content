@@ -2431,6 +2431,172 @@ This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnT
 
 
 
++-- {: .num_prop}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ be a [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}), and let $A \in Mon([\mathcal{C},Top^{\ast/}_{cg}],\otimes_{Day}, y(1_{\mathcal{C}}))$ be a [[monoid in a monoidal category|monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the pointed topological [[Day convolution]] monoidal category over $\mathcal{C}$ from prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}.
+
+Then the [[category of modules|category of left A-modules]] (def. \ref{ModulesInMonoidalCategory}) is a pointed topologically [[enriched functor category]] category ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk))
+
+$$
+  A Mod
+  \;\simeq\;
+  [ A Free_{\mathcal{C}}Mod^{op}, \; Top_{cg}^{\ast/} ]
+  \,,
+$$
+
+over the category of [[free modules]] over $A$ (def. \ref{MonoidModuleOverItself}) on objects in $\mathcal{C}$ (under the [[Yoneda embedding]] $y \colon \mathcal{C}^{op} \to [\mathcal{C}, Top^{\ast/}_{cg}]$). Hence the objects of $A Free_{\mathcal{C}}Mod$ are identified with those of $\mathcal{C}$, and its [[hom-spaces]] are
+
+$$
+  A Free_{\mathcal{C}}Mod( c_1, c_2)
+  \;=\;
+  A Mod( A \otimes_{Day} y(c_1),\; A \otimes_{Day} y(c_2) )
+  \,.
+$$
+
+=--
+
+([MMSS 00, theorem 2.2](#MMSS00))
+
+
++-- {: .proof}
+###### Proof idea
+
+
+Use the identification from prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} of $A$ with a [[lax monoidal functor]] and of any $A$-[[module object]] $N$ as a functor with the structure of a [[module over a monoidal functor]], given by [[natural transformations]]
+
+$$
+  A(c_1)\otimes N(c_2) \overset{\rho_{c_1,c_2}}{\longrightarrow} N(c_1 \otimes c_2)
+  \,.
+$$
+
+Notice that these transformations have just the same structure as those of the [[enriched functor|enriched functoriality]] of $N$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) of the form
+
+$$
+  \mathcal{C}(c_1,c_2) \otimes N(c_1) \overset{}{\longrightarrow} N(c_2)
+  \,.
+$$
+
+Hence we may unify these two kinds of transformations into a single kind of the form
+
+$$
+   \mathcal{C}(c_3 \otimes c_1 , c_2) 
+        \otimes 
+      A(c_3)
+      \otimes
+    N(c_1)   
+      \overset{id \otimes \rho_{c_3,c_1}}{\longrightarrow}
+    \mathcal{C}(c_3 \otimes c_1, c_2) 
+      \otimes
+    N(c_3 \otimes c_2)    
+      \longrightarrow
+    N(c_2)
+$$
+
+and subject to certain identifications.
+
+Now observe that the hom-objects of $A Free_{\mathcal{C}}Mod$  have just this structure:
+
+$$
+  \begin{aligned}
+    A Free_{\mathcal{C}}Mod(c_2,c_1)
+      & =
+    A Mod( A \otimes_{Day} y(c_2) , A \otimes_{Day} y(c_1) )
+    \\
+      & \simeq
+    [\mathcal{C},Top^{\ast/}_{cg}](y(c_2), A \otimes_{Day} y(c_1) )
+    \\
+      & \simeq
+    (A \otimes_{Day} y(c_1) )(c_2)
+    \\
+      & \simeq
+     \overset{c_3,c_4}{\int}
+       \mathcal{C}(c_3 \otimes c_4,c_2)
+         \wedge
+       A(c_3) \wedge \mathcal{C}(c_1, c_4)
+     \\
+     & \simeq 
+     \overset{c_3}{\int}
+       \mathcal{C}(c_3 \otimes c_1, c_2)
+       \wedge  A (c_3)
+  \end{aligned}
+  \,.
+$$
+
+Here we used first the [[free-forgetful adjunction]] of prop. \ref{MonoidModuleOverItself}, then the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then the [[coend]]-expression for [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}) and finally the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}).
+
+We claim that under this identification, composition in $A Free_{\mathcal{C}}Mod$ is given by the following composite.
+
+$$
+  \begin{aligned}
+    A Free_{\mathcal{C}}Mod(c_3, c_2)
+      \wedge
+    A Free_{\mathcal{C}}Mod(c_2, c_1) 
+    & =
+    \left(
+    \overset{c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3 )
+      \wedge A(c_5)
+    \right)
+      \wedge
+    \left(
+    \overset{c_4}{\int} 
+       \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2)     
+       \wedge
+       A(c_4)
+    \right)
+    \\
+    & \simeq
+    \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
+        \wedge
+      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1, c_2 )
+        \wedge
+      A(c_5) \wedge A(c_4)    
+    \\
+    & \longrightarrow
+      \overset{c_4,c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3)
+        \wedge
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
+        \wedge
+       A(c_5  \otimes_{\mathcal{C}}  c_4   )     
+     \\
+     & \longrightarrow
+      \overset{c_4, c_5}{\int} 
+      \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_1, c_5 \otimes_{\mathcal{C}} c_2 )
+        \wedge
+       A(c_5  \otimes_{\mathcal{C}} c_4 )     
+     \\
+     & \longrightarrow
+      \overset{c_4}{\int} 
+      \mathcal{C}(c_4 \otimes_{\mathcal{C}} c_1  , c_3)
+        \otimes_V
+      A(c_4 )
+  \end{aligned}
+  \,,
+$$
+
+where
+
+1. the equivalence is [[braiding]] in the integrand (and the [[Fubini theorem]], prop. \ref{CoendsCommuteWithEachOther});
+
+1. the first morphism is, in the integrand, the smash product of 
+
+   1. forming the tensor product of hom-objects of $\mathcal{C}$ with the identity morphism on $c_5$;
+
+   1. the monoidal functor incarnation $A(c_5) \wedge A(c_4)\longrightarrow A(c_5 \otimes_{\mathcal{C}} c_4 )$ of the monoid structure on $A$;
+
+1. the second morphism is, in the integrand, given by composition in $\mathcal{C}$;
+
+1. the last morphism is the morphism induced on [[coends]] by regarding [[extranatural transformation|extranaturality]] in $c_4$ and $c_5$ separately as a special case of extranaturality in $c_6 \coloneqq c_4 \otimes c_5$ (and then renaming).
+
+It is fairly straightforward to see that, under the above identifications, functoriality under this composition is equivalently functoriality in $\mathcal{C}$ together with the action property over $A$.
+
+
+=--
+
+
 
 
 #### Pre-Excisive functors
