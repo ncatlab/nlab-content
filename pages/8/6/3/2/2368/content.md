@@ -426,7 +426,7 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 The **proof** of prop. \ref{YonedaReductionTopological} is essentially dual to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
 
-Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involvng [[coends]]:
+Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
 ###### Proposition
@@ -494,7 +494,7 @@ $$
 
 (Because then the two pairs are the two images of the pair $(g,x)$ under the two morphisms being coequalized.)
 
-But now considering the case that $d = c_0$ and $d = id_{c_0}$, so that $f = \phi$ shows that any pair
+But now considering the case that $d = c_0$ and $g = id_{c_0}$, so that $f = \phi$ shows that any pair
 
 $$
   ( c \overset{\phi}{\to} c_0, \; x \in F(c))
@@ -514,7 +514,7 @@ This shows the claim at the level of the underlying sets. To conclude it is now 
 $$
   \mathcal{C}(d,c) \wedge F(c)
     \longrightarrow
-  \underset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
+  \overset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
 $$
 
 which we just found. But that system includes 
