@@ -120,7 +120,7 @@ The categories $k\Top\simeq \Top_k$ are [[cartesian closed category|cartesian cl
 
 (This is slightly different from the usual [[compact-open topology]] if $X$ happens to have non-Hausdorff compact subspaces; in that case the usual definition includes such subspaces as tests, while the above definition excludes them.  Of course, if $X$ itself is Hausdorff, then the two become identical.)
 
-With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments, that the bijection
+With this topology, $\Top_k(X,Y)$ becomes an [[exponential object]] in $Top_k$.  It follows, by [[Yoneda lemma]] arguments ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)), that the bijection
 $$k\Top(X \times Y, Z) \to kTop(X,k\Top(Y,Z))$$
 is actually an isomorphism in $\Top_k$, which we may call a *$k$-homeomorphism* (e.g. [Strickland 09, prop. 2.12](#Strickland09)).  In fact, it is actually a homeomorphism, i.e. an isomorphism already in $Top$.
 
