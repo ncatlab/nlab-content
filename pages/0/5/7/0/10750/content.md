@@ -969,7 +969,7 @@ $$
   \,,
 $$
 
-hence if there are [[natural isomorphisms]]
+hence if there are [[natural bijections]]
 
 $$
   Hom_{\mathcal{C}}(X \otimes Y, Z)
@@ -990,6 +990,23 @@ the object $[Y,Z] \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]]
 Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$. 
 
 =--
+
+In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
+
++-- {: .num_lemma}
+###### Lemma
+
+In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+
+$$
+  [X \otimes Y, Z]
+   \;\simeq\;
+  [X, [Y,Z]]
+  \,.
+$$
+
+=--
+
 
 
 +-- {: .num_example #TopAsASymmetricMonoidalCategory} 
