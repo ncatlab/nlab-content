@@ -58,6 +58,58 @@ If $C$ is [[monoidal category|monoidal]] not necessarily [[symmetric monoidal ca
 
 (So in particular a symmetric closed monoidal category is automatically biclosed.)
 
+## Properties
+
++-- {: .num_prop #TensorHomIsoInternalizes} 
+###### Proposition
+
+For $(\mathcal{C}, \otimes, 1)$ a closed monoidal category with [[internal hom]] denoted $[-,-]$, then not only are there [[natural bijections]]
+
+$$
+   Hom_{\mathcal{C}}(X \otimes Y, Z)
+  \simeq
+   Hom_{\mathcal{C}}(X, [Y,Z])
+$$
+
+but these isomorphisms themselves "internalize" to isomorphisms in $\mathcal{C}$ of the form
+
+$$
+  [X \otimes Y, Z]
+    \simeq
+  [X,[Y,Z]]
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the external natural bijections there is for every $A \in \mathcal{C}$ a composite natural bijection
+
+$$
+  Hom_{\mathcal{C}}(A, [X \otimes Y, Z])
+   \simeq
+  Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
+   \simeq
+  Hom_{\mathcal{C}}((A \otimes X) \otimes Y, Z)
+    \simeq
+  Hom_{\mathcal{C}}(A \otimes X, [Y,Z])
+    \simeq
+  Hom_{\mathcal{C}}(A,[X,[Y,Z]])
+  \,.
+$$
+
+Since this holds for every $A \in \mathcal{C}$, the [[Yoneda lemma]] (namely the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) implies that there is already an isomorphism
+
+$$
+  [X \otimes Y, Z] \simeq [X,[Y,Z]]
+  \,.
+$$
+
+=--
+
 ## Examples ##
 
  * The tautological example is the category [[Set]] of sets with its [[Cartesian product]]: the collection of functions between any two sets is itself a set -- the [[function set]].  More generally, any [[topos]] is cartesian closed monoidal.
