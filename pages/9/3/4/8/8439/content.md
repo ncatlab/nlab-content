@@ -186,3 +186,4 @@ A number of examples of encoding object-theories into LF can be found in
 * Arnon Avron, Furio Honsell, Ian A. Mason, and Robert Pollack, _Using typed lambda calculus to implement formal systems on a machine_
 
 [[!redirects logical frameworks]]
+[[!redirects higher-order abstract syntax]]
