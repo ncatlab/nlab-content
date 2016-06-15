@@ -31,7 +31,7 @@ $$
   [v_1,[v_2,v_3]] \simeq [v_2,[v_1,v_3]]
 $$
 
-for all [[object]]s $v_i \in V$. If we regard $V$ as a $V$-[[enriched category]] we write $V(v_1,v_2) := [v_1,v_2]$ and this reads
+for all [[object]]s $v_i \in V$ ([prop.](closed+monoidal+category#TensorHomIsoInternalizes)). If we regard $V$ as a $V$-[[enriched category]] we write $V(v_1,v_2) := [v_1,v_2]$ and this reads
 
 $$
   V(v_1,V(v_2,v_3)) \simeq V(v_2,V(v_1,v_3))
