@@ -1637,6 +1637,10 @@ It follows that $F \to \ast$ is a stable equivalence.
 
 > The second option is: Exclude symmetric spectra from the discussion. Then re-define the class of stable equivalences to be exactly the class of stable weak homotopy equivalences . Since for all the models except for symmetric spectra the elements in that generating set $K$ are stable weak equivalences, this does not change the conclusions of the other lemmas that go into the proof of the model structure. But now since filtered colimits of abelian groups are exact, it follows for a strict fibration $f$ that all its degreewise long exact sequences of homotopy groups give also degreewise long exact sequences of stable homotopy groups. Hence we have a long  exact sequence  $\cdots \to \pi_\bullet(F) \to \pi_\bullet(E) \overset{f_\ast}{\to} \pi_\bullet(B) \to \cdots $. Now since $f_\ast$ is an isomorphism, by the (new) assumption that $f$ is a stable weak homotopy equivalence, it follows that $\pi_\bullet(F) = 0$ and hence $F \to \ast$ is a stable weak homotopy equivalence. Which is the desired conclusion under the modified definition.
 
+Observe also that $F$, being the pullback of a $K$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
+
+
+
 To infer from this the remaining case that also $\pi_0(f_0)$ is an isomorphism, observe that, by assumption of $K$-injectivity, lemma \ref{KInjectivesAreAcyclicCofibrations} gives that $f_n$ is a homotopy pullback (in topological spaces) of $\Omega (f_{n+1})$. But, by the above, $\Omega (f_{n+1})$ is a weak homotopy equivalence, since $\pi_\bullet(\Omega(-)) = \pi_{\bullet+1}(-)$. Therefore $f_n$ is the homotopy pullback of a weak homotopy equivalence and hence itself a weak homotopy equivalence.
 
 =--
@@ -1808,7 +1812,7 @@ The functor $R^\infty$ from def. \ref{AKindOfAlmostSpectrification} has the foll
 +-- {: .proof}
 ###### Proof
 
-For the first item, use that the [[homotopy colimit]] is represented by the [[mapping telescope]]. Then [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes) implies that every homotopy groups of the homotopy colimit is represented at some finite stage. This implies that the telescope of level-wise weak homotopy equivalences is a level-wise weak homotopy equivalence.
+For the first item, use that the [[homotopy colimit]] is represented by the [[mapping telescope]]. Then [this lemma](classical+model+structure+on+topological+spaces#CompactSubsetsAreSmallInCellComplexes) implies that every element of the homotopy groups of the homotopy colimit is represented at some finite stage. This implies that the telescope of level-wise weak homotopy equivalences is a level-wise weak homotopy equivalence.
 
 For the second item, observe that by the defining adjunctions and by lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} (...) we have
 
