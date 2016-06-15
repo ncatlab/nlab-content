@@ -20,7 +20,7 @@ A **free monad** is a [[free object]] relative to a [[forgetful functor]] whose 
 
 This general concept has many different specific incarnations, since there are potentially many different such forgetful functors.  Suppose $C$ is a [[category]], and write $Mnd(C)$ for the category whose objects are monads on $C$ and whose morphisms are natural transformations commuting with the monad structure maps; i.e. it is the category of [[monoids]] in the [[monoidal category]] of endofunctors with composition.  Then we have a string of forgetful functors:
 $$ Mnd(C) \to PtEnd(C) \to End(C) \to [ob(C),C] $$ 
-where $End(C)$ denotes the category of [[endofunctors]] of $C$, and $PtEnd(C)$ denotes the category of *pointed* endofunctors, i.e. endofunctors $F$ equipped with a natural transformation $Id\to F$.  A *free monad* can then be considered as a free object relative to any one of these forgetful functors.
+where $End(C)$ denotes the category of [[endofunctors]] of $C$, and $PtEnd(C)$ denotes the category of [[pointed endofunctors]], i.e. endofunctors $F$ equipped with a natural transformation $Id\to F$.  A *free monad* can then be considered as a free object relative to any one of these forgetful functors.
 
 ## Free finitary monads
 
