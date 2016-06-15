@@ -1002,6 +1002,51 @@ $$
   [X \otimes Y, Z]
    \;\simeq\;
   [X, [Y,Z]]
+$$
+
+whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijections twice, there are composite natural bijections
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(A , [X \otimes Y, Z])
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes X, [Y,Z])
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A, [X,[Y,Z]])
+  \end{aligned}
+  \,.
+$$
+
+Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $[X\otimes Y, Z] \simeq [X,[Y,Z]]$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(1,[X\otimes Y, Z])
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(1,[X,[Y,Z]])
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\mathcal{C}}(X \otimes Y, Z)
+     &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(X, [Y,Z])
+  }
   \,.
 $$
 
@@ -1018,6 +1063,8 @@ Similarly the $Top_{cg}$ of [[compactly generated topological spaces]] ([def.](I
  
 Symmetric monoidal categories, such as these, for which the tensor product is the [[Cartesian product]] are called _[[Cartesian monoidal categories]]_.
 
+Both examples are [[closed monoidal categories]] (def. \ref{ClosedMonoidalCategory}), with [[internal hom]] the [[mapping spaces]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#MappingTopologicalSpaceIsExponentialObject)).
+
 =--
 
 +-- {: .num_example #PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} 
@@ -1032,6 +1079,8 @@ $$
 is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) with [[unit object]] the pointed [[0-sphere]] $S^0$.
 
 The components of the [[associator]], the [[unitors]] and the [[braiding]] are those of [[Top]] as in example \ref{TopAsASymmetricMonoidalCategory}, descended to the [[quotient topological spaces]] which appear in the definition of the [[smash product]]). This works for pointed [[compactly generated spaces]] (but not for general pointed topological spaces) by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#SmashProductInTopcgIsAssociative).
+
+The category $Top^{\ast/}_{cg}$ is also a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}), with [[internal hom]] the pointed [[mapping space]] $Maps(-,-)_\ast$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
 
 =--
 
@@ -3327,14 +3376,13 @@ $$
 
 Here we used first the [[free-forgetful adjunction]] of prop. \ref{MonoidModuleOverItself}, then the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), then the [[coend]]-expression for [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}) and finally the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}).
 
-We claim that under this identification, composition in $A Free_{\mathcal{C}}Mod$ is given by the following composite.
+Then define a [[topologically enriched category]] $\mathcal{D}$ to have [[objects]] and [[hom-spaces]] those of $A Free_{\mathcal{C}}Mod^{op}$ as above, and whose [[composition]] operation is defined as follows:
+
 
 $$
   \begin{aligned}
-    A Free_{\mathcal{C}}Mod(c_3, c_2)
-      \wedge
-    A Free_{\mathcal{C}}Mod(c_2, c_1) 
-    & =
+    \mathcal{D}(c_2,c3) \wedge \mathcal{D}(c_1,c_2)
+    & \simeq
     \left(
     \overset{c_5}{\int} 
       \mathcal{C}(c_5 \otimes_{\mathcal{C}} c_2 , c_3 )
@@ -3393,8 +3441,35 @@ where
 
 1. the last morphism is the morphism induced on [[coends]] by regarding [[extranatural transformation|extranaturality]] in $c_4$ and $c_5$ separately as a special case of extranaturality in $c_6 \coloneqq c_4 \otimes c_5$ (and then renaming).
 
-It is fairly straightforward to see that, under the above identifications, functoriality under this composition is equivalently functoriality in $\mathcal{C}$ together with the action property over $A$.
+With this it is fairly straightforward to see that 
 
+$$
+  A Mod \simeq [\mathcal{D}, Top^{\ast/}_{cg}]
+  \,,
+$$
+
+because, by the above definition of composition, functoriality over $\mathcal{D}$ manifestly encodes the $A$-[[action]] property together with the functoriality over $\mathcal{C}$.
+
+This way we are reduced to showing that actually $\mathcal{D} \simeq A Free_{\mathcal{C}}Mod^{op}$. 
+
+But by construction, the image of the objects of $\mathcal{D}$ under the [[Yoneda embedding]] are precisely the free $A$-modules over objects of $\mathcal{C}$:
+
+
+$$
+  \mathcal{D}(c,-)
+  \simeq
+  A Free_{\mathcal{C}}Mod(-,c) 
+  \simeq
+  (A \otimes_{Day} y(c))(-)
+  \,.
+$$ 
+
+Since the [[Yoneda embedding]] is [[fully faithful functor|fully faithful]], this shows that indeed
+
+$$
+  \mathcal{D}^{op} \simeq A Free_{\mathcal{C}}Mod \hookrightarrow A Mod
+  \,.
+$$
 
 =--
 
