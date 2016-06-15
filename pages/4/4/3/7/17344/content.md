@@ -6429,7 +6429,7 @@ $$
 
 Here the commutativity of the middle square exhibits the desired conclusion.
 
-This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[C,X]_\ast$.
+This shows that the first sequence in question is exact at $[B,X]_\ast$. Applying the same reasoning to the distinguished triangle $(g,h,-\Sigma f)$ provided by T2 yields exactness at $[B/A,X]_\ast$.
 
 Regarding the second case: 
 
@@ -6466,7 +6466,12 @@ Now the top part of this diagram is a distinguished triangle by conditions T1 an
 
 $$
   \array{
-    X &\longrightarrow& 0 &\longrightarrow& \Sigma X &\overset{- id}{\longrightarrow}& \Sigma X
+    X &\longrightarrow& 
+    0 
+      &\longrightarrow& 
+    \Sigma X 
+      &\overset{- \Sigma id}{\longrightarrow}& 
+    \Sigma X
     \\
     \downarrow^{\mathrlap{\psi}} 
       && 
@@ -6500,7 +6505,7 @@ $$
   \,.
 $$
 
-This exhibits the claim to be shown.
+This concludes the exactness of the second sequence at $[X,B]_\ast$. As before, exactness at $[X,B/A]_\ast$ follows with the same argument applied to the shifted triangle, via T2.
 
 =--
 
@@ -6600,7 +6605,7 @@ $$
   \,.
 $$
 
-Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. This $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
+Now lemma \ref{TwoOutOfThreeForMorphismsOfDistinguishedTriangles} gives that $c'$ is an isomorphism. Since $\Sigma$ is an [[equivalence of categories]], there is an isomorphism $c$ such that $c' = \Sigma c$. Since $\Sigma$ is in particular a [[faithful functor]], this $c$ exhibits an isomorphism between $(f,g,h)$ and $(f,g',h')$. Since the latter is distinguished, so is the former, by T0.
 
 =--
 
@@ -6678,13 +6683,13 @@ $$
        &&
      \downarrow^{\mathrlap{\phi}}_{\mathrlap{\simeq}}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
      \\
      \Omega Y
        &\longrightarrow&
      \Omega hocof(f)
        &\longrightarrow&
-     X
+     \Omega \Sigma X
   }
   \,.
 $$
@@ -6841,9 +6846,9 @@ $$
        &&
      \downarrow^{\mathrlap{[A,\phi]_\ast}}_{}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
        &&
-     \downarrow^{\mathrlap{=}}
+     \downarrow^{\mathrlap{\simeq}}
      \\
      [A, \Omega X]_\ast
        &\longrightarrow&
@@ -6851,14 +6856,14 @@ $$
        &\longrightarrow&
      [A,\Omega hocof(f)]_\ast
        &\longrightarrow&
-     [A,X]_\ast
+     [A,\Omega \Sigma X]_\ast
        &\longrightarrow&
-     [A,Y]_\ast
+     [A,\Omega \Sigma Y]_\ast
   }
   \,.
 $$
 
-Here the top row is [[long exact sequence|long exact]], since it is the long [[homotopy fiber sequence]] to the left that holds in the homotopy category of any model catgeory ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)). Moreover, the bottom sequence is [[long exact sequence|long exact]] by prop. \ref{LongFiberSequencesOfMapsOfSpectra}. Hence the [[five lemma]] implies that $[A,\phi]_\ast$ is an isomorphism. Since this is the case for all $A$, the [[Yoneda lemma]] implies that $\phi_\ast$ itself is an isomorphism.
+Here the top row is [[long exact sequence|long exact]], since it is the long [[homotopy fiber sequence]] to the left that holds in the homotopy category of any model catgeory ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)). Moreover, the bottom sequence is [[long exact sequence|long exact]] by prop. \ref{LongFiberSequencesOfMapsOfSpectra}. Hence the [[five lemma]] implies that $[A,\phi]_\ast$ is an isomorphism. Since this is the case for all $A$, the [[Yoneda lemma]] implies that $\phi$ itself is an isomorphism.
 
 =--
 
