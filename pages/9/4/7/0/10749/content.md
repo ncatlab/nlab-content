@@ -1134,12 +1134,12 @@ for all objects $x, y$
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted $[Y,-]$
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes X$ has a [[right adjoint]], denoted $hom(Y,-)$
 
 $$
   \mathcal{C}
     \underoverset
-      {\underset{[Y,-]}{\longrightarrow}}
+      {\underset{hom(Y,-)}{\longrightarrow}}
       {\overset{(-) \otimes Y}{\longleftarrow}}
       {\bot}
   \mathcal{C}
@@ -1151,7 +1151,7 @@ hence if there are [[natural bijections]]
 $$
   Hom_{\mathcal{C}}(X \otimes Y, Z)
    \;\simeq\;
-  Hom_{\mathcal{C}}{C}(X, [Y,Z])
+  Hom_{\mathcal{C}}{C}(X, hom(Y,Z))
 $$
 
 for all objects $X,Z \in \mathcal{C}$. 
@@ -1159,11 +1159,11 @@ for all objects $X,Z \in \mathcal{C}$.
 Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
 
 $$
-  Hom_{\mathcal{C}}(1,[Y,Z]) \simeq Hom_{\mathcal{C}}(Y,Z)
+  Hom_{\mathcal{C}}(1,hom(Y,Z)) \simeq Hom_{\mathcal{C}}(Y,Z)
   \,,
 $$
 
-the object $[Y,Z] \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
+the object $hom(Y,Z) \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
 Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$. 
 
 =--
@@ -1176,9 +1176,9 @@ In a [[closed monoidal category]], the adjunction isomorphism between [[tensor p
 In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
 
 $$
-  [X \otimes Y, Z]
+  hom(X \otimes Y, Z)
    \;\simeq\;
-  [X, [Y,Z]]
+  hom(X, hom(Y,Z))
 $$
 
 whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
@@ -1192,7 +1192,7 @@ Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijectio
 
 $$
   \begin{aligned}
-    Hom_{\mathcal{C}}(A , [X \otimes Y, Z])
+    Hom_{\mathcal{C}}(A , hom(X \otimes Y, Z))
     & \simeq
     Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
     \\
@@ -1200,21 +1200,21 @@ $$
     Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
     \\
     & \simeq
-    Hom_{\mathcal{C}}(A \otimes X, [Y,Z])
+    Hom_{\mathcal{C}}(A \otimes X, hom(Y,Z))
     \\
     & \simeq
-    Hom_{\mathcal{C}}(A, [X,[Y,Z]])
+    Hom_{\mathcal{C}}(A, hom(X,hom(Y,Z)))
   \end{aligned}
   \,.
 $$
 
-Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $[X\otimes Y, Z] \simeq [X,[Y,Z]]$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $hom(X\otimes Y, Z) \simeq hom(X,hom(Y,Z))$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
 
 $$
   \array{
-    Hom_{\mathcal{C}}(1,[X\otimes Y, Z])
+    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
       &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(1,[X,[Y,Z]])
+    Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
     \\
     {}^{\mathllap{\simeq}}\downarrow
       &&
@@ -1222,7 +1222,7 @@ $$
     \\
     Hom_{\mathcal{C}}(X \otimes Y, Z)
      &\overset{\simeq}{\longrightarrow}&
-    Hom_{\mathcal{C}}(X, [Y,Z])
+    Hom_{\mathcal{C}}(X, hom(Y,Z))
   }
   \,.
 $$
@@ -1665,27 +1665,52 @@ This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
 +-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
+Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
 
-$$
-  N_1 \otimes A \otimes N_2
-  \underoverset
-    {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
-    {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
-    {\phantom{AAAA}}
-  N_1 \otimes N_1
-    \overset{coequ}{\longrightarrow}
-  N_1 \otimes_A N_2
-$$
+1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
+
+   $$
+     N_1 \otimes A \otimes N_2
+     \underoverset
+       {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
+       {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
+       {\phantom{AAAA}}
+     N_1 \otimes N_1
+       \overset{coequ}{\longrightarrow}
+     N_1 \otimes_A N_2
+   $$
+
+   and if $A \otimes (-)$ preserves these coequalizers, then this is equipped with the left $A$-action induced from the left $A$-action on $N_1$
+
+1. the **function module** $hom_A(N_1,N_2)$ is, if it exists, the [[equalizer]]
+
+   $$
+     hom_A(N_1, N_2)
+       \overset{equ}{\longrightarrow}
+     hom(N_1, N_2)
+       \underoverset
+         {\underset{hom(A \otimes N_1, \rho_2)\circ (A \otimes(-))}{\longrightarrow}}
+         {\overset{hom(\rho_1,N_2)}{\longrightarrow}}
+         {\phantom{AAAAAA}}
+       hom(A \otimes N_1, N_2)
+     \,.
+   $$
+
+   equipped with the left $A$-action that is induced by the left $A$-action on $N_2$.
 
 =--
 
 +-- {: .num_prop #MonoidalCategoryOfModules}
 ###### Proposition
 
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$ and if $A \otimes (-)$ preserves coequalizers, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+
+If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] given by the function modules $hom_A$ of def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}.
 
 =--
+
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2, lemma 2.2.8](#HoveyShipleySmith00))
+
 
 +-- {: .num_defn #AAlgebra}
 ###### Definition
@@ -2918,15 +2943,15 @@ $$
   \,,
 $$
 
-into the pointed topological categroy of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
+into the pointed topological category of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
 
 Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the canonical inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the [[topological subspace]] inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$ ("[[representation spheres]]").
 
 Consider the pointed topological diagram categries  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
 
-* $[Seq,Top^{\ast/}_{cg}]$ called the category of **sequences** (of pointed topological spaces);
+* $[Seq,Top^{\ast/}_{cg}]$ called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
 
-* $[Sym,Top^{\ast/}_{cg}]$ called the category of **symmetric sequences** (e.g. [Hovey-Shipley-Smith 00, def. 2.1.1](#HoveyShipleySmith00));
+* $[Sym,Top^{\ast/}_{cg}]$ called the category of **symmetric sequences** (e.g. [HSS 00, def. 2.1.1](#HoveyShipleySmith00));
 
 * $[Orth, Top^{\ast/}_{cg}]$ called the category of **orthogonal sequences**.
 
@@ -3117,6 +3142,8 @@ $$
 
 =--
 
+([HoveyShipleySmith 00, prop. 2.3.4](#HoveyShipleySmith00))
+
 +-- {: .proof}
 ###### Proof
 
@@ -3238,7 +3265,7 @@ In the next section we work out what these symmetric monoidal categories of orth
 
 We now define [[symmetric spectra]] and [[orthogonal spectra]] and their symmetric monoidal smash product. We proceed by giving the explicit definitions and then checking that these are equivalent to the abstract definition \ref{SsymModuleSymmetricSpectra} from above.
 
-**Literature.** ([Schwede 12, chapter I](#Schwede12)) 
+**Literature.** ( [Hovey-Shipley-Smith 00, section 1, section 2](#HoveyShipleySmith00), [Schwede 12, chapter I](#Schwede12)) 
 
 $\,$
 
@@ -3299,7 +3326,7 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 =--
 
-(e.g. [Schwede 12, def. 1.1](#Schwede12))
+([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
 
 
 +-- {: .num_defn #OrthogonalSpectrum}
@@ -3382,6 +3409,8 @@ $$
 $$
 
 =--
+
+([Hovey-Shipley-Smith 00, prop. 2.2.1](#HoveyShipleySmith00))
 
 +-- {: .num_defn #SmashProductOfSymmetricSpectra}
 ###### Definition
