@@ -415,7 +415,7 @@ Additivity of the left adjoint follows from the remaining assumptions, since [[a
 ### Existence of enough injectives
  {#ExistenceOfEnoughInjectives}
 
-We discuss a list of classes of categories that have _enough injective_
+We discuss a list of classes of categories that have _enough injectives_
 according to def. \ref{EnoughInjectives}.
 
 +-- {: .num_prop}
@@ -676,11 +676,15 @@ For injective objects in a topos see
 
 * [[Fred Linton]], [[Robert Paré]], _Injective Objects in Topoi I: Representing coalgebras as algebras_ , pp.196-206 in LNM **719** Springer Heidelberg 1979.
 
-See
+For a detailed discussion of internal notions of injectivity see
 
-* {#Harting} Roswitha Harting, _Locally injective abelian groups in a topos_, Communications in Algebra 11 (4), 1983
+* {#Harting} Roswitha Harting, _Locally injective abelian groups in a topos_, Communications in Algebra 11 (4), 1983.
 
-for a detailed discussion of internal notions of injectivity.
+For injective toposes in the 2-category of [[bounded topos|bounded toposes]] see
+
+* [[Peter Johnstone]], _Injective Toposes_ , pp.284-297 in LNM **871** Springer Heidelberg 1981.
+
+* [[Peter Johnstone]], _Sketches of an Elephant vol. 2_ , Cambridge UP 2002. (section C4.3, pp.738-745)
 
 [[!redirects injective objects]]
 
