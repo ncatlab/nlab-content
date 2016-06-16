@@ -225,7 +225,7 @@ $$
 ###### Remark
 
 For discussion of the refinement of the Thom spectrum $M O$
-to a [[symmetric spectrum]] see ([Schwede 12, Example I.2.8](#Schwede12)). For the refinement to an [[orthogonal spectrum]] and [[globally equivariant spectrum]] see ([Schwede 15, section V.4](#Schwede15)).
+to a [[symmetric spectrum]] see ([Hovey-Shipley-Smith 00, example 6.2.3](#HoveyShipleySmith00), [Schwede 12, Example I.2.8](#Schwede12)). For the refinement to an [[orthogonal spectrum]] and [[globally equivariant spectrum]] see ([Schwede 15, section V.4](#Schwede15)).
 
 =--
 
@@ -931,6 +931,9 @@ Lecture notes include
 
 
 As [[symmetric spectra]]:
+
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], example 6.2.3 of _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.6 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
