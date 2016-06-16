@@ -31,7 +31,7 @@ More specifically the term _geometrodynamics_ is associated with Wheeler's specu
 
 For instance on a spacetime that is obtained from two copies of [[Minkowski space]] connected by a thin (as measured by the metric) throat -- often called a _wormhole_ -- an electric field configuration whose field lines all converge to the throat's mouth in one of the two Minkowski sheets, pass through the throat and then emerge concentrically in the other Minkowski sheet may have no divergence anywhere, hence according to [[electromagnetism|Maxwell's equations]] have no charge sources anywhere, and still effectively look to an observer constrained to one of the two Minkowski sheets but relatively far away from the throat's mouth as if they were the field lines of a positively or negatively charged point source located where the mouth of the throat is.
 
-These kinds of ideas Wheeler liked to describe by phrases such as _charge without charge_ and _mass without mass_ . Later these basic ideas have continued a life notably in the context of attempts to describe gravity by a [[topological quantum field theory]], for instance in approaches to describe [[gravity as a BF-theory]].
+These kinds of ideas Wheeler liked to describe by phrases such as _charge without charge_ and *mass without mass*. Later these basic ideas have continued a life notably in the context of attempts to describe gravity by a [[topological quantum field theory]], for instance in approaches to describe [[gravity as a BF-theory]].
 
 ### Similarity to KK-compactifications of pure super-gravity
 
