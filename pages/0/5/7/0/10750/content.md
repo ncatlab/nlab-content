@@ -4083,7 +4083,7 @@ $$
   \,,
 $$
 
-where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
+where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
 
 =--
 
@@ -4509,33 +4509,44 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
  {#MonoidalStableModelStructure}
 
 
-+-- {: .num_defn #StableEquivalencesForDiagramSpectra}
+
++-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
 ###### Definition
 
-For any of the four categories of spectra in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, we say that:
+For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
 
-1. an object $X$ is a **structured [[Omega-spectrum]]** if the [[sequential spectrum]] $seq^\ast X $ is an [[Omega spectrum]] in the sense of def. \ref{OmegaSpectrum};
+1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
 
-1. a morphism $f$ is a _stable weak homotopy equivalence_ if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the sense of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}.
+1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
+
+1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
-([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
 +-- {: .num_theorem #OrthogonalSpectraStableModelStructure}
 ###### Theorem
 
-The category of [[orthogonal spectra]] carries a [[model category]] structure whose weak equivalences are the stable weak homotopy equivalences from def. \ref{StableEquivalencesForDiagramSpectra} and whose fibrant objects are the Omega-spectra in the sense of def. \ref{StableEquivalencesForDiagramSpectra}.
+The category $OrthSpec(Top_{cg})$ of [[orthogonal spectra]] carries a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) where
+
+* the weak equivalences $W_{stable}$ are the [[stable weak homotopy equivalences]] (def. \ref{StableOrthStructureClassesOfMorphisms});
+
+* the cofibrations $Cof_{stable}$ are the cofibrations of the strict model stucture of prop. \ref{StrictModelStructureOnDiagramSpectra};
+
+* the fibrant objects are precisely the [[Omega-spectra]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
+
+Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations given in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
 
 =--
 
-We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof).
+([Mandell-May 02, theorem 4.2](#May02)) 
+
+We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof), after
 
 ##### Proof of the model structure
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
-
-
 
 
 +-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
@@ -4556,6 +4567,8 @@ $$
 be a factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} and def. \ref{CorepresentationOfAdjunctsOfStructureMaps} through a strict cofibration followed by a strict weak equivalence.
 
 =--
+
+spring
 
 With this we may state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
 
@@ -5213,7 +5226,7 @@ The model structure on orthogonal spectra and its [[Quillen equivalence]] to the
 
 The further Quillen equivalence to the [[model structure on S-modules]] is due to 
 
-* [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_ ([K-theory:0318](http://www.math.uiuc.edu/K-theory/0318/), [pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
+* {#May02} [[Michael Mandell]], [[Peter May]], _Orthogonal spectra and $S$-modules_, Memoirs of the AMS,number 755 (2002) ([K-theory:0318](http://www.math.uiuc.edu/K-theory/0318/), [pdf](http://www.math.uchicago.edu/~may/PAPERS/mmLMSDec30.pdf))
 
 The analogous result for [[equivariant spectra]] is in
 
