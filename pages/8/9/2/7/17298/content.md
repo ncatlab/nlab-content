@@ -1631,11 +1631,20 @@ Let $f\colon X \to B$ be both a stable equivalence as well as a $K$-injective mo
 
 It follows that $F \to \ast$ is a stable equivalence.
 
-> This needs some qualification. There are two options:
+> This needs some qualification. 
 
-> Assume that we already know, by other means, that the homotopy category of our diagram spectra is going to be the localization of the strict model structure at the Omega-spectra, and that this localization is pre-triangulated. This means that there are long exact sequences $\cdots \to [B,E]_{strict} \overset{[f,E]_{strict}}{\to} [X,E]_{strict}\to [F,E]_{strict} \to \cdots $ and since $[f,E]$ is an isomorphism by assumption on $f$, then $[F,E]_{strict} \simeq \ast \simeq [\ast,E]$, for all Omega-spectra $E$. Hence $F\to \ast$ is a stable weak equivalence.
+> What is meant (checked this with the main author) is the following.
 
-> The second option is: Exclude symmetric spectra from the discussion. Then re-define the class of stable equivalences to be exactly the class of stable weak homotopy equivalences . Since for all the models except for symmetric spectra the elements in that generating set $K$ are stable weak equivalences, this does not change the conclusions of the other lemmas that go into the proof of the model structure. But now since filtered colimits of abelian groups are exact, it follows for a strict fibration $f$ that all its degreewise long exact sequences of homotopy groups give also degreewise long exact sequences of stable homotopy groups. Hence we have a long  exact sequence  $\cdots \to \pi_\bullet(F) \to \pi_\bullet(E) \overset{f_\ast}{\to} \pi_\bullet(B) \to \cdots $. Now since $f_\ast$ is an isomorphism, by the (new) assumption that $f$ is a stable weak homotopy equivalence, it follows that $\pi_\bullet(F) = 0$ and hence $F \to \ast$ is a stable weak homotopy equivalence. Which is the desired conclusion under the modified definition.
+> Consider for any $E \in \mathbb{S}_{dia}Mod$ the cofiber sequence
+
+> $[B,E]_{strict} \overset{p^\ast}{\longrightarrow} [X,E]_{strict} \overset{}{\longrightarrow} [hocof(p),E]_{strict} \longrightarrow [\Sigma B, E]_{strict} \overset{\Sigma p^\ast}{\longrightarrow}[\Sigma X,E]_{strict}$
+
+> This kind of sequence is long exact for every pointed model category, not necessarily stable. Then let $E$ be any Omega-spectrum. By assumption it follows then that $p^\ast$ and $\Sigma p^\ast$ are isomorphisms, so that exactness implies that $[hocof(p),E]_{strict} = 0$ for all Omega-spectra $E$.
+
+> Now use that on underlying sequential spectra there is a stable weak homotopy equivalence $hocof(p) \longrightarrow \Sigma hofib(p) = \Sigma F$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Since suspension is preserved by passing to underlying sequential spectra, and since stable homotopy groups by definition are those of the underlying sequential spectra, and since stable weak  equivalences are in particular stable equivalences (prop. \ref{StableWeakHomotopyEquivalenceIsStableEquivalence} below) it follows that $[\Sigma F, E]_{strict}$ for all Omega-spectra $E$, hence $[F, \Omega E]_{strict} = 0$ for all Omega-spectra.
+
+> We are to conclude that hence $F \to \ast$ is a stable equivalence. But to conclude this we now need to know that every Omega-spectrum in $\mathbb{S}_{dia}Mod$ is in the image under $\Omega$ of an Omega-spectrum, up to strict equivalence. Showing this needs more arguments. 
+
 
 Observe also that $F$, being the pullback of a $K$-injective morphisms (by the standard [closure properties](injective+or+projective+morphism#ClosureProperties)) is a $K$-[[injective object]], so that by corollary \ref{KInjectivesObjectsAreOmegaSpectra} $F$ is an Omega-spectrum. Together this implies with prop. \ref{StableEquivalencesBetweenOmegaSpectraAreStrictWeakEquivalences} that $F \to \ast$ is a weak equivalence in the strict model structure, hence degreewise a [[weak homotopy equivalence]]. From this the [[long exact sequence of homotopy groups]] implies that $\pi_{\bullet \geq 1}(f_n)$ is a [[weak homotopy equivalence]] for all $n$ and for each homotopy group in positive degree. 
 
