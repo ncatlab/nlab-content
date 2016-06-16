@@ -99,7 +99,7 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
   This includes for instance the standard [[Quillen model structure on topological spaces]]. 
 
-* The Quillen [[model structure on simplicial sets]] is right proper, though not all objects are fibrant.  An explanation of why can be found on its page.
+* The [[classical model structure on simplicial sets]] is (automatically left proper, since all objects are cofibrant, but also) right proper, even though not all objects are fibrant.  See [there](classical+model+structure+on+simplicial+sets#Properness).
 
 
 ### Non-right proper model categories
@@ -111,9 +111,9 @@ But it is [[Quillen equivalence|Quillen equivalent]] to a model structure that _
 
 Model categories which are both left and right proper include
 
-* [[Top]]: [[classical model structure on topological spaces]]
+* [[Top]]: [[classical model structure on topological spaces]] ([prop.](classical+model+structure+on+topological+spaces#Properness))
 
-* [[sSet]]: [[classical model structure on simplicial sets]]
+* [[sSet]]: [[classical model structure on simplicial sets]] ([here](classical+model+structure+on+simplicial+sets#Properness))
 
 * The _global_ [[model structure on simplicial presheaves]] and any local such model structure over a site with [[point of a topos|enough points]] and weak equivalences the [[stalk]]wise weak equivalences.
 
