@@ -32,7 +32,7 @@ Let $(X,g)$ be a [[compact topological space|compact]] [[oriented]] [[Riemannian
 The Hodge [[inner product]] 
 
 $$
- \langle -,-\rangle : \Omega^\bullet(X) \otimes \Omega^{n-\bullet}(X)
+ \langle -,-\rangle : \Omega^\bullet(X) \otimes \Omega^{\bullet}(X)
   \to 
   \mathbb{R}
 $$
