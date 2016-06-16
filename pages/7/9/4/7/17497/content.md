@@ -4162,15 +4162,20 @@ This is called the **[[free structured spectrum]]**-functor.
 +-- {: .num_lemma #ExplicitExpressionForFreeSpectra}
 ###### Lemma
 
-Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra} and consider  the equivalence $\mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia}Free_{dia}Mod, Top^{\ast/}_{cg}]$ of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}. Then
+Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagram shapes of def. \ref{TopologicalDiagramCategoriesForSpectra} and consider  the equivalence $\mathbb{S}_{dia} Mod \simeq [\mathbb{S}_{dia}Free_{dia}Mod^{op}, Top^{\ast/}_{cg}]$ of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}. Then
 
-1. the [[free spectrum]] on $K \in Top^{\ast/}$ is 
+1. the [[free spectrum]] on $K \in Top^{\ast/}_{cg}$ is 
 
    $$
-     F^{dia}_n K
-      \;\simeq\;
-     \mathbb{S}_{dia}Free_{dia}Mod( - , \mathbb{S}_{dia} \wedge y(n) ) \wedge K
-     \,,
+     \begin{aligned}
+       F^{dia}_n K
+        & \simeq
+       y_{Free_{Dia}Mod}(n) \wedge K
+       \\
+       & \simeq
+       \mathbb{S}_{dia}Free_{dia}Mod( - , \mathbb{S}_{dia} \wedge y_{Dia}(n) ) \wedge K
+       \end{aligned}
+     \,;
    $$
 
 1. on the $\mathbb{S}_{dia}$-[[free module]] on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}]$ this takes the value
@@ -4310,7 +4315,7 @@ $$
   \,,
 $$
 
-where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
+where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
 
 =--
 
@@ -4633,15 +4638,15 @@ Consider the following sequence of [[natural isomorphisms]]
 
 $$
   \begin{aligned}
-    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}]((F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B), Z)
+    [\mathbb{S}_{dia} Free_{Dia}Mod^{op},Top^{\ast/}]((F_k A)\wedge_{\mathbb{S}_{dia}} (F_\ell B), Z)
     & \simeq
-     [\mathbb{S}_{dia} FreeMod^{op}\times \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]((F_k A)\tilde \wedge (F_\ell B), Z \circ \wedge)
+     [\mathbb{S}_{dia} Free_{Dia}Mod^{op}\times \mathbb{S}_{dia} Free_{Dia}Mod^{op}, Top^{\ast/}]((F_k A)\tilde \wedge (F_\ell B), Z \circ \wedge)
     \\
     & \simeq 
     Top^{\ast/}( A\wedge B, F_{k+\ell})
     \\
     & \simeq
-    [\mathbb{S}_{dia} FreeMod^{op},Top^{\ast/}](
+    [\mathbb{S}_{dia} Free_{Dia}Mod^{op},Top^{\ast/}](
       F_{k+\ell}(A \wedge B), Z
     )    
   \end{aligned}
@@ -4736,33 +4741,44 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
  {#MonoidalStableModelStructure}
 
 
-+-- {: .num_defn #StableEquivalencesForDiagramSpectra}
+
++-- {: .num_defn #StableOrthStructureClassesOfMorphisms}
 ###### Definition
 
-For any of the four categories of spectra in prop. \ref{SystemOfAdjunctionsForDiagramSpectra}, we say that:
+For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{SsymModuleSymmetricSpectra} we say that
 
-1. an object $X$ is a **structured [[Omega-spectrum]]** if the [[sequential spectrum]] $seq^\ast X $ is an [[Omega spectrum]] in the sense of def. \ref{OmegaSpectrum};
+1. an object $X$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
 
-1. a morphism $f$ is a _stable weak homotopy equivalence_ if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] in the sense of def. \ref{StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra}.
+1. a morphism $f$ is a **[[stable weak homotopy equivalence]]** (or: **$\pi_\bullet$-isomorphism**) if the underlying morphism of [[sequential spectra]] $seq^\ast(f)$ is a [[stable weak homotopy equivalence]] of sequential spectra ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableWeakHomotopyEquivalenceOfSequentialTopologicalSpectra));
+
+1. a morphism $f$ is a **stable cofibration** if it is a cofibration in the strict model structure $OrthSpec(Top_{cg})_{strict}$ from prop. \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
-([MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
+(e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
 +-- {: .num_theorem #OrthogonalSpectraStableModelStructure}
 ###### Theorem
 
-The category of [[orthogonal spectra]] carries a [[model category]] structure whose weak equivalences are the stable weak homotopy equivalences from def. \ref{StableEquivalencesForDiagramSpectra} and whose fibrant objects are the Omega-spectra in the sense of def. \ref{StableEquivalencesForDiagramSpectra}.
+The category $OrthSpec(Top_{cg})$ of [[orthogonal spectra]] carries a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) where
+
+* the weak equivalences $W_{stable}$ are the [[stable weak homotopy equivalences]] (def. \ref{StableOrthStructureClassesOfMorphisms});
+
+* the cofibrations $Cof_{stable}$ are the cofibrations of the strict model stucture of prop. \ref{StrictModelStructureOnDiagramSpectra};
+
+* the fibrant objects are precisely the [[Omega-spectra]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
+
+Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations given in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
 
 =--
 
-We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof).
+([Mandell-May 02, theorem 4.2](#May02)) 
+
+We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof), after
 
 ##### Proof of the model structure
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
-
-
 
 
 +-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
@@ -4773,16 +4789,19 @@ For $n \in \mathbb{N}$ let
 $$
   \lambda_n 
     \colon 
-   F_{n+} 
+   F_{n+1}S^1 
     \overset{k_n \in Cof_{strict}}{\longrightarrow}
     Cyl(\lambda_n)
    \stackrel{\in W_{strict}}{\longrightarrow}
   F_n S^0
 $$
 
-be a factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} and def. \ref{CorepresentationOfAdjunctsOfStructureMaps} through a strict cofibration followed by a strict weak equivalence.
+be the factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} through its [[mapping cylinder]] formed with respect to the standard [[cylinder spectrum]].
+
+Notice that since $F_{n+1}S^1$ is a [[cell spectrum]] (...) this make the first factor $k_n$ a cofibration. But it makes the second factor be not just any weak equivalenct, but a homotopy equivalence.
 
 =--
+
 
 With this we may state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
 
@@ -4804,15 +4823,19 @@ of generating cofibrations and generating acyclic cofibrations, respectively, of
 Write
 
 $$
-  F I_{Top^{\ast/}} \coloneqq \{ y(x) \otimes i_+ \}_{{x \in \mathbb{S}_{Dia} FreeMod} \atop {i \in I}}
+  F^{dia} I_{Top^{\ast/}} 
+    \;\coloneqq\; 
+  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(x) \wedge i_+ \}_{{x \in \mathbb{S}_{Dia} Free_{Dia}Mod} \atop {i \in I}}
 $$
 
-for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the class $I$ above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} FreeMod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from lemma \ref{SModulesAsEnrichedFunctors}).
+for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the class $I$ above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} Free_{Dia}Mod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}).
  
 Similarly, write
 
 $$
-  F J_{Top^{\ast/}} \coloneqq \{ y(x) \otimes j_+ \}_{{x \in \mathbb{S}_{Dia}FreeMod} \atop {j \in J}}
+  F^{dia} J_{Top^{\ast/}} 
+    \;\coloneqq\; 
+  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(x) \otimes j_+ \}_{{x \in \mathbb{S}_{Dia}Free_{Dia}Mod} \atop {j \in J}}
   \,,
 $$
 
@@ -4849,7 +4872,7 @@ The sets $F I$ and $F J$ from def. \ref{GeneratingAndGeneratingAcyclicCofibratio
 By prop. \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
 
 $$
-  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}FreeMod^{op}, Top^{\ast/}]_{proj}
+  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
   \,.
 $$
 
