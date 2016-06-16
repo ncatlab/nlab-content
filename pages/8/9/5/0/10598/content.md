@@ -27,6 +27,14 @@ These are cofibrant spaces used in $G$-[[equivariant homotopy theory]].
 
 ## Properties
 
+### For $G$-manifolds
+
+If a [[compact Lie group]] $G$ acts on a [[compact topological space|compact]] [[smooth manifold]] $X$, then the manifold is triangulable as a finite G-CW complex.
+
+([ALR 07, theorem 3.2](#ALR07))
+
+### Elmendorf's theorem
+
 The collection of $G$-CW-complexes has a [[full sub-(infinity,1)-category|full embedding]] into the [[(infinity,1)-presheaves]] on the [[orbit category]] $Orb(G)$.  This is given by sending a $G$-CW complex, $Y$, to the presheaf sending $G/H$ to $Y^H$, the subspace of $Y$ fixed by $H$.
 
 See at _[[Elmendorf's theorem]]_.
@@ -42,6 +50,9 @@ Section X.2 there discusses the generalization to [[RO(G)-grading]].
 See also
 
 * Jay Shah, _Equivariant algebraic topology_, [pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2010/REUPapers/Shah.pdf)
+
+* {#ALR07} A. Adem, J. Leida and Y. Ruan, _Orbifolds and Stringy Topology_, Cambridge Tracts in Mathematics **171** (2007) ([pdf](http://www.math.colostate.edu/~renzo/teaching/Orbifolds/Ruan.pdf))
+
 
 [[!redirects G-CW complexes]]
 [[!redirects G-CW-complexes]]
