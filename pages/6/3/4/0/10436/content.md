@@ -20,7 +20,7 @@
 
 ## Idea
 
-The _Blakers-Massey theorem_ in the [[homotopy theory]] of pointed spaces is concerned with describing algebraically the first obstruction to [[excision]] for relative [[homotopy groups]]. There is also a weaker version just describing vanishing conditions which should be called the _Blakers-Massey connectivity theorem_. 
+The _Blakers-Massey theorem_ in the [[homotopy theory]] of [[pointed topological spaces]] is concerned with algebraically describing the first obstruction to [[excision]] for relative [[homotopy groups]]. There is also a weaker version just describing vanishing conditions which should be called the _Blakers-Massey connectivity theorem_. 
 
 ## Statement
 
@@ -99,7 +99,7 @@ The Blakers-Massey connectivity theorem in the form of remark \ref{InTermsOfPush
 This is shown in ([Rezk 10, prop. 8.16](#Rezk10)) with reference to [[(∞,1)-sites]].
 An intrinsic proof in [[homotopy type theory]] is announced in ([HoTTBook, theorem 8.10.2](#HoTTBook), [Lumsdaine-Finster-Licata 13](#LumsdaineFinsterLicata13)). The fully formal computer-checked version of this proof appears as HoTT-[[Agda]] code in ([Favonia 14](#Favonia)).
 
-This translates to an [[internal language]] proof of Blakers-Massey valid in all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]). Unwinding of the fully formal HoTT proof to ordinary mathematical language is, for the special case of the Freudenthal suspension theorem, in ([Rezk 14](#Rezk14)).
+This translates to an [[internal language]] proof of Blakers-Massey valid in all [[(∞,1)-toposes]] (including [[elementary (∞,1)-toposes]]). Unwinding of the fully formal HoTT proof to ordinary mathematical language is, for the special case of the [[Freudenthal suspension theorem]], in ([Rezk 14](#Rezk14)).
 
 
 ### Higher cubical BM-theorems and analytic $\infty$-functors
