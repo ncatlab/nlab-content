@@ -41,7 +41,7 @@ As any other pushout, the mapping cylinder has a [[universal property]]: for any
 ###### Theorem
 
 For  $f \colon X\to Y$ a [[continuous function]],
-the canonical map $j \coloneq f_*(\sigma_0):Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. In particular every continuous function facts as a map into its mapping cylinder followed by a deformation retraction.
+the canonical map $j \coloneqq f_*(\sigma_0) \colon Y\to Cyl(f)$ is a [[homotopy equivalence]]. In fact its homotopy inverse can be chosen a [[deformation retraction]]. In particular every continuous function factors as a map into its mapping cylinder followed by a deformation retraction.
 
 =--
 
