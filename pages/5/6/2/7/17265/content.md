@@ -1753,6 +1753,18 @@ Theorem \ref{TopQuillenModelStructure} in itself implies only that every topolog
 
 =--
 
+## Properties
+
++-- {: .num_prop #Properness}
+###### Proposition
+
+The model categories $Top_{Quillen}$ and $(Top^{\ast/})_{Quillen}$  [[proper model categories]].
+
+=--
+
+([Hirschhorn 02,theorem 13.1.10](model+category#Hirschhorn02))
+
+Right properness is immediate from the fact that all objects are fibrant. Left properness needs an argument. First check that weak equivalences are preserved under pushout of inclusion maps along cell attachments. Then use that a general cofibration is a retract a relative cell complex inclusion. Observe that if weak equivalences are preserved under pushout along some class of morphisms, then also under pushout along retracts of these. Hence reduce to pushout along relative cell complexes. By the first statement these are a transfinite pasting composite along pushouts that preserve weak equivalences.
 
 
 ## Related model structures
