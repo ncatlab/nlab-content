@@ -1,3 +1,4 @@
+## Definition
 
 A [[2-category]] $K$ has three different [[opposite category|opposites]] (two independent):
 
@@ -5,6 +6,10 @@ A [[2-category]] $K$ has three different [[opposite category|opposites]] (two in
 * The **$2$-cell dual** $K^{co}$, in which the $2$-cells but not the $1$-cells are reversed.
 * The **bidual** $K^{co op}$ in which both $1$-cells and $2$-cells are reversed.
 
+## Related pages
+
+* [[contravariant 2-functor]]
+* [[3-category with contravariance]]
 
 [[!redirects opposite 2-category]]
 [[!redirects opposite 2-categories]]
