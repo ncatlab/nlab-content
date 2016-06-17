@@ -140,6 +140,8 @@ Note also that for any virtual double category $X$, there is another virtual dou
 
 * Similarly, the powerset monad $P$ on $Set$ extends to $Rel$ in a canonical way, and the $P$-monoids in $Rel$ are [[closure space]]s.  Topological examples of this sort are sometimes called **$(T,V)$-algebras**, where $T$ denotes a Set-monad like $U$ or $P$, and $V$ a category (usually a [[quantale]]) of enrichment.
 
+* There is a 2-monad on $Cat-Prof$ (whose objects are [[2-categories]]) whose generalized multicategories are [[2-categories with contravariance]].
+
 
 ### Units and transformations
 
