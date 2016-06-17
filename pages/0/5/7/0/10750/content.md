@@ -5484,13 +5484,13 @@ $$
   \,.
 $$
 
-In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a Quillen adjunction
+In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a [[Quillen adjunction]]
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
     \underoverset
-      {\underset{\Sigma^\infty}{\longrightarrow}}
-      {\overset{\Omega^\infty}{\longleftarrow}}
+      {\underset{\Omega^\infty}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
       {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
