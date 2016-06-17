@@ -1,0 +1,5 @@
+A **strict 2-natural transformation** (sometimes called simply a "2-natural transformation") is a [[lax natural transformation]] whose [[2-cell]] components are identities.  When the [[2-categories]] and [[2-functors]] involved are also [[strict 2-category|strict]] (as is usually the case), these are the [[enriched category|enriched]] natural transformations over the monoidal category [[Cat]].
+
+[[!redirects 2-natural transformation]]
+[[!redirects 2-natural transformations]]
+[[!redirects strict 2-natural transformations]]
