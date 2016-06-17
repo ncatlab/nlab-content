@@ -1,0 +1,1 @@
+A [[2-functor]] can be [[contravariant functor|contravariant]] in three ways, depending on whether it reverses the [[1-morphisms]], the [[2-morphisms]], or both; this corresponds to the three kinds of [[opposite 2-category]].  All kinds of contravariant 2-functor appear in a [[3-category with contravariance]].
