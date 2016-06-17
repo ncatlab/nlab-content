@@ -109,9 +109,9 @@ $$
 | $\int$ | [[shape modality]] |
 | $\flat$ | [[flat modality]] |
 | $\sharp$ | [[sharp modality]] |
-| $\Im$ | [[infinitesimal shape modality]] |
 | $\Re$ | [[reduction modality]] |
-| $\Im$ | [[infinitesimal flat modality]] |
+| $\Im$ | [[infinitesimal shape modality]] |
+| $\&$ | [[infinitesimal flat modality]] |
 
 (...)
 
