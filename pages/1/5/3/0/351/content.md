@@ -129,7 +129,8 @@ In general, what we can say is that for two fixed categories $C$ and $D$, the fu
 
 Here is a blog post inspired by the above discussion that discusses these concepts in the context of the programming language Haskell:
 
-* Dan Piponi, [Dinatural transformations and coends](http://blog.sigfpe.com/2009/03/dinatural-transformations-and-coends)
+* Dan Piponi, [Dinatural transformations and coends](http://blog.sigfpe.com/2009/03/dinatural-transformations-and-coends.html)
+
 
 
 [[!redirects dinaturality]]
