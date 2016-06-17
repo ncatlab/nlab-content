@@ -22,7 +22,7 @@
 
 There are many situations in [[algebraic topology]] in which one wants to work in a "Really Big Space".  Often, it is not that important which space is used, so long as it has some basic properties.  A common feature that one wants of these spaces is that certain derived spaces be contractible.  In many cases, it is possible to write down an actual contraction (rather than arguing from general nonsense) and in those cases, the contraction often uses the ability to "shift" pieces of the space from one place to another.  This leads us to consider the notion of a **shift map**, and its cousin a **split map**, which provide enough structure to define the required contractions.
 
-In short, a **shift map** is a generalisation of the obvious shift map $\ell^0 \to \ell^0$ given by $(x_1,x_2,x_3,\dots) \mapsto (0,x_1,x_2,x_3,\dots)$.  It is an inclusion (even an embedding) and its eventual image, $\bigcap_k \im S^k$, is zero.
+In short, a **shift map** is a generalisation of the obvious shift map $\ell^0 \to \ell^0$ given by $(x_1,x_2,x_3,\dots) \mapsto (0,x_1,x_2,x_3,\dots)$.  It is an inclusion (even an embedding) and its [[eventual image]], $\bigcap_k \im S^k$, is zero.
 Note that a shift map on $V$ induces an isomorphism $V \cong \mathbb{R} \oplus V$, but the existence of a shift map is a stronger condition than that.
 
 A **split map** is similar, except that the induced decomposition is $V \cong V \oplus V$.
