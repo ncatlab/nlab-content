@@ -5041,7 +5041,7 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
-#### The stable model structure on orthogonal spectra
+#### The stable model structure on structured spectra
  {#MonoidalStableModelStructure}
 
 
