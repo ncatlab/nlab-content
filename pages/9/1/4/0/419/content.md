@@ -76,7 +76,7 @@ We say a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfie
 
 =--
 
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley00)).
 
 +-- {: .num_remark}
 ###### Remark
