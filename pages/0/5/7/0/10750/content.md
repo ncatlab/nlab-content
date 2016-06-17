@@ -3344,6 +3344,7 @@ where the left vertical morphism is an isomorphism by the nature of $\mathbb{S}_
 
 However, since, by remark \ref{SseqModulesAreSequentialSpectra}, $\mathbb{S}_{seq}$ is not commutative, there is no tensor product induced on $SeqSpec(Top_{cg})$ under the identification in prop. \ref{SseqModulesAreSequentialSpectra}. But since $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids by remark \ref{SseqModulesAreSequentialSpectra}, it makes sense to consider the following definition.
 
+
 +-- {: .num_defn #SsymModuleSymmetricSpectra}
 ###### Definition
 
@@ -3697,9 +3698,10 @@ $$
 
 ##### As diagram spectra
 
-In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ (prop. \ref{SequentialSpectraAsDiagramSpectra}) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+In _[[Introduction to Stable homotopy theory -- 1-1]]_ we obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectraAsDiagramSpectra)) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
 
-Now we discuss the analogous construction for the more general structured spectra from [above](#SModules).
+Here we discuss the analogous construction for the more general structured spectra from [above](#SModules).
+
 
 +-- {: .num_prop #ModulesForDayConvolutionAsEnrichedFunctors}
 ###### Proposition
@@ -3958,82 +3960,10 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 
 
 
-+-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
-###### Proposition
-
-The four categories of 
-
-1. [[pre-excisive functors]] $Exc(Top_{cg})$;
-
-1. [[orthogonal spectra]] $OrthSpec(Top_{cg})$;
-
-1. [[symmetric spectra]] $SymSpec(Top_{cg})$;
-
-1. [[sequential spectra]] $SeqSpec(Top_{cg})$
-
-each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
-These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
-
-Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
 
 
 
-$$
- \array{
-   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
-   \\
-   \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_{strict}
-   &
-     \underoverset
-       {\underset{orth^\ast}{\longrightarrow}}
-       {\overset{orth_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Orth} Mod_{strict}
-   &
-     \underoverset
-       {\underset{sym^\ast}{\longrightarrow}}
-       {\overset{sym_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Sym} Mod_{strict}
-   &
-     \underoverset
-       {\underset{seq^\ast}{\longrightarrow}}
-       {\overset{seq_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Seq} Mod_{strict}
-  }
-  \,.
-$$
 
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
-
-$$
-  \mathbb{S}_{dia}Mod
-   \simeq
-  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
-$$
-
-and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
-
-The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
-
-Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
-
-=--
 
 
 
@@ -4809,12 +4739,399 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
+#### The strict model structure on structured spectra
+
+
++-- {: .num_theorem #StrictModelStructureOnDiagramSpectra}
+###### Theorem
+
+The four categories of 
+
+1. [[pre-excisive functors]] $Exc(Top_{cg})$;
+
+1. [[orthogonal spectra]] $OrthSpec(Top_{cg}) = \mathbb{S}_{orth} Mod$;
+
+1. [[symmetric spectra]] $SymSpec(Top_{cg}) = \mathbb{S}_{sym}Mod$;
+
+1. [[sequential spectra]] $SeqSpec(Top_{cg}) = \mathbb{S}_{seq}Mod$
+
+(from def. \ref{FinitePointedCWComplexes}, prop. \ref{SseqModulesAreSequentialSpectra}, def. \ref{SsymModuleSymmetricSpectra}) each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
+These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
+
+Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
+
+
+
+$$
+ \array{
+   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{strict}
+   &
+     \underoverset
+       {\underset{orth^\ast}{\longrightarrow}}
+       {\overset{orth_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Orth} Mod_{strict}
+   &
+     \underoverset
+       {\underset{sym^\ast}{\longrightarrow}}
+       {\overset{sym_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Sym} Mod_{strict}
+   &
+     \underoverset
+       {\underset{seq^\ast}{\longrightarrow}}
+       {\overset{seq_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Seq} Mod_{strict}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
+
+$$
+  \mathbb{S}_{dia}Mod
+   \simeq
+  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
+$$
+
+and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+
+The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
+
+Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
+
+=--
+
+
+#### Topological enrichment
+
+
+By general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched fucntors]], this implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra ([part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)), but for ease of reference we make it explicit.
+
+
++-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
+###### Definition
+
+Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes for structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}.
+
+Let $f \;\colon \; X \to Y$ be a morphism in $\mathbb{S}_{dia}Mod$ (as in prop. \ref{StrictModelStructureOnDiagramSpectra}) and let $i \;\colon\; A \to B$ a morphism in $Top_{cg}^{\ast/}$. 
+
+Their **[[pushout product]] with respect to smash tensoring** is the universal morphism 
+
+$$
+  f \Box i
+    \coloneqq
+  \left((id,i), (f,id)\right)
+$$
+
+in
+
+$$
+  \array{
+    && X \wedge A
+    \\
+    & {}^{\mathllap{(f,id)}}\swarrow && \searrow^{\mathrlap{(id,i)}}
+    \\
+    Y \wedge A && (po) && X \wedge B
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && (Y \wedge A) \underset{X \wedge A}{\sqcup} (X \wedge B)
+    \\
+    && \downarrow^{\mathrlap{((id, i), (f,id))}}
+    \\
+    && Y \wedge B
+  }
+  \,,
+$$
+
+where 
+
+$$
+  (-)\wedge(-)
+    \;\colon\;
+  \mathbb{S}_{dia}Mod
+   \times
+  Top^{\ast/}_{cg}
+   \simeq
+  [ \mathbb{S}_{dia}Fre_{dia}Mod^{op},\; Top^{\ast/}_{cg}]
+  \times
+  Top^{\ast/}_{cg}
+    \longrightarrow
+  [ \mathbb{S}_{dia}Fre_{dia}Mod^{op},\; Top^{\ast/}_{cg}]
+  \simeq
+  \mathbb{S}_{dia}Mod
+$$ 
+
+denotes the smash tensoring of pointed topologically enriched functors with pointed topological spaces ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
+
+Dually, their **pullback powering** is the universal morphism
+
+$$
+  f^{\Box i}
+    \coloneqq
+  (Maps(B,f)_\ast, Maps(i,X)_\ast)
+$$
+
+in
+
+$$
+  \array{
+    && Maps(B,X)_\ast
+    \\
+    && \downarrow^{\mathrlap{(Maps(B,f)_\ast, Maps(i,X)_\ast)}}
+    \\
+    && Maps(B,Y)_\ast \underset{Maps(A,Y)_\ast}{\times} Maps(A,X)_\ast
+    \\
+    & \swarrow && \searrow
+    \\
+    Maps(B,Y)_\ast && (pb) && Maps(A,X)_\ast
+    \\
+    & {}_{\mathllap{Maps(i,Y)_\ast}}\searrow 
+      && 
+    \swarrow_{\mathrlap{Maps(A,p)_\ast}}
+    \\
+    && Maps(A,Y)_\ast
+  }
+  \,,
+$$
+
+where 
+
+$$
+  Maps(-,-)_\ast
+   \;\colon\;
+  (Top^{\ast}_{cg})^{op}
+   \times
+  \mathbb{S}_{dia}Mod
+   \simeq
+  (Top^{\ast/}_{cg})^{op}
+   \times
+  [\mathbb{S}_{dia}Free_{Dia}Mod^{op},Top^{\ast/}_{cg}]
+    \longrightarrow
+  [\mathbb{S}_{dia}Free_{Dia}Mod^{op},Top^{\ast/}_{cg}]
+   \simeq
+  \mathbb{S}_{dia}Mod 
+$$ 
+
+denotes the smash powering ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)).
+
+Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
+
+$$
+  f^{\Box i} \coloneqq (\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))
+$$
+
+in 
+
+$$
+  \array{
+    && \mathbb{S}_{dia}Mod(B,X)
+    \\
+    && \downarrow^{\mathrlap{(\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))}}
+    \\
+    && \mathbb{S}_{dia}Mod(B,Y) \underset{\mathbb{S}_{dia}Mod(A,Y)}{\times} \mathbb{S}_{dia}Mod(A,X)
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbb{S}_{dia}Mod(B,Y) && (pb) && \mathbb{S}_{dia}Mod(A,X)
+    \\
+    & {}_{\mathllap{\mathbb{S}_{dia}Mod(i,Y)}}\searrow 
+      && 
+    \swarrow_{\mathrlap{\mathbb{S}_{dia}Mod(A,p)}}
+    \\
+    && \mathbb{S}_{dia}Mod(A,Y)
+  }
+  \,,
+$$
+
+where now $\mathbb{S}_{dia}Mod(-,-)$ is the [[hom-space]] functor of $\mathbb{S}_{dia}Mod \simeq [\mathbb{S}_{dia}Free_{Dia}Mod^{op}, Top^{\ast/}_{cg}]$ from def. \ref{PointedTopologicalFunctorCategory}.
+
+=--
+
++-- {: .num_prop #PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms}
+###### Proposition
+
+The operation of forming pushout products with respect to smash tensoring in def. \ref{PushoutProductWithRespectToSmashTensoring} is compatible with the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and with the [[classical model structure on pointed topological spaces]] spaces ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) in that it takes two cofibrations to a cofibration, and to an acyclic cofibration if at least one of the inputs is acyclic:
+
+$$
+  \begin{aligned}
+    Cof_{strict} \Box Cof_{cl}
+    & \subset\;
+    Cof_{strict}
+    \\
+    Cof_{strict} \Box (Cof_{cl} \Box W_{cl})
+    & \subset\;
+    Cof_{strict} \cap W_{strict}
+    \\
+    (Cof_{strict} \cap W_{strict})
+    \Box
+    Cof_{cl}
+    & \subset\;
+    Cof_{strict} \cap W_{strict}
+  \end{aligned}
+  \,.
+$$
+
+Dually, the pullback powering (def. \ref{PushoutProductWithRespectToSmashTensoring}) satisfies
+
+$$
+  \begin{aligned}
+    Fib_{strict}^{\Box Cof_{cl}}
+    & \subset\;
+    Fib_{strict}
+    \\
+    Fib_{strict}^{\Box ( Cof_{cl} \cap W_{cl})}
+    & \subset\;
+    Fib_{strict}\cap W_{strict}
+    \\
+    (Fib_{strict} \cap W_{strict})^{\Box Cof_{cl}}
+    & \subset\;
+    Fib_{strict} \cap W_{strict}
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that via theorem \ref{StrictModelStructureOnDiagramSpectra} the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
+
+=--
+
++-- {: .num_remark #StructuredSpectraIsTopologicallyEnrichedModelCategory}
+###### Remark
+
+In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} says that $\mathbb{S}_{dia}Mod_{strict}$ is an _[[enriched model category]]_, the enrichment being over $(Top_{cg}^{\ast/})_{Quillen}$. This is often referred to simply as a "topological model category".
+
+=--
+
+We record some immediate consequences that will be useful
+
++-- {: .num_example }
+###### Example
+
+Let $X \in \mathbb{S}_{dia}Mod_{strict}$ be a structured spectrum, regarded in the strict model structure of theorem \ref{StrictModelStructureOnDiagramSpectra}.
+
+1. The smash powering of $X$ with the standard topological interval $I_+$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) is a good [[path space object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory))
+
+   $$
+     \Delta_X
+      \;\colon\;
+     X 
+       \overset{\in W_{strict}}{\longrightarrow}
+     X^{I_+}
+       \overset{\in Fib_{strict}}{\longrightarrow}
+     X \times X
+     \,.
+   $$
+
+1. If $X$ is cofibrant, then its smash tensoring with the standard topological interval $I_+$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) is a good [[cylinder object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory))
+
+   $$
+     \nabla_X
+       \;\colon\;
+     X \vee X 
+       \overset{\in Cof_{strict}}{\longrightarrow}
+     X\wedge (I_+)
+       \overset{\in W_{strict}}{\longrightarrow}
+     X
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
+###### Proposition
+
+For $X \in SeqSpec(Top_{cg})$ a sequential spectrum, $f \in Mor(SeqSpec(Top_{cg}))$ any morphism of sequential spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[compact topological space|compact]] [[Hausdorff spaces]], then the [[hom-spaces]] of def. \ref{HomSpaceBetweenSequentialSpectra} interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
+
+$$
+  \mathbb{S}_{dia}(f \Box g, X)
+    \simeq
+  (\mathbb{S}_{dia}(f,X))^{\Box g}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}.
+
+=--
+
+
+
+
++-- {: .num_prop #ConnectedComponentOfHomSpaceOfSModsIsLeftHomotopyClasses}
+###### Proposition
+
+For $X,Y \in \mathbb{S}_{dia}Mod(Top_{cg})$ two structured spectra with $X$ cofibrant in the strict model structure of def. \ref{StrictModelStructureOnDiagramSpectra}, then there is a [[natural bijection]]
+
+$$
+  \pi_0 \mathbb{S}_{dia}Mod(X,Y)
+  \simeq
+   [X,Y]_{strict}
+$$
+
+between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] of def. \ref{StandardCylinderSpectrumSequential}:
+
+$$
+  \frac{
+    I_+ \longrightarrow SeqSpec(X,Y)
+  }{
+    X \wedge (I_+) \longrightarrow Y
+  }
+  \,.
+$$
+
+By prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}, for $X$ 
+
+spring
+
+then the standard [[cylinder spectrum]] $X \wedge (I_+)$ is a good cyclinder object ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory)) on a cofibrant object. 
+
+Since moreover every object in $\mathbb{S}_{dia}Mod_{strict}$ is fibrant, the statement follows (with [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)).
+
+=--
 
 
 
 
 
-#### The stable model structure on orthogonal spectra
+
+#### The stable model structure on structured spectra
  {#MonoidalStableModelStructure}
 
 
