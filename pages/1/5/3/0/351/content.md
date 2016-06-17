@@ -41,11 +41,19 @@ such that for every morphism $f: c \to c'$ in $C$,
 
 \[ \label{hexagon} G(c, f)\alpha_c F(f, c) = G(f, c')\alpha_{c'}F(c', f): F(c', c) \to G(c, c') \]
 
-This "hexagon identity" gives the "domain" version of extranaturality when $G$ is constant, and the "codomain" version when $F$ is constant. The domain version involves a commutative square of the form 
+If drawn out as a commutative diagram, this becomes a "hexagon identity".
+
+### Special cases
+
+If $F$ and $G$ both factor through the projection $C^{op}\times C \to C$, then the notion reduces to an ordinary natural transformation, and similarly if they both factor through $C^{op}$.
+
+If $F$ factors through $C$ while $G$ factors through $C^{op}$, then we obtain a notion of natural transformation from a covariant functor to a contravariant one, and dually.
+
+If $G$ is constant, the hexagon identity reduces to the "domain" version of extranaturality, involving a commutative square of the form 
 
 \[ \label{domain} \alpha_c F(f, c) = \alpha_{c'} F(c', f): F(c', c) \to G \]
 
-where $G$ is constant with respect to the argument $c$, and the codomain version a commutative square of the form 
+where $G$ is constant with respect to the argument $c$.  Similarly, if $F$ is constant, it yields the "codomain" version with a commutative square of the form 
 
 \[ \label{codomain} G(c, f) \alpha_c = G(f, c')\alpha_{c'}: F \to G(c, c') \]
 
@@ -60,20 +68,26 @@ One could try to argue against that by pointing to dinatural transformations whi
 
 $$\hom(x, x) \stackrel{\alpha_n}{\to} \hom(x, x)$$ 
 
-defined by the rule $\alpha_n(f) = f^{(n)}$ ("[[Church numeral]]s"). But these examples can be "bent" into domain extranaturality by defining 
+defined by the rule $\alpha_n(f) = f^{(n)}$ ("[[Church numeral]]s").
 
-$$Set^{op} \times Set \stackrel{G}{\to} Set: (x, y) \mapsto \hom(x, y)^{\hom(y, x)}$$ 
+A counterargument, however, is that *any* dinatural transformation between functors $F,G:C^{op}\times C\to D$ can be "bent" into domain extranaturality by defining
 
-and considering extranatural transformations from the constant $1$ (the terminal set) to $G$. Such tricks support the counterargument that the extra generality of the traditional definition is largely spurious, and not particularly helpful in terms of comprehension.
+$$C^{op} \times C \stackrel{[F,G]}{\to} Set: (x, y) \mapsto G(x, y)^{F(y, x)}.$$
+
+Then a dinatural transformation $F\to G$ can be identified with an extranatural transformation from the constant $1$ (the terminal set) to $[F,G]$. Such tricks support the counterargument that the extra generality of the traditional definition is largely spurious, and not particularly helpful in terms of comprehension.
+
+A further argument for the relative importance of extranatural transformations over dinatural ones is that extranatural transformations can be defined for any sort of [[enriched categories]], whereas dinatural ones (including the other special case of natural transformations from covariant functors to contravariant ones) only make sense when the enriching category is [[cartesian monoidal category|cartesian]].
 
 # Composition
 
-Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that dinatural transformations with fixed source and target form a [[paracategory]].
+Dinatural transformations cannot, in general, be composed with each other, although there are certain circumstances when they can be (such as when certain squares are pushouts or pullbacks, or when they are in fact ordinary natural transformations).  In general, what we can say is that for two fixed categories $C$ and $D$, the functors $C^{op}\times C^ \to D$ and the dinatural transformations between them form a [[paracategory]].
 
 
 ## Related concepts
 
 * [[homotopy]]
+
+* [[contravariant functor]]
 
 * [[transfor]]
 
