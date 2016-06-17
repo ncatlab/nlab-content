@@ -118,6 +118,8 @@ In general, what we can say is that for two fixed categories $C$ and $D$, the fu
 
   * [[lax natural transformation]]
 
+  * [[2-dinatural transformation]]
+
 
 ## References
 
