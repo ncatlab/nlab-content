@@ -38,3 +38,6 @@ In detail:
 
 [[!redirects whiskering]]
 [[!redirects whiskerings]]
+[[!redirects whisker]]
+[[!redirects whiskers]]
+[[!redirects whiskered]]
