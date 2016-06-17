@@ -952,31 +952,8 @@ $$
 
 =--
 
-With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]] 
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]]  of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
 
-$$
-  (-)\wedge(-)
-   \;\colon\;
-  [\mathcal{C},Top^{\ast/}_{cg}]
-   \times
-  Top^{\ast/}_{cg}
-    \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-and the [[powering]] 
-
-$$
-  (-)^{(-)}
-  \;\colon\;
-  (Top^{\ast/}_{cg})^{op}
-    \times
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-    \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)). 
 
 +-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
 ###### Proposition
@@ -985,19 +962,39 @@ For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[nat
 
 $$
   [\mathcal{C},Top^{\ast/}_{cg}]( X \wedge K ,\, Y )
-    \simeq
+    \;\simeq\;
   Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
 $$
 
 and
 
 $$
-  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Y^K)
-    \simeq
+  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Maps(K,Y)_\ast)
+    \;\simeq\;
   Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
 $$
 
 for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
+
+In particular there is the combined natural isomorphism
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}](X\wedge K, Y)
+   \;\simeq\;
+  [\mathcal{C}, Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+$$
+
+exhibiting a pair of [[adjoint functors]]
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+    \underoverset 
+      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+      {\overset{(-)\wedge K}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}, Top^{\ast}_{cg}]
+  \,.
+$$
 
 =--
 
@@ -1397,6 +1394,71 @@ Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$.
 
 =--
 
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting 
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative momoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
 
 +-- {: .num_prop #TensorHomAdjunctionIsoInternally}
@@ -1623,7 +1685,7 @@ $$
   \,.
 $$
 
-Write $Mon(\mathcal{C}, \otimes,1)$ for the [[category of monoids]] in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
 
 
 =--
@@ -2824,9 +2886,7 @@ $$
   \,.
 $$
 
-A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is
-
-* a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
 
 compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
 
@@ -2873,6 +2933,70 @@ In the literature the term "monoidal functor" often refers by default to what in
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
 
 =--
+
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting 
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 
 +-- {: .num_defn #ModuleOverAMonoidalFunctor}
 ###### Definition
@@ -3069,7 +3193,7 @@ $$
    Mon([\mathcal{D}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{D}}))
 $$
 
-any fixed monoid, then $f^\ast$ sends $A$-[[module object]] to $f^\ast(A)$-modules
+any fixed monoid, then $f^\ast$ sends $A$-[[module object|modules]] to $f^\ast(A)$-modules
 
 $$
   f^\ast
@@ -3110,7 +3234,7 @@ We now give a unified discussion of the categories of
 
 (all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as an excisive functor on $Top^{\ast/}_{fin}$.
 
-This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)).
+This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)) following ([Hovey-Shipley-Smith 00](HoveyShipleySmith00)).
 
 
 ##### Pre-Excisive functors
@@ -5046,6 +5170,68 @@ Moreover, the three right adjoint restriction functors are along inclusions of o
 
 =--
 
++-- {: .num_defn #GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}
+###### Definition
+
+Recall the sets
+
+$$
+  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \hookrightarrow D^n_+\}_{n \in \mathbb{N}}
+$$
+
+$$
+  J_{Top^{\ast/}} \coloneqq \{D^n_+ \hookrightarrow (D^n \times I)_+\}_{n \in \mathbb{N}}
+$$
+
+of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces))
+
+Write
+
+$$
+  I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
+    \;\coloneqq\; 
+  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \wedge i_+ \}_{{c \in \mathbb{S}_{Dia} Free_{Dia}Mod} \atop {i \in I_{Top}}}
+$$
+
+for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the morphuisms in the sets $I_{Top^{\ast/}}$ from above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} Free_{Dia}Mod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}).
+ 
+Similarly, write
+
+$$
+  J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
+    \;\coloneqq\; 
+  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \otimes j_+ \}_{{c \in \mathbb{S}_{Dia}Free_{Dia}Mod} \atop {j \in J}}
+  \,,
+$$
+
+for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on topological spaces]] (with basepoint adjoined).
+
+=--
+
+
++-- {: .num_prop #CofibrantGenerationOfStrictModelStructure}
+###### Proposition
+
+The sets $I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ 
+and $J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
+
+$$
+  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
+  \,.
+$$
+
+With this the statement follows via lemma \ref{ExplicitExpressionForFreeSpectra} by the proof of [this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem.
+
+=--
+
+
 
 ##### Topological enrichment
 
@@ -5256,8 +5442,42 @@ In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespe
 
 We record some immediate consequences of prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} that will be useful.
 
-+-- {: .num_example #StandardReducedCylinderOnStructuredSpectrumIsGood}
-###### Example
++-- {: .num_prop #SmashTensoringWithCellComplexIsLeftQuillen}
+###### Proposition
+
+Let $K \in Top^{\ast}_{cg}$ be a [[retract]] of a [[cell complex]] ([def. ](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), then the smash-tensoring/powering adjunction from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} is a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) for the strict model structure from theorem \ref{StrictModelStructureOnDiagramSpectra}
+
+$$
+  \mathbb{S}_{dia}Mod(Top_{cg})_{strict}
+    \underoverset
+      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+      {\overset{(-)\wedge K}{\longleftarrow}}
+      {\bot}
+  \mathbb{S}_{dia}Mod(Top_{cg})_{strict}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]], hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
+
+$$
+  f \Box (\ast \to K)
+  \simeq
+  f \wedge K
+  \,.
+$$
+
+This way prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} implies that $(-)\wedge K$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+
+=--
+
+
++-- {: .num_lemma #StandardReducedCylinderOnStructuredSpectrumIsGood}
+###### Lemma
 
 Let $X \in \mathbb{S}_{dia}Mod_{strict}$ be a structured spectrum, regarded in the strict model structure of theorem \ref{StrictModelStructureOnDiagramSpectra}.
 
@@ -5317,6 +5537,7 @@ $$
 Hence if $X$ is assumed to be cofibrant, so that $\ast \to X$ is a cofibration, then prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} implies that $X \wedge (i_0,i_1) \colon X \wedge X \to X \wedge (I_+)$ is a cofibration.
 
 =--
+
 
 
 +-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
@@ -5409,7 +5630,7 @@ $$
   \,.
 $$
 
-Moreover, by prop. \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the degreewise standard [[reduced cylinder]] $X \wedge (I_+)$ of structured spectra is a good [[cylinder object]] on $X$ in $\mathbb{S}_{dia}Mod_{strict}$. Hence hom-sets in the strict [[homotopy category of a model category|homotopy category]] out of a cofibrant into a fibrant object are given by standard [[left homotopy]] classes of morphisms
+Moreover, by lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the degreewise standard [[reduced cylinder]] $X \wedge (I_+)$ of structured spectra is a good [[cylinder object]] on $X$ in $\mathbb{S}_{dia}Mod_{strict}$. Hence hom-sets in the strict [[homotopy category of a model category|homotopy category]] out of a cofibrant into a fibrant object are given by standard [[left homotopy]] classes of morphisms
 
 $$
   [X,Y]_{strict} \simeq Hom_{\mathbb{S}_{dia}Mod}(X,Y)_{/\sim}
@@ -5696,32 +5917,54 @@ and so the claim follows.
 
 ##### Suspension and looping
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop #SuspensionSpectrumStructuredStrictQuillenAdjunction}
+###### Proposition
 
 For every $n \in \mathbb{N}$, the functors of extracting the $n$th component space of a structured spectrum, and of forming the [[free structured spectrum]] in degree $n$ (def. \ref{FreeStructuredSpectrum}) constitute a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)):
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
     \underoverset
-      {\underset{Ev_n}{\longrightarrow}}
+      {\underset{Ev^{dia}_n}{\longrightarrow}}
       {\overset{F^{dia}_n}{\longleftarrow}}
       {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
 $$
 
-In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a Quillen adjunction
+In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a [[Quillen adjunction]]
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
     \underoverset
-      {\underset{\Omega^\infty}{\longrightarrow}}
-      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\underset{\Omega_{dia}^\infty}{\longrightarrow}}
+      {\overset{\Sigma_{dia}^\infty}{\longleftarrow}}
       {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
 $$
+
+Moreover, Quillen adjunctions factor as
+
+$$
+  (\Sigma^\infty_{dia}
+    \dashv 
+  \Omega^\infty_{dia})
+   \;\colon\;
+  \mathbb{S}_{dia}Mod(Top_{cg})_{strict}
+   \underoverset
+     {\underset{seq^\ast}{\longrightarrow}}
+     {\overset{seq_!}{\longleftarrow}}
+     {\bot}
+   SeqSpec(Top_{cg})_{strict}
+    \underoverset
+      {\underset{\Omega^\infty}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\bot}    
+   (Top^{\ast/}_{cg})
+$$
+
+where the Quillen adjunction $(seq_! \dashv seq^\ast)$ is that from theorem \ref{StrictModelStructureOnDiagramSpectra} and where $(\Sigma^\infty \dashv \Omega^\infty)$ is the suspension spectrum adjunction for sequential spectra (prop. \ref{Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}).
 
 =--
 
@@ -5755,6 +5998,7 @@ For $OrthSpec(Top_{cg})$ the category of [[orthogonal spectra]] from def. \ref{S
 
 (e.g. [MMSS00, def. 8.3 with the notation from p. 21](#MMSS00))
 
+
 +-- {: .num_theorem #OrthogonalSpectraStableModelStructure}
 ###### Theorem
 
@@ -5779,6 +6023,7 @@ We give the **proof** [below](#StableModelStructureOnDiagramSpectraProof), after
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
 
+
 +-- {: .num_defn #ResolutionOfCorepresentationOfAdjunctsOfStructureMaps}
 ###### Definition
 
@@ -5788,118 +6033,89 @@ $$
   \lambda_n 
     \colon 
    F_{n+1}S^1 
-    \overset{k_n \in Cof_{strict}}{\longrightarrow}
-    Cyl(\lambda_n)
-   \stackrel{\in W_{strict}}{\longrightarrow}
-  F_n S^0
+     \overset{k_n }{\longrightarrow}
+   Cyl(\lambda_n)
+    \stackrel{}{\longrightarrow}
+   F_n S^0
 $$
 
-be the factorization of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} through its [[mapping cylinder]] formed with respect to the standard [[cylinder spectrum]].
+be the factorization as in the [[factorization lemma]] of the morphism $\lambda_n$ of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} through its [[mapping cylinder]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ConeAndMappingCylinder)) formed with respect to the standard [[cylinder spectrum]] $(F_{n+1}S^1) \wedge (I_+)$:
 
-Notice that since $F_{n+1}S^1$ is a [[cell spectrum]] (...) this make the first factor $k_n$ a cofibration. But it makes the second factor be not just any weak equivalenct, but a homotopy equivalence.
 
 =--
 
+Notice that:
 
-With this we may state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
++-- {: .num_lemma}
+###### Lemma
 
-+-- {: .num_defn #GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}
-###### Definition
-
-Recall the sets
-
-$$
-  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \hookrightarrow D^n_+\}_{n \in \mathbb{N}}
-$$
-
-$$
-  J_{Top^{\ast/}} \coloneqq \{D^n_+ \hookrightarrow (D^n \times I)_+\}_{n \in \mathbb{N}}
-$$
-
-of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on pointed topological spaces]].
-
-Write
-
-$$
-  F^{dia} I_{Top^{\ast/}} 
-    \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(x) \wedge i_+ \}_{{x \in \mathbb{S}_{Dia} Free_{Dia}Mod} \atop {i \in I}}
-$$
-
-for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the class $I$ above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} Free_{Dia}Mod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}).
- 
-Similarly, write
-
-$$
-  F^{dia} J_{Top^{\ast/}} 
-    \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(x) \otimes j_+ \}_{{x \in \mathbb{S}_{Dia}Free_{Dia}Mod} \atop {j \in J}}
-  \,,
-$$
-
-for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on topological spaces]] (with basepoint adjoined).
-
-Finally write 
-
-$$
-  K 
-  \coloneqq
-  F J
-  \;\sqcup\;
-  \{
-    k_n \Box i_+
-  \}_{{n \in \mathbb{N}} \atop {i \in I}}
-$$
-
-for the [[disjoint union]] of $F J$ with the [[pushout products]] of the resolved maps $k_n$ from def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} with the elements in $I$.
-
-=--
-
-([MMSS 00, def. 9.3](#MMSS00))
-
-+-- {: .num_prop #CofibrantGenerationOfStrictModelStructure}
-###### Proposition
-
-The sets $F I$ and $F J$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} (disregarding the set $K$ there) are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations for the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ (prop. \ref{StrictModelStructureOnDiagramSpectra}).
+The factorization in def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} is through a cofibration followed followed by a left [[homotopy equivalence]] in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
 
-$$
-  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
-  \,.
-$$
+Since the cell $S^1$ is cofibrant in $(Top^{\ast/}_{cg})_{Quillen}$, and since $F_{n+1}(-)$ is a left Quillen functor by prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction},
+the free spectrum $F_{n+1}S^1$ is cofibrant in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$. Therefore lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} says that its standard [[cylinder spectrum]] is a good [[cylinder object]] and then the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) says that $k_n$ is a cofibraton. Moreover, the morphism out of the standard mapping cylinder is a homotopy equivalence, with homotopies induced under tensoring from the standard homotopy contracting the standard cylinder.
 
-With this the statement follows by the proof of [this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem.
 
 =--
+
+
+With this we may state the classes of morphisms that are going to be shown to be the classes of generating (acyclic) cofibrations for the stable model structures:
+
++-- {: .num_defn #StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}
+###### Definition
+
+Recall the sets of generating (acyclic) cofibrations of the strict model structre def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. Set
+
+$$
+  I^{stable}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+    \;\coloneqq\;  
+  I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+$$
+
+and
+
+$$
+  J^{stable}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+    \;\coloneqq\; 
+  J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+  \;\sqcup\;
+  \{
+    k_n \Box i_+
+  \}_{{n \in \mathbb{N}} \atop {i \in I}}
+$$
+
+for the [[disjoint union]] of the strict acyclic generating cofibration with the [[pushout products]] under smash tensoring of the resolved maps $k_n$ from def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructureMaps} with the elements in $I$.
+
+=--
+
+([MMSS 00, def. 9.3](#MMSS00))
+
 
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrations}
 ###### Lemma
 
-Every element in $K$ (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) is both:
+Every element in $J^{stable}_{\mathbb{S}_{dia}Mod(Top_{cg})}
+$ (def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}) is both:
 
 1. a cofibration with respect to the strict model structure (prop. \ref{StrictModelStructureOnDiagramSpectra});
 
-1. a stable weak homotopy equivalence (def. \ref{StableEquivalencesForDiagramSpectra}).
+1. a [[stable weak homotopy equivalence]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
 
 =--
 
 +-- {: .proof}
 ###### Proof 
 
-First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $F J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]], $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^i$. By $\mathbb{S}_{dia} Mod_{strict}$ behaving like a $Top$-[[enriched model category]] for one argument a relative CW-complex, the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
 
-Regarding stable weak homotopy equivalences: The morphisms in $F J$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. Similarly, the morphisms $k_n$ by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalence}and by [[two-out-of-three]] are stable weak homotopy equivalences.
+Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. Similarly, the morphisms $k_n$ by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalence}and by [[two-out-of-three]] are stable weak homotopy equivalences.
 
-To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99))
-
-Main point to see is that the smash tensoring $k_n \wedge T$ with a CW-complex $T$ preserves stable weak homotopy equivalences. Then using that $SeqSpec(Top_{cg})$ is left proper it follows that the pushout of $k_n \wedge T$ along the cofibration $dom(k_n) \wedge i_+$ preserves the weak homotopy equivalence.
-
+To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99)): first $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by prop. \ref{SmashTensoringWithCellComplexIsLeftQuillen}. The restriction functor $seq^\ast$ preserves pushouts and so we need to check that the pushout of the underlying morphism of sequential spectra is still a stable weak homotopy equivalence. (...)
 
 =--
 
@@ -6088,7 +6304,6 @@ That follows with a laborious argument using the above lemmas (...).
 =--
 
 (...)
-
 
 
 
