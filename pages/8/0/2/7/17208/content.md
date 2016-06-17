@@ -488,7 +488,7 @@ $$
 
 (using, by the above, that this $S^2$ is the unique 2-cell of $\mathbb{C}P^n$ in the standard cell model).
 
-This means that $c_1$ is a permanent cocycle of the spectral sequence (in the kernel of all differentials) precisely if it arises via restriction from an element in $E^2(\mathbb{C}P^n)$ and hence precisely if there exists a complex orientation $c_1^E$ on $E$. Since this is the case by assumption on $E$, $c_1$ is a permanent cocycle.
+This means that $c_1$ is a permanent cocycle of the spectral sequence (in the kernel of all differentials) precisely if it arises via restriction from an element in $E^2(\mathbb{C}P^n)$ and hence precisely if there exists a complex orientation $c_1^E$ on $E$. Since this is the case by assumption on $E$, $c_1$ is a permanent cocycle. (For the fully detailed argument see ([Pedrotti 16](#Pedrotti16)).)
 
 The same argument applied to all elements in $E^\bullet(\ast)[c]$, or else the $E^\bullet(\ast)$-linearity of the differentials ([prop.](multiplicative+cohomology+theory#LinearityOfDifferentialsInSerreAHSSForMultiplicativeCohomologyTheory)), implies that all these elements are permanent cocycles.
 
@@ -576,6 +576,12 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 * [[Topospaces]], _[Complex projective space](http://topospaces.subwiki.org/wiki/Complex_projective_space)_
 
-* Wikipedia, _[Complex projective space](https://en.wikipedia.org/wiki/Complex_projective_space)_
+* Wikipedia, _[Complex projective space](https://en.wikipedia.org
+/wiki/Complex_projective_space)_
+
+For the [[Atiyah-Hirzebruch spectral sequence]] for [[complex oriented cohomology]] of complex projective space see
+
+* {#Pedrotti16} [[Riccardo Pedrotti]], _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+
 
 [[!redirects complex projective spaces]]
