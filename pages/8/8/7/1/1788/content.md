@@ -1,42 +1,10 @@
 $$
   \array{
-    \cdots
-      &\longrightarrow&
-    \pi_{\bullet + 1}(Y)
-      &\overset{}{\longrightarrow}&
-    \pi_\bullet(Path_\ast(f))
-      &\overset{}{\longrightarrow}&
-    \pi_\bullet(X)
-      &\overset{f_\ast}{\longrightarrow}&
-    \pi_\bullet(Y)
-      &\longrightarrow&
-    \pi_{\bullet-1}(Path_\ast(f))
-      &\longrightarrow&
-    \cdots
-    \\
-      && 
-    \downarrow^{\mathrlap{=}}
-      && 
-    \downarrow^{\mathrlap{\simeq}}
-      && 
-    \downarrow^{\mathrlap{=}}
-      && 
-    \downarrow^{\mathrlap{=}}
-      && 
-    \downarrow^{\mathrlap{\simeq}}
-    \\
-    \cdots
-      &\longrightarrow&
-    \pi_{\bullet + 1}(Y)
-      &\overset{}{\longrightarrow}&
-    \pi_{\bullet+1}(Cone(f))
-      &\overset{}{\longrightarrow}&
-    \pi_\bullet(X)
-      &\overset{f_\ast}{\longrightarrow}&
-    \pi_\bullet(Y)
-      &\longrightarrow&
-    \pi_{\bullet}(Cone(f))
-      &\longrightarrow&
-    \cdots
+     X &\overset{g}{\longrightarrow}& Z &\longrightarrow& cofib(g)
+     \\
+     {}^{\mathllap{f}}\downarrow &(po)& \downarrow && \downarrow^{\mathrlap{\simeq}}
+     \\
+     Y &\underset{}{\longrightarrow}& Y \underset{X}{\sqcup}Z &\longrightarrow& cofib(g) 
   }
+  \,.
 $$
