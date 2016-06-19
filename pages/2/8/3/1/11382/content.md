@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[physics|physical]] [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ("[[general relativity]]") predicts, via [[Einstein equations|Einstein's equations of motion]], that [[vacuum]] [[spacetime]] may show a kind of oscillations of the [[field]] of [[gravity]] roughly analogous to [[electromagnetic waves]] in [[electromagnetism]]. (Both kinds of waves are oscillation of the [[field (physics)|field]] itself and do not depend on some "medium" such as a water wave does.) In fact, since the [[force]] of [[gravity]] is reflected in the [[pseudo-Riemannian geometry]] of [[spacetime]], as gravitational wave is a kind of periodic distortion of spacetime geometry itself.
+The [[physics|physical]] [[theory (physics)|theory]] of [[Einstein]]-[[gravity]] ("[[general relativity]]") predicts, via [[Einstein equations|Einstein's equations of motion]], that [[vacuum]] [[spacetime]] may show a kind of oscillations of the [[field]] of [[gravity]] roughly analogous to [[electromagnetic waves]] in [[electromagnetism]]. (Both kinds of waves are oscillation of the [[field (physics)|field]] itself and do not depend on some "medium" such as a water wave does.) In fact, since the [[force]] of [[gravity]] is reflected in the [[pseudo-Riemannian geometry]] of [[spacetime]], a gravitational wave is a kind of periodic distortion of spacetime geometry itself.
 
 ## Experimental observation
 
@@ -51,7 +51,7 @@ A modern walk through the derivation of gravitational waves from linearization o
 * {#Guidry13} Mike Guidry, _[Astrophysics 616: General Relativity, Black Holes, and Cosmology](http://eagle.phys.utk.edu/guidry/astro616/)_ -- _Chapter 21 -- Gravitational waves_ ([pdf](http://eagle.phys.utk.edu/guidry/astro616/lectures/lecture_ch21.pdf))
 
 
-Indirect detection of gravitational wave based on energy loss of a binary star pulsar system is due to 
+Indirect detection of gravitational waves based on energy loss of a binary star pulsar system is due to 
 
 * {#HulseTaylor75} Hulse, Taylor, _Discovery of a pulsar in a binary system_, The astrophysical journal, 195:L51-53, 1975 ([web](http://adsabs.harvard.edu/full/1975ApJ...195L..51H))
 
