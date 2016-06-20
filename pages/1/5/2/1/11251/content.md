@@ -40,4 +40,14 @@ The book states seven "propositions" (with sub-propositions):
 
 1. Whereof one cannot speak, thereof one must be silent.
 
+## References
+
+An expandable/collapsable online version (Pears/McGuinness English translation) is at
+
+* [tractatuslogico-philosophicus.com](http://www.tractatuslogico-philosophicus.com/)
+
+A side-by-side version of the German original and the Ogden/Ramsey and Pears/McGuinness English translations is at
+
+* [Ludwig Wittgenstein: Tractatus Logico-Philosophicus Side-by-Side-by-Side Edition](http://people.umass.edu/klement/tlp/)
+
 category: reference
