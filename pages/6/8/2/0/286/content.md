@@ -59,6 +59,14 @@ However, these are not commonly used foundations.  Therefore, category theory is
 
 (Strictly speaking, it does not even make sense to ask if two arbitrary sets are isomorphic; going back to our earlier example, $\{(0,0)\}$ is isomorphic to $\{2\}$ as objects of $Set$ because they are both singletons, but they are not isomorphic as objects of the poset of subsets of $\mathbb{N} + \mathbb{N}\times \mathbb{N}$, because neither is a subset of the other.)
 
+### From philosophy
+
+In [[Tractatus Logico-Philosophicus]], 2.02331, [[Wittgenstein]] writes
+
+> Either a thing has properties that nothing else has, in which case we can immediately use a description to distinguish it from the others and refer to it; or, on the other hand, there are several things that have the whole set of their properties in common, in which case it is quite impossible to indicate one of them. For if there is nothing to distinguish a thing, I cannot distinguish it, since otherwise it would be distinguished after all.
+
+Given that a main theme of the Tractatus is on the limits of language, it is tempting to consider this as a description not just for 'the world' (as in _Tractatus_ 1.), but for any given language and the objects about which one reasons in that language. This seems to encapsulate Makkai's motivation alluded to above.
+
 ## General definition
 
 If $X$ is an $\infty$-[[infinity-groupoid|groupoid]], then a property $P$ of objects of $X$ is _compatible with equivalence_ if, whenever $P(a)$ holds for an object $a$ of $X$ and $b$ is [[equivalence|equivalent]] (as an object of $X$) to $a$, then $P(b)$ holds. Alternatively, an operation $f$ from objects of $X$ to objects of (another $\infty$-groupoid) $Y$ is __compatible with equivalence__ if, whenever $a$ and $b$ are equivalent objects of $X$, $f(a)$ and $f(b)$ are equivalent (as objects of $Y$).
