@@ -57,6 +57,7 @@ There is a [[model  structure on dendroidal sets]] whose fibrant objest are the 
 So the [[model structure on dendroidal sets]] is a [[presentable (∞,1)-category|presention]] of the [[(∞,1)-category]] of $(\infty,1)$-operads. It is [[Quillen equivalence|Quillen equivalent]] to the standard [[model structure on operads]] enriched over [[Top]] or [[sSet]]. Therefore, conversely, the traditional homotopy-theoretic constructions on topological and chain operads (such as cofibrant [[resolution]]s in order to present homtopy algebras such as [[A-∞ algebra]]s, [[L-∞ algebra]]s, [[homotopy BV-algebra]]s and the like) are also indeed presentations of $(\infty,1)$-operads.
 
 ### In terms of $(\infty,1)$-categories of operators
+ {#InTermsOfInfinityCategoriesOfOperators}
 
 Every [[operad]] $A$ encodes and is encoded by its [[category of operators]] $C_A$. In the approach to $(\infty,1)$-operators described below, the notion of category of operators is generalized to an [[(∞,1)-category]] of operators.
 
