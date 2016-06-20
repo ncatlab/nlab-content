@@ -1,15 +1,196 @@
-   $$ 
-     \array{
-       x \otimes (y \otimes 1) & & 
-       \\
-       {}^\mathllap{\alpha^{-1}_{1, x, y}} \downarrow 
-       & \searrow^\mathrlap{id_x \otimes r_y} & 
-       \\
-       (x \otimes y) \otimes 1
-         & 
-           \underset{r_{x \otimes y}}{\longrightarrow} 
-         & 
-       x \otimes y
-     }
-     \,;
-   $$ 
++-- {: .num_lemma #BaseChangePreservesFibrationsAndWeakEquivalences}
+###### Lemma
+
+In a [[category of fibrant objects]] $\mathcal{C}_f$, def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, let 
+
+$$
+ \array{
+  A_1 &&\stackrel{f}{\longrightarrow}&& A_2
+  \\
+  & {}_{\in Fib}\searrow && \swarrow_{\in Fib}
+  \\
+  && B
+ }
+$$
+
+be a morphism over  some object $B$ in $\mathcal{C}_f$
+and let $u \colon B' \to B$ be any morphism in 
+$\mathcal{C}_f$. Let 
+
+$$
+ \array{
+  u^*A_1 &&\stackrel{u^* f}{\longrightarrow}&& u^* A_2
+  \\
+  & {}_{\in Fib}\searrow && \swarrow_{\in Fib}
+  \\
+  && B'
+ }
+$$
+
+be the corresponding morphism pulled back along $u$.
+
+Then
+
+* if $f$ is a fibration then also $u^* f$ is a fibration;
+
+* if $f$ is a weak equivalence then also $u^* f$ is a weak equivalence.
+
+
+=--
+
+([Brown 73, section 4, lemma 1](#Brown73))
+
+
++-- {: .num_proof}
+###### Proof
+
+For $f \in Fib$ the statement follows from the [[pasting law]] which says that if in 
+
+$$
+  \array{
+    B' \times_B A_1 &\longrightarrow& A_1
+    \\
+    \;\;\downarrow^{\mathrlap{u^* f \in Fib}} 
+    && \;\;\downarrow^{\mathrlap{f \in Fib}}
+    \\
+    B' \times_B A_2 &\longrightarrow& A_2
+    \\
+    \;\downarrow^{\mathrlap{\in Fib}} && \;\downarrow^{\mathrlap{\in Fib}}
+    \\
+    B' &\stackrel{u}{\longrightarrow}& B
+  }
+$$
+
+the bottom and the total square are pullback squares, then so is the top square. The same reasoning applies for $f \in W \cap Fib$.
+
+Now to see the case that $f\in W$:
+
+Consider the [[full subcategory]] $(\mathcal{C}_{/B})_f$ of the [[slice category]] $\mathcal{C}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations 
+
+$$
+  \array{
+    X
+    \\
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib}}
+    \\
+    B
+  }
+$$
+
+into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$: 
+
+$$
+  \array{
+   (\Delta_X)/B
+   \;\colon
+    &
+    X 
+      &\overset{\in W}{\longrightarrow}&
+    Path_B(X)
+      &\overset{\in Fib}{\longrightarrow}&
+    X \underset{B}{\times} X
+    \\
+    & & {}_{\mathllap{\in Fib}}\searrow & \downarrow & \swarrow_{\mathrlap{\in Fib}}
+    \\
+    & && B
+  }
+  \,.
+$$
+
+With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}_{/B})_f$. 
+
+(Notice that for this we do need the restriction of $\mathcal{C}_{/B}$ to the fibrations, because this ensures that the projections $p_i \colon X_1 \times_B X_2 \to X_i$ are still fibrations, which is used in the proof of the factorization lemma ([here](#ProofOfFactorizationLemma)).)
+
+So now given any 
+
+$$
+  \array{
+    X && \underoverset{\in W}{f}{\longrightarrow} && Y
+    \\
+    & {}_{\mathllap{\in Fib}}\searrow && \swarrow_{\mathrlap{\in Fib}}
+    \\
+    && B
+  }  
+$$
+
+apply the [[factorization lemma]] in $(\mathcal{C}_{/B})_f$ to factor it as 
+
+$$
+  \array{
+    X 
+      &\overset{i \in W}{\longrightarrow}& 
+    Path_B(f) 
+      &\overset{\in W \cap Fib}{\longrightarrow}& Y
+    \\
+    & {}_{\mathllap{\in Fib}}\searrow 
+     &\downarrow& 
+    \swarrow_{\mathrlap{\in Fib}}
+    \\
+    && B
+  }  
+  \,.
+$$
+
+By the previous discussion it is sufficient now to show that the base change of $i$ to $B'$ is still a weak equivalence. But by the factorization lemma in $(\mathcal{C}_{/B})_f$, the morphism $i$ is right inverse to another acyclic fibration over $B$:
+
+$$
+  \array{
+    id_X
+    \;\colon
+    &
+    X 
+      &\overset{i \in W}{\longrightarrow}& 
+    Path_B(f) 
+      &\overset{\in W \cap Fib}{\longrightarrow}& X
+    \\
+    & & 
+    {}_{\mathllap{\in Fib}}\searrow 
+     &\downarrow& 
+    \swarrow_{\mathrlap{\in Fib}}
+    \\
+    & && B
+  }  
+  \,.
+$$
+
+(Notice that if we had applied the factorization lemma of $\Delta_X$ in $\mathcal{C}_f$ instead of $(\Delta_X)/B$ in $(\mathcal{C}_{/B})$ then the corresponding triangle on the right here would not commute.) 
+
+Now we may reason as before: the base change of the top morphism here is exhibited by the following pasting composite of pullbacks:
+
+$$
+  \array{
+    B' \underset{B}{\times} X
+     &\longrightarrow&
+    X
+    \\
+    \downarrow
+      &(pb)&
+    \downarrow
+    \\
+    B' \underset{B}{\times} Path_B(f) 
+      &\longrightarrow& 
+    Path_B(f)
+    \\
+    \downarrow
+      &(pb)&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
+    \\
+    B' \underset{B}{\times}X  
+      &\longrightarrow& 
+    X
+    \\
+    \downarrow
+      &(pb)&
+    \downarrow
+    \\
+    B'
+     &\longrightarrow&
+    B
+  }
+  \,.
+$$
+
+The acyclic fibration $Path_B(f)$ is preserved by this pullback, as is the identity $id_X \colon X \to Path_B(X)\to X$. Hence the weak equivalence $X \to Path_B(X)$ is preserved by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}).
+
+
+=--
