@@ -130,12 +130,30 @@ such that the following two kinds of [[commuting diagram|diagrams commute]], for
 
 
 
-1. the **[[pentagon identity]]** (or **pentagon equation**):
+1. {#PentagonIdentity} the **[[pentagon identity]]** (or **pentagon equation**):
 
-+-- {: style="text-align:center"}
-[[!include monoidal category > pentagon]]
-=--
 
+   $$
+     \array{
+       && (w \otimes x) \otimes (y \otimes z)
+       \\
+       & {}^{\mathllap{\alpha_{w \otimes x, y, z}}}\nearrow
+        &&
+       \searrow^{\mathrlap{\alpha_{w,x,y \otimes z}}}
+       \\
+       ((w \otimes x ) \otimes y) \otimes z
+        && &&
+       (w \otimes (x \otimes (y \otimes z)))
+       \\
+       {}^{\mathllap{\alpha_{w,x,y}} \otimes id_z }\downarrow 
+        && && 
+       \uparrow^{\mathrlap{ id_w \otimes \alpha_{x,y,z} }}
+       \\
+       (w \otimes (x \otimes y)) \otimes z
+         && \underset{\alpha_{w,x \otimes y, z}}{\longrightarrow} &&
+       w \otimes ( (x \otimes y) \otimes z )
+     }
+   $$
 
 
 =--
@@ -178,7 +196,7 @@ $$
  & & (1 x)y & \underset{\alpha_{1, x, y}}{\to} & 1(x y) & & 
 }$$ 
 
-where the square in the middle [[commuting square|commutes]] by [[naturality|natural transformation]] of $\alpha$, and the triangle on the left commutes by a unit coherence triangle (tensored by $y$ on the right). Since all the arrows are isomorphisms, it suffices to show that the diagram formed by the perimeter commutes. But this follows from the commutativity of the diagram 
+where the square in the middle [[commuting square|commutes]] by [[natural transformation|naturality]] of $\alpha$, and the triangle on the left commutes by a unit coherence triangle (tensored by $y$ on the right). Since all the arrows are isomorphisms, it suffices to show that the diagram formed by the perimeter commutes. But this follows from the commutativity of the diagram 
 
 $$\array{
  & & (1(1 x))y & \stackrel{\alpha_{1, 1 x, y}}{\to} & 1((1 x)y) \\
