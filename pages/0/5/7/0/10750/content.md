@@ -4277,7 +4277,7 @@ For $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes of stru
 
 =--
 
-([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) spring
+([MMSS 00, def. 8.3 with the notation from p. 21](#MMSS00), [Mandell-May 02, III, def. 3.1, def. 3.2](#May02)) (def. \ref{MonoidalCategory}). 
 
 
 +-- {: .num_lemma #DegreewiseLESofHomotopyGroupsInducedStableLES}
@@ -4650,7 +4650,7 @@ Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagr
      \,;
    $$
 
-1. on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}_{cg}]$ its value is given by the follwoing [[coend]] expression (def. \ref{EndAndCoendInTopcgSmash})
+1. on $n' \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}_{cg}]$ its value is given by the following [[coend]] expression (def. \ref{EndAndCoendInTopcgSmash})
 
   $$
     (F^{dia}_n K)(n')
@@ -5448,35 +5448,38 @@ Moreover, the three right adjoint restriction functors are along inclusions of o
 Recall the sets
 
 $$
-  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \hookrightarrow D^n_+\}_{n \in \mathbb{N}}
+  I_{Top^{\ast/}} \coloneqq \{S^{n-1}_+ \overset{(i_n)_+}{\hookrightarrow} D^n_+\}_{n \in \mathbb{N}}
 $$
 
 $$
-  J_{Top^{\ast/}} \coloneqq \{D^n_+ \hookrightarrow (D^n \times I)_+\}_{n \in \mathbb{N}}
+  J_{Top^{\ast/}} \coloneqq \{D^n_+ \overset{(j_n)_+}{\hookrightarrow} (D^n \times I)_+\}_{n \in \mathbb{N}}
 $$
 
 of generating cofibrations and generating acyclic cofibrations, respectively, of the [[classical model structure on pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces))
 
 Write
 
-$$
-  I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
-    \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \wedge i_+ \}_{{c \in \mathbb{S}_{Dia} Free_{Dia}Mod} \atop {i \in I_{Top}}}
-$$
-
-for the class of [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the morphuisms in the sets $I_{Top^{\ast/}}$ from above, which by lemma \ref{ExplicitExpressionForFreeSpectra} is equivalently the set of morphisms arising as the [[tensoring]] with a topological generating cofibration of a [[representable functor|representable]] over the [[site]] $\mathbb{S}_{dia} Free_{Dia}Mod$ (the [[site]] for $\mathbb{S}_{dia}Mod$ from prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}).
- 
-Similarly, write
 
 $$
-  J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})} 
+  I^{strict}_{dia} 
     \;\coloneqq\; 
-  \{ y_{\mathbb{S}_{dia}Free_{Dia}Mod}(c) \otimes j_+ \}_{{c \in \mathbb{S}_{Dia}Free_{Dia}Mod} \atop {j \in J}}
+  \left\{
+    F_c^{dia}((i_n)_+)
+  \right\}_{c \in Dia, n \in \mathbb{N}}
+$$
+
+for the set of images under forming [[free spectra]], def. \ref{FreeStructuredSpectrum}, on the morphisms in $I_{Top^{\ast/}}$ from above. Similarly, write
+
+$$
+  J^{strict}_{dia} 
+    \;\coloneqq\; 
+  \left\{
+   F_c^{dia}((j_n)_+)
+  \right\}
   \,,
 $$
 
-for the set of morphisms arising as the [[tensoring]] of a [[representable functor|representable]] with a generating acyclic cofibration of the [[classical model structure on topological spaces]] (with basepoint adjoined).
+for the set of images under forming free spectra of the morphisms in $J_{Top^{\ast/}_{cg}}$.
 
 =--
 
@@ -5484,8 +5487,8 @@ for the set of morphisms arising as the [[tensoring]] of a [[representable funct
 +-- {: .num_prop #CofibrantGenerationOfStrictModelStructure}
 ###### Proposition
 
-The sets $I^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ 
-and $J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
+The sets $I^{strict}_{dia}$ 
+and $J^{strict}_{dia}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
 
 =--
 
@@ -5495,11 +5498,14 @@ and $J^{strict}_{\mathbb{S}_{dia}Mod(Top_{cg})}$ from def. \ref{GeneratingAndGen
 By theorem \ref{StrictModelStructureOnDiagramSpectra} the strict model structure is equivalently the projective pointed  [[model structure on enriched functors|model structure on topologically enriched functors]]
 
 $$
-  \mathbb{S}_{Dia}Mod_{strict} \simeq [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
-  \,.
+  \mathbb{S}_{Dia}Mod_{strict} 
+    \simeq 
+  [\mathbb{S}_{Dia}Free_{Dia}Mod^{op}, Top^{\ast/}]_{proj}
 $$
 
-With this the statement follows via lemma \ref{ExplicitExpressionForFreeSpectra} by the proof of [this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem.
+of the opposite of the category of free spectra on objects in $\mathcal{C} \hookrightarrow [\mathcal{C}, Top^{\ast/}_{cg}]$.
+
+By the general discussion in _[[Introduction to Stable homotopy theory -- P|Part P -- Classical homotopy theory]]_ ([this](classical+model+structure+on+topological+spaces#ProjectiveModelStructureOnTopEnrichedFunctors) theorem) the [[projective model structure on functors]] is cofibrantly generated by the smash tensoring of the [[representable functors]] with the elements in $I_{Top^{\ast/}_{cg}}$ and $J_{Top^{\ast/}_{cg}}$. By the proof of lemma \ref{ExplicitExpressionForFreeSpectra}, these are precisely the morphisms of free spectra in $I^{strict}_{dia}$ and $J^{strict}_{dia}$, respectively.
 
 =--
 
@@ -5508,7 +5514,7 @@ With this the statement follows via lemma \ref{ExplicitExpressionForFreeSpectra}
 ##### Topological enrichment
 
 
-By general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched functors]], this implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra ([part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)), but for ease of reference we make it explicit.
+By the general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched functors]], theorem \ref{StrictModelStructureOnDiagramSpectra} implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra (in _[part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)_), but for ease of reference we here make it explicit again.
 
 
 +-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
@@ -5618,7 +5624,7 @@ $$
 
 denotes the smash powering ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)).
 
-Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
+Finally, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
 
 $$
   f^{\Box i} \coloneqq (\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))
@@ -5701,7 +5707,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that via theorem \ref{StrictModelStructureOnDiagramSpectra} the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$, and since smash tensoring and powering is defined degreewise. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
+The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that, via theorem \ref{StrictModelStructureOnDiagramSpectra}, the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$, and since smash tensoring and powering is defined degreewise. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
 
 =--
 
@@ -5734,7 +5740,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]], hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
+By assumption, $K$ is a cofibrant object in the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)), hence $\ast \to K$ is a cofibration in $(Top^{\ast/}_{cg})_{Quillen}$. Observe then that the the [[pushout product]] of any morphism $f$ with $\ast \to K$ is equivalently the smash tensoring of $f$ with $K$:
 
 $$
   f \Box (\ast \to K)
@@ -5815,7 +5821,7 @@ Hence if $X$ is assumed to be cofibrant, so that $\ast \to X$ is a cofibration, 
 +-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
 ###### Proposition
 
-For $X \in \mathbb{S}_{dia}Mod$ a [[structured spectum]], $f \in Mor(\mathbb{S}_{dia}Mod)$ any morphism of structured spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[pointed topological spaces]], then the [[hom-spaces]] of def. \ref{PointedTopologicalFunctorCategory} (via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
+For $X \in \mathbb{S}_{dia}Mod$ a [[structured spectrum]], $f \in Mor(\mathbb{S}_{dia}Mod)$ any morphism of structured spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[pointed topological spaces]], then the [[hom-spaces]] of def. \ref{PointedTopologicalFunctorCategory} (via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
 
 $$
   \mathbb{S}_{dia}Mod(f \Box g, X)
@@ -5884,14 +5890,14 @@ $$
    [X,Y]_{strict}
 $$
 
-between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnDiagramSpectra}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] of def. \ref{StandardCylinderSpectrumSequential}:
+By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] $X \wedge (I_+)$:
 
 $$
   \frac{
@@ -5914,19 +5920,27 @@ $$
 
 ##### Monoidal model structure
 
-We now combine the concepts of [[model category]] and [[monoidal category]].
+We now combine the concepts of [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) and [[monoidal category]] (def. \ref{MonoidalCategory}).
+
+Given a category $\mathcal{C}$ that is equipped both with the structure of a [[monoidal category]] and of a [[model category]], then one may ask whether these two structures are compatible, in that the [[left derived functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctorsOnModelCategories)) of the [[tensor product]] exists to equip also the [[homotopy category of a model category|homotopy category]] with the structure of a monoidal category. If so, then one may furthermore ask if the [[localization]] functor $\gamma \;\colon\; \mathcal{C} \longrightarrow Ho(\mathcal{C})$ is a [[monoidal functor]] (def. \ref{LaxMonoidalFunctor}).
+
+The axioms on a _[[monoidal model category]]_ (def. \ref{MonoidalModelCategory} below) are such as to ensure that this is the case.
+
+A key consequence is that, via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}, for a monoidal model category the localization functor $\gamma$ carries monoids to monoids. Applied to the [[stable model category]] of spectra established below, this gives that [[structured ring spectra]] indeed represent [[ring spectra]] in the homotopy category.  (In fact much more is true, but requires further proof: there is also a model structure on monoids in the model structure of spectra, and with respect to that the structured ring spectra represent [[A-infinity rings]]/[[E-infinity rings]].)
+
+
 
 
 +-- {: .num_defn #MonoidalModelCategory}
 ###### Definition
 
-A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
 ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) equipped with the structure of a  [[closed monoidal category|closed]] (def. \ref{ClosedMonoidalCategory}) [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory}) [[monoidal category]] $(\mathcal{C}, \otimes, I)$ (def. \ref{MonoidalCategory}) such that the following two compatibility conditions are satisfied
 
 1. **([[pushout-product axiom]])** For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
 
    $$
-     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     (X \otimes Y') \underset{{X \otimes X'}}{\sqcup} (Y \otimes X')
      \longrightarrow
      Y \otimes Y'
      \,,
@@ -5939,7 +5953,7 @@ A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
 1. **(unit axiom)** For every cofibrant object $X$ and every cofibrant resolution $\emptyset \overset{\in Cof}{\longrightarrow} Q 1 \underoverset{p_1}{\in W}{\longrightarrow} \ast$ of the [[tensor unit]] $1$, the resulting morphism
 
    $$
-     Q I \otimes X 
+     Q 1 \otimes X 
        \overset{p_1 \otimes X}{\longrightarrow} 
      1 \otimes X 
        \underoverset{\ell}{\in W}{\longrightarrow} 
@@ -5967,13 +5981,15 @@ We say a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) satisfie
 
 =--
 
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley00)).
 
 
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
-Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}). Then the [[left derived functor]] $\otimes^L$ (def. \ref{Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors})of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$ (def. \ref{MonoidalCategory}).
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}). 
+
+Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}).
 
 If in in addition $(\mathcal{C}, \otimes,1 )$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}), then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) carries the structure of a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor})
 
@@ -6137,7 +6153,7 @@ The same argument applies to left tensoring with $R Q Z$ instead of right tensor
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectrag} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def.\ref{MonoidalModelCategory}).
+Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def.\ref{MonoidalModelCategory}).
 
 =--
 
