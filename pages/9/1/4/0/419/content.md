@@ -110,10 +110,12 @@ $$
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
 (For simplicity we give the proof for the case that the tensor unit is indeed cofibrant, see remark \ref{CaseOfCofibrantTensorUnit}).
+
 
 For the [[left derived functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctorsOnModelCategories)) of the tensor product
 
@@ -135,7 +137,7 @@ $$
 
 of cofibrant objects preserves acyclic cofibrations ([[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
 
-Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$  may be written as a composite of a pairing with an identity morphisms
+Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) may be written as a composite of a pairing with an identity morphisms
 
 $$
   (f,g)
@@ -164,7 +166,7 @@ $$
   f \otimes id_{c_2}
 $$
 
-the [[pushout-product axiom]]  implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations. (This is why one speaks of a _[[Quillen bifunctor]]_).
+the [[pushout-product axiom]] (def. \ref{MonoidalModelCategory}) implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations. (This is why one speaks of a _[[Quillen bifunctor]]_, see also [Hovey 99, prop. 4.3.1](#Hovey99)).
 
 Hence $\otimes^L$ exists. 
 
@@ -188,7 +190,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -202,7 +204,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -214,6 +216,8 @@ $$
 be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of two objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
 $$
+  (\star)
+  \;\;\;\;\;\;
   \array{
     \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
@@ -228,7 +232,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_\eta&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -244,7 +248,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -433,7 +437,7 @@ $$
   \,.
 $$
 
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$), as well as the vertical morphism on the top right are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
+Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}, but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$), as well as the vertical morphism on the top right are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
 
 $$
   \gamma((p_X \otimes p_Y) \otimes p_Z) 
@@ -479,9 +483,11 @@ $$
   \,.
 $$
 
-But by the commuting squares that $\alpha^L$ sits in by the construction above, applying $\gamma$, hence applying $P Q(-)$, intertwines $\alpha^L$ with $\alpha$ and this is precisely the condition expressed here.
+By the proof ([here](Introduction+to+Stable+homotopy+theory+--+P#ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the universal property of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) the vertical morphisms here are precisely the inverse components of the natural isomorphisms $\eta$ and $\eta'$ above. With this, the above square is a component of the equality of pastings of natural isomorphisms in equation $(\star)$ above.
+
 
 =--
+
 
 
 
