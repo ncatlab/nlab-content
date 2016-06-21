@@ -160,7 +160,7 @@ Conversely, for $p_S \colon U(X) \longrightarrow S$ an [[epimorphism]], then the
 
 
 +-- {: .num_prop #DescriptionOfLimitsAndColimitsInTop}
-###### Poposition
+###### Proposition
 
 Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$ be an $I$-[[diagram]] in [[Top]] (a [[functor]] from $I$ to $Top$), with components denoted $X_i = (S_i, \tau_i)$, where $S_i \in Set$ and $\tau_i$ a topology on $S_i$. Then:
 
@@ -3527,7 +3527,7 @@ $$
 +-- {: .proof #ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory}
 ###### Proof
 
-First, to see that that $\gamma$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined}, the morphism $P Q f$ is a weak equivalence if $f$ is:
+First, to see that that $\gamma_{P,Q}$ indeed takes weak equivalences to isomorphisms: By [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) applied to the [[commuting diagrams]] shown in the proof of lemma \ref{ConstructionOfLocalizationFunctorForModelCategoryIsWellDefined}, the morphism $P Q f$ is a weak equivalence if $f$ is:
 
 $$
   \array{
@@ -4438,7 +4438,7 @@ That $1) \Leftrightarrow 2)$ follows from prop. \ref{QuillenAdjunctionInducesAdj
 To see the equivalence $1),2) \Leftrightarrow 3)$, notice ([prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)) that a pair of [[adjoint functors]] is an [[equivalence of categories]] precisely if both the [[adjunction unit]] and the [[adjunction counit]] are [[natural isomorphisms]]. Hence it is sufficient to show that the morphisms called "derived adjunction (co-)units" above indeed represent the adjunction (co-)unit of $(\mathbb{L}L \dashv \mathbb{R}R)$ in the homotopy category.
 We show this now for the adjunction unit, the case of the adjunction counit is formally dual.
 
-To that end, first observe that for $d \in \mathcal{D}_f$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
+To that end, first observe that for $d \in \mathcal{D}_c$, then the defining commuting square for the left derived functor from def. \ref{LeftAndRightDerivedFunctorsOnModelCategories}
 
 $$
   \array{
@@ -4452,7 +4452,7 @@ $$
   }
 $$
 
-(using fibrant and fibrant/cofirbatn replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that 
+(using fibrant and fibrant/cofibrant replacement functors $\gamma_P$, $\gamma_{P,Q}$ from def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} with their universal property from theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}, corollary \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) gives that 
 
 $$
   (\mathbb{L} L ) d \simeq P L P d \simeq P L d \;\;\;\; \in Ho(\mathcal{C})
@@ -4475,7 +4475,7 @@ By the above and the proof of prop. \ref{QuillenAdjunctionInducesAdjunctionOnHom
 $$
   Hom_{Ho(\mathcal{C})}(P L d , P L d)
     \overset{Hom(j_{L d}, id)}{\longrightarrow}
-  Hom_{\mathcal{C}}(L X, P L X)/_\sim
+  Hom_{\mathcal{C}}(L d, P L d)/_\sim
 $$
 
 of lemma \ref{HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory}. Hence the derived adjunction unit is the $(L \dashv R)$-[[adjunct]] of 
@@ -4880,7 +4880,7 @@ is the category whose objects are [[retracts]] of [[cell complexes]] (def. \ref{
 Theorem \ref{TopQuillenModelStructure} in itself implies that every topological space is weakly equivalent to a [[retract]] of a [[cell complex]], def. \ref{TopologicalCellComplex}. But by the existence of [[CW approximations]], this cell complex may even be taken to be a [[CW complex]]. 
 
 (Better yet, there is [[Quillen equivalence]] to the [[classical model structure on simplicial sets]] which implies a _functorial_ [[CW approximation]] ${\vert Sing X\vert} \overset{\in W_{cl}}{\longrightarrow} X$
-given by forming the [[geometric realization]] of the [[singular simplicial nerve]] of $X$.)
+given by forming the [[geometric realization]] of the [[singular simplicial complex]] of $X$.)
 
 
 Hence  the Serre-Quillen [[classical homotopy category]] is also equivalently the category of just the [[CW-complexes]] whith [[homotopy classes]] of [[continuous functions]] between them
@@ -5736,7 +5736,7 @@ The following is a slight variant of def. \ref{CompactOpenTopology}, appropriate
 +-- {: .num_defn #CompactlyGeneratedMappingSpaces}
 ###### Definition
 
-For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(Y,X)$ of [[continuous functions]] $f \colon Y \to X$, and for which a [[topological base|subbase]] for its topology has elements $U^{\phi(K)}$, for $U \subset X$ any [[open subset]] and $\pho \colon K \to K$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
+For $X, Y \in Top_{cg}$ (def. \ref{kTop}) the **compactly generated mapping space** $X^Y \in Top_{cg}$ is the [[compactly generated topological space]] whose underlying set is the set $C(Y,X)$ of [[continuous functions]] $f \colon Y \to X$, and for which a [[topological base|subbase]] for its topology has elements $U^{\phi(K)}$, for $U \subset X$ any [[open subset]] and $\phi \colon K \to Y$ a [[continuous function]] out of a [[compact topological space|compact]] [[Hausdorff space]] $K$ given by
 
 $$
   U^{\phi(\kappa)} \coloneqq \left\{ f\in C(Y,X) | f(\phi(K)) \subset U \right\}
