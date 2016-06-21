@@ -2327,70 +2327,14 @@ $$
 
 into a pointed topological [[monoidal category]] (def. \ref{MonoidalCategory}) with [[tensor unit]] $y(1)$ [[representable functor|co-represented]] by the tensor unit $1$ of $\mathcal{C}$. 
 
-Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then $( [\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ becomes itself a [[braided monoidal category]] with braiding given by
+Moreover, if $(\mathcal{C}, \otimes, 1)$ is equipped with a (symmetric) [[braiding]] $\tau^{\mathcal{C}}$ (def. \ref{BraidedMonoidalCategory}), then so is $([\mathcal{C}, Top^{\ast/}_{cg}],\otimes_{Day}, y(1))$. 
 
-$$
-  \array{
-    (X \otimes_{Day} Y)(c)
-    & = &
-    \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
-    \\
-    {}^{\mathllap{\tau}^{Day}_{X,Y}(c)}\downarrow
-    &&
-    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
-    \\
-    (Y \otimes_{Day} X)(c)
-    & = &
-    \overset{c_1,c_2}{\int} 
-     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
-  }
-  \,.
-$$
 
-Finally, if $\tau^{\mathcal{C}}$ is a [[symmetric monoidal category|symmetric braiding]] (def. \ref{SymmetricMonoidalCategory}) then also $\tau^{Day}$ is symmetric.
 
 =--
 
 +-- {: .proof}
 ###### Proof
-
-Regarding [[associativity]], observe that
-
-$$
-  \begin{aligned}
-    (X \otimes_{Day} ( Y \otimes_{Day} Z ))(c)
-    & \simeq
-    \overset{(c_1,c_2)}{\int}
-      \mathcal{C}(c_1 \otimes c_2, \,c) 
-        \wedge
-      X(c_1) 
-       \wedge
-      \overset{(d_1,d_2)}{\int}
-       \mathcal{C}(d_1 \otimes d_2, c_2 )
-       (Y(d_1) \wedge Z(d_2))
-    \\
-    &\simeq \overset{c_1, d_1, d_2}{\int}
-    \underset{\simeq \mathcal{C}(c_1 \otimes d_1 \otimes_{\mathcal{C}} d_2, c )}{
-      \underbrace{
-       \overset{c_2}{\int} 
-         \mathcal{C}(c_1 \otimes c_2 , c)
-           \wedge
-         \mathcal{C}(d_1 \otimes d_2, c_2 )
-      }
-    }
-    \wedge X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
-    \\
-    &\simeq 
-    \overset{c_1, d_1, d_2}{\int}
-     \mathcal{C}(c_1\otimes  ( d_1 \otimes  d_2), c ) 
-       \wedge  
-     X(c_1) \wedge (Y(d_1) \wedge Z(d_2))
-  \end{aligned}
-  \,,
-$$
-
-where we used the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}). Similarly
 
 Regarding [[associativity]], observe that
 
@@ -2489,7 +2433,7 @@ $$
     ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
     \\
     {}^{\mathllap{
-      \alpha^{Day}_{X,Y,Z}
+      \alpha^{Day}_{X,Y,Z}(c)
     }}\downarrow 
       && 
     \downarrow^{\mathrlap{
@@ -2506,10 +2450,10 @@ $$
        \wedge  
      (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))   
   }
+  \,.
 $$
 
-
-Similarly, if $\mathcal{C}$ is braided then the hexagon identity for the [[braiding]] follows, under the coend, from the hexagon identities for the braidings in $\mathcal{C}$ and $Top^{\ast/}_{cg}$.
+It is clear that this satisfies the [[pentagon identity]], since $\tau^{\mathcal{C}}$ and $\tau^{Top^{\ast/}_{cg}}$ do.
 
 To see that $y(1)$ is the tensor unit for $\otimes_{Day}$, 
 use the [[Fubini theorem]] for [[coends]] (prop. \ref{CoendsCommuteWithEachOther}) and then twice the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) to get for any $X \in [\mathcal{C},Top^{\ast/}_{cg}]$ that
@@ -2520,30 +2464,28 @@ $$
      & 
      =
      \overset{c_1,c_2 \in \mathcal{C}}{\int}
-     \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
+      \mathcal{C}(c_1\otimes_{\mathcal{D}} c_2,-) 
       \wedge 
      X(c_1) \wedge \mathcal{C}(1,c_2)
      \\
      & \simeq 
      \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-        \wedge  
       \overset{c_2 \in \mathcal{C}}{\int}  
         \mathcal{C}(c_1\otimes_{\mathcal{C}} c_2,-)
         \wedge 
         \mathcal{C}(1,c_2) 
+      \wedge X(c_1)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-         \wedge
       \mathcal{C}(c_1 \otimes_{\mathcal{C}} 1, -)
+      \wedge
+      X(c_1)
     \\
     & \simeq 
       \overset{c_1\in \mathcal{C}}{\int}
-      X(c_1) 
-         \wedge
       \mathcal{C}(c_1, -)
+      \wedge X(c_1)
     \\
     & \simeq
     X(-)
@@ -2553,6 +2495,52 @@ $$
   \end{aligned}
   \,.
 $$
+
+Hence the right [[unitor]] of Day convolution comes from the unitor of $\mathcal{C}$ under the integral sign:
+
+$$
+  \array{
+    (X \otimes_{Day} y(1))(c)
+    &\simeq&
+    \overset{c_1}{\int} \mathcal{C}(c_1 \otimes 1, c) \wedge X(c_1)
+    \\
+    {}^{\mathllap{r^{Day}_{X}(c) } }\downarrow 
+      && 
+    \downarrow^{\mathralp{
+      \overset{c_1}{\int} \mathcal{c}{C}(r^{\mathcal{C}}_{c_1},c) \wedge X(c_1)
+    }}
+    \\
+    X(c) &\simeq& \overset{c_1}{\int} \mathcal{C}(c_1,c) \wedge X(c_1)
+  }
+  \,.
+$$
+
+Analogously for the left unitor. Hence the triangle identity for $\otimes_{Day}$ follows from the triangle identity in $\mathcal{C}$ under the integral sign.
+
+
+Similarly, if $\mathcal{C}$ has a [[braiding]] $\tau^{\magthcal{C}}$, it induces a braiding $\tau^{Day}$ under the integral sign:
+
+$$
+  \array{
+    (X \otimes_{Day} Y)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_1 \otimes c_2) \wedge X(c_1) \wedge Y(c_2)
+    \\
+    {}^{\mathllap{\tau}^{Day}_{X,Y}(c)}\downarrow
+    &&
+    \downarrow^{\mathrlap{\overset{c_1,c_2}{\int} \mathcal{C}(\tau^{\mathcal{C}}_{c_1,c_2}, c  ) \wedge \tau^{Top^{\ast/}}_{X(c(1)), X(c_2)}  }}
+    \\
+    (Y \otimes_{Day} X)(c)
+    & = &
+    \overset{c_1,c_2}{\int} 
+     \mathcal{C}(c_2 \otimes c_1) \wedge Y(c_2) \wedge X(c_1)   
+  }
+$$
+
+and the hexagon identity for $\tau^{Day}$ follows from that for $\tau^{\mathcal{C}}$.
+
+
 
 =--
 
