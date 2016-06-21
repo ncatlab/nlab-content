@@ -437,6 +437,27 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 
 =--
 
++-- {: .num_example #SymmetricMonoidalCategoryOfChainComplexes}
+###### Example
+
+The category [[category of chain complexes]] $Ch_\bullet$, equipped with the [[tensor product of chain complexes]] is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}).
+
+In this case the [[braiding]] has a genuinely non-trivial aspect to it, beyond just the swapping of coordinates as in examples \ref{TopAsASymmetricMonoidalCategory}, \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory} and def. \ref{ExampleAbelianGroupsOfMonoidalCategory}, namely for $X, Y \in Ch_\bullet$ then
+
+$$
+  (X \otimes Y)_n
+  =
+  \underset{n_1 + n_2 = n}{\otimes}
+  X_{n_1} \otimes_{\mathbb{Z}} X_{n_2}
+$$
+
+and in these components the braiding isomorphism is that of [[Ab]], but with a minus sign thrown in whener two odd-graded components are commuted.
+
+This is a first shadow of the graded-commutativity that also exhibited by spectra. 
+
+=--
+
+
 
 ##### Algebras and modules
  {#AlgebrasAndModules}
@@ -684,7 +705,7 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
 The archetypical case in which all these abstract concepts reduce to the basic familiar ones is the symmetric monoidal category [[Ab]] of [[abelian groups]] from example \ref{ExampleAbelianGroupsOfMonoidalCategory}.
@@ -700,6 +721,15 @@ The archetypical case in which all these abstract concepts reduce to the basic f
 1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
 
 =--
+
++-- {: .num_example #dgAlgebraAreMonoidsInChainComplexes}
+###### Example
+
+Closely related to the example \ref{RingsAreMonoidsInAb}, but closer to the structure we will see below for spectra, are [[monoid in a monoidal category|monoids]] in the [[category of chain complexes]] $(Ch_\bullet, \otimes, \mathbb{Z})$ from example \ref{SymmetricMonoidalCategoryOfChainComplexes}. These monoids are equivalently [[differential graded algebras]].
+
+
+=--
+
 
 
 +-- {: .num_prop #MonoidModuleOverItself} 
@@ -2118,7 +2148,7 @@ $$
   \,.
 $$
 
-The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Below we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcatgeories thereof.
+The operation of _[[Day convolution]]_ is the [[categorification]] of this situation where functions are replaced by [[functors]] and [[monoids]] by [[monoidal categories]]. Further [below](#OnPreExcisiveFunctors) we find the [[symmetric monoidal smash product of spectra]] as the Day convolution of topologically enriched functors over the monoidal category of finite pointed CW-complexes, or over sufficiently rich subcatgeories thereof.
 
 +-- {: .num_defn #TopologicalDayConvolutionProduct}
 ###### Definition
@@ -2506,8 +2536,8 @@ $$
     \\
     {}^{\mathllap{r^{Day}_{X}(c) } }\downarrow 
       && 
-    \downarrow^{\mathralp{
-      \overset{c_1}{\int} \mathcal{c}{C}(r^{\mathcal{C}}_{c_1},c) \wedge X(c_1)
+    \downarrow^{\mathrlap{
+      \overset{c_1}{\int} \mathcal{C}(r^{\mathcal{C}}_{c_1},c) \wedge X(c_1)
     }}
     \\
     X(c) &\simeq& \overset{c_1}{\int} \mathcal{C}(c_1,c) \wedge X(c_1)
@@ -2518,7 +2548,7 @@ $$
 Analogously for the left unitor. Hence the triangle identity for $\otimes_{Day}$ follows from the triangle identity in $\mathcal{C}$ under the integral sign.
 
 
-Similarly, if $\mathcal{C}$ has a [[braiding]] $\tau^{\magthcal{C}}$, it induces a braiding $\tau^{Day}$ under the integral sign:
+Similarly, if $\mathcal{C}$ has a [[braiding]] $\tau^{\mathcal{C}}$, it induces a braiding $\tau^{Day}$ under the integral sign:
 
 $$
   \array{
@@ -2538,17 +2568,19 @@ $$
   }
 $$
 
-and the hexagon identity for $\tau^{Day}$ follows from that for $\tau^{\mathcal{C}}$.
+and the hexagon identity for $\tau^{Day}$ follows from that for $\tau^{\mathcal{C}}$ and $\tau^{Top^{\ast/}_{cg}}$
 
 
 
 =--
 
+Moreover:
+
 
 +-- {: .num_prop #DayMonoidalStructureIsClosed}
 ###### Proposition
 
-For $(\mathcal{C}, \otimes ,1 )$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[monoidal category]] (def. \ref{MonoidalCategory}), the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
+For $(\mathcal{C}, \otimes ,1 )$ a [[small category|small]] pointed [[topologically enriched category|topological]] [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}), the [[monoidal category]] with [[Day convolution]] $([\mathcal{C},Top^{\ast/}_{cg}], \otimes_{Day}, y(1))$ from def. \ref{DayConvolutionYieldsMonoidalCategoryStructure} is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}). Its [[internal hom]] $[-,-]_{Day}$ is given by the [[end]] (def. \ref{EndAndCoendInTopcgSmash})
 
 $$
   [X,Y]_{Day}(c)
@@ -2641,7 +2673,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
+That the [[tensor unit]] is respected is part of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}. To see that the [[tensor product]] is respected, apply the [[co-Yoneda lemma]] (prop. \ref{TopologicalCoYonedaLemma}) twice to get the following natural isomorphism
 
 $$
   \begin{aligned}
@@ -2669,6 +2701,16 @@ $$
 
 ##### Functors with smash product
  {#FunctorsWithSmashProduct}
+
+Since the [[symmetric monoidal smash product of spectra]] discussed [below](#OnPreExcisiveFunctors) is an instance of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), and since [[ring spectra]] are going to be the [[monoids]] with respect to this tensor product, we are interested in characterizing the [[monoid in a monoidal category|monoids]] (def. \ref{MonoidsInMonoidalCategory}) with respect to Day convolution. These turn out to have a particularly transparent expression as what is called _[[functors with smash product]]_, namely [[lax monoidal functors]] from the base monoidal category to $Top^{\ast/}_{cg}$. Their components are pairing maps of the form
+
+$$
+  R_{n_1} \wedge R_{n_2} \longrightarrow R_{n_1 + n_2}
+$$
+
+satisfying suitable conditions. This is the form in which the structure of [[ring spectra]] usually appears in examples. It is directly analogous to how a [[dg-algebra]], which is equivalently a monoid with respect to the [[tensor product of chain complexes]] (example \ref{dgAlgebraAreMonoidsInChainComplexes}), is given in components .
+
+Here we introduce the concepts of monoidal functors and of [[functors with smash product]] and prove that they are equivalently the monoids with respect to Day convolution.
 
 
 +-- {: .num_defn #LaxMonoidalFunctor}
