@@ -63,7 +63,7 @@ Note:
 
 * In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
 
-* **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question.
+* **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question (see also at _[[homotopy category of a model category]]_).  
 
 
 ### Reflective localization
