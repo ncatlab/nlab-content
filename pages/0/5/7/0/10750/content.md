@@ -457,7 +457,7 @@ This is a first shadow of the graded-commutativity that also exhibited by spectr
 
 =--
 
-
+(e.g. [Hovey 99, prop. 4.2.13](#Hovey99))
 
 ##### Algebras and modules
  {#AlgebrasAndModules}
@@ -5448,6 +5448,7 @@ $$
 
 =--
 
+([MMSS 00, theorem 6.5](#MMSS00))
 
 +-- {: .proof}
 ###### Proof
@@ -5517,6 +5518,9 @@ The sets $I^{strict}_{dia}$
 and $J^{strict}_{dia}$ from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} are, respectively sets of [[generating cofibrations]] and generating acyclic cofibrations that exhibit the strict model structure $\mathbb{S}_{Dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} as a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)).
 
 =--
+
+([MMSS 00, theorem 6.5](#MMSS00))
+
 
 +-- {: .proof}
 ###### Proof
@@ -5993,6 +5997,8 @@ A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
 
 =--
 
+([Hovey 99, def. 4.2.6](#Hovey99) [Schwede-Shipley 00, def. 3.1, remark 3.2](#SchwedeShipley00))
+
 +-- {: .num_remark }
 ###### Remark
 
@@ -6001,6 +6007,8 @@ The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that f
 In particular if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. Since this is the case in our examples of interest, we will focus on this case for simplicity.
 
 =--
+
+
 
 +-- {: .num_defn #MonoidAxiom}
 ###### Definition
@@ -6031,6 +6039,8 @@ $$
 $$
 
 =--
+
+The first statement is also in ([Hovey 99, theorem 4.3.2](#Hovey99)). The second is also in ([Schwede 12, theorem 3.1](#Schwede12)).
 
 +-- {: .proof}
 ###### Proof
@@ -6084,7 +6094,7 @@ $$
   f \otimes id_{c_2}
 $$
 
-the [[pushout-product axiom]] (def. \ref{MonoidalModelCategory}) implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations. (This is why one speaks of a _[[Quillen bifunctor]]_).
+the [[pushout-product axiom]] (def. \ref{MonoidalModelCategory}) implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations. (This is why one speaks of a _[[Quillen bifunctor]]_, see also [Hovey 99, prop. 4.3.1](#Hovey99)).
 
 Hence $\otimes^L$ exists. 
 
@@ -6108,7 +6118,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6122,7 +6132,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6134,6 +6144,8 @@ $$
 be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of two objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
 $$
+  (\star)
+  \;\;\;\;\;\;
   \array{
     \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
@@ -6148,7 +6160,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_\eta&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6164,7 +6176,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow&
+      &\swArrow_{\eta'}&
     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
@@ -6399,7 +6411,8 @@ $$
   \,.
 $$
 
-But by the commuting squares that $\alpha^L$ sits in by the construction above, applying $\gamma$, hence applying $P Q(-)$, intertwines $\alpha^L$ with $\alpha$ and this is precisely the condition expressed here.
+By the proof ([here](Introduction+to+Stable+homotopy+theory+--+P#ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the universal property of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) the vertical morphisms here are precisely the components of the natural isomorphisms $\eta$ and $\eta'$ above. With this, the above square is a component of the equality of pastings of natural isomorphisms in equation $(\star)$ above.
+
 
 =--
 
@@ -6647,9 +6660,11 @@ $$
 
 Moreover, we know already that the top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal functor]] (prop. \ref{SmashProductOfFreeSpectra}) left Quillen (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) between [[monoidal model categories]] (theorem \ref{MonoidalStrictModelStructure}). 
 
+Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
+
+
 =--
 
-Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
 This we now turn to in the section _[The stable model structure on structured spectra](#MonoidalStableModelStructure)_.
 
@@ -6953,7 +6968,13 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 +-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Proposition
 
-The [[symmetric monoidal smash product of spectra]] $\wedge_{\mathbb{S}_{dia}}$ on $\mathbb{S}_{dia} Mod$, def. \ref{SymmetricSmashProductOfDiagramSpectra} satisfies the [[pushout-product axiom]] with respect to the stable model structure $\mathbb{S}_{dia} Mod$ of theorem \ref{StableModelStructuresOnDiagramSpectra}.
+The stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+
+$$
+  (\mathbb{S}_{dia}Mod_{stable},\; \wedge = \otimes_{\mathbb{S}_{dia}},\; \mathbb{S}_{dia}  )
+  \,.
+$$
+
 
 =--
 
@@ -6962,12 +6983,28 @@ The [[symmetric monoidal smash product of spectra]] $\wedge_{\mathbb{S}_{dia}}$ 
 +-- {: .proof}
 ###### Proof
 
-That the pushout product of two stable cofibrations is again a stable cofibration is the content of lemma \ref{PushoutSmashProductOfStableCofibsIsStableCofib}. It remains to show that if at least one of them is a stanble equivalence, def. \ref{StableEquivalencesForDiagramSpectra}, then so is the pushout-product.
+That the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+It remains to show that if at least one of them is a [[stable weak homotopy equivalence]] (def. \ref{StableOrthStructureClassesOfMorphisms}), then so is the pushout-product.
+
 That follows with a laborious argument using the above lemmas (...).
 
 =--
 
 (...)
+
+#### Higher algebra
+
+
+[[!include homological and higher algebra -- table]]
+
+(...)
+
+Examples:
+
+[[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
+
+(...)
+
 
 
 
@@ -7012,14 +7049,18 @@ The $\mathbb{S}$-model structure on orthogonal spectra:
 
 The relevant theory of monoids in [[monoidal model categories]] is due to
 
+* {#Hovey99} [[Mark Hovey]], chapter 4 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf))
+
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014 
 
 * {#SchwedeShipley00} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
-
 
 
 The analogous [[model structure on symmetric spectra]] is due to
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
+See also
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
