@@ -6447,7 +6447,7 @@ First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J
 
 Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
 
-To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 99, p.46](#May99)): 
+To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 02, p.46](#May02)): 
 
 First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. This implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that its pushout along $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so $k_n \Box i_+$ is by [[two-out-of-three]].
 
@@ -6941,9 +6941,10 @@ is a [[homotopy pullback]] (and hence by stability also a [[homotopy pushout]]).
 
 The [[model structure on orthogonal spectra]] is due to
 
-* {#May99} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Memoirs of the AMS 2002  ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
-
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _[[Model categories of diagram spectra]]_,   Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
+
+* {#May02} [[Michael Mandell]], [[Peter May]], _Equivariant orthogonal spectra and S-modules_, Memoirs of the AMS 2002  ([pdf](http://www.math.uiuc.edu/K-theory/0408/MMM.pdf))
+
 
 following the [[model structure on symmetric spectra]] in
 
