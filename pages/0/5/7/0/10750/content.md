@@ -4660,6 +4660,15 @@ Let $Dia \in \{Top^{\ast/}_{fin}, Orth, Sym, Seq\}$ be any one of the four diagr
     \,.
   $$
 
+In particular the structured [[sphere spectrum]] is the free spectrum in degree 0 on the [[0-sphere]]:
+
+$$
+  \mathbb{S}_{dia}
+  \simeq
+  F_0^{dia} S^0
+  \,.
+$$
+
 =--
 
 ([Hovey-Shipley-Smith 00, below def. 2.2.5](#HoveyShipleySmith00), [MMSS00, p. 7 with theorem 2.2](#MMSS00))
@@ -4716,6 +4725,23 @@ $$
 The first is the characteristic isomorphism of [[tensoring]] from prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}, while the second is the [[enriched Yoneda lemma]] of prop. \ref{YonedaReductionTopological}.
 
 From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
+
+For the last statement it is sufficient to observe that $y(0) = y(S^0)$ is the [[tensor unit]] under [[Day convolution]] by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}, so that
+
+$$
+  \begin{aligned}
+    F_0^{dia} S^0
+    & =
+    \mathbb{S}_{dia} \otimes_{Day} y(0) \wedge S^0
+    \\
+    & \simeq
+    \mathbb{S}_{dia} \otimes y(S^0)
+    \\
+    & \simeq
+    \mathbb{S}_{dia}
+  \end{aligned}
+  \,.
+$$
 
 =--
 
@@ -4837,10 +4863,10 @@ $$
   \,.
 $$
 
-Hence the [[suspension spectrum]] functor is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
+Hence the structured [[suspension spectrum]] functor is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor}) from [[pointed topological spaces]] equipped with the [[smash product]] of pointed objects, to [[structured spectra]] equipped with the [[symmetric monoidal smash product of spectra]]
 
 $$
-  \Sigma^\infty
+  \Sigma_{dia}^\infty
    \;\colon\;
   (Top^{\ast/}_{cg},\wedge, S^0)
     \longrightarrow
@@ -6378,10 +6404,29 @@ But by the commuting squares that $\alpha^L$ sits in by the construction above, 
 =--
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #MonoidalStrictModelStructure}
 ###### Theorem
 
-Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory}).
+The [[classical model structure on pointed topological spaces]] equipped with the [[smash product]] is a [[monoidal model category]]
+
+$$
+  ((Top^{\ast/}_{cg})_{Quillen}, \wedge, S^0)
+  \,.
+$$
+
+Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures on [[structured spectra]] modeled on $Dia$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]]  (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+
+$$
+  \left(
+    \mathbb{S}_{dia}Mod_{strict},\;
+    \wedge = \otimes_{\mathbb{S}_{dia}}
+    ,\;
+    \mathbb{S}_{dia}
+  \right)
+  \,.
+$$
+
+
 
 =--
 
@@ -6391,12 +6436,50 @@ Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\
 +-- {: .proof}
 ###### Proof
 
-As in the proof of [this proposition](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof) it is sufficient to check that pushout-product axiom on genrating (acylic) cofibration. These are of the form $F_n (i_k)_+$ and $F_n (j_k)_+$. By prop. \ref{SmashProductOfFreeSpectra} these satisfy
+By cofibrant generation of both model structures ([this theorem](Introduction+to+Stable+homotopy+theory+--+P#CofibrantGenerationOfPointedTopologicalSpaces) and prop. \ref{CofibrantGenerationOfStrictModelStructure}) it is sufficient to check the [[pushout-product axiom]] on generating (acylic) cofibrations (this is as in the proof of [this proposition](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof)). 
+
+Those of $Top^{\ast/}_{cg}$ are as recalled in def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}. These satisfy ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductOfITopwithITopAndJTop)) the relations
 
 $$
-  F_{n_1} (i_{k_1})_+ \; \Box \; F_{n_2} (i_{k_2})_+
+  i_{k_1} \Box i_{k_2} = i_{k_1 + k_2}
+$$ 
+
+and
+
+$$
+  i_{k_1} \Box j_{k_2} = j_{k_1 + k_2}
+  \,.
+$$
+
+This shows that 
+
+$$
+  I_{Top^{\ast/}} 
+    \Box_{\otimes_{\mathbb{S}_{dia}}} 
+  I_{Top^{\ast/}} 
+    \subset 
+  I_{Top^{\ast/}} 
+$$
+
+and 
+
+$$
+  I_{Top^{\ast/}} 
+    \Box_{\otimes_{\mathbb{S}_{dia}}} 
+  J_{Top^{\ast/}} 
+    \subset 
+  J_{Top^{\ast/}} 
+$$
+
+which implies the [[pushout-product axiom]] for $Top^{\ast/}_{cg}$. (However the [[monoid axiom]] (def.\ref{MonoidAxiom}) is problematic.)
+
+
+Now by def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} the generating (acyclic) cofibrations of $\mathbb{S}_{dia}Mod_{strict}$ are of the form $F^{dia}_n (i_k)_+$ and $F^{dia}_n (j_k)_+$, respectively. By prop. \ref{SmashProductOfFreeSpectra} these satisfy
+
+$$
+  F_{n_1} (i_{k_1})_+ \; \Box_{\wedge} \; F_{n_2} (i_{k_2})_+
   \;\simeq\;
-  F_{n_1 + n_2} ( i_{k_1} \Box i_{k_2} )_+
+  F_{n_1 + n_2} ( i_{k_1} \Box_{\wedge} i_{k_2} )_+
 $$
 
 and
@@ -6408,21 +6491,37 @@ $$
   \,.
 $$
 
-But $i_{k_1} \Box i_{k_2} = i_{k_1 + k_2}$ and $i_{k_1} \Box j_{k_2} = j_{k_1 + k_2}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductOfITopwithITopAndJTop)).
-
-This shows that 
+Hence with the previous set of relations this shows that
 
 $$
-  F I_+ \Box F_{I_+} \subset F_{I_+}
+  I^{strict}_{dia} 
+    \Box_{\otimes_{\mathbb{S}_{dia}}} 
+  I^{strict}_{dia} 
+    \subset 
+  I^{strict}_{dia}
 $$
 
 and 
 
 $$
-  F_{I_+} \Box F_{J_+} \subset F_{J_+}
+  I^{strict}_{dia} 
+    \Box_{\otimes_{\mathbb{S}_{dia}}} 
+  J^{strict}_{dia} 
+    \subset 
+  J^{strict}_{dia}
 $$
 
-and so the claim follows.
+and so the [[pushout-product axiom]] follows also for 
+$\mathbb{S}_{dia}Mod_{strict}$.
+
+It is clear that in both cases the [[tensor unit]] is cofibrant: for $Top^{\ast/}_{cg}$ the tensor unit is the [[0-sphere]], which clearly is a [[CW-complex]] and hence cofibrant. For $\mathbb{S}_{dia}Mod$ the tensor unit is the standard [[sphere spectrum]], which, by prop. \ref{ExplicitExpressionForFreeSpectra} is the [[free structured spectrum]] (def. \ref{FreeStructuredSpectrum}) on the 0-sphere
+
+$$
+  \mathbb{S}_{dia} \simeq F^{dia}_0(S^0)
+  \,.
+$$
+
+Now the free structured spectrum functor is a left Quillen functor (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) and hence $\mathbb{S}_{dia}$ is cofibrant.
 
 
 =--
@@ -6433,10 +6532,16 @@ and so the claim follows.
 
 ##### Suspension and looping
 
+For the strict [[model structure on topological sequential spectra]], forming [[suspension spectra]] consitutes a [[Quillen adjunction]] $(\Sigma^\infty \dashv \Omega^\infty)$ with the [[classical model structure on pointed topological spaces]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityIsQuillenOnStrictModelStructureOnSequential)) which is the precursor of the [[stabilization]] adjunction involving the [[stable model category|stable model structure]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). Here we briefly discuss the lift of this strict adjunction to [[structured spectra]].
+
+
+
 +-- {: .num_prop #SuspensionSpectrumStructuredStrictQuillenAdjunction}
 ###### Proposition
 
-For every $n \in \mathbb{N}$, the functors of extracting the $n$th component space of a structured spectrum, and of forming the [[free structured spectrum]] in degree $n$ (def. \ref{FreeStructuredSpectrum}) constitute a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)):
+Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ be one of the shapes of structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}.
+
+For every $n \in \mathbb{N}$, the functors $Ev^{dia}_n$ of extracting the $n$th component space of a structured spectrum, and the functors $F_n^{dia}$ of forming the [[free structured spectrum]] in degree $n$ (def. \ref{FreeStructuredSpectrum}) constitute a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)):
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
@@ -6448,7 +6553,7 @@ $$
   \,.
 $$
 
-In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a [[Quillen adjunction]]
+In particular for $n = 0$ and writing $\Sigma_{dia}^\infty \coloneqq F^{dia}_0$ and $\Omega_{dia}^\infty \coloneqq Ev^{dia}_0$ this yields a [[Quillen adjunction]]
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
@@ -6460,7 +6565,7 @@ $$
   \,.
 $$
 
-Moreover, Quillen adjunctions factor as
+Moreover, these Quillen adjunctions factor as
 
 $$
   (\Sigma^\infty_{dia}
@@ -6480,24 +6585,77 @@ $$
    (Top^{\ast/}_{cg})
 $$
 
-where the Quillen adjunction $(seq_! \dashv seq^\ast)$ is that from theorem \ref{StrictModelStructureOnDiagramSpectra} and where $(\Sigma^\infty \dashv \Omega^\infty)$ is the suspension spectrum adjunction for sequential spectra (prop. \ref{Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}).
+where the Quillen adjunction $(seq_! \dashv seq^\ast)$ is that from theorem \ref{StrictModelStructureOnDiagramSpectra} and where $(\Sigma^\infty \dashv \Omega^\infty)$ is the suspension spectrum adjunction for sequential spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SigmaInfinityIsQuillenOnStrictModelStructureOnSequential)).
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the very definition of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)) it is immediate that $\Omega^\infty$ preserves fibrations and weak equivalences, hence it is a right Quillen functor. $F_n$ is its left adjoint by definition.
+By the very definition of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)) it is immediate that $Ev_n^{dia}$ preserves fibrations and weak equivalences, hence it is a right Quillen functor. $F^{dia}_n$ is its left adjoint by definition.
+
+Moreover, it is clear from the definitions that 
+
+$$
+  \Omega^\infty_{dia} \simeq \Omega^\infty \circ seq^\ast
+  \,,
+$$
+
+hence the last statement follows by uniqueness of adjoints.
 
 =--
 
++-- {: .num_remark #SummarySituationForStrictModelStructure}
+###### Remark
 
+In summary we have so far established the following situation. There is a [[commuting diagram]] of [[Quillen adjunctions]] of the form
+
+$$
+  \array{
+    (Top^{\ast/}_{cg})_{Quillen}
+      &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+      &
+    (Top^{\ast/}_{cg})_{Quillen}
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+      &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}} 
+    \\
+    SeqSpec(Top_{cg})_{strict}
+     &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+    SeqSpec(Top_{cg})_{strict}
+    \\       
+    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
+      &&
+    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
+    \\
+    \mathbb{S}_{dia}Mod_{strict}
+      &&
+    \mathbb{S}_{dia}Mod_{strict}
+  }
+  \,.
+$$
+
+Moreover, we know already that the top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal functor]] (prop. \ref{SmashProductOfFreeSpectra}) left Quillen (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) between [[monoidal model categories]] (theorem \ref{MonoidalStrictModelStructure}). 
+
+=--
+
+Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
+
+This we now turn to in the section _[The stable model structure on structured spectra](#MonoidalStableModelStructure)_.
 
 
 #### The stable model structure on structured spectra
  {#MonoidalStableModelStructure}
-
-
 
 
 
