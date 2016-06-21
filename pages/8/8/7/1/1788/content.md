@@ -1,28 +1,30 @@
 $$
   \array{
-    ((X \otimes_{Day} Y) \otimes_{Day} Z)(c)
-     &\simeq&
-     \overset{c_1,c_2, c_3}{\int}
-     \mathcal{C}((c_1 \otimes c_2) \otimes c_3)
-     \wedge
-    ((X(c_1) \wedge Y(c_2)) \wedge Z(c_3))
+    \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
+    \mathcal{C}
     \\
-    {}^{\mathllap{
-      \alpha^{Day}_{X,Y,Z}
-    }}\downarrow 
-      && 
-    \downarrow^{\mathrlap{
-      \overset{c_1,c_2,c_3}{\int}
-       \mathcal{C}( \alpha^{\mathcal{C}}_{c_1,c_2,c_3} , c )
-        \wedge
-       \alpha^{Top^{\ast/}_{cg}}_{X(c_1), X(c_2), X(c_3)}
-    }}
-   \\
-   (X \otimes_{Day} (Y \otimes_{Day} Z) )(c)
-   &\simeq&
-    \overset{c_1, c_2, c_3}{\int}
-     \mathcal{C}(c_1\otimes  ( c_2 \otimes  c_3), c ) 
-       \wedge  
-     (X(c_1) \wedge (Y(c_2) \wedge Z(c_3)))   
+    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
+      &\swArrow&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\,,\;\;\;\;\;
+  \array{
+    \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
+    \mathcal{C}
+    \\
+    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
+      &\swArrow&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
+    Ho(\mathcal{C})
   }
 $$
+
