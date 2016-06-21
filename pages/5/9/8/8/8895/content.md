@@ -126,50 +126,10 @@ More details are spelled out in
 
 * {#Harpaz12} [[Yonatan Harpaz]], _Quasi-unital $\infty$-Categories_ ([arXiv:1210.0212](http://arxiv.org/abs/1210.0212))
  
+See also
 
-$\,$
+* {#Tanaka16} [[Hiro Lee Tanaka]], _Functors (between $\infty$-categories) that aren't strictly unital_ ([arXiv:1606.05669](http://arxiv.org/abs/1606.05669))
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 [[!redirects semiSegal space]]
 [[!redirects semi Segal space]]
