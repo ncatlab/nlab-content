@@ -326,6 +326,11 @@ and hence with the top sequence here being exact, so is the bottom sequence.
 
 * [[James Milne]], section 16 of _[[Lectures on Étale Cohomology]]_
 
+Formalization in [[homotopy type theory]] is discussed in
+
+* {#Brunerie16} [[Guillaume Brunerie]], _On the homotopy groups of spheres in homotopy type theory_ ([arXiv:1606.05916](http://arxiv.org/abs/1606.05916))
+
+
 [[!redirects Thom-Gysin sequences]]
 
 [[!redirects Thom-Gysin exact sequence]]
