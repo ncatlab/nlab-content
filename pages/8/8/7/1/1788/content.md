@@ -1,25 +1,34 @@
 $$
   \array{
-    (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-    &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
-    ( \gamma(X) \otimes^L ( \gamma(Y) \otimes^L \gamma(Z) )  )
+    (Top^{\ast/}_{cg})_{Quillen}
+      &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+      &
+    (Top^{\ast/}_{cg})_{Quillen}
     \\
-    {}^{\mathllap{
-      \gamma((p_X \otimes p_Y) \otimes p_Z) 
-      \circ 
-      \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
-    }}
-    \downarrow
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
       &&
-    \downarrow^{\mathrlap{
-      \gamma(p_X \otimes (p_Y \otimes p_Z)) 
-      \circ 
-      \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
-    }}
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}} 
     \\
-    \gamma( (X\otimes Y) \otimes Z )
-      &\underset{\gamma( \alpha_{X,Y,Z} )}{\longrightarrow}&
-    \gamma( X \otimes (Y \otimes Z) )
+    SeqSpec(Top_{cg})_{strict}
+     &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+    SeqSpec(Top_{cg})_{strict}
+    \\       
+    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
+      &&
+    {}^{\mathllap{dia_!}}\downarrow \dashv \uparrow^{\mathrlap{dia^\ast}}
+    \\
+    \mathbb{S}_{dia}Mod_{strict}
+      &&
+    \mathbb{S}_{dia}Mod_{strict}
   }
   \,.
 $$
