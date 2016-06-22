@@ -147,8 +147,10 @@ Under mild conditions on $C$ the model structure on monoids in $C$ is [[Quillen 
 
 ## References
 
-* [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
-{#SchwedeShipley}
+* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Algebras and modules in monoidal model categories_ Proc. London Math. Soc. (2000) 80(2): 491-511  ([pdf](http://www.math.uic.edu/~bshipley/monoidal.pdf)) 
+
+
+* {#White14} [[David White]], _Model Structures on Commutative Monoids in General Model Categories_ ([arXiv:1403.6759](http://arxiv.org/abs/1403.6759))
 
 [[!redirects model structure on monoids]]
 
