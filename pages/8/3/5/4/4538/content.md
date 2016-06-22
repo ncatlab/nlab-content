@@ -36,6 +36,7 @@ There is also a version of the theorem for Kasparov's [[KK-theory]], see the [re
 ### For ordinary cohomology
  {#InCohomology}
 
+#### In terms of homology
 
 Let $C_\bullet$ be a [[chain complex]] of  [[free abelian groups]]. Let $A$ be an arbitrary [[abelian group]]. 
 
@@ -278,6 +279,34 @@ $A_1 = Hom(Z_{n-1}, A)$, $A_2 = Hom(B_{n-1}, A)$, $A_3 = Hom(C_n/B_n,A)$.
 
 
 =--
+
+#### In terms of cohomology
+ {#UCTForOrdinaryCohomologyInTermsOfCohomology}
+
+There is also a UCT relating cohomology to cohomology:
+
+Let $A$ and $B$ be chain complexes of [[free modules]] over a [[ring]] $R$ which is a [[principal ideal domain]]. Let $N_1$ and $N_2$ be $R$-modules. Assume that
+
+1. $Tor_R(N_1,N_2) = 0$ (the [[Tor]] group of $N_1$ with $N_2$ vanishes);
+
+1. at least one of $H^\bullet(A,N_1)$ and $H^\bullet(B,N_2)$ is of [[finite type]]
+
+then there are [[short exact sequence]] of the form
+
+$$
+  0 
+    \to 
+  \underset{p+q = n}{\oplus} H^p(A,N_1) \otimes H^q(B,N_2)
+    \longrightarrow
+  H^n(A \otimes B, N_1 \otimes N_2)
+    \longrightarrow
+  Tor(H^\bullet(A,N_1), H^\bullet(A,N_2))
+   \to 
+  0
+$$
+
+([Spanier 66, section 5.5, theorem 11](#Spanier66))
+
 
 ### For ordinary homology
  {#InHomology}
@@ -711,6 +740,8 @@ $$
 ## References
 
 ### For ordinary (co)homology
+
+* {#Spanier66}[[Edwin Spanier]], section 5.5 of _Algebraic topology_, 1966
 
 An exposition of the universal coefficient theorem for ordinary cohomology and homology is in section 3.1 of
 
