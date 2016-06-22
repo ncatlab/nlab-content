@@ -185,6 +185,8 @@ This is about understanding the absolute base space [[Spec(S)]] by [[covering]] 
 
 * [[Adams category]]
 
+> There is much to love in his book, but not in the foundational part on CW spectra. ([[Peter May]], [MO comment](http://math.stackexchange.com/a/53783/58526))
+
 ### 4. Smash products
 
 * [[smash product of spectra]]
