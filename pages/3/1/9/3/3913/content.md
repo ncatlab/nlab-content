@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -291,6 +292,35 @@ Prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} induces on the [[Thom spec
 
 =--
 
+### CW-structure
+
+If the base space of the vector bundle carries the structure of a [[CW-complex]], then its Thom space (def. \ref{ThomSpace}) canonically inherits the structure of a CW-complex, too
+
+Let $V \to X$ be a [[vector bundle]] of [[rank]] $n \geq 1$. over a [[CW-complex]] $X$.
+
+Then $Th(V)$ has the structure of a [[CW-complex]] with 
+
+1. $S(E)/S(E)$ the only 0-cell 
+
+1. precisely one $(n+k)$-cell $D^{k+n}\to Th(V)$ for each $k$-cell $D^k \to X$ of $X$, given as the [[pullback]]
+   
+   $$
+     \array{
+       D^{k+n} &\longrightarrow& D(V) &\longrightarrow& D(V)/S(V) = Th(V)
+       \\
+       \downarrow &(pb)& \downarrow
+       \\
+       D^k &\longrightarrow& X
+     }
+     \,.
+   $$
+
+(e.g. [Cruz 04, lemma 6](#Cruz04))
+
+In particular, $Th(V)$ has a single $n$-cell and an $(n+1)$-cell for each 1-cell of $X$.  There are no cells in $Th(C)$ between dimension $0$ and $n$. The cellular boundary of an $(n+1)$-cell is 0 if $V$ is orientable over the corresponding 1-cell of $X$, and it is twice the $n$-cell in the opposite case.  Thus $H^n(Th(V);\mathbb{Z})$ is $\mathbb Z$ if $V$ is orientable and $0$ if $V$ is non-orientable. In the orientable case a generator of $H^n(Th(V);{\mathbb Z})$ restricts to a generator of $H^n(S^n;\mathbb{Z})$ in the "fiber" $S^n$ of $Th(V)$ over the 0-cell of $X$, hence the same is true for all the "fibers" $S^n$ and so one has a [[Thom class]].
+
+([MO discussion](http://mathoverflow.net/a/107864/381))
+
 ### Cohomology
 
 +-- {: .num_remark #OrdinaryCohomologyOfThomSpaceInLowDegree}
@@ -364,11 +394,13 @@ For general discussion see
 
 * myyn.org [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
 
-Also
+See also
 
 * [[Robert Stong]], _Notes on cobordism theory_ , Princeton Univ. Press  (1968)
 
 * W.B. Browder, _Surgery on simply-connected manifolds_ , Springer  (1972)
+
+* {#Cruz04} Martin Vito Cruz, _An introduction to cobordism_, 2004 ([pdf](https://math.berkeley.edu/~hutching/teach/215b-2004/vitocruz.pdf))
 
 [[!redirects Thom spaces]]
 
