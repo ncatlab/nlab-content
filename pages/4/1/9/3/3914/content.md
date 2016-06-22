@@ -366,6 +366,8 @@ has as components the restrictions $i^\ast \xi_n$ appearing in def. \ref{EOrient
 
 Let $E$ be a [[E-∞ ring]] [[spectrum]]. Write $\mathbb{S}$ for the [[sphere spectrum]].
 
+For the following see also May,Sigurdsson: _[[Parametrized Homotopy Theory]]_ ([MO comment](http://mathoverflow.net/a/107837/381))
+
 #### $GL_1(R)$-principal $\infty$-bundles
 
 Write $R^\times$ or $GL_1(R)$ for the [[general linear group]] of the $E_\infty$-ring $R$: it is the subspace of the degree-0 space $\Omega^\infty R$ on those points that map to multiplicatively invertible elements in the ordinary ring $\pi_0(R)$.
