@@ -24,7 +24,7 @@ An ideal $A$ (on either side) must be a [[subsemigroup]] of $S$, but it is a [[s
 
 ### Ideals forming a quantale 
 
-(Two-sided) ideals of a monoid $A$ are frequently the elements of a [[quantale]] whose multiplication is called taking the *product of ideals*. In the classical case of ideals over a [[ring]] $R$, the product $I J$ of ideals $I, J \subseteq R$ is the smallest ideal containing all products $i j: i \in I, j \in J$; the sup-lattice of such ideals ordered by inclusion is a [[residuated lattice]], in that there also division operations where 
+(Two-sided) ideals of a monoid $A$ are frequently the elements of a [[quantale]] whose multiplication is called taking the *product of ideals*. In the classical case of ideals over a [[ring]] $R$, the product $I J$ of ideals $I, J \subseteq R$ is the smallest ideal containing all products $i j: i \in I, j \in J$; the sup-lattice of such ideals ordered by inclusion is a [[residuated lattice]], in that there are also division operations where 
 
 $$K/J \coloneqq \{r \in R: r J \subseteq K\}; \qquad I\backslash K = \{r \in R: I r \subseteq K\}$$ 
 
