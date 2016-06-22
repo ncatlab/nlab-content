@@ -19,3 +19,5 @@ $$
    Ho(\mathcal{C})
    }
 $$
+
+$$p \mid q$$
