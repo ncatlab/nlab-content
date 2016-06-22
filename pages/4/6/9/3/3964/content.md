@@ -256,7 +256,7 @@ Conversely, if $D$ is pointed and $u$ is a sieve, then by Lemma \ref{SieveRel}, 
 
 The functors $u^!$ and $u^?$ are sometimes referred to as *extraordinary* and *co-extraordinary inverse image* functors.  Our proof shows that $u^? = u^* p_! v_*$, where $v$ and $p$ are respectively the inclusion of $B$ in the codirected mapping cylinder of $B\setminus A \hookrightarrow B$, and its projection to $B$.
 
-In the literature, the existence of these functors is often taken as the definition of when a derivator is pointed.  The equivalence of the two definitions is a "super-difficult" excercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
+In the literature, the existence of these functors is often taken as the definition of when a derivator is pointed.  The equivalence of the two definitions is a "super-difficult" exercise in [Maltsionitis' notes](http://people.math.jussieu.fr/~maltsin/Seville/Lecture_III_Derivators.pdf).
 
 
 ### Loop and suspension
