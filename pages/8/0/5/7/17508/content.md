@@ -16,3 +16,6 @@ The concept of [[localization]] of a category for the case of [[monoidal categor
 * {#Day73} [[Brian Day]], _Note on monoidal localisation_, Bull. Austr. Math. Soc. Vol 8 (1973) ([[DayMonoidalLocaization73.pdf:file]])
 
 [[!redirects monoidal localizations]]
+
+[[!redirects monoidal localisation]]
+[[!redirects monoidal localisations]]
