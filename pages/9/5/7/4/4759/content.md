@@ -334,6 +334,9 @@ For [[Conner-Floyd Chern classes]] in [[complex oriented cohomology theory]]:
 
 [[!redirects Chern classes]]
 
+[[!redirects universal Chern class]]
+[[!redirects universal Chern classes]]
+
 [[!redirects second Chern class]] 
 
 [[!redirects Chern root]]
