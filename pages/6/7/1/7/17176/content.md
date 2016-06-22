@@ -44,6 +44,11 @@ Comments on the historical development are in
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, preamble of  _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics, 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
 
+in the spirit of
+
+> There is much to love in [[Stable homotopy and generalised homology|Adams'  book]], but not in the foundational part on CW spectra. ([[Peter May]], [MO comment](http://math.stackexchange.com/a/53783/58526))
+
+
 More recent textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 3.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
