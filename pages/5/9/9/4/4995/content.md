@@ -1119,7 +1119,7 @@ For $\mathbf{H} = $ [[∞Grpd]] ("discrete cohesion", see [below](#DiscreteInfin
 #### Simplicial objects in a cohesive $(\infty,1)$-topos
  {#SimplicialObjctsInACohesiveTopos}
 
-For $\mathbf{H}$ a cohesive $(\infty.1)$-topos its [[category of simplicial objects|(∞,1)-category of simplicial objects]] $\mathbf{H}^{\Delta^{op}}$ is cohesive over $\mathbf{H}$
+For $\mathbf{H}$ a cohesive $(\infty,1)$-topos its [[category of simplicial objects|(∞,1)-category of simplicial objects]] $\mathbf{H}^{\Delta^{op}}$ is cohesive over $\mathbf{H}$
 
 $$
   \mathbf{H}^{\Delta^{op}}
