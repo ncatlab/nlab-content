@@ -4794,8 +4794,10 @@ $$
        \ast & otherwise
     }
   \right.
-  \,.
+  \,,
 $$
+
+where "$\wedge_G$" is as in example \ref{CoendGivesQuotientByDiagonalGroupAction}.
 
 
 =--
@@ -4839,6 +4841,97 @@ $$
 $$
 
 on the object $\mathbb{R}^{q-n}$ and then we applied example \ref{CoendGivesQuotientByDiagonalGroupAction}. The case of symmetric spectra is verbatim the same, with the symmetric group replacing the orthogonal group, and the case of sequential spectra is again verbatim the same, with the orthogonal group replaced by the trivial group.
+
+=--
+
++-- {: .num_lemma #S0FreeSpectraCellDegreewise}
+###### Lemma
+
+For $Dia \in \{ Orth, Sym, Seq\}$ the diagram shape for [[orthogonal spectra]], [[symmetric spectra]] or [[sequential spectra]], then the [[free structured spectra]] 
+
+$$
+  F^{dia}_n S^0
+  \simeq
+  \mathbb{S}_{dia}Mod
+$$
+
+from def. \ref{FreeStructuredSpectrum} have component spaces that admit the structure of [[CW-complexes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We consider the case of [[orthogonal spectra]]. The case of [[symmetric spectra]] works verbatim the same, and the case of [[sequential spectra]] is tivial.
+
+By prop. \ref{ExplicitFormOfFreeSpectra} we have to show that for all $q\leq n \in \mathbb{N}$ the topological spaces of the form
+
+$$
+  O(n)_+ \wedge_{O(n-q)} S^{n-q}
+  \;\;
+  \in Top^{\ast/}_{cg}
+$$
+
+admit the structure of CW-complexes. 
+
+To that end, observe that there is a [[homeomorphism]]
+
+$$
+  S^{n-q} \simeq D^{n-q}/\partial D^{n-q}
+$$
+
+which is a [[diffeomorphism]] away from the basepoint and hence such that the action of the [[orthongonal group]] $O(n-q)$ induces a smooth action on $D^{n-q}$ (which happens to be constant on $\partial D^{n-q}$).
+
+Also observe that we may think of the above quotient by the group action 
+
+$$
+  (x, g y) \simeq (x g , y)
+$$
+
+as being the quotient by the diagonal action
+
+$$
+  O(n-q) \times ( O(n)_+ \wedge S^{n-q} )
+    \longrightarrow 
+    (O(n)_+ \wedge S^{n-q})
+$$
+
+given by
+
+$$
+  (g, (x,y)) \mapsto (x g^{-1}, g y)
+  \,.
+$$
+
+Using this we may rewrite the space in question as
+
+$$
+  \begin{aligned}
+    (O(n)_+ \wedge_{O(n-q)} S^{n-q} )
+    & 
+    \simeq
+    ( O(n)_+ \wedge S^{n-q} )/ O(n-q)
+    \\
+    &\simeq
+    \frac{ O(n) \times D^{n-q} }{ O(n) \times \partial D^{n-q} } / O(n-q)
+    \\
+    & \simeq
+    \frac{ O(n) \times D^{n-q} }{ \partial( O(n) \times D^{n-q} ) } / O(n-q)
+    \\
+    & \simeq
+    \frac{ 
+      (O(n) \times D^{n-q})/ O(n-q)  
+    }{
+      (\partial(O(n)\times D^{n-q}))/O(n-q)
+    }
+  \end{aligned}
+  \,.
+$$
+
+Here $O(n)\times D^{n-q}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(n-q)$. Under these conditions ([Illmann 83, corollary 7.2](G-CW+complex#Illmann83)) states that $O(n) \times D^{n-q}$ admits the structure of a [[G-CW complex]] for $G = O(n-q)$, and moreover ([Illmann 83, line above theorem 7.1](G-CW+complex#Illmann83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
+
+Now the quotient of a $G$-CW complex by $G$ is a [[CW complex]], and so the last expression above exhibits the quotient of a CW-complex by a subcomplex, hence exhibits CW-complex structure.
+
 
 =--
 
@@ -6093,7 +6186,7 @@ Hence $\otimes^L$ exists.
 By the same decomposition and using the [[universal property]] of the [[localization]] of a category ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) one finds that for $\mathcal{C}$ and $\mathcal{D}$ any two [[categories with weak equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) then the [[localization]] of their [[product category]] is the product category of their localizations:
 
 $$
-  (\mathcal{C} \times \mathcal{D})[(W_{\mathcal{C}} \sqcup W_{\mathcal{D}})^{-1}]
+  (\mathcal{C} \times \mathcal{D})[(W_{\mathcal{C}} \times W_{\mathcal{D}})^{-1}]
   \simeq
   (\mathcal{C}[W^{-1}_{\mathcal{C}}])
   \times
@@ -6373,9 +6466,9 @@ Similarly for the right unitors.
 
 =--
 
-The restriction to cofibrant objects in prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory} serves the purpose of giving explicit expressions for the associators and unitors of the derived tensor product $\otimes^L$ and hence to establish the monoidal category structure $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ on the [[homotopy category of a monoidal model category|homotopy category]] of a [[monoidal model category]]. With that in hand, it is natural to ask how the localization functor on all of $\mathcal{C}$ interacts with the monoidal structure:
+The restriction to cofibrant objects in prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory} serves the purpose of giving explicit expressions for the associators and unitors of the derived tensor product $\otimes^L$ and hence to establish the monoidal category structure $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ on the [[homotopy category of a model category|homotopy category]] of a [[monoidal model category]]. With that in hand, it is natural to ask how the localization functor on all of $\mathcal{C}$ interacts with the monoidal structure:
 
-+-- {: .num_prop }
++-- {: .num_prop #LaxMonoidalLocalizationOfMonoidalModelCategory}
 ###### Proposition
 
 For $(\mathcal{C}, \otimes, 1)$ a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) then the [[localization]] functor to its monoidal [[homotopy category of a model category|homotopy category]] (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) is a [[lax monoidal functor]]
@@ -6391,7 +6484,9 @@ $$
  
 =--
 
-With that general monoidal homotopy theory established, we now discuss that structured spectra indeed constitute an example. The version of the following theorem for the stable model structure of actual interest is theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} further below.
+The explicit **proof** of prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory} is tedious. An abstract proof using tools from homotopical [[2-category theory]] is [here](monoidal+model+category#LocalizationFunctorIsLaxMonoidal).
+
+With some general monoidal homotopy theory established, we now discuss that structured spectra indeed constitute an example. The version of the following theorem for the stable model structure of actual interest is theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} further below.
 
 +-- {: .num_theorem #MonoidalStrictModelStructure}
 ###### Theorem
