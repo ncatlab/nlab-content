@@ -7185,7 +7185,7 @@ $$
   F_{n_1 + n_3 + 1} S^{n_4-1}_+ \wedge S^1 \wedge D^{n_2}_+
 $$
 
-is degreewise the smash product of a CW-complex with a relative cell complex inclusion, hence is itself degreewise a relative cell complex inclusion, and therefore its pushout
+is degreewise the smash product of a CW-complex with a [[relative cell complex]] inclusion, hence is itself degreewise a relative cell complex inclusion, and therefore its pushout
 
 $$
   F_{n+1 + n_3} S^{n_4-1}_+  \otimes  F_{n_1}S^0 \wedge S^{n_2-1}_+  
