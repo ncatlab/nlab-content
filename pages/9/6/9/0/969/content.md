@@ -155,6 +155,8 @@ Localization is especially well developed in abelian setup where several competi
     \,.
   $$
 
+  This is because localization is a [[reflector]] into the [[exponential ideal]] of minimal categories with weak equivalences.
+
 ## In higher category theory
 
 The notion of localization of a category has analogs in [[higher category theory]].
