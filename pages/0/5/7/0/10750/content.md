@@ -3862,7 +3862,8 @@ $$
 Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{SymmetricSpectrum}, then their **[[smash product of spectra]]** is the symmetric spectrum
 
 $$
-  X \wedge Y \in SymSpec(Top_{cg})
+  X \wedge Y 
+   \in SymSpec(Top_{cg})
 $$
 
 with component spaces the [[coequalizer]]
@@ -4414,7 +4415,7 @@ Since the top sequence is exact, and since all vertical morphisms are isomorphis
 +-- {: .num_lemma #SmashTensoringWithFiniteCellComplexPreservesSWHE}
 ###### Lemma
 
-For $K \in Top^{\ast/}_{cg,fin}$ a finite CW-complex (def. \ref{FinitePointedCWComplexes}) then the operation of smash tensoring $(-) \wedge K$ preserves [[stable weak homotopy equivalences]] in $\mathbb{S}_{dia}Mod$.
+For $K \in Top^{\ast/}_{cg,fin}$ a [[CW-complex]]  then the operation of smash tensoring $(-) \wedge K$ preserves [[stable weak homotopy equivalences]] in $\mathbb{S}_{dia}Mod$.
 
 =--
 
@@ -4422,6 +4423,8 @@ For $K \in Top^{\ast/}_{cg,fin}$ a finite CW-complex (def. \ref{FinitePointedCWC
 ###### Proof
 
 Since limits and colimits in the diagram category $\mathbb{S}_{dia}Mod$ are computed objectwise, the functor $seq^\ast$ that restricts $\mathbb{S}_{dia}$-modules to their underlying [[sequential spectra]] preserves both limits and colimits, and it also preserves smash tensoring. Hence it is sufficient to consider the statement for sequential spectra.
+
+Fist consider the case of a finite cell complex $K$.
 
 
 Write 
@@ -4514,6 +4517,8 @@ where the top and bottom are [[long exact sequences]] of [[stable homotopy group
 
 Now proceed by [[induction]]. For $i = 0$ then clearly smash tensoring with $K_0 = \ast$ preserves stable weak homotopy equivalences. So assume that smash tensoring with $K_i$ does, too. Observe that $(-)\wedge S^n$ preserves stable weak homotopy equivalences, since $\Sigma X[1]\to X$ is a stable weak homotopy equivalence ([lemma](Introduction+to+Stable+homotopy+theory+
 --+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Hence in the above the two vertical morphisms on the left and the two on the right are isomorphism. Now the [[five lemma]] implies that also $f \wedge K_{i+1}$ is an isomorphism. 
+
+Finally, the statement for a non-finite cell complex follows with these arguments and then using that spheres are [[compact topological spaces|compact]] and hence maps out of them into a [[transfinite composition]] factor through some finite stage ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)).
 
 =--
 
@@ -4851,7 +4856,7 @@ For $Dia \in \{ Orth, Sym, Seq\}$ the diagram shape for [[orthogonal spectra]], 
 
 $$
   F^{dia}_n S^0
-  \simeq
+  \in
   \mathbb{S}_{dia}Mod
 $$
 
@@ -4864,23 +4869,23 @@ from def. \ref{FreeStructuredSpectrum} have component spaces that admit the stru
 
 We consider the case of [[orthogonal spectra]]. The case of [[symmetric spectra]] works verbatim the same, and the case of [[sequential spectra]] is tivial.
 
-By prop. \ref{ExplicitFormOfFreeSpectra} we have to show that for all $q\leq n \in \mathbb{N}$ the topological spaces of the form
+By prop. \ref{ExplicitFormOfFreeSpectra} we have to show that for all $q \geq n \in \mathbb{N}$ the topological spaces of the form
 
 $$
-  O(n)_+ \wedge_{O(n-q)} S^{n-q}
+  O(q)_+ \wedge_{O(q-n)} S^{q-n}
   \;\;
   \in Top^{\ast/}_{cg}
 $$
 
 admit the structure of CW-complexes. 
 
-To that end, observe that there is a [[homeomorphism]]
+To that end, use the [[homeomorphism]]
 
 $$
-  S^{n-q} \simeq D^{n-q}/\partial D^{n-q}
+  S^{q-n} \simeq D^{q-n}/\partial D^{q-n}
 $$
 
-which is a [[diffeomorphism]] away from the basepoint and hence such that the action of the [[orthongonal group]] $O(n-q)$ induces a smooth action on $D^{n-q}$ (which happens to be constant on $\partial D^{n-q}$).
+which is a [[diffeomorphism]] away from the basepoint and hence such that the action of the [[orthogonal group]] $O(q-n)$ induces a smooth action on $D^{q-n}$ (which happens to be constant on $\partial D^{q-n}$).
 
 Also observe that we may think of the above quotient by the group action 
 
@@ -4891,9 +4896,9 @@ $$
 as being the quotient by the diagonal action
 
 $$
-  O(n-q) \times ( O(n)_+ \wedge S^{n-q} )
+  O(q-n) \times ( O(q)_+ \wedge S^{q-n} )
     \longrightarrow 
-    (O(n)_+ \wedge S^{n-q})
+  (O(q)_+ \wedge S^{q-n})
 $$
 
 given by
@@ -4907,28 +4912,28 @@ Using this we may rewrite the space in question as
 
 $$
   \begin{aligned}
-    (O(n)_+ \wedge_{O(n-q)} S^{n-q} )
+    (O(q)_+ \wedge_{O(q-n)} S^{q-n} )
     & 
     \simeq
-    ( O(n)_+ \wedge S^{n-q} )/ O(n-q)
+    ( O(q)_+ \wedge S^{q-n} )/ O(q-n)
     \\
     &\simeq
-    \frac{ O(n) \times D^{n-q} }{ O(n) \times \partial D^{n-q} } / O(n-q)
+    \frac{ O(q) \times D^{q-n} }{ O(q) \times \partial D^{q-n} } / O(q-n)
     \\
     & \simeq
-    \frac{ O(n) \times D^{n-q} }{ \partial( O(n) \times D^{n-q} ) } / O(n-q)
+    \frac{ O(q) \times D^{q-n} }{ \partial( O(q) \times D^{q-n} ) } / O(q-n)
     \\
     & \simeq
     \frac{ 
-      (O(n) \times D^{n-q})/ O(n-q)  
+      (O(q) \times D^{q-n})/ O(q-n)  
     }{
-      (\partial(O(n)\times D^{n-q}))/O(n-q)
+      (\partial(O(q)\times D^{q-n}))/O(q-n)
     }
   \end{aligned}
   \,.
 $$
 
-Here $O(n)\times D^{n-q}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(n-q)$. Under these conditions ([Illman 83, corollary 7.2](G-CW+complex#Illman83)) states that $O(n) \times D^{n-q}$ admits the structure of a [[G-CW complex]] for $G = O(n-q)$, and moreover ([Illman 83, line above theorem 7.1](G-CW+complex#Illman83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
+Here $O(q)\times D^{q-n}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(q-n)$. Under these conditions ([Illman 83, corollary 7.2](G-CW+complex#Illman83)) states that $O(q) \times D^{q-n}$ admits the structure of a [[G-CW complex]] for $G = O(q-n)$, and moreover ([Illman 83, line above theorem 7.1](G-CW+complex#Illman83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
 
 Now the quotient of a $G$-CW complex by $G$ is a [[CW complex]], and so the last expression above exhibits the quotient of a CW-complex by a subcomplex, hence exhibits CW-complex structure.
 
@@ -7047,7 +7052,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 +-- {: .num_theorem #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Theorem
 
-The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{OrthogonalSpectraStableModelStructure} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
 
 $$
   (\mathbb{S}_{dia}Mod_{stable},\; \wedge = \otimes_{\mathbb{S}_{dia}},\; \mathbb{S}_{dia}  )
@@ -7062,7 +7067,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since $Cof_{stable} = Cof_{strict}$, the fact the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+Since $Cof_{stable} = Cof_{strict}$, the fact that the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
 
 It remains to show that if at least one of them is a [[stable weak homotopy equivalence]] (def. \ref{StableOrthStructureClassesOfMorphisms}), then so is the pushout-product.
 
@@ -7098,28 +7103,120 @@ follows again from the monoidal stucture on the strict model category of theorem
 It hence remains to see that 
 
 $$
-  I^{strict} \Box_{\otimes} ( k_n \Box  i_+ )
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ )
+  \subset 
+  W_{stable} \cap Cof_{stable}
 $$
 
-(...)
+for all $n_1, n_2 \in \mathbb{N}$.
+
+By lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations} $k_n \Box i_+$ is in $Cof_{strict}$ and hence 
+
+$$
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ ) \subset Cof_{strict}
+$$
+
+follows, once more, from the monoidalness of the strict model structure.
+
+Hence it only remains to show that
+
+$$
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ )
+    \subset 
+  W_{stable}
+  \,.
+$$
+
+This we now prove by inspection:
+
+By [[two-out-of-three]] applied to the definition of the [[pushout product]], it is sufficient to show that for every $F_{n_3} (i_{n_4})_+$ in $I^{strict}$, the right vertical morphism in the pushout diagram
+
+$$
+  \array{
+    &\overset{F_{n_3}(i_{n_4})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+) }{\longrightarrow}&
+    \\
+    {}^{\mathllap{dom(F_{n_3}(i_{n_4})} \otimes (k_{n_1} \Box (i_{n_2})_+ )}
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    &\longrightarrow&
+  }
+$$
+
+is a stable weak homotopy equivalence. Since $seq^\ast$ preserves pushouts, we may equivalently check this on the underlying sequential spectra. 
+
+Consider first the top horizontal morphism in this square. 
+
+We may rewrite it as
+
+$$
+  \begin{aligned}
+    F_{n_3}(i_{n_4})_+ \otimes (dom(k_{n_1}) \Box (i_{n_2})_+  )
+      & \simeq
+    F_{n_3}(i_{n_4})_+  
+      \otimes 
+    \left(
+      F_{n_1}S^0 \wedge S^{n_2-1}_+ 
+        \underset{F_{n_1+1} S^1 \wedge S^{n_2-1}_+}{\sqcup}
+      F_{n_1+1}S^1 \wedge D^{n_2}_+
+    \right)
+    \\
+    & \simeq
+      F_{n_3}(i_{n_4})_+ \otimes F_{n_1}S^0 \wedge S^{n_2-1}_+ 
+        \underset{F_{n_3}(i_{n_4})_+\otimes F_{n_1+1} S^1 \wedge S^{n_2-1}_+}{\sqcup}
+      F_{n_3}(i_{n_4})_+\otimes F_{n_1+1}S^1 \wedge D^{n_2}_+
+    \\
+    & \simeq
+    F_{n_1+n_3} (i_{n_4})_+ \wedge S^{n_2-1}_+
+      \underset{F_{n_1+n_3+1} (i_{n_4})_+ \wedge S^{n_2-1}_+ }{\sqcup}
+    F_{n_1+n_3+1} (i_{n_4})_+ \wedge S^1 \wedge D^{n_2}_+
+  \end{aligned}
+  \,,
+$$
+
+where we used that $X \otimes (-)$ is a left adjoint and hence preserves colimits, and we used prop. \ref{SmashProductOfFreeSpectra} to evaluate the smash product of free spectra. 
+
+Now by lemma \ref{S0FreeSpectraCellDegreewise} the morphism 
+
+$$
+  F_{n_1 + n_3 + 1} S^{n_4-1}_+ \wedge S^1 \wedge S^{n_2-1}_+ 
+   \longrightarrow
+  F_{n_1 + n_3 + 1} S^{n_4-1}_+ \wedge S^1 \wedge D^{n_2}_+
+$$
+
+is degreewise the smash product of a CW-complex with a relative cell complex inclusion, hence is itself degreewise a relative cell complex inclusion, and therefore its pushout
+
+$$
+  F_{n+1 + n_3} S^{n_4-1}_+  \otimes  F_{n_1}S^0 \wedge S^{n_2-1}_+  
+    \longrightarrow
+  F_{n_3} (S^{n_4-1})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+)
+$$
+
+is degreewise a retract of a relative cell complex inclusion. But since it is the identity on the smash factor $S^{n_4-1}_+$ in the argument of the free spectra as above, the morphism is degreewise the smash tensoring with $S^{n_4-1}$ of a retract of a relative cell complex inclusion. Since the domain is degreewise a CW-complex by lemma \ref{S0FreeSpectraCellDegreewise}, $F_{n_3} (S^{n_4-1})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+)$ is degreewise the smash tensoring with $S^{n_4-1}_+$ of a retract of a cell complex.
+
+The same argument applies to the domain of $F_{n_3}(i_4)_+ \otimes (dom(k_n) \Box (i_2)_+)$, and so in conclusion this morphism is degreewise the smash product of a cofibration with a cofibrant object in $(Top^{\ast/}_{cg})_{Quillen}$, and hence is itself degreewise a cofibration.
+
+Now consider the vertical morphism in the above square
+
+The same argument that we just used shows that this is the smash tensoring of the stable weak homotopy equivalence $k_{n_1} \Box (i_{n_2})_+$ with a CW-complex. Hence by lemma \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE} the left vertical morphism is a stable weak homotopy equivalence.
+
+In conclusion, the right vertical morphism is the pushout of a stable weak homotopy equivalence along a degreewise cofibration of pointed topological spaces. Hence lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} implies that it is itself a stable weak homotopy equivalence.
 
 =--
+
 
 
 #### Higher algebra
  {#HigherAlgebra}
 
+(...)
 
 [[!include homological and higher algebra -- table]]
 
 (...)
 
-Examples:
-
-[[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
-
-(...)
-
+spring
 
 
 
@@ -7149,6 +7246,8 @@ with [[symmetric monoidal smash product of spectra]]
 The model structure on orthogonal spectra and its [[Quillen equivalence]] to the [[model structure on sequential spectra]], the [[model structure on symmetric spectra]] and the [[model structure on excisive functors]] is due to
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]],  _[[Model categories of diagram spectra]]_,   Proceedings of the London Mathematical Society Volume 82, Issue 2, 2000 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf), [publisher](http://plms.oxfordjournals.org/content/82/2/441.short?rss=1&ssource=mfc))
+
+> {#CaveatOnDefinitionOfStableWeakEquivalences} Caveat. In ([MMSS 00](#MMSS00)) the weak equivalences of the stable model structure are first defined to be the "stable equivalences", then the proof of the model structure is given in terms of these, and afterwards it is shown that for orthogonal spectra the "stable equivalences" coincide with the stable weak homotopy equivalences ($\pi_\bullet$-isomorphisms) that we use here. This approach makes the proof of lemma \ref{KInjectiveStableEquivalencesAreStrictEquivalences} involve a considerable detour (for the step where $F\to\ast$ is concluded to be a weak equivalence). On the other hand, in ([Mandell-May 02](#May02)) the weak equivalences are defined to be the stable weak homotopy equivalences ($\pi_\bullet$-isomorphisms) right away, and it is suggested that with this definition the proof of the stable (and monoidal) model structure proceeds in the same spirit as the proof in ([MMSS 00](#MMSS00)). It is this analogous proof that the [above](#MonoidalStableModelStructure) discussion means to give.
 
 The further Quillen equivalence to the [[model structure on S-modules]] is due to 
 
