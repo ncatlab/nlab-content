@@ -270,6 +270,7 @@ $$
 
 be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of three objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
+{#DerivedAssociatorFromUniversalPropertyOfLocalization}
 $$
   (\star)
   \;\;\;\;\;\;
