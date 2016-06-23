@@ -4810,7 +4810,7 @@ of its class of morphisms, such that
 
 =--
 
-+-- {: .num_prop} 
++-- {: .num_prop #CofibrantlyGeneratedModelCategoryLifting} 
 ###### Proposition
 
 For $\mathcal{C}$ a cofibrantly generated model category, def. \ref{CofibrantlyGeneratedModelCategory}, with generating (acylic) cofibrations $I$ ($J$), then its classes $W, Fib, Cof$ of weak equivalences, fibrations and cofibrations are equivalently expressed as [[injective or projective morphisms]] (def. \ref{LiftingAndExtension}) this way:
@@ -6644,8 +6644,8 @@ For $X \in (Top^{\ast/}_{cg})_{Quillen}$ cofibrant with respect to the [[classic
 $$
   (Top^{\ast/}_{cg})_{Quillen}
    \underoverset
-     \underset{(-)^X}{\longrightarrow}
-     \overset{X \times (-)}{\longleftarrow}
+     \underset{Maps(X,-)_\ast}{\longrightarrow}
+     \overset{X \wedge (-)}{\longleftarrow}
      {\bot}
   (Top^{\ast/}_{cg})_{Quillen}
   \,.
