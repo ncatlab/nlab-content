@@ -7043,9 +7043,45 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 =--
 
 
+##### Stability of the homotopy theory
 
++-- {: .num_theorem #SequentialSpectraQuillenEquivalence}
+###### Theorem
 
+The [[free-forgetful adjunction]] $(seq_! \dashv seq^\ast)$ of def. \ref{TopologicalDiagramCategoriesForSpectra} and theorem \ref{StrictModelStructureOnDiagramSpectra} is a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) between the stable [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) and the stable model structure on orthogonal spectra from theorem \ref{OrthogonalSpectraStableModelStructure}.
 
+$$
+  OrthSpec(Top_{cg})_{stable}
+    \underoverset
+      {\underset{seq^\ast}{\longrightarrow}}
+      {\overset{seq_!}{\longleftarrow}}
+      {\simeq_{Quillen}}
+  SeqSpec(Top_{cg})_{stable}
+$$
+
+=--
+
+([MMSS 00, theorem 10.4](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Since the [[forgetful functor]] $seq^\ast$ "creates weak equivalences", 
+in that a morphism of orthogonal spectra is a weak equivalence precisely if the underlying morphism of sequential spectra is (by def. \ref{StableOrthStructureClassesOfMorphisms}) it is sufficient to show (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#InCaseTheRightAdjointCreatesWeakEquivalences)) that for every cofibrant sequential spectrum $X$, the [[adjunction unit]]
+
+$$
+  X 
+    \longrightarrow
+  seq^\ast seq_! X
+$$
+
+is a [[stable weak homotopy equivalence]].
+
+Moreover, by [[cofibrantly generated model category|cofibrant generation]] of the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#AlternativeStableModelStructureOnSequentialSpectraIsModelCategory)) every cofibrant sequential spectrum is a [[retract]] of an $I_{seq}^{stable}$-[[relative cell complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable), [def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)).
+
+Now ...
+
+=--
 
 ##### Monoidal model structure
 
@@ -7215,8 +7251,6 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 [[!include homological and higher algebra -- table]]
 
 (...)
-
-spring
 
 
 
