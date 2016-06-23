@@ -140,6 +140,7 @@ Dorette Pronk has extended this idea to construct a [[bicategory of fractions|bi
 Localization is especially well developed in abelian setup where several competing formalisms and input data are used. See [[localization of an abelian category]]. 
 
 ## Properties
+ {#Properties}
 
 * The localization of the [[product category]] of two [[categories with weak equivalences]] is (if it exists) the product of their localizations
 
