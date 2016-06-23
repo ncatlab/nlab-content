@@ -4089,7 +4089,8 @@ $$
 Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{SymmetricSpectrum}, then their **[[smash product of spectra]]** is the symmetric spectrum
 
 $$
-  X \wedge Y \in SymSpec(Top_{cg})
+  X \wedge Y 
+   \in SymSpec(Top_{cg})
 $$
 
 with component spaces the [[coequalizer]]
@@ -4641,7 +4642,7 @@ Since the top sequence is exact, and since all vertical morphisms are isomorphis
 +-- {: .num_lemma #SmashTensoringWithFiniteCellComplexPreservesSWHE}
 ###### Lemma
 
-For $K \in Top^{\ast/}_{cg,fin}$ a finite CW-complex (def. \ref{FinitePointedCWComplexes}) then the operation of smash tensoring $(-) \wedge K$ preserves [[stable weak homotopy equivalences]] in $\mathbb{S}_{dia}Mod$.
+For $K \in Top^{\ast/}_{cg,fin}$ a [[CW-complex]]  then the operation of smash tensoring $(-) \wedge K$ preserves [[stable weak homotopy equivalences]] in $\mathbb{S}_{dia}Mod$.
 
 =--
 
@@ -4649,6 +4650,8 @@ For $K \in Top^{\ast/}_{cg,fin}$ a finite CW-complex (def. \ref{FinitePointedCWC
 ###### Proof
 
 Since limits and colimits in the diagram category $\mathbb{S}_{dia}Mod$ are computed objectwise, the functor $seq^\ast$ that restricts $\mathbb{S}_{dia}$-modules to their underlying [[sequential spectra]] preserves both limits and colimits, and it also preserves smash tensoring. Hence it is sufficient to consider the statement for sequential spectra.
+
+Fist consider the case of a finite cell complex $K$.
 
 
 Write 
@@ -4741,6 +4744,8 @@ where the top and bottom are [[long exact sequences]] of [[stable homotopy group
 
 Now proceed by [[induction]]. For $i = 0$ then clearly smash tensoring with $K_0 = \ast$ preserves stable weak homotopy equivalences. So assume that smash tensoring with $K_i$ does, too. Observe that $(-)\wedge S^n$ preserves stable weak homotopy equivalences, since $\Sigma X[1]\to X$ is a stable weak homotopy equivalence ([lemma](Introduction+to+Stable+homotopy+theory+
 --+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)). Hence in the above the two vertical morphisms on the left and the two on the right are isomorphism. Now the [[five lemma]] implies that also $f \wedge K_{i+1}$ is an isomorphism. 
+
+Finally, the statement for a non-finite cell complex follows with these arguments and then using that spheres are [[compact topological spaces|compact]] and hence maps out of them into a [[transfinite composition]] factor through some finite stage ([prop.](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)).
 
 =--
 
@@ -5021,8 +5026,10 @@ $$
        \ast & otherwise
     }
   \right.
-  \,.
+  \,,
 $$
+
+where "$\wedge_G$" is as in example \ref{CoendGivesQuotientByDiagonalGroupAction}.
 
 
 =--
@@ -5066,6 +5073,97 @@ $$
 $$
 
 on the object $\mathbb{R}^{q-n}$ and then we applied example \ref{CoendGivesQuotientByDiagonalGroupAction}. The case of symmetric spectra is verbatim the same, with the symmetric group replacing the orthogonal group, and the case of sequential spectra is again verbatim the same, with the orthogonal group replaced by the trivial group.
+
+=--
+
++-- {: .num_lemma #S0FreeSpectraCellDegreewise}
+###### Lemma
+
+For $Dia \in \{ Orth, Sym, Seq\}$ the diagram shape for [[orthogonal spectra]], [[symmetric spectra]] or [[sequential spectra]], then the [[free structured spectra]] 
+
+$$
+  F^{dia}_n S^0
+  \in
+  \mathbb{S}_{dia}Mod
+$$
+
+from def. \ref{FreeStructuredSpectrum} have component spaces that admit the structure of [[CW-complexes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We consider the case of [[orthogonal spectra]]. The case of [[symmetric spectra]] works verbatim the same, and the case of [[sequential spectra]] is tivial.
+
+By prop. \ref{ExplicitFormOfFreeSpectra} we have to show that for all $q \geq n \in \mathbb{N}$ the topological spaces of the form
+
+$$
+  O(q)_+ \wedge_{O(q-n)} S^{q-n}
+  \;\;
+  \in Top^{\ast/}_{cg}
+$$
+
+admit the structure of CW-complexes. 
+
+To that end, use the [[homeomorphism]]
+
+$$
+  S^{q-n} \simeq D^{q-n}/\partial D^{q-n}
+$$
+
+which is a [[diffeomorphism]] away from the basepoint and hence such that the action of the [[orthogonal group]] $O(q-n)$ induces a smooth action on $D^{q-n}$ (which happens to be constant on $\partial D^{q-n}$).
+
+Also observe that we may think of the above quotient by the group action 
+
+$$
+  (x, g y) \simeq (x g , y)
+$$
+
+as being the quotient by the diagonal action
+
+$$
+  O(q-n) \times ( O(q)_+ \wedge S^{q-n} )
+    \longrightarrow 
+  (O(q)_+ \wedge S^{q-n})
+$$
+
+given by
+
+$$
+  (g, (x,y)) \mapsto (x g^{-1}, g y)
+  \,.
+$$
+
+Using this we may rewrite the space in question as
+
+$$
+  \begin{aligned}
+    (O(q)_+ \wedge_{O(q-n)} S^{q-n} )
+    & 
+    \simeq
+    ( O(q)_+ \wedge S^{q-n} )/ O(q-n)
+    \\
+    &\simeq
+    \frac{ O(q) \times D^{q-n} }{ O(q) \times \partial D^{q-n} } / O(q-n)
+    \\
+    & \simeq
+    \frac{ O(q) \times D^{q-n} }{ \partial( O(q) \times D^{q-n} ) } / O(q-n)
+    \\
+    & \simeq
+    \frac{ 
+      (O(q) \times D^{q-n})/ O(q-n)  
+    }{
+      (\partial(O(q)\times D^{q-n}))/O(q-n)
+    }
+  \end{aligned}
+  \,.
+$$
+
+Here $O(q)\times D^{q-n}$ has the structure of a [[smooth manifold]] [[manifold with boundary|with boundary]] and equipped with a smooth [[action]] of the [[compact Lie group]] $O(q-n)$. Under these conditions ([Illman 83, corollary 7.2](G-CW+complex#Illman83)) states that $O(q) \times D^{q-n}$ admits the structure of a [[G-CW complex]] for $G = O(q-n)$, and moreover ([Illman 83, line above theorem 7.1](G-CW+complex#Illman83)) states that this may be chosen such that the boundary is a $G$-CW subcomplex.
+
+Now the quotient of a $G$-CW complex by $G$ is a [[CW complex]], and so the last expression above exhibits the quotient of a CW-complex by a subcomplex, hence exhibits CW-complex structure.
+
 
 =--
 
@@ -5366,7 +5464,7 @@ $$
 
 The maps $\lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0$  in def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are 
 
-1. [[stable weak homotopy equivalences]] for sequential spectra, symmetric spectra and pre-excisive functors, i.e. for ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
+1. [[stable weak homotopy equivalences]] for [[sequential spectra]], [[orthogonal spectra]] and [[pre-excisive functors]], i.e. for ${Dia} \in \{Top^{\ast/}, Orth, Seq\}$;
 
 1. **not** stable weak homotopy equivalences for the case of symmetric spectra ${Dia} = {Sym}$.
 
@@ -6241,24 +6339,12 @@ In particular if the [[tensor unit]] $1$ happens to be cofibrant, then the unit 
 
 
 
-+-- {: .num_defn #MonoidAxiom}
-###### Definition
-
-We say a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) satisfies the **[[monoid axiom]]**,  if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
-
-=--
-
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley00)).
-
-
 +-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
 ###### Proposition
 
 Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor unit]] $1$. 
 
-Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}).
-
-If in in addition $(\mathcal{C}, \otimes,1 )$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}), then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) carries the structure of a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+Then the [[left derived functor]] $\otimes^L$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors)) of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ (def. \ref{MonoidalCategory}) such that the [[localization]] functor $\gamma\colon \mathcal{C}_c\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) on the [[category of cofibrant objects]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FullSubcategoriesOfFibrantCofibrantObjects)) carries the structure of a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
 
 $$
   \gamma
@@ -6271,7 +6357,7 @@ $$
 
 =--
 
-The first statement is also in ([Hovey 99, theorem 4.3.2](#Hovey99)). The second is also in ([Schwede 12, theorem 3.1](#Schwede12)).
+The first statement is also for instance in ([Hovey 99, theorem 4.3.2](#Hovey99)). 
 
 +-- {: .proof}
 ###### Proof
@@ -6294,7 +6380,7 @@ $$
   \mathcal{C}_c \times \mathcal{C}_c
 $$
 
-of cofibrant objects preserves acyclic cofibrations ([[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
+of cofibrant objects preserves acyclic cofibrations (by [[Ken Brown's lemma]], [here](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)).
 
 Every morphism $(f,g)$ in the [[product category]] $\mathcal{C}_{c}\times \mathcal{C}_{c}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) may be written as a composite of a pairing with an identity morphisms
 
@@ -6332,7 +6418,7 @@ Hence $\otimes^L$ exists.
 By the same decomposition and using the [[universal property]] of the [[localization]] of a category ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) one finds that for $\mathcal{C}$ and $\mathcal{D}$ any two [[categories with weak equivalences]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)) then the [[localization]] of their [[product category]] is the product category of their localizations:
 
 $$
-  (\mathcal{C} \times \mathcal{D})[(W_{\mathcal{C}} \sqcup W_{\mathcal{D}})^{-1}]
+  (\mathcal{C} \times \mathcal{D})[(W_{\mathcal{C}} \times W_{\mathcal{D}})^{-1}]
   \simeq
   (\mathcal{C}[W^{-1}_{\mathcal{C}}])
   \times
@@ -6340,7 +6426,61 @@ $$
   \,.
 $$
 
-With this, the [[universal property]] as a [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) induces [[associators]]: Let 
+With this, the [[universal property]] as a [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) induces [[associators]] $\alpha^L$ and [[unitors]] $\ell^L$, $r^L$ on $(Ho(\mathcal{C}, \otimes^L ))$: 
+
+First consider the associators.
+
+The essential uniqueness of derived functors shows that the left derived functor of $(-)\otimes ( (-) \otimes (-) )$ and of $( (-) \otimes (-) )\otimes (-) $ is the composite of two applications of $\otimes^L$, due to the factorization
+
+$$
+  \array{
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+     &\overset{(-) \otimes ( (-) \otimes (-) )}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma \times \gamma \times \gamma}}\downarrow 
+      &\swArrow&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{\mathbb{L}((-) \otimes ( (-) \otimes (-) ))}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\;\;
+    \simeq
+  \;\;\;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+      \times
+    \mathcal{C}_c
+     &\overset{id \times \otimes}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{\otimes}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma \times \gamma \times \gamma}}\downarrow
+       &\swArrow_{id \times \mu^{-1}}&
+    {}^{\mathllap{\gamma \times \gamma}}\downarrow
+      &\swArrow_{\mu^{-1}}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{id \times \otimes^L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C}) 
+     &\underset{\otimes^L}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+$$
+
+and similarly for the case with the parenthesis to the left.
+
+So let
 
 $$
   \array{
@@ -6348,9 +6488,13 @@ $$
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{
+      \mathllap{
+         \gamma \times \gamma \times \gamma
+     }
+    }\downarrow
+      &\swArrow_{\mu^{-1}\cdot (\mu^{-1} \times id)}&
+    \downarrow^{\mathrlap{\gamma}}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
@@ -6362,9 +6506,12 @@ $$
       &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta'}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+      \gamma \times \gamma \times \gamma
+    }
+    }\downarrow
+      &\swArrow_{\mu^{-1}\cdot (id \times \mu^{-1})}&
+    \downarrow^{\mathrlap{\gamma  }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
@@ -6372,7 +6519,7 @@ $$
   }
 $$
 
-be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of two objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
+be the [[natural isomorphism]] exhibiting the [[derived functors]] of the two possible tensor products of three objects, as shown at the top. By pasting the second with the [[associator]] natural isomorphism of $\mathcal{C}$ we obtain another such factorization for the first, as shown on the left below,
 
 $$
   (\star)
@@ -6390,25 +6537,29 @@ $$
       &\overset{ (-) \otimes ( (-) \otimes (-) ) }{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_\eta&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+      \gamma \times \gamma \times \gamma
+    }}\downarrow
+      &\swArrow_{\mu^{-1} \cdot ( id \times \mu^{-1} )}&
+    \downarrow^{\mathrlap{ \gamma }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{ (-) \otimes^L ( (-) \otimes^L (-) )  }{\longrightarrow}&
     Ho(\mathcal{C})
   }
   \;\;\;\;\;\;
-  \simeq
+  =
   \;\;\;\;\;\;
   \array{
     \mathcal{C}_c \times \mathcal{C}_c \times \mathcal{C}_c
       &\overset{((-)\otimes(-))\otimes (-)}{\longrightarrow}&
     \mathcal{C}
     \\
-    {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C} \times \mathcal{C}}}}\downarrow
-      &\swArrow_{\eta'}&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
+    {}^{\mathllap{
+       \gamma \times \gamma \times \gamma
+     }}\downarrow
+      &\swArrow_{\mu^{-1}\cdot (id \times \mu)}&
+    \downarrow^{\mathrlap{\gamma }}
     \\
     Ho(\mathcal{C}) \times Ho(\mathcal{C}) \times Ho(\mathcal{C})
       &\overset{((-)\otimes^L(-))\otimes^L (-)}{\longrightarrow}&
@@ -6426,227 +6577,148 @@ $$
 
 and hence by the universal property of the factorization through the derived functor, there exists a unique natural isomorphism $\alpha^L$ such as to make this composite of natural isomorphisms equal to the one shown on the right. Hence the [[pentagon identity]] satisfied by $\alpha$ implies a pentagon identity for $\alpha^L$, and so $\alpha^L$ is an [[associator]] for $\otimes^L$.
 
-Now observe that the [[left derived functor]] of $1 \otimes (-)$ and of $(-) \otimes 1$ are naturally isomorphic to $\gamma(1) \otimes^L (-)$ and $(-) \otimes^L \gamma(1)$, respectively, due to the commuting diagrams
-
-$$
-  \array{
-    \{1\} &\overset{id}{\longrightarrow}& \{1\}
-    \\
-    \downarrow &\swArrow_{\ell_1^{-1}}& \downarrow
-    \\
-    \mathcal{C}_c &\overset{1\otimes (-)}{\longrightarrow}& \mathcal{C}
-    \\
-    {}^{(1,(-))}\downarrow
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{\otimes}{\longrightarrow}&
-    \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma}}\downarrow 
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma}}
-    \\
-    Ho(\mathcal{C})
-      &\underset{\mathbb{L}(1\otimes (-))}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-  \;\;\;\;\;\;\;\;
-   \simeq
-  \;\;\;\;\;\;\;\;
-  \array{
-    \{1\} &\overset{id}{\longrightarrow}& \{1\}
-    \\
-    \downarrow &\swArrow_{r_1^{-1}}& \downarrow
-    \\
-    \mathcal{C}_c &\overset{(-)\otimes 1}{\longrightarrow}& \mathcal{C}
-    \\
-    {}^{((-),1)}\downarrow
-      &&
-    \downarrow^{\mathrlap{id}}
-    \\
-    \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{\otimes}{\longrightarrow}&
-    \mathcal{C}
-    \\
-    {}^{\mathllap{\gamma}}\downarrow 
-      &\swArrow&
-    \downarrow^{\mathrlap{\gamma}}
-    \\
-    Ho(\mathcal{C})
-      &\underset{\mathbb{L}((-) \otimes 1)}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-  \,.
-$$
-
-Hence with $\gamma(1)$ taken as the [[tensor unit]] for $\otimes^L$, then the left and right [[unitors]] $\ell$ and $r$ for $\otimes$ induce left and right unitors $\ell^L$ and $r^L$ for $\otimes^L$, by the same kind of reasoning as for the associators above. 
-
-
-
-To exhibit lax monoidal structure on $\gamma$, we need to construct a [[natural transformation]]
-
-$$
-  \gamma(X) \otimes^L \gamma(Y) \longrightarrow \gamma(X \otimes Y)
-$$
-
-and show that it satisfies the the appropriate [[associativity]] and [[unitality]] condition.
-
-By the definitions at _[[homotopy category of a model category]]_ ([def.](Introduction+to+Stable+homotopy+theory+--+P#FibrantCofibrantReplacementFunctorToHomotopyCategory)), the morphism in question is to be of the form
-
-$$
-  (P Q X) \otimes (P Q Y) \longrightarrow P Q (X\otimes Y)
-$$
-
-for $P$ a chosen fibrant replacement functor and $Q$ a chosen cofibrant replacement functor.
-
-To this end, consider the [[zig-zag]]
-
-$$
-  (P Q X) \otimes (P Q Y)
-   \underoverset{\in Cof \cap W}{j_{Q X} \otimes P Q Y}{\longleftarrow}
-  (Q X) \otimes (P Q Y)
-    \underoverset{\in Cof \cap W}{(Q X) \otimes  j_{Q Y} }{\longleftarrow}
-  (Q X) \otimes (Q Y)
-    \overset{p_X \otimes (Q Y)}{\longrightarrow}
-  X \otimes (Q Y)
-    \overset{Y \otimes p_Y}{\longrightarrow}   
-  X \otimes Y
-  \,,
-$$
-
-and observe that the two morphisms on the left are weak equivalences, as indicated, by the [[pushout-product axiom]] satisfied by $\otimes$.
-
-Hence applying $\gamma$ to this zig-zag, which is given by the top horizontal part of the following digram
-
-$$
-  \array{
-    (P Q X) \otimes (P Q Y) 
-      &\longleftarrow& 
-    P( Q X \otimes Q Y ) 
-      &\longrightarrow& 
-    P Q (X \otimes Y)
-    \\
-    \uparrow^{\mathrlap{id}} 
-      && 
-    \uparrow^{\mathrlap{j_{Q X \otimes Q Y}}} 
-      && 
-    \uparrow^{\mathrlap{j_{Q(X \otimes Y)}}}
-    \\
-    \downarrow^{\mathrlap{id}} 
-      && 
-    \downarrow^{\mathrlap{id}} 
-      && 
-    \downarrow^{\mathrlap{p_{X\otimes Y}}}
-    \\
-    (P Q X) \otimes (P Q Y)
-      &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y}}{\longleftarrow}&
-    (Q X) \otimes (Q Y)
-      &\overset{p_X \otimes p_Y}{\longrightarrow}&
-    X \otimes Y
-  }
-  \,,
-$$
-
-and inverting the left horizontal morphism , this yields a natural transformation as required. 
-
-
-To see that this satisfies associativity if the monoid axiom holds, tensor the entire diagram above on the right with $(P Q Z)$ and consider the following [[pasting]] composite:
-
-$$
-  \array{
-    ((P Q X) \otimes (P Q Y)) \otimes (P Q Z) 
-      &\longleftarrow& 
-    P( Q X \otimes Q Y ) \otimes (P Q Z) 
-      &\longrightarrow& 
-    (P Q (X \otimes Y)) \otimes (P Q Z)
-    \\
-    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y} \otimes id }} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}\otimes id }}
-    \\
-    && && Q(X \otimes Y) \otimes (P Q Z) &\overset{id \otimes j_{Q Z}}{\longleftarrow}& Q(X\otimes Y) \otimes (Q Z)
-    \\
-       \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} 
-    && 
-      \downarrow^{\mathrlap{p_{(X\otimes Y)} \otimes id }} 
-    &(\star)& 
-     \downarrow^{\mathrlap{p_{(X \otimes Y)} \otimes id}}
-    \\
-    ((P Q X) \otimes (P Q Y)) \otimes (P Q Z)
-      &\underoverset{\in Cof \cap W}{(j_{Q X} \otimes j_{Q Y}) \otimes id}{\longleftarrow}&
-    ((Q X) \otimes (Q Y)) \otimes (P Q Z)
-      &\overset{(p_X \otimes p_Y) \otimes id}{\longrightarrow}&
-    (X \otimes Y) \otimes (P Q Z)
-      &\underset{id \otimes j_{Q Z}}{\longleftarrow}&
-    (X\otimes Y) \otimes Q Z 
-      &\overset{id \otimes p_Z}{\longrightarrow}& 
-    (X \otimes Y) \otimes Z  
-  }
-  \,,
-$$
-
-Now by the definition of the lax monoidal structure above, under $\gamma$ the total top+stair-case [[zig-zag]] in this diagram gives
-
-$$
-  (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-    \longrightarrow
-  \gamma(X\otimes Y)\otimes^L \gamma(Z)
-    \longrightarrow
-  \gamma((X\otimes Y)\otimes Z)
-  \,.
-$$
-
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}, but not in general by the [[pushout-product axiom]]!), the horizontal maps in the square in the bottom right (labeled $\star$), as well as the vertical morphism on the top right are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place (meaning that all morphisms going to the left are weak equivalences), and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
-
-$$
-  \gamma((p_X \otimes p_Y) \otimes p_Z) 
-  \circ 
-  \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
-  \,.
-$$
-
-Running the same argument but with the parenthesis ordered to the left gives the morphism
-
-$$
-  \gamma(p_X \otimes (p_Y \otimes p_Z)) 
-  \circ 
-  \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
-  \,.
-$$
-
-The associativity condition on a [[lax monoidal functor]] demands that together with the [[associator]] $\alpha$ of $\mathcal{C}$ and the derived associator $\alpha^L$ from above, these morphisms form a [[commuting square]] of the form
+Moreover, this equation of natural isomorphisms says that on components the following [[commuting diagram|diagram commutes]]
 
 $$
   \array{
     (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-    &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
-    ( \gamma(X) \otimes^L ( \gamma(Y) \otimes^L \gamma(Z) )  )
+     &\overset{\alpha^L_{\gamma(X), \gamma(Y), \gamma(Z)}}{\longrightarrow}&
+    \gamma(X) \otimes^L (\gamma(Y) \otimes^L \gamma(Z))
     \\
-    {}^{\mathllap{
-      \gamma((p_X \otimes p_Y) \otimes p_Z) 
-      \circ 
-      \gamma((j_{Q X} \otimes j_{Q Y}) \otimes j_{Q Z})^{-1}
-    }}
-    \downarrow
+    {}^{\mathllap{\mu^{-1}\cdot (\mu^{-1} \times id)}}\uparrow
       &&
-    \downarrow^{\mathrlap{
-      \gamma(p_X \otimes (p_Y \otimes p_Z)) 
-      \circ 
-      \gamma( j_{Q X} \otimes (j_{Q Y} \otimes j_{Q Z}))^{-1}
-    }}
+    \uparrow^{\mu^{-1} \cdot (id\times \mu^{-1})}
     \\
-    \gamma( (X\otimes Y) \otimes Z )
-      &\underset{\gamma( \alpha_{X,Y,Z} )}{\longrightarrow}&
-    \gamma( X \otimes (Y \otimes Z) )
+    \gamma( (X \otimes Y) \otimes Z )
+     &\underset{\gamma(\alpha)}{\longrightarrow}&
+   \gamma(X \otimes (Y \otimes Z))
   }
   \,.
 $$
 
-By the proof ([here](Introduction+to+Stable+homotopy+theory+--+P#ProofOfUniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the universal property of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) the vertical morphisms here are precisely the components of the natural isomorphisms $\eta$ and $\eta'$ above. With this, the above square is a component of the equality of pastings of natural isomorphisms in equation $(\star)$ above.
+This is just the [[coherence law]] for the the compatibility of the [[monoidal functor]] $\mu$ with the associators.
+
+Similarly consider now the [[unitors]]. 
+
+The essential uniqueness of the derived functors gives that the left derived functor of $1\otimes (-)$ is $\gamma(1)\otimes^L (-)$
+
+$$
+  \array{
+    \mathcal{C}_c 
+      &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{\mathbb{L}(1 \otimes (-))}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\simeq
+  \;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      &\overset{(1,id)}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+     &\overset{\otimes}{\longrightarrow}&
+   \mathcal{C}
+   \\
+   {}^{\mathllap{\gamma}}\downarrow
+     &&
+   {}^{\mathllap{\gamma \times \gamma}}\downarrow
+     &\swArrow_{\mu^{-1}}&
+   \downarrow^{\mathrlap{\gamma}}
+   \\
+   Ho(\mathcal{C})
+     &\underset{(\gamma(1),id)}{\longrightarrow}&
+   Ho(\mathcal{C}) \times Ho(\mathcal{C})
+     &\underset{\otimes^L}{\longrightarrow}&
+   Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+Hence the left unitor $\ell$ of $\mathcal{C}$ induces a derived unitor $\ell^L$ by the following factorization
+
+$$
+  \array{
+    \mathcal{C}_c
+       &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &\swArrow_{\ell}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    \mathcal{C}_c
+      &\overset{id}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\underset{id}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;\;\;
+  =
+  \;\;\;\;\;\;\;
+  \array{
+    \mathcal{C}_c
+      &\overset{1 \otimes (-)}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{\gamma}}\downarrow
+      &\swArrow_{\mu^{-1}_{1,(-)}}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      &\overset{\gamma(1) \otimes^L (-)}{\longrightarrow}&
+    Ho(\mathcal{C})
+    \\
+    {}^{\mathllap{=}}\downarrow 
+      &\swArrow_{\ell^L}&
+    \downarrow^{\mathrlap{=}}
+    \\
+    Ho(\mathcal{C})
+     &\underset{id}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+Moreover, in components this equation of natural isomorphism expresses the coherence law stating the compatibility of the monoidal functor $\mu$ with the unitors.
+
+Similarly for the right unitors.
 
 
 =--
 
+The restriction to cofibrant objects in prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory} serves the purpose of giving explicit expressions for the associators and unitors of the derived tensor product $\otimes^L$ and hence to establish the monoidal category structure $(Ho(\mathcal{C}), \otimes^L, \gamma(1))$ on the [[homotopy category of a model category|homotopy category]] of a [[monoidal model category]]. With that in hand, it is natural to ask how the localization functor on all of $\mathcal{C}$ interacts with the monoidal structure:
+
++-- {: .num_prop #LaxMonoidalLocalizationOfMonoidalModelCategory}
+###### Proposition
+
+For $(\mathcal{C}, \otimes, 1)$ a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) then the [[localization]] functor to its monoidal [[homotopy category of a model category|homotopy category]] (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) is a [[lax monoidal functor]]
+
+$$
+  \gamma
+   \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (Ho(\mathcal{C}), \otimes^L, \gamma(1))
+  \,.
+$$
+ 
+=--
+
+The explicit **proof** of prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory} is tedious. An abstract proof using tools from homotopical [[2-category theory]] is [here](monoidal+model+category#LocalizationFunctorIsLaxMonoidal).
+
+With some general monoidal homotopy theory established, we now discuss that structured spectra indeed constitute an example. The version of the following theorem for the stable model structure of actual interest is theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} further below.
 
 +-- {: .num_theorem #MonoidalStrictModelStructure}
 ###### Theorem
@@ -6916,7 +6988,7 @@ The category $OrthSpec(Top_{cg})$ of [[orthogonal spectra]] carries a [[model ca
 
 * the fibrant objects are precisely the [[Omega-spectra]] (def. \ref{StableOrthStructureClassesOfMorphisms}).
 
-Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations given in def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
+Moreover, this is a [[cofibrantly generated model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantlyGeneratedModelCategory)) with generating (acyclic) cofibrations the sets $I^{stable}$ ($J^{stable}$) from def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}.
 
 =--
 
@@ -6964,7 +7036,7 @@ The factorization in def. \ref{ResolutionOfCorepresentationOfAdjunctsOfStructure
 
 
 Since the cell $S^1$ is cofibrant in $(Top^{\ast/}_{cg})_{Quillen}$, and since $F_{n+1}(-)$ is a left Quillen functor by prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction},
-the free spectrum $F_{n+1}S^1$ is cofibrant in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$. Therefore lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} says that its standard [[cylinder spectrum]] is a good [[cylinder object]] and then the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) says that $k_n$ is a cofibraton. Moreover, the morphism out of the standard mapping cylinder is a homotopy equivalence, with homotopies induced under tensoring from the standard homotopy contracting the standard cylinder.
+the free spectrum $F_{n+1}S^1$ is cofibrant in $\mathbb{S}_{dia}Mod(Top_{cg})_{strict}$. Therefore lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} says that its standard [[cylinder spectrum]] is a good [[cylinder object]] and then the [[factorization lemma]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)) says that $k_n$ is a cofibration. Moreover, the morphism out of the standard mapping cylinder is a homotopy equivalence, with homotopies induced under tensoring from the standard homotopy contracting the standard cylinder.
 
 
 =--
@@ -6999,7 +7071,7 @@ for the [[disjoint union]] of the strict acyclic generating cofibration with the
 
 =--
 
-([MMSS 00, def. 9.3](#MMSS00))
+([MMSS 00, def.6.2, def. 9.3](#MMSS00))
 
 
 +-- {: .num_lemma #ElementsOfKAreStableEquivalencesAndStrictCofibrations}
@@ -7017,13 +7089,21 @@ $ (def. \ref{StableGeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra})
 +-- {: .proof}
 ###### Proof 
 
-First regarding strict cofibrations: By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+First regarding strict cofibrations: 
 
-Regarding stable weak homotopy equivalences: The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
+By the [[Yoneda lemma]], the elements in $J$ have [[right lifting property]] against the strict fibrations, hence in particular they are strict cofibrations. Moreover, by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)), $k_n \Box i_+$ has left lifting against any acyclic strict fibration $f$ precisely if $k_n$ has left lifting against $f^{\Box i}$. By prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} the latter is still a strict acyclic fibration. Since $k_n$ by construction is a strict cofibration, the lifting follows and hence also $k_n \Box i_+$ is a strict cofibration.
+
+Now regarding stable weak homotopy equivalences: 
+
+The morphisms in $J^{strict}$ by design are strict weak equivalences, hence they are in particular stable weak homotopy equivalences. The morphisms $k_n$ are stable weak homotopy equivalences by lemma \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} and by [[two-out-of-three]].
 
 To see that also the pushout products $k_n \Box (i_n)_+$ are stable weak homotopy equivalences. (e.g. [Mandell-May 02, p.46](#May02)): 
 
-First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. This implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that its pushout along $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so $k_n \Box i_+$ is by [[two-out-of-three]].
+First $k_n \wedge (S^{n-1})_+$ is still a stable weak homotopy equivalence, by lemma. \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE}. 
+
+Moreover, observe that $dom(k_n)\wedge i_+$ is degreewise a [[relative cell complex]] inclusion, hence degreewise a cofibration in the [[classical model structure on pointed topological spaces]]. This follows from lemma \ref{S0FreeSpectraCellDegreewise}, which says that $dom(k_n) \wedge i_+$ is degreewise the [[smash product]] of a [[CW complex]] with $i_+$, and from the fact that smashing with CW-complexes is a left Quillen functor $(Top^{\ast/}_{cg})_{Quillen} \longrightarrow (Top^{\ast/}_{cg})_{Quillen}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#HomProductAdjunctionForCofibrantObjectInPointedTopCGIsQuillen)) and hence preserves cofibrations.
+
+Altogether this implies by lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} that the  pushout of the stable weak homotopy equivalence $k_n \wedge (S^{n-1})_+$ along the degreewise cofibration $dom(k_n)\wedge i_+$ is still a stable weak homtopy equivalence, and so the pushout product $k_n \Box i_+$ is, too, by [[two-out-of-three]].
 
 
 =--
@@ -7190,16 +7270,115 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 =--
 
 
+##### Stability of the homotopy theory
 
++-- {: .num_theorem #SequentialSpectraQuillenEquivalence}
+###### Theorem
 
+The [[free-forgetful adjunction]] $(seq_! \dashv seq^\ast)$ of def. \ref{TopologicalDiagramCategoriesForSpectra} and theorem \ref{StrictModelStructureOnDiagramSpectra} is a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) between the stable [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) and the stable model structure on orthogonal spectra from theorem \ref{OrthogonalSpectraStableModelStructure}.
 
+$$
+  OrthSpec(Top_{cg})_{stable}
+    \underoverset
+      {\underset{seq^\ast}{\longrightarrow}}
+      {\overset{seq_!}{\longleftarrow}}
+      {\simeq_{Quillen}}
+  SeqSpec(Top_{cg})_{stable}
+$$
+
+=--
+
+([MMSS 00, theorem 10.4](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Since the [[forgetful functor]] $seq^\ast$ "creates weak equivalences", 
+in that a morphism of orthogonal spectra is a weak equivalence precisely if the underlying morphism of sequential spectra is (by def. \ref{StableOrthStructureClassesOfMorphisms}) it is sufficient to show (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#InCaseTheRightAdjointCreatesWeakEquivalences)) that for every cofibrant sequential spectrum $X$, the [[adjunction unit]]
+
+$$
+  X 
+    \longrightarrow
+  seq^\ast seq_! X
+$$
+
+is a [[stable weak homotopy equivalence]].
+
+By [[cofibrantly generated model category|cofibrant generation]] of the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#AlternativeStableModelStructureOnSequentialSpectraIsModelCategory)) every cofibrant sequential spectrum is a [[retract]] of an $I_{seq}^{stable}$-[[relative cell complex]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GeneratingAndGeneratingAcyclicCofibrationsForSeqSpecStable), [def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicalCellComplex)), where
+
+$$
+  I^{stable}_{seq}
+  \;=\;
+  \left\{
+    F_{n_1} S^{n_2-1}_+
+      \overset{F_{n_1} (i_{n_2})_+ }{\longrightarrow}
+    F_{n_1} D^{n_2}_+
+  \right\}
+  \,.
+$$
+
+Since $seq_!$ and $seq^\ast$ both preserve [[colimits]] ($seq^\ast$ because it evaluates at objects and colimits in the diagram category $OrthSpec$ are computed objectwise, and $seq_!$ because it is a [[left adjoint]]) we have for $X \simeq \underset{\longrightarrow}{\lim}_i X_i$ a relative $I^{stable}_{seq}$-decompositon of $X$, that $\eta_X \colon X \to seq^\ast seq_! X$ is equivalently
+
+$$
+  \underset{\longrightarrow}{\lim}_i \eta_{X_i}
+   \;\colon\;
+  \underset{\longrightarrow}{\lim}_i X_i
+    \longrightarrow
+  \underset{\longrightarrow}{\lim}_i seq_! seq^\ast X_i
+  \,.
+$$
+
+Now observe that the colimits involved in a relative $I^{stable}_{seq}$-complex (the [[coproducts]], [[pushouts]], [[transfinite compositions]]) are all [[homotopy colimits]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftDerivedFunctorOfColimitFunctor)): First, all objects involved are cofibrant. Now for the transfinite composition all the morphisms involved are cofibrations, so that their colimit is a homotopy colimit by [this example](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnNSequencesOfTopologicalSpaces), while for the pushout one of the morphisms out of the "top" objects is a cofibration, so that this is a [[homotopy pushout]] by ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyPullback)).
+
+It follows that if all $\eta_{X_i}$ are weak equivalences, then so is $\eta = \underset{\longrightarrow}{\lim}_i \eta_{X_i}$.
+
+Unwinding this, one finds that it is sufficient to show that 
+
+$$
+  \eta_{F_{n_1} S^{n_2}}
+  \;\colon\;
+  F_{n_1} S^{n_2}_+  
+    \longrightarrow
+  seq^\ast seq_! F_{n_1} S^{n_2}
+$$
+
+is a stable weak homotopy equivalence for all $n_1, n_2 \in \mathbb{N}$.
+
+Consider this for $n_2 \geq n_2$. Then there are canonical morphisms
+
+$$
+  F_{n_1} S^{n_2} \longrightarrow F_{0} S^{n_2-n_1} 
+$$
+
+whose components in degree $q \geq n_1$ are the identity. These are the composites of the maps $\lambda_k \wedge S^{k+n_2-n_1}$ for $k \lt n_1$ with $\lambda_n$ from def. \reg{CorepresentationOfAdjunctsOfStructureMaps}. By prop. \ref{AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences} also $seq^\ast seq_! \lambda_n$ are weak homotopy equivalences. Hence we have [[commuting diagrams]] of the form
+
+$$
+  \array{
+    F^{seq}_{n_1} S^{n_2} &\longrightarrow& F_0 S^{n_2-n_1}
+    \\
+    {}^{\mathllap{\eta}}\downarrow
+    &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    seq^\ast F^{orth}_{n_1}S^{n_2-n_1} 
+      &\longrightarrow&
+    seq^\ast F_0^{orth} S^{n_2-n_1}
+  }
+  \,,
+$$
+
+where the horizontal maps are stable weak homotopy equivalences by the previous argument and the right vertical morphism is an isomorphism by the formula in prop. \ref{ExplicitFormOfFreeSpectra}.Hence the left vertical morphism is a stable weak homotopy equivalence by [[two-out-of-three]].
+
+If $n_2 \lt n_1$ then one reduces this to the above case by smashing with $S^{n_1-n_2}$.
+
+=--
 
 ##### Monoidal model structure
 
-+-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
-###### Proposition
++-- {: .num_theorem #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
+###### Theorem
 
-The stable model structure of theorem \ref{StableModelStructuresOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+The stable model structure $OrthSpec(Top_{cg})_{stable}$ of theorem \ref{OrthogonalSpectraStableModelStructure} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
 
 $$
   (\mathbb{S}_{dia}Mod_{stable},\; \wedge = \otimes_{\mathbb{S}_{dia}},\; \mathbb{S}_{dia}  )
@@ -7214,28 +7393,155 @@ $$
 +-- {: .proof}
 ###### Proof
 
-That the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+Since $Cof_{stable} = Cof_{strict}$, the fact that the pushout product of two stable cofibrations is again a stable cofibration is part of theorem \ref{MonoidalStrictModelStructure}.
+
 It remains to show that if at least one of them is a [[stable weak homotopy equivalence]] (def. \ref{StableOrthStructureClassesOfMorphisms}), then so is the pushout-product.
 
-That follows with a laborious argument using the above lemmas (...).
+Since $OrthSpec(Top_{cg})$ is a [[cofibrantly generated model category]] by theorem \ref{OrthogonalSpectraStableModelStructure} and since it has [[internal homs]] ([[mapping spectra]]) with respect to $\otimes_{\mathbb{S}_{dia}}$ (prop. \ref{DayMonoidalStructureIsClosed}), it suffices (as in the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof)) to check this on generating (acylic) cofibrations, i.e. to check that
+
+$$
+  I^{stable}
+    \Box_{\otimes}
+  J^{stable}
+    \subset 
+  W_{stable} \cap Cof_{stable}
+  \,.
+$$
+
+Now $I^{\stable} = I^{strict}$ and  $J^{stable} = J^{strict} \sqcup \{ k_n \Box i_+\}$ so that the special case
+
+$$
+  \begin{aligned}
+    I^{stable} \Box_{\otimes} J^{strict} 
+    &=
+    I^{strict} \Box_{\otimes} J^{strict}
+    \\
+      &\subset 
+     W_{strict}\cap Cof_{strict}
+     \\
+      & \subset 
+     W_{stable} \cap Cof_{stable}
+  \end{aligned}
+$$
+
+follows again from the monoidal stucture on the strict model category of theorem \ref{MonoidalStrictModelStructure}.
+
+It hence remains to see that 
+
+$$
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ )
+  \subset 
+  W_{stable} \cap Cof_{stable}
+$$
+
+for all $n_1, n_2 \in \mathbb{N}$.
+
+By lemma \ref{ElementsOfKAreStableEquivalencesAndStrictCofibrations} $k_n \Box i_+$ is in $Cof_{strict}$ and hence 
+
+$$
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ ) \subset Cof_{strict}
+$$
+
+follows, once more, from the monoidalness of the strict model structure.
+
+Hence it only remains to show that
+
+$$
+  I^{strict} \Box_{\otimes} ( k_{n_1} \Box  (i_{n_2})_+ )
+    \subset 
+  W_{stable}
+  \,.
+$$
+
+This we now prove by inspection:
+
+By [[two-out-of-three]] applied to the definition of the [[pushout product]], it is sufficient to show that for every $F_{n_3} (i_{n_4})_+$ in $I^{strict}$, the right vertical morphism in the pushout diagram
+
+$$
+  \array{
+    &\overset{F_{n_3}(i_{n_4})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+) }{\longrightarrow}&
+    \\
+    {}^{\mathllap{dom(F_{n_3}(i_{n_4})} \otimes (k_{n_1} \Box (i_{n_2})_+ )}
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    &\longrightarrow&
+  }
+$$
+
+is a stable weak homotopy equivalence. Since $seq^\ast$ preserves pushouts, we may equivalently check this on the underlying sequential spectra. 
+
+Consider first the top horizontal morphism in this square. 
+
+We may rewrite it as
+
+$$
+  \begin{aligned}
+    F_{n_3}(i_{n_4})_+ \otimes (dom(k_{n_1}) \Box (i_{n_2})_+  )
+      & \simeq
+    F_{n_3}(i_{n_4})_+  
+      \otimes 
+    \left(
+      F_{n_1}S^0 \wedge S^{n_2-1}_+ 
+        \underset{F_{n_1+1} S^1 \wedge S^{n_2-1}_+}{\sqcup}
+      F_{n_1+1}S^1 \wedge D^{n_2}_+
+    \right)
+    \\
+    & \simeq
+      F_{n_3}(i_{n_4})_+ \otimes F_{n_1}S^0 \wedge S^{n_2-1}_+ 
+        \underset{F_{n_3}(i_{n_4})_+\otimes F_{n_1+1} S^1 \wedge S^{n_2-1}_+}{\sqcup}
+      F_{n_3}(i_{n_4})_+\otimes F_{n_1+1}S^1 \wedge D^{n_2}_+
+    \\
+    & \simeq
+    F_{n_1+n_3} (i_{n_4})_+ \wedge S^{n_2-1}_+
+      \underset{F_{n_1+n_3+1} (i_{n_4})_+ \wedge S^{n_2-1}_+ }{\sqcup}
+    F_{n_1+n_3+1} (i_{n_4})_+ \wedge S^1 \wedge D^{n_2}_+
+  \end{aligned}
+  \,,
+$$
+
+where we used that $X \otimes (-)$ is a left adjoint and hence preserves colimits, and we used prop. \ref{SmashProductOfFreeSpectra} to evaluate the smash product of free spectra. 
+
+Now by lemma \ref{S0FreeSpectraCellDegreewise} the morphism 
+
+$$
+  F_{n_1 + n_3 + 1} S^{n_4-1}_+ \wedge S^1 \wedge S^{n_2-1}_+ 
+   \longrightarrow
+  F_{n_1 + n_3 + 1} S^{n_4-1}_+ \wedge S^1 \wedge D^{n_2}_+
+$$
+
+is degreewise the smash product of a CW-complex with a [[relative cell complex]] inclusion, hence is itself degreewise a relative cell complex inclusion, and therefore its pushout
+
+$$
+  F_{n+1 + n_3} S^{n_4-1}_+  \otimes  F_{n_1}S^0 \wedge S^{n_2-1}_+  
+    \longrightarrow
+  F_{n_3} (S^{n_4-1})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+)
+$$
+
+is degreewise a retract of a relative cell complex inclusion. But since it is the identity on the smash factor $S^{n_4-1}_+$ in the argument of the free spectra as above, the morphism is degreewise the smash tensoring with $S^{n_4-1}$ of a retract of a relative cell complex inclusion. Since the domain is degreewise a CW-complex by lemma \ref{S0FreeSpectraCellDegreewise}, $F_{n_3} (S^{n_4-1})_+ \otimes dom(k_{n_1} \Box (i_{n_2})_+)$ is degreewise the smash tensoring with $S^{n_4-1}_+$ of a retract of a cell complex.
+
+The same argument applies to the domain of $F_{n_3}(i_4)_+ \otimes (dom(k_n) \Box (i_2)_+)$, and so in conclusion this morphism is degreewise the smash product of a cofibration with a cofibrant object in $(Top^{\ast/}_{cg})_{Quillen}$, and hence is itself degreewise a cofibration.
+
+Now consider the vertical morphism in the above square
+
+The same argument that we just used shows that this is the smash tensoring of the stable weak homotopy equivalence $k_{n_1} \Box (i_{n_2})_+$ with a CW-complex. Hence by lemma \ref{SmashTensoringWithFiniteCellComplexPreservesSWHE} the left vertical morphism is a stable weak homotopy equivalence.
+
+In conclusion, the right vertical morphism is the pushout of a stable weak homotopy equivalence along a degreewise cofibration of pointed topological spaces. Hence lemma \ref{PushoutOfSWHEAlongDegreewiseCofibration} implies that it is itself a stable weak homotopy equivalence.
 
 =--
 
-(...)
+
 
 #### Higher algebra
  {#HigherAlgebra}
 
+(...)
 
 [[!include homological and higher algebra -- table]]
 
 (...)
 
-Examples:
-
-[[HA]], [[KO]], [[KU]], [[MO]], ... [[MU]] ([[BP]]), [[S]]
-
-(...)
 
 
 ## References
