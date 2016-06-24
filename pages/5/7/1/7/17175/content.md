@@ -39,6 +39,11 @@ More recent textbook and lecture notes include
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
+Some more details are spelled out in 
+
+* {#Pedrotti16} [[Riccardo Pedrotti]], prop. 3.1.14 of _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
+
+
 
 [[!redirects Conner-Floyd Chern classes]]
 
