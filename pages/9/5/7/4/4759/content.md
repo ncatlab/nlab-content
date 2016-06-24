@@ -273,7 +273,7 @@ $$
   B i \;\colon\; B U(1)^n \to B U(n)
 $$
 
-for the induced map of [[deloopings]]/[[classifying spaces]], then the $k$-universal Chern class $c_k \in H^{2k}(B U(n), \mathbb{Z})$ is uniquely characterized by the fact that its pullbacl to $B U(1)^n$ is the $k$th [[elementary symmetric polynomial]] $\sigma_k$ applied to these first Chern classes:
+for the induced map of [[deloopings]]/[[classifying spaces]], then the $k$-universal Chern class $c_k \in H^{2k}(B U(n), \mathbb{Z})$ is uniquely characterized by the fact that its pullback to $B U(1)^n$ is the $k$th [[elementary symmetric polynomial]] $\sigma_k$ applied to these first Chern classes:
 
 $$
  (B i)^\ast (c_k) = \sigma_k(x_1, \cdots, x_n)
