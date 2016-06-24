@@ -19,19 +19,21 @@
 
 ## Idea
 
-A graded algebra is an associative algebra with a labelling on its elements by elements of some monoid or group, and such that the multiplication in the algebra is reflected in the multiplication in the labelling group. 
+A _graded algebra_ is an [[associative algebra]] which is with a labelling on its elements by elements of some [[monoid]] or [[group]], and such that the multiplication in the algebra is reflected in the multiplication in the labelling group. 
 
 ## Definition
 
-Let $G$ be a [[group]].  (Often $G$ will be abelian, and, in fact, one usually takes by default $G = \mathbb{Z}$ the additive group of [[integer]]s, in which case the actual group being used is omitted from the terminology and notation.)
+Let $G$ be a [[group]].  (Often $G$ will be abelian, and, in fact, one usually takes by default $G = \mathbb{Z}$ the additive group of [[integers]], in which case the actual group being used is omitted from the terminology and notation.)
 
 A **graded ring** is a [[ring]] $R$ equipped with a decomposition of the underlying [[abelian group]] as a [[direct sum]] $R = \oplus_{g \in G} R_g$ such that the product takes $R_{g} \times R_{g'} \to R_{g g'}$.
 
 Analogously there is the notion of graded $k$-[[associative algebra]] over any commutative ring $k$.
 
-Specifically for $k$ a [[field]] a **graded algebra** is a [[monoid]] internal to [[graded vector space]]s.
+Specifically for $k$ a [[field]] a **graded algebra** is a [[monoid in a monoidal category|monoid in]] [[graded vector spaces]] over $k$.
 
-A [[differential graded algebra]] is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, dependig on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complex]]es.
+An $\mathbb{N}$-graded algebra is called _connected_ if in degree-0 it is just the ground ring
+
+A [[differential graded algebra]] is a graded algebra $A$ equipped with a [[derivation]] $d : A\to A$ of degree +1 (or -1, dependig on conventions) and such that $d \circ d = 0$. This is the same as a [[monoid]] in the category of [[chain complexes]].
 
 
 ## Properties
@@ -71,8 +73,14 @@ given on basis elements, by $k$-linearity.
 
 The [[Lazard ring]], carrying the universal (1-dimensional, commutative) [[formal group law]] is naturally an $\mathbb{N}$-graded ring.
 
+## References
+
+* Ken Brown, Paul Gilmartin, James J. Zhang, _Connected (graded) Hopf algebras_ ([arXiv:1601.06687](http://arxiv.org/abs/1601.06687))
 
 [[!redirects graded algebras]]
 
 [[!redirects graded ring]]
 [[!redirects graded rings]]
+
+[[!redirects connected graded algebra]]
+[[!redirects connected graded algebras]]
