@@ -647,11 +647,11 @@ The paper
 
 * Ellis, G.J. and Steiner, R. _Higher-dimensional crossed modules and the homotopy groups  of $(n+1)$}-ads. _J. Pure Appl. Algebra_ **46** (2-3) (1987) 117--136.
 
-should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey]] Theorem. 
+should also be seen as of Dold-Kan type. The homotopical applications  considerably generalise results on the [[Blakers-Massey theorem]]. 
 
 See also 
 
-* Brown, R. "A philosophy of computing and modelling homotopy types", Aveiro CT2015, 
+* Brown, R. _A philosophy of computing and modelling homotopy types_, Aveiro CT2015, 
  ([pdf](http://groupoids.org.uk/pdffiles/aveiro-beamer-handout.pdf))
 
 
