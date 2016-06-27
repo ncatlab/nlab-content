@@ -2235,7 +2235,7 @@ $$
   [\mathcal{C}\times \mathcal{C}, Top^{\ast/}_{cg}]
 $$
 
-given by 
+from pairs of [[topologically enriched functors]] over $\mmathcal{C}$ to topologically enriched functors over the [[product category]] $\mathcal{C} \times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) given by 
 
 $$
   X \overline{\wedge} Y  
@@ -2259,12 +2259,12 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The [[Day convolution]] product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes_{\mathcal{C}}$: there is a [[natural isomorphism]]
+For $(\mathcal{C}, \otimes 1)$ a pointed [[topologically enriched category|topologically enriched]] [[monoidal category]] (def. \ref{MonoidalCategory}) the [[Day convolution]] product (def. \ref{TopologicalDayConvolutionProduct}) of two functors is equivalently the [[left Kan extension]] (def. \ref{TopologicalLeftKanExtensionBCoend}) of their external tensor product (def. \ref{ExternalTensorProduct}) along the tensor product $\otimes \colon \mathcal{C} \times \mathcal{C}$: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
   \simeq
-  Lan_{\otimes_{\mathcal{C}}} (X \overline{\wedge} Y)
+  Lan_{\otimes} (X \overline{\wedge} Y)
   \,.
 $$
 
@@ -2334,7 +2334,22 @@ $$
   \,,
 $$
 
-where $\overline{\wedge}$ is the external product of def. \ref{ExternalTensorProduct}.
+where $\overline{\wedge}$ is the external product of def. \ref{ExternalTensorProduct}, hence that [[natural transformations]] of functors on $\mathcal{C}$ of the form
+
+$$
+  (X \otimes_{Day} Y)(c)
+    \longrightarrow
+  Z(c)
+$$
+
+are in [[natural bijection]] with natural transformations of functors on the [[product category]] $\mmathcal{C}\times \mathcal{C}$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) of the form
+
+$$
+  X(c_1) \wedge Y(c_2)
+   \longrightarrow
+  Z(c_1 \otimes c_2)
+  \,.
+$$
 
 =--
 
@@ -2879,7 +2894,7 @@ We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax
 +-- {: .num_remark #SymmetricMonoidalFunctor}
 ###### Remark
 
-In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a strong monoidal functor.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
 
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
 
@@ -2968,9 +2983,9 @@ Then a left **[[module over a monoidal functor|module over the lax monoidal func
    $$
      \rho_{x,y} 
        \;\colon\; 
-     F(x) \otimes_{\mathcal{D}} N(y)
+     F(x) \otimes_{\mathcal{D}} G(y)
       \longrightarrow
-    N(x \otimes_{\mathcal{C}} y )
+    G(x \otimes_{\mathcal{C}} y )
    $$
 
 such that
@@ -3004,23 +3019,23 @@ such that
 
 A [[homomorphism]] $f\;\colon\; (G_1, \rho_1) \longrightarrow (G_2,\rho_2)$ between two modules over a monoidal functor $(F,\mu,\epsilon)$ is 
 
-* a [[natural transformation]] $f_x \;\colon\; N_1(x) \longrightarrow N_2(x)$ of the underlying functors
+* a [[natural transformation]] $f_x \;\colon\; G_1(x) \longrightarrow G_2(x)$ of the underlying functors
 
 compatible with the action in that the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$:
 
 $$
   \array{
-    F(x) \otimes_{\mathcal{D}} N_1(y)
+    F(x) \otimes_{\mathcal{D}} G_1(y)
       &\overset{id \otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
-    F(x) \otimes_{\mathcal{D}} N_2(y)
+    F(x) \otimes_{\mathcal{D}} G_2(y)
     \\
     {}^{\mathllap{(\rho_1)_{x,y}}}\downarrow
      &&
     \downarrow^{\mathrlap{(\rhi_2)_{x,y}}}
     \\
-    N_1(x\otimes_{\mathcal{C}} y)
+    G_1(x\otimes_{\mathcal{C}} y)
      &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
-    N_2(x \otimes_{\mathcal{C}} y)
+    G_2(x \otimes_{\mathcal{C}} y)
   }
 $$
 
@@ -3166,6 +3181,8 @@ $$
 This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
 
 =--
+
+
 
 
 
