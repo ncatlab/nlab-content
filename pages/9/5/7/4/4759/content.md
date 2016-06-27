@@ -291,7 +291,7 @@ Since here on the right the first Chern classes $x_i$ appear as the [[roots]] of
 
 See also at _[splitting principle -- Examples -- Complex vector bundles and their Chern roots](splitting+principle#ComplexVectorBundleAndTheirChernRoots)_.
 
-(e.g. [Kochmann 96, theorem 2.3.2](#Kochmann96))
+(e.g. [Kochmann 96, theorem 2.3.2](#Kochmann96), [tom Dieck 08, theorem 19.3.2](#tomDieck08))
 
 +-- {: .num_lemma #FromBUnTOBU1nPullbackInCohomologyIsInjective}
 ###### Lemma
@@ -476,6 +476,7 @@ Textbook accounts include
 
 * {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* {#tomDieck08} [[Tammo tom Dieck]], _Algebraic topology_, EMS 2008
 
 A brief introduction is in chapter 23, section 7 
 
