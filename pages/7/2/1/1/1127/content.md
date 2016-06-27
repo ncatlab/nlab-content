@@ -34,7 +34,7 @@ In terms of the AB$n$ hierarchy discussed at [[additive and abelian categories]]
 
 A **Grothendieck category** is an [[additive and abelian categories|AB5-category]] which has a [[separator|generator]].
 
-This means that a **Grothendieck category** is an[[abelian category]]
+This means that a **Grothendieck category** is an [[abelian category]]
 
 * that admits a [[separator|generator]];
 
