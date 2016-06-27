@@ -2468,7 +2468,7 @@ $$
   \,.
 $$
 
-So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top^{\ast/}}$ of $(Top^{\ast}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
+So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top_{cg}^{\ast/}}$ of $(Top^{\ast/}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
 
 $$
   \array{
@@ -2900,6 +2900,37 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 
 =--
 
++-- {: .num_prop #MonoidalFunctorComp}
+###### Proposition
+
+For $\mathcal{C} \overset{F}{\longrightarrow} \mathcal{D} \overset{G}{\longrightarrow} \mathcal{E}$ two composable [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) between [[monoidal categories]], then their composite $F \circ G$ becomes a lax monoidal functor with structure morphisms
+
+$$
+  \epsilon^{G\circ F} 
+    \;\colon\;
+  1_{\mathcal{E}}
+    \overset{\epsilon^G}{\longrightarrow}
+  G(1_{\mathcal{D}})
+    \overset{G(\epsilon^F)}{\longrightarrow}
+  G(F(1_{\mathcal{C}}))
+$$
+
+and
+
+$$
+  \mu^{G \circ F}_{c_1,c_2}
+  \;\colon\;
+  G(F(c_1)) \otimes_{\mathcal{E}} G(F(c_2))
+   \overset{\mu^{G}_{F(c_1), F(c_2)}}{\longrightarrow}
+  G( F(c_1) \otimes_{\mathcal{D}} F(c_2) )
+    \overset{G(\mu^F_{c_1,c_2})}{\longrightarrow}
+  G(F( c_1 \otimes_{\mathcal{C}} c_2 ))
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
 ###### Proposition
 
@@ -3178,7 +3209,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
+This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor by prop. \ref{MonoidalFunctorComp}.
 
 =--
 
@@ -3233,7 +3264,8 @@ $$
   [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of **[[pre-excisive functors]]**. 
+is the category of **[[pre-excisive functors]]**. (We had previewed this in [[Introduction to Stable homotopy theory -- P|Part P]], [this example](Introduction+to+Stable+homotopy+theory+--+P#PreExcisiveFunctors)).
+
 
 Write
 
@@ -3282,7 +3314,6 @@ with
 
 =--
 
-We had previewed this in [[Introduction to Stable homotopy theory -- P|Part P]], [this example](Introduction+to+Stable+homotopy+theory+--+P#PreExcisiveFunctors).
 
 +-- {: .num_remark #EveryPreExcisiveFunctorIsSModule}
 ###### Remark
@@ -3299,6 +3330,49 @@ $$
 $$
 
 =--
+
++-- {: .num_lemma #FSPExcisiveSphere}
+###### Lemma
+
+Identified as a [[functor with smash product]] under prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, the pre-excisive [[sphere spectrum]] $\mathbb{S}_{exc}$ from def. \ref{FinitePointedCWComplexes} is given by the identity natural transformation
+
+$$
+  \mu_{(K_1,K_2)}
+    \;\colon\;
+  \mathbb{S}_{exc}(K_1) \wedge \mathbb{S}_{exc}(K_2)
+  =
+  K_1 \wedge K_2
+    \overset{=}{\longrightarrow}
+  K_1 \wedge K_2
+  =
+  \mathbb{S}_{exc}(K_1 \wedge K_2)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We claim that this is in fact the unique structure of a [[monoidal functor]] that may be imposed on the canonical inclusion $\iota \;\colon\; Top^{\ast/}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$, hence it must be the one in question. To see the uniqueness, observe that naturality of the matural transformation $\mu$ in particular says that there are commuting squares of the form
+
+$$
+  \array{
+    S^0 \wedge S^0 &\overset{=}{\longrightarrow}& S^0 \wedge S^0
+    \\
+    {}^{\mathllap{x_1,x_2}}\downarrow && \downarrow^{\mathrlap{x_1,x_2}}
+    \\
+    K_1 \wedge K_2 
+      &\underset{\mu_{K_1, K_2}}{\longrightarrow}&
+    K_1 \wedge K_2
+  }
+  \,,
+$$
+
+where the vertical morphisms pick any two points in $K_1$ and $K_2$, respectively, and where the top morphism is necessarily the canonical identification since there is only one single isomorphism $S^0 \to S^0$, namely the identity. This shows that the bottom horizontal morphism has to be the identity on all points, hence has to be the identity.
+
+=--
+
 
 We now consider restricting the domain of the pre-excisive functors of def. \ref{FinitePointedCWComplexes}.
 
@@ -3557,8 +3631,47 @@ Moreover, according to prop. \ref{BraidedFunctorsOrthAndSym}, $orth$ and $sym$ a
 | [[commutative monoid in a symmetric monoidal category|commutative monoid]] | yes | yes | yes | no |
 | [[tensor unit]] | yes | no | no | no |
 
+=--
+
+Explicitly:
+
++-- {: .num_lemma #FSPStructuredSphereSpectra}
+###### Lemma
+
+The monoids $\mathbb{S}_{dia}$ from def. \ref{TopologicalDiagramCategoriesForSpectra} are, when identified as [[functors with smash product]] via prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} given by assigning
+
+$$
+  \mathbb{S}_{seq} \;\colon\; n \mapsto S^{n}
+$$
+
+$$
+  \mathbb{S}_{sym} \;\colon\; \overline{n} \mapsto S^n
+$$
+
+$$
+  \mathbb{S}_{orth} \;\colon\; V \mapsto S^V
+  \,,
+$$
+
+respectively, with product given by the canonical isomorphisms
+
+$$
+  S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
+  \,.
+$$
+
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By construction these functors with smash products are the composites, according to prop. \ref{MonoidalFunctorComp}, of the monoidal functors $seq$, $sym$, $orth$, respectively, with the lax monoidal functor corresponding to $\mathbb{S}_{exc}$. The former have as structure maps the canonical identifications by definition, and the latter has as structure map the canonical identifications by lemmma \ref{FSPExcisiveSphere}.
+
+=--
+
+
+
 
 +-- {: .num_prop #SseqModulesAreSequentialSpectra}
 ###### Proposition
@@ -3801,6 +3914,8 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 ([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
 
+The definition of orthogonal spectra has the same structure, just with the  [[symmetric groups]] replaced by the [[orthogonal groups]].
+
 
 +-- {: .num_defn #OrthogonalSpectrum}
 ###### Definition
@@ -3855,7 +3970,7 @@ such that
      \,.
    $$
 
-We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of orthogonal spectra.
 
 =--
 
@@ -3866,13 +3981,15 @@ We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectr
 Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
 are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
+orthogonal spectra are euqivalently the [[module objects]] over the incarnation $\mathbb{S}_{orth}$ of the sphere spectrum
+
 $$
   OrthSpec(Top_{cg})
    \simeq
   \mathbb{S}_{orth} Mod
 $$
 
-and
+and symmetric spectra sre equivalently the module objects over the incarnation $\mathbb{S}_{sym}$ of the sphere spectrum
 
 $$
   SymSpec(Top_{cg})
@@ -3884,6 +4001,52 @@ $$
 =--
 
 ([Hovey-Shipley-Smith 00, prop. 2.2.1](#HoveyShipleySmith00))
+
++-- {: .proof}
+###### Proof
+
+We discuss this for symmetric spectra. The proof for orthogonal spectra is of the same form.
+
+First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
+
+By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}, the structure of an $\mathbb{S}_{sym}$-[[module object]] on $X$
+
+$$
+  \mathbb{S}_{sym} \otimes_{Day} X \longrightarrow X
+$$
+
+is equivalently a natural transformation
+
+$$
+  S^{n_1} \wedge X_{n_2} \longrightarrow X_{n_1 + n_2}
+$$
+
+over $Sym \times Sym$. This means equivalently that there is such a morphism for all $n_1, n_2 \in \mathbb{N}$ and that it is $\Sigma(n_1) \times \Sigma(n_2)$-equivariant.
+
+Hence it only remains to see that these natural transformations are uniquely fixed once the one for $n_1 = 1$ is given. To that end, observe that lemma \ref{FSPStructuredSphereSpectra} says that in the following [[commuting squares]] (exhibiting the action property on the level of functors with smash product, where we are notationally suppressing the [[associators]]) the left vertical morphisms are [[isomorphisms]]:
+
+$$
+  \array{
+    S^{n_1}\wedge S^{n_2} \wedge X_{n_3} 
+      &\longrightarrow&
+    S^{n_1} \wedge X_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow
+    \\
+    S^{n_1+ n_2} \wedge X_{n_3}
+      &\longrightarrow&
+    X_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This says exactly that the action of $S^{n_1 + n_2}$ has to be the composite of the actions of $S^{n_2}$ followed by that of $S^{n_1}$. Hence the statement follows by [[induction]].
+
+Finally, the definition of [[homomorphisms]] on both sides of the equivalence are just so as to preserve precisely this structure, hence they conincide under this identification.
+
+=--
 
 +-- {: .num_defn #SmashProductOfSymmetricSpectra}
 ###### Definition
