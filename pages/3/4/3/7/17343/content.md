@@ -7409,7 +7409,7 @@ With these three lemmas in hand, the remaining formal part of the proof goes thr
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #PreExcisiveFunctors}
 ###### Example
 
 Given examples \ref{TopkAsATopologicallyEnrichedCategory} and \ref{TopologicallyEnrichedFunctorsToTopk}, the next evident example of a pointed [[topologically enriched category]] besides $Top^{\ast/}_{cg}$ itself is the functor category 
@@ -7433,7 +7433,7 @@ $$
   [Top_{cg,fin}^{\ast/}\;,\; (Top^{\ast/}_{cg})_{Quillen}]_{proj}
 $$
 
-is also also known as the **strict [[model structure for excisive functors]]**. (This terminology is the special case for $n = 1$ of the terminology "[[n-excisive functors]]" as used in "[[Goodwillie calculus]]", a homotopy-theoretic analog of [[differential calculus]].)  After enlarging its class of weak equivalences while keeping the cofibrations fixed, this will become [[Quillen equivalence|Quillen equivalent]] to a [[model structure for spectra]]. This we discuss in the next section, _[[Introduction to Stable homotopy theory -- 1]]_.
+is also also known as the **strict [[model structure for excisive functors]]**. (This terminology is the special case for $n = 1$ of the terminology "[[n-excisive functors]]" as used in "[[Goodwillie calculus]]", a homotopy-theoretic analog of [[differential calculus]].)  After enlarging its class of weak equivalences while keeping the cofibrations fixed, this will become [[Quillen equivalence|Quillen equivalent]] to a [[model structure for spectra]]. This we discuss in [[Introduction to Stable homotopy theory -- 1-2|part 1.2]], in the section [on pre-excisive functors](Introduction+to+Stable+homotopy+theory+--+1-2#OnPreExcisiveFunctors).
 
 =--
 
