@@ -104,7 +104,7 @@ We discuss here a [[general abstract]] formulation of [[differential forms]], th
 
 ### General definition
 
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]]. We write $(\Pi \dashv \flat \sharp)$ for the defining triple of [[adjoint modalities]] ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]).
+Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]]. We write $(\Pi \dashv \flat \dashv \sharp)$ for the defining triple of [[adjoint modalities]] ([[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]]).
 
 As usual (see at [structures in a cohesive ∞-topos -- de Rham cohomology](cohesive+%28infinity%2C1%29-topos+--+structures#deRhamCohomology)) we deduce from this the secondary cohesive modalities $\Pi_{dR}$ and $\flat_{dR}$: for a pointed object with [[loop space object]] $G$ (for instance the [[delooping]] $\mathbf{B}G$) $\flat_{dR}G$ is defined by the long [[homotopy fiber sequence]]
 
@@ -114,7 +114,7 @@ $$
 
 where the morphism on the right is the $\flat$-[[counit of a comonad|counit]]. Here $\theta_G$ is the _[[Maurer-Cartan form]]_ on $G$.
 
-> (Beware that elswhere we write $\flat_{dR}\mathbf{B}G$ for what here we write $\flat_{dR}G$.)
+> (Beware that elsewhere we write $\flat_{dR}\mathbf{B}G$ for what here we write $\flat_{dR}G$.)
 
 Dually $\Pi_{dR}$ is defined.
 
