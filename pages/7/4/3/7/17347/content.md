@@ -1294,7 +1294,7 @@ The mulitplicative cohomology theory is called **commutative** (often considered
       &\overset{(u \otimes v) \mapsto (-1)^{n_1 n_2} (v \otimes u) }{\longrightarrow}& 
       E^{n_2}(Y,B) \otimes E^{n_1}_{X,A}
       \\
-      {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1,n_2}}}
+      {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_2,n_1}}}
       \\
       E^{n_1 + n_2}( X \times Y , A \times Y \cup X \times B)
       &\underset{(switch_{(X,A), (Y,B)})^\ast}{\longrightarrow}&
