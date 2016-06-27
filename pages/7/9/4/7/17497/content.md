@@ -2292,7 +2292,7 @@ which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
 $$
   (Lan_p F)
   \;\colon\;
-  c 
+  d 
   \;\mapsto \;
   \overset{c\in \mathcal{C}}{\int}
    \mathcal{D}(p(c),d) \wedge F(c)
@@ -2695,7 +2695,7 @@ $$
   \,.
 $$
 
-So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top^{\ast/}}$ of $(Top^{\ast}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
+So we obtain an [[associator]] by combining, in the integrand, the associator $\alpha^{\mathcal{C}}$ of $(\mathcal{C}, \otimes, 1)$ and $\tau^{Top_{cg}^{\ast/}}$ of $(Top^{\ast/}_{cg}, \wedge, S^0)$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}):
 
 $$
   \array{
@@ -3127,6 +3127,37 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 
 =--
 
++-- {: .num_prop #MonoidalFunctorComp}
+###### Proposition
+
+For $\mathcal{C} \overset{F}{\longrightarrow} \mathcal{D} \overset{G}{\longrightarrow} \mathcal{E}$ two composable [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) between [[monoidal categories]], then their composite $F \circ G$ becomes a lax monoidal functor with structure morphisms
+
+$$
+  \epsilon^{G\circ F} 
+    \;\colon\;
+  1_{\mathcal{E}}
+    \overset{\epsilon^G}{\longrightarrow}
+  G(1_{\mathcal{D}})
+    \overset{G(\epsilon^F)}{\longrightarrow}
+  G(F(1_{\mathcal{C}}))
+$$
+
+and
+
+$$
+  \mu^{G \circ F}_{c_1,c_2}
+  \;\colon\;
+  G(F(c_1)) \otimes_{\mathcal{E}} G(F(c_2))
+   \overset{\mu^{G}_{F(c_1), F(c_2)}}{\longrightarrow}
+  G( F(c_1) \otimes_{\mathcal{D}} F(c_2) )
+    \overset{G(\mu^F_{c_1,c_2})}{\longrightarrow}
+  G(F( c_1 \otimes_{\mathcal{C}} c_2 ))
+  \,.
+$$
+
+=--
+
+
 +-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
 ###### Proposition
 
@@ -3405,7 +3436,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor.
+This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, since the composite of two (braided) lax monoidal functors is itself canonically a (braided) lax monoidal functor by prop. \ref{MonoidalFunctorComp}.
 
 =--
 
@@ -3460,7 +3491,8 @@ $$
   [Top^{\ast/}_{cg,fin}, Top^{\ast/}_{cg}]
 $$
 
-is the category of **[[pre-excisive functors]]**. 
+is the category of **[[pre-excisive functors]]**. (We had previewed this in [[Introduction to Stable homotopy theory -- P|Part P]], [this example](Introduction+to+Stable+homotopy+theory+--+P#PreExcisiveFunctors)).
+
 
 Write
 
@@ -3509,7 +3541,6 @@ with
 
 =--
 
-We had previewed this in [[Introduction to Stable homotopy theory -- P|Part P]], [this example](Introduction+to+Stable+homotopy+theory+--+P#PreExcisiveFunctors).
 
 +-- {: .num_remark #EveryPreExcisiveFunctorIsSModule}
 ###### Remark
@@ -3526,6 +3557,49 @@ $$
 $$
 
 =--
+
++-- {: .num_lemma #FSPExcisiveSphere}
+###### Lemma
+
+Identified as a [[functor with smash product]] under prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite}, the pre-excisive [[sphere spectrum]] $\mathbb{S}_{exc}$ from def. \ref{FinitePointedCWComplexes} is given by the identity natural transformation
+
+$$
+  \mu_{(K_1,K_2)}
+    \;\colon\;
+  \mathbb{S}_{exc}(K_1) \wedge \mathbb{S}_{exc}(K_2)
+  =
+  K_1 \wedge K_2
+    \overset{=}{\longrightarrow}
+  K_1 \wedge K_2
+  =
+  \mathbb{S}_{exc}(K_1 \wedge K_2)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We claim that this is in fact the unique structure of a [[monoidal functor]] that may be imposed on the canonical inclusion $\iota \;\colon\; Top^{\ast/}_{cg,fin} \hookrightarrow Top^{\ast/}_{cg}$, hence it must be the one in question. To see the uniqueness, observe that naturality of the matural transformation $\mu$ in particular says that there are commuting squares of the form
+
+$$
+  \array{
+    S^0 \wedge S^0 &\overset{=}{\longrightarrow}& S^0 \wedge S^0
+    \\
+    {}^{\mathllap{x_1,x_2}}\downarrow && \downarrow^{\mathrlap{x_1,x_2}}
+    \\
+    K_1 \wedge K_2 
+      &\underset{\mu_{K_1, K_2}}{\longrightarrow}&
+    K_1 \wedge K_2
+  }
+  \,,
+$$
+
+where the vertical morphisms pick any two points in $K_1$ and $K_2$, respectively, and where the top morphism is necessarily the canonical identification since there is only one single isomorphism $S^0 \to S^0$, namely the identity. This shows that the bottom horizontal morphism has to be the identity on all points, hence has to be the identity.
+
+=--
+
 
 We now consider restricting the domain of the pre-excisive functors of def. \ref{FinitePointedCWComplexes}.
 
@@ -3645,6 +3719,8 @@ $$
 into the pointed topological category of pointed compactly generated topological spaces of finite CW-type (def. \ref{FinitePointedCWComplexes}).
 
 Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym \colon (\Sigma_n)_+ \hookrightarrow (O(n))_+$ is the canonical inclusion of [[permutation]] matrices into [[orthogonal group|orthogonal]] matrices and $orth \colon O(V)_+ \hookrightarrow Aut(S^V)$ is on $O(V)$ the [[topological subspace]] inclusions of the pointed [[homeomorphisms]] $S^V \to S^V$ that are induced under forming [[one-point compactification]] from linear isometries of $V$ ("[[representation spheres]]").
+
+Below we will often use these identifications to write just "$n$" for any of these objects, leaving implicit the identifications $n \mapsto \{1, \cdots, n\} \mapsto S^n$.
 
 Consider the pointed topological diagram categries  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
 
@@ -3784,8 +3860,47 @@ Moreover, according to prop. \ref{BraidedFunctorsOrthAndSym}, $orth$ and $sym$ a
 | [[commutative monoid in a symmetric monoidal category|commutative monoid]] | yes | yes | yes | no |
 | [[tensor unit]] | yes | no | no | no |
 
+=--
+
+Explicitly:
+
++-- {: .num_lemma #FSPStructuredSphereSpectra}
+###### Lemma
+
+The monoids $\mathbb{S}_{dia}$ from def. \ref{TopologicalDiagramCategoriesForSpectra} are, when identified as [[functors with smash product]] via prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} given by assigning
+
+$$
+  \mathbb{S}_{seq} \;\colon\; n \mapsto S^{n}
+$$
+
+$$
+  \mathbb{S}_{sym} \;\colon\; \overline{n} \mapsto S^n
+$$
+
+$$
+  \mathbb{S}_{orth} \;\colon\; V \mapsto S^V
+  \,,
+$$
+
+respectively, with product given by the canonical isomorphisms
+
+$$
+  S^{V_1} \wedge S^{V_2} \longrightarrow S^{V_1 \oplus V_2}
+  \,.
+$$
+
 
 =--
+
++-- {: .proof}
+###### Proof
+
+By construction these functors with smash products are the composites, according to prop. \ref{MonoidalFunctorComp}, of the monoidal functors $seq$, $sym$, $orth$, respectively, with the lax monoidal functor corresponding to $\mathbb{S}_{exc}$. The former have as structure maps the canonical identifications by definition, and the latter has as structure map the canonical identifications by lemmma \ref{FSPExcisiveSphere}.
+
+=--
+
+
+
 
 +-- {: .num_prop #SseqModulesAreSequentialSpectra}
 ###### Proposition
@@ -4005,7 +4120,7 @@ A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma_n$-[[action]];
+1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -4027,6 +4142,8 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 =--
 
 ([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+
+The definition of orthogonal spectra has the same structure, just with the  [[symmetric groups]] replaced by the [[orthogonal groups]].
 
 
 +-- {: .num_defn #OrthogonalSpectrum}
@@ -4082,7 +4199,7 @@ such that
      \,.
    $$
 
-We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra.
+We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of orthogonal spectra.
 
 =--
 
@@ -4093,13 +4210,15 @@ We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectr
 Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
 are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
+orthogonal spectra are euqivalently the [[module objects]] over the incarnation $\mathbb{S}_{orth}$ of the sphere spectrum
+
 $$
   OrthSpec(Top_{cg})
    \simeq
   \mathbb{S}_{orth} Mod
 $$
 
-and
+and symmetric spectra sre equivalently the module objects over the incarnation $\mathbb{S}_{sym}$ of the sphere spectrum
 
 $$
   SymSpec(Top_{cg})
@@ -4112,6 +4231,52 @@ $$
 
 ([Hovey-Shipley-Smith 00, prop. 2.2.1](#HoveyShipleySmith00))
 
++-- {: .proof}
+###### Proof
+
+We discuss this for symmetric spectra. The proof for orthogonal spectra is of the same form.
+
+First of all, by example \ref{CoendGivesQuotientByDiagonalGroupAction} an object in $[Sym, Top^{\ast/}_{cg}]$ is equivalently a "symmetric sequence", namely a sequence of pointed topological spaces $X_k$, for $k \in \mathbb{N}$, equipped with an [[action]] of $\Sigma(k)$ (def. \ref{TopologicalDiagramCategoriesForSpectra}).
+
+By corollary \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor} and lemma \ref{FSPStructuredSphereSpectra}, the structure morphism of an $\mathbb{S}_{sym}$-[[module object]] on $X$
+
+$$
+  \mathbb{S}_{sym} \otimes_{Day} X \longrightarrow X
+$$
+
+is equivalently (as a [[functor with smash products]]) a natural transformation
+
+$$
+  S^{n_1} \wedge X_{n_2} \longrightarrow X_{n_1 + n_2}
+$$
+
+over $Sym \times Sym$. This means equivalently that there is such a morphism for all $n_1, n_2 \in \mathbb{N}$ and that it is $\Sigma(n_1) \times \Sigma(n_2)$-equivariant.
+
+Hence it only remains to see that these natural transformations are uniquely fixed once the one for $n_1 = 1$ is given. To that end, observe that lemma \ref{FSPStructuredSphereSpectra} says that in the following [[commuting squares]] (exhibiting the action property on the level of functors with smash product, where we are notationally suppressing the [[associators]]) the left vertical morphisms are [[isomorphisms]]:
+
+$$
+  \array{
+    S^{n_1}\wedge S^{n_2} \wedge X_{n_3} 
+      &\longrightarrow&
+    S^{n_1} \wedge X_{n_2 + n_3}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow
+    \\
+    S^{n_1+ n_2} \wedge X_{n_3}
+      &\longrightarrow&
+    X_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This says exactly that the action of $S^{n_1 + n_2}$ has to be the composite of the actions of $S^{n_2}$ followed by that of $S^{n_1}$. Hence the statement follows by [[induction]].
+
+Finally, the definition of [[homomorphisms]] on both sides of the equivalence are just so as to preserve precisely this structure, hence they conincide under this identification.
+
+=--
+
 +-- {: .num_defn #SmashProductOfSymmetricSpectra}
 ###### Definition
 
@@ -4119,24 +4284,24 @@ Given $X,Y \in SymSpec(Top_{cg})$ two [[symmetric spectra]], def. \ref{Symmetric
 
 $$
   X \wedge Y 
-   \in SymSpec(Top_{cg})
+   \; \in SymSpec(Top_{cg})
 $$
 
 with component spaces the [[coequalizer]]
 
 $$
   \underset{p+1+q = n}{\bigvee}
-  (\Sigma_{p+1+q})_+ 
+  \Sigma(p+1+q)_+ 
     \underset{\Sigma_p \times \Sigma_1 \times \Sigma_q}{\wedge}
-  X_p \wedge S^1 \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
   \underoverset
    {\underset{r}{\longrightarrow}}
    {\overset{\ell}{\longrightarrow}}
    {\phantom{AAAA}}
   \underset{p+q=n}{\bigvee}
-   (\Sigma_{p+q})_+
+   \Sigma(p+q)_+
    \underset{\Sigma_p \times \Sigma_q}{\wedge}
-   X_p \wedge X_q
+   X_p \wedge Y_q
   \overset{coeq}{\longrightarrow}
   (X \wedge Y)(n)
 $$
@@ -4144,9 +4309,9 @@ $$
 where $\ell$ has components given by the structure maps
 
 $$
-  X_p \wedge S^1 \wedge X_q
-    \overset{id \wedge \sigma_q}{\longrightarrow}
-  X_p \wedge X_q
+  X_p \wedge S^1 \wedge Y_q
+    \overset{id \wedge \sigma_{q}}{\longrightarrow}
+  X_p \wedge Y_q
 $$
 
 while $r$ has components given by the structure maps conjugated by the [[braiding]] in $Top^{\ast/}_{cg}$ and the [[permutation]] [[action]] $\chi_{p,1}$ (that [[shuffle|shuffles]] the element on the right to the left)
@@ -4154,7 +4319,7 @@ while $r$ has components given by the structure maps conjugated by the [[braidin
 {#ShuffleActionInCoequalizerForSmashProductOfSpectra}
 $$
   X_p \wedge S^1 \wedge X_q
-    \overset{\tau_{X_p,S^1} \wedge id}{\longrightarrow}
+    \overset{\tau^{Top^{\ast/}_{cg}}_{X_p,S^1} \wedge id}{\longrightarrow}
   S^1 \wedge X_p \wedge X_q
     \overset{\sigma_p\wedge id}{\longrightarrow}
   X_{p+1} \wedge X_q
@@ -4166,20 +4331,30 @@ $$
 The structure maps of $X \wedge Y$ are those induced under the coequalizer by
 
 $$
-  S^1 \wedge X_p \wedge X_q
-   \overset{\sigma_p\wedge id}{\longrightarrow}
-  X_{p+1} \wedge X_q
+  X_p \wedge Y_q \wedge S^1
+    \overset{id \wedge \sigma_{p}}{\longrightarrow}
+  X_{p} \wedge Y_{q+1}
   \,.
 $$
 
+Analogously for orthogonal spectra.
+
 =--
 
-(e.g. [Schwede 12, p. 82](#Schwede12))
+([Schwede 12, p. 82](#Schwede12))
 
 +-- {: .num_prop #AbstractFormulaGivesSmashProductOfSymmetricSpectra}
 ###### Proposition
 
 Under the identification of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the explicit [[smash product of spectra]] in def. \ref{SmashProductOfSymmetricSpectra} is equivalent to the abstractly defined tensor product in def. \ref{SsymModuleSymmetricSpectra}:
+
+in the case of [[symmetric spectra]]:
+
+$$
+  \wedge \simeq \otimes_{\mathbb{S}_{sym}}
+$$
+
+in the case of [[orthogonal spectra]]:
 
 $$
   \wedge \simeq \otimes_{\mathbb{S}_{orth}}
@@ -4188,24 +4363,26 @@ $$
 
 =--
 
+([Schwede 12, E.1.16](#Schwede12))
+
 +-- {: .proof}
 ###### Proof
 
-By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the tensor product of two $\mathbb{S}_{orth}$-modules $X$ and $Y$ is the [[coequalizer]] 
+By def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the abstractly defined tensor product of two $\mathbb{S}_{sym}$-modules $X$ and $Y$ is the [[coequalizer]] 
 
 $$
-  X \otimes_{Day} \mathbb{S}_{orth} \otimes_{Day} Y
+  X \otimes_{Day} \mathbb{S}_{sym} \otimes_{Day} Y
   \underoverset
-    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{orth}} \otimes id)}{\longrightarrow}}
+    {\underset{\rho_{1}\circ (\tau^{Day}_{X, \mathbb{S}_{sym}} \otimes id)}{\longrightarrow}}
     {\overset{X \otimes \rho_2}{\longrightarrow}}
     {\phantom{AAAA}}
   X \otimes Y
     \overset{coeq}{\longrightarrow}
-  X \otimes_{\mathbb{S}_{orth}} Y
+  X \otimes_{\mathbb{S}_{sym}} Y
   \,.
 $$
 
-The [[Day convolution]] product appearing here is over the category $Orth$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the orthogonal group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
+The [[Day convolution]] product appearing here is over the category $Sym$ from def. \ref{TopologicalDiagramCategoriesForSpectra}. By example \ref{CoendGivesQuotientByDiagonalGroupAction} and unwinding the definitions, this is for any two symmetric spectra $A$ and $B$ given degreewise by the [[wedge sum]] of component spaces summing to that total degree, smashed with the symmetric group with basepoint adjoined and then quotiented by the diagonal action of the symmetric group acting on the degrees separately:
 
 $$
   \begin{aligned}
@@ -4215,13 +4392,13 @@ $$
      \underset{
       = \left\{
           \array{
-             O(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
+             \Sigma(n_1 + n_2,n)_+ & if \; n_1+n_2 = n 
              \\
              \ast & otherwise
            }
       \right.
      }{
-       \underbrace{O(n_1 + n_2, n)}
+       \underbrace{\Sigma(n_1 + n_2, n)}
      }_+
       \wedge
      A_{n_1}
@@ -4230,7 +4407,7 @@ $$
     \\
     & \simeq
     \underset{n_1 + n_2 = n}{\bigvee}
-     O(n_1+n_2)_+
+     \Sigma(n_1+n_2)_+
      \underset{O(n_1) \times O(n_2) }{\wedge}     
      \left(
        A_{n_1}
@@ -4241,39 +4418,81 @@ $$
   \,.
 $$
 
-This gives the form of the coequalizer and the nature of the morphism $\ell$. To see that the morphism $r$ involves the braiding $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{Orth}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) use the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
+This establishes the form of the coequalizer diagram. It remains to see that under this identification the two abstractly defined morphisms are the ones given in def. \ref{SmashProductOfSymmetricSpectra}.
+
+To see this, we apply the adjunction isomorphism between the [[Day convolution product]] and the [[external tensor product]] (cor. \ref{DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor}) twice, to find the following sequence of equivalent incarnations of morphisms:
+
+$$
+  \array{
+  \arrayopts{\rowlines{solid}}
+    (X \otimes_{Day} ( \mathbb{S}_{orth} \otimes_{Day} Y ))(n)
+      &\longrightarrow&
+    (X \otimes_{Day} Y)(n)
+      &\longrightarrow&
+    Z_n
+    \\
+    X_{n_1} \wedge (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2)
+      &\longrightarrow&
+    X_{n_1}\wedge Y(n'_2) 
+      &\longrightarrow&
+    Z_{n_1 + n'_2}
+    \\
+    (\mathbb{S}_{sym} \otimes_{Day} Y)(n'_2) 
+      &\longrightarrow&
+    Y(n'_2)
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n'_2})
+    \\
+    S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    Y_{n_2 + n_3}
+      &\longrightarrow&
+    Maps(X_{n_1}, Z_{n_1 + n_2 + n_3})
+    \\
+    X_{n_1} \wedge S^{n_2} \wedge Y_{n_3}
+      &\longrightarrow&
+    X_{n_1} \wedge Y_{n_2 + n_3}
+      &\longrightarrow&
+    Z_{n_1 + n_2 + n_3}
+  }
+  \,.
+$$
+
+This establishes the form of the morphism $\ell$. By the same reasoning as in the proof of prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, we may restrict the coequalizer to $n_2 = 1$ without changing it. 
+
+The form of the morphism $r$ is obtained by the analogous sequence of identifications of morphisms, now with the parenthesis to the left. That it involves $\tau^{Top^{\ast/}_{cg}}$ and the permutation action $\tau^{sym}$ as shown [above](#ShuffleActionInCoequalizerForSmashProductOfSpectra) follows from the formula for the braiding of the Day convolution tensor product from the proof of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}:
 
 
 $$
   \tau^{Day}_{A,B}(n)
   =
   \overset{n_1,n_2}{\int}
-   Orth( \tau^{Orth}_{n_1,n_2}, n )
+   Sym( \tau^{Sym}_{n_1,n_2}, n )
     \wedge 
    \tau^{Top^{\ast/}_{cg}}_{A_{n_1}, B_{n_2}}
 $$
 
-and translate it to the components of the precomposition
+by translating it to the components of the precomposition
 
 $$
-  X \otimes_{Day} \mathbb{S}_{orth}
-   \overset{\tau^{Day}_{X,\mathbb{S}_{orth}}}{\longrightarrow}
-  \mathbb{S}_{orth} \otimes_{Day} X
+  X \otimes_{Day} \mathbb{S}_{sym}
+   \overset{\tau^{Day}_{X,\mathbb{S}_{sym}}}{\longrightarrow}
+  \mathbb{S}_{sym} \otimes_{Day} X
   \overset{}{\longrightarrow}
   X
 $$
 
-via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $\otimes_{Day}\simeq Lan_{\otimes}\overline{\wedge}$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
+via the formula from the proof of prop. \ref{TopologicalLeftKanExtensionBCoend} for the [[left Kan extension]] $A \otimes_{Day} B \simeq Lan_{\otimes} A \overline{\wedge} B$ (prop. \ref{DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}):
 
 $$
   \begin{aligned}
-    [Orth, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{orth}}, X)
+    [Sym, Top^{\ast/}_{cg}]( \tau^{Day}_{X,\mathbb{S}_{sym}}, X)
     &
     \simeq
     \underset{n}{\int}
     Maps( 
       \overset{n_1, n_2}{\int}
-      Orth( \tau^{orth}_{n_1,n_2}, n )
+      Sym( \tau^{sym}_{n_1,n_2}, n )
        \wedge 
       \tau^{Top^{\ast/}_{cg}}_{X_{n_1}, S^{n_2}}
       ,
@@ -4286,7 +4505,7 @@ $$
     Maps(
       \tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}
       ,
-      X( \tau^{orth}_{n_1,n_2} )
+      X( \tau^{sym}_{n_1,n_2} )
     )_\ast
   \end{aligned}
   \,.
@@ -5031,13 +5250,13 @@ The first is the characteristic isomorphism of [[tensoring]] from prop. \ref{Uni
 
 From this, the second statement follows by the proof of prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}.
 
-For the last statement it is sufficient to observe that $y(0) = y(S^0)$ is the [[tensor unit]] under [[Day convolution]] by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure}, so that
+For the last statement it is sufficient to observe that $y(0)$ is the [[tensor unit]] under [[Day convolution]] by prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} (since $0$ is the tensor unit in $Dia$), so that
 
 $$
   \begin{aligned}
     F_0^{dia} S^0
     & =
-    \mathbb{S}_{dia} \otimes_{Day} y(0) \wedge S^0
+    \mathbb{S}_{dia} \otimes_{Day} (y(0) \wedge S^0)
     \\
     & \simeq
     \mathbb{S}_{dia} \otimes y(S^0)
@@ -6321,7 +6540,7 @@ A key consequence is that, via prop. \ref{MonoidsPreservedByLaxMonoidalFunctor},
 +-- {: .num_defn #MonoidalModelCategory}
 ###### Definition
 
-A (symmetric) **monoidal model category** is a [[model category]] $\mathcal{C}$
+A (symmetric) **[[monoidal model category]]** is a [[model category]] $\mathcal{C}$
 ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) equipped with the structure of a  [[closed monoidal category|closed]] (def. \ref{ClosedMonoidalCategory}) [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory}) [[monoidal category]] $(\mathcal{C}, \otimes, I)$ (def. \ref{MonoidalCategory}) such that the following two compatibility conditions are satisfied
 
 1. **([[pushout-product axiom]])** For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
@@ -6870,6 +7089,54 @@ Now the free structured spectrum functor is a left Quillen functor (prop. \ref{S
 
 =--
 
++-- {: .num_defn #MonoidalQuillenAdjunction}
+###### Definition
+
+Given [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then a **[[strong monoidal Quillen adjunction]]** between them is a [[Quillen adjunction]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+such that $L$ (hence equivalently $R$) has the structure of a [[strong monoidal functor]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+
+between [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then the  [[left derived functor]] of $L$ is a [[strong monoidal functor]] between [[homotopy category of a model category|homotopy categories]]
+
+$$
+  \mathbb{L}L
+  \;\colon\;
+  (Ho(\mathcal{C}), \otimes_{\mathcal{C}}, \gamma(1)_{\mathcal{C}})
+   \longrightarrow
+  (Ho(\mathcal{D}), \otimes_{\mathcal{D}}, \gamma(1)_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
+
+
 
 
 
@@ -6989,7 +7256,7 @@ $$
   \,.
 $$
 
-Moreover, we know already that the top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal functor]] (prop. \ref{SmashProductOfFreeSpectra}) left Quillen (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) between [[monoidal model categories]] (theorem \ref{MonoidalStrictModelStructure}). 
+Moreover, we know already that the top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}).
 
 Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
@@ -7564,11 +7831,120 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 #### Higher algebra
  {#HigherAlgebra}
 
+In summary we now have established a system of [[Quillen adjunctions]] and [[Quillen equivalences]] of the form
+
+$$
+  \array{
+    (Top^{\ast/}_{cg})_{Quillen}
+      &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+      &
+    (Top^{\ast/}_{cg})_{Quillen}
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+      &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}} 
+    \\
+    SeqSpec(Top_{cg})_{strict}
+     &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+     &
+    SeqSpec(Top_{cg})_{strict}
+    \\
+    {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}}
+      &&
+    {}^{\mathllap{id}}\downarrow \dashv \uparrow^{\mathrlap{id}} 
+    \\
+    SeqSpec(Top_{cg})_{stable}
+     &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\simeq_Q}
+     &
+    SeqSpec(Top_{cg})_{stable}
+    \\
+    \\       
+    {}^{\mathllap{orth_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{orth^\ast}}
+      &&
+    {}^{\mathllap{orth_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{orth^\ast}}
+    \\
+    OrthSpec(Top_{cg})_{stable}
+      &&
+    OrthSpec(Top_{cg})_{stable}
+  }
+$$
+
+where the total vertical composite 
+
+$$
+  \array{
+    (Top^{\ast/}_{cg}, \wedge , S^0)
+    \\
+    {}^{\mathllap{\Sigma^\infty_{orth}}}\downarrow
+     \dashv
+    \uparrow^{\mathrlap{\Omega^\infty_{orth}}}
+    \\
+    ( OrthSpec(Top_{cg}), \wedge, \mathbb{S}_{orth} )
+  }
+$$
+
+is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}).
+
+Moreover, under passage to [[homotopy category of a model category|homotopy categories]] this yields a commuting diagram of [[derived functor|derived]] [[adjoint functors]]
+
+$$
+  \array{
+    Ho(Top^{\ast/})
+    &
+      \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\bot}
+    &
+    Ho(Top^{\ast/})
+    \\
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
+      &&
+    {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}} 
+   \\
+   Ho(Spectra)
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\simeq}
+    &
+  Ho(Spectra)
+  }
+$$
+
+where the vertical
+
+$$
+  \array{
+     (Ho(Top^{\ast/}), \wedge^L, S^0)
+     \\
+     \downarrow^{\mathrlap{\Sigma^\infty}}
+     \\
+     (Ho(Spectra), \wedge^L, \mathbb{S})
+  }
+$$
+
+is a [[strong monoidal functor]] from the the derive [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
+
 (...)
 
 [[!include homological and higher algebra -- table]]
 
 (...)
+
 
 
 
