@@ -310,7 +310,7 @@ is a [[monomorphism]].
 
 =--
 
-(e.g. [Kochmann 96, p. 40](#Kochmann96))
+(e.g. [Dupont 78, (8.28)](#Dupont78), [Kochmann 96, p. 40](#Kochmann96)) 
 
 
 +-- {: .num_prop #SplittingPrincipleForChernClasses}
@@ -487,6 +487,9 @@ For [[Conner-Floyd Chern classes]] in [[complex oriented cohomology theory]]:
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
+See also 
+
+* {#Dupont78} Dupont, _Curvature and characteristic classes_, Springer 1978
 
 
 [[!redirects Chern classes]]
