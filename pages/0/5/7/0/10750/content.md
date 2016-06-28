@@ -8157,7 +8157,7 @@ In view of theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSat
 +-- {: .num_remark #EMHomology}
 ###### Remark
 
-Let $A,X \in Ho(Spectra)$ be two spectra in the [[stable homotopy category]], then the [[stable homotopy groups]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of their derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) is also called the _[[generalized (Eilenberg-Steenrod) homology]]_ of $X$ with [[coefficients]] in $A$ and denoted
+Let $A,X \in Ho(Spectra)$ be two spectra in the [[stable homotopy category]], then the [[stable homotopy groups]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of their derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) is also called the _[[generalized homology]]_ of $X$ with [[coefficients]] in $A$ and denoted
 
 $$
   A_\bullet(X)
@@ -8308,6 +8308,7 @@ and the symmetry of the smash product on $Top^{\ast/}_{cg}$ (example \ref{Pointe
 =--
 
 
+
 ##### Homotopy ring spectra
 
 +-- {: .num_defn #HomotopyCommutativeRingSpectrum}
@@ -8320,7 +8321,7 @@ A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] 
 +-- {: .num_prop}
 ###### Proposition
 
-The [[stable homotopy groups]] $\pi_\bullet(E)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of a [[homotopy commutative ring spectrum]] $E$ (def. \ref{HomotopyCommutativeRingSpectrum}) canonically inherit the structure of a $\mathbb{Z}$-[[graded ring]]. Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homoloby]] (remark \ref{EMHomology})
+The [[stable homotopy groups]] $\pi_\bullet(E)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of a [[homotopy commutative ring spectrum]] $E$ (def. \ref{HomotopyCommutativeRingSpectrum}) canonically inherit the structure of a $\mathbb{Z}$-[[graded ring]]. Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homology]] (remark \ref{EMHomology})
 
 $$
   E_\bullet(X)
@@ -8332,7 +8333,88 @@ canonically inherits the structure of a graded $\pi_\bullet(E)$-[[module]].
 
 =--
 
-spring
++-- {: .proof}
+###### Proof
+
+Under the identification ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum))
+
+$$
+  \pi_\bullet(E)
+    \simeq
+  [\mathbb{S}, E]_\bullet
+$$
+
+let $\alpha_i \in \pi_{n_i}(X)$ be represented by 
+
+$$
+  \alpha_i
+     \;\colon\;
+  \mathbb{S} 
+    \longrightarrow
+  \Sigma^{-n_i}
+  E
+  \,.
+$$
+
+Under the derived [[symmetric monoidal smash product of spectra]] $\mathbb{S}$ is the [[tensor unit]] (corollary \ref{MonoidalStableHomotopyCategory}) and so we may form the composite
+
+$$
+  \alpha_1 \cdot \alpha_2
+  \;\colon\;
+  \mathbb{S}
+    \underoverset{\simeq}{\ell_{\mathbb{S}}^{-1}}{\longrightarrow}
+  \mathbb{S} \wedge^L \mathbb{S}
+    \overset{\alpha_1 \wedge^L \alpha_2}{\longrightarrow}
+  (\Sigma^{-n_1} E) \wedge^L (\Sigma^{-n_2} E)
+    \simeq
+  \Sigma^{-n_1 - n_2} (E \wedge^L E)
+    \overset{\Sigma^{-n_1 - n_2}(\mu)}{\longrightarrow}
+  \Sigma^{-n_1 - n_2} E
+  \,,
+$$
+
+where the isomorphism in the middle is from lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}.
+
+Similarly given 
+
+$$
+  \alpha 
+     \;\colon\;
+  \mathbb{S} 
+    \longrightarrow
+  \Sigma^{-n_1} E
+$$
+
+as before and 
+
+$$
+  \nu 
+    \;\colon\;
+  \mathbb{S}
+    \longrightarrow
+  \Sigma^{-n_2}E \wedge X
+$$
+
+representing an element in $\pi_\bullet(E \wedge X)\simeq [\mathbb{S}, E \wedge X]_\bullet$, then an action is defined by the composite
+
+$$
+  \alpha \cdot \nu
+  \;\colon\;
+  \mathbb{S}
+    \underoverset{\simeq}{\ell_{\mathbb{S}}^{-1}}{\longrightarrow}
+  \mathbb{S}\wedge^L \mathbb{S}
+    \overset{\alpha \wedge^L \beta}{\longrightarrow}
+  \Sigma^{-n_1} E \wedge^L \Sigma^{-n_2} E\wedge X
+   \simeq
+  \Sigma^{-n_1 -n_2} E \wedge^L \wedge E \wedge^L X
+  \overset{\Sigma^{-n_1-n_2}(\mu \wedge id) }{\longrightarrow}
+  \Sigma^{-n_1 - n_2} E \wedge^L X
+  \,.
+$$
+
+
+
+=--
 
 
 #### Conclusion
