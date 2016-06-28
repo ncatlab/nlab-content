@@ -1,30 +1,66 @@
-
-
-+-- {: .num_prop}
-###### Proposition
-
-Given a strong [[monoidal Quillen adjunction]] 
-
 $$
-  \mathcal{C}
-    \underoverset
-      {\underset{R}{\longrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
+  \array{
+    \mathcal{D}_c \times \mathcal{D}_c
+      &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
+    \mathcal{D}_c
+      &\overset{L}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+        \swArrow_{\simeq}
+      &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    \mathcal{D}_c \times \mathcal{D}_c
+      &\overset{L \times L}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{\otimes_{\mathcal{C}}}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{C}} \times \gamma_{\mathcal{C}} }}
+      &&
+    \downarrow^{\gamma_{\mathcal{C}}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;
+   \simeq
+  \;\;\;\;\;
+  \array{
+     \mathcal{D}_c \times \mathcal{D}_c
+       &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
+     \mathcal{D}_c
+       &\overset{L}{\longrightarrow}&
+     \mathcal{C}_c
+     \\
+    \\
+    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{D}}  }}
+      &&
+    \downarrow^{\gamma_{\mathcal{C}}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\overset{\otimes^L_{\mathcal{D}}}{\longrightarrow}&
+    Ho(\mathcal{D})
+      &\overset{\mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C})
+    \\
+    {}^{\mathllap{=}}\downarrow    
+      && \swArrow_{\simeq}&&
+    \downarrow^{\mathrlap{=}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
 $$
-
-
-between [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then the  [[left derived functor]] of $L$ is a [[strong monoidal functor]] between [[homotopy category of a model category|homotopy categories]]
-
-$$
-  \mathbb{L}L
-  \;\colon\;
-  (Ho(\mathcal{C}), \otimes_{\mathcal{C}}, \gamma(1)_{\mathcal{C}})
-   \longrightarrow
-  (Ho(\mathcal{D}), \otimes_{\mathcal{D}}, \gamma(1)_{\mathcal{D}})
-  \,.
-$$
-
-=--
-
