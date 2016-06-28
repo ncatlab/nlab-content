@@ -1,66 +1,8 @@
-$$
-  \array{
-    \mathcal{D}_c \times \mathcal{D}_c
-      &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
-    \mathcal{D}_c
-      &\overset{L}{\longrightarrow}&
-    \mathcal{C}_c
-    \\
-    {}^{\mathllap{=}}\downarrow
-      &&
-        \swArrow_{\simeq}
-      &&
-    \downarrow^{\mathrlap{=}}
-    \\
-    \mathcal{D}_c \times \mathcal{D}_c
-      &\overset{L \times L}{\longrightarrow}&
-    \mathcal{C}_c \times \mathcal{C}_c
-      &\overset{\otimes_{\mathcal{C}}}{\longrightarrow}&
-    \mathcal{C}_c
-    \\
-    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{C}} \times \gamma_{\mathcal{C}} }}
-      &&
-    \downarrow^{\gamma_{\mathcal{C}}}
-    \\
-    Ho(\mathcal{D}) \times Ho(\mathcal{D})
-      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
-    Ho(\mathcal{C}) \times Ho(\mathcal{C})
-      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-  \;\;\;\;\;
-   \simeq
-  \;\;\;\;\;
-  \array{
-     \mathcal{D}_c \times \mathcal{D}_c
-       &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
-     \mathcal{D}_c
-       &\overset{L}{\longrightarrow}&
-     \mathcal{C}_c
-     \\
-    \\
-    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\gamma_{\mathcal{D}}  }}
-      &&
-    \downarrow^{\gamma_{\mathcal{C}}}
-    \\
-    Ho(\mathcal{D}) \times Ho(\mathcal{D})
-      &\overset{\otimes^L_{\mathcal{D}}}{\longrightarrow}&
-    Ho(\mathcal{D})
-      &\overset{\mathbb{L}L}{\longrightarrow}&
-    Ho(\mathcal{C})
-    \\
-    {}^{\mathllap{=}}\downarrow    
-      && \swArrow_{\simeq}&&
-    \downarrow^{\mathrlap{=}}
-    \\
-    Ho(\mathcal{D}) \times Ho(\mathcal{D})
-      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
-    Ho(\mathcal{C}) \times Ho(\mathcal{C})
-      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
-    Ho(\mathcal{C})
-  }
-$$
+
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| [[integers]] $\mathbb{Z}$ | [[sphere spectrum]] $\mathbb{S}$ |
+| $Ab \simeq \mathbb{Z} Mod$   | $Spectra \simeq \mathbb{S} Mod$ |
+| [[direct sum]] $\oplus$ | [[wedge sum]] $\vee$ |
+| [[tensor product of modules]] $\otimes$ | [[smash product of spectra]] $\wedge$ |
+| [[kernels]]/[[cokernels]] | [[homotopy fibers]]/[[homotopy cofibers]] |
