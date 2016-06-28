@@ -1,1 +1,67 @@
-Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[commutative monoids in a symmetric monoidal category|commutative monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. 
+
++-- {: .num_defn}
+###### Definition
+
+
+Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a homotopy [[commutative ring spectrum]]. Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
+
+$$
+  \array{
+    & \vdots
+    \\
+    & \downarrow
+    \\
+    & Y_3 &\overset{f_3}{\longrightarrow}& E \wedge Y_3 = W_3
+    \\
+    & \downarrow
+    \\
+    & Y_2 &\overset{f_2}{\longrightarrow}& E \wedge Y_2 = W_2
+    \\
+    & \downarrow
+    \\
+    & Y_1 &\overset{f_1}{\longrightarrow}& E \wedge Y_1 = W_1
+    \\
+    & \downarrow
+    \\
+    Y = & Y_0 &\overset{f_0}{\longrightarrow}& E \wedge Y_0 & = W_0
+  }
+  \,,
+$$
+
+where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
+
+$$
+  Y_{n+1} \longrightarrow Y_n \longrightarrow W_n \longrightarrow \Sigma Y_{n+1}
+$$
+
+is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), where 
+
+$$
+  W_n \coloneqq E \wedge Y_n
+  \,,
+$$ 
+
+and where
+
+$$
+  f_n
+  \;\colon\;
+  Y_n 
+    \underoverset{\simeq}{\ell^{-1}_{Y_n}}{\longrightarrow} 
+  \mathbb{S} \wedge Y_n
+    \overset{e \wedge id}{\longrightarrow}
+  E \wedge Y_{n}
+$$
+
+is the composition of the inverse derived [[unitor]] on $Y_n$ with the smash product of the unit $e$ of $E$ and the identity on $Y_n$.
+
+=--
+
+([Adams 74, theorem 15.1 page 318](#Adams74))
+
++-- {: .num_defn}
+###### Definition
+
+
+
+=--
