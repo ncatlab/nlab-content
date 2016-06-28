@@ -5700,7 +5700,7 @@ to be in degree $n$ the abelian hom group of lemma \ref{StableHomotopyCategoryIs
 $$
   [X,Y]_n 
      \;\coloneqq\;
-  [X, \Sigma^n Y]
+  [X, \Sigma^{-n} Y]
   \,.
 $$
 
@@ -5709,11 +5709,11 @@ Defining the composition of  $f_1 \in [X,Y]_{n_1}$ with $f_2 \in [Y,Z]_{n_2}$ to
 $$
   X 
     \overset{f_1}{\longrightarrow} 
-  \Sigma^{n_1} Y
-    \overset{\Sigma^{n_2}(f_2)}{\longrightarrow} 
-  \Sigma^{n_2}(\Sigma^{n-1} Z)
+  \Sigma^{-n_1} Y
+    \overset{\Sigma^{-n_2}(f_2)}{\longrightarrow} 
+  \Sigma^{-n_2}(\Sigma^{-n_1} Z)
     \simeq
-  \Sigma^{n_1 + n_2} Z
+  \Sigma^{-n_1 - n_2} Z
 $$
 
 gives the [[stable homotopy category]] the structure of an $Ab^{\mathbb{Z}}$-[[enriched category]]. 
@@ -5732,7 +5732,7 @@ $$
   \begin{aligned}
     \tilde E^\bullet(X)
      & \coloneqq
-    [\Sigma^\infty X, E]_\bullet
+    [\Sigma^\infty X, E]_{-\bullet}
      \\
      & =
     [\Sigma^\infty X, \Sigma^\bullet E]
@@ -7179,10 +7179,19 @@ Let $X \in SeqSpec(Top_{cg})$ be any [[sequential spectrum]], then there is an [
 $$
   \pi_0(X)
     \simeq
-  [\mathbb{S}, X]_\ast
+  [\mathbb{S}, X]
 $$
 
 between its [[stable homotopy group]] in degree 0 (def. \ref{StableHomotopyGroups}) and the hom-group (according to def. \ref{AdditiveCategory}, prop. \ref{TheStableHomotopyCategoryIsAdditive}) in the [[stable homotopy category]] (def. \ref{TheStableHomotopyCategory}) from the [[sphere spectrum]] (def. \ref{StandardSphereSpectrum}) into $X$. 
+
+Generally, with respect to the graded hom-groups of def. \ref{GradedAbelianGroupStructureOnHomsInTheHomotopyCategory} we have
+
+$$
+  \pi_\bullet(X)
+   \simeq
+  [\mathbb{S},X]_\bullet
+  \,.
+$$
 
 =--
 
@@ -7243,6 +7252,15 @@ $$
 $$
 
 with $\pi_0$ of the 0-component of $Q X$. With this the statement follows with example \ref{StableHomotopyGroupsOfOmegaSpectrum}, since $Q X$ is an Omega-spectrum, by prop. \ref{PropertiesOfSpectrificationForTopologicalSequentialSpectra}.
+
+From this the last statement follows from the identity
+
+$$
+  \pi_0( \Sigma^{-n}(-) )
+  \simeq
+  \pi_n(-)
+  \,.
+$$
 
 =--
 
