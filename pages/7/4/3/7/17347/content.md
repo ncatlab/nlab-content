@@ -7632,7 +7632,7 @@ is a [[monomorphism]].
 
 =--
 
-(e.g. [Kochmann 96, p. 40](#Kochmann96))
+A **proof** of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} via analysis of the [[Serre spectral sequence]] of $U(n)/U(1)^n \to B U(1)^n \to B U(n)$ is indicated in ([Kochmann 96, p. 40](#Kochmann96)). A proof via [[Becker-Gottlieb transfer|transfer]] of the [[Euler class]] of $U(n)/U(1)^n$ is indicated at _[[splitting principle]]_ ([here](splitting+principle#InjectivityOfPullbackInCohomologyToBT)).
 
 
 +-- {: .num_prop #SplittingPrincipleForChernClasses}
