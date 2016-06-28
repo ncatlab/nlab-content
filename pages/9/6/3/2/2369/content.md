@@ -25,7 +25,7 @@ The terminology  _(commutative) ring spectrum_ refers either to a ([[commutative
 
 In the first case a ring spectrum is a [[spectrum]] equipped with a unit and product operation, which is associative, unital  (and commutative) just up to unspecified [[homotopy]] (such as in an [[H-space]] structure). In the second case the structure is much richer; and in good cases, such as for [[highly structured spectra]], is equivalent to [[A-∞ ring]] structure ([[E-∞ ring]] structure).
 
-To distinguish the two situations further qualification is being used. Sometimes one says "homotopy ring spectrum" to explicitly refer to the first case (e.g. [Schwede 12, chapter II 4.1](#Schwede12)) or one says "[[highly structured ring spectrum]]" to refer explicitly to the second case. For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
+To distinguish the two situations further qualification is being used. Sometimes one says **homotopy ring spectrum** to explicitly refer to the first case (e.g. [Schwede 12, chapter II 4.1](#Schwede12)) or one says "[[highly structured ring spectrum]]" to refer explicitly to the second case. For more on this see at _[[brave new algebra]]_ and _[[higher algebra]]_.
 
 Since the concept of [[spectrum]] is the refinement of the concept of [[abelian group]] to [[homotopy theory]]/[[(∞,1)-category theory]]. The concept of **ring spectrum** is the corresponding generalization of the notion of ([[commutative ring|commutative]]) [[ring]].
 
@@ -106,5 +106,9 @@ See also the references at [[stable homotopy theory]].
 [[!redirects commutative ring spectrum]]
 [[!redirects commutative ring spectra]]
 
+[[!redirects homotopy ring spectrum]]
+[[!redirects homotopy ring spectra]]
 
+[[!redirects homotopy commutative ring spectrum]]
+[[!redirects homotopy commutative ring spectra]]
 
