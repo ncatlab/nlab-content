@@ -31,7 +31,7 @@ _Dolbeault cohomology_ of a [[complex manifold]] $X$ is the [[chain cohomology]]
 
 ### Dolbeault theorem
 
-By the _[[Dolbeault theorem]]_ (see there) Dolbeault cohomology is equivalently the [[abelian sheaf cohomology]] $H^q(X;\Omega_X^p)$, of the [[abelian sheaf]] $\Omega_X^p$ is [[Dolbeault complex]] of [[holomorphic p-forms]].
+By the _[[Dolbeault theorem]]_ (see there) Dolbeault cohomology is equivalently the [[abelian sheaf cohomology]] $H^q(X;\Omega_X^p)$, of the [[abelian sheaf]] $\Omega_X^p$ which is the [[Dolbeault complex]] of [[holomorphic p-forms]].
 
 ### Hodge isomorphism
 
