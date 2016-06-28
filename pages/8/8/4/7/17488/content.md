@@ -1583,9 +1583,9 @@ In various references the "alternative suspension" from def. \ref{SequentialSpec
 +-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
 ###### Remark
 
-There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity of smash products of spheres (prop. \ref{GradedCommutativityOfSmashOfSpheres}): 
+There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial graded commutativity of smash products of spheres: 
 
-namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
+namely a comparison isomorphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way around) would have to make the following diagrams commute:
 
 $$
   \array{
@@ -1598,6 +1598,8 @@ $$
      S^1 \wedge X_{n+1} &\longrightarrow& X_{n+1} \wedge S^1
   }
 $$
+
+and [[natural transformation|naturally]] so in $X$.
 
 Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
 
