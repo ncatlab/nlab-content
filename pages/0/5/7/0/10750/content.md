@@ -929,6 +929,12 @@ If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]
 
 (e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2, lemma 2.2.8](#HoveyShipleySmith00))
 
++-- {: .proof}
+###### Proof sketch
+
+The associators and braiding for $\otimes_{A}$ are induced directly from those of $\otimes$ and the [[universal property]] of [[coequalizers]]. That $A$ is the tensor unit for $\otimes_{A}$ follows with the same kind of argument that we give in the proof of example \ref{FreeModulesTensorProduct} below.
+
+=--
 
 +-- {: .num_example #FreeModulesTensorProduct}
 ###### Example
@@ -5312,8 +5318,15 @@ $$
   \mathbb{S}_{dia}
   \simeq
   F_0^{dia} S^0
-  \,.
 $$
+
+and generally for $K \in Top^{\ast/}_{cg}$ then
+
+$$
+  F_0^{dia} K \simeq \mathbb{S}_{dia} \wedge K
+$$
+
+is the smash tensoring of the strutured sphere spectrum with $K$.
 
 =--
 
@@ -5595,7 +5608,7 @@ In particular for structured [[suspension spectra]] $\Sigma^\infty_{dia}\coloneq
 
 $$
   \Sigma^\infty_{dia}(K_1)
-    \wedge
+    \otimes_{\mathbb{S}_{dia}}
   \Sigma^\infty_{dia}(K_2)
     \;\simeq\;
   \Sigma^\infty_{dia}(K_1 \wedge K_2)
@@ -5612,6 +5625,17 @@ $$
   ( \mathbb{S}_{dia}Mod, \otimes_{\mathbb{S}_{dia}}, \mathbb{S}_{dia} )
   \,.
 $$
+
+More generally, for $X \in \mathbb{S}_{dia}Mod$ then
+
+$$
+  X \otimes_{\mathbb{S}_{dia}} ( \Sigma^\infty_{dia} K )
+  \simeq
+  X \wedge K
+  \,,
+$$
+
+where on the right we have the smash tensoring of $X$ with $K \in Top^{\ast/}_{cg}$.
 
 =--
 
@@ -5673,6 +5697,7 @@ $$
   \,.
 $$
 
+For the last statement we may use that $\Sigma^\infty_{dia} K \simeq \mathbb{S}_{dia} \wedge K$, by lemma \ref{ExplicitExpressionForFreeSpectra}), and that $\mathbb{S}_{dia}$ is the [[tensor unit]] for $\otimes_{\mathbb{S}_{dia}}$ by prop. \ref{MonoidalCategoryOfModules}.
 
 =--
 
@@ -8129,11 +8154,49 @@ In view of theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSat
 
 =--
 
++-- {: .num_remark #EMHomology}
+###### Remark
 
-+-- {: .num_defn #HomotopyCommutativeRingSpectrum}
-###### Definition
+Let $A,X \in Ho(Spectra)$ be two spectra in the [[stable homotopy category]], then the [[stable homotopy groups]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of their derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) is also called the _[[generalized (Eilenberg-Steenrod) homology]]_ of $X$ with [[coefficients]] in $A$ and denoted
 
-A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the monoidal stable homotopy category $(Ho(Spectra),\wedge^L, \gamma(\mathbb{S}))$ of corollary \ref{MonoidalStableHomotopyCategory} is called a **[[homotopy commutative ring spectrum]]**.
+$$
+  A_\bullet(X)
+    \coloneqq
+  \pi_\bullet(A \wedge X)
+  \,.
+$$
+
+This is dual to the concept of [[generalized (Eilenberg-Steenrod) cohomology]] ([example](Introduction+to+Stable+homotopy+theory+--+1-1#ForASpectrumXGeneralizedECohomology))
+
+$$
+  A^\bullet(X)
+   \coloneqq
+  [X,A]_\bullet
+  \,.
+$$
+
+Notice that ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory), [lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) 
+
+$$
+  \begin{aligned}
+    A_\bullet(X)
+    & \pi_\bullet(A \wedge X)
+    \\
+    & \simeq
+    [\mathbb{S}, A \wedge X]_\bullet
+  \end{aligned}
+  \,.
+$$
+
+In the special case that $X = \Sigma^\infty K$ is a [[suspension spectrum]], then 
+
+$$
+  A_\bullet(X) 
+  \simeq
+  \pi_\bullet( A \wedge K )
+$$
+
+(by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the generalized $A$-homology of the topological space $K \in Top^{\ast/}_{cg}$.
 
 =--
 
@@ -8169,6 +8232,107 @@ But now every [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theor
 
 =--
 
++-- {: .num_lemma #SmashProductOfSpectraCompatibleWithSuspension}
+###### Lemma
+
+The canonical [[suspension]] functor on the [[stable homotopy category]] 
+
+$$
+  \Sigma \;\colon\; Ho(Spectra) \longrightarrow Ho(Spectra)
+$$
+
+commutes with forming the derived [[symmetric monoidal smash product of spectra]] $\wedge^L$ from corollary \ref{MonoidalStableHomotopyCategory} in that for $X,Y\in Ho(Spectra)$ any two spectra, then there are [[isomorphisms]]
+
+$$
+  \Sigma ( X \wedge^L Y)
+  \simeq
+  (\Sigma X) \wedge^L Y
+  \simeq
+  X \wedge^L (\Sigma Y)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} the [[symmetric monoidal smash product of spectra]] is a [[left Quillen functor]], and by prop. \ref{SmashTensoringWithCellComplexIsLeftQuillen} and lemma \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the canonical suspension operation is the [[left derived functor]] of the [[left Quillen functor]] $(-)\wedge S^1$ of smash tensoring with $S^1$. Therefore all three expressions are represented by application of the underived functors on cofibrant representatives in $OrthSpec(Top_{cg})$ (the fibrant replacement that is part of the derived functor construction is preserved by left Quillen functors).
+
+So for $X$ and $Y$ cofibrant orthogonal spectra (which we denote by the same symbol as the objects in the homotopy category which they represent), by def. 
+\ref{SsymModuleSymmetricSpectra} (or more explicitly by prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}), the object $\Sigma(X \wedge^L Y) \in Ho(Spectra)$ is represented by the [[coequalizer]]
+
+$$
+  (X \otimes_{Day} \mathbb{S}_{orth} \otimes Y) \wedge S^1
+    \underoverset
+      {\longrightarrow}
+      {\longrightarrow}
+      {\phantom{AAAAAA}}
+  (X \otimes_{Day} Y) \wedge S^1
+  \overset{coeq}{\longrightarrow}
+  (X \otimes_{\mathbb{S}_{orth}}Y) \wedge S^1
+  \,,
+$$ 
+
+where the two morphisms bing coequalized are the images of those of def. \ref{SsymModuleSymmetricSpectra} under smash tensoring with $S^1$. Now it is sufficient to observe that for any $K \in Top^{\ast/}_{cg}$ we have canonical isomorphisms
+
+$$
+  (X \otimes_{Day} Y) \wedge K
+  \simeq
+  (X \otimes_{Day} (Y \wedge K))
+  \simeq
+  ( (X \wedge K) \otimes_{Day} Y )
+$$
+
+and similarly for the triple Day tensor product.
+
+This follows directly from the definition of the [[Day convolution]] product (def. \ref{TopologicalDayConvolutionProduct})
+
+$$
+  \begin{aligned}
+     ((X \otimes_{Day} Y) \wedge K)(V)
+     & =
+     \overset{V_1,V_2}{\int} 
+      Orth(V_1 \oplus V_2,V) 
+        \wedge
+      X(V_1)
+        \wedge 
+      Y(V_2)
+        \wedge 
+      K     
+  \end{aligned}
+$$
+
+and the symmetry of the smash product on $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}).
+
+=--
+
+
+##### Homotopy ring spectra
+
++-- {: .num_defn #HomotopyCommutativeRingSpectrum}
+###### Definition
+
+A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] (def. \ref{MonoidsInMonoidalCategory}) the monoidal stable homotopy category $(Ho(Spectra),\wedge^L, \gamma(\mathbb{S}))$ of corollary \ref{MonoidalStableHomotopyCategory} is called a **[[homotopy commutative ring spectrum]]**.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy groups]] $\pi_\bullet(E)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of a [[homotopy commutative ring spectrum]] $E$ (def. \ref{HomotopyCommutativeRingSpectrum}) canonically inherit the structure of a $\mathbb{Z}$-[[graded ring]]. Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homoloby]] (remark \ref{EMHomology})
+
+$$
+  E_\bullet(X)
+    \coloneqq
+  \pi_\bullet(E \wedge X)
+$$
+
+canonically inherits the structure of a graded $\pi_\bullet(E)$-[[module]].
+
+=--
+
+spring
 
 
 #### Conclusion
