@@ -102,6 +102,15 @@ $$
 
 =--
 
++-- {: .num_theorem}
+###### Remark
+
+One way to see that $B i^*\colon H^*(B G) \to H^*(B T)$ is injective is by using [[Chern-Weil theory]] to recognise that this map is just $Sym^{\ast} \mathfrak{g}^{\vee} \to Sym^{\ast} \mathfrak{t}^{\vee}$ for $G$ a compact [[Lie group]]. This tells us firstly that these cohomology rings are particularly nice.
+
+One can define a 'transfer map' $\tau\colon H^*(B T) \to H^*(B G)$ as in [this MO answer](http://mathoverflow.net/questions/61784/cohomology-of-bg-g-compact-lie-group/61943#61943), and then show, following ([Dupont 1978](#Dupont78), chapter 8), that $\tau\circ B i^*\colon H^*(B G)\to H^*(B G)$ is multiplication by the [[Euler characteristic]] $\chi(G/T)$. Thus if $\chi(G/T) \gt 0 $ then $\tau\circ B i^*$ hence $B i^*$ is injective. One can calculate $\chi(G/T) = | N(T)/T |$, where $N(T)/T =: W_T$ is the [[Weyl group]] of the maximal torus $T$, using a [[Lefschetz trace formula|Lefshetz fixed point]]-argument, giving the result.
+
+=--
+
 ## Examples
  {#Examples}
 
@@ -168,11 +177,14 @@ See also
 
 * _Notes on the splitting principle_ ([pdf](http://www.math.sunysb.edu/~azinger/mat566/splitting.pdf))
 
+* {#Dupont78} Johan L. Dupont, _Curvature and Characteristic Classes_, Lecture Notes in Mathematics, **640** (1978) doi:[10.1007/BFb0065364](http://dx.doi.org/10.1007/BFb0065364).
+
 Discussion in the context of [[complex oriented cohomology theory]] and their [[generalized Chern classes]] includes
 
 * [Kochmann 96, section 4.3](#Kochmann96)
 
 * [[Jacob Lurie]], lecture 4 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) 
+
 
 
 [[!redirects Chern root]]
