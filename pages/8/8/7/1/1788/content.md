@@ -1,67 +1,31 @@
++-- {: .num_lemma #SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}
+###### Lemma
 
-+-- {: .num_defn}
-###### Definition
-
-
-Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a homotopy [[commutative ring spectrum]]. Then the **$E$-[[Adams spectral sequence]]** for the computation of the [[graded abelian group]] $[X,Y]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
+For $X \in Ho(Spectra)$ any spectrum in the [[stable homotopy category]] (remark \ref{StableHomotopyCategoryStructuredSpectra}), then the derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) 
 
 $$
-  \array{
-    & \vdots
-    \\
-    & \downarrow
-    \\
-    & Y_3 &\overset{f_3}{\longrightarrow}& E \wedge Y_3 = W_3
-    \\
-    & \downarrow
-    \\
-    & Y_2 &\overset{f_2}{\longrightarrow}& E \wedge Y_2 = W_2
-    \\
-    & \downarrow
-    \\
-    & Y_1 &\overset{f_1}{\longrightarrow}& E \wedge Y_1 = W_1
-    \\
-    & \downarrow
-    \\
-    Y = & Y_0 &\overset{f_0}{\longrightarrow}& E \wedge Y_0 & = W_0
-  }
-  \,,
-$$
-
-where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
-
-$$
-  Y_{n+1} \longrightarrow Y_n \longrightarrow W_n \longrightarrow \Sigma Y_{n+1}
-$$
-
-is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), where 
-
-$$
-  W_n \coloneqq E \wedge Y_n
-  \,,
-$$ 
-
-and where
-
-$$
-  f_n
+  X \wedge^L (-)
   \;\colon\;
-  Y_n 
-    \underoverset{\simeq}{\ell^{-1}_{Y_n}}{\longrightarrow} 
-  \mathbb{S} \wedge Y_n
-    \overset{e \wedge id}{\longrightarrow}
-  E \wedge Y_{n}
+  Ho(Spectra)
+    \longrightarrow
+  Ho(Spectra)
 $$
 
-is the composition of the inverse derived [[unitor]] on $Y_n$ with the smash product of the unit $e$ of $E$ and the identity on $Y_n$.
+preserves [[homotopy cofiber sequences]].
 
 =--
 
-([Adams 74, theorem 15.1 page 318](#Adams74))
++-- {: .proof}
+###### Proof
 
-+-- {: .num_defn}
-###### Definition
+We may choose a cofibrant representative of $X$ in $OrthSpec(Top_{cg})_{stable}$, which we denote by the same symbol. Then by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} 
 
+$$
+  X \wedge (-) \;\colon\; OrthSpec(Top_{cg})_{stable} \longrightarrow OrthSpec(Top_{cg})_{stable}_{stable}
+$$
 
+is a left Quillen functor in that it preserves cofibrations and acyclic cofibrations (and it is a [[left adjoint]] by prop. \ref{MonoidalCategoryOfModules}. Hence its [[left derived functor]] is equivalently its restriction to cofibrant objects followed by the localization functor.
+
+But now every [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) is represented by the ordinary [[cofiber]] of a cofibration. The left Quillen functor preserves both the cofibration as well as its cofiber.
 
 =--
