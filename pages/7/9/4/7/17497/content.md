@@ -4513,6 +4513,348 @@ $$
 
 =--
 
++-- {: .num_defn #RingSpectrumInSymmetricAndOrthogonalSpectra}
+###### Definition
+
+A **symmetric [[commutative ring spectrum]]** $E$ is 
+
+1. a sequence of component spaces $E_n \in Top^{\ast/}_{cg}$ for $n \in \mathbb{N}$;
+
+1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma(n)$ on $E_n$;
+
+1. for all $n_1,n_2\in \mathbb{N}$ a _multiplication map_
+
+   $$
+     \mu_{n_1,n_2}
+       \;\colon\;
+      E_{n_1} \wedge E_{n_2} \longrightarrow E_{n_1 + n_2}
+   $$
+
+   (a morphism in $Top^{\ast/}_{cg}$)
+
+1. two _unit maps_
+
+   $$
+     \iota_0 \;\colon\; S^0 \longrightarrow E_0
+   $$
+
+   $$
+     \iota_1 \;\colon\; S^1 \longrightarrow E_1
+   $$
+
+such that
+
+1. $\mu_{n_1,n_2}$ [[intertwiner|intertwines]] the $\Sigma(n_1) \times \Sigma(n_2)$-action;
+
+1. (associativity) for all $n_1, n_2, n_3 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]] (where we are notationally suppressing the [[associators]] of $(Top^{\ast/}_{cg}, \wedge, S^0)$)
+
+   $$
+     \array{
+       E_{n_1} \wedge E_{n_2} \wedge E_{n_3}
+         &\overset{id \wedge \mu_{n_2,n_3}}{\longrightarrow}&
+       E_{n_1} \wedge E_{n_2 + n_3}
+       \\
+       {}^{\mathllap{\mu_{n_1,n_2}\wedge id }}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{n_1, n_2 + n_3}}}
+       \\
+       E_{n_1 + n_2} \wedge E_{n_3}
+         &\underset{\mu_{n_1 + n_2, n_3}}{\longrightarrow}&
+       E_{n_1 + n_2 + n_3}
+     }
+     \,;
+   $$
+
+1. (unitality) for all $n \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       S^0 \wedge E_n 
+         &\overset{\iota_0 \wedge id}{\longrightarrow}&
+       E_0 \wedge E_n
+       \\
+       &{}_{\mathllap{\ell^{Top^{\ast/}_{cg}}_{E_n}}}\searrow& \downarrow^{\mathrlap{\mu_{0,n}}}
+       \\
+       && E_n
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+       E_n \wedge S^0 
+         &\overset{id \wedge \iota_0 }{\longrightarrow}&
+       E_n \wedge E_0
+       \\
+       &{}_{\mathllap{r^{Top^{\ast/}_{cg}}_{E_n}}}\searrow& \downarrow^{\mathrlap{\mu_{n,0}}}
+       \\
+       && E_n
+     }
+   $$
+
+1. (commutativity) for all $n_1, n_2 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       E_{n_1} \wedge E_{n_2}
+         &\overset{\tau^{Top^{\ast/}_{cg}}_{E_{n_1}, E_{n_2}}}{\longrightarrow}&
+       E_{n_2} \wedge E_{n_1}
+       \\
+       {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{n_2,n_1}}}
+       \\
+       E_{n_1 + n_2}
+         &\underset{\chi_{n_1,n_2}}{\longrightarrow}&
+       E_{n_2 + n_1}
+     }
+     \,,
+   $$
+
+where $\chi_{n_1,n_2} \in \Sigma(n_1 + n_2)$ denotes the [[permutation]] which [[shuffle|shuffles]] the first $n_1$ elements past the last $n_2$ elements.
+
+A [[homomorphism]] of symmetric commutative ring spectra $f \colon E \longrightarrow E'$ is a sequence $f_n \;\colon\; E_n \longrightarrow E'_n$ of $\Sigma(n)$-equivariant pointed continuous functions such that the following [[commuting diagram|diagrams commute]] for all $n_1, n_2 \in \mathbb{N}$
+
+$$
+  \array{
+    E_{n_1} \wedge E_{n_2}
+     &\overset{f_{n_1} \wedge f_{n_2}}{\longrightarrow}&
+    E'_{n_1} \wedge E'_{n_2}
+    \\
+    {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow 
+      &&
+    \downarrow^{\mu_{n_2,n_1}}
+    \\
+    E_{n_1 + n_2}
+     &\underset{\chi_{n_1, n_2}}{\longrightarrow}&
+    E_{n_2 + n_1}
+  }
+$$
+
+and $f_0 \circ \iota_0 = \iota_0$ and $f_1\circ \iota_1 = \iota_1$.
+
+Write
+
+$$
+  CRing(SymSpec(Top_{cg}))
+$$
+
+for the resulting [[category]] of symmetric [[commutative ring spectra]].
+
+There is an analogous definition of **orthogonal [[commutative ring spectra]]** and we write
+
+$$
+  CRing(OrthSpec(Top_{cg}))
+$$
+
+for the category that these form.
+
+=--
+
+([Schwede 12, def. 1.3](#Schwede12)) 
+
++-- {: .num_prop #RingSpectraAreDayMonoids}
+###### Proposition
+
+The symmetric (orthogonal) [[commutative ring spectra]] in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra} are equivalently the [[commutative monoid in a symmetric monoidal category|commutative monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[symmetric monoidal category]] $\mathbb{S}_{sym}Mod$ ($\mathbb{S}_{orth}Mod$) of def. \ref{SsymModuleSymmetricSpectra} with respect to the [[symmetric monoidal smash product of spectra]] $\wedge = \otimes_{\mathbb{S}_{sym}}$ ($\wedge = \otimes_{\mathbb{S}_{orth}}$). Hence there are [[equivalences of categories]]
+
+$$
+  CRing(SymSpec(Top_{cg}))
+   \;\simeq\;
+  CMon( \mathbb{S}_{sym}Mod, \otimes_{\mathbb{S}_{sym}}, \mathbb{S}_{sym} )
+$$
+
+and
+
+$$
+  CRing(OrthSpec(Top_{cg}))
+   \;\simeq\;
+  CMon( \mathbb{S}_{orth}Mod, \otimes_{\mathbb{S}_{orth}}, \mathbb{S}_{orth} )
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss this for symmetric spectra. The proof for orthogonal spectra is directly analogous.
+
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. in turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience) of the form
+
+$$
+  E \;\colon\; (Sym, +, 0) \longrightarrow (Top^{\ast/}_{cg}, \wedge, S^0)
+$$
+
+equipped with a [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  \iota \;\colon\; \mathbb{S}_{sym} \longrightarrow E
+  \,.
+$$
+
+The structure morphism of such a lax monoidal functor $E$ has as components precisely the morphisms $\mu_{n_1, n_2}\colon E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$.
+
+In terms of these, the associativity and braiding condition on the lax monoidal functor are manifestly the above associativity and commutativity conditions.
+
+
+Hence it only remains to match the nature of the units. The above unit morphism $\iota$ has components
+
+$$
+  \iota_n \;\colon\; S^n \longrightarrow E_n
+$$
+
+for all $n \in \mathbb{N}$, and the unitality condition for $\iota_0$ and $\iota_1$ is manifestly as in the statement above.
+
+We claim that the other components are uniquely fixed by these:
+
+By lemma \ref{FSPStructuredSphereSpectra}, the product structure in $\mathbb{S}_{sym}$ is by isomorphisms $S^{n_1} \wedge S^{n_2} \simeq S^{n_1 + n_2}$, so that the commuting square for the coherence condition of this [[monoidal natural transformation]] says that $\iota_{n_1 + n_2} = \mu_{n_1,n_2} \circ (\iota_{n_1} \wedge \iota_{n_2})$:
+
+$$
+  \array{
+    S^{n_1} \wedge S^{n_2}
+      &\overset{\iota_{n_1} \wedge \iota_{n_2}}{\longrightarrow}&
+    E_{n_1} \wedge E_{n_2}
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      && 
+    \downarrow^{\mathrlap{\mu_{n_1, n_2}}}
+    \\
+    S^{n_1 + n_2}
+      &\underset{\iota_{n_1 + n_2}}{\longrightarrow}&
+    E_{n_1 + n_2}
+  }
+  \,.
+$$
+
+This means that $\iota_{n \geq 2}$ is uniquely fixed once $\iota_0$ and $\iota_1$ are given.
+
+Finally it is clear that homomorphisms on both sides of the equivalence precisely respect all this structure under both sides of the equivalence.
+
+=--
+
+Similarly:
+
++-- {: .num_defn #SymmetricModuleSpectrum}
+###### Definition
+
+Given a symmetric (orthogonal) [[commutative ring spectrum]] $E$ (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}), then a left symmetric (orthogonal) **[[module spectrum]]** $N$ over $E$ is
+
+1. a sequence of component spaces $N_n \in Top^{\ast/}_{cg}$ for $n \in \mathbb{N}$;
+
+1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma(n)$ on $N_n$;
+
+1. for all $n_1,n_2\in \mathbb{N}$ an _action map_
+
+   $$
+     \rho_{n_1,n_2}
+       \;\colon\;
+      E_{n_1} \wedge N_{n_2} \longrightarrow N_{n_1 + n_2}
+   $$
+
+   (a morphism in $Top^{\ast/}_{cg}$)
+
+such that
+
+1. (action property) for all $n_1, n_2, n_3 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]] (where we are notationally suppressing the [[associators]] of $(Top^{\ast/}_{cg}, \wedge, S^0)$)
+
+   $$
+     \array{
+       E_{n_1} \wedge E_{n_2} \wedge N_{n_3}
+         &\overset{id \wedge \rho_{n_2,n_3}}{\longrightarrow}&
+       E_{n_1} \wedge N_{n_2 + n_3}
+       \\
+       {}^{\mathllap{\mu_{n_1,n_2}\wedge id }}\downarrow
+         &&
+       \downarrow^{\mathrlap{\rho_{n_1, n_2 + n_3}}}
+       \\
+       E_{n_1 + n_2} \wedge N_{n_3}
+         &\underset{\rho_{n_1 + n_2, n_3}}{\longrightarrow}&
+       N_{n_1 + n_2 + n_3}
+     }
+     \,;
+   $$
+
+1. (unitality) for all $n \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       S^0 \wedge N_n 
+         &\overset{\iota_0 \wedge id}{\longrightarrow}&
+       E_0 \wedge N_n
+       \\
+       &{}_{\mathllap{\ell^{Top^{\ast/}_{cg}}_{N_n}}}\searrow& \downarrow^{\mathrlap{\mu_{0,n}}}
+       \\
+       && N_n
+     }
+     \,.
+   $$
+
+A [[homomorphism]] of left $E$-module spectra $f\;\colon\; N \longrightarrow N'$ is a sequence of pointed continuous functions $f_n \;\colon\; N_n \longrightarrow N'_n$ such that for all $n_1,n_2 \in \mathbb{N}$ the following [[commuting diagram|diagrams commute]]:
+
+$$
+  \array{
+    E_{n_1} \wedge N_{n_2}
+     &\overset{id \wedge f_{n_2}}{\longrightarrow}&
+    E_{n_1} \wedge N'_{n_2}
+    \\
+    {}^{\mathllap{\rho_{n_1,n_2}}}\downarrow 
+      &&
+    \downarrow^{\rho_{n_1, n_2}}
+    \\
+    N_{n_1 + n_2}
+      &\underset{f_{n_1 + n_2}}{\longrightarrow}&
+    N'_{n_1 + n_2}
+  }
+  \,.
+$$
+
+We write
+
+$$
+  E Mod(SymSpec(Top_{cg}))
+  \;\;\,,
+  \;\;
+  E Mod(OrthSpec(Top_{cg}))
+$$
+
+for the resulting category of symmetric (orthogonal) $E$-module spectra.
+
+=--
+
++-- {: .num_prop #ModuleSpectraAreModuleFunctors}
+###### Proposition
+
+Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[monoids in a symmetric monoidal category|monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
+
+$$
+  E Mod(SymSpec(Top_{cg}))
+    \;\simeq\;
+  E Mod( [Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0) )
+$$
+
+and
+
+$$
+  E Mod(OrthSpec(Top_{cg}))
+    \;\simeq\;
+  E Mod( [Orth, Top^{\ast/}_{cg}], \otimes_{Day}, y(0) )
+  \,,
+$$
+
+where on the right we have the [[categories of modules]] from def. \ref{ModulesInMonoidalCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is directly analogous to that of prop. \ref{RingSpectraAreDayMonoids}.  Now prop. \ref{AlgebrasOverAAreMonoidsUnderA} and prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} give that the module objects in question are equivalently [[modules over a monoidal functor]] (def. \ref{ModuleOverAMonoidalFunctor}) and writing these out in components yields precisely the above structures and properties.
+
+=--
+
+
 
 ##### As diagram spectra
 
@@ -6965,6 +7307,132 @@ $$
 
 The explicit **proof** of prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory} is tedious. An abstract proof using tools from homotopical [[2-category theory]] is [here](monoidal+model+category#LocalizationFunctorIsLaxMonoidal).
 
++-- {: .num_defn #MonoidalQuillenAdjunction}
+###### Definition
+
+Given [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then a **[[strong monoidal Quillen adjunction]]** between them is a [[Quillen adjunction]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+such that $L$ (hence equivalently $R$) has the structure of a [[strong monoidal functor]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Given a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+
+between [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then the  [[left derived functor]] of $L$ canonically becomes a [[strong monoidal functor]] between [[homotopy category of a model category|homotopy categories]]
+
+$$
+  \mathbb{L}L
+  \;\colon\;
+  (Ho(\mathcal{C}), \otimes_{\mathcal{C}}, \gamma(1)_{\mathcal{C}})
+   \longrightarrow
+  (Ho(\mathcal{D}), \otimes_{\mathcal{D}}, \gamma(1)_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As in the proof of prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}, consider the following pasting composite of commuting diagams:
+
+
+$$
+  \array{
+    \mathcal{D}_c \times \mathcal{D}_c
+      &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
+    \mathcal{D}_c
+      &\overset{L}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    {}^{\mathllap{=}}\downarrow
+      &&
+        \swArrow_{\simeq}
+      &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    \mathcal{D}_c \times \mathcal{D}_c
+      &\overset{L \times L}{\longrightarrow}&
+    \mathcal{C}_c \times \mathcal{C}_c
+      &\overset{\otimes_{\mathcal{C}}}{\longrightarrow}&
+    \mathcal{C}_c
+    \\
+    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{C}} \times \gamma_{\mathcal{C}} }}
+      &&
+    \downarrow^{\gamma_{\mathcal{C}}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \;\;\;\;\;
+   \simeq
+  \;\;\;\;\;
+  \array{
+     \mathcal{D}_c \times \mathcal{D}_c
+       &\overset{\otimes_{\mathcal{D}}}{\longrightarrow}&
+     \mathcal{D}_c
+       &\overset{L}{\longrightarrow}&
+     \mathcal{C}_c
+     \\
+    \\
+    ^{\mathllap{\gamma_{\mathcal{D}} \times \gamma_{\mathcal{D}}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\gamma_{\mathcal{D}}  }}
+      &&
+    \downarrow^{\gamma_{\mathcal{C}}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\overset{\otimes^L_{\mathcal{D}}}{\longrightarrow}&
+    Ho(\mathcal{D})
+      &\overset{\mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C})
+    \\
+    {}^{\mathllap{=}}\downarrow    
+      && \swArrow_{\simeq}&&
+    \downarrow^{\mathrlap{=}}
+    \\
+    Ho(\mathcal{D}) \times Ho(\mathcal{D})
+      &\underset{\mathbb{L}L \times \mathbb{L}L}{\longrightarrow}&
+    Ho(\mathcal{C}) \times Ho(\mathcal{C})
+      &\underset{\otimes^L_{\mathcal{C}}}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+On the top left we have the natural transformation that exhibits $L$ as a [[strong monoidal functor]]. By universality of [[localization]] and [[derived functors]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) this induces the unique factorization through the natural transformation on the bottom right. This exhibits strong monoidal structure on the [[left derived functor]] $\mathbb{L}L$.
+
+
+=--
+
+
 With some general monoidal homotopy theory established, we now discuss that structured spectra indeed constitute an example. The version of the following theorem for the stable model structure of actual interest is theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} further below.
 
 +-- {: .num_theorem #MonoidalStrictModelStructure}
@@ -7089,51 +7557,6 @@ Now the free structured spectrum functor is a left Quillen functor (prop. \ref{S
 
 =--
 
-+-- {: .num_defn #MonoidalQuillenAdjunction}
-###### Definition
-
-Given [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ (def. \ref{MonoidalModelCategory}) with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then a **[[strong monoidal Quillen adjunction]]** between them is a [[Quillen adjunction]]
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{R}{\longrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
-$$
-
-such that $L$ (hence equivalently $R$) has the structure of a [[strong monoidal functor]].
-
-=--
-
-+-- {: .num_prop}
-###### Proposition
-
-Given a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
-
-$$
-  \mathcal{C}
-    \underoverset
-      {\underset{R}{\longrightarrow}}
-      {\overset{L}{\longleftarrow}}
-      {\bot}
-  \mathcal{D}
-$$
-
-
-between [[monoidal model categories]] $(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}}, 1_{\mathcal{D}})$ with cofibrant [[tensor units]] $1_{\mathcal{C}}$ and $1_{\mathcal{D}}$, then the  [[left derived functor]] of $L$ is a [[strong monoidal functor]] between [[homotopy category of a model category|homotopy categories]]
-
-$$
-  \mathbb{L}L
-  \;\colon\;
-  (Ho(\mathcal{C}), \otimes_{\mathcal{C}}, \gamma(1)_{\mathcal{C}})
-   \longrightarrow
-  (Ho(\mathcal{D}), \otimes_{\mathcal{D}}, \gamma(1)_{\mathcal{D}})
-  \,.
-$$
-
-=--
 
 
 
@@ -7164,7 +7587,7 @@ $$
   \,.
 $$
 
-In particular for $n = 0$ and writing $\Sigma_{dia}^\infty \coloneqq F^{dia}_0$ and $\Omega_{dia}^\infty \coloneqq Ev^{dia}_0$ this yields a [[Quillen adjunction]]
+For $n = 0$ and writing $\Sigma_{dia}^\infty \coloneqq F^{dia}_0$ and $\Omega_{dia}^\infty \coloneqq Ev^{dia}_0$ this yields a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction})
 
 $$
   \mathbb{S}_{dia}Mod_{strict}
@@ -7205,6 +7628,8 @@ where the Quillen adjunction $(seq_! \dashv seq^\ast)$ is that from theorem \ref
 
 By the very definition of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)) it is immediate that $Ev_n^{dia}$ preserves fibrations and weak equivalences, hence it is a right Quillen functor. $F^{dia}_n$ is its left adjoint by definition.
 
+That $\Sigma^\infty_{dia}$ is a [[strong monoidal functor]] is part of the statement of prop. \ref{SmashProductOfFreeSpectra}.
+
 Moreover, it is clear from the definitions that 
 
 $$
@@ -7219,7 +7644,7 @@ hence the last statement follows by uniqueness of adjoints.
 +-- {: .num_remark #SummarySituationForStrictModelStructure}
 ###### Remark
 
-In summary we have so far established the following situation. There is a [[commuting diagram]] of [[Quillen adjunctions]] of the form
+In summary,  we have established the following situation. There is a [[commuting diagram]] of [[Quillen adjunctions]] of the form
 
 $$
   \array{
@@ -7256,7 +7681,7 @@ $$
   \,.
 $$
 
-Moreover, we know already that the top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}).
+The top square stabilizes to the actual [[stable homotopy theory]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)). On the other hand, the top square does not reflect the [[symmetric monoidal smash product of spectra]] (by remark \ref{RestrictionsOfExcisiveSphere}). But the total vertical composite $\Sigma^\infty_{dia} = dia_! \Sigma^\infty$ does, in that it is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}) by prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}. 
 
 Hence to obtain a [[stable model category]] which is also a [[monoidal model category]] with respect to the [[symmetric monoidal smash product of spectra]], it is now sufficient to find such a monoidal model structure on $\mathbb{S}_{dia}Mod$ such that $(seq_! \dashv seq^\ast)$ becomes a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
@@ -7567,6 +7992,8 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 ##### Stability of the homotopy theory
 
+We show now that the [[model structure on orthogonal spectra]] $OrthSpec(Top_{cg})_{stable}$ from theorem \ref{OrthogonalSpectraStableModelStructure} is [[Quillen equivalence|Quillen equivalent]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence)) to the stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)), hence that they model the same [[stable homotopy theory]].
+
 +-- {: .num_theorem #SequentialSpectraQuillenEquivalence}
 ###### Theorem
 
@@ -7667,6 +8094,66 @@ where the horizontal maps are stable weak homotopy equivalences by the previous 
 If $n_2 \lt n_1$ then one reduces this to the above case by smashing with $S^{n_1-n_2}$.
 
 =--
+
++-- {: .num_remark #StableHomotopyCategoryStructuredSpectra}
+###### Remark
+
+Theorem \ref{SequentialSpectraQuillenEquivalence} means that the [[homotopy category of a model category|homotopy categories]] of $SeqSpec(Top_{cg})_{stable}$ and $OrthSpec(Top_{cg})_{stable}$ are [[equivalence of categories|equivalent]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ConditionsForQuillenAdjunctionAreIndeedEquivalent)) via
+
+$$
+  Ho( OrthSpec(Top_{cg})_{stable} )
+   \underoverset
+     {\underset{\mathbb{R}seq^\ast}{\longrightarrow}}
+     {\overset{\mathbb{L}seq_!}{\longleftarrow}}
+     {\simeq}
+  Ho( SeqSpec(Top_{cg})_{stable} )  
+  \,.
+$$
+
+Since $SeqSpec(Top_{cg})_{stable}$ is a [[stable model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentiaSpectraIsStableModelCategory)) in that the derived suspension looping adjunction is an equivalence of categories, and and since this is a condition only on the [[homotopy category of a model category|homotopy categories]], and since $\mathbb{R}seq^ast$ manifestly preserves the construction of [[loop space objects]], this implies that we have a [[commuting square]] of [[adjoint equivalences]] of homotopy categories 
+
+$$
+  \array{
+    Ho(SeqSpec(Top_{cg})_{stable})
+     &
+     \underoverset
+       {\underset{\Omega}{\longrightarrow}}
+       {\overset{\Sigma}{\longleftarrow}}
+       {\simeq}
+     &  
+    Ho(SeqSpec(Top_{cg})_{stable})
+    \\
+    {}^{\mathllap{\mathbb{L} seq_!}}\downarrow \simeq \uparrow^{\mathrlap{\mathbb{R}seq^\ast}}
+      &&
+    {}^{\mathllap{\mathbb{L} seq_!}}\downarrow \simeq \uparrow^{\mathrlap{\mathbb{R}seq^\ast}}
+    \\
+    Ho( OrthSpec(Top_{cg})_{stable} )
+      &
+      \underoverset
+        {\underset{\Omega}{\longrightarrow}}
+        {\overset{\Sigma}{\longleftarrow}}
+        {\simeq}
+      &
+    Ho( OrthSpec(Top_{cg})_{stable} )
+  }
+$$
+
+and so in particular also $OrthSpec(Top_{cg})_{stable}$ is a [[stable model category]].
+
+Due to the vertical equivalences here we will usually not distinguish between these homotopy categories and just speak of the _[[stable homotopy category]]_ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory))
+
+$$
+  Ho(Spectra)
+   \coloneqq
+  Ho( SeqSpec(Top_{cg})_{stable} )
+   \simeq
+  Ho( OrthSpec(Top_{cg})_{stable} )
+  \,.
+$$
+
+=--
+
+
 
 ##### Monoidal model structure
 
@@ -7828,10 +8315,12 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 
 
-#### Higher algebra
- {#HigherAlgebra}
+#### Conclusion
+ {#Conclusion}
 
-In summary we now have established a system of [[Quillen adjunctions]] and [[Quillen equivalences]] of the form
+We summarize the results about [[stable homotopy theory]] obtained in [[Introduction to Stable homotopy theory -- 1|Part 1]].
+
+First of all we have established a [[commuting diagram]] of [[Quillen adjunctions]] and [[Quillen equivalences]] of the form
 
 $$
   \array{
@@ -7871,9 +8360,9 @@ $$
     SeqSpec(Top_{cg})_{stable}
     \\
     \\       
-    {}^{\mathllap{orth_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{orth^\ast}}
+    {}^{\mathllap{seq_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{seq^\ast}}
       &&
-    {}^{\mathllap{orth_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{orth^\ast}}
+    {}^{\mathllap{seq_!}}\downarrow \simeq_Q \uparrow^{\mathrlap{seq^\ast}}
     \\
     OrthSpec(Top_{cg})_{stable}
       &&
@@ -7881,7 +8370,9 @@ $$
   }
 $$
 
-where the total vertical composite 
+Here the top part is from remark \ref{SummarySituationForStrictModelStructure}, while the vertical [[Quillen equivalence]] $(seq_! \dashv seq^\ast)$ is from theorem \ref{OrthogonalSpectraStableModelStructure}.
+
+Moreover, the top and bottom [[model categories]] are [[monoidal model categories]] (def. \ref{MonoidalModelCategory}): $Top^{\ast/}_{cg}$ with respect to the [[smash product]] of [[pointed topological spaces]] (theorem \ref{MonoidalStrictModelStructure}) and $OrthSpec(Top_{cg})_{strict}$ as well as $OrthSpec(Top_{cg})_{stable}$ with respect to the [[symmetric monoidal smash product of spectra]] (theorem \ref{MonoidalStrictModelStructure} and theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}); and the compsite vertical adjunction 
 
 $$
   \array{
@@ -7897,7 +8388,7 @@ $$
 
 is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}).
 
-Moreover, under passage to [[homotopy category of a model category|homotopy categories]] this yields a commuting diagram of [[derived functor|derived]] [[adjoint functors]]
+Under passage to [[homotopy category of a model category|homotopy categories]] this yields a [[commuting diagram]] of [[derived functor|derived]] [[adjoint functors]]
 
 $$
   \array{
@@ -7925,29 +8416,56 @@ $$
   }
 $$
 
-where the vertical
+between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}). The latter is an [[additive category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#AdditiveCategory)) with [[direct sum]] the [[wedge sum]] of spectra $\oplus = \vee$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts)[lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsAbEnriched)) and in fact a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences)) with distinguished triangles the [[homotopy cofiber sequences]] of spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
+
+While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}).
+
+
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| [[integers]] $\mathbb{Z}$ | [[sphere spectrum]] $\mathbb{S}$ |
+| $Ab \simeq \mathbb{Z} Mod$   | $Spectra \simeq \mathbb{S} Mod$ |
+| [[direct sum]] $\oplus$ | [[wedge sum]] $\vee$ |
+| [[tensor product of modules|tensor product]] $\otimes_{\mathbb{Z}}$ | [[smash product of spectra]] $\wedge_{\mathbb{S}}$ |
+| [[kernels]]/[[cokernels]] | [[homotopy fibers]]/[[homotopy cofibers]] |
+
+
+The [[commutative monoids in a symmetric monoidal category|commutative monoids]] with respect to this [[smash product of spectra]] are precisely the orthogonal [[commutative ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}, prop. \ref{RingSpectraAreDayMonoids}) and the [[module objects]] over these are precisely the orthogonal [[module spectra]] (def. \ref{SymmetricModuleSpectrum}, prop. \ref{ModuleSpectraAreModuleFunctors}).
+
+Moreover, the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[strong monoidal functors]] 
+
+$$
+  \array{
+    (Top^{\ast/}_{cg}, \wedge, S^0)
+      &\longrightarrow&
+    (Ho(Top^{\ast/}), \wedge^L, \gamma(S^0))
+    \\
+    ( OrthSpec(Top_{cg}), \wedge, \mathbb{S}_{orth} )
+      &\longrightarrow&
+    ( Ho(Spectra), \wedge^L, \gamma(\mathbb{S}) )
+  }
+  \,.
+$$
+
+This implies that for $E \in OrthSpec(Top_{cg})$ a [[commutative ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a homotopy commutative ring spectrum and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+
+
+[[!include homological and higher algebra -- table]]
+
+
+Moreover, the vertical adjunction 
 
 $$
   \array{
      (Ho(Top^{\ast/}), \wedge^L, S^0)
      \\
-     \downarrow^{\mathrlap{\Sigma^\infty}}
+     {}^{\mathllap{\Sigma^\infty}}\downarrow \dashv \uparrow^{\mathrlap{\Omega^\infty}}
      \\
      (Ho(Spectra), \wedge^L, \mathbb{S})
   }
 $$
 
-is a [[strong monoidal functor]] from the the derive [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
-
-(...)
-
-[[!include homological and higher algebra -- table]]
-
-(...)
-
-
-
-
+is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
 
 
 
