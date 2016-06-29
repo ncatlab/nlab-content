@@ -8120,7 +8120,9 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 =--
 
-We record some consequences:
+
+#### The monoidal stable homotopy category
+
 
 +-- {: .num_cor #MonoidalStableHomotopyCategory}
 ###### Corollary
@@ -8196,7 +8198,228 @@ $$
   \pi_\bullet( A \wedge K )
 $$
 
-(by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the generalized $A$-homology of the topological space $K \in Top^{\ast/}_{cg}$.
+(by prop. \ref{SmashProductOfFreeSpectra} ) and this is called the _generalized $A$-homology_ of the topological space $K \in Top^{\ast/}_{cg}$.
+
+=--
+
+##### Tensor triangulated structure
+
+We discuss that the derived smash product of spectra from corollary \ref{MonoidalStableHomotopyCategory} on the [[stable homotopy category]] interacts well with its structure of a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
+
++-- {: .num_defn #TensorTriangulatedCG}
+###### Definition
+
+A **[[tensor triangulated category]]** is a [[category]] $Ho$ equipped with 
+
+1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$ (def. \ref{SymmetricMonoidalCategory});
+
+1. the structure of a [[triangulated category]] $(Ho, \Sigma, CofSeq)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated));
+
+1. for all objects $X,Y\in Ho$ [[natural isomorphisms]]
+
+   $$
+     e_{X,Y}
+       \;\colon\;
+     (\Sigma X) \wedge Y 
+       \overset{\simeq}{\longrightarrow} 
+     \Sigma(X \wedge Y)
+   $$
+
+such that
+
+1. (tensor product is additive) for all $V \in Ho$ the functors $V \otimes (-) \simeq (-) \otimes V$ preserve finite [[direct sums]] (are [[additive functors]]);
+
+1. (tensor product is exact) for each object $V \in Ho$ the functors $V \otimes (-) \simeq (-)\otimes V$ preserves distinguished triangles in that for 
+
+   $$
+     X 
+       \overset{f}{\longrightarrow}
+     X
+       \overset{g}{\longrightarrow}
+     Y
+       \overset{h}{\longrightarrow}
+     \Sigma X
+   $$
+
+   in $CofSeq$, then also
+
+   $$
+     V \otimes X 
+       \overset{id_V \otimes f}{\longrightarrow}
+     V\otimes X
+       \overset{id_V \otimes g}{\longrightarrow}
+     V \otimes Y
+       \overset{id_V \otimes h}{\longrightarrow}
+     V \otimes (\Sigma X)
+     \simeq
+     \Sigma(V \otimes X)
+   $$
+
+   is in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
+
+1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
+       &\overset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+       \\
+       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{(-1)^{n_1 + n_2}}}
+       \\
+       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
+       &\underset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_1} 1
+     }
+     \,,
+   $$
+
+   where the horizontal isomorphisms are composites of the $e_{\dot,\dot}$ and the braidings.
+
+1. (coherence) for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       ( \Sigma(X) \otimes Y) \otimes Z
+         &\overset{e_{X,Y} \otimes id}{\longrightarrow}&
+       (\Sigma (X \otimes Y)) \otimes Z
+         &\overset{e_{X \otimes Y, Z}}{\longrightarrow}& 
+       \Sigma( (X \otimes Y) \otimes Z )
+       \\
+       {}^{\mathllap{\alpha_{\Sigma X, Y, Z}}}\downarrow
+         &&
+         &&
+       \downarrow^{\mathrlap{\Sigma \alpha_{X,Y,Z}}}
+       \\
+       \Sigma (X) \otimes (Y \otimes Z)
+         &&
+         \underset{e_{X, Y \otimes Z }}{\longrightarrow} 
+         &&
+      \Sigma( X \otimes (Y \otimes Z) )
+     }
+     \,,
+   $$
+
+   where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
+
+
+=--
+
+
+Definition \ref{TensorTriangulatedCG} without the clause that $V \otimes (-)$ be additive is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)), called there "symmetric monoidal structure compatible with the triangulation". The terminology "tensor triangulated category" goes back to ([Balmer 05, def. 1.1](#Balmer05)), which however states as axiom only that the "tensor product is exact in each variable", without further specification. But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". The condition that in a tensor triangulated category $V \otimes (-)$ is also to preserve direct sums appears in ([Stevenson 11, Introduction](#Stevenson11)).
+
++-- {: .num_prop}
+###### Proposition
+
+The [[stable homotopy category]] equipped with 
+
+1. its [[triangulated category]] structure $(Ho(Spectra), \Sigma, CofSeq)$ for distinguished triangles the [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated);
+
+1. the derived [[symmetric monoidal smash product of spectra]] $(Ho(Spectra), \wedge^L , \mathbb{S})$ (corollary \ref{MonoidalStableHomotopyCategory})
+
+is a [[tensor triangulated category]] in the sense of def. \ref{TensorTriangulatedCG}.
+
+=--
+
+(e.g. [Hovey-Palmieri-Strickland 97, 9.4](HoveyPalmieriStrickland97))
+
+We break up the **proof** into lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}, lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}. 
+
++-- {: .num_lemma #DerivedSmashProductOfSpectraPreservesDirectSums}
+###### Lemma
+
+For $V \in Ho(Spectra)$ any spectrum in the [[stable homotopy category]] (remark \ref{StableHomotopyCategoryStructuredSpectra}), then the derived [[symmetric monoidal smash product of spectra]] (corollary \ref{MonoidalStableHomotopyCategory}) 
+
+$$
+  V \wedge^L (-)
+  \;\colon\;
+  Ho(Spectra)
+    \longrightarrow
+  Ho(Spectra)
+$$
+
+preserves [[direct sums]], in that for all $X, Y \in Ho(Spectra)$ then
+
+$$
+  V \wedge^L ( X \oplus Y )
+  \simeq
+  (V \wedge^L X)
+   \oplus
+  (V \wedge^L Y)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The direct sum in $Ho(Spectra)$ is represented by the [[wedge sum]] in $SeqSpec(Top_{cg})$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts
+), [prop.](Introduction+to+Stable+homotopy+theory+--+1-1#ProductsAreBiproducts)). Since wedge sum of sequential spectra is the [[coproduct]] in $SeqSpec(Top_{cg})$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#WedgeSumOfSpectra)) and since the [[forgetful functor]] $seq^\ast \colon OrthSpec(Top_{cg}) \longrightarrow SeqSpec(Top_{cg})$ preserves colimits (since by prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} it acts by precomposition on functor categories, and since for these colimits are computed objectwise), it follows that also wedge sum of orthogonal spectra represents the direct sum operation in the stable homotopy category. 
+
+Now assume without restriction that $V$, $X$ and $Y$ are cofibrant orthogonal spectra representing the objects of the same name in the stable homotopy catgeory. Since wedge sum is coproduct, it follows that also the wedge sum $X \vee Y$ is cofibrant. 
+
+Since $V \wedge^L (-)$ is a [[left Quillen functor]] by theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}, it follows that the derived tensor product $V \wedge^L (X \oplus Y)$ is represented by the plain [[symmetric monoidal smash product of spectra]] $V \wedge (X \vee Y)$. By def. 
+\ref{SsymModuleSymmetricSpectra} (or more explicitly by prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}) this is the [[coequalizer]] 
+
+$$
+  V \otimes_{Day} \mathbb{S}_{orth} \otimes_{Day} (X \vee Y)
+    \underoverset
+      {\longrightarrow}
+      {\longrightarrow}
+      {\phantom{AAAAAA}}
+  V \otimes_{Day} (X \vee Y)
+    \overset{coeq}{\longrightarrow}
+  V \otimes_{\mathbb{S}_{orth}} (X \vee Y) 
+  \,.
+$$
+
+Inserting the definition of [[Day convolution]] (def. \ref{TopologicalDayConvolutionProduct}), the middle term here is
+
+$$
+  \begin{aligned}
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    (X \vee Y)(c_2)
+    &\simeq
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    (X(c_2) \vee Y(c_2))
+    \\
+    &
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    X(c_2) 
+    \;\vee\;    
+    \overset{c_1,c_2}{\int}
+    Orth(c_1 \otimes_{Orth} c_2, -)
+    \wedge
+    V(c_1) 
+    \wedge
+    Y(c_2)
+    \\
+    & \simeq
+    V \otimes_{Day} X
+    \;\vee\;
+    V \otimes_{Day} Y
+  \end{aligned}
+  \,,
+$$
+
+where in the second but last step we used that the [[smash product]] in $Top^{\ast/}_{cg}$ distributes over [[wedge sum]] and that [[coends]] commute with wedge sums (both being [[colimits]]).
+
+The analogous analysis applies to the left term in the coequalizer diagram. Hence the whole diagram splits as the wedge sum of the respective diagrams for $V \wedge X$ and $V \wedge Y$.
 
 =--
 
@@ -8626,6 +8849,8 @@ The analogous [[model structure on symmetric spectra]] is due to
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
 See also
+
+* {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997)
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
