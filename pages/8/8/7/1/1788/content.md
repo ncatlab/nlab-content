@@ -1,97 +1,35 @@
-+-- {: .num_prop}
-###### Proposition
-
-The [[stable homotopy groups]] $\pi_\bullet(E)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)) of a [[homotopy commutative ring spectrum]] $E$ (def. \ref{HomotopyCommutativeRingSpectrum}) canonically inherit the structure of a $\mathbb{Z}$-[[graded ring]]. Moreover, for $X \in Ho(Spectra)$ any spectrum, then the [[generalized homology]] (remark \ref{EMHomology})
-
 $$
-  E_\bullet(X)
-    \coloneqq
-  \pi_\bullet(E \wedge X)
-$$
-
-canonically inherits the structure of a graded $\pi_\bullet(E)$-[[module]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Under the identification ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum))
-
-$$
-  \pi_\bullet(E)
-    \simeq
-  [\mathbb{S}, E]_\bullet
-$$
-
-let $\alpha_i \in \pi_{n_i}(X)$ be represented by 
-
-$$
-  \alpha_i
-     \;\colon\;
-  \mathbb{S} 
-    \longrightarrow
-  \Sigma^{-n_i}
-  E
+  \array{
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k-1}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_k)
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_{k+1})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma X_k)
+    \\
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+    \\
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k-1}\mathbb{S}]
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L X_k]
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L X_{k+1}]
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k}\mathbb{S}]
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma X_k]
+  }
   \,.
 $$
 
-Under the derived [[symmetric monoidal smash product of spectra]] $\mathbb{S}$ is the [[tensor unit]] (corollary \ref{MonoidalStableHomotopyCategory}) and so we may form the composite
-
-$$
-  \alpha_1 \cdot \alpha_2
-  \;\colon\;
-  \mathbb{S}
-    \underoverset{\ell_{\mathbb{S}}^{-1}}{\simeq}{\longrightarrow}
-  \mathbb{S} \wedge^L \mathbb{S}
-    \overset{\alpha_1 \wedge^L \alpha_2}{\longrightarrow}
-  (\Sigma^{-n_1} E) \wedge^L (\Sigma^{-n_2} E)
-    \simeq
-  \Sigma^{-n_1 - n_2} (E \wedge^L E)
-    \overset{\Sigma^{-n_1 - n_2}(\mu)}{\longrightarrow}
-  \Sigma^{-n_1 - n_2} E
-  \,,
-$$
-
-where the isomorphism in the middle is from lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}.
-
-Similarly given 
-
-$$
-  \alpha 
-     \;\colon\;
-  \mathbb{S} 
-    \longrightarrow
-  \Sigma^{-n_1} E
-$$
-
-as before and 
-
-$$
-  \nu 
-    \;\colon\;
-  \mathbb{S}
-    \longrightarrow
-  \Sigma^{-n_2}E \wedge X
-$$
-
-representin an element in $\pi_\bullet(E \wedge X)\simeq [\mathbb{S}, E \wedge X]_\bullet$, then an action is defined by the composite
-
-$$
-  \alpha \cdot \nu
-  \;\colon\;
-  \mathbb{S}
-    \underoverset{\ell_{\mathbb{S}}^{-1}}{\simeq}{\longrightarrow}
-  \mathbb{S}\wedge^L \mathbb{S}
-    \overset{\alpha \wedge^L \beta}{\longrightarrow}
-  \Sigma^{-n_1} E \wedge^L \Sigma^{-n_2} E\wedge X
-   \simeq
-  \Sigma^{-n_1 -n_2} E \wedge^L \wedge E \wedge^L X
-  \overset{\Sigma^{-n_1-n_2}(\mu \wedge id) }{\longrightarrow}
-  \Sigma^{-n_1 - n_2} E \wedge^L X
-  \,.
-$$
-
-
-
-=--
