@@ -56,7 +56,7 @@ Next section: _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spe
 ### **1.2)** Structured spectra
  {#DiagramSpectra}
 
-The key result of section 1.1 was ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)),the construction of a [[stable homotopy theory]] of [[spectra]], embodied by a stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})$ with its corresponding [[stable homotopy category]] $Ho(Spectra)$, which stabilizes the canonical looping/suspension adjunction on [[pointed topological spaces]] in that it fits into a diagram of (Quillen-)adjunctions of the form
+The key result of [[Introduction to Stable homotopy theory -- 1-1|part 1.1]] was ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)) the construction of a [[stable homotopy theory]] of [[spectra]], embodied by a stable [[model structure on topological sequential spectra]] $SeqSpec(Top_{cg})_{stable}$ ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) with its corresponding [[stable homotopy category]] $Ho(Spectra)$, which stabilizes the canonical looping/suspension adjunction on [[pointed topological spaces]] in that it fits into a diagram of (Quillen-)adjunctions of the form
 
 $$
   \array{
@@ -116,7 +116,7 @@ $$
   \wedge \;\colon\; Ho(Top^{\ast/}) \longrightarrow Ho(Top^{\ast/})
 $$
 
-of pointed topological spaces gives it the structure of a [[monoidal category]] (def. \ref{MonoidalCategory}) below, and so it is natural to ask that the above stabilization diagram reflects and respects that extra structure. This means that there should be a [[smash product of spectra]]
+of [[pointed topological spaces]] gives it the structure of a [[monoidal category]] (def. \ref{MonoidalCategory} below), and so it is natural to ask that the above stabilization diagram reflects and respects that extra structure. This means that there should be a [[smash product of spectra]]
 
 $$
   \wedge \;\colon\; Ho(Spectra) \longrightarrow Ho(Spectra)
@@ -126,10 +126,11 @@ such that $(\Sigma^\infty \dashv \Omega^\infty)$ is compatible, in that
 
 $$
   \Sigma^\infty (X\wedge Y) \simeq (\Sigma^\infty X) \wedge (\Sigma^\infty Y)
-  \,.
 $$
 
-We had already seen [above](#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a  [[direct sum]] operation $\oplus$ on spectra. We discuss now that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
+(a "[[strong monoidal functor]]", def. \ref{LaxMonoidalFunctor} below).
+
+We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a [[direct sum]] operation $\oplus$ on spectra. We discuss here that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
 
 
 | [[abelian groups]] | [[spectra]] |
@@ -139,7 +140,7 @@ We had already seen [above](#Additivity) that $Ho(Spectra)$ is an [[additive cat
    
 This further strenghtens the statement that [[spectra]] are the analog in [[homotopy theory]] of [[abelian groups]]. 
 
-With the analog of the tensor product in hand, we may consider doing [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" ([below](#HigherAlgebra)) accordingly is the theory of _[[ring spectra]]_ and _[[module spectra]]_.
+With the analog of the tensor product in hand, we may consider doing [[algebra]] -- the theory of [[rings]] and their [[modules]] -- [[internalization|internal]] to spectra. This "[[higher algebra]]" accordingly is the theory of _[[ring spectra]]_ and _[[module spectra]]_.
 
 [[!include homological and higher algebra -- table]]
 
@@ -239,7 +240,7 @@ This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
 =--
 
 
-This phenomenon suggests that as we "[[categorify]]" the [[natural numbers]] to the [[n-spheres]], hence to the [[sphere spectrum]], and as we think of the $n$th component space of a [[sequential spectrum]] as being the value assigned to the [[n-sphere]]
+This phenomenon suggests that as we "[[categorify]]" the [[natural numbers]] to the [[n-spheres]], hence the [[integers]] to the [[sphere spectrum]], and as we think of the $n$th component space of a [[sequential spectrum]] as being the value assigned to the [[n-sphere]]
 
 $$
   E_n \simeq E(S^n)
@@ -250,7 +251,6 @@ then there should be a possibly non-trivial [[action]] of the [[symmetric group]
 We discuss two ways of making this precise below in  _[Symmetric and orthogonal spectra](#SymmetricSpectra)_, and we discuss how these are unified by a concept of [[module objects]] over a [[monoid object]] representing the [[sphere spectrum]] below in _[S-modules](#SModules)_.
 
 The general abstract theory for handling this is _[[monoidal category|monoidal]] and [[enriched category theory]]_. We first develop the relevant basics in _[Categorical algebra](#MonoidalAndEnrichedCategories)_.
-
 
 
 
@@ -8509,26 +8509,11 @@ such that
 
    is in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
 
-1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+Jointly this says that for all objects $V$ the equivalences $e$ give $V \otimes (-)$ the structure of a _[[triangulated functor]]_.
 
-   $$
-     \array{
-       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
-       &\overset{\simeq}{\longrightarrow}&
-       \Sigma^{n_1 + n_2} 1
-       \\
-       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
-         &&
-       \downarrow^{\mathrlap{(-1)^{n_1 \cdot n_2}}}
-       \\
-       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
-       &\underset{\simeq}{\longrightarrow}&
-       \Sigma^{n_1 + n_2} 1
-     }
-     \,,
-   $$
+([Balmer 05, def. 1.1](tensor+triangulated+category#Balmer05))
 
-   where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
+In addition we ask that
 
 1. (coherence) for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
 
@@ -8556,11 +8541,31 @@ such that
 
    where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
 
+1. (graded commutativity) for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (\Sigma^{n_1} 1) \otimes (\Sigma^{n_2} 1)
+       &\overset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+       \\
+       {}^{\mathllap{\tau_{\Sigma^{n_1}1, \Sigma^{n_2}1}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{(-1)^{n_1 \cdot n_2}}}
+       \\
+       (\Sigma^{n_2} 1) \otimes (\Sigma^{n_1} 1)
+       &\underset{\simeq}{\longrightarrow}&
+       \Sigma^{n_1 + n_2} 1
+     }
+     \,,
+   $$
+
+   where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
+
 
 =--
 
-
-Definition \ref{TensorTriangulatedCG} without the clause that $V \otimes (-)$ be additive is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)), called there "symmetric monoidal structure compatible with the triangulation". The terminology "tensor triangulated category" goes back to ([Balmer 05, def. 1.1](#Balmer05)), which however states as axiom only that the "tensor product is exact in each variable", without further specification. But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". The condition that in a tensor triangulated category $V \otimes (-)$ is also to preserve direct sums appears in ([Stevenson 11, Introduction](#Stevenson11)).
+([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97))
 
 +-- {: .num_prop #TensorTriangulatedStructureOnStableHomotopyCategory}
 ###### Proposition
@@ -8994,9 +8999,9 @@ $$
        &&\overset{\tau_{\Sigma^{n_1}\mathbb{S}, \Sigma^{n_2}\mathbb{S}}}{\longrightarrow}&&
      \Sigma^{n_2}\mathbb{S} \wedge^L \Sigma^{n_1}\mathbb{S}
      \\
-     {}^{\mathllap{\alpha_1 \cdot \alpha_2}}\downarrow
+     {}^{\mathllap{\alpha_1 \wedge^L \alpha_2}}\downarrow
       && &&
-     \downarrow^{\mathrlap{\alpha_2 \cdot \alpha_1}}
+     \downarrow^{\mathrlap{\alpha_2 \wedge^L \alpha_1}}
      \\
      E \wedge^L E
        &&\overset{\tau_{E,E}}{\longrightarrow}&&
@@ -9058,7 +9063,7 @@ This is clearly a graded pairing, and the action property and unitality follow d
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #EnHomology}
 ###### Proposition
 
 Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and for $X \in Ho(Spectra)$ any spectrum, there is a [[homomorphism]] of [[graded abelian groups]] of the form
@@ -9101,14 +9106,53 @@ $$
 
 If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
 
+More generally for $n \in \mathbb{N}$ there is a canonical morphism of [[graded abelian groups]]
+
+$$
+  \underset{n+1\,factors}{
+  \underbrace{E_\bullet(E)
+    \otimes_{\pi_\bullet(E)}
+    \cdots
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(E)
+  }}
+    \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+    \longrightarrow
+  \pi_\bullet(E^{\wedge^{(n+2)}}\wedge X  )
+  \,.
+$$
+
+
+and if $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
+
+
+
 =--
 
-([Adams 74, part III, lemma 12.5](#Adams74))
+([Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
 
 +-- {: .num_defn}
 ###### Definition
 
-That the given pairing is well defined (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
+We discuss the first case. From this the general statement follows by [[induction]] via
+
+$$
+  \begin{aligned}
+    \pi_\bullet(E^{\wedge^{n+2}} \wedge X)
+    & \simeq
+    \pi_\bullet(E \wedge E \wedge E^{\wedge^n} \wedge X))
+    \\
+    &\simeq 
+     E_\bullet(E) 
+         \otimes_{\pi_\bullet(E)} 
+     E_\bullet( E^{\wedge^n} \wedge X )
+  \end{aligned}
+  \,.
+$$
+
+
+First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
 
 We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
 
@@ -9180,14 +9224,14 @@ This shows the claim for finite CW-spectra. For the general statement, now use t
 
 1. the [[symmetric monoidal smash product of spectra]] $\wedge$ preserves colimits in its arguments separately (since it has a [[right adjoint]] by prop. \ref{MonoidalCategoryOfModules});
 
-1. $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ commutes over filtered colimits of CW-spectrum inclusions (since spheres are compact) );
+1. $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ commutes over filtered colimits of CW-spectrum inclusions (since spheres are compact);
 
 1. $E_\bullet(E) \otimes_{\pi_\bullet(E)}(-)$ distributes over colimits (it being a left adjoint).
 
 
-
 =--
 
+Proposition \ref{EnHomology} is the key ingredient in the construction of the **$E$-[[Adams spectral sequence]]**. This we turn to in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
 #### Conclusion
  {#Conclusion}
@@ -9294,6 +9338,7 @@ between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ an
 
 While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (corollary \ref{MonoidalStableHomotopyCategory}).
 
+Moreover, the derived smash product of spectra is compatible with the [[additive category]] structure ([[direct sums]]) and the [[triangulated category]] structure ([[homotopy cofiber sequences]]), this being a _[[tensor triangulated category]]_ (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}).
 
 | [[abelian groups]] | [[spectra]] |
 |--------------------|-------------|
@@ -9345,6 +9390,7 @@ is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[
 
 
 
+
 ## References
  {#References}
 
@@ -9373,6 +9419,10 @@ and the theory of monoids in [[monoidal model categories]] is further developed 
 For the induced [[tensor triangulated category]] structure on the stable homtopy category we follow
 
 * {#HoveyPalmieriStrickland97} [[Mark Hovey]], [[John Palmieri]], [[Neil Strickland]], _Axiomatic stable homotopy theory_, Memoirs of the AMS 610 (1997) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/axiomatic.pdf))
+
+which all goes back to
+
+* {#Adams74} [[Frank Adams]], _[[Stable homotopy and generalised homology]]_, 1974
 
 
 A compendium on [[symmetric spectra]] is
