@@ -555,7 +555,7 @@ Similar axioms were already given in
 
 A comprehensive monograph is 
 
-* [[Amnon Neeman]], _Triangulated Categories_ , Princeton University Press (2001)
+* {#Neeman01} [[Amnon Neeman]], _Triangulated Categories_, Princeton University Press (2001)
 
 Discussion of the relation to [[stable model categories]] originates in 
 
