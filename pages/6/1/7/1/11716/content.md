@@ -25,11 +25,11 @@
 ###### Definition
 
 
-A **tensor triangulated category** is a [[category]] $Ho$ equipped with the structure of 
+A **tensor triangulated category** is a [[category]] $Ho$ equipped with 
 
-1. a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$;
+1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$;
 
-1. a [[triangulated category]] $(Ho, \Sigma, CofSeq)$
+1. the structure of a [[triangulated category]] $(Ho, \Sigma, CofSeq)$
 
 1. for all objects $X,Y\in Ho$ [[natural isomorphisms]]
 
@@ -64,10 +64,9 @@ such that
          &&
       \Sigma( X \otimes (Y \otimes Z) )
      }
-     \,,
    $$
 
-   where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
+   is in $CofSeq$, where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
 
 1. (tensor product is exact) for each object $V \in Ho$ the functors $V \otimes (-) \simeq (-)\otimes V$ preserves distinguished triangles in that for 
 
@@ -78,7 +77,7 @@ such that
        \overset{g}{\longrightarrow}
      Y
        \overset{h}{\longrightarrow}
-     \Sigma Y
+     \Sigma X
    $$
 
    in $CofSeq$, then also
@@ -90,13 +89,13 @@ such that
        \overset{id_V \otimes g}{\longrightarrow}
      V \otimes Y
        \overset{id_V \otimes h}{\longrightarrow}
-     V \otimes (\Sigma Y)
+     V \otimes (\Sigma X)
      \simeq
-     \Sigma(V \otimes Z)
+     \Sigma(V \otimes X)
      \,,
    $$
 
-   where the equivalence at the end is $e_{Y,V}\circ \tau_{V, \Sigma Y}$.
+   where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
 
 1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
 
@@ -119,11 +118,12 @@ such that
 
    where the horizontal isomorphisms are composites of the $e_{\dot,\dot}$ and the braidings.
 
+
 =--
 
 This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statemens concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
 
-In ([Balmer 05, def. 1.1](#Balmer05)) the terminology "tensor triangulated category" is said to refer to a symmetric monoidal triangulated category such that "tensor product is exact in each variable", without further specification. Similarly for instance in ([Stevenson 11, Introduction](#Stevenson11)). But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories".
+In ([Balmer 05, def. 1.1](#Balmer05)) the terminology "tensor triangulated category" is said to refer to a symmetric monoidal triangulated category such that "tensor product is exact in each variable", without further specification. Similarly for instance in ([Stevenson 11, Introduction](#Stevenson11)). But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". In sources like ([Stevenson 11](#Stevenson11)) furthermore $ V \otimes (-)$ is required to preserve [[direct sums]]. 
 
 
 
