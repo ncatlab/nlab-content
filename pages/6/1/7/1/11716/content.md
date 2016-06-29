@@ -19,6 +19,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A _tensor triangulated category_ is a [[category]] that carries the structure of a [[symmetric monoidal category]] and of a [[triangulated category]] in a compatible way.
+
 ## Definition
 
 +-- {: .num_defn}
@@ -41,9 +45,48 @@ A **tensor triangulated category** is a [[category]] $Ho$ equipped with
      \Sigma(X \wedge Y)
    $$
 
+   
 such that
 
-1. for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
+1. (tensor product is additive) for each object $V$ the functor $V \otimes (-) \simeq (-) \otimes V$ is an [[additive functor]];
+
+1. (tensor product is exact) for each object $V \in Ho$ the functor $V \otimes (-) \simeq (-)\otimes V$ preserves distinguished triangles in that for 
+
+   $$
+     X 
+       \overset{f}{\longrightarrow}
+     X
+       \overset{g}{\longrightarrow}
+     Y
+       \overset{h}{\longrightarrow}
+     \Sigma X
+   $$
+
+   in $CofSeq$, then also
+
+   $$
+     V \otimes X 
+       \overset{id_V \otimes f}{\longrightarrow}
+     V\otimes X
+       \overset{id_V \otimes g}{\longrightarrow}
+     V \otimes Y
+       \overset{id_V \otimes h}{\longrightarrow}
+     V \otimes (\Sigma X)
+       \simeq
+     \Sigma(V \otimes X)
+   $$
+
+   in $CofSeq$, where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
+
+Jointly this says that the isomorphisms $e$ give $V \otimes (-)$ the structure of a [[triangulated functor]], for all $V$.
+
+=--
+
+([Balmer 05, def. 1.1](#Balmer05))
+
+In addition one may ask that
+
+1. (coherence) for all $X, Y, Z \in Ho$ the following [[commuting diagram|diagram commutes]]
 
    $$
      \array{
@@ -68,36 +111,8 @@ such that
 
    is in $CofSeq$, where $\alpha$ is the [[associator]] of $(Ho, \otimes, 1)$.
 
-1. (tensor product is exact) for each object $V \in Ho$ the functors $V \otimes (-) \simeq (-)\otimes V$ preserves distinguished triangles in that for 
 
-   $$
-     X 
-       \overset{f}{\longrightarrow}
-     X
-       \overset{g}{\longrightarrow}
-     Y
-       \overset{h}{\longrightarrow}
-     \Sigma X
-   $$
-
-   in $CofSeq$, then also
-
-   $$
-     V \otimes X 
-       \overset{id_V \otimes f}{\longrightarrow}
-     V\otimes X
-       \overset{id_V \otimes g}{\longrightarrow}
-     V \otimes Y
-       \overset{id_V \otimes h}{\longrightarrow}
-     V \otimes (\Sigma X)
-     \simeq
-     \Sigma(V \otimes X)
-     \,,
-   $$
-
-   where the equivalence at the end is $e_{X,V}\circ \tau_{V, \Sigma Y}$.
-
-1. for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
+1. (graded commutativity) for all $n_1, n_2 \in \mathbb{Z}$ the following [[commuting diagram|diagram commutes]]
 
    $$
      \array{
@@ -119,11 +134,7 @@ such that
    where the horizontal isomorphisms are composites of the $e_{\cdot,\cdot}$ and the braidings.
 
 
-=--
-
 This is ([Hovey-Palmieri-Strickland 97, def. A.2.1](#HoveyPalmieriStrickland97)) except for statements concerning possible further [[closed monoidal category]] structure. There this is called "symmetric monoidal structure compatible with the triangulation".
-
-In ([Balmer 05, def. 1.1](#Balmer05)) the terminology "tensor triangulated category" is said to refer to a symmetric monoidal triangulated category such that "tensor product is exact in each variable", without further specification. Similarly for instance in ([Stevenson 11, Introduction](#Stevenson11)). But ([Balmer 05, p. 2](#Balmer05)) cites ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)) as "dealing with tensor triangulated categories". In sources like ([Stevenson 11](#Stevenson11)) furthermore $ V \otimes (-)$ is required to preserve [[direct sums]]. 
 
 
 ## Examples
