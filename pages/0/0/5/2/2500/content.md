@@ -459,6 +459,7 @@ A survey of the [[Chern-Simons gravity]]-style action functionals for supergravi
 
 * R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
+* David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
 
 ### Related
 
