@@ -1,4 +1,6 @@
 
+> This entry is about the concept of "exact functors" in plain [[category theory]]. For the different concept of that name in [[triangulated category]] theory see at _[[triangulated functor]]_.
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
