@@ -130,7 +130,7 @@ $$
 
 (a "[[strong monoidal functor]]", def. \ref{LaxMonoidalFunctor} below).
 
-We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a [[direct sum]] operation $\oplus$ on spectra. We discuss here that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
+We had already seen [in part 1.1](Introduction+to+Stable+homotopy+theory+--+1-1#Additivity) that $Ho(Spectra)$ is an [[additive category]], where [[wedge sum]] of spectra is a [[direct sum]] operation $\oplus$. We discuss here that the [[smash product of spectra]] is the corresponding operation analogous to a [[tensor product of abelian groups]].
 
 
 | [[abelian groups]] | [[spectra]] |
@@ -151,7 +151,7 @@ There is a key point to be dealt with here: the [[smash product of spectra]] has
 
 First, we have seen above that under the [[Dold-Kan correspondence]] [[chain complexes]] yield examples of spectra. But the [[tensor product of chain complexes]] is graded commutative.
 
-Second, more fundamentally, we see in the discussion of the [[Brown representability theorem]] ([here](#BrownRepresentabilityTheorem)) that every ([[sequential spectrum|sequential]]) [[spectrum]] $A$ induces a [[generalized homology theory]] given by the formula $X \mapsto \pi_\bullet(E \wedge X)$ (where the smash product is just the degreewise smash of pointed objects). By the [[suspension isomorphism]] this is such that for $X = S^n$ the [[n-sphere]], then $\pi_{\bullet\geq 0}(E \wedge S^n) \simeq \pi_{\bullet \geq 0}(E_n)$. This means that instead of thinking of a [[sequential spectrum]], def. \ref{SequentialSpectra}, as indexed on the [[natural numbers]] equipped with [[addition]] $(\mathbb{N},+)$, it may be more natural to think of sequential spectra as indexed on the [[n-spheres]] equipped with their smash product of pointed spaces $(\{S^n\}_n, \wedge)$. 
+Second, more fundamentally, we see in the discussion of the [[Brown representability theorem]] ([here](#BrownRepresentabilityTheorem)) that every ([[sequential spectrum|sequential]]) [[spectrum]] $A$ induces a [[generalized homology theory]] given by the formula $X \mapsto \pi_\bullet(E \wedge X)$ (where the smash product is just the degreewise smash of pointed objects). By the [[suspension isomorphism]] this is such that for $X = S^n$ the [[n-sphere]], then $\pi_{\bullet\geq 0}(E \wedge S^n) \simeq \pi_{\bullet \geq 0}(E_n)$. This means that instead of thinking of a [[sequential spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) as indexed on the [[natural numbers]] equipped with [[addition]] $(\mathbb{N},+)$, it may be more natural to think of sequential spectra as indexed on the [[n-spheres]] equipped with their smash product of pointed spaces $(\{S^n\}_n, \wedge)$. 
 
 
 +-- {: .num_prop #GradedCommutativityOfSmashOfSpheres}
@@ -275,7 +275,7 @@ that is a [[functor]] out of the [[product category]] of [[Ab]] with itself, sat
 
 One says that a ring $A$ is a _[[commutative monoid]]_ in the category [[Ab]] of abelian groups, and that this concept makes sense since $Ab$ itself is a _[[symmetric monoidal category]]_.
 
-Now in [[stable homotopy theory]], as we have seen [above](#StableHomotopyCategory), the category [[Ab]] is improved to the [[stable homotopy category]] $Ho(Spectra)$ (def. \ref{TheStableHomotopyCategory}), or rather to any [[stable model category|stable]] [[model structure on spectra|model structure on spectra]] presenting it. Hence in order to correspondingly refine commutative monoids in [[Ab]] (namely [[commutative rings]]) to commutative monoids in [[Ho(Spectra)]] (namely [[commutative ring spectra]]), there needs to be a suitable [[symmetric monoidal category]] structure on the category of spectra. Its analog of the [[tensor product of abelian groups]] is to be called the _[[symmetric monoidal smash product of spectra]]_. The problem is how to construct it.
+Now in [[stable homotopy theory]], the category [[Ab]] is improved to the [[stable homotopy category]] $Ho(Spectra)$. Hence in order to correspondingly refine commutative monoids in [[Ab]] (namely [[commutative rings]]) to commutative monoids in [[Ho(Spectra)]] (namely [[commutative ring spectra]]), there needs to be a suitable [[symmetric monoidal category]] structure on the category of spectra. Its analog of the [[tensor product of abelian groups]] is to be called the _[[symmetric monoidal smash product of spectra]]_. The problem is how to construct it.
 
 The theory for handling such a problem is _[[categorical algebra]]_. Here we discuss the minimum of categorical algebra that will allow us to elegantly construct the [[symmetric monoidal smash product of spectra]].
 
@@ -658,7 +658,7 @@ The category $Top^{\ast/}_{cg}$ is also a [[closed monoidal category]] (def. \re
 
 The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
 
-This is a [[closd monoidal cagory]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
+This is a [[closed monoidal cagory]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
 
 This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
 
@@ -7558,7 +7558,7 @@ $$
   J_{Top^{\ast/}} 
 $$
 
-which implies the [[pushout-product axiom]] for $Top^{\ast/}_{cg}$. (However the [[monoid axiom]] (def.\ref{MonoidAxiom}) is problematic.)
+which implies the [[pushout-product axiom]] for $Top^{\ast/}_{cg}$. 
 
 
 Now by def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} the generating (acyclic) cofibrations of $\mathbb{S}_{dia}Mod_{strict}$ are of the form $F^{dia}_n (i_k)_+$ and $F^{dia}_n (j_k)_+$, respectively. By prop. \ref{SmashProductOfFreeSpectra} these satisfy
