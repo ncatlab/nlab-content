@@ -71,6 +71,7 @@ The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mat
 
 #### Spectral sequence of a filtered spectrum
 
+
 +-- {: .num_defn #FilteredSpectrum}
 ###### Definition
 
@@ -108,18 +109,20 @@ There is _no_ condition on the [[morphisms]] in def. \ref{FilteredSpectrum}. In 
 
 On the other hand, while they are also not explicitly required to have a presentation by [[cofibrations]] or [[fibrations]], this follows automatically: by the existence of the [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory)) or equivalently ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)) the [[model structure on orthogonal spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#OrthogonalSpectraStableModelStructure)), every filtering on a spectrum is equivalent to one in which all morphisms are represented by [[cofibrations]] or by [[fibrations]]. 
 
-This means that we may think of a filtration on a spectrum $X$ in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over $X$.
+This means that we may think of a filtration on a spectrum in the sense of def. \ref{FilteredSpectrum} as equivalently being a [[tower of fibrations]] over that spectrum.
 
 =--
 
-The following remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels the structure encoded in a filtration on a spectrum, and motivates the concepts of [[exact couples]] and their [[spectral sequences]] from these.
+The following definition \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} unravels the structure encoded in a filtration on a spectrum, and motivates the concepts of [[exact couples]] and their [[spectral sequences]] from these.
 
 
-+-- {: .num_remark #UnrolledExactCoupleOfAFiltrationOnASpectrum}
-###### Remark
++-- {: .num_defn #UnrolledExactCoupleOfAFiltrationOnASpectrum}
+###### Definition
+**(exact couple of a filtered spectrum)**
 
-Given a [[filtered spectrum]] as in def. \ref{FilteredSpectrum},
-write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such as to obtain the diagram
+Consider a spectrum $X \in Ho(Spectra)$ and a [[filtered spectrum]] $Y_\bullet$ as in def. \ref{FilteredSpectrum}.
+
+Write $A_k$ for the [[homotopy cofiber]] of its $k$th stage, such as to obtain the diagram
 
 $$
   \array{
@@ -128,12 +131,15 @@ $$
    Y_3 
      &\stackrel{f_2}{\longrightarrow}& 
    Y_2 
-     &\stackrel{f_2}{\longrightarrow} & 
+     &\stackrel{f_1}{\longrightarrow} & 
    Y_1 
-     &\stackrel{f_1}{\longrightarrow}& 
+     &\stackrel{f_0}{\longrightarrow}& 
    Y
    \\
-   && \downarrow && \downarrow && \downarrow && \downarrow
+   && \downarrow^{\mmathrlap{g_3}}
+   && \downarrow^{\mathrlap{g_2}}
+   && \downarrow^{\mathrlap{g_1}}
+   && \downarrow^{\mathrlap{g_0}}
    \\
    && A_3 && A_2 && A_1 && A_0
   }
@@ -145,15 +151,28 @@ $$
  \array{
    X_{k+1} &\stackrel{f_k}{\longrightarrow}& X_k   
    \\
-   && \downarrow^{\mathrlap{cofib(f_k)}}
+   && \downarrow^{\mathrlap{g_k}}
    \\
    && A_k
  }
 $$
 
-is a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), hence equivalently ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) a [[homotopy fiber sequence]] 
+is a [[homotopy cofiber sequence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)), hence equivalently ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)) a [[homotopy fiber sequence]], hence where
 
-To break this down into invariants, choose another spectrum $X \in Ho(Spectra)$ apply the graded hom-group functor $[X,-]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) to the above tower. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
+$$
+  X_{k_1} 
+    \overset{f_k}{\longrightarrow}
+  X_k
+   \overset{g_k}{\longrightarrow}
+  A_k
+    \overset{}{\longrightarrow}
+  \Sigma X_{k+1}
+$$
+
+is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
+
+
+Apply the graded hom-group functor $[X,-]_\bullet$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) to the above tower. This yields a diagram of $\mathbb{Z}$-[[graded abelian groups]] of the form
 
 $$
   \array{
@@ -162,51 +181,44 @@ $$
    [X,Y_3]_\bullet 
      &\stackrel{[X,f_2]_\bullet)}{\longrightarrow}& 
    [X,Y_2]_\bullet 
-     &\stackrel{[X,f_2]_\bullet}{\longrightarrow} & 
+     &\stackrel{[X,f_1]_\bullet}{\longrightarrow} & 
    [X,Y_1]_\bullet 
-     &\stackrel{[X,f_1]_\bullet}{\longrightarrow}& 
+     &\stackrel{[X,f_0]_\bullet}{\longrightarrow}& 
    [X,Y_0]_\bullet
    \\
-   && \downarrow && \downarrow && \downarrow && \downarrow
+   && \downarrow^{\mathrlap{[X,g_3]_\bullet}}
+   && \downarrow^{\mathrlap{[X,g_2]_\bullet}}
+   && \downarrow^{\mathrlap{[X,g_1]_\bullet}}
+   && \downarrow^{\mathrlap{[X,g_0]_\bullet}}
    \\
    && [X,A_3]_\bullet 
    && [X,A_2]_\bullet 
    && [X,A_1]_\bullet 
    && [X,A_0]_\bullet
   }
-  \,.
+  \,,
 $$
 
-Each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory -- 1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $\delta_\bullet^k$
+where each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $\delta_{k,\bullet}$
 
 $$
   \cdots
     \to
   [X,A_k]_{\bullet+1} 
-    \stackrel{\delta_{\bullet+1}^k}{\longrightarrow}
+    \stackrel{\delta_{k,\bullet+1}}{\longrightarrow}
   [X,Y_{k+1}]_{\bullet} 
     \stackrel{[X,f_k]_\bullet}{\longrightarrow}
   [X,Y_k]_\bullet
-    \stackrel{}{\longrightarrow}
+    \stackrel{[X,g_k]_\bullet}{\longrightarrow}
   [X,A_k]_\bullet
-   \stackrel{\delta_\bullet^k}{\longrightarrow}
+   \stackrel{\delta_{k,\bullet}}{\longrightarrow}
   [X,Y_{k+1}]_{\bullet-1}
     \to 
   \cdots
   \,.
 $$
 
-If we understand the [[connecting homomorphism]]
-
-$$
-  \delta_k 
-    \;\colon\; 
-  [X,A_k]_\bullet 
-    \longrightarrow 
-  [X,Y_{k+1}]_\bullet
-$$
-
-as a morphism of degree -1, then all this information fits into one diagram of the form
+If we regard the [[connecting homomorphism]] $\delta_k$ as a morphism of degree -1, then all this information fits into one diagram of the form
 
 $$
   \array{
@@ -215,16 +227,16 @@ $$
    [X,Y_3]_\bullet 
      &\stackrel{[X,f_2]_\bullet}{\longrightarrow}& 
    [X,Y_2]_\bullet 
-     &\stackrel{[X,f_2]_\bullet}{\longrightarrow} & 
+     &\stackrel{[X,f_1]_\bullet}{\longrightarrow} & 
    [X,Y_1]_\bullet 
-     &\stackrel{[X,f_1]_\bullet}{\longrightarrow}& 
+     &\stackrel{[X,f_0]_\bullet}{\longrightarrow}& 
    [X,Y_0]_\bullet
    \\
    && 
-   \downarrow &{}_{\mathllap{\delta_2}}\nwarrow & 
-   \downarrow &{}_{\mathllap{\delta_1}}\nwarrow &
-   \downarrow &{}_{\mathllap{\delta_0}}\nwarrow
-   & \downarrow
+   \downarrow &{}_{\mathllap{\delta_{2,\bullet}}}\nwarrow & 
+   \downarrow &{}_{\mathllap{\delta_{1,\bullet}}}\nwarrow &
+   \downarrow &{}_{\mathllap{\delta_{0,\bullet}}}\nwarrow
+   & \downarrow^{\mathrlap{[X,g_0]_\bullet}}
    \\
    && [X,A_3]_\bullet 
    && [X,A_2]_\bullet 
@@ -240,23 +252,20 @@ If we furthermore consider the [[bigraded object|bigraded]] [[abelian groups]] $
 
 $$
   \array{
-     [X,Y_\bulllet]_\bullet
+     [X,Y_\bullet]_\bullet
        & \stackrel{[X,f_\bullet]_\bullet}{\longrightarrow} &
      [X,Y_\bullet]_{\bullet}
      \\
-       & {}_{\mathllap{\delta}}\nwarrow 
-       & \downarrow^{\mathrlap{[X, cofib(f_\bullet)]_\bullet }}
+       & {}_{\mathllap{\delta_{\bullet,\bullet}}}\nwarrow 
+       & \downarrow^{\mathrlap{[X, g_\bullet]_\bullet }}
      \\
      && 
      [X,A_\bullet]_\bullet
   }
-  \,,
+  \,.
 $$
 
-where the morphisms $[X,f_\bullet]_\bullet$, 
-$[X,cofib(f_\bullet)]_\bullet$ and $\delta$ have bi-degree $(0,-1)$, $(0,0)$ and $(-1,1)$, respectively.
-
-Here it is convenient to shift the bigrading, equivalently, by setting
+Specifically, regard the terms here as the following bigraded abelian groups
 
 $$
   D^{s,t}(X,Y) \;\coloneqq\; [X,Y_s]_{t-s}
@@ -264,20 +273,31 @@ $$
 
 $$
   E^{s,t}(X,Y) \;\coloneqq\; [X,A_s]_{t-s}
-  \,,
+  \,.
 $$
 
-because then $t$ counts the cycles of going around the triangles:
+Then the bidegree of the morphisms is
+
+
+
+| morphism | bidegree |
+|----------|----------|
+| $[X,f]$  | $(-1,-1)$ |
+| $[X,g]$  | $(0,0)$  |
+| $[X,\delta]$ | $(1,0)$ |
+
+
+This way $t$ counts the cycles of going around the triangles:
 
 $$
   \cdots
    \to 
   D^{s+1,t+1}(X,Y)
-    \stackrel{[X,f_s]_{t-s}}{\longrightarrow}
+    \stackrel{[X,f]}{\longrightarrow}
   D^{s,t}(X,Y)
-    \stackrel{[X,cofib(f_s)]_{t-s}}{\longrightarrow}
+    \stackrel{[X,g]}{\longrightarrow}
   E^{s,t}(X,Y)
-    \stackrel{\delta_s}{\longrightarrow}
+    \stackrel{\delta}{\longrightarrow}
   D^{s+1,t}(X,Y)
     \to
   \cdots
@@ -292,7 +312,7 @@ Data of this form is called an _[[exact couple]]_, def. \ref{ExactCouple} below.
 +-- {: .num_defn #UnrolledExactCouple}
 ###### Definition
 
-An _unrolled [[exact couple]]_ (of Adams-type) is a diagram of [[abelian groups]] of the form
+An _unrolled [[exact couple]]_ (of _Adams-type_) is a diagram of [[abelian groups]] of the form
 
 $$
   \array{
@@ -310,7 +330,7 @@ $$
      \downarrow^{\mathrlap{}}  &{}_{\mathllap{k_2}}\nwarrow & 
      {}^{\mathllap{j_2}}\downarrow &{}_{\mathllap{k_1}}\nwarrow &
      {}^{\mathllap{j_1}}\downarrow &{}_{\mathllap{k_0}}\nwarrow
-     & {}_{\mathllap{j_0}}\downarrow
+     & \downarrow_{\mathrlap{j_0}}
      \\
      && \mathcal{E}^{3,\bullet} && \mathcal{E}^{2,\bullet} 
      && \mathcal{E}^{1,\bullet} && \mathcal{E}^{0,\bullet}
@@ -358,7 +378,7 @@ $$
   \,,
 $$
 
-such that this is [[exact sequence]] exact in each position, hence such that the [[kernel]] of every [[morphism]] is the [[image]] of the preceding one.
+such that this is [[exact sequence|exact]] in each position, hence such that the [[kernel]] of every [[morphism]] is the [[image]] of the preceding one.
 
 =--
 
@@ -368,7 +388,7 @@ The concept of exact couple so far just collects the sequences of long exact seq
 +-- {: .num_remark #Observingd1}
 ###### Remark
 
-The sequence of long exact sequences in remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $\pi_{t-s}(X_s)$ appears _twice_:
+The sequence of long exact sequences in def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum} is inter-locking, in that every $[X,Y_s]_{t-s}$ appears _twice_:
 
 $$
   \array{
