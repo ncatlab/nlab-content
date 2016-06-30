@@ -1,5 +1,31 @@
-| [[monoidal model category|monoidal]] [[stable model category]] | -[[localization]]$\to$ | [[tensor triangulated category]] |
-|------|----------|-----------|
-| stable [[model structure on orthogonal spectra]] $OrthSpec(Top_{cg})_{stable}$ | | [[stable homotopy category]] $Ho(Spectra)$ |
-| [[symmetric monoidal smash product of spectra]] | | derived [[smash product of spectra]] |
-| commutative [[orthogonal ring spectrum]] ([[E-infinity ring]]) |   | [[homotopy commutative ring spectrum]] |
+$$
+  \array{
+    0 
+      &\to& 
+    E_\bullet(Y)
+     && \overset{E_\bullet(f_0)}{\longrightarrow} &&
+    E_\bullet(W_0)
+     && \longrightarrow &&
+    E_{\bullet-1}(W_1)
+     && \longrightarrow &&
+    E_{\bullet-2}(W_2)
+     && \longrightarrow &&
+    \cdots
+    \\
+    &&
+    &&
+    &&
+    & \searrow && \nearrow_{\mathrlap{E_\bullet(f_1)}}
+    &&
+    \searrow && \nearrow_{\mathrlap{E_\bullet(f_2)}}
+    \\
+    && 
+    &&
+    &&
+    &&
+    E_{\bullet-1}(Y_1) 
+    &&
+    &&
+    E_{\bullet-2}(Y_2)
+  }
+$$
