@@ -4302,7 +4302,7 @@ Finally to see that the structure map is as claimed: By prop. \ref{DiagramSpectr
 +-- {: .num_defn #RingSpectrumInSymmetricAndOrthogonalSpectra}
 ###### Definition
 
-A **symmetric [[commutative ring spectrum]]** $E$ is 
+A **commutative [[symmetric ring spectrum]]** $E$ is 
 
 1. a sequence of component spaces $E_n \in Top^{\ast/}_{cg}$ for $n \in \mathbb{N}$;
 
@@ -4428,7 +4428,7 @@ $$
 
 for the resulting [[category]] of symmetric [[commutative ring spectra]].
 
-There is an analogous definition of **orthogonal [[commutative ring spectra]]** and we write
+There is an analogous definition of **[[orthogonal ring spectrum]]** and we write
 
 $$
   CRing(OrthSpec(Top_{cg}))
@@ -8343,7 +8343,7 @@ In addition we ask that
 +-- {: .num_prop #TensorTriangulatedStructureOnStableHomotopyCategory}
 ###### Proposition
 
-The [[stable homotopy category]] equipped with 
+The [[stable homotopy category]] $Ho(Spectra)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) equipped with 
 
 1. its [[triangulated category]] structure $(Ho(Spectra), \Sigma, CofSeq)$ for distinguished triangles the [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated);
 
@@ -9061,7 +9061,15 @@ $$
   }
 $$
 
-Here the top part is from remark \ref{SummarySituationForStrictModelStructure}, while the vertical [[Quillen equivalence]] $(seq_! \dashv seq^\ast)$ is from theorem \ref{OrthogonalSpectraStableModelStructure}.
+where
+
+* $(Top^{\ast/}_{cg})_{Quillen}$ is the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#TopQuillenModelStructure), [thm.](Introduction+to+Stable+homotopy+theory+--+P#CofibrantGenerationOfPointedTopologicalSpaces));
+
+* $SeqSpec(Top_{cg})_{stable}$ is the stable [[model structure on topological sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableModelStructureOnSequentialSpectraIsModelCategory));
+
+* $OrthSpec(Top_{cg})_{stable}$ is the stable [[model structure on orthogonal spectra]] from theorem \ref{OrthogonalSpectraStableModelStructure}.
+
+Here the top part of the diagram is from remark \ref{SummarySituationForStrictModelStructure}, while the vertical [[Quillen equivalence]] $(seq_! \dashv seq^\ast)$ is from theorem \ref{OrthogonalSpectraStableModelStructure}.
 
 Moreover, the top and bottom [[model categories]] are [[monoidal model categories]] (def. \ref{MonoidalModelCategory}): $Top^{\ast/}_{cg}$ with respect to the [[smash product]] of [[pointed topological spaces]] (theorem \ref{MonoidalStrictModelStructure}) and $OrthSpec(Top_{cg})_{strict}$ as well as $OrthSpec(Top_{cg})_{stable}$ with respect to the [[symmetric monoidal smash product of spectra]] (theorem \ref{MonoidalStrictModelStructure} and theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}); and the compsite vertical adjunction 
 
@@ -9122,9 +9130,13 @@ Moreover, the derived smash product of spectra is compatible with the [[additive
 | [[kernels]]/[[cokernels]] | [[homotopy fibers]]/[[homotopy cofibers]] |
 
 
-The [[commutative monoids in a symmetric monoidal category|commutative monoids]] with respect to this [[smash product of spectra]] are precisely the orthogonal [[commutative ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}, prop. \ref{RingSpectraAreDayMonoids}) and the [[module objects]] over these are precisely the orthogonal [[module spectra]] (def. \ref{SymmetricModuleSpectrum}, prop. \ref{ModuleSpectraAreModuleFunctors}).
+The [[commutative monoids in a symmetric monoidal category|commutative monoids]] with respect to this [[smash product of spectra]] are precisely the commutative [[orthogonal ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}, prop. \ref{RingSpectraAreDayMonoids}) and the [[module objects]] over these are precisely the orthogonal [[module spectra]] (def. \ref{SymmetricModuleSpectrum}, prop. \ref{ModuleSpectraAreModuleFunctors}).
 
-Moreover, the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[lax monoidal functors]] 
+
+[[!include homological and higher algebra -- table]]
+
+
+The [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) from the [[monoidal model categories]] to their [[homotopy category of a model category|homotopy categories]] are [[lax monoidal functors]] 
 
 $$
   \array{
@@ -9139,10 +9151,14 @@ $$
   \,.
 $$
 
-This implies that for $E \in OrthSpec(Top_{cg})$ a [[commutative ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+This implies that for $E \in OrthSpec(Top_{cg})$ a commutative[[orthogonal ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
 
 
-[[!include homological and higher algebra -- table]]
+| [[monoidal model category|monoidal]] [[stable model category]] | -[[localization]]$\to$ | [[tensor triangulated category]] |
+|------|----------|-----------|
+| stable [[model structure on orthogonal spectra]] $OrthSpec(Top_{cg})_{stable}$ | | [[stable homotopy category]] $Ho(Spectra)$ |
+| [[symmetric monoidal smash product of spectra]] | | derived [[smash product of spectra]] |
+| commutative [[orthogonal ring spectrum]] ([[E-infinity ring]]) |   | [[homotopy commutative ring spectrum]] |
 
 
 Moreover, the vertical adjunction 
