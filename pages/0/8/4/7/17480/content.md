@@ -191,3 +191,4 @@ for the category that these form.
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+[[!redirects symmetric ring spectra]]
