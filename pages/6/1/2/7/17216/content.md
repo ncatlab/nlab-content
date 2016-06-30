@@ -56,7 +56,7 @@ Survey includes
 * H. R. Margolis, _Spectra and the Steenrod algebra_, volume 29 of North-Holland
 Mathematical Library. North-Holland Publishing Co., Amsterdam, 1983 
 
-* [[Stefan Schwede]], chapter II, section 7 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+* {#Schwede12} [[Stefan Schwede]], chapter II, section 7 of  _[[Symmetric spectra]]_, 2012  ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
 
 Discussion in the abstract generality of categories equipped with an abstract suspension-like functor is in
