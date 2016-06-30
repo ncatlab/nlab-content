@@ -22,7 +22,7 @@ are all $O(n)\times O(k)$-[[equivariance|equivariant]], hence are [[action]] [[h
 
 The [[category]] of _orthogonal spectra_  is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on orthogonal spectra]]_. 
 
-This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] orthogonal spectra ("[[highly structured ring spectrum]]").
+This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] orthogonal spectra ("[[highly structured ring spectrum]]"). See at _[[orthogonal ring spectrum]]_.
 
 Other presentations sharing this property are _[[symmetric spectra]]_ and _[[S-modules]]_. In contrast to symmetric spectra, orthogonal spectra need to consist of [[topological spaces]] instead of [[simplicial sets]]. 
 
@@ -325,6 +325,8 @@ Since orthogonal spectra are by definition equipped with orthogonal group [[acti
 ## Related concepts
 
 * [[free orthogonal spectrum]]
+
+* [[orthogonal ring spectrum]]
 
 [[model structure on spectra]], [[symmetric monoidal smash product of spectra]]
 
