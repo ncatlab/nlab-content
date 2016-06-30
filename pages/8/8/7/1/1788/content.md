@@ -1,35 +1,5 @@
-$$
-  \array{
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k-1}\mathbb{S})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_k)
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_{k+1})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k}\mathbb{S})
-      &\longrightarrow&
-    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma X_k)
-    \\
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-      &&
-    \downarrow
-    \\
-    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k-1}\mathbb{S}]
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge^L E \wedge^L X_k]
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge^L E \wedge^L X_{k+1}]
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma^{n_k}\mathbb{S}]
-      &\longrightarrow&
-    [\mathbb{S}, E \wedge^L E \wedge^L \Sigma X_k]
-  }
-  \,.
-$$
-
+| [[monoidal model category|monoidal]] [[stable model category]] | -[[localization]]$\to$ | [[tensor triangulated category]] |
+|------|----------|-----------|
+| stable [[model structure on orthogonal spectra]] $OrthSpec(Top_{cg})_{stable}$ | | [[stable homotopy category]] $Ho(Spectra)$ |
+| [[symmetric monoidal smash product of spectra]] | | derived [[smash product of spectra]] |
+| commutative [[orthogonal ring spectrum]] ([[E-infinity ring]]) |   | [[homotopy commutative ring spectrum]] |
