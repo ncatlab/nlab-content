@@ -155,7 +155,7 @@ Some results used in the study of weakly &#233;tale maps appeared earlier in
 
 A textbook account is in 
 
-* [[The Stacks Project]], [Pro-&#233;tale Cohomology](http://stacks.math.columbia.edu/tag/0965) ([pdf](stacks.math.columbia.edu/download/proetale.pdf))
+* [[The Stacks Project]], [Pro-&#233;tale Cohomology](http://stacks.math.columbia.edu/tag/0965) ([pdf](http://stacks.math.columbia.edu/download/proetale.pdff))
 
 
 Further developments include
