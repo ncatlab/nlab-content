@@ -221,9 +221,9 @@ With the [[n-sphere]] $S^n$ realized as the [[one-point compactification]] of th
 $$
   b_{n_1,n_2}
   \;\colon\;
-  S^{n_1} \wedge S^{S^2}
+  S^{n_1} \wedge S^{n_2}
   \stackrel{\sigma}{\longrightarrow}
-  S^{n_2} \wedge S^{n_2}
+  S^{n_2} \wedge S^{n_1}
 $$
 
 is given by permuting the [[coordinates]]:
@@ -257,7 +257,7 @@ The general abstract theory for handling this is _[[monoidal category|monoidal]]
 #### Categorical algebra
  {#MonoidalAndEnrichedCategories}
 
-When defining a [[commutative ring]] as an [[abelian group]] $A$ equipped with an [[associativity|associative]], commutative and [[unit|untial]] [[bilinear map|bilinear]] pairing
+When defining a [[commutative ring]] as an [[abelian group]] $A$ equipped with an [[associativity|associative]], commutative and [[unit|unital]] [[bilinear map|bilinear]] pairing
 
 $$
   A \otimes_{\mathbb{Z}} A \overset{(-)\cdot (-)}{\longrightarrow} A
@@ -658,7 +658,7 @@ The category $Top^{\ast/}_{cg}$ is also a [[closed monoidal category]] (def. \re
 
 The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
 
-This is a [[closd monoidal cagory]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
+This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
 
 This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
 
@@ -4126,7 +4126,7 @@ A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $\Sigma(n)$-[[action]];
+1. each $f_n$ [[intertwiner|intertwines]] the $\Sigma(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -4180,7 +4180,7 @@ such that
     \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $O(n) \times Ok()$-[[action]].
+  [[intertwiner|intertwines]] the $O(n) \times O(k)$-[[action]].
 
 A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
@@ -4188,7 +4188,7 @@ A [[homomorphism]] of orthogonal spectra $f\colon X \longrightarrow Y$ is
 
 such that
 
-1. each $f_n$ [[intertwiner|intetwines]] the $O(n)$-[[action]];
+1. each $f_n$ [[intertwiner|intertwines]] the $O(n)$-[[action]];
 
 1. the following [[commuting diagram|diagrams commute]]
 
@@ -4216,7 +4216,7 @@ We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of orthogonal spect
 Definitions \ref{SymmetricSpectrum} and \ref{OrthogonalSpectrum}
 are indeed equivalent to def. \ref{SsymModuleSymmetricSpectra}:
 
-orthogonal spectra are euqivalently the [[module objects]] over the incarnation $\mathbb{S}_{orth}$ of the sphere spectrum
+orthogonal spectra are equivalently the [[module objects]] over the incarnation $\mathbb{S}_{orth}$ of the sphere spectrum
 
 $$
   OrthSpec(Top_{cg})
