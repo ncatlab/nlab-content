@@ -1,31 +1,46 @@
 $$
   \array{
-    0 
-      &\to& 
-    E_\bullet(Y)
-     && \overset{E_\bullet(f_0)}{\longrightarrow} &&
-    E_\bullet(W_0)
-     && \longrightarrow &&
-    E_{\bullet-1}(W_1)
-     && \longrightarrow &&
-    E_{\bullet-2}(W_2)
-     && \longrightarrow &&
-    \cdots
+    && & \searrow && \nearrow
     \\
-    &&
-    &&
-    &&
-    & \searrow && \nearrow_{\mathrlap{E_\bullet(f_1)}}
-    &&
-    \searrow && \nearrow_{\mathrlap{E_\bullet(f_2)}}
+    && && \pi_{t-s-1}(X_{s+1})
     \\
-    && 
-    &&
-    &&
-    &&
-    E_{\bullet-1}(Y_1) 
-    &&
-    &&
-    E_{\bullet-2}(Y_2)
+    && & {}^{\mathllap{\delta_{t-s}^s}}\nearrow 
+    && \searrow^{\mathrlap{\pi_{t-s-1}(cofib(f_{s+1}))}}
+    && && && \nearrow
+    \\
+    && \pi_{t-s}(A_s) && \underset{d_1^{s,t}}{\longrightarrow} && \pi_{t-s-1}(A_{s+1})
+    && \stackrel{d_1^{s+1,t}}{\longrightarrow} && \pi_{t-s-2}(A_{s+2})
+    \\
+    & \nearrow && && && {}_{\mathllap{\delta_{t-s-1}^{s+1}}}\searrow 
+    && \nearrow_{\mathrlap{\pi_{t-s-2}(cofib(f_{s+2}))}}
+    \\
+    && && && && \pi_{t-s-2}(X_{s+2})
+    \\
+    && && && & \nearrow && \searrow
+  }
+$$
+
+$$
+  \array{
+    && & \searrow && \nearrow
+    \\
+    && && [X,Y_{s+1}]_{t-s-1}
+    \\
+    && & {}^{\mathllap{\delta}}\nearrow 
+    && \searrow^{\mathrlap{ [X,g]  }}
+    && && && \nearrow
+    \\
+    && [X,A_s]_{t-s} 
+    && \underset{d_1 }{\longrightarrow} 
+    && [X, A_{s+1}]_{t-s-1}
+    && \stackrel{d_1 }{\longrightarrow} 
+    && [X,A_{s+2}]_{t-s-2}
+    \\
+    & \nearrow && && && {}_{\mathllap{ \delta }}\searrow 
+    && \nearrow_{\mathrlap{ [X,g] }}
+    \\
+    && && && && [X,Y_{s+2}]_{t-s-2}
+    \\
+    && && && & \nearrow && \searrow
   }
 $$
