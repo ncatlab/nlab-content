@@ -275,6 +275,8 @@ The [[connecting homomorphism]] of the [[long exact sequence in homology]] induc
 
 ## Related concepts
 
+* [[splicing of short exact sequences]]
+
 * [[exact functor]]
 
 * [[exact sequence of Hopf algebras]]
