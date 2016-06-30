@@ -242,10 +242,11 @@ For [[symmetric spectra]], see ([Schwede 12, prop. 4.39](#Schwede12)).
 * {#Schwede97} [[Stefan Schwede]], _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 77-104 ([pdf](http://www.math.uni-bonn.de/people/schwede/modelspec.pdf))
 
 
-
 * {#Schwede12} [[Stefan Schwede]], around prop. 4.39 of _[[Symmetric spectra]]_ (2012)
 
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+
+* [[Cary Malkiewich]], _Some facts about $Q X$_ ([pdf](http://www.math.uiuc.edu/~cmalkiew/Q.pdf))
 
 [[!redirects spectrifications]]
 
