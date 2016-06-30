@@ -61,3 +61,5 @@ $$
 
 which is, evidently, a [[long exact sequence]].
 
+More generally, there is splicing of interlocking systems of [[long exact sequences]]. See at _[Exact couple of a tower of fibrations](exact+couple#ExactCoupleOfATowerOfFibrations)_.
+
