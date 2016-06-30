@@ -68,10 +68,10 @@ The classical Adams spectral sequence is the special case with $Y = X = \mathbb{
 
 The _[[Adams-Novikov spectral sequence]]_ is the special case with $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
-#### $E$-Adams spectral sequences
 
+#### $E$-Adams filtrations
 
-+-- {: .num_defn #EAdamsSpectralSequence}
++-- {: .num_defn #AdamsEAdamsSpectralSequence}
 ###### Definition
 
 Let $X,Y \in Ho(Spectra)$ be two [[spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)), and let $(E,\mu,e) \in CMon(Ho(Spectra),\wedge, \mathbb{S})$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) in the [[tensor triangulated category|tensor triangulated]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)) [[stable homotopy category]] $(Ho(Spectra), \wedge, \mathbb{S})$. 
@@ -85,7 +85,7 @@ $$
 $$ 
 
 of morphisms in the [[stable homotopy category]]
-([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the tower
+([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) is the [[spectral sequence of a tower of fibrations]] ([def.](Introduction+to+Stable+homotopy+theory+--+I#AdamsTypeSpectralSequenceOfATower)) of the image under $[X,-]_\bullet$ of the tower
 
 $$
   \array{
@@ -113,7 +113,13 @@ $$
 where each hook is a [[homotopy fiber sequence]] (equivalently a [[homotopy cofiber sequence]], [prop](Introduction+to+Stable+homotopy+theory+--+1-1#HomotopyCofiberSequencesAreHomotopyFiberSequencesInSpectra)), hence where each 
 
 $$
-  Y_{n+1} \longrightarrow Y_n \longrightarrow W_n \longrightarrow \Sigma Y_{n+1}
+  Y_{n+1} 
+    \longrightarrow 
+  Y_n 
+    \longrightarrow 
+  W_n 
+    \longrightarrow 
+  \Sigma Y_{n+1}
 $$
 
 is an exact triangle ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)), where inductively
@@ -142,7 +148,7 @@ is the composition of the inverse derived [[unitor]] on $Y_n$ with the derived [
 
 ([Adams 74, theorem 15.1 page 318](#Adams74))
 
-It is convenient to adopt the following notation for $E$-Adams spectral sequences (def. \ref{EAdamsSpectralSequence}):
+It is convenient to adopt the following notation for $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}):
 
 +-- {: .num_defn #HomotopyFiberOfUnitOfCommutativeRingSpectrum}
 ###### Definition
@@ -177,7 +183,7 @@ $$
 +-- {: .num_lemma #Wp}
 ###### Lemma
 
-The spectra entering the definition of the $E$-[[Adams spectral sequence]] in def. \ref{EAdamsSpectralSequence} are equivalently
+The spectra entering the definition of the $E$-[[Adams spectral sequence]] in def. \ref{AdamsEAdamsSpectralSequence} are equivalently
 
 $$
   Y_p 
@@ -244,7 +250,7 @@ where by induction assumption the morphism on the right is $f_p$. Since $Y_{p+1}
 #### The first page
  {#FirstPageAndHopfAlgebroid}
 
-The first page of an $E$-Adams spectral sequence (def. \ref{EAdamsSpectralSequence}) is
+The first page of an $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}) is
 
 $$
   \begin{aligned}
@@ -569,7 +575,7 @@ $$
     \underoverset
       {\underset{forget}{\longrightarrow}}
       {\overset{co-free}{\longleftarrow}}
-      {\Bot}
+      {\bot}
   A Mod
 $$
 
@@ -726,7 +732,7 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 
 
-##### The Hopf algebroid of dual $E$-Steenrod operations
+##### The dual $E$-Steenrod algebra
 
 
 Now we identify the [[commutative Hopf algebroids]] arising in the $E$-Adams spectral sequence:
@@ -805,6 +811,9 @@ $E = $
 
 =--
 
+##### The first page via homs of Hopf comodules
+
+
 The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited from maps of spectra under smashing with $E$:
 
 +-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
@@ -840,7 +849,13 @@ In order to put all this together, we need to invoke a [[universal coefficient t
 +-- {: .num_prop #AdamsUCT}
 ###### Proposition
 
-If $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
+If at least one of the following conditions is met
+
+* $Y = \mathbb{S}$ is the [[sphere spectrum]];
+
+* $E$ is among the examples [[sphere spectrum|S]], [[HR]] for $R = \mathbb{F}_p$, [[MO]], [[MU]], [[MSp]], [[KO]], [[KU]], 
+
+then for all $E$-[[module spectra]] $N$ with [[action]] $\rho \colon E\wedge N \to N$
 the morphism of $\mathbb{Z}$-[[graded abelian groups]]
 
 $$
@@ -860,7 +875,7 @@ This is the [[universal coefficient theorem]] of ([Adams 74, chapter III, prop. 
 
 With this we finally get the following statement, which serves to identity maps of certain spectra with their induced maps on $E$-homology:
 
-+-- {: .num_prop}
++-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
 
 If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
@@ -868,7 +883,7 @@ If the assumptions of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectr
 $$
  \pi_\bullet(E\wedge (-))
    \;\colon\;
- \pi_\bullet[Y, E\wedge N] 
+ [Y, E\wedge N]_\bullet 
    \stackrel{}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y), E_\bullet(Y)))
 $$
@@ -922,24 +937,26 @@ Therefore also the top morphism is an iso.
 
 In conclusion:
 
-+-- {: .num_prop #E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}
++-- {: .num_prop #ComoduleHomsInE1PageOfEAdamsSpectralSequence}
 ###### Proposition
 
-For $X, Y$ [[spectra]], and for $E$ a [[commutative ring spectrum]] from the list in example \ref{ExamplesOfFlatRingSpectra}, then the $\mathcal{E}_1$-page of the $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$, induced by the standard $E$-[[Adams resolution]] for $X$ from example \ref{StandardEResolution}, is of the form
+For $X, Y$ [[spectra]], and for $E$ a [[homotopy commutative ring spectrum]] 
+which is flat (def. \ref{FlatE}), 
+then the first page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[Y,X]$, induced by the standard $E$-[[Adams resolution]] for $X$ from example \ref{StandardEResolution}, is isomorphic to
 
 $$
   0 
     \to 
-  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(X))
+  Hom_{E_\bullet(E)}^\bullet(E_\bullet(Y),E_\bullet(W_0))
     \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
      E_\bullet(Y),
-     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+     E_\bullet(W_1)
   )
     \stackrel{d_1}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(
      E_\bullet(Y),
-     E_\bullet(E) \otimes_{\pi_\bullet(E)}  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+     E_\bullet(W_2)
    )
     \stackrel{d_1}{\longrightarrow}
    \cdots
@@ -948,7 +965,131 @@ $$
 
 =--
 
+([Adams 74, theorem 15.1 page 323](#Adams74))
+
++-- {: .proof}
+###### Proof
+
+This is prop. \ref{ComoduleHomForENCohomology} applied to def. \ref{AdamsEAdamsSpectralSequence}.
+
+=--
+
+In order to interpret prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, notice that it gives the comodule homs into a resolution of $E_\bullet(Y)$
+
++-- {: .num_lemma #ResolutionEWp}
+###### Lemma
+
+The sequences
+
+$$
+  0
+    \to
+  E_\bullet(Y_p)
+    \overset{E_\bullet(f_p)}{\longrightarrow}
+  E_\bullet(W_p)
+    \overset{}{\longrightarrow}
+  E_{\bullet-1}(Y_{p+1})
+   \to
+  0
+$$
+
+are [[short exact sequences|short exact]], hence their [[splicing of short exact sequences]]
+
+$$
+  \array{
+    0 
+      &\to& 
+    E_\bullet(Y)
+     && \overset{E_\bullet(f_0)}{\longrightarrow} &&
+    E_\bullet(W_0)
+     && \longrightarrow &&
+    E_{\bullet-1}(W_1)
+     && \longrightarrow &&
+    E_{\bullet-2}(W_2)
+     && \longrightarrow &&
+    \cdots
+    \\
+    &&
+    &&
+    &&
+    & \searrow && \nearrow_{\mathrlap{E_\bullet(f_1)}}
+    &&
+    \searrow && \nearrow_{\mathrlap{E_\bullet(f_2)}}
+    \\
+    && 
+    &&
+    &&
+    &&
+    E_{\bullet-1}(Y_1) 
+    &&
+    &&
+    E_{\bullet-2}(Y_2)
+  }
+$$
+
+
+=--
+
+([Adams 74, theorem 15, page 322](#Adams74))
+
++-- {: .proof}
+###### Proof
+
+Consider the image of the defining [[homotopy cofiber sequence]]
+
+$$
+  Y_p 
+    \overset{f_p}{\longrightarrow}
+  W \wedge Y_p 
+    \longrightarrow
+  \Sigma Y_{p+1}
+$$
+
+under the functor $E \wedge (-)$, which is itself a homotopy cofiber sequence of the form (due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory))
+
+$$
+  E \wedge Y_p
+    \overset{E \wedge f_p}{\longrightarrow}
+  E \wedge E \wedge Y_p
+    \longrightarrow
+  \Sigma E \wedge Y_{p + 1}
+  \,.
+$$
+
+Applying the functor $\pi_\bullet(-) \simeq [\mathbb{S},-]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) to this yields a [[long exact sequence]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups))
+
+$$
+  \cdots
+   \longrightarrow
+  E_\bullet(Y_p)
+    \overset{\pi_\bullet(E \wedge f_p)}{\longrightarrow}
+  E_\bullet(W_p)
+    \longrightarrow
+  E_{\bullet-1}(Y_{p+1})
+   \longrightarrow
+  \cdots
+  \,.
+$$
+
+But in fact this [[split exact sequence|splits]]: by [[unitality]], the product operation $\mu$ on the [[homotopy commutative ring spectrum]] $E$ is a [[left inverse]] to $f_p$ in that
+
+$$
+  id
+  \;\colon\;
+  E \wedge Y_p
+    \overset{E \wedge f_p}{\longrightarrow}
+  E \wedge E \wedge Y_p
+    \overset{\mu \wedge id}{\longrightarrow}
+  E \wedge Y_p
+$$
+
+and hence $\pi_\bullet(E \wedge f_p)$ is a [[monomorphism]]. This means that the above long exact sequence collapses to [[short exact sequences]].
+
+=--
+
 The next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
+
+
 
 
 #### The second page
@@ -958,22 +1099,29 @@ The next step is to identify the chain homology of this $d_1$ with the comodule 
 +-- {: .num_theorem #SecondPageOfEAdamsSpectralSequence}
 ###### Theorem
 
-If $E$ is flat, def. \ref{FlatE}, and satisfies the conditions of prop. \ref{AdamsUCT}, and $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, then the entries of the $\mathcal{E}_2$-page
-of any $E$-Adams spectral sequence, def. \ref{EAdamsSpectralSequence}, for $[Y,X]$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+If 
+
+1. $E$ is flat, def. \ref{FlatE}, and satisfies the conditions of prop. \ref{AdamsUCT}, 
+
+2. $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, 
+
+then the entries of the second page
+of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+
 
 $$
   \mathcal{E}^{s,t}_2
   \simeq
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(Y), E_\bullet(X))
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   \,.
 $$
 
-In the special case that $Y = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
+In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
 
 $$
   \mathcal{E}^{s,t}_2
     \simeq
-  Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(X))
+  Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(Y))
   \,.
 $$
 
@@ -982,16 +1130,19 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{UniquenessOfEAdamsSpectralSequence} it is sufficient to show this for the standard $E$-Adams resolution of prop. \ref{StandardAdamsResolutionIsIndeedAdamsResolution}. 
-For that case the $\mathcal{E}_1$ page is given by prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+The first page is given by prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
 
 1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
 
-1. the graded chain complex of prop. \ref{E1PageOfStandardEAdamsSpectralSequenceIsEBarComplex} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
+1. the graded chain complex of prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
 
-These two statements are prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} and prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
+We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
+
+By lemma \ref{ResolutionEWp} we already know that $E_\bullet(W_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{FlatnessOfEImpliesKeyConsequence} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
 =--
+
+([Adams 74, theorem 15.1, page 323](#Adams74))
 
 ##### Homological co-algebra
 
@@ -1995,7 +2146,7 @@ $\gamma_n \coloneqq \Sigma^{-} hofib(\sigma_n)$.
 +-- {: .num_example #NormalizedEResolutionAssociatedSequence}
 ###### Example
 
-Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a _normalized $E$-Adams resolution_ according to example \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is 
+Let $X \to I_\bullet = (E \wedge (\Sigma \overline{E})^{\wedge^{\bullet-1}}\wedge E)$ be a _normalized $E$-Adams resolution_ according to example \ref{NormalizedEResolution}. Then its associated inverse sequence according to def. \ref{AssociatedInverseSequence} is the sequence from def. \ref{EAdamsSpectralSequence}
 
 
 $$
