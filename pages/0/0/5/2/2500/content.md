@@ -461,6 +461,9 @@ A survey of the [[Chern-Simons gravity]]-style action functionals for supergravi
 
 * David Appell, _When supergravity was born_, 2012 ([pdf](http://www.davidappell.com/articles/PWSep12appell-supergravity.pdf))
 
+* [[Peter van Nieuwenhuizen]], _Aspects of supergravity_, 2014 ([pdf](http://media.scgp.stonybrook.edu/presentations/20140109_vanNieuwenhuizen.pdf))
+
+
 ### Related
 
 Further physics monographs on supergravity include
