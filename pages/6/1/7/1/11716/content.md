@@ -31,7 +31,7 @@ A _tensor triangulated category_ is a [[category]] that carries the structure of
 
 A **tensor triangulated category** is a [[category]] $Ho$ equipped with 
 
-1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$;
+1. the structure of a [[symmetric monoidal category]] $(Ho, \otimes, 1, \tau)$ ("[[tensor category]]");
 
 1. the structure of a [[triangulated category]] $(Ho, \Sigma, CofSeq)$
 
