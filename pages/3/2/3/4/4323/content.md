@@ -934,6 +934,7 @@ As [[symmetric spectra]]:
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], example 6.2.3 of _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
+* {#Schlichtkrull09} [[Christian Schlichtkrull]], _Thom Spectra that Are Symmetric Spectra_, Documenta Mathematica 14 (2009) 699-748 ([arXiv:0811.0592](http://arxiv.org/abs/0811.0592))
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.6 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
