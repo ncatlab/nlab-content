@@ -726,6 +726,10 @@ Discussion of this in [[stable homotopy theory]] and the full generality of [[hi
 
 * {#LurieProper} [[Jacob Lurie]], section 4 of _[[Proper Morphisms, Completions, and the Grothendieck Existence Theorem]]_ 
 
+And in the context of commutative DG-rings in
+
+* Liran Shaul, _Completion and torsion over commutative DG rings_, [arXiv:1605.07447](http://arxiv.org/abs/1605.07447)
+
 This and further generalization is in
 
 * [[Tobias Barthel]], Drew Heard, Gabriel Valenzuela _Local duality in algebra and topology_ ([arXiv:1511.03526](http://arxiv.org/abs/1511.03526))
