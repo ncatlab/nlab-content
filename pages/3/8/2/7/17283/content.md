@@ -292,6 +292,7 @@ $$
   \left(
     N_1 \otimes_A N_2
     \overset{\Psi_{N_1}\otimes_{A} id - id \otimes_A \Psi_{N_2} }{\longrightarrow}
+    N_1 \otimes_A \Gamma \otimes_A N_2
   \right)
   \,.
 $$
