@@ -24,7 +24,9 @@ By default $A$ is taken to be the [[integers]] and hence "the Eilenberg-MacLane 
 
 ## Definition
 
-As a [[symmetric spectrum]]: ([Schwede 12, example I.2.6](#Schwede12))
+As a [[symmetric spectrum]]: ([Schwede 12, example I.1.14](#Schwede12))
+
+As an [[orthogonal spectrum]]: ([Schwede 15, V, costruction 3.21](#Schwede15))
 
 ## Properties
 
@@ -130,6 +132,9 @@ As [[symmetric spectra]]
 
 * [[John Greenlees]], example 3.6, example 4.16 in _Spectra for commutative algebraists_ ([pdf](http://www.math.uic.edu/~bshipley/greenlees.SpectraMSRI.pdf))
 
+as [[orthogonal spectra]]:
+
+* {#Schwede15} [[Stefan Schwede]], construction V 3.21 in _[[Global homotopy theory]]_, 2015
 
 
 [[!redirects Eilenberg-MacLane spectrum]]
