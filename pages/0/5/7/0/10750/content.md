@@ -9006,6 +9006,162 @@ This shows the claim for finite CW-spectra. For the general statement, now use t
 
 Proposition \ref{EnHomology} is the key ingredient in the construction of the **$E$-[[Adams spectral sequence]]**. This we turn to in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
+#### Examples
+
+
+##### Eilenberg-MacLane spectra
+
+We discuss the model of [[Eilenberg-MacLane spectra]] as [[symmetric spectra]] and [[orthogonal spectra]]. To that end, notice the following model for [[Eilenberg-MacLane spaces]].
+
++-- {: .num_defn #ReducedALinearizationOfnSphere}
+###### Definition
+
+For $A$ an [[abelian group]] and $n \in \mathbb{N}$, the **reduced $A$-linearization** $A[S^n]_\ast$ of the [[n-sphere]] $S^n$ is the [[topological space]], whose underlying set is the [[quotient]] 
+
+$$
+  \underset{k \in \mathbb{N}}{\sqcup}
+   A^k \times (S^n)^k
+  \longrightarrow
+  A[S^n]_\ast
+$$
+
+of the [[tensor product]]  with $A$ of the [[free abelian group]] on the underlying set of $S^n$, by the relation that identifies every [[formal linear combination]] of the (any fixed) basepoint of $S^n$ with 0. The [[topological space|topology]] is the induced [[quotient topology]] (of the [[disjoint union]] of [[product topological spaces]], where $A$ is equipped with the [[discrete topology]]).
+
+=--
+
+([Aguilar-Gitler-Prieto 02, def. 6.4.20](Eilenberg-MacLane+space#AguilarGitlerPrieto02))
+
+
++-- {: .num_prop #ReducedALinearizationOfnSphereIsEMSpace}
+###### Proposition
+
+For $A$ a [[countable set|countable]] [[abelian group]], then the reduced $A$-linearization $A[S^n]_\ast$ (def. \ref{ReducedALinearizationOfnSphere}) is an [[Eilenberg-MacLane space]], in that its [[homotopy groups]] are
+
+$$
+  \pi_q(A[S^n]_\ast)
+   \simeq
+   \left\{
+     \array{
+       A & if \; q = n
+       \\
+       \ast & otherwise
+     }
+   \right.
+$$
+
+(in particular for $n \geq 1$ then there is a unique connected component and hence we need not specify a basepoint for the homotopy group).
+
+
+=--
+
+([Aguilar-Gitler-Prieto 02, corollary 6.4.23](Eilenberg-MacLane+space#AguilarGitlerPrieto02))
+
++-- {: .num_defn}
+###### Definition
+
+For $A$ a [[countable set|countable]] [[abelian group]], then the [[orthogonal spectrum]] incarnation of the **[[Eilenberg-MacLane spectrum]]** $H A$ is the [[orthogonal spectrum]] with
+
+* components spaces
+
+  $$
+    (H A)_V \coloneqq A[S^V]_\ast
+  $$
+
+  being the reduced $A$-linearization (def. \ref{ReducedALinearizationOfnSphere}) of the [[representation sphere]] $S^V$;
+
+  hence for $V = \mathbb{R}^n$ then
+
+  $$
+    (H A)_n = A[S^n]_\ast
+  $$
+
+* $O(n)$-[[action]] on $A[S^n]_\ast$ induced from the canonical $O(n)$-action on $S^V$ ([[representation sphere]]);
+
+* structure maps 
+
+  $$
+    \sigma_{V,W}
+      \;\colon\;
+    (H A)_V \wedge S^W 
+      \longrightarrow
+    (H A)_{V\oplus W}
+  $$
+
+  hence
+
+  $$
+    A[S^V] \wedge S^W
+      \longrightarrow
+    A[S^{V \oplus W}]
+  $$    
+
+  given by
+
+  $$
+    \left(
+    \left(
+       \underset{i}{\sum} a_i x_i
+    \right),
+    y
+    \right)
+      \mapsto
+    \underset{i}{\sum} a_i (x_i, y)
+    \,.
+  $$
+
+The incarnation of $H A$ as a [[symmetric spectrum]] is the same, with the group action of $O(n)$ replaced by the [[subgroup]] action of the [[symmetric group]] $\Sigma(n) \hookrightarrow O(n)$.
+
+If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ becomes a commutative [[orthogonal ring spectrum]] (or [[symmetric ring spectrum]], respectively) by 
+
+1. taking the multiplication
+
+   $$
+     (H R)_{V_1} \wedge (H R)_{V_2}
+       =
+     R[S^{V_1}]_\ast \wedge R[S^{V_2}]_\ast 
+       \longrightarrow
+     R[S^{V_1 \oplus V_2}]
+      =
+     (H R)_{V_1 \oplus V_2}
+   $$
+
+   to be given by
+
+   $$
+     \left(
+     \left(
+        \underset{i}{\sum} a_i x_i
+     \right)
+     ,
+     \left(
+       \underset{j}{\sum} b_j y_j
+     \right)
+     \right)
+      \;\mapsto\;
+     \underset{i,j}{\sum}
+      (a_i \cdot b_j)(x_i, y_j)
+   $$ 
+
+1. taking the unit maps
+
+   $$
+     S^V 
+       \longrightarrow
+     A[S^V]_\ast = (H R)_V 
+   $$
+
+   to be given by the canonical inclusion of generators
+
+   $$
+     x \mapsto 1 x
+     \,.
+   $$
+
+=--
+
+([Schwede 12, example I.1.14](#Schwede12))
+
+
 #### Conclusion
  {#Conclusion}
 
