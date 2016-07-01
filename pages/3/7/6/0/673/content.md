@@ -35,10 +35,11 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ## Papers
 
-* _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](http://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](http://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
+  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384 doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
+
+* _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](http://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](http://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
 * _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17 (2015)
 Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
