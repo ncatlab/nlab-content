@@ -110,11 +110,14 @@ and was studied extensively in
 
 See also
 
-* [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_ ([arXiv:math/0003119](http://arxiv.org/abs/math/0003119))
+* [[Marius Crainic]], [[Ieke Moerdijk]], _Foliation groupoids and their cyclic homology_, [arXiv:math/0003119](http://arxiv.org/abs/math/0003119)
 
-* [[Ronnie Brown]], Osman Mucuk, _Foliations, locally Lie groupoids and holonomy_ ([numdam](http://www.numdam.org/item?id=CTGDC_1996__37_1_61_0))
+* [[Ronnie Brown]], Osman Mucuk, _Foliations, locally Lie groupoids and holonomy_, [numdam](http://www.numdam.org/item?id=CTGDC_1996__37_1_61_0)
 
-* Iakovos Androulidakis, [[Georges Skandalis]],  _The holonomy groupoid of a singular foliation_ ([arXiv:math/0612370](http://arxiv.org/abs/math/0612370))
+Applications to singular foliations and to Poisson manifolds in particular are in
+
+* Iakovos Androulidakis, [[Georges Skandalis]],  _The holonomy groupoid of a singular foliation_, [arXiv:math/0612370](http://arxiv.org/abs/math/0612370)
+* Iakovos Androulidakis, Marco Zambon, _Almost regular Poisson manifolds and their holonomy groupoids_, [arxiv/1606.09269](http://arxiv.org/abs/1606.09269)
 
 [[!redirects holonomy groupoids]]
 
