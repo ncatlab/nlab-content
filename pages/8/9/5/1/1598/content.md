@@ -43,7 +43,7 @@ Usually the manifold is assumed to be over the [[real numbers]] or the [[complex
 
 A real Lie group is a _[[compact Lie group]]_ (or _connected_, _simply connected_ Lie group, etc) if its underlying space is [[compact space|compact]] (or [[connected space|connected]], [[simply connected space|simply connected]], etc). 
 
-Every connected finite dimensiona real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a [[compact Lie group]] (its [[maximal compact subgroup]]) and a [[Euclidean space]]. 
+Every connected finite dimensional real Lie group is [[homeomorphism|homeomorphic]] to a [[product]] of a [[compact Lie group]] (its [[maximal compact subgroup]]) and a [[Euclidean space]]. 
 
 Every [[abelian group|abelian]] connected compact finite dimensional real Lie group is a [[torus]] (a product of [[circles]] $T^n = S^1\times S^1 \times \ldots \times S^1$).
 
