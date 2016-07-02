@@ -239,7 +239,7 @@ This is the setup in which one can derive [[Feynman diagram]] rules form cohomol
 
     * [[geometric quantization by push-forward]]
 
-  * [[Weyl quantization]]
+  * [[Weyl quantization]], [[Born-Jordan quantization]]
 
   * [[path integral quantization]]
 
