@@ -1,4 +1,4 @@
-For more of my svg examples see [Sandbox/838]https://ncatlab.org/nlab/revision/Sandbox/838).
+For more of my svg examples see [Sandbox/838](https://ncatlab.org/nlab/revision/Sandbox/838).
 
 A 5 Quotient
 
@@ -31,16 +31,3 @@ A 5 Quotient
 </svg>
 
 
-
-
-For 5-quotients, $\top = \begin{svg}
-<svg class="CachedO" width="30px" height="30px"
- viewBox="0 0 30 30"
- preserveAspectRatio="xMinYMin meet"
- xmlns="http://www.w3.org/2000/svg"
- xmlns:xlink="http://www.w3.org/1999/xlink">
-<title>QuC14$e00000</title>
-<use xlink:href="#QuC14$e00000"/>
-</svg>
-\end{svg}
-$.
