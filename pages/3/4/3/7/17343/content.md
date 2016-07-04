@@ -9809,7 +9809,7 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
      \longrightarrow
      [A,X]_\ast 
      \longrightarrow
-     [A,Y]
+     [A,Y]_\ast
    $$ 
 
    of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
@@ -9847,7 +9847,7 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
      \longrightarrow
      [Y,A]_\ast 
      \longrightarrow
-     [X,A]
+     [X,A]_\ast
    $$ 
 
    of [[pointed sets]], where $[-,-]_\ast$ denotes the pointed set valued hom-functor of example \ref{HomotopyCategoryOfPointedModelStructureIsEnrichedInPointedSets}.
@@ -9862,64 +9862,99 @@ Moreover, for $A\in \mathcal{C}^{\ast/}$ any object, then there is a [[long exac
 
 That there are long sequences of this form is the result of combining prop. \ref{HomotopyFiberOfHomotopyFiberIsLooping} and  prop. \ref{ExactSequenceOfHomotopyFiberAtOneStage}.
 
-It only remains to see that it is indeed the morphisms $\overline{\Omega} f$ that appear, as indicated. This is most transparent in the double-arrow notation for squares filled by homotopies from remark \ref{HomotopyCommutativeSquares}:
+It only remains to see that it is indeed the morphisms $\overline{\Omega} f$ that appear, as indicated. 
 
-Fix conventions such that the homotopy fiber of $f$ is represented by the square
-
-$$
-  \array{
-    hofib(f) &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow_{\mathrlap{\eta}}& \downarrow
-    \\
-    X &\underset{f}{\longrightarrow}& Y
-  }
-$$
-
-(instead of by the same square with the homotopy pointing in the other direction). Observe then that the morphism $\Omega f$ is what appears in 
+In order to see this, it is convenient to adopt the following notation: for $f \colon X \to Y$ a morphism, then we denote the collection of [[generalized element]] of its homotopy fiber as
 
 $$
-  \array{
-    \Omega X &\longrightarrow& \ast
-    \\
-    {}^{\mathllap{\Omega f}}\downarrow &\swArrow_{\mathrlap{\eta_3}}& \downarrow
-    \\
-    \Omega Y & \longrightarrow & hofib(f) &\longrightarrow& \ast
-    \\
-    \downarrow &\swArrow_{\mathrlap{\eta_2^{-1}}}& \downarrow &\swArrow_{\mathrlap{\eta_1}}& \downarrow
-    \\
-    \ast &\longrightarrow & X &\stackrel{f}{\longrightarrow}& Y
-  }
-  \;\;\;\;\;
-  \simeq  
-  \;\;\;\;\;
-  \left(
-  \array{
-    \ast &\longrightarrow& \ast
-    \\
-    \downarrow && \downarrow
-    \\
-    hofib(f) &\longrightarrow& \ast
-    \\
-    \downarrow^{\mathrlap{g}} && \downarrow
-    \\
-    X &\stackrel{f}{\longrightarrow}& Y
-    \\
-    \uparrow && \uparrow
-    \\
-    \ast &\longrightarrow& \ast
-  }
-  \right)
-  \;\;\;\;\;
-  \stackrel{\underset{\longleftarrow}{\holim}}{\mapsto}
-  \;\;\;\;\;
-  \left(
-    \Omega X \stackrel{\Omega f}{\longrightarrow} \Omega Y
-  \right)
+  hofib(f)
+  = 
+  \left\{
+    (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast)
+  \right\}
+$$
+
+indicating that these elements are pairs consisting of an element $x$ of $X$ and a "path" (an element of the given path space object) from $f(x)$ to the basepoint.
+
+This way the canonical map $hofib(f) \to X$ is $(x, f(x) \rightsquigarrow \ast) \mapsto x$. Hence in this notation the homotopy fiber of the homotopy fiber reads
+
+$$
+  hofib(hofib(f))
+  = 
+  \left\{
+    ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), 
+            x \overset{\gamma_2}{\rightsquigarrow} \ast  )
+  \right\}
   \,.
 $$
 
-But with this and the fixed convention, then the bottom left square shows that $\Omega Y$ here is identified not as the homotopy fiber of $hofib(f) \to X$ but as the loop reversal of that. Conversely, as we enforce the convention to take homotopy fibers with fixed orientation, as we do in the statement to be proven, then an extra loop reversal appears in the above pasting diagram.
+This identifies with $\Omega Y$ by forming the loops
+
+$$
+  \gamma_1 \cdot f(\overline{\gamma_2})
+  \,,
+$$
+
+where the overline denotes reversal and the dot denotes concatenation.
+
+Then consider the next homotopy fiber
+
+$$
+  hofib(hofib(hofib(f)))
+  =
+  \left\{
+    \left(
+      ( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), x \overset{\gamma_2}{\rightsquigarrow} \ast  ),
+      \left(
+      \array{
+         x && \overset{\gamma_3}{\rightsquigarrow} && \ast
+         \\
+         f(x) &&\overset{f(\gamma_3)}{\rightsquigarrow}&& \ast
+         \\
+         & {}_{\mathllap{\gamma_1}}\searrow & \Rightarrow & \swarrow_{\mathllap{}}
+         \\
+         && \ast
+      }    
+      \right)
+    \right)
+  \right\}
+  \,,
+$$
+
+where on the right we have a path in $hofib(f)$ from $(x, f(x)\overset{\gamma_1}{\rightsquigarrow} \ast)$ to the basepoint element. This is a path $\gamma_3$ together with a path-of-paths which connects $f_1$ to $f(\gamma_3)$. 
+
+By the above convention this is identified with the loop in $X$ which is
+
+$$
+  \gamma_2 \cdot (\overline{\gamma}_3)
+  \,.
+$$
+
+But the map to $hofib(hofib(f))$ sends this data to $( (x, f(x) \overset{\gamma_1}{\rightsquigarrow} \ast), x \overset{\gamma_2}{\rightsquigarrow} \ast  )$, hence to the loop
+
+$$
+  \begin{aligned}
+    \gamma_1 \cdot f( \overline{\gamma_2} )
+    & \simeq
+    f(\gamma_3) \cdot f(\overline{\gamma_2})
+    \\
+    & =
+    f( \gamma_3 \cdot \overline{\gamma_2} )
+    \\
+    & =
+    f ( \overline{\gamma_2 \cdot \overline{\gamma}_3} )
+    \\
+    & =
+    \overline{f(\gamma_2 \cdot \overline{\gamma}_3) }
+  \end{aligned}
+  \,,
+$$
+
+hence to the reveral of the image under $f$ of the loop in $X$.
+
+
+
+
 
 =--
 
