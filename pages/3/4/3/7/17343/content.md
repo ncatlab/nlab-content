@@ -7889,7 +7889,7 @@ Let $X \in \mathcal{C}^{\ast/}$ be any [[pointed object]].
      X \sqcup X 
       \overset{(i_0,i_1)}{\longrightarrow}
      Cyl(X)
-     \longrightarrow
+       \overset{cofib(i_0,i_1)}{\longrightarrow}
      \Sigma X
      \,.
    $$
