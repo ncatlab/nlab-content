@@ -9481,6 +9481,10 @@ If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ beco
 ([Schwede 12, example I.1.14](#Schwede12))
 
 ##### Thom spectra
+ {#ThomSpectra}
+
+We discuss the realization of [[Thom spectra]] as [[orthogonal ring spectra]]. For background on Thom spectra realized as [[sequential spectra]] see [[Introduction to Stable homotopy theory -- S|Part S]] the section _[Thom spectra](Introduction+to+Stable+homotopy+theory+--+S#ThomSpectra)_.
+
 
 +-- {: .num_defn}
 ###### Definition
