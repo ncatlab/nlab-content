@@ -4044,7 +4044,7 @@ $$
   [X,\Omega Z]_{strict}
 $$
 
-being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this in turn is equivalent to (using again the property of the left Bousfield localization) to 
+being a bijection for all Omega-spectra $Z$. But since $\Omega$ preserves Omega-spectra by the first point above, this is still maps into a fibrant objects, hence is again equivalent (using again the property of the left Bousfield localization) to the hom in the strict model structure
 
 $$
   [f, \Omega Z]_{stable}
@@ -4459,9 +4459,9 @@ For
 $$
   \alpha
   \;\colon\;
-  T_1 \wedge S^{k_1} 
+  T_1 \wedge S^{k} 
     \longrightarrow
-  T_2 \wedge S^{k_2} 
+  T_2 \wedge S^{k} 
 $$
 
 any morphism, write
@@ -4469,27 +4469,27 @@ any morphism, write
 $$
   \alpha^\ast
   \;\colon\;
-  Seq_{T_2 \wedge S^{k_2}}Spect(Top_{cg})
+  Seq_{T_2 \wedge S^{k}}Spect(Top_{cg})
    \longrightarrow
-  Seq_{T_1 \wedge S^{k_1}}Spect(Top_{cg})  
+  Seq_{T_1 \wedge S^{k}}Spect(Top_{cg})  
 $$
 
-for the functor from the category of sequential $T_2 \wedge S^{k_2}$-spectra (def. \ref{SequentialTSpectra}) to that of $T_1 \wedge S^{k_1}$-spectra which sends any $X$ to $\alpha^\ast X$ with
+for the functor from the category of sequential $T_2 \wedge S^{k}$-spectra (def. \ref{SequentialTSpectra}) to that of $T_1 \wedge S^{k}$-spectra which sends any $X$ to $\alpha^\ast X$ with
 
 $$
-  (\alpha^\ast X)_n \coloneqq X_n
+  (\alpha^\ast X)_{k n} \coloneqq X_{k n}
 $$
 
 and
 
 $$
-  \sigma_n^{\alpha^\ast X}
+  \sigma_{k,n}^{\alpha^\ast X}
    \;\colon\;
-  T_1 \wedge S^{k_1} \wedge X_n
+  T_1 \wedge S^{k} \wedge X_{k n}
    \overset{\alpha \wedge id}{\longrightarrow}
-  T_2 \wedge S^{k_2} \wedge X_n
-   \overset{\sigma_n^X}{\longrightarrow}
-  X_{n+1}
+  T_2 \wedge S^{k} \wedge X_{k n}
+   \overset{\sigma_{k,n}^X}{\longrightarrow}
+  X_{k (n+1)}
   \,.
 $$
 
@@ -4498,7 +4498,7 @@ $$
 +-- {: .num_lemma #EquivalenceBetweenTSpectraForEquivalentT}
 ###### Lemma
 
-For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, write $i \colon S^1 \longrightarrow T \wedge S^1$
+For $T \coloneqq K_+$ a compact contractible topological space with base point adjoined, and for $k \in \mathbb{N}$, write $i \colon S^k \longrightarrow T \wedge S^k$
 for the canonical inclusion. Then the induced functor $i^\ast$ from def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} is the [[right adjoint]] in a [[Quillen equivalence]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenEquivalence))
 
 $$
@@ -4510,7 +4510,7 @@ $$
   SeqSpec(Top_{cg})_{stable}
 $$
 
-between the stable model structures of sequential spectra (theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory}) and of sequential $T \wedge S^1$-spectra (prop. \ref{StableModelStructureOnS2Spectra}), respectively.
+between the stable model structures of sequential $S^k$-spectra and of sequential $T \wedge S^k$-spectra (prop. \ref{StableModelStructureOnS2Spectra}), respectively.
 
 =--
 
@@ -4588,7 +4588,7 @@ $$
 
 and this correspondence is clearly [[natural bijection|naturally bijective]]
 
-This establishes the adjunction $p^\ast \dashv i^\ast$. This is [[Quillen equivalence]] because for every $Z \in Top^{\ast/}_{cg}$ then by the contractibility of $K$ there is an equivalence
+This establishes the adjunction $p^\ast \dashv i^\ast$. This is a [[Quillen equivalence]] because for every $Z \in Top^{\ast/}_{cg}$ then by the contractibility of $K$ there is an equivalence
 
 $$
   [T \wedge S^q,Z]_\ast
@@ -4656,7 +4656,7 @@ $$
   X \wedge S^1
 $$
 
-in $Ho(SeqSpec(Top_{cg})_{stable})$.
+in $Ho(SeqSpec(Top_{cg})_{stable})$ (where we are using that $R_2$ evidently preserves cofibrant spectra, so that $L_2$ applied to $\tau$ represents the correct derived functor of $L_2$ and hence preserves this isomorphism).
 
 Now to see that the isomorphism $\tau$ exists. Write
 
@@ -4680,7 +4680,7 @@ $$
   \pi_3(S^3)
 $$
 
-is the trivial element in the [[homotopy groups of spheres]] (and that is the point of passing to $S^2$-spectra here, because for $S^1$-spectra the analogous map $\tau_{S^1, S^1}$ has non-trivial class, remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}) it follows (invoking the [[Whitehead theorem]], [prop.](Introduction+to+Stable+homotopy+theory+--+P#WhiteheadTheoremInModelCategories)) that there is a [[left homotopy]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftHomotopy)) of the form
+is the trivial element in the [[homotopy groups of spheres]] (and that is the point of passing to $S^2$-spectra here, because for $S^1$-spectra the analogous map $\tau_{S^1, S^1}$ has non-trivial class, remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}) it follows that there is a [[left homotopy]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#LeftHomotopy)) of the form
 
 $$
   \array{
@@ -4764,19 +4764,19 @@ $$
 and the horizontal morphisms exhibit the functors of def. \ref{RestrictionFunctorsFromT1SpectraToT2Spectra} from $(I_+)\wedge S^2$-spectra to $S^2$-spectra with
 
 $$
-  i_0^\ast Z = \Sigma X
+  i_0^\ast Z = R_2 (\Sigma X)
   \;\;\,,
   \;\;\;\;\;
-  i_1^\ast Z = X \wedge S^1
+  i_1^\ast Z = R_2 (X \wedge S^1)
   \,.
 $$
 
-By lemma \ref{EquivalenceBetweenTSpectraForEquivalentT} and since $I$ is contractible, these functors are [[equivalences of categories]] on the [[stable homotopy category]] and moreover they have the same inverse, namely $p^\ast$ for $p \colon I_+ \wedge S^2 \to S^2$ the canonical projection. This implies the isomorphism.
+By lemma \ref{EquivalenceBetweenTSpectraForEquivalentT} and since $I$ is contractible, these functors are [[equivalences of categories]] on the $Ho(Seq_{S^2}Spec(Top_{cg}))$, and moreover they have the same inverse, namely $p^\ast$ for $p \colon I_+ \wedge S^2 \to S^2$ the canonical projection. This implies the isomorphism.
 
 Explicitly, due to the equivalence there exists $V$ with $Z\simeq p^\ast V$ and with this we may form the composite isomorphism
 
 $$
-  \Sigma X 
+  R_2 (\Sigma X)
    \simeq
   i_0^\ast Z
     \simeq 
@@ -4788,7 +4788,7 @@ $$
     \simeq
   i_1^\ast Z
    \simeq
-  X \wedge S^1
+  R_2 (X \wedge S^1)
   \,.
 $$
 
