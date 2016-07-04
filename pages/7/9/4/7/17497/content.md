@@ -4141,7 +4141,7 @@ We write $SymSpec(Top_{cg})$ for the resulting [[category]] of symmetric spectra
 
 =--
 
-([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, def. 1.1](#Schwede12))
+([Hovey-Shipley-Smith 00, def. 1.2.2](#HoveyShipleySmith00), [Schwede 12, I, def. 1.1](#Schwede12))
 
 The definition of orthogonal spectra has the same structure, just with the  [[symmetric groups]] replaced by the [[orthogonal groups]].
 
@@ -4514,7 +4514,7 @@ $$
   \,.
 $$
 
-This last expression is the function on morphisms which precomposes components under the coend with the braiding $\tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}$ in topological spaces and postcomposes them with the image of the functor $X$ of the braiding in $Sym$. But the braiding in $Sym$ is, by def. \ref{TopologicalDiagramCategoriesForSpectra}, given by the respective shuffle permutations $\tau^{sym}_{n_1,n_2} = \chi_{n_1,n_2}$, and by prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra} the image of these under $X$ is via the given $\Sigma_{n_1+n_2}$-action on $X_{n_1+n-2}$.
+This last expression is the function on morphisms which precomposes components under the coend with the braiding $\tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}$ in topological spaces and postcomposes them with the image of the functor $X$ of the braiding in $Sym$. But the braiding in $Sym$ is, by def. \ref{TopologicalDiagramCategoriesForSpectra}, given by the respective shuffle permutations $\tau^{sym}_{n_1,n_2} = \chi_{n_1,n_2}$, and by prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra} the image of these under $X$ is via the given $\Sigma_{n_1+n_2}$-action on $X_{n_1+n_2}$.
 
 Finally to see that the structure map is as claimed: By prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra} the structure morphisms are the degree-1 components of the $\mathbb{S}_{sym}$-action, and by prop. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the $\mathbb{S}_{sym}$-action on a tensor product of $\mathbb{S}_{sym}$-modules is induced via the action on the left tensor factor.
 
@@ -4552,7 +4552,7 @@ A **commutative [[symmetric ring spectrum]]** $E$ is
 
 such that
 
-1. $\mu_{n_1,n_2}$ [[intertwiner|intertwines]] the $\Sigma(n_1) \times \Sigma(n_2)$-action;
+1. (equivariance) $\mu_{n_1,n_2}$ [[intertwiner|intertwines]] the $\Sigma(n_1) \times \Sigma(n_2)$-action;
 
 1. (associativity) for all $n_1, n_2, n_3 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]] (where we are notationally suppressing the [[associators]] of $(Top^{\ast/}_{cg}, \wedge, S^0)$)
 
@@ -4599,7 +4599,10 @@ such that
        \\
        && E_n
      }
+     \,,
    $$
+
+   where the diagonal morphisms $\ell$ and $r$ are the left and right [[unitors]] in $(Top^{\ast/}_{cg}, \wedge, S^0)$, respectively.
 
 1. (commutativity) for all $n_1, n_2 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]]
 
@@ -4620,7 +4623,7 @@ such that
      \,,
    $$
 
-where $\chi_{n_1,n_2} \in \Sigma(n_1 + n_2)$ denotes the [[permutation]] which [[shuffle|shuffles]] the first $n_1$ elements past the last $n_2$ elements.
+   where the top morphism $\tau$ is the [[braiding]] in $(Top^{\ast/}_{cg}, \wedge, S^0)$ (def. \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and where  $\chi_{n_1,n_2} \in \Sigma(n_1 + n_2)$ denotes the [[permutation]] action which [[shuffle|shuffles]] the first $n_1$ elements past the last $n_2$ elements.
 
 A [[homomorphism]] of symmetric commutative ring spectra $f \colon E \longrightarrow E'$ is a sequence $f_n \;\colon\; E_n \longrightarrow E'_n$ of $\Sigma(n)$-equivariant pointed continuous functions such that the following [[commuting diagram|diagrams commute]] for all $n_1, n_2 \in \mathbb{N}$
 
@@ -4681,7 +4684,10 @@ for the category that these form.
 
 =--
 
-([Schwede 12, def. 1.3](#Schwede12)) 
+(e.g. [Schwede 12, def. 1.3](#Schwede12)) 
+
+We discuss **examples** below in a dedicated section _[Examples](#Examples)_.
+
 
 +-- {: .num_prop #RingSpectraAreDayMonoids}
 ###### Proposition
@@ -4719,7 +4725,7 @@ $$
   OrthSpec(Top_{cg})
 $$
 
-coincides with the forgetful functor defined in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}
+coincides with the forgetful functor defined in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}.
 
 
 =--
@@ -4743,7 +4749,6 @@ $$
 $$
 
 The structure morphism of such a lax monoidal functor $E$ has as components precisely the morphisms $\mu_{n_1, n_2}\colon E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$.
-
 In terms of these, the associativity and braiding condition on the lax monoidal functor are manifestly the above associativity and commutativity conditions.
 
 Moreover, by the proof of prop. \ref{AlgebrasOverAAreMonoidsUnderA} the $\mathbb{S}_{sym}$-module structure on an an $\mathbb{S}_{sym}$-algebra $E$ has action given by
@@ -4770,7 +4775,7 @@ for all $n \in \mathbb{N}$, and the unitality condition for $\iota_0$ and $\iota
 
 We claim that the other components are uniquely fixed by these:
 
-By lemma \ref{FSPStructuredSphereSpectra}, the product structure in $\mathbb{S}_{sym}$ is by isomorphisms $S^{n_1} \wedge S^{n_2} \simeq S^{n_1 + n_2}$, so that the commuting square for the coherence condition of this [[monoidal natural transformation]] says that $\iota_{n_1 + n_2} = \mu_{n_1,n_2} \circ (\iota_{n_1} \wedge \iota_{n_2})$:
+By lemma \ref{FSPStructuredSphereSpectra}, the product structure in $\mathbb{S}_{sym}$ is by isomorphisms $S^{n_1} \wedge S^{n_2} \simeq S^{n_1 + n_2}$, so that the commuting square for the coherence condition of this [[monoidal natural transformation]] 
 
 $$
   \array{
@@ -4786,10 +4791,9 @@ $$
       &\underset{\iota_{n_1 + n_2}}{\longrightarrow}&
     E_{n_1 + n_2}
   }
-  \,.
 $$
 
-This means that $\iota_{n \geq 2}$ is uniquely fixed once $\iota_0$ and $\iota_1$ are given.
+says that $\iota_{n_1 + n_2} = \mu_{n_1,n_2} \circ (\iota_{n_1} \wedge \iota_{n_2})$. This means that $\iota_{n \geq 2}$ is uniquely fixed once $\iota_0$ and $\iota_1$ are given.
 
 Finally it is clear that homomorphisms on both sides of the equivalence precisely respect all this structure under both sides of the equivalence.
 
@@ -4817,6 +4821,8 @@ Given a symmetric (orthogonal) [[commutative ring spectrum]] $E$ (def. \ref{Ring
    (a morphism in $Top^{\ast/}_{cg}$)
 
 such that
+
+1. (equivariance) $\rho_{n_1,n_2}$ intertwines the $\Sigma(n_1) \times \Sigma(n_2)$-action;
 
 1. (action property) for all $n_1, n_2, n_3 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]] (where we are notationally suppressing the [[associators]] of $(Top^{\ast/}_{cg}, \wedge, S^0)$)
 
@@ -4884,10 +4890,12 @@ for the resulting category of symmetric (orthogonal) $E$-module spectra.
 
 =--
 
+(e.g. [Schwede 12, I, def. 1.5](#Schwede12))
+
 +-- {: .num_prop #ModuleSpectraAreModuleFunctors}
 ###### Proposition
 
-Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[commutative monoids in a symmetric monoidal category|commutative monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
+Under the identification, from prop. \ref{RingSpectraAreDayMonoids}, of [[commutative ring spectra]] with [[commutative monoids in a symmetric monoidal category|commutative monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
 
 $$
   E Mod(SymSpec(Top_{cg}))
@@ -7000,17 +7008,17 @@ A (symmetric) **[[monoidal model category]]** is a [[model category]] $\mathcal{
      \,,
    $$
 
-   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+   is itself a cofibration, which, furthermore, is acyclic if at least one of $f$ or $f'$ is.
 
-   (Equivalently this says that the [[tensor product]] $\otimes \colon \mathcal{C} \times \mathcal{C} \to \mathcal{C}$ is a left [[Quillen bifunctor]].)
+   (Equivalently this says that the [[tensor product]] $\otimes \colon \mathcal{C} \times \mathcal{C} \to \mathcal{C}$ is a _left [[Quillen bifunctor]]_.)
 
-1. **(unit axiom)** For every cofibrant object $X$ and every cofibrant resolution $\emptyset \overset{\in Cof}{\longrightarrow} Q 1 \underoverset{p_1}{\in W}{\longrightarrow} \ast$ of the [[tensor unit]] $1$, the resulting morphism
+1. **(unit axiom)** For every cofibrant object $X$ and every cofibrant resolution $\emptyset \overset{\in Cof}{\longrightarrow} Q 1 \underoverset{p_1}{\in W}{\longrightarrow} 1$ of the [[tensor unit]] $1$, the resulting morphism
 
    $$
      Q 1 \otimes X 
        \overset{p_1 \otimes X}{\longrightarrow} 
      1 \otimes X 
-       \underoverset{\ell}{\in W}{\longrightarrow} 
+       \underoverset{\ell}{\in Iso \subset W}{\longrightarrow} 
      X
    $$ 
 
@@ -7021,12 +7029,40 @@ A (symmetric) **[[monoidal model category]]** is a [[model category]] $\mathcal{
 
 ([Hovey 99, def. 4.2.6](#Hovey99) [Schwede-Shipley 00, def. 3.1, remark 3.2](#SchwedeShipley00))
 
+Observe some immediate consequences of these axioms:
+
 +-- {: .num_remark }
 ###### Remark
 
-The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
+Since a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) is assumed to be [[closed monoidal category|closed monoidal]] (def. \ref{ClosedMonoidalCategory}), for every object $X$ the tensor product $X \otimes (-) \simeq (-) \otimes X$ is a [[left adjoint]] and hence preserves all [[colimits]]. In particular it preserves the [[initial object]] $\emptyset$ (which is the colimit over the empty diagram).
 
-In particular if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. Since this is the case in our examples of interest, we will focus on this case for simplicity.
+If follows that the tensor-[[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations, since
+
+$$
+  f \Box_\otimes (\emptyset \to X)
+  \simeq
+  f \otimes X
+  \,.
+$$
+
+This implies that if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is already implied by the pushout-product axiom.  This is because then we have a lift in 
+
+$$
+  \array{
+    \emptyset &\longrightarrow& Q 1
+    \\
+    {}^{\mathllap{\in Cof}}\downarrow 
+      &\nearrow& 
+    \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in W}}
+    \\
+    1 &=& 1
+  }
+  \,.
+$$
+
+This lift is a weak equivalence by [[two-out-of-three]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CategoryWithWeakEquivalences)). Since it is hence a weak equivalence between cofibrant objects, it is preserved by the left Quillen functor $(-) \otimes X$ (for any cofibrant $X$) by [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma)). Hence now $p_1 \otimes X$ is a weak equivalence by [[two-out-of-three]].
+
+Since for all the categories of spectra that we are interested in here the tensor unit is always cofibrant (it is always a version of the [[sphere spectrum]], being the image under the left Quillen functor $\Sigma^\infty_{dia}$ of the cofibrant pointed space $S^0$, prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}), we may ignore the unit axiom.
 
 =--
 
@@ -7121,7 +7157,39 @@ $$
 
 With this, the [[universal property]] as a [[localization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) of the [[homotopy category of a model category]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) induces [[associators]] $\alpha^L$ and [[unitors]] $\ell^L$, $r^L$ on $(Ho(\mathcal{C}, \otimes^L ))$: 
 
-First consider the associators.
+
+First write 
+
+$$
+  \mu
+    \;\colon\;
+  \gamma(-) \otimes^L \gamma(-)
+     \overset{\simeq}{\longrightarrow}
+  \gamma( (-) \otimes (-) )
+$$
+
+for (the inverse of) the corresponding [[natural isomorphism]] in the localization diagram
+
+$$
+  \array{
+    \mathcal{C} \times \mathcal{C}
+      &\overset{\otimes}{\longrightarrow}&
+    \mathcal{C}
+    \\
+    {}^{\mathllap{\gamma \times \gamma}}\downarrow
+      &\swArrrow^{\mu^{-1}}&
+    \downarrow^{\mathrlap{\gamma}}
+    \\
+    Ho(\mathcal{C})
+      \times
+    Ho(\mathcal{C})
+      &\underset{\otimes^L}{\longrightarrow}&
+    Ho(\mathcal{C})
+  }
+  \,.
+$$
+
+Then consider the associators:
 
 The essential uniqueness of derived functors shows that the left derived functor of $(-)\otimes ( (-) \otimes (-) )$ and of $( (-) \otimes (-) )\otimes (-) $ is the composite of two applications of $\otimes^L$, due to the factorization
 
@@ -7143,9 +7211,15 @@ $$
      &\underset{\mathbb{L}((-) \otimes ( (-) \otimes (-) ))}{\longrightarrow}&
     Ho(\mathcal{C})
   }
+$$
+
+$$
   \;\;\;\;\;\;\;
     \simeq
   \;\;\;\;\;\;\;
+$$
+
+$$
   \array{
     \mathcal{C}_c
       \times
@@ -7542,25 +7616,24 @@ With some general monoidal homotopy theory established, we now discuss that stru
 +-- {: .num_theorem #MonoidalStrictModelStructure}
 ###### Theorem
 
-The [[classical model structure on pointed topological spaces]] equipped with the [[smash product]] is a [[monoidal model category]]
+1. The [[classical model structure on pointed topological spaces]] equipped with the [[smash product]] is a [[monoidal model category]]
 
-$$
-  ((Top^{\ast/}_{cg})_{Quillen}, \wedge, S^0)
-  \,.
-$$
+   $$
+     ((Top^{\ast/}_{cg})_{Quillen}, \wedge, S^0)
+     \,.
+   $$
 
-Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures on [[structured spectra]] modeled on $Dia$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]]  (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
-
-$$
-  \left(
-    \mathbb{S}_{dia}Mod_{strict},\;
-    \wedge = \otimes_{\mathbb{S}_{dia}}
-    ,\;
-    \mathbb{S}_{dia}
-  \right)
-  \,.
-$$
-
+1. Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures on [[structured spectra]] modeled on $Dia$ from theorem \ref{StrictModelStructureOnDiagramSpectra} equipped with the [[symmetric monoidal smash product of spectra]]  (def. \ref{FinitePointedCWComplexes}, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def. \ref{MonoidalModelCategory})
+ 
+   $$
+     \left(
+       \mathbb{S}_{dia}Mod_{strict},\;
+       \wedge = \otimes_{\mathbb{S}_{dia}}
+       ,\;
+       \mathbb{S}_{dia}
+     \right)
+     \,.
+   $$
 
 
 =--
@@ -8448,6 +8521,8 @@ The stable model structure $OrthSpec(Top_{cg})_{stable}$ is a [[Bousfield locali
 #### The monoidal stable homotopy category
  {#TheMonoidalStableHomotopyCategory}
 
+We discuss now the consequences for the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#TheStableHomotopyCategory)) of the fact that by theorem \ref{SequentialSpectraQuillenEquivalence} and theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom} it is equivalently the [[homotopy category of a model category|homotopy category]] of a stable [[monoidal model category]]. This makes the stable homotopy category become a _[[tensor triangulated category]]_ (def. \ref{TensorTriangulatedCG}) below. The abstract structure encoded by this governs much of [[stable homotopy theory]] ([Hovey-Palmieri-Strickland 97](#HoveyPalmieriStrickland97)). In particular it is this structure that gives rise to the $E$-[[Adams spectral sequences]] which we discuss in [[Introduction to Stable homotopy theory -- 2|Part 2]].
+
 
 +-- {: .num_cor #MonoidalStableHomotopyCategory}
 ###### Corollary
@@ -9307,6 +9382,7 @@ This shows the claim for finite CW-spectra. For the general statement, now use t
 Proposition \ref{EnHomology} is the key ingredient in the construction of the **$E$-[[Adams spectral sequence]]**. This we turn to in _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2]]_.
 
 #### Examples
+ {#Examples}
 
 For reference, we consider some basic examples of [[orthogonal ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $E$. By prop. \ref{RingSpectraAreDayMonoids} and corollary \ref{MonoidalStableHomotopyCategory} each of these examples in particular represents a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). 
 
@@ -9342,6 +9418,17 @@ We discuss the model of [[Eilenberg-MacLane spectra]] as [[symmetric spectra]] a
 ###### Definition
 
 For $A$ an [[abelian group]] and $n \in \mathbb{N}$, the **reduced $A$-linearization** $A[S^n]_\ast$ of the [[n-sphere]] $S^n$ is the [[topological space]], whose underlying set is the [[quotient]] 
+of the [[tensor product]]  with $A$ of the [[free abelian group]] on the underlying set of $S^n$, 
+
+$$
+  A \otimes_{\mathbb{Z}}[S^n]
+  =
+  A[S^n] 
+   \longrightarrow
+  A[S^n]_\ast
+$$
+
+by the relation that identifies every [[formal linear combination]] of the basepoint of $S^n$ with 0. The [[topological space|topology]] is the induced [[quotient topology]] 
 
 $$
   \underset{k \in \mathbb{N}}{\sqcup}
@@ -9350,7 +9437,7 @@ $$
   A[S^n]_\ast
 $$
 
-of the [[tensor product]]  with $A$ of the [[free abelian group]] on the underlying set of $S^n$, by the relation that identifies every [[formal linear combination]] of the (any fixed) basepoint of $S^n$ with 0. The [[topological space|topology]] is the induced [[quotient topology]] (of the [[disjoint union]] of [[product topological spaces]], where $A$ is equipped with the [[discrete topology]]).
+(of the [[disjoint union]] of [[product topological spaces]], where $A$ is equipped with the [[discrete topology]]).
 
 =--
 
@@ -9806,8 +9893,6 @@ $$
 $$
 
 is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
-
-
 
 
 
