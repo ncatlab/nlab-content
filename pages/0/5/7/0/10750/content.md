@@ -9254,6 +9254,9 @@ If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ beco
 ([Schwede 12, example I.1.14](#Schwede12))
 
 ##### Thom spectra
+ {#ThomSpectra}
+
+We discuss the realization of _[[Thom spectra]]_ as [[orthogonal ring spectra]]. For background on Thom spectra realized as [[sequential spectra]] see [[Introduction to Stable homotopy theory -- S|Part S]] the section _[Thom spectra](Introduction+to+Stable+homotopy+theory+--+S#ThomSpectra)_.
 
 +-- {: .num_defn}
 ###### Definition
@@ -9270,7 +9273,7 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 
 * left $O(n)$-action induced by the remaining canonical left action of $E O(n)$;
 
-* canonical multiplication maps
+* canonical multiplication maps ([def.](Introduction+to+Stable+homotopy+theory+--+S#UniversalThomSpectrumForBfStructure))
 
   $$
     (E O(n_1)_+ \underset{O(n_1)}{\wedge} S^{n_1})
@@ -9294,7 +9297,118 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 
 =--
 
+([Schwede 12, I, example 1.16](#Schwede12))
 
+
+For the universal complex Thom spectrum [[MU]] the construction is a priori directly analogous, but with the real [[Cartesian space]] $\mathbb{R}^n$ replace by the [[complex vector space]] $\mathbb{C}^n$ thoughout. This makes the [[n-sphere]] $S^n = S^{(\mathbb{R}^n)}$ be replaced by the $2n$-sphere $S^{2n} \simeq S^{\mathbb{C}^n}$ throughout. Hence the construction requires a second step in which the resulting $S^2$-spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra)) is turned into an actual [[orthogonal spectrum]]. This proceeds differently than for [[sequential spectra]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#AdjunctionBetweenSequentialSpectraAndSequentialTSpectra)) due to the need to have compatible [[orthogonal group]]-[[action]] on all spaces.
+
++-- {: .num_defn}
+###### Definition
+
+The **universal complex [[Thom spectrum]]** [[MU]] is represented as an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) as follows 
+
+First consider the component spaces
+
+$$
+  \overline{M U}_n
+  \coloneqq
+  E U(n)_+ \wedge_{U(n)} S^{(\mathbb{C}^n)}
+$$
+
+given by the [[Thom spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ThomSpace)) of the [[complex vector bundle|complex]] [[universal vector bundle]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#EOn)) of [[rank]] $n$, and
+equipped with the $O(n)$-action which is induced via the canonical inclusions
+
+$$
+  O(n) \hookrightarrow U(n) \hookrightarrow E U(n)
+  \,.
+$$
+
+Regard these as equipped with the canonical pairing maps ([def.](Introduction+to+Stable+homotopy+theory+--+S#UniversalThomSpectrumForBfStructure))
+
+$$
+  \overline{\mu}_{n_1,n_2}
+    \;\colon\;
+  \overline{M U}_{n_1}
+    \wedge
+  \overline{M U}_{n_2}
+    \longrightarrow
+  \overline{M U}_{n_1 + n_2}
+  \,.
+$$
+
+These are $U(n)$-equivariant, hence in particular $O(n)$-equivariant.
+
+Then take the actual components spaces to be [[loop spaces]] of these:
+
+$$
+  M U_n
+  \coloneqq
+  Maps(S^n, \overline{M U}_n)
+$$
+
+and regard these as equipped with the [[conjugation action]] by $O(n)$ induced by the above action on $\overline{M U}_n$ and the canonical action on $S^n \simeq S^{(\mathbb{R}^n)}$.
+
+Define the actual pairing maps 
+
+$$
+  \mu_{n_1, n_2}
+    \;\colon\;
+  M U_{n_1} \wedge M U_{n_2}
+   \longrightarrow
+  M U_{n_1 + n_2}
+$$
+
+via
+
+$$
+  \begin{aligned}
+    Maps(S^{n_1}, \overline{M U}_{n_1})
+      \wedge
+    Maps(S^{n_2}, \overline{M U}_{n_2})
+     & \longrightarrow
+    Maps(S^{n_1 + n_2}, \overline{M U}_{n_1 + n_2})
+    \\
+    (\alpha_1, \alpha_2)
+      & \mapsto
+    \overline{\mu}_{n_1, n_2} \circ (\alpha_1 \wedge \alpha_2)
+  \end{aligned}
+  \,.
+$$
+
+Finally in order to define the unit maps, consider the isomorphism
+
+$$
+  S^{2 n}
+  \simeq
+  S^{\mathbb{C}^n}
+  \simeq
+  S^{\mathbb{R}^n \oplus i \mathbb{R}^n}
+  \simeq
+  S^{n} \wedge S^n
+$$
+
+and then take the unit maps
+
+$$
+  S^n \longrightarrow (M U)_n = Maps(S^n , \overline{M U}_n)
+$$
+
+to be the [[adjuncts]] of the canonical embeddings
+
+$$
+  S^n \wedge S^n
+  \simeq
+  S^{\mathbb{C}^n}
+  \simeq
+  U(n)_+ \wedge_{U(n)} S^{\mathbb{C}^n}
+    \longrightarrow
+  E U(n)_+ \wedge_{U(n)} S^{\mathbb{C}^n}
+  \,.
+$$
+
+=--
+
+([Schwede 12, I, example 1.18](#Schwede12))
 
 
 #### Conclusion
