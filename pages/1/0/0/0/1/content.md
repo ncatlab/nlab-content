@@ -93,13 +93,13 @@ Usually this works well. If there is need for discussion, the
 ## Software requirements
  {#SoftwareRequirements}
 
-The $n$Lab displays mathematical symbols using [MathML](http://en.wikipedia.org/wiki/MathML).  
+The $n$Lab sends mathematical formulas to the browser using [MathML](http://en.wikipedia.org/wiki/MathML).  
 
-Notice that **you don't need to know any MathML**. Only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is designed to be very similar to ordinary LaTeX.
+Notice that **you don't need to know any MathML** for editing the $n$Lab, only your browser does. You write formulas into the $n$Lab between dollar signs in [iTeX](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html), which is very similar to ordinary [LaTeX](https://www.latex-project.org/).
 
-Some web-browsers, notably [Firefox](http://www.mozilla.com/firefox/), know how to display MathML automatically, although you may need to install some fonts.  For InternetExplorer one needs the [MathPlayer](http://www.dessci.com/en/products/mathplayer/) plugin; download is quick and easy and free. For more see [[HowTo]].
+Presently only [Firefox](http://www.mozilla.com/firefox/) and its derivatives have implemented _native_ rendering of MathML. Presently all other browsers fall back to invoking [MathJax](https://www.mathjax.org/). This works fine on small pages, but on pages with substantial content the MathJax rendering takes up to several minutes. 
 
-
+This means that presently **you should use Firefox** or its derivatives to view the $n$Lab ([free download of Firefox](https://www.mozilla.org/en-GB/firefox/new/?gclid=CJnjs-3R3M0CFRHhGwodA10Euw)).
 
 
 ## Server
