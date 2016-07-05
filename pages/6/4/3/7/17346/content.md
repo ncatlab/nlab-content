@@ -1003,6 +1003,14 @@ $E = $
 
 ([Adams 69, lemma 28](#Adams69))
 
++-- {: .proof}
+###### Proof
+
+For $\mathbb{S}$ we have $\mathbb{S}_\bullet(\mathbb{S}) \coloneqq \pi_\bullet(\mathbb{S} \wedge \mathbb{S}) \simeq \pi_\bullet(\mathbb{S})$, since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)). Hence the statement follows since every ring is, clearly, flat over itself.
+
+For $H \mathbb{F}_p$ we have that $\pi_\bullet(H \mathbb{F}_p) \simeq \mathbb{F}_p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StableHomotopyGroupsOfEMSpectrum)), hence a [[field]] (a [[prime field]]). Every module over a field is a [[projective module]] ([prop.](projective+module#ModuleOverAFieldIsProjective)) and every projective module is flat ([prop.](flat+module#ProjectiveModulesAreFlat)).
+
+=--
 
 +-- {: .num_example}
 ###### Example
@@ -2197,9 +2205,6 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
-
-
-
 
 
 
