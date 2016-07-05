@@ -197,7 +197,7 @@ $$
   Y_k
    \overset{g_k}{\longrightarrow}
   A_k
-    \overset{}{\longrightarrow}
+    \overset{h_k}{\longrightarrow}
   \Sigma Y_{k+1}
 $$
 
@@ -231,7 +231,7 @@ $$
   \,,
 $$
 
-where each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $\delta_{k,\bullet}$
+where each hook at stage $k$ extends to a [[long exact sequence of homotopy groups]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongFiberSequencesOfMapsOfSpectra)) via [[connecting homomorphisms]] $[X,h_k]_\bullet$
 
 $$
   \cdots
@@ -250,7 +250,7 @@ $$
   \,.
 $$
 
-If we regard the [[connecting homomorphism]] $\delta_k$ as a morphism of degree -1, then all this information fits into one diagram of the form
+If we regard the [[connecting homomorphism]] $[X,h_k]$ as a morphism of degree -1, then all this information fits into one diagram of the form
 
 $$
   \array{
@@ -265,9 +265,9 @@ $$
    [X,Y_0]_\bullet
    \\
    && 
-   \downarrow &{}_{\mathllap{\delta_{2,\bullet}}}\nwarrow & 
-   \downarrow &{}_{\mathllap{\delta_{1,\bullet}}}\nwarrow &
-   \downarrow &{}_{\mathllap{\delta_{0,\bullet}}}\nwarrow
+   \downarrow &{}_{\mathllap{ [X,h_2]_\bullet }}\nwarrow & 
+   \downarrow &{}_{\mathllap{ [X,h_1]_\bullet }}\nwarrow &
+   \downarrow &{}_{\mathllap{ [X,h_0]_\bullet }}\nwarrow
    & \downarrow^{\mathrlap{[X,g_0]_\bullet}}
    \\
    && [X,A_3]_\bullet 
@@ -288,7 +288,7 @@ $$
        & \stackrel{[X,f_\bullet]_\bullet}{\longrightarrow} &
      [X,Y_\bullet]_{\bullet}
      \\
-       & {}_{\mathllap{\delta_{\bullet,\bullet}}}\nwarrow 
+       & {}_{\mathllap{ [X, h_\bullet]_\bullet }}\nwarrow 
        & \downarrow^{\mathrlap{[X, g_\bullet]_\bullet }}
      \\
      && 
@@ -316,7 +316,7 @@ Then the bidegree of the morphisms is
 |----------|----------|
 | $[X,f]$  | $(-1,-1)$ |
 | $[X,g]$  | $(0,0)$  |
-| $\delta$ | $(1,0)$ |
+| $[X,h]$ | $(1,0)$ |
 
 
 This way $t$ counts the cycles of going around the triangles:
@@ -329,7 +329,7 @@ $$
   D^{s,t}(X,Y)
     \stackrel{[X,g]}{\longrightarrow}
   E^{s,t}(X,Y)
-    \stackrel{\delta}{\longrightarrow}
+    \stackrel{[X,h]}{\longrightarrow}
   D^{s+1,t}(X,Y)
     \to
   \cdots
@@ -428,7 +428,7 @@ $$
     \\
     && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{\delta}}\nearrow 
+    && & {}^{\mathllap{ [X,h] }}\nearrow 
     && \searrow^{\mathrlap{ [X,g]  }}
     && && && \nearrow
     \\
@@ -438,7 +438,7 @@ $$
     && \stackrel{d_1 }{\longrightarrow} 
     && [X,A_{s+2}]_{t-s-2}
     \\
-    & \nearrow && && && {}_{\mathllap{ \delta }}\searrow 
+    & \nearrow && && && {}_{\mathllap{ [X,h] }}\searrow 
     && \nearrow_{\mathrlap{ [X,g] }}
     \\
     && && && && [X,Y_{s+2}]_{t-s-2}
@@ -447,7 +447,7 @@ $$
   }
 $$
 
-This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as show above, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $d_1^2 = 0$. Hence there is a [[cochain complex]]:
+This gives rise to the horizontal ([[splicing of short exact sequences|splicing]]) composites $d_1$, as shown, and by the fact that the diagonal sequences are long exact, these are [[differentials]] in that they square to zero: $(d_1)^2 = 0$. Hence there is a [[cochain complex]]:
 
 $$
   \array{
@@ -470,9 +470,7 @@ $$
   \,.
 $$
 
-We read off from the interlocking long exact sequences what these differentials _mean_: 
-
-an element $c \in [X,A_s]_{t-s}$ lifts to an element 
+We may read off from these interlocking long exact sequences what these differentials _mean_, as follows. An element $c \in [X,A_s]_{t-s}$ lifts to an element 
  $\hat c \in[X,Y_{s+2}]_{t-s-1} $ precisely if $d_1 c = 0$:
 
 $$
@@ -483,22 +481,20 @@ $$
     \\
     && && [X,Y_{s+1}]_{t-s-1}
     \\
-    && & {}^{\mathllap{ \delta }}\nearrow 
+    && & {}^{\mathllap{ [X,h] }}\nearrow 
     && \searrow^{\mathrlap{ [X,g]  }}
     \\
-    & c \in  & \pi_{t-s}(A_s)  [X,A_s]_{t-s}
+    & c \in  & [X,A_s]_{t-s}
     && 
     \underset{ d_1 }{\longrightarrow} 
    && [X,A_{s+1}]_{t-s-1}
   }
 $$
 
-This means that the [[cochain cohomology]] of the complex $([X,A_\bullet]_\bullet, d_1)$ produces elements of $[X,Y_\bullet]_\bullet$ and hence of $[X,Y]_\bullet$. (Which elements exactly arise this way is the question of the convergence of the induced spectral sequence, def. \ref{ExactCoupleSpectralSequence} below, which we turn to [further below](#Convergence)).
-
 In order to organize this observation, notice that in terms of the exact couple of remark \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}, the differential 
 
 $$
-  d_1  \;\coloneqq \; [X,g] \circ \delta
+  d_1  \;\coloneqq \; [X,g] \circ [X,h]
 $$
 
 is the composite 
@@ -530,7 +526,7 @@ $$
   }
 $$
 
-its **page** is the [[graded object|graded]][[chain complex]]
+its **page** is the [[graded object|graded]] [[chain complex]]
 
 $$
   (\mathcal{E}^{\bullet,\bullet}, d \coloneqq j \circ  k)
@@ -647,7 +643,7 @@ $$
   }
 $$
 
-and given another spectrum $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}.
+and given another spectrum $X \in Ho(Spectra)$, the induced **[[spectral sequence of a filtered spectrum]]** is the [[spectral sequence]] that is induced, by def. \ref{ExactCoupleSpectralSequence} from the [[exact couple]] (def. \ref{ExactCouple}) given by def. \ref{UnrolledExactCoupleOfAFiltrationOnASpectrum}:
 
 $$
   \array{
@@ -665,7 +661,7 @@ $$
       &\overset{[X,f]}{\longrightarrow}&
     \underset{s,t}{\oplus} D^{s,t}(X,Y)
     \\
-    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{[X,g]}
+    & {}_{\mathllap{ [X, h] }}\nwarrow & \downarrow^{[X,g]}
     \\
     && \underset{s,t}{\oplus} E^{s,t}(X,Y)
   }
@@ -677,13 +673,13 @@ $$
       &\overset{[X,f]}{\longrightarrow}&
     \underset{s,t}{\oplus} [X,Y_s]_{t-s}
     \\
-    & {}_{\mathllap{\delta}}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
+    & {}_{\mathllap{ [X,h] }}\nwarrow & \downarrow^{\mathrlap{[X,g]}}
     \\
     && [X,A_s]_{t-s}
   }
 $$
 
-with the following bidegree of the differentials
+with the following bidegree of the differentials:
 
 $$
   deg = \;\;\;\;
@@ -700,15 +696,22 @@ $$
 In particular the first page is
 
 $$
-  \mathcal{E}^{s,t}_1 = [X,A_s]_{t-s}
+  \mathcal{E}^{s,t}_1 
+   =
+  [X,A_s]_{t-s}
 $$
 
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
-</div>
+$$
+  d_1 
+    =
+  [X, g \circ h]
+  \,.
+$$
+
 
 As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
-the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by $(1,1)$ with each page, since
+the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by 
+$(1,1)$ with each page, since
 
 $$
   \begin{aligned}
@@ -735,13 +738,19 @@ $$
 $$
 
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally. This is the "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
+
 =--
 
 
 #### $E$-Adams filtrations
  {#AdamsFiltration}
 
-Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in example \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
+Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in def. \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
 
 +-- {: .num_defn #AdamsEAdamsSpectralSequence}
 ###### Definition
@@ -763,19 +772,19 @@ $$
   \array{
     & \vdots
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_3 &\overset{g_3}{\longrightarrow}& E \wedge Y_3 = A_3
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_2 &\overset{g_2}{\longrightarrow}& E \wedge Y_2 = A_2
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_1 &\overset{g_1}{\longrightarrow}& E \wedge Y_1 = A_1
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     Y = & Y_0 &\overset{g_0}{\longrightarrow}& E \wedge Y_0  = A_0
   }
@@ -800,7 +809,7 @@ $$
   A_n \coloneqq E \wedge Y_n
 $$ 
 
-is the derived [[smash product of spectra]] of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
+is the derived [[smash product of spectra]] ([corollary](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)) of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
 
 $$
   g_n
@@ -937,11 +946,11 @@ $$
   \overline{E}^{p+1} \wedge Y
     \longrightarrow
   \overline{E}^p \wedge Y
-    \overset{f_p}{\longrightarrow}
+    \overset{g_p}{\longrightarrow}
   E \wedge \overline{E}^p \wedge Y
 $$
 
-where the morphism on the right is identified as $f_p$ by the induction assumption. Since $Y_{p+1}$ is defined to be the homotopy fiber of $f_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$ and hence by definition that $A_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$.
+where the morphism on the right is identified as $g_p$ by the induction assumption, hence $A_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$. Since $Y_{p+1}$ is defined to be the homotopy fiber of $g_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$.
 
 =--
 
@@ -963,7 +972,7 @@ $$
 $$
 
 
-We discuss now how, under favorable conditions, these hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-cohomology of the first page computes the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. 
+We discuss now how, under favorable conditions, these hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$ (The $E$-[[generalized homology]] of $E$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology))). Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-cohomology of the first page computes the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. 
 
 The condition needed for this to work is the following.
 
@@ -1690,15 +1699,15 @@ In order to interpret prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, 
 +-- {: .num_lemma #ResolutionEWp}
 ###### Lemma
 
-Given an $E$-Adams spectral sequence $(E^{s,t}_r(X,Y),d_r)$ as in def. \ref{AdamsEAdamsSpectralSequence} then the sequences of morphisms
+Given an $E$-Adams spectral sequence $(E^{s,t}_r(X,Y),d_r)$ as in def. \ref{AdamsEAdamsSpectralSequence}, then the sequences of morphisms
 
 $$
   0
     \to
-  E_\bullet(Y_n)
-    \overset{E_\bullet(g_n)}{\longrightarrow}
-  E_\bullet(A_n)
-    \overset{E_\bullet(h_n)}{\longrightarrow}
+  E_\bullet(Y_p)
+    \overset{E_\bullet(g_p)}{\longrightarrow}
+  E_\bullet(A_p)
+    \overset{E_\bullet(h_p)}{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
    \to
   0
@@ -1748,17 +1757,17 @@ is a [[long exact sequence]], exhibiting the graded [[chain complex]] $(E_\bulle
 +-- {: .proof}
 ###### Proof
 
-Consider the defining [[homotopy cofiber sequence]]
+Consider the image of the defining [[homotopy cofiber sequence]]
 
 $$
   Y_p 
-    \overset{f_p}{\longrightarrow}
+    \overset{g_p}{\longrightarrow}
   E \wedge Y_p
-    \longrightarrow
+    \overset{h_p}{\longrightarrow}
   \Sigma Y_{p+1}
 $$
 
-under the functor $E \wedge (-)$. This is itself a homotopy cofiber sequence of the form (due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory))
+under the functor $E \wedge (-)$. This is itself a homotopy cofiber sequence of the form 
 
 $$
   E \wedge Y_p
@@ -1766,25 +1775,33 @@ $$
   E \wedge E \wedge Y_p
     \overset{E \wedge h_p}{\longrightarrow}
   \Sigma E \wedge Y_{p + 1}
-  \,.
 $$
+
+(due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
+
 
 Applying the [[stable homotopy groups]] functor $\pi_\bullet(-) \simeq [\mathbb{S},-]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) to this yields a [[long exact sequence]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups))
 
 $$
   \cdots
    \longrightarrow
+  E_{\bullet}(Y_{p+1})
+    \overset{ E_\bullet(f_p) }{\longrightarrow}
   E_\bullet(Y_p)
-    \overset{\pi_\bullet(E \wedge g_p)}{\longrightarrow}
+    \overset{ E_\bullet(g_p) }{\longrightarrow}
   E_\bullet(W_p)
-    \overset{\pi_\bullet(E \wedge h_p)}{\longrightarrow}
+    \overset{ E_\bullet(h_p) }{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
+    \overset{ E_{\bullet-1}(f_p) }{\longrightarrow}
+  E_{\bullet-1}(Y_{p})
+    \overset{ E_{\bullet-1}(g_p) }{\longrightarrow}
+  E_{\bullet-1}(A_p)
    \longrightarrow
   \cdots
   \,.
 $$
 
-But in fact this [[split exact sequence|splits]]: by [[unitality]], the product operation $\mu$ on the [[homotopy commutative ring spectrum]] $E$ is a [[left inverse]] to $f_p$ in that
+But in fact this [[split exact sequence|splits]]: by [[unitality]] of $(E,\mu,e)$, the product operation $\mu$ on the [[homotopy commutative ring spectrum]] $E$ is a [[left inverse]] to $g_p$ in that
 
 $$
   id
@@ -1794,9 +1811,10 @@ $$
   E \wedge E \wedge Y_p
     \overset{\mu \wedge id}{\longrightarrow}
   E \wedge Y_p
+  \,.
 $$
 
-and hence $\pi_\bullet(E \wedge g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivial. This means that the above long exact sequence collapses to [[short exact sequences]].
+Therefore $E_\bullet(g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivial, and so by exactness $E_\bullet(f_p) = 0$. This means that the above long exact sequence collapses to [[short exact sequences]].
 
 =--
 
@@ -2179,7 +2197,6 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
-
 
 
 
@@ -2962,6 +2979,8 @@ $\,$
 
 
 For the general theory we follow the original
+
+* {#Adams69} [[John Frank Adams]], section 2 of _Lectures on generalised cohomology_, in  [[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
 
 * {#Adams74} [[Frank Adams]], section III.15 of _[[Stable homotopy and generalized homology]]_, Chicago Lectures in mathematics, 1974
 
