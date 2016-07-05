@@ -695,7 +695,7 @@ Then consider the identity element in the top left hom-set. Its image under the 
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #StableHomotopyGroupsOfSpheres}
 ###### Example
 
 Given $X \in Top^{\ast/}_{cg}$, then the [[stable homotopy groups]] (def. \ref{StableHomotopyGroups}) of its [[suspension spectrum]] (example \ref{SuspensionSpectrum}) are given by
