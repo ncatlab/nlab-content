@@ -170,9 +170,9 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[change of rings theorem]]
 
-* [[Thom's theorem on MO]]
+* [Thom's theorem on MO](MO#ThomTheoremOnMO)
 
-* [[Milnor's theorem on MU]]
+* [[Milnor-Quillen theorem on MU]]
 
 ## 4 Complex Bordism
 
