@@ -5199,6 +5199,12 @@ We consider the evident version of [[stable weak homotopy equivalences]] for [[s
 
 For $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes of structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}, let $\mathbb{S}_{dia}Mod$ be the corresponding category of structured spectra (def. \ref{FinitePointedCWComplexes}, prop. \ref{SseqModulesAreSequentialSpectra}, def. \ref{SsymModuleSymmetricSpectra}).
 
+1. The [[stable homotopy groups]] of an object $X \in \mathbb{S}_{dia}Mod$ are those of the underlying sequential spectrum ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroups)):
+
+   $$
+     \pi_\bullet(X) \coloneqq \pi_\bullet(seq^\ast X)
+     \,.
+   $$
 
 1. An object $X \in \mathbb{S}_{dia}Mod$ is a **structured [[Omega-spectrum]]** if the underlying [[sequential spectrum]] $seq^\ast X$ (def. \ref{TopologicalDiagramCategoriesForSpectra}) is a sequential [[Omega spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#OmegaSpectrum))
 
@@ -6248,7 +6254,7 @@ $$
   }
 $$
 
-and this immediately gives that $\lambda_n$ is an isomorphism on stable homotopy groups.
+and this immediately gives that $\lambda_n$ is an isomorphism on [[stable homotopy groups]].
 
 **orthogonal case**
 
@@ -9468,7 +9474,7 @@ $$
 
 ([Aguilar-Gitler-Prieto 02, corollary 6.4.23](Eilenberg-MacLane+space#AguilarGitlerPrieto02))
 
-+-- {: .num_defn}
++-- {: .num_defn #OrthogonalEilenbergMacLaneRingSpectrum}
 ###### Definition
 
 For $A$ a [[countable set|countable]] [[abelian group]], then the **orthogonal [[Eilenberg-MacLane spectrum]]** $H A$ is the [[orthogonal spectrum]] (def. \ref{OrthogonalSpectrum}) with
@@ -9566,6 +9572,27 @@ If $R$ is a [[commutative ring]], then the Eilenberg-MacLane spectrum $H R$ beco
 =--
 
 ([Schwede 12, example I.1.14](#Schwede12))
+
++-- {: .num_prop #StableHomotopyGroupsOfEMSpectrum}
+###### Proposition
+
+The [[stable homotopy groups]] (def. \ref{StableOrthStructureClassesOfMorphisms}) of an [[Eilenberg-MacLane spectrum]] [[HA]] (def. \ref{OrthogonalEilenbergMacLaneRingSpectrum}) are
+
+$$
+  \pi_q(H A)
+    \simeq
+  \left\{
+    \array{
+      A & if \; q = 0
+      \\
+      0 & otherwise
+    }
+  \right.
+$$
+
+
+=--
+
 
 ##### Thom spectra
  {#ThomSpectra}
