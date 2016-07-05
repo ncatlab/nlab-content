@@ -1,6 +1,36 @@
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
-</div>
++-- {: .num_remark}
+###### Remark
 
-It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally. This is "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
+Since, by definition \ref{CWSpectrum}, a $p$-cell of a [[cell spectrum]] that appears at stage $q$ shows up as its $k$-fold suspension at stage $q+k$, its attachment to some spectrum $X$ is reflected by a [[pushout]] of spectra of the form
+
+$$
+  \array{
+    \Sigma^\infty S^{-1}_+[-q]
+      &\longrightarrow&
+    X
+      &\longrightarrow&
+    \ast
+    \\
+    {}^{\mathllap{\Sigma^\infty i_{p}[-q]}}
+    \downarrow
+      &(po)&
+    \downarrow
+      &(po)&
+    \downarrow
+    \\
+    \Sigma^\infty D^{p}_+[-q]
+      &\longrightarrow&
+    \hat X
+      &\longrightarrow&
+    \Sigma^\infty S^p[-q]
+  }
+  \,,
+$$ 
+
+where the left vertical morphism is the image under the $-q$th shift spectrum functor (def. \ref{ShiftedSpectrum}) of the image under the [[suspension spectrum]] functor (def. \ref{SuspensionSpectrum}) of the basic cell inclusion $i_p$ of [[pointed topological spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#GeneratingCofibrationsForPointedTopologicalSpaces)). This is a cofibration by prop. \ref{SigmaInfinityIsQuillenOnStrictModelStructureOnSequential}, and so also the middle vertical morphism is a cofibration, by theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}. Using the [[pasting law]] for pushout, we find that the [[cofiber]] of the middle vertical morphisms (hence its [[homotopy cofiber]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber)) in the strict model structure) is \Sigma^\infty S^p[-q]$ (and not $\Sigma^\infty S^p_+[-q]$!). This is a shift of a trunction of the [[sphere spectrum]].
+
+After having set up the stable model category structure in theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} below, we find that this means that cell attachments to CW-spectra in the stable model structure are by cofibers of integer shifts of the sphere spectrum.
+
+
+=--
 
