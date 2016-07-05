@@ -1501,8 +1501,7 @@ $$
 
 =--
 
-(e.g. [Baker-Lazarev 01, theorem 1.1](#BakerLazarev01))
-
+([Adams 69, pages 60-66](#Adams69))
 
 
 
