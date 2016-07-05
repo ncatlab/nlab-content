@@ -666,19 +666,21 @@ $$
 In particular the first page is
 
 $$
-  (\mathcal{E}^{s,t}_1 , \; d_1 ) 
-   \;=\; 
-  ([X,A_s]_{t-s}, [X, g \circ h]
+  \mathcal{E}^{s,t}_1 
+   =
+  [X,A_s]_{t-s}
+$$
+
+$$
+  d_1 
+    =
+  [X, g \circ h]
+  \,.
 $$
 
 
 As we pass to derived exact couples, by def. \ref{DerivedExactCouple}, 
 the bidegree of $i$ and $k$ is preserved, but that of $j$ increases by 
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
-</div>
-
 $(1,1)$ with each page, since
 
 $$
@@ -705,9 +707,12 @@ $$
   \,.
 $$
 
-It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally.
 
-(This is "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention [prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence))
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="http://ncatlab.org/nlab/files/adamstypedifferentials.jpg" width="360" > 
+</div>
+
+It is conventional to depict this in tables where $s$ increases vertically and $t-s$ increases horizontally. This is the "Adams type" grading convention for spectral sequences, different from the [[Serre spectral sequence|Serre-]][[Atiyah-Hirzebruch spectral sequence]] convention ([prop.](Introduction+to+Stable+homotopy+theory+--+S#AHSSExistence)).
 
 =--
 
@@ -715,7 +720,7 @@ It is conventional to depict this in tables where $s$ increases vertically and $
 #### $E$-Adams filtrations
  {#AdamsFiltration}
 
-Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in example \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
+Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in def. \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
 
 +-- {: .num_defn #AdamsEAdamsSpectralSequence}
 ###### Definition
@@ -737,19 +742,19 @@ $$
   \array{
     & \vdots
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_3 &\overset{g_3}{\longrightarrow}& E \wedge Y_3 = A_3
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_2 &\overset{g_2}{\longrightarrow}& E \wedge Y_2 = A_2
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     & Y_1 &\overset{g_1}{\longrightarrow}& E \wedge Y_1 = A_1
     \\
-    & \downarrow
+    & {}^{\mathllap{f_0}}\downarrow
     \\
     Y = & Y_0 &\overset{g_0}{\longrightarrow}& E \wedge Y_0  = A_0
   }
@@ -774,7 +779,7 @@ $$
   A_n \coloneqq E \wedge Y_n
 $$ 
 
-is the derived [[smash product of spectra]] of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
+is the derived [[smash product of spectra]] ([corollary](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)) of $E$ with the stage $Y_n$ ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)), and where
 
 $$
   g_n
@@ -911,11 +916,11 @@ $$
   \overline{E}^{p+1} \wedge Y
     \longrightarrow
   \overline{E}^p \wedge Y
-    \overset{f_p}{\longrightarrow}
+    \overset{g_p}{\longrightarrow}
   E \wedge \overline{E}^p \wedge Y
 $$
 
-where the morphism on the right is identified as $f_p$ by the induction assumption. Since $Y_{p+1}$ is defined to be the homotopy fiber of $f_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$ and hence by definition that $A_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$.
+where the morphism on the right is identified as $g_p$ by the induction assumption, hence $A_{p+1}\simeq E \wedge \overline{E}^p  \wedge Y$. Since $Y_{p+1}$ is defined to be the homotopy fiber of $g_p$, it follows that $Y_{p+1} \simeq \overline{E}^{p+1} \wedge Y$.
 
 =--
 
@@ -937,7 +942,7 @@ $$
 $$
 
 
-We discuss now how, under favorable conditions, these hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$. Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-cohomology of the first page computes the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. 
+We discuss now how, under favorable conditions, these hom-groups may alternatively be computed as morphisms of $E$-[[generalized homology|homology]] equipped with suitable [[comodule]] structure over a [[Hopf algebroid]] structure on the dual $E$-[[Steenrod operations]] $E_\bullet(E)$ (The $E$-[[generalized homology]] of $E$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology))). Then [below](#TheE2TermOfTheEAdamsSpectralSequence) we discuss that, as a result, the $d_1$-cohomology of the first page computes the [[Ext]]-groups from the $E$-homology of $Y$ to the $E$-homology of $X$, regarded as $E_\bullet(E)$-comodules. 
 
 The condition needed for this to work is the following.
 
@@ -1664,15 +1669,15 @@ In order to interpret prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, 
 +-- {: .num_lemma #ResolutionEWp}
 ###### Lemma
 
-Given an $E$-Adams spectral sequence $(E^{s,t}_r(X,Y),d_r)$ as in def. \ref{AdamsEAdamsSpectralSequence} then the sequences of morphisms
+Given an $E$-Adams spectral sequence $(E^{s,t}_r(X,Y),d_r)$ as in def. \ref{AdamsEAdamsSpectralSequence}, then the sequences of morphisms
 
 $$
   0
     \to
-  E_\bullet(Y_n)
-    \overset{E_\bullet(g_n)}{\longrightarrow}
-  E_\bullet(A_n)
-    \overset{E_\bullet(h_n)}{\longrightarrow}
+  E_\bullet(Y_p)
+    \overset{E_\bullet(g_p)}{\longrightarrow}
+  E_\bullet(A_p)
+    \overset{E_\bullet(h_p)}{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
    \to
   0
@@ -1722,17 +1727,17 @@ is a [[long exact sequence]], exhibiting the graded [[chain complex]] $(E_\bulle
 +-- {: .proof}
 ###### Proof
 
-Consider the defining [[homotopy cofiber sequence]]
+Consider the image of the defining [[homotopy cofiber sequence]]
 
 $$
   Y_p 
-    \overset{f_p}{\longrightarrow}
+    \overset{g_p}{\longrightarrow}
   E \wedge Y_p
-    \longrightarrow
+    \overset{h_p}{\longrightarrow}
   \Sigma Y_{p+1}
 $$
 
-under the functor $E \wedge (-)$. This is itself a homotopy cofiber sequence of the form (due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory))
+under the functor $E \wedge (-)$. This is itself a homotopy cofiber sequence of the form 
 
 $$
   E \wedge Y_p
@@ -1740,25 +1745,33 @@ $$
   E \wedge E \wedge Y_p
     \overset{E \wedge h_p}{\longrightarrow}
   \Sigma E \wedge Y_{p + 1}
-  \,.
 $$
+
+(due to the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]], [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)).
+
 
 Applying the [[stable homotopy groups]] functor $\pi_\bullet(-) \simeq [\mathbb{S},-]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) to this yields a [[long exact sequence]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups))
 
 $$
   \cdots
    \longrightarrow
+  E_{\bullet}(Y_{p+1})
+    \overset{ E_\bullet(f_p) }{\longrightarrow}
   E_\bullet(Y_p)
-    \overset{\pi_\bullet(E \wedge g_p)}{\longrightarrow}
+    \overset{ E_\bullet(g_p) }{\longrightarrow}
   E_\bullet(W_p)
-    \overset{\pi_\bullet(E \wedge h_p)}{\longrightarrow}
+    \overset{ E_\bullet(h_p) }{\longrightarrow}
   E_{\bullet-1}(Y_{p+1})
+    \overset{ E_{\bullet-1}(f_p) }{\longrightarrow}
+  E_{\bullet-1}(Y_{p})
+    \overset{ E_{\bullet-1}(g_p) }{\longrightarrow}
+  E_{\bullet-1}(A_p)
    \longrightarrow
   \cdots
   \,.
 $$
 
-But in fact this [[split exact sequence|splits]]: by [[unitality]], the product operation $\mu$ on the [[homotopy commutative ring spectrum]] $E$ is a [[left inverse]] to $f_p$ in that
+But in fact this [[split exact sequence|splits]]: by [[unitality]] of $(E,\mu,e)$, the product operation $\mu$ on the [[homotopy commutative ring spectrum]] $E$ is a [[left inverse]] to $g_p$ in that
 
 $$
   id
@@ -1768,9 +1781,10 @@ $$
   E \wedge E \wedge Y_p
     \overset{\mu \wedge id}{\longrightarrow}
   E \wedge Y_p
+  \,.
 $$
 
-and hence $\pi_\bullet(E \wedge g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivial. This means that the above long exact sequence collapses to [[short exact sequences]].
+Therefore $E_\bullet(g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivial, and so by exactness $E_\bullet(f_p) = 0$. This means that the above long exact sequence collapses to [[short exact sequences]].
 
 =--
 
@@ -3245,7 +3259,7 @@ $$
 ###### Proposition
 
 If $E$ is such that the self-[[generalized homology]] 
-$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]]) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
+$E_\bullet(E) \coloneqq \pi_\bullet(E \wedge_S E)$ (the dual $E$-[[Steenrod operations]] spring) is such that as a [[module]] over $E_\bullet \coloneqq \pi_\bullet(E)$ it is a [[flat module]], then there is a [[natural equivalence]]
 
 $$
   \pi_\bullet
@@ -3435,8 +3449,7 @@ The original sources are
 based in parts on 
 
 * {#Adams69} [[John Frank Adams]], _Lectures on generalised cohomology_, in 
-Lecture Notes in Mathematics, vol. 99 (1969), Springer-Verlag Berlin- 
-Heidelberg-New York. 
+[[Peter Hilton]] (ed.) _Category Theory, Homology Theory and Their Applications III_, volume 99 of Lecture Notes in Mathematics (1969), Springer-Verlag Berlin-Heidelberg-New York. 
 
  
 Convergence was notably discussed in
