@@ -179,6 +179,14 @@ Discussion of Blakers-Massey for [[ring spectra]]/[[E-∞ rings]] and other [[al
 
 * Michael Ching, [[John Harper]], _Higher homotopy excision and Blakers-Massey theorems for structured ring spectra_ ([arXiv:1402.4775](http://arxiv.org/abs/1402.4775))
 
+The higher cubical version of Blakers-Massey is due to 
+
+* {#Goodwillie91} [[Tom Goodwillie]], _Calculus II: Analytic functors_, K-Theory  01/1991; 5(4):295-332. DOI: 10.1007/BF00535644
+
+a textbook account is in 
+
+* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
+
 
 ### In $\infty$-topos theory and homotopy type theory
  {#ReferencesInHoTT}
@@ -192,32 +200,28 @@ A general version of the connectivity theorem in [[homotopy type theory]]
 
 * {#LumsdaineFinsterLicata13} [[Peter LeFanu Lumsdaine]], [[Eric Finster]], [[Dan Licata]] (to appear) 
 
-A fully computer-checked version of this proof in HoTT-[[Agda]] is produced in
+A fully computer-checked version of this proof in HoTT-[[Agda]] was produced in
 
 * {#Favonia} [[Favonia]], _[BlakersMassey.agda](https://github.com/HoTT/HoTT-Agda/blob/1.0/Homotopy/BlakersMassey.agda)_
 
-The statement appears also as
+the statement appeared also as
 
 * {#HoTTBook} [[Univalent Foundations Project]], theorem 8.10.2 of _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-An announcement was given in
+and an announcement was given in
 
 * {#Lumsdaine13} [[Peter LeFanu Lumsdaine]], _The Blakers-Massey theorem in homotopy type theory_ talk at [Conference on Type Theory, Homotopy Theory and Univalent Foundations](http://www.crm.cat/en/Activities/Pages/ActivityFoldersAndPages/Curs%202013-2014/CHomotopy/chomotopy.aspx) (2013) ([talk abstracts pdf]( http://www.crm.cat/en/Activities/Documents/AbstractsTypeTheory.pdf
-)):
+)).
 
-> One such result, the Blakers-Massey connectivity theorem, is of particular interest in that all classical proofs use some specifics of their settings (usually, $Top$ or $SSet$) not available to us; so the type-theoretic proof was, by necessity, new in parts. This allowed us, as a by-product, to translate the proof back into classical language and obtain the theorem in wider generality than was previously known: we show that it holds in any infinity-topos (in the sense of Lurie). I will introduce the Blakers-Massey theorem and our approach to it, and discuss the process of translating a type-theoretic proof into infinity-categorical language.
+A writeup finally appeared as
 
-Unwinding to ordinary mathematical language of the computer-checked formal proof of Blakers-Massey (or, for the moment, of the special case that is the Freudenthal suspension theorem) is in 
+* {#FFLL16} Kuen-Bang Hou ([[Favonia]]), [[Eric Finster]], [[Dan Licata]], [[Peter LeFanu Lumsdaine]], _A mechanization of the Blakers-Massey connectivity theorem in Homotopy Type Theory_ ([arXiv.1605.03227](https://arxiv.org/abs/1605.03227))
+
+
+Another unwinding to ordinary mathematical language of the above [code](#Favonia) was meanwhile given 
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
 
-The higher cubical version of Blakers-Massey is due to 
-
-* {#Goodwillie91} [[Tom Goodwillie]], _Calculus II: Analytic functors_, K-Theory  01/1991; 5(4):295-332. DOI: 10.1007/BF00535644
-
-a textbook account is in 
-
-* {#MunsonVolic15} [[Brian Munson]], [[Ismar Volic]], _Cubical homotopy theory_, Cambridge University Press, 2015 [pdf](http://palmer.wellesley.edu/~ivolic/pdf/Papers/CubicalHomotopyTheory.pdf)
 
 
 ### In shape theory
