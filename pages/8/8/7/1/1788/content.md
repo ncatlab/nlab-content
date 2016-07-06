@@ -1,5 +1,7 @@
 For
 
+$\supset$
+
 $$
   \array{
     id_A \colon & A &\longrightarrow& X &\longrightarrow& A
