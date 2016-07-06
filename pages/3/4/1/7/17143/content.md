@@ -19,15 +19,271 @@
 
 ## Statement
 
-For $E$ a [[commutative ring spectrum]]/[[E-infinity ring]], there is a bijection between [[complex oriented cohomology theory|complex orientation]] on $E$ and ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
+For $E$ a [[homotopy commutative ring spectrum]], there is a bijection between [[complex oriented cohomology theory|complex orientation]] on $E$ and homotopy ring spectrum homomorphism $MU \longrightarrow E$ from [[MU]].
 
 Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 
 (e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
-**Proof strategy:** Use that for each $n \in \mathbb{N}$ the $n$-th $E$-[[generalized Chern class]], thought of as an $E$-[[Thom class]] represented by $c_n \in E^\bullet(M U(n))$, corresponds to a morphism $\phi_n \colon M U(n) \longrightarrow E$. Check that these maps are compatible under restriction. Then unse the [[Milnor exact sequence]] and observe the vanishing of its [[lim^1]]-term to conclude a total map $\phi \colon M U \simeq \underset{\longrightarrow}{\lim}_n M U(n) \longrightarrow E$.
-This component-wise construction of $\phi$ then also serves to show that it is a morphism of [[ring spectra]] and, via the [[splitting principle]], that this is essentially unique.
+## Details
+
+For the present purpose:
+
++-- {: .num_defn #StrictComplexOrientation}
+###### Definition
+
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then
+a _[[complex oriented cohomology theory|complex orientation]]_ on $E$ is a choice of element
+
+$$
+ c_1^E \in E^2(B U(1))
+$$
+
+in the cohomology of the [[classifying space]] $B U(1)$ (given by the infinite [[complex projective space]]) such that its image under the restriction map
+
+$$
+  \phi
+  \;\colon\;
+  \tilde E^2( B U(1) )
+    \longrightarrow
+  \tilde E^2 (S^2)
+    \simeq
+  \pi_0(E)
+$$
+
+is the unit
+
+$$
+  \phi(c_1^E) = 1
+  \,.
+$$
+
+=--
+
+([Lurie 10, lecture 4, def. 2](#Lurie10))
+
++-- {: .num_remark}
+###### Remark
+
+Often one just requires that $\phi(c_1^E)$ is _a_ unit, i.e. an invertible element. However we are after identifying $c_1^E$ with the degree-2 component $M U(1) \to E_2$ of homtopy ring spectrum morphisms $M U \to E$, and by unitality these necessarily send $S^2 \to M U(1)$ to the unit $S^2 \to E$.
+
+=--
+
++-- {: .num_lemma #SphereBundleBunminus1}
+###### Lemma
+
+For $n \in \mathbb{N}$, the [[fiber sequence]] ([prop.](classifying+space#SphereFibrationOverInclusionOfClassifyingSpaces))
+
+$$
+  \array{
+    S^{2n-1} &\longrightarrow& B U(n-1)
+    \\
+    && \downarrow
+    \\
+    && B U(n)
+  }
+$$
+
+exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|universal complex vector bundle]] over $B U(n)$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+When exhibited by a fibration, here the vertical morphism is equivalently the quotient map
+
+$$
+ (E U(n))/U(n-1) \longrightarrow (E U(n))/U(n)
+$$
+
+(by the proof of [this prop.](classifying+space#SphereFibrationOverInclusionOfClassifyingSpaces)).
+
+Now the [[universal principal bundle]] $E U(n)$ is ([def.](classifying+space#EOn)) equivalently the colimit 
+
+$$
+  E U(n) \simeq \underset{\longrightarrow}{\lim}_k  U(k)/U(k-n)
+  \,.
+$$
+
+Here each [[Stiefel manifold]]/[[coset spaces]] $U(k)/U(k-n)$ is equivalently the space of (complex) $n$-dimensional subspaces of $\mathbb{C}^k$ that are equipped with an orthonormal (hermitian) [[linear basis]]. The [[universal vector bundle]] 
+
+$$
+  E U(n) \underset{U(n)}{\times} \mathbb{C}^n 
+    \simeq 
+  \underset{\longrightarrow}{\lim}_k  U(k)/U(k-n) \underset{U(n)}{\times} \mathbb{C}^n
+$$
+
+has as fiber precisely the linear span of any such choice of basis.
+
+
+While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out the entire choice of basis, the quotient $U(k)/(U(n-k) \times U(n-1))$ leaves the choice of precisly one unit vector. This is parameterized by the sphere $S^{2n-1}$ which is thereby identified as the unit sphere in the respective fiber of $E U(n) \underset{U(n)}{\times} \mathbb{C}^n$.
+
+=--
+
++-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
+###### Lemma
+
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the [[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
+
+$$
+  \begin{aligned}
+    \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
+    & 
+    \simeq
+    E^\bullet( B U(n), B U(n-1))
+  \end{aligned}
+  \,.
+$$
+
+If $E$ is equipped with the structure of a [[complex oriented cohomology theory]] then
+
+$$
+  \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
+   \simeq
+  c^E_n \cdot (\pi_\bullet(E))[ [ c^E_1, \cdots, c^E_n ] ]
+  \,,
+$$
+
+where the $c_i$ are the universal $E$-[[Conner-Floyd-Chern classes]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+In view of lemma \ref{SphereBundleBunminus1} and using that the disk bundle is homotopy equivalent to the base space we have
+
+$$
+  \begin{aligned}
+    \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
+    & 
+    =
+    E^\bullet( D(E U(n) \underset{U(n)}{\times} \mathbb{C}^n), S(E U(n) 
+\underset{U(n)}{\times} \mathbb{C}^n) )
+    \\
+    & \simeq
+    E^\bullet( E U(n), B U(n-1))
+  \end{aligned}
+  \,.
+$$
+
+Regarding the second statement: the Conner-Floyd classes freely generate the $E$-cohomology of $B U(n)$ for all $n$:
+
+$$
+  E^\bullet(B U(n))
+  \simeq
+  \pi_\bullet(E)[ [ c^E_1, \cdots, c^E_n ] ]
+  \,.
+$$
+
+and the restriction morphism
+
+$$
+  E^\bullet(B U(n))
+   \longrightarrow
+  E^{\bullet}(B U(n-1))
+$$
+
+projects out $c_n^E$. Since this is in particular a surjective map, the [[relative cohomology]] $E^\bullet( B U(n), B U(n-1) )$ is just the [[kernel]] of this map.
+
+=--
+
++-- {: .num_prop #ThomClassesCFClass}
+###### Proposition
+
+Let $E$ be a [[complex oriented cohomology theory]]. Then the $n$th $E$-[[Conner-Floyd-Chern class]]
+
+$$
+  c^E_n \in \tilde E(Th( E U(n) \underset{U(n)}{\times} \mathbb{C}^n ))
+$$
+
+(using the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}) is a [[Thom class]] in that its restriction to the Thom space of any fiber is a suspension of a unit in $\pi_0(E)$. 
+
+=--
+
+([Lurie 10, lecture 5, prop. 6](#Lurie10))
+
++-- {: .proof}
+###### Proof
+
+Since $B U(n)$ is [[connected topological space|connected]], it is sufficient to check the statement over the base point. Since that fixed fiber is canonically isomorphic to the direct sum of $n$ complex lines, we may equivalently check that the restriction of $c^E_n$ to the pullback of the universal rank $n$ bundle along
+
+$$
+  i \colon B U(1)^n \longrightarrow B U(n)
+$$
+
+satisfies the required condition. By the [[splitting principle]], that restriction is the product of the $n$-copies of the first $E$-Conner-Floyd-Chern class
+
+$$
+  i^\ast c_n \simeq ( (c_1^E)_1 \cdots (c_1^E)_n )
+  \,.
+$$
+
+Hence it is now sufficient to see that each factor restricts to a unit on the fiber, but that it precisely the condition that $c_1^E$ is a complex orientaton of $E$. In fact by def. \ref{StrictComplexOrientation} the restriction is even to $1 \in \pi_0(E)$.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+For $c_1^E \in \tilde E^2(B U(1))$ any choice of complex orientation according to def. \ref{StrictComplexOrientation}, then the representing morphism
+
+$$
+  M U(1) \longrightarrow E_2
+$$
+
+extends to a morphism of [[homotopy commutative ring spectra]]
+
+$$
+  M U \longrightarrow E
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Take the higher components to be given by the higher [[Conner-Floyd-Chern classes]]
+
+$$
+  c_n
+    \;\colon\;
+  M U(n)
+    \longrightarrow
+  E_{2n}
+  \,.
+$$
+
+By prop. \ref{ThomClassesCFClass} this is unital. By the law for Chern classes ... it is multiplicative
+
+$$
+  \array{
+    M U (n_1) \wedge M U(n_2)
+      &\overset{c_{n_1} \wedge c_{n_2}}{\longrightarrow}&
+    E_{2 n_1} \wedge E_{2 n_2}
+    \\
+    \downarrow 
+      &&
+    \downarrow
+    \\
+    M U(n_1 + n_2)
+      &\underset{c_{n_1 + n_2}}{\longrightarrow}&
+   E_{2 (n_1 + n_2)}
+  }
+  \,.
+$$
+
+=--
+
+([Lurie 10, lecture 6, prop. 6](#Lurie10))
+
+Hence complex orientations map to morphisms $M U \to E$. Hence the map that takes $M U \to E$ to the complec orientation $M U(1) \to E_2$ is surjective. It remains to see that it is also injective. This follows by the [[splitting principle]] (...)
 
 ## Related concepts
 
@@ -49,7 +305,7 @@ This component-wise construction of $\phi$ then also serves to show that it is a
 
 * {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
+* {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
 [[!redirects MU and complex orientation]]
 
