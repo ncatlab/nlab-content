@@ -8108,5 +8108,4 @@ and
 
 * {#Lurie10} [[Jacob Lurie]], lectures 1-10 of _[[Chromatic Homotopy Theory]]_, 2010
 
-(These overlap, pick the one that seems more inviting on first reading.)
 
