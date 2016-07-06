@@ -31,7 +31,7 @@ Another definition that is sometimes used is the following.
 
 +-- {: .num_defn #ConstTerm}
 ###### Definition
-A morphism $c\colon B \to C$ in a category $\mathcal{C}$ is __constant__ if, for every object $A$, *exactly* one morphism from $A$ to $C$ factors through $f$.  Assuming that $\mathcal{C}$ has a [[terminal object]], $f$ is constant iff it factors through this terminal object.
+A morphism $c\colon B \to C$ in a category $\mathcal{C}$ is __constant__ if, for every object $A$, *exactly* one morphism from $A$ to $C$ factors through $c$.  Assuming that $\mathcal{C}$ has a [[terminal object]], $c$ is constant iff it factors through this terminal object.
 =--
 
 This second definition implies the first, but they are not equivalent in general.  In the [[category of sets]], the first implies the second if the set $B$ is [[inhabited set|inhabited]].  More generally, if $c\colon B \to C$ is a morphism in a category $\mathcal{C}$, then the two definitions are equivalent if $\mathcal{C}(A,B)$ is inhabited for every $A$.  If $\mathcal{C}$ has a terminal object $1$, then this is equivalent to the existence of a [[global section]] $b\colon 1 \to B$.
