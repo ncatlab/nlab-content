@@ -26,6 +26,8 @@ $$
   \,.
 $$
 
+Note: 'def' and 'bulk' indicate terms of fields in a [[QFT with defects]].
+
 ## Related concepts
 
 * [[slice (∞,1)-topos]]
