@@ -1,0 +1,9 @@
+
+* [Wikipedia page](https://en.wikipedia.org/wiki/Michel_Lazard)
+
+
+## related $n$Lab entries
+
+* [[Lazard's theorem]]
+
+category: people
