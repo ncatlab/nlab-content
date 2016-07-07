@@ -1,8 +1,16 @@
 $$
-  \begin{aligned}
-    \underset{A(1)}{\times} A
-    & \simeq
-    A  
-  \end{aligned}
+  \array{
+    H^\bullet( B U(n) )
+      &\overset{\mu_{k,n-k}^\ast}{\longrightarrow}&
+    H^\bullet( B U(k) ) \otimes H^\bullet( B U(n-k) )
+    \\
+    {}^{\mathllap{\mu_k^\ast}}\downarrow
+      &&
+    \downarrow^{\mathrlap{ \mu_{k}^\ast \otimes \mu_{n-k}^\ast }}
+    \\
+    H^\bullet( B U(1)^n )
+     &\simeq&
+    H^\bullet( B U(1)^k ) \otimes H^\bullet( B U(1)^{n-k} )
+  }
   \,.
-$$ 
+$$
