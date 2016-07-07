@@ -1,2 +1,8 @@
-
-$\backslash$
+$$
+  \begin{aligned}
+    \underset{A(1)}{\times} A
+    & \simeq
+    A  
+  \end{aligned}
+  \,.
+$$ 
