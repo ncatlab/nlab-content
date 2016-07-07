@@ -28,47 +28,10 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 ## Details
 
-For the present purpose:
 
-+-- {: .num_defn #StrictComplexOrientation}
-###### Definition
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then
-a _[[complex oriented cohomology theory|complex orientation]]_ on $E$ is a choice of element
+### Conner-Floyd-Chern classes are Thom classes
 
-$$
- c_1^E \in E^2(B U(1))
-$$
-
-in the cohomology of the [[classifying space]] $B U(1)$ (given by the infinite [[complex projective space]]) such that its image under the restriction map
-
-$$
-  \phi
-  \;\colon\;
-  \tilde E^2( B U(1) )
-    \longrightarrow
-  \tilde E^2 (S^2)
-    \simeq
-  \pi_0(E)
-$$
-
-is the unit
-
-$$
-  \phi(c_1^E) = 1
-  \,.
-$$
-
-=--
-
-([Lurie 10, lecture 4, def. 2](#Lurie10))
-
-+-- {: .num_remark}
-###### Remark
-
-Often one just requires that $\phi(c_1^E)$ is _a_ unit, i.e. an invertible element. However we are after identifying $c_1^E$ with the degree-2 component $M U(1) \to E_2$ of homtopy ring spectrum morphisms $M U \to E$, and by unitality these necessarily send $S^2 \to M U(1)$ to the unit $S^2 \to E$.
-
-=--
 
 +-- {: .num_lemma #SphereBundleBunminus1}
 ###### Lemma
@@ -89,6 +52,7 @@ exhibits $B U(n-1)$ as the [[sphere bundle]] of the [[universal vector bundle|un
 
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -122,6 +86,7 @@ has as fiber precisely the linear span of any such choice of basis.
 While the quotient $U(k)/(U(n-k)\times U(n))$ (the [[Grassmannian]]) divides out the entire choice of basis, the quotient $U(k)/(U(n-k) \times U(n-1))$ leaves the choice of precisly one unit vector. This is parameterized by the sphere $S^{2n-1}$ which is thereby identified as the unit sphere in the respective fiber of $E U(n) \underset{U(n)}{\times} \mathbb{C}^n$.
 
 =--
+
 
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
@@ -228,43 +193,221 @@ Hence it is now sufficient to see that each factor restricts to a unit on the fi
 
 =--
 
-+-- {: .num_defn}
+### Complex orientation as ring spectrum maps
+
+For the present purpose:
+
++-- {: .num_defn #StrictComplexOrientation}
 ###### Definition
 
-For $c_1^E \in \tilde E^2(B U(1))$ any choice of complex orientation according to def. \ref{StrictComplexOrientation}, then the representing morphism
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then
+a _[[complex oriented cohomology theory|complex orientation]]_ on $E$ is a choice of element
 
 $$
-  M U(1) \longrightarrow E_2
+ c_1^E \in E^2(B U(1))
 $$
 
-extends to a morphism of [[homotopy commutative ring spectra]]
+in the cohomology of the [[classifying space]] $B U(1)$ (given by the infinite [[complex projective space]]) such that its image under the restriction map
+
+$$
+  \phi
+  \;\colon\;
+  \tilde E^2( B U(1) )
+    \longrightarrow
+  \tilde E^2 (S^2)
+    \simeq
+  \pi_0(E)
+$$
+
+is the unit
+
+$$
+  \phi(c_1^E) = 1
+  \,.
+$$
+
+=--
+
+([Lurie 10, lecture 4, def. 2](#Lurie10))
+
+
++-- {: .num_remark}
+###### Remark
+
+Often one just requires that $\phi(c_1^E)$ is _a_ [[unit]], i.e. an invertible element. However we are after identifying $c_1^E$ with the degree-2 component $M U(1) \to E_2$ of homtopy ring spectrum morphisms $M U \to E$, and by unitality these necessarily send $S^2 \to M U(1)$ to the unit $\iota_2 \;\colon\; S^2 \to E$ (up to homotopy).
+
+=--
+
+
++-- {: .num_lemma #S2SpectrumMapFromComplexOrientation}
+###### Lemma
+
+Let $E$ be a [[homotopy commutative ring spectrum]] equipped with a [[complex oriented cohomology theory|complex orientation]] (def. \ref{StrictComplexOrientation}) represented by a map
+
+$$
+  c_1^E
+  \;\colon\;
+  B U(1)
+    \longrightarrow
+  E_2
+  \,.
+$$
+
+Write $\{c^E_k\}_{k \in \mathbb{N}}$ for the induced [[Conner-Floyd-Chern classes]]. Then there exists a morphism of $S^2$-[[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialTSpectra))
 
 $$
   M U \longrightarrow E
-  \,.
 $$
+
+whose component map $M U_{2n} \longrightarrow E_{2n}$ represents $c_n^E$ (under the identification of lemma \ref{UniversalComplexVectorBundleThomSpace}), for all $n \in \mathbb{N}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Take the higher components to be given by the higher [[Conner-Floyd-Chern classes]]
+Consider the standard model of [[MU]] as a sequential $S^2$-spectrum with component spaces the [[Thom spaces]] of the complex [[universal vector bundle]]
 
 $$
-  c_n
-    \;\colon\;
-  M U(n)
-    \longrightarrow
-  E_{2n}
+  M U_{2n}
+    \coloneqq
+  Th( E U(n) \underset{}{\times} \mathbb{C}^n)
   \,.
 $$
 
-By prop. \ref{ThomClassesCFClass} this is unital. By the law for Chern classes ... it is multiplicative
+Notice that this is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum), [lemma](Thom+space#ThomSpaceCWStructure)).
+
+In order to get a homomorphism of $S^2$-[[sequential spectra]], we need to find representatives $f _{2n} \;\colon\; M U_{2n} \longrightarrow E_{2n}$ of $c^E_n$ such that all the squares
 
 $$
   \array{
-    M U (n_1) \wedge M U(n_2)
+    S^2 \wedge M U_{2n}
+      &\overset{id \wedge f_{2n}}{\longrightarrow}&
+    S^2 \wedge E_{2n}
+    \\
+    \downarrow
+      && 
+    \downarrow
+    \\
+    M U_{2(n+1)}
+      &\underset{f_{2(n+1)}}{\longrightarrow}&
+    E_{2n+1}
+  }
+$$
+
+commute strictly (not just up to homotopy). 
+
+To begin with, the map
+
+$$
+  f_0 \;\colon\; M U_0 \simeq \ast \longrightarrow E_0
+$$
+
+is uniquely fixed. Assume then by [[induction]] that maps $f_{2k}$ have been found for $k \leq n$. Observe that we have a homotopy-commuting diagram of the form
+
+$$
+  \array{
+    S^2 \wedge M U_{2n} 
+      &\overset{id \wedge f_{2n}}{\longrightarrow}&
+    S^2 \wedge E_{2n}
+    \\
+    \downarrow
+      &\swArrow& 
+    \downarrow
+    \\
+    M U_{2} \wedge M U_{2 n}
+      &\overset{c_1 \wedge c_{n}}{\longrightarrow}&
+    E_2 \wedge E_{2n}
+    \\
+    \downarrow
+      &\swArrow&
+    \downarrow^{\mathrlap{\mu_{2,2n}}}
+    \\
+    M U_{2(n+1)}
+      &\underset{c_{n+1}}{\longrightarrow}&
+    E_{2(n+1)}
+  }
+  \,,
+$$
+
+where the maps denoted $c_k$ are any representatives of the Chern classes of the same name. Here the homotopy in the top square exhibits the fact that $c_1^E$ is a complex orientation, while the homotopy in the bottom square exhibits the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
+
+Now since $M U$ is a [[CW-spectrum]], the total left vertical morphism here is a (Serre-)cofibration, hence a [[Hurewicz cofibration]], hence satisfies the [[homotopy extension property]]. This means precisely that we may find a map $f_{2n+1} \colon M U_{2(n+1)} \longrightarrow E_{2(n+1)}$ homotopic to the given representative $c_{n+1}$ such that the required square commutes strictly.
+
+=--
+
+
+
+
++-- {: .num_lemma}
+###### Lemma
+
+For $E$ a [[complex oriented cohomology theory|complex oriented]] [[homotopy commutative ring spectrum]], the morphism of spectra
+
+$$
+  c \;\colon\; M U \longrightarrow E
+$$
+
+that represents the complex orientation by lemma \ref{S2SpectrumMapFromComplexOrientation} is a [[homomorphism]] of [[homotop commutative ring spectra]].
+
+=--
+
+([Lurie 10, lecture 6, prop. 6](#Lurie10))
+
++-- {: .proof}
+###### Proof
+
+The unitality condition demands that the diagram
+
+$$
+  \array{
+    \mathbb{S} \overset{}{\longrightarrow} M U
+    \\
+    & \searrow & \downarrow^{\mathrlap{c}}
+    \\
+    && E
+  }
+$$
+
+commutes in the [[stable homotopy category]] $Ho(Spectra)$. In components this means that 
+
+$$
+  \array{
+    S^{2n} \overset{}{\longrightarrow} M U_{2n}
+    \\
+    & \searrow & \downarrow^{\mathrlap{c_n}}
+    \\
+    && E_{2n}
+  }
+$$
+
+commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. This is the statement of prop. \ref{ThomClassesCFClass}.
+
+The respect for the product demands that the square
+
+$$
+  \array{
+    M U \wedge M U
+      &\overset{c \wedge c}{\longrightarrow}&
+    E \wedge E
+    \\
+    \downarrow 
+      && 
+    \downarrow
+    \\
+    M U 
+      &\underset{c}{\longrightarrow}&
+    E
+  }
+$$
+
+commutes in the [[stable homotopy category]] $Ho(Spectra)$. In order to rephrase this as a condition on ring spectra incarnated as [[functor with smash product]], regard this as happening in the [[homotopy category of a model category|homotopy category]] $Ho(OrthSpec(Top_{cg}))_{stable}$ of the [[model structure on orthogonal spectra]], which is [[equivalence of categories|equivalent]] to the [[stable homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)).
+
+Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
+
+$$
+  \array{
+    M U_{2 n_1} \wedge M U_{2 n_2}
       &\overset{c_{n_1} \wedge c_{n_2}}{\longrightarrow}&
     E_{2 n_1} \wedge E_{2 n_2}
     \\
@@ -272,16 +415,17 @@ $$
       &&
     \downarrow
     \\
-    M U(n_1 + n_2)
+    M U_{2(n_1 + n_2)}
       &\underset{c_{n_1 + n_2}}{\longrightarrow}&
    E_{2 (n_1 + n_2)}
   }
   \,.
 $$
 
+That this indeed commutes up to homotopy is the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
+
 =--
 
-([Lurie 10, lecture 6, prop. 6](#Lurie10))
 
 Hence complex orientations map to morphisms $M U \to E$. Hence the map that takes $M U \to E$ to the complec orientation $M U(1) \to E_2$ is surjective. It remains to see that it is also injective. This follows by the [[splitting principle]] (...)
 
