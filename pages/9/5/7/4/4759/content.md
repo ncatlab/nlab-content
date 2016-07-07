@@ -450,6 +450,7 @@ This completes the induction step.
 =--
 
 ### Whitney sum formula
+ {#WhitneySumFormula}
 
 +-- {: .num_prop #WhitneySumChernClasses}
 ###### Proposition
@@ -475,7 +476,7 @@ $$
 
 where we take $c_0 = 1$ and  $c_j = 0 \in H^\bullet(B U(r))$ if $j \gt r$.
 
-So particular
+So in particular
 
 $$
   (\mu_{k,n-k})^\ast(c_n) \;=\; c_k \otimes c_{n-k}
@@ -486,7 +487,70 @@ $$
 
 e.g. ([Kochmann 96, corollary 2.3.4](#Kochmann96)) 
 
-**Proof idea** Use the monomorphism of lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective} to embed the situation into $H^\bullet(B U(1)^n)$, and then use the [[splitting principle]] of prop. \ref{SplittingPrincipleForChernClasses}.
++-- {: .proof}
+###### Proof
+
+Consider the [[commuting diagram]]
+
+$$
+  \array{
+    H^\bullet( B U(n) )
+      &\overset{\mu_{k,n-k}^\ast}{\longrightarrow}&
+    H^\bullet( B U(k) ) \otimes H^\bullet( B U(n-k) )
+    \\
+    {}^{\mathllap{\mu_k^\ast}}\downarrow
+      &&
+    \downarrow^{\mathrlap{ \mu_{k}^\ast \otimes \mu_{n-k}^\ast }}
+    \\
+    H^\bullet( B U(1)^n )
+     &\simeq&
+    H^\bullet( B U(1)^k ) \otimes H^\bullet( B U(1)^{n-k} )
+  }
+  \,.
+$$
+
+This says that for all $t$ then
+
+$$
+  \begin{aligned}
+    (\mu_k^\ast \otimes \mu_{n-k}^\ast) \mu_{k,n-k}^\ast(c_t)
+    & =
+    \mu^\ast_n(c_t)
+    \\
+    & = \sigma_t((c_1)_1, \cdots, (c_1)_n)
+  \end{aligned}
+  \,,
+$$
+
+where the last equation is by prop. \ref{SplittingPrincipleForChernClasses}. 
+
+Now the [[elementary symmetric polynomial]] on the right decomposes as required by the left hand side of this equation as follows:
+
+$$
+  \sigma_t((c_1)_1, \cdots, (c_1)_n)
+    \;=\; 
+  \underoverset{r = 0}{t}{\sum}
+  \sigma_r((c_1)_1, \cdots, (c_1)_{n-k})
+  \cdot
+  \sigma_{t-r}( (c_1)_{n-k+1}, \cdots, (c_1)_n )
+  \,,
+$$
+
+where we agree with $\sigma_q((c_1)_1, \cdots, (c_1)_p) = 0$ if $q \gt p$. It follows that
+
+$$
+  (\mu_k^\ast \otimes \mu_{n-k}^\ast) \mu_{k,n-k}^\ast(c_t)
+  = 
+  (\mu_k^\ast \otimes \mu_{n-k}^\ast)
+  \left(
+    \underoverset{r=0}{t}{\sum} c_r \otimes c_{t-r}
+  \right)
+  \,.
+$$
+
+Since $(\mu_k^\ast \otimes \mu_{n-k}^\ast)$ is a monomorphism by lemma \ref{FromBUnTOBU1nPullbackInCohomologyIsInjective}, this implies the claim.
+
+=--
 
 ## Related concepts 
 
