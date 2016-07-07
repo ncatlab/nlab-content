@@ -107,9 +107,10 @@ For $E$ a  [[homotopy commutative ring spectrum]] then there is a [[bijection]] 
 
 =--
 
-([Hopkins 99, section 4](#Hopkins99), [Lurie, lecture 6, theorem 8](#LurieLecture)) See at _[[universal complex orientation on MU]]_.
+([Hopkins 99, section 4](#Hopkins99), [Lurie, lecture 6, theorem 8](#LurieLecture)) 
 
-See also at _[[orientation in generalized cohomology]]_ the section _[universal orientation of vector bundles](orientation+in+generalized+cohomology#UniversalOrientationOfVectorBundles)_.
+See at _[[universal complex orientation on MU]]_.
+
 
 
 +-- {: .num_remark}
