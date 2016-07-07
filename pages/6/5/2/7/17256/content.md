@@ -145,6 +145,8 @@ Basic Examples:
 
 * [[generalized homology]]
 
+* [[Milnor exact sequence]]
+
 * [[Kronecker pairing]]
 
 * [[universal coefficient theorem]]
