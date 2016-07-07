@@ -8689,7 +8689,7 @@ $$
   }
 $$
 
-(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ induced by $f$ and $g$ on [[fibers]] (example \ref{FiberAndCofiberInPointedObjects})  to the same morphism, in the homotopy category.
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon (\mathcal{C}^{\ast/})_f \to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, cor \ref{HomotopyCategoryOfSubcategoriesOfModelCategoriesOnGoodObjects}) takes the morphisms $fib(p_1) \stackrel{\longrightarrow}{\longrightarrow} fib(p_2)$ induced by $f$ and $g$ on [[fibers]] (example \ref{FiberAndCofiberInPointedObjects})  to the same morphism, in the homotopy category.
 
 =--
 
@@ -8700,11 +8700,45 @@ $$
 
 First consider the pullback of $p_2$ along $u$: this forms the same kind of diagram but with the bottom morphism an identity. Hence it is sufficient to consider this special case.
 
-Let then $X\overset{s}{\to}Path(X_2)\overset{(p_0,p_1)}{\to} X_2\times X_2$ be a [[path space object]] for $X_2$, def. \ref{PathAndCylinderObjectsInAModelCategory} and consider the following commuting square
+Consider the [[full subcategory]] $(\mathcal{C}^{\ast/}_{/B})_f$ of the [[slice category]] $\mathcal{C}^{\ast/}_{/B}$ (def. \ref{SliceCategory}) on its fibrant objects, i.e. the full subcategory of the slice category on the fibrations 
 
 $$
   \array{
-    X'_1 &\overset{s f t}{\longrightarrow}& Path(X_2)
+    X
+    \\
+    \downarrow^{\mathrlap{p}}_{\mathrlap{\in Fib}}
+    \\
+    B
+  }
+$$
+
+into $B$. By factorizing for every such fibration the [[diagonal morphisms]] into the [[fiber product]] $X \underset{B}{\times} X$ through a weak equivalence followed by a fibration, we obtain path space objects $Path_B(X)$ relative to $B$: 
+
+$$
+  \array{
+   (\Delta_X)/B
+   \;\colon
+    &
+    X 
+      &\overset{\in W}{\longrightarrow}&
+    Path_B(X)
+      &\overset{\in Fib}{\longrightarrow}&
+    X \underset{B}{\times} X
+    \\
+    & & {}_{\mathllap{\in Fib}}\searrow & \downarrow & \swarrow_{\mathrlap{\in Fib}}
+    \\
+    & && B
+  }
+  \,.
+$$
+
+With these, the [[factorization lemma]] (lemma \ref{FactorizationLemma}) applies in $(\mathcal{C}^{\ast/}_{/B})_f$. 
+
+Let then $X\overset{s}{\to}Path_B(X_2)\overset{(p_0,p_1)}{\to} X_2 \times_B X_2$ be a [[path space object]] for $X_2$ in the slice over $B$ and consider the following commuting square
+
+$$
+  \array{
+    X'_1 &\overset{s f t}{\longrightarrow}& Path_B(X_2)
     \\
     {}^{\mathllap{t}}_{\mathllap{\in W}}\downarrow && \downarrow^{\mathrlap{(p_0,p_1)}}_{\mathrlap{\in Fib}}
     \\
@@ -8713,11 +8747,11 @@ $$
   \,.
 $$
 
-By factoring this through the pullback $(f,g)^\ast(p_0,p_1)$ and then applying the [[factorization lemma]] \ref{FactorizationLemma} this may be replaced by a commuting square like so:
+By factoring this through the pullback $(f,g)^\ast(p_0,p_1)$ and then applying the [[factorization lemma]] \ref{FactorizationLemma} and then [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) to the factoring morphisms, this may be replaced by a commuting square of the same form, where however the left morphism is an acyclic fibration
 
 $$
   \array{
-    X''_1 &\overset{s f t}{\longrightarrow}& Path(X_2)
+    X''_1 &\overset{}{\longrightarrow}& Path_B(X_2)
     \\
     {}^{\mathllap{t}}_{\mathllap{\in W\cap Fib}} \downarrow && \downarrow^{\mathrlap{(p_0,p_1)}}_{\mathrlap{\in Fib}}
     \\
@@ -8726,8 +8760,9 @@ $$
   \,.
 $$
 
-Notice that all objects here are equipped with compatible morphisms to $B$, so that this may be regarded as a commuting square in the [[slice category]] $\mathcal{C}_{/B}$, def. \ref{SliceCategory}.
-As such, this diagram exhibits that under [[localization]] $\gamma_B \;\colon\; \mathcal{C}_{/B} \longrightarrow Ho(\mathcal{C}_B)$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) in the [[slice model structure]] (prop. \ref{ModelStructureOnSliceCategory}) we have
+This makes also the morphism $X''_1 \to B$ be a fibration, so that the whole diagram may now be regarded as a diagram in the category of fibrant objects $(\mathcal{C}_{/B})_f$ of the [[slice category]] over $B$.
+
+As such, the top horizontal morphism now exhibits a [[right homotopy]] which under [[localization]] $\gamma_B \;\colon\; (\mathcal{C}_{/B})_f \longrightarrow Ho(\mathcal{C}_{/B})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) of the [[slice model structure]] (prop. \ref{ModelStructureOnSliceCategory}) we have
 
 $$
   \gamma_B(f) = \gamma_B(g)
@@ -9181,7 +9216,7 @@ then this is the operation of concatenating two loops parameterized by $I = [0,1
 +-- {: .num_prop #LoopingAsFunctorOnHomotopyCategory}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}_f$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes unique up to isomorphism in the [[homotopy category of a model category|homotopy category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}) and extends to a [[functor]]:
 
 $$
   \Omega 
