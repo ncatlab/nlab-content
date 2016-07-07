@@ -21,7 +21,7 @@
 
 A _function spectrum_ or _mapping spectrum_ is the analog of a [[mapping space]] in the context of [[stable homotopy theory]]. It makes the [[stable homotopy category]] into a [[closed category]], and together with the [[smash product of spectra]] into a [[symmetric monoidal category|smmyetric]] [[closed monoidal category]]
 
-Given two [[spectra]] $X$ and $E$, their _function spectrum_ $[X,E]$ is the [[internal hom]] in a suitable category of spectra.
+Given two [[spectra]] $X$ and $E$, their _function spectrum_ $F(X,E)$ is the [[internal hom]] in a suitable category of spectra.
 
 In the context of [[generalized (Eilenberg-Steenrod) cohomology]] the generalized $E$-cohomology of a [[topological space]] $X$ is given by the [[homotopy groups]] of the mapping spectrum $[\Sigma_\infty X, E]$.
 
