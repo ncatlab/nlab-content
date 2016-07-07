@@ -152,7 +152,7 @@ $$
   \underset{i,j \geq 0}{\sum} a_{i,j} x^i y^j
 $$
 
-(the image ]$ under $\mu$ in $R[ [ x,y ] ]$ of the element $t \in R [ [ t ] ]$) such that
+(the [[image]] under $\mu$ in $R[ [ x,y ] ]$ of the element $t \in R [ [ t ] ]$) such that
 
 
 1. (unitality) 
