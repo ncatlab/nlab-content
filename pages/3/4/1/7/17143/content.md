@@ -26,6 +26,7 @@ Hence $MU$ is the universal [[complex oriented cohomology theory]].
 
 (e.g [Lurie 10, lect. 6, theorem 8](#LurieLect6), [Ravenel, chapter 4, lemma 4.1.13](#Ravenel))
 
+
 ## Details
 
 
@@ -242,7 +243,7 @@ Often one just requires that $\phi(c_1^E)$ is _a_ [[unit]], i.e. an invertible e
 +-- {: .num_lemma #S2SpectrumMapFromComplexOrientation}
 ###### Lemma
 
-Let $E$ be a [[homotopy commutative ring spectrum]] equipped with a [[complex oriented cohomology theory|complex orientation]] (def. \ref{StrictComplexOrientation}) represented by a map
+Let $E$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) equipped with a [[complex oriented cohomology theory|complex orientation]] (def. \ref{StrictComplexOrientation}) represented by a map
 
 $$
   c_1^E
@@ -297,13 +298,15 @@ $$
 
 commute strictly (not just up to homotopy). 
 
-To begin with, the map
+To begin with, pick a map
 
 $$
-  f_0 \;\colon\; M U_0 \simeq \ast \longrightarrow E_0
+  f_0 \;\colon\; M U_0 \simeq S^0 \longrightarrow E_0
 $$
 
-is uniquely fixed. Assume then by [[induction]] that maps $f_{2k}$ have been found for $k \leq n$. Observe that we have a homotopy-commuting diagram of the form
+that represents $c_0 = 1$.
+
+Assume then by [[induction]] that maps $f_{2k}$ have been found for $k \leq n$. Observe that we have a homotopy-commuting diagram of the form
 
 $$
   \array{
@@ -339,7 +342,7 @@ Now since $M U$ is a [[CW-spectrum]], the total left vertical morphism here is a
 
 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #HRingSpectrumS2SpectrumMapFromComplexOrientation}
 ###### Lemma
 
 For $E$ a [[complex oriented cohomology theory|complex oriented]] [[homotopy commutative ring spectrum]], the morphism of spectra
@@ -348,7 +351,7 @@ $$
   c \;\colon\; M U \longrightarrow E
 $$
 
-that represents the complex orientation by lemma \ref{S2SpectrumMapFromComplexOrientation} is a [[homomorphism]] of [[homotop commutative ring spectra]].
+that represents the complex orientation by lemma \ref{S2SpectrumMapFromComplexOrientation} is a [[homomorphism]] of [[homotopy commutative ring spectra]].
 
 =--
 
@@ -361,7 +364,9 @@ The unitality condition demands that the diagram
 
 $$
   \array{
-    \mathbb{S} \overset{}{\longrightarrow} M U
+    \mathbb{S} 
+      &\overset{}{\longrightarrow}&
+    M U
     \\
     & \searrow & \downarrow^{\mathrlap{c}}
     \\
@@ -373,7 +378,9 @@ commutes in the [[stable homotopy category]] $Ho(Spectra)$. In components this m
 
 $$
   \array{
-    S^{2n} \overset{}{\longrightarrow} M U_{2n}
+    S^{2n} 
+      &\overset{}{\longrightarrow}&
+    M U_{2n}
     \\
     & \searrow & \downarrow^{\mathrlap{c_n}}
     \\
@@ -381,7 +388,7 @@ $$
   }
 $$
 
-commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. This is the statement of prop. \ref{ThomClassesCFClass}.
+commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes.
 
 The respect for the product demands that the square
 
@@ -401,7 +408,7 @@ $$
   }
 $$
 
-commutes in the [[stable homotopy category]] $Ho(Spectra)$. In order to rephrase this as a condition on ring spectra incarnated as [[functor with smash product]], regard this as happening in the [[homotopy category of a model category|homotopy category]] $Ho(OrthSpec(Top_{cg}))_{stable}$ of the [[model structure on orthogonal spectra]], which is [[equivalence of categories|equivalent]] to the [[stable homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)).
+commutes in the [[stable homotopy category]] $Ho(Spectra)$. In order to rephrase this as a condition on the components of the ring spectra, regard this as happening in the [[homotopy category of a model category|homotopy category]] $Ho(OrthSpec(Top_{cg}))_{stable}$ of the [[model structure on orthogonal spectra]], which is [[equivalence of categories|equivalent]] to the [[stable homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)).
 
 Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
 
@@ -419,15 +426,61 @@ $$
       &\underset{c_{n_1 + n_2}}{\longrightarrow}&
    E_{2 (n_1 + n_2)}
   }
-  \,.
+  \,,
 $$
+
+where on the left we have the standard pairing operations for $M U$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#OrthogonalComplexThomSpectrum)) and on the right we have the given pairing on $E$.
 
 That this indeed commutes up to homotopy is the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
 
 =--
 
++-- {: .num_theorem}
+###### Theorem
 
-Hence complex orientations map to morphisms $M U \to E$. Hence the map that takes $M U \to E$ to the complec orientation $M U(1) \to E_2$ is surjective. It remains to see that it is also injective. This follows by the [[splitting principle]] (...)
+Let $E$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)). Then the map
+
+$$
+  (M U \overset{\phi}{\longrightarrow} E)
+  \;\mapsto\;
+  (B U(1) \simeq M U_{2} \overset{c_1}{\longrightarrow} E_2)
+$$
+
+constitutes a bijection from homotopy classes of homomorphisms of homotopy commutative ring spectra to complex orientations (def. \ref{StrictComplexOrientation}) on $E$.
+
+=--
+
+([Lurie 10, lecture 6, theorem 8](#Lurie10))
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{S2SpectrumMapFromComplexOrientation} and lemma \ref{HRingSpectrumS2SpectrumMapFromComplexOrientation} the map is surjective, hence it only remains to show that it is injective.
+
+So let $c, c' \colon M U \to E$ be two morphisms of homotopy commutative ring spectra that have the same restriction, up to homotopy, to $c_1 \simeq c_1'\colon M U_2 \simeq B U(1)$. Since both are homotopy ring spectrum homomophisms, the restriction of their components $c_n, c'_n \colon M U_{2n} \to E_{2 n}$ to $B U(1)^{\wedge^n}$ is a product of $c_1 \simeq c'_1$, hence $c_n$ becomes homotopic to $c_n'$ after this restriction. But by the [[splitting principle]] this restriction is injective on cohomology classes, hence $c_n$ itself ist already homotopic to $c'_n$.
+
+It remains to see that these homotopies may be chosen compatibly such as to form a single homotopy of maps of spectra
+
+$$
+  f \;\colon\; M U \wedge I_+ \longrightarrow E 
+  \,,
+$$
+
+This follows due to the existence of a [[Milnor exact sequence]] of the form
+
+$$
+  \underset{\longleftarrow}{\lim}^1_n E^{-1}( \Sigma^{-2n} M U_{2n} )
+    \longrightarrow
+  E^0(M U) 
+    \longrightarrow 
+  \underset{\longleftarrow}{\lim}_n E^0( \Sigma^{-2n} M U_{2n} )
+  \,.
+$$
+
+
+
+=--
+
 
 ## Related concepts
 
