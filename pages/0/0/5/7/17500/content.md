@@ -5,6 +5,6 @@
 
 * _Complex oriented cohomology -- Orientation in generalized cohomology_, 2016 ([[PedrotticECohomology2016.pdf:file]])
 
-on [[complex oriented cohomology]] and the [[Thom isomorphism]] in generalized cohomology
+on [[complex oriented cohomology]], [[Conner-Floyd-Chern classes]] and the [[Thom isomorphism]] in generalized cohomology
 
 category: people
