@@ -26,14 +26,14 @@ and relations as follows
 
 1. $a_{i j} = a_{j i}$
 
-1. $a_{10} = a_{01} = 1$; $\forall i \neq 0: a_{i 0} = 0$
+1. $a_{10} = a_{01} = 1$; $\forall i \neq 1: a_{i 0} = 0$
 
 1. the obvious associativity relation
 
 the universal 1-dimensional [[formal group law]] is the formal power series
 
 $$
-  \ell(x,y) = \sum_{i,j} a_{i j} x^j y^j \in L[[x,y]]
+  \ell(x,y) = \sum_{i,j} a_{i j} x^i y^j \in L[[x,y]]
 $$
 
 in two variables with coefficients in the Lazard ring.
@@ -46,7 +46,7 @@ in two variables with coefficients in the Lazard ring.
 +-- {: .num_theorem}
 ###### Theorem
 
-For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique morphism $L \to S$ that sends $\ell$ to $g$.
+For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique ring [[homomorphism]] $L \to S$ that sends $\ell$ to $g$.
 
 =--
 
@@ -115,6 +115,8 @@ This construction could however break the left exactness condition. However, $E$
 * [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298.  ([Euclid](http://projecteuclid.org/euclid.bams/1183530915))
 
 * {#Adams74} [[John Adams]], part II.5 of _[[Stable homotopy and generalised homology]], University of Chicago Press, Chicago, Ill., 1974, Chicago Lectures in Mathematics.
+
+* {#Kochmann96} [[Stanley Kochmann]], section 4.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
