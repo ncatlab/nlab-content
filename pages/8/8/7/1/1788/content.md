@@ -1,50 +1,5 @@
 
-+-- {: .num_example}
-###### Example
 
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}). Then its self-$E$-homology (remark \ref{EMHomology})
-
-$$
-  E_\bullet(E) \coloneqq \pi_\bullet(E \wedge E)
-$$
-
-naturally inherits several algebraic structures:
-
-1. by example \ref{TensorProductOfTwoCommutativeMonoids}, $E \wedge E$ is itself canonically a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) and hence, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum}, $E_\bullet(E)$ is canonically a [[graded commutative ring]];
-
-1. in addition $E_\bullet(E)$ is canonically both a left as well as a right module over $\pi_\bullet(E)$, by prop. \ref{HomotopyGroupsOfHomotopyCommutativeRingSpectrum} (where both module structures are isomorphism (prop. \ref{EETwoLeftModuleStructures}, but not in general equal);
-
-1. moreover the unit $e$ of $E$ gives a morphism
-
-   $$
-     \pi_{\bullet}(id \wedge e \wedge id)
-     \;\colon\; 
-      E_\bullet(E) \longrightarrow \pi_{\bullet}(E \wedge E \wedge E)
-   $$
-
-   and if $E_\bullet(E)$ [[flat module|flat]] as a module over $\pi_\bullet(E)$, then by prop. \ref{EnHomology} this is equivalently a morphism of the form
-
-  $$
-    E_\bullet(E) \longrightarrow E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
-    \,;
-  $$
-
-1. finally the [[braiding]] of the derived [[smash product of spectra]] $\wedge$ induces an [[automorphism]]
-
-   $$
-     \pi_{\bullet}(\tau_{E,E})
-       \;\colon\;
-     E_\bullet(E)
-       \overset{\simeq}{\longrightarrow}
-     E_\bullet(E)
-     \,.
-   $$
-
-This structure, together with various compatibility conditions that it satisfies, is called a _[[graded commutative Hopf algebroid]] structure_. The pair $(E_\bullet(E), \pi_\bullet(E))$ equipped with this structure is called the **dual $E$-[[Steenrod algebra]]**. 
-
-=--
-
-We discuss this in more detail in [[Introduction to Stable homotopy theory -- 2|Part 2]] in the section _[The dual E-Steenrod algebra](Introduction+to+Stable+homotopy+theory+--+2#DualESteenrodAlgebra)_. Here we just record the following facts:
 
 +-- {: .num_prop #EETwoLeftModuleStructures}
 ###### Proposition
