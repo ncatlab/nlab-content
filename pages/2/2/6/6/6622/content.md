@@ -30,7 +30,7 @@ $\square$ notation.
 
 ## Introduction and statement ##
 
-Let $\langle B, \otimes_B, \alpha^{(B)}, e_B, \lambda^{(B)}, \varrho^{(B)}, \rangle$ be some [[monoidal category]].  At first, we would like the _[[coherence theorem for monoidal categories]]_ to state that
+Let $\langle B, \otimes_B, \alpha^{(B)}, e_B, \lambda^{(B)}, \varrho^{(B)}, \rangle$ be some [[monoidal category]].  At first, we might like the _[[coherence theorem for monoidal categories]]_ to state that
 _every_ [[diagram]] in $B$ built up from instances of $\alpha$,
 $\lambda^{(B)}$, $\varrho^{(B)}$ and identity arrows by multiplications
 $\otimes_B$ (such as the pentagon diagram) commutes. This, however, is not possible, because some formally different vertices of such a diagram
