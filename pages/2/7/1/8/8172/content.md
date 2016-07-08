@@ -1188,7 +1188,7 @@ $$
   (E_\bullet(E), \pi_\bullet(E))
 $$
 
-([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)) equipped with the following structure
+([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)) equipped with the following structure:
 
 1. the [[graded commutative ring]] structure
 
@@ -1206,7 +1206,7 @@ $$
      E_\bullet(E) \otimes E_\bullet(E) \longrightarrow E_\bullet(E)
    $$
 
-   induced from the fact that with $E$ also $E \wedge E$ is canonically a [[homotopy commutative ring spectrum]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids)), so that also $E_\bullet(E) = \pi_\bullet(E \wedge E)$ is a graded commutative ring ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum))
+   induced from the fact that with $E$ also $E \wedge E$ is canonically a [[homotopy commutative ring spectrum]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids)), so that also $E_\bullet(E) = \pi_\bullet(E \wedge E)$ is a graded commutative ring ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
 
 1. [[homomorphisms]] of graded commutative rings
 
@@ -1263,7 +1263,7 @@ $$
      \mu \;\colon\;  E \wedge E \longrightarrow E
    $$
 
-   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids))
+   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
 
 1. a homomorphisms graded rings
 
@@ -1285,11 +1285,13 @@ $$
      E \wedge E
    $$
 
-   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids))
+   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
 
 1. a homomorphism of graded rings
 
-   $$
+   $$ 
+     \Psi
+       \;\colon\;
      E_\bullet(E)
        \longrightarrow
      E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
@@ -1303,10 +1305,11 @@ $$
      E \wedge E \wedge E
    $$
 
-   under prop. \ref{EnHomology};
+   under prop. \ref{EnHomology}.
+
 =--
 
-([Adams 69, lecture 3, pages 60-66](#Adams69))
+([Adams 69, lecture 3, pages 66-68](#Adams69))
 
 Notice that (as verified by direct unwinding of the definitions):
 
@@ -1428,7 +1431,7 @@ Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod a
 
 
 
-The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. In order to organize this in a transparent way, we consider the concept of _[[commutative Hopf algebroids]]_.
+The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. In concept organizing this is that of_[[commutative Hopf algebroids]]_.
 
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
@@ -1514,7 +1517,6 @@ and satisfying [[formal duality|formally dual]] conditions, spelled out as def. 
 * $c$ is called the _[[antipode]]_ or _conjugation_
 
 
-
 =--
 
 +-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
@@ -1571,13 +1573,93 @@ such that
 
    1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
 
-   1. the universally induced $\nabla_c \colon \Gamma \otimes_A \Gamma \longrightarrow \Gamma$ satifies
+   1. the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
 
-      $\nabla_c \circ \Psi = \eta_L \circ \epsilon = \eta_R \circ \epsilon$.
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{(-)\cdot c(-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\alpha}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      and
+
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{c(-)\cdot (-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\beta}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      satisfy 
+
+      $\alpha \circ \Psi = \eta_L \circ \epsilon $
+
+      and
+
+      $\beta \circ \Psi = \eta_R \circ \epsilon $.
    
 =--
 
-##### Comodules and cotensor product
+([Adams 69, lecture 3, pages 62-66](#Adams69), [Ravenel 86, def. A1.1.1](#Ravenel86))
+
+It is now striaghtforward, if somewhat tedious, to check that:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
+structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid accoring to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+
+=--
+
+([Adams 69, lecture 3, pages 67-71](#Adams69))
+
+
++-- {: .num_remark}
+###### Remark
+
+In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. Accoring to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
+
+=--
+
+
+##### Comodules over the $E$-Steenrod algebra
+
 
 +-- {: .num_defn #HopfComoduleRing}
 ###### Definition
@@ -1836,7 +1918,7 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 
 
-##### The first page via homs of Hopf comodules
+##### Universal coefficient theorem
 
 
 The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra.
@@ -2376,7 +2458,7 @@ $$
 
 ([Ravenel 84, example 1.16](#Ravenel84)
 
-+-- {: .num_defn #SheavesOnCartSp}
++-- {: .num_defn }
 ###### Definition
 
 In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
@@ -2497,6 +2579,16 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
+
+
+
+
+
+
+
+
 
 
 #### Examples
