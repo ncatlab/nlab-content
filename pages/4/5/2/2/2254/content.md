@@ -141,7 +141,7 @@ $$
 $$
 
 
-+-- {: .num_example}
++-- {: .num_example #Commutative1DimFormalGroupLaw}
 ###### Example
 
 A 1-dimensional commutative formal group law according to def. \ref{GroupObjectFormalGroupLaw} is equivalently a [[formal power series]]
