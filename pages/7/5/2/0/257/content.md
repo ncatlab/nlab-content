@@ -180,7 +180,7 @@ $$
   }
 $$
 
-be a [[commuting diagram]] with $w \in W$ a weak equivalence. We need to show that the also $f \in W$.
+be a [[commuting diagram]] with $w \in W$ a weak equivalence. We need to show that then also $f \in W$.
 
 First consider the case that $f \in Fib$. 
 
