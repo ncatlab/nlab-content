@@ -23,9 +23,11 @@ For $E_1, E_2 \to X$ two [[vector bundles]], their [[direct sum]] over $X$, also
 
 ## Related concepts
 
+* [[tensor product of vector bundles]]
+
 * [[Stiefel-Whitney class]]
 
-* [[virtual vector bundle]]
+* [[virtual vector bundle]], [[topological K-theory]]
 
 * [[framed manifold]], [[Thom spectrum]]
 
