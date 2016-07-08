@@ -3330,7 +3330,9 @@ Then the [[Bousfield localization of model categories|Bousfield localization]] m
 The existence of [[limits]] and [[colimits]] is guaranteed since $\mathcal{C}$ is already assumed to be a model category.
 The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate consequence of two-out-of-three for the original weak equivalences of $\mathcal{C}$. Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
 
-Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. Hence we may conclude by showing the existence of factorizations into $Q$-acyclic cofibrations followed by $Q$-fibrations:
+Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The condition $Fib_Q = RLP(W_Q \cap Cof_Q)$ holds by definition of $Fib_Q$. Once we show that every morphism factors as $W_Q \cap Cof_Q$ followed by $Fib_Q$, then the condition $W_Q \cap Cof_Q = LLP(Fib_Q)$ follows from the [[retract argument]] ([lemma](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) and the fact that the classes $W_Q$ and $Cof_Q$ are closed under retracts, because $W$ and $Cof = Cof_Q$ are (by [this prop.](Introduction+to+Stable+homotopy+theory+--+P#WeakEquivalencesAreClosedUnderRetracts) and [this prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms), respectively).
+
+So we may conclude by showing the existence of $(W_Q \cap Cof_Q, \; Fib_Q)$ factorizations:
 
 
 First we consider the case of morphisms of the form $f \colon Q(Y) \to Q(Y)$. These may be factored with respect to $\mathcal{C}$ as
