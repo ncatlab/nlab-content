@@ -313,7 +313,9 @@ The [[two-out-of-three]] poperty for $Q$-weak equivalences is an immediate conse
 
 Moreover, according to lemma \ref{FirstLemmaForBousfieldFriedlander} the pair of classes $(Cof_{Q}, W_Q \cap Fib_Q)$ equals the pair $(Cof, W \cap Fib)$, and this is a [[weak factorization system]] by the model structure $\mathcal{C}$.
 
-Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The lifting property here holds by definition of $Fib_Q$. We conclude by showing the existence of factorizations:
+Hence it remains to show that $(W_Q \cap Cof_Q, \; Fib_Q)$ is a [[weak factorization system]]. The condition $Fib_Q = RLP(W_Q \cap Cof_Q)$ holds by definition of $Fib_Q$. Once we show that every morphism factors as $W_Q \cap Cof_Q$ followed by $Fib_Q$, then the condition $W_Q \cap Cof_Q = LLP(Fib_Q)$ follows from the [[retract argument]] (and the fact that $W_Q$ and $Cof_Q$ are stable under retracts, because $W$ and $Cof = Cof_Q$ are). 
+
+So we may conclude by showing the existence of $(W_Q \cap Cof_Q, \; Fib_Q)$ factorizations:
 
 First we consider the case of a morphism of the form $f \colon Q(Y) \to Q(Y)$. This may be factored with respect to $\mathcal{C}$ as
 
