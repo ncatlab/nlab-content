@@ -2143,8 +2143,10 @@ One says:
  
 =--
 
+The form of def. \ref{ModelCategory} is due to ([Joyal, def. E.1.2](#Joyal)). It implies various other conditions that ([Quillen 67](#Quillen67)) demands explicitly, see prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms} and prop. \ref{WeakEquivalencesAreClosedUnderRetracts} below.
 
-We now dicuss what this means.
+We now dicuss the concept of [[weak factorization systems]] appearing in def. \ref{ModelCategory}.
+
 
 
 #### Factorization systems
@@ -2726,8 +2728,127 @@ $$
   \,.
 $$
 
+=--
+
+More generally:
+
+
++-- {: .num_prop #WeakEquivalencesAreClosedUnderRetracts}
+###### Proposition
+
+Given a [[model category]] in the sense of def. \ref{ModelCategory}, then its class of weak equivalences is closed under forming [[retracts]] (in the [[arrow category]], see remark \ref{RetractsOfMorphisms}).
 
 =--
+
+([Joyal, prop. E.1.3](#Joyal))
+
+
++-- {: .proof}
+###### Proof
+
+Let
+
+$$
+  \array{
+    id \colon & A &\longrightarrow& X &\longrightarrow& A
+    \\
+    & 
+    {}^{\mathllap{f}}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{w}}
+      &&
+    \downarrow^{\mathrlap{f}}
+    \\
+    id \colon & B &\longrightarrow& Y &\longrightarrow& B
+  }
+$$
+
+be a [[commuting diagram]] in the given model category, with $w \in W$ a weak equivalence. We need to show that then also $f \in W$.
+
+First consider the case that $f \in Fib$. 
+
+In this case, factor $w$ as a cofibration followed by an acyclic fibration. Since $w \in W$ and by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) this is even a factorization through an acyclic cofibration followed by an acyclic fibration. Hence we obtain a commuting diagram of the following form:
+
+$$
+  \array{
+    id \colon 
+    & 
+    A 
+      &\longrightarrow& 
+    X 
+      &\overset{\phantom{AAAA}}{\longrightarrow}& A
+    \\
+    & 
+    {}^{\mathllap{id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\in W \cap Cof}}
+      &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    id \colon
+    & A' &\overset{s}{\longrightarrow}& 
+     X' 
+     &\overset{\phantom{AA}t\phantom{AA}}{\longrightarrow}& A'
+    \\
+    &
+    {}^{\mathllap{f}}_{\mathllap{\in Fib}}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\in W \cap Fib}}
+      &&
+    \downarrow^{\mathrlap{f}}_{\mathrlap{\in Fib}}
+    \\
+    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
+  }
+  \,,
+$$
+
+where $s$ is uniquely defined and where $t$ is any lift of the top middle vertical acyclic cofibration against $f$. This now exhibits $f$ as a retract of an acyclic fibration. These are closed under retract by prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}.
+
+Now consider the general case. Factor $f$ as an acyclic cofibration followed by a fibration and form the [[pushout]] in the top left square of the following diagram
+
+$$
+  \array{
+    id \colon 
+    & 
+    A 
+      &\longrightarrow& 
+    X 
+      &\overset{\phantom{AAAA}}{\longrightarrow}& A
+    \\
+    & 
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+      &(po)&
+    \downarrow^{\mathrlap{\in W \cap Cof}}
+      &&
+    \downarrow^{\mathrlap{\in W \cap Cof}}
+    \\
+    id \colon
+    & A' &\overset{}{\longrightarrow}& 
+     X' 
+     &\overset{\phantom{AA}\phantom{AA}}{\longrightarrow}& A'
+    \\
+    &
+    {}^{\mathllap{\in Fib}}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\in W }}
+      &&
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
+  }
+  \,,
+$$
+
+where the other three squares are induced by the [[universal property]] of the pushout, as is the identification of the middle horizontal composite as the identity on $A'$. Since acyclic cofibrations are closed under forming pushouts by prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}, the top middle vertical morphism is now an acyclic fibration, and hence by assumption and by [[two-out-of-three]] so is the middle bottom vertical morphism.
+
+Thus the previous case now gives that the bottom left vertical morphism is a weak equivalence, and hence the total left vertical composite is.
+
+
+=--
+
 
 
 +-- {: .num_lemma #RetractArgument}
@@ -10197,6 +10318,10 @@ A concise and yet self-contained re-write of the proof ([Quillen 67](#Quillen67)
 For general [[model category]] theory a decent review is in
 
 * {#DwyerSpalinski95} [[William Dwyer]], J. Spalinski, _[[Homotopy theories and model categories]]_ ([pdf](http://folk.uio.no/paularne/SUPh05/DS.pdf)) in [[Ioan Mackenzie James]] (ed.), _[[Handbook of Algebraic Topology]]_ 1995
+
+The equivalent definition of model categories that we use here is due to
+
+* {#Joyal} [[André Joyal]], appendix E of _The theory of quasi-categories and its applications_ ([pdf](http://www.crm.cat/HigherCategories/hc2.pdf))
 
 The two originals are still a good source to turn to:
 
