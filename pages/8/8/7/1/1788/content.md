@@ -1,16 +1,34 @@
 $$
   \array{
-    H^\bullet( B U(n) )
-      &\overset{\mu_{k,n-k}^\ast}{\longrightarrow}&
-    H^\bullet( B U(k) ) \otimes H^\bullet( B U(n-k) )
+    id \colon 
+    & 
+    A 
+      &\longrightarrow& 
+    X 
+      &\overset{\phantom{AAAA}}{\longrightarrow}& A
     \\
-    {}^{\mathllap{\mu_k^\ast}}\downarrow
+    & 
+    {}^{\mathllap{\in W \cap Cof}}\downarrow
+      &(po)&
+    \downarrow^{\mathrlap{\in W \cap Cof}}
       &&
-    \downarrow^{\mathrlap{ \mu_{k}^\ast \otimes \mu_{n-k}^\ast }}
+    \downarrow^{\mathrlap{\in W \cap Cof}}
     \\
-    H^\bullet( B U(1)^n )
-     &\simeq&
-    H^\bullet( B U(1)^k ) \otimes H^\bullet( B U(1)^{n-k} )
+    id \colon
+    & A' &\overset{}{\longrightarrow}& 
+     X' 
+     &\overset{\phantom{AA}\phantom{AA}}{\longrightarrow}& A'
+    \\
+    &
+    {}^{\mathllap{\in Fib}}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\in W }}
+      &&
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    id \colon & B &\longrightarrow& Y &\underset{\phantom{AAAA}}{\longrightarrow}& B
   }
-  \,.
+  \,,
 $$
+
