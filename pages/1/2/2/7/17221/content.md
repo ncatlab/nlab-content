@@ -208,6 +208,8 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[universal complex orientation on MU]]
 
+* [[Lazard ring]]
+
 * [[Lazard's theorem]]
 
 * [[Quillen's theorem on MU]]
