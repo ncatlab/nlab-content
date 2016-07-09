@@ -18,7 +18,7 @@
 
 ### Traditional
 
-Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left $G$-[[action]] on some $F$, all in a sufficiently strong category $C$ (such as [[Top]]), one can form the [[quotient object]] $P\times_G F = (P\times F)/{\sim}$, where $P \times F$ is a [[product]] and $\sim$ is the smallest [[congruence]] such that (using [[generalized element]]s) $(p g,f)\sim (p,g f)$; there is a canonical projection $P\times_G F\to X$ where the class of $(p,f)$ is mapped to $\pi(p)\in X$, hence making $P\times_G F\to X$ into a fibre bundle with typical fiber $F$, and the transition functions belonging to the action of $G$ on $F$. We say that  $P\times_G F\to X$ is the __associated bundle__ to $P\to X$ with fiber $F$. 
+Given a right [[principal bundle|principal]] $G$-bundle $\pi: P\to X$ and a left $G$-[[action]] on some $F$, all in a sufficiently strong category $C$ (such as [[Top]]), one can form the [[quotient object]] $P \times_G F = (P\times F)/{\sim}$, where $P \times F$ is a [[product]] and $\sim$ is the smallest [[congruence]] such that (using [[generalized element]]s) $(p g,f)\sim (p,g f)$; there is a canonical projection $P\times_G F\to X$ where the class of $(p,f)$ is mapped to $\pi(p)\in X$, hence making $P\times_G F\to X$ into a fibre bundle with typical fiber $F$, and the transition functions belonging to the action of $G$ on $F$. We say that  $P\times_G F\to X$ is the __associated bundle__ to $P\to X$ with fiber $F$. 
 
 ### In geometric homotopy theory
  {#InGeometricHomotopyTheory}
