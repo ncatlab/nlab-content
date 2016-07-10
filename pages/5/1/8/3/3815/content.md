@@ -85,7 +85,7 @@ A general concept of $(\infty,1)$-Kan extensions in terms of quasi-categories ar
 
 For [[simplicially enriched categories]] and [[model categories]] a discussion is in section A.3.3 there.
 
-Coinciding left/righ ([[ambidextrous adjunction|ambidextrous]]) $\infty$-Kan extensions along maps of [[∞-groupoids]] are discussed in 
+Coinciding left/right ([[ambidextrous adjunction|ambidextrous]]) $\infty$-Kan extensions along maps of [[∞-groupoids]] are discussed in 
 
 * {#HopkinsLurie14} [[Michael Hopkins]], [[Jacob Lurie]], section 4 of _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
