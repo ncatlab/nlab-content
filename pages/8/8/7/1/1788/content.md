@@ -1,23 +1,2 @@
- $$
-   \array{
-     \Gamma \otimes A \otimes \Gamma
-         &
-          \underoverset
-             {\longrightarrow}
-              {\longrightarrow}
-              {}
-            &
-          \Gamma \otimes \Gamma
-             &
-             \overset{coeq}{\longrightarrow}
-             &
-          \Gamma \otimes_A \Gamma
-           \\
-           &&
-           {}^{\mathllap{(-)\cdot c(-)}}\downarrow 
-           & 
-            \searrow_{\mathrlap{\alpha}}
-           \\
-           && \Gamma
-        }
-      $$
+First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then (by [this example](Introduction+to+Stable+homotopy+theory+--+1-2#SuspendedSphereSpectrumHomology), using the [[tensor triangulated category|tensor triangulated]] stucture on the [[stable homotopy category]] ([prop.] (Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)))
+
