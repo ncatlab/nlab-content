@@ -1272,7 +1272,7 @@ This shows the claim inductively for all finite CW-spectra. For the general stat
 
 =--
 
-Using prop. \ref{EnHomology}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
+Using prop. \ref{EnHomology}, we find below (theoren \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
 
 
 ##### The $E$-Steenrod algebra
@@ -1310,7 +1310,28 @@ $$
 
    induced from the fact that with $E$ also $E \wedge E$ is canonically a [[homotopy commutative ring spectrum]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids)), so that also $E_\bullet(E) = \pi_\bullet(E \wedge E)$ is a graded commutative ring ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
 
-1. [[homomorphisms]] of graded commutative rings
+1. the [[homomorphism]] of [[graded commutative rings]]
+
+   $$ 
+     \Psi
+       \;\colon\;
+     E_\bullet(E)
+       \longrightarrow
+     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+   $$
+
+   induced under $\pi_\bullet(-)$ from
+
+   $$
+     E \wedge E 
+       \overset{id \wedge e \wedge id}{\longrightarrow}
+     E \wedge E \wedge E
+   $$
+
+   via prop. \ref{EnHomology};
+
+
+1. the [[homomorphisms]] of graded commutative rings
 
    $$
      \eta_L 
@@ -1330,10 +1351,10 @@ $$
      E_\bullet(E)
    $$
 
-   induced from the homomorphisms of commutative ring spectra
+   induced under $\pi_\bullet(-)$ from the homomorphisms of commutative ring spectra
 
    $$
-     E \simeq E \wedge \mathbb{S} 
+     E \underoverset{\simeq}{r_{E}^{-1}}{\to} E \wedge \mathbb{S} 
        \overset{id \wedge e}{\longrightarrow}
      E \wedge E
    $$
@@ -1341,7 +1362,7 @@ $$
    and
 
    $$
-     E \simeq \mathbb{S} \wedge E
+     E \underoverset{\simeq}{\ell_E^{-1}}{\to} \mathbb{S} \wedge E
        \overset{id \wedge e}{\longrightarrow}
      E \wedge E
      \,,
@@ -1349,7 +1370,7 @@ $$
 
    respectively ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
 
-1. a homomorphism of graded commutative rings
+1. the homomorphism of graded commutative rings
 
    $$
      \epsilon 
@@ -1359,7 +1380,7 @@ $$
      \pi_\bullet(E)
    $$
 
-   induced from 
+   induced under $\pi_\bullet(-)$ from 
 
    $$
      \mu \;\colon\;  E \wedge E \longrightarrow E
@@ -1367,7 +1388,7 @@ $$
 
    regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
 
-1. a homomorphisms graded rings
+1. the homomorphisms graded commutative rings
 
    $$
      c 
@@ -1377,7 +1398,7 @@ $$
      E_\bullet(E)
    $$
 
-   induced from the [[braiding]]
+   induced under $\pi_\bullet(-)$ from the [[braiding]]
 
    $$
      \tau_{E,E} 
@@ -1387,27 +1408,8 @@ $$
      E \wedge E
    $$
 
-   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
+   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids)).
 
-1. a homomorphism of graded rings
-
-   $$ 
-     \Psi
-       \;\colon\;
-     E_\bullet(E)
-       \longrightarrow
-     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
-   $$
-
-   induced from
-
-   $$
-     E \wedge E 
-       \overset{id \wedge e \wedge id}{\longrightarrow}
-     E \wedge E \wedge E
-   $$
-
-   under prop. \ref{EnHomology}.
 
 =--
 
@@ -1745,7 +1747,13 @@ It is now striaghtforward, if somewhat tedious, to check that:
 ###### Proposition
 
 Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
-structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid according to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid according to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}:
+
+$$
+  (E_\bullet(E), \pi_\bullet(E))
+  \;\in\;
+  CommHopfAlgd
+$$
 
 =--
 
@@ -1762,6 +1770,37 @@ In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf alge
 
 ##### Comodules over the $E$-Steenrod algebra
 
++-- {: .num_defn #SteenrodComoduleStructureOnSpectrum}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}. 
+
+For $X \in Ho(Spectra)$ any spectrum, say that the **comodule structure** on $E_\bullet(X)$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology))) **over the dual $E$-Steenrod algebra** (def. \ref{HopfAlgebroidStructureOnDualEOperations})  is
+
+1. the canonical structure of a $\pi_\bullet(E)$-[[module]] (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
+
+1. the homomorphism of $\pi_\bullet(E)$-modules
+
+   $$
+     \Psi_{E_\bullet(X)}
+       \;\colon\;
+     E_\bullet(X)
+       \longrightarrow
+     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+   $$ 
+
+   induced under $\pi_\bullet(-)$ and via prop. \ref{EnHomology} from the morphism of spectra 
+
+   $$
+     E \wedge X
+      \simeq
+     E \wedge \mathbb{S} \wedge E
+       \overset{id \wedge e \wedge id}{\longrightarrow}
+     E \wedge E \wedge X
+     \,.
+   $$
+
+=--
 
 +-- {: .num_defn #HopfComoduleRing}
 ###### Definition
@@ -1794,7 +1833,25 @@ such that
 
    $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
-A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. We write
+A [[homomorphism]] between comodules $f \colon N_1 \to N_2$ is a homomorphism of underlying $A$-modules such that the following [[commuting diagram|diagram commutes]] 
+
+$$
+  \array{
+    N_1 &\overset{f}{\longrightarrow}& N_1
+    \\
+    {}^{\mathllap{\Psi_{N_1}}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \\
+    \Gamma \otimes_A N_1
+      &\underset{}{\longrightarrow}&
+    \Gamma \otimes_A N_2
+  }
+  \,.
+$$
+
+We write
+
 
 $$
   \Gamma CoMod
@@ -1815,6 +1872,14 @@ $$
   Hom^\bullet_\Gamma(-,-)
   \,.
 $$
+
+=--
+
++-- {: .num_prop #IndeedComoduleStructureOnEX}
+###### Proposition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, and for $X \in Ho(Spectra)$ any spectrum, then the morphism $\Psi_{E_\bullet(X)}$ from def. \ref{SteenrodComoduleStructureOnSpectrum} makes $E_\bullet(X)$ into a [[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] (def. \ref{HopfAlgebroidStructureOnDualEOperations}).
+
 
 =--
 
@@ -1871,6 +1936,7 @@ The co-free $\Gamma$-[[comodule]] on an $A$-module $N$ is $\Gamma \otimes_A N$ e
 
 =--
 
+The **proof** is [[formal dual|formally dual]] to the proof that shows that constructing [[free modules]] is [[left adjoint]] to the [[forgetful functor]] from a [[category of modules]] to the underlying [[monoidal category]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself))
 
 +-- {: .num_prop #LeftComodulesToRightComodules}
 ###### Proposition
@@ -2025,31 +2091,98 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra.
 
-+-- {: .num_example #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
-###### Example
++-- {: .num_lemma #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
+###### Lemma
 
-For $X,N$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups]]) given by [[smash product of spectra|smash product]] with $E$
-
-$$
-  \pi_\bullet(E \wedge -)
-    \;\colon\;
-  [X,N]_\bullet
-    \longrightarrow
-  Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(N))
-$$
-
-factors through $E_\bullet(E)$-[[comodule]] [[homomorphisms]] over the dual $E$-[[Steenrod algebra]]:
+For $X,Y \in Ho(Spectra)$ any two [[spectra]], the morphism (of $\mathbb{Z}$-[[graded abelian groups|graded abelian]]) [[generalized homology|generalized]] [[homology]] given by [[smash product of spectra|smash product]] with $E$ ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)))
 
 $$
   \pi_\bullet(E \wedge -)
     \;\colon\;
-  [X,N]_\bullet
+  [X,Y]_\bullet
     \longrightarrow
-  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(N))
+  Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
+$$
+
+$$
+  (X \overset{f}{\longrightarrow} Y)
+    \;\mapsto\;
+  E_\bullet(X) 
+    \overset{f_\ast}{\longrightarrow}
+  E_\bullet(Y)
+$$
+
+factors through the [[forgetful functor]] from $E_\bullet(E)$-[[comodule]] [[homomorphisms]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] (def. \ref{HopfAlgebroidStructureOnDualEOperations}):
+
+$$
+  \array{
+    &&  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(N))
+    \\
+      & {}^{\mathllap{\exists}}\nearrow & \downarrow^{\mathrlap{forget}}
+    \\
+    [X,N]_\bullet
+      &\underset{\pi_\bullet(E \wedge -)}{\longrightarrow}&
+    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(N))
+  \,,
+$$
+
+where $E_\bullet(X)$ and $E_\bullet(Y)$ are regarded as $E$-Steenrod comodules according to def. \ref{CommutativeHopfAlgebroidComodule}, prop. \ref{IndeedComoduleStructureOnEX}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{CommutativeHopfAlgebroidComodule} we need to show that for $X \overset{f}{\longrightarrow} Y$ a morphism in $Ho(Spectra)$ then the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    E_\bullet(X)
+      &\overset{f_\ast}{\longrightarrow}&
+    E_\bullet(Y)
+    \\
+    {}^{\mathllap{\Psi_{E_\bullet(X)}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Psi_{E_\bullet(Y)}}}
+    \\
+    E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
+      &\underset{id \otimes_{\pi_\bullet(E)} f_\ast }{\longrightarrow}&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y)
+  }
   \,.
 $$
 
+By def. \ref{CommutativeHopfAlgebroidComodule} and prop. \ref{IndeedComoduleStructureOnEX} this is the image under foming [[stable homotopy groups]] $\pi_\bullet(-)$ of the following diagram in $Ho(Spectra)$:
+
+$$
+  \array{
+    E \wedge X
+      &\overset{id \wedge f}{\longrightarrow}&
+    E \wedge Y
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    E \wedge \mathbb{S} \wedge X
+      &&
+    E \wedge \mathbb{S} \wedge Y
+    \\
+    {}^{\mathllap{id \wedge e \wedge id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \wedge e \wedge id}}
+    \\
+    E \wedge E \wedge X
+      &\underset{id \wedge id \wedge f}{\longrightarrow}&
+    E \wedge E \wedge Y
+  }
+  \,.
+$$
+
+But that this diagram commutes is simply the [[fucntor|functoriality]] of the derived [[smash product of spectra]].
+
 =--
+
 
 In order to put all this together, we need to invoke a [[universal coefficient theorem]] in the following form.
 
@@ -2082,7 +2215,7 @@ With this we finally get the following statement, which serves to identify maps 
 +-- {: .num_prop #ComoduleHomForENCohomology}
 ###### Proposition
 
-If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from example \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
+If the assumption of prop. \ref{AdamsUCT} hold, then for $X,N$ any two [[spectra]], the morphism of $\mathbb{Z}$-[[graded abelian groups]] from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} of the form
 
 $$
  \pi_\bullet(E\wedge (-))
@@ -2177,7 +2310,7 @@ This is prop. \ref{ComoduleHomForENCohomology} applied to def. \ref{AdamsEAdamsS
 
 =--
 
-In order to interpret prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, notice that it gives the comodule homs into a resolution of $E_\bullet(Y)$
+In order to interpret theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, notice that it gives the comodule homs into a resolution of $E_\bullet(Y)$
 
 +-- {: .num_lemma #ResolutionEWp}
 ###### Lemma
@@ -2343,11 +2476,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The first page is given by prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+The first page is given by theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
 
 1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
 
-1. the graded chain complex of prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
+1. the graded chain complex of theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
 
 We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
 
