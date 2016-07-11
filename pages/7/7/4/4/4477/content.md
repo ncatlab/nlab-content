@@ -15,26 +15,103 @@
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #ProjectiveModule}
 ###### Definition
 
-For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the [[category]] $R$[[Mod]].
+For $R$ a [[ring]], a _projective $R$-module_ is a [[projective object]] in the [[category]] $R$[[Mod]]. 
+
+Hence an $R$-module $N$ is _projective_ precisely if for all [[diagrams]] of $R$-[[module]] [[homomorphisms]] of the form
+
+$$
+  \array{
+    && A
+    \\
+    & & \downarrow^{\mathrlap{epi}}
+    \\
+    N &\underset{f}{\longrightarrow}& B
+  }
+$$
+
+there exists a morphism $N \overset{\phi}{\to} A$ making a [[commuting diagram]] of the form
+
+$$
+  \array{
+    && A
+    \\
+    & {}^{\mathllap{\phi}}\nearrow & \downarrow^{\mathrlap{epi}}
+    \\
+    N &\underset{f}{\longrightarrow}& B
+  }
+  \,.
+$$
+
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #NProjectiveIFFHomNExact}
 ###### Proposition
 
-A module $N$ is projective precisely if the [[hom functor]] 
+An $R$-module $N$ is projective (def. \ref{ProjectiveModule}) precisely if the [[hom functor]] 
 
 $$
   Hom_{R Mod}(N, - ) : R Mod \to Ab
 $$
 
-out of it is an [[exact functor]]. 
+(out of $N$) is an [[exact functor]]. 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The hom-functor in question is a [[left exact functor]] for all $N$, hence we need to show that it is a [[right exact functor]] precisely if $N$ is projective.
+
+That $Hom_R(N,-)$ is right exact means equivalently that for
+
+$$
+  0 
+    \to 
+  A 
+    \overset{i}{\longrightarrow} 
+  B 
+    \overset{p}{\longrightarrow}
+  C 
+    \to 
+  0
+  \,,
+$$
+
+any [[short exact sequence]],
+hence for $p$ any [[epimorphism]] and $i$ its [[kernel]] inclusion,  then $Hom_R(N,p)$ is an epimorphism, hence that for any element $f \in Hom_R(N,C)$, 
+
+$$
+  \array{
+    && B
+    \\
+    && \downarrow^{\mathrlap{p}}
+    \\
+    N &\underset{f}{\longrightarrow}& C
+  }
+$$
+
+there exists $\phi \colon N \to B$ such that $f =  Hom_R(N,p)(\phi) \coloneqq p \circ \phi$, hence that 
+
+
+$$
+  \array{
+    && B
+    \\
+    &{}^{\mathllap{\phi}}\nearrow& \downarrow^{\mathrlap{p}}
+    \\
+    N &\underset{f}{\longrightarrow}& C
+  }
+  \,.
+$$
+
+This is manifestly the condition that $N$ is projective.
+
+
+=--
 
 
 ## Properties
