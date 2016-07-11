@@ -100,9 +100,9 @@ It is enough to show that $Set^T$ has coequalizers. Suppose given a pair of alge
 $$R = \langle f, g \rangle: A \to B \times B$$ 
 and then let $E$ be the smallest $T$-congruence (equivalence relation that is a $T$-subalgebra map $E \hookrightarrow B \times B$) through which $R$ factors. (This is the intersection of all $T$-congruences through which $R$ factors, and may be calculated in $Set$, where it is reflected in $T$-$Alg$ since $U: Set^T \to Set$ reflects arbitrary intersections.) The coequalizer as calculated in $Set$,  
 $$\array{
-U E & \stackrel{\overset{U \pi_1}{\longrightarrow}}{\underset{U \pi_2}{\longrightarrow}} & B & \stackrel{p}{\longrightarrow} & Q
+U E & \stackrel{\overset{U \pi_1}{\longrightarrow}}{\underset{U \pi_2}{\longrightarrow}} & U B & \stackrel{p}{\longrightarrow} & Q
 }$$ 
-is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: UB \to UE$.) The proof is completed by the following lemma. 
+is a split coequalizer, because every quotient of an equivalence relation in $Set$ is a split coequalizer. (This requires the [[axiom of choice]]. A splitting is given by any splitting $i: Q \to U B$ of $p$, which picks a representative in each equivalence class, together with $\langle i p, 1 \rangle: U B \to U E$.) The proof is completed by the following lemma. 
 =-- 
 
 +-- {: .num_lemma #split} 
