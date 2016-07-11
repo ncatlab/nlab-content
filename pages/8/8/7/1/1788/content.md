@@ -1,2 +1,13 @@
-First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then (by [this example](Introduction+to+Stable+homotopy+theory+--+1-2#SuspendedSphereSpectrumHomology), using the [[tensor triangulated category|tensor triangulated]] stucture on the [[stable homotopy category]] ([prop.] (Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)))
-
+$$
+  \array{
+    &&  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
+    \\
+      & {}^{\mathllap{\exists}}\nearrow 
+      & \downarrow^{\mathrlap{forget}}
+    \\
+    [X,N]_\bullet
+      &\underset{\pi_\bullet(E \wedge -)}{\longrightarrow}&
+    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
+    }
+  \,,
+$$
