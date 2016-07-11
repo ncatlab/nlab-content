@@ -19,9 +19,9 @@
 
 ## Idea
 
-A **monoidal category** is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f^\prime: V' \to W'$, we get a linear map
+A **monoidal category** is a [[category]] equipped with some notion of 'tensor product'.  A good example is the category [[Vect]], where we can take the tensor product, not only of vector spaces, but also of linear maps: given linear maps $f : V \to W$ and $f^\prime: V^\prime \to W^\prime$, we get a linear map
 
-$$ f \otimes f': V \otimes V' \to W \otimes W' $$
+$$ f \otimes f^\prime: V \otimes V^\prime \to W \otimes W^\prime $$
 
 The same category can often be made into a monoidal category in more than one way.  For example the category [[Set]] can be made into a monoidal category with cartesian [[product]] or disjoint union (i.e. [[coproduct]]) as the 'tensor product'.   We can also make [[Vect]] into a monoidal category with direct sum as the 'tensor product' --- this may seem perverse, but it's actually very useful.
 
