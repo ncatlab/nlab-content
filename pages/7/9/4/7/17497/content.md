@@ -9066,6 +9066,61 @@ and the symmetry of the smash product on $Top^{\ast/}_{cg}$ (example \ref{Pointe
 
 =--
 
+
++-- {: .num_example #SuspendedSphereSpectrumHomology}
+###### Example
+
+For $A \in Ho(Spectra)$ a [[spectrum]], then the $A$-[[generalized homology]] (according to remark \ref{EMHomology}) of a suspension of the [[spectrum]] is the [[stable homotopy groups]] of $A$ in shifted degree:
+
+$$
+  A_{\bullet}(\Sigma^n \mathbb{S})
+  \simeq
+  \pi_{\bullet - n}(A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute
+
+$$
+  \begin{aligned}
+    A_\bullet(\Sigma^n \mathbb{S})
+     & \coloneqq
+    \pi_\bullet(A \wedge \Sigma^n \mathbb{S})
+    \\
+      & \simeq
+    \pi_\bullet( \Sigma^n( A \wedge \mathbb{S} ) ) 
+     \\
+    & \simeq
+    \pi_\bullet( \Sigma^n A )
+    \\
+    & \simeq
+    [\mathbb{S}, \Sigma^n A]
+    \\
+    = 
+    & [\mathbb{S}, A]_{-n}
+    \\
+    & \simeq \pi_{\bullet-n}(A)
+  \end{aligned}
+  \,.
+$$
+
+Here we use
+
+* first the definition (remark \ref{EMHomology});
+
+* then the fact that suspension commutes with smash product (lemma \ref{SmashProductOfSpectraCompatibleWithSuspension}, part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory});
+
+* then the fact that the [[sphere spectrum]] is the [[tensor unit]] of the smash product of spectra (cor. \ref{MonoidalStableHomotopyCategory});
+
+* then the isomorphism of stable homotopy groups with graded homs out of the spjere spectrum ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)).
+
+=--
+
 +-- {: .num_lemma #GradedCommutativityOfSuspendedSphereSpectra}
 ###### Lemma
 
