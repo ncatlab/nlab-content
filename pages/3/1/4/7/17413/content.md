@@ -9,13 +9,26 @@ A **Hilbert system** is a kind of [[deductive system]] characterized by the pres
 
 $$ \array{\arrayopts{\rowlines{solid}} A \qquad A\to B \\ B } $$
 
-and in many Hilbert systems this is the only rule, although sometimes one finds others in use.  Then each [[logical connective]] is described by imposing [[axioms]]; for instance, the axioms for [[implication]] are usually something like
+and in many Hilbert systems this is the only rule, although sometimes one finds others in use.  Then each [[logical connective]] is described by imposing [[axioms]].
+
+## The role of implication
+
+In many cases, the necessary axioms are obtained fairly straightforwardly from the corresponding rules by replacing derivability and entailment by the [[implication]] connective.  For instance, the rules for [[disjunction]] are
+$$ \frac{\Gamma\vdash A}{\Gamma\vdash A\vee B}\qquad
+\frac{\Gamma\vdash B}{\Gamma\vdash A\vee B} \qquad
+\frac{\Gamma\vdash A\vee B \quad \Gamma,A\vdash C \quad \Gamma,B\vdash C}{\Gamma\vdash C}$$
+and the corresponding Hilbert-style axioms are
+$$ A\to (A\vee B) \qquad B\to (A\vee B) \qquad (A\vee B) \to (A\to C) \to (B\to C) \to C.$$
+
+Of course, this gives a special role to [[implication]].  Its axioms are
 
 $$ \array{ P \to P \\
   P \to (Q\to P) \\
-  (P \to (Q\to R)) \to ((P \to Q) \to (P \to R))
+  (P \to (Q\to R)) \to ((P \to Q) \to (P \to R)).
   }
 $$
+
+Note that these are precisely the types of the basic [[combinators]] in [[combinatory logic]].  In fact, under the [[propositions as types]] correspondence, Hilbert systems correspond to combinatory logic in the same way that [[natural deduction]]/[[sequent calculus]] corresponds to [[lambda-calculus]].
 
 ## On notation
 
