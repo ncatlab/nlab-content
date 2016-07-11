@@ -1,16 +1,53 @@
-author: AnonymousCoward
-company: 
-title: combinatory logic
-subtitle: 
-slide_theme: default
-slide_footer: 
-slide_subfooter: 
+# Combinatory logic
 
-:category: S5-slideshow
+* table of contents
+{: toc}
 
-combinatory logic
-==============
+## Idea
 
-My First Slide
------------------
+Combinatory logic is a rephrasing of the [[lambda calculus]] that avoids explicit mention of [[variables]] and of [[lambda abstraction]].  Instead it uses [[combinators]] traditionally known as $S$, $K$, and $I$, with the only other operation being [[application]].
+
+Under the [[propositions as types]] correspondence, combinatory logic corresponds to the presentation of [[logic]] using a [[Hilbert system]] (instead of [[natural deduction]] or [[sequent calculus]]).
+
+## The combinators S, K, and I
+
+The basic combinators can be defined in terms of $\lambda$-calculus is
+
+* $S = \lambda x. \lambda y. \lambda z. (x z)(y z)$
+* $K = \lambda x. \lambda y. x$
+* $I = \lambda x. x$
+
+In [[simply typed lambda-calculus]], these combinators are [[polymorphic function|polymorphic]] with types
+
+* $S : (A \to (B\to C)) \to (A\to B) \to (A\to C)$
+* $K : A\to (B\to A)$
+* $I : A\to A$
+
+for arbitrary types $A,B,C$.
+
+When combinatory logic is presented on its own rather than in terms of $\lambda$-calculus, the combinators are characterized by reduction rules that mirror their definition in terms of $\lambda$-abstractions:
+
+* $S x y z \equiv (x z)(y z)$
+* $K x y \equiv x$
+* $I x \equiv x$
+
+## Encoding abstraction
+
+The combinators $S$, $K$, and $I$ are used to encode $\lambda$-abstraction in the following way.  If $M$ is a term in combinatory logic (perhaps containing variables), we define $\lambda x.M$ by induction over the structure of the term $M$.
+
+* If $M=x$, then $\lambda x.x = I$.
+* If $M$ is a variable $y\neq x$, then $\lambda x.y = K y$.
+* If $M = N P$ is an application of one term to another, then $\lambda x.M = S (\lambda x.N) (\lambda x.P)$, so we can recursively translate $\lambda x.N$ and $\lambda x.P$.
+
+(It is common to see this described with the second case given as "$\lambda x.M = K M$ whenever $M$ does not contain $x$ as a [[free variable]]".  However, this overlaps with the third case and is not structurally recursive.  The above definition translates $\lambda x.y z$ to $S(K y)(K z)$, while the one with the free-variable-check produces $K(y z)$; both reduce to $y z$ when applied to any argument.)
+
+Using this construction of an "abstraction operator" in the combinatory logic, we can then proceed to translate an arbitrary term of $\lambda$-calculus into combinatory logic by translating all the abstractions "from the inside out".  Formally, we crawl over the term and whenever we find an abstraction, we first recurse into its body, then we apply the above abstraction operator.
+
+The construction of an abstraction operator in combinatory logic is analogous to a [[cut admissibility]] theorem; the resulting translation of $\lambda$-calculus into combinatory logic is then analogous to the corresponding [[cut-elimination]] theorem.
+
+## Related pages
+
+* A [[partial combinatory algebra]] is an algebraic structure that abstracts the structure of combinatory logic
+* [[combinator]]
+* [[lambda-calculus]]
 
