@@ -6,7 +6,7 @@
 
 ## Idea
 
-Given any [[ring spectrum]] $E$, then the _Boardman homomorphism_ is the [[homomorphism]] from [[homotopy groups]] to $E$-[[generalized homology]] groups that is induced by [[smash product]] with the ring unit map $\mathbb{S} \longrightarrow E$ from the [[sphere spectrum]]:
+Given any [[homotopy commutative ring spectrum]] $(E, \mu, e)$, then the _Boardman homomorphism_ is the [[homomorphism]] from [[homotopy groups]] to $E$-[[generalized homology]] groups that is induced by [[smash product]] with the unit map $e \colon \mathbb{S} \longrightarrow E$ from the [[sphere spectrum]]:
 
 $$
   \pi_\bullet(-)
