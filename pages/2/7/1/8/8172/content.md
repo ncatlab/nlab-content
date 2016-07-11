@@ -1278,6 +1278,91 @@ Using prop. \ref{EnHomology}, we find below (theoren \ref{ComoduleHomsInE1PageOf
 ##### The $E$-Steenrod algebra
  {#DualESteenrodAlgebra}
 
+We discuss here all the extra structure that exists on the $E$-self homology $E_\bullet(E)$ of a flat homotopy commutative ring spectrum. For $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] on a [[prime field]] this reduces to the classical structure in [[algebraic topology]] called the _dual [[Steenrod algebra]]_ $\mathcal{A}^\ast_p$. Therefore one may generally speak of $E_\bullet(E)$ as being the _dual $E$-Steenrod algebra_.
+
+Without the qualifier "dual" then "$E$-Steenrod algebra" refers to the $E$-self-cohomology $E^\bullet(E)$. For $E = H \mathbb{F}_p$ this _Steenrod algebra_ $\mathcal{A}_p$ (without "dual") is traditionally considered first, and the [[classical Adams spectral sequence]] was originally formulated in terms of $\mathcal{A}_p$ instead of $\mathcal{A}_p^\ast$. But one observes ([Adams 74, p. 280](#Adams74)) that the "dual" Steenrod algebra $E_\bullet(E)$ is much better behaved, at least as long as $E$ is flat in the sense of def. \ref{FlatE}. 
+
+Moreover, the dual $E$-Steenrod algebra $E_\bullet(E)$ is more fundamental in that it reflects a [[higher geometry|stacky geometry]] secretly underlying the $E$-Adams spectral sequence ([Hopkins 99](#Hopkins99)). This is the content of the concept of "[[commutative Hopf algebroid]]" (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below) which is equivalently the [[formal dual]] of a [[groupoid]] internal to [[affine schemes]], def. \ref{CommutativeHopfAlgebroid}.
+
+A simple illustrative archetype of the following construction of commutative Hopf algebroids from homotopy commutative ring spectra is the following situation:
+
+For $X$ a [[finite set]] consider
+
+$$
+  \array{
+    X \times X \times X
+    \\
+    \downarrow^{\mathrlap{\circ = (pr_1, pr_3)}}
+    \\
+    X \times X
+    \\
+    {}^{\mathllap{s = pr_1}}\downarrow 
+     \uparrow 
+    \downarrow^{\mathrlap{t = pr_2}}
+    \\
+    X
+  }  
+$$
+
+as the ("[[codiscrete groupoid|codiscrete]]") [[groupoid]] with $X$ as [[objects]] and precisely one morphism from every object to every other. Hence the [[composition]] operation $\circ$, and the [[source]] and [[target]] maps are simply projections as shown. The identity morphism (going upwards in the above diagram) is the [[diagonal]].
+
+Then consider the image of this structure under forming the [[free abelian groups]] $\mathbb{Z}[X]$, regarded as [[commutative rings]] under pointwise multiplication.
+
+Since 
+
+$$
+  \mathbb{Z}[X \times X]
+    \simeq
+  \mathbb{Z}[X] \otimes \mathbb{Z}[X]
+$$
+
+this yields a diagram of homomorphisms of commutative rings of the form
+
+$$
+  \array{
+    (\mathbb{Z}[X] \otimes \mathbb{Z}[X] )
+      \otimes_{\mathbb{Z}[X]}
+    (\mathbb{Z}[X] \otimes \mathbb{Z}[X])
+    \\
+    \uparrow^{\mathrlap{} }
+    \\
+    \mathbb{Z}[X] \otimes \mathbb{Z}[X]
+    \\
+    \uparrow 
+     \downarrow 
+    \uparrow
+    \\
+    \mathbb{Z}[X]
+  }  
+$$
+
+satisfying some obvious conditions. Observe that here
+
+1. the two morphisms $\mathbb{Z}[X] \overset{\to}{\to}{} \mathbb{Z}[X] \otimes \mathbb{Z}[X]$ are $f \mapsto f \otimes e$ and $f \mapsto e \otimes f$, respectively, where $e$ denotes the unit element in $\mathbb{Z}[X]$;
+
+1. the morphism $\mathbb{Z}[X] \otimes \mathbb{Z}[X] \to \mathbb{Z}[X]$ is the multiplication in the ring $\mathbb{Z}[X]$;
+
+1. the morphism 
+
+   $$
+     \mathbb{Z}[X] \otimes \mathbb{Z}[X] 
+       \longrightarrow 
+     \mathbb{Z}[X] \otimes \mathbb{Z}[C] \otimes \mathbb{Z}[C] 
+       \overset{\simeq}{\longrightarrow}
+     (\mathbb{Z}[X] \otimes \mathbb{Z}[X] ) \otimes_{\mathbb{Z}[X]} (\mathbb{Z}[X] \otimes \mathbb{Z}[X])
+   $$ 
+
+   is given by $f \otimes g \mapsto f \otimes e \otimes g$.
+
+All of the following rich structure is directly modeled on this simplistic example. We simply 
+
+1. replace the commutative ring $\mathbb{Z}[X]$ by any flat [[homotopy commutative ring spectrum]] $E$, 
+
+1. replace [[tensor product of abelian groups]] by derived [[smash product of spectra]];
+
+1. and form [[stable homotopy groups]] $\pi_\bullet(-)$ of all resulting expressions.
+
+
 
 +-- {: .num_defn #HopfAlgebroidStructureOnDualEOperations}
 ###### Definition
@@ -1757,7 +1842,7 @@ $$
 
 =--
 
-([Adams 69, lecture 3, pages 67-71](#Adams69))
+([Adams 69, lecture 3, pages 67-71](#Adams69), [Ravenel 86, chapter II, prop. 2.2.8](#Ravenel86)) 
 
 
 +-- {: .num_remark}
@@ -1844,7 +1929,7 @@ $$
     \downarrow^{\mathrlap{\Psi_{N_2}}}
     \\
     \Gamma \otimes_A N_1
-      &\underset{}{\longrightarrow}&
+      &\underset{id \otimes_A f}{\longrightarrow}&
     \Gamma \otimes_A N_2
   }
   \,.
@@ -1878,10 +1963,18 @@ $$
 +-- {: .num_prop #IndeedComoduleStructureOnEX}
 ###### Proposition
 
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, and for $X \in Ho(Spectra)$ any spectrum, then the morphism $\Psi_{E_\bullet(X)}$ from def. \ref{SteenrodComoduleStructureOnSpectrum} makes $E_\bullet(X)$ into a [[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] (def. \ref{HopfAlgebroidStructureOnDualEOperations}).
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, and for $X \in Ho(Spectra)$ any spectrum, then the morphism $\Psi_{E_\bullet(X)}$ from def. \ref{SteenrodComoduleStructureOnSpectrum} makes $E_\bullet(X)$ into a [[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] (def. \ref{HopfAlgebroidStructureOnDualEOperations})
 
+$$
+  E_\bullet(X)
+  \;\in\;
+  E_\bullet(E) CoMod
+  \,.
+$$
 
 =--
+
+([Adams 69, lecture 3, pages 67-71](#Adams69), [Ravenel 86, chapter II, prop. 2.2.8](#Ravenel86)) 
 
 
 +-- {: .num_example #GroundRingIsCanonicalComoduleOverHopfAlgebroid}
@@ -2107,22 +2200,26 @@ $$
 $$
   (X \overset{f}{\longrightarrow} Y)
     \;\mapsto\;
-  E_\bullet(X) 
-    \overset{f_\ast}{\longrightarrow}
-  E_\bullet(Y)
+  \left(
+    E_\bullet(X) 
+      \overset{f_\ast}{\longrightarrow}
+    E_\bullet(Y)
+  \right)
 $$
 
 factors through the [[forgetful functor]] from $E_\bullet(E)$-[[comodule]] [[homomorphisms]] (def. \ref{CommutativeHopfAlgebroidComodule}) over the dual $E$-[[Steenrod algebra]] (def. \ref{HopfAlgebroidStructureOnDualEOperations}):
 
 $$
   \array{
-    &&  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(N))
+    &&  Hom^\bullet_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
     \\
-      & {}^{\mathllap{\exists}}\nearrow & \downarrow^{\mathrlap{forget}}
+      & {}^{\mathllap{\exists}}\nearrow 
+      & \downarrow^{\mathrlap{forget}}
     \\
     [X,N]_\bullet
       &\underset{\pi_\bullet(E \wedge -)}{\longrightarrow}&
-    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(N))
+    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
+  }
   \,,
 $$
 
@@ -2179,7 +2276,7 @@ $$
   \,.
 $$
 
-But that this diagram commutes is simply the [[fucntor|functoriality]] of the derived [[smash product of spectra]].
+But that this diagram commutes is simply the [[functor|functoriality]] of the derived [[smash product of spectra]] as a functor on the [[product category]] $Ho(Spectra) \times Ho(Spectra)$.
 
 =--
 
