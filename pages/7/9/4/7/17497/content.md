@@ -9101,8 +9101,8 @@ $$
     & \simeq
     [\mathbb{S}, \Sigma^n A]
     \\
-    = 
-    & [\mathbb{S}, A]_{-n}
+    & = 
+    [\mathbb{S}, A]_{-n}
     \\
     & \simeq \pi_{\bullet-n}(A)
   \end{aligned}
