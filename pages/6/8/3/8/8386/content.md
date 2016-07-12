@@ -84,5 +84,5 @@ A recent paper extending Reynolds' notion of relational parametricity to depende
 [[!redirects polymorphism]]
 [[!redirects ad hoc polymorphism]]
 [[!redirects parametric polymorphism]]
-
+[[!redirects polymorphic]]
 [[!redirects parametricity]]
