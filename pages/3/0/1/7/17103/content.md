@@ -116,7 +116,7 @@ $$
 
 with $X_{n+1}= Cone(j_n)$ (the [[mapping cone]]).
 
-(?)
+([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra))
 
 A cell spectrum is a **CW-spectrum** if each attaching map $\Sigma^\infty S^{q_n}\to X_n$ factors through a $X_k \to X_n$ with $k \lt q$.
 
