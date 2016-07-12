@@ -1,1 +1,1 @@
-Daniel Luckhardt is currently a PhD student at the university of G&#246;ttingen, check out my [page there](http://www.uni-math.gwdg.de/dluckha/website/index.html).
+Daniel Luckhardt is currently a PhD student at the university of G&#246;ttingen, check out my [page there](http://www.uni-math.gwdg.de/dluckha/).
