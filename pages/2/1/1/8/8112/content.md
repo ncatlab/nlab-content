@@ -61,7 +61,7 @@ This is where the concept of automorphic forms originates (for more on the histo
 ### Modular forms as adelic automorphic forms on $GL(2,\mathbb{A})$
  {#ModularFormsAdAdelicAutomorphicForms}
 
-Where by the [above](#ModularForms) an ordinary [[modular form]] is equivalently a suitably periodic function on $SL(2,\mathbb{R})$, one may observe that the [[real numbers]] $\mathbb{R}$ appearing as [[coefficients]] in the latter are but one of many [[p-adic number]] completions of the [[rational numbers]]. Hence it is natural to consider suitably periodic functions on $SL(2,\mathbb{Q}_p)$ of all these completions at once. This means to consider functions on $SL(2,\mathbb{A})$, for $\mathbb{A}$ the [[ring of adeles]]. These are the _adelic automorphic forms_. The may be thought of as subsuming ordinary modular forms for all [[level structures]]. 
+Where by the [above](#ModularForms) an ordinary [[modular form]] is equivalently a suitably periodic function on $SL(2,\mathbb{R})$, one may observe that the [[real numbers]] $\mathbb{R}$ appearing as [[coefficients]] in the latter are but one of many [[p-adic number]] completions of the [[rational numbers]]. Hence it is natural to consider suitably periodic functions on $SL(2,\mathbb{Q}_p)$ of all these completions at once. This means to consider functions on $SL(2,\mathbb{A})$, for $\mathbb{A}$ the [[ring of adeles]]. These are the _adelic automorphic forms_. They may be thought of as subsuming ordinary modular forms for all [[level structures]]. 
 (e.g. [Martin 13, p. 8](#Martin13), also [Goldfeld-Hundley 11, lemma 5.5.10](#GoldfeldHundley11), [Bump, section 3.6](#Bump), [Gelbhart 84, p. 22](#Gelbhart84)): we have
 
 $$
