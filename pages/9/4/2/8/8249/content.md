@@ -740,7 +740,7 @@ Notice that in fact we even have the following statement (following directly fro
 ###### Proposition
 
 
-Let $F$ be an [[nLab:additive functor]] which is an [[nLab:exact functor]]. Then 
+Let $F$ be an [[additive functor]] which is an [[exact functor]]. Then its left and right derived functors vanish in positive degree:
 
 $$
   R^{\geq 1} F = 0 
@@ -758,7 +758,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Because an [[nLab:exact functor]] preserves all [[nLab:exact sequences]]. If $Y_\bullet \to A$ is a projective resolution then also $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
+Because an [[exact functor]] preserves all [[exact sequences]]. If $Y_\bullet \to A$ is a projective resolution then also $F(Y)_\bullet$ is exact in all positive degrees, and hence $L_{n\geq 1} F(A) ) H_{n \geq}(F(Y)) = 0$. Dually for $R^n F$.
 
 =--
 
