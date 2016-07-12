@@ -1082,40 +1082,6 @@ Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+t
 
 =--
 
-+-- {: .num_example #ExamplesOfFlatRingSpectra}
-###### Example
-
-Examples of [[commutative ring spectra]] that are flat according to def. \ref{FlatE} include
-$E = $
-
-* $\mathbb{S}$ -- the [[sphere spectrum]];
-
-* $H \mathbb{F}_p$ -- [[Eilenberg-MacLane spectra]] for [[prime fields]];
-
-* [[MO]], [[MU]], [[MSp]] -- [[Thom spectra]];
-
-* [[KO]], [[KU]] -- [[topological K-theory]] spectra.
-
-
-=--
-
-([Adams 69, lecture 1, lemma 28 (p. 45)](#Adams69))
-
-+-- {: .proof}
-###### Proof of the first two items
-
-For $E = \mathbb{S}$ we have $\mathbb{S}_\bullet(\mathbb{S}) \coloneqq \pi_\bullet(\mathbb{S} \wedge \mathbb{S}) \simeq \pi_\bullet(\mathbb{S})$, since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)). Hence the statement follows since every ring is, clearly, flat over itself.
-
-For $E = H \mathbb{F}_p$ we have that $\pi_\bullet(H \mathbb{F}_p) \simeq \mathbb{F}_p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StableHomotopyGroupsOfEMSpectrum)), hence a [[field]] (a [[prime field]]). Every module over a field is a [[projective module]] ([prop.](projective+module#ModuleOverAFieldIsProjective)) and every projective module is flat ([prop.](flat+module#ProjectiveModulesAreFlat)).
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
-
-=--
 
 
 The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
@@ -2020,12 +1986,12 @@ More generally:
 Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, there is a [[free-forgetful adjunction]]
 
 $$
-  \Gamma CoMod
-    \underoverset
-      {\underset{forget}{\longrightarrow}}
-      {\overset{co-free}{\longleftarrow}}
-      {\bot}
   A Mod
+    \underoverset
+      {\underset{co-free}{\longrightarrow}}
+      {\overset{forget}{\longleftarrow}}
+      {\bot}
+  \Gamma CoMod
 $$
 
 between the [[category]] of $\Gamma$-[[comodules]], def. \ref{CommutativeHopfAlgebroidComodule} and the [[category of modules]] over $A$, where the [[cofree functor]] is [[right adjoint]]. 
@@ -2764,7 +2730,7 @@ Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introducti
 
 1. $E_\bullet(X)$ is a [[projective module]] over $\pi_\bullet(E)$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)).
 
-Then the entries of the second page of the $E$-Adams spectral sequence for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+Then the entries of the second page of the $E$-Adams spectral sequence for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
 
 
 $$
@@ -2773,6 +2739,8 @@ $$
   Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   \,.
 $$
+
+(On the right $s$ is the degree that goes with any [[Ext]]-functor, and $t$ is the additional degree of morphisms between graded modules.)
 
 In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
 
@@ -2941,7 +2909,9 @@ We discuss basic aspects of [[homological algebra]] in [[categories]] of [[comod
 +-- {: .num_lemma #CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}
 ###### Lemma
 
-If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then the [[category]] $\Gamma CoMod$ of [[comodules]] over $\Gamma$, def. \ref{CommutativeHopfAlgebroidComodule}, is an [[abelian category]].
+Let $(\Gamma, A)$ be a [[commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}), such that the right $A$-module structure on $\Gamma$ induced by $\eta_R$ is a [[flat module]].
+
+Then the [[category]] $\Gamma CoMod$ of [[comodules]] over $\Gamma$ (def. \ref{CommutativeHopfAlgebroidComodule}) is an [[abelian category]].
 
 =--
 
@@ -2950,9 +2920,11 @@ If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopf
 +-- {: .proof}
 ###### Proof
 
-It is clear that, without any condition the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
+It is clear that, without any condition on the Hopf algebroid, $\Gamma CoMod$ is an [[additive category]]. 
 
-We need to show that with the assumption that $\Gamma$ is flat over $A$, then this is also a [[pre-abelian category]] in that [[kernels]] and [[cokernels]] exist. Let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
+Next we need to show if $\Gamma$ is flat over $A$, that then this is also a [[pre-abelian category]], in that [[kernels]] and [[cokernels]] exist. 
+
+To that end, let $f \colon (N_1,\Psi_{N_1}) \longrightarrow (N_2,\Psi_{N_2})$ be a morphism of comodules, hence a [[commuting diagram]] in $A$[[Mod]] of the form
 
 $$
   \array{
@@ -2973,7 +2945,11 @@ $$
   \array{
     ker(f) &\longrightarrow& N_1 &\stackrel{f}{\longrightarrow}& N_2
     \\
-    \downarrow && \downarrow^{\mathrlap{\Psi_{N_1}}} && \downarrow^{\mathrlap{\Psi_{N_2}}}
+    \mathllap{\exists}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\Psi_{N_1}}} 
+      && 
+    \downarrow^{\mathrlap{\Psi_{N_2}}}
     \\
     \Gamma \otimes_A ker(f) 
       &\longrightarrow& 
@@ -2984,26 +2960,31 @@ $$
   \,.
 $$
 
-By the assumption that $\Gamma$ is a [[flat module]] over $A$, also $\Gamma \otimes_A ker(f) \simeq ker(\Gamma \otimes_A f)$ is a [[kernel]]. By its [[universal property]] this induces uniquely a morphism as shown on the left, making the above [[commuting diagram|diagram commute]]. This means that the $A$-module $ker(f)$ uniquely inherits the structure of a $\Gamma$-comodule such as to make $ker(f) \to N_1$ a comodule homomorphism. By the same universal property it follows that $ker(f)$ with this comodule structure is in fact the kernel of $f$ in $\Gamma CoMod$.
+By the assumption that $\Gamma$ is a [[flat module]] over $A$, also $\Gamma \otimes_A ker(f) \simeq ker(\Gamma \otimes_A f)$ is a [[kernel]]. Hence by the [[universal property]] of kernels and the commutativity of the square o the right, there exists a unique vertical morphism as shown on the left, making the left [[commuting square|square commute]]. This means that the $A$-module $ker(f)$ uniquely inherits the structure of a $\Gamma$-comodule such as to make $ker(f) \to N_1$ a comodule homomorphism. By the same universal property it follows that $ker(f)$ with this comodule structure is in fact the kernel of $f$ in $\Gamma CoMod$.
 
-The argument for the existence of [[cokernels]] proceeds [[formal dual|formally dually]]. Therefore it follows that the comparison morphism
+The argument for the existence of [[cokernels]] proceeds [[formal dual|formally dually]]. Hence $\Gamma CoMod$ is a [[pre-abelian category]].
+
+
+But it also follows from this construction that the comparison morphism
 
 $$
   coker(ker(f)) \longrightarrow ker(coker(f))
 $$
 
-formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism in $A Mod$. There this is an [[isomorphism]], hence it is an isomorphism also in $\Gamma CoMod$, and so the latter is not just a [[pre-abelian category]] but in fact an [[abelian category]] itself.
+formed in $\Gamma CoMod$ has underlying it the corresponding comparison morphism in $A Mod$. There this is an [[isomorphism]] by the fact that the [[category of modules]] $A Mod$ is an [[abelian category]], hence it is an isomorphism also in $\Gamma CoMod$. So the latter is in fact an [[abelian category]] itself.
 
 =--
 
-+-- {: .num_prop #IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective}
-###### Proposition
++-- {: .num_lemma #IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective}
+###### Lemma
 
-If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} is such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], then 
+Let $(\Gamma, A)$ be a [[commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}), such that the right $A$-module structure on $\Gamma$ induced by $\eta_R$ is a [[flat module]].
 
-1. every co-free $\Gamma$-[[comodule]], def. \ref{CoFreeComodules}, on an [[injective module]] over $A$ is an [[injective object]] in $\Gamma CoMod$;
+Then
 
-1. $\Gamma CoMod$ has [[enough injectives]] (if the [[axiom of choice]] holds in the ambient [[set theory]]).
+1. every co-free $\Gamma$-[[comodule]] (def. \ref{CoFreeComodules}) on an [[injective module]] over $A$ is an [[injective object]] in $\Gamma CoMod$;
+
+1. $\Gamma CoMod$ has [[enough injectives]] ([def.](injective+object#EnoughInjectives)) if the [[axiom of choice]] holds in the ambient [[set theory]].
 
 =--
 
@@ -3012,24 +2993,27 @@ If a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopf
 +-- {: .proof}
 ###### Proof
 
-First of all, assuming the [[axiom of choice]], then the [[category of modules]] $A Mod$ has [[enough injectives]] (see [this proposition](injective+object#AbHasEnoughInjectives)).
+First of all, assuming the [[axiom of choice]], then the [[category of modules]] $A Mod$ has [[enough injectives]] (by [this proposition](injective+object#AbHasEnoughInjectives)).
+
 Now by prop. \ref{CoFreeComodules} we have the [[adjunction]]
 
 $$
-  \Gamma CoMod
-   \underoverset
-     {\underset{forget}{\longrightarrow}}
-     {\overset{co-free}{\longleftarrow}}
-     {\bot}
   A Mod
- \,.
+    \underoverset
+      {\underset{co-free}{\longrightarrow}}
+      {\overset{forget}{\longleftarrow}}
+      {\bot}
+  \Gamma CoMod
+  \,.
 $$
 
-Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful functor]]) and that, by the proof of lemma \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}, it is an [[exact functor]]. With this a standard lemma applies ([here](injective+object#TransferOfEnoughInjectivesAlongAdjunctions)) which says that
+Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful functor]]) and that, by the proof of lemma \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat}, it is an [[exact functor]]. This implies that
 
-1. with $I \in A Mod$ an [[injective module]], then the co-free comodule $\Gamma \otimes_A I$ is an [[injective object]] in $\Gamma CoMod$;
+1. for $I \in A Mod$ an [[injective module]], then the co-free comodule $\Gamma \otimes_A I$ is an [[injective object]] in $\Gamma CoMod$ (by [this lemma](injective+module#RightAdjointsOfExactFunctorsPreserveInjectives));
 
-1. for $N \in \Gamma CoMod$ any object, and for $i \colon U(N) \hookrightarrow I$ a monomorphism of $A$-modules into an injective $A$-module, then the [[adjunct]] $\tilde i \colon N \hookrightarrow \Gamma\otimes_A I$ is a monomorphism in $\Gamma CoMod$ (and into an injective comodule).
+1. for $N \in \Gamma CoMod$ any object, and for $i \colon forget(N) \hookrightarrow I$ a monomorphism of $A$-modules into an injective $A$-module, then the [[adjunct]] $\tilde i \colon N \hookrightarrow \Gamma\otimes_A I$ is a monomorphism (by [this lemma](injective+object#TransferOfEnoughInjectivesAlongAdjunctions))) hence a monomorpism into an injective comodule, by the previous item.
+
+Hence $\Gamma CoMod$ has enough injective objects ([def.](injective+object#EnoughInjectives)).
 
 =--
 
@@ -3037,23 +3021,22 @@ Observe that the [[left adjoint]] is a [[faithful functor]] (being a [[forgetful
 +-- {: .num_lemma #CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}
 ###### Lemma
 
-Let $\Gamma$ be a [[commutative Hopf algebroid]] over $A$, def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}, such that $\eta_L, \eta_R \colon A \longrightarrow \Gamma$ is a [[flat morphism]], 
-Let $N \in \Gamma CoMod$ be a Hopf [[comodule]], def. \ref{CommutativeHopfAlgebroidComodule}, such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
+Let $(\Gamma, A)$ be a [[commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroid}, \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}), such that the right $A$-module structure on $\Gamma$ induced by $\eta_R$ is a [[flat module]]. Let $N \in \Gamma CoMod$ be a $\Gamma$-[[comodule]] (def. \ref{CommutativeHopfAlgebroidComodule}) such that the underlying $A$-module is a [[projective module]] (a [[projective object]] in $A$[[Mod]]). 
 
-Then  (assuming the [[axiom of choice]]) every co-free comodule, prop. \ref{CoFreeComodules}, is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
+Then  (assuming the [[axiom of choice]] in the ambient set theory) every co-free comodule (prop. \ref{CoFreeComodules}) is an $F$-[[acyclic object]] for $F$ the [[hom functor]] $Hom_{\Gamma CoMod}(N,-)$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-We need to show that the [[derived functors in homological algebra|derived functors]] $R^{\bullet} Hom_{\Gamma}(N,-)$ vanish in positive degree on all co-free comodules, hence on $\Gamma \otimes_A K$, for $K \in A Mod$. 
+We need to show that the [[derived functors in homological algebra|derived functors]] $\mathbb{R}^{\bullet} Hom_{\Gamma}(N,-)$ vanish in positive degree on all co-free comodules, hence on $\Gamma \otimes_A K$, for all $K \in A Mod$. 
 
-To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By prop. \ref{IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
+To that end, let $I^\bullet$ be an [[injective resolution]] of $K$ in $A Mod$. By lemma \ref{IfCounitOfHopfAlgebroidIsFlatThenCofreeModulesAreInjective} then $\Gamma \otimes_A I^\bullet$ is a sequence of [[injective objects]] in $\Gamma CoMod$ and by the assumption that $\Gamma$ is flat over $A$ it is an [[injective resolution]] of $\Gamma \otimes_A K$ in $\Gamma CoMod$. Therefore the derived functor in question is given by
 
 $$
   \begin{aligned}
-    R^{\bullet \geq 1} Hom_\Gamma(N, \Gamma \otimes_A K)
+    \mathbb{R}^{\bullet \geq 1} Hom_\Gamma(N, \Gamma \otimes_A K)
     & \simeq
     H_{\bullet \geq 1}( Hom_\Gamma( N, \Gamma \otimes_A I^\bullet ) )
     \\
@@ -3271,6 +3254,42 @@ $$
 
 
 #### Examples
+
++-- {: .num_example #ExamplesOfFlatRingSpectra}
+###### Example
+
+Examples of [[commutative ring spectra]] that are flat according to def. \ref{FlatE} include
+$E = $
+
+* $\mathbb{S}$ -- the [[sphere spectrum]];
+
+* $H \mathbb{F}_p$ -- [[Eilenberg-MacLane spectra]] for [[prime fields]];
+
+* [[MO]], [[MU]], [[MSp]] -- [[Thom spectra]];
+
+* [[KO]], [[KU]] -- [[topological K-theory]] spectra.
+
+
+=--
+
+([Adams 69, lecture 1, lemma 28 (p. 45)](#Adams69))
+
++-- {: .proof}
+###### Proof of the first two items
+
+For $E = \mathbb{S}$ we have $\mathbb{S}_\bullet(\mathbb{S}) \coloneqq \pi_\bullet(\mathbb{S} \wedge \mathbb{S}) \simeq \pi_\bullet(\mathbb{S})$, since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)). Hence the statement follows since every ring is, clearly, flat over itself.
+
+For $E = H \mathbb{F}_p$ we have that $\pi_\bullet(H \mathbb{F}_p) \simeq \mathbb{F}_p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StableHomotopyGroupsOfEMSpectrum)), hence a [[field]] (a [[prime field]]). Every module over a field is a [[projective module]] ([prop.](projective+module#ModuleOverAFieldIsProjective)) and every projective module is flat ([prop.](flat+module#ProjectiveModulesAreFlat)).
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} include [[HA|H]][[integers|Z]], and $M S U$.
+
+=--
+
 
 +-- {: .num_example}
 ###### Examples
