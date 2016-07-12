@@ -240,6 +240,8 @@ For $X$ a [[topological space]], the [[direct sum]] of its [[ordinary cohomology
 
   * [[w-contractible ring]]
 
+  * [[core of a ring]]
+
 * [[ideal]]
 
 * [[spectrum of a commutative ring]]
