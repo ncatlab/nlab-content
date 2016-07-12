@@ -70,8 +70,9 @@ The _[[classical Adams spectral sequence]]_ is the special case of this general 
 
 The _[[Adams-Novikov spectral sequence]]_ is the special case given by setting $Y = X = \mathbb{S}$ and $E = $ [[MU]], discussed [below](#TheAdamsNovikovSpectralSequence).
 
+#### The spectral sequence
 
-#### Spectral sequence of a filtered spectrum
+##### Filtered spectra
  {#SpectralSequenceOfAFilteredSpectrum}
 
 We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence} below) are an example.
@@ -790,7 +791,7 @@ It is conventional to depict this in tables where $s$ increases vertically and u
 =--
 
 
-#### $E$-Adams filtrations
+##### $E$-Adams filtrations
  {#AdamsFiltration}
 
 Given a [[homotopy commutative ring spectrum]] $(E,\mu,e)$, then an _$E$-Adams spectral sequence_ is a [[spectral sequence]] as in def. \ref{AdamsTypeSpectralSequenceOfATower}, where each cofiber is induced from the unit morphism $e \;\colon\; \mathbb{S} \longrightarrow E$:
@@ -2297,8 +2298,6 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra. Namely forming $E$-homology $f_\ast \colon E_\bullet(X) \to E_\bullet(Y)$ of a morphism of a spectra $f \colon X \to Y$ does not just produce a morphism of $E$-homology groups
 
 $$
-  \phi_{UC}
-    \;\colon\;
   [X,Y]_\bullet 
     \longrightarrow 
   Hom_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
@@ -2307,6 +2306,8 @@ $$
 but in fact produces homomorphisms of comodules over the dual $E$-Steenrod algebra
 
 $$
+  \phi_{UC}
+   \;\colon\;
   [X,Y]_\bullet
     \longrightarrow
   Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
@@ -2316,6 +2317,8 @@ $$
 This is the statement of lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} below. The point is that $E_\bullet(E)$-comodule homomorphism are much more rigid than general abelian group homomorphisms and hence closer to reflecting the underlying morphism of spectra $f \colon X \to Y$. 
 
 In good cases such an approximation of _homotopy_ by _homology_ is in fact accurate, in that $\phi_{UC}$ above is an [[isomorphism]]. In such a case ([Adams 74, part III, section 13](#Adams74)) speaks of a "[[universal coefficient theorem]]" (the [[coefficients]] here being $E$.)
+
+One such case is exhibited by prop. \ref{ComoduleHomForENCohomology} below. This is allows to equivalently re-write the first page of the $E$-Adams spectral sequence in terms of $E$-homology homomorphisms in theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} below.
 
 +-- {: .num_lemma #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Lemma
@@ -2513,7 +2516,7 @@ To see that this indeed commutes, notice that
 
 1. the right vertical morphism sends this further to $E_\bullet(X) \overset{E_\bullet(f)}{\to} \pi_\bullet(E \wedge E \wedge Y) \overset{\pi_\bullet(\mu \wedge id)}{\to}$, by the proof of prop. \ref{CoFreeComodules} and def. \ref{HopfAlgebroidStructureOnDualEOperations},
 
-1. this is by prop. \ref{AdamsUCT} the same as the action of the left diagonal morphism.
+1. by prop. \ref{AdamsUCT} this is the same as the action of the left diagonal morphism.
 
 But now
 
@@ -2564,7 +2567,65 @@ This is prop. \ref{ComoduleHomForENCohomology} applied to def. \ref{AdamsEAdamsS
 
 =--
 
-In order to interpret theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, notice that it gives the comodule homs into a resolution of $E_\bullet(Y)$
+
+
+
+
+#### The second page
+ {#TheE2TermOfTheEAdamsSpectralSequence}
+
+
++-- {: .num_theorem #SecondPageOfEAdamsSpectralSequence}
+###### Theorem
+
+If 
+
+1. $E$ is flat (def. \ref{FlatE}) and satisfies the conditions of prop. \ref{AdamsUCT}, 
+
+2. $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, 
+
+then the entries of the second page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]_\bullet$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
+
+
+$$
+  E_2^{s,t}(X,Y)
+  \simeq
+  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
+  \,.
+$$
+
+In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
+
+$$
+  E^{s,t}_2(X,Y)
+    \simeq
+  Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(Y))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first page is given by theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
+
+1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
+
+1. the graded chain complex of theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
+
+We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
+
+Lemma \ref{ResolutionEWp} below shows that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{EnHomology} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
+
+=--
+
+([Adams 74, theorem 15.1, page 323](#Adams74))
+
+
+##### $E$-Adams resolutions
+
+In order to interpret theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, we show that it gives the comodule homs into a resolution of $E_\bullet(Y)$:
 
 +-- {: .num_lemma #ResolutionEWp}
 ###### Lemma
@@ -2590,7 +2651,7 @@ $$
     0 
       &\to& 
     E_\bullet(Y)
-     && \overset{E_\bullet(f_0)}{\longrightarrow} &&
+     && \overset{E_\bullet(g_0)}{\longrightarrow} &&
     E_\bullet(A_0)
      && \overset{\partial}{\longrightarrow} &&
     E_{\bullet-1}(A_1)
@@ -2688,61 +2749,7 @@ Therefore $E_\bullet(g_p)$ is a [[monomorphism]], hence its [[kernel]] is trivia
 
 =--
 
-Hence the next step is to identify the chain homology of this $d_1$ with the comodule [[Ext]]-groups.
 
-
-
-
-#### The second page
- {#TheE2TermOfTheEAdamsSpectralSequence}
-
-
-+-- {: .num_theorem #SecondPageOfEAdamsSpectralSequence}
-###### Theorem
-
-If 
-
-1. $E$ is flat (def. \ref{FlatE}) and satisfies the conditions of prop. \ref{AdamsUCT}, 
-
-2. $E_\bullet(Y)$ a [[projective module]] over $\pi_\bullet(E)$, 
-
-then the entries of the second page of the $E$-Adams spectral sequence, def. \ref{AdamsEAdamsSpectralSequence}, for $[X,Y]_\bullet$ are the [[Ext]]-groups of [[commutative Hopf algebroid]]-[[comodules]] for the [[commutative Hopf algebroid]] structure on $E$-operations $E_\bullet(E)$ from prop.  \ref{HopfAlgebroidStructureOnDualEOperations}:
-
-
-$$
-  E_2^{s,t}(X,Y)
-  \simeq
-  Ext^{s,t}_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
-  \,.
-$$
-
-In the special case that $X = \mathbb{S}$, then (by prop. \ref{ComoduleHomInTermsOfCotensorProduct}) these are equivalently [[Cotor]]-groups
-
-$$
-  E^{s,t}_2(X,Y)
-    \simeq
-  Cotor^{s,t}_{E_\bullet(E)}(\pi_\bullet(E), E_\bullet(Y))
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The first page is given by theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}, and so by the standard theory of [[derived functors in homological algebra]] (see the section _[Via acyclic resolutions](derived+functor+in+homological+algebra#ViaAcyclicResolutions)_), it is now sufficient to see that:
-
-1. the category $E_\bullet(E) CoMod$ is an [[abelian category]];
-
-1. the graded chain complex of theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} is the image under the [[hom-functor]] $F \coloneqq Hom_{E_\bullet(E)}(E_\bullet(Y),-)$ of an $F$-[[acyclic resolution]] of $E_\bullet(X)$.
-
-We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
-
-By lemma \ref{ResolutionEWp} we already know that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{EnHomology} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
-
-=--
-
-([Adams 74, theorem 15.1, page 323](#Adams74))
 
 ##### Homological co-algebra
 
