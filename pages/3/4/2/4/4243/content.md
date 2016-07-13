@@ -117,6 +117,9 @@ That the A-model [[Lagrangian]] arises in [[AKSZ theory]] by [[gauge fixing]] th
 
 * {#AKSZ} M. Alexandrov, [[Maxim Kontsevich|M. Kontsevich]], [[Albert Schwarz|A. Schwarz]], O. Zaboronsky, around page 19 in _The geometry of the master equation and topological quantum field theory_, Int. J. Modern Phys. A 12(7):1405--1429, 1997
 
+with more details in 
+
+* {#BonechiCattaneoIraso16} Francesco Bonechi, [[Alberto Cattaneo]], Riccardo Iraso, _Comparing Poisson Sigma Model with A-model_ ([arXiv:1607.03411](http://arxiv.org/abs/1607.03411))
 
 Review and further discussion includes
 
