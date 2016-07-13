@@ -60,6 +60,7 @@ In the second case there is by induction assumption an element $a \in A$ such th
 
 +-- {: .num_theorem #FiniteAbelianGroupIsDirectSumOfCyclics}
 ###### Theorem
+**([[fundamental theorem of finite abelian groups]])**
 
 Every finite abelian group is the [[direct sum of abelian groups|direct sum]] of [[cyclic groups]] of [[order of a group|order]] $p^k$ for a [[prime number]] $p \in \mathbb{N}$ (its [[p-primary groups]]).
 
@@ -69,7 +70,13 @@ See for instance ([Sullivan](#Sullivan)).
 
 ## References
 
-* John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
- {#Sullivan}
+A new proof of the [[fundamental theorem of finite abelian groups]] was given in 
+
+* {#Navarro03} Gabriel Navarro, _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly, February 2003
+
+reviewed in
+
+* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
+ 
 
 [[!redirects finite abelian groups]]
