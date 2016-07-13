@@ -24,6 +24,7 @@ To cut the story short, we end up getting from the Monster group to a module it 
 ## Related concepts
 
 * [[Monster]]
+* [[Mathieu moonshine]]
 * [[umbral moonshine]]
 
 
