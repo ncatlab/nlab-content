@@ -12,7 +12,9 @@ By classical results due to Nikulin, Mukai, Xiao and Kondo in the 1980's and 90'
 
 ## Related concepts
 
-* [[Moonshine]], [[monster group]]
+* [[Moonshine]], 
+* [[monster group]]
+* [[umbral moonshine]]
 
 ## References
 
