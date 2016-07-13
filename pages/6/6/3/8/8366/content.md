@@ -11,6 +11,12 @@ For $a,b \in \mathbb{N}$ two positive [[natural numbers]], their **least common 
 
 * [[greatest common divisor]]
 
+## References
+
+* Wikipedia, _[Least common multiple](https://en.wikipedia.org/wiki/Least_common_multiple)_
+
+[[!redirects lcm]]
+
 [[!redirects smallest common multiple]]
 [[!redirects lowest common multiple]]
 
