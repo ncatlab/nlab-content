@@ -3716,7 +3716,7 @@ Define the following [[pointed topologically enriched categories|pointed topolog
 
    The tensor product is the addition of natural numbers, $\otimes = +$, and the [[tensor unit]] is 0. The [[braiding]] is, necessarily, the identity.
 
-1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$ (hence \overline{0} is the [[empty set]]), all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma(n)$ on $n$ elements, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$ (hence $\overline{0}$ is the [[empty set]]), all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma(n)$ on $n$ elements, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
 
    $$
      Sym(n_1, n_2) 
@@ -3741,6 +3741,8 @@ Define the following [[pointed topologically enriched categories|pointed topolog
    $$
 
    is given by the canonical [[permutation]] in $\Sigma(n_1+n_2)$ that [[shuffle|shuffles]] the first $n_1$ elements past the remaining $n_2$ elements.
+
+   ([MMSS 00, example 4.2](#MMSS00))
 
 
 1. $Orth$ has as objects the finite dimenional real linear [[inner product spaces]] $(\mathbb{R}^n, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(\mathbb{R}^n, \langle -,-\rangle)$ is the [[orthogonal group]] $O(n)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}_{cg}$-enriched category by adjoining a basepoint to the hom-spaces;
@@ -3768,6 +3770,9 @@ Define the following [[pointed topologically enriched categories|pointed topolog
    $$
 
    is the canonical orthogonal transformation that switches the summands.
+
+   ([MMSS 00, example 4.4](#MMSS00))
+
 
 Notice that in the notation of example \ref{CoendGivesQuotientByDiagonalGroupAction}
 
