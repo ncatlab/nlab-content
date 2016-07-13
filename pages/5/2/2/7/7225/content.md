@@ -30,6 +30,10 @@ As such, it is the [[initial algebra]] of the functor $F: \mathbb{Z} \darr LCHAb
 
 The Pr&#252;fer $p$-groups are the only infinite groups whose [[subgroups]] are [[total order|totally ordered]] by inclusion. They are often useful as [[counterexamples in algebra]]; for example, a Pr&#252;fer group is an Artinian but not a Noetherian $\mathbb{Z}$-module. 
 
+## Related concepts
+
+* [[localization of abelian groups]]
+
 [[!redirects Prufer group]]
 [[!redirects Pruefer group]] 
 [[!redirects Prufer groups]]
