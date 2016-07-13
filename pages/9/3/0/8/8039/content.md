@@ -26,7 +26,7 @@ By classical results due to Nikulin, Mukai, Xiao and Kondo in the 1980's and 90'
 
 ### Surveys
 
-* Robert Volpato, _Mathieu moonshine and elliptic genus of K3_ (2010) ([pdf](http://th-workshop2010.desy.de/sites/site_th-workshop2010/content/e98837/e98839/e99205/infoboxContent99210/Volpato.pdf))
+* Robert Volpato, _Mathieu moonshine and elliptic genus of K3_ (2010) ([pdf](http://th-workshop2010.desy.de/e98837/e98839/e99205/infoboxContent99210/Volpato.pdf))
 
 * Mathematisches Institute Freiburg, _Mathieu moonshine_ ([web](http://home.mathematik.uni-freiburg.de/mathphys/mitarbeiter/wendland/publikationen/mathieu.html))
  {#Freiburg}
