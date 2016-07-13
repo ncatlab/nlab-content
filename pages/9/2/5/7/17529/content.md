@@ -1,0 +1,49 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ ($p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the infinite cyclic group $\mathbb{Z}$:
+
+$$
+  A 
+  \;\simeq\;
+  \mathbb{Z}^n
+   \oplus
+  \underset{i}{\bigoplus}
+   \mathbb{Z}/p_i^{k_i} \mathbb{Z}
+  \,.
+$$
+
+This is a special case of the _[[ structure theorem for finitely generated modules over a principal ideal domain]]_.
+
+## References
+
+
+A new proof of the [[fundamental theorem of finite abelian groups]] was given in 
+
+* {#Navarro03} Gabriel Navarro, _On the fundamental theorem of finite abelian groups_, Amer. Math. Monthly, February 2003
+
+reviewed in
+
+* {#Sullivan} John Sullivan, _Classification of finite abelian groups_ ([pdf](http://www.isama.org/jms/m317/handouts/finabel.pdf))
+
+See also
+
+* Wikipedia, _[Finitely generated abelian group -- Primary decomposition](https://en.wikipedia.org/wiki/Finitely_generated_abelian_group#Primary_decomposition)_
+
+
+[[!redirects fundamental theorem of finite abelian groups]]
