@@ -2316,14 +2316,14 @@ $$
   Hom_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
 $$
 
-but in fact produces homomorphisms of modules over $\pi_\bullet(E)$
+but in fact produces homomorphisms of comodules over $E_\bullet(E)$
 
 $$
   \alpha
    \;\colon\;  
   [X,Y]_\bullet
     \longrightarrow
-  Hom_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet(Y))
+  Hom_{E_\bullet(E)}(E_\bullet(X), E_\bullet(Y))
   \,.
 $$
 
@@ -2368,7 +2368,7 @@ $$
     \\
     [X,N]_\bullet
       &\underset{\pi_\bullet(E \wedge -)}{\longrightarrow}&
-    Hom^\bullet_{Ab}(E_\bullet(X), E_\bullet(Y))
+    Hom^\bullet_{Ab^{\mathbb{Z}}}(E_\bullet(X), E_\bullet(Y))
   }
   \,,
 $$
