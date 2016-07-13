@@ -638,9 +638,9 @@ $$
   0 \to A \to B \to C \to 0
 $$
 
-be a [[nLab:short exact sequence]] in $\mathcal{A}$.  
+be a [[short exact sequence]] in $\mathcal{A}$.  
 
-Then there is a [[nLab:long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
+Then there is a [[long exact sequence]] of images of these objects under the right derived functors $R^\bullet F(-)$ of def. \ref{RightDerivedFunctorOfLeftExactFunctor}
 
 $$
   \array{
