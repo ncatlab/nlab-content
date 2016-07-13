@@ -24,7 +24,7 @@ For $p$ a [[prime number]], a [[group]] is _$p$-primary_ if each of its elements
 
 ### Relation to finite abelian group
 
-Every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups. 
+The [[fundamental theorem of finite abelian groups]] stats that every [[finite abelian group]] is a [[direct sum]] of its $p$-primary subgroups. 
 
 ### Nilpotency 
 
