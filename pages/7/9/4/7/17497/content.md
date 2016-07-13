@@ -675,7 +675,7 @@ The category $Top^{\ast/}_{cg}$ is also a [[closed monoidal category]] (def. \re
 
 The category [[Ab]] of [[abelian groups]], regarded as enriched in [[discrete topological spaces]], becomes a [[symmetric monoidal category]] with tensor product the actual [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ and with [[tensor unit]] the additive group $\mathbb{Z}$ of [[integers]]. Again the [[associator]], [[unitor]] and [[braiding]] isomorphism are the evident ones coming from the underlying sets, as in example \ref{TopAsASymmetricMonoidalCategory}.
 
-This is a [[closd monoidal cagory]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
+This is a [[closed monoidal category]] with [[internal hom]] $hom(A,B)$ being the set of [[homomorphisms]] $Hom_{Ab}(A,B)$ equipped with the pointwise group structure for $\phi_1, \phi_2 \in Hom_{Ab}(A,B)$ then $(\phi_1 + \phi_2)(a) \coloneqq \phi_1(a) + \phi_2(b) \; \in B$.
 
 This is the archetypical case that motivates the notation "$\otimes$" for the pairing operation in a [[monoidal category]]: 
 
@@ -2648,7 +2648,7 @@ $$
   [\mathcal{C},Top^{\ast/}_{cg}](X \otimes_{Day} Y, Z) 
     \simeq 
   [\mathcal{C}\times \mathcal{C},Top^{\ast/}_{cg}](
-    X \overline{\wedge} Y,\; Z \circ \wedge
+    X \overline{\wedge} Y,\; Z \circ \otimes
   )
   \,,
 $$
