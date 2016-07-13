@@ -1,4 +1,4 @@
-The **Umbral Moonshine Conjectures** assert that there are infinite-dimensional graded modules, for prescribed finite groups, whose McKay-Thompson series are certain distinguished mock modular forms. It relates the 23 Niemeier lattices, even unimodular positive-definite lattices of rank 24 with notrivial root systems, to mock theta functions. 
+The **Umbral Moonshine Conjectures** assert that there are infinite-dimensional graded modules, for prescribed finite groups, whose McKay-Thompson series are certain distinguished mock modular forms. It relates the 23 Niemeier lattices, even unimodular positive-definite lattices of rank 24 with non-trivial root systems, to mock theta functions. 
 
 Umbral moonshine is a generalization of the [[Mathieu moonshine]] phenomenon which relates representations of the [[Mathieu group]] $M_24$ with [[K3 surfaces]]. As noted in 2010 by Eguchi, Ooguri, and Tachikawa, dimensions of some representations of $M_24$, the largest sporadic simple Mathieu group, are multiplicities of superconformal algebra characters in the K3 elliptic genus.
 
