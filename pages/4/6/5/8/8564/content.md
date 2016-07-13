@@ -174,7 +174,7 @@ In the other direction, suppose $M$ is torsionfree. Any module is the filtered c
 
 ### Structure theory of finitely generated modules 
 
-...
+_[[structure theorem for finitely generated modules over a principal ideal domain]]_
 
 
 ## In constructive mathematics
