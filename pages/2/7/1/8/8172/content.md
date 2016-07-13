@@ -2440,7 +2440,7 @@ Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introducti
 Then the homomorphism of [[graded abelian groups]]
 
 $$
-  \beta
+  \phi_{UC}
   \;\colon\;
   [X, E \wedge Y]_\bullet 
     \stackrel{}{\longrightarrow}
@@ -2466,7 +2466,9 @@ is an [[isomorphism]].
 
 =--
 
-A stronger version of this statement, with the free homotopy $E$-module spectrum $E \wedge Y$ replaced by any homotopy $E$-module spectrum, but subject to much stronger assumptions, appears as ([Adams 74, chapter III, prop. 13.5](#Adams74)) ("[[universal coefficient theorem]]"). For the following we need only the above weaker but more general version ([Schwede 12, chapter II, prop. 6.20](#Schwede12)), and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too.
+([Schwede 12, chapter II, prop. 6.20](#Schwede12))
+
+
 
 +-- {: .proof}
 ###### Proof
@@ -2486,7 +2488,7 @@ $$
 
 where 
 
-1. $E Mod = E Mod(Ho(Spectra), \wedge \mathbb{S})$ denotes the category of [[homotopy module spectra]] over $E$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum))
+1. $E Mod = E Mod(Ho(Spectra), \wedge, \mathbb{S})$ denotes the category of [[homotopy module spectra]] over $E$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum))
 
 1. the first morphisms is the [[free-forgetful adjunction]] isomorphism for forming [[free modules|free]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)) $E$-[[homotopy module spectra]] 
 
@@ -2630,6 +2632,24 @@ hence of a spectrum for which the morphism in question is an isomorphism.
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+A stronger version of the statement of prop. \ref{AdamsUCT}, with the free homotopy $E$-module spectrum $E \wedge Y$ replaced by any homotopy $E$-module spectrum $F$, is considered in ([Adams 74, chapter III, prop. 13.5](#Adams74)) ("[[universal coefficient theorem]]"). Strong conditions are considered that ensure that
+
+$$
+  F^\bullet(X) = [X,F]_\bullet
+    \longrightarrow 
+  Hom^\bullet_{\pi_\bullet(E)}(E_\bullet(X), \pi_\bullet(F))
+$$
+
+is an isomormphism (expressing the $F$-cohomology of $X$ as the $\pi_\bullet(E)$-linear dual of the $E$-homology of $X$).
+
+For the following we need only the weaker but much more general statement of prop. \ref{AdamsUCT}, and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too.
+
+
+=--
+
 
 With this we finally get the following statement, which serves to identify maps of certain spectra with their induced maps on $E$-homology:
 
@@ -2644,11 +2664,11 @@ Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introducti
 1. $E_\bullet(X)$ is a [[projective module]] over $\pi_\bullet(E)$ (via [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)).
 
 
-Then the morphism from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} (for the case that the second argument is a smash product with $E$)
+Then the morphism from lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms} 
 
 $$
  [X, E \wedge Y]_\bullet 
-   \stackrel{}{\longrightarrow}
+   \stackrel{\pi_\bullet(E \wedge -)}{\longrightarrow}
   Hom_{E_\bullet(E)}^\bullet(E_\bullet(X), E_\bullet( E \wedge Y)))
    \simeq
   Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y) ))
@@ -2669,10 +2689,10 @@ Observe that the following [[commuting diagram|diagram commutes]]:
 $$
   \array{
     [X, E \wedge Y]_\bullet
-     && \overset{\alpha}{\longrightarrow} &&
+     && \overset{\pi_\bullet(E \wedge -)}{\longrightarrow} &&
     Hom_{E_\bullet(E)}^\bullet(E_\bullet(X),  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(Y) ))
     \\
-    & {}_{\mathllap{\beta}}\searrow 
+    & {}_{\mathllap{\phi_{UC}}}\searrow 
       && 
     \swarrow_{\mathrlap{\epsilon \otimes id \circ (-) }}
     \\
@@ -2708,6 +2728,7 @@ and so it follows that the top horizontal morphism is an isomorphism, too.
 
 
 =--
+
 
 In conclusion:
 
