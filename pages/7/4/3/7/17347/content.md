@@ -2620,7 +2620,7 @@ The proof of prop. \ref{Lim1IsDerivedLimit} only used the conditions from prop. 
 
 =--
 
-The following is a kind of double dual version of $\lim^1$:
+The following is a kind of double dual version of the $\lim^1$ construction which is sometimes useful:
 
 +-- {: .num_lemma #lim1AndExt1}
 ###### Lemma
