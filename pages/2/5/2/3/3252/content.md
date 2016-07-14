@@ -91,5 +91,7 @@ $$
 
 * [[index of a subgroup]]
 
+* [[lattice of subgroups]]
+
 [[!redirects subgroup]]
 [[!redirects subgroups]]
