@@ -571,3 +571,7 @@ section 2.4 of
 
 [[!redirects localization of a spectrum]]
 [[!redirects localization of spectra]]
+
+[[!redirects localization of spectra]]
+[[!redirects localizations of spectra]]
+
