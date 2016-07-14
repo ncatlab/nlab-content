@@ -3152,44 +3152,11 @@ If an $E$-Adams spectral sequence converges, then it converges not necessarily t
 
 If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the [[Serre finiteness theorem]]) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the infinite cyclic group with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
 
-The deeper reason that $E$-Adams spectral sequences tend to converge to [[localizations of an abelian group]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that it really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_. 
+The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that it really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_. 
 
 Then we state convergence properties of $E$-Adams spectral sequences below in _[Convergence statements](#ConvergenceStatements)_.
 
 
-$\,$
-
-+-- {: .num_defn}
-###### Definition
-
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X,Y \in Ho(Spectra)$ two [[spectra]] with associated $E$-[[Adams spectral sequence]] $\{E_r^{s,t}, d_r\}$ (def. \ref{AdamsEAdamsSpectralSequence}). 
-
-Observe that 
-
-$$
-  if \; r \gt s \; then \; \;
-  E^{s,\bullet}_{r+1}(X,Y)
-   \simeq
-  ker(d_r|_{E_r^{s,\bullet}(X,Y)})
-  \subset
-  E_r^{s,\bullet}(X,Y)  
-$$
-
-since the differential $d_r$ on the $r$th page has bidegree $(r,r-1)$, and since $E_r^{s \lt 0,\bullet(X,Y)} \simeq 0$, so that for $r \gt s$ the image of $d_r$ in $E_r^{s,t}(X,Y)$ vanishes.
-
-Thus define the bigraded abelian group
-
-$$
-  E_\infty^{s,t}(X,Y)
-   \coloneqq
-  \underset{r \gt s}{\lim} E_r^{s,t}(X,Y)
-  =
-  \underset{r \gt s}{\cap} E_r^{s,t}(X,Y)
-$$
-
-called the "**infinity page**" of the $E$-Adams spectral sequence.
-
-=--
 
 ##### Primary decomposition of abelian groups
  {#PrimaryDecompositionOfAbelianGroups}
@@ -3295,6 +3262,169 @@ $$
   \mathbb{Z}/3\mathbb{Z}
   \,.
 $$
+
+=--
+
++-- {: .num_remark #pprimarygraphical}
+###### Remark
+**(graphical representation of p-primary decompositions)**
+
+
+Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
+
+* a total number $k \in \mathbb{N}$ of powers of $p$;
+
+* a [[partition]] $k = k_1 + k_2 + \cdots + k_q$.
+
+The corresponding [[p-primary group]] is
+
+$$
+  \underoverset{i = 1}{q}{\bigoplus} \mathbb{Z}/p^{k_i} \mathbb{Z}
+  \,.
+$$ 
+
+In the context of [[Adams spectral sequences]] it is conventional to depict this information graphically by
+
+* $k$ dots;
+
+* of which sequences of length $k_i$ are connected by vertical lines, for $i \in \{1, \cdots, q\}$.
+
+For example the graphical representation of the $p$-primary group
+
+$$
+  \mathbb{Z}/p\mathbb{Z} 
+    \oplus 
+  \mathbb{Z}/p\mathbb{Z}
+    \oplus 
+  \mathbb{Z}/p^3 \mathbb{Z}
+    \oplus
+  \mathbb{Z}/p^4\mathbb{Z}
+$$
+
+is
+
+$$
+  \array{
+      &&& \bullet
+      \\
+      && & \vert
+      \\
+      && \bullet & \bullet
+      \\
+      && \vert & \vert
+      \\
+      && \bullet & \bullet
+      \\
+      && \vert & \vert
+      \\
+     \bullet & \bullet & \bullet & \bullet
+  }
+  \,.
+$$
+
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to (as discussed [below](#ConvergenceStatements)):
+
+* a dot on the bottom line denotes one copy of the group $\mathbb{Z}/p\mathbb{Z}$;
+
+* inductively, a dot vetically above a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots below;
+
+* a vertical line between two dots means that he upper dot arises, as a generator of this group, from the generator corresponding to the lower dot by multiplication with $p$.
+
+So for instance
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  A 
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+such that multiplication by $p$ takes the generator of the first copy of $\mathbb{Z}/p\mathbb{Z}$ to the generator of the second copy.
+
+This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p^2\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+the image of the generator 1 of the first group in the middle group is $p$, and the image $[p]$ of that in the third group is the generator of the third group.
+
+Conversely, the notation
+
+
+$$
+  \array{
+    \bullet
+    \\
+    \\
+    \bullet
+  }
+$$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  A 
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+$$
+
+such that multiplication by $p$ of the generator of the top group in the middle group does _not_ yield the generator of the bottom group. 
+
+This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the trivial extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}$. Because then in
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+the generator 1 of the first group is the element $(1,0)$ in the second, and multiplication of that by $p$ os $(0,0)$ instead of $(0,1)$, where the latter is the generator of the third group.
+
+For example, as we will compute [below](Introduction+to+Stable+homotopy+theory+--+2#ClassicalAdamsSpectralSequence), the stable page of the $H\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in internal degree $t-s \leq 13$ the following non-trivial entries:
+
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]])))
+
+Ignoring here the diagonal lines (which denote multiplication by the element $h_1$ that encodes the additional [[ring]] structure on $\pi_\bullet(\mathbb{S})$ which here we are not concerned with) and applying the above prescription, we read off for instance that $\pi_3(\mathbb{S}) \simeq \mathbb{Z}/8\mathbb{Z}$ (because all three dots are connected) while $\pi_8(\mathbb{S}) \simeq \mathbb{Z}/2\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z} $ (because here the two dots are not connected). In total:
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
 
 =--
 
@@ -4113,6 +4243,39 @@ For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal com
 **Literature**: ([Bousfield 79](#Bousfield79))
 
 $\,$
+
++-- {: .num_defn}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X,Y \in Ho(Spectra)$ two [[spectra]] with associated $E$-[[Adams spectral sequence]] $\{E_r^{s,t}, d_r\}$ (def. \ref{AdamsEAdamsSpectralSequence}). 
+
+Observe that 
+
+$$
+  if \; r \gt s \; then \; \;
+  E^{s,\bullet}_{r+1}(X,Y)
+   \simeq
+  ker(d_r|_{E_r^{s,\bullet}(X,Y)})
+  \subset
+  E_r^{s,\bullet}(X,Y)  
+$$
+
+since the differential $d_r$ on the $r$th page has bidegree $(r,r-1)$, and since $E_r^{s \lt 0,\bullet(X,Y)} \simeq 0$, so that for $r \gt s$ the image of $d_r$ in $E_r^{s,t}(X,Y)$ vanishes.
+
+Thus define the bigraded abelian group
+
+$$
+  E_\infty^{s,t}(X,Y)
+   \coloneqq
+  \underset{r \gt s}{\lim} E_r^{s,t}(X,Y)
+  =
+  \underset{r \gt s}{\cap} E_r^{s,t}(X,Y)
+$$
+
+called the "**infinity page**" of the $E$-Adams spectral sequence.
+
+=--
+
 
 
 +-- {: .num_defn #CoreOfARing}
