@@ -1,0 +1,9 @@
+
+
+* [webpage](http://www.uni-regensburg.de/mathematik/mathematik-engel/)
+
+## related $n$Lab entries
+
+* [[bornological coarse space]]
+
+category: people
