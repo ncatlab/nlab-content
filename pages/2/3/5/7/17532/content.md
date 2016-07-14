@@ -1,0 +1,65 @@
+[[!redirects category-of-G-sets]]
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topos Theory
++--{: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+This entry is about the category of continuous $G$-sets, for a [[topological group]] $G$. Continuous $G$-sets are sets $X$ with an action of $G$ that is continuous when $X$ is given the discrete topology. This notion is not too useful when $G$ is a "usual" topology group like $SU(2)$. Instead, the topology on the group acts as a filter of subgroups (where the filter contains the open subgroups), and each element of a continuous $G$-set is required to have a "large" stabilizer.
+
+The category of continuous $G$-sets is a [[Grothendieck topos]], and is closely related to [[Fraenkel-Mostowski models]].
+
+## Definition
+
+Let $G$ be a topological group.
++-- {: .num_defn}
+###### Definition
+
+The **category of continuous $G$-sets** is the [[category]] of sets $X$ equipped with a continuous $G$-action $\mu: G \times X \to X$, where $X$ is given the discrete topology, and the morphisms are the $G$-invariant maps.
+=--
+
+There is a simple characterization of when a $G$-action is continuous.
++-- {: .num_prop}
+###### Proposition
+Let $G$ be a topological group, and $X$ be a set with a $G$ action $\mu: G \times X \to X$. Then the action is continuous if and only if the stabilizer of each element is open.
+=--
+
++-- {: .proof}
+###### Proof
+Suppose $\mu$ is continuous. Since $X$ has the discrete topology, $\{x\}$ is an open subset of $X$. So $\mu^{-1}(\{x\})$ is open. So we know the stabilizer
+$$
+  I_x = \{g \in G: g \cdot x = x\} = \{g \in G: (g, x) \in \mu^{-1}(\{x\})\}
+$$
+is open.
+
+Conversely, suppose each such set is open. Given any (necessarily open) subset $A \subseteq X$, its inverse image is
+$$
+  \mu^{-1}(A) = \bigcup_{a \in A} \mu^{-1}(\{a\}).
+$$
+So it suffices to show that each $\mu^{-1}(\{a\})$ is open. We have
+$$
+  \mu^{-1}(\{a\}) = \bigcup_{x \in X}\{x\} \times \{g \in G: g \cdot x = a\}.
+$$
+Thus we only have to show that for each $a, x \in X$, the set $\{g \in G: g \cdot x = a\}$ is open. If there is no such $g$, then this is empty, hence open. Otherwise, let $g_0$ be such that $g_0 \cdot x= a$.  Then we have
+$$
+  \{g \in G: g \cdot x = a\} = g_0 \cdot I_x.
+$$
+Since $g_0$ is a homeomorphism, and $I_x$ is open, this is open. So done.
+=--
+
+## Equivalent characterizations
+
+### As a Grothendieck topos
+To be included.
+
+### As a comonad algebra
+To be included.
