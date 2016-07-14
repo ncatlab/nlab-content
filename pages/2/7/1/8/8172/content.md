@@ -1041,7 +1041,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), this is part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the homtopy cofiber sequence 
+By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), this is part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the [[homotopy cofiber sequence]] 
 
 $$
   \overline{E}
@@ -1250,7 +1250,7 @@ $$
   \,.
 $$
 
-Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning, $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is [[flat module|flat]], the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
+Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends [[homotopy cofiber sequences]] to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning, $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is [[flat module|flat]], the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
 
 Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
 
@@ -3150,9 +3150,9 @@ We discuss the convergence of $E$-Adams spectral sequences (def. \ref{AdamsEAdam
 
 If an $E$-Adams spectral sequence converges, then it converges not necessarily to the full stable homotopy groups $[X,Y]_\bullet$, but to some [[localization of abelian groups|localization]] of them. This typically means roughly that only certain $p$-[[torsion subgroups]] in $[X,Y]_\bullet$ for some [[prime numbers]] $p$ are retained. We give a precise discussion below in _[Localization and adic completion of abelian groups](#LocalizationOfAbelianGroups)_.
 
-If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the [[Serre finiteness theorem]]) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the infinite cyclic group with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
+If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the [[Serre finiteness theorem]]) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} below) these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the infinite cyclic group with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
 
-The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that it really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_. 
+The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that they really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_. 
 
 Then we state convergence properties of $E$-Adams spectral sequences below in _[Convergence statements](#ConvergenceStatements)_.
 
@@ -3161,9 +3161,11 @@ Then we state convergence properties of $E$-Adams spectral sequences below in _[
 ##### Primary decomposition of abelian groups
  {#PrimaryDecompositionOfAbelianGroups}
 
-+-- {: .num_theorem}
-###### Theorem
-**(fundamental theorem of finitely generated abelian groups)**
+An $E$-[[Adams spectral sequence]] _typically_ converges (discussed [below](#ConvergenceStatements)) not to the full [[stable homotopy groups]] $[X,Y]_\bullet$, but just to some piece which on the [[finite group|finite]] [[direct summands]] consists only of [[p-primary groups]] for some [[prime numbers]] $p$ that depend on the nature of the [[homotopy ring spectrum]] $E$ . Here we review basic facts about $p$-primary decomposition of finite abelian groups and introduce their graphical calculus (remark \ref{pprimarygraphical} below) which will allow to read off these $p$-primary pieces from the stable page of the $E$-Adams spectral sequnce.
+
++-- {: .num_prop #FundamentalTheoremOfFinitelyGeneratedAbelianGroups}
+###### Proposition
+**([[fundamental theorem of finitely generated abelian groups]])**
 
 Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ (for $p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the infinite cyclic group $\mathbb{Z}$:
 
@@ -3322,13 +3324,13 @@ $$
   \,.
 $$
 
-This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to (as discussed [below](#ConvergenceStatements)):
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
 
-* a dot on the bottom line denotes one copy of the group $\mathbb{Z}/p\mathbb{Z}$;
+* a dot at the top of a vertical sequence of dots denotes the group $\mathbb{Z}/p\mathbb{Z}$;
 
-* inductively, a dot vetically above a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots below;
+* inductively, a dot vetically below a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots above;
 
-* a vertical line between two dots means that he upper dot arises, as a generator of this group, from the generator corresponding to the lower dot by multiplication with $p$.
+* a vertical line between two dots means that the the generator of the group corresponding to the upper dot is, regarded after inclusion into the group extension, the product by $p$ of the generator of the group corresponding to the lower dot, regarded as represented by the generator of the group extension.
 
 So for instance
 
@@ -3345,34 +3347,38 @@ $$
 stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  A 
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
-such that multiplication by $p$ takes the generator of the first copy of $\mathbb{Z}/p\mathbb{Z}$ to the generator of the second copy.
+such that multiplication by $p$ takes the generator of the bottom copy of $\mathbb{Z}/p\mathbb{Z}$, regarded as represented by the generator of $A$, to the generator of the image of the top copy of $\mathbb{Z}/p\mathbb{Z}$.
 
-This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
+This means that of the two possible choices of extensions (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p^2\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p^2 \mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} & 
+  }
 $$
 
-the image of the generator 1 of the first group in the middle group is $p$, and the image $[p]$ of that in the third group is the generator of the third group.
+the image of the generator 1 of the first group in the middle group is $p = p \cdot 1$.
 
 Conversely, the notation
 
@@ -3389,30 +3395,77 @@ $$
 stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
 
 $$
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  A 
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
 such that multiplication by $p$ of the generator of the top group in the middle group does _not_ yield the generator of the bottom group. 
 
-This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the trivial extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}$. Because then in
+This means that of the two possible choices (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the _trivial_ extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}$. Because then in
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} 
+      \oplus
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
-the generator 1 of the first group is the element $(1,0)$ in the second, and multiplication of that by $p$ os $(0,0)$ instead of $(0,1)$, where the latter is the generator of the third group.
+the generator 1 of the top group maps to the element $(1,0)$ in the middle group, and multiplication of that by $p$ is $(0,0)$ instead of $(0,1)$, where the latter is the generator of the bottom group.
+
+Similarly 
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+is to be read as the result of appending to the previous case a dot _below_, so that this now indicates a group extension of the form
+
+$$
+  \array{
+    \mathbb{Z}/p^2 \mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p \mathbb{Z}
+  }
+$$
+
+such that $p$-times the generator of the bottom group, regarded as represented by the generator of the middle group, is the image of the generator of the top group. This is again the case for the unique non-trivial extension, and hence in this case the diagram stands for $A = \mathbb{Z}/p^3 \mathbb{Z}$.
+
+And so on.
+
 
 For example, as we will compute [below](Introduction+to+Stable+homotopy+theory+--+2#ClassicalAdamsSpectralSequence), the stable page of the $H\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in internal degree $t-s \leq 13$ the following non-trivial entries:
 
@@ -3497,6 +3550,16 @@ is called an **$A$-localization** if
 
 =--
 
+We now discuss two classes of examples of localization of abelian groups
+
+1. _[Classical localization at/away from primes](#ClassicalLocalizationOfAbelianGroups)_;
+
+1. _[Formal completion at primes](#FormalCompletionOfAbelianGroups)_.
+
+$\,$
+
+**Classical localization at/away from primes**
+{#ClassicalLocalizationOfAbelianGroups}
 
 
 For $n \in \mathbb{N}$, write $\mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order of a group|order]] $n$.
@@ -3654,6 +3717,18 @@ Similarly localization _at_ $p$ is localization away from all points except $p$.
 See also at _[[function field analogy]]_ for more on this.
 
 =--
+
+$\,$
+
+**Formal completion at primes**
+ {#FormalCompletionOfAbelianGroups}
+
+We have seen above in remark \ref{ClassicalLocalizationSeenFromSpecZ} that classical localization of abelian groups at a prime number is geometrically interpreted as restricting a [[quasicoherent sheaf]] over [[Spec(Z)]] to a single point, the point that is labeled by that prime number.
+
+Alternatively one may restrict to the "infinitesimal neighbourhood" of such a point. Technically this is called the _[[formal neighbourhood]]_, because its ring of functions is, by definition, the ring of [[formal power series]] (regarded as an [[adic ring]] or [[pro-ring]]). The corresponding operation on abelian groups is accordingly called _[[formal completion]]_ or _[[adic completion]]_ or just _completion_, for short, of abelian groups.
+
+It turns out that if the abelian group is [[finitely generated object|finitely generated]] then the operation of [[p-completion]] coincides with an operation of _localization_ in the sense of def. \ref{AbelianGroupLocal}, namely localization at the [[p-primary group|p-primary component]] $\mathbb{Z}(p^\infty)$ of the group $\mathbb{Q}/\mathbb{Z}$ (def. \ref{ZpInfinity} below). On the one hand this equivalence is useful for deducing some key properties of [[p-completion]], this we discuss below. On the other hand this situation is a shadow of the relation between [[localization of spectra]] and [[nilpotent completion of spectra]], which is important for characterizing the convergence properties of [[Adams spectral sequences]].
+
 
 
 +-- {: .num_defn  #pInvertedInZ}
@@ -4057,7 +4132,7 @@ For $p$ a [[prime number]], if $A$ is a [[finite abelian group]], then its $p$-c
 +-- {: .proof}
 ###### Proof
 
-By the [[fundamental theorem of finite abelian groups]], $A$ is a finite [[direct sum]] 
+By the [[fundamental theorem of finite abelian groups]] (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}), $A$ is a finite [[direct sum]] 
 
 $$
   A 
@@ -5821,5 +5896,7 @@ For [[tmf]]
 * [[Mark Behrens]], _The Adams spectral sequence for $tmf$_ ([[BehrensANSSfortmf.pdf:file]])
 
 * [[Michael Hill]], _The 3-local $tmf$-homology of $B \Sigma_3$_, Proceedings of the AMS, 2007 ([pdf](http://www.ams.org/journals/proc/2007-135-12/S0002-9939-07-08937-X/S0002-9939-07-08937-X.pdf))
+
+[[!redirects Adams spectral sequences]]
 
 [[!redirects Adams spectral sequences]]
