@@ -99,7 +99,7 @@ is called an **$A$-localization** if
 
 
 
-## Classical localization at/away from primes
+###### Classical localization at/away from primes
 
 For $n \in \mathbb{N}$, write $\mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order of a group|order]] $n$.
 
@@ -257,7 +257,7 @@ See also at _[[function field analogy]]_ for more on this.
 
 =--
 
-## Completion at primes
+###### Completion at primes
 
 +-- {: .num_defn  #pInvertedInZ}
 ###### Definition
