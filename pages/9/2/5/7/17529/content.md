@@ -341,6 +341,62 @@ Ignoring here the diagonal lines (which denote multiplication by the element $h_
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
 
+Here the only entry that needs further explanation is the one for $k = 0$. The symbol $\mathbb{Z}_{(2)}$ refers to the [[p-adic integers|2-adic integers]], i.e. for the [[limit]]
+
+$$
+  \mathbb{Z}_{(2)}
+  = 
+  \underset{\longleftarrow}{\lim}_{n \geq 1} \mathbb{Z}/2^n \mathbb{Z}
+  \,.
+$$
+
+This is not [[p-primary group|2-primary]], but it does arrise when applying [[p-completion|2-completion]] of abelian groups to finitely generated abelian groups as in theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}. For more on this see at _[Adams spectral sequence -- Convergence](Adams+spectral+sequence#Convergence)_. Here we just note why this 2-completion is associated with the infinite sequence of dots
+
+$$
+  \array{
+    \vdots
+    \\
+    \vert
+    \\    
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+as in the above figure. Namely by the above prescrption, this infinite sequence should encode an abelian group $A$ such that it is an [[group extension|extension]] of $\mathbb{Z}/p\mathbb{Z}$ by itself of the form
+
+$$
+  0 \to A \overset{p \cdot(-)}{\longrightarrow} A \longrightarrow \mathbb{Z}/p\mathbb{Z}
+$$
+
+(Because it is supposed to encode an extension of $\mathbb{Z}/p\mathbb{Z}$ by the group corresponding to the result of chopping off the lowest dot, which however in this case does not change the figure.)
+
+Indeed, by [this lemma](p-adic+integer#pAdicIntegersAspExtensionofFpByThemselves) we have a short exact sequence
+
+$$
+  0 
+    \to
+  \mathbb{Z}_{(p)}
+    \overset{p \cdot (-)}{\longrightarrow}
+  \mathbb{Z}_{(p)}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+  \,.
+$$
+
 
 
 ## References
