@@ -3163,9 +3163,10 @@ Then we state convergence properties of $E$-Adams spectral sequences below in _[
 
 An $E$-[[Adams spectral sequence]] _typically_ converges (discussed [below](#ConvergenceStatements)) not to the full [[stable homotopy groups]] $[X,Y]_\bullet$, but just to some piece which on the [[finite group|finite]] [[direct summands]] consists only of [[p-primary groups]] for some [[prime numbers]] $p$ that depend on the nature of the [[homotopy ring spectrum]] $E$ . Here we review basic facts about $p$-primary decomposition of finite abelian groups and introduce their graphical calculus (remark \ref{pprimarygraphical} below) which will allow to read off these $p$-primary pieces from the stable page of the $E$-Adams spectral sequnce.
 
-+-- {: .num_prop #FundamentalTheoremOfFinitelyGeneratedAbelianGroups}
-###### Proposition
-**([[fundamental theorem of finitely generated abelian groups]])**
+
++-- {: .num_theorem #FundamentalTheoremOfFinitelyGeneratedAbelianGroups}
+###### Theorem
+**(fundamental theorem of finitely generated abelian groups)**
 
 Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ (for $p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the infinite cyclic group $\mathbb{Z}$:
 
@@ -3203,10 +3204,18 @@ Specifically, for each natural number $d$ dividing $n$ it contains $\mathbb{Z}/d
 
 =--
 
-(e.g. [Roman 12, theorem 13.4](fundamental+theorem+of+finitely+generated+abelian+groups#Roman12), [Navarro 03](fundamental+theorem+of+finitely+generated+abelian+groups#Navarro03)) for cyclic groups e.g. ([Aluffi 09, pages 83-84](fundamental+theorem+of+finitely+generated+abelian+groups#Aluffi09))
+(e.g. [Roman 12, theorem 13.4](#Roman12), [Navarro 03](#Navarro03)) for cyclic groups e.g. ([Aluffi 09, pages 83-84](#Aluffi09))
+
+This is a special case of the _[[ structure theorem for finitely generated modules over a principal ideal domain]]_.
 
 
-+-- {: .num_example}
+
+
+## Examples
+
+The following examples may be useful for illustrative or instructional purposes. 
+
++-- {: .num_example #TwoFiniteGroupsOfOrderp2}
 ###### Example
 
 For $p$ a [[prime number]], there are, up to [[isomorphism]], two [[abelian groups]] of [[order of a group|order]] $p^2$, namely
@@ -3251,26 +3260,28 @@ The isomorphism is given by sending $1$ to $(p_2,p_1)$.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example }
 ###### Example
 
-For $n = 12 = 2^2 \cdot 3$ then
-
-$$
-  \mathbb{Z}/12 \mathbb{Z}
-  \simeq
-  \mathbb{Z}/2^2 \mathbb{Z}
-  \oplus 
-  \mathbb{Z}/3\mathbb{Z}
-  \,.
-$$
+Moving up, for two distinct prime numbers $p_1$ and $p_2$, there are exactly two abelian groups of order $p_1^2 p_2$, namely $(\mathbb{Z}/p_1 \mathbb{Z})\oplus (\mathbb{Z}/p_1 \mathbb{Z}) \oplus (\mathbb{Z}/p_2 \mathbb{Z})$ and $(\mathbb{Z}/p_1^2 \mathbb{Z})\oplus (\mathbb{Z}/p_2 \mathbb{Z})$.  The latter is the [[cyclic group]] of order $p_1^2 p_2$.  For instance, $\mathbb{Z}/12\mathbb{Z} \cong (\mathbb{Z}/4 \mathbb{Z})\oplus (\mathbb{Z}/3 \mathbb{Z})$.
 
 =--
 
-+-- {: .num_remark #pprimarygraphical}
-###### Remark
-**(graphical representation of p-primary decompositions)**
 
++-- {: .num_example}
+###### Example
+
+Similarly, there are four abelian groups of order $p_1^2 p_2^2$, three abelian groups of order $p_1^3 p_2$, and so on.
+
+More generally, theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} may be used to compute exactly how many abelian groups there are of any finite [[order of a group|order]] $n$ (up to [[isomorphism]]): write down its [[prime factorization]], and then for each prime power $p^k$ appearing therein, consider how many ways it can be written as a product of positive powers of $p$.  That is, each [[partition]] of $k$ yields an abelian group of order $p^k$.  Since the choices can be made independently for each $p$, the numbers of such partitions for each $p$ are then multiplied.
+
+Of all these abelian groups of order $n$, of course, one of them is the [[cyclic group]] of order $n$.  The fundamental theorem of cyclic groups says it is the one that involves the one-element partitions $k= [k]$, i.e. the cyclic groups of order $p^k$ for each $p$.
+
+=--
+
+
+## Graphical representation
+ {#GraphicalRepresentation}
 
 Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
 
@@ -3467,20 +3478,74 @@ such that $p$-times the generator of the bottom group, regarded as represented b
 And so on.
 
 
-For example, as we will compute [below](Introduction+to+Stable+homotopy+theory+--+2#ClassicalAdamsSpectralSequence), the stable page of the $H\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in internal degree $t-s \leq 13$ the following non-trivial entries:
+
+For example the stable page of the $\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in ("internal") degree $t-s \leq 13$ the following non-trivial entries:
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
 (graphics taken from ([[Symmetric spectra|Schwede 12]])))
 
-Ignoring here the diagonal lines (which denote multiplication by the element $h_1$ that encodes the additional [[ring]] structure on $\pi_\bullet(\mathbb{S})$ which here we are not concerned with) and applying the above prescription, we read off for instance that $\pi_3(\mathbb{S}) \simeq \mathbb{Z}/8\mathbb{Z}$ (because all three dots are connected) while $\pi_8(\mathbb{S}) \simeq \mathbb{Z}/2\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z} $ (because here the two dots are not connected). In total:
+Ignoring here the diagonal lines (which denote multiplication by the element $h_1$ that encodes the additional [[ring]] structure on $\pi_\bullet(\mathbb{S})$ which here we are not concerned with) and applying the above prescription, we read off for instance that $\pi_3(\mathbb{S}) \simeq \mathbb{Z}/8\mathbb{Z}$ (because all three dots are connected) while $\pi_8(\mathbb{S}) \simeq \mathbb{Z}/2\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z} $ (because here the two dots are not connected). In total
 
 | $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
 
-=--
+Here the only entry that needs further explanation is the one for $k = 0$. The symbol $\mathbb{Z}_{(2)}$ refers to the [[p-adic integers|2-adic integers]], i.e. for the [[limit]]
 
+$$
+  \mathbb{Z}_{(2)}
+  = 
+  \underset{\longleftarrow}{\lim}_{n \geq 1} \mathbb{Z}/2^n \mathbb{Z}
+  \,.
+$$
+
+This is not [[p-primary group|2-primary]], but it does arise when applying [[p-completion|2-completion]] of abelian groups to finitely generated abelian groups as in theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}. For more on this see at _[Adams spectral sequence -- Convergence](Adams+spectral+sequence#Convergence)_. Here we just note why this 2-completion is associated with the infinite sequence of dots
+
+$$
+  \array{
+    \vdots
+    \\
+    \vert
+    \\    
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+as in the above figure. Namely by the above prescrption, this infinite sequence should encode an abelian group $A$ such that it is an [[group extension|extension]] of $\mathbb{Z}/p\mathbb{Z}$ by itself of the form
+
+$$
+  0 \to A \overset{p \cdot(-)}{\longrightarrow} A \longrightarrow \mathbb{Z}/p\mathbb{Z}
+$$
+
+(Because it is supposed to encode an extension of $\mathbb{Z}/p\mathbb{Z}$ by the group corresponding to the result of chopping off the lowest dot, which however in this case does not change the figure.)
+
+Indeed, by lemma \ref{pAdicIntegersAspExtensionofFpByThemselves} below we have a short exact sequence
+
+$$
+  0 
+    \to
+  \mathbb{Z}_{(p)}
+    \overset{p \cdot (-)}{\longrightarrow}
+  \mathbb{Z}_{(p)}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+  \,.
+$$
 
 ##### Localization and adic completion of abelian groups
   {#LocalizationOfAbelianGroups}
@@ -3509,44 +3574,46 @@ $$
 +-- {: .num_defn #AbelianGroupLocal}
 ###### Definition
 
-Let $A$ be an [[abelian group]]. 
+Let $K$ be an [[abelian group]]. 
 
-Then an [[abelian group]] $K$ is called **$A$-local** if all the [[Ext]]-groups from $A$ to $B$ vanish:
+Then an [[abelian group]] $A$ is called **$K$-local** if all the [[Ext]]-groups from $K$ to $A$ vanish:
 
 $$
-  Ext^\bullet(A,K) \simeq 0
+  Ext^\bullet(K,A) \simeq 0
 $$
 
 hence equivalently (remark \ref{ExtAb}) if
 
 $$
-  Hom(A,K) \simeq 0
+  Hom(K,A) \simeq 0
   \;\;\;\;\;
     and
   \;\;\;\;\;
-  Ext(A,K) \simeq 0
+  Ext(K,A) \simeq 0
   \,.
 $$
 
-A [[homomorphism]] of abelian groups $f \colon B \longrightarrow C$ is called **$A$-local** if for all $A$-local groups $K$ the function
+A [[homomorphism]] of abelian groups $f \colon B \longrightarrow C$ is called **$K$-local** if for all $K$-local groups $A$ the function
 
 $$
-  Hom(f,K) \;\colon\; Hom(B,K) \longrightarrow Hom(A,K)
+  Hom(f,A) \;\colon\; Hom(B,A) \longrightarrow Hom(A,A)
 $$
 
-is a [[bijection]].
+is a [[bijection]]. 
+
+> (**Beware** that here it would seem more natural to use $Ext^\bullet$ instead of $Hom$, but we do use $Hom$. See ([Neisendorfer 08, remark 3.2](#Neisendorfer08)).
 
 A homomorphism of abelian groups
 
 $$
-  \eta \;\colon\; B \longrightarrow L_A B
+  \eta \;\colon\; A \longrightarrow L_K A
 $$
 
-is called an **$A$-localization** if
+is called a **$K$-localization** if
 
-1. $L_A X$ is $A$-local;
+1. $L_K A$ is $K$-local;
 
-1. $\eta$ is a $A$-local.
+1. $\eta$ is a $K$-local morphism.
 
 =--
 
@@ -3559,8 +3626,7 @@ We now discuss two classes of examples of localization of abelian groups
 $\,$
 
 **Classical localization at/away from primes**
-{#ClassicalLocalizationOfAbelianGroups}
-
+ {#ClassicalLocalizationOfAbelianGroups}
 
 For $n \in \mathbb{N}$, write $\mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order of a group|order]] $n$.
 
@@ -3699,7 +3765,7 @@ Specifically
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #ClassicalLocalizationSeenFromSpecZ}
 ###### Remark
 
 The terminology in def. \ref{InvertingPrimes} is motivated by the following perspective of [[arithmetic geometry]]:
@@ -3718,6 +3784,7 @@ See also at _[[function field analogy]]_ for more on this.
 
 =--
 
+
 $\,$
 
 **Formal completion at primes**
@@ -3730,6 +3797,149 @@ Alternatively one may restrict to the "infinitesimal neighbourhood" of such a po
 It turns out that if the abelian group is [[finitely generated object|finitely generated]] then the operation of [[p-completion]] coincides with an operation of _localization_ in the sense of def. \ref{AbelianGroupLocal}, namely localization at the [[p-primary group|p-primary component]] $\mathbb{Z}(p^\infty)$ of the group $\mathbb{Q}/\mathbb{Z}$ (def. \ref{ZpInfinity} below). On the one hand this equivalence is useful for deducing some key properties of [[p-completion]], this we discuss below. On the other hand this situation is a shadow of the relation between [[localization of spectra]] and [[nilpotent completion of spectra]], which is important for characterizing the convergence properties of [[Adams spectral sequences]].
 
 
++-- {: .num_defn #AdicCompletionOfAbelingGroups}
+###### Definition
+
+For $p$ a [[prime number]], then the **[[p-adic completion]]** of an [[abelian group]] $A$ is the abelian group given by the [[limit]]
+
+$$
+  A^\wedge_p
+   \coloneqq
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots
+      \longrightarrow
+    A / p^3 A
+      \longrightarrow
+    A / p^2 A
+      \longrightarrow
+    A/p A
+  \right)
+  \,,
+$$
+
+where the morphisms are the evident [[quotient]] morphisms. With these understood we often write
+
+$$
+  A^\wedge_p \coloneqq \underset{\longleftarrow}{\lim}_n A/p^n A
+$$
+
+for short. Notice that here the indexing starts at $n = 1$.
+
+=--
+
++-- {: .num_example }
+###### Example
+
+The [[p-adic completion]] (def. \ref{AdicCompletionOfAbelingGroups}) of the [[integers]] $\mathbb{Z}$ is called the **[[p-adic integers]]**, often written
+
+$$
+  \mathbb{Z}_{(p)}
+    \coloneqq
+  \mathbb{Z}^\wedge_p
+    \coloneqq
+  \underset{\longleftarrow}{\lim}_n \mathbb{Z}/p^n \mathbb{Z}
+  \,,
+$$
+
+which is the original example that gives the general concept its name. 
+
+With respect to the canonical [[ring]]-structure on the integers, of course $p \mathbb{Z}$ is a prime ideal. 
+
+Compare this to the ring $\mathcal{O}_{\mathbb{C}}$ of [[holomorphic functions]] on the [[complex plane]]. For $x \in \mathbb{C}$ any point, it contains the prime ideal generated by $(z-x)$ (for $z$ the canonical [[coordinate]] function on $\mathbb{z}$). The [[formal power series ring]] $\mathbb{C}[ [(z.x)] ]$ is the [[adic completion]] of $\mathcal{O}_{\mathbb{C}}$ at this ideal. It has the interpretation of functions defined on a [[formal neighbourhood]] of $X$ in $\mathbb{C}$.
+
+Analogously, the [[p-adic integers]] $\mathbb{Z}_{(p)}$ may be thought of as the functions defined on a [[formal neighbourhood]] of the point labeled by $p$ in [[Spec(Z)]].
+
+=--
+
+
++-- {: .num_lemma #pAdicIntegersAspExtensionofFpByThemselves}
+###### Lemma
+
+There is a [[short exact sequence]]
+
+$$
+  0 
+    \to
+  \mathbb{Z}_{(p)}
+    \overset{p \cdot (-)}{\longrightarrow}
+  \mathbb{Z}_{(p)}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the following [[commuting diagram]]
+
+$$
+  \array{
+     \vdots && \vdots && \vdots
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p^3\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^4 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p^2\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^3 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     \mathbb{Z}/p\mathbb{Z}
+       &\overset{p\cdot (-)}{\longrightarrow}&
+     \mathbb{Z}/p^2 \mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+     \\
+     \downarrow
+       &&
+     \downarrow
+       &&
+     \downarrow
+     \\
+     0
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}
+       &\longrightarrow&
+     \mathbb{Z}/p\mathbb{Z}     
+  }
+  \,.
+$$
+
+Each horizontal sequence is exact. Taking the [[limit]] over the vertical sequences yields the sequence in question. Since limits commute over limits, the result follows.
+
+=--
+
+
+
+We now consider a concept of $p$-completion that is in general different from def. \ref{AdicCompletionOfAbelingGroups}, but turns out to coincide with it in [[finitely generated object|finitely generated]] abelian groups. spring
 
 +-- {: .num_defn  #pInvertedInZ}
 ###### Definition
@@ -3939,7 +4149,7 @@ $$
   \mathbb{Z}[1/p]/\mathbb{Z}
 $$
 
-(the [[p-primary group|p-primary]] part of $\mathbb{Q}/\mathbb{Z}$), for $\mathbb{Z}[1/p] = \underset{\longrightarrow}{\lim}(\mathbb{Z}\overset{p}{\to} \mathbb{Z} \overset{p}{\to} \mathbb{Z} \to \cdots )$ from def. \ref{pInvertedInZ}.
+(the [[p-primary group|p-primary]] part of $\mathbb{Q}/\mathbb{Z}$), where $\mathbb{Z}[1/p] = \underset{\longrightarrow}{\lim}(\mathbb{Z}\overset{p}{\to} \mathbb{Z} \overset{p}{\to} \mathbb{Z} \to \cdots )$ from def. \ref{pInvertedInZ}.
 
 Since [[colimits]] commute over each other, this is equivalently 
 
@@ -3960,10 +4170,10 @@ $$
 For $p$ a [[prime number]], the $\mathbb{Z}[1/p]$-localization 
 
 $$
-  A \longrightarrow A^\wedge_p
+  A \longrightarrow L_{\mathbb{Z}[1/p]} A
 $$
 
-of an abelian group $A$ (def. \ref{pInvertedInZ}, def. \ref{AbelianGroupLocal}), hence the $p$-completion of $A$ (def. \ref{AbelianGrouppComplete}) is given by the morphism
+of an abelian group $A$ (def. \ref{pInvertedInZ}, def. \ref{AbelianGroupLocal}), hence the $p$-completion of $A$ according to def. \ref{AbelianGrouppComplete}, is given by the morphism
 
 $$
   A \longrightarrow Ext^1( \mathbb{Z}(p^\infty), A )
@@ -4010,12 +4220,12 @@ e.g. ([Neisendorfer 08, p. 16](#Neisendorfer08))
 +-- {: .num_prop}
 ###### Proposition
 
-If $A$ is a [[finitely generated module|finitely generated]] [[abelian group]], then its $p$-completion (def. \ref{AbelianGrouppComplete}, for any [[prime number]] $p$) is equivalently its [[completion of a module|p-adic completion]]
+If $A$ is a [[finitely generated module|finitely generated]] [[abelian group]], then its $p$-completion (def. \ref{AbelianGrouppComplete}, for any [[prime number]] $p$) is equivalently its [[p-adic completion]] (def. \ref{AdicCompletionOfAbelingGroups})
 
 $$
+  \mathbb{Z}[1/p] A
+   \simeq
   A^\wedge_p
-    \simeq
-  \underset{\longleftarrow}{\lim}_n A / p^n A
   \,.
 $$
 
@@ -4042,7 +4252,7 @@ $$
   \,.
 $$
 
-By [this lemma](Introduction+to+Stable+homotopy+theory+--+S#lim1AndExt1) together this implies that there is a [[short exact sequence]] of the form
+Together this implies, by [this lemma](Introduction+to+Stable+homotopy+theory+--+S#lim1AndExt1), that there is a [[short exact sequence]] of the form
 
 $$
   0 
@@ -4063,7 +4273,7 @@ Therefore by exactness of the above sequence there is an [[isomorphism]]
 
 $$
   \begin{aligned}
-    X^\wedge_p
+    L_{\mathbb{Z}[1/p]}X
       & \simeq
     \underset{\longleftarrow}{\lim}_n Ext^1(\mathbb{Z}/p^n \mathbb{Z}, A)
     \\
@@ -4092,7 +4302,7 @@ By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the localizatio
 $$
   0 
     \to
-  Hom(\mathb{Z}(p^\infty),A)
+  Hom(\mathbb{Z}(p^\infty),A)
     \longrightarrow
   Hom(\mathbb{Z}[1/p],A)
     \overset{\phi}{\longrightarrow}
@@ -4125,14 +4335,14 @@ But by assumption all these morphisms $p \cdot (-)$ that the limit is over are [
 +-- {: .num_cor}
 ###### Corollary
 
-For $p$ a [[prime number]], if $A$ is a [[finite abelian group]], then its $p$-completion (def. \ref{AbelianGrouppComplete}) is equivalently its [[p-primary group|p-primary part]].
+Let $p$ be a [[prime number]]. If $A$ is a [[finite abelian group]], then its $p$-completion (def. \ref{AbelianGrouppComplete}) is equivalently its [[p-primary group|p-primary part]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By the [[fundamental theorem of finite abelian groups]] (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}), $A$ is a finite [[direct sum]] 
+By the [[fundamental theorem of finite abelian groups]], $A$ is a finite [[direct sum]] 
 
 $$
   A 
