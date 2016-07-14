@@ -127,6 +127,7 @@ $$
 
 =--
 
+
 ## Graphical representation
  {#GraphicalRepresentation}
 
@@ -184,11 +185,11 @@ $$
 
 This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
 
-* a dot on the bottom line denotes one copy of the group $\mathbb{Z}/p\mathbb{Z}$;
+* a dot at the top of a vertical sequence of dots denotes the group $\mathbb{Z}/p\mathbb{Z}$;
 
-* inductively, a dot vetically above a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots below;
+* inductively, a dot vetically below a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots above;
 
-* a vertical line between two dots means that he upper dot arises, as a generator of this group, from the generator corresponding to the lower dot by multiplication with $p$.
+* a vertical line between two dots means that the the generator of the group corresponding to the upper dot is, regarded after inclusion into the group extension, the product by $p$ of the generator of the group corresponding to the lower dot, regarded as represented by the generator of the group extension.
 
 So for instance
 
@@ -205,34 +206,38 @@ $$
 stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  A 
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
-such that multiplication by $p$ takes the generator of the first copy of $\mathbb{Z}/p\mathbb{Z}$ to the generator of the second copy.
+such that multiplication by $p$ takes the generator of the bottom copy of $\mathbb{Z}/p\mathbb{Z}$, regarded as represented by the generator of $A$, to the generator of the image of the top copy of $\mathbb{Z}/p\mathbb{Z}$.
 
-This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
+This means that of the two possible choices of extensions (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p^2\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p^2 \mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} & 
+  }
 $$
 
-the image of the generator 1 of the first group in the middle group is $p$, and the image $[p]$ of that in the third group is the generator of the third group.
+the image of the generator 1 of the first group in the middle group is $p = p \cdot 1$.
 
 Conversely, the notation
 
@@ -249,30 +254,78 @@ $$
 stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
 
 $$
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  A 
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
 such that multiplication by $p$ of the generator of the top group in the middle group does _not_ yield the generator of the bottom group. 
 
-This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the _trivial_ extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbbb{Z}/p\mathbb{Z}$. Because then in
+This means that of the two possible choices (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the _trivial_ extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}$. Because then in
 
 $$
-  0 
-    \to 
-  \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}
-    \longrightarrow
-  \mathbb{Z}/p\mathbb{Z}
-    \to
-  0
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} 
+      \oplus
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
 $$
 
-the generator 1 of the first group is the element $(1,0)$ in the second, and multiplication of that by $p$ os $(0,0)$ instead of $(0,1)$, where the latter is the generator of the third group.
+the generator 1 of the top group maps to the element $(1,0)$ in the middle group, and multiplication of that by $p$ is $(0,0)$ instead of $(0,1)$, where the latter is the generator of the bottom group.
+
+Similarly 
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+is to be read as the result of appending to the previous case a dot _below_, so that this now indicates a group extension of the form
+
+$$
+  \array{
+    \mathbb{Z}/p^2 \mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p \mathbb{Z}
+  }
+$$
+
+such that $p$-times the generator of the bottom group, regarded as represented by the generator of the middle group, is the image of the generator of the top group. This is again the case for the unique non-trivial extension, and hence in this case the diagram stands for $A = \mathbb{Z}/p^3 \mathbb{Z}$.
+
+And so on.
+
+
 
 For example the stable page of the $\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in ("internal") degree $t-s \leq 13$ the following non-trivial entries:
 
