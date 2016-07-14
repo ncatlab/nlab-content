@@ -1,0 +1,9 @@
+
+
+The [[lattice]] of [[subgroups]] of a given [[group]].
+
+## Related concepts
+
+* [[lattice of subobjects]]
+
+[[!redirects lattices of subgroups]]
