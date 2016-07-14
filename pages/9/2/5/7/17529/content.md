@@ -66,13 +66,15 @@ This is a special case of the _[[ structure theorem for finitely generated modul
 
 ## Examples
 
+The following examples may be useful for illustrative or instructional purposes. 
+
 +-- {: .num_example #TwoFiniteGroupsOfOrderp2}
 ###### Example
 
 For $p$ a [[prime number]], there are, up to [[isomorphism]], two [[abelian groups]] of [[order of a group|order]] $p^2$, namely
 
 $$
-  (\mathbb{Z}/p\mathbb{Z}) \otimes (\mathbb{Z}/p\mathbb{Z})
+  (\mathbb{Z}/p\mathbb{Z}) \oplus (\mathbb{Z}/p\mathbb{Z})
 $$
 
 and
