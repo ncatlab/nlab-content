@@ -116,16 +116,19 @@ The isomorphism is given by sending $1$ to $(p_2,p_1)$.
 +-- {: .num_example}
 ###### Example
 
-For $n = 12 = 2^2 \cdot 3$ then
+Moving up, for two distinct prime numbers $p_1$ and $p_2$, there are exactly two abelian groups of order $p_1^2 p_2$, namely $(\mathbb{Z}/p_1 \mathbb{Z})\oplus (\mathbb{Z}/p_1 \mathbb{Z}) \oplus (\mathbb{Z}/p_2 \mathbb{Z})$ and $(\mathbb{Z}/p_1^2 \mathbb{Z})\oplus (\mathbb{Z}/p_2 \mathbb{Z})$.  The latter is the cyclic group of order $p_1^2 p_2$.  For instance, $\mathbb{Z}/12\mathbb{Z} \cong (\mathbb{Z}/4 \mathbb{Z})\oplus (\mathbb{Z}/3 \mathbb{Z})$.
 
-$$
-  \mathbb{Z}/12 \mathbb{Z}
-  \simeq
-  \mathbb{Z}/2^2 \mathbb{Z}
-  \oplus 
-  \mathbb{Z}/3\mathbb{Z}
-  \,.
-$$
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Similarly, there are four abelian groups of order $p_1^2 p_2^2$, three abelian groups of order $p_1^3 p_2$, and so on.
+
+More generally, the theorem can be used to compute exactly how many abelian groups there are of any finite order $n$ (up to isomorphism): write down its prime factorization, and then for each prime power $p^k$ appearing therein, consider how many ways it can be written as a product of positive powers of $p$.  That is, each [[partition]] of $k$ yields an abelian group of order $p^k$.  Since the choices can be made independently for each $p$, the numbers of such partitions for each $p$ are then multiplied.
+
+Of all these abelian groups of order $n$, of course, one of them is the cyclic group of order $n$.  The fundamental theorem of cyclic groups says it is the one that involves the one-element partitions $k= [k]$, i.e. the cyclic groups of order $p^k$ for each $p$.
 
 =--
 
