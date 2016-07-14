@@ -97,9 +97,14 @@ is called an **$A$-localization** if
 
 =--
 
+We now discuss two classes of examples of localization of abelian groups
 
+1. _[Classical localization at/away from primes](#ClassicalLocalizationOfAbelianGroups)_;
+
+1. _[Formal completion at primes](#FormalCompletionOfAbelianGroups)_.
 
 ###### Classical localization at/away from primes
+ {#ClassicalLocalizationOfAbelianGroups}
 
 For $n \in \mathbb{N}$, write $\mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order of a group|order]] $n$.
 
@@ -238,7 +243,7 @@ Specifically
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #ClassicalLocalizationSeenFromSpecZ}
 ###### Remark
 
 The terminology in def. \ref{InvertingPrimes} is motivated by the following perspective of [[arithmetic geometry]]:
@@ -257,7 +262,16 @@ See also at _[[function field analogy]]_ for more on this.
 
 =--
 
-###### Completion at primes
+
+###### Formal completion at primes
+ {#FormalCompletionOfAbelianGroups}
+
+We have seen above in remark \ref{ClassicalLocalizationSeenFromSpecZ} that classical localization of abelian groups at a prime number is geometrically interpreted as restricting a [[quasicoherent sheaf]] over [[Spec(Z)]] to a single point, the point that is labeled by that prime number.
+
+Alternatively one may restrict to the "infinitesimal neighbourhood" of such a point. Technically this is called the _[[formal neighbourhood]]_, because its ring of functions is, by definition, the ring of [[formal power series]] (regarded as an [[adic ring]] or [[pro-ring]]). The corresponding operation on abelian groups is accordingly called _[[formal completion]]_ or _[[adic completion]]_ or just _completion_, for short, of abelian groups.
+
+It turns out that if the abelian group is [[finitely generated object|finitely generated]] then the operation of [[p-completion]] coincides with an operation of _localization_ in the sense of def. \ref{AbelianGroupLocal}, namely localization at the [[p-primary group|p-primary component]] $\mathbb{Z}(p^\infty)$ of the group $\mathbb{Q}/\mathbb{Z}$ (def. \ref{ZpInfinity} below). On the one hand this equivalence is useful for deducing some key properties of [[p-completion]], this we discuss below. On the other hand this situation is a shadow of the relation between [[localization of spectra]] and [[nilpotent completion of spectra]], which is important for characterizing the convergence properties of [[Adams spectral sequences]].
+
 
 +-- {: .num_defn  #pInvertedInZ}
 ###### Definition
