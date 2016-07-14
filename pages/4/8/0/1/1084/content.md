@@ -614,7 +614,7 @@ $$
    =
   \left(
     \array{
-      \partial^Y_n & f_n
+      \partial^Y_{n+1} & f_n
       \\
       0 & -\partial^X_n
     }
