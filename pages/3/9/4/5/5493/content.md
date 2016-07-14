@@ -5,7 +5,7 @@
 
 ## Idea
 
-A **sesquicategory** is a (strict) [[2-category]] in which the [[interchange law]] need not hold.
+A **sesquicategory** is a (strict) [[2-category]] except for the fact that the [[interchange law]] need not hold.
 
 
 ## Definition
