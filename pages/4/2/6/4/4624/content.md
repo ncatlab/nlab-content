@@ -38,6 +38,9 @@ In any [[Heyting category]] (such as a [[topos]]), the subobjects of $X$ form a 
 
 The reader can probably think of other variations on this theme.
 
+## Related concepts
+
+* [[lattice of subgroups]]
 
 
 [[!redirects poset of subobjects]]
