@@ -66,7 +66,7 @@ This is a special case of the _[[ structure theorem for finitely generated modul
 
 ## Examples
 
-+-- {: .num_example}
++-- {: .num_example #TwoFiniteGroupsOfOrderp2}
 ###### Example
 
 For $p$ a [[prime number]], there are, up to [[isomorphism]], two [[abelian groups]] of [[order of a group|order]] $p^2$, namely
@@ -128,6 +128,7 @@ $$
 =--
 
 ## Graphical representation
+ {#GraphicalRepresentation}
 
 Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
 
@@ -138,7 +139,7 @@ Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for a
 The corresponding [[p-primary group]] is
 
 $$
-  \underoverset{i = 1}{\bigoplus}^q \mathbb{Z}/p^{k_i} \mathbb{Z}
+  \underoverset{i = 1}{q}{\bigoplus} \mathbb{Z}/p^{k_i} \mathbb{Z}
   \,.
 $$ 
 
@@ -148,31 +149,144 @@ In the context of [[Adams spectral sequences]] it is conventional to depict this
 
 * of which sequences of length $k_i$ are connected by vertical lines, for $i \in \{1, \cdots, q\}$.
 
-For instance, for $p= 2$, the corresponding graphical representation of 
+For example the graphical representation of the $p$-primary group
 
 $$
-  \mathbb{Z}/2\mathbb{Z} 
+  \mathbb{Z}/p\mathbb{Z} 
     \oplus 
-  \mathbb{Z}/2\mathbb{Z}
+  \mathbb{Z}/p\mathbb{Z}
     \oplus 
-  \mathbb{Z}/2^3 \mathbb{Z}
+  \mathbb{Z}/p^3 \mathbb{Z}
+    \oplus
+  \mathbb{Z}/p^4\mathbb{Z}
 $$
 
 is
 
 $$
   \array{
-      && \bullet
+      &&& \bullet
       \\
-      && \vert
+      && & \vert
       \\
-      && \bullet
+      && \bullet & \bullet
       \\
-      && \vert
+      && \vert & \vert
       \\
-     \bullet & \bullet & \bullet
+      && \bullet & \bullet
+      \\
+      && \vert & \vert
+      \\
+     \bullet & \bullet & \bullet & \bullet
+  }
+  \,.
+$$
+
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
+
+* a dot on the bottom line denotes one copy of the group $\mathbb{Z}/p\mathbb{Z}$;
+
+* inductively, a dot vetically above a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots below;
+
+* a vertical line between two dots means that he upper dot arises, as a generator of this group, from the generator corresponding to the lower dot by multiplication with $p$.
+
+So for instance
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
   }
 $$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  A 
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+such that multiplication by $p$ takes the generator of the first copy of $\mathbb{Z}/p\mathbb{Z}$ to the generator of the second copy.
+
+This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p^2\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+the image of the generator 1 of the first group in the middle group is $p$, and the image $[p]$ of that in the third group is the generator of the third group.
+
+Conversely, the notation
+
+
+$$
+  \array{
+    \bullet
+    \\
+    \\
+    \bullet
+  }
+$$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  A 
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+$$
+
+such that multiplication by $p$ of the generator of the top group in the middle group does _not_ yield the generator of the bottom group. 
+
+This means that of the two possible choices (example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the _trivial_ extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbbb{Z}/p\mathbb{Z}$. Because then in
+
+$$
+  0 
+    \to 
+  \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}/p\mathbb{Z}
+    \to
+  0
+$$
+
+the generator 1 of the first group is the element $(1,0)$ in the second, and multiplication of that by $p$ os $(0,0)$ instead of $(0,1)$, where the latter is the generator of the third group.
+
+For example the stable page of the $\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in ("internal") degree $t-s \leq 13$ the following non-trivial entries:
+
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]])))
+
+Ignoring here the diagonal lines (which denote multiplication by the element $h_1$ that encodes the additional [[ring]] structure on $\pi_\bullet(\mathbb{S})$ which here we are not concerned with) and applying the above prescription, we read off for instance that $\pi_3(\mathbb{S}) \simeq \mathbb{Z}/8\mathbb{Z}$ (because all three dots are connected) while $\pi_8(\mathbb{S}) \simeq \mathbb{Z}/2\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z} $ (because here the two dots are not connected). In total
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
+
+
 
 ## References
 
