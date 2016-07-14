@@ -6,4 +6,6 @@ For $n \in \mathbb{N}$ a [[natural number]] a _prime factor_ is a [[prime number
 
 * [[coprime integers]]
 
+* [[fundamental theorem of finitely generated abelian groups]]
+
 [[!redirects prime factors]]
