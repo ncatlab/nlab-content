@@ -2299,6 +2299,58 @@ $$
 
 =--
 
++-- {: .num_lemma #kappaCellSpectrumIsKappaSmall}
+###### Lemma
+
+Let $\kappa$ be an [[ordinal]] and let $X$ be a $\kappa$-cell spectrum, hence a [[cell spectrum]] (def. \ref{CWSpectrum}) obtained from at most $\kappa$ stable cell attachments as in remark \ref{StrictModelStructureCellAttachmentToSpectra}. Then $X$ is $\kappa$-small ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)) with respect to morphisms of spectra that are degreewise [[relative cell complex]] inclusions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By remark \ref{StrictModelStructureCellAttachmentToSpectra} the attachment of stable cells is by [[free spectra]] (def. \ref{FreeSequentialSpectra}) on [[compact topological spaces]]. By prop. \ref{LeftAdjointnessOfFreeSpectrum} maps out of them are equivalently maps of component spaces in the lowest nontrivial degree. Since compact topological spaces are small with respect to relative cell complex inclusions ([lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes)), all these cells are small. 
+
+Now notice that $\kappa$-[[filtered colimits]] of sets commute with $\kappa$-small limtis of sets ([prop.](filtered+limit#FilteredColimitsCommuterWithFiniteLimits)). By assumption $X$ is a $\kappa$-small [[transfinite composition]] of [[pushouts]] of $\kappa$-small [[coproducts]], all three of which are $\kappa$-small colimits; and let $Y$ be the codomain of a $\kappa$-small relative cell complex inclusion, hence itself a $\kappa$-small colimit. 
+
+Now if $A = \underset{\longrightarrow}{\lim}_n \sigma_n$ is a $\kappa$-small colimit of $\kappa$-small objects $\sigma_n$, and $Y = \underset{\longrightarrow}{\lim}_i Y_i$ is a $\kappa$-small colimit, then
+
+$$
+  \begin{aligned}
+    Hom( A, \underset{\longrightarrow}{\lim}_i Y_i )
+    & \simeq
+    Hom( \underset{\longrightarrow}{\lim}_\sigma c_\sigma,  \underset{\longrightarrow}{\lim}_i Y_i )
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_\sigma 
+    Hom(c_\sigma, \underset{\longrightarrow}{\lim}_i Y_i )
+    \\
+    & \simeq
+    \underset{\longleftarrow}{\lim}_\sigma  
+    \,
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(c_\sigma, Y_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    \,
+    \underset{\longleftarrow}{\lim}_\sigma  
+    Hom(c_\sigma, Y_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(\underset{\longrightarrow}{\lim}_\sigma  c_\sigma, Y_i )
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_i 
+    Hom(A, Y_i )
+  \end{aligned}
+  \,.
+$$
+
+Hence the claim follows.
+
+=--
 
 
 +-- {: .num_prop #ClosureOfCWSpectra}
