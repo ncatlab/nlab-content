@@ -393,7 +393,7 @@ The Mittag-Leffler condition, def. \ref{MittagLefflerCondition}, is satisfied in
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #Lim1VanihesUnderMittagLeffler}
 ###### Proposition
 
 If a tower $A_\bullet$ satisfies the [[Mittag-Leffler condition]], def. \ref{MittagLefflerCondition}, then its $\underset{\leftarrow}{\lim}^1$ vanishes:
@@ -863,7 +863,7 @@ For $X, E \in OrthSpec(Top_{cg})$ two [[orthogonal spectra]] (or two [[symmetric
 $$
   0
     \to
-  \underset{\longleftarrow}{\lim}^1_n E^{\bullet + n -1}(X_{n+1})
+  \underset{\longleftarrow}{\lim}^1_n E^{\bullet + n -1}(X_{n})
     \longrightarrow
   E^\bullet(X)
     \longrightarrow
@@ -885,7 +885,32 @@ $$
 
 =--
 
-([Schwede 12, prop. 6.5 (ii)](#Schwede12)) (using that symmetric spectra underlying orthogonal spectra are semistable ([Schwede 12, p. 40](#Schwede12)))
+([Schwede 12, chapter II prop. 6.5 (ii)](#Schwede12)) (using that symmetric spectra underlying orthogonal spectra are semistable ([Schwede 12, p. 40](#Schwede12)))
+
+
++-- {: .num_cor #WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre}
+###### Corollary
+
+For $X,E \in Ho(Spectra)$ two [[spectra]] such that the tower $n \mapsto E^{n -1}(X_{n})$ satisfies the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then two morphisms of spectra $X \longrightarrow E$ are homotopic already if all their morphisms of component spaces $X_n \to E_n$ are.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{Lim1VanihesUnderMittagLeffler} the assumption implies that the $lim^1$-term in prop. \ref{CohomologyOfSpectraMilnorSequence} vanishes, hence by exactness it follows that in this case there is an [[isomorphism]]
+
+$$
+  [X,E] 
+    \simeq
+   E^0(X)
+     \overset{\simeq}{\longrightarrow}
+   \underset{\longleftarrow}{\lim}_n [X_n, E_n]
+  \,.
+$$
+
+=--
+
 
 
 ## Related concepts
