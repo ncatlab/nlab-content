@@ -3214,7 +3214,7 @@ For $X, E \in OrthSpec(Top_{cg})$ two [[orthogonal spectra]] (or two [[symmetric
 $$
   0
     \to
-  \underset{\longleftarrow}{\lim}^1_n E^{\bullet + n -1}(X_{n+1})
+  \underset{\longleftarrow}{\lim}^1_n E^{\bullet + n -1}(X_{n})
     \longrightarrow
   E^\bullet(X)
     \longrightarrow
@@ -3236,7 +3236,31 @@ $$
 
 =--
 
-([Schwede 12, prop. 6.5 (ii)](#Schwede12)) (using that symmetric spectra underlying orthogonal spectra are semistable ([Schwede 12, p. 40](#Schwede12)))
+([Schwede 12, chapter II prop. 6.5 (ii)](#Schwede12)) (using that symmetric spectra underlying orthogonal spectra are semistable ([Schwede 12, p. 40](#Schwede12)))
+
+
++-- {: .num_cor #WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre}
+###### Corollary
+
+For $X,E \in Ho(Spectra)$ two [[spectra]] such that the tower $n \mapsto E^{n -1}(X_{n})$ satisfies the [[Mittag-Leffler condition]] (def. \ref{MittagLefflerCondition}), then two morphisms of spectra $X \longrightarrow E$ are homotopic already if all their morphisms of component spaces $X_n \to E_n$ are.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{Lim1VanihesUnderMittagLeffler} the assumption implies that the $lim^1$-term in prop. \ref{CohomologyOfSpectraMilnorSequence} vanishes, hence by exactness it follows that in this case there is an [[isomorphism]]
+
+$$
+  [X,E] 
+    \simeq
+   E^0(X)
+     \overset{\simeq}{\longrightarrow}
+   \underset{\longleftarrow}{\lim}_n [X_n, E_n]
+  \,.
+$$
+
+=--
 
 
 
@@ -9002,9 +9026,11 @@ $$
   }
 $$
 
-commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes.
+commutes up to homotopy, hence that the restriction of $c_n$ to a fiber is the $2n$-fold suspension of the unit of $E_{2n}$. But this is the statement of prop. \ref{ThomClassesCFClass}: the Chern classes are universal Thom classes. 
 
-The respect for the product demands that the square
+Hence componentwise all these triangles commute up to some homotopy. Now we invoke the [[Milnor sequence]] for generalized cohomology of spectra (prop. \ref{CohomologyOfSpectraMilnorSequence}). Observe that the [[tower]] of abelian groups $n \mapsto E^{n_1}(S^n)$ is actually constant ([[suspension isomorphism]]) hence trivially satisfies the [[Mittag-Leffler condition]] and so a homotopy of morphisms of spectra $\mathbb{S} \to E$ exists as soon as there are componentwise homotopies (cor. \ref{WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre}).
+
+Next, the respect for the product demands that the square
 
 $$
   \array{
@@ -9024,7 +9050,7 @@ $$
 
 commutes in the [[stable homotopy category]] $Ho(Spectra)$. In order to rephrase this as a condition on the components of the ring spectra, regard this as happening in the [[homotopy category of a model category|homotopy category]] $Ho(OrthSpec(Top_{cg}))_{stable}$ of the [[model structure on orthogonal spectra]], which is [[equivalence of categories|equivalent]] to the [[stable homotopy category]]  ([thm.](Introduction+to+Stable+homotopy+theory+--+1-2#SequentialSpectraQuillenEquivalence)).
 
-Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
+Here the derived [[symmetric monoidal smash product of spectra]] is given by [[Day convolution]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) and maps out of such a product are equivalently as in the above diagram is equivalent ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) to a suitably equivariant collection diagrams of the form
 
 $$
   \array{
@@ -9037,7 +9063,7 @@ $$
     \downarrow
     \\
     M U_{2(n_1 + n_2)}
-      &\underset{c_{n_1 + n_2}}{\longrightarrow}&
+      &\underset{c_{(n_1 + n_2)}}{\longrightarrow}&
    E_{2 (n_1 + n_2)}
   }
   \,,
@@ -9045,7 +9071,9 @@ $$
 
 where on the left we have the standard pairing operations for $M U$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#OrthogonalComplexThomSpectrum)) and on the right we have the given pairing on $E$.
 
-That this indeed commutes up to homotopy is the Whitney sum formula for Chern classes (prop. \ref{WhitneySumChernClasses})).
+That this indeed commutes up to homotopy is the Whitney sum formula for Chern classes ([prop.](Chern+class#WhitneySumChernClasses)).
+
+Hence again we have componentwise homotopies. And again the relevant [[Mittag-Leffler condition]] on $n \mapsto E^{n-1}((MU \wedge MU)_n)$-holds, by the nature of the universal [[Conner-Floyd classes]], prop. \ref{ConnerFloyedClasses}. Therefore these componentwise homotopies imply the required homotopy of morphisms of spectra (cor. \ref{WithSomeLefflerTheHomsOfSpectraAreHomotopicIfComponentsAre}).
 
 =--
 
@@ -9111,7 +9139,7 @@ is an [[isomorphism]]. This says that two homotopy classes of morphisms $M U \to
 #### Homology of $M U$
  {#HomologyOfMU}
 
-**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The homology of $B U$, in turn, may be determined by the duality with its cohomology ([[universal coefficient theorem]]) via [[Kronecker pairing]] and the induced duality of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{AHSSPairing}) from the Conner-Floyed classes [above](#ConnerFloydChernClasses). Finally, via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] the homology of $M U$ gives a first approximation to the [[homotopy groups]] of [[MU]].
+**Idea.** Since, by the above, every [[complex oriented cohomology theory]] $E$ is indeed [[orientation in generalized cohomology|oriented]] over [[complex vector bundles]], there is a [[Thom isomorphism]] which reduces the computation of the $E$-[[homology of MU]], $E_\bullet(M U)$ to that of the [[classifying space]] $B U$. The homology of $B U$, in turn, may be determined by the duality with its cohomology ([[universal coefficient theorem]]) via [[Kronecker pairing]] and the induced duality of the corresponding [[Atiyah-Hirzebruch spectral sequences]] (prop. \ref{AHSSPairing}) from the Conner-Floyd classes [above](#ConnerFloydChernClasses). Finally, via the [[Hurewicz homomorphism]]/[[Boardman homomorphism]] the homology of $M U$ gives a first approximation to the [[homotopy groups]] of [[MU]].
 
 **Literature.** ([Kochman 96, section 2.4, 4.3](#Kochman96), [Lurie 10, lecture 7](#Lurie10))
 
