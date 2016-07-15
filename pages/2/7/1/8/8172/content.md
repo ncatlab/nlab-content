@@ -80,7 +80,7 @@ We introduce the types of [[spectral sequences]] of which the $E$-Adams spectral
 +-- {: .num_defn #FilteredSpectrum}
 ###### Definition
 
-A **[[filtered spectrum]]** is a [[spectrum]] $Y \in Ho(Spectra)$ equipped with a sequence $X_\bullet \colon (\mathbb{N}, \gt) \longrightarrow Ho(Spectra)$ in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) of the form
+A **[[filtered spectrum]]** is a [[spectrum]] $Y \in Ho(Spectra)$ equipped with a sequence $Y_\bullet \colon (\mathbb{N}, \gt) \longrightarrow Ho(Spectra)$ in the [[stable homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#GradedAbelianGroupStructureOnHomsInTheHomotopyCategory)) of the form
 
 $$
   \cdots 
@@ -528,6 +528,8 @@ $$
   \,.
 $$
 
+Given a cochain complex like this, we are to pass to its [[cochain cohomology]]. Since the cochain complex here has the extra structure that it arises from an exact couple, its cohomology groups should still remember some of that extra structure. Indeed, the following says that the remaining extract structure on the cohomology of the page of an exact couple is itself again an exact couple, called the "derived exact couple".
+
 =--
 
 +-- {: .num_defn #DerivedExactCouple}
@@ -594,7 +596,7 @@ It is clear that $\tilde i$ is well-defined.
 
 That $\tilde j$ lands in $ker(d)$: it lands in the image of $j$ which is in the kernel of $k$, by exactness, hence in the kernel of $d$ by definition.
 
-That $\tilde j$ is indepenent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence that $y'-y \in ker(i)$, hence that $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in $\tilde{\mathcal{E}}$.
+That $\tilde j$ is independent of the choice of preimage: For any $x \in \tilde {\mathcal{D}} = im(i)$, let $y, y' \in \mathcal{D}$ be two preimages under $i$, hence $i(y) = i(y') = x$. This means that $i(y'-y) = 0$, hence that $y'-y \in ker(i)$, hence that $y'-y \in im(k)$, hence there exists $z \in \mathcal{E}$ such that $y' = y + k(z)$, hence $j(y') = j(y) +  j(k(z)) = j(y) + d(z)$, but $d(z) = 0$ in $\tilde{\mathcal{E}}$.
 
 That $\tilde k$ vanishes on $im(d)$: because $im(d) \subset im(j)$ and hence by exactness.
 
@@ -934,7 +936,7 @@ $$
 
 in def. \ref{AdamsEAdamsSpectralSequence} is sometimes called the **[[Boardman homomorphism]]** ([Adams 74, p. 58](#Adams74)).
 
-For $X = \mathbb{S}$ the [[sphere spectrum]] it reduces to a canonical morphism from stable homotopy to [[generalized homology]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)))
+For $X = \mathbb{S}$ the [[sphere spectrum]] it reduces to a canonical morphism from stable homotopy to [[generalized homology]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology))
 
 $$
  \pi_\bullet(g_k)
@@ -948,7 +950,6 @@ $$
 For $E = $ [[HA]] an [[Eilenberg-MacLane spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#ReducedALinearizationOfnSphere)) this in turn reduces to the **[[Hurewicz homomorphism]]** for spectra.
 
 This way one may think of the $E$-Adams filtration on $Y$ in def. \ref{AdamsEAdamsSpectralSequence} as the result of filtering any spectrum $Y$ by iteratively projecting out all its $E$-homology. 
-
 This idea was historically the original motivation for the construction of the [[classical Adams spectral sequence]] by [[John Frank Adams]], see the first pages of ([Bruner 09](#Adams+spectral+sequence#Bruner09)) for a historical approach.
 
 =--
@@ -993,7 +994,7 @@ $$
 +-- {: .num_lemma #Wp}
 ###### Lemma
 
-The spectra entering the definition of the $E$-[[Adams spectral sequence]] in def. \ref{AdamsEAdamsSpectralSequence} are equivalently
+In terms of def. \ref{HomotopyFiberOfUnitOfCommutativeRingSpectrum}, the spectra entering the definition of the $E$-[[Adams spectral sequence]] in def. \ref{AdamsEAdamsSpectralSequence} are equivalently
 
 $$
   Y_p 
@@ -1068,7 +1069,7 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 +-- {: .num_remark}
 ###### Remark
 
-Terminology differs across authors. The tower/filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
+Terminology differs across authors. The filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
 
 =--
 
@@ -1268,7 +1269,7 @@ This shows the claim inductively for all finite CW-spectra. For the general stat
 
 =--
 
-Using prop. \ref{EnHomology}, we find below (theoren \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
+Using prop. \ref{EnHomology}, we find below (theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
 
 
 ##### The $E$-Steenrod algebra
