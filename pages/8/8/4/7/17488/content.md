@@ -7518,7 +7518,7 @@ We discuss in detail the special case of the [[Adams spectral sequences]] in the
  
 
 
-But for handling any of these spectral sequences it is convenient, or, in many cases, necessary to have multiplicative structure available, induced from a  [[symmetric monoidal smash product of spectra]]. This we turn to now in _[Section 1.2 --  Structured spectra](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+1#DiagramSpectra)_.
+But for handling any of these spectral sequences it is convenient, or, in many cases, necessary to have multiplicative structure available, induced from a  [[symmetric monoidal smash product of spectra]]. This we turn to in  _[[Introduction to Stable homotopy theory -- 1-2|part 1.2 -- Structured spectra]]_.
 
 
 
