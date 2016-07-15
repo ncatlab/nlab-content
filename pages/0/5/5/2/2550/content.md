@@ -483,11 +483,11 @@ The slice filtration was defined in
 
 Important representability results are in
 
-* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in ${\mathbb A}^1$-homotopy theory I:  vector bundles_, [arXiv:1506.07093](http://arxiv.org/abs/1506.07093).
+* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in $\mathbb{A} ^1$-homotopy theory I:  vector bundles_, [arXiv:1506.07093](http://arxiv.org/abs/1506.07093).
 
 and
 
-* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in A^1-homotopy theory II: principal  bundles and homogeneous spaces_, [arXiv:1507.08020](http://arxiv.org/abs/1507.08020).
+* [[Aravind Asok]], [[Marc Hoyois]], [[Matthias Wendt]], _Affine representability results in $\mathbb{A} ^1$-homotopy theory II: principal  bundles and homogeneous spaces_, [arXiv:1507.08020](http://arxiv.org/abs/1507.08020).
 
 Discussion related to [[étale homotopy]] is in 
 
