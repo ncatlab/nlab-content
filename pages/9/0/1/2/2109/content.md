@@ -48,7 +48,9 @@ Let $K$ be a [[2-category]].  The following structure is said to **equip $K$ wit
 
 As usual on the nLab, here by [[2-category]] we mean a weak 2-category (aka [[bicategory]]) and by [[functor]] we mean a weak 2-functor (aka [[pseudofunctor]]).  However, in many or most examples, $K$ is in fact a [[strict 2-category]].
 
-For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite $D(g,1) \circ  H \circ B(1,f)$; it is a proarrow from $A$ to $C$.  We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.
+For a proarrow $H\colon B\to D$ and ordinary arrows $f\colon A\to B$ and $g\colon C\to D$, we write $H(g,f)$ for the composite $D(g,1) \circ  H \circ B(1,f)$; it is a proarrow from $A$ to $C$.  We also write $U_A$, $A(1,1)$, or simply $A$ for the identity proarrow $A\nrightarrow A$.  
+
+Note that in this notation, both slots are covariant; in the case where proarrows are profunctors, $H(g, f)$ is not the action on a set of [[heteromorphisms]] by pre- and post- composing with morphisms; instead it is the functor $f$, followed by the profunctor $H$, followed by taking the preimage under the functor $g$, resulting in a profunctor from $A$ to $C$.
 
 
 #### Terminology
