@@ -49,6 +49,8 @@ Later [[Alexander Grothendieck]] found that the relevant [[cohomology]] theory i
 
 * Wikipedia, _[Weil conjectures](http://en.wikipedia.org/wiki/Weil_conjectures)_
 
+* [[Dennis Gaitsgory]],  [[Jacob Lurie]], _Weil's Conjecture for Function Fields_ ([pdf](http://www.math.harvard.edu/~lurie/papers/tamagawa.pdf))
+
 [[!redirects Weil conjectures]]
 
 [[!redirects Weil's conjecture]]
