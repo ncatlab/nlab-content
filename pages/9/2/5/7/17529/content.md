@@ -136,6 +136,12 @@ Of all these abelian groups of order $n$, of course, one of them is the [[cyclic
 ## Graphical representation
  {#GraphicalRepresentation}
 
+
+
++-- {: .num_remark #PrimaryDecompositionGraphicalRepresentation}
+###### Remark
+
+
 Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
 
 * a total number $k \in \mathbb{N}$ of powers of $p$;
@@ -331,7 +337,6 @@ such that $p$-times the generator of the bottom group, regarded as represented b
 And so on.
 
 
-
 For example the stable page of the $\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in ("internal") degree $t-s \leq 13$ the following non-trivial entries:
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
@@ -400,6 +405,7 @@ $$
   \,.
 $$
 
+=--
 
 
 ## References
