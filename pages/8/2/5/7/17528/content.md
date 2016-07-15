@@ -306,7 +306,7 @@ for short. Notice that here the indexing starts at $n = 1$.
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #pAdicIntegers}
 ###### Example
 
 The [[p-adic completion]] (def. \ref{AdicCompletionOfAbelingGroups}) of the [[integers]] $\mathbb{Z}$ is called the **[[p-adic integers]]**, often written
@@ -417,7 +417,7 @@ Each horizontal sequence is exact. Taking the [[limit]] over the vertical sequen
 
 
 
-We now consider a concept of $p$-completion that is in general different from def. \ref{AdicCompletionOfAbelingGroups}, but turns out to coincide with it in [[finitely generated object|finitely generated]] abelian groups. spring
+We now consider a concept of $p$-completion that is in general different from def. \ref{AdicCompletionOfAbelingGroups}, but turns out to coincide with it in [[finitely generated object|finitely generated]] abelian groups. 
 
 +-- {: .num_defn  #pInvertedInZ}
 ###### Definition
