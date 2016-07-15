@@ -131,16 +131,18 @@ $$
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #FilteredColimitsCommuterWithFiniteLimits}
 ###### Propositon
 
 In [[Set]], filtered colimits commute with [[finite limits]].
 
 In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits.
 
+More generally, for $\kappa$ a [[regular cardinal]], then $\kappa$-filtered colimits commute with $\kappa$-small limits.
+
 =--
 
-A detailed components proof of the first part is in [Borceux, theorem I2.13.4](#Borceux).
+A detailed components proof of the first part is in [Borceux, theorem I2.13.4](#Borceux). Or ([BJTS 14](#BJTS14)).
 
 For more on this see also [[limits and colimits by example]]. 
 
@@ -196,7 +198,10 @@ Filtered colimits are also important in the theory of [[locally presentable cate
 Section 2.13 in part I of 
 
 * {#Borceux} [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_
-  
+
+Also
+
+* {#BJTS14} Marie Bjerrum, [[Peter Johnstone]], [[Tom Leinster]], William F. Sawin, _Notes on commutation of limits and colimits_ ([arXiv:1409.7860](http://arxiv.org/abs/1409.7860))
 
 
 [[!redirects filtered limit]]
