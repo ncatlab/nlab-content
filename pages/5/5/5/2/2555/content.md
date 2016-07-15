@@ -89,3 +89,6 @@ The precise argument that for $X$ a [[cell complex]] then also the standard cycl
 [[!redirects cylinder objects]]
 [[!redirects cylinder]]
 [[!redirects cylinders]]
+
+[[!redirects good cylinder object]]
+[[!redirects good cylinder objects]]
