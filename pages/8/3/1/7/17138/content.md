@@ -49,7 +49,7 @@ _[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]
 
 _[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-2.pdf) under construction)
 
-_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-S.pdf) under construction)
+_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-S.pdf))
 
 
 ***
@@ -236,7 +236,7 @@ The classical account in ([Adams 74, part III sections 2, 4-7](#Adams74)) is sti
 
 * {#MMSS00} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
 
-For the discussion of [[ring spectra]] we pass to [[symmetric spectra]] and [[orthogonal spectra]]. A comprehensive account of the former is in
+For the discussion of [[ring spectra]] we pass to [[symmetric spectra]] and [[orthogonal spectra]]. A compendium on the former is in
 
 * {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
