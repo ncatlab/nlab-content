@@ -15,7 +15,7 @@
 
 ## Idea
 
-**ZFA** is a variant of the [[material set theory]] [[ZF]] which allows for objects, called _atoms_ or _[[urelements]]_, which may be members of [[sets]], but are not made up of other elements. ZFA featured in early independence proofs, notably Fraenkel--Mostowski permutation models, for example showing AC is independent of the rest of the axioms of ZFA.
+**ZFA** is a variant of the [[material set theory]] [[ZF]] which allows for objects, called _atoms_ or _[[urelements]]_, which may be members of [[sets]], but are not made up of other elements. ZFA featured in early independence proofs, notably [[Fraenkel-Mostowski permutation models]], for example showing AC is independent of the rest of the axioms of ZFA.
 
 [[Zermelo]]'s original 1908 axiomatisation of set theory included atoms, but they were soon discarded as a foundational approach as they could be modeled inside of atomless set theory.
 
@@ -24,7 +24,7 @@
 There are two possible approaches to formulating ZFA. In both cases, we can further require that the [[axiom of choice]] is satisfied, and obtain ZFCA.
 
 ### Empty atoms
-The atoms can have no elements, and the [[axiom of extension]] is relaxed to only require that non-empty sets are extensional. The axioms of ZFA are thus the usual axioms of ZF where extension is modified to say
+The atoms can have no elements, and the [[axiom of extensionality]] is relaxed to only require that non-empty sets are extensional. The axioms of ZFA are thus the usual axioms of ZF where extension is modified to say
 $$
   \forall x \forall y ((\forall z, z \in x \Leftrightarrow z \in y) \wedge (\exists z, z \in x)) \Rightarrow x = y.
 $$
@@ -40,11 +40,10 @@ We can give up on the [[axiom of foundation]], and introduce the urelements as [
 
 then $V = \bigcup_\alpha R(\alpha)$.
 
-## Category-theoretic approach
+## Models
 
-From a modern, [[structural set theory|structural]] [[foundations]] point of view, one can build models of ZFA starting from ZFC by taking a [[topological group]] $G$, considering the [[Boolean topos|Boolean]] [[topos]] of [[sets]] with an [[action]] by an [[open subset|open]] [[subgroup]] $H \le G$ (where $H$ is allowed to vary), and functions $f\colon X\to Y$ which are equivariant for an open subgroup $L \le H \cap K$, where $H$ and $K$ act on $X$ and $Y$ respectively. The construction outlined at [[pure set]] can be varied to construct well-founded pure sets using atoms [ [[David Roberts|DR]]:which I believe they are elements of the [[transitive action|transitive]] $G$-sets.]
-
-Two such examples are the [[basic Fraenkel model]] and the [[second Fraenkel model]] which gave the first examples of the independence of the axiom of choice from a set theory ([[David Roberts|I]] think!). 
+### Fraenkel--Mostowski models
+By allowing atoms in our models, we lend ourselves to the method of [[Fraenkel-Mostowski models]], where we can obtain models in which the [[axiom of choice]] fails by imposing some symmetry on the atoms (so that we cannot uniformly pick an atom out of many). Such models are closely related to [[categories of G-sets]].
 
 
 [[!redirects ZFA]]
