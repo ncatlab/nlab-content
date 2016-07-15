@@ -3210,11 +3210,6 @@ This is a special case of the _[[ structure theorem for finitely generated modul
 
 
 
-
-## Examples
-
-The following examples may be useful for illustrative or instructional purposes. 
-
 +-- {: .num_example #TwoFiniteGroupsOfOrderp2}
 ###### Example
 
@@ -3279,9 +3274,10 @@ Of all these abelian groups of order $n$, of course, one of them is the [[cyclic
 
 =--
 
++-- {: .num_remark #PrimaryDecompositionGraphicalRepresentation}
+###### Remark
+**(graphical representation of $p$-primary decomposition)**
 
-## Graphical representation
- {#GraphicalRepresentation}
 
 Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
 
@@ -3491,16 +3487,17 @@ Ignoring here the diagonal lines (which denote multiplication by the element $h_
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
 | $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
 
-Here the only entry that needs further explanation is the one for $k = 0$. The symbol $\mathbb{Z}_{(2)}$ refers to the [[p-adic integers|2-adic integers]], i.e. for the [[limit]]
+Here the only entry that needs further explanation is the one for $k = 0$. We discuss the relevant concepts for this below in the section _[Localization and adic completion of abelian groups](#LocalizationOfAbelianGroups)_, but for completeness, here is the quick idea:
+
+The symbol $\mathbb{Z}_{(2)}$ refers to the [[p-adic integers|2-adic integers]] (def. \ref{pAdicIntegers}), i.e. for the [[limit]] of abelian groups
 
 $$
   \mathbb{Z}_{(2)}
   = 
   \underset{\longleftarrow}{\lim}_{n \geq 1} \mathbb{Z}/2^n \mathbb{Z}
-  \,.
 $$
 
-This is not [[p-primary group|2-primary]], but it does arise when applying [[p-completion|2-completion]] of abelian groups to finitely generated abelian groups as in theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}. For more on this see at _[Adams spectral sequence -- Convergence](Adams+spectral+sequence#Convergence)_. Here we just note why this 2-completion is associated with the infinite sequence of dots
+This is not [[p-primary group|2-primary]], but it does arise when applying [[p-adic completion|2-adic completion]] of abelian groups (def. \ref{AdicCompletionOfAbelingGroups}) to finitely generated abelian groups as in theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}. The 2-adic integers is the abelian group associated to the diagram
 
 $$
   \array{
@@ -3546,6 +3543,9 @@ $$
   0
   \,.
 $$
+
+=--
+
 
 ##### Localization and adic completion of abelian groups
   {#LocalizationOfAbelianGroups}
@@ -3828,7 +3828,7 @@ for short. Notice that here the indexing starts at $n = 1$.
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #pAdicIntegers}
 ###### Example
 
 The [[p-adic completion]] (def. \ref{AdicCompletionOfAbelingGroups}) of the [[integers]] $\mathbb{Z}$ is called the **[[p-adic integers]]**, often written
@@ -3938,8 +3938,7 @@ Each horizontal sequence is exact. Taking the [[limit]] over the vertical sequen
 =--
 
 
-
-We now consider a concept of $p$-completion that is in general different from def. \ref{AdicCompletionOfAbelingGroups}, but turns out to coincide with it in [[finitely generated object|finitely generated]] abelian groups. spring
+We now consider a concept of $p$-completion that is in general different from def. \ref{AdicCompletionOfAbelingGroups}, but turns out to coincide with it in [[finitely generated object|finitely generated]] abelian groups. 
 
 +-- {: .num_defn  #pInvertedInZ}
 ###### Definition
