@@ -34,9 +34,9 @@ the [[product]] of $U$ with the circle, $P|_U \simeq U \times S^1$ (and such tha
 
   * one says that $\mathcal{B}U(1)$ is the [[classifying space]] for circle bundles or that it [[representable functor|represents]] the assignment of circle bundles to spaces -- to some extent the topic of sheaves, and cohomology is all about the notion of such [[representable functor|representability]]
 
-  * A famous such circle bundle you may have seen is the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle), which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the [[product]] space $U \times S^1$.
+  * A famous such circle bundle you may have seen is the [[Hopf fibration]], which is a way to map the 3-dimensional sphere $S^3$ to the familiar 2-dimensional sphere $S^2$, such that over small parts $U \subset S^2$ of the 2-sphere the 3-sphere looks like the [[product]] space $U \times S^1$.
 
-  * This particular circle bundle corresponds to a very special class of maps $X \to \mathcal{B}U(1)$: namely the collection of maps $[S^2, \mathcal{B}U(1)]$ happens to have the structure of the abelian group $\mathbb{Z}$ of integers under addition, and the [Hopf bundle](http://en.wikipedia.org/wiki/Hopf_bundle) corresponds to the the generating element $1$ of this group;
+  * This particular circle bundle corresponds to a very special class of maps $X \to \mathcal{B}U(1)$: namely the collection of maps $[S^2, \mathcal{B}U(1)]$ happens to have the structure of the abelian group $\mathbb{Z}$ of integers under addition, and the [[Hopf fibration]] corresponds to the the generating element $1$ of this group;
   
   * generally, this abelian group formed by $[X, \mathcal{B}U(1)]$ 
   is famous under another name: it is called the second integral [[cohomology]] group of $X$, denoted $H^2(X, \mathbb{Z})$.
@@ -50,7 +50,7 @@ So these cohomology groups encode a lot of interesting information about topolog
 encoded in maps from it to another topological space: 
 
 * in particular, if the space $X$ in question 
-is not just a [[topological space]] but carries extra [[stuff, structure, property|structure]], such as being a _smooth manifold_, then one is interested  in _smooth_ circle bundles over $X$ which are equipped with a [[connection]] $\nabla$: a good rule which assigns to each smooth path  $\gamma : x \to y$ in $X$ an identification between the two circles over its endpoints;
+is not just a [[topological space]] but carries extra [[stuff, structure, property|structure]], such as being a _[[smooth manifold]]_, then one is interested  in _smooth_ circle bundles over $X$ which are equipped with a [[connection]] $\nabla$: a good rule which assigns to each smooth path  $\gamma : x \to y$ in $X$ an identification between the two circles over its endpoints;
 $$
   \array{
     x && \stackrel{\nabla}{\mapsto} & S^1_x
@@ -63,7 +63,7 @@ $$
   }
 $$
 
-  * this is the point where these considerations become of interest for [[physics]]: there [[bundle]]s with [[connection on a bundle|connection]], and then [[principal infinity-bundle|n-bundles]], or $(n-1)$-[[gerbe]]s, with connection encode _gauge fields_ such as the electromagnetic field.
+  * this is the point where these considerations become of interest for [[physics]]: there [[bundles]] with [[connection on a bundle|connection]], and then [[principal infinity-bundle|n-bundles]], or $(n-1)$-[[gerbe]]s, with connection encode _[[gauge fields]]_ such as the [[electromagnetic field]]. See at _[[geometry of physics]]_ for more on this.
 
   * you might guess that there is a smooth manifold classifying smooth circle bundles with connection -- but there is not, not unless one stretches the meaning of _manifold_ and of _space_ in general a bit 
 
@@ -115,12 +115,29 @@ We say [[presheaf]] instead of just [[functor]], even though taken at face value
 * More precisely, if I tell you the set $X(U)$ of probes of my secret space $X$ by the test space $U$, and if you then chop up $U$ into two pieces $V_1$ and $V_2$  sitting inside $U$ by inclusion maps $p_i : V_i \hookrightarrow U$, with a bit of overlap $V_1 \cap V_2$, then it ought to be true that all the probes by $U$ in $X(U)$ can be entirely and exactly be reconstructed from taking probes by $V_1$ in $X(V_1)$ and by $V_2$ in $X(V_2)$ and see if they match over the overlap $V_1 \cap V_2$ of the two small probes: 
    
 * in symbols, the collection of pairs in $\{ $matching maps from $V_1$ and $V_2$ to $X \} \hookrightarrow X(V_1) \times X(V_2)$ whose elements coincide when restricted to the overlap
-  $$X(V_1) \times X(V_2) \stackrel{\stackrel{restrict first element}{\to}}{\stackrel{restrict second element}{\to}} X(V_1 \cap V_2)$$
+  
+  $$
+    X(V_1) \times X(V_2) 
+      \underoverset
+       {\underset{restrict\;second\;element}{\longrightarrow}} 
+       {\overset{restrict\;first\;element}{\longrightarrow}}
+       {\phantom{AAA}}
+    X(V_1 \cap V_2)
+  $$
 
   should be exactly all the possible maps in $X(U)$: $\{ $matching probes of $X$ on $V_1$ and $V_2 \} \simeq X(U)$.
 
 * one says that the set $\{ $matching probes of $X$ on $V_1$ and $V_2 \}$ is the [[equalizer]] of the two [[parallel morphisms]]
-  $$ X(V_1) \times X(V_2) \stackrel{\stackrel{restrict first element}{\to}}{\stackrel{restrict second element}{\to}} X(V_1 \cap V_2) :$$
+  
+  $$ 
+    X(V_1) \times X(V_2) 
+     \underoverset
+       {\underset{restrict\;second\;element}{\longrightarrow}} 
+       {\overset{restrict\;first\;element}{\longrightarrow}} 
+       {\phantom{AAA}}
+    X(V_1 \cap V_2) 
+  $$
+
   the optimal solution to mapping into $X(V_1) \times X(V_2)$ such that these two maps become equal;
 
 * this condition is called a [[sheaf]] or [[descent]] condition: one thinks of the sheaf of _descending_ from the cover to the base along the map $(V_1 \sqcup V_2) \stackrel{p_1 \sqcup p_2}{\to} U$;
@@ -251,7 +268,7 @@ It turns out that we can keep going this way. There is not just a natural notion
 
 Once we are at this point, we should go even a bit further: we have been talking about _sets_ of probes $X(U)$. But of course 
 for $X$ a true [[topological space]] and $U$ a [[topological space]], there
-is not just a set, but a [[topological space]] of maps $U \to X$ (using the [compact-open topology](http://en.wikipedia.org/wiki/Compact-open_topology) on spaces of continuous maps).  So we should be looking at sheaves with values in topological spaces: functors $X(-) : S^{op} \to Top$ satisfying some suitable condition.
+is not just a set, but a [[topological space]] of maps $U \to X$ (using the [[compact-open topology]] on spaces of continuous maps).  So we should be looking at sheaves with values in topological spaces: functors $X(-) : S^{op} \to Top$ satisfying some suitable condition.
 
 There is only one thing we need to take care of, then: since a 
 topological spaces is a bit more flexible than a plain set, 
