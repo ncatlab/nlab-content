@@ -2302,7 +2302,7 @@ $$
 +-- {: .num_lemma #kappaCellSpectrumIsKappaSmall}
 ###### Lemma
 
-Let $\kappa$ be an [[ordinal]] and let $X$ be a $\kappa$-cell spectrum, hence a [[cell spectrum]] (def. \ref{CWSpectrum}) obtained from at most $\kappa$ stable cell attachments as in remark \ref{StrictModelStructureCellAttachmentToSpectra}. Then $X$ is $\kappa$-small ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)) with respect to morphisms of spectra that are degreewise [[relative cell complex]] inclusions.
+Let $\kappa$ be an [[regular cardinal]] and let $X$ be a $\kappa$-cell spectrum, hence a [[cell spectrum]] (def. \ref{CWSpectrum}) obtained from at most $\kappa$ stable cell attachments as in remark \ref{StrictModelStructureCellAttachmentToSpectra}. Then $X$ is $\kappa$-small ([def.](Introduction+to+Stable+homotopy+theory+--+P#ClassOfMorphismsWithSmallDomains)) with respect to morphisms of spectra that are degreewise [[relative cell complex]] inclusions.
 
 =--
 
