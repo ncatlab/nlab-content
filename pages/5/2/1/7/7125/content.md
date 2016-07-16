@@ -137,7 +137,7 @@ Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A
 
 On the other hand, if $E$ is a topos and $U\in E$ is a [[subterminal object]], then it generates two [[subtoposes]], an [[open subtopos]] whose [[reflector]] is $(-)^U$, and a [[closed subtopos]] whose reflector is the [[pushout]] $A\mapsto A +_{A\times U} U$.  If $E=Sh(X)$ is the topos of sheaves on a locale, then $U$ corresponds to an element of $O(X)$, hence an open sublocale with complement $K$ (say), and the open subtopos can be identified with $Sh(U)$ and the closed one with $Sh(K)$.
 
-Returning to the general case, let us denote the [[geometric embedding]] of the open subtopos by $i\colon E_U \hookrightarrow E$ and that of the closed subtopos by $j\colon E_{\neg U}\hookrightarrow E$.  Then we have a composite functor
+Returning to the general case, let us denote the [[geometric embedding]] of the open subtopos by $i\colon E_U \hookrightarrow E$ and that of the closed subtopos by $j\colon E_{\neg U}\hookrightarrow E$.  Then we have a composite functor, sometimes called the **fringe functor**,
 $$ E_U \xrightarrow{i_*} E \xrightarrow{j^*} E_{\neg U} $$
 which is left exact.
 
@@ -163,17 +163,19 @@ induces a [[Lawvere-Tierney topology]] $j$ given by
 
 $$\Omega \cong 1 \times \Omega \stackrel{[X] \times 1}{\to} \Omega \times \Omega \stackrel{\wedge}{\to} \Omega.$$ 
 
-Then, the category of sheaves $Sh(j)$, or more exactly the left exact left adjoint $\mathbf{Gl}(f) \to Sh(j)$ to the category of sheaves, is naturally identified with the the projection 
+Then, the category of sheaves $Sh(j)$, or more exactly the left exact left adjoint $\mathbf{Gl}(f) \to Sh(j)$ to the category of sheaves, is naturally identified with the projection 
 
 $$\mathbf{Gl}(f) \to E \times F \stackrel{proj}{\to} F,$$ 
 
 thus realizing $F$ as equivalent to the [[closed subtopos]] ([[Elephant]], A.4.5, pp. 205-206) attached to the subterminal object $X$. 
 
+The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtoposes can be described more explicitly. Recall that the objects of $\mathbf{Gl}(f)$ have the form $(X, Y, u:Y\to f(X))$: then the open copy of $E$ corresponds to the subcategory on those objects $(X, Y, u:Y\to f(X))$ with $u$ an isomorphism in $E$ and the closed copy of $F$  to the subcategory with objects $(X, Y, u:Y\to f(X))$ such that $X\simeq 1$ in $F$.
+
 **Remarks:** 
 
 * Artin gluing for toposes carries over in some slight extra generality, replacing left exact functors $f$ by pullback-preserving functors. 
 
-* Artin gluing applies also to other [[doctrine|doctrines]]: regular categories, pretoposes, quasitoposes, etc. See [Carboni-Johnstone](#CJ). 
+* Artin gluing applies also to other [[doctrine|doctrines]]: regular categories, pretoposes, quasitoposes, etc. See [Carboni-Johnstone](#CJ).
 
 ## Examples 
 
@@ -182,6 +184,8 @@ Examples of the gluing construction abound. Here are a few:
 * Let $E$ be an (elementary, not necessarily Grothendieck) topos, and let $\hom(1, -): E \to Set$ represent the terminal object $1$ -- this of course is left exact. The gluing construction $\mathbf{Gl}(\hom(1, -))$ is called the **scone** (Sierpinski cone), or the [[Freyd cover]], of $E$. 
 
 * If $E$ is a Grothendieck topos and $\Delta \colon Set \to E$ is the (essentially unique) left exact left adjoint, then we have a gluing construction $E \downarrow \Delta$. This gluing may be regarded as the result of attaching a generic open point to $E$. 
+
+* A concrete instance of the constructions in both the preceding examples is the [[Sierpinski topos]] $Set^{\to}$ corresponding e.g. to $Set\downarrow id_{Set}$: its objects are functions $X\to Y$ between sets $X,Y$ and the closed copy of $Set$ sits on the objects of the form $X\to 1$ and the open copy on the objects $X\overset{\simeq}{\to}Y$.
 
 ## Related entries
 
