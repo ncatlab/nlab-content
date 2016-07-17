@@ -51,7 +51,7 @@ Of course the definition below is only correct in material set theory, but there
 
 ## Definition
 
-A **Grothendieck universe** $ U $ is a [[pure set]] $ U $ such that:
+A **Grothendieck universe** is a [[pure set]] $ U $ such that:
 
 1. for all $ u \in U $ and $t\in u$, we have $ t \in U $ (i.e., $ U $ is _transitive_);
 1. for all $ u \in U $, we have $ \mathcal{P}(u) \in U $;
