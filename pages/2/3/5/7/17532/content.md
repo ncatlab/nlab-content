@@ -221,7 +221,7 @@ Some elementary properties of continuous $G$-sets can be found in books such as
 
 The formal correspondence between permutation models of [[ZFA]] and toposes of continuous $G$-sets can be found in
 
-* [[Michael Fourman]], _Sheaf models for set theory_ ([pdf](http://www.sciencedirect.com/science/article/pii/0022404980900961/pdf?md5=0de18da810657bf1ba9de7399d224ec5&pid=1-s2.0-0022404980900961-main.pdf))
+* [[Michael Fourman]], _Sheaf models for set theory_, Journal of Pure and Applied Algebra, **19** (1980) pp 91-101, doi:[10.1016/0022-4049(80)90096-1](http://dx.doi.org/10.1016/0022-4049%2880%2990096-1), ([publisher pdf](http://www.sciencedirect.com/science/article/pii/0022404980900961/pdf?md5=0de18da810657bf1ba9de7399d224ec5&pid=1-s2.0-0022404980900961-main.pdf))
 
 [[!redirects category of G sets]]
 [[!redirects category of G set]]
