@@ -135,7 +135,7 @@ whose category of coalgebras is again (by a basic theorem of topos theory; see f
 
 Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A morphism from $(e_0, e_0^', f_0)$ to $(e_1, e_1^', f_1)$ consists of a pair of maps $g \colon e_0 \to e_1$, $g': e_0^' \to e_1^'$ which respects the maps $f_0, f_1$ (in the sense of an evident commutative square). In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$. 
 
-On the other hand, if $E$ is a topos and $U\in E$ is a [[subterminal object]], then it generates two [[subtoposes]], an [[open subtopos]] whose [[reflector]] is $(-)^U$, and a [[closed subtopos]] whose reflector is the [[pushout]] $A\mapsto A +_{A\times U} U$.  If $E=Sh(X)$ is the topos of sheaves on a locale, then $U$ corresponds to an element of $O(X)$, hence an open sublocale with complement $K$ (say), and the open subtopos can be identified with $Sh(U)$ and the closed one with $Sh(K)$.
+On the other hand, if $E$ is a topos and $U\in E$ is a [[subterminal object]], then it generates two [[subtoposes]] that are [[complement|complements]] in the [[lattice of subtoposes]], namely, an [[open subtopos]] whose [[reflector]] is $(-)^U$, and a [[closed subtopos]] whose reflector is the [[pushout]] $A\mapsto A +_{A\times U} U$.  If $E=Sh(X)$ is the topos of sheaves on a locale, then $U$ corresponds to an element of $O(X)$, hence an open sublocale with complement $K$ (say), and the open subtopos can be identified with $Sh(U)$ and the closed one with $Sh(K)$.
 
 Returning to the general case, let us denote the [[geometric embedding]] of the open subtopos by $i\colon E_U \hookrightarrow E$ and that of the closed subtopos by $j\colon E_{\neg U}\hookrightarrow E$.  Then we have a composite functor, sometimes called the **fringe functor**,
 $$ E_U \xrightarrow{i_*} E \xrightarrow{j^*} E_{\neg U} $$
@@ -169,7 +169,23 @@ $$\mathbf{Gl}(f) \to E \times F \stackrel{proj}{\to} F,$$
 
 thus realizing $F$ as equivalent to the [[closed subtopos]] ([[Elephant]], A.4.5, pp. 205-206) attached to the subterminal object $X$. 
 
-The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtoposes can be described more explicitly. Recall that the objects of $\mathbf{Gl}(f)$ have the form $(X, Y, u:Y\to f(X))$: then the open copy of $E$ corresponds to the subcategory on those objects $(X, Y, u:Y\to f(X))$ with $u$ an isomorphism in $E$ and the closed copy of $F$  to the subcategory with objects $(X, Y, u:Y\to f(X))$ such that $X\simeq 1$ in $F$.
+The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtoposes can be described explicitly. Recall that the objects of $\mathbf{Gl}(f)$ have the form $(X, Y, u:Y\to f(X))$: then the open copy of $E$ corresponds to the subcategory on those objects $(X, Y, u:Y\to f(X))$ with $u$ an isomorphism in $E$ and the closed copy of $F$  to the subcategory with objects $(X, Y, u:Y\to f(X))$ such that $X\simeq 1$ in $F$.
+
+The [[open subtopos]] corresponding to $E$ is [[dense subtopos|dense]] in $\mathbf{Gl}(f)$ precisely if $f:E\to F$ preserves the initial object since this is simply the fringe functor $j^\ast\cdot i_\ast$ in which the [[reflector]] always preserves $0$ and $i_\ast$ preserves $0$ by definition just in case the associated subtopos is dense.
+
+To summarize: given a left exact $f:E\to F$ we get a closed inclusion of $F$ into $\mathbf{Gl}(f)$ with
+
+$$ j_\ast :F\to \mathbf{Gl}(f) \qquad X\mapsto (1,X,X\to 1)$$
+
+$$ j^\ast:\mathbf{Gl}(f)\to F \qquad (X,Y,u)\mapsto Y$$
+
+and an open inclusion of $E$ with a further left adjoint:
+
+$$ i_\ast :E\to \mathbf{Gl}(f) \qquad X\mapsto (X,f(X),id_{f(X)})$$
+
+$$ i^\ast:\mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto X$$
+
+$$ i_{!} :E\to \mathbf{Gl}(f) \qquad X\mapsto (X,0,0\to f(X)) \quad .$$
 
 **Remarks:** 
 
