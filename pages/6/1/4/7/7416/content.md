@@ -1,3 +1,3 @@
-Grad Student at JHU. 
+Just finished PhD at [JHU](http://mathematics.jhu.edu/) with Jack Morava. Headed to [UW](http://www.math.washington.edu/)  in the fall to start a 3 year Acting Assistant Professorship. 
 
 [Website](http://math.jhu.edu/~beardsle/)
