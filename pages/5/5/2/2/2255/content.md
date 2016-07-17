@@ -130,7 +130,7 @@ A *tree* $T$ consists of a set $T_0$ of edges, a set $T_1$ of nodes, and a set $
 
 $$T_0 \stackrel{s}{\leftarrow} T_2 \stackrel{p}{\to} T_1 \stackrel{t}{\to} T_0$$ 
 
-such that $t$ is injective, $s$ is injective and its image is complementary to a singleton $\{r\}$, and the "walk-to-root" function $\sigma: T_0 \to T_0$ defined by $e \mapsto t(p(s^{-1}(e)))$ if $e \neq r$, else $r \mapsto r$, can be iterated only finitely many times (i.e., for all $e \in T_0$ there exists a natural number $k$ such that $\sigma^k(e) = r$). 
+such that $t$ is injective, $s$ is injective and its image is complementary to a singleton $\{r\}$, and the "walk-to-root" function $\sigma: T_0 \to T_0$ defined by $e \mapsto t(p(s^{-1}(e)))$ if $e \neq r$, else $r \mapsto r$, iterates only finitely many times (i.e., for all $e \in T_0$ there exists a natural number $k$ such that $\sigma^k(e) = r$). 
 =-- 
 
 Some commentary is in order. The subscript $0$ for edges and $1$ for nodes is consonant with standard usage in [[string diagrams]], where edges are labeled by $0$-cells in a monoidal category and nodes by $1$-cells. Each node is pictured as having a multiplicity of (and possibly zero) input edges and exactly one outgoing edge; the map $t: T_1 \to T_0$ maps a node to its outgoing edge. Only the root edge is not an input edge of any node, i.e., the unique inhabitant of the complement of $im(s)$ is what we call the root $r$. Now: the input "function" $T_1 \to T_0$ is actually a multivalued function, taking a node to the set of its input edges, and is therefore represented as a [[relation]] or [[span]] from $T_0$ to $T_1$. The domain of this relation $T_2$ is the set of ordered pairs $(e, v)$ where $e \in T_0$ is an input edge of $v \in T_1$; this may be called a "flag" (thinking of a general flag as a chain of incidence relations, here a 1-step chain with $e$ input-incident to $v$). 
@@ -163,7 +163,7 @@ As Kock shows, this description of trees is well-adapted to the usual sorts of c
 
 ## References 
 
-* Joachim Kock, *Polynomial functors and trees*, http://arxiv.org/abs/0807.2874 ([link](http://arxiv.org/abs/0807.2874)) 
+* {#Kock} Joachim Kock, *Polynomial functors and trees*, http://arxiv.org/abs/0807.2874 ([link](http://arxiv.org/abs/0807.2874)) 
 
 
 [[!redirects tree]]
