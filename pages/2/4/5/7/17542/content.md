@@ -5,7 +5,7 @@
 
 ##Idea##
 
-A **generalized graph** in the sense of ([HRY](#HRY)) is a generalization of the notion of a pseudograph given at [[graph]] (see in particular [Definition in terms action on a set of half edges](https://ncatlab.org/nlab/show/graph#definition_in_terms_of_action_on_a_set_of_halfedges)). By adding structure like directions for the edges, we can define a [[wheeled graph]] which is a generalization of a [[directed pseudograph]]. What differentiates a generalized graph from a pseudograph and a wheeled graph from a [[directed pseudograph]] is the notion of an "exceptional cell," which should be thought of as a set of half edges which have no vertices. 
+A **generalized graph** in the sense of [HRY](#HRY) is a generalization of the notion of a pseudograph given at [[graph]] (see in particular [Definition in terms action on a set of half edges](https://ncatlab.org/nlab/show/graph#definition_in_terms_of_action_on_a_set_of_halfedges)). By adding structure like directions for the edges, we can define a [[wheeled graph]] which is a generalization of a [[directed pseudograph]]. What differentiates a generalized graph from a pseudograph and a wheeled graph from a [[directed pseudograph]] is the notion of an "exceptional cell," which should be thought of as a set of half edges which have no vertices. 
 
 A generalized graph can be visualized as a set of vertices with half edges attached to them, a rule for attaching half edges to glue the vertices together, and potentially some half edges (flags) that are attached to only one or zero vertices. For instance, a particularly simple generalized graph is one with no vertices and one edge. 
 
