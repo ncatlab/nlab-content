@@ -49,6 +49,12 @@ Note that all of the above definitions can be [[enriched category|enriched]] ove
 
 ## Examples
 
+### Bialgebras 
+
+A perhaps paradigmatic example is that there is a $Vect$-enriched prop whose algebras are bialgebras. It should be observed here that there is no $Vect$-enriched [[operad]] (or cooperad) whose algebras are bialgebras, so this is a genuine example that illustrates a gain in generality of props over operads. 
+
+See [Pirashvili](#Pirashvili) for some more details on this prop. 
+
 ### Polycategories
 
 Every PROP defines a [[polycategory]]; see there for more. Note that PROPs are strictly more general than polycategories since in a PROP we can compose along many objects at once. This restriction actually makes polycategories more like [[dioperads]] than PROPs (cf. [Gan](#Gan)). 
@@ -70,6 +76,7 @@ Every PROP defines a [[polycategory]]; see there for more. Note that PROPs are s
 * [[Donald Yau]], _Higher Dimensional Algebras via Colored PROPs_, [(arXiv:0809.2161v1)](http://arxiv.org/pdf/0809.2161v1.pdf).
 {#Yau}
 
+* Teimuraz Pirashvili, *On the PROP corresponding to bialgebras*, http://arxiv.org/abs/math/0110014. ([link](http://arxiv.org/abs/math/0110014)) 
 
 [[!redirects PROP]]
 [[!redirects PROPs]]
