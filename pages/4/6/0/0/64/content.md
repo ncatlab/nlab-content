@@ -2,7 +2,14 @@
 * table of contents 
 {: toc} 
 
+
+
+
 ## Idea
+
+>If the decision to let every commutative ring define a scheme gives
+standing to bizarre schemes, allowing it gives a category of schemes
+with nice properties ([Deligne](#Deligne98))
 
 In the context of [[category theory]], it is a general phenomenon that
 
@@ -34,6 +41,8 @@ The notion of "nice objects" can be formalized to some degree for instance in te
 
 ## References 
  
+* {#Deligne} [[Pierre Deligne]], _Quelques id&#233;es ma&#238;tresses de l'&#339;uvre de A. Grothendieck_, Mat&#233;riaux pour l'histoire des math&#233;matiques au XX$^e$ siecle (Nice, 1996), Societ&#233; Math&#233;matique de France, 1998, pp. 11&#8211;19.
+
 * [[Ieke Moerdijk]] and [[Gonzalo Reyes]], [[Models for Smooth Infinitesimal Analysis]]
 {#MR} 
 
