@@ -129,7 +129,7 @@ The following is the complete list of solid rings (def. \ref{CoreOfARing}) up to
      \,;
    $$
 
-1. the [[cyclic group|cyclic]] rings
+1. the [[cyclic rings]]
 
    $$
      \mathbb{Z}/n\mathbb{Z}
