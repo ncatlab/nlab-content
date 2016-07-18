@@ -2055,7 +2055,7 @@ such that
 
    $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
 
-1. ([[associativity]])
+1. (co-action property)
 
    $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
 
