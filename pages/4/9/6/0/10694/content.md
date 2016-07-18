@@ -25,8 +25,11 @@ A _May spectral sequence_ ([May 64](#May64), [May 74](#May74), [Ravenel 86, 3.2]
 
 The May spectral sequence is the [[spectral sequence of a filtered complex]] induced by suitably filtering the canonical (but intractable) [[bar complex]] model for [[Ext]]/[[Cotor]] (see [Ravenel 86, chapter 3, section 2](#Ravenel86), [Kochman 96, section 5.3](#Kochman96)).
 
-## Prerequisites
 
+
+
+
+## Prerequisites
 
 Throughout, let $A$ be a [[commutative ring]] and let $\Gamma$ be a graded [[commutative Hopf algebroid|commutative Hopf algebra]] over $A$. We write $(\Gamma,A)$ for this data.
 
@@ -176,7 +179,7 @@ converging to the [[Ext]] over $\Gamma$ between $N_1$ and $N_2$, whose first pag
 +-- {: .proof}
 ###### Proof
 
-The filtering induces a filtering on the standard cobar complex which computes $Cotor(A,A)$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
+The filtering induces a filtering on the standard cobar complex (def. \ref{CobarComplex}) which computes $Cotor(A,A)$. The spectral sequence in question is the corresponding [[spectral sequence of a filtered complex]]. Its first page is the homology of the associated graded complex (by this [prop.](spectral+sequence+of+a+filtered+complex#FirstPages)).
 
 =--
 
@@ -203,6 +206,54 @@ $$
 $$
 
 where we set $\xi_0 \coloneqq 1$.
+
+
+
+
++-- {: .num_defn #CobarComplex}
+###### Definition
+**(cobar complex)**
+
+Let $(\Gamma,A)$ be the dual Steenrod algebra.
+
+The **cobar complex** $C^\bullet_\Gamma(N)$ is the [[cochain complex]] of $A-[[modules]] given by
+
+$$
+  C^s_\Gamma(N)
+   \coloneqq
+  A \otimes_A 
+    \underset{s\; factors}{
+    \underbrace{
+    \overline{\Gamma}
+      \otimes_A
+      \cdots
+      \otimes_A
+    \overline{\Gamma}
+    }
+    }
+  \otimes_A N
+  \,,
+$$
+
+where $\overline{\Gamma}$ is the _left unit coideal_: the [[cokernel]] of the left unit
+
+$$
+  \overline{\Gamma} 
+    \coloneqq 
+  coker( A \overset{\eta_L}{\longrightarrow} \Gamma )
+  \,,
+$$
+
+and with [[differentials]] $d_s \colon D^s_\Gamma(N) \longrightarrow D^{s+1}_\Gamma(N)$ given by the alternating sum of the coproducts.
+ 
+(...)
+
+=--
+
+([Ravenel 86, def. A1.2.11](#Ravenel86))
+
+
+
 
 +-- {: .num_defn #hGeneratorsInClassicalAdamsSpectralSequence}
 ###### Definition
@@ -406,11 +457,11 @@ $$
 
 Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
 
-In doing so it is now crucial that the differential in the standard cobar complex resolution for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
+In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
 
 $$
   d \;\colon\;
-  A \otimes_A \Gamma \otimes_A \Gamma
+  A \otimes_A \Gamma \otimes_A A
   \longrightarrow
   A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
 $$
