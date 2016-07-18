@@ -30,6 +30,9 @@ The [[spectrum of a commutative ring|spectra]] of prime fields inside [[Spec(Z)]
 
 [[!include function field analogy -- table]]
 
+## Related concepts
+
+* [[cyclic ring]]
 
 [[!redirects prime fields]]
 
