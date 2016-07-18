@@ -1196,7 +1196,7 @@ is exhibited by the [[infinitesimal shape modality]] $\Im$.
 
 This is the [[infinitesimal cohesion|infinitesimal]]
 analog of the notion of objects exhibiting [[cohesion]],
-see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+(infinity,1)-topos+--+structures#A1HomotopyContinuum).
+see at [structures in cohesion -- A1-homotopy and the continuum](#cohesive+%28infinity,1%29-topos+--+structures#A1HomotopyContinuum).
 
 
 
