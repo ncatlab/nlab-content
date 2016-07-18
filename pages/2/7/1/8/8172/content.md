@@ -2020,7 +2020,7 @@ For $X \in Ho(Spectra)$ any spectrum, say that the **comodule structure** on $E_
    $$
      E \wedge X
       \simeq
-     E \wedge \mathbb{S} \wedge E
+     E \wedge \mathbb{S} \wedge X
        \overset{id \wedge e \wedge id}{\longrightarrow}
      E \wedge E \wedge X
      \,.
