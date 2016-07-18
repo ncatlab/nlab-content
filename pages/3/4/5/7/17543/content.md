@@ -58,7 +58,7 @@ $$
 
 
 
-* Philip Hackney, Marcy Robertson and Donald Yau. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
+* [[Philip Hackney]], [[Marcy Robertson]] and [[Donald Yau]]. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
 {#HRY} 
 
 
