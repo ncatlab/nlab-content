@@ -4995,15 +4995,15 @@ $$
   \,.
 $$
 
-For $n \in \mathbb{N}$, write
+For $s \in \mathbb{N}$, write
 
 $$
-  \overline{E}_n 
-   \coloneqq
-  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
+  \overline{E}_{s-1}
+    \coloneqq
+  hocof( \overline{E}^s \overset{i^s}{\longrightarrow} \mathbb{S})
 $$
 
-for the homotopy cofiber. Here $\overline{E}_0 \simeq 0$.
+for the homotopy cofiber. Here $\overline{E}_{-1} \simeq 0$.
 By the [[tensor triangulated category|tensor triangulated]] structure of $Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), this homotopy cofiber is preserved by forming [[smash product of spectra|smash product]] with $Y$, and so also
 
 $$
