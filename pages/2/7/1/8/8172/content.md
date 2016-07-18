@@ -2051,7 +2051,7 @@ then a **left [[comodule]]** over $\Gamma$ is
 
 such that
 
-1. ([[unitality]])
+1. (co-[[unitality]])
 
    $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
 
