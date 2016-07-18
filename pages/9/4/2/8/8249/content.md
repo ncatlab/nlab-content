@@ -951,7 +951,7 @@ between the $n$th right derived functor, def. \ref{RightDerivedFunctorOfLeftExac
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{ExistenceOfInjectiveResolutions} we can also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By prop. \ref{InjectiveResolutionOfCodomainRespectsMorphisms} there is a lift of the identity on $A$ to a [[nLab:chain map]] $I^\bullet_F \to I^\bullet$ such that the [[nLab:diagram]]
+By [this prop.](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#ExistenceOfInjectiveResolutions) we may also find an injective resolution $A \stackrel{\simeq_{qi}}{\to} I^\bullet$. By [this prop](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#InjectiveResolutionOfCodomainRespectsMorphisms) there is a lift of the identity on $A$ to a [[chain map]] $I^\bullet_F \to I^\bullet$ such that the [[diagram]]
 
 $$
   \array{
