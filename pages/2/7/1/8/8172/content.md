@@ -6255,6 +6255,54 @@ $$
 =--
 
 
+
++-- {: .num_prop}
+###### Proposition
+
+There exists a homological spectral sequence of graded $\mathbb{F}_2$-vector spaces
+
+$$
+  Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
+  =
+  \mathbb{F}_2[\{h_{i,n}\}_{{i \geq 1,} \atop {n \geq 0}}]  
+  \,,
+$$
+
+called a **[[May spectral sequence]]**, with 
+
+1. $deg(h_{i,n}) = 2i -1$;
+
+1. first differential given by
+
+   $$
+     d_1 (h_{i,n})
+     =
+     \underoverset{k = 0}{i}{\sum} h_{i-k,n+k}\otimes h_{k,n}  
+     \,;
+   $$
+
+1. higher differentials of the form
+
+   $$
+     d_r
+       \;\colon\;
+     F^p E_r^{s,t}
+       \longrightarrow
+     F^{p-2r+1} E_r^{s+1,t-1,}
+     \,,
+   $$
+
+   where the filtration is by maximal degree.
+
+=--
+
+([Kochman 96, prop. 5.3.1](#Kochman96))
+
+
++-- {: .proof}
+###### Proof
+
+
 Define a [[graded algebra|grading]] on $\mathcal{A}^\bullet_{2}$ by setting (this is due to ([Ravenel 86, p.69](#Ravenel86)))
 
 $$
@@ -6362,7 +6410,7 @@ $$
   \,.
 $$
 
-This is the _[[May spectral sequence]]_ for the computation of $Ext_{\mathcal{A}^\ast_{2}}(2,\mathbb{F}_2)$. Notice that since everything is $\mathbb{F}_2$-linear, its [extension problem](spectral+sequence#ExtensionProblem) is trivial.
+This is the _[[May spectral sequence]]_ for the computation of $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$. Notice that since everything is $\mathbb{F}_2$-linear, its [extension problem](spectral+sequence#ExtensionProblem) is trivial.
 
 Moreover, again by lemma \ref{SpectralSequenceConvergingToExtForFilteredHopfAlgebra}, the differentials on any $r$-page are the restriction of the differentials of the bar complex to the $r$-almost cycles ([prop.](Introduction+to+Stable+homotopy+theory+--+I#DifferentialsOnAlmostChains)). The differential of the bar complex is the alternating sum of the coproduct on $\mathcal{A}^\ast_{2}$, hence by prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators} this is:
 
@@ -6372,6 +6420,7 @@ $$
   \underoverset{k = 0}{i}{\sum} h_{i-k,n+k}\otimes h_{k,n}  \,.
 $$
 
+=--
 
 ##### The second page
 
