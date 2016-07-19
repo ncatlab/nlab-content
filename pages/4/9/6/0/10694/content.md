@@ -28,8 +28,180 @@ The May spectral sequence is the [[spectral sequence of a filtered complex]] ind
 
 
 
+## Preliminaries
 
-## Prerequisites
+
+### Cobar complex
+
++-- {: .num_prop #ComoduleStructureOnGroundRing}
+###### Proposition
+
+Given $(\Gamma,A)$ a [[graded commutative Hopf algebroid]], then $A$ becomes a left comodule over $\Gamma$ with coaction given by the right unit
+
+$$
+  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
+$$
+
+and it becomes a right comodule with coaction given by the left unit
+
+$$
+  A \overset{\eta_L}{\longrightarrow} \Gamma \simeq A \otimes_A \Gamma
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Dually this is the action of morphisms on objects given by evaluation at the source or target, respectively. 
+
+=--
+
++-- {: .num_defn #UnitCoidealInCommutativeHopfAlgebra}
+###### Definition
+
+Let $(\Gamma,A)$ be a [[commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $\eta \;\colon\; A \longrightarrow \Gamma$. 
+
+Then the **unit coideal** of $\Gamma$ is the [[cokernel]] 
+
+$$
+  \overline{\Gamma}
+    \coloneqq
+  coker( A \overset{\eta}{\longrightarrow} \Gamma)
+  \,.
+$$ 
+
+=--
+
++-- {: .num_lemma #PropertiesOfUnitCoideal}
+###### Lemma
+
+Let $(\Gamma,A)$ be a [[commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $\eta \;\colon\; 
+A \longrightarrow \Gamma$. 
+
+Then the unit coideal $\overline{\Gamma}$ (def. \ref{UnitCoidealInCommutativeHopfAlgebra}) carries the structure of an $A$-[[bimodule]] such that the [[projection]] morphism
+
+$$
+  \Gamma \longrightarrow \overline{\Gamma}
+$$
+
+is an $A$-bimodule homomorphism. Moreover, coproduct $\Psi \;\colon\; \Gamma \longrightarrow \Gamma \otimes_A \Gamma$ descends to a coproduct $\overline{\Gamma} \;\colon\; \overline{\Gamma} \longrightarrow \overline{\Gamma} \otimes_A \overline{\Gamma}$ such that the projection intertwines the two coproducts.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement, consider the [[commuting diagram]]
+
+$$
+  \array{
+    A \otimes A 
+      &\overset{A \otimes \eta}{\longrightarrow}&
+    A \otimes \Gamma
+      &\longrightarrow&
+    A \otimes \overline{\Gamma}
+    \\
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\exists}}
+    \\
+    A 
+      &\underset{\eta}{\longrightarrow}&
+    \Gamma
+      &\longrightarrow&
+    \overline{\Gamma}
+  }
+  \,,
+$$
+
+where the left [[commuting square]] exhibits the fact that $\eta$ is a homomorphism of left $A$-modules.
+
+Since the [[tensor product of abelian groups]] $\otimes$ is a [[right exact functor]] it preserves cokernels, hence $A \otimes \overline{\Gamma}$ is the cokernel of $A \otimes A \to A\otimes \Gamma$ and hence the right vertical morphisms exists by the [[universal property]] of cokernels. This is the compatible left module structure on $\overline{\Gamma}$. Similarly the right $A$-module structure is obtained.
+
+For the second statement, consider the [[commuting diagram]]
+
+$$
+  \array{
+    A 
+      &\overset{\eta}{\longrightarrow}&
+    \Gamma
+      &\longrightarrow&
+    \overline{\Gamma}
+    \\
+    {}^{\mathllap{\eta}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Psi}}
+      &&
+    \downarrow^{\mathrlap{\exists}}
+    \\
+    \Gamma \simeq \Gamma \otimes_A A 
+      &\underset{id \otimes_A \eta}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma
+      &\longrightarrow&
+    \overline{\Gamma} \otimes_A \overline{\Gamma}
+  }
+  \,.
+$$
+
+Here the left square commutes by one of the co-unitality conditions on $(\Gamma,A)$, equivalently this is the co-action property of $A$ regarded canonically as a $\Gamma$-comodule. 
+
+Since also the bottom morphism factors through zero, the [[universal property]] of the cokernel $\overline{\Gamma}$ implies the existence of the right vertical morphism as shown.
+
+=--
+
+
+
++-- {: .num_defn #CobarComplex}
+###### Definition
+**(cobar complex)**
+
+Let $(\Gamma,A)$ be a [[commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $A \overset{\eta}{\longrightarrow} \Gamma$. Let $N$ be a left $\Gamma$-comodule.
+
+The **cobar complex** $C^\bullet_\Gamma(N)$ is the [[cochain complex]] of abelian groups with terms
+
+$$
+  C^s_\Gamma(N)
+   \coloneqq
+    \underset{s\; factors}{
+    \underbrace{
+    \overline{\Gamma}
+      \otimes_A
+      \cdots
+      \otimes_A
+    \overline{\Gamma}
+    }
+    }
+  \otimes_A N
+$$
+
+(for $\overline{\Gamma}$ the unit coideal of def. \ref{UnitCoidealInCommutativeHopfAlgebra}, with its $A$-bimodule structure via lemma \ref{PropertiesOfUnitCoideal})
+
+and with [[differentials]] $d_s \colon C^s_\Gamma(N) \longrightarrow C^{s+1}_\Gamma(N)$ given by the alternating sum of the coproducts via lemma \ref{PropertiesOfUnitCoideal}.
+ 
+=--
+
+([Ravenel 86, def. A1.2.11](#Ravenel86))
+
++-- {: .num_prop #CobarComplexGivesExtGroupsOutOfA}
+###### Proposition
+
+Let $(\Gamma,A)$ be a [[commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $A \overset{\eta}{\longrightarrow} \Gamma$. Let $N$ be a left $\Gamma$-comodule.
+
+Then the [[cochain cohomology]] of the cobar complex $C^\bullet_\Gamma(N)$ (def. \ref{CobarComplex}) is the [[Ext]]-groups of comodules from $A$ (regarded as a left comodule via def. \ref{ComoduleStructureOnGroundRing}) into $N$
+
+$$
+  H^\bullet(C^\bullet_\Gamma(N))
+    \;\simeq\;
+  Ext^\bullet_\Gamma(A,N)
+  \,.
+$$
+
+=--
+
+([Ravenel 86, cor. A1.2.12](#Ravenel86), [Kochman 96, prop. 5.2.1](#Kochman96))
+
+### Self-Ext of free graded commutative coalgebras
 
 Throughout, let $A$ be a [[commutative ring]] and let $\Gamma$ be a graded [[commutative Hopf algebroid|commutative Hopf algebra]] over $A$. We write $(\Gamma,A)$ for this data.
 
@@ -184,6 +356,8 @@ The filtering induces a filtering on the standard cobar complex (def. \ref{Cobar
 =--
 
 
+
+
 ## Construction of the May spectral sequence
 
 
@@ -208,86 +382,6 @@ $$
 where we set $\xi_0 \coloneqq 1$.
 
 
-+-- {: .num_prop #ComoduleStructureOnGroundRing}
-###### Proposition
-
-Given $(\Gamma,A)$ a [[graded commutative Hopf algebroid]], then $A$ becomes a left comodule over $\Gamma$ with coaction given by the right unit
-
-$$
-  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
-$$
-
-and it becomes a right comodule with coaction given by the left unit
-
-$$
-  A \overset{\eta_L}{\longrightarrow} \Gamma \simeq A \otimes_A \Gamma
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Dually this is the action of morphisms on objects given by evaluation at the source or target, respectively. 
-
-=--
-
-+-- {: .num_defn #CobarComplex}
-###### Definition
-**(cobar complex)**
-
-Let $(\Gamma,A)$ be the dual Steenrod algebra and let $N$ be a left $\Gamma$-comodule.
-
-The **cobar complex** $C^\bullet_\Gamma(N)$ is the [[cochain complex]] of abelian groups given by
-
-$$
-  C^s_\Gamma(N)
-   \coloneqq
-    \underset{s\; factors}{
-    \underbrace{
-    \overline{\Gamma}
-      \otimes_A
-      \cdots
-      \otimes_A
-    \overline{\Gamma}
-    }
-    }
-  \otimes_A N
-  \,,
-$$
-
-where $\overline{\Gamma}$ is the _left unit coideal_: the [[cokernel]] of the left unit
-
-$$
-  \overline{\Gamma} 
-    \coloneqq 
-  coker( A \overset{\eta_L}{\longrightarrow} \Gamma )
-  \,,
-$$
-
-and with [[differentials]] $d_s \colon C^s_\Gamma(N) \longrightarrow C^{s+1}_\Gamma(N)$ given by the alternating sum of the coproducts.
- 
-=--
-
-([Ravenel 86, def. A1.2.11](#Ravenel86))
-
-+-- {: .num_prop #CobardComplexGivesExtGroupsOutOfA}
-###### Proposition
-
-The [[cochain cohomology]] of the cobar complex $C^\bullet_\Gamma(N)$ is the [[Ext]]-groups of comodules from $A$ (regarded as a left comodule via def. \ref{ComoduleStructureOnGroundRing}) into $N$
-
-$$
-  H^\bullet(C^\bullet_\Gamma(N))
-    \;\simeq\;
-  Ext^\bullet_\Gamma(A,N)
-  \,.
-$$
-
-=--
-
-([Ravenel 86, cor. A1.2.12](#Ravenel86), [Kochman 96, prop. 5.2.1](#Kochman96))
 
 
 +-- {: .num_defn #hGeneratorsInClassicalAdamsSpectralSequence}
@@ -492,23 +586,7 @@ $$
 
 Now we use the above formula to explicitly compute the cohomology of the second page of the [[classical Adams spectral sequence]].
 
-In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears:
-
-$$
-  d \;\colon\;
-  A \otimes_A \Gamma \otimes_A A
-  \longrightarrow
-  A \otimes_A \Gamma \otimes_A \Gamma \otimes_A A
-$$
-
-$$
-  \begin{aligned}
-    d(1,h,1) & = 
-   (d 1 , h , 1) - (1 , d h , 1) + (1 , h , d 1)
-   \\
-   & = (1,1,h,1) - (1, \Psi(h) , 1 ) + (1 , h, 1, 1)
-  \end{aligned}  
-$$
+In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
 Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
 
