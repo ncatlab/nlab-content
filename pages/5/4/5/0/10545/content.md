@@ -271,7 +271,7 @@ This serves to unify the expressions  for $p = 2$ and for $p \gt 2$ in the follo
 
 +-- {: .num_theorem #MilnorTheoremOnDualSteenrodAlgebra}
 ###### Theorem
-**(Milnor's theorem)**
+**([[Milnor's theorem]])**
 
 The dual mod $p$-Steenrod algebra $\mathcal{A}^\ast_{\mathbb{F}_p}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
 
@@ -549,8 +549,8 @@ The [[commutative Hopf algebroid]] structure on the dual $E$-Steenrod algebra $E
 its relation to the $E^2$-term in the 
 [[Adams spectral sequence]] is discussed in 
 
-* [[Andrew Baker]], _Brave new Hopf algebroids_, [pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf)
- {#Baker}
+* {#Baker} [[Andrew Baker]], _Brave new Hopf algebroids_, [pdf](http://www.maths.gla.ac.uk/~ajb/dvi-ps/brave-ha.pdf)
+ 
 
 * {#BakerLazarev01} [[Andrew Baker]], [[Andrey Lazarev]], _On the Adams Spectral Sequence for R-modules_, Algebr. Geom. Topol. 1 (2001) 173-199 ([arXiv:math/0105079](http://arxiv.org/abs/math/0105079))
  
