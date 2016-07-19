@@ -1,42 +1,4 @@
-+-- {: .num_example #ComoduleStructureOnGroundRing}
-###### Example
-
-For $(\Gamma,A)$ a [[commutative Hopf algebroid]], then $A$ becomes a left $\Gamma$-comodule (def. \ref{CommutativeHopfAlgebroidComodule}) with coaction given by the right unit
 
 $$
-  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
-  \,.
+  Ext_{gr_\bullet \mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)
 $$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The required co-action property is the dual condition 
-
-$$
-  \Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R
-$$ 
-
-in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} of the fact that composition of morphisms in a groupoid respects sources
-
-$$
-  \array{
-    A 
-      &\overset{\eta_R}{\longrightarrow}&
-    \Gamma
-    \\
-    {}^{\mathllap{\eta_R}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\Psi}}
-    \\
-    \Gamma \simeq \Gamma \otimes_A A
-      &\underset{id \otimes_A \eta_R}{\longrightarrow}&
-    \Gamma \otimes_A \Gamma
-  }
-  \,.
-$$
-
-
-=--
