@@ -927,7 +927,7 @@ Now the image constists indeed of actual boundaries, not just $r$-almost boundar
 As before, we will in general index these differentials by their [[nLab:codomain]] and hence write in more detail
 
 $$
-  \partial^r 
+  \partial^r_{p,q} 
    \colon
   Z^r_{p,q}
   \to
