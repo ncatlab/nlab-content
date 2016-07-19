@@ -588,7 +588,14 @@ Now we use the above formula to explicitly compute the cohomology of the second 
 
 In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
-Hence we find for instance, using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
+One abbreviates
+
+$$
+  h_n \coloneq h_{1,n}
+  \,.
+$$
+
+Hence we find using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
 
 $$
   \begin{aligned}
@@ -597,12 +604,12 @@ $$
     d_1(h_{1,n})
     \\
     & =   
-    \Psi(h_{1,n})
+    \overline{\Psi}(h_{1,n})
     \\
     & =
-    h_{1,n+1} \underset{= 0}{\underbrace{ h_{0,n} }}
+    h_{1,n} \otimes \underset{= 0}{\underbrace{ h_{0,n} }}
     + 
-    \underset{= 0}{\underbrace{ h_{0,n+1} }} h_{1,n}
+    \underset{= 0}{\underbrace{ h_{0,n+1} }} \otimes h_{1,n}
     \\
     & = 
     0
@@ -611,25 +618,49 @@ $$
 
 and hence all the elements $h_n$ are cocycles.
 
-Similarly for instance
-
 $$
   d_1(h_{2,0}) 
     = 
-  h_{2,0} \underset{= 0}{\underbrace{h_{0,0}}}
+  h_{2,0} \otimes \underset{= 0}{\underbrace{h_{0,0}}}
   + 
-  h_{1,1} h_{1,0}
+  h_{1,1} \otimes h_{1,0}
   +
   \underset{= 0}{\underbrace{h_{0,2}}} h_{2,0}
 $$
 
-and so this is not a cocycle, but gives the relation that the product
+$$
+  d_1( h_{2,1} )
+    =
+  h_{2,1} \otimes \underset{= 0}{\underbrace{h_{0,n}}}
+    +
+  h_{1,2} \otimes h_{1,1}
+    +
+  \underset{ = 0}{\underbrace{h_{0,3}}} \otimes h_{2,1}
+$$
 
 $$
-  h_{1,1} h_{1,0} = 0
+  d_1( h_{2,2} )
+    =
+  h_{1,3} \otimes h_{1,2}
 $$
 
-in cohomology. Proceeding this way by explicit inspection, one obtains:
+$$
+  d_1( h_{2,3} )
+    =
+  h_{1,4} \otimes h_{1,3}
+$$
+
+$$
+  d_1( h_{3,0} )
+    =
+  h_{2,1} \otimes h_{1,0}# 
+    +
+  h_{1,2} \otimes h_{2,0}
+$$
+
+
+
+
 
 +-- {: .num_lemma }
 ###### Lemma
