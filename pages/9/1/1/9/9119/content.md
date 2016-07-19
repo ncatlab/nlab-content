@@ -34,6 +34,8 @@ Accordingly, an [[anti-reduced object]] is one consisting entirely of infinitesi
 
 Beware that reduced objects in general do "contain infinitesimals in between their classical points", in that not every map from an [[anti-reduced object]] into them is necessarily [[constant map|constant]]. The objects "without any infinitesimals" in the sense that all such maps are constant are instead the [[coreduced objects]].
 
+ 
+
 ## Definition
 
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
@@ -46,6 +48,8 @@ $$
 where $\Re$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
 
 A **reduced object** or **reduced type** is one in the [[full subcategory]] defined by the leftmost modality $\Re$. 
+
+
 
 ## Examples
  {#Examples}
@@ -105,7 +109,11 @@ $$
   \,.
 $$
 
-(The objects $X \in \mathbf{H}$ for which all maps out of anti-reduced objects $D$ are [[constant maps]] are instead the [[coreduced objects]].)
+###Contrast between reduced and coreduced objects
+
+The objects $X \in \mathbf{H}$ for which all maps out of anti-reduced objects $D$ are [[constant maps]] are instead the [[coreduced objects]].
+
+The [[coreduced objects]] are the ones with "no infinitesimal behavior", and the reduced objects are the ones "whose infinitesimal behavior is determined by their non-infinitesimal behavior".  A reduced object does contain infinitesimal points; what it lacks are "purely infinitesimal directions" while a coreduced object has no infinitesimal points.
   
 ### In algebraic geometry
 
