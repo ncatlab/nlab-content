@@ -28,17 +28,7 @@ An **inaccessible cardinal** is a [[cardinal number|regular strong limit cardina
 
 By this definition, $0$ (the cardinality of the [[empty set]]), $1$ (the cardinality of the [[point]]), and $\aleph_0$ (the cardinality of the set of [[natural number]]s) are all inaccessible.  Usually one explicitly requires inaccessible cardinals to be uncountable, so as to exclude these cases.  One can also justify excluding $0$ and $1$ by interpreting the requirement that $1 \lt \kappa$ as the nullary part of a requirement whose binary part is closure under indexed unions.
 
-A __weakly inaccessible cardinal__ is a regular weak limit cardinal; sometimes inacessible cardinals are called _strongly inaccessible_ in contrast.  Here, $\kappa$ is a _weak limit_ if $\lambda\lt\kappa$ implies $\lambda^+\lt\kappa$, where $\lambda^+$ is the smallest cardinal number $\gt\lambda$.  Every strongly inaccessible cardinal is also weakly inaccessible, while the converse is true assuming the [[continuum hypothesis]].  A weakly inaccessible cardinal may be strengthened to produce a (generally larger) strongly inaccessible cardinal.
-
-+--{: .query}
-[[Mike Shulman|Mike]]: What does that last sentence mean?  It seems obviously false to me in the absence of CH.
-
-_Toby_:  It means that if a weakly inaccessible cardinal exists, then a strongly inaccessible cardinal exists, but I couldn\'t find the formula for it.  Something like $\beth_\kappa$ is strongly inaccessible if $\kappa$ is weakly inaccessible (note that $\aleph_\kappa = \kappa$ then), but I couldn\'t verify that (or check how it holds up in the absence of choice).
-
-[[Mike Shulman|Mike]]: I don't believe that.  Suppose that the smallest weakly inaccessible is not strongly inaccessible, and let $\kappa$ be the smallest strongly inaccessible.  Then $V_\kappa$ is a model of set theory in which there are weakly inaccessibles but not strong ones.  I'm almost certain there is no reason for the smallest weakly inaccessible to be strongly inaccessible.
-
-JCMcKeown: Surely $\beth_\kappa$ has cofinality at most $\kappa$, so it can't be regular.  Maybe the strengthening involves some forcing or other change of universe? E.g., you can forcibly shift $2^\lambda = \lambda^+$ for $\lambda \lt \kappa$, and then by weak inaccessibility, etc... I *think*.  Don't trust me. ---- (some days later) More than that: since the ordinals are well ordered, if there is any strongly inaccessible cardinal *greater* than $\kappa$, then there is a *least* one, say $\theta$.  Then $V_\theta$ is a universe with a weakly inaccessible cardinal and no greater strongly inaccessible cardinal. Ih! Mike said that already... So whatever construction will have to work the other way around: if there is a weakly inaccessible cardinal that isn't strongly inaccessible, and if furthermore a weakly inaccessible cardinal implies a strongly inaccessible cardinal, then the strongly inaccessible cardinal implied must be less than $\kappa$.  And that sounds really weird.
-=--
+A __weakly inaccessible cardinal__ is a regular weak limit cardinal; sometimes inacessible cardinals are called _strongly inaccessible_ in contrast.  Here, $\kappa$ is a _weak limit_ if $\lambda\lt\kappa$ implies $\lambda^+\lt\kappa$, where $\lambda^+$ is the smallest cardinal number $\gt\lambda$.  Every strongly inaccessible cardinal is also weakly inaccessible, while the converse is true assuming the [[continuum hypothesis]].  
 
 
 ## Properties
