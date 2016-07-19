@@ -6436,17 +6436,13 @@ $$
 
 Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page of the [[classical Adams spectral sequence]] in low internal degrees $t-s$.
 
+In doing the computation, it is crucial to remember that the differential in the cobar complex (def. \ref{CobarComplex}) lands not in $\Gamma = \mathcal{A}^\ast_2$ itself, but in the unit coideal $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
-In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
+$\,$
 
-Recall the further abbreviation
+**The first page of the May spectral sequence**
 
-$$
-  h_n \coloneqq h_{1,n}
-  \,.
-$$
-
-Hence we find using the formula from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, that
+Using this we find for the differential $d_1$ of the generators in low degree on the first page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) via the formula for the differential from prop. \ref{CoproductOnDualSteenrodInTermsOfAdaptedGenerators}, the following expressions:
 
 $$
   \begin{aligned}
@@ -6467,47 +6463,52 @@ $$
   \end{aligned}
 $$
 
-and hence all the elements $h_n$ are cocycles.
+and hence all the elements $h_n$ are cocycles on the first page of the May spectral sequence.
+
+Similarly we compute $d_1$ on the other generators. These terms do not vanish, but so they impose relations on products in the cobar complex:
 
 $$
-  d_1(h_{2,0}) 
-    = 
-  h_{2,0} \otimes \underset{= 0}{\underbrace{h_{0,0}}}
-  + 
-  h_{1,1} \otimes h_{1,0}
-  +
-  \underset{= 0}{\underbrace{h_{0,2}}} h_{2,0}
-$$
-
-$$
-  d_1( h_{2,1} )
-    =
-  h_{2,1} \otimes \underset{= 0}{\underbrace{h_{0,n}}}
+  \begin{aligned}
+    d_1(h_{2,0}) 
+    & = 
+    h_{1,1} \otimes h_{1,0}
+    \\
+    d_1( h_{2,1} )
+    & =
+    h_{1,2} \otimes h_{1,1}
+    \\
+    d_1( h_{2,2} )
+     & =
+    h_{1,3} \otimes h_{1,2}
+    \\
+    d_1( h_{2,3} )
+    & =
+    h_{1,4} \otimes h_{1,3}
+    \\
+    d_1( h_{3,0} )
+     & =
+    h_{2,1} \otimes h_{1,0}
     +
-  h_{1,2} \otimes h_{1,1}
-    +
-  \underset{ = 0}{\underbrace{h_{0,3}}} \otimes h_{2,1}
+    h_{1,2} \otimes h_{2,0}
+  \end{aligned}
 $$
 
-$$
-  d_1( h_{2,2} )
-    =
-  h_{1,3} \otimes h_{1,2}
-$$
+The second ofthese relations says that $h_0 \otimes h_1 = 0$ on the second page of the May spectral sequence. On the other hand the expressions $h_0 \otimes \cdots h_0$ and $h_1 \otimes \cdots h_1$ need not vanish yet. Hence so far in low degree we find
 
 $$
-  d_1( h_{2,3} )
-    =
-  h_{1,4} \otimes h_{1,3}
+  \array{
+    \vdot & \vdots
+    \\
+    3 & h_0^4 & & &  {h_1^3}, {h_0^2 h_2}
+    \\
+    2 & h_0^2 & & h_1^2 & h_0 h_2
+    \\
+    1& h_0 & h_1 & & h_2
+     \\
+     & 0 & 1 & 2& 3 & 4
+  }
 $$
 
-$$
-  d_1( h_{3,0} )
-    =
-  h_{2,1} \otimes h_{1,0}# 
-    +
-  h_{1,2} \otimes h_{2,0}
-$$
 
 
 Proceeding this way by explicit inspection, one obtains:
