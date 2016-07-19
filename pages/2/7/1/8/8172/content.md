@@ -1712,7 +1712,7 @@ Writing out the formally dual axioms of an [[internal groupoid]] as in remark \r
 +-- {: .num_defn #CommutativeHopfAlgebroidDefinitionInExplicitComponents}
 ###### Definition
 
-A **[[graded commutative Hopf algebroid]]** is
+A **[[commutative Hopf algebroid]]** is
 
 1. two [[commutative rings]], $A$ and $\Gamma$;
 
@@ -1738,19 +1738,35 @@ such that
 
 1. (co-[[unitality]])
 
-   1.  $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
+   1. (identity morphisms respect source and target) 
 
-   1. $(id_\Gamma\otimes_A\epsilon) \circ \Psi  = (\epsilon \otimes_A id_\Gamma) \circ \Psi = id_\Gamma$;
+      $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
+
+   1. (identity morphisms are units for composition) 
+
+      $(id_\Gamma \otimes_A \epsilon) \circ \Psi  = (\epsilon \otimes_A id_\Gamma) \circ \Psi = id_\Gamma$;
+
+   1. (composition respects source and target) 
+
+      1. $\Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R$;
+
+      1. $\Psi \circ \eta_L = (\eta_L \otimes_A id) \circ \eta_L$
 
 1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
 
 1. ([[inverses]])
 
-   1. $c \circ c = id_\Gamma$;
+   1. (inverting twice is the identity) 
 
-   1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
+      $c \circ c = id_\Gamma$;
 
-   1. the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
+   1. (inversion swaps source and target) 
+
+      $c \circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
+
+   1. (inverse morphisms are indeed left and right inverses for composition) 
+
+      the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
 
       $$
         \array{
@@ -2104,6 +2120,72 @@ $$
 $$
 
 =--
+
++-- {: .num_example #ComoduleStructureOnGroundRing}
+###### Example
+
+For $(\Gamma,A)$ a [[commutative Hopf algebroid]], then $A$ becomes a left $\Gamma$-comodule (def. \ref{CommutativeHopfAlgebroidComodule}) with coaction given by the right unit
+
+$$
+  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The required co-unitality property is the dual condition in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}
+
+$$
+  \epsilon \circ \eta_R  = id_A
+$$
+
+of the fact in def. \ref{CommutativeHopfAlgebroid} that identity morphisms respect sources:
+
+$$
+  id
+    \;\colon\;
+  A 
+    \overset{\eta_R}{\longrightarrow} 
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+    \overset{\epsilon \otimes_A id}{\longrightarrow}
+  A \otimes_A A
+    \simeq
+  A
+$$
+
+The required co-action property is the dual condition 
+
+$$
+  \Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R
+$$ 
+
+of the fact in def. \ref{CommutativeHopfAlgebroid} that composition of morphisms in a groupoid respects sources
+
+$$
+  \array{
+    A 
+      &\overset{\eta_R}{\longrightarrow}&
+    \Gamma
+    \\
+    {}^{\mathllap{\eta_R}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma \simeq \Gamma \otimes_A A
+      &\underset{id \otimes_A \eta_R}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma
+  }
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_prop #IndeedComoduleStructureOnEX}
 ###### Proposition
