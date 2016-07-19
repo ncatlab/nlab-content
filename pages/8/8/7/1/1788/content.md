@@ -1,48 +1,42 @@
++-- {: .num_example #ComoduleStructureOnGroundRing}
+###### Example
+
+For $(\Gamma,A)$ a [[commutative Hopf algebroid]], then $A$ becomes a left $\Gamma$-comodule (def. \ref{CommutativeHopfAlgebroidComodule}) with coaction given by the right unit
+
+$$
+  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The required co-action property is the dual condition 
+
+$$
+  \Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R
+$$ 
+
+in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} of the fact that composition of morphisms in a groupoid respects sources
 
 $$
   \array{
-    \overline{E}^{s+1}
-      &\overset{i}{\longrightarrow}&
-    \overline{E}^s
-      &\longrightarrow&
-    E \wedge \overline{E}^s
-      &\longrightarrow&
-    \Sigma \overline{E}^{s+1}
+    A 
+      &\overset{\eta_R}{\longrightarrow}&
+    \Gamma
     \\
-    {}^{\mathllap{=}}\downarrow
+    {}^{\mathllap{\eta_R}}\downarrow
       &&
-    \downarrow^{\mathrlap{i^s}}
-      &&
-    \downarrow^{\mathrlap{u}}
-      &&
-    \downarrow
+    \downarrow^{\mathrlap{\Psi}}
     \\
-    \overline{E}^{s+1}
-      &\longrightarrow& 
-    \mathbb{S}
-      &\longrightarrow&
-    \overline{E}_s
-      &\longrightarrow&
-    \Sigma \overline{E}^{s+1}
-    \\
-    &&
-    \downarrow 
-      &&
-    \downarrow^{\mathrlap{v}}
-    \\
-      &&
-    \overline{E}_{s-1}
-      &\overset{\simeq}{\longrightarrow}&
-    \overline{E}_{s-1}
-    \\
-    &&
-    \downarrow 
-      &&
-    \downarrow
-    \\
-      &&
-    \Sigma \overline{E}^s
-      &\longrightarrow&
-     \Sigma E \wedge \overline{E}^s
+    \Gamma \simeq \Gamma \otimes_A A
+      &\underset{id \otimes_A \eta_R}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma
   }
+  \,.
 $$
+
+
+=--
