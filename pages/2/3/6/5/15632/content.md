@@ -93,7 +93,7 @@ Properties of quality types were first studied by P. Johnstone ([1996](#JS96)) u
 
 +-- {: .num_defn #quintessentialloc}
 ###### Definition 
-Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localization]] $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **quintessential** if $l$ is naturally isomorphic to $r$.
+Let $\mathcal{C}$ be a finitely complete category. An [[level|essential localization]] $l\dashv r\dashv i:\mathcal{L}\to\mathcal{C}$ is called **quintessential** if $l$ is naturally isomorphic to $i$.
 =--
 
 A trivial example of a quintessential localization is provided by $id_\mathcal{C}$.
