@@ -10063,7 +10063,7 @@ The [[commutative monoids in a symmetric monoidal category|commutative monoids]]
 [[!include homological and higher algebra -- table]]
 
 
-The [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) from the [[monoidal model categories]] to their [[homotopy category of a model category|homotopy categories]] are [[lax monoidal functors]] 
+The [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) from the [[monoidal model categories]] to their [[homotopy category of a model category|homotopy categories]] are [[lax monoidal functors]]  (cor. \ref{MonoidalStableHomotopyCategory})
 
 $$
   \array{
