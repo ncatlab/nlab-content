@@ -5785,32 +5785,31 @@ $$
 
 =--
 
-([Rognes 12, remark 7.24](#Rognes12))
+(e.g. [Ravenel 86, p. 49](#Ravenel86), [Rognes 12, remark 7.24](#Rognes12))
 
 
 We now give the generators-and-relations description of the dual Steenrod algebra $\mathcal{A}^\ast_{p}$ from def. \ref{DualSteenrodAlgebraForHPf}, in terms of linear duals of the generators for $\mathcal{A}_{p}$ itself, according to def. \ref{SteenrodAlgebraForHFp}.
-
-In the following, we use for $p = 2$ the notation 
-
-$$
-  P^n \coloneqq Sq^{2n}
-$$
-
-$$
-  \beta \coloneqq Sq^1
-  \,.
-$$
-
-This serves to unify the expressions  for $p = 2$ and for $p \gt 2$ in the following. Notice that for all $p$
-
-* $P^n$ has even degree $deg(P^n) = 2n(p-1)$;
-
-* $\beta$ has odd degree $deg(\beta) = 1$.
 
 
 +-- {: .num_theorem #MilnorTheoremOnDualSteenrodAlgebra}
 ###### Theorem
 **(Milnor's theorem)**
+
+
+The dual mod $2$-Steenrod algebra $\mathcal{A}^\ast_{2}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
+
+$$
+  \mathcal{A}^\ast_{p}
+    \simeq
+  Sym_{\mathbb{F}_p}(\xi_1, \xi_2, \cdots, )
+$$
+
+on generators:
+
+* $\xi_n$, $n \geq 1$ being the linear dual to $Sq^{p^{n-1}} Sq^{p^{n-2}} \cdots Sq^p Sq^1$,
+
+  of degree $2^n -1$.
+
 
 The dual mod $p$-Steenrod algebra $\mathcal{A}^\ast_{p}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
 
@@ -5822,7 +5821,9 @@ $$
 
 on generators:
 
-* $\xi_n$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$;
+* $\xi_n$, $n \geq 1$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$,
+
+  of degree $2(p^n-1)$.
 
 * $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 
@@ -5851,7 +5852,7 @@ where we set $\xi_0 \coloneqq 1$.
 =--
 
 
-This is due to ([Milnor 58](Steenrod+algebra#Milnor58)). See for instance ([Kochmann 96, theorem 2.5.1](#Kochmann96))
+This is due to ([Milnor 58](Steenrod+algebra#Milnor58)). See for instance ([Kochmann 96, theorem 2.5.1](#Kochmann96), [Ravenel 86, chapter III, theorem 3.1.1](#Ravenel86))
 
 
 
@@ -6434,12 +6435,39 @@ $$
 
 ##### The second page
 
-Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page of the [[classical Adams spectral sequence]] in low internal degrees $t-s$.
+Now we use the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) to compute the second page and in fact the stable page of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) in low internal degrees $t-s$.
 
 
-$\,$
 
-**The first page of the May spectral sequence**
+
++-- {: .num_lemma #TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}
+###### Lemma
+**(terms on the second page of May spectral sequence)**
+
+In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
+
+* $h_n$
+
+* $b_{i,n} \coloneqq (h_{i,n})^2$
+
+as well as the element
+
+*  $x_7 \coloneqq h_{2,0} h_{2,1} + h_{1,1} h_{3,0}$
+
+subject to the relations
+
+* $h_n h_{n+1} = 0$
+
+* $h_2 b_{2,0} = h_0 x_7$
+
+* $h_2 x_7 = h_0 b_{2,1}$.
+
+=--
+
+e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2](#Kochman96))
+
++-- {: .proof}
+###### Proof
 
 Remember that the differential in the cobar complex (def. \ref{CobarComplex}) lands not in $\Gamma = \mathcal{A}^\ast_2$ itself, but in the unit coideal $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
@@ -6509,28 +6537,22 @@ $$
   \end{aligned}
 $$
 
-The second of these relations says that 
+This shows that $h_n h_{n+1} = 0$ in the given range.
 
-$$
-  h_0 \otimes h_1 = 0
-$$ 
+The remaining statements follow similarly.
 
-on the second page of the May spectral sequence. On the other hand the expressions 
+=--
 
-$$
-  h_0 \otimes \cdots h_0
-  \;\;\,
-   and
-  h_1 \otimes \cdots h_1
-$$ 
++-- {: .num_remark #PictureFromTermsOnSecondPageOfMaySpectralSequence} 
+###### Remark
 
-need not vanish yet. Hence so far in low degree we find
+With lemma \ref{TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}, so far we see the following picture in low degrees.
 
 $$
   \array{
-    \vdot & \vdots
+    \vdots & \vdots
     \\
-    3 & h_0^4 & & &  {h_1^3}, {h_0^2 h_2}
+    3 & h_0^4 & & &  {h_1^3},\; {h_0^2 h_2}
     \\
     2 & h_0^2 & & h_1^2 & h_0 h_2
     \\
@@ -6540,40 +6562,23 @@ $$
   }
 $$
 
+Here the relation 
 
-Proceeding this way by explicit inspection, one obtains:
+$$
+  h_0 \otimes h_1 = 0
+$$ 
 
-+-- {: .num_lemma #FirstPageOfMaySpectralSequenceInLowDegrees}
-###### Lemma
+removes a vertical tower of elements above $h_1$.
 
-In the range $t - s \leq 13$, the second page of the May spectral sequence for $Ext_{\mathbb{A}^\ast_{\mathbb{F}_2}}(\mathbb{F}_2,\mathbb{F}_2)$ has as generators all the 
-
-* $h_n$
-
-* $b_{i,n} \coloneqq (h_{i,n})^2$
-
-as well as the element
-
-*  $x_7 \coloneqq h_{2,0} h_{2,1} + h_{1,1} h_{3,0}$
-
-subject to the relations
-
-* $h_n h_{n+1} = 0$
-
-* $h_2 b_{2,0} = h_0 x_7$
-
-* $h_2 x_7 = h_0 b_{2,1}$.
+So far there are two different terms in degree $(s,t-s) = (3,3)$. The next lemma shows that these become identified on the next page.
 
 =--
 
-e.g. ([Ravenel 86, lemma 3.2.8 and lemma 3.2.10](#Ravenel86), [Kochman 96, lemma 5.3.2](#Kochman96))
 
-$\,$
 
-**The second page of the May spectral sequence**
-
-+-- {: .num_lemma}
++-- {: .num_lemma #DifferentialsOnSecondPageOfMaySpectralSequence}
 ###### Lemma
+**(differentials on the second page of the May spectral sequence)**
 
 The differentials on the second page of the [[May spectral sequence]] (prop. \ref{MaySpectralSequenceForClassicalAdamsSpectralSequence}) relevant for internal degrees $t-s \leq 12$ are
 
@@ -6589,28 +6594,183 @@ The differentials on the second page of the [[May spectral sequence]] (prop. \re
 
 ([Kochman 96, lemma 5.3.3](#Kochman96))
 
-+-- {: .num_defn}
-###### Definition
++-- {: .proof}
+###### Proof
 
-The first point follows as before in lemma \ref{FirstPageOfMaySpectralSequenceInLowDegrees}, in fact the $h_n$ are infinite cycles in the May spectral sequence.
+The first point follows as before in lemma \ref{TermsOnSecondPageOfMaySpectralSequenceInLowDegrees}, in fact the $h_n$ are infinite cycles in the May spectral sequence.
 
-We spell out the computation for the second case:
+We spell out the computation for the second item:
 
-...
+We may represent $b_{2,k}$ by $\xi_2^{2^k} \times \xi_2^{2^k}$
+plus terms of lower degree. Choose the representative
+
+$$
+  B_{2,k}
+    =
+  \xi_2^{2^k} \otimes \xi_2^{2^k}
+    \;+\;
+   \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} 
+     \;+\;
+   \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k}
+   \,.
+$$
+
+Then we compute $d B_{2,k}$, using the definition of the cobar complex (def. \ref{CobarComplex}), the value of the coproduct on dual generators (theorem \ref{MilnorTheoremOnDualSteenrodAlgebra}), remembering that the coproduct $\Psi$ on a Hopf algebra is a homomorphism for the underlying commutative ring, and using [[freshman's dream]] arithmetic to evaluate prime-2 powers of sums. For the three summands we obtain
+
+$$
+  \begin{aligned}
+    d ( \xi_2^{2^k}  \otimes \xi_2^{2^k})
+    & = 
+    \overline{\Psi} (\xi_2^{2^k}) \otimes \xi_2^{2^k}
+    +  
+    \xi_2^{2^k} \otimes \overline{\Psi}(\xi_2^{2 k})
+    \\
+    & =
+    \underset{c_1}{\underbrace{\xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}}}
+    \;+\; 
+    \underset{c_2}{\underbrace{\xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}}}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    d ( \xi_1^{2^{k + 1}} \otimes \xi_1^{2^k} \xi_2^{2^k} )
+    & =
+    \xi_1^{2^k} \otimes \overline{\Psi}( \xi_1^{2^k} \xi_2^{2^k})
+    \\
+    & = 
+    \xi_1^{2^{k + 1}} 
+    \otimes
+    \left(
+      \xi_1^{2^k} \otimes 1
+        + 
+      1 \otimes \xi_1^{2^k}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
+    \\
+    & =
+    \underset{b}{
+    \underbrace{
+      \xi_1^{2^{k + 1}} \otimes \xi_1^{2^{k+1}+ 2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_1}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} \otimes \xi_2^{2^k}
+    }}
+      \;+\; 
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    d( \xi_1^{2^{k+1}} \xi^{2^k} \otimes \xi_1^{2^k} )
+    &
+    =
+    \overline{\Psi}( \xi_1^{2^{k+1}} \xi^{2^k} ) \otimes \xi_1^{2^k}
+    \\
+    & =
+    \left(
+      \xi_1^{2^{k+1}} \otimes 1
+        +
+      1 \otimes \xi_1^{2^{k+1}}
+    \right)
+    \left(
+      \xi_2^{2^k} \otimes 1
+        +
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^k}
+        +
+      1 \otimes \xi_2^{2^k}
+    \right)
+      \otimes
+    \xi_1^{2^k}
+    \\
+    & =
+    \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
+      \;+\;
+    \underset{a}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_2^{2^k} \otimes \xi_1^{2^k}
+    }}
+      \;+\;
+    \underset{c_2}{\underbrace{
+      \xi_2^{2^k} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^k} 
+    }}
+      \;+\;
+    \underset{b}{\underbrace{
+      \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1} + 2^k} \otimes \xi_1^{2^k}
+    }}
+  \end{aligned}
+  \,.
+$$
+
+The labeled summands appear twice in $d B_{2,k}$ hence vanish (mod 2). The remaining terms are
+
+$$
+  d B_{2,k}
+  =
+  \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}} \otimes \xi_1^{2^{k+1}}
+   \;+\;
+  \xi_1^{2^{k+2}} \otimes \xi_1^{2^k} \otimes \xi_1^{2^k}
+$$
+
+and these indeed represent the claimed elements.
+
 
 =--
 
-$\,$
++-- {: .num_remark } 
+###### Remark
+
+With lemma \ref{DifferentialsOnSecondPageOfMaySpectralSequence} the picture from remark \ref{PictureFromTermsOnSecondPageOfMaySpectralSequence} is further refined:
+
+For $k = 0$ the differentia $d_2(b_{2,n}) = h_n^2 h_{n+2} + h_{n+1}^3$ means that on the third page of the May spectral sequence there is an identification
+
+$$
+  h_1^3 = h_0^2 h_2
+  \,.
+$$
+
+Hence where on page two we saw two distinct elements in bidegree $(s,t-s) = (3,3)$, on the next page these merge:
 
 
-**The stable page of the May spectral sequence**
+$$
+  \array{
+    \vdots & \vdots
+    \\
+    3 & h_0^4 & & &  {h_1^3} = {h_0^2 h_2}
+    \\
+    2 & h_0^2 & & h_1^2 & h_0 h_2
+    \\
+    1& h_0 & h_1 & & h_2
+     \\
+     & 0 & 1 & 2& 3 & 4
+  }
+$$
+
+
+=--
 
 Proceeding in this fashion, one keeps going until the 4-page of the May spectral sequence ([Kochman 96, lemma 5.3.5](#Kochman96)). Inspection of degrees shows that this is sufficient, and one obtains:
 
 +-- {: .num_theorem #TheStablePageOfTheClassicalAdamsSpectralSequenceInLowDegree}
 ###### Theorem
+**(stable page of classical Adams spectral sequence)**
 
-In low $t-s$ the group $Ext_{\mathcal{A}^\ast_{2}}(\mathbb{F}_2,\mathbb{F}_2)$ is spanned by the items in the following table
+In internal degree $t-s \leq 12$ the infinity page (def. \ref{InfinityPageEAdams}) of the [[classical Adams spectral sequence]] (cor. \ref{ClassicalAdamsSpectralSequenceEstablished}) is spanned by the items in the following table
 
 <img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
 
@@ -6619,7 +6779,6 @@ Here every dot is a generator for a copy of $\mathbb{Z}/2\mathbb{Z}$. Vertical e
 =--
 
 e.g. ([Ravenel 86, theorem 3.2.11](#Ravenel86), [Kochman 96, prop. 5.3.6](#Kochman96)), graphics taken from ([[Symmetric spectra|Schwede 12]]))
-
 
 ##### The first dozen stable stems
  {#StableStems}
