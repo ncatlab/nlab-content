@@ -542,7 +542,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[descent]] 
 
-## F Toposes a Mathematical Universes
+## F Toposes as Mathematical Universes
 
 ### F1 Synthetic differential geometry
 
