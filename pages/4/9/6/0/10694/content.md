@@ -588,10 +588,10 @@ Now we use the above formula to explicitly compute the cohomology of the second 
 
 In doing so it is now crucial that the differential in the standard cobar complex (def. \ref{CobarComplex}) for $Cotor$ lands in $\overline{\Gamma} \coloneqq coker(\eta)$ where the generator $h_{0,n} = \xi_0 = 1$ disappears.
 
-One abbreviates
+Recall the further abbreviation
 
 $$
-  h_n \coloneq h_{1,n}
+  h_n \coloneqq h_{1,n}
   \,.
 $$
 
