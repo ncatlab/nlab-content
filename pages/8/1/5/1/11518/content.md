@@ -119,6 +119,10 @@ a mpa of $G$-spectra $f \colon E \longrightarrow F$ is a [[weak equivalence]] (e
 
 * [[RO(G)-grading]]
 
+* [[fixed point spectrum]]
+
+* [[geometric fixed points]]
+
 ## Examples 
 
 * [[equivariant sphere spectrum]]
@@ -180,3 +184,6 @@ Characterization via [[excisive functors]] is in
 [[!redirects G-equivariant spectra]]
 [[!redirects equivariant spectrum]]
 [[!redirects equivariant spectra]]
+
+[[!redirects genuine equivariant spectrum]]
+[[!redirects genuine equivariant spectra]]
