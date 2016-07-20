@@ -1,0 +1,8 @@
+
+* [webpage](http://www.wisdom.weizmann.ac.il/~liransh/)
+
+## related $n$Lab entries
+
+* [[fracture theorem]]
+
+category: people
