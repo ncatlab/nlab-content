@@ -6937,9 +6937,9 @@ In modern terminology this intrinsic _repulsion_ which keeps [[solid state physi
 
 > {#PN262c} PN&#167;262c Die Materie ist untrennbar beides, und negative Einheit dieser Momente, Einzelnheit, aber gegen das unmittelbare Au&#223;ereinander der Materie noch unterschieden und darum selbst noch nicht als materiell gesetzte, idelle Einzelheit, Mittelpunkt -- die Schwere.
 
-{#PN262d} PN&#167;262d Die Schwere ist von der blo&#223;en Attraktion wesentlich zu unterscheiden.
+> {#PN262d} PN&#167;262d Die Schwere ist von der blo&#223;en Attraktion wesentlich zu unterscheiden.
 
-{#PN262e} PN&#167;262e Die Schwere macht die Substantialit&#228;t der Materie aus, diese selbst ist das Streben nach dem -- aber, -- dies ist die andere Wesentliche Bestimmung, au&#223;er ihr fallenden Mittelpunkt.
+> {#PN262e} PN&#167;262e Die Schwere macht die Substantialit&#228;t der Materie aus, diese selbst ist das Streben nach dem -- aber (dies ist die andere Wesentliche Bestimmung) au&#223;er ihr fallenden -- Mittelpunkt.
 
 See also [PN&#167;271](#PN271).
 
