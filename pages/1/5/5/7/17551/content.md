@@ -36,4 +36,4 @@ A concrete definition of geometric fixed points of an equivariant spectrum is in
 
 * {#MathewNaumannNoel15} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_ ([arXiv:1507.06869](http://arxiv.org/abs/1507.06869))
 
-[[!redirects geomtric fixed point]]
+[[!redirects geometric fixed point]]
