@@ -92,6 +92,10 @@ In the context of [[complex oriented cohomology theory]]
 
 * [[invariant theory]]
 
+* [[fixed point spectrum]]
+
+* [[geometric fixed points]]
+
 
 [[!include homotopy type representation theory -- table]]
 
