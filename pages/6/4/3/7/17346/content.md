@@ -1103,7 +1103,7 @@ where the morphism on the right is identified as $g_p$ by the induction assumpti
 +-- {: .num_remark}
 ###### Remark
 
-Terminology differs across authors. The filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" that we discuss [below](#ViaInjectiveResolutions) and uses "Adams tower" for yet another concept, def. \ref{EAdamsTower} below. See also remark \ref{TerminologyAssociatedInverseSequence}.
+Terminology differs across authors. The filtration in def. \ref{AdamsEAdamsSpectralSequence} in the rewriting by lemma \ref{Wp} is due to ([Adams 74, theorem 15.1](#Adams74)), where it is not give any name. In ([Ravenel 84, p. 356](Adams+spectral+sequence#Ravenel84)) it is called the (canonical) **Adams tower** while in ([Ravenel 86, def. 2.21](Adams+spectral+sequence#Ravenel86)) it is called the canonical **Adams resolution**. Several authors follow the latter usage, for instance ([Rognes 12, def. 4.1](#Rognes12)). But ([Hopkins 99](Adams+spectral+sequence#Hopkins99)) uses "Adams resolution" for the "$E$-injective resolutions" (see [here](Adasm+spectral+sequence#ViaInjectiveResolutions)) and uses "Adams tower" for yet another concept ([def.](Adams+spectral+sequence#EAdamsTower)).
 
 =--
 
@@ -5494,7 +5494,7 @@ then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAd
 $$
   [X, Y^\wedge_E]_\bullet
     \simeq
-  \underset{\longrightarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
+  \underset{\longleftarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
 $$
 
 of $[X,Y]_\bullet$. 
