@@ -5247,7 +5247,7 @@ is presented by a tower of fibrations between fibrant spectra in the [[model str
 +-- {: .num_remark }
 ###### Remark
 
-In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
+In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) is denoted "$E^\wedge X$". The notation "$X^\wedge_E$" which we use here is more common among modern authors. It emphasizes the conceptual relation to [[p-adic completion]] $A^\wedge_p$ of abelian groups (def. \ref{AdicCompletionOfAbelingGroups}) and is less likely to lead to confusion with the smash product of $E$ with $X$. 
 
 =--
 
