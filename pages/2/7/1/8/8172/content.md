@@ -5827,7 +5827,7 @@ on generators:
 
 * $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 
-Moreover, the coproduct on $\mathcal{A}^\ast_{p}$ is given by
+Moreover, the coproduct on $\mathcal{A}^\ast_{p}$ is given on generators by
 
 $$
   \Psi(\xi_n)
@@ -5849,6 +5849,8 @@ $$
 
 where we set $\xi_0 \coloneqq 1$.
 
+(This defines the coproduct on the full algbra by it being an algebra homomorphism.)
+
 =--
 
 
@@ -5863,7 +5865,7 @@ In order to compute the second page of the classical $H \mathbb{F}_p$-Adams spec
 +-- {: .num_defn #UnitCoidealInCommutativeHopfAlgebra}
 ###### Definition
 
-Let $(\Gamma,A)$ be a [[commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $\eta \;\colon\; A \longrightarrow \Gamma$. 
+Let $(\Gamma,A)$ be a [[graded commutative Hopf algebra]], hence a [[commutative Hopf algebroid]] for which the left and right units coincide $\eta \;\colon\; A \longrightarrow \Gamma$ (remark \ref{HopfAlgebrasAsHopfAlgebroids}). 
 
 Then the **unit coideal** of $\Gamma$ is the [[cokernel]] 
 
@@ -5873,6 +5875,31 @@ $$
   coker( A \overset{\eta}{\longrightarrow} \Gamma)
   \,.
 $$ 
+
+
+=--
+
++-- {: .num_remak #DirectSumDecompositionUnitCoideal}
+###### Remark
+
+By co-unitality of graded commutative Hopf algebras (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}) $\epsilon \circ \eta = id_A$ the defining projection of the unit coideal (def. \ref{UnitCoidealInCommutativeHopfAlgebra}) 
+
+$$
+  A 
+    \overset{\eta}{\longrightarrow} 
+  \Gamma 
+    \overset{}{\longrightarrow}
+  \overline{\Gamma}
+$$
+
+forms a [[split exact sequence]] which exhibits a [[direct sum]] decomposition
+
+$$
+  \Gamma \simeq A \oplus \overline{\Gamma}
+  \,.
+$$
+
+
 
 =--
 
@@ -6003,6 +6030,82 @@ $$
 
 ([Ravenel 86, cor. A1.2.12](#Ravenel86), [Kochman 96, prop. 5.2.1](#Kochman96))
 
++-- {: .proof}
+###### Proof idea
+
+One first shows that there is a resolution of $N$ by co-free comodules given by the complex
+
+$$
+  D^\bullet_\Gamma(N) 
+    \coloneqq 
+  \Gamma \otimes_A \overline{\Gamma}^{\otimes_A^{\bullet}} \otimes_A N
+$$
+
+with differentials given by the alternating sum of the coproducts. This is called the _cobar resolution_ of $N$.
+
+To see that this is indeed a resolution, one observes that a contracting homotopy is given by 
+
+$$
+  s (\gamma \gamma_1\vert \cdots \vert \gamma_s n)
+  \coloneqq
+  \epsilon(\gamma) \gamma_1\vert \cdots \vert \gamma_s n
+$$
+
+for $s \gt 0$ and 
+
+$$
+  s(\gamma n) \coloneqq 0
+  \,.
+$$
+
+Now from lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN}, in view of remark \ref{DirectSumDecompositionUnitCoideal}, and since $A$ is trivially projective over itself, it follows that this is an $F$-acyclic resolution for $F \coloneqq Hom_\Gamma(A,-)$.
+
+This means that the resolution serves to compute the [[Ext]]-functor in question and we get
+
+$$
+  \begin{aligned}
+    Ext^\bullet_\Gamma(A,N)
+      & \simeq
+    H^\bullet(Hom_\Gamma(A, D^\bullet_\Gamma(N)))
+     \\
+      & =
+    H^\bullet( Hom_\Gamma(A, \Gamma \otimes_A \overline{\Gamma}^{\otimes_A^{\bullet}} \otimes_A N ) )
+     \\
+     &\simeq
+    H^\bullet( Hom_A(A, \overline{\Gamma}^{\otimes_A^{\bullet}} \otimes_A N ) )
+    \\
+    & \simeq
+    H^\bullet( \overline{\Gamma}^{\otimes_A^{\bullet}} \otimes_A N )
+    \,,
+  \end{aligned}
+  \,,
+$$
+
+where the second-but-last equivalence is the isomorphism of the co-free/forgetful adjunction 
+
+$$
+  A Mod
+    \underoverset
+      {\underset{co-free}{\longrightarrow}}
+      {\overset{forget}{\longleftarrow}}
+      {\bot}
+  \Gamma CoMod
+$$
+
+from prop. \ref{CoFreeComodules}, while the last equivalence is the isomorphism of the free/forgetful adjunction 
+
+$$
+  A Mod
+   \underoverset
+     {\underset{forget}{\longrightarrow}}
+     {\overset{free}{\longleftarrow}}
+     {\bot}
+  Ab
+$$
+
+
+=--
+
 
 ##### The May spectral sequence
 
@@ -6013,16 +6116,17 @@ We obtain this spectral sequence in prop. \ref{MaySpectralSequenceForClassicalAd
 +-- {: .num_lemma #CoModuleExtFromAToAForPrimitivelyGeneratedExteriorAlgebra}
 ###### Lemma
 
-Let $(\Gamma,A)$ be a graded commutative Hopf algebra, i.e. a [[graded commutative Hopf algebroid]] with left and right unit coinciding, such that 
+Let $(\Gamma,A)$ be a graded commutative Hopf algebra, i.e. a [[graded commutative Hopf algebroid]] with left and right unit coinciding for which the underlying $A$-algebra of $\Gamma$ is a free graded commutative $A$-algebra on a set of generators $\{x_i\}_{i \in I}$ 
+
+such that 
+
+1. all generators $x_i$ are [[primitive elements]];
 
 1. $A$ is in degree 0;
 
-* the underlying $A$-algebra of $\Gamma$ is a free graded commutative $A$-algebra on a set of generators $\{x_i\}_{i \in I}$ such that 
-
 1. $(i \lt j) \Rightarrow (deg(x_i) \leq deg(x_j))$;
 
-
-1. there are only finitely many $x_i$ in a given degree
+1. there are only finitely many $x_i$ in a given degree,
 
 then the [[Ext]] of $\Gamma$-comodules from $A$ to itself is the free graded commutative algebra on these generators
 
@@ -6803,6 +6907,39 @@ And expanding the range yields this :
 <img src="http://www.math.cornell.edu/~hatcher/stemfigs/p%3D2pic.gif" alt="stable homotopy groups of spheres at 2" width="800" />
 
 (graphics taken from [Hatcher's website](http://www.math.cornell.edu/~hatcher/))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
