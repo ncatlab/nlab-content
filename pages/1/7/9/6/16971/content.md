@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a $G$-[[equivariant spectrum]], it _fixed ponint spectrum_ $F^G X$ is the value of the  [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$.
+Given a $G$-[[equivariant spectrum]], its _fixed point spectrum_ $F^G X$ is the value of the  [[derived functor]] of the naive $G$-[[fixed point]] functor on $X$.
 
 (e.g. [Schwede 15, def. 7.1](#Schwede15))
 
@@ -51,6 +51,15 @@ $$
 $$
 
 (e.g. [Schwede 15, example 7.7](#Schwede15))
+
+
+
+## Related concepts
+
+* [[geometric fixed points]]
+
+* [[homotopy fixed points]]
+
 
 ## References
 
