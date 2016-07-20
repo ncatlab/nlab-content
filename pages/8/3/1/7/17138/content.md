@@ -35,22 +35,25 @@ $\,$
 
 ***
 
+
+
 Lecture notes. $\;\;\;\;\;\;\;$ (web version requires Firefox browser -- [free download](https://www.mozilla.org/en-US/firefox/new/))
 
-_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-P.pdf))
+_[[Introduction to Stable homotopy theory -- P|Prelude -- Classical homotopy theory]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-P.pdf), 99 pages)
 
 _[[Introduction to Stable homotopy theory -- 1|Part 1 -- Stable homotopy theory]]_ 
 
-* _[[Introduction to stable homotopy theory -- 1-1|Part 1.1 -- Sequential Spectra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1-1.pdf))
+* _[[Introduction to stable homotopy theory -- 1-1|Part 1.1 -- Sequential Spectra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1-1.pdf), 67 pages)
 
-* _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2 -- Structured Spectra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1-2.pdf))
+* _[[Introduction to Stable homotopy theory -- 1-2|Part 1.2 -- Structured Spectra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-1-2.pdf), 80 pages)
 
-_[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_
+_[[Introduction to Stable homotopy theory -- I|Interlude -- Spectral sequences]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-I.pdf), 16 pages)
 
-_[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-2.pdf) under construction)
+_[[Introduction to Stable homotopy theory -- 2|Part 2 -- Adams spectral sequences]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-2.pdf), 56 pages)
 
-_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-S.pdf))
+_[[Introduction to Stable homotopy theory -- S|Seminar -- Complex oriented cohomology]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/StableHomotopyTheory-S.pdf), 80 pages)
 
+_[[schreiber:Introduction to Homological algebra|Background -- Introduction to Homological algebra]]_ ([pdf](https://dl.dropboxusercontent.com/u/12630719/HomologicalAlgebra.pdf), 92 pages)
 
 ***
 
