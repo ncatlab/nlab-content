@@ -175,7 +175,7 @@ This appears as [MacLaneMoerdijk, corollary VI 9](#MacLaneMoerdijk).  Essentiall
 
 ###Remarks
 
-* A topos $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is an [[open subtopos]] is called _$\bot$-scattered_. They play are role in the modeling of [[provability logic]] (cf. [[scattered topos]]).
+* A topos $\mathcal{E}$ such that $\mathcal{E}_{\neg\neg}$ is an [[open subtopos]] is called _$\bot$-scattered_. They play a role in the modeling of [[provability logic]] (cf. [[scattered topos]]).
 
 * The booleanization $\mathcal{E}_{\neg\neg}$ of a topos $\mathcal{E}$ has a close relative: the [[De Morganization]] $\mathcal{E}_m$.
 
