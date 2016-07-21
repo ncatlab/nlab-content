@@ -135,7 +135,7 @@ As the smallest dense subtopos, $\mathcal{E}_{\not\not}$ becomes important for L
 +-- {: .num_prop #RelationToAufhebungof01}
 ###### Proposition
 
-Since the [[Aufhebung]] $\mathcal{E}_j$ of $0 \dashv 1$ (a [[sharp modality]] satisfying $\sharp 0 \simeq 0$) is necessarily dense it follows that $\mathcal{E}_{\neg\neg}\le \mathcal{E}_j$ in general and $\mathcal{E}_{\neg\neg}=\mathcal{E}_j$ in case the former is an [[essential geometric morphism|essential]] subtopos. (cf. [Lawvere-Menni 2015](#LawvereMenni15))[^law].
+The smallest  _essential_ subtopos $\mathcal{E}_j$ that is dense (in other words the [[Aufhebung]] of $0 \dashv 1$) has the property that $\mathcal{E}_{\neg\neg}\le \mathcal{E}_j$ and concides with $\mathcal{E}_{\neg\neg}$ in case the latter is an [[essential geometric morphism|essential]] subtopos: $\mathcal{E}_j=\mathcal{E}_{\neg\neg}$ (cf. [Lawvere-Menni 2015](#LawvereMenni15)).[^law]
 =--
 
 For further discussion of this relation see at [[dense subtopos]].
