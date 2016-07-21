@@ -187,25 +187,73 @@ is presented by a tower of fibrations between fibrant spectra in the [[model str
 
 ([Bousfield 79, top, middle and bottom of page 272](#Bousfield79))
 
-### As the limit over the Tot-tower 
+### As the totalization of the cosimplicial spectrum
  {#AsLimitOverTotTower}
+
++-- {: .num_defn #RingSpectrumGivesCosimplicialSpectrum}
+###### Definition
+
+Given a [[E-infinity ring spectrum]] $E$,  its **corresponding cosimplicial spectrum** is the augmented [[cosimplicial object|cosimplicial spectrum]]
+
+$$
+  E^\bullet
+   \;\coloneqq\;
+  \left(
+     \mathbb{S}
+       \overset{e}{\longrightarrow}
+     E
+       \underoverset
+         {\underset{id \wedge e}{\longrightarrow}}
+         {\overset{e \wedge id}{\longrightarrow}}
+         {\overset{\mu}{\longleftarrow}}
+     E \wedge E
+        \underoverset
+          {\underset{e \edge id}{\longrightarrow}}
+          {\overset{id \wedge e}{\longrightarrow}}
+          {
+            \underoverset
+              {\underset{id \wedge \mu}{\longleftarrow}}
+              {\overset{\mu \wedge id}{\longleftarrow}}
+              {\overset{id \wedge e \wedge id}{\longrightarrow}}
+          }
+      E \wedge E \wedge E
+       \cdots
+  \right)
+  \,.
+$$
+
+(This is the [[formal dual]] of the [[Cech nerve]] of $Spec(E) \to Spec(\mathbb{S})$ in the [[opposite category]], where we write $Spec(E)$ for the object $E$ regarded in the opposite category.)
+
+Moreover, for $X \in Ho(Spectra)$ any spectrum, then there is the corresponding augmented cosimiplicial spectrum $E^\bullet \wedge X$.
+
+=--
+
+
 
 +-- {: .num_prop #ENilpotentCompletionIsHolimOverTotTower}
 ###### Proposition
 
-The $E$-nilpotent completion $X^\wedge_E$ (def. \ref{ENilpotentCompletion}) is equivalently the homotopy limit 
+Given an [[E-infinity ring spectrum]] $E$ and any spectrum $X$, then the $E$-nilpotent completion $X^\wedge_E$ (according to def. \ref{ENilpotentCompletion}) is equivalently the homotopy limit 
 
 $$
- X^\wedge_E 
-    \simeq 
-  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}}\wedge_S X)
+  \begin{aligned}
+     X^\wedge_E 
+      &\simeq 
+    Tot(E^\bullet \wedge X)
+      \\
+     & = 
+      \underset{\leftarrow}{holim}_{n \in \Delta} (E^n\wedge X)
+    \\
+      & \simeq 
+     \underset{\leftarrow}{holim}_{n \in \mathbb{N}}Tot^n(E^\bullet \wedge X)
+  \end{aligned} 
 $$
 
-over the tower of [[totalizations]] of the skeleta of the [[cosimplicial object|cosimplicial]] spectrum $E^\bullet \otimes Y$.
+over the tower of homotopy-[[totalizations]] of the skeleta of the [[cosimplicial object|cosimplicial]] spectrum $E^\bullet \otimes Y$ (def. \ref{RingSpectrumGivesCosimplicialSpectrum}).
 
 =--
 
-This claim originates in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)). It is taken for granted in ([Lurie 10, lecture 8](#Lurie10)). The first published proof is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)).
+This claim originates in ([Hopkins 99, remark 5.5 (ii)](#Hopkins99)). It is taken for granted in ([Lurie 10, lecture 8, lecture 30](#Lurie10)). The first published proof is ([Mathew-Naumann-Noel 15, prop. 2.14](#MathewNaumannNoel15)). See also ([Carlsson 07, e.g. remark 3.1](#Carlsson07)).
 
 +-- {: .num_remark}
 ###### Remark
