@@ -235,7 +235,7 @@ given by [[flat modality]] $\dashv$ [[sharp modality]], between _non-becoming_ v
 
 In terms of [[topos theory]] the Aufhebungs-condition $\sharp \emptyset \simeq \emptyset$ says equivalently that the [[subtopos]] of $\sharp$-[[modal objects]] is a [[dense subtopos]].
 
-This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a resolution of the 'identity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
+This lowest essential subtopos arises more generally for categories $\mathcal{A}$ with [[initial object|initial]] and [[terminal objects]], via the adjoints to $\mathcal{A}\to \{*\}$ that map $*$ to $0$ and $1$. Especially, the imposition of conditions that ensure the existence of $\flat\dashv \sharp$ can be viewed as intended to provide a specific resolution of the 'identity' $0=1$, the indeterminate confluence of truth and falsity at the lowest level which [[syntax|syntactically]] corresponds to the inconsistent [[geometric theory]].
 
 Following Lawvere's suggestive terminology and identifying a level with its sheaf part, we could somewhat more loosely say that [[becoming]] is the Aufhebung of the opposition between [[nothing]] and [[being]], or more shortly, that _becoming is the Aufhebung of being_.
 
