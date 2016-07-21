@@ -326,7 +326,7 @@ This appears as ([Johnstone, prop. C1.4.5](#Johnstone)).
 +-- {: .num_prop}
 ###### Proposition
 
-The [[poset of subobjects]] $Sub_{\mathca{E}}(*)$ of the terminal object of $\mathcal{E}$ is equivalent to the full [[subcategory]] $\tau_{\leq -1}(\mathcal{E})$ of $\mathcal{E}$ on the $(-1)$-[[truncated]] objects of $E$:
+The [[poset of subobjects]] $Sub_{\mathcal{E}}(*)$ of the terminal object of $\mathcal{E}$ is equivalent to the full [[subcategory]] $\tau_{\leq -1}(\mathcal{E})$ of $\mathcal{E}$ on the $(-1)$-[[truncated]] objects of $E$:
 $$
   Sub_{\mathcal{E}}(*) \simeq \tau_{\leq -1} \mathcal{E}
   \,.
