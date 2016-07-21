@@ -36,7 +36,7 @@ Typically the admissible (co)presheaves that are regarded as generalized spaces 
   is the [[topos]] of spaces modeled on objects in $C$. More details on how to think of sheaves as generalized spaces is at [[motivation for sheaves, cohomology and higher stacks]].
 
 
-* Given any generalized spaces, functions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in coprosheaves that preserve at least [[product]]
+* Given any generalized spaces, functions out of it are expected to respect [[product]]s of coefficient objects, in that a function with values in $U \times V$ is the same as a pair of functions, one with values in $U$, one with values in $V$. Hence one is typically interested in copresheaves that preserve at least [[product]]
 
   $CoSh(C) \hookrightarrow CoPSh(C)$.
 
