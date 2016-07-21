@@ -183,13 +183,13 @@ $$
   \,.
 $$ 
 
-In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation **resolution** or (a special minimal version of it) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $\emptyset \dashv \ast$ ("[[becoming]]").
+In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it participates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation **resolution** or (a special minimal version of it) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $\emptyset \dashv \ast$ ("[[becoming]]").
 
-In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
+In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level of a topos|levels]]!
 
 #### Example: essential subtoposes of the topos of globular sets
 
-[Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] essential subtoposes correspond to [[n-truncation modality|dimensional truncations]]. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ all essential subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
+[Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] essential subtoposes correspond to [[n-truncation modality|dimensional truncations]] (plus the level ${Set^{\mathcal{G}^{op}}}$ 'at infinity'). Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ all essential subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_!
 
 ## Related entries
 
