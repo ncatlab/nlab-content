@@ -7293,7 +7293,7 @@ Comments on the similarity of Hegel's physics to aspects of [[general relativity
 
 and the idea of matter emerging from space and time has apparently influenced
 
-* {#Weyl19} [[Hermann Weyl]], _Raum, Zeit,Materie_, 1919 ([web](https://archive.org/details/raumzeitmateriev00weyl))
+* {#Weyl19} [[Hermann Weyl]], _Raum, Zeit, Materie_, 1919 ([web](https://archive.org/details/raumzeitmateriev00weyl))
 
 Related discussion in view of [[infinitesimals]] is in
 
