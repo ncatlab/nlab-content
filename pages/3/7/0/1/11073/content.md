@@ -58,7 +58,7 @@ Symmetric sequences are useful in defining [[operads]] ([[symmetric operads]]) i
 
 * [[spectra]], [[symmetric spectra]]
 
-* [[symmetric color sequence]]
+* [[colored symmetric sequence]]
 
 ## References
 
