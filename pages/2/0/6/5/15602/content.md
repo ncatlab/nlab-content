@@ -7,7 +7,7 @@
 
 A __properad__ in a [[symmetric monoidal
 category]]&#160;$C$ is a [[monoid]] in the [[monoidal
-category]] of bisymmetric sequences in&#160;$C$ (i.e.,
+category]] of [[symmetric sequence|bisymmetric sequences]] in&#160;$C$ (i.e.,
 functors $\Sigma\times\Sigma\to C$) equipped
 with a version of [[substitution product]]
 modeled on connected directed graphs with 2 levels
