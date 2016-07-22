@@ -1,8 +1,15 @@
 [[!redirects symmetric color sequence]]
 [[!redirects symmetric color sequence]]
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Idea
 
-A [[symmetric sequence]] in a symmetric monoidal category $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define colored operads as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of symmetric colored sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
+A [[symmetric sequence]] in a [[symmetric monoidal category]] $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define [[colored operads]] as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of symmetric colored sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
 
 ## Definition
 
