@@ -173,6 +173,8 @@ Technically, the issue comes down to the fact that the [[quotients]] of [[symmet
 
 ## Related concepts
 
+* [[symmetric sequence]]
+
 * [[free symmetric spectrum]]
 
 * [[symmetric ring spectrum]]
