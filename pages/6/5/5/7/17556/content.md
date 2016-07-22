@@ -1,3 +1,4 @@
+[[!redirects symmetric colored sequence]]
 [[!redirects symmetric color sequence]]
 [[!redirects symmetric color sequence]]
 
@@ -9,12 +10,23 @@
 
 ## Idea
 
-A [[symmetric sequence]] in a [[symmetric monoidal category]] $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define [[colored operads]] as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of symmetric colored sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
+A [[symmetric sequence]] in a [[symmetric monoidal category]] $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define [[colored operads]] as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of colored symmetric sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
+
+Note that the terminology "colored symmetric sequence" doesn't really make any sense, since we know longer have a _sequence_ at all, much less a "colored" one. [[Mike Shulman]] has suggested that what we call a colored symmetric sequence in $C$ might be better referred to as a _$C$-enriched multigraph_. The only drawback of such terminology is that it obscures the relevance of this construction to symmetric sequences (which it generalizes) and its relationship to colored operads. 
 
 ## Definition
 
 Let $\mathfrak{C}$ be a set that we will refer to as the set of _colors_. Define the category of $\mathfrak{C}$-profiles, denoted $P(\mathfrak{C})$, to be the groupoid whose objects are finite lists of elements of $\mathfrak{C}$ and in which there is an isomorphism $\vec{c}=\{c_1,\ldots,c_n\}\to \vec{d}=\{d_1,\ldots,d_n\}$ if $\vec{d}$ is a permutation of $\vec{c}$. Note that if $\mathfrak{C}=1$ then we recover the category $\Sigma$ of finite [[ordinals]] and [[bijections]].  
 
-A **symmetric $\mathfrak{C}$-colored sequence** in a [[category]] $C$ is then a functor $P(\mathfrak{C})\to C$. 
+A **symmetric $\mathfrak{C}$-colored sequence** in a [[category]] $C$ is then a functor $P(\mathfrak{C})\times\mathfrak{C}\to C$. 
 
-The idea of course is that the target of the sequence $\vec{c}=\{c_1,\ldots,c_n\}$ (where some of the $c_i$ might be the same element of $\mathfrak{C}$) is the object in the colored operad governing operations that take as input an object of color $c_i$ for each $c_i$ composing $\vec{c}$. 
+The idea of course is that the target of the pair $(\vec{c},d)=(\{c_1,\ldots,c_n\},d)$ (where some of the $c_i$ might be the same element of $\mathfrak{C}$) is the object in the colored operad governing operations that take as input an object of color $c_i$ for each $c_i$ composing $\vec{c}$ and have output of color $d$. 
+
+## Colored Bisymmetric Sequences
+
+The above definition can be generalized to support colored [[properads]] instead of just [[operads]]. The way to do this is to include the possibility of multiple outputs as well as multiple inputs. Thus a **colored bisymmetric sequence** in a category $C$, called a $\Sigma_{S(\mathfrak{C})}$-bimodule in [HRY](#HRY), is a functor $P(\mathfrak{C})\times P(\mathfrak{C})^{op}\to C$. 
+
+
+## References
+
+* {#HRY} [[Philip Hackney]], [[Marcy Robertson]] and [[Donald Yau]]. _Infinity Properads and Infinity Wheeled Properads_,  Lecture Notes in Mathematics, 2147. Springer, Cham, 2015. [(arxiv version)](http://arxiv.org/pdf/1410.6716v2.pdf)
