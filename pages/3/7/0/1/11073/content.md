@@ -45,7 +45,7 @@ where $\Phi_p \times \Phi_q \to \Phi_n$ is the canonical morphism which is part 
 
 ## Relationship to Operads
 
-Symmetric sequences are useful in defining [[operads]] in [[symmetric monoidal categories]]. In particular, an operad in a symmetric monoidal category $C$ can be defined to be a [[commutative monoid]] in the category of symmetric sequences of $C$. See, for instance, Definition 2.2.9 of [Ching](#Ching).
+Symmetric sequences are useful in defining [[operads]] in [[symmetric monoidal categories]]. In particular, an operad in a symmetric monoidal category $C$ can be defined to be a [[monoid]] in the category of symmetric sequences of $C$. See, for instance, Definition 2.2.9 of [Ching](#Ching).
 
 
 ## See also
