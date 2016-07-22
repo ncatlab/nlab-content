@@ -2,7 +2,23 @@
 
 An [[axiom]] in [[set theory]].
 
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+A **determined set** is a [[set]] such that any [[game]] with payout that set has a [[winning strategy]].
+
+=--
+
+## Statement of projective determinacy
+
+The _axiom of projective determinacy_ says that:
+
+_Every [[projective set]] is determined._
+
 ## Reference
 
 * Wikipedia, _[Axiom of determinacy](http://en.wikipedia.org/wiki/Axiom_of_determinacy)_
 
+[[!redirects projective determinacy]]
