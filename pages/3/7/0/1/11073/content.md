@@ -24,12 +24,12 @@ In the case that the graded group of interest is indeed $\Sigma$, we can define 
 +-- {: .num_defn}
 ###### Definition
 
-A **$\Sigma$-symmetric sequence** in a [[symmetric monoidal category]] $C$ is a symmetric monoidal functor from $FinSet$, the [[category]] of [[finite sets]], to $C$. 
+A **$\Sigma$-symmetric sequence** in a [[symmetric monoidal category]] $C$ is a symmetric monoidal functor from $FinSet$, the [[category]] of [[finite sets]] and [[bijections]], to $C$. 
 
 =--
 
 
-The relationship between the two definitions is that given a functor $F:FinSet\to C$, we have a sequence of objects for each $n$ associated to the finite set with $n$ elements. The action of $\Sigma_n$ on these objects comes from the fact that for every [[permutation]] in $\Sigma_n$ there is an associated morphism in $FinSet$. Sometimes the category $FinSet$ is replaced with its [[skeleton]], the category of all finite [[ordinals]] with all functions in between them. This latter category is sometimes denoted $FinOrd$ or just $\Sigma$. In the latter case, we sometimes call $\Sigma$-symmetric sequences just "$\Sigma$-sequences." 
+The relationship between the two definitions is that given a functor $F:FinSet\to C$, we have a sequence of objects for each $n$ associated to the finite set with $n$ elements. The action of $\Sigma_n$ on these objects comes from the fact that for every [[permutation]] in $\Sigma_n$ there is an associated morphism in $FinSet$. Sometimes the category $FinSet$ is replaced with its [[skeleton]], the category of all finite [[ordinals]] with all bijections between them. This latter category is sometimes denoted $FinOrd$ or just $\Sigma$. In the latter case, we sometimes call $\Sigma$-symmetric sequences just "$\Sigma$-sequences." 
 
 ## Symmetric monoidal structure
 
