@@ -1,5 +1,5 @@
 
-> This entry is about the formal dual [[topological space]] of a [[commutative ring]]. For the very different notion of a similar name in [[higher algebra]] see at [[ring spectrum]].
+> This entry is about the formal dual [[topological space]] of a [[commutative ring]]. For the very different notion of a similar name in [[higher algebra]] see at [[ring spectrum]]. For more see at _[[spectrum - disambiguation]]_.
 
 #Contents#
 * table of contents
