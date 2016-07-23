@@ -8,4 +8,6 @@
 
 * [[Löwenheim-Skolem theorem]]
 
+* [[Skolem's paradox]]
+
 category: people
