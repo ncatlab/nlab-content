@@ -10,7 +10,7 @@
 
 ## Idea
 
-A [[symmetric sequence]] in a [[symmetric monoidal category]] $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with functions between them. One use of this idea is to define [[operads]] as commutative monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define [[colored operads]] as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of colored symmetric sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
+A [[symmetric sequence]] in a [[symmetric monoidal category]] $C$ can be thought of as a functor $\Sigma\to C$, where $\Sigma$ is the category of finite ordinals with bijections between them. One use of this idea is to define [[operads]] as monoids in symmetric sequences (with a certain [[composition product]]). However, operads defined in this way are necessarily operads with _one color_. To define [[colored operads]] as a type of "symmetric sequence", one has to generalize the category $\Sigma$. The category of colored symmetric sequences in a symmetric monoidal category $C$, as defined below, admits a [[composition product]], with respect to which the algebras are precisely the [[colored operads]] in $C$. 
 
 Note that the terminology "colored symmetric sequence" doesn't really make any sense, since we know longer have a _sequence_ at all, much less a "colored" one. [[Mike Shulman]] has suggested that what we call a colored symmetric sequence in $C$ might be better referred to as a _$C$-enriched multigraph_. The only drawback of such terminology is that it obscures the relevance of this construction to symmetric sequences (which it generalizes) and its relationship to colored operads. 
 
@@ -21,6 +21,10 @@ Let $\mathfrak{C}$ be a set that we will refer to as the set of _colors_. Define
 A **symmetric $\mathfrak{C}$-colored sequence** in a [[category]] $C$ is then a functor $P(\mathfrak{C})\times\mathfrak{C}\to C$. 
 
 The idea of course is that the target of the pair $(\vec{c},d)=(\{c_1,\ldots,c_n\},d)$ (where some of the $c_i$ might be the same element of $\mathfrak{C}$) is the object in the colored operad governing operations that take as input an object of color $c_i$ for each $c_i$ composing $\vec{c}$ and have output of color $d$. 
+
+## Conceptual significance 
+
+
 
 ## Colored Bisymmetric Sequences
 
