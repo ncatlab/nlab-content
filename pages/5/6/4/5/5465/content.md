@@ -20,9 +20,7 @@ The resolution of this apparent [[paradox]] is that, while this conclusion is tr
 
 ## References
 
-* Thoralf Skolem, _Einige Bemerkungen zur axiomatischen Begr&#252;ndung der Mengenlehre_, 1922
-from
-* Felgner, _Mengenlehre_, 1979
+* [[Thoralf Skolem]], *[[Some remarks on axiomatized set theory|Einige Bemerkungen zur axiomatischen Begründung der Mengenlehre]]*, Mathematikerkongressen i Helsingfor 4-7 Juli 1922. English transl. pp.290-301 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
 
 [[!redirects Skolem paradox]]
