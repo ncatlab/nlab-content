@@ -26,7 +26,7 @@ Given two categories $C, D$ [[enriched category|enriched in]] a [[monoidal categ
 * A function $F_0: C_0 \to D_0$ between the underlying collections of objects; 
 * A $(C_0 \times C_0)$-indexed collection of morphisms of $V$, 
 $$F_{x, y}: C(x, y) \to D(F_0x, F_0y)$$ 
-[where $C(x, y)$ denotes the hom-object $\hom_C(x, y)$ in $V$], compatible with the enriched identities and compositions of $C$ and $D$;
+where $C(x, y)$ denotes the hom-object in $V$,
 
 * such that the following diagrams commute for all $a, b, c \in C_0$:
 
