@@ -1,5 +1,5 @@
 
-Oscar Randall-Williams is professor of pure [[mathematics]] at Cambridge.
+Oscar Randal-Williams is professor of pure [[mathematics]] at Cambridge.
 
 * [webpage](https://www.dpmms.cam.ac.uk/~or257/)
 
