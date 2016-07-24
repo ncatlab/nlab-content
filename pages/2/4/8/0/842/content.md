@@ -46,7 +46,7 @@ A **colimit** in a quasi-category is accordingly an limit in the [[opposite quas
 
 Notice from the discussion at [[join of quasi-categories]] that there are two definitions -- denoted $\star$ and $\diamondsuit$ -- of join, which yield results that differ as simplicial sets, though are equivalent as quasi-categories.
 
-The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced from $*$, while the notation $C^{/F}$ denotes that induced from $\diamondsuit$. Either can be used for the computation of limits in a quasi-category, as for quasi-categorical purposes they are weakly equivalent.
+The notation $C_{/F}$ denotes the definition of [[over quasi-category]] induced from $\star$, while the notation $C^{/F}$ denotes that induced from $\diamondsuit$. Either can be used for the computation of limits in a quasi-category, as for quasi-categorical purposes they are weakly equivalent.
 
 So we also have
 
@@ -196,12 +196,13 @@ $$
     & =
     Hom_{{\Delta[0]}/sSet}( \Delta[0] \coprod_{\Delta[n]} \Delta[n] \times \Delta[1] , C^K )
     \times_{(C^K)_n} \{const Y\}
+    \\
     & =
     \{p\}
       \times_{Hom(\Delta[0],C^K)}
     Hom(\Delta[0], C^K)
       \times_{Hom(\Delta[n], C^K)}
-    Hom(\Delta[n] \times \Delta[1], C^K \)
+    Hom(\Delta[n] \times \Delta[1], C^K)
       \times_{Hom(\Delta[n], C^K)}
     \{const Y\}
     \\
