@@ -8,6 +8,8 @@
 
 A symmetric sequence is a [[sequence]] of [[objects]] where the $n$th [[object]] has an [[action]] of the $n$th [[symmetric group]]. 
 
+A symmetric sequence is a [[species]] by another name. Meaning: they are categorically equivalent notions. 
+
 ## Definition
 
 
