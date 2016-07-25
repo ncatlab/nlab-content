@@ -2167,6 +2167,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
+It is clear that $\Omega^\infty$ preserves fibrations and acyclic cofibrations. This is sufficient to deduce a Quillen adjunction.
+
+Just for the record, we spell out a direct argument that also $\Sigma^\infty$ preserves cofibrations and acyclic cofibrations:
+
 Let $f \colon X\longrightarrow Y$ be a morphism in $Top^{\ast/}_{cg}$ and 
 
 $$
@@ -3069,7 +3073,7 @@ $$
 
 Regarding the third point:
 
-By construction, $id \colon \mathcal{C}_{loc}\to \mathcal{C}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
+By construction, $id \colon \mathcal{C} \to \mathcal{C}_{loc}$ preserves cofibrations and acyclic cofibrations, hence is a left Quillen functor.
 
 Regarding the fourth point:
 
