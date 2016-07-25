@@ -55,11 +55,11 @@ sets are for them not things subject to some axioms but just a collection on _ex
 
 Originally published in German
 
-* Thoralf Skolem, _Einige Bemerkungen zu axiomatischen Begr&#252;ndung der Mengenlehre_, Mathematikerkongressen i Helsingfors den 4&#8211;7 Juli 1922, Den femte skandinaviska matematikerkongressen, Redog&#246;relse: 217&#8211;232_)
+* [[Thoralf Skolem]], _Einige Bemerkungen zu axiomatischen Begr&#252;ndung der Mengenlehre_, Mathematikerkongressen i Helsingfors den 4&#8211;7 Juli 1922, Den femte skandinaviska matematikerkongressen, Redog&#246;relse: 217&#8211;232
 
 English translation
 
-* _Some remarks on axiomatized set theory"_ in _From Frege to G&#246;del: A Source Book in Mathematical Logic, 1879-1931_, Cambridge, Massachusetts: Harvard University Press
+* _Some remarks on axiomatized set theory_ in _From Frege to G&#246;del: A Source Book in Mathematical Logic, 1879-1931_, Cambridge, Massachusetts: Harvard University Press
 
 
 [[!redirects Einige Bemerkungen zu axiomatischen Begründung der Mengenlehre]]
