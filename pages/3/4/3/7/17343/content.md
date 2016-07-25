@@ -9276,7 +9276,7 @@ is [[exact sequence|exact]] as a sequence of [[pointed sets]].
 Let $A$, $X$ and $Y$ denote fibrant-cofibrant objects in $\mathcal{C}^{\ast/}$ representing the given objects of the same name in $Ho(\mathcal{C}^{\ast/})$. Moreover, let $f$ be a fibration in $\mathcal{C}^{\ast/}$ representing the given morphism of the same name in $Ho(\mathcal{C}^{\ast/})$.
 
 Then by def. \ref{HomotopyFiber} and prop. 
-\ref{HomotopyFiberIndependentOfChoiceOfFibrantReplacement}, then there is a representative $hofib(f) \in \mathcal{C}$ of the homotopy fiber which fits into a pullback diagram of the form
+\ref{HomotopyFiberIndependentOfChoiceOfFibrantReplacement} there is a representative $hofib(f) \in \mathcal{C}$ of the homotopy fiber which fits into a pullback diagram of the form
 
 $$
   \array{
@@ -9288,9 +9288,9 @@ $$
   }
 $$ 
 
-With this the hom-sets in question are represented by genuine morphisms in $\mathcal{C}^{\ast/}$, modulo homotopy. From this it follows immediately that $ker(p_\ast)$ includes $im(i_\ast)$ into $ker(f_\ast)$. Hence it remains to show the converse: that every element in $ker(p_\ast)$ indeed comes from $im(i_\ast)$.
+With this the hom-sets in question are represented by genuine morphisms in $\mathcal{C}^{\ast/}$, modulo homotopy. From this it follows immediately that $im(i_\ast)$ includes into $ker(f_\ast)$. Hence it remains to show the converse: that every element in $ker(f_\ast)$ indeed comes from $im(i_\ast)$.
 
-But an element in $ker(p_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
+But an element in $ker(f_\ast)$ is represented by a morphism $\alpha \colon A \to X$ such that there is a left homotopy as in the following diagram
 
 $$
   \array{
