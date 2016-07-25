@@ -1,14 +1,14 @@
 * [[Thoralf Skolem]], 
   _Some remarks on axiomatized set theory_, 1922
 
-is a talk in which some major ideas of set theory appear and the idea of set theoretic foundation is discussed. 
+is a talk in which some major ideas of [[set theory]] appear and the idea of set theoretic [[foundation of mathematics|foundation]] is discussed. 
 
 
 ## Content
 
 Axiomatic set theory at the stage of this talk is not a formal theory, i.e. not conceived as being a manipulation of strings.
-Instead the axioms are considered to describe a certain universe or range of things $B$ (German "Bereich").
-This $B$ would be called underlying set of a model in modern terminology
+Instead the axioms are considered to describe properties of a certain universe or range of things $B$ (German "Bereich").
+This $B$ would be called underlying set of a model in modern terminology.
 
 ### Die Eigent&#252;mlichkeit, dass man mit "Bereichen" gewisser Beschaffenheit anfangen muss, um "Mengen" behandeln zu k&#246;nnen.
 
@@ -26,9 +26,16 @@ Downward version of [[Löwenheim-Skolem theorem]] is proved, i.e. existence of c
 
 ### Die Unvollst&#228;ndigkeit des Zermelo'schen Axiomensystems zur Begr&#252;ndung der gew&#246;hnlichen Mengenlehre
 
-[[axiom of replacement|Axioms of replacement]] is introduced.
+[[axiom of replacement|Axioms of replacement]] is suggested.
 
 ### Die Schwierigkeit der non-pr&#228;dikativen Forderung, wenn man die Widerspruchslosigkeit der Axiome beweisen will
+
+Skolem argues that the consistency of set theory can not be proved (note that at that time G&#246;del's [[incompleteness theorem]] was still unknown).
+Such a proof is in Skolem's opinion not possible as in set theory sets are formed in a "non-predicative" way, that is to say they are formed from all sets of $B$ and not just a finite number of sets, e.g. the intersection of all sets with some property.
+
+Skolem remarks that a the "non-predicative requirement of reproduction of sets" also occurs in [[Principia Mathematica|Russell's type theory]] in form of the [[axiom of reducibility]].
+
+### Die Mehrdeutigkeit des Bereiches $B$
 
 In modern language: Based on a given model of set theory, a new model is constructed by extending the underlying set by a new element.
 
