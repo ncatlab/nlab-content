@@ -43,6 +43,8 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 Review includes
 
+* [[Syksy Räsänen]], _Dark matter_ cosmo 2015 lecture notes ([pdf](http://www.courses.physics.helsinki.fi/teor/cos1/cosmo2015_07.pdf))
+
 * Wikipedia, _[Dark matter](http://en.wikipedia.org/wiki/Dark_matter)_
 
 * [[Matthew Strassler]], _[Current hints of dark matter](http://profmattstrassler.com/articles-and-posts/relativity-space-astronomy-and-cosmology/dark-matter/current-hints-of-dark-matter-413/)_
