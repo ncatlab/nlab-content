@@ -121,3 +121,8 @@ Discussion of the [[BRST complex]] of the NSR string is for instance in
 
 [[!redirects NSR-superstring]]
 [[!redirects NSR-superstrings]]
+
+[[!redirects Neveu-Ramond-Schwarz model]]
+
+[[!redirects Neveu-Ramond-Schwarz string]]
+[[!redirects Neveu-Ramond-Schwarz strings]]
