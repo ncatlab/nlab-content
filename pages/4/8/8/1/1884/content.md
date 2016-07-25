@@ -51,7 +51,7 @@ $$
 
 that sends each smooth test space $U$ (a smooth manifold, say), to [[groupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parametrized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
 
-The [[nonabelian cohomology]] theory with coefficients in $\mathbf{Vect}$ has no [[cohomology group]]s, but at least cohomology [[monoid]]s
+The [[nonabelian cohomology]] theory with coefficients in $\mathbf{Vect}$ has no [[cohomology group]]s, but at least cohomology [[monoids]]
 
 $$
   H(X,\mathbf{Vect}) := \pi_0 \mathbf{H}_{diff}(X, \mathbf{Vect})
@@ -59,6 +59,8 @@ $$
 $$
 
 It is equivalent to the [[nonabelian cohomology]] with coefficients the [[delooping]] $\mathbf{B} U$ of the stable unitary group $U := colim_n U(n)$.
+
+To get actual topological K-theory from this one applies [[geometric realization]] ([[fundamental infinity-groupoid]]) of the [[K-theory of a symmetric monoidal (∞,1)-category|infinity-group completion]] of  $\mathbf{Vect}$ or $\mathbf{B}U$ ([Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)). See at _[[differential cohomology hexagon]]_ the section _[Algebraic K-theory of smooth manifolds](differential+cohomology+diagram#SoothVectorBundlesWithConnectionAndEInvariant)_.
 
 Note: Topological complex K-theory is defined on pairs of spaces $K(X,U)$, such that the section of the complex bundle over $U$ is trivial (we might choose a trivialization). If no second space is listed, we assumed that K-theory of our manifold $X$ is taken with respect to the empty set -- $K(X) \equiv K(X, \emptyset)$ -- in this case, the bundle can be nowhere trivial. 
 
@@ -484,6 +486,11 @@ The [[comparison map between algebraic and topological K-theory]] is discussed f
 
 * {#Rosenberg} [[Jonathan Rosenberg]], _Comparison Between Algebraic and Topological K-Theory for Banach Algebras and $C^*$-Algebras_, ([pdf](http://www2.math.umd.edu/~jmr/algtopK.pdf))
  
+Discussion from the point of view of [[smooth stacks]] and [[differential K-theory]] is in 
+
+* {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
+
+
 
 [[!redirects complex K-theory]]
 
