@@ -22,7 +22,7 @@ Academic Activities:
 
 17.07.2016--23.07.2016, visit [Anton](http://www.unige.ch/math/en/people/alekseev/) in Geneva
 
-02.07.2016--09.07.2016, [Poisson 2016, ETH Zurich](http://www.unige.ch/math/Poisson2016/)
+02.07.2016--09.07.2016, [Poisson 2016, ETH Zurich](http://www.unige.ch/math/Poisson2016/), if you want to [see](http://www.video.ethz.ch/conferences/2016/poisson/day2/d2eb6d7a-7dff-4fa8-ade7-2390b9299340.html?autoplay=true) how nervous I was while giving the talk :-P
 
 22.06.2016--26.06.2016, visit [Giovanni](http://www2.math.ethz.ch/u/felder) in ETH Zurich. 
 
