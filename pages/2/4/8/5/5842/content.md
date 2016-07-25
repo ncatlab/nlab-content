@@ -24,9 +24,9 @@ The basic picture is one from Riemann surfaces: the power $z\mapsto z^n$ has a b
 +-- {: .num_defn}
 ###### Definition
 
-A [[morphism]] $f \colon X\longrightarrow Y$ of [[schemes]] is __unramified__ if it is [[locally of finite presentation]], and if for every point $y\in Y$ the induced morphism of [[residue fields]]
+A [[morphism]] $f \colon X\longrightarrow Y$ of [[schemes]] is __unramified__ if it is [[locally of finite presentation]], and if for every point $x\in X$ we have $\mathfrak{m}_{f(x)}\mathcal{O}_{X,x}=\mathfrak{m}_x$ and the induced morphism of [[residue fields]]
 $$
-\mathcal{O}_{X,f(y)}/\mathfrak{m}_{f(y)}\to\mathcal{O}_{Y,y}/\mathfrak{m}_{f(y)}\mathcal{O}_{Y,y}
+\mathcal{O}_{Y,f(x)}/\mathfrak{m}_{f(x)}\to\mathcal{O}_{X,x}/\mathfrak{m}_{x}
 $$
 is a [[finite number|finite]] and [[separable field extension|separable]] [[extension of fields]].
 
