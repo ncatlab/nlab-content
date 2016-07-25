@@ -1259,7 +1259,7 @@ $$
   SeqSpec(Top_{cg})
 $$
 
-from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra}, which is given on objects by sending $X \in [StdSpheres,Top^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
+from the category of [[topologically enriched functors]] on the category of standard spheres of def. \ref{CategoriesOfStandardSpheres} to the category of topological sequential spectra, def. \ref{SequentialSpectra}, which is given on objects by sending $X \in [StdSpheres,Top_{cg}^{\ast/}]$ to the sequential prespectrum $X^{seq}$ with components
 
 $$
   X^{seq}_n \coloneqq X(S^n)
@@ -1275,42 +1275,15 @@ $$
   }
 $$
 
-given by
+being the [[adjunct]] of the component map of $X$ on spheres of consecutive dimension.
 
-$$
-  S^1
-    \stackrel{\widetilde{id}}{\longrightarrow}
-  Maps(S^n,S^{n+1})_\ast
-    \stackrel{X_{S^n, S^{n+1}}}{\longrightarrow}
-  Maps(X^{seq}_n, X^{seq}_{n+1})
-  \,.
-$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The action of a given topological functor $X$ on hom-spaces between spheres of consecutive dimension 
-
-$$
-  X_{S^n, S^{n+1}}
-    \;\colon\;
-  S^1 
-    \longrightarrow
-  Maps(X(S^n), X(S^{n+1}))_\ast
-$$
-
-is naturally identified with its [[adjunct]]
-
-$$
-  \widetilde {X_{S^n, S^{n+1}}}
-    \;\colon\;
-  S^1 \wedge X(S^n) \longrightarrow S^{n+1}
-  \,.
-$$
-
-This gives the structure maps. It only remains to see that from these maps the functor is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the 
+First observe that from its components on consecutive spheres the functor $X$ is already uniquely determined. Indeed, by definition the hom-space between non-consecutive spheres $StdSpheres(S^n, S^{n+k})$ is the 
 [[smash product]] of the hom-spaces between the consecutive spheres, for instance:
 
 $$
@@ -1326,7 +1299,60 @@ $$
   \,,
 $$
 
-and so functoriality completely fixes the former by the latter:
+and so functoriality completely fixes the former by the latter.
+
+This means that we actually have a bijection between classes of objects.
+
+Now observe that a [[natural transformation]] $f \colon X \to Y$ between two functors on $StdSpheres$ is equivalently a collection of component maps $f_n \colon X_n \to Y_n$, such that for each $s \in S^1$ then the following squares commute
+
+$$
+  \array{
+    X(S^n) 
+      &\overset{f_n}{\longrightarrow}&
+    Y^{S^{n}}
+    \\
+    {}^{\mathllap{X_{S^n,S^{n+1}}(s)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{Y_{S^n,S^{n+1}}(s)}}
+    \\
+    X(S^{n+1})
+      &\underset{f_{n+1}}{\longrightarrow}&
+    Y(S^{n+1})
+  }
+  \,,
+$$
+
+By the smash/hom adjunction, the square equivalently factors as
+
+$$
+  \array{
+    X(S^n) 
+      &\overset{f_n}{\longrightarrow}&
+    Y^{S^{n}}
+    \\
+    {}^{\mathllap{(s,id)}}\downarrow
+      &&
+    \downarrow^{\mathrlap{(s,id)}}
+    \\
+    S^1 \wedge X(S^n)
+     &\underset{id \times f_n}{\longrightarrow}&
+    S^1 \wedge Y(S^n)
+    \\
+    {}^{\mathllap{\sigma^X_n}}
+    \downarrow
+      &&
+    \downarrow^{\mathrlap{\sigma^Y_n}}
+    \\
+    X(S^{n+1})
+      &underset{f_{n+1}}{\longrightarrow}&
+    Y(S^{n+1})
+  }
+  \,.
+$$
+
+Here the top square commutes in any case, and so the total rectangle commutes precisely if the lower square commutes, hence if under our identification the components $\{f_n\}$ constitute a homomorphism of sequential spectra.
+
+Hence we have an isomorphism on all hom-sets, and hence an equivalence of categories.
 
 
 =--
