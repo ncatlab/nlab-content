@@ -393,8 +393,8 @@ For references on  [[Chern-Weil theory in Smooth∞Grpd]] and [[connection on a 
 
 The results on differentiable [[Lie group cohomology]] used above are in 
 
-* P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
-{#Blanc}
+* {#Blanc} P. Blanc, _Cohomologie diff&eacute;rentiable et changement de groupes_ Ast&eacute;risque, vol. 124-125 (1985), pp. 113-130.
+
 
 and
 
@@ -403,25 +403,25 @@ and
 
 which parallels 
 
-* [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
-{#Segal}
+* {#Segal} [[Graeme Segal]], _Cohomology of topological groups_ , Symposia Mathematica, Vol IV (1970) (1986?) p. 377
+
 
 A review is in section 4 of 
 
-* [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
-{#SchommerPries}
+* {#SchommerPries} [[Chris Schommer-Pries]], _A finite-dimensional String 2-group_ ([arXiv:0911.2483](http://arxiv.org/abs/0911.2483))
+
 
 
 Classification of topological [[principal 2-bundle]]s is discussed in 
 
-* [[John Baez]], [[Danny Stevenson]], _The classifying space of a topological 2-group_ Algebraic Topology
+* {#BaezStevenson} [[John Baez]], [[Danny Stevenson]], _The classifying space of a topological 2-group_ Algebraic Topology
 Abel Symposia, 2009, Volume 4, 1-31 ([arXiv:0801.3843](http://arxiv.org/abs/0801.3843))
- {#BaezStevenson}
+ 
 
 and the generalization to classification of smooth [[principal 2-bundle]]s is in 
 
-* [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
- {#NikolausWaldorf}
+* {#NikolausWaldorf} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
+ 
 
 Further discussion of the [[shape modality]] on smooth $\infty$-groupoids is in 
 
