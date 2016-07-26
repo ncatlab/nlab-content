@@ -115,14 +115,42 @@ Discussion of the [[BRST complex]] of the NSR string is for instance in
 [[!redirects NSR superstring]]
 [[!redirects NSR superstrings]]
 
-
 [[!redirects NSR-string]]
 [[!redirects NSR-strings]]
 
 [[!redirects NSR-superstring]]
 [[!redirects NSR-superstrings]]
 
+[[!redirects RNS string]]
+[[!redirects RNS strings]]
+
+[[!redirects RNS superstring]]
+[[!redirects RNS superstrings]]
+
+[[!redirects RNS-string]]
+[[!redirects RNS-strings]]
+
+[[!redirects RNS-superstring]]
+[[!redirects RNS-superstrings]]
+
+
 [[!redirects Neveu-Ramond-Schwarz model]]
+[[!redirects Neveu-Ramond-Schwarz models]]
 
 [[!redirects Neveu-Ramond-Schwarz string]]
 [[!redirects Neveu-Ramond-Schwarz strings]]
+
+[[!redirects Ramond-Neveu-Schwarz string]]
+[[!redirects Ramond-Neveu-Schwarz strings]]
+
+[[!redirects Ramond-Neveu-Schwarz model]]
+[[!redirects Ramond-Neveu-Schwarz models]]
+
+
+[[!redirects Neveu-Schwarz-Ramond string]]
+[[!redirects Neveu-Schwarz-Ramond strings]]
+
+
+[[!redirects Neveu-Schwarz-Ramond model]]
+[[!redirects Neveu-Schwarz-Ramond models]]
+
