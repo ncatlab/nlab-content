@@ -30,7 +30,7 @@ For $C$ any [[category]], its **arrow category** $Arr(C)$ is the category such t
      a_1 & \underset{f_1}\to & b_1
      } $$
   in $C$;
-* [[composition]] in $C$ is given simply by placing commutative squares side by side to get a commutative oblong.
+* [[composition]] in $Arr(C)$ is given simply by placing commutative squares side by side to get a commutative oblong.
 
 Up to [[equivalence of categories|equivalence]], this is the same as the [[functor category]]
 $$
