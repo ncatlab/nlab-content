@@ -1,4 +1,16 @@
 
-[[DuffBraneScan.jpg:file]]
-
-<img src="https://ncatlab.org/nlab/files/DuffBraneScan.jpg" height="400">
+$$
+\array{
+  \text{symmetry of worldsheet theory}
+  \\
+  \array{
+    && \Sigma
+    \\
+    & {}^{\mathllap{\phi}}\swarrow && \searrow^{\mathrlap{\phi'}}
+    \\
+    X &&\underset{\simeq}{\longrightarrow}&& X
+  }
+  \\
+  \text{super-isometry of target spacetime}
+}
+$$
