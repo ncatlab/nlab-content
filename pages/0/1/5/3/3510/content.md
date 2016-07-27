@@ -335,27 +335,30 @@ By restriction along this inclusion, the
 
 Complete Segal spaces were originally defined in 
 
-* [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
- {#Rezk}
+* {#Rezk} [[Charles Rezk]], _A model for the homotopy theory of homotopy theory_ , Trans. Amer. Math. Soc., 353(3), 973-1007 ([pdf](http://www.math.uiuc.edu/~rezk/rezk-ho-models-final-changes.pdf))
+ 
 
 The [[Quillen equivalence]] with the [[model structure for quasi-categories]] is discussed in 
 
-* [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
- {#JoyalTierney}
+* {#JoyalTierney} [[André Joyal]], [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+ 
 
 A survey of the model structures and their relations is in 
 
-* [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
- {#Bergner}
+* {#Bergner} [[Julia Bergner]], _A survey of $(\infty, 1)$-categories_ ([arXiv](http://arxiv.org/abs/math.AT/0610239)).
+ 
 
 The generalization to _complete Segal objects_ in model categories other than $sSet$ was considered in 
 
-* [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
- {#Lurie}
+* {#Lurie} [[Jacob Lurie]], _$(\infty,2)$-Categories and the Goodwillie calculus_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
 
 Discussion in terms of [[Cisinski model structures]] is in 
 
-* [[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
- {#Ara}
+* {#Ara}[[Dimitri Ara]], _Higher quasi-categories vs higher Rezk spaces_ ([arXiv:1206.4354](http://arxiv.org/abs/1206.4354))
 
+A model structure for [[(infinity,2)-sheaves]] of complete Segal spaces is discussed in
+ 
+
+* [[Nicholas Meadows]], _Local Complete Segal Spaces_ ([arXiv:1607.05794](http://arxiv.org/abs/1607.05794))
 
