@@ -31,9 +31,13 @@ This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)
 
 ## References
 
-Chapter 5.3 of 
+The [[Green-Schwarz sigma-model]] description of $(p,q)$-5-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
 
-* {#AGMOO} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+* {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+
+See also
+
+* {#AGMOO} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, chapter 5.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
  
 
 
