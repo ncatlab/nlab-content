@@ -1,10 +1,29 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-The embedding of a non-compact [[Lorentzian manifold]] into a [[compact]] Lorentzian manifold as a dense open subspace, such that the embedding is a [[conformal]] map.
+A _conformal compactification_ is an [[embedding]] of a non-[[compact topological space|compact]] [[Lorentzian manifold]] into a [[compact]] Lorentzian manifold as a [[dense subspace|dense]] [[open subset|open]] [[subspace]], such that the embedding is a [[conformal map]] .
 
 ## Example
 
-The conformal compactification $\overline{M}$ of (flat) [[Minkowski space]] $M = \mathbb{R}^{n,1}$ is important in various treatments of behaviour at infinity of physics thereon.
+The conformal compactification $\overline{M}$ of (flat) [[Minkowski space]] $M = \mathbb{R}^{n,1}$ is important in various treatments of behaviour at infinity of physics thereon (see e.g. _[[Penrose-Hawking theorem]]_).
 
 The blog post ([Wong 2009](#Wong09))) claims that the underlying manifold of $\overline{M}$ is $S^n\times S^1$, but then clarifies that this is a 'double cover', but in a non-specific way. Section 4.2 of ([Nikolov-Todorov](#NikolovTodorov)) gives a thorough geometric discussion of the construction and gives explicit expressions in coordinates, and shows that (the underlying manifold of) $\overline{M}$ is in fact $(S^n\times S^1)/\{\pm 1\}$, for a specific embedding of $S^n\times S^1$ in $\mathbb{R}^{n+1,2}$, and the action by scalar multiplication.
 
@@ -17,6 +36,10 @@ The blog post ([Wong 2009](#Wong09))) claims that the underlying manifold of $\o
 * [[asymptotically flat spacetime]]
 
 ## References
+
+* [[Roger Penrose]], _Relativistic Symmetry Groups_, in A.O.Barut (ed.), _Group Theory in Non-Linear Problems: Lectures Presented at the NATO Advanced Study Institute on Mathematical Physics_  (1974)
+
+* Valentina, _Conformal compactifications_ ([pdf](http://www.fysik.su.se/~ingemar/relteori/valentinamaster.pdf))
 
 * J&#246;rg Frauendiener, _Conformal Infinity_ ([living reviews](http://relativity.livingreviews.org/Articles/lrr-2000-4/))
 
