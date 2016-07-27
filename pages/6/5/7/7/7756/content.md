@@ -34,3 +34,5 @@ Formulation of [[set theory]] is a first-order theory, such as
 * [[structural set theory]]: [[fully formal ETCS]]
 
 [[!redirects first-order theories]]
+[[!redirects first-order logical theories]]
+[[!redirects first-order logical theory]]
