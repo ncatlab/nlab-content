@@ -23,7 +23,7 @@
 
 ## Idea
 
-Broadly speaking, __constructive mathematics__ is [[mathematics]] done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case.
+Broadly speaking, __constructive mathematics__ is [[mathematics]] done without the principle of [[excluded middle]] (or other principles, such as the full [[axiom of choice]], that imply it).  Sometimes one adds further restrictions or alternatively adds axioms that contradict excluded middle but are otherwise consistent; these variations may be seen in the list of schools below.  However, it is probably best to use more precise terms (predicativism, intuitionism, etc) in this case. Others emphasize the necessity that constructive theories be [[proof relevance|proof relevant]], with denial of the excluded middle's universality subordinate to this requirement; see (Harper 2013).
 
 __Constructivism__ is the philosophy that such mathematics is useful, or (more strongly) that non-constructive mathematics is wrong.  Historically, constructive mathematics was first pursued explicitly by mathematicians who believed the latter.  However, many modern mathematicians who do constructive mathematics do it not because of any philosophical belief about the wrongness of non-constructive mathematics, but because constructive mathematics is interesting in its own right.  In the '[pluralist](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.9892)' approach to the [[foundations]] of mathematics, a constructive proof (when it exists) is better because it is valid in more versions of mathematics, but a classical proof remains valid for [[classical mathematics]].
 
@@ -233,8 +233,6 @@ An more technical introduction to constructive reasoning in mathematics is in th
 
 * [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_
 
-Also see the references at _[[intuitionistic mathematics]]_.
-
 Other references include the following.
 
 *  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
@@ -251,7 +249,9 @@ Other references include the following.
 
 *  [[Frank Waaldijk]] (2003). [On the foundations of constructive mathematics - especially in relation to the theory of continuous functions](http://www.fwaaldijk.nl/foundations%20of%20constructive%20mathematics.pdf) (PDF).
 
-See also the references at _[[intuitionistic mathematics]]_ for more.
+For an emphasis on proof relevance, see:
+
+*  [[Robert Harper]] (2013) [Constructive Mathematics is not Metamathematics](https://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/).
 
 Most books on [[topos theory]] include some discussion of toposes\' [[internal logic|internal]] constructive logic.  One good reference is:
 
@@ -265,6 +265,8 @@ A historical account is in
 The relation to [[realizability]] and [[computability]] is discussed in
 
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, , vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
+
+See also the references at _[[intuitionistic mathematics]]_ for more.
 
 ### Prehistory
 
