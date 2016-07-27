@@ -3113,7 +3113,7 @@ The following is the lift of this alternative perspective of reflective localiza
 +-- {: .num_defn #QuillenIdempotentMonad}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) which is [[right proper model category|right proper]], in that [[pullback]] along fibrations preserves weak equivalences.
+Let $\mathcal{C}$ be a [[model category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) which is [[right proper model category|right proper]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#RightProperModelCategory)), in that [[pullback]] along fibrations preserves weak equivalences.
 
 Say that a **Quillen idempotent monad** on $\mathcal{C}$ is
  
@@ -3157,7 +3157,7 @@ such that
 
    we have that
 
-   1. $f$ is a fibration and $Y$ is fibrant;
+   1. $f$ is a fibration;
 
    1. $\eta_X$, $\eta_Y$, and $Q(h)$ are weak equivalences
 
