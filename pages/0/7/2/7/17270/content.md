@@ -71,13 +71,15 @@ such that
 
    we have that
 
-   1. $f$ is a fibration and $Y$ is fibrant;
+   1. $f$ is a fibration;
 
    1. $\eta_X$, $\eta_Y$, and $Q(h)$ are weak equivalences
 
    then $Q(f^\ast h)$ is a weak equivalence.
 
 =--
+
+(Here the formulation of the third item follows [Bousfield 01, def. 9.2](#Bousfield01). By lemma \ref{SecondLemmaForBousfieldFriedlander} below this condition implies that $f$ is a $Q$-fibration, which is the condition required in [Bousfield-Friedlander 78 (A.6)](#BousfieldFriedlander78)).
 
 
 +-- {: .num_defn #ClassesOfMorphismsInBousfieldLocalizationAtQuillenIdempotentMonad}
@@ -544,7 +546,7 @@ $$
 
 As in the [[retract argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#RetractArgument)) this diagram exhibits $f$ as a [[retract]] (in the [[arrow category]], [rmk.](Introduction+to+Stable+homotopy+theory+--+P#RetractsOfMorphisms)) of the $Q$-fibration $\tilde p \circ \pi$. Hence by the existence of the $Q$-model structure (prop. \ref{BousfieldFriedlanderTheorem}) and by the closure properties for fibrations ([prop.](Introduction+to+Stable+homotopy+theory+--+P#ClosurePropertiesOfInjectiveAndProjectiveMorphisms)), also $f$ is a $Q$-fibration.
 
-Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ (prop. \ref{BousfieldFriedlanderTheorem}), $f$ is also a fibration (prop. \ref{BasicPropertiesOfLectBousfieldLocalizations}). We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
+Now for the converse. Assume that $f$ is a $Q$-fibration. Since $\mathcal{C}_Q$ is a [[Bousfield localization of model categories|left Bousfield localization]] of $\mathcal{C}$ (prop. \ref{BousfieldFriedlanderTheorem}), $f$ is also a fibration. We need to show that the $\eta$-naturality square on $f$ exhibits a homotopy pullback.
 
 So factor $Q(f)$ as before, and consider the pasting composite of the factorization of the given square with the naturality squares of $\eta$:
 
