@@ -39,5 +39,10 @@ See also _[[F-theory]]_.
 
 * {#Blumenhagen10} Blumenhagen, _Basics of F-theory from the Type IIB Perspective_ ([arXiv:1002.2836](http://arxiv.org/abs/1002.2836))
 
+In 
+
+* P. Meessen, T. Ortin, _An $Sl(2,\mathbb{Z})$ Multiplet of Nine-Dimensional Type II Supergravity Theories_ ([arXiv:hep-th/9806120](http://arxiv.org/abs/hep-th/9806120))
+
+it is argued that 7-branes in [[type II string theory]] form not just a doublet, but a triplet under [[S-duality]].
 
 [[!redirects D7-branes]]
