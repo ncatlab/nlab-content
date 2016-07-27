@@ -9462,11 +9462,25 @@ $$
 
 The concept of [[homotopy fibers]] of def. \ref{HomotopyFiber} is a special case of the more general concept of [[homotopy pullbacks]]. 
 
++-- {: .num_defn #RightProperModelCategory}
+###### Definition
+
+A [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) is called a **[[right proper model category]]** if [[pullback]] along fibrations preserves weak equivalences.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+By lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}, a [[model category]] $\mathcal{C}$ (def. \ref{ModelCategory}) in which all objects are fibrant is a [[right proper model category]] (def. \ref{RightProperModelCategory}). 
+
+=--
+
 
 +-- {: .num_defn #HomotopyPullback}
 ###### Definition
 
-Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Then a [[commuting square]]
+Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}). Then a [[commuting square]]
 
 $$
   \array{
@@ -9522,6 +9536,9 @@ in $\mathcal{C}_f$ is called a **[[homotopy pullback]]** (of $f$ along $g$ and e
 1. the above two conditions hold for every such factorization.
 
 =--
+
+(e.g. [Goerss-Jardine 96, II (8.14) ](Simplicial+homotopy+Theory))
+
 
 +-- {: .num_prop #ConditionsForHomotopyPullbackAreIndeedEquivalent}
 ###### Proposition
@@ -9595,7 +9612,7 @@ $$
   \,,
 $$
 
-where the inner morphisms are fibrations and weak equivalences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences in categories of fibrant objects (lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}).
+where the inner morphisms are fibrations and weak equivalences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences by assumption of [[right proper model category|right properness]] (def. \ref{RightProperModelCategory}).
 Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) that also the comparison morphism $A \to \hat C \underset{D}{\times} B$ is a weak equivalence.  
 
 In conclusion, if the homotopy pullback condition is satisfied for one factorization of $g$, then it is satisfied for all factorizations of $f$. Since the argument is symmetric in $f$ and $g$, this proves the claim.
@@ -9614,7 +9631,7 @@ In particular, an ordinary pullback square of fibrant objects, one of whose edge
 +-- {: .num_prop #HomotopyPullbackPreservesWeakEquivalencesOfSpans}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). Given a [[diagram]] in $\mathcal{C}_f$ of the form
+Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}). Given a [[diagram]] in $\mathcal{C}$ of the form
 
 $$
   \array{
@@ -9646,12 +9663,12 @@ $$
 
 (The reader should draw the 3-dimensional cube diagram which we describe in words now.) 
 
-First consider the universal morphism $C \to E \underset{F}{\times} C$ and observe that it is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} 
+First consider the universal morphism $C \to E \underset{F}{\times} C$ and observe that it is a weak equivalence by [[right proper model category|right properness]] (def. \ref{RightProperModelCategory}) 
 and [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}). 
 
 Then consider the universal morphism $A \underset{B}{\times}C \to A \underset{B}{\times}(E \underset{F}{\times}C)$ and observe that this is also a weak equivalence, since $A \underset{B}{\times} C$ is the limiting cone of a homotopy pullback square by remark \ref{PullbackOfFibrationWithFibrantObjectsIsHomotopyPullback}, and since the morphism is the comparison morphism to the pullback of the factorization constructed in the first step.
 
-Now by using the [[pasting law]], then the commutativity of the "left" face of the cube, then the pasting law again, one finds that $A \underset{B}{\times} (E \underset{F}{\times} C) \simeq A \underset{D}{\times} (D \underset{E} F{\times})$. Again by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} this implies that $A \underset{B}{\times} (E \underset{F}{\times} C)\to D \underset{E}{\times} F$ is a weak equivalence.
+Now by using the [[pasting law]], then the commutativity of the "left" face of the cube, then the pasting law again, one finds that $A \underset{B}{\times} (E \underset{F}{\times} C) \simeq A \underset{D}{\times} (D \underset{E} F{\times})$. Again by [[right proper model category|right properness]] this implies that $A \underset{B}{\times} (E \underset{F}{\times} C)\to D \underset{E}{\times} F$ is a weak equivalence.
 
 With this the claim follows by [[two-out-of-three]].
 
@@ -9664,8 +9681,8 @@ Homotopy pullbacks satisfy the usual abstract properties of pullbacks:
 +-- {: .num_prop #HomotopyPullbackOfWeakEquivalences}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). 
-If in a [[commuting square]] in $\mathcal{C}_f$ one edge is a weak equivalence, then the square is a [[homotopy pullback]] square precisely if the opposite edge is a weak equivalence, too.
+Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}). 
+If in a [[commuting square]] in $\mathcal{C}$ one edge is a weak equivalence, then the square is a [[homotopy pullback]] square precisely if the opposite edge is a weak equivalence, too.
 
 =--
 
@@ -9706,14 +9723,14 @@ $$
   \,.
 $$
 
-Here the morphism in the middle is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}. Hence it follows by [[two-out-of-three]] that the top left comparison morphism is a weak equivalence (and so the original square is a homotopy pullback) precisely if the top morphism is a weak equivalence.
+Here the morphism in the middle is a weak equivalence by [[right proper model category|right properness]] (def. \ref{RightProperModelCategory}). Hence it follows by [[two-out-of-three]] that the top left comparison morphism is a weak equivalence (and so the original square is a homotopy pullback) precisely if the top morphism is a weak equivalence.
 
 =--
 
 +-- {: .num_prop #ClosurePropertiesOfHomotopyPullbacks}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\mathcal{C}_f$ its [[category of fibrant objects]] (def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}). 
+Let $\mathcal{C}$ be a [[right proper model category]] (def. \ref{RightProperModelCategory}).
 
 1. ([[pasting law]]) If in a [[commuting diagram]]
    
