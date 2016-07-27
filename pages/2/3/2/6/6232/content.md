@@ -98,7 +98,11 @@ The functor $Cod$ [[(∞,1)-Grothendieck construction|classifies]] the [[codomai
  
 Discussion of a local [[model structure on simplicial presheaves]] $[S^op, sSet_{Joyal}]_{loc}$ with respect to the [[Joyal model structure]] $sSet_{Joyal}$ for [[quasicategories]] is in
 
-* {#Meadows15} Nicholas Meadows, _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
+* {#Meadows15} [[Nicholas Meadows]], _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
+
+and with respect to the [[model structure for complete Segal spaces]] in 
+
+* [[Nicholas Meadows]], _Local Complete Segal Spaces_ ([arXiv:1607.05794](http://arxiv.org/abs/1607.05794))
 
 
 [[!redirects (∞,2)-sheaf]]
