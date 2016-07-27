@@ -51,17 +51,17 @@ For a metric space $X$ the following are equivalent
 
 +-- {: .proof} 
 ###### Proof 
-The second property is implied by the first, given any dense subset $\{x_n|n\in \N\}$, by forming the countable system of sets $\{B(x_n, 1/m)|n,m\in\N\}$. To see that this is indeed a [base] for the topology of $X$ take any open set $U\subset X$, a point $x\in U$ and a radius $1/k$ such that $B(x,1/k)\subset U$. Then there is some $n$ such that $x_n\in B(x,1/(2k))$ and therefore $x\in B(x_i,1/(2k))\subset U$.
+The second property is implied by the first, given any dense subset $\{x_n \mid n\in \mathbb{N}\}$, by forming the countable system of sets $\{B_{1/m}(x_n) \mid n,m\in\mathbb{N}\}$. To see that this is indeed a [base] for the topology of $X$ take any open set $U\subset X$, a point $x\in U$ and a radius $1/k$ such that $B_{1/k}(x)\subset U$. Then there is some $n$ such that $x_n\in B_{1/(2k)}(x)$ and therefore $x\in B_{1/(2k)}(x_i)\subset U$.
 
 Let $\{U_n\}$ be a countable base of the topology.
-Given any open cover $\{V_\lambda\}$ of $X$, we can form the subsequence $U_{n(i)}$ such that for each $i$ the contained in some $V_\lambda$.
-By assumption $\bigcup_i U_{n(i)} = \bigcup\lambda V_\lambda = X$.
-By successively choosing a $\lambda=\lambda(i)$ with $U_{n(i)}\subset V_\lambda$ we extract a countable subcover. Note that this construction does require the axiom of [[countable choice]].
+Given any open cover $\{V_\lambda\}$ of $X$, we can form the index set $I\subset \mathbb{N}$ of those $n$ that are contained in some $V_\lambda$.
+By assumption $\bigcup_{i\in I} U_{i} = \bigcup_\lambda V_\lambda = X$.
+The axiom of [[countable choice]] provides now a section of $\bigsqcup_{i\in I} \{\lambda \mid U_i \subset V_\lambda\}\to I$.
 
 Finally, we proof that (3) implies (1).
-Consider the open covers $\{B(x,1/1)|x\in X\}$, $\{B(x,1/2)|x\in X\}$, ...
+Consider the open covers $\{B_{1/1}(x) \mid x\in X\}$, $\{B_{1/2}(x) \mid x\in X\}$, ...
 From each extract a countable subcover corresponding to collection of centers $A_1, A_2, \ldots$. We claim that that the union $A_1\cup A_2\cup\ldots$ forms a dense set.
-Indeed, given any $y\in X$ and $n$ the point $x$ has to be contained in some $B(x,1/n)$ for some $x\in A_n$.
+Indeed, given any $y\in X$ and $n$ the point $x$ has to be contained in some $B_{1/n}(x)$ for some $x\in A_n$.
 =-- 
 
 It is also possible to proof without the axiom of choice that (3) implies (2) analogous to (3)$\Rightarrow$(1).
