@@ -22,12 +22,12 @@
 
 What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eilenberg-Steenrod) cohomology]] theories whose cocycles in degree 0 on a space $X$ can be represented by pairs of [[vector bundle]]s, real or complex ones, on $X$ modulo a certain equivalence relation.
 
-Notice that "ordinary cohomology" is the [[generalized (Eilenberg-Steenrod) cohomology]] that is represented by the [[Eilenberg-MacLane spectrum]] which, as a stably abelian [[infinity-groupoid]] is just the additive [[group]]  $\mathbb{Z}$ of integers.
+Notice that "ordinary cohomology" is the [[generalized (Eilenberg-Steenrod) cohomology]] that is represented by the [[Eilenberg-MacLane spectrum]] which, as a stably abelian [[infinity-groupoid]], is just the additive [[group]]  $\mathbb{Z}$ of integers.
 
-To a large extent K-theory is the [[cohomology]] theory obtained by [[vertical categorification|categorifying]] this   once:
+To a large extent, K-theory is the [[cohomology]] theory obtained by [[vertical categorification|categorifying]] this   once:
 
 $$
-  \mathbb{Z} \;\; \mapsto something like \mathbf{Vect}
+  \mathbb{Z} \;\; \mapsto something\; like \mathbf{Vect}
   \,.
 $$
 
@@ -35,11 +35,11 @@ $$
 
 To see how this works, first consider the task of generalizing the "[[nonabelian cohomology]]" or [[cohomotopy]] theory given by the coefficient object $\mathbb{N}$, the additive semi-group of  $\mathbb{N}$ of [[natural number]]s.
 
-This does have arbitrarily high [[delooping]]s in the context of [[omega-category|omega-categories]], but not in the context of [[infinity-groupoid]]s. So for the purposes of [[cohomology]] $\mathbb{N}$ is just the [[monoid]]al [[0-groupoid]] $\mathbb{N}$ which as a coefficient object induces a very boring [[cohomology]] theory: the $\mathbb{N}$-cohomology of anything connected is just the monoidal set $\mathbb{N}$ itself. While we cannot [[delooping|deloop]] it, we can [[vertical categorification|categorify]] it and do obtain an interesting [[nonabelian cohomology]] theory:
+This does have arbitrarily high [[delooping]]s in the context of [[omega-category|omega-categories]], but not in the context of [[infinity-groupoid]]s. So, for the purposes of [[cohomology]], $\mathbb{N}$ is just the [[monoid]]al [[0-groupoid]] $\mathbb{N}$, which as a coefficient object induces a very boring [[cohomology]] theory: the $\mathbb{N}$-cohomology of anything connected is just the monoidal set $\mathbb{N}$ itself. While we cannot [[delooping|deloop]] it, we can [[vertical categorification|categorify]] it and do obtain an interesting [[nonabelian cohomology]] theory:
  
 Namely the [[category]] $Core(Vect)$ of finite dimensional vector spaces with invertible linear maps between them would serve as a [[vertical categorification|categorification]] of $\mathbb{N}$: isomorphism classes of finite dimensional vector spaces $V$ are given by their dimension $d(V) \in \mathbb{N}$, and [[direct sum]] of vector spaces corresponds to addition of these numbers.
 
-If we want to use the category $Core(Vect)$ as the coefficient for a [[cohomology]] theory, we should for greater applicability equip it with its natural topological or smooth structure,  so that it makes sense to ask what the $Vect$-cohomology of a [[topological space]] or a [[smooth space]] would be. The canonical way to do this is to regard $Vect$ as a [[generalized smooth space]] called a [[smooth infinity-stack]] and consider it as the assignment
+If we want to use the category $Core(Vect)$ as the coefficient for a [[cohomology]] theory, for greater applicability we should equip it with its natural topological or smooth structure,  so that it makes sense to ask what the $Vect$-cohomology of a [[topological space]] or a [[smooth space]] would be. The canonical way to do this is to regard $Vect$ as a [[generalized smooth space]] called a [[smooth infinity-stack]] and consider it as the assignment
 
 $$
   \mathbf{Vect} : Diff \to \infty Grpd
@@ -49,7 +49,7 @@ $$
   U \mapsto Core(VectBund(U))
 $$
 
-that sends each smooth test space $U$ (a smooth manifold, say), to [[groupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parametrized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
+that sends each smooth test space $U$ (a smooth manifold, say) to the [[groupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parametrized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
 
 The [[nonabelian cohomology]] theory with coefficients in $\mathbf{Vect}$ has no [[cohomology group]]s, but at least cohomology [[monoids]]
 
@@ -60,7 +60,7 @@ $$
 
 It is equivalent to the [[nonabelian cohomology]] with coefficients the [[delooping]] $\mathbf{B} U$ of the stable unitary group $U := colim_n U(n)$.
 
-To get actual topological K-theory from this one applies [[geometric realization]] ([[fundamental infinity-groupoid]]) of the [[K-theory of a symmetric monoidal (∞,1)-category|infinity-group completion]] of  $\mathbf{Vect}$ or $\mathbf{B}U$ ([Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)). See at _[[differential cohomology hexagon]]_ the section _[Algebraic K-theory of smooth manifolds](differential+cohomology+diagram#SoothVectorBundlesWithConnectionAndEInvariant)_.
+To get actual topological K-theory from this, one applies [[geometric realization]] ([[fundamental infinity-groupoid]]) of the [[K-theory of a symmetric monoidal (∞,1)-category|infinity-group completion]] of  $\mathbf{Vect}$ or $\mathbf{B}U$ ([Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)). See at _[[differential cohomology hexagon]]_ the section _[Algebraic K-theory of smooth manifolds](differential+cohomology+diagram#SoothVectorBundlesWithConnectionAndEInvariant)_.
 
 Note: Topological complex K-theory is defined on pairs of spaces $K(X,U)$, such that the section of the complex bundle over $U$ is trivial (we might choose a trivialization). If no second space is listed, we assumed that K-theory of our manifold $X$ is taken with respect to the empty set -- $K(X) \equiv K(X, \emptyset)$ -- in this case, the bundle can be nowhere trivial. 
 
@@ -388,11 +388,11 @@ is a model for the [[classifying space]] of reduced K-theory.
 
 ### As a generalized cohomology theory
 
-That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] was shown (at least) in )[Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
+That topological K-theory satisfies the axioms of a [[generalized (Eilenberg-Steenrod) cohomology theory]] was shown (at least) in (Atiyah-Hirzebruch 61, 1.8](#AtiyahHirzebruch61))
 
 ### Spectrum 
 
-Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, toplogical K-theory is represented by a [[spectrum]]: the _[[K-theory spectrum]]_.
+Being a [[generalized (Eilenberg-Steenrod) cohomology]] theory, topological K-theory is represented by a [[spectrum]]: the _[[K-theory spectrum]]_.
 
 The degree-0 part of this spectrum, i.e. the classifying space for degree 0 topological $K$-theory is modeled in particular by the space $Fred$ of [[Fredholm operator]]s.
 
