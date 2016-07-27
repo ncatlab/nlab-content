@@ -1,5 +1,2 @@
 
-|   | intersecting branes | charges in [[generalized cohomology theory]]
-|-----|--------------|----------------------|
-| [[string theory]] | [[F1-brane|F1]]/[[D-brane|Dp-branes]] | [[twisted K-theory]] |
-| [[M-theory]]  | [[M2-brane|M2]]/[[M5-branes]] | ??? |
+[[SaemannCQSYMP16.pdf:file]]
