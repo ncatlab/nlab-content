@@ -37,15 +37,19 @@ This is parts of the [[AdS/CFT correspondence]]. See ([AGMOO, chapter 5](#AGMOO)
 
 ## References
 
-Chapter 5.3 of 
+The [[Green-Schwarz sigma-model]] description of $(p,q)$-1-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
 
-* [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
- {#AGMOO}
+* {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
-Formulation of the S-duality with the fundamental string in terms of the [[homotopy theory]] of [[super L-infinity algebras]] of the respective [[extended super spacetimes]] is in section 4.3 of 
 
-* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
-  {#FSS13}
+See also
+
+* {#AGMOO} [[Ofer Aharony]], S.S. Gubser, [[Juan Maldacena]], H. Ooguri, Y. Oz, chapter 5.3 of _Large N Field Theories, String Theory and Gravity_ ([arXiv:hep-th/9905111](http://arxiv.org/abs/hep-th/9905111))
+ 
+Formulation of the [[S-duality]] with the fundamental string in terms of the [[homotopy theory]] of [[super L-infinity algebras]] of the respective [[extended super spacetimes]] is in section 4.3 of 
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+  
 
 
 
