@@ -201,6 +201,11 @@ See also
 
 * [[Denis-Charles Cisinski]], _Alg&#232;bre homotopique et cat&#233;gories sup&#233;rieures_, course notes, 2009, [pdf](http://www.math.univ-toulouse.fr/~dcisinsk/coursinftycat.pdf).
 
+A model structure for [[(infinity,2)-sheaves]] with values in quasicategories is discussed in
+
+* {#Meadows15} [[Nicholas Meadows]], _The Local Joyal Model Structure_ ([arXiv:1507.08723](http://arxiv.org/abs/1507.08723))
+
+
 [[!redirects Joyal model structure]]
 [[!redirects Joyal model structure on simplicial sets]]
 [[!redirects model structure on quasicategories]]
