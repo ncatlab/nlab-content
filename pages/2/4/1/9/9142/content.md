@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Definition
 
-A _conformal transformation_ is a [[diffeomorphism]] that preserves a [[conformal structure]]. The [[group]] of transformation transformations is the _[[conformal group]]_.
+A _conformal transformation_ is a [[diffeomorphism]] that preserves a [[conformal structure]] (a [[conformal map]]). The [[group]] of conformal transformations is the _[[conformal group]]_.
 
 ## Properties
 
