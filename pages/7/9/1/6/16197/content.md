@@ -94,6 +94,8 @@ Review and exposition includes
 
 * {#Rachen15} [[Jörg Rachen]], _The Planck 2015 Results: Cosmology and Fundamental Physics from the Polarised CMB and Other Probes_, IMAPP Special Seminar, Nijmegen, Feb.5, 2015
 
+* {#Dalianis16} [[Ioannis Dalianis]],  _Features and implications of the plateau inflationary potentials_, Planck 2015 conference contribution ([arXiv:1602.05026](http://arxiv.org/abs/1602.05026))
+
 ### Embedding into supergravity
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
