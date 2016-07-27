@@ -31,7 +31,7 @@ The ideas here generalize in many directions.  For example, not only properties,
 
 * A very precise way of stating this idea is encapsulated in [[Vladimir Voevodsky]]'s [[univalence axiom]], which is a fundamental part of [[homotopy type theory]] as a [[foundation]] for mathematics.  By identifying equivalences/isomorphisms with inhabitants of an [[identity type]], it ensures that all properties and structure which can be expressed within the formal [[type theory]] are invariant under such.
 
-* Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
+* {#evil} Floating around the web (and maybe the $n$Lab) is the idea of half-jokingly referring to a breaking of equivalence invariance as "evil". This is probably meant as a pedagogical way of amplifying that it is to be avoided.
 
 
 ## Motivation
