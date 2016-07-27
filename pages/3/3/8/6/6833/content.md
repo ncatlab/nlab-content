@@ -33,6 +33,12 @@ See also _[[F-theory]]_.
 
 ## References
 
+The [[Green-Schwarz sigma-model]] description of $(p,q)$-7-branes via cocycles on [[extended super Minkowski spacetimes]] is obtained in 
+
+* {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+
+See also
+
 * Oliver DeWolfe, Tamas Hauer, Amer Iqbal, [[Barton Zwiebach]], _Uncovering Infinite Symmetries on [p,q] 7-branes: Kac-Moody Algebras and Beyond_  ([arXiv:hep-th/9812209](http://arxiv.org/abs/hep-th/9812209))
 
 * {#Sen97} [[Ashoke Sen]], _Orientifold Limit of F-theory Vacua_ ([arXiv:hep-th/9702165](http://arxiv.org/abs/hep-th/9702165))
