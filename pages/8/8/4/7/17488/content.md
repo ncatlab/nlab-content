@@ -6518,7 +6518,7 @@ Regarding axiom T3:
 
 By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). 
 
-We may assume without restriction (spring) that the [[commuting square]] 
+We may assume without restriction ([lemma](#Introduction+to+Stable+homotopy+theory+--+P#RepresentingHomotopyCommutativeSquaresByCommutativeSquares)) that the [[commuting square]] 
 
 $$
   \array{
