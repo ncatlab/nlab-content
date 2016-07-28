@@ -6489,7 +6489,7 @@ such that the following conditions hold:
 +-- {: .num_prop #StableHomotopyCategoryIsTriangulated}
 ###### Proposition
 
-The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the canonical suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is a [[triangulated category]] (def. \ref{CategoryWithCofiberSequences}) for the distinguished triangles being precisely the images (under localization $SeqSpec(Top_{cg})_{stable} \to Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the stable model category of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory})
+The [[stable homotopy category]] $Ho(Spectra)$ from def. \ref{TheStableHomotopyCategory}, equipped with the canonical suspension functor $\Sigma \colon Ho(Spectra) \overset{\simeq}{\longrightarrow} Ho(Spectra)$ (according to [this prop.](Introduction+to+Stable+homotopy+theory+--+P#LoopingAsFunctorOnHomotopyCategory)) is a [[triangulated category]] (def. \ref{CategoryWithCofiberSequences}) for the distinguished triangles being the closure under isomorphism of triangles of the images (under localization $SeqSpec(Top_{cg})_{stable} \to Ho(Spectra)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) of the stable model category of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory})
 of the canonical long [[homotopy cofiber sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LongFiberSequence)) 
 
 $$
@@ -6503,6 +6503,8 @@ $$
 
 =--
 
+(e.g. [Schwede 12, chapter II, theorem 2.9](#Schwede12))
+
 +-- {: .proof}
 ###### Proof
 
@@ -6514,9 +6516,22 @@ The axiom T2 is the very characterization of long [[homotopy cofiber sequences]]
 
 Regarding axiom T3:
 
-By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). This way the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that we may also complete the last vertical morphism, observe that generally these [[connecting homomorphisms]] may be represented functorially: 
+By the factorization axioms of the [[model category]] we may represent the morphisms $A \to A'$ and $B \to B'$ in the homotopy category by cofibrations in the model category. Then $B \to B/A$ and $B' \to B'/A'$ are represented by their ordinary [[cofibers]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiber), [prop.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyFiberIndependentOfChoiceOfFibrantReplacement)). 
 
-By the existence of [[CW-approximations]] (prop. \ref{CWApproximationForSequentialSpectra}) we may assume without restriction of generality that all spectra involved are [[CW-spectra]]. For these the standard [[cylinder spectrum]] (example \ref{StandardCylinderSpectrumSequential}) is a good [[cylinder object]] (by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood}), which hence provides a functorial construction $X \maspto X \wedge (I_+)$ of cylinder objects for CW-spectra. Then constructing the connecting homomorphism uniformly by first constructing cofibration replacements via the [[factorization lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#FactorizationLemma)), with respect to these cylinder objects, and then forming cofibers, is functorial, because all three ingredients (cylinders, replacement, cofibers) are functorial. 
+We may assume without restriction (spring) that the [[commuting square]] 
+
+$$
+  \array{
+    A &\overset{f}{\longrightarrow}& B
+    \\
+    {}^{\mathllap{\phi_A}}\downarrow && \downarrow^{\mathrlap{\phi_B}}
+    \\
+    A' &\underset{f'}{\longrightarrow}& B'
+  }
+$$
+
+in the [[homotopy category]] is the image of a commuting square (not just commuting up to homotopy) in $SeqSpec(Top_{cg})$.  In this case then the morphism $B/A \to B'/A'$ is induced by the  [[universal property]] of ordinary cofibers.  To see that this also completes the last vertical morphism, observe that by the [[small object argument]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#SmallObjectArgument)) we have [[functorial factorization]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#FunctorialFactorization)).
+
 
 With this, again the universal property of the ordinary cofiber gives the fourth vertical morphism needed for T3.
 
