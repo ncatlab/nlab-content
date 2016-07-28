@@ -114,5 +114,9 @@ reviewed for instance in
 
 * {#MacLaneMoerdijk92} [[Saunders MacLane]], [[Ieke Moerdijk]], section IV.5 of _[[Sheaves in Geometry and Logic]] &#8211; A first introduction to topos theory_, Springer Verlag, 1992
 
+A more elementary discussion is in 
+
+* [[Todd Trimble]], _[[toddtrimble:An elementary approach to elementary topos theory]]_
+
 [[!redirects quotient type]]
 [[!redirects quotient types]]
