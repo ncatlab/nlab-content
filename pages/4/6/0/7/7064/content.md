@@ -61,11 +61,11 @@ The stable homotopy groups of spheres are notorious for their immense computatio
 ## Tables
  {#Tables}
 
-The first stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$ are
+The first few  stable homotopy groups of the [[sphere spectrum]] $\mathbb{S}$ are
 
 | $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 14 | 15 | $\cdots$ | 
 |--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
-| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}_2$  |  $\mathbb{Z}_2$ |  $\mathbb{Z}_{24}$ |  $0$ |  $0$ | $\mathbb{Z}_2$ |   $\mathbb{Z}_{240}$ | $(\mathbb{Z}_2)^2$ |  $(\mathbb{Z}_2)^3$ | $\mathbb{Z}_6$ | $\mathbb{Z}_{504}$ | $0$ | $\mathbb{Z}_3$ | $(\mathbb{Z}_2)^2$ | $\mathbb{Z}_{480} \oplus \mathbb{Z}_2$ | $\cdots$ |
+| $\pi_k(\mathbb{S}) = $ | $\mathbb{Z}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/{24}$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/{240}$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/6$ | $\mathbb{Z}/{504}$ | $0$ | $\mathbb{Z}/3$ | $(\mathbb{Z}/2)^2$ | $\mathbb{Z}/{480} \oplus \mathbb{Z}/2$ | $\cdots$ |
 
 The following tables show the [[p-primary group|p-primary decomposition]] of these and the following stable homotopy groups.
 
