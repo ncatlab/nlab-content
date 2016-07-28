@@ -34,13 +34,13 @@ Although an arbitrary product of separable spaces need not be separable, an arbi
 
 Subspaces of separable spaces need not be separable. Example: the product $\mathbb{R}_l \times \mathbb{R}_l$, also called the [[Sorgenfrey plane]], is separable, but the subspace defined by the equation $y = -x$ is uncountable and discrete and therefore not separable. However, open subspaces of separable spaces are separable. 
 
-Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]] or to be [[predicative mathematics|predicative]] over the natural numbers. For example, the [[Hahn-Banach theorem]] for _separable_ [[Banach spaces]] can be established using only mild forms of choice, e.g., [[dependent choice]]. More precisely, it can be established in the weak subsystem $WKL_0$ of [[second-order arithmetic]]; see [Brown-Simpson](#BS). 
+Many results in [[analysis]] are easiest for separable spaces.  This is particularly true if one wishes to avoid using strong forms of the [[axiom of choice]], or to use arguments [[predicative mathematics|predicative]] over the natural numbers. For example, the [[Hahn-Banach theorem]] for _separable_ [[Banach spaces]] can be established using only mild forms of choice, e.g., [[dependent choice]]. More precisely, it can be established in the weak subsystem $WKL_0$ of [[second-order arithmetic]]; see [Brown-Simpson](#BS). 
 
 ## Separable metric spaces 
 
 A classical fact is 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #classical} 
 ###### Theorem 
 For a metric space $X$ the following are equivalent
 
@@ -51,22 +51,22 @@ For a metric space $X$ the following are equivalent
 
 +-- {: .proof} 
 ###### Proof 
-The second property is implied by the first, given any dense subset $\{x_n \mid n\in \mathbb{N}\}$, by forming the countable system of sets $\{B_{1/m}(x_n) \mid n,m\in\mathbb{N}\}$. To see that this is indeed a [base] for the topology of $X$ take any open set $U\subset X$, a point $x\in U$ and a radius $1/k$ such that $B_{1/k}(x)\subset U$. Then there is some $n$ such that $x_n\in B_{1/(2k)}(x)$ and therefore $x\in B_{1/(2k)}(x_i)\subset U$.
+The second property is implied by the first: given any dense subset $\{x_n \mid n\in \mathbb{N}\}$, form the countable system of sets $\{B_{1/m}(x_n) \mid n,m\in\mathbb{N}\}$. To see that this is indeed a [[base]] for the topology of $X$, take any open set $U\subset X$, a point $x\in U$ and a radius $1/k$ such that $B_{1/k}(x)\subset U$. By separability there is some $n$ such that $x_n\in B_{1/(2k)}(x)$ and therefore $x\in B_{1/(2k)}(x_i)\subset U$.
 
-Let $\{U_n\}$ be a countable base of the topology.
+To show (2) implies (3), let $\{U_n\}$ be a countable base of the topology.
 Given any open cover $\{V_\lambda\}$ of $X$, we can form the index set $I\subset \mathbb{N}$ of those $n$ that are contained in some $V_\lambda$.
 By assumption $\bigcup_{i\in I} U_{i} = \bigcup_\lambda V_\lambda = X$.
 The axiom of [[countable choice]] provides now a section of $\bigsqcup_{i\in I} \{\lambda \mid U_i \subset V_\lambda\}\to I$.
 
-Finally, we proof that (3) implies (1).
+Finally, we prove that (3) implies (1).
 Consider the open covers $\{B_{1/1}(x) \mid x\in X\}$, $\{B_{1/2}(x) \mid x\in X\}$, ...
 From each extract a countable subcover corresponding to collection of centers $A_1, A_2, \ldots$. We claim that that the union $A_1\cup A_2\cup\ldots$ forms a dense set.
 Indeed, given any $y\in X$ and $n$ the point $x$ has to be contained in some $B_{1/n}(x)$ for some $x\in A_n$.
 =-- 
 
-It is also possible to proof without the axiom of choice that (3) implies (2) analogous to (3)$\Rightarrow$(1).
+It is also possible to prove without the axiom of choice that (3) implies (2), analogous to the argument for (3)$\Rightarrow$(1).
 
-Similar in spirit to (1)$\Leftrightarrow$(2) but less well-known is the following (whose proof subsumes the aforementioned classical fact). 
+Similar in spirit to (1)$\Leftrightarrow$(2) but less well-known is the following. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -75,7 +75,7 @@ A [[metric space]] $X$ is separable iff every open set is a countable union of b
 
 +-- {: .proof} 
 ###### Proof 
-One direction is not hard: if $x_i$ is a countable dense subset of $X$ and $r_j$ is an enumeration of the rationals, then by playing around with the triangle inequality, one can show that the balls $B_{r_j}(x_i)$ form a countable base ($X$ is a [[second-countable space]]), and in particular every open set is a union of a family of such balls that is at most countable. 
+One direction is not hard: if $x_i$ is a countable dense subset of $X$ and $r_j$ is an enumeration of the rationals, then according to the proof of Theorem \ref{classical}, the balls $B_{r_j}(x_i)$ form a countable base ($X$ is a [[second-countable space]]). Hence every open set is a union of a family of such balls that is at most countable. 
 
 The other direction is trickier. (This is based on a [MathOverflow discussion](http://mathoverflow.net/questions/181226/if-any-open-set-is-a-countable-union-of-balls-does-it-imply-separability), which for the moment we record with little adaptation.) Suppose $X$ is not separable; construct by recursion a sequence $x_\beta$ of length $\omega_1$ such that no $x_\beta$ lies in the closure of the set of its predecessors $x_\alpha$ (each such set is countable and therefore not dense, so such $x_\beta$ outside its closure can be found at each stage). 
 
