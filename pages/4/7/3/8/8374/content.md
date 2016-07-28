@@ -17,6 +17,12 @@ Lectures by Hilbert on [[physics]] and especially on [[general relativity]] are 
 
   see also [[Eugene Wigner]], _[[The Unreasonable Effectiveness of Mathematics in the Natural Sciences]]_
 
+## Stories
+
+> Cassirer liked to tell the following story: once he met the great mathematician Hilbert, the "Euclid of our time," and asked him about one of the latter's disciples. Hilbert answered: "He is all right. You know, for a mathematician he did not have enough imagination. But he has become a poet and now he is doing fine.   
+
+(from [archive.org/details/philosophyoferns033109mbp](https://archive.org/details/philosophyoferns033109mbp))
+
 ## Related pages
 
 * [[Hilbert's problems]]
