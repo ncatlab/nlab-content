@@ -60,6 +60,10 @@ The condition that $\mathcal{F}$ be [[infinitesimally cohesive (∞,1)-presheaf 
 
 =--
 
+## Applications 
+
+The motivating example of the Artin-Lurie representability theorem is the re-proof of the _[[Goerss-Hopkins-Miller theorem]]_. See there for more. 
+
 ## Related concepts
 
 * [[Grothendieck existence]]
