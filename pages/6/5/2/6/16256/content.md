@@ -34,7 +34,7 @@ The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of
 
 Under the relation between [[M-theory]] and [[type IIA superstring theory]] the an [[ADE orbifold]] of the KK-monopole  corresponds to [[D6-branes]] combined with [[O6-planes]] ([Townsend 95, p. 6](#Townsend95), [Atiyah-Witten 01, p. 17-18](#AtiyahWitten01) see also e.g. [Berglund-Brandhuber 02, around p. 15](#BerglundBrandhuber02)). 
 
-By ([Townsend 95, (1)](#Townsend95)) the 11d [[spacetime]] describing the KK-monopole lift of a plain single D6 brane is   $\mathbb{R}^{6,1}\times \mathbb{R}^3\times S^1$ with [[metric tensor]] away from the origin of the $\mathbb{R}^3$-factor (which is the locus of the lifted D6/monopole) being  
+By ([Townsend 95, (1)](#Townsend95), [Sen 97 (1)-(4)](#Sen97)) the 11d [[spacetime]] describing the KK-monopole lift of a plain single D6 brane is   $\mathbb{R}^{6,1}\times \mathbb{R}^3\times S^1$ with [[metric tensor]] away from the origin of the $\mathbb{R}^3$-factor (which is the locus of the lifted D6/monopole) being  
 
 $$
   d s_{11}^2 =
@@ -62,7 +62,7 @@ Discussion as the [[fixed point]] of the [[circle group]]-[[action]] on the M-th
 
 > {#Witten01OnConicalSingularity} Chiral fermions arise when the locus of A&#8722;D&#8722;E singularities passes through isolated points at which X has an isolated conical singularity that is not just an orbifold singularity ([Witten 01, p. 2](#Witten01)).
   
-Discussion dealing carefully with the perspective where locus of the D6 is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
+Discussion dealing carefully with the perspective where the locus of the [[D6 brane]] is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
 
 For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_.
 
