@@ -88,9 +88,6 @@ Hegel, Science of Logic
 This is where the introduction spirals out, because there really is no way to summarise this stuff. I'll do my best.
 
 The truth is only tangentially physical. Because of the lack of conceptual tools, the Science of Logic had to proceed "the way a moment happens," from no knowledge to self-knowledge. The Objective Logic, while it sounds more important, is where unthinking information is already caught in the flow of causality. Dr. Schreiber's twelve modalities represent our universe's bare minimum physical necessity to preserve objectivity amidst free activity. But the Subjective Logic opens up into the vast truth, a multiversal network of minds. This is where everything is reintegrated into the "wholes," such as universes or humans, whose self-manifestation made all the commotion in the first place. Now that types have finished their bean-counting, categories emerge as their underlying truth, beginning the real work of delineating the networks of abstraction. Everything true is part of an ideal system, and the free-flowing whole of these is truth itself. The truth is not to be simply described with notions, because it is the creation and evolution of all notions. One can immediately see that our subordinate notion of truth, in the form of statements which separate subject and predicate, is entirely insufficient. The appreciation of the idea can only come through the process of learning; it not only gives truth to the concepts by which we understand the world, but active purpose! But more immediately relevant, the unmanifested aspect is pure mathematics itself. Of course, not how we currently conceive of mathematics; it is the deepest core necessity, the guiding principles of all systems which not only imbues the logical requirements of objective totality, but the impetus of growth through participation in universal ideas. But the even more pressing discoveries will be the characterization of the two basic ideas: life and cognition. We will harness both, and there will be nothing artificial about them. All we have to do is quite literally believe in ourselves.
-
-Laozi
-> The Dao that can be spoken is not the eternal Dao.
 																																	
 I tried to condense some of the philosophy into a couple paragraphs for introduction and it was ugly, so I will leave it for the idea portion. I will end with more confident vagueness, and then a personal message:
 
@@ -109,17 +106,20 @@ Philosophical explanation.
 
 ### Thoughts ###
 
-Example speculation
+(Example speculation)
 
-The first Judgement in Subjectivity of Subjective Logic, the [Judgement of Existence](https://www.marxists.org/reference/archive/hegel/works/hl/hl631.htm), is closely related to the [free] (http://archive.numdam.org/article/CTGDC_1986__27_1_81_0.pdf)[adjunction](http://arxiv.org/pdf/1310.8279v4.pdf).
+The [Judgement of Existence](https://www.marxists.org/reference/archive/hegel/works/hl/hl631.htm) is closely related to the ([free adjunction](https://eudml.org/doc/91376)), ([Riehl,Verity](http://arxiv.org/pdf/1310.8279v4.pdf)).
 
-Example suggestive juxtaposition of concepts
+[Homotopy coherent ](https://ncatlab.org/nlab/show/homotopy+coherent+nerve) [nerve and realization](https://ncatlab.org/nlab/show/nerve+and+realization) is so important because ultimately everything is simplicially enriched, and this is how everything is "connected." Not trivially so; we will probably have to come up with a fancy way of describing how [sSet](https://ncatlab.org/nlab/show/SimpSet) is delineated by stratifications of [cosimplicial sets](http://arxiv.org/pdf/math/0410412v2.pdf), which may be interpreted as something like an "absolute hierarchy of properties," discussed a little more below.
+
+(Example suggestive juxtaposition of concepts)
 
 : [Bisimplicial Realization](https://ncatlab.org/nlab/show/bisimplicial+set)
-: [End](https://ncatlab.org/nlab/show/end) (coend should really have its own page)
 : [Heteromorphism](https://ncatlab.org/nlab/show/profunctor)
+: [Categorical End](https://ncatlab.org/nlab/show/end) (coend should really have its own page)
 : [Topological End](https://ncatlab.org/nlab/show/end+compactification)
 : [Teleological End](https://www.marxists.org/reference/archive/hegel/works/hl/hlteleol.htm)
+: [Weak omega-Categories](https://ncatlab.org/nlab/show/simplicial+model+for+weak+omega-categories) - (just about weak, not the others yet): The most general, 'potentially infinitely complex' concepts, the vast majority of which are supposedly Lovecraftian behemoths lurking in the shadows of the Platonic realm, forever beyond minds and computation, for _our purposes_ "may be reducible to a [property](https://ncatlab.org/nlab/show/stuff%2C+structure%2C+property) ([lax-idempotent 2-monad](https://ncatlab.org/nlab/show/lax-idempotent+2-monad), [bracket type](https://ncatlab.org/nlab/show/bracket+type))," and the strict-infinities [structure](https://ncatlab.org/nlab/show/structure+type) ([species](https://ncatlab.org/nlab/show/species), [Day convolution](https://ncatlab.org/nlab/show/Day+convolution)). Infinity-categories are just the way categories "communicate" with each other, using simplices and other shapes; but all that is really going on is 2-categories. For example, isn't it convenient that the main ingredient to study such infinities, the [quasicategory](https://ncatlab.org/nlab/show/quasi-category), only has to require that composition is defined up to a contractible space ([truth](https://ncatlab.org/nlab/show/true)) of morphisms? When you are simply studying yourself, it does not take many layers of abstraction to preserve self-knowledge. The initial (and terminal) [Absolute Idea](https://www.marxists.org/reference/archive/hegel/works/hl/hlabsolu.htm), the aforementioned "universal property phenomenon," is probably only 3-categorical.
 
 ### Work ###
 Relevant papers and concepts.
@@ -130,11 +130,13 @@ Urs Schreiber
 Emily Riehl and Dominic Verity
 : [Homotopy Coherent Adjunction](http://arxiv.org/pdf/1310.8279v4.pdf)
 : [Simplicial Weak omega-Categories](http://arxiv.org/pdf/math/0604416v1.pdf)
+: [Cosimplicial Sets](http://arxiv.org/pdf/math/0410412v2.pdf)
 : [Completeness of Related Constructions](https://arxiv.org/pdf/0907.2460v3.pdf)
 
 Michael Shulman
 : [Unified Framework for Generalized Multicategories](https://arxiv.org/pdf/0907.2460v3.pdf)
 : [2-Categorical Logic](https://ncatlab.org/michaelshulman/show/2-categorical+logic)
+: [Exactness Hypothesis](https://ncatlab.org/michaelshulman/show/exactness+hypothesis)
 : [Univalence For Elegant Reedy Presheaves](https://arxiv.org/pdf/1307.6248v2.pdf)
 : [Enriched Indexed Categories](http://arxiv.org/pdf/1212.3914v3.pdf)
 
@@ -145,6 +147,10 @@ William Lawvere
 : [Some Thoughts on the Future of Category Theory](https://ncatlab.org/nlab/show/Some+Thoughts+on+the+Future+of+Category+Theory)
 : [Tools for the Advancement of Objective Logic](https://ncatlab.org/nlab/show/Tools+for+the+advancement+of+objective+logic)
 : [Diagonal Arguments and Cartesian Closed Categories](http://www.tac.mta.ca/tac/reprints/articles/15/tr15.pdf)
+
+Ross Street
+: [Free Adjunction](https://eudml.org/doc/91376)
+: [Algebra of Oriented Simplices](http://maths.mq.edu.au/~street/aos.pdf)
 
 John C. Baez and James Dolan
 : [Why n-Categories?](http://www.math.ucr.edu/home/baez/n_categories/why.pdf)
