@@ -9,7 +9,7 @@ A [[projective variety]] that is moreover a [[quadric]] given by zeroes of the q
 $$
 x_0x_5 + x_1 x_4 + x_2 x_3
 $$
-where $[x_0:x_1:x_2:x_3:x_4:x_5]$ are [[homogeneous coordinates]] on $\mathbb{P}^5$. It was studied in ([Klein 1868](#Klein)), together with what is now called the [[Klein correspondence]], by [[Felix Klein]] in his 1868 dissertation under [[Plücker]].
+where $[x_0:x_1:x_2:x_3:x_4:x_5]$ are [[projective space|homogeneous coordinates]] on $\mathbb{P}^5$. It was studied in ([Klein 1868](#Klein)), together with what is now called the [[Klein correspondence]], by [[Felix Klein]] in his 1868 dissertation under [[Julius Plücker]].
 
 ## Properties
 
@@ -22,7 +22,8 @@ The [[conformal compactification]], of _complexified_ [[Minkowski spacetime]] $\
 
 ## References
 
-* {#Klein} [[Felix Klein]], _&#220;ber die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Koordinaten auf eine kanonische Form_, dr. Phil. thesis (1868)
+* {#Klein} [[Felix Klein]], _&#220;ber die Transformation der allgemeinen Gleichung des zweiten Grades zwischen Linien-Koordinaten auf eine kanonische Form_, dr. Phil. thesis (1868), published as Math. Ann **23** (1884), 539-578. doi:[10.1007/BF01446603](dx.doi.org/10.1007/BF01446603) ([English translation pdf](http://neo-classical-physics.info/uploads/3/0/6/5/3065888/klein_-_canonical_forms.pdf))
+
 
 * _The Klein quadric and triality_ ([pdf](http://www.maths.qmul.ac.uk/~pjc/pps/pps8.pdf))
 
