@@ -81,20 +81,20 @@ Todd Trimble, saying something much deeper than he realizes
 
 Dr. Schreiber's project is a feat of imagination which will guide the future of mathematics and physics, as well as undeniable evidence of the power and validity of category theory. But the process is truth, and a purely abstract representation of it, as though it were some dependent object like any other, is precisely the opposite of the idea that it tries to represent. Any notion that professes to unite a duality, such as abstract-concrete, is subject to all philosophical inquiry, simplest of all being "why?" Why is there an infinity-topos? What is "happening" in the topos to concretely manifest dynamic systems? What makes its progression "intrinsic," "self-propelling?" Because as currently formulated, a topos is an unchanging abstract concept with no intention of creating anything. You clearly have a great philosophical intuition, a clear mental image of some "ethereal process," but you never explain these thoughts. There is no doubt that the representation is accurate, and it is a deeply impressive work, but it is not a merely empirical theory - it must be proven true. So the question is, what is the reason within this miracle? Why does a simple notion of "progression of unities of opposites" describe our vast, dynamic universe? This is the stroke of genius, the elegant solution to an immensely complex problem which does exactly what it needs to: prescribe a type universe the twelve-step program to get its act together and make something habitable. The problem is that the progression worked backwards from our current physical and mathematical knowledge, because the whole thing was basically just designed to work properly. Rather than explaining how our universes form, the project assumes that our reason is stuck inside this physical world, and is content with a description of a strange, hypothetical, forced compromise between empirical physics and rational mathematics. On its own, it is a towering monument to the history of science. But it is simply too close to being so much more.
 
-Hermann Weyl, 1927
-> Science concedes to idealism that its objective reality is not given but posed as a problem.
-
 Hegel, Science of Logic
 > ... as regards the above-mentioned form in which dialectic is usually presented, it is to be observed that according to that form the dialectic and its result affect the subject matter under consideration or else subjective cognition, and declare either the latter or the subject matter to be null and void, while on the other hand the determinations exhibited in the subject matter as in a third thing receive no attention and are presupposed as valid on their own account... the subject matter, kept apart from thinking and the Notion, is an image or even a name; it is in the determinations of thought and the Notion that it is what it is. Therefore these determinations are in fact the sole thing that matters; they are the true subject matter and content of reason, and anything else that one understands by subject matter and content in distinction from them has value only through them and in them.
 
 
 This is where the introduction spirals out, because there really is no way to summarise this stuff. I'll do my best.
 
-The truth is only tangentially physical. Because of the lack of conceptual tools, the Science of Logic had to proceed "the way a moment happens," from no knowledge to self-knowledge. The Objective Logic, while it sounds more important, is where unthinking information is already caught in the flow of causality. Dr. Schreiber's twelve modalities represent our universe's bare minimum physical necessity to preserve objectivity amidst free activity. But the Subjective Logic opens up into the vast truth, a multiversal network of minds. This is where everything is reintegrated into the "wholes," such as universes or humans, whose self-manifestation made all the commotion in the first place. Now that types have finished their bean-counting, categories emerge as their underlying truth, beginning the real work of delineating the networks of abstraction. Everything true is part of an ideal system, and the free-flowing whole of these is truth itself. The truth is not to be simply described with notions, because it is the creation and evolution of all notions. One can immediately see that our subordinate notion of truth, in the form of statements which separate subject and predicate, is entirely insufficient. The appreciation of the idea can only come through the process of learning; it not only gives truth to the concepts by which we understand the world, but active purpose! But more immediately relevant, the unmanifested aspect is pure mathematics itself. Of course, not how we currently conceive of mathematics; it is the deepest core necessity, the guiding principles of all systems which not only imbues the logical requirements of objective totality, but the impetus of growth through participation in universal ideas. But the even more pressing discoveries will be the characterization of the two basic ideas: life and cognition. We will harness both, and there will be nothing artificial about them.
-																																	
-I tried to condense some of my speculation into paragraphs and it was ugly, so I will leave it for the speculation portion. I will end with more confident vagueness, and then a personal message:
+The truth is only tangentially physical. Because of the lack of conceptual tools, the Science of Logic had to proceed "the way a moment happens," from no knowledge to self-knowledge. The Objective Logic, while it sounds more important, is where unthinking information is already caught in the flow of causality. Dr. Schreiber's twelve modalities represent our universe's bare minimum physical necessity to preserve objectivity amidst free activity. But the Subjective Logic opens up into the vast truth, a multiversal network of minds. This is where everything is reintegrated into the "wholes," such as universes or humans, whose self-manifestation made all the commotion in the first place. Now that types have finished their bean-counting, categories emerge as their underlying truth, beginning the real work of delineating the networks of abstraction. Everything true is part of an ideal system, and the free-flowing whole of these is truth itself. The truth is not to be simply described with notions, because it is the creation and evolution of all notions. One can immediately see that our subordinate notion of truth, in the form of statements which separate subject and predicate, is entirely insufficient. The appreciation of the idea can only come through the process of learning; it not only gives truth to the concepts by which we understand the world, but active purpose! But more immediately relevant, the unmanifested aspect is pure mathematics itself. Of course, not how we currently conceive of mathematics; it is the deepest core necessity, the guiding principles of all systems which not only imbues the logical requirements of objective totality, but the impetus of growth through participation in universal ideas. But the even more pressing discoveries will be the characterization of the two basic ideas: life and cognition. We will harness both, and there will be nothing artificial about them. All we have to do is quite literally believe in ourselves.
 
-The Idea of Hegel's Science of Logic describes a process which can be considered as the universal property phenomenon, metaphysically independent truth which guides the evolution of objects through categories. It is not a mathematical object, constructed in hypothetical isolation and then externally reunited with other concepts. It is the basic, self-judging, creative "cell of consciousness." As we study an instance of its evolution, we will be the free variable. This is why it is so important to stay free of the objective bias of assuming any conceptual beginning without comprehension: it won't be a situation where we can just start from some concepts and method of thought and "try to make it prove itself," because assumptions are exactly why we consider self-proof to be vacuous, rather than the powerful play of self-manifestation. We will need a deep philosophical understanding of it first, so that we can almost picture it without any tools at all. Then the journey of truth may begin with a single proof.
+Laozi
+> The Dao that can be spoken is not the eternal Dao.
+																																	
+I tried to condense some of the philosophy into a couple paragraphs for introduction and it was ugly, so I will leave it for the idea portion. I will end with more confident vagueness, and then a personal message:
+
+The Idea of Hegel's Science of Logic describes a process which can be considered as the universal property phenomenon, metaphysically independent truth which guides the evolution of objects through categories. It is not a mathematical object, constructed in hypothetical isolation and then externally reunited with other concepts. It is the basic, self-judging, creative "cell of consciousness." As we study an instance of its evolution, we will be the free variable. This is why it is so important to stay free of the objective bias of assuming any conceptual beginning without comprehension: it won't be a situation where we can just start from some concepts and method of thought and "try to make it prove itself," because assumptions are exactly why we consider self-proof to be vacuous, rather than the powerful play of self-manifestation. We will need a deep philosophical understanding of it first, so that we can almost picture in our minds without any tools at all, like a nebula you can only ever see from afar. Then the journey of truth may begin with a single proof.
 
 
 
@@ -127,9 +127,6 @@ Michael Shulman
 : [Univalence For Elegant Reedy Presheaves](https://arxiv.org/pdf/1307.6248v2.pdf)
 : [Enriched Indexed Categories](http://arxiv.org/pdf/1212.3914v3.pdf)
 
-Eugenia Cheng and Aaron Lauda
-: [Higher Categories: An Illustrated Guidebook](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
-
 Jean Yves-Girard
 : [Transcendental Syntax 1](http://iml.univ-mrs.fr/~girard/trsy1.pdf) [and 2](http://iml.univ-mrs.fr/~girard/trsy2.pdf)
 
@@ -142,18 +139,21 @@ John C. Baez and James Dolan
 : [Why n-Categories?](http://www.math.ucr.edu/home/baez/n_categories/why.pdf)
 : [Higher Algebra: n-Categories and Algebra of Opetopes](http://arxiv.org/pdf/q-alg/9702014v1.pdf)
 
-Fosco Loregian
-: [Coend, Cofriend] (https://arxiv.org/pdf/1501.02503v2.pdf)
-
 Robert Harper
 : [Extensionality, Intensionality, and Brouwer's Dictum](https://existentialtype.wordpress.com/2012/08/11/extensionality-intensionality-and-brouwers-dictum/)
 : [Constructive Mathematics is not Metamathematics](https://existentialtype.wordpress.com/2013/07/10/constructive-mathematics-is-not-meta-mathematics/)
 
-W.P. Stekelenburg
-: [Realizability Categories](http://arxiv.org/pdf/1301.2134v1.pdf)
+Eugenia Cheng and Aaron Lauda
+: [Higher Categories: An Illustrated Guidebook](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf)
 
 Tim Porter
 : [S-Categories](http://arxiv.org/pdf/math/0401274v1.pdf)
+
+Fosco Loregian
+: [Coend, Cofriend] (https://arxiv.org/pdf/1501.02503v2.pdf)
+
+W.P. Stekelenburg
+: [Realizability Categories](http://arxiv.org/pdf/1301.2134v1.pdf)
 
 Clark Barwick
 : [Enriched Left Bousfield Localizations of Model Categories](http://arxiv.org/pdf/0708.2067v2.pdf)
