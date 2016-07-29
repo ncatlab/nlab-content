@@ -35,7 +35,7 @@ We present three motivations and applications of anafunctors:
 
 ### Foundational motivation {#FoundationalMotivation}
 
-There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; this is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "functor comprehension principle" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
+There is a sense in which the construction of inverse equivalences is not a "real" use of the axiom of choice, because the choice of $d$ is determined up to unique isomorphism.  Note that in ordinary set theory, the axiom of choice is not necessary to make choices that are uniquely defined; thfis is sometimes called the "axiom of non-choice" or the "function comprehension principle."  Since in category theory, an object can only be expected to be determined up to unique isomorphism, it is natural to regard the above statement as really being a "functor comprehension principle" or an "axiom of non-choice for categories."  The fact that the full axiom of choice is required to make such choices is then an artifact of the usual [[foundation]]al choice to define categories as having a [[set]] of objects.
 
 In fact, however, we can recover the functor comprehension principle while maintaining the definition of categories in set theory if we modify the notion of *functor*.  This results in the notion of _anafunctor_, which is essentially "a functor which determines its values on objects only up to isomorphism."  In particular, an anafunctor is an [[equivalence of categories]] (in the sense of having an inverse *anafunctor*) precisely if it is essentially surjective and full and faithful.  From this point of view, an anafunctor is not necessarily a fundamental notion, but rather an artifact that makes it possible to approximate the "natural" theory of categories, which doesn't need choice but has a functor comprehension principle, while still working in a set-theoretic foundation lacking choice.
    
@@ -79,7 +79,7 @@ where the left leg is a weak equivalence., hence for us: where the left leg is a
 
 For the case $\mathcal{E} = Top$ such a span is a morphism out of a _Cech cover_ . For instance for $C = X$ a topological space regarded as a topological category, for $G$ a [[topological group]] and $D = \mathbf{B}G$ its [[delooping]] one-object topological groupoid, such a span is a [[Cech cohomology|Cech cocycle]] on $X$ with values in $G$.
 
-And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor**: a functor $\hat C \to C$ that is is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
+And finally: for the case that $\mathcal{E} = Set_{\not C}$ is the category of sets without the axiom of choice, such a span is an **anafunctor**: a functor $\hat C \to C$ that is surjective on objects and [[full and faithful functor|full and faithful]], together with a functor $\hat C \to D$ out of the "resolution" of $C$.
 
 So one can understand ordinary anafunctors as follows:
 
@@ -109,7 +109,7 @@ with the left leg being an acyclic fibration. (This is a special case of the gen
 
 Given categories $C$ and $D$, an __anafunctor__ $F\colon C \to D$ may be rather slickly defined as a [[span]] of ordinary ([[strict functor|strict]]) [[functors]] $C \overset{\sigma}\leftarrow \overline{F} \overset{\tau}\rightarrow D$ (where $\overline{F}$ is some category), with the property that the functor $\sigma\colon {\overline{F}} \to C$ is both [[faithful functor|faithful]] and (strictly!) surjective on both objects and morphisms (therefore both [[full functor|full]] and [[essentially surjective functor|essentially surjective on objects]]).  It is also possible to define an anafunctor as a span in which $\sigma$ is merely a [[equivalence of categories|weak equivalence]] (that is, faithful, full, and essentially surjective on objects), although that is slightly more complicated to work with.
 
-### Explicit set-theoretic definition
+### Explicit set-theoretic definition {#SetDef}
 
 In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
 
@@ -130,6 +130,20 @@ In more explicit detail, an __anafunctor__ $F\colon C \to D$ consists of:
 From the above explicit data, the category $\overline{F}$ is constructed as follows: the objects of $\overline{F}$ are the elements of ${|F|}$, while a morphism $s \to t$ in $\overline{F}$ is simply a morphism $\sigma(s) \to \sigma(t)$ in $C$.  Then $\sigma$ extends to a surjective faithful functor from $\overline{F}$ to $C$ (acting as the identity on morphisms), and $\tau$ extends to a functor from $\overline{F}$ to $D$ (mapping the morphism $f\colon s \to t$ in $\overline{F}$ to $F_{s,t}(f)\colon \tau(s) \to \tau(t)$ in $D$).
 
 An anafunctor $F$ is __saturated__ if, whenever $F(x) \cong y$, $F_s(x) = y$ for some unique specification $s$, where the unicity of $s$ depends not only on $x$ and $y$ but also on how $y$ is a value of $F$ at $x$. To be precise: if $g\colon y' \to y$ is an isomorphism in $D$ and $F_{s'}(x) = y'$ for some specification $s'$, then there is a unique specification $s$ such that $F_{s',s}(\id_x) = g$ (where in particular, $\sigma(s) = x$ and $F_s(x) = y$). Every anafunctor $F\colon C \to D$ has a _saturation_ $\overline{F}$; $\overline{F}$ is a saturated anafunctor and $F \cong \overline{F}$ in the category of anafunctors from $C$ to $D$. In fact, the inclusion of the saturated anafunctors into the anafunctors (as a full subcategory) is an equivalence of categories (given fixed $C$ and $D$).
+
+The usual notions of [[full functors]] and [[faithful functors]] can be generalized to anafunctors. An anafunctor $F$ is __full__ if the maps $F_{s, t}: Hom(\sigma(s), \sigma(t)) \to Hom(\tau(s), \tau(t))$ are all surjective, and it is __faithful__ if the maps are injective.
+
+Anafunctors can be composed via pullback. Given anafunctors $F: C \to D$, $G: D \to E$, we can form the pullback
+$$
+\array{
+  |GF|                & \to                 & |G|        & \overset{\tau_G}\to E\\
+  \downarrow          &                     & \downarrow\mathrlap{\sigma_G}\\
+  |F|                 & \underset{\tau_F}\to & D\\
+  \mathllap{\sigma_F}\downarrow\\
+  C
+}
+$$
+More explcitly, the specifications are given by pairs $(s, t) \in |F| \times |G|$ such that $\tau_F(s) = \sigma_G(t)$, and $\sigma_{G F}(s, t) = \sigma_F(s)$, $\tau_{G F}(s, t) = \tau_G(t)$. For $(s, t), (s', t') \in |GF|$ and an arrow $f: \sigma_F(s) \to \sigma_F(s')$, we obtain an arrow $F_{s, s'}(f): \tau(s) \to \tau(s')$. This is also an arrow $\sigma_G(t) \to \sigma_G(t')$, so we can lift this map to $G_{t, t'}F_{s, s'}(f): \tau(t) \to \tau(t')$, and this completes the description of the anafunctor. The other axioms can be verified straightforwardly.
 
 Categories, anafunctors, and a suitably defined notion of [[ananatural transformation]] between them form a [[bicategory]] $Cat_{ana}$; an internal [[equivalence]] in this 2-category is called an **anaequivalence**.  Every functor may be interpreted as an anafunctor, with ${|F|}$ always taken to be (the set of objects in) $C$ itself and $\sigma$ the [[identity functor]].  Indeed, there is a [[2-functor]] to $Cat_{ana}$ from the [[strict 2-category]] $Str Cat$ of categories, functors and natural transformations; this functor is an [[equivalence of categories|equivalence]] if and only if the [[axiom of choice]] holds.  Thus, most mathematicians will identify $Cat_{ana}$ and $Str Cat$ as simply [[Cat]], the $2$-category of categories; however, mathematicians who doubt the axiom of choice will distinguish them.  While anafunctors exist in any case, there is an ideological statement that may be implied by their use: that $Cat$ is *really* $Cat_{ana}$ rather than $Str Cat$.
 
@@ -194,6 +208,33 @@ Since all objects in the canonical model structure on Cat are fibrant, according
 If we specialize to groupoids, with their canonical model structure by [[Ronnie Brown|Brown]]-[[Marek Golasi?ski|Golasi?ski]], then by the general idea of [[homotopical cohomology theory]]
 this means that anafunctors between groupoids represent [[nonabelian cocycle]]s on groupoids with values in groupoids. By the notion of [[descent|codescent]] such homotopical cocycles are related to [[descent|descent data]] that enters the definition of [[sheaf|sheaves]] and [[stack]]s.
 
+## Examples
+We will use the [#SetDef](Explicit set-theoretic definition) in this section.
+
+### Product anafunctor
+Given a category $C$ with [[cartesian product|binary products]], we can form a product functor $P: C \times C \to C$ that sends a pair of objects $(A, B)$ to a product of them. This requires picking a product for each pair, and hence requires the [[axiom of choice]].
+
+However, we can form the product anafunctor without using choice. The specifications are given by $|P| = \text{product diagrams in }\;C$, and the maps $\sigma: |P| \to C \times C$ and $\tau: |P| \to C$ are given by
+$$
+  \sigma(A \leftarrow D \rightarrow B) = (A, B),\;\; \tau(A \leftarrow D \rightarrow B) = D.
+$$
+Given product diagrams $A \leftarrow D \rightarrow B$ and $A' \leftarrow D' \rightarrow B'$, and a map $(f, g): (A, B) \to (A', C')$ in $C \times C$, we obtain $P(f, g): D \to D'$ by the universal property of the product. The compatibility conditions are easy to check.
+
+### Anafunctor from functor
+Suppose we have a usual functor $F: C \to D$. Then we can obtain an anafunctor as the span
+$$
+\array{
+  C & \overset{F}\to & D\\
+  \mathllap{id_C} \downarrow \\
+  C
+}
+$$
+The composition of anafunctors agree with the composition of functors.
+
+### Inverses of anafunctors
+Given an anafunctor $F: C \to D$ with $\sigma: |F| \to C$ and $\tau: |F| \to D$, if $F$ (ie. $\tau$) is essentially surjective, then its saturation is strictly surjective.
+
+Then given a saturated full and faithfull essentially surjective anafunctor, we can obtain an inverse anafunctor $F^{-1}: D \to C$ by swapping $\tau$ and $\sigma$ around. The conditions of being full and faithful and essentially surjective guarantees the axioms are still satisfied.
 
 ## Questions of size {#SizeQuestions}
 
