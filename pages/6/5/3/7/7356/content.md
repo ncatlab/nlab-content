@@ -147,7 +147,7 @@ $$
 
 The [[poles]] $j\to \infty$ of the [[j-invariant]] correspond to the [[nodal curve]], and hence it is at these poles that the [[D7-branes]] are located. Since the order of the poles is 24 (the polynomial degree of the [[discriminant]] $\Delta = 27 g^2 + 4 f^3$) there are necessarily _24 D7-branes_.
 
-([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04))
+([Sen 96, page 5](#Sen96) [Sen 97b](#Sen97b), see also [Morrison 04, sections 8 and 17](#Morrison04), [Denef 08, around (3.41)](#Denef08)). Notice that the _net charge_ of these 24 D7-branes is supposed to vanish, due to [[S-duality]] effects (e.g. [Denef 08, below (3.41)](#Denef08)).
 
 
 
