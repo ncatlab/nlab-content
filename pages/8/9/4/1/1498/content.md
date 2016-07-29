@@ -2,6 +2,10 @@
 
 * [[Jim Stasheff]], _[[StasheffCohomPhysicsSurvey.pdf:file]]_, 2009
 
+See also
+
+* {#Stasheff16} [[Jim Stasheff]], _Higher homotopy structures, then and now_, talk at _[Opening workshop](https://www.mpim-bonn.mpg.de/node/6356)_ of _[Higher Structures in Geometry and Physics](https://www.mpim-bonn.mpg.de/node/5883)_, MPI Bonn 2016 ([[StasheffHomotopyStructuresReview.pdf:file]])
+
 
 #Content#
 
