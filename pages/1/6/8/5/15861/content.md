@@ -44,7 +44,7 @@ Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backsla
 
 ## Remark
 
-As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ comes naturally with a co-Heyting structure it becomes (in principle) possible to define the boundary $\partial\mathcal{A}$ of a subtopos $\mathcal{A}$ in this lattice and then in turn the boundary $\partial T'$ of the [[geometric theory]] $T'$ that $\mathcal{A}$ [[classifying topos|classifies]] which is an extension of the theory $T$ classified by $\mathcal{E}$ (cf. [SGA 4](#SGA4),  [Lawvere 1991](#Law91a), [Caramello 2009](#Cara09)).[^Law]
+As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ comes naturally with a co-Heyting structure it becomes (in principle) possible to define the boundary $\partial\mathcal{A}$ of a subtopos $\mathcal{A}$ in this lattice and then in turn the boundary $\partial T'$ of the [[geometric theory]] $T'$ that $\mathcal{A}$ [[classifying topos|classifies]] which is an extension of the theory $T$ classified by $\mathcal{E}$ ([Lawvere 1991](#Law91a), [Caramello 2009](#Cara09)).[^Law]
 
 [^Law]: The boundary operation is one in Lawvere's arsenal of (mereological) tools for the study of logical theories in the context of a topos and its subtoposes (besides e.g. the [[Aufhebung|Aufhebungs relation]]). For a more complete picture of the toolbox see [Lawvere (2002)](#Law02).
 
@@ -62,7 +62,7 @@ As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ com
 
 ## References
 
-Boundaries of subtoposes are defined in an exercise of [SGA4](#SGA4) (cf. at [[open subtopos]] for some of the details). The concept for co-Heyting algebras seems to stem from Lawvere ([1976](#Law76),[1986](#Law86), [1991](#Law91a)) although the 1927 [article of M. Zarycki](#Zar27) already studies properties and axiomatic potential of the boundary operator in topology. [La Palme Reyes, Reyes&Zolfaghari (2004)](#RRZ04) has an introductory exposition in the context of bi-Heyting algebras. For boundaries of geometric theories [Caramello (2009)](#Cara09) is essential reading although they don't appear there explicitly. For mereological applications of the concept see [Lawvere (1986)](#Law86), [Stell&Worboys (1997)](#SW97), [Pagliani (2009)](#Pagl09) and [Mormann (2013)](#Mor13).
+Closed boundaries of subtoposes are defined in an exercise of [SGA4](#SGA4) (cf. at [[open subtopos]] for some of the details). The concept for co-Heyting algebras seems to stem from Lawvere ([1976](#Law76),[1986](#Law86), [1991](#Law91a)) although the 1927 [article of M. Zarycki](#Zar27) already studies properties and axiomatic potential of the boundary operator in topology. [La Palme Reyes, Reyes&Zolfaghari (2004)](#RRZ04) has an introductory exposition in the context of bi-Heyting algebras. For boundaries of geometric theories [Caramello (2009)](#Cara09) is essential reading although they don't appear there explicitly. For mereological applications of the concept see [Lawvere (1986)](#Law86), [Stell&Worboys (1997)](#SW97), [Pagliani (2009)](#Pagl09) and [Mormann (2013)](#Mor13).
 
 * {SGA4} [[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, exercise 9.4.8, pp.461-462) {#SGA4}
 
