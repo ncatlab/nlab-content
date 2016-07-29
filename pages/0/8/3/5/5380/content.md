@@ -24,7 +24,7 @@ $$
   \mathbb{P}_n := (\mathbb{A}^{n+1} - \{0\})/\mathbb{G}_m
 $$
 
-of the $(n+1)$-fold [[product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$.
+of the $(n+1)$-fold [[product]] of the line with itself by the canonical [[action]] of $\mathbb{G}_m$. Any point $(x_0,x_1,\ldots,x_n)\in \mathbb{A}^{n+1} - \{0\}$ gives _homogeneous coordinates_ for its image under the quotient map. When considered in this fashion, one often writes $[x_0:x_1:\ldots:x_n]$. Homogeneous  coordinates were introduced by [[August Ferdinand Möbius]] in his 1827 work _Der barycentrische Calc&#252;l_.
 
 More generally, for $(X,0)$ a pointed space with (pointed) $\mathbb{G}_m$-[[action]], the quotient 
 
