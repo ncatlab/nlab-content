@@ -34,7 +34,7 @@ In case $\mathcal{E}=Sh(X)$ is the topos of sheaves on a topological space $X$, 
 
 The [[subterminal object]] $U$ in $\mathcal{E}$ is associated with a [[closed subtopos]] $Sh_{c(U)}(\mathcal{E})$ as well e.g. in the case of $\mathcal{E}=Sh(X)$ on a space $X$ this yields $Sh(X\setminus U)$.
 
-Moreover, given a [[Lawvere-Tierney topology]] $j$ on a topos $\mathcal{E}$ with corresponding subtopos $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$, we a get a canonical [[subterminal object]] $ext(j)$  associated to $j$ by taking the $j$-closure of $O\rightarrowtail 1$. The corresponding closed and open subtoposes associated to $ext(j)$ provide a '_closure_' $Sh_{c(ext(j))}(\mathcal{E})$, respectively, an '_exterior_' $Sh_{o(ext(j))}(\mathcal{E})$ for $Sh_j(\mathcal{E})$ (cf. [SGA4](#SGA4), p.461).
+Moreover, given a [[Lawvere-Tierney topology]] $j$ on a topos $\mathcal{E}$ with corresponding subtopos $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$, we a get a canonical [[subterminal object]] $ext(j)$  associated to $j$ by taking the $j$-closure of $O\rightarrowtail 1$. The corresponding closed and open subtoposes associated to $ext(j)$ provide a '_closure_' $Sh_{c(ext(j))}(\mathcal{E})$, respectively, an '_exterior_' $Sh_{o(ext(j))}(\mathcal{E})$ for $Sh_j(\mathcal{E})$ (cf. [SGA4](#SGA4), p.461). More on this [below](#ext_int).
 
 ## Properties
 
@@ -110,14 +110,38 @@ Let $\mathcal{C}$ a [[locally presentable category]]. The meet of two open local
 
 cf. [Borceux-Korotenski (1991, p.235)](#BK91).
 
++-- {: .num_prop #open_supremum}
+###### Proposition
+Let $\mathcal{C}$ a [[locally presentable category]] where unions are [[universal colimit|universal]]. The supremum of a family of open localizations in the lattice of all localizations is again an open localization.
+=--
+
+cf. [Borceux-Korotenski (1991, p.236)](#BK91).
+
+This applies e.g. to Grothendieck toposes since they are locally presentable and colimits are universal.
+
++-- {: .num_prop #open_supremum}
+###### Proposition
+Let $\mathcal{C}$ a [[locally presentable category]] where unions are [[universal colimit|universal]]. The open localizations in $\mathcal{C}$ constitute a [[locale]].
+=--
+
+cf. [Borceux-Korotenski (1991, p.237)](#BK91).
+
 The following proposition closes the circle and recovers the primordial example of sheaf subtoposes $Sh(U)$ on open subsets $U$ as a special case:
 
 +-- {: .num_prop}
 ###### Proposition
-Let $\mathcal{C}$ a [[locally presentable category]] in which colimits are [[universal colimit|universal]]. Then the open localizations of $\mathcal{C}$ constitutes a [[locale]] that is isomorphic to the locale of [[subterminal object|subterminal objects]] of $\mathcal{C}$.
+Let $\mathcal{C}$ a [[locally presentable category]] in which colimits are [[universal colimit|universal]]. Then the [[locale]] of open localizations of $\mathcal{C}$ is isomorphic to the locale of [[subterminal object|subterminal objects]] of $\mathcal{C}$.
 =--
 
 cf. [Borceux-Korotenski (1991, p.238)](#BK91).
+
+## Open subtoposes associated to a subtopos {#ext_int}
+
+Let $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a subtopos of a (Grothendieck) topos with corresponding [[Lawvere-Tierney topology|topology]] $j$. From [prop. ](#open_supremum) it follows that the supremum of the family of all open subtoposes contained in $Sh_j(\mathcal{E})$ is open again and, since it coincides with the supremum in the lattice of all localizations, is contained in $Sh_j(\mathcal{E})$. Clearly, it is the biggest open subtopos contained in $Sh_j(\mathcal{E})$ and therefore called the **interior** of $Sh_j(\mathcal{E})$, denoted by $Sh_{o(int(j))}(\mathcal{E})$ and the corresponding [[subterminal object]] by $int(j)$.
+
+Whereas the other open subtopos $Sh_{o(ext(j))}(\mathcal{E})$ connected with $Sh_j(\mathcal{E})$ corresponding to $ext(j)$ is the biggest open subtopos disjoint from $Sh_j(\mathcal{E})$ i.e. its exterior. Then the sum $Sh_{o(ext(j))}(\mathcal{E}) \vee Sh_{o(int(j))}(\mathcal{E})$ is open again and corresponds to the subterminal object $ext(j)\vee int(j)$. Its complement $Sh_{c(ext(j)\vee int(j))}(\mathcal{E})$ is called the [[co-Heyting boundary|boundary]] of $Sh_j(\mathcal{E})$.
+ 
+For further details see at [[dense subtopos]] and ([SGA 4](#SGA4), p. 461).
 
 ## Related pages
 
