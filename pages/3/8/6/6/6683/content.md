@@ -62,7 +62,11 @@ Discussion of the model as a [[higher gauge theory]] (due to its coupling to the
 
 * Sam Palmer, [[Christian Saemann]], _The ABJM Model is a Higher Gauge Theory_, IJGMMP 11 (2014) 1450075 ([arXiv:1311.1997](http://arxiv.org/abs/1311.1997))
 
-Discussion of the possible [[orbifold]]ing is in
+Classification of the possible [[superpotentials]] via [[representation theory]] is due to 
+
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J.Phys.A42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
+
+and derived from this a classification of the possble [[orbifold]]ing is in
 
 * {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
