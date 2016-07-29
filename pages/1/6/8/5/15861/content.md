@@ -48,6 +48,7 @@ As the lattice of [[subtopos|subtoposes]] of a given [[topos]] $\mathcal{E}$ com
 
 [^Law]: The boundary operation is one in Lawvere's arsenal of (mereological) tools for the study of logical theories in the context of a topos and its subtoposes (besides e.g. the [[Aufhebung|Aufhebungs relation]]). For a more complete picture of the toolbox see [Lawvere (2002)](#Law02).
 
+When a subtopos $\mathcal{A}$ is complemented in the lattice of subtoposes, as occurs e.g. for [[open subtopos|open]], [[closed subtopos|closed]] or [[locally closed subtopos|locally closed]] subtoposes, its boundary vanishes: $\partial\mathcal{A}=0$ since in a co-Heyting algebra the complement $\neg a$ necessarily coincides with $\sim a$ (cf. at [[co-Heyting negation]]).
 
 ## Related entries
 
