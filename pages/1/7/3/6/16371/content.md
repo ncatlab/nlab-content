@@ -139,9 +139,9 @@ cf. [Borceux-Korotenski (1991, p.238)](#BK91).
 
 Let $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a subtopos of a (Grothendieck) topos with corresponding [[Lawvere-Tierney topology|topology]] $j$. From [prop. ](#open_supremum) it follows that the supremum of the family of all open subtoposes contained in $Sh_j(\mathcal{E})$ is open again and, since it coincides with the supremum in the lattice of all localizations, is contained in $Sh_j(\mathcal{E})$. Clearly, it is the biggest open subtopos contained in $Sh_j(\mathcal{E})$ and therefore called the **interior** of $Sh_j(\mathcal{E})$, denoted by $Sh_{o(int(j))}(\mathcal{E})$ and the corresponding [[subterminal object]] by $int(j)$.
 
-Whereas the other open subtopos $Sh_{o(ext(j))}(\mathcal{E})$ connected with $Sh_j(\mathcal{E})$ corresponding to $ext(j)$ is the biggest open subtopos disjoint from $Sh_j(\mathcal{E})$ i.e. its exterior. Then the sum $Sh_{o(ext(j))}(\mathcal{E}) \vee Sh_{o(int(j))}(\mathcal{E})$ is open again and corresponds to the subterminal object $ext(j)\vee int(j)$. Its complement $Sh_{c(ext(j)\vee int(j))}(\mathcal{E})$ is called the [[co-Heyting boundary|boundary]] of $Sh_j(\mathcal{E})$.
+Whereas the other open subtopos $Sh_{o(ext(j))}(\mathcal{E})$ connected with $Sh_j(\mathcal{E})$ corresponding to $ext(j)$ is the biggest open subtopos disjoint from $Sh_j(\mathcal{E})$ i.e. its exterior. Then the sum $Sh_{o(ext(j))}(\mathcal{E}) \vee Sh_{o(int(j))}(\mathcal{E})$ is open again and corresponds to the subterminal object $ext(j)\vee int(j)$. Its closed complement $Sh_{c(ext(j)\vee int(j))}(\mathcal{E})$ is called the boundary of $Sh_j(\mathcal{E})$ in ([SGA 4](#SGA4), p. 461).
  
-For further details see at [[dense subtopos]] and ([SGA 4](#SGA4), p. 461).
+For some further details see at [[dense subtopos]].
 
 ## Related pages
 
