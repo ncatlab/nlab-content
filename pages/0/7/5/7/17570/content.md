@@ -58,6 +58,8 @@ The following are examples of global families (def. \ref{GlobalFamily}): the cla
 
 1. all [[quotient groups]] of [[closed subset|closed]] [[subgroups]] of a fixed [[compact Lie group]].
 
+1. all [[finite groups]].
+
 =--
 
 ## References
