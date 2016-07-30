@@ -34,9 +34,41 @@ A [[topos]] $\mathcal{E}$ such that the lattice $sub(X)$ of subobjects is a [[co
 
 ## Examples
 
-* [[essential subtoposes|Essential subtoposes]] of presheaf toposes.
+* Presheaf toposes and their [[essential subtoposes]].
 
 ##Properties
+
++-- {: .num_prop}
+###### Proposition
+A Grothendieck topos is bi-Heyting when finite unions distribute over arbitrary intersections:
+$$
+T\cup (\bigcap_{i\in I} T_i)=\bigcap_{i\in I} (S\cup T_i)\quad .
+$$
+=--
+
+cf. [Borceux-Bourn-Johnstone](#BBJ04) p.350.
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{E}$ be a Grothendieck topos with generating set $\{G_i | i\in I\}$. Then $\mathcal{E}$ is bi- Heyting precisely iff the lattice of subobjects of $G_i$ is a bi-Heyting algebra for all $G_i$.
+=--
+
+cf. [Borceux-Bourn-Johnstone](#BBJ04) p.350.
+
++-- {: .num_prop}
+###### Proposition
+Let $f:\mathcal{E}\to\mathcal{F}$ be a surjective essential geometric morphism between Grothendieck toposes. If $\mathcal{F}$ is bi-Heyting so is $\mathcal{E}$.
+=--
+
+cf. [Borceux-Bourn-Johnstone](#BBJ04) p.351.
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{C}$ be a small category. Then $Set^{\mathcal{C}^{op}}$ is bi-Heyting.
+=--
+
+cf. [Borceux-Bourn-Johnstone](#BBJ04) p.352.
+
 
 ##Remark
 
