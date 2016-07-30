@@ -74,13 +74,14 @@ The inverse image $f^\ast$ of an essential geometric morphism preserves small li
 
 +-- {: .num_prop}
 ###### Proposition
-Let $f^\ast\dashv f_\ast:\mathcal{E}\to\mathcal{F}$ a geometric morphism between Grothendieck toposes. Then $f$ is essential iff $f^\ast$ preserves small limits.
+Let $f^\ast\dashv f_\ast:\mathcal{E}\to\mathcal{F}$ a geometric morphism between Grothendieck toposes. Then $f$ is essential iff $f^\ast$ preserves small limits iff $f^\ast$ preserves small products.
 =--
 
 +-- {: .proof}
 ###### Proof
 Grothendieck toposes are [[locally presentable category|locally presentable]] and $f^\ast$ has rank i.e. it preserves $\alpha$-filtered colimits for some [[regular cardinal]] $\alpha$ since it is a left adjoint. But by ([[Handbook of Categorical Algebra|Borceux vol. 2]]  Thm.5.5.7, p.275) a functor between two locally presentable categories has a left adjoint precisely if it has rank and preserves small limits.
 
+Since limits can be constructed from products and equalizers and $f^\ast$ preserves the latter, it preserves small limits precisely when it preserves small products.
 =--
 
 ### Relation to morphisms of (co)sites
@@ -292,9 +293,7 @@ The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essenti
 
 ## Related concepts
 
-* **essential geometric morphism**
-
-* [[essential subtopos]], [[level]]
+* [[essential subtopos]] / [[level of a topos]]
 
 * [[locally connected topos]] / [[locally ∞-connected (∞,1)-topos]]
 
@@ -309,7 +308,7 @@ The [[tiny object]]s of a [[presheaf topos]] $[C,Set]$ are precisely the essenti
 
 ## References
 
-As many other things, it all started as an exercise in
+Like many other things, it all started as an exercise in
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972. (expos&#233; IV, ex.7.6, pp.414-417)
 
@@ -321,7 +320,7 @@ The case of sheaves valued in [[FinSet]] is considered in
 
 * J. Haigh, _Essential geometric morphisms between toposes of finite sets_ , Math. Proc. Phil. Soc. **87** (1980) pp.21-24.
 
-The standard reference for _essential localizations_ [^further], aka [[level|levels]], is
+The standard reference for _essential localizations_ [^further], aka [[level of a topos|levels]], is
 
 * {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], _On the Complete Lattice of Essential Localizations_ , Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
