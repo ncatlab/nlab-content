@@ -26,13 +26,15 @@
 
 ##Idea
 
-A **bi-Heyting topos** is a [[topos]] whose lattices of subobjects carry the structure of a [[co-Heyting algebra]] in addition to their normal [[Heyting algebra]] structure and thereby permit to model co-intuitionistic logic.
+A **bi-Heyting topos** is a [[topos]] whose lattices of subobjects carry the structure of a [[co-Heyting algebra]] in addition to their normal [[Heyting algebra]] structure and thereby permit to model bi-intuitionistic logic.
 
 ##Definition
 
 A [[topos]] $\mathcal{E}$ such that the lattice $sub(X)$ of subobjects is a [[co-Heyting algebra|bi-Heyting algebra]] for every object $X\in\mathcal{E}$ is called a [[bi-Heyting topos]].
 
 ## Examples
+
+* [[Boolean toposes]] are bi-Heyting since their subobject lattices are Boolean algebras which are self-dual Heyting algebras.
 
 * Presheaf toposes and their [[essential subtoposes]].
 
@@ -46,7 +48,7 @@ T\cup (\bigcap_{i\in I} T_i)=\bigcap_{i\in I} (S\cup T_i)\quad .
 $$
 =--
 
-cf. [Borceux-Bourn-Johnstone](#BBJ04) p.350.
+**Proof.** Because this distributivity amounts to the preservation of limits by $T\vee$\_ and implies by the [[adjoint functor theorem]] the existence of a left adjoint \_$\backslash T$ which provides the [[co-Heyting algebra]] structure. $\qed$
 
 +-- {: .num_prop}
 ###### Proposition
@@ -55,9 +57,9 @@ Let $\mathcal{E}$ be a Grothendieck topos with generating set $\{G_i | i\in I\}$
 
 cf. [Borceux-Bourn-Johnstone](#BBJ04) p.350.
 
-+-- {: .num_prop}
++-- {: .num_prop #surjective_essential}
 ###### Proposition
-Let $f:\mathcal{E}\to\mathcal{F}$ be a surjective essential geometric morphism between Grothendieck toposes. If $\mathcal{F}$ is bi-Heyting so is $\mathcal{E}$.
+Let $f:\mathcal{E}\to\mathcal{F}$ be a surjective [[essential geometric morphism]] between Grothendieck toposes. If $\mathcal{E}$ is bi-Heyting so is $\mathcal{F}$.
 =--
 
 cf. [Borceux-Bourn-Johnstone](#BBJ04) p.351.
@@ -67,7 +69,7 @@ cf. [Borceux-Bourn-Johnstone](#BBJ04) p.351.
 Let $\mathcal{C}$ be a small category. Then $Set^{\mathcal{C}^{op}}$ is bi-Heyting.
 =--
 
-cf. [Borceux-Bourn-Johnstone](#BBJ04) p.352.
+**Proof.**  Let $|\mathcal{C}|$ be the discrete category on the objects of $\mathcal{C}$. The inclusion $i:|\mathcal{C}|\hookrightarrow \mathcal{C}$ induces a surjective essential geometric morphism $Set^{|\mathcal{C}|^{op}}\to Set^{\mathcal{C}^{op}}$ and the first of these is Booelan hence bi-Heyting. By prop. \ref{surjective_essential} follows the claim. $\qed$
 
 
 ##Remark
@@ -81,6 +83,7 @@ cf. [Borceux-Bourn-Johnstone](#BBJ04) p.352.
 * [[co-Heyting boundary]]
 * [[bitopological space]]
 * [[semi-abelian category]]
+* [[mereology]]
 
 ##References
 
