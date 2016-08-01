@@ -1,4 +1,4 @@
-A [[topological group]] is called **topologically cyclic** or **monothetic** if there exists a dense cyclic subgroup.
+A [[topological group]] is called **topologically cyclic** or **monothetic** if there exists a [[dense subspace|dense]] [[cyclic group|cyclic]] [[subgroup]].
 
 ###Examples
 
