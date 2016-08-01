@@ -1,1 +1,1 @@
-> [[Frobenius algebra]]
+&lt; [[Frobenius algebra]]
