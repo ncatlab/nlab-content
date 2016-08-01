@@ -93,6 +93,10 @@ Any [[symmetric monoidal category]] becomes a linearly distributive category in 
 
 These examples satisfy the extra property that the distributors $\delta$ are [[isomorphisms]].  However, not every linearly distributive category in which the distributors are isomorphisms are of this form; the rest are "shifted monoidal categories" in which $A \parr B \coloneqq A \otimes \bot^{-1} \otimes B$, where $\bot$ is a chosen $\otimes$-invertible object.
 
+## Internal structures
+
+Some structures normally defined in a monoidal category can more generally be defined in a linearly distributive category.  This includes [[dual objects]] (yielding the above "negations") and also [[Frobenius algebras]]; see [(Egger2010)](#Egger2010).
+
 ## History
 
 The concept was originally called a _weakly distributive category_  and was introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
@@ -144,5 +148,10 @@ Linearly distributive categories have now been used as the substrate for a numbe
 
 * Willem Heijltjes, [[Robin Houston]], _No proof nets for MLL with units: proof equivalence in MLL is PSPACE-complete_, CSL-LICS '14 Proceedings of the Joint Meeting of the Twenty-Third EACSL Annual Conference on Computer Science Logic (CSL) and the Twenty-Ninth Annual ACM/IEEE Symposium on Logic in Computer Science (LICS), Article No. 50. ([web](http://dl.acm.org/citation.cfm?id=2603126)) 
  {#HH} 
+
+Frobenius algebras in linearly distributive categories are discussed in
+
+* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
+ {#Egger2010}
 
 [[!redirects weakly distributive category]]
