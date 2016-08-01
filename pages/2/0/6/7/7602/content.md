@@ -36,6 +36,10 @@ Polycategories provide a natural [[categorical semantics]] for [[linear logic]].
 
 A polycategory that is "representable on both sides", meaning informally that morphisms in $Hom(A_1,\dots,A_n;B_1,\dots,B_m)$ correspond to morphisms $A_1 \otimes \cdots\otimes A_n \to B_1 \invamp \cdots \invamp B_m$, is a [[linearly distributive category]].  A formal definition can be found in [(Cockett-Seely)](#CockettSeely97).
 
+### Internal structures
+
+Some categorical structures that are normally defined in a monoidal category can instead be defined in a polycategory, including [[Frobenius algebras]] and [[dual objects]].  Dual objects, in particular, are a form of "negation" that make a linearly distributive category into a [[star-autonomous category]].
+
 ## References
 
 * M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
