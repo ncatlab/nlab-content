@@ -13,6 +13,12 @@
 * table of contents
 {: toc}
 
+## Idea
+
+A **Frobenius algebra** is a [[vector space]] that is both an [[algebra]] and a [[coalgebra]] in a compatible way.  This sort of compatibility is different (and more "topological") from that involved in a [[bialgebra]]/[[Hopf algebra]].  More generally, Frobenius algebras can be defined in any [[monoidal category]], and even in any [[polycategory]], in which case they are sometimes called **Frobenius monoids**.
+
+Frobenius algebras have connections to [[TQFT]]s; for some more historical motivation see [this MO question](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras).
+
 
 ## Definition
 
@@ -37,8 +43,8 @@ There are
 ###### Definition
 A Frobenius algebra in a [[monoidal category]] is a quintuple $(A, \delta, \epsilon, \mu, \eta)$ such that
 
-1. $(A, \mu, \eta)$ is a [[monoid]],
-1. $(A, \delta, \epsilon)$ is a [[comonoid]], and
+1. $(A, \mu, \eta)$ is a [[monoid]] with multiplication $\mu:A\otimes A\to A$ and unit $\eta:I\to A$,
+1. $(A, \delta, \epsilon)$ is a [[comonoid]] with comultiplication $\delta:A\to A\otimes A$ and counit $\epsilon:A\to I$, and
 1. the **Frobenius laws** hold: $(1 \otimes \mu) \circ (\delta \otimes 1) = \delta \circ \mu = (\mu \otimes 1) \circ (1 \otimes \delta)$.
 =--
 
@@ -80,8 +86,8 @@ We can define 'commutative' Frobenius algebras in any [[symmetric monoidal categ
 ### Symmetric Frobenius algebras ###
 
 We can define 'commutative' or 'symmetric' Frobenius algebras in any [[symmetric monoidal category]].  A Frobenius algebra $A$ is **symmetric** if 
-$$\epsilon \circ S_{A,A} = \epsilon \, $$
-where $S_{A,A} : A \otimes A \to A \otimes A$ is the symmetry.  Any commutative Frobenius algebra is symmetric, but not conversely: for example the algebra of $n \times n$ matrices with entries in a field, with its usual trace as $\epsilon$, is symmetric but not commutative when $n \gt 1$.  
+$$\epsilon \mu \circ S_{A,A} = \epsilon \mu \, $$
+where $S_{A,A} : A \otimes A \to A \otimes A$ is the symmetry, and $\epsilon\mu$ is the nondegenerate pairing induced as above from the multiplication and the counit.  Any commutative Frobenius algebra is symmetric, but not conversely: for example the algebra of $n \times n$ matrices with entries in a field, with its usual trace as $\epsilon$, is symmetric but not commutative when $n \gt 1$.  
 
 A theorem of Eilenberg and Nakayama says that in the category of vector spaces over a field $k$, an algebra $A$ can be equipped with the structure of a symmetric Frobenius algebra if (but not only if) it is **separable**, meaning that for any field $K$ extending $k$, $A \otimes_k K$ is a [[semisimple algebra|semisimple]] algebra over $K$.   
 
@@ -190,6 +196,9 @@ A special commutative Frobenius algebra gives a 2d TQFT that is insensitive to t
 
 [[!include 2d TQFT -- table]]
 
+### Frobenius algebras in polycategories
+
+In fact, Frobenius algebras can be defined in any [[polycategory]], and hence in any [[linearly distributive category]].  The essential point is that the monoidal structure used for the monoid structure could be different from the monoidal structure used for the comonoid structure, i.e. we could have $\mu:A\otimes A \to A$ but $\delta :A \to A \parr A$.  The compatibility between $\otimes$ and $\parr$ in a linearly distributive category (or between their "[[multicategory|multicategorical]]" analogues in a polycategory) is precisely what is required to write down the composites involved in the Frobenius laws.  This is analogous to how a [[bimonoid]] can be defined in any [[duoidal category]].
 
 ## Related concepts
 
@@ -261,9 +270,7 @@ See also
 
 * [[F. W. Lawvere]], _Ordinal Sums and Equational Doctrines_ , pp.141-155 in Eckmann (ed.), _Seminar on Triples and Categorical Homology Theory_ , LNM **80** Springer Heidelberg 1969. ([TAC Reprint of vol. 80](http://www.tac.mta.ca/tac/reprints/articles/18/tr18.pdf)) 
 
-(TO ADD: stuff from this [MO post](http://mathoverflow.net/questions/32193/why-did-people-originally-like-frobenius-algebras))
-
-(TO DO: $\epsilon$ is used for the comultiplication in the beginning, then for the linear form, and in the definition of symmetry for the bilinear pairing on a Frobenius algebra.  Use three different letters for these) (NO: all three are conceptually the same thing!  In the beginning it's not $\epsilon$ but $\delta$ that denotes the comultiplication - $\delta$ means 'duplication' or 'diagonal'.  $\epsilon$ is the counit, which is the same as the 'linear form' in the later example, and also appears in the definition of symmetric Frobenius algebra later.  So: this stuff is all okay.)
-
 [[!redirects Frobenius algebra]]
 [[!redirects Frobenius algebras]]
+[[!redirects Frobenius monoid]]
+[[!redirects Frobenius monoids]]
