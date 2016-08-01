@@ -36,20 +36,4 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 
 category: reference
 
-+--{.query}
 
-[[Eric]]: Does anyone here know Professor Grandis well enough to invite him here? I'm a fan and would love to see him participate in the n-Community.
-
-[[Tim]]:  I am an old friend of Marco, but do not think that any direct involvement is likely.
-
-I will be writing a review of the book for the Canadian math. Soc. so may be able to contribute something to this later on.
-
-=--
-
-+--{.query}
-
-[[Victor Porton]] Is it necessary to know regular (nondirected) algebraic topology before reading this book? How much advanced category theory it requires?
-
-[[Tim]]: I have transferred this question to the forum and provided some comments on it.
-
-=--
