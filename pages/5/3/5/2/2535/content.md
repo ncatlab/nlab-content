@@ -3,7 +3,7 @@
 
 **[[synthetic differential geometry]]**
 
-## Axiomatics ##
+## Axiomatics
 
 * [[smooth topos]]
 
