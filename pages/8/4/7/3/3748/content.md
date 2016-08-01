@@ -141,7 +141,7 @@ S(X) & \to & S(1) }$$
 
 This right adjoint is fully faithful and embeds $Cat/S1$ into $[Cat,Cat]/S$ as the endofunctors equipped with a [[cartesian natural transformation]] to $S$.  Finally, the cartesianness of $S$ implies that $Cat/S1$ is closed under the monoidal structure of $[Cat,Cat]/S$.  This induced monoidal structure on $Cat/S1$ is, in the case when $S$ is the symmetric strict monoidal category monad, exactly the substitution product defined above.  Thus, a club is a monoid for this monoidal structure, and the inclusion of $Cat/S1$ into $[Cat,Cat]/S$ thereby sends it to a monad over $S$.
 
-Note, however, that this construction depends on no special features of $Cat$; it can be performed for any cartesian monad $S$ on any category with finite limits.  This can be found in [(Kelly, Clubs and datatype constructors)](#KellyCDT).
+Note, however, that this construction depends on no special features of $Cat$; it can be performed for any cartesian monad $S$ on any category with finite limits.  This can be found in [(Kelly, Clubs and datatype constructors)](#KellyCDT).  More generally, it can be performed for cartesian monads *in* a suitable 2-category; see [[club in a 2-category]].
 
 ## Clubs over finite sets
 
