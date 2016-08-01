@@ -34,6 +34,10 @@ Prof. Grandis has posted few lines from introduction to the book  __'Directed Al
 
 >Applications will deal with domains where privileged directions appear, such as concurrent processes, rewrite systems, traffic networks, space-time models, biological systems, etc. At the time of writing, the most developed ones are concerned with concurrency.
 
+**Review**
+
+A review of this book can be found in the [CMS Notes](https://cms.math.ca/notes/v43/n2/Notesv43n2.pdf) (2011).
+
 category: reference
 
 
