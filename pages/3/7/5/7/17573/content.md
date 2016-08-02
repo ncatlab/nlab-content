@@ -2,6 +2,7 @@ A [[topological group]] is called **topologically cyclic** or **monothetic** if 
 
 ###Examples
 
+* Any finite cyclic group
 * The group of [[p-adic integers]]
 * Any torus $(S^1)^n$
 
