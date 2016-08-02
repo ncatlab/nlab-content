@@ -176,6 +176,16 @@ Alternatively, it is the full subcategory of $G Set$ containing objects of the f
 See [MacLane and Moerdijk, Chapter III.9](#MaclaneMoerdijk).
 =--
 
+More generally, by the [[comparison lemma]], we have
++-- {: .num_theorem}
+###### Theorem
+Let $G$ be a topological group, and $\mathcal{U}$ be a cofinal set of open subgroups, ie. every open subgroup contains a member of $\mathcal{U}$. Then the category $G Set$ is equivalent to the topos of sheaves on the atomic site $(S(G, \mathcal{U}), At)$, where the objects of $S(G, \mathcal{U})$ are the open subgroups in $\mathcal{U}$, and the morphisms $H \to K$ are the left cosets $a K$ such that $U \subseteq a K a^{-1}$, and all non-empty sieves are covering.
+
+Alternatively, it is the full subcategory of $G Set$ containing objects of the form $G/U$, where $U \in \mathcal{U}$.
+=--
+
+In particular, if $G$ is a discrete group, then the [[trivial subgroup]] itself is a cofinal set of open subgroups. So $G Set$ is the category of sheaves on the category with only one object, whose morphisms are the elements of $G$. This is the usual characterization of $G Set$ as the [[functor category]] $Set^G$.
+
 ### As a comonad algebra
 To be included.
 
