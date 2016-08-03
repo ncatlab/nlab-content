@@ -7,21 +7,13 @@ I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stac
 
 I was a research associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
 
-If you need it, here is my email: 
+You may also find me on: [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](http://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)
 
-droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.blahblah
+If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
 
-You may also find me on
+## Writing
 
-* [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)
-
-* [Google+](https://plus.google.com/+DavidRoberts/)
-
-* [arXiv](http://arxiv.org/a/roberts_d_1.html)
-
-* [ORCiD](http://orcid.org/0000-0002-3478-0522)
-
-## Preprints
+### Preprints
 
 * _The smooth loop stack of a differentiable stack_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
@@ -29,11 +21,7 @@ You may also find me on
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
 
-
-
-
-
-## Papers
+### Papers
 
 * _A bigroupoid's topology_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). Accepted for publication April 2016.
 
@@ -60,7 +48,7 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 * _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](http://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](http://dx.doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](http://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
-## In preparation
+### In preparation
 
 * _Strict 2-sites, $J$-spans and localisations_.
 
@@ -72,18 +60,20 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 
 * _String structures and string connections on homogeneous spaces_, joint with Raymond Vozzo
 
-## Review
+### Other
 
-* _Mathematics without apologies_ by Michael Harris, Appears in: Gazette of the Australian Mathematical Society, Vol. 43 (2016) No. 2 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2016/May16/BkRev.pdf))
+* _What do mathematicians think about their journals? Peer review quality tops list of stated issues_, LSE Impact Blog, June 22 2016 [Blog post](http://blogs.lse.ac.uk/impactofsocialsciences/2016/06/22/what-do-mathematicians-think-about-their-journals-peer-review-quality-tops-list-of-stated-issues/) (joint with Cameron Neylon and Mark C. Wilson)
+
+* Review of _Mathematics without apologies_ by Michael Harris, Appears in: Gazette of the Australian Mathematical Society, Vol. 43 (2016) No. 2 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2016/May16/BkRev.pdf))
 
 * Contribution to _The "Bounded Gaps between 
 Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
 
-* _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
+* Review of _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
 Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 
-## Talks 
+## Selected Talks 
 
 * _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
 
@@ -91,20 +81,13 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 * _Homogeneous string connections_, [2015 Annual Meeting of the Australian Mathematical Society](http://www.flinders.edu.au/science_engineering/csem/research/centres/fmsl/austms2015/), 1 October 2015. ([Abstract](http://www.mathematics.org.au/sys/talks/talk.php?talk=2764&conf_id=26))
 
-
-* _Higher homogeneous bundles_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 27 March 2015.
-
 * _Homogeneous bundles and higher geometry_, [Eduard &#268;ech Institute for Algebra, Geometry and Physics](http://eci.karlin.mff.cuni.cz/), 24 February 2015 ([notes](https://www.dropbox.com/s/1a2wy93ejkyutr3/Prague_notes.pdf?dl=0))
 
 * _A new String group model from LG_, [Infinite-dimensional Structures in Higher Geometry and Representation Theory](http://www.math.uni-hamburg.de/ids2015/), Universit&#228;t Hamburg, February 2015
 
 * _String structures on homogeneous bundles_, [8th Australia New Zealand Mathematics Convention](http://www.austms2014.ms.unimelb.edu.au/), 12 December 2014 ([Abstract](http://www.mathematics.org.au/sys/shared/talk.php?talk=2626&conf_id=22))
 
-* _The Serre-Grothendieck theorem by geometric means_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide, 24 October 2014. ([Abstract](http://maths.adelaide.edu.au/news/2014/10/24))
-
 * _A geometric proof of a theorem of Serre_, [Algebra and Topology seminar](http://maths.anu.edu.au/events/algebra-and-topology-seminar-0), Australian National University, 23 September 2014. ([Abstract](http://maths.anu.edu.au/events/geometric-proof-theorem-serre))
-
-* _Mathematics: A castle in the sky?_, [School of Mathematical Sciences Undergraduate Seminar](http://maths.adelaide.edu.au/search.php?q=%2BUndergraduate%20%2BSeminar), University of Adelaide, 25 August 2014. ([slides](https://www.dropbox.com/s/2ljf92lyjuti6co/Undergrad_seminar_foundations.pdf?dl=0)) 
 
 * _Explicit string bundles_, [Workshop on Higher Gauge Theory and Higher Quantization](http://www.christiansaemann.de/higherworkshop2014/index.html), Heriot-Watt University, June 2014. ([notes from talk](https://www.dropbox.com/s/3f0beiksla65j5n/HW_talk_notes_Roberts.pdf))
 
@@ -112,76 +95,13 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 * _An explicit string bundle_, [AustMS 2013](http://www.maths.usyd.edu.au/u/austms2013/abstracts.html), 3 October 2013 ([slides in WriteLaTeX](https://www.writelatex.com/read/tsbybtssscbg)).
 
-* _Proper class forcing_, [CT2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
+* _Proper class forcing_, [Category Theory 2013](http://web.science.mq.edu.au/groups/coact/seminar/ct2013/programme.html), July 2013.
 
-* _On the Ganter-Kapranov approach to supersymmetry_, Strings Journal Club, University of Adelaide. 27 May 2013.
+The complete list is [[davidroberts:talks|here]].
 
-* _Diffeological spaces and differentiable stacks_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 10 May 2013.
+## Teaching
 
-* _On the Baas-Dundas-Rognes approach to 2-vector bundles_, Strings Journal Club, University of Adelaide. 19 February 2013.
-
-* _Elliptic cohomology - first steps_, Strings Journal Club, University of Adelaide. 9 October 2012.
-
-* _[Sheaf cohomology via abelian categories]()_, Strings Journal Club, University of Adelaide. 4 September 2012.
-
-* _Introduction to 2-groups_, Strings Journal Club, University of Adelaide. 5 May 2012.
-
-* _2-categorical localisation_, [Australian Category Seminar](http://web.science.mq.edu.au/groups/coact/seminar/cgi-bin/speaker-info.cgi?name=David+Roberts), Macquarie University. 12 October 2011.
-
-* _Functorial 2-connected covers_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 21 May 2010.
-
-* _[2-covering spaces](http://ncatlab.org/davidroberts/files/DMRAustMS09.pdf)_, 2009 [Annual Meeting of the Australian Mathematical Society](http://w3.unisa.edu.au/austms2009/), at the University of South Australia. 30 September 2009.
-
-* _[Fundamental 2-groups and 2-covering spaces]()_, slides prepared for talk accepted for the [Categorical groups workshop](http://mat.uab.cat/~kock/crm/hocat/cat-groups/), Barcelona. June 2008. _Due to lack of funding at the last minute, I wasn't able to attend this conference, and my speaking slot was given up._ See also [this blog post](http://golem.ph.utexas.edu/category/2008/06/fundamental_2groups_and_2cover.html).
-
-* _Of inner automorphisms and universal bundles_, [Differential Geometry seminar](http://www.iga.adelaide.edu.au/dgwg.html), University of Adelaide. 26 October 2007.
-
-* _[Bundle gerbes, higher Yang-Mills and Kalb-Ramond]()_, 2006 [Annual Meeting of the Australian Mathematical Society](http://maths.mq.edu.au/austms06/), at Macquarie University. September 2006.
-
-* _Bundle gerbe Yang-Mills_, Erwin Schrodinger Institute, May 2006.
-
-## Students
-
-#### Undergraduate projects
-
-* Jayden Redden - _Explicit formulas for connections_, Summer 2014/15
-
-* Diclehan Erdal - _Coequalisers from minimal ETCS axioms_, Summer 2014/15
-
-## Teaching 
-
-* 2016
-  
-  * Summer Semester : Maths 1B, Lecturer (Calculus), Tutor
-
-* 2015
-
-  * Summer Semester : Maths 1B, Lecturer (Algebra), Tutor
-
-* 2014
-
-  *  Semester 1 : Maths 1A, Lecturer (Algebra), Tutor ([[davidroberts:Maths 1A Algebra 2014 semester 1|page]])
-
-* 2013 
-
-  *  Semester 1 : Maths 1A, Lecturer (Algebra); Tutor (term 2 only)
-
-* 2007 
-
-  *  Semester 2 : Maths 1B, Tutor
-
-  *  Semester 1: Maths 1A, Tutor
-
-* 2006
-
-   *  Semester 2 : Maths 1B, Tutor
-
-   *  Semester 1: Maths 1A, Tutor
-
-* 2005 
-
-   *  Semester 2: Maths 1B, Tutor
-
+See [[davidroberts:teaching/students|here]] for a list of courses I have taught.
 
 ## Copyright statement ##
 
