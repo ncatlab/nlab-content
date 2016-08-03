@@ -78,11 +78,9 @@ $$
 $$
 =--
 
-This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
+This appears as ([Johnstone, theorem C2.2.3](#Johnstone)).
 
-+-- {: .num_examples}
-###### Examples
-&#160;
+## Examples
 
 * Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage ($\{U_i \to U\}$ covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
 
@@ -92,17 +90,27 @@ This appears as ([Johnstone, theorm C2.2.3](#Johnstone)).
 
   * Similarly for $C = $ [[Diff]] the category of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site: every such smooth manifold has a _differentially_ [[good open cover]] (see there): a good cover by open balls each of which are [[diffeomorphic]] to a [[Cartesian space]].
 
-=--
+## Remark
 
-## Related concepts
+There is also the notion of _[[dense subcategory]]_, which is however is only remotly related to the concept of a _dense sub-site_ by both vaguely invoking the topological concept of a [[dense subspace]].
 
-* there is also the notion of _[[dense subcategory]]_, which is however _not_ related
+## Related entries
+
+* [[comparison lemma]]
 
 ## References
 
-Section C2.2
+The comparison lemma originates with the expos&#233; III by [[J. L. Verdier|Verdier]] in
 
-* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]]_ .
+* {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972.  (p.288)
+
+A more general form is used to give a site condition for [[étendue|étendue toposes]] in
+
+* [[A. Kock]], [[I. Moerdijk]], _Presentations of Etendues_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** 2 (1991) pp.145-164. ([numdam](http://www.numdam.org/numdam-bin/item?id=CTGDC_1991__32_2_145_0), pp.151f)
+
+The above presentation is based on 
+
+* [[Peter Johnstone]], _[[Elephant|Sketches of an Elephant]] vol 2_ , Oxford UP 2002. (Section C2.2, p.546)
 
 
 [[!redirects dense sub-site]]
