@@ -64,12 +64,12 @@ Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.
 
 * _What do mathematicians think about their journals? Peer review quality tops list of stated issues_, LSE Impact Blog, June 22 2016 [Blog post](http://blogs.lse.ac.uk/impactofsocialsciences/2016/06/22/what-do-mathematicians-think-about-their-journals-peer-review-quality-tops-list-of-stated-issues/) (joint with Cameron Neylon and Mark C. Wilson)
 
-* Review of _Mathematics without apologies_ by Michael Harris, Appears in: Gazette of the Australian Mathematical Society, Vol. 43 (2016) No. 2 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2016/May16/BkRev.pdf))
+* Review of _Mathematics without apologies: Portrait of a problematic vocation_ by Michael Harris. ([publisher's page](http://press.princeton.edu/titles/10317.html)) Appears in: Gazette of the Australian Mathematical Society, Vol. 43 (2016) No. 2 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2016/May16/BkRev.pdf))
 
 * Contribution to _The "Bounded Gaps between 
 Primes" Polymath Project: A Retrospective Analysis_, Newsletter of the European Mathematical Society, No. 94, December 2014. (page 19 of [this pdf](http://www.ems-ph.org/journals/newsletter/pdf/2014-12-94.pdf))
 
-* Review of _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
+* Review of _Lectures on real analysis_ by [[Finnur Larusson]], Australian Mathematical Society Lecture Series, No. 21. ([publisher's page](https://www.cambridge.org/us/academic/subjects/mathematics/real-and-complex-analysis/lectures-real-analysis))
 Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5 ([journal pdf](http://www.austms.org.au/Publ/Gazette/2014/Nov14/BkRev.pdf))
 
 
