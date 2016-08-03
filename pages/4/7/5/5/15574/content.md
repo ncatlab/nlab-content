@@ -210,6 +210,19 @@ Furthermore one sees that the subtoposes corresponding to the levels trace out a
 
 =--
 
++-- {: .num_remark}
+###### Remark
+We can use the definition to try to shed some light on the apparently rather odd contention by Hegel that the method of logic is analytic and synthetic at the same time:
+
+> Der Gang oder die Methode des absoluten Wissens ist ebensosehr analytisch als synthetisch. Die Entwicklung dessen, was im Begriff enthalten ist, die Analysis, ist das Hervorgehen verschiedener Bestimmungen, die im Begriff enthalten sind, somit zugleich synthetisch.  ([Begriffslehre f&#252;r die Mittelklasse (1809/10)](#Begriff), p.161)
+
+We can think of the inclusion of the sheaf category of a lower level into the higher sheaf category as an _analytic_ relation between the concepts involved: when viewed as a relation between the [[geometric theories]] classified by the respective subtoposes an inclusion relation corresponds indeed to an unpacking of the richer theory of the smaller subtopos e.g. the subtopos corresponding to the theory of [[local fields|local fields]] is included in the topos corresponding to the theory of fields which on the conceptual side is spelled out as _a local field is a field_, or, the concept 'local field' implies the concept 'field'. So the passage from subtopos to including supratopos corresponds to an unfolding of the concepts implied in the subtopos concept.
+
+This analytic procedure seems close to the 'analytical reading' of Hegel's dialectic as a refinement of meaning postulates proposed by F. Berto e.g. in ([Berto 2007](#Berto07)). 
+
+Whereas on the _synthetic_ side, by demanding _essentiality_ of the subtoposes we get at each level skeletal 'determinations' corresponding to features _not_ contained in the concept on the sheaf side which by the resolution condition nevertheless get synthesized into the sheaf side on the higher levels.
+=--
+
 ## Examples
 
 ### Aufhebung of Becoming -- Determinate being
@@ -516,10 +529,12 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 ##References
 
-* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , Springer LNM **269** Heidelberg 1972. (sec. IV 7.6., pp.414-416)
+* {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , LNM **269** Springer Heidelberg 1972. (sec. IV 7.6., pp.414-416)
 
 * [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in: J. C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
+* {#Berto07} F. Berto, _Hegel's Dialectic as a Semantic Theory: An Analytical Reading_ , European Journal of Philosophy **15** no.1 (2007) pp.19-39. ([philpapers](http://philpapers.org/rec/BERHDA))
+
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
@@ -529,6 +544,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
 * {#Diff} [[G. W. F. Hegel]], _Differenz des Fichte'schen und Schelling'schen Systems der Philosophie_ , pp.7-138 in Moldenhauer, Michel (eds.), _Werke 2_ , Suhrkamp Frankfurt 1986[1801].
+
+* {#Begriff} [[G. W. F. Hegel]], _Begriffslehre f&#252;r die Mittelklasse (1809/10)_ , pp.139-162 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt 1986.
 
 * {#WdL} [[G. W. F. Hegel]], _[[Science of Logic|Wissenschaft der Logik]] I_ , Suhrkamp Frankfurt 1986[1812/13; revised 1831].
 
@@ -548,9 +565,9 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Law89b} [[F. W. Lawvere]], _Display of graphics and their applications, as exemplified by 2-categories and the Hegelian "taco"_ , Proceedings of the first international conference on algebraic methodology and software technology University of Iowa, May 22-24 1989, Iowa City, pp.51-74. 
 
-* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in LNM **1488** Springer Heidelberg 1991.
 
-* {#Law91b} [[F. W. Lawvere]], _More on Graphic Toposes_ , Cah.Top.G&#233;om.Diff.Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
+* {#Law91b} [[F. W. Lawvere]], _More on Graphic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** no.1 (1991) pp.5-10. ([pdf](archive.numdam.org/article/CTGDC_1991__32_1_5_0.pdf))
 &#8206;
 * {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter Berlin 1992.
 
@@ -580,7 +597,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#Menni12} [[Matías Menni|M. Menni]], _Bimonadicity and the Explicit Base Property_ , TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
 
-* J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math.Inf.Sci.Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
+* J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
 
@@ -588,7 +605,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
-* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top.G&#233;om.Diff.Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
 
 
 
