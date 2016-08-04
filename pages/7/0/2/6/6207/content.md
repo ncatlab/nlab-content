@@ -1,5 +1,14 @@
 
-# Twisted arrow categories
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
 * table of contents
 {: toc}
 
@@ -34,17 +43,17 @@ Unpacking the well-known explicit construction of [[comma object|comma objects]]
 \]
 you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$: $g=qfp$.
 
+From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the definition of morphism *reversed*, hence the twist. 
 
-### Origin of the name
+## Example
 
-From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the def of morphism *reversed*, hence the twist. 
-
+If $C$ is a partially ordered set, then $Tw(C)$ is isomorphic to the set of nonempty intervals $[a,b]=\{c\in C| a\leq c\leq \b\}$ with $a\leq b$ in C ordered by inclusion (cf. [Johnstone 1999](#JT99)).
 
 ## Properties
 
-From its definition as a comma category, there's a functor (a [[discrete opfibration]], in fact) 
+* From its definition as a comma category, there's a functor (a [[discrete opfibration]], in fact) 
 \[ 
-\pi_C \colon tw(C) \to C^{op} \times C 
+\pi_C \colon Tw(C) \to C^{op} \times C 
 \] 
 which at the level of objects forgets the arrows:
 \[
@@ -53,9 +62,9 @@ which at the level of objects forgets the arrows:
 and keeps everything at the morphisms level. 
 
 
-### $tw(C)$ and wedges
+### $Tw(C)$ and wedges
 
-One could say that $tw(C)$ *classifies* [[wedge|wedges]], in the sense that for any functor $F \colon C^{op} \times C \to B$,
+One could say that $Tw(C)$ *classifies* [[wedge|wedges]], in the sense that for any functor $F \colon C^{op} \times C \to B$,
 
 * [[extranatural transformation|extranatural transformations]] $ e \stackrel{\bullet}{\to} F $ 
 
@@ -71,11 +80,15 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 
 * The construction generalizes to $(\infty,1)$-categories (cf. [Lurie 11](#DAGX), sec.4.2).
 
+## Related entries
+
+* [[category of factorizations]]
 
 ## References
 
 * L. Errington, _Twisted Systems_ , PhD thesis Imperial College London 1999.([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
 
+* [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
 * [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_ , ms. (2011). {#DAGX}
 
 * [[Saunders Mac Lane]], _Categories for the Working Mathematician_ , Springer Heidelberg 1998&#178;. (cf. exercise IX.6.3, p.227)
