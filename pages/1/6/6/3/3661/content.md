@@ -17,7 +17,7 @@
 
 ## Idea
 
-A **Conduch&#233; functor**, or **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Baez's law]], the notion was actually defined by Giraud before Conduch&#233;.)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
+A **Conduch&#233; functor**, also called a **Conduch&#233; fibration** or an **exponentiable functor**, is a [[functor]] which is an [[exponentiable morphism]] in [[Cat]].  (In accordance with [[Baez's law]], the notion was actually defined by Giraud before Conduch&#233;.)  This turns out to be equivalent to a certain "factorization lifting" property which includes both [[Grothendieck fibrations]] and opfibrations.
 
 
 ## Failure of local cartesian closedness in Cat
@@ -92,9 +92,9 @@ Non-strict Conduch&#233; functors and [[Street fibrations]] may be equivalently 
 
 ## References
 
-* [[F. Conduché]], 'Au sujet de l'existence d'adjoints &#224; droite aux foncteurs "image r&#233;ciproque" dans la cat&#233;gorie des cat&#233;gories', *C.R. Acad. Sci. Paris* 275 (1972), A891--894.
+* F. Conduch&#233;, _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
 
-* [[J. Giraud]], 'M&#233;thode de la descente', *Bull. Math. Soc. Memoire* 2 (1964)
+* [[J. Giraud]], _M&#233;thode de la descente_, Bull. Math. Soc. M&#233;moire **2** (1964). ([numdam](http://www.numdam.org/numdam-bin/item?id=MSMF_1964__2__R3_0))
 
 The definitions and proofs of the above theorems, along with the 2-categorical generalization (Conduch&#233; considered only the 1-categorical case) can also be found in
 
@@ -104,6 +104,12 @@ A description of the characterization in terms of lax normal functors can be fou
 
 * [[Ross Street]], \'Powerful functors\', [pdf](http://www.math.mq.edu.au/~street/Pow.fun.pdf)
 
+Discrete Conduch&#233; functors are considered in
+
+* [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
+
+[[!redirects Conduché fibration]]
+[[!redirects Conduche fibration]]
 [[!redirects Conduche functors]]
 [[!redirects Conduché functor]]
 [[!redirects Conduché functors]]
