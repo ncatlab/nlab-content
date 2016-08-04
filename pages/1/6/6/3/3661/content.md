@@ -92,7 +92,7 @@ Non-strict Conduch&#233; functors and [[Street fibrations]] may be equivalently 
 
 ## References
 
-* F. Conduch&#233;, _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
+* [[F. Conduché]], _Au sujet de l'existence d'adjoints &#224; droite aux foncteurs 'image reciproque' dans la cat&#233;gorie des cat&#233;gories_ , C. R. Acad. Sci. Paris **275** S&#233;rie A (1972) pp.891-894. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k56191352/f19.image#))
 
 * [[J. Giraud]], _M&#233;thode de la descente_, Bull. Math. Soc. M&#233;moire **2** (1964). ([numdam](http://www.numdam.org/numdam-bin/item?id=MSMF_1964__2__R3_0))
 
