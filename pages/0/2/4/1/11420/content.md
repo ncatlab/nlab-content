@@ -29,7 +29,7 @@ Quite generally, the _completion of a ring_ is a [[completion]] of a [[topologic
 
 ### Formal/adic completion and formal neighbourhoods
 
-A special case of ring completion is the _formal completion_ or _adic completion_ of a [[commutative ring]] $R$, whichh is its topological completion with respect to the [[adic topology]] induced by a [[maximal ideal]] $I\subset R$ ([Sullivan 05, definition 1.3](#Sullivan05)). 
+A special case of ring completion is the _formal completion_ or _adic completion_ of a [[commutative ring]] $R$, which is its topological completion with respect to the [[adic topology]] induced by a [[maximal ideal]] $I\subset R$ ([Sullivan 05, definition 1.3](#Sullivan05)). 
 
 The underlying ring $\widehat R_I$ of this formal completion is the [[limit]]
 
