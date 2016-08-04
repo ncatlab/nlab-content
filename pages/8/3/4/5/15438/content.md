@@ -27,7 +27,7 @@ The _Schanuel topos_ is the [[sheaf topos]] $Sh(FinSet^{op}_{mono},J)$ where $Fi
 
 * The objects of the Schanuel topos are called [[nominal set|nominal sets]] and correspond precisely to the pullback preserving functors $FinSet_{mono}\to Set$.
 
-* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is atomic over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
+* The Schanuel topos $Sh(FinSet^{op}_{mono},J)$ is [[atomic topos|atomic]] over $Set$ ([[Stephen Schanuel|S. Schanuel]], cf. (Wraith 1978), p.335) hence Boolean. This fact can be viewed as a reflex of the _urelements_ in Fraenkel-Mostowski set theory.
 
 * $Sh(FinSet^{op}_{mono},J)$ is the [[classifying topos]] $Set[D_\infty]$ for the [[theory of infinite decidable objects]] $D_\infty$ i.e. for a Grothendieck topos $\mathcal{E}$ geometric morphisms $\mathcal{E}\to Sh(FinSet^{op}_{mono},J)$ correspond to infinite [[decidable objects]] in $\mathcal{E}$. $Sh(FinSet^{op}_{mono},J)$ is equivalent to $sh_{\neg\neg}([FinSet_mono,Set])$.
 
@@ -47,11 +47,13 @@ For some information on the history of the Schanuel topos see section 10 of Menn
 
 * [[theory of decidable objects]]
 
-* [[species]]
-
 * [[Fraenkel-Mostowski model]]
 
 * [[permutation model]]
+
+* [[atomic topos]]
+
+* [[species]]
 
 ##References
 
