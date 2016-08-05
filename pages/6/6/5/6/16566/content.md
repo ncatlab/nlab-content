@@ -19,7 +19,7 @@
 
 ## Idea
 
-An **arithmetic pretopos** is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A **list-arithmetic pretopos** is a pretopos with all _parameterized list objects_. ([Maietti 10, 2.6](#Maiett10)).
+An **arithmetic pretopos** is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A **list-arithmetic pretopos** is a pretopos with all _parameterized list objects_ ([Maietti 10, 2.6](#Maiett10)).
 
 Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **parameterized list object** is a [[W-type]] for the [[polynomial functor]] $B+ A\times(-)\colon C\to C$. This definition makes sense since a pretopos has [[finite products]] and [[disjoint coproducts]] (here denoted "$+$").
 
@@ -56,7 +56,7 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 
 * [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_ , ENTCS **122** (2005) pp.247&#8211;296. 
 
-* {#Vickers16} [[Steve Vickers|S. Vickers]], _Sketches for arithmetic universes_ , arXiv:1608.0159 (2016). ([link](http://arxiv.org/abs/1608.01559))
+* {#Vickers16} [[Steve Vickers]], _Sketches for arithmetic universes_ , arXiv:1608.0159 (2016). ([link](http://arxiv.org/abs/1608.01559))
 
 [[!redirects arithmetic pretoposes]]
 [[!redirects list-arithmetic pretopos]]
