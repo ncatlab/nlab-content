@@ -42,8 +42,12 @@ In particular, the [[Lawvere-Tierney topology]] corresponding to the dense topol
 
 ## Related entries
 
+* [[atomic site]]
+
 * [[double negation]]
+
 * [[dense subtopos]]
+
 * [[continuum hypothesis]]
 
 ## Reference
