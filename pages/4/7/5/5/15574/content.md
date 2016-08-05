@@ -216,7 +216,7 @@ We can use the definition to try to shed some light on the apparently rather odd
 
 > Der Gang oder die Methode des absoluten Wissens ist ebensosehr analytisch als synthetisch. Die Entwicklung dessen, was im Begriff enthalten ist, die Analysis, ist das Hervorgehen verschiedener Bestimmungen, die im Begriff enthalten sind, somit zugleich synthetisch.  ([Begriffslehre f&#252;r die Mittelklasse (1809/10)](#Begriff), p.161)
 
-We can think of the inclusion of the sheaf category of a lower level into the higher sheaf category as an _analytic_ relation between the concepts involved: when viewed as a relation between the [[geometric theories]] classified by the respective subtoposes an inclusion relation corresponds indeed to an unpacking of the richer theory of the smaller subtopos e.g. the subtopos corresponding to the theory of [[local fields|local fields]] is included in the topos corresponding to the theory of fields which on the conceptual side is spelled out as _a local field is a field_, or, the concept 'local field' implies the concept 'field'. So the passage from subtopos to including supratopos corresponds to an unfolding of the concepts implied in the subtopos concept.
+We can think of the inclusion of the sheaf category of a lower level into the higher sheaf category as an _analytic_ relation between the concepts involved: when viewed as a relation between the [[geometric theories]] classified by the respective subtoposes an inclusion relation corresponds indeed to an unpacking of the richer theory of the smaller subtopos e.g. the subtopos corresponding to the theory of [[local ring|local rings]] is included in the topos corresponding to the theory of rings which on the conceptual side is spelled out as _a local ring is a ring_, or, the concept 'local ring' implies the concept 'ring'. So the passage from subtopos to including supratopos corresponds to an unfolding of the concepts implied in the subtopos concept.
 
 This analytic procedure seems close to the 'analytical reading' of Hegel's dialectic as a refinement of meaning postulates proposed by F. Berto e.g. in ([Berto 2007](#Berto07)). 
 
@@ -531,7 +531,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#SGA4} [[Michael Artin|M.Artin]], [[Alexander Grothendieck|A.Grothendieck]], [[J. L. Verdier]] (eds.), _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas - SGA 4_ , LNM **269** Springer Heidelberg 1972. (sec. IV 7.6., pp.414-416)
 
-* [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in: J. C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
+* [[John Baez|J. C. Baez]], [[Mike Shulman|M. Shulman]], _Lectures on n-categories and cohomology_ , pp.1-68 in J. C. Baez, P. May (eds.), _Towards Higher Categories_, Springer Heidelberg 2010. ([preprint](http://math.ucr.edu/home/baez/cohomology.pdf))
 &#8206;
 * {#Berto07} F. Berto, _Hegel's Dialectic as a Semantic Theory: An Analytical Reading_ , European Journal of Philosophy **15** no.1 (2007) pp.19-39. ([philpapers](http://philpapers.org/rec/BERHDA))
 
@@ -605,7 +605,7 @@ Further results on essential localizations can be found in the papers by [Borceu
 
 * {#VT01}[[Enrico Vitale|E. M. Vitale]], _Essential Localizations and Infinitary Exact Completions_ , TAC **8** no.17 (2001) pp.465-480. ([pdf](http://www.tac.mta.ca/tac/volumes/8/n17/n17.pdf))
 
-* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah.Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
+* {#WR93}[[Gavin C. Wraith]], _Using the Generic Interval_ , Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
 
 
 
