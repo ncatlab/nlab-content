@@ -30,24 +30,35 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 
 ## Related entries
 
+* [[free monoid]]
+
+* [[Gödel's incompleteness theorem]]
+
 * [[Lawvere's fixed point theorem]]
+
+* [[classifying topos for the theory of objects]]
 
 ## References
 
-* {#Cockett90} [[Robin Cockett]], _List-arithmetic distributive categories: Locoi_, Journal of Pure and Applied Algebra, Vol.66(1) (1990) 1-29. (doi:[10.1016/0022-4049(90)90121-W](http://dx.doi.org/10.1016/0022-4049(90)90121-W)
+* {#Cockett90} [[Robin Cockett]], _List-arithmetic distributive categories: Locoi_, JPAA **66** no.1 (1990) pp.1-29.
+
+* {#Cockett97} [[Robin Cockett]], _Finite objects in a locos_, JPAA **116** (1997) pp.169-183.
 
 * {#Joyal05} [[André Joyal]], _The G&#246;del incompleteness theorem, a categorical approach_ , (abstract) Amiens 2005, Cah. Top. G&#233;om. Diff. Cat. **46** no.3 (2005) p.202. ([numdam](http://www.numdam.org/numdam-bin/browse?id=CTGDC_2005__46_3))
 
-* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science archive Volume 15 Issue 6, December 2005  Pages 1089 - 1149. ([pdf](https://www.mittag-leffler.se/preprints/files/IML-0001-44.pdf))
+* {#Maietti05a} [[Maria Maietti]], _Reflection Into Models of Finite Decidable FP-sketches in an Arithmetic Universe_ , ENTCS **122** (2005) pp.105-126.
 
-* {#Maietti10} [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_ , Theory and Applications of Categories, Vol. 24, 2010, No. 3, pp 39-83. ([TAC](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
+* {#Maietti05} [[Maria Maietti]], _Modular correspondence between dependent type theories and categories including pretopoi and topoi_, Mathematical Structures in Computer Science **15**  no.6 (2005) pp.1089-1149. ([draft](https://www.mittag-leffler.se/preprints/files/IML-0001-44.pdf))
+
+* {#Maietti10} [[Maria Maietti]], _Joyal's arithmetic universe as list-arithmetic pretopos_ , TAC **24** no.3 (2010) pp.39-83. ([abstract](http://www.tac.mta.ca/tac/volumes/24/3/24-03abs.html))
 
 * {#MaettiVickers12} [[Maria Maietti|M. E. Maietti]], [[Steve Vickers|S. Vickers]], _An induction principle for consequence in arithmetic universes_ , JPAA **216** (2012) pp.2049-2067. ([draft](http://www.math.unipd.it/~maietti/papers/aumv12.pdf))
 
-* [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_ , Electronic Notes in Theoretical Computer Science **122** (2005) pp.247&#8211;296. 
+* [[Paul Taylor]], _Inside Every Model of Abstract Stone Duality Lies an Arithmetic Universe_ , ENTCS **122** (2005) pp.247&#8211;296. 
+
+* {#Vickers16} [[Steve Vickers|S. Vickers]], _Sketches for arithmetic universes_ , arXiv:1608.0159 (2016). ([link](http://arxiv.org/abs/1608.01559))
 
 [[!redirects arithmetic pretoposes]]
-
 [[!redirects list-arithmetic pretopos]]
 [[!redirects list-arithmetic pretoposes]]
 
