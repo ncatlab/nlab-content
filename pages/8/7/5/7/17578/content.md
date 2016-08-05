@@ -71,7 +71,15 @@ Let $\mathcal{E}$ be a [[Boolean topos|Boolean]] [[Grothendieck topos]] with [[p
 +-- {: .proof}
 ###### Proof
 See ([Johnstone, cor. C3.5.2](#Johnstone))
+=--
 
++-- {: .num_prop}
+###### Proposition
+Atomic Grothendieck toposes $Sh(\mathcal{C}, J_{at})$ for $(\mathcal{C}, J_{at})$ an [[atomic site]] are precisely the [[double negation|double negation subtoposes]] $Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})$ for a [[De Morgan topos|De Morgan]] [[presheaf topos]] $Set^{\mathcal{C}^{op}}$. 
+=--
++-- {: .proof}
+###### Proof
+For the argument see at [[atomic site]].
 =--
 
 ### Decomposition of atomic toposes
@@ -90,6 +98,8 @@ An example of a connected atomic topos without a [[point of a topos]] is given i
 ## Related concepts
 
 * [[atomic geometric morphism]]
+
+* [[atomic site]]
 
 ## References
 
