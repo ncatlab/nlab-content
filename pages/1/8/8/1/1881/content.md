@@ -111,16 +111,18 @@ In [[topos theory]] the equivalent of the above theorem \ref{monoid_in_monoidal}
 
 +-- {: .num_prop #free_monoids_in_topos}
 ###### Proposition
-Let $\mathcal{E}$ be a topos and $\mathbf{mon}(\mathcal{E})$ its category of internal monoids. Then $\mathcal{E}$ has a NNO precisely if the forgetful functor $U:\mathbf{mon}(\mathcal{E})\to \mathcal{E}$ has a left adjoint.
+Let $\mathcal{S}$ be a topos and $\mathbf{mon}(\mathcal{S})$ its category of internal monoids. Then $\mathcal{S}$ has a NNO precisely if the forgetful functor $U:\mathbf{mon}(\mathcal{S})\to \mathcal{S}$ has a left adjoint.
 =--
 
 For a proof see Johnstone ([1977](#JT77),p.190).
 
-The existence of a natural number object is in turn crucial for the existence of [[classifying topos|classifying toposes]] over $\mathcal{E}$ due to a result by [[Andreas Blass|A. Blass]].
+Furthermore then it is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
 
-So in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] often hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that [[classifying topos|classifying toposes]] for [[geometric theories]] over $\mathcal{S}$ exist precisely if $\mathcal{S}$ has a NNO.
 
-Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ free [[graphic monoids]] exist.
+From a different perspective then, in a topos the existence of free objects over various gadgets like e.g. [[algebraic theory|algebraic theories]] or [[geometric theory|geometric theories]] often hinge on the existence of free monoids, the intuition being that the free monoids permit to construct a free model _syntactically_ by providing for the (syntactic) building blocks needed for this process.
+
+Notice that algebraic theories can nevertheless have free algebras even if the ambient topos lacks a NNO. This may happen for algebraic theories that have the property that the free algebra on a finite set of generators has a finite carrier e.g. in the topos $FinSet$ of finite sets [[graphic category|free graphic monoids]] exist.
 
 ## Stacks and queues
 
@@ -156,6 +158,8 @@ What are the diagrams for this?  I seem to recall that we need a [[distributive 
 ## References
 
 * {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
+
+* {#Blass} [[Andreas Blass]], _Classifying topoi and the axiom of infinity_ , Algebra Universalis **26** (1989) pp.341-345.
 
 * {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
