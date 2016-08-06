@@ -19,9 +19,9 @@
 
 ## Idea
 
-Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set]]s.  
+Recall that a [[topos]] is a [[category]] that behaves likes the category [[Set]] of [[set|sets]].  
 
-A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number]]s does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]].
+A **natural numbers object** (NNO) in a topos is an [[object]] that behaves in that topos like the set $\mathbb{N}$ of [[natural number|natural numbers]] does in [[Set]]; thus it provides a formulation of the "axiom of infinity" in structural [[set theory]] (such as [[ETCS]]).  The definition is due to [[William Lawvere]] ([1963](#Law63)).
 
 
 ## Definition
@@ -60,7 +60,6 @@ Equivalently, it is an initial [[algebra for an endo-profunctor|algebra for the 
 By the universal property, the natural numbers object is unique up to [[isomorphism]].
 
 
-
 ### In a general category with finite products
 {#withparams}
 
@@ -81,6 +80,7 @@ A & \stackrel{\langle z \circ !, 1_A\rangle}{\to} & N \times A & \stackrel{s \ti
 
 The functions which are constructable out of the structure of a category with finite products and such a "parametrized NNO" are precisely the [[partial recursive function|primitive recursive]] ones. Specifically, the unique structure-preserving functor from the free such category $F$ into [[Set]] yields a bijection between $Hom_F(1, \mathbb{N})$ and the actual natural numbers, as well as surjections from $Hom_F(\mathbb{N}^m, \mathbb{N})$ onto the primitive recursive functions of arity $m$ for each finite $m$. With cartesian closure, however, this identification no longer holds, since non-primitive recursive functions (such as the [[partial recursive function|Ackermann function]]) become definable as well.
 
+In this context an important class is the class of [[pretopos|pretoposes]] with a parametrized NNO - the so called [[arithmetic pretopos|arithmetic pretoposes]].
 
 ### In type theory
 
@@ -160,9 +160,11 @@ so that, putting $y = 0: 1 \to N'$, we conclude that $x \in N \Rightarrow x \in 
 A slightly alternative proof of sufficiency uses the theory of well-founded coalgebras, as given [here](http://ncatlab.org/toddtrimble/published/Initial+algebras+and+terminal+coalgebras). If $N$ is a fixpoint of the functor $F(X) = 1+X$, regarded as an $F$-[[coalgebra for an endofunctor|coalgebra]], then the internal union of well-founded subcoalgebras of $N$ is a natural numbers object $\mathbb{N}$. Then the subobject $\mathbb{N} \hookrightarrow N$ can also be regarded as a subalgebra; by the lemma, it is all of $N$. Thus $N$ is a natural numbers object. 
 =--   
 
-## Free monoids in a topos
+## Free constructions in a topos
 
-In [[topos theory]] it is a theorem is due to C. J. Mikkelsen that the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free monoid|free monoids]] in $\mathcal{S}$:
+In [[topos theory]] the existence of a natural numbers object (NNO) has a couple of far-reaching consequences. 
+
+Firstly, it is a theorem is due to C. J. Mikkelsen that the existence of a NNO in a topos $\mathcal{S}$ is equivalent to the existence of [[free monoid|free monoids]] in $\mathcal{S}$:
 
 +-- {: .num_prop #free_monoids_in_topos}
 ###### Proposition
@@ -171,7 +173,7 @@ Let $\mathcal{S}$ be a topos and $\mathbf{mon}(\mathcal{S})$ its category of int
 
 For a proof see Johnstone ([1977](#JT77),p.190).
 
-Furthermore then it is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
+Secondly, it then is a theorem due to [[Andreas Blass]] ([1989](#Blass)) that $\mathcal{S}$ has a NNO precisely if $\mathcal{S}$ has an [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$.
 
 A consequence of this, discussed in sec. B4.2 of (Johnstone 2002,I p.431), is that [[classifying topos|classifying toposes]] for [[geometric theories]] over $\mathcal{S}$ exist precisely if $\mathcal{S}$ has a NNO.
 
@@ -257,7 +259,7 @@ For a [[real numbers]] object, rather more care is needed; see [[real numbers ob
 
 ## References
 
-* [[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis Columbia University 1963. (Published with an author's comment as
+* {#Law63}[[F. William Lawvere]], _[[Functorial Semantics of Algebraic Theories]]_ , Ph.D. thesis Columbia University 1963. (Published with an author's comment as
 TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints/articles/5/tr5abs.html))
 
 * {#Ben91}[[Jean Bénabou]], _Some Remarks on Free Monoids in a Topos_ , pp.20-29 in LNM **1488** Springer Heidelberg 1991.
@@ -266,8 +268,8 @@ TAC Reprint no.5 (2004) pp 1-121. ([abstract](http://www.tac.mta.ca/tac/reprints
 
 * {#JT77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014, chap. 6)
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
- {#Johnstone}
+* {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]]_ , Oxford UP 2002.
+ 
 
 
 [[!redirects natural numbers object]]
