@@ -25,7 +25,7 @@ A [[geometric morphism]] $f : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\
 +-- {: .num_defn}
 ###### Definition
 
-A [[sheaf topos]] is called **atomic** if its [[global section]] geometric morphism is atomic.
+A [[sheaf topos]] $\mathcal{E}$ is called **atomic** if its [[global section]] geometric morphism is atomic, or in other words, if the [[constant sheaf|constant sheaf functor]] $\Delta\colon Set\to\mathcal{E}$ is logical.
 
 Generally, a topos over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ is called an [[atomic topos]] if $\Gamma$ is atomic.
 
@@ -34,7 +34,7 @@ Generally, a topos over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ 
 +-- {: .num_note}
 ###### Note
 
-As shown in prop. \ref{AtomicMeansLocallyConnected} below, every atomic morphism $f : \mathcal{E} \to \mathcal{S}$ is also a [[locally connected geometric morphism]]. The connected objects $A \in \mathcal{E}, f_! A \simeq *$ are called the **atoms** of $\mathcal{E}$.
+As shown in prop. \ref{AtomicMeansLocallyConnected} below, every atomic morphism $f : \mathcal{E} \to \mathcal{S}$ is also a [[locally connected geometric morphism]]. The connected objects $A \in \mathcal{E}$, $f_! A \simeq *$ are called the **atoms** of $\mathcal{E}$.
 
 =--
 
@@ -95,6 +95,8 @@ Every [[etale geometric morphism]] is atomic.
 ## Related concepts
 
  * [[atomic topos]]
+
+ * [[atomic site]]
 
 ## References
 
