@@ -68,7 +68,6 @@ where $'$ indicates the usual derivative on the real line, so that $\dot{c}(t)$ 
 
 ### Geometric definition
 
-
 One can also *define* [[tangent vectors]] at $a \in X$ to be [[equivalence classes]] of smooth curves $c : \mathbb{R} \to X$ such that $c(0) = a$, where two curves are taken to be equivalent if their first [[derivative]] coincides at $0$.
 
  (Of course, $0$ could be replaced by any argument $t$ in this definition.)  
@@ -77,11 +76,38 @@ A particularly important case is when $c$ is a level curve in some system of loc
 $$ v = \sum_i v^i\, \partial_i .$$
 This fact can also be turned into a definition of tanget vector.
 
-
 (Yet another possible definition comes from the duality with the [[cotangent bundle]]; of course, then you have to pick a definition of *that* that doesn\'t use duality.)
 
-
 Note that $\partial/\partial{f}$ doesn\'t make sense for an arbitrary function $f$; it only makes sense when $f$ is given as one component $x^i$ of a coordinate system.  That is, if $(f,g)$ and $(f,h)$ are both coordinate systems, then the two meanings of $\partial/\partial{f}$ need not be the same, because constant $g$ and constant $h$ aren\'t the same condition.  However, we can use the more complicated notation $(\partial/\partial{f})_g$ or $(\partial/\partial{f})_h$; this is common when $X$ is a [[phase space]] in [[thermodynamics]].  Of course, if a coordinate system is fixed by convention, then there is no ambiguity.
+
+### Definition by gluing construction
+
+If $M$ is a smooth $n$-manifold, then we know the tangent space at each point is isomorphic to $\mathbb{R}^n$. We can exploit this fact to construct the tangent space by gluing many copies of $\mathbb{R}^n$ together. However, one drawback is that it is not immediately obvious that the result is independent of the atlas chosen.
+
+Let $M$ be a smooth $n$-manifold defined by an atlas $(U_\alpha, \phi_\alpha)$. Then we may define its tangent bundle $T M$ by a gluing construction in $Top$, taking $T M$ to be the quotient of the disjoint sum
+
+$$\sum_\alpha U_\alpha \times \mathbb{R}^n$$
+
+obtained by dividing by the equivalence relation
+
+$$(p \in U_\alpha, v) \sim (p \in U_\beta, g_{\alpha\beta}(p) v)$$
+
+where $p \in U_\alpha \cap U_\beta$, and $g_{\alpha\beta}(p) \in GL(\mathbb{R}^n)$ is the result of differentiating the transition function $\phi_{\alpha\beta}$ at the point $\phi_\alpha(p)$. We thus obtain a covering $U_\alpha \times \mathbb{R}^n$ of $T M$, and these form coordinate charts of a smooth manifold structure on $T M$ in a more or less evident way, and the projection map is given by
+$$
+  p: (x, v) \mapsto x.
+$$
+
+In the above construction, the charts $\phi_\alpha$ were not used directly; Instead, the transition maps
+
+$$g_{\alpha \beta}: U_\alpha \cap U_\beta \to GL(\mathbb{R}^n)$$
+
+are what were needed to construct the tangent bundle. These maps satisfy &#268;ech 1-cocycle relations
+
+$$g_{\alpha \gamma} = g_{\beta\gamma} \circ g_{\alpha\beta}: U_{\alpha} \cap U_\beta \cap U_\gamma \to GL(\mathbb{R}^n)$$
+
+$$\qquad g_{\alpha\alpha} = 1: U_{\alpha} \to GL(\mathbb{R}^n)$$
+
+In general, given any collection of transition maps that satisfy these cocycle conditions, we can construct a [[vector bundle]] in the same manner (which may be different from the tangent bundle).
 
 ## Definition in synthetic differential geometry {#InSDG}
 
