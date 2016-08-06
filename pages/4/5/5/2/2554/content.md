@@ -1,5 +1,4 @@
 
-
 ## Background
 
 * [[homotopy theory]]
