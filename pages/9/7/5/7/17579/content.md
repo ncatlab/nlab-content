@@ -85,11 +85,11 @@ The sheaves of atomic sheaf toposes $Sh(\mathcal{C}, J_{at})$ are easy to descri
 
 +-- {: .num_prop}
 ###### Proposition
-Let $(\mathcal{C}, J_{at})$ be an atomic site. A presheaf $P\in Set^{\mathcal{C}^{op}}$ is a sheaf for $J_{at}$ iff for any morphism $f:D\to C$ and any $y\in P(D)$, if $y\cdot g=y\cdot h$ for all diagrams
+Let $(\mathcal{C}, J_{at})$ be an atomic site. A presheaf $P\in Set^{\mathcal{C}^{op}}$ is a sheaf for $J_{at}$ iff for any morphism $f:D\to C$ and any $y\in P(D)$ , if $P(g)(y)=P(h)(y)$ for all diagrams
 $$
 E\overset{g}{\underset{h}{\rightrightarrows}} D\overset{f}{\to} C
 $$
-with $f\cdot g=f\cdot h$, then $y=x\cdot f$ for a unique $x\in P(C)$.
+with $f\cdot g=f\cdot h$ , then $y=P(f)(x)$ for a unique $x\in P(C)$.
 =--
 
 For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
