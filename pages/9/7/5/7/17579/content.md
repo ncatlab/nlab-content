@@ -116,6 +116,44 @@ Let $(\mathcal{C}, J_{at})$ be an atomic site. Then $Sh(\mathcal{C}, J_{at})$ is
 The main idea is to consider the full subcategory $\mathcal{C}'$ on those objects $U$ with $\emptyset\notin J_{at}(U)$ together with the [[dense sub-site|induced topology]] $J'_{at}=J_{at}|_{\mathcal{C}'}$. Then one shows that $\mathcal{C}'$ satisfies the Ore condition and concludes by the [[comparison lemma]] that $Sh(\mathcal{C}', J'_{at})\simeq Sh(\mathcal{C}, J_{at})$. For the details see Caramello ([2012](#Ca12), prop.1.4).
 =--
 
++-- {: .num_example}
+###### Example
+
+Consider the category $\mathcal{C}$ on the 'walking co-span' $A\overset{f}{\rightarrow} C\overset{g}{\leftarrow} B$. $\mathcal{C}$  does not satisfy the [[Ore condition]]. The atomic topology $J_{at}$ is given by
+
+$$
+J_{at}(A)=\{\{id_A\},\emptyset\} \qquad J_{at}(B)=\{\{id_B\},\emptyset\} 
+$$
+$$
+J_{at}(C)=\{\{ id_C, f,g\},\{f \}, \{ g \},\{f,g\},\emptyset\} \quad .
+$$
+
+Here $\emptyset\in J_{at}(A)$ , respectively $\emptyset\in J_{at}(B)$, due to the stability axiom applied to $f^\ast(\{g\})=\emptyset$ , respectively to $g^\ast(\{f\})=\emptyset$ . Whereas $\emptyset\in J_{at}({C})$ by the transitivity axiom applied to $\{f\}\in J_{at}(C)$ and the sieve $\emptyset$ since $f^{\ast}(\emptyset)=\emptyset\in J_{at}(A)$.
+
+Accordingly the subcategory $\mathcal{C}'$ is empty and $Sh(\mathcal{C},J_{at})\simeq 1$ is degenerate. In particular,  $Sh(\mathcal{C},J_{at})$ is not equivalent to $Sh(\mathcal{C},J_d)\simeq Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})\simeq Set\times Set$. So we see that the atomic topology on $\mathcal{C}$ is distinct from the [[dense topology]]. For completeness we describe the latter:
+
+$$
+J_{d}(A)=\{\{id_A\}\} \qquad J_{d}(B)=\{\{id_B\}\}
+$$
+$$
+J_{d}(C)=\{\{id_C, f,g\},\{f,g\}\} \quad .
+$$
+
+Further details on $Set^{\mathcal{C}^{op}}$, the topos of hypergraphs, may be found at [[hypergraph]].
+=--
+
+In the example, we observed that dense and the atomic topology need not coincide for categories not satisfying the [[Ore condition]].
+In fact more can be said here:
+
++-- {: .num_prop}
+###### Proposition
+Let $\mathcal{C}$ be a [[category]]. Then the atomic topology $J_{at}$ coincides with the dense topology $J_d$ precisely when $\mathcal{C}$ satisfies the [[Ore condition]].
+=--
+
++-- {: .proof}
+###### Proof
+From prop. \ref{atomic_ore} follows that the atomic topology $J_{at}$ will contain empty sieves precisely if $\mathcal{C}$ does not satisfy the Ore condition. But in the proof of prop. \ref{atomic_dense} we showed that the sieves of the dense topology $J_d$ are never empty regardless of the Ore condition.
+=--
 
 ## Related entries
 
