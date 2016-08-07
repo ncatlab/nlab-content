@@ -327,3 +327,4 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 [[!redirects pointwise derivative]]
 [[!redirects pointwise derivatives]]
+[[!redirects differentiability]]
