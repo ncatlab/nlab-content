@@ -38,7 +38,12 @@ Recall that a category $\mathcal{C}$ satisfies the [[Ore condition]] if every di
 Let $\mathcal{C}$ be a [[category]] satisfying the [[Ore condition]]. Then the dense topology $J_d$ coincides with the atomic topology $J_{at}$. 
 =--
 
-For the (easy) proof see at [[atomic site]].
+For the (easy) argument see at [[atomic site]]. One direction relies on the following straight forward observation:
+
++-- {: .num_prop #atomic_dense}
+###### Proposition
+If $S\in J_d$ then $S\neq \emptyset$ . $\qed$
+=--
 
 +-- {: .num_prop}
 ###### Proposition
