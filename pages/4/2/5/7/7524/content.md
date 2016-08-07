@@ -62,16 +62,15 @@ where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory o
 
 ## References
 
-* T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_, Journal of Combinatorial Theory (B) 18, 155-163 (1975).
-
 * W. D&#246;rfler and D. A. Waller, _A category-theoretical approach to hypergraphs_, Archiv der Mathematik, Volume 34, Number 1, (1980) 185-192, DOI: 10.1007/BF01224952
 
-* {#SchmidtStroehlein} Gunther Schmidt and Thomas Str&#246;hlein (1993), _Relations and Graphs: Discrete Mathematics for Computer Scientists_, EATCS Monographs on Theoretical Computer Science, Springer.
+* W. Grilliette, _A Functorial Link between Hypergraphs and Quivers_ , Electronic J. of Combinatorics **22** (2015). ([arXiv:1608:00058](http://arxiv.org/abs/1608.00058))
 
 * {#Law86}[[F. William Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](http://www.tac.mta.ca/tac/reprints/articles/9/tr9.pdf))
 
 * {#Law89}[[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
+* T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_, Journal of Combinatorial Theory (B) 18, 155-163 (1975).
+
 
 [[!redirects hypergraphs]]
-
