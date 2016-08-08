@@ -24,7 +24,14 @@ The _covering lifting property_ on a [[functor]] between [[sites]] is a sufficie
 
 ## Definition
 
-A [[functor]] $F \colon \mathcal{S}_1 \to \mathcal{S}_2$ between [[sites]] is said to have the _covering lifting property_ ([MacLane-Moerdijk, p. 410](#MacLaneMoerdijk)) if for every obect $X \in \mathcal{S}_1$ and every cover $Cov_2$ of $F(X)$ there is a cover $Cov_1$ of $X$ such that $F(Cov_1) \subset Cov_2$, hence if every cover of the image of any $X$ under $F$  is refined by the image of a cover of $X$.
+Let $C$ and $D$ be [[sites]].
+
++-- {: .num_defn #clp}
+###### Definition
+
+A [[functor]] $f \colon C \to D$ is said to have the _covering lifting property_ ([MacLane-Moerdijk, p. 410](#MacLaneMoerdijk)) if for every object $U \in C$ and every [[cover]] $\{q_i : V_i \to f(U)\}$ of $f(U) \in D$, there is a cover $\{p_j : U_j \to U\}$ of $U \in C$ such that $\{f(p_j) : f(U_j) \to f(U)\}$ refines $\{q_i : V_i \to f(U)\}$ (i.e., if every cover of the image of any $U$ under $f$ is refined by the image of a cover of $U$).
+
+=--
 
 ## Properties
 
