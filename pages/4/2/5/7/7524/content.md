@@ -17,7 +17,7 @@
 
 In an ordinary undirected [[graph]], each edge $e$ links an [[unordered pair]] of vertices $x$ and $y$ (perhaps allowing for the possibility that $x = y$, as in the case of a loop).  Hypergraphs generalize this, allowing a "hyperedge" to link any set of "hypervertices".  Abstracting everything away but the _incidence_ relation between hypervertices and hyperedges, a hypergraph can be modelled as an arbitrary heterogenous [[relation]], or more generally as a [[span]].
 
-## Categories of hypergraphs
+## Categories of hypergraphs: Definition
 
 As with "[[graph]]", the word "hypergraph" does not have an entirely standardized meaning.  We take as our starting point [(Schmidt & Str&#246;hlein)](#SchmidtStroehlein), who define hypergraphs as heterogenous relations (usually presented as boolean-valued matrices) and give an appropriate notion of morphism.  We call these "simple" hypergraphs, since they are a special case of a more general definition given below.
 
@@ -41,21 +41,21 @@ The **category of hypergraphs** $HGrph$ has objects consisting of a pair of sets
 
 Note that $HGrph$ is just the [[category of presheaves]] over the "[[walking structure|walking]] cospan" $\bullet \rightarrow \bullet \leftarrow \bullet$, and that $SimpHGrph$ is a [[full subcategory]] of $HGrph$.
 
-### Hypergraphs from a topos-theoretic perspective
+## Hypergraphs from a topos-theoretic perspective
 
-In Lawvere ([1986](#Law86) p.6, [1989](#Law89) pp.283-4) it is pointed out that $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a spatial topos since it is equivalent to the topos of sheaves on the space $X=\{a,b,c\}$ with topology $\tau=\{\emptyset,\{a\},\{b\},\{a,b\},\{a,b,c\}\}$ i.e. $X$ has two isolated points $a,b$ and another one $c$ whose only neighborhood is the whole space.
+In Lawvere ([1986](#Law86) p.6, [1989](#Law89) pp.283-4) it is pointed out that $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a spatial topos since it is equivalent to the topos of sheaves on the space $X=\{a,b,c\}$ with topology $\tau=\{\emptyset,\{a\},\{b\},\{a,b\},\{a,b,c\}\}$ i.e. $X$ has two isolated points $a,b$ and a [[focal point|focal]] one $c$ whose only neighborhood is the whole space.
 
 The [[lattice of subtoposes]] of $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ consists (besides the two obvious subtoposes) of one [[closed subtopos|closed]] and two [[open subtopos|open]] copies of $Set$, two closed copies of the [[Sierpinski topos]] complementing the open copies of $Set$ respectively and an open $Set\times Set=Sh(\{a,b\})=Sh_{\neg\neg}(Set^{\bullet\leftarrow\bullet\rightarrow\bullet})$ complementing the closed copy of $Set$. In particular, $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is a [[scattered topos]].
 
 The complementary open-closed pairs of the subtopos lattice correspond precisely to analyses of $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ by [[Artin gluing]].
 
-For instance, take the functor $\sqcap\colon Set\times Set\to Set\qquad (X,Y)\mapsto X\times  Y$. $\sqcap$ is left exact since it forms an adjoint string with the [[diagonal functor]] and the coproduct functor: $\sqcup\dashv \triangle\dashv\sqcap$ .
+For instance, take the product functor $\sqcap\colon Set\times Set\to Set$ with  $(X,Y)\mapsto X\times  Y$. $\sqcap$ is left exact since it forms an adjoint string with the [[diagonal functor]] and the coproduct functor: $\sqcup\dashv \triangle\dashv\sqcap$ .
 
 Then $\mathbf{Gl}(\sqcap)$ has objects $((X,Y),Z, u\colon Z\to X\times Y)$ where $(X,Y)\in Set\times Set$ and $Z\in Set$ and $u$ is a morphism in $Set$. 
 
 The open inclusion of $Set\times Set$ into $\mathbf{Gl}(\sqcap)$ is given by the [[geometric morphism]]
 
-$$ i_\ast \colon Set\times Set\to \mathbf{Gl}(\sqcap) \qquad X\mapsto ((X,Y),X\times Y,id_{X\times Y})$$
+$$ i_\ast \colon Set\times Set\to \mathbf{Gl}(\sqcap) \qquad (X,Y)\mapsto ((X,Y),X\times Y,id_{X\times Y})$$
 
 $$ i^\ast\colon \mathbf{Gl}(\sqcap)\to Set\times Set \qquad ((X,Y),Z,u)\mapsto (X,Y)$$
 
@@ -70,6 +70,16 @@ $$ j^\ast\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto Z\quad .$$
 Since $\triangle\dashv\sqcap$ the closed inclusion is essential:
 
 $$ j_!\colon Set \to \mathbf{Gl}(\sqcap)\qquad X\mapsto ((X,X), X, \triangle\colon X\to X\times X)\quad .$$
+
+Since $\sqcup\dashv \triangle$ there is a somewhat surprising further left adjoint:
+
+$$ j^\circ\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto X\sqcup Y\quad .$$
+
+In particular, we get an adjoint string:
+
+$$j^\circ\dashv j_!\dashv j^\ast \dashv j_\ast \colon Set\to \mathbb{Gl}(\sqcap)$$
+
+with $j_!$, $j_\ast$ [[fully faithful]], exhibiting $\mathbf{Gl}(\sqcap)$ almost as a [[cohesive topos]] over $Set$. Of course, since $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is spatial it is not expected to satisfy all of Lawvere's axioms. In particular, the [[Nullstellensatz]] is violated since neither of the copies of $Set$ is dense in $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$.
 
 ## Hypergraphs as 2-colored graphs
 
@@ -88,11 +98,14 @@ where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory o
 ## Related concepts
 
 * [[hypermap]]
+
 * [[hyperstructure]]
+
+* [[quiver]]
 
 ## References
 
-* W. D&#246;rfler and D. A. Waller, _A category-theoretical approach to hypergraphs_, Archiv der Mathematik, Volume 34, Number 1, (1980) 185-192, DOI: 10.1007/BF01224952
+* W. D&#246;rfler and D. A. Waller, _A category-theoretical approach to hypergraphs_, Archiv der Mathematik **34** no.1 (1980) pp.185-192. DOI: 10.1007/BF01224952
 
 * W. Grilliette, _A Functorial Link between Hypergraphs and Quivers_ , Electronic J. of Combinatorics **22** (2015). ([arXiv:1608:00058](http://arxiv.org/abs/1608.00058))
 
@@ -100,7 +113,7 @@ where $LoopGraph$ is the category of "loop graphs", i.e., the full subcategory o
 
 * {#Law89}[[F. William Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_, Journal of Combinatorial Theory (B) 18, 155-163 (1975).
+* T. R. S. Walsh, _Hypermaps Versus Bipartite Maps_,  Journal of Combinatorial Theory (B) **18** (1975) pp.155-163.
 
 
 [[!redirects hypergraphs]]
