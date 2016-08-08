@@ -83,7 +83,7 @@ Atomic Grothendieck toposes i.e. toposes (equivalent to) $Sh(\mathcal{C}, J_{at}
 
 The sheaves of atomic sheaf toposes $Sh(\mathcal{C}, J_{at})$ are easy to describe:
 
-+-- {: .num_prop}
++-- {: .num_prop #atomic_sheaf}
 ###### Proposition
 Let $(\mathcal{C}, J_{at})$ be an atomic site. A presheaf $P\in Set^{\mathcal{C}^{op}}$ is a sheaf for $J_{at}$ iff for any morphism $f:D\to C$ and any $y\in P(D)$ , if $P(g)(y)=P(h)(y)$ for all diagrams
 $$
