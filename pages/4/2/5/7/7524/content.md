@@ -81,6 +81,12 @@ $$j^\circ\dashv j_!\dashv j^\ast \dashv j_\ast \colon Set\to \mathbb{Gl}(\sqcap)
 
 with $j_!$, $j_\ast$ [[fully faithful]], exhibiting $\mathbf{Gl}(\sqcap)$ almost as a [[cohesive topos]] over $Set$. Of course, since $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is spatial it is not expected to satisfy all of Lawvere's axioms. In particular, the [[Nullstellensatz]] is violated since neither of the copies of $Set$ is dense in $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$.
 
+Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the representable functor $Hom_Q(-,A)$ giving the basic figure type of an arrow $K_2=\bullet\to\bullet$. The [[category of elements]] $\int_Q K_2$ is just the category $\bullet\rightarrow \bullet\leftarrow\bullet$ underlying the hypergraphs. Then the following equivalence exhibits $Set^{Q^{op}}$ as an [[étendue|étendue topos]] using a general formula for [[slice topos|slices]] of [[presheaf topos|presheaf toposes]]:
+
+$$Set^{Q^{op}}/K_2\simeq Set^{(\int_Q K_2)^{op}}\simeq Set^{\bullet\leftarrow\bullet\rightarrow\bullet}\quad .$$
+
+This equivalence will be further explained in terms of graph colorings in the next section.
+
 ## Hypergraphs as 2-colored graphs
 
 There is a classical equivalence between hypergraphs and [[vertex coloring|2-colored]] (hence [[bipartite graph|bipartite]]) graphs.  Given a hypergraph $H$, define a graph $G(H)$ whose vertex set is the [[disjoint union]] of the hypervertices and the hyperedges of $H$, and with an edge $x_v \sim x_e$ in $G(H)$ whenever the corresponding pair $(v,e)$ are incident in $H$ (creating multiple edges in the case of multiple incidence).  By coloring vertices corresponding to hypervertices in black and vertices corresponding to hyperedges in white, we satisfy the requirement that no pair of vertices sharing an edge have the same color.  Conversely, this construction is clearly reversible: any 2-colored graph $G$ determines a hypergraph $H(G)$ by interpreting black vertices as hypervertices and white vertices as hyperedges that connect all of their (black vertex) neighbors.
