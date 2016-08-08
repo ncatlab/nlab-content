@@ -102,8 +102,8 @@ An argument due to ([Sen 96](#Sen96), [Sen 97a](#Sen97a)) says that the F-theory
 The degeneration locus of the elliptic fibration -- where the [[discriminant]] $\Delta$ vanishes and its fibers are the [[nodal curve]] -- is interpreted as that of [[D7-branes]] and [[O-planes|O7-planes]] ([Sen 97a, (3)](#Sen97a), [Blumenhagen 10, (11)](#Blumenhagen10)), exhibiting [[gauge enhancement]] [Sen 97b](#Sen97b) see [below](#SingularLocusAndD7Branes).
 
 
-Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.
-
+Reasoning like this might suggest that in generalization to how type II [[orientifolds]] involve $\mathbb{Z}_2$-[[equivariant]] [[K-theory]] (namely [[KR-theory]]), so F-theory should involve $SL_2(\mathbb{Z})$-equivariant [[elliptic cohomology]]. This was conjectured in ([Kriz-Sati 05, p. 3, p.17, 18](#KrizSati05)). For more on this see at _[[modular equivariant elliptic cohomology]]_.Also,the supersymmetry of compactification of the F theory on a flat background corresponds to type IIB supersymmetry if it's spacetime signature is (10,2).
+We will have a number of supercharges used for dimensional reduction,or a cascade of reductions.  
 ### Relation to heterotic string theory
 
 The [[duality between F-theory and heterotic string theory]]:A subclass of K3 manifolds elliptically fibered.
