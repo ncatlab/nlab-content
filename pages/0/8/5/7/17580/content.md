@@ -54,11 +54,17 @@ $$
 
 * A [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ is a [[De Morgan topos]] precisely if $\mathcal{C}$ satisfies the Ore condition (cf. [[De Morgan topos]]).
 
+## Remark
+
+A category $\mathcal{C}$ satisfies the [[amalgamation property]] precisely if ${\mathcal{C}^{op}}$ satifies the Ore condition. Since the former is an important property in [[model theory]], the De Morgan property is via the Ore condition dually bound to play a similar role.
+
 ## Related entries
 
 * [[atomic site]]
 
 * [[De Morgan topos]]
+
+* [[amalgamation property]]
 
 ## Reference
 
