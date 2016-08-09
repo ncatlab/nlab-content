@@ -22,7 +22,7 @@ Being a [[Grothendieck fibration]] is a [[property-like structure]] on a [[funct
 
 Let $p\colon E\to B$ be a functor.  A **cleavage** of $p$ is a choice, for each $e\in E$ and $u\colon b\to p(e)$ in $B$, of a single [[cartesian arrow]] $f:e'\to e$ such that $p(f) = u$.  Evidently if there exists a cleavage for $p$, then $p$ is a [[Grothendieck fibration]].  If $p$ is equipped with a cleavage, it said to be **cloven**.  Conversely, if we assume the [[axiom of choice]], then every fibered category has a cleavage.
 
-If the cartesian arrow $f$ is an identity whenever $u$ is, the cleavage is said to be **normal**, and if each composite $f_2 f_1$ is the specified lifting of $u_2 u_1$, the cleavage is said to be a **splitting**.  Any cleavage can be modified to become normal, but not neccesarily to become split.  (Any fibration is, however, *equivalent* to a split fibration.)
+If the cartesian arrow $f$ is an identity whenever $u$ is, the cleavage is said to be **normal**, and if each composite $f_2 f_1$ is the specified lifting of $u_2 u_1$, the cleavage is said to be a **splitting**.  Any cleavage can be modified to become normal, but not necessarily to become split.  (Any fibration is, however, *equivalent* to a split fibration.)
 
 ## Cloven fibrations vs pseudofunctors
 
