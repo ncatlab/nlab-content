@@ -313,6 +313,8 @@ and this find the usual expression of the [[curvature]] of a connection as the s
 
 * [[flat section]]
 
+* [[exterior covariant derivative]]
+
 [[!include gauge field - table]]
 
 
