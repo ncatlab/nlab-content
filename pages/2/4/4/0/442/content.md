@@ -370,19 +370,25 @@ The [[limit]]s and the [[filtered colimit]]s in $T Alg$ are computed pointwise.
 
 =--
 
+## An open problem
+
+A [[Higman's embedding theorem|famous result by G. Higman]] in group theory says that a finitely generated group can be embedded in a finitely presented group precisely if it has a presentation whose defining relations are a recursively enumerable set of words. Clearly, this question can be asked for every similar algebraic theory and it has been in fact conjectured by the group theorist W. Boone that the same result holds more generally for every single-sorted algebraic theory.
+
+It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone conjecture]] should by settled by the category theory community.
 
 ## Related concepts
 
 * [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
 
-  * [[globular theory]]
+* [[globular theory]]
 
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
 
-* [Voevodsky](#Voevodsky) proves an equivalence between Lawvere theories and l-bijective [[C-systems]].
+* [[C-systems]]
 
+* [[Boone conjecture]]
 
 ## References
 
@@ -424,19 +430,19 @@ For a comparison with the concept of monads see
 
 * [[Eugenia Cheng]], _Distributive laws for Lawvere theories_ , arXiv:1112.3076 (2011). ([abstract](http://arxiv.org/abs/1112.3076))
 
+Voevodsky proves an equivalence between Lawvere theories and l-bijective [[C-systems]] here:
+
+* [[Vladimir Voevodsky]] {#Voevodsky},  Lawvere theories and C-systems, arXiv:1512.08104 (2015). ([abstract](http://arxiv.org/abs/1512.08104))
+
 Other references are
 
-* M. Jibladze, T. Pirashvili, _Cohomolgy of Algebraic Theories_ , J. Algebra **137** no.2 (1991) pp.253&#8211;296.
+* M. Jibladze, T. Pirashvili, _Cohomology of Algebraic Theories_ , J. Algebra **137** no.2 (1991) pp.253&#8211;296.
 
 * [[Steve Lack]], [[Jiri Rosicky]], _Notions of Lawvere theory_ , arXiv:0810.2578. ([abstract](http://arxiv.org/abs/0810.2578))
 
 * [[Enrico Vitale]], _Localization of Algebraic Categories_ , JPAA **108** (1996) pp.315-320.
 
 * [[Enrico Vitale]], _Localization of Algebraic Categories 2_ , JPAA **133** (1998) pp.317-326.
-
-Voevodsky's work:
-
-* [[Vladimir Voevodsky]] {#Voevodsky},  Lawvere theories and C-systems, 2015 [arxiv](http://arxiv.org/abs/1512.08104)
 
 
 [[!redirects lawvere theory]]
