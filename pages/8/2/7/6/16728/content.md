@@ -19,7 +19,9 @@
 
 ## Idea
 
-The **dense topology** is a [[Grothendieck topology]] on a small category $\mathcal{C}$ whose [[sieves]] generalize the idea of a 'downward dense' [[poset]]. The dense topology is important for sheaf-theoretic approaches to [[forcing]].
+The **dense topology** is a [[Grothendieck topology]] $J_d$ on a small category $\mathcal{C}$ whose [[sieves]] generalize the idea of a 'downward dense' [[poset]]. The corresponding sheaf topos $Sh(\mathcal{C},J_d)$ yields the [[double negation|double negation subtopos]] of the [[presheaf topos]] on $\mathcal{C}$.
+
+The dense topology is important for sheaf-theoretic approaches to [[forcing|forcing in set theory]]  (cf. [[continuum hypothesis]]).
 
 There is also a closely related but more general concept of a _dense_ [[Lawvere-Tierney topology]] which is discussed at [[dense subtopos]].
 
@@ -67,7 +69,8 @@ The next result warrants the importance of the dense topology:
 
 +-- {: .num_prop}
 ###### Proposition
-For every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ corresponding to the dense topology on $\mathcal{C}$ is the [[double negation|double negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$.
+For every small category $\mathcal{C}$, the [[Lawvere-Tierney topology]] on the [[presheaf topos]] $Set^{\mathcal{C}^{op}}$ corresponding to the dense topology on $\mathcal{C}$ is the [[double negation|double negation topology]] $\neg\neg$ on $Set^{\mathcal{C}^{op}}$ . In other words, 
+$Sh(\mathcal{C},J_d)\simeq Sh_{\neg\neg}(Set^{\mathcal{C}^{op}})$ .
 =--
 
 This appears as ([MacLaneMoerdijk, corollary VI 5](#MacLaneMoerdijk)).
