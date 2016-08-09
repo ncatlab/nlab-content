@@ -97,7 +97,7 @@ Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^
 
 This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
-Since the [[dense topology]] coincides with the [[atomic site|atomic topology]] on $\mathcal{C}$ the preceding proposition implies that the [[double negation|double negation subtopos]] of a De Morgan presheaf $Set^{\mathcal{C}^{op}}$ is always [[atomic topos|atomic]].
+Since the [[dense topology]] coincides with the [[atomic site|atomic topology]] on $\mathcal{C}$ satisfying the Ore condition the preceding proposition implies that the [[double negation|double negation subtopos]] of a De Morgan presheaf topos $Set^{\mathcal{C}^{op}}$ is always [[atomic topos|atomic]].
 
 ### De Morganization
 
