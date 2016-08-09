@@ -1,5 +1,3 @@
-[[!redirects Exterior covariant derivative]]
-
 #Contents#
 * table of contents
 {:toc}
@@ -9,7 +7,7 @@
 ### Definition on vector bundles
 Let $p: E \to M$ be a [[vector bundle]] with a linear [[connection on a bundle|connection]] given by the [[covariant derivative]] $\nabla: \Gamma(T M) \times \Gamma(E) \to \Gamma(E)$. We let $\Omega(M, E)$ be the space of all [[differential form#twisted|differential forms with values in]] $E$. To define the exterior covariant derivative, we take the explicit formula of the [[exterior derivative]], and replace the usual [[derivative]] with the convariant derivative.
 
-+-- {: .num_defn}
++-- {: .num_defn #DerivVect}
 ###### Definition
 The **exterior covariant derivative** $d_\nabla: \Omega^p (M, E) \to \Omega^{p + 1}(M, E)$ is defined by the following formula: given a $p$-form $\Phi \in \Omega^p (M, E)$, its exterior covariant derivative is given by
 $$
@@ -88,6 +86,7 @@ $$
 is the map induced from $\mathrm{d}_\omega$ under the isomorphism
 $\Omega^k_{\rho}(P,V) \cong \Omega^k(M,P \times_{\rho}V)$.
 =--
+Note that a connection on the principal bundle $p: P \to M$ [[induced connection|induces]] a connection on the [[associated bundle|associated vector bundle]] $P \times_\rho V$. Then the exterior covariant derivative in the sense of Definition \ref{DerivVect} coincides with this exterior covariant derivative.
 
 +-- {: .num_example}
 ###### Example
