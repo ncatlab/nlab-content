@@ -212,7 +212,7 @@ Let $G$ be a finite [[group]] as above. We describe the generalizaton of the abo
      [\mathbf{B}G^{op}, C]_{loc}
    $$
 
-   be the [[functor category]] from $\mathbf{B}G$ to $C$ -- the category of objects in $C$ equipped with a $G$-[[action]] equipped with a set of generatinc (acyclic) cofibrations
+   be the [[functor category]] from $\mathbf{B}G$ to $C$ -- the category of objects in $C$ equipped with a $G$-[[action]] equipped with a set of generating (acyclic) cofibrations
 
    $$
      I_{\mathbf{B}G} := \{G/H \times i\}_{i \in I, H \subset G}
