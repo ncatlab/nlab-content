@@ -125,6 +125,11 @@ Now for any $C$, the terminal object of $\mathbf{Set}^C$ is the functor $\Delta 
 
 ##Examples
 
+### Representable Presheaves
+
+Let $Y(C):\mathcal{C}^{op}\to Set$ be a representable presheaf with $Y(C)(D)=Hom_{\mathcal{C}}(D,C)$. Consider the contravariant category of elements $\int_\mathcal{C} Y(C)$ . This has objects $(D_1,p_1)$ with $p_1\in Y(C)(D_1)$, hence $p_1$ is just an arrow $D_1\to C$ in $\mathcal{C}$. A map from $(D_1, p_1)$ to $(D_2, p_2)$ is just a map $u:D_1\to D_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in $\mathcal{C}/C$. Accordingly we see that $\int_\mathcal{C} Y(C)\simeq \mathcal{C}/C$ .
+
+
 ### Action Groupoid
 
 In the case that $C = \mathbf{B}G$ is the [[delooping]] [[groupoid]] of a [[group]] $G$, a functor $\varrho : \mathbf{B}G \to Set$ is a [[permutation representation]] $X$ of $G$ and its category of elements is the corresponding [[action groupoid]] $X/\!/G$.
@@ -151,6 +156,14 @@ For a [[simplicial set]] regarded as a [[presheaf]] on the [[simplex category]],
 * [[Grothendieck construction]]
 
 * [[(∞,1)-Grothendieck construction]]
+
+* [[semi-direct product]]
+
+## Reference
+
+A very nice introduction emphasizing the connections to [[monoid|monoid theory]] is ch. 11 of
+
+* [[Michael Barr]], [[Charles Wells]], _Category Theory for Computing Science_ , Prentice Hall 1995&#179;. ([TAC reprints no.22 (2012)](http://www.tac.mta.ca/tac/reprints/articles/22/tr22abs.html))
 
 
 [[!redirects Exploding a Category]]
