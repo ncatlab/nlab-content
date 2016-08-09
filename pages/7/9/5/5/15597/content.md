@@ -18,7 +18,7 @@
 {:toc}
 
 
-##Idea
+## Idea
 In 1961 G. Higman proved an important result in [[group theory]] that brings together in an intriguing way concepts from [[computability theory]] and [[finitely presentable object|finite presentability]].
 
 ## The result
@@ -47,20 +47,24 @@ any given recursive set of axioms, so that one can then add the one
 additional axiom that says "all those axioms are true".
 Of course, it is non-trivial that this argument actually works.  ([Lawvere 2002](#Lawvere02))
 
-##Related pages
+## Related pages
 
 * [[combinatorial group theory]]
 
-##References
+* [[Boone conjecture]]
+
+## Link
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Higman%27s_embedding_theorem)
 
-* W. Craig, R.L. Vaught, _Finite axiomatizability using additional predicates_ , JSL **23** (1958) pp.289-308.
+## References
+
+* G. Higman, _Subgroups of finitely presented groups_ , Proc. Royal. Soc. London Ser. A (1961) pp.455-475.
+
+* W. Craig, R. L. Vaught, _Finite axiomatizability using additional predicates_ , JSL **23** (1958) pp.289-308.
 
 * L. Dediu , _Higman's Embedding theorem - An Elementary Proof_ , Report CDMCTS-010 (1995).  ([pdf](https://www.cs.auckland.ac.nz/research/groups/CDMTCS/researchreports/010luminita.pdf))
 
 * M. H&#233;bert, _Finitely presentable morphisms in exact sequences_ , TAC **24** no.9 (2010) pp.209-220.([pdf](http://www.tac.mta.ca/tac/volumes/24/9/24-09.pdf))
-
-* G. Higman, _Subgroups of finitely presented groups_ , Proc.Royal.Soc. London Ser.A (1961) pp.455-475.
 
 * {#Lawvere02}[[William Lawvere|W. F. Lawvere]], _On the [[effective topos]] - message to catlist_, January 2002. ([link](http://facultypages.ecc.edu/alsani/ct02%281-2%29/msg00016.html))
