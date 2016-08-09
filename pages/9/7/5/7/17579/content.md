@@ -74,7 +74,7 @@ Assume $S\in J_d(C)$, then for $id\colon C\to C$ there exists $g:E\to C$ with $i
 Conversely, assume $S\in J_{at}(C)$ and let $f:D\to C$ be a morphism. Then there exists $g\in S$ by assumption and the diagram $D\overset{f}{\rightarrow} C \overset{g}{\leftarrow} E$ can be completed to a commutative square $f\cdot i = g\cdot h$ but $g\cdot h\in S$ since $g\in S$ and $S$ is a sieve. Whence $f \cdot i\in S$ and, accordingly, $S\in J_d(C)$.
 =--
 
-In other words, the atomic topology is just the [[dense topology]] on a categories satisfying the Ore condition. Since the corresponding sheaf toposes of the dense topology are just the double negation subtoposes of the corresponding presheaf topos we finally get: 
+In other words, the atomic topology is just the [[dense topology]] on  categories satisfying the Ore condition. Since the corresponding sheaf toposes of the dense topology are just the double negation subtoposes of the corresponding presheaf topos we finally get: 
 
 +-- {: .num_prop}
 ###### Proposition
