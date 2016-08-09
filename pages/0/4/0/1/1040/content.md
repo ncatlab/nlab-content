@@ -78,7 +78,7 @@ $5\Rightarrow 6$ Trivial, because the Eilenberg-Moore construction induces the o
 $6\Rightarrow 3$ By $6$ the counit $\epsilon$ is iso, hence $U\epsilon F$ has a unique 2-sided inverse; by triangle identities, $T\eta$ and $\eta T$ are both right inverses of $U\epsilon F$, hence 2-sided inverses, hence they are equal.
 
 $6\Rightarrow 1$ If $F\dashv U$ is an adjunction with $U$ fully faithful, 
-then the counit $\epsilon$ is iso. since $D(FU X,Y)\simeq C(UX,UY)\simeq D(X,Y)$ where the last equivalence is since $U$ is full and faithful; hence by essential unicity of the representing object there is an iso $FUX\stackrel{\sim}{\to} X$.; let $X=Y$ then the adjoint of this identity is the counit of the adjunction; since the hom objects correspond bijectively, the counit is an isomorphism. Hence the multiplication of the induced monad
+then the counit $\epsilon$ is iso. Since $D(FU X,Y)\simeq C(UX,UY)\simeq D(X,Y)$ where the last equivalence holds since $U$ is full and faithful; hence by essential unicity of the representing object there is an iso $FUX\stackrel{\sim}{\to} X$ ; let $X=Y$ then the adjoint of this identity is the counit of the adjunction; since the hom objects correspond bijectively, the counit is an isomorphism. Hence the multiplication of the induced monad
 $\mu = U\epsilon F$ is also an iso.
 =--
 
@@ -110,10 +110,9 @@ Equivalences (resp. cores) in an allegory are precisely those symmetric idempote
 
 +-- {: .num_remark}
 ###### Remark
-From (5.) it follows that the Eilenberg-Moore and the Kleisli categories coincide for an idempotent monad.[^Street]
+Given an algebra $(X, u:TX\to X)$ , by (1) and (4) the action $u$ yields an isomorphism in $C^T$ between the free algebra $(TX, \mu_X)$ and $(X,u)$ i.e. for an idempotent monad the Eilenberg-Moore and the Kleisli categories coincide.
 =--
 
-[^Street]: This is pointed out by [[Ross Street]] e.g. [here](http://permalink.gmane.org/gmane.science.mathematics.categories/3908).
 
 ## Properties
  {#Properties}
@@ -356,7 +355,7 @@ The idempotent monad which exhibits the [[localization]] at the $T$-equivalences
 
 * {#ApplegateTierney70} H. Applegate and [[Myles Tierney]], _Iterated cotriples_, Lecture Notes in Math. 137 (1970), 56-99
 
-* {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101. ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f103.image), Biblioth&#232;que nationale de France)
+* {#Fakir70} S. Fakir, _Monade idempotente associ&#233;e &#224; une monade_, C. R. Acad. Sci. Paris Ser. A-B 270 (1970), A99-A101. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f103.image))
 
 * {#Day74} [[Brian Day]], _On adjoint-functor factorisation_, Lecture Notes in Math. 420 (1974), 1-19.
 
@@ -370,7 +369,7 @@ Extension of idempotent monads along subcategory inclusions is discussed in
 
 * [[Carles Casacuberta]], Armin Frei, Tan Geok Choo, _Extending localization functors_ ,  Journal of Pure and Applied Algebra 103 (1995), 149-165. ([pdf](http://atlas.mat.ub.es/personals/casac/articles/cft.pdf))
 
-* A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_ , Math.Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
+* A. Deleanu, A. Frei, [[Peter Hilton|P. Hilton]], _Idempotent triples and completion_ , Math. Z. **143** (1975) pp.91-104. ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN266833020_0143&divID=LOG_0014&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN266833020_0143%7C&targetFileName=PPN266833020_0143_LOG_0014.pdf&))
 
 [[!redirects idempotent monad]]
 [[!redirects idempotent monads]]
