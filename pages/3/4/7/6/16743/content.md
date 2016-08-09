@@ -97,6 +97,8 @@ Let $\mathcal{C}$ be a small category. The [[presheaf topos]] $Set^{\mathcal{C}^
 
 This result due to [[Peter Johnstone]] appears e.g. in [Johnstone (1979)](#Johnstone79). Compare also the generalizations in [Kock-Reyes (1994)](#KR94) and [Caramello (2012)](#Caramello12).
 
+Since the [[dense topology]] coincides with the [[atomic site|atomic topology]] on $\mathcal{C}$ the preceding proposition implies that the [[double negation|double negation subtopos]] of a De Morgan presheaf $Set^{\mathcal{C}^{op}}$ is always [[atomic topos|atomic]].
+
 ### De Morganization
 
 It was discovered by [[Olivia Caramello]] that every topos $\mathcal{E}$ can be associated with a De Morgan topos $Sh_m(\mathcal{E})$, its [[De Morganization]], in a universal way:
@@ -153,7 +155,7 @@ For situations where subobjects of $1$ generate see e.g. [Johnstone (1977, sec.5
 
 +-- {: .num_prop #model_companion}
 ###### Proposition
-Let $\mathcal{T}$ be a coherent theory. Then $\mathcal{T}$ admits a model companion and $Mod(\mathcal{T})$ has the amalgamation property iff for each $B\in\mathcal{T}$ , the lattice of subobjects of $B$ admits a negation satisfying $\neg A\vee\neg\neg A = B$.
+Let $\mathcal{T}$ be a coherent theory. Then $\mathcal{T}$ admits a [[model companion]] and $Mod(\mathcal{T})$ has the [[amalgamation property]] iff for each $B\in\mathcal{T}$ , the lattice of subobjects of $B$ admits a negation satisfying $\neg A\vee\neg\neg A = B$.
 =--
 
 This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is attributed to a preprint of [[André Joyal]] and [[Gonzalo E. Reyes]].
