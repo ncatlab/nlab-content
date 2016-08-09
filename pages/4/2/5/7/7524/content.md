@@ -81,9 +81,11 @@ $$j^\circ\dashv j_!\dashv j^\ast \dashv j_\ast \colon Set\to \mathbb{Gl}(\sqcap)
 
 with $j_!$, $j_\ast$ [[fully faithful]], exhibiting $\mathbf{Gl}(\sqcap)$ almost as a [[cohesive topos]] over $Set$. Of course, since $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$ is spatial it is not expected to satisfy all of Lawvere's axioms. In particular, the [[Nullstellensatz]] is violated since neither of the copies of $Set$ is dense in $Set^{\bullet\leftarrow\bullet\rightarrow\bullet}$.
 
-Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the representable functor $Hom_Q(-,A)$ giving the basic figure type of an arrow $K_2=\bullet\to\bullet$. The [[category of elements]] $\int_Q K_2$ is just the category $\bullet\rightarrow \bullet\leftarrow\bullet$ underlying the hypergraphs. Then the following equivalence exhibits $Set^{Q^{op}}$ as an [[étendue|étendue topos]] using a general formula for [[slice topos|slices]] of [[presheaf topos|presheaf toposes]]:
+Let $Q$ be the diagram category $N\overset{s}{\underset{t}{\rightrightarrows}} A$ underlying the topos $Set^{Q^{op}}$ of directed graphs or [[quiver|quivers]]. Consider the [[Yoneda embedding]] of the object $A$ into the presheaves: $Y(A)=Hom_Q(-,A)$. Viewed as a graph this gives the basic figure type of an _a_rrow $K_2=\bullet\to\bullet$ , the other basic figure being the _n_ode $\bullet$ given by $Y(N)$ .
 
-$$Set^{Q^{op}}/K_2\simeq Set^{(\int_Q K_2)^{op}}\simeq Set^{\bullet\leftarrow\bullet\rightarrow\bullet}\quad .$$
+The [[category of elements]] $\int_Q Y(A)$ is just the category $\bullet\rightarrow \bullet\leftarrow\bullet$ underlying the hypergraphs. Since $Y(A)$ is the representable presheaf coresponding to $A$ this is equivalent to the [[slice category]] $Q/A$. Then the following equivalence exhibits $Set^{Q^{op}}$ as an [[étendue|étendue topos]] using a general formula for [[slice topos|slices]] of [[presheaf topos|presheaf toposes]]:
+
+$$Set^{Q^{op}}/Y(A)\simeq Set^{(Q/A)^{op}}\simeq Set^{(\int_Q Y(A))^{op}}\simeq Set^{\bullet\leftarrow\bullet\rightarrow\bullet}\quad .$$
 
 This equivalence will be further explained in terms of graph colorings in the next section.
 
