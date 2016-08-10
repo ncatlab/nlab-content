@@ -51,7 +51,7 @@ The complementary open-closed pairs of the subtopos lattice correspond precisely
 
 For instance, take the product functor $\sqcap\colon Set\times Set\to Set$ with  $(X,Y)\mapsto X\times  Y$. $\sqcap$ is left exact since it forms an adjoint string with the [[diagonal functor]] and the coproduct functor: $\sqcup\dashv \triangle\dashv\sqcap$ .
 
-Then $\mathbf{Gl}(\sqcap)$ has objects $((X,Y),Z, u\colon Z\to X\times Y)$ where $(X,Y)\in Set\times Set$ and $Z\in Set$ and $u$ is a morphism in $Set$. 
+Then $\mathbf{Gl}(\sqcap)$ has objects $((X,Y),Z, u\colon Z\to X\times Y)$ where $(X,Y)\in Set\times Set$ and $Z\in Set$ and $u$ is a morphism in $Set$. Since by the universal property of products $u\colon Z\overset{\langle u_0, u_1\rangle}{\rightarrow} X\times Y$ corresponds to a pair of maps $u_0$, $u_1$, one sees that the objects in $\mathbf{Gl}(\sqcap)$ really correspond to spans in $Set$.
 
 The open inclusion of $Set\times Set$ into $\mathbf{Gl}(\sqcap)$ is given by the [[geometric morphism]]
 
@@ -75,7 +75,7 @@ Since $\sqcup\dashv \triangle$ there is a somewhat surprising further left adjoi
 
 $$ j^\circ\colon\mathbf{Gl}(\sqcap)\to Set \qquad ((X,Y),Z,u)\mapsto X\sqcup_u Y\quad .$$
 
-Here $ X\sqcup_u Y$ denotes the [[pushout]] of $X\overset{u_0}{\leftarrow} Z\overset{u_1}{\rightarrow} Y$ where $u_0$, $u_1$ are the pair of maps provided by the universal property of the product from $u\colon Z\overset{\langle u_0, u_1\rangle}{\rightarrow} X\times Y$ . Since a map from $((X,Y),Z,u)$ to $j_!(W)$ is a triple $(f_0,f_1,f_2)$ such that the following diagram commutes:
+Here $ X\sqcup_u Y$ denotes the [[pushout]] of $X\overset{u_0}{\leftarrow} Z\overset{u_1}{\rightarrow} Y$ where $u_0$, $u_1$ are the pair of maps provided by $u\colon Z\overset{\langle u_0, u_1\rangle}{\rightarrow} X\times Y$ . Since a map from $((X,Y),Z,u)$ to $j_!(W)$ is a triple $(f_0,f_1,f_2)$ such that the following diagram commutes:
 $$
 \array{
 Z & \overset{\langle u_0, u_1\rangle}{\rightarrow} & X\times Y 
