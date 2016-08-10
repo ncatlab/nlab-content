@@ -24,8 +24,9 @@ The **elementary theory of the 2-category of categories**, or _ETCC_ for short, 
 
 [[!redirects category of categories]]
 
-
 ## Idea
+
+> The explicit formulation of the principles of category theory ... is still in need of improved axiomatization. I will be overjoyed when some young person responds to that need. Lawvere ([2016](#Law16), p.1)
 
 **Elementary theory of the category of categories**, or _ETCC_ for short, is in a broad sense an appropriate name for any [[first order logic|first order]] [[theory]] axiomatizing the metacategory [[Cat|CAT]] of categories that forms the intuitive background for naive [[category theory]] with a view to the categorical [[foundations of mathematics]].
 
@@ -92,7 +93,7 @@ We can see here how at the end Lawvere's idea of internal set-theoretic 'foundat
 
 A revised version of the axioms appears as
 
-* F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
+* {Law66}F. W. Lawvere, _The Category of Categories as a Foundation for Mathematics_ , pp.1-20 in Eilenberg, Harrison, MacLane, R&#246;hrl (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_, Springer Heidelberg 1966.
 
 Important reviews of the paper pointing out technical problems appeared here
 
@@ -103,6 +104,10 @@ Important reviews of the paper pointing out technical problems appeared here
 A more recent view of Lawvere exposing in particular his 'M&#252;nchhausen' approach to set-theoretic 'foundations' is in
 
 * [[William Lawvere|F. W. Lawvere]], _Foundations and Applications: Axiomatization and Education_, Bulletin of Symbolic Logic **9** no.2 (2003) pp.213-224. ([ps-preprint](https://www.math.ucla.edu/~asl/bsl/0902/0902-006.ps))
+
+Lawvere briefly comments on his 1965 system 50 years later p.6 in
+
+* {#Law16}F. W. Lawvere, _Alexander Grothendieck and the Concept of Space_ , address CT15 Aveiro 2016. ([link](http://www.acsu.buffalo.edu/~wlawvere/GrothendiekAveiro15.htm))
 
 An insightful and non-partisan view of ETCC can be found in a section of:
 
