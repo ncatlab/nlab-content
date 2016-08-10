@@ -37,7 +37,7 @@ The category of affine group schemes is the [[opposite category|opposite]] of th
 
 ### Abelian variety
 
-Another important class are commutative algebraic $k$-groups whose underlying variety is [[projective variety|projective]], namely the *abelian varieties*; in dimension $1$ these are precisely the [[elliptic curve]]s. If $k$ is a [[perfect field]] and $G$ an algebraic $k$-group, the theorem of Chevalley says that there is a unique linear subgroup $H\subset G$ such that $G/H$ is an abelian variety.
+Another important class are connected algebraic $k$-groups whose underlying variety is [[projective variety|projective]]; these are automatically commutative so they are called *abelian varieties*.  In dimension $1$ these are precisely the [[elliptic curve]]s. If $k$ is a [[perfect field]] and $G$ an algebraic $k$-group, the theorem of Chevalley says that there is a unique linear subgroup $H\subset G$ such that $G/H$ is an abelian variety.
 
 #### Elliptic curve
 
