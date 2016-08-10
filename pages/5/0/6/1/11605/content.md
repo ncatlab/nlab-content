@@ -597,7 +597,7 @@ For a [[Hodge manifold]] the intermediate Jacobian canonically inherits the stru
 A certain [[square root]] of the [[canonical bundle]] on intermediate Jacobians -- hence a [[Theta characteristic]] -- in dimension $2k+1$ thought of as [[moduli spaces]] of (flat) [[circle n-bundles with connection|circle (2k+1)-bundles with connection]] yields the [[partition function]] of [[self-dual higher gauge theory]].  ([Witten 96](#Witten96), [Hopkins-Singer 02](#HopkinsSinger02)).
 
 
-### Relation to Artin-Matur formal groups
+### Relation to Artin-Mazur formal groups
  {#RelationToArtinMazurFormalGroups}
 
 By theorem \ref{DeligneTheorem} the [[formal geometry]]
