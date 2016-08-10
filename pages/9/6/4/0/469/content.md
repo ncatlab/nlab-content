@@ -118,6 +118,8 @@ $$
 
 * A [[discrete category|discrete]] monoidal category (i.e., a [[monoid]]) is left closed iff it is right closed iff every object has an inverse (i.e., it is a [[group]]).
 
+* The [[delooping]] $\mathbf{B}M$ of a [[commutative monoid]] $M$ is a closed monoidal (in fact, [[compact closed]]) category with one object, with both the tensor and internal hom defined (on morphisms) using the multiplication operation $f \otimes g = [f,g] = f g$.  Conversely, any closed monoidal category with one object must be isomorphic to one constructed from a commutative monoid. (See [Eilenberg and Kelly (1965)](#EilenbergKelly65), IV.3, p.553.)
+
 * Certain [[nice category of spaces|nice categories]] of [[topological spaces]] are cartesian closed: for any two nice enough topological spaces $X$, $Y$ the set of continuous maps $X \to Y$ can be equipped with a topology to become a nice topological space itself.
 
 * Certain nice categories of _[[pointed object|pointed/based]]_  topological spaces are closed symmetric monoidal.  The monoidal structure is the [[smash product]] and the internal-hom is the set of basepoint-preserving maps with topology induced from the space of unbased ones.
@@ -185,7 +187,7 @@ has a chapter on just closed monoidal categories.
 
 See also the article
 
-* [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
+* {#EilenbergKelly65} [[Samuel Eilenberg]] and [[Max Kelly]], _Closed categories_.  Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965).
 
 on the concept of [[closed categories]].
 
