@@ -62,7 +62,7 @@ Various constructions induced by a finite [[interval object]] have their infinit
 
 
 
-## Infintesimal path $\infty$-groupoid induced from infinitesimal interval
+## Infinitesimal path $\infty$-groupoid induced from infinitesimal interval
 
 +-- {: .query}
 
@@ -256,7 +256,7 @@ $$
 For $n \in \mathbb{N}$ define a morphism
 
 $$
-  X^(D(n)) \otimes_{R^n} D(n)
+  X^{(D(n))} \otimes_{R^n} D(n)
   \to 
   X^{R^n}
 $$
