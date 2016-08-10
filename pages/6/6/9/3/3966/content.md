@@ -12,8 +12,8 @@ Let $p: E \to M$ be a [[vector bundle]] with a linear [[connection on a bundle|c
 The **exterior covariant derivative** $d_\nabla: \Omega^p (M, E) \to \Omega^{p + 1}(M, E)$ is defined by the following formula: given a $p$-form $\Phi \in \Omega^p (M, E)$, its exterior covariant derivative is given by
 $$
 \begin{aligned}
-(\mathrm{d}_\nabla \Phi)(X_0, \dots, X_p) =& \sum_{i = 0}^p (-1)^i \nabla_{X_i}\Phi (X_0, \dots, \hat{X_i}, \dots, X_p) \\
-&+ \sum_{i \lt j} (-1)^{i + j} \Phi([X_i, X_j], X_0, \dots, \hat{X_i}, \dots, \hat{X_j}, \dots, X_p),
+(\mathrm{d}_\nabla \Phi)(X_0, \dots, X_p) =& \displaystyle\sum_{i = 0}^p (-1)^i \nabla_{X_i}\Phi (X_0, \dots, \hat{X_i}, \dots, X_p) \\
+&+ \displaystyle\sum_{i \lt j} (-1)^{i + j} \Phi([X_i, X_j], X_0, \dots, \hat{X_i}, \dots, \hat{X_j}, \dots, X_p),
 \end{aligned}
 $$
 where each $X_i$ is a [[vector field]] on $M$, and $\hat{X}$ means omission of $X$.
