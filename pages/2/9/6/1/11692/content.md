@@ -19,7 +19,7 @@
 
 ## Idea 
 
-The Albanese variety $Alb(X)$ of a projective [[algebraic variety]] $X$ with a chosen basepoint is the universal way of turning this pointed variety into an [[abelian variety]].  Moreover, the Albanese variety of the Albanese variety is the Albanese variety.  Thus, taking the Albanese variety defines an [[idempotent monad]] on the category of pointed projective algebraic varieties.
+The Albanese variety $Alb(X)$ of a [[projective variety|projective]] [[algebraic variety]] $X$ with a chosen basepoint is the universal way of turning this pointed variety into an [[abelian variety]].  Moreover, the Albanese variety of the Albanese variety is the Albanese variety.  Thus, taking the Albanese variety defines an [[idempotent monad]] on the category of pointed projective algebraic varieties.
 
 ## Definition
 
@@ -49,7 +49,7 @@ $$ T = U \circ Alb $$
 
 is an [[idempotent monad]] on $Var_*$, and its algebras are the abelian varieties. 
 
-It follows that the Albanese map $i_X \colon X \to A(X)$ is the unit of the monad $T$, and $Alb(Alb(x)) \cong Alb(X)$.
+It follows that the Albanese map $i_X \colon X \to A(X)$ is the unit of the monad $T$, and $Alb(Alb(X)) \cong Alb(X)$.
 
 
 ## Properties 
