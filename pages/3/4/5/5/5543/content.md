@@ -98,9 +98,9 @@ See the dicussion [here](https://nforum.ncatlab.org/discussion/7220/dense-subsit
 
   * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
 
-* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact [[topological manifold]] has a [[good open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]].
+* For $C = TopManifold$  the category of all [[paracompact topological space|paracompact]] [[topological manifold]]s equipped with the [[open cover]] coverage, the category [[CartSp]]${}_{top}$ is a dense sub-site: every paracompact [[topological manifold]] has an [[open cover]] by [[open balls]] [[homeomorphic]] to a [[Cartesian space]].
 
-  * Similarly for $C = $ [[Diff]] the category of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site: every such smooth manifold has a _differentially_ [[good open cover]] (see there): a good cover by open balls each of which are [[diffeomorphic]] to a [[Cartesian space]].
+  * Similarly for $C = $ [[Diff]] the category of [[paracompact topological space|paracompact]] [[smooth manifold]]s equipped with the [[good open cover]] [[coverage]], the full subcategory [[CartSp]]${}_{smooth}$ is a dense sub-site: every such smooth manifold has a _differentiably_ [[good open cover]] (see there): a good cover by open balls each of which are [[diffeomorphic]] to a [[Cartesian space]].
 
 ## Remark
 
