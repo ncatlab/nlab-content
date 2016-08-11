@@ -1,6 +1,6 @@
 [[!redirects D. Conduché]]
-Daniel Conduch&#233; is a French mathematician who works at Rennes.
+Daniel Conduch&#233; is a French mathematician who has worked at Rennes.
 
-* [contact information](http://irmar.univ-rennes1.fr/themes/Annuaires/Liste/?nom=Conduche&prenom=Daniel&composante=911)
+His work includes the exploration of the notion of [[2-crossed module]] and  the [[decomposition theorem for simplicial groups]] .
 
 category:people
