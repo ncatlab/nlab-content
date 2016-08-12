@@ -11,7 +11,7 @@ $$\array{& X & \overset{f}\rightarrow & Z & \\
           &Y & \underset{f'}\rightarrow& W & \\
 }$$
 
-The square is **[[commutative diagram|commutative]]** if $y' \circ f = f' \circ g$.
+The square is **[[commutative diagram|commutative]]** if $g' \circ f = f' \circ g$.
 
 The class of commutative squares in $C$ is written $\square C$.
 
