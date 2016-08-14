@@ -217,8 +217,7 @@ Profunctors play an important in categorical [[shape theory]]. The original sour
 
 * D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah.Top.G&#233;om.Diff.Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
-The material together with a general discussion of profunctors is also available in English in the recently reprinted standard reference
-
+The material together with a general discussion of profunctors is also available in English in the reprinted monograph
 * J.-M. Cordier and [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 M. Batanin discusses simplicial enriched profunctors in the context of strong shape theory in
