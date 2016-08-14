@@ -46,6 +46,12 @@ One can compute intervals for homological features algorithmically over field co
 
 ## References
 
+A clear introduction to the use of persistent homology in data analysis is
+
+* [[Robert Ghrist]], _Barcodes: The Persistent Topology of Data_, ([pdf](https://www.math.upenn.edu/~ghrist/preprints/barcodes.pdf))
+
+Other references:
+
 * Robert MacPherson, Benjamin Schweinhart, _Measuring shape with topology_, J. Math. Phys. __53__, 073516 (2012); [doi](http://dx.doi.org/10.1063/1.4737391)
 * A. Zomorodian, G. Carlsson, _Computing persistent homology_, Discrete Comput. Geom. __33__, 249&#8211;274 (2005)
 * Ulrich Bauer, Michael Kerber, Jan Reininghaus, _Clear and compress: computing persistent homology in chunks_, [arxiv/1303.0477](http://arxiv.org/abs/1303.0477)
