@@ -200,7 +200,7 @@ Some of these ideas were exposed at Oberwolfach in 1966. There are extant notes 
 
 A standard reference is 
 
-* [[Francis Borceux]], _Handbook of Categorical Algebra I_, Cambridge UP 1994. sec. 7.7.
+* [[Francis Borceux]], _Handbook of Categorical Algebra I_, Cambridge UP 1994. (sec. 7.7.)
 
 Excellent notes from a course on distributors given by 
 Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher:
@@ -209,20 +209,35 @@ Jean B&#233;nabou in June 2000 at TU Darmstadt, and prepared by Thomas Streicher
 
 A nice example of profunctors between Lawvere [[metric spaces]] can be found in [this comment](http://golem.ph.utexas.edu/category/2009/11/equipments.html#c029633).
 
+The following classic paper is a good appetizer
+
+* [[William Lawvere]], _Metric Spaces, Generalized Logic, and Closed Categories_ , Rendiconti di Seminario mat&#233;matico e fisico di Milano XLIII (1973) pp.135-166. Reprinted in TAC Reprints no.1 (2002) pp.1-37. ([tac](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html))
+
 See the [[joyalscatlab:HomePage|Joyal's CatLab]] for the theory of [[Set]]-valued distributors:
 
-* [[Andre Joyal]], _[[joyalscatlab:Distributors and barrels]]_
+* [[Andre Joyal]], _[[joyalscatlab:Distributors and barrels]]_ .
+
+Internal profunctors are considered in 
+
+* [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint Minneola 2014; sect. 2.4)
+
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] I_, Oxford UP 2002. (pp.359-367)
 
 Profunctors play an important in categorical [[shape theory]]. The original source is 
 
-* D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah.Top.G&#233;om.Diff.Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
+* D. Bourn, J.-M. Cordier, _Distributeurs et th&#233;orie de la forme_, Cah. Top. G&#233;om. Diff. Cat. **21** no.2 (1980) pp.161-189. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1980__21_2/CTGDC_1980__21_2_161_0/CTGDC_1980__21_2_161_0.pdf))
 
 The material together with a general discussion of profunctors is also available in English in the reprinted monograph
-* J.-M. Cordier and [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
+
+* J.-M. Cordier , [[Tim Porter]], _Shape Theory: Categorical Methods of Approximation_ , (1989), Mathematics and its Applications, Ellis Horwood. Reprinted Dover (2008).
 
 M. Batanin discusses simplicial enriched profunctors in the context of strong shape theory in
 
-* M. Batanin , _Categorical Strong Shape Theory_ , Cah.Top.G&#233;om.Diff.Cat. **38** no.1 (1997) pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
+* M. Batanin , _Categorical Strong Shape Theory_ , Cah. Top. G&#233;om. Diff. Cat. **38** no.1 (1997) pp.3-66. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1997__38_1/CTGDC_1997__38_1_3_0/CTGDC_1997__38_1_3_0.pdf))
+
+For an overview and application in computer science see
+
+* G. L. Cattani, G. Winskel, _Profunctors, Open Maps, and Bisimulation_ , BRICS Report **04-22** (2004). ([pdf](http://www.brics.dk/RS/04/22/BRICS-RS-04-22.pdf))
 
 ### Expositions
 
@@ -233,8 +248,6 @@ There is some exposition of profunctors at
 The common generalization of [[bimodules]] and [[spans]] in terms of profunctors has been discussed on the blog at
 
 * [[John Baez]], _Bimodules versus spans_ ([blog](http://golem.ph.utexas.edu/category/2008/08/bimodules_versus_spans.html))
-
-
 
 
 ## Notation ## {#notation}
