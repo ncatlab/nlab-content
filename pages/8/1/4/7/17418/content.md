@@ -5,6 +5,8 @@
 
 ## Idea
 
+> Combinator algebra has always struck me as a subject almost impossible to watch: it's a lousy spectator sport but has a reputation of habit-forming as a participator sport. P. Freyd ([1989](#Freyd89), p.63)
+
 **Combinatory logic** is a rephrasing of the [[lambda calculus]] that avoids explicit mention of [[variables]] and of [[lambda abstraction]].  Instead it uses [[combinators]] -- in the most common case, they are traditionally called $S$, $K$, and $I$ -- with the only other operation being [[application]].
 
 Since this move circumvents the necessity of variable management, combinatory logic is important for applications in [[computer science]] and [[linguistics]].
@@ -68,9 +70,13 @@ The combinator $I$ is also definable as $CKK$, so it is also available in BCK lo
 
 Note that $B$ has the same type as the "composition" operation in a [[closed category]], while $C$ has the type of a symmetry/exchange for a closed category.  Similarly, $K$ is a sort of [[weakening rule]] while $S$ combines composition, symmetry, and [[contraction rule|contraction]].
 
+## Remark
+
+A _partial combinatory algebra_ , also called a _Sch&#246;nfinkel algebra_ ,  is an algebraic structure that abstracts the structure of (partial) combinatory logic. They play an important role in the theory of [[realizability topos|realizability toposes]].
+
 ## Related pages
 
-* A [[partial combinatory algebra]] is an algebraic structure that abstracts the structure of combinatory logic
+* [[partial combinatory algebra]]
 * [[combinator]]
 * [[lambda-calculus]]
 * [[categorial grammar]]
@@ -80,6 +86,8 @@ Note that $B$ has the same type as the "composition" operation in a [[closed cat
 * {#Schoen24}Moses Sch&#246;nfinkel, _&#220;ber die Bausteine der mathematischen Logik_ , Math. Ann. **92** (1924) pp.305-316. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN002270110)) English translation with comments by Quine pp.355-366 in van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967. 
 
 * {#Bunder84}M. W. Bunder, Category Theory Based on Combinatory Logic , Arch. Math. Logik **24** (1984) pp.1-15. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002045680))
+
+* {#Freyd89}[[Peter Freyd]], _Combinators_ , Contemp. Math. **92** (1989) pp.63-66.
 
 * R. Hindley, J. Seldin, _Introduction to Combinators and $\lambda$-Calculus_ , Cambridge UP 1986.
 
