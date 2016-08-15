@@ -32,7 +32,7 @@ The preliminaries of the lectures state that religion and [[philosophy]] have th
 
 > In der Tat ist dagegen die Behauptung zu machen, da&#223; der Inhalt, das Bed&#252;rfnis, das Interesse der Philosophie mit der Theologie ein gemeinschaftliches ist.
 
-> Der Gegenstand der Religion, wie der Philosophie, ist die ewige Wahrheit in ihrer Objektivit&#228;t selbst, Gott und Nichts als Gott und die Explikation Gottes. Die Philosophie expliziert nur sich, indem sie die Religion expliziert, und indem sie sich expliziert, expliziert sie die Religion. Sie ist, wie die Religion, besch&#228;ftigung mit diesem Gegenstande, sie ist der denkende Geist, der diesen Gegenstand, die Wahrheit, durchdringt, Lebendigkeit und Genu&#223;, Wahrheit und Reinigung des subjektiven Selbstbewusstseins in und durch diese Besch&#228;ftigung.
+> Der Gegenstand der Religion, wie der Philosophie, ist die ewige Wahrheit in ihrer Objektivit&#228;t selbst, Gott und Nichts als Gott und die Explikation Gottes. Die Philosophie expliziert nur sich, indem sie die Religion expliziert, und indem sie sich expliziert, expliziert sie die Religion. Sie ist, wie die Religion, Besch&#228;ftigung mit diesem Gegenstande, sie ist der denkende Geist, der diesen Gegenstand, die Wahrheit, durchdringt, Lebendigkeit und Genu&#223;, Wahrheit und Reinigung des subjektiven Selbstbewusstseins in und durch diese Besch&#228;ftigung.
 
 > So f&#228;llt Religion und Philosophie in eins zusammen, die Philosophie ist in der Tat selbst Gottesdienst, aber beide sind Gottesdienst auf eigent&#252;mliche Weise: in dieser Eigent&#252;mlichkeit der Besch&#228;ftigung mit Gott unterscheiden sich beide.
 
