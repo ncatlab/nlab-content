@@ -51,7 +51,7 @@ where
 
 =--
 
-(e.g. [F&#233;lix-Oprea-Tanre 08](#FelixOpreaTanre08), [Felix-Halperin-Thomas 00, p. 206](#FelixHalperinThomas00))
+(e.g. [F&#233;lix-Oprea-Tanre 08, theorem 5.11](#FelixOpreaTanre08), [Felix-Halperin-Thomas 00, p. 206](#FelixHalperinThomas00))
 
 +-- {: .num_remark}
 ###### Remark
