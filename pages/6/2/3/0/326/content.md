@@ -32,7 +32,7 @@ from the [[product category]] of the category $C$ with its [[opposite category]]
     \array{
       c & c'
       \\
-      \uparrow^{\mathrlap{f}} & \downarrow^{\mathrlap{g}}
+      \downarrow^{\mathrlap{f^{op}}} & \downarrow^{\mathrlap{g}}
       \\
       d & d'
     }
