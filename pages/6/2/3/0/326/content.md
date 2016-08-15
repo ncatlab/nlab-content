@@ -46,7 +46,7 @@ from the [[product category]] of the category $C$ with its [[opposite category]]
     \mapsto
     \;\;\,
     \left(
-    g \circ q \circ f \; : \;
+    f \circ q \circ g \; : \;
     \array{
        c &\stackrel{q}{\to}& c'
        \\
