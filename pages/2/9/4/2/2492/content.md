@@ -7,5 +7,7 @@ A **normal subobject** is a monomorphism which is normal to some equivalence rel
 
 (to be finished later, need to switch off)
 
+A [[protomodular category]] is defined in such a way that it possesses an intrinsic notion of normal subobject.
+
 
 See also [[normal monomorphism]]
