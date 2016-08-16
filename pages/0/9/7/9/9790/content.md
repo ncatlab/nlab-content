@@ -49,8 +49,10 @@ $$(f \cdot g)^{(n)} = \sum_{n = j + k} \frac{n!}{j! k!} f^{(j)} \cdot g^{(k)}.$$
 
 ## Related concepts
 
-* [[multiplicative spectral sequence]]
+* [[derivation]]
 
- 
+* [[multiplicative spectral sequence]] 
+
+
 [[!redirects product law]]
 [[!redirects product rule]]
