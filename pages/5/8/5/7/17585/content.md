@@ -51,7 +51,7 @@ where
 
 =--
 
-(e.g. [F&#233;lix-Oprea-Tanre 08, theorem 5.11](#FelixOpreaTanre08), [Felix-Halperin-Thomas 00, p. 206](#FelixHalperinThomas00))
+(e.g. [Felix-Halperin-Thomas 00, p. 206](#FelixHalperinThomas00), [Hess 06, example 2.5](#Hess06), [F&#233;lix-Oprea-Tanre 08, theorem 5.11](#FelixOpreaTanre08))
 
 +-- {: .num_remark}
 ###### Remark
@@ -61,11 +61,20 @@ The formula in prop. \ref{SullivanModelForTheFreeLoopSpace} is the same as that 
 
 =--
 
+## Related concepts
+
+* [[Hochschild homology]]
+
 ## References
+
+
+* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
+
+* {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
 * {#FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanre, _Algebraic models in geometry_, Oxford graduate texts in mathematics 17 (2008)
 
-* {#FelixHalperinThomas00} [[Yves Félix]], [[Steve Halperin]] and J.C. Thomas, _Rational Homotopy Theory_, Graduate Texts in Mathematics, 205, Springer-Verlag, 2000. 
+
 
 [[!redirects Sullivan models of free loop space]]
 
