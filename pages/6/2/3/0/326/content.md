@@ -46,7 +46,7 @@ from the [[product category]] of the category $C$ with its [[opposite category]]
     \mapsto
     \;\;\,
     \left(
-    f \circ q \circ g \; : \;
+    g \circ q \circ f \; : \;
     \array{
        c &\stackrel{q}{\to}& c'
        \\
@@ -57,6 +57,10 @@ from the [[product category]] of the category $C$ with its [[opposite category]]
     \right)
     \,.
   $$
+
++-- {: .query} 
+Note: when the symbol $\circ$ is used, it denotes traditional right-to-left order of composition. For those who prefer the left-to-right order, the symbol $;$ may be used in place of $\circ$. Further discussion of this should go to the nForum page [here](https://nforum.ncatlab.org/discussion/7239/realigned-arrows-for-clarification-and-fixed-composition-order/). 
+=-- 
 
 More generally, for $V$ a [[closed monoidal category|closed]] [[symmetric monoidal category]] and $C$ a $V$-[[enriched category]], its hom-functor is the functor
 
