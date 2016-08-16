@@ -148,7 +148,7 @@ We can test locally if a morphism is a Cartesian fibration:
 +-- {: .un_prop}
 ###### Proposition
 
-An [[inner fibration]] $p : X \to Y$ is Cartesian precisely if for each $n \leq 2$ and for every $n$-[[simplex]] $\sigma : \Delta[n] \to Y$ the [[sSet]]-[[pullback]] $\sigma^* p : X \times_Y \Delta[n]$ in
+An [[inner fibration]] $p : X \to Y$ is Cartesian precisely if for each $n \leq 2$ and for every $n$-[[simplex]] $\sigma : \Delta[n] \to Y$ the [[sSet]]-[[pullback]] $\sigma^* p : X \times_Y \Delta[n] \to \Delta[n]$ in
 
 $$
   \array{
