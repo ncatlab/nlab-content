@@ -110,7 +110,8 @@ which exhibits the [[infinity-action]] (by the discussion there) of $S^1$ on $\m
 
 =--
 
-This is due to [Vigu&#233;-Burghelea 85, theorem A](#VigueBurghelea85)
+This is due to ([Vigu&#233;-Burghelea 85, theorem A](#VigueBurghelea85)).
+
 
 ## Examples
 
@@ -182,7 +183,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\hat \mathfrak{g} \to \mathfrak{g}$ be a [[central extension|central]] [[Lie algebra extension]] by $\mathbb{R}$ of a finite dimensional Lie algebra $\mathfrak{g}$, and let $\mathfrak{g} \longrightarrow b \mathbb{R}$ be the corresponding [[L-∞ algebra cohomology|L-∞ 2-cocycle]] with coefficients in the [[line Lie n-algebra|line Lie 2-algebra]] $b \mathbb{R}$, hence so that there is a [[homotopy fiber sequence]] of [[L-∞ algebras]]
+Let $\hat \mathfrak{g} \to \mathfrak{g}$ be a [[central extension|central]] [[Lie algebra extension]] by $\mathbb{R}$ of a finite dimensional Lie algebra $\mathfrak{g}$, and let $\mathfrak{g} \longrightarrow b \mathbb{R}$ be the corresponding [[L-∞ algebra cohomology|L-∞ 2-cocycle]] with coefficients in the [[line Lie n-algebra|line Lie 2-algebra]] $b \mathbb{R}$, hence ([[schreiber:The brane bouquet|FSS 13, prop. 3.5]]) so that there is a [[homotopy fiber sequence]] of [[L-∞ algebras]]
 
 $$
   \hat \mathfrak{g}
@@ -190,15 +191,15 @@ $$
   \mathfrak{g}
     \overset{\omega_2}{\longrightarrow}
   b \mathbb{R}
-  \,.
 $$
 
-Dually this is modeled by
+which is dually modeled by
 
 $$
   CE(\hat \mathfrak{g})
     =
-  ( \wedge^\bullet ( \mathfrak{g}^\ast \oplus \langle e \rangle ), d_{\hat \mathfrak{g}}|_{\mathfrak{g}^\ast} = d_{\mathfrak{g}},\;  d_{\hat \mathfrak{g}} e = \omega_2).
+  ( \wedge^\bullet ( \mathfrak{g}^\ast \oplus \langle e \rangle ), d_{\hat \mathfrak{g}}|_{\mathfrak{g}^\ast} = d_{\mathfrak{g}},\;  d_{\hat \mathfrak{g}} e = \omega_2)
+  \,.
 $$
 
 For $X$ a space with [[Sullivan model]] $(A_X,d_X)$ write $\mathfrak{l}(X)$ for the corresponding [[L-∞ algebra]], i.e. for the $L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] is $(A_X,d_X)$:
