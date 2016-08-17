@@ -15,7 +15,7 @@
 
 ## Idea
 
-What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] in the presence of [[branes]]: a KK-reduction of a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates results in a $d$-dimensional effective spacetime with a $p+1$-brane and with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that wrapped the compactify cycle.
+What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mechanism]] combined with [[fiber integration]] in the presence of [[branes]]: given a [[spacetime]] of [[dimension]] $d+1$ in which a $p+1$-[[brane]] propagates, its KK-reduction results in a $d$-dimensional effective spacetime containing a $p+1$-brane together with a "doubly reduced" $p$-brane, which is the reduction of those original $(p+1)$-brane configurations that [[wrapped brane|wrapped]] the cycle along wich the KK-reduction rakes place.
 
 ## Definition
  {#Definition}
@@ -125,8 +125,8 @@ In particular
 
 The above "brane scan" table showing the double dimensional reduciton pattern of the super-$p$-branes given by the [[Green-Schwarz action functional]] (see there for more references on this) is taken from 
 
-* [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
- {#Duff}
+* {#Duff} [[Michael Duff]], _Supermembranes: the first fifteen weeks_ CERN-TH.4797/87 (1987) ([scan](http://ccdb4fs.kek.jp/cgi-bin/img/allpdf?198708425))
+ 
 
 
 ### Reduction of membrane to string
