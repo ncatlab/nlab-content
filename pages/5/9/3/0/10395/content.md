@@ -72,10 +72,10 @@ The term "caloron correspondence" originates in
 
 A review and further developments are in
 
-* [[Michael Murray]], Raymond F. Vozzo, _The caloron correspondence and higher string classes for loop groups_, J. Geom. Phys., 60(9):1235-1250, 2010 ([arXiv:0911.3464](http://arxiv.org/abs/0911.3464))
+* [[Michael Murray]], [[Raymond Vozzo]], _The caloron correspondence and higher string classes for loop groups_, J. Geom. Phys., 60(9):1235-1250, 2010 ([arXiv:0911.3464](http://arxiv.org/abs/0911.3464))
 
 See also
 
-* Pedram Hekmati, [[Michael Murray]], Raymond Vozzo, _The general caloron correspondence_, J. Geom. Phys., 62(2):224-241, 2012 ([arXiv:1105.0805](http://arxiv.org/abs/1105.0805))
+* Pedram Hekmati, [[Michael Murray]], [[Raymond Vozzo]], _The general caloron correspondence_, J. Geom. Phys., 62(2):224-241, 2012 ([arXiv:1105.0805](http://arxiv.org/abs/1105.0805))
 
 [[!redirects caloron correspondences]]
