@@ -44,7 +44,7 @@ There are several other characterizations of the finite dual. Alternative termin
 
 ## Actions on duals
 
-We define here left actions &#8640; ($\rightharpoonup$), &#8641; ($\rightharpoondown$) and right actions &#8637; ($\leftharpoonup$), &#8636; ($\leftharpoondown$).
+We define here left actions &#8640; (or in LaTeX $\rightharpoonup$), &#8641; (LaTeX $\rightharpoondown$) and right actions &#8637; (LaTeX $\leftharpoondown$), &#8636; (LaTeX $\leftharpoonup$).
 
 (Montgomery 1.6.5) If $C$ is a coalgebra, and $C^*$ the dual algebra, then $C^*$ acts from the left on $C$ by the transpose to the left multiplication
 
@@ -117,9 +117,16 @@ Related $n$Lab entries: [[dual]], [[Heisenberg double]], [[gebra]]
 Quite detailed treatment of duality of gebras is in
 
 * Sorin D&#259;sc&#259;lescu, Constantin N&#259;st&#259;sescu, Serban Raianu, _Hopf algebras: an introduction_, Marcel & Dekker 2000
+
+Other sources are
+
 * Susan Montgomery, _Hopf algebras and their actions on rings_, AMS 1994, 240 pp.
 * Shahn Majid, _Foundations of quantum group theory_, Cambridge Univ. Press
 * Eiichi Abe, _Hopf algebras_, Cambridge Tracts in Mathematics 74, 1977
+
+and for gebras with involution 
+
+* A. van Daele, _Dual pairs of Hopf $\ast$-algebras_,  Bull. London Math. Soc. (1993) 25 (3): 209-230 [doi](http://dx.doi.org/10.1112/blms/25.3.209)
 
 [[Cartier duality]] and related earlier issues on [[linearly compact topological spaces]] due Dieudonn&#233; are in the first chapter of 
 
@@ -132,6 +139,12 @@ Some newer applications are in
 Duality of dg-algebras vs. dg-coalgebras is studied recently in great detail in
 
 * Matthieu Anel, [[André Joyal]], _Sweedler Theory for (co)algebras and the bar-cobar constructions_, 260 pp. [arxiv/1309.6952](http://arxiv.org/abs/1309.6952); cf. also Boston 2012 [slides](http://thales.math.uqam.ca/~anelm/mat/doc/boston.pdf)
+
+Some special cases of finite duals are treated in
+
+* Stephen Donkin, _On the Hopf algebra dual of an enveloping algebra_, Math. Proc. Camb. Phil. Soc. (1982), 91, 215-224, [doi](http://dx.doi.org/10.1017/S0305004100059260)
+* Jahn Astrid, _The finite dual of crossed products_, thesis, [pdf](http://theses.gla.ac.uk/6158/1/2015jahnphd.pdf)
+* MathOverflow: [Hopf algebra duality and algebraic groups](http://mathoverflow.net/questions/31237/hopf-algebra-duality-and-algebraic-groups)
 
 [[!redirects dual gebras]]
 [[!redirects Hopf pairing]]
