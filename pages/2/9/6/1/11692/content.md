@@ -23,7 +23,7 @@ The Albanese variety $Alb(X)$ of a [[projective variety|projective]] [[algebraic
 
 ## Definition
 
-By 'variety' let us mean a projective algebraic variety.  Given any variety $X$ with a chosen basepoint there is an abelian variety called the **Albanese variety** $Alb(X)$.  This is defined by the following universal property: there is a map of pointed varieties called the **Albanese map**
+By 'variety' let us mean a connected projective algebraic variety.  Given any variety $X$ with a chosen basepoint there is an abelian variety called the **Albanese variety** $Alb(X)$.  This is defined by the following universal property: there is a map of pointed varieties called the **Albanese map**
 
 $$i_X \colon X \to A(X)$$ 
 
@@ -43,14 +43,13 @@ from pointed varieties to abelian varieties which has a right adjoint
 
 $$ U: AbVar \to Var_* $$
 
-sending any abelian variety to its underlying pointed variety.  The right adjoint $U$ is fully faithful: most notably, any basepoint-preserving map of varieties between abelian varieties is automatically a group homomorphism.    Moreover, $U$ is [[monadic functor|monadic]].   The composite functor
+sending any abelian variety to its underlying pointed variety.  The right adjoint $U$ is [[faithful functor|faithful]], but more remarkably it is also [[full functor|full]]: any basepoint-preserving map of varieties between abelian varieties is automatically a group homomorphism.  (A proof of this fact is outlined in the article [[abelian variety]].)   Moreover, $U$ is [[monadic functor|monadic]].   As a consequence the composite functor
 
 $$ T = U \circ Alb $$
 
 is an [[idempotent monad]] on $Var_*$, and its algebras are the abelian varieties. 
 
-It follows that the Albanese map $i_X \colon X \to A(X)$ is the unit of the monad $T$, and $Alb(Alb(X)) \cong Alb(X)$.
-
+It follows that the Albanese map $i_X \colon X \to A(X)$ is the unit of the monad $T$, and $Alb(Alb(X)) \cong Alb(X)$.   For more details, see the nCaf&#233; discussion [Two miracles in algebraic geometry](https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html).
 
 ## Properties 
 
