@@ -46,6 +46,8 @@ A discussion of $n$-Lie algebras (without the $L_\infty$-grading) is in
 
 * v. T. Filippov, _$n$-Lie algebras_, Sib. Math. Zh. No 6 126--140 (195)
 
+* v. T. Filippov, _On the $n$-Lie algebra of Jacobians_, Sibirsk. Mat. Zh., 1998, Volume 39, Number 3, Pages 660&#8211;669 ([English translation](http://link.springer.com/article/10.1007%2FBF02673915))
+
 * A. S. Dzhumadil'daev, _Wronskians as $n$-Lie multiplications_ ([arXiv:math/0202043](http://arxiv.org/abs/math/0202043))
 
 Similar (but different) discussion is in 
