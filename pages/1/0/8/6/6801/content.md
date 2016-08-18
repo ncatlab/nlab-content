@@ -43,5 +43,9 @@ Construction within [[F-theory]] is discussed in
 
 * Lakshya Bhardwaj, Michele Del Zotto, [[Jonathan Heckman]], [[David Morrison]], Tom Rudelius, [[Cumrun Vafa]], _F-theory and the Classification of Little Strings_ ([arXiv:1511.05565](http://arxiv.org/abs/1511.05565))
 
+See also
+
+* Mina Aganagic, _Some mathematical applications of little string theory_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](http://ymsc.tsinghua.edu.cn:8090/strings/slides/8.1/Aganagic%20v2.pdf))
+
 
 [[!redirects little string theories]]
