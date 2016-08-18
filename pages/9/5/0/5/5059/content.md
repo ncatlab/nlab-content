@@ -55,7 +55,7 @@ $$
 
 The first step in this implications (spinning string is superstring) is straightforward, but the second step appears as a miracle from the point of view of the NSR string. It comes out this way by non-trivial computation, but is not manifest in the theory.
 
-In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84)) a suitably equivalent string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
+In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
 |----|---|
@@ -794,6 +794,11 @@ The observation that this has a [[general covariance|generally covriant]] formul
 * {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
 
 * {#GreenSchwarzWitten} [[Michael Green]], [[John Schwarz]], _Properties of the Covariant Formulation of Superstring Theories_, Nucl. Phys. B 243 (1984) 285.
+
+See also the historical comments in
+
+* {#Schwarz16} [[John Schwarz]], slides 24-25 of _String Theory in the Twentieth Century_, talk at [Strings 2016](http://ymsc.tsinghua.edu.cn:8090/strings/) ([pdf](http://ymsc.tsinghua.edu.cn:8090/strings/slides/8.1/Schwarz.pdf))
+
  
 A standard textbook reference for the GS superstring is 
 
