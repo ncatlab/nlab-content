@@ -111,7 +111,7 @@ _Globular_ can currently present string-diagram visualizations of 0-, 1- and 2-d
 * **Project.** This determines the number of dimensions to be projected; it can take any value $p$ in the range $0 \leq p \leq k$. Projecting a dimension causes it to be effectively ignored by _Globular_; it is as if you are looking at a shadow of the true image. The resulting diagrams are exactly the _singularity graphics_ which are a common tool in [[Morse theory|higher Morse theory]].
 * **Slice.** Having decided to project out $p$ dimensions, and supposing the image being displayed is $v$-dimensional (for $v \in \{0,1,2\}$), that leaves $k - p - v$ dimensions still to be handled. If this sum is positive, coordinates must be chosen using the slice controls to position the view within an appropriate $v$-dimensional subdiagram.
 
-You can also zoom the main diagram using the scroll wheel of your mouse, and scroll around by clicking-and-dragging with the right mouse button (on a Mac trackpad, this is a double-fingered press-hard-and-drag.)
+You can also zoom the main diagram using the scroll wheel of your mouse, and scroll around by clicking-and-dragging with the right mouse button (on a Mac trackpad, this is a two-fingered press-hard-and-drag. Yes, this really is a thing. If it doesn't seem to work, you're not pressing hard enough---the trackpad should 'click' under your fingers.)
 
 ### Technical implementation details
 
