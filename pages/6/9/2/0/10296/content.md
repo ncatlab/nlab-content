@@ -128,6 +128,10 @@ and for gebras with involution
 
 * A. van Daele, _Dual pairs of Hopf $\ast$-algebras_,  Bull. London Math. Soc. (1993) 25 (3): 209-230 [doi](http://dx.doi.org/10.1112/blms/25.3.209)
 
+Hit-actions are recently studied in
+
+* M. Cohen, S. Westreich, _Hit-actions and commutators for Hopf algebras_, Bull. Math. Soc. Sci. Math. Roumanie __56__(104) No. 3, 2013, 299--313 [pdf](http://ssmr.ro/bulletin/pdf/56-3/articol_4.pdf)
+
 [[Cartier duality]] and related earlier issues on [[linearly compact topological spaces]] due Dieudonn&#233; are in the first chapter of 
 
 * [[Jean Dieudonné]], _Introduction to the theory of formal groups_, Marcel Dekker, New York 1973.
