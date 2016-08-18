@@ -81,7 +81,7 @@ $$
 $$
 
 
-### Relation toequivariant homotopy theory
+### Relation to equivariant homotopy theory
 
 The $G$-orbit category is the [[slice (∞,1)-category]] of the [[global orbit category]] $Orb$ over the [[delooping]] $\mathbf{B}G$:
 
