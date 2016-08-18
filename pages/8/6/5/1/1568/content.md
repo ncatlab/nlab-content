@@ -111,6 +111,8 @@ In the commutative case, we can characterize an ideal $I$ as prime if it is prop
 
 For noncommutative rigs, however, a two-sided ideal $P$ is prime if it satisfies a weaker binary condition: $(\forall_{x: R} a x b \in P) \Rightarrow a \in P \vee b \in P$. For example, in a [[matrix ring]] $M_n(k)$ over a field $k$, the zero ideal is prime under our definition (really because a matrix ring is a [[simple ring]], where the zero ideal is a maximal ideal), but $a b = 0$ does not imply $a = 0$ or $b = 0$. When the stronger binary condition is satisfied, we say $P$ is *completely prime*. 
 
+An ideal $I$ is a __nil ideal__ if for every $x\in I$, there is an $n\in \mathbb{N}$ with $x^n=0$. That is, every element of the ideal is nilpotent. If on the other hand, there is an $n\in \mathbb{N}$, such that for every $x\in I$, $x^n=0$, the ideal is called __nilpotent__.
+
 +-- {: .num_prop} 
 ###### Proposition 
 A maximal ideal $M$ is prime. 
