@@ -112,13 +112,18 @@ Fact that Poincar&#233; group is a semidirect product.
 
 ## References
 
-The observation that the irreps of the Poincar&#233; group correspond to [[fundamental particle]]s as well as much of the classification is due to
+The observation that the irreps of the Poincar&#233; group correspond to [[fundamental particles]] ([[Wigner classification]]) is due to
 
 * [[Eugene Wigner]], _On unitary representations of the inhomogeneous Lorentz group_ , Ann. Math. **40**, 149 (1993)
 
-A survey is for instance in section I.3.1
+Review includes
 
-* [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_
+* [[Rudolf Haag]], section I.3.1  of _[[Local Quantum Physics -- Fields, Particles, Algebras]]_
+
+* {#Schroer96} [[Bert Schroer]], _Wigner Representation Theory of the Poincar&#233;
+Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.ch/record/308785/files/9608092.pdf))
+
+* [[Xavier Bekaert]], Nicolas Boulanger, _The unitary representations of the Poincare group in any spacetime dimension_ ([arXiv:hep-th/0611263](http://arxiv.org/abs/hep-th/0611263))
 
 
 [[!redirects unitary irrep of the Poincare group]]
