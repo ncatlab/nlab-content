@@ -23,7 +23,7 @@ The Albanese variety $Alb(X)$ of a [[projective variety|projective]] [[algebraic
 
 ## Definition
 
-By 'variety' let us mean a connected projective algebraic variety.  Given any variety $X$ with a chosen basepoint there is an abelian variety called the **Albanese variety** $Alb(X)$.  This is defined by the following universal property: there is a map of pointed varieties called the **Albanese map**
+By 'variety' let us mean a connected complete algebraic variety over an algebraically closed field.  Given any variety $X$ with a chosen basepoint there is an abelian variety called the **Albanese variety** $Alb(X)$.  This is defined by the following universal property: there is a map of pointed varieties called the **Albanese map**
 
 $$i_X \colon X \to A(X)$$ 
 
