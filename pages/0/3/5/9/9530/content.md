@@ -26,6 +26,12 @@
 
 The notion of  _Tannakian category_ is an abstraction of the kind of data that enters the _[[Tannaka reconstruction theorem]]_: it is a suitable [[monoidal category]] $\mathcal{C}$ -- playing the role of a category of [[representations]]/[[actions]] of some algebraic structure over some [[base ring]] $R$ -- and equipped with a [[monoidal functor]] $\mathcal{C} \to R Mod$ to $R$-[[modules]] or similar -- playing the role of the [[forgetful functor]] which forgets the [[action]] (the "[[fiber functor]]").
 
+## Related concepts
+
+* [[Tannaka duality]]
+
+* [[Deligne's theorem on tensor categories]]
+
 ## References
 
 * N. Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Lecture Notes in Mathematics 265, Springer-Verlag, Berlin-New York, (1972).
