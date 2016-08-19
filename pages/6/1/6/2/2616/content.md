@@ -33,7 +33,11 @@ $$(\mathbb{R} \oplus \mathbb{R}^3) \rtimes O(1, 3)$$
 
 where $O(1, 3)$, the **Lorentz group**, consists of all _linear_ transformations $L: \mathbb{R}^4 \to \mathbb{R}^4$ that preserve the Minkowski inner product of signature $(1, 3)$. 
 
-## Basic structure of the Lorentz group 
+This is a linear [[algebraic group]] (e.g. [arXiv:0905.1217, p. 6-7](http://arxiv.org/abs/0905.1217)).
+
+## Properties
+
+### Basic structure of the Lorentz group 
 
 The [[Lorentz group]] is a 6-dimensional [[Lie group]]. It has four connected components; the [[connected space|connected component]] of the identity is called the **special Lorentz group** and is denoted $SO^+(1, 3)$. 
 
@@ -67,7 +71,7 @@ $$v \mapsto \sinh(\beta)u_t + \cosh(\beta)v$$
 
 for some parameter $\beta$ (called the **rapidity**), and acting as the identity on the spatial plane orthogonal to $v$. Thus a boost is described by a pair $(v, \beta)$, involving 3 parameters. (Warning: boosts do not compose to form a subgroup.) A boost can be thought of as a relativistic coordinate change from a "laboratory" frame of reference to the frame of reference of an observer moving inertially in the direction $v$ with speed $\tanh(\beta)$ (relative to the speed of light $c = 1$), as measured in the laboratory frame. 
 
-## Universal spin covering 
+### Universal spin covering 
  {#UniversalSpinCovering}
 
 We discuss aspects of the [[Poincaré spinor group]].
@@ -149,7 +153,7 @@ Similarly the lift to the double covers $SU(2) \to SL_2(\mathbb{C})$ is a homoto
 
 * **Remark:** Geometrically the space of boosts carries hyperbolic structure as well, in other words the space of boosts carries a structure of hyperbolic 3-space $H^3$. 
 
-## Lie algebra presentations 
+### Lie algebra presentations 
 
 As for any Lie group, there are various mechanisms for describing the [[Lie algebra]]s of the Lorentz group and of the Poincar&#233; group: by left-invariant [[vector field]]s, or by studying "infinitesimal generators" of 1-parameter subgroups, etc. We begin with the Lorentz group. See also [[Poincaré Lie algebra]].
 
@@ -221,7 +225,7 @@ for every $g$ in the Poincar&#233; group. Thus the representation of the Poincar
 
 In particular, an **elementary particle** in quantum physics is sometimes defined to be an [[unitary irreps of the Poincare group|irreducible unitary representation]] of the Poincar&#233; group on $L^2(\mathbb{R}^4)$. 
 
-## Unitary representations
+#### Unitary representations
 
 * [[unitary irrep of the Poincare group]]
 
