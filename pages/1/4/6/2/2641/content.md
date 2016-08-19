@@ -54,7 +54,7 @@ Relevant topics in a full account will include
 
 * [[rigged Hilbert space|Rigged Hilbert spaces]] and [[direct integral|direct integrals]]
 
-* [[induced representation]]s
+* [[induced representations]]
 
 * [[helicity]], [[spin]]
 
@@ -96,7 +96,19 @@ A rigged Hilbert space
 
 Simultaneous diagonalization. 
 
-Fact that Poincar&#233; group is a semidirect product. 
+Fact that Poincar&#233; group is a [[semidirect product group]]. 
+
+
+Let $\vec p \in \mathbb{R}^{d-1,1}$ be a given vector in [[Minkowski spacetime]]. Write 
+
+$$
+  Stab_{Iso(\mathbb{R}^{d-1,1}))}(\vec p)
+    \hookrightarrow
+  Iso(\mathbb{R}^{d-1,1})
+$$ 
+
+for its [[stabilizer subgroup]] (often called _the little group_ in this context, going back to Wigner). Every unitary irrep of $Iso(\mathbb{R}^{d-1,1})$ of mass $p$ is an [[induced representation]] of a finite dimensional representation of the "little group" $Stab_{Iso(\mathbb{R}^{d-1,1}))}(\vec p)$. (recalled concisely e.g. in [Dragon 16, p. 2](#Dragon16)).
+
 
 ## Related concepts
 
@@ -126,6 +138,8 @@ Group, Localization, Statistics and the S-Matrix_, 1996  ([pdf](http://cds.cern.
 * Eberhard Freitag, _Unitary representations of the Poincar&#233; group_ ([pdf](http://www.rzuser.uni-heidelberg.de/~t91/skripten/unitdarst.pdf))
 
 * [[Xavier Bekaert]], Nicolas Boulanger, _The unitary representations of the Poincare group in any spacetime dimension_ ([arXiv:hep-th/0611263](http://arxiv.org/abs/hep-th/0611263))
+
+* {#Dragon16} [[Norbert Dragon]], _Currents for Arbitrary Helicity_ ([arXiv:1601.07825](http://arxiv.org/abs/1601.07825))
 
 
 [[!redirects unitary irrep of the Poincare group]]
