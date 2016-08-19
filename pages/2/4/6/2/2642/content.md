@@ -36,8 +36,13 @@ A representation that has proper nontrivial subrepresentations but can not be de
 
 * [[fundamental representation]]
 
-* In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_.
+* In [[quantum physics]] an irreducible representation of an [[algebra of observables]] is called a _[[superselection sector]]_. 
 
+  In [[Wigner classification]] the irreps of the [[spacetime]] symmetry groups are identified with [[elementary particle]] species.
+
+## References
+
+* Wikipedia, _[Irreducible representation](https://en.wikipedia.org/wiki/Irreducible_representation)_
 
 [[!redirects irreducible representations]]
 
