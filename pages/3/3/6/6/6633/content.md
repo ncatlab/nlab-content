@@ -20,11 +20,13 @@ Gel'fand and Likhtman showed that with a slight extension of the concept of Lie 
 
 ## References
 
+* Sidney Coleman, Jeffrey Mandula, _All Possible Symmetries of the S Matrix_, Physical Review __159__ (5): 1251--1256 (1967)
+
 * [[I. M. Gel'fand]], E. S. Likhtman, JETP Letters __13__, 323 (1971)
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Coleman%E2%80%93Mandula_theorem) (English)
+Review includes
 
-* Sidney Coleman, Jeffrey Mandula, _All Possible Symmetries of the S Matrix_, Physical Review __159__ (5): 1251--1256 (1967)
+* [Wikipedia](http://en.wikipedia.org/wiki/Coleman%E2%80%93Mandula_theorem) (English)
 
 
 [[!redirects Coleman-Mandula theorem]]
