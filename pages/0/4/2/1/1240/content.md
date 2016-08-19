@@ -376,16 +376,25 @@ _[[Zuckerman induction]]_. See there for more details.
 ### Traditional formulation
  {#ReferencesTraditionalFormulation}
 
+Original articles includes
+
+* {#Mackey52} [[George Mackey]], _Induced Representations of Locally Compact Groups I_, Annals of Mathematics, 55 (1952) 101&#8211;139; 
+
+* {#Mackey53} [[George Mackey]], _Induced Representations of Locally Compact Groups II_, Annals of Mathematics, 58 (1953) 193&#8211;221; 
+
+* {#Mackey68} [[George Mackey]], _Induced Representations of Groups and Quantum Mechanics_, W. A. Benjamin, New York, 1968
+
+
 Textbook accounts include
 
-* C. Curtis and I. Reiner, _Methods of Representation Theory with applications to finite groups and orders_, Wiley (1987)
- {#CR}
+* {#CR} C. Curtis and I. Reiner, _Methods of Representation Theory with applications to finite groups and orders_, Wiley (1987)
+ 
 
 
 Lecture note with standard material on induced representations and [[Frobenius reciprocity]] include
 
-* Peter Woit, _Induced representations and Frobenius Reciprocity_ ([pdf](http://www.math.columbia.edu/~woit/LieGroups-2012/inducedreps.pdf))
- {#Woit}
+* {#Woit} Peter Woit, _Induced representations and Frobenius Reciprocity_ ([pdf](http://www.math.columbia.edu/~woit/LieGroups-2012/inducedreps.pdf))
+ 
 
 MO discussion includes
 
@@ -408,8 +417,8 @@ and related discussion is in
 
 The [general abstract formulation](#GeneralAbtractDefinition) above is mentioned (for [[discrete groups]] and their [[permutation representations]]) in 
 
-* [[Bill Lawvere]], _Adjointness in foundations_, Reprints in Theory and Applications of Categories, No. 16, 2006, pp. 1&#8211;16. ([pdf](http://www.tac.mta.ca/tac/reprints/articles/16/tr16.pdf))
- {#Lawvere}
+* {#Lawvere} [[Bill Lawvere]], _Adjointness in foundations_, Reprints in Theory and Applications of Categories, No. 16, 2006, pp. 1&#8211;16. ([pdf](http://www.tac.mta.ca/tac/reprints/articles/16/tr16.pdf))
+ 
  
 The general case of $\infty$-groups in $\infty$-toposes is further discussed in 
 
