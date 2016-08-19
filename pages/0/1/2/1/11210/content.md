@@ -4,7 +4,7 @@
 ## Links
 
 * _George Mackey (1916&#8211;2006)_, Notices of the American Mathematical Society; vol. 54, no. 7 (August 2007) ([pdf](http://www.ams.org/notices/200707/tx070700824p.pdf)).
-* David Mumford, [George Mackey](http://www.amphilsoc.org/sites/default/files/proceedings/1520411.pdf).
+* [[David Mumford]], [George Mackey](http://www.amphilsoc.org/sites/default/files/proceedings/1520411.pdf).
 * [Harvard commemorative website](http://www.math.harvard.edu/history/mackey/index.html)
 
 ##Publications
@@ -16,6 +16,8 @@ This is reprinted with other essays in
 * _The Scope and History of Commutative and Noncommutative Harmonic Analysis_, AMS, 1992.
 
 ##Related concepts
+
+* [[induced representation]], [[Wigner classification]]
 
 * [[Mackey functor]]
  
