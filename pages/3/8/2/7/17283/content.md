@@ -120,7 +120,7 @@ Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid},
 
 An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
-Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a commutative [[Hopf algebra]] $\Gamma$ over $A$.
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a **commutative [[Hopf algebra]]** $\Gamma$ over $A$.
 
 =--
 
@@ -1207,6 +1207,9 @@ Therefore also the top morphism is an iso.
 
 =--
 
+## Related concepts
+
+* [[Deligne's theorem on tensor categories]]
 
 
 ## References
@@ -1243,3 +1246,13 @@ See also
 
 [[!redirects graded commutative Hopf algebroid]]
 [[!redirects graded commutative Hopf algebroids]]
+
+[[!redirects commutative Hopf algebra]]
+[[!redirects commutative Hopf algebras]]
+
+[[!redirects graded commutative Hopf algebra]]
+[[!redirects graded commutative Hopf algebras]]
+
+[[!redirects super-commutative Hopf algebra]]
+[[!redirects super-commutative Hopf algebras]]
+
