@@ -2,6 +2,8 @@ This entry is about [[Pierre Deligne]]'s article
 
 * __Cat&#233;gories Tannakiennes__, [[Grothendieck Festschrift]], vol. II,  Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
 
+on [[Tannakian categories]]
+
 The main theorem is a [[Tannaka duality|Tannakian reconstruction theorem]], which repairs a problem in the book 
 
 * N. Saavedra Rivano, _Cat&#233;gories Tannakiennes_, Springer LNM 265, 1972 
