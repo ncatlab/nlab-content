@@ -47,6 +47,7 @@ We can think of $G$ as a groupoid, $\mathbf{B}G$, (the [[delooping]] of $G$), an
 In a rather general form, we therefore have a __representation__ of a category $C$ in a category $D$ is simply a [[functor]] $F\colon C \to D$.  Similarly, an [[homomorphism]] between representations ("[[intertwiner]]") is simply a [[natural transformation]] between functors when they are being thought of as representations.
 
 The term 'representation' is most often used when one or more of the following conditions apply:
+
 *  $D$ is the category $k$-[[Vect]] of vector spaces over some [[field]] $k$; one then has a __$k$-linear representation__.
 *  $C$ is the [[delooping]] of a [[group]]; one then has a __group representation__ in $D$.  Such a representation gives us a specific object $V$ of $D$; we say that we have a representation of $G$ on $V$.
 *  $C$ is the [[free category]] on a [[quiver]]; one then has a __quiver representation__.
