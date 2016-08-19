@@ -36,6 +36,8 @@ The notion of  _Tannakian category_ is an abstraction of the kind of data that e
 
 The relation to [[motives]] is disucssed in
 
+* [[Pierre Deligne]], [[James Milne]], _Tannakian categories_ ([web](http://www.jmilne.org/math/xnotes/tc.html))
+
 * [[Pierre Deligne]], [[James Milne]], A. Ogus, K-y Shih, _Hodge cycles, motives, and Shimura varieties_, Lecture Notes in Mathematics, 900, Springer-Verlag, Berlin-New York, (1982).  [Annotated and corrected version (2012)](http://www.jmilne.org/math/xnotes/tc.pdf) (PDF).
 
 * [[Yves André]], _Une introduction aux motifs (motifs purs, motifs mixtes, p&#233;riodes)_,  Panoramas et Synth&#232;ses, 17, Paris: Soci&#233;t&#233; Math&#233;matique de France. (2004)
