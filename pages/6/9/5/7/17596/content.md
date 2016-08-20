@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 In [[type IIA string theory]] there appears 
@@ -10,9 +24,77 @@ In [[type IIA string theory]] there appears
 The gauge bosons of these [[gauge fields]] are the modes of the [[open strings]] stretching between these D-branes which become massless as the branes coincide.
 
 As the situation is lifted to [[M-theory]], the [[D0-branes]], [[D2-branes]] and [[D4-branes]] lift to [[M2-branes]] and [[M5-branes]], and the gauge enhancement is thought to be similarly reflected on these [[M-branes]] (as exhibited for the [[M2-branes]] by the [[BLG-model]] and [[ABJM-model]]).
-On the other hand, the [[D6-brane]] lifts not to an [[M-brane]], but to a configuration of the field of [[gravity]]: the 11d [[Kaluza-Klein monopole]].
+On the other hand, the [[D6-brane]] lifts not to an [[M-brane]], but to a configuration of the [[field (physics)|field]] of [[11-dimensional supergravity]]: the 11d [[Kaluza-Klein monopole]].
 
-Here we discuss how the gauge enhancement on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. This is due to ([Sen 97](#Sen97))
+Here we discuss how the gauge enhancement on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. This is due to ([Sen 97](#Sen97)).
+
+## Construction
+
+### $A_{N-1}$-singularity and $SU(N)$-gauge enhancement
+
+The 11d multi-centered [[Kaluza-Klein monopole]] [[spacetime]] has [[metric tensor]] of the form
+
+$$
+  ds^2 
+     \coloneqq 
+    - d t^2 
+    + \underoverset{n = 5}{10}{\sum} d y^n d y^n
+    + ds^2_{TN}
+  \,,
+$$
+
+where 
+
+$$
+  ds^2_{TN} 
+    \coloneqq
+  V^{-1}( d x^4 + \vec \omega \cdot d \vec r )^2 + V d \vec r^2
+$$
+
+is the metric tensor of the multi-centered [[Taub-NUT space]], with $x^4$ the canonical coordinate on a [[circle]] and with 
+
+$$
+  V \coloneqq 1 + \underoverset{I = 1}{N}{\sum} \frac{4m}{{\vert \vec r - \vec r_I\vert}}
+$$
+
+and
+
+$$
+  \vec \nabla \times \vec \omega = - \vec \nabla V
+$$
+
+for $\{\vec r_I\}_{I =1}^N$ the set of positions of the KK-monopoles of mass $m$.
+
+Notice that the radius $16 \pi m V^{-1/2}$ of the $x^4$-circle vanishes precisely at the positions $\vec r_I$. Nevertheless, as long as  all the $\vec r_I$ are distinct, then the above is a smooth spacetime also at the positions of the $\vec r_I$ -- if the periodicity of $x^4$ is taken to be $16 \pi m$. 
+But with this periodicity fixed, then as the $N$ monopole positions $\vec r_I$ coincide, then the resulting metric has a [[conical singularity]] at that point, of type $A_{N-1}$, i.e. with a [[deficit angle]] as induced by the canonical action of the [[cyclic group]] $\mathbb{Z}/N$ on [[Cartesian space]] $\mathbb{R}^3$.
+
+<div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div>
+To see where the gauge enhancement arises from in this singular case, observe that in the non-singular configuration there are $N-1$ linearly indepent 2-[[cycles]] $S_{i j}$ in the multi-center KK-monopole spacetime, represented by the the [[2-spheres]] that are swept out by the circle fiber as it moves from $\vec r_i$ to $\vec r_j$ (remembering that the circle fiber radius vanishes precisely at the positions $\vec r_I$). 
+
+
+For the canonical choice of straight path between $\vec r_i$ and $\vec r_j$ (and arbitrary fixed position in the remaining 7 dimensions) then the [[surface]] [[area]] of these [[2-spheres]] is
+
+$$
+  vol(S_{i j}) = 16 \pi m  {\vert \vec r_i - \vec r_j\vert}
+  \,.
+$$
+
+For any other choice of path the surface area will be larger. Hence an [[M2-brane]] with tension $T_{M2}$ [[wrapped brane|swrapping]] the 2-[[cycle]] $S_{i j}$ has minimal tension energy when in the configuration of these spheres, namely
+
+$$
+  m_{i j} = 16 \pi m T_{M2} {\vert \vec r_i - \vec r_j\vert}
+  \,.
+$$
+
+The type IIA limit is given by $m \to 0$. In this limit the [[M2-branes]] wrapping the above cycles become the type IIA [[superstring]] by [[double dimensional reduction]], the [[KK-monopoles]] become the [[D6-branes]], and it is evident from the geometry that the membrane warpping $S_{i j}$ becomes an [[open string]] strentching between the $i$th and the $j$th D6-brane.
+
+In the limit $m \to 0$ the D6-branes coincide,the strings stretching between them become massless (in accord with the above formula for the wrapped M2-brane mass), and become the gauge bosons of an $SU(N)$ [[Chan-Paton gauge field]].
+
+This gauge enhancement hence must have been present above in the M-theory situation, too.
+
+## Related concepts
+
+[[!include F-branes -- table]]
 
 ## Refrences
 
