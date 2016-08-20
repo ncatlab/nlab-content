@@ -40,8 +40,11 @@ The setup is reminiscent of how the [[deformation quantization]] of the phase sp
 
 The main original article is
 
-* [[Sergei Gukov]], [[Edward Witten]], _Branes and Quantization_, Adv. Theor. Math. Phys. 13 (2009) 1&#8211;73, ([arXiv:0809.0305](http://arxiv.org/abs/0809.0305), [euclid](http://projecteuclid.org/euclid.atmp/1282054099))
- {#GukovWitten08}
+* {#GukovWitten08} [[Sergei Gukov]], [[Edward Witten]], _Branes and Quantization_, Adv. Theor. Math. Phys. 13 (2009) 1&#8211;73, ([arXiv:0809.0305](http://arxiv.org/abs/0809.0305), [euclid](http://projecteuclid.org/euclid.atmp/1282054099))
+ 
+Review includes
+
+* [[Constantin Teleman]], _[Branes and Representations](https://math.berkeley.edu/~teleman/classes/brepresentations)_,2016
 
 Earlier, suggestions that the A-model is related to [[deformation quantization]] had been given in 
 
