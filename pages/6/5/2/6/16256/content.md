@@ -62,9 +62,9 @@ Discussion as the [[fixed point]] of the [[circle group]]-[[action]] on the M-th
 
 > {#Witten01OnConicalSingularity} Chiral fermions arise when the locus of A&#8722;D&#8722;E singularities passes through isolated points at which X has an isolated conical singularity that is not just an orbifold singularity ([Witten 01, p. 2](#Witten01)).
   
-Discussion dealing carefully with the perspective where the locus of the [[D6 brane]] is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
+Discussion dealing carefully with the perspective where the locus of the [[D6-brane]] is not taken out is in ([Gaillard-Schmude 09](#GaillardSchmude09)).
 
-For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_.
+For more on this see at _[D6-brane -- Relation to other branes](D6-brane#RelationToOtherBranes)_ and at _[[M-theory lift of gauge enhancement on D6-branes]]_.
 
 
 ## Relation to the D7-brane in type IIB string theory/F-theory
