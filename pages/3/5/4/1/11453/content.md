@@ -1,3 +1,4 @@
+[[!redirects O-plane]]
 
 #Contents#
 * table of contents
@@ -12,6 +13,8 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 ## Related concepts
 
 * [[D-brane]]
+
+* [[M-theory lift of gauge enhancement on D6-branes]]
 
 ## References
 
