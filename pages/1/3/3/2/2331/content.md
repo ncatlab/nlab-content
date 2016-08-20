@@ -283,7 +283,9 @@ __253__, n. 1, 25--62 (2006) [doi](http://dx.doi.org/10.1007/s00209-005-0875-9);
 * [[Dennis Gaitsgory]], _Lie theory from the point of view of derived algebraic geometry_, Lecture notes from a mini-course, Nantes, 2014, [web](http://www.math.harvard.edu/~gaitsgde/Nantes14/).
 
 * Vladimir Dotsenko, Sergey Shadrin, [[Bruno Vallette]], _Pre-Lie deformation theory_, [arxiv/1502.03280](http://arxiv.org/abs/1502.03280)
- 
 
+* M. Gerstenhaber, S. D. Schack, _Algebras, bialgebras, quantum groups, and algebraic deformations_, in: Deformation theory and quantum groups with applications to mathematical physics (Amherst, MA, 1990), 51-92, Contemp. Math. __134__, Amer. Math. Soc. 1992.
+
+* Gregory Ginot, Sinan Yalin, _Deformation theory of bialgebras, higher Hochschild cohomology and formality_, [arxiv/1606.01504](http://arxiv.org/abs/1606.01504)
 [[!redirects deformation]]
 [[!redirects deformations]]
