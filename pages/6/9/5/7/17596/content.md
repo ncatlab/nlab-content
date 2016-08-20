@@ -15,18 +15,19 @@
 
 ## Idea
 
-In [[type IIA string theory]] there appears 
+It is well understood that in [[type IIA string theory]] there appears 
 
 * $SU(N)$ [[enhanced gauge symmetry]] on $N$-coincident [[D-branes]];
 
 * $SO(2N)$ enhanced gauge symmetry on $N$-coincident [[D-branes]] at an [[orientifold plane]].
 
-The gauge bosons of these [[gauge fields]] are the modes of the [[open strings]] stretching between these D-branes which become massless as the branes coincide.
+The physical picture of this effect is that the gauge bosons of these [[gauge fields]] are the modes of the [[open strings]] stretching between these D-branes which become massless as the branes coincide.
 
-As the situation is lifted to [[M-theory]], the [[D0-branes]], [[D2-branes]] and [[D4-branes]] lift to [[M2-branes]] and [[M5-branes]], and the gauge enhancement is thought to be similarly reflected on these [[M-branes]] (as exhibited for the [[M2-branes]] by the [[BLG-model]] and [[ABJM-model]]).
-On the other hand, the [[D6-brane]] lifts not to an [[M-brane]], but to a configuration of the [[field (physics)|field]] of [[11-dimensional supergravity]]: the 11d [[Kaluza-Klein monopole]].
+Now, as the situation is lifted to [[M-theory]], the [[D0-branes]], [[D2-branes]] and [[D4-branes]] lift to [[M2-branes]] and [[M5-branes]], and the gauge enhancement is thought to be similarly reflected on these [[M-branes]] (as exhibited for the [[M2-branes]] by the [[BLG-model]] and [[ABJM-model]]).
 
-Here we discuss how the gauge enhancement on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. This is due to ([Sen 97](#Sen97)).
+But for the [[D6-brane]] the situation is different: the [[D6-brane]] lifts not to an [[M-brane]], but to a configuration of the [[field (physics)|field]] of [[11-dimensional supergravity]]: the 11d [[Kaluza-Klein monopole]].
+
+Here we discuss the picture of how gauge enhancement on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. The explicit realization reviwed below is due to ([Sen 97](#Sen97)).
 
 ## Construction
 
@@ -66,7 +67,7 @@ $$
 for $\{\vec r_I\}_{I =1}^N$ the set of positions of the KK-monopoles of mass $m$.
 
 Notice that the radius $16 \pi m V^{-1/2}$ of the $x^4$-circle vanishes precisely at the positions $\vec r_I$. Nevertheless, as long as  all the $\vec r_I$ are distinct, then the above is a smooth spacetime also at the positions of the $\vec r_I$ -- if the periodicity of $x^4$ is taken to be $16 \pi m$. 
-But with this periodicity fixed, then as the $N$ monopole positions $\vec r_I$ coincide, then the resulting metric has a [[conical singularity]] at that point, of type $A_{N-1}$, i.e. with a [[deficit angle]] as induced by the canonical action of the [[cyclic group]] $\mathbb{Z}/N$ on [[Cartesian space]] $\mathbb{R}^3$.
+But with this periodicity fixed, then as the $N$ monopole positions $\vec r_I$ coincide, then the resulting metric has a [[conical singularity]] at that point, of [[ADE-singularity]] type $A_{N-1}$.
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="220" alt="ADE 2Cycle" /></div>
 To see where the gauge enhancement arises from in this singular case, observe that in the non-singular configuration there are $N-1$ linearly indepent 2-[[cycles]] $S_{i j}$ in the multi-center KK-monopole spacetime, represented by the the [[2-spheres]] that are swept out by the circle fiber as it moves from $\vec r_i$ to $\vec r_j$ (remembering that the circle fiber radius vanishes precisely at the positions $\vec r_I$). 
@@ -90,7 +91,40 @@ The type IIA limit is given by $m \to 0$. In this limit the [[M2-branes]] wrappi
 
 In the limit $m \to 0$ the D6-branes coincide,the strings stretching between them become massless (in accord with the above formula for the wrapped M2-brane mass), and become the gauge bosons of an $SU(N)$ [[Chan-Paton gauge field]].
 
-This gauge enhancement hence must have been present above in the M-theory situation, too.
+([Sen 97, section 2](Sen97))
+
+
+### $D_{N}$-singularity and $SO(2N)$-gauge enhancement
+
+Now consider the above setupmodified by replacing the [[Taub-NUT space]] with coordinates $(\vec r, x^4)$ by its $\mathbb{Z}/2$-[[orbifold]] given by the $\mathbb{Z}/2$-[[action]] with nontrivial operation given by
+
+$$
+  (\vec r, x^4) \mapsto (- \vec r, - x^4)
+$$
+
+and in the Taub-NUT metric replace $V$ by
+
+$$
+  V 
+    \coloneqq 
+  1 
+    - 
+  \frac{16m}{r}
+    +
+  \underoverset{i = 1}{N}{\sum}
+  \left(
+    \frac{4m}{\vert \vec r - \vec r_i\vert}
+    +
+    \frac{4m}{\vert \vec r + \vec r_i\vert}
+  \right)
+  \,.
+$$
+
+The type IIA image of the origin of this configuration is an [[orientifold plane]].
+
+Now as the $\vec r_i$ all approach 0 we get an 11d spacetime with a $D_N$-type [[ADE-singularity]], whose type IIA image is $N$ D6-branes coincident on an [[orientifold plane]].
+
+([Sen 97, section 3](Sen97))
 
 ## Related concepts
 
