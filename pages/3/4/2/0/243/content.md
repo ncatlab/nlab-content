@@ -366,7 +366,7 @@ Consider
 
 * $el W \to D^{op}$ the [[category of elements]] of $W$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 We have a natural isomorphism in $C$
@@ -386,7 +386,18 @@ category of elements of $W$.
 
 This is equation (3.34) in ([Kelly](#Kelly)) in view of (3.70).
 
-+-- {: .un_example}
++-- {: .num_cor}
+###### Corollary
+Any [[continuous functor]] preserves ends, and any cocontinuous functor preserves coends. In particular, for functors $F: D^{op} \times D \to C$ and $c \in C$, we have the isomorphisms
+$$
+\begin{aligned}
+  C(\int^x F(x, x), c) &\cong \int_x C(F(x, x), c)\\
+  C(c, \int_x F(x, x)) &\cong \int_x C(c, F(x, x))
+\end{aligned}
+$$
+=--
+
++-- {: .num_example}
 ###### Example
 
 If $W = D(-,e)$ is a [[representable functor]], then 
@@ -410,19 +421,36 @@ $$
 $$
 
 This statement is sometimes called the [[co-Yoneda lemma]].
-
-
-
-
 =--
 
+### Natural transformations as ends
 
++-- {: .num_prop #NatTrans}
+###### Proposition
+Let $F, G: C \to D$ be [[functors]] between two categories, and let $Nat (F, G)$ be the set of [[natural transformations]] between them. Then we have
+$$
+  Nat (F, G) = \int_{c \in C} D(F(c), G(c)).
+$$
+=--
+
++-- {: .proof}
+###### Proof
+An element of $\int_{c \in C} D(F(c), G(c))$ is by definition a collection $\tau_c: F(c) \to G(c)$ of morphisms in $D$ such that for any morphism $f: c \to d$ in $C$, the following square commutes:
+$$
+\array{
+F(c) & \overset{\to}{F(f)} & F(d)\\
+^\mathllap{\tau_c}\downarrow & & \downarrow^\mathrlap{\tau_d}\\
+G(c) & \underset{G(f)}{\to} & G(d)
+}
+$$
+which is by definition a natural transformation $F \to G$.
+=--
 ### Commutativity of ends and coends
 
 Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)).
 
-+-- {: .un_def}
-###### Definition
++-- {: .num_prop}
+###### Proposition
 **(Fubini theorem for ends)**
 
 Let $\mathcal{V}$ be a [[symmetric monoidal category]]. Let $\mathcal{A}$ and $\mathcal{B}$ be small 
@@ -470,7 +498,10 @@ if either side exists.
 
 ## Examples
 
+
+
 ### Enriched functor categories 
+In light of Proposition \ref{NatTrans}, we can define the natural transformations object for [[enriched functors]] as the above end:
 
 For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[enriched functor category]] $[C,D]$ is the $V$-[[enriched category]] whose
 
