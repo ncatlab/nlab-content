@@ -45,6 +45,7 @@ A classical example of an _end_ is the $V$-object of [[natural transformations]]
 
 ### In ordinary category theory
 
+#### Definition via extranatural transformations
 In ordinary [[category theory]], given a [[functor]] $F: C^{op} \times C \to X$, an __end__ of $F$ in $X$ is an object $e$ of $X$ equipped with a [[universal construction|universal]] [[extranatural transformation]] from $e$ to $F$. This means that given any extranatural transformation from an object $x$ of $X$ to $F$, there exists a unique map $x \to e$ which respects the extranatural transformations. 
 
 In more detail: the end of $F$ is traditionally denoted $\int_{c: C} F(c, c)$, and the components of the universal extranatural transformation, 
@@ -58,8 +59,31 @@ for every object $c$ of $C$.
 The notion of __coend__ is dual to the notion of end.  The coend of $F$ is written $\int^{c: C} F(c, c)$, and comes equipped with a universal extranatural transformation with components
 $$\iota_c \colon F(c,c) \to \int^{c: C} F(c,c)$$
 
+#### Explicit definition
+We unwrap the definition of an extranatural transformation to obtain a more explicit description of an end.
 
-### In enriched category theory 
++-- {: .num_defn #wedge}
+###### Definition
+Let $F: C^{op} \times C \to X$ be a [[functor]]. A **wedge** $e: w \to F$ is an object $w$ and maps $e_c: w\to F(c, c)$ for each $c$, such that given any morphism $f: c \to c'$, the following diagram commutes:
+$$
+\array{
+w & \overset{e_{c'}}{\to} & F(c', c')\\
+^\mathllap{e_c}\downarrow & & \downarrow^\mathrlap{F(f, c')}\\
+F(c, c) & \underset{F(c, f)}{\to} & F(c, c')
+}
+$$
+=--
+
+Given a wedge $e: w \to F$ and a map $f: v \to w$, we obtain a wedge $e f: v \to F$ by composition. Then we define the end as follows:
+
++-- {: .num_defn}
+###### Definition
+Let $F: C^{op} \times C \to X$ be a functor. An **end** of $F$ is a universal wedge, ie. a wedge $e: w \to F$ such that any other wedge $e': w' \to F$ factors through $e$ via a map $w' \to w$.
+=--
+
+Dually, a cowedge is given by maps $F(c, c) \to w$ satisfying similar commutativity conditions, and a coend is a universal cowedge.
+
+### In enriched category theory
 
 There is a definition of _end_ in [[enriched category theory]], as follows. 
 
@@ -307,7 +331,6 @@ $$
 
 with the parallel morphisms again induced by the two actions of $F$.
 
-
 #### End as a weighted limit 
 
 The end for $V$-functors with values in $V$ serves, among other things, to define [[weighted limits]], and weighted limits in turn define ends of bifunctors with values in more general $V$-categories.
@@ -386,7 +409,7 @@ category of elements of $W$.
 
 This is equation (3.34) in ([Kelly](#Kelly)) in view of (3.70).
 
-+-- {: .num_cor}
++-- {: .num_cor #ConPres}
 ###### Corollary
 Any [[continuous functor]] preserves ends, and any cocontinuous functor preserves coends. In particular, for functors $F: D^{op} \times D \to C$ and $c \in C$, we have the isomorphisms
 $$
@@ -423,33 +446,11 @@ $$
 This statement is sometimes called the [[co-Yoneda lemma]].
 =--
 
-### Natural transformations as ends
-
-+-- {: .num_prop #NatTrans}
-###### Proposition
-Let $F, G: C \to D$ be [[functors]] between two categories, and let $Nat (F, G)$ be the set of [[natural transformations]] between them. Then we have
-$$
-  Nat (F, G) = \int_{c \in C} D(F(c), G(c)).
-$$
-=--
-
-+-- {: .proof}
-###### Proof
-An element of $\int_{c \in C} D(F(c), G(c))$ is by definition a collection $\tau_c: F(c) \to G(c)$ of morphisms in $D$ such that for any morphism $f: c \to d$ in $C$, the following square commutes:
-$$
-\array{
-F(c) & \overset{\to}{F(f)} & F(d)\\
-^\mathllap{\tau_c}\downarrow & & \downarrow^\mathrlap{\tau_d}\\
-G(c) & \underset{G(f)}{\to} & G(d)
-}
-$$
-which is by definition a natural transformation $F \to G$.
-=--
 ### Commutativity of ends and coends
 
 Ordinary [[limit]]s commute with each other, if both limits exist separately. The analogous statement does hold for ends and coends. Since there it looks like the commutativity of two integrals, it is called the _Fubini theorem_ for ends (for instance [Kelly, p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)).
 
-+-- {: .num_prop}
++-- {: .num_prop #Fubini}
 ###### Proposition
 **(Fubini theorem for ends)**
 
@@ -491,17 +492,36 @@ $$
 $$
 
 if either side exists.
-
-
 =--
 
 
 ## Examples
 
+### Natural transformations
 
++-- {: .num_prop #NatTrans}
+###### Proposition
+Let $F, G: C \to D$ be [[functors]] between two categories, and let $Nat (F, G)$ be the set of [[natural transformations]] between them. Then we have
+$$
+  [C, D] (F, G) = \int_{c \in C} D(F(c), G(c)).
+$$
+=--
+
++-- {: .proof}
+###### Proof
+An element of $\int_{c \in C} D(F(c), G(c))$ is by definition a collection $\tau_c: F(c) \to G(c)$ of morphisms in $D$ such that for any morphism $f: c \to d$ in $C$, the following square commutes:
+$$
+\array{
+F(c) & \overset{F(f)}{\to} & F(d)\\
+^\mathllap{\tau_c}\downarrow & & \downarrow^\mathrlap{\tau_d}\\
+G(c) & \underset{G(f)}{\to} & G(d)
+}
+$$
+which is by definition a natural transformation $F \to G$.
+=--
 
 ### Enriched functor categories 
-In light of Proposition \ref{NatTrans}, we can define the natural transformations object for [[enriched functors]] as the above end:
+In light of Proposition \ref{NatTrans}, we can define the natural transformations object for [[enriched functors]] as an end:
 
 For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[enriched functor category]] $[C,D]$ is the $V$-[[enriched category]] whose
 
@@ -548,6 +568,32 @@ If $S : C^\op \to D$ and $T : C \to D$ are functors, their [[tensor product of f
 $$ S \otimes_C T = \int^c S(c) \otimes D(c), $$
 where the tensor product on the right hand side refers to some [[monoidal structure]] on $D$.
 
+## (Co)end calculus
+The formal properties of (co)ends in Propositions \ref{ConPres}, \ref{Fubini} and \ref{NatTrans} allow us to prove certain results by [[abstract nonsense]].
+
++-- {: .num_example}
+###### Example
+Let $F: C^op \to Set$ be a functor. We prove the [[co-Yoneda lemma]], that
+$$
+  F(c) \simeq \int^{c' \in C} C(c,c')\times F(c')
+$$
+We perform the following manipluations, where each isomorphism is natural:
+$$
+\begin{aligned}
+  Set (\int^{c' \in C} C(c,c')\times F(c'), y) &\simeq \int^{c' \in C} Set (C(c,c')\times F(c'), y)\\
+  &\simeq \int_{c' \in C} Set (C(c, c'), Set(F(c'), y))\\
+  &\simeq [C, Set] (C(c, -), Set(F(-), y))\\
+  &\simeq Set(F(c), y).
+\end{aligned}
+$$
+So by the [[Yoneda lemma]], we have
+$$
+  F(c) \simeq \int^{c' \in C} C(c,c')\times F(c').
+$$
+=--
+
+More examples can be found in [Fosco](#Fosco).
+
 ## Related concepts
 
 [[!include homotopy-homology-cohomology]]
@@ -571,7 +617,7 @@ The standard reference is
 
 * [Ends](http://golem.ph.utexas.edu/category/2014/01/ends.html), $n$-Category Caf&#233; discussion.
 
-* [[Fosco Loregian]], _This is the (co)end, my only (co)friend_ ([arXiv](http://arxiv.org/abs/1501.02503)).
+* {#Fosco} [[Fosco Loregian]], _This is the (co)end, my only (co)friend_ ([arXiv](http://arxiv.org/abs/1501.02503)).
 
 
 [[!redirects end]]
