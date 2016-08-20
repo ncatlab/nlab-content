@@ -25,6 +25,8 @@ In the context of the realization of [[super Yang-Mills theories]] as [[effectiv
 
 Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on [[G2-manifolds]] with [[ADE singularities]], corresponding to [[F-theory]] on [[elliptic fibrations]] making [[K3]]-fibrations with singular fibers, corresponding to [[heterotic string theory]] on singular elliptic fibrations. See at 
 
+* [[M-theory lift of gauge enhancement on D6-branes]]
+
 * _[[M-theory on G2-manifolds]]_ the section _[Nonabelian gauge groups and chiral fermions at orbifold singularities](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_;
 
 * _[[F-theory]]_ the section _[F-brane scan](F-theory#Fbranescan)_
