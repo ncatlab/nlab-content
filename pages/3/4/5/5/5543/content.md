@@ -27,7 +27,7 @@ A _dense sub-site_ is a [[subcategory]] of a [[site]] such that a natural [[func
 +-- {: .num_prop #InducedCoverage}
 ###### Definition
 
-For $(C,J)$ a [[site]] with [[coverage]] $J$ and $D \to C$ any [[subcategory]], the **induced coverage** $J_D$ on $D$ has as [[covering]] [[sieve]]s the intersections of the covering sieves of $C$ with the morphisms in $D$.
+For $(C,J)$ a [[site]] with [[coverage]] $J$ and $D \to C$ any [[subcategory]], the **induced coverage** $J_D$ on $D$ has as [[covering]] [[sieve|sieves]] the intersections of the covering sieves of $C$ with the morphisms in $D$.
 
 =--
 
@@ -94,7 +94,7 @@ See the dicussion [here](https://nforum.ncatlab.org/discussion/7220/dense-subsit
 
 ## Examples
 
-* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage ($\{U_i \to U\}$ covers if the [[join]] of the $U_i$ us $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
+* Let $X$ be a [[locale]] with [[frame]] $Op(X)$ regarded as a site with the canonical coverage ($\{U_i \to U\}$ covers if the [[join]] of the $U_i$ is $U$). Let $bOp(X)$ be a [[basis for the topology]] of $X$: a complete join-[[semilattice]] such that every object of $Op(X)$ is the [[join]] of objects of $bOp(X)$. Then $bOp(X)$ is a dense sub-site.
 
   * For $X$ a [[locally contractible space]], $Op(X)$ its [[category of open subsets]] and $cOp(X)$ the full subcategory of [[contractible]] open subsets, we have that $cOp(X)$ is a dense sub-site.
 
@@ -120,9 +120,13 @@ The comparison lemma originates with the expos&#233; III by [[J. L. Verdier|Verd
 
 * {#SGA4}[[M. Artin]], [[A. Grothendieck]], [[J. L. Verdier]], _Th&#233;orie des Topos et Cohomologie Etale des Sch&#233;mas ([[SGA4]])_, LNM **269** Springer Heidelberg 1972.  (p.288)
 
-A more general form is used to give a site condition for [[étendue|étendue toposes]] in
+A more general form is used to give a site characterization for [[étendue|étendue toposes]] in
 
 * [[A. Kock]], [[I. Moerdijk]], _Presentations of Etendues_ , Cah. Top. G&#233;om. Diff. Cat. **XXXII** 2 (1991) pp.145-164. ([numdam](http://www.numdam.org/numdam-bin/item?id=CTGDC_1991__32_2_145_0), pp.151f)
+
+A proof of the comparison lemma together with a nice list of examples is in
+
+* [[Saunders Mac Lane|S. Mac Lane]], [[I. Moerdijk]], _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (Appendix 4, pp.590ff)
 
 See also 
 
