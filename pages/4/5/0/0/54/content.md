@@ -135,6 +135,9 @@ I am writing an irregular column at [PhysicsForums](https://www.physicsforums.co
 
 * _[Examples of Prequantum field theories IV: Wess-Zumino-Witten-type theories](https://www.physicsforums.com/insights/examples-prequantum-field-theories-iv-wess-zumino-witten-type-theories/)_
 
+* _[Why supersymmetry? Because of Deligne's theorem](https://www.physicsforums.com/insights/supersymmetry-delignes-theorem/)_
+
+
 ## more on the web
 
 For logs of further activity see my page
