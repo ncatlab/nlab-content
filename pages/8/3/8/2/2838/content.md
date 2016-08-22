@@ -19,28 +19,9 @@
 
 As a [[Grothendieck topos]] is a [[categorification|categorified]] [[locale]], so an ionad is a categorified [[topological space]].  While the opens are primary in toposes and locales, the points are primary in ionads and topological spaces.
 
-[[Richard Garner]] developed the theory of ionads, in which the [[topos]] $Set^X$ plays an role analogous to that of the [[lattice]] $\mathbb{2}^X$ (the [[power set]] of $X$) in the theory of topological spaces.
-
-+--{: .query}
-[[David Roberts]]: The idea strikes me that we are passing from the [[subobject classifier]] $2 = \{0 \lt 1\}$ in $Set$ (assuming classical Booleaness) to the categorified subobject classifier $Set$ in $Cat$.
-
-_Toby_:  I expect that you know this, David, but for the record: it\'s still the subobject classifier constructively, but that may not be $2$.  I have written this as '$\mathbb{2}$' to try to keep it simple but unbiased.
-
-[[David Roberts]]: Sure. I wonder then what the analogue of the constructive $\mathbb{2}$ is when we pass to $Cat$ as a 2-topos. Would it be a constructive version of $Set$? Thoughts?
-
-_Toby_:  As a constructive mathematician, I would just say that it is $Set$; I simply would not accept that $Set$ is a boolean topos.  In the case of the poset of truth values, which I am calling $\mathbb{2}$ here, the classical mathematician has an even simpler description of that poset, which you have called $2$.  But in the case of $Set$, even the classical mathematician has no simpler way to describe it, so constructivists should already be happy with Garner\'s definition of ionads.  (A strongly finitist mathematician, however, could describe $Set$ up to equivalence very explicitly as a locally finite category whose set of objects is $\mathbb{N}$, which the finitist would regard as still a large category, and other mathematicians would not be satisfied with that description.)
-=--
+[[Richard Garner]] developed the theory of ionads, in which the [[topos]] $Set^X$ plays an role analogous to that of the [[lattice]] $\mathbb{2}^X$ (the [[power set]] of $X$) in the theory of topological spaces.  Intuitively, we are [[categorification|categorifying]] the [[subobject classifier]] $\mathbb{2}\in Set$ to the "categorified subobject classifier" $Set\in Cat$ (which classifies [[discrete opfibrations]].
 
 The word 'ionad' is Irish for a location, place, or site; 'Ionad' often translates 'Centre' in titles of institutions.  It is pronounced /&#712;&#618;n&#601;d/ (roughly 'INN-ad' or 'UNN-ad', not 'i-NAD' or 'yonad'; '&#1067;&#1053;-&#1072;&#1076;' in a North Slavic language), or more precisely [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] (at least in Munster), following [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Irish_phonology).  The plural (which you can use if you like to use 'topoi' too) is 'ionaid' (/&#712;&#618;n&#601;&#607;/, 'INN-adge' or 'UNN-adge', '&#1067;&#1053;-&#1072;&#1076;&#1100;', [&#712;&#616;&#798;n&#810;&#736;&#601;d&#690;]).  We could go on to decline it out of the nominative case, but now it\'s getting silly.
-
-+--{: .query}
-[[Finn Lawler]]: I would pronounce this more like 'UNN-ad' (I don't know enough about IPA to make that more precise).  The Irish dialect I was exposed to (there being no Dublin or Leinster dialect) is the standard one taught in schools, which is an amalgam of all three, but principally that of Connacht, I think.
-
-The nominative plural is 'ionaid', which I would pronounce something like 'UNN-idge'.  Here the 'd' is palatized.
-
-_Toby_:  I\'m just using my knowledge of phonology to follow the information on Wikipedia\'s articles, so take it with a grain of salt.  However, I can imagine someone hearing [&#712;&#616;&#798;n&#810;&#736;&#601;d&#810;&#736;] as 'UNN-ad', so I happily add it to the text.  I don\'t suppose you can get a good recording?  (Also, thanks for the plural, which I should have looked up for myself.)
-=--
-
 
 ## Definition
 
@@ -63,27 +44,31 @@ In more sophisticated language, $Int$ is a finite [[meet]]-preserving [[comonad]
 An __ionad__ is a set $X$ together with a [[left exact functor|finite limit-preserving]] [[comonad]] $Int_X$ on the category $Set^X$.  An ionad is __bounded__ if the comonad is [[accessible monad|accessible]].
 =--
 
-+-- {: .query}
-It seems to me that a full categorification would allow $X$ to be a [[groupoid]].  ---Toby
-
-[[Mike Shulman]]: Actually, if you want to allow groupoids, I don't think there's any reason not to allow arbitrary categories.  Richard and I had a discussion about this question, and at one point I think he was on the side you present, but we've both since come around to this version.  Notice that any ionad *induces* a category structure on its set of points, since each point is in particular a geometric morphism from $Set$ to $\Omega(X)$.  I think this induced "category of points" should be regarded as a categorification of the [[specialization order]] *induced* on the points of a topological space.  In particular, it comes for free as part of the structure; you don't have to specify it in advance.
-
-You *can* specify either of them in advance; you can start with $X$ being a category in the definition of ionad, or you can define a generalized sort of topological space as a poset equipped with a lex comonad on its poset of downsets.  In either case it amounts to specifying an ordinary ionad/space, together with a distinguished category/poset mapping bijectively-on-objects to its induced category/poset of points.  In both cases, any continuous map necessarily preserves the induced category/order, but if you start with a distinguished category/order of points, your continuous maps have to preserve that too.  These notions might be interesting, but the comparison makes me fairly sure that ionads starting with a *set* are already the natural "fully categorified" categorification of topological space.
-
-_Toby_:  I didn\'t want to allow just any category, to be analogous to not allowing just any p(r)oset as points of a topological space.  But I\'ll think about what happens when the points are allowed to form a groupoid.
-
-[[Mike Shulman]]: I think the same argument applies to groupoids.  As I said, any ionad induces a category structure on its set of points, and if you start with a groupoid you're just picking a distinguished groupoid on that set of points which maps bijectively-on-objects to the induced category.
-
-It's like the difference between a [[Segal space]] and a [[complete Segal space]].  Segal spaces may be interesting, but it's the complete ones that model $(\infty,n)$-categories.  And also the difference between an ordinary multicategory and an "enhanced" multicategory in the sense of Baez-Dolan-Cheng.  The weird notions that come with an extra groupoid structure on the objects may be technically useful, but usually the more fundamental notion is the one where the groupoid of objects is induced from the category of objects.
-
-_Mike Haskel_: I see Mike S.'s point, but I don't think the approach taken in this article is the best resolution: it seems to generalize strangely if you try to define infinity ionads, and it creates some size issues. Thinking about the analogy to complete Segal spaces, I'd rather allow the points to form a category to begin with and require some property of the induced functor from the original points to the points of the topos of opens. (Maybe full and faithful? Requiring it to be part of an equivalence seems too strong, like requiring topological space to be sober.)
-
-Regarding generalizing strangely to "infinity ionad," I was thinking about what happens when you try to find the set of points of an infinity topos. The natural structure on the points is an infinity category. You would then take the [[core]], yielding an infinity groupoid. The strategy in this article would suggest that we should then take the set of connected components, but that seems strange. What's so special about the 0-truncation? And if we want to take the core but don't want to truncate, then that would suggest Toby's original approach in the case of ordinary toposes/ionads.
-
-I also think my suggested approach could possibly clean up the treatment of some size issues. (I'm not really an expert on size issues, so take this with a grain of salt.) Given a topos, the category of points may be large, but it will at least be accessible (I think?). The set of isomorphism classes, however, may be a large set. In order for the construction of an ionad associated with a topos to be canonical, then, we need to allow the set of points $X$ to be a large set. But then $\operatorname{Set}^X$ is nasty, too large to be even a large category. If $X$ is an accessible category, however, then $\operatorname{Set}^X$ should be something like the category of accessible functors, which shouldn't be so bad. (This analysis also suggests that we should allow the original points to be a category rather than a mere groupoid, since the core of the category of points of a topos need not be accessible in any nice way.)
-=--
-
 Although Garner does not require an ionad to be bounded, the nicest results hold for them, and all of his applications involve only bounded ionads.  In fact, Garner writes, 'Indeed, the existence of unbounded ionads is a problem that seems to be independent of the axioms of [[Zermelo-Fraenkel set theory]].' (Section 3.8).
+
+### Sets, groupoids, or categories?
+
+It may seem odd to take $X$ to be a *set* rather than something else such as a [[groupoid]] or a [[category]].  An analogous definition can be given where $X$ is a groupoid or a category, of course, but the reason for taking it to be a set is that it makes the analogy to classical topological spaces closer.  Consider the following three notions:
+
+1. A set $X$ together with a finite-limit-preserving comonad on its powerset $\mathbb{2}^X$.
+2. A set $X$ equipped with an [[equivalence relation]] (which we can regard as a [[preorder]] that happens to be symmetric) together with a finite-limit-preserving comonad on the hom-preorder $\mathbb{2}^X$.
+3. A [[preorder]] $X$ together with a finite-limit-preserving comonad on $\mathbb{2}^X$.
+
+All three of these *induce* a topology on the underlying set of $X$.  But it is (1) that is *exactly* a topological space: (2) and (3) include the extra data of a (perhaps symmetric) preorder on $X$ that maps bijectively-on-objects into the [[specialization preorder]] of that topology.
+
+However, as in other cases such as [[Segal categories]]/[[complete Segal spaces]] and [[generalized multicategories]], another way to "get rid of extra data" is to  force it to duplicate data that's already present (a "completeness" condition).  Thus we could consider instead (still in the uncategorified case):
+
+* A structure as in (2) above, but such that the given equivalence relation coincides with the relation "$x$ and $y$ are in all the same open sets" (which it automatically *implies*).
+* A structure as in (3) above, but such that the given preorder coincides with the specialization preorder.
+
+These would give equivalent definitions to (1), but may be better-behaved in some ways.  In [[homotopy type theory]] without [[sets cover]], they would no longer be equivalent, but the groupoidal/preorder versions might be better.  For ionads the corresponding definitions would be
+
+* A groupoid $X$ with a finite-limit-preserving comonad on $Set^X$ such that the induced functor from $X$ to the category of points of the resulting topos is [[pseudomonic functor|pseudomonic]].
+* A category $X$ with a finite-limit-preserving comonad on $Set^X$ such that the induced functor from $X$ to the category of points of the resulting topos is [[fully faithful]].
+
+(Asking that these functors also be surjective on objects would be a [[sober space|sobriety]] condition on an ionad.)
+
+When categorifying further to "$n$-ionads" and "$\infty$-ionads", the possible options multiply further; but that is probably a topic for another page.  For discussion of these questions, see the [nForum thread](https://nforum.ncatlab.org/discussion/5857).
 
 
 ## Morphisms of ionads ##
