@@ -26,6 +26,23 @@ An **infinite judgement**, also called a delimitative or indeterminate judgment,
 
 Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's _Kritik der reinen Vernunft_ (1781). 
 
+## Kant on infinite judgements
+
+The so called Vienna logic contains a lengthy passage on infinite judgements:
+
+>Alle bejahende S&#228;tze zeigen ihre Bejahung durch die copula _est_ , welche copula das Verh&#228;ltni&#223; zweyer Begriffe anzeigt. Wenn die
+copula _est_ simpliciter besteht, bedeutet sie die Verkn&#252;pfung zweyer
+&#8212; wenn die copula _est_ mit dem _non_ afficirt ist: so bedeutet sie Opposition der beyden Begriffe, und zeigt an, da&#223; der eine Begriff nicht zum andern geh&#246;rt, oder nicht in der sphaera des andern enthalten sey. Z. B. _anima non est mortalis_ , hier stelle ich mir vor, da&#223; die Sterblichkeit die Seele nicht mit in sich schlie&#223;t. Sage ich aber : _anima est non mortalis_ : so sage ich nicht blo&#223;, da&#223; die Seele nichts sterbliches enthalte, sondern da&#223; sie auch in der sphaera alles de&#223;en, was nicht sterblich ist, enthalten sey. Es ist also hierbey etwas besonders gesagt, da&#223; ich einen Begriff n&#228;hmlich nicht blo&#223; von der sphaera eines andern Begriffes ausschlie&#223;e, sondern auch den Begriff unter der ganzen &#252;brigen sphaera denke, die nicht unter dem Begriffe, der ausgeschlossen ist, geh&#246;rt. Ich sage eigentlich nicht : _est immortalis_ , sondern ich sage : unter allen Begriffen &#252;berhaupt, die au&#223;erhalb dem Begriff der Sterblichkeit gedacht werden m&#246;gen, kann die Seele gez&#228;hlt werden. Und dieses macht eigentlich die unendlichen Urtheile aus. &#8212; 
+
+>Bejahung und Verneinung sind demnach qualitaeten im Urtheil. Ein verneinendes Urtheil ist nicht ein jedes Urtheil, das negativ ist, sondern ein solches verneinendes Urtheil, wo die negation die copula afficirt. Ein
+solches Urtheil aber, wo sie nicht die copula afficirt, sondern das praedicat, wie bey einem unendlichen Urtheil geschieht, und die copula also ohne alle negation ist, ist demnach ein bejahendes Urtheil, folglich sind alle unendliche Urtheile bejahend, weil die negation nur das praedicat afficirt. Obgleich aber jedes unendliche Urtheil die Natur des Bejahenden hat: so ist doch immer eine Verneinung da, zwar nicht des Urtheiles, d. i. des Verh&#228;ltni&#223;es der Begriffe, sondern des praedicats.
+
+>Das Verh&#228;ltni&#223; ist zwar da&#223;elbe, wie bey einem bejahenden Urtheil, aber die negation ist doch immer da, und folglich sind sie vom bejahenden unterschieden. Diese Sache scheint in der Logic eine subtilitaet zu seyn. Aber in der Metaphysic wird es von Wichtigkeit, sie hier nicht &#252;bergangen zu haben. Denn da ist der Unterschied zwischen realitaet, negation und limitation gr&#246;&#223;er. Bey den limitationen denk ich etwas positives, aber nicht blo&#223;, sondern auch negatives, und es ist etwas eingeschr&#228;nkt positives.- Sie heissen _judicia infinita_ , weil sie unbegr&#228;nzt sind. Sie sagen nur immer, was nicht ist, und solcher praedicate kann ich unz&#228;hlige machen, denn die sphaera der praedicate, die mit _non_ afficirt vom subjecte k&#246;nnen gesagt werden, ist unendlich.
+
+>Das Princip von allen m&#246;glichen praedicatis contrarie oppositis mu&#223; aus der Sache kommen. Dieses ist das princip der durchg&#228;ngigen Bestimmung. Diese durchg&#228;ngige Bestimmung eines Dinges aber ist unm&#246;glich, weil eine unendliche Erkenntni&#223; dazu geh&#246;ret, alle die praedicate aufzusuchen, die einem Dinge zukommen, und ich kann daher ins Unendliche fortgehen, und doch das Ding nicht durchg&#228;ngig bestimmen. Z. B. die Seele ist k&#246;rperlich, nicht k&#246;rperlich. Die Seele ist sterblich, nicht sterblich. Im logischen Gebrauche k&#246;nnen sie hier vor bejahende gelten. Denn jedes Ding ist durch Bestimmung von andern unterschieden. Alle andere Dinge mit non afficirt k&#246;nnen davon gesagt werden. Z. B. das Merkmahl des Steines ist die H&#228;rte. Nun kann ich immer fortgehen bis ins Unendliche, und sagen: ein Stein ist nicht Metall, nicht Holz etc. Sag ich dadurch aber etwas Neues ? Denn was hilft es, da&#223; ich wei&#223;, da&#223; alles &#220;brige ausser dem Begriff nicht Stein ist ? Die sphaera dieses alles &#220;brigen ist unendlich, und deshalb nennt man diese judicia infinita.
+
+Kant ([1966](#KantXXIV2), pp.930-31).
+
 
 ## Related entries
 
@@ -44,6 +61,8 @@ Infinite judgements enjoy a rather controversial status in traditional logic but
 * [[syllogism]]
 
 ## References
+
+* {#KantXXIV2} I. Kant, _Akademie Ausgabe **XXIV** 2: Vorlesungen &#252;ber Logik_ , de Gruyter Berlin 1966.
 
 * {#RRZ94} M. La Palme Reyes, J. Macnamara, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _The non-Boolean logic of natural language negation_ , Phil. Math. **2** no.1 (1994) pp.45-68.
 
