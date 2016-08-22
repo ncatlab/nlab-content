@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _[[action]]_ or _[[representation]]_ of an algebraic object such as a [[group]] or an [[algebra]] is _faithful_ when the action of two elements being equal implies that these two elements are already equal.
+An _[[action]]_ or _[[representation]]_ of an algebraic object such as a [[group]] or an [[algebra]] is _faithful_ when the action of two elements being equal implies that these two elements are already equal. When the representation of a group $G$ on some $V$ is thought of as a [[functor]] $\mathb{B}G \to \mathbf{B}Aut(V)$, then it is faithful precisely if this functor is a [[faithful functor]].
 
 A [[representation]] of an algebraic object, such as a [[group]] or an [[algebra]], is a way of studying it by making it act on some object.  The hope being that the behaviour of the object makes it easier to see the structure of the acting object.  Another way of thinking of such a representation is that it is a [[homomorphism]] of the acting object into some other object that is (presumably) better understood.  Making a group or algebra act on a [[vector space]] is the same as giving a homomorphism into the corresponding [[general linear group]] or [[endomorphism algebra]], making a group act on a set maps it into the corresponding [[permutation group]].
 
@@ -94,6 +94,42 @@ $$
 If this is an [[n-monomorphism]] for some $n$ one might call the action "$n$-faithful". If $G$ and $V$ are [[0-truncated]] then any [[∞-action]] of $G$ on $V$ is an ordinary [[action]] in the underlying 1-[[topos]] and this is faithful in the traditional sense if it is $n$-faithful for $n = 1$ in this higher sense.
 
 
+## Properties
+ {#Properties}
+
+### Existence
+
++-- {: .num_prop }
+###### Proposition
+
+If $G$ is a [[compact Lie group]], then there exists a finite-dimensional faithful representation of $G$.
+
+=--
+
+E.g. [Kowalski 14, proof of theorem 6.1.2](#Kowalski14)
+
++-- {: .num_prop #AlgebraicGroupHasFinDimFaithfulRepresentations}
+###### Proposition
+
+For $G$ any [[algebraic group]], then the [[regular representation]] is faithful. Moreover, it has finite-dimensional faithful sub-representations.
+
+=--
+
+(e.g. [Milne 12, IX, theorem 9.1](#Milne12))
+
+
+### Subquotients
+
+
++-- {: .num_prop #AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep}
+###### Proposition
+
+If $V$ is a [[finite number|finite]] [[dimension|dimensional]] [[representation]] of an affine [[algebraic group]] $G$ over a [[field]] $k$, then every finite dimensional representation of $G$ is [[isomorphism|isomorphic]] to a [[subquotient]] of $\otimes^n(V \oplus V^\ast)$, where $V^\ast$ is the [[dual representation]].
+
+=--
+
+(e.g. [Milne 12, VIII, theorem 11.7](#Milne12))
+
 ## Examples
  {#Examples}
 
@@ -139,6 +175,13 @@ The same applies when $G$ is equipped with extra geometric structure, such as be
 A [[Lie groupoid]] is called  _[[effective Lie groupoid|effective]]_ when the [[action]] of all its [[automorphism groups]] of objects on their [[germs]] is faithful. See at _[[effective Lie groupoid]]_ for more on this.
 
 =--
+
+## References
+
+* {#Milne12} [[James Milne]], _Basic theory of affine group schemes_, 2012 ([pdf](http://jmilne.org/math/CourseNotes/AGS.pdf))
+
+* {#Kowalski} Kowalski, _An introduction to the representation theory of groups_, 2014
+
 
 [[!redirects faithful representation]]
 [[!redirects faithful representations]]
