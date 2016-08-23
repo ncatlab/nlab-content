@@ -30,9 +30,9 @@ A _semisimple category_ is a category in which each object is a [[direct sum]] o
 An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of finitely many [[simple objects]].  See [[semisimple abelian category]].
 
 Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
+
 *  it has finite [[biproducts]] (usually called '[[direct sums]]'),
 *  [[split idempotent|idempotents split]] (so we say that it 'has [[subobjects]]' or, perhaps better, 'has [[retract]]s'), and
-
 *  there exist [[object]]s $X_i$ labeled by an index set $I$ such that $Hom(X_i, X_j) \cong \delta_{ij} k$ where $k$ is the [[ground field]] (such objects are called _[[simple object|simple]]_) and such that for any two objects $V$ and $W$ in the category, the natural composition map
    \[
      \bigoplus_{i \in I} Hom(V, X_i) \otimes Hom(X_i, W) \rightarrow Hom(V, W)
