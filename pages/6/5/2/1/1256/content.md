@@ -58,7 +58,7 @@ Coherent logic has many pleasing properties.
 
 * Every finitary [[first-order logic|first-order theory]] is equivalent, over [[classical logic]], to a coherent theory.  This theory is called its *Morleyization* and can be obtained by adding new relations representing each first-order formula and its negation, with axioms that guarantee (over classical logic) these relations are interpreted correctly (using the facts that $(P\Rightarrow Q) \dashv\vdash (\neg P \vee Q)$ and $(\forall x, P) \dashv\vdash (\neg \exists x, \neg P)$ in classical logic).  See D1.5.9 in [[Sketches of an Elephant]], or Prop. 3.2.8 in Makkai-Par&#233;.
 
-* By (one of the theorems called) Deligne's theorem, every [[coherent topos]] has [[point of a topos|enough points]].  In particular, this applies to the classifying toposes of coherent theories.  It follows that models in [[Set]] are sufficient to detect provability in coherent logic.  By Morleyization, we can obtain from this the classical [[completeness theorem for first-order logic]].  See for instance 6.2.2 in Makkai-Reyes.
+* By (one of the theorems called) [[Deligne completeness theorem|Deligne's theorem]], every [[coherent topos]] has [[point of a topos|enough points]].  In particular, this applies to the classifying toposes of coherent theories.  It follows that models in [[Set]] are sufficient to detect provability in coherent logic.  By Morleyization, we can obtain from this the classical [[completeness theorem for first-order logic]].  See for instance 6.2.2 in Makkai-Reyes.
 
 * Coherent logic also satisfies a *definability theorem*: if a relation can be constructed in every [[Set]]-model of a coherent theory $T$, in a [[natural transformation|natural]] way, then that relation is named by some coherent formula in $T$.  See chapter 7 of Makkai-Reyes or D3.5.1 in [[Sketches of an Elephant]].
 
@@ -70,7 +70,7 @@ However, here is a property which one might expect coherent theories to have, bu
 
 ## Variations
 
-* Sometimes coherent logic is called *geometric logic*, but that term now more commonly used for the analogous fragment of infinitary logic which allows disjunctions over arbitrary sets (though still only finitary conjunctions).  See [[geometric logic]].
+* Sometimes coherent logic is called *geometric logic*, but that term is now more commonly used for the analogous fragment of infinitary logic which allows disjunctions over arbitrary sets (though still only finitary conjunctions).  See [[geometric logic]].
 
 * Occasionally the [[existential quantifiers]] in coherent logic are further restricted to range only over *finitely presented types*.
 
@@ -87,7 +87,7 @@ However, here is a property which one might expect coherent theories to have, bu
 
 ## References
 
-* [[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories, Springer-Verlag, 1977*
+* [[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories*, Springer-Verlag, 1977
 
 * [[Michael Makkai]] and [[Robert Paré]], *Accessible categories*
 
