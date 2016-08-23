@@ -34,9 +34,9 @@ Due to the influence of Kant's philosophy in the 19th century, one can get the i
 
 For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_  , though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and his use of 'ist nichtsterblich' instead which due to German word order fusions with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is more outspoken on the triple distinction that in fact is often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe) who use the less marked 'unsterblich' instead of 'nichtsterblich'.
 
-Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amount to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist' (J&#228;sche Logik &#167;22).
+Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amount to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist' (J&#228;sche-Logik &#167;22).
 
-Why would it be important for transcendental logic to make a difference between infinite and positive judgements ? Presumably, to due the role of infinite judgements in metaphysical 'reasoning' where the formally positive judgements create the dialectical illusion of positive determinations of thought objects (KdrV I.1 &#167;23 B148) whereas thought actually meanders in an infinite space without ever being able to give an object in intuition corresponding to the negatively determined concept of reasoning e.g. the determination of the soul in rational psychology as not-mortal, not-material, not-spatial etc.
+Why would it be important for transcendental logic to make a difference between infinite and positive judgements ? Presumably, due to the role of infinite judgements in metaphysical 'reasoning' where the formally positive judgements create the dialectical illusion of positive determinations of thought objects (KdrV I.1 &#167;23 B148; see also [H&#246;ffe 2003](#Hoeffe03), p.126) whereas thought actually meanders in an infinite space without ever being able to give an object in intuition corresponding to the negatively determined concept of reasoning e.g. the determination of the soul in rational psychology as not-mortal, not-material, not-spatial etc.
 
 The so called _Vienna logic_ contains a lengthy passage on infinite judgements:
 
@@ -53,7 +53,7 @@ solches Urtheil aber, wo sie nicht die copula afficirt, sondern das praedicat, w
 
 Kant ([1966](#KantXXIV2),pp.930-31).
 
-One suggestion to clarify the tricky question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Moreleyization]] of finitary first-order formulas:
+One suggestion to clarify the tricky question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Morleyization]] of finitary first-order formulas:
 
 This is a systematic way to replace formulas containing negation with formulas without negation by defining via extra symbols and axioms negative versions of all predicates e.g. for predicate $P(x)$, add $\bar{P} (x)$ together with stipulations that $P(x)\wedge \bar{P}(x)=\bot$ and $P(x)\vee \bar{P}(x)=\top$. One can then show that a first-order theory $\mathbb{T}$ and its Morleyization $\mathbb{T}'$ have exactly the same models over coherent [[Boolean category|Boolean categories]] (cf. [Johnstone 2002](#JT02), p.859).
 
@@ -61,7 +61,9 @@ This would capture the syntactic systematicity of turning negative judgements in
 
 ## Fichte's take
 
-In Fichte's _Wissenschaftslehre_ (1794) infinite judgements appear in a key passage on his dialectic in I.&#167;3. He transforms Kant's triad of positive, negative and infinite judgments into _synthetic_ , _antithetic_ and _thetic_ judgement and says that the first two require each a 'double ground' - a _relational_ and a _differential_ ground: the relational ground giving the field where subject and predicate notion concide whereas the differential ground gives the field where they differ. The synthetic judgement then reflects on the first but abstracts from the second, whereas the antithetic judgement abstracts from the first and reflects on the second. 
+In Fichte's _Wissenschaftslehre_ (1794) infinite judgements appear in a key passage on his dialectic in I.&#167;3. He transforms Kant's triad of positive, negative and infinite judgments into _synthetic_ , _antithetic_ and _thetic_ judgement and says that the first two require each a 'double ground' - a _relational_ and a _differential_ ground: the relational ground giving the field where subject and predicate notion (can) concide whereas the differential ground gives the field where they (can) differ.[^def] The synthetic judgement then reflects on the first but abstracts from the second, whereas the antithetic judgement abstracts from the first and reflects on the second. 
+
+[^def]: In the background here lurks the classical theory of definition by _genus proximum_ and _differentia specifica_.
 
 >Ein thetisches Urteil w&#252;rde ein solches sein, in welchem etwas keinem andern gleich- und keinem andern entgegengesetzt, sondern bloss sich selbst gleich gesetzt w&#252;rde: es k&#246;nnte mithin gar keinen Beziehungs- oder Unterscheidungsgrund voraussetzen: sondern das Dritte, das es der logischen Form nach doch voraussetzen mu&#223;, w&#228;re blo&#223; eine Aufgabe f&#252;r einen Grund. Das urspr&#252;ngliche h&#246;chste Urteil dieser Art ist das: Ich bin, in welchem vom Ich gar nichts ausgesagt wird, sondern die Stelle des Pr&#228;dikats f&#252;r die m&#246;gliche Bestimmung des Ich ins Unendliche leer gelassen wird. ... Kant und seine Nachfolger haben daher diese Urteile sehr richtig unendliche genannt, obgleich keiner, soviel mir bewusst ist, sie auf eine deutliche und bestimmte Art erkl&#228;rt hat.
 
@@ -79,9 +81,21 @@ For Hegel infinite judgements become relevant in the third book of his _Wissensc
 
 In the transcendental analytic of _KdrV_ , Kant had started from the table of judgement forms where he assigned infinite judgements to the third place in the second column of 'qualities of judgement' (B95, A70) and then went on to 'derive' the table of categories from it where now the category of _'limit'_ takes the place of infinite judgements in the third row of the second column (B107, A81). He goes on (B110-111):
 
->&#220;ber diese Tafel der Kategorien lassen sich artige Betrachtungen anstellen, die vielleicht erhebliche Folgen in Ansehung der wissenschaftlichen Form aller Vernunfterkenntniss haben k&#246;nnten ...2te Anmerk. da&#223; allerw&#228;rts eine gleiche Zahl der Kategorien jeder Klasse, n&#228;mlich drei sind, welches eben sowohl zum nachdenken auffodert, da sonst alle Einteilung a priori durch Begriffe Dichotomie sein mu&#223;. dazu kommt aber noch, da&#223; die dritte kategorie allenthalben aus der Verbindung der zweiten mit der ersten Klasse entspringt ...die Einschr&#228;nkung (ist) nichts anders als Realit&#228;t mit Negation verbunden.
+>&#220;ber diese Tafel der Kategorien lassen sich artige Betrachtungen anstellen, die vielleicht erhebliche Folgen in Ansehung der wissenschaftlichen Form aller Vernunfterkenntniss haben k&#246;nnten ...2te Anmerk. da&#223; allerw&#228;rts eine gleiche Zahl der Kategorien jeder Klasse, n&#228;mlich drei sind, welches eben sowohl zum nachdenken auffodert, da sonst alle Einteilung a priori durch Begriffe Dichotomie sein mu&#223;. dazu kommt aber noch, da&#223; die dritte Kategorie allenthalben aus der Verbindung der zweiten mit der ersten Klasse entspringt ...die Einschr&#228;nkung (ist) nichts anders als Realit&#228;t mit Negation verbunden.
 
 One of the 'eminent consequences' of these 'artige' considerations would be the systematic logic of Hegel who turns Kant _'from the head on his feet'_ : in _WdL_ the categories in the first book on being precede now the judgement forms in the third book. Infinite judgements get the role, in analogy to the synthesis of 'reality' and 'negation' in the category of 'limit', to synthesize positive and negative judgements and by sublation transiting from qualitative to reflective judgements.
+
+Hegel overlays the (reversed) Kantian parallelism between qualitative being and qualitative judgement with a theory of judgement as division which in the case of quality takes the form of a successive predication S-P where the subject in analogy to the 'punctuality' of qualitative being is taken as the individual I of which is sucessively predicated the general G, the particular P, and, finally the individual $I$: I-G (the individual is the general), I-P (the individual is not the general) and I-I (the individual is the individual). The last tautology according to him sublates itself since it contradicts the division necessary for judgement.
+
+Apparently Hegel is in trouble at this point since the succession of predication around the subject I requires the tautology I-I as last step, on the other, the synthesis of positive and negative judgement suggests infinite judgements as last step and, finally, for the logic to move on he has to find a contradiction in both judgement forms!
+
+Here Fichte's suggestions come to rescue who had already proposed a link between 'identity' statements and infinite judgements as well as identified purely positive aesthetic judgements as infinite (presumably not without input from Kant's _'Kritik der Urteilskraft'_). Hegel pushed by the necessity to find contradictory judgement forms goes a step further: for one he admits tautologies _tout court_ as infinite and, secondly, for the traditional infinite judgements he begins to stress their abolishment of the common sphere, e.g. the whale not-being-a-door, pushing the propositions into absurdity. That is, in fact, he seems to work at the same time with Kants syntactic notion with the nebulosity of the semantic sphere emphasized additionally and a more intuitive notion of 'infinite judgement' influenced by Fichte where a judgement 'Peter is Peter' 'predicates' an infinity of predicates of Peter, unfortunately, without telling us what they are besides that Peter has them.
+
+Obviuosly, that this and especially, the counting in of the tautologies which is mainly due to the succession pattern of I-G, I-P, I-I, seem to be highly questionable (cf. [McTaggart 1910](#McT10), pp.202-205) and would deserve further discussion.
+
+## More recent positions
+
+H. Lotze in his influential logic assesses infinite judgements negatively calling them an 'obvious nonsense' - _offensichtliche Grillen_ and 'absurd'. He maintains that in actual reasoning they are always replaced by negative judgements.
 
 ## Related entries
 
@@ -105,19 +119,23 @@ One of the 'eminent consequences' of these 'artige' considerations would be the 
 
 * {#FichteVI} J. G. Fichte, _Ausgew&#228;hlte Werke in sechs B&#228;nden VI_ , Lambert Schneider Darmstadt 2013.
 
-* {#Logik} [[G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt 1986.
+* {#Logik} [[G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt a. M. 1986.
+
+* [[G. W. F. Hegel]], _Wissenschaft der Logik II_ , Suhrkamp Frankfurt a. M. 1986[1816]. (pp.324ff)
 
 * {#Hoeffe03} O. H&#246;ffe, _Kants Kritik der reinen Vernunft_ , Beck M&#252;nchen 2003. (pp.126-27,148)
 
 * {#JT02} [[P. T. Johnstone]], _Sketches of an Elephant II_ , Oxford UP 2002. (D1.5.13-14, pp.858ff)
 
-* {#KantXXIV2} I. Kant, _Akademie Ausgabe **XXIV** 2: Vorlesungen &#252;ber Logik_ , de Gruyter Berlin 1966.
+* {#KantXXIV2} I. Kant, _Akademie Ausgabe XXIV 2: Vorlesungen &#252;ber Logik_ , de Gruyter Berlin 1966.
 
 * {#RRZ94} M. La Palme Reyes, J. Macnamara, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _The non-Boolean logic of natural language negation_ , Phil. Math. **2** no.1 (1994) pp.45-68.
 
 * M. La Palme Reyes, J. Macnamara, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Models for non-Boolean negation in natural languages based on aspect analysis_ , pp.241-260 in Gabbay, Wansing (eds.), _What is Negation?_, Kluwer Dordrecht 1999. 
 
-* J. McTaggart, _A Commentary on Hegel's Logic_ , Russell&Russell New York 1964[1910].
+* R. H. Lotze, _Logica - Logik_ , bilingual edition Bompiani Milano 2010[1912]. (&#167;40, pp.214-16)
+
+* {#McT10} J. McTaggart, _A Commentary on Hegel's Logic_ , Russell&Russell New York 1964[1910].
 
 * A. Menne, _Das unendliche Urteil Kants_ , Philosophia Naturalis **19** (1982) pp.151-162.
 
