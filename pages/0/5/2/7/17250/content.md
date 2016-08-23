@@ -20,13 +20,23 @@
 
 ## Idea
 
-> Walfisch ist keine T&#252;r.  Hegel, Logik f&#252;r die Mittelklasse (1808/09)
+> Walfisch ist keine T&#252;r.[^ref]
+
+[^ref]: _The whale is no door_. Hegel ([1808/09](#Logik),p.108)
 
 An **infinite judgement**, also called a delimitative or indeterminate judgment, is a type of judgement in traditional logic that differs from a positive judgement by containing a negation operator and from a negative judgement by negating only the predicate term.
 
 Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's _Kritik der reinen Vernunft_ (1781). 
 
 ## Kant on infinite judgements
+
+Due to the influence of Kant's philosophy in the 19th century, one sometimes get the impression that the concept of an _infinite judgement_ originated with Kant, however the concept had already a long story in traditional logic going back to the example of _non-man_ as an _indeterminate noun_ in chap. X of Aristotle's _Peri Hermenaias_. The most relevant author in this context  for Kant was probably J. H. Lambert who gave the _termini infiniti_ , how he called them, extensive discussion in his _'Neues Organon'_ (1764) and _'Anlage zur Architectonic'_ (1771).
+
+For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_ though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and use of 'ist nichtsterblich' which due to German word order  fuses with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is more outspoken on the triple distinction that in fact was often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe) who used the less marked 'unsterblich' instead of 'nichtsterblich'.
+
+Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amounts to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist' (J&#228;sche Logik &#167;22).
+
+Why would it be important for transcendental logic to make a difference between infinite and positive judgements ? Presumably, to due the role of infinite judgements in metaphysical 'reasoning' where the formally positive judgements create the dialectical illusion of positive determinations of thought objects (KdrV I.1 &#167;23 B148) whereas thought actually meanders in an infinite space without ever being able to give an object in intuition corresponding to the negatively determined concept of reasoning e.g. the dtermination of the soul in rational psychology as not-mortal, not-material, not-spatial etc.
 
 The so called _Vienna logic_ contains a lengthy passage on infinite judgements:
 
@@ -42,6 +52,12 @@ solches Urtheil aber, wo sie nicht die copula afficirt, sondern das praedicat, w
 >Das Princip von allen m&#246;glichen praedicatis contrarie oppositis mu&#223; aus der Sache kommen. Dieses ist das princip der durchg&#228;ngigen Bestimmung. Diese durchg&#228;ngige Bestimmung eines Dinges aber ist unm&#246;glich, weil eine unendliche Erkenntni&#223; dazu geh&#246;ret, alle die praedicate aufzusuchen, die einem Dinge zukommen, und ich kann daher ins Unendliche fortgehen, und doch das Ding nicht durchg&#228;ngig bestimmen. Z. B. die Seele ist k&#246;rperlich, nicht k&#246;rperlich. Die Seele ist sterblich, nicht sterblich. Im logischen Gebrauche k&#246;nnen sie hier vor bejahende gelten. Denn jedes Ding ist durch Bestimmung von andern unterschieden. Alle andere Dinge mit non afficirt k&#246;nnen davon gesagt werden. Z. B. das Merkmahl des Steines ist die H&#228;rte. Nun kann ich immer fortgehen bis ins Unendliche, und sagen: ein Stein ist nicht Metall, nicht Holz etc. Sag ich dadurch aber etwas Neues ? Denn was hilft es, da&#223; ich wei&#223;, da&#223; alles &#220;brige ausser dem Begriff nicht Stein ist ? Die sphaera dieses alles &#220;brigen ist unendlich, und deshalb nennt man diese judicia infinita.
 
 Kant ([1966](#KantXXIV2),pp.930-31).
+
+One suggestion to clarify the tricky question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Moreleyization]] of finitary first-order formulas:
+
+This is a systematic way to replace formulas containing negation with formulas without negation by defining via extra symbols and axioms negative versions of all predicates e.g. for predicate $P(x)$, add $P_\neg (x)$ with stipulations that $P(x)\wedge P_\neg(x)=\bot$ and $P(x)\vee P_\neg(x)=\top$. One can then show that a first-order theory $\mathbb{T}$ and its Morleyization $\mathbb{T}'$ have exactly the same models over coherent [[Boolean category|Boolean categories]] (cf. [Johnstone 2002](#JT02), p.859).
+
+This would capture the syntactic systematicity of turning negative judgements into formally positive infinite judgements as well as the semantic equivalence over classical formal logic i.e. the difference between a formula $\varphi (x)$ and its Morleyization $\varphi '(x)$ only comes to the surface when one considers non-Boolean models.
 
 ## Fichte's take
 
@@ -78,6 +94,12 @@ In his 1812 lectures on transcendental logic, Fichte has apparently changed his 
 * {#FichteI} J. G. Fichte, _Ausgew&#228;hlte Werke in sechs B&#228;nden I_ , Lambert Schneider Darmstadt 2013.
 
 * {#FichteVI} J. G. Fichte, _Ausgew&#228;hlte Werke in sechs B&#228;nden VI_ , Lambert Schneider Darmstadt 2013.
+
+* {#Logik} [[G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt 1986.
+
+* {#Hoeffe03} O. H&#246;ffe, _Kants Kritik der reinen Vernunft_ , Beck M&#252;nchen 2003. (pp.126-27,148)
+
+* {#JT02} [[P. T. Johnstone]], _Sketches of an Elephant II_ , Oxford UP 2002. (D1.5.13-14, pp.858ff)
 
 * {#KantXXIV2} I. Kant, _Akademie Ausgabe **XXIV** 2: Vorlesungen &#252;ber Logik_ , de Gruyter Berlin 1966.
 
