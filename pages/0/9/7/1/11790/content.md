@@ -19,7 +19,7 @@
 
 The _Deligne completeness theorem_, or **Deligne's theorem**, as it is also called, was initially proved by [[Pierre Deligne]] in an appendix of [[SGA4]][^sga] in the context of [[algebraic geometry]] as a theorem concerning the abundance of  _points_ for a [[coherent topos]].
 
-When in the early 70s the connection between topos theory and logic became manifest [[William Lawvere]] (1975) pointed out that the theorem may be viewed as a variant of the classical **G&#246;del-Henkin completeness theorem** for [[first-order logic]]: As points of a topos $\mathcal{E}$ correspond to set-theoretic models of the theory [[classifying topos|classified]] by $\mathcal{E}$ it amounts to saying that a (consistent) finitary [[geometric theory]] has models in $Set$.
+When in the early 70s the connection between topos theory and logic became manifest [[William Lawvere]] (1975) pointed out that the theorem may be viewed as a variant of the classical **G&#246;del-Henkin completeness theorem** for [[first-order logic]]: since points of a topos $\mathcal{E}$ correspond to set-theoretic models of the theory [[classifying topos|classified]] by $\mathcal{E}$ it amounts to saying that a (consistent) finitary [[geometric theory]] has models in $Set$.
 
 [^sga]: [SGA 4, vol. II](#SGA4II), expos&#233; VI, p.336.
 
@@ -41,6 +41,8 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 * [[Deligne-Lurie completeness theorem]]
 
 * [[Barr's theorem]]
+
+* [[coherent logic]]
 
 * [[geometric theory]]
 
