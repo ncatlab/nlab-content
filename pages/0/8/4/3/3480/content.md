@@ -14,7 +14,7 @@
 =--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -443,7 +443,7 @@ More on this is at [[cohesive (∞,1)-topos -- structures]] in the section <a hr
 
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_
 
-The following paper shortens the Deligne's proof 
+The following paper shortens Deligne's proof 
 
 * [[Alexander Rosenberg|Alexander L. Rosenberg]],  _The existence of fiber functors_,  The Gelfand Mathematical Seminars, 1996--1999,  145--154, Birkh&#228;user, Boston 2000.
 
@@ -454,6 +454,10 @@ Deligne's proof in turn fills the gap in the seminal work with the same title
 A revival in algebraic geometry related to the theory of mixed motives was marked by
 
 * [[P. Deligne]], [[J. Milne]], _Tannakian categories_, Springer Lecture Notes in Math. __900__, 1982, pp. 101-228, retyped [pdf](http://jmilne.org/math/xnotes/tc.pdf)
+
+Analogous discussion for [[symmetric monoidal (infinity,1)-categories|symmetric monoidal]] [[stable (infinity,1)-categories]] includes
+
+* [[Isamu Iwanari]], _Tannaka duality and stable infinity-categories_ ([arXiv:1409.3321](http://arxiv.org/abs/1409.3321))
 
 Ulbrich made a major contribution at the coalgebra and Hopf algebra level
 
