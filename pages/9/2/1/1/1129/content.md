@@ -674,6 +674,8 @@ For injective objects in a topos see
 
 * [[Peter Johnstone]], [[Fred Linton]], [[Robert Paré]], _Injective Objects in Topoi II: Connections with the axiom of choice_ , pp.207-216 in LNM **719** Springer Heidelberg 1979.
 
+* T. Kenney, _Injective Power Objects and the Axiom of Choice_ ,  JPAA **215** (2011) pp.131&#8211;144.
+
 * [[Fred Linton]], _Injective Objects in Topoi III: Stability under coproducts_ , Bull. Acad. Polon. Sci. S&#233;r. Sci. Math. Astronom. Phys. **29** (1981) pp.341-347.
 
 * [[Fred Linton]], [[Robert Paré]], _Injective Objects in Topoi I: Representing coalgebras as algebras_ , pp.196-206 in LNM **719** Springer Heidelberg 1979.
