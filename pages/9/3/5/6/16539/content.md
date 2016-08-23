@@ -42,6 +42,9 @@ and specifically for [[type II supergravity]]:
 
 * [[José Figueroa-O'Farrill]], Emily Hackett-Jones, George Moutsopoulos, _The Killing superalgebra of ten-dimensional supergravity backgrounds_, Class.Quant.Grav.24:3291-3308,2007 ([arXiv:hep-th/0703192](http://arxiv.org/abs/hep-th/0703192))
 
+and [[11-dimensional supergravity]]
+
+* [[José Figueroa-O'Farrill]], Andrea Santi, _On the algebraic structure of Killing superalgebras_ ([arXiv:1608.05915](http://arxiv.org/abs/1608.05915))
 
 Discussion in the context of [[superconformal group|superconformal symmetry]] is in 
 
