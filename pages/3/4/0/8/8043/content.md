@@ -80,6 +80,9 @@ For more about the precise relationship between the various meanings of $\vdash$
 
 While this may seem to be a very basic form of (hypothetical/generic) judgement only, in systems such as [[dependent type theory]] or [[homotopy type theory]], all of [[logic]] and a good bit more is all based on just this.
 
+## Related concepts
+
+* [[infinite judgment]]
 
 ## References
 
