@@ -45,12 +45,14 @@ Notably, from the [[black brane]]-solution structure in [[11-dimensional supergr
 
 > {#WittenOnProblemsOfMembraneTheory2014} [[Mike Duff]], [[Paul Townsend]], and other physicists working on [[supermembranes]] had spent a couple of years in the mid-1980s saying that there should be a theory of fundamental membranes analogous to the theory of fundamental strings. That wasn't convincing for a large number of reasons. For one thing, a three-manifold doesn't have an [[Euler characteristic]], so there isn't a topological expansion as there is in string theory. Moreover, in three dimensions there is no [[conformal invariance]] to help us make sense of membrane theory; membrane theory is [[renormalization|nonrenormalizable]] just like [[general relativity]]. 
 
-  > ([[Edward Witten]] in interview by [[Hirosi Ooguri]], Notices
+> ([[Edward Witten]] in interview by [[Hirosi Ooguri]], Notices
 Amer. Math. Soc, May 2015 p491 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf)))
 
 This issue is the very root of the abbreviation "M-theory":
 
 > As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the _M-theory_, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95](#HoravaWitten95))
+
+> M-theory was meant as a temporary name pending a better understanding. Some colleagues thought that the theory should be understood as a membrane theory. Though I was skeptical, I decided to keep the letter "m" from "membrane" and call the theory M--theory, with time to tell whether the M stands for magic, mystery, or membrane. Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
 
 
 ### Strongly coupled type IIA strings and D0-branes
@@ -187,9 +189,14 @@ which coined the association
 
 > the eleven-dimensional "M-theory" (where M stands for magic, mystery, or membrane, according to taste) ([Witten 95, p. 1](#Witten95))
 
-that later gained much publicity
+that later gained much publicity:
 
 * {#Witten98} [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
+
+Recollections include the last paragraph of 
+
+* {#Witten14} [[Edward Witten]], [Kyoto Prize lecture](http://www.kyotoprize.org/en/laureates/commemorative_lectures/)  2014 ([pdf](http://www.kyotoprize.org/wp/wp-content/uploads/2016/02/30kB_lct_EN.pdf))
+
 
 The term became fully established with surveys including
 
