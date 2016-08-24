@@ -178,10 +178,16 @@ For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ a
 +-- {: .num_defn #Superrepresentation}
 ###### Definition
 
+A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[super vector space]] $V$ over $k$ such that 
 
-A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a superrepresentation of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[super vector space]] $V$ over $k$ such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
+1. even/odd elements of $G$ act with even/odd parity on $V$
+
+1. in addition such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
 
 =--
+
+([Deligne 02, p. 3, above 0.4)](#Deligne02))
+
 
 +-- {: .num_example}
 ###### Example
