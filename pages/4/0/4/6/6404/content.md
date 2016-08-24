@@ -77,9 +77,29 @@ The above analysis in [[string perturbation theory]] is expected to find a non-p
 ## References
  {#References}
 
-Original references include
+The idea originates in 
 
 * [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
+
+where in the introduction it says the following
+
+> Recently, the discovery [6] of anomaly cancellation in a modified version of $d = 10$ supergravity and superstring theory with gauge group $O(32)$ or $E_8 \times E_8$ has opened the possibility that these theories might be phenomenologically realistic as well as mathematically consistent. A new string theory with  $E_8 \times E_8$ gauge group has recently been constructed [7] along with a second $O(32)$ theory.
+
+> For these theories to be realistic, it is necessary that the vacuum state be of the form $M_4 \times K$, where $M_4$ is four-dimensional Minkowski space and K is some compact six-dimensional manifold. (Indeed, Kaluza-Klein theory -- with its now widely accepted interpretation that all dimensions are on the same logical footing -- was first proposed [8] in an effort to make sense out of higher-dimensional string theories). Quantum numbers of quarks and leptons are then determined by topological invariants of $K$ and of an $O(32)$ or $E_8 \times E_8$ gauge field defined on $K$ [9]. Such considerations, however, are far from uniquely determining $K$.
+
+> In this paper, we will discuss some considerations, which, if valid, come very close to determining $K$ uniquely. We require
+
+> (i) The geometry to be of the form $H_4 \times K$, where $H_4$ is a maximally symmetric spacetime.
+
+> (ii) There should be an unbroken $N = 1$ supersymmetry in four dimensions. General arguments [10] and explicit demonstrations [11] have shown that supersymmetry may play an essential role in resolving the gauge hierarchy or Dirac large numbers problem. These arguments require that supersymmetry is unbroken at the Planck (or compactification) scale.
+
+> (iii) The gauge group and fermion spectrum should be realistic. 
+
+> These requirements turn out to be extremely restrictive. In previous ten-dimensional supergravity theories, supersymmetric configurations have never given rise to chiral fermions -- let alone to a realistic spectrum. However, the modification introduced by Green and Schwarz to produce an anomaly-free field theory also makes it possible to satisfy these requirements. We will see that unbroken $N = 1$ supersymmetry requires that $K$ have, for perturbatively accessible configurations, $SU(3)$ holonomy and that the four-dimensional cosmological constant vanish. The existence of spaces with $SU(3)$ holonomy was conjectured by Calabi [12] and proved by Yau [13].
+
+(Of course later it was understood that Calabi-Yau spaces, even those of complex dimension 3, are not "very close to unique".)
+
+Further original references include
 
 * {#BDFF88} [[Tom Banks]], [[Lance Dixon]], [[Dan Friedan]], [[Emil Martinec]], _Phenomenology and Conformal Field Theory or Can String Theory Predict the Weak Mixing Angle?_, Nucl. Phys. B299 (1988) 613.  ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4377.pdf))
 
