@@ -7,7 +7,7 @@
 [[!include measure theory - contents]]
 =--
 #### Integration theory
-+--{: .hide}
++-- {: .hide}
 [[!include integration theory - contents]]
 =--
 =--
@@ -24,13 +24,13 @@ Measure spaces are used in the general theory of measure and [[integration]], so
 For the general theory of measure spaces, we first need a _[[measurable space]]_ $(X, \Sigma)$, that is a [[set]] equipped with a collection $\Sigma$ of __measurable sets__ complete under certain operations.  Then this becomes a measure space $(X, \Sigma, \mu)$ by throwing in a [[function]] $\mu$ from $\Sigma$ to a space of values (such as the [[real line]]) that gets along with the set-theoretic operations that $\Sigma$ has.  If $E$ is a measurable set, then $\mu(E)$ is called the __measure__ of $E$ with respect to $\mu$.
 
 
-## Notation
+## Notation {#notation}
 
 The original notation for an integral (going back to [[Gottfried Leibniz]]) was
 \[ \label{Leibniz} \int_a^b f(x) \,\mathrm{d}x \]
 (where $f(x)$ would be replaced by some formula in the variable $x$).  In modern measure theory, we can now understand this as the integral of the [[measurable function]] $f$ on the [[interval]] $[a,b]$ relative to [[Lebesgue measure]].  If we wish to generalise from Lebesgue measure to an arbitrary measure $\mu$ and generalise from $[a,b]$ to an arbitrary measurable set $S$, then we can write
 \[ \label{full} \int_S f(x) \,\mu(\mathrm{d}x) \]
-instead.  Now, if $f$ is not given by a formula, then there is no need for the dummy variable $x$, which gives
+instead.  Now, if $f$ is not given by a formula but rather explicitly named, then there is no need for the dummy variable $x$, so we should write
 \[ \label{simple} \int_S f \,\mu .\]
 However, it has been more common to keep the symbol '$\mathrm{d}$' and write
 \[ \label{excessive} \int_S f \,\mathrm{d}\mu .\]
@@ -42,7 +42,7 @@ It is also possible to take the entire expression '$\mathrm{d}\mu$' as the name 
 
 We will use (eq:simple) below (although other forms may well be found on other pages).
 
-See [Usenet discussion](http://groups.google.com/group/sci.math.research/browse_thread/thread/e28593bfd6b83aac/67a61d19e8f4d57f), and contrast (eq:switched) with the [Stieltjes integral](http://secure.wikimedia.org/wikipedia/en/wiki/Stieltjes_integral).  The notation (eq:simple) has also been used in an introductory graduate-level course by [[John Baez]].
+See [Usenet discussion](http://groups.google.com/group/sci.math.research/browse_thread/thread/e28593bfd6b83aac/67a61d19e8f4d57f), and contrast (eq:switched) with the [Stieltjes integral](http://secure.wikimedia.org/wikipedia/en/wiki/Stieltjes_integral).  (The point is that it is $\mathrm{d}x$, not just $x$, that gives us the relevant measure in (eq:Leibniz).)  The notation (eq:simple) has also been used in an introductory graduate-level course by [[John Baez]].
 
 There is also some variation in notation as to whether to use a roman '$\mathrm{d}$' or an italic '$\mathit{d}$'; roman is more common in England and italic in America.  But of course, that variation should not cause any difficulties!
 
@@ -54,7 +54,7 @@ A __measure space__ is a [[measurable space]] equipped with a measure.  There ar
 
 ### Probability measures
 
-Let $(X, \Sigma)$ be a measurable space.  A __[[probability measure]]__ on $X$ (due to Kolmogorov) is a [[function]] $\mu$ from the collection $\Sigma$ of measurable sets to the [[unit interval]] $[0,1]$ such that:
+Let $(X, \Sigma)$ be a measurable space.  A __[[probability measure]]__ on $X$ (due to [[Andrey Kolmogorov]]) is a [[function]] $\mu$ from the collection $\Sigma$ of measurable sets to the [[unit interval]] $[0,1]$ such that:
 
 1.  The measure of the [[empty set]] is [[zero]]:  $\mu(\emptyset) = 0$;
 2.  The measure of the entire space is [[one]]:  $\mu(X) = 1$;
@@ -67,7 +67,7 @@ It is sometimes stated (but in fact follows from the above) that:
 *  Finitary additivity:  $\mu(S \cup T) = \mu(S) + \mu(T)$ whenever $S$ and $T$ are disjoint.
 *  $\mu$ is increasing:  $\mu(A) \leq \mu(B)$ if $A \subseteq B$.
 
-The first of these conditions will follow for all of the generalised notions of measure below, but the others usually will not. Related query discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2829&Focus=28141#Comment_28141).
+The first of these conditions will follow for all of the generalised notions of measure below, but the second usually will not. Related query discussion is archived [here](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2829&Focus=28141#Comment_28141).
 
 
 ### Generalizations
@@ -75,30 +75,30 @@ The first of these conditions will follow for all of the generalised notions of 
 From now on, we drop (2); the next step is to generalize the [[target]] of $\mu$, as follows:
 
 *  Use $[0,\infty]$ (instead of $[0,1]$) for a __positive measure__.
-*  Use $\mathbf{R} = ]-\infty,\infty[$ for a __finite measure__.
-*  Use $]-\infty,\infty]$ for a __signed measure__.
+*  Use $\mathbf{R} = {]{-\infty,\infty}[}$ for a __finite measure__.
+*  Use ${]{-\infty,\infty}]}$ for a __signed measure__.
 *  Use $\mathbf{C}$ for a __complex-valued measure__.
 *  Use an arbitrary [[topological vector space]] $V$ for a __vector-valued measure__.
 *  In principle, one could go further yet; $V$ just needs an analogue of addition with a notion of infinitary sum (such as a [[topological abelian group]] has).  But until someone suggests a useful example, we will leave this to the [[centipede mathematics|centipedes]].
 
-Some futher terms:
+Some further terms:
 
 *  We can combine conditions; for example a __finite positive measure__ takes values in $[0,\infty[$.
-*  A measure is __bounded__ if, for some (finite) real number $M$, $-M \leq \mu(S) \leq M$ for every measurable set $S$.
+*  A measure is __bounded__ if, for some (finite) real number $M$, $|\mu(S)| \leq M$ for every measurable set $S$.  (This requires that the target of $\mu$ have a real-valued notion of absolute value or norm, so a vector-valued measure should be valued in a [[Banach space]] or something similar.)
 *  A measure is __$\sigma$-finite__ if every measurable set is a union of countably many sets with finite measure.
 
 Remarks:
 
-*  The property that $\mu$ is increasing holds for all positive measures in the name but may fail for others.
+*  The property that $\mu$ is increasing holds for all positive measures but may fail for others.
 *  A positive measure that satisfies (2) must be a probability measure as defined earlier; that is, it satisfies $\mu(S) \leq 1$ for all $S$.
 *  When $\infty$ is allowed as a value of $\mu$, then the requirement in (3) that the sum converges should be interpreted in this light; that is, the sum may diverge to infinity.  (For a positive measure, therefore, the convergence criterion is vacuous in [[classical mathematics]].)
-*  Notice that $-\infty$ is not allowed as a value for a signed measure.  It works just as well to allow $-\infty$ and forbid $\infty$.  It is even possible to allow both, but this is a little trickier, so we deal with it later.
+*  Notice that $-\infty$ is not allowed as a value for a signed measure.  It would work just as well to allow $-\infty$ and forbid $\infty$.  It is even possible to allow both, but this is a little trickier (because of $-\infty + \infty$), so we deal with it later (at the end of this subsection).
 
-Another possibility is to generalize the [[source]] of $\mu$; instead of using a $\sigma$-algebra on $X$, we could use a $\sigma$-ring or even a $\delta$-ring.  These versions are mostly more about changing the definition of [[measurable space]], so refer there for details of the definition; however, we note that (3), when $\Sigma$ is a $\delta$-ring, should state that the left-hand side exists (that is, the union is measurable) if the right-hand side converges.  Generalizing $\Sigma$ in this way is complementary to generalizing the target above; in particular it may allow one to avoid dealing with $\infty$.  For example, while Lebesgue measure is only a positive measure on a $\sigma$-algebra, it is a *finite* positive measure on the $\delta$-ring of bounded measurable sets.  Indeed, every signed measure gives rise to finite measure on its $\delta$-ring of finitely measurable sets (defined below); conversely, every $\sigma$-finite measure can be recovered from this by imposing (3) in all cases.
+Another possibility is to generalize the [[source]] of $\mu$; instead of using a $\sigma$-algebra on $X$, we could use a $\sigma$-ring or even a $\delta$-ring.  These versions are mostly more about changing the definition of [[measurable space]], so refer there for details of the definitions; however, we note that (3), when $\Sigma$ is a $\delta$-ring, should state that the left-hand side exists (that is, the union is measurable) if the right-hand side converges.  Generalizing $\Sigma$ in this way is complementary to generalizing the target above; in particular it may allow one to avoid dealing with $\infty$.  For example, while Lebesgue measure is only a positive measure on a $\sigma$-algebra, it is a *finite* positive measure on the $\delta$-ring of bounded measurable sets.  Indeed, every signed measure gives rise to finite measure on its $\delta$-ring of finitely measurable sets (as defined below); conversely, every $\sigma$-finite measure can be recovered from this by imposing (3) in all cases.
 
 Yet another possibility is to drop countable additivity, replacing it with finite additivity.  The result is a __finitely additive measure__, sometimes called a __charge__ to avoid the [[red herring principle]]; in contrast, the usual sort of measure may be called __countably additive__.  For a charge, one could replace $\Sigma$ with an algebra (or even a ring) of sets; again see [[measurable space]] for these definitions.
 
-Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of extended real numbers.  Here we have the problem that, even when considering finite additivity, we might have to add $\infty$ and $-\infty$.  While we might simply require that this never happens (so that at least one of $\mu(S)$ and $\mu(T)$ must be finite if they have opposite signs and $S \cap T = \empty$), this does not include some examples that we want.  To deal with this, we define an extended measure to be a formal difference $\mu^+ - \mu^-$ of positive measures; $\mu(S) = \mu^+(S) - \mu^-(S)$ whenever this is not of the form $\infty - \infty$ and is otherwise undefined.  Note that the set of extended measures on $X$ is a [[quotient set]] of the set of pairs of positive measures; we say that $\mu = \nu$ if $\mu(S) = \nu(S)$ whenever either side is defined, that is if they are the same as [[partial functions]] from $S$ to $[-\infty,\infty]$.
+Finally, an __extended measure__ takes values in the set $[-\infty,\infty]$ of [[extended real numbers]].  Here we have the problem that, even when considering finite additivity, we might have to add $\infty$ and $-\infty$.  While we might simply require that this never happens (so that at least one of $\mu(S)$ and $\mu(T)$ must be finite if they have opposite signs and $S \cap T = \empty$), this does not include some examples that we want (and in fact it would follow that $\infty$ and $-\infty$ cannot both be values of $\mu$ after all).  To deal with this, we define an extended measure to be a formal difference $\mu^+ - \mu^-$ of positive measures; $\mu(S) = \mu^+(S) - \mu^-(S)$ whenever this is not of the form $\infty - \infty$ and is otherwise undefined.  Note that the set of extended measures on $X$ is a [[quotient set]] of the set of pairs of positive measures; we say that $\mu = \nu$ if $\mu(S) = \nu(S)$ whenever either side is defined, that is if $\mu$ and $\nu$ are the same as [[partial functions]] from $\Sigma$ to $[-\infty,\infty]$.
 
 
 ### Constructive theory
@@ -124,11 +124,11 @@ Given a measure space $(X,\Sigma,\mu)$, a __$\mu$-null $\Sigma$-measurable set__
 
 A __$\mu$-full $\Sigma$-measurable set__ is a measurable set $F$ such that $\mu(S) = \mu(S \cap F)$ for every measurable set $S$; a __$\mu$-[[full set]]__ is any superset of a full measurable set.  In a probability measure space, we don\'t have to bother with $S$; $F$ will be a full measurable set as long as $\mu(F) = 1$.  Classically, a full set is precisely the [[complement]] of a null set, but this doesn\'t hold in the constructive theory.
 
-A property of elements of $X$ holds __$\mu$-almost everywhere__ if the set of values where it holds is a full set.
+A property of elements of $X$ holds __$\mu$-almost everywhere__ if the set of values where it holds is full.
 
 A measure is __complete__ if every full set is measurable.  We may form the __completion__ of a measure space by accepting as a measurable set the intersection of any set and a full set; these __$\mu$-measurable sets__ will automatically form a $\sigma$-algebra (or whatever $\Sigma$ originally was).  Classically, a measure is complete if and only if every null set is measurable and a set is $\mu$-measurable if and only if it is the [[symmetric difference]] between a measurable set and a null set.
 
-A __$\mu$-finitely measurable set__ is a measurable set $M$ such that $\mu(S)$ is finite whenever $S \subseteq M$ is measurable; a __$\sigma$-finitely measurable set__ is any union of countably many finitely measurable sets.  Again, we don\'t have to bother with $S$ in a positive measure space.  Note that a measure space is ($\sigma$)-finite if and only if every measurable set is ($\sigma$)-finitely measurable.  The finitely measurable sets form a $\delta$-ring, and the $\sigma$-finitely measurable sets form a $\sigma$-ring.
+A __finitely $\mu$-measurable set__ is a measurable set $M$ such that $\mu(S)$ is finite whenever $S \subseteq M$ is measurable; a __$\sigma$-finitely $\mu$-measurable set__ is any union of countably many finitely measurable sets.  Again, we don\'t have to bother with $S$ in a positive measure space.  Note that a measure space is ($\sigma$)-finite if and only if every measurable set is ($\sigma$)-finitely measurable.  The finitely measurable sets form a $\delta$-ring, and the $\sigma$-finitely measurable sets form a $\sigma$-ring.
 
 Recall that a $\Sigma$-[[measurable function]] from $(X,\Sigma)$ to some other measurable space is any function $f$ such that the [[preimage]] under $f$ of a measurable set is always measurable (or something more complicated in the constructive theory).  Now that we have a measure space, let a __$\mu$-measurable function__ be a [[partial function]] $f$ from $X$ to some other measurable space such that the domain of $f$ is full and the preimage under $f$ of a measurable set is always $\mu$-measurable (that is measurable in the completion of $\mu$), and let two such functions be __$\mu$-equivalent__ if their [[equaliser]] is a full set.  We are really interested in the [[quotient set]] under this equivalence and so identify equivalent $\mu$-measurable functions.  Classically, every $\mu$-measurable function is equivalent to some (total) $\Sigma$-measurable function, so the definition is simpler in that case; however, partial functions still come up naturally in the classical theory, so it can be convenient to allow them rather than (as is usually done in a rigorous treatment) systematically replacing them with total functions.
 
@@ -141,9 +141,9 @@ In the following, 'measurable' will mean $\mu$-measurable.  That is, we assume t
 
 Given a measure $\mu$, a measurable set $S$, and a measurable function $f$, we will define the integral
 $$ \int_S f \,\mu $$
-(see above for variations in notation) in stages, from the simplest form of $f$ to the most arbitrary.
+(see [above](#notation) for variations in notation) in stages, from the simplest form of $f$ to the most arbitrary.
 
-Each measurable subset $S \subseteq X$ induces a measurable [[characteristic function]] $\chi_S\colon X \to \mathbb{R}_+$ where $\chi_S(x) = 1$ if $x \in S$, $\chi_S(x) = 0$ if $x \in \neg{S}$.  In general, we have
+Each measurable subset $S \subseteq X$ induces a measurable [[characteristic function]] $\chi_S\colon X \to \mathbb{R}_+$ where $\chi_S(x) = 1$ if $x \in S$, $\chi_S(x) = 0$ if $x \in \neg{S}$.  (In the constructive theory, where $S$ is a complemented pair, $\chi_S$ is a partial function with a full domain, so $\chi_S f$ is still a measurable function as defined above.)  In general, we have
 $$ \int_S f \,\mu = \int_X \chi_S f \,\mu ,$$
 so from now on we will assume that we are integrating over all of $X$ (and drop the subscript).
 
@@ -178,7 +178,7 @@ Note that we must use the notion of measurable function as an equivalence class 
 
 This Banach space is called a __[[Lebesgue space]]__ and is denoted $L^1(\mu,V)$, $L^1(X,V)$, or just $L^1$, depending on context.  The default value of $V$ is usually either $\mathbb{R}$ or $\mathbb{C}$, depending on the author.  More general Lebesgue spaces of the form $L^p$ also exist; $f$ is in $L^p$ precisely when ${|f|^p}$ is integrable, and we use
 $$ {\|f\|_p} \coloneqq \root p {\int {\|f\|^p} \,\mu} $$
-as the norm.
+as the norm.  (At least, this is so for $p \in {]{0,\infty}[}$; see [[Lebesgue space]] for generalizations to other values of $p$.)
 
 
 ## The algebra of measures
@@ -189,7 +189,7 @@ makes $f \mu$ into a $V$-valued measure whenever $f$ is an integrable $V$-valued
 $$ (f g) \mu = f (g \mu) .$$
 Thus integration can be seen as a way of multiplying a function by a measure to get another measure.
 
-The [[Radon-Nikodym derivative]] is about reversing this.
+The [[Radon-Nikodym derivative]] is about reversing this (dividing two measures to get a function).
 
 Other topics: absolute continuity, etc.
 
@@ -212,6 +212,7 @@ Every commutative [[von Neumann algebra]] is isomorphic to the [[Lebesgue space]
 
 * The [[density of a subset]] can be considered as taking the measure of sets normally considered to be not well behaved in measure theory, such as infinite subsets of the natural numbers.
 
+
 category: analysis
 
 [[!redirects measure space]]
@@ -227,17 +228,25 @@ category: analysis
 [[!redirects signed measures]]
 [[!redirects complex-valued measure]]
 [[!redirects complex-valued measures]]
+[[!redirects complex valued measure]]
+[[!redirects complex valued measures]]
 [[!redirects valued measure]]
 [[!redirects valued measures]]
 [[!redirects vector-valued measure]]
 [[!redirects vector-valued measures]]
+[[!redirects vector valued measure]]
+[[!redirects vector valued measures]]
 [[!redirects V-valued measure]]
 [[!redirects V-valued measures]]
 
 [[!redirects finitely additive measure]]
 [[!redirects finitely additive measures]]
+[[!redirects finitely-additive measure]]
+[[!redirects finitely-additive measures]]
 [[!redirects countably additive measure]]
 [[!redirects countably additive measures]]
+[[!redirects countably-additive measure]]
+[[!redirects countably-additive measures]]
 [[!redirects extended measure]]
 [[!redirects extended measures]]
 [[!redirects sigma-finite measure]]
