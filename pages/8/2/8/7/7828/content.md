@@ -210,52 +210,10 @@ which is reviewed and amplified further in
 
 * {#Mathew} Akhil Mathew, section 2 of _The homotopy groups of $TMF$_, talk notes ([pdf](http://math.mit.edu/~sglasman/tmfhomotopy.pdf))
 
+Disucssion of [[twisted cohomology|twists]] of KR-theory by [[HZR-theory]] in degree 3 via [[bundle gerbes]] ([[Jandl gerbes]]) includes
 
-$\,$
+* [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
 
 [[!redirects KR-homology]]
 
