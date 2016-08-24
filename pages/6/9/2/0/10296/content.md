@@ -154,3 +154,6 @@ Some special cases of finite duals are treated in
 [[!redirects Hopf pairing]]
 [[!redirects dual bialgebra]]
 [[!redirects dual Hopf algebra]]
+[[!redirects finite dual]]
+[[!redirects restricted dual]]
+[[!redirects Hopf dual]]
