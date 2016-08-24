@@ -26,6 +26,6 @@ The Dieudonn&#233; ring is a $\mathbb{Z}$-[[graded ring]] where the degree $n$-p
 
 * [[Pierre Cartier]], [[algebraic group|Groupes algébriques]] et [[formal group|groupes formels]], in Th&#233;orie des Groupes Alg&#233;briques (Bruxelles, 1962) [pdf](http://www.famaf.unc.edu.ar/andrus/papers/cartier1.pdf)
 
-* [[Jean Dieudonné]],Lie groups and Lie hyperalgebras over a field of characteristic $p\gt 0$. IV, American Journal of Mathematics 
+* [[Jean Dieudonné]], _Lie groups and Lie [[hyperalgebra]]s over a field of characteristic $p\gt 0$. IV_, American Journal of Mathematics 
 
-* Manin, Ju. I. (1963), Theory of commutative formal groups over fields of finite characteristic
+* Manin, Ju. I., Theory of commutative formal groups over fields of finite characteristic, 1963
