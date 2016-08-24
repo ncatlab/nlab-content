@@ -18,7 +18,7 @@
 
 The __specialisation topology__, also called the __Alexandroff topology__, is a natural structure of a [[topological space]] induced on the underlying [[set]] of a [[preordered set]].  This is similar to the [[Scott topology]], which is however coarser.
 
-Spaces with this topology, called _Alexandroff spaces_ and named after [[Paul Alexandroff]] (Pavel Aleksandrov), should not be confused with [[Alexandrov spaces]] (which arise in [[differential geometry]] and are named after [[Alexander Alexandrov]]).
+Spaces with this topology, called _Alexandroff spaces_ and named after [[Paul Alexandroff]] (Pavel Aleksandrov), should not be confused with _[[Alexandrov spaces]]_ (which arise in [[differential geometry]] and are named after [[Alexander Alexandrov]]).
 
 
 ## Definition
@@ -28,7 +28,7 @@ Spaces with this topology, called _Alexandroff spaces_ and named after [[Paul Al
 
 Let $P$ be a [[preordered set]].
 
-Declare subset $A$ of $P$ to be an _[[open subset]]_ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$.  
+Declare a [[subset]] $A$ of $P$ to be an _[[open subset]]_ if it is upwards-closed.  That is, if $x \leq y$ and $x \in A$, then $y \in A$.  
 
 This defines a [[topology]] on $P$, called the **specialization topology** or **Alexandroff topology**.
 =--
