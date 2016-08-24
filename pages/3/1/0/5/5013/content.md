@@ -15,7 +15,7 @@
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .num_defn}
 ###### Definition
 
 A **finite topological space** is a [[topological space]] whose underlying [[set]] is a [[finite set]].
@@ -25,7 +25,15 @@ A **finite topological space** is a [[topological space]] whose underlying [[set
 
 ## Properties
 
-Finite topological spaces are [[equivalence of categories|equivalent]] to finite [[preordered sets]], by the [[specialisation order]].
++-- {: .num_prop}
+###### Proposition
+
+Every [[finite topological space]] is an [[Alexandroff space]].
+
+I.e. finite topological spaces are [[equivalence of categories|equivalent]] to finite [[preordered sets]], by the [[specialisation order]].
+
+=--
+
 
 +-- {: .num_theorem}
 ###### Theorem
@@ -66,7 +74,11 @@ On the other hand, any finite simplicial complex $X$ is homotopy equivalent to i
 
 A survey is in 
 
-* Jonathan A. Barmak, _Topolog&#237;a Algebraica de Espacios Topol&#243;gicos Finitos y Aplicaciones_ ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
+* [[Jonathan Barmak]], _Topolog&#237;a Algebraica de Espacios Topol&#243;gicos Finitos y Aplicaciones_ PhD thesis 2009 ([pdf](http://www.math.kth.se/~jbarmak/tesisfinal2.pdf))
+
+published as
+
+* [[Jonathan Barmak]], _Algebraic Topology of Finite Topological Spaces and Applications_, Lecture Notes in Mathematics,2032. Springer, Heidelberg (2011).
 
 The original results by McCord are in
 
@@ -77,7 +89,13 @@ The original results by McCord are in
 
 [^fine]: Any topological meet-semilattice $L$ with a bottom element $\bot$, for which there exists a continuous path $\alpha \colon I \to L$ connecting $\bot$ to the top element $\top$, is in fact contractible. The contracting homotopy is given by the composite $I \times L \stackrel{\alpha \times 1}{\to} L \times L \stackrel{\wedge}{\to} L$. 
  
+Generalization to [[ringed space|ringed]] finite spaces is discussed in
 
+* [[Fernando Sancho de Salas]], _Ringed Finite Spaces_ ([arXiv:1409.4574](https://arxiv.org/abs/1409.4574))
+
+* [[Fernando Sancho de Salas]], _Homotopy of ringed finite spaces_ ([arXiv:1511.06284](http://arxiv.org/abs/1511.06284))
+
+* [[Fernando Sancho de Salas]] _Finite Spaces and Schemes_ ([arXiv:1602.02393](http://arxiv.org/abs/1602.02393))
 
 [[!redirects finite topological space]]
 [[!redirects finite topological spaces]]
