@@ -52,7 +52,8 @@ One may also use the convention that the open sets are the downwards-closed subs
 +-- {: .num_prop}
 ###### Proposition
 
-Every [[finite set|finite]] [[topological space]] is an Alexandroff space.
+Every [[finite topological space]] is an Alexandroff space.
+
 =--
 
 +-- {: .num_prop}
@@ -100,7 +101,8 @@ $$
   \,.
 $$
 
-If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and finite topological spaces are [[equivalence of categories|equivalent]] in this way.
+If we restrict to a [[finite set|finite]] underlying set, then the categories $\Fin\Pros$ and $\Fin\Top$ of finite prosets and [[finite topological spaces]] are [[equivalence of categories|equivalent]] in this way.
+
 =--
 
 
