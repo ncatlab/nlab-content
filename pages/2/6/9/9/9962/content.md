@@ -36,5 +36,6 @@ This idea has been very influential in particle physics in the 1980s-201xs, ofte
 
 * [[Porter Williams]], _Naturalness, the autonomy of scales, and the 125 GeV Higgs_, Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics, Volume 51, August 2015, Pages 82&#8211;96 ([publisher](http://www.sciencedirect.com/science/article/pii/S1355219815000416), [PhilSciArchive](http://philsci-archive.pitt.edu/11529/))
 
+* [[Petr Horava]], _Surprises with Nonrelativistic Naturalness_, Int. J. Mod. Phys. D25 (2016) 1645007 ([arXiv:1608.06287](http://arxiv.org/abs/1608.06287))
 
 [[!redirects naturality]]
