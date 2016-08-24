@@ -42,7 +42,7 @@ Finite topological spaces have the same _[[weak homotopy equivalence|weak]]_ [[h
 
 =--
 
-This is due to [McCord](#McCord). 
+This is due to ([McCord 67](#McCord67)).
 
 +-- {: .proof}
 ###### Proof (sketch) 
@@ -82,10 +82,11 @@ published as
 
 The original results by McCord are in
 
-* [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708, [copy](http://www.maths.ed.ac.uk/~aar/papers/mccord2.pdf)
-{#McCord}
+* {#McCord66} [[Michael C. McCord]], _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
 
-* Michael C. McCord. _Singular homology groups and homotopy groups of finite topological spaces_ , Duke Math. J. 33 (1966), 465-474. ([EUCLID](http://projecteuclid.org/euclid.dmj/1077376525)) 
+* {#McCord67} [[Michael C. McCord]], _Homotopy type comparison of a space with complexes associated with its open covers_ . Proc. Amer. Math. Soc. 18 (1967), 705-708, [copy](http://www.maths.ed.ac.uk/~aar/papers/mccord2.pdf)
+
+
 
 [^fine]: Any topological meet-semilattice $L$ with a bottom element $\bot$, for which there exists a continuous path $\alpha \colon I \to L$ connecting $\bot$ to the top element $\top$, is in fact contractible. The contracting homotopy is given by the composite $I \times L \stackrel{\alpha \times 1}{\to} L \times L \stackrel{\wedge}{\to} L$. 
  
@@ -93,9 +94,12 @@ Generalization to [[ringed space|ringed]] finite spaces is discussed in
 
 * [[Fernando Sancho de Salas]], _Ringed Finite Spaces_ ([arXiv:1409.4574](https://arxiv.org/abs/1409.4574))
 
+* [[Fernando Sancho de Salas]], _Finite Spaces and Schemes_ ([arXiv:1602.02393](http://arxiv.org/abs/1602.02393))
+
+and aspects of their [[homotopy theory]] is discussed in
+
 * [[Fernando Sancho de Salas]], _Homotopy of ringed finite spaces_ ([arXiv:1511.06284](http://arxiv.org/abs/1511.06284))
 
-* [[Fernando Sancho de Salas]] _Finite Spaces and Schemes_ ([arXiv:1602.02393](http://arxiv.org/abs/1602.02393))
 
 [[!redirects finite topological space]]
 [[!redirects finite topological spaces]]
