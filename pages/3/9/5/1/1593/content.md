@@ -25,7 +25,7 @@ An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|
 
 Where generally ([[higher gauge field|higher gauge]]) [[field (physics)|fields]] in [[physics]]/[[string theory]] are [[cocycles]] in ([[differential cohomology theory|differential]]) [[cohomology theory]] and typically in [[complex oriented cohomology theory]], fields on orientifolds are cocycles in genuinely $\mathbb{Z}_2$-[[equivariant cohomology]] and typically in [[real-oriented cohomology theory]]. For instance the [[B-field]] which otherwise is a (twisted) coycles in ([[ordinary differential cohomology|ordinary]]) [[ordinary cohomology]] over an orientifold is a cocycle in (twisted) [[HZR-theory]], and the [[RR-fields]] which usually are cocycles in ([[twisted cohomology|twisted]] [[differential K-theory|differential]]) [[K-theory]] over an orientifold are cocycles in [[KR-theory]] ([Witten 98](#Witten98)).
 
-An explicit models for [[B-fields]] for the [[bosonic string]]  on orientifolds (differential [[HZR-theory]]) given in ([Schreiber-Schweigert-Waldorf 05](#Jandl)) and examples are analyzed in this context in ([Gawedzki-Suszek-Waldorf 08](#GawedzkiSuszekWaldorf08)).
+An explicit model for [[B-fields]] for the [[bosonic string]]  on orientifolds (differential [[HZR-theory]]) given in ([Schreiber-Schweigert-Waldorf 05](#Jandl)) and examples are analyzed in this context in ([Gawedzki-Suszek-Waldorf 08](#GawedzkiSuszekWaldorf08)). See also ([KMSV 16](#KMSV16)).
 
 That for the [[superstring]] the B-field is more generally a cocycle with coefficients in the [[Picard infinity-group]] of [[complex K-theory]] ([[super line 2-bundles]]) and a detailed discussion of the orientifold version of this is ([Distler-Freed-Moore 09](#Precis), [Distler-Freed-Moore 10](#DistlerFreedMooreII)) with details in ([Freed 12](#Freed)).
 
@@ -61,9 +61,14 @@ The original observation that [[D-brane charge]] for orientifolds should be in [
 A definition and study of orientifold [[bundle gerbes]], modeling the [[B-field]] [[background gauge field|background]] for the [[bosonic string]] (differential [[HZR-theory]]), is in
 
 * {#Jandl} [[Urs Schreiber]], [[Christoph Schweigert]], [[Konrad Waldorf]], _Unoriented WZW models and Holonomy of Bundle Gerbes_, Communications in Mathematical Physics August 2007, Volume 274, Issue 1, pp 31-64 ([arXiv](http://arxiv.org/abs/hep-th/0512283))
- 
+
 
 * {#GawedzkiSuszekWaldorf08} [[Krzysztof Gawedzki]], Rafal R. Suszek,  [[Konrad Waldorf]], _Bundle Gerbes for Orientifold Sigma Models_ Adv. Theor. Math. Phys. 15(3), 621-688 (2011) ([arXiv:0809.5125](http://arxiv.org/abs/0809.5125))
+
+see also
+
+* {#KMSV16} [[Pedram Hekmati]], [[Michael Murray]], [[Richard Szabo]], [[Raymond Vozzo]], _Real bundle gerbes, orientifolds and twisted KR-homology_ ([arXiv:1608.06466](http://arxiv.org/abs/1608.06466))
+
 
 A more encompassing formalization in terms of [[differential cohomology]] in general and [[twisted K-theory|twisted]] [[differential K-theory]] in particular that also takes the spinorial degrees of freedom into account is being announced in 
 
