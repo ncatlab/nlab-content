@@ -17,9 +17,6 @@
 
 
 
-
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -427,6 +424,8 @@ This produces a bundle gerbe whose class in $H^3(X,\mathbb{Z})$ has $[H]$ as its
 * [[transgression of bundle gerbes]]
 
 * [[connection on a bundle gerbe]]
+
+* [[discrete torsion]]
 
 and 
 
