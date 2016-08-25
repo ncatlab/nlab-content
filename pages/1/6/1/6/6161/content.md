@@ -295,7 +295,7 @@ $$
   E_{p,q}^2 
    \coloneqq
   \oplus_{k_1 + k_2 = q}
-  Tor_p^{R Mod}( H_{k_1}(C) \otimes_R H_{k_2}(C'))
+  Tor_p^{R Mod}( H_{k_1}(C), H_{k_2}(C'))
   \Rightarrow
   H_{p+q}(C \otimes C')
 $$
