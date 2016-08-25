@@ -17,16 +17,15 @@
 * table of contents
 {: toc}
 
-## Definition
+## Definitions
 
-A subset of a [[topological space]] is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]].
+A subset $C$ of a [[topological space]] $X$ is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]]. When equipped with the [[subspace topology]], we may call $C$ (or its inclusion $C \hookrightarrow X$) a *closed subspace*. 
+
+The collection of closed subsets of a space $X$ is closed under arbitrary intersections. If $A \subseteq X$, then the intersection of all closed subsets containing $A$ is the smallest closed subset that contains $A$, called the _[[closure]]_ of $A$, and variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. It follows that $A \subseteq B$ implies $Cl(A) \subseteq Cl(B)$ and $Cl(Cl(A)) = Cl(A)$, so that $A \mapsto Cl(A)$ forms a [[Moore closure]] operator on the power set $P(X)$. 
 
 Since closed subsets are closed with respect to finite unions, we have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
 
-The __[[closure]]__ of any subspace $A$ of a topological is the smallest closed subspace that contains $A$, that is the [[intersection]] of all closed subspaces that contain $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. 
-
-A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
-
+A _topological closure operator_ is a Moore closure operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$). It is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
 
 More abstractly. a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
 
