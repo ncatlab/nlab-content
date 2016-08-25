@@ -20,9 +20,11 @@
 
 ## Idea
 
-The _ABJM model_ ([ABJM 08](#ABJM08)) is 3-dimensional [[supersymmetry|supersymmetric]] [[Chern-Simons theory]] with [[gauge group]] [[special unitary group|SU(N)]] and [[minimal coupling|coupled]] to [[matter fields]]. For [[level (Chern-Simons theory)|Chern-Simons level]] $k$ it is supposed to describe the [[worldvolume]] theory of $N$ coincident [[M2-branes]] at an $\mathbb{Z}/k$-[[cyclic group]] [[orbifold]] [[singularity]]. For $N = 2$ it reduces to the [[BLG model]]. 
+The _ABJM model_ ([ABJM 08](#ABJM08)) is 3-dimensional $\mathcal{N} = 6$ [[supersymmetry|supersymmetric]] [[Chern-Simons theory]] with [[gauge group]] [[special unitary group|SU(N)]] and [[minimal coupling|coupled]] to [[matter fields]]. For [[level (Chern-Simons theory)|Chern-Simons level]] $k$ it is supposed to describe the [[worldvolume]] theory of $N$ coincident [[black brane|black]] [[M2-branes]] at an $\mathbb{Z}/k$-[[cyclic group]] [[orbifold]] [[singularity]] with [[near-horizon geometry]] $AdS_4 \times S^7/(\mathbb{Z}/k)$ (see at _[M2-branes -- As a black brane](M2-brane#AsABlackBrane)_). 
 
-Due to the matter coupling, the ABJM model is no longer a [[topological field theory]] as pure Chern-Simons is, but it is still a [[conformal field theory]]. As such it is thought to correspond under [[AdS-CFT]] duality to [[M-theory]] on [[anti-de Sitter spacetime|AdS4]] $\times$ [[7-sphere|S7]]/$\mathbb{Z}_k$ (see also [MFFGME 09](#MFFGME09)).
+For $k = 2$ the supersymmetry of the ABJM model increases to $\mathcal{N} = 8$. For $k = 2$ and $N = 2$ the ABJM model reduces to the [[BLG model]] ([ABJM 08, section 2.6](#ABJM08)). 
+
+Due to the matter coupling, the ABJM model is no longer a [[topological field theory]] as pure Chern-Simons is, but it is still a [[conformal field theory]]. As such it is thought to correspond under [[AdS-CFT]] duality to [[M-theory]] on [[anti-de Sitter spacetime|AdS4]] $\times$ [[7-sphere|S7]]/$\mathbb{Z}/k$ (see also [MFFGME 09](#MFFGME09)).
 
 Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$-[[ADE singularity]] is akin to the [[enhanced gauge symmetry|gauge symmetry enhancement]] of the [[effective field theory]] for [[M-theory on G2-manifolds]] at the same kind of singularities (see at _[M-theory on G2-manifolds -- Nonabelian gauge groups](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_).
 
