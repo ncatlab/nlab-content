@@ -127,6 +127,16 @@ A derivation of [[D-brane charge]], [[RR-fields]] and other [[K-theory]] structu
 
 Seet also at _[[cubical structure in M-theory]]_.
 
+### Compactifications
+
+* [[M-theory on G2-manifolds]]
+
+* [[M-theory on Calabi-Yau manifolds]]
+
+  * [[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]
+
+  * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
+
 
 ### Many more
 
