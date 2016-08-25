@@ -38,15 +38,17 @@ $$
   \array{
     \mathcal{G}_{uni}[i] &\longrightarrow& \mathbf{B}G_{ADE} &\longrightarrow& \mathbf{B}^3 \mathbb{Z}/{\vert G_{ADE}\vert}
     \\
-    \downarrow && \downarrow && \downarrow
+    \downarrow && \downarrow && \downarrow^{\mathrlap{\mathbf{B}^3 i}}
     \\
     String(SU(2)) &\longrightarrow& \mathbf{B} SU(2) &\underset{\mathbf{c}_2}{\longrightarrow}& \mathbf{B}^3 U(1)
   }
+  \,,
 $$
+
+where $i$ is the canonical inclusion of [[roots of unity]], $i: \mathbb{Z}/{|G|} \hookrightarrow U(1)$.
 
 =--
 
-where $i$ is the canonical inclusion of roots of unity, $i: \mathbf{\mu}_{|G|} \hookrightarrow U(1)$.
 
 ([Epa-Ganter 16, prop. 4.1](#EpaGanter16))
 
