@@ -86,6 +86,9 @@ The [[coset space]] $SU(2)/2I$ is the [[Poincaré homology sphere]].
 The [[group cohomology]] of the binary icosahedral group $SL_2(\mathbb{F}_5)$ with integer coefficients...
 
 
+## Related concepts
+
+* [[Platonic 2-group]]
 
 ## References
 
