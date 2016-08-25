@@ -128,5 +128,10 @@ Discussion in the context of [[M-theory on G2-manifolds]] includes
 
 [[!redirects ADE classifications]]
 
+[[!redirects ADE-classification]]
+[[!redirects ADE-classifications]]
+
+
 [[!redirects A-D-E classification]]
 [[!redirects A-D-E classifications]]
+
