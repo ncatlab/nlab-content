@@ -95,5 +95,10 @@ The [[group cohomology]] of the orientation-preserving octahedral group is discu
 
 [[!redirects octahedral groups]]
 
+[[!redirects binary octahedral group]]
+[[!redirects binary octahedral groups]]
+
+
 [[!redirects octahedral symmetry]]
 [[!redirects octahedral symmetry group]]
+
