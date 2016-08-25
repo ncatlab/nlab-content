@@ -7,6 +7,22 @@
 
 [[supergravity]] in [[dimension]] 5
 
+This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a 5d-Chern Simons action $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre)). Hence its [[equation of motion]] is of the non-linear form
+
+$$
+  d F_3 = F_2 \wedge F_2
+$$
+
+with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ (e.g. [slide 4 here](https://iks32.fys.kuleuven.be/indico/event/29/session/1/contribution/10/material/slides/0.pdf)).
+
+This is a lower dimensional analogue to the situation for the [[C-field]] $G_4$ (locally $G_4 = d C$) in [[11-dimensional supergravity]], which has a Chern-Simons term $\int G_4 \wedge G_4 \wedge C$ and hence the equation of motion
+
+$$
+  d G_7 = G_4 \wedge G_4
+$$
+
+(up to prefactors) with $G_7 = \star G_4$.
+
 ## Properties
 
 ### U-duality
