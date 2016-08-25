@@ -505,6 +505,8 @@ This is due to ([Fiorenza-Rogers-Schreiber 13, section 6.2.1](#FiorenzaRogersSch
 
 ## Related concepts
 
+* [[Platonic 2-group]]
+
 [[fivebrane 6-group]] $\to$ **string 2-group** $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ [[orthogonal group]] $\hookrightarrow$ [[general linear group]]
 
 
