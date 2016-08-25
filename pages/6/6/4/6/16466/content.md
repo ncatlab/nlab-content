@@ -178,16 +178,21 @@ For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ a
 +-- {: .num_defn #Superrepresentation}
 ###### Definition
 
-A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[super vector space]] $V$ over $k$ such that 
+A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[vector space]] $V$ over $k$ such that when $V$ is equipped with the grading by $\pm1$-[[eigenspaces]] of $\epsilon$, even/odd elements of $G$ act with even/odd parity on $V$.
+
+=--
+
++-- {: .num_defn #Superrepresentation_Deligne_def}
+###### Remark
+
+In ([Deligne 02, p. 3, above 0.4)](#Deligne02)) a super-representation of a supergroup $G$ is defined in a different but equivalent way. The vector space $V$ is considered to come equipped a priori with a grading, making it a [[super vector space]], and the following conditions are required to hold:
 
 1. even/odd elements of $G$ act with even/odd parity on $V$
 
 1. in addition such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
-
 =--
 
-([Deligne 02, p. 3, above 0.4)](#Deligne02))
-
+The given definition \ref{Superrepresentation} is preferable to this one as it doesn't ask for extra [[structure]] on $V$ and then for a property relative to that structure. Also in the following example, one _naturally_ finds that the super vector space on which the ordinary group is represented contains no odd part, and is hence merely an ordinary vector space.
 
 +-- {: .num_example}
 ###### Example
@@ -240,7 +245,7 @@ Further discussion in view of the theory of [[triangular Hopf algebras]] is in
 
 Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in
 
-* {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $\ast$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
+* {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $*$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
 as a proof of [[Doplicher-Roberts reconstruction]]
 
