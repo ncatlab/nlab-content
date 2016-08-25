@@ -19,23 +19,21 @@
 
 ## Definition
 
-A [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]].
+A subset of a [[topological space]] is _closed_ if its [[complement]] is an [[open subset]], or equivalently if it contains all its [[limit points]].
 
-The __closure__ of any subspace $A$ is the smallest closed subspace that contains $A$, that is the [[intersection]] of all open subspaces of $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. Since closed subsets are closed with respect to finite unions, we in fact have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
+Since closed subsets are closed with respect to finite unions, we have $Cl(A \cup B) = Cl(A) \cup Cl(B)$. 
 
+The __[[closure]]__ of any subspace $A$ of a topological is the smallest closed subspace that contains $A$, that is the [[intersection]] of all closed subspaces that contain $A$.  The closure of $A$ is variously denoted $Cl(A)$, $Cl_X(A)$, $\bar{A}$, $\overline{A}$, etc. 
+
+A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
+
+
+More abstractly. a [[subspace]] $A$ of a [[space]] $X$ is __closed__ if the [[inclusion function|inclusion map]] $A \hookrightarrow X$ is a [[closed map]]. 
 
 (There is a lot more to say, about [[convergence spaces]], [[smooth spaces]], [[schemes]], etc.)
 
 
-### Topological spaces
-
-For a point-based notion of space such as a [[topological space]], a closed subspace is the same thing as a __closed subset__.
-
-A subset is closed precisely if
-
-* it contains all its [[limit points]] (in either sense). 
-
-A topological closure operator is a [[Moore closure]] operator $Cl: P(X) \to P(X)$ that preserves finite unions ($Cl(0) = 0$ and $Cl(A \cup B) = Cl(A) \cup Cl(B)$), and in fact it is easy to see that all such closure operators come from a topology whose closed sets are the fixed points of $Cl$. 
+## Properties
 
 #### Kuratowski's closure-complement problem 
 
@@ -95,6 +93,8 @@ A more manifestly topological consideration is what happens when we throw [[join
 
 For some details on these remarks (and quite a bit more), see [Gardner and Jackson, 2008](http://nzjm.math.auckland.ac.nz/images/6/63/The_Kuratowski_Closure-Complement_Theorem.pdf) and [Sherman 2004](http://people.virginia.edu/~des5e/papers/14-sets.pdf). 
 
+
+## Generalizations
 
 ### Locales
 
