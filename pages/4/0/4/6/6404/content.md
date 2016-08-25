@@ -72,6 +72,8 @@ The above analysis in [[string perturbation theory]] is expected to find a non-p
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape" of solutions?](string%20theory%20FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
+* [[M-theory on Calabi-Yau manifolds]]
+
 * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
 ## References
