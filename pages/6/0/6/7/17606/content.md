@@ -46,6 +46,8 @@ $$
 
 =--
 
+where $i$ is the canonical inclusion of roots of unity, $i: \mathbf{\mu}_{|G|} \hookrightarrow U(1)$.
+
 ([Epa-Ganter 16, prop. 4.1](#EpaGanter16))
 
 ## References
