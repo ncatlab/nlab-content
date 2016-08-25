@@ -1,0 +1,61 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+#### Higher category theory
++--{: .hide}
+[[!include higher category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _Platonic 2-group_ ([Epa 10](#Epa10)) is a [[2-group]] [[infinity-group extension|higher extension]] of a "Platonic group" in the [[ADE classification]], i.e. of a [[finite group|finite]] [[subgroup]] of the [[special orthogonal group]] $SO(3)$ or else of its [[double cover]], the [[special unitary group]] $SU(2)$.
+
+[[!include ADE -- table]]
+
+
+## Properties
+
+### Relation to the string 2-group
+
++-- {: .num_prop #UniversalPlatonic2GroupIsRestrictionOfString2}
+###### Proposition
+
+The universal Platonic 2-group extensions $\mathcal{G}_{uni}[i]$ of finite subgroups $G_{ADE}$ of $SU(2)$ by $U(1)$ ([Epa-Ganter 16, def.2.11](#EpaGanter16)) are equivalently the restrictions of the [[string 2-group]] extension $String(SU(2)) \to SU(2)$ of $SU(2)$, hence the classifying [[cocycle]] is the restriction of the smooth [[second Chern class]]:
+
+$$
+  \array{
+    \mathcal{G}_{uni}[i] &\longrightarrow& \mathbf{B}G_{ADE} &\longrightarrow& \mathbf{B}^3 \mathbb{Z}/{\vert G_{ADE}\vert}
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    String(SU(2)) &\longrightarrow& \mathbf{B} SU(2) &\underset{\mathbf{c}_2}{\longrightarrow}& \mathbf{B}^3 U(1)
+  }
+$$
+
+=--
+
+([Epa-Ganter 16, prop. 4.1](#EpaGanter16))
+
+## References
+
+* {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
+
+
+* {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
+
+[[!redirects Platonic 2-groups]]
+
+[[!redirects platonic 2-group]]
+[[!redirects platonic 2-groups]]
