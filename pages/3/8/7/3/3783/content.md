@@ -223,18 +223,23 @@ See also
 
 The [[Killing-Yano tensors]] of the Kerr spacetime are discussed in
 
-* Jacek Jezierski, Maciej &#321;ukasik, _Conformal Yano-Killing tensor for the Kerr metric and conserved quantities_ ([arXiv:gr-qc/0510058](http://arxiv.org/abs/gr-qc/0510058))
- {#JL}
+* {#JL} Jacek Jezierski, Maciej &#321;ukasik, _Conformal Yano-Killing tensor for the Kerr metric and conserved quantities_ ([arXiv:gr-qc/0510058](http://arxiv.org/abs/gr-qc/0510058))
+ 
 
 
 Formation of spinning black holes is discussed in 
 
-* Heger, A., Fryer, C. L., Woosley, S. E., Langer, N., & Hartmann, D. H. (2003). *How massive single stars end their life*. The Astrophysical Journal, 591(1), 288. [arXiv:astro-ph/0212469](http://arxiv.org/abs/astro-ph/0212469).
- {#HFWLH02}
+* {#HFWLH02} Heger, A., Fryer, C. L., Woosley, S. E., Langer, N., & Hartmann, D. H. (2003). *How massive single stars end their life*. The Astrophysical Journal, 591(1), 288. [arXiv:astro-ph/0212469](http://arxiv.org/abs/astro-ph/0212469).
+ 
 
-* Duez, M. D., Shapiro, S. L., & Yo, H. J. (2004). *Relativistic hydrodynamic evolutions with black hole excision*. Physical Review D, 69(10), 104016. [arXiv:gr-qc/040107](http://arxiv.org/abs/gr-qc/0401076).
- {#DSY04}
+* {#DSY04} Duez, M. D., Shapiro, S. L., & Yo, H. J. (2004). *Relativistic hydrodynamic evolutions with black hole excision*. Physical Review D, 69(10), 104016. [arXiv:gr-qc/040107](http://arxiv.org/abs/gr-qc/0401076).
+ 
 
+Kerr-type solutions in dimension $\gt 4$ were first given in 
+
+* R. C. Myers and M. J. Perry, Annals Phys. 172, 304 (1986).
+
+In higher dimensions the uniqueness theorem of 4d breaks down, and there are solutions with non-spherical topology, such as [[black rings]]. This plays a role notably in the discussion of [[black holes in string theory]].
 
 [[!redirects Kerr spacetimes]]
 [[!redirects Kerr solution]]
