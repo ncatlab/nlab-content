@@ -170,7 +170,7 @@ An account of the history as of 1999 is in
  
 A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
 
-* Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+* [[Gianguido Dall'Agata]], Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 The generalization of this to $\geq 1/2$ BPS sugra solutions of the form $AdS_4 \times X_8$ is due to
 
@@ -216,7 +216,6 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 * {#FSS2013} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ (2013)
  
-
 
 ### Dualities
 
