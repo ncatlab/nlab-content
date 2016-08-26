@@ -95,7 +95,7 @@ Apart from these Poisson structures and [[symplectic structures]], differential 
 
 Almost as basic to traditional differential geometry as [[manifolds]] are [[orbifold]], which incorporate non-free [[actions]] into the theory. Notably the [[moduli spaces]] arising in differential geometry tend to be orbifolds instead of manifolds. 
 
-But ordifold are equivalently a [[proper Lie groupoid|proper]] [[étale Lie groupoid]].  (This relation is for some reason more famous in algebraic geometry, where the &#233;tale Lie groupoids are called [[Deligne-Mumford stacks]].)
+But orbifolds are equivalently a [[proper Lie groupoid|proper]] [[étale Lie groupoid]].  (This relation is for some reason more famous in algebraic geometry, where the &#233;tale Lie groupoids are called [[Deligne-Mumford stacks]].)
 
 ### Field bundles for local gauge theory
  {#FieldBundles}
