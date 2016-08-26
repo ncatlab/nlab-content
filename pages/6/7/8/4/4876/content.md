@@ -491,6 +491,12 @@ The formulation of the [[Green-Schwarz action functional]] for [[superstrings]] 
 
 ### In solid state physics 
 
+The low-energy physics of a Heisenberg antiferromagnetic spin chain is argued to be described by a WZW model in
+
+* Zheng-Xin Liu, Guang-Ming Zhang, _Classification of quantum critical states of integrable antiferromagnetic spin chains and their correspondent two-dimensional topological phases_ ([arXiv:1211.5421](http://arxiv.org/abs/1211.5421))
+
+See also section 7.10 of Fradkin's book.
+
 Discussion of [[symmetry protected topological order]] phases of matter in [[solid state physics]] via [[higher dimensional WZW models]] is in 
 
 * {#CGLW11} Xie Chen, Zheng-Cheng Gu, Zheng-Xin Liu, [[Xiao-Gang Wen]], _Symmetry protected topological orders and the group cohomology of their symmetry group_, Phys. Rev. B 87, 155114 (2013) [arXiv:1106.4772](http://arxiv.org/abs/1106.4772); A short version in Science __338__, 1604-1606 (2012) [pdf](http://dao.mit.edu/~wen/pub/dDSPTsht.pdf)
