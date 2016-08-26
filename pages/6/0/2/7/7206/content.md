@@ -128,6 +128,10 @@ See also
 
 ### Lift to string theory and M-theory
 
+Descent of 4d $\mathcal{N} = 2$ Sugra from [[type IIA string theory]] is reviewed for instance in 
+
+* Thomas Wyder, section 1.3 of _Split attractor flow trees and black hole entropy in type II string theory_ ([spire](https://inspirehep.net/record/1397778/))
+
 Discussion of lifts of [[gauged supergravity|gauged]] 4d supergravity to [[string theory]]/[[M-theory]] includes
 
 * Walter H. Baron, _Uplifting Maximal Gauged Supergravities_ ([arXiv:1512.05567](http://arxiv.org/abs/1512.05567))
