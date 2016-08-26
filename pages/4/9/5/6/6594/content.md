@@ -518,7 +518,7 @@ In the textbook ([Castellani-D'Auria-Fr&#233; 91](#CastellaniDAuriaFre91)) a bea
 
 But from a modern perspective this becomes crystal clear: these generalized CE algebras are CE-algebras not of [[Lie algebras]] but of [[strong homotopy Lie algebra]], hence of [[L-infinity algebras]], in fact of [[Lie n-algebras|Lie (p+1)-algebras]] for $(p+1)$ the degree of the relevant differential form field. 
 
-Specifically, me may write the above generalized CE-algebra with the extra degree-3 generator $c_3$ as the CE-algebra $CE(\mathfrak{m}2\mathfrak{brane}) $
+Specifically, we may write the above generalized CE-algebra with the extra degree-3 generator $c_3$ as the CE-algebra $CE(\mathfrak{m}2\mathfrak{brane}) $
 
 of the _[[supergravity Lie 3-algebra]]_ $\mathfrak{m}2\mathfrak{brane}$.
 
