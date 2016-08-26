@@ -453,8 +453,8 @@ A textbook-like account is in
 
 Original articles are
 
-* [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986)
- {#Witten86}
+* {#Witten86} [[Edward Witten]], _Noncommutative Geometry and String Field Theory_ , Nucl. Phys B268 , 253, (1986)
+ 
 
 * [[Edward Witten]], _On background independent open string field theory_,  Phys.Rev. D46 (1992) 5467. ([arXiv:hep-th/9208027](http://arxiv.org/abs/hep-th/9208027))
 
@@ -520,8 +520,8 @@ The introduction of ([Jurco-Muenster13](#JurcoMuenster13)) has a useful survey o
 
 The first attempt towards a field theory of superstrings was initiated by the work of Witten 
 
-* [[Edward Witten]], _Interacting field theory of open superstrings_, Nuclear Physics B, Volume 276, Issue 2 (1986)
- {#Witten86a}
+* {#Witten86a} [[Edward Witten]], _Interacting field theory of open superstrings_, Nuclear Physics B, Volume 276, Issue 2 (1986)
+ 
 
 by seeking a Chern-Simons like action for open superstrings similar to the one of open bosonic string field theory ([Witten 86](#Witten86)). The major obstacle compared to the bosonic string is the necessity of [[picture changing operators]]. Indeed, the cubic superstring theory of ([Witten 86a](#Witten86a)) turns out to be inconsistent due to singularities arising form the collision of picture changing operators
 
@@ -584,6 +584,16 @@ See also
 Reviews include
 
 * [[Nathan Berkovits]], _Review of open superstring field theory_ , ([arXiv:hep-th/0105230](http://arxiv.org/abs/hep-th/0105230))
+
+More recently there is
+
+* [[Ashoke Sen]], _BV Master Action for Heterotic and Type II String Field Theories_, JHEP02(2016)087 ([arXiv:1508.05387](http://arxiv.org/abs/1508.05387))
+
+with further developments in
+
+* Roji Pius, [[Ashoke Sen]], _Cutkosky Rules for Superstring Field Theory_ ([arXiv:1604.01783](http://arxiv.org/abs/1604.01783))
+
+* [[Ashoke Sen]], _Reality of Superstring Field Theory Action_ ([arXiv:1606.03455](http://arxiv.org/abs/1606.03455))
 
 ### Relation to $A_\infty$- and $L_\infty$-algebras
  {#ReferencesHomotopyAlgebra}
