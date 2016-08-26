@@ -93,3 +93,6 @@ See also _[[The Cauchy Problem in Classical Supergravity]]_
 
 [[!redirects Einstein's law of motion]]
 [[!redirects Einstein's laws of motion]]
+
+[[!redirects Einstein field equation]]
+[[!redirects Einstein field equations]]
