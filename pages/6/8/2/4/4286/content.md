@@ -21,7 +21,7 @@
 
 A _black hole_ is a [[spacetime]] that solves [[Einstein equations]] of [[general relativity]] characterized by the fact that it posseses an __[[event horizon]]__ hypersurface (or several of them) which has a number of special characteristics; for example the light can not escape from the space confined by the horizon hypersurface due to [[gravity|gravitational]] effects. Much of the theoretical considerations are about the entropy of black holes (cf. [[Bekenstein-Hawking entropy]]) and the information paradox.
 
-Black holes are considered theoretically for [[gravity|gravitational theories]] in various number $d$ of dimension. For $d \geq 5$ a black hole [[spacetime]] may have nontrivial [[topology]], e.g. _black rings_ are possible. 
+Black holes are considered theoretically for [[gravity|gravitational theories]] in various number $d$ of dimension. For $d \geq 5$ a black hole [[spacetime]] may have nontrivial [[topology]], e.g. _[[black rings]]_ are possible. 
 
 ## Examples
 
@@ -69,6 +69,8 @@ Some candidate [[astrophysics|astrophysical]] objects which seem to point to bla
 * [[generalized second law of thermodynamics]]
 
 * [[black hole information paradox]]
+
+* [[black ring]]
 
 * [[black brane]], [[black holes in string theory]]
 
