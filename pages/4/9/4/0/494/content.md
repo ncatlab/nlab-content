@@ -57,7 +57,7 @@ $$
     \\
     Hom_D(L(c_2),d_2)
     &\overset{\simeq}{\longrightarrow}&
-    Hom_C(c_2,R(d_1))
+    Hom_C(c_2,R(d_2))
   }
 $$ 
 
