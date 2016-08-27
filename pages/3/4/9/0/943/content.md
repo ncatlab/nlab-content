@@ -153,7 +153,7 @@ Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. 
 * {#Steenrod} [[Norman Steenrod]], A convenient category of topological spaces, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 
 
-* {#BT} Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. 
+* {#BT} Booth, P.; Tillotson, J., Monoidal closed, Cartesian closed and convenient categories of topological spaces. Pacific J. Math. 88 (1980), no. 1, 35--53. [project euclid](http://projecteuclid.org/euclid.pjm/1102779712)
 
 
 * {#Johnstone} [[Peter Johnstone]], On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237--271.
