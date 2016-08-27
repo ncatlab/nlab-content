@@ -724,15 +724,22 @@ higher versions
 
 ## References
 
-The original source for the notion of monoidal category is 
+Monoidal categories were introduced independently by B&#233;nabou and Mac Lane under the name 'category with multiplication'. The current name is due to Eilenberg.
 
-* [[Saunders Mac Lane]], _Natural Associativity and Commutativity_, Rice University Studies 49 (1963), 28-46. 
+* [[Jean Bénabou]], _Cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **256** (1963) pp.1887-1890. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k3208j/f1965.image))
+
+* [[Jean Bénabou]], _Alg&#232;bre &#233;l&#233;mentaire dans les cat&#233;gories avec multiplication_ , C. R. Acad. Sci. Paris **258** (1964) pp.771-774. ([gallica](gallica.bnf.fr/ark:/12148/bpt6k40102/f817.image))
+
+* [[Saunders Mac Lane]], _Natural Associativity and Commutativity_ , Rice University Studies **49** (1963) pp.28-46. 
  {#Mac Lane}
 
 Shortly after Mac Lane's definition appeared, Max Kelly showed how the coherence axioms could be whittled down to just two: 
 
-* {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._, Journal of Algebra 1 (1964), 397-402. 
+* {#Kelly} [[Max Kelly]], _On MacLane's Conditions for Coherence of Natural Associativities, Commutativities, etc._ , Journal of Algebra **1** (1964) pp.397-402. 
  
+The first monograph-length discussion appeared in
+
+* {#EilKel66} [[Samuel Eilenberg|S. Eilenberg]], [[Max Kelly|M. G. Kelly]], _Closed Categories_ , pp.421-562 in Eilenberg et al. (eds.), _Proceedings of the Conference on Categorical Algebra - La Jolla 1965_ , Springer Heidelberg 1966.
 
 A fairly comprehensive set of lecture notes on the [[higher algebra]] monoidal categories is in
 
