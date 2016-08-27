@@ -184,6 +184,10 @@ A [[domain specific programming language]] for differential equations is present
 
 * {#ALORW12} Martin S. Alnaes, Anders Logg, Kristian B. Oelgaard, Marie E. Rognes, Garth N. Wells, _Unified Form Language: A domain-specific language for weak formulations of partial differential equations_, [arXiv:1211.4047](http://arxiv.org/abs/1211.4047)
 
+See also
+
+* _[Dispersive Wiki](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Main_Page)_
+
 [[!redirects differential equation]]
 [[!redirects differential equations]]
 
