@@ -92,6 +92,8 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 
   _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
+* [[Xi Yin]], _Black Holes, Anti de Sitter space, and Topological
+Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_files/allthesis.pdf))
 
 * {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
