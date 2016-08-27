@@ -43,7 +43,7 @@ $$
 
 ### 5d Chern-Simons term
 
-This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). Hence its [[equation of motion]] is of the non-linear form
+This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet-Myers-Townsend  98, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). Hence its [[equation of motion]] is of the non-linear form
 
 $$
   d F_3 = F_2 \wedge F_2
@@ -63,7 +63,11 @@ $$
 
 The first [[black ring]] solution in 5d sugra was found in ([Elvang-Emparan-Mateos-Reall 04](#ElvangEmparanMateosReall04), [Elvang-Emparan-Mateos-Reall 05](#ElvangEmparanMateosReall05)).
 
+Supersymmetric black holes exist precisely only in dimensions 4 and 5 ([Gauntlett-Myers-Townsend 98](#GauntlettMyersTownsend98)). These play a key role in the discussion of [[black holes in string theory]].
 
+(There are supersymmetric particle like solutions of $d \gt 5$ supergravity theories that are sometimes called black holes, but these are always singular. There are also supersymmetric black holes in $d = 3$, but
+the spacetime in that case is asymptotically [[anti-de Sitter spacetime]] rather than asymptotically flat. Of course, there are non-singular supersymmetric [[black brane]] solutions in various $d \geq 4$ supergravity theories but these are neither 'particle-like' nor, strictly speaking,
+asymptotically flat.)
 
 ### Via Calabi-Yau compactification of M-theory
 
@@ -144,7 +148,9 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 ### Black hole solutions
 
-Discussion of lifts of 4d black holes to 5d black holes and embedding as [[black holes in string theory]] includes
+Discussion of lifts of 4d black holes to 5d black holes and [[black rings]] and embedding as [[black holes in string theory]] includes
+
+* {#GauntlettMyersTownsend98} [[Jerome Gauntlett]], R.C. Myers, [[Paul Townsend]], _Black Holes of D=5 Supergravity_, Class.Quant.Grav.16:1-21,1999 ([arXiv:hep-th/9810204](http://arxiv.org/abs/hep-th/9810204))
 
 * {#ElvangEmparanMateosReall04} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
