@@ -125,6 +125,10 @@ Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includ
 
 (one-loop corrections).
 
+### Via type IIB theory
+
+* Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _Consistent Type IIB Reductions to Maximal 5D Supergravity_ ([arXiv:1506.01385](https://arxiv.org/abs/1506.01385))
+
 ### Gauged sugra
 
 For 5d [[gauged supergravity]]:
