@@ -144,20 +144,29 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 ### Black hole solutions
 
-Discussion of lifts of 4d balck holes to 5d black holes and embedding as [[black holes in string theory]] includes
-
+Discussion of lifts of 4d black holes to 5d black holes and embedding as [[black holes in string theory]] includes
 
 * {#ElvangEmparanMateosReall04} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
 
 * {#ElvangEmparanMateosReall05} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
 
-* I. Bena and P. Kraus, _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070, hep-th/0408186.
+* I. Bena, [[Per Kraus]], _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070 ([hep-th/0408186](http://arxiv.org/abs/hep-th/0408186))
 
-* I. Bena and P. Kraus, _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007, hep-th/0503053
+* I. Bena and P. Kraus, _Microstates of the D1-D5-KK system_ Phys. Rev. D72 (2005) 025007 ([hep-th/0503053](http://arxiv.org/abs/hep-th/0503053))
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _5D black rings and 4D black holes_ JHEP 02 (2006) 023 ([hep-th/0504126](http://arxiv.org/abs/hep-th/0504126))
 
 * [[Davide Gaiotto]], [[Andrew Strominger]], and X. Yin, _New connections between 4D and 5D black holes_, JHEP 02 (2006) 024 ([hep-th/0503217](https://arxiv.org/abs/hep-th/0503217))
+
+* Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
+
+* Minkyu Park, Masaki Shigemori, _Codimension-2 Solutions in Five-Dimensional Supergravity_, JHEP 1510 (2015) 011 ([arXiv:1505.05169](http://arxiv.org/abs/1505.05169))
+
+Review includes
+
+* [[Per Kraus]], _Lectures on black holes and the AdS_3 / CFT_2 correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+
+  _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
 
 [[!redirects 5d supergravity]]
