@@ -180,6 +180,10 @@ Some of the material used here has been taken from
 
 Another model featuring Yang-Mills fields has been proposed by Curci and Ferrari, see [[Curci-Ferrari model]].
 
+See also
+
+* DispersiveWiki, _[Yang-Mills equations](http://wiki.math.toronto.edu/DispersiveWiki/index.php/Yang-Mills_equations)_
+
 [[!redirects Yang--Mills theory]]
 [[!redirects Yang–Mills theory]]
 [[!redirects Yang-Mills action]]
