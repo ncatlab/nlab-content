@@ -58,6 +58,9 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 
 [[!include table of branes]]
 
+## Related concepts
+
+* [[5d supergravity]]
 
 ## References
  {#References}
@@ -84,6 +87,11 @@ The [[T-duality|T-dual]] version of the D1/D5-bound states are D0/D6-bound state
 * [[Thibault Damour]], _The entropy of black holes: a primer_ ([arXiv:hep-th/0401160](http://arxiv.org/abs/hep-th/0401160))
 
 * [[Barton Zwiebach]], chapter 22 of _A first course in string theory_
+
+* [[Per Kraus]], _Lectures on black holes and the AdS_3 / CFT_2 correspondence_ ([arXiv:hep-th/0609074](http://arxiv.org/abs/hep-th/0609074))
+
+  _Stringy black holes in five dimensions_, 2007 ([pdf slides](http://hep.ps.uci.edu/~arajaram/Irvine.07.pdf))
+
 
 * {#Sen07} [[Ashoke Sen]], _Black Hole Entropy Function, Attractors and Precision Counting of Microstates_, extensive lecture notes ([arXiv:0708.1270](http://arxiv.org/abs/0708.1270))
 
@@ -129,8 +137,12 @@ Discussion relating to the [[Kaluza-Klein monopole]] includes
 
 More recent developments include
 
+* Alejandra Castro, Joshua L. Davis, [[Per Kraus]], Finn Larsen, _String Theory Effects on Five-Dimensional Black Hole Physics_ ([arXiv:0801.1863](http://arxiv.org/abs/0801.1863))
+
 
 * Oleg Lunin, [[Samir Mathur]], _A toy black hole S-matrix in the D1-D5 CFT_ ([arXiv:1211.5830](http://arxiv.org/abs/1211.5830))
+
+
 
 * Alejandra Castro, Joshua M. Lapan, Alexander Maloney, Maria J. Rodriguez, _Black Hole Monodromy and Conformal Field Theory_ ([arXiv:1303.0759](http://arxiv.org/abs/1303.0759))
  
