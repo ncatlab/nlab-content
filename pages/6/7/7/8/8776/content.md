@@ -61,9 +61,8 @@ $$
 
 ### Black holes and black rings
 
-The first [[black ring]] solution in 5d sugra was found in 
+The first [[black ring]] solution in 5d sugra was found in ([Elvang-Emparan-Mateos-Reall 04](#ElvangEmparanMateosReall04), [Elvang-Emparan-Mateos-Reall 05](#ElvangEmparanMateosReall05)).
 
-* Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
 
 
 ### Via Calabi-Yau compactification of M-theory
@@ -147,7 +146,11 @@ Discussion of [[KK-compactification]] on $S^1/(\mathbb{Z}/2)$-orbifolds (the ver
 
 Discussion of lifts of 4d balck holes to 5d black holes and embedding as [[black holes in string theory]] includes
 
-* Henriette Elvang, Roberto Emparan, David Mateos, Harvey S. Reall, _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+
+* {#ElvangEmparanMateosReall04} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _A supersymmetric black ring_, Phys.Rev.Lett.93:211302,2004 ([arXiv:hep-th/0407065](http://arxiv.org/abs/hep-th/0407065))
+
+* {#ElvangEmparanMateosReall05} Henriette Elvang, Roberto Emparan, David Mateos, [[Harvey Reall]], _Supersymmetric 4D Rotating Black Holes from 5D Black Rings_, JHEP0508:042,2005 ([arXiv:hep-th/0504125](http://arxiv.org/abs/hep-th/0504125))
+
 
 * I. Bena and P. Kraus, _Microscopic description of black rings in AdS/CFT_ JHEP 12 (2004) 070, hep-th/0408186.
 
