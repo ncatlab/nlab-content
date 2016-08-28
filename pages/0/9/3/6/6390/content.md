@@ -30,7 +30,7 @@ As a 1-dimensional [[sigma-model]], the _spinning_ relativistic particle is like
 ### Worldline supersymmetry
  {#WorldlineSupersymmetry}
 
-we discuss how spinning particles automatically have [[supersymmetry]] in their [[worldline formalism]]. See the [references below](#WorldlineSupersymmtryReferences) for more. For more on this see also at [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry).
+We discuss how spinning particles automatically have [[supersymmetry]] in their [[worldline formalism]]. For more see the [references below](#WorldlineSupersymmtryReferences) for more and see also at _[string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)_.
 
 In the [[Polyakov action]]-formulation the [[action functional]] of the [[relativistic particle]] [[sigma model]] on the 1-dimensional [[worldline]] is actually 1-dimensional [[gravity]] coupled to "worldline matter fields", where the latter are the embedding fields $\phi : \mathbb{R} \to X$ into the [[target space]].
 
