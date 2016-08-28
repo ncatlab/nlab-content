@@ -103,4 +103,8 @@ Cosheaves of [[algebras]], or notions similar to this, appear in [[AQFT]] as [[l
 
 * [[Jonathon Funk]], _The Display Locale of a Cosheaf_ , Cah. Top. G&#233;om. Diff. Cat. **36** (1995) pp.53-93.
 
+* Justin M. Curry, _Abstract existence of cosheafification_ ([pdf](https://services.math.duke.edu/~curry/papers/abstract_cosheafification.pdf))
+
+* Andrei V. Prasolov, _Cosheafification_ ([arXiv:1605.01555](https://arxiv.org/abs/1605.01555))
+
 [[!redirects cosheaves]]
