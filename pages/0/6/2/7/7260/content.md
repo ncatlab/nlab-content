@@ -85,6 +85,10 @@ A simulation of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
+Pointers to the past and future timeline of the observable universe are collected in 
+
+* [[John Baez]], _[A Brief History of the Universe](http://math.ucr.edu/home/baez/timeline.html)_
+
 Survey and exposition of aspects of organizing the large-scale structure of the universe are at
 
 * Wikipedia, _[The cosmic distance ladder](http://en.wikipedia.org/wiki/Cosmic_distance_ladder)_
