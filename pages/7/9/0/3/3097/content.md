@@ -24,6 +24,7 @@ In that vein, I just introduced the term 'punny', although it is a clich&#233;.
 * [[Sasha Beilinson|Sasha]] [Beilinson](http://en.wikipedia.org/wiki/Alexander_Beilinson), _Determinant gerbils_, a talk at MPI Bonn. (A gerbil is a kind of animal, the pun is on [[gerbes]].) 
 
 Several more candidates of similar character are listed in the responses to MO question [most-memorable-titles](http://mathoverflow.net/questions/44326/most-memorable-titles).
+See also MathOverflow [parodies-of-abstruse-mathematical-writing](http://mathoverflow.net/questions/199926/parodies-of-abstruse-mathematical-writing).
 
 [[!redirects pun title]]
 
