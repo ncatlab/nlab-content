@@ -1284,7 +1284,7 @@ and hence (see the properties of [[adjoint functors]])
 +-- {: .num_prop #TheClosedMonoidalStructure}
 ###### Proposition
 
-There exists an essentially unique [[symmetric monoidal category|symmetric]] [[closed monoidal category]] structure $(dSet, \otimes)$ on $dSet$ such that for all $S, T \in \Omega \hhokrightarrow Operad$ there is a [[natural isomorphism]]
+There exists an essentially unique [[symmetric monoidal category|symmetric]] [[closed monoidal category]] structure $(dSet, \otimes)$ on $dSet$ such that for all $S, T \in \Omega \hookrightarrow Operad$ there is a [[natural isomorphism]]
 
 $$
   \Omega[S] \otimes \Omega[T] \simeq N_d(\, S \otimes_{BV} T \,)
