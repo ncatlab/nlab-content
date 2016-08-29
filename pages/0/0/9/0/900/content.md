@@ -55,6 +55,24 @@ This definition is perhaps more intuitive in the dual case of [[ind-object|ind-o
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
 [[pro-representable functor]].
 
+### As formal duals of ind-objects
+
++-- {: .num_remarl #ProObjectAsFormalDualOfIndObject}
+###### Remark
+
+The category of pro-objects in $\mathcal{C}$ is the [[opposite category]] of that of [[ind-objects]] in the opposite catgegory of $\mathcal{C}$:
+
+$$
+  Pro(\mathcal{C})
+    \simeq
+  (Ind(\mathcal{C}^{op}))^{op}
+  \,.
+$$
+
+=--
+
+(e.g. [Kashiwara-Schapira 06, p. 138](#KashiwaraSchapira06))
+
 ## Examples
 
 * [[profinite set]], [[profinite space]]
@@ -102,7 +120,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
 
-* [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_
+* {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006)
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
