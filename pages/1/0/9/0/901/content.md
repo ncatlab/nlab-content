@@ -165,7 +165,17 @@ $$
 
 ## Properties 
 
-### General
+
+In the following we write $\underset{\longrightarrow}{\lim}^f$ for the "formal colimits" defining ind-object. I.e. if $\alpha \colon \mathcal{I} \to \mathcal{C}$ is a small [[diagram]] and with $i \colon Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ the defining inclusion, then
+
+$$
+  \underset{\longrightarrow}{\lim}^f (\alpha)
+  \;\coloneqq\;
+  \underset{\longrightarrow}{\lim} (i \circ \alpha )
+  \,.
+$$
+
+### The category of ind-objects
 
 +-- {: .num_prop}
 ###### Proposition
@@ -178,21 +188,126 @@ If $\mathcal{C}$ is a [[locally small category]] then so is $Ind(\mathcal{C})$.
 +-- {: .num_prop}
 ###### Proposition
 
-The canonical inclusion $\mathcal{C} \hookrightarrow Ind(\mathcal{C})$ is [[exact functor|right exact]].
+$Ind(\mathcal{C})$ admits small [[filtered colimits]] and the defining inclusion $Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ commutes with these colimits.
 
 =--
 
-(e.g. [KashiwaraSchapira 06, corollary 6.1.6](#KashiwaraSchapira06))
+(e.g. [KashiwaraSchapira 06, theorem 6.1.8](#KashiwaraSchapira06))
+
+The following says that morphisms between ind-objects are represented by [[natural transformation]] of the filtered diagrams that represent them, possibly up to restricting these diagrams first along a [[cofinal functor]].
+
++-- {: .num_prop}
+###### Proposition
+
+Let 
+
+1. $\mathcal{I}_1$ and $\mathcal{I}_2$ be two [[small category|small]] [[filtered category]];
+
+1. $\alpha_1 \colon \mathcal{I}_1 \longrightarrow \mathcal{C}$ and $\alpha_2 \colon \mathcal{I}_2 \longrightarrow \mathcal{C}$ be two [[functors]];
+
+1. $f 
+    \;\colon\;
+  \underset{\longrightarrow}{\lim}^f \alpha_1
+    \longrightarrow
+  \underset{\longrightarrow}{\lim}^f \alpha_2$
+
+  a [[morphism]] between their images in $Ind(\mathcal{C})$. 
+
+Then there exists 
+
+1. a small [[filtered category]] $K$
+
+1. [[cofinal functors]] $p_i \colon K \longrightarrow \mathcal{I}_i$
+
+1. a [[natural transformation]] $\phi \;\colon\; \alpha_1 \circ p_1  \longrightarrow \alpha_2 \circ p_2$
+
+such that the following [[commuting diagram|diagram commutes]]
+
+$$
+  \array{
+    \underset{\longrightarrow}{\lim}^f(\alpha_1 \circ p_1)
+      &\overset{\underset{\longrightarrow}{\lim}^f \phi}{\longrightarrow}&
+    \underset{\longrightarrow}{\lim}^f(\alpha_2 \circ p_2)
+    \\
+    {}^{\mathllap{\simeq}}\donwarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \underset{\longrightarrow}{\lim}^f \alpha_1
+      &\underset{f}{\longrightarrow}&
+    \underset{\longrightarrow}{\lim}^f \alpha_2
+  }
+  \,.
+$$
+
+=--
+
+(e.g. [KashiwaraSchapira 06, prop. 6.1.13](#KashiwaraSchapira06))
+
++-- {: .num_cor}
+###### Corollary
+
+For each $f \colon A_1 \longrightarrow A_2$ a [[morphism]] in $Ind(\mathcal{C})$, then there exists
+
+1. a [[small category|small]] [[filtered category]] $\mathcal{I}$;
+
+1. [[functors]] $\lapha_i \;\colon\; \mathcal{I} \to \mathcal{C}$ ($i \in \{1,2\}$);
+
+1. a [[natural transformation]] $\phi \colon \alpha_1 \longrightarrow \alpha_2$
+
+such that 
+
+$$
+  \array{
+    A_1 &\overset{f}{\longrightarrow}& A_2
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \underset{\longrightarrow}{\lim}^f \alpha_1
+      &\underset{\underset{\longrightarrow}{\lim}^f \phi }{\longrightarrow}&
+    \underset{\longrightarrow}{\lim}^f \alpha_2
+  }
+  \,.
+$$
+
+=--
+
+(e.g. [KashiwaraSchapira 06, corollary 6.1.14](#KashiwaraSchapira06))
 
 
 +-- {: .num_prop}
 ###### Proposition
 
-$Ind(\mathcal{C})$ admits small [[filtered colimits]] and the inclusion $Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ commutes with these colimits.
+The canonical inclusion $y \;\colon\; \mathcal{C} \hookrightarrow Ind(\mathcal{C})$ (factoring the [[Yoneda embedding]]) is [[exact functor|right exact]].
 
 =--
 
-(e.g. [KashiwaraSchapira 06, theorem 6.1.8](#KashiwaraSchapira06))
+(e.g. [KashiwaraSchapira 06, corollary 6.1.6](#KashiwaraSchapira06))
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ have all [[finite limits]] or all [[small limits]]. Then also $Ind(\mathcal{C})$ has all finite or small limits, respectively, and the canonical functor $y \;\colon\; \mathcal{C} \longrightarrow Ind(\mathcal{C})$ preserves these, respectively.
+
+=--
+
+(e.g. [KashiwaraSchapira 06, corollary 6.1.17](#KashiwaraSchapira06))
+
++-- {: .num_prop}
+###### Proposition
+
+If $\mathcal{C}$ has [[cokernels]], then so does $Ind(\mathcal{C})$.
+
+If $\mathcal{C}$ has [[finite colimit]] [[coproducts]], then $Ind(\mathcal{C})$ has small [[coproducts]].
+
+If $\mathcal{C}$ has all [[finite colimits]], then $Ind(\mathcal{C})$ has all small [[colimits]].
+
+=--
+
+(e.g. [KashiwaraSchapira 06, prop. 6.1.18](#KashiwaraSchapira06))
+
 
 ### Recognition of Ind-objects
 
