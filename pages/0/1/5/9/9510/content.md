@@ -80,12 +80,14 @@ Now the right-hand side by itself is the possibly undefined [[term]] for the lim
 
 ## Limits of filters
 
-More generally than [[sequences]], and equivalently to [[nets]], we may speak of limits of [[filters]] on $X$.  This concept is axiomatized directly in the concept of [[convergence space]].  In the definitions above, equivalent nets (those with equal [[eventuality filters]]) always converge to the same point.  As every [[proper filter]] is the eventuality filter of some net, a proper filter converges to $x$ if any of these nets converges to $x$; the [[improper filter]] converges to every point.  (In [[constructive mathematics]], we may cover all filters by saying: $F$ converges to $x$ if, on the assumption that $F$ is proper, any of its nets converges to $x$.)
+More generally than [[sequences]], and equivalently to [[nets]], we may speak of limits of [[filters]] on $X$.  This concept is axiomatized directly in the concept of [[convergence space]]. In the case of a [[topological space]] $X$, a filter of subsets of $X$ converges to a point $x$ if every neighbourhood of $x$ is contained in the filter.
+
+In the definitions above, equivalent nets (those with equal [[eventuality filters]]) always converge to the same point.  As every [[proper filter]] is the eventuality filter of some net, a proper filter converges to $x$ if any of these nets converges to $x$; the [[improper filter]] converges to every point.  (In [[constructive mathematics]], we may cover all filters by saying: $F$ converges to $x$ if, on the assumption that $F$ is proper, any of its nets converges to $x$.)
 
 
 ## Limits as limits
 
-The [[limits]] of [[category theory]] are a great generalization of an analogy with the limits discussed here.  It turns out, however, that limits in [[topological spaces]] (at least) can be viewed as category-theoretic limits.  For now, see [this math.sx answer](http://math.stackexchange.com/a/62800).
+The [[limits]] of [[category theory]] are a great generalization of an analogy with the limits discussed here.  It turns out, however, that limits in [[topological spaces]] (at least) can be viewed as category-theoretic limits. For now, see [this math.sx answer](http://math.stackexchange.com/a/62800).
 
 
 ## Related concepts
