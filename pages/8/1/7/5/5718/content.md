@@ -21,7 +21,9 @@ A jet can be thought of as the infinitesimal germ of a [[section]] of some [[bun
 
 ### Concrete
 
-For $p : P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in \mathbb{N}$, the bundle $J^k P \to X$ of **$k$- order jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative]]s at $x$ coincide.
+For $p \coloneq P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in \mathbb{N}$, the bundle $J^k P \to X$ of **$k$- order jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative]]s at $x$ coincide.
+
+For $k \to \infty$ one takes $J^\infty P$ to the the formal [[projective limit]] over the finite-order jet bundles, i.e. the [[pro-manifold]] presented by the sequence $\cdots \to J^2 P \to J^1 P \to J^0 P = P$.
 
 In the case when $p$ is a trivial bundle $p:X\times Y \to X$ its sections are canonically in bijection with maps from $X$ to $Y$ and two sections have the same partial derivatives iff the partial derivatives of the corresponding maps from $X$ to $Y$ agree. So in this case the [[jet space]] $J^k P$ is called the space of jets of maps from $X$ to $Y$ and commonly denoted with $J^k(X,Y)$.
 
