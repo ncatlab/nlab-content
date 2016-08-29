@@ -349,6 +349,8 @@ For more see at _[[embedding of smooth manifolds into formal duals of R-algebras
 
 * [[infinite dimensional smooth manifold]]
 
+* [[pro-manifold]]
+
 * [differential cohesion -- structures - Cohesive manifolds (separated)](cohesive+%28infinity%2C1%29-topos+--+infinitesimal+cohesion#CohesivemanifoldsSeparated)
 
 
