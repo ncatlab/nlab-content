@@ -112,10 +112,11 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 * [[ind-pro-object]]
 
 ## References
-*   A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf).
+
+* [[Alexander Grothendieck]], _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf).
 
 
-* (SGA4-1) A. Grothendieck, J. L. Verdier, _Pr&#233;faisceaux_, Exp. 1 ([retyped pdf](http://www.math.polytechnique.fr/~orgogozo/SGA4/01/01.pdf)) in _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. [pdf of SGA 4, Tome 1](http://www.iecn.u-nancy.fr/~gaillapy/SGA/grothendieck_sga_4.1.pdf)
+* (SGA4-1) [[Alexander Grothendieck]], [[Jean-Louis Verdier]], _Pr&#233;faisceaux_, Exp. 1 ([retyped pdf](http://www.math.polytechnique.fr/~orgogozo/SGA4/01/01.pdf)) in _Th&#233;orie des topos et cohomologie &#233;tale des sch&#233;mas. Tome 1: Th&#233;orie des topos_, S&#233;minaire de G&#233;om&#233;trie Alg&#233;brique du Bois-Marie 1963&#8211;1964 ([[SGA 4]]). Dirig&#233; par M. Artin, A. Grothendieck, et J. L. Verdier. Avec la collaboration de N. Bourbaki, P. Deligne et B. Saint-Donat. Lecture Notes in Mathematics __269__, Springer 1972. [pdf of SGA 4, Tome 1](http://www.iecn.u-nancy.fr/~gaillapy/SGA/grothendieck_sga_4.1.pdf)
 *  [[Michael Artin]], [[Barry Mazur]], _&#201;tale homotopy theory_, Lecture Notes in Maths. 100, Springer-Verlag, Berlin 1969.
 
 * [[Jean-Marc Cordier]], [[Tim Porter]],  _Shape Theory_ , categorical methods of approximation, Dover (2008) (This is a reprint of the 1989 edition without amendments.)
@@ -124,13 +125,18 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 
 * [[Peter Johnstone]], section VI.1 of _[[Stone Spaces]]_
 
+* {#Isaksen02} [[Dan Isaksen]], _Calculating limits and colimits in pro-categories_, Fund. Math. 175 (2002),
+
+
 * [[S. Marde?i?]], J. Segal, _Shape theory_, North Holland 1982
 
-* J.-L. Verdier, _Equivalence essentielle des syst&#232;mes projectifs_, C. R.A.S. Paris261 (1965), 4950 - 4953.
+* [[Jean-Louis Verdier]], _Equivalence essentielle des syst&#232;mes projectifs_, C. R.A.S. Paris261 (1965), 4950 - 4953.
 
-* J. Duskin, _Pro-objects (after Verdier)_, S&#233;m. Heidelberg- Strasbourg1966 -67, Expos&#233; 6, I.R.M.A.Strasbourg. 
+* [[John Duskin]], _Pro-objects (after Verdier)_, S&#233;m. Heidelberg- Strasbourg1966 -67, Expos&#233; 6, I.R.M.A.Strasbourg. 
 
 * A. Deleanu, P. Hilton, Borsuk shape and Grothendieck categories of pro-objects, Math. Proc. Camb. Phil. Soc.79-3 (1976), 473-482 [MR400220](http://www.ams.org/mathscinet-getitem?mr=400220)
+
+no. 2, 175&#8211;194.
 
 * Tholen
 
