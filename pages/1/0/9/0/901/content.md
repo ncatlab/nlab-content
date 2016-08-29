@@ -17,7 +17,7 @@
 
 ## Idea 
 
-An **ind-object** of a [[category]] $C$ is a **formal [[filtered colimit]]** of objects of $C$.  Here "formal" means that the colimit is taken in the [[category of presheaves]] of $C$ (the [[free cocompletion]] of $X$). The category of ind-objects of $C$ is written $ind$-$C$ or $Ind(C)$
+An **ind-object** of a [[category]] $\mathcal{C}$ is a **formal [[filtered colimit]]** of objects of $C$.  Here "formal" means that the colimit is taken in the [[category of presheaves]] of $C$ (the [[free cocompletion]] of $X$). The category of ind-objects of $\mathcal{C}$ is written $ind$-$\mathcal{C}$ or $Ind(\mathcal{C})$.
 
 Here, "ind" is short for "[[inductive system]]", as in the inductive systems used to define [[directed colimits]], and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
 
@@ -27,10 +27,9 @@ $$
   c_1 \hookrightarrow c_2 \hookrightarrow c_3 \hookrightarrow c_4 \hookrightarrow \cdots
 $$
 
-of objects in $C$ are regarded to converge to an object in $ind C$, even if that object does not exist in $C$ itself. 
-Standard examples where ind-objects are relevant are categories $C$ whose objects are finite in some sense, such as finite sets or finite vector spaces. Their ind-categories contain then also the infinite versions of these objects as limits of sequences of inclusions of finite objects of ever increasing size. 
+of objects in $\mathcal{C}$ are regarded to converge to an object in $Ind(\mathcal{C})$, even if that object does not exist in $\mathcal{C}$ itself.  Standard examples where ind-objects are relevant are categories $\mathcal{C}$ whose objects are finite in some sense, such as [[finite sets]] or [[finite dimensional vector spaces]]. Their ind-categories contain then also the infinite versions of these objects as limits of sequences of inclusions of finite objects of ever increasing size. 
 
-Moreover, ind-categories allow one to handle "big things in terms of small things" also in another important sense: many [[large category|large categories]] are actually ([[equivalence of categories|equivalent]] to) ind-categories of [[small category|small categories]]. This means that, while [[large category|large]], they are for all practical purposes controlled by a [[small category]] (see the description of the [[hom-set]] of $ind-C$ in terms of that of $C$ below). Such [[large category|large categories]] equivalent to ind-categories are therefore called [[accessible category|accessible categories]].
+Moreover, ind-categories allow one to handle "big things in terms of small things" also in another important sense: many [[large category|large categories]] are actually ([[equivalence of categories|equivalent]] to) ind-categories of [[small category|small categories]]. This means that, while [[large category|large]], they are for all practical purposes controlled by a [[small category]] (see the description of the [[hom-set]] of $Ind(\mathcal{C})$ in terms of that of $C$ below). Such [[large category|large categories]] equivalent to ind-categories are therefore called [[accessible category|accessible categories]].
 
 
 ## Definition 
@@ -75,6 +74,7 @@ $$
   \,.
 $$
 
+
 ### As filtered colimits of representable presheaves 
 
 Recall the [[co-Yoneda lemma]] that every presheaf $X \in PSh(C)$ is a [[colimit]] over [[representable functor|representable presheaves]]:
@@ -110,8 +110,8 @@ For more equivalent characterizations see at _[accessible category -- Definition
 
 
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_remark}
+###### Remark
 
 Given that $[C^{op},Set]$ is the [[free cocompletion]] of $C$, $ind$-$C$ defined in this way is its "free cocompletion under filtered colimits."
 
@@ -167,22 +167,54 @@ $$
 
 ### General
 
-* If $C$ is a [[locally small category]] then so is $ind-C$.
-
-* The inclusion $C \hookrightarrow ind\text{-}C$ is [[exact functor|right exact]].
-
-* a functor $F : C^{op} \to Set$ is in $ind\text{-}C$ (i.e. is a [[filtered colimit]] of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
-
-* $ind\text{-}C$ admits small [[filtered colimits]] and the inclusion $ind\text{-}C\hookrightarrow PSh(C)$ commutes with these colimits.
-
-* If $C$ admits finite [[colimit]]s, then $ind\text{-}C$ is the [[full subcategory]] of the [[presheaf]] category $PSh(C)$ consisting of those functors $F : C^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
++-- {: .num_prop}
+###### Proposition
 
 
-Ind-cocompletion is functorial -- in fact an underlying 2-functor of a [[lax-idempotent 2-monad]] (KZ-monad)
+If $\mathcal{C}$ is a [[locally small category]] then so is $Ind(\mathcal{C})$.
 
-More in detail:
+=--
 
 +-- {: .num_prop}
+###### Proposition
+
+The canonical inclusion $\mathcal{C} \hookrightarrow Ind(\mathcal{C})$ is [[exact functor|right exact]].
+
+=--
+
+(e.g. [KashiwaraSchapira 06, corollary 6.1.6](#KashiwaraSchapira06))
+
+
++-- {: .num_prop}
+###### Proposition
+
+$Ind(\mathcal{C})$ admits small [[filtered colimits]] and the inclusion $Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ commutes with these colimits.
+
+=--
+
+(e.g. [KashiwaraSchapira 06, theorem 6.1.8](#KashiwaraSchapira06))
+
+### Recognition of Ind-objects
+
++-- {: .num_prop}
+###### Proposition
+
+A [[functor]] $F \colon \mathcal{C}^{op} \to Set$ is in $Ind(\mathcal{C})$ (i.e. is a [[filtered colimit]] of [[representable functor|representables]]) precisely if the [[comma category]] $(Y,const_F)$ (with $Y$ the [[Yoneda embedding]]) is [[filtered category|filtered]] and [[cofinally small category|cofinally small]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+If $\mathcal{C}$ admits finite [[colimits]], then $Ind(\mathcal{C})$ is the [[full subcategory]] of the [[presheaf]] category $PSh(\mathcal{C})$ consisting of those functors $F \colon \mathcal{C}^{op} \to Set$ such that $F$ is [[exact functor|left exact]] and the [[comma category]] $(Y,F)$ (with $Y$ the [[Yoneda embedding]]) is [[cofinally small category|cofinally small]].
+
+=--
+
+### Functoriality
+
+Ind-cocompletion is functorial -- in fact an underlying 2-functor of a [[lax-idempotent 2-monad]] (KZ-monad). More in detail:
+
++-- {: .num_prop #FunctorialityOfInd}
 ###### Proposition
 
 Let $F \colon \mathcal{C}_1 \longrightarrow \mathcal{C}$ be a [[functor]]. Then there is a unique [[extension]] $Ind(F)$ of this functor to ind-objects, i.e. a [[commuting diagram]]
@@ -216,12 +248,31 @@ Moreover,
 
 =--
 
-(e.g. [Kashiwara-Schapira 06, props. 6.1.9-6.1.11](#KashiwaraSchapira06))
+(e.g. [KashiwaraSchapira 06, prop.6.1.9-6.1.11](#KashiwaraSchapira06))
 
-### If $\mathcal{C}$ already admits filtered colimits
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}_1$ and $\mathcal{C}_2$ be two [[small categories]]. By prop. \ref{FunctorialityOfInd} the two [[projections]] out of their [[product category]] induce a functor of the form
+
+$$
+  Ind(\mathcal{C}_1 \times \mathcal{C}_2)
+    \longrightarrow
+  Ind(\mathcal{C}_1) \times Ind(\mathcal{C}_2)
+  \,.
+$$
+
+This is an [[equivalence of categories]].
+
+=--
+
+([KashiwaraSchapira 06, prop. 6.1.12](#KashiwaraSchapira06))
 
 
-([KashiwaraSchapira 06,chapter 6.3](#KashiwaraSchapira06))
+### The case that $\mathcal{C}$ already admits filtered colimits
+
+
+([KashiwaraSchapira 06, chapter 6.3](#KashiwaraSchapira06))
 
 +-- {: .num_prop}
 ###### Proposition
