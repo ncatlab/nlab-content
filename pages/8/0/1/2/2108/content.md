@@ -79,7 +79,7 @@ _Geometric quantization_ is a tool for understanding the relation between [[clas
 
 1. To understand this rigamarole, one must study examples! First, it's good to understand how good old *Schr&#246;dinger quantization* fits into this framework. Remember, in [[Schrodinger quantization|Schrödinger quantization]] we take our classical [[phase space]] $X$ to be the [[cotangent bundle]] $T^* M$ of a [[manifold]] $M$ called the *classical configuration space*. We then let our quantum Hilbert space be the space of all square-integrable functions on $M$.
 
-   Modulo some technical trickery, we get this example when we run the above machinery and use a certain god-given real polarization on $X = T*M$, namely the one given by the vertical vectors.
+   Modulo some technical trickery, we get this example when we run the above machinery and use a certain god-given real polarization on $X = T^*M$, namely the one given by the vertical vectors.
 
 1. It's also good to study the *Bargmann--Segal representation*, which we get by taking $X = \mathbb{C}^n$ with its god-given symplectic structure (the imaginary part of the inner product) and using the god-given *K&#228;hler polarization*. When we do this, our quantum Hilbert space consists of analytic functions on $\mathbb{C}^n$ which are square-integrable with respect to a Gaussian measure centered at the origin.
 
