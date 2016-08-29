@@ -128,7 +128,7 @@ $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of
 Consider limits of functors $F : D^{op} \to PSh(C)$
 with values in the category of [[nLab:presheaf|presheaves]] on a [[nLab:small category|small category]] $C$.
 
-+-- {: .un_prop}
++-- {: .num_prop #LimitsOfPresheaves}
 ###### Proposition
 
 Limits of presheaves are computed objectwise:
@@ -137,15 +137,18 @@ $$
 $$ 
 Here on the right the limit is over the functor 
 $F(-)(c) : D^{op} \to Set$.
+
+Similarly for colimits
+
 =--
 
 Similarly [[colimit]]s of presheaves are computed objectwise.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-The [[nLab:Yoneda embedding|Yoneda embedding]] 
-$Y : C \to PSh(C)$ commutes with small limit:
+The [[Yoneda embedding]] 
+$Y : C \to PSh(C)$ commutes with small limits:
 
 Let $F : D^{op} \to C$, then we have
 $$
@@ -162,7 +165,7 @@ if $lim F$ exists.
 Limits in [[under category|under categories]] are a special case of limits in [[comma category|comma categories]]. These are explained elsewhere. It may still be useful to spell out some details for the special case of under-categories. This is what the following does.
 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
 Limits in an [[under category]] are computed as limits in the underlying category.
