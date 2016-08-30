@@ -14,7 +14,7 @@
 * table of contents
 {:toc}
 
-## Defnition
+## Definition
 
 A [[category]] $C$ is **well-powered** if every object has a [[small category|small]] [[partial order|poset]] of [[subobject]]s.
 
