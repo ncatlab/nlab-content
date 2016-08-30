@@ -61,11 +61,20 @@ is an isomorphism. This fact is mentioned by Andr&#233; Joyal in _Foncteurs anal
 
 ## Coproducts commute with connected limits
 
-If $A$ is a set, $C$ is a [[connected category]], and $F : C\times A\to Set$ is a functor, the canonical map
++-- {: .num_example #CoproductsCommutingWithConnectedLimits}
+###### Proposition
 
-$$ \coprod_{a\in A} \lim_{c\in C} F(c,a)\to \lim_{c\in C} \coprod_{a\in A}F(c,a) $$
+Let  $A$ be a [[set]], $C$ a [[connected category]], and $F \colon C\times A \longrightarrow Set$ a [[functor]]. Then the canonical morphism
 
-is an isomorphism. This remains true if $Set$ is replaced by any [[Grothendieck topos]].
+$$ 
+  \underset{a\in A}{\coprod} \underset{\longleftarrow}{\lim}_{c\in C} F(c,a)
+    \longrightarrow 
+   \underset{\longleftarrow}{\lim}_{c\in C} \coprod_{a\in A}F(c,a) 
+$$
+
+is an [[isomorphism]]. This remains true if [[Set]] is replaced by any [[Grothendieck topos]].
+
+=--
 
 More generally, if $\mathbf{H}$ is an [[(∞,1)-topos]], $A$ is an [[n-groupoid]], and $C$ is a small [[(∞,1)-category]] whose [[classifying space]] is [[n-connected]], then $C$-limits commute with $A$-colimits in $\mathbf{H}$. This follows from the fact that the colimit functor $\mathbf{H}^A\to\mathbf{H}$ induces an equivalence of (∞,1)-topoi $\mathbf{H}^A\simeq \mathbf{H}_{/A}$. For example, if $C$ is a [[cofiltered (∞,1)-category]] or even a [[cosifted (∞,1)-category]], then the classifying space of $C$ is weakly contractible and hence $C$-limits commute with $A$-colimits in $\mathbf{H}$ for any [[∞-groupoid]] $A$.
 
