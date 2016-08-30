@@ -35,6 +35,8 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 
 * [[anti-cyclotomic extension]]
 
+* [[dihedral homology]]
+
 ## References
 
 * Wikipedia, _[Dihedral group](https://en.wikipedia.org/wiki/Dihedral_group)_
