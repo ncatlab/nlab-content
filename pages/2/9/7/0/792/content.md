@@ -29,16 +29,16 @@ Recall that ( _geometric_ ) [[T-duality]] is an operation acting on tuples rough
   
 * and notably equipped with a (pseudo)[[Riemannian metric]] -- modelling the field of [[gravity]].
 
-The idea of **topological T-duality** is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
+The idea of **topological T-duality** (due to[Bouwknegt-Evslin-Mathai 04](#BouwknegtEvslinMathai04), [Bouwknegt-Hannabus-Mathai 04](#BouwknegtHannabusMathai04)) is to disregard the [[Riemannian metric]] and the connection and study the remaining "topological" structure.
 
 While the idea of [[T-duality]] originates in [[string theory]], topological T-duality has become a field of study in pure mathematics in its own right. 
 
-In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced pull-push operation (in [[groupoidification]] and [[geometric function theory]]) on (sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the [[Fourier-Mukai transformation]]. More on the bi-brane interpretation of (topological and non-topological) T-duality is in _SarkissianSchweigert08_.
+In the language of [[bi-brane]]s a topological T-duality transformation is a bi-brane of a special kind between the two gerbes involved. The induced [[integral transform]] (on sheaves of sections of, or K-classes of) (twisted) vector bundles is essentially the [[Fourier-Mukai transformation]]. More on the bi-brane interpretation of (topological and non-topological) T-duality is in ([Sarkissian-Schweigert 08](#SarkissianSchweigert08)).
 
 
 ## Definition
 
-Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line [[bundle gerbe]] $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two line bundle gerbes pulled back to the [[fiber product]] correspondence space $X_1 \times_B X_2$:
+Two tuples $(X_i \to B, G_i)_{i = 1,2}$ consisting of a $T^n$-bundle $X_i$ over a manifold $B$ and a line [[bundle gerbe]] $G_i \to X_i$ over $X$ are **topological T-duals** if there exists an isomorphism $u$ of the two [[bundle gerbes]] pulled back to the [[fiber product]] correspondence space $X_1 \times_B X_2$:
 
 $$
   \array{
@@ -59,7 +59,7 @@ $$
   }
 $$
 
-of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of ([Bunke-Rumpf-Schick 08](#BunkeRumpfSchick08))).
+of a certain prescribed [[integral transform]]-form ([Bunke-Rumpf-Schick 08, p. 9](#BunkeRumpfSchick08))).
 
 ## Related concepts
 
@@ -75,22 +75,22 @@ of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org
 
 ## References
 
-The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
+The simple version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
 
-* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
+* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
 and the torus bundle case was introduced in 
 
-* Bouwknegt-Hannabus-Mathai [hep-th/0312284](http://arxiv.org/abs/hep-th/0312284). 
+* {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]] [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
-In these papers the gerbe does not appear, but an integral 3-form, representing the Dixmier-Douady class of a gerbe does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in 
+In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way. The formalization with the above data originates in 
 
-* [[Ulrich Bunke]] and [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
-{#BunkeSchick05}
+* {#BunkeSchick05} [[Ulrich Bunke]], [[Thomas Schick]], _On the topology of T-duality_ ([pdf](http://www.uni-math.gwdg.de/schick/publ/totduali.pdf))
+
 
 and
 
-*  [[Ulrich Bunke|U. Bunke]], P. Rumpf and [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[Ulrich Bunke|U. Bunke]], P. Rumpf, [[Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_ ([arXiv](http://arxiv.org/abs/math.GT/0501487))
 {#BunkeRumpfSchick08}
 
 A refined description is in 
@@ -100,21 +100,21 @@ A refined description is in
 * {#Nikolaus14} [[Thomas Nikolaus]], _[[T-Duality in K-theory and Elliptic Cohomology]]_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
 
 
-There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for instance at
+There is a [[C*-algebra|C*-algebraic]] version of toplogical T-duality, discussed for instance at
 
-* V. Mathai and [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
+* [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
 
 Jonathan Rosenberg has also written a little introductory book for mathematicians:
 
 * [[Jonathan Rosenberg]], _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
 
-A discussion that instead of noncommutative spaces uses [[topological groupoids]] is in 
+A discussion that instead of [[noncommutative geometry]] uses [[topological groupoids]] is in 
 
 * Calder Daenzer, _A groupoid approach to noncommutative T-duality_ ([arXiv:0704.2592](http://arxiv.org/abs/0704.2592))
 
 The [[bi-brane]] perspective on T-duality is amplified in
 
-* Gor Sarkissian and [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv](http://arxiv.org/abs/0810.3159))
+* {#SarkissianSchweigert08} Gor Sarkissian, [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv:0810.3159](http://arxiv.org/abs/0810.3159))
 
 The refinement of topology T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
