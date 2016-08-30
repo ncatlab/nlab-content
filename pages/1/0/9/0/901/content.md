@@ -198,7 +198,7 @@ $Ind(\mathcal{C})$ admits small [[filtered colimits]] and the defining inclusion
 
 (e.g. [KashiwaraSchapira 06, theorem 6.1.8](#KashiwaraSchapira06))
 
-The following says that morphisms between ind-objects are represented by [[natural transformation]] of the filtered diagrams that represent them, possibly up to restricting these diagrams first along a [[cofinal functor]].
+The following says that morphisms between ind-objects are represented by [[natural transformation]] of the filtered diagrams that represent them, possibly up to restricting these diagrams first along a [[final functor]].
 
 +-- {: .num_prop #MorphismsRepresentedByCofilteredSystemsOfMorphisms}
 ###### Proposition
@@ -221,7 +221,7 @@ Then there exists
 
 1. a small [[filtered category]] $K$
 
-1. [[cofinal functors]] $p_i \colon K \longrightarrow \mathcal{I}_i$
+1. [[final functors]] $p_i \colon K \longrightarrow \mathcal{I}_i$
 
 1. a [[natural transformation]] $\phi \;\colon\; \alpha_1 \circ p_1  \longrightarrow \alpha_2 \circ p_2$
 
@@ -246,7 +246,7 @@ $$
 
 =--
 
-(e.g. [KashiwaraSchapira 06, prop. 6.1.13](#KashiwaraSchapira06))
+(e.g. [KashiwaraSchapira 06, prop. 6.1.13](#KashiwaraSchapira06), [Artin-Mazur 69, appendix 3, prop. (3.1), corollary (3.2)](#ArtinMazur69))
 
 +-- {: .num_cor}
 ###### Corollary
@@ -514,15 +514,20 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 
 ## References
+
 Ind-categories were introduced in 
 
-* Grothendieck and Verdier in SGA4 Exp. 1 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
+* [[Alexander Grothendieck]], [[Lean-Louis Verdier]] in [[SGA4]] Exp. 1 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
 
 and the dual notion of [[pro-object]] in 
 
 * A. Grothendieck, _Techniques de d&#233;scente et th&#233;or&#232;mes d'existence en g&#233;om&#233;trie alg&#233;brique, II: le th&#233;or&#232;me d'existence en th&#233;orie formelle des modules_, Seminaire Bourbaki __195__, 1960, [(pdf)](http://archive.numdam.org/ARCHIVE/SB/SB_1958-1960__5_/SB_1958-1960__5__369_0/SB_1958-1960__5__369_0.pdf).
 
-Ind-categories are discussed in
+Ind-objects are discussed in
+
+* {#ArtinMazur69} [[Michael Artin]], [[Barry Mazur]], appendix of _&#201;tale homotopy theory_, Lecture Notes in Maths. 100, Springer-Verlag, Berlin 1969.
+
+(in their dual guise as [[pro-objects]])
 
 * {#KashiwaraSchapira06} [[Masaki Kashiwara]], [[Pierre Schapira]], section 6 of _[[Categories and Sheaves]]_ , Grundlehren der mathematischen Wissenschaften 332 (2006)
 
