@@ -154,7 +154,15 @@ A minimal model of a society that at least keeps the **gender** of the parents a
 
 Similarly, **exogamy** can be modeled by a _clans object_ $C$ e.g. consisting of two clans $C=\{bear, wolf\}$ obeying matrilinearity in the sense that the mother-of function $m$ is constant but the father-of function $f$ switches the clans expressing thereby that the father of an individual comes from another clan than the individual and his mother.[^Fox]
 
-By labeling with the product $G\times C$ one can achieve gender distinction and exogamy at the same time.
+By labeling with the product $G\times C$ one can achieve gender distinction and exogamy at the same time:
+
+$$
+G\times C \quad=\qquad\array{
+he-wolf &\overset{f}{\underset{f}{\leftrightarrows}}& he-bear\\
+_{m}\downarrow&_{f}{\nearrow}  {\nwarrow}{_{f}}& \downarrow{_{m}}\\
+\underset{\overset{\circlearrowleft}{m}}{she-wolf}& &\underset{\overset{\circlearrowleft}{m}}{she-bear}
+}\quad 
+$$
 
 [^Fox]: The Fox tribe in Lawvere's home state Iowa indeed consists of two moieties called 'Bear' and 'Wolf' but they are patrilineal ([Liu 1986](#Liu86), p.21).
 
@@ -208,7 +216,7 @@ consanguinity and affinity_ , J. Royal Anthr. Inst. **12** (1882) pp.46-63.
 
 A comprehensive anthology is
 
-* Robert Parkin, Linda Stone (eds.), _Kinship and Family_ , Blackwell Oxford 2004.
+* {#PS04}Robert Parkin, Linda Stone (eds.), _Kinship and Family_ , Blackwell Oxford 2004.
 
 Classical anthropological texts are 
 
@@ -256,11 +264,19 @@ The category-theoretic point of view is sketched in
 
 * {#LawSchan97}[[William Lawvere|F. William Lawvere]], [[Stephen Schanuel|Stephen H. Schanuel]], _Conceptual Mathematics_ , Cambridge UP 1997. (pp.162-163)
 
+The following pursues an abstract general approach to kinship:
+
+* {#Allen86}N. J. Allen, _Tetradic Theory: An Approach to Kinship_ , J. Anthr. Soc. Oxford **17** (1986) pp.87-109. (Revised reprint pp.221-235 in [Parkin-Stone 2004](#PS04).)
+
+The general role of group theory in culture is dicussed in
+
+* P. Lucich, _Beyond Formalism: Group Theory in the Symmetries of Culture_ , J. Math. Sociology **16** (1991) pp.221-264.
+
 A group-theoretic approach to Dravidian kinship and universal classification is proposed in
 
 * {#Alm10}Mauro W. Barbosa De Almeida, _On the Structure of Dravidian Relationship Systems_ , MACT **3** no.1 (2010). ([pdf](http://mathematicalanthropology.org/pdf/BarbosadeAlmeida.0810.pdf))
 
-A connection between Dravidian kinship terminology and [[supersymmetry]] is argued for in
+A connection between Dravidian kinship terminology and [[supersymmetry]] is proposed in
 
 * {#Vaz14}Ruth M. Vaz, _Relatives, Molecules and Particles_ , MACT **7** no. 1 (2014). ([pdf](http://mathematicalanthropology.org/pdf/RMVaz_MACT%200614.pdf))
 
@@ -287,6 +303,7 @@ Kinship systems are studied from a mathematical perspective in
 * [[Claude Lévi-Strauss]], Georges Guilbaud, _Syst&#232;me parental et matrimonial au Nord Ambrym_ , J. Soci&#233;t&#233; des Oc&#233;anistes **26** no. 26 (1970) pp.9-32. ([link](http://www.persee.fr/doc/jso_0300-953x_1970_num_26_26_2281))
 
 * Gis&#232;le De Meur (ed.), _New Trends in Mathematical Anthropology_ , Routledge London 1986.
+
 
 * Gis&#232;le De Meur, Alain Gottcheiner, _Prescriptive Kinship Systems, Permutations, Groups, and Graphs_ , MACT **1** no. 1 (2000). ([pdf](http://mathematicalanthropology.org/Pdf/MACTdeMEUR1100.pdf))
 
