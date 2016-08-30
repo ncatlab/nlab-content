@@ -27,19 +27,26 @@ To amplify this specification, one should properly speak of "pro-(finite dimensi
 An important example of pro-objects in finite-dimensional smooth manifolds are infinite [[jet bundles]]. These are the formal projective limits of the underlying finite-order jet bundles.
 
 
-## Properties
+## Pro-Cartesian spaces
 
-+-- {: .num_defn }
+
++-- {: .num_defn #proCartSp}
 ###### Definition
 
-Write [[CartSp]] for the [[full subcategory]] of that of [[smooth manifolds]] on the [[Cartesian spaces]], i.e. on those of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. Write $Pro(CartSp)$ for its category of [[pro-objects]].
+Write [[CartSp]] for the [[full subcategory]] of that of [[smooth manifolds]] on the [[Cartesian spaces]], i.e. on those of the form $\mathbb{R}^n$, for $n \in \mathbb{N}$. Write 
+
+$$
+  ProCartSp \coloneqq Pro(CartSp)
+$$ 
+
+for its category of [[pro-objects]], the **pro-Cartesian spaces**.
 
 =--
 
 +-- {: .num_prop #ProCartSpFullyFaithfulInSmoothLoc}
 ###### Proposition
 
-The functor which sends a formal cofiltered limit of Cartesian spaces to its actual [[cofiltered limit]] of [[smooth loci]] is a [[fully faithful functor]].
+The functor which sends a formal cofiltered limit of Cartesian spaces to its actual [[cofiltered limit]] of [[smooth loci]] is a [[fully faithful functor]], hence constitutes a [[full subcategory]] inclusion of [[pro-Cartesian spaces]] (def. \ref{proCartSp}) into [[smooth loci]]:
 
 $$
   Pro(CartSp) \hookrightarrow SmthLoc
@@ -101,4 +108,94 @@ Here $Ind(i^{op})$ takes formal filtered colimits in $CartSp^{op}$ to the corres
 
 =--
 
++-- {: .num_defn #TowersOfCartesianSpaces}
+###### Definition
+
+Write
+
+$$
+  TowCartSp \hookrightarrow ProCartSp
+$$
+
+for the [[full subcategory]] of the category of [[pro-Cartesian spaces]] (def. \ref{proCartSp}) on those [[pro-objects]] in [[CartSp]] which are presented as formal [[sequential limits]] of [[tower]] diagrams, i.e. where the indexing category $\mathcal{K} = \mathbb{N}_{\geq}$.
+
+=--
+
+
++-- {: .num_defn #ProGoodOpenCoverOnACartesianSpace}
+###### Definition
+
+For $U \in TowCartSp$ a [[tower of Cartesian spaces]]  (def. \ref{TowersOfCartesianSpaces}), say that a **towr of [[good open covers]]** of $U$ is a sequence of morphisms $\{U_i \overset{\phi_i}{\to} U\}$ in $TowCartSp$ such that these are the formal [[sequential limit]] of a cofiltered diagram of [[good open covers]] $\{U_i^k \overset{\phi_i^k}{\to} U^k\}$.
+
+$$
+  \array{
+    U_i^{k} &\overset{\underset{\longleftarrow}{\lim}^f}{\mapsto}& U_i
+    \\
+    {}^{\mathllap{\phi_i^k}}\downarrow && \downarrow^{\mathrlap{\phi}_i}
+    \\
+    U^k &\overset{\underset{\longleftarrow}{\lim}^f}{\mapsto}& U
+  } 
+$$
+
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+The collection of towers of [[good open covers]] on $TowCartSp$, according to def. \ref{ProGoodOpenCoverOnACartesianSpace}, constitutes a [[coverage]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the definition of [[coverage]] (def. \ref{coverage#ConditionsOnACoverage}) we need to check that for every pro-[[good open cover]] $\{U_i \overset{\phi_i}{\to} U\}$ and for every morphism $V \overset{g}{\longrightarrow} U$ in $TowCartSp$, there exists a pro-[[good open cover]] $\{V_j \overset{\psi_j}{\longrightarrow} V\}$ of $V$ such that for each index $j$ we may find an index $i$ and a morphism $V_j \overset{}{\to} U_i$ such as to make a [[commuting diagram]] of the form
+
+$$
+  \array{
+    V_j &\overset{}{\longrightarrow}& U_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi_i}}
+    \\
+    V &\underset{g}{\longrightarrow}& U
+  }
+  \,.
+$$
+
+Now by [this prop.](ind-object#MorphismsRepresentedByCofilteredSystemsOfMorphisms) there exists a [[cofiltered category]] $\mathcal{K}$ and a [[cofinal functor]] $\mathcal{K} \longrightarrow \mathbb{N}_{\geq}$ such that $f_i$ and $g$ are are both represented by a $\mathcal{K}$-indexed cofiltered system of morphisms $V^k \overset{g^k}{\longrightarrow} U^k$ and $U_i^k \overset{f_i^k}{\longrightarrow} U^k$ in [[CartSp]]. 
+
+Since ordinary [[good open covers]] do form a [[coverage]] on [[CartSp]] ([prop.](good+open+cover#GoodOpenCoversFormACoverageOnParacompactSmooothManifolds)) each of these component diagrams may be completed
+
+$$
+  \array{
+    \tilde V^k_j &\overset{}{\longrightarrow}& U^k_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi^k_i}}
+    \\
+    V^k &\underset{g^k}{\longrightarrow}& U^k
+  }
+  \,.
+$$
+
+
+=--
+
+
+
 [[!redirects pro-manifolds]]
+
+[[!redirects promanifold]]
+[[!redirects promanifolds]]
+
+[[!redirects pro-Cartesian space]]
+[[!redirects pro-Cartesian spaces]]
+
+[[!redirects tower of Cartesian spaces]]
+[[!redirects towers of Cartesian spaces]]
+[[!redirects tower of cartesian spaces]]
+[[!redirects towers of cartesian spaces]]
