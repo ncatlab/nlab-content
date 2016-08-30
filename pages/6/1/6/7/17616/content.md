@@ -18,7 +18,7 @@
 
 A _pro-manifold_ is a [[pro-object]] in a [[category]] of [[manifolds]], i.e. a formal [[projective limit]] of [[manifolds]].
 
-Details depend on what exactly is understood by "[[manifold]]", i.e. wether [[topological manifolds]] or [[smooth manifold]], etc. 
+Details depend on what exactly is understood by "[[manifold]]", i.e. whether [[topological manifolds]] or [[smooth manifold]], etc. 
 
 Typically one wants to mean [[pro-objects]] in manifolds of [[finite number|finite]] [[dimensions]], the point being then that a pro-manifold is like an [[infinite-dimensional manifold]] but with "mild" infinite dimensionality, expressed by the very fact that it may be presented as a formal projective limit of finite dimensional manifolds.
 
