@@ -72,6 +72,8 @@ However, here is a property which one might expect coherent theories to have, bu
 
 * Sometimes coherent logic is called *geometric logic*, but that term is now more commonly used for the analogous fragment of infinitary logic which allows disjunctions over arbitrary sets (though still only finitary conjunctions).  See [[geometric logic]].
 
+* Conversely, geometric logic is sometimes called _coherent_ , e.g. in Reyes ([1977](#Reyes)), so that coherent logic in the nLab terminology corresponds to the _finitary_ fragment only.
+
 * Occasionally the [[existential quantifiers]] in coherent logic are further restricted to range only over *finitely presented types*.
 
 ## Related concepts
@@ -87,19 +89,21 @@ However, here is a property which one might expect coherent theories to have, bu
 
 ## References
 
-A survey of results on coherent logic is in
+A survey of results on geometric and coherent logic is in
 
-* [[Gonzalo Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. Cat. **XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
+* {#Reyes77}[[Gonzalo Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. Cat. **XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
 
 Else consider the monographs
 
-* [[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories*, Springer-Verlag, 1977
+* [[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories*, Springer-Verlag, 1977.
 
 * [[Michael Makkai]] and [[Robert Paré]], *Accessible categories*
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]] vol 2. Part D
 
 * [[Jiri Adamek]] and [[Jiri Rosicky]], *Locally presentable and accessible categories*
+
+
 
 [[!redirects coherent logic]]
 [[!redirects coherent logics]]
