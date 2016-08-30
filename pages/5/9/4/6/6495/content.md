@@ -45,6 +45,8 @@ There are various generalizations:
 
 ## Related concepts
 
+* [[cyclic homology]]
+
 * [[Chern character]]
 
 * [[norm cofibration]]
