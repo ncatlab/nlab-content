@@ -50,7 +50,12 @@ where $\mathcal{F}$ satisfies the [[axiom of choice]].
 ## Related entries
 
 * [[Deligne completeness theorem]]
+
 * [[Boolean topos]]
+
+## Link
+
+* MO discussion on topos without points: ([link](http://mathoverflow.net/questions/98729/topos-without-point-from-the-point-of-view-of-logic))
 
 ## References
 
@@ -60,7 +65,11 @@ Extensive discussion of the context of Barr's theorem is in chapter 7 of:
 
 * [[P. T. Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014).
 
-For a discussion of the importance of this theorem in constructive algebra see
+A proof sketch and a survey of its model-theoretic context is in
+
+* [[Gonzalo Reyes|Gonzalo E. Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. **Cat. XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
+
+For a discussion of the importance of this theorem in constructive algebra see also
 
 * [[Gavin Wraith]], _Intuitionistic algebra: some recent developments in topos theory_  In Proceedings
 of the International Congress of Mathematicians (Helsinki, 1978), pages 331&#8211;337, Helsinki, 1980. Acad. Sci. Fennica. ([pdf](http://www.mathunion.org/ICM/ICM1978.1/Main/icm1978.1.0331.0338.ocr.pdf))
@@ -71,12 +80,11 @@ For proof-theoretic approaches to Barr's theorem see
 * Sara Negri, _Contraction-free sequent calculi for geometric theories with an
 application to Barr's theorem_ , Archive for Mathematical Logic **42** (2003) pp.389&#8211;401.
 
-For the connection with the Boolean-valued completeness theorem see
+For the connection with the Boolean-valued completeness theorem see also
 
-* R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , North-Holland 1982&#178;. (Dover reprint)
+* R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , North-Holland 1982&#178;. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
 * R. Mansfield, _The Completeness Theorem for Infinitary Logic_ , JSL **37** no.1 (1972) pp.31-34.
 
 * [[Michael Makkai]], [[Gonzalo E. Reyes]], _First-order Categorical Logic_ , LNM **611** Springer Heidelberg 1977.
 
-See also the following MO discussion: ([link](http://mathoverflow.net/questions/98729/topos-without-point-from-the-point-of-view-of-logic))
