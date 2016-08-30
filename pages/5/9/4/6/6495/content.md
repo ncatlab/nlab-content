@@ -19,7 +19,7 @@
 
 ## Idea
 
-__Topological Hochschild__ (resp. __topological cyclic__,  survey is in ([May](#May)) __homology__ is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
+__Topological Hochschild homology__ (resp. __topological cyclic homology__)  survey is in ([May](#May)) is a refinement of [[Hochschild homology]]/[[cyclic homology]] from [[commutative rings]]/algebras to the [[higher algebra]] of [[ring spectra]]/[[E-∞ rings]]/[[E-∞ algebras]]. 
 
 In particular, given a ring $R$, then there is a natural morphism of [[spectra]] 
 
@@ -45,7 +45,7 @@ There are various generalizations:
 
 ## Related concepts
 
-* [[cyclic homology]]
+* [[cyclic homology]], [[dihedral homology]]
 
 * [[Chern character]]
 
