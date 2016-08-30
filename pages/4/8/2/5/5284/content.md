@@ -38,22 +38,29 @@ If $X$ is a [[topological space]], the **free loop space** $L X$ of $X$ is defin
 
 See at _[[Sullivan model of free loop space]]_.
 
-## Related entries and literature
+## Related entries 
 
 * [[loop space object]], [[free loop space object]],
-
-  * [[Sullivan model of free loop space]]
 
   * [[delooping]]
 
   * [[loop space]], **free loop space**, [[derived loop space]]
 
+  * [[Sullivan model of free loop space]]
+
+* [[Hochschild homology]], [[cyclic homology]], [[dihedral homology]]
+
 * [[caloron correspondence]]
 
 * [[suspension object]]
+
   * [[suspension]]
 
+
+## References
+
 * [[Kathryn Hess]], _Free loop spaces in topology and physics_, [pdf](http://sma.epfl.ch/~hessbell/Pub_Edinburgh.pdf), slides from Meeting of Edinburgh Math. Soc. Glasgow, 14 Nov 2008
+
 * [[D. Ben-Zvi]], D. Nadler, _Loop spaces and connections_,
 [arxiv/1002.3636](http://arxiv.org/abs/1002.3636)
 
