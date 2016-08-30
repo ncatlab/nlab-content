@@ -74,7 +74,7 @@ then we get __ultrametric spaces__, a more restricted concept.  (This include fo
 
 ## Lawvere metric spaces 
 
-[[Bill Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
+In [Lawvere, 1973](#Lawvere), [[Bill Lawvere]] has pointed out that Lawvere metric spaces are precisely [[enriched category|categories enriched]] in the [[monoidal category|monoidal]] [[partial order|poset]] $([0, \infty], \geq)$, where the monoidal product is taken to be addition.  Taking the monoidal product to be [[supremum]] instead, enriched categories amount to Lawvere ultrametric spaces.
 
 Thus generalized, many constructions and results on metric spaces turn out to be special cases of yet more general constructions and results of [[enriched category theory]].  This includes for example the notion of [[Cauchy complete category|Cauchy completion]], which in general enriched category theory is related to [[Karoubi envelope|Karoubi envelopes]] and [[Morita equivalence]].
 
@@ -139,9 +139,11 @@ $$ x \# y \;\Leftrightarrow\; d(x,y) \gt 0 \;\vee\; d(y,x) \gt 0 .$$
 
 ## References
 
-[[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
- {#Meng}
+*  {#Lawvere} [[Bill Lawvere]] (1973).  _Metric spaces, generalized logic and closed categories_.  Reprinted in [[TAC]], 1986.  [Web](http://www.tac.mta.ca/tac/reprints/articles/1/tr1abs.html).
+   {#Lawvere1973}
 
+* [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+ {#Meng}
 
 [[!redirects metric space]]
 [[!redirects metric spaces]]
