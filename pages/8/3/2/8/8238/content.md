@@ -31,37 +31,65 @@ Different contexts lead to different notions of morphism of towers, so it is imp
 In [[homotopy theory]] in the presence of [[(infinity,1)-limits]]/[[(infinity,1)-colimits]], every tower is a [[tower of homotopy fibers]].
 
 
-## Pro-category of towers
+## The pro-category of towers
+ {#TheProCategoryOfTowers}
 
-The tower diagram shape $\mathbb{N}_{\geq} = \{\cdots 3\to 2 \to 1 \to 0\}$ is evidently a small [[cofiltered category]]. As such it makes sense to consider _pro-morphisms_ between tower diagrams, i.e. considering, for any small category $\mathcal{C}$, the [[full subcategory]]
+### Definition
+
+The tower diagram shape $\mathbb{N}_{\geq} = \{\cdots 3\to 2 \to 1 \to 0\}$ is evidently a small [[cofiltered category]]. As such it makes sense to consider _pro-morphisms_ between tower diagrams: 
+
+
+
++-- {: .num_defn #ProCategoryOfTowers}
+###### Definition
+
+
+For any small category $\mathcal{C}$, the [[full subcategory]]
 
 $$
   i
    \;\colon\;
-  Tow(\mathcal{C})
-    \overset{\underset{\longleftarrow}{\lim}^f}{\hookrightarrow}
+  Tow_{pro}(\mathcal{C})
+    \overset{}{\hookrightarrow}
   Pro(\mathcal{C})
     \hookrightarrow
   PSh(\mathcal{C})
 $$
 
-of that of [[pro-objects]] in $\mathcal{C}$ on those that have presentation by formal [[sequential limits]].
+of the category $Pro(\mathcal{C})$ of [[pro-objects]] in $\mathcal{C}$ on those that have presentation by formal [[sequential limits]] (formal limits over tower diagrams) is the **pro-category of towers** $Tow_{pro}(\mathcal{C})$ in $\mathcal{C}$.
+
+=--
+
+(e.g. [Blanc 96, def. 2.5](#Blanc96))
 
 For $X_\bullet \colon \mathbb{N}_{\geq} \longrightarrow \mathcal{C}$ a tower diagram, we write
 
 $$
-  \underset{\longleftarrow}{\lim}^f X_\bullet \in Pro(\mathcal{C}) 
+  \underset{\longleftarrow}{\lim}^f X_\bullet \in Tow_{pro}(\mathcal{C}) \hookrightarrow Pro(\mathcal{C}) 
 $$
 
-for its formal cofiltered limit.
+for its formal cofiltered limit, i.e.
+
+$$
+  \underset{\longleftarrow}{\lim}^f
+   \;\colon\;
+  Tow(\mathcal{C})
+    \longrightarrow
+  Top_{pro}(\mathcal{C})
+  \,.
+$$
+
+
+
+### Properties
+
 
 Notice that generally we have that morphisms between formal cofiltered limits (pro-objects) of shapes $\mathcal{K}_1$ and $\mathcal{K}_2$, respectively, are represented as cofiltered limits of systems of morphisms indeced on a single cofiltered category $\mathcal{K}$ equipped with [[final functors]] to $\mathcal{K}_1$ and $\mathcal{K}_2$, respectively. (See at _[[ind-object]]_ [this prop.](ind-object#MorphismsRepresentedByCofilteredSystemsOfMorphisms)).
 
 The following says that in the case that both shapes are towers, then also $\mathcal{K}$ may always be chosen to be of tower shape: 
 
 +-- {: .num_prop #ProMorphismsBetweenTowerDiagrams}
-###### Claim
-
+###### Proposition
 
 For $X_\bullet$ and $Y_\bullet$ two tower diagrams in $\mathcal{C}$, then every morphism
 
@@ -73,7 +101,7 @@ $$
    \underset{\longleftarrow}{\lim}^f Y_\bullet
 $$
 
-between their formal cofiltered limits (every pro-morphism between the diagrams) in $Pro(\mathcal{C})$ is represented by component morphisms
+between their formal cofiltered limits (every pro-morphism between the diagrams) in $Tow_{pro}(\mathcal{C}) \hookrightarrow Pro(\mathcal{C})$ is represented by component morphisms
 
 $$
   \phi_{k} \;\colon\; X_{h(k)} \longrightarrow X_k
@@ -119,6 +147,16 @@ $$
 (e.g. [Blanc 96, p. 6](#Blanc96), [Libman, p.4](#Libman))
 
 
++-- {: .num_prop #FiniteLimitsInProCategoryOfTowers}
+###### Proposition
+
+The pro-category of towers $Tow_{pro}(\mathcal{C})$ (def. \ref{ProCategoryOfTowers}) has all [[finite limits]] and [[finite colimits]]. Moreover these are presented by the degreewise finite limits of any representing diagram of towers, via prop. \ref{ProMorphismsBetweenTowerDiagrams}.
+
+=--
+
+([Blanc 96, pop. 2.7](#Blanc96))
+
+
 ## Examples
 
 * [[Postnikov tower]]
@@ -152,4 +190,7 @@ $$
 
 [[!redirects co-tower diagram]]
 [[!redirects co-tower diagrams]]
+
+[[!redirects pro-category of towers]]
+[[!redirects pro-categories of towers]]
 
