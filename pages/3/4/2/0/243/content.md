@@ -529,8 +529,18 @@ For $C$ and $D$ both $V$-[[enriched category|enriched categories]], the $V$-[[en
 
 * [[hom-objects]] in $V$ are given by the end-formula $[C,D](F,G) := \int_{c \in C} D(F(c), G(c))$.
 
++-- {: .num_example}
+###### Example
 For $V = Set$ this reproduces of course the ordinary [[functor category]].
+=--
 
++-- {: .num_example}
+###### Example
+For $V = \mathbb{R}_{\geq 0}\cup \{\infty\}$ with the monoidal product given by addition, a $V$-enriched category $X$ is a [[metric space]], with the distance between points $x, y \in X$ given by $X(x, y)$. Given two metric spaces $X, Y$ and maps $f, g: X \to Y$, the distance between the maps is
+\[
+  [X, Y](f, g) = \int_{x \in X} Y(f(x), g(x)) = \sup_{x \in X} Y(f(x), g(x)).
+\]
+=--
 
 ### Kan extension
 
