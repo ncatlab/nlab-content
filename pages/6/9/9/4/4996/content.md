@@ -41,7 +41,7 @@ In detail this means that $C$ is
 
   * it has a [[terminal object]] $*$;
 
-  * it is a [[cosifted category]] (for instance in that it has all finite [[product]]s);
+  * it is a [[cosifted category]] (for instance in that it has all [[finite limit|finite]] [[products]]);
   
   * for every [[covering]] family $\{U_i \to U\}$ in $C$ 
 
@@ -49,16 +49,17 @@ In detail this means that $C$ is
       a [[coproduct]] of [[representable functor|representables]];
 
     * the [[simplicial set]] obtained by replacing each copy of a representable by a point is [[contractible]] (weakly equivalent to the 
-      point in the standard [[model structure on simplicial sets]])
+      point in the [[classical model structure on simplicial sets]])
 
       $$
-        \lim_\to C(U) \stackrel{\simeq}{\to} *
+        \underset{\longrightarrow}{\lim} C(U) \stackrel{\simeq}{\to} *
       $$
 
     * the simplicial set of points in $C(U)$ is weakly equivalent to the set of points of $U$:
 
       $$
-        Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
+        \underset{\longleftarrow}{\lim}C(U)
+        = Hom_C(*, C(U)) \stackrel{\simeq}{\to} Hom_C(*,U)
         \,.
       $$
   
@@ -92,7 +93,7 @@ The site for a [[presheaf topos]], hence with trivial topology, is $\infty$-cohe
 +-- {: .proof}
 ###### Proof
 
-All covers $\{U_i \to U\}$ consist of only the [[identity]] morphism $\{U \stackrel{Id}{\to} U\}$. The Cech $C\{U\}$ is then the [[simplicial object]] constant on $U$ and hence satisfies its two conditions above trivially.
+All covers $\{U_i \to U\}$ consist of only the [[identity]] morphism $\{U \stackrel{Id}{\to} U\}$. The [[Cech nerve]] $C\{U\}$ is then the [[simplicial object]] constant on $U$ and hence satisfies its two conditions above trivially.
 
 =--
 
