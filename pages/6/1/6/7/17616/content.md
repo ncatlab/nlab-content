@@ -29,6 +29,8 @@ An important example of pro-objects in finite-dimensional smooth manifolds are i
 
 ## Pro-Cartesian spaces
 
+> under construction
+
 
 +-- {: .num_defn #proCartSp}
 ###### Definition
@@ -125,13 +127,13 @@ for the [[full subcategory]] of the category of [[pro-Cartesian spaces]] (def. \
 +-- {: .num_defn #ProGoodOpenCoverOnACartesianSpace}
 ###### Definition
 
-For $U \in TowCartSp$ a [[tower of Cartesian spaces]]  (def. \ref{TowersOfCartesianSpaces}), say that a **towr of [[good open covers]]** of $U$ is a sequence of morphisms $\{U_i \overset{\phi_i}{\to} U\}$ in $TowCartSp$ such that these are the formal [[sequential limit]] of a cofiltered diagram of [[good open covers]] $\{U_i^k \overset{\phi_i^k}{\to} U^k\}$.
+For $U \in TowCartSp$ a [[tower of Cartesian spaces]]  (def. \ref{TowersOfCartesianSpaces}), say that a **tower of [[good open covers]]** of $U$ is a sequence of morphisms $\{U_i \overset{\phi_i}{\to} U\}$ in $TowCartSp$ such that these are the formal [[sequential limit]] of a cofiltered diagram of [[good open covers]] $\{U_i^k \overset{\phi_i^k}{\to} U^k\}$.
 
 $$
   \array{
     U_i^{k} &\overset{\underset{\longleftarrow}{\lim}^f}{\mapsto}& U_i
     \\
-    {}^{\mathllap{\phi_i^k}}\downarrow && \downarrow^{\mathrlap{\phi}_i}
+    {}^{\mathllap{\phi_i^k}}\downarrow && \downarrow^{\mathrlap{\phi_i}}
     \\
     U^k &\overset{\underset{\longleftarrow}{\lim}^f}{\mapsto}& U
   } 
@@ -165,22 +167,34 @@ $$
   \,.
 $$
 
-Now by [this prop.](ind-object#MorphismsRepresentedByCofilteredSystemsOfMorphisms) there exists a [[cofiltered category]] $\mathcal{K}$ and a [[cofinal functor]] $\mathcal{K} \longrightarrow \mathbb{N}_{\geq}$ such that $f_i$ and $g$ are are both represented by a $\mathcal{K}$-indexed cofiltered system of morphisms $V^k \overset{g^k}{\longrightarrow} U^k$ and $U_i^k \overset{f_i^k}{\longrightarrow} U^k$ in [[CartSp]]. 
+Now by [this prop.]() the bottom morphism is represented by a sequence of component morphisms
+
+$$
+  V^{k_s} \overset{}{\longrightarrow} U^k
+$$
 
 Since ordinary [[good open covers]] do form a [[coverage]] on [[CartSp]] ([prop.](good+open+cover#GoodOpenCoversFormACoverageOnParacompactSmooothManifolds)) each of these component diagrams may be completed
 
 $$
   \array{
-    \tilde V^k_j &\overset{}{\longrightarrow}& U^k_i
+    \tilde V^{k_s}_j &\overset{}{\longrightarrow}& U^k_i
     \\
     \downarrow 
       &&
     \downarrow^{\mathrlap{\phi^k_i}}
     \\
-    V^k &\underset{g^k}{\longrightarrow}& U^k
+    V^{k_s} &\underset{g^k}{\longrightarrow}& U^k
   }
-  \,.
 $$
+
+by first forming the [[pullback]] [[open cover]] $(g^k)^\ast U^k_i \to V^{k_s}$ and then refining this to a [[good open cover]] $\tilde V^{k_2}_j \to V^{k_s}$. By the [[universal property]] of the [[pullback]], there are morphisms
+
+$$
+  \tilde V^{k_{s+1}} \longrightarrow (g^k)^\ast U^k_i
+$$
+
+that make the evident cube commute. Take $V^{k_0}_j \coloneqq \tilde V^{k_0}_j$ and then inductively define $V^{k_{s+1}}_j$ to be a refinement by a good open cover of the joint refinement of $\{\tilde V^{k_{s+1}}_j\}$ with the pullback of $\{V^{k_s}_j\}$ to $V^{k_{s+1}}$.
+
 
 
 =--
