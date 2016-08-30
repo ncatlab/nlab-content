@@ -62,3 +62,5 @@ As a corollary of the [[Deligne-Lurie completeness theorem]] this appears as ([[
 
 * S. Mac Lane, I. Moerdijk, _Sheaves in Geometry and Logic_ , Springer Heidelberg 1994. (sec. IX.11, pp.521f)
 
+* G. E. Reyes, _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. **Cat. XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
+
