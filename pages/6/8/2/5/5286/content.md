@@ -122,7 +122,7 @@ The BV-algebra structure on  [[Hochschild cohomology]] is discussed for instance
 * Y. F&#233;lix, J.-C. Thomas, M. Vigu&#233;-Poirrier, _The Hochschild cohomology of a closed manifold_ Publ. Math. IH&#201;S Sci. (2004) no 99, 235-252
 {#FelixThomasVigue-Poirrier}
 
-* Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
+* [[Luc Menichi]], _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
 * [[Thomas Tradler]], _The BV Algebra on Hochschild Cohomology Induced by Infinity Inner Products_, Annales de l'institut Fourier (2008) Volume: 58, Issue: 7, page 2351-2379 ([arXiv:math/0210150](http://arxiv.org/abs/math/0210150))
 
