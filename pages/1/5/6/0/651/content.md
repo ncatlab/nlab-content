@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
 {:myproof: .proof style="margin-left:2em;"}
 {:mynumdef: .num_defn style="border:solid #cccccc;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 {:goal: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
@@ -89,7 +99,7 @@ A discussion of [[Lie algebra]]s on Fr&#246;licher [[group]]s ([[group object]]s
 
 See also the unpublished thesis of Andreas Cap:
 
-* Andres Cap: _K-theory for convenient algebras_ ([univie](http://www.mat.univie.ac.at/~michor/cap_diss.pdf))
+* [[Andreas Cap]], _K-theory for convenient algebras_ ([univie](http://www.mat.univie.ac.at/~michor/cap_diss.pdf))
 
 
 Discussion in the context of applications to [[continuum mechanics]] is in 
