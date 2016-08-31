@@ -244,7 +244,7 @@ The generalization to multiple [[D-brane]]s is discussed in
 
 For target space a [[classifying space]] of a [[finite group]] or [[compact space|compact]] [[Lie group]] this is discussed in
 
-* David Chataur, Luc Menichi, _String topology of classifying spaces_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/String_Classifiant09.pdf))
+* David Chataur, [[Luc Menichi]], _String topology of classifying spaces_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/String_Classifiant09.pdf))
 
 Arguments that this string-topology [[HQFT]] should refine to a chain-level theory -- a [[TCFT]] -- were given in
 
