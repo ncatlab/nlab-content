@@ -2064,7 +2064,7 @@ The BV-algebra structure on Hochschild cohomology of singular cochain algebras i
 * Y. F&eacute;lix, J.-C. Thomas, M. Vigu&eacute;-Poirrier, _The Hochschild cohomology of a closed manifold_ Publ. Math. IH&Eacute;S Sci. (2004) no 99, 235-252
 {#FelixThomasVigue-Poirrier}
 
-* Luc Menichi, _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
+* [[Luc Menichi]], _Batalin-Vilkovisky algebra structures on Hochschild cohomology_ ([pdf](http://math.univ-angers.fr/perso/lmenichi/BV_Hochschild.pdf))
 
 The abstract differential caclulus on $(HH^\bullet(A,A), HH_\bullet(A,A))$ is discussed for instance in
 
