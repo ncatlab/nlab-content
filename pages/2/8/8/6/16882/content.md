@@ -56,13 +56,9 @@ Published and Accepted Articles :
 
 Works in Progress : 
 
-[7] Camell Kachour and Jacques Penon, Higher Operads for the Weak Higher Transformations and Stable Pseudo-Algebras, Work in progress (2015). 
+[7] Camell Kachour and Jacques Penon, Higher Operads for the Weak Higher Transformations and Stable Pseudo-Algebras, Work in progress (2015).  
 
-[8] CamellKachour,A Canonical Quillen Model Structures on the category of Reflexive &#969;-Magmas, Work in progress (2015). 
-
-[9] Camell Kachour, Lax &#969;-Categories on the Globular Setting, Work in Progress (2015). 
-
-[10] Camell Kachour, Model of Higher Stacks on the Globular Setting, Work in Progress (2015). 
+[8] Camell Kachour, Model of Higher Stacks on the Globular Setting, Work in Progress (2015). 
 
 Experience Teaching :
 
