@@ -79,7 +79,7 @@ The _[[atoms]] in the lattice of subtoposes of $\mathcal{E}$ are precisely the t
 
 * {#BK91}[[Francis Borceux|F. Borceux]], M. Korostenski, _Open Localizations_ , JPAA **74** (1991) pp.229-238.
 
-* {#Caramello09} [[Olivia Caramello|O. Caramello]], _Lattices of theories_ , arXiv:0905.0299 (2009). ([abstract](http://arxiv.org/abs/0905.0299), pp.15,58)
+* {#Caramello09} [[Olivia Caramello|O. Caramello]], pp.15,58 of _Lattices of theories_,  (2009). ([arXiv:0905.0299](http://arxiv.org/abs/0905.0299))
 
 * H. Forssell, _Subgroupoids and quotient theories_ , TAC **28** no.18 (2013) pp.541-551. ([pdf](http://www.emis.de/journals/TAC/volumes/28/18/28-18.pdf))
 
