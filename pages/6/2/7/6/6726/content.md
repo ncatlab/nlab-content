@@ -36,6 +36,7 @@ Other references
 * [wikipedia](http://en.wikipedia.org/wiki/Schur_function)
 * Stuart Martin, _Schur algebras and representation theory_, Cambridge Univ. Press 1994 
 * Olivier Blondeau-Fournier, Pierre Mathieu, _Schur superpolynomials: combinatorial definition and Pieri rule_, [arxiv/1408.2807](http://arxiv.org/abs/1408.2807)
+* Miles Jones, Luc Lapointe, _Pieri rules for Schur functions in superspace_, [arxiv/1608.08577](https://arxiv.org/abs/1608.08577)
 
 See also [[Schur positivity]].
 
