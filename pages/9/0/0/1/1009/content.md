@@ -291,7 +291,11 @@ Discussion of [[boundary conditions]] for the AKSZ sigma model includes
 
 * [[Peter Bouwknegt]], [[Branislav Jur?o]], _AKSZ construction of topological open $p$-brane action and Nambu brackets_, [arxiv/1110.0134](http://arxiv.org/abs/1110.0134)
 
-* {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical Functions and Differential Graded Symplectic Pairs in Supergeometry and AKSZ Sigma Models with Boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
+* {#IkedaXu13} [[Noriaki Ikeda]], Xiaomeng Xu, _Canonical functions and differential graded symplectic pairs in supergeometry and AKSZ sigma models with boundary_ ([arXiv:1301.4805](http://arxiv.org/abs/1301.4805))
+
+AKSZ model is extended to coisotropic boundary conditions in
+
+* Theo Johnson-Freyd, _Exact triangles, Koszul duality, and coisotropic boundary conditions_, [arxiv/1608.08598](https://arxiv.org/abs/1608.08598)
 
 An example in [[higher spin gauge theory]] is discussed in
 
