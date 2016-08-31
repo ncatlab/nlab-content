@@ -124,7 +124,7 @@ However, there exist compact objects which are not coherent, c.f. the [[Elephant
 
 * In $C = $ [[Grp]] an object is compact precisely if it is [[finitely presented group|finitely presented]] as a group.
 
-* More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented algebra|finitely presented]] as an algebra.  A proof can be found in Corollary 3.13 of [[LPAC]].
+* More generally, if $C$ is any [[variety of algebras]], then an object is compact precisely if it is [[finitely presented algebra|finitely presented]] as an algebra.  A proof may be found in  [Ad&#225;mek-Rosick&#253; 94, Corollary 3.13 ](#AdamekRosicky94).
 
 * Let $X$ be a [[topological space]] and let $C = Op(X)$ be the [[category of open subsets]] of $X$. Then an [[open subset]] $U \in C$ is a compact object in $C$ precisely if it is a [[compact space|compact topological space]].  (It is *not* true that $X$ is a compact object of $Top$ iff it is a compact topological space; see below.)
 
@@ -254,9 +254,9 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 Compact objects are discussed under the term "finitely presentable" or "finitely-presentable" objects for instance in
 
-* [[Locally Presentable and Accessible Categories]];
+* {#AdamekRosicky94} [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally Presentable and Accessible Categories]]_, Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, (1994)
 
-* Kashiwara, Schapira, _[[Categories and Sheaves]]_, Definition 6.3.3;
+*  [[Masaki Kashiwara]], [[Pierre Schapira]], around Definition 6.3.3 of _[[Categories and Sheaves]]_;
 
 * [[Peter Johnstone]], _[[Stone Spaces]]_, Definition VI.1.8;
 
