@@ -223,7 +223,7 @@ Early accounts include
 
 * Hubert Goldschmidt, _Integrability criteria for systems of nonlinear partial differential equations_, J. Differential Geom. Volume 1, Number 3-4 (1967), 269-307 ([Euclid](http://projecteuclid.org/euclid.jdg/1214428094))
 
-{#DiscussionOfFrechetManifoldStructure} Discussion of the [[Frechet manifold]] structure on jet bundles includes
+{#DiscussionOfFrechetManifoldStructure} Discussion of the [[Fréchet manifold]] structure on jet bundles includes
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
 
@@ -236,7 +236,7 @@ Discussion in tems of [[synthetic differential geometry]] is in
 
 * {#Kock80} [[Anders Kock]], _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) Volume: 21, Issue: 3 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0))
 
-* {#Kock10} [[Anders Kock]], section 2.7 of _Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* {#Kock10} [[Anders Kock]], section 2.7 of _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 See also
