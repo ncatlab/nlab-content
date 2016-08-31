@@ -517,7 +517,7 @@ This is the starting point for the definition at [[ind-object in an (∞,1)-cate
 
 Ind-categories were introduced in 
 
-* [[Alexander Grothendieck]], [[Lean-Louis Verdier]] in [[SGA4]] Exp. 1 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
+* [[Alexander Grothendieck]], [[Jean-Louis Verdier]] in [[SGA4]] Exp. 1 [pdf file](http://sage.math.washington.edu/home/wstein/www/home/craigcitro/sga4/Grothendieck/SGA4/sga41.pdf)
 
 and the dual notion of [[pro-object]] in 
 
