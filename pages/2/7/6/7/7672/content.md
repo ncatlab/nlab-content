@@ -637,7 +637,7 @@ image of $J$_, talk at _[Talbot 2013: Chromatic Homotopy Theory](http://math.mit
 
 Similarly there is a canonical $O(n)$-[[∞-action]] on an [[n-fold loop space]], not just on the [[sphere spectrum]]. But the general case is closely related to the J-homomorphism. Discussion includes
 
-* {#GaudensMenichi07} Gerald Gaudens, Luc Menichi,  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
+* {#GaudensMenichi07} Gerald Gaudens, [[Luc Menichi]],  section 5 of _Batalin-Vilkovisky algebras and the $J$-homomorphism_, Topology and its Applications Volume 156, Issue 2, 1 December 2008, Pages 365&#8211;374 ([arXiv:0707.3103](http://arxiv.org/abs/0707.3103))
 
 and in the context of the [[cobordism hypothesis]]:
 
