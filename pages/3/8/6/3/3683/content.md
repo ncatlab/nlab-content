@@ -79,6 +79,8 @@ and the canonical operator method_, Nauka, Moscow, 1978.
 * A. Laptev, I.M. Sigal, _Global Fourier integral operators and semiclassical asymptotics_, Review of Math. Physics, __12__:5 (2000) 749--766 [pdf](http://www.math.kth.se/~laptev/Research/Papers/LSig.pdf)
 * Maurice A. de Gosson, _Symplectic geometry, Wigner-Weyl-Moyal calculus, and quantum mechanics in phase space_, 385 pp. [pdf](http://opus.kobv.de/ubp/volltexte/2009/3021/pdf/2006_06.pdf)
 * Semyon Dyatlov, _Semiclassical Lagrangian distributions_, [pdf](http://math.mit.edu/~dyatlov/files/2012/hlagrangians.pdf); _Hoermander&#8211;Kashiwara and Maslov indices_, [pdf](http://math.berkeley.edu/~dyatlov/files/2009/maslov.pdf)
+* Shanzhong Sun, _Gutzwiller's semiclassical trace formula and Maslov-type index theory for symplectic paths_, [arxiv/1608.08294](https://arxiv.org/abs/1608.08294)
+ 
 
 Borel summability may make sense of the semiclassical expansion to all orders; this approach is sometimes called exact WKB method:
 
