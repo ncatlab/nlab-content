@@ -227,8 +227,9 @@ Early accounts include
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_, J. Differential Geom. Volume 14, Number 4 (1979), 543-562. ([Euclid](https://projecteuclid.org/euclid.jdg/1214435235))
 
-* M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of
-variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
+* M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
+
+* C. T. J. Dodson, George Galanis, Efstathios, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_
 
 * [[Andrew Lewis]], _The bundle of infinite jets_ 2006 ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
