@@ -19,7 +19,7 @@
 
 ## Idea
 
-Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] is a Fr&#233;chet space, but there are also infinite-dimensional examples.  It is possible to do calculus on Fr&#233;chet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as test spaces for possibly infinite-dimensional [[manifolds]]; see [[Fréchet manifold]].
+Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] is a Fr&#233;chet space, but Fr&#233;chet spaces may have infinite [[dimension]].  There is [[analysis]] on Fr&#233;chet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as test spaces for possibly [[infinite-dimensional manifolds]]: _[[Fréchet manifolds]]_.
 
 Note that a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all Hausdorff TVSes, Fr&#233;chet spaces satisfy this axiom, but they have a good deal of additional structure and properties.)
 
@@ -30,7 +30,7 @@ A __Fr&#233;chet space__ is a [[complete space|complete]] [[Hausdorff space|Haus
 
 Equivalently, a __Fr&#233;chet space__ is a complete Hausdorff TVS whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]].
 
-We accept as an [[automorphism]] of Fr&#233;chet spaces any linear [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of seminorms used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of $TVS$.
+We accept as an [[automorphism]] of Fr&#233;chet spaces any [[llinear map|linear]] [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of seminorms used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of $TVS$.
 
 
 ## Examples
