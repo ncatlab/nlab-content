@@ -72,7 +72,7 @@ is [[isomorphism|isomorphic]] to the [[de Rham cohomology]] of the total space $
 
 ## References
 
-* {#Anderson89} Ian Anderson, _The variational bicomplex_, Utah State University 1989 ([pdf]( http://math.uni.lu/~jubin/seminar/bicomplex.pdf)) 
+* {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
 
 
 [[!redirects Euler complex]]
