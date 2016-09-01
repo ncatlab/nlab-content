@@ -105,7 +105,7 @@ in the evident way by taking for $X$ a [[Fréchet manifold]] for any $U \in $ [[
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #FFEmbeddingOfFrechetInDiffeological}
 ###### Proposition
 
 The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ is a [[full and faithful functor]].
@@ -119,7 +119,7 @@ This appears as ([Losik, theorem 3.1.1](#Losik)).
 
 Let $X, Y \in SMoothManifold$ with $X$ a [[compact manifold]]. 
 
-Then under this embedding, the diffeological mapping space structure $C^\infty(X,Y)_{diff}$ on the mapping space coincides with the Fr&#233;chet manifold structure $C^\infty(X,Y)_{Fr}$:
+Then under this embedding, the diffeological [[mapping space]] structure $C^\infty(X,Y)_{diff}$ on the mapping space coincides with the Fr&#233;chet manifold structure $C^\infty(X,Y)_{Fr}$:
 
 $$
   \iota(C^\infty(X,Y)_{Fr})
