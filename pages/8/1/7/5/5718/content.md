@@ -21,11 +21,40 @@ A jet can be thought of as the infinitesimal germ of a [[section]] of some [[bun
 
 ### Concrete
 
-For $p \coloneq P \to X$ a [[surjective submersion]] of [[smooth manifold]]s and $k \in \mathbb{N}$, the bundle $J^k P \to X$ of **$k$- order jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative]]s at $x$ coincide.
+For 
 
-For $k \to \infty$ one takes $J^\infty P$ to the the formal [[projective limit]] over the finite-order jet bundles, i.e. the [[pro-manifold]] presented by the sequence $\cdots \to J^2 P \to J^1 P \to J^0 P = P$.
+$$
+  p \coloneq E \to X
+$$ 
+
+a [[surjective submersion]] of [[smooth manifolds]] and $k \in \mathbb{N}$, the bundle 
+
+$$
+  J^k P \to X
+$$ 
+
+of **order-$k$ jets of sections of $p$** is the bundle whose [[fiber]] over a point $x \in X$ is the space of equivalence classes of [[germ]]s of [[section]]s of $p$, where two germs are considered equivalent if their first $k$ partial [[derivative]]s at $x$ coincide.
 
 In the case when $p$ is a trivial bundle $p:X\times Y \to X$ its sections are canonically in bijection with maps from $X$ to $Y$ and two sections have the same partial derivatives iff the partial derivatives of the corresponding maps from $X$ to $Y$ agree. So in this case the [[jet space]] $J^k P$ is called the space of jets of maps from $X$ to $Y$ and commonly denoted with $J^k(X,Y)$.
+
+In order to pass to $k \to \infty$ to form the _infinite jet bundle_ $J^\infty P$ one forms the [[projective limit]] over the finite-order jet bundles, 
+
+$$
+  J^\infty E \coloneqq \underset{\longleftarrow}{\lim}_k J^k E
+  = 
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots J^3 E \to J^2 E \to J^1 E \to E
+  \right)
+$$
+
+but one has to decide in which category of [[infinite-dimensional manifolds]] to take this limit:
+
+1. one may form the limit formally, i.e. in [[pro-manifolds]]. This is what is implicit for instance in [Anderson, p.3-5](#Anderson);
+
+1. one may form the limit in [[Fréchet manifolds]], this is farily explicit in ([Saunders 89, chapter 7](#Saunders89)).
+
+
 
 
 ### General abstract
@@ -33,16 +62,7 @@ In the case when $p$ is a trivial bundle $p:X\times Y \to X$ its sections are ca
 
 We discuss a [[general abstract]] definition of jet bundles.
 
-Let 
-
-* $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with [[differential cohesion]] with [[infinitesimal shape modality]] $\Im$;
-
-* and equipped with an [[(∞,2)-sheaf]] 
-
-  [[Mod]]  $ \colon \; \mathbf{H}^{op} \to $ [[Stab(∞,1)Cat]] 
-
-  of [[quasicoherent (∞,1)-sheaves]].
-
+Let  $\mathbf{H}$ be an [[(∞,1)-topos]] equipped with [[differential cohesion]] with [[infinitesimal shape modality]] $\Im$ (or rather a tower $\Im_k$ of such, for each infinitesimal order $k \in \mathbb{N} \cup \{\infty\}$ ).
 
 For $X \in \mathbf{H}$, write $\Im(X)$ for the corresponding [[de Rham space]] object.
 
