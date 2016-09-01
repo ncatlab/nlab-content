@@ -24,7 +24,7 @@ As with "[[graph]]", the word "hypergraph" does not have an entirely standardize
 +-- {: .num_defn }
 ###### Definition
 
-The **category of simple hypergraphs** $SimpHGrph$ has objects consisting of a pair of sets $(V,E)$ equipped with a relation $R \subseteq V \times E$, and morphisms $(R \subseteq V \times E) \to (R' \times V' \times E')$ consisting of pairs of functions $(f : V \to V', g : E \to E')$ which preserve the relation, i.e., such that for all $v\in V, e \in E$, if $(v,e) \in R$ then $(f v,g e) \in R'$.
+The **category of simple hypergraphs** $SimpHGrph$ has objects consisting of a pair of sets $(V,E)$ equipped with a relation $R \subseteq V \times E$, and morphisms $(R \subseteq V \times E) \to (R' \subseteq V' \times E')$ consisting of pairs of functions $(f : V \to V', g : E \to E')$ which preserve the relation, i.e., such that for all $v\in V, e \in E$, if $(v,e) \in R$ then $(f v,g e) \in R'$.
 
 =--
 
