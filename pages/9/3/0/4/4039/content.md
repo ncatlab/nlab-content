@@ -293,9 +293,11 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 Fundamental texts of variational calculus include
 
-* Ian Anderson, _The variational bicomplex_, [pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf)
-* Hubert Goldschmidt, Shlomo Sternberg, _The Hamilton-Cartan formalism in the calculus of variations_, Annales de l'institut Fourier 23 no. 1 (1973), p. 203-267 [numdam](http://www.numdam.org/item?id=AIF_1973__23_1_203_0)
-* Peter Olver, _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
+* [[Ian Anderson]], _The variational bicomplex_, ([[AndersonVariationalBicomplex.pdf:file]])
+
+* Hubert Goldschmidt, [[Shlomo Sternberg]], _The Hamilton-Cartan formalism in the calculus of variations_, Annales de l'institut Fourier 23 no. 1 (1973), p. 203-267 [numdam](http://www.numdam.org/item?id=AIF_1973__23_1_203_0)
+
+* [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
 
 * [[Demeter Krupka]], _Introduction to global variational geometry_, 2015
 
@@ -303,13 +305,15 @@ Fundamental texts of variational calculus include
 
 * Robert Hermann, _Some differential-geometric aspects of the Lagrange variational problem_, Illinois J. Math. __6__, 1962, 634&#8211;673 [MR145457](http://www.ams.org/mathscinet-getitem?mr=145457) [euclid](http://projecteuclid.org/euclid.ijm/1255632711); 
 _Differential geometry and the calculus of variations_, Acad. Press 1968
+
 * J. Jost, X. Li-Jost, _Calculus of variations_, CUP 1998
-* [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
- {#Zuckerman}
+
+* {#Zuckerman} [[Gregg Zuckerman|G. J. Zuckerman]], _Action Principles and Global Geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]])
+ 
 
 Zuckerman's ideas are used in
 
-* Marco Benini, Alexander Schenkel, _Poisson algebras for non-linear field theories in the Cahiers topos_, [arxiv/1602.00708](http://arxiv.org/abs/1602.00708)
+* [[Marco Benini]], [[Alexander Schenkel]], _Poisson algebras for non-linear field theories in the Cahiers topos_, [arxiv/1602.00708](http://arxiv.org/abs/1602.00708)
 
 Examples: [[Jürgen Jost]], _Variational problems from physics and geometry_, [pdf](http://www.mis.mpg.de/fileadmin/jjost/variational_problems_from_physics_and_geometry.pdf)
 
