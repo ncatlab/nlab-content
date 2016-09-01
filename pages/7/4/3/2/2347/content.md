@@ -259,7 +259,7 @@ Classical textbooks include
 
 * Lev Landau, Lifschitz, _Classical mechanics_, vol. I of the [[Landau-Lifschitz|Course of theoretical physics]]
 
-* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://www.math.uga.edu/~shifrin/Spivak_physics.pdf))
+* [[Michael Spivak]], _Elementary mechanics from a mathematician's viewpoint_ ([pdf](http://alpha.math.uga.edu/~shifrin/Spivak_physics.pdf))
 
 
 Discussion with an eye also towards [[quantum mechanics]] is in
