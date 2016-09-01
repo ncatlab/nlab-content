@@ -231,7 +231,7 @@ Early accounts include
 
 * C. T. J. Dodson, George Galanis, Efstathios, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_
 
-* [[Andrew Lewis]], _The bundle of infinite jets_ 2006 ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
+* [[Andrew Lewis]], _The bundle of infinite jets_ (2006) ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
 Discussion of finite-order jet bundles in tems of [[synthetic differential geometry]] is in 
 
