@@ -60,7 +60,7 @@ $$
   (i^\ast \dashv i_\ast)
   \;\colon\;
   \mathbf{H}_{/X}
-   \stackrel{\overset{i^*}{\leftarrow}}{\underset{Jet := i_*}{\to}}
+   \stackrel{\overset{i^*}{\longleftarrow}}{\underset{Jet := i_*}{\longrightarrow}}
   \mathbf{H}_{/\Im(X)}
 $$
 
@@ -233,18 +233,13 @@ Early accounts include
 
 * [[Andrew Lewis]], _The bundle of infinite jets_ 2006 ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
-Discussion in tems of [[synthetic differential geometry]] is in 
+Discussion of finite-order jet bundles in tems of [[synthetic differential geometry]] is in 
 
 * {#Kock80} [[Anders Kock]], _Formal manifolds and synthetic theory of jet bundles_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1980) Volume: 21, Issue: 3 ([Numdam](http://www.numdam.org/item?id=CTGDC_1980__21_3_227_0))
 
 * {#Kock10} [[Anders Kock]], section 2.7 of _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
-
-See also
-
-* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
-
-The comonad structure on the jet operation in the context of differential geometry is made explicit in 
+The [[jet comonad]] structure on the jet operation in the context of differential geometry is made explicit in 
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
 
@@ -275,7 +270,7 @@ An exposition of this is in section 2.3 of
 
 A discussion of jet bundles with an eye towards discussion of the [[variational bicomplex]] on them is in chapter 1, section A of
 
-* {#Anderson} Ian Anderson, _The variational bicomplex_ ([pdf](http://www.math.usu.edu/~fg_mp/Publications/VB/vb.pdf))
+* {#Anderson} [[Ian Anderson]], _The variational bicomplex_ ([[AndersonVariationalBicomplex.pdf:file]])
 
 The [[de Rham cohomology]] of jet bundles is discussed in
 
@@ -290,6 +285,11 @@ and the Vessiot Equivalence Method_, Thesis ([pdf](http://wwwb.math.rwth-aachen.
 Discussion of jet bundles in [[supergeometry]] includes
 
 * Arthemy V. Kiselev, Andrey O. Krutov, appendix of _On the (non)removability of spectral parameters in $\mathbb{Z}_2$-graded zero-curvature representations and its applications_ ([arXiv:1301.7143](http://arxiv.org/abs/1301.7143))
+
+See also
+
+* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
+
 
 [[!redirects jet bundles]]
 
