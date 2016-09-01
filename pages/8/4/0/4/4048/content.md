@@ -55,4 +55,7 @@ The weak form is in section 1.9, the strong form in section 2.4 of
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
 
+Generalization to the case that the enriching monoidal category is not closed or symmetric is in 
+
+* [[Vladimir Hinich]], _Enriched Yoneda lemma_, Theory and Applications of Categories, Vol. 31, 2016, No. 29, pp 833-838 ([TAC](http://www.tac.mta.ca/tac/volumes/31/29/31-29abs.html))
 
