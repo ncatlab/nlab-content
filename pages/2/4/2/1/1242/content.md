@@ -20,7 +20,7 @@
 ## Definition
  {#Definition}
 
-
+### Definition in additive categories
 Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]], for instance $\mathcal{A} = R$[[Mod]] for $R$ some [[ring]]).
 
 +-- {: .num_defn #ExactSequence}
@@ -109,6 +109,24 @@ A **[[split exact sequence]]** is a short exact sequence as above in which $i$ i
 =--
 
 In this case, $B$ may be decomposed as the [[biproduct]] $A \oplus C$ (with $i$ and $p$ the usual biproduct inclusion and projection); this sense in which $B$ is 'split' into $A$ and $C$ is the origin of the general terms 'split (mono/epi)morphism'.
+
+### Definition in pointed sets
+It is also helpful to consider a similar notion in the case of a [[pointed set]].
+
++-- {: .num_defn}
+###### Definition
+In the category $Set_*$ of [[pointed sets]], a sequence
+$$
+\array{
+  (A, a) & \overset{f}{\to} & (B, b) & \overset{g}{\to} & (C, c)
+}
+$$
+is said to be **exact** at $(B, b)$ if $im f = g^{-1}(c)$.
+
+For [[concrete category|concrete]] pointed categories (ie. a category $\mathcal{C}$ with a faithful functor $F: \mathcal{C} \to Set_*$), a sequence is exact if the image under $F$ is exact.
+=--
+
+In the case of (abelian) categories like $Ab$ and $R-Mod$, the two notions of exactness coincide if we pick the point of each group/module to be $0$. Such a general notion is useful in cases such as the [[long exact sequence of homotopy groups]] where the homotopy "groups" for small $n$ are just pointed sets without a group structure.
 
 ## Properties
 
