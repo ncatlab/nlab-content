@@ -722,7 +722,7 @@ An introduction is in
 
 * [[Ian Anderson]], _Introduction to the variational bicomplex_ in Mathematical aspects of classical field theory, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
  
-Textbook accounts and surveys include  
+Textbook accounts include
 
 * {#Olver86} [[Peter Olver]], section 5.4 of _Applications of Lie groups to differential equations_, Springer Graduate Texts in Mathematics 107 (1986)
 
@@ -731,6 +731,10 @@ Textbook accounts and surveys include
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
  
 * {#KrasilshchikVinogradov99} [[Joseph Krasil'shchik]],  [[Alexandre Vinogradov]] et al. (eds.) _Symmetries and  Conservation Laws for Differential Equations of Mathematical Physics_, AMS 1999
+
+Other surveys include
+
+* Juha Pohjanpelto, _Symmetries, Conservation Laws, and Variational Principles for Differential Equations_ (2014) ([pdf slides](http://math.usask.ca/~cheviakov/bluman2014/talks/Pohjanpelto.pdf))
 
 
 An early discussion with application to [[covariant phase spaces]] and their [[presymplectic structure]] is in
