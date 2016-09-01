@@ -720,13 +720,13 @@ Also
 
 An introduction is in 
 
-* Ian Anderson, _Introduction to the variational bicomplex_ in Mathematical aspects of classical field theory, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
+* [[Ian Anderson]], _Introduction to the variational bicomplex_ in Mathematical aspects of classical field theory, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
  
 Textbook accounts and surveys include  
 
 * {#Olver86} [[Peter Olver]], section 5.4 of _Applications of Lie groups to differential equations_, Springer Graduate Texts in Mathematics 107 (1986)
 
-* {#Anderson89} Ian Anderson, _The variational bicomplex_, Utah State University 1989 ([pdf]( http://math.uni.lu/~jubin/seminar/bicomplex.pdf)) 
+* {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([pdf]([[AndersonVariationalBicomplex.pdf:file]])) 
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
  
