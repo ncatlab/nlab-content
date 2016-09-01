@@ -64,7 +64,7 @@ explains that every building has a geometric realization that admits a CAT(0) me
 
 * [Wikipedia: [CAT(k) spaces] (http://en.wikipedia.org/wiki/CAT%28k%29_space)]
 
-From this viewpoint chambers a metric spaces.
+From this viewpoint chambers are metric spaces.
 
 ## Definition
 
