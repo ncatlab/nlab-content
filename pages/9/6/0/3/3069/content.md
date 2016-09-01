@@ -239,7 +239,9 @@ all of them [[natural isomorphism|natural]] in $c'$.
 =--
 
 
+For an example that prop. \ref{BCForPresheavesOnPullbacksOfOpfibrations} may fail without the condition that $D \to C$ is an opfibration:
 
+Consider $C=$ the [[interval category]] $(0\to 1)$, $D=C'=$ the [[terminal category]], $\phi=0$, $\alpha=1$, so that $D'=\emptyset$, but $\alpha^*\phi_!$ is the identity functor.
 
 ### Proper base change in &#233;tale cohomology
 
