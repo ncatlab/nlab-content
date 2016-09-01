@@ -159,7 +159,7 @@ Springer Monographs in Mathematics. Springer-Verlag London, Ltd., London, 1998. 
 * {#Johnstone} [[Peter Johnstone]], On a topological topos, Proc. London Math. Soc. (3) 38 (1979) 237--271.
 
 
-* Harasani, Hamed A. "Topological methods in general topology", PhD Thesis, 
+* Harasani, Hamed A. "Topos theoretic methods in general topology", PhD Thesis, 
 University of Wales, Bangor, (1988) [(link to pdf files)](http://groupoids.org.uk/harasani.html). {#Harasani}
 
 * {#Spanier} [[Edwin Spanier]], "Quasi-topologies", Duke Mathematical Journal 30 (1) (1963), 1--14.
