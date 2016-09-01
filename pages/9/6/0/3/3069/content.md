@@ -21,7 +21,7 @@ The **Beck--Chevalley condition**, also sometimes called just the *Beck conditio
 
 ## Definition
 
-Suppose given a [[commutative square]] (up to [[isomorphism]]) of [[functor]]s:
+Suppose given a [[commutative square]] (up to [[isomorphism]]) of [[functors]]:
 $$\array{ & \overset{f^*}{\to} & \\
   ^{g^*}\downarrow && \downarrow^{k^*}\\
   & \underset{h^*}{\to} & }$$
@@ -49,9 +49,10 @@ We say the original square satisfies the **Beck--Chevalley condition** if this m
 More generally, it is clear that for this to make sense, we only need a transformation $k^* f^* \to h^* g^*$; it doesn't need to be an isomorphism.  We also use the term *Beck--Chevalley condition* in this case,
 
 
+
 ### Left and right Beck--Chevalley condition
 
-Of course, if $g^*$ and $k^*$ also have [[left adjoint]]s, there is also a Beck--Chevalley condition stating that the corresponding mate $k_! h^* \to f^* g_!$ is an isomorphism, and this is not equivalent in general.  Context is usually sufficient to disambiguate, although some people speak of the "left" and "right" Beck--Chevalley conditions.
+Of course, if $g^*$ and $k^*$ also have [[left adjoints]], there is also a Beck--Chevalley condition stating that the corresponding mate $k_! h^* \to f^* g_!$ is an isomorphism, and this is not equivalent in general.  Context is usually sufficient to disambiguate, although some people speak of the "left" and "right" Beck--Chevalley conditions.
 
 Note that if $k^* f^* \to h^* g^*$ is not an isomorphism, then there is only one possible Beck-Chevalley condition.
 
@@ -59,6 +60,28 @@ Note that if $k^* f^* \to h^* g^*$ is not an isomorphism, then there is only one
 ### Dual Beck--Chevalley condition
 
 If $f^*$ and $h^*$ have *right* adjoints $f_*$ and $h_*$, there is also a dual Beck--Chevalley condition saying that the mate $g^* f_* \to h_* k^*$ is an isomorphism.  By general nonsense, if $f^*$ and $h^*$ have right adjoints and $g^*$ and $k^*$ have left adjoints, then $g^* f_* \to h_* k^*$ is an isomorphism if and only if $k_! h^* \to f^* g_!$ is.
+
+### For bifibrations
+
+Originally, the Beck-Chevalley condition was introduced in ([B&#233;nabou-Roubaud, 1970](#BenabouRoubaud)) for [[bifibrations]] over a base category with pullbacks. In *loc.cit.* they call this condition **Chevalley condition** because he introduced it in his 1964 seminar. 
+
+
+A [[bifibration]] $\mathbf{X} \to \mathbf{B}$ where $\mathbf{B}$ has pullbacks satisfies the **Chevalley condition** iff for every commuting square
+$$\array{ & \overset{\psi^\prime}{\rightarrow} & \\
+  \downarrow^{\varphi^\prime} && \downarrow^{\varphi}\\
+  & \underset{\psi}{\rightarrow} & }$$
+in $\mathbf{X}$ over a pullback square in the base $\mathbf{B}$ where $\varphi$ is [[cartesian morphism|cartesian]] and $\psi$ is cocartesian it holds that $\varphi^\prime$ is cartesian
+iff $\psi^\prime$ is cocartesian. Actually, it suffices
+to postulate one direction because the other one follows.
+The nice thing about this formulation is that there is no
+mention of "canonical" morphisms and no mention of [[cleavages]]. 
+
+A fibration $P$ has products satisfying the Chevalley condition iff the opposite fibration $P^{op}$ is 
+a bifibration satisfying the Chevalley condition in the above sense.
+
+According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
+
+
 
 ### "Local" Beck--Chevalley condition {#Local}
 
@@ -129,10 +152,19 @@ $$
 
 ## Examples
 
-### Pullbacks of opfibrations
+### Various
+
+* The [[codomain fibration]] of any [[category]] with [[pullbacks]] is a bifibration, and satisfies the Beck--Chevalley condition at every pullback square.
+
+* If $C$ is a [[regular category]] (such as a [[topos]]), the bifibration $Sub(C) \to C$ of [[subobjects]] satisfies the Beck--Chevalley condition at every pullback square.
+
+* The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
+
+
+### For categories of presheaves
  {#PullbacksOfOpfibrations}
 
-+-- {: .num_prop}
++-- {: .num_prop #BCForPresheavesOnPullbacksOfOpfibrations}
 ###### Proposition
 
 If $\phi : D \to C$ is an [[opfibration]] of [[small categories]] and 
@@ -147,21 +179,22 @@ $$
   }
 $$
 
-is a [[pullback]] diagram (in the _1-category_ [[Cat]]), then the induced diagram of [[presheaf categories]]
+is a [[pullback]] diagram (in the _1-category_ [[Cat]]), and for $\mathcal{C}$ a [[category]] with all [[small colimits]], then the induced diagram of [[presheaf categories]]
 
 $$
   \array{
-    [D', \mathcal{C}] &\stackrel{\beta^*}{\leftarrow}& [D, \mathcal{C}]
+    [D', \mathcal{C}] &\stackrel{\beta^*}{\longleftarrow}& [D, \mathcal{C}]
     \\
-    \uparrow^{\mathrlap{\psi}^*} && \uparrow^{\mathrlap{\phi}^*}
+    \uparrow^{\mathrlap{\psi}^*} 
+      && 
+    \uparrow^{\mathrlap{\phi}^*}
     \\
-    [C', \mathcal{C}] &\stackrel{\alpha^*}{\leftarrow}& [C,\mathcal{C}]
+    [C', \mathcal{C}] &\stackrel{\alpha^*}{\longleftarrow}& [C,\mathcal{C}]
   }
   \,,
 $$
 
-for $\mathcal{C}$ a category with all small colimits,
-satisfies the Beck-Chevalley condition: for $\psi_!$ and $\phi_!$ denoting the left [[Kan extension]] along $\psi$ and $\phi$, respectively, we have a [[natural isomorphism]]
+satisfies the Beck-Chevalley condition: for $\psi_!$ and $\phi_!$ denoting the left [[Kan extension]] along $\psi$ and $\phi$, respectively, then we have a [[natural isomorphism]]
 
 $$
   \psi_! \beta^* \simeq \alpha^* \phi_!
@@ -170,7 +203,10 @@ $$
 
 =--
 
-This is sometimes called the _projection formula_. 
+(This is maybe sometimes called the _projection formula_. But see at _[[projection formula]]_.)
+
+For this statement in the more general context of [[quasicategories]] see ([Joyal, prop. 11.6](#Joyal)).
+
 
 +-- {: .proof}
 ###### Proof
@@ -203,34 +239,7 @@ all of them [[natural isomorphism|natural]] in $c'$.
 =--
 
 
-### Bifibrations
 
-Originally, the Beck-Chevalley condition was introduced in ([B&#233;nabou-Roubaud, 1970](#BenabouRoubaud)) for [[bifibrations]] over a base category with pullbacks. In *loc.cit.* they call this condition **Chevalley condition** because he introduced it in his 1964 seminar. 
-
-#### Definition
-
-A [[bifibration]] $\mathbf{X} \to \mathbf{B}$ where $\mathbf{B}$ has pullbacks satisfies the **Chevalley condition** iff for every commuting square
-$$\array{ & \overset{\psi^\prime}{\rightarrow} & \\
-  \downarrow^{\varphi^\prime} && \downarrow^{\varphi}\\
-  & \underset{\psi}{\rightarrow} & }$$
-in $\mathbf{X}$ over a pullback square in the base $\mathbf{B}$ where $\varphi$ is [[cartesian morphism|cartesian]] and $\psi$ is cocartesian it holds that $\varphi^\prime$ is cartesian
-iff $\psi^\prime$ is cocartesian. Actually, it suffices
-to postulate one direction because the other one follows.
-The nice thing about this formulation is that there is no
-mention of "canonical" morphisms and no mention of [[cleavages]]. 
-
-A fibration $P$ has products satisfying the Chevalley condition iff the opposite fibration $P^{op}$ is 
-a bifibration satisfying the Chevalley condition in the above sense.
-
-According to the [[Benabou–Roubaud theorem]], the Chevalley condition  is crucial for establishing the connection between the descent in the sense of fibered categories and the [[monadic descent]].
-
-#### Examples
-
-* The [[codomain fibration]] of any [[category]] with [[pullbacks]] is a bifibration, and satisfies the Beck--Chevalley condition at every pullback square.
-
-* If $C$ is a [[regular category]] (such as a [[topos]]), the bifibration $Sub(C) \to C$ of [[subobjects]] satisfies the Beck--Chevalley condition at every pullback square.
-
-* The [[family fibration]] $Fam(C)\to Set$ of any category $C$ with small sums satisfies the Beck--Chevalley condition at every pullback square in $Set$.
 
 ### Proper base change in &#233;tale cohomology
 
@@ -247,13 +256,18 @@ A kind of Beck-Chevalley condition appears in the axioms of Grothendieck's [[six
 
 ## References
 
-* [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
- {#BenabouRoubaud}
+The original article is
 
+* {#BenabouRoubaud} [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
 
-A textbook reference is for instance section IV.9 (page 205) of
+Discussion for [[subobject lattices]] is in
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Saunders MacLane]], [[Ieke Moerdijk]], chapter IV.9 (around page 205) of _[[Sheaves in Geometry and Logic]]_
+
+Discussion for presheaf categories in the context of [[quasicategories]] ([[(infinity,1)-categories of (infinity,1)-presheaves]]) is in
+
+* {#Joyal} [[André Joyal]], _The Theory of Quasi-Categories and its Applications_ ([pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern45-2.pdf))
+
 
 [[!redirects Beck-Chevalley conditions]]
 
