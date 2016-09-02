@@ -267,6 +267,8 @@ This is a weaker condition. In fact it seems to be also weaker than the conditio
 
 Accounts include
 
+* {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
+
 * {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
  
 * V. I. Arnold,  B. A. Khesin, _Topological methods in hydrodynamics._ (Springer 1998, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0902.76001&format=complete))
