@@ -21,16 +21,26 @@
 
 Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] (TVSes).  Every [[Cartesian space]] is a Fr&#233;chet space, but Fr&#233;chet spaces may have infinite [[dimension]].  There is [[analysis]] on Fr&#233;chet spaces, yet they are more general than [[Banach spaces]]; as such, they are popular as test spaces for possibly [[infinite-dimensional manifolds]]: _[[Fréchet manifolds]]_.
 
-Note that a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all Hausdorff TVSes, Fr&#233;chet spaces satisfy this axiom, but they have a good deal of additional structure and properties.)
+Beware the clash ofterminology: a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all Hausdorff TVSes, Fr&#233;chet spaces satisfy this axiom, but they have a good deal of additional structure and properties.)
+
+A basic example of a Fr&#233;chet space is $\mathbb{R}^\infty = \underset{\longleftarrow}{\lim} \mathbb{R}^n$, as a [[topological space]] the _[[projective limit]]_ over the finite dimensional [[Cartesian spaces]] $\mathbb{R}^n$. This is not a [[Banach space]] anymore, since it does not carry a compatible [[norm]] anymore (e.g. [Saunders 89](#Saunders89), p. 253). But it evidently does carry the functions $\mathbb{R}^\infty \overset{p^n}{\longrightarrow} \mathbb{R}^n \overset{\Vert -\Vert_n}{\longrightarrow} \mathbb{R}$ for all $n \in \mathbb{N}$, where $p^n$ is the defining [[projection]] and where ${\Vert -\Vert}_n$ is the standard [[norm]] on $\mathbb{R}^n$. While not norms, these composites are [[seminorms]] on $\mathbb{R}^\infty$, they only fail the condition that only the 0-vector has vanishing norm. A Fr&#233;chet space is equivalently a vector space equipped with a familiy of seminorms, with compatibility conditions modeled on this example.
 
 
 ## Definition
 
-A __Fr&#233;chet space__ is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[locally convex space]] that is [[metric space|metrisable]].  The metric can be chosen to be translation-invariant.
++-- {: .num_defn #DefinitionsFrechetSpaces}
+###### Definition
 
-Equivalently, a __Fr&#233;chet space__ is a complete Hausdorff TVS whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]].
 
-We accept as an [[automorphism]] of Fr&#233;chet spaces any [[llinear map|linear]] [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of seminorms used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of $TVS$.
+A __Fr&#233;chet space__ is equivalently
+
+1. a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[locally convex vector space]] that is [[metric space|metrisable]].  The metric can be chosen to be translation-invariant.
+
+1. a complete Hausdorff TVS whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]].
+
+=--
+
+We accept as an [[automorphism]] of Fr&#233;chet spaces any [[linear|linear]] [[homeomorphism]]; in particular, the particular translation-invariant metric or countable family of [[seminorms]] used to prove that a space is a Fr&#233;chet space is *not* required to be preserved.  More generally, the [[morphisms]] of Fr&#233;chet spaces are the [[continuous map|continuous]] linear maps, so that Fr&#233;chet spaces form a [[full subcategory]] of $TVS$.
 
 
 ## Examples
@@ -148,11 +158,17 @@ We can iterate this procedure to define derivatives of arbitrary order, and thus
 
 ## References
 
+* {#Vogt00} [[Dietmar Vogt]], _Lectures on Fr&#233;chet spaces_, 2000 ([pdf](http://www2.math.uni-wuppertal.de/~vogt/vorlesungen/fs.pdf))
+
 * [Wikipedia](https://secure.wikimedia.org/wikipedia/en/wiki/Fr&#233;chet_space)
 
 Calculus on Fr&#233;chet spaces is nicely explained in this paper:
 
 * Richard S. Hamilton: _The Inverse Function Theorem of Nash and Moser_ (Bulletin (New Series) of the American Mathematical Society Volume 7, Number 1, July 1982)
+
+Discussion in the context of [[jet bundle]] theory includes
+
+* {#Saunders89} [[David Saunders]], chapter 7 of _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 Refinement to [[noncommutative geometry]] by suitable smoothed [[C-star-algebras]] is discussed in 
 
