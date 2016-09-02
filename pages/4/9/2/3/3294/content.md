@@ -148,7 +148,7 @@ Reference: This follows from the statement paragraph 29.1 (7) in Gottfried Koeth
 ## Differentiable and smooth functions
  {#DifferentiableAndSmoothFunctions}
 
-It is possible to generalize some aspects of [[analysis]] (differential calculus) to Fr&#233;chet spaces (e.g. [Saunders 89, p. 256](#Saunders89)). 
+It is possible to generalize some aspects of [[analysis]] (differential calculus) to Fr&#233;chet spaces (e.g. [Michor 80, chapter 8](#Michor80), [Saunders 89, p. 256](#Saunders89)). 
 
 For example the definition of the [[derivative]] of a curve is simply the same as in finite dimensions:
 
@@ -254,7 +254,9 @@ We can iterate this procedure to define derivatives of arbitrary order, and thus
 
 * Wikipedia, _[Fr&#233;chet space](https://secure.wikimedia.org/wikipedia/en/wiki/Fr&#233;chet_space)_
 
-Analysis on Fr&#233;chet spaces is nicely discussed in:
+Discussion of analysis on Fr&#233;chet spaces includes
+
+* {#Michor80} [[Peter Michor]], chapter 8 of _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
 
 * Richard S. Hamilton: _The Inverse Function Theorem of Nash and Moser_ (Bulletin (New Series) of the American Mathematical Society Volume 7, Number 1, July 1982)
 
