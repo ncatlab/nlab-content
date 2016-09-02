@@ -27,13 +27,13 @@
 The concept of _Fr&#233;chet manifold_ is a special case of that of _[[infinite-dimensional manifold]]_:
 In analogy to how a finite-dimensional [[smooth manifold]] is a [[manifold]] modeled on a [[Cartesian space]] $\mathbb{R}^n$ in [[CartSp]], a _Fr&#233;chet manifold_ is a [[manifold]] modeled on a [[Fréchet space]], such as notably $\mathbb{R}^\infty$ ([exmpl.](Fr&#233;chet+space#ProjRInfinity)).
 
-The [[category]] of Fr&#233;chet manifolds is a [[full subcategory]] of that of [[diffeological spaces]] (prop. \ref{FFEmbeddingOfFrechetInDiffeological} below) hence of [[smooth sets]] (see [here](diffeological space#EmbeddingOfDiffeologicalSpacesIntoTheSheafTopos)).
+The [[category]] of Fr&#233;chet manifolds is a [[full subcategory]] of that of [[diffeological spaces]] (prop. \ref{FFEmbeddingOfFrechetInDiffeological} below) hence of [[smooth sets]] (see [here](diffeological+space#EmbeddingOfDiffeologicalSpacesIntoTheSheafTopos)).
 
 ## Definition
 
 ### Fr&#233;chet manifolds
 
-It is possible to define, analogous to the finite dimensional case, the notion of [[smooth functions]] between [[Fréchet spaces]], see there. Therefore, the usual definition of _manifold_ carries over word by word:
+It is possible to define, analogous to the finite dimensional case, the notion of [[smooth functions]] between [[Fréchet spaces]], see at _[Fr&#233;chet space -- Differentiable and smooth functions](Fr&#233;chet+space#DifferentiableAndSmoothFunctions)_. Therefore, the usual definition of _[[smooth manifold]]_ carries over word by word:
 
 +-- {: .num_defn}
 ###### Definition
@@ -136,9 +136,120 @@ This appears as ([Waldorf, lemma A.1.7](#Waldorf)).
 
 ## Examples
 
-Standard examples of Fr&#233;chet manifolds are smooth mapping spaces such as the
+### Smooth mapping spaces
 
-* [[smooth loop space]].
++-- {: .num_example }
+###### Example
+
+For $X,Y$ two [[smooth manifolds]], such that in addition $X$ is [[compact topological space|compact]], then the [[mapping space]], i.e. the set of [[smooth functions]] $C^\infty(X,Y)$ is naturally a Fr&#233;chet manifold. Under the [[full subcategory]] inclusion of Fr&#233;chet manifolds into [[diffeological spaces]] and [[smooth sets]] (prop. \ref{FFEmbeddingOfFrechetInDiffeological}) this coincides with the canonical [[mapping space]] formed there.
+
+For example [[smooth loop space]] (i.e. for $X = S^1$ the [[cirlce]]) are Fr&#233;chet manifolds.
+
+For details on this see at _[[manifold structure of mapping spaces]]_.
+
+=--
+
+### Projective limits of smooth finite-dimensional manifolds
+ {#ProjectiveLimitsOfSmoothFiniteDimensionalManifolds}
+
+(see also [Dodson-Galanis-Vassiliou 15](#DodsonGalanisVassiliou15))
+
++-- {: .num_example #RInfinity}
+###### Example
+
+The infinite product [[Fréchet space]] $\mathbb{R}^\infty$ ([exmpl.](Fr&#233;chet+space#ProjRInfinity)) is of course a Fr&#233;chet manifold.
+
+=--
+
++-- {: .num_proposition}
+###### Claim
+
+
+As a Fr&#233;chet manifold, $\mathbb{R}^\infty$ (example \ref{RInfinity}) should be the [[projective limit]]
+
+$$
+  \mathbb{R}^\infty \simeq \underset{\longleftarrow}{\lim}_n \mathbb{R}^n
+$$
+
+formed in the category of Fr&#233;chet manifolds.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+The point that needs checking is that for $X$ any Fr&#233;chet manifold, then a [[continuous function]] 
+
+$$
+  f \colon X \longrightarrow \mathbb{R}^\infty
+$$ 
+
+is smooth as soon as all its components 
+
+$$
+  f_n \colon X \overset{f}{\longrightarrow} \mathbb{R}^\infty
+  \overset{p_n}{\longrightarrow} \mathbb{R}
+$$ 
+
+are smooth. This is checked for instance in ([Saunders 89, lemma 7.1.8](#Saunders89)).
+
+=--
+
+
+Conversely: 
+
++-- {: .num_prop #DifferentiableFunctionOutOfRInfinity}
+###### Proposition
+
+A function 
+
+$$
+  \mathbb{R}^\infty
+    \longrightarrow
+  \mathbb{R}
+$$
+
+_out_ of $\mathbb{R}^\infty$ (example \ref{RInfinity}) is differentiable precisely if at each point only a [[finite number]] of its partial derivative are non-vanishing.
+
+=--
+
+
+([Saunders 89, example 7.1.6](#Saunders89))
+
+
++-- {: .num_example #JetBundlesAsFrechetManifolds}
+###### Example
+
+As a global generalization of the pro-finite dimensional Fr&#233;chet manifold $\mathbb{R}^\infty$ of example \ref{RInfinity}, every infinite [[jet bundle]] $J^\infty E = \underset{\longleftarrow}{\lim}_k J^k E$ is a Fr&#233;chet manifold, modeled on $\mathbb{R}^\infty$ ([Saunders 89, chapter 7](#Saunders89)). 
+
+=--
+
++-- {: .num_remark #DifferenceBetweenProManifoldAndFrecherManifoldStructure}
+###### Remark
+
+Beware, that infinite [[jet bundles]] are also naturally thought of as [[pro-manifolds]]. This differs from the Frechet manifold structure of example \ref{JetBundlesAsFrechetManifolds}:
+
+A morphism of [[pro-manifolds]]
+
+$$
+  f \colon J^\infty E \longrightarrow \mathbb{R}
+$$
+
+is equivalently a function that is "globally of finite order", in that there exists $k \in \mathbb{N}$ and an ordinary smooth function $f_k \colon J^k E \to \mathbb{R}$ such that $f = f_k \circ p_k$.
+
+But by prop. \ref{DifferentiableFunctionOutOfRInfinity} a morphisms of Fr&#233;chet manifolds 
+
+$$
+  f \colon J^\infty E \longrightarrow \mathbb{R}
+$$
+
+is only restricted to have finite order of partial derivatives at every point.
+
+This is a weaker condition. In fact it seems to be also weaker than the condition of being "locally of finite order" considered in [Takens 79](jet+bundle#Takens79). (The function $f$ is _locally of finite order_ if for every point in $J^\infty E$ there exists a $k \in \mathbb{N}$ and an open neighbourhood $U_k$ of its image in $J^k E$ and a smooth function $f^U_k \colon U_k \to \mathbb{R}$ such that restricted to the pre-image of $U_k$ in $J^\infty E$ the function $f$ given by $f_k \circ p_k $).
+
+=--
+
+
 
 ## Related concepts
 
@@ -154,14 +265,13 @@ Standard examples of Fr&#233;chet manifolds are smooth mapping spaces such as th
 
 ## References
 
-For instance
+Accounts include
 
-* [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
- {#KM}
+* {#KM} [[Andreas Kriegl]], [[Peter Michor]]: _The convenient setting of global analysis_, AMS (1997) ([pdf](http://www.mat.univie.ac.at/~michor/apbookh.pdf))
+ 
+* V. I. Arnold,  B. A. Khesin, _Topological methods in hydrodynamics._ (Springer 1998, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0902.76001&format=complete))
 
-* V.I. Arnold, ; B.A. Khesin: _Topological methods in hydrodynamics._ (Springer 1998, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0902.76001&format=complete))
-
-* Boris Khesin, Robert Wendt: _The geometry of infinite-dimensional groups._ (Springer 2009, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1153.22001&format=complete))
+* Boris Khesin, Robert Wendt, _The geometry of infinite-dimensional groups._ (Springer 2009, [ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:1153.22001&format=complete))
 
 The embedding into [[diffeological spaces]] is due to
 
@@ -169,14 +279,20 @@ The embedding into [[diffeological spaces]] is due to
 
 and reviewed in section 3 of
 
-* M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r.
-Cat&#233;g., 35(4):274&#8211;290, 1994. ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi038.pdf))
- {#Losik}
+* {#Losik} M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r. Cat&#233;g., 35(4):274&#8211;290, 1994. ([pdf](http://www.mat.univie.ac.at/~esiprpr/esi038.pdf))
+ 
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
-* [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
- {#Waldorf}
+* {#Waldorf} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+ 
+
+Fr&#233;chet manifold structure on [[jet bundles]] is discussed in
+
+* {#Saunders89} [[David Saunders]], chapter 7 of _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
+
+* {#DodsonGalanisVassiliou15} C. T. J. Dodson, George Galanis, Efstathios Vassiliou,, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_, Cambridge University Press (2015)
+
 
 [[!redirects Fréchet manifolds]]
 
