@@ -228,6 +228,8 @@ Typical [[Lagrangian]]s in [[quantum field theory]] are defined on jet bundles. 
 
 Textbook accounts and lecture notes include
 
+* {#Michor80} [[Peter Michor]], _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
+
 * {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_, 1998 ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
