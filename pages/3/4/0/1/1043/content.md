@@ -34,11 +34,14 @@ We first look at a few concrete examples of universal properties. These are all 
 
 +-- {: .num_example}
 ###### Example (products)
-The [[product]] of two objects (eg. sets, groups, rings etc.) is specified by the property that maps $f: X \to A \times B$ biject naturally with pairs of maps $(f_1: X \to A, f_2: X \to B)$.
+The [[product]] of two objects (eg. sets, groups, rings etc.) is specified by the property that maps $f: X \to A \times B$ biject naturally with pairs of maps $(f_1: X \to A, f_2: X \to B)$. Any object that 
 
 The naturality condition is that if $f: X \to A \times B$ corresponds to $f_1: X \to A, f_2: X \to B$, and $g: Y \to X$ is a map, then $f \circ g$ corresponds to $f_1 \circ g$ and $f_2 \circ g$, so that the bijection respects composition.
 
-In particular, the [[identity map]] $id: A \times B \to A \times B$ corresponds to a pair of [[projection maps]] $\pi_1: A \times B \to A$ and $\pi_2: A \times B \to B$. Then if $f: X \to A \times B$ is a map, then by naturality, it corresponds to $\pi_1 \circ f: X \to A$ and $\pi_2 \circ f: X \to B$. It is an easy exercise to show that if the bijection is given by composition with some maps $\pi_1, \pi_2$, then naturality is in fact satisfied.
+In particular, the [[identity map]] $id: A \times B \to A \times B$ corresponds to a pair of [[projection maps]] $\pi_1: A \times B \to A$ and $\pi_2: A \times B \to B$. Then if $f: X \to A \times B$ is a map, then by naturality, it corresponds to $\pi_1 \circ f: X \to A$ and $\pi_2 \circ f: X \to B$.
+
+Suppose we are not given a bijection, but just an object $P$ with maps $\pi_1: P \to A$ and $\pi_2: P \to B$. Then as above, we obtain a function from maps $X \to P$ to pairs of maps $X \to A, X \to B$ by composition. This makes $P$ into the product of $A$ and $B$ exactly when this function is a bijection, ie. for any pair of maps $f_1 : X \to A, f_2: X \to B$, there is a unique map $f: X \to P$ whose compositions with $\pi_1, \pi_2$ are $f_1, f_2$ respectively (naturality is easy to check).
+
 
 (The experienced reader will notice that this is just a special case of the [[Yoneda lemma]])
 
@@ -54,7 +57,11 @@ $$
 
 +-- {: .num_example}
 ###### Example (free groups)
-The [[free group|free]] [[group]] on $n$ generators is a group $F_n$ such that [[group homomorphisms]] $F_n \to G$ bijects (naturally) with $n$ elements of $G$ (not necessarily distinct). As above, the identity map $id: F_n \to F_n$ corresponds to $n$ elements $x_1, ..., x_n: F_n$. Then any homomorphism $f: F_n \to G$ corresponds to the elements $f(x_1), ..., f(x_n)$ of $G$. Then the universal property says given any $n$ elements of $G$, we can find a unique homomorphism $f: F_n \to G$ that sends $x_1, ..., x_n$ to the $n$ elements.
+The [[free group|free]] [[group]] on $n$ generators is a group $F_n$ such that [[group homomorphisms]] $F_n \to G$ bijects (naturally) with $n$ elements of $G$ (not necessarily distinct).
+
+Similar to the above, the naturality condition says if $f: F_n \to G$ corresponds to $g_1, ..., g_n \in G$, and $h: G \to H$ is a map, then $h \circ f$ corresponds to the elements $h(g_1), ..., h(g_n)$. In particular, suppose the identity map $id: F_n \to F_n$ corresponds to $n$ elements $x_1, ..., x_n\in F_n$. Then any homomorphism $f: F_n \to G$ corresponds to the elements $f(x_1), ..., f(x_n)$ of $G$. 
+
+Thus, given the specified elements $x_1, ..., x_n \in F_n$, the universal property says given any $n$ elements of $G$, we can find a unique homomorphism $f: F_n \to G$ that sends $x_1, ..., x_n$ to the $n$ elements.
 
 Diagrammatically, picking $n$ elements out of a set $X$ is the same as a [[function]] (of sets) $n \to X$. If we write $U(G)$ for the underlying set of the group $G$ (ie. $U$ is the [[forgetful functor]] to $Set$), the universal property of the free group says that there is a specified function $\phi: n \to U(F_n)$, such that for every function $f: n \to U(G)$, we can find a unique group homomorphism $\tilde{f}: F_n \to G$ such that the following diagram commutes:
 $$
@@ -74,8 +81,10 @@ The [[tensor product]] of [[vector spaces]] has the universal property that a [[
 
 We have more degenerate examples such as the terminal object:
 +-- {: .num_example}
-###### Example (terminal objects)
+###### Example (terminal and initial objects)
 In the [[category of sets]], the singleton $1$ satisfies the property that there is always a unique from any object to $1$. So we can say that the maps $A \to 1$ biject (necessarily naturally) with the set $1$. More generally, in any category, if an object $X$ is such that there is always a unique map from any object to $X$, then $X$ is called the [[terminal object]].
+
+Dually, an intial object is an object $0$ such that there is a unique map from $0$ to any object $X$.
 =--
 
 ### Classes of examples
