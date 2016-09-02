@@ -24,8 +24,10 @@
 
 ## Idea
 
-A kind of [[infinite-dimensional manifold]].
-In analogy to how a [[smooth manifold]] is a [[manifold]] modeled on a [[Cartesian space]] $\mathbb{R}^n$ in [[CartSp]], a _Fr&#233;chet manifold_ is a [[manifold]] modeled on a [[Fréchet space]].
+The concept of _Fr&#233;chet manifold_ is a special case of that of _[[infinite-dimensional manifold]]_:
+In analogy to how a finite-dimensional [[smooth manifold]] is a [[manifold]] modeled on a [[Cartesian space]] $\mathbb{R}^n$ in [[CartSp]], a _Fr&#233;chet manifold_ is a [[manifold]] modeled on a [[Fréchet space]], such as notably $\mathbb{R}^\infty$ ([exmpl.](Fr&#233;chet+space#ProjRInfinity)).
+
+The [[category]] of Fr&#233;chet manifolds is a [[full subcategory]] of that of [[diffeological spaces]] (prop. \ref{FFEmbeddingOfFrechetInDiffeological} below) hence of [[smooth sets]] (see [here](diffeological space#EmbeddingOfDiffeologicalSpacesIntoTheSheafTopos)).
 
 ## Definition
 
@@ -97,7 +99,7 @@ We discuss how Fr&#233;chet manifolds form a [[full subcategory]] of that of [[d
 Define a [[functor]]
 
 $$
-  \iota \colon FrechetManifolds \to DiffeologicalSpaces
+  \iota \;\colon\; FrechetManifolds \longrightarrow DiffeologicalSpaces
 $$
 
 from Fr&#233;chet manifolds to [[diffeological spaces]] (and hence to [[smooth spaces]] and  [[smooth stacks]])
