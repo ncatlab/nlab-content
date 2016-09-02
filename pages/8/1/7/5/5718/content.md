@@ -52,7 +52,7 @@ but one has to decide in which category of [[infinite-dimensional manifolds]] to
 
 1. one may form the limit formally, i.e. in [[pro-manifolds]]. This is what is implicit for instance in [Anderson, p.3-5](#Anderson);
 
-1. one may form the limit in [[Fréchet manifolds]], this is farily explicit in ([Saunders 89, chapter 7](#Saunders89)).
+1. one may form the limit in [[Fréchet manifolds]], this is farily explicit in ([Saunders 89, chapter 7](#Saunders89)). See at _[Fr&#233;chet manifold -- Projective limits of finite-dimensional manifolds](Frechet+manifold#ProjectiveLimitsOfSmoothFiniteDimensionalManifolds)_. Beware that this is not equivalent to the pro-manifold structure (see the remark [here](Frechet+manifold#DifferenceBetweenProManifoldAndFrecherManifoldStructure)).
 
 
 
@@ -254,7 +254,7 @@ The algebra of smooth functions of just _locally_ finite order on the jet bundle
 
 * M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
 
-* C. T. J. Dodson, George Galanis, Efstathios, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_
+* {#DodsonGalanisVassiliou15} C. T. J. Dodson, George Galanis, Efstathios Vassiliou,, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_, Cambridge University Press (2015)
 
 * [[Andrew Lewis]], _The bundle of infinite jets_ (2006) ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
