@@ -159,7 +159,7 @@ For a continuous path in a Fr&#233;chet space $f(t)$ we define
 $$
 f'(t) = \lim_{h \to 0} \frac{1}{h} (f(t + h) - f(t))
 $$
-If the limit exists and is continous, we say that $f$ is continuously differentiably or $C^1$.
+If the limit exists and is continuous, we say that $f$ is continuously differentiably or $C^1$.
 =--
 
 And just as in the finite dimensional case, we can define the partial derivative, or rather: the [[directional derivative|directional]] or G&#226;teaux derivative:
