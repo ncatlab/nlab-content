@@ -254,7 +254,7 @@ The algebra of smooth functions of just _locally_ finite order on the jet bundle
 
 * M. Bauderon, _Differential geometry and Lagrangian formalism in the calculus of variations_, in _Differential Geometry, Calculus of Variations, and their Applications_, Lecture Notes in Pure and Applied Mathematics, 100, Marcel Dekker, Inc., N.Y., 1985, pp. 67-82.
 
-* {#DodsonGalanisVassiliou15} C. T. J. Dodson, George Galanis, Efstathios Vassiliou,, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_, Cambridge University Press (2015)
+* {#DodsonGalanisVassiliou15}[[C. T. J. Dodson]], George Galanis, Efstathios Vassiliou,, p. 109 and section 6.3 of _Geometry in a Fr&#233;chet Context: A Projective Limit Approach_, Cambridge University Press (2015)
 
 * [[Andrew Lewis]], _The bundle of infinite jets_ (2006) ([pdf](http://www.mast.queensu.ca/~andrew/notes/pdf/2006a.pdf))
 
