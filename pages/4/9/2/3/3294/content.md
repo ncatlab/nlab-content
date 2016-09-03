@@ -23,7 +23,7 @@ Fr&#233;chet spaces are particularly well-behaved [[topological vector spaces]] 
 
 Beware the clash ofterminology: a 'Fr&#233;chet topology' on a 'Fr&#233;chet topological space' is something different; this just means that a [[topological space]] satisfies the $T_1$ [[separation axiom]].  (Like all Hausdorff TVSes, Fr&#233;chet spaces satisfy this axiom, but they have a good deal of additional structure and properties.)
 
-A basic example of a Fr&#233;chet space is $\mathbb{R}^\infty = \underset{\longleftarrow}{\lim} \mathbb{R}^n$, as a [[topological space]] the _[[projective limit]]_ over the finite dimensional [[Cartesian spaces]] $\mathbb{R}^n$ (example \ref{ProjRInfinity} below) . This is not a [[Banach space]] anymore, since it does not carry a compatible [[norm]] anymore (e.g. [Saunders 89](#Saunders89), p. 253). But it evidently does carry the functions $\mathbb{R}^\infty \overset{p^n}{\longrightarrow} \mathbb{R}^n \overset{\Vert -\Vert_n}{\longrightarrow} \mathbb{R}$ for all $n \in \mathbb{N}$, where $p^n$ is the defining [[projection]] and where ${\Vert -\Vert}_n$ is the standard [[norm]] on $\mathbb{R}^n$. While not norms, these composites are [[seminorms]] on $\mathbb{R}^\infty$, they only fail the condition that only the 0-vector has vanishing norm. A Fr&#233;chet space is equivalently a vector space equipped with a familiy of seminorms, with compatibility conditions modeled on this example. See def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms} below.
+A basic example of a Fr&#233;chet space is $\mathbb{R}^\infty = \underset{\longleftarrow}{\lim} \mathbb{R}^n$, as a [[topological space]] the _[[projective limit]]_ over the finite dimensional [[Cartesian spaces]] $\mathbb{R}^n$ (example \ref{ProjRInfinity} below) . This is not a [[Banach space]] anymore, since it does not carry a compatible [[norm]] anymore (e.g. [Saunders 89](#Saunders89), p. 253). But it evidently does carry the functions $\mathbb{R}^\infty \overset{p^n}{\longrightarrow} \mathbb{R}^n \overset{\Vert -\Vert_n}{\longrightarrow} \mathbb{R}$ for all $n \in \mathbb{N}$, where $p^n$ is the defining [[projection]] and where ${\Vert -\Vert}_n$ is the standard [[norm]] on $\mathbb{R}^n$. While not norms, these composites are [[seminorms]] on $\mathbb{R}^\infty$, they only fail the condition that only the 0-vector has vanishing norm. A Fr&#233;chet space is equivalently a vector space equipped with a countable familiy of seminorms, with compatibility conditions modeled on this example. See def. \ref{FrechetSpaceAsCompleteTVSWithCompatibleSeminorms} below.
 
 
 ## Definition
@@ -117,7 +117,7 @@ $$
 
 over all [[Cartesian spaces]] via their canonical [[projection maps]].
 
-(Beware that the same symbol "$\mathbb{R}^\infty$" is also used for the corresponding [[direct sum]]/[[inverse limit]], which is different.)
+(Beware that the same symbol "$\mathbb{R}^\infty$" is also used for the corresponding [[direct sum]]/[[injective limit]], which is different.)
 
 Write
 
