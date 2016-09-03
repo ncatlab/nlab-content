@@ -255,7 +255,7 @@ This is a weaker condition. In fact it seems to be also weaker than the conditio
 
 * [[Banach manifold]]
 
-* [[Hilbert manifold]], [[IHL manifold]]
+* [[Hilbert manifold]], [[ILH manifold]]
 
 * [[convenient manifold]]
 
