@@ -155,7 +155,7 @@ See also ([Saunders 89, p. 255](#Saunders89)).
 ### As projective limits
  {#AsProjectiveLimits}
 
-Every *[[complete topological space|complete]]* [[locally convex topological vector space]] $X$ is the [[cofiltered category|cofiltered]] [[projective limit]] of [[Banach spaces]] in the [[category]] of [[locally convex spaces]].
+Every [[complete topological space|complete]] [[locally convex topological vector space]] $X$ is the [[cofiltered category|cofiltered]] [[projective limit]] of [[Banach spaces]] in the [[category]] of [[locally convex spaces]]. (Note that Fr&#233;chet spaces are additionally required to be _metrisable_, so this is more general.)
 
 To see this, choose a base $\{U_{\alpha}\}_{\alpha \in A}$ of the neighborhood filter of $0$, consisting of convex, balanced and absorbing sets and let $p_{\alpha}$ be Minkowski functional associated to $U_{\alpha}$. The Hausdorffification $X_{\alpha}$ of $(X, p_{\alpha})$ is easily seen to be a Banach space and because $A$ is directed by reverse inclusion so is $X_{\alpha}$. It is straightforward to check that $X = \underset{\longleftarrow}{\lim} X_{\alpha}$ in the category of locally convex spaces. For details, see ([Schaefer-Wolff 99, Chapter&#160;II.&#167;5](#SchaeferWolff99),  [page&#160;51ff](http://books.google.com/books?id=9kXY742pABoC&pg=PA51).
 
@@ -163,11 +163,11 @@ Now given that a Fr&#233;chet space admits a *decreasing sequence* of convex bal
 
 Every Fr&#233;chet space is a [[sequential limit|sequential]] [[projective limit]] of [[Banach spaces]]. 
 
-Conversely, any limit of a sequence of Banach spaces is a Fr&#233;chet space.
+Conversely, any limit of a countable sequence of Banach spaces is a Fr&#233;chet space.
 
 See ([Schaefer-Wolff 99](#SchaeferWolff99)), Chapter II.&#167;4, page 48f (as well as Theorem I.6.1, page 28). 
 
-(from [this MO comment](http://math.stackexchange.com/a/53020/58526))
+(from [this math.stackexchange comment](http://math.stackexchange.com/a/53020/58526))
 
 See also example \ref{ProjRInfinity} below.
 
