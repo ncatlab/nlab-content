@@ -62,8 +62,7 @@ $$
   x \in V\,, \epsilon \gt 0 \,, n \in \mathbb{N}
 $$
 
-is a [[base of neighborhoods]] of $0$.
-
+is a [[base of neighborhoods]] of $x$. 
 =--
 
 +-- {: .num_defn }
