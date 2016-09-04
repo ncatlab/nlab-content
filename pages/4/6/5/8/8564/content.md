@@ -30,9 +30,11 @@ Often _pid_ is used as an abbreviation of "principal ideal domain".
 
 * the ring of [[integers]]
 
-* a [[polynomial ring]] with [[coefficients]] in a field (in fact, for any commutative ring $R$, the ring $R[x]$ is a pid if and _only if_ $R$ is a field)
+* a [[polynomial ring]] with [[coefficients]] in a field (in fact, for any commutative ring $R$, the ring $R[x]$ is a pid if and _only if_ $R$ is a field) 
 
 * a [[valuation ring|discrete valuation ring]] (for example, a ring of formal power series over a field) 
+
+* any [[Euclidean domain]]
 
 * in the ring of [[entire function|entire]] [[holomorphic functions]] on $\mathbb{C}$ every finitely generated ideal is principal  ([Helmer 40](#Helmer40)), but the ring is only a [[Bézout domain]].
 
