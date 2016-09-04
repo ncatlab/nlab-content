@@ -43,7 +43,7 @@ A __Fr&#233;chet space__ is equivalently a [[complete space|complete]] [[Hausdor
 A **Fr&#233;chet space** is a [[complete space|complete]] [[Hausdorff space|Hausdorff]] [[topological vector space]] $V$ whose topology may be given (as a [[gauge space]]) by a [[countable set|countable]] family of [[seminormed vector space|seminorms]], hence for which there exists a family of [[seminorms]]
 
 $$
-  {\vert - \vert}_n \;\colon\; V \longrightarrow \mathbb{R}
+  {\Vert - \Vert}_n \;\colon\; V \longrightarrow \mathbb{R}
   \;\;\;
    \,,n \in \mathbb{N}
 $$
@@ -54,7 +54,7 @@ $$
   B_\epsilon^{(n)}(x)
   \coloneqq
   \left\{
-    y \in V \,\vert\,  {\Vert x-y \Vert \lt \epsilon}
+    y \in V \,\vert\,  {\Vert x-y \Vert}_n \lt \epsilon
   \right\}
   \;\;\;\;\;\;\;\;
   for
@@ -62,7 +62,7 @@ $$
   x \in V\,, \epsilon \gt 0 \,, n \in \mathbb{N}
 $$
 
-is a [[base for the topology]] on $V$.
+is a [[base of neighborhoods]] of $0$.
 
 =--
 
