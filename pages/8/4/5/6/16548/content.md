@@ -52,7 +52,7 @@ $$
     \\
     \downarrow^{\mathrlap{p_2}} &(pb)& \downarrow^{\mathrlap{i_X}}
     \\
-    X &\stackrel{i_X}{\longrightarrow}& X
+    X &\stackrel{i_X}{\longrightarrow}& \Im X
   }
   \right\}
   \;\;
