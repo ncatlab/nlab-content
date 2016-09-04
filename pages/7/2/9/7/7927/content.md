@@ -19,7 +19,7 @@
 
 ## Idea
 
-An _ILH manifold_ -- for a (possibly [[infinite-dimensional manifold|infinte dimensional]]) [[manifold]] modelled on an _[[inverse limit]] of [[Hilbert spaces]]_ -- is a [[topological manifold]] equipped with a kind of [[smooth structure]] that is more general than that of a [[Hilbert manifold]] but less general than that of a [[Fréchet manifold]].
+An _ILH manifold_ -- for a (possibly [[infinite-dimensional manifold|infinite dimensional]]) [[manifold]] modelled on an _[[inverse limit]] of [[Hilbert spaces]]_ -- is a [[topological manifold]] equipped with a kind of [[smooth structure]] that is more general than that of a [[Hilbert manifold]] but less general than that of a [[Fréchet manifold]].
 
 
 ## Related concepts
