@@ -1,5 +1,17 @@
 # Linearly compact vector spaces, modules, rings, objects
 
+## Motivation
+
+Linearly compact vector space were introduced in the development of the idea of duality. The (algebraic) linear dual of the discrete infinite-dimensional vector space is of larger cardinality so the original space is not isomorphic to the dual of its dual. But if a natural formal topology (which comes say from the filtration of the original space by its finite-dimensional subspaces; the formal topology on the dual is equivalent to consider the dual cofiltration) is given to the algebraic dual, then it makes sense to take the space of _continuous_ linear functional and we recover the original vector space. More precisely this amounts to an embedding of the category of (discrete) vector spaces into the category of linearly compact vector spaces, the latter category has a duality which extends the duality for finite-dimensional vector spaces. 
+
+A standard reference for the basics is the Dieudonn&#233;'s book on formal groups. 
+
+## Definition
+
+A topological module over a discrete ring is linearly compact if it has a [[base of neighborhoods]] of $0$ consisting of submodules. Thus a topological vector space is linearly compact if it has a base of neighborhoods of $0$ consisting of linear subspaces. 
+
+## Literature
+
 * [[L. S. Pontrjagin]], _&#220;ber stetige algebraische K&#246;rper_, Ann. of Math. 33 (1932) 163-174
 * [[N. Jacobson]], _Totally disconnected locally compact rings_,  Amer. J. Math. 58 (1936) 433-449; _A note on topological fields_, Amer. J. Math. 59 (1937) 889-894
 * N. Jacobson , O. Taussky , Locally compact rings, Proc. Nat. Acad. Sci. U.S.A. 21 (1935) 106-108
@@ -27,4 +39,5 @@ The definitions of linearly compact subcategories and linearly compact objects i
 [[!redirects linearly compact object]]
 [[!redirects linearly compact modules]]
 [[!redirects linearly compact vector spaces]]
+[[!redirects linearly compact vector space]]
 
