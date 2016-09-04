@@ -137,4 +137,4 @@ and further in
 
 *  [[David Blanc]], _Algebraic invariants for homotopy types_, Math. Proc. Camb. Phil. Soc. 127 (3)(1999) 497 - 523. (preprint version on the [ArXiv](http://arxiv.org/abs/math/9812035).)
 
-There are more recent results on the realisability problem in Martin Frankland's [thesis](http://www.math.uiuc.edu/~franklan/Frankland_Thesis_20100513.pdf).  
+There are more recent results on the realisability problem in [[Martin Frankland]]'s [thesis](http://www.math.uiuc.edu/~franklan/Frankland_Thesis_20100513.pdf).  
