@@ -124,7 +124,17 @@ A cell spectrum is a **CW-spectrum** if each attaching map $\Sigma^\infty S^{q_n
 
 (e.g. [Lewis-May-Steinberger 86, def. 5.1, def. 5.2](#LewisMaySteinberger86), [Weiss](#Weiss))
 
+### Category of CW-spectra
+There is an obvious category of CW-spectra given as the full subcategory $CWSpec'$ of $SeqSpec(Top)$ consisting of the CW-spectra, ie. a morphism of CW-spectra $f: X \to Y$ is given by levelwise maps $f_n: X_n \to F_n$ that are compatible with the structure maps. In accordance with [Switzer 75, 8.9](Switzer75), we call morphisms in this sense **functions**.
 
+However, often there is a more useful notion of morphisms between CW-spectra. 
+
++-- {: .num_defn}
+###### Definition
+Let $E$ be a CW-spectrum. A **subspectrum** is a CW spectrum $F$ such that each $F_n$ is a subcomplex of $E_n$. A subspectrum is **cofinal** if for each cell $e_n \in E_n$, there is some $m$ such that $\Sigma^m e_n \in F_{n + m}$.
+=--
+
+We can then construct the category $CWSpec$ as the [[localization]] of $CWSpec'$ at the cofinal inclusions. Since the class of cofinal inclusions admit a [[calculus of right fractions]], the cateogry $CWSpec$ has the following concrete description - a morphism $X \to Y$ in $CWSpec$ is given by a function $\tilde{X} \to Y$, where $\tilde{X}$ is some cofinal subspectrum of $X$, quotiented by the relation that two such morphisms $f: \tilde{X} \to Y$ and $f': \tilde{X}' \to Y$ are considered equivalent if there is some further cofinal subspectrum $\tilde{X}'' \subseteq \tilde{X} \cap \tilde{X'}$ such that $f|_{\tilde{X}'} = f'|_{\tilde{X}''}$.
 
 ## Properties
 
