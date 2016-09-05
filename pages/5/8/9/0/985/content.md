@@ -164,5 +164,6 @@ The application of a general Tannakian theorem of Saavaedra Rivano, as corrected
 [[!redirects Grothendieck-Galois theory]]
 [[!redirects Grothendieck?Galois theory]]
 [[!redirects Grothendieck--Galois theory]]
+[[!redirects Galois category]]
 
 category: Galois theory
