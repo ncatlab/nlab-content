@@ -39,7 +39,7 @@ By the completeness theorem, we can always realize types in larger elementary ex
 
 More generally, let $A$ be a subset of the model $M$. If we also allow parameters from $A$ in our formulas, we can form _types over $A$_. We say that a model is $\kappa$-saturated if all types over $A$ for $|A| = \kappa$ are realized.
 
-Saturated models always exist (maybe modulo some large cardinal assumptions.) For example, an $\aleph_0$-saturated elementary extension of the natural numbers equipped with their usual ordering just looks like $\mathbb{N}$ with $\omega$-many copies of $(\mathbb{Z},&lt;)$ stacked on top, each of them comprising points at infinity.
+Saturated models always exist (maybe modulo some large cardinal assumptions.) For example, an $\aleph_0$-saturated elementary extension of the natural numbers $(\mathbb{N}, \leq)$ equipped with their usual ordering just looks like $\mathbb{N}$ with $\omega$-many copies of $(\mathbb{Z}, \leq)$ stacked on top, each of them comprising points at infinity.
 
 In modern model theory it is customary to work in a Grothendieck universe-sized or class-sized _monster model_, so that all types over small parameter sets are realized. Inside a monster $\mathbb{M}$ things often get more explicitly geometric. For example, two tuples $a$ and $b$ in $\mathbb{M}$ will have the same type if and only if they are $\operatorname{Aut}(\mathbb{M})$-conjugate, i.e. lie in the same orbit of the automorphism group of the monster, and in the presence of two constants the syntactic category is Barr-exact (i.e. eliminates [[imaginary element]]s) if and only if all definable sets can be _coded_: for all $X \in \mathsf{Syn}(T),$ there exists a tuple $x$ such that any automorphism which fixes $X$ setwise fixes $x$ pointwise.
 
