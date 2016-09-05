@@ -69,6 +69,21 @@ so $Y^X$ is ind-representable. $\square$
 
 **Remark.** In the above proof, complementation is required to characterize compactness as "every covering of a definable set by an infinite family of definable sets is finitely supported." The same proof works if we replace inner homs with power objects.
 
+## Imaginaries and automorphisms
+Let $M \models T$ be a model. If a formula $\varphi(x_1, x_2)$ is a $0$-definable equivalence relation $E$ (i.e. an [[internal congruence]] in $\mathbf{Def}(T)$) on a definable set $X$, any automorphism $\sigma$ of $M$ must preserve and reflect $E$-equivalence, so that $\sigma$ extends along $X \twoheadrightarrow X/E$ to a permutaton on $X/E$. So automorphisms of models "already see" imaginaries. This can be stated rigorously as: the expansion of a monster model $\mathbb{M}$ of $T$ to a monster model $\mathbb{M}^{\operatorname{eq}}$ of $T^{\operatorname{eq}}$ will have the same automorphism group as $\mathbb{M}$.
+
+To make things concrete, let's consider the structure $(\mathbb{Z}, +)$. Since there is an automorphism which switches signs, the only constant is $0$. So the theory of this structure cannot eliminate imaginaries, since such theories must interpret infinitely many distinct constants.
+
+However, we can tell that this structure has many imaginaries by its rigidity: the above automorphism is the only nontrivial one. This is because any automorphism of $(\mathbb{Z},+)$ must also act on the internal congruences $E_n$ which say
+
+$$x \sim_{E_n} y \iff x \equiv y \text{ mod n} \iff (\exists \ell)\left[x - y = \ell + \dots \text{ (n times) } \dots + \ell\right],$$
+
+that is, must extend along the abelian group epimorphisms $\mathbb{Z} \twoheadrightarrow \mathbb{Z}/n\mathbb{Z}$ for each $n$, and $k \mapsto -k$ is the only one that works.
+
+(It's essentially for this reason that the automorphism group of the [[forgetful functor]] $\mathbf{Grp} \to \mathbf{Set}$ is also $\mathbb{Z}/2 \mathbb{Z}$.)
+
+## References
+
 * Bruno Poizat, _Une th&#233;orie de Galois imaginaire_, J. Symbolic Logic __48__ (1984), no.4, 1151-1170, [MR85e:03083](http://www.ams.org/mathscinet-getitem?mr=727805), [doi](http://dx.doi.org/10.2307/2273680)
 * wikipedia [imaginary element](http://en.wikipedia.org/wiki/Imaginary_element)
 * Anand Pillay, _Some remarks on definable equivalence relations in O-minimal structures_, J. Symbolic Logic __51__ (1986), 709-714, [MR87h:03046](http://www.ams.org/mathscinet-getitem?mr=853850), [doi](http://dx.doi.org/10.2307/2274024)
