@@ -12,7 +12,7 @@
 =--
 =--
 
-# Topos#
+# Contents #
 * table of contents
 {:toc}
 
