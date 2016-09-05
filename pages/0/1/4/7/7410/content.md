@@ -43,7 +43,7 @@ Saturated models always exist (maybe modulo some large cardinal assumptions.) Fo
 
 In modern model theory it is customary to work in a Grothendieck universe-sized or class-sized _monster model_, so that all types over small parameter sets are realized. Inside a monster $\mathbb{M}$ things often get more explicitly geometric. For example, two tuples $a$ and $b$ in $\mathbb{M}$ will have the same type if and only if they are $\operatorname{Aut}(\mathbb{M})$-conjugate, i.e. lie in the same orbit of the automorphism group of the monster, and in the presence of two constants the syntactic category is Barr-exact (i.e. eliminates [[imaginary element]]s) if and only if all definable sets can be _coded_: for all $X \in \mathsf{Syn}(T),$ there exists a tuple $x$ such that any automorphism which fixes $X$ setwise fixes $x$ pointwise.
 
-Stated in this form, it's easy to see that the theory of algebraically closed fields codes at least all finite parameter sets. This paves the way for [[model-theoretic Galois theory]].
+Stated in this form, it's easy to see that the [[theory of algebraically closed fields]] codes at least all finite parameter sets. This paves the way for [[model-theoretic Galois theory]].
 
 ## Examples
 
