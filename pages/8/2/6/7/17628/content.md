@@ -26,7 +26,7 @@ Recall the [[fundamental theorem of Galois theory]] for finite extensions of fie
 
 **Theorem.** For $L/K$ a finite, [[separable field extension|separable]], [[normal field extension]], there is an order-reversing bijective correspondence
 
-$$\operatorname{Sub}_{\mathbf{Grp}} \large( \operatorname{Aut}(L/K)\large) \leftrightarrows \operatorname{Int} \large(L/K\large)$$
+$$\operatorname{Sub}_{\mathbf{Grp}} \left( \operatorname{Aut}(L/K)\right) \leftrightarrows \operatorname{Int} \left(L/K\right)$$
 
 between the subgroups of the group of field automorphisms of $L$ fixing $K$ pointwise, and the intermediate field extensions between $K$ and $L$. The correspondence is given by sending a subgroup to its field of fixed points, and an intermediate extension to its stabilizer subgroup.
 
@@ -69,11 +69,18 @@ Let $\mathbb{M} \models T$ be a [[monster model]]. Let $A$ be a small parameter 
 
 Now, $\operatorname{acl}(A)$ is the colimit of the diagram of finite $A$-definable sets. From [[commutativity of limits and colimits]], we know that whenever $F : \mathbf{C} \to G \text{-} \mathbf{Set}$ is a cofiltered diagram of $G$-sets, then taking orbits of $\underset{\longleftarrow}{\lim}$ commutes with $F$. Dually, if we take automorphism groups, we get:
 
-$$ \operatorname{Aut}\left(\underset{\longrightarrow}{\lim}\right) \simeq \underset{\longleftarrow \left(F(c) \right).$$
+$$ \operatorname{Aut}\left(\underset{\longrightarrow}{\lim} F\right) \simeq \underset{\longleftarrow}{\lim} \left(F(c) \right).$$
 
-So, $\operatorname{Gal}(A)$ is profinite.
+So $\operatorname{Gal}(A)$ is profinite.
 
+### The fundamental theorem of model-theoretic Galois theory
+**Theorem.** Let $T$ be a first-order theory which [[elimination of imaginaries|eliminates imaginaries]], and let $\mathbb{M} \models T$ be a [[monster model|monster]]. Let $A \subseteq \mathbb{M}$ be a small parameter set. Then there is a bijective order-reversing correspondence
 
+$$ \mathsf{Fix} : \operatorname{Sub}_{\text{Krull-closed}}\left(\operatorname{Gal}(A)\right) \leftrightarrows \operatorname{Sub}_{\text{dcl-closed}}\left(\operatorname{acl}(A)/\operatorname{dcl}(A)\right) : \mathsf{Stab}$$
+
+given by taking a subgroup closed in the [[profinite topology]] of $\operatorname{Gal}(A)$ to its fixed points and by taking a definably-closed intermediate extension of $\operatorname{acl}(A)/\operatorname{dcl}(A)$ to its stabilizer.
+
+_Proof._
 ## Examples
 If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recovers the classical fundamental theorem of Galois theory (at least in characteristic zero, since in $\mathsf{ACF}$ there is no way to talk about separability.
 
