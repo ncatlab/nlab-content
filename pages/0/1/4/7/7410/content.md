@@ -18,7 +18,7 @@
 ## Idea
 The [[syntactic category]] of a Boolean coherent theory has a Boolean algebra structure on each of its subobject posets. Types are ultrafilters of the Boolean algebras of subobjects of the maximal objects in these syntactic categories (those corresponding to formulas of the form "$x=x$").
 
-If one tries to add a global point to such a syntactic category (i.e. name a constant) "without changing anything", this point must have a sort (in the sense of type from type theory), and hence must pick out a principal ultrafilter of definable sets which live above it in the subobject lattice. Types tell you what kinds of global points you can add. When you have "all possible" such global points, you're in a _saturated_ monster model.
+If one tries to add a global point to such a syntactic category (i.e. name a constant) "without changing anything", this point must have a sort (in the sense of type from type theory), and hence must pick out a principal ultrafilter of definable sets which live above it in the subobject lattice. Types tell you what kinds of global points you can add. When you have "all possible" such global points plus a homogeneity condition, you're in a saturated [[monster model]].
 
 ## Definition
 Let $M$ be a model (in $\mathbf{Set}$) of a first-order theory. Let $ \overline{m} = (m_1, \dots, m_n)$ be a tuple of elements from that model. The _type_ of $\overline{m}$ is the [[ultrafilter]] of definable sets of the same _sort_ ([[type]] in the sense of type theory, sort in the sense of Makkai's FOLDS) as $\overline{m}$ containing $\overline{m}$.
