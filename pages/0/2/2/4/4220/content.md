@@ -42,7 +42,7 @@ $$ a{x}^2 + 2p{x} + c = 0 $$
 instead of (eq:eqn); then (eq:usual) simplifies to
 $$ x_\pm = \frac{-p \pm \sqrt{p^2 - a{c}}}a $$
 (and similarly for (eq:alt) and (eq:numanal)).
-This is valid even in characteristic $2$, but unfortunately then it is fairly useless, since $2p = 0$.  In fact, (eq:eqn) is [[solvable group|solvable]] in characteristic $2$ only if $b = 0$.
+This is valid even in characteristic $2$, but unfortunately then it is fairly useless, since $2p = 0$.
 
 
 ## References
