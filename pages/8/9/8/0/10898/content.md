@@ -27,7 +27,7 @@
 
 The notion of _category enriched in a bicategory_ is the many-object-generalization of the notion of an [[enriched category]] enriched in a [[monoidal category]] via regarding a [[monoidal category]] as a [[bicategory]] with a single object.
 
-Originally B&#233;nabou; called these _polyads_
+Originally B&#233;nabou called these *polyads*. 
 
 ## Definition
 
