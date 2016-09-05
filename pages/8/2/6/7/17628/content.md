@@ -15,14 +15,14 @@
 ## Idea
 Classical [[Galois theory]] is about the classification of intermediate field extensions in a (field-theoretic) [[algebraic closure]] of a ground field according to the structure of a [[profinite group|profinite automorphism group]].
 
-This can be adapted to the setting of a [[universal domain|monster model]] of any [[first-order theory]] which [[elimination of imaginaries|eliminates imaginaries]]: we can analogously classify [[definable closure|definably closed]] subsets of a [[definable closure|model-theoretic algebraic closure]] of some parameter set according to the structure of a profinite automorphism group.
+This can be adapted to the setting of a [[monster model|universal domain]] of any [[first-order theory]] which [[elimination of imaginaries|eliminates imaginaries]]: we can analogously classify [[definable closure|definably closed]] subsets of a [[definable closure|model-theoretic algebraic closure]] of some parameter set according to the structure of a profinite automorphism group.
 
 In the language of [[Grothendieck's Galois theory]], we can sketch the next two sections as: the category of finite $A$-definable sets in a [[monster model]] $\mathbb{M}$ equipped with the forgetful functor to [[Set]] is a [[Galois category]].
 
 ## The case of finite extensions
 It will be instructive to look at the case of finite extensions first, as the case of infinite extensions will be a version of the same argument but souped-up with formalities about profinite groups.
 
-Recall the [[fundamental theorem of Galois theory]] for finite extensions of fields:
+Recall the fundamental theorem of Galois theory for finite extensions of fields:
 
 **Theorem.** For $L/K$ a finite, [[separable field extension|separable]], [[normal field extension]], there is an order-reversing bijective correspondence
 
@@ -57,32 +57,39 @@ $\mathsf{Stab}$ is left-inverse to $\mathsf{Fix}$: for $H$ a subgroup of $\opera
 
 In particular, since $H.\gamma$ is finite, $c$ is actually $H.\gamma$-definable, hence $A$-definable. Since $A$ is definably closed, $c \in A$, and so $c \in \mathsf{Fix}(H)$. If $g \in \mathsf{Stab}(\mathsf{Fix}(H))$, $g$ in particular fixes $c$, hence $g \in H$, and it's clear that $H \subseteq \mathsf{Stab}(\mathsf{Fix}(H))$. $\square$
 
-## Classifying intermediate extensions inside a model-theoretic algebraic closure
-We'll get the case for infinite extensions by just classifying everything at once.
+## The case for infinite extensions 
+We'll get the case for infinite extensions by just classifying all subextensions of $\operatorname{acl}(A)/\operatorname{dcl}(A)$ at once.
 
 ### The model-theoretic absolute Galois group 
 Let $\mathbb{M} \models T$ be a [[monster model]]. Let $A$ be a small parameter set. $\operatorname{acl}(A)$ is a normal extension of $A$, because every finite $A$-definable set splits into $\operatorname{Aut}(\mathbb{M}/A)$-orbits. The _absolute Galois group_ $\operatorname{Gal}(A)$ of $A$ is $\operatorname{Aut}(\operatorname{acl}(A)/\operatorname{dcl}(A)$.
 
 (For example, in $\mathsf{ACF}$, this recovers the usual absolute Galois group.)
 
-Now, $\operatorname{acl}(A)$ is the colimit of the diagram of finite $A$-definable sets. From [[commutativity of limits and colimits]], we know that whenever $F : \mathbf{C} \to G \text{-} \mathbf{Set}$ is a cofiltered diagram of $G$-sets, then taking orbits of $\underset{\longleftarrow}{\lim}$ commutes with $F$. Dually, if we take automorphism groups, we get:
+Now, $\operatorname{acl}(A)$ is the colimit of the diagram of finite $A$-definable sets. From [[commutativity of limits and colimits]], we know that whenever $F : \mathbf{C} \to G \text{-} \mathbf{Set}$ is a cofiltered diagram of $G$-sets, then taking orbits of $\underset{\longleftarrow}{\lim}F$ is the same as taking a limit of the orbits. Dually, if we take automorphism groups, we get:
 
 $$ \operatorname{Aut}\left(\underset{\longrightarrow}{\lim} F\right) \simeq \underset{\longleftarrow}{\lim} \left(F(c) \right).$$
 
 So $\operatorname{Gal}(A)$ is profinite.
 
 ### The fundamental theorem of model-theoretic Galois theory
+
 **Theorem.** Let $T$ be a first-order theory which [[elimination of imaginaries|eliminates imaginaries]], and let $\mathbb{M} \models T$ be a [[monster model|monster]]. Let $A \subseteq \mathbb{M}$ be a small parameter set. Then there is a bijective order-reversing correspondence
 
 $$ \mathsf{Fix} : \operatorname{Sub}_{\text{Krull-closed}}\left(\operatorname{Gal}(A)\right) \leftrightarrows \operatorname{Sub}_{\text{dcl-closed}}\left(\operatorname{acl}(A)/\operatorname{dcl}(A)\right) : \mathsf{Stab}$$
 
-given by taking a subgroup closed in the [[profinite topology]] of $\operatorname{Gal}(A)$ to its fixed points and by taking a definably-closed intermediate extension of $\operatorname{acl}(A)/\operatorname{dcl}(A)$ to its stabilizer.
+given by taking a subgroup closed in the [[profinite group|profinite topology]] of $\operatorname{Gal}(A)$ to its fixed points and by taking a definably-closed intermediate extension of $\operatorname{acl}(A)/\operatorname{dcl}(A)$ to its stabilizer.
 
 _Proof._ That $\mathsf{Fix}$ is left-inverse to $\mathsf{Stab}$ again follows from being in a monster.
 
+On the other hand, let $H$ be a closed subgroup. $H$ is an intersection of basic open subgroups $H_i$ which are preimages of $\operatorname{Aut}(B_i/A)$, for $B_i$ finite and $A$-definable. Fixing an ordering on the $B_i$ and treating them as tuples, obtain codes $c_i$ for the orbit of each $B_i$ under $\operatorname{Aut}(B_i/A)$. Since each $B_i$ is finite $A-definable$, $c_i$ is $A$-algebraic. The stabilizer of each $c_i$ is precisely $H_i$, so $H = \bigcap_{i \in I} \mathsf{Stab}(c_i)$. Since each $c_i$ is fixed by $H$, whenever $g \in \mathsf{Stab} \left(\mathsf{Fix}(H) \right)$, then in fact $g \in H$. $\square$
+
+## Model theory and the Tannakian formalism
+In the motivating examples (see below) it turns out that Galois (i.e. relative automorphism) groups are themselves definable (i.e. arise as interpretations in the model of internal groups in $\mathbf{Def}(T)$.) In this case what you're taking the Galois group of must formally resemble an [[internal diagram]] on this [[group object|internal group]]; in model theory these are studied as what model theorists call _internal covers_. A structure theorem of Hrushovski makes this correspondence explicit: internal covers are torsors of definable groupoids and vice-versa; see [here](http://arxiv.org/abs/math/0603413).
+
+All internal groups in $\mathbf{Def}(\mathsf{ACF})$ are in fact algebraic groups, so this is reminiscent of reconstruction results arising from [[Tannaka duality]]. As it turns out, one can make this analogy explicit and recover a slightly-weakened version of the Tannakian formalism for algebraic groups using the theory of internal covers; see the paper by Moshe Kamensky [here](https://arxiv.org/abs/0908.0604).
 
 ## Examples
-If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recovers the classical fundamental theorem of Galois theory (at least in characteristic zero, since in $\mathsf{ACF}$ there is no way to talk about separability.
+If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recovers the classical fundamental theorem of Galois theory.
 
 If $T = \mathsf{DCF}$ the [[theory of differentially closed fields]], this recovers [[differential Galois theory]]. (In fact, Kolchin's work was what inspired Poizat to introduce imaginaries and work out classical Galois theory in a model-theoretic setting.)
 
@@ -93,8 +100,14 @@ Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorna
 * [[Galois theory]]
 * [[Grothendieck's Galois theory]]
 * [[elimination of imaginaries]]
-* [[algebraic type]]
+* [[definable closure|algebraic type]]
+* [[Tannaka duality]]
 
 ## References
+* Bruno Poizat, _Une Theorie de Galois Imaginaire_.
+
+* Bruno Poizat, _A Course in Model Theory_.
+
+* Alice Medvedev and Ramin Takloo-Bighash, [_An invitation to model-theoretic Galois theory_](http://arxiv.org/abs/0909.4340)
 
 [[!redirects model theoretic Galois theory]]
