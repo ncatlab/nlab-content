@@ -6,14 +6,14 @@
 
 A _Grothendieck connection_ $\nabla$ is a way to encode the parallel transport of a _flat_ [[connection on a bundle|connection]] along [[infinitesimal object|infinitesimal]] paths.
 
-In the language of [[schreiber:∞-Lie theory|∞-Lie theory]] it is a morphism from the [[schreiber:infinitesimal path ∞-groupoid|infinitesimal path ∞-groupoid]] $\Pi^{inf}(X)$ of a suitable [[space]] $X$ (a [[scheme]] in [[algebraic geometry]] or, more generally, a space in [[synthetic differential geometry]]) to some [[Lie ∞-groupoid]] $A$:
+In the language of [[schreiber:∞-Lie theory|∞-Lie theory]] it is a morphism from the [[infinitesimal path ∞-groupoid]] $\Pi_{inf}(X) \coloneqq \Im(X)$ of a suitable [[space]] $X$ (a [[scheme]] in [[algebraic geometry]] or, more generally, a space in [[synthetic differential geometry]]) to some [[Lie ∞-groupoid]] $A$:
 
 $$
-  \nabla : \Pi^{inf}(X) \to A
+  \nabla : \Pi_{inf}(X) \to A
   \,.
 $$
 
-Here $\Pi^{inf}(X)$ is effectively the [[infinitesimal singular simplicial complex]] of $X$ and $A$ is modeled typically as a [[sheaf]] of [[∞-groupoid]]s as described at [[models for ∞-stack (∞,1)-toposes]].
+Here $\Pi_{inf}(X)$ is effectively the [[infinitesimal singular simplicial complex]] of $X$ and $A$ is modeled typically as a [[sheaf]] of [[∞-groupoid]]s as described at [[models for ∞-stack (∞,1)-toposes]].
 
 This was originally considered by [[Alexander Grothendieck|Grothendieck]] for [[scheme]]s in the context of [[algebraic geometry]] for the case that $A$ is a 1-[[groupoid]] -- but the generalization to [[∞-groupoid]]s in [[synthetic differential geometry]] is immediate.
 
