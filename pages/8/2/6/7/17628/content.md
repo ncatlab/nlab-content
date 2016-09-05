@@ -59,8 +59,19 @@ In particular, since $H.\gamma$ is finite, $c$ is actually $H.\gamma$-definable,
 
 
 
-## Classifying all $\operatorname{dcl}$-closed intermediate extensions of $\operatorname{acl}(K)$ in terms of its profinite automorphism group
+## Classifying intermediate extensions inside a model-theoretic algebraic closure
+We'll get the case for infinite extensions by just classifying everything at once.
 
+### The model-theoretic absolute Galois group 
+Let $\mathbb{M} \models T$ be a [[monster model]]. Let $A$ be a small parameter set. $\operatorname{acl}(A)$ is a normal extension of $A$, because every finite $A$-definable set splits into $\operatorname{Aut}(\mathbb{M}/A)$-orbits. The _absolute Galois group_ $\operatorname{Gal}(A)$ of $A$ is $\operatorname{Aut}(\operatorname{acl}(A)/\operatorname{dcl}(A)$.
+
+(For example, in $\mathsf{ACF}$, this recovers the usual absolute Galois group.)
+
+Now, $\operatorname{acl}(A)$ is the colimit of the diagram of finite $A$-definable sets. From [[commutativity of limits and colimits]], we know that whenever $F : \mathbf{C} \to G \text{-} \mathbf{Set}$ is a cofiltered diagram of $G$-sets, then taking orbits of $\underset{\longleftarrow}{\lim}$ commutes with $F$. Dually, if we take automorphism groups, we get:
+
+$$ \operatorname{Aut}\left(\underset{\longrightarrow}{\lim}\right) \simeq \underset{\longleftarrow \left(F(c) \right).$$
+
+So, $\operatorname{Gal}(A)$ is profinite.
 
 
 ## Examples
@@ -68,12 +79,15 @@ If $T = \mathsf{ACF}$ the [[theory of algebraically closed fields]], this recove
 
 If $T = \mathsf{DCF}$ the [[theory of differentially closed fields]], this recovers [[differential Galois theory]]. (In fact, Kolchin's work was what inspired Poizat to introduce imaginaries and work out classical Galois theory in a model-theoretic setting.)
 
-Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorname{eq}}$ which eliminates imaginaries and hence "admits a Galois theory." This is the [[coherent logic|coherent]] special case of a result Olivia Caramello spells out in very general terms in her monograph [[Topological Galois theory]].
-
+Any theory $T$ can be conservatively interpreted inside a theory $T^{\operatorname{eq}}$ which eliminates imaginaries and hence "admits a Galois theory." This is the [[coherent logic|coherent]] special case of a result Olivia Caramello spells out in very general terms in her monograph on topological (toposic) Galois theory.
 ## Discussion
 
 ## Related concepts
+* [[Galois theory]]
+* [[Grothendieck's Galois theory]]
+* [[elimination of imaginaries]]
+* [[algebraic type]]
 
 ## References
 
-[[!redirects type in model theory]]
+[[!redirects model theoretic Galois theory]]
