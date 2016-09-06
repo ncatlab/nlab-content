@@ -328,7 +328,7 @@ But an object in a reflective subcategory is necessarily isomorphic to its image
 
 ## References
 
-* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.2, p. 196.
+* [[Francis Borceux]], _[[Handbook of Categorical Algebra]]_, vol.1, p. 196.
  {#Borceux}
 
 * [[Jiri Adamek|Ji?í Adamek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_ London Mathematical Society Lecture Note Series 189
