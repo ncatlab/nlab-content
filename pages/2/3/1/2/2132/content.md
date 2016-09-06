@@ -142,6 +142,11 @@ The [[Hodge theorem]] asserts that for a compact K&#228;hler manifold, the canon
 
 ## Related concepts
 
+* [[bilinear form]], [[quadratic form]], [[sesquilinear form]]
+
+* [[symplectic form]], [[Hermitian form]]
+
+
 * **K&#228;hler manifold**, [[hyper-Kähler manifold]], [[quaternionic Kähler manifold]]
 
   * [[Kähler potential]]
