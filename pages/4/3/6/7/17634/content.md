@@ -1,0 +1,1 @@
+A unit vector is a vector with a magnitude of 1.
