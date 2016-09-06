@@ -58,3 +58,5 @@ and Moduli Spaces of Maps_ ([pdf](http://www.math.uga.edu/~davids/DSMScthesis.pd
 
 * J&#252;rgen Hausen, _A generalization of Mumford's geometric invariant theory_ ([pdf](http://www.math.uiuc.edu/documenta/vol-06/22.pdf))
 
+* [[David Rydh]], _Existence and properties of geometric quotients_,
+J. Algebraic Geom. 22 (2013), 629&#8211;669, [publ](http://dx.doi.org/10.1090/S1056-3911-2013-00615-3), [pdf](https://people.kth.se/~dary/quotients20120504.pdf).
