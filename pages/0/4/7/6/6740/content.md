@@ -52,6 +52,7 @@ For this definition (as was remarked above), we need not require that $L \cong P
 
 It seems that there is some notion of completeness that applies here; $L$ should in some sense be 'measurably complete'.  In the point, for example, the [[subsingleton]] $\{* \;|\; P\}$, where $P$ is a truth value, is measurable iff $P$ is true or false, so the supremum of $\{\top \;|\; P\}$ exists in $L$ under the same circumstances.  Figuring this out could allow the definitions through measurable spaces or normal measures to work.
 
+Simpson's theory of [[sigma-locale]]s, see below, is developed in classical framework, but could be a good starting point for a constructive theory, as it avoids the focus on complements.
 
 ## Examples {#examples}
 
@@ -98,6 +99,11 @@ One could, of course, define a garden-variety [[measure]] by requiring continuit
 
 I\'m not entirely sure how this works in constructive mathematics, but $[0,\infty]$ (for a positive measure) would be the space of nonnegative [[lower reals]].
 
+## Related work
+
+This is related to [[sigma-locale]]s.
+
+* Alex Simpson, _Measure, randomness and sublocales_ [link](http://www.sciencedirect.com/science/article/pii/S0168007211001874)
 
 ## References
 
