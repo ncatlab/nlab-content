@@ -59,6 +59,7 @@ Slightly more generally, start with *any* family of partial measurable functions
 
 ... other results such as the [[Radon–Nikodym theorem]] ...
 
+These ideas are elaborated at [[measurable space]] [[Boolean toposes]] and [[Boolean valued model]]s and [[forcing]].
 
 ## Other localizable structures
 
