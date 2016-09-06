@@ -5,7 +5,7 @@
 
 ## Idea
 
-In [[formal logic]] and [[model theory]], _interpretation_ refers to equipping the [[syntax]] of some [[theory]] with a [[semantics]]. Naiively this means finding a model (in the category of sets) for the theory. This is subsumed by treating interpretations as functors out of [[syntactic categories]].
+In [[formal logic]] and [[model theory]], _interpretation_ refers to equipping the [[syntax]] of some [[theory]] with a [[semantics]]. Na&#239;vely this means finding a model (in the category of sets) for the theory. This is subsumed by treating interpretations as functors out of [[syntactic categories]].
 
 ## Definition
 
