@@ -183,7 +183,7 @@ With enough [[supersymmetry]], the torsion constraints (always together with the
 
 ### Relation to CR-geometry
 
-A close [[analogy]] between [[CR geometry]] and [[supergravity]] [[superspacetimes]] (as both being [[torsion of a G-structure|torsion-ful]] [[integrable G-structures]]) is pointed out in ([Lott 01 exposition (4.2)](Lott01)).
+A close [[analogy]] between [[CR geometry]] and [[supergravity]] [[superspacetimes]] (as both being [[torsion of a G-structure|torsion-ful]] [[integrable G-structures]]) is pointed out in ([Lott 01 exposition (4.2)](#Lott01)).
 
 ## Examples
 
