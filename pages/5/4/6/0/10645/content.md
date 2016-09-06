@@ -20,12 +20,16 @@
 {:toc}
 
 
-
 ## Idea
 
 A [[higher chromatic Chern character]] for [[Morava E-theory]].
 
-The construction in ([Torii 03](#Torii03)) produces a map from [[Morava E-theory]] at [[chromatic level]] $(n+1)$ to [[Morava K-theory]] of [[chromatic level]] $n$, tensored over something.  This is induced by degeneration of the corresponding [[formal group laws]].
+The construction in ([Torii 03](#Torii03)) produces a map from [[Morava E-theory]] at [[chromatic level]] $(n+1)$ to [[Morava K-theory]] of [[chromatic level]] $n$, tensored over something.  This is induced by 
+degeneration of the corresponding [[formal group laws]].
+
+## Related concepts
+
+* [[transchromatic character]]
 
 ## References
 
