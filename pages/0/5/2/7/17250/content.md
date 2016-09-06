@@ -32,7 +32,7 @@ Infinite judgements enjoy a rather controversial status in traditional logic but
 
 Due to the influence of Kant's philosophy in the 19th century, one could easily get the impression that the concept of an _infinite judgement_ originated with Kant, however the concept had already a long history in traditional logic going back to the example of _non-man_ as an _indeterminate noun_ in chap. X of Aristotle's _Peri Hermenaias_. In this larger context the most relevant author for Kant was probably J. H. Lambert who gave the _termini infiniti_, how he called them, extensive discussion in his _'Neues Organon'_ (1764) and _'Anlage zur Architectonic'_ (1771).
 
-For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_  , though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and his use of 'ist nichtsterblich' instead which due to German word order fusions with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is slightly more outspoken on the triple distinction which in fact is often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe) who even recommends the less marked 'unsterblich' instead of 'nichtsterblich' (Cohen [1907](#Cohen07), p.48; H&#246;ffe [2003](#Hoeffe03) p.126; cf. Jesiolkiewicz [n.d.](#Jesiol) p.2).
+For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_  , though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and his use of 'ist nichtsterblich' instead which due to German word order fusions with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is slightly more outspoken on the triple distinction which in fact is often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe or M. Wolff) who even recommends the less marked 'unsterblich' instead of 'nichtsterblich' (Cohen [1907](#Cohen07), p.48; H&#246;ffe [2003](#Hoeffe03) p.126; cf. Jesiolkiewicz [n.d.](#Jesiol) p.2).
 
 Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amount to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist' (J&#228;sche-Logik &#167;22).
 
@@ -98,7 +98,11 @@ It goes without saying that all this, and especially the counting in of the taut
 
 R. H. Lotze ([1874](#Lotze74)) in his influential logic assesses infinite judgements negatively calling them an 'obvious nonsense' - _offensichtliche Grillen_ and 'absurd'. He maintains that in actual reasoning they are always replaced by negative judgements.
 
-G. Patzig ([1982](#Patzig82), pp.42f) calls them superfluous from the perspective of modern logic since depending on the definition of 'negation' they can either be subsumed under positive or negative judgements. He suggests that Kant was probably motivated by his triadic scheme since his revision of the traditional table of judgements and categories consisted mainly in the addition of third terms.
+G. Patzig ([1982](#Patzig82), pp.42f) calls them superfluous from the perspective of modern logic since depending on the definition of 'negation' they can either be subsumed under positive or negative judgements. He suggests that Kant was probably motivated by his triadic scheme since his revision of the traditional table of judgements and categories consisted mainly in the addition of third terms.[^uberweg]
+
+[^uberweg]: Already like this: _'Zu der Dreitheilung hat sich Kant durch die Vorliebe f&#252;r die schematische Regelm&#228;ssigkeit seiner Kategorientafel verleiten lassen'_ , F. Ueberweg, _System der Logik_ , Marcus Bonn 1857 (p.154). This unfortunately misses the point that the particular triadic form of the table is indeed crucial for Kant since the completeness of his logic hinges on it and that Kant offers a derivation of the terms.
+
+M. Wolff ([1995](#Wolff95), pp.157-58,290-92), extending a suggestion by C. S. Peirce (1903) who had tentatively hypothesized that Kant follows traditional logic in that existential presuppositions for the subject terms depend on the quality of judgement (positive judgements have existential import whereas negative judgements lack them), views the difference between negative and infinite judgement in the lack of existential import in the former. This squares with a remark by Kant that infinite judgements behave like positive judgements in syllogism and another remark that negative judgement serve only to 'prevent error' without extending knowledge. On the other hand, Kant clearly invokes purely formal thought objects to which the law of excluded middle applies as the context for infinite judgements complying with the property that infinite judgements appear in the context of 'general logic' which applies to possible objects i.e. a context to which the extension of the concepts involved are not yet relevant - note that _anima_ in his example does not correspond to an object that could possibly be given in intuition whence existence can not be predicated of it. In particular, it would seem that for coherence Kant would either have to stick to a surface syntactic definition or propose an intensional conceptual characterization invoking relations between conceptual features along the lines that e.g. an affirmative judgement is one where the features of the predicate concept are contained in the features of the subject concept.
 
 ## The finite verdict
 
@@ -114,7 +118,7 @@ It should have become clear by now that the concept of infinite judgement can co
 
 5. It is also not clear how Kant can prevent the truly infinite cases like _'sella est non mortalis'_ from coinciding (=being logically equivalent) with ordinary negative sentences (cf. Lotze [1874](#Lotze74)). This points to a further ambiguity in Kant, namely that although he works with semantic extension as a metaphor the real difference he targets seems to be rather _procedural_ i.e. the expression do not really differ in extension but in the way the extension is computed (cf. above the remark on Morleyization).
 
-We would like to suggest now that by taking over ideas from Hegel the problems inherent in Kant (dis)appear under a new light. For one, infinite judgements should not be defined surface syntactically, moreover we should allow syntactically positive statements and insist on the disjointness of the spheres i.e. neither should _'anima est immortalis'_ count as infinite nor _'anima est non-mortalis'_. We exclude the latter because it is extensively equivalent to the former and reject the former because its negation _'anima non est immortalis'_ is equivalent to _'anima est mortalis'_ which is a perfectly normal positive poposition. However, the negation of _'sella est non mortalis'_ is the _absurd_ '_sella est mortalis'_ whereas _'sella est immortalis'_ as well as its negation is absurd since they violate the sphere restriction to animated things inherent in _'immortalis'_ or _'mortalis'_.
+We would like to suggest now that by taking over ideas from Hegel the problems inherent in Kant (dis)appear under a new light. For one, infinite judgements should not be defined surface syntactically, moreover we should allow syntactically positive statements and insist on the disjointness of the spheres i.e. neither should _'anima est immortalis'_ count as infinite nor _'anima est non-mortalis'_. We exclude the latter because it is extensively equivalent to the former and reject the former because its negation _'anima non est immortalis'_ is equivalent to _'anima est mortalis'_ which is a perfectly normal positive proposition. However, the negation of _'sella est non mortalis'_ is the _absurd_ '_sella est mortalis'_ whereas _'sella est immortalis'_ as well as its negation is absurd since they violate the sphere restriction to animated things inherent in _'immortalis'_ or _'mortalis'_.
 
 So we arrive at the hypothesis that _a judgement is infinite precisely when its negation is absurd_. This immediately admits trivial identity statements like 'the morning star is the morning star' as infinite while non-trivial statements like 'the morning star is the evening star' are ordinary positive judgements. With some generosity one might even waive Fichte's _'I am'_ as infinite since one might conceive of _'I am not'_ as absurd.
 
@@ -134,21 +138,25 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * [[syllogism]]
 
+## Link
+
+* SEP _Kant's Theory of Judgment_ ([link](http://plato.stanford.edu/entries/kant-judgment/))
+
 ## References
 
 * {#Cohen07} [[Hermann Cohen|H. Cohen]], _Kommentar zu Immanuel Kants Kritik der reinen Vernunft_ , D&#252;rr Leipzig 1907.
 
-* {#FichteI} J. G. Fichte, _Ausgew&#228;hlte Werke in sechs B&#228;nden I_ , Lambert Schneider Darmstadt 2013.
-
-* {#FichteVI} J. G. Fichte, _Ausgew&#228;hlte Werke in sechs B&#228;nden VI_ , Lambert Schneider Darmstadt 2013.
-
 * {#Logik} [[Georg Hegel|G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt a. M. 1986.
+
+* [[Georg Hegel|G. W. F. Hegel]], _Ph&#228;nomenologie des Geistes_ , Suhrkamp Frankfurt a. M. 1986[1807]. (pp.260-62)
 
 * [[Georg Hegel|G. W. F. Hegel]], _Wissenschaft der Logik II_ , Suhrkamp Frankfurt a. M. 1986[1816]. (pp.324ff)
 
+* [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften I_ , Suhrkamp Frankfurt a. M. 1986[1830]. (&#167;173, pp.324ff)
+
 * {#Hoeffe03} O. H&#246;ffe, _Kants Kritik der reinen Vernunft_ , Beck M&#252;nchen 2003. (pp.126-27,148)
 
-* {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_ , pp.419-582 in Kant, _Schriften zur Metaphysik und Logik 2_ , Suhrkamp Frankfurt a. M. 1985{1800].
+* {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_ , pp.419-582 in Kant, _Schriften zur Metaphysik und Logik 2_ , Suhrkamp Frankfurt a. M. 1985[1800].
 
 * {#Jesiol} J. Jesiolkiewicz, _Das unendliche Urteil "Seele ist nichtsterblich" bei Kant_ , ms. University of Munich n.d. . ([pdf](http://www.philosophie.uni-muenchen.de/lehreinheiten/philosophie_1/betreuung/promotionen/jakub_jesiolkiewicz/skizze.pdf))
 
@@ -166,6 +174,10 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * {#McT10} J. & E. McTaggart, _A Commentary on Hegel's Logic_ , Russell&Russell New York 1964[1910].
 
+* {#FichteI} F. Medicus (ed.), _J. G. Fichte - Ausgew&#228;hlte Werke in sechs B&#228;nden I_ , Lambert Schneider Darmstadt 2013[1911].
+
+* {#FichteVI} F. Medicus (ed.), _J. G. Fichte - Ausgew&#228;hlte Werke in sechs B&#228;nden VI_ , Lambert Schneider Darmstadt 2013[1911].
+
 * A. Menne, _Das unendliche Urteil Kants_ , Philosophia Naturalis **19** (1982) pp.151-162.
 
 * {#Patzig82} G. Patzig, _Immanuel Kant: Wie sind synthetische Urteile apriori m&#246;glich?_ , pp.9-70 in Specht (ed.), Grundprobleme der gro&#223;en Philosophen: Philosophie der Neuzeit II, Vandenhoeck G&#246;ttingen 1982. (pp.41-43)
@@ -176,7 +188,7 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * G. Wohlfahrt, _Das unendliche Urteil. Zur Interpretation eines Kapitels aus Hegels 'Wissenschaft der Logik'_ , Z. Phil. Forschung **39** no.1 (1985) pp.85-100.
 
-* M. Wolff, _Die Vollst&#228;ndigkeit der kantischen Urteilstafel_ , Klostermann Frankfurt a. M. 1995.
+* {#Wolff95}M. Wolff, _Die Vollst&#228;ndigkeit der kantischen Urteilstafel_ , Klostermann Frankfurt a. M. 1995.
 
 * [[Noam Zeilberger|N. Zeilberger]], _On the unity of duality_ , APAL **153** (2008) pp.66-96.
 
