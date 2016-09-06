@@ -57,7 +57,7 @@ $$
   \,.
 $$
 
-We give now rules for choices "$[x y z]$" that associate with every string "$x y z$" of symbols in [[type theory]] objects and morphisms in $\mathcal{C}$. A collection of such choices following these rules an _an interpretation_ / a choice of _categorical semantics_ of the type theory in the category $\mathcal{C}$.
+We give now rules for choices "$[x y z]$" that associate with every string "$x y z$" of symbols in [[type theory]] objects and morphisms in $\mathcal{C}$. A collection of such choices following these rules is _an interpretation_ / a choice of _categorical semantics_ of the type theory in the category $\mathcal{C}$.
 
 #### Contexts and type judgements
  {#ContextsAndTypeJudgements}
