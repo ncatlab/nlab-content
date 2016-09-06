@@ -1,6 +1,6 @@
 
 
-* [webpage](http://math.stanford.edu/~dlitt/)
+* [webpage](http://www.daniellitt.com)
 
 ## related $n$Lab entries
 
