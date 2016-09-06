@@ -18,8 +18,15 @@ The h-topology is stronger than the [[etale topology|etale]] and [[proper topolo
 ## See also
 
 * [[motives]]
+* [[qfh-topology]]
+* [[cdh-topology]]
 * [[etale topology]]
 
 ## References
 
+* [[Vladimir Voevodsky]], _Homology of schemes and covariant motives_, thesis, ProQuest LLC, Ann Arbor, MI, pp. 64, 1992, [pdf](https://www.math.ias.edu/vladimir/sites/math.ias.edu.vladimir/files/homology_of_schemes_thesis_published.pdf).
+
 * [[Vladimir Voevodsky]], _Homology of schemes, I_.  1994, K-theory Preprint Archives, [url](http://www.math.uiuc.edu/K-theory/0031/)
+
+* [[David Rydh]], _Submersions and effective descent of &#233;tale morphisms_,
+Bull. Soc. Math. France 138(2) (2010), 181&#8211;230, [publ](http://smf4.emath.fr/Publications/Bulletin/138/html/smf_bull_138_181-230.php), [pdf](https://people.kth.se/~dary/submersion20100305.pdf).
