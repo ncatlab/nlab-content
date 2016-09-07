@@ -510,7 +510,7 @@ $$
 
 ([nForum discussion](http://nforum.mathforge.org/discussion/6403/generality-of-mayervietoris-in-an-infinitytopos-/?Focus=51417#Comment_51417))
 
-+-- {: .proof}
++-- {: .proof #ProofOfHTTArgumentForPullback}
 ###### Proof
 
 By [this discussion](locally+cartesian+closed+infinity,1-category#InternalLogic) we may use [[homotopy type theory]] reasoning. Starting out with the discussion at _[homotopy pullback -- In homotopy type theory](homotopy+pullback#InHomotopyTypeTheory)_ we obtain
