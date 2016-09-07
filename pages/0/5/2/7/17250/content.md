@@ -158,7 +158,7 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 ## References
 
-* {#AL11} A. Ahourioti, M. Van Lambalgen, _A Formalisation of Kant's Transcendental Logic_ , Review of Symbolic Logic **4** no.2 (2011) pp.254-289.
+* {#AL11} A. Achourioti, M. Van Lambalgen, _A Formalisation of Kant's Transcendental Logic_ , Review of Symbolic Logic **4** no.2 (2011) pp.254-289.
 
 * {#Cohen07} [[Hermann Cohen|H. Cohen]], _Kommentar zu Immanuel Kants Kritik der reinen Vernunft_ , D&#252;rr Leipzig 1907.
 
