@@ -83,7 +83,7 @@ The [[coset space]] $SU(2)/2I$ is the [[Poincaré homology sphere]].
 
 ### Group cohomology
 
-The [[group cohomology]] of the binary icosahedral group $SL_2(\mathbb{F}_5)$ with integer coefficients...
+For a little bit about the [[group cohomology]] (or at least the homology) of the binary icosahedral group $SL_2(\mathbb{F}_5)$, see _[Groupprops](#Groupprops)_
 
 
 ## Related concepts
@@ -93,6 +93,8 @@ The [[group cohomology]] of the binary icosahedral group $SL_2(\mathbb{F}_5)$ wi
 ## References
 
 * Wikipedia, _[Icosahedral symmetry](https://en.wikipedia.org/wiki/Icosahedral_symmetry)_
+
+* {#Groupprops} Groupprops, _[Alternating group:A5](http://groupprops.subwiki.org/wiki/Alternating_group:A5)_ _[Group cohomology of algebrating group:A5](http://groupprops.subwiki.org/wiki/Group_cohomology_of_alternating_group:A5)_
 
 * [[Philip Boalch]], _The fifty-two icosahedral solutions to Painlev&#233; VI_, J. Reine Angew. Math. 596 (2006) 183--214 ([arXiv:0406281](http://arxiv.org/abs/math/0406281))
 
