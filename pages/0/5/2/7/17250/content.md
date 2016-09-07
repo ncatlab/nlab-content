@@ -28,9 +28,23 @@ An **infinite judgement**, also called a limitative or indeterminate judgement, 
 
 Infinite judgements enjoy a rather controversial status in traditional logic but have gained importance by being elevated to third position among the qualities of judgement in the table of judgement forms in Kant's _Kritik der reinen Vernunft_ (1781). 
 
+## Preliminaries
+
+Before diving into the various proposals concerning infinite judgement let us chart the territory roughly to get an idea what's at stake. A 'typical' example of an infinite judgement would be _'anima est non mortalis'_ which could be rendered as _'the soul is immortal'_ or _'the soul is not-mortal'_ , so in a first approximation we have to do with expressions containing negative or negated predicate terms and immediately the questions arises how one should treat lexicalized forms like _'immortal'_ vs. rule-produced forms like _'not-mortal'_ and in a wider sense how much grammar a logic concerned with infinite judgements should take into account here.
+
+Next arises the question how _'anima est non mortalis'_ is related to the _negative judgement_ _'anima non est mortalis'_ as well as to the affirmative _'anima est mortalis'_. Intuitively, an infinite judgement ressembles the first by containing a negation and the latter by having a copula that is not modified by a negation, so in a sense an infinite judgement is both negative and positive at the same time.
+
+Proceeding to get a first grip on the semantics of these judgement types let us consider two arbitrary terms A and B: The intended interpretation of an affirmative _A is B_ can be symbolically rendered as $A\cap B=A$, and $A\cap B=\emptyset$ and $A\cap\bar{B}=A$ for negative and infinite judgements, respectively. Obviously, these symbols invite a set-theoretic interpretation and picturing as Venn diagrams. In particular, the situation of the infinite judgement can be visualized by a textured plane containing an oval denoting $A$ and a disjoint oval carved out of the texture denoting $B$ - this situation ressembles the negative judgement in that $A$ and $B$ are disjoint but whereas the containment relation in the case of positive judgements is one between ovals in the infinite judgement the oval $A$ is contained in the infinite unbounded punctured plane!
+
+The set-theoretic interpretation also suggests that negative and infinite judgements are indeed semantically the same! This equivalence underlies the wide-spread dismissal of infinite judgement in traditional or modern logic. Note that one could still accept the extensional equivalence of _A is not B_ and _A is not-B_ but attaching an intensional or procedural sense to the different judgements. Another option is of course to reject the set-theoretic equivalence and attach different interpretations to the negations and complementations involved. 
+
+Note that the set-theoretic picture suggests a first idea on the difference between _'immortal'_ and _'not-mortal'_ in that one could assume that the former is tacitly type-restricted to _animated_ things so that the extension of _'immortal'_ is not the whole plane with mortal things cut out but merely the sphere of animated things with mortal things cut out! This in turn then raises the question whether the infinite judgement _'The soul is not-mortal'_ should be pictured like this as well since the soul is tacitly equipped with a type of animated things to which _'not-mortal'_ could be coerced as a bounded predicate , in other words one could challenge the idea that 'The soul is not-mortal' is an infinite judgement at all!
+
+To sum up: the situation leaves open a lot of options and the way to choose among these might ultimately rely on the things one wants to accomplish with the resulting notion of 'infinite judgement'.
+
 ## Kant on infinite judgements
 
-Due to the influence of Kant's philosophy in the 19th century, one could easily get the impression that the concept of an _infinite judgement_ originated with Kant, however the concept had already a long history in traditional logic going back to the example of _non-man_ as an _indeterminate noun_ in chap. X of Aristotle's _Peri Hermenaias_. In this larger context the most relevant author for Kant was probably J. H. Lambert who gave the _termini infiniti_, how he called them, extensive discussion in his _'Neues Organon'_ (1764) and _'Anlage zur Architectonic'_ (1771).
+Due to the influence of Kant's philosophy in the 19th century, one could easily get the impression that the concept of an _infinite judgement_ originated with Kant, however the concept had already a long history in traditional logic going back to the example of _non-man_ as an _indeterminate noun_ in chap. X of Aristotle's _Peri Hermenaias_. Within this larger context the most relevant author for Kant was probably J. H. Lambert who gave the _termini infiniti_, how he called them, extensive discussion in his _'Neues Organon'_ (1764) and _'Anlage zur Architectonic'_ (1771).
 
 For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_  , though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and his use of 'ist nichtsterblich' instead which due to German word order fusions with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is slightly more outspoken on the triple distinction which in fact is often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe or M. Wolff) who even recommends the less marked 'unsterblich' instead of 'nichtsterblich' (Cohen [1907](#Cohen07), p.48; H&#246;ffe [2003](#Hoeffe03) p.126; cf. Jesiolkiewicz [n.d.](#Jesiol) p.2).
 
@@ -144,6 +158,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 ## References
 
+* {#AL11} A. Ahourioti, M. Van Lambalgen, _A Formalisation of Kant's Transcendental Logic_ , Review of Symbolic Logic **4** no.2 (2011) pp.254-289.
+
 * {#Cohen07} [[Hermann Cohen|H. Cohen]], _Kommentar zu Immanuel Kants Kritik der reinen Vernunft_ , D&#252;rr Leipzig 1907.
 
 * {#Logik} [[Georg Hegel|G. W. F. Hegel]], _Logik f&#252;r die Mittelklasse (1808/09)_ , pp.86-110 in Moldenhauer, Michel (eds.), _Werke 4_ , Suhrkamp Frankfurt a. M. 1986.
@@ -158,7 +174,7 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_ , pp.419-582 in Kant, _Schriften zur Metaphysik und Logik 2_ , Suhrkamp Frankfurt a. M. 1985[1800].
 
-* {#Jesiol} J. Jesiolkiewicz, _Das unendliche Urteil "Seele ist nichtsterblich" bei Kant_ , ms. University of Munich n.d. . ([pdf](http://www.philosophie.uni-muenchen.de/lehreinheiten/philosophie_1/betreuung/promotionen/jakub_jesiolkiewicz/skizze.pdf))
+* {#Jesiol} J. Jesiolkiewicz, _Das unendliche Urteil "Seele ist nichtsterblich" bei Kant_ , ms. University of Munich not dated. ([pdf](http://www.philosophie.uni-muenchen.de/lehreinheiten/philosophie_1/betreuung/promotionen/jakub_jesiolkiewicz/skizze.pdf))
 
 * {#JT02} [[Peter Johnstone|P. T. Johnstone]], _Sketches of an Elephant II_ , Oxford UP 2002. (D1.5.13-14, pp.858ff)
 
