@@ -1,4 +1,13 @@
-[[!redirects tanschromatic character]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+=--
+=--
 
 #Contents#
 * table of contents
@@ -28,3 +37,5 @@ A kind of generalization of [[group characters]] to [[chromatic homotopy theory]
 * [[Tomer Schlank]], [[Nathaniel Stapleton]], _A transchromatic proof of Strickland's theorem_ ([arXiv:1404.0717](http://arxiv.org/abs/1404.0717))
 
 [[!redirects transchromatic characters]]
+
+[[!redirects tanschromatic character]]
