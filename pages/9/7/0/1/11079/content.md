@@ -23,7 +23,7 @@
 ## **Coordinate systems**
  {#CoordinateSystems}
 
-Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archetypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_1}$, hence smooth (and possibly degenerate) [[coordinate transformations]].
+Every kind of _[[geometry]]_ is modeled on a collection of [[generator|archetypical]] basic [[spaces]] and geometric [[homomorphisms]] between them. In [[differential geometry]] the archetypical spaces are the abstract standard [[Cartesian space|Cartesian coordinate systems]], denoted $\mathbb{R}^n$, in every [[dimension]] $n \in \mathbb{N}$, and the geometric homomorphism between them are [[smooth functions]] $\mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, hence smooth (and possibly degenerate) [[coordinate transformations]].
 
 Here we discuss the central aspects of the nature of such abstract coordinate systems in themselves. At this point these are not yet coordinate systems _on_ some other space. That is instead the topic of the next section _[Smooth spaces](#SmoothSpaces)_.
 
