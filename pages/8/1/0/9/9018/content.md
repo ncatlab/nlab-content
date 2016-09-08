@@ -117,6 +117,7 @@ $$
   \tilde g\left(
      d \phi - f \star\phi
   \right)
+  = 0
 $$
 
 for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02, (5.5)](#BilalDerendingerSfetos)), saying that $\phi \propto \star F_7$ exhibits [weak G2-holonomy](G2+manifold#WeakG2Holonomy) with weakness parameter given by the component of the  [[C-field]] on $X_4$.
