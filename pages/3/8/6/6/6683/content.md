@@ -45,7 +45,7 @@ Under  [[holographic duality]] supposed to be related to [[11-dimensional superg
 
 The original article is
 
-* {#ABJM08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_ ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
+* {#ABJM08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
 
 Discussion of extension to [[boundary field theory]] (describing [[M2-branes]] ending on [[M5-branes]]) includes
 
@@ -68,7 +68,7 @@ Discussion of the model as a [[higher gauge theory]] (due to its coupling to the
 
 Classification of the possible [[superpotentials]] via [[representation theory]] is due to 
 
-* Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J.Phys.A42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
+* Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J. Phys. A 42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
 
 and derived from this a classification of the possble [[orbifold]]ing is in
 
