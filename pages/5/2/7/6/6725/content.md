@@ -91,7 +91,7 @@ Reviews are in
 
 Explicit discussion of [[M2-branes]] ending on the HW fixed points and becoming [[heterotic strings]] there is discussed, via the [[BLG model]], in 
 
-* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_ ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
+* {#Lambert15} [[Neil Lambert]], _Heterotic M2-branes_, Physics Letters B Volume 749, 7 October 2015, Pages 363&#8211;367 ([arXiv:1507.07931](http://arxiv.org/abs/1507.07931))
 
 After [[KK-reduction]] to [[5d supergravity]] there is a corresponding 5d mechanism, see the references [there](5-dimensional+supergravity#ReferencesHWCompactification).
 
