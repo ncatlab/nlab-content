@@ -85,6 +85,10 @@ Discussion of [[exotic smooth structures]] on 7-spheres includes
 The explicit construction of exotic 7-spheres by intersecting algebraic varieties with spheres is described in 
 
 * {#Mil2} [[John Milnor]], "Singular points of complex hypersurfaces" , Princeton Univ. Press (1968). 
+
+Discussion of (nearly) [[G2-structures]] on $S^7$ and [[calibrated submanifolds]] includes
+
+* {#Lotay12} [[Jason Lotay]], _Associative Submanifolds of the 7-Sphere_, Proc. London Math. Soc. (2012) 105 (6): 1183-1214 ([arXiv:1006.0361](http://arxiv.org/abs/1006.0361), [talk slides](http://www.homepages.ucl.ac.uk/~ucahjdl/JDLotay_KIAS2011_slides.pdf))
  
 
 [[!redirects 7-spheres]]
