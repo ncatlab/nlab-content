@@ -92,7 +92,12 @@ A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 
 * &#193;lvaro Pelayo, [[Vladimir Voevodsky]], [[Michael Warren]], _A preliminary univalent formalization of the p-adic numbers_ ([arXiv:1302.1207](http://arxiv.org/abs/1302.1207))
 
+The discussion of the differentiation of a converging power series term by term is at
 
+* Tom Gower's blog: [differentiating-power-series](https://gowers.wordpress.com/2014/02/22/differentiating-power-series)
+
+
+category: analysis, algebra
 
 [[!redirects power series]]
 [[!redirects formal power series]]
