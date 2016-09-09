@@ -44,10 +44,7 @@ Let $\alpha_X : X \to Sd(X)$ be a morphism of simplicial complexes that sends a 
 
 This is what it looks like for $X$ the 2-simplex.
  
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26%26%26\\%26%26%26%26\\%26\ar[ruu]\ar[ldd]%26%26\ar[luu]\ar[rdd]%26\\%26%26\ar[lu]\ar[ru]\ar[lld]\ar[rrd]\ar[uuu]\ar[d]%26%26\\%26%26\ar[ll]\ar[rr]%26%26}" />
-
-
+[[sdDelta2r.jpg:pic]]
 
 The simplicial complex which is the 2-simplex has as its poset of simplices the partially ordered set of non-empty subsets of $\{0,1,2\}$.  The subdivided simplex therefore is the flags of that poset. The diagram shows that nerve of the corresponding category, (or rather its dual), as this is the simplicial set that one gets from this. The central vertex is the whole set $\{0,1,2\}$, the vertices on the long edges are the 2-element subsets and the three extremal vertices are the singletons.
 
@@ -106,7 +103,7 @@ A review is in section 3 of
 
 The relation to the [[nerve]] of the [[category of simplices]] is disucssed in 
 
-* R. W. Thomason, _Cat as a closed model category_, Cahiers Topologie G&eacute;om. Diff&eacute;rentielle, 21(3):305&#8211;324, 1980.
+* R. W. Thomason, _Cat as a closed model category_, Cahiers Topologie G&#233;om. Diff&#233;rentielle, 21(3):305&#8211;324, 1980.
  {#Thomason}
 
 [[!redirects subdivisions]]
