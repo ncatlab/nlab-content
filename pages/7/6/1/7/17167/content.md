@@ -25,9 +25,9 @@ The map $\pi: R \to \widehat{R}$ is surjective.
 ###### Proof 
 Since $R$ is compact and $\widehat{R}$ is Hausdorff, the image $\pi(R)$ is closed in $\widehat{R}$, so it suffices to show the image is a [[dense subspace]]. 
 
-So, we are to show that if $U \subseteq \widehat{R}$ is open and [[inhabited set|inhabited]], then there exists $x \in R$ with $\pi(x) \in U$. Let $\pi_I: \widehat{R} \to R/I$ denote a typical component map of the limit cone. A [[basis of a topology|basis]] for the topology of $\widehat{R}$ consists of inhabited finite intersections of the form $U = \pi_{I_1}^{-1}(x_1) \cap \ldots \cap \pi_{I_n}^{-1}(x_n)$ where each $x_k$ is a point of $R/I_k$. 
+So, we are to show that if $U \subseteq \widehat{R}$ is open and [[inhabited set|inhabited]], then there exists $x \in R$ with $\pi(x) \in U$. Let $\pi_I: \widehat{R} \to R/I$ denote a typical component map of the limit cone. A [[basis of a topology|basis]] for the topology of $\widehat{R}$ consists of inhabited finite intersections of the form $U = \pi_{I_1}^{-1}(x_1) \cap \ldots \cap \pi_{I_n}^{-1}(x_n)$ where each $x_k$ is a point of $R/I_k$, so WLOG assume $U$ is of this form. 
 
-Let $x = \langle x_I \rangle_{I \in \mathcal{O}(R)} \in \widehat{R}$ be a point belonging to $U$, and put $J = \bigcap_{i=1}^n I_i$. Then for each $x_i$ the coordinate $x_J$ maps to $x_i$ under the map $R/J \to R/I_i$, precisely because of the compatibility conditions on the coordinates imposed by the limit. Then, letting $x' \in R$ be an element that maps to $x_J$ under $R \to R/J$, the element $\pi(x')$ lies in $U$ and we are done. 
+Let $y = \langle y_I \rangle_{I \in \mathcal{O}(R)} \in \widehat{R}$ be any point belonging to $U$ (so $y_{I_i} = x_i$ for $i = 1, \ldots, n$), and put $J = \bigcap_{i=1}^n I_i$. Then for each $x_i$ the coordinate $y_J$ maps to $x_i$ under the map $R/J \to R/I_i$, precisely because of the compatibility conditions on the coordinates imposed by the limit. Then, letting $y' \in R$ be an element that maps to $y_J$ under $R \to R/J$, the element $\pi(y')$ lies in $U$ and we are done. 
 =-- 
 
 ## Compact rings are totally disconnected 
@@ -45,7 +45,7 @@ Let $R^\ast$ be the [[Pontryagin duality|Pontryagin dual]] of (the additive grou
 
 $$Hom(R, R) \to Hom(R^\ast, R^\ast), \qquad Hom(R^\ast, R^\ast) \to Hom(R^{\ast\ast}, R^{\ast\ast}) \cong Hom(R, R)$$ 
 
-are continuous homomorphisms of topological groups. They are mutually inverse, and so they give an [[isomorphism]] of topological groups. 
+are continuous homomorphisms of topological groups. Using naturality of the isomorphism $R \cong R^{\ast\ast}$, these maps are mutually inverse, and so they give an [[isomorphism]] of topological groups. 
 
 The multiplication map $R \times R \to R$ [[currying|transforms]] to a continuous injection $i: R \to Hom(R, R) \cong Hom(R^\ast, R^\ast)$. As $R$ is compact and $Hom(R^\ast, R^\ast)$ is Hausdorff, the injection $i$ maps $R$ homeomorphically onto its image in $Hom(R^\ast, R^\ast)$, i.e., is a subspace embedding. But $Hom(R^\ast, R^\ast)$ is manifestly a subspace of a product of discrete spaces and hence totally disconnected, so $R$ is totally disconnected as well. (In more detail: if $C \subseteq R$ is connected, then the image of $C$ under the composite 
 
