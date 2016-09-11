@@ -20,9 +20,21 @@
 
 [[Madhav Nori]] invented an original approach to [[mixed motives]], in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortunately his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
 
+The construction of Nori [[motives]] themselves has been generalised to cate-
+gories over a base S by Arapura and Ivorra. Arapura's approach
+is based on [[constructible sheaves]]. His categories allow pull-back and push-
+forward, the latter being a deep result. The same paper also constructs the
+weight filtration on Nori motives and establishes the equivalence between
+Nori motives and Andr&#233; pure motives. Ivorra's approach is based on [[perverse sheaves]]. Compatibility under the [[six functors formalism]] is open in his
+setting [Huber-Stach]{#HS}
+
+It is known that Nori's and Ayoub's Motivic galois groups agree.
+
+The subcategory of 1-motives in Nori motives agrees with Deligne's 1-motives, and hence also with 1-motives in Voevodsky's category.
+
 ## References
 
-* Annette Huber, [[Stefan Müller-Stach]], with contributions of Benjamin Friedrich and Jonas von Wangenheim, [Periods and Nori motives](http://home.mathematik.uni-freiburg.de/arithgeom/preprints/buch/mantel.html), (Book in preparation: first version, September 2015, 323 p. )
+* Annette Huber, [[Stefan Müller-Stach]], with contributions of Benjamin Friedrich and Jonas von Wangenheim, [Periods and Nori motives](http://home.mathematik.uni-freiburg.de/arithgeom/preprints/buch/mantel.html), (Book in preparation: first version, September 2015, 323 p. ){#HS}
 
 * Annette Huber, [[Stefan Müller-Stach]], _On the relation between Nori motives and Kontsevich periods_, [1105.0865](http://arxiv.org/abs/1105.0865)
 
@@ -37,6 +49,16 @@
 * [[Isamu Iwanari]], _Tannakization in derived algebraic geometry_, [arxiv/1112.1761](http://arxiv.org/abs/1112.1761)
 
 * [[Joseph Ayoub]], [[Luca Barbieri-Viale]], _Nori 1-motives_ ([arXiv:1206.5923](http://arxiv.org/abs/1206.5923))
+
+* [[Utsav Choudhury]], [[Martin Gallauer de souza]], _An isomorphism of Motivic galois groups_ ([arXiv:1410.6104](http://arxiv.org/abs/1410.6104))
+
+* [[Joseph Ayoub]], [[Luca Barbieri-Viale]], _Nori 1-motives_, [pdf](https://www.math.uzh.ch/fileadmin/user/ayoub/publikation/N_1_Mot.pdf)
+
+Nori motives over a base S
+
+* [[Florian Ivorra]], _Perverse Nori motives_ ([hal-00978893](https://hal.archives-ouvertes.fr/hal-00978893/document))
+
+* [[Donu Arapura]], _An Abelian category of Motivic sheaves_ ([arXiv:0801.0261](http://arxiv.org/abs/0801.0261))
 
 Characterization of the universality of Nori motives via Barr completion of the [[syntactic category]] of the [[theory]] (in the [[formal logic|formal logical]] sense) of [[singular cohomology]] of [[schemes]] is in
 
