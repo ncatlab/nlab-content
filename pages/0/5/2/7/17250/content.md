@@ -176,6 +176,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * {#Jesiol} J. Jesiolkiewicz, _Das unendliche Urteil "Seele ist nichtsterblich" bei Kant_ , ms. University of Munich not dated. ([pdf](http://www.philosophie.uni-muenchen.de/lehreinheiten/philosophie_1/betreuung/promotionen/jakub_jesiolkiewicz/skizze.pdf))
 
+* K. Jo&#235;l, _Das logische Recht der kantischen Tafel der Urteile_ , Kant- Studien **27** no.1/2 (1922) pp.298-327. ([philpapers](http://philpapers.org/rec/JOLDLR))
+
 * {#JT02} [[Peter Johnstone|P. T. Johnstone]], _Sketches of an Elephant II_ , Oxford UP 2002. (D1.5.13-14, pp.858ff)
 
 * {#KdrV1} I. Kant, _Kritik der reinen Vernunft 1_ , Suhrkamp Frankfurt a. M. 1985[1781, rev. 1787].
@@ -188,21 +190,27 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * {#Lotze74} R. H. Lotze, _Logica - Logik_ , bilingual ed. Bompiani Milano 2010[1874]. (&#167;40, pp.214-16)
 
+* A. Maier, _Kants Qualit&#228;tskategorien_ , Metzner Berlin 1930.
+
 * {#McT10} J. & E. McTaggart, _A Commentary on Hegel's Logic_ , Russell&Russell New York 1964[1910].
 
 * {#FichteI} F. Medicus (ed.), _J. G. Fichte - Ausgew&#228;hlte Werke in sechs B&#228;nden I_ , Lambert Schneider Darmstadt 2013[1911].
 
 * {#FichteVI} F. Medicus (ed.), _J. G. Fichte - Ausgew&#228;hlte Werke in sechs B&#228;nden VI_ , Lambert Schneider Darmstadt 2013[1911].
 
-* A. Menne, _Das unendliche Urteil Kants_ , Philosophia Naturalis **19** (1982) pp.151-162.
+* A. Menne, _Das unendliche Urteil Kants_ , Philosophia Naturalis **19** (1982) pp.151-162. ([digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN510319696_0019%7Clog14))
 
 * {#Patzig82} G. Patzig, _Immanuel Kant: Wie sind synthetische Urteile apriori m&#246;glich?_ , pp.9-70 in Specht (ed.), Grundprobleme der gro&#223;en Philosophen: Philosophie der Neuzeit II, Vandenhoeck G&#246;ttingen 1982. (pp.41-43)
 
 * N. Stang, _Kant on Complete Determination and Infinite Judgement_ , Brit. J. Hist. Phil. **20** no. 6 (2012) pp.1117-1139.
 
+* N. Tennant, _Negation, Absurdity, and Contrariety_ , pp.199-222 in Gabbay, Wansing (eds.), What is Negation?, Kluwer Dordrecht 1999. ([draft](http://u.osu.edu/tennant.9/files/2014/07/nac-2gav3mo.pdf))
+
+* H. Wansing, _Negation_ , pp.415-436 in Goble (ed.), _The Blackwell Guide to Philosophical Logic_ , Blackwell Oxford 2001.
+
 * {#Werck09} G. Werckmeister, _Hegels absoluter Schluss als logische Grundstruktur der Objektivit&#228;t_ , PhD TU Kaiserslautern 2009. ([link](https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2160))
 
-* G. Wohlfahrt, _Das unendliche Urteil. Zur Interpretation eines Kapitels aus Hegels 'Wissenschaft der Logik'_ , Z. Phil. Forschung **39** no.1 (1985) pp.85-100.
+* G. Wohlfahrt, _Das unendliche Urteil. Zur Interpretation eines Kapitels aus Hegels 'Wissenschaft der Logik'_ , Z. Phil. Forschung **39** no.1 (1985) pp.85-100. ([digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN511864582_0039%7Clog12))
 
 * {#Wolff95}M. Wolff, _Die Vollst&#228;ndigkeit der kantischen Urteilstafel_ , Klostermann Frankfurt a. M. 1995.
 
