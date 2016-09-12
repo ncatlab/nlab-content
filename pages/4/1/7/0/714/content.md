@@ -94,7 +94,7 @@ $$
 A morphism $F : (C, \dagger) \to (D, \ddagger)$ of &#8224;-categories -- a **&#8224;-functor** -- is a [[functor]] $F : C \to D$ of the underlying categories, which commutes with the &#8224;-structures in that
 
 $$
-  F \circ \dagger = \ddagger \circ F
+  F \circ \dagger = \ddagger \circ F^{op}
   \,.
 $$
 
