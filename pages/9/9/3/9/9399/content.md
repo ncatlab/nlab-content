@@ -31,9 +31,15 @@ The name "equifibered" comes from the fact that since $\alpha_x$ is a pullback o
 
 There is an evident generalization to natural transformations between [[higher category theory|higher categories]].
 
+## Properties
+
+Given a functor $G:C\to D$, if $C$ has a [[terminal object]] $1$, then to give a functor $F$ and an equifibered transformation $F\to G$ is equivalent to giving a single object $F1$ and a morphism $F1 \to G1$.  The rest of $F$ can then be constructed uniquely by taking pullbacks.  This construction is important in the theory of [[clubs]].
+
 ## Related pages
 
 * [[cartesian monad]]
+* [[club]]
+* [[polynomial functor]]
 * [[van Kampen colimit]]
 
 [[!redirects equifibered natural transformation]]
