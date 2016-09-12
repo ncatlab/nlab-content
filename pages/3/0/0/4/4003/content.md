@@ -19,7 +19,7 @@
 
 The concept of _polynomial functor_ is a [[categorification]] of that of _[[polynomial]]_. 
 
-Polynomial endo-functors are used to encode a class of [[inductive types]] called _[[W-types]]_.
+Polynomial endo-functors are used to encode a class of [[inductive types]] called _[[W-types]]_, and also as the underlying data of [[polynomial monads]].
 
 ## Definition
 
@@ -44,7 +44,7 @@ When $W=Z$, this is a **polynomial endofunctor**.
 
 Sometimes this general notion is called a **dependent polynomial functor**, with "polynomial (endo)functor" reserved for the "one-variable" case, when $W=Z=1$ is the [[terminal object]].
 
-The data $f$, $g$, and $h$ which specify a polynomial functor is sometimes referred to as a **container** (or an **indexed container**, with *container* reserved for the case $W=Z=1$).  Other times *container* is used as a synonym for "polynomial functor".
+The data $f$, $g$, and $h$ that specify a polynomial functor is sometimes referred to as a **container** (or an **indexed container**, with *container* reserved for the case $W=Z=1$).  Other times *container* is used as a synonym for "polynomial functor".  Sometimes the data $f,g,h$ are instead referred to as a **polynomial** to distinguish them from the "polynomial functor" they determine.
 
 If $g$ is an identity, the functor is sometimes called a **linear functor** or a **linear polynomial functor**.  Note that this notion makes sense even if $C$ is not locally cartesian closed; all it needs are [[pullbacks]].  More generally, we can make sense of polynomial functors in any category with pullbacks if we restrict $g$ to be an [[exponentiable morphism]].
 
@@ -115,6 +115,8 @@ $$
 $$
 This bicategory is equivalent to the 2-category whose objects are slice categories of $C$, whose morphisms are polynomial functors regarded as strong functors, and whose 2-morphisms are strength-respecting natural transformations.
 =--
+
+In particular, "being polynomial" is a mere [[stuff, structure, property|property]] of a strong functor between slice categories.  That is, the data $f,g,h$ are uniquely determined, up to isomorphism, by the strong functor they generate.  (Note, though, that the property of "being polynomial" depends on a prior identification of the domain and codomain as being slice categories of some specified ambient category $C$.  In particular, a functor $C/Z \to C/Z$ might be polynomial when its domain and codomain are regarded as slice categories of $C$, but not when they are regarded as slices of $C/Z$ over $1$ --- this happens when $W=Z$ but $h g \neq f$.)
 
 Note that the above bicategory contains, as a locally full sub-bicategory, the usual bicategory of [[spans]].  Thus, as a special case, the bicategory of spans is equivalent to the 2-category of "linear" polynomial functors.  Both of these are instances of [[Lack's coherence theorem]].
 
