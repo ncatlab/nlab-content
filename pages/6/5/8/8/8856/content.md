@@ -1,8 +1,8 @@
 Given a commutative unital ring $k$ and a morphism $D\to C$ of $k$-coalgebras, one can consider the dualized notion of induced module, using the [[cotensor product]] instead of tensor product.
 
 If $D$ is [[flat module|flat]] as a $k$-module (e.g. $k$ is a field),
-and $N$ a left $D$- right $C$-bicomodule,
-then the cotensor product $N \Box M$ is a $D$-subcomodule of
+$N$ is a left $D$- right $C$-bicomodule and $M$ is a left $C$-comodule,
+then the cotensor product $N \Box_C M$ is a $D$-subcomodule of
 $N \otimes_k M$. In particular, under the flatness assumption, if $\pi : D \rightarrow C$ is a surjection of
 coalgebras then $D$ is a left $D$- right $C$-bicomodule
 via $\Delta_D$ and $(\id \otimes \pi) \circ \Delta_D$
