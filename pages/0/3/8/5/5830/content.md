@@ -331,7 +331,7 @@ Early sketches and introductions to the idea of homotopy type theory include
 * [[Thorsten Altenkirch]], [[Thierry Coquand]], _Towards higher dimensional type theory_, Nottingham (2011) ([pdf](http://www.cs.nott.ac.uk/~txa/talks/aimxiii.pdf))
 
 
-* {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://www.math.ias.edu/~mshulman/hottminicourse2012/))
+* {#ShulmanCourse} [[Mike Shulman]], _Minicourse on homotopy type theory_, Swansea, April (2012) ([web](http://home.sandiego.edu/~shulman/hottminicourse2012/))
 
 * {#Voevodsky} [[Vladimir Voevodsky]], _[Univalent foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   
