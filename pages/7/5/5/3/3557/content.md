@@ -21,7 +21,7 @@
 
 ## Idea 
 
-A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equality]]  satisfying an additional property that allows it to interpret [[impredicative logic|impredicative]] [[higher-order logic]] as well. In particular, every tripos gives rise to a corresponding [[topos]]). 
+A __tripos__ is a [[first-order hyperdoctrine|first-order hyperdoctrine with equality]]  satisfying an additional property that allows it to interpret [[impredicative logic|impredicative]] [[higher-order logic]] as well. In particular, every tripos gives rise to a corresponding [[topos]]. 
 
 The notion of tripos, due to [[Andrew Pitts]], is useful for giving a unified account of two very different classes of toposes: [[localic topos|localic toposes]] and [[realizability topos|realizability toposes]]. 
 
@@ -44,13 +44,13 @@ Another way of phrasing the definition is that to each object $c$ of $C_T$ there
 
 $$\hom(-, P c) \to {|Pred_T|}(c \times -)$$ 
 
-of set-valued functors; the [[predicate]] $in_c$ is the value of $id_c$ under the assigned epimorphism $\hom(P c, P c) \to {|Pred_T(c \times P c)|}$ ( _&#224; la_ [[Yoneda lemma]] ). 
+of set-valued functors; the [[predicate]] $in_c$ is the value of $id_c$ under the assigned epimorphism $\hom(P c, P c) \to {|Pred_T(c \times P c)|}$ (_&#224; la_ [[Yoneda lemma]]). 
 
 The $in_c$ are called _generic predicates_. In particular, put $P = P 1$ and $in = in_1 \in Pred_T(P)$, with corresponding epimorphism $\hom(-, P) \to {|Pred_T|}$. If $C_T$ is [[cartesian closed category|cartesian closed]], we then have [[epimorphism|epis]]
 
 $$\hom(-, P^c) \cong \hom(-, P) \circ (c \times -)^{op} \to {|Pred_T|} \circ (c \times -)^{op} = {|Pred_T|}(c \times -)$$ 
 
-and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., a generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps).  
+and in this way the single generic predicate $(P, in)$ can be used to generate a generic predicate over $c$, as $(P^c, in_c = (eval_c)^\ast(in))$, i.e., a generic predicate over $c$ is obtained by pulling back along the [[evaluation]] map $eval_c \colon c \times P^c \to P$. (N.B.: this need not reproduce the original generic predicates, but the resulting tripos structure may be compared with the original tripos structure in both directions: there are maps $P c \to P^c$ and $P^c \to P c$, with the generic predicates in the two triposes pulling back to each other along these maps.)  
 
 In practice, the category $C_T$ will indeed often be [[cartesian closed category|cartesian closed]] (frequently taking $C_T = Set$ in fact), and triposes are frequently formed in the manner just described, starting with a generic predicate over $1$ and pulling it back along the maps $eval_c$ to get a generic predicate over any $c$. 
 
