@@ -19,7 +19,7 @@
 ## Idea
 Universal properties are commonly used in mathematics, often without mentioning the word "universal property".
 
-For example, if one were asked to give a map $\mathbb{R} \to \mathbb{R} \times \mathbb{C}$, they might write down something like $x \mapsto (x^2, x + ix)$. In effect, what is done is that a pair of maps $\mathbb{R} \to \mathbb{R}$ and $\mathbb{R} \to \mathbb{C}$ is given, namely $(x \mapsto x^2, x \mapsto x + ix)$. The **universal property** of the [[product]] is says that giving a map to $A \times B$ is the same as giving a map to $A$ and a map to $B$, and moreover this correspondence is [[natural]] in some precise sense.
+For example, if one were asked to give a map $\mathbb{R} \to \mathbb{R} \times \mathbb{C}$, they might write down something like $x \mapsto (x^2, x + ix)$. In effect, what is done is that a pair of maps $\mathbb{R} \to \mathbb{R}$ and $\mathbb{R} \to \mathbb{C}$ is given, namely $(x \mapsto x^2, x \mapsto x + ix)$. The **universal property** of the [[product]] is says that giving a map to $A \times B$ is the same as giving a map to $A$ and a map to $B$, and moreover this correspondence is natural in some precise sense.
 
 Similarly, if we have [[rings]] $R$ and $S$, if we want to extend a [[ring homomorphism]] $R \to S$ to a homomorphism from the [[polynomial ring]] $R[x] \to S$, all we have to do is to specify an element of $S$ that we send $x$ to. In other words, a homomorphism $R[x] \to S$ is the same as a homomorphism $R \to S$ and an element of $S$.
 
