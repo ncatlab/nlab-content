@@ -28,7 +28,7 @@
 
 What are called _Einstein's equations_ are the [[equations of motion]] of gravity: the [[Euler-Lagrange equations]] induced by the [[Einstein-Hilbert action]].
 
-They say that the [[Einstein tensor]] $G$ of the [[metric]]/the [[field (physics)|field]] of [[gravity]] [[equality|equals]] the [[energy-momentum tensor]] $T$ of the remaing [[force]]- and [[matter]]-[[field (physics)|fields]]:
+They say that the [[Einstein tensor]] $G$ of the [[metric]]/the [[field (physics)|field]] of [[gravity]] [[equality|equals]] the [[energy-momentum tensor]] $T$ of the remaining [[force]]- and [[matter]]-[[field (physics)|fields]]:
 
 $$
   G = T
