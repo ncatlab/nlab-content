@@ -47,8 +47,11 @@ A tutorial for use of Agda as an implementation of [[homotopy type theory]] is a
 
 * {#Brunerie} [[Guillaume Brunerie]], _Agda for homotopy type theory_ ([web](https://github.com/guillaumebrunerie/HoTT/tree/master/Agda/tutorial))
  
+* [[Guillaume Brunerie]], _The Agda proof assistant_, slides,  [pdf](http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
 
-* Guillaume Brunerie, _The Agda proof assistant_, slides,  [pdf](http://uf-ias-2012.wikispaces.com/file/view/agda.pdf/390147250/agda.pdf)
+The HoTT-Agda library is at
+
+* github, _[hott-agda](https://github.com/hott/hott-agda/)_
 
 category: software
 [[!redirects agda]]
