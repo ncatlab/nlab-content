@@ -73,12 +73,11 @@ The problem of generic in-stability of moduli of gravity KK-compactifications is
 
 A generic argument for stabilization of compact dimensions in [[type II string theory]] via string winding modes at the self-[[T-duality]] radius is given in
 
-* {#BrandenbergerVafa89} [[Robert Brandenberger]], [[Cumrun Vafa]], Nucl. Phys. B 316, 391  (1989)
+* {#BrandenbergerVafa89} [[Robert Brandenberger]], [[Cumrun Vafa]], _Superstrings In The Early Universe_, Nucl. Phys. B 316, 391  (1989)
 
 * {#WatsonBrandenberger03} Scott Watson, [[Robert Brandenberger]], _Stabilization of Extra Dimensions at Tree Level_, JCAP 0311 (2003) 008 ([arXiv:hep-th/0307044](http://arxiv.org/abs/hep-th/0307044))
 
 * [[Brian Greene]], Daniel Kabat, Stefanos Marnerides, _On three dimensions as the preferred dimensionality of space via the Brandenberger-Vafa mechanism_,   10.1103/PhysRevD.88.043527  ([arXiv:1212.2115](http://arxiv.org/abs/1212.2115))
-
 
 Discussion of moduli stabilization via [[flux compactification]] of and [[non-perturbative effects]] in [[type II string theory]]/[[F-theory]] originates with the influential article ("KKLT")
 
@@ -98,11 +97,16 @@ Further developments include
 
 * [[Frederik Denef]], [[Michael Douglas]], Bogdan Florea, Antonella Grassi, [[Shamit Kachru]], _Fixing All Moduli in a Simple F-Theory Compactification_, Adv.Theor.Math.Phys.9:861-929, 2005 ([arXiv:hep-th/0503124](http://arxiv.org/abs/hep-th/0503124))
 
-* Vijay Balasubramanian, Per Berglund, Joseph P. Conlon, Fernando Quevedo, _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
+* [[Vijay Balasubramanian]], Per Berglund, [[Joseph Conlon]], [[Fernando Quevedo]], _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
+
+
+A variant via K&#228;hler uplifting is
+
+* [[Alexander Westphal]], _de Sitter String Vacua from K&#228;hler Uplifting_, JHEP 0703:102,2007 ([arXiv:hep-th/0611332](https://arxiv.org/abs/hep-th/0611332))
 
 Analogous discussion in [[type IIA string theory]] includes ([Acharya 02](#Acharya02)) and
 
-* Oliver DeWolfe, Alexander Giryavets, [[Shamit Kachru]], Washington Taylor, _Type IIA Moduli Stabilization_ ([arXiv:hep-th/0505160](http://arxiv.org/abs/hep-th/0505160))
+* Oliver DeWolfe, Alexander Giryavets, [[Shamit Kachru]], [[Washington Taylor]], _Type IIA Moduli Stabilization_ ([arXiv:hep-th/0505160](http://arxiv.org/abs/hep-th/0505160))
 
 
 Discussion of volume stabilization of compact dimensions in the context of [[cosmic inflation]] is in
