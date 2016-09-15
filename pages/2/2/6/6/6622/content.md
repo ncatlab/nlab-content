@@ -241,11 +241,11 @@ $$
 It is easily verified that $\rho(u)\geq 0$ for all $u\in W_0$, with
 equality iff $u = w^{(n)}$.  In fact,  $\rho(u)$ is the
 length of the longest directed path (see ahead for what "directed"
-means here) from $u$ to $w^{(n)}$. [Intuitively, the idea is
+means here) from $u$ to $w^{(n)}$. (Intuitively, the idea is
 that if $u=v\otimes w$, then we may first handle $v$, then handle $w$, in
 order to reach $w^{(n_1)}\otimes w^{(n_2)}$ (with $n_1:=len(v)$ and
 $n_2:=len(w)$) but not yet to $w^{(n)}$. Then, by $n_2-1$ additional
-applications of associators, we finally reach $w^{(n)}$.]
+applications of associators, we finally reach $w^{(n)}$.)
 
 We will call any $s\in S$ that involves $\alpha$ a _directed arrow_, and any $s\in S$ 
 that involves $\alpha^{-1}$ an _anti-directed arrow_.  A more precise inductive definition is this:
