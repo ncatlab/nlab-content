@@ -49,7 +49,7 @@ Again by [that proposition](rational+homotopy+theory#HomotopyGroupsFromSullivanG
 
 For instance the [[4-sphere]] has rational homotopy in degree 4 and 7. The one in degree 7 being represented by the [[quaternionic Hopf fibration]].
 
-Hence, even dimensional $n$-spheres are [[rational homotopy equivalence|rationally homotopy equivalent]] to [[Eilenberg-MacLane spaces]] $K(\mathbb{Z},n)$, while odd-dimensional spheres are not.
+Hence, odd dimensional $n$-spheres are [[rational homotopy equivalence|rationally homotopy equivalent]] to [[Eilenberg-MacLane spaces]] $K(\mathbb{Z},n)$, while even-dimensional spheres are not.
 
 ## Related concepts
 
