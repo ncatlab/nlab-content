@@ -1,0 +1,2 @@
+I have been able to contribute a few integer sequences in Online Encyclopedia of Integer Sequences. As an avid mathematics lover thats my only identity and that is why proudly sharing my OEIS user page.
+https://oeis.org/wiki/User:Debapriyay_Mukhopadhyay
