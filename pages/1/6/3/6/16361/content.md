@@ -1,6 +1,7 @@
 
 ## Related $n$Lab entries
 
+* [[quantum chemistry]]
 * [[physics]]
 
 ## References
