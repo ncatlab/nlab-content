@@ -46,6 +46,10 @@ Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond
 
 * Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman|M. Freedman]], Sankar Das Sarma, _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083)
 
+* [[Xiao-Gang Wen]], _An introduction of topological order_ 2009 ([pdf slides](http://dao.mit.edu/~wen/talks/09QHtop.pd), [article](http://dao.mit.edu/~wen/topartS3.pdf))
+
+* Michel Fruchart, David Carpentier, _An Introduction to Topological Insulators_, Comptes Rendus Physique 14 (2013) 779-815 ([arXiv:1310.0255](http://arxiv.org/abs/1310.0255))
+
 ### Early discovery articles
 
 * [[Xiao-Gang Wen]], [_Vacuum Degeneracy of Chiral Spin State in Compactified Spaces_](http://dao.mit.edu/~wen/pub/dgn.pdf), Phys. Rev. B, 40, 7387 (1989).
