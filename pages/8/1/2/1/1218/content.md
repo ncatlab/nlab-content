@@ -512,7 +512,7 @@ amplifies the point that diffeological spaces are [[concrete sheaves]].
 
 A textbook about [[differential geometry]] formulated in terms of diffeological spaces is 
 
-* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://www.umpa.ens-lyon.fr/~iglesias/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
+* {#PIZ} [[Patrick Iglesias-Zemmour]], _Diffeology_, Mathematical Surveys and Monographs, AMS (2013) ([web](http://math.huji.ac.il/~piz/Site/The%20Book.html), [publisher](http://www.ams.org/bookstore-getitem/item=SURV-185))
  
 The term "diffeological space" originates in the work of this author.
 
