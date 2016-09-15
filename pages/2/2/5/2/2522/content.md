@@ -318,6 +318,10 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 ### Textbooks and lectures
  {#ReferencesTextbooksAndLectures}
 
+Physics introductions include
+
+* Stephen P. Martin, _A Supersymmetry Primer_ ([arXiv:hep-ph/9709356](http://arxiv.org/abs/hep-ph/9709356))
+
 More mathematical accounts include
 
 * [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
