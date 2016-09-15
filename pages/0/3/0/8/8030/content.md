@@ -15,11 +15,24 @@
 
 ## Idea
 
-In [[physics]], _moduli stabilization_ refers to designing of [[models (in theoretical physics)]] that invoke the [[Kaluza-Klein mechanism]] (in order to obtain an [[effective QFT]] of [[gravity]] and [[gauge theory]] in low dimensions from a theory of gravity in higher dimensions) in a way such that the "moduli" fields that appear by the mechanism but which are unwanted in the model (since they do not correspond to [[phenomenology|observed]] [[field (physics)|fields]]) end up having high [[masses]], so that the KK-model is consistent with observation at presently available energies (with the [[standard model of particle physics]]).
+In [[physics]], _moduli stabilization_ refers to the problem of rendering [[Kaluza-Klein compactifications]] stable.
+
+A [[Kaluza-Klein compactification]] is a [[model (physics)|model]] of [[gravity]] where [[spacetime]] is assumed to be a higher dimensional [[fiber bundle]], with [[compact topological space|compact]] [[fibers]] of tiny extension, such that the resulting physics looks effectively lower-dimensional, but inheriting extra [[field (physics)|fields]]. Namely the size and shape of the compactified extra dimension is encoded in the [[Riemannian metric]], hence in the field of gravity, hence are themselves dynamical fields. Since these fields parameterize the [[moduli space]] of the KK-compactification, they are called _[[moduli fields]]_. 
+
+The problem of _moduli stabilization_ is the problem of identifying mechanisms or conditions that ensure that as these fields dynamically evolve, the compact spatial dimensions remain stably so, neither opening up nor collapsing. For [[phenomenology|phenomenoloigcally]] realistic KK-compactifications the compact volume has to stably be a tiny but finite value ("volume stabilization").
+
+
+Equivalently, since fast varying moduli appear as light or massless [[particles]] in the low-dimensional [[effective field theory]] which would show up in accelerator [[experiments]] (such as the [[LHC]]) but don't, the problem is to identify mechanisms or conditions that would render these moduli fields massive.
+
+In [[classical field theory]] of [[gravity]] then KK-compactifications are argued ([Penrose 03, section 10.3](#Penrose03)) to generically be unstable by the [[Penrose-Hawking singularity theorem]]. 
+
+In [[string theory]] it is argued that string theoretic effects may stabilize the compact dimensions, namely a combination of [[flux compactification]] and [[non-perturbative effect|non-perturbative]] [[brane]] effects ([Acharya 02](#Acharya02), [KKLT 03](#KKLT03)). However, these arguments typically focus on fluctuations that preserve given [[special holonomy]] ([[supersymmetry and Calabi-Yau manifolds|Calabi-Yau 3-folds]] in type II or [[M-theory on G2-manifolds|G2-manifolds in M-theory]]). There is also a more generic argument for volume compactification by string winding modes ("Brandenberger-Vafa mechanism" [Brandenberger-Vafa 89](#BrandenbergerVafa89), [Watson-Brandenberger 03](#WatsonBrandenberger03)) and the claim ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) that in the non-perturbative [[IKKT model]] computer simulations show a spontaneous stable compactification to 3+1 dimensions.
 
 ## In string theory
 
-The issue arises notably in [[string theory]] [[Kaluza-Klein compactifications]]. In the context of [[type II string theory]] one way to design the [[model (in theoretical physics)|model]] such that the moduli fields are massive is to consider the case where [[higher gauge field|higher]] [[background gauge fields]] [[vacuum expectation value|vacuum expectation values]] (VEVs) $F_p$ are present on the compactification space.  Since these fields are characterized by their higher [[field strength]]/[[curvature]] forms which are referred to as "[[flux]]" terms in physics, these models are called **[[flux compactification]]** models ([KKLT 03](#KKLT03)).
+The issue of stabilization of compact dimensions arises notably in [[string theory]] [[Kaluza-Klein compactifications]]. 
+
+In the context of [[type II string theory]] one way to design the [[model (in theoretical physics)|model]] such that the moduli fields are massive is to consider the case where [[higher gauge field|higher]] [[background gauge fields]] [[vacuum expectation value|vacuum expectation values]] (VEVs) $F_p$ are present on the compactification space.  Since these fields are characterized by their higher [[field strength]]/[[curvature]] forms which are referred to as "[[flux]]" terms in physics, these models are called **[[flux compactification]]** models ([KKLT 03](#KKLT03)).
 
 Because the standard [[kinetic action]] term
 
@@ -47,9 +60,27 @@ The moduli stabilization in ([KKLT 03](#KKLT03)) was demonstrated in two steps. 
 
 ## References
 
-### In type IIB string theory
+### In field theory
 
-Discussion of moduli stabilization in [[type II string theory]]/[[F-theory]] includes the influential article ("KKLT")
+The problem of generic in-stability of moduli of gravity KK-compactifications is highlighted in
+
+* {#Penrose03} [[Roger Penrose]], section 10.3 in _On the stability of extra space dimensions_ in Gibbons, Shellard, Rankin (eds.) _The Future of Theoretical Physics and Cosmology_, Cambridge (2003) ([spire](https://inspirehep.net/record/608935/))
+
+### In string theory
+
+
+#### In type II string theory
+
+A generic argument for stabilization of compact dimensions in [[type II string theory]] via string winding modes at the self-[[T-duality]] radius is given in
+
+* {#BrandenbergerVafa89} [[Robert Brandenberger]], [[Cumrun Vafa]], Nucl. Phys. B 316, 391  (1989)
+
+* {#WatsonBrandenberger03} Scott Watson, [[Robert Brandenberger]], _Stabilization of Extra Dimensions at Tree Level_, JCAP 0311 (2003) 008 ([arXiv:hep-th/0307044](http://arxiv.org/abs/hep-th/0307044))
+
+* [[Brian Greene]], Daniel Kabat, Stefanos Marnerides, _On three dimensions as the preferred dimensionality of space via the Brandenberger-Vafa mechanism_,   10.1103/PhysRevD.88.043527  ([arXiv:1212.2115](http://arxiv.org/abs/1212.2115))
+
+
+Discussion of moduli stabilization via [[flux compactification]] of and [[non-perturbative effects]] in [[type II string theory]]/[[F-theory]] originates with the influential article ("KKLT")
 
 * {#KKLT03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
 
@@ -61,22 +92,35 @@ Review includes
 
 * [[Renata Kallosh]], _Stabilization of moduli in string theory_, lectures 2005 ([part I pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureI.pdf), [part II pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureII.pdf))
 
+* [[Joseph Conlon]], _Moduli Stabilisation and Applications in IIB String Theory_, Fortsch.Phys.55:287-422,2007 ([arXiv:hep-th/0611039](http://arxiv.org/abs/hep-th/0611039))
+
 Further developments include
 
 * [[Frederik Denef]], [[Michael Douglas]], Bogdan Florea, Antonella Grassi, [[Shamit Kachru]], _Fixing All Moduli in a Simple F-Theory Compactification_, Adv.Theor.Math.Phys.9:861-929, 2005 ([arXiv:hep-th/0503124](http://arxiv.org/abs/hep-th/0503124))
 
-
 * Vijay Balasubramanian, Per Berglund, Joseph P. Conlon, Fernando Quevedo, _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
-
-### In type IIA string theory
 
 Analogous discussion in [[type IIA string theory]] includes ([Acharya 02](#Acharya02)) and
 
 * Oliver DeWolfe, Alexander Giryavets, [[Shamit Kachru]], Washington Taylor, _Type IIA Moduli Stabilization_ ([arXiv:hep-th/0505160](http://arxiv.org/abs/hep-th/0505160))
 
 
+Discussion of volume stabilization of compact dimensions in the context of [[cosmic inflation]] is in
 
-### In M-theory
+* Jonathan P. Hsu, [[Renata Kallosh]], _Volume Stabilization and the Origin of the Inflaton Shift Symmetry in String Theory_, JHEP 0404 (2004) 042 ([arXiv:hep-th/0402047](http://arxiv.org/abs/hep-th/0402047))
+
+
+
+In 
+
+* {#KimNishimuraTsuchiya12} S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Expanding (3+1)-dimensional universe from a Lorentzian matrix model for superstring theory in (9+1)-dimensions_, Phys. Rev. Lett. 108, 011601 (2012), ([arXiv:1108.1540](https://arxiv.org/abs/1108.1540)).
+
+* S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Late time behaviors of the expanding universe in the IIB matrix model_, JHEP 10, 147 (2012), ([arXiv:1208.0711](https://arxiv.org/abs/1208.0711)).
+
+it is claimed that computer simulation shows that the [[IKKT matrix model]] description of, supposedly, non-perturbative type II string theory exhibits spontanous decompactification of 3+1 large dimensions, with the other 6 remaining tiny.
+
+
+#### In M-theory
  {#ReferencesInMTheory}
 
 Discussion of moduli stabilization in [[M-theory on G2-manifolds]] for stabilization via "[[flux]]" (non-vanishing bosonic  [[field strength]] of the [[supergravity C-field]]) is in
@@ -95,7 +139,8 @@ and specifically for the [[G2-MSSM]] in
 
 * [[Bobby Acharya]], Konstantin Bobkov, [[Gordon Kane]], [[Piyush Kumar]], Jing Shao, _The $G_2$-MSSM - An $M$ Theory motivated model of Particle Physics_ ([arXiv:0801.0478](http://arxiv.org/abs/0801.0478))
 
-### In heterotic string theory
+
+#### In heterotic string theory
 
 Discussion of moduli stabilization in [[heterotic string theory]] includes
 
@@ -106,3 +151,6 @@ Discussion of moduli stabilization in [[heterotic string theory]] includes
 
 
 [[!redirects moduli stabilizations]]
+
+[[!redirects Brandenberger-Vafa mechanism]]
+[[!redirects Brandenberger-Vafa mechanisms]]
