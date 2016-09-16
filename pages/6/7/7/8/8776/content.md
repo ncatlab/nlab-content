@@ -97,6 +97,14 @@ asymptotically flat.)
 
 ## References
 
+Construction of 5d [[gauged supergravity]] via [[D'Auria-Fré formulation of supergravity]] is in 
+
+* {#ACFG01} Laura Andrianopoli, Francesco Cordaro, [[Pietro Fré]], Leonardo Gualtieri, _Non-Semisimple Gaugings of D=5 N=8 Supergravity and FDA.s_, Class.Quant.Grav. 18 (2001) 395-414 ([arXiv:hep-th/0009048](http://arxiv.org/abs/hep-th/0009048))
+
+surveyed in
+
+* Laura Andrianopoli, Francesco Cordaro, [[Pietro Fré]], _Non-Semisimple Gaugings of D=5 N=8 Supergravity_, Fortsch.Phys.49:511-518,2001 ([arXiv:hep-th/0012203](http://arxiv.org/abs/hep-th/0012203))
+
 ### General
 
 Basic discussion includes
@@ -108,6 +116,8 @@ Basic discussion includes
 * W. D. Linch III, Markus A. Luty, J. Phillips, _Five dimensional supergravity in $N = 1$ superspace_, Phys.Rev.D68:025008,2003 ([arXiv:hep-th/0209060](https://arxiv.org/abs/hep-th/0209060))
 
 * {#GGHPR02} [[Jerome Gauntlett]], [[Jan Gutowski]], [[Christopher Hull]], Stathis Pakis, [[Harvey Reall]], _All supersymmetric solutions of minimal supergravity in five dimensions_, Class.Quant.Grav. 20 (2003) 4587-4634 ([arXiv:hep-th/0209114](http://arxiv.org/abs/hep-th/0209114))
+
+* Sorin Cucu, _From M-theory to D=5 supergravity and duality-symmetric theories_ ([arXiv:hep-th/0310105](http://arxiv.org/abs/hep-th/0310105))
 
 * [[Eric Bergshoeff]], Sorin Cucu, Tim de Wit, Jos Gheerardyn, Stefan Vandoren, [[Antoine Van Proeyen]], _$N=2$ supergravity in five dimensions revisited_ ([arXiv:hep-th/0403045](http://arxiv.org/abs/hep-th/0403045))
 
@@ -130,12 +140,15 @@ Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includ
 * Arnaud Baguet, [[Olaf Hohm]], [[Henning Samtleben]], _Consistent Type IIB Reductions to Maximal 5D Supergravity_ ([arXiv:1506.01385](https://arxiv.org/abs/1506.01385))
 
 ### Gauged sugra
+ {#ReferencesGauged}
 
-For 5d [[gauged supergravity]]:
+The maximal 5d [[gauged supergravity]] was first constructed in 
 
-* M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
+*  M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
 
 * M. Gunaydin,  L.J. Romans, N.P. Warner, _Compact and Noncompact Gauged Supergravity Theories in Five-Dimensions_, Nucl.Phys. B272 (1986) 598-646 ([spire](https://inspirehep.net/record/219727?ln=en))
+
+See ([ACFG 01](#ACFG01)).
 
 * Murat Gunaydin, Marco Zagermann, _The Gauging of Five-dimensional, $N=2$ Maxwell-Einstein Supergravity Theories coupled to Tensor Multiplets_,  	Nucl.Phys.B572:131-150,2000 ([arXiv:hep-th/9912027](https://arxiv.org/abs/hep-th/9912027))
 
