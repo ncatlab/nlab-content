@@ -20,8 +20,7 @@
 
 [[Madhav Nori]] invented an original approach to [[mixed motives]], in the spirit of Tannakian theory, but based on a specific [[Nori's Tannakian theorem]]. Unfortunately his original work, which has been lectured on some summer schools and conferences is not widely available in written form. [[Maxim Kontsevich]] based his approach to [[period]]s and their appearance in [[deformation quantization]] partly on Nori's insight. 
 
-The construction of Nori [[motives]] themselves has been generalised to cate-
-gories over a base S by Arapura and Ivorra. Arapura's approach
+The construction of Nori [[motives]] themselves has been generalised to categories over a base S by Arapura and Ivorra. Arapura's approach
 is based on [[constructible sheaves]]. His categories allow pull-back and push-
 forward, the latter being a deep result. The same paper also constructs the
 weight filtration on Nori motives and establishes the equivalence between
