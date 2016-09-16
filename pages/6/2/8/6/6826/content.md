@@ -42,15 +42,26 @@ Some examples are discussed at
 
 ## References
 
-Reviews include
+Review include
+
+* Martin Weidner, _Gauged Supergravities in Various Spacetime Dimensions_, Fortsch.Phys.55:843-945,2007 ([arXiv:hep-th/0702084](http://arxiv.org/abs/hep-th/0702084))
 
 * {#Samtleben08} [[Henning Samtleben]], _Lectures on Gauged Supergravity and Flux Compactifications_ ([arXiv:0808.4076](http://arxiv.org/abs/0808.4076))
 
-* {#Roest04} Diederik Roest, _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
+Discussion of the origin in [[KK-compactification]] of [[11-dimensional supergravity]]/[[M-theory]] is in
+
+* {#Roest04} [[Diederik Roest]], _M-theory and Gauged Supergravities_, Fortsch.Phys.53:119-230,2005 ([arXiv:hep-th/0408175](http://arxiv.org/abs/hep-th/0408175))
 
 Maximally gauged [[4d supergravity]] was first discussed in
 
 * [[Bernard  de Wit]], [[Hermann Nicolai]], _$N = 8$ supergravity_, Nucl. Phys. B208 (1982) 323
+
+and gauged [[5d supergravity]] in 
+
+* M. G&#252;naydin, L.J. Romans and N.P. Warner, _Gauged $N = 8$ Supergravity in Five Dimensions_, Phys. Lett. 154B, (1985) 268; _Compact and Non&#8211;Compact Gauged Supergravity Theories in Five Dimensions_, Nucl. Phys. B272 (1986) 598
+
+*  M. Pernici, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauged $N=8$ $D=5$ Supergravity_, Nucl.Phys. B259 (1985) 460 ([spire](https://inspirehep.net/record/16067?ln=en))
+
 
 Discussion in the context of [[flux compactification]] of [[type II superstring theory]] includes
 
@@ -63,6 +74,6 @@ Discussion in the context of the [[D'Auria-Fré formulation of supergravity]] is
 
 Discussion related to [[orbifold]] singularities includes
 
-* Richard Corrado, Murat Gunaydin, Nicholas P. Warner, Marco Zagermann, _Orbifolds and Flows from Gauged Supergravity_, Phys.Rev.D65:125024,2002 ([arXoiv:hep-th/0203057](http://arxiv.org/abs/hep-th/0203057))
+* Richard Corrado, Murat Gunaydin, Nicholas P. Warner, Marco Zagermann, _Orbifolds and Flows from Gauged Supergravity_, Phys.Rev.D65:125024,2002 ([arXiv:hep-th/0203057](http://arxiv.org/abs/hep-th/0203057))
 
 [[!redirects gauged supergravities]]
