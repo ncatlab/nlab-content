@@ -87,22 +87,24 @@ which led to a little burst of discussion of the [[landscape of string theory va
 
 * {#KachruPearsonVerlinde01} [[Shamit Kachru]], J. Pearson, [[Herman Verlinde]], _Brane/Flux Annihilation and the String Dual of a Non-Supersymmetric Field Theory_, JHEP 0206 (2002) 021 ([arXiv:hep-th/0112197](http://arxiv.org/abs/hep-th/0112197))
 
-Review includes
-
-* [[Renata Kallosh]], _Stabilization of moduli in string theory_, lectures 2005 ([part I pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureI.pdf), [part II pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureII.pdf))
-
-* [[Joseph Conlon]], _Moduli Stabilisation and Applications in IIB String Theory_, Fortsch.Phys.55:287-422,2007 ([arXiv:hep-th/0611039](http://arxiv.org/abs/hep-th/0611039))
-
 Further developments include
 
 * [[Frederik Denef]], [[Michael Douglas]], Bogdan Florea, Antonella Grassi, [[Shamit Kachru]], _Fixing All Moduli in a Simple F-Theory Compactification_, Adv.Theor.Math.Phys.9:861-929, 2005 ([arXiv:hep-th/0503124](http://arxiv.org/abs/hep-th/0503124))
 
 * [[Vijay Balasubramanian]], Per Berglund, [[Joseph Conlon]], [[Fernando Quevedo]], _Systematics of Moduli Stabilisation in Calabi-Yau Flux Compactifications_,  JHEP 0503:007,2005 ([arXiv:hep-th/0502058](http://arxiv.org/abs/hep-th/0502058))
 
-
 A variant via K&#228;hler uplifting is
 
 * [[Alexander Westphal]], _de Sitter String Vacua from K&#228;hler Uplifting_, JHEP 0703:102,2007 ([arXiv:hep-th/0611332](https://arxiv.org/abs/hep-th/0611332))
+
+Review includes
+
+* [[Renata Kallosh]], _Stabilization of moduli in string theory_, lectures 2005 ([part I pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureI.pdf), [part II pdf ](http://web.stanford.edu/~rkallosh/Talks/LectureII.pdf))
+
+* [[Joseph Conlon]], _Moduli Stabilisation and Applications in IIB String Theory_, Fortsch.Phys.55:287-422,2007 ([arXiv:hep-th/0611039](http://arxiv.org/abs/hep-th/0611039))
+
+* Sibasish Banerjee, _Calabi-Yau compactification of type II string theories_ ([arXiv:1609.04454](http://arxiv.org/abs/1609.04454))
+
 
 Analogous discussion in [[type IIA string theory]] includes ([Acharya 02](#Acharya02)) and
 
