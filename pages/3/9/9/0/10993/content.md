@@ -8,9 +8,13 @@
 
 A _relative monad_ is what is to a _[[relative adjunction]]_ as a [[monad]] is to an [[adjunction]].
 
+## Related pages
+
+* [[relative comonad]]
+
 ## References
 
-Discussion with an eyey towards [[monad (in computer science)|monads in computer science]] is in 
+Discussion with an eye towards [[monad (in computer science)|monads in computer science]] is in 
 
 * [[Thorsten Altenkirch]], James Chapman, Tarmo Uustalu, _Monads need not be endofunctors_, Logical methods in computer science ([pdf](http://www.cs.nott.ac.uk/~txa/publ/jrelmon.pdf))
 
