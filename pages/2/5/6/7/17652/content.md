@@ -8,8 +8,12 @@ The basic result of elementary [[Galois theory]] is that $\phi$ is solvable over
 [[!redirects solvable polynomials]]
 [[!redirects solveable polynomial]]
 [[!redirects solveable polynomials]]
+[[!redirects soluble polynomial]]
+[[!redirects soluble polynomials]]
 
 [[!redirects solvable polynomial equation]]
 [[!redirects solvable polynomial equations]]
 [[!redirects solveable polynomial equation]]
 [[!redirects solveable polynomial equations]]
+[[!redirects soluble polynomial equation]]
+[[!redirects soluble polynomial equations]]
