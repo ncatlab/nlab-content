@@ -58,9 +58,14 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ### Geometric construction
 
-discussion in the [[D'Auria-Fre formulation of supergravity]] includes
+Discussion in the [[D'Auria-Fre formulation of supergravity]] includes
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.3.5 and III.4 and V.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+* [[Riccardo D'Auria]], Sergio Ferrara, Mario Trigiante, _Supersymmetric completion of M-theory 4D-gauge algebra from twisted tori and fluxes_,   JHEP0601:081, 2006 ([arXiv:hep-th/0511158](https://arxiv.org/abs/hep-th/0511158))
 
 * Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+
 
 ### On $N=8$ $d=4$ supergravity
 
