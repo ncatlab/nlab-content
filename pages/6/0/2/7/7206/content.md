@@ -56,15 +56,50 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ## References
 
+### Geometric construction
+
+discussion in the [[D'Auria-Fre formulation of supergravity]] includes
+
+* Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+
 ### On $N=8$ $d=4$ supergravity
 
-* [[Zvi Bern]], [[Lance Dixon]], Radu Roiban, _Is $N = 8$ Supergravity Ultraviolet Finite?_ ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
 
-* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], R. Roiban, _Three-Loop Superfiniteness of $N=8$ Supergravity_,  	Phys.Rev.Lett.98:161303, 2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+Evidence for perturbative finiteness of $N=8$ 4d SuGra is discussed in
+
+* [[Zvi Bern]], [[Lance Dixon]], [[Radu Roiban]], _Is $N = 8$ Supergravity Ultraviolet Finite?_, Phys.Lett.B644:265-271,2007 ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
+
+* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], [[Radu Roiban]], _Three-Loop Superfiniteness of N=8 Supergravity_, Phys.Rev.Lett.98:161303,2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+
+and via [[KLT relations]]in 
+
+* {#BCDJR11} [[Zvi Bern]], John Joseph Carrasco, [[Lance Dixon]], Henrik Johansson, [[Radu Roiban]], _Amplitudes and Ultraviolet Behavior of $N=8$ Supergravity_ ([arXiv:1103.1848](http://arxiv.org/abs/1103.1848))
+
+surveyed in 
+
+* [[Radu Roiban]], _Is Perturbative $\mathcal{N}= 8$ Supergravity Finite?_ ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
 
 * [[Lance Dixon]], _Ultraviolet Behavior of $N=8$ Supergravity_ ([arXiv:1005.2703](http://arxiv.org/abs/1005.2703))
 
+* {#FerraraMarrani12} [[Sergio Ferrara]], Alessio Marrani, _Quantum Gravity Needs Supersymmetry_ ([arXiv:1201.4328](http://arxiv.org/abs/1201.4328))
+
+Arguments for finiteness from [[E7]] [[U-duality]] is discussed in
+
+* N. Beisert, H. Elvang, D. Z. Freedman, M. Kiermaier, A. Morales and S. Stieberger, $E_{7(7)}$ Constraints on Counterterms in N= 8 Supergravity_, Phys. Lett. B694, 265 (2010).
+
+Arguments against finiteness to all orders include
+
+* [[Michael Green]], [[Hirosi Ooguri]] and [[John Schwarz]], _Nondecoupling Supergravity from the Superstring_, Phys. Rev. Lett. 99 (2007) 041601.
+ * [[Tom Banks]], _Why I don't Believe N= 8 SUGRA is Finite_, talk at the Workshop "Supergravity versus Superstring Theory in the Ultraviolet", PennState Univ, PA USA, August 27-30 2009.
+
+See also
+
+* [[Renata Kallosh]], _The Ultraviolet Finiteness of $N=8$ Supergravity_, JHEP 1012:009,2010 ([arXiv:1009.1135](http://arxiv.org/abs/1009.1135))
+
 * [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
+
+
+
 
 ### On $N=1$ $d = 4$ supergravity
 
@@ -76,11 +111,9 @@ There are two different off-shell formulations, the "old minimal"
 
 and the "new minimal" supergravity
 
-* V. Akulov, D. Volkov and V. Soroka, Theor. Math. Phys. 31 (1977) 285; M.F. Sohnius
-and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
+* V. Akulov, D. Volkov and V. Soroka, Theor. Math. Phys. 31 (1977) 285; M.F. Sohnius and P.C. West, idem. Phys. Lett. 105B (1981) 353; idem. Nucl. Phys. B198 (1982) 493.
 
-* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and
-its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
+* M.F. Sohnius and P.C. West, `The New Minimal Formulation of N = 1 Supergravity and its Tensor Calculus', Nueld Workshop, 1981:0187 (London, England, Aug. 1981).
 
 * [[Jim Gates]], M. Rocek and [[Warren Siegel]], Nucl. Phys. B198 (1982) 113
 
@@ -103,7 +136,7 @@ Survey includes
 * Wikipedia, _[Supergravity -- 4d N=1](http://en.wikipedia.org/wiki/Supergravity#4D_N_.3D_1_SUGRA)_
 
 
-### Gauged
+### Gauged 4d supergravity
  {#ReferencesGauged}
 
 Discussion of [[gauged supergravity]] in 4d originates around
@@ -112,19 +145,17 @@ Discussion of [[gauged supergravity]] in 4d originates around
 
 (where the [[E7]]-[[U-duality]] group was first seen)
 
-Evidence for perturbative finiteness of $N=8$ 4d SuGra is discussed in
+Discussion of reduction from [[string theory]] includes
 
-* [[Zvi Bern]], [[Lance Dixon]], [[Radu Roiban]], _Is $N = 8$ Supergravity Ultraviolet Finite?_, Phys.Lett.B644:265-271,2007 ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
+* L. Andrianopoli, [[Riccardo D'Auria]], S. Ferrara, M. A. Lledo, _4-D gauged supergravity analysis of Type IIB vacua on $K_3 \times T^2 / \mathbb{Z}_2$_, JHEP 0303:044,2003 ([arXiv:hep-th/0302174](http://arxiv.org/abs/hep-th/0302174))
 
-* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], [[Radu Roiban]], _Three-Loop Superfiniteness of N=8 Supergravity_, Phys.Rev.Lett.98:161303,2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+Perturbative finiteness properties of gauged 4d supergravity from $N = 8$ ungauged 4d supergravity is discussed in [BCDJR 11, p. 24](#BCDJR11):
 
-surveyed in 
+> Another question is whether $N = 8$ supergravity might point the way to other, more realistic finite (or well behaved) theories of quantum gravity, having less supersymmetry and (perhaps) chiral fermions. One step in this direction could be to examine the multiloop behavior of theories that can be thought of as spontaneously broken gauged $N = 8$ supergravity [73], which are known to have improved ultraviolet behavior at one loop [74].
 
-* [[Radu Roiban]], _Is Perturbative $\mathcal{N}= 8$ Supergravity Finite?_ ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+and [Ferrara-Marrani 12, p. 12](#FerraraMarrani12):
 
-See also
-
-* [[Renata Kallosh]], _The Ultraviolet Finiteness of $N=8$ Supergravity_, JHEP 1012:009,2010 ([arXiv:1009.1135](http://arxiv.org/abs/1009.1135))
+> Another interesting aspect [21] which should be implied by UV finiteness of $N = 8, 6, 5$ supergravity in $D = 4$ dimensions is that their gauged versions should be possibly UV finite, as well. Roughly speaking, this is related to the fact that gauging may be regarded as a spontaneous soft breaking of an unbroken gauge symmetry, and UV properties should not be affected by such a spontaneous breaking, as it happens in the Standard Model of electro-weak interactions.
 
 ### Lift to string theory and M-theory
 
