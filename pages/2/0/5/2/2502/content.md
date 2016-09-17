@@ -341,6 +341,7 @@ A direct constructions of ordinary (Lie algebraic) extensions of the super Poinc
 
 For more on this see at _[[division algebra and supersymmetry]]_.
 
+[[!redirects super Poincare Lie algebras]]
 
 [[!redirects super Poincaré Lie algebra]]
 [[!redirects super Poincaré Lie algebras]]
