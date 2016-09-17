@@ -8,7 +8,7 @@
 
 * [[division algebra and supersymmetry]]
 
-* [[Freudenthal magic square]]
+* [[Freudenthal magic square]], [[magic supergravity]]
 
 * [[M-theory supersymmetry algebra]]
 
