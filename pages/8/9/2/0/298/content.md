@@ -232,5 +232,6 @@ Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.o
 
 [[!redirects vertex algebra]]
 [[!redirects vertex algebras]]
+[[!redirects Vertex operator algebra]]
 
 [[!redirects vertex operator algebras]]
