@@ -19,7 +19,7 @@ In any context it is interesting to ask when a contravariant hom-functor $\opera
 
 _Conceptual completeness_ refers to the result of Makkai and Reyes that in the $2$-category $\mathbf{Pretop}$ of pretoposes, homming into the pretopos [[Set]] $\operatorname{Hom}_{\mathbf{Pretop}}(-,X) : \mathbf{Pretop} \to \mathbf{Cat}$ reflects equivalences.
 
-That is, if $f : T_1 \to T_2$ is a pretopos morphism and $- \circ f : \operatorname{Hom}_{\mathbf{Pretop}}(-, T_2) \to \operatorname{Hom}_{\mathbf{Pretop}}(-,T_1)$ is an equivalence, then $f$ was also. Pretopos morphisms are just [[interpretation|interpretations]] of theories; a pretopos morphism is an interpretation into the [[internal logic]] of [[Set]], and is therefore a [[model]].
+That is, if $f : T_1 \to T_2$ is a pretopos morphism and $- \circ f : \operatorname{Hom}_{\mathbf{Pretop}}(-, T_2) \to \operatorname{Hom}_{\mathbf{Pretop}}(-,T_1)$ is an equivalence, then $f$ was also. Pretopos morphisms are just [[interpretation|interpretations]] of theories; a pretopos morphism is an interpretation into [[Set]] is an interpretion of the source theory into the [[internal logic]] of [[Set]], and is therefore a [[model]].
 
 Since pretoposes are just [[exact completion|effectivizations]] of [[syntactic categories]] of [[first-order theories]], this means: if a functor between the categories of models of $T_1$ and $T_2$ is an equivalence and is induced by an interpretation $T_1 \to T_2$, then that interpretation must be part of a bi-interpretation, i.e. $T_1$ and $T_2$ are equivalent as syntactic categories via pretopos morphisms.
 
