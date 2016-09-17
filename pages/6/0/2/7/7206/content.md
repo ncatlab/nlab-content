@@ -69,6 +69,24 @@ Discussion in the [[D'Auria-Fre formulation of supergravity]] includes
 
 ### On $N=8$ $d=4$ supergravity
 
+* [[Bernard de Wit]], [[Hermann Nicolai]], Phys. Lett. 108 B (1982) 285; 
+
+* [[Bernard de Wit]]. [[Hermann Nicolai]], Nucl. Phys. B208 (1982) 323.
+
+* [[Chris Hull]], Phys. Rev. D30 (1984) 760; 
+
+* [[Chris Hull]], Phys. Lett. 142B (1984)
+
+* [[Chris Hull]], Phys. Lett. 148B (1984) 297; 
+
+* [[Chris Hull]], Physica 15D (1985)
+230; Nucl. Phys. B253 (1985) 650.
+
+* [[Chris Hull]], Class. Quant. Grav. 2 (1985) 343.
+
+* [[Eugene Cremmer]], [[Bernard Julia]], Phys. Lett. 80B (1978) 48; Nucl. Phys. B159 (1979) 141.
+
+* [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
 Evidence for perturbative finiteness of $N=8$ 4d SuGra is discussed in
 
