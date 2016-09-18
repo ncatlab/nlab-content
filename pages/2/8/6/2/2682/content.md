@@ -83,6 +83,8 @@ A review of flux compactifications is for instance in ([Gra&#241;a 05](#Grana05)
 
   * [[Grand Unified Theory]], [[MSSM]]
 
+* [[Brandenberger-Vafa mechanism]]
+
 * [string theory FAQ - Does string theory make predictions?](string+theory+FAQ#HowDoesStringTheoryMakePredictions)
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape of solutions"?](http://ncatlab.org/nlab/show/string+theory+FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
