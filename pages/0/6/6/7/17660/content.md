@@ -45,13 +45,14 @@ horizontal axes label the algebras associated with the number of left and right 
 
 ## References
 
-* {#GunyadinSierraTownsend83} M. Gunaydin, G. Sierra and [[Paul Townsend]], _Exceptional Supergravity Theories and the Magic Square_, Phys. Phys. Lett. B 133, 72 (1983) ([spire](http://inspirehep.net/record/192025/))
+* {#GunyadinSierraTownsend83} [[Murat Gunaydin]], G. Sierra and [[Paul Townsend]], _Exceptional Supergravity Theories and the Magic Square_, Phys. Phys. Lett. B 133, 72 (1983) ([spire](http://inspirehep.net/record/192025/))
 
-* {#GunyadinSierraTownsend84} M. Gunaydin, G. Sierra, [[Paul Townsend]], _The Geometry of $N=2$ Maxwell-Einstein Supergravity and Jordan Algebras_, Nucl.Phys. B242 (1984) 244-268
+* {#GunyadinSierraTownsend84} [[Murat Gunaydin]], G. Sierra, [[Paul Townsend]], _The Geometry of $N=2$ Maxwell-Einstein Supergravity and Jordan Algebras_, Nucl.Phys. B242 (1984) 244-268
 
-* M. Gunaydin, G. Sierra and [[Paul Townsend]], Nucl. Phys. B
+* [[Murat Gunaydin]], G. Sierra and [[Paul Townsend]], Nucl. Phys. B
 253, 573 (1985).
 
+* [[Murat Gunaydin]], S. McReynolds, M. Zagermann, _Unified N=2 Maxwell-Einstein and Yang-Mills-Einstein Supergravity Theories in Four Dimensions_, JHEP 0509:026,2005 ([arXiv:hep-th/0507227](https://arxiv.org/abs/hep-th/0507227))
 
 * Massimo Bianchi, [[Sergio Ferrara]], _Enriques and Octonionic Magic Supergravity Models_,  JHEP 0802:054,2008 ([arXiv:0712.2976](https://arxiv.org/abs/0712.2976))
 
