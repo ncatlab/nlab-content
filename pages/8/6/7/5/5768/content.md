@@ -71,6 +71,9 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 
 > We associate a half-integer number, called the quantum index, to algebraic curves in the real plane satisfying to certain conditions. The area encompassed by the logarithmic image of such curves is equal to $\pi^2$ times the quantum index of the curve. We use the quantum index to refine real enumerative geometry in a way consistent with the Block-G\"ottsche invariants from tropical enumerative geometry.
 
+*  Diane Maclagan, Felipe Rinc&#243;n, _Tropical ideals_, [arxiv/1609.03838](http://arxiv.org/abs/1609.03838)
+
+
 An alternative algebraic framework for tropical mathematics (not based on semirings), "more compatible with valuation theory" has been proposed in
 
 * Zur Izhakian, Manfred Knebusch, Louis Rowen, _Algebraic structures of tropical mathematics_, [arxiv/1305.3906](http://arxiv.org/abs/1305.3906) 
