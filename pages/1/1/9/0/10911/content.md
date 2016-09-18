@@ -23,6 +23,9 @@ It has been argued that for $\mathfrak{g} = \mathfrak{su}(N)$ for large $N$, thi
 
 Several authors have explored the possibility to lift the derivation of the IKKT model from the [[superstring]] to the [[M2-brane]]. See at _[[membrane matrix model]]_ for more on this.
 
+In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that computer simulation of the IKKT matrix model, regarded as non-perturbative [[type IIB string theory]], shows a spontaneous emerging spacetime of macroscopic dimension 3+1, with 6 microscopic dimensions. (A similar claim results from a very different argument: the _[[Brandenberger-Vafa mechanism]]_.)
+
+
 ## Related concepts
 
 * [[BFSS matrix model]]
