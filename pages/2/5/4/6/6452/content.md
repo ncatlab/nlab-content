@@ -32,6 +32,8 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 * C. B. Boyer, _A history of mathematics_, 2nd ed. rev. by Uta C. Merzbach. New York: Wiley, 1989
 * [[Felix Klein]], _The development of mathematics in 19th century_
 * Julian Lowell Coolidge, _A history of geometrical methods_, 1940, Dover Phoenix Editions, Oxford University Press 1940. 
+* J. Gray, _The real and the complex: a history of analysis in the 19th
+century_, Springer Undergraduate Mathematics Series
 
 ## Wiki, collection and encyclopaedia articles
 
@@ -49,12 +51,15 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 * [[geometry of 19th century]], [[Erlangen program]]
 * [[Čech methods]]
 * see also [[philosophy]]
-* lots of person entries for most influential mathematicians in history, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]], [[Bourbaki]], [[Alfred Tarski]] etc.
+* lots of entries on individuals, including for some of the most influential mathematicians in history, e.g. [[Alexander Grothendieck]], [[Jacob Lurie]], [[Maxim Kontsevich]], [[Saunders MacLane]], [[Bourbaki]], [[Alfred Tarski]] etc.
 
 
 ## Other literature
 
 * G.A. Miller, _Felix Klein and the history of modern mathematics_, PNAS 13, 1927, 611-613
 
+The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
+
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, Semen S. Kutateladze, David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
 
 [[!redirects history]]
