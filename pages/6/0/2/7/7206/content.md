@@ -58,13 +58,21 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ### Geometric construction
 
-Discussion in the [[D'Auria-Fre formulation of supergravity]] includes
+Discussion in the [[D'Auria-Fré formulation of supergravity]] includes
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter III.3.5 and III.4 and V.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * [[Riccardo D'Auria]], Sergio Ferrara, Mario Trigiante, _Supersymmetric completion of M-theory 4D-gauge algebra from twisted tori and fluxes_,   JHEP0601:081, 2006 ([arXiv:hep-th/0511158](https://arxiv.org/abs/hep-th/0511158))
 
-* Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+The role of 2-form fields (tensor multiplets, via the [[4d supergravity Lie 2-algebra]] incarnated via its dual [[Chevalley-Eilenberg algebras]], "FDA"s) is discussed in
+
+* {#AndrianopoliDAuriaSommovigo07} Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+
+* {#AAST11} Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, Mario Trigiante, _$D=4$, $N=2$ Gauged Supergravity coupled to Vector-Tensor Multiplets_, Nucl.Phys.B851:1-29,2011 ([arXiv:1103.4813](http://arxiv.org/abs/1103.4813))
+
+based on 
+
+* [[Murat Gunaydin]], S. McReynolds, M. Zagermann, _Unified $N=2$ Maxwell-Einstein and Yang-Mills-Einstein Supergravity Theories in Four Dimensions_, JHEP 0509:026,2005 ([arXiv:hep-th/0507227](https://arxiv.org/abs/hep-th/0507227))
 
 
 ### On $N=8$ $d=4$ supergravity
@@ -122,6 +130,10 @@ See also
 * [[Jacques Distler]], _Decoupling $N = 8$ supergravity_ ([blog post](http://golem.ph.utexas.edu/~distler/blog/archives/001235.html))
 
 
+### On $N = 2$, $d = 4$ supergravity
+
+* L. Andrianopoli, M. Bertolini, A. Ceresole, [[Riccardo D'Auria]], S. Ferrara,
+[[Pietro Fré]], T. Magri. _$N = 2$ supergravity and $N = 2$ super Yang-Mills theory on general scalar manifolds: Symplectic covariance, gaugings and the momentum map_. J. Geom. Phys. 23, 111&#8211;189, 1997 ([arXiv:hep-th/9605032](https://arxiv.org/abs/hep-th/9605032))
 
 
 ### On $N=1$ $d = 4$ supergravity
