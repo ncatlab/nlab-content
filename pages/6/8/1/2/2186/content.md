@@ -170,6 +170,10 @@ Acad. Press 1985.
 * Bruno Dinis, _Nonstandard intuitionistic interpretations_, [arxiv/1512.07113](http://arxiv.org/abs/1512.07113)
 * Sam Sanders, _The unreasonable effectiveness of nonstandard analysis_, [arxiv/1508.07434](http://arxiv.org/abs/1508.07434)
 
+The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
+
+* Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, Semen S. Kutateladze, David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
+
 [[!redirects hyperreal]]
 [[!redirects hyperreal number]]
 [[!redirects hyperreals]]
