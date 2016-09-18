@@ -230,6 +230,7 @@ For instance the automorphisms of the [[supergravity Lie 3-algebra]] gives the "
 
 * [[Green-Schwarz action functional]], [[brane scan]]
 
+* [[4d supergravity Lie 2-algebra]], [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
 
 ## References
 
