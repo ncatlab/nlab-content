@@ -142,8 +142,9 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 
 * [[Ralf Krömer]], _Tool and object: A history and philosophy of category theory_, Birkh&#228;user 2007
 
-* [[Jean-Pierre Marquis]], _From a Geometrical Point of View: A Study of the History and Philosophy of Category Theory_, Springer, 2008
+* [[Jean-Pierre Marquis]], _From a geometrical point of view: a study of the history and philosophy of category theory_, Springer, 2008
 
+* Ian Hacking, _Why Is There Philosophy of Mathematics At All?_, Cambridge University Press 2014
 
 ### Articles 
 
