@@ -118,6 +118,7 @@ To be written, possibly with some original research.
 * A. Bj&#246;rner, M. Las Vergnas, B. Sturmfels, N. White, G.M. Ziegler,  _Oriented matroids_, Cambridge Univ. Press 1993, 2000, [view at reslib.com](http://reslib.com/book/Oriented_Matroids)
 * Matthew Baker, _Matroids over hyperfields_, [arxiv/1601.01204](http://arxiv.org/abs/1601.01204)
 * David Marker, _Model Theory: An Introduction_, Graduate Texts in Math. 217, Springer-Verlag New York, 2002. 
+* Tom Braden, Carl Mautner, _Matroidal Schur algebras_, [arxiv/1609.04507](http://arxiv.org/abs/1609.04507)
 
 
 [[!redirects matroids]] 
