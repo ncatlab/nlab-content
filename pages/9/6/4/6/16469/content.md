@@ -26,6 +26,10 @@ Similar statements hold for the [[super anti de Sitter group]] or [[superconform
 
 By [[Deligne's theorem on tensor categories]] the most general regular [[tensor categories]] are those spanned by supermultiplets for some [[supergroup]].
 
+## References
+
+* Wikipedia, _[Supermultiplet](https://en.wikipedia.org/wiki/Supermultiplet)_
+
 [[!redirects super multiplets]]
 
 
@@ -39,3 +43,10 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 
 [[!redirects super partner]]
 [[!redirects super partners]]
+
+[[!redirects vector multiplet]]
+[[!redirects vector multiplets]]
+
+[[!redirects tensor multiplet]]
+[[!redirects tensor multiplets]]
+
