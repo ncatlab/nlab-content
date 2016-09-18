@@ -75,7 +75,7 @@ Let $M \models T$ be a model. If a formula $\varphi(x_1, x_2)$ is a $0$-definabl
 
 To make things concrete, let's consider the structure $(\mathbb{Z}, +)$. Since there is an automorphism which switches signs, the only constant is $0$. So the theory of this structure cannot eliminate imaginaries, since such theories must interpret infinitely many distinct constants.
 
-However, we can tell that this structure has many imaginaries by its rigidity: the above automorphism is the only nontrivial one. This is because any automorphism of $(\mathbb{Z},+)$ must also act on the internal congruences $E_n$ which say
+However, we can tell that this structure has many imaginaries by its rigidity: the above automorphism is the only nontrivial one. This is because any such automorphism of $(\mathbb{Z},+)$ must also act on the internal congruences $E_n$ which say
 
 $$x \sim_{E_n} y \iff x \equiv y \text{ mod n} \iff (\exists \ell)\left[x - y = \ell + \dots \text{ (n times) } \dots + \ell\right],$$
 
