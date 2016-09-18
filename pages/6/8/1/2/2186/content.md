@@ -155,11 +155,11 @@ Acad. Press 1985.
 * Imme van den Bergh, V&#237;tor Manuel Carvalho das Neves (eds.), _The strength of nonstandard analysis_, [gBooks](http://books.google.com/books?id=nWyPEAW16U8C)
 * R. F. Hoskins, J. Sousa Pinto, _Theories of generalized functions_, Horwood Publ. 2005
 
-* Nelson, _Radically elementary probability theory_
+* Imme van den Berg, _Nonstandard asymptotic analysis_, Lec. Notes Math. __1249__, Springer 1987
+
+* Edward Nelson, _Radically elementary probability theory_
 
 * Diener-Diener (eds.), _Nonstandard analysis in practice_
-
-* Imme van den Berg, _Nonstandard asymptotic analysis_
 
 * Leob-Wolff (eds.), _Nonstandard analysis for the working mathematician_
 
@@ -169,6 +169,10 @@ Acad. Press 1985.
 
 * Bruno Dinis, _Nonstandard intuitionistic interpretations_, [arxiv/1512.07113](http://arxiv.org/abs/1512.07113)
 * Sam Sanders, _The unreasonable effectiveness of nonstandard analysis_, [arxiv/1508.07434](http://arxiv.org/abs/1508.07434)
+* V. Kanovei, _A course on foundations of nonstandard analysis_, (With a
+preface by M. Reeken.), IPM, Tehran, Iran, 1994.
+* V. Kanovei, M. Reeken, Internal approach to external sets and uni-
+verses, Part 1, Bounded set theory, Studia Logica, 1995.
 
 The relation of the techniques of the pioneers of infinitesimal calculus and the modern nonstandard analysis is discussed in
 
