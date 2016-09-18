@@ -1,3 +1,4 @@
+[[!redirects supergravity Lie 3-algebra]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
