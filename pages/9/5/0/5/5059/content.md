@@ -968,7 +968,7 @@ For the [[superstring]]:
 
 * {#MetsaevTseytlin98} [[Ruslan Metsaev]], [[Arkaday Tseytlin]], _Type IIB superstring action in $AdS_5 \times S^5$ background_, Nucl.Phys.B533:109-126, 1998 ([arXiv:hep-th/9805028](http://arxiv.org/abs/hep-th/9805028))
 
-* [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_ ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
+* [[Gleb Arutyunov]], [[Sergey Frolov]], _Foundations of the $AdS_5 x S^5$ Superstring. Part I_, J. Phys. A 42 (2009) ([arXiv:0901.4937](http://arxiv.org/abs/0901.4937))
 
 * Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
 
@@ -1023,7 +1023,7 @@ That the [[heterotic supergravity]] equations of motion are sufficient for the 3
  
 and the computation there was highlighted and a little simplified around p. 17 of
 
-* {Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986) ([spire](http://inspirehep.net/record/214192/?ln=en))
+* {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B266 (1986) ([spire](http://inspirehep.net/record/214192/?ln=en))
 
 A more comprehensive result arguing that the heterotic supergravity equations of motion of the background are not just sufficient but also necessary for (and hence equivalent to) the heterotic GS-string on that background being consistent was then claimed in
 
