@@ -15,6 +15,10 @@
 
 ## Idea
 
+>_Dr. von Neumann, ich m&#246;chte gerne wissen, was ist denn eigentlich ein Hilbertscher Raum ?_  [^Hilbert]
+
+[^Hilbert]: _Dr. von Neumann, I would like to know what is a Hilbert space ?_ Question asked by Hilbert in a 1929 talk by v. Neumann in G&#246;ttingen. The anecdote is narrated together with additional information on the introduction of adjoint operators to quantum mechanics by Saunders Mac Lane in _Concepts and Categories_ ([link](http://www.ams.org/samplings/math-history/hmath1-maclane25.pdf), p.330). Note, that we have corrected 'dann' in the original quotation to the more likely 'denn'.
+
 A _Hilbert space_ is a (possibly) infinite-dimensional generalisation of the traditional spaces of Euclidean geometry in which the notions of distance and angle still make good sense.  This is done through an algebraic operation, the _inner product_, that generalises the dot product.
 
 Hilbert spaces were made famous to the world at large through their applications to [[physics]], where they organise the pure states of quantum systems.
