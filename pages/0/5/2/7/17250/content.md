@@ -48,7 +48,7 @@ Due to the influence of Kant's philosophy in the 19th century, one could easily 
 
 For Kant, the concept becomes important for the table of judgements in _'Kritik der reinen Vernunft'_ (1781) in the transcendental analytics (B 95ff, A 70ff). He gives there a primarily syntactic definition differentiating them from negative judgements by the position of the negation particle _non_ with respect to the copula: _anima non est mortalis_ vs. (inifinite:) _anima est non mortalis_. He further distinguishes the latter from _anima est immortalis_  , though this is only implicit in the passage by his avoidance of the German 'ist unsterblich' and his use of 'ist nichtsterblich' instead which due to German word order fusions with the negative 'ist nicht sterblich'. The _Vienna logic_ (see below) is slightly more outspoken on the triple distinction which in fact is often ignored by later commentators like e.g. H. Cohen (or, more recently, O. H&#246;ffe or M. Wolff) who even recommends the less marked 'unsterblich' instead of 'nichtsterblich' (Cohen [1907](#Cohen07), p.48; H&#246;ffe [2003](#Hoeffe03) p.126; cf. Jesiolkiewicz [n.d.](#Jesiol) p.2).
 
-Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amount to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist' (J&#228;sche-Logik &#167;22).
+Now, what does the distinction between 'unsterblich' and 'nichtsterblich' amount to ? We would like to suggest to the difference between _determination_ and _limitation_: both are formally positive in the sense that they behave like positive judgements in syllogism but only 'unsterblich' narrows the 'sphere' of its subject of predication whereas 'nichtsterblich' only limits the sphere in putting the subject in an infinite and effectively indeterminate sphere _'welches eigentlich gar keine Sph&#228;re ist'_ (J&#228;sche-Logik &#167;22).
 
 Why would it be important for transcendental logic to make a difference between infinite and positive judgements ? Presumably, due to the role of infinite judgements in metaphysical 'reasoning' where the formally positive judgements create the dialectical illusion of positive determinations of thought objects (KdrV I.1 &#167;23 B148; see also [H&#246;ffe 2003](#Hoeffe03), p.126) whereas thought actually meanders in an infinite space without ever being able to give an object in intuition corresponding to the negatively determined concept of reasoning e.g. the determination of the soul in rational psychology as not-mortal, not-material, not-spatial etc.
 
@@ -66,6 +66,12 @@ solches Urtheil aber, wo sie nicht die copula afficirt, sondern das praedicat, w
 >Das Princip von allen m&#246;glichen praedicatis contrarie oppositis mu&#223; aus der Sache kommen. Dieses ist das princip der durchg&#228;ngigen Bestimmung. Diese durchg&#228;ngige Bestimmung eines Dinges aber ist unm&#246;glich, weil eine unendliche Erkenntni&#223; dazu geh&#246;ret, alle die praedicate aufzusuchen, die einem Dinge zukommen, und ich kann daher ins Unendliche fortgehen, und doch das Ding nicht durchg&#228;ngig bestimmen. Z. B. die Seele ist k&#246;rperlich, nicht k&#246;rperlich. Die Seele ist sterblich, nicht sterblich. Im logischen Gebrauche k&#246;nnen sie hier vor bejahende gelten. Denn jedes Ding ist durch Bestimmung von andern unterschieden. Alle andere Dinge mit non afficirt k&#246;nnen davon gesagt werden. Z. B. das Merkmahl des Steines ist die H&#228;rte. Nun kann ich immer fortgehen bis ins Unendliche, und sagen: ein Stein ist nicht Metall, nicht Holz etc. Sag ich dadurch aber etwas Neues ? Denn was hilft es, da&#223; ich wei&#223;, da&#223; alles &#220;brige ausser dem Begriff nicht Stein ist ? Die sphaera dieses alles &#220;brigen ist unendlich, und deshalb nennt man diese judicia infinita.
 
 Kant ([1966](#KantXXIV2),pp.930-31).
+
+Interestingly in contrast with _KdrV_ or the _Vienna-logic_, the later _J&#228;sche-Logik_ from 1800 seems to pair infinite judgments with negative judgments:
+
+>Nach dem Principium der Ausschlie&#223;ung jedes Dritten (exclusi tertii) ist die Sph&#228;re eines Begriffs relativ auf eine andre entweder ausschlie&#223;end oder einschlie&#223;end. - Da nun die Logik blo&#223; mit der Form des Urteils, nicht mit den Begriffen ihrem Inhalte nach, es zu tun hat: so ist die Unterscheidung der unendlichen von den negativen Urteilen nicht zu dieser Wissenschaft geh&#246;rig.
+
+Kant ([1800](#Jaesche), p.535).
 
 One suggestion to clarify the tricky question of infinite judgement in Kant employing the language of modern logic would be to link it to the [[coherent logic|Morleyization]] of finitary first-order formulas:
 
@@ -110,6 +116,8 @@ It goes without saying that all this, and especially the counting in of the taut
 
 ## More recent positions
 
+B. Bolzano pointed out the imprecisions and contradictions of Kant's account of the qualities of judgment forms in his _Wissenschaftslehre_ ([1837](#BolzWLII)).
+
 R. H. Lotze ([1874](#Lotze74)) in his influential logic assesses infinite judgements negatively calling them an 'obvious nonsense' - _offensichtliche Grillen_ and 'absurd'. He maintains that in actual reasoning they are always replaced by negative judgements.
 
 G. Patzig ([1982](#Patzig82), pp.42f) calls them superfluous from the perspective of modern logic since depending on the definition of 'negation' they can either be subsumed under positive or negative judgements. He suggests that Kant was probably motivated by his triadic scheme since his revision of the traditional table of judgements and categories consisted mainly in the addition of third terms.[^uberweg]
@@ -138,7 +146,7 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 ## Related entries
 
-* [[judgement]]
+* [[transcendental ideal]]
 
 * [[co-Heyting negation]]
 
@@ -152,6 +160,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 
 * [[syllogism]]
 
+* [[judgment|judgement]]
+
 ## Link
 
 * SEP _Kant's Theory of Judgment_ ([link](http://plato.stanford.edu/entries/kant-judgment/))
@@ -159,6 +169,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 ## References
 
 * {#AL11} A. Achourioti, M. Van Lambalgen, _A Formalisation of Kant's Transcendental Logic_ , Review of Symbolic Logic **4** no.2 (2011) pp.254-289.
+
+* {#BolzWLII}[[Bernard Bolzano|B. Bolzano]], _Wissenschaftslehre II_ , von Seidel Sulzbach 1837. (&#167; 189 pp.266ff, [link](http://dml.cz/dmlcz/400486))
 
 * {#Cohen07} [[Hermann Cohen|H. Cohen]], _Kommentar zu Immanuel Kants Kritik der reinen Vernunft_ , D&#252;rr Leipzig 1907.
 
@@ -171,6 +183,8 @@ So we arrive at the hypothesis that _a judgement is infinite precisely when its 
 * [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften I_ , Suhrkamp Frankfurt a. M. 1986[1830]. (&#167;173, pp.324ff)
 
 * {#Hoeffe03} O. H&#246;ffe, _Kants Kritik der reinen Vernunft_ , Beck M&#252;nchen 2003. (pp.126-27,148)
+
+* F. Ishikawa, _Kants Denken von einem Dritten: Das Gerichtshof-Modell und das unendliche Urteil in der Antinomienlehre_ , Lang Frankfurt a. M. 1990.
 
 * {#Jaesche} G. B. J&#228;sche (ed.), _Immanuel Kants Logik ein Handbuch zu Vorlesungen_ , pp.419-582 in Kant, _Schriften zur Metaphysik und Logik 2_ , Suhrkamp Frankfurt a. M. 1985[1800].
 
