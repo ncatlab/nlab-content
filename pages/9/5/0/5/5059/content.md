@@ -972,7 +972,7 @@ For the [[superstring]]:
 
 * Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for AdS superstring_, Phys.Rev. D66 (2002) 045020 ([arXiv:hep-th/0205092](http://arxiv.org/abs/hep-th/0205092))
 
-* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, 	Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
+* Machiko Hatsuda, Makoto Sakaguchi, _Wess-Zumino term for the AdS superstring and generalized Inonu-Wigner contraction_, Prog.Theor.Phys. 109 (2003) 853-867 ([arXiv:hep-th/0106114](http://arxiv.org/abs/hep-th/0106114))
 
 #### $AdS_4$ and $AdS_7$
  {#ReferencesAdS4Background}
