@@ -4,7 +4,7 @@
 
 * _[[schreiber:Formalizing Higher Cartan Geometry in Modal Homotopy Type Theory]]_ 
 
-  PhD Thesis 2016
+  PhD Thesis, in preparation
 
   [[nLab:HoTT]]-[[nLab:Agda]] code: [DCHoTT-Agda](https://github.com/felixwellen/DCHoTT-Agda).
 
