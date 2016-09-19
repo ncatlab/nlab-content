@@ -50,6 +50,8 @@ This relocation of theology from ontology to logic proved to be consequential in
 
 ## References
 
+* P. Baumanns, _Kants vierte Antinomie und das Ideal der Vernunft_ , Kant-Studien **79** (1988) pp.183-200.
+
 * J. Ferrari, _Das Ideal der reinen Vernunft_ , pp.391-424 in Mohr, Willaschek (eds.), _Klassiker Auslegen - Immanuel Kant: Kritik der reinen Vernunft_ , Akademie Verlag Berlin 1998.
 
 * {#Hoeffe03} O. H&#246;ffe, _Kants Kritik der reinen Vernunft_ , Beck M&#252;nchen 2003. (pp.258-60)
