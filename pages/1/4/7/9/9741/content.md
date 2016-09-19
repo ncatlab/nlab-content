@@ -101,7 +101,7 @@ Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/st
 
 Reviews and lecture notes include, for the case of flat connections
 
-* Remi Janner, _Notes on the moduli space of flat connections_, 2005 ([pdf](http://www.remijanner.ch/pdf/notes_connections.pdf))
+* Remi Janner, _Notes on the moduli space of flat connections_, 2005 ([pdf](https://www.researchgate.net/publication/265223952_Notes_on_the_moduli_space_of_flat_connections))
 
 * Daan Michiels, _Moduli spaces of flat connections_, Master Thesis Leuven 2013 ([pdf](http://www.staff.science.uu.nl/~Schat001/Daan_thesis.pdf))
 
