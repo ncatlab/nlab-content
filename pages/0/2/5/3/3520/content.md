@@ -83,7 +83,7 @@ $$
 
 ## Remarks
 
-* The Hadamard lemma implies that the [[derivations]] of the algebra $C^\infty(X)$ of smooth functions on a smooth [[manifold]] are in bijection with the [[vector fields]] on $X$. See [[derivation]] for details.
+* The Hadamard lemma implies that the [[derivations]] of the algebra $C^\infty(X)$ of smooth functions on a smooth [[manifold]] are in bijection with the [[vector fields]] on $X$. See _[[derivations of smooth functions are vector fields]]_ for details.
 
 * A more abstract way to state the Hadamard lemma (and a bit more) is to say that [[generalized smooth algebra|smooth function rings]] form a _[[Fermat theory]]_. As such the Hadamard lemma is a crucial ingredient for [[Models for Smooth Infinitesimal Analysis|well-adapted models]] of [[synthetic differential geometry]].
 
