@@ -34,7 +34,9 @@ A  [[supersymmetry|supersymmetric]] extension of plain [[Yang-Mills theory]].
 
 ### Classification
 
-The existence of super Yang-Mills (SYM) theories of a certain number of [[supersymmetries]] in a certain [[dimension]] of [[spacetime]] is linked to the existence of certain [[Lie algebra cohomology|cocycles]] on the [[super Poincaré Lie algebra]] (thos that also govern the [[brane scan]]). These in turn are closely related to the [[normed division algebras]]. A comparatively recent account is in ([ABDH 13](#ABDH13)). See also at _[[division algebra and supersymmetry]]_.
+The existence of super Yang-Mills (SYM) theories of a certain number of [[supersymmetries]] in a certain [[dimension]] of [[spacetime]] is linked to the existence of certain [[Lie algebra cohomology|cocycles]] on the [[super Poincaré Lie algebra]] (those that also govern the [[brane scan]]). These in turn are closely related to the [[normed division algebras]]. See ([ABDH 13](#ABDH13)). See also at _[[division algebra and supersymmetry]]_.
+
+This classification may be paired with that for [[supergravity]] theories, to yield a [[magic pyramid]] of super [[Einstein-Yang-Mills theories]].
 
 
 
@@ -85,7 +87,7 @@ The [[chiral rings]] of SYM are discussed in
 
 * Freddy Cachazo, [[Michael Douglas]], [[Nathan Seiberg]], [[Edward Witten]]. _Chiral Rings and Anomalies in Supersymmetric Gauge Theory_, JHEP 0212:071,2002 ([arXiv:hep-th/0211170](http://arxiv.org/abs/hep-th/0211170))
 
-Classification in terms of [[division algebra and supersymmetry]] is in 
+Classification in terms of [[division algebra and supersymmetry]] / [[magic pyramid]] is in 
 
 * {#ABDH13} A. Anastasiou, [[Leron Borsten]], [[Mike Duff]], L. J. Hughes, S. Nagy, _Super Yang-Mills, division algebras and triality_ ([arXiv:1309.0546](http://arxiv.org/abs/1309.0546))
  
