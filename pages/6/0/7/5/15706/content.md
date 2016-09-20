@@ -85,6 +85,8 @@ where $M^{'} = Hom(M, \mathbb{G}_{m, X})$. This resembles Poincar&#233; duality 
 
 * The [[virtually fibered conjecture]] says that every [[closed manifold|closed]], [[irreducible manifold|irreducible]], [[atoroidal 3-manifold|atoroidal]] [[3-manifold]] with infinite [[fundamental group]] has a [[finite cover]] which is a [[surface]] [[fiber bundle]] over the [[circle]].
 
+* [[arithmetic Chern-Simons theory]]
+
 ##References
 * {#Deninger02} Christopher Deninger, _A note on arithmetic topology and dynamical systems_, ([arxiv:0204274](http://arxiv.org/abs/math/0204274))
 
