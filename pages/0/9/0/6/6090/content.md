@@ -19,7 +19,18 @@
 
 ## Idea
 
-In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_  or _S-matrix_ encodes the [[probability amplitudes]] for scatterings processes of [[particle]]s off each other.
+In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_  or _S-matrix_ encodes the [[probability amplitudes]] for scatterings processes of [[particles]] off each other.
+
+Every quantum [[local field theory]] gives an [[S-matrix]] by its [[perturbation series]] over [[Feynman diagrams]] extracted from the [[action functional]]. But there are also S-matrices not arising from a local field theory, for instance the [[string scattering amplitudes]].
+
+In the 1960 there was a prominent proposal, around [[Geoffrey Chew]], that [[quantum field theory]] should be _defined_ by [[axiom|axiomatizing]] properties of the S-matrix. This is a radical perspective where no [[spacetime]] geometry and physical fields are made explicit, but where the entire physics is encoded by what quantum particles see that scatter through it. 
+
+Historically, the S-matrix "bootstrap" approach fell out of fashion with the success of the [[quark]] model and of [[QCD]], which is a [[local field theory]] governed by an [[action functional]] ([[Yang-Mills theory]]).
+
+But later [[perturbative string theory]] revived the S-matrix approach. In general, perturbative string theory is not defined by a geometric background. Instead the background is algebraically encoded by a [[2d SCFT]] ("[[2-spectral triple]]") and the [[string perturbation series]] is a formula that translates this into an S-matrix. Spacetime physics then is whatever is seen by string scattering processes (see also at _[string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)_)
+
+More recently, the S-matrix perspective becomes fashionable also in [[Yang-Mills theory]], at least in [[super Yang-Mills theory]]: one observes that the theory enjoyes good structures in its scattering amplitudes which are 
+essentially invisible in the vast summation of [[Feynman diagrams]] that extract the S-matrix from the [[action functional]]. Instead there are entirely different mathematical structures that encode at least some sub-class of scattering amplitudes (see at _[[amplituhedron]]_).
 
 ## History
 
@@ -86,13 +97,15 @@ Notice that this kind of discussion is not restricted to topological field theor
 see at _[[Haag–Lopuszanski–Sohnius theorem]]_
 
 
-## Related concepts
+## Related entries
 
 See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_ 
 
 * [[scattering amplitude]], [[Feynman diagram]], [[string scattering amplitude]], 
 
 * [[AdS-CFT]]
+
+* [string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)
 
 ## References
 
