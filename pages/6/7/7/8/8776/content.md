@@ -79,6 +79,35 @@ asymptotically flat.)
 [[!include U-duality -- table]]
 
 
+### $N = 2$ supersymmetry
+
+Consider super Lie algebra cocoycles on $N =2$ 5d [[super-Minkowski spacetime]] (as in the [[brane scan]]).
+
+There is a 4-cocycle of the form
+
+$$
+  \mu_2 
+    =
+  \epsilon^{A B} \overline{\psi}_A \wedge \Gamma^{a b} \psi_B 
+  \wedge e_a \wedge e_b
+  \,.
+$$
+
+([Castellani-D'Auria-Fr&#233; (III.5.50b), (III.5.53c)](#CastellaniDAuriaFre))
+
+And there is the [[Fierz identity]]
+
+$$
+  \overline{\psi}_A \wedge \psi_A \wedge \overline{\psi}_B \wedge \psi_B
+  \;=\;
+  \overline{\psi}_A \wedge \Gamma_a \psi_A
+  \wedge \overline{\psi}_B \wedge \Gamma^a \psi_B
+  \,.
+$$
+
+([Castellani-D'Auria-Fr&#233; (III.5.50a)](#CastellaniDAuriaFre))
+
+
 ## Related concepts
 
 * [[5-dimensional Chern-Simons theory]]
