@@ -83,6 +83,38 @@ asymptotically flat.)
 
 Consider super Lie algebra cocoycles on $N =2$ 5d [[super-Minkowski spacetime]] (as in the [[brane scan]]).
 
+With the notation as used at _[super Minkowski spacetime -- Canonical coordinates](super%20Minkowski%20spacetime#CanonicalCoordinates)_, there are now two copies of spinor-valued 1-forms, denoted $\psi_1$ and $\psi_2$. We use indices of the form $A,B, \cdots$ for these. Then the non-trivial bit of the [[Chevalley-Eilenberg algebra]] differential for $N = 2$, $d = 5$ [[super Minkowski spacetime]] is
+
+$$
+  d_{CE} e^a = - \tfrac{i}{2} \overline{\psi}_A \wedge \Gamma^a \psi_A
+$$
+
+where summation over repeated indices is understood.
+
+
+There is a [[Fierz identity]]
+
+$$
+  \overline{\psi}_A \wedge \psi_A \wedge \overline{\psi}_B \wedge \psi_B
+  \;=\;
+  \overline{\psi}_A \wedge \Gamma_a \psi_A
+  \wedge \overline{\psi}_B \wedge \Gamma^a \psi_B
+  \,.
+$$
+
+([Castellani-D'Auria-Fr&#233; (III.5.50a)](#CastellaniDAuriaFre))
+
+This implies that
+
+$$
+  d_{CE} (\overline{\psi}_A \Gamma^a \psi_A \wedge e_a)
+  \;\propto\;
+  (\overline{\psi}_A \wedge \Gamma^a \psi_A)
+    \wedge
+  (\overline{\psi}_B \wedge \Gamma^a \psi_B)
+  \,.
+$$
+
 There is a 4-cocycle of the form
 
 $$
@@ -94,18 +126,6 @@ $$
 $$
 
 ([Castellani-D'Auria-Fr&#233; (III.5.50b), (III.5.53c)](#CastellaniDAuriaFre))
-
-And there is the [[Fierz identity]]
-
-$$
-  \overline{\psi}_A \wedge \psi_A \wedge \overline{\psi}_B \wedge \psi_B
-  \;=\;
-  \overline{\psi}_A \wedge \Gamma_a \psi_A
-  \wedge \overline{\psi}_B \wedge \Gamma^a \psi_B
-  \,.
-$$
-
-([Castellani-D'Auria-Fr&#233; (III.5.50a)](#CastellaniDAuriaFre))
 
 
 ## Related concepts
