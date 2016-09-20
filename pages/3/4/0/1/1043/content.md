@@ -45,15 +45,18 @@ Suppose we are not given a bijection, but just an object $P$ with maps $\pi_1: P
 
 (The experienced reader will notice that this is just a special case of the [[Yoneda lemma]])
 
-Thus, the universal property can be stated as follows: $A \times B$ is a product of $A$ and $B$ if there exists maps $\pi_1: A \times B \to A$ and $\pi_2: A \times B \to B$ such that given any pair of maps $f_1: X \to A$ and $f_2: X \to B$, there is a unique map $f: X \to A \times B$ such that the following diagram commutes:
+Thus, the universal property can be stated as follows: $C$ is a product of $A$ and $B$ if there exists maps $\pi_1: C \to A$ and $\pi_2: C \to B$ such that given any pair of maps $f_1: X \to A$ and $f_2: X \to B$, there is a unique map $f: X \to C$ such that the following diagram commutes:
 $$
 \array{
 & & X & & \\
 & ^\mathllap{f_1}\swarrow & \downarrow^\mathrlap{f} & \searrow^\mathrlap{f_2}\\
-A & \underset{\pi_1}{\leftarrow} & A \times B & \underset{\pi_2}{\rightarrow} & N
+A & \underset{\pi_1}{\leftarrow} & C & \underset{\pi_2}{\rightarrow} & B
 }
 $$
+In this case, we tend to write $A \times B$ for $C$.
 =--
+
+Note that if we are talking about sets, then an element of a set $X$ is equivalent to a map $1 \to X$ from the singleton set $1$. Thus in particular, the above definition says an element of $A \times B$ is the same as a pair of elements $(a, b)$, where $a \in A$ and $b \in B$.
 
 +-- {: .num_example}
 ###### Example (free groups)
