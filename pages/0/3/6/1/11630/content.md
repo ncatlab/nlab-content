@@ -104,6 +104,8 @@ Continuing in the other direction to $d = 10$ ($n = 1$) connects to the [[T-dual
 [[!include U-duality -- table]]
 
 
+More generally, there is a "[[magic pyramid]]" of super-[[Einstein-Yang-Mills theories]]  and their U-duality groups.
+
 ## Properties
 
 ### Relation to T-duality and S-duality
@@ -121,6 +123,8 @@ U-duality may be understood as being the combination of [[T-duality]] for the co
   * [[S-duality]]
 
   * **U-duality**
+
+* [[magic pyramid]]
 
 ## References
  {#References}
