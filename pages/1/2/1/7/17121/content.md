@@ -33,8 +33,12 @@ A special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of [[
 
 ## Related concepts
 
-* [[magic supergravity]]
 * [[magic triangle]]
+
+* [[magic pyramid]]
+
+* [[magic supergravity]]
+
 
 ## References
 
