@@ -81,11 +81,61 @@ That is, incidentally, the very reason for the term "M-theory". First there had 
 ### What are the equations of string theory?
  {#WhatAreTheEquations}
 
-All [[local field theories]] in physics are prominently embodied by key [[nLab:equations]], their _[[nLab:equations of motion]]_. For instance [[nLab:classical field theory|classical]] [[gravity]] ([[nLab:general relativity]]) is essentially the theory of [[nLab:Einstein's equations]].
+All [[local field theories]] in physics are prominently embodied by key [[equations]], their _[[nLab:equations of motion]]_. For instance [[classical field theory|classical]] [[gravity]] ([[general relativity]]) is essentially the theory of [[Einstein's equations]], [[quantum mechanics]] is governed by the [[Schrödinger equation]], and so forth.
 
-But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a prescription for how to compute [[scattering amplitudes]]. That prescription is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $n$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the scattering [[vacuum]].
+But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a formula for how to compute [[scattering amplitudes]]. That formula is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $(n_{in}, n_{out})$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the scattering [[vacuum]].
 
-On the other hand, there is an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering, called [[nLab:string field theory]], and this again is given by equations of motion. For instance the equations of motion of closed bosonic string field theory are of the form
+More in detail, a string background is equivalently a choice of [[2d SCFT]] of central charge 15 (a "[[2-spectral triple]]"), and in terms of this the formula for the [[S-matrix]] element/[[scattering amplitude]] for a bunch of asymptotic string states $\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}$ coming in, and a bunch of states $\psi^1_{out}, \cdots, \psi^{n_{out}}_{out}$ coming out is schematically of the form
+
+$$
+  S_{\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}, \psi^1_{out}, \cdots, \psi^{n_{out}}_{out}}
+  \;=\;
+  \underset{g \in \mathbb{N}}{\sum}
+    \lambda^g
+  \underset{
+    {moduli \; space \; of}
+      \atop
+    {{(n_{in},n_{out}) punctured} 
+      \atop 
+    {{super\; Riemann \; surfaces} 
+      \atop 
+    {{\Sigma^{n_{in}, n_{out}}_g}
+      \atop 
+    {of\; genus\; g}}}}
+   }{
+    \int
+   }
+   \left(
+   SCFT \; Correlator \; over \; \Sigma \; of \; states\;
+     {\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}, \psi^1_{out}, \cdots, \psi^{n_{out}}_{out}}
+  \right)
+$$
+
+expressing the [[S-matrix]] element ([[scattering amplitude]]) shown on the left as a [[formal power series]] in the string [[coupling constant]] with [[coefficients]] the integrals over [[moduli space]] of [[super Riemann surfaces]] of the [[worldsheet]] [[correlators]] ($n$-point functions) for the given incoming and outgoing string states.
+
+With more technical details filled in, this formula reads as follows: for the [[bosonic string]], as found in [Polchinski 01, volume 1, equation (5.3.9)](#Polchinski01)
+
+<img src="https://ncatlab.org/nlab/files/StringSMatrixFromPolchinski.jpg" width = "600">
+
+and for the [[superstring]], as found in [Polchinski 01, volume 2, equation (12.5.24)](#Polchinski01)
+
+<img src="https://ncatlab.org/nlab/files/StringSMatrixSuperFromPolchinski.jpg" width = "600">
+
+
+This is the equation that defines [[perturbative string theory]].
+
+And this is of just the same form as as the Feynman [[perturbation series]] in local [[quantum field theory]], the only difference being that the latter is _more complicated_: there one has to some over [[Feynman diagrams]] with labeling for all intermediate particles ([[virtual particles]]) and with some arbitrary "cutoff" to make the integrals well defined, whereas here we simply sum over all [[super Riemann surfaces]]. The different intermediate [[virtual particles]] as well as the [[renormalization]] counterterms are all taken care of by the higher string modes, encoded in the worldsheet CFT correlators.
+
+There was a time in the 1960s, when [[quantum field theory|quantum field theorists]] around [[Geoffrey Chew]] proposed that precisely such formulas for [[S-matrix]] elements should be exactly what defines a quantum field theory, this and nothing else. The idea was to do away with an explicit concept of [[spacetime]] and local interactions, and instead declare that all there is to be said about physics is what is seen by particles that probe the physics by scattering through it. This is an intrisically quantum approach, where there need not be any classical [[action functional]] defined in terms of [[spacetime]] geometry. Instead, all there is a formula for the outcome of scattering experiments.
+
+Historically, this radical perspective fell out of fashion for a while with the success of [[QCD]] and the [[quark]] model in its formulation as as [[local field theory]] coming from an [[action functional]]: [[Yang-Mills theory]].
+
+But fashions come and go, and the original idea of [[Geoffrey Chew]] and the [[S-matrix]] approach continues to make sense in itself, and it is this form of a physical theory that perturbative string theory is an example of. 
+
+Ironically, more recently, the [[S-matrix]]-perspective also becomes fashionable again in [[Yang-Mills theory]] itself, with people noticing that [[scattering amplitudes]] at least in [[super Yang-Mills theory]] have good properties that are essentially invisible when expressing them as vast sums of [[Feynman diagram]] contributions as obtained from the [[action functional]]. For more on this see at _[[amplituhedron]]_.
+
+
+On the other hand, there _is_ also an analog of the [[second quantization|second quantized]] field-theory-with-equations for string scattering: this is called [[string field theory]], and this again is given by [[equations of motion]]. For instance the equations of motion of closed bosonic string field theory are of the form
 
 $$
   Q \Psi + \tfrac{1}{2} \psi \star \psi + \tfrac{1}{6} \psi \star \psi \star \psi + \cdots = 0
@@ -137,7 +187,7 @@ The remaining problem is the following, and this is not specific to string theor
 
 This is a very general aspect of present particle physics: while _theoretically_ it is fairly clear that the standard model plus gravity must have a UV-completion by _something_, at presently available experimental energies that standard model works rather perfectly. While this is a general fact of particle physics and model building, not special to string theory, a sociological aspect of string theory is that in the 1980s many theoreticians started to believe and claim that string theory would be better than ordinary model building in that when fully understood it would admit only very few models, such that even the parameters measured in the standard model would be predicted by the theory and some more basic parameters. More recently this hope has vanished, and much of what should be an absolute estimate of string theory is more a perception in the negative gradient of this hope curve. 
 
-But one technical specialty of string theory over QFT model building exists in either case: what in the standard model are external parameters put into a QFT [[Lagrangian]], in string theory models are all dynamical fields of the theory instead:
+But one technical specialty of string theory over QFT model building exists in either case: what in the standard model are external parameters put into a QFT [[Lagrangian]], in string theory models are all dynamical fields of the theory instead, called _[[moduli]]_.
 
 The simple familiar example to compare this to is the [[cosmological constant]] in Einstein gravity: one can either consider it as an external parameter, a constant real number coefficient in front of the [[volume form]] summand of the [[Einstein-Hilbert action|Einstein-Hilbert Lagrangian]], or else one can consider Einstein gravity coupled to a [[scalar field]] with some potential and consider those solutions to the [[equations of motion]] where this field is almost constant to good approximation. In such a case the field itself serves as an _effective_ cosmological constant. (This is the mechanism behind the theory of _[[cosmic inflation]]_, see there for more details.) Hence the theory has one less external parameter (the "cosmological constant" is not fundamentally really a constant), which has instead been replaced by a [[field (physics)|field]]. 
 
@@ -495,6 +545,8 @@ Other places on the web where some frequently asked questions about string theor
 ### Textbooks and lectures
 
 Textbooks on [[string theory]] and [[quantum field theory]] include
+
+* {#Polchinski01} [[Joseph Polchinski]], _String theory_, Cambridge Monographs on Mathematical Physics (2001)
 
 * [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, 
 [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], eds.  
