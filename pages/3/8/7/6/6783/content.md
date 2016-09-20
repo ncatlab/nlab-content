@@ -9,5 +9,5 @@ Transl. from Russian (Vi&#353;&#269;a &#352;kola, Kiev 1980, [MR82h:60002](http:
 * J J M Verbaarschot, M R Zirnbauer, _Critique of the replica trick_, J. Phys. A: Math. Gen. 17 (1985) 1093-1109, [pdf](http://www.thp.uni-koeln.de/zirn/jav18i7p1093.pdf)
 * Patrik L. Ferrari, _Why random matrices share universal processes with interacting particle systems?_, [arxiv/1312.1126](http://arxiv.org/abs/1312.1126)
 * Bertrand Eynard, Taro Kimura, Sylvain Ribault, _Random matrices_, (lectures, 138 pages) [arxiv/1510.04430](http://arxiv.org/abs/1510.04430)
-
+*  Greg W. Anderson, Alice Guionnet, Ofer Zeitouni, An Introduction to Random Matrices, Cambridge Studies in Advanced Mathematics
 [[!redirects random matrix theory]]
