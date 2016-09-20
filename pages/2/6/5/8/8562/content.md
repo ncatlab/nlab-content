@@ -7,5 +7,7 @@ He has notably written about conceptual questions that appear in [[Diophantine g
 
 * {#MK09} _Galois Theory and Diophantine geometry_, 2009 ([pdf](http://people.maths.ox.ac.uk/kimm/papers/cambridgews.pdf))
 
+He has also applied ideas from [[Chern-Simons theory]] in [[arithmetic Chern-Simons theory]].
+
 
 category:people
