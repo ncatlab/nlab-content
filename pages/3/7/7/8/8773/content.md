@@ -85,4 +85,8 @@ and via [[KK-compactification]] of the [[supergravity C-field]] of [[11-dimensio
 
 * Federico Bonetti, [[Thomas Grimm]], [[Stefan Hohenegger]], _One-loop Chern-Simons terms in five dimensions_ ([arXiv:1302.2918](http://arxiv.org/abs/1302.2918)) 
 
+More on supersymmetric 5d CS theory is in
+
+* Sergei M. Kuzenko, Joseph Novak, _On supersymmetric Chern-Simons-type theories in five dimensions_, JHEP 1402 (2014) 096 ([arXiv:1309.6803](http://arxiv.org/abs/1309.6803))
+
 [[!redirects 5-dimensional Chern-Simons theory]]
