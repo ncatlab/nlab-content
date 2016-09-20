@@ -54,7 +54,9 @@ The _cut-elimination theorem_ ("[[Gerhard Gentzen]]'s [[Gentzen's Hauptsatz|Haup
 
 Intuitively, the problem in deciding whether a formula $B$ follows from a formula $A$, i.e., deriving $A \vdash B$, is that there could be very complicated steps in the middle, i.e., in typical mathematical arguments one puts together steps $A \vdash C$ and $C \vdash B$ where $C$ is potentially a complicated or large formula. For an automated theorem prover, the search space for such $C$ is potentially infinite. By establishing a cut-elimination theorem for formal systems, one circumvents this problem, and it is quite typical that cut-free proofs build up complex sequents from less complex sequents (cf. [[subformula property]]), so that one can decide whether a sequent is provable or derivable by following an inductive procedure. 
 
-Cut-elimination is also a key step in deciding whether two proofs of a sequent are the "same" in some suitable sense. In [[type theory]], for instance, the issue is not merely whether $A \vdash B$ is provable or whether the function type $A \multimap B$ is inhabited (has a proof or a term witnessing that fact), but also the nature of the space of such proofs. A cut-elimination result worthy of the name will not merely replace a proof with one which is cut-free, but with a cut-free proof which is _equivalent_ to the original. This idea is used for instance in proving [[coherence theorems]]. 
+Cut-elimination is also a key step in deciding whether two proofs of a sequent are the "same" in some suitable sense. In [[type theory]], for instance, the issue is not merely whether $A \vdash B$ is provable or whether the function type $A \multimap B$ is inhabited (has a proof or a term witnessing that fact), but also the nature of the space of such proofs. Since any proof has a trivial cut-free formulation in a system where all provable sequents in the original system are simply postulated as axioms, a cut-elimination result worthy of the name will not merely replace a proof with one which is cut-free, but with a cut-free proof which is _equivalent_ to the original. This idea is used for instance in proving [[coherence theorems]]. 
+
+Cut-elimination may also be used to give independent proof-theoretic motivation of the definition of a category, and other basic category theoretic notions, eg. [[adjunction]] (see [Do&#353;en 99](#Dos99)).
 
 
 ## Connection to identities 
@@ -120,6 +122,7 @@ Categorically, the cut rule in this form corresponds to the arrow $\neg A \otime
 
 * Wikipedia, _[Cut-elimination theorem](http://en.wikipedia.org/wiki/Cut-elimination_theorem)_
 
+* {#Dos99} Kosta Do&#353;en, _Cut Elimination in Categories_ Dordrecht: Springer Netherlands, 1999.
 
 [[!redirects cut-elimination]]
 [[!redirects cut elimination]]
