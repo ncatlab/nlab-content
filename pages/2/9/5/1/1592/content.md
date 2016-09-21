@@ -25,6 +25,10 @@ where $Top_*^{wc}$ is the full subcategory of $Top_*$ with objects the well-conn
 
 Specifically, if $X$ is a space with basepoint $x_0$, we define $X^{(1)}$ to be the space whose points are homotopy classes of paths in $X$ starting at $x_0$, with the projection $X^{(1)}\to X$ projecting to the endpoint of a path.  We can equip this set $X^{(1)}\to X$ with a topology coming from $X$ so that it becomes a universal covering space as above.  As described at [[covering space]], under the correspondence between covering spaces and $\Pi_1(X)$-actions, the space $X^{(1)}$ corresponds to the "regular representation" of $\Pi_1(X)$.
 
++-- {: .un_remark}
+###### Remark
+This [[regular representation]] can be seen to arise by taking a [[category of elements]] in the same way that the regular representation of a group is gotten by taking its action on itself: we can see that the  _universal covering groupoid_ $\Pi(X)^{(1)}$ in the [[slice category]] $\mathbf{Grpd}/\Pi(X)$ (see the universal covering $\infty$-groupoid below) is just the category of elements of the action of $\Pi(X)$ on itself, and can be topologized in a natural way by lifting the topology on $X$ along the canonical projection $\Pi(X)^{(1)} \to \Pi(X)$; decategorifying this yields $X^{(1)}$.
+=--
 
 ## As the homotopy fiber of $X \rightarrow \Pi_1(X)$
 
@@ -298,7 +302,7 @@ $$\array{ E^{(n)} & \to & E \\ \downarrow & & \downarrow \\ * & \to & \Pi_n(E)}$
 The same arguments as above, generalized from 1 to $n$, show that $E^{(n)}\to E$ is a locally trivial local homeomorphism and that $E^{(n)}$ is $n$-connected.
 
 
-## Reference
+## References
 
 
 An account of the traditional way to think of the construction of the universal covering space is 
@@ -317,3 +321,4 @@ An account of the traditional way to think of the construction of the universal 
 [[!redirects universal covering (2,1)-topos]]
 [[!redirects universal covering (∞,1)-topos]]
 [[!redirects universal covering (infinity,1)-topos]]
+[[!redirects universal covering groupoid]]
