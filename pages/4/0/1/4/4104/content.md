@@ -35,7 +35,7 @@ for all $g \in G$ and all Borel sets $B$.
 
 ## Existence and Uniqueness 
 
-Any locally compact Hausdorff topological group $G$ admits a Haar mesaure that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://www.artofproblemsolving.com/LaTeX/Examples/HaarMeasure.pdf) by Rubinstein-Salzedo. 
+Any locally compact Hausdorff topological group $G$ admits a Haar mesaure that is unique up to scalar multiple. This result was first proven by Weil. A proof by be found in these online [notes](http://simonrs.com/HaarMeasure.pdf) by Rubinstein-Salzedo. 
 
 
 ### Left and Right Haar Measures that Differ
