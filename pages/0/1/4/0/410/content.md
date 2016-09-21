@@ -33,10 +33,12 @@ More generally, even if the entire left adjoint $F$ doesn't exist, a [[free obje
 
 [[duality|Dually]], a __cofree functor__ is a [[right adjoint]] to a forgetful functor. 
 
-For the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](https://nforum.ncatlab.org/comments.php?DiscussionID=1768). 
+For the classical functors which forget algebraic structure, cofree functors are less common than free functors.  As a political joke (which works best for someone who associates political freedom with the left wing), cofree functors have sometimes been called __fascist functors__. Some discussion of this joke may be found at the [nForum](https://nforum.ncatlab.org/comments.php?DiscussionID=1768).
 
 
 ## Examples
+
+Classically, examples of free constructions were characterized by a [[universal property]], e.g. that for the free group on a set $X$: any map $X \to G$ as sets uniquely extends to a group homomorphism $F(X) \to G$. When such a free construction can be realized as a free functor, this universal property is just a transliteration of the fact that the [[unit of an adjunction|unit]] of the [[free-forgetful adjunction]] is an [[initial object]] in a [[comma category]] (see e.g. the proof of Freyd's general [[adjoint functor theorem]].)
 
 ### For free functors
 
