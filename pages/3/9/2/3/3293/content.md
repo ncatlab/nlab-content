@@ -154,6 +154,8 @@ For details on this see at _[[manifold structure of mapping spaces]]_.
 
 (see also [Dodson-Galanis-Vassiliou 15](#DodsonGalanisVassiliou15))
 
+Frecht manifolds may be thought of as [[projective limits]] of [[Banach manifolds]] (see the "added remark" at the end of [this MO comment](http://math.stackexchange.com/a/53020/58526))
+
 +-- {: .num_example #RInfinity}
 ###### Example
 
@@ -161,8 +163,8 @@ The infinite product [[Fréchet space]] $\mathbb{R}^\infty$ ([exmpl.](Fr&#233;ch
 
 =--
 
-+-- {: .num_proposition}
-###### Claim
++-- {: .num_prop}
+###### Proposition
 
 
 As a Fr&#233;chet manifold, $\mathbb{R}^\infty$ (example \ref{RInfinity}) should be the [[projective limit]]
@@ -176,7 +178,7 @@ formed in the category of Fr&#233;chet manifolds.
 =--
 
 +-- {: .proof}
-###### Proof idea
+###### Proof 
 
 The point that needs checking is that for $X$ any Fr&#233;chet manifold, then a [[continuous function]] 
 
