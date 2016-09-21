@@ -54,6 +54,8 @@ Special properties are enjoyed by
 
 * [[D=5 super Yang-Mills theory]]
 
+* [[D=7 super Yang-Mills theory]]
+
 * [[D=10 super Yang-Mills theory]]
 
 * [[topologically twisted D=4 super Yang-Mills theory]]
@@ -76,7 +78,7 @@ as well as various of the lectures in the collection
 
 The [[deformation theory]] of SYM theories is discussed in 
 
-* {#SchwarzMovshev} [[Albert Schwarz]], [[Michael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
+* {#SchwarzMovshev} [[Albert Schwarz]], [[Mikhael Movshev]], _Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories_ ([arXiv:0910.0620](http://arxiv.org/abs/0910.0620))
  
 
 Special properties of [[scattering amplitudes]] are discussed for instance in 
