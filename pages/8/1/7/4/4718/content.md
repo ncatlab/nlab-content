@@ -100,6 +100,22 @@ In the unitization $\mathbb{Z} \oplus A$ we have $(n,0) + (0,a) = (n,a)$ and hen
 =--
 
 +-- {: .num_remark}
+
+###### Remark
+
+One can also think of the unitisation as the quotient of the polynomial ring $A[x]$ (which is $A$ "with a generic element adjoined") quotiented by the relations $ax - a = 0, xa - a = 0$, so that this $x$ must be a right and left identity for multiplication $a$. Cosets must be represented by expressions of the form $a + nx$; this provides an obvious isomorphism to the above definition, and motivates the multiplication defined above.
+
+=--
+
++-- {: .num_remark}
+
+###### Remark
+
+Since $A$ embeds into its unitisation $F(A)$, every [[rng]] lives as an ideal in some [[unital ring|ring]]. We can consider $A$-linear actions $A \curvearrowright M$ on abelian groups $M$. Since the endomorphism rings of abelian groups are always unital, the [[universal property]] of the unitisation-forgetful adjunction (see below) ensures that there is a unique extension of the action map $A \to \operatorname{End}_{\mathbf{Ab}}(M)$ along $A \hookrightarrow \operatorname{for} \circ F(A)$ to an action map $F(A) \to \operatorname{End}_{\mathbf{Ab}}(M)$. This induces an equivalence $A\text{-}\mathbf{Mod} \simeq F(A)\text{-}\mathbf{Mod},$ so that one may as well study $F(A)$ if one wanted to study $A$ through its module category.
+
+=--
+
++-- {: .num_remark}
 ###### Remark
 
 Similar [[unitisation]] prescriptions work for non-commutative rings and for [[nonunital algebras]] over a fixed base ring, see also at
