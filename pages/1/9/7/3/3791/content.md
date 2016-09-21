@@ -34,4 +34,10 @@ __Albert Schwarz__ is a mathematician and a theoretical physicist born in Soviet
 
 * &#1052;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1086;&#1089;&#1085;&#1086;&#1074;&#1099; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1086;&#1081; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1087;&#1086;&#1083;&#1103;, Atomizdat, Moscow, 1975. 368 pp.
 
+## related $n$Lab entries
+
+* [[supergeometry]]
+
+* [[10d super Yang-Mills theory]], [[IKKT matrix model]]
+
 category: people
