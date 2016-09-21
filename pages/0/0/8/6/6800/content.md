@@ -9,7 +9,7 @@
 | [[D0-brane]]   |        $\,$                     | $\,$ |   [[BFSS matrix model]]
 | [[D2-brane]]   |        $\,$                     | $\,$ |      $\,$
 | [[D4-brane]]   |        $\,$                     | $\,$ | [[D=5 super Yang-Mills theory]] with [[Khovanov homology]] [[observables]]
-| [[D6-brane]]   |        $\,$                     | $\,$ |   |
+| [[D6-brane]]   |        $\,$                     | $\,$ |  [[D=7 super Yang-Mills theory]] |
 | [[D8-brane]]   |        $\,$                     | $\,$ |   |
 |**$(D = 2n+1)$**|[[type IIB supergravity|type IIB]]| $\,$ |          $\,$
 | [[D(-1)-brane]]   |        $\,$                     | $\,$ | $\,$
