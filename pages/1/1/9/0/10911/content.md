@@ -34,10 +34,15 @@ In ([Kim-Nishimura-Tsuchiya 12](#KimNishimuraTsuchiya12)) it is claimed that com
 
 The original articles are
 
-* N. Ishibashi, H. Kawai, Y. Kitazawa, A. Tsuchiya, _A Large-N Reduced Model as Superstring_, Nucl.Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115))
- {#IKKT96}
+* {#IKKT96} N. Ishibashi, H. Kawai, Y. Kitazawa, A. Tsuchiya, _A Large-N Reduced Model as Superstring_, Nucl.Phys. B498 (1997) 467-491 ([arXiv:hep-th/9612115](http://arxiv.org/abs/hep-th/9612115))
+ 
 
 * H. Aoki, S. Iso, H. Kawai, Y. Kitazawa, T. Tada, A. Tsuchiya, _IIB Matrix Model_, Prog.Theor.Phys.Suppl.134:47-83,1999 ([arXiv:hep-th/9908038](http://arxiv.org/abs/hep-th/9908038))
+
+See also
+
+* [[Mikhail Movshev]], [[Albert Schwarz]], _On maximally supersymmetric Yang-Mills theories_, Nucl.Phys. B681 (2004) 324-350 ([arXiv:hep-th/0311132](https://arxiv.org/abs/hep-th/0311132))
+
 
 Arguments that full [[Yang-Mills theory]] generalized to [[noncommutative geometry]] is recovered as the [[perturbation theory]] around classical solutions of the IKKT model are in 
 
