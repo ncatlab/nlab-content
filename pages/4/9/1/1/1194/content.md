@@ -575,6 +575,12 @@ The concept of typing in the [[foundations of mathematics]] is implicit in [[Got
 
 * {#Russell03} [[Bertrand Russell]], appendix of _[The principles of mathematics](http://en.wikipedia.org/wiki/The_Principles_of_Mathematics)_ 1903 ([online](http://fair-use.org/bertrand-russell/the-principles-of-mathematics/appendix-b))
 
+where it has the famous passage
+
+> Every propositional function $\phi(x)$ &#8212; so it is contended - has, in addition to its range of truth, a range of significance, i.e. a range in which $x$ must lie if $\phi(x)$ is to be a proposition at all, whether true or false. This is the first point in the theory of types; the second point is that ranges of significance form types, i.e. if $x$ belongs to the range of significance of $\phi(x)$, then there is a class of objects, the type of $x$, all of which must also belong to the range of significance of $\phi(x)$, however $\phi$ may be varied;
+
+Also
+
 * {#RussellWhitehead10} [[Bertrand Russell]], [[Alfred Whitehead]],  _[[Principia Mathematica]]_, 1910
 
 and later work by Russell, where it is used to prevent [[paradoxes]] of [[set theory]] such as the [[liar's paradox]] (via a "[[ramified type|ramified hierarchy]]" of types) and [[Russell's paradox]] (via an "extensional hierarchy" of types). This then evolved into the "[[simple type theory]]":
