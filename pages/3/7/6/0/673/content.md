@@ -75,6 +75,10 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Selected Talks 
 
+* _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](http://math.colorado.edu/seminars/?view=poid), University of Colorado, Boulder. 1 December 2016.
+
+* _TBA_, [Kempner Colloquium](https://math.colorado.edu/seminars/?view=kemp), University of Colorado, Boulder. 29 November 2016.
+
 * _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
 
 * _Class forcing and topos theory_, [Topos a IHES](https://indico.math.cnrs.fr/event/747/), IHES, 27 November 2015. ([Abstract](https://indico.math.cnrs.fr/event/747/session/0/contribution/27/material/1/0.pdf)), ([Video](https://youtu.be/4AaSySq8-GQ))
