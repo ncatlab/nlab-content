@@ -304,6 +304,8 @@ This is ([[Spectral Schemes|Lurie "Spectral Schemes", remark 1.2]]).
 
 See at _[[sheaf of spectra]]_ and _[[model structure on presheaves of spectra]]_ for more.
 
+### As categories of modules over $A_\infty$-ring(oid)s
+ {#AsCategoriesOfModules}
 
 In terms of ([[stable model category|stable]]) [[model category|model categories]], something like an analog of this statement is 
 ([Schwede-Shipley, theorem 3.3.3](#SchwedeShipley)):
