@@ -94,6 +94,10 @@ Russell discusses the paradox extensively in chapter X of
 
 * B. Russell, _The Principles of Mathematics_ , Cambridge UP 1903.
 
+The influence of Poincar&#233;'s views shows in
+
+* B. Russell, _Les paradoxes de la logique_ , Revue de m&#233;taphysique et de morale **14** no.5 (1906) pp.627-650. ([gallica](http://gallica.bnf.fr/ark:/12148/bpt6k11064n))
+
 Discussion of a paradox similar to Russell's in [[type theory]] with [[W-types]] is in 
 
 * [[Thierry Coquand]], _The paradox of trees in Type Theory_ (1991) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.1953))
