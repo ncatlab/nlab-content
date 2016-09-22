@@ -140,7 +140,9 @@ And then there is the [[KO-dimension]].
 
 * [[spectral action]]
 
-* [[higher category theory and physics]]: <a href="http://ncatlab.org/nlab/show/higher+category+theory+and+physics#SpecStandModAndGravity">Spectral standard model and gravity</a>
+* [[Connes-Lott-Chamseddine model]]
+
+* [[higher category theory and physics]]: _[Spectral standard model and gravity](higher+category+theory+and+physics#SpecStandModAndGravity)_
 
 * [[(1,1)-dimensional Euclidean field theories and K-theory]]
   
