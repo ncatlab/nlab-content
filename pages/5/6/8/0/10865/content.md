@@ -1,5 +1,5 @@
 
-> In ([Lawvere 67](#Lawvere67), [Lawvere 86](#Lawvere86), [Lawvere 97](#Lawvere79)) was proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page here gives an introductory survey of the refinements possible when lifting this from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]] and of the applications of the resulting formalism to [[quantum field theory]].
+> In ([Lawvere 67](#Lawvere67), [Lawvere 86](#Lawvere86), [Lawvere 97](#Lawvere79)) there was proposed a notion of _[[toposes of laws of motion]]_ meant to formalize [[classical mechanics|classical]] [[continuum mechanics]] in [[synthetic differential geometry]]/in [[topos theory]]. This page here gives an introductory survey of the refinements possible when lifting this from [[topos theory]] to [[(infinity,1)-topos theory|higher topos theory]] and of the applications of the resulting formalism to [[quantum field theory]].
 
 > This text originates in a [talk](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#TalkAt8thScottishCategorySeminar) at the _[Eighth Scottish Category Theory Seminar](http://homepages.inf.ed.ac.uk/als/SCT/sct131129.html)_. Accordingly, these notes amplify aspects of [[category theory]] and [[topos theory]] and generally stick to a [[William Lawvere|Lawverian]] perspective. 
 
@@ -51,7 +51,7 @@ Since then a list of such axiomatizations has been found, for instance
 | [[TFT|topological]] [[local quantum field theory]] | [[monoidal (∞,n)-category]] theory |
 | $\vdots$ | $\vdots$ |
 
-Two aspects of this list are noteworthy: one the one hand, it contains crown jewels of mathematics, on the other the items appear unrelated and piecemeal.
+Two aspects of this list are noteworthy: on the one hand, it contains crown jewels of mathematics, on the other the items appear unrelated and piecemeal.
 
 As a student, [[William Lawvere]] was exposed to the proposal to axiomatize [[thermodynamics]] as what was called "[[rational thermodynamics]]". He realized that a fundamental [[foundation]] of such [[continuum physics]] first of all requires a good foundation of [[differential geometry]] itself. 
 Looking over his life publication record (see [[William Lawvere|here]]) one sees that he pursued the following grand plan.
@@ -257,7 +257,7 @@ $$
 
 be the inclusion of the first order [[infinitesimally thickened point|infinitesimal]] neighbourhood of the origin of $\mathbb{R}$ -- in the [[internal logic]] this is $D = \{x \in \mathbb{R}| x^2 = 0\}$, externally it is the [[spectrum of a commutative ring|spectrum]] of the [[ring of dual numbers]] over $\mathbb{R}$.
 
-Then for $X \in \mathbf{H}$ any [[object]] which we are going to think of as a [[configuration space]] of a [[physical system]]. For instance if the system is a [[particle]] propagating on a [[spacetime]], then $X$ is that spacetime. Or $X$ may be the [[phase space]] of the system.
+Then consider $X \in \mathbf{H}$ any [[object]] which we are going to think of as a [[configuration space]] of a [[physical system]]. For instance if the system is a [[particle]] propagating on a [[spacetime]], then $X$ is that spacetime. Or $X$ may be the [[phase space]] of the system.
 
 Accordingly the [[mapping space]] $[\mathbb{R}, X] \in \mathbf{H}$ is the [[smooth space|smooth]] [[path space]] of $X$. This is the space of potential [[trajectories]] of the [[physical system]].
 
@@ -348,7 +348,7 @@ $$
 
 where $\exp(t \{H,-\})$ denotes the [[flow]] of [[Hamilton's equations of motion]] induced by $H$ and where $S_t = \int_0^t L \, d t$ is the [[Hamilton-Jacobi action]] given by the [[integration|integral]] of the [[Lagrangian]] $L$ (the [[Legendre transform]] of $H$). 
 
-This statement subsumes the core incredients of [[classical mechanics]]. See at _[[prequantized Lagrangian correspondence]]_ for details.
+This statement subsumes the core ingredients of [[classical mechanics]]. See at _[[prequantized Lagrangian correspondence]]_ for details.
 
 In conclusion we find that $\mathbb{R}$-[[actions]] in the higher slice topos $\mathbf{H}_{/\mathbf{B}S^1_{conn}}$ over the [[moduli stack]] of [[circle group]]-[[principal connections]] are equivalent to actual [[laws of motion]] in [[classical mechanics]]
 
@@ -414,7 +414,7 @@ We close here by briefly indicating one example problem of recent interest, conc
 
 One reason why the need for geometric homotopy theory in QFT is not mentioned  in the bulk of the QFT literature is that traditionally the bulk of the discussion of [[quantum field theory]] is in [[perturbation theory]] (perturbative both in [[Planck's constant]] and in terms of the [[coupling constant]]). This perspective tends to hide the rich nature of what QFT fundamentally is, as [[non-perturbative quantum field theory]].
 
-Phenomena that arise from the global structure of a [[moduli]] of [[field (physics)|field]] configurations in [[physics]] are alien to [[perturbation theory]], and hence are _[[quantum anomaly|anomalies]]_. Such an [anomalous action functionals](quantum+anomaly#AnomalousActionFunctional) is something that ought to be a [[function]] $[\Sigma,X] \longrightarrow S^1$ on configuration space, but possibly comes out just as a [[section]] of a [[bundle]] over configuration space (examples include [[gravitational anomaly|gravitational anomalies]], the [[conformal anomaly]], the [[Freed-Witten-Kapustin anomaly]], the [[Green-Schwarz anomaly]], the [[Diaconescu-Moore-Witten anomaly]].)
+Phenomena that arise from the global structure of a [[moduli]] of [[field (physics)|field]] configurations in [[physics]] are alien to [[perturbation theory]], and hence are _[[quantum anomaly|anomalies]]_. Such an [anomalous action functional](quantum+anomaly#AnomalousActionFunctional) is something that ought to be a [[function]] $[\Sigma,X] \longrightarrow S^1$ on configuration space, but possibly comes out just as a [[section]] of a [[bundle]] over configuration space (examples include [[gravitational anomaly|gravitational anomalies]], the [[conformal anomaly]], the [[Freed-Witten-Kapustin anomaly]], the [[Green-Schwarz anomaly]], the [[Diaconescu-Moore-Witten anomaly]].)
 
 The anomaly bundles on $[\Sigma,X]$ typically arise as the [[transgression]] of [[principal infinity-bundles|higher bundles]] on the [[moduli space]] of [[field (physics)|fields]] $X$ itself (see at [[twisted smooth cohomology in string theory]] for more on this).  So these are phenomena which are intrinsically phenomena in [[geometric homotopy theory]]/[[(infinity,1)-topos theory]].
 
@@ -443,7 +443,7 @@ $$
 called: [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]].
 
 This has an immediate extension to [[homotopy type theory]] ([[cohesive homotopy type theory]]). But there it has more dramatic consequences. In
-([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that on [[stable homotopy types]] $A$ cohesion implies that the canonical diagram formed from modality units and couunits 
+([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it was observed that on [[stable homotopy types]] $A$ cohesion implies that the canonical diagram formed from modality units and counits 
 
 $$
   \array{
@@ -460,9 +460,9 @@ $$
   \,,
 $$
 
-is guaranteed to consist of [[homotopy pullback]] squares, by the nature of [[adjoint triples]] of [[modalities]] (See at _[[tangent cohesion]]_ for more on this). 
+is guaranteed to consist of [[homotopy pullback]] squares, by the nature of [[adjoint triples]] of [[modalities]] (see at _[[tangent cohesion]]_ for more on this). 
 
-In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) is is found that this is universally the "differential cohomology diagram" which hence exhibits _every_ [[stable homotopy type]] $A$ in [[cohesive homotopy type theory]] as a [[differential cohomology theory]], hence as the [[moduli stack]] for abelian [[higher gauge fields]] in [[quantum field theory]].  Hence [[cohesive homotopy type theory]] is a universal ambient context for [[differential cohomology]] and hence for [[higher gauge fields]] appearing in [[quantum field theory]] -- whence the title "[[schreiber:differential cohomology in a cohesive topos]]".
+In ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)) it is shown that this is universally the "differential cohomology diagram" which hence exhibits _every_ [[stable homotopy type]] $A$ in [[cohesive homotopy type theory]] as a [[differential cohomology theory]], hence as the [[moduli stack]] for abelian [[higher gauge fields]] in [[quantum field theory]].  Hence [[cohesive homotopy type theory]] is a universal ambient context for [[differential cohomology]] and hence for [[higher gauge fields]] appearing in [[quantum field theory]] -- whence the title "[[schreiber:differential cohomology in a cohesive topos]]".
 
 Using this and the [[twisted cohomology]] available in [[tangent cohesion]] ([Bunke-Nikolaus](#BunkeNikolaus)) show the existence of [[twisted differential K-theory]], the way it needs to exist for 2d QFT to be consistent.
 
