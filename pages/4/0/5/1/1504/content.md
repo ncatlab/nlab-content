@@ -223,6 +223,12 @@ $$
   \,.
 $$
 
+This immediately gives the [[equations of motion]] by variation with respect to $\Psi$ ([Zwiebach, (4.46)](#Zwiebach)). The analogous statement for the [[superstring]] in in ([Sen 15 (2.22)](#Sen15)).
+
+
+(See also at _[string theory FAQ -- What are the equations of string theory?](https://ncatlab.org/nlab/show/string+theory+FAQ#WhatAreTheEquations)_).
+
+
 ### As an $\infty$-Chern-Simons theory
  {#AsAnInfinityCSTheory}
 
@@ -587,7 +593,7 @@ Reviews include
 
 More recently there is
 
-* [[Ashoke Sen]], _BV Master Action for Heterotic and Type II String Field Theories_, JHEP02(2016)087 ([arXiv:1508.05387](http://arxiv.org/abs/1508.05387))
+* {#Sen15} [[Ashoke Sen]], _BV Master Action for Heterotic and Type II String Field Theories_, JHEP02(2016)087 ([arXiv:1508.05387](http://arxiv.org/abs/1508.05387))
 
 with further developments in
 
