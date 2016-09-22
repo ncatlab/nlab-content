@@ -1,9 +1,10 @@
-I'm a postdoctoral research fellow in the Mathematics Institute of the [University of G&#246;ttingen](http://www.uni-goettingen.de/de/20693.html), 
-and a member of the [Courant Research Centre on Higher Order Structures in Mathematics](http://www.crcg.de/wiki/Main_Page).
+I'm an assistant professor of mathematics at the [University of Nevada, Reno](http://www.unr.edu/math/).
+ 
+My research lies on the interface between algebraic topology, geometry, and mathematical physics. I am particularly interested in the role that homotopy theoretic and higher categorical structures play in quantization.
 
 My Ph.D thesis was on [[higher symplectic geometry]], and was supervised by [[John Baez]]. 
 
-More information (current research interests, publications, etc.) can be found [here](http://www.uni-math.gwdg.de/crogers/).
+More information (current research projects, publications, etc.) can be found [here](https://sites.google.com/site/chrisrogersmath/home).
 
 
 category: people
