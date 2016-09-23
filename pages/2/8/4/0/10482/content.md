@@ -416,7 +416,7 @@ $$
 
 In all of the above we used the sign rule induced by setting up all mathematical concepts [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] or [[internalization|internal]] the [[topos]] over [[superpoints]].
 
-There is another sign convention in the literature, for instance in ([](#Fuchs)). In this convention one considers the map
+There is another sign convention in the literature, for instance in ([Castellani-D'Auria-Fre 91, equation (II.2.106)](#CastellaniDAuriaFre91)). In this convention one considers the map
 
 $$
   ((-)+(-))_{mod\, 2}
@@ -600,4 +600,6 @@ which in turn appears in
 
 ### Super odd sign rule
 
-* Fuks, Lie algebra cohomology
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equation (II.2.106) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+
