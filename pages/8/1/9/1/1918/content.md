@@ -156,7 +156,7 @@ Specific examples should be found on the pages for specific separation axioms.
 
 ## References
 
-The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom), but since I wrote that too, it\'s not really an independent source.  But you can check the references there!
+The English Wikipedia has [a decent article](http://secure.wikimedia.org/wikipedia/en/wiki/Separation_axiom), but since I ([[Toby Bartels]]) wrote that too, it\'s not really an independent source.  But you can check the references there!
 
 
 [[!redirects topologically distinct points]]
