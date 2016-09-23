@@ -59,7 +59,7 @@ This we discuss below in _[The super odd sign rule](#SuperOddConvention)_.
 ## The sign rule from internalization
  {#TheSignRuleFromInternalization}
 
-Here and in the following we adopt the perpective that [[homological algebra]] in [[superalgebra]] is concerned with the study of [[chain complexes]] [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] ([Deligne 90](#Deligne90)) or equivalently internal to the [[topos]] over [[superpoints]] ([Schwarz 84](#Schwarz84)). This means that there are two contributions to the sign when exchanging two terms, one from the cohomological grading, one from the super-grading. This is "the sign rule" also used in  ([Deligne-Freed 99, section 6](#DeligneFreed99)). 
+Here and in the following we adopt the perpective that [[homological algebra]] in [[superalgebra]] is concerned with the study of [[chain complexes]] [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] ([Deligne 90](#Deligne90)) or equivalently internal to the [[topos]] over [[superpoints]] ([Schwarz 84](#Schwarz84)). This means that there are two contributions to the sign when exchanging two terms, one from the cohomological grading, one from the super-grading. This is "the sign rule" also used for instance in  ([Castellani-D'Auria-Fr&#233; 91, equation (II.2.106)](#CastellaniDAuriaFre91), [Deligne-Freed 99, section 6](#DeligneFreed99)). 
 
 There is however also a different sign rule use in the literature, the relation to which we discuss [below](#SuperOddConvention).
 
@@ -416,7 +416,7 @@ $$
 
 In all of the above we used the sign rule induced by setting up all mathematical concepts [[internalization|internal]] to the [[symmetric monoidal category]] of [[super vector spaces]] or [[internalization|internal]] the [[topos]] over [[superpoints]].
 
-There is another sign convention in the literature, for instance in ([Castellani-D'Auria-Fre 91, equation (II.2.106)](#CastellaniDAuriaFre91)). In this convention one considers the map
+There is another sign convention in the literature, for instance in (...). In this convention one considers the map
 
 $$
   ((-)+(-))_{mod\, 2}
@@ -583,9 +583,10 @@ The [[internalization]] into the [[topos]] over [[superpoints]] is due to
 
 * {#Schwarz84} [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
   
+The corresponding internal sign rule appears for instance in 
 
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equation (II.2.106) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-Some instances of the resulting internal sign sule are listed in
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_, 1999 ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
    
@@ -600,6 +601,5 @@ which in turn appears in
 
 ### Super odd sign rule
 
-* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equation (II.2.106) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
-
+...
 
