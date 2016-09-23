@@ -26,7 +26,7 @@ If $I \hookrightarrow C$ is a [[reflective subcategory]], then it is an exponent
 
 =--
 
-This appears for instance as ([Johnstone, A4.3.1](#Johnstone)). See also at _[[reflective subuniverse]]_.
+This appears for instance as ([Johnstone, A4.3.1](#Johnstone)). See also at _[[reflective subuniverse]]_.  Note that in this case $I$ is itself a [[cartesian closed category]], since being a reflective subcategory it is also closed under finite products.
 
 
 ## References
