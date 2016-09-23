@@ -17,6 +17,13 @@
 
 _Time_ is what passes along a [[time-like curve]]. The [[pseudo-Riemannian manifold|pseudo-Riemannian]] [[volume]] of a piece of such curve is the _proper time_.
 
+## Philosophy of Time
+
+Much debate here has focused on the rival pictures of time present by '$A$ series' and 'B series' views (see [SEP: Time](http://plato.stanford.edu/entries/time/)). The $A$ series view sees time as something that flows or passes, and privileges the particularity of the present moment. The $B$ series takes all moments to have equal ontological status. '$A$ properties' make reference to the present (20 years ago, next week), while '$B$ properties' only invoke relational notions of before and after (1987, the first Sunday after this year's Spring equinox). 
+
+$B$-theorists claim they have science on the side, in particular the [[theory of general relativity]] viewing the world as a four-dimensional manifold. $A$-theorists may maintain that the $B$-theory makes no sense of the lived dynamic experience of cause and change.
+
+
 ##Connes on the Emergence of Time
 
 * [Temps et Al&#233;a du Quantique](https://www.youtube.com/watch?v=ODAngTW8deg), IHES, April 2015. (English)
