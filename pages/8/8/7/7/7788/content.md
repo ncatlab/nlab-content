@@ -143,6 +143,9 @@ and was further explored in
 
 * {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
+* {#West16} [[Peter West]], _A brief review of E theory_ ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863))
+
+
 Relation to [[exceptional field theory]] is discussed in
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ and exceptional field theory_ ([arXiv:1507.08912](http://arxiv.org/abs/1507.08912))
