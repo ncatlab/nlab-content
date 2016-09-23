@@ -932,8 +932,11 @@ $$
 of remark \ref{BilinearPairingForRealRepresentations},  the first is given by 
 
 $$
-  (\psi,\phi)\mapsto \overline\psi\phi \coloneqq 
-  \overline{\psi} \phi \coloneqq Re(\psi^\dagger \Gamma^0 \phi)
+  (\psi,\phi)
+    \mapsto 
+  \overline\psi\phi 
+    \coloneqq 
+  Re(\psi^\dagger \Gamma^0 \phi)
 $$
 
 and the second is characterized by
