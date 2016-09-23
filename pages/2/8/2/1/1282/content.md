@@ -19,22 +19,129 @@ For examples of the other [[universal construction]]s see
 
 * [[examples of Kan extensions]]
 
-#Contents#
+# Contents
+* table of contents
+{: toc}
 
-* [Examples of limits](#examplesoflimits)
+## Limits and colimits in Set {#limcoliminset}
 
-  * [Simple diagrams](#limitssimplediagrams)
+In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
 
-  * [Filtered limits](#filteredlimits)
+* [[cartesian product]] of sets
+* [[disjoint union]] of sets
+* [[subset]]s defined by equations
+* [[quotient set]]s of equivalence classes.
 
-  * [In term of other operations](#limitsintermsofotherops)
+### Terminal object
+The [[terminal object]] is the limit of the empty functor $F: \emptyset \to Set$. So a [[terminal object]] of $Set$ is a set $X$ such that there is a unqiue function from any set to $X$. This is given by any [[singleton]] set $\{a\}$, where the unique function $Y \to \{a\}$ from any set $Y$ is the function that sends every element in $Y$ to $a$.
 
-  * [Limits and colimits in Set](#limcoliminset)
- 
-  * [Limits in presheaf categories](#limitsinpresheafcat)
+### Initial object
+(...)
 
-  * [limits in under categories](#limitsinundercat)
+### Product
+Given two sets $A, B$, the categorical [[product]] is the usual product of sets, which can be constructed as the set of [[Kuratowski pairs]]
+$$
+  A \times B = \{ \{\{a\}, \{a, b\}: a \in A, b \in B\}.
+$$
+We write $(a, b) = \{\{a\}, \{a, b\}\}$.
 
+The projection maps $\pi_1: A \times B \to A$ and $\pi_2: A \times B \to B$ are given by
+$$
+  \pi_1(a, b) = a, \pi_2(a, b) = b.
+$$
+
+To see this satisfies the universal property of products, given any pair of maps $f: X \to A$ and $g: X \to B$, we obtain a map $(f, g): X \to A \times B$ given by
+$$
+  (f, g)(x) = (f(x), g(x)).
+$$
+
+### Coproduct
+(...)
+
+### Equalizer
+Given a diagram
+$$
+\array{
+X & \underset{g}{\overset{f}{\rightrightarrows}} & Y
+},
+$$
+the limit of the diagram is the [[equalizer]] of the two arrows, is given by
+$$
+  \{x \in X: f(x) = g(x)\}.
+$$
+(.. explanation of construction ..)
+
+### Coequalizer
+(...)
+
+### Pullback
+The limit of a diagram of the form
+$$
+\array{
+  & & A\\
+  & & \downarrow^\mathrlap{f}\\
+  B & \underset{g}{\to} & C
+}
+$$
+is also known as the [[pullback]], given by
+$$
+  \{(a, b) \in A \times B: f(a) = g(b)\},
+$$
+with the maps to $A$ and $B$ given by the projections.
+
+While the definition of a pullback is symmetric in $f$ and $g$, it is usually convenient to think of this as pulling back $f$ along $g$ (or the other way round). This has more natural interpretations in certain special cases.
+
+If $g: B \to C$ is the inclusion of a subset (ie. is a [[monomorphism]]), then the pullback of $f$ along $g$ is given by
+$$
+  \{a \in A: g(a) \in B\}.
+$$
+So this is given by restricting $f$ to the elements that are mapped into $B$.
+
+Alternatively, we can view the map $f: A \to C$ as a collection of sets indexed by elements of $C$, where the set indexed by $c \in C$ is given by $A_c = f^{-1}(c)$. Under this interpretation, pulling $f$ back along $g$ gives a collection of sets indexed by elements of $B$, where the set indexed by $b \in B$ is given b $A_{g(b)}$.
+
+### Pushout
+(...)
+
+### General limits
+The limit over a [[Set]]-valued functor $F : D^{op} \to Set$ is a subset of the product $\prod_{d \in Obj(d)} F(d)$ of all objects:
+$$
+  lim F = \left\{ (s_d)_d \in \prod_d F(d) | \forall (d \stackrel{f}{\to} d') : F(f)(s_{d}) = s_{d'}  \right\}.
+$$
+
+Abstractly, the limit can be described as follows:
+
+  * the limit over any $F : D \to Set$ is the set of [[natural transformations]] from the diagram constant on the [[point]] to $F$, ie.
+$$
+  lim F = [D, Set](const_{pt}, F).
+$$
+
+  * This is equivalently the set of [[global elements]] of $F$.
+
+  * Therefore for every set $X$, there is a natural bijection $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of the functor $Set(X,F(-)) : D \to Set$.
+
+### General colimits
+The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
+  $$ 
+    colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
+  $$
+  where the equivalence relation $\sim$ is that which is _generated_ by 
+  $$
+    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') with F(f)(x) = x')
+  \,.
+  $$
+  If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
+
+## Limits and Colimits in Grp
+(..)
+
+## Limits and Colimits in Top
+(..)
+
+## Limits and Colimits in a preordered set
+(..)
+
+## Limits and Colimits in functor categories
+(..)
 
 #Examples of limits {#examplesoflimits}
 
@@ -86,41 +193,6 @@ in terms of a subset of a product set.
 
 In particular therefore, a category has all limits already if it has all products and equalizers.
 
-
-## Limits and colimits in Set {#limcoliminset}
-
-In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to the very familiar operations of 
-
-* [[cartesian product]] of sets
-* [[disjoint union]] of sets
-* [[subset]]s defined by equations
-* [[quotient set]]s of equivalence classes.
-
-Conversely, [[limit]]s and [[colimit]]s in other categories may be regarded as generalizations of these concepts to things other than plain sets.
-
-
-* the limit over any $F : D^{op} \to Set$ is $lim F = [D^{op}, Set](const_{pt}, F)$ -- this is equivalently
-
-  * the set of [[nLab:natural transformation|natural transformations]] from the diagram constant on the [[nLab:point|point]] to $F$
-
-  * the set of [[nLab:global element|global element]]s of $F$;
-
-* therefore for every set $X$, there is a natural bijection
-$Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of the functor $Set(X,F(-)) : D^{op} \to Set$.
-
-
-* the limit over a [[nLab:Set|Set]]-valued functor $F : D^{op} \to Set$ is a subset of the product $\Pi_{d \in Obj(d)} F(d)$ of all objects: $lim F = \left\{ (s_d)_d \in \prod_d F(d) | for all (d \stackrel{f}{\to} d') : F(f)(s_{d'}) = s_d  \right\}$.
-
-* the colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
-  $$ 
-    colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
-  $$
-  where the equivalence relation $\sim$ is that which is _generated_ by 
-  $$
-    ((x \in F(d)) \sim (x' \in F(d'))) if (\exists (f : d \to d') with F(f)(x) = x')
-  \,.
-  $$
-  If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
 
 ### Limits in presheaf categories {#limitsinpresheafcat}
