@@ -269,6 +269,9 @@ A brief survey is in
 
 * {#HohnholdSolzTeichner11} [[Henning Hohnhold]], [[Stephan Stolz]], [[Peter Teichner]], _Super manifolds: an incomplete survey_, Bulletin of the Manifold Atlas (2011) 1&#8211;6 ([pdf](http://people.mpim-bonn.mpg.de/teichner/Papers/Survey-Journal.pdf))
 
+Discussion with an eye towards [[supergravity]] is in 
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.2.4 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 Discussion with an eye on [[integration over supermanifolds]] is in
 
