@@ -44,7 +44,7 @@ $$
 
 
 
-It turns out  that such [[differential cohomology diagrams]] are exactly what all [[stable homotopy types]] in [[cohesive (∞,1)-toposes]] $\mathbf{H}$ naturally sit in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)). All the traditional differential cohomology theories and their joint generalization due to ([Hopkins-Singer 02](#HopkinsSinger02)) are special cases of this for the case that $\mathbf{H} = T Smooth \infty Grod$ is the [[tangent cohesive (∞,1)-topos]] of that of [[smooth ∞-groupoids]] ([[∞-stacks]] over the [[site]] of [[smooth manifolds]]).
+It turns out  that such [[differential cohomology diagrams]] are exactly what all [[stable homotopy types]] in [[cohesive (∞,1)-toposes]] $\mathbf{H}$ naturally sit in ([Bunke-Nikolaus-V&#246;lkl 13](#BunkeNikolausVoelkl13)). All the traditional differential cohomology theories and their joint generalization due to ([Hopkins-Singer 02](#HopkinsSinger02)) are special cases of this for the case that $\mathbf{H} = T Smooth \infty Grpd$ is the [[tangent cohesive (∞,1)-topos]] of that of [[smooth ∞-groupoids]] ([[∞-stacks]] over the [[site]] of [[smooth manifolds]]).
 
 It is therefore natural to _define_ differential cohomology to be the intrinsic [[cohomology]] of [[cohesive (∞,1)-toposes]]. (Notice that while the [[differential cohomology diagram]] itself only involves the [[shape modality]] and the [[flat modality]] of [[cohesion]], the [[sharp modality]] is needed to produce, via [[differential concretification]], the correct [[moduli stacks]] of differential cocycles over a given base object from the [[mapping stack]] of that into the representing [[stable homotopy type]]).
 
@@ -92,7 +92,7 @@ Other examples:
 
 ## Differential stable cohomology 
 
-> the following are ancient notes that need to be brueshed up and polished.
+> the following are ancient notes that need to be brushed up and polished.
 
 
 ### Characterization following Hopkins-Singer 
