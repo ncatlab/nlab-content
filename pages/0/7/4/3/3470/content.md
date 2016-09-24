@@ -1,4 +1,4 @@
-An element of a [[ring]] (or [[rig]]) or [[lattice]] is called __prime__ if the [[ideal]] that it generates a [[prime ideal]].
+An element of a [[ring]] (or [[rig]]) or [[lattice]] is called __prime__ if the [[ideal]] that it generates a [[prime ideal]] (thus a principal prime ideal).
 
 Note that by this definition [[zero]] is a prime element of the [[rig]] of [[natural numbers]], although it is not a [[prime number]].  Prime numbers correspond more closely to [[maximal ideals]] than to prime ideals.
 
