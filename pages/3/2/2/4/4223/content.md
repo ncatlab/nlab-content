@@ -177,7 +177,7 @@ in positive degree.
 
 A nice account collecting all the necessary background (in [[differential geometry]]) is in
 
-* Daniel Litt, _The Poincar&#233; lemma and de Rham cohomology_ ([Harvard College Mathematics Review](http://www.thehcmr.org/node/14): [pdf](http://www.thehcmr.org/issue1_2/poincare_lemma.pdf))
+* Daniel Litt, _The Poincar&#233; lemma and de Rham cohomology_ ([pdf](http://math.stanford.edu/~dlitt/exposnotes/poincare_lemma.pdf))
 
 Discussion in [[complex analytic geometry]] is in 
 
