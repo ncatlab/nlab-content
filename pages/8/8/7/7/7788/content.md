@@ -116,7 +116,17 @@ A precursor to ([West 01](#West01)) is
 
 as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
 
-Further developments include
+The way that elements of [[cosets]] of the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] may encode [[equations of motion]] of [[11-dimensional supergravity]] follows previous considerations for [[Einstein equations]] in 
+
+* [[Abdus Salam]], J. Strathdee, _Nonlinear realizations. 1: The Role of Goldstone bosons, Phys. Rev. 184 (1969) 1750, 
+
+* [[Chris Isham]], [[Abdus Salam]], J. Strathdee, _Spontaneous, breakdown of conformal symmetry_, Phys. Lett. 31B (1970) 300.
+
+* A. Borisov, V. Ogievetsky, _Theory of dynamical affine and conformal symmetries as gravity theory of the gravitational field_, Theor. Math. Phys. 21 (1975) 1179; 
+
+* V. Ogievetsky, _Infinite-dimensional algebra of general covariance group as the closure of the finite dimensional algebras of conformal and linear groups_, Nuovo. Cimento, 8 (1973) 988.
+
+Further developments of the proposed $E_{11}$ formulation of [[M-theory]] include
 
 * [[Peter West]], _$E_{11}$, ten forms and supergravity_, JHEP0603:072,2006 ([arXiv:hep-th/0511153](http://arxiv.org/abs/hep-th/0511153))
 
