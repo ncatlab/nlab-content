@@ -85,7 +85,7 @@ The suggestion to understand, conversely, the [[string theory|string]]'s [[world
 
 which claims to show that the corresponding [[spectral action]] reproduces the correct effective background action known in [[string theory]]. A more expository account of this perspective is in
 
-* {#Fr&#246;hlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], section 7.2 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
+* {#Fr&#246;hlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], section 7 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
 
 A more formal derivation of how ordinary [[spectral triples]] arise as point particle limits of [[vertex operator algebra]]s for [[2d SCFTs]] then appears in
