@@ -100,6 +100,8 @@ $$
 $$
 So this is given by restricting $f$ to the elements that are mapped into $B$.
 
+Further, if $f: A \to C$ is *also* the inclusion fo a subset, so that $A$ and $B$ are both subobjects of $C$, then the above formula tells us that the pullback is simply the intersection of the two subsets.
+
 Alternatively, we can view the map $f: A \to C$ as a collection of sets indexed by elements of $C$, where the set indexed by $c \in C$ is given by $A_c = f^{-1}(c)$. Under this interpretation, pulling $f$ back along $g$ gives a collection of sets indexed by elements of $B$, where the set indexed by $b \in B$ is given b $A_{g(b)}$.
 
 #### General limits
