@@ -106,11 +106,11 @@ Reviews include
 
 Original articles include the following:
 
-The observation that $E_{11}$ seems to neatly organite the structures in [[11-dimensional supergravity]]/[[M-theory]] is due to
+The observation that $E_{11}$ seems to neatly organize the structures in [[11-dimensional supergravity]]/[[M-theory]] is due to
 
-* {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001.
+* {#West01} [[Peter West]], _$E_{11}$ and M theory_, Class. Quant. Grav., 18:4443&#8211;4460, 2001. ([arXiv:hep-th/0104081](http://arxiv.org/abs/hep-th/0104081))
 
-A precursor to [West 01](#West01) is 
+A precursor to ([West 01](#West01)) is 
 
 * [[Bernard Julia]], _Dualities in the classical supergravity limits_ ([arXiv:hep-th/9805083](http://arxiv.org/abs/hep-th/9805083))
 
