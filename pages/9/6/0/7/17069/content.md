@@ -1,4 +1,5 @@
 [[!redirects Timaeus]]
+[[!redirects Timaios]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
