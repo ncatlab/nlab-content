@@ -24,10 +24,11 @@
 
 ## Idea
 
-[[SCFT]] in [[dimension]] $d = 2$, locally given by a [[super vertex operator algebra]]. 
+[[SCFT|Super-conformal field theory]] in [[dimension]] $d = 2$, locally given by a [[super vertex operator algebra]]. 
 
 For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]] of the [[superstring]].
 
+May be regarded as a "[[2-spectral triple]]" (see there for more), the 2-dimensional generalization of [[spectral triples]] describing the quantum mechnanics of [[spinning particles]] (super-particles).
 
 ## Examples
 
