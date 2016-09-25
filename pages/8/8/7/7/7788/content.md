@@ -103,6 +103,8 @@ Review includes
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
+* {#West16} [[Peter West]], _A brief review of E theory_ ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863))
+
 
 Original articles include the following:
 
@@ -116,13 +118,22 @@ A precursor to ([West 01](#West01)) is
 
 as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
 
-The way that elements of [[cosets]] of the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] may encode [[equations of motion]] of [[11-dimensional supergravity]] follows previous considerations for [[Einstein equations]] in 
+The derivation of the [[equations of motion]] of [[11-dimensional supergravity]] and maximally supersymmetric [[5d supergravity]] from a [[vielbein]] with values in the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] is due to
+
+* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+
+* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ must be a symmetry of strings and branes_, Physics Letters B Volume 759, 10 August 2016, Pages 663&#8211;671 ([arXiv:1512.01644](https://arxiv.org/abs/1512.01644))
+
+* Alexander G. Tumanov, [[Peter West]], _$E_{11}$ in $11d$_, Physics Letters B Volume 758, 10 July 2016, Pages 278&#8211;285 ([arXiv:1601.03974](https://arxiv.org/abs/1601.03974))
+
+
+This way that elements of [[cosets]] of the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] may encode [[equations of motion]] of [[11-dimensional supergravity]] follows previous considerations for [[Einstein equations]] in 
 
 * [[Abdus Salam]], J. Strathdee, _Nonlinear realizations. 1: The Role of Goldstone bosons, Phys. Rev. 184 (1969) 1750, 
 
 * [[Chris Isham]], [[Abdus Salam]], J. Strathdee, _Spontaneous, breakdown of conformal symmetry_, Phys. Lett. 31B (1970) 300.
 
-* A. Borisov, V. Ogievetsky, _Theory of dynamical affine and conformal symmetries as gravity theory of the gravitational field_, Theor. Math. Phys. 21 (1975) 1179; 
+* A. Borisov, V. Ogievetsky, _Theory of dynamical affine and conformal symmetries as the theory of the gravitational field_, Theor. Math. Phys. 21 (1973) 1179-1188 ([web](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=3902&option_lang=eng)) 
 
 * V. Ogievetsky, _Infinite-dimensional algebra of general covariance group as the closure of the finite dimensional algebras of conformal and linear groups_, Nuovo. Cimento, 8 (1973) 988.
 
@@ -151,9 +162,6 @@ and was further explored in
 
 * [[Peter West]], _$E_{11}$ origin of Brane charges and U-duality multiplets_, JHEP 0408 (2004) 052 ([arXiv:hep-th/0406150](http://arxiv.org/abs/hep-th/0406150))
 
-* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
-
-* {#West16} [[Peter West]], _A brief review of E theory_ ([arXiv:1609.06863](http://arxiv.org/abs/1609.06863))
 
 
 Relation to [[exceptional field theory]] is discussed in
