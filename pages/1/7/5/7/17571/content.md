@@ -44,6 +44,14 @@ Notice the proximity of the triads involved in such foundations to the mathemati
 
 To sum up: the concept of the absolute conclusion enjoys currently little popularity among philosophers not even among Hegelian philophers despite the importance Hegel attached to it. It might nevertheless be worthwhile to probe into this concept from the perspective of contemporary foundational theories in the mathematical sciences.
 
+## Some background
+
+Hegel apparently introduced the concept in his philosophy around 1800 in or shortly before the Jena period. He purloined it from Plato's _Timaios_-dialogue (32c):
+
+>But it isn't possible to combine two things well all by themselves, without a third; there has to be some bond between the two that unites them. Now the best bond is one that really and truly makes a unity of itself together with the things bonded by it, and this in the nature of things is accomplished by proportion. For whenever of three numbers which are either solids or squares the middle term between any two of them is such that what the first term is to it, it is to the first, then, since the middle term turns out to be both first and and last, and the last and first likewise both turn out to be middle terms, they will all of necessity turn out to have the same relationship to each other, and, given this, will all be unified.[^cite]  
+
+[^cite]: Translation by D. J. Zeyl, p.1237 in [Cooper (ed.) 1997](#Plato).
+
 ## Related entries
 
 * [[Aufhebung]]
@@ -61,6 +69,8 @@ To sum up: the concept of the absolute conclusion enjoys currently little popula
 * [[Timaios]]
 
 ## References
+
+* {#Plato} J. M. Cooper (ed.), _Plato - Complete Works_ , Hackett Indianapolis 1997.
 
 * {#Enzykl3} [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften III_ , Suhrkamp Frankfurt a. M 1986[1817, rev. 1830]. (&#167;569-571, pp.376f; &#167;575-77, pp.393f)
 
