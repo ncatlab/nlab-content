@@ -28,6 +28,11 @@ In generalization of this, a "2-spectral triple" should be the analogous algebra
 
 Of course such data is just that of a [[2d superconformal field theory]], realized locally for instance by a [[vertex operator algebra]] or by a [[conformal net]] of [[local net of observables|local observables]]. But for emphasis it may be useful to speak of such data as constituting a "2-spectral triple", for emphasizing more the important and intricate relation to the concept of [[spectral triples]], which in much of the literature seems to be unduly ignored.
 
+| [[quantum system]]    | [[supercharge]] | formalization | algebra | 
+|----------------------|---------|------------------------|-----|
+| quantum [[spinning particle]] | [[Dirac operator]] | [[spectral triple]]    | [[operator algebra]]
+| quantum [[spinning string]] |  [[Dirac-Ramond operator]] | [[2d SCFT]] | [[vertex operator algebra]] |
+
 That the 0-mode sector of a [[2d SCFT]] -- hence the quantum point [[particle]] limit of a quantum [[superstring]] dynamics -- yields a [[spectral triple]] was maybe first highlighted in ([Fr&#246;hlich-Gaw&#281;dzki 93](#FroehlichGawedzki93)) by way of a series of concrete examples, such as the [[WZW model]]. 
 
 Here the role of the [[Dirac operator]] of the spectral triple is played by the [[Dirac-Ramond operator]] of the [[superstring]], hence the operator whose [[index]] (in the [[large volume limit]]) is the [[Witten genus]]. 
@@ -90,11 +95,11 @@ which claims to show that the corresponding [[spectral action]] reproduces the c
 
 A more formal derivation of how ordinary [[spectral triples]] arise as point particle limits of [[vertex operator algebra]]s for [[2d SCFTs]] then appears in
 
-* {#RoggenkampWendland03} [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_ ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
+* {#RoggenkampWendland03} [[Daniel Roggenkamp]], [[Katrin Wendland]], _Limits and Degenerations of Unitary Conformal Field Theories_, Commun.Math.Phys. 251 (2004) 589-643 ([arXiv:hep-th/0308143](http://arxiv.org/abs/hep-th/0308143))
 
 summarized in
 
-* {#RoggenkampWendland08} [[Daniel Roggenkamp]], [[Katrin Wendland]], _Decoding the geometry of conformal field theories_ ([arXiv:0803.0657](http://arxiv.org/abs/0803.0657))
+* {#RoggenkampWendland08} [[Daniel Roggenkamp]], [[Katrin Wendland]], _Decoding the geometry of conformal field theories_, Proceedings of the 7th International Workshop "Lie Theory and Its Applications in Physics", Varna, Bulgaria ([arXiv:0803.0657](http://arxiv.org/abs/0803.0657))
 
 A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] on this matter is at
 
