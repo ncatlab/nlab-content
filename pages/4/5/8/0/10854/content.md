@@ -70,6 +70,16 @@ Viewed this way, this naturally generalizes to the case where $\mathbf{H}$ is in
 
 More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corresponding extensive object is the $\chi$-twisted [[Thom spectrum]] $R_{\bullet + \chi}(X)$ and the intensive object is the $\chi$-[[twisted cohomology]] [[spectrum]] $R^{\bullet + \chi}(X) = [R_{\bullet+ \chi}(X),R]_{R Mod}$. See at _[[motivic quantization]]_ for how this appears in [[physics]].
 
+## In modal homotopy type theory
+
+Assume we are working in the context of a [[cohesive (∞,1)-topos]], $\mathbf{H}$, with the three [[adjoint modalities]], [[shape modality]] $\dashv$ [[flat modality]] $\dashv$ [[sharp modality]] $\int \dashv \flat \dashv \sharp$.
+
+The types $X$ that are fully determined by their moment of continuity are those for which $X \to \sharp X$ is a [[monomorphism]]. In [[categorical semantics]] these are the [[concrete objects]] or equivalently the [[separated presheaves]] for $\sharp$: they are determined by their global points. These are the codomains of those [[functions]] which in [[thermodynamics]] one calls _intensive quantities_, functions whose value is genuinely given by their restriction to all possible points.
+
+Contrary to that, objects which have purely the [[negative moment]] of continuity $\overline{\sharp}$ are codomains for "functions" which vanish on points and receive their contribution only from regions that _extend_ beyond a single point. In [[thermodynamics]] these are called _extensive quantities_, (e.g. [[differential forms]] in positive degree). This concept of _extension_ is precisely that which gave the name to [[Hermann Grassmann]]'s _[[Ausdehnungslehre]]_ that introduced the concept of [[exterior algebra|exterior]] [[differential form]].
+
+So, the adjunction $(\flat \dashv \sharp)$ expresses _quantity_, discrete quantity and continuous quantity, and the latter is further subdivided into intensive and extensive quantity.
+
 
 ## References
 
