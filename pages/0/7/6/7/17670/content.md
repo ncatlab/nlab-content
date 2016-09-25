@@ -28,9 +28,36 @@ Moreover, the entire field content in one generation of [[fermions]] (i.e. [[ele
 
 ## References
 
+The basic mechanism was laid out in
+
+* [[Alain Connes]], _Gravity coupled with matter and foundation of non-commutative geometry_, Commun.Math.Phys. 182 (1996) 155-176 ([arXiv:hep-th/9603053](https://arxiv.org/abs/hep-th/9603053))
+
+(see also the references at _[[spectral action]]_).
+
+The early version of the model is due to
+
+* [[Alain Connes]], [[John Lott]], _Particle models and noncommutative geometry_, Nuclear Physics B - Proceedings Supplements 18(2): 29-47 ([web](https://deepblue.lib.umich.edu/handle/2027.42/29524))
+
+The modern version of the model that produces the correct fermionic content (and finds the [[KO-dimension]] of the compactification space to be 6 mod 8) is due to
+
+*  [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J.Math.Phys.48:012303,2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221))
+
 * {#Connes06} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](https://arxiv.org/abs/hep-th/0608226))
+
+* [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv.Theor.Math.Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
+
+A more succinct version of the axioms of the model is claimed in
+
+* [[Latham Boyle]], [[Shane Farnsworth]],  _Non-Commutative Geometry, Non-Associative Geometry and the Standard Model of Particle Physics_ New J. Phys. 16, 123027 (2014) ([arXiv:1401.5083](http://arxiv.org/abs/1401.5083))
+
+* [[Shane Farnsworth]], [[Latham Boyle]], _Rethinking Connes' approach to the standard model of particle physics via non-commutative geometry_, New J. Phys. 17, 023021 (2015) ([arXiv:1408.5367](https://arxiv.org/abs/1408.5367))
+
+* Christian Brouder, Nadir Bizi, Fabien Besnard, _The Standard Model as an extension of the noncommutative algebra of forms_ ([arXiv:1504.03890](https://arxiv.org/abs/1504.03890))
+
+See also
 
 * Wikipedia, _[Noncommutative standard model](https://en.wikipedia.org/wiki/Noncommutative_standard_model)_
 
 [[!redirects Connes-Lott model]]
 [[!redirects non-commutative standard model]]
+
