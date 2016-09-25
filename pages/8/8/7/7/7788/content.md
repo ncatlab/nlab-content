@@ -93,13 +93,13 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 
 Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
 
-Reviews include
+Review includes
 
 * [[Peter West]], section 17.5 of _[[Introduction to Strings and Branes]]_
 
-* [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://www.ift.uam-csic.es/strings07/040_scientific07_contents/transparences/riccioni.pdf))
+* [[Fabio Riccioni]], _$E_{11}$ and M-theory_, talk at [Strings07](http://www.ift.uam.es/strings07/) ([pdf slides](http://member.ipmu.jp/yuji.tachikawa/stringsmirrors/2007/riccioni.pdf))
 
-* [[Fabio Riccioni]], _The $E_{11}$ origin of gauge maximal supergravities_ ([pdf](http://ggi-www.fi.infn.it/talks/talk71.pdf))
+* [[Fabio Riccioni]], [[Peter West]], _The $E_{11}$ origin of all maximal supergravities_, JHEP 0707:063,2007 ([arXiv:0705.0752](http://arxiv.org/abs/0705.0752), [spire](http://inspirehep.net/record/749966/))
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
@@ -120,7 +120,7 @@ Further developments include
 
 * [[Peter West]], _$E_{11}$, ten forms and supergravity_, JHEP0603:072,2006 ([arXiv:hep-th/0511153](http://arxiv.org/abs/hep-th/0511153))
 
-* [[Fabio Riccioni]], [[Peter West]], _The $E_{11}$ origin of all maximal supergravities_, JHEP 0707:063,2007 ([arXiv:0705.0752](http://arxiv.org/abs/0705.0752))
+* [[Fabio Riccioni]], [[Peter West]], _Dual fields and $E_{11}$_, Phys.Lett.B645:286-292,2007 ([arXiv:hep-th/0612001](http://arxiv.org/abs/hep-th/0612001))
 
 * [[Fabio Riccioni]], [[Peter West]], _E(11)-extended spacetime and gauged supergravities_, JHEP 0802:039,2008 ([arXiv:0712.1795](http://arxiv.org/abs/0712.1795))
 
