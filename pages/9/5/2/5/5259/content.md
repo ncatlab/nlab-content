@@ -37,7 +37,9 @@ The spectral action has been proposed as an [[action functional]] for describing
 
 Notice that a [[spectral triple]] which describes the [[worldline]] [[quantum mechanics]] of a point [[particle]] may be regarded as the point-particle degeneration limit of a [[2d SCFT]] (a "[[2-spectral triple]]", [Roggenkamp-Wendland 03](#RoggenkampWendland03), [Soibelman 11](#Soibelman11)) which describes the [[worldsheet]] [[quantum field theory]] of a [[superstring]]. It has been argued ([Chamseddine 97](#Chamseddine97)) that the spectral action of the spectral triple correspondingly reproduces that of the [[effective field theories]] of these [[string theories]].
 
+## Related concepts
 
+* [[Connes-Lott-Chamseddine model]]
 
 ## References
 
@@ -62,7 +64,7 @@ In the article
 
 * {#Connes08} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](http://arxiv.org/abs/hep-th/0608226))
 
-previous models of the [[standard model of particle physics]] were refined in some technical fine print, and it was found that the [[KO-dimension]] of the classically 0-dimensional compactification spaces has to be 6 (just as in [[superstring theory]]). Also a concise [[bimodule]]-characterization of the particle content of the standard model was claimed (prop. 2.2).
+a previous version of [[Connes-Lott-Chamseddine model]] was refined in some technical fine print, and it was found that the [[KO-dimension]] of the classically 0-dimensional compactification spaces has to be 6 (just as in [[superstring theory]]). Also a concise [[bimodule]]-characterization of the particle content of the standard model was claimed (prop. 2.2).
 
 ### Lift to 2-spectral triples
 
