@@ -222,7 +222,7 @@ A [[von Neumann algebra]] is in particular a $C^\ast$-algebra, by definition.
 
 * [[commutative C-star-algebra]], [[Gelfand duality]], [[noncommutative topology]]
 
-* [[separable C*-algebra]]
+* [[separable C*-algebra]], [[homogeneous C*-algebra]]
 
 * [[nuclear C*-algebra]]
 
