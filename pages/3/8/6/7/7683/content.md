@@ -100,6 +100,7 @@ and in
 Discussion in the context of [[higher algebra]] ([[brave new algebra]]) is in 
 
 * [[Jacob Lurie]], section 5.3 of _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
+* [[Jacob Lurie]], section 3 of _[[Elliptic Cohomology I]]_ 
 
 [[!redirects Cartier dual]]
 [[!redirects Cartier duals]]
