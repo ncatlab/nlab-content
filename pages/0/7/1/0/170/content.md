@@ -90,7 +90,7 @@ The suggestion to understand, conversely, the [[string theory|string]]'s [[world
 
 which claims to show that the corresponding [[spectral action]] reproduces the correct effective background action known in [[string theory]]. A more expository account of this perspective is in
 
-* {#Fr&#246;hlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oiver Grandjean, [[Andreas Recknagel]], section 7 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
+* {#Fr&#246;hlichGrandjeanRecknagel97} [[Jürg Fröhlich]], Oliver Grandjean, [[Andreas Recknagel]], section 7 of _Supersymmetric quantum theory, non-commutative geometry, and gravitation_  Lecture Notes Les Houches (1995) ([arXiv:hep-th/9706132](http://arxiv.org/abs/hep-th/9706132)).
 
 
 A more formal derivation of how ordinary [[spectral triples]] arise as point particle limits of [[vertex operator algebra]]s for [[2d SCFTs]] then appears in
@@ -107,7 +107,14 @@ A brief indication of some ideas of [[Yan Soibelman]] and [[Maxim Kontsevich]] o
 
 Further development of this and application to the study of the [[large volume limit]] of [[superstring]] [[vacua]] is in
 
-* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf)), in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc-geometry_ ([pdf](http://www.math.ksu.edu/~soibel/nc-riem-3.pdf)), in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String 
+Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
+
+based on 
+
+* [[Maxim Kontsevich]], [[Yan Soibelman]], section 2 of _Homological mirror symmetry and torus fibrations_ ([arXiv:math/0011041](http://arxiv.org/abs/math/0011041))
+
+(discussing aspects of [[homological mirror symmetry]]).
 
 Analogous detailed discussion based not on the [[vertex operator algebra]] description of local [[CFT]] but on the [[AQFT]] description via [[conformal nets]] is in
 
