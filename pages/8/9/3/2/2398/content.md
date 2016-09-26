@@ -114,7 +114,7 @@ Specifically
 
 * the internal [[singular cohomology|singular chain complex]] in $\mathcal{T}$ is given as the $R$-linear dual of the free interal $R$-module on the [[internal hom]] objects $[\Delta^n,X]$, where $R$ is the internal incarnation of the real numbers;
 
-* the de Rham complex is givebn by [[differential forms in synthetic differential geometry]].
+* the de Rham complex is given by [[differential forms in synthetic differential geometry]].
 
 The de Rham theorem in $\mathcal{T}$ then asserts that for $X$ a manifold regarded as an object in the well-adapted smooth topos $\mathcal{T}$ the morphism
 
