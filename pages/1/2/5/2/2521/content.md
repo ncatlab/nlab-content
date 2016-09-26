@@ -62,6 +62,8 @@ Introductory lecture notes include
 
 * L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
 
+* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
+
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
 * [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
