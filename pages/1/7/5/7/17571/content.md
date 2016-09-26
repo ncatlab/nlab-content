@@ -46,11 +46,13 @@ To sum up: the concept of the absolute conclusion enjoys currently little popula
 
 ## Some background
 
-Hegel apparently introduced the concept in his philosophy around 1800 in or shortly before the Jena period. He purloined it from Plato's _Timaios_-dialogue (32c):
+Hegel apparently introduced the concept in his philosophy around 1800 in or shortly before the Jena period. He purloined it from Plato's [[Timaeus dialogue|Timaios dialogue]] (**7**, 32c):
 
 >But it isn't possible to combine two things well all by themselves, without a third; there has to be some bond between the two that unites them. Now the best bond is one that really and truly makes a unity of itself together with the things bonded by it, and this in the nature of things is accomplished by proportion. For whenever of three numbers which are either solids or squares the middle term between any two of them is such that what the first term is to it, it is to the first, then, since the middle term turns out to be both first and and last, and the last and first likewise both turn out to be middle terms, they will all of necessity turn out to have the same relationship to each other, and, given this, will all be unified.[^cite]  
 
-[^cite]: Translation by D. J. Zeyl, p.1237 in [Cooper (ed.) 1997](#Plato).
+[^cite]: Translation by D. J. Zeyl, p.1237 in [Cooper (ed.) 1997](#Plato). Note that 'most harmonious bond' is closer to the Greek text than 'best bond'. Hegel quotes it as 'das sch&#246;nste Band' in German.
+
+Hegel cites this passage in _'Differenz des Fichteschen und Schellingschen Systems der Philosophie'_ ([1801](#Hegel2), p.97). A similar configuration with triangles instead of circles occurs also in his fragment of the _'divine triangle'_ as reported and dated by [[Karl Rosenkranz|Rosenkranz]] to 1804 (cf. [Hegel Werke 2](#Hegel2), pp.534-539) which is somewhat reminiscent of an [[adjoint cylinder]] $L\dashv M\dashv R$ as an 'adjunction between adjunctions'.
 
 ## Related entries
 
@@ -72,8 +74,12 @@ Hegel apparently introduced the concept in his philosophy around 1800 in or shor
 
 * {#Plato} J. M. Cooper (ed.), _Plato - Complete Works_ , Hackett Indianapolis 1997.
 
+* {#Guitart09}[[René Guitart| R. Guitart]], _Klein's Group as a Borromean Object_ , Cah. Top. G&#233;o. Diff. Cat. **L** no.2 (2009) pp.144-155. ([pdf](http://rene.guitart.pagesperso-orange.fr/textespublications/Guitart%202009%20G168CTGDC.pdf))
+
+* {#Hegel2} [[Georg Hegel|G. W. F. Hegel]], _Jenaer Schriften 1801-1807 - Werke 2_ , Suhrkamp Frankfurt a. M 1986.
+
 * {#Enzykl3} [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften III_ , Suhrkamp Frankfurt a. M 1986[1817, rev. 1830]. (&#167;569-571, pp.376f; &#167;575-77, pp.393f)
 
-* {#Guitart09}[[René Guitart| R. Guitart]], _Klein's Group as a Borromean Object_ , Cah. Top. G&#233;o. Diff. Cat. **L** no.2 (2009) pp.144-155. ([pdf](http://rene.guitart.pagesperso-orange.fr/textespublications/Guitart%202009%20G168CTGDC.pdf))
+* W. Jaeschke, _Die Schl&#252;sse der Philosophie (&#167;&#167; 574-577)_ , pp.479-486 in Dr&#252;e et al. (eds.), _Hegels 'Enzyklop&#228;die der philosophischen Wissenschaften'  (1830) - Ein Kommentar zum Systemgrundri&#223;_ , Suhrkamp Frankfurt a. M. 2000.
 
 * G. Werckmeister, _Hegels absoluter Schluss als logische Grundstruktur der Objektivit&#228;t_ , PhD TU Kaiserslautern 2009. ([link](https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2160))
