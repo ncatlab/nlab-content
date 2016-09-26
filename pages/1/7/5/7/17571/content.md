@@ -52,7 +52,7 @@ Hegel apparently introduced the concept in his philosophy around 1800 in or shor
 
 [^cite]: Translation by D. J. Zeyl, p.1237 in [Cooper (ed.) 1997](#Plato). Note that 'most harmonious bond' is closer to the Greek text than 'best bond'. Hegel quotes it as 'das sch&#246;nste Band' in German.
 
-Hegel cites this passage in _'Differenz des Fichteschen und Schellingschen Systems der Philosophie'_ ([1801](#Hegel2), p.97). A similar configuration with triangles instead of circles occurs also in his fragment of the _'divine triangle'_ as reported and dated by [[Karl Rosenkranz|Rosenkranz]] to 1804 (cf. [Hegel Werke 2](#Hegel2), pp.534-539) which is somewhat reminiscent of an [[adjoint cylinder]] $L\dashv M\dashv R$ as an 'adjunction between adjunctions'.
+Hegel cites this passage in _'Differenz des Fichteschen und Schellingschen Systems der Philosophie'_ ([1801](#Hegel2), p.97). A similar configuration with triangles instead of circles occurs also in his fragment of the _'divine triangle'_ as reported and dated by [[Karl Rosenkranz|Rosenkranz]] to 1804 (cf. [Hegel Werke 2](#Hegel2), pp.534-539) which is somewhat reminiscent of an [[adjoint cylinder]] $L\dashv M\dashv R$ as an [[adjunction between adjunctions]].
 
 ## Related entries
 
