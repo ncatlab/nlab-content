@@ -317,6 +317,9 @@ See also
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
+In the context of [[supermanifolds]], discussion is in 
+
+* [[Gennadi Sardanashvily]], _Graded infinite order jet manifolds_, _Int. J. Geom. Methods Mod. Phys. v.4 (2007) 1335-1362_ ([arXiv:0708.2434](https://arxiv.org/abs/0708.2434))
 
 [[!redirects jet bundles]]
 
