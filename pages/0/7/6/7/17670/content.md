@@ -1,3 +1,4 @@
+[[!redirects Connes-Lott-Chamseddine model]]
 
 #Contents#
 * table of contents
@@ -5,7 +6,7 @@
 
 ## Idea
 
-The _Connes-Lott-Chamseddine model_ (often called just _Connes-Lott model_) is a [[spectral triple]] that spectrally encodes a [[spacetime]] which is the [[product]] of 4d [[Minkowski spacetime]] $X$ with a an exotic [[non-commutative geometry]] space $F$ whose classical dimension is that of a point, but which has [[KO-dimension]] 6 (mod 8). Hence this is a non-commutative version of a [[Kaluza-Klein compactification]] of a spacetime of [[KO-dimension]] $4 + 6$. (See also the discussion at _[[2-spectral triple]]_).
+The _Connes-Lott-Chamseddine-Barrett model_ ([Connes-Lott 91](#ConnesLott91), [Barrett 07](#Barrett07), [Chamseddine-Connes-Marcolli 07](#ChamseddineConnesMarcolli07)) is a [[spectral triple]] that spectrally encodes a [[spacetime]] which is the [[product]] of 4d [[Minkowski spacetime]] $X$ with a an exotic [[non-commutative geometry]] space $F$ whose classical dimension is that of a point, but which has [[KO-dimension]] 6 (mod 8). Hence this is a non-commutative version of a [[Kaluza-Klein compactification]] of a spacetime of [[KO-dimension]] $4 + 6$. (See also the discussion at _[[2-spectral triple]]_).
 
 As in all ([[supersymmetry|super]]-)[[KK-compactification|Kaluza-Klein theory]], what is pure [[pseudo-Riemannian geometry]] (albeit "[[spectral geometry|spectral]]") in 4+6 (KO-)dimension, hence pure [[gravity]], effectively looks like a configuration of [[Einstein-Yang-Mills-Dirac-Higgs theory]] down in 4 dimensions, hence of [[gravity]] coupled to [[gauge fields]] and [[fermions]] and a [[Higgs boson]].
 
@@ -36,15 +37,15 @@ The basic mechanism was laid out in
 
 The early version of the model is due to
 
-* [[Alain Connes]], [[John Lott]], _Particle models and noncommutative geometry_, Nuclear Physics B - Proceedings Supplements 18(2): 29-47 ([web](https://deepblue.lib.umich.edu/handle/2027.42/29524))
+* {#ConnesLott91} [[Alain Connes]], [[John Lott]], _Particle models and noncommutative geometry_, Nuclear Physics B - Proceedings Supplements 18(2): 29-47 (1991) ([web](https://deepblue.lib.umich.edu/handle/2027.42/29524))
 
 The modern version of the model that produces the correct fermionic content (and finds the [[KO-dimension]] of the compactification space to be 6 mod 8) is due to
 
-*  [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J.Math.Phys.48:012303,2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221))
+* {#Barrett07} [[John Barrett]], _A Lorentzian version of the non-commutative geometry of the standard model of particle physics_, J.Math.Phys.48:012303,2007 ([arXiv:hep-th/0608221](http://arxiv.org/abs/hep-th/0608221))
 
 * {#Connes06} [[Alain Connes]], _Noncommutative Geometry and the standard model with neutrino mixing_, JHEP0611:081,2006 ([arXiv:hep-th/0608226](https://arxiv.org/abs/hep-th/0608226))
 
-* [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv.Theor.Math.Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
+* {#ChamseddineConnesMarcolli07} [[Ali Chamseddine]], [[Alain Connes]], [[Matilde Marcolli]], _Gravity and the standard model with neutrino mixing_, Adv.Theor.Math.Phys.11:991-1089,2007 ([arXiv:hep-th/0610241](http://arxiv.org/abs/hep-th/0610241))
 
 A more succinct version of the axioms of the model is claimed in
 
