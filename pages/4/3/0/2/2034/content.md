@@ -17,7 +17,7 @@
 
 ### Traditional
 
-Given a [[commutative unital ring]] $R$, an __Azumaya $R$-algebra__ is a (noncommutative in general) $R$-[[associative algebra|algebra]] $A$ which is finitely generated faithful [[projective object|projective]] as an $R$-[[module]] and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an [[isomorphism]]. This definition extends the notion of a [[central simple algebra]] over a [[field]]. 
+Given a [[commutative unital ring]] $R$, an __Azumaya $R$-algebra__ is a (noncommutative in general) $R$-[[associative algebra|algebra]] $A$ which is finitely generated faithful [[projective object|projective]] as an $R$-[[module]] and the canonical morphism $A\otimes_R A^{op}\to End_R(A)$ is an [[isomorphism]]. This definition extends the notion of a [[central simple algebra]] over a [[field]]; partly by this reason, Azumaya algebras are sometimes called __central separable $R$-algebras__.
 
 More generally, [[Grothendieck]] defines an __Azumaya algebra__ over a [[scheme]] $X$ as a [[sheaf]] $\mathcal{A}$ of $\mathcal{O}_X$-algebras such that for each point $x\in X$, the corresponding [[stalk]] $\mathcal{A}_x$ is an Azumaya $\mathcal{O}_{X,x}$-algebra. 
 
@@ -213,6 +213,11 @@ The observation that passing to [[derived algebraic geometry]] makes also the no
 
 * {#Toen10} [[Bertrand Toën]], _Derived Azumaya algebras and generators for twisted derived categories_ ([arXiv:1002.2599](http://arxiv.org/abs/1002.2599))
 
+The comparison of the Artin's theorem on characterization of Azumaya algebras
+and Tomiyama-Takesaki's theorem on $n$-[[homogeneous C*-algebra]]s is in chapter 9 of
+
+* Edward Formanek, _Noncommutative invariant theory_, in: Group actions on rings (Brunswick, Maine, 1984), 87&#8211;119, Contemp. Math. 43, Amer. Math. Soc. 1985 [doi](http://dx.doi.org/10.1090/conm/043)
+
 
 See also
 
@@ -222,3 +227,4 @@ See also
 
 
 [[!redirects Azumaya algebras]]
+[[!redirects central separable algebra]]
