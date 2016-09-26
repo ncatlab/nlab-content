@@ -68,7 +68,7 @@ $$
 
 Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]] underlying the [[M-theory super Lie algebra]] and via the relation of that to [[BPS charges]] in [[11-dimensional supergravity]]/[[M-theory]], the [[direct sums|direct summands]] here have been argued to naturally correspond to 
 
-* leve 0: [[momentum]]
+* level 0: [[momentum]]
 
 * level 1: [[M2-brane]] charge
 
