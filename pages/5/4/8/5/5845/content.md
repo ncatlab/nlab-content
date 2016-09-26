@@ -171,7 +171,7 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 ### Special cases
 
-* If one of the two [[adjoint pairs]] induced form an adjoint triple involving identities, then the other exhibits an _[[adjoint cylinder]]_ / _[[unity of opposites]]_.
+* If one of the two [[adjoint pairs]] induced from an adjoint triple involving identities, then the other exhibits an _[[adjoint cylinder]]_ / _[[unity of opposites]]_.
 
 * An adjoint triple $F\dashv G\dashv H$ is **Frobenius** if $F$ is naturally isomorphic to $H$. See [[Frobenius functor]].
 
@@ -239,3 +239,5 @@ together with geometric consequences. Note a somewhat nonstandard usage of termi
 [[!redirects adjoint triples]]
 [[!redirects fully faithful adjoint triple]]
 [[!redirects fully faithful adjoint triples]]
+[[!redirects adjunction of adjunctions]]
+[[!redirects adjunction between adjunctions]]
