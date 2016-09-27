@@ -110,6 +110,7 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 * [[internal logic]]
 * [[intuitionistic logic]]
 * [[linear logic]]
+* [[logicality and invariance]]
 * [[minimal logic]]
 * [[modal logic]]
 * [[adjoint logic]]
