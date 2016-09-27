@@ -299,10 +299,12 @@ A discussion of jet bundles with an eye towards discussion of the [[variational 
 
 * {#Anderson} [[Ian Anderson]], _The variational bicomplex_ ([[AndersonVariationalBicomplex.pdf:file]])
 
-The [[de Rham cohomology]] of jet bundles is discussed in
+The [[de Rham complex]] and [[variational bicomplex]] of jet bundles is discussed in
 
-* G.Giachetta, L.Mangiarotti, G.Sardanashvily, _Cohomology of the variational bicomplex on the infinite order jet space_, Journal of
+* G. Giachetta, L. Mangiarotti, [[Gennadi Sardanashvily]], _Cohomology of the variational bicomplex on the infinite order jet space_, Journal of
 Mathematical Physics 42, 4272-4282 (2001) ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
+
+where both versions (smooth functions being globally or locally of finite order) are discussed and compared.
 
 Discussion of jet-restriction of the [[Haefliger groupoid]] is in 
 
