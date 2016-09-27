@@ -50,7 +50,7 @@ The definition by Aristotle that has received the most attention (out of several
 
 * [[Georg Hegel]], _[[Science of Logic]]  -- [Subjective logic -- Subjectivity -- Syllogism](Science+of+Logic#SchlussSyllogism)_
 
-An interpretatin of syllogistic term logic in modern [[predicate logic]] is discussed en detail in the textbook on [[mathematical logic]]:
+An interpretation of syllogistic term logic in modern [[predicate logic]] is discussed in detail in the textbook on [[mathematical logic]]:
 
 * {#HilbertAckermann59} [[David Hilbert]], [[Wilhelm Ackermann]], _The calculus of classes (monadic predicate calculus)_ ([web](http://books.google.it/books?id=45ZGMjV9vfcC&pg=PA44#v=onepage&q&f=false)), chapter II of _Grundz&#252;ge der Theoretischen Logik_ , 4th ed. Springer Heidelberg 1959 [1928]
 
