@@ -19,9 +19,12 @@ There are various hints (originally observed in [Witten 95](#Witten95)) that all
 
 > As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the _M-theory_, leaving to the future the relation of M to membranes.
 
-The "reasons to doubt" that interpretation is that the [[M2-brane]] certainly does not support a [[perturbation theory]] the way that the [[superstring]] does. This is part of the reason why the actual nature of "M-theory" remains mysterious.
+The "reasons to doubt" that interpretation is that the [[M2-brane]] does not support a [[perturbation theory]] the way that the [[superstring]] does. This is part of the reason why the actual nature of "M-theory" remains mysterious. On the other hand, later it was argued that there is a regularization of the M2-brane worldvolume theory, which makes it becomes the [[BFSS matrix model]] ([Nicolai-Helling 98](#NicolaiHelling98), [Dasgupta-Nicolai-Plefka 02](#DasguptaNicolaiPlefka02)). In reaction to these developments it was suggested that "M-theory" could be read as "matrix theory".
 
-Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the conjecture is motivated from the fact that with the available knowledge of these subjects -- particularly from [[duality in string theory]] -- one can see indications that there is a kind of [[commuting diagram]] of the form
+> Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
+
+
+Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the M-theory conjecture is motivated from the fact that with the available knowledge of these subjects -- particularly from [[duality in string theory]] -- one can see indications that there is a kind of [[commuting diagram]] of the form
 
 $$
   \array{
@@ -189,7 +192,7 @@ The term "M-theory" seems to originate in
 
 as a "non-committed" shorthand for "membrane theory"
 
-> As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95, p. 2](#HoravaWitten95))
+> {#NonCommittal} As it has been proposed that the eleven-dimensional theory is a supermembrane theory but there are some reasons to doubt that interpretation, we will non-committally call it the M-theory, leaving to the future the relation of M to membranes. ([Ho&#345;ava-Witten 95, p. 2](#HoravaWitten95))
 
 and
 
@@ -202,6 +205,12 @@ which coined the association
 that later gained much publicity:
 
 * {#Witten98} [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
+
+The argument that the regularized [[M2-brane]] [[worldvolume]] theory is the [[BFSS matrix model]] is discussed in
+
+* {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
+
+* {#DasguptaNicolaiPlefka02} Arundhati Dasgupta, [[Hermann Nicolai]], [[Jan Plefka]], _An Introduction to the Quantum Supermembrane_, Grav.Cosmol.8:1,2002; Rev.Mex.Fis.49S1:1-10, 2003 ([arXiv:hep-th/0201182](http://arxiv.org/abs/hep-th/0201182))
 
 Recollections include the last paragraph of 
 
