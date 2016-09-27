@@ -139,6 +139,7 @@ and its [[quantization]] was first explored in
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
 
+
 The interpretation of the membrane as as an object related to [[string theory]], hence as the _M2-brane_ was proposed in 
 
 * [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_ ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
@@ -148,7 +149,7 @@ around the time when [[M-theory]] became accepted due to
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
 
-The interpretation of the M2-brane [[worldvolume]] theory as related to the matrix model of [[D0-branes]] is discussed in some detail in 
+The interpretation of the M2-brane [[worldvolume]] theory as related to the [[BFSS matrix model]] of [[D0-branes]] is discussed in some detail in 
 
 * {#NicolaiHelling98} [[Hermann Nicolai]], Robert Helling, _Supermembranes and M(atrix) Theory_,  Lectures given by H. Nicolai at the Trieste Spring School on Non-Perturbative Aspects of String Theory and Supersymmetric Gauge Theories, 23 - 31 March 1998 ([arXiv:hep-th/9809103](http://arxiv.org/abs/hep-th/9809103))
   
