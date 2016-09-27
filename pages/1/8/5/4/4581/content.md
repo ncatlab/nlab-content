@@ -712,7 +712,7 @@ which is the right hand side of the equivalence to be proven.
 
 The variational bicomplex was introduced independently in
 
-* W.M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
+* W. M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
 
 * [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_ , Sov. Math. Dokl. 19 (1978) 144&#8211;148.
 
@@ -727,6 +727,12 @@ Also
 An introduction is in 
 
 * [[Ian Anderson]], _Introduction to the variational bicomplex_ in Mathematical aspects of classical field theory, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
+
+A careful discussion that compares the two versions (one over smooth functions globally of finite jet order, one over smooth functions locally of finite jet order) is in
+
+* G. Giachetta, L. Mangiarotti, [[Gennadi Sardanashvily]], _Cohomology of the variational bicomplex on the infinite order jet space_, Journal of
+Mathematical Physics 42, 4272-4282 (2001) ([arXiv:math/0006074](http://arxiv.org/abs/math/0006074))
+
  
 Textbook accounts include
 
