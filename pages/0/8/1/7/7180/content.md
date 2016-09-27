@@ -42,7 +42,7 @@ $$
 
 ## Related concepts
 
-* [[invariant]], [[group averaging]]
+* [[invariant]], [[group averaging]], [[logicality and invariance]]
 
 ## References
 
