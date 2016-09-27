@@ -112,7 +112,7 @@ Theory]]_, Proceedings of Symposia in Pure Mathematics, AMS (2001)
 
 based on 
 
-* [[Maxim Kontsevich]], [[Yan Soibelman]], section 2 of _Homological mirror symmetry and torus fibrations_ ([arXiv:math/0011041](http://arxiv.org/abs/math/0011041))
+* [[Maxim Kontsevich]], [[Yan Soibelman]], section 2 of _Homological mirror symmetry and torus fibrations_, Proceedings of KIAS Annual International Conference on Symplectic Geometry and Mirror Symmetry ([arXiv:math/0011041](http://arxiv.org/abs/math/0011041), [spire](http://inspirehep.net/record/536540/))
 
 (discussing aspects of [[homological mirror symmetry]]).
 
