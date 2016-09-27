@@ -64,9 +64,9 @@ One case where this is arises is the _differential concretification_ of [[moduli
 ### Concretification of differential moduli
  {#ConcretificationOfDifferentialModuli}
 
-Let $\mathbf{H}$ be a [[local (∞,1)-topos]] which in addition is a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $n \in \mathbb{N}$ and let $\mathbb{G} \in Grp(\mathbf{H})$ be an [[∞-group]] which  is admits and is equipped with $(n+1)$-[[deloopings]] $\{\mathbf{B}^k \mathbb{G}\}_{k = 0}^{n+1}$. (For instance for $n = 2$ this is a [[sylleptic ∞-group]].  Generally we can have an [[abelian ∞-group]].)
+Let $\mathbf{H}$ be a [[local (∞,1)-topos]] which in addition is a [[cohesive (∞,1)-topos]] equipped with [[differential cohesion]]. Let $n \in \mathbb{N}$ and let $\mathbb{G} \in Grp(\mathbf{H})$ be an [[∞-group]] which admits and is equipped with $(n+1)$-[[deloopings]] $\{\mathbf{B}^k \mathbb{G}\}_{k = 0}^{n+1}$. (For instance for $n = 2$ this is a [[sylleptic ∞-group]].  Generally we can have an [[abelian ∞-group]].)
 
-Then for each $0 \leq k \lt n$ there is a canonical object $\mathbf{B}^l\mathbb{G}_{conn} \in \mathbf{H}$, the [[moduli ∞-stack]] of $(\mathbf{B}^{k}\mathbb{G})$-[[principal ∞-connections]] (as discussed there). By assumption on $\mathbb{H}$ these are for $k \lt n-1$ each canoncally [[∞-group]] objects themselves (have a canonically given [[delooping]]). This induces a sequence of forgetful maps
+Then for each $0 \leq k \lt n$ there is a canonical object $\mathbf{B}^k\mathbb{G}_{conn} \in \mathbf{H}$, the [[moduli ∞-stack]] of $(\mathbf{B}^{k}\mathbb{G})$-[[principal ∞-connections]] (as discussed there). By assumption on $\mathbb{H}$ these are for $k \lt n-1$ each canonically [[∞-group]] objects themselves (have a canonically given [[delooping]]). This induces a sequence of forgetful maps
 
 $$  
   \mathbf{B}^n\mathbb{G}_{conn}
@@ -81,7 +81,7 @@ $$
   \mathbf{B}^n \mathbb{G}
 $$
 
-which interpolates between the moduli for $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-connections]] and plain $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-bundles]] by succesively "forgetting connection data from below". 
+which interpolates between the moduli for $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-connections]] and plain $(\mathbf{B}^{n-1}\mathbb{G})$-[[principal ∞-bundles]] by successively "forgetting connection data from below". 
 
 +-- {: .num_example}
 ###### Example
