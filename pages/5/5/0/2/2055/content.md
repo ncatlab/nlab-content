@@ -55,7 +55,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Geometry Gems](http://GeometryGems.wikispaces.com) -- Resources for geometry teachers
 
-* [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers teachers
+* [GreenApples](http://GreenApples.wikispaces.com) -- Resources for new math teachers
 
 * [groupprops.subwiki.org](http://groupprops.subwiki.org/wiki/Main_Page), The Group Properties Wiki, by a graduate student at U. Chicago
 
@@ -74,6 +74,7 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 * [The Tricki](http://www.tricki.org)
 
 * [wolframworld](http://mathworld.wolfram.com) 
+* [imomath](http://www.imomath.com) unofficial site for IMO-level mathematics (under "training"), problem collections and IMO info
 
 ### Forums 
 
