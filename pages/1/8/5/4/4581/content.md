@@ -712,13 +712,14 @@ which is the right hand side of the equivalence to be proven.
 
 The variational bicomplex was introduced independently in
 
-* W. M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
-
 * [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_ , Sov. Math. Dokl. 19 (1978) 144&#8211;148.
 
-* [[Alexandre Vinogradov]], _The $C$-spectral sequence, Lagrangian formalism and conservation laws_ I, II, J. Math. Anal. Appl. 100 (1984) 1&#8211;129.
+* W. M. Tulczyjew, _The Euler-Lagrange resolution_ , in Lecture Notes in Mathematics 836 22&#8211;48 (Springer-Verlag, New York 1980).
 
-Also 
+* T. Tsujishita, _On variation bicomplexes associated to differential equations_, Osaka J. Math. 19 (1982), 311&#8211;363.
+
+
+See also
 
 * {#Takens79} [[Floris Takens]], _A global version of the inverse problem of the calculus of variations_ J. Diff. Geom. 14 (1979) 543-562
 
@@ -738,7 +739,7 @@ Textbook accounts include
 
 * {#Olver86} [[Peter Olver]], section 5.4 of _Applications of Lie groups to differential equations_, Springer Graduate Texts in Mathematics 107 (1986)
 
-* {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([pdf]([[AndersonVariationalBicomplex.pdf:file]])) 
+* {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
 
 * {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
  
