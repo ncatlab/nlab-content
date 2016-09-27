@@ -126,13 +126,15 @@ The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoh
 
 The term _de Rham space_ or _de Rham stack_ apparently goes back to
 
-* [[Carlos Simpson]], _Homotopy over the complex numbers and generalized de Rham cohomology_ Moduli of VectorBundles, M. Maruyama, ed., Dekker (1996), 229-263.
+* [[Carlos Simpson]], _Homotopy over the complex numbers and generalized de Rham cohomology_, in M. Maruyama, (ed.) _Moduli of Vector Bundles_ , Dekker (1996), 229-263.
+
+But actually there it just has the notation "$X_{dR}$" and then the functor it co-represents is called the "de Rham shape" of $X$.
 
 A review of the constructions is on the first two pages of
 
 * {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
-The deRham space construction on spaces ([[scheme]]s) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
+The deRham space construction on spaces ([[schemes]]) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
 * {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
  
