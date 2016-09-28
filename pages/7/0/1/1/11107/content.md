@@ -20,7 +20,7 @@ In [[physics]] given two [[physical system]] their _composite_ is meant to be bo
 
 In [[classical mechanics]] forming a composite in this sense amounts to taking the [[cartesian product]] of their [[phase spaces]].
 
-In [[quantum mechanics]] forming the comosite amounts to taking the (non-cartesian) [[tensor product]] of the [[spaces of quantum states]].
+In [[quantum mechanics]] forming the composite amounts to taking the (non-cartesian) [[tensor product]] of the [[spaces of quantum states]].
 
 ## Related concepts
 
