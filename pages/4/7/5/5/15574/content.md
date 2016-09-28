@@ -53,9 +53,17 @@ A key passage on Aufhebung in 'Wissenschaft der Logik' comes at the end of the f
 
 He goes on ([p.113](#WdL)) to explicate _Aufheben_ as one of the most important concepts in all of philosophy that constantly recurs everywhere. The sublated - _das Aufgehobene_ is not nothing which is an _unmediated_, but is a mediated - _ein Vermitteltes_; it is nothing - _das Nichtseiende_, but as a result that originated from a being and therefore still carries with it the determination from which it derives. This is inspired by Spinoza's 'omnis determinatio est negatio': **Aufhebung** is the mode of this coexistence of negation-affirmation.
 
-Hegel draws his logic from a rich tradition of dialectic going back to Plato in general and to its renewal in Fichte and Schelling's attempts to transcendental philosophy in the 1790s for which in turn Kant's attitude was of capital importance: the latter had established in a short paper _'Versuch den Begriff der negativen Gr&#246;&#223;en in die Weltweisheit einzuf&#252;hren'_ (1763) a distinction between contradictions and real oppositions anticipating the later analytic-synthetic division - here originates the term 'Aufhebung' and gets tied to synthesis of oppositions which is terminologically present in Schelling's use of the terms 'thesis', 'anti-thesis' and 'synthesis' for the dialectical triad[^triad]. Secondly, Kant had partly arranged the table of categories in triadic fashion and thereby invited the deduction of the categories by dialectical steps as undertaken by Fichte and Schelling. Kant's view that reason gets necessarily entangled in the contradictions of transcendental dialectic by its own nature was interpreted by Hegel as an indication of the positive role of contradictions as the driving force of thought.
+Hegel draws his logic from a rich tradition of dialectic going back to Plato in general and to its renewal in Fichte and Schelling's attempts to transcendental philosophy in the 1790s for which in turn Kant's attitude was of capital importance: the latter had established in a short paper _'Versuch den Begriff der negativen Gr&#246;&#223;en in die Weltweisheit einzuf&#252;hren'_ (1763) a distinction between contradictions and real oppositions[^trendel] anticipating the later analytic-synthetic division - here originates the term 'Aufhebung' and gets tied to synthesis of oppositions which is terminologically present in Schelling's use of the terms 'thesis', 'anti-thesis' and 'synthesis' for the dialectical triad.[^triad]
+
+Secondly, Kant had arranged the table of categories in triadic fashion with the third terms _grosso modo_ being the synthesis of the preceding positive respectively negative terms and claimed to have demonstrated the completeness of the resulting table though his deduction was generally considered inconclusive. Starting with Reinhold the deduction of the categories soon became a main concern of transcendental philosophy. In particular, Fichte rejected the primacy of the judgement forms in Kant's approach i.e. the primacy of propositions in logic and gave direct derivations of the categories from the transcendental ego by dialectical steps. Schelling and Hegel followed Fichte in this shift.[^schluss]
+
+Thirdly, Kant's view that reason gets necessarily entangled in the contradictions of _transcendental dialectic_ by its own nature was interpreted by Hegel as an indication of the positive role of contradictions as the driving force of thought.
 
 [^triad]: Hegel apparently didn't use these terms though, probably through their use by F. Engels who was a student of Schelling, the terms stick to Hegelian dialectic today.
+
+[^trendel]: On the avatars of this synthetic negation from Kant through von Trendelenburg to Neo-Kantianism see Giovanelli ([2015](#Giovanelli15)).
+
+[^schluss]: Eventually both distanced themselves from the Fichtean ego as the starting point though. Whereas Hegel gives primacy to 'deduction' in logic (cf. [[absolute conclusion]] - _'Alles Vern&#252;nftige ist ein Schluss'_) the philosophy of the mature Schelling with its emphasis on the [[transcendental ideal]] can be partly be seen as a return to the classical Pre-Kantian primacy of 'concept' in logic.
 
 Clearly, these remarks can not do justice to the richness and subtlety of Hegel's logic and should only serve as canvas against which to get a better grasp of Lawvere's conceptual translation. The points to keep in mind from this view are:
 
@@ -507,15 +515,19 @@ For further properties of quintessential localizations see at [[quality type]].
 
 * [[adjoint logic]]
 
+* [[adjoint triple]]
+
 * [[level of a topos]]
+
+* [[negative moment]]
 
 * [[quality type]]
 
 * [[graphic category]]
 
-* [[generic interval]]
+* [[construction in philosophy]]
 
-* [[Pursuing stacks]]
+* [[infinite judgement]]
 
 * [[co-Heyting boundary]]
 
@@ -553,6 +565,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * J. Climent Vidal, J. Soliveres Tur, _Functors of Lindenbaum-Tarski, Schematic Interpretations, and Adjoint Cylinders between Sentential Logics_ , Notre Dame Journal of Formal Logic **49** no.2 (2008) pp.185-202. ([pdf](https://projecteuclid.org/download/pdfview_1/euclid.ndjfl/1210859927))
 &#8206;
 * H. F. Fulda, _Aufheben_ , pp.318-320 in Ritter (ed.), _Historisches W&#246;rterbuch der Philosophie_ , Schwabe Basel 1971.  ([Heidi](http://archiv.ub.uni-heidelberg.de/volltextserver/16307/))
+
+* {#Giovanelli15} M. Giovanelli, _Trendelenburg and the Concept of Negation in Post-Kantian Philosophy_ , to appear in Munk (ed.), _Proceedings of the Amsterdam 2010 Colloquium: Natur des Denkens und das Denken der Natur: Spinoza, Trendelenburg, und H. Cohen_. ([draft](https://www.dropbox.com/s/mxm4db8id7je924/Giovanelli%2C%20Marco%20-%20Trendenleburg%20and%20the%20Concept%20of%20Negation%20in%20Post-Kantian%20Philosophy%20Proceedings%20of%20the%20Connference.pdf?dl=0))
 
 * {#Goldblatt84} R. Goldblatt, _Topoi - The Categorical Analysis of Logic_ , 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
 
