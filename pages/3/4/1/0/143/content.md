@@ -673,7 +673,7 @@ where the colimit is over all [[dense monomorphism]]s (instead of over all [[loc
 +-- {: .un_remark}
 ###### Remark: plus-construction versus sheafification
 
-In general $A^+$ is not yet a sheaf. It is howver in general closer to being a sheaf than $A$ is, in that it is a [[separated presheaf]].
+In general $A^+$ is not yet a sheaf. It is however in general closer to being a sheaf than $A$ is, namely it is a [[separated presheaf]].
 
 
 But applying the plus-construction twice yields the desired sheaf
@@ -759,6 +759,7 @@ Section C2 in
 {#Johnstone}
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+* [[Yuri Manin]], _Methods of homological algebra_
 
 The book by Kashiwara and Shapira discusses sheaves with motivation from [[homological algebra]], [[abelian sheaf cohomology]] and [[homotopy theory]], leading over in the last chapter to the notion of [[stack]].
 
@@ -766,7 +767,17 @@ The book by Kashiwara and Shapira discusses sheaves with motivation from [[homol
 
 A quick pedagogical introduction with an eye towards the generalization to [[(∞,1)-sheaves]] is in 
 
-* [[Dan Dugger]], _Sheaves and Homotopy Theory_ ([pdf](http://ncatlab.org/nlab/files/cech.pdf))
+* [[Dan Dugger]], _Sheaves and homotopy theory_, [pdf](http://ncatlab.org/nlab/files/cech.pdf)
+
+Classics of sheaf theory on topological spaces are
+
+* Roger Godement, _Topologie alg&#233;brique et th&#233;orie des faisceaux_, Hermann, 1958, 283 p. [gBooks](http://books.google.fr/books/about/Topologie_alg%C3%A9brique_et_th%C3%A9orie_des_fa.html?id=JVrvAAAAMAAJ)
+
+* [[A. Grothendieck]], [[Tohoku]]
+
+Recently, an improvement in understanding the interplay of derived functors (inverse image and proper direct image) in sheaf theory on topological spaces has been exhibited in 
+
+* Olaf M. Schnuerer, Wolfgang Sergel, _Proper base change for separated locally proper maps_, [arxiv/1406.7630](http://arxiv.org/abs/1406.7630)
 
 [[!redirects sheaves]]
 
