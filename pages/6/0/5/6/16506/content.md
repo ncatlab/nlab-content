@@ -103,6 +103,10 @@ In [[Haskell]], the traditional way to model that a program may depend on random
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
 
+A treatment of _opacity_ via the function monad
+
+* [[Gianluca Giorgolo]], [[Ash Asudeh]], _Monads as a Solution for Generalized Opacity_, [pdf](http://users.ox.ac.uk/~cpgl0036/pdf/giorgolo-asudeh-eacl2014.pdf)
+
 
 [[!redirects reader monads]]
 
