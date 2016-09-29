@@ -44,7 +44,7 @@ This is the generalization of the notion of [[over-category]] in ordinary [[cate
 
 We give the definition in terms of the model of [[(∞,1)-categories]] in terms of [[quasi-categories]].
 
-Recall from [[join of quasi-categories]] that there are two different but quasi-catgorically equivalent definitions of _join_, denoted $\star$ and $\diamondsuit$. Accordingly we have the following two different but quasi-categoricaly equivalent definitions of over/under quasi-categories.
+Recall from [[join of quasi-categories]] that there are two different but quasi-categorically equivalent definitions of _join_, denoted $\star$ and $\diamondsuit$. Accordingly we have the following two different but quasi-categoricaly equivalent definitions of over/under quasi-categories.
 
 
 +-- {: .num_prop}
