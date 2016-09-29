@@ -85,26 +85,43 @@ He attributes this result to:
 
 * Ottmar Loos, _Symmetric Spaces I_, Chapter II, Benjamin, New York, 1969.
 
+## Related entries
+
+* [[rack]]
+
+* [[shelf]]
+
+## Links
+
+* Wikipedia: [Racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles)
+
+* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
 
 ## References ##
 
-* Wikipedia: [Racks and quandles](http://en.wikipedia.org/wiki/Racks_and_quandles)
+Surveys are
+
+* S. Nelson, _What is a Quandle?_ , Notices AMS **63** no.4 (2016) pp.378-380. ([pdf](http://www.ams.org/publications/journals/notices/201604/rnoti-p378.pdf))
+
+* J. Scott Carter, _A survey of quandle ideas_, ([arxiv](http://arxiv.org/abs/1002.4429)).
+
+A monograph is
+
+* M. Elhamdadi, S. Nelson, _Quandles: An Introduction to the Algebra of Knots_ , AMS Providence 2015. ([link](http://bookstore.ams.org/stml-74))
+
+The paper by Crans makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
+
+* Alissa Crans, _Shelves, racks, spindles and quandles_, ([arXiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_).
+
+Other research papers:
 
 * David Joyce, _A classifying invariant of knots; the knot quandle_, J. Pure Appl. Alg. __23__ (1982), 37-65, <a href="http://dx.doi.org/10.1016/0022-4049(82)90077-9">doi</a>, [MR83m:57007](http://www.ams.org/mathscinet-getitem?mr=638121),  ([pdf](http://www.sciencedirect.com/science/article/pii/0022404982900779/pdf?md5=cc81b2cf5a01afc9277d58d10128878a&pid=1-s2.0-0022404982900779-main.pdf)).
 
 * David Joyce, _Simple quandles_,  J. Algebra __79__ (1982), no. 2, 307&#8211;318, <a href="http://dx.doi.org/10.1016/0021-8693(82)90305-2">doi</a>, [MR84d:20078](http://www.ams.org/mathscinet-getitem?mr=682881)
 
-* Gavin Wraith, [A personal story about knots](http://www.wra1th.plus.com/gcw/rants/math/Rack.html).
-
 * Seiichi Kamada, _Knot invariants derived from quandles and racks_, ([arXiv](http://arxiv.org/abs/math/0211096)).
 
-* J. Scott Carter, _A survey of quandle ideas_, ([arxiv](http://arxiv.org/abs/1002.4429)).
-
 * J. Scott Carter, Masahico Saito, _Quandle homology theory and cocycle knot invariants_, ([arXiv](http://arxiv.org/abs/math/0112026)).
-
-* Alissa Crans, _Shelves, racks, spindles and quandles_, ([arXiv](http://arxiv.org/PS_cache/math/pdf/0409/0409602v1.pdf#page=56), in _Lie 2-Algebras_).
-
-The paper by Crans makes it clear that quandles are algebras of a [[Lawvere theory]], so that quandles may be defined in any [[cartesian monoidal category]] (a category with finite [[products]]).  It also shows that any Lie algebra gives a quandle in the category of cocommutative [[coalgebra|coalgebras]].
 
 * Michael Eisermann, _Quandle coverings and their Galois correspondence_, ([pdf](http://www.igt.uni-stuttgart.de/eiserm/publications/qcovering.pdf)).
 
