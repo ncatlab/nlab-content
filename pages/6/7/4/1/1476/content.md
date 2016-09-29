@@ -39,10 +39,42 @@ Like '[[general abstract nonsense]]', the term 'centipede mathematics' can vary 
 
 ## Illustrative quotes 
 
+From [[Lawvere]], in [An interview with F. William Lawvere](#picado): 
+
 > What is the primary tool for such summing up of the essence of ongoing 
 mathematics?  Algebra!  Nodal points in the progress of this kind of research occur when, as in the case with the finite number of axioms for the metacategory of categories, all that we know so far can be expressed in a single sort of algebra.  I am proud to have participated with Eilenberg, Mac Lane, Freyd, and many others, in bringing about the contemporary awareness of Algebra as Category Theory. 
 
+From [Miles Reid](#reid), p. 123: 
 
+> Many students of the time could apparently not think of any higher ambition than &#201;tudier les EGAs. The study of category theory for its own sake (surely one of the most sterile of all intellectual pursuits) also dates from this time; Grothendieck himself can't necessarily be blamed for this, since his own use of categories was very successful in solving problems. 
+
+From [[Tom Leinster]], referring to the quotation from Reid, [Leinster2010](#leinster): 
+
+> I've become rather fond of that quotation, though not for the reason that Reid intended. 'Sterile' doesn't only mean infertile or unproductive. It's also what you want surgical instruments to be: clean, uncontaminated, disease-free. No one wants to be operated on with a dirty scalpel.
+
+> I'm going to clarify that point, because I can hear a sarcastic voice saying 'oh, so you want to do category theory uncontaminated by real mathematics'. Category theory is at its best, I think, when it reflects what mathematicians actually do and shows how to do it better, when it functions as the [mathematics of mathematics](http://cheng.staff.shef.ac.uk/misc/4000.pdf). 
+
+From [[Categories for the Working Mathematician]], p. 108: 
+
+> One may speculate as to why the discovery of adjoint functors was so delayed. (...) Bourbaki just missed... Bourbaki's idea of universal construction was devised to be so general as to include more [than the problem of finding a left adjoint] ... [his] formulation lacks the symmetry of the adjunction problem ... and so missed a basic discovery; this discovery was left to a younger man, perhaps one less beholden to tradition or to fashion. Put differently, good general theory does not search for the maximum generality, but for the right generality. 
 
 ## Related entries 
+
+* [[abstract general, concrete general and concrete particular]] 
+
+* [[concrete structure]] 
+
+## References 
+
+* Jorge Picado, _An interview with F. William Lawvere_, ([pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf)) 
+ {#picado} 
+
+* Miles Reid, _Undergraduate Algebraic Geometry_, available from [Reid's web page](https://homepages.warwick.ac.uk/staff/Miles.Reid/) as ([pdf](https://homepages.warwick.ac.uk/staff/Miles.Reid/MA4A5/UAG.pdf)) 
+ {#reid} 
+
+* Tom Leinster, _A Perspective on Higher Category Theory_, $n$-Category Caf&eacute; post (March 8, 2010), ([link](https://golem.ph.utexas.edu/category/2010/03/a_perspective_on_higher_catego.html)) 
+ {#leinster} 
+
+* [[Saunders Mac Lane]], _Categories for the Working Mathematician_ ($2^{nd}$ edition), Springer Verlag New York, 1998. ([pdf](http://www.maths.ed.ac.uk/~aar/papers/maclanecat.pdf)) 
+
 
