@@ -45,10 +45,9 @@ Discussion in the language of the  [[D'Auria-Fre formulation of supergravity]] (
 
 * C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_ ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
 
-* Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_,  	JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+* Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
-* [[José de Azcárraga]], J. M. Izquierdo, _Superalgebra cohomology, the geometry of extended superspaces and superbranes_ ([arXiv:hep-th/0105125](http://arxiv.org/abs/hep-th/0105125))
-
+* [[José de Azcárraga]], J. M. Izquierdo, _Superalgebra cohomology, the geometry of extended superspaces and superbranes_, Nucl.Phys.B567:293-330,2000 ([arXiv:hep-th/0105125](http://arxiv.org/abs/hep-th/0105125))
 
 and particularly with emphasis of the extended super Minkowski spacetimes as targets for the [[Green-Schwarz super-p brane sigma models]] with gauge fields on the [[worldvolume]] (tensor multiplets) in 
 
