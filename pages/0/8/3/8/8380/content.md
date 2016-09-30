@@ -29,7 +29,7 @@ This is essentially the same structure as a [[monad]] in [[category theory]], bu
 
 Monads provide one way to "embed [[imperative programming]] in 
 [[functional programming]]", and are used that way notably in the 
-[[programming language]] [[Haskell]]. (But monads, as well as [[comonads]] and related structures, exist much more generally in programming languages; an exposition is in ([Harper](#Harper))). 
+[[programming language]] [[Haskell]]. But monads, as well as [[comonads]] and related structures, exist much more generally in programming languages; an exposition is in ([Harper](#Harper)). For an account of the use of monads in industry see [Benton15, pp. 11-12](#Benton15).
 
 For instance when the monad $T(-)$ forms [[product types]] $T(X) \coloneqq X \times Q$ with some fixed type $Q$ that carries the structure of a [[monoid]], then a [[Kleisli function]] $f : X \to Y \times Q$ may be thought of as a function $X \to Y$ that produces a "side effect" output of type $Q$.  The Kleisli composition of two functions $f \colon X \to Y \times Q$ and $g \colon Y \to Z \times Q$ then not only evaluates the two programs in sequence but also combines their $Q$-output using the monoid operation of $Q$; so if $f x = (y,q)$ and $g y = (z,q')$ then the final result of $(g \circ f)(x)$ will be $(z, q q')$.  For example, $Q$ might be the set of strings of characters, and the monoid operation that of concatenation of strings (i.e. $Q$ is the [[free monoid]] on the type of characters).  If the software is designed such that values of type $Q$ computed in this way appear on the user's screen or are written to memory, then this is a way to encode _input/output_ in [[functional programming]] (see the [[IO monad]] below). 
 
@@ -80,7 +80,13 @@ Here the morphism $T(g)$ in the middle of the last line makes use of the fact th
 
 The monads arising this way in computer science are usually required also to interact nicely with the structure of the programming language, as encoded in the structure of its syntactic category; in most cases, terms of the language will be allowed to take more than one input, so the category $\mathcal{C}$ will be at least [[monoidal category|monoidal]], and the corresponding kind of 'nice' interaction corresponds to the monad's being a _[[strong monad]]_.
 
-When monads are defined in Haskell, the Kleisli composition (called 'bind') is defined in Haskell. So monads in Haskell are always enriched monads, according to the self-enrichment defined by the function type in Haskell.
+The 'bind' operation is a means of describing multiplication on such a strong monad $M$. It is a term of the form $M A \to (M B)^A \to M B$, which is equivalent to a map of the form $M A \times M B^A \to M B$. It is the composite 
+
+$$M A \times M B^A \stackrel{strength}{\to} M(A \times M B^A) \stackrel{M eval_{A, M B}}{\to} M M B \stackrel{m B}{\to} M B$$ 
+
+where $m: M M \to M$ is the monad multiplication.
+
+When monads are defined in Haskell, the Kleisli composition, 'bind', is defined in Haskell. So monads in Haskell are always enriched monads, according to the self-enrichment defined by the function type in Haskell.
 
 ## Examples
  {#Examples}
@@ -118,6 +124,10 @@ See also
 
 * [[adjoint modality]]
 
+For an approach to composing monads, see
+
+* [[monad transformer]]
+
 Another approach to modelling side effects in [[functional programming languages]] are 
 
 * [[algebraic side effects]]
@@ -149,6 +159,8 @@ Expositions include
 * John Hughes, section 2 of _Generalising Monads to Arrows_, Science of Computer Programming (Elsevier) 37 (1-3): 67&#8211;111. (2000) ([pdf](http://pdn.sciencedirect.com/science?_ob=MiamiImageURL&_cid=271600&_user=10&_pii=S0167642399000234&_check=y&_origin=search&_zone=rslt_list_item&_coverDate=2000-05-31&wchp=dGLzVlk-zSkWb&md5=fa91ab4ffc136b0cedc52318c7c249be&pid=1-s2.0-S0167642399000234-main.pdf))
 
 * {#Harper} [[Robert Harper]], _Of course ML Has Monads!_ (2011) ([web](http://existentialtype.wordpress.com/2011/05/01/of-course-ml-has-monads/))
+
+* {#Benton15} [[Nick Benton]], _Categorical Monads and Computer Programming_, ([pdf](https://www.lms.ac.uk/sites/lms.ac.uk/files/2.%20Benton%20-%20Categorical%20Monads%20and%20Computer%20Programming.pdf))
 
 
 The specification of monads in [[Haskell]] is at
