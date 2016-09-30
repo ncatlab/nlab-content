@@ -26,6 +26,18 @@ More abstractly, we may say a functor is faithful if it is $2$-[[k-surjective fu
 
 See also [[faithful morphism]] for a generalization to an arbitrary [[2-category]].
 
+## Properties
+
++-- {: .num_prop }
+###### Proposition
+
+A faithful functor [[reflected limit|reflects]] [[epimorphisms]] and [[monomorphisms]].
+
+=--
+
+(The simple proof is spelled out for instance at _[[epimorphism]]_.)
+
+
 ## Related concepts
 
 * [[essentially surjective functor]]
