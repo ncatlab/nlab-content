@@ -16,6 +16,7 @@ Linguists may deploy formal methods to understand grammatical strings of words, 
 * [[dependent type theoretic methods in natural language semantics]]
 * [[categorial grammar]]
 * [[context free grammar]]
+* [[monad (in linguistics)]]
 
 ## Related Concepts
 
