@@ -131,6 +131,8 @@ A\times T^{2}\, B & \xrightarrow{t_{A,T B}} & T(A\times T B) & \xrightarrow{T\: 
 
 * [[enriched monad]]
 
+* [[monad (in computer science)]]
+
 ## References 
 
 Usually strong monads are described explicitly in terms of the components of the above structure. The above repackaging of that definition is due to John Baez
