@@ -17,14 +17,14 @@
 
 ## Idea
 
-A [[functor]] is said to _reflect_ [[limits]] of a given shape if a [[cone]] is limiting whenever its image under $F$ is.
+A [[functor]] is said to _reflect_ [[limits]] ([[colimits]]) of a given shape if a [[cone]] ([[cocone]]) is (co-)limiting whenever its image under $F$ is.
 
 ## Definition
 
 +-- {: .num_prop #ReflectedLimit}
 ###### Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** limits of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **reflects** [[limits]] of $J$ if whenever we have a [[cone]] $\eta\colon const^I_x \to J$ over $J$ in $C$ such that $F(\eta)$ is a [[limit]] of $F\circ J$ in $D$, then $\eta$ was already a limit of $J$ in $C$.
 
 =--
 
@@ -44,6 +44,26 @@ Reflection of limits is distinct from [[preservation of limits]], although there
 
 
 ## Examples
+ {#Examples}
+
++-- {: .num_prop }
+###### Proposition
+
+A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
+
+=--
+
+(The simple proof is spelled out for instance at _[[epimorphism]]_.)
+
+
++-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
+###### Example
+
+A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) reflects all limits and colimits.
+
+=--
+
+This is evident from inspection of the defining [[universal property]].
 
 
 +-- {: .num_prop #ConservativeFunctors}
@@ -60,14 +80,6 @@ If $J$ in def. \ref{ReflectedLimit} has some limit $\theta$ which is preserved b
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
-
-A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
-
-=--
-
-(The simple proof is spelled out for instance at _[[epimorphism]]_.)
 
 ## Related pages
 
