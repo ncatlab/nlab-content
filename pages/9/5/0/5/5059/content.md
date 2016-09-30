@@ -789,7 +789,7 @@ A precursor to the actual Green-Schwarz action functional is
 
 which presented a [[light-cone gauge quantization]] of superstring with manifest [[target space|target]] [[spacetime]] [[supersymmetry]]. 
 
-The observation that this has a [[general covariance|generally covriant]] formulation lead to what is now called the Green-Schwarz action functional proper, for the superstring:
+The observation that this has a [[general covariance|generally covariant]] formulation lead to what is now called the Green-Schwarz action functional proper, for the superstring:
 
 * {#GreenSchwarz84} [[Michael Green]], [[John Schwarz]], _Covariant description of superstrings_, Phys. Lett. B136 (1984), 367&#8211;370 ([web](http://adsabs.harvard.edu/abs/1984PhLB..136..367G))
 
@@ -814,6 +814,12 @@ and a brief paragraph in Volume II, section 10.2, page 983 of
 A more recent and more comprehensive review is
 
 * [[Joan Simón]], _[Brane Effective Actions, Kappa-Symmetry and Applications](http://relativity.livingreviews.org/Articles/lrr-2012-3/)_, Living Reviews in relativity ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+
+Quantization of the Green-Schwarz string using [[pure spinors]] is discussed in
+
+* P. A. Grassi, G. Policastro, [[Peter van Nieuwenhuizen]], _An Introduction to the Covariant Quantization of Superstrings_, Class.Quant.Grav. 20 (2003) S395-S410 ([arXiv:hep-th/0302147](https://arxiv.org/abs/hep-th/0302147))
+
+* P.A. Grassi, Y. Oz, _Non-Critical Covariant Superstrings_ ([arXiv:hep-th/0507168](https://arxiv.org/abs/hep-th/0507168))
 
 
 Review from the bigger perspective that also includes worlsheet supermanifolds is in 
