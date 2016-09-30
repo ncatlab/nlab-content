@@ -32,6 +32,18 @@ This means that equivalently we can say:
 A functor $F : S \to C$ exhibits $S$ as a **full subcategory** of $C$ precisely if it is a [[full and faithful functor]].
 ($S$ is the [[essential image]] of $F$).
 
+## Properties
+
++-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
+###### Example
+
+A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) reflects all limits and colimits.
+
+=--
+
+This is evident from inspection of the defining [[universal property]].
+
+
 ## Related concepts
 
 * [[reflective subcategory]]
