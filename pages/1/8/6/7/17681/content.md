@@ -8,7 +8,9 @@
 
 ##Idea
 
-A **monad transformer** is a type constructor which takes a [[monad]] as an argument and returns a monad as a result. Monad transformers typically derive from ordinary monads and allow a modular composition, so that the action on the identity monad of the associated transform $M T$ of a monad $M$ is equivalent to $M$.
+A **monad transformer** is a type constructor which takes a [[monad]] as an argument and returns a monad as a result. The concept is typically treated in the literature on [[monad (in computer science)|monads in computer science]].
+
+Monad transformers generally derive from ordinary monads and allow a modular composition, so that the action on the identity monad of the associated transform $M T$ of a monad $M$ is equivalent to $M$.
 
 ##References
 
