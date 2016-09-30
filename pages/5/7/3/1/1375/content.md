@@ -37,11 +37,11 @@ Notice that this definition is highly redundant. The point is that writing $X[n]
 
 $$
   \array{
-    X[n+1] &\to& 0
+    X[n] &\to& 0
     \\
     \downarrow && \downarrow
     \\
-    0 &\to& X[n]
+    0 &\to& X[n+1]
   }
     \,.
 $$
