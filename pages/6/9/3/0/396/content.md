@@ -20,7 +20,16 @@ A **full and faithful functor** is a [[functor]] which is both [[full functor|fu
 
 ## Properties
 
-Together with [[bo functor|bijective-on-objects functors]], ff functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$. Less [[evil]]ly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
+* Together with [[bo functor|bijective-on-objects functors]], fully faithful  functors form an [[bo-ff factorization system|orthogonal factorization system]] on $Cat$. More invariantly, pair them with [[essentially surjective functor]]s to get a bicategorial factorization system.
+
++-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
+###### Example
+
+A [[fully faithful functor]] (hence a [[full subcategory]] inclusion) [[reflected limit|reflects]] all [[limits]] and [[colimits]].
+
+=--
+
+This is evident from inspection of the defining [[universal property]].
 
 
 ## Higher categorical generalizations
