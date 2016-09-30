@@ -3,7 +3,7 @@
 
 ##Idea
 
-A number of researchers have proposed that the category theoretic concept of [[monads]] may play a role in understanding semantic and pragmatic issues in the use of natural language.
+A number of researchers have proposed that the [[category theory|category theoretic]] concept of [[monads]] may play a role in understanding semantic and pragmatic issues in the use of natural language.
 
 In an overview paper [Asudeh](#Asudeh), it is proposed that the following topics are explained by specific monads:
 
@@ -11,6 +11,11 @@ In an overview paper [Asudeh](#Asudeh), it is proposed that the following topics
 1. Optional arguments: the [[maybe monad]]
 1. Perspective and opacity: the [[reader monad]]
 1. Conjunction fallacies: the [[Giry monad|probability monad]]
+
+
+## Related concepts
+
+* [[monad (in computer science)]]
 
 ##References
 
