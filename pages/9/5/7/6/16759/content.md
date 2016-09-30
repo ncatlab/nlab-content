@@ -22,6 +22,10 @@ This page collects material related to the book collection
 
 that collects and comments key articles in the (pre-)history of [[M-theory]] ([[M-branes]] in [[11-dimensional supergravity]]) in the 1990s.
 
+See also
+
+* [[Edward Witten]],  _[[String Theory Dynamics In Various Dimensions]]_,  Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+
 For related texts see at _[[books about string theory]]_.
 
 #Contents#
