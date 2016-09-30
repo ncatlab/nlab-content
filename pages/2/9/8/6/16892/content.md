@@ -1,17 +1,21 @@
-A number of researchers are using [[dependent type theory]] as a formal tool to understand [[linguistics|natural language]].
+#Contents#
+* table of contents
+{: toc}
 
-A worked example [GF-HoTT](http://www.grammaticalframework.org/~aarne/gf-hott/). A start at the [[homotopy type theory]] in the [[Grammatical Framework]].
+##Idea
+A number of researchers are using [[dependent type theory]] as a formal tool to understand [[linguistics|natural language]]. 
 
-##Talks
 
-* [[Daisuke Bekki]], Anaphora and Presuppositions in [[Dependent Type Semantics]] (Theoretical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki1.pdf)
-* [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Empirical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki2.pdf)
-* Ribeka Tanaka, Generalized Quantifiers in Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/tanaka.pdf)
-* Yusuke Kubota and Robert Levine, Scope parallelism in coordination in
-Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/kubota-levine.pdf)
+
+##Related entries
+
+* [[monad (in linguistics)]]
+
 
 
 ##References
+
+###Papers
 
 * Asher, N.: Lexical Meaning in Context: A Web of Words. Cambridge University Press (2011)
 * Asher, N., Luo, Z.: Formalisation of coercions in lexical semantics. In: Sinn und Bedeutung. vol. 17, pp. 63&#8211;80 (2012)
@@ -30,3 +34,15 @@ Springer, Heidelberg (2011)
 * [[Aarne Ranta]], Type-theoretical grammar. Oxford University Press (1994)
 * Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
 * Tanaka, R., Mineshima, K., Bekki, D.: Resolving modal anaphora in Dependent Type Semantics. In: Proceedings of LENLS11. pp. 43&#8211;56 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-48119-6_7).
+
+A worked example, [[homotopy type theory]] in the [[Grammatical Framework]] 
+
+* [GF-HoTT](http://www.grammaticalframework.org/~aarne/gf-hott/). 
+
+###Talks
+
+* [[Daisuke Bekki]], Anaphora and Presuppositions in [[Dependent Type Semantics]] (Theoretical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki1.pdf)
+* [[Daisuke Bekki]], Anaphora and Presuppositions in Dependent Type Semantics (Empirical side) [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/bekki2.pdf)
+* Ribeka Tanaka, Generalized Quantifiers in Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/tanaka.pdf)
+* Yusuke Kubota and Robert Levine, Scope parallelism in coordination in
+Dependent Type Semantics [slides](http://www.u.tsukuba.ac.jp/~kubota.yusuke.fn/kubota-levine.pdf)
