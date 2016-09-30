@@ -15,9 +15,13 @@
 
 ## Related concepts
 
+* [[imperative programming]]
+
 * [[function type]]
 
 * [[continuation-passing style]]
+
+* [[monad (in computer science)]]
 
 * [[programming language]]
 
