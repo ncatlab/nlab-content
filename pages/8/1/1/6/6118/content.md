@@ -554,7 +554,7 @@ $$\array{
 \beta Y & \underset{\theta}{\to} & Y
 }$$ 
 
-commutes in $Rel$. From this point of view, a space $X$ is Hausdorff if the diagonal map $\delta: X \to X \times X$ is proper, and compact if $\epsilon: X \to 1$ is proper (and these facts remain true even for pseudotopological spaces). See [Clementino, Hofmann, and Janelidze](#CHJ), _infra_ corollary 2.5. 
+commutes in $Rel$. From this point of view, a space $X$ is Hausdorff if the diagonal map $\delta: X \to X \times X$ is open, and compact if $\epsilon: X \to 1$ is proper (and these facts remain true even for pseudotopological spaces). See [Clementino, Hofmann, and Janelidze](#CHJ), _infra_ corollary 2.5. 
 
 The following _ultrafilter interpolation_ result is due to [Pisani](#Pis): 
 
@@ -577,6 +577,7 @@ A continuous map $f: X \to Y$ is &#233;tale (a local homeomorphism) if $f$ and $
 
 For more on this, see [Clementino, Hofmann, and Janelidze](#CHJ). 
 
+
 ## Relation to nonstandard analysis
 
 In [[nonstandard analysis]] (which implicitly relies throughout on $UF$), one may define a topological space using a relation between hyperpoints (elements of $S^*$) and standard points (elements of $S$).  If $u$ is a hyperpoint and $x$ is a standard point, then we write $u \approx x$ and say that $x$ is a __[[standard part]]__ of $u$ or that $u$ belongs to the __[[halo]]__ (or _monad_, but *not* the category-theoretic kind) of $x$.  This relation must satisfy a condition analogous to the condition in the definition of a relational $\beta$-module.  The nonstandard defintions of open set, compact space, etc are also analogous.  (Accordingly, one can speak of *the* standard part of $u$ only for Hausdorff spaces.)
@@ -590,7 +591,7 @@ If $\beta$ is treated as a monad on $Set$ instead of on $Rel$, then its algebras
 
 One might hope that there would be an analogous treatment of [[uniform spaces]] based on an [[equivalence relation]] between ultrafilters.  (In nonstandard analysis, this becomes a relation $\approx$ of infinite closeness between arbitrary hyperpoints, instead of only a relation between hyperpoints and standard points.)  The description in terms of generalized multicategories is known to generalize to a description of uniform spaces, but rather than using relations between ultrafilters, this description uses pro-relations between points. 
 
-For more on relations between Barr's approach to topological spaces, Lawvere's approach to [[metric spaces]], as well as uniform structures, [[prometric spaces]], and [[approach structures]], see [Clementino, Hofmann, and Tholen](#CHT2). 
+For more on relations between Barr's approach to topological spaces, Lawvere's approach to [[metric spaces]], as well as uniform structures, [[prometric spaces]], and [[approach structure]]s, see [Clementino, Hofmann, and Tholen](#CHT2). 
 
 ## References 
 
