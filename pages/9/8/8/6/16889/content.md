@@ -42,6 +42,8 @@ If you've never used <i>Globular</i> before, the [tutorial video](https://youtu.
 
 We are extremely grateful to John Baez, Manuel B&#228;renz, Bruce Bartlett, Eugenia Cheng, Chris Douglas, Eric Finster, Nick Gurski, Andr&#233; Henriques, Samuel Mimram and Dominic Verdon for useful discussions.
 
+If you would like to cite _Globular_, you can use the BiBTeX entry `@InProceedings{globular, author={Krzysztof Bar and Aleks Kissinger and Jamie Vicary}, title={Globular: an online proof assistant for higher-dimensional rewriting}, note={\href{http://ncatlab.org/nlab/show/Globular}{ncatlab.org/nlab/show/Globular}}, pages={34:1--34:11}, volume=52, year=2016, booktitle={Leibniz International Proceedings in Informatics}}`.
+
 ### Example proofs ###
 
 To see what can be done with _Globular_, look at these example proofs. To navigate through them, use the _Project_ and _Slice_ controls in the top-right of the main diagram (see [Changing the view](#changingtheview).)
