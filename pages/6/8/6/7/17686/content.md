@@ -8,4 +8,6 @@ Ensifer benefits a lot form nLab when preparing drafts for TM and his special th
 
 [[ensifer:HomePage]]
 
+https://ncatlab.org/ensifer/show/HomePage
+
 category:people
