@@ -124,3 +124,15 @@ In the definition of pretopology, the neighbourhoods of each point may be given 
 
 [[!redirects pretopological space]]
 [[!redirects pretopological spaces]]
+[[!redirects pre-topological space]]
+[[!redirects pre-topological spaces]]
+
+[[!redirects preinterior]]
+[[!redirects preinteriors]]
+[[!redirects pre-interior]]
+[[!redirects pre-interiors]]
+
+[[!redirects preclosure]]
+[[!redirects preclosures]]
+[[!redirects pre-closure]]
+[[!redirects pre-closures]]
