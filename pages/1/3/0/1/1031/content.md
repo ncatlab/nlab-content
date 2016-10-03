@@ -105,6 +105,7 @@ In [[ring]] theory, even when one assumes that rings have units preserved by rin
 
 In [[universal algebra]], this may be handled in the framework of [[Malcev variety|Mal?cev varieties]].
 
+Kashiwara-Schapira, following the terminology of EGA, uses kernel as a synonym of equalizer (and co-kernel of co-equalizer).
 
 ## Properties {#Properties}
 
