@@ -65,6 +65,8 @@ The [[category]] of [[Bishop sets]] in [[Martin-Löf dependent type theory]] is 
 
 This is ([van den Berg, theorem 6.2](#vdBerg)), based on ([Moerdijk-Palmgren 99, section 7](#MoerdijkPalmgren99)) and ([Moerdijk-Palmgren 00, section 10](#MoerdijkPalmgren00)).
 
+Not every [[topos]] is a predicative topos, or even every $Set$-topos (i.e. a topos with a [[geometric morphism]] to the category $Set$, see ([Roberts 2015](#Roberts15))), but every _[[Grothendieck topos]]_ -- a [[bounded geometric morphism|bounded]] $Set$-topos -- is.
+
 
 
 ## References
@@ -88,6 +90,11 @@ The definition then appears in
 Discussion of the [[category of sets]] as a $\Pi$-W-topos when formalized via [[h-sets]] in [[homotopy type theory]] is in 
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
+
+A non-example constructed via the internal logic of an unbounded $Set$-topos is given in
+
+* {#Roberts15} [[David Roberts]], _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074)
+
 
 
 [[!redirects predicative topos]]
