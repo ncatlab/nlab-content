@@ -52,9 +52,12 @@ Hegel apparently introduced the concept in his philosophy around 1800 in or shor
 
 [^cite]: Translation by D. J. Zeyl, p.1237 in [Cooper (ed.) 1997](#Plato). Note that 'most harmonious bond' is closer to the Greek text than 'best bond'. Hegel quotes it as 'der Bande sch&#246;nstes' in German.
 
-Hegel cites this passage already in _'Differenz des Fichteschen und Schellingschen Systems der Philosophie'_ ([1801](#Hegel2), p.97). A similar configuration with triangles instead of circles occurs also in his (lost) fragment on the _'divine triangle'_ as reported and dated to 1804 by [[Karl Rosenkranz|Rosenkranz]] (cf. [Hegel Werke 2](#Hegel2), pp.534-539) which is somewhat reminiscent of an [[adjoint triple]] $L\dashv M\dashv R$ as an _adjunction between adjunctions_.
+Hegel cites this passage already in _'Differenz des Fichteschen und Schellingschen Systems der Philosophie'_ ([1801](#Hegel2), p.97). A similar configuration with triangles instead of circles occurs also in his (lost) fragment on the _'divine triangle'_ as reported and dated to 1804 by [[Karl Rosenkranz|Rosenkranz]] (cf. [Hegel Werke 2](#Hegel2), pp.534-539) which is somewhat reminiscent of an adjoint triple $L\dashv M\dashv R$ as an [[adjoint triple|adjunction between adjunctions]].
 
-The mature Hegel comments the Timaios passage extensively and enthusiastically in his [[Lectures on the History of Philosophy]] (cf. [Hegel Werke 19](#Hegel19), pp.89-91).
+The conception seems to have been the subject of the discussions between Hegel and Schelling during their collaboration in Jena, since the latter alludes to the display of the absolute by the three judgements in two texts of the epoch, namely the dialogue _'Bruno oder &#220;ber das g&#246;ttliche und nat&#252;rliche Prinzip der Dinge'_ ([1802](#Bruno)) and _'Philosophie und Religion'_ ([1804](#SchellSchrift)).
+
+The mature Hegel comments the Timaios passage extensively and with emphatic approval in his [[Lectures on the History of Philosophy]] (cf. [Hegel Werke 19](#Hegel19), pp.89-91).
+
 
 ## Related entries
 
@@ -76,14 +79,24 @@ The mature Hegel comments the Timaios passage extensively and enthusiastically i
 
 * {#Plato} J. M. Cooper (ed.), _Plato - Complete Works_ , Hackett Indianapolis 1997.
 
+* N. F&#252;zesi, _Hegels drei Schl&#252;sse_ , Fink M&#252;nchen 2004.
+
 * {#Guitart09}[[René Guitart| R. Guitart]], _Klein's Group as a Borromean Object_ , Cah. Top. G&#233;o. Diff. Cat. **L** no.2 (2009) pp.144-155. ([pdf](http://rene.guitart.pagesperso-orange.fr/textespublications/Guitart%202009%20G168CTGDC.pdf))
 
 * {#Hegel2} [[Georg Hegel|G. W. F. Hegel]], _Jenaer Schriften 1801-1807 - Werke 2_ , Suhrkamp Frankfurt a. M 1986.
+
+* {#Hegel8} [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften I - Werke 8_ , Suhrkamp Frankfurt a. M 1986[1817, rev. 1830]. (&#167; 187 Zusatz, p.339f.)
 
 * {#Hegel10} [[Georg Hegel|G. W. F. Hegel]], _Enzyklop&#228;die der philosophischen Wissenschaften III - Werke 10_ , Suhrkamp Frankfurt a. M 1986[1817, rev. 1830]. (&#167;&#167; 569-571, pp.376f; &#167;&#167; 575-77, pp.393f)
 
 * {#Hegel19} [[Georg Hegel|G. W. F. Hegel]], _Vorlesungen &#252;ber die Geschichte der Philosophie II - Werke 19_ , Suhrkamp Frankfurt a. M 1986. (ch. III A. 2, pp.89-91)
 
 * W. Jaeschke, _Die Schl&#252;sse der Philosophie (&#167;&#167; 574-577)_ , pp.479-486 in Dr&#252;e et al. (eds.), _Hegels 'Enzyklop&#228;die der philosophischen Wissenschaften'  (1830) - Ein Kommentar zum Systemgrundri&#223;_ , Suhrkamp Frankfurt a. M. 2000.
+
+* G. Sans, _Die Realisierung des Begriffs - Eine Untersuchung zu Hegels Schlusslehre_ , Akademie Verlag Berlin 2004.
+
+* {#SchellSchrift}F. W. J. Schelling, _Schriften 1804-1812_ , Union Berlin 1982. (sect. 1, p.48)
+
+* {#Bruno}F. W. J. Schelling, _Bruno oder &#220;ber das g&#246;ttliche und nat&#252;rliche Prinzip der Dinge_ , Reclam Leipzig 1986. (sect. IIB 7b, p.88)
 
 * G. Werckmeister, _Hegels absoluter Schluss als logische Grundstruktur der Objektivit&#228;t_ , PhD TU Kaiserslautern 2009. ([link](https://kluedo.ub.uni-kl.de/frontdoor/index/index/docId/2160))
