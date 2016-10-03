@@ -24,16 +24,21 @@ The **axiom of multiple choice** (AMC) is a weak version of the [[axiom of choic
 
 A set-indexed family $\{D_c\}_{c\in C}$ of sets is said to be a *collection family* if for any $c\in C$ and any [[surjection]] $E\twoheadrightarrow D_c$, there exists a $c'\in C$ and a surjection $D_{c'}\twoheadrightarrow D_c$ which factors through $E$.
 
-The *axiom of multiple choice* states one of two things:
+Depending on the author, the *axiom of multiple choice* is one of the following statements:
 
-1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ such that $X\cong D_c$ for some $c$, or
-1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ and a family of surjections $\{D_c \to X\}_{c\in C}$.
+1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ such that $X\cong D_c$ for some $c$ ([[Michael Rathjen]]'s formulation, attributed to [[Peter Aczel]] and [[Alex Simpson]]), or
 
-The second formulation seems to be the one originally given by M&P, below, while the first is that given by [[Michael Rathjen]] and attributed to [[Peter Aczel]] and Simpson.
+1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ and a family of surjections $\{D_c \to X\}_{c\in C}$ (the formulation originally given by [[Ieke Moerdijk]] and [[Erik Palmgren]]), or 
+
+1. for every set $X$, the full subcategory $(Set/X)_{surj}$ of the slice category $Set/X$ consisting of the surjections has a weakly initial set (in [[Benno van den Berg]]'s formulation; this is also called [[WISC]]).
+
+The nLab uses the initialization AMC to cover either the first two formulations.
 
 +--{: .query}
-[[Mike Shulman]]: Are these the same?  If not, why are they given the same name?
+[[Mike Shulman]]: Are the first two the same?  If not, why are they given the same name?
 =--
+
+The third is a weaker condition, and while some may refer to as a "weak axiom of multiple choice", van den Berg obviously does not; he calls his the AMC and the Moerdijk-Palmgren formulation rather the "strong axiom of multiple choice". 
 
 
 ## Relationships to other axioms
@@ -42,7 +47,7 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * An extension of this argument shows that [[COSHEP]] is sufficient to imply AMC.
 
-* The [[Reflection Principle]] (RP) is equivalent to AMC (called strong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
+* The [[Reflection Principle]] (RP) is equivalent to AMC (the one called strong AMC by van den Berg). RP is motivated by the regular extension principle (REA) from constructive set theory. RP states that every map belongs to a representable class of small maps.
 
 * However, AMC does not imply [[countable choice]] or any of the other usual consequences of AC.
 
