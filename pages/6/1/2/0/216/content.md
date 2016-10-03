@@ -122,6 +122,12 @@ $$
 makes the convolution algebra a star-algebra.
 
 =--
++-- {: .num_defn #catalgebraIsWeakHopfalgebra}
+###### Remark
+
+If the category has finitely many objects and finitely many morphisms, then the category algebra is also a coalgebra via the unique comultiplication where every morphism in $C_1\subset R[C_1]$ is group like; the structure of the coalgebra and that of an algebra are compatible in the sense that they form a [[weak Hopf algebra]].
+
+=--
 
 ### For Lie groupoids
  {#ForLieGroupoids}
