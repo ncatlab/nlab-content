@@ -54,6 +54,8 @@ Urs Schreiber is visiting 29 Jan and gives a talk at [GRK colloquium] (http://ww
 ***
 Nonacademic Activities:
 
+Together with Dima Dudko, we organised a course followed by participation in IMC (international math competition), and this year [our team](http://www.uni-goettingen.de/de/3240.html?cid=5571) got no. 6 worldwise!
+ 
 I organised [Girls Day 2016](https://www.uni-goettingen.de/en/507545.html) here in Gottingen for higher school girls. 
 
 I'm also gleichstellungsbeauftragte for math institute :). 
