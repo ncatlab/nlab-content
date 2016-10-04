@@ -38,7 +38,7 @@ For the classical functors which forget algebraic structure, cofree functors are
 
 ## Examples
 
-Classically, examples of free constructions were characterized by a [[universal property]. For example, in the case of the free group on a set $X$ the universal property states that any map $X \to G$ as sets uniquely extends to a group homomorphism $F(X) \to G$. When such a free construction can be realized as a left adjoint functor, this universal property is just a transliteration of the fact that the [[unit of an adjunction|unit]] of the [[free-forgetful adjunction]] is an [[initial object]] in the [[comma category]] $(X \downarrow \operatorname{for})$ (see e.g. the proof of Freyd's general [[adjoint functor theorem]].)
+Classically, examples of free constructions were characterized by a [[universal property]]. For example, in the case of the free group on a set $X$ the universal property states that any map $X \to G$ as sets uniquely extends to a group homomorphism $F(X) \to G$. When such a free construction can be realized as a left adjoint functor, this universal property is just a transliteration of the fact that the [[unit of an adjunction|unit]] of the [[free-forgetful adjunction]] is an [[initial object]] in the [[comma category]] $(X \downarrow \operatorname{for})$ (see e.g. the proof of Freyd's general [[adjoint functor theorem]].)
 
 ### For free functors
 
