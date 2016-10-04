@@ -233,7 +233,7 @@ As described at [[symplectic infinity-groupoid]] one can consider the higher ana
 ### As a Heisenberg Lie 2-algebra
 
 The String Lie 2-algebra identifies also with the [[Heisenberg Lie 2-algebra]]
-of the [[string]] [[sigma-model]] for the specialization to the [[WZW model]]. See at _[[2-plectic geometry]]_ for more.
+of the [[string]] [[sigma-model]] for the specialization to the [[WZW model]] ([Baez-Rogers 10](#BaezRogers10)). See at _[[2-plectic geometry]]_ for more.
 
 ## Generalizations
 
@@ -274,10 +274,15 @@ the string Lie 2-algebra is integrated to the [[string 2-group]] using the gener
 
 In
 
-* [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123)) 
-  {#BCSS}
+* {#BCSS} [[John Baez]], [[Alissa Crans]], [[Urs Schreiber]] and [[Danny Stevenson]], From loop groups to 2-groups, _Homotopy, Homology and Applications_ **9** (2007), 101-135.  ([arXiv:math.QA/0504123](http://arxiv.org/abs/math.QA/0504123)) 
+  
 
 the equivalent strict model given by a differential crossed module is found, which is then integrated termwise as ordinary Lie algebras to a [[crossed module]] of Frechet-Lie groups, hence to a Lie [[strict 2-group]] model of the String Lie 2-group.
+
+The string Lie 2-algebra as the [[Heisenberg Lie 2-algebra]] on the group $G$ is discussed in
+
+* {#BaezRogers10} [[John Baez]], [[Chris Rogers]], _Categorified Symplectic Geometry and the String Lie 2-Algebra_, Homology Homotopy Appl. Volume 12, Number 1 (2010), 221-236. ([arXiv:0901.4721](http://arxiv.org/abs/0901.4721),[euclid](https://projecteuclid.org/euclid.hha/1296223828)).
+
 
 The string Lie 2-algebra is also considered in a certain context in 
 
