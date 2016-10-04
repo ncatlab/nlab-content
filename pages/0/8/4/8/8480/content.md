@@ -127,7 +127,7 @@ The collection $I$ of inflationary monotone maps on $S$ is an ipo: its bottom el
 This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed point, the downward-closed set $L \downarrow x$ contains $\bot$, is closed under $f$, and is closed under directed unions, and therefore $S \subseteq L \downarrow x$. Hence $t(\bot) \in S$ satisfies $t(\bot) \leq x$. 
 =-- 
 
-One may mimic the last part of the proof of the Knaster-Tarski theorem to show that if $L$ is an ipo and $f$ is monotone, then $fix(f)$ (with the order inherited from $L$) is also an ipo. 
+One may mimic the last part of the proof of the Knaster-Tarski theorem to show that if $L$ is an ipo and $f$ is monotone, then $fix(f)$ (with the order inherited from $L$) is also an ipo. Indeed, we have just seen $fix(f)$ has a bottom element, and if $A \subseteq fix(f)$ is any directed subset, and $s = sup(A)$ is its sup in $L$, then we may argue as we did for the Knaster-Tarski theorem that $f$ restricts to a monotone map on the ipo $s \uparrow L$, whence by Pataraia's theorem it has a least fixed point, and this will be the sup of $A$ in $fix(f)$. 
 
 ### Galois connections 
 
