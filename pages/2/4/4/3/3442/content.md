@@ -172,6 +172,10 @@ General accounts include
 
 * [[Mikhail Gromov]], _Partial differential relations_, Ergebnisse der Mathematik und ihrer Grenzgebiete (3) [Results in Mathematics and Related Areas (3)], 9. Springer-Verlag, Berlin, 1986. x+363 pp.
 
+Discussion of the spaces of solutions is in 
+
+* Batu G&#252;neysu, [[Markus Pflaum]], _The profinite dimensional manifold structure of formal solution spaces of formally integrable PDE's_ ([arXiv:1308.1005](https://arxiv.org/abs/1308.1005))
+
 Characterization of the category of partial differential equations as the [[Eilenberg-Moore category]] of [[coalgebras]] over the [[jet comonad]] is due to 
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
