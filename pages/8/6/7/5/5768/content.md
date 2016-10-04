@@ -73,6 +73,7 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 
 *  Diane Maclagan, Felipe Rinc&#243;n, _Tropical ideals_, [arxiv/1609.03838](http://arxiv.org/abs/1609.03838)
 
+* Kiumars Kaveh, Christopher Manon, _Khovanskii bases, Newton-Okounkov polytopes and tropical geometry of projective varieties_, [arxiv/1610.00298](https://arxiv.org/abs/1610.00298)
 
 An alternative algebraic framework for tropical mathematics (not based on semirings), "more compatible with valuation theory" has been proposed in
 
