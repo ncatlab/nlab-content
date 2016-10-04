@@ -31,7 +31,7 @@ One may say that 'fibre bundles are [[fibrations]]' by the [[Milnor slide trick]
 
 In the most general sense, a __bundle__ over an object $B$ in a [[category]] $C$ is a [[morphism]] $p: E \to B$ in $C$.
 
-In an appropriate contexts, a __fibre bundle__ over $B$ with standard fibre $F$ may be defined as a bundle over $B$ such that, given any [[global element]] $x: 1 \to B$, the [[pullback]] of $E$ along $x$ is isomorphic to $F$.  Certainly this definition is appropriate whenever $C$ has a [[terminal object]] $1$ which is a [[generator]], as in a [[well-pointed category]]; even then, however, one often wants the more restrictive notion below.
+In an appropriate contexts, a __fibre bundle__ over $B$ with standard fibre $F$ may be defined as a bundle over $B$ such that, given any [[global element]] $x: 1 \to B$, the [[pullback]] of $E$ along $x$ is isomorphic to $F$.  Certainly this definition is appropriate whenever $C$ has a [[terminal object]] $1$ which is a [[separator]], as in a [[well-pointed category]]; even then, however, one often wants the more restrictive notion below.
 
 One often writes a typical fibre bundle in shorthand as $F \to E \to B$ or
 $$ \array {
