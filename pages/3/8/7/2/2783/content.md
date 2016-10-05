@@ -170,11 +170,13 @@ Many categorical properties of interest are preserved by one or more of the regu
 
 * If $C$ has a [[natural numbers object]], then so do $C_{reg/lex}$ and $C_{ex/lex}$.  (Does $C_{ex/reg}$?  What about more general [[W-type]]s?)
 
+* If $C$ is a [[ΠW-pretopos]], then so is $C_{ex/lex}$ (see [vandenBerg](#vdB), Theorem 1.1). 
+
 * $C_{ex/lex}$ is an [[elementary topos]] iff $C$ has weak dependent products and a [[generic proof]] ([Menni2000](#Menni)).  Note that if $C$ is a topos satisfying the axiom of choice, then its subobject classifier is a generic proof.  It follows that in this case $C_{ex/lex}$ is a topos---but we already knew that, because $C_{ex/lex}$ is equivalent to $C$ for such a $C$.
 
 * Expanding on the last point, for a [[presheaf topos]] $C = Set^{D^{op}}$, the category $C_{ex/lex}$ is a topos iff $D$ is a [[groupoid]] ([Menni2000](#Menni)). 
 
-* If $C$ is regular, locally cartesian closed, and has a *generic mono*, i.e. a monomorphism $\tau\colon \Upsilon\to \Lambda$ such that every monomorphism is a pullback of $\tau$ (not necessarily uniquely), then $C_{ex/reg}$ is a topos (Menni 2000).
+* If $C$ is regular, locally cartesian closed, and has a *generic mono*, i.e. a monomorphism $\tau\colon \Upsilon\to \Lambda$ such that every monomorphism is a pullback of $\tau$ (not necessarily uniquely), then $C_{ex/reg}$ is a topos ([Menni2000](#Menni)).
 
 * If $C$ is an [[additive category]], then $C_{ex/lex}$ is an [[abelian category]].
 
@@ -208,10 +210,15 @@ On the other hand, some properties are *not* preserved by the completions.
 
   Note that although $TF$ is not exact, its inclusion into $Ab$ does have a left adjoint (quotient by torsion), and thus $TF$ is cocomplete.  Herein lies a subtle trap for the unwary: since the ex/reg completion monad is idempotent, it is in particular lax-idempotent, which means that any left adjoint to the unit $C \hookrightarrow C_{ex/reg}$ is in fact a (pseudo) algebra structure; but since the monad is actually idempotent, any algebra structure is an equivalence.  Of course, the reflection $Ab \to TF$ is *not* an equivalence, which doesn't contract the general facts because this left adjoint is not a regular functor, and hence not an adjunction in the 2-category on which the monad $(-)_{ex/reg}$ lives.  In fact, it is not hard to check that $C \hookrightarrow C_{ex/reg}$ has a left adjoint in $Cat$ if and only if $C$ has [[coequalizers]] of [[congruences]] (while if it has a left adjoint in $Reg$ then it must be an equivalence).
 
+* A [[free cocompletion]] of a (possibly large) finitely complete category, i.e., the category of [[small presheaves]] on $C$, is the ex/lex completion of the [[free cartesian category|free coproduct completion]] of $C$. This appears as Lemma 3 [here](#JR). 
+
 
 ## References
 
-* Carboni and Celia Magno, "The free exact category on a left exact one", J. Austral. Math. Soc. (Ser. A), 1982.
+* Carboni and Celia Magno, "The free exact category on a left exact one", J. Austral. Math. Soc. (Ser. A), 1982. 
+
+* J&icech;r&icech; Rosick&#253;, _Cartesian closed exact completions_, JPAA 142 no. 3 (October 1999), 261-270. ([web](http://www.sciencedirect.com/science/journal/00224049/142/3)) 
+ {#JR} 
 
 * Hu and Tholen, "A note on free regular and exact completions and their infinitary generalizations", [TAC](http://www.tac.mta.ca/tac/volumes/1996/n10/2-10abs.html) 1996.
 
@@ -231,6 +238,10 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * [[Michael Shulman]], "Exact completions and small sheaves".  *Theory and Applications of Categories*, Vol. 27, 2012, No. 7, pp 97-173.  [Free online](http://www.tac.mta.ca/tac/volumes/27/7/27-07abs.html)
 {#Shulman} 
+
+* [[Benno van den Berg]], _Inductive types and exact completion_, Ann. Pure Appl. Logic, 134 (2005), 95&#8211;121. ([online .pdf file](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.18.5456&rep=rep1&type=pdf)) 
+ {#vdB} 
+
 
 [^fine]: For example, let $C = Set^{\bullet \stackrel{\to}{\to} \bullet}$ be the topos of directed graphs. For each ordinal $\alpha$, let $G_\alpha$ be the directed graph whose nodes are elements of $\alpha$ and with a directed edge from $\beta$ to $\gamma$ if $\beta \lt \gamma$ in $\alpha$. Then in the poset reflection $Pos(C)$, we have a class of proper monomorphisms, e.g., $[G_\alpha] \lt [G_{\alpha'}]$ whenever $\alpha \lt \alpha'$. Thus $Pos(C)$ is a large poset. This example also shows that $Pos(C)$ need not be a [[total category]] even if $C$ is. 
 
