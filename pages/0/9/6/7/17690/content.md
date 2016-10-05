@@ -2,4 +2,7 @@ __Langevin equation__ is the equation of motion which includes a contribution fr
 
 Related $n$Lab items include [[statistical physics]], [[stochastic process]], [[fluctuation-dissipation theorem]], [[anomalous diffusion]]
 
+
+* [Langevin equation](https://en.wikipedia.org/wiki/Langevin_equation), Wikipedia
+
 category: physics
