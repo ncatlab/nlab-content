@@ -127,6 +127,7 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 
 * [[dg-coalgebra]]
 
+* [[model structure on coalgebras over a comonad]]
 
 ## References
 
