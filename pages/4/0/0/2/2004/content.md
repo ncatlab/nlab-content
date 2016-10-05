@@ -247,6 +247,7 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 * [[Emily Riehl]], [[Dominic Verity]], _Homotopy coherent adjunctions and the formal theory of monads_ ([arXiv:1310.8279](http://arxiv.org/abs/1310.8279))
  {#RiehlVerity13}
 
+[[!redirects Eilenberg-Moore categories]]
 
 [[!redirects Eilenberg?Moore category]]
 [[!redirects Eilenberg--Moore category]]
