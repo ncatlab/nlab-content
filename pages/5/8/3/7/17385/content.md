@@ -58,6 +58,7 @@ in learning the subject rather then only the goals and supposed content matter. 
 
 * [NCTM](http://www.nctm.org) National Organization of Teachers of Mathematics
 * [Common Core](http://www.corestandards.org/Math) math standards
+* Next Generation Science Standards &lt;http://www.nextgenscience.org>
 * [ICMI](http://www.mathunion.org/icmi) International Commision on Mathematical Instruction (founded in 1908,  now under IMU)
 * [websites of math education and math teacher associations](http://www.mathunion.org/icmi/links/math-ed-associations) (a list maintained at ICMI)
 * [International Mathematical Olympiad](http://www.imo-official.org), official site
