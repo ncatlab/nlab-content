@@ -111,7 +111,7 @@ A virtual corollary of this theorem is the [[Cantor-Schroeder-Bernstein theorem]
 
 ### Pataraia's theorem 
 
-The following significantly strengthens the Knaster-Tarski theorem, and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of directed subsets. 
+The following significantly strengthens the Knaster-Tarski theorem, and is based on the notion of an **ipo** (inductive partial order; see Paul Taylor's book), i.e., a poset with a bottom element and admitting joins of [[direction|directed subsets]]. 
 
 +-- {: .num_theorem}
 ###### Theorem (Pataraia) 
@@ -124,7 +124,7 @@ Consider the smallest $S$ among subsets of $L$ which contain $\bot$, are closed 
 
 The collection $I$ of inflationary monotone maps on $S$ is an ipo: its bottom element is $1_S$, and directed joins are computed pointwise. Moreover, $I$ is itself directed: if $g, h \in I$, then $g \circ h \in I$ dominates them both. Thus the directed join $t$ of the collection exists; it is the maximal element $t$ of $I$. It follows that $f \circ t \leq t$, but also $t \leq f \circ t$ since $f$ is inflationary. So $f \circ t = t$, and in particular $t(\bot) \in S$ is a fixed point of $f$. 
 
-This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed point, the downward-closed set $L \downarrow x$ contains $\bot$, is closed under $f$, and is closed under directed unions, and therefore $S \subseteq L \downarrow x$. Hence $t(\bot) \in S$ satisfies $t(\bot) \leq x$. 
+This $t(\bot)$ is a least fixed point of $f: L \to L$. For if $x$ is any fixed point, the downward-closed set $L \downarrow x$ contains $\bot$, is closed under $f$, and is closed under [[direction|directed unions]], and therefore $S \subseteq L \downarrow x$. Hence $t(\bot) \in S$ satisfies $t(\bot) \leq x$. 
 =-- 
 
 One may mimic the last part of the proof of the Knaster-Tarski theorem to show that if $L$ is an ipo and $f$ is monotone, then $fix(f)$ (with the order inherited from $L$) is also an ipo. Indeed, we have just seen $fix(f)$ has a bottom element, and if $A \subseteq fix(f)$ is any directed subset, and $s = sup(A)$ is its sup in $L$, then we may argue as we did for the Knaster-Tarski theorem that $f$ restricts to a monotone map on the ipo $s \uparrow L$, whence by Pataraia's theorem it has a least fixed point, and this will be the sup of $A$ in $fix(f)$. 
