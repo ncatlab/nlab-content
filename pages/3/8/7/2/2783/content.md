@@ -102,7 +102,7 @@ This idea can be generalized to provide alternate constructions of the completio
 
 It is not clear how 0-trivial $n$-groupoids fit into this picture for $n\gt 2$, although it seems likely that the objects of *iterated* reg/lex and ex/lex completions can be identified with some type of internal [[n-fold category]].
 
-Now if $C$ is already regular, then we can define a notion of internal [[anafunctor]] between internal $n$-categories.  It is then easily seen that
+Now if $C$ is already regular, then we can define a notion of internal [[anafunctor]] between internal $n$-categories. It is then easily seen that
 
 * $C_{ex/reg}$ is equivalent to the category of 0-trivial 1-groupoids, and natural isomorphism classes of internal anafunctors between them.
 
@@ -217,7 +217,7 @@ On the other hand, some properties are *not* preserved by the completions.
 
 * Carboni and Celia Magno, "The free exact category on a left exact one", J. Austral. Math. Soc. (Ser. A), 1982. 
 
-* J&icech;r&icech; Rosick&#253;, _Cartesian closed exact completions_, JPAA 142 no. 3 (October 1999), 261-270. ([web](http://www.sciencedirect.com/science/journal/00224049/142/3)) 
+* Ji&#345;&#237; Rosick&#253;, _Cartesian closed exact completions_, JPAA 142 no. 3 (October 1999), 261-270. ([web](http://www.sciencedirect.com/science/journal/00224049/142/3)) 
  {#JR} 
 
 * Hu and Tholen, "A note on free regular and exact completions and their infinitary generalizations", [TAC](http://www.tac.mta.ca/tac/volumes/1996/n10/2-10abs.html) 1996.
@@ -243,7 +243,7 @@ On the other hand, some properties are *not* preserved by the completions.
  {#vdB} 
 
 
-[^fine]: For example, let $C = Set^{\bullet \stackrel{\to}{\to} \bullet}$ be the topos of directed graphs. For each ordinal $\alpha$, let $G_\alpha$ be the directed graph whose nodes are elements of $\alpha$ and with a directed edge from $\beta$ to $\gamma$ if $\beta \lt \gamma$ in $\alpha$. Then in the poset reflection $Pos(C)$, we have a class of proper monomorphisms, e.g., $[G_\alpha] \lt [G_{\alpha'}]$ whenever $\alpha \lt \alpha'$. Thus $Pos(C)$ is a large poset. This example also shows that $Pos(C)$ need not be a [[total category]] even if $C$ is. 
+[^fine]: For example, let $C = Set^{\bullet \rightrightarrows \bullet}$ be the topos of [[quiver|directed graphs]]. For each ordinal $\alpha$, let $G_\alpha$ be the directed graph whose nodes are elements of $\alpha$ and with a directed edge from $\beta$ to $\gamma$ if $\beta \lt \gamma$ in $\alpha$. Then in the poset reflection $Pos(C)$, we have a class of proper monomorphisms, e.g., $[G_\alpha] \lt [G_{\alpha'}]$ whenever $\alpha \lt \alpha'$. Thus $Pos(C)$ is a large poset. This example also shows that $Pos(C)$ need not be a [[total category]] even if $C$ is. 
 
 
 
