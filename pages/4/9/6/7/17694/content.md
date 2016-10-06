@@ -1,6 +1,6 @@
-Unstable quantum-mechanical system is not, because of the decay, in the eigenstate of the Hamiltonian. Effectively, this means that the system is described by a wave-packet which ranges over a distribution of energies (or, in spectroscopy, frequencies). In the simplest model of an exponential decay (and to some extent true for
-most short-living metastable system, e.g. resonances in high energy physics) the distribution of energies is given by
-so called Breit-Wigner distribution,
+Due to decay, an unstable quantum-mechanical system cannot be in the eigenstate of the Hamiltonian. Effectively, this means that the system is described by a wave-packet which ranges over a distribution of energies (or frequencies, as in the field of spectroscopy). In the simplest model of an exponential decay, the distribution of energies is given by
+so called Breit-Wigner distribution (and to some extent this is true for
+most short-living metastable system, e.g. resonances in high energy physics). 
 
 Given some quantities $E_0$ and $\Gamma$ of the dimension of energy the __Breit-Wigner energy distribution__
 
@@ -8,10 +8,9 @@ $$
 |\rho(E)|^2 = \frac{\Gamma/2\pi}{\frac{1}{2}\Gamma^2+(E-E_0)^2}
 $$
 
-which should be in principle damped all the way to $0$ from some energy $E_{min}$ as the spectrum of any Hamiltonian must be bounded below. Plot of the Breit-Wigner curve as seen in spectroscopy is often called Breit-Wigner curve.
+which should be in principle damped all the way to $0$ from some energy $E_{min}$ as the spectrum of any Hamiltonian must be bounded below. The plot of the Breit-Wigner curve as seen in spectroscopy is often called Breit-Wigner curve.
 
-Various effects in nature lead to modifed, assymetric and other spectral curves to which
-the Breit-Wigner is just the crudest approximation.
+Various effects in nature lead to modifed, asymmetric and other spectral curves to which the Breit-Wigner is merely the crudest approximation.
 
 ## Literature
 
