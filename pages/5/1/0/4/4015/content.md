@@ -12,11 +12,11 @@ The fan theorem is one of the basic principles of [[intuitionism]] that make it 
 
 Consider the [[list|finite]] and [[infinite sequence|infinite]] sequences of [[binary digit]]s.  Given an infinite sequence $\alpha$ and a [[natural number]] $n$, let $\bar \alpha n$ be the finite sequence consisting of the first $n$ elements of $\alpha$.
 
-Let $B$ be a collection of finite sequences of bits, that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
+Let $B$ be a collection of finite sequences of bits (or _bitlists_), that is a [[subset]] of the [[free monoid]] on the [[boolean domain]].  Given an infinite sequence $\alpha$ and a natural number $n$, we say that $\alpha$ _$n$-bars_ $B$ if $\bar \alpha n \in B$; given only $\alpha$, we say that $\alpha$ _bars_ $B$ if $\alpha$ $n$-bars $B$ for some $n$.
 
 We are interested in these three properties of $B$:
 
-*  $B$ is _[[decidable subset|decidable]]_:  For every finite sequence $u$, either $u \in B$ or $u \notin B$.  (This is trivial in [[classical logic]] but may hold constructively for a particular subset $B$.)
+*  $B$ is _[[decidable subset|decidable]]_:  For every finite sequence $u$, either $u \in B$ or $u \notin B$.  (This is trivial in [[classical logic]] will will hold constructively only for some subsets $B$.)
 *  $B$ is _barred_:  For every infinite sequence $\alpha$, $\alpha$ bars $B$.
 *  $B$ is _uniform_:  For some natural number $M$, for every infinite sequence $\alpha$, if $\alpha$ bars $B$ at all, then $\alpha$ $n$-bars $B$ for some $n \leq M$.
 
@@ -26,6 +26,7 @@ A __bar__ is a barred subset $B$.
 ###### Fan Theorem
 
 Every decidable bar is uniform.
+(In other words, if a collection of bitlists is decidable and barred, then it is also uniform.)
 =--
 
 Although the fan theorem is about bars, it is different from the [[bar theorem]], which is related but stronger.
@@ -42,7 +43,9 @@ The fan theorem is hard enough to understand when $\alpha$ is an infinite sequen
 
 ### Variations
 
-The fan theorem may be stated about *all* bars, not just the decidable ones.  Brouwer himself at one point claimed that it held for all bars, but later Kleene showed that this contradicted Brouwer\'s [[continuity theorem]].  However, the theorem does hold for all bars classically.
+The fan theorem may be stated about *all* bars, not just the decidable ones: all bars are uniform (which is true in classical mathematics).  Brouwer himself at one point claimed this, but later Kleene showed that this contradicted Brouwer\'s [[continuity theorem]].
+
+Since decidability is classically trivial, we may call this the __classical fan theorem__.
 
 
 ## Use in analysis
@@ -84,13 +87,14 @@ Some of the results above may use [[countable choice]], but probably no more tha
 Point-wise real analysis without the fan theorem is very difficult, as the example from Waaldijk shows.  This was Brouwer\'s motivation for introducing the fan theorem.  But if you use [[locales]] (or other pointless approaches), then you don\'t need the fan theorem (or bar theorem).
 
 
+### Sheaf models
+[Fourman and Hyland](#FourmanHyland) provide a sheaf model not satisfying the fan theorem.
+
+
 ## Proofs
 
 I should write down the classical proof (which uses [[excluded middle]] and some form of [[dependent choice]]), as well as Brouwer\'s argument.
 
-
-### Sheaf models
-[Fourman and Hyland](#FourmanHyland) provide a sheaf model not satisfying the fan theorem.
 
 ## References
 
@@ -107,6 +111,13 @@ More links that I need to keep in mind:
 *  &lt;http://www.jaist.ac.jp/is/labs/ishihara-lab/wcalm2010/berger.pdf>
 *  &lt;http://www.cairn.info/revue-internationale-de-philosophie-2004-4-page-483.htm>
 
-* [[Mike Fourman]], [[Martin Hyland]] {#FourmanHyland}, _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf)
+Also:
 
+* [[Mike Fourman]], [[Martin Hyland]], _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf)
+  {#FourmanHyland}
+
+
+[[!redirects fan theorem]]
 [[!redirects Fan theorem]]
+
+[[!redirects classical fan theorem]]
