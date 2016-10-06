@@ -43,7 +43,7 @@ as well as the dual composite.  If this map is an isomorphism, the duoidal categ
 
 * Any [[braided monoidal category]] can be made into a (normal) duoidal category in which the two monoidal structures agree.  The interchange transformation is built out of the braiding.  Indeed, by the Eckmann-Hilton argument, a duoidal category whose above structure transformations are invertible necessarily arises in this way (up to equivalence).
 
-* Similarly but somewhat more generally, an 2-monoidal category, as a special case of [[iterated monoidal category]] (in the sense of Balteanu, Fiedorowicz, Schw&#228;nzl, and Vogt), is a duoidal category. 
+* Similarly but somewhat more generally, an 2-monoidal category, as a special case of [[iterated monoidal category]] (in the sense of Balteanu, Fiedorowicz, Schw&#228;nzl, and Vogt), is a duoidal category.  More precisely, 2-monoidal categories are the duoidal categories such that $\star$ and $J$ are *normal* lax monoidal functors, meaning concretely that the morphisms $I\to I\star I$ and $I\to J$ are isomorphisms.
 
 * If $(C,\diamond,I)$ is a monoidal category with [[finite products]], then it becomes duoidal with $\star$ the [[cartesian monoidal category|cartesian monoidal structure]].  Dually, if $(C,\star,J)$ is a monoidal category with finite coproducts, then it becomes duoidal with $\diamond$ the cocartesian monoidal structure.
 
