@@ -53,8 +53,8 @@ Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond
 
 ### Early discovery articles
 
-* [[Xiao-Gang Wen]] and Qian Niu,  [_Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_](http://dao.mit.edu/~wen/pub/topWN.pdf), Phys. Rev. B41, 9377 (1990) (for topological order described by [[TQFT]])
-* E. Keski-Vakkuri and [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
+* [[Xiao-Gang Wen]], Qian Niu,  [_Ground state degeneracy of the FQH states in presence of random potential and on high genus Riemann surfaces_](http://dao.mit.edu/~wen/pub/topWN.pdf), Phys. Rev. B41, 9377 (1990) (for topological order described by [[TQFT]])
+* E. Keski-Vakkuri, [[Xiao-Gang Wen]], [Ground state structure of hierarchical QH states on torus and modular transformation](http://dao.mit.edu/~wen/pub/kw.pdf)
 Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]) 
 * Liang Fu, C. L. Kane, _Topological insulators with inversion symmetry_, Physical Review B 76 (4): 045302. [arXiv:cond-mat/0611341](http://arxiv.org/abs/cond-mat/0611341) [doi](http://dx.doi.org/10.1103%2FPhysRevB.76.045302); _Superconducting proximity effect and Majorana fermions at the surface of a topological insulator_, Phys. Rev. Lett. __100__: 096407, [arXiv:0707.1692](http://arxiv.org/abs/0707.1692) [doi](http://dx.doi.org/10.1103%2FPhysRevLett.100.096407) (for topological insulator, a special case of SPT states)
 * B. Andrei Bernevig, Taylor L. Hughes, Shou-Cheng Zhang, _Quantum spin Hall effect and topological phase transition in HgTe quantum wells_, Science 15 December 2006: __314__, n. 5806, pp. 1757-1761 [doi](http://dx.doi.org/10.1126/science.1133734) (for topological insulator, a special case of SPT states)
@@ -81,9 +81,9 @@ Int. J. Mod. Phys. B7, 4227 (1993). (for topological order described by [[TQFT]]
 * Alexei Yu. Kitaev, _Fault-tolerant quantum computation by anyons_, Annals of Physics __303__:1, January 2003; _Anyons in an exactly solved model and beyond_, Annals of Physics __321__:1, January 2006
 * A. Kitaev, C. Laumann, _Topological phases and quantum computation_, [arXiv/0904.2771](http://arxiv.org/abs/0904.2771)
 * Alexei Kitaev, John Preskill, _Topological entanglement entropy_, Phys. Rev. Lett. __96__, 110404 (2006)
-* Levin M. and Wen X-G., _Detecting topological order in a ground state wave function_, Phys. Rev. Letts.,96(11), 110405, (2006)
+* M. Levin, X-G. Wen, _Detecting topological order in a ground state wave function_, Phys. Rev. Letts.,96(11), 110405, (2006)
 * Jan Carl Budich, Bj&#246;rn Trauzettel, _From the adiabatic theorem of quantum mechanics to topological states of matter_, physica status solidi (RRL) 7, 109 (2013) [arXiv:1210.6672](http://arxiv.org/abs/1210.6672)
-* [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, [arxiv/1306.5570](http://arxiv.org/abs/1306.5570)
+* [[zoranskoda:Kumar S. Gupta]], Amilcar Queiroz, _Anomalies and renormalization of impure states in quantum theories_, Modern Physics Letters __A29__:13 (2014) [arxiv/1306.5570](http://arxiv.org/abs/1306.5570) [doi](http://dx.doi.org/10.1142/S0217732314500643)
 * Yosuke Kubota, _Controlled topological phases and bulk-edge correspondence_, [arxiv/1511.05314](http://arxiv.org/abs/1511.05314)
  
 
