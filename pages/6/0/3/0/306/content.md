@@ -179,6 +179,17 @@ But the statement is also easily directly checked.
 
 =--
 
+## Categories without subobject classifiers
+
+Having a subobject classifier is a vary strong property of a category and "most" categories don't have one.
+
+For example, catgories with a terminal object can't have one if there are no morphism out of the terminal object.
+
+
+* Any top bounded partial order.
+
+* In $Ring$, the [[category of rings]], there are no morphisms out of the terminal object the [[zero ring]].
+
 
 ## Properties
 
@@ -214,6 +225,8 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 
 ## Related concepts
+
+* [[quasitopos]] where a weaker notion of subobject classifier only classifies [[strong monomorphism]]s. 
 
 * [[object classifier]]
 
