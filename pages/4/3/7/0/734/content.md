@@ -91,6 +91,10 @@ that commutes in $Ho(M)$ commutes up to homotopy in $M$, and thus (by the ("loca
 
 Note, though, that not _all_ homotopy limits produce weak limits in the homotopy category, because in general it will not be possible to lift a cone that commutes in $Ho(M)$ to a cone that commutes up to _coherent_ homotopy in $M$.  However, in "simple" cases such as pullbacks, products, equalizers, sequential inverse limits, and so on, this is always true (and it will be true whenever the diagram category is a [[quiver]]).  On the other hand, homotopy products in $M$ give actual (not weak) products in $Ho(M)$, since there are no homotopies necessary.
 
+## References
+
+* [[Peter Freyd]], _Representations in abelian categories_ 1966 Proc. Conf. Categorical Algebra (La Jolla, Calif., 1965) pp. 95&#8211;120 Springer, New York
+
 [[!redirects weak limits]]
 
 
