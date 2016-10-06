@@ -1,13 +1,3 @@
-[[!redirects empty 157]]
-[[!redirects empty 157]]
-
-
-
-
-
-
-
-
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -26,7 +16,7 @@
 
 # Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -35,6 +25,7 @@ The **transcendental ideal** is the embodiment of all predicative possibilities 
 Kant's innovation with respect to the tradition is that he suspends existential import and substantiality of the concept and gives a thoroughly (meta)logical derivation instead which exhibits the functional role of the ideal as a 'guideline' in all reasoning.
 
 This relocation of theology from ontology to logic proved to be consequential in the philosophy of the world age of the mature Schelling where it becomes a key concept ([Hogrebe 1989](#Hogrebe89)), as well as (indirectly) on the overall architectonic structure of Hegel's system as a self determination of the idea.
+
 
 ## Related entries
 
@@ -47,6 +38,7 @@ This relocation of theology from ontology to logic proved to be consequential in
 * [[Aufhebung]]
 
 * [[Science of Logic]]
+
 
 ## References
 
