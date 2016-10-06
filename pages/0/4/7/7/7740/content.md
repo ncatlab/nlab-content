@@ -188,7 +188,7 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 * {#Marvan93} [[Michal Marvan]], _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
 
-* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_ ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
+* {#KrasilshchikVerbovetsky98} [[Joseph Krasil'shchik]], [[Alexander Verbovetsky]], _Homological Methods in Equations of Mathematical Physics_,  Lectures given in August 1998 at the International Summer School in Levoca, Slovakia ([arXiv:math/9808130](http://arxiv.org/abs/math/9808130))
 
 * {#Krasilshchik99} [[Joseph Krasil'shchik]] in collaboration with Barbara Prinari, _Lectures on Linear Differential Operators over Commutative Algebras_ ([pdf](http://diffiety.ac.ru/preprint/99/01_99.pdf))
 
