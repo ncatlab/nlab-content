@@ -181,7 +181,7 @@ But the statement is also easily directly checked.
 
 ## Categories without subobject classifiers
 
-Having a subobject classifier is a vary strong property of a category and "most" categories don't have one.
+Having a subobject classifier is a very strong property of a category and "most" categories don't have one.
 
 For example, catgories with a terminal object can't have one if there are no morphism out of the terminal object.
 
