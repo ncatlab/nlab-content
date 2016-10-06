@@ -45,7 +45,7 @@ as well as in
 
 * [[Jean-Marie Souriau]], _Thermodynamique et g&#233;om&#233;trie_,  Lecture Notes in Math. 676 (1978), 369&#8211;397 ([scan](http://www-lib.kek.jp/cgi-bin/kiss_prepri.v8?KN=197810025))
 
-Souriau model of Thermodynamics has been extented for Geometric Science of Information (Koszul information geometry) with a general definition of Fisher Metric, Euler-Poincar&#233; Equation and variational definition of Souriau Thermodynamics, as given in:
+Souriau model of thermodynamics has been extented for Geometric Science of Information (Koszul information geometry) with a general definition of Fisher Metric, Euler-Poincar&#233; Equation and variational definition of Souriau Thermodynamics, as given in:
 
 * [[Frederic Barbaresco]], Koszul Information Geometry and Souriau Geometric, Temperature / Capacity of Lie Group Thermodynamics, MDPI Entropy, n&#176;16, pp. 4521-4565, August 2014. (http://www.mdpi.com/1099-4300/16/8/4521/pdf)
 * [[Frederic Barbaresco]], Symplectic Structure of Information Geometry: Fisher Metric and Euler-Poincar&#233; Equation of Souriau Lie Group Thermodynamics, GSI'15,Vol.9389, Springer LCNS, pp. 529-540, 2015. (http://link.springer.com/chapter/10.1007/978-3-319-25040-3_57) 
@@ -78,9 +78,6 @@ Mathematical analogies and generalizations include also
 * [[John Baez]], Mike Stay, _Algorithmic thermodynamics_, [pdf](http://math.ucr.edu/home/baez/thermo.pdf), [cafe](http://golem.ph.utexas.edu/category/2010/02/algorithmic_thermodynamics.html)
 * [[M. Marcolli]], Ryan Thorngren, _Thermodynamical semirings_, [arXiv/1108.2874](http://arxiv.org/abs/1108.2874)
 * M. Zinsmeister, _Thermodynamic formalism and holomorphic dynamical systems_, Amer. Math. Soc. 2000.
-* I. Itenberg, G. Mikhalkin, Geometry in the tropical limit, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
-
-[[!redirects statistical mechanics]]
-[[!redirects statistical physics]]
+* I. Itenberg, G. Mikhalkin, _Geometry in the tropical limit-, [arXiv/1108.3111](http://arxiv.org/abs/1108.3111)
 
 [[!redirects irreversible thermodynamics]]
