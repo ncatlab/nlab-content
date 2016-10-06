@@ -183,12 +183,12 @@ But the statement is also easily directly checked.
 
 Having a subobject classifier is a very strong property of a category and "most" categories don't have one.
 
-For example, catgories with a terminal object can't have one if there are no morphism out of the terminal object.
+For example, a category with a terminal object can't have a subobject classifier if there are no nonidentity morphisms out of the terminal object.
 
 
 * Any top bounded partial order.
 
-* In $Ring$, the [[category of rings]], there are no morphisms out of the terminal object the [[zero ring]].
+* In $Ring$, the [[category of rings]], there are no nonidentity morphisms out of the terminal object the [[zero ring]].
 
 
 ## Properties
