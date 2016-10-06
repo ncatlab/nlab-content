@@ -26,6 +26,7 @@ Assymetric line shapes in autoionization and Rydberg atoms are studied in the fa
 * Ugo Fano, _Effects of configuration interaction on intensities and phase shifts_, Phys. Rev. 124, 1866 (1961) [doi](https://doi.org/10.1103/PhysRev.124.1866)
 * wikipedia: [Fano resonance](https://en.wikipedia.org/wiki/Fano_resonance)
 * A. Bianconi, _Ugo Fano and shape resonances in X-ray and Inner Shell Processes_ AIP Conference Proceedings (2002): (19th Int. Conference Roma June 24&#8211;28, 2002) [cond-mat/0211452](http://arXiv.org/abs/cond-mat/0211452)
+* VV Sokolov, VG Zelevinsky, _Dynamics and statistics of unstable quantum states_, Nuclear Physics A504:3 (1989) 562-588 <a href="http://dx.doi.org/10.1016/0375-9474(89)90558-7">doi</a>; _Simple mode on a highly excited background: Collective strength and damping in the continuum_, Phys. Rev. C 56, 311 (1997)
 
 category: physics
 
