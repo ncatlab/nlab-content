@@ -49,6 +49,7 @@ Advances in Physics 44, 405 (1995). [cond-mat/9506066](http://arxiv.org/abs/cond
 * Chetan Nayak, Steven H. Simon, Ady Stern, [[Michael Freedman|M. Freedman]], Sankar Das Sarma, _Non-Abelian anyons and topological quantum computation_, Rev Mod Phys __80__:3 (Aug 2008) 1083&#8211;1159 [MR2009g:81041](http://www.ams.org/mathscinet-getitem?mr=2443722) [doi](http://dx.doi.org/10.1103/RevModPhys.80.1083) (for topological order)
 * [M. Z. Hasan](http://www.princeton.edu/physics/people/display_person.xml?netid=mzhasan), C. L. Kane, _Topological insulators_, Reviews of Modern Physics __82__ (4): 3045 (2010) [arXiv:1002.3895](http://arxiv.org/abs/1002.3895) [doi](http://dx.doi.org/10.1103%2FRevModPhys.82.3045) (for topological insulator)
 * C. L. Kane, _An insulator with a twist_, Nature physics __4__, May 2008, [pdf](http://www.physics.upenn.edu/~kane/pubs/p59.pdf) (for topological insulator)
+* Class for Physics of the Royal Swedish Academy of Sciences, _Topological phase transitions and topological phases of matter_, Scientific Background on the Nobel Prize in Physics 2016, (2+)26 pages, [pdf](http://www.nobelprize.org/nobel_prizes/physics/laureates/2016/advanced-physicsprize2016.pdf)
 
 ### Early discovery articles
 
