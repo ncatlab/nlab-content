@@ -33,7 +33,7 @@ The universal factorization through an embedding is the [[image]].
 A **regular monomorphism** is a [[morphism]] $f : c \to d$ in some [[category]] which occurs as the [[equalizer]] of _some_ parallel pair of morphisms $d \stackrel{\to}{\to} e$, i.e. for which a [[limit]] diagram
 
 $$
-  c \stackrel{f}{\to} d \stackrel{\to}{\to} e
+  c \stackrel{f}{\to} d \stackrel{\longrightarrow}{\longrightarrow} e
 $$
 
 exists.
