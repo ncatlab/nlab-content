@@ -246,23 +246,35 @@ Examples for this are [[local toposes]] and [[cohesive toposes]]. See there for 
 
 * The discussion of "[[possible worlds semantics]]" in modal logic is reminiscent of some discussion in the context of the "[[multiverse]]".
 
+## Links
   
-
+* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy: _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_.
+ 
+* {#SEPModalLogic} Stanford Encyclopedia of Philosophy: _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/)_.
+ 
 ## References
  {#References}
 
-General texts on modal logics include
+A nice historical overview of modern modal logic that might serve as a general introduction as well can be found in
+
+* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ , in Gabbay, Woods (eds.), _Handbook of the History of Logic vol. 6_ , Elsevier Amsterdam 2005. ([draft](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
+
+One of the earliest texts that exhibits the [[intuitionism|intuitionist]] context is
+
+* Oskar Becker, _Zur Logik der Modalit&#228;ten_ , Jahrbuch f&#252;r Philosophie und ph&#228;nomenologische Forschung **11** (1930)  pp.497-548. ([digizeit](http://www.digizeitschriften.de/dms/img/?PID=PPN827944462_0011%7CLOG_0010))
+
+A standard textbook and reference is
 
 * {#BlackburnDeRijkeVenema} [[Patrick Blackburn]], M. de Rijke and [[Yde Venema]], _Modal Logic_, Cambridge Tracts in Theoretical Computer Science, vol. 53, 2001.
- 
 
-* [[Marcus Kracht]], _Tools and Techniques in Modal Logic,_ Studies in Logic and the Foundation of Mathematics, 142, Elsevier, 1999.
+Two standard references are
 
-* {#SEPModernOrigins} Stanford Encyclopedia of Philosophy, _[Modern Origins of Modal Logic](http://plato.stanford.edu/entries/logic-modal-origins/)_
- 
+* P. Blackburn, J. van Benthem, F. Wolter (eds.), _The Handbook of Modal Logic_ , Elsevier Amsterdam 2007.
 
-* {#SEPModalLogic} Stanford Encyclopedia of Philosophy, _[modal logic](http://plato.stanford.edu/entries/logic-modal/)_ 
- 
+* [[Marcus Kracht]], _Tools and Techniques in Modal Logic_ , Studies in Logic and the Foundation of Mathematics **142** Elsevier Amsterdam 1999. ([draft](http://wwwhomes.uni-bielefeld.de/mkracht/html/tools/book.pdf))
+
+Other texts on modal logic include
+
 * {#Scott70} [[Dana Scott]], _Advice on Modal Logic_, in [[Karel Lambert]] (ed.) _Philosophical problems in Logic -- Some recent developments_, Reidel 1970
 
   > Here is what I consider one of the biggest mistakes in all of modal logic: concentration on a system with just _one_ modal operator. (p. 161)
@@ -275,7 +287,6 @@ A formulation of modal logic in terms of [[type|typing]] [[judgements]] and  [[t
 
 * {#Pfenning-Davies} [[Frank Pfenning]], Rowan Davies, _A judgemental reconstruction of modal logic_, Mathematical Structures in Comp. Sci., 11(4):511{540, August 2001. (2000) ([pdf](http://www.cs.cmu.edu/~fp/papers/mscs00.pdf))
  
-
 A discussion of  coalgebraic modal logic and of general modal logic in terms of [[coalgebra]] and the [[terminal coalgebra of an endofunctor]] is in 
 
 * [[Corina Cirstea]], [[Alexander Kurz]], Dirk Pattinson, Lutz Schr&#246;der and [[Yde Venema]], _Modal logics are coalgebraic_ ([pdf](http://eprints.soton.ac.uk/267144/1/ModalCoalgRev.pdf))
@@ -284,12 +295,9 @@ Formalization of modalities ([[higher modalities]]) in [[homotopy type theory]] 
 
 * [[Egbert Rijke]], [[Bas Spitters]], _Sets in homotopy type theory_ ([arXiv:1305.3835](http://arxiv.org/abs/1305.3835))
 
+An overview of applications of modal logic in [[linguistics]] can be found in
 
-##History
-
-* [[R. Goldblatt]], _Mathematical Modal Logic: a View of its Evolution_ ([pdf](http://homepages.mcs.vuw.ac.nz/~rob/papers/modalhist.pdf))
-
-* [history of modern modal logic](http://plato.stanford.edu/entries/logic-modal-origins/)
+* Lawrence S. Moss, Hans-J&#246;rg Tiede, _Applications of Modal Logic in Linguistics_ , pp.299-341 in Blackburn, van Benthem, Wolter (eds.), _The Handbook of Modal Logic_ , Elsevier Amsterdam 2007. ([draft](http://www.indiana.edu/~iulg/moss/linguistics.pdf))
 
 
 
