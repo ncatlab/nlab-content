@@ -681,6 +681,8 @@ See also
 * W. van Suijlekom, _Representing Feynman graphs on BV-algebras_ , ([arXiv](http://arxiv.org/abs/0807.0999))
  {#Suijlekom}
 
+* Dirk Kreimer, Karen Yeats, _Diffeomorphisms of quantum fields_, [arxiv/1610.01837](https://arxiv.org/abs/1610.01837)
+
 
 ### Operadic description
 
