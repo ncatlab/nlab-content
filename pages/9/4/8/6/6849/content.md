@@ -51,6 +51,9 @@ where $T(U)$ is the [[tangent space]] of $U$ (an open subspace of $T(F)$.
 
 * R. G&#226;teaux, _Sur les fonctionnelles continues et les fonctionnelles analytiques_, C.R. Acad. Sci. Paris S&#233;r. I Math. __157__ (1913)  pp. 325&#8211;327; _Fonctions d'une infinit&#233;s des variables ind&#233;pendantes_,  Bull. Soc. Math. France __47__  (1919) 70&#8211;96, [numdam](http://www.numdam.org/item?id=BSMF_1919__47__70_1); _Sur diverses questions du calcul fonctionnel_, Bulletin de la Soci&#233;t&#233; Math&#233;matique de France tome __50__ (1922) 1&#8211;37, [numdam](http://www.numdam.org/item?id=BSMF_1922__50__1_0)
 
+An analogue of the directional derivative and Faa di Bruno formula in the Goodwillie calculus are in
+
+* Kristine Bauer, Brenda Johnson, Christina Osborne, Emily Riehl, Amelia Tebbe, _Directional derivatives and higher order chain rules for abelian functor calculus_, [arxiv/1610.01930](https://arxiv.org/abs/1610.01930) 
 
 [[!redirects directional derivative]]
 [[!redirects directional derivatives]]
