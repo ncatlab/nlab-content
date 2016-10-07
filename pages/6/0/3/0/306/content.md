@@ -208,7 +208,7 @@ X & \underset{\chi_i}{\to} & \Omega.
 
 +-- {: .num_cor} 
 ###### Corollary 
-A morphism in $\mathbf{C}$ is an isomorphism iff it is both a [[monomorphism]] and an [[epimorphism]]. 
+$\mathbf{C}$ is balanced, i.e., a morphism in $\mathbf{C}$ is an isomorphism iff it is both [[monomorphism|monic]] and [[epimorphism|epic]]. 
 =-- 
 
 +-- {: .proof} 
@@ -218,7 +218,7 @@ A morphism in $\mathbf{C}$ is an isomorphism iff it is both a [[monomorphism]] a
 
 +-- {: .num_prop} 
 ###### Proposition 
-Any two epi-mono factorizations of a map in $C$ are canonically isomorphic. 
+ny two epi-mono factorizations of a map in $\mathbf{C}$ are canonically isomorphic. 
 =-- 
 
 +-- {: .proof} 
@@ -234,11 +234,11 @@ C & \underset{j}{\to} & D & \stackrel{\overset{f}{\to}}{\underset{g}{\to}} & E,
 so that $f i p = f j q = g j q = g i p$, whence $f i = g i$ since $p$ is epic, whence $i$ factors through $j$ as $j$ is the equalizer: $i = j k$ for some $k: B \to C$. Then also $k p = q$ since $j k p = i p = j q$ and $j$ is monic. We have that $k$ is monic since $i$ is, and $k$ is epic since $q$ is. Thus $k$ is an isomorphism. 
 =-- 
 
-Already these results impose some tight restrictions on $C$. We get some more by exploiting the internal structure of $\Omega$. 
+Already these results impose some tight restrictions on $\mathbf{C}$. We get some more by exploiting the internal structure of $\Omega$. 
 
-The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly, or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
+The subobject classifier always comes with the structure of an internal [[partial order|poset]]; that is, a relation $\subseteq\, \hookrightarrow \Omega\times\Omega$ which is internally reflexive, antisymmetric, and transitive.  This can be constructed directly (see Proposition \ref{implication} below), or obtained via the [[Yoneda lemma]] since the collection of subobjects of any object is an external poset.
 
-Similarly, since we assume that $C$ is finitely complete, each subobject poset $Sub(X)$ has intersections (gotten as pullbacks or [[fiber products]] of pairs of monics $i: A \to X,j: B \to X$), and the intersection operation 
+Similarly, since we assume that $\mathbf{C}$ is finitely complete, each subobject poset $Sub(X)$ has intersections (gotten as pullbacks or [[fiber products]] of pairs of monics $i: A \to X,j: B \to X$), and the intersection operation 
 
 $$\cap: Sub(X) \times Sub(X) \to Sub(X)$$ 
 
@@ -252,9 +252,9 @@ $$\wedge: \Omega \times \Omega \to \Omega$$
 
 making $\Omega$ an internal [[meet-semilattice]]. 
 
-More profoundly, $\Omega$ is an internal [[Heyting algebra]]. More accurately, it's a Heyting algebra provided it has joins; without joins it is a [[cartesian closed category|cartesian closed]] poset: 
+More significantly, $\Omega$ is an internal [[Heyting algebra]]. More accurately, it's a Heyting algebra provided it has joins; without joins it is a [[cartesian closed category|cartesian closed]] poset: 
 
-+-- {: .num_prop} 
++-- {: .num_prop #implication} 
 ###### Proposition 
 There is an internal implication operator 
 
@@ -267,11 +267,11 @@ $$w \wedge u \leq v \qquad iff \qquad w \leq u \Rightarrow v.$$
 
 +-- {: .proof} 
 ###### Proof (sketch) 
-Let $[\leq] \hookrightarrow \Omega \times \Omega$ denote the equalizer of the pair of maps 
+Construct $\subseteq \hookrightarrow \Omega \times \Omega$ as the equalizer of the pair of maps 
 
 $$\Omega \times \Omega \stackrel{\overset{\pi_1}{\longrightarrow}}{\underset{\wedge}{\longrightarrow}} \Omega$$ 
 
-and then define $\Rightarrow: \Omega \times \Omega \to \Omega$ to be the characteristic map of $[\leq] \hookrightarrow \Omega \times \Omega$. Now if $\chi_u, \chi_v$ are two maps $X \to \Omega$, one calculates that $w \hookrightarrow X$ is contained in the subobject classified by $\chi_u \Rightarrow \chi_v$ iff $w \cap u = w \cap u \cap v$, which is just a way of saying $w \cap u \leq v$. 
+and then define $\Rightarrow: \Omega \times \Omega \to \Omega$ to be the characteristic map of $\subseteq \hookrightarrow \Omega \times \Omega$. Now if $\chi_u, \chi_v$ are two maps $X \to \Omega$, one calculates that $w \hookrightarrow X$ is contained in the subobject classified by $\chi_u \Rightarrow \chi_v$ iff $w \cap u = w \cap u \cap v$, which is just a way of saying $w \cap u \leq v$. 
 =-- 
 
 +-- {: .num_cor} 
@@ -298,7 +298,7 @@ An online proof may be found [here](https://ncatlab.org/toddtrimble/published/Mo
 
 As the previous section indicates, having a subobject classifier is a very strong property of a category and "most" categories with finite limits don't have one.
 
-For example, there is an obvious condition ensuring a category[^1] with a terminal object can't have a subobject classifier: if there are no nonidentity morphisms out of the terminal object. This includes the following examples. 
+For example, there is an easy condition ensuring a category[^1] with a terminal object can't have a subobject classifier: if there are no nonidentity morphisms out of the terminal object. This includes the following examples. 
 
 [^1]: We mean a nontrivial category, obviously, where "trivial" here means every object is terminal. 
 
@@ -308,19 +308,19 @@ For example, there is an obvious condition ensuring a category[^1] with a termin
 
 Here's another obstacle: 
 
-* If an [[abelian category]] had a subobject classifier, every subobject of every object would have to be the kernel of its classifying map. In particular, the subobject $0$ of every object $A$ would have to be the kernel of its classifying map, so that every object in this abelian category would embed into the subobject classifier $\Omega$ (including, say, all small products of $\Omega$ with itself) which would cause size issues.
+* If an [[abelian category]] had a subobject classifier, every subobject of every object would have to be the kernel of its classifying map. In particular, the subobject $0$ of every object $A$ would have to be the kernel of its classifying map, so that every object in this abelian category would embed into the subobject classifier $\Omega$ (including, say, all small products of $\Omega$ with itself) which in nontrivial cases would cause size issues.
 
-But a real killer is uniqueness of epi-mono factorizations or the fact that all monos are regular: 
+But a real killer is the fact that all monos are regular, or its consequences of the category being balanced and uniqueness of epi-mono factorizations: 
 
-* Non-regular monos exist in [[Pos]], [[Cat]], [[Top]], [[CMon]], $\ldots$. 
+* The categories [[Pos]], [[Cat]], [[Top]] are not balanced (consider the map from a discrete structure on a set to an indiscrete structure on the same set, induced by the identity function). The category [[CMon]] is not balanced (consider the inclusion $\mathbb{N} \hookrightarrow \mathbb{Z}$ which is epic). 
 
 Even though all monos in [[Grp]] are regular, we can kill off $Grp$ by observing that if $t: 1 \to \Omega$ were a subobject classifier, the proof of Proposition \ref{regular} indicates that every mono $i: A \to X$ would have to be the [[kernel]] of $\chi_i$. But not all monos in $Grp$ are kernels. 
 
-Even more decisive is the observation that meets distribute over (arbitrary) joins in subobject orders. This kills off many candidates: 
+Perhaps an even more decisive killer is the observation that meets distribute over (arbitrary) joins in subobject orders. This eliminates many categories from consideration: 
 
 * Lattices of subobjects in $Grp$ or $Ab$ are rarely distributive. 
 
-* For any category with [[biproducts]], there are non-distributive subobject lattices. Take any object $A$, so that we have three subobjects $i_1: A \to A \oplus A$, $i_2: A \to A \oplus A$, and $\Delta: A \to A \oplus A$. Then $i_1 \vee i_2 = \top$, whereas $i_1 \wedge \Delta = \bot = i_2 \wedge \Delta$. Under distributivity we have 
+* For any nontrivial category with [[biproducts]], there are non-distributive subobject lattices. Take any object $A$, so that we have three subobjects $i_1: A \to A \oplus A$, $i_2: A \to A \oplus A$, and $\Delta: A \to A \oplus A$. Then $i_1 \vee i_2 = \top$, whereas $i_1 \wedge \Delta = \bot = i_2 \wedge \Delta$. Under distributivity we have 
 $$\Delta = \Delta \wedge \top = \Delta \wedge (i_1 \vee i_2) = (\Delta \wedge i_1) \vee (\Delta \wedge i_2) = \bot \vee \bot = \bot$$ 
 but $\Delta = \bot$ forces $A = 0$. So the only such category that can have a subobject classifier is trivial. 
 
