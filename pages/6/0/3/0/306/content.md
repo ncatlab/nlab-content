@@ -265,7 +265,7 @@ $$w \wedge u \leq v \qquad iff \qquad w \leq u \Rightarrow v.$$
 
 +-- {: .proof} 
 ###### Proof (sketch) 
-Let $[\leq] \hookrightarrow \Omega times \Omega$ denote the equalizer of the pair of maps 
+Let $[\leq] \hookrightarrow \Omega \times \Omega$ denote the equalizer of the pair of maps 
 
 $$\Omega \times \Omega \stackrel{\overset{\pi_1}{\longrightarrow}}{\underset{\wedge}{\longrightarrow}} \Omega$$ 
 
