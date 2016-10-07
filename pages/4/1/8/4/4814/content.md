@@ -83,6 +83,8 @@ in
 
 * Jo&#227;o Martins, Aleksandar Mikovi&#263;, _Lie crossed modules and gauge-invariant actions for 2-BF theories_, Adv. Theor. Math. Phys. __15__:4 (2011), 913-1199 [euclid](http://projecteuclid.org/euclid.atmp/1339438351)
 
+BF gravity
 
+* Mariano Celada, Diego Gonz&#225;lez, Merced Montesinos, _BF gravity_, [arxiv/1610.02020](https://arxiv.org/abs/1610.02020)
 
 [[!redirects BF theory]]
