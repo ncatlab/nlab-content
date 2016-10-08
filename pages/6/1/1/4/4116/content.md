@@ -27,7 +27,7 @@ $$Top \to Set^{\Sigma^{op}}: X \mapsto Top(-, X)$$
 
 is [[faithful functor|faithful]] and factors through $Sh_J(\Sigma)$, and its restriction to the category of [[sequential space|sequential spaces]] is full.
 
-The category of [[subsequential spaces]] can also be found as a full subcategory of this topos (in fact, it consists of the separated objects for a [[Lawvere-Tierney topology]]).  A general object of the topos can be thought of as being like a subsequential space, but such that a given sequence can converge to a given point in "more than one way."
+The category of [[subsequential spaces]] can also be found as a full subcategory of this topos (in fact, it consists of the separated objects for the [[double negation]] [[Lawvere-Tierney topology]] $\neg\neg$ ).  A general object of the topos can be thought of as being like a subsequential space, but such that a given sequence can converge to a given point in "more than one way."
 
 Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_J(\Sigma)$ allows one to represent the [[geometric realization]] functor $sSet \to \mathcal{E}$ as the inverse image of a [[geometric morphism]] from $\mathcal{E}$ to the topos of [[simplicial set|simplicial sets]]. As Johnstone points out, this approach fails for the [[big topos]] on $Top$ and also for Lawvere's topos for [[continuum mechanics]].
 
@@ -74,10 +74,9 @@ Finally, since $((z_{n,k})_k)_n$ converges to $w_k$ in the object of Cauchy *seq
 
 * [[generic interval]]
 
-## Related page
+## Links
 
 * n-cafe [blog on Johnstone's paper](https://golem.ph.utexas.edu/category/2014/04/on_a_topological_topos.html)
-
 
 ## References
 
@@ -86,6 +85,10 @@ The topological topos was introduced in
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977. (Dover reprint 2014; exercise 0.10, p.21)
 
 * {#Johnstone79}[[Peter Johnstone]], _On a topological topos_ , Proc. London Math. Soc. (3) **38** (1979) pp.237&#8211;271. ([pdf](http://plms.oxfordjournals.org/content/s3-38/2/237.full.pdf))
+
+Some information with changed terminology can be found in 
+
+* [[Peter Johnstone]], _Sketches of an [[Elephant]] vols.I&II_, Oxford UP 2002. (A2.1.11(j), A2.6.4(c), C2.2.14(b); pp.81,123,537f)
 
 An example of a type-theoretic universe in the topological topos is studied in
 
