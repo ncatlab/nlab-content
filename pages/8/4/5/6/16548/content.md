@@ -78,9 +78,9 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonadPDE.pdf:file]])
 
-(Proposition 1.4 in [Marvan 86](#Marvan86) needs an extra transversality condition on the equalizer, this is fixed in ([Marvan's thesis](#MarvanThesis).)
+(Proposition 1.4 in [Marvan 86](#Marvan86) needs an extra "weakened transversality" condition on the equalizer, this is fixed in (Theorem 1.3, [Marvan's thesis](#MarvanThesis)). The extra condition is that the equalizer must remain an equalizer after an application of the $V$ functor, which maps fibered manifolds to their vertical tangent bundles.)
 
-* {#MarvanThesis} [[Michal Marvan]], thesis, 1989 ([[MarvanThesis.pdf:file]])
+* {#MarvanThesis} [[Michal Marvan]], thesis, 1989 ([[MarvanThesis.pdf:file]], [web](http://www.slu.cz/math/cz/lide/marvan-michal/docs/mar89-ocr.pdf))
 
 * {#Marvan89} [[Michal Marvan]], _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
 
