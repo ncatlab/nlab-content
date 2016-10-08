@@ -34,6 +34,38 @@ The category of [[subsequential spaces]] can also be found as a full subcategory
 Importantly, following an idea by Joyal, the topological topos $\mathcal{E}:=Sh_J(\Sigma)$ allows one to represent the [[geometric realization]] functor $sSet \to \mathcal{E}$ as the inverse image of a [[geometric morphism]] from $\mathcal{E}$ to the topos of [[simplicial set|simplicial sets]]. As Johnstone points out, this approach fails for the [[big topos]] on $Top$ and also for Lawvere's topos for [[continuum mechanics]].
 
 
+## The real numbers
+
+One of the important facts about the topological topos is that its [[real numbers object]] is the set of classical [[real numbers]] equipped with its usual [[topology]] --- or more precisely, with the structure of [[subsequential space]] given by the usual notion of convergence for sequences of real numbers (arising from the usual Euclidean topology).
+
+In fact, there are two commonly used definitions of "real number" in a topos: the [[Dedekind real numbers]] and the [[Cauchy real numbers]].  In a general topos the two may not coincide, although they do coincide if the topos is [[Boolean topos|Boolean]] or satisfies the [[axiom of countable choice]].  The topological topos is not Boolean and does not satisfy countable choice, but the two real numbers objects nevertheless do coincide therein, and both are the set of classical real numbers with its usual topology.
+
+For the Dedekind real numbers, a proof of this can be found in Johnstone's paper.  Here we sketch a proof for the Cauchy reals.
+
++-- {: .un_theorem}
+###### Theorem
+The Cauchy real numbers object in the topological topos $\mathcal{E}$ is the classical set of real numbers with its usual notion of sequential convergence.
+=--
++-- {: .proof}
+###### Proof
+For simplicity, we use Cauchy sequences with a fixed modulus: $x:\mathbb{N} \to \mathbb{Q}$ is Cauchy if ${|x_m - x_n|} \lt \frac{1}{m+1} + \frac{1}{n+1}$ for all $m,n$.  Note that if $y$ is the limit of such a Cauchy sequence, then ${|y - x_n|} \le \frac{1}{n+1}$ for all $n$, so convergence also has a fixed modulus.
+
+Since the [[inverse image functor]] $\Delta : Set \to \mathcal{E}$ preserves [[natural numbers objects]], the NNO $\mathbb{N}$ of $\mathcal{E}$ has the discrete structure (only eventually-constant sequences converge).  And since $\mathbb{Q} \cong \mathbb{N}$ constructively, the "rational numbers object" $\mathbb{Q}$ of $\mathcal{E}$ is also discrete.  It follows, by definition of exponentials in $\mathcal{E}$, that the object $\mathbb{Q}^{\mathbb{N}}$ of sequences of rational numbers has the topology of "pointwise-eventually-constant convergence": a sequence of sequences $((x_{n,k})_k)_n$ converges to a sequence $(y_k)_k$ if for each $k$ the sequence $(x_{n,k})_n$ is eventually constant at $y_k$.
+
+Now the object of Cauchy sequences is a subobject of $\mathbb{Q}^{\mathbb{N}}$ defined by
+$$ \left\{ (x_n) \mid \forall n,m, {|x_m - x_n|} \lt \frac{1}{m+1} + \frac{1}{n+1} \right\}. $$
+The predicate ${|x_m - x_n|} \lt \frac{1}{m+1} + \frac{1}{n+1}$ defines a subobject of $\mathbb{Q}^{\mathbb{N}} \times \mathbb{N}\times \mathbb{N}$, which is the pullback of the predicate $\lt$ on $\mathbb{Q}\times\mathbb{Q}$ along the map $\mathbb{Q}^{\mathbb{N}} \times \mathbb{N}\times \mathbb{N} \to \mathbb{Q}\times\mathbb{Q}$ defined by $(x,m,n) \mapsto ({|x_m-x_n|},\frac{1}{m+1}+\frac{1}{n+1})$.  Now $\mathbb{Q}\times \mathbb{Q}$ is discrete, and every subobject of a discrete object in $\mathcal{E}$ is (discrete and) relatively codiscrete, i.e. it has the induced topology.  Thus, the predicate ${|x_m - x_n|} \lt \frac{1}{m+1} + \frac{1}{n+1}$ also has the induced topology.  And since relatively codiscrete maps are the modal maps for a [[modality]], they are closed under arbitrary universal quantification.  So the object of Cauchy sequences has the topology induced from $\mathbb{Q}^{\mathbb{N}}$ of pointwise eventually constant convergence.
+
+In any topos, there is a monomorphism from the Cauchy real numbers to the Dedekind real numbers, and as remarked above, Johnstone proved that the latter have the usual topology.  Moreover, it is easy to see that the *points* of the Cauchy real numbers object are precisely the classical real numbers: any classical Cauchy sequence certainly induces a Cauchy sequence internal to $\mathcal{E}$.  Thus, it will suffice to show that the Cauchy subobject of the Dedekind reals also contains all convergent sequences.
+
+To this end, suppose we have a sequence of Cauchy sequences $((x_{n,k})_k)_n$ and a Cauchy sequence $(y_k)_k$ (all in the above fixed-modulus sense) such that the sequence of real numbers $([x_n])_n$ converges to the real number $[y]$ in the usual sense.  We want to show that this convergence also happens in the Cauchy real numbers object.  To this end, define a new sequence of Cauchy sequences $z_{n,k}$ by setting $z_{n,k} = y_{2k+1}$ if ${|[x_n] - y_{2k+1}|} \lt \frac{1}{k+1}$ and $z_{n,k} = x_{n,k}$ otherwise.  To show that $z_n$ is Cauchy, the only nontrivial case is to show that ${|y_{2k+1} - x_{n,\ell}|} \lt \frac{1}{k+1} + \frac{1}{\ell+1}$ if ${|[x_n] - y_{2k+1}|} \lt \frac{1}{k+1}$; but since $x_{n,\ell}$ converges to $[x_n]$ with fixed modulus, we have ${|[x_n] - x_{n,\ell}|} \le \frac{1}{\ell+1}$ and the triangle inequality is our friend.
+
+It is also evident that $z_n$ converges to $[x_n]$, i.e. $[z_n] = [x_n]$.  Thus it will suffice to show that $([z_n])_n$ converges to $[y]$ in the Cauchy real numbers object.  Let $w_k = y_{2k+1}$; then $[w]=[y]$ and $w$ converges twice as fast, i.e. ${|[w] - w_k|} \le \frac{1}{2(k+1)}$.  We claim that $((z_{n,k})_k)_n$ is pointwise-eventually-constant convergent to $w_k$.  To see this, by the ordinary convergence of $[x_n]$ to $[y]$, for each $k$ there exists an $N$ such that $n\gt N$ implies ${|[x_n] - [w]|}\lt \frac{1}{2(k+1)}$, and hence by the triangle inequality ${|[x_n] - y_{2k+1}|} = {|[x_n] - w_{k}|} \lt \frac{1}{k+1}$.  Thus, by definition of $z_n$, we have $z_{n,k} = w_k$ for all $n\gt N$, which is to say that $(z_{n,k})_n$ is eventually constant at $w_k$.
+
+Finally, since $((z_{n,k})_k)_n$ converges to $w_k$ in the object of Cauchy *sequences*, the image sequence $([z_n])_n$ in the object of Cauchy *real numbers* (the quotient by equivalence of Cauchy sequences) must also converge to $[w]$ there.  Since $[z_n]=[x_n]$ and $[w]=[y]$, this is what we wanted.
+=--
+
+
 ## Related entries
 
 * [[gros topos]]
