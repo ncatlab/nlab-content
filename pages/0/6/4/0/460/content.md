@@ -23,7 +23,7 @@ A [[topological space]] $X$ is **sober** if its [[point]]s are exactly determine
 
 * The [[continuous map]] from $X$ to the space of points of the [[locale]] that it gives rise to (see there for details) is a [[homeomorphism]].
 
-* The [[function]] from points of $X$ the _completely prime [[filter]]s_ of its open-set lattice is a [[bijection]].
+* The [[function]] from points of $X$ to the _completely prime [[filter]]s_ of its open-set lattice is a [[bijection]].
 
 * (Assuming classical logic) $X$ is $T_0$ and every [[irreducible closed set]] (non-empty closed set that is not the union of any two non-empty closed sets) is the closure of a (unique, by $T_0$) point.
 
