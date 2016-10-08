@@ -183,7 +183,7 @@ Discussion in relation to [[identity types]] and [[homotopy type theory]] is in
 * [[Steve Awodey]], [[Nicola Gambino]], [[Kristina Sojakova]], _Homotopy-initial algebras in type theory_ ([arXiv:1504.05531](http://arxiv.org/abs/1504.05531))
 
 
-Work towards dependent W-types in HoTT is here:
+Work towards dependent W-types in HoTT is here; see also [[inductive families]].
 
 * Christian Sattler, _On relating indexed W-types with ordinary ones_, 2015 [PDF](http://cs.ioc.ee/types15/abstracts-book/contrib31.pdf)
 
