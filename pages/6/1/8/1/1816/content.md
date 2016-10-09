@@ -34,10 +34,11 @@ The effective topos is the category obtained from the category of sets by first 
 
 * [[realizability]]
 
+* [[topos of recursive sets|recursive topos]]
+
 ## References
 
 Reviews include 
-
 
 * {#Vermeeren09} [[Stijn Vermeeren]], section 3 of _Realizability Toposes_, 2009 ([pdf](http://stijnvermeeren.be/download/mathematics/essay.pdf))
 
