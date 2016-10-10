@@ -1,4 +1,8 @@
+[[!redirects algebraic side effect]]
 [[!redirects algebraic side effects]]
+[[!redirects algebraic effects]]
+
+
 
 #Contents#
 * table of contents
@@ -6,9 +10,11 @@
 
 ## Idea
 
-An alternative to using [[monads (in computer science)]] for modelling _side effects_ with a [[functional programming language]], there is another approach via _[[algebraic theories]]_, called _algebraic effects_.
+**Algebraic effects** are computational [[side effect|effects]] that can be represented by an equational theory, or [[algebraic theory]], whose operations produce the effects at hand. 
 
-This approach has been realized in the programming language [[Eff]].
+They provide an alternative to using [[monads (in computer science)]] for modelling _effects_ with a [[functional programming language]]. This approach has been realized in the programming language [[Eff]].
+
+[[continuation monad|Continuations]] are not algebraic effects.
 
 
 ## References
