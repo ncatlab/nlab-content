@@ -36,3 +36,8 @@ King, eds., Proceedings of the LFG12 Conference, 219&#8211;239. Stanford, CA: CS
 Proceedings of the ESSLLI-2001 Student Session, 285&#8211;298. 13th European Summer School in Logic, Language and Information.
 * Christina Unger, 2011. _Dynamic Semantics as Monadic Computation._ In Manabu Okumura, Daisuke Bekki, and Ken Satoh, eds., New Frontiers in Artificial Intelligence - JSAI-isAI 2011, 68&#8211;81.
 * Simon Charlow, 2014. _On the semantics of exceptional scope_, New York University dissertation.
+
+The alternative approach to treating [[side effects]], known as [[algebraic effects]], has also been employed in natural language semantics:
+
+* Jirka Mar&#353;&#237;k, Maxime Amblard, _Algebraic Effects and Handlers in Natural Language Interpretation_, [pdf](https://hal.archives-ouvertes.fr/hal-01079206/file/effects-paper.pdf)
+* Jirka Mar&#353;&#237;k, Maxime Amblard, _Introducing a Calculus of Effects and Handlers for Natural Language Semantics_, [arXiv:1606.06125](https://arxiv.org/abs/1606.06125)
