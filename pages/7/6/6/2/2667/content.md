@@ -1,5 +1,5 @@
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea and definition ##
@@ -691,6 +691,11 @@ Here is an important new book on combinatorics which emphasizes the use of $Vect
 * [[Marcelo Aguiar]] and [[Swapneel Mahajan]], _Monoidal Functors, Species and Hopf Algebras_, to be published by Cambridge U. Press.  ([web](http://www.math.tamu.edu/~maguiar/a.pdf))
 * Kaan Akin, David A Buchsbaum, Jerzy Weyman, _Schur functors and Schur complexes_, Adv. Math. __44__:3 (1982) 207-278
 * Marcin Cha&#322;upnik, _Extensions of Weyl and Schur functors_, Homology, Homotopy and Applications 11(2), s. 27-48, 2009.
+
+See also
+
+* [[Martin Brandenburg]], _Operations on categories of modules are given by Schur functors_ ([arXiv:1610.02180](https://arxiv.org/abs/1610.02180))
+
 
 ## Old Stuff ##
 
