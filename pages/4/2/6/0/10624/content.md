@@ -8,6 +8,8 @@
 
 An alternative to using [[monads (in computer science)]] for modelling _side effects_ with a [[functional programming language]], there is another approach via _[[algebraic theories]]_, called _algebraic effects_.
 
+This approach has been realized in the programming language [[Eff]].
+
 
 ## References
 
