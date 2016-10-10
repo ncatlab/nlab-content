@@ -30,6 +30,8 @@ In [[computer science]] this [[monad (in computer science)]] is used to model [[
 
 ## Related concepts
 
+* [[continuation-passing style]]
+
 * [[maybe monad]]
 
 * [[state monad]]
