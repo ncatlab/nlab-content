@@ -145,9 +145,11 @@ Another approach to modelling side effects in [[functional programming languages
 
 * [[terminal coalgebra for an endofunctor]]
 
-Another generalization is 
+Other generalizations are 
 
 * [[arrow (in computer science)]]
+
+* [[applicative functor]]
 
 There is also
 
