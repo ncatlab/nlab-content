@@ -50,6 +50,11 @@ Notes from a survey talk:
 
 * [Huisken on Uniformization II](http://golem.ph.utexas.edu/category/2007/02/huisken_on_uniformization_ii.html)
 
+See also
+
+* {#Martelli16} Bruno Martelli, _An Introduction to Geometric Topology_ ([arXiv:1610.02592](https://arxiv.org/abs/1610.02592))
+
+
 
 
 [[!redirects Poincare conjecture]]
