@@ -157,6 +157,10 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
 * Jeremy Avigad, _Mathematics and language_, [arxiv/1505.07238](http://arxiv.org/abs/1505.07238)
 
+Some philosophical aspects of the role of category theory are touched upon in some parts of the introductory paper
+
+* [[Jean-Pierre Marquis]], _What is category theory?_, pdf can be found at [academia.edu](https://www.academia.edu/16339607/What_is_category_theory)
+
 ### Blog and forum discussions, conferences
 
 * $n$Caf&#233; on Mathematical reality: [I](http://golem.ph.utexas.edu/category/2008/10/mathematical_reality.html), [II](http://golem.ph.utexas.edu/category/2008/11/mathematical_robustness.html)
