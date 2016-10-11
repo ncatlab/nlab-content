@@ -165,7 +165,9 @@ The impact of Moggi's work is assessed and a case for [[Lawvere theory|Lawvere t
 
 * {#HylandPower07} [[Martin Hyland]], [[John Power]], _The Category Theoretic Understanding of Universal Algebra: Lawvere Theories and Monads_, Electronic Notes in Theoretical Computer Science (ENTCS) archive Volume 172, April, 2007 Pages 437-458  ([pdf](https://www.dpmms.cam.ac.uk/~martin/Research/Publications/2007/hp07.pdf))
 
-Expositions include
+Effects treated this way are known as [[algebraic effects]].
+
+Expositions of monads in computer science include
  
 * [[Philip Wadler]], _Comprehending Monads_, in _Conference on Lisp and functional programming_, ACM Press, 1990 ([[WadlerMonads.pdf:file]])
 
