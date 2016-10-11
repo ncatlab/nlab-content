@@ -37,7 +37,19 @@ Proceedings of the ESSLLI-2001 Student Session, 285&#8211;298. 13th European Sum
 * Christina Unger, 2011. _Dynamic Semantics as Monadic Computation._ In Manabu Okumura, Daisuke Bekki, and Ken Satoh, eds., New Frontiers in Artificial Intelligence - JSAI-isAI 2011, 68&#8211;81.
 * Simon Charlow, 2014. _On the semantics of exceptional scope_, New York University dissertation.
 
+For the specific use of [[continuation-passing style]] techniques, see
+
+* Chris Barker, Chung-Chieh Shan, _Continuations and Natural Language_, OUP, 2014, ([introduction](https://www.nyu.edu/projects/barker/barker-shan-continuations-book-intro.pdf))
+* Chris Barker, _Continuations and the nature of quantification_, Natural Language Semantics, 10(3):211&#8211;242, 2002.
+*  Chris Barker, _Continuations in natural language_, in Hayo Thielecke, editor, Proceedings of the Fourth ACM SIGPLAN Continuations Workshop (CW'04), Birmingham, UK, 2004.
+* Ekaterina Lebedeva, _Expression de la dynamique du discours &#224; l'aide de continuations_, ([thesis](http://www.theses.fr/2012LORR0025)) 
+
 The alternative approach to treating [[side effects]], known as [[algebraic effects]], has also been employed in natural language semantics:
 
 * Jirka Mar&#353;&#237;k, Maxime Amblard, _Algebraic Effects and Handlers in Natural Language Interpretation_, [pdf](https://hal.archives-ouvertes.fr/hal-01079206/file/effects-paper.pdf)
 * Jirka Mar&#353;&#237;k, Maxime Amblard, _Introducing a Calculus of Effects and Handlers for Natural Language Semantics_, [arXiv:1606.06125](https://arxiv.org/abs/1606.06125)
+
+The weaker notion of [[applicative functors]] has also been used:
+
+* Oleg Kiselyov, _Applicative Abstract Categorial Grammars_, ([pdf](http://okmij.org/ftp/gengo/applicative-symantics/AACG.pdf))
+* Oleg Kiselyov, _Applicative Abstract Categorial Grammars in Full Swing_, ([pdf](http://okmij.org/ftp/gengo/applicative-symantics/AACG1.pdf))
