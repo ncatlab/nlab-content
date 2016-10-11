@@ -34,7 +34,7 @@ In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijectio
 
 =--
 
-Proof is for instance in ([Kolav-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolavSlovakMichor93)).
+Proof is for instance in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](#KolarSlovakMichor93)).
 
 +-- {: .num_remark}
 ###### Remark
@@ -54,6 +54,8 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 * [[Borel's theorem]]
 
+* [[Hadamard's lemma]]
+
 * the [[Tietze extension theorem]]
 
 * the [[Whitney extension theorem]]
@@ -68,7 +70,7 @@ If one drops standard regularity assumptions on manifolds then theorem \ref{Embe
 
 A proof of the statement appears in
 
-* {#KolavSlovakMichor93} Ivan Kolav, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([web](http://www.emis.de/monographs/KSM/))
+* {#KolarSlovakMichor93} Ivan Kolar, [[Jan Slovák]], [[Peter Michor]], _Natural operations in differential geometry_, Springer (1993) ([web](http://www.emis.de/monographs/KSM/))
 
 Discussion that takes the dual algebraic formulation as the very definition of [[smooth functions]] is in
 
