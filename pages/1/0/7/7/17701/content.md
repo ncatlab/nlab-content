@@ -7,6 +7,8 @@ An **effect handler** is an interpretation of the [[algebraic effects]] of a com
 > Conceptually, algebraic operations and effect handlers are dual: the former could be called effect _constructors_ as they give rise to the effects; the latter could be called effect _deconstructors_ as the computations they provide proceed according to the effects already
 created. ([PlotPret13](#PlotPret13))
 
+Handlers have also been defined ([Lindley14](#Lindley14)) for more general effects, such as [[applicative functors]] and [[arrow (in computer science)|arrows]] (or idioms).
+
 ##References
 
 * [[Matija Pretnar]], _An Introduction to Algebraic Effects and Handlers_, [tutorial](http://www.eff-lang.org/handlers-tutorial.pdf)
@@ -16,6 +18,8 @@ created. ([PlotPret13](#PlotPret13))
 * Ohad Kammar, Sam Lindley, Nicolas Oury, _Handlers in Action_, [pdf](homepages.inf.ed.ac.uk/slindley/papers/handlers.pdf)
 
 * Nicolas Wu, Tom Schrijvers, Ralf Hinze, _Effect Handlers in Scope_, [pdf](http://www.cs.ox.ac.uk/people/nicolas.wu/papers/Scope.pdf)
+
+* {#Lindley14} Sam Lindley, _Algebraic Effects and Effect Handlers for Idioms and Arrows_, ([pdf](http://homepages.inf.ed.ac.uk/slindley/papers/aeia.pdf))
 
 [[!redirects algebraic handler]]
 [[!redirects algebraic handlers]]
