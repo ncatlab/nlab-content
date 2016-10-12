@@ -790,7 +790,7 @@ For all $n \in \mathbb{Z}$
 
 ([Bunke-Nikolaus-V&#246;lkl 13, lemma 4.5](#BunkeNikolausVoelkl13))
 
-+-- {: .num_example}
++-- {: .num_example #ExampleOrdinaryDeligneCohomology}
 ###### Example
 **(ordinary Deligne cohomology)**
 
