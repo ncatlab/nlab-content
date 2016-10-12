@@ -30,7 +30,7 @@ A __distributive lattice__ is a [[lattice]] in which [[join]] $\vee$ and [[meet]
 +-- {: .num_remark}
 ###### Remark
 
-The nullary forms of distributivity follow automatically:
+The nullary forms of distributivity hold in any lattice: 
 
 *  $x \vee \top = \top$,
 *  $x \wedge \bot = \bot$.
@@ -42,10 +42,95 @@ Distributive lattices and [[lattice]] [[homomorphisms]] form a [[concrete catego
 +-- {: .num_remark}
 ###### Remark
 
-Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice?  This convenience does *not* extend to infinitary distributivity, however.
+Any lattice that satisfies one of the two binary distributivity laws must also satisfy the other; isn\'t that nice? (This may safely be left as an [[exercise]].) This convenience does *not* extend to infinitary distributivity, however.
 
 =--
 
+## Alternative characterizations 
+
+As mentioned above, the theory of distributive lattices is self-dual, something that is proved in almost any account (or left as an exercise), but which is not manifestly obvious from the standard definition given above. In this section we provide some other characterizations or axiomatizations which *are* manifestly self-dual. 
+
+Here is one such characterization: 
+
++-- {: .num_prop #sd1} 
+###### Proposition 
+A lattice is distributive if and only if the identity 
+
+$$(a \wedge b) \vee (a \wedge c) \vee (b \wedge c) = (a \vee b) \wedge (a \vee c) \wedge (b \vee c)$$ 
+
+is satisfied. 
+=-- 
+
+Again this may be left as a (somewhat mechanical) exercise. 
+
+Perhaps more useful in practice is the characterization in terms of "forbidden sublattices" due to Birkhoff. Namely, introduce the "pentagon" $N_5$ as the 5-element lattice $\{\bot \leq a, b, c \leq \top\}$ where $b \leq c$ and $a$ is incomparable to $b, c$, so that $\bot = a \wedge c$ and $a \vee b = \top$. Introduce the "thick diamond" $M_3$ as the 5-element lattice $\{\bot \leq a', b', c' \leq \top\}$ with $a', b', c'$ pairwise incomparable. Both $N_5$ and $M_3$ are self-dual. Birkhoff's characterization is the following (manifestly self-dual) criterion. 
+
++-- {: .num_theorem} 
+###### Theorem 
+A lattice $L$ is distributive if and only if there is no [[injective function|embedding]] of $N_5$ or $M_3$ into $L$ that preserves binary meets and binary joins. 
+=-- 
+
+This can be useful for determining distributivity or its failure, especially in cases where one can visualize a lattice via its [[Hasse diagram]]. 
+
+The necessity of the forbidden sublattice condition is clear in view of the fact that the cancellation law stated in the next result fails in $N_5$ and $M_3$. This result gives another self-dual axiomatization of distributive lattices. 
+
++-- {: .num_prop #sd2} 
+###### Proposition 
+A lattice $L$ is distributive if and only if the cancellation law holds: for all $y, z \in L$, we have $y = z$ whenever $x \wedge y = x \wedge z$ and $x \vee y = x \vee z$. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+"Only if": if $x \wedge y = x \wedge z$ and $x \vee y = x \vee z$, then 
+
+$$y = y \vee (x \wedge y) = y \vee (x \wedge z) = (y \vee x) \wedge (y \vee z) = (x \vee z) \wedge (y \vee z) = (x \wedge y) \vee z$$ 
+
+which implies $z \leq y$, and similarly we have $y \leq z$. 
+
+"If": this is harder. Assuming the cancellation law for $L$, we first show $L$ is modular. Recall from [[modular lattice]] that for any lattice $L$ and $a, b \in L$, there is a covariant [[Galois connection]] 
+
+$$([a \wedge b, b] \to [a, a \vee b]: x \mapsto a \vee x) \; \dashv \; ([a, a \vee b] \to [a \wedge b, b]: y \mapsto b \wedge y)$$ 
+
+and that $L$ is *modular* if this Galois connection is a [[Galois correspondence]] (or [[adjoint equivalence]]) for all $a, b$. Now, if $x \in [a \wedge b, b]$, then $a \vee x = a \vee (b \wedge (a \vee x))$ because $f = f g f$ for any Galois connection $f \dashv g$. From $a \wedge b \leq x \leq b$ we also have 
+
+$$a \wedge x = a \wedge b \wedge x = a \wedge b = a \wedge b \wedge (a \vee x)$$ 
+
+and so by cancellation of the $a$\'s, we conclude $x = b \wedge (a \vee x)$. Similarly (dually), for $y \in [a, a \vee b]$, we have $y = a \vee (b \wedge y)$. Hence $L$ is modular. 
+
+Now we show $L$ is distributive. Let $x, y, z \in L$ and consider the three elements 
+
+$$\array{
+u & \coloneqq & [x \wedge (y \vee z)] \vee (y \wedge z) & = & [x \vee (y \wedge z)] \wedge (y \vee z) \\ 
+v & \coloneqq & [y \wedge (x \vee z)] \vee (x \wedge z) & = & [y \vee (x \wedge z)] \wedge (x \vee z) \\ 
+w & \coloneqq & [z \wedge (x \vee y)] \vee (x \wedge y) & = & [z \vee (x \wedge y)] \wedge (x \vee y)
+}$$ 
+
+where the non-definitional equalities follow from modularity. Using the first expressions, we compute 
+
+$$\array{
+u \vee v & = & [x \wedge (y \vee z)] \vee (y \wedge z) \vee [y \wedge (x \vee z)] \vee (x \wedge z) \\ 
+ & = & [x \wedge (y \vee z)] \vee [y \wedge (x \vee z)] \\ 
+ & = & [(x \wedge (y \vee z)) \vee y] \wedge (x \vee z) \\ 
+ & = & (x \vee y) \wedge (x \vee z) \wedge (y \vee z)
+}$$ 
+
+where the third and fourth lines use modularity. By symmetry in the letters $x, y, z$, we also have $u \vee w = v \vee w = (x \vee y) \wedge (x \vee z) \wedge (y \vee z)$. Now the second expressions are dual to the first, so by duality we compute 
+
+$$u \wedge v = u \wedge w = v \wedge w = (x \wedge y) \vee (x \wedge z) \vee (y \wedge z).$$ 
+
+Now by cancellation of the $u$\'s, we may conclude $v = w$, but in that case we obtain 
+
+$$(x \vee y) \wedge (x \vee z) \wedge (y \vee z) = v \vee w = v \wedge w = (x \wedge y) \vee (x \wedge z) \vee (y \wedge z)$$ 
+
+so that $L$ is distributive by Proposition \ref{sd1}. 
+=-- 
+
++-- {: .num_remark} 
+###### Remark 
+While the expressions for $u, v, w$ in the preceding proof may look as though they come out of thin air, the underlying idea is that the sublattice of $L$ generated by $x, y, z$ is the [[image]] of a lattice map $F(3) \to L$ out of the free modular lattice $F(3)$ on three elements. The only obstruction to distributivity in $F(3)$ is the presence of an $M_3$-sublattice appearing in the center of its [Hasse diagram](https://golem.ph.utexas.edu/category/2015/09/the_free_modular_lattice_on_3.html#c049685). The middle elements of that lattice correspond to the formal expressions for $u, v, w$ given above, and the proof shows that under the cancellation law, we have $u = v = w$ in $L$, making the thick diamond collapse to a point in $L$ and removing the obstruction to distributivity. 
+=-- 
+
+From Proposition \ref{sd2}, it is not very hard to deduce Birkhoff's theorem. The presence of a copy of $M_3$ or $N_5$ in a non-distributive lattice $L$ is deduced from a failure of the cancellation law where we have three elements $x, y, z$ with $x \wedge y = x \wedge z$, $x \vee y = x \vee z$, and $y \neq z$. If $y, z$ are comparable, say $y \leq z$, then the set $\{x \wedge y, x, y, z, x \vee y\}$ forms an $N_5$. If $y, z$ are incomparable, then we have either $y \vee z \lt x \vee y$, or $y \wedge z \gt x \wedge y$, or both $y \vee z = x \vee y$ and $y \wedge z = x \wedge z$; in the first two cases we get an $N_5$ (e.g., $\{x \wedge y, x, y, y \vee z, x \vee y\}$ for the first case), and in the third case the set $\{x \wedge y, x, y, z, x \vee y\}$ forms an $M_3$. 
 
 
 ## Examples
