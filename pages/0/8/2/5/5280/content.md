@@ -122,7 +122,7 @@ which implies that $A$ is a fixed point of $\neg_X \exists_g \neg_Y \exists_f$, 
 
 ### Beta reduced proof 
 
-The preceding proofs are sometimes considered too abstract to easily visualize, but this is slightly misleading: the second proof, involving the construction of a maximal fixed point as a countable limit, can be "[[beta-reduced]]" to produce one of the standard "concrete" proofs. 
+The preceding proofs are sometimes considered too abstract to easily visualize, but this is slightly misleading: the second proof, involving the construction of a minimal fixed point as a countable limit, can be "[[beta-reduced]]" to produce one of the standard "concrete" proofs. 
 
 In a nutshell, the minimal fixed point of the operator $\neg \exists_g \neg \exists_f: P X \to P X$ can be expressed as an alternating series of iterated direct images: 
 
@@ -169,7 +169,7 @@ $$\,$$
 
 $$A_2 = X - g Y + g f X - g f g Y,$$ 
 
-etc. Elements in $A_1$ are those which have no inverse images under $g$. Elements in $A_2$ are elements in $X$ to which $(g f)^{-1}$ can be applied at most once before we hit an element of $X$ with no inverse image under $g^{-1}$. Elements in the union $A_1 \cup A_2 \cup \ldots$ are those which survive at most finitely many applications of $(g f)^{-1}$ before hitting an element of $X$ with no inverse image under $g$. In the terminology of the Wikipedia article, such elements $x$ in $X$ are called "$X$-stoppers", and these are exactly the elements for which $h(x)$ (where recall $h$ is the bijection under construction) is defined to be $f(x)$ in the Wikipedia article. For elements $x$ not in this fixed point $A$ (the non-$X$-stoppers), we define $h(x)$ to be $g^{-1}(x)$, the same prescription that is used in the Wikipedia article. 
+etc. Elements in $A_1$ are those which have no inverse images under $g$. Elements in $A_2$ are elements in $X$ to which $(g f)^{-1}$ can be applied at most once before we hit an element of $X$ with no inverse image under $g^{-1}$. Elements in the union $A_1 \cup A_2 \cup \ldots$ are those which survive at most finitely many applications of $(g f)^{-1}$ before hitting an element of $X$ with no inverse image under $g$. In the terminology of the Wikipedia article, such elements $x$ in $X$ are called "$X$-stoppers", and these are exactly the elements for which $h(x)$ (where recall $h$ is the bijection under construction) is defined to be $f(x)$ in the Wikipedia article. For elements $x$ not in this fixed point $A$ (the non-$X$-stoppers), our proof of CSB (via a minimal fixed point) defined $h(x)$ to be $g^{-1}(x)$, the same prescription that is used in the Wikipedia article. 
 
 Other prescriptions are possible. For example, one could dually construct a *maximal* fixed point of the operator $\neg \exists_g \neg \exists_f: P X \to P X$, using Lemma \ref{chain} to note that $\exists_f$ and the right adjoint $\forall_g = \neg \exists_g \neg$ preserve limits of inverse $\omega$-chains, so that the maximal fixed point or terminal algebra of the endofunctor $\neg \exists_g \neg \exists_f$ could be constructed as an intersection $\bigcap_{n \geq 1} (\neg \exists_g \neg \exists_f)^n(1)$. This could also be written as a series 
 
@@ -187,9 +187,7 @@ $$\,$$
 
 $$(\neg \exists_g \neg \exists_f)^2(1) = X - g Y + g f X - g f g Y + g f g f X,$$ 
 
-etc. The difference between this and the minimal fixed point is the set $\bigcap_{n \geq 1} (g f)^n(X)$, consisting of elements $x$ of $X$ that belong to a doubly infinite sequence or a cyclic sequence (in the terminology of the Wikipedia article). As remarked in that article, for such $x$ we have an option to define $h(x)$ as $f(x)$ or $g^{-1}(x)$; in this article our approach has been to define $h(x) = f(x)$ for all $x$ in the constructed fixed point $A$ (which includes points in doubly infinite sequences or cyclic sequences if $A$ is the maximal fixed point), whereas the Wikipedia article chooses $g^{-1}(x)$ (which would be our choice too if $A$ is the minimal fixed point). But it makes no difference. 
-
-The remaining $x$ (belonging to the complement of the maximal fixed point) are mapped to $g^{-1}(x)$, according to the prescription laid out in either article. 
+etc. The difference between this and the minimal fixed point is the set $\bigcap_{n \geq 1} (g f)^n(X)$, consisting of elements $x$ of $X$ that belong to a doubly infinite sequence or a cyclic sequence (in the terminology of the Wikipedia article). As remarked in that article, for such $x$ we have an option to define $h(x)$ as $f(x)$ or $g^{-1}(x)$; in the present article we defined $h(x) = f(x)$ for all $x$ belonging to whichever fixed point $A$ is used, which includes points in doubly infinite sequences or cyclic sequences if $A$ is the maximal fixed point. In that case the remaining $x$ (belonging to the complement of the maximal fixed point) are mapped to $g^{-1}(x)$. 
 
 ## Failure in toposes 
 
