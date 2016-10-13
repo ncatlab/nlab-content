@@ -9,6 +9,9 @@ __Fa&#224; di Bruno formula__ is a remarkable combinatorial formula for higher d
 * [[Doron Zeilberger]], _Toward a combinatorial proof of the Jacobian conjecture?_ in  _Combinatoire &#233;num&#233;rative_ (Montreal, Que., 1985/Quebec, Que., 1985), 370&#8211;380, Lecture Notes in Math. __1234__, Springer 1986. [MR89c:05009](http://www.ams.org/mathscinet-getitem?mr=927775)
 * Eliahu Levy, _Why do partitions occur in Faa di Bruno's chain rule for higher derivatives?_, [math.GM/0602183](http://arxiv.org/abs/math/0602183).
 * E. Di Nardo, G. Guarino, D. Senato, _A new algorithm for computing the multivariate Fa&#224; di Bruno's formula_, [arxiv/1012.6008](http://arxiv.org/abs/1012.6008)
+* Miguel A. Mendez, _Combinatorial differential operators in: Fa&#224; di
+Bruno formula, enumeration of ballot paths, enriched rooted trees and
+increasing rooted trees_, [arXiv:1610.03602](https://arxiv.org/abs/1610.03602)
 
 In works of T. J. Robinson the formula is treated in the context of vertex algebras, calculus with [[formal power series]] and in logarithmic calculus, as well as in a connection to the [[umbral calculus]]:
 
