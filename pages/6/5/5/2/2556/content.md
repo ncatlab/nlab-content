@@ -295,7 +295,7 @@ Straightforward checking on [[generalized element]]s.
 
 > under construction
 
-Let  $X$ be a micorlinear space. 
+Let  $X$ be a microlinear space. 
 
 **Sketch of Proposition**
 
