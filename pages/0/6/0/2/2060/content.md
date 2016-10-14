@@ -60,10 +60,12 @@ $$
 
 =--
 
+This is the _[[universal Kan fibration]]_.
+
 +-- {: .num_remark }
 ###### Remark
 
-The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. In fact it is (when restricted to small objects) the [[object classifier]] in the [[(∞,1)-topos]] [[∞Grpd]], see at [object classifier -- In ∞Grpd](%28sub%29object+classifier+in+an+%28infinity%2C1%29-topos#ObjectClassifierInInfinityGroupoid).
+The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. In fact it is (when restricted to small objects) the [[object classifier]] in the [[(∞,1)-topos]] [[∞Grpd]], see at [object classifier -- In ∞Grpd](%28sub%29object+classifier+in+an+%28infinity%2C1%29-topos#ObjectClassifierInInfinityGroupoid). 
 
 =--
 
