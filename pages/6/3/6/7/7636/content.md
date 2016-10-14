@@ -438,7 +438,7 @@ and
 
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
 
-Another version of this which also applie to [[intensional identity types]] and hence to [[homotopy type theory]] is in
+Another version of this which also applies to [[intensional identity types]] and hence to [[homotopy type theory]] is in
 
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 ([[LumsdaineWarren2013.pdf:file]])
 
@@ -469,6 +469,7 @@ See also
 
 * {#Kapulkin14} [[Chris Kapulkin]], _Type theory and locally cartesian closed quasicategories_, Oxford 2014 ([video](https://www.youtube.com/watch?v=g87bZJ2bvYk))
 
+* [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
 
 Models specifically in ([[constructive set theory|constructive]]) [[cubical sets]] are discussed in
 
