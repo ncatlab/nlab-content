@@ -226,7 +226,7 @@ Recall that if $C$ is a comprehension category, $\Gamma\in C$ is a "context" and
 +-- {: .num_defn #ContextualCategory}
 ###### Definition
 
-A **contextual category** is a category with attributes $C$, def. \ref{CategoryWithAttributes}, together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
+A **contextual category** ([Cartmell 86](#Cartmell86), [Streicher 91](#Streicher91)) or **C-system** ([Voevodsky 15](#Voevodsky15a)) is a category with attributes $C$, def. \ref{CategoryWithAttributes}, together with a *length function* $\ell : ob(C) \to \mathbb{N}$ such that
 
 1. There is a unique object of length $0$, which is a [[terminal object]].
 1. For any $\Gamma\in C$ and $A\in E^\Gamma$, we have $\ell(\Gamma.A) = \ell(\Gamma)+1$.
@@ -244,12 +244,11 @@ Since def. \ref{ContextualCategory} refers to [[equality]] of objects, a context
 +-- {: .num_remark}
 ###### Remark
 
-
 The idea which distinguishes a contextual category is that "every context must be built out of types" in a unique way.  
 
 =--
 
-This makes for the closest match with type theory; in fact we have
+This makes for the closest match with type theory; in fact we have:
 
 +-- {: .num_theorem #CxtCareTT}
 ###### Theorem
@@ -372,7 +371,7 @@ The dependent type theory which results from this structure "has no nontrivial d
 
 ## References
 
-A general overview can be found in
+A general overview may be found in
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, Semantics and logics of computation (Cambridge, 1995), Publ. Newton Inst., vol. 14, Cambridge Univ. Press, Cambridge, 1997, pp. 79--130
 
@@ -388,32 +387,47 @@ Categories with attributes are discussed in
 
 * John Cartmell, *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978
 
-* Eugenio Moggi, *A category-theoretic account of program modules*, Math. Structures Comput. Sci. 1 (1991), no. 1, 103--139
+
+* [[Eugenio Moggi]], *A category-theoretic account of program modules*, Math. Structures Comput. Sci. 1 (1991), no. 1, 103--139
 
 * Andrew M. Pitts, *Categorical logic*, Handbook of logic in computer science, Vol. 5, Handb. Log. Comput. Sci., vol. 5, Oxford Univ. Press, New York, 2000, pp. 39--128
 
 Categories with families are defined in
 
-* Peter Dybjer, *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci., vol. 1158, Springer, Berlin, 1996, pp. 120--134, [PDF](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
+* [[Peter Dybjer]], *Internal type theory*, Types for proofs and programs (Torino, 1995), Lecture Notes in Comput. Sci., vol. 1158, Springer, Berlin, 1996, pp. 120--134, [PDF](http://www.cse.chalmers.se/~peterd/papers/InternalTT.pdf)
 
 and shown to be equivalent to categories with attributes in
 
-* Martin Hofmann, *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
+* [[Martin Hofmann]], *Syntax and semantics of dependent types*, [citeseer](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.8985).
 
 The initial category with families was constructed in
 
 * Simon Castellan, Dependent type theory as the initial category with families ([PDF](http://iso.mor.phis.me/archives/2011-2012/stage-2012-goteburg/report.pdf))
 
-It was formalized in inside type theory with set quotients of [[higher inductive types]] in:
+This was formalized inside type theory with set quotients of [[higher inductive types]] in:
 
-* [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Adga](https://bitbucket.org/akaposi/tt-in-tt)).
-{#AltKap2015}
+* {#AltKap2015} [[Thorsten Altenkirch]], Ambrus Kaposi, _Type Theory in Type Theory using Quotient Inductive Types_, (2015) ([pdf](http://www.cs.nott.ac.uk/~txa/publ/tt-in-tt.pdf)), ([formalisation in Adga](https://bitbucket.org/akaposi/tt-in-tt)).
 
-Contextual categories are defined in
 
-* John Cartmell, *Generalised algebraic theories and contextual categories*, Ann. Pure Appl. Logic 32 (1986), no. 3, 209--243
+Contextual categories were defined in
 
-* [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
+* {#Cartmell86} John Cartmell, _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072(86)90053-9))
+
+* {#Streicher91} [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
+
+and further studied in 
+
+* {#Voevodsky15a} [[Vladimir Voevodsky]], _A C-system defined by a universe category_, Theory Appl. Categ. 30 (2015), No. 37, 1181&#8211;1215, arXiv:1409.7925 ([arXiv:1409.7925](https://arxiv.org/abs/1409.7925))
+
+* {#Voevodsky15b} [[Vladimir Voevodsky]], _Martin-L&#246;f identity types in the C-systems defined by a universe category_ ([arXiv:1505.06446](https://arxiv.org/abs/1505.06446))
+
+* {#Voevodsky15c} [[Vladimir Voevodsky]], _Products of families of types in the C-systems defined by a universe category_ ([arXiv:1503.07072](https://arxiv.org/abs/1503.07072))
+
+* {#Voevodsky15d} [[Vladimir Voevodsky]], _Subsystems and regular quotients of C-systems_ ([arXiv:1406.7413](https://arxiv.org/abs/1406.7413))
+
+Contextual categories in the context of [[homotopy type theory]] are discussed in
+
+* {#KapulinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
 
 Strictification is discussed in
 
@@ -422,7 +436,6 @@ Strictification is discussed in
 * {#CurienGarnerHofmann} [[Pierre-Louis Curien]], [[Richard Garner]], [[Martin Hofmann]], _Revisiting the categorical interpretation of dependent type theory_ ([[CurienGarnerHofmann.pdf:file]])
 
 * {#LumsdaineWarren13} [[Peter LeFanu Lumsdaine]], [[Michael Warren]], _An overlooked coherence construction for dependent type theory_, CT2013 
-
 
 * [[Vladimir Voevodsky]], [Notes on type systems](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations_files/expressions_current.pdf)
 
