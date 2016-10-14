@@ -40,6 +40,16 @@ is [[equality|syntactically the same]] regardless of whether we obtain it by sub
 
 The way this is generally dealt with is to introduce a category-theoretic structure which does have a "substitution" operation which is strictly associative, hence does correspond directly to type theory, and then show that any category can be "strictified" into such a stricter structure.  Unfortunately, there are many different such structures which have been used, differing only slightly.  On this page we define and compare them all.
 
+One of these structures is called "contextual categories" (definition \ref{ContextualCategory} below). This and other kinds of categories-with-extra-structure may hence be thought of as stand-ins for the [[syntax]] of a [[type theory]]:
+
+> Rather than constructing an interpretation of the syntax directly, we may work via the intermediary notion of contextual categories, a class of algebraic objects abstracting the key structure carried by the syntax. The plain definition of a contextual category coresponds to the structural core of the syntax; further syntactic rules (logical constructors, etc.) correspond to extra algebraic structure that contextual categories may carry. Essentially, contextual categories provide a completely equivalent alternative to the syntactic presentation of type theory. 
+
+> Why is this duplication of notions desirable? The trouble with the syntax is that it is mathematically tricky to handle. Any full presentation must account for (among other things) variable binding, capture-free substitution, and the possibility of multiple derivations of a judgement; and so a direct interpretation must deal with all of these, at the same time as tackling the details of the particular model in question. By passing to contextual categories, one deals with these subtleties and bureaucracy once and for all, and obtains a clear framework for subsequently constructing models. Conversely, why not work only with contextual categories, dispensing with syntax entirely?
+
+> The trouble on this side is that working with higher-order logical structure in contextual categories quickly becomes unreadable. The reader preferring to take contextual categories as primary may regard the syntax as essentially a notation for working within them: a powerful, flexible, and intuitive notation, but one whose validity requires non-trivial work to establish. (The situation is comparable to that of string diagrams, as used in monoidal and more elaborately structured categories.
+
+> (from [Kapulkin-Lumsdaine 12](#KapulkinLumsdaine12))
+
 ## Definitions
 
 In all the definitions, $C$ will be a [[category]].  Generally, we will regard the objects of $C$ as [[contexts]] in a type theory.
@@ -415,7 +425,15 @@ Contextual categories were defined in
 
 * {#Streicher91} [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
 
-and further studied in 
+Review includes
+
+* {#KapulinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], section 1.2 and appendix B of _The Simplicial Model of Univalent Foundations (after Voevodsky)_ ([arXiv:1211.2851](https://arxiv.org/abs/1211.2851))
+
+Contextual categories as models for [[homotopy type theory]] are discussed in
+
+* {#KapulinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
+
+Further discussion of contextual categories is in
 
 * {#Voevodsky15a} [[Vladimir Voevodsky]], _A C-system defined by a universe category_, Theory Appl. Categ. 30 (2015), No. 37, 1181&#8211;1215, arXiv:1409.7925 ([arXiv:1409.7925](https://arxiv.org/abs/1409.7925))
 
@@ -425,9 +443,6 @@ and further studied in
 
 * {#Voevodsky15d} [[Vladimir Voevodsky]], _Subsystems and regular quotients of C-systems_ ([arXiv:1406.7413](https://arxiv.org/abs/1406.7413))
 
-Contextual categories in the context of [[homotopy type theory]] are discussed in
-
-* {#KapulinLumsdaine16} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The homotopy theory of type theories_ ([arXiv:1610.00037](https://arxiv.org/abs/1610.00037))
 
 Strictification is discussed in
 
