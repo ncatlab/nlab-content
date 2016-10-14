@@ -200,6 +200,7 @@ The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoid
 
 * [[closed monoidal category]] ,  [[closed monoidal (∞,1)-category]]
 
+* [[equivariant symmetric monoidal category]]
 
 ## References
 
