@@ -143,10 +143,42 @@ An [[integral domain]] is a [[Prüfer domain]] iff its lattice of [[ideals]] is 
 
 The lattice of [[Young diagrams]] ordered by inclusion is distributive. 
 
+## Infinitely distributive property
+
+A distributive lattice that is complete (not necessarily [[completely distributive lattice |completely distributive]]) may be **infinitely distributive** or said to satisfiy the **infinite distributive law** :
+
+  $$ 
+    x \wedge (\bigvee_i y_i) = \bigvee_i (x\wedge y_i)
+  $$
+
+This property is sufficient to give the lattice [[Heyting algebra]] stucture where the 
+implication $a\Rightarrow b$ (or  [[exponential object]] $b^a$) is: 
+
+$$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x$$ 
+
+Note that this property does not imply the dual  **co-infinitely distributive** property:
+
+  $$ 
+    x \vee (\bigwedge_i y_i) = \bigwedge_i (x\vee y_i)
+  $$
+
+Instead this dual gives the lattice [[co-Heyting algebra|co-Heyting]] structure where the co-implication or "subtraction"  ($\backslash$) is
+
+$$(u \backslash v) = \bigwedge_{u \leq v \vee x} x$$ 
+
+If a lattice has both properties, as in a [[completely distributive lattice]], then it has [[bi-Heyting algebra|bi-Heyting]] structure (both  Heyting and co-Heyting) and the two exponentials are equal.
+  
+$$(u \Rightarrow v) = \bigvee_{x \wedge u \leq v} x \qquad  = \qquad (u \backslash v) = \bigwedge_{u \leq v \vee x} x$$ 
+
+
 ## Properties
 
 ### Finite distributive lattices
  {#OppositeCategory}
+
+
+Since a finite distributive lattice is  [[completely distributive lattice |completely distributive]] it is a bi-Heyting lattice, as shown above.
+
 
 Let $FinDistLat$ be the category of finite distributive lattices and lattice homomorphisms, and let $FinPoset$ be the category of finite [[posets]] and order-preserving functions.  These are contravariantly equivalent, thanks to the presence of an [[ambimorphic object]]:
 
