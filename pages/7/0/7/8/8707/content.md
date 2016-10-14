@@ -60,6 +60,10 @@ For [[higher toposes]], it is no longer true in general that a subtopos is deter
 
 The canonical monad on a [[local topos]] gives rise to a closure modality on propositions in its internal language, as described in ([Awodey-Birkedal](#AwodeyBirkedal)).
 
+### Necessity and possibility
+
+See at _[[necessity and possibility]]_ the section _[Possible worlds via dependent type theory](https://ncatlab.org/nlab/show/necessity+and+possibility#InFirstOrderLogicAndTypeTheory)_
+
 ### Cohesive and differential modality
 
 By adding to [[homotopy type theory]] three (higher) modalities that encode [[discrete object|discrete types]] and [[codiscrete object|codiscrete types]] and hence implicitly a non-(co)-discrete notion of [[cohesion]] one obtained _[[cohesive homotopy type theory]]_. Adding furthermore modalities for _infinitesimal_ (co)discreteness yields [[differential homotopy type theory]].
@@ -86,64 +90,58 @@ By adding to [[homotopy type theory]] three (higher) modalities that encode [[di
 ## References
  {#References}
 
-The clear identification of [[modal operators]] on types with [[monads]] is due to 
+The clear identification of [[modal operators]] on types with [[monads]] (see at _[[monad (in computer science)]]_) is due to 
 
-* [[Eugenio Moggi]], _Notions of computation and monads. Information and Computation_, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
- {#Moggi91}
+* {#Moggi91} [[Eugenio Moggi]], _Notions of computation and monads. Information and Computation_, 93(1), 1991. ([pdf](http://www.disi.unige.it/person/MoggiE/ftp/ic91.pdf))
+ 
 
 This was observed (independently) to systematically yield constructive [[modal logic]] in (see also at [[computational type theory]])
 
-*  P.N. Benton , G.M. Bierman , [[Valeria de Paiva]], _Computational Types from a Logical Perspective I_ (1995) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778))
- {#BentonBiermanPaiva}
+* {#BentonBiermanPaiva} P.N. Benton , G.M. Bierman , [[Valeria de Paiva]], _Computational Types from a Logical Perspective I_ (1995) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5778))
+ 
+* {#FairloughMendler} M. Fairlough, Michael Mendler, _Propositional lax logic_, Information and computation 137(1):1-33 (1997)
+ 
+* {#Kobayashi} Satoshi Kobayashi, _Monad as modality_, Theoretical Computer Science, Volume 175, Issue 1, 30 (1997), Pages 29&#8211;74
 
-and 
+See also the type-theoretic generalization of _[[adjoint logic]]_, as discussed in
 
-* M. Fairlough, Michael Mendler, _Propositional lax logic_, Information and computation 137(1):1-33 (1997)
- {#FairloughMendler}
-
-and
-
-* Satoshi Kobayashi, _Monad as modality_, Theoretical Computer Science, Volume 175, Issue 1, 30 (1997), Pages 29&#8211;74
- {#Kobayashi}
+* {#LicataShulman} [[Dan Licata]], [[Mike Shulman]], _Adjoint logic with a 2-category of modes_, in _[Logical Foundations of Computer Science 2016](http://lfcs.info/lfcs-2016/)_ ([pdf](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint.pdf), [slides](http://dlicata.web.wesleyan.edu/pubs/ls15adjoint/ls15adjoint-lfcs-slides.pdf))
 
 The modal systems "CL" and "PLL" in ([Benton-Bierman-Paiva](#BentonBiermanPaiva)) and ([Fairlough-Mendler](#FairloughMendler)), respectively,  turn out to be equivalent to the geometric modality of [Goldblatt](#Goldblatt). The system CS4 in ([Kobayashi](#Kobayashi)) yields a constructive version of [[S4 modal logic]].
 
 
 Explicit mentioning of type theory equipped with such a monad as _modal type theory_ or [[computational type theory]] is in
 
-* Matt Fairtlough, Michael Mendler, _On the Logical Content of Computational Type Theory: A Solution to Curry's Problem_, Types for Proofs and Programs
-Lecture Notes in Computer Science Volume 2277, 2002, pp 63-78
- {#FairtloughMendler02}
+* {#FairtloughMendler02} Matt Fairtlough, Michael Mendler, _On the Logical Content of Computational Type Theory: A Solution to Curry's Problem_, Types for Proofs and Programs Lecture Notes in Computer Science Volume 2277, 2002, pp 63-78
+ 
 
 Discussion of modal operators explicitly in [[dependent type theory]] (and with a brief mentioning of the relation to [[monad (in computer science)|monads]]) is in 
 
-* [[Aleksandar Nanevski]], [[Frank Pfenning]], Brigitte Pientka, _Contextual Modal Type Theory_ (2005) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.61.2356), [slides](http://wips.cs.umn.edu/slides/pientka.pdf)) 
- {#NanevskiPfenningPientka05}
+* {#NanevskiPfenningPientka05} [[Aleksandar Nanevski]], [[Frank Pfenning]], Brigitte Pientka, _Contextual Modal Type Theory_ (2005) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.61.2356), [slides](http://wips.cs.umn.edu/slides/pientka.pdf)) 
+
+* [[Valeria de Paiva]], Eike Ritter, _Fibrational Modal Type Theory_, Electronic Notes in Theoretical Computer Science Volume 323, 11 July 2016, Pages 143&#8211;161 ([doi:10.1016/j.entcs.2016.06.010](http://www.sciencedirect.com/science/article/pii/S1571066116300378))
+
+Proceedings of the Tenth Workshop on Logical and Semantic Frameworks, with Applications (LSFA 2015)
 
 
 A survey of the field of modal type theory is in the collections
 
 * M. Fairtlough, M. Mendler, [[Eugenio Moggi]] (eds.), _Modalities in Type Theory_, Mathematical Structures in Computer Science, Vol. 11, No. 4, (2001)
 
-and
-
-* [[Valeria de Paiva]], Rajeev Gor&#233;, Michael Mendler, _Modalities in constructive logics and type theories_, Special issue of the Journal of Logic and Computation, editorial pp. 439-446, Vol. 14, No. 4, Oxford University Press, (2004) ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/final-preface.pdf))
- {#PaivaGoreMendler}
-
-and 
-
+* {#PaivaGoreMendler} [[Valeria de Paiva]], Rajeev Gor&#233;, Michael Mendler, _Modalities in constructive logics and type theories_, Special issue of the Journal of Logic and Computation, editorial pp. 439-446, Vol. 14, No. 4, Oxford University Press, (2004) ([pdf](http://www.cs.bham.ac.uk/~vdp/publications/final-preface.pdf))
+ 
 * [[Valeria de Paiva]], Brigitte Pientka (eds.) _Intuitionistic Modal Logic and Applications (IMLA 2008)_, . Inf. Comput. 209(12): 1435-1436 (2011) ([web](http://www.sciencedirect.com/science/article/pii/S089054011100143X))
 
 
 The historically first modal type theory, the interpretation of [[sheafification]] as a modality in the internal language of a [[Grothendieck]] topos goes back to the notion of [[Lawvere-Tierney operator]] 
 
-* [[Bill Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
- {#Lawvere}
+* {#Lawvere} [[Bill Lawvere]], _Quantifiers and sheaves_, Actes, Congr&#232;s intern, math., 1970. Tome 1, p. 329 &#224; 334 ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf))
+ 
 
 reviewed in
 
-* [[Robert Goldblatt]], _Grothendieck topology as geometric modality_, Mathematical Logic Quarterly, Volume 27, Issue 31-35, pages 495&#8211;529, (1981)
- {#Goldblatt}
+* {#Goldblatt} [[Robert Goldblatt]], _Grothendieck topology as geometric modality_, Mathematical Logic Quarterly, Volume 27, Issue 31-35, pages 495&#8211;529, (1981)
+ 
 
 
 
@@ -166,6 +164,11 @@ Formalization of modalities in [[homotopy type theory]] is discussed
 
 * Kevin Quirin and Nicolas Tabareau, _Lawvere-Tierney Sheafification in Homotopy Type Theory_, [Workshop](http://hott-uf.gforge.inria.fr/2015/) talk 2015 ([pdf](http://hott-uf.gforge.inria.fr/2015/HOTTUF_Kevin.pdf)), Kevin Quirin [thesis](https://kevinquirin.github.io/thesis/main.pdf)
 
+and specifically in [[cohesive homotopy type theory]] in 
+
+* [[Urs Schreiber]], [[Michael Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]_, in [[Ross Duncan]], [[Prakash Panangaden]] (eds.) _Proceedings 9th Workshop on Quantum Physics and Logic_, Brussels, Belgium, 10-12 October 2012 ([arXiv:1408.0054](http://arxiv.org/abs/1408.0054))
+
+* [[Michael Shulman]], _Brouwer's fixed-point theorem in real-cohesive homotopy type theory_ ([arXiv:1509.07584](https://arxiv.org/abs/1509.07584))
 
 Monadic modal type theory with [[idempotent monads]]/monadic reflection is discussed in
 
@@ -176,7 +179,6 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 * [[Andrzej Filinski]], _Monads in Action_, POPL 2010. ([pdf](http://camlunity.ru/swap/Library/Computer%20Science/Category%20Theory/Monads%20in%20Action.pdf))
 
 * Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
-
 
 
 See also
