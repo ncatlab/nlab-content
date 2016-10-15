@@ -47,14 +47,20 @@ The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold i
 
 (Note that we need not accept $WCC$ to see that an analytic result implies the (L)LPO and so cannot be constructively valid.)
 
-There are various other results that are equivalent to or related to the principles of omniscience, which it might be handy to collect here.  For the connection to writing real numbers as decimals (or in some other [[radix notation|radix]]), see Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+## Equivalent statements
+
+There are various other results that are equivalent to or related to the principles of omniscience.  Here are a few:
+
+* At least in the presence of [[countable choice]] (which implies that Cauchy and Dedekind reals agree), the (analytic) LLPO is equivalent to saying that every real number has a [[radix notation|radix expansion]] in any base (e.g. a decimal expansion or binary expansion), and also that the rings of radix expansions in any two bases are isomorphic.  See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+
+* Let $[0,1]/(0\sim 1)$ be the quotient of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the quotient ring; both are classically isomorphic to $S^1$.  Constructively there is an injection $[0,1]/(0\sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a bijection if and only if the analytic LLPO holds (for the appropriate kind of real number).
 
 
 ## Models
 
 * Assuming that [[Set]] is a [[Boolean topos]], then $LPO_{\mathbb{N}}$ (the LPO for natural numbers) holds in any [[presheaf topos]] over $Set$ and indeed in any [[locally connected topos]] over $Set$, essentially since then $2^N$ is a constant object.
 
-* The LPO for natural numbers fails in the [[topological topos]], due to its internal continuity principle.
+* The LPO for natural numbers fails in Johnstone's [[topological topos]], due to its internal continuity principle.  Hence, the analytic LPO also fails, since the Cauchy and Dedekind reals coincide in this topos.  However, the (analytic) LLPO holds, as a consequence of the preservation of finite closed unions by the inclusion of sequential spaces.
 
 
 ## References
