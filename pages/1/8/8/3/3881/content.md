@@ -8,4 +8,4 @@
 
 category: people
 
-[[!redirects Bruno Valette]]
+[[!redirects Bruno Valette]
