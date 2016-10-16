@@ -20,9 +20,9 @@
 
 ### Category-theoretic properties
 
-There is a [[category]], $\mathbf{Hask}$, whose objects are Haskell [[type|types]] and whose morphisms are extensionally identified Haskell functions. Subcategories of types can be defined too.
+Viewed as a syntactic framework, we can identify a subset of Haskell called $\mathbf{Hask}$ that is often used to identify concepts used in basic category theory. One considers Haskell [[type|types]] as objects of a category whose morphisms are extensionally identified Haskell functions. 
 
-With $\to$ and $\times$ etc., $\mathbf{Hask}$ is almost Cartesian closed. A particular problem is the polymorphic term $\text{undefined}$, which is defined to be term of every type. It prevents, for example, initial objects (i.e. there's no analog of the empty set). Or, when it comes to setting up the categorical product, the projections $\pi_1$ and $\pi_2$ couldn't distinguish between $(\text{undefined},\text{undefined})$ and just $\text{undefined}$, spoiling uniqueness. A related deficit is that when it comes to passing functions as arguments, Haskell sees more than just Hask morphisms. 
+With $\to$ and $\times$ etc., we can work $\mathbf{Hask}$ almost as if it was even a Cartesian closed cateogry. A particular problem is the polymorphic term $\text{undefined}$, which is defined to be term of every type. It prevents, for example, initial objects (i.e. there's no analog of the empty set). Or, when it comes to setting up the categorical product, the projections $\pi_1$ and $\pi_2$ couldn't distinguish between $(\text{undefined},\text{undefined})$ and just $\text{undefined}$, spoiling uniqueness. A related deficit is that when it comes to passing functions as arguments, Haskell sees more than just Hask morphisms. 
 
 The standard notion of functors in Haskell are not terms of a Hask type but operate on one level above those, the kind level. If '7' is of type 'Int' and 'Int' is of kind 'U', then a functor corresponds to a map 'U $\to$ U $\to$ U'. Functors form a class, in the sense used in computer science, i.e. a standardly employed abstraction or interface. 
 
