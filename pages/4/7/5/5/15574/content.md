@@ -505,6 +505,8 @@ For further properties of quintessential localizations see at [[quality type]].
 
 ### An open problem: the presheaf topos over non-empty finite sets
 
+...
+
 ## Related pages
 
 * [[Hegelian taco]]
@@ -533,7 +535,11 @@ For further properties of quintessential localizations see at [[quality type]].
 
 * [[homotopy dimension]]
 
-##A guide to the literature
+## Links
+
+* [Online Journal of the Brazilian Hegel Society](http://revista.hegelbrasil.org/english-version-introduction/)
+
+## A guide to the literature
 
 On the philosophical side, the lectures notes [Koch (2009)](#Koch09) that suggest the use of [[pure set|non-wellfounded set theory]] as interpretative tool may serve as a good general introduction to Hegel's ideas on logic and metaphysics. [Krahn (2014)](#Krahn14) considers Hegel's concept of Aufhebung in the context of postmodern thought. 
 
@@ -625,6 +631,8 @@ Further results on essential localizations can be found in the papers by [Borceu
 * {#Menni12} [[Matías Menni|M. Menni]], _Bimonadicity and the Explicit Base Property_ , TAC **26** no.22 (2012) pp.554-581. ([pdf](http://www.tac.mta.ca/tac/volumes/26/22/26-22.pdf))
 
 * J. Petitot, _La Neige est Blanche ssi... Pr&#233;dication et Perception_ , Math. Inf. Sci. Hum **35** no.140 (1997) pp.35-50. ([pdf](http://archive.numdam.org/article/MSH_197_140_35_0.pdf))
+
+* J. P. Pertille, _Aufhebung - Meta-categoria da L&#243;gica Hegeliana_ , Revista Eletr&#244;nica Estudos Hegelianos **8** no.15 (2011) pp.58-66. ([pdf](http://www.hegelbrasil.org/reh_2011_2_art4.pdf))
 
 * [[Bob Rosebrugh|R. Rosebrugh]], R. J. Wood, _Distributive Adjoint Strings_ , TAC **1** no.6 (1995) pp.119-145. ([pdf](http://www.tac.mta.ca/tac/volumes/1995/n6/v1n6.pdf))
 
