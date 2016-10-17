@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Functional analysis
 +-- {: .hide}
 [[!include functional analysis - contents]]
@@ -12,6 +16,7 @@
 =--
 =--
 =--
+
 
 # Contents
 * table of contents
@@ -26,6 +31,7 @@ A [[linear operator]] $A: V_1\to V_2$ between topological vector spaces is **bou
 
 There is also a rich theory for [[unbounded operators]] on [[Hilbert spaces]].
 
+The [[quotient]] of the bounded operators by the [[compact operators]] is called the _[[Calkin algebra]]_.
 
 ## Properties 
 
