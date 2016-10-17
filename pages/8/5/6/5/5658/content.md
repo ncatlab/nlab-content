@@ -1,5 +1,14 @@
+## Related entries
 
-Brown--Douglas--Fillmore theory at [eom](http://eom.springer.de/b/b130270.htm)
+* [[Weyl–von Neumann theorem]]
+* [[Calkin algebra]]
+* [[self-adjoint operator]]
+* [[C-star algebra]]
+
+## References
+
+
+* Brown--Douglas--Fillmore theory, _Encyclopedia of Mathematics_, [web](https://www.encyclopediaofmath.org/index.php/Brown%E2%80%93Douglas%E2%80%93Fillmore_theory)
 
 * L.G. Brown, R.G. Douglas, P.A. Fillmore, _Unitary equivalence modulo the compact operators and extensions of C$^\ast$-algebras_, Proc. Conf. Operator Theory (Dalhousie Univ., Halifax, N.S., 1973) , Lecture Notes in Mathematics __345__, Springer  (1973)  pp. 58&#8211;128, [MR380478](http://www.ams.org/mathscinet-getitem?mr=380478)
 
