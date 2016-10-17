@@ -101,7 +101,7 @@ $$
   Sub(f): Sub(d) \to Sub(c)
 $$
 
-takes a [[subobject]] $i: t \hookrightarrow d$ to the subobject of $d$ obtained by [[pullback|pulling back]] $i$ along $f$. (Notice that [[monomorphism]]s, as discussed there, are stable under pullback.) 
+takes a [[subobject]] $i: t \hookrightarrow d$ to the subobject of $c$ obtained by [[pullback|pulling back]] $i$ along $f$. (Notice that [[monomorphism]]s, as discussed there, are stable under pullback.) 
 
 The representability of this functor means there is an object $\Omega$ together with a subobject $t: T \hookrightarrow \Omega$ which is *[[universal construction|universal]]*, meaning that given any subobject $i: s \hookrightarrow c$, there is a unique morphism $f: c \to \Omega$ such that $i$ is obtained as the pullback of $t$ along $f$.
 
