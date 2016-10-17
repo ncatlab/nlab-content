@@ -1,9 +1,35 @@
-__Calkin algebra__ is the quotient $B(H)/K(H)$ of the $C^*$-algebra of bounded linear operators on an infinite-dimensional separable complex [[Hilbert space]] $H$ by the closed ideal of [[compact operator]]s.
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Operator algebra
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The __Calkin algebra__ is the [[quotient]] $B(H)/K(H)$ of the [[C*-algebra]] of [[bounded operator|bounded]] [[linear operators]] on an infinite-dimensional separable complex [[Hilbert space]] $H$ by the closed ideal of [[compact operators]].
 It is widely used in [[index theory]] and [[operator algebras]]. 
 
 It is sometimes viewed as a noncommutative analogue of the space of continuous functions on $\beta(\omega) \,\backslash\, \omega$ (where $\beta$ means taking the [[Stone-∞ech compactification]]).
 
-Some results invoking the Calkin algebra rely on extra axioms in set theory, see for instance ([Weaver 2007](#Weaver)) for a sample of such results. [[Todorcevic's Axiom]] (TA, also called the Open Coloring Axiom) implies that all automorphisms of the Calkin algebra are inner ([Farah 2011a](#Farah11a)), whereas assuming the [[continuum hypothesis]], one can construct an outer automorphism ([Phillips-Weaver 2007](#PhillipsWeaver)). Note that TA contradicts CH ([Rinot 2013](#Rinot13)), so these two options are mutually exclusive.
+## Properties
+
+### General
+
+Some results invoking the Calkin algebra rely on extra [[axioms]] in [[set theory]], see for instance ([Weaver 2007](#Weaver)) for a sample of such results. 
+
+### Automorphisms
+
+[[Todorcevic's Axiom]] (TA, also called the _Open Coloring Axiom_) implies that all [[automorphisms]] of the Calkin algebra are [[inner automorphism|inner]] ([Farah 2011a](#Farah11a)), whereas assuming the [[continuum hypothesis]], one can construct an [[outer automorphism]] ([Phillips-Weaver 2007](#PhillipsWeaver)). Note that TA contradicts CH ([Rinot 2013](#Rinot13)), so these two options are mutually exclusive.
 
 There are also some analogues of the above results where the separable Hilbert space is replaced by an arbitrary infinite-dimensional complex Hilbert space. For instance, the [[Proper Forcing Axiom]] (PFA) implies that for every Calkin algebra, all automorphisms are inner ([Farah 2011b](#Farah11b)).
 
