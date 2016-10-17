@@ -46,11 +46,7 @@ Major [[theorems]] whose [[proofs]] have been fully formalized in Coq include
 ### Homotopy type theory
   {#HomotopyTypeTheory}
 
-For Coq-projects in [[homotopy type theory]] see
-
-* [Univalent Foundations](#UnivalentFoundations)
-
-(...)
+For Coq-projects in [[homotopy type theory]] see [[homotopy type theory#Code]].
 
 ## Related entries
 
@@ -71,21 +67,7 @@ Similar but non-dependent type theory software includes _[[Haskell]]_.
 
 * [Cocorico](http://coq.inria.fr/cocorico), the Coq wiki
 
-A web-based version of Coq is at 
-
-* _[ProofWeb -- Provers](http://prover.cs.ru.nl/login.php#provers)_
-
-To start it, choose "Coq" from the menu "proof assistant" and Click on "guest login". In the user interface that appears, enter Coq-code in the left window and hit the arrow-buttons to "run" it with output appearing in the right window. The guest account allows everything except saving files and loading libraries. But with copy-and-paste one can of course "include libraries" by hand. 
-
-(Notice, though, that the current version can for instance not read the [[homotopy type theory|HoTT]] libraries verbatim, since it does not understand implicit types yet.)
-
-A tool for viewing proofs in static Coq files without loading them into Coq is 
-
-* _[Proviola](http://mws.cs.ru.nl/proviola/)_ 
-
-A proviola-enhanced version of the Coq-library for [[homotopy type theory]] is at
-
-* _[http://mws.cs.ru.nl/proviola/HoTT/](http://mws.cs.ru.nl/proviola/HoTT/)_
+A web-based version of Coq for HoTT and online documentation can be found [here](https://github.com/HoTT/HoTT/wiki).
 
 * A [discussion](http://r6.ca/blog/20091101T231201Z.html) about Coq's predicativity issues.
 
@@ -116,10 +98,6 @@ Yet properly learning Coq can be quite daunting, luckily the right material can 
 Formalization of [[synthetic geometry|synthetic]] [[Euclidean geometry]]:
 
 * [[Gabriel Braun]], [[Pierre Boutry]], [[Julien Narboux]], _[GeoCoq](http://geocoq.github.io/GeoCoq/)_, _[La g&#233;om&#233;trie de Tarski en Coq](http://gabrielbraun.free.fr/Geometry/Tarski/)_
-
-For applications to [[homotopy type theory]] see the references listed there. Especially
-
-* {#UnivalentFoundations} [[Vladimir Voevodsky]], _[Univalent Foundations](http://www.math.ias.edu/~vladimir/Site3/Univalent_Foundations.html)_
   
 
 category: software
