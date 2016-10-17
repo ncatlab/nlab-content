@@ -7,6 +7,10 @@ Some results invoking the Calkin algebra rely on extra axioms in set theory, see
 
 There are also some analogues of the above results where the separable Hilbert space is replaced by an arbitrary infinite-dimensional complex Hilbert space. For instance, the [[Proper Forcing Axiom]] (PFA) implies that for every Calkin algebra, all automorphisms are inner ([Farah 2011b](#Farah11b)).
 
+## Related entries
+
+* [[BrownDouglasFillmore theory]]
+
 ## References
 
 
