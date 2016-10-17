@@ -63,7 +63,9 @@ The relation to [[Dijkgraaf-Witten theory]] appeared in
 * [[Robbert Dijkgraaf]], V. Pasquier, P. Roche, _QuasiHopf algebras, group cohomology and orbifold models_, Nucl. Phys. B Proc. Suppl. __18B__ (1990), 60-72; _Quasi-quantum groups related to orbifold models_, Modern quantum field theory (Bombay, 1990), 375&#8211;383, World Sci. 1991
  {#DijkgraafPasquierRoche}
 
+and some arguments about the general relevance of quasi-Hopf algebras is in
 
+* Gerhard Mack, [[Volker Schomerus]], _Quasi Hopf quantum symmetry in quantum theory_,  Nuclear Physics B 370:1 (1992) 185--230 <a href="http://dx.doi.org/10.1016/0550-3213(92)90350-K">doi</a>
 
 Other articles include 
 
