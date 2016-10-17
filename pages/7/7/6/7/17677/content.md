@@ -3,7 +3,7 @@
 {:toc}
 
 ##Idea
-Philosophers have sought a means to isolate the properly [[logic|logical]] components of a language from the remainder. A prominent idea here has been to use invariance under arbitrary permutations of the domain of objects. Some, e.g., Mautner and Tarski, have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different transformation groups.
+Philosophers have sought a means to isolate the properly [[logic|logical]] components of a language from the remainder. A prominent idea here has been to use invariance under arbitrary permutations of the domain of objects. Some, e.g., [[Friederich Mautner]] and [[Alfred Tarski]], have seen this as an extension of the [[Erlangen program]] of [[Felix Klein]], which looked to distinguish geometries by their invariance under different transformation groups.
 
 Tarski's informal definition ([Ln](#Ln)) is reproduced here,
 >Now suppose we continue this idea, and consider still wider classes of transformations.
