@@ -19,16 +19,16 @@
 
 ## Idea
 
-The **Poincar&#233; Lemma** in [[differential geometry]] and [[complex analytic geometry]] asserts that "every [[differential form]] $\omega$ which is closed, $d_{dR}\omega = 0$, is _locally_ exact, $\omega|_U = d_{dR}\kappa$".
+The **Poincar&#233; Lemma** in [[differential geometry]] and [[complex analytic geometry]] asserts that "every [[differential form]] $\omega$ which is closed, $d_{dR}\omega = 0$, is _locally_ exact, $\omega|_U = d_{dR}\kappa$."
 
-More in detail: if $X$ is contractible then for every closed [[differential form]] $\omega \in \Omega^k_{cl}(X)$ with $k \geq 1$ there exists a differential form $\lambda \in \Omega^{k-1}(X)$ such that 
+In more detail: if $X$ is contractible then for every closed [[differential form]] $\omega \in \Omega^k_{cl}(X)$ with $k \geq 1$ there exists a differential form $\lambda \in \Omega^{k-1}(X)$ such that 
 
 $$
   \omega = d_{dR} \lambda
   \,.
 $$
 
-Moreover, for $\omega$ a smooth smooth family of closed forms, there is a smooth family of $\lambda$s satisfying this condition.
+Moreover, for $\omega$ a smooth family of closed forms, there is a smooth family of $\lambda$s satisfying this condition.
 
 This statement has several more abstract incarnations. One is that it says that on a [[Cartesian space]] (or a complex [[polydisc]]) the [[de Rham cohomology]] (the [[holomorphic de Rham complex|holomorphic de Rham cohomology]]) vanishes in positive degree.
 
@@ -42,7 +42,7 @@ $$
   \mathbb{C} \to \Omega^\bullet_{hol}
 $$
 
-from the [[locally constant sheaf]] on the [[real numbers]] (the [[complex numbers]]) to the [[de Rham complex]] ([[holomorphic de Rham complex]]) is a [[stalk]]-wise [[quasi-isomorphism]] -- hence an [[equivalence]] in the [[derived category]] and hence induce an equivalence in [[hypercohomology|hyper]]-[[abelian sheaf cohomology]]. (The latter statement _fails_ in general in complex [[algebraic geometry]], see ([Illusie 12, 1.](#Illusie12)) ans see also at _[[GAGA]]_.) (A variant of such [[resolutions]] of constant sheaves for the case over [[Klein geometries]] are [[BGG resolutions]].)
+from the [[locally constant sheaf]] on the [[real numbers]] (the [[complex numbers]]) to the [[de Rham complex]] ([[holomorphic de Rham complex]]) is a [[stalk]]-wise [[quasi-isomorphism]] -- hence an [[equivalence]] in the [[derived category]] and hence induce an equivalence in [[hypercohomology|hyper]]-[[abelian sheaf cohomology]]. (The latter statement _fails_ in general in complex [[algebraic geometry]], see ([Illusie 12, 1.](#Illusie12)) and see also at _[[GAGA]]_.) (A variant of such [[resolutions]] of constant sheaves for the case over [[Klein geometries]] are [[BGG resolutions]].)
 
 The Poincar&#233; lemma is a special case of the more general statement that the pullbacks of differential forms along [[homotopy|homotopic]] [[smooth function]] are related by a [[chain homotopy]].
 
@@ -52,7 +52,7 @@ The Poincar&#233; lemma is a special case of the more general statement that the
 +-- {: .num_theorem}
 ###### Theorem
 
-Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifold]] and $\Psi : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
+Let $f_1, f_2 : X \to Y$ be two [[smooth function]]s between [[smooth manifolds]] and $\Psi : [0,1] \times X \to Y$ a (smooth) [[homotopy]] between them.
 
 Then there is a [[chain homotopy]] between the induced morphisms 
 
@@ -81,7 +81,7 @@ $$
 
 =--
 
-Here $\iota_{\partial t}$ denotes contraction (see [[Cartan calculus]]). with the canonical [[vector field]] tangent to $[0,1]$ and the [[integration]] is that of functions with values in the [[vector space]] of differential forms.
+Here $\iota_{\partial t}$ denotes contraction (see [[Cartan calculus]]) with the canonical [[vector field]] tangent to $[0,1]$, and the [[integration]] is that of functions with values in the [[vector space]] of differential forms.
 
 +-- {: .proof}
 ###### Proof
@@ -113,7 +113,7 @@ $$
   \,,
 $$
 
-where in the [[integral]] we used fist that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $[d,\iota_{\partial t}] = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
+where in the [[integral]] we used first that the [[exterior differential]] commutes with pullback of [[differential forms]], then [[Cartan's magic formula]] $[d,\iota_{\partial t}] = \mathcal{L}_t$ for the [[Lie derivative]] along the [[cylinder]] on $X$ and finally the [[Stokes theorem]].
 
 =--
 
