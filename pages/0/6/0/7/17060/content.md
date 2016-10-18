@@ -23,6 +23,8 @@ The prime example is the assignment $V \mapsto B O(V)$ of the [[classifying spac
 classes]]. Similarly, second derivatives in the orthogonal calculus reproduce
 and generalize much of the theory of [[Pontryagin classes]]. (see [Weiss 95](#Weiss95))
 
+The complex analog of the orthogonal calculus is known as the [[unitary calculus]].
+
 ## References
 
 * {#Weiss95} [[Michael Weiss]], _Orthogonal calculus_, Trans. Amer. Math. Soc. 347 (1995), 3743-3796, [pdf](https://wwwmath.uni-muenster.de/u/michael.weiss/preprints/or.pdf)
