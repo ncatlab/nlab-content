@@ -31,3 +31,6 @@ $$
       }
    \right]
 $$
+
+[[TwistorSpaceCorrespondence.jpg:file]]
+<img src="http://ncatlab.org/nlab/files/TwistorSpaceCorrespondence.jpg" width="500">
