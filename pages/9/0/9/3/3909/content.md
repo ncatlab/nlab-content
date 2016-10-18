@@ -264,6 +264,7 @@ an element of the 3-dimensional [[complex projective space]], called _twistor sp
 
 
 ### Twistor space
+ {#TwistorSpace}
 
 To discuss twistor space for Minkowski spacetime, it is useful to work more generally with $d$-dimensional Minkowski spacetime for $d \in \{3,4,6,8\}$. If we also use the corresponding irreducible real [[spin representation]] then by the discussion [there](spin+representation#InTermsOfNormedDivisionAlgebraInDimension3To10), these are equivalently 2-component vectors over the real [[normed division algebras]] $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, respectively. (See also at _[[supersymmetry and division algebra]]_, we follow [Bengtsson-Cederwall 88](#BengtssonCederwall88)).
 
