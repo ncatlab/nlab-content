@@ -649,11 +649,15 @@ The concept of [[Grassmann algebra]] and the super-sign rule is due to
 
 Review of basic superalgebra includes
 
+* [[Yuri Manin]], chapter 3 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+
 * [[Dennis Westra]], _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
 Discussion of superalgebra as algebra in certain [[symmetric monoidal category|symmetric monoidal]] [[tensor categories]] is in 
 
 * [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_ ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
+
+(see also at [[Deligne's theorem on tensor categories]]).
 
 Lecture notes include
 
