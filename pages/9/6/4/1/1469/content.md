@@ -44,12 +44,15 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 * [pages formally in category algebraic geometry](http://www.ncatlab.org/nlab/list/algebraic+geometry)
 
 ## References
+ {#References}
 
 * Ravi Vakil, _Foundations Of Algebraic Geometry_, Course notes, ([web](http://math.stanford.edu/~vakil/216blog/))
 
-Discussion of fundamental constructions of algebraic geometry from the perspective of the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] is in 
+Discussion of fundamental constructions of algebraic geometry from the perspective of the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]]/[[etale topos]]) is in 
 
 * {#Blechschmidt15} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, talk at [Toposes at IHES](https://indico.math.cnrs.fr/event/747/), November 2015 ([pdf](https://github.com/iblech/internal-methods/blob/master/slides-ihes2015.pdf), [recording](https://www.youtube.com/watch?v=7S8--bIKaWQ))
+
+* {#Blechschmidt16} [[Ingo Blechschmidt]], _Using the internal language of toposes in algebraic geometry_, thesis ([pdf](http://rawgit.com/iblech/internal-methods/master/notes.pdf))
 
 
 category: algebraic geometry, November 2015
