@@ -462,6 +462,10 @@ $$
 
 (for $\tau \in \mathbb{R}$, hence every point on the lightlike geodesic through $X$ in the direction of $\psi \psi^\dagger$) satisfies the relation (since the spinor index is raised with $(\epsilon^{\dot \alpha \dot \beta})$, which is skew symmetric).  This way non-zero points in $\mathcal{N} \hookrightarrow \mathbb{K}P^3$ correspond to lightlike geodesics in Minkowski spacetime. 
 
+<img src="http://ncatlab.org/nlab/files/TwistorSpaceCorrespondence.jpg" width="700">
+
+(graphics from [Adamo 13](#Adamo13))
+
 This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime", given by the [[Grassmannian]] $Gr_2(\mathbb{C}^4)$ of complex planes in $\mathbb{C}^4$ (review includes [Fioresi-Lledo-Varadarajan 07, section 2](#FioresiLledoVaradarajan07)).
 
 
@@ -520,6 +524,9 @@ Introductions and surveys include
 
 * {#FioresiLledoVaradarajan07} R. Fioresi, M. A. Lledo, [[Veeravalli Varadarajan]], _The Minkowski and conformal superspaces_, J.Math.Phys.48:113505,2007 ([arXiv:0609813](https://arxiv.org/abs/math/0609813))
 
+Review of the application in [[super Yang-Mills theory]] includes
+
+* {#Adamo13} [[Tim Adamo]], _Twistor actions for gauge theory and gravity_ ([arXiv:1308.2820](https://arxiv.org/abs/1308.2820)) 
 
 See also 
 
