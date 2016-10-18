@@ -777,7 +777,7 @@ Classics of sheaf theory on topological spaces are
 
 Recently, an improvement in understanding the interplay of derived functors (inverse image and proper direct image) in sheaf theory on topological spaces has been exhibited in 
 
-* Olaf M. Schnuerer, Wolfgang Sergel, _Proper base change for separated locally proper maps_, [arxiv/1406.7630](http://arxiv.org/abs/1406.7630)
+* Olaf M. Schnuerer, Wolfgang Sergel, _Proper base change for separated locally proper maps_, [arxiv/1404.7630](http://arxiv.org/abs/1404.7630)
 
 [[!redirects sheaves]]
 
