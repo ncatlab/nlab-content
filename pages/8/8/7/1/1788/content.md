@@ -1,38 +1,33 @@
-does the nLab display an explicit `nLab:` prefix ([[nLab:monad]]) the same as something unprefixed ([[monad]])?
-
-
-
 $$
-  S_{\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}, \psi^1_{out}, \cdots, \psi^{n_{out}}_{out}}
-  \;=\;
-  \underset{g \in \mathbb{N}}{\sum}
-    \lambda^g
-  \underset{
-    {moduli \; space \; of}
-      \atop
-    {{(n_{in},n_{out}) punctured} 
-      \atop 
-    {{super\; Riemann \; surfaces} 
-      \atop 
-    {{\Sigma^{n_{in}, n_{out}}_g}
-      \atop 
-    {of\; genus\; g}}}}
-   }{
-    \int
-   }
-   \left(
-   SCFT \; Correlator \; over \; \Sigma \; of \; states\;
-     {\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}, \psi^1_{out}, \cdots, \psi^{n_{out}}_{out}}
-  \right)
+  (\Gamma_0^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        1 & 0
+        \\
+        0 & -1
+      }
+   \right]
+   \;\;\,,
+   \;\;\;\;
+  (\Gamma_1^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        1 & 0
+        \\
+        0 & 1
+      }
+   \right]
+   \;\;\,,
+   \;\;\;\;
+  (\Gamma_{n+1}^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        0 & e_n
+        \\
+        \overline{e}_n & 0
+      }
+   \right]
 $$
-
-
-[[StringSMatrixFromPolchinski.jpg:file]]
-
-<img src="https://ncatlab.org/nlab/files/StringSMatrixFromPolchinski.jpg" width = "600">
-
-
-[[StringSMatrixSuperFromPolchinski.jpg:file]]
-
-<img src="https://ncatlab.org/nlab/files/StringSMatrixSuperFromPolchinski.jpg" width = "600">
-
