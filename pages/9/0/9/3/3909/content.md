@@ -382,31 +382,88 @@ $$
   \,.
 $$
 
-Since, as hermitian matrices, the $2 \times 2$ matrices arising this way are manifestly precisely the projection operators on 1-dimensional linear subspaces of $\mathbb{K}^2$, these are precisely the $2 \times 2$ hermitian matrices with vanishing determinant. Hence the [[lightlike]] vectors in Minkowski spacetime in $d = \{2,3,4,10\}$ are precisely those that arise as the pairing of a chiral spinor with itself.
+Since, as hermitian matrices, the $2 \times 2$ matrices arising this way are manifestly precisely the hermitian projection operators on 1-dimensional linear subspaces of $\mathbb{K}^2$, these are precisely the $2 \times 2$ hermitian matrices with vanishing determinant. Hence the future-oriented [[lightlike]] vectors in Minkowski spacetime in $d = \{2,3,4,10\}$ are precisely those that arise as the pairing of a chiral spinor with itself.
 
-Lightlike vectors in $\mathbb{R}^{d-1,1}$ are equivalently lightlike [[geodesics]] through the origin. A general lightlike geodesic in $\mathbb{R}^{d-1,1}$ is parameterized by 
+The above formula shows that as we rescale $\psi \mapsto k \psi$ with $k \in \mathbb{K}$, then the corresponding lightlike vector is sent to itself, rescaled by the real number $k \overline{k} \in \mathbb{R}$. Hence the direction of lightlike vectors is parameterized by the [[projective space]] $\mathbb{K}P^1$. At least for $\mathbb{K} = \mathbb{C}$ (the [[complex numbers]]) this is called the [[celestial sphere]] (in this case: the [[Riemann sphere]] $\mathbb{C}P^1$).
 
-$$
-  X^{\dot \alpha \alpha} + t \overline{\psi}_\alpha \psi_{\dot \alpha}
-$$
-
-hence...
-
-
-
-### Klein correspondence
-
-
-A twistor $(\omega^\alpha, \pi_\beta)$ determines a complex [[plane]] in complexified [[Minkowski spacetime]] whose points $(x^i)$ are characterized by the [[equation]]
+Lightlike vectors in $\mathbb{R}^{d-1,1}$ up to scale are equivalently loci of lightlike [[geodesics]] through the origin. A general lightlike geodesic in $\mathbb{R}^{d-1,1}$ is instead parameterized by
 
 $$
-  \omega^\alpha = x^{\alpha \beta} \pi_\beta
+  \tau \mapsto (X^{\dot \alpha \alpha} + \tau {\psi}^\alpha \overline{\psi}^{\dot \alpha})
+$$
+
+for some offset $(X^{\dot \alpha \alpha})$. To encode this offset into spinors, consider the image of $\psi$ under the Clifford action with $X$:
+
+$$
+  \omega^\alpha \coloneqq \psi_{\dot \alpha} X^{\dot \alpha \alpha}
   \,.
 $$
 
-These planes are [[lightlike]].
+This relation bewteen $\omega$ and $\psi$ is called the _incidence relation_ in this context.
 
-This assignment is called the _Klein correspondence_.
+The locus of the lightlike geodesic does not change as we rescale $\psi$ by elements $k \in \mathbb{K}$, and then $\omega$ gets rescaled accordingly. Hence the pair $(\omega^\alpha, \psi_{\dot \alpha})$ regarded as encoding lightlike geodesics in Minkowski spacetime should be throught of as an element of the [[projective space]] 
+
+$$
+  \mathbb{K}P^3
+   \coloneqq \{ (Z^{a}) = (\omega^\alpha,\psi_{\dot \alpha}) \in \mathbb{K}^4 \}_{( (Z^a) \sim (k Z^a) \vert k \in \mathbb{K} )}.
+$$
+
+This is the _twistor space_ corresponding to the given Minkowski spacetime.
+
+However, by the above definition of $\omega^\alpha$, not every element of this space corresponds to a lighlike geodesic. Rather (for $d \in \{3,4,6\}$) it is only those satisfying
+
+$$
+  \omega^\alpha \overline{\psi}_\alpha
+    = 
+  \psi_{\dot \alpha} \overline{\omega}^{\dot \alpha}
+$$
+
+reflecting the fact that $(X^{\dot \alpha \alpha})$ is a hermitian matrix, instead of a general $2\times 2$ matrix. (For $d = 10$ there is no elegant statement like this, due to the non-associativity of the [[octonions]] $\mathbb{K} = \mathbb{O}$).
+
+Hence the subspace inclusion
+
+$$
+  \mathbb{R}^{d-1,1} \hookrightarrow \mathbb{K}\mathbb{R}^{d-1,1}
+$$
+
+of Minkowski-spacetime into its $\mathbb{K}$-ification, corresponds to a subspace
+
+$$
+  \mathcal{N} \hookrightarrow \mathbb{K}P^3
+$$
+
+of twistor space. This is called the space of _null twistors_, or the _spin shell_.
+
+If we consider the metric on $\mathbb{K}^4$ given in component by
+
+$$
+  \left[
+    \array{
+       0 & \delta^\beta_\alpha
+       \\
+       - \delta^{\dot \alpha}_{\dot \beta} & 0
+    }
+  \right]
+$$
+
+then this subspace is the [[quadric]] given by the equation
+
+$$
+  Z^a \overline{Z}_a = 0
+  \,.
+$$
+
+Now conversely, given $Z^a = (\omega^\alpha, \psi_{\dot\alpha})$ not equal to zero and satisfying this condition in that there is a hermitian $X^{\dot \alpha \alpha}$ with $\omega^{\alpha} = \psi_{\dot \alpha} X^{\dot \alpha \alpha}$, then also every hermitian matrix of the form
+
+$$
+  X^{\dot \alpha \alpha} + \tau \Psi^{\dot \alpha}\Psi^\alpha
+$$
+
+(for $\tau \in \mathbb{R}$, hence every point on the lightlike geodesic through $X$ in the direction of $\psi \psi^\dagger$) satisfies the relation (since the spinor index is raised with $(\epsilon^{\dot \alpha \dot \beta})$, which is skew symmetric).  This way non-zero points in $\mathcal{N} \hookrightarrow \mathbb{K}P^3$ correspond to lightlike geodesics in Minkowski spacetime. 
+
+This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime". (...)
+
+
 
 
 
