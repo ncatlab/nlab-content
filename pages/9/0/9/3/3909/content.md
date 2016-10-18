@@ -462,7 +462,7 @@ $$
 
 (for $\tau \in \mathbb{R}$, hence every point on the lightlike geodesic through $X$ in the direction of $\psi \psi^\dagger$) satisfies the relation (since the spinor index is raised with $(\epsilon^{\dot \alpha \dot \beta})$, which is skew symmetric).  This way non-zero points in $\mathcal{N} \hookrightarrow \mathbb{K}P^3$ correspond to lightlike geodesics in Minkowski spacetime. 
 
-This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime" (review includes [Fioresi-Lledo-Varadarajan 07, section 2](#FioresiLledoVaradarajan07)).
+This correspondence extends also to the 0-point in $\mathcal{N}$ if one passes to "compactified Minkowski spacetime", given by the [[Grassmannian]] $Gr_2(\mathbb{C}^4)$ of complex planes in $\mathbb{C}^4$ (review includes [Fioresi-Lledo-Varadarajan 07, section 2](#FioresiLledoVaradarajan07)).
 
 
 
