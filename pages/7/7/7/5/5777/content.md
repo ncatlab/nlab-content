@@ -17,7 +17,7 @@
 
 The _tangent complex_ of an algebro-geometric object is meant to behave as the (sheaf of) sections of the [[tangent bundle]]. 
 
-At least in the generality of  [[derived stack|derived]] [[algebraic stacks]] $X$, the tangent complex is equivalently (up to a shift in degree) the module of sections of the [[infinitesimal disk bundle]] of $X$ (the [[formal completion]] of the [[diagonal]] $\Delta_X \colon X \to X \times X$) ([Hennion 13, theorem 1](#Hennion13)).
+{#TangentComplexAsInfinitesimalDiskBundleInIntroduction} At least in the generality of  [[derived stack|derived]] [[algebraic stacks]] $X$, the tangent complex is equivalently (up to a shift in degree) the module of sections of the [[infinitesimal disk bundle]] of $X$ (the [[formal completion]] of the [[diagonal]] $\Delta_X \colon X \to X \times X$) ([Hennion 13, theorem 1](#Hennion13)).
 
 For $A$ an ordinary [[associative algebra]], its _tangent complex_ is its [[module]] of [[derivations]].
 
@@ -49,7 +49,7 @@ See also
 
 * [[Jonathan Block]], A. Lazarev, _Andr&#233;-Quillen cohomology and rational homotopy of function spaces_ , Advances in mathematics, 193 (2005) ([pdf](http://www.math.upenn.edu/~blockj/papers/BlockLazarevRat.pdf))
 
-* {#Hennion13}  [[Benjamin Hennion]], _Tangent Lie algebra of derived Artin stacks_ ([arXiv:1312.3167](http://arxiv.org/abs/1312.3167))
+* {#Hennion13}  [[Benjamin Hennion]], _Tangent Lie algebra of derived Artin stacks_,  Journal f&#252;r die reine und angewandte Mathematik (Crelles Journal), December 2015 ([arXiv:1312.3167](http://arxiv.org/abs/1312.3167), [DOI:10.1515/crelle-2015-0065](http://dx.doi.org/10.1515/crelle-2015-0065))
 
 
 [[!redirects tangent complexes]]
