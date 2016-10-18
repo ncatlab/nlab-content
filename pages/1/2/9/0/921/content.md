@@ -191,6 +191,8 @@ A formalization of the real numbers in [[homotopy type theory]] is in
 
 * [[Univalent Foundations Project]], chapter 11 of _[[Homotopy Type Theory – Univalent Foundations of Mathematics]]_
 
+* Ga&#235;tan Gilbert, _Formalising Real Numbers in Homotopy Type Theory_ ([arXiv:1610.05072](https://arxiv.org/abs/1610.05072))
+
 For more see the references at _[[analysis]]_.
 
 
