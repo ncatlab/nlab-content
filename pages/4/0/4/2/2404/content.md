@@ -15,7 +15,10 @@ His students include
 
 ## Selected writing
 
-* [[New Dimensions in Geometry]]
+* _[[New Dimensions in Geometry]]_
+
+* _[[Gauge Field Theory and Complex Geometry]]_
+
 
 ## References
 
