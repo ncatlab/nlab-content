@@ -83,3 +83,5 @@ Parts of the above text are taken from [this MO comment](http://mathoverflow.net
 
 [[!redirects computer proof assistant]]
 [[!redirects computer proof assistants]]
+
+[[!redirects theorem prover]]
