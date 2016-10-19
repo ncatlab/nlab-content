@@ -28,7 +28,7 @@ _Constructive reverse mathematics_ refers to a similar program initiated by Ishi
 
 * Stephen G. Simpson, _Subsystems of Second Order Arithmetic_, 2nd edition, Cambridge University Press, 2010.
 
-* Hajime Ishihara, _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006).
+* Hajime Ishihara, _Reverse Mathematics in Bishop's Constructive Mathematics_, Philosophia Scienti&#230;, CS 6 (2006).  [PDF](https://philosophiascientiae.revues.org/pdf/406)
 
 * Wikipedia, _[Reverse mathematics](http://en.wikipedia.org/wiki/Reverse_mathematics)_
 
