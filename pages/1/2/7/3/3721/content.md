@@ -34,6 +34,8 @@ The __[[topological interior|interior]]__ of any subspace $A$ is the largest ope
 
 * [[open cover]]
 
+* [[open truth value]] (in [[synthetic topology]])
+
 [[!redirects open subspace]]
 [[!redirects open subspaces]]
 [[!redirects open subset]]
