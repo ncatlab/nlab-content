@@ -22,6 +22,12 @@ The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is 
 
 More explicitly, let $X$ be any [[set]] and let $p\colon X \to \mathbf{N}$ be a [[surjection]].  Then the axiom of countable choice states that $p$ has a [[section]].  If you phrase the axiom of choice in terms of [[entire relations]], then countable choice states that any entire relation from $\mathbf{N}$ to any other set contains (in the [[2-poset]] [[Rel]]) a [[functional relation|functional]] entire relation.
 
+## Consequences
+
+Here we collect some consequences of the countable axiom of choice.
+
+* The [[Cauchy real numbers]] and [[Dedekind real numbers]] coincide (the [[law of excluded middle]] also separately implies this).
+* The [[Rosolini dominance]] is a [[dominance]] (the [[law of excluded middle]] also separately implies this).
 
 ## Variations
 
