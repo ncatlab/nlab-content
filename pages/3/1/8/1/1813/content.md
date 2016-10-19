@@ -253,6 +253,8 @@ In an article in 1984, Dwyer and Kan look at this 'nerve-realization' context fr
 
 We should also mention the treatment in Leinster's book and the relation to the notions of [[dense subcategory]] or adequate subcategory in the sense of Isbell. 
 
+In a [blog post](https://golem.ph.utexas.edu/category/2010/02/sheaves_do_not_belong_to_algeb.html)  on the n-Category Caf&#233;, Tom Leinster illustrates that "sections of a bundle" is a nerve operation, and its corresponding geometric realization is the construction of the &#233;tal&#233; space of a presheaf.
+
 [[!redirects realization]]
 [[!redirects realizations]]
 
