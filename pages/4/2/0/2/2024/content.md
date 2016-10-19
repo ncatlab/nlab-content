@@ -51,6 +51,10 @@ Note that overtness is expressed only in terms of a [[left adjoint]], whereas op
 
 An overt space may also be called **locally $(-1)$-connected**, since this condition is the [[(0,1)-topos]]-theoretic version of the notion of [[locally connected topos]] and [[locally n-connected (n,1)-topos]].  A similar thing happens for higher local connectivity involving the Frobenius reciprocity condition, which must be imposed on general [[geometric morphisms]] to make them locally $n$-connected, but is automatic for morphisms to the point.
 
+## Related concepts
+
+In [[synthetic topology]], a [[dominance]] gives rise to a related notion of "overt set".
+
 ## References
 
 The notion of an open [[locale]] was originally introduced by Joyal and Tierney (and developed by Johnstone in [[Stone Spaces]]):
