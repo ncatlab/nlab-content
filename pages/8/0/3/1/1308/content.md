@@ -116,7 +116,7 @@ The diagram proof is displayed here
 
 and an animation of it is here
 
-* [[Andrew Stacey]], [animation](http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
+* [[Andrew Stacey]], [animation](https://web.archive.org/web/20150326221729/http://www.math.ntnu.no/~stacey/documents/eckmannhilton.mpg) (mpeg)
 {#Stacey}
 
 For higher analogues see within the discussion of commutative algebraic monads at:
