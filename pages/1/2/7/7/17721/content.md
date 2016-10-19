@@ -1,0 +1,68 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
+#### Type theory
++-- {: .hide}
+[[!include type theory - contents]]
+=--
+#### Induction
++-- {: .hide}
+[[!include induction - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea ##
+
+
+In [[type theory]], _induction-induction_ is a principle for mutually defining [[types]] of the form
+
+$$
+  A \colon Type\,,\;\;\; and \;\;\; B \colon A \to Type
+  \,,
+$$ 
+
+where both $A$ and $B$ are [[inductive types|defined inductively]], such that the constructors for $A$ can refer to $B$ and vice versa. In addition, the constructor for $B$ can refer to the constructor for $A$. 
+
+Such induction-induction occurs for instance when formalising [[dependent type theory]] in [[type theory]].
+
+## Results ##
+
+Inductive-inductive types are related to [[inductive-recursive types]]. Importantly, inductive-inductive types can be reduced to indexed inductive types.
+
+The consistency of the framework used for the elimination (e.g. in the [[theorem prover]] [[Agda]]) is not so clear, as it allows the definition of a universe containing a code for itself. There is an axiomatisation of the new principle in such a way that the resulting type theory is consistent, as proved by constructing a set-theoretic model; see [Forsberg-Setzer 10](#ForsbergSetzer10).
+
+## Higher inductive inductive types ##
+
+Experiments with higher inductive inductive types are sections 11.3 "Cauchy reals" and section 11.6 "Conway surreals"  of the [HoTT book](#HoTTBook).
+
+## References ##
+
+* [[Andrej Bauer]], _[What is induction-induction?](http://cs.stackexchange.com/q/64139)_
+
+* [[Fredrik Nordvall Forsberg]], [[Anton Setzer]], _A finite axiomatisation of inductive-inductive definitions_ [PDF](http://cs.swan.ac.uk/~csfnf/papers/indind_finite.pdf)
+
+* {#ForsbergSetzer10} [[Fredrik Nordvall Forsberg]], [[Anton Setzer]], _Inductive-Inductive Definitions_, Computer Science Logic, Lecture Notes in Computer Science Volume 6247, 2010, pp 454-468 [Paper](http://link.springer.com/chapter/10.1007%2F978-3-642-15205-4_35).
+
+* [[Fredrik Nordvall Forsberg]], _Inductive-inductive definitions_, PhD thesis
+Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
+
+* {#HoTTBook} [[Univalent Foundations Project]], _[[Homotopy Type Theory -- Univalent Foundations of Mathematics]]_ (2013)
+
+
+Parts of the above text are taken from 
+
+* [[homotopytypetheory:HomePage|Homtopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
+
+[[!redirects Inductive Inductive Type]]
