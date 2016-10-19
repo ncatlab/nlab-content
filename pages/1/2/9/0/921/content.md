@@ -5,7 +5,7 @@
 
 ## Idea 
 
-A _real number_ is something that may be [[Dedekind completion|approximated]] by [[rational numbers]].  Equipped with the operations of addition and multiplication induced from the rational numbers, real numbers form a _[[number field]]_, denoted $\mathbb{R}$. The underlying set is the _[[Dedekind completion|completion]]_ of the [[ordered field]] $\mathbb{Q}$ of rational numbers: the result of adjoining to $\mathbb{Q}$ [[suprema]] for every [[inhabited set|inhabited]] [[bounded set|bounded subset]] with respect to the natural [[order|ordering]] of rational numbers.
+A _real number_ is something that may be [[Dedekind completion|approximated]] by [[rational numbers]].  Equipped with the operations of addition and multiplication induced from the rational numbers, real numbers form a _[[field]]_, denoted $\mathbb{R}$. The underlying set is the _[[Dedekind completion|completion]]_ of the [[ordered field]] $\mathbb{Q}$ of rational numbers: the result of adjoining to $\mathbb{Q}$ [[suprema]] for every [[inhabited set|inhabited]] [[bounded set|bounded subset]] with respect to the natural [[order|ordering]] of rational numbers.
 
 The [[set]] of real numbers also carries naturally the structure of a [[topological space]] and as such $\mathbb{R}$ is called the  _[[real line]]_ also known as _[[continuum|the continuum]]_. Equipped with both the topology and the field structure, $\mathbb{R}$ is a [[topological field]] and as such is the [[complete space|uniform completion]] of $\mathbb{Q}$ equipped with the [[absolute value]] [[metric space|metric]].
 
