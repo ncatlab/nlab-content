@@ -1027,7 +1027,7 @@ We have that
 +-- {: .num_lemma}
 ###### Lemma
 
-The Cech nerves projeections $p_U : C(U) \to X \times S$ induce isomorphisms on the cohomology of their cosimplicial function algebras: $H^p(\mathcal{O}(p_U))$ is an isomorphism, for all $p \in \mathbb{N}$.
+The Cech nerves projections $p_U : C(U) \to X \times S$ induce isomorphisms on the cohomology of their cosimplicial function algebras: $H^p(\mathcal{O}(p_U))$ is an isomorphism, for all $p \in \mathbb{N}$.
 
 =--
 
