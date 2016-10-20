@@ -271,16 +271,19 @@ This appears as ([Waldorf, lemma A.1.7](#Waldorf)).
 
 ## References
 
-* M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r.
+* {#Losik} M. V. Losik, _Categorical Differential Geometry_ Cah. Topol. G&#233;om. Diff&#233;r.
 Cat&#233;g., 35(4):274&#8211;290, 1994.
- {#Losik}
+ 
 
+* {#Waldorf} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+ 
 
-* [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
- {#Waldorf}
+* {#Stacey}[[Andrew Stacey]], _Yet more smooth mapping spaces and their smoothly local properties_ arXiv:[1301.5493](http://arxiv.org/abs/1301.5493)
+ 
 
-* [[Andrew Stacey]], _Yet more smooth mapping spaces and their smoothly local properties_ arXiv:[1301.5493](http://arxiv.org/abs/1301.5493)
- {#Stacey}
+The generalization to [[mapping stacks]] of [[differentiable stacks]] is discussed in
+
+* {#RobertsVozzo16} [[David Roberts]], [[Raymond Vozzo]], _The smooth Hom-stack of an orbifold_ ([arXiv:1610.05904](https://arxiv.org/abs/1610.05904))
 
 
 [[!redirects mapping spaces that are manifolds]]
