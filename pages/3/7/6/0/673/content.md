@@ -15,7 +15,7 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Preprints
 
-* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. **Coming soon**. Submitted to the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/).
+* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). Submitted to the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/).
 
 * _The smooth loop stack of a differentiable stack_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
