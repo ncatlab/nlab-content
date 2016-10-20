@@ -83,7 +83,7 @@ The third condition is the definition of exactness at $B$. So we need to show th
 
 This is easy to see by looking at elements when $\mathcal{A} \simeq R$[[Mod]], for some ring $R$ (and the general case can be reduced to this one using one of the [embedding theorems](abelian%20category#EmbeddingTheorems)):
 
-The sequence being exact exact at 
+The sequence being exact at
 
 $$
   0 \to A \to B
@@ -196,7 +196,7 @@ $$
   A \to B/X \to C/X \to 0
 $$
 
-is a short exaxt sequence.
+is a short exact sequence.
 
 
 =--
@@ -204,7 +204,7 @@ is a short exaxt sequence.
 +-- {: .proof}
 ###### Proof
 
-We have an exact sequence of complexes of lenght 2
+We have an exact sequence of complexes of length 2
 
 $$
   \array{
