@@ -699,6 +699,10 @@ upgraded to the stacky version by
 
 * {#TZ} Tseng Hsiang-Hua, [[Chenchang Zhu]], _Integrating Lie algebroids via stacks_, Compositio Mathematica, Volume 142 (2006), Issue 01, pp 251-270, [arXiv:math/0405003](http://arxiv.org/abs/math/0405003).
 
+A general proof that equivalent $L_\infty$-algebras integrate to equivalent Lie $\infty$-groupoids is in 
+
+* [[Christopher Rogers]], [[Chenchang Zhu]], _On the homotopy theory for Lie ∞-groupoids, with an application to integrating L∞-algebras_ ([arXiv:1609.01394](https://arxiv.org/abs/1609.01394))
+
 Obstruction interpreted as transgression of a Lie algebroid fibration by
 
 * {#BZ} Olivier Brahic, [[Chenchang Zhu]], _Lie algebroid fibrations_, Adv. Math. 226 (2011), no. 4, 3105&#8211;3135, [arXiv:1001.4904](http://arxiv.org/abs/1001.4904). 
