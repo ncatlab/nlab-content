@@ -219,16 +219,20 @@ Discussion of aspects of [[gauge theory]] includes
 * [[Giuseppe Ruzzi]], _Nets of local algebras and gauge theories_, 2014 ([pdf slides](http://www.aqft14.eu/wp-content/uploads/2014/05/Ruzzi.pdf))
 
 
-Construction of gauge AQFT via actual [[quantization]] includes (see also at _[[field bundle]]_)
+Construction of gauge AQFT via actual [[quantization]] (using [[homotopy theory]]) includes (see also at _[[field bundle]]_)
 
 * {#BDS} [[Marco Benini]], [[Claudio Dappiaggi]], [[Alexander Schenkel]], _Quantized Abelian principal connections on Lorentzian manifolds_, Communications in Mathematical Physics 2013 ([arXiv:1303.2515](http://arxiv.org/abs/1303.2515))
 
 * {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
 
-and the issue of the tension between local gauge invariance and locality and the need to pass to [[stacks]]/[[higher geometry]] is made explicit in
+The issue of the tension between local gauge invariance and locality and the need to pass to [[stacks]]/[[higher geometry]] is made explicit in
 
 * {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
 in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) (with further emphasis on this point in the companion talk [Schreiber 14](field+bundle#Schreiber14)) 
+
+Further development of this [[homotopy theory|homotopy theoretic]] version of AQFT includes
+
+* {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_ ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
 
 ### Perturbation theory and renormalization
