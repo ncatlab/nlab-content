@@ -23,6 +23,7 @@ continues to exert a decisive influence today.
 ## Related concepts
 
 * [[topological domain theory]]
+* [[synthetic domain theory]]
 
 ## References
 
