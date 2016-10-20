@@ -44,13 +44,13 @@ A bit more general than a Lie groupoid is a [[diffeological groupoid]].
 
 * A manifold $M$ is a Lie groupoid with $X_1=M$ and $X_0=M$. Source and target maps are identities and we only have identity arrows in this example.
 
-* Given a manifold $M$ and an open cover $\{U_i\}$, we can form a Lie groupoid with $X_1=\sqcup U_i\times_M U_j$ and $X_0=\sqcup U_i$. Then for an element $x_{ij}:=(x_i, x_j)\in U_i\times_M U_j \subset X_1$, $t(x_{ij})=x_i \in U_i$, $s(x_{ij})=x_j \in U_j$, and $x_{ij} \cdot x_{jk}= x_{ik}$. This is sometimes called the **Cech groupoid** or **covering groupoid**.
+* Given a manifold $M$ and an open cover $\{U_i\}$, we can form a Lie groupoid with $X_1=\sqcup U_i\times_M U_j$ and $X_0=\sqcup U_i$. Then for an element $x_{ij}:=(x_i, x_j)\in U_i\times_M U_j \subset X_1$, $t(x_{ij})=x_i \in U_i$, $s(x_{ij})=x_j \in U_j$, and $x_{ij} \cdot x_{jk}= x_{ik}$. This is sometimes called the [[?ech groupoid]] or **covering groupoid**.
 
-* Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated **action groupoid** (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). Action groupoid presents the quotient stack $[M/G]$. Roughly speaking, it is a good replacement for quotient space even if the action is not as nice as you want. 
+* Given a Lie group $G$ (right) action  on a manifold $M$, then we may form an associated [[action groupoid]] (or sometimes called **transformation groupoid**) as follows: $X_1 = M \times G$ and $X_0=M$. For an element $(x, g) \in X_1$, we have $t(x, g) = x$, $s(x, g)=x\cdot g^{-1}$,  and $(x, g)\cdot (y, h) = (x, g\cdot h)$ (we must have $y=x\cdot g^{-1}$ for the multiplication to happen). Action groupoid presents the quotient stack $[M/G]$. Roughly speaking, it is a good replacement for quotient space even if the action is not as nice as you want. 
 
-* Given a manifold $M$, we may also form so-called **pair groupoid**: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid).
+* Given a manifold $M$, we may also form so-called [[pair groupoid]]: $X_1= M\times M$ and $X_0=M$. Source and target are projections, and multiplication is given by $(x, y) \cdot (y , z)= (x, z)$. Pair groupoid may be interpreted as the global object of tangent bundle (think why? see the section below on Lie algebroid).
 
-* Given a manifold $M$, we have also an associated **fundamental groupoid** or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{$paths in $M\}/$ homotopies, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
+* Given a manifold $M$, we have also an associated [[fundamental groupoid]] or **homotopy groupoid** $\Pi(M)$: $\Pi(M)_1=\{$paths in $M\}/$ homotopies, $\Pi_0(M)=M$. Source and target are end points of a path. Multiplication is concatenation of paths (think why associative?). 
 
 * Given a manifold $M$ with a [[foliation]] $F$, we may form various groupoids associated with $F$. 
 
