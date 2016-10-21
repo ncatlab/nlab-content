@@ -11,6 +11,8 @@
 
 * [[cyclotomic spectrum]]
 
+* [[Parametrized Higher Category Theory and Higher Algebra]]
+
 category: people
 
 [[!redirects C. Barwick]]
