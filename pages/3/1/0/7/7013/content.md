@@ -50,7 +50,9 @@ Since [[left adjoints]] preserve colimits, the first condition implies the secon
 
 Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]]; thus the fourth condition implies the third.  Since left Quillen functors preserve homotopy colimits, the third condition implies the second.
 
-Clearly the fifth condition implies the fourth, so it suffices to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].  An alternative proof can be found in [(Gepner-Kock 12, Thm 7.10)](#GepnerKock12).
+The fifth condition implies the fourth, since the model structure therein is Cisinski.  The only nonobvious part of this is that its underlying category is a topos, which follows from the fact that $sSet$-enriched presheaves on a $sSet$-enriched category $C$ can be identified with [[internal diagrams]] on $C$ regarded as an [[internal category]] in $sSet$, and the category of internal diagrams on any internal category in a topos (such as $sSet$) is again a topos.
+
+It remains to show that the second condition implies the fifth.  For that, see [this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306) by [[Denis-Charles Cisinski]].  An alternative proof can be found in [(Gepner-Kock 12, Thm 7.10)](#GepnerKock12).
 
 =--
 
