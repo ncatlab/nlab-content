@@ -5,7 +5,7 @@
 
 ## Idea
 
-Domain theory has its origin in the problem in finding a viable [[denotational semantics]] for certain theories of computability (such as the untyped lambda calculus) which resist straightforward interpretations in terms of sets and functions. It has since grown into an area which weaves together diverse strands in [[logic]], computability, lattice theory, general [[topology]], and [[category theory]]. 
+Domain theory has its origin in the problem in finding a viable [[denotational semantics]] for certain theories of [[computability]] (such as the untyped lambda calculus) which resist straightforward interpretations in terms of sets and functions. It has since grown into an area which weaves together diverse strands in [[logic]], computability, lattice theory, general [[topology]], and [[category theory]]. 
 
 Domain theory can be said to have come into existence with [[Dana Scott]]'s solution for interpreting untyped lambda calculus in terms of continuous lattices. In rough terms, the problem can be set out as follows: 
 
