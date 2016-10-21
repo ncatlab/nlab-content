@@ -32,7 +32,7 @@ We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a
 
 The following theorem should be compared with the fact that every [[locally presentable (∞,1)-category]] admits a presentation by a [[Cisinski model category]], indeed by a [[left Bousfield localization]] of a [[global model structure on simplicial presheaves]].
 
-+-- {: .num_theorem #Presentations}
++-- {: .num_theorem #PresentationTheorem}
 ###### Theorem
 For a locally presentable $(\infty,1)$-category $C$, the following are equivalent.
 
