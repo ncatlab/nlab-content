@@ -17,18 +17,24 @@
 
 In [[physics]], the [[matrix]] representing a [[bilinear form]] on a [[spin representation]] in a given [[basis]] is also called the _charge conjugation matrix_ on spinors.
 
+## Related concepts
+
+* [[Majorana spinor]]
+
 ## References
+
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], p. 12 of _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
 
 The abstract relation to bilinear forms on spinors is commented on for instance around (3.4) of
 
-* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
-  {#Freed99}
-
+* {#Freed99} [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
+ 
 
 and in appendix B.1 of 
 
-* D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
- {#ACDP}
+* {#ACDP} D. V. Alekseevsky, V. Cort&#233;s, C. Devchand, [[Antoine Van Proeyen]], _Polyvector Super-Poincar&#233; Algebras_ Commun.Math.Phys. 253 (2004) 385-422 ([arXiv:hep-th/0311107](http://arxiv.org/abs/hep-th/0311107))
+ 
 
 The matrix component yoga used in physics is summarized for instance in   
 
