@@ -238,6 +238,10 @@ A [[model structure for n-excisive functors]] is given in
 
 * [[Georg Biedermann]], Oliver R&#246;ndigs, _Calculus of functors and model categories II_ ([arXiv:1305.2834v2](http://arxiv.org/abs/1305.2834v2))
 
+Relation to [[Mackey functors]] is discussed in
+
+* [[Saul Glasman]], _Goodwillie calculus and Mackey functors_ ([arXiv:1610.03127](https://arxiv.org/abs/1610.03127))
+
 [[!redirects n-excisive (∞,1)-functors]]
 
 [[!redirects n-excisive (infinity,1)-functor]]
