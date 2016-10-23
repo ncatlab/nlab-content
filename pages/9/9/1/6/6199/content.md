@@ -22,13 +22,16 @@ Sometimes time is taken to be __discrete__, that is belonging to integers $\math
 
 Most often one looks at dynamical systems in which $M$ is a smooth manifold. Dynamical systems are used to describe not only physical motions but also the behaviour of parameters of various systems, e.g. in sociological, financial, weather and other models.  
 
-## Related concepts
+
+## Literature
+
+## Related concepts in $n$Lab
 
 * [[zeta function of a dynamical system]]
 
 * [[arithmetic topology]]
 
-## Literature
+* [[cohomology of dynamical systems]]
 
 ### General
 
