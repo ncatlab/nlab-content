@@ -4,7 +4,7 @@ This is a about an example of a [[nonabelian cohomology]] for [[dynamical system
 
 * &#1040;. &#1053;. &#1051;&#1080;&#1074;&#1096;&#1080;&#1094;, _&#1050;&#1086;&#1075;&#1086;&#1084;&#1086;&#1083;&#1086;&#1075;&#1080;&#1080; &#1076;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;_, &#1048;&#1079;&#1074;. &#1040;&#1053; &#1057;&#1057;&#1057;&#1056;. &#1057;&#1077;&#1088;. &#1084;&#1072;&#1090;&#1077;&#1084;., 1972, &#1090;&#1086;&#1084; 36,	&#1074;&#1099;&#1087;&#1091;&#1089;&#1082; 6, 1296&#8211;1320 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=2373&what=fullt&option_lang=rus); engl. transl. A. N. Livshits, _Cohomology of dynamical systems_, Izv. Akad. Nauk SSSR Ser. Mat. 36:6 (1972) 1296&#8211;1320 [mathnet.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=2373&option_lang=eng)
 	
-* [[Terrence Tao]], [Cohomology for dynamical systems](https://terrytao.wordpress.com/2008/12/21/cohomology-for-dynamical-systems), What's new blog
+* [[Terence Tao]], [Cohomology for dynamical systems](https://terrytao.wordpress.com/2008/12/21/cohomology-for-dynamical-systems), What's new blog
 * Yu. I. Lyubich, _Axiomatic theory of divergent series and cohomological equations_, Fundamenta Math. 198 (2008) [doi](https://dx.doi.org/10.4064/fm198-3-5)
 [arxiv/0705.1578](https://arxiv.org/abs/0705.1578)
 * appendix to: Host, Kra, _Nonconventional ergodic averages and nilmanifolds_, Annals Math. 2005 [pdf](http://annals.math.princeton.edu/issues/2005/Jan2005/HostKra.pdf)
