@@ -8,5 +8,6 @@ This is a about an example of a [[nonabelian cohomology]] for [[dynamical system
 * Yu. I. Lyubich, _Axiomatic theory of divergent series and cohomological equations_, Fundamenta Math. 198 (2008) [doi](https://dx.doi.org/10.4064/fm198-3-5)
 [arxiv/0705.1578](https://arxiv.org/abs/0705.1578)
 * appendix to: Host, Kra, _Nonconventional ergodic averages and nilmanifolds_, Annals Math. 2005 [pdf](http://annals.math.princeton.edu/issues/2005/Jan2005/HostKra.pdf)
+* A. A. Kirillov, &#1044;&#1080;&#1085;&#1072;&#1084;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1089;&#1080;&#1089;&#1090;&#1077;&#1084;&#1099;, &#1092;&#1072;&#1082;&#1090;&#1086;&#1088;&#1099; &#1080; &#1087;&#1088;&#1077;&#1076;&#1089;&#1090;&#1072;&#1074;&#1083;&#1077;&#1085;&#1080;&#1103; &#1075;&#1088;&#1091;&#1087;&#1087;, &#1059;&#1052;&#1053; (1967) &#1090;&#1086;&#1084; 22,	&#1074;. 5(137) &#1089;&#1090;&#1088;. 67&#8211;80 [pdf](http://www.mathnet.ru/links/9e0af673c89887a559d6ef7fb42a6354/rm5790.pdf) (Russian); Engl. transl. _Dynamical systems, factors and representations of groups_, Russian Mathematical Surveys, 1967, 22:5, 63&#8211;75 
 
 [[!redirects cohomology for dynamical systems]]
