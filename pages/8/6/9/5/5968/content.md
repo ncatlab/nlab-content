@@ -363,7 +363,7 @@ On the right this is the term in the form in which the conserved quantity obtain
 
 The original article is
 
-* {#Noether1918} [[Emmy Noether]], _Invariante Variationsprobleme_ Nachrichten der K&#246;niglichen Gesellschaft der Wissenschaften zu  G&#246;ttingen, Math. Phys. Kl, 235 (1918).
+* {#Noether1918} [[Emmy Noether]], _Invariante Variationsprobleme_ Nachrichten der K&#246;niglichen Gesellschaft der Wissenschaften zu  G&#246;ttingen, Math. Phys. Kl, 235 (1918). ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PID=GDZPPN00250510X))
  
 
 Lecture notes include
