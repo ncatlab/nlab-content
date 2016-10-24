@@ -46,7 +46,7 @@ In some dimensions there are no complex spin representations with real structure
 
 > under construction
 
-### Complex representations with real structure
+### Review of unitary representations with real structure
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -202,7 +202,57 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 (e.g. [Meinrenken 13, p. 81](#Meinrenken13))
 
+### Majorana spinors
 
++-- {: .num_defn}
+###### Definition
+
+Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary representation]] of a [[spin group]]. Then $\rho$ is called _Majorana_ if it admits a real structure $J$ (def. \ref{RealStructureOnLinearRepresentation}) and _symplectic Majorana_ if it admits a quaternionic structure $J$. An element $\psi \in V$ is called a _Majorana spinor_ if $J(\psi) = \psi$.
+
+=--
+
+### In components
+
++-- {: .num_defn}
+###### Definition
+
+We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(s,t)$, i.e.
+
+$$
+  q(\vec x)
+    \coloneqq
+  (x^1)^2
+    + 
+    \cdots
+    +
+  (x^s)^2
+    -
+  (x^{s+1})^2
+    -
+   \cdots
+  -
+  (x^{s+t})^2
+  \,.
+$$
+
+Write 
+
+$$
+  \eta \coloneqq diag(\underset{s}{\underbrace{+1 , \cdots, +1}}, \underset{t}{\underbrace{-1, \cdots, -1}})
+$$
+
+for the corresponding [[metric]].
+
+=--
+
+The real [[Clifford algebra]] $Cl(s,t)$ is the $\mathbb{R}$-[[associative algebra|algebra]] [[generators and relations|generated]] from elements $\{\Gamma_a\}_{a = 1}^{s+t}$ subject to the [[generators and relations|relation]]
+
+$$
+  \Gamma_a \Gamma_b + \Gamma_b \Gamma_a = - 2 \eta_{a b} 
+  \,.
+$$
+
+Now...
 
 ## Related concepts
 
