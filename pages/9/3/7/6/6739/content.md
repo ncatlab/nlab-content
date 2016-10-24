@@ -28,21 +28,55 @@ Thus, we let $SimpGph$ denote the category of sets equipped with a reflexive sym
 
 +-- {: .num_theorem} 
 ###### Theorem 
-$SimpGph$ is a [[Grothendieck quasitopos]], in particular [[regular category|regular]] and even a [[logos]]. The opposite category $SimpGph^{op}$ is also regular. 
+$SimpGph$ is the category of $\neg\neg$-[[separated presheaves]] on the full subcategory of $FinSet$ consisting of the objects $1, 2$. It is thus a [[Grothendieck quasitopos]]. In particular, both it and its opposite $SimpGph^{op}$ are regular categories. 
 =-- 
+
+Essentially the same observations apply to the category of finite simple graphs: it too is an [[extensive category|extensive]] quasitopos. 
+
+The category of simple graphs is also *topological*, and *cohesive* in the following sense: 
 
 +-- {: .num_prop} 
 ###### Proposition 
-The underlying vertex-set functor $Vert \colon SimpGph \to Set$ reflects and preserves monos and epis, and preserves all limits and colimits. 
+The forgetful functor $\Gamma = \hom(1, -): SimpGph \to Set$ is faithful, in fact exhibits $SimpGph$ as a [[topological concrete category]], and is *cohesive*: there is an adjoint string $\Pi \dashv \Delta \dashv \Gamma \dashv \nabla: Set \to SimpGph$, with $\Pi: SimpGph \to Set$ product-preserving. 
 =-- 
 
-For details on these results, see [[category of simple graphs]]. A _quotient_ will mean a regular epi $G \twoheadrightarrow H$. A subgraph is a mono $H \hookrightarrow H'$ in $SimpGph$. A subquotient in $SimpGph$ is a diagram of shape 
-\[\array{
-G & \twoheadrightarrow & G' \\
- & & \uparrow^\mathrlap{mono} \\
- & & H
-}\]
- 
+Of course $\Delta$ assigns to a set $X$ the discrete graph on $X$, and $\nabla$ the codiscrete graph, while $\Pi(G)$ is the set of connected components of $G$. Let $\gamma: 1 \to \Delta \Pi$ denote the unit of $\Pi \dashv \Delta$; the component $\gamma G: G \to \Delta \Pi (G)$ takes a vertex $v \in G$ to the connected component to which it belongs. Notice that $\gamma G$ is a regular epi. 
+
++-- {: .num_defn} 
+###### Definition 
+A *contraction* map between simple graphs is a morphism $\pi: G \to G'$ that arises by pushing out a map of the form $\gamma K$ along some map $f: K \to G$: 
+
+$$\array{
+K & \stackrel{f}{\to} & G \\ 
+\mathllap{\gamma K} \downarrow & po & \downarrow \mathrlap{\pi} \\ 
+\Pi(K) & \to & G'
+}$$ 
+
+is a pushout square. If $G \to G'$ is a contraction map, we also say $G'$ is a *contraction* of $G$. 
+=-- 
+
+It is immediate that a contraction map is a regular epi, since every $\gamma K$ is regular epi. 
+
++-- {: .num_prop} 
+###### Proposition 
+Contraction maps are closed under composition. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+
+=-- 
+
++-- {: .num_defn} 
+###### Definition 
+A graph $H$ is a *minor* of a graph $G$ if it arises as a subobject of some contraction of $G$: 
+
+$$\array{
+ & & G \\ 
+ & & \downarrow \mathrlap{contraction} \\ 
+H & \rightarrowtail & G'
+}$$ 
+
 =-- 
 
 +-- {: .num_prop} 
