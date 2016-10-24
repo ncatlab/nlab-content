@@ -30,3 +30,6 @@
 * Wikipedia, _[Hermitian form](https://en.wikipedia.org/wiki/Sesquilinear_form#Hermitian_form)_
 
 [[!redirects Hermitian forms]]
+
+[[!redirects hermitian form]]
+[[!redirects hermitian forms]]
