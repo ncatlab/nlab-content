@@ -53,7 +53,7 @@ A [[faithful functor]] reflects [[epimorphisms]] and [[monomorphisms]].
 
 =--
 
-(The simple proof is spelled out for instance at _[[epimorphism]]_.)
+(The simple proof is spelled out [here](epimorphism#EpimorphismsAreReflectedByFaithfulFunctors) at _[[epimorphism]]_.)
 
 
 +-- {: .num_example #FullSubcategoryInclusionsReflectCoLimits}
