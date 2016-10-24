@@ -94,13 +94,13 @@ and hence with $J^2 = -1$ and $I^2 = -1$ this means that $I$, $J$ and $K \colone
 
 =--
 
-+-- {: .num_defn }
++-- {: .num_defn #RealStructureOnLinearRepresentation}
 ###### Definition
 
 Let $G$ be a [[Lie group]], let $V$ be a [[complex vector space]] and let 
 
 $$
-  \rho \;\colon\; G \longrigharrow GL_{\mathbb{C}}(V)
+  \rho \;\colon\; G \longrightarrow GL_{\mathbb{C}}(V)
 $$
 
 be a complex [[linear representation]] of $G$ on $V$, hence a [[group homomorphism]] form $G$ to the [[general linear group]] of $V$ over $\mathbb{C}$.
@@ -114,6 +114,94 @@ $$
 
 =--
 
+We will be interested in complex [[finite dimensional vector spaces]] equipped with [[hermitian forms]], i.e. finite-dimensional complex [[Hilbert spaces]]:
+
++-- {: .num_defn #HermitianForms}
+###### Definition
+
+A [[hermitian form]] (or symmetric complex [[sesquilinear form]]) $\langle -,-\rangle$ on a [[complex vector space]] $V$ is a real [[bilinear form]]
+
+$$
+  \langle
+    -,-
+  \rangle
+  \;\colon\;
+  V \times V
+   \longrightarrow
+  \mathbb{C}
+$$
+
+such that for all $v_1, v_2 \in V$ and $\lambda \in \mathbb{C}$ then
+
+1. (sesquilinearity) $\langle v_1, \lambda v_2 \rangle = \lambda \langle v_1, v_2 \rangle $,
+
+1. (symmetry) $\overline{\langle v_1, v_2\rangle} = \langle v_2, v_1\rangle $.
+
+1. (non-degeneracy) if $\langle v_1,-\rangle = 0$ then $v_1 = 0$.
+
+A complex [[linear function]]  $f \colon V \to V$ is _[[unitary operator|unitary]]_ with respect to this hermitian form if it preserves it, in that
+
+$$
+  \langle f(-), f(-)\rangle
+  = 
+  \langle -,-\rangle
+  \,.
+$$
+
+Write
+
+$$
+  U(V) \hookrightarrow GL_{\mathbb{C}}(V)
+$$
+
+for the [[subgroup]] of [[unitary operators]] inside the [[general linear group]].
+
+A complex [[linear representation]] $\rho \colon G \longrightarrow GL_{\mathbb{C}}(V)$ of a [[Lie group]] on $V$ is called a _[[unitary representation]]_ if it factors through this subgroup
+
+$$
+  \rho \;\colon\;  G \longrightarrow U(V) \hookrightarrow GL_{\mathbb{C}}(V)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_prop }
+###### Proposition
+
+Let $V$ be a [[complex vector space|complex]] [[finite dimensional vector space]], $\langle -,-\rangle$ some [[hermitian form]] on $V$, def. \ref{HermitianForms}, let $G$ be a [[Lie group]], and $\rho \colon G \to U(V)$ a [[unitary representation]] of $G$ on $V$. Then $\rho$ carries a real structure or quaternionc structure $\phi$ on $\rho$ (def. \ref{RealStructureOnLinearRepresentation}) precisely if it carries a symmetric or anti-symmetric, respectively, non-degenerate complex-[[bilinear map]]
+
+$$
+  (-,-) \;\colon\; V \otimes_{\mathbb{C}} V \longrightarrow \mathbb{C}
+  \,.
+$$
+
+Explicitly:
+
+Given a real/quaternionic structure $\phi$, then the corresponding symmetric/anti-symmetric complex bilinear form is 
+
+$$
+  (-,-) \coloneqq \langle \phi(-), -\rangle
+  \,.
+$$
+
+Conversely, given $(-,-)$, first define $\tilde \phi$ by
+
+$$
+  (-,-) = \langle \tilde\phi(-),-\rangle
+  \,,
+$$ 
+
+and then $\phi \coloneqq \frac{1}{\vert \phi\vert} \phi$ is the corresponding real/quaternionic structure. 
+
+If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \rangle$.
+
+
+=--
+
+(e.g. [Meinrenken 13, p. 81](#Meinrenken13))
+
 
 
 ## Related concepts
@@ -124,8 +212,11 @@ $$
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-
 * {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
+* {#Meinrenken13} [[Eckhard Meinrenken]], _Clifford algebras and Lie theory_, Springer (2013)
+
+* Theodor Br&#246;cker, [[Tammo tom Dieck]], _Representations of Compact Lie Groups_, Springer (1985)
 
 * Wikipedia, _[Majorana fermion](https://en.wikipedia.org/wiki/Majorana_fermion)_
 
