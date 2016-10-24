@@ -1,6 +1,7 @@
 A [[series]] is called __divergent__ if it is not convergent in the usual strong senses of pointwise or, sometimes, uniform convergence. In asymptotic analysis, physics etc. often a divergent series is still a very useful concept as a sum of some such series can be defined in various weaker senses, like Borel summability.
 
 * related $n$Lab entries include [[resummation]], [[regular summation method]], [[renormalization]], [[Borel summability]]
+* [[Leonhard Euler]], _De seriebus divergentibus_, Novi Commentarii academiae scientiarum Petropolitanae 5, 1760, pp. 205-237. Collected in _Opera Omnia_: Series 1, Volume 14, pp. 585 - 617. German translation in arXiv:[1202.1506](https://arxiv.org/abs/1202.1506). See also the [Euler archive](http://eulerarchive.maa.org/pages/E247.html).
 * [[G. H. Hardy]], _Divergent series_, Clarendon Press, Oxford, 1949.
 * [[A. N. Kolmogorov]], _Sur la possibilit&#233; de la d&#233;finition g&#233;n&#233;rale de la d&#233;riv&#233;e, de l'int&#233;grale et de la sommation de s&#233;ries divergentes_, C. R. Acad. Sci. Paris 180 (1925), 362&#8211;364.
 * Yu. I. Lyubich, _Axiomatic theory of divergent series and cohomological equations_, Fundamenta Math. 198 (2008) [doi](https://dx.doi.org/10.4064/fm198-3-5)
