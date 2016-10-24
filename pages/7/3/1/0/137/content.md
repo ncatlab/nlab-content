@@ -151,7 +151,7 @@ is a [[pushout]] diagram and observe that left adjoint functors preserve pushout
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #EpimorphismsAreReflectedByFaithfulFunctors}
 ###### Proposition
 
 Epimorphisms are [[reflected limit|reflected]] by [[faithful functors]].
