@@ -1,4 +1,6 @@
 
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -16,6 +18,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -24,27 +27,27 @@
 
 A _Majorana spin representation_ is essentially a _real_ [[spin representation]] (see at _[spin representation -- Real representations](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_) but regarded as a _complex_ [[spin representation]] equipped with [[real structure]].
 
-The terminology _Majorana spinor_ originates in and is standard in the [[physics]] literature, where it usually refers to the explicit expression of the reality condition in terms of chosen basis components. With standard conventions understood, then a complex [[spinor]] $\psi$ for $Spin(d-1,1)$, regarded as an element of $\mathbb{C}^{ceil((d-2)/2)}$ is a Majorana spinor if it satisfies the condition
+The terminology _Majorana spinor_ originates in and is standard in the [[physics]] literature, where it usually refers to the explicit expression of the reality condition in terms of chosen basis components. With standard conventions understood (see prop. \ref{CliffordAlgebraRepresentation} below), then a complex [[spinor]] $\psi$ for $Spin(d-1,1)$, regarded as an element of $\mathbb{C}^{\nu}$ (with $d = 2 \nu, 2\nu+1$) is a Majorana spinor if it satisfies the condition
 
 $$
   \psi^t C = \psi^\dagger \Gamma_0
   \,,
 $$
 
-where $(-)^T$ denotes forming [[transpose matrices]], $(-)^\dagger = \overline{(-)}^T$ denotes forming [[hermitian adjoint]] and where $C$ is the [[charge conjugation matrix]]. This says that the _Majorana conjugate_ of $\psi$ (the left hand side) coincides with the _[[Dirac conjugate]]_ of $\psi$ (the right hand side). Equivalently this means that (e.g. [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre))
+where $(-)^T$ denotes forming [[transpose matrices]], $(-)^\dagger = \overline{(-)}^T$ denotes forming [[hermitian adjoint]] and where $C$ is the [[charge conjugation matrix]]. This says that the _Majorana conjugate_ of $\psi$ (the left hand side) coincides with the "Dirac conjugate" of $\psi$ (the right hand side). Equivalently this means that (e.g. [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre))
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
   \,.
 $$
 
-That this is indeed equivalent to $\psi$ being in the real part of a [[spin representation]] with [[real structure]] is made explicit for instance in ([Figueroa-O'Farrill](#FigueroaOFarrill)).
+See prop. \ref{TheMajoranaConditionInComponents} below.
 
-In some dimensions there are no complex spin representations with real structure, but there are those with [[quaternionic structure]]. The corresponding physics jargon then is _symplectic Majorana spinor_.
+In some dimensions there are no complex spin representations with real structure, but there may be those with [[quaternionic structure]]. The corresponding physics jargon then is _symplectic Majorana spinor_.
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #MajoranaSpinorGeneral}
 ###### Definition
 
 Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary representation]] of a [[spin group]]. Then $\rho$ is called _Majorana_ if it admits a real structure $J$ (def. \ref{RealStructureOnLinearRepresentation}) and _symplectic Majorana_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}). An element $\psi \in V$ is called a _Majorana spinor_ if $J(\psi) = \psi$.
@@ -115,7 +118,7 @@ $$
   \,,
 $$
 
-where $x^0$ is the coordinate along the [[timeline]] direction.
+where $x^0$ is the coordinate along the [[timelike]] direction.
 
 Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ on 
 
@@ -277,24 +280,221 @@ This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[a
 
 ### Charge conjugation matrix
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_prop #ChargeConjugationMatrix}
+###### Proposition
 
 Given the Clifford algebra representation of the form of prop. \ref{CliffordAlgebraRepresentation}, consider the equations
 
 * $C_{(-)} \Gamma_a  = - \Gamma_a^T C_{(-)}$;
 
-* $C_(+) \Gamma_a = \Gamma_a^T C_{(+)}$
+* $C_{(+)} \Gamma_a = \Gamma_a^T C_{(+)}$
 
-for $C_{\pm} \in Mat_{\nu \times n}(\mathbb{C})$.
+for $C_{(\pm)} \in Mat_{\nu \times n}(\mathbb{C})$.
 
-In even dimensions $d = 2 \nu$ then both these equations have a solution, wheras in odd dimensions $d = 2 \nu + 1$ only one of them does (alternatingly, starting with $C_{(+)}$ in dimension 5).
+In even dimensions $d = 2 \nu$ then both these equations have a solution, wheras in odd dimensions $d = 2 \nu + 1$ only one of them does (alternatingly, starting with $C_{(+)}$ in dimension 5). Either $C_{(\pm)}$ is called the _[[charge conjugation matrix]]_.
 
-Moreover, all solution may be chosen to be real matrices.
+Moreover, all $C_{(\pm)}$ may be chosen to be real matrices, and in addition they satisfy the following relations:
+
+| $d$ |   |    |
+|-----|---|----|
+| 4 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$ | $C_{(-)}^T = -C_{(+)}$; $C_{(-)}^2 = -1$ |
+| 5 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$  |  |
+| 6 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$  | $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 7 |   |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 8 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ | $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 9 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  |
+| 10 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = -1$ |
+| 11 |   |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = -1$ |
+
+In particular this means that 
+
+$$
+  C^{-1} = C^T
+  \,.
+$$
+
 
 =--
 
 (e.g. [Castellani-D'Auria-Fr&#233;, (II.7.2)](#CastellaniDAuriaFre))
+
+
+
+
+### Real structure
+
+
++-- {: .num_prop #MajoranaConjugationIsRealStructure}
+###### Proposition
+
+Let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Clifford representation according to prop. \ref{CliffordAlgebraRepresentation}, and write $C$ for the [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix}. Then the function
+
+$$
+  J \colon V \longrightarrow V
+$$
+
+given by
+
+$$
+  \psi \mapsto C \Gamma_0^T \psi^\ast
+$$
+
+is a [[real structure]] (def. \ref{RealStructureOnLinearRepresentation}) for the corresponding complex [[spin representation]] on $\mathbb{C}^\nu$ for $d \in \{4,8,9,10,11\}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The conjugate linearity of $J$ is clear, since $(-)^\ast$ is conjugate linear and [[matrix multiplication]] is complex linear. 
+
+To see that $J$ squares to +1 in the given dimensions: Applying it twice yields,
+
+$$
+  \begin{aligned}
+    J^2 \psi &= 
+     C \Gamma_0^T (C \Gamma_0^T\psi^\ast)^\ast
+     \\
+     & = 
+     C \Gamma_0^T C \Gamma_0^\dagger \psi
+     \\
+     &=
+     C \underset{= \pm C \Gamma_0}{\underbrace{\Gamma_0^T C}} \Gamma_0 \psi
+     \\
+     & = \pm C_{(\pm)}^2 \Gamma_0^2 \psi
+     \\
+     & = \pm C_{(\pm)}^2 \psi
+  \end{aligned}
+  \,,
+$$
+
+where we used $\Gamma_0^\dagger = \Gamma_0$ from prop. \ref{CliffordAlgebraRepresentation}, $C^\ast = \ast$ from prop. \ref{ChargeConjugationMatrix} and then the defining equation of the [[charge conjugation matrix]] $\Gamma_a^T C_{(\pm)} = \pm C_{(\pm)} \Gamma_a$ (def. \ref{ChargeConjugationMatrix}), finally the defining relation $\Gamma_0^2 = +1$.
+
+Hence this holds whenever there exists a choice $C_{(\pm)}$ for the charge conjugation matrix with $C_{(\pm)}^2 = \pm 1$. Comparison with the table from prop. \ref{ChargeConjugationMatrix} shows that this is the case in $d = 4,8,9,10,11$.
+
+Finally to see that $J$ is spin-invariant, it is sufficient to show for distinct indices $a,b$, that
+
+$$
+  J(\Gamma_a \Gamma_b \psi)
+  = 
+  \Gamma_a \Gamma_b J(\psi)
+  \,.
+$$
+
+First let $a,b$ both be spatial. Then
+
+$$
+  \begin{aligned}
+    J(\Gamma_a \Gamma_b \psi)
+    & = 
+    C \Gamma_0^T \Gamma_a^\ast \Gamma_b^\ast \psi^\ast
+    \\
+    & = 
+    C \Gamma_a^\ast \Gamma_b^\ast \Gamma_0^T \psi^\ast
+    \\
+    & = 
+    \Gamma_a^\dagger \Gamma_b^\dagger C \Gamma_0^T \psi^\ast
+    \\
+    & = (-\Gamma_a) (-\Gamma_b) C \Gamma_0^T \psi^\ast
+    \\
+    & = \Gamma_a \Gamma_b C \Gamma_0^T \psi^\ast
+    \\
+    & = \Gamma_a \Gamma_b J(\psi)
+  \end{aligned}
+  \,.
+$$
+
+Here we first used that $\Gamma_0^T \propto \Gamma_0$ by prop. \ref{CliffordAlgebraRepresentation} and that $\Gamma_0$ anti-commutes with the spatial Clifford matrices. Then we used the defining equation for the [[charge conjugation matrix]], which says that passing it through a Gamma-matrix yields a transpose, up to a global sign. That global sign cancels since we pass through two Gamma matrices. Finally we used that the spatial $\Gamma$-matrices may be chosen to be anti-hermitian, by prop. \ref{CliffordAlgebraRepresentation}.
+
+Finally, that the same conclusion holds for $\Gamma_a \Gamma_b$ replaced by $\Gamma_0 \Gamma_a$: The above reasoning applies with two extra signs picked up: one from the fact that $\Gamma_0$ commutes with itself, one from the fact that it is hermitian, by prop. \ref{CliffordAlgebraRepresentation}. These two signs cancel.
+
+=--
+
+We record some immediate consequences:
+
++-- {: .num_prop #ComplexBilinearFormInducedFromMajoranaStructure}
+###### Proposition
+
+The complex [[bilinear form]] 
+
+$$
+  (-,-)
+   \coloneqq
+  \langle J(-),(-)\rangle
+$$
+
+induced from the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
+
+$$
+  (-,-)
+   =
+  (-)^T C (-) 
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By direct unwinding of the various definitions and results from above:
+
+$$
+  \begin{aligned}
+    \langle J(\psi_1),\psi_2 \rangle
+     &= 
+     \langle C \Gamma_0^T\psi_1^\ast, \psi_2\rangle
+     \\
+     & = 
+     (C \Gamma_0^T \psi_1^\ast)^\dagger \Gamma_0 \psi_2
+     \\
+     & = \psi_1^T C^\dagger \Gamma_0^\ast \Gamma_0 \psi_2
+     \\
+     & = \psi_1^T C \psi_2
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_prop #TheMajoranaConditionInComponents}
+###### Proposition
+
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the real structure from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+
+$$
+  \psi = C \Gamma_0^T \psi^\ast
+$$
+
+(as e.g. in [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre)),
+
+This is equivalent to the condition that
+
+$$
+  \psi^T C = \psi^\dagger \Gamma_0
+  \,,
+$$
+
+which in turn is equivalent to the condition that
+
+$$
+  (\psi,-) = \langle \psi,-\rangle
+  \,,
+$$
+
+where on the left we have the complex bilinear form of prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} and on the right the [[hermitian form]] from prop. \ref{CliffordAlgebraRepresentation}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is immediate. The second follows by applying transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
+
+=--
+
 
 
 ## Appendix
@@ -475,6 +675,7 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 * Theodor Br&#246;cker, [[Tammo tom Dieck]], _Representations of Compact Lie Groups_, Springer (1985)
 
 * Wikipedia, _[Majorana fermion](https://en.wikipedia.org/wiki/Majorana_fermion)_
+
 
 [[!redirects Majorana spinor]]
 [[!redirects Majorana spinors]]
