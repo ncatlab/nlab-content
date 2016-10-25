@@ -27,6 +27,8 @@
 
 A _Majorana spin representation_ is essentially a _real_ [[spin representation]] (see at _[spin representation -- Real representations](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_) but regarded as a _complex_ [[spin representation]] equipped with [[real structure]].
 
+Accordingly a _Majorana spinor_ or _Majorana fermion_ is a [[spinor]]/[[fermion]] corresponding to such a representation under [[Wigner classification]]. None of the particles in the [[standard model of particle physics]] except possibly the [[neutrinos]] are Majorana fermions (for neutrinos this remains open). The relevance of Majorana representations is that these appear in [[supersymmetry]], constituting for instance the odd-graded components of [[super-Minkowski spacetimes]]. See remark \ref{SuperPoincareOutlook} below.
+
 The terminology _Majorana spinor_ originates in and is standard in the [[physics]] literature, where it usually refers to the explicit expression of the reality condition in terms of chosen basis components. With standard conventions understood (see prop. \ref{CliffordAlgebraRepresentation} below), then a complex [[spinor]] $\psi$ for $Spin(d-1,1)$, regarded as an element of $\mathbb{C}^{\nu}$ (with $d = 2 \nu, 2\nu+1$) is a Majorana spinor if it satisfies the condition
 
 $$
@@ -321,13 +323,33 @@ $$
 
 
 
-### Real structure
+### Majorana conjugate and Real structure
 
 
 +-- {: .num_prop #MajoranaConjugationIsRealStructure}
 ###### Proposition
 
-Let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Clifford representation according to prop. \ref{CliffordAlgebraRepresentation}, and write $C$ for the [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix}. Then the function
+For $d \in \{4,8,9,10,11\}$, let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Clifford representation according to prop. \ref{CliffordAlgebraRepresentation}, and write 
+
+$$
+  C
+  \coloneqq
+  \left\{
+    \array{
+      C_{(-)} & \text{for}\; d = 4
+      \\
+      C_{(+)} & \text{for}\; d = 8
+      \\
+      C_{(+)} & \text{for}\; d = 9
+      \\
+      C_{(+)} or C_{(-)} & \text{for}\; d = 10
+      \\
+      C_{(-)} & \text{for}\; d = 11
+    }
+  \right.
+$$ 
+
+for the [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix}. Then the function
 
 $$
   J \colon V \longrightarrow V
@@ -339,7 +361,7 @@ $$
   \psi \mapsto C \Gamma_0^T \psi^\ast
 $$
 
-is a [[real structure]] (def. \ref{RealStructureOnLinearRepresentation}) for the corresponding complex [[spin representation]] on $\mathbb{C}^\nu$ for $d \in \{4,8,9,10,11\}$.
+is a [[real structure]] (def. \ref{RealStructureOnLinearRepresentation}) for the corresponding complex [[spin representation]] on $\mathbb{C}^\nu$.
 
 =--
 
@@ -372,7 +394,7 @@ where we used $\Gamma_0^\dagger = \Gamma_0$ from prop. \ref{CliffordAlgebraRepre
 
 Hence this holds whenever there exists a choice $C_{(\pm)}$ for the charge conjugation matrix with $C_{(\pm)}^2 = \pm 1$. Comparison with the table from prop. \ref{ChargeConjugationMatrix} shows that this is the case in $d = 4,8,9,10,11$.
 
-Finally to see that $J$ is spin-invariant, it is sufficient to show for distinct indices $a,b$, that
+Finally to see that $J$ is spin-invariant (in [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre) this is essentially (II.2.29)), it is sufficient to show for distinct indices $a,b$, that
 
 $$
   J(\Gamma_a \Gamma_b \psi)
@@ -495,6 +517,108 @@ The first statement is immediate. The second follows by applying transpose to th
 
 =--
 
+### The spinor pairing to vectors
+ {#TheSpinorPairingToVectors}
+
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, write
+
+$$
+  S \hookrightarrow V
+$$
+
+for the subspace of Majorana spinors, regarded as a real vector space.
+
++-- {: .num_defn #SpinorToVectorBilinearPairing}
+###### Definition
+
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, let
+
+$$
+  \overline{(-)}\Gamma (-)
+    \colon
+  S \times S 
+   \longrightarrow
+  \mathbb{R}^{d-1,1}
+$$
+
+be the function that takes Majorana spinors $\psi_1$, $\psi_2$ to the vector with components
+
+$$
+  \overline{\psi}_1\Gamma^a \psi_2
+    \coloneqq
+  \psi_1^T C \Gamma^a \psi_2
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SpinorToVectorPairing}
+###### Proposition
+
+The pairing in def. \ref{SpinorToVectorBilinearPairing} is 
+
+1. symmetric:
+
+   $$
+     \overline{\psi}_1 \Gamma \psi_2
+       =
+     \overline{\psi}_2 \Gamma \psi_1
+   $$
+
+1. $Spin(d-1,1)$-equivariant: for $g \in Spin(d-1,1)$ then
+
+   $$
+     \overline{g(-)}\Gamma(g(-))
+       =
+     g(\overline{(-)}\Gamma(-))
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point, we need to show that for all $a$ then $C \Gamma_a$ is a symmetric matrix. Indeed:
+
+$$
+  \begin{aligned}
+     (C \Gamma_a)^T
+       & =
+     \Gamma_a^T C^T
+      \\
+      & = \pm \Gamma_a^T C
+      \\
+      & = \pm \pm C \Gamma_a
+      \\
+      & = C \Gamma_a
+  \end{aligned}
+  \,,
+$$
+
+where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$. By the condition in prop. \ref{MajoranaConjugationIsRealStructure}, these signs agree, and hence cancel out. (In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in (II.2.32a).)
+
+Regarding the second point: By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} we get
+
+$$
+  (g(\psi_1), \Gamma_a g(\psi_2))
+  = 
+  \langle g(\psi_1),\Gamma_a g(\psi_2)\rangle
+  = 
+   \langle \psi_1, g^\dagger \Gamma_a g \psi_2 \rangle
+  \,.
+$$
+
+(In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in (II.2.35)-(II.2.39).)
+
+=--
+
++-- {: .num_remark #SuperPoincareOutlook}
+###### Remark
+
+Proposition \ref{SpinorToVectorPairing} implies that adding a copy of $S$ to the [[Poincaré Lie algebra]] in odd degree, then the pairing of def. \ref{SpinorToVectorBilinearPairing} is a consistent extension of the [[Lie bracket]] of the latter to a [[super Lie algebra]]. This is the _[[super Poincaré Lie algebra]]_.
+
+=--
 
 
 ## Appendix
