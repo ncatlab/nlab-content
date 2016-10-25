@@ -62,6 +62,20 @@ The notation used here for the adjoint, $A^{*}$, is commonly used in linear alge
 [[!redirects hermitean matrixes]]
 [[!redirects hermitean matrices]]
 
+[[!redirects anti-Hermitian matrix]]
+[[!redirects anti-Hermitian matrixes]]
+[[!redirects anti-Hermitian matrices]]
+[[!redirects anti-hermitian matrix]]
+[[!redirects anti-hermitian matrixes]]
+[[!redirects anti-hermitian matrices]]
+[[!redirects anti-Hermitean matrix]]
+[[!redirects anti-Hermitean matrixes]]
+[[!redirects anti-Hermitean matrices]]
+[[!redirects anti-hermitean matrix]]
+[[!redirects anti-hermitean matrixes]]
+[[!redirects anti-hermitean matrices]]
+
+
 [[!redirects Hermitian adjoint]]
 [[!redirects Hermitian adjoints]]
 [[!redirects hermitian adjoint]]
