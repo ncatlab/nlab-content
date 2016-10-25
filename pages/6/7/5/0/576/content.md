@@ -57,7 +57,7 @@ $$
 
 
 * For $C$ a category with [[finite limits]]  the category $Span_1(C)$ whose morphisms are [[span|spans]] in $C$ is $\dagger$-compact.  The $\dagger$ operation is that of relabeling the legs of a span as source and target.  The tensor product is defined using the cartesian product in $C$.   Every object $X$ is dual to itself with the unit and counit given by the span
-$ X \stackrel{Id}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
+$ I \stackrel{!}{\leftarrow} X \stackrel{Id \times Id}{\to} X \times X$.
 See
 
   * John Baez, _Spans in quantum theory_ ([web](http://math.ucr.edu/home/baez/span/), [pdf](http://math.ucr.edu/home/baez/span/span.pdf), [blog](http://golem.ph.utexas.edu/category/2007/10/spans_in_quantum_theory.html))
