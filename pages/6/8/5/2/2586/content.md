@@ -284,7 +284,12 @@ Discussion of the [[cohomology]] of the [[classifying space]] $B Spin$ includes
 
 * E. Thomas, _On the cohomology groups of the classifying space for the stable spinor groups_, Bol. Soc. Mat. Mexicana (2) 7 (1962) 57-69.
 
+[[!redirects spin groups]]
+
 [[!redirects Spin group]]
+[[!redirects Spin group]]
+
+
 [[!redirects Spin]]
 [[!redirects Spin(n)]]
 
