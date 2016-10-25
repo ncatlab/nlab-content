@@ -262,7 +262,7 @@ obvious inductive way, by setting, for example,  $inv(\alpha uvw): =
 \alpha^{-1}_{u,v,w}$, $inv(\alpha^{-1} uvw):=
 \alpha uvw$ $inv(\beta\hat{\otimes} 1w):=
 inv(\beta) \hat{\otimes} 1w$, etc.  It can be verified that the formal
-inverse has all expected properties (such as being idempotent,
+inverse has all expected properties (such as being a bijection of arrows,
 switching domain and codomain, taking an anti-directed arrow to a
 directed one, and being interpreted as the inverse of the 
 interpretation of the original arrow). 
