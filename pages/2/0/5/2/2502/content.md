@@ -45,7 +45,7 @@ which is
 
 1. $Spin(V)$ [[equivariance|equivariant]] (a [[homomorphism]] of [[spin representations]]).
 
-For a classification of spin representations with this property see at _[[spin representations]]_ the sections _[real irreducible spin representations in Lorentz signature](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_ and _[super Poincar&#233; brackets](spin+representation#SuperPoincareBrackets)_.
+For a classification of spin representations with this property see at _[[spin representations]]_ the sections _[real irreducible spin representations in Lorentz signature](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_ and _[super Poincar&#233; brackets](spin+representation#SuperPoincareBrackets)_. For explicit construction in components see at _[[Majorana spinor]]_ the section _[The spinor pairing to vectors](Majorana+spinor#TheSpinorPairingToVectors)_.
 
 +-- {: .num_defn #SuperPoincare}
 ###### Definition
