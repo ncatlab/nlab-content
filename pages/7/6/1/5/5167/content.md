@@ -55,5 +55,5 @@ A [[string structure]] is a nonabelian cocycle with coefficients in the [[string
 
 The term "Whitehead principle" for nonabelian cohomology is used in 
 
-* [[Bertrand Toën]], _Stacks and non-abelian cohomology_ ([pdf](http://www.math.univ-toulouse.fr/~toen/msri2002.pdf))
+* [[Bertrand Toën]], _Stacks and non-abelian cohomology_ ([pdf](https://ncatlab.org/nlab/files/ToenStacksNAC.pdf))
 
