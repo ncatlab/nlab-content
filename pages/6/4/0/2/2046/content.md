@@ -74,7 +74,7 @@ In an [[abelian category]] $C$, every [[morphism]] between simple objects is eit
 
 *  A [[simple group]] is a simple object in [[Grp]].  (Here it is important to use quotient objects instead of subobjects.)
 
-*  For $G$ a [[group]] and $Rep(G)$ its category of [[representations]], the simple objects are the [[irreducible representations]].
+*  For $G$ a [[group]] and $Rep(G)$ its [[category of representations]], the simple objects are the [[irreducible representations]].
 
 *  A [[simple ring]] is *not* a simple object in [[Ring]] (which doesn\'t have a [[zero object]] anyway); instead it is a ring $R$ that is simple in its category of [[bimodules]].
 
@@ -97,3 +97,6 @@ In an [[abelian category]] $C$, every [[morphism]] between simple objects is eit
 [[!redirects simple objects]]
 [[!redirects simple module]]
 [[!redirects simple modules]]
+
+[[!redirects irreducible object]]
+[[!redirects irreducible objects]]
