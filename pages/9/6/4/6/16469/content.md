@@ -28,6 +28,8 @@ By [[Deligne's theorem on tensor categories]] the most general regular [[tensor 
 
 ## References
 
+* [[Veeravalli Varadarajan]], section 5.3 of _Unitary representations of super Lie groups_, 2006 ([pdf](http://www.math.ucla.edu/~vsv/ur.pdf))
+
 * Wikipedia, _[Supermultiplet](https://en.wikipedia.org/wiki/Supermultiplet)_
 
 [[!redirects super multiplets]]
