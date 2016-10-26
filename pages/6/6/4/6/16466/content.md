@@ -48,16 +48,60 @@ By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[cate
 ## Statement
  {#Statement}
 
-Let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
+Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
 
 ### Tensor categories
+
+There are slight variants of what people mean by a "[[tensor category]]". Here we mean precisely the following: 
 
 +-- {: .num_defn #TensorCategory}
 ###### Definition
 
-A _$k$-[[tensor category]]_ $\mathcal{A}$ is a [[rigid monoidal category|rigid]] [[symmetric monoidal category|symmetric]] [[braided monoidal category]] [[enriched category|enriched]] over $k$[[Mod]].
+For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an 
+
+1. [[abelian category|abelian]] 
+
+1. [[rigid monoidal category|rigid]] 
+
+1. [[symmetric monoidal category|symmetric]] 
+
+1. [[braided monoidal category|braided]]
+
+1. [[monoidal category]] 
+
+1. [[enriched category|enriched]] over $k$[[Mod]] = $k$[[Vect]] (i.e. $k$-linear), 
+
+such that 
+
+1. the [[tensor product]] functor $\otimes \colon \mathcal{A} \times \mathcal{A} \longrightarrow \mathcal{A}$ is 
+
+   1. $k Mod$-[[enriched functor|enriched]] (i.e. $k$-linear);
+
+   1. [[exact functor|exact]]
+
+   in both arguments;
+
+1. $End(1) \simeq k$ (the [[endomorphism ring]] of the [[tensor unit]] coincides with $k$).
+
+Such a $k$-tensor category is called _finitely $\otimes$-generated_ if there exists an [[object]] $E \in \mathcal{A}$ such that every other object $X \in \mathcal{A}$ is a [[subquotient]] of a [[direct sum]] of [[tensor products]] $E^{\otimes^n}$, for some $n \in \mathbb{N}$:
+
+$$
+  \array{
+    && \underset{i}{\oplus} E^{\otimes^{n_i}}
+    \\
+    && \downarrow
+    \\
+    X &\hookrightarrow& (\underset{i}{\oplus} E^{\otimes^{n_i}})/Q
+  }
+  \,.
+$$
+
+Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
+
 
 =--
+
+([Deligne 02, 0.1](#Deligne02))
 
 +-- {: .num_defn #SchurFunctor}
 ###### Definition
@@ -96,10 +140,9 @@ where
 +-- {: .num_defn #Regularity}
 ###### Definition
 
-A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory}
-is _regular_ if 
+A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory} is _regular_ if 
 
-1. it is _[[finitely generated object|finitely generated]]_ in that there exists an [[object]] $E \in \mathcal{A}$ such that every other object is a [[subquotient]] of a [[direct sum]] of tensor products $E^{\otimes_n}$, for some $n \in \mathbb{N}$;
+1. it is finite $\otimes$-generated (in the sense of def. \ref{TensorCategory});
 
 1. for every [[object]] $X\in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, vanishes: $S_\lambda(X) = 0$.
 
