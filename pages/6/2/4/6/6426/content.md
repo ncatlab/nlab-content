@@ -20,7 +20,9 @@
 
 ## Idea
 
-The analog of [[unitary representation of the Poincaré group]] for the [[super Poincaré group]]: [[supersymmetry]].
+A [[super-unitary representation]] of the [[super Poincaré group]] ([[supersymmetry]])
+
+The analog in [[superalgebra]]/[[supergeometry]] of a [[unitary representation of the Poincaré group]].
 
 An [[irreducible representation]] of the [[super Poincaré Lie algebra]] is called  a **[[super multiplet]]**. This is in general itself a [[super vector space]] which contains an ordinary irreducible [[unitary representation of the Poincaré group]]. Via the [[Wigner classification]] of fundamental [[particles]] with Poincar&#233; irreps, this may be identified with a [[boson|bosonic]] [[relativistic particle]] of some [[mass]] -- together with the images of these "bosonic" elements under the odd generators: the **superpartners** of the bosonic particles.
 
@@ -64,8 +66,19 @@ Expositional slides:
 
 * Valerie Domcke, _Supermultiplets_ ([pdf](http://www.aphn.de/dateien/supermultiplets.pdf)) (in German)
 
-[[!redirects unitary representation of the super Poincare group]]
-
 [[!redirects unitary representations of the super Poincaré group]]
+
+[[!redirects unitary representation of the super Poincare group]]
 [[!redirects unitary representations of the super Poincare group]]
+
+[[!redirects super-unitary representation of the super Poincaré group]]
+[[!redirects super-unitary representations of the super Poincaré group]]
+[[!redirects super-unitary representation of the super Poincare group]]
+[[!redirects super-unitary representations of the super Poincare group]]
+
+[[!redirects superunitary representation of the super Poincaré group]]
+[[!redirects superunitary representations of the super Poincaré group]]
+[[!redirects superunitary representation of the super Poincare group]]
+[[!redirects superunitary representations of the super Poincare group]]
+
 
