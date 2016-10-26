@@ -58,6 +58,15 @@ Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary re
 
 ## In components
 
+We work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
+
+Specifically, we use the following standard **notation** for complex matrices (which may in particular be complex row/column vectors, which may in particular be single complex numebrs):
+
+* $(-)^\ast$ -- componentwise [[complex conjugation]];
+
+* $(-)^T$ -- [[transpose matrix]]
+
+* $(-)^\dagger \coloneqq ((-)^\ast)^T = ((-)^T)^\ast$
 
 +-- {: .num_defn}
 ###### Definition
@@ -535,7 +544,7 @@ For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresent
 
 $$
   \overline{(-)}\Gamma (-)
-    \colon
+    \;\colon\;
   S \times S 
    \longrightarrow
   \mathbb{R}^{d-1,1}
@@ -564,6 +573,8 @@ The pairing in def. \ref{SpinorToVectorBilinearPairing} is
        =
      \overline{\psi}_2 \Gamma \psi_1
    $$
+
+1. component-wise real-valued (i.e. it really takes values in $\mathbb{R}^d$, not in $\mathbb{C}^d$);
 
 1. $Spin(d-1,1)$-equivariant: for $g \in Spin(d-1,1)$ then
 
@@ -598,18 +609,52 @@ $$
 
 where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$. By the condition in prop. \ref{MajoranaConjugationIsRealStructure}, these signs agree, and hence cancel out. (In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in (II.2.32a).)
 
-Regarding the second point: By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} we get
+With this the second point follows together with the relation $\psi^T C = \psi^\dagger \Gamma_0$ for Majorana spinors $\psi$ (prop. \ref{TheMajoranaConditionInComponents}) and using the conjugate-symmetry of the [[hermitian form]] $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ as well as the hermiticity of $\Gamma_0 \Gamma_a$ (both from prop. \ref{CliffordAlgebraRepresentation}):
 
 $$
-  (g(\psi_1), \Gamma_a g(\psi_2))
-  = 
-  \langle g(\psi_1),\Gamma_a g(\psi_2)\rangle
-  = 
-   \langle \psi_1, g^\dagger \Gamma_a g \psi_2 \rangle
+  \begin{aligned}
+    (\overline{\psi}_1 \Gamma_a \psi_2)^\ast
+    &=
+    (\psi_1^T C \Gamma_a \psi_2)^\ast
+    \\
+    & =
+    (\psi_1^\dagger \Gamma_0 \Gamma^a \psi_2)^\ast
+    \\
+    & = \langle \psi_1, \Gamma_0 \Gamma_a \psi_2 \rangle^\ast
+    \\
+    & =
+    \langle \psi_2, (\Gamma_0 \Gamma_a)^\dagger \psi_1 \rangle
+    \\
+    & = 
+    \langle \psi_2, \Gamma_0 \Gamma_a \psi_1 \rangle
+    \\
+    & =
+    \overline{\psi}_2 \Gamma_a \psi_1
+    \\
+    & = 
+    \overline{\psi}_1 \Gamma_a \psi_2
+  \end{aligned}
   \,.
 $$
 
-(In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in (II.2.35)-(II.2.39).)
+Regarding the third point: By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} we get
+
+$$
+  \begin{aligned}
+    (g(\psi_1), \Gamma_a g(\psi_2))
+    & = 
+    \langle g(\psi_1),\Gamma_a g(\psi_2)\rangle
+    \\
+    & = 
+     \langle \psi_1, \Gamma_0^{-1}g^\dagger\Gamma_0 \Gamma_a g \psi_2 \rangle
+    \\
+    & = \langle \psi_1 (g^{-1} \Gamma_a g) \psi_2 \rangle
+  \,,
+$$
+
+where we used that $\Gamma_0^{-1}(-)^\dagger \Gamma_0$ is the adjoint with respect to the hermitian form $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ and that $g$ is unitary with respect to this hermitian form by prop. \ref{CliffordAlgebraRepresentation}.
+
+(In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this third statement implicit in (II.2.35)-(II.2.39).)
 
 =--
 
@@ -712,7 +757,7 @@ such that for all $v_1, v_2 \in V$ and $\lambda \in \mathbb{C}$ then
 
 1. (sesquilinearity) $\langle v_1, \lambda v_2 \rangle = \lambda \langle v_1, v_2 \rangle $,
 
-1. (symmetry) $\overline{\langle v_1, v_2\rangle} = \langle v_2, v_1\rangle $.
+1. (conjugate symmetry) $\langle v_1, v_2\rangle^\ast = \langle v_2, v_1\rangle $.
 
 1. (non-degeneracy) if $\langle v_1,-\rangle = 0$ then $v_1 = 0$.
 
