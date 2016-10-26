@@ -20,6 +20,10 @@ A __unitary representation__ of a [[locally compact topological group]] $G$ on a
 
 * [[unitary representation of the Poincaré group]]
 
+## Related concepts
+
+* [[super-unitary representation]]
+
 ## References
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Adv. Math. CRC Press 1995
