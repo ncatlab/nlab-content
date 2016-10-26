@@ -45,6 +45,7 @@ See in particular at [[FRW model]] for the role of the cosmological constant in 
 
 <img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="500">
 
+(e.g. [Einasto 09, fig 17](#Einasto09))
 
 ## Related concepts
 
@@ -69,6 +70,9 @@ Discussion of the experimentally observed tiny cosmological constant and the iss
 
 * Joan Sola, _Cosmological constant and vacuum energy: old and new ideas_, J.Phys.Conf.Ser. 453 (2013) 012015 ([arXiv:1306.1527](https://arxiv.org/abs/1306.1527))
  
+* {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
+
+
 ### In string theory
 
 Discussion from the point of view of [[string theory]] includes
