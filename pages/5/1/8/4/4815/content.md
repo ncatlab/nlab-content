@@ -43,6 +43,9 @@ In this context those solutions to the [[Euler-Lagrange equation]]s are of inter
 
 See in particular at [[FRW model]] for the role of the cosmological constant in homogeneous and isotropic models as in the [[standard model of cosmology]]. In that context the cosmological constant is also called the _dark energy_ (density), which makes up about 70% of the energy density of the [[observable universe]] (the rest being [[dark matter]]) and a comparatively little bit of [[baryon|baryonic]] [[matter]].
 
+<img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="500">
+
+
 ## Related concepts
 
 * [[FRW model]]
