@@ -33,6 +33,11 @@ The current model assumes that the energy density of the [[observable universe]]
 
 * 68.3% [[dark energy]].
 
+
+<img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="400">
+
+
+
 ## Related concepts
 
 * [[BICEP2]]
