@@ -1020,18 +1020,3 @@ A clean summary of the relation of the real representation to [[Hermitian forms]
 [[!redirects spinor representation]]
 [[!redirects spinor representations]]
 
-[[!redirects Weyl spinor]]
-[[!redirects Weyl spinors]]
-[[!redirects Weyl representation]]
-[[!redirects Weyl representations]]
-
-[[!redirects Dirac spinor]]
-[[!redirects Dirac spinors]]
-[[!redirects Dirac representation]]
-[[!redirects Dirac representations]]
-
-
-[[!redirects chiral spinor]]
-[[!redirects chiral spinors]]
-[[!redirects chiral spin representation]]
-[[!redirects chiral spin representations]]
