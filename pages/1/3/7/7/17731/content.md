@@ -1360,101 +1360,226 @@ for short.
 
 Then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
 
-We define the type IIA spinor-to-vector bilinear pairing on $\mathbf{16} \oplus \overline{\mathbf{16}}$ to be the _difference_ of the spinor-to-vector pairings of either, according to def. \ref{SpinorToVectorBilinearPairing}:
+The type IIA spinor-to-vector pairing is just that of 11d under this re-interpretation. We find
 
-$$
-  \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
-   \Gamma^a
-  \left(
-    \array{\psi_1 \\ \psi_2}
-  \right)
-    \coloneqq
-  \overline{\psi}_1
-   \Gamma^a
-  \psi_1
-    -
-  \overline{\psi}_2
-    \Gamma^a
-  \overline{\psi}_2
-  \,.
-$$
++-- {: .num_prop } 
+###### Proposition
 
-(Recall that this makes sense due to the Majorana-Weyl condition in 10d, from prop. \ref{WeylMajoranaInLorentzian10d}, already used above.)
-
-Notice that because 
-
-$$
-  \Gamma_{10}
-    = 
-  \left(
-    \array{
-       i id & 0 
-       \\
-       0 & -i id
-    }
-  \right)
-$$
-
-(by the above), then in terms of $\vartheta = \left(\array{\psi_1 \\ \psi_2}\right)$ this is proportional to simply the $(a,10)$-component of the spinor-to-bivector pairing from def. \ref{SpinorToRank2TensorBilinearPairing}
-
-(...)
-
-$$
-  \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
-   \Gamma^a
-  \left(
-    \array{\psi_1 \\ \psi_2}
-  \right)
-   = 
-  -i
-  \overline{\vartheta}
-    \Gamma^a
-    \Gamma^{10}
-   \vartheta
-  \,.
-$$
-
-Now consider 
+The type IIA spinor-to-vector pairing is given by
 
 $$
   \begin{aligned}
-    i
-    \overline{\vartheta}
-      \Gamma^9
-      \Gamma^{10}
-     \vartheta  
-     & = 
-     i
-     \vartheta^\dagger
-     \Gamma_0 \Gamma^9 \Gamma^{10}
-     \vartheta
-     \\   
-     &= 
-     \vartheta^\dagger
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a^{IIA}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1 
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1  
+        -
+        \overline{\psi}_2 \psi_2
+        & 
+        \vert \; a = 9
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute:
+
+$$
+  \begin{aligned}
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a^{IIA}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+      &\coloneqq
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    \\ & =
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \Gamma_0 \Gamma_a
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)    
+    \\
+    & = 
+    \left\{
+      \array{
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
      \left(
        \array{
-         \gamma_0 & 0
+         \gamma_0 \gamma_a & 0
          \\
-         0 & \gamma_0 
+         0 & \gamma_0 \gamma_a
        }
      \right)
-     \vartheta
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)        
+     & \vert \; a\leq 8
      \\
-     & = 
-      \overline{\psi}_1 \Gamma^9 \psi
-       -
-      \overline{\psi}_2 \Gamma^9 \psi
-     \\
-     & = \
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \left(
+       \array{
+         \gamma_0  & 0
+         \\
+         0 & -\gamma_0 
+       }
+     \right)
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)        
+     & \vert \; a = 9
+     }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1 
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1  
+        -
+        \overline{\psi}_2 \psi_2
+        & 
+        \vert \; a = 9
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+The type IIB spinor-to-vector pairing is
+
+$$
+  \begin{aligned}
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_a^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1 
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1  
+        +
+        \overline{\psi}_2 \psi_2
+        & 
+        \vert \; a = 9
+      }
+    \right.
   \end{aligned}
 $$
 
 
-(...)
+=--
+
++-- {: .proof}
+###### Proof
+
+The type II pairing spinor-to-vector pairing is obtained from the type IIA pairing by replacing all bottom right matrix entries (those going $\overline{\mathbf{16}}\to \overline{\mathbf{16}}$ by the corresponding top left entries (those going $\mathbf{16} \to \mathbf{16}$ )). Notice that in fact all these block entries are the same, except for the one at $a = 9$, where they simply differ by a sign. This yields the claim.
+
+=--
+
++-- {: .num_prop } 
+###### Proposition
+
+The $(9,10)$-component of the spinor-to-bivector pairing (def. \ref{SpinorToRank2TensorBilinearPairing}) in 11d equals the 9-component of the type IIB spinor-to-vector pairing
+
+$$
+  \begin{aligned}
+    i
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)    
+    & = 
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+  \end{aligned}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute:
+
+$$
+  \begin{aligned}
+    i\,
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)    
+    & = 
+    i
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \Gamma_0\Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)    
+    \\
+    & = 
+    i \,
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+      \left(
+        \array{
+          -i \gamma_0 & 0
+          \\
+          0 & -i \gamma_0
+        }
+      \right)
+    \left(\array{\psi_1 \\ \psi_2}\right)    
+    \\
+    & = 
+      \overline{\psi}_1 \psi_1
+      +
+      \overline{\psi}_2 \psi_2
+    \\
+    & = 
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+  \end{aligned}
+$$
+
+=--
 
 ## Appendix
 
 ### Review of unitary representations with real structure
+
+For reference, we here collect some basic definition on [[unitary represntations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
