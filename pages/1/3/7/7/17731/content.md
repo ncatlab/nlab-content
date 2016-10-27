@@ -25,7 +25,7 @@
 
 ## Idea
 
-A _Majorana spin representation_ is essentially a _real_ [[spin representation]] (see at _[spin representation -- Real representations](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_) but regarded as a _complex_ [[spin representation]] equipped with [[real structure]].
+A _Majorana spin representation_ is essentially a _real_ [[spin representation]] (see at _[spin representation -- Real representations](spin+representation#RealIrreducibleSpinRepresentationInLorentzSignature)_) but regarded as a _complex_ [[spin representation]] equipped with [[real structure]] (recalled as def. \ref{RealStructureOnLinearRepresentation} below).
 
 Accordingly a _Majorana spinor_ or _Majorana fermion_ is a [[spinor]]/[[fermion]] corresponding to such a representation under [[Wigner classification]]. None of the particles in the [[standard model of particle physics]] except possibly the [[neutrinos]] are Majorana fermions (for neutrinos this remains open). The relevance of Majorana representations is that these appear in [[supersymmetry]], constituting for instance the odd-graded components of [[super-Minkowski spacetimes]]. See remark \ref{SuperPoincareOutlook} below.
 
@@ -36,7 +36,7 @@ $$
   \,,
 $$
 
-where $(-)^T$ denotes forming [[transpose matrices]], $(-)^\dagger = \overline{(-)}^T$ denotes forming [[hermitian adjoint]] and where $C$ is the [[charge conjugation matrix]]. This says that the _Majorana conjugate_ of $\psi$ (the left hand side) coincides with the "Dirac conjugate" of $\psi$ (the right hand side). Equivalently this means that (e.g. [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre))
+where $(-)^T$ denotes forming [[transpose matrices]], $(-)^\dagger = \overline{(-)}^T$ denotes forming [[hermitian adjoint]] and where $C$ is the [[charge conjugation matrix]]. This says that the _Majorana conjugate_ (def. \ref{MajoranaConjugation} below) of $\psi$ (the left hand side) coincides with the "Dirac conjugate" (def. \ref{DiracConjugate} below) of $\psi$ (the right hand side). Equivalently this means that (e.g. [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre))
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -60,7 +60,9 @@ Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary re
 
 We work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
 
-Specifically, we use the following standard **notation** for complex matrices (which may in particular be complex row/column vectors, which may in particular be single complex numebrs):
+### Conventions and Notation
+
+The following uses the standard **notation** for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
 
 * $(-)^\ast$ -- componentwise [[complex conjugation]];
 
@@ -68,10 +70,22 @@ Specifically, we use the following standard **notation** for complex matrices (w
 
 * $(-)^\dagger \coloneqq ((-)^\ast)^T = ((-)^T)^\ast$
 
+* $A B$ for the [[matrix product]] of two matrices $A$ and $B$.
+
+We will be discussing three different pairing operations on complex column vectors $\psi_1, \psi_2 \in \mathbb{C}^\nu$:
+
+* $\psi_1^\dagger \psi_2$ -- the standard [[hermitian form]] on $\mathbb{C}^\nu$, this will play a purely auxiliary role.
+
+* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this will be the alternative [[hermtian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
+
+* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ (for $C$ the [[charge conjugation matrix]]), this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
+
+Then we use the following conventions on spacetime signature and the correspondig Clifford algebra:
+
 +-- {: .num_defn}
 ###### Definition
 
-We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(t,s)$, i.e.
+We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ of [[dimension]] $d = s + t$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(t,s)$ ("time", "space"), i.e.
 
 $$
   q(\vec x)
@@ -90,22 +104,42 @@ $$
   \,.
 $$
 
-Write 
+Hence the corresponding [[metric]] is
 
 $$
-  \eta \coloneqq diag(\underset{t}{\underbrace{+1 , \cdots, +1}}, \underset{s}{\underbrace{-1, \cdots, -1}})
+  \eta = (\eta_{a b}) \coloneqq diag(\underset{t}{\underbrace{+1 , \cdots, +1}}, \underset{s}{\underbrace{-1, \cdots, -1}})
+  \,.
 $$
 
-for the corresponding [[metric]].
-
-=--
-
-The real [[Clifford algebra]] $Cl(s,t)$ is the $\mathbb{R}$-[[associative algebra|algebra]] [[generators and relations|generated]] from elements $\{\Gamma_a\}_{a = 1}^{s+t}$ subject to the [[generators and relations|relation]]
+The real [[Clifford algebra]] $Cl(s,t)$ associated with this [[inner product space]] is the $\mathbb{R}$-[[associative algebra|algebra]] [[generators and relations|generated]] from elements $\{\Gamma_a\}_{0 = 1}^{s+t-1}$ subject to the [[generators and relations|relation]]
 
 $$
   \Gamma_a \Gamma_b + \Gamma_b \Gamma_a = 2 \eta_{a b} 
+  \;\;\;\;
+  \forall a,b \in \{0,1,\cdots, t+s-1\}
   \,.
 $$
+
+=--
+
+Indices are raised with $\eta^{-1} = (\eta^{a b})$ (which of course as a [[matrix]] coincides with $(\eta_{a b})$)
+
+$$
+  \Gamma^a \coloneqq \eta^{a b} \Gamma_b
+$$
+
++-- {: .num_defn #LorentzianSignature}
+###### Definition
+
+The case $t = 1$ is that of **Lorentzian signature**. 
+
+In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the remaining spatial Clifford generators are $\Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}$. So then
+
+* $\Gamma^0 = \Gamma_0$ and $\Gamma_0^2 = + 1$;
+
+* $\Gamma^a = - \Gamma_a$ and $\Gamma_a^2 = -1$ for $a \in \{1,\cdots, d-1\}$.
+
+=--
 
 ### Clifford representation
 
@@ -114,7 +148,7 @@ The following is a standard convention for the complex representation of the Cli
 +-- {: .num_prop #CliffordAlgebraRepresentation}
 ###### Proposition
 
-Let $t = 1$ and let 
+Let $t = 1$ (Lorentzian signature, def. \ref{LorentzianSignature}) and let 
 
 $$
   d = s + 1 = 2\nu, 2 \nu + 1
@@ -141,7 +175,7 @@ such that
 
 1. $\Gamma_{0}$ is [[hermitian]]
 
-1. $\Gamma_{space}$ is [[anti-hermitian]].
+1. $\Gamma_{spatial}$ is [[anti-hermitian]].
 
 Moreover, the pairing 
 
@@ -289,6 +323,146 @@ This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[a
 
 =--
 
++-- {: .num_defn #DiracConjugate}
+###### Definition
+
+For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{CliffordAlgebraRepresentation}, we write
+
+$$
+  \overline{(-)}
+  \coloneqq
+  (-)^\dagger \Gamma_0
+  \;\colon\;
+  Mat_{\nu \times 1}(\mathbb{C})
+    \longrightarrow
+  Mat(1 \times \nu)(\mathbb{C}) 
+$$
+
+for the map from complex column vectors to complex row vectors which is hermitian congugation $(-)^\dagger = ((-)^\ast)^T$ followed by matrix multiplication with $\Gamma_0$ from the right.
+
+This operation is called **Dirac conjugation**. 
+
+In terms of this the [[hermitian form]] from prop. \ref{CliffordAlgebraRepresentation} (Dirac pairing) reads
+
+$$
+  \langle -,-\rangle = \overline{(-)}(-)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CliffordRepresentationIsDiracSelfConjugate}
+###### Proposition
+
+The operator adjoint $\overline{A}$ of a $\nu \times \nu$-matrix $A$ with respect to the Dirac pairing of def. \ref{DiracConjugate}, characterized by
+
+$$
+  \langle A -, -\rangle
+  = 
+  \langle \overline  - , \overline{A} -\rangle
+  \;\;\;\text{and} \;\;\;
+  \langle  -, A -\rangle
+  = 
+  \langle \overline  \overline{A} - ,  -\rangle
+$$
+
+is given by 
+
+$$
+  \overline{A} = \Gamma_0^{-1} A^\dagger \Gamma_0
+  \,.
+$$
+
+All the Clifford generators from prop. \ref{CliffordAlgebraRepresentation} are Dirac self-conjugate in that
+
+$$
+  \overline{\Gamma}_a = \Gamma_a
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first claim consider
+
+$$
+  \begin{aligned}
+    \langle A \psi_1,  \psi_2\rangle
+    & =
+    \psi_1^\dagger A^\dagger \Gamma_0  \psi_2
+    \\
+    & = 
+    \psi_1^\dagger \Gamma_0 (\Gamma_0^{-1} A^\dagger \Gamma_0) \psi_2
+    \\
+    & =
+    \langle \psi_1, (\Gamma_0^{-1} A \Gamma_0)\psi_2\rangle
+  \end{aligned}
+  \,.
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \langle \psi_1, A \psi_2\rangle
+    & =
+    \psi_1^\dagger \Gamma_0 A \psi_2
+    \\
+    & = 
+    \psi_1^\dagger \Gamma_0 A \Gamma_0^{-1} \Gamma_0 \psi_2
+    \\
+    & = 
+    ( (\Gamma_0^{-1})^\dagger A^\dagger (\Gamma_0)^\dagger \psi_1 )^\dagger \Gamma_0 \psi_2
+    \\
+    & = 
+    ( \Gamma_0^{-1} A^\dagger \Gamma_0 \psi_1 )^\dagger \Gamma_0 \psi_2
+    \\
+    &= 
+    \langle \overline{A} \psi_1, \psi_2\rangle
+  \end{aligned}
+  \,,
+$$
+
+where we used that $\Gamma_0^{-1} = \Gamma_0$ (by def. \ref{LorentzianSignature}) and $\Gamma_0^\dagger = \Gamma_0$ (by prop. \ref{CliffordAlgebraRepresentation}).
+
+Now for the second claim, use def. \ref{LorentzianSignature} and prop. \ref{CliffordAlgebraRepresentation} to find
+
+$$
+  &#180;\begin{aligned}
+     \overline{\Gamma}_0
+     & =
+     \Gamma_0^{-1}\Gamma_0^\dagger \Gamma_0
+     \\
+     & = \Gamma_0^{-1} \Gamma_0 \Gamma_0
+     \\
+     & = 
+     \Gamma_0
+   \end{aligned}
+$$
+
+and 
+
+$$
+  \begin{aligned}
+    \overline{\Gamma}_{spatial}
+    & = 
+    \Gamma_0^{-1} \Gamma_{spatial}^\dagger\Gamma_0
+    \\
+    &= 
+    - \Gamma_0^{-1} \Gamma_{spatial} \Gamma_0
+    \\
+    & = + \Gamma_0^{-1} \Gamma_0 \Gamma_{spatial}
+    \\
+    &= \Gamma_{spatial}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 ### Charge conjugation matrix
 
 +-- {: .num_prop #ChargeConjugationMatrix}
@@ -304,7 +478,13 @@ for $C_{(\pm)} \in Mat_{\nu \times n}(\mathbb{C})$.
 
 In even dimensions $d = 2 \nu$ then both these equations have a solution, wheras in odd dimensions $d = 2 \nu + 1$ only one of them does (alternatingly, starting with $C_{(+)}$ in dimension 5). Either $C_{(\pm)}$ is called the _[[charge conjugation matrix]]_.
 
-Moreover, all $C_{(\pm)}$ may be chosen to be real matrices, and in addition they satisfy the following relations:
+Moreover, all $C_{(\pm)}$ may be chosen to be real matrices
+
+$$
+  (C_{(\pm)})^\ast = C_{(\pm)}
+$$
+
+and in addition they satisfy the following relations:
 
 | $d$ |   |    |
 |-----|---|----|
@@ -358,7 +538,7 @@ $$
   \right.
 $$ 
 
-for the [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix}. Then the function
+for the choice of [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix} as shown. Then the function
 
 $$
   J \colon V \longrightarrow V
@@ -485,6 +665,25 @@ $$
   \end{aligned}
   \,.
 $$
+
+=--
+
++-- {: .num_defn #MajoranaConjugation}
+###### Definition
+
+For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{CliffordAlgebraRepresentation}, then the map
+
+$$
+  (-)^T C
+  \;\colon\;
+  Mat_{\nu \times 1}(\mathbb{C})
+    \longrightarrow
+  Mat(1 \times \nu)(\mathbb{C}) 
+$$
+
+(from complex column vectors to complex row vectors) which is given by transposition followed by [[matrix multiplication]] from the right by the [[charge conjugation matrix]] according to prop. \ref{MajoranaConjugationIsRealStructure} is called the
+**Majorana conjugation**. 
+
 
 =--
 
@@ -649,6 +848,7 @@ $$
      \langle \psi_1, \Gamma_0^{-1}g^\dagger\Gamma_0 \Gamma_a g \psi_2 \rangle
     \\
     & = \langle \psi_1 (g^{-1} \Gamma_a g) \psi_2 \rangle
+  \end{aligned}
   \,,
 $$
 
