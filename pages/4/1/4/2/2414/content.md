@@ -411,9 +411,11 @@ $$
 ## References
  {#References}
 
+* [[Stephan Stolz]], [[Peter Teichner]], _[[What is an elliptic object?]]_ in _Topology, geometry and quantum field theory_ , London Math. Soc. LNS 308, Cambridge Univ. Press (2004), 247-343. ([pdf](http://web.me.com/teichner/Math/Reading_files/Elliptic-Objects.pdf))
+
+
 * Pokman Cheung, _Supersymmetric field theories and cohomology_ ([arXiv:0811.2267](http://arxiv.org/abs/0811.2267))
 
-* [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.cpp.edu/~jacaine/pdf/Lectures_complete.pdf))
- {#Stolz}
+* {#Stolz} [[Stefan Stolz]] (notes by Arlo Caine), _Supersymmetric Euclidean field theories and generalized cohomology_ Lecture notes (2009) ([pdf](http://www.cpp.edu/~jacaine/pdf/Lectures_complete.pdf))
 
 * [[Stefan Stolz]], [[Peter Teichner]], _Supersymmetric Euclidean field theories and generalized cohomology_ , in [[Hisham Sati]], [[Urs Schreiber]] (eds.), _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
