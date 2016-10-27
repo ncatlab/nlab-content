@@ -399,7 +399,9 @@ $$
   V = V_+ \oplus V_-
 $$
 
-of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm 1$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
+of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm i$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
+
+Analogously, since in odd dimensions there is no further decomposition, the Dirac representation for odd $d$ is also called a Weyl representation.
 
 =--
 
@@ -900,7 +902,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the real structure from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -1206,6 +1208,39 @@ $$
   \right)
   \,.
 $$
+
+By prop. \ref{CliffordAlgebraRepresentation} the Dirac Weyl representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] is neatly written as
+
+$$
+  \mathbb{R}^{10,1\vert \mathbf{32}}
+$$
+
+which thus serves to express both, the real dimension of the space of odd-graded coordinate functions at every point on it, as well as the way that the $Spin(10,1)$-cover of the [[Lorentz group]] $SO(10,1)$ acts on these. 
+
+As we regard this $\mathbf{32}$ instead as the Dirac representation of $Spin(9,1)$ via def. \ref{WeylRepresentation}, then it decomposes into to chiral halfs, each of real dimension 16, which often are denoted $\mathbf{16}$ and $\overline{\mathbf{16}}$. Hence as $Spin(9,1)$-representations there is a [[direct sum]] decomposition
+
+$$
+  \mathbf{32} \simeq \mathbf{16} \oplus \overline{\mathbf{16}}
+  \,.
+$$
+
+The corresponding [[super Minkowski spacetime]]
+
+$$
+  \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+$$
+
+is sometimes called "type IIA", since this is the local model space for [[superspacetimes]]  in [[type IIA supergravity]].
+
+Now the Dirac-Weyl representation for $Spin(8,1)$ is of complex dimension $d = 2^{8/2} = 2^4 = 16$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this also admits real structure, and hence gives a Majorana representation fro $Spin(8,1)$, accordingly denoted $\mathbf{16}$. Notice that this is Majorana-Weyl.
+
+We want to argue that both the $\mathbf{16}$ and the $\overline{\mathbf{16}}$ of $Spin(9,1)$ become isomorphic to the single $\mathbf{16}$ of $Spin(8,1)$ under forming the [[restricted representation]] along the inclusion $Spin(8,1)\hookrightarrow Spin(9,1)$ (the one fixed by the above choice of components).
+
+For this it is sufficient to see that $\Gamma_9$, which as a complex linear map goes $\Gamma_9 \colon \mathbf{16} \longrightarrow \overline{\mathbf{16}}$ constitutes an [[isomorphism]] when regarded as a morphism in the [[category of representations]] of $Spin(8,1)$.
+
+
+
+
 
 ## Appendix
 
