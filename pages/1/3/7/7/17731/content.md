@@ -77,7 +77,7 @@ We will be discussing three different pairing operations on complex column vecto
 
 * $\psi_1^\dagger \psi_2$ -- the standard [[hermitian form]] on $\mathbb{C}^\nu$, this will play a purely auxiliary role.
 
-* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this will be the alternative [[hermtian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
+* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this will be the alternative [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
 
 * $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ (for $C$ the [[charge conjugation matrix]]), this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
 
@@ -146,7 +146,7 @@ $$
   \;\;\;
   \text{if}
   \;
-  \underset{i,j}{\forall} a_i \neq a_j
+  \underset{i,j}{\forall} (a_i \neq a_j)
   \,.
 $$
 
@@ -185,15 +185,6 @@ $$
 $$
 
 with $d \geq 4$.
-
-We label the standard [[coordinates]] of $\mathbb{R}^{s,1}$ by
-
-$$
-  \{x^1, x^2, \cdots, x^{d-1}, x^0\}
-  \,,
-$$
-
-where $x^0$ is the coordinate along the [[timelike]] direction.
 
 Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ on 
 
@@ -273,7 +264,47 @@ $$
   \,.
 $$
 
-Now proceed by [[induction]]. Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in even dimension $d = 2 \nu$. Then a coresponding representation in dimension $d+2$ is given by setting
+Now proceed by [[induction]]:
+
+**odd dimensions**
+
+Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in even dimension $d = 2 \nu$. 
+
+Then a Clifford representation in dimension $d = 2 \nu + 1$ is given by taking
+
+$$
+  \Gamma_a
+   \coloneqq
+  \left\{
+    \array{
+      \gamma_a & \text{for}\, a \leq d - 2
+      \\
+      \epsilon \gamma_0 \gamma_1 \cdots \gamma_{d-2}
+       & \text{for} a = d-1
+    }
+  \right.
+$$
+
+where
+
+$$
+  \epsilon 
+     =
+   \left\{
+     \array{
+       1 & \text{for}\, \nu \, \text{odd}
+       \\
+       i & \text{for}\, \nu \, \text{even}
+     }
+   \right.
+   \,.
+$$
+
+**even dimensions**
+
+Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in dimension $d = 2 \nu$. 
+
+Then a coresponding representation in dimension $d+2$ is given by setting
 
 
 $$
@@ -460,7 +491,7 @@ where we used that $\Gamma_0^{-1} = \Gamma_0$ (by def. \ref{LorentzianSignature}
 Now for the second claim, use def. \ref{LorentzianSignature} and prop. \ref{CliffordAlgebraRepresentation} to find
 
 $$
-  &#180;\begin{aligned}
+  \begin{aligned}
      \overline{\Gamma}_0
      & =
      \Gamma_0^{-1}\Gamma_0^\dagger \Gamma_0
@@ -494,14 +525,15 @@ $$
 
 
 ### Charge conjugation matrix
+ {#ChargeConjugationMatrix}
 
 +-- {: .num_prop #ChargeConjugationMatrix}
 ###### Proposition
 
-Given the Clifford algebra representation of the form of prop. \ref{CliffordAlgebraRepresentation}, consider the equations
+Given the Clifford algebra representation of the form of prop. \ref{CliffordAlgebraRepresentation}, consider the equation
 
 $$
-  C_{(\pm)} \Gamma_a  = \pm \Gamma_a^T C_{(-)}
+  C_{(\pm)} \Gamma_a  = \pm \Gamma_a^T C_{(\pm)}
 $$
 
 for $C_{(\pm)} \in Mat_{\nu \times n}(\mathbb{C})$.
@@ -524,19 +556,21 @@ and in addition they satisfy the following relations:
 | 7 |   |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
 | 8 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ | $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
 | 9 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  |
-| 10 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = -1$ |
-| 11 |   |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = -1$ |
+| 10 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  $C_{(-)}^T = -C_{(-)}$; $C_{(-)}^2 = -1$ |
+| 11 |   |  $C_{(-)}^T = -C_{(-)}$; $C_{(-)}^2 = -1$ |
 
-In particular this means that for $d \leq 9$ and for the choice $C_{(+)}$ in dimension 10 then
+=--
+
+{#beware} (This is for instance in [Castellani-D'Auria-Fr&#233;, section (II.7.2), table (II.7.1)](#CastellaniDAuriaFre), but beware that there $C_{(-)}$ in $d = 10, 11$ is claimed to be symmetric, while instead it is anti-symmetric as shown above, see [van Proeyen 99, table 1](#VanProeyen99), [Laenen, table E.3](#GammaMatrices)).
+
++-- {: .num_remark #TransposeChargeConjugation}
+###### Remark
+
+
+Prop. \ref{ChargeConjugationMatrix} implies that for all $C_{(\pm)}$ listed there then
 
 $$
   C^{-1} = C^T
-$$
-
-while for $d = 11$ and for the choice $C_{(-)}$ in dimension 10, then
-
-$$
-  C^{-1} = - C^T
   \,.
 $$
 
@@ -549,7 +583,6 @@ $$
 
 =--
 
-(e.g. [Castellani-D'Auria-Fr&#233;, (II.7.2)](#CastellaniDAuriaFre))
 
 
 
@@ -690,10 +723,10 @@ $$
 
 =--
 
-+-- {: .num_proposition}
++-- {: .num_prop #RealStructureAntiCommutesWithSingleCliffordGenerator}
 ###### Proposition
 
-If $C = C_{(\pm)}$ according to prop. \ref{MajoranaConjugationIsRealStructure}, then the real structure $J$ from prop. \ref{MajoranaConjugationIsRealStructure} commutes or anti-commutes with the action of _single_ Clifford generators, according to the subscript of $C$:
+If $C = C_{(\pm)}$ is the [[charge conjugation matrix]] according to prop. \ref{ChargeConjugationMatrix}, then the real structure $J$ from prop. \ref{MajoranaConjugationIsRealStructure} commutes or anti-commutes with the action of _single_ Clifford generators, according to the subscript of $C = C_{(\pm)}$:
 
 $$
   J(\Gamma_a(-)) = \pm \Gamma_a J(-)
@@ -705,9 +738,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is same kind of computation as in the proof prop. \ref{MajoranaConjugationIsRealStructure}.
-
-First let $a$ be a spatial index, then we get
+This is same kind of computation as in the proof prop. \ref{MajoranaConjugationIsRealStructure}. First let $a$ be a spatial index, then we get
 
 $$
   \begin{aligned}
@@ -716,25 +747,27 @@ $$
     C \Gamma_0^T \Gamma_a^\ast  \psi^\ast
     \\
     & = 
-    - C \Gamma_0^T \Gamma_a^T \psi^\ast
+    C \Gamma_0^T (-\Gamma_a^T) \psi^\ast
     \\
     & = 
     + C \Gamma_a^T \Gamma_0^T \psi^\ast
     \\
-    & = \epsilon \Gamma_a C \Gamma_0^T \psi^\ast
+    & = 
+    \epsilon C^T \Gamma_a^T \Gamma_0^T
     \\
-    & = \epsilon \Gamma_a J(\psi)
+    & =
+    \pm \epsilon \Gamma_a C^T \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_a C \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_a J(\psi^\ast) 
   \end{aligned}
   \,,
 $$
 
-where, by comparison with the table in prop. \ref{ChargeConjugationMatrix} and the conditions from prop. \ref{MajoranaConjugationIsRealStructure}
+where, by comparison with the table in prop. \ref{ChargeConjugationMatrix}, $\epsilon$ is the sign in $C^T = \epsilon C$, which cancels out, and the remaining $\pm$ is the sign in $C = C_{(\pm)}$, due to remark \ref{TransposeChargeConjugation}.
 
-spring
-
-where the sign from commuting $\Gamma_$
-
-while for timelike index we similarly get
+For the timelike index we similarly get
 
 $$
   \begin{aligned}
@@ -743,18 +776,20 @@ $$
     C \Gamma_0^T \Gamma_0^\ast  \psi^\ast
     \\
     & = 
-    C \Gamma_0^\ast  \Gamma_0^T \psi^\ast
+    + C \Gamma_0^T \Gamma_0^T \psi^\ast
     \\
     & = 
-    \pm \Gamma_0^\dagger  C \Gamma_0^T \psi^\ast
+    \epsilon C^T \Gamma_0^T \Gamma_0^T
     \\
-    & = \pm \Gamma_0  C \Gamma_0^T \psi^\ast
+    & = 
+    \pm \epsilon \Gamma_0 C^T \Gamma_0^T \psi^\ast
     \\
-    & = \pm \Gamma_a \Gamma_b J(\psi)
+    & = \pm \Gamma_0 C \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_0 J(\psi^\ast) 
   \end{aligned}
+  \,.
 $$
-
-where in 
 
 
 =--
@@ -864,10 +899,21 @@ The first statement is immediate. The second follows by applying transpose to th
 
 =--
 
-## The spinor pairing to $p$-tensor
+
+## The spinor bilinear pairing to antisymmetric $p$-tensors
  {#TheSpinorPairingToVectors}
 
-We now discuss, in the component expressions established [above](#InComponents), the complex bilinear pairing operations that take a pair of Majorana spinors to a [[vector]], and more generally to an antisymmetric rank $p$-[[tensor]].
+We now discuss, in the component expressions established [above](#InComponents), the complex bilinear pairing operations that take a pair of Majorana spinors to a [[vector]], and more generally to an antisymmetric rank $p$-[[tensor]]. These operations are all of the form 
+
+$$
+  \psi 
+    \mapsto 
+  \epsilon \, \overline{\psi} \Gamma^{a_1 \cdots a_p} \psi
+  \,,
+$$
+
+where $\epsilon \in \mathbb{C}$ is some prefactor, constrained such as to make the whole expression be real, hence such as to make this the components of an element in $\wedge^p \mathbb{R}^{d-1,1}$.
+
 
 For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, write
 
@@ -951,7 +997,9 @@ $$
   \,,
 $$
 
-where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$. By the condition in prop. \ref{MajoranaConjugationIsRealStructure}, these signs agree, and hence cancel out. (In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in equation (II.2.32a).)
+where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$ (according to prop. \ref{ChargeConjugationMatrix}). Imposing the condition in prop. \ref{MajoranaConjugationIsRealStructure} one finds that these signs agree, and hence cancel out. 
+
+(In [van Proeyen99](#VanProeyen99) this is part of table 1, in ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in equation (II.2.32a).)
 
 With this the second point follows together with the relation $\psi^T C = \psi^\dagger \Gamma_0$ for Majorana spinors $\psi$ (prop. \ref{TheMajoranaConditionInComponents}) and using the conjugate-symmetry of the [[hermitian form]] $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ as well as the hermiticity of $\Gamma_0 \Gamma_a$ (both from prop. \ref{CliffordAlgebraRepresentation}):
 
@@ -964,19 +1012,14 @@ $$
     & =
     (\psi_1^\dagger \Gamma_0 \Gamma^a \psi_2)^\ast
     \\
-    & = \langle \psi_1, \Gamma_0 \Gamma_a \psi_2 \rangle^\ast
-    \\
-    & =
-    \langle \psi_2, (\Gamma_0 \Gamma_a)^\dagger \psi_1 \rangle
+    & = 
+    \psi_2^\dagger (\Gamma_0 \Gamma^a)^\dagger \psi_1
     \\
     & = 
-    \langle \psi_2, \Gamma_0 \Gamma_a \psi_1 \rangle
+    \psi_2^\dagger \Gamma_0 \Gamma^a
     \\
     & =
     \overline{\psi}_2 \Gamma_a \psi_1
-    \\
-    & = 
-    \overline{\psi}_1 \Gamma_a \psi_2
   \end{aligned}
   \,.
 $$
@@ -990,14 +1033,14 @@ $$
     \langle g(\psi_1),\Gamma_a g(\psi_2)\rangle
     \\
     & = 
-     \langle \psi_1, \Gamma_0^{-1}g^\dagger\Gamma_0 \Gamma_a g \psi_2 \rangle
+     \langle \psi_1, (\Gamma_0^{-1}g^\dagger\Gamma_0) \Gamma_a g \psi_2 \rangle
     \\
     & = \langle \psi_1 (g^{-1} \Gamma_a g) \psi_2 \rangle
   \end{aligned}
   \,,
 $$
 
-where we used that $\Gamma_0^{-1}(-)^\dagger \Gamma_0$ is the adjoint with respect to the hermitian form $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ and that $g$ is unitary with respect to this hermitian form by prop. \ref{CliffordAlgebraRepresentation}.
+where we used that $\Gamma_0^{-1}(-)^\dagger \Gamma_0$ is the adjoint with respect to the hermitian form $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ (prop. \ref{CliffordRepresentationIsDiracSelfConjugate}) and that $g$ is unitary with respect to this hermitian form by prop. \ref{CliffordAlgebraRepresentation}.
 
 (In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this third statement implicit in equations (II.2.35)-(II.2.39).)
 
@@ -1020,7 +1063,7 @@ $$
     \;\colon\;
   S \times S 
    \longrightarrow
-  \mathbb{R}^{d-1,1}
+  \wedge^2 \mathbb{C}^d
 $$
 
 be the function that takes Majorana spinors $\psi_1$, $\psi_2$ to the skew-symmetric rank 2-tensor with components
@@ -1029,24 +1072,67 @@ $$
   \overline{\psi}_1\Gamma^{a b} \psi_2
     \coloneqq
   i \psi_1^T C \tfrac{1}{2}(\Gamma^a \Gamma^b - \Gamma^b \Gamma^a) \psi_2
-  \,.
+  \,,
 $$
+
 
 =--
 
-Without loss of generality, let the indices be distinct, $a \neq b$.
+
++-- {: .num_prop #RealityOfTheSpinorPairingtoBivectors}
+###### Proposition
+
+For $\psi_1 = \psi_2 = \psi$ then the pairing in prop. \ref{SpinorToRank2TensorBilinearPairing} is real
+
+$$
+  \underset{a,b}{\forall}
+  \;\;\;\;
+  i \overline{\psi} \Gamma^{a b} \psi \in \mathbb{R} \subset \mathbb{C}
+$$
+
+and $Spin(d-1,1)$-equivariant.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivariance follows exactly as in the proof of prop. \ref{SpinorToVectorPairing}. 
+
+The reality is checked by direct computation as follows:
 
 $$
   \begin{aligned}
-    (\overline{\psi}_1\Gamma^{a b} \psi_2)^\ast
+    (\overline{\psi}_1 \Gamma_a \Gamma_b \psi_2)^\ast
     & =
-    (\overline{\psi}_1\Gamma^{a} \Gamma_b \psi_2)^\ast
+    (\psi_1^\dagger \Gamma_a \Gamma_b \psi_2)^\ast
     \\
     & = 
-    spring
+    \psi_2^\dagger (\Gamma_0 \Gamma_a \Gamma_b)^\dagger \psi_1 
+    \\
+    & = 
+    -\langle \psi_2^\dagger \Gamma_0 \Gamma_a \Gamma_b \psi_1 \rangle
+    \\
+    & =
+    -\overline{\psi}_2 \Gamma_a \Gamma_b \psi_1
   \end{aligned}
+  \,,
 $$
 
+where for the identification $(\Gamma_0 \Gamma_a \Gamma_b)^\dagger = - \Gamma_0 \Gamma_a \Gamma_b$ we used the properties in prop. \ref{CliffordAlgebraRepresentation}.
+
+Hence for $\psi_1 = \psi_2$ then 
+
+$$
+  (\overline{\psi} \Gamma_a \Gamma_b \psi)^\ast
+  = 
+  -
+  \overline{\psi} \Gamma_a \Gamma_b \psi
+$$
+
+and so this sign cancels against the sign in $i^\ast = -i$.
+
+=--
 
 ## Appendix
 
@@ -1217,9 +1303,19 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 ## References
 
+The traditional component discussion in terms of a [[charge conjugation matrix]] is discussed for instance in 
+
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
+* {#VanProeyen99} [[Antoine Van Proeyen]], section 3 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
+
+* {#Laenen} [[Eric Laenen]] _Classical Field Theory_ ([web](http://www.nikhef.nl/~t45/ftip/)) chapter on _Gamma matrices_ ([pdf](http://www.nikhef.nl/~t45/ftip/AppendixE.pdf))
+
+The relation to the concept of real structures on complex Spin-representations is highlighted in
+
 * {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
+See also 
 
 * {#Meinrenken13} [[Eckhard Meinrenken]], _Clifford algebras and Lie theory_, Springer (2013)
 
