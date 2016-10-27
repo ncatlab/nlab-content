@@ -83,7 +83,7 @@ We will be discussing three different pairing operations on complex column vecto
 
 Then we use the following conventions on spacetime signature and the correspondig [[Clifford algebra]]:
 
-+-- {: .num_defn}
++-- {: .num_defn #MinkowskiSpacetime}
 ###### Definition
 
 We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ of [[dimension]] $d = s + t$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(t,s)$ ("time", "space"), i.e.
@@ -171,22 +171,25 @@ In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the rem
 
 =--
 
-### Clifford representation
+### Dirac and Weyl representations
+ {#DiracAndWeylRepresentations}
 
 The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{s,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
 
 +-- {: .num_prop #CliffordAlgebraRepresentation}
 ###### Proposition
+(**Dirac representation**)
 
 Let $t = 1$ (Lorentzian signature, def. \ref{LorentzianSignature}) and let 
 
 $$
-  d = s + 1 = 2\nu, 2 \nu + 1
+  d = s + 1 \in \{ 2\nu, 2 \nu + 1 \}
+  \;\;\;\;
+  \text{for}\, \nu \in \mathbb{N}\,,\; d\geq 4
+  \,.
 $$
 
-with $d \geq 4$.
-
-Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ on 
+Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
 
 $$
   V \coloneqq \mathbb{C}^{\nu}
@@ -216,6 +219,8 @@ $$
   \exp(\omega^{a b} \Gamma_{a b})^{-1}
   \,.
 $$
+
+These representations are called the **[[Dirac representations]]**, their elements are called **Dirac spinors**. 
 
 =--
 
@@ -264,7 +269,7 @@ $$
   \,.
 $$
 
-Now proceed by [[induction]]:
+From $d = 4$ we proceed to higher dimension by [[induction]], applying the following two steps:
 
 **odd dimensions**
 
@@ -302,9 +307,9 @@ $$
 
 **even dimensions**
 
-Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in dimension $d = 2 \nu$. 
+Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in even dimension $d = 2 \nu$. 
 
-Then a coresponding representation in dimension $d+2$ is given by setting
+Then a corresponding representation in dimension $d+2$ is given by setting
 
 
 $$
@@ -384,6 +389,35 @@ This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[a
 
 =--
 
++-- {: .num_defn #WeylRepresentation}
+###### Definition
+(**Weyl representation**)
+
+Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element $\Gamma_{d}$ acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]] 
+
+$$
+  V = V_+ \oplus V_-
+$$
+
+of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm 1$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware that in the context of def. \ref{WeylRepresentation}, the chirality operator $\Gamma_{d}$ is traditionally denoted $\Gamma_{d+1}$, i.e. 
+
+* $\{\Gamma_0,\cdots,\Gamma_{d-1}\}$ -- Clifford algebra for $Spin(d-1,1)$;
+
+* $\Gamma_{d+1}$ -- Chirality operator.
+
+This is partiularly common for $d= 4$, in which case the physics literaure usually refers to the chirality operator as "the $\Gamma_5$-matrix".
+
+Clearly this notational convention has its pitfalls once one considers spinors in various dimensions. Nevertheless, even then the convention is often still followed (e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
+
+=--
+
 +-- {: .num_defn #DiracConjugate}
 ###### Definition
 
@@ -418,13 +452,13 @@ $$
 The operator adjoint $\overline{A}$ of a $\nu \times \nu$-matrix $A$ with respect to the Dirac pairing of def. \ref{DiracConjugate}, characterized by
 
 $$
-  \langle A -, -\rangle
+  \langle A (-), (-)\rangle
   = 
-  \langle \overline  - , \overline{A} -\rangle
+  \langle   - , \overline{A} -\rangle
   \;\;\;\text{and} \;\;\;
   \langle  -, A -\rangle
   = 
-  \langle \overline  \overline{A} - ,  -\rangle
+  \langle \overline{A} - ,  -\rangle
 $$
 
 is given by 
@@ -587,13 +621,13 @@ $$
 
 
 
-### Majorana conjugate and Real structure
+### Majorana representations and Real structure
 
 
 +-- {: .num_prop #MajoranaConjugationIsRealStructure}
 ###### Proposition
 
-For $d \in \{4,8,9,10,11\}$, let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Clifford representation according to prop. \ref{CliffordAlgebraRepresentation}, and write 
+For $d \in \{4,8,9,10,11\}$, let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Dirac representation according to prop. \ref{CliffordAlgebraRepresentation}, and write 
 
 $$
   C
@@ -1133,6 +1167,45 @@ $$
 and so this sign cancels against the sign in $i^\ast = -i$.
 
 =--
+
+## Examples
+
+### In dimensions 11, 10, and 9
+
+Let $\{\gamma_a\}$ be a Dirac representation of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
+
+$$
+  \Gamma_{a \leq 8} 
+    \coloneqq
+  \left(
+    \array{
+      0 & \gamma_a
+      \\
+      \gamma_a & 0
+    }
+  \right)
+  \;\,,\;\;
+  \Gamma_{9}
+   \coloneqq
+  \left(
+    \array{
+       0 & id 
+       \\
+       -id & 0
+    }
+  \right)
+  \;\,,\;\;
+  \Gamma_{10}
+   \coloneqq
+  \left(
+    \array{
+      i id & 0
+      \\
+      0 & -i id
+    }
+  \right)
+  \,.
+$$
 
 ## Appendix
 
