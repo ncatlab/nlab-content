@@ -15,11 +15,10 @@
 
 ## Idea
 
-In [[physics]], the [[matrix]] representing a [[bilinear form]] on a [[spin representation]] in a given [[basis]] is also called the _charge conjugation matrix_ on spinors.
+In [[physics]], the [[matrix]] representing a [[bilinear form]] on a real [[spin representation]], i.e. on [[Majorana spinors]] is also called the _charge conjugation matrix_ on spinors.
 
-## Related concepts
+For details see at _[Majorana spinor -- Charge conjugation matrix](Majorana+spinor#ChargeConjugationMatrix)_.
 
-* [[Majorana spinor]]
 
 ## References
 
