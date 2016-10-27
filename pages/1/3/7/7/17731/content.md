@@ -282,10 +282,10 @@ $$
    \coloneqq
   \left\{
     \array{
-      \gamma_a & \text{for}\, a \leq d - 2
+      \gamma_a & \vert \; a \leq d - 2
       \\
       \epsilon \gamma_0 \gamma_1 \cdots \gamma_{d-2}
-       & \text{for} a = d-1
+       & \vert\; a = d-1
     }
   \right.
 $$
@@ -297,9 +297,9 @@ $$
      =
    \left\{
      \array{
-       1 & \text{for}\, \nu \, \text{odd}
+       1 & \vert \; \nu \, \text{odd}
        \\
-       i & \text{for}\, \nu \, \text{even}
+       i & \vert \; \nu \, \text{even}
      }
    \right.
    \,.
@@ -393,7 +393,15 @@ This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[a
 ###### Definition
 (**Weyl representation**)
 
-Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element $\Gamma_{d}$ acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]] 
+Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element 
+
+$$
+  \Gamma_{d}
+    \propto
+  \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
+$$ 
+
+acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]] 
 
 $$
   V = V_+ \oplus V_-
@@ -935,6 +943,57 @@ The first statement is immediate. The second follows by applying transpose to th
 
 =--
 
+### Majorana-Weyl spinors
+
+
++-- {: .num_defn #WeylMajorana}
+###### Definition
+
+In the even dimensions among those dimensions $d$ for which the Majorana projection operator (real structure) $J$ exists (prop. \ref{MajoranaConjugationIsRealStructure}) also the chirality projection operator $\Gamma_{d}$ exists (def. \ref{WeylRepresentation}). Then we may ask that a Dirac spinor $\psi$ is both Majorana, $J(\psi) = \psi$, as well as Weyl, $\Gamma_d \psi = \pm i \psi$. If this is the case, it is called a **Majorana-Weyl spinor**
+
+=--
+
++-- {: .num_prop #WeylMajoranaInLorentzian10d}
+###### Proposition
+
+In Lorentzian signature (def. \ref{LorentzianSignature}) for $4 \leq d \leq 11$, then Majorana-Weyl spinors (def. \ref{WeylMajorana}) exist precisely only in $d = 10$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to prop. \ref{MajoranaConjugationIsRealStructure} Majorana spinors in the given range exist for $d \in \{4,8,9,10,11\}$. Hence the even dimensions among these are $d \in \{4,8,10\}$.
+
+Majorana-Weyl spinors clearly exist precisely if the two relevant projection operators in these dimensions commute with each other, i.e. if
+
+$$
+  [J, \epsilon \Gamma_0 \cdots \Gamma_{d-1}] = 0
+$$
+
+where 
+
+$$
+  \epsilon 
+     =
+   \left\{
+     \array{
+       1 & \vert \; \nu \, \text{odd}
+       \\
+       i & \vert \; \nu \, \text{even}
+     }
+   \right.
+   \,.
+$$
+
+with $d = 2\nu$ (from the proof of prop. \ref{CliffordAlgebraRepresentation}).
+
+By prop. \ref{RealStructureAntiCommutesWithSingleCliffordGenerator} all the $\Gamma_a$ commute or all anti-commute with $J$. Since the product $\Gamma_0 \cdots \Gamma_{d-1}$ contains an even number of these, it commutes with $J$. It follows that $J$ commutes with $\Gamma_d$ precisely if it commutes with $\epsilon$. Now since $J$ is conjugate-linear, this is the case precisely if $\epsilon = 1$, hence precisely if $d = 2\nu$ with $\nu$ odd.
+
+This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neither for $d = 4 = 2 \cdot 2$.
+
+=--
+
 
 ## The spinor bilinear pairing to antisymmetric $p$-tensors
  {#TheSpinorPairingToVectors}
@@ -1175,6 +1234,8 @@ and so this sign cancels against the sign in $i^\ast = -i$.
 ### In dimensions 11, 10, and 9
  {#InDimensions11And10And9}
 
+We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
+
 Let $\{\gamma_a\}$ be a Dirac representation of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
 
 $$
@@ -1210,30 +1271,30 @@ $$
   \,.
 $$
 
-By prop. \ref{CliffordAlgebraRepresentation} the Dirac Weyl representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] is neatly written as
+By prop. \ref{CliffordAlgebraRepresentation} the Dirac Weyl representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real/Majorana [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] (remark \ref{SuperPoincareOutlook}) is neatly written as
 
 $$
   \mathbb{R}^{10,1\vert \mathbf{32}}
 $$
 
-which thus serves to express both, the real dimension of the space of odd-graded coordinate functions at every point on it, as well as the way that the $Spin(10,1)$-cover of the [[Lorentz group]] $SO(10,1)$ acts on these. 
+which thus serves to express both, the real dimension of the space of odd-graded coordinate functions at every point on it, as well as the way that the $Spin(10,1)$-cover of the [[Lorentz group]] $SO(10,1)$ acts on these. This is the local model space for [[super spacetimes]] in [[11-dimensional supergravity]].
 
-As we regard this $\mathbf{32}$ instead as the Dirac representation of $Spin(9,1)$ via def. \ref{WeylRepresentation}, then it decomposes into to chiral halfs, each of real dimension 16, which often are denoted $\mathbf{16}$ and $\overline{\mathbf{16}}$. Hence as $Spin(9,1)$-representations there is a [[direct sum]] decomposition
+As we regard $\mathbb{C}^{32}$ instead as the Dirac representation of $Spin(9,1)$ via def. \ref{WeylRepresentation}, then it decomposes into to chiral halfs, each of complex dimension 16. This is the direct sum decomposition in terms of which the block decomposition of the above Clifford matrices is given.
+
+Since in 10d the Weyl condition is compatible with the Majorana condition (by prop. \ref{WeylMajoranaInLorentzian10d}), the real Majorana representation $\mathbf{32}$ correspondingly decomposes as a direct sum two real representations of dimension 116 which often are denoted $\mathbf{16}$ and $\overline{\mathbf{16}}$. Hence as real/Majorana $Spin(9,1)$-representations there is a [[direct sum]] decomposition
 
 $$
   \mathbf{32} \simeq \mathbf{16} \oplus \overline{\mathbf{16}}
   \,.
 $$
 
-This is the direct sum decomposition in terms of which the block decomposition of the above Clifford matrices is given.
-
-The corresponding [[super Minkowski spacetime]]
+The corresponding [[super Minkowski spacetime]] (remark \ref{SuperPoincareOutlook})
 
 $$
   \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
 $$
 
-is sometimes called "type IIA", since this is the local model space for [[superspacetimes]]  in [[type IIA supergravity]].
+is said to be of "type IIA", since this is the local model space for [[superspacetimes]]  in [[type IIA supergravity]]. This is as opposed to $\mathbb{R}^{9,1\vert \mathbf{16}\oplus \mathbf{16}}$, which is "type IIB" and in contrast to $\mathbb{R}^{9,1\vert \mathbf{16}}$ which is "heterotic" (the local model space for [[heterotic supergravity]]).
 
 Now the Dirac-Weyl representation for $Spin(8,1)$ is of complex dimension $d = 2^{8/2} = 2^4 = 16$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this also admits real structure, and hence gives a Majorana representation fro $Spin(8,1)$, accordingly denoted $\mathbf{16}$. Notice that this is Majorana-Weyl.
 
@@ -1299,7 +1360,7 @@ for short.
 
 Then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
 
-We define the spinor-to-vector bilinear pairing on $\mathbf{16} \oplus \overline{\mathbf{16}}$ to be the _difference_ of spinor-to-vector pairings of either, according to def. \ref{SpinorToVectorBilinearPairing}:
+We define the type IIA spinor-to-vector bilinear pairing on $\mathbf{16} \oplus \overline{\mathbf{16}}$ to be the _difference_ of the spinor-to-vector pairings of either, according to def. \ref{SpinorToVectorBilinearPairing}:
 
 $$
   \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
@@ -1318,10 +1379,78 @@ $$
   \,.
 $$
 
-This makes sense because the pairing preserves the chiral splitting, since 
+(Recall that this makes sense due to the Majorana-Weyl condition in 10d, from prop. \ref{WeylMajoranaInLorentzian10d}, already used above.)
+
+Notice that because 
+
+$$
+  \Gamma_{10}
+    = 
+  \left(
+    \array{
+       i id & 0 
+       \\
+       0 & -i id
+    }
+  \right)
+$$
+
+(by the above), then in terms of $\vartheta = \left(\array{\psi_1 \\ \psi_2}\right)$ this is proportional to simply the $(a,10)$-component of the spinor-to-bivector pairing from def. \ref{SpinorToRank2TensorBilinearPairing}
+
+(...)
+
+$$
+  \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+   \Gamma^a
+  \left(
+    \array{\psi_1 \\ \psi_2}
+  \right)
+   = 
+  -i
+  \overline{\vartheta}
+    \Gamma^a
+    \Gamma^{10}
+   \vartheta
+  \,.
+$$
+
+Now consider 
+
+$$
+  \begin{aligned}
+    i
+    \overline{\vartheta}
+      \Gamma^9
+      \Gamma^{10}
+     \vartheta  
+     & = 
+     i
+     \vartheta^\dagger
+     \Gamma_0 \Gamma^9 \Gamma^{10}
+     \vartheta
+     \\   
+     &= 
+     \vartheta^\dagger
+     \left(
+       \array{
+         \gamma_0 & 0
+         \\
+         0 & \gamma_0 
+       }
+     \right)
+     \vartheta
+     \\
+     & = 
+      \overline{\psi}_1 \Gamma^9 \psi
+       -
+      \overline{\psi}_2 \Gamma^9 \psi
+     \\
+     & = \
+  \end{aligned}
+$$
 
 
-
+(...)
 
 ## Appendix
 
