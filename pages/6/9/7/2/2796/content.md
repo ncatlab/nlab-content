@@ -15,7 +15,7 @@
 
 ## Idea ##
 
-A _thin homotopy_ between paths $f,g: I \to X$ in a [[topological space]] $X$ (with $I = [0,1]$ the standard [[interval]]) is a [[homotopy (as a transformation)|homotopy]] $I\times I \to I$ which, roughly speaking, has zero area. 
+A _thin homotopy_ between paths $f,g: I \to X$ in a [[topological space]] $X$ (with $I = [0,1]$ the standard [[interval]]) is a [[homotopy (as a transformation)|homotopy]] $I\times I \to X$ which, roughly speaking, has zero area. 
 
 ## Definition
 
