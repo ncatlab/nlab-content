@@ -36,7 +36,7 @@ $$
   log_\phi(u) = \int_{0^u} (1- 2 \delta t^2+  \epsilon t^4)^{-1/2}
 $$
 
-for some constants $\delta, \epsilon$. Hence in for non-degenrate choices of parameters ($\delta^2 \neq \epsilon$ and $\epsilon \neq 0$) in the square root this is the expansion at 0 of an elliptic function. 
+for some constants $\delta, \epsilon$. Hence for non-degenerate choices of parameters ($\delta^2 \neq \epsilon$ and $\epsilon \neq 0$) in the square root this is the expansion at 0 of an elliptic function. 
 
 So the logarithm here is an [[elliptic integral]] and that was the original reason for the term "elliptic genus".
 
