@@ -117,10 +117,10 @@ $$
   \phi \colon \Omega^{U/SO}_\bullet \longrightarrow R
 $$
 
-is detrmined already by its rationalization
+is determined already by its rationalization
 
 $$
-  \phi \colon \Omega^{U,SO}_\bullet\otimes \mathbb{R} \longrightarrow R \otimes \mathbb{Q}
+  \phi \colon \Omega^{U,SO}_\bullet\otimes \mathbb{Q} \longrightarrow R \otimes \mathbb{Q}
 $$
 
 which is traditionally denoted by the same symbol. The rational [[cobordism rings]] in turn are known to be [[polynomial rings]]
@@ -240,7 +240,7 @@ This means that $\prod_{i = 1}^n K_\phi(x_i(T X))$ is the function of [[Chern cl
 
 ### Todd genus
 
-The [[Todd genus]] us the genus with logarithm
+The [[Todd genus]] is the genus with logarithm
 
 $$
   -log_{Todd}(1-x) = \sum_{n \in \mathbb{N}} \frac{x^n}{n}
@@ -287,7 +287,7 @@ $$
 
 for constants $\delta, \epsilon$ with non-degenerate values $\delta^2 \neq \epsilon$ and $\epsilon = 0$. 
 
-For degenerate choices this reproduces the [[signature genus]] and the [[A-hat genus]] above, see at _[[elliptic genus]]_ for more. For non-degenrate values one may regard $\epsilon$ and $\delta$ as values of [[modular forms]] of the same name and hence regard all elliptic genera together as one single genus with [[coefficients]] in $MF_\bullet(\Gamma_0(2))$. This "universal" elliptic genus us the _[[Witten genus]]_.
+For degenerate choices this reproduces the [[signature genus]] and the [[A-hat genus]] above, see at _[[elliptic genus]]_ for more. For non-degenerate values one may regard $\epsilon$ and $\delta$ as values of [[modular forms]] of the same name and hence regard all elliptic genera together as one single genus with [[coefficients]] in $MF_\bullet(\Gamma_0(2))$. This "universal" elliptic genus is the _[[Witten genus]]_.
 
 ### Witten genus
 
@@ -320,7 +320,7 @@ $$
 where $G_k$ are the [[Eisenstein series]] ([Ando-Hopkins-Strickland 01](AndoHopkinsStrickland01), [Ando-Hopkins-Rezk 10, prop. 10.9](#AndoHopkinsRezk10)). (Notice that the constant term in $G_k$ is proportional to the $k$th [[Bernoulli number]], so that indeed the exponential expression matches that for the [A-hat genus above](#AhatGenus).)
 
 
-On [[manifolds]] with [[spin structure]] whe Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ 
+On [[manifolds]] with [[spin structure]] the Witten genus takes values in $\mathbb{Z}[ [ q ] ]$ 
 
 On manifolds with rational [[string structure]] it takes values in (the $q$-expansion of) [[modular forms]] for $SL_2(\mathbb{Z})$, meaning that setting $q = e^{2 \pi i \tau}$ then as a function $f$ of the parameter $\tau$ taking values in the [[upper half plane]] the Witten genus satisfies
 
