@@ -764,6 +764,12 @@ $$
 $$
 
 
+=--
+
++-- {: .num_defn #MajoranaRepresentation}
+###### Definition
+
+Prop. \ref{MajoranaConjugationIsRealStructure} implies that given a [[Dirac representation]] (prop. \ref{CliffordAlgebraRepresentation}) $V$, then the real subspace $S \hookrightarrow V$ of real elements, i.e. elements $\psi$ with $J \psi = \psi$ according to prop. \ref{MajoranaConjugationIsRealStructure} is a [[sub-representation]]. This is called the **Majorana representation** inside the Dirac representation (if it exists).
 
 =--
 
@@ -949,7 +955,7 @@ The first statement is immediate. The second follows by applying transpose to th
 +-- {: .num_defn #WeylMajorana}
 ###### Definition
 
-In the even dimensions among those dimensions $d$ for which the Majorana projection operator (real structure) $J$ exists (prop. \ref{MajoranaConjugationIsRealStructure}) also the chirality projection operator $\Gamma_{d}$ exists (def. \ref{WeylRepresentation}). Then we may ask that a Dirac spinor $\psi$ is both Majorana, $J(\psi) = \psi$, as well as Weyl, $\Gamma_d \psi = \pm i \psi$. If this is the case, it is called a **Majorana-Weyl spinor**
+In the even dimensions among those dimensions $d$ for which the Majorana projection operator (real structure) $J$ exists (prop. \ref{MajoranaConjugationIsRealStructure}) also the chirality projection operator $\Gamma_{d}$ exists (def. \ref{WeylRepresentation}). Then we may ask that a Dirac spinor $\psi$ is both Majorana, $J(\psi) = \psi$, as well as Weyl, $\Gamma_d \psi = \pm i \psi$. If this is the case, it is called a **Majorana-Weyl spinor**, and the [[sub-representation]] these form is a called a _Majorana-Weyl representation_.
 
 =--
 
@@ -1229,6 +1235,75 @@ and so this sign cancels against the sign in $i^\ast = -i$.
 
 =--
 
+## Supersymmetry: Super-Poincar&#233; and super-Minkowski
+
+Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra extension]] fo the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. 
+
+Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
+
+$$
+  \mathbb{R}^{d-1,1}
+   \simeq
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
+$$
+
+(namely as the Lie algebra of translations along itself), every [[super Lie algbra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algbra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
+
++-- {: .num_defn #SuperMinkowskiSpacetime}
+###### Definition
+
+Let $d \in \mathbb{N}$ and let $N \in Rep(Spin(d-1,1))$ be a real spin representation, hence a [[direct sum]] of Majorana representations (def. \ref{MajoranaRepresentation}) and/or Majorana-Weyl representations (def. \ref{WeylMajorana}) (or tensor product of two symplectic Majorana representations...).
+
+We define the corresponding **[[super Poincaré Lie algebra]]** 
+
+$$
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
+$$
+
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_). 
+
+This is generated on 
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+where $a \in \{0,1, \cdots, d-1\}$ is a spacetime index, and where $\alpha$ is an index ranging over a basis of the chosen Majorana spinor representation $N$.
+
+The CE-differential is defined as follows
+
+$$
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+and
+
+$$
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+(which so far is the differential for the [[semidirect product]] of the [[Poincaré Lie algebra]] [[action|acting]] on the given [[Majorana spinor]] representation)
+
+and
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
+$$
+
+where on the right we have the spinor-to-vector pairing in $N$ (def. \ref{SpinorToVectorBilinearPairing}). 
+
+That this is indeed a [[super Lie algebra]] follows from the fact that the [[Poincaré Lie algebra]] is a [[Lie algebra]] and the fact that the spinor-to-vector pairing is symmetric (which makes it qualify as the odd-odd component of a super-Lie algebra) and $Spin(d-1,1)$-equivariant (which is seen to be the super-[[Jacobi identity]] for it), all according to prop. \ref{SpinorToVectorPairing}.
+
+This defines the [[super Poincaré super Lie algebra]]. After discarding the terms involving $\omega$ this becomes the CE algebra of the [[super translation algebra]] underlying [[super Minkowski spacetime]] 
+
+$$
+  \mathbb{R}^{d-1,1\vert N}
+  \,.
+$$
+
+=--
+
 ## Examples
 
 ### In dimensions 11, 10, and 9
@@ -1236,7 +1311,10 @@ and so this sign cancels against the sign in $i^\ast = -i$.
 
 We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
 
-Let $\{\gamma_a\}$ be a Dirac representation of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
++-- {: .num_defn #DiracRepInD11FromD9}
+###### Definition
+
+Let $\{\gamma_a\}$ be any [[Dirac representation]] of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
 
 $$
   \Gamma_{a \leq 8} 
@@ -1271,7 +1349,13 @@ $$
   \,.
 $$
 
-By prop. \ref{CliffordAlgebraRepresentation} the Dirac Weyl representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real/Majorana [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] (remark \ref{SuperPoincareOutlook}) is neatly written as
+=--
+
++-- {: .num_remark #SpinRepsFrom11dToTDuality}
+###### Remark
+
+
+By prop. \ref{CliffordAlgebraRepresentation} the Dirac representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real/Majorana [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] (remark \ref{SuperPoincareOutlook}) is neatly written as
 
 $$
   \mathbb{R}^{10,1\vert \mathbf{32}}
@@ -1321,7 +1405,8 @@ $$
   \,.
 $$
 
-Write a Majorana spinor in $\mathbf{32}$ as $\vartheta \in \mathbb{C}^{32}$, decomposed as a $(1 \times 32)$-matrix as
+
+If we write a Majorana spinor in $\mathbf{32}$ as $\vartheta \in \mathbb{C}^{32}$, decomposed as a $(1 \times 32)$-matrix as
 
 $$
   \vartheta
@@ -1336,7 +1421,7 @@ $$
   \,.
 $$
 
-We will write 
+and if we write for short
 
 $$
   \psi_1 
@@ -1356,13 +1441,15 @@ $$
   \right)
 $$
 
-for short.
+then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
 
-Then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
+=--
 
-The type IIA spinor-to-vector pairing is just that of 11d under this re-interpretation. We find
 
-+-- {: .num_prop } 
+
+The type IIA spinor-to-vector pairing is just that of 11d under this re-interpretation. We find:
+
++-- {: .num_prop #typeIIASpinorToVectorPairing} 
 ###### Proposition
 
 The type IIA spinor-to-vector pairing is given by
@@ -1473,7 +1560,7 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #typeIIBSpinorToVectorPairing}
 ###### Proposition
 
 The type IIB spinor-to-vector pairing is
@@ -1574,6 +1661,118 @@ $$
 $$
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+We have
+
+1. The 11d $N = 1$ [[super-Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (def. \ref{SuperMinkowskiSpacetime}) is the  [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of the 10d type IIA [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$ by the 2-cocycle 
+
+   $$
+     c_2 \coloneqq \overline{\psi} \wedge \Gamma_{10} \psi
+     \;\;\;
+     \in 
+     CE(\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}})
+   $$
+
+   (from def. \ref{SpinorToVectorBilinearPairing}).
+
+1. The 10d type IIA [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$  is [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of th 9d $N = 2$ [[super-Minkowski spacetime]] by the 2-cocycle given by the type IIA spinor-to-vector pairing 
+
+   $$
+     c_2^{IIA}
+      \;\coloneqq\;
+     \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+      \wedge \Gamma_a^{IIA}
+      \left(
+       \array{\psi_1 \\ \psi_2}
+      \right)
+        \;\;\;\in
+      CE(\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}})
+   $$ 
+
+   (from prop. \ref{typeIIASpinorToVectorPairing}).
+
+1. The 10d type IIB [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \mathbf{16}}$  is [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of th 9d $N = 2$ [[super-Minkowski spacetime]] by the 2-cocycle given by the type IIB spinor-to-vector pairing 
+
+   $$
+     c_2^{IIB}
+     \;\coloneqq\;
+     \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+      \Gamma_a^{IIB}
+      \left(
+       \array{\psi_1 \\ \psi_2}
+      \right)
+      \;\;\;
+      \in CE(\mathbb{R}^{8,1}\vert \mathbf{16} + \mathbf{16})
+   $$ 
+
+   (from prop. \ref{typeIIBSpinorToVectorPairing}).
+
+In summary, we have the following [[diagram]] in the [[category]] of [[super L-infinity algebras]]
+
+$$
+  \array{
+    && && \mathbb{R}^{10,1\vert \mathbf{32}}
+    \\
+    && && \downarrow
+    \\
+    \mathbb{R}^{9,1\vert \mathbf{16} + \mathbf{16}}
+      && &&
+    \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+     &\overset{c_2}{\longrightarrow}&
+    B \mathbb{R}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}}
+    \\
+    & {}^{\mathllap{c_2^{IIB}}}\swarrow && \searrow^{\mathrlap{c_2^{IIA}}}
+    \\
+    B \mathbb{R} && && B \mathbb{R}
+  }
+  \,,
+$$
+
+
+where $B\mathbb{R}$ denotes the [[line Lie 2-algebra]], and where each "hook" 
+
+$$
+  \array{
+    \widehat{\mathfrak{g}}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g}
+      &\overset{\omega_2}{\longrightarrow}&
+    B\mathbb{R}
+  }
+$$
+
+is a [[homotopy fiber sequence]] (because homotopy fibers of super $L_\infty$-algebra cocycles are the corresponding extension that they classify, see at _[[L-infinity algebra cohomology]]_).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the given 2-forms are indeed cocycles: they are trivially closed (by def. \ref{SuperMinkowskiSpacetime}), and so all that matters is that we have a well defined super-2-form in the first place. Since the $\psi^\alpha$ are in bidegree $(1,odd)$, they all commutes with each other (see at _[[signs in supergeometry]]_) and hece the condition is that the pairing is symmetric. This is the case by prop. \ref{SpinorToVectorPairing}.
+
+Now to see the extensions. Notice that for $\mathfrak{g}$ any ([[super Lie algebra|super]]) [[Lie algebra]] (of finite dimension, for convenience), and for $\omega \in \wedge^2\mathfrak{g}^\ast$ a [[Lie algebra cohomology|Lie algebra 2-cocycle]] on it, then the [[Lie algebra extension]] $\widehat{\mathfrak{g}}$ that this classifies is neatly characterized in terms of its dual [[Chevalley-Eilenberg algebra]]: that is simply the original CE algebra with one new generator $e$ (in degree $(1,even)$) adjoined, and with the differential of $e$ taking to be $\omega$:
+
+$$
+  CE(\widehat{\mathfrak{g}})
+   =
+  (CE(\mathfrak{g}) \otimes \langle e\rangle), d e = \omega)
+  \,.
+$$
+
+Hence in the case of $\omega = c_2^{IIA}$ we identify the new generator with $e^9$ and see that the equation $d e^9 = c_2^{IIA}$ is precisely what distinguishes the CE-algebra of $\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}}$ from that of $\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}$, by def. \ref{DiracRepInD11FromD9} and the fact that both spin representation have the same underlying space, by remark \ref{SpinRepsFrom11dToTDuality}.
+
+The other two cases are directly analogous.
+
+=---
 
 ## Appendix
 
