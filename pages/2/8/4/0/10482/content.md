@@ -575,16 +575,16 @@ In summary this establishes a [[chain map]] $CE^\bullet \longrightarrow CE^\bull
 
 ### Internalization sign rule
 
-The internalization sign rule follows for instance from applying the construction of [[internalization|internal]] [[Grassmann algebras]] in the [[category]] of [[super vector space]] as discussed on p. 165 of
-
-* {#Deligne90} [[Pierre Deligne]], _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
-  (1990)
   
 
 The [[internalization]] into the [[topos]] over [[superpoints]] is due to 
 
 * {#Schwarz84} [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
-  
+
+The internalization sign rule follows for instance from applying the construction of [[internalization|internal]] [[Grassmann algebras]] in the [[category]] of [[super vector space]] as discussed in 
+
+* {#Deligne90} [[Pierre Deligne]], p. 165  _[[Catégories Tannakiennes]],  [[Grothendieck Festschrift]], vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.    
+ 
 The corresponding internal sign rule appears for instance in 
 
 * {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equations (II.2.106) and (II.2.109) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
@@ -592,14 +592,13 @@ The corresponding internal sign rule appears for instance in
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_, 1999 ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
    
-
-which appears in
+  which appears in
  
-* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
+  * [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094)).
 
-which in turn appears in 
+    which in turn appears in 
 
-* [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+    * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 ### Super odd sign rule
 
