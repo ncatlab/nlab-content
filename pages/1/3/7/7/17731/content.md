@@ -1311,8 +1311,8 @@ $$
 
 We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
 
-+-- {: .num_defn #DiracRepInD11FromD9}
-###### Definition
++-- {: .num_prop #DiracRepInD11FromD9}
+###### Proposition
 
 Let $\{\gamma_a\}$ be any [[Dirac representation]] of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
 
@@ -1486,7 +1486,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We compute:
+Using that on Majorana spinors the Majorana conjugate coincides with the Dirac conjugate (prop. \ref{TheMajoranaConditionInComponents}) and applying prop. \ref{DiracRepInD11FromD9} we compute:
 
 $$
   \begin{aligned}
@@ -1594,11 +1594,13 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The type II pairing spinor-to-vector pairing is obtained from the type IIA pairing by replacing all bottom right matrix entries (those going $\overline{\mathbf{16}}\to \overline{\mathbf{16}}$ by the corresponding top left entries (those going $\mathbf{16} \to \mathbf{16}$ )). Notice that in fact all these block entries are the same, except for the one at $a = 9$, where they simply differ by a sign. This yields the claim.
+The type II pairing spinor-to-vector pairing is obtained from the type IIA pairing of prop. \ref{typeIIASpinorToVectorPairing} by replacing all bottom right matrix entries (those going $\overline{\mathbf{16}}\to \overline{\mathbf{16}}$ by the corresponding top left entries (those going $\mathbf{16} \to \mathbf{16}$ )). Notice that in fact all these block entries are the same, except for the one at $a = 9$, where they simply differ by a sign. This yields the claim.
 
 =--
 
-+-- {: .num_prop } 
+Notice also the following relation between the different pairing in dimensions 11, 10 and 9:
+
++-- {: .num_prop #9ComponentOfIIBPairing} 
 ###### Proposition
 
 The $(9,10)$-component of the spinor-to-bivector pairing (def. \ref{SpinorToRank2TensorBilinearPairing}) in 11d equals the 9-component of the type IIB spinor-to-vector pairing
@@ -1622,7 +1624,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-We compute:
+Using prop. \ref{DiracRepInD11FromD9} and prop. \ref{typeIIBSpinorToVectorPairing} we compute:
 
 $$
   \begin{aligned}
@@ -1662,7 +1664,9 @@ $$
 
 =--
 
-+-- {: .num_prop}
+The following is an evident variant of the extensions considered in ([CAIB 99](#CAIB99), [FSS 13](#FiorenzaSatiSchreiber13)).
+
++-- {: .num_prop #TypeIIExtension}
 ###### Proposition
 
 We have
@@ -1705,7 +1709,7 @@ We have
        \array{\psi_1 \\ \psi_2}
       \right)
       \;\;\;
-      \in CE(\mathbb{R}^{8,1}\vert \mathbf{16} + \mathbf{16})
+      \in CE(\mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}})
    $$ 
 
    (from prop. \ref{typeIIBSpinorToVectorPairing}).
@@ -1768,17 +1772,113 @@ $$
   \,.
 $$
 
-Hence in the case of $\omega = c_2^{IIA}$ we identify the new generator with $e^9$ and see that the equation $d e^9 = c_2^{IIA}$ is precisely what distinguishes the CE-algebra of $\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}}$ from that of $\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}$, by def. \ref{DiracRepInD11FromD9} and the fact that both spin representation have the same underlying space, by remark \ref{SpinRepsFrom11dToTDuality}.
+Hence in the case of $\omega = c_2^{IIA}$ we identify the new generator with $e^9$ and see that the equation $d e^9 = c_2^{IIA}$ is precisely what distinguishes the CE-algebra of $\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}}$ from that of $\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}$, by prop. \ref{DiracRepInD11FromD9} and the fact that both spin representation have the same underlying space, by remark \ref{SpinRepsFrom11dToTDuality}.
 
 The other two cases are directly analogous.
 
 =---
 
+Recall the following (e.g. from [FSS 16](#FiorenzaSatiSchreiber16) and references given there):
+
++-- {: .num_defn #M2CoycleAndIIAStringCocycle}
+###### Definition
+
+The cocycle for the [[higher WZW term]] of the [[Green-Schwarz sigma-model]] for the [[M2-brane]] is
+
+$$
+  \mu_{M2}
+    \coloneqq
+  i\,\overline{\vartheta} \wedge \Gamma_a \Gamma_b \vartheta \wedge e^a \wedge e^b
+  \;\;\;
+  \in 
+  CE(\mathbb{R}^{10,1\vert \mathbf{32}})
+$$
+
+obtained from the spinor-to-bivector pairing of def. \ref{SpinorToRank2TensorBilinearPairing}. 
+(Here and in the following we are using the nation from remark \ref{SpinRepsFrom11dToTDuality}.)
+
+The cocycle for the [[WZW term]] of the [[Green-Schwarz sigma-model]] for the [[type IIA string theory|type IIA]] [[superstring]] is 
+
+$$
+  \mu_{IIA}
+   \coloneqq
+  i\,\overline{\vartheta} \wedge \Gamma_a \Gamma_{10} \vartheta \wedge e^a
+  =
+  i\, 
+  \overline{\left(
+    \array{\psi_1 \\ \psi_2}
+  \right)}
+    \Gamma_a \Gamma_{10}
+  \left(
+    \array{\psi_1 \\ \psi_2}
+  \right)
+  \;\;\;
+  \in
+  CE(\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}})
+  \,,
+$$
+
+i.e. this is the the $e^{10}$-component of $\mu_{M2}$ ("[[double dimensional reduction]]" [FSS 16](#FiorenzaSatiSchreiber16)):
+
+$$
+  \mu_{IIA} = (\pi_{10})_\ast \mu_{M2}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #DDReductionOfIIAStringCocycle}
+###### Proposition
+
+The $e^9$-component of the cocycle for the IIA-superstring (def. \ref{M2CoycleAndIIAStringCocycle}), regarded as an element in $CE(\mathbb{R}^{8,1}\vert \mathbf{16} + \mathbf{16})$, equals the 2-cocycle that defines the type IIB extension, according to prop. \ref{TypeIIExtension}:
+
+$$
+  (\pi_9)_\ast \mu_{IIA} = c_2^{IIB}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have
+
+$$
+  \begin{aligned}
+    (\pi_9)_\ast \mu_{IIA}
+      & =
+    i\, 
+    \overline{\left(
+      \array{\psi_1 \\ \psi_2}
+    \right)}
+      \Gamma_9 \Gamma_{10}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    \\
+    & =
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    \\
+    & = 
+    c_2^{IIB}
+  \end{aligned}  
+$$
+
+where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the second is the statement of prop. \ref{9ComponentOfIIBPairing}, while the third is from prop. \ref{TypeIIExtension}.
+
+
+=--
+
+
+
 ## Appendix
 
 ### Review of unitary representations with real structure
 
-For reference, we here collect some basic definition on [[unitary represntations]] equipped with [[real structure]].
+For reference, we here collect some basics regarding [[unitary representations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -1964,6 +2064,15 @@ See also
 * Theodor Br&#246;cker, [[Tammo tom Dieck]], _Representations of Compact Lie Groups_, Springer (1985)
 
 * Wikipedia, _[Majorana fermion](https://en.wikipedia.org/wiki/Majorana_fermion)_
+
+The above discussion of cocycles on super-Minkowski spacetimes draws from
+
+* {#CAIB99} C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+
+* {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
+* {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206)) 
+
 
 
 [[!redirects Majorana spinors]]
