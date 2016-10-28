@@ -49,11 +49,25 @@ Moreover, by an adaptation of the proof, one can construct a [[looping combinato
 
 * [[Cantor's paradox]]
 
+* [[cumulative hierarchy]]
+
 ## References
+
+English translations of Burali-Forti's 1897 contributions can be found in
+
+* J. van Heijenoort (ed.), _From Frege to G&#246;del: A Source Book in Mathematical Logic 1879-1931_ , Harvard UP 1967.
+
+Another early reference on the set-theoretic paradoxes is
+
+* D. Mirimanoff, _Les antinomies de Russell et de Burali-Forti et le probl&#232;me fondamental de la th&#233;orie des ensembles_ , L'enseignement Math&#233;matique **19** (1917) pp.37-52. ([pdf](http://retro.seals.ch/cntmng?pid=ensmat-001:1917:19::9); 19,4MB)
 
 Girard's paradox is discussed in 
 
 * {#MartinLoef74} [[Per Martin-Löf]], section 1.9, p. 7 of  _An intuitionistic theory of types: predicative part_, In Logic Colloquium (1973), ed. H. E. Rose and J. C. Shepherdson (North-Holland, 1974), 73-118. ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.131.926))
+
+* [[Thierry Coquand]], _An analysis of Girard's paradox_ , pp.227-236 in _Proc. 1st Ann. Symb. Logic in Computer Science_ , IEEE Washington 1986. ([ps-draft](http://www.cse.chalmers.se/~coquand/paradox.ps))
+
+
 
 category: paradox
 
