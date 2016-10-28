@@ -48,6 +48,8 @@ We briefly review some basics of the canonical [[coordinates]] and the super [[L
 
 By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$ by its CE-algebra $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ "of [[left-invariant 1-forms]]" on its group manifold.
 
+Let $d \in \mathbb{N}$ and let $N$ be a real [[spin representation]] of $Spin(d-1,1)$. See at _[[Majorana representation]]_ for details.
+
 +-- {: .num_defn #CEAlgebraOfSuperPoincare}
 ###### Definition
 
@@ -57,26 +59,36 @@ The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ i
 
 * and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
 
-with the differential defined by
+where $a \in \{0,1, \cdots, d-1\}$ is a spacetime index, and where $\alpha$ is an index ranging over a basis of the chosen [[Majorana spinor]] representation $N$.
+
+The CE-differential defined as follows
 
 $$
   d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
 $$
 
-$$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
-$$
+and
 
 $$
   d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
   \,.
 $$
 
-Discarding the terms involving $\omega$ here this is the CE algebra of the [[super translation algebra]] underlying super Minkowski spacetime.
+(which is the differential for the [[semidirect product]] of the [[Poincaré Lie algebra]] [[action|acting]] on the given [[Majorana spinor]] representation)
+
+and
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
+$$
+
+where on the right we have the spinor-to-vector pairing in $N$ ([def.](Majorana+spinor#SpinorToVectorBilinearPairing)).
+
+This defines the [[super Poincaré super Lie algebra]]. After discarding the terms involving $\omega$ this becomes the CE algebra of the [[super translation algebra]] underlying super Minkowski spacetime.
 
 =--
 
-In this way the super-Poincar&#233; Lie algebra and its extensions is usefully discussed for instance in ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and in ([Azc&#225;rraga-Townsend 89](AzcarragaTownsend89), [CAIB 99](#CAIB99)). In much of the literature instead the following equivalent notation is popular, which more explicitly involves the [[coordinates]] on [[super Minkowski space]].
+In this way the [[super-Poincaré Lie algebra]] and its extensions is usefully discussed for instance in ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and in ([Azc&#225;rraga-Townsend 89](AzcarragaTownsend89), [CAIB 99](#CAIB99)). In much of the literature instead the following equivalent notation is popular, which more explicitly involves the [[coordinates]] on [[super Minkowski space]].
 
 +-- {: .num_remark }
 ###### Remark
