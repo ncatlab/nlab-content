@@ -47,6 +47,8 @@ The dual concept is that of _[[n-epimorphism]]_.
 
 * [[Postnikov system]]
 
+* [[(n-connected, n-truncated) factorization system]]
+
 [[!redirects n-monomorphisms]]
 
 [[!redirects 0-monomorphism]]
