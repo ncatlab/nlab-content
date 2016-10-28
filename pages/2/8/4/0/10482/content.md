@@ -34,6 +34,8 @@ $$
    \,.
 $$
 
+(e.g. [Castellani-D'Auria-Fr&#233; 91, (II.2.109)](#CastellaniDAuriaFre91))
+
 This we discuss below at _[The sign rule from internalization](#TheSignRuleFromInternalization)_.
 
 Parts of the literature however adops another sign rule, given by
@@ -585,7 +587,7 @@ The [[internalization]] into the [[topos]] over [[superpoints]] is due to
   
 The corresponding internal sign rule appears for instance in 
 
-* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equation (II.2.106) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#CastellaniDAuriaFre91} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], equations (II.2.106) and (II.2.109) in _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Dan Freed]], _Sign manifesto_, 1999 ([pdf](http://publications.ias.edu/sites/default/files/79_SignManifesto.pdf)) 
