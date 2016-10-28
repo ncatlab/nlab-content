@@ -1688,7 +1688,7 @@ We have
      c_2^{IIA}
       \;\coloneqq\;
      \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
-      \wedge \Gamma_a^{IIA}
+      \wedge \Gamma_9^{IIA}
       \left(
        \array{\psi_1 \\ \psi_2}
       \right)
@@ -1702,9 +1702,10 @@ We have
 
    $$
      c_2^{IIB}
-     \;\coloneqq\;
+       \;\coloneqq\;
      \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
-      \Gamma_a^{IIB}
+      \wedge
+      \Gamma_9^{IIB}
       \left(
        \array{\psi_1 \\ \psi_2}
       \right)
