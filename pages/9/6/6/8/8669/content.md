@@ -60,6 +60,10 @@ over the [[complex numbers]], [[line bundles]] on a Jacobian variety over a give
 
 * A. Beauville, _Jacobiennes des courbes spectrales et syst&#232;mes Hamiltoniens compl&#232;tement int&#233;grables_, Acta Math. __164__ (1990), 211-235.
 
+A generalizatioin of Abel-Jacobi map to the setting of formal deformation theory is in
+
+* [[Domenico Fiorenza]], Marco Manetti, _Formal Abel-Jacobi maps_, [arxiv/1610.08684](https://arxiv.org/abs/1610.08684)
+
 Review for [[Riemann surfaces]] includes
 
 * [[Razvan Gelca]], [[Alejandro Uribe]], section 2 of _From classical theta functions to topological quantum field theory_  ([arXiv:1006.3252](http://arxiv.org/abs/1006.3252), [slides pdf](http://www.math.ttu.edu/~rgelca/berk.pdf))
