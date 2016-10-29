@@ -449,16 +449,25 @@ For applications in [[string theory]] see also
 
 The notion of _bundle gerbe_ as such was introduced in
 
-* [[Michael Murray]], _Bundle gerbes_ ([arXiv:dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015))
+* [[Michael Murray]], _Bundle gerbes_, J.Lond.Math.Soc. **54** (1996) pp403-416,
+ arXiv:[dg-ga/9407015](http://arxiv.org/abs/dg-ga/9407015).
 
 Early texts also include
 
 * [[David Chatterjee]], _On Gerbs_, 1998 ([pdf](http://people.maths.ox.ac.uk/hitchin/hitchinstudents/chatterjee.pdf))
 
-(notice that the title here suppresses one "e" intentionally).
+(notice that the title here suppresses one "e" intentionally);
+
+* [[Michael Murray]], [[Danny Stevenson]], _Bundle gerbes: stable isomorphism and local theory_, J.Lond.Math.Soc. **62** (2000) 925-937 arXiv:[math/9908135](https://arxiv.org/abs/math/9908135)
 
 A general picture of bundle $n$-gerbes (with connection) as [[circle n-bundle with connection|circle (n+1)-bundles with connection]] classified by [[Deligne cohomology]] is in 
 
-* Pawel Gajer, _Geometry of Deligne cohomology_ Invent. Math., 127(1):155--207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
+* [[Pawel Gajer]], _Geometry of Deligne cohomology_ Invent. Math., 127(1):155-207 (1997) ([arXiv](http://arxiv.org/abs/alg-geom/9601025))
+
+Reviews are in
+
+* [[Nigel Hitchin]], _What is...a gerbe?_, Notices of the AMS **50** no. 2 (2003) pp 218-219 [pdf](http://www.ams.org/notices/200302/what-is.pdf)
+
+* [[Michael Murray]], _An Introduction to Bundle Gerbes_, In: The Many Facets of Geometry, A Tribute to Nigel Hitchin, Edited by Oscar Garcia-Prada, Jean Pierre Bourguignon, and Simon Salamon, OUP, 2010. doi:[10.1093/acprof:oso/9780199534920.001.0001](http://dx.doi.org/10.1093/acprof:oso/9780199534920.001.0001), arXiv:[0712.1651](https://arxiv.org/abs/0712.1651)
 
 [[!redirects bundle gerbes]]
