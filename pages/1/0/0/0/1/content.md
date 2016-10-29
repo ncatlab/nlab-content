@@ -18,7 +18,7 @@
 $\,$ 
  <div align="center" >
  <em>Search the nLab ([[Searching the nLab|hints]])</em> 
- <form  name="gsearch" method="get" action="http://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="http://nlab.mathforge.org/nlab/"/></form>
+ <form  name="gsearch" method="get" action="https://www.google.com/search"><input type="text" size="30" name="as_q"/><input type="hidden" name="as_sitesearch" value="http://nlab.mathforge.org/nlab/"/></form>
 </div>
 $\,$
 =--
