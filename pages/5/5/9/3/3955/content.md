@@ -280,6 +280,9 @@ Cat&#233;g., 35(4):274&#8211;290, 1994.
 
 * {#Stacey}[[Andrew Stacey]], _Yet more smooth mapping spaces and their smoothly local properties_ arXiv:[1301.5493](http://arxiv.org/abs/1301.5493)
  
+Generalising the Lie group structure on the diffeomorphisms of a manifold, the case of non-compact [[orbifolds]] is in
+
+* [[Alexander Schmeding]], _The diffeomorphism group of a non-compact orbifold_, PhD thesis, Paderborn 2013, Dissertationes Math. (Rozprawy Mat.) **507** (2015), DOI: [10.4064/dm507-0-1](http://dx.doi.org/10.4064/dm507-0-1), [nbn-resolving.de/urn:nbn:de:hbz:466:2-12166](http://digital.ub.uni-paderborn.de/ubpb/urn/urn:nbn:de:hbz:466:2-12166), arXiv:[1301.5551](https://arxiv.org/abs/1301.5551)
 
 The generalization to [[mapping stacks]] of [[differentiable stacks]] is discussed in
 
