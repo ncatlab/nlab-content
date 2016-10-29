@@ -314,7 +314,12 @@ The relation to [[Langlands dual groups]] is discussed in
  
 #### With supergeometry
 
-Disucssion including [[super p-brane]] charges on [[super spacetime]]:
+Discussion of T-duality that takes into account the [[super p-brane]] charges (i.e. the fermionic components of the [[RR-fields]]) on [[super spacetime]], hence also of [[Green-Schwarz action functionals]], includes the following:
+
+* [[Mirjam Cvetic]], H. Lu, [[Christopher Pope]], [[Kellogg Stelle]], _T-Duality in the Green-Schwarz Formalism, and the Massless/Massive IIA Duality Map_, Nucl.Phys.B573:149-176,2000 ([arXiv:hep-th/9907202](https://arxiv.org/abs/hep-th/9907202))
+
+* Bogdan Kulik, Radu Roiban, _T-duality of the Green-Schwarz superstring_, JHEP 0209 (2002) 007 ([arXiv:hep-th/0012010](https://arxiv.org/abs/hep-th/0012010))
+
 
 * {#BandosJulia03} [[Igor Bandos]], [[Bernard Julia]], _Superfield T-duality rules_, JHEP 0308 (2003) 032 ([arXiv:hep-th/0303075](https://arxiv.org/abs/hep-th/0303075))
 
