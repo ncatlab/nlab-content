@@ -1873,7 +1873,37 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 =--
 
+(...)
 
+$$
+  \begin{aligned}
+    \mu_{D0}
+      & =
+    \overline{\psi} \Gamma_{10}\psi
+    \\
+    \mu_{D2}
+      & =
+    -
+    \overline{\psi} \Gamma_{a_1 a_2} \psi e^{a_1} e^{a_2}
+    \\
+    \mu_{D4}
+      & =
+    \tfrac{1}{6}
+    \overline{\psi} \Gamma_{a_1 \cdots a_4} \Gamma_{10} \psi e^{a_1} \cdots e^{a_4}
+    \\
+    \mu_{D6}
+      & =
+    \tfrac{-1}{90}
+    \overline{\psi} \Gamma_{a_1 \cdots a_6}  \psi e^{a_1} \cdots e^{a_6}
+    \\
+    \mu_{D8}
+      & =
+    \tfrac{1}{2520}
+    \overline{\psi} \Gamma_{a_1 \cdots a_8} \Gamma_{10} \psi e^{a_1} \cdots e^{a_8}
+  \end{aligned}
+$$
+
+([CAIB 99, section 6.1](#CAIB99))
 
 ## Appendix
 
@@ -2069,6 +2099,8 @@ See also
 The above discussion of cocycles on super-Minkowski spacetimes draws from
 
 * {#CAIB99} C. Chrysso&#8204;malakos, [[José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+
+* {#Sakaguchi00} Makoto Sakaguchi, section 2 of _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
 
 * {#FiorenzaSatiSchreiber13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_, International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018 ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
