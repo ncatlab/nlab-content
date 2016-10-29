@@ -91,7 +91,7 @@ with "smaller" elements considered as better approximations. The very rough intu
 
 +-- {: .num_lemma}
 ###### Lemma
-The [[dense topology|dense]] [[Grothendieck topology]] on $P$ is [[subcanonical topology|subcanonical]].  In other words: For any $p\in P$ we have $y(p)=hom(-,p)\in\Sh(p,\neg\neg)$ 
+The [[dense topology|dense]] [[Grothendieck topology]] on $P$ is [[subcanonical topology|subcanonical]].  In other words: For any $p\in P$ we have $y(p)=hom(-,p)\in\Sh(P,\neg\neg)$ 
 =--
 
 +-- {: .num_lemma}
@@ -129,7 +129,7 @@ If $V$ is a model of [[ZF]], then the continuum hypothesis and the [[axiom of ch
 ###### Remark 
 Regarding the statement of the *generalized* continuum hypothesis in *ZF* (not ZFC), one should distinguish various possibilities. One might leave the statement $2^{\aleph_n} = \aleph_{n+1}$ unchanged, so that the GCH becomes a statement just about ordinals or well-ordered sets. But then one could argue such a generalized continuum hypothesis is not as general or strong as it might be, since not all sets can be well-ordered using ZF alone. The more general statement would say that if there are monomorphisms $X \to Y$ and $Y \to P(X)$, then $Y$ is bijective with one of $X, P(X)$. 
 
-For example, Sierpi&#233;ski proved that over ZF, the generalized continuum hypothesis implies AC. (See [[Hartogs number]].) For this result, he certainly used the stronger formulation. 
+For example, Sierpi&#324;ski proved that over ZF, the generalized continuum hypothesis implies AC. (See [[Hartogs number]].) For this result, he certainly used the stronger formulation. 
 =-- 
 
 ## Generalization: Easton's theorem 
