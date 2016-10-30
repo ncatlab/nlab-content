@@ -1,5 +1,5 @@
 
-**Solomon Feferman** (born 1928) is an American logician and set theorist with important contributions to recursion theory.
+**Solomon Feferman** (1928-2016) was an American logician and set theorist with important contributions to recursion theory.
 
 A former student of [[Alfred Tarski]] he has also coauthored a biography of Tarski.
 
