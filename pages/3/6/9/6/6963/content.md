@@ -84,7 +84,7 @@ $\mathcal{M}$-categories are mentioned as $Subset$-categories (thinking of $\mat
 
 We discussed them in the [[nlabmeta:n-Forum]] as part of a discussion of the category of [[Banach spaces]]:
 
-*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, [web](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=3289).
+*  [[Mark Meckes]] et al (2011), Banach space, n-Forum, [web](https://nforum.ncatlab.org/discussion/3289/banach-space/).
 
 
 [[!redirects M-category]]
