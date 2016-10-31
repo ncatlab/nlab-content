@@ -1235,9 +1235,73 @@ and so this sign cancels against the sign in $i^\ast = -i$.
 
 =--
 
+Generally:
+
++-- {: .num_prop }
+###### Proposition
+
+The following pairings are real and $Spin(d-1,1)$-equivariant:
+
+$$
+  \begin{aligned}
+    & \overline{\psi} \Gamma_a \psi
+    \\
+    i & \overline{\psi}\Gamma_{a_1 a_2} \psi
+    \\
+    i & \overline{\psi} \Gamma_{a_1 a_2 a_3} \psi
+    \\
+     & \overline{\psi} \Gamma_{a_1 \cdots a_4} \psi
+    \\
+     & \overline{\psi} \Gamma_{a_1 \cdots a_5} \psi
+    \\
+    i  & \overline{\psi} \Gamma_{a_1 \cdots a_6} \psi
+    \\
+    i  & \overline{\psi} \Gamma_{a_1 \cdots a_7} \psi
+    \\
+    & \vdots
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivariance follows as in the proof of prop. \ref{SpinorToVectorPairing}.
+
+Regarding reality:
+
+Using that all the $\Gamma_a$ are hermitian with respect $\overline{(-)}(-)$ (prop. \ref{CliffordRepresentationIsDiracSelfConjugate}) we have
+
+$$
+  \begin{aligned}
+    \left(
+      \overline{\psi}
+       \Gamma_{a_1 \cdots a_p}
+      \psi
+    \right)^\ast
+    & =
+    \overline{\psi}
+      \Gamma_{a_p \cdots a_1}
+    \psi
+    \\
+    &= 
+    (-1)^{p(p-1)/2}
+    \overline{\psi}
+      \Gamma_{a_1 \cdots a_p}
+    \psi    
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
 ## Supersymmetry: Super-Poincar&#233; and super-Minkowski
 
-Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra extension]] fo the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. 
+Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. 
 
 Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
 
