@@ -75,7 +75,7 @@ and
 
 * [[G. Winskel]], _Events, causality, and symmetry_, (an earlier version appeared in the BCS conference 'Visions in Computer Science.' September 2008. The final version appears in a special issue of The Computer Journal 2009; doi: 10.1093/comjnl/bxp052; see also  an [online version](http://www.cl.cam.ac.uk/~gw104/CJVision-Revised.pdf)).
 
-* [[G. Winskel]] and S. Staton, On the expressivity of symmetry in event structures,
+* [[Sam Staton]] and [[G. Winskel]], On the expressivity of symmetry in event structures,
 [LICS 2010](http://www.cl.cam.ac.uk/~gw104/lics2010final.pdf)
 
 
