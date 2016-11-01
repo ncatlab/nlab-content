@@ -156,9 +156,9 @@ Discussion of the [[elementary topos]]-analog of 2-toposes is in
 
 * [[Mark Weber]], _Yoneda structures from 2-toposes_ ([pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
 
-A notion of "flat 2-functor" perhaps relevant to the "points" of 2-toposes is in
+A notion of "flat 2-functor" (cf [[Diaconescu's theorem]]) perhaps relevant to the "points" of 2-toposes is in
 
-* M. E. Descotte, E. J. Dubuc, M. Szyld, On the notion of flat 2-functors, [arxiv](https://arxiv.org/abs/1610.09429)
+* M.E. Descotte, E.J. Dubuc, M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
 
 [[!redirects 2-toposes]]
