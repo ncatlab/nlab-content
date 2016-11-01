@@ -334,6 +334,9 @@ Discussion of [[left exact functors]] or flat functors in the context of [[(∞,
 
 * [[Jacob Lurie]], def. 5.3.2.1 in _[[Higher Topos Theory]]_
 
+A notion of "flat 2-functor" is discussed, with an eye towards applications with [[2-topos]]es, in the article
+
+* M.E. Descotte, E.J. Dubuc, M. Szyld, _On the notion of flat 2-functors_, arXiv:[1610.09429](https://arxiv.org/abs/1610.09429)
 
 [[!redirects flat functor]]
 [[!redirects flat functors]]
