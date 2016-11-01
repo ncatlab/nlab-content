@@ -396,7 +396,7 @@ Display maps are discussed in
 
 Categories with attributes are discussed in
 
-* John Cartmell, *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978
+* John Cartmell, *Generalised algebraic theories and contextual categories*, Ph.D. thesis, Oxford, 1978 ([GitHub LaTeXing project](https://github.com/peterlefanulumsdaine/cartmell-thesis), organised by [[Peter LeFanu Lumsdaine]]. Currently only sections 1.0-1.4 are done)
 
 
 * [[Eugenio Moggi]], *A category-theoretic account of program modules*, Math. Structures Comput. Sci. 1 (1991), no. 1, 103--139
@@ -422,7 +422,7 @@ This was formalized inside type theory with set quotients of [[higher inductive 
 
 Contextual categories were defined in
 
-* {#Cartmell86} John Cartmell, _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072(86)90053-9))
+* {#Cartmell86} John Cartmell, _Generalised algebraic theories and contextual categories_, Annals of Pure and Applied Logic Volume 32, 1986, Pages 209-243 ([doi:10.1016/0168-0072(86)90053-9](http://dx.doi.org/10.1016/0168-0072%2886%2990053-9))
 
 * {#Streicher91} [[Thomas Streicher]], *Semantics of type theory*, Progress in Theoretical Computer Science, Birkh&#228;user Boston Inc., Boston, MA, 1991, Correctness, completeness and independence results.
 
