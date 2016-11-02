@@ -34,7 +34,7 @@
 ### In type theory
  {#Proof}
 
-In [[type theory]], a [[proposition]] is identitfied with the [[type]] of all its proofs (the _[[propositions as types]]_-aspect of [[computational trinitarianism]]). 
+In [[type theory]], a [[proposition]] is identified with the [[type]] of all its proofs (the _[[propositions as types]]_-aspect of [[computational trinitarianism]]). 
 Here a proof consists of exhibiting a [[term]] of the corresponding type (showing that it is [[inhabited]]), hence a proof is a typing [[judgement]] for a term of the type representing the proposition.
 
 See also _[[proofs as programs]]_.
