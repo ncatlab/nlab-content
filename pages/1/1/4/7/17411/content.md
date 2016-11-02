@@ -26,9 +26,9 @@ The following is a classics (vol. I in German 1908).
 
 The following overview of elementary mathematics is written by a Lebesgue's student Lucienne F&#233;lix (1901-1994) in French, a well known name in mathematics education (cf. &lt;http://guy-brousseau.com/lucienne-felix>); there are English and Russian translations. The introduction says that many of the pedagogical ideas of Lebesgue are incorporated into the text.
 
-* Lucienne F&#233;lix, _The modern aspect of mathematics_, (Rus. transl. &#1069;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1072;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1072; &#1074; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1084; &#1080;&#1079;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080;, 1967)
+* Lucienne F&#233;lix, _The modern aspect of mathematics_, (Rus. transl.: &#1069;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1072;&#1103; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1072; &#1074; &#1089;&#1086;&#1074;&#1088;&#1077;&#1084;&#1077;&#1085;&#1085;&#1086;&#1084; &#1080;&#1079;&#1083;&#1086;&#1078;&#1077;&#1085;&#1080;&#1080;, 1967)
 
-Soviet mathematicains (A. D. Aleksandrov, complex analyst Markushevich and Hinchin) wrote in 1950s an ambitious 5-volume work "Encyclopaedia of elementary mathematics" (basic calculus included; geometry is volumes 4 and 5, redacated by Yaglom and Boltianskii):
+Soviet mathematicains (A. D. Aleksandrov, complex analyst Markushevich and Hinchin) wrote in 1950s an ambitious 5-volume work "Encyclopaedia of elementary mathematics" (basic calculus included; geometry is volumes 4 and 5, redacted by Yaglom and Boltianskii):
 
 * &#1040;&#1083;&#1077;&#1082;&#1089;&#1072;&#1085;&#1076;&#1088;&#1086;&#1074;, &#1052;&#1072;&#1088;&#1091;&#1082;&#1091;&#1096;&#1077;&#1074;&#1080;&#1095;, &#1061;&#1080;&#1085;&#1095;&#1080;&#1085;, _&#1069;&#1085;&#1094;&#1080;&#1082;&#1083;&#1086;&#1087;&#1077;&#1076;&#1080;&#1103; &#1101;&#1083;&#1077;&#1084;&#1077;&#1085;&#1090;&#1072;&#1088;&#1085;&#1086;&#1081; &#1084;&#1072;&#1090;&#1077;&#1084;&#1072;&#1090;&#1080;&#1082;&#1080;_ 
 
@@ -58,6 +58,21 @@ Comprehensive modern, more advanced but standard reference for classical geometr
 
 * [[Marcel Berger]], _Geometrie_, 5 vol. Paris: CEDIC, Fernand Nathan 1977; Rus. transl. in 2 vols., Mir 1984; _Geometry. I._ Engl. transl. by M. Cole, S. Levy, Universitext Springer 1987, 1994. xiv+427 pp.
 
+### Basic calculus adapted to physicists and engineers
+
+Infinitesimal calculus is usually not listed as elementary mathematics. In US educational system infinitesimal calculus at rigorous and advanced level is usually
+called mathematical analysis while at the beginner's level it is called simply
+calculus. The textbooks are very numerous and widely available and will not be listed here; they witnessed many trends and reforms like calculator-intensive courses and so on. As these textbooks are usually rich in accompanying techniques like teacher manuals, problem sets, solution sets etc. their authors are usually professional mathematicians most often those dedicated to teaching, rather than leading research mathematians. 
+
+A different project of a beginner calculus textbook written by a leading physicist together with a leading geometer came from former Soviet Union
+
+* Ya. B. Zeldovich, I. M. Yaglom, _Higher math for beginners_, Mir 1987 (translated from Russian original published by Nauka in 1982) [pdf](https://ia801303.us.archive.org/29/items/ZeldovichYaglomHigherMathematics/Zeldovich-Yaglom-Higher-Mathematics.pdf)
+
+Some argue that calculus is more intuitive for engineers if taught in the [[nonstandard analysis]] approach. One of the major such textbooks is free online
+
+* H. Jerome Keistler, _Elementary calculus: an infinitesimal approach_, 2000 [files](http://www.math.wisc.edu/~keisler/calc.html); see also companion booklet
+_Foundations of infinitesimal calculus_, [files](http://www.math.wisc.edu/~keisler/foundations.html)
+
 ### Foundations of mathematics and categories
 
 Foundations of mathematics is a subject, which is beyond the very basics, NOT belonging to elementary mathematics, nor this entry. However, some readers of this page may find beneficial that we list just a very short choice of standard books on foundations for the first reading (but not that elementary).
@@ -67,7 +82,7 @@ Foundations of mathematics is a subject, which is beyond the very basics, NOT be
 
 The following book is a unique attempt by two prominent mathematicians to give an elementary introduction to [[category theory]] directed at beginning students and general readers which is relevant to school education as well:
 
-* [[F. William Lawvere]], [[Stephen H. Schanuel]], _Conceptual Mathematics: A First Introduction to Categories_ , Cambridge UP 1997.
+* [[F. William Lawvere]], [[Stephen H. Schanuel]], _Conceptual mathematics: a first introduction to categories_ , Cambridge UP 1997.
 
 One should note that the category theory is not traditionally considered a part of elementary mathematics even if some parts can be explained in an elementary way (the same is true for the simplest parts of infinitesimal calculus). 
 
