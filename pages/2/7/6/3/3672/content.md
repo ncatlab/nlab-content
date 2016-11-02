@@ -54,7 +54,7 @@ The relation was apparently first made explicit in
 
 A pedagogical review is in 
 
-* [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_ ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+* {#BH09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in  R. Doran, G. Friedman, [[Jonathan Rosenberg]](eds.) _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, , Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
 Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
 
@@ -81,7 +81,7 @@ The relation of the division algebras to ordinary (Lie algebraic) extensions of 
 
 Normed division algebras are used to describe the construction of [[Lie 2-algebra]] extensions of the [[super Poincare Lie algebra]] in
 
-* [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_ ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+* {#BH10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410 ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
 * [[John Huerta]], _Division Algebras, Supersymmetry and Higher Gauge Theory_, ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
