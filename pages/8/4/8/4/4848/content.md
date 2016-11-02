@@ -177,6 +177,7 @@ If the torsion vanishes, this is indeed a closed form.
 * [[super Poincaré Lie algebra]]
 
 
+[[!redirects Poincaré Lie algebras]]
 
 [[!redirects Poincare Lie algebra]]
 [[!redirects Poincaré Lie algebra]]
