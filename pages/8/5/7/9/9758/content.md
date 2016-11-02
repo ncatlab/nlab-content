@@ -221,8 +221,9 @@ These computations control the existence of [[Green-Schwarz action functionals]]
 ## References
 
 
-Traditional accounts of Fierz identities include
+General accounts include
 
+* {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
 * C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
 
