@@ -93,8 +93,8 @@ Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/97
 
 A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
 
-* [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
- {#Sachse} 
+* {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+  
 
 Formulation in terms of [[synthetic differential supergeometry]] is in
 
