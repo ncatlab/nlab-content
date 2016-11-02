@@ -137,21 +137,43 @@ where
 
 ([Deligne 02, 1.4](#Deligne02))
 
++-- {: .num_prop #LenghtOfObjectIsBounded}
+###### Proposition
+
+For $X$ an object in a [[tensor category]], then the following are equivalent:
+
+1. There exists $N \in \mathbb{N}$ such that the [[length of an object|length]] of powers of $X$ is bounded by $length(X^{\otimes^n}) \leq N^n$.
+
+1. There exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
+
+
+=--
+
+([Deligne 02, prop. 05](#Deligne02))
+
++-- {: .num_example}
+###### Example
+
+For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$, then it is annihilated by the Schur functor corresponding to forming the $p$th antisymmetric and the $q$th symmetric tensor power.
+
+=--
+
+
 +-- {: .num_defn #Regularity}
 ###### Definition
 
 A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory} is _regular_ if 
 
-1. it is finite $\otimes$-generated (in the sense of def. \ref{TensorCategory});
+1. it is finitely $\otimes$-generated (in the sense of def. \ref{TensorCategory});
 
-1. for every [[object]] $X\in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, vanishes: $S_\lambda(X) = 0$.
+1. for every [[object]] $X\in \mathcal{A}$ the equivalent conditions of prop. \ref{LenghtOfObjectIsBounded} hold.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The regularity condition in def. \ref{Regularity} excludes categories that are "obscenely large" in that the lengths of Jordan-Holder series grow super-exponentially. See [This MO comment](http://mathoverflow.net/questions/4427/what-is-the-conceptual-significance-of-supercommutativity#comment5298_4430).
+The regularity condition in def. \ref{Regularity} excludes categories that are "obscenely large". See [This MO comment](http://mathoverflow.net/questions/4427/what-is-the-conceptual-significance-of-supercommutativity#comment5298_4430).
 
 =--
 
