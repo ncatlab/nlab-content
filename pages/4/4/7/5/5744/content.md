@@ -15,7 +15,7 @@
 
 ## Idea
 
-Kazhdan-Lusztig theory is about special recursive combinatorics which appears in several setups in mathematics, most notably in representation theory where it concerns the Jordan-Hoelder coefficients of certain modules. As a phenomenon it has been discovered by [[David Kazhdan]] and [[George Lusztig]], and some partial aspects independently by Deodhar. A central result is the Kazhdan-Lusztig conjecture, proved by Borho-Brylinski and by [[Masaki Kashiwara]] using [[D-module]]s and [[perverse sheaves]]. 
+Kazhdan-Lusztig theory is about special recursive combinatorics which appears in several setups in mathematics, most notably in representation theory where it concerns the Jordan-H&#246;lder coefficients of certain modules. As a phenomenon it has been discovered by [[David Kazhdan]] and [[George Lusztig]], and some partial aspects independently by Deodhar. A central result is the Kazhdan-Lusztig conjecture, proved by Borho-Brylinski and by [[Masaki Kashiwara]] using [[D-module]]s and [[perverse sheaves]]. 
 
 ## References
 
