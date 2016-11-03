@@ -179,6 +179,12 @@ Around the same time the same definition was also proposed independently by [[La
 
 * {#Breen88} [[Lawrence Breen]], _Une lettre &#224; P. Deligne au sujet des $2$-cat&#233;gories tress&#233;es_ (1988) ([pdf](http://www.math.univ-paris13.fr/~breen/deligne.pdf))
 
+Textbook accounts include
+
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 2 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
+
+
 For a review of definitions of braided monoidal categories, braided monoidal functors and braided monoidal natural transformations, see:
 
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
