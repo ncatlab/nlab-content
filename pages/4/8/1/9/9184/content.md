@@ -57,4 +57,8 @@ and specifically in [[F-theory]]
 
 * {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
 
+As a candidate for [[dark matter]]:
+
+* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_ ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+
 [[!redirects axions]]
