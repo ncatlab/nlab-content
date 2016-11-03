@@ -1016,7 +1016,7 @@ Introductions and lecture notes include
 
 * William Gordon Ritter, _Geometric Quantization_ ([arXiv:math-ph/0208008](http://arxiv.org/abs/math-ph/0208008))
 
-* [[Matthias Blau]], _Symplectic Geometry and Geometric Quantization_ ([[BlauGeometricQuantization.pdf:file]])
+* [[Matthias Blau]], _Symplectic geometry and geometric quantization_ ([[BlauGeometricQuantization.pdf:file]])
  {#Blau}
 
 * [[Eugene Lerman]], _Geometric quantization; a crash course_ ([arXiv:1206.2334](http://arxiv.org/abs/1206.2334))
@@ -1035,12 +1035,12 @@ A careful discussion of the polarization-step from prequantization to quantizati
 
 The special case of K&#228;hler quantization is discussed for instance in 
 
-* [[Nigel Hitchin]], _Flat connections and geometric quantization_, Comm. Math. Phys. 131 (1990), no. 2, 347&#8211;380.
+* [[Nigel Hitchin]], _Flat connections and geometric quantization_, Comm. Math. Phys. __131__ (1990), no. 2, 347&#8211;380.
  {#Hitchin}
 
 Discussion with an emphasis of quantizing [[classical field theory]] on curved [[spacetime]] is in 
 
-* [[Nicholas Woodhouse]], _Geometric quantization and quantum field theory in curved space-times_, Reports on Mathematical Physics, Volume 12, Issue 1, (1977), Pages 45&#8211;56
+* [[Nicholas Woodhouse]], _Geometric quantization and quantum field theory in curved space-times_, Reports on Mathematical Physics __12__:1, (1977) 45&#8211;56
 
 (For more on geometric quantization of quantum field theories see also at _[Quantization of multisymplectic geometry](multisymplectic+geometry#RefsonQuantization)_.)
 
@@ -1204,7 +1204,7 @@ Geometric quantization in or with tools of [[higher differential geometry]], not
 
 The [[geometric quantization of symplectic groupoids]] is accomplished in
 
-* [[Eli Hawkins]], _A Groupoid Approach to Quantization_ ([arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363))
+* [[Eli Hawkins]], _A groupoid approach to quantization_, J. Symplectic Geom.. 6:61&#8211;125, [arXiv:math.SG/0612363](http://arxiv.org/abs/math.SG/0612363)
  {#Hawkins}
 
 Discussion of geometric prequantization in fully fledged [[higher geometry]] is in 
