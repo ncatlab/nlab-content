@@ -15,6 +15,10 @@
 
 ## Idea
 
+The concept of _length_ of an [[object]] in a suitable [[category]] $\mathcal{C}$ is akin to the concept of [[dimension]] of [[vector spaces]], to which it reduces in the case that $\mathcal{C} = $ [[Vect]]. The 1-dimensional vector space is a [[simple object]], and the [[dimension]] of a vector space $V$, if it is finite, may be thought of as the number of times that one may split off such a simple object from $V$. The definition of _length_ generalizes this concept, notably to [[modules]] over some [[ring]].
+
+## Definition
+
 Given an [[object]] $X$ in a suitable [[tensor category]], then a _Jordan-H&#246;lder sequence_ or _composition series_ for $X$ is a [[filtration]]
 
 $$
