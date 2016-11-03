@@ -116,6 +116,25 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 
 ([Deligne 02, 0.1](#Deligne02))
 
++-- {: .num_defn #SubexponentialGrowth}
+###### Definition
+
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if for every [[object]] $X$ there exists a [[natural number]] $N$ such that $X$ is of length (def. \ref{LengthOfAnObject}) at most $N$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N$:
+
+$$
+  \underset{X \in \mathcal{A}}{\forall}
+  \underset{N \in \mathbb{N}}{\exists}
+  \underset{n \in \mathbb{N}}{\forall}
+    \;
+   length(N^{\otimes^n}) \leq N^n
+  \,.
+$$
+
+=--
+
+(e.g. [EGNO 15, def. 9.11.1](#EGNO15))
+
+
 +-- {: .num_defn #SchurFunctor}
 ###### Definition
 
@@ -153,11 +172,11 @@ where
 +-- {: .num_prop #LenghtOfObjectIsBounded}
 ###### Proposition
 
-For $X$ an object in a [[tensor category]], then the following are equivalent:
+For a [[tensor category]] $\mathcal{A}$ the following are equivalent:
 
-1. There exists $N \in \mathbb{N}$ such that the [[length of an object|length]] (def. \ref{LengthOfAnObject}) of tensor powers of $X$ is bounded by $length(X^{\otimes^n}) \leq N^n$.
+1. the category has subexponential growth (def. \ref{SubexponentialGrowth}).
 
-1. There exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
+1. For every object $X \in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
 
 
 =--
@@ -189,3 +208,4 @@ For more on this see at _[[Deligne's theorem on tensor categories]]_.
 
 [[!redirects object of finite length]]
 [[!redirects objects of finite length]]
+
