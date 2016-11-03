@@ -6,9 +6,11 @@
 
 ## Idea
 
-The notion of coring is a generalization of that of [[coalgebra]]. 
+The notion of coring is a generalization of a $k$-[[coalgebra]]. While for
+a coalgebra $k$ must be a __commutative__ ring (often a [[field]]), a coring is defined
+over a general noncommutative ring $k$ or even an associative algebra $A$. 
 
-Whereas a coalgebra structure is often defined on a [[vector space]] -- which may be regarded as a [[bimodule]] over the ground field -- a coring structure is defined on a bimodule over a general [[ring]].
+Whereas a coalgebra structure is defined on a $k$-module (if $k$ is a field, it is a [[vector space]]) -- which may be regarded as a central $k$-[[bimodule]] -- a coring structure is defined on a general bimodule over a general [[ring]].
 
 
 ## Definition
@@ -89,5 +91,6 @@ There is a generalization of corings:
 
 * Jawad Y. Abuhlail, _Semicorings and semicomodules_, [arxiv/1303.3924](http://arxiv.org/abs/1303.3924)
 
+category: algebra
 [[!redirects corings]]
 [[!redirects semicoring]]
