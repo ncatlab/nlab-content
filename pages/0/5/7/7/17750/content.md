@@ -35,7 +35,7 @@ If this exists, then under suitable conditions $n$ is uniquely specified and is 
 
 * Wikipedia, _[Composition series](https://en.wikipedia.org/wiki/Composition_series)_
 
-[[!redirects lenghts of objects]]
+[[!redirects lengths of objects]]
 
 [[!redirects Jordan-Hölder series]]
 [[!redirects Jordan-Holder series]]
