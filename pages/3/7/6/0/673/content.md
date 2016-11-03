@@ -7,7 +7,7 @@ I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stac
 
 I was a research associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
 
-You may also find me on: [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](http://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)
+You may also find me on: [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](http://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
 
 If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
 
@@ -79,7 +79,7 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 * _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](http://math.colorado.edu/seminars/?view=poid), University of Colorado, Boulder. 1 December 2016.
 
-* _TBA_, [Kempner Colloquium](https://math.colorado.edu/seminars/?view=kemp), University of Colorado, Boulder. 29 November 2016.
+* _Low-dimensional higher geometry by examples_, [Kempner Colloquium](https://math.colorado.edu/seminars/?view=kemp), University of Colorado, Boulder. 29 November 2016.
 
 * _Smooth mapping orbifolds_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 20 May 2016.
 
