@@ -114,7 +114,7 @@ $$
   \underset{N \in \mathbb{N}}{\exists}
   \underset{n \in \mathbb{N}}{\forall}
     \;
-   length(N^{\otimes^n}) \leq N^n
+   length(X^{\otimes^n}) \leq N^n
   \,.
 $$
 
