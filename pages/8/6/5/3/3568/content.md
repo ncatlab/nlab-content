@@ -9,7 +9,10 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 ***
 Courses/Seminars:
 
-Now: Symplectic Geometry, using [Ana](https://people.math.ethz.ch/~acannas/)'s [book](https://people.math.ethz.ch/~acannas/Papers/lsg.pdf)
+
+[[Winter 2016-2017 seminar on higher structures]]
+
+Summer 2016: Symplectic Geometry, using [Ana](https://people.math.ethz.ch/~acannas/)'s [book](https://people.math.ethz.ch/~acannas/Papers/lsg.pdf)
 
 Winter 2015-2016 [[lectures on higher bundle theory]].
 
