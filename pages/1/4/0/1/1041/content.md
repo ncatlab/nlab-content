@@ -230,6 +230,8 @@ For more discussion see the [$n$-Cafe](http://golem.ph.utexas.edu/category/2007/
 
 * [[quasi-abelian category]]
 
+* [[length of an object]]
+
 ## References
 
 Maybe the first reference on abelian categories, then still called _exact categories_ is 
