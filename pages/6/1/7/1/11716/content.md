@@ -40,9 +40,9 @@ A **tensor triangulated category** is a [[category]] $Ho$ equipped with
    $$
      e_{X,Y}
        \;\colon\;
-     (\Sigma X) \wedge Y 
+     (\Sigma X) \otimes Y 
        \overset{\simeq}{\longrightarrow} 
-     \Sigma(X \wedge Y)
+     \Sigma(X \otimes Y)
    $$
 
    
