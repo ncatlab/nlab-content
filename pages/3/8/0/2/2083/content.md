@@ -34,6 +34,8 @@ The general theory of $\Omega$-groups is similar to the basics of group and ring
 
 Note that $\Omega$ is a capital Greek letter; $\omega$-[[infinity-group|group]] is rather a synonym for (for some people strict) $\infty$-[[infinity-groupoid|groupoid]] with a single object, hence nothing to do with $\Omega$-groups.
 
+$\Omega$-groups form a [[protomodular category]].
+
 
 ## References
 
