@@ -3,6 +3,7 @@
 * table of contents
 {: toc}
 
+
 ## Idea
 
 An $\Omega$-group is a [[group]] equipped with additional algebraic operations (of [[signature]] $\Omega$) that distribute over the group operations.
