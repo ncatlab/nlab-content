@@ -10,7 +10,7 @@ More generally, a form of the theorem holds in any [[homological category]].
 
 * [[David Speyer]], _The Jordan-H&#246;lder theorem_ ([pdf](http://www.math.lsa.umich.edu/~speyer/594/JordanHolder.pdf))
 
-[[!redirects Joran-Holder theorem]]
+[[!redirects Jordan-Holder theorem]]
 
 [[!redirects Jordan–Hölder theorem]]
 [[!redirects Jordan–Holder theorem]]
