@@ -102,7 +102,26 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 
 ([Deligne 02, 0.1](#Deligne02))
 
-The following is a mild size constraint on tensor categories,
+The following is a mild size constraint on tensor categories:
+
++-- {: .num_defn #SubexponentialGrowth}
+###### Definition
+
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if for every [[object]] $X$ there exists a [[natural number]] $N$ such that $X$ is of [[length of an object|length]] at most $N$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N$:
+
+$$
+  \underset{X \in \mathcal{A}}{\forall}
+  \underset{N \in \mathbb{N}}{\exists}
+  \underset{n \in \mathbb{N}}{\forall}
+    \;
+   length(N^{\otimes^n}) \leq N^n
+  \,.
+$$
+
+=--
+
+(e.g. [EGNO 15, def. 9.11.1](#EGNO15))
+
 
 +-- {: .num_defn #Regularity}
 ###### Definition
@@ -111,20 +130,13 @@ A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategor
 
 1. it is finitely $\otimes$-generated (in the sense of def. \ref{TensorCategory});
 
-1. for every [[object]] $X\in \mathcal{A}$ there exists a number $N \in \mathbb{N}$ such that the [[length of an object|length]] of all [[tensor product]] powers of $X$ is bounded by the corresponding powers of $N$:
-
-   $$
-     \underset{X \in \mathcal{C}}{\forall} \underset{N \in \mathbb{N}}{\exists}
-     \underset{n \in \mathbb{N}}{\forall} 
-     \; length(X^{\otimes^n}) \leq N^n
-     \,.
-   $$
+1. it is of subexponential growth (def. \ref{SubexponentialGrowth}).
 
 =--
 
 ### Schur functors
 
-The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have bounded length according to def. \ref{Regularity} are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
+The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have bounded length according to def. \ref{Regularity} are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite dimensional vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
 
 
 +-- {: .num_defn #SchurFunctor}
@@ -151,7 +163,7 @@ where
 
 * $V_\lambda$ is the [[irreducible representation]] of $S_n$ corresponding to $\lambda$;
 
-* $\rho$ is the diagional [[action]] of $S_n$ on $V_\lambda \otimes X^{\otimes_n}$, coming from the canonical [[permutation]] action on $X^{\otimes_n}$;
+* $\rho$ is [[diagonal action]] of $S_n$ on $V_\lambda \otimes X^{\otimes_n}$, coming from the canonical [[permutation]] action on $X^{\otimes_n}$;
 
 * $(-)^{S_n}$ denotes the subspace of [[invariants]] under the action $\rho$ 
 
@@ -164,11 +176,11 @@ where
 +-- {: .num_prop #LenghtOfObjectIsBounded}
 ###### Proposition
 
-For $X$ an object in a [[tensor category]], then the following are equivalent:
+For [[tensor category]], then the following are equivalent:
 
-1. There exists $N \in \mathbb{N}$ such that the [[length of an object|length]] of powers of $X$ is bounded by $length(X^{\otimes^n}) \leq N^n$.
+1. it has subexponential growth (def. \ref{SubexponentialGrowth});
 
-1. There exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
+1. for every object $X$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
 
 
 =--
@@ -183,13 +195,6 @@ For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$
 =--
 
 
-
-+-- {: .num_remark}
-###### Remark
-
-The regularity condition in def. \ref{Regularity} excludes categories that are "obscenely large". See [This MO comment](http://mathoverflow.net/questions/4427/what-is-the-conceptual-significance-of-supercommutativity#comment5298_4430).
-
-=--
 
 ### Supergroups
 
@@ -320,9 +325,12 @@ building on the more general work on [[Tannakian categories]]
 
 * [[Pierre Deligne]], _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
 
-A review is in 
+Review is in 
 
 * {#Ostrik04} [[Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
+
+* {#EGNO15} [[Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[Victor Ostrik]], section 9.11 in _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
 
 Further discussion in view of the theory of [[triangular Hopf algebras]] is in 
 
