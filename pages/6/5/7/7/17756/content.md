@@ -1,4 +1,4 @@
-## Seminar on Higher Structures at Goettingen: 2016 Fall - 2017 Winter ##
+## Seminar on Higher Structures at Goettingen: 2016 Fall - 2017 Winter  ##
 ***
 
 **Place: H&#246;rsaal 6,  [Page in studip](https://www.studip.uni-goettingen.de/dispatch.php/course/overview?cid=a829cf0bce827ed6bc8a6ae2413e96bf) for people at Gottingen.
