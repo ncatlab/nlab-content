@@ -246,14 +246,17 @@ Other classic references, now available online, include:
 
 * [[Pierre Gabriel]], _[[Des Catégories Abéliennes]]_
 
-* [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
-  {#Freyd64}
+* {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
+  
 
-Textbook discussion is also in 
+Textbook accounts include
 
 * [[Saunders MacLane]], _[[Categories for the Working Mathematician]]_ .
 
-* N. Popescu, [[Abelian categories with applications to rings and modules]], London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+* N. Popescu, _[[Abelian categories with applications to rings and modules]]_, London Math. Soc. Monographs __3__, Academic Press 1973. xii+467 pp. [MR0340375](http://www.ams.org/mathscinet-getitem?mr=0340375)
+
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], chapter 1 of _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
 
 Reviews include
 
@@ -261,8 +264,8 @@ Reviews include
 
 Embedding of abelian categories into [[Ab]] is discussed in
 
-* [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
- {#Bergman}
+* {#Bergman} [[George Bergman]], _A note on abelian categories -- translating element-chasing proofs, and exact embedding in abelian groups_ (1974) ([pdf](http://math.berkeley.edu/~gbergman/papers/unpub/elem-chase.pdf))
+ 
 
 For more discussion of the _[[Freyd-Mitchell embedding theorem]]_ see there.
 
