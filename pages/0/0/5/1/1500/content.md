@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple category|semisimple]] [[linear category|linear]] ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]] ("[[tensor category]]"), with only [[finitely|finite number]] many [[decategorification|isomorphism classes]] of [[simple objects]], such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
+A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple category|semisimple]] [[linear category|linear]] ([[Vect]]-[[enriched category|enriched]]) [[monoidal category]] ("[[tensor category]]"), with only [[finite number|finitely]] many [[decategorification|isomorphism classes]] of [[simple objects]], such that the [[endomorphism]]s of the unit object form just the [[ground field]] $k$.
 
 =--
 
@@ -112,6 +112,8 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 * **fusion category**
 
+  [[fusion ring]], [[Frobenius-Perron dimension]]
+
 * [[pivotal category]]
 
 * [[spherical category]]
@@ -124,7 +126,7 @@ Some classical references include
 
 * [[P. Etingof]], D. Nikshych and V. Ostrik, [On fusion categories](http://arxiv.org/abs/math/0203060).
 
-* [[P. Etingof]] and D. Calaque, [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
+* [[Pavel Etingof]] and [[Damien Calaque]], [Lectures on tensor categories](http://arxiv.org/abs/math/0401246).
 
 * [[Michael Müger]], [Tensor categories: A selective guided tour](http://arxiv.org/abs/0804.3587).
 
