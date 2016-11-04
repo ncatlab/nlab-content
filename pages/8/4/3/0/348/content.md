@@ -355,7 +355,7 @@ $$
   }
 $$
 
-that will go, for a moment, by its canonical but lenghty name
+that will go, for a moment, by its canonical but lengthy name
 $
   Y(U_1) \coprod_{Y(U_1 \times_V U_2)} Y(U_2)
 $
