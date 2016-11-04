@@ -23,11 +23,11 @@
 
 ## Idea
 
-A _semisimple category_ is a category in which each object is a [[direct sum]] of finitely many [[simple objects]], and all such direct sums exist.
+A _semisimple category_ is a category in which each object is a [[direct sum]] of [[finite number|finitely many]] [[simple objects]], and all such direct sums exist.
 
 ## Definition
 
-An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of finitely many [[simple objects]].  See [[semisimple abelian category]].
+An [[abelian category]] is called **semisimple** if every [[object]] is a [[semisimple object]], hence a [[direct sum]] of [[finite number|finitely many]] [[simple objects]].  See [[semisimple abelian category]].
 
 Alternatively, a [[monoidal category|monoidal]] [[linear category]] (that is, a [[monoidal category]] [[enriched category|enriched over]] [[Vect]]) is called **semisimple** if:
 
@@ -80,9 +80,9 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 ## Examples
 
-* The archetypical simple example is [[Vect]] itself, the category of (finite dimensional!) [[vector space]]s over some [[ground field]] $k$. This has a single [[isomorphism]] class of simple objects: given by $k$ itself.
+* The archetypical simple example is [[FinVect]] itself, the category of [[finite dimensional vector spaces]] over some [[ground field]] $k$. This has a single [[isomorphism]] class of simple objects: given by $k$ itself.
 
-* The category of finite-dimensional [[representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is noncompact, one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
+* The [[category of representations|category of finite-dimensional representations]] of a compact [[Lie group]] $G$ is semisimple, with the simple objects being precisely the [[irreducible representation]]s (this is the content of [[Schur's lemma]]). If $G$ is not a [[compact Lie group]], one needs to pass from the concept of 'direct sum' to '[[direct integral]]'.
 
 * Every [[fusion category]] is a semisimple category.
 
@@ -91,3 +91,5 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 * M. M&#252;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](http://arxiv.org/math.CT/9812040). 
 
 There is related discussion on the $n$Forum [here](http://nforum.mathforge.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783).
+
+[[!redirects semisimple categories]]
