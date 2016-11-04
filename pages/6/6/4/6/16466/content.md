@@ -60,6 +60,8 @@ There are slight variants of what people mean by a "[[tensor category]]". Here w
 
 For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an 
 
+1. [[essentially small category|essentially small]]
+
 1. [[abelian category|abelian]] 
 
 1. [[rigid monoidal category|rigid]] 
@@ -180,7 +182,51 @@ $$
 
 =--
 
-### Fiber functor
+Of coure the assumption of the existence of [[dual objects]] ([[rigid monoidal category|rigidity]]) in def. \ref{TensorCategory} is already a finiteness condition itself. The following construction lifts that condition:
+
++-- {: .num_prop #IndObjectsInATensorCategory} 
+###### Proposition
+
+Let $\mathcal{A}$ a [[tensor category]] (def. \ref{TensorCategory}), such that 
+
+1. all [[object of finite length|objects have finite length]];
+
+1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$
+
+then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
+
+1. $Ind(\mathcal{A})$ is an [[abelian category]]
+
+1. $\mathcal{A} \hookrightarrow Ind(\mathcal{A})$ is a [[full subcategory]] 
+
+   1. which stable under forming [[subquotients]]
+
+   1. such that that every [[object]] $X \in Ind(\mathcal{A})$ is the [[filtered colimit]] of those of its [[subobjects]] that are in $\mathcal{A}$;
+
+1. $\Ind(\mathcal{A})$ inherits a [[tensor product]] by 
+
+   $$
+     \begin{aligned}
+       X \otimes Y
+         & \simeq 
+       (\underset{\longrightarrow}{\lim}_i X_i)
+       \otimes
+       (\underset{\longrightarrow}{\lim}_i Y_i)
+       \\
+       & \simeq
+       \underset{\longrightarrow}{\lim}_{i,j} (X_i \otimes X_j)
+     \end{aligned}
+   $$
+
+   where $X_i,X_j \in \mathcal{A}$, by the above.
+
+1. $Ind(\mathcal{A})$ satisfies all the axioms of def. \ref{TensorCategory} except that it fails to be [[essentially small category|essentially small]] and [[rigid category]]. In detail
+
+   1. an object in $Ind(\mathcal{A})$ is [[dualizable object|dualizable]] precisely if it is in $\mathcal{A}$.
+
+=--
+
+### Fiber functors
 
 The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
 
@@ -196,7 +242,7 @@ The main point of [[Tannaka duality]] of tensor categories is the observation th
 
 There are slight variants on what one requires of a fiber functor. For the present purpose we fix the following definition
 
-+-- {: .num_defn} 
++-- {: .num_defn #FiberFunctor} 
 ###### Definition
 
 Let $\mathcal{A}$ and $\mathcal{T}$ be two $k$[[tensor categories]] (def. \ref{TensorCategory}) such that 
@@ -205,15 +251,15 @@ Let $\mathcal{A}$ and $\mathcal{T}$ be two $k$[[tensor categories]] (def. \ref{T
 
 1. all [[hom spaces]] of [[finite number|finite]] [[dimension]] over $k$.
 
-Let $R \in CMon(\mathcal{T})$ be a [[commutative monoid in a symmetric monoidal category|in]] $\mathcal{T}$.  
+Let $R \in CMon(Ind(\mathcal{T}))$ be a [[commutative monoid in a symmetric monoidal category|in]] in the category of [[ind-objects]] in $\mathcal{T}$ (prop. \ref{IndObjectsInATensorCategory}).  
 
 Then a **[[fiber functor]] on $\mathcal{A}$ over $R$** is a [[functor]]
 
 $$
-  \omega \;\colon\; \mathcal{A} \longrightarrow R Mod(\mathcal{T})
+  \omega \;\colon\; \mathcal{A} \longrightarrow R Mod(Ind(\mathcal{T}))
 $$ 
 
-from $\mathcal{A}$ to the category of [[module objects]] over $R$ in $\mathcal{T}$, which is
+from $\mathcal{A}$ to the category of [[module objects]] over $R$ in the [[category of ind-objects]] $Ind(\mathcal{T})$ (def. \ref{IndObjectsInATensorCategory}), which is
 
 1. a [[braided monoidal functor|braided]] [[strong monoidal functor]];
 
@@ -224,6 +270,16 @@ If here $\mathcal{T} = $ [[sVect]], then this is called a **super fiber functor*
 =--
 
 ([Deligne 02, 3.1](#Deligne02))
+
++-- {: .num_prop #MonoidalTransformationBetweenFiberFunctorIsIso} 
+###### Proposition
+
+Ever [[monoidal natural transformation]] between two [[fiber functors]] (def. \ref{FiberFunctor}) is an [[isomorphism]] (i.e. a [[natural isomorphism]]).
+
+=--
+
+([Deligne 02, lemma 3.2](#Deligne02))
+
 
 ### Schur functors
 
