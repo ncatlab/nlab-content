@@ -1,3 +1,16 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
+
 #Contents#
 * table of contents 
 {:toc}
@@ -8,7 +21,7 @@ Classically, a 'Schur functor' is a specific sort of [[functor]]
 
 $$S: FinVect \to FinVect$$ 
 
-where [[FinVect]] is the category of finite-dimensional complex [[vector space|vector spaces]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.   In fact, Schur functors can be defined on a large class of [[categories]] resembling $FinVect$: for example, categories of [[group]] [[representation]]s, or [[vector bundle]]s, or [[coherent sheaves]].  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be '[[natural transformation|naturally]]' --- or more precisely, '[[pseudonatural transformation|pseudonaturally]]' defined on all [[symmetric monoidal category|symmetric monoidal]] [[linear category|linear]] [[Cauchy complete categories]].
+where [[FinVect]] is the category of [[finite dimensional vector spaces]] over the [[complex numbers]].  Namely, it is a functor where $S(X)$ is obtained by taking the $n$th [[tensor power]] of the vector space  $X$ and then picking out a subspace that transforms in a certain way with respect to the [[symmetric group]] $S_n$.  In fact, Schur functors can be defined on a large class of [[categories]] resembling $FinVect$: for example, [[categories of representations]] of a [[group]], or [[vector bundles], or [[coherent sheaves]].  After an elementary introduction to Schur functors, this article will give a conceptual approach based on the fact that these functors are precisely those that can be '[[natural transformation|naturally]]' --- or more precisely, '[[pseudonatural transformation|pseudonaturally]]' defined on all [[symmetric monoidal category|symmetric monoidal]] [[linear category|linear]] [[Cauchy complete categories]].
 
 The most famous examples of Schur functors are these:
 
@@ -47,9 +60,9 @@ More generally, complex [[irreducible representation]]s of $S_n$ correspond to $
 
 describes the partition of $17$ as $5 + 4 + 4 + 2 + 1 + 1$.  However, it also can be used to construct an irreducible complex representation of the permutation group $S_{17}$, and thus a Schur functor.  
 
-In general, here is the recipe for constructing the Schur functor $S_\lambda$ associated to an $n$-box Young diagram $\lambda$.   For now we only say what this functor does to objects (that is, finite-dimensional vector spaces):
+In general, here is the recipe for constructing the Schur functor $S_\lambda$ associated to an $n$-box Young diagram $\lambda$.   For now we only say what this functor does to objects (that is, [[finite-dimensional vector spaces]]):
 
-* Given an $n$-box Young diagram $\lambda$ and a vector space $X$, we first form the tensor power $X^{\otimes n}$.  We think of each factor in this tensor power as corresponding to a specific box of the Young diagram.  
+* Given an $n$-box Young diagram $\lambda$ and a vector space $X$, we first form the [[tensor power]] $X^{\otimes n}$.  We think of each factor in this tensor power as corresponding to a specific box of the Young diagram.  
 
 * Then we pick out the subspace of $X^{\otimes n}$ consisting of tensors that are _unchanged_ by any permutation that interchanges two boxes in the same _row_.  
 
@@ -181,7 +194,7 @@ We have described Schur functors as special functors
 
 $$  F: FinVect \to FinVect  $$
 
-But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts. For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works. More importantly, Schur functors can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]].  Here by **linear category** we mean a category enriched over $Vect$, the category of vector spaces over $k$.  Such a category is **Cauchy complete** when:
+But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric power, etc. make sense in much wider contexts. For starters, we can replace the complex numbers by any field $k$ of characteristic zero, and everything in our discussion still works. More importantly, Schur functors can be applied to any [[symmetric monoidal category|symmetric monoidal]] [[Cauchy complete category|Cauchy complete]] [[linear category]] ("[[tensor category]]").  Here by **linear category** we mean a category [[enriched category|enriched]] over [[Vect]], the category of vector spaces over $k$.  Such a category is **Cauchy complete** when:
 
 * it has [[biproducts]], also known as [[direct sums]], and 
 
@@ -189,13 +202,13 @@ But in fact, functors such as the $n^{th}$ alternating power, $n^{th}$ symmetric
 
 To illustrate the full breadth of this generalization, here are a few examples:
 
-* the category [[Vect]], consisting of vector spaces over any field $k$ of characteristic zero
+* the category [[Vect]], consisting of vector spaces over any field $k$ of [[characteristic zero]]
 
-* the category [[FinVect]], consisting of finite-dimensional vector spaces over $k$
+* the category [[FinVect]], consisting of [[finite-dimensional vector spaces]] over $k$
 
-* the category of [[representation|representations]] of any [[group]] on vector spaces (or finite-dimensional vector spaces) over $k$
+* the [[category of representation]] of any [[group]] on vector spaces (or [[finite-dimensional vector spaces]]) over $k$
 
-* the category of [[super vector space|super vector spaces]], [[graded vector space|graded vector spaces]] or [[chain complexes]] over $k$
+* the category of [[super vector spaces]], [[graded vector space|graded vector spaces]] or [[chain complexes]] over $k$
 
 * for $k = \mathbb{R}$ or $\mathbb{C}$, the category of finite-dimensional real or complex [[vector bundle|vector bundles]] over any [[topological space]], or smooth vector bundles over any smooth [[manifold]]
 
@@ -231,7 +244,7 @@ using the fact that $\otimes$ preserves direct sums in each argument, and the fa
 
 In summary, we have the following proposition. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition 
 There is exactly one symmetric monoidal linear functor 
 $i: FinVect \to C$, up to symmetric monoidal linear isomorphism. 
@@ -301,7 +314,7 @@ are the components of a natural transformation from the functor $X \mapsto X^{\o
 
 $$ X^{\otimes n} \stackrel{\widetilde{p}_\lambda}{1} X^{\otimes n} $$
 
-+-- {: .un_def}
++-- {: .num_defn}
 ######Definition 
 For any Young diagram $\lambda$, the **Schur functor** $S_\lambda: C \to C$ is defined as follows.  Given an object $X$ of $C$, let $S_\lambda(X)$ be the cokernel of $ \widetilde{p}_\lambda : X^{\otimes n} \to X^{\otimes n}$.  Given a morphism $f: X \to Y$ in $C$, let $S_\lambda(f)$ be the unique map $S_\lambda(X) \to S_\lambda(Y)$ such that 
 $$\array{
@@ -373,7 +386,7 @@ $$U: SymMonLinCauch \to Cat$$
 
 where:
 
-+-- {: .un_def}
++-- {: .num_defn}
 ######Definition 
 **SymMonLinCauch** is the 2-category with
 
@@ -386,7 +399,7 @@ where:
 
 As we shall see, Schur functors correspond to [[pseudonatural transformations]] from $U$ to itself, and morphisms between Schur functors correspond to [[modifications]] between these pseudonatural transformations.  For the reader unaccustomed to these 2-categorical concepts, we recall:
 
-+-- {: .un_def} 
++-- {: .num_defn} 
 ######Definition 
 Given two 2-functors $U, V: S \stackrel{\to}{\to} C$ between 2-categories, a **pseudonatural transformation** $\phi: U \to V$ is a rule that assigns to each 0-cell $s$ of $S$ a 1-cell $\phi(s): U(s) \to V(s)$ of $C$, and to each 1-cell $f: r \to s$ of $S$ an invertible 2-cell $\phi(f)$ of $C$:  
 $$\array{
@@ -408,7 +421,7 @@ V(r) & \underset{V(1_r)}{\to} & V(r) & &
 }$$
 =-- 
 
-+-- {: .un_def} 
++-- {: .num_defn} 
 ######Definition 
 With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transformations. A **modification** $x: \phi \to \psi$ is a rule which associates to each 0-cell $s$ of $S$ a 2-cell $x(s): \phi(s) \to \psi(t)$ of $C$, such that the following compatibility condition holds:
 =-- 
@@ -419,7 +432,7 @@ With notation as above, let $\phi, \psi: U \to V$ be two pseudonatural transform
 
 We now propose our conceptual definition of Schur functor:
 
-+-- {: .un_def} 
++-- {: .num_defn} 
 ######Definition 
 An (abstract) **Schur functor** is a pseudonatural transformation $S: U \to U$, where 
 $$U: SymMonLinCauch \to Cat$$ 
@@ -478,7 +491,7 @@ The key is that $Schur$ is the free symmetric monoidal linear Cauchy-complete ca
 
 To build a bridge from abstract Schur functors as pseudonatural transformations to the more classical descriptions, we start with the following key result.  In what follows we use $k \mathbb{P}$ to denote the 'linearization' of the permutation groupoid: that is, the linear category formed by replacing the homsets in $\mathbb{P}$ by the free vector spaces on those homsets.  We use $\widebar{k \mathbb{P}}$ to denote the Cauchy completion of the linearization of $\mathbb{P}$.  As we shall see, $\widebar{k \mathbb{P}}$ is equivalent to the category of Schur functors.  But first:
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem 
 The underlying 2-functor 
 $$U: SymMonLinCauch \to Cat$$ 
@@ -541,7 +554,7 @@ where $F(n) = 0$ for large enough $n$.  For it is clear that this category conta
 
 So, inspired by Joyal's work on [[combinatorial species]], we make the following definition:
 
-+-- {: .un_def}
++-- {: .num_defn}
 ######Definition 
 A **polynomial species** is a functor $F: \mathbb{P}^{op} \to FinVect$ where $F(n) = 0$ for all sufficiently large $n$.  A morphism of polynomial species is a natural transformation between such functors.
 
@@ -579,7 +592,7 @@ $$\sum_{j+k = n} \frac{n!}{j! k!} f_j g_k$$
 
 So in summary: 
 
-+-- {: .un_thm} 
++-- {: .num_theorem} 
 ######Theorem 
 $\widebar{k \mathbb{P}}$ is equivalent to the symmetric monoidal category of polynomial species. 
 =-- 
@@ -590,7 +603,7 @@ $$[U, U] \cong SymMonLinCauch(\widebar{k\mathbb{P}}, \widebar{k\mathbb{P}}) \con
 
 In other words, 
 
-+-- {: .un_thm}
++-- {: .num_theorem}
 ######Theorem 
 The category $Schur$ is equivalent to the category of polynomial species $\mathbb{P}^{op} \to FinVect$. 
 =-- 
@@ -625,7 +638,7 @@ $$(G \boxtimes F)(n) = \sum_{k \geq 0} G(k) \otimes_{S_k} F^{\otimes k}(n)$$
 
 It should be noted that $(G \boxtimes F)(n)$ is indeed $0$ for $n \gt (deg G)(deg F)$, so that $G \boxtimes F$ is indeed a polynomial species. It is just the polynomial special case of the substitution product which is defined on general **linear species** $F, G: \mathbb{P}^{op} \to Vect$. 
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ######Proposition 
 The product $\boxtimes$ makes the category of polynomial species into a monoidal category. The unit for this product is polynomial species $X$ given by the representable $\mathbb{P}(-, 1): \mathbb{P}^{op} \to FinVect$. 
 =-- 
@@ -718,9 +731,9 @@ is not assumed to respect the linear structure. In fact, linear Schur functors a
 
 ### Modules over a bimonoid ###
 
-Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the symmetric monoidal category $FinVect_k$.  Since $i : FinVect_k \to C$ is a symmetric monoidal functor, this means that $i$ carries $k[S_n]$ to a  bimonoid in $C$.  As noted above, we call this bimonoid by the same name, $k[S_n]$.
+Next we exploit the fact that, just like any [[group algebra]], $k[S_n]$ is a [[bialgebra]] --- or in fancier language, a  [[bimonoid]] in the [[symmetric monoidal category]] [[FinVect]]${}_k$.  Since $i \colon FinVect_k \to C$ is a [[symmetric monoidal functor]], this means that $i$ carries $k[S_n]$ to a  bimonoid in $C$.  As noted above, we call this bimonoid by the same name, $k[S_n]$.
 
-The category of modules over a bimonoid is a monoidal category. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
+The [[category of modules]] over a [[bimonoid]] is a [[monoidal category]]. More explicitly, in the case of the bimonoid $k[S_n]$ in $C$ with comultiplication 
 
 $$\delta: k[S_n] \to k[S_n] \otimes k[S_n] \,,$$
 
@@ -748,7 +761,7 @@ This operator makes sense since $k$ has characteristic zero, and crucially, this
 
 $$V_\nu \otimes X^{\otimes n} \stackrel{\overset{e}{\to}}{\underset{1}{\to}} V_\nu \otimes X^{\otimes n} \to V_\nu \otimes_{S_n} X^{\otimes n}$$
 
-This coequalizer is indeed the object of $S_n$-coinvariants of $V_\nu \otimes X^{\otimes n}$, i.e., the joint coequalizer of the diagram consisting of all arrows
+This [[coequalizer]] is indeed the object of $S_n$-[[coinvariants]] of $V_\nu \otimes X^{\otimes n}$, i.e., the joint coequalizer of the diagram consisting of all arrows
 
 $$V_\nu \otimes X^{\otimes n} \stackrel{\sigma \cdot-}{\to} V_\nu \otimes X^{\otimes n}$$
 
@@ -761,3 +774,6 @@ We may now define the Schur functor $S_\nu$ on $C$ attached to a Young tableau $
 
 [[!redirects Schur functor]]
 [[!redirects Schur functors]]
+
+[[!representation of the symmetric group]]
+[[!representations of the symmetric group]]
