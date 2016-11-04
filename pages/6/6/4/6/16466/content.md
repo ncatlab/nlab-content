@@ -283,7 +283,8 @@ Ever [[monoidal natural transformation]] between two [[fiber functors]] (def. \r
 
 ### Schur functors
 
-A [[finite dimensional vector space]] $V$ has the property that a high enough [[alternating power]] of it vanishes $\wedge^n V = 0$, namely this is the case for all $n \gt dim(V)$, and hence this vanishing is just another reflection of the finiteness of the [[dimension]] of $V$. For a [[super vector space]] $V$ of degreewise finite dimension the analog statement is still true if we also consider [[symmetric powers]]: for $n_{0} dim(V_0)$ and $n_1 \gt dim(V_1)$ then $Sym^{n_0 n_1} \wedge^{n_0} V = 0$.
+A [[finite dimensional vector space]] $V$ has the property that a high enough [[alternating power]] of it vanishes $\wedge^n V = 0$, namely this is the case for all $n \gt dim(V)$, and hence this vanishing is just another reflection of the finiteness of the [[dimension]] of $V$. For a [[super vector space]] $V$ of degreewise finite dimension an analog statement is still true, but one needs to form not just alternating powers but also [[symmetric powers]] (prop. \ref{SchurFunctorAnnihilatingFiniteDimensionalSuperVectorSpace} below), in fact one needs to apply a generalization of both of these constructions, a _[[Schur functor]]_. 
+
 
 The operation of forming [[symmetric powers]] and [[alternating powers]] makes sense in every [[tensor category]]. Moreover, these operations are the two extreme cases of the more general concept of [[Schur functors]]: Given any [[object]] $X$ and given any choice of [[irreducible representation]] $V_\lambda$ of the [[symmetric group]] $\Sigma_n$, then one consider the [[subobject]] $S_\lambda(X^{\otimes^n})$ of the $n$-fold [[tensor power]] that is [[invariant]] under this action.
 
@@ -350,6 +351,28 @@ $$
 
 =--
 
++-- {: .num_prop #SchurFunctorAnnihilatingFiniteDimensionalSuperVectorSpace} 
+###### Proposition
+
+Let $V = V_{even} \oplus V_{odd}$ be a [[super vector space]] of degreewise finite dimension $d_{even}, d_{odd} \in \mathbb{N}$. Then there exists a [[Schur functor]] $S_\lambda$ (def. \ref{SchurFunctor}) that annihilated $V$:
+
+$$
+  S_\lambda(V) \simeq 0
+  \,.
+$$
+
+Speicifically, this is the case precisely if the corresponding [[Young tableau]] $[\lambda]$ satifies
+
+$$
+  [\lambda] \subset \left\{ (i,j)\;\vert\; i \leq d_{even}, j \leq d_{odd} \right\}
+  \,.
+$$
+
+=--
+
+([Deligne 02, corollary 1.9](#Deligne02))
+
+Generally:
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
@@ -360,17 +383,10 @@ For [[tensor category]], then the following are equivalent:
 
 1. for every object $X$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
 
-
 =--
 
 ([Deligne 02, prop. 05](#Deligne02))
 
-+-- {: .num_example}
-###### Example
-
-For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$, then it is annihilated by the Schur functor corresponding to forming the $p$th antisymmetric and the $q$th symmetric tensor power.
-
-=--
 
 
 
