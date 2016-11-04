@@ -19,9 +19,16 @@
 
 ## Idea
 
-An ordinary [[locally small category]] $C$ has for any ordered pair of  [[object]]s $x,y$ a [[hom-set]] $C(x,y)$&#8212;an object in the category [[Set|$Set$]].
+An ordinary [[locally small category]] $\mathcal{C}$ has for any ordered pair of  [[object]]s $x,y$ a [[hom-set]] $\mathcal{C}(x,y)$&#8212;an object in the category [[Set]].
 
-For $C$ more generally an [[enriched category]] over a [[closed monoidal category]] $V$, there is --  by definition -- for all $x,y$ an _object_ $C(x,y) \in obj V$ that plays the role of the "collection of morphisms" from $x$ to $y$
+For $\mathcal{C}$ more generally an [[enriched category]] over a [[closed monoidal category]] $\mathcal{V}$, there is --  by definition -- for all $x,y$ an _object_ $\mathcal{C}(x,y) \in obj V$ that plays the role of the "collection of morphisms" from $x$ to $y$.
+
+Accordingly, if here $\mathcal{V}$ is a category of "spaces" of sorts, then one also speaks of a _hom space_. 
+For instance if $\mathcal{V}$ =[[vector spaces]] such that $\mathcal{C}$ is a [[linear category]], then hom-spaces are vector spaces.
+
+
+Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologically enriched category]], then hom-spaces are [[topological spaces]]. If this last example is regarded in the context of [[homotopy theory]], then one may consider just the [[homotopy type]] of these topological spaces, which is equivalently modeled as a [[simplicial set]] ([[Kan complex]]) and thought of as an [[infinity-groupoid]]. In all these cases people still often speak of "hom spaces", but see at _[[derived hom space]]_.
+
 
 ## Examples
 
@@ -37,7 +44,9 @@ For $C$ more generally an [[enriched category]] over a [[closed monoidal categor
 
 * [[hom-category]]
 
-* [[hom-space]], [[derived hom-space]]
+* [[derived hom-space]]
+
+
 
 [[!include homotopy-homology-cohomology]]
 
@@ -47,3 +56,10 @@ For $C$ more generally an [[enriched category]] over a [[closed monoidal categor
 [[!redirects hom objects]]
 
 [[!redirects enriched hom]]
+
+[[!redirects hom space]]
+[[!redirects hom spaces]]
+
+
+[[!redirects hom-space]]
+[[!redirects hom-spaces]]
