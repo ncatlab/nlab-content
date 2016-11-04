@@ -59,6 +59,10 @@ Finite-dimensional vector spaces are exactly the [[compact objects]] of [[Vect]]
 
 ## Related concepts
 
+* [[finite abelian category]]
+
+* [[Schur functor]]
+
 * [[finite quantum mechanics in terms of dagger-compact categories]]
 
 [[!redirects finite-dimensional vector space]]
