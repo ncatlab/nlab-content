@@ -51,6 +51,6 @@ The [[isomorphism classes]] $[X]$ of objects of $\mathcal{C}$ form an $\mathbb{N
 
 ## Related concepts
 
-* [[Frobenius-PErron dimension]]
+* [[Frobenius-Perron dimension]]
 
 [[!redirects fusion rings]]
