@@ -4,6 +4,17 @@ Any such function $P \to \mathbf{n}$ factors as a [[surjection]] from $P$ onto s
 $$\Omega(P;n) = \sum_{k=1}^{|P|} e_k \binom{n}{k}$$
 where $e_k$ is the number of surjective order-preserving functions from $P$ to $\mathbf{k}$. For a given $P$, this defines a polynomial in $n$, called the **order polynomial** of $P$.
 
+## Examples
+
+The order polynomial of $\mathbf{3} = \{ 0 \lt 1 \lt 2 \}$ is
+$$n + 2\cdot \binom{n}{2} + \binom{n}{3} = \frac{n^3 + 3n^2 + 2n}{6}$$
+For example, evaluating the polynomial at $n=3$ confirms that there are 10 order-preserving functions from $\mathbf{3}$ to itself.
+
+The order polynomial of the 3-element poset
+$$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
+is $n + 3\cdot \binom{n}{2} + 3\cdot\binom{n}{3} = \frac{2n^3 + 3n^2 + n}{6}$.
+Evaluating at $n=2$, we compute that there are 5 order-preserving functions from $P$ onto $\mathbf{2}$.
+
 ## References
 
 * Richard P. Stanley. Ordered structures and partitions. Memoirs of the AMS 119, 1972. ([doi](http://www.ams.org/books/memo/0119/)) (Free copy available from the [author's website](http://www-math.mit.edu/~rstan/pubs/).)
