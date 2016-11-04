@@ -64,7 +64,7 @@ These expressions are specifically the _Clebsch-Gordan coefficients_ as they app
 
 * [[Fierz identity]]
 
-* [[Fusion ring]]
+* [[fusion ring]]
 
 ## References
 
