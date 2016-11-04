@@ -448,13 +448,6 @@ The convolution algebra of a [[set]]/[[manifold]] $X$ regarded as a [[discrete g
 +-- {: .num_example}
 ###### Example
 
-The convolution algebra of a [[partially ordered set]] $X$ is also known as its _incidence algebra_. The notion of incidence algebra of a poset was introduced by [[Gian-Carlo Rota]] in [Rota (1964)](#Rota64), used to formulate an order-theoretic generalization of [[Möbius inversion]].
-
-=--
-
-+-- {: .num_example}
-###### Example
-
 For $X$ a [[set]] the convolution algebra of the [[pair groupoid]] $Pair(X)_\bullet$ is the [[matrix algebra]] of ${\vert X\vert} \times {\vert X\vert}$ matrices.
 
 =--
@@ -476,6 +469,19 @@ $$
 $$
 
 =--
+
+### Poset convolution algebras ("incidence algebras") and M&#246;bius functions
+
+(See also [[Möbius inversion]].)
+
+In a seminal paper "On the foundations of combinatorial theory I", [[Gian-Carlo Rota]] [(1964)](#Rota64), used convolution algebras of [[partially ordered sets]] to formulate an order-theoretic generalization of the number-theoretic concept of [[Möbius inversion]]. Rota defined the _incidence algebra_ of a poset $P$ to be the set of functions $f : P \times P\to R$ such that $f(x,y) = 0$ unless $x \le y$, with pointwise addition $f+g$ and scalar multiplication $r\cdot f$ defined as usual, and with the convolution product $f\cdot g$ defined as follows:
+$$(f\cdot g)(x,y) = \sum_{x \le z \le y} f(x,z) \cdot g(z,y)$$
+Note that the unit of the convolution product is the [[Kronecker delta]]:
+$$\delta(x,y) = \begin{cases}1 & x = y \\ 0 & \text{otherwise}\end{cases}$$
+A special element of the incidence algebra is given by
+$$\zeta(x,y) = \begin{cases}1 & x \le y \\ 0 & \text{otherwise}\end{cases}$$
+referred to as the _zeta function_ of $P$.
+Rota observed that the zeta function of any locally finite poset $P$ is invertible with respect to the convolution product, and referred to the unique function $\mu$ such that $\zeta \cdot \mu = \mu \cdot \zeta = \delta$ as the _M&#246;bius function_ of $P$.
 
 ### Higher groupoid convolution algebras and n-vector spaces/n-modules
  {#HigherGroupoidConvolutionAlgebras}
@@ -737,5 +743,4 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 [[!redirects groupoid convolution C*-algebras]]
 [[!redirects groupoid convolution C-star-algebra]]
 [[!redirects groupoid convolution C-star-algebras]]
-
 
