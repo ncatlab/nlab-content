@@ -553,3 +553,6 @@ See also the remarks at the beginning of section 5.3 of
 [[!redirects ind object]]
 [[!redirects ind-completion]]
 [[!redirects ind-cocompletion]]
+
+[[!redirects category of ind-objects]]
+[[!redirects categories of ind-objects]]
