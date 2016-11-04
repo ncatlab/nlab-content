@@ -29,7 +29,7 @@ Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as th
 
 ### For supersymmetry
 
-Since the concept of [[tensor categories]] is "god given", much like that of [[natural mubrs]] (being a natural [[categorification]]), the theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
+Since the concept of [[tensor categories]] is "god given", much like that of [[natural numbers]], the theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
 
 For instance one may wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are to be singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are singled out notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. On the other hand $k$-linear [[tensor categories]] need little extra motivation, they are on general abstract ground the canonical structure to consider in [[representation theory]]. Hence Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
@@ -49,6 +49,7 @@ By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[cate
  {#Statement}
 
 Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
+
 
 ### Tensor categories
 
@@ -86,7 +87,41 @@ such that
 
 ([Deligne 02, 0.1](#Deligne02))
 
-The following is a finiteness condition that is useful in the proof of the main theorem, but not necessary for its statement (according to [Deligne 02, bottom of p. 3](#Deligne02)):
+We consider now various types of size constraints on tensor categories. The main theorem (theorem \ref{TheTheorem} below) only assumes one of them (subexponential growth, def. \ref{SubexponentialGrowth}), but the others appear in the course of the proof of the theorem.
+
+1. finiteness (def. \ref{FiniteTensorCategory})
+
+1. finite $\otimes$-generation (def. \ref{FiniteTensorGeneration})
+
+1. subexponential growth (def. \ref{SubexponentialGrowth})
+
+Recall the concept of [[length of an object]] in an [[abelian category]], a generalization of the concept of [[dimension]] of a [[free module]]/[[vector space]]. 
+
+
++-- {: .num_defn #FiniteTensorCategory} 
+###### Definition
+
+A $k$[[tensor category]] (def. \ref{TensorCategory}) is called **finite** (over $k$) if 
+
+1. There are only [[finite number|finitely many]] [[simple objects]] in $C$ (hence it is a [[finite abelian category]]), and each of them admits a [[projective presentation]]. 
+
+1. Each object $a$ is of [[object of finite length|finite length]]; 
+
+1. For any two [[objects]] $a$, $b$ of $C$, the [[hom-object]] ($k$-[[vector space]]) $\hom(a, b)$ has [[finite]] [[dimension]]; 
+
+=--
+
++-- {: .num_example} 
+###### Example
+
+The category of [[finite dimensional vector spaces]] over $k$ is a finite tensor category according to def. \ref{FiniteTensorCategory}. It has a single isomorphism class of [[simple objects]], namely $k$ itself.
+
+Also category of finite dimensional [[super vector spaces]] is a finite tensor category. This has two isomorphism classes of simple objects, $k = k^{1 \vert 0}$ regarded in even degree, and $k^{0\vert 1}$ regarded in odd degree.
+
+=--
+
+
+The following finiteness condition is useful in the proof of the main theorem, but not necessary for its statement (according to [Deligne 02, bottom of p. 3](#Deligne02)):
 
 +-- {: .num_defn #FiniteTensorGeneration}
 ###### Definition
@@ -111,9 +146,7 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 ([Deligne 02, 0.1](#Deligne02))
 
 
-The following is a mild size constraint on tensor categories:
-
-Recall the concept of [[length of an object]] in an [[abelian category]], a generalization of the concept of [[dimension]] of a [[free module]]/[[vector space]]. 
+The following is the main size constraint needed in the theorem. Notice that it is a "mild" constraint at least in the intuitive sense that it states just a minimum assumption on the expected behaviour of dimension ([[lengh of an object|lengh]]) under tensor powers.
 
 +-- {: .num_defn #SubexponentialGrowth}
 ###### Definition
@@ -155,22 +188,29 @@ The first step in the proof of the theorem is the proposition (prop. \ref{Lenght
 +-- {: .num_defn #SchurFunctor}
 ###### Definition
 
-For $(\mathcal{A},\otimes)$ a $k$-[[tensor category]] as in def.\ref{TensorCategory}, for $X \in \mathcal{A}$ an [[object]], for $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, say that the value of the [[Schur functor]] $S_\lambda$ on $X$ is
+For $(\mathcal{A},\otimes)$ a $k$-[[tensor category]] as in def.\ref{TensorCategory}, for $X \in \mathcal{A}$ an [[object]], for $n \in \mathbb{N}$ and $\lambda$ a [[partition]] of $n$, regarded as a [[Young diagram]] and hence as a [[representation of the symmetric group]] $V_\lambda$, say that the value of the [[Schur functor]] $S_\lambda$ on $X$ is 
 
 $$
-  S_{\lambda}(X) \coloneqq (V_\lambda \otimes X^{\otimes_n})^{S_n}
-  \coloneqq 
-  \left(
-    \frac{1}{n!}
-    \underset{g\in S_n}{\sum}
-    \rho(g)
-  \right)
-  \left(
-    V_\lambda \otimes X^{\otimes_n}
-  \right)
+  \begin{aligned}
+    S_{\lambda}(X) 
+      & \coloneqq 
+    (V_\lambda \otimes X^{\otimes_n})^{S_n}
+    \\
+    & = 
+    \left(
+      \frac{1}{n!}
+      \underset{g\in S_n}{\sum}
+      \rho(g)
+    \right)
+    \left(
+      V_\lambda \otimes X^{\otimes_n}
+    \right)
+  \end{aligned}
 $$
 
 where
+
+* $(-)^{S_n}$ is the subobject of [[invariants]];
 
 * $S_n$ is the [[symmetric group]] on $n$ elements;
 
@@ -180,11 +220,31 @@ where
 
 * $(-)^{S_n}$ denotes the subspace of [[invariants]] under the action $\rho$ 
 
-* the last expression just rewrites this as a [[group averaging]].
+* the second expression just rewrites the invariants as the image of all elements under [[group averaging]].
 
 =--
 
 ([Deligne 02, 1.4](#Deligne02))
+
++-- {: .num_example}
+###### Example
+
+For $\lambda = (n)$, then $V_{(n)} = k$ equipped with the trivial action of the symmetric group. In this case the corresponding [[Schur functor]] (def. \ref{SchurFunctor}) forms the $n$ [[symmetric power]]
+
+$$
+  S_{(n)}(X) = Sym^n(X)
+  \,.
+$$
+
+For the dual case where $\lambda  (1,1, \cdots, 1)$ then $V_{(1,1,\cdots, 1)} = k$ equipped with the action by multiplication with the [[signature of a permutation]] and the corresponding [[Schur functor]] forms the [[alternating power]]
+
+$$
+  S_{(1,1, \cdots, 1)}(X) = \wedge^n X
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop #LenghtOfObjectIsBounded}
 ###### Proposition
@@ -207,6 +267,7 @@ For $V \in SuperVect_k$ a [[super vector space]] of super-dimension $(p\vert q)$
 
 =--
 
+### Fiber functor
 
 
 ### Supergroups
@@ -321,7 +382,7 @@ Any finite dimensional [[faithful representation]] (which always exists, [prop.]
 +-- {: .num_theorem #TheTheorem}
 ###### Theorem
 
-Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}), of subexponential growth (def. \ref{SubexponentialGrowth}) is [[equivalence of categories|equivalent]] to one of the form $Rep(G,\epsilon)$, example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
+Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}), of subexponential growth (def. \ref{SubexponentialGrowth}) is [[equivalence of categories|equivalent]] to a [[category of representations]] $Rep(G,\epsilon)$, according to example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
 
 =--
 
