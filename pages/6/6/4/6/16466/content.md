@@ -29,9 +29,9 @@ Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as th
 
 ### For supersymmetry
 
-Since the concept of [[tensor categories]] is "god given", much like that of [[natural numbers]], the theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
+Since the concept of linear tensor categories arises very naturally in mathematics, the theorem gives a purely mathematical "reason" for the relevance of superalgebra and supergeometry. It is reasonable to wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. 
 
-For instance one may wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are to be singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are singled out notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. On the other hand $k$-linear [[tensor categories]] need little extra motivation, they are on general abstract ground the canonical structure to consider in [[representation theory]]. Hence Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
+But with $k$-linear [[tensor categories]] appearing on general abstract grounds as the canonical structure to consider in [[representation theory]], Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
 More concretely, in [[quantum field theory]], under the [[Wigner classification]], [[fundamental particles]] are identified with [[irreducible representations]] of the [[isometry group]] of the local model of [[spacetime]]. Forming the [[tensor product]] of two such representations corresponds to combining them as two [[subsystems]] of a joint system. Therefore it is natural to demand that physical particle species should form complex-linear [[tensor categories]]. Deligne's theorem then gives that [[supersymmetry]] is the most general context in which this works out. (In physics the irreducible representation in this context here are called the _[[supermultiplets]]_.)
 
@@ -153,7 +153,7 @@ The following is the main size constraint needed in the theorem. Notice that it 
 +-- {: .num_defn #SubexponentialGrowth}
 ###### Definition
 
-A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if the [[length]] of tensor exponentials is no larger than the exponential of the lenght: for every [[object]] $X$ there exists a [[natural number]] $N_X$ such that $X$ is of [[length of an object|length]] at most $N_X$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N_X$:
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if the [[length]] of tensor exponentials is no larger than the exponential of the length: for every [[object]] $X$ there exists a [[natural number]] $N_X$ such that $X$ is of [[length of an object|length]] at most $N_X$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N_X$:
 
 $$
   \underset{X \in \mathcal{A}}{\forall}
@@ -287,7 +287,7 @@ A [[finite dimensional vector space]] $V$ has the property that a high enough [[
 
 The operation of forming [[symmetric powers]] and [[alternating powers]] makes sense in every [[tensor category]]. Moreover, these operations are the two extreme cases of the more general concept of [[Schur functors]]: Given any [[object]] $X$ and given any choice of [[irreducible representation]] $V_\lambda$ of the [[symmetric group]] $\Sigma_n$, then one consider the [[subobject]] $S_\lambda(X^{\otimes^n})$ of the $n$-fold [[tensor power]] that is [[invariant]] under this action.
 
-The first step in the proof of the main theorem (theorem \ref{TheTheorem} below) is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have subexponential growth of lenght (def. \ref{SubexponentialGrowth}) are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. 
+The first step in the proof of the main theorem (theorem \ref{TheTheorem} below) is the proposition (prop. \ref{LengthOfObjectIsBounded} below) that all objects that have subexponential growth of length (def. \ref{SubexponentialGrowth}) are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. 
 
 
 +-- {: .num_defn #SchurFunctor}
@@ -351,7 +351,7 @@ $$
 =--
 
 
-+-- {: .num_prop #LenghtOfObjectIsBounded}
++-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
 
 For [[tensor category]], then the following are equivalent:
