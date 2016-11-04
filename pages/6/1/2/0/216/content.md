@@ -448,7 +448,19 @@ The convolution algebra of a [[set]]/[[manifold]] $X$ regarded as a [[discrete g
 +-- {: .num_example}
 ###### Example
 
+The convolution algebra of a [[partially ordered set]] $X$ is also known as its _incidence algebra_. The notion of incidence algebra of a poset was introduced by [[Gian-Carlo Rota]] in [Rota (1964)](#Rota64), used to formulate an order-theoretic generalization of [[Möbius inversion]].
+
+=--
+
++-- {: .num_example}
+###### Example
+
 For $X$ a [[set]] the convolution algebra of the [[pair groupoid]] $Pair(X)_\bullet$ is the [[matrix algebra]] of ${\vert X\vert} \times {\vert X\vert}$ matrices.
+
+=--
+
++-- {: .num_example}
+###### Example
 
 For $X$ a [[smooth manifold]] and $Pair(X)_\bullet$ its [[pair groupoid]] regarded as a [[Lie groupoid]] its smooth convolution algebra is the algebra of [[smoothing kernels]] on $X$.
 
@@ -576,6 +588,11 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 * [[bibundle]], [[bimodule]]
 
 ## References
+
+### For partial orders
+
+* [[Gian-Carlo Rota]], _On the foundations of combinatorial theory I: theory of M&#246;bius functions_ , Z. Wahrscheinlichkeitstheorie und Verw. Gebiete 2 (1964), 340&#8211;368.
+ {#Rota64}
 
 ### For discrete geometry
 
