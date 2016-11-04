@@ -11,7 +11,7 @@ The fundamental [[length]] scale of gravity.
 
 ## References
 
-* Wikipedia, _[Planck lenght](http://en.wikipedia.org/wiki/Planck_length)_
+* Wikipedia, _[Planck length](http://en.wikipedia.org/wiki/Planck_length)_
 
 [[!redirects Planck lengths]]
 
