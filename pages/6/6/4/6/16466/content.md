@@ -23,13 +23,13 @@
 
 ## Idea
 
-Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to mild size constraint, and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
+Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to just a mild size constraint (subexponential growth, def. \ref{SubexponentialGrowth} below), and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
 
 ## Relevance
 
 ### For supersymmetry
 
-The theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
+Since the concept of [[tensor categories]] is "god given", much like that of [[natural mubrs]] (being a natural [[categorification]]), the theorem hence gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. 
 
 For instance one may wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are to be singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are singled out notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. On the other hand $k$-linear [[tensor categories]] need little extra motivation, they are on general abstract ground the canonical structure to consider in [[representation theory]]. Hence Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
@@ -38,7 +38,7 @@ More concretely, in [[quantum field theory]], under the [[Wigner classification]
 ### For Tannaka duality of Hopf algebras
  {#RelevanceForHopfAlgebras}
 
-By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras whose category of representation in addition satisfies a certain regularity condition (def. \ref{Regularity} below) are equivalent to supercommutative Hopf algebras. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
+By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to supercommutative Hopf algebras. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
 
 [[!include structure on algebras and their module categories - table]]
 
@@ -82,7 +82,16 @@ such that
 
 1. $End(1) \simeq k$ (the [[endomorphism ring]] of the [[tensor unit]] coincides with $k$).
 
-Such a $k$-tensor category is called _finitely $\otimes$-generated_ if there exists an [[object]] $E \in \mathcal{A}$ such that every other object $X \in \mathcal{A}$ is a [[subquotient]] of a [[direct sum]] of [[tensor products]] $E^{\otimes^n}$, for some $n \in \mathbb{N}$:
+=--
+
+([Deligne 02, 0.1](#Deligne02))
+
+The following is a finiteness condition that is useful in the proof of the main theorem, but not necessary for its statement (according to [Deligne 02, bottom of p. 3](#Deligne02)):
+
++-- {: .num_defn #FiniteTensorGeneration}
+###### Definition
+
+A $k$-[[tensor category]] (def. \ref{TensorCategory}) is called _finitely $\otimes$-generated_ if there exists an [[object]] $E \in \mathcal{A}$ such that every other object $X \in \mathcal{A}$ is a [[subquotient]] of a [[direct sum]] of [[tensor products]] $E^{\otimes^n}$, for some $n \in \mathbb{N}$:
 
 $$
   \array{
@@ -101,6 +110,7 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 
 ([Deligne 02, 0.1](#Deligne02))
 
+
 The following is a mild size constraint on tensor categories:
 
 Recall the concept of [[length of an object]] in an [[abelian category]], a generalization of the concept of [[dimension]] of a [[free module]]/[[vector space]]. 
@@ -114,7 +124,7 @@ $$
   \underset{X \in \mathcal{A}}{\forall}
   \underset{N_X \in \mathbb{N}}{\exists}
   \underset{n \in \mathbb{N}}{\forall}
-    \;
+    \;\;
    length(X^{\otimes^n}) \leq (N_X)^n
   \,.
 $$
@@ -136,20 +146,10 @@ $$
 =--
 
 
-+-- {: .num_defn #Regularity}
-###### Definition
-
-A $k$-[[tensor category]] $(\mathcal{A}, \otimes)$  as in def.\ref{TensorCategory} is _regular_ if 
-
-1. it is finitely $\otimes$-generated (in the sense of def. \ref{TensorCategory});
-
-1. it is of subexponential growth (def. \ref{SubexponentialGrowth}).
-
-=--
 
 ### Schur functors
 
-The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have bounded length according to def. \ref{Regularity} are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite dimensional vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
+The first step in the proof of the theorem is the proposition (prop. \ref{LenghtOfObjectIsBounded} below) that all objects that have subexponential growth of lenght (def. \ref{SubexponentialGrowth}) are actually annihilated by some [[Schur functor]] for the [[symmetric group]]. This is a (considerable) generalization of the familiar fact that for every [[finite dimensional vector space]] $V$ there exists an [[symmetric algebra|exterior power]] that vanishes, $\wedge^n V = 0$ (namely for all $n \gt dim (V)$). Similarly, if $V$ is a [[super vector space]] of dimension $(d,p)$, then the combined $(d+1)$st skew-symmetric tensor power and $(p+1)$st symmetric tensor power annihilates it. In this way prop. \ref{LenghtOfObjectIsBounded} below already goes a good way in the direction of establishing that all objects of bounded length, in the sense of def. \ref{LenghtOfObjectIsBounded}, behave like having underlying super-vector spaces.
 
 
 +-- {: .num_defn #SchurFunctor}
@@ -310,8 +310,8 @@ For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivi
 +-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
 ###### Proposition
 
-The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a regular $k$-[[tensor category]] according to def.\ref{Regularity}.
-
+The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
+ 
 =--
 
 ([Deligne 02, 1.21](#Deligne02))
@@ -321,7 +321,7 @@ Any finite dimensional [[faithful representation]] (which always exists, [prop.]
 +-- {: .num_theorem #TheTheorem}
 ###### Theorem
 
-Every regular $k$-tensor category $\mathcal{A}$, def. \ref{Regularity} is [[equivalence of categories|equivalent]] to one of the form $Rep(G,\epsilon)$, example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
+Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}), of subexponential growth (def. \ref{SubexponentialGrowth}) is [[equivalence of categories|equivalent]] to one of the form $Rep(G,\epsilon)$, example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
 
 =--
 
