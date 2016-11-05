@@ -75,6 +75,8 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 
 * Kiumars Kaveh, Christopher Manon, _Khovanskii bases, Newton-Okounkov polytopes and tropical geometry of projective varieties_, [arxiv/1610.00298](https://arxiv.org/abs/1610.00298)
 
+*  [[Alain Connes]], [[Caterina Consani]], _Geometry of the scaling site_, [arxiv/1603.03191](https://arxiv.org/abs/1603.03191) 
+
 An alternative algebraic framework for tropical mathematics (not based on semirings), "more compatible with valuation theory" has been proposed in
 
 * Zur Izhakian, Manfred Knebusch, Louis Rowen, _Algebraic structures of tropical mathematics_, [arxiv/1305.3906](http://arxiv.org/abs/1305.3906) 
@@ -82,7 +84,6 @@ An alternative algebraic framework for tropical mathematics (not based on semiri
 Connections to diophantine integration (involving p-adic integration):
 
 * Eric Katz, Joseph Rabinoff, David Zureick-Brown, _Diophantine and tropical geometry, and uniformity of rational points on curves_, [arxiv/1606.09618](http://arxiv.org/abs/1606.09618)
-
 
 ###Miscellaneous: MO questions, discussions, etc.
 
