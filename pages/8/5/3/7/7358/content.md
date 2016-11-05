@@ -23,8 +23,6 @@ The concept of _$\Gamma$-spaces_ is a model for [[∞-groupoids]] equipped with 
 
 The notion of $\Gamma$-space is a close variant of that of [[Segal category]] for the case that the underlying [[(∞,1)-category]] happens to be an [[∞-groupoid]], happens to be [[n-connected object of an (∞,1)-category|connected]] and is equipped with extra structure.
 
-
-
 $\Gamma$-spaces differ from [[operad|operadic]] models for $E_\infty$-spaces, such as in terms of  [[algebra over an operad|algebras]] over an [[E-∞ operad]], in that their multiplication is specified "[[geometric definition of higher categories|geometrically]]" rather than [[algebraic definition of higher categories|algebraically]].
 
 ## Definition
@@ -41,15 +39,13 @@ are [[weak equivalences]].  We include in this the $0$th Segal map $X(\underline
 
 We have a functor $\Delta\to\Gamma$, where $\Delta$ is the [[simplex category]], which takes $[n]$ to $\underline{n}$.  Thus, every $\Gamma$-space has an underlying simplicial space. This simplicial space is in fact a [[special Delta-space]] which exhibits the 1-fold delooping of the corresponding $\Gamma$-space.
 
-### As classifying topos for pointed objects
-
-The [[topos]] $\Set^{\Gamma^{op}}$ of $\Gamma$-sets is the [[classifying topos]] for [[pointed objects]] ([MO question](http://mathoverflow.net/questions/85600/what-do-gamma-sets-classify)). For more on this see also at _[[classifying topos for the theory of objects]]_.
-
 ### Model category structure
 
 A [[model category]] structure on $\Gamma$-spaces is due to ([Bousfield-Friedlander 77](#BousfieldFriedlander77)). See at _[[model structure for connective spectra]]_.
 
 ## Related notions
+
+* [[Gamma-set]]
 
 [[!include k-monoidal table]]
 
@@ -58,7 +54,7 @@ A [[model category]] structure on $\Gamma$-spaces is due to ([Bousfield-Friedlan
 
 The concept goes back to 
 
-* [[Graeme Segal]], _Categories and Cohomology Theories_, Topology 13 (1974).
+* [[Graeme Segal]], _Categories and cohomology theories_, Topology 13 (1974).
 
 The [[model category]] structure on $\Gamma$-spaces (a [[generalized Reedy model structure]]) was established in
 
@@ -90,9 +86,6 @@ Monoidal Categories_, Advances in Mathematics (2003).
 
 * B. Badzioch, _Algebraic Theories in Homotopy Theory_, Annals of Mathematics, 155, 895--913 (2002).
 
-
-
-[[!redirects Gamma-space]]
 [[!redirects Gamma-spaces]]
 [[!redirects ∞-space]]
 [[!redirects ∞-spaces]]
