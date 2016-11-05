@@ -35,13 +35,13 @@ Rosenberg's available papers and online resources include:
 
 * A. L. Rosenberg, _Noncommutative local algebra_,  Geom. Funct. Anal. __4__  (1994),  no. 5, 545--585.
 
-* A. L. Rosenberg, _The existence of fiber functors_, The Gelfand Mathematical Seminars, 1996--1999,  145--154, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000.
+* A. L. Rosenberg, _The existence of fiber functors_, The Gelfand Mathematical Seminars, 1996--1999,  145--154, Gelfand Math. Sem., Birkh&#228;user Boston, Boston, MA, 2000 [doi](https://dx.doi.org/10.1007/978-1-4612-1340-6_7)
 
 * A. L. Rosenberg, _The spectrum of abelian categories and reconstructions of schemes_, in Rings, Hopf Algebras, and Brauer groups, Lectures Notes in Pure and Appl. Math. __197__, Marcel Dekker, New York, 257--274, 1998; MR99d:18011; and Max Planck Bonn preprint _Reconstruction of Schemes_, [MPIM1996-108](http://www.mpim-bonn.mpg.de/preblob/3948) (1996). 
 
 * A. L. Rosenberg, _Spectra of noncommutative spaces_, MPIM2003-110 [ps](http://www.mpim-bonn.mpg.de/preblob/1946) [dvi](http://www.mpim-bonn.mpg.de/preblob/1945) (2003)
 
-* A. L. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125 ([doi](http://dx.doi.org/10.1023/A:1000479824211))
+* A. L. Rosenberg, _Noncommutative schemes_, Compos. Math. __112__ (1998) 93--125 [doi](http://dx.doi.org/10.1023/A:1000479824211)
 
 * V. A. Lunts, A. L. Rosenberg, _Differential operators on noncommutative rings_, Selecta Math. (N.S.)  __3__  (1997),  no. 3, 335--359 ([doi](http://dx.doi.org/10.1007/s000290050014)); sequel: _Localization for quantum groups_, Selecta Math. (N.S.) __5__ (1999), no. 1, pp. 123--159 ([doi](http://dx.doi.org/10.1007/s000290050044)).
 
