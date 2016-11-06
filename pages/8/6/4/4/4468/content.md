@@ -32,9 +32,11 @@ An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[joi
 ###### Definition
 **(in [[predicative mathematics|predicative]] [[constructive mathematics|constructive]] mathematics)**
 
-A **positivity predicate** on $L$ is a [[predicate]] $\diamond x$, pronounced "$x$ is positive", such that
-*  If $x$ is bounded above by a join of a subset and $x$ is positive, then some element of that subset is positive: $\diamond x \;\wedge\; x \leq \bigvee A \;\vdash\; \exists\, u \in A,\; \diamond u$.
-*  If $x$ is bounded above by a join on the assumption that $x$ is positive, then $x$ really is so bounded: $\diamond x \;\Rightarrow\; x \leq \bigvee A \;\vdash\; x \leq \bigvee A$.
+A **positivity predicate** on $L$ is a [[predicate]] $\lozenge x$, pronounced "$x$ is positive", such that
+
+*  If $x$ is bounded above by a join of a subset and $x$ is positive, then some element of that subset is positive: $\lozenge x \;\wedge\; x \leq \bigvee A \;\vdash\; \exists\, u \in A,\; \lozenge u$.
+
+*  If $x$ is bounded above by a join on the assumption that $x$ is positive, then $x$ really is so bounded: $\lozenge x \;\Rightarrow\; x \leq \bigvee A \;\vdash\; x \leq \bigvee A$.
 =--
 
 Any two of these definitions can be shown to be equivalent in the union of the corresponding foundational systems.  Specifically:
