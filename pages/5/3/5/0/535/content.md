@@ -38,7 +38,7 @@ is required to be _finite_. This means these are required to have a [[finite set
 
 ## Definition
 
-A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all objects $x,y$ the [[interval]] $[y,x]$ is finite.
+A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all objects $x,y$ the [[interval]] $[x,y] = \{z \mid x \le z \le y\}$ is finite.
 
 
 ## References
