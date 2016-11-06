@@ -21,11 +21,9 @@
 
 In [[formal logic]], a __judgment__, or __judgement__, is a "meta-[[proposition]]"; that is, a proposition belonging to the [[meta-language]] (the [[deductive system]] or [[logical framework]]) rather than to the [[object language]].
 
-More specifically, any [[deductive system]] includes, as part of its specification, which strings of symbols are to be regarded as the _judgments_.  Some of these symbols may themselves express a [[proposition]] in the object language, but this is not necessarily the case.
-
-The interest in judgements is typically in how they may arise as _theorems_, or as _consequences_ of other judgements, by way of the [[deduction]] rules in a deductive system.  One writes
-$$\vdash J$$
-for the judgement that the proposition $J$ derivable, i.e. a [[theorem]] of the deductive system.
+Typical judgements assert for example that a particular formula $\phi$ has no free variables or that a proposition $\phi$ is derivable, i.e. a [[theorem]] of the deductive system.  One writes
+$$\vdash \phi$$
+for this latter judgement.
 
 
 ## Examples
@@ -60,13 +58,13 @@ These inductive definitions can be formalized by choosing a particular [[type th
 
 ## Hypothetical and generic judgments
 
-It may happen that a judgment $J$ is only derivable under the assumptions of certain other judgments $J_1,\dots, J_2$.  In this case one writes
-$$ J_1,\dots,J_n \;\vdash J.$$
-Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $ J_1,\dots,J_n \;\vdash J $ becomes a single _[[hypothetical judgment]]_.  It can then be a consquence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
+It may happen that a proposition $\phi$ is only derivable under the assumptions of certain other proposition $\phi_1,\dots, \phi_2$. The judgement that expresses this situation is written
+$$ \phi_1,\dots,\phi_n \;\vdash \phi.$$
+Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $\phi_1,\dots,\phi_n \;\vdash \phi$ becomes a single _[[hypothetical judgment]]_.  It can then be a consquence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
 $$ \frac{\phi \;\vdash\; \psi}{\vdash\; \phi\Rightarrow\psi}$$
 with a hypothetical judgment as its hypothesis.  See [[natural deduction]] for a more extensive discussion.
 
-In a [[type theory]], we may also conside the case where the hypotheses $J_1$ are typing judgments of the form $x:A$, where $x$ is a [[variable]], and in which the conclusion judgment $J$ involves these variables as [[free variables]].  For instance, $J$ could be $\phi\;prop$, where $\phi$ is a valid (well-formed) proposition only when $x$ belongs of a specific [[type]] $X$.  In this case we have a _[[generic judgement]]_, written
+In a [[type theory]], we may also consider the case where the hypotheses are type declarations of the form $x:A$, where $x$ is a [[variable]], and in which the conclusion proposition involves these variables as [[free variables]].  For instance the conclusion could be $\phi\;prop$, where $\phi$ is a valid (well-formed) proposition only when $x$ belongs of a specific [[type]] $X$.  In this case we have a _[[generic judgement]]_, written
 $$ (x \colon X) \;\vdash\; (\phi \; prop). $$
 which expresses that _assuming the hypothesis or [[antecedent]] judgement_ that $x$ is of type $X$, as a consequence we have the [[succedent]] judgement that $\phi$ is a proposition. If on the right here we have a typing judgment 
 
