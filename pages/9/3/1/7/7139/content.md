@@ -81,7 +81,7 @@ The dihedral group of order $2 n$ is the isometry group of a regular $n$-gon in 
 
 There is also a coincidence $I_2(6) \cong G_2$ (which allows us to elide over the description of the Coxeter group $G_2$!). The distinction between them is again only at the level of root systems, where the root system of $G_2$ consists of the 12 vectors 
 
-$$\{e^{2\pi i j/6}\} \cup \{e^{2\pi i j/6} + e^{2\pi (j+1)/6}\}$$ 
+$$\{e^{2\pi i j/6}\} \cup \{e^{2\pi i j/6} + e^{2\pi i (j+1)/6}\}$$ 
 
 #### The groups $E_8$, $E_7$, $E_6$ 
 
