@@ -481,7 +481,7 @@ $$\delta(x,y) = \begin{cases}1 & x = y \\ 0 & \text{otherwise}\end{cases}$$
 A special element of the incidence algebra is given by
 $$\zeta(x,y) = \begin{cases}1 & x \le y \\ 0 & \text{otherwise}\end{cases}$$
 referred to as the _zeta function_ of $P$.
-Rota observed that the zeta function of any locally finite poset $P$ is invertible with respect to the convolution product, and referred to the unique function $\mu$ such that $\zeta \cdot \mu = \mu \cdot \zeta = \delta$ as the _M&#246;bius function_ of $P$.
+Rota observed that the zeta function of any [[locally finite poset]] $P$ is invertible with respect to the convolution product, and referred to the unique function $\mu$ such that $\zeta \cdot \mu = \mu \cdot \zeta = \delta$ as the _M&#246;bius function_ of $P$.
 
 ### Higher groupoid convolution algebras and n-vector spaces/n-modules
  {#HigherGroupoidConvolutionAlgebras}
@@ -726,6 +726,9 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 [[!redirects category algebras]]
 [[!redirects groupoid algebra]]
 [[!redirects groupoid algebras]]
+
+[[!redirects incidence algebra]]
+[[!redirects incidence algebras]]
 
 [[!redirects groupoid convolution algebra]]
 [[!redirects groupoid convolution algebras]]
