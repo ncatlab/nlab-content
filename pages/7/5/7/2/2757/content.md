@@ -24,15 +24,19 @@
 
 ## Idea
 
-The **principle of induction** says that if a [[proposition]] $n \in \mathbb{N} \vdash P(n)$ that [[dependent type|depends]] on the [[natural numbers]] has the property that 
+The **principle of induction** says that if a property of the 
+[[natural numbers]] 
 
-1. it is [[true]] for $0 \in \mathbb{N}$;
+1. is [[true]] for $0 \in \mathbb{N}$;
 
 1. if it is true for $n \in \mathbb{N}$ then it is true for $n+1$;
 
-then it is true for every $n \in \mathbb{N}$.
+then it is true for every $n \in \mathbb{N}$. The intuitive notion of a property is in practical mathematics identified with (belonging to) a subset $S\subseteq\mathbb{N}$. Thus the mathematical induction says that if $0\in S$ and if $\forall n\in\mathbb{N}$ $n\in S\implies n+1\in S$ then $S = \mathbb{N}$. This is the way in
+the formal Dedekind-Peano arithmetics. Usually in logic one however uses a weaker form of induction which can be stated in a first order language (or in a type theory), namely where one limits to properties given by the predicates $P(n)$ [[dependent type|depending]] on natural numbers. The corresponding conclusion is the [[proposition]] $n \in \mathbb{N} \vdash P(n)$. 
+The latter version of the principle of induction is weaker because there are only
+$\aleph_0$ predicates but $2^{\aleph_0}$ subsets of $\mathbb{N}$.
 
-When formulated in one of the formalizations below, one finds that this principle is but the simplest special case of a very general notion of induction over _[[inductive types]]_. Other examples are induction over [[lists]], [[trees]], terms in a [[logic]], and so on.
+When formulated in one of the formalizations below, one finds that the principle of induction for propositions depending on natural numbers is the simplest special case of a very general notion of induction over _[[inductive types]]_. Other examples are induction over [[lists]], [[trees]], terms in a [[logic]], and so on.
 
 
 The [[duality|dual]] notion is that of _[[coinduction]]_.
@@ -63,6 +67,8 @@ In terms of this the **principle of induction** is equivalent to saying that the
 * [[Ji?í Adámek]], Stefan Milius, Lawrence Moss, _Initial algebras and terminal coalgebras: a survey_ ([pdf](https://www.tu-braunschweig.de/Medien-DB/iti/survey_full.pdf))
 
 * [[Bart Jacobs]], Jan Rutten, _A tutorial on (co)algebras and (co)induction_, [pdf](http://www.cs.ru.nl/~bart/PAPERS/JR.pdf) EATCS Bulletin (1997); extended and updated version: _An introduction to (co)algebras and (co)induction_,  In: D. Sangiorgi and J. Rutten (eds), Advanced topics in bisimulation and coinduction, p.38-99, 2011, [pdf](http://www.cwi.nl/~janr/papers/files-of-papers/2011_Jacobs_Rutten_new.pdf) 62 pp.
+
+* Ch. 3, Formal arithmetics, in: Elliott Mendelson, _Introduction to mathematical logic_, D. Van Nostrad 1964
 
 [[!redirects inductions]]
 
