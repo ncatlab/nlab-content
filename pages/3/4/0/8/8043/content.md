@@ -25,7 +25,7 @@ More specifically, any [[deductive system]] includes, as part of its specificati
 
 The interest in judgements is typically in how they may arise as _theorems_, or as _consequences_ of other judgements, by way of the [[deduction]] rules in a deductive system.  One writes
 $$\vdash J$$
-to mean that $J$ is a judgment that is derivable, i.e. a [[theorem]] of the deductive system.
+for the judgement that the proposition $J$ derivable, i.e. a [[theorem]] of the deductive system.
 
 
 ## Examples
