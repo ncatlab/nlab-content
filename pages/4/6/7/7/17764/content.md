@@ -15,8 +15,8 @@ For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[2]$ co
 
 The zeta polynomial of the 3-element poset
 $$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
-is $3 + 2n + 2\binom{n}{2} = n^2 + n + 3$.
-Evaluating at $n=1$, we compute that $P$ contains 5 intervals.
+is $2n + 3$.
+Evaluating at $n=1$, we compute that $P$ contains 5 distinct intervals.
 
 ## Related concepts
 
