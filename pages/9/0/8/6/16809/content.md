@@ -72,6 +72,8 @@ is [[isomorphism|isomorphic]] to the [[de Rham cohomology]] of the total space $
 
 ## References
 
+* {#VinogradovKrasilshchik99} [[Alexandre Vinogradov]], I. S. Krasilshchik (eds.) _Symmetries and Conservation Laws for Differential Equations of Mathematical Physics_, vol. 182 of Translations of Mathematical Monographs. American Mathematical Society, Providence, RI, 1999. ([pdf](ftp://softbank.iust.ac.ir/MathBooks/V/Vinogradov%20-%20Symmetries%20and%20Conservation%20Laws%20for%20Differential%20equations%20of%20mathematical%20physics.pdf))
+
 * {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
 
 
