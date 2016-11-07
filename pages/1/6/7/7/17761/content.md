@@ -16,6 +16,19 @@ $$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
 is $n + 3 \binom{n}{2} + 2\binom{n}{3} = \frac{2n^3 + 3n^2 + n}{6}$.
 Evaluating at $n=2$, we compute that there are 5 order-preserving functions from $P$ onto $\mathbf{2}$.
 
+## Properties
+
+The order polynomial is related to the [[zeta polynomial]] by the equation[^Note]
+$$
+\Omega(P;n+2) = Z(I(P);n)
+$$
+where $I(P)$ is the lattice of [[lower sets]] in $P$.
+This can be seen as a consequence of the isomorphisms
+$$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n], [P,[1]])$$
+(where $[n] = \mathbf{n{+}1}$) applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
+
+[^Note]: Note that the definition we use for $Z(P;n)$ has an index shift from the definition that seems to be more standard in combinatorics (see the footnote at [[zeta polynomial]]), so this equation is sometimes expressed as $\Omega(P;n) = Z(I(P);n)$.
+
 ## Related concepts
 
 * [[zeta polynomial]]
