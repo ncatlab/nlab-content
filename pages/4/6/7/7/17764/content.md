@@ -18,6 +18,17 @@ $$P = \array{&&c&& \\ &\nearrow& &\nwarrow& \\ a &&&& b}$$
 is $2n + 3$.
 Evaluating at $n=1$, we compute that $P$ contains 5 distinct intervals.
 
+## Properties
+
+The [[order polynomial]] is related to the  zeta polynomial by the equation
+$$
+\Omega(P;n+2) = Z(I(P);n)
+$$
+where $I(P) \cong [P,[1]]$ is the lattice of [[lower sets]] in $P$.
+This can be seen as a consequence of the isomorphisms
+$$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n], [P,[1]])$$
+applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
+
 ## Related concepts
 
 * [[order polynomial]]
