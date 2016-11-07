@@ -17,6 +17,15 @@ Alexander M. Vinogradov is working in the geometric theory of [[differential equ
 
 * G. Vezzosi, A.M. Vinogradov, _Infinitesimal Stokes' formula for higher-order de Rham complexes_, Acta Appl. Math. __49__, N. 3 (1997), 311-329. 
 
+## related $n$Lab entries
+
+* [[diffiety]]
+
+* [[variational calculus]]
+
+* [[Euler-Lagrange complex]]
+
+
 category:people
 [[!redirects A. Vinogradov]]
 [[!redirects Alexander Vinogradov]]
