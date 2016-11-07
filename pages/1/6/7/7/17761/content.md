@@ -3,7 +3,7 @@ To see that
 $$\Omega(P;n) = |Hom(P,\mathbf{n})|$$
 defines a [[polynomial]] in $n$, first observe that any function $P \to \mathbf{n}$ factors as a [[surjection]] from $P$ onto some $\mathbf{k} = \{ 0 \lt 1 \lt \cdots \lt k-1 \}$ (where $k \le n$), followed by an [[injection]] from $\mathbf{k}$ to $\mathbf{n}$. The total number of order-preserving functions from $P$ to $\mathbf{n}$ can therefore be calculated explicitly as 
 $$\Omega(P;n) = \sum_{k=1}^{|P|} e_k \binom{n}{k}$$
-where $e_k$ is the number of surjective order-preserving functions from $P$ to $\mathbf{k}$. Hence $\Omega(P;n)$ is a polynomial of degree bounded by the cardinality of $P$.
+where $e_k$ is the number of surjective order-preserving functions from $P$ to $\mathbf{k}$. Hence $\Omega(P;n)$ is a polynomial of degree equal to the cardinality of $P$.
 
 ## Examples
 
