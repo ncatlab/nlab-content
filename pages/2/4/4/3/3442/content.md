@@ -6,12 +6,18 @@
 +-- {: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
+=--
 #### Equality and Equivalence
 +-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
 =--
 =--
+
+
 
 # Contents
 * table of contents
