@@ -23,6 +23,8 @@ Similarly, the $(\infty, 1)$-category of [[prespectra]] is a locus.  And the $(\
 
 This page arose out of discussions at [this nForum discussion](http://nforum.mathforge.org/discussion/5192/infinity2toposes-and-internal-stable-homotopy-theory/?Focus=41445#Comment_41445), based on an idea of [[Andre Joyal]].
 
+* [[Marc Hoyois]] _Topoi of parametrized objects_, ([arXiv:1611.02267](https://arxiv.org/abs/1611.02267))
+
 
 [[!redirects locus]]
 [[!redirects locuses]]
