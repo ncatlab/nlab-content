@@ -34,6 +34,8 @@ d'analyse du concept d'espace topologique_, thesis, Universit&#233; de Montr&#23
 * Julian Lowell Coolidge, _A history of geometrical methods_, 1940, Dover Phoenix Editions, Oxford University Press 1940. 
 * J. Gray, _The real and the complex: a history of analysis in the 19th
 century_, Springer Undergraduate Mathematics Series
+* Dirk Jan Struik, _A concise history of mathematics_
+* [[Umberto Bottazzini]], _Il flauto di Hilbert: Storia della matematica_, UTET Universit&#224;, 473pp.; _The higher calculus: A history of real and complex analysis from Euler to Weierstrass_, Springer 1986
 
 ## Wiki, collection and encyclopaedia articles
 
