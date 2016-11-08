@@ -6,4 +6,4 @@
 
 * [[HZR-theory]], [[KR-theory]], [[orientifold]]
 
-category: peoper
+category: people
