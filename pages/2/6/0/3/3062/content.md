@@ -118,6 +118,12 @@ This means that it is
       \,.
     $$
 
+The Jacobiator identity equivalently expresses the [[commuting diagram|commutativity]] of the following [[diagram]] in the given [[2-vector space]] (analogous to the [[pentagon identity]])
+
+<img src="https://ncatlab.org/nlab/files/JacobiatorIdentity.jpg" width="560">
+
+> (graphics grabbed from [Baez-Crans 04, p. 19](#BaezCrans04))
+
 ### Strict case
 
 If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a [[strict Lie 2-algebra]]. Strict Lie 2-algebras are equivalently [[differential crossed module]]s (see there for details).
@@ -147,7 +153,7 @@ If the trinary bracket $[-,-,-]$ in a Lie 2-algebra is trivial, one speaks of a 
 
 ## References
 
-* [[John Baez]], [[Alissa Crans]], _Higher-Dimensional Algebra VI: Lie 2-Algebras_ Theory and Applications of Categories, Vol. 12, (2004) No. 15, pp 492-528. ([TAC](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)) 
+* {#BaezCrans04} [[John Baez]], [[Alissa Crans]], _Higher-Dimensional Algebra VI: Lie 2-Algebras_ Theory and Applications of Categories, Vol. 12, (2004) No. 15, pp 492-528. ([TAC](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html)) 
 
 * [[Dmitry Roytenberg]], _On weak Lie 2-algebras_,  ([arXiv](http://arxiv.org/abs/0712.3461))
 
