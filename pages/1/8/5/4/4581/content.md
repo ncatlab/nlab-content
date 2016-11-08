@@ -169,7 +169,7 @@ The bicomplex structure on $\Omega^{\bullet, \bullet}_{loc}$ is attributed in ([
 +-- {: .num_remark #CharacterizationOfHorizontalDifferential}
 ###### Remark
 
-In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(Jet(E))$ is given by the formula for the total derivative operation, but with concrete differentials substituted by the respective jet coordinates:
+In terms of a [[coordinate chart]] $(x^i, u^\alpha,u^\alpha_i,u^\alpha_{i j},\cdots)$ of $E$ covering a coordinate chart $(X^i)$ of $X$, the action of the horizontal differential on functions $f \in C^\infty(Jet(E))$ is given by the formula for the [[total derivative]] operation, but with concrete differentials substituted by the respective jet coordinates:
 
 $$
   d f = 
