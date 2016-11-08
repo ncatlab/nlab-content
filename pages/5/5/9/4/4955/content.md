@@ -74,7 +74,7 @@ $$
 The composite
 
 $$
-  f (g \circ f) : \mathbb{R} \times \mathbb{R} = 
+  d (g \circ f) : \mathbb{R} \times \mathbb{R} = 
   T \mathbb{R} \to T \mathbb{R} = \mathbb{R} \times \mathbb{R}
 $$
 
