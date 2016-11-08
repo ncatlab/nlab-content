@@ -21,6 +21,7 @@ A **locally cartesian closed functor** is a [[functor]] between [[locally cartes
 ## Examples
 
 * Every [[logical functor]] between [[toposes]] is locally cartesian closed.
+* Every [[locally connected geometric morphism]] is locally cartesian closed. ([[Elephant]] C3.3.1)
 
 ## Related concepts
 
@@ -32,4 +33,7 @@ A **locally cartesian closed functor** is a [[functor]] between [[locally cartes
 
 * [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
+## References
+
+[[Elephant]] C3.3.1
 [[!redirects locally cartesian closed functors]]
