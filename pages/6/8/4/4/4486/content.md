@@ -292,6 +292,8 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 * [[extremum]]
 
+* [[chain rule]] [[total derivative]]
+
 * [[continuous function]], **differentiable function**, [[continuously differentiable function]], [[smooth function]], [[analytic function]]
 
 
