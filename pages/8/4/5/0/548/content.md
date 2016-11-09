@@ -364,13 +364,13 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 2-groups were introduced, under the name _gr-categories_, in 
 
-* [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973), ([web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html))
+* {#Sinh73} [[Hoàng Xuân Sính]], _Gr_-cat&#233;gories, PhD thesis (1973), ([web] (http://w5.mathematik.uni-stuttgart.de/fachbereich/Kuenzer/Kuenzer/sinh.html))
 
 supervised by [[Grothendieck]].
 
-Exposition and discussion of 2-groups as special [[monoidal categories]] is in 
+Exposition and discussion of 2-groups as special [[monoidal categories]] ([[Picard 2-group]]) is in 
 
-*  [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_ ([arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)).
+*  {#BaezLauda03} [[John Baez]], [[Aaron Lauda]], _HDA V: 2-Groups_, Theory and Applications of Categories 12 (2004), 423-491. ([arXiv:math.QA/0307200](http://arxiv.org/abs/math.QA/0307200)).
 
 Computational enumeration of geometrically [[discrete group|discrete]] 2-groups using the computer program [XMod](http://pages.bangor.ac.uk/~mas023/chda/xmod/xmod244.html) is reported on in
 
