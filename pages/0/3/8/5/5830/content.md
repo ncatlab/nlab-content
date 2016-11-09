@@ -368,8 +368,8 @@ A guided walk through the basics of HoTT and then the formal proof in [[Coq]] th
 
 A blog serving as a base for the HoTT community is at
 
-* _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
- {#HoTTSite}
+* {#HoTTSite} _Homotopy Type Theory_ [website](http://homotopytypetheory.org/)
+ 
 
 Reports from the original Oberwolfach workshop on homotopy type theory are in 
 
@@ -388,7 +388,7 @@ is in the wiki
 
 The first [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] on [[groupoids]] (instead of [[sets]] = [[0-groupoids]]) was
 
-* [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_. in Sambin, Giovanni (ed.) et al., _Twenty-five years of constructive type theory_ . Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz))
+* {#HofmannStreicher98} [[Martin Hofmann]], [[Thomas Streicher]]  _The groupoid interpretation of type theory_. in Sambin, Giovanni (ed.) et al., _Twenty-five years of constructive type theory_ . Proceedings of a congress, Venice, Italy, October 19&#8212;21, 1995. Oxford: Clarendon Press. Oxf. Logic Guides. 36, 83-111 (1998).  ([ps](http://www.mathematik.tu-darmstadt.de/~streicher/venedig.ps.gz))
 
 Generalization of this to [[strict ∞-groupoids]] were discussed in
 
@@ -396,8 +396,7 @@ Generalization of this to [[strict ∞-groupoids]] were discussed in
 
 The fact that every [[simplicial model category]] in which the cofibrations are [[monomorphisms]] provides a sound [[model]] for [[intensional type theory|intensional]] [[Martin-Löf type theory]] is discussed in 
 
-* [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
- {#AwodeyWarren}
+* {#AwodeyWarren07} [[Steve Awodey]], [[Michael Warren]], _Homotopy theoretic models of identity type_,  Mathematical Proceedings of the Cambridge Philosophical Society vol 146, no. 1 (2009) ([arXiv:0709.0248](http://arxiv.org/abs/0709.0248))
 
 and with more details in 
 
@@ -415,6 +414,9 @@ with lecture notes in
 
 * [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
 
+The full model in the [[classical model structure on simplicial sets]] is due to
+
+* {#KapulkinLumsdaine12} [[Chris Kapulkin]], [[Peter LeFanu Lumsdaine]], _The Simplicial Model of Univalent Foundations (after Voevodsky)_ ([arXiv:1211.2851](https://arxiv.org/abs/1211.2851))
 
 The trickiest question in finding models of homotopy type theory is to validate the [[univalence axiom]].  The first model satisfying this axiom was constructed by Voevodsky using the standard [[model structure on simplicial sets]], hence for the archetypical [[(∞,1)-topos]] [[∞Grpd]] of [[discrete ∞-groupoids]].  Some expositions are:
 
