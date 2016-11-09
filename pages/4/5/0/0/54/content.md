@@ -13,6 +13,12 @@ The best way to contact me is to send an email to <urs.schreiber@gmail.com>
 
 ## my position {#myposition}
 
+<div style="float:right;margin:0 10px 10px 0;">
+<a href="http://www.math.cas.cz/recherche/equipe.php?id_equipe=18">
+<img src="https://ncatlab.org/schreiber/files/CAS-AGMP.jpg" width="300">
+</a>
+</div>
+
 I am researcher in the department _[Algebra, Geometry and Mathematical Physics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0)_
 of the [Institute of Mathematics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0) at the [Czech Academy of the Sciences](http://www.cas.cz/index.html) (CAS) in [Prague](https://en.wikipedia.org/wiki/Prague).
 
