@@ -357,6 +357,9 @@ For smooth 2-groups, useful examples of the above are smooth refinements of vari
 
 * [[∞-group]], [[simplicial group]], [[crossed complex]], [[hypercrossed complex]]
 
+* [[group stack]]
+
+  [[smooth 2-group]]
 
 
 ## References 
