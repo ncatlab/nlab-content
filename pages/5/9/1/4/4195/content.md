@@ -53,7 +53,7 @@ One may have to practice visualizing this before it all sinks in, but it's a tre
 
 ## References
 
-* [[Saunders Mac Lane]]. "Natural associativity and commutativity". Rice University Studies 49, 28-46 (1963). ([Rice Digital Scholarship Archive](https://scholarship.rice.edu/handle/1911/62865)) 
+* {#MacLane63} [[Saunders Mac Lane]]. "Natural associativity and commutativity". Rice University Studies 49, 28-46 (1963). ([Rice Digital Scholarship Archive](https://scholarship.rice.edu/handle/1911/62865)) 
 
 * [[Saunders Mac Lane]]. [[Categories for the Working Mathematician]] (Chapter 7).
 
