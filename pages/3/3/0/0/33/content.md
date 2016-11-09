@@ -150,14 +150,16 @@ This can also be understood naturally in the language of [[(n,r)-categories]].  
 
 ## References
 
-* [[John Baez]] and [[James Dolan|James Dolan]], [Categorification](http://arxiv.org/abs/math.QA/9802029), in _Higher Category
-Theory_, eds. Ezra Getzler and Mikhail Kapranov,
-Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36.
+The terminology goes back to
 
-An early article where the concept of categorification is described is
+* {#CraneYetter96} [[Louis Crane]], [[David Yetter]], 
+_Examples of categorification_ ([arXiv:q-alg/9607028](http://arxiv.org/abs/q-alg/9607028))
 
-* Crane and Yetter, 
-[Examples of categorification](http://arxiv.org/abs/q-alg/9607028)
+and was further amplified in
+
+* {#BaezDolan98} [[John Baez]], [[James Dolan|James Dolan]], _Categorification_, in [[Ezra Getzler]], [[Mikhail Kapranov]] (eds.) _Higher Category Theory_, Contemp. Math. 230, American Mathematical Society, Providence, Rhode Island, 1998, pp. 1-36 ([arXiv:math.QA/9802029](http://arxiv.org/abs/math.QA/9802029))
+
+
 
 A bit of $n$-Caf&#233; discussion on this subject can be found here: 
 
