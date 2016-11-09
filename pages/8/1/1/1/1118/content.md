@@ -143,7 +143,7 @@ etc.
 * A group object in a [[functor category]] is a [[group functor]].
 * A group object in [[schemes]] is a [[group scheme]].
 * A group object in an [[opposite category]] is a [[cogroup object]].
-
+* A group object in [[stacks]] is a [[group stack]].
 
 ## Theory 
 
