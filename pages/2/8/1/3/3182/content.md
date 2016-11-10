@@ -1053,3 +1053,8 @@ Discussion of [[geometric realization of simplicial topological spaces|geometric
 [[!redirects continuous infinity-groupoids]]
 [[!redirects continuous ∞-groupoid]]
 [[!redirects continuous ∞-groupoids]]
+
+[[!redirects topological infinity-group]]
+[[!redirects topological infinity-groups]]
+[[!redirects topological ∞-group]]
+[[!redirects topological ∞-groups]]
