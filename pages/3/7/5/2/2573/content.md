@@ -63,9 +63,9 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 ## References
 
-* {#BellMach77}[[John Bell|J. L. Bell]], M. Machover, *A Course in Mathematical Logic*, North-Holland Amsterdam 1977. (ch. 10,&#167;5)
+* {#BellMach77}[[John Bell|J. L. Bell]], M. Machover, *A Course in Mathematical Logic*, North-Holland Amsterdam 1977. (ch. 10, &#167;5)
 
-* {#Cantor99}[[Georg Cantor]], *Brief an Dedekind vom 22. Juli 1899*, pp.443-447 in Cantor, _Gesammelte Abhandlungen_ , Springer Berlin 1932.  English transl. pp.113-117 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
+* {#Cantor99}[[Georg Cantor]], *Brief an Dedekind vom 22. Juli 1899*, pp.443-447 in Cantor, _Gesammelte Abhandlungen_, Springer Berlin 1932.  English transl. pp.113-117 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
 * {#Fraenkel22}A. Fraenkel, *Zu den Grundlagen der Cantor-Zermeloschen Mengenlehre*, Math. Ann. **86** (1922) pp.230-237. ([gdz](http://gdz.sub.uni-goettingen.de/dms/load/img/?PPN=GDZPPN002268760))
 
@@ -79,13 +79,15 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 
 * {#McLarty04}[[Colin McLarty]], *Exploring Categorical Structuralism*, Phil. Math. **12** no.3 (2004) pp.37-53. ([pdf](http://www.cwru.edu/artsci/phil/PMExploring.pdf))
 
-* {#Osius74}[[Gerhard Osius]], *Categorical Set Theory: A Characterization of the Category of Sets*, JPAA **4** (1974) pp.79-119.
-
 * D. A. Martin, *Borel determinacy*, Ann. Math. **102** (1975) pp.363-371.
+
+* {#Osius74}[[Gerhard Osius]], *Categorical Set Theory: A Characterization of the Category of Sets*, JPAA **4** (1974) pp.79-119.
 
 * [[Thoralf Skolem]], *[[Some remarks on axiomatized set theory|Einige Bemerkungen zur axiomatischen Begründung der Mengenlehre]]*, Mathematikerkongressen i Helsingfor 4-7 Juli 1922. English transl. pp.290-301 of van Heijenoort (ed.), _From Frege to G&#246;del_ , Harvard UP 1967.
 
 * [[Thomas Streicher]], *Universes in Toposes*, pp.78-90 in Crosilla, Schuster (eds.), _From Sets and Types to Topology and Analysis_ , Oxford UP 2005. ([preprint](http://www.mathematik.tu-darmstadt.de/~streicher/NOTES/UniTop.pdf))
+
+* [[Paul Taylor]], *[[Practical Foundations of Mathematics]]*, Cambridge UP 1999. (ch. 9)
 
 * George Tourlakis, *Lectures in Logic and Set Theory*, Volume 2: Set Theory_, Cambridge University Press (2003). (section III.8)
 
