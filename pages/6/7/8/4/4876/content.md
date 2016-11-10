@@ -195,7 +195,7 @@ Let $\mathbf{H} = $ [[Smooth∞Grpd]] and $\mathbb{G} = \mathbf{B}^p U(1)$ the [
 
 For $G$ an ordinary [[Lie group]], then $\mu$ may be taken to be the [[Lie algebra cohomology|Lie algebra cocycle]] corresponding to $\mathbf{c}$ and $\tilde G \simeq G$.
 
-On the opposite extreme, for $G = \mathbf{B}^p U(1)$ itself with $\mathbf{c}$ the identity, then $\tilde G = \mathbf{B}^pU (1)_{conn}$ is the [[coefficients]] for [[ordinary differential cohomology]] (the [[Deligne complex]] under [[Dold-Kan correspondence]] and [[infinity-stackification]]).
+On the opposite extreme, for $G = \mathbf{B}^p U(1)$ itself with $\mathbf{c}$ the identity, then $\tilde G = \mathbf{B}^p U (1)_{conn}$ is the [[coefficients]] for [[ordinary differential cohomology]] (the [[Deligne complex]] under [[Dold-Kan correspondence]] and [[infinity-stackification]]).
 
 Hence a more general case is a fibered product of these two, where $\tilde G$ is such that a map $\Sigma \longrightarrow \tilde G$ is equivalently a pair consisting of a map $\Sigma \to G$ and of differential $p$-form data on $\Sigma$. This is the case of relevance for WZW models of [[super p-branes]] with "tensor multiplet" fields on them, such as the [[D-branes]] and the [[M5-brane]].
 
