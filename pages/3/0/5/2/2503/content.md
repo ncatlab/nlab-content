@@ -263,7 +263,7 @@ For instance the [[supergravity Lie 3-algebra]] is such an extension of the [[su
 
 In one incarnation or other the String Lie 2-algebra has been considered in literature of [[dg-algebra]]s, but its [[Lie theory|Lie theoretic]] interpretation as a Lie 2-algebra has been made fully explicit only in
 
-* [[John Baez]], [[Alissa Crans]], Higher-dimensional Algebra V: Lie 2-algebras, _Theory and Applications of Categories_ **12** (2004), 492-528.  ([web](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html))
+* {#BaezCrans03} [[John Baez]], [[Alissa Crans]], Higher-dimensional Algebra V: Lie 2-algebras, _Theory and Applications of Categories_ **12** (2004), 492-528.  ([web](http://www.tac.mta.ca/tac/volumes/12/15/12-15abs.html))
 ([arXiv:math.QA/0307263](http://arxiv.org/abs/math.QA/0307263))
 
 In 
