@@ -19,8 +19,8 @@
 Numbers like $\sqrt{3}$ and ${}^5\sqrt{3}$ look tied to the usual integers: indeed they are obtained from an integer number by doing operation of 2nd or 5th root. 
 More generally, we can start with the usual integer numbers and do similar algebraic operations, namely form monic polynomials with such integer coefficients
 and search for roots in a larger ring, obtaining 
-generalized integers as solutions of a monic polynomials equation what makes sense in an arbitrary commutative ring, or $\mathbb{C}$. 
-If we look for solutions of monic equations within $\mathbb{Q}$, the field of rationals we get nothing new, just the usual integers. 
+generalized integers as solutions of a monic polynomial equation, which makes sense in an arbitrary commutative ring. 
+If we look for solutions of monic equations within $\mathbb{Q}$, the field of rationals, we get nothing new, just the usual integers. 
 Thus the __integral elements in a ring__ generalize integers in 
 wide context and form a "ring of integers" within a larger ring.
 This generalizes the standard [[integers]] inside the [[field]] of [[rational numbers]] to various situations like [[number fields]] and [[local field|local]] [[non-archimedean fields]]. 
