@@ -115,6 +115,7 @@ are also called [[almost compact topological space|almost compact topological sp
   * [[Freund-Rubin compactification]]
 
 * [[conformal compactification]]
+* [[projective compactification]]
 
 ## References
 
