@@ -37,7 +37,7 @@ An __integer__ in a commutative ring $R$ is any element
 $r\in R$ which satisfies equation $P(r) = 0$ 
 where $P$ is a nontrivial [[polynomial]] whose coefficients are multiplies of $1_R$ and the top degree coefficient is $1_R$ (in other words, a [[root]] of a monic polynomial in $R$ with the coefficients in $\mathbb{Z}$). 
 It can be checked that the set of integers
-(also said to be integral elements) in $R$ is closed with respect to addition, multiplication and taking the negative of an element, hence a subring of $R$, which is moreover containing the usual integers $\mathbb{Z} 1_R$ as unique solutions for $x\in R$ of equations $1_r \cdot x - n 1_R = 0$.
+(also said to be integral elements) in $R$ (also said the _ring of integers of_ $R$) is closed with respect to addition, multiplication and taking the negative of an element, hence a subring of $R$, which is moreover containing the usual integers $\mathbb{Z} 1_R$ as unique solutions for $x\in R$ of equations $1_R \cdot x - n 1_R = 0$.
 
 ### Notation in number theory
 
@@ -53,7 +53,7 @@ Alternatively, an element $\alpha \in K$ is an __[[algebraic integer]]__ if the 
 
 Given a [[local field|local]] [[non-archimedean field]] $F$, then its ring of integers $\mathcal{O}_F$ is the subring of elements of [[norm]] $\leq 1$. 
 
-If $F$ is the [[formal completion]] of a [[number field]] $K$, then the ring of integers of $F$ is the formal completion of the ring of integers of $K$ in the [above](#OfANumberField) sense.
+If $F$ is the [[formal completion]] of a [[number field]] $K$, then the ring of integers of $F$ is the formal completion of the ring of integers of $K$.
 
 ## Examples
 
@@ -62,7 +62,7 @@ If $F$ is the [[formal completion]] of a [[number field]] $K$, then the ring of 
 
 * For $p$ any [[prime]] and $\mathbb{Q}_p$ the [[formal completion]] of $\mathbb{Q}$ at $p$, hence the [[p-adic numbers]], then the ring of integers of $\mathbb{Q}_p$ is $\mathbb{Z}_p$, the [[p-adic integers]].
 
-* For $K$ the [[Gaussian numbers]] then $\mathcal{O}_K$ is the [[Gaussian integers]].
+* For $K$ the [[Gaussian numbers]] then $\mathcal{O}_K$ is the ring of [[Gaussian integers]].
 
 * The ring of integers of the field $\mathbb{F}_q((t))$ of [[Laurent series]] with [[coefficients]] in a [[finite field]] is the ring of [[formal power series]] $\mathbb{F}_q[ [t] ]$.
 
@@ -81,7 +81,7 @@ A ring of integers is a [[Dedekind domain]].
 
 * Wikipedia, _[Ring of integers](http://en.wikipedia.org/wiki/Ring_of_integers)_
 
-The following paper show that the subset of integers is definable in $\mathbb{Q}$ by a universal first-order formula in the language of rings.
+The following paper shows that the subset of integers is definable in $\mathbb{Q}$ by a universal first-order formula in the language of rings.
 
 * Jochen Koenigsmann, _Defining $\mathbb{Z}$ in $\mathbb{Q}$_, Annals of Mathematics,  **183**, issue 1 (2016) pp 73-93, doi:[10.4007/annals.2016.183.1.2](http://dx.doi.org/10.4007/annals.2016.183.1.2), arXiv:[1011.3424](https://arxiv.org/abs/1011.3424)
 
@@ -90,3 +90,4 @@ The following paper show that the subset of integers is definable in $\mathbb{Q}
 [[!redirects rings of integers]]
 [[!redirects ring of algebraic integers]]
 [[!redirects rings of algebraic integers]]
+[[!redirects integral element in a ring]]
