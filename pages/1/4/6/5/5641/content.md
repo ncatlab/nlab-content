@@ -20,6 +20,7 @@
 
 A _chain homotopy_ is a [[homotopy]] in a [[category of chain complexes]] with respect to the standard [[interval object in chain complexes]].
 
+Sometimes a chain homotopy is called a _homotopy operator_. This is the terminology common for instance in the [standard proof](Poincare+lemma#Statement) of the [[Poincaré lemma]].
 
 ## Definition
 
@@ -282,3 +283,6 @@ Section 1.4 of
 [[!redirects cochain homotopy]]
 [[!redirects chain homotopies]]
 [[!redirects cochain homotopies]]
+
+[[!redirects homotopy operator]]
+[[!redirects homotopy operators]]
