@@ -132,7 +132,7 @@ in that for all $A \in \mathfrak{g}$ with  $b_0^- A = 0$ we have
   \,.
 \]
 
-This is ([Zwiebach, (2.61)](#Zwiebach)).
+This is ([Zwiebach 93, (2.61)](#Zwiebach93)).
 
 
 The inner product satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the relation
@@ -145,10 +145,10 @@ The inner product satisfies for all $\Psi_1, \Psi_2$ of homogeneous degree the r
   \langle \Psi_2, \Psi_1 \rangle
 \]
 
-([Zwiebach, (2.50)](#Zwiebach)).
+([Zwiebach 93, (2.50)](#Zwiebach93)).
 
 
-Moreover, it is non-vanishing only on pairs of elements of total degree 5. ([Zwiebach, (2.31)(2.44)](#Zwiebach)).
+Moreover, it is non-vanishing only on pairs of elements of total degree 5. ([Zwiebach 93, (2.31)(2.44)](#Zwiebach93)).
 
 From this one constructs the $(n+1)$-point functions
 
@@ -171,7 +171,7 @@ These are still graded-symmetric in all arguments: for all $\{\Psi_j\}$ of homog
   \,.
 \]
 
-([Zwiebach, (4.36)](#Zwiebach)).
+([Zwiebach 93, (4.36)](#Zwiebach93)).
 
 
 ### The action functional
@@ -193,7 +193,7 @@ The proper [[configuration space]] of string field theory is the sub-complex of 
 
 =--
 
-This is ([Zwiebach, (3.9)](#Zwiebach))
+This is ([Zwiebach 93, (3.9)](#Zwiebach93))
 
 
 The _[[action functional]]_ of closed string field theory is 
@@ -207,7 +207,7 @@ $$
   \,.
 $$
 
-([Zwiebach, (4.41)](#Zwiebach))
+([Zwiebach 93, (4.41)](#Zwiebach93))
 
 
 Since $[-]_1 = d_{BRST}$ is the [[BRST complex|BRST operator]] this starts out as
@@ -223,7 +223,7 @@ $$
   \,.
 $$
 
-This immediately gives the [[equations of motion]] by variation with respect to $\Psi$ ([Zwiebach, (4.46)](#Zwiebach)). The analogous statement for the [[superstring]] in in ([Sen 15 (2.22)](#Sen15)).
+This immediately gives the [[equations of motion]] by variation with respect to $\Psi$ ([Zwiebach 93, (4.46)](#Zwiebach93)). The analogous statement for the [[superstring]] in in ([Sen 15 (2.22)](#Sen15)).
 
 
 (See also at _[string theory FAQ -- What are the equations of string theory?](https://ncatlab.org/nlab/show/string+theory+FAQ#WhatAreTheEquations)_).
@@ -247,7 +247,7 @@ is an [[L-∞ algebra]].
 
 =--
 
-This is ([Zwiebach, (4.12)](#Zwiebach)). For more details on the $L_\infty$-structure see _[References -- Relation to L-∞- and A-∞-algebra](ReferencesHomotopyAlgebra))_ .
+This is ([Zwiebach 93, (4.12)](#Zwiebach93)). For more details on the $L_\infty$-structure see _[References -- Relation to L-∞- and A-∞-algebra](ReferencesHomotopyAlgebra))_ .
 
 +-- {: .num_prop}
 ###### Proposition
@@ -469,14 +469,14 @@ Original articles are
 
 The fundamental work of Zwiebach on closed SFT is summed up in
 
-* {#Zwiebach} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
+* {#Zwiebach93} [[Barton Zwiebach]], _Closed string field theory: Quantum action and the B-V master equation_ , Nucl.Phys. B390 (1993) 33 ([arXiv:hep-th/9206084](http://arxiv.org/abs/hep-th/9206084))
   
 
 Brief reviews include
 
 * [[Barton Zwiebach]], _Closed String Field Theory: An Introduction_ ([arXiv:hep-th/9305026](http://arxiv.org/abs/hep-th/9305026))
 
-The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] coupled to the action for the [[B-field]] and the [[dilaton]] in the lowest orders of the CSFT action is discussed for instance in [Yang-Zwieback, section 3.1](#YangZwiebach) and in
+The explicit identification of the [[Einstein-Hilbert action]] for [[gravity]] coupled to the action for the [[B-field]] and the [[dilaton]] in the lowest orders of the CSFT action is discussed for instance in [Yang-Zwiebach, section 3.1](#YangZwiebach) and in
 
 * Bang-Gui Liu, _General coordinate transformation and gravitational action from closed bosonic string field theory_, Class. Quantum Grav. 6 (1989)
 
@@ -502,7 +502,7 @@ and further detailed analysis is in
 ### Superstring field theory
  {#ReferencesSuperstringFieldTheory}
 
-A [[schreiber:∞-Chern-Simons theory]]-type formulation of closed superstring field theory analogous to the bosonic version in ([Zwiebach 93](#Zwiebach)) is in 
+A [[schreiber:∞-Chern-Simons theory]]-type formulation of closed superstring field theory analogous to the bosonic version in ([Zwiebach 93](#Zwiebach93)) is in 
 
 * {#JurcoMuenster13} [[Branislav Jur?o]], Korbinian Muenster, _Type II Superstring Field Theory: Geometric Approach and Operadic Description_, JHEP 1304:126 (2013) [arXiv/1303.2323](http://arxiv.org/abs/1303.2323) <a href="http://dx.doi.org/10.1007/JHEP04(2013)126">doi</a>
  
@@ -606,7 +606,7 @@ with further developments in
 
 The [[L-infinity algebra]] structure on Zwiebach's bosonic closed string fields is apparently due to a comment by [[Jim Stasheff]] to the conference contribution
 
-* {#Zwieback89} [[Barton Zwiebach]], _Issues In Covariant Closed String Theory_, pages 192-200 in Proceedings of _[10th and Final Workshop on Grand Unification](http://inspirehep.net/record/966930)_, 20-22 Apr 1989. Chapel Hill, North Carolina ([spire](http://inspirehep.net/record/282685?ln=de))
+* {#Zwiebach89} [[Barton Zwiebach]], _Issues In Covariant Closed String Theory_, pages 192-200 in Proceedings of _[10th and Final Workshop on Grand Unification](http://inspirehep.net/record/966930)_, 20-22 Apr 1989. Chapel Hill, North Carolina ([spire](http://inspirehep.net/record/282685?ln=de))
 
 It appears in print in
 
