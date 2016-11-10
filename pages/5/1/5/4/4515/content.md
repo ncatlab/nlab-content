@@ -17,7 +17,7 @@
 
 ### Original version for associative algebras
 
-The **formality theorem** by [[Maxim Kontsevich]] (arXiv 1997) states that there is an [[L-∞-algebra]] [[quasi-isomorphism]] from the [[dg-Lie algebra]] of [[polyvector field]]s (with zero differential and [[Schouten-Nijenhuis bracket]]) to the [[dg-Lie algebra]] of the shifted [[Hochschild cohomology|Hochschild cochain complex]] (with Hochschild differential and Gerstenhaber bracket), whose first Taylor coefficient is the [[Hochschild-Kostant-Rosenberg theorem|HKR]] quasi-isomorphism.
+The **formality theorem** ([Kontsevich 97](#Kontsevich97)) states that there is an [[L-∞-algebra]] [[quasi-isomorphism]] from the [[dg-Lie algebra]] of [[polyvector fields]] (with zero differential and [[Schouten-Nijenhuis bracket]]) to the [[dg-Lie algebra]] of the shifted [[Hochschild cohomology|Hochschild cochain complex]] (with Hochschild differential and Gerstenhaber bracket), whose first Taylor coefficient is the [[Hochschild-Kostant-Rosenberg theorem|HKR]] quasi-isomorphism.
 
 Tamarkin alternatively proves the formality of the [[little disks operad]] (see also Kontsevich 1999) and proves that it implies the Kontsevich formality. 
 
@@ -28,7 +28,7 @@ The Kontsevich formality theorem implies that every [[Poisson manifold]] has a [
 More generally, a result of Kontsevich and Tamarkin (...) says that over a [[field]] of [[characteristic]] 0 the canonical functor
 
 $$
-  E_n Algbras \stackrel{\simeq}{\longrightarrow} P_n Algebras
+  E_n Algebras \stackrel{\simeq}{\longrightarrow} P_n Algebras
 $$
 
 from [[E-n algebras]] to [[Poisson n-algebras]] is an [[equivalence]] (since $P_n$ is the [[homology]] of $E_n$, this says that _The $E_n$" operad is formal_ over a field of characteristic 0. 
@@ -47,7 +47,7 @@ But of course the [[automorphism infinity-group]] of both $E_n$ and $P_n$ acts o
 
 ## References
 
-* [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040), Lett. Math. Phys. __66__ (2003), no. 3, 157&#8211;216 [doi](http://dx.doi.org/10.1023/B:MATH.0000027508.00421.bf); _Operads and motives in deformation quantization_, Lett. Math. Phys. __48__ (1999), no. 1, 35&#8211;72.
+* {#Kontsevich97} [[Maxim Kontsevich]], _Deformation quantization of Poisson manifolds_, [q-alg/9709040](http://arxiv.org/abs/q-alg/9709040), Lett. Math. Phys. __66__ (2003), no. 3, 157&#8211;216 [doi](http://dx.doi.org/10.1023/B:MATH.0000027508.00421.bf); _Operads and motives in deformation quantization_, Lett. Math. Phys. __48__ (1999), no. 1, 35&#8211;72.
 * Dmitry E. Tamarkin, _Another proof of M. Kontsevich formality theorem_, [math.QA/9803025](http://arxiv.org/abs/math/9803025); _Formality of chain operad of little discs_, Lett. Math. Phys. __66__ (1-2):65&#8211;72, 2003.
 * [[Bernhard Keller]], _Notes for an
 Introduction to Kontsevich's quantization theorem_, [pdf](www.math.jussieu.fr/~keller/publ/emalca.pdf)
