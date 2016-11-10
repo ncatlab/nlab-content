@@ -71,7 +71,7 @@ $$
 $$
 
 
-Moreover, an explicit formula for the chain homotopy $\psi : f_1 \Rightarrow f_2$ is given by
+Moreover, an explicit formula for the [[chain homotopy]] $\psi : f_1 \Rightarrow f_2$ is given by the "[[homotopy operator]]"
 
 $$
   \psi 
