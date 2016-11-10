@@ -72,6 +72,14 @@ is [[isomorphism|isomorphic]] to the [[de Rham cohomology]] of the total space $
 
 ## References
 
+The Euler-Lagrange complex was recognized in
+
+* {#Vinogradov78} [[Alexandre Vinogradov]], _A spectral sequence associated with a non-linear differential equation, and the algebro-geometric foundations of Lagrangian field theory with constraints_, Soviet Math. Dokl. 19 (1978), 144&#8211;148.
+
+* {#Tulczyjew80} W. M. Tulczyjew, _The Euler-Lagrange resolution_, in Lecture Notes in Mathematics No. 836, Springer-Verlag, New York, 1980, pp. 22&#8211;48.
+
+Review includes
+
 * {#VinogradovKrasilshchik99} [[Alexandre Vinogradov]], I. S. Krasilshchik (eds.) _Symmetries and Conservation Laws for Differential Equations of Mathematical Physics_, vol. 182 of Translations of Mathematical Monographs. American Mathematical Society, Providence, RI, 1999. ([pdf](ftp://softbank.iust.ac.ir/MathBooks/V/Vinogradov%20-%20Symmetries%20and%20Conservation%20Laws%20for%20Differential%20equations%20of%20mathematical%20physics.pdf))
 
 * {#Anderson89} [[Ian Anderson]], _The variational bicomplex_, Utah State University 1989 ([[AndersonVariationalBicomplex.pdf:file]]) 
