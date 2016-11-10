@@ -416,7 +416,7 @@ Discussion of [[circle n-bundle with connection|circle 2-bundles with connection
 * [[Krzysztof Gawedzki]], Nuno Reis, _WZW branes and gerbes_, Rev.Math.Phys. 14 (2002) 1281-1334 ([arXiv:hep-th/0205233](http://arxiv.org/abs/hep-th/0205233))
  {#GW}
 
-* [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
+* {#SchweigertWaldorf07} [[Christoph Schweigert]], [[Konrad Waldorf]], _Gerbes and Lie Groups_, in _Trends and Developments in Lie Theory_, Progress in Math., Birkh&#228;user ([arXiv:0710.5467](http://arxiv.org/abs/0710.5467))
 
 Discussion of how this 2-bundle arises from the [[Chern-Simons circle 3-bundle]] is in
 
