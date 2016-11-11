@@ -1,6 +1,12 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
++--{: .hide}
 [[!include infinity-Lie theory - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
 * automatic table of contents goes here
@@ -30,4 +36,4 @@ Stacky Lie groupoids and their [[Lie theory]] were introduced and studied by [[C
 
 ## Further resources
 
-* $n$-Caf&eacute; blog discussion about this is [here](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html).
+* $n$-Caf&#233; blog discussion about this is [here](http://golem.ph.utexas.edu/category/2008/12/zhu_on_lies_second_theorem_for.html).
