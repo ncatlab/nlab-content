@@ -936,7 +936,7 @@ that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ 
 1. the even-odd-odd [[Jacobi identity]], which says that this bilinear form is $\mathfrak{o}(d-1,1)$-[[equivariance|equivariant]].
 
 
-Such structure exists on [[real structure|real]] [[spin representation]]:
+Such structure exists on [[real structure|real]] [[spin representation]] ([[Majorana representations]]):
 
 +-- {: .num_prop #RealSpinRepresentations}
 ###### Proposition
