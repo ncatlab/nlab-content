@@ -37,46 +37,15 @@ Another example of a judgement is the judgement that these symbols form a propos
 Neither of these judgements is the same thing as the proposition $P$ itself.  In particular, the proposition is a statement *in* the logic, while the judgement that the proposition is a proposition, or is provably true, is a statement *about* the logic.  However, often people abuse notation and conflate a proposition with the judgment that it is true, writing $P$ instead of than $P\;true$.
 
 
-### In type theory
-
-The distinction between judgements and [[propositions]] is particularly important in [[intensional type theory]].
-
-The paradigmatic example of a judgment in [[type theory]] is a *typing judgment*.  The assertion that a [[term]] $t$ has [[type]] $A$ (written "$t:A$") is not a statement *in* the type theory (that is, not something which one could apply logical operators to in the type-theoretic system) but a statement *about* the type theory.
-
-Often, type theories include only a particular small set of judgments, such as:
-
-* typing judgments (written $t:A$, as above)
-* judgments of typehood (usually written $A \;type$)
-* judgments of [[equality]] between typed terms (written say $(t=t'):A$)
-
-(In a type theory with a [[type of types]], judgments of typehood can sometimes be incorporated as a special case of typing judgments, writing $A:Type$ instead of $A\;type$.)
-
-These limited sets of judgments are often defined [[inductive definition|inductively]] by giving [[type formation]]/[[term introduction]]/[[term elimination]]- and [[computation rules]] (see [[natural deduction]]) that specify under what hypotheses one is allowed to conclude the given judgment.
-
-These inductive definitions can be formalized by choosing a particular [[type theory]] to be the meta-language; usually a very simple type theory suffices (such as a [[dependent type theory]] with only [[dependent product types]]).  Such a meta-type-theory is often called a [[logical framework]].
-
-
-## Hypothetical and generic judgments
+## Hypothetical judgments
 
 It may happen that a proposition $\phi$ is only derivable under the assumptions of certain other proposition $\phi_1,\dots, \phi_2$. The judgement that expresses this situation is written
 $$ \phi_1,\dots,\phi_n \;\vdash \phi.$$
-Often, however, it is convenient to incorporate hypotheticality into judgments themselves, so that $\phi_1,\dots,\phi_n \;\vdash \phi$ becomes a single _[[hypothetical judgment]]_.  It can then be a consquence of other judgments, or (more importantly) a hypothesis used in concluding other judgments.  For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
+For instance, in order to conclude the truth of an [[implication]] $\phi\Rightarrow\psi$, we must conclude $\psi$ *assuming* $\phi$; thus the [[introduction rule]] for implication is
 $$ \frac{\phi \;\vdash\; \psi}{\vdash\; \phi\Rightarrow\psi}$$
-with a hypothetical judgment as its hypothesis.  See [[natural deduction]] for a more extensive discussion.
-
-In a [[type theory]], we may also consider the case where the hypotheses are type declarations of the form $x:A$, where $x$ is a [[variable]], and in which the conclusion proposition involves these variables as [[free variables]].  For instance the conclusion could be $\phi\;prop$, where $\phi$ is a valid (well-formed) proposition only when $x$ belongs of a specific [[type]] $X$.  In this case we have a _[[generic judgement]]_, written
-$$ (x \colon X) \;\vdash\; (\phi \; prop). $$
-which expresses that _assuming the hypothesis or [[antecedent]] judgement_ that $x$ is of type $X$, as a consequence we have the [[succedent]] judgement that $\phi$ is a proposition. If on the right here we have a typing judgment 
-
-$$
-  (x \colon X) \;\vdash\; (t \colon A)
-$$
-
-we have a _[[term in context]]_.
+with a hypothetical judgment as its hypothesis.
 
 For more about the precise relationship between the various meanings of $\vdash$ here, see [[natural deduction]] and [[logical framework]].
-
-While this may seem to be a very basic form of (hypothetical/generic) judgement only, in systems such as [[dependent type theory]] or [[homotopy type theory]], all of [[logic]] and a good bit more is all based on just this.
 
 ## Related concepts
 
