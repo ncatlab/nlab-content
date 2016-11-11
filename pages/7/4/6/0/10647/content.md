@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,6 +16,8 @@
 ## Idea
 
 A [[curvature]] [[differential 2-form]] with values in scalars obtained from the [[Riemann curvature]] of a [[Riemannian manifold]].
+
+A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
 
 ## Related concepts
 
@@ -27,3 +39,6 @@ A [[curvature]] [[differential 2-form]] with values in scalars obtained from the
 
 [[!redirects Ricci tensor]]
 [[!redirects Ricci tensors]]
+
+[[!redirects Ricci flat]]
+[[!redirects Ricci flatness]]
