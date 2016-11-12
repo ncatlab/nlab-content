@@ -9,7 +9,7 @@ $$
 In Sweedler notation, we also write $c\triangleright (ab) = 
 \sum (c_{(1)}\triangleright a)(c_{(2)}\triangleright b)$ and
 $c\triangleright 1_A = \epsilon(c) 1_A$.
-A [[Hopf action]] is a special case of measuring which is also an action of a <em> bimonoid </em> where $B=(C,\mu_C)$. Measurings are used to define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]] (of an algebra by a bialgebra). For measurings and module algebras see
+A [[Hopf action]] is a special case of measuring which is also an action of a <em> bimonoid </em> where $B=(C,\mu_C)$. In other words, $A$ is a monoid in the monoidal category of $B$-modules (also called $B$-module monoid or $B$-[[module algebra]]). Measurings are used to define the (cocycled) [[crossed product algebra]]s, see also [[cleft extension]] (of an algebra by a bialgebra). For measurings and module algebras see
 
 * S. Montgomery, Hopf algebras and their actions on rings, CBMS 82, AMS 1993.
 
@@ -27,7 +27,7 @@ If $U$ and $V$ are $k$-algebras measured by a $k$-coalgebra $C$ and $M$ is a $U$
 
 $$
 c\triangleright (u m v) = \sum (c_{(1)}\triangleright_U u) (c_{(2)}
-\triangleright_M m)(c_{(3)}\triangleright v)
+\triangleright_M m)(c_{(3)}\triangleright_V v)
 $$
 
 If $C$ is in addition a $k$-bialgebra and $\triangleright_U,\triangleright_V,\triangleright_M$ actions of $H$, we say that a measuring is __Hopf action__ of $C$ on the $U$-$V$-bimodule $M$. 
