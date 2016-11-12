@@ -106,27 +106,32 @@ $$
   \,.
 $$
 
-
-
-The fiber of the generalized universal bundle is the [[loop space object|loop monoid]] $\Omega_{pt} B$:
+The generalized universal bundle can be constructed in this way if we take $X = B$:
 
 $$
   \array{
-    \Omega_{pt} B &\to& P &\to& *
+    \mathbf{E}_{pt} &\to& *
     \\
-    \downarrow &\Downarrow& \downarrow &\Downarrow& \downarrow^{pt_B}
+    \downarrow^{p} &\Downarrow& \downarrow^{pt_B}
     \\
-    * &\to& X &\stackrel{g}{\to}& B
+    B &\stackrel{id}{\to}& B
   }
   \,.
 $$
 
-+-- {: .query}
-I don't understand the above diagram, what is the point $* \to X$ in question? and how does this relate to the universal bundle?
-In particular, there is a sequence below that has a map from $\Omega_{pt} \to \mathbf{E}_{pt}$ but I don't see how to construct that from the above.
 
-So I think this is a typo, but I don't know enough to correct it.
-=--
+The [[fiber]] of the generalized universal bundle is the [[loop space object|loop monoid]] $\Omega_{pt} B$:
+
+$$
+  \array{
+    \Omega_{pt} B &\to& \mathbf{E}_{pt} &\to& *
+    \\
+    \downarrow & & \downarrow^{p} &\Downarrow& \downarrow^{pt_B}
+    \\
+    * &\stackrel{pt_B}{\to} & B &\stackrel{id}{\to}& B
+  }
+  \,.
+$$
 
 the sequence
 
