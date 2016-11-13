@@ -88,7 +88,7 @@ where "$\vee$" denotes the ordinary linear dual of a vector space. Such a functo
 
 ## References
 
-* M. M&#252;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](http://arxiv.org/math.CT/9812040). 
+* M. M&#252;ger, [From Subfactors to Categories and Topology I. Frobenius algebras in and Morita equivalence classes of tensor categories](https://arxiv.org/abs/math/0111204). 
 
 There is related discussion on the $n$Forum [here](http://nforum.mathforge.org/discussion/1120/semisimple-category/?Focus=42783#Comment_42783).
 
