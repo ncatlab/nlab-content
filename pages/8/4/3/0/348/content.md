@@ -187,7 +187,7 @@ where all objects appearing (at least in the first lines) are implicitly regarde
 But this colimit now manifestly computes the set
 
 $$
-  \{ maps from V to X that factor through U\}_\sim
+  \{\text{maps from }V\text{ to }X\text{ that factor through }U\}_\sim
 $$
 
 where the equivalence relation is
@@ -195,7 +195,7 @@ where the equivalence relation is
 $$
   ((f \to U \to X) \sim (g \to U \to X))
   \Leftrightarrow
-  (f and g coincide as maps to X)
+  (f\text{ and }g\text{ coincide as maps to }X)
   \,.
 $$
 
