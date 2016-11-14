@@ -59,6 +59,10 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 * Grothendieck's letters. Thirty years ago I was involved in a brief exchange of letters with Alexander Grothendieck. I will be putting up some excerpts. It may happen that commented versions of these will be made available by the _Documents math&#233;matiques_ project. 
 
+##More Information
+
+You may also find me on: [MathOverflow](http://mathoverflow.net/users/3502/tim-porter) \ [ORCiD](http://orcid.org/0000-0001-7962-8471)
+
 category: people
 
 
