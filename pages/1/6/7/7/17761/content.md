@@ -29,27 +29,31 @@ Evaluating at $n=2$, we compute that there are 5 order-preserving functions from
 
 ### Relation to zeta polynomial
 
-The order polynomial is related to the [[zeta polynomial]] by the equation[^Note]
-$$
-\Omega(P;n+2) = Z(I(P);n)
-$$
-where $I(P) \cong [I(P),\mathbf{2}]$ is the lattice of [[lower sets]] in $P$.
-This can be seen as a consequence of the isomorphisms
+Let $I(P) \cong [I(P),\mathbf{2}]$ denote the lattice of [[lower sets]] in $P$. The order polynomial of a finite poset $P$ is related to the [[zeta polynomial]] of its lattice of lower sets $I(P)$ by the equation[^Note]
+$$\Omega(P;n+2) = Z(I(P);n)$$
+We can derive this equation from the isomorphisms
 $$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n], [P,[1]])$$
-(where $[n] = \mathbf{n{+}1}$) applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
+(where $[n] = \mathbf{n{+}1}$), applying $[n+1] \cong [[n],[1]]$ together with the [[currying]] and uncurrying isomorphisms.
 
 [^Note]: Note that the definition we use for $Z(P;n)$ has an index shift from the definition that seems to be more standard in combinatorics (see the footnote at [[zeta polynomial]]), so this equation is sometimes expressed as $\Omega(P;n) = Z(I(P);n)$.
 
 ### Relation to the strict order polynomial
 
-Let $\bar{\Omega}(P;n)$ be the number of [[strict order-preserving functions]] from $P$ to $\mathbf{n}$, that is, functions $f : P \to \mathbf{n}$ such that $x \lt y$ implies $f(x) \lt f(y)$. This again defines a polynomial in $n$, called the **strict order polynomial** of $P$. The strict order polynomial is related to the order polynomial via a _combinatorial reciprocity theorem_ in the sense of [Stanley](#Stanley74).
+Let $\bar{\Omega}(P;n)$ denote the number of [[strict order-preserving functions]] from $P$ to $\mathbf{n}$, that is, functions $f : P \to \mathbf{n}$ such that $x \lt y$ implies $f(x) \lt f(y)$. This again defines a polynomial in $n$, called the **strict order polynomial** of $P$. The strict order polynomial of a finite poset $P$ is related to its order polynomial by the equation
+$$\bar{\Omega}(P;n) = (-1)^p \Omega(P;-n)$$
+where $p = |P|$ is the cardinality of $P$. This is an example of a _combinatorial reciprocity theorem_ in the sense of [Stanley (1974)](#Stanley74).
 
-+-- {: .num_prop }
-###### Proposition
+(Notice that we are evaluating the order polynomial at a negative integer, even though strictly speaking the definition $\Omega(P;n) = |Hom(P,\mathbf{n})|$ only makes sense for natural numbers $n$. This is justified because the value of a polynomial on the natural numbers determines its value on arbitrary integers.)
 
-[(Stanley 1972, 1974)](#Stanley74): Let $P$ be a finite partially order set of cardinality $p$. Then $\bar{\Omega}(P;n) = (-1)^p \Omega(P;-n)$.
-
-=--
+Through [[Möbius inversion]], this equation relating the strict order polynomial to the order polynomial can be connected to the previous one relating the order polynomial to the zeta polynomial. Since the lattice of lower sets $I(P)$ has [[bottom]] and [[top]] elements, we know that
+$$
+\Omega(P;n) = Z(I(P);n-2) = \zeta^n(\emptyset,P)
+$$
+where $\zeta^n$ is the $n$-fold convolution of the zeta function of $I(P)$. One can similarly work out that
+$$
+\bar{\Omega}(P;n) = (-1)^p\mu^n(\emptyset,P)
+$$
+where $\mu^n$ is the $n$-fold convolution of the [[Möbius function]] of $I(P)$. The equation $\bar{\Omega}(P;n) = (-1)^p \Omega(P;-n)$ then follows formally from the fact that $\mu = \zeta^{-1}$.
 
 ## Related concepts
 
