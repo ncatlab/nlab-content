@@ -58,7 +58,7 @@ This issue is the very root of the abbreviation "M-theory":
 > M-theory was meant as a temporary name pending a better understanding. Some colleagues thought that the theory should be understood as a membrane theory. Though I was skeptical, I decided to keep the letter "m" from "membrane" and call the theory M--theory, with time to tell whether the M stands for magic, mystery, or membrane. Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
 
 
-### Strongly coupled type IIA strings and D0-branes
+### Strongly coupled type IIA strings and D$0$-branes
  {#StronglyCoupledTypeIIAAndD0Branes}
 
 There is a bunch of consistency checks on the statement that the [[KK-compactification]] of [[11-dimensional supergravity]] on a circle gives the [[non-perturbative quantum field theory|strong coupling]] refinement of [[type IIA string theory]].
@@ -264,7 +264,7 @@ More complete discussion of the decomposition of the [[supergravity C-field]] as
 * {#MathaiSati03} [[Varghese Mathai]], [[Hisham Sati]], _Some Relations between Twisted K-theory and E8 Gauge Theory_, JHEP0403:016,2004 ([arXiv:hep-th/0312033](http://arxiv.org/abs/hep-th/0312033))
 
 
-### Relation to D0-brane mechanics
+### Relation to D$0$-brane mechanics
 
 Discussion of M-theory as arising from [[type II string theory]] via the effect of [[D0-branes]] is in 
 
