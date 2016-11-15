@@ -32,6 +32,8 @@ __Commutative algebra__ is the subject studying commutative algebras. It is clos
 
 * [[graded commutative algebra]]
 
+* [[supercommutative algebra]]
+
 ## References
 
 * [[Michael Atiyah]], I. G. Macdonald, _Introduction to commutative algebra_, 1969, 1994
