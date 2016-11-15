@@ -1300,6 +1300,7 @@ $$
 
 
 ## Supersymmetry: Super-Poincar&#233; and super-Minkowski
+ {#Supersymmetry}
 
 Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. 
 
@@ -1311,7 +1312,7 @@ $$
   \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
 $$
 
-(namely as the Lie algebra of translations along itself), every [[super Lie algbra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algbra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
+(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
 
 +-- {: .num_defn #SuperMinkowskiSpacetime}
 ###### Definition
