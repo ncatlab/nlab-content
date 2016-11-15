@@ -1380,3 +1380,6 @@ A useful collection of facts is in
 
 
 [[!redirects model structures on simplicial presheaves]]
+
+[[!redirects model category of simplicial presheaves]]
+[[!redirects model categories of simplicial presheaves]]
