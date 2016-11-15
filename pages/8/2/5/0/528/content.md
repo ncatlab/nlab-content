@@ -211,7 +211,9 @@ More general 3-vector spaces are given by _[[hopfish algebras]]_ and generally b
 
 ## References
 
-For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
+* [[Kenneth Brown]], _Hopf algebras_, lectures ([pdf](http://www.maths.gla.ac.uk/~kab/Hopf%20lects%201-8.pdf))
+
+The diagrammatic definition of a Hopf algebra, is also in the [Wikipedia entry](http://en.wikipedia.org/wiki/Hopf_algebra#Formal_definition).
 
 * Eiichi Abe, _Hopf algebras_, Cambridge UP 1980.
 
@@ -221,7 +223,7 @@ For a diagrammatic definition of a Hopf algebra, see the [Wikipedia entry](http:
 
 * G. Hochschild, _Introduction to algebraic group schemes_, 1971
 
-* S. Majid, _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
+* [[Sean Majid]], _Foundations of quantum group theory_, Cambridge University Press 1995, 2000.
 
 * {#MilnorMoore65} [[John Milnor]], [[John Moore]], _On the structure of Hopf algebras_, Annals of Math. __81__ (1965), 211-264. ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/milnor-moore-ann-math-1965.pdf))
 
