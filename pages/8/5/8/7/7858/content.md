@@ -4,7 +4,7 @@
 
 ## Idea
 
-The classical _M&#246;bius inversion formula_ is a principle originating in [[number theory]], which says that if $f$ and $g$ are two [[complex]]-valued functions on the positive [[natural numbers]], then
+The classical _M&#246;bius inversion formula_ is a principle originating in [[number theory]], which says that if $f$ and $g$ are two (say, [[complex]]-valued) functions on the positive [[natural numbers]], then
 $$f(n) = \sum_{d\mid n} g(d)$$
 if and only if
 $$g(n) = \sum_{d\mid n} f(d)\mu(n/d)$$
@@ -30,7 +30,7 @@ referred to as the **zeta function** of $P$.
 
 ### The M&#246;bius function and the M&#246;bius inversion formula
 
-A **M&#246;bius function** of $P$ is defined as an inverse to the zeta function with respect to the convolution product. Such an inverse always exists (and of course is necessarily unique) if the poset is [[locally finite poset|locally finite]], that is, if every [[interval]] $[x,y] = \{z \mid x \le z\le y\}$ is finite.
+A **M&#246;bius function** of $P$ is defined as an inverse to the zeta function with respect to the convolution product. Such an inverse always exists if the poset is [[locally finite poset|locally finite]], that is, if every [[interval]] $[x,y] = \{z \mid x \le z\le y\}$ is finite.
 
 +-- {: .num_prop }
 ###### Proposition
@@ -79,7 +79,26 @@ An easy way of proving the M&#246;bius inversion formula [(Kung et al.)](#KungRo
 
 =--
 
-### Examples
+## Properties of the M&#246;bius function
+
+### For product orders
+
+The M&#246;bius function of the [[cartesian product]] of two posets is the product of their M&#246;bius functions:
+$$\mu_{P\times Q}((p,q), (p',q')) = \mu_P(p,p') \cdot \mu_Q(q,q')$$
+for $p,p' \in P$, $q,q' \in Q$.
+
+## Examples of M&#246;bius inversion
+
+### Inclusion-exclusion
+
+Let $\mathcal{P}X$ be the lattice of subsets of a finite set $X$. $\mathcal{P}X$ is isomorphic to the cartesian product of $|X|$ many copies of the 1-chain $[1] = \{ 0 \lt 1 \}$, and so by the product rule for the M&#246;bius function, we have
+$$\mu(I,J) = (-1)^{|J|-|I|}$$
+for any pair of subsets $I \subseteq J$. The M&#246;bius inversion formula then says that for any functions $f$ and $g$ defined on $\mathcal{P}X$, we have
+$$f(J) = \sum_{I \subseteq J} g(I)$$
+if and only if
+$$g(J) = \sum_{I \subseteq J} (-1)^{|J|-|I|} f(I)$$
+This is called the _inclusion-exclusion_ principle.
+
 
 ## M&#246;bius inversion for categories
 
