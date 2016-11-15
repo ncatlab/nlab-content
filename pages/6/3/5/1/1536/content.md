@@ -521,22 +521,23 @@ is the starting point for the [[vertical categorification]] described at [[(∞,
 The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].
 
 ### $n = (\infty,0)$
+ {#ForInfinityGroupoids}
 
-The analog of the Grothendieck construction for [[∞-groupoids]] is examined in details by Heuts and Moerdijk.
-The category of presheaves in groupoids is replaced by the model category of [[simplicial presheaves]] equipped with the [[projective model structure]]
-and the category of Grothendieck fibrations in groupoids is replaced by the model category of simplicial sets over the nerve of the source category,
-equipped with the [[contravariant model structure]].
+The analog of the Grothendieck construction for [[∞-groupoids]] is examined in detail in [Heuts-Moerdijk 13](#HeutsMoerdijk13).
+
+The category of presheaves in groupoids is replaced by the [[model category of simplicial presheaves]] equipped with the [[projective model structure]]
+and the category of Grothendieck fibrations in groupoids is replaced by the model category of simplicial sets over the [[nerve of a category|nerve]] of the source category, equipped with the [[contravariant model structure]].
 
 In this case there is not one, but two different functors that generalize the Grothendieck construction.
-The first functor $h_!$ is a left adjoint, it implements the homotopy colimit using the [[diagonal]] of a bisimplicial set,
-and the second functor $r^*$ is a right adjoint, it uses the [[codiagonal]] (also known as the totalization) of a bisimplicial set.
-Both functors fit into adjunctions $h_!\dashv h^*$ and $r_!\dashv r^*$,
+
+The first functor $h_!$ is a [[left adjoint]], it implements the [[homotopy colimit]] using the [[diagonal]] of a [[bisimplicial set]],
+and the second functor $r^*$ is a [[right adjoint]], it uses the [[codiagonal]] (also known as the [[totalization]]) of a bisimplicial set.
+Both functors fit into [[adjunctions]] $h_!\dashv h^*$ and $r_!\dashv r^*$,
 where the other two adjoints can be seen as rectification functors:
 the right adjoint $h^*$ generalizes the cleavage construction,
 whereas the left adjoint $r_!$ generalizes the comma category construction above.
 
-The two functors $h_!$ and $r^*$ become naturally weakly equivalent once we derive them,
-but they are not isomorphic.
+The two functors $h_!$ and $r^*$ become naturally weakly equivalent once we [[derived functor|derive]] them, but they are not isomorphic.
 However, they do become isomorphic if we restrict to the full subcategories of presheaves of groupoids and fibrations in simplicial sets
 whose fibers are [[nerves]] of groupoids.
 Thus in this case we have an [[adjoint triple]] $r_! \dashv r^* = h_! \dashv h^*$, consistent with the above description.
@@ -583,7 +584,8 @@ The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
 
 The analog for simplicial sets instead of groupoids is discussed in
 
-* [[Gijs Heuts]] and [[Ieke Moerdijk]], Left fibrations and homotopy colimits. {#HM}
+* {#HeutsMoerdijk13}  [[Gijs Heuts]], [[Ieke Moerdijk]], _Left fibrations and homotopy colimits_ ([arXiv:1308.0704](https://arxiv.org/abs/1308.0704)). 
+
 
 
 See also
