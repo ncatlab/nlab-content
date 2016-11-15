@@ -47,7 +47,7 @@ See ([Sachse](#Sachse)) and the references at _[[super ∞-groupoid]]_ for some 
 
 We discuss the general abstract _raison d' &#234;tre_ of super algebra. Readers looking for just the plain definition should probably [skip to below](#AssociativeSuperalgebras) on first reading.
 
-One way to understand the relevance of supercommutative superalgebra is [[Deligne's theorem on tensor categories]], which states that well-behaved [[tensor categories]] over the [[complex numbers]] are [[equivalence of categories|equivalent]] to [[categories of representations]] of [[supergroups]]. From this perspective the crucial sign rule is related to the [[symmetric monoidal category|symmetric]] [[braided monoidal category|braiding]] in [[tensor categories]]. This in turn may itself be understood from a more general perspective as follows.
+One way to understand the relevance of [[supercommutative superalgebra]] is [[Deligne's theorem on tensor categories]], which states that well-behaved [[tensor categories]] over the [[complex numbers]] are [[equivalence of categories|equivalent]] to [[categories of representations]] of [[supergroups]]. From this perspective the crucial sign rule is related to the [[symmetric monoidal category|symmetric]] [[braided monoidal category|braiding]] in [[tensor categories]]. This in turn may itself be understood from a more general perspective as follows.
 
 Superalgebra is [[universal property|universal]] in the following sense. The crucial super-grading rule (the "Koszul sign rule", [Grassmann 1844, &#167;37, &#167;55](#Grassmann1844)) 
 
@@ -632,6 +632,8 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 (...)
 
 ## Related concepts
+
+* [[supercommutative algebra]]
 
 * [[smooth superalgebra]]
 
