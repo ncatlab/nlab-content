@@ -191,6 +191,9 @@ Discussion of [[group extensions]] of supergroups includes
 
 * {#Drupieski14} [[Christopher Drupieski]], _Strict polynomial superfunctors and universal extension classes for algebraic supergroups_ ([arXiv:1408.5764](http://arxiv.org/abs/1408.5764))
 
+Discussion as Hopf-superalgebras includes
+
+* Nicol&#225;s Andruskiewitsch, Iv&#225;n Angiono, Hiroyuki Yamane, _On pointed Hopf superalgebras_, Contemp. Math. vol. 544, pp. 123--140, 2011 ([arXiv:1009.5148](https://arxiv.org/abs/1009.5148))
 
 [[!redirects supergroups]]
 
