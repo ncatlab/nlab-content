@@ -24,12 +24,13 @@
 ## Idea
 
 Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to just a mild size constraint (subexponential growth, def. \ref{SubexponentialGrowth} below), and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
-# Background
+
+
 ## Relevance
 
 ### For supersymmetry
 
-Since the concept of linear tensor categories arises very naturally in mathematics, the theorem gives a purely mathematical "reason" for the relevance of superalgebra and supergeometry. It is reasonable to wonder why of all possible generalizations of [[commutative algebra]], it is supercommutative superalgebras that are singled out (from alternatives such as plain $\mathbb{Z}_2$-[[graded algebras]], or in fact $\mathbb{Z}_n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] and [[K-theory]]. 
+Since the concept of linear [[tensor categories]] arises very naturally in [[mathematics], the theorem gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]. It is reasonable to wonder why of all possible generalizations of [[commutative algebra]], it is [[supercommutative superalgebras]] that are singled out (from alternatives such as plain $\mathbb{Z}/2$-[[graded algebras]], or in fact $\mathbb{Z}/n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] (e.g. via the relation between [[Majorana spinors]] and supersymmetry, [here](Majorana+spinor#Supersymmetry)) and [[topological K-theory]] (for instance via its incarnation as _[[Karoubi K-theory]]_, or via the descriptioon of[[twisted K-theory]] by _[[super line 2-bundles]]_). 
 
 But with $k$-linear [[tensor categories]] appearing on general abstract grounds as the canonical structure to consider in [[representation theory]], Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
@@ -45,7 +46,7 @@ By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[cate
 
 ## Background
 
-This section provides exposition of the necessary background for the statement of Deligne's theorem.
+This section provides exposition of the necessary background for the statement of Deligne's theorem (theorem \ref{TheTheorem} below).
 
 We are interested in [[groups]] equipped with [[geometry]]. 
 
@@ -54,7 +55,7 @@ A familiar example is [[differential geometry]], where one considers groups whos
 A **[[linear representation]]** of a [[Lie group]] $G$ on a [[vector space]] $V$ is a [[smooth function]]
 
 $$
-  \rho :\colon: G \times V \longrightarrow V 
+  \rho \;\colon\; G \times V \longrightarrow V 
 $$
 
 such that 
@@ -76,13 +77,57 @@ such that
       \,.
    $$
 
-But here we need to consider groups with more general geometric structure. 
+But here we need to consider groups with more general geometric structure. The key to the generalization is to regard [[spaces]] dually via their [[algebras of functions]].
 
-What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a more direct, more algebraic, description as [[Hopf algebras]], and we make this explicit.
+The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[]algebraic geometry]. In great generality it appears as "[[Isbell duality]]".
+
+In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
+
+$$
+  C^\infty(-) \;\colon\; SmthMfd \longrightarrow SmthAlg_{\mathbb{R}}
+$$
+
+is a [[contravariant functor]], which is [[fully faithful functor|fully faithful]].  This means that for 
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+any [[smooth function]], then precomposition of smooth functions on $Y$ with $f$ yields a homomorphism of smooth algebras going the other way around
+
+$$
+  C^\infty(X) \longleftarrow C \infty(Y) \;\colon\; f^\ast
+$$
+
+and the associatioon $f \mapsto f^\ast$ is a [[natural bijection]].
+Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then f^\ast = id$ is the identity homomomorphism of smooth algebras.
+
+Moreover, the functor $C^\infty(-)$ sends [[Cartesian products]] of smooth manifolds to "completed tensor products" $\otimes^c$ of function algebras (namely to the [[coproduct]] of [[smooth algebras]], see there)
+
+$$
+  C^\infty(X \times Y) \simeq C^\infty(X) \otimes^c C^\infty(Y)
+  \,.
+$$
+
+Together this means that if $X = G$ is equipped with the structure of a [[group object]], then the product operation in the group induces a "[[coproduct]]" operation on its smooth algebra of smooth functions:
+
+$$
+  \array{
+    product &\colon& G \times G &\longrightarrow& G
+    \\
+    && C^\infty(G) \otimes^c C^\infty(G) &\longleftarrow& C^\infty(G) &\colon& product^\ast 
+  }
+  \,.
+$$
+
+Now the [[associativity]] of the group product translates into a corresponding dual property of its dual, called "[[co-associativity]]", and so forth. The resulting algebraic structure is called a **[[Hopf algebra]]**.
+ 
+What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
 
 
-### Hopf algebras
+### Groups as Hopf algebras
 
+The explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]].
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
@@ -305,7 +350,7 @@ such that
 e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
 
 
-### Comodules
+### Linear representations as Comodules
 
 +-- {: .num_defn #CommutativeHopfAlgebroidComodule}
 ###### Definition
@@ -404,14 +449,44 @@ $$
 
 =--
 
++-- {: .num_defn #TensorProductOfComodulesOverAHopfAlgebra}
+###### Definition
 
+Given two comodules $N_1, N_2$ over a [[commutative Hopf algebra]] $\Gamma$ over $k$, then their **[[tensor product]]** is the the [[tensor product of modules]] $N_1 \otimes_k N_2$ equipped with the following co-action
 
+$$
+  N_1 \otimes_k N_2
+    \overset{\Psi1 \otimes_k \Psi_2}{\longightarrow}
+  \Gamma \otimes_k N_1 \otimes_k \Gamma \otimes N_2
+    \overset{}{\longrightarrow}
+  \Gamma \otimes_k \Gamma \otimes_k N_1 \otimes_k N_2
+      \overset{((-)\cdot (-)) \otimes_k id_{N_1} \otimes_k id_{N_2} }{\longrightarrow}
+  \Gamma \otimes_k N_1 \otimes_k N_2
+  \,.
+$$
+
+=--
+
+This is the [[formal dual]] of the [[tensor product of representations]], the action on which is induced by
+
+$$
+  G \times V_1 \times V_2
+     \overset{\Delta_G \times id}{\longrightarrow}
+  G \times G \times V_1 \times V_2
+     \simeq
+   G \times V_1 \times G \times V_1
+     \overset{\rho_1 \times \rho_2}{\longrightarrow}
+   V_1 \times V_2
+  \,.
+$$
+
+Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
 
 ### Monoidal categories
 
 We want to lift the concepts of _[[ring]]_ and _[[module]]_ from _[[abelian groups]]_ to _[[spectra]]_. This requires a general idea of what it means to generalize these concepts at all. The abstract theory of such generalizations is that of _[[monoid in a monoidal category]]_.
 
-We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. We list archetypical examples at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below. These examples are all fairly immediate. The point of the present discussion is to construct the non-trivial example of [[Day convolution]] monoidal stuctures [below](#TopologicalDayConvolution).
+We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. 
 
 
 +-- {: .num_defn #MonoidalCategory} 
@@ -654,6 +729,28 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 
 =--
 
++-- {: .num_example }
+###### Example
+
+[[finite dimensional vector spaces]]
+
+(duals,....)
+
+=--
+
++-- {: .num_example }
+###### Example
+
+[[super vector spaces]]
+
+(non-trivial symmetric braiding,...)
+
+=--
+
+### Super-groups as super-Hopf algebras
+
+hence we may internalize definition of commutative Hopf algebra
+into $sVect$...
 
 
 
