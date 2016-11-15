@@ -24,7 +24,7 @@
 ## Idea
 
 Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as theorem \ref{TheTheorem} below) establishes [[Tannaka duality]] between linear [[tensor categories]] in [[characteristic zero]] subject to just a mild size constraint (subexponential growth, def. \ref{SubexponentialGrowth} below), and [[supergroups]] ("[[supersymmetries]]"), realizing these tensor categories as [[categories of representations]] of these supergroups.
-
+# Background
 ## Relevance
 
 ### For supersymmetry
@@ -41,6 +41,258 @@ More concretely, in [[quantum field theory]], under the [[Wigner classification]
 By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to supercommutative Hopf algebras. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
 
 [[!include structure on algebras and their module categories - table]]
+
+
+## Background
+
+### Hopf algebras and their representations
+
+### Monoidal categories
+
+We want to lift the concepts of _[[ring]]_ and _[[module]]_ from _[[abelian groups]]_ to _[[spectra]]_. This requires a general idea of what it means to generalize these concepts at all. The abstract theory of such generalizations is that of _[[monoid in a monoidal category]]_.
+
+We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. We list archetypical examples at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below. These examples are all fairly immediate. The point of the present discussion is to construct the non-trivial example of [[Day convolution]] monoidal stuctures [below](#TopologicalDayConvolution).
+
+
++-- {: .num_defn #MonoidalCategory} 
+###### Definition
+
+A **(pointed) [[topologically enriched category|topologically enriched]] [[monoidal category]]** is a (pointed) [[topologically enriched category]] $\mathcal{C}$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) equipped with 
+
+1. a (pointed) [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+
+   $$ 
+      \otimes 
+        \;\colon\; 
+      \mathcal{C} \times \mathcal{C}  
+       \longrightarrow
+      \mathcal{C}
+   $$
+
+   out of the (pointed) topologival [[product category]] of $\mathcal{C}$ with itself (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), called the **[[tensor product]]**, 
+
+1. an object
+
+   $$ 
+     1 \in \mathcal{C} 
+   $$
+
+   called the **[[unit object]]** or **[[tensor unit]]**, 
+
+1. a [[natural isomorphism]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor))
+
+   $$
+     a 
+       \;\colon\; 
+     ((-)\otimes (-)) \otimes (-)
+       \overset{\simeq}{\longrightarrow}
+     (-) \otimes ((-)\otimes(-))
+   $$
+
+   called the **[[associator]]**, 
+
+1. {#MonoidalCategoryUnitors} a [[natural isomorphism]] 
+
+   $$
+     \ell
+       \;\colon\; 
+     (1 \otimes (-)) 
+       \overset{\simeq}{\longrightarrow}
+     (-)
+   $$
+
+   called the **[[left unitor]]**, and a natural isomorphism 
+
+   $$
+     r \;\colon\; (-) \otimes 1 \overset{\simeq}{\longrightarrow} (-)
+   $$
+
+   called the **[[right unitor]]**, 
+
+such that the following two kinds of [[commuting diagram|diagrams commute]], for all objects involved:
+
+1. **triangle identity**:
+
+   $$
+     \array{
+        & (x \otimes 1) \otimes y &\stackrel{a_{x,1,y}}{\longrightarrow} & x \otimes (1 \otimes y)
+         \\     
+         & {}_{\rho_x \otimes 1_y}\searrow       
+         && \swarrow_{1_x \otimes \lambda_y}
+         & 
+        \\
+        &&
+        x \otimes y
+        &&
+     }
+   $$
+
+
+1. the **[[pentagon identity]]**:
+
+   $$
+     \array{
+       && (w \otimes x) \otimes (y \otimes z)
+       \\
+       & {}^{\mathllap{\alpha_{w \otimes x, y, z}}}\nearrow
+        &&
+       \searrow^{\mathrlap{\alpha_{w,x,y \otimes z}}}
+       \\
+       ((w \otimes x ) \otimes y) \otimes z
+        && &&
+       (w \otimes (x \otimes (y \otimes z)))
+       \\
+       {}^{\mathllap{\alpha_{w,x,y}} \otimes id_z }\downarrow 
+        && && 
+       \uparrow^{\mathrlap{ id_w \otimes \alpha_{x,y,z} }}
+       \\
+       (w \otimes (x \otimes y)) \otimes z
+         && \underset{\alpha_{w,x \otimes y, z}}{\longrightarrow} &&
+       w \otimes ( (x \otimes y) \otimes z )
+     }
+   $$
+
+
+=--
+
+
++-- {: .num_lemma #kel1} 
+###### Lemma 
+**([Kelly 64](monoidal+category#Kelly))** 
+
+Let $(\mathcal{C}, \otimes, 1)$ be a [[monoidal category]], def. \ref{MonoidalCategory}. Then the left and right [[unitors]] $\ell$ and $r$ satisfy the following conditions: 
+
+1. $\ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1$;
+
+1. for all objects $x,y \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]:
+ 
+   $$ 
+     \array{
+       (1 \otimes x) \otimes y  & & 
+       \\
+       {}^\mathllap{\alpha_{1, x, y}} \downarrow 
+       & \searrow^\mathrlap{\ell_x \otimes id_y} & 
+       \\
+       1 \otimes (x \otimes y) 
+       & \underset{\ell_{x \otimes y}}{\longrightarrow} & x \otimes y
+     }
+     \,;
+   $$ 
+
+   and
+
+   $$ 
+     \array{
+       x \otimes (y \otimes 1) & & 
+       \\
+       {}^\mathllap{\alpha^{-1}_{1, x, y}} \downarrow 
+       & \searrow^\mathrlap{id_x \otimes r_y} & 
+       \\
+       (x \otimes y) \otimes 1
+         & 
+           \underset{r_{x \otimes y}}{\longrightarrow} 
+         & 
+       x \otimes y
+     }
+     \,;
+   $$ 
+
+=-- 
+
+For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1) and [this lemma](monoidal+category#kel2).
+
++-- {: .num_remark #CoherenceForMonoidalCategories}
+###### Remark
+
+Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of freely composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
+
+(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this equality no longer need to coincide.)
+
+=--
+
++-- {: .num_defn #BraidedMonoidalCategory} 
+###### Definition
+
+A **(pointed) [[topologically enriched category|topological]] [[braided monoidal category]]**, is a (pointed) [[topologically enriched category|topological]] [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
+
+$$ 
+  \tau_{x,y} \colon x \otimes y \to y \otimes x 
+$$
+
+called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
+
+$$
+  \array{
+   (x \otimes y) \otimes z 
+   &\stackrel{a_{x,y,z}}{\to}&
+   x \otimes (y \otimes z)
+   &\stackrel{\tau_{x,y \otimes z}}{\to}&
+   (y \otimes z) \otimes x
+   \\
+   \downarrow^{\tau_{x,y}\otimes Id}
+   &&&&
+   \downarrow^{a_{y,z,x}}
+   \\
+   (y \otimes x) \otimes z
+   &\stackrel{a_{y,x,z}}{\to}&
+   y \otimes (x \otimes z)
+   &\stackrel{Id \otimes \tau_{x,z}}{\to}&
+   y \otimes (z \otimes x)
+  }
+$$
+
+and
+
+$$
+  \array{
+   x \otimes (y \otimes z) 
+   &\stackrel{a^{-1}_{x,y,z}}{\to}&
+   (x \otimes y) \otimes z
+   &\stackrel{\tau_{x \otimes y, z}}{\to}&
+   z \otimes (x \otimes y)
+   \\
+   \downarrow^{Id \otimes \tau_{y,z}}
+   &&&&
+   \downarrow^{a^{-1}_{z,x,y}}
+   \\
+   x \otimes (z \otimes y)
+   &\stackrel{a^{-1}_{x,z,y}}{\to}&
+   (x \otimes z) \otimes y
+   &\stackrel{\tau_{x,z} \otimes Id}{\to}&
+   (z \otimes x) \otimes y
+  }
+  \,,
+$$
+
+where $a_{x,y,z} \colon (x \otimes y) \otimes z \to x \otimes (y \otimes z)$ denotes the components of the [[associator]] of $\mathcal{C}^\otimes$. 
+
+=--
+
++-- {: .num_defn #SymmetricMonoidalCategory} 
+###### Definition
+
+A **(pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]]** is a (pointed) topological [[braided monoidal category]] (def. \ref{BraidedMonoidalCategory}) for which the [[braiding]] 
+
+$$ 
+   \tau_{x,y} \colon x \otimes y \to y \otimes x 
+$$
+
+satisfies the condition:
+
+$$ 
+  \tau_{y,x} \circ \tau_{x,y} = 1_{x \otimes y}  
+$$
+
+for all objects $x, y$
+
+=--
+
++-- {: .num_remark #SymmetricMonoidalCategoriesCoherenceTheorem}
+###### Remark
+
+In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{CoherenceForMonoidalCategories}) there is a [[coherence theorem for symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}), saying that every diagram built freely (see remark \ref{SymmetricMonoidalCategoriesCoherenceTheorem}) from [[associators]], [[unitors]] and [[braidings]] such that both sides of the diagram correspond to the same [[permutation]] of objects, coincide.
+
+=--
 
 
 
