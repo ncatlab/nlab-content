@@ -61,7 +61,7 @@ theory_ This article is an expanded version of notes for a series of lectures gi
 
 ##More Information
 
-You may also find me on: [MathOverflow](http://mathoverflow.net/users/3502/tim-porter) \ [ORCiD](http://orcid.org/0000-0001-7962-8471)
+You may also find me on: [MathOverflow](http://mathoverflow.net/users/3502/tim-porter) | [ORCiD](http://orcid.org/0000-0001-7962-8471)
 
 category: people
 
