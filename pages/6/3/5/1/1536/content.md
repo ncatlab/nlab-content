@@ -520,6 +520,27 @@ is the starting point for the [[vertical categorification]] described at [[(∞,
 
 The analog of the Grothendieck construction one categorical dimension down is the [[category of elements]] of a [[presheaf]].
 
+### $n = (\infty,0)$
+
+The analog of the Grothendieck construction for [[∞-groupoids]] is examined in details by Heuts and Moerdijk.
+The category of presheaves in groupoids is replaced by the model category of [[simplicial presheaves]] equipped with the [[projective model structure]]
+and the category of Grothendieck fibrations in groupoids is replaced by the model category of simplicial sets over the nerve of the source category,
+equipped with the [[contravariant model structure]].
+
+In this case there is not one, but two different functors that generalize the Grothendieck construction.
+The first functor $h_!$ is a left adjoint, it implements the homotopy colimit using the [[diagonal]] of a bisimplicial set,
+and the second functor $r^*$ is a right adjoint, it uses the [[codiagonal]] (also known as the totalization) of a bisimplicial set.
+Both functors fit into adjunctions $h_!\dashv h^*$ and $r_!\dashv r^*$,
+where the other two adjoints can be seen as rectification functors:
+the right adjoint $h^*$ generalizes the cleavage construction,
+whereas the left adjoint $r_!$ generalizes the comma category construction above.
+
+The two functors $h_!$ and $r^*$ become naturally weakly equivalent once we derive them,
+but they are not isomorphic.
+However, they do become isomorphic if we restrict to the full subcategories of presheaves of groupoids and fibrations in simplicial sets
+whose fibers are [[nerves]] of groupoids.
+Thus in this case we have an [[adjoint triple]] $r_! \dashv r^* = h_! \dashv h^*$, consistent with the above description.
+
 ### $n = (\infty,1)$  {#(oo1)case}
 
 The analog of the Grothendieck construction for [[(infinity,1)-category|(∞,1)-categories]] is described at [[Cartesian fibration]] and at [[universal fibration of (∞,1)-categories]]. 
@@ -555,6 +576,14 @@ Standard references are  in
 * sections A1.1.7, B1.3.1 of [[Peter Johnstone]], _[[Sketches of an Elephant]]_
  {#Johnstone}
 * [[Angelo Vistoli]], _Grothendieck topologies, fibered categories and descent theory_, pp. 1--104 of [[FGA explained]]; [MR2223406](http://www.ams.org/mathscinet-getitem?mr=2223406); [math.AG/0412512](http://arxiv.org/abs/math/0412512).
+
+The left adjoint to the Grothendieck construction is discussed in &#167;3.1.1 of
+
+* [[Georges Maltsiniotis]], La th&#233;orie de l'homotopie de Grothendieck.
+
+The analog for simplicial sets instead of groupoids is discussed in
+
+* [[Gijs Heuts]] and [[Ieke Moerdijk]], Left fibrations and homotopy colimits. {#HM}
 
 
 See also
