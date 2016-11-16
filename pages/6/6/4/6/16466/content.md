@@ -50,7 +50,7 @@ This section provides exposition of the necessary background for the statement o
 
 We start by introducing the basic concepts of [[tensor categories]] along with the basic examples of [[vector spaces]] and [[super vector spaces]]:
 
-* _[Tensor product and Tensor categories](#TensorProductsAndMonoidalCategories)_
+* _[Tensor categories](#TensorProductsAndMonoidalCategories)_
 
 This allows to speak of [[commutative algebra]] [[internalization|internal]] to tensor categories. We focus on the concept of [[commutative Hopf algebras]] and explain how these are [[formal duals]] to [[group objects|groups]]. Then we use this to motivate and explain thee concept of (affine algebraic) [[supergroups]] as [[formal duals]] to [[commutative Hopf algebras]] internal to the tensor category of [[super vector spaces]]:
 
@@ -86,7 +86,7 @@ Of course the category [[Vect]] has some special properties. Not only are its ob
 
 Let $\mathcal{C}$ be a [[category]]. 
 
-1. Say that $\\mathcal{C}$ has **[[direct sums]]** if its has [[finite products]] and [[finite coproducts]] and if the cannical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
+1. Say that $\mathca{C}$ has **[[direct sums]]** if its has [[finite products]] and [[finite coproducts]] and if the canonical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
 
 1. Say that $\mathcal{C}$ is an **[[additive category]]** if it has [[direct sums]] and in addition it is [[Ab-enriched category|enriched in abelian groups]], meaning that every [[hom-set]] is equipped with the stucture of an [[abelian group]] such that [[composition]] of morphisms is a [[bilinear map]].
 
@@ -109,7 +109,7 @@ and the underlying additive [[abelian group]] structure of these [[hom-spaces]] 
 
 In other words, a $k$-linear category is an [[abelian category]] with the additional structure of a [[Vect]]-[[enriched category]] (generally $k$[[Mod]]-enriched) such that the underlying [[Ab-enriched category|Ab-enrichment]] according to def. \ref{AdditiveAndAbelianCategories} is obtained from the $Vect$-enrichment under the [[forgetful functor]] $Vect \to Ab$.
 
-A [[functor]] between $k$-linear categories is called a **$k$-[[linear functor]]** if its component functins on [[hom-sets]] are [[linear maps]] with respect to the give $k$-linear structure. 
+A [[functor]] between $k$-linear categories is called a **$k$-[[linear functor]]** if its component functions on [[hom-sets]] are [[linear maps]] with respect to the given $k$-linear structure. 
 
 =--
 
@@ -133,7 +133,7 @@ $$
 
 =--
 
-Recall the basic construction of the [[tensor product of vector spaces]].
+Recall the basic construction of the [[tensor product of vector spaces]]:
 
 +-- {: .num_defn #TensorProductOfVectorSpaces} 
 ###### Definition
@@ -141,7 +141,7 @@ Recall the basic construction of the [[tensor product of vector spaces]].
 Given two [[vector spaces]] over some [[field]] $k$,  $V_1, V_2 \in Vect_k$, their [[tensor product of vector spaces]] is the vector space denoted
 
 $$
-  V_1 \otimes_k V_2 \in Vect
+  V_1 \otimes_k V_2 \;\in\; Vect
 $$
 
 whose elements are [[equivalence classes]] of  [[tuples]] of elements $(v_1,v_2)$ with $v_i \in V_i$, for the [[equivalence relation]] given by
@@ -378,7 +378,7 @@ $$
     \array{
       k & | g = e
       \\
-      0 | otherwise
+      0 & | otherwise
     }
   \right.
   \,.
@@ -388,7 +388,7 @@ The [[associator]] and [[unitors]] are just those of the monoidal structure on p
 
 =--
 
-One point of abstracting the concept of a [[monoidal category]] is that it allows to prove general statements uniformly for all kinds of tensor products, familar ones and more exotic ones. The following lemma \ref{kel1} and remark \ref{CoherenceForMonoidalCategories} are two important such statements.
+One advantage of abstracting the concept of a [[monoidal category]] is that it allows to prove general statements uniformly for all kinds of tensor products, familar ones and more exotic ones. The following lemma \ref{kel1} and remark \ref{CoherenceForMonoidalCategories} are two important such statements.
 
 +-- {: .num_lemma #kel1} 
 ###### Lemma 
@@ -440,11 +440,13 @@ For **proof** see at _[[monoidal category]]_ [this lemma](monoidal+category#kel1
 
 Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and $a 1 = a$ and $(a b) c = a (b c)$ in order to have that expressions of arbitrary length may be re-bracketed at will, so there is a _[[coherence theorem for monoidal categories]]_ which states that all ways of freely composing the [[unitors]] and [[associators]] in a [[monoidal category]] (def. \ref{MonoidalCategory}) to go from one expression to another will coincide. Accordingly, much as one may drop the notation for the bracketing in an [[associative algebra]] altogether, so one may, with due care, reason about monoidal categories without always making all unitors and associators explicit.
 
-(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this equality no longer need to coincide.)
+(Here the qualifier "freely" means informally that we must not use any non-formal identification between objects, and formally it means that the diagram in question must be in the image of a [[strong monoidal functor]] from a _free_ monoidal category. For example if in a particular monoidal category it so happens that the object $X \otimes (Y \otimes Z)$ is actually _equal_ to $(X \otimes Y)\otimes Z$, then the various ways of going from one expression to another using only associators _and_ this "accidental" equality no longer need to coincide.)
 
 =--
 
-The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid, commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. This may seem like a subtle point, but in fact, as we will see [below](#SuperGroupsAsSuperHopfAlgebras), this is the very source of [[superalgebra]].
+The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid, commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. This might  seem like a subtle point, but in fact, as we will see [below](#SuperGroupsAsSuperHopfAlgebras), this is the very source of [[superalgebra]].
+
+The [[categorification]] of "commutativity" comes in two stages, [[braiding]] and [[symmetrc monoidal category|symmetric braiding]].
 
 +-- {: .num_defn #BraidedMonoidalCategory} 
 ###### Definition
@@ -452,7 +454,7 @@ The above discussion makes it clear that a [[monoidal category]] is like a [[mon
 A **[[braided monoidal category]]**, is a [[monoidal category]] $\mathcal{C}$ (def. \ref{MonoidalCategory}) equipped with a [[natural isomorphism]]
 
 $$ 
-  \tau_{x,y} \colon x \otimes y \to y \otimes x 
+  \tau_{x,y} \;\colon\; x \otimes y \to y \otimes x 
 $$
 
 (for all [[objects]] $x,y in \mathcal{C}$) called the **[[braiding]]**, such that the following two kinds of [[commuting diagram|diagrams commute]] for all [[objects]] involved ("hexagon identities"):
@@ -782,6 +784,106 @@ It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and
 
 =--
 
++-- {: .num_defn #ClosedMonoidalCategory}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{hom(Y,-)}{\longrightarrow}}
+      {\overset{(-) \otimes Y}{\longleftarrow}}
+      {\bot}
+  \mathcal{C}
+  \,,
+$$
+
+hence if there are [[natural bijections]]
+
+$$
+  Hom_{\mathcal{C}}(X \otimes Y, Z)
+   \;\simeq\;
+  Hom_{\mathcal{C}}{C}(X, hom(Y,Z))
+$$
+
+for all objects $X,Z \in \mathcal{C}$. 
+
+Since for the case that $X = 1$ is the [[tensor unit]] of $\mathcal{C}$ this means that
+
+$$
+  Hom_{\mathcal{C}}(1,hom(Y,Z)) \simeq Hom_{\mathcal{C}}(Y,Z)
+  \,,
+$$
+
+the object $hom(Y,Z) \in \mathcal{C}$ is an enhancement of the ordinary [[hom-set]] $Hom_{\mathcal{C}}(Y,Z)$ to an object in $\mathcal{C}$.
+Accordingly, it is also called the **[[internal hom]]** between $Y$ and $Z$. 
+
+=--
+
+
+In a [[closed monoidal category]], the adjunction isomorphism between [[tensor product]] and [[internal hom]] even holds internally:
+
++-- {: .num_prop #TensorHomAdjunctionIsoInternally}
+###### Proposition
+
+In a [[symmetric monoidal category|symmetric]] [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) there are [[natural isomorphisms]]
+
+$$
+  hom(X \otimes Y, Z)
+   \;\simeq\;
+  hom(X, hom(Y,Z))
+$$
+
+whose image under $Hom_{\mathcal{C}}(1,-)$ are the defining [[natural bijections]] of def. \ref{ClosedMonoidalCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $A \in \mathcal{C}$ be any object. By applying the defining natural bijections twice, there are composite natural bijections
+
+$$
+  \begin{aligned}
+    Hom_{\mathcal{C}}(A , hom(X \otimes Y, Z))
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes (X \otimes Y), Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}((A \otimes X)\otimes Y, Z)
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A \otimes X, hom(Y,Z))
+    \\
+    & \simeq
+    Hom_{\mathcal{C}}(A, hom(X,hom(Y,Z)))
+  \end{aligned}
+  \,.
+$$
+
+Since this holds for all $A$, the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) says that there is an isomorphism $hom(X\otimes Y, Z) \simeq hom(X,hom(Y,Z))$. Moreover, by taking $A = 1$ in the above and using the left [[unitor]] isomorphisms $A \otimes (X \otimes Y) \simeq X \otimes Y$ and $A\otimes X \simeq X$  we get a [[commuting diagram]]
+
+$$
+  \array{
+    Hom_{\mathcal{C}}(1,hom(X\otimes Y, ))
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(1,hom(X,hom(Y,Z)))
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    Hom_{\mathcal{C}}(X \otimes Y, Z)
+     &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(X, hom(Y,Z))
+  }
+  \,.
+$$
+
+=--
+
+
 We now discuss one more extra property on monoidal categories
 
 +-- {: .num_defn #DualizableObject}
@@ -946,24 +1048,31 @@ Similarly, the full subcategory
 
 $$
   (sFinVect, \otimes_k, k, \tau^{super})
-    &#180;\hookrightarrow
+    \hookrightarrow
   (sVect, \otimes_k, k, \tau^{super})
 $$
 
 of the [[symmetric monoidal category]] of [[super vector spaces]] from example \ref{CategoryOfSuperVectorSpaces}, on those of finite total dimension is a [[rigid monoidal category]].
 
-Here we say that a [[super vector space]] $V$ has dimension $(p\vert q)$ its even part has dimension $p$ and its odd part has dimension $q$:
+Here we say that a [[super vector space]] $V$ has [[dimension] 
+
+$$
+  (p\vert q)
+  \in \mathbb{N} \times \mathbb{N}
+$$ 
+
+if its even part has dimension $p$ and its odd part has dimension $q$:
 
 $$
   dim(V) = (p\vert q)
    \;\;\;
    \Leftrightarrow
    \;\;\;
-  ( dim(V_{even}) = p \;\;\text{and}\;\;\;\; dim(V_{odd}) = q )
+  \left( dim(V_{even}) = p \;\;\;\;\text{and}\;\;\;\; dim(V_{odd}) = q \right)
   \,.
 $$
 
-The [[dual object]] of such a finite dimensional super vector space is just the linear [[dual vector space]] as in example \ref{FiniteDimensionalVectorSpaces} with the evident grading:
+The [[dual object]] of such a finite dimensional super vector space is just the linear [[dual vector space]] as in example \ref{FiniteDimensionalVectorSpaces}, equipped with the evident grading:
 
 $$
   V = V_{even} \oplus V_{odd}
@@ -975,14 +1084,13 @@ $$
 
 =--
 
-There are many [[monoidal categories]] whose "[[tensor product]]" operation is very unlike the [[tensor product of vector spaces]]. Hence one says _[[tensor category]]_ for monoidal categories that are also $k$-[[linear categories]] and such that the tensor product functor  suitably reflects that linear structure.
-
+There are many [[monoidal categories]] whose "[[tensor product]]" operation is quite unlike the [[tensor product of vector spaces]]. Hence one says _[[tensor category]]_ for monoidal categories that are also $k$-[[linear categories]] and such that the tensor product functor  suitably reflects that linear structure.
 There are slight variants of what people mean by a "[[tensor category]]". Here we mean precisely the following: 
 
 +-- {: .num_defn #TensorCategory}
 ###### Definition
 
-For $k$ a [[field]] then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an 
+For $k$ a [[field]], then a **$k$-[[tensor category]]** $\mathcal{A}$ is an 
 
 1. [[essentially small category|essentially small]]
 
@@ -991,8 +1099,6 @@ For $k$ a [[field]] then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an
 1. [[rigid monoidal category|rigid]] (def. \ref{DualizableObject})
 
 1. [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory})
-
-1. [[braided monoidal category|braided]] (def. \ref{BraidedMonoidalCategory}})
 
 1. [[monoidal category]] (def. \ref{MonoidalCategory})
 
@@ -1106,8 +1212,860 @@ $$
 
 Of coure the assumption of the existence of [[dual objects]] ([[rigid monoidal category|rigidity]]) in def. \ref{TensorCategory} is already a finiteness condition itself. The following construction lifts that condition:
 
+### Commutative algebra in tensor categories and Affine super-spaces
 
-### (Super-)Groups as (super-)commutatve Hopf algebras
+The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by the following concept.
+
++-- {: .num_defn #MonoidsInMonoidalCategory}
+###### Definition
+
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def \ref{MonoidalCategory}), then a **[[monoid in a monoidal category|monoid internal to]]** $(\mathcal{C}, \otimes, 1)$ is
+
+1. an [[object]] $A \in \mathcal{C}$;
+
+1. a morphism $e \;\colon\; 1 \longrightarrow A$ (called the _[[unit]]_)
+
+1. a morphism $\mu \;\colon\; A \otimes A \longrightarrow A$ (called the _product_); 
+
+such that
+
+1. ([[associativity]]) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes A 
+         &\underoverset{\simeq}{a_{A,A,A}}{\longrightarrow}&
+       A \otimes (A \otimes A)
+         &\overset{A \otimes \mu}{\longrightarrow}&
+       A \otimes A
+       \\
+       {}^{\mathllap{\mu \otimes A}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\mu}}
+       \\
+       A \otimes A
+         &\longrightarrow&
+         &\overset{\mu}{\longrightarrow}&
+       A
+     }
+     \,,
+   $$
+
+   where $a$ is the [[associator]] isomorphism of $\mathcal{C}$;
+
+1. {#UnitalityMonoid} ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes A 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes A
+         &\overset{id \otimes e}{\longleftarrow}& 
+       A \otimes 1
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\mu}} &
+       & \swarrow_{\mathrlap{r}}
+       \\
+       && A
+     }
+     \,,
+   $$
+
+   where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
+
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+
+* (commutativity) the following [[commuting diagram|diagram commutes]]
+
+  $$
+    \array{
+      A \otimes A 
+        && \underoverset{\simeq}{\tau_{A,A}}{\longrightarrow} &&
+      A \otimes A
+      \\
+      & {}_{\mathllap{\mu}}\searrow && \swarrow_{\mathrlap{\mu}}
+      \\
+      && A
+    }
+    \,.
+  $$
+
+A [[homomorphism]] of monoids $(A_1, \mu_1, e_1)\longrightarrow (A_2, \mu_2, f_2)$ is a morphism
+
+$$
+  f \;\colon\; A_1 \longrightarrow A_2
+$$ 
+
+in $\mathcal{C}$, such that the following two [[commuting diagram|diagrams commute]]
+
+$$
+  \array{
+    A_1 \otimes A_1 
+      &\overset{f \otimes f}{\longrightarrow}&
+    A_2 \otimes A_2
+    \\
+    {}^{\mathllap{\mu_1}}\downarrow && \downarrow^{\mathrlap{\mu_2}}
+    \\
+    A_1 &\underset{f}{\longrightarrow}& A_2
+  }
+$$
+
+and
+
+$$
+  \array{
+    1_{\mathcal{c}} &\overset{e_1}{\longrightarrow}& A_1
+    \\
+    & {}_{\mathllap{e_2}}\searrow & \downarrow^{\mathrlap{f}}
+    \\
+    && A_2
+  }
+  \,.
+$$
+
+Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
+
+
+=--
+
++-- {: .num_example #MonoidGivenByTensorUnit}
+###### Example
+
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidalCategory}), then the [[tensor unit]] $1$ is a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) with product given by either the left or right [[unitor]]
+
+$$
+  \ell_1 = r_1 \;\colon\; 1 \otimes 1 \overset{\simeq}{\longrightarrow} 1
+  \,.
+$$
+
+By lemma \ref{kel1}, these two morphisms coincide and define an [[associativity|associative]] product with unit the identity $id \colon 1 \to 1$.
+
+If $(\mathcal{C}, \otimes , 1)$ is a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}), then this monoid is a [[commutative monoid in a symmetric monoidal category|commutative monoid]].
+
+=--
+
++-- {: .num_example #TensorProductOfTwoCommutativeMonoids}
+###### Example
+
+Given a [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}), and given two [[commutative monoid in a symmetric monoidal category|commutative monoids]] $(E_i, \mu_i, e_i)$, $i \in \{1,2\}$ (def. \ref{MonoidsInMonoidalCategory}), then the [[tensor product]] $E_1 \otimes E_2$ becomes itself a commutative monoid with unit morphism
+
+$$
+  e \;\colon\;
+  1 
+    \overset{\simeq}{\longrightarrow}
+  1 \otimes 1
+    \overset{e_1 \otimes e_2}{\longrightarrow}
+  E_1 \otimes E_2
+$$
+
+(where the first isomorphism is, $\ell_1^{-1} = r_1^{-1}$ (lemma \ref{kel1})) and with product morphism given by 
+
+$$
+  E_1 \otimes E_2
+   \otimes
+  E_1 \otimes E_2
+   \overset{id \otimes \tau_{E_2, E_1} \otimes id}{\longrightarrow}
+  E_1 \otimes E_1 \otimes E_2 \otimes E_2
+   \overset{\mu_1 \otimes \mu_2}{\longrightarrow}
+  E_1 \otimes E_2
+$$
+
+(where we are notationally suppressing the [[associators]] and where $\tau$ denotes the [[braiding]] of $\mathcal{C}$).
+
+That this definition indeed satisfies associativity and commutativity follows from the corresponding properties of $(E_i,\mu_i, e_i)$, and from the hexagon identities for the braiding (def. \ref{BraidedMonoidalCategory}) and from symmetry of the braiding.
+
+Similarly one checks that for $E_1 = E_2 = E$ then the unit maps
+
+$$
+  E \simeq E \otimes 1 
+    \overset{id \otimes e}{\longrightarrow}
+  E \otimes E
+$$
+
+$$
+  E \simeq 1 \otimes E 
+    \overset{e \otimes 1}{\longrightarrow}
+  E \otimes E
+$$
+
+and the product map
+
+$$
+  \mu 
+    \;\colon\;
+  E \otimes E
+    \longrightarrow
+  E  
+$$
+
+and the braiding
+
+$$
+  \tau_{E,E}
+    \;\colon\;
+  E \otimes E
+    \longrightarrow
+  E \otimes E
+$$
+
+are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid structure.
+
+
+=--
+
+
++-- {: .num_defn #ModulesInMonoidalCategory}
+###### Definition
+
+Given a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidalCategory}), and given $(A,\mu,e)$ a [[monoid in a monoidal category|monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), then a **left [[module object]]** in $(\mathcal{C}, \otimes, 1)$ over $(A,\mu,e)$ is
+
+1. an [[object]] $N \in \mathcal{C}$;
+
+1. a [[morphism]] $\rho \;\colon\; A \otimes N \longrightarrow N$ (called the _[[action]]_);
+
+such that 
+
+1. ([[unitality]]) the following [[commuting diagram|diagram commutes]]:
+
+   $$
+     \array{
+       1 \otimes N 
+         &\overset{e \otimes id}{\longrightarrow}&
+       A \otimes N
+       \\
+       & {}_{\mathllap{\ell}}\searrow 
+       & \downarrow^{\mathrlap{\rho}} 
+       \\
+       && N
+     }
+     \,,
+   $$
+
+   where $\ell$ is the left unitor isomorphism of $\mathcal{C}$.
+
+
+1. (action property) the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (A\otimes A) \otimes N
+         &\underoverset{\simeq}{a_{A,A,N}}{\longrightarrow}&
+       A \otimes (A \otimes N)
+         &\overset{A \otimes \rho}{\longrightarrow}&
+       A \otimes N
+       \\
+       {}^{\mathllap{\mu \otimes N}}\downarrow  
+         && &&
+       \downarrow^{\mathrlap{\rho}}
+       \\
+       A \otimes N
+         &\longrightarrow&
+         &\overset{\rho}{\longrightarrow}&
+       N
+     }
+     \,,
+   $$
+
+A [[homomorphism]] of left $A$-module objects 
+
+$$
+  (N_1, \rho_1) \longrightarrow (N_2, \rho_2)
+$$
+
+is a morphism 
+
+$$
+  f\;\colon\; N_1 \longrightarrow N_2
+$$
+
+in $\mathcal{C}$, such that the following [[commuting diagram|diagram commutes]]:
+
+$$
+  \array{
+    A\otimes N_1 &\overset{A \otimes f}{\longrightarrow}& A\otimes N_2
+    \\
+    {}^{\mathllap{\rho_1}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho_2}}
+    \\
+    N_1 &\underset{f}{\longrightarrow}& N_2
+  }
+  \,.
+$$
+
+For the resulting **[[category of modules]]** of left $A$-modules in $\mathcal{C}$ with $A$-module homomorphisms between them, we write
+
+$$
+  A Mod(\mathcal{C})
+  \,.
+$$
+
+This is naturally a (pointed) [[topologically enriched category]] itself.
+
+=--
+
++-- {: .num_example #EveryObjectIsModuleOverTensorUnit}
+###### Example
+
+Given a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}) with the [[tensor unit]] $1$ regarded as a [[monoid in a monoidal category]] via example \ref{MonoidGivenByTensorUnit}, then the left [[unitor]]
+
+$$
+  \ell_C 
+    \;\colon\;
+  1\otimes C \longrightarrow C
+$$
+
+makes every object $C \in \mathcal{C}$ into a left module, according to def. \ref{ModulesInMonoidalCategory}, over $C$. The action property holds due to lemma \ref{kel1}. This gives an [[equivalence of categories]]
+
+$$
+  \mathcal{C} \simeq 1 Mod(\mathcal{C})
+$$
+
+of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
+
+
+=--
+
++-- {: .num_example #RingsAreMonoidsInAb}
+###### Example
+
+The archetypical case in which all these abstract concepts reduce to the basic familiar ones is the category [[Ab]] of [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]].
+
+1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
+
+1. A [[commutative monoid in a symmetric monoidal category|commutative monoid in]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[commutative ring]] $R$.
+
+1. An $R$-[[module object]] in $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{ModulesInMonoidalCategory}) is equivalently an $R$-[[module]];
+
+1. The tensor product of $R$-module objects (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[tensor product of modules]].
+
+1. The [[category of modules|category of module objects]] $R Mod(Ab)$ (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) is the standard [[category of modules]] $R Mod$.
+
+=--
+
+
+
+
++-- {: .num_prop #MonoidModuleOverItself} 
+###### Proposition
+
+In the situation of def. \ref{ModulesInMonoidalCategory}, the monoid $(A,\mu, e)$ canonically becomes a left module over itself by setting $\rho \coloneqq \mu$. More generally, for $C \in \mathcal{C}$ any object, then $A \otimes C$ naturally becomes a left $A$-module by setting:
+
+$$
+  \rho
+  \;\colon\;
+  A \otimes (A \otimes C)
+   \underoverset{\simeq}{a^{-1}_{A,A,C}}{\longrightarrow}
+  (A \otimes A) \otimes C
+    \overset{\mu \otimes id}{\longrightarrow}
+  A \otimes C
+  \,.
+$$
+
+The $A$-modules of this form are called **[[free modules]]**.
+
+The [[free functor]] $F$ constructing free $A$-modules is [[left adjoint]] to the [[forgetful functor]] $U$ which sends a module $(N,\rho)$ to the underlying object $U(N,\rho) \coloneqq N$.
+
+$$
+  A Mod(\mathcal{C})
+    \underoverset
+     {\underset{U}{\longrightarrow}}
+     {\overset{F}{\longleftarrow}}
+     {\bot}
+  \mathcal{C}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+A homomorphism out of a free $A$-module is a morphism in $\mathcal{C}$ of the form
+
+$$
+  f \;\colon\; A\otimes C \longrightarrow N
+$$
+
+fitting into the diagram (where we are notationally suppressing the [[associator]])
+
+$$
+  \array{
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,.
+$$
+
+Consider the composite
+
+$$
+  \tilde f
+    \;\colon\;
+  C
+    \underoverset{\simeq}{\ell_C}{\longrightarrow}
+  1 \otimes C
+    \overset{e\otimes id}{\longrightarrow}
+  A \otimes C
+    \overset{f}{\longrightarrow}
+  N
+  \,,
+$$
+
+i.e. the restriction of $f$ to the unit "in" $A$. By definition, this fits into a [[commuting square]] of the form (where we are now notationally suppressing the [[associator]] and the [[unitor]])
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+   \\
+   A \otimes A \otimes C
+    &\underset{id \otimes f}{\longrightarrow}&
+   A \otimes N
+  }
+  \,.
+$$
+
+Pasting this square onto the top of the previous one yields
+
+$$
+  \array{
+   A \otimes C
+     &\overset{id \otimes \tilde f}{\longrightarrow}&
+   A \otimes N
+   \\
+   {}^{\mathllap{id \otimes e \otimes id}}\downarrow 
+     && 
+   \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A \otimes C
+      &\overset{A \otimes f}{\longrightarrow}&
+    A \otimes N
+    \\
+    {}^{\mathllap{\mu \otimes id}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\rho}}
+    \\
+    A \otimes C
+      &\underset{f}{\longrightarrow}&
+    N
+  }
+  \,,
+$$
+
+where now the left vertical composite is the identity, by the unit law in $A$. This shows that $f$ is uniquely determined by $\tilde f$ via the relation
+
+$$
+  f = \rho \circ (id_A \otimes \tilde f)
+  \,.
+$$
+
+This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
+
+
+=--
+
++-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
+###### Definition
+
+Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
+
+1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
+
+   $$
+     N_1 \otimes A \otimes N_2
+     \underoverset
+       {\underset{\rho_{1}\circ (\tau_{N_1,A} \otimes N_2)}{\longrightarrow}}
+       {\overset{N_1 \otimes \rho_2}{\longrightarrow}}
+       {\phantom{AAAA}}
+     N_1 \otimes N_1
+       \overset{coeq}{\longrightarrow}
+     N_1 \otimes_A N_2
+   $$
+
+   and if $A \otimes (-)$ preserves these coequalizers, then this is equipped with the left $A$-action induced from the left $A$-action on $N_1$ 
+
+1. the **function module** $hom_A(N_1,N_2)$ is, if it exists, the [[equalizer]]
+
+   $$
+     hom_A(N_1, N_2)
+       \overset{equ}{\longrightarrow}
+     hom(N_1, N_2)
+       \underoverset
+         {\underset{hom(A \otimes N_1, \rho_2)\circ (A \otimes(-))}{\longrightarrow}}
+         {\overset{hom(\rho_1,N_2)}{\longrightarrow}}
+         {\phantom{AAAAAA}}
+       hom(A \otimes N_1, N_2)
+     \,.
+   $$
+
+   equipped with the left $A$-action that is induced by the left $A$-action on $N_2$ via
+
+   $$
+     \frac{
+       A \otimes hom(X,N_2) \longrightarrow hom(X,N_2)
+     }{
+      A \otimes hom(X,N_2) \otimes X 
+        \overset{id \otimes ev}{\longrightarrow}
+      A \otimes N_2 \overset{\rho_2}{\longrightarrow} N_2
+     }
+     \,.
+   $$
+
+=--
+
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2 and lemma 2.2.8](#HoveyShipleySmith00))
+
+
+
++-- {: .num_prop #MonoidalCategoryOfModules}
+###### Proposition
+
+Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+
+If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] given by the function modules $hom_A$ of def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}.
+
+=--
+
+(e.g. [Hovey-Shipley-Smith 00, lemma 2.2.2, lemma 2.2.8](#HoveyShipleySmith00))
+
++-- {: .proof}
+###### Proof sketch
+
+The associators and braiding for $\otimes_{A}$ are induced directly from those of $\otimes$ and the [[universal property]] of [[coequalizers]]. That $A$ is the tensor unit for $\otimes_{A}$ follows with the same kind of argument that we give in the proof of example \ref{FreeModulesTensorProduct} below.
+
+=--
+
++-- {: .num_example #FreeModulesTensorProduct}
+###### Example
+
+For $(A,\mu,e)$ a [[monoid in a monoidal category|monoid]] (def. \ref{MonoidsInMonoidalCategory}) in a [[symmetric monoidal category]] $(\mathcal{C},\otimes, 1)$ (def. \ref{MonoidalCategory}), the [[tensor product of modules]] (def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}) of two [[free modules]] (def. \ref{MonoidModuleOverItself}) $A\otimes C_1$ and $A \otimes C_2$ always exists and is the free module over the tensor product in $\mathcal{C}$ of the two generators:
+
+$$
+  (A \otimes C_1) \otimes_A (A \otimes C_2)
+  \simeq
+  A \otimes (C_1 \otimes C_2)
+  \,.
+$$
+
+Hence if $\mathcal{C}$ has all [[coequalizers]], so that the [[category of modules]] is a [[monoidal category]] $(A Mod, \otimes_A, A)$ (prop. \ref{MonoidalCategoryOfModules}) then the free module functor (def. \ref{MonoidModuleOverItself}) is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  F
+    \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (A Mod, \otimes_A, A)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to show that the diagram
+
+$$
+  A \otimes A \otimes A
+   \underoverset
+    {\underset{id \otimes \mu}{\longrightarrow}}
+    {\overset{\mu \otimes id}{\longrightarrow}}
+    {\phantom{AAAA}}
+  A \otimes A
+    \overset{\mu}{\longrightarrow}
+  A 
+$$
+
+is a [[coequalizer]] diagram (we are notationally suppressing the [[associators]]), hence that $A \otimes_A A \simeq A$, hence that the claim holds for $C_1 = 1$ and $C_2 = 1$.
+
+To that end, we check the [[universal property]] of the [[coequalizer]]:
+
+First observe that $\mu$ indeed coequalizes $id \otimes \mu$ with $\mu \otimes id$, since this is just the [[associativity]] clause in def. \ref{MonoidsInMonoidalCategory}. So for $f \colon A \otimes A \longrightarrow Q$ any other morphism with this property, we need to show that there is a unique morphism $\phi \colon A \longrightarrow Q$ which makes this [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{\phi}}
+    \\
+    Q
+  }
+  \,.
+$$
+
+We claim that 
+
+$$
+  \phi 
+    \;\colon\;
+  A 
+    \underoverset{\simeq}{r^{-1}}{\longrightarrow} 
+  A \otimes 1 
+    \overset{id \otimes e}{\longrightarrow}
+  A \otimes A
+    \overset{f}{\longrightarrow}
+  Q
+  \,,
+$$
+
+where the first morphism is the inverse of the right [[unitor]] of $\mathcal{C}$.
+
+First to see that this does make the required triangle commute, consider the following pasting composite of [[commuting diagrams]]
+
+$$
+  \array{
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{id \otimes r^{-1}}}_{\mathllap{\simeq}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{r^{-1}}}_{\simeq}
+    \\
+    A \otimes A \otimes 1 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes 1
+    \\
+    {}^{\mathllap{id \otimes e}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{id \otimes e} }
+    \\
+    A \otimes A \otimes A 
+      &\overset{\mu \otimes id}{\longrightarrow}&
+    A \otimes A
+    \\
+    {}^{\mathllap{id \otimes \mu}}\downarrow
+      &&
+    \downarrow^{\mathrlap{f}}
+    \\
+    A \otimes A 
+      &\underset{f}{\longrightarrow}& 
+    Q
+  }
+  \,.
+$$
+
+Here the the top square is the [[natural transformation|naturality]] of the right [[unitor]], the middle square commutes by the functoriality of the tensor product $\otimes \;\colon\; \mathcal{C}\times \mathcal{C} \longrightarrow \mathcal{C}$ and the definition of the [[product category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), while the commutativity of the bottom square is the assumption that $f$ coequalizes $id \otimes \mu$ with $\mu \otimes id$. 
+
+Here the right vertical composite is $\phi$,  while, by [unitality](#UnitalityMonoid) of $(A,\mu ,e)$, the left vertical composite is the identity on $A$, Hence the diagram says that $\phi \circ \mu = f$, which we needed to show.
+
+It remains to see that $\phi$ is the unique morphism with this property for given $f$. For that let $q \colon A \to Q$ be any other morphism with $ q\circ \mu = f$. Then consider the [[commuting diagram]]
+
+$$
+  \array{
+    A \otimes 1 &\overset{\simeq}{\longleftarrow}& A
+    \\
+    {}^{\mathllap{id\otimes e}}\downarrow & \searrow^{\simeq}
+    & \downarrow^{\mathrlap{=}}
+    \\
+    A \otimes A &\overset{\mu}{\longrightarrow}& A
+    \\
+    {}^{\mathllap{f}}\downarrow & \swarrow_{\mathrlap{q}}
+    \\
+    Q
+  }
+  \,,
+$$
+
+where the top left triangle is the [unitality](#UnitalityMonoid) condition and the two isomorphisms are the right [[unitor]] and its inverse. The commutativity of this diagram says that $q = \phi$. 
+
+
+=--
+
+
+
++-- {: .num_defn #AAlgebra}
+###### Definition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ as in prop. \ref{MonoidalCategoryOfModules}, then a [[monoid in a monoidal category|monoid]] $(E, \mu, e)$ in  $(A Mod , \otimes_A , A)$ (def. \ref{MonoidsInMonoidalCategory}) is called an **$A$-[[associative algebra|algebra]]**.
+
+=--
+
++-- {: .num_prop #AlgebrasOverAAreMonoidsUnderA}
+###### Propposition
+
+Given a [[monoidal category|monoidal]] [[category of modules]] $(A Mod , \otimes_A , A)$ in a [[monoidal category]] $(\mathcal{C},\otimes, 1)$ as in prop. \ref{MonoidalCategoryOfModules}, and an $A$-algebra $(E,\mu,e)$ (def. \ref{AAlgebra}), then there is an [[equivalence of categories]]
+
+$$
+  A Alg_{comm}(\mathcal{C}) 
+    \coloneqq 
+  CMon(A Mod)
+   \simeq
+  CMon(\mathcal{C})^{A/}
+$$
+
+between the [[category of commutative monoids]] in $A Mod$ and the [[coslice category]] of commutative monoids in $\mathcal{C}$ under $A$, hence between commutative $A$-algebras in $\mathcal{C}$ and commutative monoids $E$ in $\mathcal{C}$ that are equipped with a homomorphism of monoids $A \longrightarrow E$.
+
+=--
+
+(e.g. [EKMM 97, VII lemma 1.3](#EKMM97))
+
++-- {: .proof}
+###### Proof
+
+In one direction, consider a $A$-algebra $E$ with unit $e_E \;\colon\; A \longrightarrow E$ and product $\mu_{E/A} \colon E \otimes_A E \longrightarrow E$. There is the underlying product $\mu_E$ 
+
+$$
+  \array{
+    E \otimes A \otimes E
+    & 
+    \underoverset
+      {\underset{}{\longrightarrow}}
+      {\overset{}{\longrightarrow}}
+      {\phantom{AAA}}
+    &
+    E \otimes E
+     &\overset{coeq}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    && & {}_{\mathllap{\mu_E}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && && E
+  }
+  \,.
+$$
+
+By considering a diagram of such coequalizer diagrams with middle vertical morphism $e_E\circ e_A$, one find that this is a unit for $\mu_E$ and that $(E, \mu_E, e_E \circ e_A)$ is a commutative monoid in $(\mathcal{C}, \otimes, 1)$.
+
+Then consider the two conditions on the unit $e_E \colon A \longrightarrow E$. First of all this is an $A$-module homomorphism, which means that
+
+$$
+  (\star)
+  \;\;\;\;\;
+  \;\;\;\;\;
+  \array{
+    A \otimes A &\overset{id \otimes e_E}{\longrightarrow}& A \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow && \downarrow^{\mathrlap{\rho}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+$$
+
+[[commuting diagram|commutes]]. Moreover it satisfies the unit property
+
+$$
+  \array{
+    A \otimes_A E 
+      &\overset{e_A \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    && E
+  }
+  \,.
+$$
+
+By forgetting the tensor product over $A$, the latter gives
+
+$$
+  \array{
+    A \otimes E 
+      &\overset{e \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    \downarrow && \downarrow^{\mathrlap{}}
+    \\
+    A \otimes_A E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes_A E
+    \\
+    {}^{\mathllap{\simeq}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E/A}}}
+    \\
+    E &=& E
+  }
+  \;\;\;\;\;\;\;\;
+   \simeq
+  \;\;\;\;\;\;\;\;
+  \array{
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\rho}}\downarrow && \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    E &\underset{id}{\longrightarrow}& E  
+  }
+  \,,
+$$
+
+where the top vertical morphisms on the left the canonical coequalizers, which identifies the vertical composites on the right as shown. Hence this may be [[pasting|pasted]] to the square $(\star)$ above, to yield a [[commuting square]]
+
+$$
+  \array{
+    A \otimes A
+     &\overset{id\otimes e_E}{\longrightarrow}&
+    A \otimes E 
+      &\overset{e_E \otimes id}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    {}^{\mathllap{\rho}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{E}}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E &\underset{id}{\longrightarrow}& E  
+  }  
+  \;\;\;\;\;\;\;\;\;\;
+   =
+  \;\;\;\;\;\;\;\;\;\;
+  \array{
+    A \otimes A 
+     &\overset{e_E \otimes e_E}{\longrightarrow}&
+    E \otimes E
+    \\
+    {}^{\mathllap{\mu_A}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_E}}
+    \\
+    A &\underset{e_E}{\longrightarrow}& E
+  }
+  \,.
+$$
+
+This shows that the unit $e_A$ is a homomorphism of monoids $(A,\mu_A, e_A) \longrightarrow (E, \mu_E, e_E\circ e_A)$.
+
+Now for the converse direction, assume that $(A,\mu_A, e_A)$ and $(E, \mu_E, e'_E)$ are two commutative monoids in $(\mathcal{C}, \otimes, 1)$ with $e_E \;\colon\; A  \to E$ a monoid homomorphism. Then $E$ inherits a left $A$-[[module]] structure by
+
+$$
+  \rho
+    \;\colon\;
+  A \otimes E 
+    \overset{e_A \otimes id}{\longrightarrow} 
+  E \otimes E
+    \overset{\mu_E}{\longrightarrow}
+  E
+  \,.
+$$
+
+By commutativity and associativity it follows that $\mu_E$ coequalizes the two induced morphisms $E \otimes A \otimes E \underoverset{\longrightarrow}{\longrightarrow}{\phantom{AA}} E \otimes E$. Hence the [[universal property]] of the [[coequalizer]] gives a factorization through some $\mu_{E/A}\colon E \otimes_A E \longrightarrow E$. This shows that $(E, \mu_{E/A}, e_E)$ is a commutative $A$-algebra.
+
+Finally one checks that these two constructions are inverses to each other, up to isomorphism.
+
+=--
+
+
+
+
+### (Super-)Groups as (super-)commutative Hopf algebras
  {#GroupsAsHopfAlgebras}
 
 We are interested in [[groups]] equipped with [[geometry]]. 
@@ -1186,13 +2144,25 @@ Now the [[associativity]] of the group product translates into a corresponding d
  
 What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
 
+(...) monoids in monoidal categories (...)
 
-So the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspectiv is straightforward, we may just as well consider it in the generality of [[groupoids]]:
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{A}$ be a [[tensor category]]and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{spring}. Then $CMon(\matcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]].
+
+=--
+
+
+While the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspective is straightforward, we may just as well consider it in the generality of [[groupoids]]:
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
 
-A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+Let $\mathcal{A}$ be a [[tensor category]] (def. \ref{TensorCategory}).
+A **[[commutative Hopf algebroid]]** in $\mathcal{A}$ is an [[internal groupoid]] in the [[opposite category]] $CMon(\mathcal{A})^{op}$ of [[commutative monoids]] in $\mathcal{A}$, regarded with its [[cartesian monoidal category]] structure according to prop. \ref{CoproductsInCMon}.
 
 =--
 
@@ -1201,9 +2171,9 @@ A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposi
 +-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
 ###### Remark
 
-We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CMon(\mathcal{A})$, write $Spec(R)$ for same same object, but regarded as an object in $CMon(\mathcal{A})^{op}$. 
 
-An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
+An [[internal category]] in $CMon(\mathcal{A})^{op}$ is a [[diagram]] in $CMon(\mathcal{A})^{op}$ of the form
 
 $$
   \array{
@@ -1228,7 +2198,7 @@ $$
 
 acting as assigning [[inverses]] with respect to $\circ$.
 
-The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CMon(\mathcal{A})^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
 
 $$
   Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
@@ -1237,7 +2207,7 @@ $$
   \,.
 $$
 
-This means that the above is equivalently a diagram in [[CRing]] of the form
+This means that the above is equivalently a diagram in $CMon(\mathcal{A})$ of the form
 
 $$
   \array{
@@ -1410,6 +2380,78 @@ such that
 e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
 
 
+By internalizing all of the above from $Vect$ to $sVect$, we obtain the concept of supergrous
+
+(...)
+
++-- {: .num_defn #Supergroup}
+###### Definition
+
+An affine algebraic _[[supergroup]]_ $G$ is the [[formal dual]] of a [[super-commutative Hopf algebra]] $\mathcal{O}(G)$.
+
+=--
+
+We will just say "supergroup" for short in all of the following. We assume throughout that $\mathcal{O}(G)$ is a finitely generated $k$-algebra.
+
++-- {: .num_defn #ParityAutomorphism}
+###### Definition
+
+Given a [[superalgebra]] such as $\mathcal{O}(G)$, its _parity involution_ is the algebra [[automorphism]] which on homogeneously graded elements $a$ of degree $deg(a) \in \{even,odd\} = \mathbb{Z}/2\mathbb{Z}$ is multiplication by the degree
+
+$$
+  a \mapsto (-1)^{deg(a)}a
+  \,.
+$$
+
+(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916)). On [[formal duals]] $G$ this induces correspondingly an involutive _parity automorphism_
+
+$$
+  par \colon G \stackrel{\simeq}{\longrightarrow} G
+  \,.
+$$ 
+
+=--
+
+It is convenient in the following to assume that parity involution is an [[inner automorphism]]:
+
++-- {: .num_defn #InnerParity}
+###### Definition
+
+An _inner parity_ of a [[supergroup]] $G$, def. \ref{Supergroup} is an element $\epsilon \in G_{even}$ (i.e. an algebra homomorphism $\mathcal{O}(G) \to k$), which is [[involution|involutive]] i.e. $\epsilon^2 = 1$ and such that its [[adjoint action]] on $G$ is the parity involution of def. \ref{ParityAutomorphism}.
+
+=--
+
+([Deligne 02, 0.3](#Deligne02))
+
++-- {: .num_example}
+###### Example
+
+For $G$ an ordinary (affine algebraic) group, regarded as a supergroup with trivial odd-graded part, then every element $\epsilon \in Z(G)$ in the [[center]] defines an inner parity, def. \ref{InnerParity}. 
+
+=--
+
+([Deligne 02, 0.4 i)](#Deligne02))
+
++-- {: .num_remark}
+###### Remark
+
+In this sense, specifying an involutive central element in an ordinary group is a faint shadow of genuine supergroup structure. In fact such pairs are being referred to as "supergroups" in ([M&#252;ger 06](#Mueger06)).
+
+=--
+
+Demanding the existence of inner parity is not actually a restriction of the theory:
+
++-- {: .num_example}
+###### Example
+
+For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ acting on it by parity involution, def. \ref{ParityAutomorphism}  then the [[semidirect product]] $\mathbb{Z}_2 \ltimes G$ has inner parity, def. \ref{InnerParity}, given by $\epsilon \coloneqq par \in \mathbb{Z}_2 \hookrightarrow \mathbb{Z}_2 \ltimes G$.
+
+=--
+
+([Deligne 02, 0.4 ii)](#Deligne02))
+
+
+
 ### Linear representations as Comodules
  {#LinearRepresentationsAsComodules}
 
@@ -1544,15 +2586,91 @@ $$
 Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
 
 
+(...)
+
++-- {: .num_defn #Superrepresentation}
+###### Definition
+
+A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[vector space]] $V$ over $k$ such that when $V$ is equipped with the grading by $\pm 1$-[[eigenspaces]] of $\epsilon$, even/odd elements of $G$ act with even/odd parity on $V$.
+
+=--
+
++-- {: .num_defn #Superrepresentation_Deligne_def}
+###### Remark
+
+In ([Deligne 02, p. 3, above 0.4)](#Deligne02)) a super-representation of a supergroup $G$ is defined in a different but equivalent way. The vector space $V$ is considered to come equipped a priori with a grading, making it a [[super vector space]], and the following conditions are required to hold:
+
+1. even/odd elements of $G$ act with even/odd parity on $V$
+
+1. in addition such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
+=--
+
+The given definition \ref{Superrepresentation} is preferable to this one as it doesn't ask for extra [[structure]] on $V$ and then for a property relative to that structure. Also in the following example, one _naturally_ finds that the super vector space on which the ordinary group is represented contains no odd part, and is hence merely an ordinary vector space.
+
++-- {: .num_example}
+###### Example
+
+For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivial odd-graded part, and for $\epsilon = 1$ its neutral element taken as the inner parity, then $Rep(G,\epsilon)$ in the sense of def. \ref{Superrepresentation} is just the ordinary [[category of representations]] of $G$.
+
+=--
+
+([Deligne 02, 0.4 i)](#Deligne02))
+
++-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
+###### Proposition
+
+The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
+ 
+=--
+
+([Deligne 02, 1.21](#Deligne02))
+
+Any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as a generator ([prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
 
-## Statement
+
+## Statement of theorem
  {#Statement}
+
++-- {: .num_theorem #TheTheorem}
+###### Theorem
+
+Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such that
+
+1. $k$ is an [[algebraically closed field]] of [[characteritsic zero]] (e.g. the field of [[complex numbers]]) 
+
+1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}) 
+
+then there exists
+
+1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup})
+
+1. a tensor-[[equivalence of categories]] 
+
+   $$
+     \mathcal{A}
+        \simeq
+     Rep(G,\epsilon)
+     \,.
+   $$
+
+   between $\mathcal{A}$ and the [[category of representations]] of finite dimension, according to example \ref{RegularTensorCategoriesOfSuperrepresentations} of $G$.
+
+=--
+
+([Deligne 02, theorem 0.6](#Deligne02))
+
+
+## Proof
+
+We discuss aspects of ingredients of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
+
+> under construction
 
 Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
 
 
-### Tensor categories
+### Tensor Ind-categories
 
 +-- {: .num_prop #IndObjectsInATensorCategory} 
 ###### Proposition
@@ -1758,125 +2876,7 @@ For [[tensor category]], then the following are equivalent:
 ([Deligne 02, prop. 05](#Deligne02))
 
 
-
-
-### Supergroups
-
-+-- {: .num_defn #Supergroup}
-###### Definition
-
-An affine algebraic _[[supergroup]]_ $G$ is the [[formal dual]] of a [[super-commutative Hopf algebra]] $\mathcal{O}(G)$.
-
-=--
-
-We will just say "supergroup" for short in all of the following. We assume throughout that $\mathcal{O}(G)$ is a finitely generated $k$-algebra.
-
-+-- {: .num_defn #ParityAutomorphism}
-###### Definition
-
-Given a [[superalgebra]] such as $\mathcal{O}(G)$, its _parity involution_ is the algebra [[automorphism]] which on homogeneously graded elements $a$ of degree $deg(a) \in \{even,odd\} = \mathbb{Z}/2\mathbb{Z}$ is multiplication by the degree
-
-$$
-  a \mapsto (-1)^{deg(a)}a
-  \,.
-$$
-
-(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916)). On [[formal duals]] $G$ this induces correspondingly an involutive _parity automorphism_
-
-$$
-  par \colon G \stackrel{\simeq}{\longrightarrow} G
-  \,.
-$$ 
-
-=--
-
-It is convenient in the following to assume that parity involution is an [[inner automorphism]]:
-
-+-- {: .num_defn #InnerParity}
-###### Definition
-
-An _inner parity_ of a [[supergroup]] $G$, def. \ref{Supergroup} is an element $\epsilon \in G_{even}$ (i.e. an algebra homomorphism $\mathcal{O}(G) \to k$), which is [[involution|involutive]] i.e. $\epsilon^2 = 1$ and such that its [[adjoint action]] on $G$ is the parity involution of def. \ref{ParityAutomorphism}.
-
-=--
-
-([Deligne 02, 0.3](#Deligne02))
-
-+-- {: .num_example}
-###### Example
-
-For $G$ an ordinary (affine algebraic) group, regarded as a supergroup with trivial odd-graded part, then every element $\epsilon \in Z(G)$ in the [[center]] defines an inner parity, def. \ref{InnerParity}. 
-
-=--
-
-([Deligne 02, 0.4 i)](#Deligne02))
-
-+-- {: .num_remark}
-###### Remark
-
-In this sense, specifying an involutive central element in an ordinary group is a faint shadow of genuine supergroup structure. In fact such pairs are being referred to as "supergroups" in ([M&#252;ger 06](#Mueger06)).
-
-=--
-
-Demanding the existence of inner parity is not actually a restriction of the theory:
-
-+-- {: .num_example}
-###### Example
-
-For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ acting on it by parity involution, def. \ref{ParityAutomorphism}  then the [[semidirect product]] $\mathbb{Z}_2 \ltimes G$ has inner parity, def. \ref{InnerParity}, given by $\epsilon \coloneqq par \in \mathbb{Z}_2 \hookrightarrow \mathbb{Z}_2 \ltimes G$.
-
-=--
-
-([Deligne 02, 0.4 ii)](#Deligne02))
-
-### Representation categories
-
-+-- {: .num_defn #Superrepresentation}
-###### Definition
-
-A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[vector space]] $V$ over $k$ such that when $V$ is equipped with the grading by $\pm1$-[[eigenspaces]] of $\epsilon$, even/odd elements of $G$ act with even/odd parity on $V$.
-
-=--
-
-+-- {: .num_defn #Superrepresentation_Deligne_def}
-###### Remark
-
-In ([Deligne 02, p. 3, above 0.4)](#Deligne02)) a super-representation of a supergroup $G$ is defined in a different but equivalent way. The vector space $V$ is considered to come equipped a priori with a grading, making it a [[super vector space]], and the following conditions are required to hold:
-
-1. even/odd elements of $G$ act with even/odd parity on $V$
-
-1. in addition such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
-=--
-
-The given definition \ref{Superrepresentation} is preferable to this one as it doesn't ask for extra [[structure]] on $V$ and then for a property relative to that structure. Also in the following example, one _naturally_ finds that the super vector space on which the ordinary group is represented contains no odd part, and is hence merely an ordinary vector space.
-
-+-- {: .num_example}
-###### Example
-
-For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivial odd-graded part, and for $\epsilon = 1$ its neutral element taken as the inner parity, then $Rep(G,\epsilon)$ in the sense of def. \ref{Superrepresentation} is just the ordinary [[category of representations]] of $G$.
-
-=--
-
-([Deligne 02, 0.4 i)](#Deligne02))
-
-+-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
-###### Proposition
-
-The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
- 
-=--
-
-([Deligne 02, 1.21](#Deligne02))
-
-Any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as a generator ([prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
-
-+-- {: .num_theorem #TheTheorem}
-###### Theorem
-
-Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}), of subexponential growth (def. \ref{SubexponentialGrowth}) is [[equivalence of categories|equivalent]] to a [[category of representations]] $Rep(G,\epsilon)$, according to example \ref{RegularTensorCategoriesOfSuperrepresentations}, for some [[supergroup]] $G$.
-
-=--
-
-([Deligne 02, theorem 0.6](#Deligne02))
+(...)
 
 
 ## References
@@ -1901,7 +2901,7 @@ Further discussion in view of the theory of [[triangular Hopf algebras]] is in
 * {#EtingofGelaki02} [[Pavel Etingof]], [[Shlomo Gelaki]], _The classification of finite-dimensional triangular Hopf algebras over an algebraically closed field of characteristic 0_ ([arXiv:0202258](http://de.arxiv.org/abs/math/0202258))
 
 
-Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in# Back
+Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, here just being an involutive central element) is discussed in
 
 * {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $*$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_ 
 
