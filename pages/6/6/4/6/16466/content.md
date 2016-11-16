@@ -993,7 +993,7 @@ $$
   (\mathcal{C}, \otimes, 1)
 $$ 
 
-for the [[full subcategory]] on those objects $L \in \mathcal{C}$ which are invertible under the [[tensor product]], i.e. such that there is an object $L^{-1} \in \mahcal{C}$ with $L \otimes L^{-1} \simeq 1$ and $L^{-1} \otimes L \simeq 1$. Since the [[tensor unit]] is clearly in $Line(L)$ (with $1^{-1} \simeq 1$) and since with $L_1, L_2 \in Line(\mathcal{C}) \hookrightarrow \mathcal{C}$ also $L_1 \otimes L_2 \in Line(\mathcal{C})$ (with $(L_1 \otimes _2)^{-1} \simeq L_2^{-1} \otimes L_1^{-1}$) the [[monoidal category]] structure on $\mathcal{C}$ restricts to $Line(\mathcal{C})$. 
+for the [[full subcategory]] on those $L \in \mathcal{C}$ which are [[invertible objects]] under the [[tensor product]], i.e. such that there is an object $L^{-1} \in \mahcal{C}$ with $L \otimes L^{-1} \simeq 1$ and $L^{-1} \otimes L \simeq 1$. Since the [[tensor unit]] is clearly in $Line(L)$ (with $1^{-1} \simeq 1$) and since with $L_1, L_2 \in Line(\mathcal{C}) \hookrightarrow \mathcal{C}$ also $L_1 \otimes L_2 \in Line(\mathcal{C})$ (with $(L_1 \otimes _2)^{-1} \simeq L_2^{-1} \otimes L_1^{-1}$) the [[monoidal category]] structure on $\mathcal{C}$ restricts to $Line(\mathcal{C})$. 
 
 
 Accordingly any [[braiding]] on $(\mathcal{C}, \otimes,1)$ restricts to a braiding on $(Line(\mathcal{C}), \otimes, 1)$. Hence it is sufficient to show that there is an essentially unique non-trivial symmetric braiding on $(Line(\mathcal{C}), \otimes, 1)$, and that this is the restriction of a braiding on $(\mathcal{C}, \otimes, 1)$.
@@ -1137,6 +1137,80 @@ It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and
 
 =--
 
+We now discuss one more extra property on monoidal categories
+
++-- {: .num_defn #DualizableObject}
+###### Definition
+
+Let $(\mathcal{C},\otimes, 1)$ be a [[monoidal category]] (def. \ref{MonoidalCategory})
+
+Then right **[[duality]]** between objects $A, A^\ast \in (\mathcal{C}, \otimes, 1)$
+
+consists of
+
+1. a [[morphism]] of the form
+
+   $$
+     ev_A\;\colon\;A^\ast \otimes A \longrightarrow 1
+   $$
+
+   called the _counit_ of the duality, or the _[[evaluation]] map_;
+
+1. a [[morphism]] of the form
+
+   $$
+     i_A \;\colon\; 1 \longrightarrow A \otimes A^\ast
+   $$
+
+   called the _unit_ or _coevaluation map_
+
+such that
+
+* ([[triangle identity]]) the following [[commuting diagram|diagrams commute]]
+
+  $$
+    \array{
+       A^\ast \otimes (A \otimes A \ast)
+         &\overset{id_{A^\ast} \otimes i_A}{\longleftarrow}&
+       A^\ast \otimes 1
+       \\
+       {}^{\mathllap{\alpha^{-1}_{A^\ast,A, A^\ast}}}_{\mathllap{\simeq}}\downarrow
+       &&
+       \downarrow^{\mathrlap{\ell^{-1}_A \circ r_A}}_{\mathrlap{\simeq}}
+       \\
+       (A^\ast \otimes A) \otimes A^\ast
+         &\underset{ev_A \otimes id_{A^\ast}}{\longrightarrow}&
+       1 \otimes A^\ast
+    }
+  $$
+
+  and
+
+  $$
+    \array{
+       (A \otimes A^\ast)  \otimes A
+         &\overset{i_A \otimes id_A}{\longleftarrow}&
+       1 \otimes A
+       \\
+       {}^{\mathllap{\alpha_{A,A^\ast, A}}}_{\mathllap{\simeq}}\downarrow
+       &&
+       \downarrow^{\mathrlap{r_A^{-1}\circ \ell_A}}_{\mathrlap{\simeq}}
+       \\
+       A \otimes (A^\ast \otimes A)
+         &\underset{id_A \otimes ev_A}{\longrightarrow}&
+       A \otimes 1
+    }
+  $$
+
+  where $\alpha$ denotes the [[associator]] of the [[monoidal category]] $\mathcal{C}$, and $\ell$ and $r$ denote the left and right [[unitors]], respectively.
+
+We say that $A^\ast$ is the right [[dual object]] to $A$. Similarly a left dual for $A$ is an object $A^\ast$ and the structure of $A$ as a right dual of $A^\ast$. If $(\mathcal{C}, \otimes, 1)$ is equipped with the structure of a [[braided monoidal category]], then every right dual is canonically also a left dual.
+
+If in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ every object has a left and right dual, then it is called a **[[rigid monoidal category]]**.
+
+=--
+
+
 ...[[rigid monoidal category]]...
 
 +-- {: .num_example }
@@ -1176,11 +1250,13 @@ For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k
 
 1. [[abelian category|abelian]] 
 
-1. [[rigid monoidal category|rigid]] 
+1. [[rigid monoidal category|rigid]] (def. \ref{DualizableObject})
 
-1. [[symmetric monoidal category|symmetric]] [[braided monoidal category|braided]]
+1. [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory})
 
-1. [[monoidal category]] 
+1. [[braided monoidal category|braided]] (def. \ref{BraidedMonoidalCategory}})
+
+1. [[monoidal category]] (def. \ref{MonoidalCategory})
 
 1. [[enriched category|enriched]] over $k$[[Mod]] = $k$[[Vect]] (i.e. $k$-linear), compatible with the [[Ab-enriched category|Ab-enrichment]] implied from [[abelian category|abelianness]] under $U \colon k Vect \to Ab$
 
