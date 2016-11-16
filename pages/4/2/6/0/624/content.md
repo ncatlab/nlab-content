@@ -73,7 +73,7 @@ such that
 
   $$
     \array{
-       A^\ast \otimes (A \otimes A \ast)
+       A^\ast \otimes (A \otimes A^\ast)
          &\overset{id_{A^\ast} \otimes i_A}{\longleftarrow}&
        A^\ast \otimes 1
        \\
