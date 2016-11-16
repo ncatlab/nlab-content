@@ -83,9 +83,9 @@ An easy way of proving the M&#246;bius inversion formula [(Kung et al.)](#KungRo
 
 ### For product orders
 
-The M&#246;bius function of the [[cartesian product]] of two posets is the product of their M&#246;bius functions:
+The M&#246;bius function of the [[cartesian product]] $P \times Q$ of two posets $P$ and $Q$ is the product of their M&#246;bius functions:
 $$\mu_{P\times Q}((p,q), (p',q')) = \mu_P(p,p') \cdot \mu_Q(q,q')$$
-for $p,p' \in P$, $q,q' \in Q$.
+for all $p,p' \in P$ and $q,q' \in Q$.
 
 ## Examples of M&#246;bius inversion
 
@@ -93,7 +93,7 @@ for $p,p' \in P$, $q,q' \in Q$.
 
 Let $\mathcal{P}X$ be the lattice of subsets of a finite set $X$. $\mathcal{P}X$ is isomorphic to the cartesian product of $|X|$ many copies of the 1-chain $[1] = \{ 0 \lt 1 \}$, and so by the product rule for the M&#246;bius function, we have
 $$\mu(I,J) = (-1)^{|J|-|I|}$$
-for any pair of subsets $I \subseteq J$. The M&#246;bius inversion formula then says that for any functions $f$ and $g$ defined on $\mathcal{P}X$, we have
+for any pair of subsets $I,J \subseteq X$ such that $I \subseteq J$. The M&#246;bius inversion formula then says that for any functions $f$ and $g$ defined on $\mathcal{P}X$, we have
 $$f(J) = \sum_{I \subseteq J} g(I)$$
 if and only if
 $$g(J) = \sum_{I \subseteq J} (-1)^{|J|-|I|} f(I)$$
