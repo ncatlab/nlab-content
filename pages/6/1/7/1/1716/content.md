@@ -36,7 +36,7 @@ The open cover $\phi_i^{-1}(0,1]$ is then a locally finite cover that refines $\
 
 Numerable open covers form a [[site]] called the **numerable site**. More precisely, numerable open covers are a [[coverage]] on the category of topological spaces (this is essentially given in Dold's _Lectures on algebraic topology_, A.2.17, but not using this terminology).
 
-Many classical theorems concerning bundles are stated for the numerable site. For example, the [[classifying space]] $\mathcal{B}G$ actually classifies [[bundles]] which trivialise over a numerable cover. (References? Dold for Milnor's classifying space, and tom Dieck I think for Segal's) These are called [[numerable bundles]]. This is because the srandard constructions of the universal bundle by Minor and Segal both are trivialisable over a numerable cover.
+Many classical theorems concerning bundles are stated for the numerable site. For example, the [[classifying space]] $\mathcal{B}G$ actually classifies [[bundles]] which trivialise over a numerable cover. (References? Dold for Milnor's classifying space, and tom Dieck I think for Segal's) These are called [[numerable bundles]]. This is because the standard constructions of the universal bundle by Minor and Segal both are trivialisable over a numerable cover.
 
 For paracompact spaces, numerable covers are cofinal in open covers, so that the numerable site is equivalent to the open cover site for such spaces.
 
