@@ -48,445 +48,21 @@ By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[cate
 
 This section provides exposition of the necessary background for the statement of Deligne's theorem (theorem \ref{TheTheorem} below).
 
-We recall the incarnation of [[groups]] a [[Hopf algebras]], the corresponding incarnation of [[linear representations]] as [[comodules]], and the [[tensor product]] structure on these. Then we recall the definition of [[symmetric monoidal categories]] and consider the category of [[super vector spaces]] [[sVect]] as an example for a non-trivial symmetric [[braiding]]. Using this we discuss [[supercommutative superalgebra]] as ordinary [[commutative algebra]] but [[internalization|internal]] to [[sVect]] and thus obtain the definition of (affine algebraic) [[supergroups]] and their [[linear representations]] as [[formal duals]] of [[supercomutative Hopf algebras]] and of [[comodules]] over these, respectively.
+We start by introducing the basic concepts of [[tensor categories]] along with the basic examples of [[vector spaces]] and [[super vector spaces]]:
 
+* _[Tensor product and Tensor categories](#TensorProductsAndMonoidalCategories)_
 
+This allows to speak of [[commutative algebra]] [[internalization|internal]] to tensor categories. We focus on the concept of [[commutative Hopf algebras]] and explain how these are [[formal duals]] to [[group objects|groups]]. Then we use this to motivate and explain thee concept of (affine algebraic) [[supergroups]] as [[formal duals]] to [[commutative Hopf algebras]] internal to the tensor category of [[super vector spaces]]:
 
-### Groups as Hopf algebras
+* _[(Super-)Groups as (Super-)commutative Hopf algebras](#GroupsAsHopfAlgebras)_
 
-We are interested in [[groups]] equipped with [[geometry]]. 
+Finally we discuss how under this relation [[linear representations]] of groups correspond to [[comodules]] over their formally dual [[commutative Hopf algbrras]], and we introduce the key class of categories of interest here: tensor-[[categories of representations]] of groups and of super-representations of super-groups:
 
-A familiar example is [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course [[Lie groups]]. 
+* _[Linear representations as comodules](#LinearRepresentationsAsComodules)_
 
-A **[[linear representation]]** of a [[Lie group]] $G$ on a [[vector space]] $V$ is a [[smooth function]]
 
-$$
-  \rho \;\colon\; G \times V \longrightarrow V 
-$$
-
-such that 
-
-1. ([[linear map|linearity]]) for all elements $g \in G$ the function
-
-   $$
-     \rho(g) \colon V \longrightarrow V
-   $$
-
-   is a [[linear function]]
-
-1. ([[unitality]]) for $e \in G$ the [[neutral element]] then $\rho(e)$ is the [[identity]] function;
-
-1. ([[action]] property) for $g_1, g_2 \in G$ any two elements, then acting with them consecutively is the same as acting with their product:
-
-   $$
-      \rho(g_2) \circ  \rho(g_1) = \rho(g_2 g_1)
-      \,.
-   $$
-
-But here we need to consider groups with more general geometric structure. The key to the generalization is to regard [[spaces]] dually via their [[algebras of functions]].
-
-The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[]algebraic geometry]. In great generality it appears as "[[Isbell duality]]".
-
-In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
-
-$$
-  C^\infty(-) \;\colon\; SmthMfd \longrightarrow SmthAlg_{\mathbb{R}}
-$$
-
-is a [[contravariant functor]], which is [[fully faithful functor|fully faithful]].  This means that for 
-
-$$
-  f \;\colon\; X \longrightarrow Y
-$$
-
-any [[smooth function]], then precomposition of smooth functions on $Y$ with $f$ yields a homomorphism of smooth algebras going the other way around
-
-$$
-  C^\infty(X) \longleftarrow C \infty(Y) \;\colon\; f^\ast
-$$
-
-and the associatioon $f \mapsto f^\ast$ is a [[natural bijection]].
-Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then f^\ast = id$ is the identity homomomorphism of smooth algebras.
-
-Moreover, the functor $C^\infty(-)$ sends [[Cartesian products]] of smooth manifolds to "completed tensor products" $\otimes^c$ of function algebras (namely to the [[coproduct]] of [[smooth algebras]], see there)
-
-$$
-  C^\infty(X \times Y) \simeq C^\infty(X) \otimes^c C^\infty(Y)
-  \,.
-$$
-
-Together this means that if $X = G$ is equipped with the structure of a [[group object]], then the product operation in the group induces a "[[coproduct]]" operation on its smooth algebra of smooth functions:
-
-$$
-  \array{
-    product &\colon& G \times G &\longrightarrow& G
-    \\
-    && C^\infty(G) \otimes^c C^\infty(G) &\longleftarrow& C^\infty(G) &\colon& product^\ast 
-  }
-  \,.
-$$
-
-Now the [[associativity]] of the group product translates into a corresponding dual property of its dual, called "[[co-associativity]]", and so forth. The resulting algebraic structure is called a **[[Hopf algebra]]**.
- 
-What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
-
-
-So the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspectiv is straightforward, we may just as well consider it in the generality of [[groupoids]]:
-
-+-- {: .num_defn #CommutativeHopfAlgebroid}
-###### Definition
-
-A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
-
-=--
-
-(e.g. [Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
-
-+-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
-###### Remark
-
-We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
-
-An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
-
-$$
-  \array{
-    Spec(\Gamma) \underset{Spec(A)}{\times} Spec(\Gamma)
-    \\
-    \downarrow^{\mathrlap{\circ}}
-    \\
-    Spec(\Gamma)
-    \\
-    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
-    \\
-    Spec(A)
-  }
-  \,,
-$$
-
-(where the [[fiber product]] at the top is over $s$ on the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
-
-$$
-  inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
-$$
-
-acting as assigning [[inverses]] with respect to $\circ$.
-
-The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
-
-$$
-  Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
-  \simeq
-  Spec(R_1 \otimes_{R_3} R_2)
-  \,.
-$$
-
-This means that the above is equivalently a diagram in [[CRing]] of the form
-
-$$
-  \array{
-    \Gamma \underset{A}{\otimes} \Gamma
-    \\
-    \uparrow^{\mathrlap{\Psi}}
-    \\
-    \Gamma 
-    \\
-    {}^{\mathllap{\eta_L}}\uparrow 
-    \downarrow^{\mathrlap{\epsilon}} \;
-    \uparrow^{\mathrlap{\eta_R}}
-    \\
-    A
-  }
-$$
-
-as well as
-
-$$
-  c \; \colon \; \Gamma \longrightarrow \Gamma
-$$
-
-and satisfying [[formal duality|formally dual]] conditions, spelled out as def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below. Here 
-
-* $\eta_L, \etaR$ are called the left and right _[[unit]] maps_;
-
-* $\epsilon$ is called the _co-unit_;
-
-* $\Psi$ is called the _[[comultiplication]]_;
-
-* $c$ is called the _[[antipode]]_ or _conjugation_
-
-
-
-=--
-
-+-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
-###### Remark
-
-Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
-
-An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
-
-Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a **commutative [[Hopf algebra]]** $\Gamma$ over $A$.
-
-=--
-
-Writing out the formally dual axioms of an [[internal groupoid]] as in remark \ref{CommutativeHopfAlgebroidSpelledOut} yields the following equivalent but maybe more explicit definition of commutative Hopf algebroids, def. \ref{CommutativeHopfAlgebroid}
-
-+-- {: .num_defn #CommutativeHopfAlgebroidDefinitionInExplicitComponents}
-###### Definition
-
-A **[[commutative Hopf algebroid]]** is
-
-1. two [[commutative rings]], $A$ and $\Gamma$;
-
-1. ring [[homomorphisms]]
-
-   1. (left/right unit) 
-  
-      $\eta_L,\eta_R \colon A \longrightarrow \Gamma$; 
-
-   1. (comultiplication) 
- 
-      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} \Gamma$;
-
-   1. (counit) 
- 
-      $\epsilon \colon \Gamma \longrightarrow A$;
-
-   1. (conjugation) 
-
-      $c \colon \Gamma \longrightarrow \Gamma$
-
-such that
-
-1. (co-[[unitality]])
-
-   1. (identity morphisms respect source and target) 
-
-      $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
-
-   1. (identity morphisms are units for composition) 
-
-      $(id_\Gamma \otimes_A \epsilon) \circ \Psi  = (\epsilon \otimes_A id_\Gamma) \circ \Psi = id_\Gamma$;
-
-   1. (composition respects source and target) 
-
-      1. $\Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R$;
-
-      1. $\Psi \circ \eta_L = (\eta_L \otimes_A id) \circ \eta_L$
-
-1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
-
-1. ([[inverses]])
-
-   1. (inverting twice is the identity) 
-
-      $c \circ c = id_\Gamma$;
-
-   1. (inversion swaps source and target) 
-
-      $c \circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
-
-   1. (inverse morphisms are indeed left and right inverses for composition) 
-
-      the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
-
-      $$
-        \array{
-          \Gamma \otimes A \otimes \Gamma
-            &
-            \underoverset
-              {\longrightarrow}
-              {\longrightarrow}
-              {}
-            &
-          \Gamma \otimes \Gamma
-             &
-             \overset{coeq}{\longrightarrow}
-             &
-          \Gamma \otimes_A \Gamma
-           \\
-           &&
-           {}_{\mathllap{(-)\cdot c(-)}}\downarrow 
-           & 
-            \swarrow_{\mathrlap{\alpha}}
-           \\
-           && \Gamma
-        }
-      $$
-
-      and
-
-      $$
-        \array{
-          \Gamma \otimes A \otimes \Gamma
-            &
-            \underoverset
-              {\longrightarrow}
-              {\longrightarrow}
-              {}
-            &
-          \Gamma \otimes \Gamma
-             &
-             \overset{coeq}{\longrightarrow}
-             &
-          \Gamma \otimes_A \Gamma
-           \\
-           &&
-           {}_{\mathllap{c(-)\cdot (-)}}\downarrow 
-           & 
-            \swarrow_{\mathrlap{\beta}}
-           \\
-           && \Gamma
-        }
-      $$
-
-      satisfy 
-
-      $\alpha \circ \Psi = \eta_L \circ \epsilon $
-
-      and
-
-      $\beta \circ \Psi = \eta_R \circ \epsilon $.
-   
-=--
-
-e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
-
-
-### Linear representations as Comodules
-
-+-- {: .num_defn #CommutativeHopfAlgebroidComodule}
-###### Definition
-
-Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
-then a **left [[comodule]]** over $\Gamma$ is
-
-1. an $A$-[[module]] $N$;
-
-1. an $A$-[[module]] [[homomorphism]] (co-action)
-
-   $\Psi_N \;\colon\; N \longrightarrow \Gamma \otimes_A N$;
-
-such that
-
-1. (co-[[unitality]])
-
-   $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
-
-1. (co-action property)
-
-   $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
-
-A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
-
-$$
-  \Gamma CoMod
-$$
-
-for the resulting [[category]] of (left) comodules over $\Gamma$. Analogously there are right comodules.
-
-=--
-
-+-- {: .num_example #ComoduleStructureOnGroundRing}
-###### Example
-
-For $(\Gamma,A)$ a [[commutative Hopf algebroid]], then $A$ becomes a left $\Gamma$-comodule (def. \ref{CommutativeHopfAlgebroidComodule}) with coaction given by the right unit
-
-$$
-  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The required co-unitality property is the dual condition in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}
-
-$$
-  \epsilon \circ \eta_R  = id_A
-$$
-
-of the fact in def. \ref{CommutativeHopfAlgebroid} that identity morphisms respect sources:
-
-$$
-  id
-    \;\colon\;
-  A 
-    \overset{\eta_R}{\longrightarrow} 
-  \Gamma
-    \simeq
-  \Gamma \otimes_A A
-    \overset{\epsilon \otimes_A id}{\longrightarrow}
-  A \otimes_A A
-    \simeq
-  A
-$$
-
-The required co-action property is the dual condition 
-
-$$
-  \Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R
-$$ 
-
-of the fact in def. \ref{CommutativeHopfAlgebroid} that composition of morphisms in a groupoid respects sources
-
-$$
-  \array{
-    A 
-      &\overset{\eta_R}{\longrightarrow}&
-    \Gamma
-    \\
-    {}^{\mathllap{\eta_R}}\downarrow
-      &&
-    \downarrow^{\mathrlap{\Psi}}
-    \\
-    \Gamma \simeq \Gamma \otimes_A A
-      &\underset{id \otimes_A \eta_R}{\longrightarrow}&
-    \Gamma \otimes_A \Gamma
-  }
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_defn #TensorProductOfComodulesOverAHopfAlgebra}
-###### Definition
-
-Given two comodules $N_1, N_2$ over a [[commutative Hopf algebra]] $\Gamma$ over $k$, then their **[[tensor product]]** is the the [[tensor product of modules]] $N_1 \otimes_k N_2$ equipped with the following co-action
-
-$$
-  N_1 \otimes_k N_2
-    \overset{\Psi1 \otimes_k \Psi_2}{\longightarrow}
-  \Gamma \otimes_k N_1 \otimes_k \Gamma \otimes N_2
-    \overset{}{\longrightarrow}
-  \Gamma \otimes_k \Gamma \otimes_k N_1 \otimes_k N_2
-      \overset{((-)\cdot (-)) \otimes_k id_{N_1} \otimes_k id_{N_2} }{\longrightarrow}
-  \Gamma \otimes_k N_1 \otimes_k N_2
-  \,.
-$$
-
-=--
-
-This is the [[formal dual]] of the [[tensor product of representations]], the action on which is induced by
-
-$$
-  G \times V_1 \times V_2
-     \overset{\Delta_G \times id}{\longrightarrow}
-  G \times G \times V_1 \times V_2
-     \simeq
-   G \times V_1 \times G \times V_1
-     \overset{\rho_1 \times \rho_2}{\longrightarrow}
-   V_1 \times V_2
-  \,.
-$$
-
-Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
-
-### Tensor products and Monoidal categories
+### Tensor products and Tensor categories
+ {#TensorProductsAndMonoidalCategories}
 
 +-- {: .num_defn #VectorSpaces} 
 ###### Definition
@@ -518,25 +94,41 @@ Let $\mathcal{C}$ be a [[category]].
 
 =--
 
-We also make the following definition of $k$-linear category, but notice that conventions differ as to which extra properties beyond Vect-enrichment to require:
+We also make the following definition of $k$-linear category, but notice that conventions differ as to which extra properties beyond [[Vect]]-[[enriched category|enrichment]] to require on a linear category:
 
 +-- {: .num_defn #LinearCategory} 
 ###### Definition
 
-For $k$ a [[field]], call a [[category]] $\mathcal{C}$ a **$k$-[[linear category]]** if
+For $k$ a [[field]] (or more generally just a [[commutative ring]]), call a [[category]] $\mathcal{C}$ a **$k$-[[linear category]]** if
 
 1. it is an [[abelian category]] (def. \ref{AdditiveAndAbelianCategories});
 
-1. its [[hom-sets]] have the structure of $k$-[[vector spaces]] such that [[composition]] of morphisms is a [[bilinear map]] 
+1. its [[hom-sets]] have the structure of $k$-[[vector spaces]] (generally $k$-[[modules]]) such that [[composition]] of morphisms in $\mathcal{C}$ is a [[bilinear map]] 
 
 and the underlying additive [[abelian group]] structure of these [[hom-spaces]] is that of the underlying [[abelian category]].
+
+In other words, a $k$-linear category is an [[abelian category]] with the additional structure of a [[Vect]]-[[enriched category]] (generally $k$[[Mod]]-enriched) such that the underlying [[Ab-enriched category|Ab-enrichment]] according to def. \ref{AdditiveAndAbelianCategories} is obtained from the $Vect$-enrichment under the [[forgetful functor]] $Vect \to Ab$.
+
+A [[functor]] between $k$-linear categories is called a **$k$-[[linear functor]]** if its component functins on [[hom-sets]] are [[linear maps]] with respect to the give $k$-linear structure. 
 
 =--
 
 +-- {: .num_example} 
 ###### Example
 
-$Vect_k$ is a $k$-linear category.
+The category [[Vect]]${}_k$ of [[vector spaces]] (def. \ref{VectorSpaces}) is a $k$-[[linear category]] according to def. \ref{LinearCategory}.
+
+Here the abstract [[direct sum]] is the usual direct sum of [[vector spaces]], whence the name of the general concept.
+
+For $V,W$ two $k$-vector spaces, the vector space structure on the [[hom-set]] $Hom_{Vect}(V,W)$ of [[linear maps]] $\phi \colon V \to W$ is given by "pointwise" multiplication and addition of functions:
+
+$$
+  (k_1 \phi_1 + k_2 \phi_2)
+  \;\colon\,
+   v \;\mapsto\;
+   k_1 \phi_1(v) + k_2 \phi_2(v)
+  \,.
+$$
 
 
 =--
@@ -1383,33 +975,18 @@ $$
 
 =--
 
-
-### Super-groups as super-Hopf algebras
-  {#SuperGroupsAsSuperHopfAlgebras}
-
-hence we may internalize definition of commutative Hopf algebra
-into $sVect$...
-
-
-
-## Statement
- {#Statement}
-
-Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
-
-
-### Tensor categories
+There are many [[monoidal categories]] whose "[[tensor product]]" operation is very unlike the [[tensor product of vector spaces]]. Hence one says _[[tensor category]]_ for monoidal categories that are also $k$-[[linear categories]] and such that the tensor product functor  suitably reflects that linear structure.
 
 There are slight variants of what people mean by a "[[tensor category]]". Here we mean precisely the following: 
 
 +-- {: .num_defn #TensorCategory}
 ###### Definition
 
-For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an 
+For $k$ a [[field]] then a _$k$-[[tensor category]]_ $\mathcal{A}$ is an 
 
 1. [[essentially small category|essentially small]]
 
-1. [[abelian category|abelian]] 
+1. [[linear category|k-linear]] (def. \ref{LinearCategory})
 
 1. [[rigid monoidal category|rigid]] (def. \ref{DualizableObject})
 
@@ -1419,24 +996,22 @@ For $k$ an [[algebraically closed field]] of [[characteristic zero]], then a _$k
 
 1. [[monoidal category]] (def. \ref{MonoidalCategory})
 
-1. [[enriched category|enriched]] over $k$[[Mod]] = $k$[[Vect]] (i.e. $k$-linear), compatible with the [[Ab-enriched category|Ab-enrichment]] implied from [[abelian category|abelianness]] under $U \colon k Vect \to Ab$
-
 such that 
 
 1. the [[tensor product]] functor $\otimes \colon \mathcal{A} \times \mathcal{A} \longrightarrow \mathcal{A}$ is in both arguments separately
 
-   1. $k Mod$-[[enriched functor|enriched]] (i.e. $k$-linear);
+   1. $k$-linear (def. \ref{LinearCategory});
 
-   1. [[exact functor|exact]]
+   1. [[exact functor|exact]].
 
 
 1. $End(1) \simeq k$ (the [[endomorphism ring]] of the [[tensor unit]] coincides with $k$).
 
 =--
 
-([Deligne 02, 0.1](#Deligne02))
+In this form this is considered in ([Deligne 02, 0.1](#Deligne02)).
 
-We consider now various types of size constraints on tensor categories. The main theorem (theorem \ref{TheTheorem} below) only assumes one of them (subexponential growth, def. \ref{SubexponentialGrowth}), but the others appear in the course of the proof of the theorem.
+We consider now various types of size constraints on tensor categories. The Tannaka reconstructin theorem (theorem \ref{TheTheorem} below) only assumes one of them (subexponential growth, def. \ref{SubexponentialGrowth}), but the others appear in the course of the proof of the theorem.
 
 1. finiteness (def. \ref{FiniteTensorCategory})
 
@@ -1450,7 +1025,7 @@ Recall the concept of [[length of an object]] in an [[abelian category]], a gene
 +-- {: .num_defn #FiniteTensorCategory} 
 ###### Definition
 
-A $k$[[tensor category]] (def. \ref{TensorCategory}) is called **finite** (over $k$) if 
+A $k$-[[tensor category]] (def. \ref{TensorCategory}) is called **finite** (over $k$) if 
 
 1. There are only [[finite number|finitely many]] [[simple objects]] in $C$ (hence it is a [[finite abelian category]]), and each of them admits a [[projective presentation]]. 
 
@@ -1530,6 +1105,454 @@ $$
 =--
 
 Of coure the assumption of the existence of [[dual objects]] ([[rigid monoidal category|rigidity]]) in def. \ref{TensorCategory} is already a finiteness condition itself. The following construction lifts that condition:
+
+
+### (Super-)Groups as (super-)commutatve Hopf algebras
+ {#GroupsAsHopfAlgebras}
+
+We are interested in [[groups]] equipped with [[geometry]]. 
+
+A familiar example is [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course [[Lie groups]]. 
+
+A **[[linear representation]]** of a [[Lie group]] $G$ on a [[vector space]] $V$ is a [[smooth function]]
+
+$$
+  \rho \;\colon\; G \times V \longrightarrow V 
+$$
+
+such that 
+
+1. ([[linear map|linearity]]) for all elements $g \in G$ the function
+
+   $$
+     \rho(g) \colon V \longrightarrow V
+   $$
+
+   is a [[linear function]]
+
+1. ([[unitality]]) for $e \in G$ the [[neutral element]] then $\rho(e)$ is the [[identity]] function;
+
+1. ([[action]] property) for $g_1, g_2 \in G$ any two elements, then acting with them consecutively is the same as acting with their product:
+
+   $$
+      \rho(g_2) \circ  \rho(g_1) = \rho(g_2 g_1)
+      \,.
+   $$
+
+But here we need to consider groups with more general geometric structure. The key to the generalization is to regard [[spaces]] dually via their [[algebras of functions]].
+
+The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[]algebraic geometry]. In great generality it appears as "[[Isbell duality]]".
+
+In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
+
+$$
+  C^\infty(-) \;\colon\; SmthMfd \longrightarrow SmthAlg_{\mathbb{R}}
+$$
+
+is a [[contravariant functor]], which is [[fully faithful functor|fully faithful]].  This means that for 
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+any [[smooth function]], then precomposition of smooth functions on $Y$ with $f$ yields a homomorphism of smooth algebras going the other way around
+
+$$
+  C^\infty(X) \longleftarrow C \infty(Y) \;\colon\; f^\ast
+$$
+
+and the associatioon $f \mapsto f^\ast$ is a [[natural bijection]].
+Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then f^\ast = id$ is the identity homomomorphism of smooth algebras.
+
+Moreover, the functor $C^\infty(-)$ sends [[Cartesian products]] of smooth manifolds to "completed tensor products" $\otimes^c$ of function algebras (namely to the [[coproduct]] of [[smooth algebras]], see there)
+
+$$
+  C^\infty(X \times Y) \simeq C^\infty(X) \otimes^c C^\infty(Y)
+  \,.
+$$
+
+Together this means that if $X = G$ is equipped with the structure of a [[group object]], then the product operation in the group induces a "[[coproduct]]" operation on its smooth algebra of smooth functions:
+
+$$
+  \array{
+    product &\colon& G \times G &\longrightarrow& G
+    \\
+    && C^\infty(G) \otimes^c C^\infty(G) &\longleftarrow& C^\infty(G) &\colon& product^\ast 
+  }
+  \,.
+$$
+
+Now the [[associativity]] of the group product translates into a corresponding dual property of its dual, called "[[co-associativity]]", and so forth. The resulting algebraic structure is called a **[[Hopf algebra]]**.
+ 
+What actually appears in the main theorem \ref{TheTheorem} below are "affine algebraic super-groups". One way to say this is that they are [[super-scheme|super-]][[group schemes]] whose underlying [[super-scheme]] is a [[super-scheme|super-]][[affine variety]]. Some of these are [[super Lie groups]], namely [[group objects]] in [[supermanifolds]].  But by their affine-ness, affine algebraic supergroups have a direct algebraic, description as [[Hopf algebras]], and we make this explicit now. 
+
+
+So the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspectiv is straightforward, we may just as well consider it in the generality of [[groupoids]]:
+
++-- {: .num_defn #CommutativeHopfAlgebroid}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is an [[internal groupoid]] in the [[opposite category]] [[CRing]]${}^{op}$ of [[commutative rings]], regarded with its [[cartesian monoidal category]] structure.
+
+=--
+
+(e.g. [Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
+
++-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
+###### Remark
+
+We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CRing$, write $Spec(R)$ for same same object, but regarded as an object in $CRing^{op}$. 
+
+An [[internal category]] in $CRing^{op}$ is a [[diagram]] in $CRing^{op}$ of the form
+
+$$
+  \array{
+    Spec(\Gamma) \underset{Spec(A)}{\times} Spec(\Gamma)
+    \\
+    \downarrow^{\mathrlap{\circ}}
+    \\
+    Spec(\Gamma)
+    \\
+    {}^{\mathllap{s}}\downarrow \; \uparrow^{\mathrlap{i}} \downarrow^{\mathrlap{t}}
+    \\
+    Spec(A)
+  }
+  \,,
+$$
+
+(where the [[fiber product]] at the top is over $s$ on the left and $t$ on the right) such that the pairing $\circ$ defines an [[associativity law|associative]] [[composition]] over $Spec(A)$, [[unitality|unital]] with respect to $i$. This is an [[internal groupoid]] if it is furthemore equipped with a morphism
+
+$$
+  inv \;\colon\; Spec(\Gamma) \longrightarrow Spec(\Gamma)
+$$
+
+acting as assigning [[inverses]] with respect to $\circ$.
+
+The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CRing^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
+$$
+  Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
+  \simeq
+  Spec(R_1 \otimes_{R_3} R_2)
+  \,.
+$$
+
+This means that the above is equivalently a diagram in [[CRing]] of the form
+
+$$
+  \array{
+    \Gamma \underset{A}{\otimes} \Gamma
+    \\
+    \uparrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma 
+    \\
+    {}^{\mathllap{\eta_L}}\uparrow 
+    \downarrow^{\mathrlap{\epsilon}} \;
+    \uparrow^{\mathrlap{\eta_R}}
+    \\
+    A
+  }
+$$
+
+as well as
+
+$$
+  c \; \colon \; \Gamma \longrightarrow \Gamma
+$$
+
+and satisfying [[formal duality|formally dual]] conditions, spelled out as def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} below. Here 
+
+* $\eta_L, \etaR$ are called the left and right _[[unit]] maps_;
+
+* $\epsilon$ is called the _co-unit_;
+
+* $\Psi$ is called the _[[comultiplication]]_;
+
+* $c$ is called the _[[antipode]]_ or _conjugation_
+
+
+
+=--
+
++-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
+###### Remark
+
+Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
+
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+
+Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a **commutative [[Hopf algebra]]** $\Gamma$ over $A$.
+
+=--
+
+Writing out the formally dual axioms of an [[internal groupoid]] as in remark \ref{CommutativeHopfAlgebroidSpelledOut} yields the following equivalent but maybe more explicit definition of commutative Hopf algebroids, def. \ref{CommutativeHopfAlgebroid}
+
++-- {: .num_defn #CommutativeHopfAlgebroidDefinitionInExplicitComponents}
+###### Definition
+
+A **[[commutative Hopf algebroid]]** is
+
+1. two [[commutative rings]], $A$ and $\Gamma$;
+
+1. ring [[homomorphisms]]
+
+   1. (left/right unit) 
+  
+      $\eta_L,\eta_R \colon A \longrightarrow \Gamma$; 
+
+   1. (comultiplication) 
+ 
+      $\Psi \colon \Gamma \longrightarrow \Gamma \underset{A}{\otimes} \Gamma$;
+
+   1. (counit) 
+ 
+      $\epsilon \colon \Gamma \longrightarrow A$;
+
+   1. (conjugation) 
+
+      $c \colon \Gamma \longrightarrow \Gamma$
+
+such that
+
+1. (co-[[unitality]])
+
+   1. (identity morphisms respect source and target) 
+
+      $\epsilon \circ \eta_L = \epsilon \circ \eta_R = id_A$;
+
+   1. (identity morphisms are units for composition) 
+
+      $(id_\Gamma \otimes_A \epsilon) \circ \Psi  = (\epsilon \otimes_A id_\Gamma) \circ \Psi = id_\Gamma$;
+
+   1. (composition respects source and target) 
+
+      1. $\Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R$;
+
+      1. $\Psi \circ \eta_L = (\eta_L \otimes_A id) \circ \eta_L$
+
+1. (co-[[associativity]]) $(id_\Gamma \otimes_A \Psi) \circ \Psi = (\Psi \otimes_A id_\Gamma) \circ \Psi$;
+
+1. ([[inverses]])
+
+   1. (inverting twice is the identity) 
+
+      $c \circ c = id_\Gamma$;
+
+   1. (inversion swaps source and target) 
+
+      $c \circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
+
+   1. (inverse morphisms are indeed left and right inverses for composition) 
+
+      the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
+
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{(-)\cdot c(-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\alpha}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      and
+
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{c(-)\cdot (-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\beta}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      satisfy 
+
+      $\alpha \circ \Psi = \eta_L \circ \epsilon $
+
+      and
+
+      $\beta \circ \Psi = \eta_R \circ \epsilon $.
+   
+=--
+
+e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
+
+
+### Linear representations as Comodules
+ {#LinearRepresentationsAsComodules}
+
++-- {: .num_defn #CommutativeHopfAlgebroidComodule}
+###### Definition
+
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
+then a **left [[comodule]]** over $\Gamma$ is
+
+1. an $A$-[[module]] $N$;
+
+1. an $A$-[[module]] [[homomorphism]] (co-action)
+
+   $\Psi_N \;\colon\; N \longrightarrow \Gamma \otimes_A N$;
+
+such that
+
+1. (co-[[unitality]])
+
+   $(\epsilon \otimes_A id_N) \circ \Psi_N = id_N$;
+
+1. (co-action property)
+
+   $(\Psi \otimes_A id_N) \circ \Psi_N = (id_\Gamma \otimes_A \Psi_N)\circ \Psi_N$.
+
+A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
+
+$$
+  \Gamma CoMod
+$$
+
+for the resulting [[category]] of (left) comodules over $\Gamma$. Analogously there are right comodules.
+
+=--
+
++-- {: .num_example #ComoduleStructureOnGroundRing}
+###### Example
+
+For $(\Gamma,A)$ a [[commutative Hopf algebroid]], then $A$ becomes a left $\Gamma$-comodule (def. \ref{CommutativeHopfAlgebroidComodule}) with coaction given by the right unit
+
+$$
+  A \overset{\eta_R}{\longrightarrow} \Gamma \simeq \Gamma \otimes_A A
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The required co-unitality property is the dual condition in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}
+
+$$
+  \epsilon \circ \eta_R  = id_A
+$$
+
+of the fact in def. \ref{CommutativeHopfAlgebroid} that identity morphisms respect sources:
+
+$$
+  id
+    \;\colon\;
+  A 
+    \overset{\eta_R}{\longrightarrow} 
+  \Gamma
+    \simeq
+  \Gamma \otimes_A A
+    \overset{\epsilon \otimes_A id}{\longrightarrow}
+  A \otimes_A A
+    \simeq
+  A
+$$
+
+The required co-action property is the dual condition 
+
+$$
+  \Psi \circ \eta_R = (id \otimes_A \eta_R) \circ \eta_R
+$$ 
+
+of the fact in def. \ref{CommutativeHopfAlgebroid} that composition of morphisms in a groupoid respects sources
+
+$$
+  \array{
+    A 
+      &\overset{\eta_R}{\longrightarrow}&
+    \Gamma
+    \\
+    {}^{\mathllap{\eta_R}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\Psi}}
+    \\
+    \Gamma \simeq \Gamma \otimes_A A
+      &\underset{id \otimes_A \eta_R}{\longrightarrow}&
+    \Gamma \otimes_A \Gamma
+  }
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #TensorProductOfComodulesOverAHopfAlgebra}
+###### Definition
+
+Given two comodules $N_1, N_2$ over a [[commutative Hopf algebra]] $\Gamma$ over $k$, then their **[[tensor product]]** is the the [[tensor product of modules]] $N_1 \otimes_k N_2$ equipped with the following co-action
+
+$$
+  N_1 \otimes_k N_2
+    \overset{\Psi1 \otimes_k \Psi_2}{\longightarrow}
+  \Gamma \otimes_k N_1 \otimes_k \Gamma \otimes N_2
+    \overset{}{\longrightarrow}
+  \Gamma \otimes_k \Gamma \otimes_k N_1 \otimes_k N_2
+      \overset{((-)\cdot (-)) \otimes_k id_{N_1} \otimes_k id_{N_2} }{\longrightarrow}
+  \Gamma \otimes_k N_1 \otimes_k N_2
+  \,.
+$$
+
+=--
+
+This is the [[formal dual]] of the [[tensor product of representations]], the action on which is induced by
+
+$$
+  G \times V_1 \times V_2
+     \overset{\Delta_G \times id}{\longrightarrow}
+  G \times G \times V_1 \times V_2
+     \simeq
+   G \times V_1 \times G \times V_1
+     \overset{\rho_1 \times \rho_2}{\longrightarrow}
+   V_1 \times V_2
+  \,.
+$$
+
+Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
+
+
+
+
+## Statement
+ {#Statement}
+
+Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
+
+
+### Tensor categories
 
 +-- {: .num_prop #IndObjectsInATensorCategory} 
 ###### Proposition
