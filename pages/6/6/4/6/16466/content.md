@@ -488,6 +488,59 @@ Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAH
 
 ### Tensor products and Monoidal categories
 
++-- {: .num_defn #VectorSpaces} 
+###### Definition
+
+For $k$ a [[field]], we write $Vect_k$ for the [[category]] whose
+
+* [[objects]] are $k$-[[vector spaces]];
+
+* [[morphisms]] are $k$-[[linear functions]] between these.
+
+When the [[ground field]] $k$ is understood or when its precise nature is irrelevant, we will often notationally suppress it and speak of just the category [[Vect]] of vector spaces.
+
+This is the category inside which [[linear algebra]] takes place.
+
+=--
+
+Of course the category [[Vect]] has some special properties. Not only are its objects "linear spaces", but the whole category inherits linear structure of sorts. This is traditionally captured by the following terminology for **[[additive and abelian categories]]**. Notice that there are several different but equivalent ways to state the following properties (discussed behind the relevant links).
+
++-- {: .num_defn #AdditiveAndAbelianCategories} 
+###### Definition
+
+Let $\mathcal{C}$ be a [[category]]. 
+
+1. Say that $\\mathcal{C}$ has **[[direct sums]]** if its has [[finite products]] and [[finite coproducts]] and if the cannical comparison  morphism between these is an [[isomorphism]]. We write $V \oplus W$ for the direct sum of two objects of $\mathcal{C}$ in this.
+
+1. Say that $\mathcal{C}$ is an **[[additive category]]** if it has [[direct sums]] and in addition it is [[Ab-enriched category|enriched in abelian groups]], meaning that every [[hom-set]] is equipped with the stucture of an [[abelian group]] such that [[composition]] of morphisms is a [[bilinear map]].
+
+1.Say that $\mathcal{C}$ is an **[[abelian category]]** if it is an [[additive category]] and has property that its [[monomorphisms]] are precisely the inclusions of [[kernels]] and its [[epimorphisms]] are precisely the projections onto [[cokernels]].
+
+=--
+
+We also make the following definition of $k$-linear category, but notice that conventions differ as to which extra properties beyond Vect-enrichment to require:
+
++-- {: .num_defn #LinearCategory} 
+###### Definition
+
+For $k$ a [[field]], call a [[category]] $\mathcal{C}$ a **$k$-[[linear category]]** if
+
+1. it is an [[abelian category]] (def. \ref{AdditiveAndAbelianCategories});
+
+1. its [[hom-sets]] have the structure of $k$-[[vector spaces]] such that [[composition]] of morphisms is a [[bilinear map]] 
+
+and the underlying additive [[abelian group]] structure of these [[hom-spaces]] is that of the underlying [[abelian category]].
+
+=--
+
++-- {: .num_example} 
+###### Example
+
+$Vect_k$ is a $k$-linear category.
+
+
+=--
+
 Recall the basic construction of the [[tensor product of vector spaces]].
 
 +-- {: .num_defn #TensorProductOfVectorSpaces} 
@@ -1089,7 +1142,7 @@ $$
 =--
 
 
-+-- {: .num_defn #CatgeoryOfSuperVectorSpaces} 
++-- {: .num_defn #CategoryOfSuperVectorSpaces} 
 ###### Definition
 
 The [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) 
@@ -1211,7 +1264,7 @@ If in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ every object has a lef
 =--
 
 
-+-- {: .num_example }
++-- {: .num_example #FiniteDimensionalVectorSpaces}
 ###### Example
 
 Let 
@@ -1220,7 +1273,7 @@ $$
   FinVect_k \hookrightarrow Vect_k
 $$
 
-be the [[full subcategory]] of that of all [[vector spaces]] (over the given [[ground field]] $k$) on those which are [[finite dimensional vector spaces]].
+be the [[full subcategory]] of that of all [[vector spaces]] (over the given [[ground field]] $k$) on those which are **[[finite dimensional vector spaces]]**.
 
 Clearly the [[tensor product of vector spaces]] (def. \ref{TensorProductOfVectorSpaces}) restricts to those of [[finite number|finite]] [[dimension]], and so there is the induced [[monoidal category]] structure from example \ref{VectAsAMonoidalCategory}
 
@@ -1291,6 +1344,42 @@ $$
 
 Physicists will recognize this as just the basic rules for [[tensor]] calculus in index-notation.
 
+=--
+
+
++-- {: .num_example #FiniteDimensionalSuperVectorSpaces}
+###### Example
+
+Similarly, the full subcategory
+
+$$
+  (sFinVect, \otimes_k, k, \tau^{super})
+    &#180;\hookrightarrow
+  (sVect, \otimes_k, k, \tau^{super})
+$$
+
+of the [[symmetric monoidal category]] of [[super vector spaces]] from example \ref{CategoryOfSuperVectorSpaces}, on those of finite total dimension is a [[rigid monoidal category]].
+
+Here we say that a [[super vector space]] $V$ has dimension $(p\vert q)$ its even part has dimension $p$ and its odd part has dimension $q$:
+
+$$
+  dim(V) = (p\vert q)
+   \;\;\;
+   \Leftrightarrow
+   \;\;\;
+  ( dim(V_{even}) = p \;\;\text{and}\;\;\;\; dim(V_{odd}) = q )
+  \,.
+$$
+
+The [[dual object]] of such a finite dimensional super vector space is just the linear [[dual vector space]] as in example \ref{FiniteDimensionalVectorSpaces} with the evident grading:
+
+$$
+  V = V_{even} \oplus V_{odd}
+  \;\;\;\; \Rightarrow
+  \;\;\;\;
+  V^\ast = (V_{even}^\ast) \oplus (V_{odd}^\ast)
+  \,.
+$$
 
 =--
 
