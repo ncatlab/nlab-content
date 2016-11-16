@@ -30,7 +30,7 @@ Deligne's theorem on tensor categories ([Deligne 02](#Deligne02), recalled as th
 
 ### For supersymmetry
 
-Since the concept of linear [[tensor categories]] arises very naturally in [[mathematics], the theorem gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]. It is reasonable to wonder why of all possible generalizations of [[commutative algebra]], it is [[supercommutative superalgebras]] that are singled out (from alternatives such as plain $\mathbb{Z}/2$-[[graded algebras]], or in fact $\mathbb{Z}/n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] (e.g. via the relation between [[Majorana spinors]] and supersymmetry, [here](Majorana+spinor#Supersymmetry)) and [[topological K-theory]] (for instance via its incarnation as _[[Karoubi K-theory]]_, or via the descriptioon of[[twisted K-theory]] by _[[super line 2-bundles]]_). 
+Since the concept of linear [[tensor categories]] arises very naturally in [[mathematics]], the theorem gives a purely mathematical "reason" for the relevance of [[superalgebra]] and [[supergeometry]]. It is reasonable to wonder why of all possible generalizations of [[commutative algebra]], it is [[supercommutative superalgebras]] that are singled out (from alternatives such as plain $\mathbb{Z}/2$-[[graded algebras]], or in fact $\mathbb{Z}/n$-graded algebras or general [[noncommutative algebras]] or, the like), as they are notably in theoretical [[physics]] ("[[supersymmetry]]"), but also in mathematical fields such as [[spin geometry]] (e.g. via the relation between [[Majorana spinors]] and supersymmetry, [here](Majorana+spinor#Supersymmetry)) and [[topological K-theory]] (for instance via its incarnation as _[[Karoubi K-theory]]_, or via the descriptioon of [[twisted K-theory]] by _[[super line 2-bundles]]_). 
 
 But with $k$-linear [[tensor categories]] appearing on general abstract grounds as the canonical structure to consider in [[representation theory]], Deligne's theorem serves to base supercommutative superalgebra on this same general abstract foundation, showing that this is precisely the context in which full $k$-linear tensor categories exhibit full [[Tannaka duality]].
 
@@ -39,7 +39,7 @@ More concretely, in [[quantum field theory]], under the [[Wigner classification]
 ### For Tannaka duality of Hopf algebras
  {#RelevanceForHopfAlgebras}
 
-By [[Tannaka duality]] rigid symmetric monoidal categories in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to supercommutative Hopf algebras. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
+By [[Tannaka duality]] [[rigid monoidal category]] [[symmetric monoidal categories]] in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras over [[algebraically closed fields]] of [[characteristic zero]] whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent [[to supercommutative Hopf algebras]]. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
 
 [[!include structure on algebras and their module categories - table]]
 
@@ -52,11 +52,15 @@ We start by introducing the basic concepts of [[tensor categories]] along with t
 
 * _[Tensor categories](#TensorProductsAndMonoidalCategories)_
 
-This allows to speak of [[commutative algebra]] [[internalization|internal]] to tensor categories. We focus on the concept of [[commutative Hopf algebras]] and explain how these are [[formal duals]] to [[group objects|groups]]. Then we use this to motivate and explain thee concept of (affine algebraic) [[supergroups]] as [[formal duals]] to [[commutative Hopf algebras]] internal to the tensor category of [[super vector spaces]]:
+This allows to speak of [[commutative algebra]] [[internalization|internal]] to tensor categories. Specializing this to the tensor category of [[super vector spaces]] yields [[supercommutative superalgebras]]. The [[formal duals]] of these are the [[affine variety|affine]] [[super schemes]]. This we discuss in
+
+* _[Commutative algebra in tensor categories and Affine super-spaces](#CommutativeAlgebraInTensorCategories)_
+
+Next we introduce the concept of [[commutative monoids]] equipped with the structure of a [[commutative Hopf algebras]] and explain how these are [[formal duals]] to [[group objects|groups]]. Then we use this to motivate and explain the concept of (affine algebraic) [[supergroups]] as [[formal duals]] to [[commutative Hopf algebras]] internal to the tensor category of [[super vector spaces]], namely [[supercommutative Hopf algebras]]:
 
 * _[(Super-)Groups as (Super-)commutative Hopf algebras](#GroupsAsHopfAlgebras)_
 
-Finally we discuss how under this relation [[linear representations]] of groups correspond to [[comodules]] over their formally dual [[commutative Hopf algbrras]], and we introduce the key class of categories of interest here: tensor-[[categories of representations]] of groups and of super-representations of super-groups:
+Finally we discuss how under this relation [[linear representations]] of groups correspond to [[comodules]] over their formally dual [[commutative Hopf algebras]], and we introduce the key class of categories of interest here: tensor-[[categories of representations]] of groups and of super-representations of super-groups:
 
 * _[Linear representations as comodules](#LinearRepresentationsAsComodules)_
 
@@ -446,7 +450,7 @@ Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and 
 
 The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid, commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. This might  seem like a subtle point, but in fact, as we will see [below](#SuperGroupsAsSuperHopfAlgebras), this is the very source of [[superalgebra]].
 
-The [[categorification]] of "commutativity" comes in two stages, [[braiding]] and [[symmetrc monoidal category|symmetric braiding]].
+The [[categorification]] of "commutativity" comes in two stages, [[braiding]] and [[symmetric monoidal category|symmetric braiding]].
 
 +-- {: .num_defn #BraidedMonoidalCategory} 
 ###### Definition
@@ -787,7 +791,7 @@ It has been suggested (in [Kapranov 15](super+algebra#Kapranov15)) that this and
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
+Given a [[symmetric monoidal category]] $\mathcal{C}$ with [[tensor product]] $\otimes$ (def. \ref{SymmetricMonoidalCategory}) it is called a **[[closed monoidal category]]** if for each $Y \in \mathcal{C}$ the functor $Y \otimes(-)\simeq (-)\otimes Y$ has a [[right adjoint]], denoted $hom(Y,-)$
 
 $$
   \mathcal{C}
@@ -882,6 +886,271 @@ $$
 $$
 
 =--
+
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+
+1. a [[topologically enriched functor]] 
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a morphism
+
+   $$
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   $$  
+
+1. a [[natural transformation]]
+
+   $$
+     \mu_{x,y} 
+       \;\colon\; 
+     F(x) \otimes_{\mathcal{D}} F(y) 
+       \longrightarrow 
+     F(x \otimes_{\mathcal{C}} y)
+   $$
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x) 
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and  
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}}) 
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow 
+         && 
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x) 
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}) with [[braidings]] $\tau^{\mathcal{C}}$ and $\tau^{\mathcal{D}}$, respectively, then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+
+compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
+
+$$
+  \array{
+    F_1(x) \otimes_{\mathcal{D}} F_1(y)
+      &\overset{f(x)\otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
+    F_2(x) \otimes_{\mathcal{D}} F_2(y)
+    \\
+    {}^{\mathllap{(\mu_1)_{x,y}}}\downarrow
+     &&
+    \downarrow^{\mathrlap{(\mu_2)_{x,y}}}
+    \\
+    F_1(x\otimes_{\mathcal{C}} y)
+     &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
+    F_2(x \otimes_{\mathcal{C}} y)
+  }
+$$
+
+and 
+
+$$
+  \array{
+    && 1_{\mathcal{D}}
+    \\
+    & {}^{\mathllap{\epsilon_1}}\swarrow && \searrow^{\mathrlap{\epsilon_2}}
+    \\
+    F_1(1_{\mathcal{C}})
+     &&\underset{f(1_{\mathcal{C}})}{\longrightarrow}&&
+    F_2(1_{\mathcal{C}})
+  }
+  \,.
+$$
+
+We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax monoidal functors between monoidal categories $\mathcal{C}$ and $\mathcal{D}$, similarly $BraidMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[braided monoidal categories]], and $SymMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[symmetric monoidal categories]].
+
+=--
+
++-- {: .num_remark #SymmetricMonoidalFunctor}
+###### Remark
+
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**. 
+
+=--
+
++-- {: .num_prop #MonoidalFunctorComp}
+###### Proposition
+
+For $\mathcal{C} \overset{F}{\longrightarrow} \mathcal{D} \overset{G}{\longrightarrow} \mathcal{E}$ two composable [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) between [[monoidal categories]], then their composite $F \circ G$ becomes a lax monoidal functor with structure morphisms
+
+$$
+  \epsilon^{G\circ F} 
+    \;\colon\;
+  1_{\mathcal{E}}
+    \overset{\epsilon^G}{\longrightarrow}
+  G(1_{\mathcal{D}})
+    \overset{G(\epsilon^F)}{\longrightarrow}
+  G(F(1_{\mathcal{C}}))
+$$
+
+and
+
+$$
+  \mu^{G \circ F}_{c_1,c_2}
+  \;\colon\;
+  G(F(c_1)) \otimes_{\mathcal{E}} G(F(c_2))
+   \overset{\mu^{G}_{F(c_1), F(c_2)}}{\longrightarrow}
+  G( F(c_1) \otimes_{\mathcal{D}} F(c_2) )
+    \overset{G(\mu^F_{c_1,c_2})}{\longrightarrow}
+  G(F( c_1 \otimes_{\mathcal{C}} c_2 ))
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
+###### Proposition
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D}, \otimes_{\mathcal{D}},1_{\mathcal{D}})$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}) and let $F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}$ be a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them.
+
+Then for $(A,\mu_A,e_A)$ a [[monoid in a monoidal category|monoid in]] $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), its image $F(A) \in \mathcal{D}$ becomes a monoid $(F(A), \mu_{F(A)}, e_{F(A)})$ by setting
+
+$$
+  \mu_{F(A)}
+   \;\colon\;
+  F(A) \otimes_{\mathcal{C}} F(A)
+    \overset{}{\longrightarrow}
+  F(A \otimes_{\mathcal{C}} A)
+    \overset{F(\mu_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where the first morphism is the structure morphism of $F$) and setting 
+
+$$
+  e_{F(A)}
+    \;\colon\;
+  1_{\mathcal{D}}
+    \longrightarrow
+  F(1_{\mathcal{C}})
+    \overset{F(e_A)}{\longrightarrow}
+  F(A)
+$$
+
+(where again the first morphism is the corresponding structure morphism of $F$).
+
+This construction extends to a functor
+
+$$
+  Mon(F)
+   \;\colon\;
+  Mon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  Mon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+$$
+
+from the [[category of monoids]] of $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}) to that of $\mathcal{D}$.
+
+Moreover, if $\mathcal{C}$ and $\mathcal{D}$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) and $F$ is a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) and $A$ is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) then so is $F(A)$, and this construction extends to a functor
+
+$$
+  CMon(F)
+   \;\colon\;
+  CMon(\mathcal{C}, \otimes_{\mathcal{C}}, 1_{\mathcal{C}})
+    \longrightarrow
+  CMon(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows immediately from combining the associativity and unitality (and symmetry) constraints of $F$ with those of $A$.
+
+=--
+
 
 
 We now discuss one more extra property on monoidal categories
@@ -1201,18 +1470,19 @@ The evident example is the following:
 +-- {: .num_example}
 ###### Example
 
-The tensor category $k$[[FinVect]] of [[finite dimensional vector spaces]] has subexponential growth (def. \ref{SubexponentialGrowth}), for $N_X = dim(X)$ the [[dimension]] of a vector space $X$, we have
+The tensor category $k$-[[FinVect]] of [[finite dimensional vector spaces]] from example \ref{FiniteDimensionalVectorSpaces} has subexponential growth (def. \ref{SubexponentialGrowth}), for $N_X = dim(X)$ the [[dimension]] of a vector space $X$, we have
 
 $$
-  dim(X^{\otimes^n}) = (dim(X))^n
+  dim\left( X^{\otimes^n} \right) = \left(dim(X)\right)^n
   \,.
 $$
 
 =--
 
-Of coure the assumption of the existence of [[dual objects]] ([[rigid monoidal category|rigidity]]) in def. \ref{TensorCategory} is already a finiteness condition itself. The following construction lifts that condition:
+
 
 ### Commutative algebra in tensor categories and Affine super-spaces
+ {#CommutativeAlgebraInTensorCategories}
 
 The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by the following concept.
 
@@ -1326,8 +1596,96 @@ $$
 
 Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mathcal{C}$, and $CMon(\mathcal{C}, \otimes, 1)$ for its subcategory of commutative monoids.
 
+=--
+
++-- {: .num_example #MonoidsInVectAreAssociativeAlgebras} 
+###### Example
+
+A [[monoid object]] according to def. \ref{MonoidsInMonoidalCategory} in the [[monoidal category]] of [[vector spaces]] from from example \ref{TensorProductOfVectorSpaces} is equivalently an ordinary [[associative algebra]] over the given [[ground field]]. Similarly a [[commutative monoid]] in $Vect$ is an ordinary [[commutative algebra]]. Moreover, in both cases the [[homomorphisms]] of monoids agree with usual algebra homomorphisms. Hence there are [[equivalences of categories]].
+
+$$
+  Mon(Vect_k) \simeq Alg_k
+$$
+
+$$
+  CMon(Vect_k) \simeq CAlg_k
+  \,.
+$$
 
 =--
+
++-- {: .num_example #GradedAlgebras} 
+###### Example
+
+For $G$ a [[group]], then a **$G$-[[graded algebra|graded]] [[associative algebra]]** is a [[monoid object]] according to def. \ref{MonoidsInVectAreAssociativeAlgebras} in the [[monoidal category]] of $G$-[[graded vector spaces]] from example \ref{GradedVectorSpacesAsAMonoidaCategory}. 
+
+$$
+  Alg_k^G \simeq Mon(Vect_k^G)
+  \,.
+$$
+
+This means that a $G$-graded algebra is
+
+1. a $G$-[[graded vector space]] $A = \underset{g\in G}{\oplus} A_g$
+
+1. an [[associative algebra]] structure on the underlying vector space $A$
+
+such that for two elements of homogeneous degree, i.e. $a_1 \in A_{g_1} \hookrightarrow A$ and $a_2 \in A_{g_2} \hookrightarrow A$ then their product is in degre $g_1 g_2$
+
+$$
+  a_{g_1} a_{g_2} \in A_{g_1 g_2} \hookrightarrow A
+  \,.
+$$
+
+
+=--
+
+Example \ref{MonoidsInVectAreAssociativeAlgebras} motivates the following definition:
+
++-- {: .num_defn #SupercommutativeSuperalgebra} 
+###### Definition
+
+A **[[supercommutative superalgebra]]** is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the [[symmetric monoidal category|symmetric monoidal]] [[category of super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}). We write $sCAlg_k$ for the [[category]] of [[supercommutative superalgebras]] with the induced [[homomorphisms]] between them:
+
+$$
+  sCalg_k \;\colon\; CMon(sVct_k)
+  \,.
+$$
+
+Unwinding what this means, then a [[supercommutative superalgebra]] $A$ is
+
+1. a $\mathbb{Z}/2$-graded associatiive algebra according to example \ref{GradedAlgebras};
+
+1. such that for any two elements $a, b$ of homogeneous degree, their product satisfies
+
+   $$
+     a b \; = \; (-1)^{deg(a) deg(b)}\, b a
+     \,.
+   $$
+
+=--
+
++-- {: .num_remark} 
+###### Remark
+
+In view of def. \ref{SupercommutativeSuperalgebra} we may define a non-necessarily supercommutative superalgebra to be a [[monoid]] (not necssarily commutative) in [[sVect]], and write
+
+$$
+  sAlg_k \coloneqq Mon(sVect)
+  \,.
+$$
+
+However, since the definition of not-necessarily commutative monoids does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]], this yields equivalently just $\mathbb{Z}/2$-graded algebras (example \ref{GradedAlgebras}):
+
+$$
+  sAlg_k \simeq Alg_k^{\mathbb{Z}/2}
+  \,.
+$$
+
+=--
+
+
+Here are more general and more abstract examples of commutative monoids, which will be useful to make explicit:
 
 +-- {: .num_example #MonoidGivenByTensorUnit}
 ###### Example
@@ -1501,7 +1859,6 @@ $$
   \,.
 $$
 
-This is naturally a (pointed) [[topologically enriched category]] itself.
 
 =--
 
@@ -1530,7 +1887,7 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 +-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
-The archetypical case in which all these abstract concepts reduce to the basic familiar ones is the category [[Ab]] of [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]].
+The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of mnoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unti]] is the additive group of [[integers]] $\mathbb{Z}$):
 
 1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]]. 
 
@@ -1683,7 +2040,7 @@ This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
 +-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
-Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
+Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then 
 
 1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
 
@@ -1736,7 +2093,7 @@ Given a (pointed) [[topologically enriched category|topological]] [[closed monoi
 +-- {: .num_prop #MonoidalCategoryOfModules}
 ###### Proposition
 
-Given a (pointed) [[topologically enriched category|topological]] [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
+Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), and given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}). If all [[coequalizers]] exist in $\mathcal{C}$, then the [[tensor product of modules]] $\otimes_A$ from def. \ref{TensorProductOfModulesOverCommutativeMonoidObject} makes the [[category of modules]] $A Mod(\mathcal{C})$ into a [[symmetric monoidal category]], $(A Mod, \otimes_A, A)$ with [[tensor unit]] the object $A$ itself, regarded as an $A$-module via prop. \ref{MonoidModuleOverItself}.
 
 If moreover all [[equalizers]] exist, then this is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] given by the function modules $hom_A$ of def. \ref{TensorProductOfModulesOverCommutativeMonoidObject}.
 
@@ -2099,7 +2456,7 @@ such that
 
 But here we need to consider groups with more general geometric structure. The key to the generalization is to regard [[spaces]] dually via their [[algebras of functions]].
 
-The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[]algebraic geometry]. In great generality it appears as "[[Isbell duality]]".
+The [[duality]] between (local) [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] which served as motivation for the very definition of [[algebraic geometry]]. In great generality it appears as "[[Isbell duality]]".
 
 In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
 
