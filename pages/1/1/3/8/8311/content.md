@@ -40,11 +40,12 @@ given by the action of $R$ on $A$ and on $B$.
 
 =--
 
-+-- {: .num_defn}
-###### Definition
++-- {: .num_remark}
+###### Remark
 
 
-If $R$ is a [[field]], then $R$-modules are [[vector spaces]]; this gives probably the most familiar case of a [[tensor product]] spaces, which is also probably the situation where the concept was first conceived.
+If the ring $R$ happens to be a [[field]], then $R$-modules are [[vector spaces]] and the tensor product of $R$-modules becomes the [[tensor product of vector spaces]].
+
 
 =--
 
