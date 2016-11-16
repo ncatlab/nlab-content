@@ -14,19 +14,19 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Definition
 
-Given a set $G$, an __$G$-graded vector space__ is a map $V$
+Given a [[set]] $G$, an __$G$-graded vector space__ is a map $V$
 assigning to each element $g \in G$ a [[vector space]] $V_g$.  Given $G$-graded vector spaces $V$ and $W$, a morphism $f\colon V \to W$ assigns to each element $g \in G$ a linear operator $f_g\colon V_g \to W_g$.  That is, the [[category]] of $G$-graded vector spaces is the [[functor category]] $Vect^G$.
 
 We can just as easily talk about a __$G$-graded [[module]]__ or a __$G$-[[graded object]]__ in any [[category]].  However, a [[graded algebra]] has additional requirements (using a [[monoid]] structure on $G$, as below).
 
 In other words, a $G$-graded vector space is a functor $V\colon G \to Vect$, where the set $G$ is treated as a [[discrete category]], and [[Vect]] is the category of vector spaces. Similarly, a morphism of $G$-graded vector spaces is a natural transformation between such functors.  In short, the category of $G$-graded vector spaces is the [[functor category]] $Vect^G$.
 
-People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]], with the tensor product given by
+People are usually interested in $G$-graded vector spaces when the set $G$ is equipped with extra structure.  If the set $G$ is a [[monoid]], $Vect^G$ is a [[monoidal category]], with the [[tensor product]] given by
 $$
   (V \otimes W)_g = \bigoplus_{h \cdot k = g} V_h \otimes W_k.
 $$
@@ -178,7 +178,7 @@ This sign convention is needed to ensure that $s s^{-1} = id$.
 
 ### Tensor products
 
-The _tensor product_ of two pre-gvs, $V$ and $W$, is $V\otimes W$, where
+The _[[tensor product]]_ of two pre-gvs, $V$ and $W$, is $V\otimes W$, where
 
 $$(V\otimes W)_n = \bigoplus_{p + q = n}V_p\otimes W_q.$$
 
@@ -190,9 +190,19 @@ and is of degree $|f| + |g|$.
 
 In particular there is a natural injection $(\#V)\otimes (\#W) \to \#(V\otimes W)$, and this is an isomorphism if either $V$ or $W$ is of finite type.
 
+This tensor product makes the category of graded vector spaces into a [[monoidal category]]. This becomes a [[symmetric monoidal category]] with [[braiding]] the evident braiding inherited from the underlying vector spaces.
+
+Notice that given suitable [[cocycles]] on $G$, then $G$-graded vector spaces may be equiped with a non-trivial braiding. For instance on the monoidal category of $\mathbb{Z}/2$-graded vector spaces there is one non-trivial symmetric braiding, up to equivalence. Imposing this yields [[super vector spaces]].
+
 ## Related concepts
 
-* [[graded set]]
+* [[graded set]], [[graded object]]
+
+* [[super vector space]]
+
+* [[chain complex]]
+
+* [[differential graded algebra]]
 
 [[!redirects graded vector space]]
 [[!redirects graded vector spaces]]
