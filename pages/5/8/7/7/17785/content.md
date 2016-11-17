@@ -36,7 +36,11 @@ Discussion of [[crystalline cohomology]] of super-schemes:
 
 * Martin Luu, _Chrystalline cohomology of superschemes_ ([pdf](http://math.uiuc.edu/~mluu/Luu-crystalline.pdf))
 
+
 [[!redirects super-schemes]]
+
+[[!redirects super scheme]]
+[[!redirects super schemes]]
 
 [[!redirects superscheme]]
 [[!redirects superschemes]]
