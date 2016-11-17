@@ -75,6 +75,24 @@ This may be the oldest notion of tensor product, since the definition of the int
 
 While the universal property referred to above (every bilinear map $A,B\to C$ factors uniquely through $A,B\to A\otimes B$ via a map $A\otimes B \to C$) suffices to define the tensor product, it does not suffice to prove that it is associative and unital.  For this we need the stronger property that any multilinear map $D_1,\dots,D_m,A,B,E_1,\dots, E_n \to C$ factors uniquely through $A,B\to A\otimes B$ via a multilinear map $D_1,\dots,D_m, A\otimes B ,E_1,\dots, E_n \to C$.
 
+### In terms of heteromorphisms
+
+An alternative approach is to define the tensor product via an inter-categorical universal property involving [[heteromorphism|heteromorphisms]]. Tensor products do not arise via an adjunction, but we can observe that $ hom (a \otimes b, c) \simeq het (\langle a, b \rangle, c) $, which is to say that any morphism from $a \otimes b$ to $c$ in some category $C$ corresponds to a heteromorphism from $\langle a, b \rangle$ in $C \times C$ to $c$ in $C$.
+
+When tensor products exists, we have a canonical het $\eta_{\langle a, b \rangle} \colon \langle a, b \rangle \to a \otimes b$. Given another het $\phi \colon \langle a, b \rangle \to c$, we get the following commutative diagram.
+
+
+$$
+\begin{array}{cccC}
+                                                 & {\langle a, b \rangle} &  &   & \\
+          \eta_{\langle a, b \rangle} & \downarrow           & \overset{\phi}\searrow       &     & \\
+                                                 & a \otimes b            & \underset{f}\dashrightarrow & C &  \\ \end{array}
+$$
+
+
+
+This represents an example of a more general method for translating universal properties in multicategories into ones involving heteromorphisms.
+
 ### Of modules in a monoidal category
 
 Let $R$ be a [[commutative ring]] and consider the multicategory $R$[[Mod]] of $R$-[[modules]] and $R$-[[multilinear maps]].  In this case the 
@@ -155,6 +173,10 @@ On the other hand, in any bicategory (in fact, any double category) there is a v
 Exposition of the tensor product of $R$-[[modules]] is for instance in 
 
 * Keith Conrad, _Tensor products_ ([pdf](http://www.math.uconn.edu/~kconrad/blurbs/linmultialg/tensorprod.pdf))
+
+A characterization for tensor products of $R$-modules in terms of heteromorphisms appears in section 9 of.
+
+* David Ellerman, _Mac Lane, Bourbaki, and Adjoints: A Heteromorphic Retrospective_ ([pdf](http://www.ellerman.org/wp-content/uploads/2015/06/Maclane-Bourbaki-Redux.pdf))
 
 
 [[!redirects tensor products]]
