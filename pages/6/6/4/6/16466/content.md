@@ -39,7 +39,7 @@ More concretely, in [[quantum field theory]], under the [[Wigner classification]
 ### For Tannaka duality of Hopf algebras
  {#RelevanceForHopfAlgebras}
 
-By [[Tannaka duality]] [[rigid monoidal category]] [[symmetric monoidal categories]] in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras over [[algebraically closed fields]] of [[characteristic zero]] whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent [[to supercommutative Hopf algebras]]. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
+By [[Tannaka duality]] [[rigid monoidal category]] [[symmetric monoidal categories]] in general are [[categories of modules]] of [[triangular Hopf algebras]]. Hence Deligne's theorem here implies that those triangular Hopf algebras over [[algebraically closed fields]] of [[characteristic zero]] whose category of representation has subexponential growth (def. \ref{SubexponentialGrowth} below) are equivalent to [[supercommutative Hopf algebras]]. See ([Etingof-Gelaki 02](#EtingofGelaki02)) for more.
 
 [[!include structure on algebras and their module categories - table]]
 
@@ -1821,6 +1821,9 @@ are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid stru
 
 =--
 
+### Modules in tensor categories
+ {#Modules InTensorCategories}
+
 
 +-- {: .num_defn #ModulesInMonoidalCategory}
 ###### Definition
@@ -2473,9 +2476,14 @@ When thinking of commutative monoids in some tensor category as [[formal duals]]
 +-- {: .num_prop #CoproductsInCMon}
 ###### Proposition
 
-Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $CMon(\matcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $R CAlg(\mathcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
 
-Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]].
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
+
+$$
+  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
+  \,.
+$$
 
 =--
 
@@ -2937,16 +2945,15 @@ For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ a
 
 
 
-### Linear representations as Comodules
+### Linear (super-)representations as Comodules
  {#LinearRepresentationsAsComodules}
 
 +-- {: .num_defn #CommutativeHopfAlgebroidComodule}
 ###### Definition
 
-Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$, def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents},
-then a **left [[comodule]]** over $\Gamma$ is
+Given a [[commutative Hopf algebroid]] $\Gamma$ over $A$ (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}) in some [[tensor category]] (def. \ref{TensorCategory}), then a **left [[comodule]]** over $\Gamma$ is
 
-1. an $A$-[[module]] $N$;
+1. an $A$-[[module object]] $N$ in $\mathcal{A}$ (def. \ref{ModulesInMonoidalCategory}) i;
 
 1. an $A$-[[module]] [[homomorphism]] (co-action)
 
@@ -2965,7 +2972,7 @@ such that
 A [[homomorphism]] between comodules $N_1 \to N_2$ is a homomorphism of underlying $A$-modules making [[commuting diagrams]] with the co-action morphism. Write
 
 $$
-  \Gamma CoMod
+  \Gamma CoMod(\mathcal{A})
 $$
 
 for the resulting [[category]] of (left) comodules over $\Gamma$. Analogously there are right comodules.
@@ -3068,34 +3075,28 @@ $$
   \,.
 $$
 
-Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]]. We now recall what recall what that means. 
+Under the tensor product of co-modules (def. \ref{TensorProductOfComodulesOverAHopfAlgebra}), these form a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}). 
 
 
-(...)
 
 +-- {: .num_defn #Superrepresentation}
 ###### Definition
 
-A _super-[[representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is a [[linear representation]] of $G$ on a [[finite number|finite]] [[dimension|dimensional]] [[vector space]] $V$ over $k$ such that when $V$ is equipped with the grading by $\pm 1$-[[eigenspaces]] of $\epsilon$, even/odd elements of $G$ act with even/odd parity on $V$.
+A _[[linear representation]]_ of a [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$, def. \ref{InnerParity}, is 
+
+* a [[comodule]] $V$ (def. \ref{CommutativeHopfAlgebroidComodule}) in [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}) for the [[formal dual|formally dual]] [[commutative Hopf algebra]] \mathcal{O}(G)$.
+
+such that 
+
+* the innr parity element $\epsilon$ acts as the identity on $V_{even}$ and by multiplicatin with $-1$ on $V_{odd}$.
 
 =--
 
-+-- {: .num_defn #Superrepresentation_Deligne_def}
-###### Remark
-
-In ([Deligne 02, p. 3, above 0.4)](#Deligne02)) a super-representation of a supergroup $G$ is defined in a different but equivalent way. The vector space $V$ is considered to come equipped a priori with a grading, making it a [[super vector space]], and the following conditions are required to hold:
-
-1. even/odd elements of $G$ act with even/odd parity on $V$
-
-1. in addition such that $\epsilon$ is taken to the parity endomorphism of $V$ (which is the identity on even graded vectors and multiplication with $(-1)$ on odd-graded vectors).
-=--
-
-The given definition \ref{Superrepresentation} is preferable to this one as it doesn't ask for extra [[structure]] on $V$ and then for a property relative to that structure. Also in the following example, one _naturally_ finds that the super vector space on which the ordinary group is represented contains no odd part, and is hence merely an ordinary vector space.
 
 +-- {: .num_example}
 ###### Example
 
-For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivial odd-graded part, and for $\epsilon = 1$ its neutral element taken as the inner parity, then $Rep(G,\epsilon)$ in the sense of def. \ref{Superrepresentation} is just the ordinary [[category of representations]] of $G$.
+For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivial odd-graded part, and for $\epsilon = e $ its [[neutral element]] taken as the inner parity, then $Rep(G,\epsilon)$ in the sense of def. \ref{Superrepresentation} is just the ordinary [[category of representations]] of $G$.
 
 =--
 
@@ -3104,17 +3105,19 @@ For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivi
 +-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
 ###### Proposition
 
-The super-[[representation category]] $Rep(G,\epsilon)$, def. \ref{Superrepresentation} of an algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
+The [[category of representation]] $Rep(G,\epsilon)$ of def. \ref{Superrepresentation} of an affine algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ (def. \ref{InnerParity}}) on finite-dimensional super vector spaces (example \ref{FiniteDimensionalSuperVectorSpaces}) and equippd with the tensor product of comodules from def. \ref{TensorProductOfComodulesOverAHopfAlgebra} is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
  
 =--
 
 ([Deligne 02, 1.21](#Deligne02))
 
-Any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as a generator ([prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
+Moreover, any finite dimensional [[faithful representation]] (which always exists, [prop.](faithful+representation#AlgebraicGroupHasFinDimFaithfulRepresentations)) serves as an $\otimes$-generator (def. \ref{FiniteTensorGeneration}).
+
+See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
 
 
-## Statement of theorem
+## Statement of the theorem
  {#Statement}
 
 +-- {: .num_theorem #TheTheorem}
@@ -3122,7 +3125,7 @@ Any finite dimensional [[faithful representation]] (which always exists, [prop.]
 
 Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such that
 
-1. $k$ is an [[algebraically closed field]] of [[characteritsic zero]] (e.g. the field of [[complex numbers]]) 
+1. $k$ is an [[algebraically closed field]] of [[characteristic zero]] (e.g. the field of [[complex numbers]]) 
 
 1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}) 
 
@@ -3139,7 +3142,7 @@ then there exists
      \,.
    $$
 
-   between $\mathcal{A}$ and the [[category of representations]] of finite dimension, according to example \ref{RegularTensorCategoriesOfSuperrepresentations} of $G$.
+   between $\mathcal{A}$ and the [[category of representations]] of $G$ of finite dimension, according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}.
 
 =--
 
