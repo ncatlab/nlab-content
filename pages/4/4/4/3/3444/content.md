@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Category theory
+#### Representation theory
 +-- {: .hide}
-[[!include category theory - contents]]
+[[!include representation theory - contents]]
 =--
 #### Algebra
 +--{: .hide}
@@ -93,6 +93,9 @@ $$
 
 that sends a representation to its underlying [[vector space]]. The [[Tannakian reconstruction theorem]] says that the group $G$ may be recovered essentially as the group of [[automorphism]]s of the fiber functor $F$.
 
+## Related concepts
+
+* [[tensor product of representations]]
 
 
 ## References
