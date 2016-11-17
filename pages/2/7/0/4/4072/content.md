@@ -41,7 +41,7 @@ A [[category]] that has all [[pullbacks]] and a [[terminal object]] also has all
 
 =--
 
-More precisely, finite limits are contained in the [[saturation of a class of limits|saturation]] of the class containing only finite products and equalizers, and also that of the class containing only pullbacks and terminal objects.  (The actual saturation is somewhat larger than this --- it is the class of [[L-finite limits]].)
+More precisely, finite limits are contained in the [[saturation of a class of limits|saturation]] of the class containing only [[finite products]] and [[equalizers]], and also that of the class containing only pullbacks and terminal objects.  (The actual saturation is somewhat larger than this --- it is the class of [[L-finite limits]].)
 
 
 ## Related concepts
