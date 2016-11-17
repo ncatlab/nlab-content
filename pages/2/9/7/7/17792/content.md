@@ -1,0 +1,26 @@
+
+## Definition
+
+A _finite product_ is a [[product]] ([[Cartesian product]]) of a [[finite number]] of factors.
+
+Finite products are generated from the empty product (the [[terminal object]]) and binary products.
+
+Similarly a _finite coproduct_ is a [[coproduct]] of a [[finite number]] of summands. This is generated from the empty coproduct, the [[initial object]], and binary coproducts.
+
+## Related concepts
+
+* [[finite limit]]
+
+* [[Lawvere theory]], [[essentially algebraic theory]]
+
+
+
+
+[[!redirects finite product]]
+[[!redirects finite products]]
+
+[[!redirects finite co-product]]
+[[!redirects finite co-products]]
+
+[[!redirects finite coproduct]]
+[[!redirects finite coproducts]]
