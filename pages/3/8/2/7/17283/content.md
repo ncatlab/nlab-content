@@ -1256,3 +1256,5 @@ See also
 [[!redirects super-commutative Hopf algebra]]
 [[!redirects super-commutative Hopf algebras]]
 
+[[!redirects supercommutative Hopf algebra]]
+[[!redirects supercommutative Hopf algebras]]
