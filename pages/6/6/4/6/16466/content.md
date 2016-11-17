@@ -1713,6 +1713,26 @@ $$
 =--
 
 
++-- {: .num_defn #ParityAutomorphism}
+###### Definition
+
+Given a [[supercommutative superalgebra]] $A$ (def. \ref{SupercommutativeSuperalgebra}), its **parity involution** is the algebra [[automorphism]] 
+
+$$
+  par \;\colon\; A \overset{\simeq}{\longrightarrow} A
+$$
+
+which on homogeneously graded elements $a$ of degree $deg(a) \in \{even,odd\} = \mathbb{Z}/2\mathbb{Z}$ is multiplication by the degree
+
+$$
+  a \mapsto (-1)^{deg(a)}a
+  \,.
+$$
+
+=--
+
+(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916))
+
 
 Here are more general and more abstract examples of commutative monoids, which will be useful to make explicit:
 
@@ -2459,6 +2479,8 @@ Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[
 
 =--
 
+See at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+
 
 
 
@@ -2540,7 +2562,79 @@ $$
 Now the [[associativity]] of the group product translates into a corresponding dual property of its dual, called "[[co-associativity]]", and so forth. The resulting algebraic structure is called a **[[Hopf algebra]]**.
  
 
-While the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight. But Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspective is straightforward, we may just as well consider it in the generality of [[groupoids]]:
+While the explicit definition of a _[[Hopf algebra]]_ may look involved at first sight, Hopf algebras are simply [[formal duals]] of [[groups]]. Since this perspective is straightforward, we may just as well consider it in the generality of [[groupoids]].
+
+A simple illustrative archetype of the following construction of commutative Hopf algebroids from homotopy commutative ring spectra is the following situation:
+
+For $X$ a [[finite set]] consider
+
+$$
+  \array{
+    X \times X \times X
+    \\
+    \downarrow^{\mathrlap{\circ = (pr_1, pr_3)}}
+    \\
+    X \times X
+    \\
+    {}^{\mathllap{s = pr_1}}\downarrow 
+     \uparrow 
+    \downarrow^{\mathrlap{t = pr_2}}
+    \\
+    X
+  }  
+$$
+
+as the ("[[codiscrete groupoid|codiscrete]]") [[groupoid]] with $X$ as [[objects]] and precisely one morphism from every object to every other. Hence the [[composition]] operation $\circ$, and the [[source]] and [[target]] maps are simply projections as shown. The identity morphism (going upwards in the above diagram) is the [[diagonal]].
+
+Then consider the image of this structure under forming the [[free abelian groups]] $\mathbb{Z}[X]$, regarded as [[commutative rings]] under pointwise multiplication.
+
+Since 
+
+$$
+  \mathbb{Z}[X \times X]
+    \simeq
+  \mathbb{Z}[X] \otimes \mathbb{Z}[X]
+$$
+
+this yields a diagram of homomorphisms of commutative rings of the form
+
+$$
+  \array{
+    (\mathbb{Z}[X] \otimes \mathbb{Z}[X] )
+      \otimes_{\mathbb{Z}[X]}
+    (\mathbb{Z}[X] \otimes \mathbb{Z}[X])
+    \\
+    \uparrow^{\mathrlap{} }
+    \\
+    \mathbb{Z}[X] \otimes \mathbb{Z}[X]
+    \\
+    \uparrow 
+     \downarrow 
+    \uparrow
+    \\
+    \mathbb{Z}[X]
+  }  
+$$
+
+satisfying some obvious conditions. Observe that here
+
+1. the two morphisms $\mathbb{Z}[X] \rightrightarrows \mathbb{Z}[X] \otimes \mathbb{Z}[X]$ are $f \mapsto f \otimes e$ and $f \mapsto e \otimes f$, respectively, where $e$ denotes the unit element in $\mathbb{Z}[X]$;
+
+1. the morphism $\mathbb{Z}[X] \otimes \mathbb{Z}[X] \to \mathbb{Z}[X]$ is the multiplication in the ring $\mathbb{Z}[X]$;
+
+1. the morphism 
+
+   $$
+     \mathbb{Z}[X] \otimes \mathbb{Z}[X] 
+       \longrightarrow 
+     \mathbb{Z}[X] \otimes \mathbb{Z}[C] \otimes \mathbb{Z}[C] 
+       \overset{\simeq}{\longrightarrow}
+     (\mathbb{Z}[X] \otimes \mathbb{Z}[X] ) \otimes_{\mathbb{Z}[X]} (\mathbb{Z}[X] \otimes \mathbb{Z}[X])
+   $$ 
+
+   is given by $f \otimes g \mapsto f \otimes e \otimes g$.
+
+We now say this again, in generality:
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
 ###### Definition
@@ -2552,10 +2646,12 @@ A **[[commutative Hopf algebroid]]** in $\mathcal{A}$ is an [[internal groupoid]
 
 (e.g. [Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
 
-+-- {: .num_remark #CommutativeHopfAlgebroidSpelledOut}
-###### Remark
-
 We unwind def. \ref{CommutativeHopfAlgebroid}.  For $R \in CMon(\mathcal{A})$, write $Spec(R)$ for same same object, but regarded as an object in $CMon(\mathcal{A})^{op}$. 
+
+
++-- {: .num_prop #CommutativeHopfAlgebroidSpelledOut}
+###### Proposition
+
 
 An [[internal category]] in $CMon(\mathcal{A})^{op}$ is a [[diagram]] in $CMon(\mathcal{A})^{op}$ of the form
 
@@ -2582,8 +2678,7 @@ $$
 
 acting as assigning [[inverses]] with respect to $\circ$.
 
-The key basic fact to use now is that [[tensor product]] of commutative rings exhibits the [[cartesian monoidal category]] structure on $CMon(\mathcal{A})^{op}$, see at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
-
+The key basic fact to use now is prop. \ref{CoproductsInCMon} the [[tensor product]] of commutative monoids exhibits the [[cartesian monoidal category]] structure on $CMon(\mathcal{A})^{op}$, :
 $$
   Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2) 
   \simeq
@@ -2591,7 +2686,7 @@ $$
   \,.
 $$
 
-This means that the above is equivalently a diagram in $CMon(\mathcal{A})$ of the form
+This means that def. \ref{CommutativeHopfAlgebroid} is equivalently a diagram in $CMon(\mathcal{A})$ of the form
 
 $$
   \array{
@@ -2624,8 +2719,6 @@ and satisfying [[formal duality|formally dual]] conditions, spelled out as def. 
 * $\Psi$ is called the _[[comultiplication]]_;
 
 * $c$ is called the _[[antipode]]_ or _conjugation_
-
-
 
 =--
 
@@ -2766,48 +2859,56 @@ e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
 
 By internalizing all of the above from $Vect$ to $sVect$, we obtain the concept of supergrous
 
-(...)
-
 +-- {: .num_defn #Supergroup}
 ###### Definition
 
-An affine algebraic _[[supergroup]]_ $G$ is the [[formal dual]] of a [[super-commutative Hopf algebra]] $\mathcal{O}(G)$.
+An affine algebraic _[[supergroup]]_ $G$ is equivalently
+
+* a pointed, one-object [[groupoid]] in the [[opposite category]] $CMon(sVect_k)^{op} \simeq sAlg_k^{op}$ of [[supercommutative superalgebras]] from def. \ref{SupercommutativeSuperalgebra}
+
+* the [[formal dual]] of a **[[super-commutative Hopf algebra]]**, namely a [[commutative Hopf algebra]] (prop. \ref{CommutativeHopfAlgebroidSpelledOut}, remark \ref{HopfAlgebrasAsHopfAlgebroids}).
 
 =--
 
-We will just say "supergroup" for short in all of the following. We assume throughout that $\mathcal{O}(G)$ is a finitely generated $k$-algebra.
+We will often just say "supergroup" for short in the following.
 
-+-- {: .num_defn #ParityAutomorphism}
-###### Definition
 
-Given a [[superalgebra]] such as $\mathcal{O}(G)$, its _parity involution_ is the algebra [[automorphism]] which on homogeneously graded elements $a$ of degree $deg(a) \in \{even,odd\} = \mathbb{Z}/2\mathbb{Z}$ is multiplication by the degree
-
-$$
-  a \mapsto (-1)^{deg(a)}a
-  \,.
-$$
-
-(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916)). On [[formal duals]] $G$ this induces correspondingly an involutive _parity automorphism_
-
-$$
-  par \colon G \stackrel{\simeq}{\longrightarrow} G
-  \,.
-$$ 
-
-=--
-
-It is convenient in the following to assume that parity involution is an [[inner automorphism]]:
+The following asks that the parity involution (def. \ref{ParityAutomorphism}) on a supergroup is  an [[inner automorphism]]:
 
 +-- {: .num_defn #InnerParity}
 ###### Definition
 
-An _inner parity_ of a [[supergroup]] $G$, def. \ref{Supergroup} is an element $\epsilon \in G_{even}$ (i.e. an algebra homomorphism $\mathcal{O}(G) \to k$), which is [[involution|involutive]] i.e. $\epsilon^2 = 1$ and such that its [[adjoint action]] on $G$ is the parity involution of def. \ref{ParityAutomorphism}.
+An **inner parity** of a [[supergroup]] $G$, def. \ref{Supergroup} is an element $\epsilon \in G_{even}$ such that
+
+1. it is [[involution|involutive]] i.e. $\epsilon^2 = 1$ 
+
+1. its [[adjoint action]] on $G$ is the parity involution of def. \ref{ParityAutomorphism}.
+
+Dually this mean that an inner pariy is an algebra homomorphism $\epsilon^\ast \colon\mathcal{O}(G) \to k$ such that
+
+1. the composite
+
+   $$
+     \mathcal{O}(G) \stackrel{\Psi}{\longrightarrow} \mathcal{O}(G) \otimes_k \mathcal{O}(G) \stackrel{\epsilon^\ast \otimes_k \epsilon^\ast}{\longrightarrow} k \otimes_k k \simeq k
+   $$
+
+   is the counit of the Hopf algebra (hence the formal dual of the neutral element)
+
+1. the parity involution $\mathcal{O}(G) \stackrel{\simeq}{\longrightarrow} \mathcal{O}(G)$ conincides with the composite
+
+   $$
+     \mathcal{O}(G) 
+       \stackrel{(id \otimes_k \Psi) \circ \Psi}{\longrightarrow}   
+    \mathcal{O}(G) \otimes_k \mathcal{O}(G) \otimes_k \mathcal{O}(G)
+      \stackrel{\epsilon^\ast \otimes_k id \otimes_k (c \circ \epsilon^\ast)}{\longrightarrow}
+       k \otimes_k \mathcal{O}(G) \otimes_k k
+   $$
 
 =--
 
 ([Deligne 02, 0.3](#Deligne02))
 
-+-- {: .num_example}
++-- {: .num_example #InnerParityInBosonicSupergroup}
 ###### Example
 
 For $G$ an ordinary (affine algebraic) group, regarded as a supergroup with trivial odd-graded part, then every element $\epsilon \in Z(G)$ in the [[center]] defines an inner parity, def. \ref{InnerParity}. 
@@ -2819,7 +2920,7 @@ For $G$ an ordinary (affine algebraic) group, regarded as a supergroup with triv
 +-- {: .num_remark}
 ###### Remark
 
-In this sense, specifying an involutive central element in an ordinary group is a faint shadow of genuine supergroup structure. In fact such pairs are being referred to as "supergroups" in ([M&#252;ger 06](#Mueger06)).
+In view of remak \ref{InnerParityInBosonicSupergroup}, specifying an involutive central element in an ordinary group is a faint shadow of genuine supergroup structure. In fact such pairs are being referred to as "supergroups" in ([M&#252;ger 06](#Mueger06)).
 
 =--
 
@@ -3027,7 +3128,7 @@ Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such tha
 
 then there exists
 
-1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup})
+1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose underlying [[supercommutative superalgebra]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
 
 1. a tensor-[[equivalence of categories]] 
 
