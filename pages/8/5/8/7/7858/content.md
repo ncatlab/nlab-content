@@ -59,23 +59,27 @@ add to zero unless $x = y$, hence that $\zeta*\mu = \mu*\zeta = \delta$.
 
 =--
 
-We are now ready to state the M&#246;bius inversion formula for posets.
+We are now ready to state the M&#246;bius inversion formula(s) for posets.
 
 +-- {: .num_prop }
 ###### Proposition
 
 [(Rota 1964)](#Rota64):
 Let $f$ and $g$ be functions defined over a locally finite poset $P$. Then
-$$f(y) = \sum_{x \le y} g(x)$$
-if and only if
-$$g(y) = \sum_{x \le y} f(x)\mu(x,y)$$
+$$f(y) = \sum_{x \le y} g(x)
+\qquad\text{if and only if}\qquad
+g(y) = \sum_{x \le y} f(x)\mu(x,y).$$
+Dually, we also have that
+$$f(x) = \sum_{y \ge x} g(y)
+\qquad\text{if and only if}\qquad
+g(x) = \sum_{y \ge x} \mu(x,y)f(y).$$
 
 =--
 
 +-- {: .proof} 
 ###### Proof
 
-An easy way of proving the M&#246;bius inversion formula [(Kung et al.)](#KungRotaYan) is to view $\zeta$ and $\mu$ as matrices acting on the column vectors $f$ and $g$ by multiplication. Then the proposition simply says that $f = g * \zeta$ iff $f * \mu = g$. (There is also a dual formulation, corresponding to the statement that $f = \zeta * g$ iff $\mu * f = g$.)
+An easy way of proving the M&#246;bius inversion formulas [(Kung et al.)](#KungRotaYan) is to view $\zeta$ and $\mu$ as matrices acting on the column vectors $f$ and $g$ by multiplication. Then the first proposition simply says that $f = g * \zeta$ iff $f * \mu = g$, while the dual formulation says that $f = \zeta * g$ iff $\mu * f = g$.
 
 =--
 
@@ -94,11 +98,21 @@ for all $p,p' \in P$ and $q,q' \in Q$.
 Let $\mathcal{P}X$ be the lattice of subsets of a finite set $X$. $\mathcal{P}X$ is isomorphic to the cartesian product of $|X|$ many copies of the 1-chain $[1] = \{ 0 \lt 1 \}$, and so by the product rule for the M&#246;bius function, we have
 $$\mu(I,J) = (-1)^{|J|-|I|}$$
 for any pair of subsets $I,J \subseteq X$ such that $I \subseteq J$. The M&#246;bius inversion formula then says that for any functions $f$ and $g$ defined on $\mathcal{P}X$, we have
-$$f(J) = \sum_{I \subseteq J} g(I)$$
-if and only if
-$$g(J) = \sum_{I \subseteq J} (-1)^{|J|-|I|} f(I)$$
+$$f(J) = \sum_{I \subseteq J} g(I)
+\qquad\text{if and only if}\qquad
+g(J) = \sum_{I \subseteq J} (-1)^{|J|-|I|} f(I)$$
+or dually that
+$$f(I) = \sum_{J \supseteq I} g(J)
+\qquad\text{if and only if}\qquad
+g(I) = \sum_{J \supseteq I} (-1)^{|J|-|I|} f(J)$$
 This is called the _inclusion-exclusion_ principle.
 
+As a textbook example of the inclusion-exclusion principle in action, suppose we want to compute $g(I)$ = the number of permutations of $X$ fixing exactly the elements in $I$. Well, it is easy to compute the number of permutations of $X$ fixing _at least_ the elements in $I$,
+$$f(I) = \sum_{J \supseteq I} g(J) = (|X|-|I|)!$$
+but then we can compute $g$ in terms of $f$ via M&#246;bius inversion. As a special case, when $|X| = n$ and $I = \emptyset$, we recover the classical formula for the number of _derangements_ of $n$ elements:
+$$
+!n = \sum_{k=0}^n (-1)^k \binom{n}{k} (n-k)! = \sum_{k=0}^n (-1)^k \frac{n!}{k!}
+$$
 
 ## M&#246;bius inversion for categories
 
