@@ -47,27 +47,25 @@ In ([Kitchloo-Morava 12](#KitchlooMorava12)) the cosmic Galois group is related 
 
 The "cosmic Galois group" in [[renormalization]] theory was introduced in 
 
-* [[Alain Connes]], [[Matilde Marcolli]], _Renormalization and motivic Galois theory_ ([arXiv:math/0409306](http://arxiv.org/abs/math/0409306)) 
- {#ConnesMarcolli04}
+* {#ConnesMarcolli04} [[Alain Connes]], [[Matilde Marcolli]], _Renormalization and motivic Galois theory_ ([arXiv:math/0409306](http://arxiv.org/abs/math/0409306)) 
+ 
 
 The name originates in 
 
-* [[Pierre Cartier]] _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
- {#Cartier01}
+* {#Cartier01} [[Pierre Cartier]] _A mad day's work: from Grothendieck to Connes and Kontsevich The evolution of concepts of space and symmetry_, Bull. Amer. Math. Soc. __38__ (2001), 389-408, [pdf](http://www.ams.org/bull/2001-38-04/S0273-0979-01-00913-2/S0273-0979-01-00913-2.pdf)
+ 
 
-
-An exposition is in 
-
-* [[Alain Connes]], talk at [Galois 200th birthday conference](http://www.galois.ihp.fr/manifestations/colloque/) January (2012) [pdf slides](http://www.alainconnes.org/docs/slidesgaloisihp1.pdf)
- {#Connes12}
-
-and 
-
-* Francis Brown, _Feynman Amplitudes and Cosmic Galois group_ ([arXiv:1512.06409](https://arxiv.org/abs/1512.06409))
 
 A similar statement about a [[motivic Galois group]] acting on the space of [[deformation quantizations]] of a [[free field theory]] appeared earlier in 
 
 * [[Maxim Kontsevich]], _Operads and Motives in Deformation Quantization_, Lett. Math. Phys.48:35-72,1999 ([arXiv:math/9904055](http://arxiv.org/abs/math/9904055))
+
+Review and exposition includes
+
+* {#Connes12} [[Alain Connes]], talk at [Galois 200th birthday conference](http://www.galois.ihp.fr/manifestations/colloque/) January (2012) [pdf slides](http://www.alainconnes.org/docs/slidesgaloisihp1.pdf)
+ 
+* {#Brown15} [[Francis Brown]], _Feynman Amplitudes and Cosmic Galois group_ ([arXiv:1512.06409](https://arxiv.org/abs/1512.06409))
+
 
 A technical review of aspects of this is in 
 
@@ -82,8 +80,8 @@ See also
 
 A review of cosmic Galois/Grothendieck-Teichm&#252;ller group and a discussion from the perspective of the [[motivic symplectic category]] is section 5 of 
 
-* [[Nitu Kitchloo]], [[Jack Morava]], _The Grothendieck--Teichm&#252;ller group and the stable symplectic category_, 2012.  ([arxiv:1212.6905](http://arxiv.org/abs/1212.6905))
- {#KitchlooMorava12}
+* {#KitchlooMorava12} [[Nitu Kitchloo]], [[Jack Morava]], _The Grothendieck--Teichm&#252;ller group and the stable symplectic category_, 2012.  ([arxiv:1212.6905](http://arxiv.org/abs/1212.6905))
+ 
 
 based on 
 
