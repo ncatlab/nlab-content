@@ -1013,7 +1013,7 @@ For the [[M2-brane]]:
 
 For the [[M2-brane]] and the [[M5-brane]]:
 
-* {#Claus98} Piet Claus, _Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$_, Phys.Rev. D59 (1999) 066003 ([arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045))
+* {#Claus98} P. Claus, _Super M-brane actions in $adS_4 \times S^7$ and $adS_7 \times S^4$_, Phys.Rev. D59 (1999) 066003 ([arXiv:hep-th/9809045](http://arxiv.org/abs/hep-th/9809045))
 
 * Makoto Sakaguchi, Kentaroh Yoshida, _Open M-branes on $AdS_{4/7} \times S^{7/4}$ Revisited_,  Nucl.Phys. B714 (2005) 51-66 ([arXiv:hep-th/0405109](http://arxiv.org/abs/hep-th/0405109))
 
