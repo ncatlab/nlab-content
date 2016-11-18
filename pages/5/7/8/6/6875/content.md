@@ -8,9 +8,9 @@ There is a classical survey
 
 * [[Gian-Carlo Rota]], _Hopf algebra methods in combinatorics_, Probl&#232;mes combinatoires et th&#233;orie des graphes (Colloq. Internat. CNRS, Univ. Orsay, Orsay, 1976), pp. 363&#8211;365, Colloq. Internat. CNRS __260__, CNRS, Paris 1978.
 
-and for the basic intuition for Hopf algebras in ocmbinatorics see the chapter 5 of [[S. Majid]]'s _Foundation of quantum group theory_. Nowdays the major book on combinatorial Hopf algebras is
+and for the basic intuition for Hopf algebras in combinatorics see the chapter 5 of [[S. Majid]]'s _Foundation of quantum group theory_. Nowdays the major book on combinatorial Hopf algebras is
 
-* [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], Stephen Chase and [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.tamu.edu/~maguiar/a.pdf))
+* [[Marcelo Aguiar]], Swapneel Mahajan, _[[Monoidal Functors, Species and Hopf Algebras]]_, With forewords by [[Kenneth Brown]], Stephen Chase and [[André Joyal]]. CRM Monograph Series __29__ Amer. Math. Soc. 2010. lii+784 pp. ([pdf draft](http://www.math.cornell.edu/~maguiar/a.pdf))
 
 Other references include
 
