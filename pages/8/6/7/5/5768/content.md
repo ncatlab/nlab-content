@@ -77,6 +77,8 @@ V. 2 (Madrid, 2006), Eur. Math. Soc., Z&#252;rich, 2006, 827&#8211;852 [djvu](ht
 
 *  [[Alain Connes]], [[Caterina Consani]], _Geometry of the scaling site_, [arxiv/1603.03191](https://arxiv.org/abs/1603.03191) 
 
+* Keyvan Yaghmayi, _Geometry over the tropical dual numbers_, [arxiv/1611.05508](https://arxiv.org/abs/1611.05508)
+
 An alternative algebraic framework for tropical mathematics (not based on semirings), "more compatible with valuation theory" has been proposed in
 
 * Zur Izhakian, Manfred Knebusch, Louis Rowen, _Algebraic structures of tropical mathematics_, [arxiv/1305.3906](http://arxiv.org/abs/1305.3906) 
