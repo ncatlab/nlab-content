@@ -453,10 +453,10 @@ Let $\Lambda$ be a [[commutative ring]] which is
 Write 
 
 $$
-  ArtAlg_{\Lambda} 
+  ArtCAlg_{\Lambda} 
 $$
 
-for the [[category]] of [[local Artin algebras]] over $\Lambda$ whose residue field is also $k$.
+for the [[category]] of commutative [[local Artin algebras]] over $\Lambda$ whose residue field is also $k$.
 
 =--
 
@@ -484,7 +484,7 @@ In all of the following this is assumed to be the case, with $k$ of [[characteri
 Write 
 
 $$
-  dgcArtAlg_k \in Cat
+  dgArtCAlg_k \in Cat
 $$
 
 for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$ with [[residue field]] $k$.
@@ -492,13 +492,13 @@ for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|A
 Write
 
 $$
-  Pro(dgcArtAlg_k) \in Cat
+  Pro(dgArtCAlg_k) \in Cat
 $$
 
 for its category of [[pro-objects]] and write
 
 $$
-  dgFormalSpace \coloneqq Pro(dgcArtAlg_k)^{op}
+  dgFormalSpace \coloneqq Pro(dgArtCAlg_k)^{op}
 $$
 
 for the [[opposite category]] of that.
@@ -601,7 +601,11 @@ The induced structure of a [[category of fibrant objects]] on $L_\infty Alg$ und
 +-- {: .proof}
 ###### Proof
 
-The first statement is proven in the proof of ([Pridham, prop. 4.42](#Pridham)), the second follows by ([Pridham, def. 4.34](#Pridham)) with the existence of the model structure on $dgFormalSpaces$.
+The first statement is proven in the proof of ([Pridham, prop. 4.42](#Pridham)).
+
+The second statement follows by ([Pridham, def. 4.34](#Pridham)) with the existence of the model structure on $dgFormalSpaces$.
+
+> Should spell out how this follows, using lifting.
 
 =--
 
