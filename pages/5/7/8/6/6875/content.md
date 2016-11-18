@@ -14,6 +14,8 @@ and for the basic intuition for Hopf algebras in combinatorics see the chapter 5
 
 Other references include
 
+* S. A. Joni and G-C. Rota, _Coalgebras and bialgebras in combinatorics_, Umbral Calculus and Hopf Algebras (Norman, OK, 1978), Contemp. Math., vol. 6, AMS, Providence, RI, 1982.
+
 * G-C. Rota, J. A. Stein, _Plethystic Hopf algebras_, Proc. Nat. Acad. Sci. U.S.A. __91__ (1994), no. 26, 13057&#8211;13061, [MR96e:16054](http://www.ams.org/mathscinet-getitem?mr=1306900), _Plethystic algebras and vector symmetric functions_, Proc. Nat. Acad. Sci. U.S.A. __91__ (1994), no. 26, 13062&#8211;13066, [MR96e:16055](http://www.ams.org/mathscinet-getitem?mr=1306901)
 * Kurusch Ebrahimi-Fard, _Combinatorial Hopf algebras+, lectures at CIMAT summer school, slides [pdf](http://www-fourier.ujf-grenoble.fr/~peters/CIMAT/Abstracts/kurusch.pdf)
 * F. Hivert, J.-C. Novelli, J.-Y. Thibon, _Trees, functional equations and combinatorial Hopf algebras_, Europ. J. Comb. __29__ (1) (2008), 1682&#8211;1695.
