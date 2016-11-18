@@ -569,6 +569,16 @@ Beware, as in remark \ref{OndgCoAlgWEs}, that the class of weak equivalences in 
 
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+There is an [[equivalence of categories]] between the [[homotopy category]] of $dgFormalSpace$ hence of $L_\infty Alg$ according to remark \ref{CategoryOfFibrantObjectsLInfinity}, and the homotopy category of $L_\infty$-algebras according to ([Kontsevich 94](#Kontsevich94)).
+
+=--
+
+([Pridham, prop. 4.42, see above def. 4.29](#Pridham))
+
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -755,7 +765,8 @@ Precursors for 2-reduced dg-algebras are dicussed in
 
 The homotopy-theoretic nature of $L_\infty$-algebras and their relation to deformation problems was then notably amplified in 
 
-* [[Maxim Kontsevich]], _Topics in algebra &#8212; deformation theory_ Lecture Notes (1994)
+* {#Kontsevich94} [[Maxim Kontsevich]], _Topics in algebra &#8212; deformation theory_ Lecture Notes (1994) ([ps](http://www.math.brown.edu/&#8764;abrmovic/kontsdef.ps))
+
 
 Model structurs on algebras over operads in chain complexes were discussed generally in 
 
