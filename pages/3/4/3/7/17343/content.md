@@ -571,7 +571,7 @@ is the [[topological space]]
 * whose underlying set is the set $Hom_{Top}(Y,X)$ of [[continuous 
 functions]] $Y \to X$, 
 
-* whose [[open subsets]] are [[finitary intersections]] of [[unions]] of the following [[topological base|subbase]] of standard open subsets:
+* whose [[open subsets]] are [[unions]] of [[finitary intersections]] of the following [[topological base|subbase]] elements of standard open subsets:
 
   the standard open subset $U^K \subset Hom_{Top}(Y,X)$ for 
 
