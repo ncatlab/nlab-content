@@ -189,6 +189,10 @@ Springer, New York, (1991) MR1104934.
 
 * [[Alan Weinstein]], _Tangential deformation quantization and polarized symplectic groupoids_, in _Deformation theory and symplectic geometry_ (Ascona, 1996), 301&#8211;314, Kluwer (1997) [MR1480730](http://www.ams.org/mathscinet-getitem?mr=1480730)
 
+* M. V. Karas\"ev, _The Maslov quantization conditions in higher cohomology and analogs of notions developed in Lie theory for canonical fibre bundles of symplectic manifolds II_, Selecta Mathematica Sovietica 8, pp. 235&#8211;257, 1989.
+
+* S. Zakrzewski, Quantum and classical pseudogroups I, II, Commun. Math. Phys. 134 (1990)
+
 See also the references at _[[geometric quantization of symplectic groupoids]]_ .
 
 Lecture notes include
