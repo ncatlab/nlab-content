@@ -57,11 +57,17 @@ They are closely related to [[superconformal]] symmetry (e.g. [DAuria-Ferrara-Ll
 
 * G.I. Lehrer, R.B. Zhang, _The second fundamental theorem of invariant theory for the orthosymplectic supergroup_ ([arXiv:1407.1058](http://arxiv.org/abs/1407.1058))
 
+
 ### In superstring theory
 
 * {#BergshoessProeyen00} [[Eric Bergshoeff]], [[Antoine Van Proeyen]], _The many faces of $OSp(1|32)$_, Class. Quantum Grav. 17 (2000) 3277&#8211;3303 ([arXiv:hep-th/0003261](http://arxiv.org/abs/hep-th/0003261))
 
 * {#FernandezIzquierdoOlmo15} J.J. Fernandez, J.M. Izquierdo, M.A. del Olmo, _Contractions from $osp(1|32) \oplus osp(1|32)$ to the M-theory superalgebra extended by additional fermionic generators_,Nuclear Physics B Volume 897, August 2015, Pages 87&#8211;97 ([arXiv:1504.05946](http://arxiv.org/abs/1504.05946))
 
+### Representation theory
+
+The [[representation theory]] of the orthosymplectic group is discussed in
+
+* {#NicolaiSezgin84} [[Hermann Nicolai]], [[Ergin Sezgin]], _Singleton representations of $Osp(N,4)$_,  Physics Letters B, Volume 143, Issues 4&#8211;6, 16 August 1984, Pages 389-395
 
 [[!redirects orthosymplectic supergroup]]
