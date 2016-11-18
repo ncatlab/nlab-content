@@ -231,7 +231,12 @@ For $(X,\pi)$ a Poisson vector space, hence a [[vector space]] $X = V$ equipped 
 
 Symplectic groupoids were introduced as intended tools for the quantization of Poisson manifolds in
 
+* [[Alan Weinstein]], _Symplectic groupoids and Poisson manifolds_, Bull. Amer. Math. Soc. (N.S.) 16 (1987), 101&#8211;104; _Symplectic groupoids, geometric quantization, and irrational rotation algebras_ in
+_Symplectic geometry, groupoids, and integrable systems_ (Berkeley, CA, 1989), 281&#8211;290, Springer, New York, (1991) MR1104934; _Tangential deformation quantization and polarized symplectic groupoids_, in _Deformation theory and symplectic geometry_ (Ascona, 1996), 301&#8211;314, Kluwer (1997) [MR1480730](http://www.ams.org/mathscinet-getitem?mr=1480730)
+
 * [[Alan Weinstein]], [[Ping Xu]], _Extensions of symplectic groupoids and quantization_, Journal f&#252;r die reine und angewandte Mathematik (1991) Volume 417 ([pdf](http://www.digizeitschriften.de/dms/img/?PPN=GDZPPN00220858X))
+
+* S. Zakrzewski, Quantum and classical pseudogroups I, II, Commun. Math. Phys. 134 (1990)
 
 Their [[prequantization]] is developed in
 
