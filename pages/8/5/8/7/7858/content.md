@@ -113,6 +113,9 @@ but then we can compute $g$ in terms of $f$ via M&#246;bius inversion. As a spec
 $$
 !n = \sum_{k=0}^n (-1)^k \binom{n}{k} (n-k)! = \sum_{k=0}^n (-1)^k \frac{n!}{k!}
 $$
+where a derangement is defined as a permutation fixing no elements.
+
+**Exercise:** Prove that $n! = \sum_{k=0}^n (-1)^k \binom{n}{k} (n-k)^n$.
 
 ## M&#246;bius inversion for categories
 
