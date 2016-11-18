@@ -436,6 +436,48 @@ This is ([Pridham, cor. 2.16](#Pridham)).
 ### On dg formal spaces
  {#OnDgInfinitesimallyThickenedPoints}
 
+
++-- {: .num_defn }
+###### Definition
+
+Let $\Lambda$ be a [[commutative ring]] which is
+
+1. [[noetherian ring|noetherian]]
+
+1. [[local ring|local]] with 
+
+   1. maximal ideal $\mu$ 
+
+   1. [[residue field]] $k$.
+
+Write 
+
+$$
+  ArtCAlg_{\Lambda} 
+$$
+
+for the [[category]] of commutative [[local Artin algebras]] over $\Lambda$ whose residue field is also $k$.
+
+=--
+
+[Pridham, 1.2](#Pridham)
+
++-- {: .num_example }
+###### Example
+
+If $\mu = 0$ then $\Lambda = k$ and we just write
+
+$$
+  ArtCAlg_k
+  \,.
+$$
+
+=--
+
+In all of the following this is assumed to be the case, with $k$ of [[characteristic zero]].
+
+([Pridham, below def. 3.3](#Pridham))
+
 +-- {: .num_defn #dgFormalSpace}
 ###### Definition
 
@@ -445,7 +487,7 @@ $$
   dgArtCAlg_k \in Cat
 $$
 
-for the [[category]] of graded commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$.
+for the [[category]] of $\mathbb{Z}$-graded graded-commutative [[Artin algebra|Artin]] [[dg-algebras]] over $k$ with [[residue field]] $k$.
 
 Write
 
@@ -463,12 +505,12 @@ for the [[opposite category]] of that.
 
 =--
 
-This is ([Pridham, def. 3.1](#Pridham)).
+This is ([Pridham, def. 3.1](#Pridham)) following ([Manetti 02](#Manetti02)).
 
 +-- {: .num_remark #OnProAlg}
 ###### Remark
 
-While it so happens that every [[nLab:coalgebra]] and [[dg-coalgebra]] is the [[filtered colimit]] of its [[finite number|finite]]-[[dimension|dimensional]] subalgebras (see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_), this is not in general the case for [[algebras]]. But it follows that the [[linear dual]] of a general coalgebra is a [[filtered limit]] of finite-dimensional algebras, hence a [[pro-object]] in finite dimensional algebras. This is the reason for the appearance of [[pro-objects]] in prop. \ref{dgFormalSpace}.
+While it so happens that every [[nLab:coalgebra]] and [[dg-coalgebra]] is the [[filtered colimit]] of its [[finite number|finite]]-[[dimension|dimensional]] subalgebras (see at _[coalgebra -- As filtered colimits](coalgebra#AsFilteredColimits)_), this is not in general the case for [[algebras]]. But it follows that the [[linear dual]] of a general coalgebra is a [[filtered limit]] of finite-dimensional algebras, hence a [[pro-object]] in finite dimensional algebras. This is the reason for the appearance of [[pro-objects]] in def. \ref{dgFormalSpace}.
 
 =--
 
@@ -494,7 +536,8 @@ $$
   L_\infty Alg \stackrel{}{\to} Pro(dgArtinCAlg_k)^{op}
 $$
 
-which regards an $L_\infty$-algebra $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the [[dual vector space|linear dual]] [[dg-algebra]], the **[[Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$ of $\mathfrak{g}$.
+for the [[functor]]
+which regards an [[L-infinity algebra]] $\mathfrak{g}$ as a [[dg-coalgebra]] by prop. \ref{LInfinityAlgebraIsQuasiFreeDgCoalgebra} and then forms the [[dual vector space|linear dual]] [[dg-algebra]], the **[[Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$ of $\mathfrak{g}$ (a pro-dg-algebra according to spring).
 
 =--
 
@@ -760,8 +803,8 @@ Recognizing [[homotopy fiber products]] in any of the model structure above can 
 
 Precursors for 2-reduced dg-algebras are dicussed in 
 
-* [[Dan Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295.
- {#Quillen}
+* {#Quillen} [[Daniel Quillen]], _Rational homotopy theory_, Annals of Math., 90(1969), 205&#8211;295.
+ 
 
 The homotopy-theoretic nature of $L_\infty$-algebras and their relation to deformation problems was then notably amplified in 
 
@@ -770,15 +813,13 @@ The homotopy-theoretic nature of $L_\infty$-algebras and their relation to defor
 
 Model structurs on algebras over operads in chain complexes were discussed generally in 
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-{#Hinich97}
+* {#Hinich97} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
 
 
 The full model structure on dg-coalgebras (in characteristic 0) and the Quillen equivalence of dg-Lie algebras as well as the interpretation in terms of formal $\infty$-stacks is due to
 
-* [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
- {#Hinich98}
-
+* {#Hinich98} [[Vladimir Hinich]], _DG coalgebras as formal stacks_ ([arXiv:9812034](http://arxiv.org/abs/math/9812034))
+ 
 In 
 
 * {#Lurie} [[Jacob Lurie]], _[[Formal Moduli Problems]]_
@@ -787,8 +828,12 @@ the relation to $\infty$-stacks is discussed more in detail.
 
 More model category theoretic developments relating various of the previous approaches and generalizing to arbitrary characteristic are in
 
-* [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
- {#Pridham}
+* {#Pridham} [[Jonathan Pridham]], _Unifying derived deformation theories_, Adv. Math. 224 (2010), no.3, 772-826 ([arXiv:0705.0344](http://arxiv.org/abs/0705.0344))
+ 
+in parts based on 
+
+* {#Manetti02} [[Marco Manetti]], _Extended deformation functors_, Int. Math. Res. Not., (14):719&#8211;
+756, 2002
 
 A useful summary of that paper is given in the [notes](http://poisson.phc.unipi.it/~maggiolo/wp-content/uploads/2008/12/WDTII_Pridham.pdf), by Stefano Maggiolo.
 
