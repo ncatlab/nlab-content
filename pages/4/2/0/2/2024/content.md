@@ -45,7 +45,7 @@ In the case of [[locales]], it is sufficient to require the above definition onl
 
 ## Remarks
 
-As compact spaces go with [[proper maps]], so overt spaces go with [[open maps]].  Indeed, $X$ is compact if and only if the unique map $X \to pt$ to the [[point]] is proper, while $X$ is overt if and only if the unique map $X \to pt$ is open.
+As compact spaces go with [[proper maps]], so overt spaces go with [[open maps]].  Indeed, $X$ is compact if and only if the unique map $X \to pt$ to the [[point]] is proper, while $X$ is overt if and only if the unique map $X \to pt$ is open.  Simlarly, if $X\to pt$ is instead [[closed map|closed]], then $X$ is [[covert space|covert]].
 
 Note that overtness is expressed only in terms of a [[left adjoint]], whereas open maps of locales must additionally satisfy a [[Frobenius reciprocity]] condition.  In the case of locale maps to the point, this latter condition is automatic.
 
