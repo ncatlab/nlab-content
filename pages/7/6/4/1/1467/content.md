@@ -31,7 +31,7 @@ There are many ways to say that a space $X$ is compact. The first is perhaps the
 +-- {: .num_defn #hb}
 ###### Definition
 
-$X$ is compact if for every collection of [[open subsets]] whose [[union]] is $X$ (i.e. which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (i.e. a [[finite cover|finite sub-cover]]).
+$X$ is compact iff for every collection of [[open subsets]] whose [[union]] is $X$ (i.e. which _[[covers]]_ $X$), there is a (Kuratowski)-[[finite set|finite]] subcollection which also covers $X$ (i.e. a [[finite cover|finite sub-cover]]).
 
 =--
 
@@ -40,7 +40,7 @@ If [[excluded middle]] is assumed, this is easily seen to be equivalent to:
 +-- {: .num_defn #fip}
 ###### Definition
 
-$X$ is compact if for any collection of [[closed subsets]] of $X$ whose [[intersection]] is [[empty set|empty]], some finite subcollection also has empty intersection.
+$X$ is compact iff for any collection of [[closed subsets]] of $X$ whose [[intersection]] is [[empty set|empty]], some finite subcollection also has empty intersection.
 
 =--
 
@@ -49,7 +49,7 @@ If the [[ultrafilter theorem]] (a weak form of the [[axiom of choice]]) is assum
 +-- {: .num_defn #ultrafilter}
 ###### Definition
 
-$X$ is compact if every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
+$X$ is compact iff every [[ultrafilter]] $\mathcal{U}$ (or ultranet $\nu$) on $X$ [[converges|converges]] to some point $x \in X$, meaning that $\mathcal{U}$ contains the filter of [[neighborhoods]] of $x$ (or that $\nu$ is eventually in any neighbourhood of $x$).
 
 =--
 
@@ -58,7 +58,7 @@ In any case, compactness can be characterized in terms of [[proper filter]] or e
 +-- {: .num_defn #refinement}
 ###### Definition
 
-$X$ is compact if every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/subnet.
+$X$ is compact iff every [[proper filter]]/[[net]] on $X$ has a [[convergence|convergent]] proper [[refinement]]/subnet.
 
 =--
 
@@ -67,7 +67,7 @@ This is equivalent to the characterization given in the [Idea-section](#Idea) ab
 +-- {: .num_defn #clustering}
 ###### Definition
 
-$X$ is compact if every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
+$X$ is compact iff every proper filter $\mathcal{U}$ (or net $\nu$) on $X$ has a cluster point $x$, meaning that every element of $\mathcal{U}$ meets (has [[inhabited set|inhabited]] intersection with) every neighbourhood of $x$ (or $\nu$ is frequently in every neighbourhood of $x$).
 
 =--
 
@@ -78,7 +78,7 @@ The definition (\ref{hb}) also works for [[locales]], since it refers only to th
 +-- {: .num_defn #directed}
 ###### Definition
 
-$X$ is compact if given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
+$X$ is compact iff given any [[direction|directed]] collection of opens whose union is $X$ (a directed open cover), $X$ belongs to the collection.
 
 =--
 
@@ -87,7 +87,7 @@ As the union is the [[coproduct]] in the [[category of open subsets]] $Op(X)$, w
 +-- {: .num_defn #object}
 ###### Definition
 
-$X$ is compact it it is a [[compact object]] in $Op(X)$.
+$X$ is compact iff it is a [[compact object]] in $Op(X)$.
 
 =--
 
@@ -96,7 +96,7 @@ Compactness is equivalent to the condition of being "stably closed" (and it is t
 +-- {: .num_defn #projection}
 ###### Definition
 
-$X$ is compact if for any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
+$X$ is compact iff for any space $Y$, the [[projection map]] $X \times Y \to Y$ out of their [[Cartesian product]] is [[closed map|closed]] (see e.g. [Milne, section 17](#Milne)).
 
 =--
 
@@ -107,7 +107,7 @@ Closely related to the previous definition, a [[logic]]al characterisation of co
 +-- {: .num_defn #quantification}
 ###### Definition
 
-$X$ is compact if for any space $Y$ and any open subset $U$ of $X \times Y$, the subset
+$X$ is compact iff for any space $Y$ and any open subset $U$ of $X \times Y$, the subset
 $$ \forall_X U = \{ b : Y \;|\; \forall\; a: X,\; (a, b) \in U \} $$
 is open in $Y$.
 
@@ -117,7 +117,7 @@ To remove it from dependence on points, we can also write the definition like th
 
 +-- {: .num_defn #pointless}
 ###### Definition
-$X$ is compact if given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
+$X$ is compact iff given any space $Y$ and any open $U$ in $X \times Y$, there exists an open $\forall_X U$ in $Y$ that satisfies the [[universal property]] of universal [[quantification]]:
 $$ V \subseteq \forall_X U \;\Leftrightarrow\; X \times V \subseteq U $$
 for every open $V$ in $Y$.
 =--
