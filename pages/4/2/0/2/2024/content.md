@@ -25,11 +25,11 @@ Of course, *every* topological space satisfies this condition; $\exists_X U$ is 
 
 To remove it from dependence on points, we write the definition like this:
 
-A [[space]] (topological space, locale, etc) $X$ is __overt__ (or __open__) if, given any space $Y$ and any open $U$ in the [[product space]] $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of [[existential quantification]]:
+A [[space]] (topological space, locale, etc) $X$ is __overt__ (or __open__) if, given any space $Y$ and any [[open subset]] $U$ of the [[product space]] $X \times Y$, there exists an open $\exists_X U$ in $Y$ that satisfies the [[universal property]] of [[existential quantification]]:
 $$ \exists_X U \subseteq V \;\Leftrightarrow\; U \subseteq X \times V $$
 for every open $V$ in $Y$.
 
-Note that, since we quantify over all spaces $Y$ in this definition, whether a given space is overt may depend on precisely what 'space' means (even if $X$ is an example for both meanings).  I don\'t know any good examples of this, however.
+Note that, since we quantify over all spaces $Y$ and opens $U\subseteq X\times Y$ in this definition, whether a given space is overt may depend on precisely what 'space' and 'open' mean (even if $X$ is an example for both meanings).  For example, if $X$ is a set with the [[discrete topology]], then it is always overt if 'space' means 'topological space' or 'locale' with the usual meaning of 'open'.  On the other hand, if 'space' means simply 'set', but 'open' refers to the synthetic notion induced by a [[dominance]], then overtness of $X$ is a nontrivial condition (and in fact, if all sets are overt in this sense then the dominance is trivial).
 
 
 ## Overt locales
@@ -51,9 +51,11 @@ Note that overtness is expressed only in terms of a [[left adjoint]], whereas op
 
 An overt space may also be called **locally $(-1)$-connected**, since this condition is the [[(0,1)-topos]]-theoretic version of the notion of [[locally connected topos]] and [[locally n-connected (n,1)-topos]].  A similar thing happens for higher local connectivity involving the Frobenius reciprocity condition, which must be imposed on general [[geometric morphisms]] to make them locally $n$-connected, but is automatic for morphisms to the point.
 
-## Related concepts
+## In synthetic topology
 
-In [[synthetic topology]], a [[dominance]] gives rise to a related notion of "overt set".
+In [[synthetic topology]], we interpret 'space' to mean simply 'set' (or [[type]], i.e. the basic objects of our foundational system).  If the notion of 'open' is specified by a [[dominance]], then there is an induced nontrivial notion of "overt set", defined essentially as above.  For instance, the [[Rosolini dominance]] is the smallest dominance such that $\mathbb{N}$ is overt, whereas if all sets are overt then the dominance is trivial.
+
+On the other hand, if by 'open' we mean an open subset [in the sense of Penon](/nlab/show/open+subspace#SynTop), then all sets are overt.
 
 ## References
 
