@@ -85,6 +85,8 @@ A [[geometric morphism]] $f : \mathcal{F} \to \mathcal{E}$ is closed iff, in the
 
 * [[separated morphism]]
 
+* [[covert space]]
+
 ## References
 
 Closed maps of locales and toposes are discussed in section C3.2 of
