@@ -184,6 +184,10 @@ A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].
 
 =--
 
+## In synthetic topology
+
+In [[synthetic topology]], where 'space' means simply 'set' (or [[type]], i.e. the basic objects of our foundational system), one natural notion of "compact space" is a [[covert set]], i.e. a set whose discrete topology is covert.  This includes the expected examples in various [[gros toposes]].
+
 
 ## Related concepts
 
