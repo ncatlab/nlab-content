@@ -85,17 +85,30 @@ An easy way of proving the M&#246;bius inversion formulas [(Kung et al.)](#KungR
 
 ## Properties of the M&#246;bius function
 
-### For product orders
+### Duality
+
+The [[opposite poset]] $P^{op}$ has the same M&#246;bius function as $P$ except with the arguments exchanged:
+$$\mu_{P^{op}}(x,y) = \mu_P(y,x)$$
+
+### The product formula
 
 The M&#246;bius function of the [[cartesian product]] $P \times Q$ of two posets $P$ and $Q$ is the product of their M&#246;bius functions:
-$$\mu_{P\times Q}((p,q), (p',q')) = \mu_P(p,p') \cdot \mu_Q(q,q')$$
-for all $p,p' \in P$ and $q,q' \in Q$.
+$$\mu_{P\times Q}((x,y), (x',y')) = \mu_P(x,x') \cdot \mu_Q(y,y')$$
+for all $x,x' \in P$ and $y,y' \in Q$.
+
+### The Galois coconnection theorem
+
+Suppose $P$ and $Q$ are related by an [[adjunction]] (i.e., covariant [[Galois connection]]) $f \dashv g : Q \to P$. Then for all $x \in P$, $y \in Q$, the following equation holds:
+$$
+\sum_{\substack{u \in P\\ f(u) = y}} \mu_P(x,u) = \sum_{\substack{v \in Q \\ g(v) = x}} \mu_Q(v,y)
+$$
+(This result essentially goes back to [Rota (1964)](#Rota64) but in a slightly different formulation; for the above formulation, see [Greene (1981)](#Greene81), [Aguiar and Ferrer Santos (2000)](#AguiarFS), [Kung et al. (2009)](#KungRotaYan).)
 
 ## Examples of M&#246;bius inversion
 
 ### Inclusion-exclusion
 
-Let $\mathcal{P}X$ be the lattice of subsets of a finite set $X$. $\mathcal{P}X$ is isomorphic to the cartesian product of $|X|$ many copies of the 1-chain $[1] = \{ 0 \lt 1 \}$, and so by the product rule for the M&#246;bius function, we have
+Let $\mathcal{P}X$ be the lattice of subsets of a finite set $X$. $\mathcal{P}X$ is isomorphic to the cartesian product of $|X|$ many copies of $\mathbf{2} = \{ 0 \lt 1 \}$, and so by the product rule for the M&#246;bius function, we have
 $$\mu(I,J) = (-1)^{|J|-|I|}$$
 for any pair of subsets $I,J \subseteq X$ such that $I \subseteq J$. The M&#246;bius inversion formula then says that for any functions $f$ and $g$ defined on $\mathcal{P}X$, we have
 $$f(J) = \sum_{I \subseteq J} g(I)
@@ -116,6 +129,10 @@ $$
 where a derangement is defined as a permutation fixing no elements.
 
 **Exercise:** Prove that $n! = \sum_{k=0}^n (-1)^k \binom{n}{k} (n-k)^n$.
+
+### Number-theoretic M&#246;bius inversion
+
+The classical M&#246;bius inversion formula is recovered by considering the set of positive natural numbers ordered by divisibility. 
 
 ## M&#246;bius inversion for categories
 
@@ -140,17 +157,23 @@ and a more modern reference is:
 
 M&#246;bius inversion for categories is discussed in:
 
-* Tom Leinster, _Notions of M&#246;bius inversion_, Bulletin of the Belgian Mathematical Society 19 (2012) 911-935, [arXiv:1201.0413v3](http://arxiv.org/abs/1201.0413)
+* [[Tom Leinster]], _Notions of M&#246;bius inversion_, Bulletin of the Belgian Mathematical Society 19 (2012) 911-935, [arXiv:1201.0413v3](http://arxiv.org/abs/1201.0413)
 
 * $n$Cafe: [M&#246;bius inversion for categories](http://golem.ph.utexas.edu/category/2011/05/mbius_inversion_for_categories.html)
 
 Other references include:
 
-* Joachim Kock, _Incidence Hopf algebras_, [pdf](http://mat.uab.es/~kock/seminars/incidence-algebras.pdf)
+* Curtis Greene, _The M&#246;bius Function of a Partially Ordered Set_, NATO Advanced Study Institute, Series C (1981), 555-581.
+ {#Greene81}
 
-* Imma G&#225;lvez-Carrillo, Joachim Kock, Andrew Tonks, _Decomposition spaces, incidence algebras and M&#246;bius inversion_, [arxiv/1404.3202](http://arxiv.org/abs/1404.3202)
+* [[Joachim Kock]], _Incidence Hopf algebras_, [pdf](http://mat.uab.es/~kock/seminars/incidence-algebras.pdf)
+
+* Imma G&#225;lvez-Carrillo, [[Joachim Kock]], Andrew Tonks, _Decomposition spaces, incidence algebras and M&#246;bius inversion_, [arxiv/1404.3202](http://arxiv.org/abs/1404.3202)
 
 * Metropolis, N.; Rota, Gian-Carlo, _Witt vectors and the algebra of necklaces_, Advances in Mathematics __50__ (2): 95&#8211;125 (1983) [doi](http://dx.doi.org/10.1016%2F0001-8708%2883%2990035-X)
+
+* [[Marcelo Aguiar]] and Walter Ferrer Santos, _Galois connections for incidence Hopf algebras of partially ordered sets_, Adv. Math. 151 (2000), 71-100.
+  {#AguiarFS}
 
 * wikipedia [M&#246;bius function](http://en.wikipedia.org/wiki/M%C3%B6bius_function), [necklace polynomial](http://en.wikipedia.org/wiki/Moreau%27s_necklace-counting_function)
 
