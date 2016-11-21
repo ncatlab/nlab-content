@@ -90,7 +90,12 @@ There is a [[monoidal functor]] from $([0,\infty[^\op,+)$ to $TV^\op$ that maps 
 
 The topological properties of metric spaces fit well with those of inequality spaces if you always work in this direction. For example, a set which is $d$-open will also be $\ne$-open, but not necessarily the other way around. Similarly, a (merely) [[continuous function]] between metric spaces is (still) strongly extensional.
 
-In analysis, many spaces are given as [[gauge spaces]], that is by families of pseudometrics; these also become inequality spaces by declearing that $x \ne y$ iff $d(x,y) \gt 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.) Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).
+
+### Relation to gauge spaces and uniform spaces
+
+In analysis, many spaces are given as [[gauge spaces]], that is by families of pseudometrics; these also become inequality spaces by declaring that $x \ne y$ iff $d(x,y) \gt 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.)
+
+Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).  However, we can generalize a bit beyond gauge spaces: any "located" uniform space becomes an inequality space by declaring that $x \ne y$ iff there is an entourage $U$ with $(x,y)\notin U$.  (If the uniform space is not located, the result is merely an [[inequality relation]], not an apartness.)
 
 
 ### Relation to proximity spaces
