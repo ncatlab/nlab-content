@@ -255,6 +255,8 @@ A classification of symmetric solutions is discussed in
 
 * [[José Figueroa-O'Farrill]], _Symmetric M-Theory Backgrounds_ ([arXiv:1112.4967](http://arxiv.org/abs/1112.4967))
 
+* Linus Wulff, _All symmetric space solutions of eleven-dimensional supergravity_ ([arXiv:1611.06139](https://arxiv.org/abs/1611.06139))
+
 Discussion of [[black branes]] and [[BPS states]] includes
 
 * {#Stelle98} [[Kellogg Stelle]], section 3 of _BPS Branes in Supergravity_ ([arXiv:hep-th/9803116](http://arxiv.org/abs/hep-th/9803116))
