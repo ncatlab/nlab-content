@@ -14,7 +14,7 @@ The _covering relation_ on a structure (generally already equipped with other re
 
 ## In a poset
 
-A pair $(x,y)$ in a [[poset]] satsfies the __covering relation__ if $x \lt y$ but there is no $z$ such that $x \lt z$ and $z \lt y$. In other words, the [[interval]] $[x,y] = \{z \mid x \leq z \leq y\}$ contains exactly two elements $x$ and $y$.  In this case, you would say that "$y$ covers $x$".
+A pair $(x,y)$ in a [[poset]] satisfies the __covering relation__ if $x \lt y$ but there is no $z$ such that $x \lt z$ and $z \lt y$. In other words, the [[interval]] $[x,y] = \{z \mid x \leq z \leq y\}$ contains exactly two elements $x$ and $y$.  In this case, you would say that "$y$ covers $x$".
 
 
 ## In a directed graph
