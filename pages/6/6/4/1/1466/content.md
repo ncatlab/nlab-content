@@ -46,7 +46,7 @@ In [[constructive mathematics]], it is often very useful to assume that a unifor
 * For every entourage $U$, there exists an entourage $V$ such that $\neg{V} \cup U = X \times X$, where $\neg{V}$ is the [[complement]] of $V$. That is,
   $$ \forall U,\; \exists V,\; \forall x, y,\; x \approx_U y \;\vee\; x \mathbin{&#8777;}_V y .$$
 
-(With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is located in classical mathematics.)
+(With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is located in classical mathematics.)  Note that any uniformity induced by a [[gauge space|gauge]] is located (as long as the gauging distances take values in located real numbers).
 
 A set equipped with a uniform structure is called a **uniform space**.
 
@@ -124,7 +124,7 @@ Every uniform space also has an underlying [[proximity]] (defined there), and th
 
 Uniform spaces can also be identified with [[syntopogenous spaces]] that are both *perfect* and *symmetric*; see [[syntopogenous space]].
 
-Every uniform space has a [[inequality relation]] where "$x\neq y$" means that there exists an entourage $U$ such that $(x,y)\notin U$.  In [[classical mathematics]], this is an [[apartness relation]], but in [[constructive mathematics]] the obvious proof of [[comparison]] uses [[de Morgan's law]].  However, often it is an apartness; for instance, on the [[real numbers]] this definition coincides with the usual apartness.  This inequality is tight exactly when the uniform space is Hausdorff.
+Every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is located, then this is an [[apartness relation]], i.e. it is also a [[comparison]].  For if $x \mathbin{&#8777;}_U z$, let $V \circ V \subseteq U$ and $\neg{W} \cup V = X \times X$.  Then for any $y$, we cannot have both $x \approx_V y$ and $y\approx_V z$, so we must have either $x \mathbin{&#8777;}_W y$ or $y \mathbin{&#8777;}_W z$, whence either $x # y$ or $y # z$.  This apartness is tight exactly when the uniform space is Hausdorff.
 
 
 ## Examples
