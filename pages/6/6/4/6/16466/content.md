@@ -1626,6 +1626,37 @@ Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mat
 
 =--
 
+It is useful to introduce the following [[formal dual|formally dual]] perspective:
+
++-- {: .num_defn #Affines} 
+###### Definition
+
+For $\mathcal{C}$ a [[symmetric monoidal category]], then we write
+
+$$
+  Aff(\mathcal{C}) \coloneqq CMon(\mathcal{C})^{op}
+$$
+
+for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
+
+For $R \in CMon(\mathcal{C})$ we write 
+
+$$
+  Spec(A)
+  \in 
+  Aff(\mathcal{C})
+$$ 
+
+for the same object, regarded in the opposite category. We also call this the **[[affine scheme]]** of $A$. Conversely, for $X \in Aff(\mathcal{C})$, we write 
+
+$$
+  \mathcal{O}(X) \in CMon(\mathcal{C})
+$$
+
+for the same object, regarded in the category of commutative monoids. We also call this the **[[algebra of functions]]** on $X$.
+
+=--
+
 +-- {: .num_example #MonoidsInVectAreAssociativeAlgebras} 
 ###### Example
 
@@ -1682,7 +1713,7 @@ $$
 
 Unwinding what this means, then a [[supercommutative superalgebra]] $A$ is
 
-1. a $\mathbb{Z}/2$-graded associatiive algebra according to example \ref{GradedAlgebras};
+1. a $\mathbb{Z}/2$-graded associative algebra according to example \ref{GradedAlgebras};
 
 1. such that for any two elements $a, b$ of homogeneous degree, their product satisfies
 
@@ -1690,6 +1721,8 @@ Unwinding what this means, then a [[supercommutative superalgebra]] $A$ is
      a b \; = \; (-1)^{deg(a) deg(b)}\, b a
      \,.
    $$
+
+The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according to def. \ref{Affines}, we call an **affine [[super scheme]]**.
 
 =--
 
@@ -3160,7 +3193,9 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 
 =--
 
-### Super Fiber functors
+
+### Super Fiber functors and their automorphism supergroups
+ {#FiberFunctors}
 
 The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
 
@@ -3172,7 +3207,7 @@ to some other [[tensor category]], such that $\omega$ satisfies a list of proper
 
 Such functors are called _[[fiber functors]]_. The idea is that we think of $\mathcal{A}$ as a [[bundle]] over $\mathcal{V}$, and over each $V \in \mathcal{V}$ we find the [[fiber]] $\omega^{-1}(V)$ of that "bundle", consisting of all those objects in $\mathcal{A}$ whose underlying object in the given $V$.
 
-The main point of [[Tannaka duality]] of tensor categories is the observation that if $\mathcal{A}$ is a [[category of representations]] of some [[group]] $G$, then $G$ also [[action|acts]] by [[automorphisms]] on that [[fiber functor]] (i.e. via [[natural isomorphisms]] of functors). In good cases then this may be turned around, and the full [[automorphism group]] of a fiber functor identified with the group $G$ for which the objects in its fibers are [[representations]], this is the process of [[Tannaka reconstruction]].
+The main point of [[Tannaka duality]] of tensor categories is the observation that if $\mathcal{A}$ is a [[category of representations]] of some [[group]] $G$, then $G$ also [[action|acts]] by [[automorphisms]] on that [[fiber functor]] (i.e. via [[natural isomorphisms]] of functors). In good cases then this may be turned around, and the full [[automorphism group]] of a fiber functor is identified with the group $G$ for which the objects in its fibers are [[representations]], this is the process of [[Tannaka reconstruction]].
 
 There are slight variants on what one requires of a fiber functor. For the present purpose we fix the following definition
 
@@ -3205,15 +3240,142 @@ If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), the
 
 ([Deligne 02, 3.1](#Deligne02))
 
-+-- {: .num_prop #MonoidalTransformationBetweenFiberFunctorIsIso} 
+Given a super fiber functor $\omega \colon \mathcal{A} \to sVect_k$ (def. \ref{FiberFunctor}) there is an evident notion of its [[automorphism group]]: a [[homomorphism]] between [[functors]] is a [[natural transformation]], and that between [[monoidal functors]] is a [[monoidal natural transformation]], according to def. \ref{LaxMonoidalFunctor}, and this is an [[automorphism]] of functors if it is a [[natural automorphism]]. We write
+
+$$
+  Aut(\omega) \in Grp
+$$
+
+for this automorphism group.
+
+So far this is a group without geometric structure (a [[discrete group]]). But it is naturally equipped with [[supergeometry]] (super-[[algebraic geometry]]) exhibited by a rule for what the "geometrically parameterized families" of its elements are. (For exposition of this perspective see at _[[motivation for sheaves, cohomology and higher stacks]]_).
+
+Concretely, this means that for each [[supercommutative superalgebra]] $A$ with corresponding affine [[super scheme]] $Spec(A)$ (def. \ref{Affines}, def. \ref{SupercommutativeSuperalgebra}) we are to say what the set
+
+$$
+  \underline{Aut}(\omega)(Spec(A))
+   \in
+  Set
+$$
+
+of $Spec(A)$-parameterized elements of $Aut(\omega)$ is. In fact, under parameter-wise multiplication in the group, any such set must inherit group structure, so that we should have not one discrete group, but a system of them, labeled by supercommutative superalgebras:
+
+$$
+  \underline{Aut}(\omega)(Spec(A))
+   \in
+  Grp
+  \,.
+$$
+
+Moreover, if $A_1 \longrightarrow A_2$ is an algebra homomorphism, hence 
+
+$$
+  Spec(A_2) \longrightarrow Spec(A_1)
+$$ 
+
+a map of affine super schemes according to def. \ref{SupercommutativeSuperalgebra}, then there should be a group homomorphism 
+
+$$
+  \underline{Aut}(\omega)(Spec(A_2))
+    \longleftarrow
+  \underline{Aut}(\omega)(Spec(A_1))
+$$
+
+that expresses how a $Spec(A_1)$-parameterized family of elements of $Aut(\omega)$ becomes a $Spec(A_1)$-parameterized family, under this map.
+
+For a minimum of consistency, this assignment must be such that the identity map on $Spec(A)$ induces the identity on $\underline{Aut}(\omega)(Spec(A))$, and that the composite of two maps of affine superschemes goes to the correspondng composite group homomorphisms.
+
+In conclusion, this says that an algebraic supergeometric structure on $Aut(\omega)$ is the datum of a [[presheaf]] of groups, hence of a [[functor]]
+
+$$
+  \underline{Aut}(\omega)
+   \;\colon\;
+  Aff(sVect)^{op} \simeq CMon(sVect)
+   \longrightarrow
+  Grp
+$$
+
+such that the underlying points are those of $Aut(\omega)$:
+
+$$
+  \underline{Aut}(\omega)(Spec(k))
+  \simeq
+  Aut(\omega)
+  \,.
+$$
+
+We say this is [[representable functor|representable]] if there exists a [[supercommutative Hopf algebra]] $H$ and a [[natural isomorphism]]
+
+
+$$
+  \underline{Aut}(\omega)
+  \simeq
+  Hom_{CMon(sVect)}(H,-)
+  \,.
+$$
+
++-- {: .num_defn #AutomorphismSuperGroupOfSuperFiberFunctor} 
+###### Definition
+
+Let $\omega \colon \mathcal{A} \to sVect_k$ be a  [[fiber functor|super fiber functor]]  (def \ref{FiberFunctor}).
+
+For $A \in CMon(sVect)$ a [[supercommutative algebra]], write
+
+$$
+  \omega_A 
+   \;\colon\;
+  \mathcal{A}
+    \stackrel{\omega}{\longrightarrow}
+  sVect
+   \stackrel{A \otimes(-)}{\longrightarrow}
+  A Mod(sVect)
+$$
+
+for its image under [[extension of scalars]] to $A$
+
+With this, the **automorphism super-group** of $\omega$
+
+$$
+  \underline{Aut}(\omega)
+  \in 
+  PSh(Aff(sVect))
+$$
+
+is defined by
+
+$$
+  \underline{Aut}(\omega)(Spec(A))
+   \coloneqq
+  Aut(\omega_{A})
+  \,.
+$$
+
+=--
+
++-- {: .num_prop} 
 ###### Proposition
+
+For $k$ an [[algebraically closed field]] of [[characteristic zero]], and for $\mathcal{A}$ a $k$-[[tensor category]] equipped with a [[fiber functor|super fiber functor]] $\omega$, then its automorphism supergroup (def. \ref{AutomorphismSuperGroupOfSuperFiberFunctor}) is [[representable functor|representable]]: there exists a [[supercommutative Hopf algebra]] $H_\omega$ and a [[natural isomorphism]]
+
+$$
+  \underline{Aut}(\omega)
+    \simeq
+  Hom_{CMon(sVect)}(H_\omega,-)
+  \,.
+$$
+
+=--
+
+([Deligne 90, prop. 8.11](#Deligne90))
+
++-- {: .num_lemma #MonoidalTransformationBetweenFiberFunctorIsIso} 
+###### Lemma
 
 every [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor}) between two [[fiber functors]] (def. \ref{FiberFunctor}) is an [[isomorphism]] (i.e. a [[natural isomorphism]]).
 
 =--
 
 ([Deligne 02, lemma 3.2](#Deligne02))
-
 
 ### Super-exterior powers and Schur functors
 
@@ -3341,10 +3503,7 @@ then there exists
 
 ## Proof
 
-
-
-
-We discuss aspects of steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
+We outline key steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02).
 
 > under construction
 
@@ -3353,20 +3512,23 @@ Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zer
 
 The proof proceeds in three main steps:
 
-1. **Proposition \ref{LengthOfObjectIsBounded}** states that in a $k$-[[tensor category]] an object $X$ is of subexponential growth (def. \ref{SubexponentialGrowth}) precisely if their exists a [[Schur functor]] that annihilates it, hence if some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
+1. **Proposition \ref{LengthOfObjectIsBounded}** states that in a $k$-[[tensor category]] an object $X$ is of subexponential growth (def. \ref{SubexponentialGrowth}) precisely if there exists a [[Schur functor]] that annihilates it, hence if some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
 
-   This proposition is where the [[symmetric group]] and its [[permuation]] [[action]] on [[tensor powers]] appears, from just a kind of finite-dimensionality assumption.
+   This proposition is where the [[symmetric group]] and its [[permutation]] [[action]] on [[tensor powers]] appears, from just a kind of finite-dimensionality assumption.
 
 1. **Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor}** in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
 
    This proposition is where [[superalgebra]] proper appears.
 
-1. spring
+1. **Proposition \ref{DeligneTannakaReconstruction}** states that every $k$-[[tensor category]] equipped with a super fiber functor $\omega \colon \mathcal{A} \to sVect$, is equivalent to the category of super-representations of the automorphism supergroup of $\omega$.
+
+   This proposition is the instance of general [[Tannaka reconstruction]] applied to the case of fiber functors with values in super vector spaces. This is where the "supersymmetry" supergroup is extracted.
+
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
 
-For $\mathcal{A}$ a $k$-[[tensor category]], then the following are equivalent:
+For $\mathcal{A}$ a $k$-[[tensor category]] (def. \ref{TensorCategory}), then the following are equivalent:
 
 1. the category $\mathcal{A}$ has subexponential growth (def. \ref{SubexponentialGrowth});
 
@@ -3380,21 +3542,20 @@ For $\mathcal{A}$ a $k$-[[tensor category]], then the following are equivalent:
 +-- {: .num_prop #SchurFinitenessImpliesExistenceOfSuperFiberFunctor} 
 ###### Proposition
 
-If for every object of a $k$-[[tensor category]] $\mathcal{A}$ there exists a [[Schur functor]] that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor})
+If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$:
 
 $$
   \omega 
     \;\colon\; 
   \mathcal{A}
     \longrightarrow
-  R Mod(sVect)
+  sVect
+  \,.
 $$
-
-over some non-null [[supercommutative superalgebra]] $R$ over $k$.
 
 =--
 
-([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article"](#Deligne02)) 
+([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article", together with prop. 4.5](#Deligne02)) 
 
 +-- {: .proof}
 ###### Proof idea 
@@ -3479,7 +3640,7 @@ $$
   \omega \;\colon\; s \mathcal{A} \longrightarrow R Mod(sVect)
 $$
 
-is a super fiber functor. Now the super fiber functor in question is its restriction to $\mathcal{A}$, regarded as the sub-category of even-graded objects in $s \mathcal{A}$
+is a super fiber functor on $s\mathcal{A}$ over $R$. This restricts to a super fiber functor over $R$ on  $\mathcal{A}$, regarded as the sub-category of even-graded objects in $s \mathcal{A}$:
 
 $$
   \mathcal{A}
@@ -3487,17 +3648,74 @@ $$
   s \mathcal{A} 
    \overset{\omega}{\longrightarrow} 
   R Mod(sVect)
+  \,,
 $$
 
+Finally check ([Deligne 02, prop. 4.5](#Deligne02)) that
+if a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) admits a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over a [[supercommutative superalgebra]] $R$ over $k$
+
+$$
+  \mathcal{A}
+    \longrightarrow
+  R Mod(sVect)
+$$
+
+then it also admits a super fiber functor over $k$ itself, i.e. a fiber functor to [[sVect]]
+
+$$
+  \mathcal{A}
+    \longrightarrow
+  k Mod(sVect)
+  \simeq
+  sVect
+  \,.
+$$
+
+This is argued by expressing $R$ as an [[inductive limit]] 
+
+$$
+  R = \underset{\longrightarrow}{\lim}_\beta R_\beta
+$$
+
+over [[supercommutative superalgebras]] $R_\beta$ of finite type over $k$ and observing (...) that there exists $\beta$ such that $\omega_\beta$ is still a fiber functor and such that there exists an algebra homomorphism $R_\beta \to k$. 
+
+Finally then the fiber functor in question is
+
+$$
+  \omega_\beta \otimes_{R_\beta} k
+   \;\colon\;
+  \mathcal{A}
+    \longrightarrow
+  sVect_k
+  \,.
+$$
 
 =--
 
++-- {: .num_prop #DeligneTannakaReconstruction} 
+###### Proposition
 
+For every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) and a [[fiber functor|super fiber functor]] over $k$ (def. \ref{FiberFunctor})
 
+$$
+  \omega
+    \;\colon\;
+   \mathcal{A}
+     \longrightarrow
+   sVect_k
+$$
 
+then there is an [[equivalence of categories]]
 
+$$
+  \mathcal{A} \simeq Rep( \underline{Aut}(\omega) ,\epsilon)
+$$
 
-(...)
+of $\mathcal{A}$ with the [[category of representations|category of finite dimensional representations]], according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}, of the internal automorphism group $\underline{Aut}(\omega)$ (def \ref{spring}) of the super fiber functor.
+
+=--
+
+([Deligne 90, 8.19](#Deligne90))(...)
 
 
 ## References
