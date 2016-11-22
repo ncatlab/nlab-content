@@ -35,6 +35,10 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 * [[equivalence principle (physics)]]
 
+## References
+
+* Emil T. Akhmedov, _Lectures on General Theory of Relativity_ ([arXiv:1601.04996](https://arxiv.org/abs/1601.04996))
+
 [[!redirects General Relativity]]
 
 [[!redirects theory of general relativity]]
