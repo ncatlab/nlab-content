@@ -3105,7 +3105,7 @@ For $G$ an ordinary (affine algebraic) group regarded as a supergroup with trivi
 +-- {: .num_prop #RegularTensorCategoriesOfSuperrepresentations}
 ###### Proposition
 
-The [[category of representation]] $Rep(G,\epsilon)$ of def. \ref{Superrepresentation} of an affine algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ (def. \ref{InnerParity}}) on finite-dimensional super vector spaces (example \ref{FiniteDimensionalSuperVectorSpaces}) and equippd with the tensor product of comodules from def. \ref{TensorProductOfComodulesOverAHopfAlgebra} is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
+The [[category of representations]] $Rep(G,\epsilon)$ of def. \ref{Superrepresentation} of an affine algebraic [[supergroup]] $G$, def. \ref{Supergroup}, with inner parity $\epsilon$ (def. \ref{InnerParity}}) on finite-dimensional super vector spaces (example \ref{FiniteDimensionalSuperVectorSpaces}) and equippd with the tensor product of comodules from def. \ref{TensorProductOfComodulesOverAHopfAlgebra} is a $k$-[[tensor category]] (def. \ref{TensorCategory}) of subexponential growth (def. \ref{SubexponentialGrowth}).
  
 =--
 
@@ -3115,33 +3115,6 @@ Moreover, any finite dimensional [[faithful representation]] (which always exist
 
 See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
-+-- {: .num_theorem #TheTheorem}
-###### Theorem
-
-Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such that
-
-1. $k$ is an [[algebraically closed field]] of [[characteristic zero]] (e.g. the field of [[complex numbers]]) 
-
-1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}
-
-then there exists
-
-1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose [[algebra of functions]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
-
-1. a tensor-[[equivalence of categories]] 
-
-   $$
-     \mathcal{A}
-        \simeq
-     Rep(G,\epsilon)
-     \,.
-   $$
-
-   between $\mathcal{A}$ and the [[category of representations]] of $G$ of finite dimension, according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}.
-
-=--
-
-([Deligne 02, theorem 0.6](#Deligne02))
 
 ### Tensor Ind-categories
 
@@ -3337,9 +3310,39 @@ $$
 ## Statement of the theorem
  {#Statement}
 
++-- {: .num_theorem #TheTheorem}
+###### Theorem
+
+Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such that
+
+1. $k$ is an [[algebraically closed field]] of [[characteristic zero]] (e.g. the field of [[complex numbers]]) 
+
+1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}
+
+then there exists
+
+1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose [[algebra of functions]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
+
+1. a tensor-[[equivalence of categories]] 
+
+   $$
+     \mathcal{A}
+        \simeq
+     Rep(G,\epsilon)
+     \,.
+   $$
+
+   between $\mathcal{A}$ and the [[category of representations]] of $G$ of finite dimension, according to def. \ref{Superrepresentation} and prop. \ref{RegularTensorCategoriesOfSuperrepresentations}.
+
+=--
+
+([Deligne 02, theorem 0.6](#Deligne02))
 
 
 ## Proof
+
+
+
 
 We discuss aspects of steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
 
@@ -3350,7 +3353,7 @@ Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zer
 
 The proof proceeds in three main steps:
 
-1. Proposition \ref{LengthOfObjectIsBounded} states that in a $k$-[[tensor category]] an object $X$ being of subexponential growth is equivalent to the existence of a [[Schur functor]] that annihilates this, hence equivalent to the statement that some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vaishes. 
+1. Proposition \ref{LengthOfObjectIsBounded} states that in a $k$-[[tensor category]] an object $X$ being of subexponential growth is equivalent to the existence of a [[Schur functor]] that annihilates it, hence equivalently to the statement that some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
 
    Hence this proposition is where the [[symmetric group]] action on tensor powers appears, from just a kind of finite-dimensionality assumption.
 
@@ -3392,6 +3395,105 @@ over some non-null [[supercommutative superalgebra]] $R$ over $k$.
 
 ([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article"](#Deligne02)) 
 
++-- {: .proof}
+###### Proof idea 
+
+First ([Deligne 02, middle of p. 16](#Deligne02)) consider the [[tensor category]]
+
+$$
+  s \mathcal{A}
+    \coloneqq
+  (\mathcal{A}^{\mathbb{Z}/2}, \tau_{super} )
+$$
+
+which is that of $\mathbb{Z}/2$-graded objects of $\mathcal{A}$, and whose [[braiding]] is given on objects $X,Y$ of homogeneous degree by that of $\mathcal{A}$ multiplied with $(-1)^{deg(X) deg(Y)}$.
+
+Write $1$ and $\overline{1}$ for the [[tensor unit]] of $\mathcal{A}$, regarded in even degree and in odd degree in $s \mathcal{A}$, respectively. 
+
+For $A \in CMon(\mathcal{A})$ a [[commutative monoid]], write
+
+$$
+  \mathcal{A}
+  \simeq 
+  1 Mod(\mathcal{A})
+     \underoverset{\underset{U}{\longleftarrow}}{\overset{(-)_A \coloneqq F}{\longrightarrow}}
+ {}
+  A Mod(\mathcal{A})
+$$
+
+for the [[extension of scalars]] operation $A \otimes(-)$, [[left adjoint]] to [[restriction of scalars]]. (The [[free module]] construction from prop. \ref{MonoidModuleOverItself}).
+
+Show then that the condition that an object $X$ is annihilated by some [[Schur functor]] is equivalent to the existence of an algebra $A$ such that 
+
+$$
+  X_A \simeq 1^p \oplus \overline{1}^q
+$$
+
+for some $p,q \in \mathbb{N}$, hence that each such object is _$A$-locally_ a [[super vector space]].
+
+([Deligne 02, prop. 2.9](#Deligne02)).
+
+Moreover, for each [[short exact sequence]] 
+
+$$
+  0 \to X \to Y \to Z \to 0
+$$
+
+in $s \mathcal{A}$, there exists an algebra $A$ such that 
+
+$$
+  0 \to X_A \to Y_A \to Z_A \to 0
+$$
+
+is a [[split exact sequence]], (hence every short exact sequence is _locally_ split).
+
+([Deligne 90, 7.14](#Deligne90), [Deligne 02, rappel 2.10](#Deligne 02))
+
+Now ([Deligne 02, middle of p. 17](Deligne02)) let $A$ be the commutative monoid which is the [[tensor product]] of commutative monoids (example \ref{TensorProductOfTwoCommutativeMonoids}) over all [[isomorphism classes]] of [[objects]] and of [[short exact sequences]] in $\mathcal{A}$ of choices of commutative monoids for which these objects/exact sequencs are locally split, as above.
+
+Then for an $A$-module $N$, write $\rho(N)$ for the [[subobject]] of $N$ inside $sVect \simeq Ind\langle 1, \overline{1}\rangle \hookrightarrow s \mathcal{A}$.
+
+Check ([Deligne 02, bottom of p. 17](Deligne02)) that $\rho(A)$ inherits the structure of a commutative monoid, and that $\rho(N)$ inherits the structure of a module over $\rho(N)$.
+
+Set
+
+$$
+  R \coloneqq \rho(A) 
+  \,.
+$$
+
+Hence for every object $X$, then 
+
+$$
+  \omega(X)
+    \coloneqq
+  \rho(X_A)
+$$
+
+has the structure of an $R$-module. By $A$-local splitness of all short exact sequence, $\omega$ is an [[exact functor]].
+
+Hence 
+
+$$
+  \omega \;\colon\; s \mathcal{A} \longrightarrow R Mod(sVect)
+$$
+
+is a super fiber functor. Now the super fiber functor in question is its restriction to $\mathcal{A}$, regarded as the sub-category of even-graded objects in $s \mathcal{A}$
+
+$$
+  \mathcal{A}
+    \hookrightarrow 
+  s \mathcal{A} 
+   \overset{\omega}{\longrightarrow} 
+  R Mod(sVect)
+$$
+
+
+=--
+
+
+
+
 
 
 (...)
@@ -3403,9 +3505,9 @@ The theorem is due to
 
 * {#Deligne02} [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
 
-building on the more general work on [[Tannakian categories]]
+building on the general results on [[Tannakian categories]] in
 
-* [[Pierre Deligne]], _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195.
+* {#Deligne90} [[Pierre Deligne]], _[[Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp. 111-195 ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
 
 Review is in 
 
