@@ -890,16 +890,16 @@ $$
 +-- {: .num_defn #LaxMonoidalFunctor}
 ###### Definition
 
-Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A topologically enriched **lax monoidal functor** between them is
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two (pointed) [[topologically enriched category|topologically enriched]] [[monoidal categories]] (def. \ref{MonoidalCategory}). A **lax monoidal functor** between them is
 
-1. a [[topologically enriched functor]] 
+1. a [[functor]]
 
    $$
      F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
      \,,
    $$
 
-1. a morphism
+1. a [[morphism]]
 
    $$
      \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
@@ -988,7 +988,7 @@ satisfying the following conditions:
 
    where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
 
-If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **strong monoidal functor**. 
+If $\epsilon$ and all $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **[[strong monoidal functor]]**. 
 
 If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}) with [[braidings]] $\tau^{\mathcal{C}}$ and $\tau^{\mathcal{D}}$, respectively, then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
 
@@ -3148,16 +3148,6 @@ then there exists
 
 ([Deligne 02, theorem 0.6](#Deligne02))
 
-
-## Proof
-
-We discuss aspects of ingredients of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
-
-> under construction
-
-Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
-
-
 ### Tensor Ind-categories
 
 +-- {: .num_prop #IndObjectsInATensorCategory} 
@@ -3202,15 +3192,15 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 
 =--
 
-### Fiber functors
+### Super Fiber functors
 
-The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
+The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
 
 $$
    \omega \;\colon\; \mathcal{A} \longrightarrow \mathcal{V}
 $$
 
-to another [[tensor category]] of sorts, such that $\omega$ satisfies a list of properties, in particular it should be a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]].
+to some other [[tensor category]], such that $\omega$ satisfies a list of properties, in particular it should be a [[symmetric monoidal functor|symmetric]] [[strong monoidal functor]].
 
 Such functors are called _[[fiber functors]]_. The idea is that we think of $\mathcal{A}$ as a [[bundle]] over $\mathcal{V}$, and over each $V \in \mathcal{V}$ we find the [[fiber]] $\omega^{-1}(V)$ of that "bundle", consisting of all those objects in $\mathcal{A}$ whose underlying object in the given $V$.
 
@@ -3221,13 +3211,13 @@ There are slight variants on what one requires of a fiber functor. For the prese
 +-- {: .num_defn #FiberFunctor} 
 ###### Definition
 
-Let $\mathcal{A}$ and $\mathcal{T}$ be two $k$[[tensor categories]] (def. \ref{TensorCategory}) such that 
+Let $\mathcal{A}$ and $\mathcal{T}$ be two $k$-[[tensor categories]] (def. \ref{TensorCategory}) such that 
 
 1. all [[object of finite length|objects have finite length]];
 
-1. all [[hom spaces]] of [[finite number|finite]] [[dimension]] over $k$.
+1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$.
 
-Let $R \in CMon(Ind(\mathcal{T}))$ be a [[commutative monoid in a symmetric monoidal category|in]] in the category of [[ind-objects]] in $\mathcal{T}$ (prop. \ref{IndObjectsInATensorCategory}).  
+Let $R \in CMon(Ind(\mathcal{T}))$ be a [[commutative monoid in a symmetric monoidal category|commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the category of [[ind-objects]] in $\mathcal{T}$ (prop. \ref{IndObjectsInATensorCategory}).  
 
 Then a **[[fiber functor]] on $\mathcal{A}$ over $R$** is a [[functor]]
 
@@ -3235,13 +3225,13 @@ $$
   \omega \;\colon\; \mathcal{A} \longrightarrow R Mod(Ind(\mathcal{T}))
 $$ 
 
-from $\mathcal{A}$ to the category of [[module objects]] over $R$ in the [[category of ind-objects]] $Ind(\mathcal{T})$ (def. \ref{IndObjectsInATensorCategory}), which is
+from $\mathcal{A}$ to the [[category of modules|category of]] [[module objects]] over $R$ (def. \ref{ModulesInMonoidalCategory}) in the [[category of ind-objects]] $Ind(\mathcal{T})$ (def. \ref{IndObjectsInATensorCategory}), which is
 
 1. a [[braided monoidal functor|braided]] [[strong monoidal functor]];
 
 1. an [[exact functor]] in both variables.
 
-If here $\mathcal{T} = $ [[sVect]], then this is called a **super fiber functor**.
+If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), then this is called a **super fiber functor**.
 
 =--
 
@@ -3250,14 +3240,14 @@ If here $\mathcal{T} = $ [[sVect]], then this is called a **super fiber functor*
 +-- {: .num_prop #MonoidalTransformationBetweenFiberFunctorIsIso} 
 ###### Proposition
 
-Ever [[monoidal natural transformation]] between two [[fiber functors]] (def. \ref{FiberFunctor}) is an [[isomorphism]] (i.e. a [[natural isomorphism]]).
+every [[monoidal natural transformation]] (def. \ref{LaxMonoidalFunctor}) between two [[fiber functors]] (def. \ref{FiberFunctor}) is an [[isomorphism]] (i.e. a [[natural isomorphism]]).
 
 =--
 
 ([Deligne 02, lemma 3.2](#Deligne02))
 
 
-### Schur functors
+### Super-exterior powers and Schur functors
 
 A [[finite dimensional vector space]] $V$ has the property that a high enough [[alternating power]] of it vanishes $\wedge^n V = 0$, namely this is the case for all $n \gt dim(V)$, and hence this vanishing is just another reflection of the finiteness of the [[dimension]] of $V$. For a [[super vector space]] $V$ of degreewise finite dimension an analog statement is still true, but one needs to form not just alternating powers but also [[symmetric powers]] (prop. \ref{SchurFunctorAnnihilatingFiniteDimensionalSuperVectorSpace} below), in fact one needs to apply a generalization of both of these constructions, a _[[Schur functor]]_. 
 
@@ -3330,7 +3320,7 @@ $$
 +-- {: .num_prop #SchurFunctorAnnihilatingFiniteDimensionalSuperVectorSpace} 
 ###### Proposition
 
-Let $V = V_{even} \oplus V_{odd}$ be a [[super vector space]] of degreewise finite dimension $d_{even}, d_{odd} \in \mathbb{N}$. Then there exists a [[Schur functor]] $S_\lambda$ (def. \ref{SchurFunctor}) that annihilated $V$:
+Let $V = V_{even} \oplus V_{odd}$ be a [[super vector space]] of degreewise finite dimension $d_{even}, d_{odd} \in \mathbb{N}$. Then there exists a [[Schur functor]] $S_\lambda$ (def. \ref{SchurFunctor}) that annihilates $V$:
 
 $$
   S_\lambda(V) \simeq 0
@@ -3348,20 +3338,57 @@ $$
 
 ([Deligne 02, corollary 1.9](#Deligne02))
 
-Generally:
+
+## Proof
+
+We discuss aspects of steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
+
+> under construction
+
+Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zero]] (for instance the [[complex numbers]]).
+
+
+The proof proceeds in three main steps:
+
+1. Proposition \ref{LengthOfObjectIsBounded} states that in a $k$-[[tensor category]] an object $X$ being of subexponential growth is equivalent to the existence of a [[Schur functor]] that annihilates this, hence equivalent to the statement that some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vaishes. 
+
+   Hence this proposition is where the [[symmetric group]] action on tensor powers appears, from just a kind of finite-dimensionality assumption.
+
+1. Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor} in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
 
-For [[tensor category]], then the following are equivalent:
+For $\mathcal{A}$ a $k$-[[tensor category]], then the following are equivalent:
 
-1. it has subexponential growth (def. \ref{SubexponentialGrowth});
+1. the category $\mathcal{A}$ has subexponential growth (def. \ref{SubexponentialGrowth});
 
-1. for every object $X$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
+1. for every object $X \in \mathcal{A}$ there exists $n \in \mathbb{N}$ and a [[partition]] $\lambda$ of $n$ such that the corresponding value of the [[Schur functor]], def. \ref{SchurFunctor}, on $X$ vanishes: $S_\lambda(X) = 0$. 
 
 =--
 
 ([Deligne 02, prop. 05](#Deligne02))
+
+
++-- {: .num_prop #SchurFinitenessImpliesExistenceOfSuperFiberFunctor} 
+###### Proposition
+
+If for every object of a $k$-[[tensor category]] $\mathcal{A}$ there exists a [[Schur functor]] that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor})
+
+$$
+  \omega 
+    \;\colon\; 
+  \mathcal{A}
+    \longrightarrow
+  R Mod(sVect)
+$$
+
+over some non-null [[supercommutative superalgebra]] $R$ over $k$.
+
+=--
+
+([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article"](#Deligne02)) 
+
 
 
 (...)
