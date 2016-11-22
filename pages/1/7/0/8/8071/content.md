@@ -4,7 +4,7 @@
 
 ## Idea
 
-An **infinitary logic** is a logic that allows infinitely long statements or infinitely long proofs, for example, by allowing conjunctions, disjunctions and quantifier sequences, to be of infinite length.
+An **infinitary logic** is a logic that allows infinitely long statements or infinitely long proofs, for example, by allowing conjunctions, disjunctions and quantifier sequences, to be of infinite length. The price to pay for adopting many of these more expressive logics is the failure of [[completeness theorem|completeness]] or of [[compactness theorem|compactness]].
 
 ## Related entries
 
