@@ -15,7 +15,7 @@ defines a [[polynomial]] in $n$,[^Note] first observe that any function $[n] \to
 $$Z(P;n) = \sum_{k=0}^{d} b_k \binom{n}{k}$$
 where $b_k$ is the number of _chains_ $x_0 \lt x_1 \lt \cdots \lt x_k$ in $P$ (i.e., injective order-preserving functions from $[k]$ to $P$), and where $d$ is the length of the longest chain. Hence $Z(P;n)$ is a polynomial of degree equal to the length of the longest chain in $P$.
 
-[^Note]: Note that the definition we use here for $Z(P;n)$ has an index shift from the definition that seems to be more standard in combinatorics. For example, the definition in [(Stanley, 3.12)](#StanleyEC1) counts multichains of length $n-2$ rather than of length $n$, and accordingly one should apply a substitution $n \mapsto n-2$ to recover his definition from ours.
+[^Note]: Note that the definition we use here for $Z(P;n)$ has an index shift from the definition that seems to be more standard in combinatorics. For example, the definition in [(Stanley, 3.12)](#StanleyEC1) counts multichains of length $n-2$ rather than of length $n$. Accordingly, one should apply a substitution to get some of the properties stated here to match equivalent results in the literature.
 
 ## Examples
 
