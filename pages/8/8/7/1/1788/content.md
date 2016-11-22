@@ -1,7 +1,4 @@
-
-
-
-We discuss aspects of steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
+We outline key steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02).
 
 > under construction
 
@@ -10,19 +7,20 @@ Throughout, let $k$ be an [[algebraically closed field]] of [[characteristic zer
 
 The proof proceeds in three main steps:
 
-1. Proposition \ref{LengthOfObjectIsBounded} states that in a $k$-[[tensor category]] an object $X$ being of subexponential growth is equivalent to the existence of a [[Schur functor]] that annihilates this, hence equivalent to the statement that some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vaishes. 
+1. **Proposition \ref{LengthOfObjectIsBounded}** states that in a $k$-[[tensor category]] an object $X$ is of subexponential growth (def. \ref{SubexponentialGrowth}) precisely if their exists a [[Schur functor]] that annihilates it, hence if some power of $X$, skew-symmetrized in sme variables and symmetrized in others, vanishes. 
 
-   Hence this proposition is where the [[symmetric group]] action on tensor powers appears, from just a kind of finite-dimensionality assumption.
+   This proposition is where the [[symmetric group]] and its [[permutation]] [[action]] on [[tensor powers]] appears, from just a kind of finite-dimensionality assumption.
 
-1. Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor} in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
+1. **Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor}** in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
 
+   This proposition is where [[superalgebra]] proper appears.
 
-
+1. spring
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
 
-For $\mathcal{A}$ a $k$-[[tensor category]], then the following are equivalent:
+For $\mathcal{A}$ a $k$-[[tensor category]] (def. \ref{TensorCategory}), then the following are equivalent:
 
 1. the category $\mathcal{A}$ has subexponential growth (def. \ref{SubexponentialGrowth});
 
@@ -36,21 +34,20 @@ For $\mathcal{A}$ a $k$-[[tensor category]], then the following are equivalent:
 +-- {: .num_prop #SchurFinitenessImpliesExistenceOfSuperFiberFunctor} 
 ###### Proposition
 
-If for every object of a $k$-[[tensor category]] $\mathcal{A}$ there exists a [[Schur functor]] that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor})
+If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$:
 
 $$
   \omega 
     \;\colon\; 
   \mathcal{A}
     \longrightarrow
-  R Mod(sVect)
+  sVect
+  \,.
 $$
-
-over some non-null [[supercommutative superalgebra]] $R$ over $k$.
 
 =--
 
-([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article"](#Deligne02)) 
+([Deligne 02, prop. 2.1 "r&#233;sultat cl&#233; de l'article", together with prop. 4.5](#Deligne02)) 
 
 +-- {: .proof}
 ###### Proof idea 
@@ -135,7 +132,7 @@ $$
   \omega \;\colon\; s \mathcal{A} \longrightarrow R Mod(sVect)
 $$
 
-is a super fiber functor. Now the super fiber functor in question is its restriction to $\mathcal{A}$, regarded as the sub-category of even-graded objects in $s \mathcal{A}$
+is a super fiber functor on $s\mathcal{A}$ over $R$. This restricts to a super fiber functor over $R$ on  $\mathcal{A}$, regarded as the sub-category of even-graded objects in $s \mathcal{A}$:
 
 $$
   \mathcal{A}
@@ -143,8 +140,47 @@ $$
   s \mathcal{A} 
    \overset{\omega}{\longrightarrow} 
   R Mod(sVect)
+  \,,
 $$
 
+Finally check ([Deligne 02, prop. 4.5](#Deligne02)) that
+if a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) admits a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over a [[supercommutative superalgebra]] $R$ over $k$
+
+$$
+  \mathcal{A}
+    \longrightarrow
+  R Mod(sVect)
+$$
+
+then it also admits a super fiber functor over $k$ itself, i.e. a fiber functor to [[sVect]]
+
+$$
+  \mathcal{A}
+    \longrightarrow
+  k Mod(sVect)
+  \simeq
+  sVect
+  \,.
+$$
+
+This is argued by expressing $R$ as an [[inductive limit]] 
+
+$$
+  R = \underset{\longrightarrow}{\lim}_\beta R_\beta
+$$
+
+over [[supercommutative superalgebras]] $R_\beta$ of finite type over $k$ and observing (...) that there exists $\beta$ such that $\omega_\beta$ is still a fiber functor and such that there exists an algebra homomorphism $R_\beta \to k$. 
+
+Finally then the fiber functor in question is
+
+$$
+  \omega_\beta \otimes_{R_\beta} k
+   \;\colon\;
+  \mathcal{A}
+    \longrightarrow
+  sVect_k
+  \,.
+$$
 
 =--
 
