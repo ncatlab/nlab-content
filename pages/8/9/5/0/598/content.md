@@ -264,7 +264,7 @@ $$
 This [[equivalence of quasi-categories|(∞,1)-equivalence]] is modeled by a [[Quillen equivalence]] of [[model categories]] whose [[right adjoint]] Quillen functor is the operation $\overline{W}$ discussed above.
 
 $$
-  \mathcal{G} : sSet_0 \stackrel{\stackrel{\simeq_{Quillen}}{\leftarrow}}{\to} sGrp
+  \mathcal{G} : sSet_0 \stackrel{\stackrel{\simeq_{Quillen}}{\longleftarrow}}{\longrightarrow} sGrp
   : \overline{W}
   \,.
 $$
