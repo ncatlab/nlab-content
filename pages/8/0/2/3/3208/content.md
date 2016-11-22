@@ -39,7 +39,7 @@ There are several different viewpoint on theories:
 
   [semantic view](#SemanticView)
 
-  is that the theory is given by the class of its [[model]]s appropriate to that fragment of logic. G&#246;del's completeness theorem is that a sentence in $\mathcal{T}$ is a theorem iff it is satisfied in every model.  
+  is that the theory is given by the class of its [[model]]s appropriate to that fragment of logic. G&#246;del's [[completeness theorem]] is that a sentence in $\mathcal{T}$ is a theorem iff it is satisfied in every model.  
 
 * The 
 
