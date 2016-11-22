@@ -3115,11 +3115,6 @@ Moreover, any finite dimensional [[faithful representation]] (which always exist
 
 See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
-
-
-## Statement of the theorem
- {#Statement}
-
 +-- {: .num_theorem #TheTheorem}
 ###### Theorem
 
@@ -3127,11 +3122,11 @@ Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such tha
 
 1. $k$ is an [[algebraically closed field]] of [[characteristic zero]] (e.g. the field of [[complex numbers]]) 
 
-1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}) 
+1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}
 
 then there exists
 
-1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose underlying [[supercommutative superalgebra]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
+1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose [[algebra of functions]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
 
 1. a tensor-[[equivalence of categories]] 
 
@@ -3339,6 +3334,11 @@ $$
 ([Deligne 02, corollary 1.9](#Deligne02))
 
 
+## Statement of the theorem
+ {#Statement}
+
+
+
 ## Proof
 
 We discuss aspects of steps of the proof of theorem \ref{TheTheorem}, given in [Deligne 02](#Deligne02)
@@ -3354,7 +3354,10 @@ The proof proceeds in three main steps:
 
    Hence this proposition is where the [[symmetric group]] action on tensor powers appears, from just a kind of finite-dimensionality assumption.
 
-1. Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor} in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
+1. Proposition \ref{SchurFinitenessImpliesExistenceOfSuperFiberFunctor} in turn says that if every object in $\mathcal{A}$ is annihilated by some [[Schur functor]], then there exists a super [[fiber functor]] on $\mathcal{A}$ over some [[supercommutative superalgebra]] $R$, hence then every object of $\mathcal{A}$ has underlying it a [[super vector space]] with some extra structure.
+
+
+
 
 +-- {: .num_prop #LengthOfObjectIsBounded}
 ###### Proposition
