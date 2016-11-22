@@ -538,9 +538,10 @@ the right adjoint $h^*$ generalizes the cleavage construction,
 whereas the left adjoint $r_!$ generalizes the comma category construction above.
 
 The two functors $h_!$ and $r^*$ become naturally weakly equivalent once we [[derived functor|derive]] them, but they are not isomorphic.
-However, they do become isomorphic if we restrict to the full subcategories of presheaves of groupoids and fibrations in simplicial sets
-whose fibers are [[nerves]] of groupoids.
-Thus in this case we have an [[adjoint triple]] $r_! \dashv r^* = h_! \dashv h^*$, consistent with the above description.
+The functor $r^*$ restricted to the full subcategory of presheaves of groupoids recovers the nerve of the classical Grothendieck construction described above.
+The functor $h_!$ restricted to the same full subcategory
+does not even land in quasicategories, so it doesn't give
+rise to a new construction in the classical case.
 
 ### $n = (\infty,1)$  {#(oo1)case}
 
