@@ -42,7 +42,7 @@ The main example of an $H$-group is the [[loop space]] $\Omega X$ of a space $X$
 
 The only [[n-spheres]] $S^n$ which have $H$-space structure are those for $n = 0,1,3,7$, and their H-space structure is given by identifying them as the unit spheres in one of the four [[normed division algebras]] ([[real numbers]], [[complex numbers]], [[quaternions]], [[octonions]]) and taking the product to be that induced by the algebra product. 
 
-An example of an H-space that does not lift to an [[A-infinity space]] is the [[7-sphere]] $S^7$. It can't be delooped because its [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$. The 7-sphere is also not an $H$-group.
+An example of an H-space that does not lift to an [[A-infinity space]] is the [[7-sphere]] $S^7$. It can't be delooped because its [[delooping]] would have [[cohomology group]] a [[polynomial ring]] on a generator in degree 8, and this is impossible by mod $p$ [[Steenrod operations]] for any odd $p$, see [Lemma 2, Adams61](#Adams61). The 7-sphere is also not an $H$-group.
 
 If $K$ is an $H$-group then for any topological space $X$, the set of [[homotopy classes]] $[X,K]$ has a natural group structure in the strict sense; analogously if $K'$ is an $H$-cogroup then $[K',X]$ has a group structure. If there is more than one $H$-group structure on a space, then the induced group structures on the set of homotopy classes coincide. 
 
@@ -110,6 +110,8 @@ Wikipedia\'s definition (at time of this writing, and phrased in the language of
 See also
 
 * [[John Adams]], _Finite $H$-Spaces and Lie groups_, Journal of Pure and Applied Algebra 19 (1980) 1-8 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamse8.pdf))
+
+* {#Adams61} [[John Adams]], _The sphere, considered as an $H$-space mod $p$_, Quart. J. Math. Oxford. Ser. (2) vol 12 52-60 ([pdf](http://qjmath.oxfordjournals.org/content/12/1/52.citation))
 
 [[!redirects H-spaces]]
 
