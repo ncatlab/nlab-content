@@ -110,7 +110,7 @@ $$
 $$
 The collection of such functions $\epsilon_{x,y}$ form a [[basis]] of $I(P)$ as an $R$-[[module]], and so the [[dimension]] of $I(P)$ is equal to the total number of (non-empty) intervals in $P$.
 
-Information about the number of intervals in $P$ is also encoded in the [[zeta polynomial]] of a finite poset.
+Information about the number of intervals in a finite poset is also encoded in its [[zeta polynomial]].
 
 ## In homotopy theory
 
