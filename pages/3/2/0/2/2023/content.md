@@ -104,11 +104,12 @@ See also at _[Simplex category -- Duality with intervals](simplex+category#Duali
 
 #### Intervals as generators of the incidence algebra
 
-Recall that the [[incidence algebra]] $I(P)$ of $P$ contains all functions $f : P \times P \to R$ (valued in some commutative ring $R$) such that $x \nleq y$ implies $f(x,y) = 0$. For any pair of elements $x,y\in P$ such that $x \leq y$, we can define an element $\epsilon_{x,y}$ of the incidence algebra by:
+Recall that the [[incidence algebra]] $I(P)$ of a poset $P$ (relative to some commutative ring $R$) is an [[associative unital algebra]] containing all functions $f : P \times P \to R$ such that $x \nleq y$ implies $f(x,y) = 0$. For any pair of elements related by the order $x \leq y$, we can define an element $\epsilon_{x,y}$ of the incidence algebra by:
 $$
 \epsilon_{x,y}(u,v) = \begin{cases}1 & u = x, w = y \\ 0 & \text{otherwise}\end{cases}
 $$
-The collection of such functions $\epsilon_{x,y}$ form a [[basis]] of $I(P)$ as an $R$-[[module]], and so the [[dimension]] of $I(P)$ is equal to the total number of (non-empty) intervals in $P$.
+and the collection of such functions $\epsilon_{x,y}$ form a [[basis]] of $I(P)$ as an $R$-[[module]].
+So, the [[dimension]] of the incidence algebra $I(P)$ is equal to the total number of (non-empty) intervals in $P$.
 
 Information about the number of intervals in a finite poset is also encoded in its [[zeta polynomial]].
 
