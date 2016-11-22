@@ -323,6 +323,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 ### C3 Classes of geometric morphisms
 
+#### C3.1 Open maps
+
 #### C3.2 Proper maps
 
 * [[proper geometric morphism]]
@@ -336,6 +338,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[locally connected topos]]
 
 * [[locally connected geometric morphism]]
+
+#### C3.4 Tidy morphisms
 
 #### C3.5 Atomic morphisms
 
@@ -438,17 +442,33 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[classifying topos]]
 
 
-### D3.2 The object classifier
+#### D3.2 The object classifier
 
 * [[theory of objects]]
 
 * [[classifying topos for the theory of objects]]
 
-### D3.3 Coherent toposes
+#### D3.3 Coherent toposes
 
 * [[coherent topos]]
 
+#### D3.4 Boolean classifying toposes
+
+#### D3.5 Conceptual completeness
+
+* [[conceptual completeness]]
+
 ### D4 Higher-order logic
+
+#### D4.1 Interpreting higher-order logic in a topos
+
+#### D4.2 $\lambda$-Calculus and cartesian closed categories
+
+* [[cartesian closed category]]
+
+* [[lambda-calculus]]
+
+#### D4.3 Toposes as type theories
 
 #### D4.4 Predicative type theories
 
@@ -460,11 +480,15 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[internally projective object]] --- note that Lemma 4.5.3(iii) in the Elephant is not quite strong enough to imply (i) and (ii).
 * [[excluded middle]]
 
+#### D4.6 De Morgan's law and the Gleason cover
+
 #### D4.7 Real numbers in a topos
 
 * [[real numbers object]]
 
 ### D5 Aspects of finiteness
+
+#### D5.1 Natural number objects revisited
 
 #### D5.2 Finite cardinals
 
@@ -482,6 +506,7 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[finite set]]
 * [[finite object]]
 
+#### D5.5 Orbitals and numerals
 
 ## E Homotopy and Cohomology
 
@@ -490,11 +515,13 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[homotopy groups in an (∞,1)-topos]]
 
 
-#### E1.1 Homotopy theory of toposes
+#### E1.1 Path-connectedness for locales
 
-#### E1.3 The fundamental groupoid via paths
+* [[locale]]
 
-#### E1.4 The fundamental groupoid via coverings
+#### E1.2 The fundamental groupoid via paths
+
+#### E1.3 The fundamental groupoid via coverings
 
 #### E1.4 Natural homotopy
 
@@ -512,6 +539,8 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 #### E2.3 Model structures for sheaves
 
 * [[model structure on simplicial presheaves|model structure on simplicial sheaves]]
+
+#### E2.4 Axiomatic theory of open maps
 
 ### E3 Cohomology theory
 
@@ -537,6 +566,10 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 * [[principal bundle]]
 
 * [[principal ∞-bundle]]
+
+#### E3.4 Classifying toposes and classifying spaces
+
+* [[classifying topos]]
 
 #### E3.5 Cohomological applications of descent theory
 
@@ -568,11 +601,35 @@ The _Elephant_ is a good reference for anything related to topos theory, and we 
 
 * [[integration axiom]]
 
-#### F1.5 Intrinsic infinitesimal
+#### F1.6 Intrinsic infinitesimal
 
 * [[infinitesimal object]]
 
 * [[amazing right adjoint]]
+
+### F2 Realizability toposes
+
+#### F2.1 Sch&#246;nfinkel algebras and assemblies
+
+#### F2.2 Realizability toposes
+
+* [[realizability topos]]
+
+#### F2.3 Modified Realizability
+
+#### F2.4 Synthetic domain theory
+
+* [[synthetic domain theory]]
+
+### F3 The free topos
+
+#### F3.1 The free topos as a mathematical universe
+
+#### F3.2 Disjunction and existence properties
+
+#### F3.3 Doing without the natural numbers
+
+#### F3.4 Recursive functions in the free topos
 
 
 ### F4 Topos theory and set theory
