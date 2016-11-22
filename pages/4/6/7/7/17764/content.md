@@ -21,7 +21,7 @@ where $b_k$ is the number of _chains_ $x_0 \lt x_1 \lt \cdots \lt x_k$ in $P$ (i
 
 The zeta polynomial of $[2] = \{ 0 \lt 1 \lt 2 \}$ is
 $$3 + 3n + \binom{n}{2} = \frac{n^2 + 5n + 6}{2}$$
-For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[2]$ contains 3 points and 6 intervals, while evaluating it at $n=2$ confirms that there are 10 order-preserving functions from $[2]$ to itself.
+For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[2]$ contains 3 points and 6 [[intervals]], while evaluating it at $n=2$ confirms that there are 10 order-preserving functions from $[2]$ to itself.
 
 The zeta polynomial of the 5-element poset
 $$P = \array{&&v&& \\ &&\uparrow&& \\ &&u&& \\ &\nearrow& &\nwarrow& \\ y &&&& z \\ &\nwarrow& &\nearrow& \\ &&x&&}$$
