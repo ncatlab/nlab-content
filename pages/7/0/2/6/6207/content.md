@@ -47,7 +47,7 @@ From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category
 
 ## Example
 
-If $C$ is a partially ordered set, then $Tw(C)$ is isomorphic to the set of nonempty intervals $[a,b]=\{c\in C| a\leq c\leq \b\}$ with $a\leq b$ in C ordered by inclusion (cf. [Johnstone 1999](#JT99)).
+If $C$ is a partially ordered set, then $Tw(C)$ is isomorphic to the set of nonempty [[interval|intervals]] $[a,b]=\{c\in C| a\leq c\leq \b\}$ with $a\leq b$ in C ordered by inclusion (cf. [Johnstone 1999](#JT99)).
 
 ## Properties
 
@@ -86,7 +86,7 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 
 ## References
 
-* L. Errington, _Twisted Systems_ , PhD thesis Imperial College London 1999.([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
+* L. Errington, _Twisted Systems_ , PhD thesis Imperial College London 1999.  ([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
 
 * [[Peter Johnstone]], _A Note on Discrete Conduch&#233; Fibrations_ , TAC **5** no.1 (1999) pp.1-11. ([pdf](http://www.tac.mta.ca/tac/volumes/1999/n1/n1.pdf))
 * [[Jacob Lurie]], _Derived Algebraic Geometry X: Formal Moduli Problems_ , ms. (2011). {#DAGX}
