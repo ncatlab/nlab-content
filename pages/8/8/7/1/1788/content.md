@@ -34,13 +34,22 @@ for any two smooth functions $f,g \in C^\infty(X)$.
 
 One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action]] of an algebra $R$ this way is a _[[module]]_ over $R$.
 
-(...)
+In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$.
 
-+-- {: .num_defn #AdditiveAndAbelianCategories} 
-###### Definition
+The _[[Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. 
 
++-- {: .num_prop} 
+###### Proposition
+**([Swan 62](Serre-Swan+theorem#Swan))**
+
+Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the [[category]] of [[finitely generated module|finitely generated]] [[projective modules]] over the [[continuous function|continuous]]-[[function algebra]] $C(X)$ is [[equivalence of categories|equivalent]] to the category of finite-[[rank]] [[vector bundles]] on $X$, where the equivalence is established by sending a vector bundle to the its module of continuous [[sections]].
 
 =--
+
+
+This allows to _identify_ suitable $\mathcal{O}(X)$-modules with vector bundles over $X$. But then, if the suitable conditions do not hold, $R$-modules still behave a lot like sections of vector bundles over $Spec(R)$, and hence may be regarded as generalized vector bundles ([[quasi-coherent sheaves]]).
+
+
 
 +-- {: .num_defn #ModulesInMonoidalCategory}
 ###### Definition
@@ -690,10 +699,26 @@ Finally one checks that these two constructions are inverses to each other, up t
 
 When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
 
+
 +-- {: .num_prop #CoproductsInCMon}
 ###### Proposition
 
-Let $\mathcal{A}$ be a [[tensor category]] and let $R \in CMon(\mathcal{A})$ be a [[commutative monoid]] in $\mathcal{A}$, def. \ref{MonoidsInMonoidalCategory}. Then $R CAlg(\mathcal{A})$ has binary [[coproducts]] and these are given by the [[tensor product of modules]] of the underlying $R$-modules.
+Suppose that $\mathcal{C}$ is 
+
+* a [[symmetric monoidal category]];
+
+* with [[reflexive coequalizers]]
+
+* that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
 
 Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
 
@@ -704,5 +729,9 @@ $$
 
 =--
 
-See at _[CRing -- Properties -- Cocartesian comonoidal structure](CRing#CocartesianComnonoidalStructure)_:
+This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
+
+
+
+
 
