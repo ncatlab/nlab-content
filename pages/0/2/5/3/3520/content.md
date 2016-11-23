@@ -103,6 +103,8 @@ $$
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[smooth Serre-Swan theorem]]
+
 * [[derivations of smooth functions are vector fields]]
 
 ## References
