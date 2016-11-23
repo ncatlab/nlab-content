@@ -20,8 +20,9 @@
 ## Definition
 
 Given a [[commutative ring]] $R$ and $R$-[[module]]s $M$ and $N$, an __$R$-[[quadratic function]]__ on $M$ with values in $N$ is a map $q: M \to N$ such that the following properties hold:
- * (cube relation) For any $x,y,z \in M$, we have $q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$.
- * (homogeneous of degree 2) For any $x \in M$ and any $r \in R$, we have $q(r x) = r^2q(x)$.
+
+* (cube relation) For any $x,y,z \in M$, we have $q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$.
+* (homogeneous of degree 2) For any $x \in M$ and any $r \in R$, we have $q(r x) = r^2q(x)$.
 
 A **quadratic $R$-module** is an $R$-module $M$ equipped with a __[[quadratic form]]__: an $R$-quadratic function on $M$ with values in $R$. 
 
