@@ -761,9 +761,13 @@ $$
 This fails to sit in the shifted generators by the terms coming from the translation algebra. For the degree-3 element $c$ however it does produce
 the expected term $r^c \wedge r^c \wedge r^c$.
 
-## Related concepts
+## Related entries
 
 * [[torsion constraints in supergravity]]
+
+* [[super Cartan geometry]]
+
+* [[geometry of physics -- supergeometry]]
 
 ## References 
  {#References}
