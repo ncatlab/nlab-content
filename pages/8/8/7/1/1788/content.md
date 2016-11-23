@@ -533,6 +533,37 @@ where the top left triangle is the [unitality](#UnitalityMonoid) condition and t
 
 =--
 
+When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
+
+
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that 
+
+1. it has [[reflexive coequalizers]]
+
+1. that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with the [[tensor product]] in the monoidal category $A$[[Mod]] (according to prop. \ref{MonoidalCategoryOfModules}):
+
+$$
+  U(B \coprod_A C) \simeq  B \otimes_A C 
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
+
+Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
+
+$$
+  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
+  \,.
+$$
+
+=--
+
+This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
 
 
 +-- {: .num_defn #AAlgebra}
@@ -776,48 +807,31 @@ $$
   A_1 Mod(\mathcal{C})
    \underoverset
      {\underset{U}{\longleftarrow}}
-     {\overset{F}{\longleftarrow}}
+     {\overset{F}{\longrightarrow}}
      {}
-  A_2 Mod( (A_1 Mod, \otimes_{A_1}, A_1) ) 
+  A_2 Mod( A_1 Mod, \otimes_{A_1}, A_1 ) 
 $$
 
 and hence the statement follows with prop. \ref{MonoidModuleOverItself}.
 
 =--
 
-When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
++-- {: .num_remark} 
+###### Remark
 
-
-+-- {: .num_prop #CoproductsInCMon}
-###### Proposition
-
-Suppose that $\mathcal{C}$ is 
-
-* a [[symmetric monoidal category]];
-
-* with [[reflexive coequalizers]]
-
-* that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
-
-Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
+In the dual interpretation of $R$-[[modules]] as generalized [[vector bundles]] (namely: [[quasicoherent sheaves]]) over $Spec(R)$ (def. \ref{Affines}) then $\phi \colon A_1 \to A_2$ becomes a map of spaces
 
 $$
-  U(B \coprod_A C) \simeq  B \otimes_A C 
-  \,.
+  Spec(\phi)
+   \colon
+  Spec(A_2)
+    \longrightarrow
+  Spec(A_1)
 $$
 
-Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
-
-Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
-
-$$
-  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
-  \,.
-$$
+and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} corresponds to the [[pullback]] of vector bundles from $Spec(A_1)$ to $Spec(A_2)$.
 
 =--
-
-This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
 
 
 
