@@ -1,6 +1,10 @@
+# Contents
+* table of contents
+{:toc}
+
 # Idea
 
-A _chord diagram_ is a certain kind of basic combinatorial structure that is considered in various settings such as [[combinatorics]] and [[knot theory]]. Chord diagrams are typically represented graphically as a [[circle]] with some marked [[points]], and [[lines]] connecting those points &#8212; something like so:
+A _chord diagram_ is a certain kind of basic combinatorial structure that is considered in various settings such as [[combinatorics]] and [[knot theory]]. Chord diagrams are typically represented graphically as a [[circle]] with some marked [[points]] and [[lines]] connecting those points &#8212; something like so:
 <center>
 [[!include chord diagram > chord diagram unlabelled]]
 </center>
@@ -21,7 +25,7 @@ and
 </center>
 both represent the same underlying chord diagram, corresponding to the involution $(AC)(BE)(DF)$ on the cyclically ordered set $(ABCDEF)$.
 
-In many situations, one also wants to consider a [[rigid]] version of chord diagrams, known as _rooted chord diagrams_ or _arc diagrams_, where the set of points is instead [[linearly ordered]].
+In many situations, one also wants to consider a [[rigid]] version of chord diagrams, known as _rooted chord diagrams_ (or _arc(h) diagrams_), where the set of points is instead [[linearly ordered]].
 Graphically, one can visualize this as cutting the circle at a particular segment and "opening up" the diagram.
 For example, here we cut the first diagram above at the segment AF
 <center>
@@ -31,14 +35,27 @@ Relabelling the points to follow the linear order,
 <center>
 [[!include chord diagram > arc diagram]]
 </center>
-the rooted chord diagram can now be identified with the involution $(02)(13)(45)$ in $S_6$.
+the rooted chord diagram can now be identified with the involution $(02)(13)(45)$ on $\mathbf{6} = \{0 \lt 1 \lt 2 \lt 3 \lt 4 \lt 5\}$.
 
-## Related concepts
+# Gauss diagrams
 
+Any [[knot diagram]] can be represented faithfully by a certain kind of chord diagram with some extra structure, known as a _Gauss diagram_ [(Polyak and Viro 1994)](#PV94).
+
+Recall that classically, a knot is defined as an embedding of the circle $S^1$ into $\mathbb{R}^3$, which can be represented two-dimensionally by projecting onto the plane $\mathbb{R}^2$ and marking each double point as either an over-crossing or an under-crossing.
+One obtains a chord diagram from this knot diagram by considering the original immersing circle and connecting the [[preimages]] of each double point by a chord.
+Then, information about crossings can be represented by orienting the chords from over-crossing to under-crossing, while information about the local [[writhe]] of each crossing (in the case of a [[framed knot]]) may be encoded by giving each point of the diagram a positive or negative sign.
+Finally, fixing a [[base point]] on the original knot gives rise to a Gauss diagram whose underlying chord diagram is naturally rooted.
+
+Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles.
+This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
+
+# Related concepts
+
+* [[involution]]
 * [[Vassiliev invariant]]
 * [[combinatorial map]]
 
-## References
+# References
 
 For more on chord diagrams emphasizing their connection to [[Vassiliev invariants]] of [[singular knots]], see Chapter 6 of
 
@@ -62,10 +79,21 @@ For chord diagrams and arc diagrams from the perspective of [[combinatorics]], s
 
 For the relationship to _Gauss diagrams_ in classical [[knot theory]] as well as [[virtual knot theory]], see:
 
-* Michael Polyak and Oleg Viro, Gauss diagram formulas for Vassiliev invariants, _International Mathematics Research Notes_ 1994:11. [pdf](http://www.math.stonybrook.edu/~oleg/math/papers/1994-Polyak-Viro.pdf)
+* {#PV94} Michael Polyak and Oleg Viro, Gauss diagram formulas for Vassiliev invariants, _International Mathematics Research Notes_ 1994:11. [pdf](http://www.math.stonybrook.edu/~oleg/math/papers/1994-Polyak-Viro.pdf)
 
-* {#Viro} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
+* {#Kauffman1999} [[Louis Kauffman]], Virtual Knot Theory, _European Journal of Combinatorics_ (1999) 20, 663-691. [pdf](http://homepages.math.uic.edu/~kauffman/VKT.pdf)
+
+* {#Viro05} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
 
 
-[[!redirects arch diagram]]
+[[!redirects chord diagrams]]
+[[!redirects rooted chord diagram]]
+[[!redirects rooted chord diagrams]]
 [[!redirects arc diagram]]
+[[!redirects arch diagram]]
+[[!redirects arc diagrams]]
+[[!redirects arch diagrams]]
+[[!redirects Gauss diagram]]
+[[!redirects Gauss diagrams]]
+[[!redirects Gauss code]]
+[[!redirects Gauss codes]]
