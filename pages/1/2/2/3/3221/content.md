@@ -33,7 +33,12 @@ There are two different original theorems of the same intuitive spirit which are
 
 2) **Swan's theorem** ([Swan 62](#Swan)): Given a [[Hausdorff space|Hausdorff]] [[compact space]] $X$, the [[category]] of [[finitely generated module|finitely generated]] [[projective modules]] over the [[continuous function|continuous]]-[[function algebra]] $C(X)$ is [[equivalence of categories|equivalent]] to the category of finite-[[rank]] [[vector bundles]] on $X$, where the equivalence is established by sending a vector bundle to the its module of continuous [[sections]].
 
-But there are also various variations of these theorems, for instance to [[differential geometry]] ([Nestruev](#Nestruev)). A general statement of the Serre-Swan theorems over [[ringed spaces]] is in ([Morye](#Morye)).
+But there are also various variations of these theorems, for instance to [[differential geometry]]:
+
+3) **[[smooth Serre-Swan theorem]]** ([Nestruev 03, 11.33](#Nestruev03)) For $X$ a [[smooth manifold]] with $\mathbb{R}$-algebra of [[smooth functions]] $C^\infty(X)$ there is an [[equivalence of categories]] between that of finite [[rank]] smooth [[vector bundles]] over $X$ and [[finitely generated objects|finitely generated]] [[projective modules]] over $C^\infty(X)$.
+
+
+A general statement of the Serre-Swan theorems over [[ringed spaces]] is in ([Morye](#Morye)).
 
 If one drops the condition that the [[sheaf of modules]] over the [[structure sheaf]] of a [[ringed space]] is [[covering|locally]] [[free module|free]], and allows it instad to be just _locally [[presentable module|presentable]]_, then one arrives at the notion of [[quasicoherent sheaf of modules]]. Here the Serre-Swan theorem serves to clarify in which sense precisely these are generalizations of [[vector bundles]].
 
@@ -69,7 +74,7 @@ The two original articles are
 
 A textbook account in the context of [[differential geometry]] is in 
 
-* {#Nestruev} Jet Nestruev, _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
+* {#Nestruev03} [[Jet Nestruev]], _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
  
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
