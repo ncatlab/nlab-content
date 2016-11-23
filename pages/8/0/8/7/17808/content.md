@@ -1,6 +1,12 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
 ## Statement 
 
-The most memorable formulation of the Quillen-Suslin theorem states that for a [[field]] $k$, finitely generated [[projective modules]] over a finitary [[polynomial algebra]] $A = k[x_1, \ldots, x_r]$ are [[free object|free]]. 
+The most memorable formulation of the Quillen-Suslin theorem states that for a [[field]] $k$, [[finitely generated object|finitely generated]] [[projective modules]] over a finitary [[polynomial algebra]] $A = k[x_1, \ldots, x_r]$ are [[free object|free]]. 
 
 In Serre's [FAC](#Serre1955) appears the sentence "It is not known if there exist projective A-modules of finite type which are not free." This question became known as Serre's problem or Serre's conjecture (over repeated objections from Serre). Serre had made partial progress by proving that f.g. projective $A$-modules are [[stably free module|stably free]], but the question remained unresolved until 1976 when an affirmative solution was produced by [[Daniel Quillen]] and independently by [[Andrei Suslin]]. 
 
