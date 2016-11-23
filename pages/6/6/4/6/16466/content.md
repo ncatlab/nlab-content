@@ -1479,6 +1479,51 @@ $$
 
 =--
 
+Finally we discuss categories of [[ind-objects]] in tensor categories
+
+
++-- {: .num_prop #IndObjectsInATensorCategory}
+###### Proposition
+
+Let $\mathcal{A}$ a [[tensor category]] (def. \ref{TensorCategory}), such that
+
+1. all [[object of finite length|objects have finite length]];
+
+1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$
+
+then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
+
+1. $Ind(\mathcal{A})$ is an [[abelian category]]
+
+1. $\mathcal{A} \hookrightarrow Ind(\mathcal{A})$ is a [[full subcategory]]
+
+   1. which stable under forming [[subquotients]]
+
+   1. such that that every [[object]] $X \in Ind(\mathcal{A})$ is the [[filtered colimit]] of those of its [[subobjects]] that are in $\mathcal{A}$;
+
+1. $\Ind(\mathcal{A})$ inherits a [[tensor product]] by
+
+   $$
+     \begin{aligned}
+       X \otimes Y
+         & \simeq
+       (\underset{\longrightarrow}{\lim}_i X_i)
+       \otimes
+       (\underset{\longrightarrow}{\lim}_i Y_i)
+       \\
+       & \simeq
+       \underset{\longrightarrow}{\lim}_{i,j} (X_i \otimes X_j)
+     \end{aligned}
+   $$
+
+   where $X_i,X_j \in \mathcal{A}$, by the above.
+
+1. $Ind(\mathcal{A})$ satisfies all the axioms of def. \ref{TensorCategory} except that it fails to be [[essentially small category|essentially small]] and [[rigid category]]. In detail
+
+   * an object in $Ind(\mathcal{A})$ is [[dualizable object|dualizable]] precisely if it is in $\mathcal{A}$.
+
+=--
+
 
 
 ### Commutative algebra in tensor categories and Affine super-spaces
@@ -3324,49 +3369,7 @@ Moreover, any finite dimensional [[faithful representation]] (which always exist
 See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
 
-### Tensor Ind-categories
 
-+-- {: .num_prop #IndObjectsInATensorCategory}
-###### Proposition
-
-Let $\mathcal{A}$ a [[tensor category]] (def. \ref{TensorCategory}), such that
-
-1. all [[object of finite length|objects have finite length]];
-
-1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$
-
-then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
-
-1. $Ind(\mathcal{A})$ is an [[abelian category]]
-
-1. $\mathcal{A} \hookrightarrow Ind(\mathcal{A})$ is a [[full subcategory]]
-
-   1. which stable under forming [[subquotients]]
-
-   1. such that that every [[object]] $X \in Ind(\mathcal{A})$ is the [[filtered colimit]] of those of its [[subobjects]] that are in $\mathcal{A}$;
-
-1. $\Ind(\mathcal{A})$ inherits a [[tensor product]] by
-
-   $$
-     \begin{aligned}
-       X \otimes Y
-         & \simeq
-       (\underset{\longrightarrow}{\lim}_i X_i)
-       \otimes
-       (\underset{\longrightarrow}{\lim}_i Y_i)
-       \\
-       & \simeq
-       \underset{\longrightarrow}{\lim}_{i,j} (X_i \otimes X_j)
-     \end{aligned}
-   $$
-
-   where $X_i,X_j \in \mathcal{A}$, by the above.
-
-1. $Ind(\mathcal{A})$ satisfies all the axioms of def. \ref{TensorCategory} except that it fails to be [[essentially small category|essentially small]] and [[rigid category]]. In detail
-
-   1. an object in $Ind(\mathcal{A})$ is [[dualizable object|dualizable]] precisely if it is in $\mathcal{A}$.
-
-=--
 
 
 ### Super Fiber functors and their automorphism supergroups
@@ -3819,7 +3822,7 @@ $$
   \,.
 $$
 
-Speicifically, this is the case precisely if the corresponding [[Young tableau]] $[\lambda]$ satifies
+Specifically, this is the case precisely if the corresponding [[Young tableau]] $[\lambda]$ satifies
 
 $$
   [\lambda] \subset \left\{ (i,j)\;\vert\; i \leq d_{even}, j \leq d_{odd} \right\}
@@ -3833,6 +3836,7 @@ $$
 
 ## Statement of the theorem
  {#Statement}
+
 
 +-- {: .num_theorem #TheTheorem}
 ###### Theorem
@@ -4092,7 +4096,7 @@ from prop. \ref{HomomorphismFromPiT2ToEtaPiT1} and using the isomorphism from pr
 =--
 
 
-This is the main [[Tannaka reconstruction]] theorem ([Deligne 90, 8.17](#Deligne90)) 
+This is the main [[Tannaka reconstruction]] theorem ([Deligne 90, 8.17](#Deligne90))
 specialized to super fiber functors ([Deligne 90, 8.19](#Deligne90)).
 
 
