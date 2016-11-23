@@ -18,7 +18,7 @@
 
 ## Definition ##
 
-An [[object]] $X$ of a [[category]] is **small** if it is $\kappa$-[[compact object|compact]] for some [[regular cardinal]] $\kappa$ (and therefore also for all greater regular cardinals as well). 
+An [[object]] $X$ of a [[category]] is **small** if it is $\kappa$-[[compact object|compact]] for some [[regular cardinal]] $\kappa$ (and therefore also for all greater regular cardinals). 
 
 Here, $X$ is called $\kappa$-compact if the [[representable functor|corepresentable functor]] $hom(X,\cdot)$ preserves $\kappa$-[[directed colimit]]s.
 
