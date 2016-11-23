@@ -97,6 +97,8 @@ defines an element in $C^\infty(\mathbb{R}^n)/I$.
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[smooth Serre-Swan theorem]]
+
 * [[derivations of smooth functions are vector fields]]
 
 
