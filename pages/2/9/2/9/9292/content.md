@@ -20,7 +20,7 @@ $$
   (f_1 \cdot f_2) \colon s \mapsto f_1(s) f_2(s) \in R
 $$
 
-and the [[ring]] inclusio $R \to [S,R]$ is given by sending $r \in R$ to the constant function with value $r$.
+and the [[ring]] inclusion $R \to [S,R]$ is given by sending $r \in R$ to the constant function with value $r$.
 
 ### Algebra of functions on an $\infty$-stack
 
