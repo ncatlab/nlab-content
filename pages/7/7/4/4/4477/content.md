@@ -382,6 +382,9 @@ If $R$ is the [[integers]] $\mathbb{Z}$, or a [[field]] $k$, or a [[division rin
 * [[free module]] $\Rightarrow$ **projective module** $\Rightarrow$ [[flat module]] $\Rightarrow$ [[torsion-free module]]
 
 
+* [[Serre-Swan theorem]]
+
+* [[Quillen-Suslin theorem]]
 
 ## References
 
