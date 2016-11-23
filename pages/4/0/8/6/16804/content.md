@@ -60,7 +60,9 @@ For chord diagrams and arc diagrams from the perspective of [[combinatorics]], s
 
 * A. Khruzin. Enumeration of chord diagrams. arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
 
-For the relationship to _Gauss diagrams_ in [[virtual knot theory]]:
+For the relationship to _Gauss diagrams_ in classical [[knot theory]] as well as [[virtual knot theory]], see:
+
+* Michael Polyak and Oleg Viro, Gauss diagram formulas for Vassiliev invariants, _International Mathematics Research Notes_ 1994:11. [pdf](http://www.math.stonybrook.edu/~oleg/math/papers/1994-Polyak-Viro.pdf)
 
 * {#Viro} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
 
