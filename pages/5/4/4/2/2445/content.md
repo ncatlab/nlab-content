@@ -21,7 +21,7 @@
 
 Given a [[commutative ring]] $R$ and $R$-[[module]]s $M$ and $N$, an __$R$-[[quadratic function]]__ on $M$ with values in $N$ is a map $q: M \to N$ such that the following properties hold:
  * (cube relation) For any $x,y,z \in M$, we have $q(x+y+z) - q(x+y) - q(x+z) - q(y+z) + q(x) + q(y) + q(z) = 0$.
- * (homogeneous of degree 2) For any $x \in M$ and any $r \in R$, we have $q(rx) = r^2q(x)$.
+ * (homogeneous of degree 2) For any $x \in M$ and any $r \in R$, we have $q(r x) = r^2q(x)$.
 
 A **quadratic $R$-module** is an $R$-module $M$ equipped with a __[[quadratic form]]__: an $R$-quadratic function on $M$ with values in $R$. 
 
@@ -105,9 +105,9 @@ One can understand the Clifford algebra as the [[quantization]] [[Grassmann alge
 
 Let $M$ be a projective $R$-module of finite [[rank]], and let $q$ be nondegenerate.  Write $Cl(M,q)^\times$ for the [[group of units]] of the Clifford algebra $Cl(M,q)$.  
 
-The **Clifford group** $\Gamma_{M,q}(R)$ is the subgroup of elements $x$ for which twisted conjugation stabilizes the submodule $M \subset Cl(M,q)$.  Here, twisted conjugation is defined by $y \mapsto xy\alpha(x)^{-1}$, where $\alpha$ is the automorphism of $CL(M,q)$ induced by the $-1$ map on $M$.  Since twisted conjugation by $M$-stabilizing elements amounts to reflection $y \mapsto y - 2\frac{(x,y)}{q(x)}x$, there is a canonical map $\Gamma_{M,q}(R) \to O(M,q)$, and the Clifford group is in fact a central extension of the orthogonal group by $R^\times$.
+The **Clifford group** $\Gamma_{M,q}(R)$ is the subgroup of elements $x$ for which twisted conjugation stabilizes the submodule $M \subset Cl(M,q)$.  Here, twisted conjugation is defined by $y \mapsto x y\alpha(x)^{-1}$, where $\alpha$ is the automorphism of $CL(M,q)$ induced by the $-1$ map on $M$.  Since twisted conjugation by $M$-stabilizing elements amounts to reflection $y \mapsto y - 2\frac{(x,y)}{q(x)}x$, there is a canonical map $\Gamma_{M,q}(R) \to O(M,q)$, and the Clifford group is in fact a central extension of the orthogonal group by $R^\times$.
 
-The Clifford group is made of homogeneous elements in the $\mathbb{Z}/2\mathbb{Z}$-grading, and the subgroup of even elements is a normal subgroup of index two.  One also has a [[spinor]] norm $Q: \Gamma_{M,q}(R) \to R^\times$ on the Clifford group, defined by $Q(x) = x^tx$, where $x \mapsto x^t$ is the anti-involution of the Clifford algebra defined by opposite multiplication in the tensor algebra.
+The Clifford group is made of homogeneous elements in the $\mathbb{Z}/2\mathbb{Z}$-grading, and the subgroup of even elements is a normal subgroup of index two.  One also has a [[spinor]] norm $Q: \Gamma_{M,q}(R) \to R^\times$ on the Clifford group, defined by $Q(x) = x^t x$, where $x \mapsto x^t$ is the anti-involution of the Clifford algebra defined by opposite multiplication in the tensor algebra.
 
 The [[Pin group]] $Pin_{M,q}(R)$ is the group elements of the Clifford group with [[spinor]] norm 1.  The [[Spin group]] $Spin_{M,q}(R)$ is the group of elements in the even subgroup of the Clifford group with [[spinor]] norm 1.
 
@@ -169,5 +169,4 @@ For some standard material see for instance
 For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_.
 
 
-[[!redirects Clifford algebra]]
 [[!redirects Clifford algebras]]
