@@ -32,6 +32,8 @@ Warning: a virtual knot/link has a genus in the sense of the genus of the underl
 
 * {#Kauffman1999} [[Louis Kauffman]], Virtual Knot Theory, _European Journal of Combinatorics_ (1999) 20, 663-691. [pdf](http://homepages.math.uic.edu/~kauffman/VKT.pdf)
 
+* Naoko Kamada and Seiichi Kamada, Abstract Link Diagrams and Virtual Knots, _Journal of Knot Theory and its Ramifications_, Vol. 9, No. 1 (2000), 93-106. [doi](http://dx.doi.org/10.1142/S0218216500000049)
+
 * {#Kauffman2012} [[Louis Kauffman]], Introduction to Virtual Knot Theory. July 2012. [arXiv](http://arxiv.org/abs/1101.0665)
 
 * {#Kuperberg2003} [[Greg Kuperberg]], What is a virtual link?, _Algebraic & Geometric Topology_ Volume 3 (2003), 587-591. [pdf](http://arxiv.org/pdf/math/0208039v2.pdf)
