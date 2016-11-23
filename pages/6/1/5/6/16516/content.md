@@ -5,28 +5,40 @@
 
 > next chapter: _[[geometry of physics -- BPS charges|BPS charges]]_
 
+>
+
+> Presently this entry is under construction. It is being incrementally expanded as this lecture series progresses: _[[schreiber:From the Superpoint to T-Folds]]_.
 
 #Contents#
 * table of contents
 {:toc}
 
-## **Supergeometry**
 
 In [[nLab:Klein geometry]] and [[nLab:Cartan geometry]] the fundamental geometric concept is the [[nLab:symmetry group]] $G$ of the local model [[nLab:space]], which is then recovered as some [[nLab:coset space]] $G/H$. These symmetry groups $G$ are reflected in their [[nLab:categories of representations]] $Rep(G)$, which are certain nice [[nLab:tensor categories]]. In terms of [[nLab:physics]] via [[nLab:Wigner classification]], the [[nLab:irreducible objects]] in  $Rep(G)$ label the possible [[nLab:fundamental particle]] species on the [[nLab:spacetime]] $G/H$. Hence if we regard the [[nLab:tensor category]] $Rep(G)$ as the actual fundamental concept, then the natural question is that of _[[nLab:Tannaka duality|Tannaka reconstruction]]_: Given any nice [[nLab:tensor category]], is it [[nLab:equivalence of categories|equivalent]] to $Rep(G)$ for some symmetry group $G$? For [[nLab:rigid monoidal category|rigid]] [[nLab:tensor categories]] in [[nLab:characteristic zero]] subject only to a mild size constraint this is answered by **[[nLab:Deligne's theorem on tensor categories]]** (theorem \ref{TheTheorem} below) : all of them are, but only if we allow $G$ to be a "[[nLab:supergroup]]".
 
 (...)
 
-### **Model layer**
+## **Model layer**
 
-#### {#Superalgebra} Superalgebra
- 
-The beauty of [[supercommutative superalgebra]] is that it is just [[commutative algebra]] 
-[[internalization|internal]] to the [[tensor category]] of [[super vector spaces]].
+* _[Superalgebra](#Superalgebra)_
+
+* _[Supergeometry](#Supergeometry)_
+
+* ...
+
+### {#Superalgebra} Superalgebra
+
+The beauty of [[supercommutative superalgebra]] is that it is just [[commutative algebra]]
+"[[internalization|internal]]" to the [[tensor category]] of [[super vector spaces]].
+For instance an (affine algebraic) [[supergroup]] (i.e. super-[[symmetry group]], i.e. [[supersymmetry]] group)
+is just a [[commutative Hopf algebra]] internal to super vector spaces. 
 The beauty of [[super vector spaces]], in turn, is that these are just $\mmathbb{Z}/2$-[[graded vector spaces]]
-equipped with the _unique_ non-trivial [[symmetric monoidal category|symmetric braiding]]. 
+equipped with the _unique_ non-trivial [[symmetric monoidal category|symmetric braiding]].
+Better yet, _all_ [[tensor categories]] subject to a mild size constraint are [[equivalence of categories|equivalently]]
+[[categories of representations]] of [[supergroups]]. This is the main theorem of this section, theorem \ref{TheTheorem}
+below ([[Deligne's theorem on tensor categories]]).
 
-Here we introduce and explain this.
-
+Here we introduce and explain all this.
 
 We start by introducing the basic concepts of [[tensor categories]] along with the basic examples of [[vector spaces]] and [[super vector spaces]]:
 
@@ -37,7 +49,7 @@ This allows to speak of [[commutative algebra]] [[internalization|internal]] to 
 * _[Commutative algebra in tensor categories and Affine super-spaces](#CommutativeAlgebraInTensorCategories)_
 
 
-In the same dual spirit, [[super vector bundles]] over affine [[super schemes]] are algebraically 
+In the same dual spirit, [[super vector bundles]] over affine [[super schemes]] are algebraically
 incarnated as ([[finitely generated object|finitely generated]] [[projective module|projctive]]) [[modules]]
 over [[supercommutative superalgebras]]. This we discuss in
 
@@ -45,15 +57,29 @@ over [[supercommutative superalgebras]]. This we discuss in
 
 Next we introduce the concept of [[commutative monoids]] equipped with the structure of a [[commutative Hopf algebras]] and explain how these are [[formal duals]] to [[group objects|groups]]. Then we use this to motivate and explain the concept of (affine algebraic) [[supergroups]] as [[formal duals]] to [[commutative Hopf algebras]] internal to the tensor category of [[super vector spaces]], namely [[supercommutative Hopf algebras]]:
 
-* _[(Super-)Groups as (Super-)commutative Hopf algebras](#GroupsAsHopfAlgebras)_
+* _[Super-Groups as Super-commutative Hopf algebras](#GroupsAsHopfAlgebras)_
 
-Finally we discuss how under this relation [[linear representations]] of groups correspond to [[comodules]] over their formally dual [[commutative Hopf algebras]], and we introduce the key class of categories of interest here: tensor-[[categories of representations]] of groups and of super-representations of super-groups:
+Then we discuss how under this relationo, then [[linear representations]] of groups correspond to [[comodules]] over their formally dual [[commutative Hopf algebras]], and we introduce the key class of categories of interest here: tensor-[[categories of representations]] of groups and of super-representations of super-groups:
 
-* _[Linear representations as comodules](#LinearRepresentationsAsComodules)_
+* _[Linear super-representations as comodules](#LinearRepresentationsAsComodules)_
+
+All such [[categories of representations]] carry a [[fiber functor]]: the [[forgetful functor]] that sends
+any representation to its underlying representation space. Simple as this is, fiber functors turn out to be 
+the key concept in [[representation theory]]. Notably, every _abstractly_ defined super fiber functor gives rise
+to an affine algebraic supergroup, namely its [[automorphism group]]. We introduce the basics in
+
+* _[Super Fiber functors and their automorphism supergroups](#FiberFunctors)_
+
+And in fact, under mild conditions this supergorup  of automorphisms of the fiber functor of a tensor category
+is such that the tensor category is equivalently its [[category of representations]]. This 
+statement of [[Tannaka duality]] for [[complex numbers|complex]]-linear tensor categories, 
+due to [[Pierre Deligne]] gives [[superalgebra]] a [[general abstract]] _raison d'&#234;tre_. We state
+the theorem and give some broad indication as to how the proof proceeds in the last sub-section
+
+* _[Tannaka duality between tensor categories and supergroups](#TannakaDualityForTensorCategoriesAndSupergroups)_
 
 
-
-##### Tensor products and Tensor categories
+#### Tensor products and Tensor categories
  {#TensorProductsAndMonoidalCategories}
 
 +-- {: .num_defn #VectorSpaces}
@@ -1468,11 +1494,54 @@ $$
 =--
 
 
+Finally we discuss categories of [[ind-objects]] in tensor categories
+
++-- {: .num_prop #IndObjectsInATensorCategory}
+###### Proposition
+
+Let $\mathcal{A}$ a [[tensor category]] (def. \ref{TensorCategory}), such that
+
+1. all [[object of finite length|objects have finite length]];
+
+1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$
+
+then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
+
+1. $Ind(\mathcal{A})$ is an [[abelian category]]
+
+1. $\mathcal{A} \hookrightarrow Ind(\mathcal{A})$ is a [[full subcategory]]
+
+   1. which stable under forming [[subquotients]]
+
+   1. such that that every [[object]] $X \in Ind(\mathcal{A})$ is the [[filtered colimit]] of those of its [[subobjects]] that are in $\mathcal{A}$;
+
+1. $\Ind(\mathcal{A})$ inherits a [[tensor product]] by
+
+   $$
+     \begin{aligned}
+       X \otimes Y
+         & \simeq
+       (\underset{\longrightarrow}{\lim}_i X_i)
+       \otimes
+       (\underset{\longrightarrow}{\lim}_i Y_i)
+       \\
+       & \simeq
+       \underset{\longrightarrow}{\lim}_{i,j} (X_i \otimes X_j)
+     \end{aligned}
+   $$
+
+   where $X_i,X_j \in \mathcal{A}$, by the above.
+
+1. $Ind(\mathcal{A})$ satisfies all the axioms of def. \ref{TensorCategory} except that it fails to be [[essentially small category|essentially small]] and [[rigid category]]. In detail
+
+   * an object in $Ind(\mathcal{A})$ is [[dualizable object|dualizable]] precisely if it is in $\mathcal{A}$.
+
+=--
 
 
 
 
-##### Commutative algebra in tensor categories and Affine super-spaces
+#### Commutative algebra in tensor categories and Affine super-spaces
  {#CommutativeAlgebraInTensorCategories}
 
 The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and ef. \ref{SupercommutativeSuperalgebra} below.
@@ -1842,14 +1911,18 @@ $$
 
 are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid structure.
 
-
-
 =--
 
 
 
 
-##### Modules in tensor categories and Super vector bundles
+
+
+
+
+
+
+#### Modules in tensor categories and Super vector bundles
  {#ModulesInTensorCategories}
 
 Above (in def. \ref{Affines}) we considered spaces $X$ from a dual perspective, as determined by their [[algebras of functions]] $\mathcal{O}(X)$. In the same spirit then we are to express various constructions on and with spaces in terms of dual algebraic constructions.
@@ -2691,7 +2764,10 @@ and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} co
 
 
 
-##### (Super-)Groups as (super-)commutative Hopf algebras
+
+
+
+#### (Super-)Groups as (super-)commutative Hopf algebras
  {#GroupsAsHopfAlgebras}
 
 We are interested in [[groups]] equipped with [[geometry]].
@@ -3143,7 +3219,17 @@ For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ a
 
 
 
-##### Linear (super-)representations as Comodules
+
+
+
+
+
+
+
+
+
+
+#### Linear super-representations as Comodules
  {#LinearRepresentationsAsComodules}
 
 +-- {: .num_defn #CommutativeHopfAlgebroidComodule}
@@ -3314,52 +3400,10 @@ Moreover, any finite dimensional [[faithful representation]] (which always exist
 See ([this prop.](faithful+representation#AnyFinDimRepOfAffineAlgebraicGroupOverFieldIsSubquotientsOfFaithfulRep)).
 
 
-##### Tensor Ind-categories
-
-+-- {: .num_prop #IndObjectsInATensorCategory}
-###### Proposition
-
-Let $\mathcal{A}$ a [[tensor category]] (def. \ref{TensorCategory}), such that
-
-1. all [[object of finite length|objects have finite length]];
-
-1. all [[hom spaces]] are of [[finite number|finite]] [[dimension]] over $k$
-
-then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
-
-1. $Ind(\mathcal{A})$ is an [[abelian category]]
-
-1. $\mathcal{A} \hookrightarrow Ind(\mathcal{A})$ is a [[full subcategory]]
-
-   1. which stable under forming [[subquotients]]
-
-   1. such that that every [[object]] $X \in Ind(\mathcal{A})$ is the [[filtered colimit]] of those of its [[subobjects]] that are in $\mathcal{A}$;
-
-1. $\Ind(\mathcal{A})$ inherits a [[tensor product]] by
-
-   $$
-     \begin{aligned}
-       X \otimes Y
-         & \simeq
-       (\underset{\longrightarrow}{\lim}_i X_i)
-       \otimes
-       (\underset{\longrightarrow}{\lim}_i Y_i)
-       \\
-       & \simeq
-       \underset{\longrightarrow}{\lim}_{i,j} (X_i \otimes X_j)
-     \end{aligned}
-   $$
-
-   where $X_i,X_j \in \mathcal{A}$, by the above.
-
-1. $Ind(\mathcal{A})$ satisfies all the axioms of def. \ref{TensorCategory} except that it fails to be [[essentially small category|essentially small]] and [[rigid category]]. In detail
-
-   1. an object in $Ind(\mathcal{A})$ is [[dualizable object|dualizable]] precisely if it is in $\mathcal{A}$.
-
-=--
 
 
-##### Super Fiber functors and their automorphism supergroups
+
+#### Super Fiber functors and their automorphism supergroups
  {#FiberFunctors}
 
 The first step in exhibiting a given [[tensor category]] $\mathcal{A}$ as being a [[category of representations]] is to exhibit its objects as having an [[forgetful functor|underlying]] representation space of sorts, and then an [[action]] represented on that space. Hence a necessary condition on $\mathcal{A}$ is that there exists a [[forgetful functor]]
@@ -3729,7 +3773,10 @@ from the fundamental group of $\mathcal{A}_1$ (def. \ref{FundamentalSupergroup})
 
 
 
-##### Super-exterior powers and Schur functors
+
+
+
+#### Super-exterior powers and Schur functors
 
 A [[finite dimensional vector space]] $V$ has the property that a high enough [[alternating power]] of it vanishes $\wedge^n V = 0$, namely this is the case for all $n \gt dim(V)$, and hence this vanishing is just another reflection of the finiteness of the [[dimension]] of $V$. For a [[super vector space]] $V$ of degreewise finite dimension an analog statement is still true, but one needs to form not just alternating powers but also [[symmetric powers]] (prop. \ref{SchurFunctorAnnihilatingFiniteDimensionalSuperVectorSpace} below), in fact one needs to apply a generalization of both of these constructions, a _[[Schur functor]]_.
 
@@ -3822,7 +3869,15 @@ $$
 
 
 
-##### Tannaka duality between tensor categories and supergroups
+
+
+
+
+
+
+
+
+#### {#TannakaDualityForTensorCategoriesAndSupergroups} Tannaka duality between tensor categories and supergroups
 
 Above we saw that
 
@@ -3830,7 +3885,7 @@ Above we saw that
 
 1. the [[category of representations]] of an affine [[supergroup]] is a tensor category, prop. \ref{RegularTensorCategoriesOfSuperrepresentations}.
 
-Indeed, the relation between tensor categories and supergroups is intimate. The following states that under mild size constraints, _every_ tensor category is the category of representations of _some_ affine algebraic supergroup. This shows that the concept of [[supergroups]] is 
+Indeed, the relation between tensor categories and supergroups is intimate. The following states that under mild size constraints, _every_ tensor category is the category of representations of _some_ affine algebraic supergroup. This shows that the concept of [[supergroups]] is
 fundamental and not accidental.
 
 +-- {: .num_theorem #TheTheorem}
@@ -4088,12 +4143,21 @@ specialized to super fiber functors ([Deligne 90, 8.19](#Deligne90)).
 
 
 
-#### Supergeometry
 
+
+
+
+
+
+
+### Supergeometry
+ {#Supergeometry}
 
 (...)
 
-##### Coordinate systems: super Cartesian spaces
+> under construction
+
+#### Coordinate systems: super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
 
 
@@ -4473,7 +4537,7 @@ we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
 
 
 
-##### Super differential forms
+#### Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
 
 Recall from def. \ref{SuperCartesianSpace}:
@@ -4657,7 +4721,19 @@ $$
 See at _[[signs in supergeometry]]_ for further discussion, for literature, and for mentioning of _another_ popular sign convention, which is different but in the end yields the same cohomology.
 
 
-##### Super Lie algebra valued super differential forms
+
+
+
+
+
+
+
+
+
+
+
+
+#### Super Lie algebra valued super differential forms
  {#SuperLieAlgebraValuedSuperDifferentialForms}
 
 
@@ -4971,14 +5047,12 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 =--
 
 
-#### Supersymmetry
+### Spacetime supersymmetry
 
 (...)
 
-##### Super-Minkowski spacetime
- {#SuperMinkowskiSpacetime}
 
-We consider now very specific [[super Lie algebras]], def. \ref{SuperLieAlgebraViaCE}, those of _[[supersymmetry]]_.
+We consider now very specific [[super Lie algebras]], def. \ref{SuperLieAlgebraViaCE}, those of _[[spacetime]] [[supersymmetry]]_.
 
 Just as traditional [[Cartan geometry]] involves a pair of [[Lie algebras]] $\mathfrak{h} \hookrightarrow \mathfrak{g}$, so super-Cartan geometry involves a similar pair of [[super Lie algebras]].
 For describing [[supergravity]], we now
@@ -5014,6 +5088,24 @@ that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ 
 
 
 Such structure exists on [[real structure|real]] [[spin representation]] ([[Majorana representations]]):
+
+
+
+
+
+
+
+#### Real spin representations -- Majorana spinors
+
++-- {: .num_defn #MajoranaSpinorGeneral}
+###### Definition
+
+Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary representation]] of a [[spin group]]. Then $\rho$ is called _Majorana_ if it admits a real structure $J$ (def. \ref{RealStructureOnLinearRepresentation}) and _symplectic Majorana_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}). An element $\psi \in V$ is called a _Majorana spinor_ if $J(\psi) = \psi$.
+
+=--
+
+
+Below we work out the following:
 
 +-- {: .num_prop #RealSpinRepresentations}
 ###### Proposition
@@ -5061,44 +5153,281 @@ This is what in the [[physics]] literature is expressed in components by the Gam
 
 =--
 
-+-- {: .num_cor}
-###### Corollary
+Before looking into this, recall the basics of [[unitary representations]] with [[real structure]]:
 
-Given a real $Spin(\mathbb{R}^{d-1,1})$ representation $N$,
-there exists a [[super Lie algebra]] structure on
+For reference, we here collect some basics regarding [[unitary representations]] equipped with [[real structure]].
 
-$$
-  \mathfrak{so}(\mathbb{R}^{d-1,1})\rtimes\mathbb{R}^{d-1,1}
-  \oplus N
-$$
+All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
-extending the [[Poincare Lie algebra]] whose odd-odd-bracket
-is the bilinear pairing of remark \ref{BilinearPairingOnSpinors}.
-
-=--
-
-+-- {: .num_defn #SuperPoincareAndSuperMinkowski}
++-- {: .num_defn #RealStructure}
 ###### Definition
 
-
-This is the _[[super Poincaré Lie algebra]]_ $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$.
-Its [[Lie integration]] to a [[super Lie group]] is the
-[[super Poincaré group]] $Iso(\mathbb{R}^{d-1,1|N})$.
-
-
-The [[quotient]] of the [[super Poincaré Lie algebra]] by the [[Lorentz Lie algebra]] is [[super-Minkowski spacetime]] regarded as a [[super Lie algebra]]:
+Let $V$ be a [[complex vector space]]. A _[[real structure]]_ or _[[quaternionic structure]]_ on $V$ is a real-[[linear map]]
 
 $$
-  \mathbb{R}^{d-1,1|N} \coloneqq \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})/\mathfrak{so}(\mathbb{R}^{d-1,1|N})
-  \,.
+  \phi \;\colon\; V \longrightarrow V
 $$
+
+such that
+
+1. $\phi$ is conjugate linear ($\phi(\lambda v) = \overline{\lambda} \phi(v)$ for all $\lambda \in \mathbb{C}$, $v \in V$);
+
+1. $\phi^2 = \left\{ \array{ +id & \text{for real structure} \\ -id & \text{for quaternionic structure} }  \right.$
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-The space underlying the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in def. \ref{SuperPoincareAndSuperMinkowski} is the [[super Cartesian space]] $\mathbb{R}^{d,dim_{\mathbb{R}}(N)}$, def. \ref{SuperCartesianSpace}.
+A real structure $\phi$, def. \ref{RealStructure}, on a complex vector space $V$ corresponds to a choice of complex linear isomorphism
+
+$$
+  V \simeq \mathbb{C} \otimes_{\mathbb{R}} V_+
+$$
+
+of $V$ with the [[complexification]] of a real vector space $V_+$, namely the [[eigenspace]] of $\phi$ for [[eigenvalue]] +1, while $V_- \coloneqq i V_+$ is the eigenspace of eigenvalue -1.
+
+A quaternionic structure, def. \ref{RealStructure}, o $V$ gives it the structure of a left [[module]] over the [[quaternions]] extending the underlying structure of a module over the complex numbers. Namely let
+
+1. $I \coloneqq i(-) \colon V \to V$ be the operation of acting with $i \in \mathbb{C}$
+
+1. $J \coloneqq \phi \colon V \to V$ be the given endomorphisms,
+
+then the conjugate complex linearity of $\phi$ means that
+
+$$
+  J \circ I = - I \circ J
+$$
+
+and hence with $J^2 = -1$ and $I^2 = -1$ this means that $I$, $J$ and $K \coloneqq I \circ J$ act like the imaginary quaternions.
+
+=--
+
++-- {: .num_defn #RealStructureOnLinearRepresentation}
+###### Definition
+
+Let $G$ be a [[Lie group]], let $V$ be a [[complex vector space]] and let
+
+$$
+  \rho \;\colon\; G \longrightarrow GL_{\mathbb{C}}(V)
+$$
+
+be a complex [[linear representation]] of $G$ on $V$, hence a [[group homomorphism]] form $G$ to the [[general linear group]] of $V$ over $\mathbb{C}$.
+
+Then a _real structure_ or _quaternionic structure_ on $(V,\rho)$ is a real or complex structure, respectively, $\phi$ on $V$ (def. \ref{RealStructure}) such that $\phi$ is $G$-invariant under $\rho$, i.e. such that for all $g \in G$ then
+
+$$
+  \phi \circ \rho(g) = \rho(g) \circ \phi
+  \,.
+$$
+
+=--
+
+We will be interested in complex [[finite dimensional vector spaces]] equipped with [[hermitian forms]], i.e. finite-dimensional complex [[Hilbert spaces]]:
+
++-- {: .num_defn #HermitianForms}
+###### Definition
+
+A [[hermitian form]] (or symmetric complex [[sesquilinear form]]) $\langle -,-\rangle$ on a [[complex vector space]] $V$ is a real [[bilinear form]]
+
+$$
+  \langle
+    -,-
+  \rangle
+  \;\colon\;
+  V \times V
+   \longrightarrow
+  \mathbb{C}
+$$
+
+such that for all $v_1, v_2 \in V$ and $\lambda \in \mathbb{C}$ then
+
+1. (sesquilinearity) $\langle v_1, \lambda v_2 \rangle = \lambda \langle v_1, v_2 \rangle $,
+
+1. (conjugate symmetry) $\langle v_1, v_2\rangle^\ast = \langle v_2, v_1\rangle $.
+
+1. (non-degeneracy) if $\langle v_1,-\rangle = 0$ then $v_1 = 0$.
+
+A complex [[linear function]]  $f \colon V \to V$ is _[[unitary operator|unitary]]_ with respect to this hermitian form if it preserves it, in that
+
+$$
+  \langle f(-), f(-)\rangle
+  =
+  \langle -,-\rangle
+  \,.
+$$
+
+Write
+
+$$
+  U(V) \hookrightarrow GL_{\mathbb{C}}(V)
+$$
+
+for the [[subgroup]] of [[unitary operators]] inside the [[general linear group]].
+
+A complex [[linear representation]] $\rho \colon G \longrightarrow GL_{\mathbb{C}}(V)$ of a [[Lie group]] on $V$ is called a _[[unitary representation]]_ if it factors through this subgroup
+
+$$
+  \rho \;\colon\;  G \longrightarrow U(V) \hookrightarrow GL_{\mathbb{C}}(V)
+  \,.
+$$
+
+
+=--
+
+The following proposition uses assumptions stronger than what we have in the application to Majorana spinors (compact Lie group, positive definite hermitian form) but it nevertheless helps to see the pattern.
+
++-- {: .num_prop }
+###### Proposition
+
+Let $V$ be a [[complex vector space|complex]] [[finite dimensional vector space]], $\langle -,-\rangle$ some [[positive definite bilinear form|positive definite]] [[hermitian form]] on $V$, def. \ref{HermitianForms}, let $G$ be a [[compact Lie group]], and $\rho \colon G \to U(V)$ a [[unitary representation]] of $G$ on $V$. Then $\rho$ carries a real structure or quaternionc structure $\phi$ on $\rho$ (def. \ref{RealStructureOnLinearRepresentation}) precisely if it carries a symmetric or anti-symmetric, respectively, non-degenerate complex-[[bilinear map]]
+
+$$
+  (-,-) \;\colon\; V \otimes_{\mathbb{C}} V \longrightarrow \mathbb{C}
+  \,.
+$$
+
+Explicitly:
+
+Given a real/quaternionic structure $\phi$, then the corresponding symmetric/anti-symmetric complex bilinear form is
+
+$$
+  (-,-) \coloneqq \langle \phi(-), -\rangle
+  \,.
+$$
+
+Conversely, given $(-,-)$, first define $\tilde \phi$ by
+
+$$
+  (-,-) = \langle \tilde\phi(-),-\rangle
+  \,,
+$$
+
+and then $\phi \coloneqq \frac{1}{\vert \phi\vert} \phi$ is the corresponding real/quaternionic structure.
+
+If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \rangle$.
+
+
+=--
+
+(e.g. [Meinrenken 13, p. 81](Majorana+spinor#Meinrenken13))
+
+We now work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
+
+
+
+
+
+
+
+
+#### Conventions and Notation
+
+In the following we use standard notation for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
+
+* $(-)^\ast$ -- componentwise [[complex conjugation]];
+
+* $(-)^T$ -- [[transpose matrix]]
+
+* $(-)^\dagger \coloneqq ((-)^\ast)^T = ((-)^T)^\ast$
+
+* $A B$ for the [[matrix product]] of two matrices $A$ and $B$.
+
+We will be discussing three different pairing operations on complex column vectors $\psi_1, \psi_2 \in \mathbb{C}^\nu$:
+
+* $\psi_1^\dagger \psi_2$ -- the standard [[hermitian form]] on $\mathbb{C}^\nu$, this will play a purely auxiliary role.
+
+* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this will be the alternative [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
+
+* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ (for $C$ the [[charge conjugation matrix]]), this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
+
+Then we use the following conventions on spacetime signature and the correspondig [[Clifford algebra]]:
+
++-- {: .num_defn #MinkowskiSpacetime}
+###### Definition
+
+We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ of [[dimension]] $d = s + t$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(t,s)$ ("time", "space"), i.e.
+
+$$
+  q(\vec x)
+    \coloneqq
+  (x^1)^2
+    +
+    \cdots
+    +
+  (x^s)^2
+    -
+  (x^{s+1})^2
+    -
+   \cdots
+  -
+  (x^{s+t})^2
+  \,.
+$$
+
+Hence the corresponding [[metric]] is
+
+$$
+  \eta = (\eta_{a b}) \coloneqq diag(\underset{t}{\underbrace{+1 , \cdots, +1}}, \underset{s}{\underbrace{-1, \cdots, -1}})
+  \,.
+$$
+
+The real [[Clifford algebra]] $Cl(s,t)$ associated with this [[inner product space]] is the $\mathbb{R}$-[[associative algebra|algebra]] [[generators and relations|generated]] from elements $\{\Gamma_a\}_{0 = 1}^{s+t-1}$ subject to the [[generators and relations|relation]]
+
+$$
+  \Gamma_a \Gamma_b + \Gamma_b \Gamma_a = 2 \eta_{a b}
+  \;\;\;\;
+  \forall a,b \in \{0,1,\cdots, t+s-1\}
+  \,.
+$$
+
+For $n$-[[tuples]] $(a_i)_{i = 1}^n$ of indices we write
+
+$$
+  \Gamma_{a_1 \cdots a_n}
+  \coloneqq
+  \Gamma_{[a_1}
+    \cdots
+  \Gamma_{a_2]}
+   \coloneqq
+  \frac{1}{n!} \underset{\sigma}{\sum}
+   (-1)^{\vert \sigma\vert}
+  \Gamma_{a_{\sigma_1}}
+   \cdots
+  \Gamma_{a_{\sigma_n}}
+$$
+
+for the skew-symmetrized product of Clifford generators with these indices. In partcular if all the $a_i$ are pairwise distinct, then this is simply the plain product of generators
+
+$$
+  \Gamma_{a_1 \cdots a_n}
+  =
+  \Gamma_{a_1} \cdots \Gamma_{a_n}
+  \;\;\;
+  \text{if}
+  \;
+  \underset{i,j}{\forall} (a_i \neq a_j)
+  \,.
+$$
+
+=--
+
+Indices are raised with $\eta^{-1} = (\eta^{a b})$ (which of course as a [[matrix]] coincides with $(\eta_{a b})$)
+
+$$
+  \Gamma^a \coloneqq \eta^{a b} \Gamma_b
+$$
+
++-- {: .num_defn #LorentzianSignature}
+###### Definition
+
+The case $t = 1$ is that of **Lorentzian signature**.
+
+In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the remaining spatial Clifford generators are $\Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}$. So then
+
+* $\Gamma^0 = \Gamma_0$ and $\Gamma_0^2 = + 1$;
+
+* $\Gamma^a = - \Gamma_a$ and $\Gamma_a^2 = -1$ for $a \in \{1,\cdots, d-1\}$.
 
 =--
 
@@ -5106,7 +5435,1850 @@ The space underlying the [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$ in
 
 
 
-##### Poincar&#233; connections: Graviton and gravitino field
+
+
+
+
+
+#### Dirac and Weyl representations
+ {#DiracAndWeylRepresentations}
+
+The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{s,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
+
++-- {: .num_prop #CliffordAlgebraRepresentation}
+###### Proposition
+(**Dirac representation**)
+
+Let $t = 1$ (Lorentzian signature, def. \ref{LorentzianSignature}) and let
+
+$$
+  d = s + 1 \in \{ 2\nu, 2 \nu + 1 \}
+  \;\;\;\;
+  \text{for}\, \nu \in \mathbb{N}\,,\; d\geq 4
+  \,.
+$$
+
+Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
+
+$$
+  V \coloneqq \mathbb{C}^{\nu}
+$$
+
+such that
+
+1. $\Gamma_{0}$ is [[hermitian]]
+
+1. $\Gamma_{spatial}$ is [[anti-hermitian]].
+
+Moreover, the pairing
+
+$$
+  \langle -,-\rangle \coloneqq (-)^\dagger \Gamma_0 (-)
+    \;\colon\;
+  V \times V
+    \longrightarrow
+  \mathbb{C}
+$$
+
+is a [[hermitian form]] (def. \ref{HermitianForms}) with respect to which the resulting representation of the [[spin group]] $\exp(\omega^{a b} \Gamma_{a b})$ is [[unitary representation|unitary]]:
+
+$$
+  \Gamma_0^{-1} \exp(\omega^{a b} \Gamma_{a b})^{\dagger} \Gamma_0
+  =
+  \exp(\omega^{a b} \Gamma_{a b})^{-1}
+  \,.
+$$
+
+These representations are called the **[[Dirac representations]]**, their elements are called **Dirac spinors**.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In the case $d = 4$ consider the [[Pauli matrices]] $\{\sigma_{a}\}_{a = 0}^3$, defined by
+
+$$
+  \sigma_a x^a
+  \coloneqq
+  \left(
+    \array{
+       x^0 + x^1 & x^2 + i x^3
+       \\
+       x^2 - i x^3 & x^0 - x^1
+    }
+  \right)
+  \,.
+$$
+
+Then a Clifford representation as claimed is given by setting
+
+$$
+  \Gamma_0
+     \coloneqq
+  \left(
+    \array{
+      0 & id
+      \\
+      id & 0
+    }
+  \right)
+$$
+
+$$
+  \Gamma_a
+    \coloneqq
+  \left(
+    \array{
+      0 & \sigma_a
+      \\
+      -\sigma_a & 0
+    }
+  \right)
+  \,.
+$$
+
+From $d = 4$ we proceed to higher dimension by [[induction]], applying the following two steps:
+
+**odd dimensions**
+
+Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in even dimension $d = 2 \nu$.
+
+Then a Clifford representation in dimension $d = 2 \nu + 1$ is given by taking
+
+$$
+  \Gamma_a
+   \coloneqq
+  \left\{
+    \array{
+      \gamma_a & \vert \; a \leq d - 2
+      \\
+      \epsilon \gamma_0 \gamma_1 \cdots \gamma_{d-2}
+       & \vert\; a = d-1
+    }
+  \right.
+$$
+
+where
+
+$$
+  \epsilon
+     =
+   \left\{
+     \array{
+       1 & \vert \; \nu \, \text{odd}
+       \\
+       i & \vert \; \nu \, \text{even}
+     }
+   \right.
+   \,.
+$$
+
+**even dimensions**
+
+Suppose a Clifford representation $\{\gamma_a\}$ as claimed has been constructed in even dimension $d = 2 \nu$.
+
+Then a corresponding representation in dimension $d+2$ is given by setting
+
+
+$$
+  \Gamma_{a \lt d}
+    \coloneqq
+  \left(
+    \array{
+      0 & \gamma_a
+      \\
+      \gamma_a & 0
+    }
+  \right)
+  \;\;\,,
+  \;\;\;
+  \Gamma_{d}
+    =
+  \left(
+    \array{
+      0 & id
+      \\
+      -id & 0
+    }
+  \right)
+  \;\;\,,
+  \;\;\;
+  \Gamma_{d+1}
+    =
+  \left(
+    \array{
+       i \mathrm{id} & 0
+       \\
+       0 & -i \mathrm{id}
+    }
+  \right)
+  \,.
+$$
+
+Finally regarding the statement that this gives a [[unitary representation]]:
+
+That $\langle -,-\rangle \coloneqq (-)^\dagger \Gamma_0 (-)$ is a [[hermitian form]] follows since $\Gamma_0$ obtained by the above construction is a [[hermitian matrix]].
+
+Let $a,b \in \{1, \cdots, d-1\}$ be spacelike and distinct indices. Then by the above we have
+
+$$
+  \begin{aligned}
+    \Gamma_0^{-1} (\Gamma_a \Gamma_b)^\dagger \Gamma_0
+    & =
+    \Gamma_0^{-1} \Gamma_0 (\Gamma_b^\dagger \Gamma_a^\dagger)
+    \\
+    & = (-\Gamma_b) (-\Gamma_a)
+    \\
+    & = \Gamma_b \Gamma_a
+    \\
+    & = - \Gamma_a \Gamma_b
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \Gamma_0^{-1} (\Gamma_0 \Gamma_a)^\dagger
+    & =
+    - \Gamma_0^{-1} \Gamma_0 \Gamma_a^\dagger \Gamma_0^\dagger
+    \\
+    & =
+      - (- \Gamma_a) (\Gamma_0)
+    \\
+    & = \Gamma_a \Gamma_0
+    \\
+    & = - \Gamma_0 \Gamma_a
+  \end{aligned}
+  \,.
+$$
+
+This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[anti-hermitian matrix]], hence that exponential is a [[unitary operator]].
+
+=--
+
++-- {: .num_defn #WeylRepresentation}
+###### Definition
+(**Weyl representation**)
+
+Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element
+
+$$
+  \Gamma_{d}
+    \propto
+  \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
+$$
+
+acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]]
+
+$$
+  V = V_+ \oplus V_-
+$$
+
+of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm i$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
+
+Analogously, since in odd dimensions there is no further decomposition, the Dirac representation for odd $d$ is also called a Weyl representation.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Beware that in the context of def. \ref{WeylRepresentation}, the chirality operator $\Gamma_{d}$ is traditionally denoted $\Gamma_{d+1}$, i.e.
+
+* $\{\Gamma_0,\cdots,\Gamma_{d-1}\}$ -- Clifford algebra for $Spin(d-1,1)$;
+
+* $\Gamma_{d+1}$ -- Chirality operator.
+
+This is partiularly common for $d= 4$, in which case the physics literaure usually refers to the chirality operator as "the $\Gamma_5$-matrix".
+
+Clearly this notational convention has its pitfalls once one considers spinors in various dimensions. Nevertheless, even then the convention is often still followed (e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
+
+=--
+
++-- {: .num_defn #DiracConjugate}
+###### Definition
+
+For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{CliffordAlgebraRepresentation}, we write
+
+$$
+  \overline{(-)}
+  \coloneqq
+  (-)^\dagger \Gamma_0
+  \;\colon\;
+  Mat_{\nu \times 1}(\mathbb{C})
+    \longrightarrow
+  Mat(1 \times \nu)(\mathbb{C})
+$$
+
+for the map from complex column vectors to complex row vectors which is hermitian congugation $(-)^\dagger = ((-)^\ast)^T$ followed by matrix multiplication with $\Gamma_0$ from the right.
+
+This operation is called **Dirac conjugation**.
+
+In terms of this the [[hermitian form]] from prop. \ref{CliffordAlgebraRepresentation} (Dirac pairing) reads
+
+$$
+  \langle -,-\rangle = \overline{(-)}(-)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CliffordRepresentationIsDiracSelfConjugate}
+###### Proposition
+
+The operator adjoint $\overline{A}$ of a $\nu \times \nu$-matrix $A$ with respect to the Dirac pairing of def. \ref{DiracConjugate}, characterized by
+
+$$
+  \langle A (-), (-)\rangle
+  =
+  \langle   - , \overline{A} -\rangle
+  \;\;\;\text{and} \;\;\;
+  \langle  -, A -\rangle
+  =
+  \langle \overline{A} - ,  -\rangle
+$$
+
+is given by
+
+$$
+  \overline{A} = \Gamma_0^{-1} A^\dagger \Gamma_0
+  \,.
+$$
+
+All the Clifford generators from prop. \ref{CliffordAlgebraRepresentation} are Dirac self-conjugate in that
+
+$$
+  \overline{\Gamma}_a = \Gamma_a
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first claim consider
+
+$$
+  \begin{aligned}
+    \langle A \psi_1,  \psi_2\rangle
+    & =
+    \psi_1^\dagger A^\dagger \Gamma_0  \psi_2
+    \\
+    & =
+    \psi_1^\dagger \Gamma_0 (\Gamma_0^{-1} A^\dagger \Gamma_0) \psi_2
+    \\
+    & =
+    \langle \psi_1, (\Gamma_0^{-1} A \Gamma_0)\psi_2\rangle
+  \end{aligned}
+  \,.
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \langle \psi_1, A \psi_2\rangle
+    & =
+    \psi_1^\dagger \Gamma_0 A \psi_2
+    \\
+    & =
+    \psi_1^\dagger \Gamma_0 A \Gamma_0^{-1} \Gamma_0 \psi_2
+    \\
+    & =
+    ( (\Gamma_0^{-1})^\dagger A^\dagger (\Gamma_0)^\dagger \psi_1 )^\dagger \Gamma_0 \psi_2
+    \\
+    & =
+    ( \Gamma_0^{-1} A^\dagger \Gamma_0 \psi_1 )^\dagger \Gamma_0 \psi_2
+    \\
+    &=
+    \langle \overline{A} \psi_1, \psi_2\rangle
+  \end{aligned}
+  \,,
+$$
+
+where we used that $\Gamma_0^{-1} = \Gamma_0$ (by def. \ref{LorentzianSignature}) and $\Gamma_0^\dagger = \Gamma_0$ (by prop. \ref{CliffordAlgebraRepresentation}).
+
+Now for the second claim, use def. \ref{LorentzianSignature} and prop. \ref{CliffordAlgebraRepresentation} to find
+
+$$
+  \begin{aligned}
+     \overline{\Gamma}_0
+     & =
+     \Gamma_0^{-1}\Gamma_0^\dagger \Gamma_0
+     \\
+     & = \Gamma_0^{-1} \Gamma_0 \Gamma_0
+     \\
+     & =
+     \Gamma_0
+   \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    \overline{\Gamma}_{spatial}
+    & =
+    \Gamma_0^{-1} \Gamma_{spatial}^\dagger\Gamma_0
+    \\
+    &=
+    - \Gamma_0^{-1} \Gamma_{spatial} \Gamma_0
+    \\
+    & = + \Gamma_0^{-1} \Gamma_0 \Gamma_{spatial}
+    \\
+    &= \Gamma_{spatial}
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+#### Charge conjugation matrix
+ {#ChargeConjugationMatrix}
+
++-- {: .num_prop #ChargeConjugationMatrix}
+###### Proposition
+
+Given the Clifford algebra representation of the form of prop. \ref{CliffordAlgebraRepresentation}, consider the equation
+
+$$
+  C_{(\pm)} \Gamma_a  = \pm \Gamma_a^T C_{(\pm)}
+$$
+
+for $C_{(\pm)} \in Mat_{\nu \times n}(\mathbb{C})$.
+
+In even dimensions $d = 2 \nu$ then both these equations have a solution, wheras in odd dimensions $d = 2 \nu + 1$ only one of them does (alternatingly, starting with $C_{(+)}$ in dimension 5). Either $C_{(\pm)}$ is called the _[[charge conjugation matrix]]_.
+
+Moreover, all $C_{(\pm)}$ may be chosen to be real matrices
+
+$$
+  (C_{(\pm)})^\ast = C_{(\pm)}
+$$
+
+and in addition they satisfy the following relations:
+
+| $d$ |   |    |
+|-----|---|----|
+| 4 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$ | $C_{(-)}^T = -C_{(+)}$; $C_{(-)}^2 = -1$ |
+| 5 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$  |  |
+| 6 | $C_{(+)}^T = -C_{(+)}$; $C_{(+)}^2 = -1$  | $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 7 |   |  $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 8 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ | $C_{(-)}^T = C_{(-)}$; $C_{(-)}^2 = 1$ |
+| 9 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  |
+| 10 | $C_{(+)}^T = C_{(+)}$; $C_{(+)}^2 = 1$ |  $C_{(-)}^T = -C_{(-)}$; $C_{(-)}^2 = -1$ |
+| 11 |   |  $C_{(-)}^T = -C_{(-)}$; $C_{(-)}^2 = -1$ |
+
+=--
+
+{#beware} (This is for instance in [Castellani-D'Auria-Fr&#233;, section (II.7.2), table (II.7.1)](#CastellaniDAuriaFre), but beware that there $C_{(-)}$ in $d = 10, 11$ is claimed to be symmetric, while instead it is anti-symmetric as shown above, see [van Proeyen 99, table 1](#VanProeyen99), [Laenen, table E.3](#GammaMatrices)).
+
++-- {: .num_remark #TransposeChargeConjugation}
+###### Remark
+
+
+Prop. \ref{ChargeConjugationMatrix} implies that for all $C_{(\pm)}$ listed there then
+
+$$
+  C^{-1} = C^T
+  \,.
+$$
+
+This implies in all cases that
+
+$$
+  \Gamma_a C_{(\pm)}^T = \pm C_{(\pm)}^T \Gamma_a^T
+  \,.
+$$
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Majorana representations and Real structure
+
+
++-- {: .num_prop #MajoranaConjugationIsRealStructure}
+###### Proposition
+
+For $d \in \{4,8,9,10,11\}$, let $V = \mathbb{C}^\nu$ as above. Write $\{\Gamma_a\}$ for a Dirac representation according to prop. \ref{CliffordAlgebraRepresentation}, and write
+
+$$
+  C
+  \coloneqq
+  \left\{
+    \array{
+      C_{(-)} & \text{for}\; d = 4
+      \\
+      C_{(+)} & \text{for}\; d = 8
+      \\
+      C_{(+)} & \text{for}\; d = 9
+      \\
+      C_{(+)} or C_{(-)} & \text{for}\; d = 10
+      \\
+      C_{(-)} & \text{for}\; d = 11
+    }
+  \right.
+$$
+
+for the choice of [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix} as shown. Then the function
+
+$$
+  J \colon V \longrightarrow V
+$$
+
+given by
+
+$$
+  \psi \mapsto C \Gamma_0^T \psi^\ast
+$$
+
+is a [[real structure]] (def. \ref{RealStructureOnLinearRepresentation}) for the corresponding complex [[spin representation]] on $\mathbb{C}^\nu$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The conjugate linearity of $J$ is clear, since $(-)^\ast$ is conjugate linear and [[matrix multiplication]] is complex linear.
+
+To see that $J$ squares to +1 in the given dimensions: Applying it twice yields,
+
+$$
+  \begin{aligned}
+    J^2 \psi &=
+     C \Gamma_0^T (C \Gamma_0^T\psi^\ast)^\ast
+     \\
+     & =
+     C \Gamma_0^T C \Gamma_0^\dagger \psi
+     \\
+     &=
+     C \underset{= \pm C \Gamma_0}{\underbrace{\Gamma_0^T C}} \Gamma_0 \psi
+     \\
+     & = \pm C_{(\pm)}^2 \Gamma_0^2 \psi
+     \\
+     & = \pm C_{(\pm)}^2 \psi
+  \end{aligned}
+  \,,
+$$
+
+where we used $\Gamma_0^\dagger = \Gamma_0$ from prop. \ref{CliffordAlgebraRepresentation}, $C^\ast = \ast$ from prop. \ref{ChargeConjugationMatrix} and then the defining equation of the [[charge conjugation matrix]] $\Gamma_a^T C_{(\pm)} = \pm C_{(\pm)} \Gamma_a$ (def. \ref{ChargeConjugationMatrix}), finally the defining relation $\Gamma_0^2 = +1$.
+
+Hence this holds whenever there exists a choice $C_{(\pm)}$ for the charge conjugation matrix with $C_{(\pm)}^2 = \pm 1$. Comparison with the table from prop. \ref{ChargeConjugationMatrix} shows that this is the case in $d = 4,8,9,10,11$.
+
+Finally to see that $J$ is spin-invariant (in [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre) this is essentially (II.2.29)), it is sufficient to show for distinct indices $a,b$, that
+
+$$
+  J(\Gamma_a \Gamma_b \psi)
+  =
+  \Gamma_a \Gamma_b J(\psi)
+  \,.
+$$
+
+First let $a,b$ both be spatial. Then
+
+$$
+  \begin{aligned}
+    J(\Gamma_a \Gamma_b \psi)
+    & =
+    C \Gamma_0^T \Gamma_a^\ast \Gamma_b^\ast \psi^\ast
+    \\
+    & =
+    C \Gamma_0^T (-\Gamma_a^T)(-\Gamma_b^T) \psi^\ast
+    \\
+    & =
+    C \Gamma_0^T \Gamma_a^T \Gamma_b^T \psi^\ast
+    \\
+    & =
+    C  \Gamma_a^T \Gamma_b^T \Gamma_0^T \psi^\ast
+    \\
+    & =
+    \Gamma_a \Gamma_b C \Gamma_0^T \psi^\ast
+    \\
+    & =
+    \Gamma_a \Gamma_b J(\psi)
+  \end{aligned}
+  \,.
+$$
+
+Here we first used that $\Gamma_{spatial}^\dagger = -\Gamma_{spatial}$ (prop. \ref{CliffordAlgebraRepresentation}), hence that $\Gamma_{spatial}^\ast = - \Gamma_{spatial}^T$ and then that $\Gamma_0$ anti-commutes with the spatial Clifford matrices, hence that $\Gamma_0^T$ anti-commutes the the transposeso fthe spatial Clifford matrices. Then we used the defining equation for the [[charge conjugation matrix]], which says that passing it through a Gamma-matrix yields a transpose, up to a global sign. That global sign cancels since we pass through two Gamma matrices.
+
+Finally, that the same conclusion holds for $\Gamma_{spatial} \Gamma_{spatial}$ replaced by $\Gamma_0 \Gamma_{spatial}$: The above reasoning applies with two extra signs picked up: one from the fact that $\Gamma_0$ commutes with itself, one from the fact that it is hermitian, by prop. \ref{CliffordAlgebraRepresentation}. These two signs cancel:
+
+$$
+  \begin{aligned}
+    J(\Gamma_0 \Gamma_a \psi)
+    & =
+    C \Gamma_0^T \Gamma_0^\ast \Gamma_a^\ast \psi^\ast
+    \\
+    & =
+    C \Gamma_0^T (+\Gamma_0^T)(-\Gamma_a^T) \psi^\ast
+    \\
+    & =
+    - C \Gamma_0^T \Gamma_0^T \Gamma_a^T \psi^\ast
+    \\
+    & =
+    + C \Gamma_0^T \Gamma_a^T \Gamma_0^T \psi^\ast
+    \\
+    & = \Gamma_0 \Gamma_a \Gamma_0^T \psi^\ast
+    \\
+    &= \Gamma_0 \Gamma_a J(\psi)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .num_defn #MajoranaRepresentation}
+###### Definition
+
+Prop. \ref{MajoranaConjugationIsRealStructure} implies that given a [[Dirac representation]] (prop. \ref{CliffordAlgebraRepresentation}) $V$, then the real subspace $S \hookrightarrow V$ of real elements, i.e. elements $\psi$ with $J \psi = \psi$ according to prop. \ref{MajoranaConjugationIsRealStructure} is a [[sub-representation]]. This is called the **Majorana representation** inside the Dirac representation (if it exists).
+
+=--
+
++-- {: .num_prop #RealStructureAntiCommutesWithSingleCliffordGenerator}
+###### Proposition
+
+If $C = C_{(\pm)}$ is the [[charge conjugation matrix]] according to prop. \ref{ChargeConjugationMatrix}, then the real structure $J$ from prop. \ref{MajoranaConjugationIsRealStructure} commutes or anti-commutes with the action of _single_ Clifford generators, according to the subscript of $C = C_{(\pm)}$:
+
+$$
+  J(\Gamma_a(-)) = \pm \Gamma_a J(-)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is same kind of computation as in the proof prop. \ref{MajoranaConjugationIsRealStructure}. First let $a$ be a spatial index, then we get
+
+$$
+  \begin{aligned}
+    J(\Gamma_a \psi)
+    & =
+    C \Gamma_0^T \Gamma_a^\ast  \psi^\ast
+    \\
+    & =
+    C \Gamma_0^T (-\Gamma_a^T) \psi^\ast
+    \\
+    & =
+    + C \Gamma_a^T \Gamma_0^T \psi^\ast
+    \\
+    & =
+    \epsilon C^T \Gamma_a^T \Gamma_0^T
+    \\
+    & =
+    \pm \epsilon \Gamma_a C^T \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \epsilon^2 \Gamma_a C \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_a J(\psi)
+  \end{aligned}
+  \,,
+$$
+
+where, by comparison with the table in prop. \ref{ChargeConjugationMatrix}, $\epsilon$ is the sign in $C^T = \epsilon C$, which cancels out, and the remaining $\pm$ is the sign in $C = C_{(\pm)}$, due to remark \ref{TransposeChargeConjugation}.
+
+For the timelike index we similarly get:
+
+$$
+  \begin{aligned}
+    J(\Gamma_0 \psi)
+    & =
+    C \Gamma_0^T \Gamma_0^\ast  \psi^\ast
+    \\
+    & =
+    + C \Gamma_0^T \Gamma_0^T \psi^\ast
+    \\
+    & =
+    \epsilon C^T \Gamma_0^T \Gamma_0^T
+    \\
+    & =
+    \pm \epsilon \Gamma_0 C^T \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_0 C \Gamma_0^T \psi^\ast
+    \\
+    & = \pm \Gamma_0 J(\psi)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
+We record some immediate consequences:
+
++-- {: .num_prop #ComplexBilinearFormInducedFromMajoranaStructure}
+###### Proposition
+
+The complex [[bilinear form]]
+
+$$
+  (-,-)
+   \coloneqq
+  \langle J(-),(-)\rangle
+$$
+
+induced from the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
+
+$$
+  (-,-)
+   =
+  (-)^T C (-)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By direct unwinding of the various definitions and results from above:
+
+$$
+  \begin{aligned}
+    \langle J(\psi_1),\psi_2 \rangle
+     &=
+     \langle C \Gamma_0^T\psi_1^\ast, \psi_2\rangle
+     \\
+     & =
+     (C \Gamma_0^T \psi_1^\ast)^\dagger \Gamma_0 \psi_2
+     \\
+     & = \psi_1^T C^\dagger \Gamma_0^\ast \Gamma_0 \psi_2
+     \\
+     & = \psi_1^T C \psi_2
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #MajoranaConjugation}
+###### Definition
+
+For a Clifford algebra representation on $\mathbb{C}^\nu$ as in prop. \ref{CliffordAlgebraRepresentation}, then the map
+
+$$
+  (-)^T C
+  \;\colon\;
+  Mat_{\nu \times 1}(\mathbb{C})
+    \longrightarrow
+  Mat(1 \times \nu)(\mathbb{C})
+$$
+
+(from complex column vectors to complex row vectors) which is given by transposition followed by [[matrix multiplication]] from the right by the [[charge conjugation matrix]] according to prop. \ref{MajoranaConjugationIsRealStructure} is called the
+**Majorana conjugation**.
+
+
+=--
+
+
+
++-- {: .num_prop #TheMajoranaConditionInComponents}
+###### Proposition
+
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+
+$$
+  \psi = C \Gamma_0^T \psi^\ast
+$$
+
+(as e.g. in [Castellani-D'Auria-Fr&#233;, (II.7.22)](#CastellaniDAuriaFre)),
+
+This is equivalent to the condition that the Majorana conjugate (def. \ref{MajoranaConjugation}) coincides with  the Dirac conjugate (def. \ref{DiracConjugate}) on $\psi$:
+
+$$
+  \psi^T C = \psi^\dagger \Gamma_0
+  \,,
+$$
+
+which in turn is equivalent to the condition that
+
+$$
+  (\psi,-) = \langle \psi,-\rangle
+  \,,
+$$
+
+where on the left we have the complex bilinear form of prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} and on the right the [[hermitian form]] from prop. \ref{CliffordAlgebraRepresentation}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The first statement is immediate. The second follows by applying transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Majorana-Weyl spinors
+
+
++-- {: .num_defn #WeylMajorana}
+###### Definition
+
+In the even dimensions among those dimensions $d$ for which the Majorana projection operator (real structure) $J$ exists (prop. \ref{MajoranaConjugationIsRealStructure}) also the chirality projection operator $\Gamma_{d}$ exists (def. \ref{WeylRepresentation}). Then we may ask that a Dirac spinor $\psi$ is both Majorana, $J(\psi) = \psi$, as well as Weyl, $\Gamma_d \psi = \pm i \psi$. If this is the case, it is called a **Majorana-Weyl spinor**, and the [[sub-representation]] these form is a called a _Majorana-Weyl representation_.
+
+=--
+
++-- {: .num_prop #WeylMajoranaInLorentzian10d}
+###### Proposition
+
+In Lorentzian signature (def. \ref{LorentzianSignature}) for $4 \leq d \leq 11$, then Majorana-Weyl spinors (def. \ref{WeylMajorana}) exist precisely only in $d = 10$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+According to prop. \ref{MajoranaConjugationIsRealStructure} Majorana spinors in the given range exist for $d \in \{4,8,9,10,11\}$. Hence the even dimensions among these are $d \in \{4,8,10\}$.
+
+Majorana-Weyl spinors clearly exist precisely if the two relevant projection operators in these dimensions commute with each other, i.e. if
+
+$$
+  [J, \epsilon \Gamma_0 \cdots \Gamma_{d-1}] = 0
+$$
+
+where
+
+$$
+  \epsilon
+     =
+   \left\{
+     \array{
+       1 & \vert \; \nu \, \text{odd}
+       \\
+       i & \vert \; \nu \, \text{even}
+     }
+   \right.
+   \,.
+$$
+
+with $d = 2\nu$ (from the proof of prop. \ref{CliffordAlgebraRepresentation}).
+
+By prop. \ref{RealStructureAntiCommutesWithSingleCliffordGenerator} all the $\Gamma_a$ commute or all anti-commute with $J$. Since the product $\Gamma_0 \cdots \Gamma_{d-1}$ contains an even number of these, it commutes with $J$. It follows that $J$ commutes with $\Gamma_d$ precisely if it commutes with $\epsilon$. Now since $J$ is conjugate-linear, this is the case precisely if $\epsilon = 1$, hence precisely if $d = 2\nu$ with $\nu$ odd.
+
+This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neither for $d = 4 = 2 \cdot 2$.
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+####  The spinor bilinear pairing to antisymmetric $p$-tensors
+ {#TheSpinorPairingToVectors}
+
+We now discuss, in the component expressions established [above](#InComponents), the complex bilinear pairing operations that take a pair of Majorana spinors to a [[vector]], and more generally to an antisymmetric rank $p$-[[tensor]]. These operations are all of the form
+
+$$
+  \psi
+    \mapsto
+  \epsilon \, \overline{\psi} \Gamma^{a_1 \cdots a_p} \psi
+  \,,
+$$
+
+where $\epsilon \in \mathbb{C}$ is some prefactor, constrained such as to make the whole expression be real, hence such as to make this the components of an element in $\wedge^p \mathbb{R}^{d-1,1}$.
+
+
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, write
+
+$$
+  S \hookrightarrow V
+$$
+
+for the subspace of Majorana spinors, regarded as a real vector space.
+
+Recall, by prop. \ref{TheMajoranaConditionInComponents}, that on Majorana spinors the Majorana conjugate $(-)^T C$ coincides with the Dirac conjugate $\overline{(-)} \coloneqq (-)^\dagger \Gamma_0 $. Therefore we write $\overline{(-)}$ in the following for the conjugation of Majorana spinors, unambiguously defined.
+
+
++-- {: .num_defn #SpinorToVectorBilinearPairing}
+###### Definition
+
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, let
+
+$$
+  \overline{(-)}\Gamma (-)
+    \;\colon\;
+  S \times S
+   \longrightarrow
+  \mathbb{R}^{d-1,1}
+$$
+
+be the function that takes Majorana spinors $\psi_1$, $\psi_2$ to the vector with components
+
+$$
+  \overline{\psi}_1\Gamma^a \psi_2
+    \coloneqq
+  \psi_1^T C \Gamma^a \psi_2
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #SpinorToVectorPairing}
+###### Proposition
+
+The pairing in def. \ref{SpinorToVectorBilinearPairing} is
+
+1. symmetric:
+
+   $$
+     \overline{\psi}_1 \Gamma \psi_2
+       =
+     \overline{\psi}_2 \Gamma \psi_1
+   $$
+
+1. component-wise real-valued (i.e. it indeed takes values in $\mathbb{R}^d \subset \mathbb{C}^d$);
+
+1. $Spin(d-1,1)$-equivariant: for $g \in Spin(d-1,1)$ then
+
+   $$
+     \overline{g(-)}\Gamma(g(-))
+       =
+     g(\overline{(-)}\Gamma(-))
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first point, we need to show that for all $a$ then $C \Gamma_a$ is a symmetric matrix. Indeed:
+
+$$
+  \begin{aligned}
+     (C \Gamma_a)^T
+       & =
+     \Gamma_a^T C^T
+      \\
+      & = \pm \Gamma_a^T C
+      \\
+      & = \pm \pm C \Gamma_a
+      \\
+      & = C \Gamma_a
+  \end{aligned}
+  \,,
+$$
+
+where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$ (according to prop. \ref{ChargeConjugationMatrix}). Imposing the condition in prop. \ref{MajoranaConjugationIsRealStructure} one finds that these signs agree, and hence cancel out.
+
+(In [van Proeyen99](#VanProeyen99) this is part of table 1, in ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in equation (II.2.32a).)
+
+With this the second point follows together with the relation $\psi^T C = \psi^\dagger \Gamma_0$ for Majorana spinors $\psi$ (prop. \ref{TheMajoranaConditionInComponents}) and using the conjugate-symmetry of the [[hermitian form]] $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ as well as the hermiticity of $\Gamma_0 \Gamma_a$ (both from prop. \ref{CliffordAlgebraRepresentation}):
+
+$$
+  \begin{aligned}
+    (\overline{\psi}_1 \Gamma_a \psi_2)^\ast
+    &=
+    (\psi_1^T C \Gamma_a \psi_2)^\ast
+    \\
+    & =
+    (\psi_1^\dagger \Gamma_0 \Gamma^a \psi_2)^\ast
+    \\
+    & =
+    \psi_2^\dagger (\Gamma_0 \Gamma^a)^\dagger \psi_1
+    \\
+    & =
+    \psi_2^\dagger \Gamma_0 \Gamma^a \psi_1
+    \\
+    & =
+    \overline{\psi}_2 \Gamma_a \psi_1
+  \end{aligned}
+  \,.
+$$
+
+Regarding the third point: By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} we get
+
+$$
+  \begin{aligned}
+    (g(\psi_1), \Gamma_a g(\psi_2))
+    & =
+    \langle g(\psi_1),\Gamma_a g(\psi_2)\rangle
+    \\
+    & =
+     \langle \psi_1, (\Gamma_0^{-1}g^\dagger\Gamma_0) \Gamma_a g \psi_2 \rangle
+    \\
+    & = \langle \psi_1 (g^{-1} \Gamma_a g) \psi_2 \rangle
+  \end{aligned}
+  \,,
+$$
+
+where we used that $\Gamma_0^{-1}(-)^\dagger \Gamma_0$ is the adjoint with respect to the hermitian form $\langle -,-\rangle = (-)^\dagger \Gamma_0 (-)$ (prop. \ref{CliffordRepresentationIsDiracSelfConjugate}) and that $g$ is unitary with respect to this hermitian form by prop. \ref{CliffordAlgebraRepresentation}.
+
+(In ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this third statement implicit in equations (II.2.35)-(II.2.39).)
+
+=--
+
++-- {: .num_remark #SuperPoincareOutlook}
+###### Remark
+
+Proposition \ref{SpinorToVectorPairing} implies that adding a copy of $S$ to the [[Poincaré Lie algebra]] in odd degree, then the pairing of def. \ref{SpinorToVectorBilinearPairing} is a consistent extension of the [[Lie bracket]] of the latter to a [[super Lie algebra]]. This is the _[[super Poincaré Lie algebra]]_.
+
+=--
+
++-- {: .num_defn #SpinorToRank2TensorBilinearPairing}
+###### Definition
+
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, let
+
+$$
+  \overline{(-)}\Gamma\Gamma (-)
+    \;\colon\;
+  S \times S
+   \longrightarrow
+  \wedge^2 \mathbb{C}^d
+$$
+
+be the function that takes Majorana spinors $\psi_1$, $\psi_2$ to the skew-symmetric rank 2-tensor with components
+
+$$
+  \overline{\psi}_1\Gamma^{a b} \psi_2
+    \coloneqq
+  i \psi_1^T C \tfrac{1}{2}(\Gamma^a \Gamma^b - \Gamma^b \Gamma^a) \psi_2
+  \,,
+$$
+
+
+=--
+
+
++-- {: .num_prop #RealityOfTheSpinorPairingtoBivectors}
+###### Proposition
+
+For $\psi_1 = \psi_2 = \psi$ then the pairing in prop. \ref{SpinorToRank2TensorBilinearPairing} is real
+
+$$
+  \underset{a,b}{\forall}
+  \;\;\;\;
+  i \overline{\psi} \Gamma^{a b} \psi \in \mathbb{R} \subset \mathbb{C}
+$$
+
+and $Spin(d-1,1)$-equivariant.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivariance follows exactly as in the proof of prop. \ref{SpinorToVectorPairing}.
+
+The reality is checked by direct computation as follows:
+
+$$
+  \begin{aligned}
+    (\overline{\psi}_1 \Gamma_a \Gamma_b \psi_2)^\ast
+    & =
+    (\psi_1^\dagger \Gamma_a \Gamma_b \psi_2)^\ast
+    \\
+    & =
+    \psi_2^\dagger (\Gamma_0 \Gamma_a \Gamma_b)^\dagger \psi_1
+    \\
+    & =
+    -\langle \psi_2^\dagger \Gamma_0 \Gamma_a \Gamma_b \psi_1 \rangle
+    \\
+    & =
+    -\overline{\psi}_2 \Gamma_a \Gamma_b \psi_1
+  \end{aligned}
+  \,,
+$$
+
+where for the identification $(\Gamma_0 \Gamma_a \Gamma_b)^\dagger = - \Gamma_0 \Gamma_a \Gamma_b$ we used the properties in prop. \ref{CliffordAlgebraRepresentation}.
+
+Hence for $\psi_1 = \psi_2$ then
+
+$$
+  (\overline{\psi} \Gamma_a \Gamma_b \psi)^\ast
+  =
+  -
+  \overline{\psi} \Gamma_a \Gamma_b \psi
+$$
+
+and so this sign cancels against the sign in $i^\ast = -i$.
+
+=--
+
+Generally:
+
++-- {: .num_prop }
+###### Proposition
+
+The following pairings are real and $Spin(d-1,1)$-equivariant:
+
+$$
+  \begin{aligned}
+    & \overline{\psi} \Gamma_a \psi
+    \\
+    i & \overline{\psi}\Gamma_{a_1 a_2} \psi
+    \\
+    i & \overline{\psi} \Gamma_{a_1 a_2 a_3} \psi
+    \\
+     & \overline{\psi} \Gamma_{a_1 \cdots a_4} \psi
+    \\
+     & \overline{\psi} \Gamma_{a_1 \cdots a_5} \psi
+    \\
+    i  & \overline{\psi} \Gamma_{a_1 \cdots a_6} \psi
+    \\
+    i  & \overline{\psi} \Gamma_{a_1 \cdots a_7} \psi
+    \\
+    & \vdots
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The equivariance follows as in the proof of prop. \ref{SpinorToVectorPairing}.
+
+Regarding reality:
+
+Using that all the $\Gamma_a$ are hermitian with respect $\overline{(-)}(-)$ (prop. \ref{CliffordRepresentationIsDiracSelfConjugate}) we have
+
+$$
+  \begin{aligned}
+    \left(
+      \overline{\psi}
+       \Gamma_{a_1 \cdots a_p}
+      \psi
+    \right)^\ast
+    & =
+    \overline{\psi}
+      \Gamma_{a_p \cdots a_1}
+    \psi
+    \\
+    &=
+    (-1)^{p(p-1)/2}
+    \overline{\psi}
+      \Gamma_{a_1 \cdots a_p}
+    \psi
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+#### Spacetime supersymmetry: Super-Poincar&#233; and super-Minkowski
+ {#Supersymmetry}
+
+Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
+
+Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
+
+$$
+  \mathbb{R}^{d-1,1}
+   \simeq
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
+$$
+
+(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
+
++-- {: .num_defn #SuperMinkowskiSpacetime}
+###### Definition
+
+Let $d \in \mathbb{N}$ and let $N \in Rep(Spin(d-1,1))$ be a real spin representation, hence a [[direct sum]] of Majorana representations (def. \ref{MajoranaRepresentation}) and/or Majorana-Weyl representations (def. \ref{WeylMajorana}) (or tensor product of two symplectic Majorana representations...).
+
+We define the corresponding **[[super Poincaré Lie algebra]]**
+
+$$
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
+$$
+
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
+
+This is generated on
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+where $a \in \{0,1, \cdots, d-1\}$ is a spacetime index, and where $\alpha$ is an index ranging over a basis of the chosen Majorana spinor representation $N$.
+
+The CE-differential is defined as follows
+
+$$
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+and
+
+$$
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+(which so far is the differential for the [[semidirect product]] of the [[Poincaré Lie algebra]] [[action|acting]] on the given [[Majorana spinor]] representation)
+
+and
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
+$$
+
+where on the right we have the spinor-to-vector pairing in $N$ (def. \ref{SpinorToVectorBilinearPairing}).
+
+That this is indeed a [[super Lie algebra]] follows from the fact that the [[Poincaré Lie algebra]] is a [[Lie algebra]] and the fact that the spinor-to-vector pairing is symmetric (which makes it qualify as the odd-odd component of a super-Lie algebra) and $Spin(d-1,1)$-equivariant (which is seen to be the super-[[Jacobi identity]] for it), all according to prop. \ref{SpinorToVectorPairing}.
+
+This defines the [[super Poincaré super Lie algebra]]. After discarding the terms involving $\omega$ this becomes the CE algebra of the [[super translation algebra]] underlying [[super Minkowski spacetime]]
+
+$$
+  \mathbb{R}^{d-1,1\vert N}
+  \,.
+$$
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Example: Majorana spinors in dimensions 11, 10, and 9
+ {#InDimensions11And10And9}
+
+We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
+
++-- {: .num_prop #DiracRepInD11FromD9}
+###### Proposition
+
+Let $\{\gamma_a\}$ be any [[Dirac representation]] of $Spin(8,1)$ according to prop. \ref{CliffordAlgebraRepresentation}. By the same logic as in the proof of prop. \ref{CliffordAlgebraRepresentation} we get from this the Dirac representations in dimensions 9+1 and 10+1 by setting
+
+$$
+  \Gamma_{a \leq 8}
+    \coloneqq
+  \left(
+    \array{
+      0 & \gamma_a
+      \\
+      \gamma_a & 0
+    }
+  \right)
+  \;\,,\;\;
+  \Gamma_{9}
+   \coloneqq
+  \left(
+    \array{
+       0 & id
+       \\
+       -id & 0
+    }
+  \right)
+  \;\,,\;\;
+  \Gamma_{10}
+   \coloneqq
+  \left(
+    \array{
+      i id & 0
+      \\
+      0 & -i id
+    }
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #SpinRepsFrom11dToTDuality}
+###### Remark
+
+
+By prop. \ref{CliffordAlgebraRepresentation} the Dirac representation in $d = 11$ has complex dimension $2^{10/2} = 2^{5} = 32$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this representation carries a real structure and hence gives a real/Majorana [[spin representation]] $S \hookrightarrow \mathbb{C}^{32}$ of $Spin(10,1)$ of real dimension 32. This representation often just called "$\mathbf{32}$". This way the corresponding [[super-Minkowski spacetime]] (remark \ref{SuperPoincareOutlook}) is neatly written as
+
+$$
+  \mathbb{R}^{10,1\vert \mathbf{32}}
+$$
+
+which thus serves to express both, the real dimension of the space of odd-graded coordinate functions at every point on it, as well as the way that the $Spin(10,1)$-cover of the [[Lorentz group]] $SO(10,1)$ acts on these. This is the local model space for [[super spacetimes]] in [[11-dimensional supergravity]].
+
+As we regard $\mathbb{C}^{32}$ instead as the Dirac representation of $Spin(9,1)$ via def. \ref{WeylRepresentation}, then it decomposes into to chiral halfs, each of complex dimension 16. This is the direct sum decomposition in terms of which the block decomposition of the above Clifford matrices is given.
+
+Since in 10d the Weyl condition is compatible with the Majorana condition (by prop. \ref{WeylMajoranaInLorentzian10d}), the real Majorana representation $\mathbf{32}$ correspondingly decomposes as a direct sum two real representations of dimension 116 which often are denoted $\mathbf{16}$ and $\overline{\mathbf{16}}$. Hence as real/Majorana $Spin(9,1)$-representations there is a [[direct sum]] decomposition
+
+$$
+  \mathbf{32} \simeq \mathbf{16} \oplus \overline{\mathbf{16}}
+  \,.
+$$
+
+The corresponding [[super Minkowski spacetime]] (remark \ref{SuperPoincareOutlook})
+
+$$
+  \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+$$
+
+is said to be of "type IIA", since this is the local model space for [[superspacetimes]]  in [[type IIA supergravity]]. This is as opposed to $\mathbb{R}^{9,1\vert \mathbf{16}\oplus \mathbf{16}}$, which is "type IIB" and in contrast to $\mathbb{R}^{9,1\vert \mathbf{16}}$ which is "heterotic" (the local model space for [[heterotic supergravity]]).
+
+Now the Dirac-Weyl representation for $Spin(8,1)$ is of complex dimension $d = 2^{8/2} = 2^4 = 16$. By prop. \ref{MajoranaConjugationIsRealStructure} and prop. \ref{TheMajoranaConditionInComponents} this also admits real structure, and hence gives a Majorana representation fro $Spin(8,1)$, accordingly denoted $\mathbf{16}$. Notice that this is Majorana-Weyl.
+
+We want to argue that both the $\mathbf{16}$ and the $\overline{\mathbf{16}}$ of $Spin(9,1)$ become isomorphic to the single $\mathbf{16}$ of $Spin(8,1)$ under forming the [[restricted representation]] along the inclusion $Spin(8,1)\hookrightarrow Spin(9,1)$ (the one fixed by the above choice of components).
+
+For this it is sufficient to see that $\Gamma_9$, which as a complex linear map goes $\Gamma_9 \colon \mathbf{16} \longrightarrow \overline{\mathbf{16}}$ constitutes an [[isomorphism]] when regarded as a morphism in the [[category of representations]] of $Spin(8,1)$.
+
+Clearly it is a linear isomorphism, so it is sufficient that it is a [[homomorphism]] of $Spin(8,1)$-representations at all. But that's clear since by the Clifford algebra relations $\Gamma_9$ commutes with all $\Gamma_a \Gamma_b$ for $a,b \on \{0,\cdots, 8\}$.
+
+Hence the [[branching rule]] for [[restricted representation|restricting]] the Weyl representation in 11d along the sequence of inclusions
+
+$$
+  Spin(8,1) \hookrightarrow Spin(9,1) \hookrightarrow Spin(10,1)
+$$
+
+is
+
+$$
+  \underset{\in Rep(Spin(10,1))}\underbrace{\mathbf{32}}
+    \mapsto
+  \underset{\in Rep(Spin(9,1))}\underbrace{\mathbf{16} \oplus \overline{\mathbf{16}}}
+    \mapsto
+  \underset{\in Rep(Spin(8,1))}\underbrace{\mathbf{16} \oplus \mathbf{16}}
+  \,.
+$$
+
+
+If we write a Majorana spinor in $\mathbf{32}$ as $\vartheta \in \mathbb{C}^{32}$, decomposed as a $(1 \times 32)$-matrix as
+
+$$
+  \vartheta
+    =
+  \left(
+    \array{
+      \psi_1
+      \\
+      \psi_2
+    }
+  \right)
+  \,.
+$$
+
+and if we write for short
+
+$$
+  \psi_1
+   =
+  \left(
+    \array{
+      \psi_1 \\ 0
+    }
+  \right)
+  \,,\;\;\;
+  \psi_2
+   =
+  \left(
+    \array{
+      0 \\  \psi_2
+    }
+  \right)
+$$
+
+then this says that after restriction to $Spin(9,1)$-action then $\psi_1$ becomes a Majorana spinor in the $\mathbf{16}$, and $\psi_2$ a Majorana spinor in the $\overline{\mathbf{16}}$, and after further restriction to $Spin(8,1)$-action then either comes a Majorana spinor in one copy of $\mathbf{16}$.
+
+=--
+
+
+
+The type IIA spinor-to-vector pairing is just that of 11d under this re-interpretation. We find:
+
++-- {: .num_prop #typeIIASpinorToVectorPairing}
+###### Proposition
+
+The type IIA spinor-to-vector pairing is given by
+
+$$
+  \begin{aligned}
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a^{IIA}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1
+        -
+        \overline{\psi}_2 \psi_2
+        &
+        \vert \; a = 9
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using that on Majorana spinors the Majorana conjugate coincides with the Dirac conjugate (prop. \ref{TheMajoranaConditionInComponents}) and applying prop. \ref{DiracRepInD11FromD9} we compute:
+
+$$
+  \begin{aligned}
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a^{IIA}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+      &\coloneqq
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_a
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    \\ & =
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \Gamma_0 \Gamma_a
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    \\
+    & =
+    \left\{
+      \array{
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \left(
+       \array{
+         \gamma_0 \gamma_a & 0
+         \\
+         0 & \gamma_0 \gamma_a
+       }
+     \right)
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+     & \vert \; a\leq 8
+     \\
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \left(
+       \array{
+         \gamma_0  & 0
+         \\
+         0 & -\gamma_0
+       }
+     \right)
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+     & \vert \; a = 9
+     }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1
+        -
+        \overline{\psi}_2 \psi_2
+        &
+        \vert \; a = 9
+      }
+    \right.
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #typeIIBSpinorToVectorPairing}
+###### Proposition
+
+The type IIB spinor-to-vector pairing is
+
+$$
+  \begin{aligned}
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_a^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    & =
+    \left\{
+      \array{
+        \overline{\psi}_1 \gamma_a \psi_1
+        + \overline{\psi}_2 \gamma_a \psi_2
+        &
+        \vert \; a \leq 8
+        \\
+        \overline{\psi}_1 \psi_1
+        +
+        \overline{\psi}_2 \psi_2
+        &
+        \vert \; a = 9
+      }
+    \right.
+  \end{aligned}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The type II pairing spinor-to-vector pairing is obtained from the type IIA pairing of prop. \ref{typeIIASpinorToVectorPairing} by replacing all bottom right matrix entries (those going $\overline{\mathbf{16}}\to \overline{\mathbf{16}}$ by the corresponding top left entries (those going $\mathbf{16} \to \mathbf{16}$ )). Notice that in fact all these block entries are the same, except for the one at $a = 9$, where they simply differ by a sign. This yields the claim.
+
+=--
+
+Notice also the following relation between the different pairing in dimensions 11, 10 and 9:
+
++-- {: .num_prop #9ComponentOfIIBPairing}
+###### Proposition
+
+The $(9,10)$-component of the spinor-to-bivector pairing (def. \ref{SpinorToRank2TensorBilinearPairing}) in 11d equals the 9-component of the type IIB spinor-to-vector pairing
+
+$$
+  \begin{aligned}
+    i
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    & =
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+  \end{aligned}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Using prop. \ref{DiracRepInD11FromD9} and prop. \ref{typeIIBSpinorToVectorPairing} we compute:
+
+$$
+  \begin{aligned}
+    i\,
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+     \Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    & =
+    i
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+     \Gamma_0\Gamma_9 \Gamma_{10}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    \\
+    & =
+    i \,
+    \left(\array{\psi_1 \\ \psi_2}\right)^\dagger
+      \left(
+        \array{
+          -i \gamma_0 & 0
+          \\
+          0 & -i \gamma_0
+        }
+      \right)
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    \\
+    & =
+      \overline{\psi}_1 \psi_1
+      +
+      \overline{\psi}_2 \psi_2
+    \\
+    & =
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+  \end{aligned}
+$$
+
+=--
+
+The following is an evident variant of the extensions considered in ([CAIB 99](#CAIB99), [FSS 13](#FiorenzaSatiSchreiber13)).
+
++-- {: .num_prop #TypeIIExtension}
+###### Proposition
+
+We have
+
+1. The 11d $N = 1$ [[super-Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$ (def. \ref{SuperMinkowskiSpacetime}) is the  [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of the 10d type IIA [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$ by the 2-cocycle
+
+   $$
+     c_2 \coloneqq \overline{\psi} \wedge \Gamma_{10} \psi
+     \;\;\;
+     \in
+     CE(\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}})
+   $$
+
+   (from def. \ref{SpinorToVectorBilinearPairing}).
+
+1. The 10d type IIA [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$  is [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of th 9d $N = 2$ [[super-Minkowski spacetime]] by the 2-cocycle given by the type IIA spinor-to-vector pairing
+
+   $$
+     c_2^{IIA}
+      \;\coloneqq\;
+     \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+      \wedge \Gamma_9^{IIA}
+      \left(
+       \array{\psi_1 \\ \psi_2}
+      \right)
+        \;\;\;\in
+      CE(\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}})
+   $$
+
+   (from prop. \ref{typeIIASpinorToVectorPairing}).
+
+1. The 10d type IIB [[super-Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \mathbf{16}}$  is [[central extension|central]] [[super Lie algebra|super]] [[Lie algebra extension]] of th 9d $N = 2$ [[super-Minkowski spacetime]] by the 2-cocycle given by the type IIB spinor-to-vector pairing
+
+   $$
+     c_2^{IIB}
+       \;\coloneqq\;
+     \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+      \wedge
+      \Gamma_9^{IIB}
+      \left(
+       \array{\psi_1 \\ \psi_2}
+      \right)
+      \;\;\;
+      \in CE(\mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}})
+   $$
+
+   (from prop. \ref{typeIIBSpinorToVectorPairing}).
+
+In summary, we have the following [[diagram]] in the [[category]] of [[super L-infinity algebras]]
+
+$$
+  \array{
+    && && \mathbb{R}^{10,1\vert \mathbf{32}}
+    \\
+    && && \downarrow
+    \\
+    \mathbb{R}^{9,1\vert \mathbf{16} + \mathbf{16}}
+      && &&
+    \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}
+     &\overset{c_2}{\longrightarrow}&
+    B \mathbb{R}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathbb{R}^{8,1\vert \mathbf{16} + \mathbf{16}}
+    \\
+    & {}^{\mathllap{c_2^{IIB}}}\swarrow && \searrow^{\mathrlap{c_2^{IIA}}}
+    \\
+    B \mathbb{R} && && B \mathbb{R}
+  }
+  \,,
+$$
+
+
+where $B\mathbb{R}$ denotes the [[line Lie 2-algebra]], and where each "hook"
+
+$$
+  \array{
+    \widehat{\mathfrak{g}}
+    \\
+    \downarrow
+    \\
+    \mathfrak{g}
+      &\overset{\omega_2}{\longrightarrow}&
+    B\mathbb{R}
+  }
+$$
+
+is a [[homotopy fiber sequence]] (because homotopy fibers of super $L_\infty$-algebra cocycles are the corresponding extension that they classify, see at _[[L-infinity algebra cohomology]]_).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see that the given 2-forms are indeed cocycles: they are trivially closed (by def. \ref{SuperMinkowskiSpacetime}), and so all that matters is that we have a well defined super-2-form in the first place. Since the $\psi^\alpha$ are in bidegree $(1,odd)$, they all commutes with each other (see at _[[signs in supergeometry]]_) and hece the condition is that the pairing is symmetric. This is the case by prop. \ref{SpinorToVectorPairing}.
+
+Now to see the extensions. Notice that for $\mathfrak{g}$ any ([[super Lie algebra|super]]) [[Lie algebra]] (of finite dimension, for convenience), and for $\omega \in \wedge^2\mathfrak{g}^\ast$ a [[Lie algebra cohomology|Lie algebra 2-cocycle]] on it, then the [[Lie algebra extension]] $\widehat{\mathfrak{g}}$ that this classifies is neatly characterized in terms of its dual [[Chevalley-Eilenberg algebra]]: that is simply the original CE algebra with one new generator $e$ (in degree $(1,even)$) adjoined, and with the differential of $e$ taking to be $\omega$:
+
+$$
+  CE(\widehat{\mathfrak{g}})
+   =
+  (CE(\mathfrak{g}) \otimes \langle e\rangle), d e = \omega)
+  \,.
+$$
+
+Hence in the case of $\omega = c_2^{IIA}$ we identify the new generator with $e^9$ and see that the equation $d e^9 = c_2^{IIA}$ is precisely what distinguishes the CE-algebra of $\mathbb{R}^{8,1\vert \mathbf{16}+ \mathbf{16}}$ from that of $\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}$, by prop. \ref{DiracRepInD11FromD9} and the fact that both spin representation have the same underlying space, by remark \ref{SpinRepsFrom11dToTDuality}.
+
+The other two cases are directly analogous.
+
+=---
+
+Recall the following (e.g. from [FSS 16](#FiorenzaSatiSchreiber16) and references given there):
+
++-- {: .num_defn #M2CoycleAndIIAStringCocycle}
+###### Definition
+
+The cocycle for the [[higher WZW term]] of the [[Green-Schwarz sigma-model]] for the [[M2-brane]] is
+
+$$
+  \mu_{M2}
+    \coloneqq
+  i\,\overline{\vartheta} \wedge \Gamma_a \Gamma_b \vartheta \wedge e^a \wedge e^b
+  \;\;\;
+  \in
+  CE(\mathbb{R}^{10,1\vert \mathbf{32}})
+$$
+
+obtained from the spinor-to-bivector pairing of def. \ref{SpinorToRank2TensorBilinearPairing}.
+(Here and in the following we are using the nation from remark \ref{SpinRepsFrom11dToTDuality}.)
+
+The cocycle for the [[WZW term]] of the [[Green-Schwarz sigma-model]] for the [[type IIA string theory|type IIA]] [[superstring]] is
+
+$$
+  \mu_{IIA}
+   \coloneqq
+  i\,\overline{\vartheta} \wedge \Gamma_a \Gamma_{10} \vartheta \wedge e^a
+  =
+  i\,
+  \overline{\left(
+    \array{\psi_1 \\ \psi_2}
+  \right)}
+    \Gamma_a \Gamma_{10}
+  \left(
+    \array{\psi_1 \\ \psi_2}
+  \right)
+  \;\;\;
+  \in
+  CE(\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}})
+  \,,
+$$
+
+i.e. this is the the $e^{10}$-component of $\mu_{M2}$ ("[[double dimensional reduction]]" [FSS 16](#FiorenzaSatiSchreiber16)):
+
+$$
+  \mu_{IIA} = (\pi_{10})_\ast \mu_{M2}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #DDReductionOfIIAStringCocycle}
+###### Proposition
+
+The $e^9$-component of the cocycle for the IIA-superstring (def. \ref{M2CoycleAndIIAStringCocycle}), regarded as an element in $CE(\mathbb{R}^{8,1}\vert \mathbf{16} + \mathbf{16})$, equals the 2-cocycle that defines the type IIB extension, according to prop. \ref{TypeIIExtension}:
+
+$$
+  (\pi_9)_\ast \mu_{IIA} = c_2^{IIB}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We have
+
+$$
+  \begin{aligned}
+    (\pi_9)_\ast \mu_{IIA}
+      & =
+    i\,
+    \overline{\left(
+      \array{\psi_1 \\ \psi_2}
+    \right)}
+      \Gamma_9 \Gamma_{10}
+    \left(
+      \array{\psi_1 \\ \psi_2}
+    \right)
+    \\
+    & =
+    \overline{\left(\array{\psi_1 \\ \psi_2}\right)}
+    \Gamma_9^{IIB}
+    \left(\array{\psi_1 \\ \psi_2}\right)
+    \\
+    & =
+    c_2^{IIB}
+  \end{aligned}
+$$
+
+where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the second is the statement of prop. \ref{9ComponentOfIIBPairing}, while the third is from prop. \ref{TypeIIExtension}.
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### Poincar&#233; connections: Graviton and gravitino field
  {#GravitonAndGravitino}
 
 We may now apply the general discussion of super Lie algebra valued super differential forms, def. \ref{SuperLieAlgValuedDiffForms}, to the case of the [[super Poincare Lie algebra]], def. \ref{SuperPoincareAndSuperMinkowski}.
@@ -5298,7 +7470,415 @@ is a [[cocycle]] in super [[Lie algebra cohomology]].
 
 =--
 
-#### Cohomology of super-Minkowski spacetime
+
+
+
+
+
+
+
+
+
+
+
+
+### Fundamental super $p$-branes
+
+(...)
+
+
+#### Motivation and survey
+
+
+The _[[Green-Schwarz action functional]]_ is an [[action functional]] for a [[sigma-model]] that describes the propagation of a fundamental $p$-[[brane]] $\Sigma$ on a [[supermanifold]] [[spacetime]].
+
+* For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
+
+* For $p = 1$ the **Green-Schwarz [[superstring]]** (at the center of attention in [[string theory]]). This model is in contrast to the _[[NSR-string]]_ model, which instead has manifest [[worldsheet]] [[supersymmetry]]. See at _[[superstring]]_ for more on this.
+
+
+[[perturbation theory|Perturbative]] [[string theory]] on geometric backgrounds is defined by the [[Neveu-Schwarz-Ramond model]], namely by [[sigma-model]] [[2d super conformal field theories]] (of [[central charge]] 15) on [[worldsheets]] $\Sigma$ that are [[super Riemann surfaces]], with [[target spaces]] $X$ that are ordinary (i.e. "bosonic") [[spacetime]] [[manifolds]].
+
+These worldsheet field theories are induced from _[[action functionals]]_, namely variants of the standard [[energy functional]] ([[Polyakov action]]) on the space $[\Sigma,X]$ of smooth functions
+
+$$
+  \phi \;\colon\; \Sigma \longrightarrow X
+  \,.
+$$
+
+The central theorem of perturbative superstring theory says that the spectrum of such a 2d SCFT are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
+
+This is the fundamental prediction of the assumption of fundamental strings: assuming 1) that the particles that run in [[Feynman diagrams]] are fundamentally strings, and demanding 2) that there are fermionic particles among these, first implies that the strings must be [[spinning strings]] (have fermions on their worldsheet), which implies that they are [[superstrings]] (worldsheet [[supersymmetry]] mixes the worldsheet bosons and fermions), which then in addition implies that their target space [[effective field theory]] is [[supergravity]], hence that also the effective target space fields exhibit local supersymmetry.
+
+$$
+  \underset{spinning\; string}{\underbrace{fermions \;+\; strings}}
+  \;=\;
+  superstring \;\Rightarrow\; supergravity
+  \,.
+$$
+
+The first step in this implications (spinning string is superstring) is straightforward, but the second step appears as a miracle from the point of view of the NSR string. It comes out this way by non-trivial computation, but is not manifest in the theory.
+
+In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
+
+| [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
+|----|---|
+| [[Ramond-Neveu-Schwarz string]] | on [[worldsheet]]  |
+| Green-Schwarz string | on [[target space|target]] [[spacetime]] |
+
+The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action:
+
+Let $\Sigma$ be a [[closed manifold]] of [[dimension]] 2 -- representing the abstract _[[worldsheet]]_ of a string. Let $(X,g)$ be a [[pseudo-Riemannian manifold]] -- representing a purely [[gravity|gravitational]] [[spacetime]] background. Then the [[action functional]] governing the [[bosonic string]] propagating in this spacetime is the functional
+
+$$
+  \exp(\tfrac{i}{\hbar} S_{bos})
+  \;\colon\;
+  [\Sigma,X]
+   \longrightarrow
+  \mathbb{R}/_{\hbar}\mathbb{Z}
+$$
+
+on the [[smooth space|smooth]] [[mapping space]] $[\Sigma,X]$ of [[smooth functions]] $\Sigma \to X$, that simply assigns the proper relativistic [[volume]] of the image of the [[worldsheet]] $\Sigma$ in [[spacetime]]:
+
+$$
+  (\Sigma\overset{\phi}{\longrightarrow} X)
+    \;\mapsto\;
+  \int_\Sigma vol_{\phi^\ast g}
+  \,.
+$$
+
+(This is the _[[Nambu-Goto action]]_. It is classically equivalently to the [[Polyakov action]] which is the genuine starting point for the quantum [[Neveu-Schwarz-Ramond string]]. Howver, since, as we discuss below, the Green-Schwarz action naturally generalizes to that of other $p$-[[branes]] it is more natural to consider the Nambu-Goto form of the action here.)
+
+When here $(X,g)$ is generalized to a [[superspacetime]] [[supermanifold]] with [[orthogonal structure]] encoded by a [[super-vielbein]] $e$ (see at _[[super Cartan geometry]]_ for details), then the same form of the action functional still makes sense and produces a functional on the [[supergeometry|supergeometric]] [[mapping space]] $[\Sigma,X]$. Moreover, by construction this action functional is invariant under the [[superisometry group]] of $(X,g)$, hence under spacetime [[supersymmetry]].
+
+
+$$
+\array{
+  \text{symmetry of worldsheet theory}
+  \\
+  \array{
+    && \Sigma
+    \\
+    & {}^{\mathllap{\phi}}\swarrow && \searrow^{\mathrlap{\phi'}}
+    \\
+    X &&\underset{\simeq}{\longrightarrow}&& X
+  }
+  \\
+  \text{super-isometry of target spacetime}
+}
+$$
+
+However, Green and Schwarz noticed that this [[kinetic action]] functional $\phi \mapsto \int_\Sigma vol_{\phi^\ast e}$ does _not_ quite yield dynamics that is equivalent to that of the NSR string: when the [[equations of motion]] hold ("on shell") it has more fermionic degrees of freedom than present in the NSR string. The key insight of Green and Schwarz was that one may add an extra summand to the action functional to the plain super-Nambu-Goto action, such that the resulting functional enjoys a further 1-parameter symmetry, called _[[kappa-symmetry]]_,  and such that restricting to the $\kappa$-symmetric states, then the action functionals do become classically equivalent.
+
+Moreover, they showed that in [[light-cone gauge]] the resulting quantum dynamics is equivalent to that of the [[NSR string]], thus providing a conceptual proof for the observed local spacetime supersymmetry for backgrounds that admit two lightlike Killing vectors. (The quantization of the GS-string away from lightcone gauge however remains an open problem.)
+
+
+Green-Schwarz's extra [[kappa-symmetry]] term serves a clear purpose, but originally its geometrically meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the Green-Schwarz-action functional describing the string in $d+1$-dimensions has a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) [[WZW-model]] for
+
+1. target space being locally [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
+
+   $$
+     \mathbb{R}^{d-1,1\vert \mathbf{N}}
+       \;\simeq\;
+     Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}}) / Spin(d-1,1)
+   $$
+
+   for $\mathbf{N}$ a real [[spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
+
+1. [[WZW-term]] being a local potential for the the unique (up to rescaling, if it exists) $Spin(d-1,1)$-invariant [[group cocycle|group 3-cocycle]] $\mu_3$ on $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with component locally given by the Gamma-matrices of the given [[Clifford algebra]] representation.
+
+More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]] with canonical basis of [[left invariant 1-forms]] given by the canonical [[vielbein]] field
+
+$$
+  \{e^a \coloneqq \mathbf{d}x^a\}_{a = 0}^{d-1}
+  \,,
+$$
+
+where $\{x^a\}$ are the canonical [[coordinates]] on $\mathbb{R}^{d-1,1}$, so [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ for some real [[spin representation]] $\mathbf{N}$ is characterized as the [[supergroup]] whose [[left invariant 1-forms]] consitute the $\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$-bigraded differential with generators the [[super-vielbein]]
+
+$$
+  \underset{deg = (1,even)}{\underbrace{e^a}}
+    \;\coloneqq\;
+  \mathbf{d}x^a + \tfrac{i}{2}\overline{\theta}\Gamma^a \mathbf{d} \theta
+  \;\;\;\,,\;\;\;\;\;\;\;\;\;\;
+  \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}} \;\coloneqq\; \mathbf{d}\theta^\alpha
+  \,,
+$$
+
+where $(x^a, \theta^\alpha)$ are the canonical coordinates on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, with the odd-graded elements $\{\theta^\alpha\}$ spanning the given real [[spin representation|Spin(d-1,1)-representation]] $\mathbf{N}$ with [[Clifford algebra]] generators $\{\Gamma^a\}$.
+
+Now while ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ is an [[abelian group]], reflected by the fact that its [[left-invariant 1-forms]] are all closed
+
+$$
+  \mathbf{d}e^a = 0 \;\;\;\;\;\; on \; \mathbb{R}^{d-1,1}
+  \,,
+$$
+
+the key phenomenon of [[supersymmetry]] (that two [[fermions]] pair to a [[bosons]]) means that $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is slightly non-abelian, reflected by the fact that the [[super-vielbein]] is not closed
+
+$$
+  \mathbf{d} e^a = \tfrac{i}{2} \overline{\psi} \Gamma^a \psi
+  \;\,,\;\;\;\;\;\;
+  \mathbf{d} \psi^\alpha = 0
+  \,.
+$$
+
+This is the source of all the rich structure seen in Green-Schwarz theory.
+
+In particular, for special combinations of spacetime dimension $d$ and number of supersymmetries $\mathbf{N}$ the 3-form
+
+
+$$
+  \mu_3 \;\coloneqq\;  \overline{\psi} \wedge \Gamma_a \psi \wedge e^a
+$$
+
+is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that $\mathbf{d}\mu_3 = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_3$.
+
+This happens notably for $d = 10$ and $\mathbf{N} = (1,0)$ ([[heterotic string]]) or $\mathbf{N} = (2,0)$ ([[type IIB superstring]]) and $\mathbf{N} = (1,1)$ ([[type IIA superstring]]). (It also happens in some lower dimensions, where however the corresponding NSR-string develops a [[conformal anomaly]] after quantization ("non-critical strings"). This classification of cocycles is part of what has come to be known as the _[[brane scan]]_ in superstring theory, see below.)
+
+In this equivalent formulation, the Green-Schwarz action functional for the superstring has the following simple form:
+
+Let $(X,e)$ be a [[superspacetime]], hence a [[supermanifold]] $X$ equipped with a [[super-vielbein]] $e$ (super-[[orthogonal structure]]) which is locally modeled on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ (technically: a [[torsion of a G-structure|torsion]]-free [[super-Cartan geometry]] modeled on $Spin(d-1,1) \hookrightarrow Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$). Write $\mu_3^X \in \Omega^3(X)$ be the [[super differential form]] on $X$ which is the induced [[definite globalization of WZW term|definite globalization]] of the cocycle $\mu_3$ over $X$. For $U \subset X$ any contractible subspace, then the restriction of $\mu^X_3|_{U} \in \Omega^3(U)$ of $\mu_3^X$ to $U$ is exact, and hence admits a potential $B_U \in \Omega^2(U)$, i.e. such that $d B = \mu^X_3|_U$.
+
+Then for $\Sigma$ a 2-dimensional [[closed manifold]], the Green-Schwarz action functional
+
+$$
+  \exp(\tfrac{i}{\hbar} S_{GS})
+  \;\colon\;
+  [\Sigma,X]_U
+    \longrightarrow
+  \mathbb{R}/_{\hbar} \mathbb{Z}
+$$
+
+is the function on the super-[[smooth space]] $[\Sigma,X]_U$ of smooth maps of supermanifolds $\phi \colon \Sigma \to X$ which factor through $U$, given by
+
+$$
+  \phi
+    \;\mapsto\;
+  \int_\Sigma vol_{\phi^\ast e}
+   \;+\;
+  \int_\Sigma \phi^\ast B_U
+  \;\;\;\,,\;\;\;\;\;\;\;\;\;
+  \mathbf{d} B_U = \mu^X_3|_U
+  \,.
+$$
+
+In order to get rid of the restriction to some $U \subset X$ one needs to add global data. The need for this is at least mentioned briefly in ([Witten 86, p. 261 (17 of 20)](#Witten86)), but had otherwise been ignored in the physics literature. The general solution is to promote the local potentials $B$ to the connection $\hat B$ on a [[Super Gerbes|super gerbe]] ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)). This is a choice of [[higher prequantization]]
+
+$$
+  \array{
+    && \mathbf{B}^{2}(\mathbb{R}/_\hbar \mathbb{Z}) & \text{prequantization}
+    \\
+    & {}^{\mathllap{\hat B}}\nearrow & \downarrow^{\mathrlap{curv}}
+    \\
+    X
+     &\underset{\mu^X_3}{\longrightarrow}&
+    \mathbf{\Omega}^3
+    &
+    \text{3-form curvature}
+  }
+  \,.
+$$
+
+
+Writing $\int_\Sigma \phi^\ast \hat B$ for the [[volume holonomy]] of a [[circle 2-bundle with connection]] $\hat B$, then the globally defined Green-Schwarz sigma model
+
+$$
+  \exp(\tfrac{i}{\hbar} S_{GS})
+  \;\colon\;
+  [\Sigma, X]
+    \longrightarrow
+  \mathbb{R}/_\hbar\mathbb{Z}
+$$
+
+is given by
+
+$$
+  \phi \;\mapsto\; \int_\Sigma vol_{\phi^\ast} + \int_\Sigma \phi^\ast \hat B
+  \;\;\,,
+  \;\;\;\;\;\;\;
+  curv(\hat B) = \mu_3^X
+  \,.
+$$
+
+This form of the Green-Schwarz action functional for the string has evident generalization to other $p$-[[branes]]. Whenever there is a Lorentz-invariant $(p+2)$-cocycle $\mu_{p+2}$ on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, then one may ask for a higher gerbe ([[higher prequantum line bundle]]) $\hat C$ with [[curvature]] $\mu^X_{p+2}$ and consider the analogous functional.
+
+The triples $(d,\mathbf{N},p)$ (spacetime dimension, number of supersymmetries, dimension of brane) such that
+
+$$
+  \mu_{p+2}
+    \;\coloneqq\;
+  \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
+$$
+
+is a nontrivial cocycle, hence for which there is such a Green-Schwarz action functional for $p$-branes on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ may be classified and form what is called the _[[brane scan]]_ ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87), [Brandt 12-13](#Brandt12-13)):
+
+{#DuffBraneScan} <div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/DuffBraneScan.jpg" height="600">
+</div>
+
+The graphics on the left is from ([Duff 87](#Duff87)). The diagonal lines indicate [[double dimensional reduction]], taking a $(p+1)$-brane in $(d+1)$ dimensions to a $p$-brane in $d$-dimensions.
+
+For instance for $(d = 11, \; \mathbf{N} = \mathbf{32}, \; p = 2)$ one finds a cocycle, and the corresponding GS-action functional is that of the fundamental [[M2-brane]].
+
+This was a striking confluence of brane physics and classification of [[super Lie algebra|super]] [[Lie algebra cohomology]]. But just as striking as the matching, was what it lacked to match: the [[D-branes]] and the [[M5-brane]] ($d = 11$, $p = 5$) are lacking from the old brane scan. Incidentally, these lacking branes are precisely those branes on which the branes that do appear on the brane scan may end, equivalently those branes that have [[higher gauge fields]] on their [[worldvolume]] (tensor multiplets).
+
+An action functional for the [[M5-brane]] vaguely analogous to a Green-Schwarz action functional was found in ([BLNPST 97](#BLNPST97), [APPS 97](#APPS97)). It is again the sum of a kinetic term and a WZW-like term, but the WZW-like term does not come from a cocycle on a (super-)group.
+
+In order to deal with this, it was suggested in ([CAIB 99](#CAIB99), [Sakaguchi 00](#Sakaguchi00), [Azcarraga-Izquierdo 01](#AzcarragaIzquierdo01)) that there is an algebraic structure called "[[extended super-Minkowski spacetimes]]" that generalizes [[super Minkowski spacetime]] and serves to unify the Green-Schwarz-like models for the D-branes and the M5-brane with the original Green-Schwarz models for the string and the M2-brane.
+
+These [[extended super-Minkowski spacetimes]] carry algebraic analogs of super Lie algebra cocycles, such that the relevant terms for the [[D-branes]] and the [[M5-brane]] do appear after all, hence such that all the branes in [[string theory]]/[[M-theory]] are unified. In fact these "[[extended super-Minkowski spacetimes]]" are precisely the "FDA"s that have been introduced before in the [[D'Auria-Fré formulation of supergravity]] and what became identified as the 7-cocycle for the [[M5-brane]] this way had earlier been recognized algebraically as an stepping stone for an elegant re-derivation of [[11-dimensional supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)).
+
+The ([[higher differential geometry|higher]]) geometric meaning of these constructions was found in ([Fiorenza-Sati-Schreiber 13](#FiorezaSatiSchreiber13)): these algebraic structures of "[[extended super-Minkowski spacetimes]]"/FDAs are precisely the [[Chevalley-Eilenberg algebras]] of [[super Lie n-algebra]]-extensions of [[super-Minkowski spacetime]] which are classified by the cocycles that serve as the GS-WZW terms of the $p_1$-branes that may end on those $p_2$-branes whose cocycles are carried by the extended super-Minkowski spacetime.
+
+Hence the missing $p$-branes in the old [[brane scan]] (classifying just cocycles on [[super Lie algebras]]) do appear as one generalizes (super) Lie algebras to (super) [[strong homotopy Lie algebras]] = [[L-infinity algebras]]. Moreover, each brane intersection law (one brane species may end on another) is now matched to a super $L_\infty$-algebra [[extension]] and so the old brane scan is generalized to a tree of branes _[[schreiber:The brane bouquet]]_:
+
+<img src="https://dl.dropboxusercontent.com/u/12630719/BraneBouquet.JPG" alt="the brane bouquet" width="900" />
+
+Each item in this bouquet denotes a [[super L-infinity algebra]] and each arrow denotes an [[L-infinity extension]] classified by a cocycle which encodes the GS-WZW term of the brane named by the domain of the arrow. Moreover, arrows pass exactly from one brane species to the brane species that may end on the former.
+
+In ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)) it is shown that all these [[super L-infinity algebras]] [[Lie integration|Lie integrate]] to [[smooth super-n-groups]], and all the cocycles [[Lie integration|Lie integrate]] to [[Super Gerbes|super-gerbes]] on these, such that the induced [[volume holonomy]] is the relevant generalized GS-WZW term. For detailed exposition see at _[[schreiber:Structure Theory for Higher WZW Terms]]_.
+
+With this generalized perspective, now the Green-Schwarz-type action functionals describe _all_ the [[p-branes]] in [[string theory]]/[[M-theory]].
+
+Again, in order to make this generally true one needs to apply a [[higher prequantization]] -- a choice of [[line n-bundle with connection|line (p+1)-bundle with connection]] -- in order to globalize the [[WZW-terms]] ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13))
+
+$$
+  \array{
+    && \mathbf{B}^{p+1}(\mathbb{R}/_\hbar \mathbb{Z}) & \text{prequantization}
+    \\
+    & {}^{\mathllap{\hat A_{p+1}}}\nearrow & \downarrow^{\mathrlap{curv}}
+    \\
+    X
+     &\underset{\mu^X_{p+2}}{\longrightarrow}&
+    \mathbf{\Omega}^{p+2}
+    &
+    (p+2)\text{-form curvature}
+  }
+  \,.
+$$
+
+Hence $\hat A_{p+1}$ is the actual [[background field]] that the $p$-brane couples to. There is considerably more information in $\hat A_p$ than in its curvature $curv(\hat A_{p+1}) = \mu_{p+2}$. For instance for the [[M2-brane]] one may find the local super [[moduli space]] for local choices of $\hat A_{p+1}$ for the given $\mu_{4}$ on [[KK-compactifications]] to $d = 4$. It turns out that the bosonic [[body]] of this moduli space is the [[exceptional tangent bundle]] on which the [[U-duality]] group [[E7]] has a canonical action (see at _[[schreiber:From higher to exceptional geometry]]_).
+
+This highlights that Green-Schwarz functionals capture fundamental ("microscopic") aspects of $p$-branes. In contrast, often $p$-branes are discussed in their [[soliton|solitonic]] incarnation as _[[black branes]]_. These solitonic branes sit at asymptotic boundaries of [[anti-de Sitter spacetime]] and carry [[conformal field theories]], related to the ambient [[supergravity]] by [[AdS-CFT duality]].
+
+This phenomenon is indeed a consequence of the fundamental Green-Schwarz branes:
+
+Consider a 1/2-[[BPS state]] solution of [[type II supergravity]] or [[11-dimensional supergravity]], respectively. These solutions locally happen to have the same classification as the Green-Schwarz branes. Hence we may consider a configuration $\phi \colon \Sigma \to X$ of the corresponding fundamental $p$-brane which embeds $\Sigma$ into the asymptotic AdS boundary of the given 1/2 BPS spacetime $X$. Then it turns out that restricting the Green-Schwarz action functional to small fluctuations around this configuration, and applying a [[diffeomorphism]] [[gauge fixing]], then the resulting action functional is that of a [[supersymmetry|supersymmetric]] [[conformal field theory]] on $\Sigma$ as in the [[AdS-CFT]] dictionary:
+
+| fundamental $p$-brane | -fluctuations about asymptotic AdS configuration$\to$ |  solitonic $p$-brane |
+|----|-----|---|
+| Green-Schwarz action functional |  | [[supersymmetric|super]]-[[conformal field theory]] |
+
+([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98), [AFFFTT 98](#AFFFTT98) [Pasti-Sorokin-Tonin 99](#PastiSorokinTonin99))
+
+In fact the [[BPS-state]] condition itself is neatly encoded in the Green-Schwarz action functionals: by construction they are invariant under the [[spacetime]] [[superisometry group]]. Hence the [[Noether theorem]] implies that there are corresponding [[conserved currents]], whose [[Dickey bracket]] forms a super-[[Lie algebra extension]] of the Lie algebra of supersymmetries.
+
+$$
+  \array{
+    \left\{
+    \array{
+      X && \overset{=}{\longrightarrow} && X
+      \\
+      & {}_{\mathllap{\hat C}}\searrow
+        &\swArrow&
+      \swarrow_{\mathrlap{\hat C}}
+      \\
+      && \mathbf{B}^{p+1}(\mathbb{R}/_{\hbar} \mathbb{Z})
+    }
+    \right\}
+      &\longrightarrow&
+    \left\{
+    \array{
+      X && \overset{\simeq}{\longrightarrow} && X
+      \\
+      & {}_{\mathllap{\hat C}}\searrow
+        &\swArrow&
+      \swarrow_{\mathrlap{\hat C}}
+      \\
+      && \mathbf{B}^{p+1}(\mathbb{R}/_{\hbar} \mathbb{Z})
+    }
+    \right\}
+     &\longrightarrow&
+    \left\{
+      \array{
+        X && \overset{\simeq}{\longrightarrow} && X
+      }
+    \right\}
+    \\
+    \text{topological currents}
+    &&
+    \text{Noether currents}
+    &&
+    \text{symmetries}
+  }
+$$
+
+Here the "$\swArrow$" filling the triangles is the non-trivial gauge transformation by which the [[WZW term]] (as any WZW term) is preserved under the symmetries (instead of being fixed identically). It is the information in this transformations which makes the currents form an extension of the symmetries.
+
+Here this yields the famous brane charge extensions of the super-isometry super Lie algebra of the schematic form
+
+$$
+  \{Q_\alpha, Q_\beta\}
+  \;=\;
+  (C \Gamma^a_{\alpha \beta}) P_a
+  \;+\;
+  (C \Gamma^{a_1 \cdots a_p})_{\alpha \beta} Z_{a_1, \cdots, a_p}
+$$
+
+(for $Q$ a [[Killing spinor]] and $P$ its corresponding [[Killing vector]]) known as the [[type II supersymmetry algebra]] and the [[M-theory supersymmetry algebra]], respectively ([Azc&#225;rraga-Gauntlett-Izquierdo-Townsend 89](#AGIT89)). In fact it yields super-[[L-infinity algebra extensions|Lie n-algebra extensions]] of which the familiar super Lie algebra extensions are the 0-truncation ([Sati-Schreiber 15](#SatiSchreiber15), [[schreiber:Local prequantum field theory|Khavkine-Schreiber 16]]).
+
+In summary, the nature and classification of Green-Schwarz action functionals captures in a mathematically precise way a good deal of the core structure of [[string theory|string]]/[[M-theory]].
+
+In fact, the [[super L-infinity algebra|super L-infinity algebraic]] perspective on the Green-Schwarz functionals via [[schreiber:The brane bouquet]] also solves the following open problem on [[M-branes]]:
+
+it is famously known from [[Freed-Witten anomaly]]-cancellation that the [[D-brane charges]] are not in fact just in [[de Rham cohomology]] in every second degree, but are in [[twisted K-theory]], hence [[rational homotopy theory|rationally]] in [[twisted de Rham cohomology]], with the twist being the [[F1-brane]] charge (from the fundamental). It is an open problem to determine what becomes of these [[twisted K-theory]] charge groups as one lifts F1/D$p$-branes in string theory to M2/M5-branes in [[M-theory]].
+
+
+|   | intersecting branes | charges in [[generalized cohomology theory]]
+|-----|--------------|----------------------|
+| [[string theory]] | [[F1-brane|F1]]/[[D-brane|Dp-branes]] | [[twisted K-theory]] |
+| [[M-theory]]  | [[M2-brane|M2]]/[[M5-branes]] | ??? |
+
+Notice that there are "microscopic degrees of freedom" of the theory encoded by the choice of [[generalized cohomology theory]] here, generalizing the extra degrees of freedom in the choice of a WZW-term already mentioned above. In general for $E$ a cohomology theory and $E \longrightarrow E \otimes \mathbb{Q}$ its [[Chern character]] map (for instance from [[topological K-theory]] to [[ordinary cohomology]] in every second degree), then a choice of genuine charges is the extra information encoded in a lift
+
+$$
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\text{true charge}}}\nearrow & \downarrow^{\mathrlap{ch}}
+    \\
+    X &\underset{\text{rational} \atop  \text{charge}}{\longrightarrow}& E \otimes \mathbb{Q}
+  }
+$$
+
+But [[rational homotopy theory|rationally]] [[schreiber:The brane bouquet]] allows to derive this from first principles:
+
+Above we saw that the naive cocycles of the [[D-branes]] and of the [[M5-brane]] are not defined on the actual [[spacetime]],  but on some "extended" spacetime, which is really a [[smooth super infinity-groupoid]] extension of spacetime. Hence we should ask if these cocycles [[descent|descend]] to the actual super-spacetime while picking up some twists.
+
+One may prove that:
+
+* the F1/D$p$-brane GS-WZW cocycles descend to 10d type II superspacetime to form a single cocycle in rational twisted K-theory, just as the traditional lore reqires ([Fiorenza-Sati-Schreiber 16](#FiorenzaSatiSchreiber16));
+
+* the M2/M5 GS-WZW cocycles descent to 11d superspacetime to form a single cocycle with values in the [[rational n-sphere|rational 4-sphere]] ([Fiorenza-Sati-Schreiber 16](#FiorenzaSatiSchreiber16)).
+
+This has implications on some open conjectures regarding [[M-theory]], for more on this see _[[schreiber:Equivariant cohomology of M2/M5-branes]]_.
+
+
+
+
+
+
+
+
+
+#### Super Lie $n$-algebras
+
+(...) 
+
+ [[super L-infinity algebra]] 
+ 
+ (...)
 
 The [[Chevalley-Eilenberg algebras]] which in def. \ref{CEAlgebra} and def. \ref{SuperLieAlgebraViaCE} we used to _characterize_ the corresponding (super) Lie algebras are of course traditionally introduced as the [[cochain complexes]] whose [[cochain cohomology]] is [[Lie algebra cohomology]]. We may conceptualize this as follows:
 
@@ -5419,7 +7999,16 @@ sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$
 =--
 
 
-##### The old brane scan
+
+
+
+
+
+
+
+
+
+#### The old brane scan
  {#TheOldBraneScan}
 
 +-- {: .num_defn #LineLienAlgebra}
@@ -5480,7 +8069,14 @@ One finds that the elements $\mu_{p+2}$ in def. \ref{ThePsiPsiTermsInCEOfSuperMi
 
 
 
-##### The full brane scan
+
+
+
+
+
+
+
+#### The full brane scan
 
 Every Lie algebra cocycle $\mu_{p+2} \colon \mathfrak{g} \longrightarrow b^{p+1}\mathbb{R}$ induces a [[L-∞ algebra cohomology|higher extension]] of its domain, namely the [[Lie n-algebra|Lie (p+1)-algebra]] $\hat \mathfrak{g}$ which is the [[homotopy fiber]] of $\mu_{p+2}$ in the [[homotopy theory of L-∞ algebras]]:
 
@@ -5519,8 +8115,12 @@ This complete brane scan is no longer just a table, but is a tree, a bouquet, wh
 
 
 
-###### The M5-brane
 
+
+
+
+
+##### The M5-brane
 
 
 
@@ -5766,20 +8366,51 @@ In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} s
 
 =--
 
-###### The D-branes
+
+
+
+
+
+
+
+
+
+##### The D-branes
 
 (...)
 
-##### Summary
+
+
+
+
+
+
+
+#### Summary
 
 [[!include brane scan]]
 
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="https://dl.dropboxusercontent.com/u/12630719/BraneBouquet.JPG" alt="the brane bouquet" /></div>
 
-### **Semantics layer**
 
-#### The modal operators
+
+
+
+
+
+
+## **Semantics layer**
+
+
+
+
+
+
+
+
+
+### The modal operators
 
 +-- {: .num_remark #SequenceOfSites}
 ###### Remark
@@ -6197,7 +8828,173 @@ $$
 
 ## References
 
-* {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]]; _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140
+The following first mentions
+
+* [General accounts](#GeneralReading)
+
+that might usefully be held on to during the seminar. Then I list
+
+* [Special literature](#MoreDetails)
+
+with refernces to original results and to reviews of these. Then I list pointers to my own work with collaborators on
+
+* [Higher super Cartan geometry](#ReferencesHigherSuperCartan)
 
 
-* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys.Rev.Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149)) 
+### General accounts
+ {#GeneralReading}
+
+An excellent general textbook for our purposes is
+
+* {#CDF} [[nLab:Leonardo Castellani]], [[nLab:Riccardo D'Auria]], [[nLab:Pietro Fré]], _[[nLab:Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+This is written by physicists in physics style, but the development is careful and thorough, and the "geometric perspective" in the title is nothing but the perspective of higher [[nLab:super Cartan geometry]] in slight disguise. See also at _[[nLab:D'Auria-Fré formulation of supergravity]]_.
+
+Lecture notes closely related to the seminar are in
+
+* {#StructureTheory} [[nLab:Urs Schreiber]], _[[Structure Theory for Higher WZW Terms]]_, lectures at _[Higher Structures in String Theory and Quantum Field Theory](http://www.esi.ac.at/activities/events/2015/higher-structures-in-string-theory-and-quantum-field-theory)_, ESI Vienna, November 30-December 4, 2015
+
+### More specialized literature
+ {#MoreDetails}
+
+[[nLab:Deligne's theorem on tensor categories]] is due to
+
+* {#Deligne02} [[nLab:Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
+
+building on his general work on [[nLab:Tannakian categories]]
+
+* [[nLab:Pierre Deligne]], _[[nLab:Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195. ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
+
+A brief survey is in
+
+* {#Ostrik04} [[nLab:Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
+
+and a more comprehensive texbook account is in chapter 9.11 of
+
+* {#EGNO15} [[nLab:Pavel Etingof]], Shlomo Gelaki, Dmitri Nikshych, [[nLab:Victor Ostrik]], _Tensor categories_, Mathematical Surveys and Monographs, Volume 205, American Mathematical Society, 2015 ([pdf](http://www-math.mit.edu/~etingof/egnobookfinal.pdf
+))
+
+
+
+The observation that [[nLab:supergeometry]] is naturally regarded as ordinary geometry inside the [[nLab:sheaf topos]] over [[nLab:superpoints]] is due to
+
+* {#Schwarz84} [[nLab:Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+
+* {#KonechnySchwarz97} Anatoly Konechny, [[nLab:Albert Schwarz]],  _On $(k \oplus l|q)$-dimensional supermanifolds_ in _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998, Lecture Notes in Physics, 509 , J. Wess and V. Akulov (editors)([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
+
+  _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
+
+A nice account is in
+
+* {#Sachse08} [[nLab:Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+
+Useful discussion of [[nLab:Majorana spinors]] and the induced [[nLab:supersymmetry]] algebras includes
+
+* [CDF, II.7.3](#II.7.3)
+
+* {#FigueroaOFarrill} [[nLab:José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+
+The close relation between [[nLab:supersymmetry and division algebras]] was first observed in
+
+* {#KugoTownsend83} Taichiro Kugo, [[nLab:Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1983) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+
+A clean survey is in
+
+* {#BH09} [[nLab:John Baez]], [[nLab:John Huerta]], _Division algebras and supersymmetry I_, in  R. Doran, G. Friedman, [[nLab:Jonathan Rosenberg]](eds.) _Superstrings, Geometry, Topology, and $C^\ast$-algebras_,  Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+
+and the discussion of the spinor bilinear pairings from this perspective is in
+
+* {#BH10} [[nLab:John Baez]], [[nLab:John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410 ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+
+The seminal analysis of [[nLab:torsion of G-structures]] is due to
+
+* {#Guillemin65} [[nLab:Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+
+Discussion of [[nLab:torsion of G-structures]] in the context of [[nLab:supergeometry]] ([[nLab:supertorsion]]) is in
+
+* {#Lott01} [[nLab:John Lott]], _The Geometry of Supergravity Torsion Constraints_ Comm. Math. Phys. 133 (1990), 563&#8211;615, (exposition in [arXiv:0108125](http://arxiv.org/abs/math/0108125))
+
+An elegant construction of [[nLab:11-dimensional supergravity]], right in the spirit of [[nLab:super Cartan geometry]], is due to
+
+* {#DAuriaFre82}  [[nLab:Riccardo D'Auria]], [[nLab:Pietro Fré]]; _Geometric Superravity in D=11 and its hidden supergroup_, Nuclear Physics B201 (1982) 101-140 ([pdf](https://ncatlab.org/nlab/files/GeometricSupergravity.pdf))
+
+This is the main original result on which the [[nLab:D'Auria-Fré formulation of supergravity]] is based, as laid out in [CDF](#CDF).
+
+The observation that the [[nLab:equations of motion]] of bosonic solutions of [[nLab:11-dimensional supergravity]] are equivalent simply to vanishing of the [[nLab:supertorsion]] is due to
+
+*  {#CandielloLechner93} A. Candiello, K. Lechner, _Duality in Supergravity Theories_, Nucl.Phys. B412 (1994) 479-501 ([arXiv:hep-th/9309143](http://arxiv.org/abs/hep-th/9309143))
+
+* {#Howe97} [[nLab:Paul Howe]], _Weyl Superspace_, Physics Letters B
+Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
+
+Discussion of [[nLab:Fierz identities]] includes
+
+* [CDF, II.8](#CDF)
+
+The classification of the invariant super Lie algebra cocycles on super-Minkowski spacetime, hence that of [[nLab:super p-branes]] without gauge fields on their worldvolume, is due to
+
+* {#AETW87} Anna Ach&#250;carro, [[nLab:Jonathan Evans]], [[nLab:Paul Townsend]], [[nLab:David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en))
+
+The extension of this classification to [[nLab:D-branes]] and to the [[nLab:M5-brane]] using [[nLab:extended super Minkowski spacetime]] is due to
+
+* {#CAIB99} C. Chrysso&#8204;malakos, [[nLab:José de Azcárraga]], J. M. Izquierdo and C. P&#233;rez Bueno, _The geometry of branes and extended superspaces_, Nuclear Physics B Volume 567, Issues 1&#8211;2, 14 February 2000, Pages 293&#8211;330 ([arXiv:hep-th/9904137](http://arxiv.org/abs/hep-th/9904137))
+
+* {#Sakaguchi00} Makoto Sakaguchi, _IIB-Branes and New Spacetime Superalgebras_, JHEP 0004 (2000) 019 ([arXiv:hep-th/9909143](https://arxiv.org/abs/hep-th/9909143))
+
+The M5-brane cocycle on the "M2-brane extended super-Minkowski spacetime" that appears here has in fact been observed, as a cocycle, all the way back in [D'Auria-Fr&#233; 82](#DAuriaFre82). But there it was seen just as a means for constructing [[nlab:11-dimensional supergravity]]. That it indeed gives the [[nLab:higher WZW term]] in the [[nLab:Green-Schwarz action functional|Green-Schwarz type action functional]] that defines the fundamental [[nLab:M5-brane]] has been argued in
+
+* {#BLNPST97} [[nLab:Igor Bandos]], [[nLab:Kurt Lechner]], Alexei Nurmagambetov, [[nLab:Paolo Pasti]], [[nLab:Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys.Rev.Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+
+The observation that [[nLab:super p-branes]] on curved [[nLab:super spacetimes]] require [[nLab:definite globalization of WZW term|definite globalization]] of super Lie algebra cocycles from Minkowski spacetime over the supermanifold is due to
+
+* {#BergshoeffSezginTownsend86} [[nLab:Eric Bergshoeff]], [[nLab:Ergin Sezgin]], [[nLab:Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986) ([spire](http://inspirehep.net/record/223138/?ln=en))
+
+* {#BergshoeffSezginTownsend87}  [[nLab:Eric Bergshoeff]], [[nLab:Ergin Sezgin]], [[nLab:Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[nLab:Mike Duff]],  (ed.), _[[nLab:The World in Eleven Dimensions]]_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+
+The formulation of [[nLab:topological T-duality]] is due to
+
+* {#BouwknegtEvslinMathai04} [[nLab:Peter Bouwknegt]], [[nLab:Jarah Evslin]], [[nLab:Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062))
+
+and in an alternative form due to
+
+* {#BunkeRumpfSchick08} {#BunkeRumpfSchick08} [[nLab:Ulrich Bunke]], P. Rumpf, [[nLab:Thomas Schick]], _The topology of $T$-duality for $T^n$-bundles_,  Rev. Math. Phys. 18, 1103 (2006). ([arXiv:math.GT/0501487](http://arxiv.org/abs/math.GT/0501487))
+
+
+
+The suggestion that there ought to be "[[nLab:T-folds]]" or "[[nLab:double field theory|doubled geometry]]" is due to
+
+* {#Hull04} [[nLab:Chris Hull]], _A Geometry for Non-Geometric String Backgrounds_, JHEP0510:065,2005 ([arXiv:hep-th/0406102](http://arxiv.org/abs/hep-th/0406102))
+
+* {#Hull06} [[nLab:Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
+
+The mathematical formalization of this idea in terms of [[nLab:principal 2-bundles]] for the [[nLab:T-duality 2-group]] was claimed in
+
+* {#Nikolaus14} [[nLab:Thomas Nikolaus]], _T-Duality in K-theory and elliptic cohomology_, talk at _String Geometry Network Meeting_, Feb 2014, ESI Vienna ([website](http://www.ingvet.kau.se/juerfuch/conf/esi14/esi14_34.html))
+
+
+### Higher super Cartan geometry
+ {#ReferencesHigherSuperCartan}
+
+The following articles develop the higher super Cartan geometry that we give an exposition of in the second part of the seminar.
+
+The mathematical foundation of higher supergeometry:
+
+* {#dcct} [[nLab:Urs Schreiber]], _[[differential cohomology in a cohesive topos]]_, Thesis, ([v1 arXiv:1310.7930](http://arxiv.org/abs/1310.7930v1), [v2](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf))
+
+The general idea of [[The brane bouquet]] and the general construction of [[nLab:higher WZW terms]] from higher $L_\infty$-cocycles:
+
+* {#FSS13} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]],   _[[The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018, ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+
+The homotopy-[[nLab:descent]] of the [[nLab:M5-brane]] cocycle and of the type IIA [[nLab:D-brane]] cocycles:
+
+* {#FSS16} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[Rational sphere valued supercocycles in M-theory]]_, to appear in Journal of Geometry and Physics ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206))
+
+The derivation of supersymmetric [[nLab:topological T-duality]], rationally, and of the higher super Cartan geometry for [[nLab:super T-folds]]:
+
+* {#FSS16a} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+
+The derivation of the process of higher invariant extensions that leads from the [[nLab:superpoint]] to [[nLab:11-dimensional supergravity]]:
+
+* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[M-Theory from the Superpoint]]_
+
+
