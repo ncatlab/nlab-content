@@ -205,3 +205,6 @@ Discussion as Hopf-superalgebras includes
 
 [[!redirects Lie supergroup]]
 [[!redirects Lie supergroups]]
+
+[[!redirects super-group]]
+[[!redirects super-groups]]
