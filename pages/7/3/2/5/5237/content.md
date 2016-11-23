@@ -151,15 +151,15 @@ is more incolved.
 +-- {: .num_prop #PushoutsInCMonGivenByTensorProduct}
 ###### Proposition
 
-Suppose that $C$ is 
+Suppose that $\mathcal{C}$ is 
 
 * a [[symmetric monoidal category]];
 
-* with [[reflexive coequalizer]]s
+* with [[reflexive coequalizers]]
 
-* that are preserved by the tensoring functors $A \otimes (-): C \to C$ for all objcts $A$ in $C$.
+* that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
 
-Then for $f : A\to B$ and $g : A \to C$ two morphisms in the category $CMon(C)$ of _commutative_ monoids in $C$, the underlying object in $C$ of the [[pushout]] in $CMon(C)$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[module]]s
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with that of the pushout in the category $A$[[Mod]] of $A$-[[modules]]
 
 $$
   U(B \coprod_A C) \simeq  B \otimes_A C 
