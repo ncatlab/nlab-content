@@ -1,19 +1,37 @@
 # Idea
 
-A **chord diagram** (of order $n$) is basically a [[circle]] marked with $2n$ distinct points and $n$ chords joining those points, considered up to rotation of the circle. An **arc diagram** is what you get when you cut the circle at any of the $2n$ segments between the marked points, breaking the rotational symmetry.  For example, here is a chord diagram of order 3:
-
+A _chord diagram_ is a certain kind of basic combinatorial structure that is considered in various settings such as [[combinatorics]] and [[knot theory]]. Chord diagrams are typically represented graphically as a [[circle]] with some marked [[points]], and [[lines]] connecting those points &#8212; something like so:
+<center>
+[[!include chord diagram > chord diagram unlabelled]]
+</center>
+If we label the points of the diagram,
 <center>
 [[!include chord diagram > chord diagram]]
 </center>
+then the matching on points induced by the chords corresponds to an [[involution]] on the set of labels ($A \mapsto C$, $B \mapsto D$, $C \mapsto A$, $D \mapsto B$, $E \mapsto F$, $F \mapsto E$).
+Considering this situation more abstractly, a chord diagram can be defined formally as a finite [[cyclically ordered set]] equipped with an involution (which may or may not have [[fixed points]], corresponding to unattached points).
+The subtle point is that a chord diagram can have non-trivial [[symmetries]] induced by the cyclic structure.
+For example, the two labellings
+<center>
+[[!include chord diagram > chord diagram 2a]]
+</center>
+and
+<center>
+[[!include chord diagram > chord diagram 2b]]
+</center>
+both represent the same underlying chord diagram, corresponding to the involution $(AC)(BE)(DF)$ on the cyclically ordered set $(ABCDEF)$.
 
-And here is the arc diagram obtained by cutting the chord diagram at the segment between points 0 and 5:
-
+In many situations, one also wants to consider a [[rigid]] version of chord diagrams, known as _rooted chord diagrams_ or _arc diagrams_, where the set of points is instead [[linearly ordered]].
+Graphically, one can visualize this as cutting the circle at a particular segment and "opening up" the diagram.
+For example, here we cut the first diagram above at the segment AF
+<center>
+[[!include chord diagram > arc diagram latin]]
+</center>
+Relabelling the points to follow the linear order,
 <center>
 [[!include chord diagram > arc diagram]]
 </center>
-
-An arc diagram of order $n$ is entirely determined by specifying a [[fixed point]] free [[involution]] $\alpha$ on the [[ordinal]] $\mathbf{2n} = \{0 \to 1 \to \dots \to 2n{-}1\}$.  (In the above example, $\alpha = (02)(13)(45)$.)  The 
-[[symmetric group]] $S_{2n}$ acts naturally on arc diagrams of order $n$ by [[conjugation action|conjugation]].  In particular, the generator $\tau$ of the cyclic group $\mathbb{Z}_{2n}$ (where $\tau$ = addition by 1 modulo $2n$) acts by sending $\alpha \mapsto \tau\circ\alpha\circ\tau^{-1}$, which has the effect of moving the first vertex to the end and shifting all other vertices to the left.  Finally, taking the [[quotient]] (of the set of arc diagrams) by this action recovers the set of chord diagrams.
+the rooted chord diagram can now be identified with the involution $(02)(13)(45)$ in $S_6$.
 
 ## Related concepts
 
