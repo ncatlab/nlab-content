@@ -7,7 +7,7 @@
 
 The intermediate value theorem (IVT) is a fundamental principle of [[analysis]] which allows one to find a desired value by [[interpolation]].  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge which is [just right](https://en.wikipedia.org/wiki/The_Story_of_the_Three_Bears).
 
-The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|?]].
+The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|π]].
 
 As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
 
@@ -97,12 +97,12 @@ Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are 
 
 ## References
 
-* [[Peter Schuster]]. Unique existence, approximate solutions,
-and countable choice. [doi:10.1016/S0304-3975(02)00707-7](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7)
+* [[Peter Schuster]]; Unique existence, approximate solutions,
+and countable choice; [doi](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7).
 
-* &lt;http://mathoverflow.net/q/255371>
+* Matt F.; answer to Approximate intermediate value theorem in pure constructive mathematics; MathOverflow; [web](http://mathoverflow.net/q/255371).
 
-* &lt;http://www.paultaylor.eu/ASD/lamcra/asdivt>
+* [[Paul Taylor]]; The intermediate value theorem; A lambda calculus for real analysis, 14; [web](http://www.paultaylor.eu/ASD/lamcra/asdivt).
 
 
 [[!redirects intermediate value theorem]]
