@@ -7,7 +7,7 @@
 
 The intermediate value theorem (IVT) is a fundamental principle of [[analysis]] which allows one to find a desired value by [[interpolation]].  Roughly speaking, it says that if Papa Bear\'s porridge is too hot and Mama Bear\'s porridge is too cold, then there must be some temperature of porridge which is [just right](https://en.wikipedia.org/wiki/The_Story_of_the_Three_Bears).
 
-The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|π]].
+The IVT in its general form was not used by [[Euclid]].  Although it is hard to doubt that Euclid believed that, for any given angle, there was an angle with one-third the measure, this angle cannot be constructed by the methods available to Euclid, so he would never refer to it.  In contrast, [[Archimedes]] made general arguments in which a quantity is approached from above and below, allowing him not only to trisect the angle but also to calculate [[pi|?]].
 
 As normally stated, the IVT is not valid in [[constructive mathematics]], although there are constructively valid versions.
 
@@ -93,6 +93,16 @@ By way of contradiction (applying the [[double negation]] law of [[classical log
 Of course, we can also prove Theorems \ref{classical} and \ref{hypothesis} directly by modifying the proof of Theorem \ref{conclusion} appropriately.
 
 Other ways to identify $c$ (in Theorem \ref{classical} or \ref{hypothesis}) are as the [[supremum]] of $\{x \;|\; f(x) \lt 0\}$ and as the point (guaranteed by the [[extreme value theorem]]) where the minimum of ${|f|}$ is attained.  (After accepting these non-constructive results, the proof that the value $c$ so found satisfies $f(c) = 0$, while perhaps non-trivial, is constructive without choice, given uniform continuity, or in the first case given only continuity at $c$.)
+
+
+## References
+
+* [[Peter Schuster]]. Unique existence, approximate solutions,
+and countable choice. [doi:10.1016/S0304-3975(02)00707-7](http://dx.doi.org/10.1016/S0304-3975%2802%2900707-7)
+
+* &lt;http://mathoverflow.net/q/255371>
+
+* &lt;http://www.paultaylor.eu/ASD/lamcra/asdivt>
 
 
 [[!redirects intermediate value theorem]]
