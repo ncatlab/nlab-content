@@ -20,14 +20,14 @@
 
 ## Idea
 
-The _Serre-Swan theorem_ identifies suitable [[modules]] over a [[ring]] of [[functions]] on some [[space]] with the modules of [[sections]] of [[vector bundles]] over that space and thereby identifies these modules with vector bundles themselves.
+The _Serre-Swan theorem_ identifies suitable [[modules]] over an [[algebra of functions]] on some [[space]] with the modules of [[sections]] of [[vector bundles]] over that space and thereby identifies these modules with vector bundles themselves.
 
 Together with theorems like _[[Gelfand duality]]_, the Serre-Swan theorem is a central part of the [[Isbell duality|general duality]] between [[geometry]] and [[algebra]].
 In particular it may serve to generalize the notion of vector bundle from standard [[geometry]] to more exotic forms of geometry, such as [[noncommutative geometry]].
 
 ## Statement
 
-There are two different orginal theorems of the same intuitive spirit which are usually jointly called the **Serre-Swan theorem**, the first one is in [[algebraic geometry]], the second in [[topology]]:
+There are two different original theorems of the same intuitive spirit which are usually jointly called the **Serre-Swan theorem**, the first one is in [[algebraic geometry]], the second in [[topology]]:
 
 1) **Serre's theorem** ([Serre 55](#Serre55)): let $R$ be a commmutative unital [[Noetherian ring]] (in particular, the [[structure sheaf|coordinate ring]] of an [[affine variety]] over a [[field]]), then the [[category]] of finitely-generated _[[projective module|projective]] $R$-[[modules]] is [[equivalence of categories|equivalent]] to the category of [[algebraic vector bundles]] (= [[covering|locally]] [[free module|free]] [[sheaves]] of $O$-[[modules]] of constant finite [[rank]]) on $Spec R$.
 
@@ -61,21 +61,21 @@ The Serre-Swan theorem serves to relate [[topological K-theory]] with [[algebrai
 
 The two original articles are
 
-* [[Jean-Pierre Serre]], _Faisceaux algebriques coherents_, Annals of Mathematics 61 (2): 197&#8211;278 (1955)
- {#Serre55}
+* {#Serre55} [[Jean-Pierre Serre]], _Faisceaux algebriques coherents_, Annals of Mathematics 61 (2): 197&#8211;278 (1955)
+ 
 
-* [[Richard Swan]], _Vector bundles and projective modules_, Trans. AMS __105__ (2): 264&#8211;277 (1962)
- {#Swan}
+* {#Swan} [[Richard Swan]], _Vector bundles and projective modules_, Trans. AMS __105__ (2): 264&#8211;277 (1962)
+ 
 
 A textbook account in the context of [[differential geometry]] is in 
 
-* Jet Nestruev, _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
- {#Nestruev}
+* {#Nestruev} Jet Nestruev, _Smooth manifolds and observables_, Graduate texts in mathematics, 220, Springer-Verlag, ISBN 0-387-95543-7 (2003)
+ 
 
 A general account of Serre-Swan-type theorems over [[ringed spaces]] is in 
 
-* [[Archana Morye]], _Note on the Serre-Swan Theorem_ ([arXiv:0905.0319](http://arxiv.org/abs/0905.0319))
- {#Morye}
+* {#Morye} [[Archana Morye]], _Note on the Serre-Swan Theorem_ ([arXiv:0905.0319](http://arxiv.org/abs/0905.0319))
+ 
 
 A textbook account on the use of the theorem in [[K-theory]] is for instance
 
