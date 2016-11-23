@@ -45,3 +45,4 @@ Rigid topological spaces are discussed in
 
 
 [[!redirects rigid objects]]
+[[!redirects rigid]]
