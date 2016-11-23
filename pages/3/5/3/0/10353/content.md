@@ -29,6 +29,11 @@ A statement about sufficient data for extensions of a [[smooth function]] from a
 
 * [[embedding of smooth manifolds into formal duals of R-algebras]]
 
+* [[smooth Serre-Swan theorem]]
+
+* [[derivations of smooth functions are vector fields]]
+
+
 ## References
 
 The original article is
