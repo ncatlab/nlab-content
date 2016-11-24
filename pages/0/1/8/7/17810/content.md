@@ -1,5 +1,8 @@
 
-> this entry contains one section of _[[geometry of physics -- supergeometry]]_
+> this entry is one section of "[[geometry of physics -- supergeometry]]"
+
+> which itself is a chapter of "[[geometry of physics]]"
+
 
 $\,$
 
@@ -449,7 +452,7 @@ Just as for an [[associative algebra]] it is sufficient to demand $1 a = a$ and 
 
 =--
 
-The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]]. 
+The above discussion makes it clear that a [[monoidal category]] is like a [[monoid]]/[[semi-group]], but "[[categorified]]". Accordingly we may consider additional properties of [[monoids]]/[[semi-groups]] and correspondingly lift them to monoidal categories. A key such property is _[[commutative ring|commutativity]]_. But while for a monoid commutativity is just an extra [[property]], for a [[monoidal category]] it involves choices of commutativity-[[isomorphisms]] and hence is [[stuff, structure and property|extra structure]].
 We will see [below](#SuperGroupsAsSuperHopfAlgebras) that this is the very source of [[superalgebra]].
 
 The [[categorification]] of "commutativity" comes in two stages: [[braiding]] and [[symmetric monoidal category|symmetric braiding]].
@@ -1053,7 +1056,7 @@ We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax
 +-- {: .num_remark #SymmetricMonoidalFunctor}
 ###### Remark
 
-In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.   
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.
 
 If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**.
 
@@ -1062,8 +1065,8 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 +-- {: .num_example}
 ###### Example
 
-Let $\mathcal{A}$ be the [[symmetric monoidal category]] of $\mathbb{Z}/2$-[[graded vector spaces]] 
-$Vect^{\mathbb{Z}/2}$ (example \ref{Z2Zgradedvectorspaces}) or of 
+Let $\mathcal{A}$ be the [[symmetric monoidal category]] of $\mathbb{Z}/2$-[[graded vector spaces]]
+$Vect^{\mathbb{Z}/2}$ (example \ref{Z2Zgradedvectorspaces}) or of
 [[super vector spaces]] $sVect$ (example \ref{CategoryOfSuperVectorSpaces}). Then there is an evident [[forgetful functor]]
 
 $$
@@ -1331,7 +1334,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The [[natural isomorphism]] that characterizes the [[internal hom]] $[A,-]$ as being [[right adjoint]] to the 
+The [[natural isomorphism]] that characterizes the [[internal hom]] $[A,-]$ as being [[right adjoint]] to the
 [[tensor product]] $A \otimes (-)$ is given by the [[adjunction]] natural isomorphism that characterizes [[dual objects]]:
 
 $$
@@ -1513,8 +1516,8 @@ $$
 
 =--
 
-While many linear monoidal categories of interest do not satisfy 
-finiteness or [[rigid monoidal category|rigidity]] (def. \ref{DualizableObject}), often they 
+While many linear monoidal categories of interest do not satisfy
+finiteness or [[rigid monoidal category|rigidity]] (def. \ref{DualizableObject}), often they
 are such that all their objects are (formal) [[inductive limits]] over "small" objects
 that do form a [[rigid monoidal category]].
 
@@ -1618,13 +1621,13 @@ In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijectio
 
 A **proof** is for instance in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93)).
 
-This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defined thereby. Given any associative algebra $A$, then we may think of it as representing a space 
+This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defined thereby. Given any associative algebra $A$, then we may think of it as representing a space
 $Spec(A)$ which is such that it has $A$ as its [[algebra of functions]].
 
 This [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality between spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]].
 
-In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]]. These are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]] 
-(def. \ref{SupercommutativeSuperalgebra} below). 
+In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]]. These are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]]
+(def. \ref{SupercommutativeSuperalgebra} below).
 The corresponding [[formal dual]] spaces are, depending on some technical details, _[[super schemes]]_ or _[[supermanifolds]]_. In the [[physics]] literature, such spaces are usually just called _[[superspaces]]_.
 
 We now make this precise.
@@ -1741,41 +1744,11 @@ Write $Mon(\mathcal{C}, \otimes,1)$ for the **[[category of monoids]]** in $\mat
 
 =--
 
-It is useful to introduce the following [[formal dual|formally dual]] perspective:
-
-+-- {: .num_defn #Affines}
-###### Definition
-
-For $\mathcal{C}$ a [[symmetric monoidal category]], then we write
-
-$$
-  Aff(\mathcal{C}) \coloneqq CMon(\mathcal{C})^{op}
-$$
-
-for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
-
-For $R \in CMon(\mathcal{C})$ we write
-
-$$
-  Spec(A)
-  \in
-  Aff(\mathcal{C})
-$$
-
-for the same object, regarded in the opposite category. We also call this the **[[affine scheme]]** of $A$. Conversely, for $X \in Aff(\mathcal{C})$, we write
-
-$$
-  \mathcal{O}(X) \in CMon(\mathcal{C})
-$$
-
-for the same object, regarded in the category of commutative monoids. We also call this the **[[algebra of functions]]** on $X$.
-
-=--
 
 +-- {: .num_example #MonoidsInVectAreAssociativeAlgebras}
 ###### Example
 
-A [[monoid object]] according to def. \ref{MonoidsInMonoidalCategory} in the [[monoidal category]] of [[vector spaces]] from from example \ref{TensorProductOfVectorSpaces} is equivalently an ordinary [[associative algebra]] over the given [[ground field]]. Similarly a [[commutative monoid]] in $Vect$ is an ordinary [[commutative algebra]]. Moreover, in both cases the [[homomorphisms]] of monoids agree with usual algebra homomorphisms. Hence there are [[equivalences of categories]].
+A [[monoid object]] according to def. \ref{MonoidsInMonoidalCategory} in the [[monoidal category]] of [[vector spaces]] from example \ref{TensorProductOfVectorSpaces} is equivalently an ordinary [[associative algebra]] over the given [[ground field]]. Similarly a [[commutative monoid]] in $Vect$ is an ordinary [[commutative algebra]]. Moreover, in both cases the [[homomorphisms]] of monoids agree with usual algebra homomorphisms. Hence there are [[equivalences of categories]].
 
 $$
   Mon(Vect_k) \simeq Alg_k
@@ -1845,17 +1818,26 @@ The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according 
 ###### Example
 
 The [[supercommutative superalgebra]] which is [[free construction|freely generated]] over $k$ from $n$ generators
-$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of the [[tensor algebra]] $T^\bullet \mathbb{R}^n$ by the ideal generated by the 
+$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of the [[tensor algebra]] $T^\bullet \mathbb{R}^n$ by the ideal generated by the
 relations
 
 $$
   \theta_i \theta_j = - \theta_j \theta_i
-$$ 
+$$
 
 for all $i,h \in \{1, \cdots, n\}$.
 
 This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)), who introduced and
-studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time.
+studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time. 
+
+We also denote this algebra by
+
+$$
+  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^n)
+    \;\in\;
+   sCAlg_{\mathbb{R}}
+   \,. 
+$$
 
 =--
 
@@ -1877,6 +1859,83 @@ $$
 $$
 
 Hence the heart of [[superalgebra]] is _[[supercommutative superalgebra|super-commutativity]]_.
+
+=--
+
+
+It is useful to introduce the following [[formal dual|formally dual]] perspective:
+
++-- {: .num_defn #Affines}
+###### Definition
+
+For $\mathcal{C}$ a [[symmetric monoidal category]], then we write
+
+$$
+  Aff(\mathcal{C}) \coloneqq CMon(\mathcal{C})^{op}
+$$
+
+for the [[opposite category]] of the [[category of commutative monoids]] in $\mathcal{C}$, according to def. \ref{MonoidsInMonoidalCategory}.
+
+For $R \in CMon(\mathcal{C})$ we write
+
+$$
+  Spec(A)
+  \in
+  Aff(\mathcal{C})
+$$
+
+for the same object, regarded in the opposite category. We also call this the **[[affine scheme]]** of $A$. Conversely, for $X \in Aff(\mathcal{C})$, we write
+
+$$
+  \mathcal{O}(X) \in CMon(\mathcal{C})
+$$
+
+for the same object, regarded in the category of commutative monoids. We also call this the **[[algebra of functions]]** on $X$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The formal dual space, according to def. \ref{Affines} (example \ref{Affines}) to a [[Grassmann algebra]] $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
+(example \ref{GrassmannAlgebra}) is to be thought of as a space which is "so tiny" that 
+the coefficients of the [[Taylor expansion]] of any real-valued function on it
+become "so very small" as to be actually equal to zero, at least after the $n$th power.
+
+For instance for $n = 2$ then a general element of $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
+is of the form
+
+$$
+  f = a_0 + a_1 \theta_1 + a_2 \theta_2 + a_{12} \theta_1 \theta_2
+  \;\;\;\in
+  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)
+  \,.
+$$
+
+for $a_1,a_2, a_{12} \in \mathbb{R}$, 
+to be compared with the [[Taylor expansion]] of a [[smooth function]] $g \colon \mathbb{R}^2 \to \mathbb{R}$,
+which is of the form
+
+$$
+  g(x_1, x_2) =
+  g(0) + \frac{\partial g}{\partial x_1}(0)\, x_1 + \frac{\partial g}{\partial x_2}(0)\, x_2
+    + 
+    \frac{\partial^2 g}{\partial x_1 \partial x_2}(0) \, x_1 x_2
+     + 
+      \cdots
+  \,.
+$$
+
+Therefore the [[formal dual]] [[space]] to a [[Grassmann algebra]] behaves like an infinitesimal neighbourhood of a point.
+Therefoe these are also called **[[superpoints]]** and one writes
+
+$$
+  \mathbb{R}^{0\vert q}
+    \coloneqq
+  Spec(\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q))
+  \,.
+$$
+
 
 =--
 
@@ -2102,7 +2161,7 @@ One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action
 
 In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$ of [[sections]].
 
-The _[[smooth Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. Together with the [[embedding of smooth manifolds into formal duals of R-algebras]] (prop \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}), this means that [[differential geometry]] is "more algebraic" than it might superficially seem, hence that its "algebraic deformation" to [[supergeometry]] is 
+The _[[smooth Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. Together with the [[embedding of smooth manifolds into formal duals of R-algebras]] (prop \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}), this means that [[differential geometry]] is "more algebraic" than it might superficially seem, hence that its "algebraic deformation" to [[supergeometry]] is
 more natura than it might superficially seem:
 
 +-- {: .num_prop}
@@ -2822,7 +2881,7 @@ in prop. \ref{CoproductsInCMon} are satisfied.
 
 By definition, every [[tensor category]] is an [[abelian category]] (def. \ref{AdditiveAndAbelianCategories}).
 The [[coequalizer]] of two [[parallel morphisms]] $f,g$ in an abelian category is isomorphic to the [[cokernel]]
-of the difference $f-g$ (formed in the [[abelian group]] struture on the [[hom-space]]). Hence all 
+of the difference $f-g$ (formed in the [[abelian group]] struture on the [[hom-space]]). Hence all
 coequalizers exist, in particlar the [[split coequalizers]] required in prop. \ref{CoproductsInCMon}.
 
 
@@ -2838,9 +2897,9 @@ functors $A \otimes (-)$ are [[left adjoint]] functors, and such preserve all co
 Let $\mathcal{A}$ be a [[tensor category]], and let $R \in CMon(\mathcal{A})$
 be a [[commutative monoid]] in $\mathcal{A}$.
 
-Then for $A_1, A_2$ two 
+Then for $A_1, A_2$ two
 $R$-algebas according to def. \ref{AAlgebra}, regarded as affine schemes
-$Spec(A_1), Spec(A_2) \in Aff(R Mod(\mathcal{C}))$ according to 
+$Spec(A_1), Spec(A_2) \in Aff(R Mod(\mathcal{C}))$ according to
 prop. \ref{MonoidalCategoryOfModules} and def. \ref{Affines}
 the [[Cartesian product]] of $Spec(A_1)$ with $Spec(A_2)$ exists in $Aff(R Mod(\mathcal{C}))$
 and is the [[formal dual]] of the tensor product algebra $A_1 \otimes_R A_2$
@@ -2969,8 +3028,8 @@ and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} co
 ## Super-Groups as super-commutative Hopf algebras
  {#GroupsAsHopfAlgebras}
 
-Above we have considered affine spaces $Spec(A)$ (def. \ref{Affines}) in [[symmetric monoidal categories]] $\mathcal{C}$. 
-Now we discuss what it means to equip these with the stucture of [[group objects]], hence to form 
+Above we have considered affine spaces $Spec(A)$ (def. \ref{Affines}) in [[symmetric monoidal categories]] $\mathcal{C}$.
+Now we discuss what it means to equip these with the stucture of [[group objects]], hence to form
 affine groups in $\mathcal{C}$.
 
 A (possibly) familiar example arises in [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course the _[[Lie groups]]_.
@@ -3936,8 +3995,8 @@ $$
   \,.
 $$
 
-Here on the right we are using that $\omega$ is a [[strong monoidal functor]] so that it preserves 
-[[commutative monoids]] as well as [[comonoids]] by prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}, 
+Here on the right we are using that $\omega$ is a [[strong monoidal functor]] so that it preserves
+[[commutative monoids]] as well as [[comonoids]] by prop. \ref{MonoidsPreservedByLaxMonoidalFunctor},
 hence preserves [[commutative Hopf algebras]].
 
 
@@ -4379,14 +4438,14 @@ Commutative algebra internal to symmetric monoidal categories is discussed in
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
-and specifically for [[commutative Hopf algebroids]] in 
+and specifically for [[commutative Hopf algebroids]] in
 
 * {#Ravenel86} [[Doug Ravenel]], chapter 2 and appendix A.1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
 
 
-(These authors are motivated by the application of the general theory of algebra in monoidal categories 
+(These authors are motivated by the application of the general theory of algebra in monoidal categories
 to "[[higher algebra]]" ("[[brave new algebra]]") in [[stable homotopy theory]].
-This happens to also be a version of [[supercommutative superalgebra]], see at 
+This happens to also be a version of [[supercommutative superalgebra]], see at
 _[[Introduction to Stable homotopy theory]]_ the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra).)
 
 A more recnt texbook account with emphasis on [[tensor categories]]  is
@@ -4419,7 +4478,7 @@ Surveys are in
 
 * {#Ostrik04} [[nLab:Victor Ostrik]], _Tensor categories (after P. Deligne)_ ([arXiv:math/0401347](http://arxiv.org/abs/math/0401347))
 
-* [EGNO 15, chapter 9.11](#EGNO15) 
+* [EGNO 15, chapter 9.11](#EGNO15)
 
 The special case of Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, just being an involutive central element) is discussed in
 
