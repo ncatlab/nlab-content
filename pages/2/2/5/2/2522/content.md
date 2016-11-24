@@ -228,7 +228,7 @@ Finally by [[triality]] the vector representation of $\mathfrak{so}(8) = D_4$ is
 +-- {: .num_remark }
 ###### Remark
 
-Further constraints follow from requiring unitary representations ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfrak{osp}(8|2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being (over the reals as $\mathfrak{so}(8^\ast|4) = \mathfrak{osp}(6,2|4)$) the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
+Further constraints follow from requiring [[super-unitary representations]] ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfrak{osp}(8|2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being (over the reals as $\mathfrak{so}(8^\ast|4) = \mathfrak{osp}(6,2|4)$) the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
 
 =--
 
@@ -373,7 +373,7 @@ Results on the classification of supersymmetry [[super Lie algebras]] (including
 
 * [[Vladimir Dobrev]],  V.B. Petkova,  _All Positive Energy Unitary Irreducible Representations of Extended Conformal Supersymmetry_, Phys.Lett. B162 (1985) 127-132
 
-* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quan tum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
+* {#Minwalla98} [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quantum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
 ([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
 
 * [[Riccardo D'Auria]], [[Sergio Ferrara]], M. A. Lled&#243;, [[Veeravalli Varadarajan]], _Spinor Algebras_, J.Geom.Phys. 40 (2001) 101-128 ([arXiv:hep-th/0010124](http://arxiv.org/abs/hep-th/0010124))
