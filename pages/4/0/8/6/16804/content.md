@@ -25,7 +25,7 @@ and
 </center>
 both represent the same underlying chord diagram, corresponding to the involution $(AC)(BE)(DF)$ on the cyclically ordered set $(ABCDEF)$.
 
-In many situations, one also wants to consider a [[rigid]] version of chord diagrams, known as _rooted chord diagrams_ (or _arc(h) diagrams_), where the set of points is instead [[linearly ordered]].
+In many situations, one also wants to consider a [[rigid]] version of chord diagrams, known as _rooted chord diagrams_ (or _arc diagrams_), where the set of points is instead [[linearly ordered]].
 Graphically, one can visualize this as cutting the circle at a particular segment and "opening up" the diagram.
 For example, here we cut the first diagram above at the segment AF
 <center>
@@ -37,7 +37,10 @@ Relabelling the points to follow the linear order,
 </center>
 the rooted chord diagram can now be identified with the involution $(02)(13)(45)$ on $\mathbf{6} = \{0 \lt 1 \lt 2 \lt 3 \lt 4 \lt 5\}$.
 
-## Gauss diagrams
+Every rooted chord diagram uniquely determines a chord diagram (glue the left and right ends back together).
+Conversely, a chord diagram with $n$ chords connecting $2n$ distinct points can be rooted in up to $2n$ different ways, but might also have fewer rootings in the case of symmetries.
+
+## Gauss diagrams of ordinary (virtual) knots
 
 Any [[knot diagram]] can be represented faithfully by a certain kind of chord diagram with some extra structure, known as a _Gauss diagram_ [(Polyak and Viro 1994)](#PV94).
 
@@ -53,6 +56,12 @@ To construct the Gauss code, begin by assigning arbitrary labels to the crossing
 Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles.
 This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
 
+## Chord diagrams of singular knots
+
+By an analogous mechanism, any [[singular knot]] $K$ with $n$ simple double points (i.e., points where the knot intersects itself transversally) gives rise to a chord diagram $c(K)$ with $n$ chords, by connecting the preimages of these double points.
+This chord diagram $c(K)$ of course does not faithfully represent the original knot $K$ (e.g., it does not include any information about over-crossings and under-crossings).
+However, such chord diagrams nonetheless play an important role in the theory of [[Vassiliev invariants]], by the theorem that the value of a Vassiliev invariant $v$ of degree $\le n$ on any singular knot $K$ with $n$ simple double points depends only on the chord diagram $c(K)$.
+
 ## Related concepts
 
 * [[involution]]
@@ -61,19 +70,7 @@ This question also played a foundational role in [[virtual knot theory]] &mdash;
 
 ## References
 
-For more on chord diagrams emphasizing their connection to [[Vassiliev invariants]] of [[singular knots]], see Chapter 6 of
-
-* [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
-
-as well as
-
-* [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
-
-* [[Simon Willerton]], Vassiliev invariants and the [[Hopf algebra]] of chord diagrams, Math. Proc. Camb. Phil. Soc. (1996), 119, 55.
-
-* Greg Muller, ["Chord Diagrams and Lie Algebras"](https://cornellmath.wordpress.com/2007/12/25/chord-diagrams-and-lie-algebras/), blog post at _The Everything Seminar_, 25 December 2007.
-
-For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see
+For chord diagrams and arc diagrams from the perspective of [[combinatorics]], see:
 
 * Jacques Touchard. Sur un probl&#232;me de configurations et sur les fractions continues. Canadian Journal of Mathematics 4 (1952), 2-25. ([doi](http://dx.doi.org/10.4153/CJM-1952-001-8))
 
@@ -81,7 +78,7 @@ For chord diagrams and arc diagrams from the perspective of [[combinatorics]], s
 
 * A. Khruzin. Enumeration of chord diagrams. arXiv:math/0008209, August 2000. ([arxiv](http://arxiv.org/abs/math/0008209))
 
-For the relationship to _Gauss diagrams_ in classical [[knot theory]] as well as [[virtual knot theory]], see:
+For the relationship to Gauss diagrams in classical and [[virtual knot theory]], see:
 
 * {#PV94} Michael Polyak and Oleg Viro, Gauss diagram formulas for Vassiliev invariants, _International Mathematics Research Notes_ 1994:11. [pdf](http://www.math.stonybrook.edu/~oleg/math/papers/1994-Polyak-Viro.pdf)
 
@@ -89,9 +86,17 @@ For the relationship to _Gauss diagrams_ in classical [[knot theory]] as well as
 
 * {#Viro05} Oleg Viro, Virtual Links, Orientations of Chord Diagrams and Khovanov Homology, Proceedings of 12th G&#246;kova Geometry-Topology Conference, pp. 184&#8211;209, 2005. [pdf](http://www.pdmi.ras.ru/~olegviro/ggt05-viro.pdf)
 
-See also:
-
 * [Gauss codes](http://katlas.org/wiki/Gauss_Codes) at the Knot Atlas.
+
+For the connection to [[Vassiliev invariants]] of [[singular knots]], see:
+
+* Chapter 6 of [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
+
+* [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
+
+* [[Simon Willerton]], Vassiliev invariants and the [[Hopf algebra]] of chord diagrams, Math. Proc. Camb. Phil. Soc. (1996), 119, 55.
+
+* Greg Muller, ["Chord Diagrams and Lie Algebras"](https://cornellmath.wordpress.com/2007/12/25/chord-diagrams-and-lie-algebras/), blog post at _The Everything Seminar_, 25 December 2007.
 
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
