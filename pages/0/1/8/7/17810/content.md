@@ -2,13 +2,15 @@
 > this entry contains one section of _[[geometry of physics -- supergeometry]]_
 
 
-#Contents#
-* table of contents
-{:toc}
 
 
 In [[nLab:Klein geometry]] and [[nLab:Cartan geometry]] the fundamental geometric concept is the [[nLab:symmetry group]] $G$ of the local model [[nLab:space]], which is then recovered as some [[nLab:coset space]] $G/H$. These symmetry groups $G$ are reflected in their [[nLab:categories of representations]] $Rep(G)$, which are certain nice [[nLab:tensor categories]]. In terms of [[nLab:physics]] via [[nLab:Wigner classification]], the [[nLab:irreducible objects]] in  $Rep(G)$ label the possible [[nLab:fundamental particle]] species on the [[nLab:spacetime]] $G/H$. Hence if we regard the [[nLab:tensor category]] $Rep(G)$ as the actual fundamental concept, then the natural question is that of _[[nLab:Tannaka duality|Tannaka reconstruction]]_: Given any nice [[nLab:tensor category]], is it [[nLab:equivalence of categories|equivalent]] to $Rep(G)$ for some symmetry group $G$? For [[nLab:rigid monoidal category|rigid]] [[nLab:tensor categories]] in [[nLab:characteristic zero]] subject only to a mild size constraint this is answered by **[[nLab:Deligne's theorem on tensor categories]]** (theorem \ref{TheTheorem} below) : all of them are, but only if we allow $G$ to be a "[[nLab:supergroup]]".
 
+
+
+#Contents#
+* table of contents
+{:toc}
 
 
 The beauty of [[supercommutative superalgebra]] is that it is just [[commutative algebra]]
@@ -710,7 +712,7 @@ $$
   = 1
 $$
 
-Due to the [[symmetric monoidal category<symmetry]] condition (def. \ref{SymmetricMonoidalCategory}) we have
+Due to the [[symmetric monoidal category|symmetry]] condition (def. \ref{SymmetricMonoidalCategory}) we have
 
 $$
   (\tau^{super}_{k^{0\vert 1}, k^{0 \vert 1}})^2 = id
@@ -1058,6 +1060,25 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 
 =--
 
++-- {: .num_example}
+###### Example
+
+Let $\mathcal{A}$ be the [[symmetric monoidal category]] of $\mathbb{Z}/2$-[[graded vector spaces]] 
+$Vect^{\mathbb{Z}/2}$ (example \ref{Z2Zgradedvectorspaces}) or of 
+[[super vector spaces]] $sVect$ (example \ref{CategoryOfSuperVectorSpaces}). Then there is an evident [[forgtful functor]]
+
+$$
+  \mathcal{A} \longrightarrow Vect
+$$
+
+to the category of plain [[vector spaces]], which forgets the grading.
+
+In both cases this is a [[strong monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+For $\mathcal{A} = Vect^{\mathbb{Z}/2}$ it is also a [[braided monoidal functor]], but for
+$\mathcal{A} = sVect$ it is not.
+
+=--
+
 +-- {: .num_prop #MonoidalFunctorComp}
 ###### Proposition
 
@@ -1325,7 +1346,7 @@ such that
 
 In this form this is considered in ([Deligne 02, 0.1](#Deligne02)).
 
-We consider now various types of size constraints on tensor categories. The Tannaka reconstructin theorem (theorem \ref{TheTheorem} below) only assumes one of them (subexponential growth, def. \ref{SubexponentialGrowth}), but the others appear in the course of the proof of the theorem.
+We consider now various types of size constraints on tensor categories. The Tannaka reconstruction theorem (theorem \ref{TheTheorem} below) only assumes one of them (subexponential growth, def. \ref{SubexponentialGrowth}), but the others appear in the course of the proof of the theorem.
 
 1. finiteness (def. \ref{FiniteTensorCategory})
 
@@ -1334,6 +1355,44 @@ We consider now various types of size constraints on tensor categories. The Tann
 1. subexponential growth (def. \ref{SubexponentialGrowth})
 
 Recall the concept of [[length of an object]] in an [[abelian category]], a generalization of the concept of [[dimension]] of a [[free module]]/[[vector space]].
+
+
++-- {: .num_defn #FiniteLength}
+###### Definition
+
+Let $\mathcal{C}$ be an [[abelian category]].
+Given an [[object]] $X \in \mathcal{C}$, then a _[[Jordan-Hölder sequence]]_ or _[[composition series]]_ for $X$ is a finite [[filtration]], i.e. a finite sequence of [[subobject]] unclusions into $X$, starting with the [[zero objects]]
+
+$$
+  0 = X_0 \hookrightarrow X_1 \hookrightarrow \cdots \hookrightarrow X_{n-1} \hookrightarrow X_n = X
+$$
+
+such that at each stage $i$ the [[quotient]] $X_i/X_{i-1}$ (i.e. the [[coimage]] of the [[monomorphism]] $X_{i-1} \hookrightarrow X_i$) is a [[simple object]] of $\mathcal{C}$.
+
+If a Jordan-H&#246;lder sequence for $X$ exists at all, then $X$ is said to be of _finite length_.
+
+=--
+
+(e.g. [EGNO 15, def. 1.5.3](#EGNO15))
+
++-- {: .num_prop #JordanHolderSequenceHasDefiniteLength}
+###### Proposition
+**([[Jordan-Hölder theorem]])**
+
+If $X \in \mathcal{C}$ has finite length according to def. \ref{FiniteLength}, then in fact all Jordan-H&#246;lder sequences for $X$ have the same length $n \in \mathbb{N}$.
+
+=--
+
+(e.g. [EGNO 15, theorem 1.5.4](#EGNO15))
+
++-- {: .num_defn #LengthOfAnObject}
+###### Definition
+
+If an object $X \in \mathcal{C}$ has finite length according to def. \ref{FiniteLength}, then the length $n \in \mathbb{N}$ of any of its Jordan-H&#246;lder sequences, which is uniquely defined according to prop. \ref{JordanHolderSequenceHasDefiniteLength}, is called the _length of the object_ $X$.
+
+=--
+
+(e.g. [EGNO 15, def. 1.5.5](#EGNO15))
 
 
 +-- {: .num_defn #FiniteTensorCategory}
@@ -1384,16 +1443,18 @@ Such $E$ is called an _$\otimes$-generator_ for $\mathcal{A}$.
 ([Deligne 02, 0.1](#Deligne02))
 
 
-The following is the main size constraint needed in the theorem. Notice that it is a "mild" constraint at least in the intuitive sense that it states just a minimum assumption on the expected behaviour of dimension ([[length of an object|lengh]]) under tensor powers.
+The following is the main size constraint needed in the theorem. Notice that it is a "mild" constraint at least in the intuitive sense that it states just a minimum assumption on the expected behaviour of dimension ([[length of an object|length]]) under tensor powers.
 
 +-- {: .num_defn #SubexponentialGrowth}
 ###### Definition
 
-A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have _subexponential growth_ if the [[length]] of tensor exponentials is no larger than the exponential of the length: for every [[object]] $X$ there exists a [[natural number]] $N_X$ such that $X$ is of [[length of an object|length]] at most $N_X$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N_X$:
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is said to have **subexponential growth*** if the [[length]] of tensor exponentials is no larger than the exponential of the length: for every [[object]] $X$ there exists a [[natural number]] $N_X$ such that $X$ is of [[length of an object|length]] at most $N_X$, and that also all [[tensor product]] powers of $X$ are of length bounded by the corresponding powers of $N_X$:
 
 $$
   \underset{X \in \mathcal{A}}{\forall}
+  \,
   \underset{N_X \in \mathbb{N}}{\exists}
+  \,
   \underset{n \in \mathbb{N}}{\forall}
     \;\;
    length(X^{\otimes^n}) \leq (N_X)^n
@@ -1418,8 +1479,11 @@ $$
 
 =--
 
+While many linear monoidal categories of interest do not satisfy 
+finiteness or [[rigid monoidal category|rigidity]] (def. \ref{DualizableObject}), often they 
+are such that all their objects are (formal) [[inductive limits]] over "small" objects
+that do form a [[rigid monoidal category]].
 
-Finally we discuss categories of [[ind-objects]] in tensor categories
 
 +-- {: .num_prop #IndObjectsInATensorCategory}
 ###### Proposition
@@ -1464,8 +1528,27 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 =--
 
 
++-- {: .num_example}
+###### Example
 
+The category of all vector spaces is the category of [[ind-objects]] of the [[tensor category]]
+of [[finite dimensional vector spaces]] (example \ref{FiniteDimensionalVectorSpaces}):
 
+$$
+  Vect \simeq Ind(FinVect)
+  \,.
+$$
+
+Similarly the category of all [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces})
+is the category of ind-objects of that of finite-dimensional super vector spaces
+(example \ref{FiniteDimensionalSuperVectorSpaces})
+
+$$
+  sVect \simeq Ind(sFinVect)
+  \,.
+$$
+
+=--
 
 
 
@@ -1479,9 +1562,9 @@ then for its [[category of ind-objects]] $Ind(\mathcal{A})$ the following holds
 
 The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and ef. \ref{SupercommutativeSuperalgebra} below.
 
-The key idea then of [[supergeometry]] is to define super-[[spaces]] to be spaces whose [[algebras of functions]] are [[supercommutative superalgebras]]. This is not the case for any "ordinary" space such as a [[topological space]] or a [[smooth manifold]]. But these spaces may be _characterized_ via their algebras of functions, and hence it makes sense to generalize the latter.
+The key idea then of [[supergeometry]] is to define super-[[spaces]] to be spaces whose [[algebras of functions]] are [[supercommutative superalgebras]]. This is not the case for any "ordinary" space such as a [[topological space]] or a [[smooth manifold]]. But these spaces may be _characterized dually_ via their algebras of functions, and hence it makes sense to generalize the latter.
 
-For [[smooth manifolds]] the statement is the following
+For [[smooth manifolds]] the [[duality]] statement is the following:
 
 +-- {: .num_prop #EmbeddingOfSmoothManifoldsIntoRAlgebras}
 ###### Proposition
@@ -1501,11 +1584,16 @@ In other words, for two [[smooth manifolds]] $X,Y$ there is a [[natural bijectio
 
 A **proof** is for instance in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93)).
 
-This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defines thereby. Given any associative algebra $A$, then we think of as representing a space which is such that it has $A$ as its algebra of functions.
+This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defined thereby. Given any associative algebra $A$, then we may think of it as representing a space 
+$Spec(A)$ which is such that it has $A$ as its [[algebra of functions]].
 
-The [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality betwee spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]].
+This [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality between spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]].
 
-In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]], which are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]]. The corresponding [[formal dual]] spaces are, depending on some technical details _[[super schemes]]_ or _[[supermanifolds]]_. In the [[physics]] literature, such spaces are usually just called _[[superspace]]_.
+In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]]. These are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]] 
+(def. \ref{SupercommutativeSuperalgebra} below). 
+The corresponding [[formal dual]] spaces are, depending on some technical details, _[[super schemes]]_ or _[[supermanifolds]]_. In the [[physics]] literature, such spaces are usually just called _[[superspaces]]_.
+
+We now make this precise.
 
 +-- {: .num_defn #MonoidsInMonoidalCategory}
 ###### Definition
@@ -1565,7 +1653,7 @@ such that
 
    where $\ell$ and $r$ are the left and right unitor isomorphisms of $\mathcal{C}$.
 
-Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, B)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
+Moreover, if $(\mathcal{C}, \otimes , 1)$ has the structure of a [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory}) $(\mathcal{C}, \otimes, 1, \tau)$ with symmetric [[braiding]] $\tau$, then a monoid $(A,\mu, e)$ as above is called a **[[commutative monoid in a symmetric monoidal category|commutative monoid in]]** $(\mathcal{C}, \otimes, 1, B)$ if in addition
 
 * (commutativity) the following [[commuting diagram|diagram commutes]]
 
@@ -1700,7 +1788,7 @@ Example \ref{MonoidsInVectAreAssociativeAlgebras} motivates the following defini
 A **[[supercommutative superalgebra]]** is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the [[symmetric monoidal category|symmetric monoidal]] [[category of super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}). We write $sCAlg_k$ for the [[category]] of [[supercommutative superalgebras]] with the induced [[homomorphisms]] between them:
 
 $$
-  sCalg_k \;\colon\; CMon(sVct_k)
+  sCalg_k \;\coloneqq\; CMon(sVct_k)
   \,.
 $$
 
@@ -1723,34 +1811,38 @@ The [[formal dual]] $Spec(A)$ of a supercommutative superalgebra $A$, according 
 ###### Example
 
 The [[supercommutative superalgebra]] which is [[free construction|freely generated]] over $k$ from $n$ generators
-$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of [[tensor algebra]] $T \mathbb{R}^n$ by the ideal generated by the 
+$\{\theta_i\}_{i = 1}^n$ is the [[quotient]] of the [[tensor algebra]] $T^\bullet \mathbb{R}^n$ by the ideal generated by the 
 relations
 
 $$
-  \thets_i \theta_j = - \theta_j \theta_i
-  \,.
+  \theta_i \theta_j = - \theta_j \theta_i
 $$ 
 
-This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)).
+for all $i,h \in \{1, \cdots, n\}$.
+
+This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)), who introduced and
+studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-In view of def. \ref{SupercommutativeSuperalgebra} we may define a non-necessarily supercommutative superalgebra to be a [[monoid]] (not necssarily commutative) in [[sVect]], and write
+In view of def. \ref{SupercommutativeSuperalgebra} we might define a not-necessarily supercommutative superalgebra to be a [[monoid]] (not necessarily commutative) in [[sVect]], and write
 
 $$
   sAlg_k \coloneqq Mon(sVect)
   \,.
 $$
 
-However, since the definition of not-necessarily commutative monoids does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]], this yields equivalently just $\mathbb{Z}/2$-graded algebras (example \ref{GradedAlgebras}):
+However, since the definition of not-necessarily commutative monoids (def. \ref{MonoidsInMonoidalCategory}) does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]] (example \ref{CategoryOfSuperVectorSpaces}), this yields equivalently just the $\mathbb{Z}/2$-graded algebras froom example \ref{GradedAlgebras}:
 
 $$
   sAlg_k \simeq Alg_k^{\mathbb{Z}/2}
   \,.
 $$
+
+Hence the heart of [[superalgebra]] is _[[supercommutative superalgebra|super-commutativity]]_.
 
 =--
 
@@ -1771,9 +1863,12 @@ $$
   \,.
 $$
 
+(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916))
+
+Dually, via def. \ref{Affines}, this means that every affine [[super scheme]] has a canonical [[involution]].
+
 =--
 
-(e.g. [arXiv:1303.1916, 7.5](http://arxiv.org/abs/1303.1916))
 
 
 Here are more general and more abstract examples of commutative monoids, which will be useful to make explicit:
