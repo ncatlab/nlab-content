@@ -29,7 +29,7 @@ $$
   [A,B] \simeq A^* \otimes B
 $$ 
 
-(where $A^*$ is the [[dual object]] of $A$), via the [[natural equivalence]]
+(where $A^*$ is the [[dual object]] of $A$), via the [[adjunction]] [[natural equivalence]] that defines [[dual objects]]
 
 $$
   \mathcal{C}(C,[A,B])
