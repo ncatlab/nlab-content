@@ -649,7 +649,7 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 [[Deligne's theorem on tensor categories]] says that all suitable [[tensor categories]] of subexponential growth have a [[fiber functor]] to $sVect$ and are equivalent to [[categories of representations]] of affine algebraic [[supergroups]].
 
-## Related concepts
+## Related entries
 
 * [[supertrace]]
 
@@ -658,6 +658,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 3.1 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society Providence, R.I 2004
+
+* {#Westra09} [[Dennis Westra]], section 3 of_Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
  
 
 [[!redirects sVect]]
