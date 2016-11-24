@@ -1065,7 +1065,7 @@ If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\oti
 
 Let $\mathcal{A}$ be the [[symmetric monoidal category]] of $\mathbb{Z}/2$-[[graded vector spaces]] 
 $Vect^{\mathbb{Z}/2}$ (example \ref{Z2Zgradedvectorspaces}) or of 
-[[super vector spaces]] $sVect$ (example \ref{CategoryOfSuperVectorSpaces}). Then there is an evident [[forgtful functor]]
+[[super vector spaces]] $sVect$ (example \ref{CategoryOfSuperVectorSpaces}). Then there is an evident [[forgetful functor]]
 
 $$
   \mathcal{A} \longrightarrow Vect
@@ -1959,7 +1959,7 @@ are monoid homomorphisms, with $E \otimes E$ equipped with the above monoid stru
 
 
 
-Monoids are preserves by [[lax monoidal functors]]:
+Monoids are preserved by [[lax monoidal functors]]:
 
 +-- {: .num_prop #MonoidsPreservedByLaxMonoidalFunctor}
 ###### Proposition
@@ -2066,9 +2066,10 @@ for any two smooth functions $f,g \in C^\infty(X)$.
 
 One says that a [[vector space]] such as $\Gamma_X(V)$ equipped with an [[action]] of an algebra $R$ this way is a _[[module]]_ over $R$.
 
-In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$.
+In conclusion, any [[vector bundle]] $V \to X$ gives rise to an $C^\infty(X)$-[[module]] $\Gamma_X(V)$ of [[sections]].
 
-The _[[smooth Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. Together with the [[embedding of smooth manifolds into formal duals of R-algebras]] (prop \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}), this states that [[differential geometry]] is "more algebraic" than it might superficially seem:
+The _[[smooth Serre-Swan theorem]]_ states sufficient conditions on $X$ such that the converse holds. Together with the [[embedding of smooth manifolds into formal duals of R-algebras]] (prop \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}), this means that [[differential geometry]] is "more algebraic" than it might superficially seem, hence that its "algebraic deformation" to [[supergeometry]] is 
+more natura than it might superficially seem:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -2082,7 +2083,7 @@ $$
   C^\infty(X) Mod_{proj}^{fin\,gen}
 $$
 
-between that of smooth [[vector bundles]] of finite [[rank]] over $X$ and that of [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[associative algebra|algebra]] $C^\infyt(X)$ of [[smooth functions]] on $X$.
+between that of smooth [[vector bundles]] of finite [[rank]] over $X$ and that of [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[associative algebra|algebra]] $C^\infty(X)$ of [[smooth functions]] on $X$.
 
 =--
 
@@ -2207,7 +2208,8 @@ of $\mathcal{C}$ with the [[category of modules]] over its tensor unit.
 +-- {: .num_example #RingsAreMonoidsInAb}
 ###### Example
 
-The topic of general [[algebra]], not necessarily over [[ground fields]], is the above general concepts of monoids and their modules spcialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
+The classical subject of  [[algebra]], not necessarily over [[ground fields]], is the
+above general concepts of monoids and their modules specialized to the ambient [[symmetric monoidal category]] being the category [[Ab]] of  [[abelian groups]] regarded as a [[symmetric monoidal category]] via the [[tensor product of abelian groups]] $\otimes_{\mathbb{Z}}$ (whose [[tensor unit]] is the additive group of [[integers]] $\mathbb{Z}$):
 
 1. A [[monoid in a monoidal category|monoid in]] $(Ab, \otimes_{\mathbb{Z}}, \mathbb{Z})$ (def. \ref{MonoidsInMonoidalCategory}) is equivalently a [[ring]].
 
@@ -2222,7 +2224,14 @@ The topic of general [[algebra]], not necessarily over [[ground fields]], is the
 =--
 
 
++-- {: .num_example #ModulesOverGGroupRing}
+###### Example
 
+Let $G$ be a [[discrete group]] and write $k[G]$ for its [[group algebra]] over the [[ground field]] $k$.
+Then $k[G]$-[[modules]] in [[Vect]] are equivalently [[linear representations]] of $G$.
+
+
+=--
 
 +-- {: .num_prop #MonoidModuleOverItself}
 ###### Proposition
@@ -2359,7 +2368,7 @@ This natural bijection between $f$ and $\tilde f$ establishes the adjunction.
 +-- {: .num_defn #TensorProductOfModulesOverCommutativeMonoidObject}
 ###### Definition
 
-Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then
+Given a [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, 1)$ with  [[braiding]] denoted $\tau$ (def. \ref{SymmetricMonoidalCategory}, def. \ref{ClosedMonoidalCategory}), given $(A,\mu,e)$ a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] $(\mathcal{C}, \otimes, 1)$ (def. \ref{MonoidsInMonoidalCategory}), and given $(N_1, \rho_1)$ and $(N_2, \rho_2)$ two left $A$-[[module objects]] (def.\ref{MonoidsInMonoidalCategory}), then
 
 1. the **[[tensor product of modules]]** $N_1 \otimes_A N_2$ is, if it exists, the [[coequalizer]]
 
@@ -2562,37 +2571,6 @@ where the top left triangle is the [unitality](#UnitalityMonoid) condition and t
 
 =--
 
-When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]], then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
-
-
-+-- {: .num_prop #CoproductsInCMon}
-###### Proposition
-
-Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that
-
-1. it has [[reflexive coequalizers]]
-
-1. that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
-
-Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{})$ of _[[commutative monoids]]_ in $\mathcal{C}$, the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with the [[tensor product]] in the monoidal category $A$[[Mod]] (according to prop. \ref{MonoidalCategoryOfModules}):
-
-$$
-  U(B \coprod_A C) \simeq  B \otimes_A C
-  \,.
-$$
-
-Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
-
-Dually this means that the [[opposite category]] $CMon(\mathcal{A})^{op}$ has [[finite products]] and hence the structure of a [[Cartesian monoidal category]]:
-
-$$
-  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
-  \,.
-$$
-
-=--
-
-This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
 
 
 +-- {: .num_defn #AAlgebra}
@@ -2766,6 +2744,63 @@ $$
 By commutativity and associativity it follows that $\mu_E$ coequalizes the two induced morphisms $E \otimes A \otimes E \underoverset{\longrightarrow}{\longrightarrow}{\phantom{AA}} E \otimes E$. Hence the [[universal property]] of the [[coequalizer]] gives a factorization through some $\mu_{E/A}\colon E \otimes_A E \longrightarrow E$. This shows that $(E, \mu_{E/A}, e_E)$ is a commutative $A$-algebra.
 
 Finally one checks that these two constructions are inverses to each other, up to isomorphism.
+
+=--
+
+When thinking of commutative monoids in some tensor category as [[formal duals]] to certain [[spaces]],
+as in def. \ref{Affines}, then we are interested in forming [[Cartesian products]] and more generally [[fiber products]] of these spaces. Dually this is given by [f[coproducts]] of commutative monoids and commutative $R$-algebras. The following says that these may be computed just as the [[tensor product of modules]]:
+
+
++-- {: .num_prop #CoproductsInCMon}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that
+
+1. it has [[reflexive coequalizers]]
+
+1. that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+
+Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{C})$ of _[[commutative monoids]]_ in $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with the [[tensor product]] in the monoidal category $A$[[Mod]] (according to prop. \ref{MonoidalCategoryOfModules}):
+
+$$
+  U\left(B \sqcup_A C\right) \simeq  B \otimes_A C
+  \,.
+$$
+
+Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structure induced by the morphisms $f$ and $g$, respectively.
+
+
+=--
+
+This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
+
++-- {: .num_prop #ProductsInAff}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[symmetric monoidal category]], let $R \in CMon(\mathcal{C})$
+be a [[commutative monoid]] in $\mathcal{A}$, such that its [[category of modules]]
+$A Mod$ (def. \ref{ModulesInMonoidalCategory}),  has [[reflexive coequalizers]] 
+that are preserved by the [[tensor product]] functor in each variable.
+
+Then for $A_1, A_2$ two 
+$R$-algebas according to def. \ref{AAlgebra}, regarded as affine schemes
+$Spec(A_1), Spec(A_2) \in Aff(R Mod(\mathcal{C}))$ according to 
+prop. \ref{MonoidalCategoryOfModules} and def. \ref{Affines}
+the [[Cartesian product]] of $Spec(A_1)$ with $Spec(A_2)$ exists in $Aff(R Mod(\mathcal{C}))$
+and is the [[formal dual]] of the tensor product algebra $A_1 \otimes_R A_2$
+according to example \ref{TensorProductOfTwoCommutativeMonoids}:
+
+$$
+  Spec(A_1) \times Spec(A_2) \simeq Spec(A_1 \otimes_R A_2)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} the [[formal dual]] of the statement is given by prop. \ref{CoproductsInCMon}.
 
 =--
 
@@ -3029,7 +3064,7 @@ We now say this again, in generality:
 ###### Definition
 
 Let $\mathcal{A}$ be a [[tensor category]] (def. \ref{TensorCategory}).
-A **[[commutative Hopf algebroid]]** in $\mathcal{A}$ is an [[internal groupoid]] in the [[opposite category]] $CMon(\mathcal{A})^{op}$ of [[commutative monoids]] in $\mathcal{A}$, regarded with its [[cartesian monoidal category]] structure according to prop. \ref{CoproductsInCMon}.
+A **[[commutative Hopf algebroid]]** in $\mathcal{A}$ is an [[internal groupoid]] in the [[opposite category]] $CMon(\mathcal{A})^{op}$ of [[commutative monoids]] in $\mathcal{A}$, regarded with its [[cartesian monoidal category]] structure according to prop. \ref{ProductsInAff}.
 
 =--
 
@@ -4295,6 +4330,13 @@ The first monograph-length discussion appeared in
 Commutative algebra internal to symmetric monoidal categories is discussed in
 
 * {#EKMM97} [[Anthony Elmendorf]], [[Igor Kriz]], [[Michael Mandell]], [[Peter May]], _Rings, modules and algebras in stable homotopy theory_, AMS 1997, 2014
+
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+
+(These authors are motivated by the application of the general theory of algebra in monoidal categories 
+to "[[higher algebra]]" ("[[brave new algebra]]") in [[stable homotopy theory]].
+This happens to also be a version of [[supercommutative superalgebra]], see at 
+_[[Introduction to Stable homotopy theory]]_ the section [1-2 Homotopy commutative ring spectra](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyRingSpectra).)
 
 A more recnt texbook account with emphasis on [[tensor categories]]  is
 
