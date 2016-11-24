@@ -85,6 +85,9 @@ where the _density parameter_ $\Omega$ consists of the contribution
 
 ## References
 
+* [[Matthias Blau]], chapter 33 and 34 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
+
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011)([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
 
