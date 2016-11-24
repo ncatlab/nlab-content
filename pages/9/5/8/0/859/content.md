@@ -95,7 +95,7 @@ conventions are not quite the same).
 
 ### As split group extensions
 
-Semidirect product groups $A \rtimes_\rho G$ are precisely the split [[group extensions]] of $G$ by $A$. See at [group extension -- split extensions and semidirect product groups](group+extension#SplitExtensionsAndSemidirectProductGroups).
+Semidirect product groups $A \rtimes_\rho G$ are precisely the split [[group extensions]] of $G$ by $A$. See at _[group extension -- split extensions and semidirect product groups](group+extension#SplitExtensionsAndSemidirectProductGroups)_.
 
 ## Examples
 
