@@ -43,7 +43,7 @@ Any [[knot diagram]] can be represented faithfully by a certain kind of chord di
 
 Recall that classically, a knot is defined as an embedding of the circle $S^1$ into $\mathbb{R}^3$, which can be represented two-dimensionally by projecting onto the plane $\mathbb{R}^2$ and marking each double point as either an over-crossing or an under-crossing.
 One obtains a chord diagram from this knot diagram by considering the original immersing circle and connecting the [[preimages]] of each double point by a chord.
-Then, information about crossings can be represented by orienting the chords from over-crossing to under-crossing, while information about the local [[writhe]] of each crossing (in the case of a [[framed knot]]) may be encoded by giving each point of the diagram a positive or negative sign.
+Then, information about crossings can be represented by orienting the chords from over-crossing to under-crossing, while information about the local [[writhe]] of each crossing (in the case of a [[framed knot]]) may be encoded by assigning each chord an additional positive or negative sign.
 Finally, fixing a [[base point]] on the original knot gives rise to a Gauss diagram whose underlying chord diagram is naturally rooted.
 
 Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles.
