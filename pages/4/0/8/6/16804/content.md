@@ -2,7 +2,7 @@
 * table of contents
 {:toc}
 
-# Idea
+## Idea
 
 A _chord diagram_ is a certain kind of basic combinatorial structure that is considered in various settings such as [[combinatorics]] and [[knot theory]]. Chord diagrams are typically represented graphically as a [[circle]] with some marked [[points]] and [[lines]] connecting those points &#8212; something like so:
 <center>
@@ -37,7 +37,7 @@ Relabelling the points to follow the linear order,
 </center>
 the rooted chord diagram can now be identified with the involution $(02)(13)(45)$ on $\mathbf{6} = \{0 \lt 1 \lt 2 \lt 3 \lt 4 \lt 5\}$.
 
-# Gauss diagrams
+## Gauss diagrams
 
 Any [[knot diagram]] can be represented faithfully by a certain kind of chord diagram with some extra structure, known as a _Gauss diagram_ [(Polyak and Viro 1994)](#PV94).
 
@@ -53,13 +53,13 @@ To construct the Gauss code, begin by assigning arbitrary labels to the crossing
 Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles.
 This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
 
-# Related concepts
+## Related concepts
 
 * [[involution]]
 * [[Vassiliev invariant]]
 * [[combinatorial map]]
 
-# References
+## References
 
 For more on chord diagrams emphasizing their connection to [[Vassiliev invariants]] of [[singular knots]], see Chapter 6 of
 
