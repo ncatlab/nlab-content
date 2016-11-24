@@ -22,6 +22,8 @@ A _superpoint_ is an [[infinitesimally thickened point]] whose infinitesimal ext
 
 A _superpoint_ is a [[supermanifold]] of the form $\mathbb{R}^{0|q}$. 
 
+For more see at _[[geometry of physics -- superalgebra]]_.
+
 The object $\mathbb{R}^{0|1}$ is also called the [[odd line]].
 
 The [[category]] of superpoints
