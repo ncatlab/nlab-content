@@ -66,6 +66,11 @@ and (with an eye towards combination with [[spin geometry]])
 
 * [[Pierre Anglès]], _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics 2008
 
+Details on the conformal Lie algebra of [[conformal Killing vectors]] acting on 3+1 dimensional [[Minkowski spacetime]] are spelled out for instance in
+
+* [[Matthias Blau]], section 9.3 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
+
 See also
 
 * Wikipedia, _[Conformal group](http://en.wikipedia.org/wiki/Conformal_group)_
