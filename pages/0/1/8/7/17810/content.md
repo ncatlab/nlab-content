@@ -1795,7 +1795,7 @@ Example \ref{MonoidsInVectAreAssociativeAlgebras} motivates the following defini
 A **[[supercommutative superalgebra]]** is a [[commutative monoid]] (def. \ref{MonoidsInMonoidalCategory}) in the [[symmetric monoidal category|symmetric monoidal]] [[category of super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}). We write $sCAlg_k$ for the [[category]] of [[supercommutative superalgebras]] with the induced [[homomorphisms]] between them:
 
 $$
-  sCalg_k \;\coloneqq\; CMon(sVct_k)
+  sCAlg_k \;\coloneqq\; CMon(sVect_k)
   \,.
 $$
 
@@ -1825,7 +1825,7 @@ $$
   \theta_i \theta_j = - \theta_j \theta_i
 $$
 
-for all $i,h \in \{1, \cdots, n\}$.
+for all $i,j \in \{1, \cdots, n\}$.
 
 This is also called a _[[Grassmann algebra]]_, in honor of ([Grassmann 1844](#Grassmann1844)), who introduced and
 studied the super-sign rule in def. \ref{SupercommutativeSuperalgebra} a century ahead of his time. 
@@ -1900,15 +1900,15 @@ for the same object, regarded in the category of commutative monoids. We also ca
 The formal dual space, according to def. \ref{Affines} (example \ref{Affines}) to a [[Grassmann algebra]] $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
 (example \ref{GrassmannAlgebra}) is to be thought of as a space which is "so tiny" that 
 the coefficients of the [[Taylor expansion]] of any real-valued function on it
-become "so very small" as to be actually equal to zero, at least after the $n$th power.
+become "so very small" as to be actually equal to zero, at least after the $q$th power.
 
-For instance for $n = 2$ then a general element of $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
+For instance for $q = 2$ then a general element of $\wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)$
 is of the form
 
 $$
   f = a_0 + a_1 \theta_1 + a_2 \theta_2 + a_{12} \theta_1 \theta_2
   \;\;\;\in
-  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^q)
+  \wedge^\bullet_{\mathbb{R}}(\mathbb{R}^2)
   \,.
 $$
 
@@ -1927,7 +1927,7 @@ $$
 $$
 
 Therefore the [[formal dual]] [[space]] to a [[Grassmann algebra]] behaves like an infinitesimal neighbourhood of a point.
-Therefoe these are also called **[[superpoints]]** and one writes
+Therefore these are also called **[[superpoints]]** and one writes
 
 $$
   \mathbb{R}^{0\vert q}
