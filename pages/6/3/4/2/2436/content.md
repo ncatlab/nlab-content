@@ -804,7 +804,7 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * {#Westra09} [[Dennis Westra]], section 3 of _Superrings and supergroups_, 2009 ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
  
-
+[[!redirects SVect]]
 [[!redirects sVect]]
 [[!redirects SuperVect]]
 
