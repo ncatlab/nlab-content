@@ -538,20 +538,20 @@ $$
 
 ### For super vector spaces
 
-The category $SVect$ of [[super vector spaces]] is the category of $\mathbb{Z}/2$-[[graded vector spaces]].  Thus, its objects are pairs of vector spaces $(V_+,V_-)$, with $V_+$ called the *even* part and $V_-$ the *odd* part.  The morphisms in $SVect$ are likewise pairs of linear maps, i.e. we define $SVect$ to be $Vect \times Vect = Vect^{\mathbb{Z}/2}$, as usual for any sort of graded object.  With this definition of the category $SVect$, we capture the concepts of superalgebra and so on in succinct categorical terms.
+The category $sVect$ of [[super vector spaces]] is the category of $\mathbb{Z}/2$-[[graded vector spaces]].  Thus, its objects are pairs of vector spaces $(V_+,V_-)$, with $V_+$ called the *even* part and $V_-$ the *odd* part.  The morphisms in $sVect$ are likewise pairs of linear maps, i.e. we define $sVect$ to be $Vect \times Vect = Vect^{\mathbb{Z}/2}$, as usual for any sort of graded object.  With this definition of the category $sVect$, we capture the concepts of superalgebra and so on in succinct categorical terms.
 
-Because the morphisms in $SVect$ send even things to even things and odd things to odd things, they are sometimes called _even_ linear maps, and one may write
+Because the morphisms in $sVect$ send even things to even things and odd things to odd things, they are sometimes called _even_ linear maps, and one may write
 $$
- SVect(V, W) = Even Lin(V,W).
+ sVect(V, W) = Even Lin(V,W).
 $$
-Note that $SVect$ is [[enriched category|enriched]] over $Vect$, i.e. these hom-sets are vector spaces.
+Note that $sVect$ is [[enriched category|enriched]] over $Vect$, i.e. these hom-sets are vector spaces.
 
-Occasionally, however, one does need to refer to the _odd_ linear maps, which send even things to odd things and odd things to even things.  That is, an odd linear map $V\to W$ is a pair of linear maps $V_+ \to W_-$ and $V_-\to W_+$.  The internal-hom in $SVect$ allows us to capture these as well: it is the following super vector space:
+Occasionally, however, one does need to refer to the _odd_ linear maps, which send even things to odd things and odd things to even things.  That is, an odd linear map $V\to W$ is a pair of linear maps $V_+ \to W_-$ and $V_-\to W_+$.  The internal-hom in $sVect$ allows us to capture these as well: it is the following super vector space:
 $$
   [V,W]_+ = Even Lin(V,W) \qquad
   [V,W]_- = Odd Lin(V,W).
 $$
-With this definition, $SVect$ becomes a [[closed monoidal category]].
+With this definition, $sVect$ becomes a [[closed monoidal category]].
 
 We can equivalently regard a super vector spaces $(V_+,V_-)$ as being the [[direct sum]] vector space $V_+ \oplus V_-$ equipped with this direct sum decomposition.  If we view the internal-hom $[V,W]$ in this way as well, then we have
 $$
