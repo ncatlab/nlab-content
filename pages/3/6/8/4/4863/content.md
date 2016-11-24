@@ -246,11 +246,12 @@ The following table displays parts of this cascade of field theories which are i
 
 Reviews include
 
-* D. Bailin and A. Love, _Kaluza-Klein theories_, Rept. Prog. Phys. 50 (1987)
-1087&#8211;1170.
+* D. Bailin and A. Love, _Kaluza-Klein theories_, Rept. Prog. Phys. 50 (1987) 1087&#8211;1170.
 
 * T. Applequist, A. Chodos and [[Peter Freund]], _Modern Kaluza-Klein
 Theories_, Addison-Wesley Publ. Comp., (1987)
+
+* [[Matthias Blau]], chapter 43 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
 A survey of the history of the role of the KK-mechanism in theoretical physics is
 
