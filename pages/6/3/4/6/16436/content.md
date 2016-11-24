@@ -26,7 +26,7 @@
 
 A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]]:
 
-| $d$ |  |
+| $d$ | [[super anti de Sitter spacetime]] |
 |-----|---|
 | 4 | $\;\;\;\;\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
 | 5 | $\;\;\;\;\frac{SU(2,2/5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
