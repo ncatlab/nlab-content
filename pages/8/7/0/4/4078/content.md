@@ -40,6 +40,15 @@ If $d+t \gt 2$ then the conformal group of $\mathbb{R}^{d,t}$ is the [[orthogona
 
 Notice that for $t= 1$ this is also the [[anti de Sitter group]], the [[isometry group]] of [[anti de Sitter spacetime]] of dimension $d+1+t$. This equivalence is the basis of the [[AdS-CFT correspondence]].
 
+
+### Cosets
+
+(...) [[Möbius space]] (...)
+
+([Arutyunov-Sokatchev 02](#ArutyunovSokatchev02))
+
+(...)
+
 ## Related concepts
 
 * [[conformal invariance and scale invariance]]
@@ -69,6 +78,10 @@ and (with an eye towards combination with [[spin geometry]])
 Details on the conformal Lie algebra of [[conformal Killing vectors]] acting on 3+1 dimensional [[Minkowski spacetime]] are spelled out for instance in
 
 * [[Matthias Blau]], section 9.3 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
+Discussion in [[conformal field theory]]
+
+* {#ArutyunovSokatchev02} G. Arutyunov, E. Sokatchev, _Conformal fields in the pp-wave limit_, JHEP 0208 (2002) 014 ([arXiv:hep-th/0205270](https://arxiv.org/abs/hep-th/0205270))
 
 
 See also
