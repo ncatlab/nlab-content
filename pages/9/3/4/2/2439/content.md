@@ -26,8 +26,9 @@ equivalently
 
 * over the [[base topos]] on [[superpoints]].
 
-More specifically, an _associative superalgebra_ is an [[associative algebra]] in the context of superalgebra. As in the ordinary case, this is often just called _a superalgebra_ , too.
+More specifically, a _[[supercommutative superalgebra]]_ is an [[commutative algebra]] in the context of superalgebra. 
 
+See at _[[geometry of physics -- superalgebra]]_ for more on this.
 
 In the following we first discuss
 
