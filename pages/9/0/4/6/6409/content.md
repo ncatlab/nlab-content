@@ -44,7 +44,7 @@ If the abelian group is the group of [[integers]] $\mathbf{Z}$ then we talk abou
 
 ## Properties
 
-In [[algebraic geometry]] there are very important theorems due Chevalley, [[valuative criterion of properness]] and [[valuative criterion of separatedness]].
+In [[algebraic geometry]] there are very important theorems due to Chevalley, [[valuative criterion of properness]] and [[valuative criterion of separatedness]].
 
 ## Related concepts
 
