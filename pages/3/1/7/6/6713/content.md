@@ -225,7 +225,7 @@ For more general discussion see at _[Freed-Witten anomaly -- Details](Freed-Witt
 #### Via the Atiyah-Hirzebruch spectral sequence
  {#DBraneChargeViaAtiyahHirzebruchSpectralSequence}
 
-The [[Atiyah-Hirzeburch spectral sequence]] expresses, starting from  its $E_2$ pahes, [[K-theory]] classes on [[spacetime]] $X$ as [[kernels]] of certain differential acting on ordinary cohomology in all even degrees (for type IIA strings) or all odd degrees (for type IIB strings)
+The [[Atiyah-Hirzeburch spectral sequence]] expresses, starting from  its $E_2$ pages, [[K-theory]] classes on [[spacetime]] $X$ as [[kernels]] of certain differential acting on ordinary cohomology in all even degrees (for type IIA strings) or all odd degrees (for type IIB strings)
 
 $$
   E_2^{p,q} = H^p(X, KU^q(\ast)) \Rightarrow KU^\bullet(X)
