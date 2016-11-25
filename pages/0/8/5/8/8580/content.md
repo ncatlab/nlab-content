@@ -601,7 +601,7 @@ this chapter is at _[[geometry of physics -- integration]]_
 ## **Super-geometry**
  {#SupergeometricCoordinateSystems}
 
-this chapter is at _[[geometry of physics -- supergeometry]]_
+this chapter is at _[[geometry of physics -- supergeometry and superphysics]]_
 
 ## **Prequantum geometry**
  {#PrequantumGeometry}
