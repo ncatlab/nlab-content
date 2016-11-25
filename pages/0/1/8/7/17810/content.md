@@ -1984,15 +1984,15 @@ $$
     \times
   \mathbb{R}^{0\vert q}
     \simeq
-  Spec\left( 
+  Spec\left(
      \underbrace{C^\infty(\mathbb{R}^p)}
-       \otimes_{\mathbb{R}} 
-     \wedge^\bullet_{\mathbb{R}} \mathbb{R}^q 
+       \otimes_{\mathbb{R}}
+     \wedge^\bullet_{\mathbb{R}} \mathbb{R}^q
   \right)
   \,.
 $$
 
-These may be called the **[[super Cartesian spaces]]**. 
+These may be called the **[[super Cartesian spaces]]**.
 The play the same role in the theory of [[supermanifolds]] as the ordinary
 [[Cartesian spaces]] do for [[smooth manifolds]]. See at _[[geometry of physics -- supergeometry]]_ for more on this.
 
@@ -3763,6 +3763,25 @@ If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), the
 
 ([Deligne 02, 3.1](#Deligne02))
 
+
++-- {: .num_defn #TannakianCategory}
+###### Definition
+
+A [[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) is called
+
+1. a **neutral [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $Vect_k$ (example \ref{VectAsAMonoidalCategory}) ([Deligne-Milne 12, def. 2.19](#DeligneMilne12))
+
+1. a **neutral super [[Tannakian category]]** if it admits a fiber functor (def. \ref{FiberFunctor}) to $sVect_k$ (def. \ref{CategoryOfSuperVectorSpaces}) 
+
+1. (not needed here) a general **[[Tannakian category]]** if the [[stack]] on $Aff_k$ which sends $R \in CRing$ to the groupoid
+   of fiber functors to $R Proj \hookrightarrow R Mod$ ([[projective modules]] over $R$) is an affine [[gerbe]]
+   such that its category of representations is equivalent to $\mathcal{A}$ ([Deligne-Milne 12, def. 3.7](#DeligneMilne12)).
+
+=--
+
+
+
+
 Given a super fiber functor $\omega \colon \mathcal{A} \to sVect_k$ (def. \ref{FiberFunctor}) there is an evident notion of its [[automorphism group]]: a [[homomorphism]] between [[functors]] is a [[natural transformation]], and that between [[monoidal functors]] is a [[monoidal natural transformation]], according to def. \ref{LaxMonoidalFunctor}, and this is an [[automorphism]] of functors if it is a [[natural automorphism]]. We write
 
 $$
@@ -4217,7 +4236,7 @@ Every $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) such tha
 
 1. $\mathcal{A}$ is of subexponential growth according to def. \ref{SubexponentialGrowth}
 
-then there exists
+then $\mathcal{A}$ is a neutral super [[Tannakian category]] (def. \ref{TannakianCategory}) and  there exists
 
 1. an affine algebraic [[supergroup]] $G$ (def. \ref{Supergroup}) whose [[algebra of functions]] $\mathcal{O}(G)$ is a [[finitely generated object|finitely generated]] $k$-algebra.
 
@@ -4269,7 +4288,8 @@ For $\mathcal{A}$ a $k$-[[tensor category]] (def. \ref{TensorCategory}), then th
 +-- {: .num_prop #SchurFinitenessImpliesExistenceOfSuperFiberFunctor}
 ###### Proposition
 
-If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$:
+If for every object of a $k$-[[tensor category]] $\mathcal{A}$ (def. \ref{TensorCategory}) there exists a [[Schur functor]] (def. \ref{SchurFunctor}) that annihilates it, then there exists a [[fiber functor|super fiber functor]] (def. \ref{FiberFunctor}) over $k$, 
+hence then $\mathcal{A}$ is a neutral super [[Tannakian category]] (def. \ref{TannakianCategory}).
 
 $$
   \omega
@@ -4529,9 +4549,14 @@ Review of basic superalgebra includes
 
 * {#Deligne02} [[nLab:Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
 
-building on his general work on [[nLab:Tannakian categories]]
+building on the general results on [[nLab:Tannakian categories]] in
 
 * [[nLab:Pierre Deligne]], _[[nLab:Catégories Tannakiennes]]_, Grothendieck Festschrift, vol. II, Birkh&#228;user Progress in Math. 87 (1990) pp.111-195. ([pdf](https://publications.ias.edu/sites/default/files/60_categoriestanna.pdf))
+
+which are reviewed and further generalized in
+
+* {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
+
 
 Surveys are in
 
