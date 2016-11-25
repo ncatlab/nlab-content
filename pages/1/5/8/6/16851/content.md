@@ -29,7 +29,7 @@ There are various equivalent definitions of virtual knots/links:
 
 * As equivalence classes of virtual knot/link diagrams, modulo the "virtual" [[Reidemeister moves]] [(Kauffman 1999)](#Kauffman1999).
 * As equivalence classes of "abstract" knot/link diagrams embedded in orientable surfaces, modulo the Reidemeister moves [(Kamada and Kamada 2000)](#KamadaKamada).
-* As embeddings of spheres into thickened orientable surfaces, considered up to [[isotopy]] [(Kuperberg 2003)](#Kuperberg2003).
+* As embeddings of circles into thickened orientable surfaces, considered up to [[isotopy]] [(Kuperberg 2003)](#Kuperberg2003).
 * As equivalence classes of [[Gauss codes]], modulo relations corresponding to the Reidemeister moves [(Kauffman 1999)](#Kauffman1999).
 
 
