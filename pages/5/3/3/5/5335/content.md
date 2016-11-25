@@ -2,6 +2,7 @@
 Luitzen Egbertus Jan Brouwer (1881--1966) was an early worker in [[algebraic topology]] and the founder of [[intuitionism]].
 
 Important results:
+
 *  invariance of [[dimension]],
 *  [[Brouwer fixed point theorem]],
 *  [[simplicial approximation theorem]],
