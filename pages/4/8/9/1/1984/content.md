@@ -22,11 +22,11 @@ At the end of the article there is an application to the [[differential Galois t
 
 The article had a huge influence not only in Tannakian theory but also in creating more technical exchange between the modern [[algebraic geometry]] with [[category theory]] and [[bialgebra|bi(al)gebras]]. 
 
-A followup is
+In the followup
 
 * {#Deligne02} [[Pierre Deligne]], _Cat&#233;gorie Tensorielle_, Moscow Math. Journal 2 (2002) no. 2, 227-248. ([pdf](https://www.math.ias.edu/files/deligne/Tensorielles.pdf))
 
-see at _[[Deligne's theorem on tensor categories]]_.
+the conditions for Tannakian reconstruction are relaxed further, see at _[[Deligne's theorem on tensor categories]]_.
 
 Generalization to "non-neutral" Tannakian categories, and representations of [[gerbes]] is in 
 
