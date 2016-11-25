@@ -91,7 +91,7 @@ The hypotheses of the preceding corollary hold when $C$ is a complete, cocomplet
 
 +-- {: .num_cor}
 ######Corollary 
-If $T$ is a monad on [[Set]], then $Set^T$ is cocomplete. Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$, or by [[Vect]]. 
+If $T$ is a monad on [[Set]], then $Set^T$ is cocomplete (under the axiom of choice). Similarly upon replacing $Set$ by a slice $Set/X \simeq Set^X$, or by [[Vect]]. 
 =-- 
 
 +-- {: .proof}
