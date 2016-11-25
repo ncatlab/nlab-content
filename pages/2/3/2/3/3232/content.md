@@ -28,7 +28,9 @@ The [[formal dual|formally dual]] concept is that of _[[coalgebra over a comonad
 
 ## Definition
 
-Let $K$ be a bicategory and $t \colon a \to a$ a monad in $K$ with structure 2-cells $\mu \colon t t \Rightarrow t$ and $\eta \colon 1_a \Rightarrow t$.  Then a **left $t$-module** is given by a 1-cell $x \colon b \to a$ and a 2-cell $\lambda \colon t x \Rightarrow x$, where
+### Modules
+
+Let $K$ be a [[bicategory]] and $t \colon a \to a$ a [[monad]] in $K$ with structure 2-cells $\mu \colon t t \Rightarrow t$ and $\eta \colon 1_a \Rightarrow t$.  Then a **left $t$-module** is given by a 1-cell $x \colon b \to a$ and a 2-cell $\lambda \colon t x \Rightarrow x$, where
 $$
 \array{
   t t x & \overset{\mu x}{\to} & t x \\
@@ -90,8 +92,13 @@ $T$-algebras can also be defined as left [[modules]] over $T$ _qua_ monoid in $E
 The [[Eilenberg-Moore category]] of $T$ is the category of these algebras.  It has a universal property that allows the notion of
 [[Eilenberg-Moore object]] to be defined in any bicategory.
 
+## Properties
 
-## Tensor product
+### Colimits
+
+see at _[[colimits in categories of algebras]]_
+
+### Tensor product
 
 Given bimodules $x' \colon r &#8696; s$ and $x \colon s &#8696; t$, where $r,s,t$ are monads on $c,b,a$ respectively, we may be able to form the **tensor product** $x \otimes_s x' \colon r &#8696; t$ just as in the case of bimodules over rings.  If the hom-categories of the bicategory $K$ have [[reflexive coequalizer]]s that are preserved by composition on both sides, then the tensor product is given by the reflexive coequalizer in $K(c,a)$
 $$
