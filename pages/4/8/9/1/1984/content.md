@@ -28,8 +28,11 @@ A followup is
 
 see at _[[Deligne's theorem on tensor categories]]_.
 
+Generalization to "non-neutral" Tannakian categories, and representations of [[gerbes]] is in 
 
-See also: 
+* {#DeligneMilne12} [[Pierre Deligne]] [[James Milne]], _Tannakian categories_, 2012 ([pdf](http://www.jmilne.org/math/xnotes/tc.pdf))
+
+See also
 
 * [wikipedia](http://en.wikipedia.org/wiki/Tannakian_category)
 * [[Tannakian category]]
