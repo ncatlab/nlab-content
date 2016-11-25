@@ -40,20 +40,23 @@ Stated set-theoretically, the __lesser limited principle of omniscience for $A$_
 
 Bishop introduced the above principles of omniscience to show that certain results in pointwise [[analysis]] could not be constructive, by showing that these results implied a principle of omniscience.  The principles of omniscience that appear directly in analysis are these:
 
-*  The __analytic LPO__ states that the set $\mathbb{R}$ of [[real numbers]] has [[decidable equality]] ($x = y$ or $x \neq y$).
-*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$).
+*  The __analytic LPO__ states that the usual [[apartness relation]] on the set $\mathbb{R}$ of [[real numbers]] is [[decidable relation|decidable]] ($x \neq y$ or $x = y$), or equivalently __[[trichomoty]]__ for the real numbers ($x \lt y$ or $x = y$ or $x \gt y$).
+*  The __analytic LLPO__ states that the usual order on $\mathbb{R}$ is a [[total order]] ($x \leq y$ or $x \geq y$), which (by analogy with trichotomy) may be called __dichomotomy__ for the real numbers.
 
-The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[Cauchy real numbers]] (sequential real numbers), then the sequential analytic (L)LPO is the same as the (L)LPO for natural numbers.
+The analytic (L)LPO implies the (L)LPO for natural numbers; the converses hold if we assume [[weak countable choice]] (as Bishop did).  In any case, if we use the [[Cauchy real numbers]] (sequential real numbers), then the sequential-analytic (L)LPO is the same as the (L)LPO for natural numbers.
 
 (Note that we need not accept $WCC$ to see that an analytic result implies the (L)LPO and so cannot be constructively valid.)
+
+That the real numbers have [[decidable equality]] is weaker than the analytic LPO (and decidable equality for the Cauchy reals in weaker than $LPO_{\mathbf{N}}$), unless we also assume [[Markov's principle]] (over $\mathbf{N}$ for the Cauchy reals, an analytic version for the Dedekind reals).
+
 
 ## Equivalent statements
 
 There are various other results that are equivalent to or related to the principles of omniscience.  Here are a few:
 
-* At least in the presence of [[countable choice]] (which implies that Cauchy and Dedekind reals agree), the (analytic) LLPO is equivalent to saying that every real number has a [[radix notation|radix expansion]] in any base (e.g. a decimal expansion or binary expansion), and also that the rings of radix expansions in any two bases are isomorphic.  See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
+* Every Cauchy real number has a [[radix notation|radix expansion]] in any base (e.g., a decimal expansion or binary expansion) iff $LLPO_{\mathbf{N}}$ holds; every Dedekind real number has a radix expansion iff the analytic $LLPO$ holds.  At least in the presence of [[countable choice]] (which also implies that Cauchy and Dedekind reals agree), this is equivalent to the claim that the rings of radix expansions in any two bases are isomorphic.  See Daniel Mehkeri\'s answer to [Feldman (2010)](#Mehkeri).
 
-* Let $[0,1]/(0\sim 1)$ be the quotient of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the quotient ring; both are classically isomorphic to $S^1$.  Constructively there is an injection $[0,1]/(0\sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a bijection if and only if the analytic LLPO holds (for the appropriate kind of real number).
+* Let $[0,1]/(0 \sim 1)$ be the [[quotient space|quotient]] of the unit [[interval]] that identifies the endpoints, and let $\mathbb{R}/\mathbb{Z}$ be the [[quotient ring]]; both are classically isomorphic to the [[circle]] $S^1$.  (Constructively, we take $S^1$ to be $\mathbb{R}/\mathbb{Z}$, although $S^1$ can also be constructed as a [[uniform completion|completion]] of $[0,1]/(0 \sim 1)$.)  Constructively, there is an [[injection]] $[0,1]/(0 \sim 1) \hookrightarrow \mathbb{R}/\mathbb{Z}$, which is a [[bijection]] if and only if the $LLPO$ holds (for the appropriate kind of real number).
 
 
 ## Models
