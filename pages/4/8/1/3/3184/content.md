@@ -1,4 +1,4 @@
-$Sch/S$ is the [[slice category]] of [[schemes]] over a fixed scheme $S$. The schemes over $S$ are morphisms of schemes $f: R\to S$, called also **relative schemes** over $S$ or __$S$-schemes__. A morphism $g: (f:R\to S)\to (f':R'\to S')$ is a morphism $g:R\to R'$ of schemes such that $f'\circ g = f$; morphisms of $S$-schemes are also called morphisms of schemes over $S$, and pictured by commutative triangles. 
+$Sch/S$ is the [[slice category]] of [[schemes]] over a fixed scheme $S$. The schemes over $S$ are morphisms of schemes $f: R\to S$, called also **relative schemes** over $S$ or __$S$-schemes__. A morphism $g: (f:R\to S)\to (f':R'\to S)$ is a morphism $g:R\to R'$ of schemes such that $f'\circ g = f$; morphisms of $S$-schemes are also called morphisms of schemes over $S$, and pictured by commutative triangles. 
 
 Every scheme can be considered a $Spec(\mathbb{Z})$-scheme. For any (commutative unital) ring $k$, a __$k$-scheme__ is a synonym for $Spec(k)$-scheme. 
 
