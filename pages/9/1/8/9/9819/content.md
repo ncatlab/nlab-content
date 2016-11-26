@@ -58,6 +58,7 @@ A quick survey is in
  {#Kahn}
 
 A new approach by Ayoub in the setting of homotopy theory of schemes is
+
 * [[Joseph Ayoub]], _L'alg&#232;bre de Hopf du groupe de Galois motivique_ ([pdf] (http://user.math.uzh.ch/ayoub/PDF-Files/GaloisMotivic-1.pdf)){#Ayoub}
 
 More is in 
