@@ -39,11 +39,11 @@ The [[Grothendieck-Teichmüller group]] is supposed to be a [[quotient]] of the 
 
 ##(Mixed) Motivic Galois groups
 
-###Nori's Motivic galois group
+###Nori's Motivic Galois group
 
 [[M. Levine]], _Mixed motives._ (3.3 Motives by Tannakian formalism) In, Handbook of K-theory, Vol. 1, Friedlander and Grayson, eds., p. 429&#8211;521, Springer Verlag (2005).([pdf](https://www.uni-due.de/~bm0032/publ/MixMotKHB.pdf)).
 
-###Ayoub's Motivic galois group 
+###Ayoub's Motivic Galois group 
 
 * _L'alg&#232;bre de Hopf et le groupe de Galois motiviques d'un corps de caract&#233;ristique nulle I_,
 ([pdf] (http://user.math.uzh.ch/ayoub/PDF-Files/GaloisMotivic-1.pdf)).{#Ayoub}
@@ -62,7 +62,7 @@ _Ayoub's weak Tannakian formalism applied to the Betti realization for Voevodsky
 
 * [[Utsav Choudhury]], [[Martin Gallauer Alves de Souza]], _An isomorphism of motivic galois groups_, ([arXiv:1410.6104](https://arxiv.org/pdf/1410.6104v2.pdf)).
 
-##Noncommutative Motivic galois groups
+##Noncommutative Motivic Galois groups
 
 * [[Matilde Marcolli]], [[Gonçalo Tabuada]] _Unconditional noncommutative motivic galois groups_,([arXiv:1112.5422](https://arxiv.org/pdf/1112.5422.pdf)).
 
