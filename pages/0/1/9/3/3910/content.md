@@ -35,7 +35,7 @@ whereby $-n \in \mathbb{Z}$ is represented by the element $0$ in the $n^{th}$ co
 
 As a group, $\mathbb{Z}$ is [[abelian group|abelian]] and is the [[Grothendieck group]] of the [[monoid]] (or [[semigroup]]) $\mathbb{N}$ of [[natural numbers]].
 
-The group of natural numbers is naturally even a [[rig]] -- in fact the [[initial object|initial]] rig -- and this multiplicative structure extends to $\mathbb{Z}$ to make it a [[ring]] -- in fact the initial ring.
+The monoid of natural numbers is naturally even a [[rig]] -- in fact the [[initial object|initial]] rig -- and this multiplicative structure extends to $\mathbb{Z}$ to make it a [[ring]] -- in fact the initial ring.
 
 
 ## Terminology
