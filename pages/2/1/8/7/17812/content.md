@@ -9,15 +9,132 @@
 
 > under construction
 
-#Contents#
+$\,$
+
+
+Supergeometry is the generalization of [[differential geometry]] (or [[algebraic geometry]]) to the situation where [[algebras of functions]]
+are generalized from [[commutative algebras]] to [[supercommutative superalgebras]].
+
+In _[[geometry of physics -- superalgebra]]_ we discussed why it is natural, in fact compelling, to pass
+to [[supercommutative superalgebra]] and how this implies a dual concept of [[affine superschemes]].
+Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]],
+in parallel to our discussion of ordinary [[differential geometry]] in [[geometry of physics -- smooth sets]].
+
+Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the physical world is
+fundamentally described by
+[[supergeometry]]. Namely the [[Pauli exclusion principle]] implies that the [[phase space]] of a [[field theory]]
+(already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
+is a [[superspace]] whose even-graded [[coordinates]] are the configurations of the [[boson]] fields, while the
+odd-graded coordinates correspond to the configurations of the [[fermion]] fields. It is impossible to have an
+[[action functional]] for fermion fields as a function on a non-super ([[infinite-dimensional manifold|infinite-dimensional]])-[[manifold]].
+
+ The experimental detection of the special properties of [[fermions]] that show their super-geometric nature
+ goes back to the [[Stern-Gerlach experiment]] in 1922;
+ an early theoretical formulation is the [[Pauli exclusion principle]] from 1925. A little later it was realized that
+ the [[axioms]] of [[local field theory]] _imply_ that [[fermions]] need to be described by [[superalgebra]].
+ This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
+ ([Fierz 1939](spin-statistics+theorem#Fierz39), [Pauli 1940](#spin-statistics+theorem#Pauli40)).
+
+ Notice that this phenomenon is not a negligible subtlety: the [[Pauli exclusion principle]]
+ is what implies [[stability of matter]] by forcing [[electrons]] in an [[atom]] to fill up
+ "orbitals" consecutively as opposed to all falling into the ground state, as a bosonic [[condensate]] would do.
+ There would be no [[solid state physics]] without supergeometric [[phase spaces]].
+ (In addition, the Pauli [[degeneracy pressure]] controls more exotic phenomena, for instance the
+  stability of neutron stars against their gravitational collapse.)
+
+Nevertheless, few textbooks make the supergeometric aspect in the physics of fermions explicit.
+Some discuss it only after [[quantization]] (and some will even claim that femion fields do not exist classically)
+some only discuss it in the context of [[spacetime]] [[supersymmetry]]. But notice that
+_[[supergeometry]]_ is a subject in itself even without presence or discussion spacetime [[supersymmetry]]
+(namely [[super Poincaré group]] [[symmetry]]), just as
+[[differential geometry]] is subject in itself even without the presence or discussion of
+[[Poincaré group]] symmetry.
+Notable exceptions of text which make the super-geometric aspect of [[fermion fields]] explicit are
+([Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01)).
+
+
+#Supergeometry#
 * table of contents
 {:toc}
+
+
+
+
+(...)
+
 
 ### Supergeometry
  {#Supergeometry}
 
-(...)
+In the section _[[geometry of physics -- superalgebra]]_ we discussed the [[category]] of **affine [[super schemes]]**
 
+$$
+  Var(sVect_{\mathbb{R}}) \coloneqq sCalg_k^{op} = CMon(sVect_{\mathbb{R}})
+$$
+
+[this def.](geometry+of+physics+--+superalgebra#AffineSuperSchemes).
+
+Here we use these as local model spaces to develop [[geometry]] locally modeled on affine superschemes.
+Since we are ineterested in [[physics]], and since [[spacetimes]] and [[phase spaces]] in physics 
+are objects in [[differential geometry]], not in [[algebraic geometry]] (even if sometimes they may come from there),
+we consider the [[full subcategory]] of **[[super Cartesian spaces]]** ([this example](geometry+of+physics+--+superalgebra#SuperCartesianSpace))
+
+$$
+  SuperCartSp = \{\mathbb{R}^{p\vert q}\}_{p,q \in \mathbb{N}} \hookrightarrow Aff(sVect_k)
+  \,.
+$$
+
+We write
+
+$$
+  CartSp \hookrightarrow SuperCartSp
+$$
+
+for the [[full subcategory]] on ordnary [[Cartesian spaces]] with [[smooth functions]] between them.
+These are the "abstract coordinate charts" from the discussion at _[[geometry of physics -- smooth sets]]_,
+and so we are evidently entitled to think of the objects in $SuperCartSp$ as **abstract super coordinate systems**
+and to develop a geometry in 
+
+(Recall that th )
+
+
+  
+
+
+* the [[adjoint cylinder]]
+
+  $$
+  CAlg_k
+    \underoverset
+      {\underset{(-)_{even}}{\longleftarrow}}
+      {\overset{(-)/(-)_{odd}}{\longleftarrow}}
+      {\hookrightarrow}
+  sCAlg_k
+  \,.
+  $$
+
+  [this prop](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg)
+
+  which dually is
+
+  $$
+  Aff(Vect_k)
+    \underoverset
+      {\underset{\rightrightarrows}{\longleftarrow}}
+      {\overset{\rightsquigarrow}{\longleftarrow}}
+      {\hookrightarrow}
+  Aff(sVect_k)
+  \,.
+  $$
+
+
+* notice that $\rightrightarrows$ lands in in formal spaces while $\rightsquigarrow$ lands in reduced spaces
+
+* show that $Spec(\mathbb{D}) \to \mathbb{R}^n$ are tangent vectors
+
+* pass to sheaves
+
+* show that $\mathbb{R} \colon \Lambda \mapsto \Lambda_{even}$
 
 #### Coordinate systems: super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
@@ -903,11 +1020,21 @@ $$
 
 So generally for $\mathfrak{g}$ an ordinary Lie algebra regarded as a super Lie algebra, then $\Omega^1(\mathbb{R}^{p|q}, \mathfrak{g})$ is bigger than $\Omega^1(\mathbb{R}^p,\mathfrak{g})$.
 
-This is an issue to be dealt with when describing [[supergravity]] in terms of Cartan fields on [[supermanifolds]] $X$, because the actual [[spacetime]] manifold one cares about is just the [[bosonic modality|bosonic part]] $\stackrel{\rightsquigarrow}{X}$. This issue is dealt with by the concept of [rheonomy](D%27Auria-Fre+formulation+of+supergravity#Rheonomy).
+This is an issue to be dealt with when describing [[supergravity]] in terms of Cartan fields on [[supermanifolds]] $X$, because the actual [[spacetime]] manifold one cares about is just the [[bosonic modality|bosonic part]] $\stackrel{\rightsquigarrow}{X}$. This issue is dealt with by the concept of [rheonomy](D'Auria-Fre+formulation+of+supergravity#Rheonomy).
 
 
 =--
 
+## References
+
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
+
+  this is a chapter in
+  
+  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
+* {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_ , IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
 
 
