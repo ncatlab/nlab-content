@@ -39,6 +39,12 @@ The Guido-Longo-paper cited in the references states the spin-statistics theorem
 
 ## References
 
+The original formulation of the spin-statistics theorem is due to
+
+* {#Fierz39} [[Markus Fierz]],  _&#220;ber die relativistische Theorie kr&#228;ftefreier Teilchen mit beliebigem Spin_. Helvetica Physica Acta. 12 (1): 3&#8211;37. (1939) [doi:10.5169/seals-110930](https://dx.doi.org/10.5169%2Fseals-110930)
+
+* {#Pauli40} [[Wolfgang Pauli]], _The connection between spin and statistics_, Phys. Rev. 58, 716&#8211;722 (1940)
+
 The classical textbook reference is
 
 * R. F. Streater and A. S. Wightman, _PCT, Spin and Statistics, and All That_ , reprinted by Addison-Wesley, New York, 1989. 
