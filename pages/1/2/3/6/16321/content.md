@@ -14,9 +14,14 @@
 =--
 =--
 
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-An intrinsic outward [[pressure]] felt by all [[fermion|fermionic]] [[matter]] due to the _[[Pauli exclusion principle]]_, responsible for the formation of [[solid state physics|solid bodies]].
+An intrinsic outward [[pressure]] felt by all [[fermion|fermionic]] [[matter]] due to the _[[Pauli exclusion principle]]_, responsible for the formation of [[solid state physics|solid bodies]] (also [[neutron stars]] and other phenomena).
 
 ## References
 
