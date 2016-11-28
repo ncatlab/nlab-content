@@ -575,7 +575,6 @@ In summary this establishes a [[chain map]] $CE^\bullet \longrightarrow CE^\bull
 
 ### Internalization sign rule
 
-  
 
 The [[internalization]] into the [[topos]] over [[superpoints]] is due to 
 
@@ -599,6 +598,10 @@ The corresponding internal sign rule appears for instance in
     which in turn appears in 
 
     * [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+And with explicit acknowledgement that there is also the alternative super odd sign rule in:
+
+* {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_ , IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
 ### Super odd sign rule
 
