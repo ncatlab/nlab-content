@@ -74,7 +74,9 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 
 * Let $C$ be a set. There is a $C$-coloured operad whose algebras are $V$-[[enriched categories]] with $C$ as their set of objects.
 
-## Related concepts
+## Literature
+
+### Related $n$Lab entries
 
 * [[algebra over a monad]]
 
@@ -92,8 +94,9 @@ An $O$-algebra is the same thing as an algebra over the monad $\hat{O}$.
 
    * [[model structure on algebras over an operad]]
 
+### Generalizations
 
-
+* S. N. Tronin, _Algebras over multicategories_, Russ Math. (2016) 60: 52. [doi](http://dx.doi.org/10.3103/S1066369X16020092); Rus. original: &#1057;. &#1053;. &#1058;&#1088;&#1086;&#1085;&#1080;&#1085;, _&#1054;&#1073; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;&#1093; &#1085;&#1072;&#1076; &#1084;&#1091;&#1083;&#1100;&#1090;&#1080;&#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1103;&#1084;&#1080;_, &#1048;&#1079;&#1074;. &#1074;&#1091;&#1079;&#1086;&#1074;. &#1052;&#1072;&#1090;&#1077;&#1084;., 2016, &#8470; 2,  62&#8211;74
 
 [[!redirects algebra over operad]]
 [[!redirects algebra for an operad]]
