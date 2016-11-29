@@ -457,7 +457,10 @@ A revival in algebraic geometry related to the theory of mixed motives was marke
 
 Analogous discussion for [[symmetric monoidal (infinity,1)-categories|symmetric monoidal]] [[stable (infinity,1)-categories]] includes
 
-* [[Isamu Iwanari]], _Tannaka duality and stable infinity-categories_ ([arXiv:1409.3321](http://arxiv.org/abs/1409.3321))
+* {#Wallbridge12} [[James Wallbridge]], _Tannaka duality over ring spectra_ ([arXiv:1204.5787](https://arxiv.org/abs/1204.5787))
+
+* {#Iwanari14} [[Isamu Iwanari]], _Tannaka duality and stable infinity-categories_ ([arXiv:1409.3321](http://arxiv.org/abs/1409.3321))
+
 
 Ulbrich made a major contribution at the coalgebra and Hopf algebra level
 
