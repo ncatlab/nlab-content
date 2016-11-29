@@ -27,13 +27,14 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-A _parameterized spectrum_ is a [[bundle]] of [[spectra]] ([May-Sigurdsson 06](#MaySigurdsson06)), hence a [[stable object]] in [[parameterized homotopy theory]].
+A _parameterized spectrum_ is a [[bundle]] of [[spectra]] ([May-Sigurdsson 06](#MaySigurdsson06)), hence a [[stable homotopy type]] in [[parameterized homotopy theory]].
 
 Specifically, for $X$ a [[homotopy type]] thought of as  an [[∞-groupoid]], then a spectrum parameterized over $X$ is equivalently an [[(∞,1)-functor]] $X \longrightarrow Spec$ from $X$ to the [[stable (∞,1)-category of spectra]] ([Ando-Blumberg-Gepner 11](#AndoBlumbergGepner11)): this assigns to each [[object]] of $X$ a [[spectrum]], to each [[morphism]] an [[equivalence in an (infinity,1)-category|equivalence]] of spectra, to each [[2-morphism]] a [[homotopy]] between such equivalences, and so forth.
 
@@ -74,6 +75,11 @@ In [[twisted cohomology]].
 
 ## References
  {#References}
+
+
+Parameterized spectra over a fixed base (in any suitable [[model category]]) are discussed in 
+
+* {#Schwede97} [[Stefan Schwede]], section 3 of _Spectra in model categories and applications to the algebraic cotangent complex_, Journal of Pure and Applied Algebra 120 (1997) 104
 
 A comprehensive textbook account on parameterized spectra in [[∞Grpd]] $\simeq$ $L_{whe}$[[Top]] is in
 
