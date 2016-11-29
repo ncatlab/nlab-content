@@ -248,6 +248,8 @@ Lecture notes include
 
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
+* {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+
 * [[Daniel Freed]], _Lecture 4 of [[Five lectures on supersymmetry]]_
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
