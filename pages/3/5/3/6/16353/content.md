@@ -48,7 +48,7 @@ $$
   f(x) = f(0) + \sum_i x_i g_i(x)
 $$
 
-for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since any derivation $\delta : C^\infty(X) \to C^\infty(X)$ satisfies the the Leibniz rule, it follows that
+for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since every [[derivation]] $\delta : C^\infty(X) \to C^\infty(X)$ by definition satisfies the Leibniz rule, it follows that
 
 $$
   \delta(f)(0) = \sum_i \delta(x_i) \frac{\partial f}{\partial x_i}(0)
