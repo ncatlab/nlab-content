@@ -18,12 +18,17 @@ $\,$
 Supergeometry is the generalization of [[differential geometry]] (or [[algebraic geometry]]) to the situation where [[algebras of functions]]
 are generalized from [[commutative algebras]] to [[supercommutative superalgebras]].
 
+<div style="float:right;margin:0 20px 10px 20px;">
+<img src="http://ncatlab.org/schreiber/files/ProgressionOfModalities.jpg" width="200">
+</div>
 In _[[geometry of physics -- superalgebra]]_ we discussed why it is mathematically compelling to pass
 to [[supercommutative superalgebra]] and how this implies a dual concept of [[superspace]] in terms of [[affine superschemes]].
 Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]] --
 in parallel to the discussion of ordinary [[differential geometry]] in _[[geometry of physics -- smooth sets]]_.
 
-Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the 
+
+
+Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
 [[observable universe]] is fundamentally described by
 [[supergeometry]]. Namely the [[Pauli exclusion principle]] implies that the [[phase space]] of a [[field theory]]
 (already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
@@ -98,11 +103,12 @@ $$
   \,.
 $$
 
-These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as discussed at _[[geometry of physics -- smooth sets]]_. 
+These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as found at 
+_[[geometry of physics -- coordinate systems]]_  and_[[geometry of physics -- smooth sets]]_.
 We now discuss this in detail.
 
 
-## Coordinate systems: Super Cartesian spaces
+## Super Cartesian spaces
  {#CoordinareSystemsSuperCartesianSpaces}
 
 
@@ -180,7 +186,7 @@ These are the "abstract coordinate charts" from the discussion at _[[geometry of
 and so we are evidently entitled to think of the objects in $SuperCartSp$ as **abstract super coordinate systems**
 and to develop a geometry induced from these.
 
-Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of 
+Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of
 [[differential geometry]] work:
 
 1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**) The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] of [[smooth manifolds]]
@@ -188,16 +194,16 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
    $$
      C^\infty(-) \;\colon\; SmthMfd \hookrightarrow CAlg_{\mathbb{R}}^{op}
    $$
-   
+
    is [[fully faithful functor|fully faithful]].
-   
-1. (**[[smooth Serre-Swan theorem]]**) The functor that assigns smooth [[sections]] of smooth [[vector bundles]] 
+
+1. (**[[smooth Serre-Swan theorem]]**) The functor that assigns smooth [[sections]] of smooth [[vector bundles]]
    of [[finite number|finite]] [[rank]]
 
    $$
      \Gamma_X(-) \;\colon\; SmthVectBund_{/X} \hookrightarrow C^\infty(X) Mod
    $$
-   
+
    is [[fully faithful functor|fully faithful]] (its [[essential image]] being the [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[algebra of functions|algebra of]] [[smooth function]]).
 
 There is a third such magic algebraic property of smooth functions, which plays a role now:
@@ -213,7 +219,7 @@ $$
 $$
 
 for the function that sends a smooth [[vector field]] $v \in \Gamma(T X)$ to the [[derivation]]
-of the [[algebra of functions|algebra of]] [[smooth functions]] on $X$ given by forming 
+of the [[algebra of functions|algebra of]] [[smooth functions]] on $X$ given by forming
 [[derivatives]]: $der_X(v)(f) \coloneqq v(f)$. This is a [[derivation]] by the [[chain rule]].
 
 Then this function is a [[bijection]], hence every [[derivation]] of $C^\infty(X) \in CAlg_{\mathbb{R}}$
@@ -249,13 +255,13 @@ then it follows that $\delta$ is the derivation coming from $v_\delta$ under $\G
 
 
 Recall further from _[[geometry of physics -- superalgebra]]_ that the category of [[supercommutative superalgebras]]
-is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an 
+is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an
 [[adjoint cylinder]] ([this prop.](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg)):
 
 +-- {: .num_prop #AdjointCylinderOnSuperAffines}
 ###### Proposition
 
-The canonical inclusion of [[commutative algebras]] into [[supercommutative superalgebra]] is 
+The canonical inclusion of [[commutative algebras]] into [[supercommutative superalgebra]] is
 part of an [[adjoint triple]] of the form
 
 $$
@@ -308,11 +314,11 @@ formal dual of $(-)_{even}$. That they change position in the diagrams is becaus
 
 The notation in prop. \ref{AdjointCylinderOnSuperAffines} is to serve as a convenient mnemonic for the nature of these functors:
 
-In a [[Feynman diagram]] 
+In a [[Feynman diagram]]
 
 1. a single [[fermion]] is denoted by a solid arrow "$\to$" and the functor
 $\overset{\rightrightarrows}{(-)}$ produces a space whose [[algebra of functions]] is generated over
-smooth functions by the product of two fermionic functions 
+smooth functions by the product of two fermionic functions
 
 1. a single [[boson]] is denoted by a wiggly arrow $\rightsquigarrow$ and the functor
    denoted by this symbol produces a spaces whose [[algebra of functions]] contains only the
@@ -324,7 +330,7 @@ is an ordinary [[Cartesian space]]
 
 $$
    \overset{\rightsquigarrow}{\mathbb{R}^{p\vert q}}
-   \simeq 
+   \simeq
    \mathbb{R}^p
 $$
 
@@ -333,10 +339,10 @@ its image under $\overset{\rightrightarrows}{(-)}$ is a bosonic space, but not a
 $$
   \begin{aligned}
    \mathcal{O}\left( \overset{\rightrightarrows}{\mathbb{R}^{0\vert 2}}\right)
-    & = 
+    & =
    \mathcal{O}(\mathbb{R}^{0\vert 2})_{even}
    \\
-  & = 
+  & =
   (\wedge^\bullet(\mathbb{R}^2)^\ast)_{even}
   \\
   &=
@@ -352,7 +358,7 @@ $$
 
 where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
-This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$ 
+This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$
 is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thouhgt of as the [[algebra of functions]]
 on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
 that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
@@ -369,16 +375,16 @@ $$
   InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
 $$
 
-for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] 
+for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]]
 $\mathbb{D}$ of [[commutative algebras]] over the [[real numbers]] of the form
 
 $$
   \mathcal{O}(\mathbb{D})
     \coloneqq
   \mathbb{R}\oplus V
-$$ 
+$$
 
-with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]] 
+with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]]
 over $\mathbb{R}$. We call this the category of _[[infinitesimally thickened points]]_.
 
 In [[synthetic differential geometry]] these algebras are called **[[Weil algebra]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
@@ -397,7 +403,7 @@ $$
    C^\infty(\mathbb{R}^n) \otimes_{\mathbb{R}} C^\infty(\mathbb{D})
 $$
 
-of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ 
+of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$
 with algebras corresponding to infinitesimally thickened points $\mathbb{D}$ as above.
 
 =--
@@ -407,17 +413,50 @@ This kind of construction is traditionally more familiar from the theory of [[fo
 The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCartSp}) is that they co-represent
 [[tangent vectors]] and [[jets]]:
 
-+-- {: .num_example}
-###### Example
++-- {: .num_prop}
+###### Proposition
 
-Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
+Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]. 
 
+Then morphisms in $FormalCartSp$ (def. \ref{FormalCartSp}) of the form
+
+$$
+  \mathbb{R}^n \times \mathbb{D}^1 \longrightarrow \mathbb{R}^n
+$$
+
+which are the identity after restriction along $\mathbb{R}^n \to  \mathbb{R}^n \times \mathbb{D}^1$, are in [[natural bijection]]
+with smooth [[vector fields]] on $\mathbb{R}^n$.
+
+Moreover, morphisms of the form 
+
+$$
+  \mathbb{D}^1 \longrightarrow \mathbb{R}^n
+$$
+
+are equivalently single [[tangent vectors]], hence for every $\mathbb{R}^n$ there is a [[natural bijection]]
+
+$$
+  Hom_{FormalCartSp}(\mathbb{D}^1, \mathbb{R}^n)
+   \simeq
+  \underset{\text{underlying} \atop \text{set}}{\underbrace{T \mathbb{R}^n}}
+$$
+
+between the [[hom-set]] from the formal dual of the [[ring of dual numbers]]
+and the set of [[tangent vectors]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, morphisms
 
 $$
   \mathbb{R}^n \times \mathbb{D}\longrightarrow \mathbb{R}^n
 $$
 
-which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are equivalently algebra homomorphisms of the form
+which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are 
+equivalently algebra homomorphisms of the form
 
 
 $$
@@ -449,25 +488,9 @@ $$
   \,.
 $$
 
-This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. 
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]].
 But [[derivations of smooth functions are vector fields]] (prop. \ref{DerivationsOfSmoothFunctions}).
 
-In particular one finds that maps
-
-$$
-  \mathbb{D} \longrightarrow \mathbb{R}^n
-$$
-
-are equivalently single [[tangent vectors]], hence for every $\mathbb{R}^n$ there is a [[natural bijection]]
-
-$$
-  Hom_{FormalCartSp}(\mathbb{D}^1, \mathbb{R}^n)
-   \simeq
-  \underset{\text{underlying} \atop \text{set}}{\underbrace{T \mathbb{R}^n}}
-$$
-
-between the [[hom-set]] from the formal dual of the [[ring of dual numbers]]
-and the set of [[tangent vectors]].
 
 =--
 
@@ -478,7 +501,7 @@ The canonical inclusion $i$ of the category of ordinary [[Cartesian spaces]] int
 has a [[left adjoint]] $\Re$
 
 $$
-  CartSp 
+  CartSp
     \underoverset
       {\underset{\Re}{\longleftarrow}}
       {\overset{i}{\hookrightarrow}}
@@ -486,7 +509,7 @@ $$
   FormalCartSp
 $$
 
-given by 
+given by
 
 $$
   \Re(\mathbb{R}^n \times \mathbb{D}) \coloneqq \mathbb{R}^n
@@ -513,22 +536,22 @@ $$
 is equivalently a [[homomorphism]] of [[commutative algebras]] of the form
 
 $$
-  f^\ast 
+  f^\ast
    \;\colon\;
-  C^\infty(\mathbb{R}^{n_1}) 
+  C^\infty(\mathbb{R}^{n_1})
     \longleftarrow
   C^\infty(\mathbb{R}^{n_2}) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
 $$
 
 where all elements $v \in V$ are nilpotent, in that there exists $n_v \in \mathbb{N}$
-such that $(v)^{n_v} = 0$. Every algebra homomorphism needs to preserve this 
+such that $(v)^{n_v} = 0$. Every algebra homomorphism needs to preserve this
 equation, and hence needs to send nilpotent elements to nilpotent elements. But the
 only nilpotent element in the ordinary function algebra $C^\infty(\mathbb{R}^n)$
 is the zero-function, and so it follows that the above homomorphism has to vanish on all of $V$, hence has
 to factor (necessarily uniquely) through a homomorphism of the form
 
 $$
-  \tilde f^\ast 
+  \tilde f^\ast
    \;\colon\;
   C^\infty(\mathbb{R}^{n_1})
     \longleftarrow
@@ -555,16 +578,16 @@ The above discussion following prop. \ref{AdjointCylinderOnSuperAffines} means t
 
 1. [[formal manifold|formal]] [[Cartesian spaces]] are further generalized to [[super formal Cartesian spaces]].
 
-In order to make this explicit, it is convenient to introduce the following slight generalization of 
+In order to make this explicit, it is convenient to introduce the following slight generalization of
 [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}), which are simply [[Cartesian products]]
-of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] that may have both even and 
+of ordinary [[Cartesian spaces]] with an [[infinitesimally thickened point]] that may have both even and
 odd graded elements in its [[algebra of functions]].
 
 
 +-- {: .num_defn #SuperFormalCartSp}
 ###### Definition
 
-Write 
+Write
 
 $$
   SuperFormalCartSp
@@ -583,23 +606,29 @@ where $V$ is a [[nilpotent ideal]] of [[finite number|finite]] [[dimension]] ove
 
 =--
 
-One place where such super formal Cartesian spaces are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97)
+One place where such super formal Cartesian spaces are made explicit is in [Konechny-Schwarz 97](#KonechnySchwarz97).
+Just as formal Cartesian spaces may be thought of as local model spaces for [[synthetic differential geometry]],
+[[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
+This we come to [below](#SuperSmoothSets).
 
 
-In conclusion we have the following situation:
+In conclusion, the various [[extra structure]] on local model spaces (abstract coordinate systems) which we
+considered is organized in the following [[diagram]].
 
-+-- {: .num_prop }
++-- {: .num_prop #SystemOfSites}
 ###### Proposition
 
 
 The [[coreflective subcategory]] inclusion of [[Cartesian spaces]] into
 [[formal manifold|formal]] [[Cartesian spaces]] from prop. \ref{CartSpCoreflectiveInclusion}
-and the coreflective as we all [[reflective subcategory]] inclusion  
+and the coreflective as we all [[reflective subcategory]] inclusion
 of affine schemes into [[affine superschemes]] from prop. \ref{AdjointCylinderOnSuperAffines}
 combine to give the following system of [[adjoint functors]] on our local model spaces
 
 $$
   \array{
+   { \text{}  \atop { \text{discrete} \atop {\text{geometry}} } }
+   &&
    {\text{} \atop {\text{differential} \atop \text{geometry}}}
    &&
    {\text{formal} \atop {\text{differential} \atop {geometry}}}
@@ -607,6 +636,13 @@ $$
    {\text{super} \atop {\text{differential} \atop \text{geometry}}}
    \\
    \\
+   \ast
+   &
+    \underoverset
+      {\hookrightarrow}
+      {\overset{\pi}{\longleftarrow}}
+      {}
+   &
   CartSp
    &
     \underoverset
@@ -657,24 +693,29 @@ $$
 
 
 
-## Super formal smooth sets
+## Super smooth sets
+ {#SuperSmoothSets}
 
-Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_. We will set up [[supergeometry]] in direct analogy to this formulation of plain [[differential geometry]]. See also at _[[geometry of physics -- manifolds and orbifolds]]_ and _[[geometry of physics -- supergeometry]]_.
+
+[Above](#CoordinareSystemsSuperCartesianSpaces) we discussed ([[formal manifold|formal]]) [[super Cartesian spaces]]. What we are after is geometry which is "locally modeled" on these. In order to do so we
+
+1. consider very general [[superspaces]] whose collection forms a "good category" (the [[sheaf topos]] over super Cartesian space) in that lots of [[universal constructions]] on general superspaces ([[limits]], [[colimits]]) still yield general superspaces;
+
+2. use special properties of this nice category ([[differential cohesion]]) in order to characterize and construct the good, tame superspaces, such as actual [[supermanifolds]].
+
+The construction proceeds in direct anology to the non-super version discussed at _[[geometry of physics -- smooth sets]]_
+and at _[[geometry of physics -- manifolds and orbifolds]]_. For reference we first briefly recall this bosonic situation.
+
 
 
 +-- {: .num_defn #SiteCartSp}
 ###### Definition
 
 Write [[CartSp]] for the [[category]] of [[Cartesian space]] $\mathbb{R}^n$ for $n \in\mathbb{N}$ with [[smooth functions]] between them. Say that a collection of morphisms $\{U_i \to X\}$ in $CartSp$ is [[covering]] if this is a [[good open cover]] in that every finite non-empty intersection of the charts is [[diffeomorphism|diffeomorphic]] to a Cartesian space.
+This defines a [[coverage]] on [[CartSp]] and hence makes it a [[site]].
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-We may think of this as the category of abstract [[coordinate systems]] on which [[differential geometry]] is to be modeled, see at _[[geometry of physics -- coordinate systems]]_.
-
-=--
 
 +-- {: .num_defn #Smooth0Type}
 ###### Definition
@@ -755,42 +796,79 @@ $\{$[[smooth 2-groupoids]]$\}$
  \hookrightarrow $
 $\{$[[smooth ∞-groupoids]]$\}$
 
-The identification of (super-)[[smooth manifolds]] inside all (super-)[[smooth spaces]] we consider [below](#GStructureAndCartanGeometry).
-
 =--
 
-In view of the above, it is immediate that in order to generalize [[differential geometry]], we should focus on generalizing the category of [[coordinate systems]]. To that end recall a basic fact about [[smooth functions]]:
 
 
-+-- {: .num_defn}
+
+
+
++-- {: .num_defn #FormalSmoothSets}
 ###### Definition
 
-Say that a collection of morphisms $\{U_i \to X\}$ in $SuperCartSp$ is [[covering]] if all $U_i$ and the $X$ are $\mathbb{R}^{p|q}$ (for the same $p$ and $q$), the morphisms are the identity on the odd generators $\{\theta_i\}$, and the underlying map of [[Cartesian spaces]] is a [[good open cover]] in the sense of def. \ref{SiteCartSp}. Write
+Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp}
+and on $SuperFormalCartSp$ (def. \ref{SuperFormalCartSp}) by declaring the [[covering]]
+families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$ 
+with $\mathcal{O}(\mathbb{D}) = (\mathbb{R} \oplus V)$ any infinitesimally thickened
+superpoint) to be those of the form
 
 $$
-  SuperSmooth0Type \coloneqq Sh(SuperCartSp)
+  \left\{
+    U_i \times \mathbb{D} 
+      \overset{\phi_i \times id}{\longrightarrow}
+    \mathbb{R}^n \times \mathbb{D}
+  \right\}
 $$
 
-for the [[sheaf topos]] over that site. We call this the collection of _[[smooth super spaces]]_.
+for 
+
+$$
+  \left\{
+    U_i 
+      \overset{\phi_i }{\longrightarrow}
+    \mathbb{R}^n 
+  \right\}
+$$
+
+a [[good open cover]] as in def. \ref{SiteCartSp}.
+
+In analogy with def. \ref{Smooth0Type} we say that 
+
+1. a [[sheaf]] on $FormalCartSp$ is a **formal smooth set** or **formal smooth [[0-type]]** and we write
+
+  $$
+    FormalSmooth0Type \coloneq FormalSmoothSet \coloneqq Sh(FormalCartSp)
+  $$
+  
+  for the [[sheaf topos]] of all of these;
+  
+1. a [[sheaf]] on $FormalCartSp$ is a **[[super formal smooth set]]** or **super formal smooth [[0-type]]** and we write
+
+  $$
+    SuperFormalSmooth0Type \coloneqq SuperFormalSmoothSet \coloneqq Sh(FormalCartSp)
+  $$
+
+  for the [[sheaf topos]] of all of these;
 
 =--
 
-This is the [[topos]] that hosts traditional [[supergeometry]]. However for our purposes it is useful to refine this a little more to a context for [[synthetic differential supergeometry]]. To that end first observe that
+The category of formal smooth sets from def. \ref{FormalSmoothSets} is is traditionally known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
 
+Now via [[Kan extension]] the system of sites from prop. \ref{SystemOfSites} etends to a system of [[sheaf toposes]] as follows..
 
-+-- {: .num_defn}
-###### Definition
+<img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
 
-The [[sheaf topos]]
+Here the first row shows the [[adjoint pairs]] and [[adjoint triples]]  of sites from prop. \ref{SystemOfSites}. The second row shows the
+corresponding [[adjoint quadruples]] induced from these by [[Kan extension]]. Here a priori the Kan extension only exists on 
+the categories of presheaves, but one checks that for our sites they descent to sheaves. Since the [[coverage]] we use
+is nontrivial only along $CartSp$, the leftmost adjoint quadruple is the only nontrivial one. That it exists is the statement that
+$CartSp$ is an [[infinity-cohesive site]], see the discussion there.
 
-$$
-  FormalSmooth0Type \coloneqq Sh(CartSp \rtimes InfPoint)
-$$
-
-is traditionally known as the _[[Cahiers topos]]_.
-
-=--
-
+The third diagram inducates that two extra adjoints to _composites_ of functors appear. Here the functor
+$SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the inclusion $CartSp \hookrightarrow SuperFormalCartSp$
+is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$, and for the same reason.
+Similarly then the bottom most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also 
+$SuperFormalCartSp$ is an [[infinity-cohesive site]].
 
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
@@ -1296,6 +1374,36 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 
 ### General
 
+Some historically influential general considerations are in 
+
+* [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn 1984
+
+Introductory lecture notes include
+
+* [[Yuri Manin]], chapter 4 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
+
+* [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
+
+* L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
+
+* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
+
+### In the topos over superpoints
+
+The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
+
+* [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+
+* [[Alexander Voronov]], _Maps of supermanifolds_ , Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 43&#8211;48
+
+and in 
+
+* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
+preprints, IC/84/183, 1984.
+
+
+A summary/review is in the appendix of
+
 * {#KonechnySchwarz97} Anatoly Konechny and [[Albert Schwarz]],
 
   _On $(k \oplus l|q)$-dimensional supermanifolds_ in [[Julius Wess]], V. Akulov (eds.) _Supersymmetry and Quantum Field Theory_ (D. Volkov memorial volume) Springer-Verlag, 1998, Lecture Notes in Physics, 509 ,  ([arXiv:hep-th/9706003](http://arxiv.org/abs/hep-th/9706003))
@@ -1303,7 +1411,18 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
   _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471 - 486
 
 
+* [[Albert Schwarz]], I- Shapiro, _Supergeometry and Arithmetic Geometry_ ([arXiv:hep-th/0605119](http://arxiv.org/abs/hep-th/0605119))
+
+
+A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
+
+* {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+  
+
+
 ### Supergeometry for field theories with fermions
+
+Discussion of [[classical field theory]] with [[fermions]] as taking place on [[supermanifolds]] ([[field bundle]], [[phase space]]) includes the following references:
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
