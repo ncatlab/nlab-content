@@ -367,6 +367,15 @@ for the case that $\Sigma_2$ is [[closed manifold|closed]], and generally, in te
 
 as the [[surface holonomy]] of a [[circle 2-bundle with connection]]. See also the references at _[[B-field]]_ and at _[[Freed-Witten anomaly cancellation]]_.
 
+See also
+
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], chapter 6 of _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
+
+  this is a chapter in
+
+  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
 For the fully general understanding as the [[surface holonomy]] of a [[circle 2-bundle with connection]] see the references [below](#ReferencesRelationToGerbesAndCS).
 
 See also 
