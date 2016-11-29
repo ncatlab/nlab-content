@@ -53,6 +53,8 @@ Reviews and lecture notes include
 
 * [[Veeravalli Varadarajan]], _Unitary representations of super Lie groups_ ([pdf](http://www.math.ucla.edu/~vsv/urtr.pdf))
 
+* {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+
 * [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
