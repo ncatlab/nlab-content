@@ -15,10 +15,10 @@ $\,$
 Supergeometry is the generalization of [[differential geometry]] (or [[algebraic geometry]]) to the situation where [[algebras of functions]]
 are generalized from [[commutative algebras]] to [[supercommutative superalgebras]].
 
-In _[[geometry of physics -- superalgebra]]_ we discussed why it is natural, in fact compelling, to pass
-to [[supercommutative superalgebra]] and how this implies a dual concept of [[affine superschemes]].
-Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]],
-in parallel to our discussion of ordinary [[differential geometry]] in [[geometry of physics -- smooth sets]].
+In _[[geometry of physics -- superalgebra]]_ we discussed why it is mathematically compelling to pass
+to [[supercommutative superalgebra]] and how this implies a dual concept of [[superspace]] in terms of [[affine superschemes]].
+Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]] --
+in parallel to the discussion of ordinary [[differential geometry]] in _[[geometry of physics -- smooth sets]]_.
 
 Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the physical world is
 fundamentally described by
@@ -29,28 +29,33 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
 [[action functional]] for fermion fields as a function on a non-super ([[infinite-dimensional manifold|infinite-dimensional]])-[[manifold]].
 
  The experimental detection of the special properties of [[fermions]] that show their super-geometric nature
- goes back to the [[Stern-Gerlach experiment]] in 1922;
+ goes back all the way to the [[Stern-Gerlach experiment]] in 1922;
  an early theoretical formulation is the [[Pauli exclusion principle]] from 1925. A little later it was realized that
  the [[axioms]] of [[local field theory]] _imply_ that [[fermions]] need to be described by [[superalgebra]].
  This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
- ([Fierz 1939](spin-statistics+theorem#Fierz39), [Pauli 1940](#spin-statistics+theorem#Pauli40)).
+ ([Fierz 1939](spin-statistics+theorem#Fierz39) and [Pauli 1940](#spin-statistics+theorem#Pauli40)).
 
  Notice that this phenomenon is not a negligible subtlety: the [[Pauli exclusion principle]]
  is what implies [[stability of matter]] by forcing [[electrons]] in an [[atom]] to fill up
  "orbitals" consecutively as opposed to all falling into the ground state, as a bosonic [[condensate]] would do.
- There would be no [[solid state physics]] without supergeometric [[phase spaces]].
+ There would be no [[solid state physics]] without supergeometry of [[phase spaces]], no [[matter]] as we know it.
  (In addition, the Pauli [[degeneracy pressure]] controls more exotic phenomena, for instance the
   stability of neutron stars against their gravitational collapse.)
 
+As a slogan:
+
+$\,\,\,\,\,\;$ _**The [[geometry]] of [[phase spaces]] of [[fermions]]/[[matter]] is [[supergeometry]].**_
+
 Nevertheless, few textbooks make the supergeometric aspect in the physics of fermions explicit.
-Some discuss it only after [[quantization]] (and some will even claim that femion fields do not exist classically)
+Some discuss it only after [[quantization]] (and some will even claim that femion fields do not exist classically);
 some only discuss it in the context of [[spacetime]] [[supersymmetry]]. But notice that
-_[[supergeometry]]_ is a subject in itself even without presence or discussion spacetime [[supersymmetry]]
-(namely [[super Poincaré group]] [[symmetry]]), just as
-[[differential geometry]] is subject in itself even without the presence or discussion of
+_[[supergeometry]]_ is a subject in itself even without presence or mentioning of spacetime [[supersymmetry]]
+(which is [[super Poincaré group]] [[symmetry]]), just as
+[[differential geometry]] is a subject in itself even without the presence or mentioning of
 [[Poincaré group]] symmetry.
-Notable exceptions of text which make the super-geometric aspect of [[fermion fields]] explicit are
-([Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01)).
+
+Texts which do make the super-geometric nature of [[fermion fields]] explicit include
+([Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01), [Giachetta-Mangiarotti-Sardanashvily 09, chapter 3](#GiachettaMangiarottiSardanashvily09) [Sardanashvily 12](#Sardanashvily12), [Sardanashvily 16](#Sardanashvily16)).
 
 
 #Supergeometry#
@@ -59,12 +64,6 @@ Notable exceptions of text which make the super-geometric aspect of [[fermion fi
 
 
 
-
-(...)
-
-
-### Supergeometry
- {#Supergeometry}
 
 In the section _[[geometry of physics -- superalgebra]]_ we discussed the [[category]] of **affine [[super schemes]]**
 
@@ -75,14 +74,95 @@ $$
 [this def.](geometry+of+physics+--+superalgebra#AffineSuperSchemes).
 
 Here we use these as local model spaces to develop [[geometry]] locally modeled on affine superschemes.
-Since we are ineterested in [[physics]], and since [[spacetimes]] and [[phase spaces]] in physics 
+Since we are ineterested in [[physics]], and since [[spacetimes]] and [[phase spaces]] in physics
 are objects in [[differential geometry]], not in [[algebraic geometry]] (even if sometimes they may come from there),
 we consider the [[full subcategory]] of **[[super Cartesian spaces]]** ([this example](geometry+of+physics+--+superalgebra#SuperCartesianSpace))
 
 $$
   SuperCartSp = \{\mathbb{R}^{p\vert q}\}_{p,q \in \mathbb{N}} \hookrightarrow Aff(sVect_k)
+  \,,
+$$
+
+whose [[algebras of functions]] by definition are [[tensor products]] (over the [[real numbers]] $\mathbb{R}$)
+of $\mathbb{R}$-[[associative algebras|algebras]] of [[smooth functions]] with [[Grassmann algebras]]
+
+$$
+  \mathcal{O}(\mathbb{R}^{p\vert q})
+    \;\coloneqq\;
+  C^\infty(\mathbb{R}^q) \otimes_{\mathbb{R}} \wedge^\bullet (\mathbb{R}^\ast)^q
   \,.
 $$
+
+These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as discussed at _[[geometry of physics -- smooth sets]]_. 
+We now discuss this in detail.
+
+
+## Coordinate systems: Super Cartesian spaces
+ {#CoordinareSystemsSuperCartesianSpaces}
+
+
++-- {: .num_defn #SuperCartesianSpace}
+###### Definition
+
+For $q\in \mathbb{N}$, the real [[Grassmann algebra]]
+
+$$
+  C^\infty(\mathbb{R}^{0|q})
+  \coloneqq
+  \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
+$$
+
+is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$ subject to the relation
+
+$$
+  \theta^i \theta^j = - \theta^j \theta^i
+  \,.
+$$
+
+For $p,q \in \mathbb{N}$, the [[super-Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]] of the commutative superalgebra written
+ $C^\infty(\mathbb{R}^{p|q})$ whose underlying
+$\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
+
+
+$$
+  C^\infty(\mathbb{R}^{p|q})
+  \coloneqq
+  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet\langle\theta^1, \cdots, \theta^q\rangle
+$$
+
+with the product given by the relations
+
+$$
+  \begin{aligned}
+  \left(
+    f \theta^{i_1}\cdots \theta^{i_k}
+  \right)
+  \left(
+    g \theta^{j_1}\cdots \theta^{j_l}
+  \right)
+  & =
+  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta^{j_1}\cdots \theta^{j_l}
+  \\
+  & =
+  (-1)^{k l} g\cdot f \; \theta^{j_1}\cdots \theta^{j_l} \theta^{i_1}\cdots \theta^{i_k}
+  \end{aligned}
+$$
+
+where $f \cdot g$ is the ordinary pointwise product of [[smooth functions]].
+
+Write
+
+$$
+ SuperCartSp \hookrightarrow SuperCAlg_{\mathbb{R}}^{op}
+$$
+
+for the [[full subcategory]] of the [[opposite category]] of [[commutative superalgebras]] on those of this form. We write
+$\mathbb{R}^{p|q} \in SuperCartSp$ for the [[formal dual]] of
+$C^\infty(\mathbb{R}^{p|q})$.
+
+=--
+
+
 
 We write
 
@@ -93,17 +173,54 @@ $$
 for the [[full subcategory]] on ordnary [[Cartesian spaces]] with [[smooth functions]] between them.
 These are the "abstract coordinate charts" from the discussion at _[[geometry of physics -- smooth sets]]_,
 and so we are evidently entitled to think of the objects in $SuperCartSp$ as **abstract super coordinate systems**
-and to develop a geometry in 
+and to develop a geometry induced from these.
 
-(Recall that th )
+Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of 
+[[differential geometry]] work:
 
+1. **[[embedding of smooth manifolds into formal duals of R-algebras]]** The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] of [[smooth manifolds]]
 
-  
+   $$
+     C^\infty(-) \;\colon\; SmthMfd \hookrightarrow CAlg_{\mathbb{R}}^{op}
+   $$
+   
+   is [[fully faithful functor|fully faithful]].
+   
+1. **[[smooth Serre-Swan theorem]]** The functor that assigns smooth [[sections]] of smooth [[vector bundles]] 
+   of [[finite number|finite]] [[rank]]
 
+   $$
+     \Gamma_X(-) \;\colon\; SmthVectBund_{/X} \hookrightarrow C^\infty(X) Mod
+   $$
+   
+   is [[fully faihful functor|fully faithful]] (its [[essential image]] being the [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[algebra of functions|algebra of]] [[smooth function]]).
 
-* the [[adjoint cylinder]]
+There is a third such magic algebraic property of smooth functions, which plays a role now:
 
-  $$
++-- {: .num_defn #}
+###### Proposition
+**([[derivations of smooth functions are vector fields]])**
+
+Let $X$ be a [[smooth manifold]]. Write
+
+$$
+  der_X \;\colon\; \Gamma(T X) \longrightarrow Der(C^\infty(X))
+$$
+
+for the function that sends a smooth [[vector field]] $v \in \Gamma(T X)$ to the [[derivation]]
+of the [[algebra of functions|algebra of]] [[smooth functions]] on $X$ given by forming 
+[[derivatives]] $der_X(v)(f) \coloneqq v(f)$ (which is a derivation by the [[chain rule]]).
+
+Then this function is a [[bijection]], hence every [[derivation]] of $C^\infty(X) \in CAlg_{\mathbb{R}}$
+comes from [[differentiation]] along some smooth vector field, and uniquely so.
+
+=--
+
+Recall further from _[[geometry of physics -- superalgebra]]_ that the category of [[supercommutative superalgebras]]
+is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an 
+[[adjoint cylinder]] ([this prop](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg))
+
+$$
   CAlg_k
     \underoverset
       {\underset{(-)_{even}}{\longleftarrow}}
@@ -111,13 +228,12 @@ and to develop a geometry in
       {\hookrightarrow}
   sCAlg_k
   \,.
-  $$
+$$
 
-  [this prop](geometry+of+physics+--+superalgebra#InclusionOfCAlgIntosCAlg)
+The [[formal dual]] of this statement is that [[affine superschemes]] are related to ordinary [[affine schemes]]
+over $\mathbb{R}$ by an [[adjoint cylinder]] of this form
 
-  which dually is
-
-  $$
+$$
   Aff(Vect_k)
     \underoverset
       {\underset{\rightrightarrows}{\longleftarrow}}
@@ -125,20 +241,164 @@ and to develop a geometry in
       {\hookrightarrow}
   Aff(sVect_k)
   \,.
-  $$
+$$
+
+Here the notation is to serve as a convenient mnemonic for the nature of these functors:
+
+in a [[Feynman diagram]] 
+
+1. a single [[fermion]] is denoted by a solid arrow "$\to$" and the functor
+$\rightrightarrows$ produces a space whose [[algebra of functions]] is generated over
+smooth functions by the product of two fermionic functions 
+
+1. a single [[boson]] is denoted by a wiggly arrow $\rightsquigarrow$ and the functor
+   denoted by this symbol produces a spaces whose [[algebra of functions]] contains only the
+   bosonic smooth functions, no odd-graded functions.
 
 
-* notice that $\rightrightarrows$ lands in in formal spaces while $\rightsquigarrow$ lands in reduced spaces
+This highlight an important point: while the image of a [[super Cartesian space]] under $\rightsquiqarrow$
+is an ordinary [[Cartesian space]]
 
-* show that $Spec(\mathbb{D}) \to \mathbb{R}^n$ are tangent vectors
+$$
+   \overset{\rightsquiqarrow}(\mathbb{R}^{p\vert q})
+   \simeq 
+   \mathbb{R}^p
+$$
 
-* pass to sheaves
+its image under $\rightrightarrows$ is a bosonic space, but not an ordinary manifold. For instance
 
-* show that $\mathbb{R} \colon \Lambda \mapsto \Lambda_{even}$
+$$
+  \begin{aligned}
+   \mathcal{O}\left( \overset{\rightrightarrow}{\mathbb{R}^{0\vert 2}}\right)
+    & = 
+   \mathcal{O}(\mathbb{R}^{0\vert 2})_{even}
+   \\
+  & = 
+  (\wedge^\bullet(\mathbb{R}^2)^\ast)_{even}
+  \\
+  &=
+  \left\{a_0 + a_1 \, \theta_1 + a_2 \, \theta_2 + a_{12} \theta_1 \theta_2 \,\vert a_\bullet \in \mathbb{R}\,\right\}_{even}
+  \\
+  &=
+  \left\{a_0  + a_{12} \theta_1 \theta_2 \,\vert a_{12} \in \mathbb{R}\,\right\}
+  \\
+  &=
+  \mathbb{R}[\epsilon]/(\epsilon^2 = 0)
+  \end{aligned}
+$$
 
-#### Coordinate systems: super Cartesian spaces
- {#CoordinareSystemsSuperCartesianSpaces}
+where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
+This algebra is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is the [[algebra of functions]]
+on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
+that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
+even tinier, is actually indistinguishable from zero.
+
+In generalization of this we say
+
++-- {: .num_defn #FormalCartSp}
+###### Definition
+
+Write
+
+$$
+  InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+$$
+
+for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]] 
+over $\mathbb{R}$. We call this the category of _[[infinitesimally thickened points]]_.
+
+In [[synthetic differential geometry]] these algebras ar called _[[Weil algebra]]_, while in [[algebraic geometry]] they are known as local [[Artin algebras]] over $\mathbb{R}$.
+
+Write moreover
+
+$$
+  FormalCartSp \coloneqq CartSp \rtimes InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
+$$
+
+for the [[full subcategory]] on [[formal duals]] of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
+
+$$
+  C^\infty(\mathbb{R}^n) \otimes C^\infty(D)
+$$
+
+of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ as in def. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} with algebras corresponding to infinitesimally thickened points $D$ as above.
+
+
+
+=--
+
+This kind of construction is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
+
+But this means that in passing to commutative superalgebras there are _two_ stages of generalizations of plain differential geometry involved:
+
+1. [[smooth manifolds]] are generalized to [[formal smooth manifolds]];
+
+1. [[formal smooth manifolds]] are further generalized to formal smooth [[supermanifolds]].
+
+
+
+
+
++-- {: .num_example}
+###### Example
+
+Write $\mathbb{D}$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
+
+
+$$
+  \mathbb{R}^n \times \mathbb{D}\longrightarrow \mathbb{R}^n
+$$
+
+which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are equivalently algebra homomorphisms of the form
+
+
+$$
+  (C^\infty(\mathbb{R}^n) \oplus \epsilon C^\infty(\mathbb{R}^n))
+  \longleftarrow
+  C^\infty(\mathbb{R}^n)
+$$
+
+which are the identity modulo $\epsilon$. Such a morphism has to take any function $f \in C^\infty(\mathbb{R}^n)$ to
+
+$$
+  f + (\partial f) \epsilon
+$$
+
+for some smooth function $(\partial f) \in C^\infty(\mathbb{R}^n)$. The condition that this assignment makes an algebra homomorphism is equivalent to the statement that for all $f_1,f_2 \in C^\infty(\mathbb{R}^n)$
+
+$$
+  (f_1 f_2 + (\partial (f_1 f_2))\epsilon )
+  =
+  (f_1 + (\partial f_1) \epsilon)
+  (f_2 + (\partial f_2) \epsilon)
+  \,.
+$$
+
+Multiplying this out and using that $\epsilon^2 = 0$ this in turn is equivalent to
+
+$$
+  \partial(f_1 f_2) = (\partial f_1) f_2 + f_1 (\partial f_2)
+  \,.
+$$
+
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]]. (See at _[[derivations of smooth functions are vector fields]]_).
+
+In particular one finds that maps
+
+$$
+  \mathbb{D} \longrightarrow \mathbb{R}^n
+$$
+
+are equivalently single [[tangent vectors]].
+
+
+
+=--
+
+
+
+## Super formal smooth sets
 
 Recall the following from the discussion at _[[geometry of physics -- smooth sets]]_. We will set up [[supergeometry]] in direct analogy to this formulation of plain [[differential geometry]]. See also at _[[geometry of physics -- manifolds and orbifolds]]_ and _[[geometry of physics -- supergeometry]]_.
 
@@ -242,116 +502,6 @@ The identification of (super-)[[smooth manifolds]] inside all (super-)[[smooth s
 
 In view of the above, it is immediate that in order to generalize [[differential geometry]], we should focus on generalizing the category of [[coordinate systems]]. To that end recall a basic fact about [[smooth functions]]:
 
-+-- {: .num_prop #EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras}
-###### Proposition
-
-The [[functor]]
-
-$$
-  C^\infty(-) \colon CartSp \longrightarrow CAlg_{\mathbb{R}}^{op}
-$$
-
-which sends a [[Cartesian space]] to (the [[formal dual]] of) its $\mathbb{R}$-[[commutative algebra|algebra]] of [[smooth functions]] is a [[full and faithful functor]].
-
-
-In other words, for two [[Cartesian spaces]] $X,Y$ there is a [[natural bijection]] between the [[smooth functions]] $X \to Y$ and the algebra homomorphisms $C^\infty(X)\leftarrow C^\infty(Y)$.
-
-=--
-
-See at _[[embedding of smooth manifolds into formal duals of R-algebras]]_ for more on this.
-
-+-- {: .num_remark}
-###### Remark
-
-One has to be careful that prop. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} might seem to imply more than it does. In order that all constructions on all commutative algebras have the desired dual effect on formally dual smooth spaces (e.g. construction of [[products]]/[[coproducts]], or construction of [[Kähler differentials]]) one needs to refine plain commutative algebras over $\mathbb{R}$ to _[[smooth algebras]]_. See there for more on this point, which however for our purposes here is not of further concern.
-
-=--
-
-Now to pass to [[superalgebra]]:
-
-+-- {: .num_remark}
-###### Remark
-
-It is an observation from [[experiment]] (from the [[Stern-Gerlach experiment]] via the [[spin-statistics theorem]]), that spaces of [[physical fields]] for [[physical theories]] that contain [[fermions]] behave as if they have [[algebras of functions]] which are not quite [[commutative algebras]], but where the functions depending on the [[fermions]] only commute with each other up to picking up a minus sign.
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by ([[Ausdehnungslehre|Grassmann 1844, §37, §55]])
-
-$$
-  a \cdot b = (-1)^{deg(a) deg(b)} b \cdot a
-  \,.
-$$
-
-
-Write $SuperCAlg_{\mathbb{R}}$ for the [[category]] of commutative superalgebras over $\mathbb{R}$.
-
-=--
-
-+-- {: .num_defn #SuperCartesianSpace}
-###### Definition
-
-For $q\in \mathbb{N}$, the real [[Grassmann algebra]]
-
-$$
-  C^\infty(\mathbb{R}^{0|q})
-  \coloneqq
-  \wedge^\bullet \langle \theta^1, \cdots, \theta^q\rangle
-$$
-
-is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta^i\}_{i = 1}^q$ subject to the relation
-
-$$
-  \theta^i \theta^j = - \theta^j \theta^i
-  \,.
-$$
-
-For $p,q \in \mathbb{N}$, the [[super-Cartesian space]] $\mathbb{R}^{p|q}$ is the [[formal dual]] of the commutative superalgebra written
- $C^\infty(\mathbb{R}^{p|q})$ whose underlying
-$\mathbb{Z}/2\mathbb{Z}$-[[graded vector space]] is
-
-
-$$
-  C^\infty(\mathbb{R}^{p|q})
-  \coloneqq
-  C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} \wedge^\bullet\langle\theta^1, \cdots, \theta^q\rangle
-$$
-
-with the product given by the relations
-
-$$
-  \begin{aligned}
-  \left(
-    f \theta^{i_1}\cdots \theta^{i_k}
-  \right)
-  \left(
-    g \theta^{j_1}\cdots \theta^{j_l}
-  \right)
-  & =
-  f \cdot g \; \theta^{i_1}\cdots \theta^{i_k} \theta^{j_1}\cdots \theta^{j_l}
-  \\
-  & =
-  (-1)^{k l} g\cdot f \; \theta^{j_1}\cdots \theta^{j_l} \theta^{i_1}\cdots \theta^{i_k}
-  \end{aligned}
-$$
-
-where $f \cdot g$ is the ordinary pointwise product of [[smooth functions]].
-
-Write
-
-$$
- SuperCartSp \hookrightarrow SuperCAlg_{\mathbb{R}}^{op}
-$$
-
-for the [[full subcategory]] of the [[opposite category]] of [[commutative superalgebras]] on those of this form. We write
-$\mathbb{R}^{p|q} \in SuperCartSp$ for the [[formal dual]] of
-$C^\infty(\mathbb{R}^{p|q})$.
-
-=--
-
 
 +-- {: .num_defn}
 ###### Definition
@@ -368,50 +518,9 @@ for the [[sheaf topos]] over that site. We call this the collection of _[[smooth
 
 This is the [[topos]] that hosts traditional [[supergeometry]]. However for our purposes it is useful to refine this a little more to a context for [[synthetic differential supergeometry]]. To that end first observe that
 
-+-- {: .num_remark}
-###### Remark
-
-The even-degree part $C^\infty(\mathbb{R}^{p|q})_{even}$ is an ordinary [[commutative algebra]], but if $q \geq 1$ then it is not the algebra of functions on any [[smooth manifold]], because it has a non-trivial [[nilpotent ideal]]. Instead, a nilpotent element of an [[algebra of functions]] may be thought of as a function depending on an _infinitesimal direction_.
-
-For instance $C^\infty(\mathbb{R}^{0|2})_{even}$ is isomorphic to what is known as the [[algebra of dual numbers]] $(\mathbb{R}\oplus \epsilon \mathbb{R})/(\epsilon^2)$ with $\epsilon = \theta^1 \theta^2$.
-
-This is traditionally more familiar from the theory of [[formal schemes]], but the same kind of general abstract theory goes through in the context of [[differential geometry]], a point of view known as _[[synthetic differential geometry]]_.
-
-But this means that in passing to commutative superalgebras there are _two_ stages of generalizations of plain differential geometry involved:
-
-1. [[smooth manifolds]] are generalized to [[formal smooth manifolds]];
-
-1. [[formal smooth manifolds]] are further generalized to formal smooth [[supermanifolds]].
-
-=--
-
-It will be useful to make this explicit.
-
 
 +-- {: .num_defn}
 ###### Definition
-
-Write
-
-$$
-  InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
-$$
-
-for the [[full subcategory]] of the [[opposite category]] of [[commutative algebras]] over $\mathbb{R}$ on [[formal duals]] of [[commutative algebras]] over the [[real numbers]] of the form $\mathbb{R}\oplus V$ with $V$ a finite-dimensional  [[nilpotent ideal]]. We call this the category of _[[infinitesimally thickened points]]_.
-
-Write moreover
-
-$$
-  CartSp \rtimes InfPoint \hookrightarrow CAlg_{\mathbb{R}}^{op}
-$$
-
-for the [[full subcategory]] on [[formal duals]] of those algebras which are [[tensor products]] of commutative $\mathbb{R}$-algebras of the form
-
-$$
-  C^\infty(\mathbb{R}^n) \otimes C^\infty(D)
-$$
-
-of algebras $C^\infty(\mathbb{R}^p)$ of [[smooth functions]] $\mathbb{R}^n$ as in def. \ref{EmbeddingOfSmoothManifoldsIntoFormalDualsOfRAlgebras} with algebras corresponding to infinitesimally thickened points $D$ as above.
 
 The [[sheaf topos]]
 
@@ -423,100 +532,8 @@ is traditionally known as the _[[Cahiers topos]]_.
 
 =--
 
-+-- {: .num_example}
-###### Example
 
-Write $\mathbb{D}$ for the [[formal dual]] of the [[algebra of dual numbers]]. Then morphisms
-
-
-$$
-  \mathbb{R}^n \times \mathbb{D}\longrightarrow \mathbb{R}^n
-$$
-
-which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are equivalently algebra homomorphisms of the form
-
-
-$$
-  (C^\infty(\mathbb{R}^n) \oplus \epsilon C^\infty(\mathbb{R}^n))
-  \longleftarrow
-  C^\infty(\mathbb{R}^n)
-$$
-
-which are the identity modulo $\epsilon$. Such a morphism has to take any function $f \in C^\infty(\mathbb{R}^n)$ to
-
-$$
-  f + (\partial f) \epsilon
-$$
-
-for some smooth function $(\partial f) \in C^\infty(\mathbb{R}^n)$. The condition that this assignment makes an algebra homomorphism is equivalent to the statement that for all $f_1,f_2 \in C^\infty(\mathbb{R}^n)$
-
-$$
-  (f_1 f_2 + (\partial (f_1 f_2))\epsilon )
-  =
-  (f_1 + (\partial f_1) \epsilon)
-  (f_2 + (\partial f_2) \epsilon)
-  \,.
-$$
-
-Multiplying this out and using that $\epsilon^2 = 0$ this in turn is equivalent to
-
-$$
-  \partial(f_1 f_2) = (\partial f_1) f_2 + f_1 (\partial f_2)
-  \,.
-$$
-
-This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. But derivations of algebras of [[smooth functions]] are equivalent to [[vector fields]]. (See at _[[derivations of smooth functions are vector fields]]_).
-
-In particular one finds that maps
-
-$$
-  \mathbb{D} \longrightarrow \mathbb{R}^n
-$$
-
-are equivalently single [[tangent vectors]].
-
-
-
-=--
-
-+-- {: .num_defn}
-###### Definition
-
-Write
-
-$$
-  SuperInfPoint \hookrightarrow SuperCAlg_{\mathbb{R}}^{op}
-$$
-
-for the [[full subcategory]] on those [[formal duals]] of [[commutative superalgebras]] over the [[real numbers]] on those of the form $\mathbb{R}\oplus V$ with $V$ a finite dimensional [[nilpotent ideal]].
-
-We call this the category of [[infinitesimally thickened point|infinitesimally thickened]] [[superpoints]].
-
-Similarly write
-
-$$
-  CartSp \rtimes SuperInfPoint
-  \hookrightarrow
-  SuperCAlg_{\mathbb{R}}^{op}
-$$
-
-for the [[full subcategory]] on [[formal duals]] of [[tensor products]] of an algebra $C^\infty(\mathbb{R}^n)$ of [[smooth functions]] and an algebra $C^\infty(D)$ on an infinitesimally thickened superpoint.
-
-The [[sheaf topos]]
-
-$$
-  SuperSmooth0Type \coloneqq Sh(CartSp \rtimes SuperInfPoint)
-$$
-
-we call that of [[super smooth infinity-groupoid|super formal smooth spaces]].
-
-=--
-
-
-
-
-
-#### Super differential forms
+## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
 
 Recall from def. \ref{SuperCartesianSpace}:
@@ -705,15 +722,6 @@ See at _[[signs in supergeometry]]_ for further discussion, for literature, and 
 
 
 
-
-
-
-
-
-
-
-#### Super Lie algebra valued super differential forms
- {#SuperLieAlgebraValuedSuperDifferentialForms}
 
 
 We want to discuss the generalization of the concept of
@@ -1030,12 +1038,18 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
   this is a chapter in
-  
+
   [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
 
 * {#Freed01} [[Daniel Freed]], bottom of p. 48 in _Classical field theory and Supersymmetry_ , IAS/Park City Mathematics Series Volume 11, 2001 ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
+* {#GiachettaMangiarottiSardanashvily09} Giovanni Giachetta, Luigi Mangiarotti, [[Gennadi Sardanashvily]], chapter 3 of _Advanced classical field theory_, World Scientific (2009)
 
 
+* {#Sardanashvily12} [[Gennadi Sardanashvily]], _Grassmann-graded Lagrangian theory of even and odd variables_ ([arXiv:1206.2508](https://arxiv.org/abs/1206.2508))
+
+
+
+* {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry, 2016
 
