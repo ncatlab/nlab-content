@@ -42,6 +42,13 @@ When it was realized that fundamental physics is governed by [[quantum field the
 
 Textbook references include
 
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
+
+  this is a chapter in
+
+  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
 * S. Fl&#252;gge (ed.), _Encyclopedia of Physics_ Volume III/I, _Principles of Classical Mechanics and Field Theory_, Springer 1960
 
 For more see the references at _[[multisymplectic geometry]]_.
