@@ -43,20 +43,18 @@ The [[coset]] of a super Poincar&#233; group by the [[orthogonal group]]/[[Loren
 
 ## References
 
-* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
-
-Section 1.1 of 
-
-* [[Pierre Deligne]], [[Daniel Freed]], _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
+* [[Pierre Deligne]], [[Daniel Freed]], section 1.1 of _Supersolutions_ ([arXiv:hep-th/9901094](http://arxiv.org/abs/hep-th/9901094))
 
   in [[Pierre Deligne]], [[Pavel Etingof]], [[Dan Freed]], L. Jeffrey, [[David Kazhdan]], [[John Morgan]], D.R. Morrison and [[Edward Witten]], (eds.), _[[Quantum Fields and Strings]]_
 
-Section 7.5 of 
+* {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
 
-* [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
+* [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_
+ 
+
+* [[Veeravalli Varadarajan]], section 7.5 of  _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
 
 * [[Antoine Van Proeyen]], _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
-
 
 
 Also
