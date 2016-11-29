@@ -217,14 +217,14 @@ $$
 
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
+* {#Freed01} [[Daniel Freed]], lecture 6 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+
 * [[Daniel Freed]], _Lecture 4 of [[Five lectures on supersymmetry]]_
 
 * [[Veeravalli Varadarajan]], section 7 of _Supersymmetry for mathematicians: An introduction_
 
 
-page 370, part II section II.3.3 of
-
-* [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], [[Supergravity and Superstrings - A Geometric Perspective]]_
+* [[Leonardo Castellani]], [[Riccardo D'Auria]], _[[Pietro Fre]], page 370, part II section II.3.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_
 
 Discussion of how [[super L-infinity algebra]] [[L-infinity cocycle|extensions]] of super Minkowski spacetime yield all the [[brane scan]] of [[string theory]]/[[M-theory]] is in 
 
