@@ -60,6 +60,16 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 * [pdf](http://verbit.ru/MATH/TALKS/Israel/kahler-3.pdf)
 
+Spinors in [[classical field theory]] ([[fermions]]):
+
+* {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], &#167;3.4 of _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
+
+  this is a chapter in
+
+  [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
+
+
+
 Discussion relating manifolds with spinor bundles to [[supergeometry]] includes
 
 * [[Dmitri Alekseevsky]], [[Vicente Cortés]], [[Chandrashekar Devchand]], [[Uwe Semmelmann]], _Killing spinors are Killing vector fields in Riemannian Supergeometry_ ([arXiv:dg-ga/9704002](http://arxiv.org/abs/dg-ga/9704002))
