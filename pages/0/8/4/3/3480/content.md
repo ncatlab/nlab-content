@@ -461,6 +461,8 @@ Analogous discussion for [[symmetric monoidal (infinity,1)-categories|symmetric 
 
 * {#Iwanari14} [[Isamu Iwanari]], _Tannaka duality and stable infinity-categories_ ([arXiv:1409.3321](http://arxiv.org/abs/1409.3321))
 
+* [[Jacob Lurie]], [[Spectral Algebraic Geometry]], Chap. 9
+
 
 Ulbrich made a major contribution at the coalgebra and Hopf algebra level
 
