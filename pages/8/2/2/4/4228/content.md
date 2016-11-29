@@ -82,7 +82,7 @@ $$
 
 =--
 
-This site of definition appears in [Kock, Reyes](#KockReyes). The original definition is due to [Dubuc](#Dubuc)
+This site of definition appears in [Kock, Reyes](#KockReyes). The original definition is due to [Dubuc 79](#Dubuc79)
 
 ## Properties
 
@@ -96,7 +96,7 @@ The Cahiers topos is a well-adapted model for [[synthetic differential geometry]
 
 =--
 
-This is due to [Dubuc](#Dubuc).
+This is due to [Dubuc 79](#Dubuc79).
 
 ### Connectedness, locality and cohesion
 
@@ -291,8 +291,8 @@ Unwinding the definition of this [[coend]] as a [[coequalizer]] yields the above
 
 The Cahiers topos was introduced in 
 
-* [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_ [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
- {#Dubuc}
+* {#Dubuc79} [[Eduardo Dubuc]], _Sur les mod&#232;les de la g&#233;om&#233;trie diff&#233;rentielle synth&#233;tique_ [[Cahiers]] de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques, 20 no. 3 (1979), p. 231-279  ([numdam](http://www.numdam.org/item?id=CTGDC_1979__20_3_231_0)).
+ 
 
 and got its name from this journal publication. The definition appears in theorem 4.10 there, which asserts that it is a well-adapted model for [[synthetic differential geometry]].
 
