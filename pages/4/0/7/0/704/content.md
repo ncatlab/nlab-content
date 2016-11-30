@@ -88,9 +88,9 @@ for more on this.
 [[!redirects right inverses]]
 [[!redirects right-inverses]]
 
-[[!redirets smooth section]]
-[[!redirets smooth sections]]
+[[!redirects smooth section]]
+[[!redirects smooth sections]]
 
-[[!redirets continuous section]]
-[[!redirets continuous sections]]
+[[!redirects continuous section]]
+[[!redirects continuous sections]]
 
