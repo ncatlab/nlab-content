@@ -18,14 +18,14 @@ $\,$
 Supergeometry is the generalization of [[differential geometry]] (or [[algebraic geometry]]) to the situation where [[algebras of functions]]
 are generalized from [[commutative algebras]] to [[supercommutative superalgebras]].
 
-<div style="float:right;margin:0 20px 10px 20px;">
-<img src="http://ncatlab.org/schreiber/files/ProgressionOfModalities.jpg" width="200">
-</div>
 In _[[geometry of physics -- superalgebra]]_ we discussed why it is mathematically compelling to pass
 to [[supercommutative superalgebra]] and how this implies a dual concept of [[superspace]] in terms of [[affine superschemes]].
 Here we discuss how to build a fully-fledged theory of [[geometry]] on these affine [[superspaces]] -- [[supergeometry]] --
 in parallel to the discussion of ordinary [[differential geometry]] in _[[geometry of physics -- smooth sets]]_.
 
+<div style="float:right;margin:0 20px 10px 20px;">
+<img src="http://ncatlab.org/schreiber/files/ProgressionOfModalities.jpg" width="200">
+</div>
 
 
 Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
@@ -103,7 +103,7 @@ $$
   \,.
 $$
 
-These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as found at 
+These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as found at
 _[[geometry of physics -- coordinate systems]]_  and_[[geometry of physics -- smooth sets]]_.
 We now discuss this in detail.
 
@@ -416,7 +416,7 @@ The crucial property of [[infinitesimally thickened points]] (def. \ref{FormalCa
 +-- {: .num_prop}
 ###### Proposition
 
-Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]]. 
+Write $\mathbb{D}^1 = Spec(\mathbb{R}[\epsilon]/(\epsilon^2))$ for the [[formal dual]] of the [[algebra of dual numbers]].
 
 Then morphisms in $FormalCartSp$ (def. \ref{FormalCartSp}) of the form
 
@@ -427,7 +427,7 @@ $$
 which are the identity after restriction along $\mathbb{R}^n \to  \mathbb{R}^n \times \mathbb{D}^1$, are in [[natural bijection]]
 with smooth [[vector fields]] on $\mathbb{R}^n$.
 
-Moreover, morphisms of the form 
+Moreover, morphisms of the form
 
 $$
   \mathbb{D}^1 \longrightarrow \mathbb{R}^n
@@ -455,7 +455,7 @@ $$
   \mathbb{R}^n \times \mathbb{D}\longrightarrow \mathbb{R}^n
 $$
 
-which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are 
+which are the identity after restriction along $\mathbb{R}^n \to \mathbb{R}^n \times \mathbb{D}$, are
 equivalently algebra homomorphisms of the form
 
 
@@ -735,24 +735,114 @@ for the [[sheaf topos]] of all these.
 
 The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
 
-Under the [[Yoneda embedding]]
+Namely a smooth set $X$ in the sense of def. \ref{Smooth0Type} is first of all a rule
+
+$$
+  \mathbb{R}^p \maptos X(\mathbb{R}^p) \in Set
+$$
+
+which assigns a set to each Cartesian space. We are to think of this set as the set of smooth functions "$\mathbb{R}^n \stackrel{}{\to} X$", only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
+Moreover, for every smooth function
+$f$ between Cartesian spaces, there is to be a corresponding function $f^\ast$ between these sets, going in the opposite direction
+
+$$
+  \array{
+    \mathbb{R}^{n_1}
+    \\
+    \downarrow^{\mathrlap{f}}
+    \\
+    \mathbb{R}^{n_2}
+  }
+  \;\;\;
+    \mapsto
+  \;\;\;
+  \array{
+    X(\mathbb{R}^{n_1})
+    \\
+    \uparrow^{\mathrlap{f^\ast}}
+    \\
+    X(\mathbb{R}^{n_2})
+  }
+$$
+
+which we are to think of as being the precomosition operation
+
+$$
+  (\text{"}\mathbb{R}^{n_2} \stackrel{\phi}{\to} X\text{"})
+     \;\mapsto\;
+  (\text{"}f^\ast \phi \colon \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{\phi}{\to} X\text{"})
+  \,.
+$$
+
+This is required to satisfy the evident conditions that [[composition]] and [[identity]] is respected, in that
+$(g \circ f)^\ast = g^\ast \circ f^\ast $ and $id^\ast = id$. Together these conditions say that $X$ is a
+[[presheaf]].
+
+In addition, the requirement that $X$ be a [[sheaf]] on the [[site]] of Cartesian space from def. \ref{SiteCartSp}
+means that the assignment $\mathbb{R}^n \mapsto X(\mathbb{R}^n)$ knows that one coordinate system
+$\mathbb{R}^n$ may be covered by other coordinate systems. Namely let $\{U_i \overset{\phi_i}{\to}\}$
+be an [[open cover]] by [[open balls]] $U_i$ (each of which may be identified with $\mathbb{R}^n$ itself, by a [[diffeomorphism]])
+then the condition is that the function
+
+$$
+  (\text{"}\mathbb{R}^n \to X\text{"})
+    \mapsto
+  \left\{
+    \text{"}U_i \overset{\phi_i}{\to} \mathbb{R}^n \to X\text{"}
+  \right\}
+$$
+
+is a [[bijection]] from $X(\mathbb{R}^n)$ to the subset of the [[Cartesian product]] $\underset{i}{\prod} X(U_i)$
+of those [[tuples]] of functions $U_i \stackrel{f_i}{\to} X$ which coincide on all [[intersections]]:
+$f_i |_{U_i \cap U_j} = f_j |_{U_i \cap U_j}$ ("[[matching families]]").
+
+For example every [[Cartesian space]] $X$ defines a smooth set by the rule
+
+$$
+  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n ,X)
+$$
+
+which says that the set of would-be smooth functions into $X$ is the actual set of smooth functions into $X$.
+One also says that $X$ [[representable functor|represents]] a sheaf on $CartSp$,
+
+This defines a [[full subcategory]] inclusion of Cartesian spaces into smooth sets
 
 $$
   CartSp \hookrightarrow Smooth0Type
 $$
 
-every Cartesian space $X$ is naturally regarded as a smooth space itself, namely the one it [[representable functor|represents]] by the assignment
+called the _[[Yoneda embedding]]_.
+
+The same construction works for $X$ any [[smooth manifold]]: it is regarded as a smooth set defined by the rule
 
 $$
-  X \colon \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n ,X)
+  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n ,X)
+$$
+
+which assigns actual sets of smooth functions.
+
+Notice that now that Cartesian spaces (and smooth manifolds) themselves are understood as special cases of smooth sets, there appers now an
+actual concept of smooth functions of the form $\mathbb{R}^n \to X$, for every smooth set $X$, without quotation marks:
+namely this is a morphism in the category $Smooth0Type$ of smooth sets.
+
+Now there might be a worry: given any smooth set $X$ and any Cartesian space $\mathbb{R}^n$, we seem to have _two different_
+concepts of what the set of smooth functions from $\mathbb{R}^n$ to $X$ is: the set $X(\mathbb{R}^n)$
+of "smooth functions by fiat" (maps with quotation marks) and the actual [[hom-set]] $Hom_{Smooth0Type}(\mathbb{R}^n, X)$
+(maps without quotation mark).
+
+That these two sets are in fact in [[natural bijection]], hence that the interpretation of a sheaf $X$ as a generalized smooth space
+is consistent, is the statement of the _[[Yoneda lemma]]_
+
+$$
+  Hom_{Smooth0Type}(\mathbb{R}^n, X)
+  \;
+    \simeq
+  \;
+  X(\mathbb{R}^n)
   \,.
 $$
 
-Hence the set that the Cartesian space $X$, regarded as a sheaf, assigns to a coordinate system $\mathbb{R}^n$ is just the set of all ways of mapping that coordinate system smoothly into $X$.
-
-Hence given any $X \in Smooth0Type$, we are entitled to think of it as a [[generalized smooth space]] which need not be given as a [[set]] equipped with [[smooth structure]], but whose nature instead we detect or _probe_ by mapping Cartesian spaces into it: given  $\mathbb{R}^n$ then we think of the set $X(\mathbb{R}^n)$, which the sheaf $X$ assigns, as playing the role of the set of all smooth functions "$\mathbb{R}^n \longrightarrow X$" into the would-be space $X$.
-
-The [[Yoneda lemma]] gives that this is not circular, but consistent: once we identify Cartesian spaces themselves as smooth spaces via the [[Yoneda embedding]], then the previous statement becomes literally true and we may remove the quotation marks:
+Hence we may remove the quotation marks:
 
 $$
   X(\mathbb{R}^n)
@@ -784,7 +874,7 @@ $\{$[[Fréchet manifolds]]$\}$
  $\hookrightarrow$
 $\{$[[diffeological spaces]]$\}$
  $\hookrightarrow$
-$\{$[[smooth spaces]]$\}$
+$\{$[[smooth sets]]$\}$
  $\hookrightarrow$
 $\{$[[orbifold|smooth orbifolds]]$\}$
  $\hookrightarrow$
@@ -799,8 +889,9 @@ $\{$[[smooth ∞-groupoids]]$\}$
 =--
 
 
-
-
+By the same strategy we now pass to generalized spaces which are locally modeled not
+just on plain Cartesian spaces, but also on formal Cartesian spaces and on
+[[super Cartesian spaces]].
 
 
 +-- {: .num_defn #FormalSmoothSets}
@@ -808,40 +899,40 @@ $\{$[[smooth ∞-groupoids]]$\}$
 
 Define a [[coverage]] on the categories $FormalCartSp$ (def. \ref{FormalCartSp}
 and on $SuperFormalCartSp$ (def. \ref{SuperFormalCartSp}) by declaring the [[covering]]
-families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$ 
+families of any object $\mathbb{R}^n \times \mathbb{D}$ (hence for $\mathbb{D}$
 with $\mathcal{O}(\mathbb{D}) = (\mathbb{R} \oplus V)$ any infinitesimally thickened
 superpoint) to be those of the form
 
 $$
   \left\{
-    U_i \times \mathbb{D} 
+    U_i \times \mathbb{D}
       \overset{\phi_i \times id}{\longrightarrow}
     \mathbb{R}^n \times \mathbb{D}
   \right\}
 $$
 
-for 
+for
 
 $$
   \left\{
-    U_i 
+    U_i
       \overset{\phi_i }{\longrightarrow}
-    \mathbb{R}^n 
+    \mathbb{R}^n
   \right\}
 $$
 
 a [[good open cover]] as in def. \ref{SiteCartSp}.
 
-In analogy with def. \ref{Smooth0Type} we say that 
+In analogy with def. \ref{Smooth0Type} we say that
 
 1. a [[sheaf]] on $FormalCartSp$ is a **formal smooth set** or **formal smooth [[0-type]]** and we write
 
   $$
     FormalSmooth0Type \coloneq FormalSmoothSet \coloneqq Sh(FormalCartSp)
   $$
-  
+
   for the [[sheaf topos]] of all of these;
-  
+
 1. a [[sheaf]] on $FormalCartSp$ is a **[[super formal smooth set]]** or **super formal smooth [[0-type]]** and we write
 
   $$
@@ -852,14 +943,103 @@ In analogy with def. \ref{Smooth0Type} we say that
 
 =--
 
-The category of formal smooth sets from def. \ref{FormalSmoothSets} is is traditionally known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
+The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
 
-Now via [[Kan extension]] the system of sites from prop. \ref{SystemOfSites} etends to a system of [[sheaf toposes]] as follows..
+
+
++-- {: .num_prop}
+###### Proposition
+
+There exists an essentially unique system of [[functors]] between the categories of [[sets]],
+[[smooth sets]] (def. \ref{Smooth0Type}), formal smooth sets and super formal smooth sets (def. \ref{FormalSmoothSets})
+as shown in the second and third row of the following diagram, such that
+
+1. every moprhism show _below_ another morphism is [[right adjoint]] to the top morphism;
+
+1. on [[representables]] the functors coincide with the corresponding functors between [[sites]] shown
+   in the first row (from prop. \ref{SystemOfSites}).
 
 <img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
 
-Here the first row shows the [[adjoint pairs]] and [[adjoint triples]]  of sites from prop. \ref{SystemOfSites}. The second row shows the
-corresponding [[adjoint quadruples]] induced from these by [[Kan extension]]. Here a priori the Kan extension only exists on 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The functors between the [[sheaf toposes]] are given by left and right [[Kan extensions]] of sheaves along the
+functors between the [[sites]]:
+
+For a single functor $F \colon \mathal{C} \to \mathcal{D}$ precomposition with this functor
+defines a functor $F^\ast \colon PSh(\mathcal{D}) \to PSh(\mathcal{C})$ and this has both a [[left adjoint]]
+and a [[right adjoint]] called the left and right [[Kan extension]] $F_!$ and $F^\ast$, respectively
+(an [[adjoint triple]]).
+
+$$
+  PSh(\mathcal{C})
+    &
+    \underoverset
+     {\underset{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}}
+     {\overset{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}}
+     {\overset{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}}
+    &
+  PSh(\mathcal{D})
+  \,.
+$$
+
+It is a basic fact of [[category theory]] ([this prop](Kan+extension#LeftKanExtensionBasicProp)) that on representables $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$
+then $F_!(y(c)) = y(F(c))$. Moreover, since every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]")
+and since left adjoint functors preserve [[colimits]], this property completely characterizes the left Kan extension.
+
+
+Now if $F$ itself has a [[right adjoint]]
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{\phantom{AA}G\phantom{AA}}{\longleftarrow}}
+      {\overset{\phantom{AA}F\phantom{AA}}{\longrightarrow}}
+      {}
+  \mathcal{D}
+$$
+
+then the two [[adjoint triples]] induced by both functors overlap to give an [[adjoint quadruple]]
+in that there are [[natural isomorphisms]] of the form
+
+$$
+  F^\ast \simeq G_! \;\;\;\;\; F_\ast \simeq G^\ast
+  \,.
+$$
+
+To see this, it is sufficient to see the left hand side. It implies the right hand side because [[adjoint functors]]
+are essentially unique, if they exist. Moreover, since both functors on the left are [[left adjoints]]
+which hence preserve [[colimits]] and since all presheaves are [[colimits]] of [[representable functors|representables]]
+it is sufficient to check this natural isomorphisms on representables.
+
+Hence for any $X \in \mathcal{D} \overset{y}{\hookrightarrow} PSh(\mathcal{D})$ 
+and $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$ we check that 
+we have the following [[natural isomorphism]]
+
+$$
+  \begin{aligned}
+    (F^\ast X)(c)
+      & =
+    X(F(c))
+    \\
+    & \simeq
+    Hom(F(c),X)
+    \\
+    & \simeq
+    Hom(-,G(c))
+  \end{aligned}
+  \,.
+$$
+
+Here the first equality is the definition of $F^\ast$, then the isomorphism is the 
+[[Yoneda lemma]] and the last isomorphism is the one that characterizes the adjunction
+$F \dashv G$.
+
+Here a priori the Kan extension only exists on
 the categories of presheaves, but one checks that for our sites they descent to sheaves. Since the [[coverage]] we use
 is nontrivial only along $CartSp$, the leftmost adjoint quadruple is the only nontrivial one. That it exists is the statement that
 $CartSp$ is an [[infinity-cohesive site]], see the discussion there.
@@ -867,8 +1047,15 @@ $CartSp$ is an [[infinity-cohesive site]], see the discussion there.
 The third diagram inducates that two extra adjoints to _composites_ of functors appear. Here the functor
 $SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the inclusion $CartSp \hookrightarrow SuperFormalCartSp$
 is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$, and for the same reason.
-Similarly then the bottom most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also 
+Similarly then the bottom most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also
 $SuperFormalCartSp$ is an [[infinity-cohesive site]].
+
+
+=--
+
+
+
+
 
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
@@ -1370,11 +1557,18 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 
 =--
 
+
+
+
+
+
+
+
 ## References
 
 ### General
 
-Some historically influential general considerations are in 
+Some historically influential general considerations are in
 
 * [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn 1984
 
@@ -1396,7 +1590,7 @@ The observation that the study of super-structures in mathematics is usefully re
 
 * [[Alexander Voronov]], _Maps of supermanifolds_ , Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 43&#8211;48
 
-and in 
+and in
 
 * V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
 preprints, IC/84/183, 1984.
@@ -1417,10 +1611,10 @@ A summary/review is in the appendix of
 A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
 
 * {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
-  
 
 
-### Supergeometry for field theories with fermions
+
+### For field theories with fermions
 
 Discussion of [[classical field theory]] with [[fermions]] as taking place on [[supermanifolds]] ([[field bundle]], [[phase space]]) includes the following references:
 
@@ -1441,4 +1635,7 @@ Discussion of [[classical field theory]] with [[fermions]] as taking place on [[
 
 
 * {#Sardanashvily16} [[Gennadi Sardanashvily]], _Noether's Theorems: Applications in Mechanics and Field Theory_, Studies in Variational Geometry, 2016
+
+
+
 
