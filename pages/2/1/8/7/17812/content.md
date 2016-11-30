@@ -33,7 +33,7 @@ in parallel to the discussion of ordinary [[differential geometry]] in _[[geomet
 Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
 [[observable universe]] is fundamentally described by
 [[supergeometry]]. Namely the [[Pauli exclusion principle]], in its refined form of the 
-[[spin statistics theorem]] implies that the [[phase space]] of a [[field theory]]
+[[spin-statistics theorem]] implies that the [[phase space]] of a [[field theory]]
 (already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
 is a [[superspace]] whose even-graded [[coordinates]] are the configurations of the [[boson]] fields, while the
 odd-graded coordinates correspond to the configurations of the [[fermion]] fields. It is impossible to have an
@@ -42,8 +42,9 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  This is an old insight:
  The experimental detection of the special properties of [[fermions]] that show their super-geometric nature
  goes back all the way to the [[Stern-Gerlach experiment]] in 1922, which revealed that [[electrons]] are [[spinors]].
- The [[Pauli exclusion principle]] from 1925, says that no two [[spinors]]
- may occupy the exact same [[quantum state]]. Technically this says that the spinor field variable $\psi$ has
+ The [[Pauli exclusion principle]] ([Pauli 1925](#Pauli25)) --[[deduction|deduced]] from the nature of energy levels of [[electrons]]
+ in [[atoms]] --  says that no two such [[spinors]]
+ may occupy the exact same [[quantum state]]. Technically this says that the spinor [[field (physics)|field]] variable $\psi$ has
  to satisfy 
  $$
    \psi \psi = 0
@@ -51,26 +52,28 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  $$  
  A little later it was realized that
  the [[axioms]] of [[local field theory]] _imply_ that all [[spinor]] fields need to be [[fermions]]
- in that for any two classical spinor field variables $\psi_1$, $\psi_2$ then the Grassmann sign rule
+ in that for any two [[classical field theory|classical]] spinor field variables $\psi_1$, $\psi_2$ then the Grassmann sign rule
  holds ([Grassmann 1844](geometry+of+physics+--+-superalgebra#Grassmann1844)):
  $$
    \psi_1 \psi_2 = - \psi_2 \psi_1
  $$
  (which course immediately implies that [[Pauli exclusion principle]]).
  This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
- [Fierz in 1939](spin-statistics+theorem#Fierz39) and [Pauli in 1940](#spin-statistics+theorem#Pauli40).
+ [Fierz in 1939](#Fierz39) and [Pauli in 1940](#Pauli40).
 
  Notice that this phenomenon is not a negligible subtlety: the [[Pauli exclusion principle]]
  is what implies [[stability of matter]] by forcing [[electrons]] in an [[atom]] to fill up
  "orbitals" consecutively as opposed to all falling into the ground state, as a bosonic [[condensate]] would do.
- There would be no [[solid state physics]] without supergeometry of [[phase spaces]], no [[matter]] as we know it.
+ There would be no [[solid state physics]] without supergeometry of [[phase spaces]], no [[solidity|solid]] [[matter]].
  (In addition, the Pauli [[degeneracy pressure]] controls more exotic phenomena, for instance the
   stability of neutron stars against their gravitational collapse.)
 
 As a slogan:
 
 $\,\,\,\,\,\;$ _**The [[geometry]] of [[phase spaces]] for [[fermions]],**_ 
+
 $\,\,\,\,\,\;$ _**hence for [[matter]] fields admitting [[solid state physics|solid states]],**_
+
 $\,\,\,\,\,\;$ _**is [[supergeometry]].**_
 
 Nevertheless, few textbooks make the supergeometric aspect in the physics of fermions explicit.
@@ -82,7 +85,13 @@ _[[supergeometry]]_ is a subject in itself even without presence or mentioning o
 [[Poincaré group]] symmetry. Hence this we discuss independently in _[[geometry of physics -- supersymmetry]]_.
 
 Texts which do make the super-geometric nature of [[fermion fields]] explicit include
-[Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01), [Giachetta-Mangiarotti-Sardanashvily 09, chapter 3](#GiachettaMangiarottiSardanashvily09), [Sardanashvily 12](#Sardanashvily12), [Sardanashvily 16](#Sardanashvily16).
+
+* [Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01), 
+
+* [Giachetta-Mangiarotti-Sardanashvily 09, chapter 3](#GiachettaMangiarottiSardanashvily09), 
+
+* [Sardanashvily 12](#Sardanashvily12), [Sardanashvily 16](#Sardanashvily16).
+
 This we discuss elsewhere.
 
 
@@ -128,7 +137,7 @@ This means that a general superspace is modeled as a [[sheaf]] on the category o
 possibly satisfying some suitable properties. see remark \ref{ASheafAsASpace} below for explanation of this perspective.
 
 
-This means that we follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
+We follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
 where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine schemes]] (its "[[functor of points]]")
 satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[open maps]].
 
@@ -142,9 +151,7 @@ An exception is the approach propagated in [Schwarz 84](#Schwarz84), [Molotkov 8
 of which a clean account is given in [Sachse 08](#Sachse08). These authors consider (pre-)sheaves on the category of
 [[superpoints]]. This gives the "super" in "super-geometry" a functorial interpretation, but the
 (smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
-only half-way.
-
-Here we go all the way. 
+only half-way. Here we go all the way. 
 
 
 
@@ -403,7 +410,7 @@ $$
 where in the last line we renamed $\theta_1 \theta_2$ to $\epsilon$.
 
 This algebra $\mathbb{R}[\epsilon]/(\epsilon^2)$
-is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thought of as the [[algebra of functions]]
+is known as the **[[algebra of dual numbers]]** over $\mathbb{R}$. It is to be thouhgt of as the [[algebra of functions]]
 on a bosonic but [[infinitesimally thickened point]], a 1-dimensional neighbourhood of a point which is "so very small"
 that the canonical [[coordinate]] function $\epsilon$ on it takes values "so tiny" that its square, which is bound to be
 even tinier, is actually indistinguishable from zero.
@@ -2201,7 +2208,9 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 
 ## References
 
-### General
+
+
+### General theory
 
 Some historically influential remarks on [[supergeometry]] are due to
 
@@ -2273,7 +2282,17 @@ The differential geometry formulation via the axioms of [[differential cohesion]
 * [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
-### For field theories with fermions
+### For classical field theories with fermions
+
+The [[experiment|experimental]] observation that [[phase spaces]] of [[classical field theories]] with [[fermions]] (such as [[electrons]] or [[quarks]]) are [[superspaces]] goes back to
+
+* {#Pauli25} [[Wolfgang Pauli]], _&#220;ber den Zusammenhang des Abschlusses der Elektronengruppen im Atom mit der Komplexstruktur der Spektren_, Zeitschrift f&#252;r Physik, February 1925, Volume 31, Issue 1, pp 765-783
+
+* {#Fierz39} [[Markus Fierz]],  _&#220;ber die relativistische Theorie kr&#228;ftefreier Teilchen mit beliebigem Spin_. Helvetica Physica Acta. 12 (1): 3&#8211;37. (1939) [doi:10.5169/seals-110930](https://dx.doi.org/10.5169%2Fseals-110930)
+
+* {#Pauli40} [[Wolfgang Pauli]], _The connection between spin and statistics_, Phys. Rev. 58, 716&#8211;722 (1940)
+
+
 
 Discussion of [[classical field theory]] with [[fermions]] as taking place on [[supermanifolds]] (supergometric [[field bundles]] and [[phase space]]) includes the following references:
 
