@@ -152,3 +152,5 @@ See also online comments by [[David Ben-Zvi]]  [here](http://golem.ph.utexas.edu
 
 [[!redirects de Rham stack]]
 [[!redirects de Rham stacks]]
+
+[[!redirects de Rham shape]]
