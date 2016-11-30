@@ -49,7 +49,7 @@ The functor which sends $R$ to the points of the projective space $\mathbb{P}^n_
 
 * {#Grothendieck65} [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf).
 
-* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FuncAlg.pdf).
+* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf).
 
 
 * {#Lawvere73} [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, [gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228).
