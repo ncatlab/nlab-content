@@ -24,7 +24,9 @@ Here we discuss how to build a fully-fledged theory of [[geometry]] on these aff
 in parallel to the discussion of ordinary [[differential geometry]] in _[[geometry of physics -- smooth sets]]_.
 
 <div style="float:right;margin:0 20px 10px 20px;">
+<a href="#ProgressionOfIdempotentEndofunctors">
 <img src="http://ncatlab.org/schreiber/files/ProgressionOfModalities.jpg" width="200">
+</a>
 </div>
 
 
@@ -81,7 +83,6 @@ Texts which do make the super-geometric nature of [[fermion fields]] explicit in
 
 
 
-
 In the section _[[geometry of physics -- superalgebra]]_ we discussed the [[category]] of **[[affine super schemes]]**
 (in [this definition](geometry+of+physics+--+superalgebra#AffineSuperSchemes))
 
@@ -89,7 +90,6 @@ $$
   Var(sVect_{\mathbb{R}}) \coloneqq sCalg_k^{op} = CMon(sVect_{\mathbb{R}})
   \,.
 $$
-
 
 
 Here we use these as local model spaces to develop [[geometry]] locally modeled on affine superschemes.
@@ -114,7 +114,28 @@ $$
 
 These serve as our "abstract super-coordinate systems" that define [[supergeometry]] in direct analogy to how ordinary [[Cartesian spaces]] serve as the abstract coordinate systems that define [[differential geometry]] as found at
 _[[geometry of physics -- coordinate systems]]_  and_[[geometry of physics -- smooth sets]]_.
-We now discuss this in detail.
+
+This means that a general superspace is modeled as a [[sheaf]] on the category of super Cartesian spaces, 
+possibly satisfying some suitable properties. see remark \ref{ASheafAsASpace} below for explanation of this perspective.
+
+
+This means that we follow the perspective of "**[[functorial geometry]]**" due to ([Grothendieck 65](#Grothendieck65)),
+where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine schemes]] (its "[[functor of points]]")
+satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[open maps]].
+
+Beware that -- despite the urging in [Grothendieck 73](#Grothendieck73) that the definition of [[schemes]] as
+[[locally ringed spaces]] should be abandoned in favour of the perspective of [[functorial geometry]] -- most textbooks on [[supergeomtry]]
+do stick with the point of view of [[locally ringed spaces]].
+(One might argue that in smooth supergeometry this is a particularly heavy violation of [Grothendieck's urging](#Grothendieck73),
+since, in contrast to algebraic schemes, every supermanifold is already affine.)
+
+An exception is the approach propagated in [Schwarz 84](#Schwarz84), [Molotkov 84](#Molotkov84), [Konechny-Schwarz 97](KonechnySchwarz97)
+of which a clean account is given in [Sachse 08](#Sachse08). These authors consider sheaves just on the category of
+[[superpoints]]. This gives the "super" in "super-geometry" a good functorial interpretation, but the
+(smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
+only half-way.
+
+
 
 
 ## Super Cartesian spaces
@@ -746,16 +767,18 @@ $$
 ## Super smooth sets
  {#SuperSmoothSets}
 
-
 [Above](#CoordinareSystemsSuperCartesianSpaces) we discussed ([[formal manifold|formal]]) [[super Cartesian spaces]]. What we are after is geometry which is "locally modeled" on these. In order to do so we
 
 1. consider very general [[superspaces]] whose collection forms a "good category" (the [[sheaf topos]] over super Cartesian space) in that lots of [[universal constructions]] on general superspaces ([[limits]], [[colimits]]) still yield general superspaces;
 
 2. use special properties of this nice category ([[differential cohesion]]) in order to characterize and construct the good, tame superspaces, such as actual [[supermanifolds]].
 
+
 The construction proceeds in direct anology to the non-super version discussed at _[[geometry of physics -- smooth sets]]_
 and at _[[geometry of physics -- manifolds and orbifolds]]_. For reference we first briefly recall this bosonic situation.
 
+The following simple definitions \ref{Smooth0Type} and \ref{FormalSmoothSets} are key to the whole theory. They embody the perspective of _[[functorial geometry]]_ ([Grothendieck 65](#Grothendieck65)).
+See remark \ref{ASheafAsASpace} below for exegesis and illustration.
 
 
 +-- {: .num_defn #SiteCartSp}
@@ -780,7 +803,7 @@ for the [[sheaf topos]] of all these.
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #ASheafAsASpace}
 ###### Remark
 
 The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
@@ -815,7 +838,7 @@ $$
   }
 $$
 
-which we are to think of as being the precomosition operation
+which we are to think of as being the precomposition operation
 
 $$
   (\text{"}\mathbb{R}^{n_2} \stackrel{\phi}{\to} X\text{"})
@@ -826,7 +849,7 @@ $$
 
 This is required to satisfy the evident conditions that [[composition]] and [[identity]] is respected, in that
 $(g \circ f)^\ast = g^\ast \circ f^\ast $ and $id^\ast = id$. Together these conditions say that $X$ is a
-[[presheaf]].
+[[presheaf]] on the category of test spaces -- the "[[functor of points]]" [Grothendieck 65](#Grothendieck65). 
 
 In addition, the requirement that $X$ be a [[sheaf]] on the [[site]] of Cartesian space from def. \ref{SiteCartSp}
 means that the assignment $\mathbb{R}^n \mapsto X(\mathbb{R}^n)$ knows that one coordinate system
@@ -1279,7 +1302,7 @@ The result is a system of 9 endofunctors, or 12 if we inclue the trivial extrema
 They form the following diagram and this defines our notation for the remaining ones not
 given a name yet:
 
-+-- {: .num_defn #AdditiveAndAbelianCategories}
++-- {: .num_defn #ProgressionOfIdempotentEndofunctors}
 ###### Definition
 
 We denote the system of [[adjoint]] [[idempotent monads]] and [[idempotent comonads]]
@@ -1319,7 +1342,7 @@ $$
     \\
     &\stackrel{fermionic}{}& \rightrightarrows &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
     \\
-    && \bot && \bot
+    && \bot &\stackrel{solidity}{}& \bot
     \\
     &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
     \\
@@ -1327,7 +1350,7 @@ $$
     \\
     &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
     \\
-    && \bot && \bot
+    && \bot &\stackrel{elasticity}{}& \bot
     \\
     &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
     \\
@@ -1335,9 +1358,9 @@ $$
     \\
     &\stackrel{connected}{}& &#643; &\dashv& \flat & \stackrel{disconnected}{}
     \\
-    && \bot && \bot
+    && \bot &\stackrel{cohesion}{}& \bot &&
     \\
-    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{differential}{}
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{continuous}{}
     \\
     && \vee && \vee
     \\
@@ -1345,12 +1368,183 @@ $$
   }
 $$
 
-where "$\vee$" denotes inclusion of [[modal types]]. The first level is [[cohesion]], the second is [[differential cohesion]] ([[elasticity]]), the third is [[solidity]].
+Next we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
+
+## Supermanifolds
+
+We now define and then discuss the analog of [[smooth manifolds]] in [[supergeometry]] -- [[supermanifolds]].
+In the spirit of the entire presentation, we do so by applying a [[general abstract]] definition of
+"$V$-manifolds" or "$V$-scheme" locally modeled on any given kind of model spaces to the special 
+case where the local model spaces are [[super Cartesian spaces]] as discussed above.
+This general method is also discussed at _[[geometry of physics -- manifolds and orbifolds]]_,
+but we recall the relevant points below.
+
+
+There are two perspectives on [[schemes]]
+
+See also at _[[geometry of physics -- manifolds and orbifolds]]_.
+
++-- {: .num_defn #LocalDiffeomorphisms}
+###### Definition
+
+Given $X,Y\in \mathbf{H}$ then a morphism $f \;\colon\; X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
+
+$$
+  \array{
+    X &\longrightarrow& \Im X
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \\
+    Y &\longrightarrow& \Im Y
+  }
+$$
+
+is a [[pullback]] square.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The abstract definition \ref{LocalDiffeomorphisms} comes down to being the appropriate [[synthetic differential supergeometry]]-version  of the traditional statement that $f$ is a [[local diffeomorphism]] if the diagram of [[tangent bundles]]
+
+$$
+  \array{
+    T X &\longrightarrow& X
+    \\
+    \downarrow^{\mathrlap{T f}} && \downarrow^{\mathrlap{f}}
+    \\
+    T Y &\longrightarrow& Y
+  }
+$$
+
+To see this, notice by the discussion at _[[synthetic differential geometry]]_ that for $D$ an [[infinitesimally thickened point]], then for any $X \in \mathbf{H}$ the [[mapping space]] $[D,X]$ is the [[jet bundle]] of $X$ with jets of order as encoded by the infinitesimal order of $D$. In particular if $\mathbb{D}^1(1)$ is the first order infinitesimal interval defined by the fact that its [[algebra of functions]] is the [[algebra of dual numbers]] $C^\infty(\mathbb{D}^1(1)) = (\mathbb{R} \oplus \epsilon \mathbb{R})/(\epsilon^2)$, and $X$ is a [[smooth manifold]], then
+
+$$
+  [\mathbb{D}^1(1), X]\simeq T X
+$$
+
+is the ordinary [[tangent bundle]] of $X$. Now use that the [[internal hom]] $[D,-]$ preserves [[limits]] in its second argument, and that, by the hom-adjunction, $\mathbf{H}(U, [D,X]) \simeq \mathbf{H}(U \times D, X)$ and finally use that $\mathbf{H}(U \times D, \Im X)\simeq \mathbf{H}(\Re(U \times D), X)\simeq \mathbf{H}(U,X)$.
+
+
+=--
+
+Let now $V \in \mathbf{H}$ be given, equipped with the structure of a [[group object]]
+
++-- {: .num_defn #VManifold}
+###### Definition
+
+A _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
+
+$$
+  \array{
+    && U
+    \\
+    & \swarrow && \searrow
+    \\
+    V && && X
+  }
+$$
+
+with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]], hence an [[atlas]].
+
+=--
+
+There are some further relations between the modalities to take note of:
+
++-- {: .num_prop #Sublations}
+###### Proposition
+
+We have the following [[Aufhebung]]-relations:
+
+* $\sharp \emptyset \simeq \emptyset$ (the [[codiscrete objects]] form a [[dense subtopos]])
+
+* $\rightsquigarrow \Im \simeq \Im$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For any $X \in \mathbf{H}$ and any $U \times D_s\in CartSp \rtimes SuperInfPoint \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
+
+$$
+  \begin{aligned}
+    \mathbf{H}(U \times D_s , \stackrel{\rightsquigarrow}{\Im X})
+    & \simeq
+    \mathbf{H}(\stackrel{\rightrightarrows}{U \times D_s} , \Im X)
+    \\
+    &\simeq
+    \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times D_s}) , X)
+    \\
+    & \simeq
+    \mathbf{H}(U, X)
+    \\
+    & \simeq
+    \mathbf{H}(\Re(U \times D_s), X)
+    \\
+    & \simeq \mathbf{H}(U \times D_s, \Im X)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #BosonicModalityPreservesLocalDiffeomorphism}
+###### Proposition
+
+If $f \;\colon\; X \longrightarrow Y$ is a [[local diffeomorphism]],
+def. \ref{LocalDiffeomorphisms}, then so is its image
+$\stackrel{\rightsquigarrow}{f}\colon \stackrel{\rightsquigarrow}{X} \longrightarrow \stackrel{\rightsquigarrow}{Y}$ under the [[bosonic modality]].
+
+=--
+
++-- {: .proof }
+###### Proof
+
+Since the [[bosonic modality]] provides [[Aufhebung]] for $\Re\dashv \Im$ by prop. \ref{Sublations} we have $\rightsquigarrow \Im \simeq \Im$. Moreover $\Im \rightsquigarrow \simeq \Im$ anyway. Finally $\rightsquigarrow$ preserves [[pullbacks]] (being in particular a [[right adjoint]]). Hence hitting a pullback diagram
+
+$$
+  \array{
+    X &\longrightarrow& \Im X
+    \\
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\Im f}}
+    \\
+    Y &\longrightarrow& \Im Y
+  }
+$$
+
+with $\rightsquigarrow\;\;$ yields a pullback diagram
+
+$$
+  \array{
+    \stackrel{\rightsquigarrow}{X} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{X}
+    \\
+    \downarrow^{\mathrlap{\stackrel{\rightsquigarrow}{f}}} && \downarrow^{\mathrlap{\Im \stackrel{\rightsquigarrow}{f}}}
+    \\
+    \stackrel{\rightsquigarrow}{Y} &\longrightarrow& \Im \stackrel{\rightsquigarrow}{Y}
+  }
+$$
+
+=--
+
++-- {: .num_cor }
+###### Corollary
+
+The bosonic space $\stackrel{\rightsquigarrow}{X}$ underlying
+a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-manifold
+
+=--
+
+
 
 
 
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
+
+spring
 
 Recall from def. \ref{SuperCartesianSpace}:
 
@@ -1870,22 +2064,25 @@ Introductory lecture notes include
 
 * [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
 
+Many texts discuss supergeometry only in the context of [[supersymmetry]], but notice that the former exists and is relevant even if the latter does not or is not. 
+
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 * L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
 
 
 ### In the topos over superpoints
+ {#ReferencesOverSuperpoints}
 
 The observation that the study of super-structures in mathematics is usefully regarded as taking place over the [[base topos]] on the [[site]] of [[super points]] has been made around 1984 in
 
-* [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
+* {#Schwarz84} [[Albert Schwarz]], _On the definition of superspace_, Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 37&#8211;42, ([russian original pdf](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
 * [[Alexander Voronov]], _Maps of supermanifolds_ , Teoret. Mat. Fiz. (1984)  Volume 60,  Number 1, Pages 43&#8211;48
 
 and in
 
-* V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
+* {#Molotkov84} V. Molotkov., _Infinite-dimensional $\mathbb{Z}_2^k$-supermanifolds_ , ICTP
 preprints, IC/84/183, 1984.
 
 
@@ -1903,8 +2100,28 @@ A summary/review is in the appendix of
 
 A review of all this as geometry in the [[topos]] over the category of [[superpoints]] is in
 
-* {#Sachse} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
+* {#Sachse08} [[Christoph Sachse]], _A Categorical Formulation of Superalgebra and Supergeometry_ ([arXiv:0802.4067](http://arxiv.org/abs/0802.4067))
 
+### In the topos over super Cartesian spaces
+
+The [above](#ReferencesOverSuperpoints) perspective of supergeometry in the topos over superpoints is a restriction of the
+perspective in the topos over [[super Cartesian spaces]] which we use here. This in turn is
+essentially just the specification of [[Alexander Grothendieck]]'s concept of "[[functorial geometry]]" as laid out in
+
+* {#Grothendieck65} [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf).
+
+to [[supercommutative superalgebra]]. Grothendieck amplified that this functorial perspective is superior to the
+perspective on schemes as [[locally ringed spaces]] in the lecture
+
+* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FuncAlg.pdf).
+
+Further amplification of Grothendieck's amplification may be found in the short text
+
+* {#Lawvere03} [[William Lawvere]], _Grothendieck's 1973 Buffalo Colloquium_, posting to the mailing list _categories@mta.ca_, March 2003 ([gmane archive](http://permalink.gmane.org/gmane.science.mathematics.categories/2228))
+
+The differential geometry formulation via the axioms of [[differential cohesion]] that we use here follows
+
+* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_
 
 
 ### For field theories with fermions
