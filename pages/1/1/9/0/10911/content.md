@@ -70,7 +70,7 @@ There are claims that numerical computer simulations show that the IKKT model pr
 
 * S.-W. Kim, J. Nishimura, and A. Tsuchiya, _Late time behaviors of the expanding universe in the IIB matrix model_, JHEP 10, 147 (2012), ([arXiv:1208.0711](https://arxiv.org/abs/1208.0711)).
 
-
+* Yuta Ito, Jun Nishimura, Asato Tsuchiya, _Large-scale computation of the exponentially expanding universe in a simplified Lorentzian type IIB matrix model_ ([arXiv:1512.01923](https://arxiv.org/abs/1512.01923))
 
 [[!redirects IIB matrix model]]
 
