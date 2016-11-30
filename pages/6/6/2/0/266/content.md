@@ -610,7 +610,7 @@ As a concrete example, let $V=Cat$, so that $V Cat = 2 Cat$; then comma objects 
 
 Let $\mathcal{V}$ be a suitable enriching category (a [[cosmos]]). Notably $\mathcal{V}$ may be [[Set]].
 
-+-- {: .num_prop}
++-- {: .num_prop #LeftKanExtensionBasicProp}
 ###### Proposition
 
 For $F : C \to D$ a $\mathcal{V}$-[[enriched functor]] between [[small category|small]] $\mathcal{V}$-[[enriched categories]] we have
