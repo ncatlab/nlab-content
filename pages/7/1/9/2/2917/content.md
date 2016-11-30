@@ -1,14 +1,21 @@
-<div class="rightHandSide toc">
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Super-Geometry
++--{: .hide}
 [[!include supergeometry - contents]]
-</div>
+=--
+=--
+=--
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea ##
 
-The _shifted tangent bundle_ $\Pi T X$ of a [[manifold]] $X$ is an incarnation of the ordinary [[tangent bundle]] of $X$ as a [[supermanifold]] with the underlying manifold in even degree and the tangent vectors in odd degree.
+The _shifted tangent bundle_ or _odd tangent bundle_ $\Pi T X$ of a [[manifold]] $X$ is an incarnation of the ordinary [[tangent bundle]] of $X$ as a [[supermanifold]] with the underlying manifold in even degree and the tangent vectors in odd degree.
 
 ## Definition ##
 
@@ -21,6 +28,8 @@ $$
 $$
 
 More precisely, for each open $U \subset X$ the value of the [[structure sheaf]] of $\Pi T X$ is $\Omega^\bullet(U)$.
+
+For more details see at _[[geometry of physics -- supergeometry]]_.
 
 ## Alternative characterizations ##
 
@@ -50,3 +59,9 @@ $$
 is the [[internal hom]] object in the category of [[supermanifold]]s of maps from $\mathbb{R}^{0|1}$ to $X$. More precisely this means that the [[internal hom]] which exists in the [[closed monoidal structure on presheaves]] on the category of supermanifolds, between the presheaves [[representable functor|represented by]] $\mathbb{R}^{0|1}$ and $X$, is itself [[representable functor|representable]] and is represented by $\Pi T X$.
 
 The existence of the structure of an [[NQ-supermanifold]] is from this point of view a consequence of the fact that $[\mathbb{R}^{0|1},X]$ naturally carries an action of the [[endomorphism]] object $End(\mathbb{R}^{0|1})$.  For more on this see [[NQ-supermanifold]].
+
+[[!redirects shifted tangent bundles]]
+
+
+[[!redirects odd tangent bundle]]
+[[!redirects odd tangent bundles]]
