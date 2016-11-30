@@ -274,6 +274,9 @@ $$
   \,.
 $$
 
+Here and in the following we display pairs of [[adjoint functors]] such that the [[left adjoint]] is on top
+and the right adjoint is on the bottom.
+
 The [[formal dual]] of this statement is that [[affine superschemes]] are related to ordinary [[affine schemes]]
 over $\mathbb{R}$ by an [[adjoint cylinder]] of this form
 
@@ -611,8 +614,52 @@ Just as formal Cartesian spaces may be thought of as local model spaces for [[sy
 [[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
 This we come to [below](#SuperSmoothSets).
 
+For completeness it is useful to compare the [[coreflectve subcategory|coreflection]] of prop. \ref{CartSpCoreflectiveInclusion}
+to the following simple [[reflective subcategory|reflection]].
 
-In conclusion, the various [[extra structure]] on local model spaces (abstract coordinate systems) which we
+Write 
+
+$$
+  \ast \in Cat
+$$ 
+
+for the [[category]] with a single object and a single morphism (the [[identity]]) on that object.
+We will think of this as the category containing just the point space, which we want to think
+of as the local model space for _[[discrete topological space|discrete geometry]]_.
+
+
++-- {: .num_prop #ReflectionOfPointInCartSp}
+###### Proposition
+
+There is a pair of [[adjoint functors]]
+
+$$
+  \ast
+    \underoverset
+      {\underset{}{\hookrightarrow}}
+      {\overset{\pi}{\longleftarrow}}
+      {}
+  &&
+  CartSp
+$$
+
+into the category of [[Cartesian spaces]],
+where the bottom functor sends the unique object to the point $\mathbb{R}^0$, and where its [[left adjoint]] on 
+top is, necessarily, the unique functor constant on the unique object on the left.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[natural isomorphism]] between [[hom sets]] characterizing this pair of [[adjoint functors]]
+simply expresses the fact that $\mathbb{R}^0$ is the [[terminal object]] in $CartSp$, hence that
+for $\mathbb{R}^n$ any [[Cartesian space]], then there is a unique [[smooth function]] of the form
+$\mathbb{R}^n \to \mathbb{R}^0$.
+
+=--
+
+In conclusion, the various [[extra structures]] on local model spaces (abstract coordinate systems) which we
 considered is organized in the following [[diagram]].
 
 +-- {: .num_prop #SystemOfSites}
@@ -621,8 +668,9 @@ considered is organized in the following [[diagram]].
 
 The [[coreflective subcategory]] inclusion of [[Cartesian spaces]] into
 [[formal manifold|formal]] [[Cartesian spaces]] from prop. \ref{CartSpCoreflectiveInclusion}
-and the coreflective as we all [[reflective subcategory]] inclusion
+and the coreflective as well as [[reflective subcategory]] inclusion
 of affine schemes into [[affine superschemes]] from prop. \ref{AdjointCylinderOnSuperAffines}
+and the terminal inclusion of prop. \ref{ReflectionOfPointInCartSp}
 combine to give the following system of [[adjoint functors]] on our local model spaces
 
 $$
@@ -681,13 +729,6 @@ $$
 $$
 
 =--
-
-
-
-
-
-
-
 
 
 
@@ -808,7 +849,7 @@ One also says that $X$ [[representable functor|represents]] a sheaf on $CartSp$,
 This defines a [[full subcategory]] inclusion of Cartesian spaces into smooth sets
 
 $$
-  CartSp \hookrightarrow Smooth0Type
+  y \;\colon\; CartSp \hookrightarrow Smooth0Type
 $$
 
 called the _[[Yoneda embedding]]_.
@@ -945,7 +986,24 @@ In analogy with def. \ref{Smooth0Type} we say that
 
 The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
 
+We have now defined four sites 
+and considered the corresponding [[categories of sheaves]] (noticing that $Sh(\ast) = $ [[Set]])
 
+$$
+  \array{
+    & \ast & CartSp & FormalCartSp & SuperFormalCartSp
+    \\
+    {}^{\mathllap{Sh(-)}}\downarrow 
+    \\
+    Set & SmoothSet & FormalSmoothSet & SuperFormalSmoothSet
+  }
+  \,.
+$$ 
+
+Moreover, by prop. \ref{SystemOfSites} these four sites form a [[filtration]] of the site $SuperFormalCartSp$
+by consecutively smaller subsites, where each inlcusion is either [[reflectiv subcategory|reflective]]
+or [[coreflective subcategory]] or both. The following states how this filtration of sites
+extends to their categories of sheaves.
 
 +-- {: .num_prop}
 ###### Proposition
@@ -954,10 +1012,11 @@ There exists an essentially unique system of [[functors]] between the categories
 [[smooth sets]] (def. \ref{Smooth0Type}), formal smooth sets and super formal smooth sets (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
-1. every moprhism show _below_ another morphism is [[right adjoint]] to the top morphism;
+1. every moprhism _below_ another morphism is [[right adjoint]] to the top morphism;
 
-1. on [[representables]] the functors coincide with the corresponding functors between [[sites]] shown
-   in the first row (from prop. \ref{SystemOfSites}).
+1. on [[representables]] the top two functors on the left, the top two functors in the middle,
+and the top thre functors on the right coincide with the corresponding functors between [[sites]] shown
+   in the first row (from prop. \ref{SystemOfSites}):
 
 <img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
 
@@ -970,29 +1029,30 @@ as shown in the second and third row of the following diagram, such that
 The functors between the [[sheaf toposes]] are given by left and right [[Kan extensions]] of sheaves along the
 functors between the [[sites]]:
 
-For a single functor $F \colon \mathal{C} \to \mathcal{D}$ precomposition with this functor
-defines a functor $F^\ast \colon PSh(\mathcal{D}) \to PSh(\mathcal{C})$ and this has both a [[left adjoint]]
+For a single functor $F \colon \mathcal{C} \to \mathcal{D}$ precomposition with this functor
+defines a functor of presheaves of the form $F^\ast \colon PSh(\mathcal{D}) \to PSh(\mathcal{C})$ and this has both a [[left adjoint]]
 and a [[right adjoint]] called the left and right [[Kan extension]] $F_!$ and $F^\ast$, respectively
-(an [[adjoint triple]]).
+(forming an [[adjoint triple]]):
 
 $$
   PSh(\mathcal{C})
-    &
+  \;
     \underoverset
      {\underset{\phantom{AA}F_\ast\phantom{AA}}{\longrightarrow}}
      {\overset{\phantom{AA}F_!\phantom{AA}}{\longrightarrow}}
      {\overset{\phantom{AA}F^\ast\phantom{AA}}{\longleftarrow}}
-    &
+  \;
   PSh(\mathcal{D})
   \,.
 $$
 
 It is a basic fact of [[category theory]] ([this prop](Kan+extension#LeftKanExtensionBasicProp)) that on representables $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$
-then $F_!(y(c)) = y(F(c))$. Moreover, since every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]")
+left Kan extension coincides with the underlying functr: $F_!(y(c)) = y(F(c))$. 
+Moreover, since every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]")
 and since left adjoint functors preserve [[colimits]], this property completely characterizes the left Kan extension.
 
 
-Now if $F$ itself has a [[right adjoint]]
+Now if the functor $F$ has itself has a [[right adjoint]] $G$
 
 $$
   \mathcal{C}
@@ -1003,7 +1063,7 @@ $$
   \mathcal{D}
 $$
 
-then the two [[adjoint triples]] induced by both functors overlap to give an [[adjoint quadruple]]
+then the two [[adjoint triples]] induced by both functors via [[Kan extension]] overlap to give an [[adjoint quadruple]]
 in that there are [[natural isomorphisms]] of the form
 
 $$
@@ -1013,11 +1073,10 @@ $$
 
 To see this, it is sufficient to see the left hand side. It implies the right hand side because [[adjoint functors]]
 are essentially unique, if they exist. Moreover, since both functors on the left are [[left adjoints]]
-which hence preserve [[colimits]] and since all presheaves are [[colimits]] of [[representable functors|representables]]
+which hence preserve [[colimits]] and since all presheaves are [[colimits]] of [[representable functors|representables]],
 it is sufficient to check this natural isomorphisms on representables.
-
-Hence for any $X \in \mathcal{D} \overset{y}{\hookrightarrow} PSh(\mathcal{D})$ 
-and $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$ we check that 
+Hence for any $X \in \mathcal{D} \overset{y}{\hookrightarrow} PSh(\mathcal{D})$
+and $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$ we check that
 we have the following [[natural isomorphism]]
 
 $$
@@ -1030,25 +1089,35 @@ $$
     Hom(F(c),X)
     \\
     & \simeq
-    Hom(-,G(c))
+    Hom(c,G(X))
+    \\
+    & \simeq
+    G(X)(c)
   \end{aligned}
   \,.
 $$
 
-Here the first equality is the definition of $F^\ast$, then the isomorphism is the 
-[[Yoneda lemma]] and the last isomorphism is the one that characterizes the adjunction
-$F \dashv G$.
+Here the first equality is the definition of $F^\ast$, then the first isomorphism is the
+[[Yoneda lemma]], the second isomorphism is the one that characterizes the adjunction
+$F \dashv G$, and the last isomorphism is again the Yoneda lemma.
 
-Here a priori the Kan extension only exists on
-the categories of presheaves, but one checks that for our sites they descent to sheaves. Since the [[coverage]] we use
-is nontrivial only along $CartSp$, the leftmost adjoint quadruple is the only nontrivial one. That it exists is the statement that
-$CartSp$ is an [[infinity-cohesive site]], see the discussion there.
+So far this shows that there is a system of [[adjoint quadruples]] on _[[categories of presheaves]]_
+as shown in the middle row above.
 
-The third diagram inducates that two extra adjoints to _composites_ of functors appear. Here the functor
+That the middle and the right adjoint quadrupleoon presheaves restricts to [[sheaves]] follows
+directly from the nature of the sites in def. \ref{FormalSmoothSets}, since the [[coverages]]
+are trivial "along the infinitsimal diretions". That also the left adjoint quadruple descends
+to sheaves is the statement that $CartSp$ with its [[good open cover]] [[coverage]] is 
+a _[[cohesive site]]_ (see there).
+
+This establishes the system of adjoints in the second row.
+
+The diagram in the third row states that two extra adjoints to _composites_ of functors appear. Here the functor
 $SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the inclusion $CartSp \hookrightarrow SuperFormalCartSp$
-is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$, and for the same reason.
-Similarly then the bottom most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also
-$SuperFormalCartSp$ is an [[infinity-cohesive site]].
+is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$ from prop. \ref{CartSpCoreflectiveInclusion}, 
+and for the same reason.
+Similarly then the bottom-most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also
+$SuperFormalCartSp$ is a [[cohesive site]], and again for the same reason that $CartSp$ is.
 
 
 =--
@@ -1568,7 +1637,7 @@ This is an issue to be dealt with when describing [[supergravity]] in terms of C
 
 ### General
 
-Some historically influential general considerations are in
+Some historically influential remarks on [[supergeometry]] are due to
 
 * [[Yuri Manin]], _[[New Dimensions in Geometry]]_, talk at Arbeitstagung, Bonn 1984
 
@@ -1576,11 +1645,12 @@ Introductory lecture notes include
 
 * [[Yuri Manin]], chapter 4 of _[[Gauge Field Theory and Complex Geometry]]_, Grundlehren der Mathematischen Wissenschaften 289, Springer 1988
 
+* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
+
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
 
 * L. Caston, R. Fioresi, _Mathematical Foundations of Supersymmetry_ ([arXiv:0710.5742](http://arxiv.org/abs/0710.5742))
 
-* [[Gennadi Sardanashvily]], _Lectures on supergeometry_ ([arXiv:0910.0092](http://arxiv.org/abs/0910.0092))
 
 ### In the topos over superpoints
 
