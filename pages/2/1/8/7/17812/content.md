@@ -32,20 +32,27 @@ in parallel to the discussion of ordinary [[differential geometry]] in _[[geomet
 
 Apart from the abstract mathematical motivation for supergeometry, it is also an observational fact that the
 [[observable universe]] is fundamentally described by
-[[supergeometry]]. Namely the [[Pauli exclusion principle]] implies that the [[phase space]] of a [[field theory]]
+[[supergeometry]]. Namely the [[Pauli exclusion principle]], in its refined form of the 
+[[spin statistics theorem]] implies that the [[phase space]] of a [[field theory]]
 (already of a [[classical field theory]]) with [[fermion]] [[field (physics)|fields]] (such as that of [[electrons]] and [[quarks]])
 is a [[superspace]] whose even-graded [[coordinates]] are the configurations of the [[boson]] fields, while the
 odd-graded coordinates correspond to the configurations of the [[fermion]] fields. It is impossible to have an
 [[action functional]] for fermion fields as a function on a non-super ([[infinite-dimensional manifold|infinite-dimensional]])-[[manifold]].
 
+ This is an old insight:
  The experimental detection of the special properties of [[fermions]] that show their super-geometric nature
  goes back all the way to the [[Stern-Gerlach experiment]] in 1922, which revealed that [[electrons]] are [[spinors]].
- An early theoretical formulation is the [[Pauli exclusion principle]] from 1925, which says that no two spinors
+ The [[Pauli exclusion principle]] from 1925, says that no two [[spinors]]
  may occupy the exact same [[quantum state]]. Technically this says that the spinor field variable $\psi$ has
- to satisfy $\psi \psi = 0$. A little later it was realized that
+ to satisfy 
+ $$
+   \psi \psi = 0
+   \,.
+ $$  
+ A little later it was realized that
  the [[axioms]] of [[local field theory]] _imply_ that all [[spinor]] fields need to be [[fermions]]
  in that for any two classical spinor field variables $\psi_1$, $\psi_2$ then the Grassmann sign rule
- holds (([Grassmann 1844](geometry+of+physics+--+-superalgebra#Grassmann1844))):
+ holds ([Grassmann 1844](geometry+of+physics+--+-superalgebra#Grassmann1844)):
  $$
    \psi_1 \psi_2 = - \psi_2 \psi_1
  $$
@@ -62,8 +69,9 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
 
 As a slogan:
 
-$\,\,\,\,\,\;$ _**The [[geometry]] of [[phase spaces]] for [[fermions]], hence for [[matter]] fields
-admitting [[solid state physics|solid states]], is [[supergeometry]].**_
+$\,\,\,\,\,\;$ _**The [[geometry]] of [[phase spaces]] for [[fermions]],**_ 
+$\,\,\,\,\,\;$ _**hence for [[matter]] fields admitting [[solid state physics|solid states]],**_
+$\,\,\,\,\,\;$ _**is [[supergeometry]].**_
 
 Nevertheless, few textbooks make the supergeometric aspect in the physics of fermions explicit.
 Some discuss it only after [[quantization]] (and some will even claim that femion fields do not exist classically);
@@ -71,10 +79,11 @@ some only discuss it in the context of [[spacetime]] [[supersymmetry]]. But noti
 _[[supergeometry]]_ is a subject in itself even without presence or mentioning of spacetime [[supersymmetry]]
 (which is [[super Poincaré group]] [[symmetry]]), just as
 [[differential geometry]] is a subject in itself even without the presence or mentioning of
-[[Poincaré group]] symmetry.
+[[Poincaré group]] symmetry. Hence this we discuss independently in _[[geometry of physics -- supersymmetry]]_.
 
 Texts which do make the super-geometric nature of [[fermion fields]] explicit include
 [Deligne-Freed 99, &#167;3.4](#DeligneFreed99), [Freed 01, lecture 4](#Freed01), [Giachetta-Mangiarotti-Sardanashvily 09, chapter 3](#GiachettaMangiarottiSardanashvily09), [Sardanashvily 12](#Sardanashvily12), [Sardanashvily 16](#Sardanashvily16).
+This we discuss elsewhere.
 
 
 #Supergeometry#
@@ -124,16 +133,18 @@ where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine sche
 satisfying the condition that it is covered by ([[representable functor|representables]] of) offines, via [[open maps]].
 
 Beware that -- despite the urging in [Grothendieck 73](#Grothendieck73) that the definition of [[schemes]] as
-[[locally ringed spaces]] should be abandoned in favour of the perspective of [[functorial geometry]] -- most textbooks on [[supergeomtry]]
+[[locally ringed spaces]] should be abandoned in favour of the perspective of [[functorial geometry]] -- most textbooks on [[supergeometry]]
 do stick with the point of view of [[locally ringed spaces]].
 (One might argue that in smooth supergeometry this is a particularly heavy violation of [Grothendieck's urging](#Grothendieck73),
 since, in contrast to algebraic schemes, every supermanifold is already affine.)
 
 An exception is the approach propagated in [Schwarz 84](#Schwarz84), [Molotkov 84](#Molotkov84), [Konechny-Schwarz 97](KonechnySchwarz97)
-of which a clean account is given in [Sachse 08](#Sachse08). These authors consider sheaves just on the category of
-[[superpoints]]. This gives the "super" in "super-geometry" a good functorial interpretation, but the
+of which a clean account is given in [Sachse 08](#Sachse08). These authors consider (pre-)sheaves on the category of
+[[superpoints]]. This gives the "super" in "super-geometry" a functorial interpretation, but the
 (smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
 only half-way.
+
+Here we go all the way. 
 
 
 
@@ -805,13 +816,14 @@ for the [[sheaf topos]] of all these.
 
 +-- {: .num_remark #ASheafAsASpace}
 ###### Remark
+**([[functorial geometry]])**
 
 The useful way to think of def. \ref{Smooth0Type} in the present context is as defining a kind of [[generalized smooth space]] which is _defined_ by which smooth functions from Cartesian spaces it receives (see also at _[[motivation for sheaves, cohomology and higher stacks]]_ for more exposition of this point).
 
 Namely a smooth set $X$ in the sense of def. \ref{Smooth0Type} is first of all a rule
 
 $$
-  \mathbb{R}^p \maptos X(\mathbb{R}^p) \in Set
+  \mathbb{R}^p \mapsto  X(\mathbb{R}^p) \in Set
 $$
 
 which assigns a set to each Cartesian space. We are to think of this set as the set of smooth functions "$\mathbb{R}^n \stackrel{}{\to} X$", only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
@@ -904,7 +916,7 @@ of "smooth functions by fiat" (maps with quotation marks) and the actual [[hom-s
 (maps without quotation mark).
 
 That these two sets are in fact in [[natural bijection]], hence that the interpretation of a sheaf $X$ as a generalized smooth space
-is consistent, is the statement of the _[[Yoneda lemma]]_
+is consistent, is the statement of the _[[Yoneda lemma]]_:
 
 $$
   Hom_{Smooth0Type}(\mathbb{R}^n, X)
@@ -915,7 +927,7 @@ $$
   \,.
 $$
 
-Hence we may remove the quotation marks:
+Hence the [[Yoneda lemma]] says that we may remove the quotation marks:
 
 $$
   X(\mathbb{R}^n)
@@ -1306,7 +1318,7 @@ given a name yet:
 ###### Definition
 
 We denote the system of [[adjoint]] [[idempotent monads]] and [[idempotent comonads]]
-on $SuperFormalSmoothset$ that induced from the
+on $SuperFormalSmoothset$ that is induced via the above procedure from the
 system of adjunctions in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} as follows:
 
 $$
@@ -1316,6 +1328,8 @@ $$
     \vee && \vee
     \\
     \rightrightarrows &\dashv& \rightsquigarrow &\dashv& Rh
+    \\
+    && \vee && \vee
     \\
     && \Re &\dashv& \Im &\dashv& E\!t
     \\
@@ -1329,9 +1343,7 @@ $$
   }
 $$
 
-=--
-
-Sometimes it is useful to re-arrange this diagram equivalently as follows. Here we label each 
+Sometimes it is useful to re-arrange this diagram equivalently as follows. Here we label each
 projection operator by the property of superspaces that it "projects out".
 
 $$
@@ -1368,6 +1380,9 @@ $$
   }
 $$
 
+=--
+
+
 Next we use these operations to identify within all generalized superspaces those that are [[supermanifolds]].
 
 ## Supermanifolds
@@ -1379,15 +1394,130 @@ case where the local model spaces are [[super Cartesian spaces]] as discussed ab
 This general method is also discussed at _[[geometry of physics -- manifolds and orbifolds]]_,
 but we recall the relevant points below.
 
+Recall the [[adjoint pair]] of [[endofunctors]]
 
-There are two perspectives on [[schemes]]
+$$
+  (\Re \dashv \Im)
+   \;\colon\;
+  SuperFomralSmoothSet
+    \longrightarrow
+  SuperFormalSmoothSet
+$$
 
-See also at _[[geometry of physics -- manifolds and orbifolds]]_.
+from def. \ref{ProgressionOfIdempotentEndofunctors}. By prop. prop. \ref{SuperSmoothSetsSystemOfAdjunctions} and prop. \ref{CartSpCoreflectiveInclusion} we know that $\Re$ sends a (formal) [[super Cartesian space]] to its underlying
+reduced ordinary [[Cartesian space]]. For instance
+
+$$
+  \Re(\mathbb{R}^{p\vert q}) \simeq \mathbb{R}^p
+$$
+
+and generally
+
+$$
+  \Re(\mathbb{R}^n \times \mathbb{D}) \simeq \mathbb{D}^n
+$$
+
+for $\mathbb{D}$ any [[infinitesimally thickened point|infinitesimally thickened superpoint]]. 
+
+This is enough to find what its [[right adjoint]] operation $\Im$ is doing:
+
++-- {: .num_prop #ImAction}
+###### Proposition
+
+For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}), then $\Im X$ is the super formal smooth set
+whose [[functor of points]] is given by
+
+$$
+  \Im X 
+  \;\colon\;
+    \mathbb{R}^n \times \mathbb{D}
+  \mapsto
+  X(\mathbb{R}^n)
+$$
+
+where $n \in \mathbb{N}$ and for $\mathbb{D}$ any [[infinitesimally thickened point|infinitesimally thickened superpoint]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By applying the [[Yoneda lemma]], the [[natural bijection]] between [[hom-sets]] that
+characterizes the [[adjoint pair]] $\Re \dashv \Im$  an using the characterization of $\Re$ we 
+get the following sequence of [[natural isomorphisms]]:
+
+$$
+  \begin{aligned}
+    (\Im X)(\mathbb{R}^n \times \mathbb{D})
+    & \simeq
+    Hom( \mathbb{R}^n \times \mathbb{D} , \Im X)
+    \\
+    & \simeq
+    Hom(\Re(\mathbb{R}^n \times \mathbb{D}), X)
+    \\
+    & \simeq
+    Hom(\mathbb{R}^n, X)
+    \\
+    & \simeq
+    X(\mathbb{R}^n)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]] (as in remark \ref{ASheafAsASpace})
+then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
+finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necssarily constant.
+A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal langauge]]
+of the [[sheaf topos]]) is that $\Im X$ is the result obtained from $X$ by **identifying all infinitesimally close points** 
+with each other. In [[algebraic geometry]] this construction is often known as forming the _[[de Rham shape]]_ of $X$
+([simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
+
+Another good perspective on $\Im X$ is the following:
+
++-- {: .num_defn #DiskBundle}
+###### Definition
+
+For $X \in SuperFormalSmoothSet$ (def. \ref{FormalSmoothSets}) then we say that its
+[[infinitesimal disk bundle]] $T^\infty X$ is the left vertical morphism in the following [[pullback]] diagram
+
+$$
+  \array{
+    T^\infty X &\lngrightarrow& X
+    \\
+    {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
+    \\
+    X &\underset{\eta_X}{\longrightarrow}& \Im X
+  }
+  \,.
+$$
+
+Moreover, for $x \colon \ast \to X$ any [[global point]] of $X$, then 
+we say that the [[formal disk]] in $X$ at $x$ is the [[fiber]] of the infinitesimal disk bundle
+over that point
+
+$$
+  \array{
+    \mathbb{D}_x &\longrightarrow& T^\infty X &\lngrightarrow& X
+    \\
+    \downarrw &\stackrel{(pb)}{}& {}^{\mathllap{p}}\downarrow &\stackrel{(pb)}{}& \downarrow^{\mathrlap{\eta_X}}
+    \\
+    \ast &\underset{x}{\longrightarrow}& X &\underset{\eta_X}{\longrightarrow}& \Im X
+  }
+  \,.
+$$
+
+
+ 
+=--
+
+
 
 +-- {: .num_defn #LocalDiffeomorphisms}
 ###### Definition
 
-Given $X,Y\in \mathbf{H}$ then a morphism $f \;\colon\; X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]]
+Given $X,Y\in SuperFormalSmoothSet$ then a morphism $f \;\colon\; X\longrightarrow Y$ is a _[[local diffeomorphism]]_ if its naturality square of the [[infinitesimal shape modality]] (prop. \ref{ImAction})
 
 $$
   \array{
@@ -1429,12 +1559,12 @@ is the ordinary [[tangent bundle]] of $X$. Now use that the [[internal hom]] $[D
 
 =--
 
-Let now $V \in \mathbf{H}$ be given, equipped with the structure of a [[group object]]
+Let now $V \in SuperFormalSmoothSet$ be given, equipped with the structure of a [[group object]]
 
 +-- {: .num_defn #VManifold}
 ###### Definition
 
-A _$V$-[[manifold]]_ is an $X \in \mathbf{H}$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
+A _super $V$-[[manifold]]_ is an $X \in SuperFormalSmoothSet$ such that there exists a _$V$-[[atlas]]_, namely a [[correspondence]] of the form
 
 $$
   \array{
@@ -1448,14 +1578,33 @@ $$
 
 with both morphisms being [[local diffeomorphisms]], def. \ref{LocalDiffeomorphisms}, and the right one in addition being an [[epimorphism]], hence an [[atlas]].
 
+Let $V = \mathbb{R}^{p\vert q}$ be a [[super Cartesion space]] regarded as a [[group object]] under a 
+[[translation supergroup]] action. Then we say that a $\mathbb{R}^{p\vert q}$-manifold in the above sense is a
+**[[supermanifold]]** of [[dimension]] $(p\vert q)$.
+
 =--
 
-There are some further relations between the modalities to take note of:
++-- {: .num_remark}
+###### Remark
+
+There are in general several [[translation supergroup]] structures carried by a super Cartesian space.
+For instance in the discussion at _[[geometry of physics -- supersymmetry]]_ we will consider
+[[super Minkowski spacetime|super Minkowski]] supergroup structure which exists for special 
+pairs $(p,q)$.
+Just the existence of a supermanifold structure in def. \ref{VManifold} does not depend
+on the choice of group structure on $V$ (and could be ignored for much of the present purpose).
+But later on the choice affects for instance the concept of [[torsion of a G-structure]] on the $V$-manifold.
+
+=--
+
+In order to proceed, we need to make the following further observation on the system of projection operators in 
+prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, def. \ref{ProgressionOfIdempotentEndofunctors}:
 
 +-- {: .num_prop #Sublations}
 ###### Proposition
 
-We have the following [[Aufhebung]]-relations:
+We have the following extra relations between the projection endofunctors in 
+def. \ref{ProgressionOfIdempotentEndofunctors} ("[[Aufhebung|Aufhebungs]]"-relations):
 
 * $\sharp \emptyset \simeq \emptyset$ (the [[codiscrete objects]] form a [[dense subtopos]])
 
@@ -1466,7 +1615,8 @@ We have the following [[Aufhebung]]-relations:
 +-- {: .proof}
 ###### Proof
 
-For any $X \in \mathbf{H}$ and any $U \times D_s\in CartSp \rtimes SuperInfPoint \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
+Write $\mathbf{H} \coloneqq SuperFormalSmoothSet$ for short.
+For any $X \in \mathbf{H}$ and any $U \times D_s\in SuperFormalCartSp \hookrightarrow \mathbf{H}$ we have by [[adjunction]] [[natural equivalences]]
 
 $$
   \begin{aligned}
@@ -1544,7 +1694,6 @@ a $V$-manifold $X$, def. \ref{VManifold}, is a $\stackrel{\rightsquigarrow}{V}$-
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
 
-spring
 
 Recall from def. \ref{SuperCartesianSpace}:
 
@@ -2106,14 +2255,14 @@ A review of all this as geometry in the [[topos]] over the category of [[superpo
 
 The [above](#ReferencesOverSuperpoints) perspective of supergeometry in the topos over superpoints is a restriction of the
 perspective in the topos over [[super Cartesian spaces]] which we use here. This in turn is
-essentially just the specification of [[Alexander Grothendieck]]'s concept of "[[functorial geometry]]" as laid out in
+essentially just the specification to [[supercommutative superalgebra]] of [[Alexander Grothendieck]]'s concept of "[[functorial geometry]]" as laid out in
 
 * {#Grothendieck65} [[Alexander Grothendieck]], _Introduction au langage fonctoriel_, course in Algiers in November 1965, lecture notes by [[Max Karoubi]], [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothAlgiers.pdf).
 
-to [[supercommutative superalgebra]]. Grothendieck amplified that this functorial perspective is superior to the
+Grothendieck amplified that this functorial perspective is superior to the
 perspective on schemes as [[locally ringed spaces]] in the lecture
 
-* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta, [pdf scan](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/FuncAlg.pdf).
+* {#Grothendieck73} [[Alexander Grothendieck]], _Introduction to functorial algebraic geometry, part 1: affine algebraic geometry_, summer school in Buffalo, 1973, lecture notes by Federico Gaeta ([pdf scan](http://matematicas.unex.es/~navarro/res/ifag.pdf))
 
 Further amplification of Grothendieck's amplification may be found in the short text
 
@@ -2126,7 +2275,7 @@ The differential geometry formulation via the axioms of [[differential cohesion]
 
 ### For field theories with fermions
 
-Discussion of [[classical field theory]] with [[fermions]] as taking place on [[supermanifolds]] ([[field bundle]], [[phase space]]) includes the following references:
+Discussion of [[classical field theory]] with [[fermions]] as taking place on [[supermanifolds]] (supergometric [[field bundles]] and [[phase space]]) includes the following references:
 
 * {#DeligneFreed99} [[Pierre Deligne]], [[Daniel Freed]], _Classical field theory_ (1999) ([pdf](https://publications.ias.edu/sites/default/files/79_ClassicalFieldTheory.pdf))
 
