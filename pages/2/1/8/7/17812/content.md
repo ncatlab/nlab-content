@@ -614,7 +614,7 @@ Just as formal Cartesian spaces may be thought of as local model spaces for [[sy
 [[super formal Cartesian spaces]] may be thought of as a model for [[synthetic differential supergeometry]].
 This we come to [below](#SuperSmoothSets).
 
-For completeness it is useful to compare the [[coreflectve subcategory|coreflection]] of prop. \ref{CartSpCoreflectiveInclusion}
+For completeness it is useful to compare the [[coreflective subcategory|coreflection]] of prop. \ref{CartSpCoreflectiveInclusion}
 to the following simple [[reflective subcategory|reflection]].
 
 Write 
@@ -635,12 +635,12 @@ There is a pair of [[adjoint functors]]
 
 $$
   \ast
+  \;
     \underoverset
       {\underset{}{\hookrightarrow}}
       {\overset{\pi}{\longleftarrow}}
       {}
-  &&
-  CartSp
+  \;CartSp
 $$
 
 into the category of [[Cartesian spaces]],
@@ -1001,25 +1001,33 @@ $$
 $$ 
 
 Moreover, by prop. \ref{SystemOfSites} these four sites form a [[filtration]] of the site $SuperFormalCartSp$
-by consecutively smaller subsites, where each inlcusion is either [[reflectiv subcategory|reflective]]
+by consecutively smaller subsites, where each inclusion is either [[reflective subcategory|reflective]]
 or [[coreflective subcategory]] or both. The following states how this filtration of sites
 extends to their categories of sheaves.
 
-+-- {: .num_prop}
+
++-- {: .num_prop #SuperSmoothSetsSystemOfAdjunctions}
 ###### Proposition
 
 There exists an essentially unique system of [[functors]] between the categories of [[sets]],
 [[smooth sets]] (def. \ref{Smooth0Type}), formal smooth sets and super formal smooth sets (def. \ref{FormalSmoothSets})
 as shown in the second and third row of the following diagram, such that
 
-1. every moprhism _below_ another morphism is [[right adjoint]] to the top morphism;
+1. every morphism _below_ another morphism is [[right adjoint]] to the top morphism;
 
 1. on [[representables]] the top two functors on the left, the top two functors in the middle,
-and the top thre functors on the right coincide with the corresponding functors between [[sites]] shown
+and the top three functors on the right coincide with the corresponding functors between [[sites]] shown
    in the first row (from prop. \ref{SystemOfSites}):
 
 <img src="https://ncatlab.org/nlab/files/AjunctionsForSuperCohesion.png" width="600">
 
+In such a situation we also say that in the third row
+
+1. the bottom four functors exhbit $SuperFormalSmoothSet$ as a  [[cohesive topos]];
+
+1. the middle four functors exhibit $SuperFormalSmoothSet$ as a _[[differentially cohesive topos]]_ (or _elastic topos_) relative to $SmoothSet$;
+
+1. the top four functors exhibit $SuperFormalSmoothSet$ as _solid topos_ relative to $FormalSmoothSet$.
 
 =--
 
@@ -1101,10 +1109,10 @@ Here the first equality is the definition of $F^\ast$, then the first isomorphis
 [[Yoneda lemma]], the second isomorphism is the one that characterizes the adjunction
 $F \dashv G$, and the last isomorphism is again the Yoneda lemma.
 
-So far this shows that there is a system of [[adjoint quadruples]] on _[[categories of presheaves]]_
-as shown in the middle row above.
+This shows that there is a system of [[adjoint quadruples]] 
+as shown in the middle row above, but, so far, only on the corresponding [[categories of presheaves]].
 
-That the middle and the right adjoint quadrupleoon presheaves restricts to [[sheaves]] follows
+That the middle and the right adjoint quadruple on presheaves restricts to [[sheaves]] follows
 directly from the nature of the sites in def. \ref{FormalSmoothSets}, since the [[coverages]]
 are trivial "along the infinitsimal diretions". That also the left adjoint quadruple descends
 to sheaves is the statement that $CartSp$ with its [[good open cover]] [[coverage]] is 
@@ -1112,16 +1120,204 @@ a _[[cohesive site]]_ (see there).
 
 This establishes the system of adjoints in the second row.
 
-The diagram in the third row states that two extra adjoints to _composites_ of functors appear. Here the functor
-$SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the inclusion $CartSp \hookrightarrow SuperFormalCartSp$
+The diagram in the third row states that two extra adjoints to _composites_ of functors appear. Here the [[right adjoint]] functor
+$SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the canonical inclusion $CartSp \hookrightarrow SuperFormalCartSp$
 is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$ from prop. \ref{CartSpCoreflectiveInclusion}, 
 and for the same reason.
-Similarly then the bottom-most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists because also
+Similarly then the bottom-most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists 
+is [[right adjoint]] because also
 $SuperFormalCartSp$ is a [[cohesive site]], and again for the same reason that $CartSp$ is.
+
+Finally, that every second functor is a [[full subcategory]]  inclusion (a [[fully faithful functor]]) as shown follows because
+
+1. left Kan extension along [[fully faithful functors]] is itself fully faithful ([this prop.](Kan+extension#LeftKanExtensionBasicProp));
+
+1. in an [[adjoint triple]] the leftmost adjoint is [[fully faithful functor|fully faithful]] precisely if the rightmost adjoint is ([this prop.](adjoint+triple#FullyFaithful)).
+
+=--
+
+Proposition \ref{SuperSmoothSetsSystemOfAdjunctions} says that the basic operations on local model spaces,
+such as 
+
+1. forming the underlying bosonic space
+
+1. forming the underlying formal bosonic space of bi-fermions
+
+1. forming the underlying reduced space without infinitesimal thickening
+
+extend from local model space to the generalized spaces modeled on them, 
+while retaining their relation to each other and to the respective
+inclusions, and such that yet further operations accompanying them are induced.
+
+To record what all these operations are, it is useful to compose the
+functors above in pairs, with one funtor projecting down to the left, and the next
+one including back with either a left or right adjoint of the projection.
+
+For example for $X \in SuperFormalSmoothSet$ a generalized [[superspace]], then 
+applying the topmost functor in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} to it
+yields its underlying bi-fermionic formal smooth space, regarded as an object in 
+$FormalSmoothSet$. But if we work in supergeometry, then we want that result to be
+understood as a superspace again, one that just so happens to have no odd directions left, 
+so we re-include it by the inclusion right adjoint to the top projection. This composite operation
+of projection and re-embedding defines an [[endofunctor]], on $SuperFormalSmoothSet$, which
+following prop. \ref{AdjointCylinderOnSuperAffines} we should denote by
+
+$$
+  \overset{\rightrightarrows}{(-)}
+  \;\colon\;
+  SuperFormalSmoothSet
+    \longrightarrow
+  SuperFormalSmoothSet
+  \,.
+$$
+
+Similarly, composing the projection which is the left Kan extension of the underling bosonic space operation
+with the canonical re-embedding yields an endofunctor that has the interpretation of sending any 
+generalized superspace to its underlying generalized bosonic space
+
+$$
+  \overset{\rightsquigarrow}{(-)}
+  \;\colon\;
+  SuperFormalSmoothSet
+    \longrightarrow
+  SuperFormalSmoothSet
+  \,.
+$$
+
+In fact, since these two [[endofunctors]] are obtaned from the two possible composites in an [[adjoint triple]]
+whose middle functor is [[fully faithful functor|fully faithdful]] (an [[adjoint cylinder]]),
+it is immediate to see that 
+
+1. $\overset{\rightsquigarrow}{(-)}$ has the structure of an [[idempotent monad]]
+
+1. $\overset{\rightrightarrows}((-))$ has the structure of an [[idempotent comonad]]
+
+1. both form an [[adjoint pair]] themselves: $\overset{\rightrightarrows}{(-)} \dashv \overset{\rightsquigarrow}{(-)}$.
+
+In fact, since, by prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, this adjoint triple between
+$SuperFormalSmoothSet$ and $FormalSmoothSet$ extends to an 
+[[adjoint quadruple]], there is yet one more [[endofunctor]] which is a further [[right adjoint]]  [[idempotent comonad]].
+Later we will see that the further opration is related to the concept of "[[rheonomy]]" in supergravity, and therefore
+we denote it by
+
+$$
+  Rh\;\colon\; SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
+  \,.
+$$
+
+Now, prop. \ref{SuperSmoothSetsSystemOfAdjunctions} say that there are yet further adjoints, however
+these no longer go between $SuperFormalSmoothSet$ and $FormalSmoothSet$, but between the former and
+$SmoothSet$ or even just between the former and $Set$. For instance there is the composite projection
+
+$$
+  SmoothSet \longleftarrow FormalSmoothSet \longleftarrow SuperFormalSmoothSet
+$$
+
+which first forms the bosonic underlying space, and then forms the reduced underlying space of what remains.
+The total result of this operation is just plain reduction, removing all infinitesimal directions,
+whether odd graded or even gradded.
+Therefore, the result of composing this operation with its right adjoint canonical re-embedding yields an endofunctor which 
+we should call
+
+$$
+  \Re 
+  \;\colon\;
+  SuperFormalSmoothSet \longrightarrow SuperFormalSmoothSet
+$$
+
+and think of as the operation of reduction on generalized super formal smooth sets.
+
+Notice that [[reflective subcategory]] embeddings 
+
+$$
+  \underoverset
+   {\underset{i}{\hookrightarrow}}
+   {\overset{L}{\longleftarrow}}
+   {}
+$$
+
+are [[localizations]], which means that first including an object and then projecting it back to the subcategory
+is the identity operation $L \circ i \simeq id$; and analogously for a [[coreflective subcategory|coreflection]] 
+([this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)).
+
+In our situation this first of all means that all of the [[endofunctors]] above are idempotent, as already
+mentioned. But next it implies that first applying a "deep" projection in the diagram in 
+prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, and then applying a "more shallow" projection
+with functors at the same vertical stage in the diragm does not change the result further. 
+Hence the is a [[natural isomorphism]]
+
+$$
+  \overset{\rightsquigarrow}{\Re(X)}
+    \simeq
+  \Re(X)
+$$
+
+(saying that if a space is reduced, then it has no infinitesimal directions whatsoever, in particular no odd-graded ones,
+hence it is already bosonic. )
+
+We will denote this situation by an inclusion sign
+
+$$
+  \Re \lt \overset{\rightsquigarrow}{(-)}
+$$
+
+(to be read "reduced implies bosonic").
+
+We may proceed this way, with all the remaining functors in prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, consecutively
+turning them into [[endofunctors]] on $SuperFormalCartSp$ which are all related to each other by
+[[adunction]] and or by this inclusion relation of projection operators.
+
+The result is a system of 9 endofunctors, or 12 if we inclue the trivial extremal ones.
+They form the following diagram and this defines our notation for the remaining ones not
+given a name yet: 
+
++-- {: .num_defn #AdditiveAndAbelianCategories}
+###### Definition
+
+We denote the system of [[adjoint]] [[idempotent monads]] and [[idempotent comonads]] 
+on $SuperFormalSmoothset$ that induced from the 
+system of adjunctions in prop. \ref{SuperSmoothSetsSystemOfAdjunctions} as follows:
 
 
 =--
 
+
+
+$$
+  \array{
+    && id &\dashv& id
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{fermionic}{}& \rightrightarrows &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{bosonic}{} & \rightsquigarrow &\dashv& Rh & \stackrel{rheonomic}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{reduced}{} & \Re &\dashv& \Im & \stackrel{infinitesimal}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{infinitesimal}{}& \Im &\dashv& \& & \stackrel{\text{&#233;tale}}{}
+    \\
+    && \vee && \vee
+    \\
+    &\stackrel{contractible}{}& &#643; &\dashv& \flat & \stackrel{discrete}{}
+    \\
+    && \bot && \bot
+    \\
+    &\stackrel{discrete}{}& \flat &\dashv& \sharp & \stackrel{differential}{}
+    \\
+    && \vee && \vee
+    \\
+    && \emptyset &\dashv& \ast
+  }
+$$
+
+where "$\vee$" denotes inclusion of [[modal types]]. The first level is [[cohesion]], the second is [[differential cohesion]] ([[elasticity]]), the third is a further refinement given by supergeometry, which takes further "square roots" of all infinitesimal generators.
 
 
 
