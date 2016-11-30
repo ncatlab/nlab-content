@@ -96,6 +96,10 @@ Discussion of the relation between the various shades of definitions includes
 
 * MathOverflow: _[Calabi-Yau manifolds](http://mathoverflow.net/q/42707/381)_
 
+Mathematical review of the relation to  [[quiver representations]] and [[mirror symmetry]] includes
+
+* Yang-Hui He, _Calabi-Yau Varieties: from Quiver Representations to Dessins d'Enfants_ ([arXiv:1611.09398](https://arxiv.org/abs/1611.09398))
+
 Discussion of CYs in [[positive characteristic]] includes
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], Fernando Rodriguez-Villegas, _Calabi-Yau Manifolds Over Finite Fields, I_ ([arXiv:hep-th/0012233](http://arxiv.org/abs/hep-th/0012233))
