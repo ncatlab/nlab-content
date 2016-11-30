@@ -29,6 +29,8 @@ $$
 $$
 equals the [[identity morphism]] on $B$.
 
+Typically $A \stackrel{f}{\to} B$ is thought of as a [[bundle]] and then one speaks of sections of bundles. For topological bundles one considers _continuous sections_, for smooth bundles _smooth sections_, etc.
+
 ### In terms of dependent product
  {#InTermsOfDependentProduct}
 
@@ -85,3 +87,10 @@ for more on this.
 [[!redirects cross-sections]]
 [[!redirects right inverses]]
 [[!redirects right-inverses]]
+
+[[!redirets smooth section]]
+[[!redirets smooth sections]]
+
+[[!redirets continuous section]]
+[[!redirets continuous sections]]
+
