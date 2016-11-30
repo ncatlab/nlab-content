@@ -29,7 +29,7 @@ If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to b
 
 +-- {: .query}
 
-This can't be right. Consider the left order topology on the reals. This has no nonempty compact sets.
+This can't be right. Consider the left order topology on the reals. This has no nonempty compact closed sets.
 =--
 
 * If $X$ is any [[metric space]], there is a bornology where a set is bounded if it is contained in some open [[ball]]. Any [[Lipschitz map]] is bounded with respect to this choice of bornology.  A metric space is __bounded__ if it\'s a bounded subspace of itself.
