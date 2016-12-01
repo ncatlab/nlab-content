@@ -50,6 +50,10 @@ Recall that a [[locale]] $L$ is given by a [[frame]] $O(L)$, its [[frame of open
 
 Such a map $f$ is __proper__ iff the [[direct image]] function $f_*$ preserves [[directed joins]] (or equivalently is [[Scott-continuous function|Scott-continuous]], or equivalently is a morphism of [[preframes]]), and also satisfies the [[Frobenius reciprocity]]-like condition that $f_*(U\cup f^*(V)) = f_*(U) \cup V$ (which by itself states that the map is [[closed map|closed]]).
 
+In particular, the map $L\to 1$ is proper iff $L$ is both [[compact locale|compact]] and [[covert space|covert]].  But in this case the second condition is redundant, since every compact locale is automatically covert; see [[covert space]] for a proof.
+
+Proper maps of locales can also be characterized as those that are universally closed, i.e. every pullback of them (along any map of locales) is closed.
+
 
 ## Between toposes
 
