@@ -318,6 +318,9 @@ For another list of literature see the entry
 
 * [[books about string theory]].
 
+A quick survey of the big picture as of 2016 is in 
+
+* {#Sen16} [[Ashoke Sen]], _What is string theory?_, Stony Brook 2016 ([pdf](http://media.scgp.stonybrook.edu/presentations/2016/20161010_Sen.pdf))
 
 A useful survey of the status of string theory as a theory of [[quantum gravity]] is in
 
