@@ -1,9 +1,2 @@
 
-## Idea
-
-In [[type theory]], $Prop$ denotes the [[type of propositions]]. See there for more details.
-
-## Related concepts
-
-* [[Type]]
-
+> see at _[[type of propositions]]_
