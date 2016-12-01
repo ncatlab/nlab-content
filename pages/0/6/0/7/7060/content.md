@@ -19,13 +19,18 @@
 
 ## Idea
 
-In [[type theory]] the _type of propositions_ is what in the [[categorical semantics]] becomes the [[subobject classifier]].
+In [[type theory]] the _type of propositions_ $Prop$ is what in the [[categorical semantics]] becomes the [[subobject classifier]].
 
 Its generalization from [[propositions]] to general [[types]] is the [[type of types]] in [[homotopy type theory]]. 
 
 ## Related concepts
 
 * [[propositional extensionality]]
+
+* [[subobject classifier]]
+
+* [[Type]]
+
 
 ## References
 
@@ -35,5 +40,6 @@ Detailed discussion of the type of propositions in [[Coq]] is in
 
 [[!redirects universe of propositions]]
 
+[[!redirects Prop]]
 
 
