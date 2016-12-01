@@ -176,6 +176,8 @@ A more sophisticated approach (pioneered by [[Josiah Gibbs]]) is to consider all
 
 * [[dissipative system]]
 
+* [[entanglement entropy]], [[holographic entanglement entropy]]
+
 
 ## References
 {#References}
