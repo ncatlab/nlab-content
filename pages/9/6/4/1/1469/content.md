@@ -41,12 +41,18 @@ Despite of this, an axiomatic formulation of algebraic geometry along the lines 
 
 * [[books in algebraic geometry]], 
 
-* [pages formally in category algebraic geometry](http://www.ncatlab.org/nlab/list/algebraic+geometry)
+* [pages in the category "algebraic geometry"](http://www.ncatlab.org/nlab/list/algebraic+geometry)
+
+* [[functorial geometry]]
+
+* [[derived algebraic geometry]]
+
+* [[noncommutative geometry]]
 
 ## References
  {#References}
 
-* Ravi Vakil, _Foundations Of Algebraic Geometry_, Course notes, ([web](http://math.stanford.edu/~vakil/216blog/))
+* [[Ravi Vakil]], _Foundations Of Algebraic Geometry_, Course notes ([web](http://math.stanford.edu/~vakil/216blog/))
 
 Discussion of fundamental constructions of algebraic geometry from the perspective of the [[internal logic]] of the [[sheaf topos]] over a [[scheme]] ([[Zariski topos]]/[[etale topos]]) is in 
 
