@@ -151,13 +151,13 @@ An exception is the approach propagated in [Schwarz 84](#Schwarz84), [Molotkov 8
 of which a clean account is given in [Sachse 08](#Sachse08). These authors consider (pre-)sheaves on the category of
 [[superpoints]]. This gives the "super" in "super-geometry" a functorial interpretation, but the
 (smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
-half-way. 
+half-way.
 
-The full application of the perspective of [[functorial geometry]] to [[supergeometry]] is mostly known as 
-_[[synthetic differential supergeometry]]_, where one considers sheaves over the full category of formal 
+The full application of the perspective of [[functorial geometry]] to [[supergeometry]] is mostly known as
+_[[synthetic differential supergeometry]]_, where one considers sheaves over the full category of formal
 [[super Cartesian spaces]] ([Yetter 88, section 3](#Yetter88)). This is essentially the perspective which we adopt here.
-We do however not refer to the (super-)[[Kock-Lawvere axioms]] for [[synthetic differential geometry]] but instead 
-use the axiomatics of "[[differential cohesion]]" ([Schreiber 13](#Schreiber)). This we explain [below](#SuperSmoothSets). 
+We do however not refer to the (super-)[[Kock-Lawvere axioms]] for [[synthetic differential geometry]] but instead
+use the axiomatics of "[[differential cohesion]]" ([Schreiber 13](#Schreiber)). This we explain [below](#SuperSmoothSets).
 
 
 
@@ -955,13 +955,13 @@ $$
 
 =--
 
-
-+-- {: .num_remark}
++-- {: .num_remark #GeneralizedSpaces}
 ###### Remark
 
-The strategy is then to work with this nice category (a [[topos]]) of [[smooth spaces]], and find in their [[subcategories]] of more specific objects having extra properties which one may need in given applications:
+The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]), 
+and find in their [[fulll subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
 
-$\{$[[coordinate systems]]$\}$
+$\{$[[Cartesian spaces]]$\}$
  $\hookrightarrow$
 $\{$[[smooth manifolds]]$\}$
  $\hookrightarrow$
@@ -973,23 +973,99 @@ $\{$[[Fréchet manifolds]]$\}$
  $\hookrightarrow$
 $\{$[[diffeological spaces]]$\}$
  $\hookrightarrow$
+ $\cdots$
+ $\hookrightarrow$
 $\{$[[smooth sets]]$\}$
  $\hookrightarrow$
-$\{$[[orbifold|smooth orbifolds]]$\}$
+$\{$[[super formal smooth sets]]$\}$
+
+and similarly for their supergeometric version (which we turn to below, def. \ref{FormalSmoothSets})
+
+$\{$[[Cartesian spaces]]$\}$
  $\hookrightarrow$
-$\{$[[smooth groupoids]]$\}$
- $\hookrightarrow $
-$\{$[[smooth 2-groupoids]]$\}$
- $\hookrightarrow
- \cdots
- \hookrightarrow $
-$\{$[[smooth ∞-groupoids]]$\}$
+$\{$[[super Cartesian spaces]]$\}$
+ $\hookrightarrow$
+$\{$[[supermanifolds]]$\}$
+ $\hookrightarrow$
+ $\cdots$
+ $\hookrightarrow$
+$\{$[[super formal smooth sets|super smooth sets]]$\}$ .
 
 =--
 
 
-By the same strategy we now pass to generalized spaces which are locally modeled not
-just on plain Cartesian spaces, but also on formal Cartesian spaces and on
+
++-- {: .num_prop #SmoothSetsContainSmoothManifolds}
+###### Proposition
+
+Write $SmoothMfd$ for the [[category]] of [[smooth manifolds]] with [[smooth functions]] between them. Then the construction
+that sends a smooth manifold $X$ to the [[smooth set]] (def. \ref{Smooth0Type}) 
+given by the rule (via remark \ref{ASheafAsASpace})
+
+$$
+  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
+$$
+
+defines a [[full subcategory]] inclusion
+
+$$
+  SmoothMfd \hookrightarrow SmoothSet
+  \,.
+$$
+
+More generally, write $FrechetMfd$ for the [[category]] of [[Fréchet manifolds]],
+which generalizes smooth manifolds to possibly [[infinite-dimensional manifold|infinite-dimensional]] smooth manifolds
+
+$$
+  CartSp \hookrightarrow SmoothMfd \hookrightarrow FrechetMfd
+  \,.
+$$
+
+For $X,Y$ two [[Fréchet manifolds]], write again $C^\infty(X,Y)$ for the set of smooth functions between them. Then the same kind of construction as before, sending a Fr&#233;chet manifold to the rule
+
+$$
+  \mathbb{R}^n \mapsto C^\infty(\mathbb{R}^n, X)
+$$
+
+defines a [[fully faithful functor]]
+
+$$
+  FrechetMfd \hookrightarrow SmoothSet
+  \,,
+$$
+
+hence a [[full subcategory inclusion]].
+
+=--
+
+The first statement in prop. \ref{SmoothSetsContainSmoothManifolds} is immediate. A **proof** of the second statement is due to ([Losik 94, theorem 3.1.1](diffeological+space#Losik)),
+see [this prop.](diffeological+space#FrechetEmbedding). Or rather, what Losik proves is that this construction gives a full embedding
+into the category of [[diffeological spaces]]. But these in turn fully embed into smooth sets:
+
++-- {: .num_defn #DiffeologicalSpace}
+###### Definition
+
+A **[[diffeological space]]** $X$ is a [[smooth set]] (def. \ref{Smooth0Type}) which is [[concrete sheaf|concrete]].
+This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space 
+to this set:
+
+$$
+  X(\mathbb{R}^n) \hookrightattow Hom_{Set}(\mathbb{R}^n_s, X_2)
+  \,.
+$$
+
+Write
+
+$$
+  DiffeologicalSpace \hookrightarrow SmoothSet
+$$
+
+for the [[full subcategory]] of such spaces in smooth sets.
+
+=--
+
+By the strategy of remark \ref{GeneralizedSpaces} we now pass to generalized spaces which are locally modeled not
+just on plain Cartesian spaces, but also on [[formal smooth manifold|formal]] Cartesian spaces and on
 [[super Cartesian spaces]].
 
 
@@ -1481,7 +1557,8 @@ $$
 
 =--
 
-Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]] (as in remark \ref{ASheafAsASpace})
+Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]] 
+(regarded as a super formal smooth set via prop. \ref{SmoothSetsContainSmoothManifolds})
 then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
 finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necssarily constant.
 A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal language]]
@@ -1570,8 +1647,8 @@ We unwind definitio \ref{LocalDiffeomorphisms} a little:
 
 Let $\mathbb{D}$ be an [[infinitesimally thickened point]]. This means that its reduction is the actual point,
 $\Re \mathbb{D} \simeq \ast$. By the [[adjunction]] $\Re \dashv \Im$ from def. \ref{ProgressionOfIdempotentEndofunctors}
-it follows that the image of the naturality square in def. \ref{LocalDiffeomorphisms} under forming the 
-[[internal hom]] (def. \ref{InternalHom}) out of $\mathbbf{D}$ is 
+it follows that the image of the naturality square in def. \ref{LocalDiffeomorphisms} under forming the
+[[internal hom]] (def. \ref{InternalHom}) out of $\mathbbf{D}$ is
 
 $$
   \array{
@@ -1579,7 +1656,7 @@ $$
     \\
     \downarrow^{\mathrlap{f^\mathbb{D}}} && \downarrow^f
     \\
-    Y^{\mathbb{D}} &\longrightarrow& Y    
+    Y^{\mathbb{D}} &\longrightarrow& Y
   }
 $$
 
@@ -1602,7 +1679,7 @@ $$
   }
 $$
 
-is a pullback square. For $X,Y$ ordinary smooth manifolds via remark \ref{ASheafAsASpace}, this condition
+is a pullback square. For $X,Y$ ordinary smooth manifolds via prop. \ref{SmoothSetsContainSmoothManifolds}, this condition
 is the traditional definition that $f$ be a [[local diffeomorphism]].
 
 =--
@@ -1610,7 +1687,7 @@ is the traditional definition that $f$ be a [[local diffeomorphism]].
 +-- {: .num_prop}
 ###### Proposition
 
-For $X,Y \in SuperFormalSmoothSet$ two ordinary [[smooth manifolds]] via remark \ref{ASheafAsASpace}, then 
+For $X,Y \in SuperFormalSmoothSet$ two ordinary [[smooth manifolds]] via prop. \ref{SmoothSetsContainSmoothManifolds}, then
 a morphism between them is a [[formally étale morphism]] according to def. \ref{LocalDiffeomorphisms}
 precisely if it is a [[local diffeomorphism]] in the traditional sense.
 
@@ -1619,13 +1696,13 @@ precisely if it is a [[local diffeomorphism]] in the traditional sense.
 +-- {: .proof}
 ###### Proof
 
-By remark \ref{FormallyEtaleUnwinding} the condition of 
-def. \ref{LocalDiffeomorphisms} on morphisms between smooth manifolds is equivalent 
+By remark \ref{FormallyEtaleUnwinding} the condition of
+def. \ref{LocalDiffeomorphisms} on morphisms between smooth manifolds is equivalent
 to the traditional condition of being locally diffeo already when seen just under
 the internal hom out of $Spec(\mathbb{R}[\epsilon](\epsilon^2))$.
 
-But, as the name suggests, a [[local diffeomorphism]] of smooth manifolds is in particular 
-also a [[local homeomorphism]]. This means that around each point of $X$ there is 
+But, as the name suggests, a [[local diffeomorphism]] of smooth manifolds is in particular
+also a [[local homeomorphism]]. This means that around each point of $X$ there is
 actually an [[open neighbourhood]] such that $f$ restrricts to a [[diffeomorphism]]
 on that neighbourhood. This implies that the full condition  in def. \ref{LocalDiffeomorphisms}
 holds, by an argument as in example \ref{ProjectioonOutOfCoproductIsFormllyEtale}.
@@ -1933,7 +2010,7 @@ The key idea is that [[sets]] of functions between sets have the following [[uni
 +-- {: .num_example #FunctionSet}
 ###### Example
 
-Let $X,Y \in $ [[Set]] be two [[sets]], then set 
+Let $X,Y \in $ [[Set]] be two [[sets]], then set
 
 $$
   Y^X \coloneqq \{X \to Y\}
@@ -1943,10 +2020,10 @@ of [[functions]] from $X$ to $Y$ is characterized by the fact that for $Z \in Se
 there is a [[natural bijection]]
 
 $$
-  Hom( Z \times X, Y ) \stackrel{\simeq}{\longrightarrow} Hom(Z, Y^X) 
-$$ 
+  Hom( Z \times X, Y ) \stackrel{\simeq}{\longrightarrow} Hom(Z, Y^X)
+$$
 
-between functions of two [[variables]] into $Y$ and functions of one variable into $Y^X$. This is given by sending 
+between functions of two [[variables]] into $Y$ and functions of one variable into $Y^X$. This is given by sending
 any function $f(-,-)$ of two variables to the function $\tilde f$ which sends any $z$ to the function
 $x \mapsto f(z,x)$. Hence this simply reinterprets "taking two arguments at once" by "taking two arguments consecutively".
 
@@ -1968,8 +2045,8 @@ $$
 such that there is a [[natural bijection]] between [[hom sets]] of the form
 
 $$
-  Hom_{\mathcal{C}}(Z \times X, Y) 
-  \simeq  
+  Hom_{\mathcal{C}}(Z \times X, Y)
+  \simeq
   Hom_{\mathcal{C}}(Z, [X,Y])
 $$
 
@@ -1993,8 +2070,8 @@ $$
 
 for $U \in \mathcal{S}$.
 
-Moreover, an [[internal hom]]-functor according to def. \ref{InternalHom} exists ("generalized [[mapping space]]"). 
-It sends any two [[sheaves]] $X,Y \in Sh(\mathcal{S})$ to the sheaf 
+Moreover, an [[internal hom]]-functor according to def. \ref{InternalHom} exists ("generalized [[mapping space]]").
+It sends any two [[sheaves]] $X,Y \in Sh(\mathcal{S})$ to the sheaf
 
 $$
   [X,Y] \;\colon\; \mathcal{S}^{op} \longrightarrow Set
@@ -2013,20 +2090,36 @@ where $y \colon \mathcal{S} \hookrightarrow Sh(\mathcal{S})$ is the [[Yoneda emb
 
 For the **proof** see at _[[closed monoidal structure on presheaves]]_.
 
+The following shows that the concept of [[internal homs]] in the [[topos]] of [[generalized smooth spaces]]
+does generalize the traditional concept of smooth [[mapping spaces]]:
+
 +-- {: .num_example}
 ###### Example
 
-Let $\Sigma$ be a [[closed manifold|closed]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
-Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an 
-[[infinite-dimensional manifold|infinite dimensional]] [[Frechet manifold]]. 
-This [[representable functor|represents]] the [[internal hom]] according to prop,. \ref{SheavesHomInternal}.
+Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
+Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
+[[infinite-dimensional manifold|infinite dimensional]] (in general) [[Frechet manifold]] $Maps(\Sigma,X)_{Frechet}$.
+Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds} 
+this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $Smoothset$ according to prop. \ref{SheavesHomInternal}:
+
+$$
+  [\Sigma, X] \simeq  i(Maps(\Sigma, X)_{Frechet})
+  \,.
+$$
+
+In particular for instance the smooth [[loop space]] of a smooth manifold $X$ is simply the internal hom $[S^1,X]$.
+
 
 =--
 
+A **proof** is given in  [Waldorf 09, lemma A.1.7](diffeological+space#Waldorf09).
+
+
+
 +-- {: .num_example}
 ###### Example
 
-Let $X$ be any [[smooth manifold]]. Then the [[internal hom]] in $SuperFormalSmoothSet$ out of the 
+Let $X$ be any [[smooth manifold]]. Then the [[internal hom]] in $SuperFormalSmoothSet$ out of the
 [[superpoint]] $\mathbb{R}^{0\vert 1}$ into $X$, according to prop. \ref{SheavesHomInternal},
 is the [[odd tangent bundle]] from def. \ref{OddTangentBundle}.
 
@@ -2043,7 +2136,7 @@ By unwinding the definitions and then using prop. \ref{HomsOutOfFirstOrderInfini
 ## Super differential forms
  {#DeRhamComplexOfSuperDifferentialForms}
 
-We discuss the super-geometric analog of [[differential forms]] on [[supermanifolds]], first with 
+We discuss the super-geometric analog of [[differential forms]] on [[supermanifolds]], first with
 [[coefficients]] in $\mathbb{R}$, then with coefficients in a [[super Lie algebra]].
 
 Recall from def. \ref{SuperCartesianSpace}:
