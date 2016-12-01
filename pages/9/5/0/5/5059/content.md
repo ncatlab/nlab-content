@@ -1026,11 +1026,18 @@ Discussion of the [[self-dual string]] in 6d as a Green-Schwarz-type sigma model
 ### General curved backgrounds and Supergravity background equations of motion
  {#ReferencesSupergravityBackgroundEquationsOfMotion}
 
-The consistency of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]] 
+The consistency of the Green-Schwarz action functional for the superstring in a [[supergravity]] [[background gauge field|background]] should be equivalent to the background satiyfying the [[supergravity]] [[equations of motion]]. For the superstring this is due to
 
 * {#BergshoeffSezginTownsend86} [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Superstring actions in $D = 3, 4, 6, 10$ curved superspace_, Phys.Lett., B169, 191, (1986) ([spire](http://inspirehep.net/record/223138/?ln=en))
 
+and for the supermembrane due to
+
 * {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _[[The World in Eleven Dimensions]]_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+
+with a quick re-derivation using that the [[torsion constraints in supergravity|torsion constraint in 11d supergravity]] already imples the sugra equations of motion is in 
+
+* [[Paul Howe]], [[Ergin Sezgin]], section 2.1 of _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+
 
 These authors amplify the role of closed $(p+2)$-forms in super $p$-brane backgrounds (p. 3) and clearly state the consistency conditions for the [[M2-brane]] in a curved backround in terms of the [[Bianchi identities]] on p. 7-8, amounting to the statment that the 4-form field strenght has to be the pullback of the cocycle $\overline{\psi}\wedge e^a \wedge e^b \wedge \Gamma^{a b} \psi$ plus the [[supergravity C-field]] [[curvature]] and has to be closed.
 
