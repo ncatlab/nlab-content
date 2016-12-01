@@ -1,4 +1,6 @@
 
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/330px-Fano_plane.svg.png">
+
 ## Properties
 
 ### Automorphisms
