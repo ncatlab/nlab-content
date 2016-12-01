@@ -87,7 +87,9 @@ given by ...
 
 =--
 
-This is ([Sagave 11, def. 3.14 in view of example 3.8](#Sagave11)). See also ([Sagave 11, section 1.4](#Sagave11)) for comments on how this yields an $\infty$-version of $\mathbb{Z}$-grading on an abelian group.
+This is ([Sagave 11, def. 3.14 in view of example 3.8](#Sagave11), [Sagave-Schlichtkrull 11, above theorem 1.8](#SagaveSchlichtkrull11)). See also ([Sagave 11, section 1.4](#Sagave11)) for comments on how this yields an $\infty$-version of $\mathbb{Z}$-grading on an abelian group.
+
+In fact this grading extends form the group of units to the full $\infty$-ring ([Sagave-Schlichtkrull 11, theorem 1.7- 1.8](#SagaveSchlichtkrull11)).
 
 +-- {: .num_prop #FiberSequenceForExtendedGl1}
 ###### Proposition
