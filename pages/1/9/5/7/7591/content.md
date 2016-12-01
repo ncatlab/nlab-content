@@ -344,8 +344,8 @@ A notion of spectrum of units of an $E_\infty$-ring was originally described in
 
 One explicit model was given in
 
-* Christian Schlichtkrull, _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. 8(2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079))
- {#Schlichtkrull04}
+* {#Schlichtkrull04} [[Christian Schlichtkrull]], _Units of ring spectra and their traces in algebraic K-theory_, Geom. Topol. 8(2004) 645-673 ([arXiv:math/0405079](http://arxiv.org/abs/math/0405079))
+ 
 
 A general abstract discussion in [[stable (∞,1)-category]] theory is in
 
@@ -374,9 +374,11 @@ A construction in terms of a [[model structure on spectra]] is in
 
 A refinement of the construction of $\infty$-groups of units to [[augmented ∞-groups]] over the [[sphere spectrum]], such as to distinguish $gl_1$ of a [[periodic E-∞ ring]] from its connective cover, is in
 
-* {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_ ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
+* {#Sagave11} [[Steffen Sagave]], _Spectra of units for periodic ring spectra_, Algebr. Geom. Topol. 16 (2016) 1203-1251 ([arXiv:1111.6731](http://arxiv.org/abs/1111.6731))
  
 based on ([Schlichtkrull 04](#Schlichtkrull04)). See also
+
+* {#SagaveSchlichtkrull11} [[Steffen Sagave]], [[Christian Schlichtkrull]], _Diagram spaces and symmetric spectra_, Advances in Mathematics, Volume 231, Issues 3&#8211;4, October&#8211;November 2012, Pages 2116&#8211;2193 ([arXiv:1103.2764](https://arxiv.org/abs/1103.2764))
 
 * {#Szymik11} [[Markus Szymik]], _Brauer spaces for commutative rings and structured ring spectra_ ([arXiv:1110.2956](http://arxiv.org/abs/1110.2956))
 
