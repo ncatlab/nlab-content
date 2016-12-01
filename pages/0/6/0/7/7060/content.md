@@ -19,9 +19,9 @@
 
 ## Idea
 
-In [[type theory]] the _type of propositions_ $Prop$ is what in the [[categorical semantics]] becomes the [[subobject classifier]].
+In [[type theory]] the _type of propositions_ $Prop$ corresponds roughly under [[categorical semantics]] to the [[subobject classifier]].  (To be precise, depending on the type theoretic rules and axioms this may not be quite true: one needs [[propositional resizing]], [[propositional extensionality]], and --- in some type theories where "proposition" is not defined as an [[h-proposition]], such as the [[calculus of constructions]] --- the [[principle of unique choice]].)
 
-Its generalization from [[propositions]] to general [[types]] is the [[type of types]] in [[homotopy type theory]]. 
+Its generalization from [[propositions]] to general [[types]] is the [[type of types]]. 
 
 ## Related concepts
 
