@@ -169,7 +169,7 @@ in the evident way by taking for $X$ a [[Fréchet manifold]] for any $U \in $ [[
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #FrechetEmbedding}
 ###### Proposition
 
 The functor $\iota \colon FrechetManifolds \hookrightarrow DiffeologicalSpaces$ is a [[full and faithful functor]].
@@ -197,7 +197,7 @@ $$
 
 =--
 
-This appears as ([Waldorf, lemma A.1.7](#Waldorf)).
+This appears as ([Waldorf 09, lemma A.1.7](#Waldorf09)).
 
 
 
@@ -479,18 +479,17 @@ into the [[(∞,1)-topos]] [[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[s
 
 The basic idea of understanding a smooth space as a [[concrete sheaf]] on a site of smooth test spaces originates in work of Chen. In 
 
-* [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246.
+* {#Chen73} [[Kuo Tsai Chen]], _Iterated integrals of differential forms and loop space homology_, Ann. Math. 97 (1973), 217&#8211;246.
 
-he considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subset]]s of [[Cartesian spaces]]. In
+he considered (apart from [[iterated integrals]]) effectively [[presheaves]] on a site of [[convex subsets]] of [[Cartesian spaces]]. In
 
-* [[Kuo Tsai Chen]], Iterated integrals, fundamental groups and covering spaces, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98.
+* {#Chen75} [[Kuo Tsai Chen]], Iterated integrals, fundamental groups and covering spaces, Trans. Amer. Math. Soc. 206 (1975), 83&#8211;98.
 
 roughly the [[sheaf]] condition was added (without using any of this sheaf-theoretic terminology). The definition of _[[Chen smooth spaces]]_ stabilized in
 
-* [[Kuo Tsai Chen]], _Iterated path integrals_ , Bull. Amer. Math. Soc. 83, (1977),
-831&#8211;879.
+* {#Chen77} [[Kuo Tsai Chen]], _Iterated path integrals_ , Bull. Amer. Math. Soc. 83, (1977), 831&#8211;879.
 
-and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop space]]s.
+and served as the basis of a celebrated theorem on the [[de Rham cohomology]] of [[loop spaces]].
 
 The variant of this idea with the site of convex subsets replaced by that of open subsets (and hence equivalently by the site [[CartSp]]${}_{smooth}$) appeared in
 
@@ -551,8 +550,8 @@ The proof can in fact be deduced from th&#233;or&#232;me 1 of
 
 The preservation of [[mapping spaces]] under this embedding is due to
 
-* [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_ ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
- {#Waldorf}
+* {#Waldorf09} [[Konrad Waldorf]] _Transgression to Loop Spaces and its Inverse I_, Cah. Topol. Geom. Differ. Categ., 2012, Vol. LIII, 162-210 ([arXiv:0911.3212](http://arxiv.org/abs/0911.3212)) 
+ 
 
 The largest [[topological space|topology]] on the set which underlies a diffeological space with respect to which all plots are [[continuous functions]] (the "[[D-topology]]") is studied in 
 
