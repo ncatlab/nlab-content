@@ -50,12 +50,12 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  $$
  A little later it was realized that
  the [[axioms]] of [[local field theory]] _imply_ that all [[spinor]] fields need to be [[fermions]]
- in that for any two [[classical field theory|classical]] spinor field variables $\psi_1$, $\psi_2$ then the Grassmann sign rule
+ in that for any two [[classical field theory|classical]] spinor field variables $\psi_1$, $\psi_2$ the Grassmann sign rule
  holds ([Grassmann 1844](geometry+of+physics+--+-superalgebra#Grassmann1844)):
  $$
    \psi_1 \psi_2 = - \psi_2 \psi_1
  $$
- (which course immediately implies the [[Pauli exclusion principle]]).
+ (which of course immediately implies the [[Pauli exclusion principle]]).
  This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
  [Fierz in 1939](#Fierz39) and [Pauli in 1940](#Pauli40).
 
@@ -75,7 +75,7 @@ $\,\,\,\,\,\;$ _**hence for [[matter]] fields admitting [[solid state physics|so
 $\,\,\,\,\,\;$ _**is [[supergeometry]].**_
 
 Nevertheless, few textbooks make the supergeometric aspect in the physics of fermions explicit.
-Some discuss it only after [[quantization]] (and some will even claim that femion fields do not exist classically);
+Some discuss it only after [[quantization]] (and some will even claim that fermion fields do not exist classically);
 some only discuss it in the context of [[spacetime]] [[supersymmetry]]. But notice that
 _[[supergeometry]]_ is a subject in itself even without presence or mentioning of spacetime [[supersymmetry]]
 (which is [[super Poincaré group]] [[symmetry]]), just as
@@ -137,7 +137,7 @@ possibly satisfying some suitable properties. see remark \ref{ASheafAsASpace} be
 
 This means that we follow the perspective of "**[[functorial geometry]]**" due to [Grothendieck 65](#Grothendieck65),
 where a [[scheme]] is regarded as a [[sheaf]] over the category of [[affine schemes]] (its "[[functor of points]]")
-satisfying the condition that it is covered by ([[representable functor|representables]] of) affines, via [[formally étale morphism]].
+satisfying the condition that it is covered by ([[representable functor|representables]] of) affines via [[formally étale morphism]].
 We explain all this below.
 
 Beware that -- despite the urging in [Grothendieck 73](#Grothendieck73) that the definition of [[schemes]] as
@@ -152,7 +152,7 @@ of which a clean account is given in [Sachse 08](#Sachse08). These authors consi
 (smooth) "geometry" still needs to be added in by hand. Hence this approach satisfies [Grothendieck's urging](#Grothendieck73)
 half-way.
 
-The full application of the perspective of [[functorial geometry]] to [[supergeometry]] is mostly known as
+The full application of the perspective of [[functorial geometry]] to [[supergeometry]] is known as
 _[[synthetic differential supergeometry]]_, where one considers sheaves over the full category of formal
 [[super Cartesian spaces]] ([Yetter 88, section 3](#Yetter88)). This is essentially the perspective which we adopt here.
 We do however not refer to the (super-)[[Kock-Lawvere axioms]] for [[synthetic differential geometry]] but instead
@@ -336,7 +336,7 @@ is related to that of ordinary [[commutative algebras]] over $\mathbb{R}$ by an
 +-- {: .num_prop #AdjointCylinderOnSuperAffines}
 ###### Proposition
 
-The canonical inclusion of [[commutative algebras]] into [[supercommutative superalgebra]] is
+The canonical inclusion of [[commutative algebras]] into [[supercommutative superalgebra|supercommutative superalgebras]] is
 part of an [[adjoint triple]] of the form
 
 $$
@@ -486,7 +486,7 @@ over $\mathbb{R}$ (the [[direct sum]] on the right is that of underlying [[vecto
 
 We call this the category of _[[infinitesimally thickened points]]_.
 
-In [[synthetic differential geometry]] these algebras are called **[[Weil algebra]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
+In [[synthetic differential geometry]] these algebras are called **[[Weil algebra|Weil algebras]]**, while in [[algebraic geometry]] they are known as **local [[Artin algebras]]** over $\mathbb{R}$.
 
 Write moreover
 
@@ -616,7 +616,7 @@ $$
   \,.
 $$
 
-Hence exhibits $CartSp$ as a [[coreflective subcategory]] of that of formal cartesian spaces.
+Hence $i$ exhibits $CartSp$ as a [[coreflective subcategory]] of that of formal cartesian spaces.
 
 We say that $\mathbb{R}^n$ is the **[[reduced scheme]]** of $\mathbb{R}^n \times \mathbb{D}$.
 
@@ -696,7 +696,7 @@ $$
 $$
 
 for the [[full subcategory]] of that of the [[opposite category]] of [[supercommutative superalgebras]]
-on whose of the form
+on those of the form
 
 $$
   C^\infty(\mathbb{R}^p) \otimes_{\mathbb{R}} (\mathbb{R} \oplus V)
@@ -757,7 +757,7 @@ $\mathbb{R}^n \to \mathbb{R}^0$.
 =--
 
 In conclusion, the various [[extra structures]] on local model spaces (abstract coordinate systems) which we
-considered is organized in the following [[diagram]].
+considered are organized in the following [[diagram]].
 
 +-- {: .num_prop #SystemOfSites}
 ###### Proposition
@@ -882,7 +882,7 @@ $$
   \mathbb{R}^p \mapsto  X(\mathbb{R}^p) \in Set
 $$
 
-which assigns a set to each Cartesian space. We are to think of this set as the set of smooth functions "$\mathbb{R}^n \stackrel{}{\to} X$", only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
+which assigns a set to each Cartesian space. We are to think of this set as the set of smooth functions {"$\mathbb{R}^n \stackrel{}{\to} X$"}, only that there is no pre-defined concept of smoothness of functions into $X$, instead it is defined by that very rule.
 Moreover, for every smooth function
 $f$ between Cartesian spaces, there is to be a corresponding function $f^\ast$ between these sets, going in the opposite direction
 
@@ -962,7 +962,7 @@ $$
 
 which assigns actual sets of smooth functions.
 
-Notice that now that Cartesian spaces (and smooth manifolds) themselves are understood as special cases of smooth sets, there appers now an
+Notice that since Cartesian spaces (and smooth manifolds) themselves are understood as special cases of smooth sets, there now appears an
 actual concept of smooth functions of the form $\mathbb{R}^n \to X$, for every smooth set $X$, without quotation marks:
 namely this is a morphism in the category $Smooth0Type$ of smooth sets.
 
@@ -1001,7 +1001,7 @@ $$
 ###### Remark
 
 The strategy is now to work in the nice category $SmoothSets$ of [[generalized smooth spaces]] (a [[topos]]),
-and find in their [[full subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
+and find in there [[full subcategories]] of more specific types of smooth spaces having extra properties which one may need in given applications. There is a long list of such subcategories of relevance, some of these we briefly discuss now:
 
 $\{$[[Cartesian spaces]]$\}$
  $\hookrightarrow$
@@ -1088,11 +1088,11 @@ into the category of [[diffeological spaces]]. But these in turn fully embed int
 ###### Definition
 
 A **[[diffeological space]]** $X$ is a [[smooth set]] (def. \ref{Smooth0Type}) which is [[concrete sheaf|concrete]].
-This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
+This means that there exists a [[set]] $X_s \in $ [[Set]] such that the smooth sets from Cartesian spaces $\mathbb{R}^n$ into $X$ are [[natural transformation|naturally]] [[subset|subsets]] of the set of maps from the underlying set $\mathbb{R}^n_s \in Set$ of the Cartesian space
 to this set:
 
 $$
-  X(\mathbb{R}^n) \hookrightattow Hom_{Set}(\mathbb{R}^n_s, X_2)
+  X(\mathbb{R}^n) \hookrightarrow Hom_{Set}(\mathbb{R}^n_s, X_2)
   \,.
 $$
 
@@ -1160,7 +1160,7 @@ In analogy with def. \ref{Smooth0Type} we say that
 
 =--
 
-The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
+The category of formal smooth sets from def. \ref{FormalSmoothSets} is often known as the _[[Cahiers topos]]_. It was introduced in ([Dubuc 79](Cahiers+topos#Dubuc79)) as a well-adapted model for the [[Kock-Lawvere axioms]] for [[synthetic differential geometry]].
 The category of super formal smooth sets from def. \ref{FormalSmoothSets} was considered in [Yetter 88](#Yetter88), called the _super Dubuc topos_ there.
 
 We have now defined four sites
@@ -1199,7 +1199,7 @@ and the top three functors on the right coincide with the corresponding functors
 
 In such a situation we also say that in the third row
 
-1. the bottom four functors exhbit $SuperFormalSmoothSet$ as a  [[cohesive topos]];
+1. the bottom four functors exhibit $SuperFormalSmoothSet$ as a  [[cohesive topos]];
 
 1. the middle four functors exhibit $SuperFormalSmoothSet$ as an  _elastic topos_ relative to $SmoothSet$ ([[differential cohesion]]);
 
@@ -1231,7 +1231,7 @@ $$
 $$
 
 It is a basic fact of [[category theory]] ([this prop](Kan+extension#LeftKanExtensionBasicProp)) that on representables $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$
-left Kan extension coincides with the underlying functr: $F_!(y(c)) = y(F(c))$.
+left Kan extension coincides with the underlying functor: $F_!(y(c)) = y(F(c))$.
 Moreover, since every presheaf is a [[colimit]] of [[representables]] (the "[[co-Yoneda lemma]]")
 and since left adjoint functors preserve [[colimits]], this property completely characterizes the left Kan extension.
 
@@ -1255,10 +1255,10 @@ $$
   \,.
 $$
 
-To see this, it is sufficient to see the left hand side. It implies the right hand side because [[adjoint functors]]
+To see this, it is sufficient to consider the left hand side. It implies the right hand side because [[adjoint functors]]
 are essentially unique, if they exist. Moreover, since both functors on the left are [[left adjoints]]
 which hence preserve [[colimits]] and since all presheaves are [[colimits]] of [[representable functors|representables]],
-it is sufficient to check this natural isomorphisms on representables.
+it is sufficient to check this natural isomorphism on representables.
 Hence for any $X \in \mathcal{D} \overset{y}{\hookrightarrow} PSh(\mathcal{D})$
 and $c \in \mathcal{C} \overset{y}{\hookrightarrow} PSh(\mathcal{C})$ we check that
 we have the following [[natural isomorphism]]
@@ -1290,18 +1290,17 @@ as shown in the middle row above, but, so far, only on the corresponding [[categ
 
 That the middle and the right adjoint quadruple on presheaves restricts to [[sheaves]] follows
 directly from the nature of the sites in def. \ref{FormalSmoothSets}, since the [[coverages]]
-are trivial "along the infinitsimal diretions". That also the left adjoint quadruple descends
+are trivial "along the infinitesimal directions". That also the left adjoint quadruple descends
 to sheaves is the statement that $CartSp$ with its [[good open cover]] [[coverage]] is
 a _[[cohesive site]]_ (see there).
 
 This establishes the system of adjoints in the second row.
 
-The diagram in the third row states that two extra adjoints to _composites_ of functors appear. Here the [[right adjoint]] functor
+The diagram in the third row states that two extra adjoints to _composites_ of the functors appear. Here the [[right adjoint]] functor
 $SmoothSet \longleftarrow SuperFormalSmoothSet$ exists because the canonical inclusion $CartSp \hookrightarrow SuperFormalCartSp$
 is of the same coreflective nature as the inclusion $CartSp \hookrightarrow FormalCartSp$ from prop. \ref{CartSpCoreflectiveInclusion},
 and for the same reason.
-Similarly then the bottom-most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ exists
-is [[right adjoint]] because also
+Similarly then the bottom-most full inclusion $Set \hookrightarrow SuperFormalSmoothSet$ is [[right adjoint]] because also
 $SuperFormalCartSp$ is a [[cohesive site]], and again for the same reason that $CartSp$ is.
 
 Finally, that every second functor is a [[full subcategory]]  inclusion (a [[fully faithful functor]]) as shown follows because
@@ -1360,7 +1359,7 @@ $$
   \,.
 $$
 
-In fact, since these two [[endofunctors]] are obtaned from the two possible composites in an [[adjoint triple]]
+In fact, since these two [[endofunctors]] are obtained from the two possible composites in an [[adjoint triple]]
 whose middle functor is [[fully faithful functor|fully faithdful]] (an [[adjoint cylinder]]),
 it is immediate to see that
 
@@ -1391,7 +1390,7 @@ $$
 
 which first forms the bosonic underlying space, and then forms the reduced underlying space of what remains.
 The total result of this operation is just plain reduction, removing all infinitesimal directions,
-whether odd graded or even gradded.
+whether odd graded or even graded.
 Therefore, the result of composing this operation with its right adjoint canonical re-embedding yields an endofunctor which
 we should call
 
@@ -1532,7 +1531,7 @@ Recall the [[adjoint pair]] of [[endofunctors]]
 $$
   (\Re \dashv \Im)
    \;\colon\;
-  SuperFomralSmoothSet
+  SuperFormalSmoothSet
     \longrightarrow
   SuperFormalSmoothSet
 $$
@@ -1576,7 +1575,7 @@ where $n \in \mathbb{N}$ and for $\mathbb{D}$ any [[infinitesimally thickened po
 ###### Proof
 
 By applying the [[Yoneda lemma]], the [[natural bijection]] between [[hom-sets]] that
-characterizes the [[adjoint pair]] $\Re \dashv \Im$  an using the characterization of $\Re$ we
+characterizes the [[adjoint pair]] $\Re \dashv \Im$ and using the characterization of $\Re$ we
 get the following sequence of [[natural isomorphisms]]:
 
 $$
@@ -1602,8 +1601,8 @@ $$
 Proposition \ref{ImAction} means that for $X$ for instance an ordinary [[smooth manifold]]
 (regarded as a super formal smooth set via prop. \ref{SmoothSetsContainSmoothManifolds})
 then $\Im X$ is a rather exotic kind of [[generalized smooth space]]: it has the same finite smooth curves and other
-finie smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necssarily constant.
-A good way to think kabout this (which is also the precise way to thinkk about it, if we speak in the [[internal language]]
+finite smooth shapes as $X$ does, but every _infinitesimal_ curve or shape inside it is necessarily constant.
+A good way to think about this (which is also the precise way to think about it, if we speak in the [[internal language]]
 of the [[sheaf topos]]) is that $\Im X$ is the result obtained from $X$ by **identifying all infinitesimally close points**
 with each other. In [[algebraic geometry]] this construction is often known as forming the _[[de Rham shape]]_ of $X$
 ([Simpson 96](#de+Rham+space#Simpson96)). Here we will say **[[infinitesimal shape]]**.
@@ -1666,7 +1665,7 @@ $$
 
 is a [[pullback]] square.
 
-We often indicate that a morphism satisfies this condition by labeling it "&#233;t" , hence
+We often indicate that a morphism satisfies this condition by labeling it "et" , hence
 
 $$
   \array{
@@ -1682,7 +1681,7 @@ $$
 
 =--
 
-We unwind definitio \ref{LocalDiffeomorphisms} a little:
+We unwind definition \ref{LocalDiffeomorphisms} a little:
 
 +-- {: .num_remark #FormallyEtaleUnwinding}
 ###### Remark
@@ -1690,7 +1689,7 @@ We unwind definitio \ref{LocalDiffeomorphisms} a little:
 Let $\mathbb{D}$ be an [[infinitesimally thickened point]]. This means that its reduction is the actual point,
 $\Re \mathbb{D} \simeq \ast$. By the [[adjunction]] $\Re \dashv \Im$ from def. \ref{ProgressionOfIdempotentEndofunctors}
 it follows that the image of the naturality square in def. \ref{LocalDiffeomorphisms} under forming the
-[[internal hom]] (def. \ref{InternalHom}) out of $\mathbbf{D}$ is
+[[internal hom]] (def. \ref{InternalHom}) out of $\mathbb{D}$ is
 
 $$
   \array{
@@ -1745,8 +1744,8 @@ the internal hom out of $Spec(\mathbb{R}[\epsilon](\epsilon^2))$.
 
 But, as the name suggests, a [[local diffeomorphism]] of smooth manifolds is in particular
 also a [[local homeomorphism]]. This means that around each point of $X$ there is
-actually an [[open neighbourhood]] such that $f$ restrricts to a [[diffeomorphism]]
-on that neighbourhood. This implies that the full condition  in def. \ref{LocalDiffeomorphisms}
+actually an [[open neighbourhood]] such that $f$ restricts to a [[diffeomorphism]]
+on that neighbourhood. This implies that the full condition in def. \ref{LocalDiffeomorphisms}
 holds, by an argument as in example \ref{ProjectioonOutOfCoproductIsFormllyEtale}.
 
 =--
@@ -1790,7 +1789,7 @@ $$
 $$
 
 Moreover, in any [[sheaf topos]] [[universal colimits|colimits are universal]], which means that maps out of colimits
-are preserves under [[pullback]]. Moreover, the pullback of an [[isomorphism]] is an isomorphism,
+are preserved under [[pullback]]. Moreover, the pullback of an [[isomorphism]] is an isomorphism,
 and so we deduce that we have a pullback diagram of the form
 
 $$
@@ -1927,7 +1926,7 @@ regarded as being in degree $p \,mod\, 2 \in \mathbb{Z}/2$.
 
 This $\Pi T X$ is often called the **[[odd tangent bundle]]**.
 
-Notice that generally we may think of $\Pi E$ as being the [[superspace]] which is obtained form the base manifold
+Notice that generally we may think of $\Pi E$ as being the [[superspace]] which is obtained from the base manifold
 $X$ by adding an (odd-graded) infinitesimal thickening where an "infinitesimal step" away from some point $x \in X$
 is a [[vector]] in the [[fiber]] $E_x$. This is particularly suggestive in the case that $E$ is the tangent bundle,
 because tangent vectors precisely want to be thought of as the infinitesimal paths in $X$.
@@ -2052,7 +2051,7 @@ The key idea is that [[sets]] of functions between sets have the following [[uni
 +-- {: .num_example #FunctionSet}
 ###### Example
 
-Let $X,Y \in $ [[Set]] be two [[sets]], then set
+Let $X,Y \in $ [[Set]] be two [[sets]], then the set
 
 $$
   Y^X \coloneqq \{X \to Y\}
@@ -2078,7 +2077,7 @@ It is immediate how to generalize example \ref{FunctionSet}:
 
 Let $\mathcal{C}$ be a [[category]] with [[Cartesian products]] of its [[objects]],
 hence a [[cartesian monoidal category]]. Then an [[internal hom]]-functor for $\mathcal{C}$
-is, it it exists, a functor of the form
+is, if it exists, a functor of the form
 
 $$
   [-,-] \;\colon\; \mathcal{C}^{op} \times \mathcal{C} \longrightarrow \mathcal{C}
@@ -2144,7 +2143,7 @@ does generalize the traditional concept of smooth [[mapping spaces]]:
 ###### Example
 
 Let $\Sigma$ be a [[compact topological space|compact]] [[smooth manifold]] and let $X$ be any [[smooth manifold]].
-Then set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
+Then the set of [[smooth functions]] $C^\infty(\Sigma,X)$ carries the structure of an
 [[infinite-dimensional manifold|infinite dimensional]] (in general) [[Fréchet manifold]] $Maps(\Sigma,X)_{Frechet}$.
 Under the embedding $i \colon FrechetMfd \hookrightarrow SmoothSet$ of prop. \ref{SmoothSetsContainSmoothManifolds}
 this coincides with  [[internal hom]] $[\Sigma,X]$ formed in $Smoothset$ according to prop. \ref{SheavesHomInternal}:
@@ -2217,7 +2216,7 @@ By prop. \ref{HomsOutOfFirstOrderInfinitesimalLine}, the set on the right is nat
 of smoothly $\mathbb{R}^n$-parameterized families of [[tangent vectors]] in $X$. But this is the set that
 $T X$, regarded as a smooth set, assigns to $\mathbb{R}^n$.
 
-Moreover, looking at the proof of prop. \ref{HomsOutOfFirstOrderInfinitesimalLine} it is immediate that composiing
+Moreover, looking at the proof of prop. \ref{HomsOutOfFirstOrderInfinitesimalLine} it is immediate that composing
 a morphism
 
 $$
@@ -2367,7 +2366,7 @@ $$
   \mathbf{d} f \coloneqq \sum_{i = 1}^p \frac{\partial f}{\partial x^i} \mathbf{d}x^i
 $$
 
-and extended from there to all degree by the graded Leibnitz rule.
+and extended from there to all degrees by the graded Leibniz rule.
 
 It is immediate to generalize this to [[supergeometry]], one just needs to be sure to apply the [[signs in supergeometry|sign rule]] throughout.
 
@@ -2395,7 +2394,7 @@ $$
   \mathbf{d} f \coloneqq \sum_{i = 1}^p \frac{\partial f}{\partial x^i} \mathbf{d}x^i
 $$
 
-and extended from there to all degree by the graded Leibnitz rule.
+and extended from there to all degree by the graded Leibniz rule.
 
 
 =--
@@ -2444,7 +2443,7 @@ for all $\alpha,  \beta \in \Omega^\bullet(\mathbb{R}^{p|q})$ of homogeneous $\m
 
 1. there is a "cohomological sign" which for commuting a $n_1$-forms past an $n_2$-form is $(-1)^{n_1 n_2}$;
 
-1. in addition there is a "super-grading" sich which for commuting a $\sigma_1$-graded coordinate function past a $\sigma_2$-graded coordinate function (possibly under the de Rham differential) is $(-1)^{\sigma_1 \sigma_2}$.
+1. in addition there is a "super-grading" which for commuting a $\sigma_1$-graded coordinate function past a $\sigma_2$-graded coordinate function (possibly under the de Rham differential) is $(-1)^{\sigma_1 \sigma_2}$.
 
 =--
 
@@ -2520,7 +2519,7 @@ we first recall the following neat formulation of ordinary
 Lie algebra valued differential forms due to Cartan. This will lend itself
 in fact not only to the generalization to [[super Lie algebras]]
 but further to _[[super L-∞ algebras]]_, which is what is needed
-for the desciption of higher dimensional [[supergravity]].
+for the description of higher dimensional [[supergravity]].
 
 
 +-- {: .num_defn #CEAlgebra}
@@ -2752,7 +2751,7 @@ A [[super Lie algebra]] is equivalently
 
    which is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
 
-1. that satisfied the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z)\in \mathbb{Z}_2$ then
+1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three elements $x,y,z \in \mathbb{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z)\in \mathbb{Z}_2$ then
 
    $$
      [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
