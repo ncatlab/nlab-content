@@ -23,6 +23,10 @@ The analog of the concept of [[isometry group]] in [[supergeometry]].
 
 * [[BPS state]]
 
+* [[super-diffeomorphism]]
+
+* [[supersymmetry]]
+
 ## References
 
 Discussion identifying [[twistor spinors]] (hence in particular [[Killing spinors]]) as infinitesimal superisometries is in
