@@ -20,15 +20,13 @@
 
 What is called _$\kappa$-symmetry_ is a certain fermionic [[symmetry]] of [[Green-Schwarz action functionals]] for [[super p-branes]] whose effect is to [[gauge symmetry|gauge away]] half of the [[spinor|spinorial]] [[sigma-model]] [[field (physics)|fields]].
 
-In a completely super-covariant formulation of the [[Green-Schwarz action functionals]], this $\kappa$-symmetry is simply the odd-graded part of the [[supermanifold|super]]-[[worldvolume]] [[super-diffeomorphism]] symmetry of the [[sigma-model]] ([Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)).
-
-If 
+In a completely super-covariant formulation of the [[Green-Schwarz action functionals]], this $\kappa$-symmetry is simply the odd-graded part of the [[supermanifold|super]]-[[worldvolume]] [[super-diffeomorphism]] symmetry of the [[sigma-model]] ([Sorokin 99, section 4.3](#Sorokin99), [Howe-Sezgin 04, section 4.3](#HoweSezgin04)): If 
 
 1. $X$ denotes a [[superspacetime]] locally modeled on [[super-Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
 
 1. $\Sigma$ denotes a [[supermanifold|super]]-[[worldvolume]] of a [[super p-brane]] locally modeled on [[super-Minkowski spacetime]] $\mathbb{R}^{p,1\vert \mathbf{N}/2}$
 
-1. such that a [[sigma-model]] [[field (physics)|field]] configuration for a [[super p-brane]] of shape $\Sigma$ to popagate in $X$ is a morphism of [[supermanifolds]] of the form
+1. so that a [[sigma-model]] [[field (physics)|field]] configuration for a [[super p-brane]] of shape $\Sigma$ to popagate in $X$ is a morphism of [[supermanifolds]] of the form
 
    $$
      \array{
@@ -58,6 +56,26 @@ $$
   \,.
 $$
 
+Notice here the assumption that the number of odd directions on the [[worldvolume]] is half that of the [[target spacetime]]. This is the default assumption for fundamental [[super p-branes]], and it directly reflects the statement that the corrresponding [[black brane]] solutions are $1/2$ [[supergravity]] [[BPS states]].
+
+For example, consider the embedding 
+
+$$
+  \mathbb{R}^{2,1} \hookrightarrow \mathbb{R}^{10,1}
+$$
+
+of 2+1d [[Minkowski spacetime]], thought of as the [[worldvolume]] of a [[membrane]] into 11d Minkowski spacetime, linearly along the coordinate axis. Any such embedding breaks the [[isometry group]] of $\mathbb{R}^{10,1}$ from the [[Poincare group]] $Iso(10,1)$ to $Iso(2,1) \times O(8)$. Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$. We are to ask what subspace of the [[spin representation]] $\mathbf{32}$ preserves the embedding in that the spinor bilinear pairing $\overline{\psi}_1 \Gamma \psi$ lands in $Iso(2,1) \hookrightarrow Iso(10,1)$. This tunrs out to be the case precisely for a half-dimensional subspace, and hence we may lift the above to a super-embedding of the form
+
+
+$$
+  \mathbb{R}^{2,1\vert 8 \otimes \mathbf{2}} \hookrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}
+  \,.
+$$
+
+If one now thinks of this not as inclusions of global spacetimes, but of their super tangent spaces at the points where the membrane sits in spacetime, then this reflects the local structure of $\kappa$-symmetry. 
+
+
+
 
 Historically $\kappa$-symmetry was originally observed and considered for [[Green-Schwarz sigma models]] whose [[worldvolume]] is regarded as an ordinary (bosonic) [[smooth manifold]]. Then $\kappa$-symmetry is a "hidden" symmetry, with no evident geometric interpretation. As such it was first observed for the [[super-particle]] ([Siegel 83](#Siegel83)) and then for the [[super 1-brane in 3d]] ([Siegel 84](#Siegel84)). 
 
@@ -84,7 +102,7 @@ The interpretation of $\kappa$-symmetry as the odd-graded part of the action of 
 
 * {#Sorokin99} [[Dmitri Sorokin]], _Superbranes and Superembeddings_, Phys.Rept.329:1-101,2000 ([arXiv:hep-th/9906142](http://arxiv.org/abs/hep-th/9906142))
 
-* {#HoweSezgin04} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
+* {#HoweSezgin04} [[Paul Howe]], [[Ergin Sezgin]], _The supermembrane revisited_, Class.Quant.Grav. 22 (2005) 2167-2200 ([arXiv:hep-th/0412245](http://arxiv.org/abs/hep-th/0412245))
 
 
 [[!redirects kappa symmetry]]
