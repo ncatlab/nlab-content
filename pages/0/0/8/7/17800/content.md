@@ -11,7 +11,7 @@ In [[classical mathematics]], every space is covert, just as every space is over
 
 ## Definition
 
-A [[locale]] $X$ is **covert** if the unique map $X\to 1$ is a [[closed map]] of locales, i.e.\ the [[adjunction]] $f^* : O(1) \rightleftarrows O(X) : f_*$ satisfies the [[Frobenius reciprocity]] condition $f_*(U\cup f^*(V)) = f_*(U)\cup V$.
+A [[locale]] $X$ is **covert** if the unique map $X\to 1$ is a [[closed map]] of locales, i.e. the [[adjunction]] $f^* : O(1) \rightleftarrows O(X) : f_*$ satisfies the [[Frobenius reciprocity]] condition $f_*(U\cup f^*(V)) = f_*(U)\cup V$.
 
 If [[excluded middle]] holds, then every locale is covert.
 
