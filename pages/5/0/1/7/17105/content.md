@@ -1,3 +1,10 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 <div style="float:right;margin:0 20px 10px 20px;">
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Fano_plane.svg/330px-Fano_plane.svg.png" alt="The Fano place" title="A picture of the Fano plane">
 </div>
