@@ -25,17 +25,16 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 ### Papers
 
-* _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). [Journal of Homotopy and Related Structures](http://link.springer.com/journal/40062) (2016) doi:[10.1007/s40062-016-0160-0](http://dx.doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl).
+* _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). [Journal of Homotopy and Related Structures](http://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923&#8211;942 doi:[10.1007/s40062-016-0160-0](http://dx.doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl).
 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384 doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
 * _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](http://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](http://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
-* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17 (2015)
-Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
+* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17, Number 2 (2015) 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
 
-* _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103 (2015) Issue 5, pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
+* _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103, Issue 5 (2015) pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
 
 * _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
 
