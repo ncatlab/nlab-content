@@ -674,7 +674,7 @@ $$
 ### Siegel- or $\kappa$-symmetry
  {#KappaSymmetry}
 
-The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[superstring]] in 3-dimensions, and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **$\kappa$-symmetry**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)). Discussion from the point of view of the [[D'Auria-Fré formulation of supergravity]] is in ([AFFFTT 98, section 3](#AFFFTT98), [Fr&#233;-Grassi 07, section 2.2](#FreGrassi07)).
+The Green-Schwarz action has an extra fermionic symmetry, on top of the genuine supersymmetry, first observed in ([Siegel 83](#Siegel83)) for the [[superparticle]] and in ([Siegel 84](#Siegel84)) for the [[super 1-brane in 3d]], and finally in ([GreenSchwarz 84](#GreenSchwarz)) for the critical superstring in 10-dimensions. This is also called **[[kappa-symmetry]]**. It has a natural interpretation in terms of the [[supergeometry|super]]-[[Cartan geometry]] of [[target space]] ([McArthur](#McArthur), [GKW](#GKW)). Discussion from the point of view of the [[D'Auria-Fré formulation of supergravity]] is in ([AFFFTT 98, section 3](#AFFFTT98), [Fr&#233;-Grassi 07, section 2.2](#FreGrassi07)).
 
 
 
@@ -1217,10 +1217,9 @@ and the generalizatin to [[D-branes]] is discussed in
 
 ### $\kappa$-Symmetry
 
-The existence of $\kappa$-symmetry was first noticed around
+The existence of [[kappa-symmetry]] was first noticed around
 
 * {#Siegel83} Warren Siegel, _Hidden Local Supersymmetry In The Supersymmetric Particle Action_ Phys. Lett. B 128, 397 (1983)
-
 
 * {#Siegel84} Warren Siegel, _Light Cone Analysis Of Covariant Superstring_ , Nucl. Phys. B 236, 311 (1984).
 
