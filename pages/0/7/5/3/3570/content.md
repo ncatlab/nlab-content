@@ -27,9 +27,11 @@ The **Warsaw circle** $S_W $ is the [[subset]] of the [[plane]], $\mathbb{R}^2$,
 $$\{(x,\sin(\frac{1}{x}) \mid -\frac{1}{2\pi} \lt x \leq \frac{1}{2\pi}, x \neq 0\}\cup \{(0,y) | -1 \leq y \leq 1\} \cup C,$$ 
 where $C$ is an arc in $\mathbb{R}^2$ joining $(\frac{1}{2\pi}, 0)$ and $(-\frac{1}{2\pi}, 0)$, disjoint from the other two subsets specified above except at its endpoints.
 
-It looks something like [[warsaw.pdf|this:file]].
+It looks something like [[warsaw.pdf|this:file]]:
 
-**Note** There is a variant version $S_W'$ with no $(x,\sin(\frac{1}{x}))$-bit for the $x\lt 0$ and the curve $C$ joins $(0,0)$ to $(\frac{1}{2\pi}, 0)$.  The discussion adapts very easily to that. For this version, there is a surjective continuous map $\mathbb{R} \to S_W'$. 
+<img src="https://ncatlab.org/nlab/files/warsaw.gif" alt="The Warsaw circle" title="A picture of the Warsaw circle">
+
+**Note** There is a variant version $S_W'$ with no $(x,\sin(\frac{1}{x}))$-bit for the $x\lt 0$ and the curve $C$ joins $(0,0)$ to $(\frac{1}{2\pi}, 0)$.  The discussion adapts very easily to that. For this version, there is a surjective continuous map $\mathbb{R} \to S_W'$. See eg [Wikipedia](https://en.wikipedia.org/wiki/Shape_theory_%28mathematics%29#/media/File:Warsaw_Circle.png) for a picture.
 
 ## Properties
 
