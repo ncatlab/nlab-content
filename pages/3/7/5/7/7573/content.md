@@ -70,6 +70,16 @@ Let $C$ be a small site equipped with a [[Grothendieck topology]] $J$, let $A:C^
 
 Note that $(-)^+ : PSh(C) \to SepPSh(C)$ is not left adjoint to the inclusion $\iota : SepPSh(C) \hookrightarrow PSh(C)$ of the full subcategory of separated presheaves. If it were, it would be a [[reflector]] and therefore satisfy $(-)^+ \circ \iota \cong Id$. But this is false, since the plus construction applied to separated presheaves yields their sheafification. See [this MathOverflow question](http://mathoverflow.net/questions/49486/the-single-plus-construction-is-not-the-left-adjoint-of-the-inclusion-of-separat) for details.
 
+
+## Internal description
+
+The plus construction can be described in the [[internal language]] of the presheaf topos $PSh(C)$. For a presheaf $A$, seen as a set from the internal point of view, the separated presheaf $A^+$ is given by the internal expression
+$$ A^+ = \{ K \subseteq A \,|\, j(K\,\text{ is a singleton}) \}/{\sim}, $$
+where $\sim$ is the equivalence relation given by $K \sim L$ if and only if $j(K = L)$ and $j$ is the [[Lawvere?Tierney topology]] describing the subtopos $Sh(C) \hookrightarrow PSh(C)$.
+
+With this internal description, the verification of the properties of the plus construction becomes an exercise with sets and subsets (instead of colimits).
+
+
 ## Related concepts
 
 * [[sheafification]]
