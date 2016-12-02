@@ -3,7 +3,7 @@
 
 An extra 1-parameter odd symmetry enjoyed by [[Green-Schwarz action functionals]] for [[super p-branes]].
 
-IIf one considers [[worldvolumes]] that are themselves [[supermanifolds]] embedded into taget [[super spacetime]], then kappa-symmetry is worldvolume super-[[diffeomorphisms]] ([Howe-Sezgin 04, section 4.3](#HoweSezgin04)) (...).
+If one considers [[worldvolumes]] that are themselves [[supermanifolds]] embedded into target [[super spacetime]], then kappa-symmetry is worldvolume super-[[diffeomorphisms]] ([Howe-Sezgin 04, section 4.3](#HoweSezgin04)) (...).
 
 ## References
 
