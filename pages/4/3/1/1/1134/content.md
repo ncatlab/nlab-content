@@ -35,6 +35,13 @@ is popular. The definition
 
 has been argued to have advantages, see also the references at [[super ∞-groupoid]].
 
+
+## As locally representable sheaves on super Cartesian spaces
+
+See at _[[geometry of physics -- supergeometry]]_ the section _[Supermanifolds](geometry+of+physics+--+supergeometry#Supermanifolds)_.
+
+
+
 ## As locally ringed spaces
  {#AsLocallyRingedSpace}
 
@@ -241,6 +248,7 @@ def. \ref{SupermanifoldOverSuperpoint} are
 =--
 
 This appears as ([Sachse, theorem 5.1](#Sachse)). See section 5.2 there for a discussion of the relation to the [DeWitt-definition](#ModeledOnGrassmannAlgebra).
+
 
 
 ## Related concepts
