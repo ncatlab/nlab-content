@@ -1,2 +1,1 @@
-
-> see at _[[type of propositions]]_
+&lt;[[Prop]]
