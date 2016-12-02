@@ -221,7 +221,7 @@ Assume then that a category $\mathcal{C}$ with suitable WFSs has been chosen, fo
   Since $(id, id)^* A^I$ is the interpretation of the [[substitution]]  
   $a : A \vdash Id_A (a,a) : Type$ in this sense $\sigma$ is now the interpretation of a term $a : A \vdash r_A : Id_A (a,a)$. 
 
-* **term elemination**
+* **term elimination**
 
   A type depending on an identity type
 
