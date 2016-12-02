@@ -123,7 +123,7 @@ Moreover, they showed that in [[light-cone gauge]] the resulting quantum dynamic
 
 Green-Schwarz's extra [[kappa-symmetry]] term serves a clear purpose, but originally its geometrically meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the Green-Schwarz-action functional describing the string in $d+1$-dimensions has a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) [[WZW-model]] for
 
-1. target space being locally [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
+1. target space being (locally) a [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
 
    $$
      \mathbb{R}^{d-1,1\vert \mathbf{N}}
@@ -131,9 +131,10 @@ Green-Schwarz's extra [[kappa-symmetry]] term serves a clear purpose, but origin
      Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}}) / Spin(d-1,1)
    $$
 
-   for $\mathbf{N}$ a real [[spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
+   for $\mathbf{N}$ a real ([[Majorana spinor|Majorana]]) [[spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
 
-1. [[WZW-term]] being a local potential for the the unique (up to rescaling, if it exists) $Spin(d-1,1)$-invariant [[group cocycle|group 3-cocycle]] $\mu_3$ on $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with component locally given by the Gamma-matrices of the given [[Clifford algebra]] representation.
+1. [[WZW-term]] being a local potential for the the unique (up to rescaling, if it exists) $Spin(d-1,1)$-invariant [[group cocycle|group 3-cocycle]] $\mu_3$ on $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$.
+
 
 More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]] with canonical basis of [[left invariant 1-forms]] given by the canonical [[vielbein]] field
 
@@ -248,6 +249,69 @@ $$
   curv(\hat B) = \mu_3^X
   \,.
 $$
+
+Notice how it is the cocycle property of $\mu_3^X$ which ensures that this action functional is still
+invariant under spacetime supersymmetry. Namely that $\mu_3^X$ comes from a  [[Lie algebra cohomology|cocycle]]
+on the supersymmetry [[super Lie algebra]] means equivalent that it is a closed [[left invariant differential form]]
+on [[super Minkowski spacetime]] regarded as a [[supergroup]] acting on itself by super-translations. This means precisely
+that for
+
+$$
+  g \;\colon\; \mathbb{R}^{d-1,1\vert\mathbf{N}} \longrightarrow \mathbb{R}^{d-1,1\vert\mathbf{N}}
+$$
+
+a supersymmetry transformation, then 
+
+$$
+  g^\ast \mu_3^X = \mu_3^X
+  \,.
+$$
+
+Now for $\phi \colon \Sigma \to \mathbb{R}^{d-1,1\vert \mathbf{N}}$ a sigma-model field configuration, then 
+its image under this supersymmetry operation is simply
+
+$$
+  g \circ \phi \;\colon\; \Sigma \overset{\phi}{\longrightarrow} \mathbb{R}^{d-1,1\vert \mathbf{N}}
+   \overset{g}{\longrightarrow} \mathbb{R}^{d-1,1\vert \mathbf{N}}
+   \,.
+$$
+
+Hence the WZW-term of the action functional on this transformed field configuration is
+
+$$
+  \int_\Sigma (g \circ \phi)^\ast B
+  =
+  \int_\Sigma \phi^\ast (g^\ast B)
+  \,.
+$$
+
+Now let $g = \exp(\theta v)$ be generated from an odd vector field $v$, then the difference between $g^\ast B$ and $B$ is 
+infinitesimally
+
+$$
+  \mathcal{L}_v B = \iota_v \mathbf{d}B + \mathbf{d}\iota_v B
+  \,,
+$$
+
+where on the right we use [[Cartan's magic formula]] for the [[Lie derivative]] along $v$. The second term is a total
+divergence and hence does not change the action functional (for fixed boundary field values). The first term is
+$\iota_v \mu_3^X$. The fact that $\mu_3^X$ is actually left invariant means that 
+
+$$
+  \mathcal{L}_v \mu_3^X = 0
+$$
+
+hence (again by [[Cartan's magic formula]] and using that $\mu_3^X$ is closed)
+
+$$
+  \mathbf{d}\iota_v \mu_3^X = 0
+  \,.
+$$
+
+This means that the first term above is closed, hence locally exact. Hence both contributions to $\mathcal{L}_v B$
+are total divergences. Hence the target space supersymmetry operation $\mathcal{L}_v$ is indeed a symmetry of the
+GS-sigma mode, due to the cocycle property of $\mu_3^X$.
+
 
 This form of the Green-Schwarz action functional for the string has evident generalization to other $p$-[[branes]]. Whenever there is a Lorentz-invariant $(p+2)$-cocycle $\mu_{p+2}$ on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, then one may ask for a higher gerbe ([[higher prequantum line bundle]]) $\hat C$ with [[curvature]] $\mu^X_{p+2}$ and consider the analogous functional.
 
