@@ -3,6 +3,7 @@
 
 Jos&#233; Adolfo de Azc&#225;rraga is full university professor of Theoretical Physics, IFIC member and emeritus professor at the University of Valencia, and president of the Spanish Royal Society of Physics (RSEF) ([web](http://www.uv.es/uvweb/college/en/news-release/-emeritus-professor-university-valencia-jose-adolfo-de-azcarraga-takes-responsabilityas-new-president-royal-spanish-society-physics-1285846070123/Noticia.html?id=1285890922554))
 
+[]
 
 * [cv pdf](http://www.uv.es/~azcarrag/CV%20%20summary.pdf)
 
@@ -26,3 +27,6 @@ Jos&#233; Adolfo de Azc&#225;rraga is full university professor of Theoretical P
 category: people
 
 [[!redirects Jose de Azcarraga]]
+
+[[!redirects J. de Azcárraga]]
+[[!redirects J. de Azcarraga]]
