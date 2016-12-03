@@ -14,7 +14,7 @@
 A (binary) [[relation]] $\sim$ on a set $A$ is __total__ if any two elements that are related in one order or the other:
 $$\forall (x, y: A),\; x \sim y \;\vee\; y \sim x$$
 
-In the language of the $2$-poset-with-duals [[Rel]] of sets and relations, a relation $R: A \to A$ is __total__ if its intersection with its reverse is the universal relation:
+In the language of the $2$-poset-with-duals [[Rel]] of sets and relations, a relation $R: A \to A$ is __total__ if its union with its reverse is the universal relation:
 $$A \times A \subseteq R \cup R^{op}$$
 Of course, this containment is in fact an equality.
 
