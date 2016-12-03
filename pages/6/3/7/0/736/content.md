@@ -37,14 +37,23 @@ For if a relation $r: X \to Y$ is a function, then
 
 1. $r r^{op} \leq 1_Y$: this just says that if $r^{op}(y, x)$ and $r(x, y')$, then $y = y'$. Equivalently, if $r(x, y)$ and $r(x, y')$ then $y = y'$: this holds precisely because $r$ is functional or well-defined. 
 
-1. $1_X \leq r^{op} r$: this says that if $x = x'$, then there exists $y$ such that $r(x, y)$ and $r^{op}(y, x')$, i.e., there exists $y$ such that $r(x, y)$ and $r(x', y)$. This holds precisely because a function is an entire relation. 
+1. $1_X \leq r^{op} r$: this says that if $x = x'$ in $X$, then there exists $y$ in $Y$ such that $r(x, y)$ and $r^{op}(y, x')$, i.e., there exists $y$ such that $r(x, y)$ and $r(x', y)$. This holds precisely because a function is an entire relation. 
 
-On the other hand, suppose $r: X \to Y$ is a left adjoint. (...) 
+On the other hand, suppose $r: X \to Y$ is a left adjoint. 
 
+1. From $1_X \leq s r$ we deduce that if $x = x'$ in $X$, then there exists $y$ in $Y$ such that $r(x, y)$ and $s(y, x')$; in particular $r$ is entire. 
 
-in which case it may be proven that $s = r^{op}$. A relation is functional if and only if $r \circ r^{op} \leq 1_Y$, and is entire if and only if $1_X \leq r^{op} \circ r$. 
+1. Suppose $r(x, y)$. From $x = x$ there exists $y'$ such that $r(x, y')$ and $s(y', x)$. Thus $s(y', x)$ and $r(x, y)$; from $s r \leq 1_Y$ we infer $y' = y$. We conclude at most one $y$ satisfies $r(x, y)$, making $r$ functional. 
 
-Further to this: surjectivity of a function $r: X \to Y$ can be expressed as the condition $1_Y \leq r \circ r^{op}$, and injectivity as $r^{op} \circ r \leq 1_X$. 
+Since $r$ is a function, it has a right adjoint $r$, and by uniqueness of right adjoints, we may conclude $s = r^{op}$. The [[monad]] $t = r^{op} r$ has a unit $1_X \leq t$ ($t$ is reflexive) and a multiplication $t t \leq t$ ($t$ is transitive), and also $t^{op} = (r^{op} r)^{op} = r^{op} r^{op\; op} = r^{op} r = t$ ($t$ is symmetric). So the monad $t$ is an [[equivalence relation]]. The above reasoning may be internalized to apply to the [[bicategory of relations]] internal to a [[regular category]], in which case this equivalence relation is exactly the [[kernel pair]] of the map $r$. The [[comonad]] $c = r r^{op}$ has a counit $c \leq 1_Y$ ($c$ is coreflexive), and such coreflective relations in $Set$ correspond to subsets of $Y$. More generally, in a regular category, the subobject of $Y$ named by $c$ is the [[image]] of $r$ (the [[coequalizer]] of the kernel pair). 
+
+Further remarks: surjectivity of a function $r: X \to Y$ can be expressed as the condition $1_Y \leq r \circ r^{op}$, and injectivity as $r^{op} \circ r \leq 1_X$. 
+
+## References 
+
+* [[Peter Freyd]] and Andr&#233; Scedrov, *[[Categories, Allegories]]*, Mathematical Library Vol. 39, North-Holland (1990). 
+
+* [[Robin Houston]], *Fun with Rel*, blog post at Bosker Blog (June 14, 2006). ([link](https://bosker.wordpress.com/2006/06/14/fun-with-rel/)) 
 
 
 [[!redirects functional relations]]
