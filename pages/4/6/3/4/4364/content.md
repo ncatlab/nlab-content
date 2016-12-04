@@ -1,3 +1,4 @@
+
 # Sublocales
 * table of contents
 {: toc}
@@ -30,7 +31,8 @@ The precise reasons why nuclei correspond to quotient frames (and hence to sublo
 
 Of course, every locale $L$ is a sublocale of itself.  The corresponding nucleus is given by
 $$ j_L(U) \coloneqq U ,$$
-so every open is preserved in this sublocale.
+so every open is preserved in this sublocale.  Conversely, every locale has an [[empty subspace|empty]] sublocale, given by
+$$j_\empty(U) \coloneqq L .$$
 
 Suppose that $U$ is an open in the locale $L$.
 Then $U$ defines an [[open subspace]] of $L$, also denoted $U$, given by
@@ -39,11 +41,11 @@ so $j_U(V)$ is the largest open which agrees with $V$ on $U$.
 $U$ also defines a [[closed subspace]] of $L$, denoted $U'$ (or any other notation for a [[complement]]), given by
 $$ j_{U'}(V) \coloneqq U \cup V ,$$
 so $j_{U'}(V)$ is the largest open which agrees with $V$ except on $U$.
-If $L$ is [[topological locale|topological]], then every open or closed sublocale of $L$ is also topological.
+If $L$ is [[topological locale|topological]], then every open sublocale of $L$ is also topological; the same goes for closed sublocales, assuming [[excluded middle]].  Even in [[constructive mathematics]], however, open and closed sublocales are [[complements]] in the lattice of sublocales.
 
 The [[double negation sublocale]] of $L$, denoted $L_{\neg\neg}$, is given by
 $$ j_{\neg\neg}(U) \coloneqq \neg{\neg{U}} .$$
-This is always a [[dense subspace]]; in fact, it is the *smallest* dense sublocale of $L$.  (As such, even when $L$ is topological, $L_{\neg\neg}$ is rarely topological.)
+This is always a [[dense subspace]]; in fact, it is the *smallest* dense sublocale of $L$.  (As such, even when $L$ is topological, $L_{\neg\neg}$ is rarely topological; in fact, its only points are the [[isolated point]]s of $L$.)
 
 
 ## References
