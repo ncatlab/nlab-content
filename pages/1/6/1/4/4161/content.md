@@ -64,3 +64,7 @@ A statement and proof of both a spin-statistics and a PCT theorem in the [[Haag-
 Generalization to curved spacetime is in 
 
 * [[Rainer Verch]], _A spin-statistics theorem for quantum fields on curved spacetime manifolds in a generally covariant framework_ ([arXiv:math-ph/0102035](http://arxiv.org/abs/math-ph/0102035))
+
+Discussion relating the spin-statistics theorem to [[extended topological field theory]], [[categorification]] (via [[2-rings]]) and [[Deligne's theorem on tensor categories]] is in 
+
+* {#JohnsonFreyd15} [[Theo Johnson-Freyd]], _Spin, statistics, orientations, unitarity_, Algebraic and Geometric Topology ([arXiv:1507.06297](https://arxiv.org/abs/1507.06297))
