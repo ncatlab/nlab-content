@@ -85,7 +85,7 @@ See _[[symmetric monoidal (∞,n)-category]]_.
 * [[Peter May]], _The geometry of iterated loop spaces_ ([pdf](http://www.math.uchicago.edu/~may/BOOKS/gils.pdf))
 {#May}
 
-* [[Mike Mandell]], Cochains and homotopy, type 2003.  ([arXiv](https://arxiv.org/abs/math/0311016)) published as Publ.math.IHES (2006) 103: 213&#8211;246. 
+* [[Mike Mandell]], Cochains and homotopy type, Publ. Math. IHES (2006) 103: 213&#8211;246.  ([arXiv](https://arxiv.org/abs/math/0311016)) 
 {#Mandell}
 
 * [[Martin Markl]], Steve Shnider, [[Jim Stasheff]], _Operads in algebra, topology and physics_, Math. Surveys and Monographs __96__, Amer. Math. Soc. 2002.
