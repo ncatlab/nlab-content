@@ -45,6 +45,7 @@ A **P-[supermanifold]** is a supermanifold equipped with a graded symplectic str
 
 * NQ-supermanifolds are an equivalent way of thinking of [[∞-Lie algebroid]]s. See the list of references there.
 
+* NQP-supermanifolds are hence _[[symplectic Lie n-algebroids]]_
 
 ## Related concepts
 
