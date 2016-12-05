@@ -175,7 +175,7 @@ An analogous approach works for strict cubical $\omega$-categories with connecti
 
 For functors between [[n-category|higher categories]], see [[lax natural transformation]] etc.
 
-A transformation which is natural only relative to [[isomorphisms]] may be called a [[canonical transformation]].
+A transformation which is natural only relative to [[isomorphisms]] may be called a [[core-natural transformation|canonical transformation]].
 
 For functors with more complicated shapes than $C \rightrightarrows D$, see [[extranatural transformation]] and [[dinatural transformation]].
 
