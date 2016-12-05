@@ -139,4 +139,12 @@ This is given by letting a projective unitary act by conjugation on a Fredholm o
 
   [[special orthogonal group]]
 
+## References
+
+On the [[cohomology]] of its [[classifying space]]:
+
+
+* Xing Gu, _On the Cohomology of the Classifying Spaces of Projective Unitary Groups_ ([arXiv:1612.00506](https://arxiv.org/abs/1612.00506))
+
+
 [[!redirects projective unitary groups]]
