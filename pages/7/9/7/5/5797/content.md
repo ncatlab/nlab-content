@@ -19,7 +19,7 @@
 
 ## Idea
 
-A _super $L_\infty$-algebra_ is an [[L-∞ algebra]] in the context of [[superalgebra]]: the [[higher category theory|higher category theoretical]]/[[homotopy theory|homotopy theoretical]] analog of a [[super Lie algebra]].
+A _super $L_\infty$-algebra_ is an [[L-∞ algebra]] in the context of [[superalgebra]]: the [[higher category theory|higher category theoretical]]/[[homotopy theory|homotopy theoretical]] version of a [[super Lie algebra]].
 
 
 ## Definition
@@ -79,3 +79,6 @@ Moreover, the [[BRST complex]] of the [[superstring]] might form a super $L_\inf
 [[!redirects super Lie n-algebras]]
 
 [[!redirects super Lie-infinity algebra]]
+
+[[!redirects super Lie-∞ algebra]]
+[[!redirects super Lie-∞ algebras]]
