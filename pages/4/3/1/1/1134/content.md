@@ -108,7 +108,7 @@ for the corresponding supermanifold.
 ### Properties
  {#AsLocallyRingedSpacesProperties}
 
-+-- {: .num_theorem}
++-- {: .num_theorem #BatchelorTheorem}
 ###### Theorem
 **(Batchelor's theorem)**
 
