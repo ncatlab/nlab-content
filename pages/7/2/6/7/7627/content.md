@@ -13,6 +13,8 @@ If [[particles]] specied are identified [[simple objects]] of a [[DHR category]]
 
 * [[CPT theorem]]
 
+* [[anti-D-brane]]
+
 ## References
 
 A discussion of traditional and of formalized discussions of antimatter, with an eye towards [[AQFT]], is in 
@@ -29,5 +31,11 @@ See also
 
 * R. Ascoli, G. Teppati und S. Termini, _Some remarks about particle-antiparticle superselection rules_, Lettere Al Nuovo Cimento (1969 - 1970)
 Volume 1, Number 4 (1969), 223-227, DOI: 10.
+
+[[!redirects antiparticles]]
+
+
+[[!redirects anti-particle]]
+[[!redirects anti-particles]]
 
 [[!redirects antimatter]]
