@@ -1,4 +1,4 @@
-**Dmitry Tamarkin** is a mathematician (with some training in theoretical physics as well) at Northwestern University. His expertise includes  deformation theory (with his famous proof of Kontsevich's formality theorem), [[D-modules]], [[homological algebra]] and various strong homotopy algebras ($A_\infty$, $L_\infty$, $G_\infty$...). His advisor was [[Boris Tsygan]]. 
+**Dmitry Tamarkin** is a mathematician (with some training in theoretical physics as well) at Northwestern University. His expertise includes  deformation theory (with his famous proof of Kontsevich's formality theorem), [[D-modules]], [[homological algebra]], symplectic geometry, microlocal analysis and various strong homotopy algebras ($A_\infty$, $L_\infty$, $G_\infty$...). His advisor was [[Boris Tsygan]]. 
 
 * list of [arxiv articles](http://arxiv.org/find/math/1/au:+Tamarkin_D/0/1/0/all/0/1)
 
@@ -6,6 +6,8 @@
 
 * Dmitry Tamarkin, _What do dg-categories form?_,
 Compos. Math. __143__ (2007), no. 5, 1335--1358. 
+
+* Dmitry Tamarkin, _Deformations of chiral algebras_, Proceedings of the ICM, Beijing 2002, vol. 2, 105--118 
 
 category: people
 
