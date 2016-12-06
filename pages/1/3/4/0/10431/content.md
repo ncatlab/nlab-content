@@ -20,6 +20,7 @@ The topological insulator in 2D exhibiting a quantum spin Hall effect has been f
 
 * Ricardo Kennedy, Charles Guggenheim, _Homotopy theory of strong and weak topological insulators_, [arxiv/1409.2529](http://arxiv.org/abs/1409.2529)
  
+* L. Wu et al. _Quantized Faraday and Kerr rotation and axion electrodynamics of a 3D topological insulator_, Science (2016). [doi](http://dx.doi.org/10.1126/science.aaf5541)
 
 category: physics
 [[!redirects topological insulator]]
