@@ -1,3 +1,4 @@
+
 # Regular spaces
 * table of contents
 {: toc}
@@ -92,7 +93,7 @@ Given points $a$ and $b$, if every neighbourhood of $a$ meets every neighbourhoo
 It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 \Rightarrow T_2$ becomes a proof that $R_2 \Rightarrow R_1$; that is, every regular space is $R_1$.  An $R_1$ space is also called _preregular_ (in _[[HAF]]_) or _reciprocal_ (in [[convergence space]] theory).
 
 
-A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See (or write) [[Tychonoff space]] for more.
+A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See [[Tychonoff space]] for more.
 
 
 [[!redirects regular space]]
