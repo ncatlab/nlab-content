@@ -1004,6 +1004,12 @@ This also makes the connection to
 
 * P. Olver, _Applications of Lie Groups to Differential Equations_ (Springer-Verlag, Berlin) (1986)
 
+#### For CFT/vertex algebras
+
+A class of "free" vertex algebras are also quantized using Batalin-Vilkovisky formalism, with results on quantization of [[BCOV theory]] important for understanding [[mirror symmetry]], in
+
+* Si Li, _Vertex algebras and quantum master equation_, [arxiv/1612.01292](https://arxiv.org/abs/1612.01292)
+
 
 ### Hamiltonian BFV
 
