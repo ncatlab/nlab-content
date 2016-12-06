@@ -473,6 +473,8 @@ Introductions include
  
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
+* {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
+
 A textbook account of topological K-theory with an eye towards [[operator K-theory]] is section 1 of
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
