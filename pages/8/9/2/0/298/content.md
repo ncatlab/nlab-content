@@ -191,8 +191,6 @@ An algebrogeometric version is due Beilinson and Drinfel'd and called the [[chir
 
 * E. Frenkel, N. Reshetikhin, _Towards deformed chiral algebras_, [q-alg/9706023](http://arXiv.org/abs/q-alg/9706023)
 
-and of chiral algebras due [[Dmitry Tamarkin]].
-
 * Ruthi Hortsch, [[Igor Kriz]], Ales Pultr, _A universal approach to vertex algebras_, [arxiv/1006.0027](http://arxiv.org/abs/1006.0027)
 
 Much algebraic insight to algebaric structures in CFT is in unfinished notes
@@ -223,6 +221,15 @@ There is an interesting theory of deformation quantization of VOAs from
 
 * [[Pavel Etingof]], [[David Kazhdan]], _Quantization of Lie bialgebras. V. Quantum vertex operator algebras_, 
 Selecta Math. (N.S.) 6 (2000), no. 1, 105--130, [MR2002i:17022](http://www.ams.org/mathscinet-getitem?mr=2002i:17022)
+
+Deformation quantization of chiral algebras are studied by
+
+* [[Dmitry Tamarkin]], _Deformations of chiral algebras_, Proceedings of the ICM, Beijing 2002, vol. 2, 105--118 
+
+A class of "free" vertex algebras are also quantized using [[Batalin-Vilkovisky formalism]], with results important for understanding [[mirror symmetry]], in
+
+* Si Li, _Vertex algebras and quantum master equation_, [arxiv/1612.01292](https://arxiv.org/abs/1612.01292)
+
 
 ### Further references
 
