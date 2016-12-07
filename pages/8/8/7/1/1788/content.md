@@ -1,49 +1,36 @@
-$$
-  \array{
-  {
-  \text{parameterized}
-    \atop
-  \text{spectrum}
-  }
-  \;\;\;&\;\;\;\;
-  \left\{
-  \array{
-    id : B^2 G \to E_n/ B G \to B^2 G
-    \\
-    E_n/ B G \stackrel{\simeq}{\longrightarrow} \Omega_{B^2 G} (E_{n+1}/ B G)
-  }
-  \right\}
-  \;&\;\leftrightarrow\;&\;
+$$  
   \left(
   \array{
-    E &\longrightarrow& E/B G
+    && S^7 
     \\
     && \downarrow
     \\
-    && B^2 G
+    && S^4
+    \\
+    & \swarrow
+    \\
+    B SU(2)
+    \\
+    \downarrow^{\mathrlap{c_2}}
+    \\
+    B^3 U(1)
   }
   \right)
-  \\
-  & \mathfrak{l}(-)\downarrow
-  \\
-  L_\infty\text{Algebra}
-  \;\;\;&\;\;\;\;
-  \left\{
-  \array{
-    id : \mathfrak{l}(B^2 G) \to \mathfrak{l}(E_n/ B G) \to \mathfrak{l}(B^2 G)
-    \\
-    \mathfrak{l}(E_n/ B G) \stackrel{\simeq}{\longrightarrow} \Omega_{\mathfrak{l}(B^2 G)} \mathfrak{l}(E_{n+1}/ B G)
-  }
-  \right\}
-  \;&\;\leftrightarrow\;&\;
+    \;\;
+    \stackrel{\phantom{AA}\mathfrak{l}(-)\phantom{AA} }{\mapsto}
+    \;\;
   \left(
   \array{
-    V[1] &\longrightarrow& V[1]/B\mathfrak{g}
+    && B^6 \mathbb{R}
     \\
-    && \downarrow
+    && \downarrow^{\mathrlap{ hofib(\mathfrak{l}(c_2)) } }
     \\
-    && B \mathfrak{g}
+    &&\mathfrak{l}(S^4)
+    \\
+    & \swarrow_{\mathfrak{l}(c_2)}
+    \\
+    B^3 \mathbb{R}
   }
-  \right)   
-  }
-$$
+  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \right)
+$$ 
