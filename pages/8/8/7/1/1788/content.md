@@ -1,36 +1,16 @@
-$$  
-  \left(
-  \array{
-    && S^7 
-    \\
-    && \downarrow
-    \\
-    && S^4
-    \\
-    & \swarrow
-    \\
-    B SU(2)
-    \\
-    \downarrow^{\mathrlap{c_2}}
-    \\
-    B^3 U(1)
-  }
+$$
+  CE\left(
+    \mathfrak{L} S^4 / \mathbb{R}
   \right)
-    \;\;
-    \stackrel{\phantom{AA}\mathfrak{l}(-)\phantom{AA} }{\mapsto}
-    \;\;
-  \left(
-  \array{
-    && B^6 \mathbb{R}
-    \\
-    && \downarrow^{\mathrlap{ hofib(\mathfrak{l}(c_2)) } }
-    \\
-    &&\mathfrak{l}(S^4)
-    \\
-    & \swarrow_{\mathfrak{l}(c_2)}
-    \\
-    B^3 \mathbb{R}
-  }
-  \;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;
+  \;\simeq\;
+  CE\left(\,
+     \underset{\text{F1/Dp-branes}}{\underbrace{
+     \mathfrak{l}(KU\langle 0,6\rangle/B U(1))
+     }}
+     \,
   \right)
-$$ 
+  \underset{\text{NS5-brane}}{\underbrace{
+    [h_7]/(d h_7 = \omega_2 \wedge \omega_6 - \omega_4 \wedge \omega_4)
+  }}
+  \,.
+$$
