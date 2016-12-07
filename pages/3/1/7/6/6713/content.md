@@ -299,7 +299,7 @@ See also at _[[anti-D-brane]]_.
 
 Review includes
 
-* [[Edward Witten]], _Overview Of K-Theory Applied To Strings_,  	Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
+* {#Witten00} [[Edward Witten]], _Overview Of K-Theory Applied To Strings_, Int.J.Mod.Phys.A16:693-706,2001 ([arXiv:hep-th/0007175](https://arxiv.org/abs/hep-th/0007175))
 
 * [[Greg Moore]], _K-Theory from a physical perspective_ ([arXiv:hep-th/0304018](http://arxiv.org/abs/hep-th/0304018))
 
