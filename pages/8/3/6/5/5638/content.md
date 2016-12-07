@@ -82,6 +82,9 @@ For $n = 2$ then the _line Lie 2-algebra_ is the [[Lie 2-algebra]] that comes fr
 
 * [[super translation Lie algebra]]
 
+[[!redirects line Lie-n algebras]]
+
+[[!redirects line Lie n-algebra]]
 [[!redirects line Lie n-algebras]]
 
 [[!redirects line Lie algebra]]
