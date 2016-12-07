@@ -298,7 +298,7 @@ Let $\Gamma$ be a formal group law over $k$, then a deformation of $F$ consists 
 **Theorem (Lubin-Tate).** Let $k, \Gamma$ as above with $\mathrm{ht} \; \Gamma \lt \infty$ then there exists a complete local ring $E(k, \Gamma )$ with residue field $k$ and a formal group law over $E(k, \Gamma)$, $F^{univ}$ which reduces to $\Gamma$ such that there is a bijection of sets
 $$\mathrm{Hom} (E(k, \Gamma) , R) \to \mathrm{Deform} (\Gamma, R) .$$
 
-If $k = \mathbf{F}_p$, then $E(k, \Gamma) \simeq \mathbb{Z}_p [ [ u_1 , \dotsc , u_{n-1} ] ]$ where $\mathrm{ht} \; \Gamma =n$.  More generally, if $k= \mathbf{F}_q$, then E(k, \Gamma) \simeq W\mathbf{F}_q [ [ u_1 , \dotsc , u_{n-1} ] ]$, that is, the Witt ring.
+If $k = \mathbf{F}_p$, then $E(k, \Gamma) \simeq \mathbb{Z}_p [ [ u_1 , \ldots , u_{n-1} ] ]$ where $\mathrm{ht} \; \Gamma =n$.  More generally, if $k= \mathbf{F}_q$, then $E(k, \Gamma) \simeq W\mathbf{F}_q [ [ u_1 , \ldots , u_{n-1} ] ]$, that is, the Witt ring.
 
 Let $E(k, \Gamma), F^{univ}$ as in the theorem, then we define $\overline{F}^{univ}$ over $E(k, \Gamma) [u^\pm]$, degree $u=2$, by 
 $ \overline{F}^{univ} (X,Y) = u^{-1} F^{univ} (uX , uY). $  We then define a homology theory as
