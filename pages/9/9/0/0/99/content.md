@@ -115,10 +115,10 @@ of two graded [[derivations]] of degree +1 defined by
 
 * $\mathbf{d}$ acts by degree shift $\mathfrak{g}^* \to \mathfrak{g}^*[1]$ on elements in $\mathfrak{g}^*$ and by 0 on elements of $\mathfrak{g}^*[1]$;
 
-* $d_{CE(\mathfrak{g})}$ acts on unshifted elements in $\mathfrak{g}^*$ as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ and is extended uniquely to shifted generators by graded-commutattivity 
+* $d_{CE(\mathfrak{g})}$ acts on unshifted elements in $\mathfrak{g}^*$ as the differential of the [[Chevalley-Eilenberg algebra]] of $\mathfrak{g}$ and is extended uniquely to shifted generators by graded-commutativity 
  
   $$
-    [d_{CE(\mathfrak{g}}, \mathbf{d}] = 0
+    [d_{CE(\mathfrak{g})}, \mathbf{d}] = 0
   $$
 
   with $\mathbf{d}$:
