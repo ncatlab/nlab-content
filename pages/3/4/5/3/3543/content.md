@@ -16,10 +16,11 @@
 
 ## Idea
 
-In [[rational homotopy theory]] one considers [[topological space]]s only up to maps that induce [[isomorphism]]s on _rationalized_ [[homotopy group]]s.
+In [[rational homotopy theory]] one considers [[topological spaces]] $X$ only up to maps that induce [[isomorphisms]] on _rationalized_ [[homotopy groups]] $\pi_\bullet(X) \otimes_{\mathbb{Z}} \mathbb{Q}$ (as opposed to genuine [[weak homotopy equivalences]], which are those maps that induce [[isomorphism]] on the genuine [[homotopy groups]].)
 
 Every simply connected space is in this sense equivalent to a [[rational space]]: this is its **rationalization**.
 
+Similarly one may consider "real-ification" by considering $\pi_\bullet(X) \otimes_{\mathbb{Z}} \mathbb{R}$, etc.
 
 ## Definition
 
