@@ -320,6 +320,10 @@ The relation to [[schreiber:∞-Chern-Simons theory]] is discussed in
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models]]_
 
+Discussion of [[Riemannian geometry]] on Courant algebroids and relation to [[supergravity]] [[equations of motion]] is in 
+
+* [[Branislav Jurco]], [[Jan Vysoky]], _Courant Algebroid Connections and String Effective Actions_, Proceedings of Tohoku Forum for Creativity, Special volume: Noncommutative Geometry and Physics IV ([arXiv:1612.01540](https://arxiv.org/abs/1612.01540))
+
 See also
 
 * Xu Xiaomeng, _Twisted Courant algebroids and coisotropic Cartan geometries_ ([arXiv:1206.2282](http://arxiv.org/abs/1206.2282))
