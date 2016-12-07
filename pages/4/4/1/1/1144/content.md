@@ -41,7 +41,7 @@ There are two established approaches in rational homotopy theory for encoding ra
 is turned into something like a piecewise smooth space by [[nerve and realization|realizing]] each abstract $n$-[[simplex]] by the standard $n$-simplex in $\mathbb{R}^n$; and then a [[dg-algebra]] of [[differential form]]s on this piecewise smooth space
 is formed by taking on each simplex the dg-algebra of ordinary rational [[polynomial differential forms]] and gluing these dg-algebras all together.
 
-1. In the **Quillen approach** ([Quillen 69](#Quillen)) the [[loop space]] of the rational space/simplicial set is formed and its [[H-space]] structure strictified to a [[simplicial group]], of which then a [[dg-Lie algebra]] (a strict [[L-infinity-algebra]]) is formed by mimicking the construction of the Lie algebra of a [[Lie group]] from the [[primitive element]]s of its completed [[group ring]]: the group ring of the simplicial group here is a simplicial ring, whose degreewise primitive elements hence yield a [[simplicial Lie algebra]]. The [[Moore complex]] functor maps this to the [[dg-Lie algebra]] functor that models the rational homotopy type in the Quillen approach.
+1. In the **Quillen approach** ([Quillen 69](#Quillen69)) the [[loop space]] of the rational space/simplicial set is formed and its [[H-space]] structure strictified to a [[simplicial group]], of which then a [[dg-Lie algebra]] (a strict [[L-infinity-algebra]]) is formed by mimicking the construction of the Lie algebra of a [[Lie group]] from the [[primitive element]]s of its completed [[group ring]]: the group ring of the simplicial group here is a simplicial ring, whose degreewise primitive elements hence yield a [[simplicial Lie algebra]]. The [[Moore complex]] functor maps this to the [[dg-Lie algebra]] functor that models the rational homotopy type in the Quillen approach.
 
 
 The connection between these two appoaches is discussed in ([Majewski 00](#Majewski00)): The Sullivan dg-algebra of forms is the [[formal dual]] (the [[Chevalley-Eilenberg algebra]]) of an [[L-infinity algebra]] that may be rectified (see at _[[model structure for L-infinity algebras]]_) to a [[dg-Lie algebra]], and that is the one from Quillen's construction.
@@ -269,8 +269,17 @@ One may think of this procedure as doing the following: we are taking the [[Lie 
 
 ## References
 
-Survey and review includes
+The original articles are
 
+* {#Quillen69} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf)) 
+
+* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
+
+* {#BousfieldGugenheim76} Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+
+
+
+Survey and review includes
 
 * {#Hess06} [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
 
@@ -278,16 +287,9 @@ Survey and review includes
 
 * {#Majewski00} Martin Majewski, _Rational homotopy models and uniqueness_ , AMS Memoir (2000):
 
+Review that makes the [[L-infinity algebra]] aspect completely manifest includes
 
-Original articles include:
-
-* {#Quillen} [[Dan Quillen]], _Rational homotopy theory_, The Annals of Mathematics, Second Series, Vol. 90, No. 2 (Sep., 1969), pp. 205-295 ([JSTOR](http://www.jstor.org/stable/1970725), [pdf](http://www.math.northwestern.edu/~konter/gtrs/rational.pdf))
- 
-
-* {#Sullivan77} [[Dennis Sullivan]], _Infinitesimal computations in topology_      Publications math&#233;matiques de l' I.H.&#201;.S. tome 47 (1977), p. 269-331. ([pdf](http://archive.numdam.org/ARCHIVE/PMIHES/PMIHES_1977__47_/PMIHES_1977__47__269_0/PMIHES_1977__47__269_0.pdf))
-
-
-* {#BousfieldGugenheim76} Bousfield, Gugenheim, _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+* {#BuijsFelixMurillo12} Urtzi Buijs, [[Yves Félix]], Aniceto Murillo, section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756))
 
 
 
