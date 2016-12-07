@@ -44,7 +44,7 @@ The central theorem is
 
 =--
 
-See also _[[Chromatic Homotopy Theory]]_.
+See also _[[Elliptic Cohomology I]]_ and _[[Chromatic Homotopy Theory]]_.
 
 #Table of Contents#
 
