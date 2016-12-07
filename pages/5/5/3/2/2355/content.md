@@ -531,9 +531,14 @@ and also in
 
 * {#MazelGee15} [[Aaron Mazel-Gee]], _Quillen adjunctions induce adjunctions of quasicategories_, [arXiv:1501.03146](http://arxiv.org/abs/1501.03146).
 
-[[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (infinity,1)-functors]]
+
+[[!redirects adjoint (∞,1)-functor]]
 [[!redirects adjoint (∞,1)-functors]]
+
+[[!redirects adjoint ∞-functor]]
+[[!redirects adjoint ∞-functors]]
+
 
 [[!redirects (∞,1)-adjunction]]
 [[!redirects (∞,1)-adjunctions]]
