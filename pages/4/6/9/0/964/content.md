@@ -125,7 +125,7 @@ $$
 ###### Proof
 
 
-This exists by the [[adjoint functor theorem]], using that there is only a finite number of morphims between any two objects (one or none) and that finite limits exist in $\mathcal{O}$.
+This exists by the [[adjoint functor theorem]], using that there is only a finite number of morphisms between any two objects (one or none) and that finite limits exist in $\mathcal{O}$.
 
 =--
 
