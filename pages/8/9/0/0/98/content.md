@@ -187,7 +187,7 @@ More generally, the $L_\infty$-algebra $b^n \mathfrak{u}(1)$ is the one whose CE
 
 ### Of $\mathfrak{su}(2)$
 
-The CE-algebra of $\mathfrak{su}(2)$ has two generators $x, y, z$ in degree one and differential
+The CE-algebra of $\mathfrak{su}(2)$ has three generators $x, y, z$ in degree one and differential
 
 $$
   d x_1 = x_2 \wedge x_3
