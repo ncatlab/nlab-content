@@ -108,7 +108,7 @@ This appears as ([Borceux, lemma 6.5.6](#Borceux))
 
 ### To the point
 
-* In a category with [[terminal object]] $*$ every morphism of the form $* \to X$ is a retract, and the unique morphism $X \to *$ is the corresponding retraction.
+* In a category with [[terminal object]] $*$ every morphism of the form $* \to X$ is a section, and the unique morphism $X \to *$ is the corresponding retraction.
 
 ### Of simplices
 
