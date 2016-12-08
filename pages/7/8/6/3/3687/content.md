@@ -55,7 +55,7 @@ This categorical formulation was introduced by [[Maxim Kontsevich]] in 1994 unde
 The mirror symmetry conjecture roughly claims that every Calabi-Yau 3-fold has a mirror. In fact one considers (mirror symmetry for) degenerating families for Calabi-Yau 3-folds in large volume limit (what can be expressed precisely via the Gromov-Hausdorff metric). The appropriate definition of (an appropriate version of) the [[Fukaya category]] of a symplectic manifold is difficult to achieve in desired generality. 
 Invariants/tools of Fukaya category include symplectic [[Floer homology]] and Gromov-Witten invariants (building up the [[quantum cohomology]]). Mirror symmetry is related to the [[T-duality]] on each fiber of an associated Lagrangian fibration (Strominger-Yau-Zaslow conjecture).  
 
-Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a Landau-Ginzburg model (see Hori-Vafa; see also work of Auroux for an explanation via the Strominger-Yau-Zaslow T-duality philosophy). Then the statements are: the A-model of the Fano (given by the Fukaya category) is equivalent to the B-model of the Landau-Ginzburg model (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the A-model of the Landau-Ginzburg model (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
+Although the non-Calabi-Yau case may be of lesser interest to physics, one can still formulate some mirror symmetry statements for, for instance, Fano manifolds. The mirror to a Fano manifold is a Landau-Ginzburg model (see [Hori-Vafa 00](#HoriVafa00); see also work of Auroux for an explanation via the Strominger-Yau-Zaslow T-duality philosophy). Then the statements are: the A-model of the Fano (given by the Fukaya category) is equivalent to the B-model of the Landau-Ginzburg model (given by the category of matrix factorizations); and the B-model of the Fano (given by the derived category of sheaves) is equivalent to the A-model of the Landau-Ginzburg model (given by the Fukaya-Seidel category). A few of the relevant names: Kontsevich, Hori-Vafa, Auroux, Katzarkov, Orlov, Seidel, ...
 
 
 ## Related concepts
@@ -80,7 +80,9 @@ See also
 * [[Paul Aspinwall]], [[Brian Greene]], [[David Morrison]], _Calabi-Yau Moduli Space, Mirror Manifolds and Spacetime Topology Change in String Theory_, Nucl.Phys. B416 (1994) 414-480 ([arXiv:hep-th/9309097](http://arxiv.org/abs/hep-th/9309097))
 
 
-A review and status report is in
+Review contains 
+
+* {#HoriVafa00} [[Kentaro Hori]], [[Cumrun Vafa]], _Mirror Symmetry_ ([arXiv:hep-th/0002222](https://arxiv.org/abs/hep-th/0002222))
 
 * M. Ballard, _Meet homological mirror symmetry_ ([arxiv:0801.2014](http://arxiv.org/abs/0801.2014))
 
