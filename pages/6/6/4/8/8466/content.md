@@ -1,4 +1,4 @@
-* [webpage](http://math.berkeley.edu/~aaron/)
+* [webpage](http://etale.site/)
 
 ## some writing
 
