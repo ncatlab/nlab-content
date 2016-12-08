@@ -241,10 +241,13 @@ The claim that this torsion constraint in  [[11-dimensional supergravity]] is al
 Volume 415, Issue 2, 11 December 1997, Pages 149&#8211;155 ([arXiv:hep-th/9707184](http://arxiv.org/abs/hep-th/9707184))
 
 
-
 For commentary see also ([Nilsson 00, section 2](#Nilsson00)) and
 
 * {#CGNN00} [[Martin Cederwall]], [[Ulf Gran]], Mikkel Nielsen, [[Bengt Nilsson]], _Manifestly supersymmetric M-theory_, JHEP 0010 (2000) 041 ([arXiv:hep-th/0007035](http://arxiv.org/abs/hep-th/0007035))
+
+also
+
+* {#BrinkHowe80} [[Lars Brink]], [[Paul Howe]], _Eleven-dimensional supergravity on the mass shell in superspace_, Phys. Lett. , B91:384&#8211;386, 1980
 
 Discussion of possible deformations of the torsion constraint ([[M-theory]] corrections) includes
 
