@@ -101,6 +101,10 @@ where in the introduction it says the following
 
 (Of course later it was understood that Calabi-Yau spaces, even those of complex dimension 3, are not "very close to unique".)
 
+Lecture notes include
+
+* {#Greene97} [[Brian Greene]], _String Theory on Calabi-Yau Manifolds_, lectures at TASI96 ([arXiv:hep-th/9702155](https://arxiv.org/abs/hep-th/9702155))
+
 Further original references include
 
 * {#BDFF88} [[Tom Banks]], [[Lance Dixon]], [[Dan Friedan]], [[Emil Martinec]], _Phenomenology and Conformal Field Theory or Can String Theory Predict the Weak Mixing Angle?_, Nucl. Phys. B299 (1988) 613.  ([pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/slac-pub-4377.pdf))
