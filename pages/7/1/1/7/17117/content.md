@@ -6,4 +6,4 @@
 | [[quaternions]] | $\mathbb{H}$ | [[quaternion-Kähler manifold]] | [[hyperkähler manifold]] |
 | [[octonions]] | $\mathbb{O}$ | [[Spin(7)-manifold]] | [[G2-manifold]] |
 
-([Leung 02](#special+holonomy#Leung02))
+([Leung 02](special+holonomy#Leung02))
