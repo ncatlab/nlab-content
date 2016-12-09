@@ -47,7 +47,7 @@ $$
 
 (here $\hbar$ refers to [[Planck's constant]]).
 
-If $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then there is an <a href="http://nlab.mathforge.org/nlab/show/cohesive+(infinity%2C1)-topos#CurvatureCharacteristics">intrinsic differential</a> of the action functional to a morphism
+If $\mathbf{H}$ is a [[cohesive (∞,1)-topos]] then there is an <a href="https://ncatlab.org/nlab/show/cohesive+(infinity,1)-topos+--+structures#CurvatureCharacteristics">intrinsic differential</a> of the action functional to a morphism
 
 $$
   \mathbf{d} \exp(\tfrac{i}{\hbar} S(-)) : C \to \mathbf{\flat}_{dR}\mathbb{A}^1/\mathbb{Z}
