@@ -467,19 +467,19 @@ This is the [[Freed-Witten-Kapustin anomaly|Kapustin anomaly]]-free [[action fun
 
 * [[Freed-Witten anomaly cancellation]]
 
+* [[Dirac-Born-Infeld action]]
+
 ## References
 
 In the traditional physicist's string theory introductions one finds Chan-Paton bundles discussed for instance 
 
-section 2.4 of 
 
-* [[Clifford Johnson]], _D-Brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
+* [[Clifford Johnson]], section 2.4 of _D-Brane primer_ ([arXiv:hep-th/0007170](http://arxiv.org/abs/hep-th/0007170))
 
-or around p. 66 of
 
-* David Tong, _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
+* David Tong, around p. 66 of _Lectures on string theory_ ([arxiv/0908.0333](http://front.math.ucdavis.edu/0908.0333))
 
-These lectures tend to ignore most of the subtleties though. For traditional discussion of the  _[[Freed-Witten-Kapustin anomaly]]_, see there. The above account in terms of [[higher geometry]] and [[extended prequantum field theory]] is due to  section 5.4 of
+These lectures tend to ignore most of the global subtleties though. For traditional discussion of the  _[[Freed-Witten-Kapustin anomaly]]_, see there. The above account in terms of [[higher geometry]] and [[extended prequantum field theory]] is due to  section 5.4 of
 
 * [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:A higher stacky perspective on Chern-Simons theory]]_ .
 
@@ -487,7 +487,13 @@ Lecture notes along these lines are at
 
 * _[[geometry of physics]]_ 
 
+Discussion of the derivation of the  [[Yang-Mills theory]] on the D-brane from open [[string scattering amplitudes]]/[[string field theory]] includes
 
+* [[David Gross]], [[Edward Witten]], _Superstring modifications of Einstein's equations_,  Nuclear Physics B Volume 277, 1986, Pages 1-10
+
+and for the non-abelian case:
+
+* Semyon Klevtsov, _Yang-Mills theory from String field theory on D-branes_ ([pdf](http://www.mi.uni-koeln.de/~klevtsov/cargese02.pdf))
 
 
 
