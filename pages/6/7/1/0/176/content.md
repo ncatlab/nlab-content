@@ -290,9 +290,7 @@ The following result establishes which pairs of [[vertex operator algebras]] can
 +-- {: .num_defn}
 ###### Definition
 
-Two [[modular tensor categories]] are said to have the same **Witt class**
-if there exist two [[spherical categories]] $S$ and $T$ such that
-we have an [[equivalence of categories|equivalence]] of [[ribbon categories]]
+Two [[modular tensor categories]] $C$ and $D$ are said to have the same **Witt class** if there exist two [[spherical categories]] $S$ and $T$ such that we have an [[equivalence of categories|equivalence]] of [[ribbon categories]]
 
 $$
   C \boxtimes \mathcal{Z}(S) \simeq D \boxtimes \mathcal{Z}(T)
