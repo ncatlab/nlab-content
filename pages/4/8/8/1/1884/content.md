@@ -454,24 +454,35 @@ and shown to give a [[generalized (Eilenberg-Steenrod) cohomology]] theory in
 
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
+
 Early lecture notes in a general context of [[stable homotopy theory]] and [[generalized cohomology theory]] includes
 
 * {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
-Introductions include
+Textbook accounts include
+
+* [[M. F. Atiyah]], _K-theory_, Benjamin New-York (1967)
+
+* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_, Grundlehren der Math. Wissen. 226 Springer 1978, Reprinted in Classics in Mathematics (2008)
 
 * {#Hatcher} [[Allen Hatcher]], _Vector bundles and K-theory_, 2003/2009 ([web](http://www.math.cornell.edu/~hatcher/VBKT/VBpage.html))
 
+
+Further introductions include
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
+
+
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 9 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
+* {#Karoubi06} [[Max Karoubi]], _K-theory. An elementary introduction_, lectures given at the Clay Mathematics Academy ([arXiv:math/0602082](https://arxiv.org/abs/math/0602082))
+
  
-* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_, 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
+
+* {#Friedlander} [[Eric Friedlander]], _An introduction to K-theory_ (emphasis on [[algebraic K-theory]]), 2007 ([pdf](http://users.ictp.it/~pub_off/lectures/lns023/Friedlander/Friedlander.pdf))
  
 * {#Karpova09} [[Varvara Karpova]], _Complex topological K-theory_, 2009  ([pdf](http://infoscience.epfl.ch/record/162450/files/karpova.semestre.hess2.pdf))
 
-* {#Karoubi} [[Max Karoubi]], _K-theory: an introduction_ 
- 
-* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989)
 
 * {#Wirthmuller12} [[Klaus Wirthmüller]], _Vector bundles and K-theory_, 2012 ([pdf](ftp://www.mathematik.uni-kl.de/pub/scripts/wirthm/Top/vbkt_skript.pdf))
 
