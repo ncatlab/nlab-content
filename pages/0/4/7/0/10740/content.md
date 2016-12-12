@@ -85,7 +85,7 @@ Further comments on the impact of this proof on the development of [[stable homo
 
 * {#ElmendorfKrizMay95} [[Anthony Elmendorf]], [[Igor Kriz]], [[Peter May]], _[[Modern foundations for stable homotopy theory]]_, in [[Ioan Mackenzie James]], _[[Handbook of Algebraic Topology]]_, Amsterdam: North-Holland, (1995) pp. 213&#8211;253,  ([pdf](http://hopf.math.purdue.edu/Elmendorf-Kriz-May/modern_foundations.pdf))
 
-Another proof that instead uses [[K-theory]], [[Adams operations]] and the [[Atiyah-Hirzebruch spectral sequence]] was given in 
+Another proof that instead uses [[topological K-theory]], [[Adams operations]] and the [[Atiyah-Hirzebruch spectral sequence]] was given in 
 
 * {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
 
