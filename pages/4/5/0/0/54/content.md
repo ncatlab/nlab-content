@@ -1,3 +1,20 @@
+
+
+$\,$
+
++-- {: .query}
+
+$\;\;$ possible thesis topic:
+ 
+
+$\;\;$ **[Topological K-Theory](https://ncatlab.org/schreiber/print/Topological+K-Theory)**
+
+=--
+
+
+$\,$
+
+
 <div style="float:right;margin:0 20px 10px 20px;"><img width = "250" src="http://www.christiansaemann.de/higherworkshop2014/photos/thumb.Urs.jpg" alt="Urs Schreiber at Fields Institute" />
 </div>
 
