@@ -20,16 +20,42 @@
 ## Idea ##
 
 
-What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eilenberg-Steenrod) cohomology]] theories whose cocycles in degree 0 on a space $X$ can be represented by pairs of [[vector bundle]]s, real or complex ones, on $X$ modulo a certain equivalence relation.
+What is called _topological_ [[K-theory]] is a collection of  [[generalized (Eilenberg-Steenrod) cohomology]] theories whose cocycles in degree 0 on a [[topological space]] $X$ may be represented by pairs of [[vector bundles]], real or complex ones, on $X$ modulo a certain equivalence relation.
 
-Notice that "ordinary cohomology" is the [[generalized (Eilenberg-Steenrod) cohomology]] that is represented by the [[Eilenberg-MacLane spectrum]] which, as a stably abelian [[infinity-groupoid]], is just the additive [[group]]  $\mathbb{Z}$ of integers.
+First, recall that for $k$ a [[field]] then a $k$-[[vector bundle]] over a [[topological space]] $X$ is a map $V \to X$ whose [[fibers]] are [[vector spaces]] which vary over $X$ in a controlled way. Explicitly this means that there exits an [[open cover]] $\{U_i \to X\}$ of $X$, a [[natural number]] $n \in \mathbb{N}$ (the _[[rank of a vector bundle|rank]]_ of the vector bundle) and a [[homeomorphism]] $U_i \times k^n \to V|_{U_i}$ over $U_i$ which is fiberwise a $k$-[[linear map]]. 
 
-To a large extent, K-theory is the [[cohomology]] theory obtained by [[vertical categorification|categorifying]] this   once:
+Vector bundles are of central interest in large parts of [[mathematics]] and [[physics]], for instance in [[Chern-Weil theory]] and [[cobordism theory]]. But the collection $Vect(X)_{/\sim}$ of [[isomorphism classes]] of vector bundles over a given space is in general hard to analyze. One reason for this is that these are classified in degree-1 _[[nonabelian cohomology]]_ with [[coefficients]] in the ([[nonabelian group|nonabelian]]) [[general linear group]] $GL(n,k)$. K-theory may roughly be thought of as the result of forcing vector bundles to be classified by an abelian [[cohomology theory]].
+
+To that end, observe that all natural operations on [[vector spaces]] generalize to vector bundles by applying them [[fiber]]-wise. Notably there is the fiberwise [[direct sum of vector bundles]], also called the _[[nLab:Whitney sum]]_ operation. This operation gives the set $Vect(X)_{/\sim}$ of [[nLab:isomorphism classes]] of vector bundles the structure of an [[semi-group]] ([[monoid]]) $(Vect(X)_{/\sim},\oplus)$.
+
+Now as under direct sum, the [[nLab:dimension]] of vector spaces adds, similarly under [[nLab:direct sum of vector bundles]] their [[nLab:rank]] adds.  Hence in analogy to how one passes from the  additive [[semi-group]] ([[monoid]]) of  [[natural numbers]] to the addtitive [[group]] of [[integers]] by adjoining formal additive inverses, so one may adjoin formal additive inverses to $(Vect(X)_{/\sim},\oplus)$. By a general prescription ("[[Grothendieck group]]") this is achieved by first passing to the larger class of [[pairs]] $(V_+,V_-)$ of vector bundles ("[[virtual vector bundles]]"), and then [[quotient|quotienting]] out the [[equivalence relation]] given by
 
 $$
-  \mathbb{Z} \;\; \mapsto something\; like \mathbf{Vect}
+  (V_+, V_-) \sim (V_+ \oplus W , V_- \oplus W)
+$$
+
+for all $W \in Vect(X)_{/\sim}$. The resulting set of [[equivalence classes]] is an [[abelian group]] with group operation given on representatives by 
+
+$$
+  [V_+, V_+] \oplus [V'_+, V'_-] \coloneqq (V_+ \oplus V'_+, V_- \oplus V'_-) 
+$$
+
+and with the [[inverse]] of $[V_+,V_-]$ given by
+
+$$
+  -[V_+, V_-] = [V_-, V_+]
   \,.
 $$
+
+This [[abelian group]] obtained from $(Vect(X)_{/\sim}, \oplus)$ is denoted $K(X)$ and often called _the K-theory_ of the space $X$. Here the letter "K" (due to [[Alexander Grothendieck]]) originates as a shorthand for the German word _Klasse_, referring to the above process of forming [[equivalence classes]] of ([[isomorphism classes]]) of vector bundles.
+
+This simple construction turns out to yield remarkably useful groups of homotopy [[invariants]]. 
+A variety of deep facts in [[algebraic topology]] have fairly elementary proofs in terms of topolgical K-theory, for instance the [[Hopf invariant one]] problem ([Adams-Atiyah 66](#AdamsAtiyah66)). 
+
+...[[index theory]], [[Dirac operator]], [[spin geometry]] [[Karoubi K-theory]]...
+
+In theoretical [[physics]], K-theory plays a central role in the theory of [[geometric quantization]] ("[[spin^c quantization]]") and in the theory of [[D-branes]], where it models [[D-brane charge]] and [[RR-fields]].
+
 
 ### Motivational example: "nonabelian K-cohomology" ###
 
@@ -455,11 +481,11 @@ and shown to give a [[generalized (Eilenberg-Steenrod) cohomology]] theory in
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Vector bundles and homogeneous spaces_, 1961, Proc. Sympos. Pure Math., Vol. III pp. 7&#8211;38 American Mathematical Society, Providence, R.I. ([web](http://hirzebruch.mpim-bonn.mpg.de/87/), [MR 0139181](http://www.ams.org/mathscinet-getitem?mr=0139181))
 
 
-Early lecture notes in a general context of [[stable homotopy theory]] and [[generalized cohomology theory]] includes
+Early lecture notes on topological K-theory in a general context of [[stable homotopy theory]] and [[generalized cohomology theory]] includes
 
 * {#Adams74} [[Frank Adams]], part III, section 2 of _[[Stable homotopy and generalised homology]]_, 1974
 
-Textbook accounts include
+Textbook accounts on topological K-theory include
 
 * [[M. F. Atiyah]], _K-theory_, Benjamin New-York (1967)
 
@@ -504,6 +530,9 @@ Discussion from the point of view of [[smooth stacks]] and [[differential K-theo
 
 * {#BunkeNikolausVoelkl13} [[Ulrich Bunke]], [[Thomas Nikolaus]], [[Michael Völkl]], _Differential cohomology theories as sheaves of spectra_, Journal of Homotopy and Related Structures October 2014 ([arXiv:1311.3188](http://arxiv.org/abs/1311.3188))
 
+The proof of the [[Hopf invariant one]] theorem in terms of topological K-theory is due to
+
+* {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
 
 
 [[!redirects complex K-theory]]
