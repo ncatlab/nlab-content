@@ -1020,6 +1020,7 @@ In the following $A$ is an [[model category]] presenting $Cat_{(\infty,n-1)}$ th
 * etc ...
 
 In addition,
+
 * [[(n,r)-category|(m,n)-categories]] can be obtained as particular $(\infty,n)$-categories whose $k$-cells are trivial for $k\gt m$.
 * In particular, [[n-categories]] = $(n,n)$-categories can be so obtained. 
 
