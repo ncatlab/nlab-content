@@ -59,7 +59,7 @@ $$
   \,.
 $$
 
-The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[Brown representability theorem|represented]] by a [[spectrum]]. For $k = \mathbb{C}$ this is called [[KU]], for $k = \mathbb{R}$ this is called [[KR]].
+The assignment $X \mapsto K^\bullet(X)$ turns out to share many properties of the assignment of [[ordinary cohomology]] groups $X \mapsto H^n(X,\mathbb{Z})$. One says that topological K-theory is a [[generalized (Eilenberg-Steenrod) cohomology]] theory. As such it is [[Brown representability theorem|represented]] by a [[spectrum]]. For $k = \mathbb{C}$ this is called [[KU]], for $k = \mathbb{R}$ this is called [[KO]]. (There is also the unification of both in [[KR]]-theory.)
 
 One of the basic facts about topological K-theory, rather unexpected from the definition, is that these higher K-groups repeat _periodically_ in the degree $n$. For $k = \mathbb{R}$ the periodicity is 8, for $k = \mathbb{C}$ it is 2. This is called _[[Bott periodicity]]_.
 
@@ -68,7 +68,7 @@ It turns out that an important source of [[virtual vector bundles]] representing
 
 It is via this construction that topological K-theory connects to [[spin geometry]] (see e.g. [[Karoubi K-theory]]) and [[index theory]].
 
-As the terminology indicates, both [[spin geometry]] and [[Dirac operator]] originate in [[physics]]. Accordingly, K-theory plays a central role in various areas of theoretic physics, for instance in the theory of [[geometric quantization]] ("[[spin^c quantization]]") in the theory of [[D-branes]] (where it models [[D-brane charge]] and [[RR-fields]]).
+As the terminology indicates, both [[spin geometry]] and [[Dirac operator]] originate in [[physics]]. Accordingly, K-theory plays a central role in various areas of [[mathematical physics]], for instance in the theory of [[geometric quantization]] ("[[spin^c quantization]]") in the theory of [[D-branes]] (where it models [[D-brane charge]] and [[RR-fields]]) and in the theory of [[Kaluza-Klein compactification]] via [[spectral triples]] (see below).
 
 All these geometric constructions have an [[operator algebra|operator algebraic]] incarnation: by the topological [[Serre-Swan theorem]] then [[vector bundles]] of finite rank are equivalently [[modules]] over the [[C*-algebra]] of [[continuous functions]] on the base space. Using this relation one may express K-theory classes entirely operator algebraically, this is called _[[operator K-theory]]_. Now [[Dirac operators]] are generalized to [[Fredholm operators]].
 
