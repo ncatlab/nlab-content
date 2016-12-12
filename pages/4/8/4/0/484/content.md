@@ -16,6 +16,7 @@
 ## Definition
 
 An __equivalence relation__ on a set $S$ is a binary [[relation]] $\equiv$ on $S$ that is:
+
 * [[reflexive relation|reflexive]]: $x \equiv x$ for all $x: S$;
 * [[symmetric relation|symmetric]]: $x \equiv y$ if $y \equiv x$; and
 * [[transitive relation|transitive]]: $x \equiv z$ if $x \equiv y \equiv z$.
