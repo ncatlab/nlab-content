@@ -22,6 +22,8 @@ This entry collects links for the book
 
   Cambridge University Press 1986, second ed. 1999
 
+  ([pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
+
 on [[operator K-theory]] and [[KK-theory]].
 
 #Contents#
