@@ -31,7 +31,7 @@ A variant of [[algebraic K-theory]] for [[operator algebras]] ([[Banach algebras
 
 A standard textbook account is in section 2 of
 
-* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
+* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_ ([pdf](http://wolfweb.unr.edu/homepage/bruceb/Book6.pdf))
 
 Other introductions include
 
