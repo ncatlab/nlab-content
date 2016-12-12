@@ -366,7 +366,7 @@ The relation to [[intervals]] and the generalization to the [[cell category]] is
 A discussion of the opposite categories of $\Delta, \Delta_a$ and related categories can be found here:
 
 * [[Gavin C. Wraith]], _Using the generic interval_, Cah. Top. G&#233;om. Diff. Cat. **XXXIV** 4 (1993) pp.259-266. ([pdf](http://archive.numdam.org/ARCHIVE/CTGDC/CTGDC_1993__34_4/CTGDC_1993__34_4_259_0/CTGDC_1993__34_4_259_0.pdf))
-  {#Wraith}
+ {#Wraith}
 
 [[!redirects augmented simplex category]]
 
