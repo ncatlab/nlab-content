@@ -203,7 +203,7 @@ In terms of [[twisted differential c-structures]] we may summarize the outcome o
 
 _The divisibility of the action functional requires a $2(G_4 - a)$-[[twisted Wu structure]] in $\mathbb{Z}/2$-cohomology. Its lift to integral cohomology is the $2(G_4 - a)$-[[twisted differential string structure]] known as the "Witten quantization condition" on the [[supergravity C-field]]_.
 
-### Resctriction of the supergravity $C$-field
+### Restriction of the supergravity $C$-field
  {#RestrictionOfTheCField}
 
 We discuss the conditions on the 
