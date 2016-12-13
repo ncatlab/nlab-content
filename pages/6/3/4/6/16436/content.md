@@ -47,5 +47,9 @@ See also the references at _[Green-Schwarz sigma-model -- References -- AdS back
 
 [[!redirects super anti de Sitter spacetimes]]
 
+[[!redirects super anti-de Sitter spacetime]]
+[[!redirects super anti-de Sitter spacetimes]]
+
+
 [[!redirects super anti de Sitter super Lie algebra]]
 [[!redirects super anti de Sitter super Lie algebras]]
