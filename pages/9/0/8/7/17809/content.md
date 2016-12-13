@@ -13,10 +13,10 @@ $\,$
 $\,$
 
 
-In the broad sense of the word a _super-symmetry_ is an [[action]] of a [[supergroup]], just as an ordinary [[symmetry]] 
-is an action of some [[group]]. In [[fundamental particle]] [[physics]] the term is used more specifically 
+In the broad sense of the word a _super-symmetry_ is an [[action]] of a [[supergroup]], just as an ordinary [[symmetry]]
+is an action of some [[group]]. In [[fundamental particle]] [[physics]] the term is used more specifically
 for [[supergroups]] that [[group extension|extend]] some [[spacetime]] symmetry group, and for their [[action]] on the
-[[field (physics)|field]] content of some [[field theory]]. 
+[[field (physics)|field]] content of some [[field theory]].
 
 If, by default, spacetime is locally modeled on
 [[Minkowski spacetime]] (of some dimension) whose [[isometry group]] is called the  _[[Poincaré group]]_ in this dimension,
@@ -25,17 +25,17 @@ by a [[supergroup]] whose odd-graded component is a [[real structure|real]] [[sp
 of the [[spin group]] in the given dimension. The result is called the _[[super Poincaré group]]_ for the given
 spacetime dimension and choice of real spin representation, the latter also being called the "number of supersymmetries".
 
-Just as -- in the spirit of [[Klein geometry]] -- one recovers [[Minkowski spacetime]] as the [[coset space]] of 
-the [[Poincaré group]] by the [[Lorentz group]], so the coset [[superspace]] of the 
+Just as -- in the spirit of [[Klein geometry]] -- one recovers [[Minkowski spacetime]] as the [[coset space]] of
+the [[Poincaré group]] by the [[Lorentz group]], so the coset [[superspace]] of the
 [[super Poincaré group]] by the [[spin group]]-cover of the [[Lorentz group]] defines _[[super Minkowski spacetime]]_.
 A [[superspacetime]] is then a [[supermanifold]] locally modeled on [[super Minkowski spacetime]].
 This is what is mostly called "[[superspace]]" in the [[physics]] literature.
-But other local model spacetimes may be used, such as [[anti-de Sitter spacetime]], leading similarly to 
-[[super anti-de Sitter spacetimes]] etc. 
+But other local model spacetimes may be used, such as [[anti-de Sitter spacetime]], leading similarly to
+[[super anti-de Sitter spacetimes]] etc.
 
 Just as ordinary [[Lie groups]] are usefully studied via their [[Lie algebras]], so [[super Lie groups]] are conveniently studied
 via their [[super Lie algebras]], such as the [[super Poincaré Lie algebra]]. This is hence a [[super Lie algebra|super]]
-[[Lie algebra extensions]] of the [[Poincaré Lie algebra]], again with the odd-graded part identified with the 
+[[Lie algebra extensions]] of the [[Poincaré Lie algebra]], again with the odd-graded part identified with the
 given [[real structure|real]] [[spin representation]]. Such representations have the special property that they admit a $Spin$-equivariant
 bilinear pairing of two spinors to a vector, i.e. to an element in the [[Minkowski spacetime]], regarded as a translation
 operation. This is precisely
@@ -44,16 +44,16 @@ that in supersymmetry two odd spinorial transformations pair to a spacetime tran
 same bilinear spinor pairing also underlies other algebraic phenomena, such as the inner workings of [[twistors]] or the
 positivity relations that enter the spinorial proof of the [[positive energy theorem]].
 
-Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on 
+Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on
 supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
 the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]], This indicates some
-deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]]) 
-where these algebras, and their associated [[Hopf fibrations]], 
+deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]])
+where these algebras, and their associated [[Hopf fibrations]],
 play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
 
 Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
-forming iterated invariant [[central extensions]], starting with the [[superpoint]]. This shows that 
+forming iterated invariant [[central extensions]], starting with the [[superpoint]]. This shows that
 supersymmetry in the special sense of spacetime supersymmetry is mathematically singled out among all [[supergroups]].
 Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]]
 this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
@@ -75,10 +75,30 @@ appearing in the _[[AdS-CFT correspondence]]_.)
 
 ## Real spin representations -- Majorana spinors
 
+We will discuss the following concept, the ingredients of which we explain in the following
+
 +-- {: .num_defn #MajoranaSpinorGeneral}
 ###### Definition
 
-Let $\rho \colon Spin(s,t) \longrightarrow GL_{\mathbb{C}}(V)$ be a [[unitary representation]] of a [[spin group]]. Then $\rho$ is called _Majorana_ if it admits a real structure $J$ (def. \ref{RealStructureOnLinearRepresentation}) and _symplectic Majorana_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}). An element $\psi \in V$ is called a _Majorana spinor_ if $J(\psi) = \psi$.
+For $d \in \mathbb{N}$, write $Spin(d-1,1)$ for the [[spin group]] (def. \ref{SpinGroup})
+[[double cover]] (prop. \ref{SpinDoubleCover}) of the special [[Lorentz group]] (def. \ref{LorentzGroup}).
+
+Let 
+
+$$
+  \rho \colon Spin(d-1,1) \longrightarrow GL_{\mathbb{C}}(V)
+$$
+
+be a [[unitary representation|unitary]] [[linear representation]] of $Spin(d-1,1)$ on some [[complex vector space]] $V$. 
+
+Then $\rho$ is called 
+
+* a _real [[spin representation]]_ or _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
+
+  an element $\psi \in V$ is called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
+
+* a_symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}). 
+
 
 =--
 
@@ -112,28 +132,243 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 (e.g. [Freed 99, page 48](#spin+representation#Freed99))
 
-+-- {: .num_remark #BilinearPairingOnSpinors}
+
+
+
+### Spin
+
+We briefly recall the basics of [[Clifford algebra]] and [[spin groups]].
+
++-- {: .num_defn #LorentzGroup}
+###### Definition
+
+For $d \in \mathbb{N}$, write $\mathbb{R}^{d-1,1}$ for the [[vector space]] $\mathbb{R}^d$
+over the [[real numbers]], equipped with the [[quadratic form]] represented by the 
+symmetric [[matrix]]
+
+$$
+  \eta \coloneqq diag(-1,+1,+1, \cdots , +1)
+  \,.
+$$
+
+Write
+
+$$
+  O(d-1,1) \hookrightarrow GL(\mathbb{R}^d)
+$$
+
+for the [[subgroup]] of the [[general linear group]] on those [[linear maps]] $A$ which preserve this bilinear form, in that
+
+$$
+  \eta(A(-),A(-)) = \eta(-,-)
+  \,.
+$$
+
+This is the **[[Lorentz group]]** in dimension $d$. Moreover, write
+
+$$
+  SO(d-1,1) \hookrightarrow O(d-1,1)
+$$
+
+for the further subgroup of [[linear maps]] whose [[determinant]] is +1.
+
+=--
+
++-- {: .num_defn #CliffordAlgebra}
+###### Definition
+
+For $d \in \mathbb{N}$, we write
+
+$$
+  Cl(\mathbb{R}^{d-1,1})
+$$
+
+for the $\mathbb{Z}/2$-[[graded algebra|graded]] [[associative algebra]] over $\mathbb{R}$
+which is generated from $d$ generators $\{\Gamma_0, \Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}\}$
+in odd degree, subject to the [[generators and relations|relation]]
+
+$$
+  \Gamma_{a} \Gamma_b + \Gamma_b \Gamma_a = - 2\eta_{a b}
+$$
+
+where
+
+$$
+  \eta \coloneqq diag(-1,+1,+1, \cdots, +1 )
+  \,.
+$$
+
+
+Write
+
+$$
+  \overline{(-)}
+  \;\colon\;
+    Cl(\mathbb{R}^{d-1,1})
+      \longrightarrow
+    Cl(\mathbb{R}^{d-1,1})
+$$
+
+for the algebra [[antihomomorphism|anti-]][[automorphism]] given by
+
+$$
+  \overline{\Gamma_a}
+    \coloneqq
+  \Gamma_a
+$$
+
+$$
+  \overline{\Gamma_a \Gamma_b}
+    \coloneqq
+  \Gamma_b \Gamma_a
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #VectorsInsideCliffordAlgebra}
 ###### Remark
 
-The last column in prop. \ref{RealSpinRepresentations} implies that in each dimension there exists a [[linear map]]
+By construction, the [[vector space]] of [[linear combinations]] of the generators
+in a [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is canonically identified
+with $\mathbb{R}^{d-1,1}$
 
 $$
-  \overline{(-)}\Gamma(-) \;\colon\; S^\ast \otimes S^\ast \longrightarrow \mathbb{R}^{d-1,1}
+  \widehat{(-)}
+    \;\colon\;
+  \mathbb{R}^{d-1,1}
+    \hookrightarrow
+  Cl(\mathbb{R}^{d-1,1})
 $$
 
-which is
+$$
+  x_a \mapsto \Gamma_a
+$$
 
-1. symmetric;
+such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with 
+the anti-commutator in the Clifford algebra
 
-1. $Spin(V)$-equivariant.
+$$
+  \eta(v_1,v_2) = -\tfrac{1}{2}( \hat v_1 \hat v_2 + \hat v_2 \hat v_1)
+  \,,
+$$
 
-This is what in the [[physics]] literature is expressed in components by the Gamma matrices with "indices lowered" using the _[[charge conjugation matrix]]_.
+where on the right we are, in turn, identifying $\mathbb{R}$ with the linear span of the unit in $Cl(\mathbb{R}^{d-1,1})$.
+
+=--
+
++-- {: .num_defn #SpinGroup}
+###### Definition
+
+For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of 
+even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
+which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{BarConjugationOnCliffordAlgebra})
+
+$$
+  Spin(d-1,1)
+   \;\coloneqq\;
+  \left\{
+    A \in Cl(\mathbb{R}^{d-1,1})
+    \;\vert\;
+    \overline{A} A = 1
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SpinDoubleCover}
+###### Proposition
+
+The [[function]]
+
+$$
+  Spin(d-1,1)
+    \longrightarrow
+  GL(d)
+$$
+
+from the [[spin group]] (def. \ref{SpinGroup}) to the [[general linear group]] in $d$-dimensions
+given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to the 
+[[conjugation action]]
+
+$$
+  v \mapsto \overline{A} v A
+  \,,
+$$
+
+(where on the right we are identifying Minkowski spacetime as the subspace of the [[Clifford algebra]]
+containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
+
+is
+
+1. a [[group]] [[homomorphism]] onto the special [[Lorentz group]] (def. \ref{LorentzGroup}):
+
+   $$
+     Spin(d-1,1) \longrightarrow SO(d-1,1)
+   $$
+
+1. exhibiting a $\mathbb{Z}/2$-[[central extension]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the function lands in the [[Lorentz group]] $O(d-1,1)$ follows from remark \ref{VectorsInsideCliffordAlgebra}:
+
+$$
+  \begin{aligned}
+    \eta(\overline{A}v_1A , \overline{A} v_2 A)
+    &=
+    \tfrac{1}{2}
+    \left(
+    \left(\overline{A} \hat v_1 A\right) \left(\overline{A}\hat v_2 A\right)
+    +
+    \left(\overline{A} \hat v_2 A\right) \left(\overline{A} \hat v_1 A\right)  
+    \right)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+    \overline{A}(\hat v_1 \hat v_2 + \hat v_2 \hat v_1) A
+    \right)
+    \\
+    & =
+    \overline{A} A \tfrac{1}{2}\left( \hat v_1 \hat v_2 + \hat v_2 \hat v_1\right)
+    \\
+    & =
+    \eta(v_1, v_2)
+  \end{aligned}
+  \,.
+$$
+
+That it moreover lands in the special Lorentz group $SO(d-1,1)$ follows from 
+observing that any reflection is given by the [[conjugation action]] by 
+a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
+(as that is defined to be in the even subalgebra).
+
+To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
+are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
+$(\omega^{a b})$, then such a rotation is given by the conjugation action by
+$$
+  \exp(\tfrac{\alpha}{4} \omega^{a b}\Gamma_{a b})
+$$
+
+for some $\alpha$, hence is in the image.
+
+That the [[kernel]] is $\mathbb{Z}/2$ is clear from the fact that the only even Clifford elements which commute
+with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity. 
+For these $\overline{a} = a$ and hence
+the condition $\overline{a} a = 1$ is equivalent to $a^2 = 1$. It is clear that these two elements
+$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$.
 
 =--
 
 
 
-Before looking into this, recall the basics of [[unitary representations]] with [[real structure]]:
+
+
 
 
 ### Real structure on Unitary representations
