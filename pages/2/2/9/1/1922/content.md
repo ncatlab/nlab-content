@@ -95,6 +95,8 @@ It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 
 
 A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See [[Tychonoff space]] for more.
 
+A [[uniform space]] is automatically regular and even completely regular, at least in [[classical mathematics]].  In [[constructive mathematics]] this may not be true, and there is an intermediate notion of interest called [[uniform regularity]].
+
 
 [[!redirects regular space]]
 [[!redirects regular spaces]]
