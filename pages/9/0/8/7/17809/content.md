@@ -1,4 +1,6 @@
 
+$\,$
+
 > this entry is one section of "[[geometry of physics -- supergeometry and superphysics]]"
 > which is one chapter of "[[geometry of physics]]"
 
@@ -8,6 +10,58 @@
 
 > under construction
 
+$\,$
+
+
+In the broad sense of the word a _super-symmetry_ is an [[action]] of a [[supergroup]], just as an ordinary [[symmetry]] 
+is an action of some [[group]]. In [[fundamental particle]] [[physics]] the term is used more specifically 
+for [[supergroups]] that [[group extension|extend]] some [[spacetime]] symmetry group, and for their [[action]] on the
+[[field (physics)|field]] content of some [[field theory]]. 
+
+If, by default, spacetime is locally modeled on
+[[Minkowski spacetime]] (of some dimension) whose [[isometry group]] is called the  _[[Poincaré group]]_ in this dimension,
+then _supersymmetry_ in the strict sense of the word is an [[group extension|extension]] of the [[Poincaré group]]
+by a [[supergroup]] whose odd-graded component is a [[real structure|real]] [[spin representation]] ("[[Majorana representation]]")
+of the [[spin group]] in the given dimension. The result is called the _[[super Poincaré group]]_ for the given
+spacetime dimension and choice of real spin representation, the latter also being called the "number of supersymmetries".
+
+Just as -- in the spirit of [[Klein geometry]] -- one recovers [[Minkowski spacetime]] as the [[coset space]] of 
+the [[Poincaré group]] by the [[Lorentz group]], so the coset [[superspace]] of the 
+[[super Poincaré group]] by the [[spin group]]-cover of the [[Lorentz group]] defines _[[super Minkowski spacetime]]_.
+A [[superspacetime]] is then a [[supermanifold]] locally modeled on [[super Minkowski spacetime]].
+This is what is mostly called "[[superspace]]" in the [[physics]] literature.
+But other local model spacetimes may be used, such as [[anti-de Sitter spacetime]], leading similarly to 
+[[super anti-de Sitter spacetimes]] etc. 
+
+Just as ordinary [[Lie groups]] are usefully studied via their [[Lie algebras]], so [[super Lie groups]] are conveniently studied
+via their [[super Lie algebras]], such as the [[super Poincaré Lie algebra]]. This is hence a [[super Lie algebra|super]]
+[[Lie algebra extensions]] of the [[Poincaré Lie algebra]], again with the odd-graded part identified with the 
+given [[real structure|real]] [[spin representation]]. Such representations have the special property that they admit a $Spin$-equivariant
+bilinear pairing of two spinors to a vector, i.e. to an element in the [[Minkowski spacetime]], regarded as a translation
+operation. This is precisely
+the structure that gives the odd-odd graded component of the bracket in the [[super Lie algebra]]. It is in this sense
+that in supersymmetry two odd spinorial transformations pair to a spacetime translation. It is noteworthy that the
+same bilinear spinor pairing also underlies other algebraic phenomena, such as the inner workings of [[twistors]] or the
+positivity relations that enter the spinorial proof of the [[positive energy theorem]].
+
+Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on 
+supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
+in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
+the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]], This indicates some
+deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]]) 
+where these algebras, and their associated [[Hopf fibrations]], 
+play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
+
+Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
+forming iterated invariant [[central extensions]], starting with the [[superpoint]]. This shows that 
+supersymmetry in the special sense of spacetime supersymmetry is mathematically singled out among all [[supergroups]].
+Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]]
+this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
+its realization at the (comparatively "low") [[electroweak symmetry breaking|electroweak energy scale]] in the [[observable universe]].
+
+(In fact [superconformal symmetry](supersymmetry#ClassificationSuperconformal) has an even more rigid classification:
+it exists only in dimensions 3,4,5, and 6, where it turns out to form the local super-symmetry groups
+appearing in the _[[AdS-CFT correspondence]]_.)
 
 
 
@@ -15,48 +69,6 @@
 #Supersymmetry#
 * table of contents
 {:toc}
-
-
-
-We consider now very specific [[super Lie algebras]], def. \ref{SuperLieAlgebraViaCE}, those of _[[spacetime]] [[supersymmetry]]_.
-
-Just as traditional [[Cartan geometry]] involves a pair of [[Lie algebras]] $\mathfrak{h} \hookrightarrow \mathfrak{g}$, so super-Cartan geometry involves a similar pair of [[super Lie algebras]].
-For describing [[supergravity]], we now
-want to establish an [[superalgebra]]-[[analogy|analog]] of the inclusion of the [[Lorentz Lie algebra]] $\mathfrak{h} = \mathfrak{so}(\mathbb{R}^{d-1,1})$ into the [[Poincaré Lie algebra]] $\mathfrak{g} = \mathfrak{Iso}(\mathbb{R}^{d-1,1})$.
-
-| ([[higher Cartan geometry|higher]]-)[[Cartan geometry]] | $\mathfrak{g}$ | $\mathfrak{h}$ | $\mathfrak{g}/\mathfrak{h}$ |
-|---------------------|----------------|----------------|-----------------------------|
-| [[Einstein gravity]]  | $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\mathbb{R}^{d-1,1}$ |
-| [[supergravity]] | $\mathfrak{Iso}(\mathbb{R}^{d-1,1\vert N})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\mathbb{R}^{d-1,1\vert N}$ |
-| [[11-dimensional supergravity]] | $\mathfrak{Iso}(\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}})$ | $\mathfrak{so}(\mathbb{R}^{d-1,1})$ | $\widehat{\mathbb{R}}^{10,1\vert \mathbf{32}}$ |
-
-(Here the hat in the lowest row indicates an [[extended super Minkowski spacetime]], which involves [[higher Cartan geometry]].)
-
-To that end, consider the structure of any [[super Lie algebra]]
-
-$$
-  \left(
-    \mathfrak{Iso}(\mathbb{R}^{d-1,1})\oplus N
-    ,
-    [-,-]
-  \right)
-$$
-
-that extends the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ by some odd-[[graded vector space]] $N$. Any such extension involves involves:
-
-1. the even-odd superbracket $[\mathfrak{so},N]$, which hence is an [[action]] of the [[Lorentz Lie algebra]] on  $N$;
-
-1. the even-even-odd [[Jacobi identity]], which is the action property of that action;
-
-1. the odd-odd superbracket $[N,N]$ which is a _symmetric_ [[bilinear form]] $N \otimes N \to \mathbb{R}^{d-1,1}$
-
-1. the even-odd-odd [[Jacobi identity]], which says that this bilinear form is $\mathfrak{o}(d-1,1)$-[[equivariance|equivariant]].
-
-
-Such structure exists on [[real structure|real]] [[spin representation]] ([[Majorana representations]]):
-
-
-
 
 
 
@@ -2961,7 +2973,87 @@ is a [[cocycle]] in super [[Lie algebra cohomology]].
 
 =--
 
+### Superconformal symmetry
 
+We discuss [[super Lie algebra]] [[Lie algebra extension|extensions]] of the [[conformal group|conformal Lie algebra]] of $\mathbb{R}^{d-1,1}$ (equivalently the [[isometry]] Lie algebra of [[anti de Sitter space]] of dimension $d+1$, see also at _[[AdS-CFT]]_.)
+
+
++-- {: .num_prop }
+###### Proposition
+
+There exist [[superconformal]] extensions of the [[super Poincaré Lie algebra]], (besides dimension $\leq 2$) in [[dimensions]] 3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
+
+| $d$ | $N$ | [[superconformal super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
+|-----|-----|--|---|--|
+| 3   |  $2k+1$ | $B(k,2) \simeq $ [[osp]]$(2k+1/4)$ | $SO(2k+1)$ | |
+| 3   | $2k$ | $D(k,2)\simeq $ [[osp]]$(2k/4)$ | $SO(2k)$ | [[M2-brane]] |
+| 4   | $k+1$  | $A(3,k)\simeq \mathfrak{sl}(4/k+1)$ | $U(k+1)$ | [[D3-brane]] |
+| 5   |  1  | $F(4)$ | $SO(3)$  |  |
+| 6   | $k$ | $D(4,k) \simeq$ [[osp]]$(8/2k)$ | $Sp(k)$  | [[M5-brane]] |
+
+There exists no [[superconformal]] extension of the [[super Poincaré Lie algebra]] in [[dimension]] $d \gt 6$.
+
+=--
+
+This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)). See also the references at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
+
+
+
++-- {: .proof #ProofOfClassificationOfSuperconformal}
+###### Proof (sketch)
+
+By realizing the conformal real Lie algebra $\mathfrak{so}(\mathbb{R}^{d,2})$ as a real section of the complexified $\mathfrak{so}(\mathbb{C}^{d+2})$ one is reduced to finding those (finite dimensional) simple super Lie algebras over the complex numbers whose even-graded part extends $\mathfrak{so}(\mathbb{C}^{d+2})$ and such that the implied [[representation]] of that on the odd-graded part contains the [[spin representation]].
+
+The complex finite dimensional simple super Lie algebras have been classified, see at _[super Lie algebra -- Classification](super+Lie+algebra#Classification)_. By the tables shown there
+
+| $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{odd}$ |
+|----------------|-------------------------|------------------|
+| $B(m,n)$  | $B_m \oplus C_n$  | vector $\otimes$ vector |
+| $D(m,n)$  | $D_m \oplus C_n$  | vector $\otimes$ vector |
+| $D(2,1,\alpha)$ |  $A_1 \oplus A_1 \oplus A_1$ | vector $\otimes$ vector $\otimes$ vector |
+| $F(4)$ | $B_3\otimes A_1$ | spinor $\otimes$ vector |
+| $G(3)$ | $G_2\oplus A_1$ | spinor $\otimes$ vector |
+| $Q(n)$ | $A_n$ | adjoint |
+
+| $\mathfrak{g}$ |  $\mathfrak{g}_{even}$  |  $\mathfrak{g}_{even}$ rep on $\mathfrak{g}_{{-1}}$ |
+|----------------|-------------------------|------------------|
+| $A(m,n)$ |  $A_m \oplus A_n \oplus C$ | vector $\otimes$ vector $\otimes$ $\mathbb{C}$ |
+| $A(m,m)$ | $A_m \oplus A_n$ | vector $\otimes$ vector |
+| $C(n)$ | $\mathbb{C}_{-1} \oplus \mathbb{C}$ | vector $\otimes$ $\mathbb{C}$ |
+
+
+the only manifest spinor representation of $\mathfrak{so}(2k+1) = B_k$ or of $\mathfrak{so}(2k) = D_k$ appears in the exceptional super Lie algebra $F(4)$, which contains $B_3 = \mathfrak{so}(7)$ in its even parts acting spinorially on its odd part. This hence gives a superconformal super Lie algebra in dimension $7-2 = 5$, as shown in the proposition.
+
+But other spinor representations may still disguise as vector representations of other Lie algebras under one of the [exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms). These exist only in low dimensions, and hence to conclude the proof it is sufficient to just list all candidates.
+
+First there is the exceptional isomorphism
+
+$$
+  \mathfrak{so}(5) \simeq \mathfrak{sp}(2) = C_2
+$$
+
+with the spinor representation of $\mathfrak{so}(5)$ being the vector representation of $\mathfrak{sp}(2) = C_2$. This we find in the above tables as a summand in the even-graded subalgebra of $B(m,2)$ and of $D(m,2)$. Hence these are superconformal super Lie algebras in dimension $5-2 = 3$, as shown in the statement.
+
+The other exceptional isomorphism of relevance is
+
+$$
+  \mathfrak{so}(6)\simeq \mathfrak{su}(4) = A_3
+$$
+
+with the spinor representation of $\mathfrak{so}(6)$ being the vector representation of $\mathfrak{su}(4) = A_3$. By the above tables this appears as a summand in the even-graded subalgebra of the super Lie algebra $A(3,k)$, and so this is the superconformal algebra in dimension $6-2 = 4$.
+
+Finally by [[triality]] the vector representation of $\mathfrak{so}(8) = D_4$ is isomorphic to its spinor representation. By the above tables this means that $D(4,k)$ is a superconformal algebra in dimension $8-2 = 6$. For details on this see ([Shnider 88, last paragraphs](#Shnider88))
+
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+
+Further constraints follow from requiring [[super-unitary representations]] ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfrak{osp}(8|2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being (over the reals as $\mathfrak{so}(8^\ast|4) = \mathfrak{osp}(6,2|4)$) the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
+
+=--
 
 
 
