@@ -89,6 +89,8 @@ Let $k$ be an [[algebraically closed field]] of [[positive number|positive]] [[c
 
 Original articles include
 
+* [[Michael Artin]], [[Barry Mazur]], _Homotopy of varieties in the etale topology_, Proceedings of a Conference on Local Fields, Driebergen 1966, Springer.
+
 * [[Michael Artin]], [[Barry Mazur]], _&#201;tale Homotopy_, Springer Lecture Notes in Mathematics 100, Berlin (1969)  
   {#ArtinMazur}
 
