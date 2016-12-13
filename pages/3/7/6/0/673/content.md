@@ -15,8 +15,6 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Preprints
 
-* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). Submitted to the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/).
-
 * _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
 
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
@@ -24,6 +22,8 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 
 ### Papers
+
+* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the proceedings of [Higher Structures:Advances](http://www.matrix-inst.org.au/events/higherstructures/) at the [MATRIX institute](http://www.matrix-inst.org.au/). (Accepted 13 December 2016)
 
 * _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [arXiv:1302.7019](http://arxiv.org/abs/1302.7019). [Journal of Homotopy and Related Structures](http://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923&#8211;942 doi:[10.1007/s40062-016-0160-0](http://dx.doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl).
 
