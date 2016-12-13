@@ -183,7 +183,7 @@ See also
 
 * [[Marc Hoyois]], _Chern character and derived algebraic geometry_ (2009) ([pdf](http://math.mit.edu/~hoyois/papers/chern.pdf))
 
-* {#HoyoisScherotzkeSibillia15} [[Marc Hoyois]], Sarah Scherotzke, Nicol&#242; Sibilla, _Higher traces, noncommutative motives, and the categorified Chern character_ ([arXiv:1511.03589](http://arxiv.org/abs/1511.03589))
+* {#HoyoisScherotzkeSibillia15} [[Marc Hoyois]], [[Sarah Scherotzke]], [[Nicolò Sibilla]], _Higher traces, noncommutative motives, and the categorified Chern character_ ([arXiv:1511.03589](http://arxiv.org/abs/1511.03589))
 
 [[!redirects Chern characters]]
 
