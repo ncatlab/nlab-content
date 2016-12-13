@@ -117,19 +117,19 @@ Useful discussion of [[nLab:Majorana spinors]] and the induced [[nLab:supersymme
 
 The close relation between [[nLab:supersymmetry and division algebras]] was first observed in
 
-* {#KugoTownsend83} Taichiro Kugo, [[nLab:Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1983) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+* {#KugoTownsend83} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1983) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
 A clean survey is in
 
-* {#BH09} [[nLab:John Baez]], [[nLab:John Huerta]], _Division algebras and supersymmetry I_, in  R. Doran, G. Friedman, [[nLab:Jonathan Rosenberg]](eds.) _Superstrings, Geometry, Topology, and $C^\ast$-algebras_,  Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+* {#BH09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in  R. Doran, G. Friedman, [[nLab:Jonathan Rosenberg]](eds.) _Superstrings, Geometry, Topology, and $C^\ast$-algebras_,  Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
 and the discussion of the spinor bilinear pairings from this perspective is in
 
-* {#BH10} [[nLab:John Baez]], [[nLab:John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410 ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+* {#BH10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410 ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
 The seminal analysis of [[nLab:torsion of G-structures]] is due to
 
-* {#Guillemin65} [[nLab:Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
+* {#Guillemin65} [[Victor Guillemin]], _The integrability problem for $G$-structures_, Trans. Amer. Math. Soc. 116 (1965), 544&#8211;560. ([JSTOR](http://www.jstor.org/stable/1994134))
 
 Discussion of [[nLab:torsion of G-structures]] in the context of [[nLab:supergeometry]] ([[nLab:supertorsion]]) is in
 
