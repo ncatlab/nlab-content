@@ -78,62 +78,11 @@ While the [[C*-algebra]] of a [[Riemannian manifold|Riemannian]] [[spin structur
 
 
 
-### Motivational example: "nonabelian K-cohomology" ###
-
-To see how this works, first consider the task of generalizing the "[[nonabelian cohomology]]" or [[cohomotopy]] theory given by the coefficient object $\mathbb{N}$, the additive semi-group of  $\mathbb{N}$ of [[natural number]]s.
-
-This does have arbitrarily high [[delooping]]s in the context of [[omega-category|omega-categories]], but not in the context of [[infinity-groupoid]]s. So, for the purposes of [[cohomology]], $\mathbb{N}$ is just the [[monoid]]al [[0-groupoid]] $\mathbb{N}$, which as a coefficient object induces a very boring [[cohomology]] theory: the $\mathbb{N}$-cohomology of anything connected is just the monoidal set $\mathbb{N}$ itself. While we cannot [[delooping|deloop]] it, we can [[vertical categorification|categorify]] it and do obtain an interesting [[nonabelian cohomology]] theory:
- 
-Namely the [[category]] $Core(Vect)$ of finite dimensional vector spaces with invertible linear maps between them would serve as a [[vertical categorification|categorification]] of $\mathbb{N}$: isomorphism classes of finite dimensional vector spaces $V$ are given by their dimension $d(V) \in \mathbb{N}$, and [[direct sum]] of vector spaces corresponds to addition of these numbers.
-
-If we want to use the category $Core(Vect)$ as the coefficient for a [[cohomology]] theory, for greater applicability we should equip it with its natural topological or smooth structure,  so that it makes sense to ask what the $Vect$-cohomology of a [[topological space]] or a [[smooth space]] would be. The canonical way to do this is to regard $Vect$ as a [[generalized smooth space]] called a [[smooth infinity-stack]] and consider it as the assignment
-
-$$
-  \mathbf{Vect} : Diff \to \infty Grpd
-$$
-
-$$
-  U \mapsto Core(VectBund(U))
-$$
-
-that sends each smooth test space $U$ (a smooth manifold, say) to the [[groupoid]] of smooth [[vector bundle]]s over $U$ with [[bundle]] [[isomorphism]]s betweem them. We regard here a vector bundle $V \to U$ as a smooth $U$-parametrized family of vector spaces (the [[fiber]]s over each point) and thus as a smooth _probe_ or _plot_  of the category $Core(Vect)$.
-
-The [[nonabelian cohomology]] theory with coefficients in $\mathbf{Vect}$ has no [[cohomology group]]s, but at least cohomology [[monoids]]
-
-$$
-  H(X,\mathbf{Vect}) := \pi_0 \mathbf{H}_{diff}(X, \mathbf{Vect})
-  \,.
-$$
-
-It is equivalent to the [[nonabelian cohomology]] with coefficients the [[delooping]] $\mathbf{B} U$ of the stable unitary group $U := colim_n U(n)$.
-
-To get actual topological K-theory from this, one applies [[geometric realization]] ([[fundamental infinity-groupoid]]) of the [[K-theory of a symmetric monoidal (∞,1)-category|infinity-group completion]] of  $\mathbf{Vect}$ or $\mathbf{B}U$ ([Bunke-Nikolaus-Voelkl 13](#BunkeNikolausVoelkl13)). See at _[[differential cohomology hexagon]]_ the section _[Algebraic K-theory of smooth manifolds](differential+cohomology+diagram#SoothVectorBundlesWithConnectionAndEInvariant)_.
-
-Note: Topological complex K-theory is defined on pairs of spaces $K(X,U)$, such that the section of the complex bundle over $U$ is trivial (we might choose a trivialization). If no second space is listed, we assumed that K-theory of our manifold $X$ is taken with respect to the empty set -- $K(X) \equiv K(X, \emptyset)$ -- in this case, the bundle can be nowhere trivial. 
-
-### K-theory as a groupoidification of $\mathbf{Vect}$ ###
-
-The integers $\mathbb{Z}$ are obtained from the natural numbers $\mathbb{N}$ by including "formal inverses" to all elements under the additive operation. Another way to think of this is that the [[delooping|delooped]] [[groupoid]] $\mathbf{B} \mathbb{Z}$ is obtained from $\mathbf{B} \mathbb{N}$ by groupoidification (under the [[nerve]] operation this is fibrant replacement in the [[model structure on simplicial sets]]).
-
-The idea of K-cohomology is essentially to apply this groupoidification process to not just to $\mathbb{N}$, but to its [[vertical categorification|categorification]] $\mathbf{Vect}$.
-
-Just as an integer $k = n-m \in \mathbb{Z}$  may be regarded as an equivalence class of natural numbers $(n,m) \in \mathbb{N} \times \mathbb{N}$  under the relation
-
-$$
-  [(n,m)] = [(n+r, m+r)] \;\; \forall r \in \mathbb{N}
-$$
-
-one can similarly look at equivalence classes of pairs $(V,W) \in \mathbf{Vect}(U) \times \mathbf{Vect}(U)$ of [[vector bundle]]s.
-
-This perspective on K-theory was originally realized by Atiyah and Hirzebruch. The resulting cohomology theory is usually called [[topological K-theory]].
-
-As one of several variations, it is useful to regard a pair of [[vector bundle]]s as a single $\mathbb{Z}_2$-[[graded vector space|graded vector bundle]].
-
-One version of $\mathbb{Z}_2$-graded vector bundles, which lead to a description of [[twisted cohomology|twisted]] $K$-theory are [[vectorial bundle]]s.
-
 ## Definition
 
-Let $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. Write $k$ for either the [[field]] of [[real number]]s $\mathbb{R}$ or of [[complex number]]s $C$ . By a [[vector space]] we here mean a vector space over $k$ of finite [[dimension]]. By a [[vector bundle]] we mean a topological $k$-vector bundle.  We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
+> under construction
+
+Let $X$ be a [[compact space|compact]] [[Hausdorff space|Hausdorff]] [[topological space]]. Write $k$ for either the [[field]] of [[real number]]s $\mathbb{R}$ or of [[complex number]]s $C$ . By a [[vector space]] we here mean a vector space over $k$ of [[finite number|finite]] [[dimension]]. By a [[vector bundle]] we mean a topological $k$-vector bundle of finite [[rank of a vector bundle]].  We write $I^n \to X$ for the trivial vector bundle $I^n = k^n \times X$ over $X$ of [[rank]] $n \in \mathbb{N}$.
 
 +-- {: .num_lemma #DirectSumHasInverseUpToTrivialBundle}
 ###### Lemma
