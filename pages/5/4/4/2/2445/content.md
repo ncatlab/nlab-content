@@ -161,11 +161,15 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 
 * [[William Clifford]], _Applications of Grassmann's extensive algebra_. American Journal of Mathematics 1 (4): 350&#8211;358. (1878)doi:10.2307/2369379.
 
+* {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  first edition 1966
+
 For some standard material see for instance
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], _[[Spin geometry]]_, Princeton University Press (1989) ISBN 0-691-08542-0
 
 * [[Eckhard Meinrenken]], _Clifford algebras and Lie groups_ ([pdf](http://www.math.toronto.edu/mein/teaching/clif_main.pdf))
 
-* H. Blaine Lawson, Marie-Louise Michelsohn,  (1989), _Spin Geometry_, Princeton University Press, ISBN 0-691-08542-0.
+* {#Lounesto} [[Pertti Lounesto]], _Clifford  Algebras and Spinors_, London Mathematical Society No. 286. Cambridge University Press, second edition, 2001.
 
 For a program that promotes the use of Clifford algebra as a good expositional tool in introductory [[mechanics]] see _[[Geometric Algebra]]_.
 
