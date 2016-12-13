@@ -53,6 +53,10 @@ In [[physics]], sections of spinor bundles model matter [[relativistic particle|
 
 ## References
 
+The term "spinor" is due to [[Paul Ehrenfest]].
+
+* {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  first edition 1966
+
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II, section 3 _[[Spin geometry]]_, Princeton University Press (1989)
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
@@ -80,7 +84,6 @@ According to
 
 * B. L.Van derWaerden, _Exclusion principle and spin_, in _Theoretical Physics in the Twentieth Century: A Memorial Volume to Wolfgang Pauli_, ed. M. Fierz and V. F. Weisskopf, New York: Interscience, 1960
 
-the name "spinor" is due to Paul Ehrenfest.
 
 [[!redirects spinor bundles]]
 
