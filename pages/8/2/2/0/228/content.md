@@ -19,7 +19,7 @@ An apartness relation is a [[binary relation]] that, instead of saying when two 
 
 Apartness relations are most used in [[constructive mathematics]]; in [[classical mathematics]], equivalence relations can take their place (mediated by [[negation]]).
 
-The apartness relations that we discuss here are sometimes called _point--point_ apartness, to distinguish this from the _set--set_ apartness relation between [[subsets]] of an [[apartness space]] (which is related).
+The apartness relations that we discuss here are sometimes called _point--point_ apartness, to distinguish this from the _set--set_ or _point-set_ apartness relations between [[subsets]] of an [[apartness space]] (which is related).
 
 
 ## Definitions
