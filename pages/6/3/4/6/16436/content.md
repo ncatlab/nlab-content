@@ -24,13 +24,15 @@
 
 ## Idea
 
-A [[supergeometry|supergeometric]] analog of [[de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]]:
+A [[supergeometry|supergeometric]] analog of [[anti-de Sitter spacetime]]. By the discussion at _[supersymmetry -- Classification -- Superconformal and super anti de Sitter symmetry](supersymmetry#ClassificationSuperconformal)_ this includes the following [[coset]] [[superspacetimes]]:
 
 | $d$ | [[super anti de Sitter spacetime]] |
 |-----|---|
 | 4 | $\;\;\;\;\frac{OSp(8/4)}{Spin(3,1) \times SO(7)}\;\;\;\;$ |
 | 5 | $\;\;\;\;\frac{SU(2,2/5)}{Spin(4,1)\times SO(5)}\;\;\;\;$ |
 | 7 | $\;\;\;\;\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
+
+Notice that the [[de Sitter spacetime]] (not anti-de Sitter) does not have a standard extension to [[supergeometry]], but see [arXiv:1610.01566](https://arxiv.org/abs/1610.01566).
 
 ## Related concepts
 
