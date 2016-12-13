@@ -28,7 +28,7 @@ $$
 for some $r \neq 0$ (the "radius" of the spacetime) and equipped with the metric induced from the ambient metric.
 
 
-where $\{x^0, x^1, x^2, \cdots, x^{D*!}\}$ denote the canonical [[coordinates]].
+where $\{x^0, x^1, x^2, \cdots, x^{d+1}\}$ denote the canonical [[coordinates]].
 
 
 ## Properties
