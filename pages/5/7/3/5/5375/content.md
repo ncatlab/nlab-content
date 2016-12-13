@@ -56,6 +56,10 @@ There is some discussion of the area in
 * {#Grothendieck} [[Alexander Grothendieck]], _[[Esquisse d'un programme]]_
  (1984).
 
+A relation with the theory of [[motive]]s is in
+
+* [[Alexander Schmidt]], _Motivic aspects of Anabelian geometry_, Advanced studies in pure mathematics 63, 2012. Galois-Teichm&#252;ller theory and Arithmetic geometry. pp 503 - 517 [pdf](https://www.mathi.uni-heidelberg.de/~schmidt/papers/63117.pdf)
+
 Surveys include 
 
 * {#Tschinkel14} [[Yuri Tschinkel]], _Introduction to anabelian geometry_, talk at _[Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html)_, Oxford 2014 ([slides pdf](http://www.cims.nyu.edu/~tschinke/.talks/oxford14/oxford14.pdf))
