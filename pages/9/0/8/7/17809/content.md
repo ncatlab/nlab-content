@@ -16,7 +16,6 @@
 * table of contents
 {:toc}
 
-### Spacetime supersymmetry
 
 
 We consider now very specific [[super Lie algebras]], def. \ref{SuperLieAlgebraViaCE}, those of _[[spacetime]] [[supersymmetry]]_.
@@ -62,7 +61,7 @@ Such structure exists on [[real structure|real]] [[spin representation]] ([[Majo
 
 
 
-#### Real spin representations -- Majorana spinors
+## Real spin representations -- Majorana spinors
 
 +-- {: .num_defn #MajoranaSpinorGeneral}
 ###### Definition
@@ -120,7 +119,12 @@ This is what in the [[physics]] literature is expressed in components by the Gam
 
 =--
 
+
+
 Before looking into this, recall the basics of [[unitary representations]] with [[real structure]]:
+
+
+### Real structure on Unitary representations
 
 For reference, we here collect some basics regarding [[unitary representations]] equipped with [[real structure]].
 
@@ -288,7 +292,7 @@ We now work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in
 
 
 
-#### Conventions and Notation
+### Conventions and Notation
 
 In the following we use standard notation for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
 
@@ -407,7 +411,7 @@ In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the rem
 
 
 
-#### Dirac and Weyl representations
+### Dirac and Weyl representations
  {#DiracAndWeylRepresentations}
 
 The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{s,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
@@ -813,7 +817,7 @@ $$
 
 
 
-#### Charge conjugation matrix
+### Charge conjugation matrix
  {#ChargeConjugationMatrix}
 
 +-- {: .num_prop #ChargeConjugationMatrix}
@@ -884,7 +888,7 @@ $$
 
 
 
-#### Majorana representations and Real structure
+### Majorana representations and Real structure
 
 
 +-- {: .num_prop #MajoranaConjugationIsRealStructure}
@@ -1214,7 +1218,7 @@ The first statement is immediate. The second follows by applying transpose to th
 
 
 
-#### Majorana-Weyl spinors
+### Majorana-Weyl spinors
 
 
 +-- {: .num_defn #WeylMajorana}
@@ -1276,7 +1280,7 @@ This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neith
 
 
 
-####  The spinor bilinear pairing to antisymmetric $p$-tensors
+### The spinor bilinear pairing to antisymmetric $p$-tensors
  {#TheSpinorPairingToVectors}
 
 We now discuss, in the component expressions established [above](#InComponents), the complex bilinear pairing operations that take a pair of Majorana spinors to a [[vector]], and more generally to an antisymmetric rank $p$-[[tensor]]. These operations are all of the form
@@ -1583,90 +1587,11 @@ $$
 
 
 
-#### Spacetime supersymmetry: Super-Poincar&#233; and super-Minkowski
- {#Supersymmetry}
-
-Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
-
-Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
-
-$$
-  \mathbb{R}^{d-1,1}
-   \simeq
-  \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
-$$
-
-(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
-
-+-- {: .num_defn #SuperMinkowskiSpacetime}
-###### Definition
-
-Let $d \in \mathbb{N}$ and let $N \in Rep(Spin(d-1,1))$ be a real spin representation, hence a [[direct sum]] of Majorana representations (def. \ref{MajoranaRepresentation}) and/or Majorana-Weyl representations (def. \ref{WeylMajorana}) (or tensor product of two symplectic Majorana representations...).
-
-We define the corresponding **[[super Poincaré Lie algebra]]**
-
-$$
-  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
-$$
-
-equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
-
-This is generated on
-
-* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
-
-* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
-
-where $a \in \{0,1, \cdots, d-1\}$ is a spacetime index, and where $\alpha$ is an index ranging over a basis of the chosen Majorana spinor representation $N$.
-
-The CE-differential is defined as follows
-
-$$
-  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
-$$
-
-and
-
-$$
-  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
-  \,.
-$$
-
-(which so far is the differential for the [[semidirect product]] of the [[Poincaré Lie algebra]] [[action|acting]] on the given [[Majorana spinor]] representation)
-
-and
-
-$$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
-$$
-
-where on the right we have the spinor-to-vector pairing in $N$ (def. \ref{SpinorToVectorBilinearPairing}).
-
-That this is indeed a [[super Lie algebra]] follows from the fact that the [[Poincaré Lie algebra]] is a [[Lie algebra]] and the fact that the spinor-to-vector pairing is symmetric (which makes it qualify as the odd-odd component of a super-Lie algebra) and $Spin(d-1,1)$-equivariant (which is seen to be the super-[[Jacobi identity]] for it), all according to prop. \ref{SpinorToVectorPairing}.
-
-This defines the [[super Poincaré super Lie algebra]]. After discarding the terms involving $\omega$ this becomes the CE algebra of the [[super translation algebra]] underlying [[super Minkowski spacetime]]
-
-$$
-  \mathbb{R}^{d-1,1\vert N}
-  \,.
-$$
-
-=--
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-#### Example: Majorana spinors in dimensions 11, 10, and 9
+### Example: Majorana spinors in dimensions 11, 10, and 9
  {#InDimensions11And10And9}
 
 We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
@@ -2234,6 +2159,606 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 
+## Real spin representations via real normed division algebras
+
+
+The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of [[Hermitian forms]] over the four [[normed division algebras]] over the [[real numbers]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
+
+Some notation:
+
+* For $\mathbb{K}$ one of the four real [[normed division algebras]], write $(-)^\ast \colon \mathbb{K} \stackrel{\simeq}{\to} \mathbb{K}^{op}$ for the conjugation anti-automorphism;
+
+* the [[real part]] of an element $a \in \mathbb{K}$ is $Re(a) \coloneqq \tfrac{1}{2} (a + a^\ast)$;
+
+* say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a [[hermitian matrix]] if the [[transpose matrix]] equals the conjugated matrix: $A^t = A^\ast$. Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ this is $A = A^\dagger$, as usual;
+
+
+* write $\tilde A \coloneqq A - (tr A) 1_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
+
+
+### In dimensions 3,4,6,10
+ {#InTermsOfNormedDivisionAlgebraInDimension3To10}
+
++-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
+###### Definition
+
+Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K})$ for the $\mathbb{K}$-vector space of 2x2 [[hermitian matrices]].
+Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
+
+$$
+  \Gamma \;\colon\; V\longrightarrow End(S_+ \oplus S_-)
+$$
+
+by
+
+$$
+  \Gamma(A)
+    \coloneqq
+   \left(
+     \array{
+        0 & \tilde A
+        \\
+        A & 0
+     }
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #DeterminantGivesMinkowskiMetric}
+###### Proposition
+
+The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} equipped with the [[inner product]] $\eta(-,-)$ given by the [[determinant]] (which on hermitian $\mathbb{K}$-matrices is necessarily [[real part|real]])
+
+$$
+  \eta(A,A) \coloneqq det(A) \in \mathbb{R}
+  \,,
+$$
+
+and whose mixed components are
+
+$$
+  \eta(A,B) = \tfrac{1}{2}Re(tr(A \tilde B)) = \tfrac{1}{2} Re(tr(\tilde A B))
+$$
+
+
+is [[Minkowski spacetime]]:
+
+1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
+
+1. $\mathbb{R}^{3,1}$ for $\mathbb{K} = \mathbb{C}$;
+
+1. $\mathbb{R}^{5,1}$ for $\mathbb{K} = \mathbb{H}$;
+
+1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
+
+
+=--
+
+(e.g. [Baez-Huerta 09, prop. 5](#BaezHuerta09))
+
+
++-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
+###### Proposition
+
+The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]] of
+
+1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
+
+1. $\mathbb{R}^{3,1}$ for $\mathbb{K} = \mathbb{C}$;
+
+1. $\mathbb{R}^{5,1}$ for $\mathbb{K} = \mathbb{H}$;
+
+1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
+
+Under restriction along $Spin(n+1,1) \hookrightarrow Cl(n+1,1)$ this is isomorphic to
+
+1. for $\mathbb{K} = \mathbb{R}$ the Majorana representation of $Spin(2,1)$ on $S_+ \simeq S_-$;
+
+1. for $\mathbb{K} = \mathbb{C}$ the Majorana representation of $Spin(3,1)$ on $S_+ \simeq S_-$;
+
+1. for $\mathbb{K} = \mathbb{H}$ the Weyl representation of $Spin(5,1)$ on $S_+$ and on $S_-$;
+
+1. for $\mathbb{K} = \mathbb{O}$ the Majorana-Weyl representation of $Spin(9,1)$ on $S_+$ and on $S_-$.
+
+=--
+
+(e.g. [Baez-Huerta 09, p. 6](#BaezHuerta09))
+
+
++-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
+###### Proposition
+
+Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebra} the bilinear pairings
+
+$$
+  \overline{(-)}(-) \;\colon\; S_+ \otimes S_-\longrightarrow \mathbb{R}
+$$
+
+and
+
+$$
+  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
+$$
+
+of remark \ref{BilinearPairingForRealRepresentations} are given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
+
+$$
+  \overline{(-)}(-) \colon S_+\otimes S_- \longrightarrow \mathbb{R}
+$$
+$$
+  (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \cdot \phi)
+$$
+
+and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal:
+
+$$
+  S_+ \otimes S_+ \longrightarrow V
+$$
+$$
+  (\psi , \phi) \mapsto \overline{\psi}\Gamma \phi \coloneqq
+  \widetilde{\psi \phi^\dagger + \phi \psi^\dagger}
+$$
+
+and
+
+$$
+  S_- \otimes S_- \longrightarrow V
+$$
+$$
+  (\psi , \phi) \mapsto {\psi \phi^\dagger + \phi \psi^\dagger}
+$$
+
+For $A \in V$ the $A$-component of this map is
+
+$$
+  \eta(\overline{\psi}\Gamma \phi, A)
+  =
+  Re (\psi^\dagger (A\phi))
+ \,.
+$$
+
+=--
+
+(e.g. [Baez-Huerta 09, prop. 8, prop. 9](#BaezHuerta09)).
+
+
++-- {: .num_example #RealSpinorRepsIn3d}
+###### Example
+
+Consider the case $\mathbb{K} = \mathbb{R}$ of [[real numbers]].
+
+Now $V= Mat^{symm}_{2\times 2}(\mathbb{R})$ is the space of symmetric 2x2-matrices with real numbers.
+
+$$
+  V =
+  \left\{
+  \left.
+  \left(
+    \array{
+      t + x & y
+      \\
+      y & t - x
+    }
+  \right)
+  \right\vert
+   t,x,y\in \mathbb{R}
+  \right\}
+$$
+
+
+The "light-cone"-[[basis]] for this space would be
+
+$$
+  \left\{
+  v^+
+  \coloneqq
+  \left(
+     \array{
+        1 & 0
+        \\
+         0 & 0
+     }
+  \right)
+  \,,
+  \;
+  v^-
+  \coloneqq
+  \left(
+     \array{
+        0 & 0
+        \\
+         0 & 1
+     }
+  \right)
+  \,,
+  \;
+  v^y
+  \coloneqq
+  \left(
+     \array{
+        0 & 1
+        \\
+        1 & 0
+     }
+  \right)
+  \right\}
+$$
+
+Its trace reversal is
+
+$$
+  \left\{
+  \tilde{v}^+
+  \coloneqq
+  \left(
+     \array{
+        0 & 0
+        \\
+         0 & -1
+     }
+  \right)
+  \,,
+  \;
+  \tilde v^-
+  \coloneqq
+  \left(
+     \array{
+        -1 & 0
+        \\
+         0 & 0
+     }
+  \right)
+  \,,
+  \;
+  \tilde v^y
+  \coloneqq
+  \left(
+     \array{
+        0 & 1
+        \\
+        1 & 0
+     }
+  \right)
+  \right\}
+$$
+
+Hence the Minkowski metric of prop. \ref{DeterminantGivesMinkowskiMetric} in this basis has the components
+
+$$
+  \eta
+     =
+  \left(
+    \array{
+      0 & -1 & 0
+      \\
+      -1 & 0 & 0
+      \\
+      0 & 0 & 2
+    }
+  \right)
+  \,.
+$$
+
+As vector spaces $S_{\pm} = \mathbb{R}^2$.
+
+The bilinear spinor pairing $\overline{(-)}(-) \colon S_+ \otimes S_- \to \mathbb{R}$ is given by
+
+$$
+  \begin{aligned}
+     \overline{\psi}\phi
+     &= \psi^t \cdot \phi
+     \\
+     & = \psi_1  \phi_1 + \psi_2 \phi_2
+  \end{aligned}
+  \,.
+$$
+
+The spinor pairing $S_+ \otimes S_+ \otimes V^\ast \to \mathbb{R}$
+from prop. \ref{RealSpinorPairingsViaDivisionAlg} is given on an $A = A_+ v^+ + A_- v^- + A_y v^y $ ($A_+, A_-, A_y \in \mathbb{R}$)
+by the components
+
+$$
+  \begin{aligned}
+    \eta(\overline{\psi}\Gamma\phi,A)
+    &=
+    \psi^t \cdot A \cdot \phi
+    \\
+    & =
+    \psi_1 \phi_1 A_+
+    +
+    \psi_2 \phi_2 A_-
+    +
+    (\psi_1 \phi_2 + \psi_2 \phi_1) A_y
+  \end{aligned}
+$$
+
+and $S_- \otimes S_- \otimes V^\ast \to \mathbb{R}$ is given by the components
+
+$$
+  \begin{aligned}
+    \eta(\overline{\psi}\Gamma\phi,A)
+    &=
+    \psi^t \cdot \tilde A \cdot \phi
+    \\
+    &=
+    -\psi_1 \phi_1 A_+
+    -
+    \psi_2 \phi_2 A_-
+    +
+    (\psi_1 \phi_2 + \psi_2 \phi_1) A_y
+  \end{aligned}
+  \,.
+$$
+
+and so, in view of the above metric components, in terms of dual bases $\{\psi^i\}$ this is
+
+$$
+  \mu =
+  - \psi^1 \otimes \psi^1 \otimes A_-
+  - \psi^2 \otimes \psi^2 \otimes A_+
+  +
+  \frac{1}{2} (\psi^1 \otimes \psi^2 \oplus \psi^2 \otimes\psi^1) \otimes A_y
+$$
+
+
+
+So there is in particular the 2-dimensional space of [[isomorphisms]] of [[super Minkowski spacetime]] [[super translation Lie algebras]]
+
+$$
+  \mathbb{R}^{2,1|\mathbf{2}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{2,1|\bar\mathbf{2}}
+$$
+
+(not though of the corresponding [[super Poincaré Lie algebras]], because for them the difference in the Spin-representation does matter) spanned by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (\theta_1, -\theta_2, -\vec e)
+$$
+
+and by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (-\theta_1, \theta_2, -\vec e)
+  \,.
+$$
+
+Hence there is a 1-dimensional space of non-trivial [[automorphism]]
+
+$$
+  \mathbb{R}^{2,1|\mathbf{2}}
+  \stackrel{\simeq}{\longrightarrow}
+  \mathbb{R}^{2,1|\mathbf{2}}
+$$
+
+spanned by
+
+$$
+  (\theta_1,\theta_2, \vec e) \mapsto (-\theta_1, -\theta_2, \vec e)
+  \,.
+$$
+
+
+=--
+
+
+### In dimensions 4,5,7, 11
+  {#InTermsOfNormedDivisionAlgebraInDimension4To11}
+
+
++-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher}
+###### Definition
+
+Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K}) \oplus \mathbb{R}$.
+
+Write $S \coloneqq \mathbb{K}^4$. Define a real [[linear map]]
+
+$$
+  \Gamma \;\colon\; V\longrightarrow End(S)
+$$
+
+given by left [[matrix multiplication]]
+
+$$
+  \Gamma(A,a)
+    \coloneqq
+ \left(
+   \array{
+     a \cdot 1_{2\times 2}  & \tilde A
+     \\
+     A & -a \cdot 1_{2\times 2}
+    }
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher} equipped with the [[inner product]] $\eta(-,-)$ given by
+
+$$
+  \eta((A,a), (A,a)) = det(A) + a^2
+$$
+
+is [[Minkowski spacetime]]
+
+1. $\mathbb{R}^{3,1}$ for $\mathbb{K} = \mathbb{R}$;
+
+1. $\mathbb{R}^{4,1}$ for $\mathbb{K} = \mathbb{C}$;
+
+1. $\mathbb{R}^{6,1}$ for $\mathbb{K} = \mathbb{H}$;
+
+1. $\mathbb{R}^{10,1}$ for $\mathbb{K} = \mathbb{O}$.
+
+=--
+
++-- {: .num_prop #SpinorRepsByNormedDivisionAlgebraOneDimHigher}
+###### Proposition
+
+The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher} gives a [[representation]] of the [[Clifford algebra]] of
+
+1. $\mathbb{R}^{3,1}$ for $\mathbb{K} = \mathbb{R}$;
+
+1. $\mathbb{R}^{4,1}$ for $\mathbb{K} = \mathbb{C}$;
+
+1. $\mathbb{R}^{6,1}$ for $\mathbb{K} = \mathbb{H}$;
+
+1. $\mathbb{R}^{10,1}$ for $\mathbb{K} = \mathbb{O}$.
+
+Under restriction along $Spin(n+2,1) \hookrightarrow Cl(n+2,1)$ this is isomorphic to
+
+1. for $\mathbb{K} = \mathbb{R}$ the Majorana representation of $Spin(3,1)$ on $S$;
+
+1. for $\mathbb{K} = \mathbb{C}$ the Dirac representation of $Spin(4,1)$ on $S$;
+
+1. for $\mathbb{K} = \mathbb{H}$ the Dirac representation of $Spin(6,1)$ on $S$;
+
+1. for $\mathbb{K} = \mathbb{O}$ the Majorana representation of $Spin(10,1)$ on $S$.
+
+=--
+
+([Baez-Huerta 10, p. 10, prop. 8, prop. 9](#BaezHuerta09))
+
+Write
+
+$$
+  \Gamma^0 \coloneqq
+  \left(
+     \array{
+       0 & - 1_{2x2}
+       \\
+       1_{2\times 2} & 0
+     }
+  \right)
+  \,.
+$$
+
+
++-- {: .num_prop}
+###### Proposition
+
+Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebraOneDimHigher} of the bilinear pairings
+
+$$
+  \overline{(-)}(-) \;\colon\; S \otimes S \longrightarrow \mathbb{R}
+$$
+
+and
+
+$$
+  \overline{(-)}\Gamma (-) \;\colon\; S  \otimes S \longrightarrow V
+$$
+
+of remark \ref{BilinearPairingForRealRepresentations},  the first is given by
+
+$$
+  (\psi,\phi)
+    \mapsto
+  \overline\psi\phi
+    \coloneqq
+  Re(\psi^\dagger \Gamma^0 \phi)
+$$
+
+and the second is characterized by
+
+$$
+  \begin{aligned}
+    \eta
+    \left(
+      \overline{\psi}\Gamma\phi, A
+    \right)
+    &=
+    \overline{\psi}(\Gamma(A)\phi)
+    \\
+    & = Re( \psi^\dagger \Gamma^0 \Gamma(A)\phi)
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+([Baez-Huerta 10, prop. 10, prop. 11](#BaezHuerta10)).
+
+
+
+
+
+
+## Spacetime supersymmetry: Super-Poincar&#233; and super-Minkowski
+ {#Supersymmetry}
+
+Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
+
+Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
+
+$$
+  \mathbb{R}^{d-1,1}
+   \simeq
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
+$$
+
+(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
+
++-- {: .num_defn #SuperMinkowskiSpacetime}
+###### Definition
+
+Let $d \in \mathbb{N}$ and let $N \in Rep(Spin(d-1,1))$ be a real spin representation, hence a [[direct sum]] of Majorana representations (def. \ref{MajoranaRepresentation}) and/or Majorana-Weyl representations (def. \ref{WeylMajorana}) (or tensor product of two symplectic Majorana representations...).
+
+We define the corresponding **[[super Poincaré Lie algebra]]**
+
+$$
+  \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
+$$
+
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
+
+This is generated on
+
+* elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
+
+* and elements $\{\psi^\alpha\}$ of degree $(1,odd)$
+
+where $a \in \{0,1, \cdots, d-1\}$ is a spacetime index, and where $\alpha$ is an index ranging over a basis of the chosen Majorana spinor representation $N$.
+
+The CE-differential is defined as follows
+
+$$
+  d_{CE} \, \omega^{a b} = \omega^a{}_b \wedge \omega^{b c}
+$$
+
+and
+
+$$
+  d_{CE} \, \psi = \frac{1}{4} \omega^{ a b} \Gamma_{a b} \psi
+  \,.
+$$
+
+(which so far is the differential for the [[semidirect product]] of the [[Poincaré Lie algebra]] [[action|acting]] on the given [[Majorana spinor]] representation)
+
+and
+
+$$
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
+$$
+
+where on the right we have the spinor-to-vector pairing in $N$ (def. \ref{SpinorToVectorBilinearPairing}).
+
+That this is indeed a [[super Lie algebra]] follows from the fact that the [[Poincaré Lie algebra]] is a [[Lie algebra]] and the fact that the spinor-to-vector pairing is symmetric (which makes it qualify as the odd-odd component of a super-Lie algebra) and $Spin(d-1,1)$-equivariant (which is seen to be the super-[[Jacobi identity]] for it), all according to prop. \ref{SpinorToVectorPairing}.
+
+This defines the [[super Poincaré super Lie algebra]]. After discarding the terms involving $\omega$ this becomes the CE algebra of the [[super translation algebra]] underlying [[super Minkowski spacetime]]
+
+$$
+  \mathbb{R}^{d-1,1\vert N}
+  \,.
+$$
+
+=--
 
 
 
@@ -2244,8 +2769,7 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 
-
-#### Poincar&#233; connections: Graviton and gravitino field
+### Poincar&#233; connections: Graviton and gravitino field
  {#GravitonAndGravitino}
 
 We may now apply the general discussion of super Lie algebra valued super differential forms, def. \ref{SuperLieAlgValuedDiffForms}, to the case of the [[super Poincare Lie algebra]], def. \ref{SuperPoincareAndSuperMinkowski}.
@@ -2443,7 +2967,29 @@ is a [[cocycle]] in super [[Lie algebra cohomology]].
 
 
 
+## References
 
+Literature discussing (real) [[spin representations]] includes
+
+* [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Chapter I.5 of _[[Spin geometry]]_, Princeton University Press (1989)
+
+* Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
+
+Discussion specifically for [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]] includes
+
+* {#Freed99} [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
+
+The relation between [[real spin representations and division algebras]] was first highlighted in
+
+* [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+
+Review and exposition is in
+
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+
+* {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
 
 
 
