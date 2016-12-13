@@ -103,7 +103,7 @@ The modern perspective from the point of view of [[model structure on simplicial
 
 and fully abstractly from the point of view of  [[(∞,1)-topos]]-theory ([[shape of an (∞,1)-topos]]) in
 
-* {#Hoyois13a} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
+* {#Hoyois13a} [[Marc Hoyois]], _Higher Galois theory_, ([pdf](http://math.mit.edu/~hoyois/papers/highergalois.pdf))
 
 and ([Hoyois 13b, section 1](#Hoyois13b)).
 
