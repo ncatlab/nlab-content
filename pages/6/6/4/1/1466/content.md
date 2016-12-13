@@ -41,13 +41,6 @@ A **uniform structure**, or **uniformity**, on a set $X$ consists of a collectio
 5. If $U, V$ are entourages, so is some subset of $U \cap V$. In light of axiom (6), it follows that $U \cap V$ is an entourage.
 6. If $U$ is an entourage and $U \subseteq V \subseteq X \times X$, then $V$ is an entourage.
 
-In [[constructive mathematics]], it is often very useful to assume that a uniform structure is __located__:
-
-* For every entourage $U$, there exists an entourage $V$ such that $\neg{V} \cup U = X \times X$, where $\neg{V}$ is the [[complement]] of $V$. That is,
-  $$ \forall U,\; \exists V,\; \forall x, y,\; x \approx_U y \;\vee\; x \mathbin{&#8777;}_V y .$$
-
-(With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is located in classical mathematics.)  Note that any uniformity induced by a [[gauge space|gauge]] is located (as long as the gauging distances take values in located real numbers).
-
 A set equipped with a uniform structure is called a **uniform space**.
 
 
@@ -78,12 +71,6 @@ We now define a **covering uniformity** on $X$ to be a collection of covers, cal
 
 The axioms (2--4) here roughly correspond (respectively) to the axioms (4--6) in the entourage definition.  Axiom (1) takes on all of the real work; any collection of covers that satisfies it may be called a __[[subbase]]__ (but not corresponding directly to a subbase in the previous definition), and then anything satisfying (1--3) is a __[[base]]__.
 
-In [[constructive mathematics]], a covering uniformity is __located__ iff:
-
-*  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \in B$ for no $B \in C'$.
-
-(With [[excluded middle]], we can take $C'$ to be $C$, so this is classically trivial.)
-
 If $X$ is a uniform space defined in terms of entourages, we give it a covering uniformity by declaring a cover to be uniform if it is refined by $\{ U[x] \;|\; x \in X\}$ for some entourage $U$, where $U[x] \coloneqq \{ y \;|\; x \approx_U y \}$.  Note that this does not mean that a uniform cover "consists of $U$-sized sets" but only that it contains a subcover consisting of sets "no smaller than $U$".
 
 Conversely, given a covering uniformity, we define a base of entourages to consist of sets of the form $\bigcup \{ A \times A \;|\; A \in C\}$ for $C$ a uniform cover.  That is, for each cover $C$, we have a basic entourage $\approx_C$ such that $x \approx_C y$ iff $x, y \in A$ for some $A \in C$.  This defines a bijection between entourage uniformities and covering uniformities.
@@ -97,6 +84,7 @@ The **uniform topology** induced by a uniformity is defined by taking the [[neig
 $$ U[x] \coloneqq \{ y \;|\; x \approx_U y \} $$
 where $U$ is an entourage. (Recall that a subset is [[open subset|open]] iff it is a neighborhood of every point that it contains.) We point out that different uniformities may give rise to the same topology (just as different metrics, even uniformly inequivalent ones, may give rise to the same topology).
 
+In [[classical mathematics]], the uniform topology is always [[regular space|regular]] and indeed [[completely regular space|completely regular]].  In [[constructive mathematics]] this is not necessarily true, and to reproduce classical results it is often useful or necessary to assume that uniform spaces are regular, completely regular, or satisfy an intermediate condition called [[uniformly regular space|uniform regularity]].
 
 Given uniform spaces $X$ and $Y$, a [[function]] $f\colon X \to Y$ is said to be **[[uniformly continuous map|uniformly continuous]]** if for every entourage $V$ of $Y$, $(f \times f)^{-1}(V)$ is an entourage of $X$. Clearly, uniformly continuous functions are [[continuous map|continuous]] with respect to the corresponding uniform topologies, but the converse is false (although see below the discussion in the case where $X$ is [[compact space|compact]]). There is an obvious [[concrete category]] $Unif$ of uniform spaces and uniformly continuous maps.
 
@@ -124,20 +112,20 @@ Every uniform space also has an underlying [[proximity]] (defined there), and th
 
 Uniform spaces can also be identified with [[syntopogenous spaces]] that are both *perfect* and *symmetric*; see [[syntopogenous space]].
 
-Every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is located, then this is an [[apartness relation]], i.e. it is also a [[comparison]].  For if $x \mathbin{&#8777;}_U z$, let $V \circ V \subseteq U$ and $\neg{W} \cup V = X \times X$.  Then for any $y$, we cannot have both $x \approx_V y$ and $y\approx_V z$, so we must have either $x \mathbin{&#8777;}_W y$ or $y \mathbin{&#8777;}_W z$, whence either $x # y$ or $y # z$.  This apartness is tight exactly when the uniform space is Hausdorff.
+Every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is [[uniformly regular space|uniformly regular]], then this is an [[apartness relation]], i.e. it is also a [[comparison]].    This inequality is tight exactly when the uniform space is Hausdorff.
 
 
 ## Examples
 
-Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, for example by using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (2) may be proved by using $\epsilon/2$; similarly, every metric space is located in constructive mathematics, which may be proved by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  (The other axioms are easy.)  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
+Every [[metric space]] (or more generally any pseudometric space) is a uniform space, with a base of uniformities indexed by positive numbers $\epsilon$.  (You can even get a countable base, for example by using only those $\epsilon$ equal to $1/n$ for some integer $n$.)  Define $x \approx_\epsilon y$ to mean that $d(x,y) \lt \epsilon$ (or $d(x,y) \leq \epsilon$ if you prefer).  Then axiom (2) may be proved by using $\epsilon/2$; similarly, every metric space is [[uniformly regular space|uniformly regular]] in constructive mathematics, which may be proved by using any positive number less than $\epsilon$ and applying the [[comparison]] law.  (The other axioms are easy.)  Every quasi(pseudo)metric space is a quasiuniform space in the same way.  We can also generalise from metric spaces to [[gauge spaces]]; see under Variations below.
 
-Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with [[Haar measure]]?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (2) may be proved by invoking the continuity of multiplication; constructively, we cannot prove that every topological group is located, although this can be proved for the classical examples of Lie groups and [[topological vector spaces]] (TVSs).
+Every [[topological group]] is a uniform space, with a base of uniformities indexed by neighbourhoods $U$ of the identity element, in two ways: left and right.  (These two ways agree for [[abelian groups]], of course; they also agree for [[compact group]]s, by the general theorem below for uniformities on [[compact spaces]].  I wonder if that has anything to do with [[Haar measure]]?)  In particular, any [[Banach space]] or [[Lie group]] is a uniform space.  Define $x \approx _U y$ to mean that $x \in y U$ (or $y \in x U$ for the other way).  Then axiom (2) may be proved by invoking the continuity of multiplication; constructively, we cannot prove that every topological group is uniformly regular, although this can be proved for the classical examples of Lie groups and [[topological vector spaces]] (TVSs).
 
 These are in a way the motivating examples.  The theory of uniformly continuous maps was developed first for metric spaces, but it was noticed that, for a metrisable TVS, it could be described entirely in terms of the topology and the addition, which immediately generalised to non-metrisable TVSs.  The theory of uniform spaces covers both of these (and their generalisations to pseudometric spaces and topological groups) at once.
 
 We can also form certain uniformities on function spaces.  For instance, if $Y$ is a uniform space and $X$ is any set, then the set of functions $Y^X$ has a "uniformity of [[uniform convergence]]"; this is generated by a base of entourages consisting of, for each entourage $U$ of $Y$, the generating entourage
 $$ \tilde{U} = \{ (f,g) \mid \forall x\in X, (f(x),g(x))\in U \}. $$
-This can be defined for any set $X$, but it is best-behaved when $X$ has some [[compact space|compactness]] properties.  For instance, in [[constructive mathematics]], to prove locatedness of $X$ from locatedness of $Y$ we seem to need a condition such as that $X$ is a [[covert set]].
+This can be defined for any set $X$, but it is best-behaved when $X$ has some [[compact space|compactness]] properties.  For instance, in [[constructive mathematics]], to prove uniform regularity of $X$ from uniform regularity of $Y$ we seem to need a condition such as that $X$ is a [[covert set]].
 
 
 ## Basic Results
@@ -177,9 +165,9 @@ This makes the discussion of completions slightly simpler.
 
 If the symmetry axiom (3) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (There does not seem to be a way to define quasiuniform spaces in terms of (quasi)uniform covers.)
 
-A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space (necessarily located) by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
+A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space (necessarily uniformly regular) by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
 
-In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you don\'t require the uniform space to be located).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
+In weak [[foundations]] of mathematics, the theorems above may not be provable.  In particular, the theorem that every uniform space arises from a gauge space is equivalent (internal to an arbitrary [[topos]] with a [[natural numbers object]]) to [[dependent choice]] (plus [[excluded middle]] if you don\'t require the uniform space to be uniformly regular).  If the concept is to be applied to analysis, then it may be best to define a uniform space as a gauge space satisfying a saturation condition.
 
 There is also a "pointless" notion of uniform space, called a [[uniform locale]].
 
@@ -190,7 +178,7 @@ The really critical axioms are (1--3): a collection of binary relations which sa
 
 We draw particular attention to axiom (2), which may be called an "$\frac{\varepsilon}{2}$" principle. It generalizes a principle familiar from analysis in metric spaces, where one establishes $d(x, z) \lt \varepsilon$ by showing there exists $y$ such that $d(x, y) \lt \frac{\varepsilon}{2}$ and $d(y, z) \lt \frac{\varepsilon}{2}$, and applying the triangle inequality. The utility of this principle for metric spaces, extrapolated in this way, gives uniform spaces much of their power.
 
-For full power in [[constructive mathematics]], we also need locatedness, which may similarly be called a "something less than $\varepsilon$" principle.  (That is, for any $\varepsilon$ there is an $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far; classically we may take $\varepsilon'$ to be $\varepsilon$, but constructively it\'s better to think of $\varepsilon' \lt \varepsilon$.)  This can actually be combined with axiom (2) into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \varepsilon$, but that makes the intuition less clear.
+For full power in [[constructive mathematics]], we also need [[uniformly regular space|uniform regularity]], which may similarly be called a "something less than $\varepsilon$" principle.  (That is, for any $\varepsilon$ there is an $\varepsilon'$ such that any two points are either $\varepsilon$-close or $\varepsilon'$-far; classically we may take $\varepsilon'$ to be $\varepsilon$, but constructively it\'s better to think of $\varepsilon' \lt \varepsilon$.)  This can actually be combined with axiom (2) into a single statement, as you might expect since $\frac{\varepsilon}{2} \lt \varepsilon$, but that makes the intuition less clear.
 
 Axiom (1) is a nullary version of axiom (2); together they prove that, given any entourage $U$ and any integer $n \geq 0$, there exists an entourage $V$ whose $n$-fold composite is contained in $U$. The symmetry axiom (3) then allows one to take the opposite of $V$ at any point in the composite as well.
 
