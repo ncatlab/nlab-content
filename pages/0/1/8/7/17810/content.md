@@ -2033,6 +2033,8 @@ between the categories of [[supercommutative superalgebras]] (def. \ref{Supercom
 and that of $\mathbb{Z}$-graded supercommutative superalgebras according to def. \ref{SupercommutativeSuperalgebraZGraded},
 where
 
+* the [[left adjoint]] simply forgets the lift to a $\mathbb{Z}$-grading,
+
 * the [[right adjoint]] sends a supercommutative superalgebra $A = (A_{even} \oplus A_{odd}, \cdot)$ to the 
   _periodically_ $\mathbb{Z}$-graded algebra $A_{per}$ with
   
@@ -2048,8 +2050,8 @@ where
   $$
   
   whose product is elementwise that of $A$, under these identifications;
-  
-* the [[left adjoint]] simply forgets the lift to a $\mathbb{Z}$-grading.
+
+Here $per$ is a [[faithful functor]], but not a [[full functor]].  
   
 =--
 
@@ -2104,6 +2106,24 @@ $$
   \tilde \phi \;\colon\; forget(A) \longrightarrow B
   \,.
 $$
+
+This establishes the [[adjunction]].
+
+It is immediate to see by direct inspection that $per$ is a [[faithful functor]]. More abstractly,
+from the above one sees that the [[counit of an adjunction|counit of the adjunction]] is
+on a superalgebra $A$ given by the morphism
+
+$$
+  \left(\oplus_{2n} A_{even}\right) \oplus \left(\oplus_{2n+1} A_{odd}\right)
+    \longrightarrow
+  A_{even} \oplus A_{odd}
+$$
+
+which is componentwise the identity. This is clearly an [[epimorphism]], but not a [[monomorphism]],
+hence not an [[isomorphism]]. By general properties of [[adjoint functors]] 
+([this prop.](adjoint+functor#FullyFaithfulAndInvertibleAdjoints)), this means that $R$ is a [[faithful functor]]
+but not a [[full functor]].
+
 
 =--
 
