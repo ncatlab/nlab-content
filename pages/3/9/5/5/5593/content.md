@@ -13,6 +13,13 @@ A **uniform locale** is to a [[uniform space]] as a [[locale]] is to a [[topolog
 While an ordinary uniform space is defined directly in terms of subsets, and the underlying topology then constructed secondarily, in the absence of an underlying set it seems more convenient to define a uniform locale as additional structure on a given locale, together with an additional axiom which essentially says "the underlying topology is the same as the one we started with."
 
 
+### Basic notions
+
+For any $E\in Op(X\times X)$ and any [[sublocale]] $A$ of $X$, with inclusion map $i:A\to X$, we write $E[A]$ for the image of $(i\times 1)^*(E)$ of $A\times X$ under the projection $A\times X \to X$.  If $A$ is [[overt space|overt]] (such as if $A$ is an open part of $X$ and $X$ is overt, or if [[excluded middle]] holds), then $E[A]$ is an open part of $X$, and can equivalently be defined as $\bigvee \{ V\in Op(X) \mid Pos(V\cap A) \}$, where $Pos(W)$ means "$W$ is [[positive element|positive]]".  Otherwise, it is merely a sublocale.
+
+Similarly, if $E,F\in Op(X\times X)$, we write $E\circ F$ for the image of $\pi_{23}^*(E) \cap \pi_{12}^*(F)$ under the projection $\pi_{13}:X\times X\times X\to X\times X$.  If $X$ is overt, this is an open part of $X\times X$; otherwise it is merely a sublocale.  We also write $E^{-1}$ for the pullback of $E$ along the twist map $X\times X \cong X\times X$.
+
+
 ### Covering uniformities
 
 A **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
@@ -21,7 +28,9 @@ A **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ o
 
 * $C_1 \wedge C_2 \coloneqq \{ A \wedge B \;|\; A \in C_1, B \in C_2 \}$; this is also a cover.
 
-* For $A \in Op(X)$, $C[A] \coloneqq \bigcup \{ B \in C \;|\; A \cap B$ is [[positive element|positive]] $}$.
+* $E_C = \bigcup \{ U\times U \mid U\in C \}$, and $C[A] = E_C[A]$.
+
+* For $A \in Op(X)$, we write $C[A] = E_C[A]$ (see above definition).  If $A$ is overt (such as if $X$ is overt, such as if [[excluded middle]] holds), this is equivalent to $\bigcup \{ B \in C \;|\; A \cap B$ is [[positive element|positive]] $}$.
 
 * $C^* \coloneqq \{ C[A] \;|\; A \in C\}$.
 
@@ -43,22 +52,29 @@ The last condition is the one saying that "the induced topology is again the top
 
 ### Entourage uniformities
 
-...
+An **entourage uniformity** on a locale $X$ consists of a collection of open parts $E\in Op(X\times X)$, called *entourages*, such that:
 
+1. There exists an entourage (in light of axiom 4 below, it follows that $X\times X$ is an entourage)
 
-## Remarks
+2. For any entourage $E$, there exists an entourage $F$ such that $F\circ F \subseteq E$, and an entourage $G$ such that $G\subseteq E^{-1}$.  (In light of axiom 4 below, it follows that $E^{-1}$ is itself an entourage.)  Note that $F\circ F$ is in general only a sublocale, but we can still ask it to be contained in $E$.
 
-+-- {: .query}
-[[Mike Shulman]]: I do not know the state of a [[constructive mathematics|constructive]] version of uniform locale theory.  Most of the papers on uniform locales seem to assume classical logic, in particular in writing $C[A] = \bigcup \{ B \in C \;|\; A \cap B \neq \bot \}$.  The above definition seems to me the obvious constructive version, but I don't know how well it behaves.  It's conceivable one might need to restrict to [[overt locales]], where positivity behaves better.
-=--
+3. If $E$ and $F$ are entourages, then so is some open part contained in $E\cap F$ (in light of axiom 4 below, it follows that $E\cap F$ is itself an entourage)
+
+4. If $E$ is an entourage and $E\subseteq F$, then $F$ is also an entourage.
+
+5. For any $U\in Op(X)$ we have $U = \bigcup \{ V\in Op(X) \mid E[V] \subseteq U \text{ for some entourage } E\}$.
+
+It is not clear whether the equivalence of these definitions exists in the literature.  Most reference (see below) use only covering uniformities, although [Johnstone 89](#Johnstone89) promises an equivalence to entourage uniformities in a future paper.
+
 
 ## References
 
-Apparently there is work on constructive uniform locale theory here:
+This paper developes covering uniformities constructively, and includes citations to several other papers that do it classically:
 
 * [[Peter Johnstone]], 1989; A constructive theory of uniform locales. I. Uniform covers; General topology and applications, 179--193; Lecture Notes in Pure and Applied Mathematics 134 (1991).
+ {#Johnstone89}
 
-And indeed, a constructive and predicative theory in the programme of [[formal topology]] here:
+A constructive and predicative theory in the programme of [[formal topology]] can be found here:
 
 * [[Giovanni Curi]]; On the collection of points of a formal space; Annals of Pure and Applied Logic 137 (2006) 1--3, 126--146.
 
