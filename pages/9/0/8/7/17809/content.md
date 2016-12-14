@@ -86,9 +86,8 @@ We will discuss the following concept, the ingredients of which we explain in th
 ###### Definition
 
 For $d \in \mathbb{N}$, write $Spin(d-1,1)$ for the [[spin group]] (def. \ref{SpinGroup})
-[[double cover]] (prop. \ref{SpinDoubleCover}) of the special [[Lorentz group]] (def. \ref{LorentzGroup}).
-
-Let
+[[double cover]] (prop. \ref{SpinDoubleCover}) of the special [[Lorentz group]] (def. \ref{LorentzGroup}),
+let
 
 $$
   \rho \colon Spin(d-1,1) \longrightarrow GL_{\mathbb{C}}(V)
@@ -100,7 +99,7 @@ Then $\rho$ is called
 
 * a _real [[spin representation]]_ or _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
 
-  an element $\psi \in V$ is called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
+  an element $\psi \in V$ is then called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
 
 * a_symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}).
 
@@ -135,14 +134,15 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 =--
 
-(e.g. [Freed 99, page 48](#spin+representation#Freed99))
+([Freed 99, page 48](#spin+representation#Freed99))
 
 
 
 
 ### Spin
 
-We briefly recall the basics of [[Clifford algebra]] and [[spin groups]].
+We briefly recall the basics of [[Clifford algebra]] and [[spin groups]]. We streamline the discussion by restricting attention
+to [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$ throughout, instead of considering more general [[inner product spaces]].
 
 +-- {: .num_defn #LorentzGroup}
 ###### Definition
@@ -190,7 +190,7 @@ $$
 
 for the $\mathbb{Z}/2$-[[graded algebra|graded]] [[associative algebra]] over $\mathbb{R}$
 which is generated from $d$ generators $\{\Gamma_0, \Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}\}$
-in odd degree, subject to the [[generators and relations|relation]]
+in odd degree ("Clifford generators"), subject to the [[generators and relations|relation]]
 
 $$
   \Gamma_{a} \Gamma_b + \Gamma_b \Gamma_a = - 2\eta_{a b}
@@ -203,6 +203,16 @@ $$
   \,.
 $$
 
+We write
+
+$$
+  \Gamma_{a_1 \cdots a_p}
+    \;\coloneqq\;
+  \frac{1}{p!}
+  \underset{{permutations \atop \sigma}}{\sum} (-1)^{\vert \sigma\vert } \Gamma_{a_{\sigma(1)}} \cdots \Gamma_{a_{\sigma(p)}}
+$$
+
+for the antisymmetrized product of $p$ Clifford generators.
 
 Write
 
@@ -246,8 +256,17 @@ $$
   Cl(\mathbb{R}^{d-1,1})
 $$
 
+via
+
 $$
   x_a \mapsto \Gamma_a
+$$
+
+for $\{x_a\}$ the canonical [[basis]] of $\mathbb{R}^d$, hence via
+
+$$
+  v = v^a x_x \mapsto \hat v = v^a \Gamma_a
+  \,,
 $$
 
 such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with
@@ -261,6 +280,90 @@ $$
 where on the right we are, in turn, identifying $\mathbb{R}$ with the linear span of the unit in $Cl(\mathbb{R}^{d-1,1})$.
 
 =--
+
+The key point of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is that it realizes 
+spacetime [[reflections]], [[rotations]] and [[boosts]] by [[conjugation actions]]:
+
++-- {: .num_example #CliffordConjugtionReflectionAndRotation}
+###### Example
+
+Let $v \in \mathbb{R}^{d-1}$, regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
+
+Then
+
+1. the [[conjugation action]] $\hat v \mapsto -\Gamma_a^{-1} \hat v \Gamma_a$
+   of a single Clifford generator $\Gamma_a$ on $\hat v$ sends $v$ to its
+  [[reflection]] at the hyperplane $x_a = 0$;
+
+1. the [[conjugation action]]
+
+   $$
+     \hat v \mapsto \exp(- \tfrac{\alpha}{4} \Gamma_{a b}) \hat v \exp(\tfrac{\alpha}{4} \Gamma_{a b})
+   $$
+
+   sends $v$ to the result of [[rotation|rotating]] it in the $(a,b)$-plane through an angle $\alpha$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement observe that conjugating the Clifford generator $\Gamma_b$ with $\Gamma_a$
+yields $\Gamma_b$ up to a sign, depending on whether $a = b$ or not:
+
+$$
+  - \Gamma_a^{-1} \Gamma_b \Gamma_a
+  =
+  \left\{
+    \array{
+      -\Gamma_b & \vert \text{if}\, a = b
+      \\
+      \Gamma_b & \vert \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+Therefore for $hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of 
+multiplying the $a$-component of $v$ by $-1$.
+
+For the second statement, observe that
+
+$$
+  \tfrac{1}{2}[-\tfrac{1}{2}\Gamma_{a b}, \Gamma_c]
+  =
+  \Gamma_a \eta_{b c} - \Gamma_b \eta_{a c}
+  \,.
+$$
+
+This is the canonical action of the Lorentzian [[special orthogonal Lie algebra]] $\mathfrak{so}(d-1,1)$.
+Hence
+
+$$
+  \exp(-\tfrac\alpha{}{4} \Gamma_{ab}) \hat v \exp(\tfrac{\alpha}{4} \Gamma_{ab})
+    = 
+  \exp(\tfrac{1}{2}[\tfrac{1}{2}\Gamma_{a b}, -])(\hat v)
+$$
+
+is the rotation action as claimed.
+
+
+=--
+
++-- {: .num_remark #AmbiguityInCliffordConjugation}
+###### Remark
+
+Since the [[reflections]], [[rotations]] and [[boosts]] in example \ref{CliffordConjugtionReflectionAndRotation}
+are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that 
+induce them:
+
+1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
+
+1. the cnjugation action by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the 
+   conjugation action by $-\exp(\tfrac{\alpha}{4}\Gamma_{a b})$.
+
+=--
+
 
 +-- {: .num_defn #SpinGroup}
 ###### Definition
@@ -349,13 +452,14 @@ $$
 $$
 
 That it moreover lands in the special Lorentz group $SO(d-1,1)$ follows from
-observing that any reflection is given by the [[conjugation action]] by
+observing (example \ref{CliffordConjugtionReflectionAndRotation}) that every reflection is given by the [[conjugation action]] by
 a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
 (as that is defined to be in the even subalgebra).
 
 To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
 are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
-$(\omega^{a b})$, then such a rotation is given by the conjugation action by
+$(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation} 
+by the conjugation action by
 $$
   \exp(\tfrac{\alpha}{4} \omega^{a b}\Gamma_{a b})
 $$
@@ -366,7 +470,8 @@ That the [[kernel]] is $\mathbb{Z}/2$ is clear from the fact that the only even 
 with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity.
 For these $\overline{a} = a$ and hence
 the condition $\overline{a} a = 1$ is equivalent to $a^2 = 1$. It is clear that these two elements
-$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$.
+$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$. This 
+kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 
 =--
 
@@ -376,9 +481,15 @@ $\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$.
 
 
 
+
+
+
 ### Real structure on Unitary representations
 
-For reference, we here collect some basics regarding [[unitary representations]] equipped with [[real structure]].
+We are interested in [[spin representations]]. It turns out to be useful to
+obtain these from complex [[unitary representations]] by equipping these with [[real structure]].
+
+For reference, we recollect basics regarding [[unitary representations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -3301,23 +3412,25 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
 
 ## References
 
-Literature discussing (real) [[spin representations]] includes
+Precise discussion of [[supersymmetry]] includes
+
+* {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ 1999
+
+* {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
+
+
+Discussion specifically of (real, [[Majorana representation|Majorana]]) [[spin representations]] includes
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Chapter I.5 of _[[Spin geometry]]_, Princeton University Press (1989)
 
-* Anna Engels, _Spin representations_ ([pdf](http://www.math.uni-bonn.de/people/ag/ga/teaching/seminare/ws0304/repr.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
-Discussion specifically for [[Lorentzian manifold|Lorentzian]] signature and with an eye towards [[supersymmetry]] in [[QFT]] includes
 
-* {#Freed99} [[Daniel Freed]], _Lecture 3 of [[Five lectures on supersymmetry]]_ 1999
-
-* {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
-
-The relation between [[real spin representations and division algebras]] was first highlighted in
+The relation between [[real spin representations and division algebras]] was gradually established by a variety of authors, including
 
 * [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
-Review and exposition is in
+Streamlined proof and exposition is in 
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
