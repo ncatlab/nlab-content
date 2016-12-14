@@ -151,8 +151,8 @@ A good historical introduction is in
 
 Comprehensive lecture notes are in
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
- {#LurieLectures}
+* {#LurieLectures} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html))
+ 
 
 * [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_
 
