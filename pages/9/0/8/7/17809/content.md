@@ -173,7 +173,7 @@ $$
   \,.
 $$
 
-This is the **[[Lorentz group]]** in dimension $d$. 
+This is the **[[Lorentz group]]** in dimension $d$.
 
 The elements in the Lorentz group in the image of the [[special orthogonal group]] $SO(d-1) \hookrightarrow O(d-1,1)$ are _[[rotations]]_ in space. The further elements in the special Lorentz group $SO(d-1,1)$, which mathematically are "hyperbolic rotations" in a space-time plane, are called _[[boosts]]_ in [[physics]].
 
@@ -189,8 +189,8 @@ One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $
 +-- {: .num_prop}
 ###### Proposition
 
-As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup}) 
-has four [[connected components]]. The connected component of the identity is the the 
+As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup})
+has four [[connected components]]. The connected component of the identity is the the
 [[proper orthochronous Lorentz group]] $SO^+(3,1)$ (def. \ref{LorentzGroup}). The other three components are
 
 1. $SO^+(d-1,1)\cdot P$
@@ -333,7 +333,7 @@ where on the right we are, in turn, identifying $\mathbb{R}$ with the linear spa
 
 =--
 
-The key point of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is that it realizes 
+The key point of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is that it realizes
 spacetime [[reflections]], [[rotations]] and [[boosts]] by [[conjugation actions]]:
 
 +-- {: .num_example #CliffordConjugtionReflectionAndRotation}
@@ -376,7 +376,7 @@ $$
   \,.
 $$
 
-Therefore for $hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of 
+Therefore for $hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of
 multiplying the $a$-component of $v$ by $-1$.
 
 For the second statement, observe that
@@ -393,7 +393,7 @@ Hence
 
 $$
   \exp(-\tfrac\alpha{}{4} \Gamma_{ab}) \hat v \exp(\tfrac{\alpha}{4} \Gamma_{ab})
-    = 
+    =
   \exp(\tfrac{1}{2}[\tfrac{1}{2}\Gamma_{a b}, -])(\hat v)
 $$
 
@@ -406,12 +406,12 @@ is the rotation action as claimed.
 ###### Remark
 
 Since the [[reflections]], [[rotations]] and [[boosts]] in example \ref{CliffordConjugtionReflectionAndRotation}
-are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that 
+are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that
 induce them:
 
 1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
 
-1. the cnjugation action by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the 
+1. the cnjugation action by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the
    conjugation action by $-\exp(\tfrac{\alpha}{4}\Gamma_{a b})$.
 
 =--
@@ -510,7 +510,7 @@ a linear combination of generators, which are excluded from the group $Spin(d-1,
 
 To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
 are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
-$(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation} 
+$(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation}
 by the conjugation action by
 $$
   \exp(\tfrac{\alpha}{4} \omega^{a b}\Gamma_{a b})
@@ -522,7 +522,7 @@ That the [[kernel]] is $\mathbb{Z}/2$ is clear from the fact that the only even 
 with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity.
 For these $\overline{a} = a$ and hence
 the condition $\overline{a} a = 1$ is equivalent to $a^2 = 1$. It is clear that these two elements
-$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$. This 
+$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$. This
 kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 
 =--
@@ -538,10 +538,12 @@ kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 
 ### Real structure on Unitary representations
 
-We are interested in [[spin representations]]. It turns out to be useful to
-obtain these from complex [[unitary representations]] by equipping these with [[real structure]].
+We are interested in [[spin representations]] on [[real vector spaces]]. It turns out to be useful to
+obtain these from [[unitary representations]] on [[complex vector spaces]] by equipping these with [[real structure]].
+In any case this is the approach used in much of the (physics) literature (with the [[real structure]] usually
+not made explicit but phrased in terms of [[Majorana spinor|Majorana]] conditions).
 
-For reference, we recollect basics regarding [[unitary representations]] equipped with [[real structure]].
+Hencce for reference, we here recollect basics of [[unitary representations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -829,22 +831,23 @@ In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the rem
 ### Dirac and Weyl representations
  {#DiracAndWeylRepresentations}
 
-The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{s,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
+The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{d-1,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
 
 +-- {: .num_prop #CliffordAlgebraRepresentation}
 ###### Proposition
 (**Dirac representation**)
 
-Let $t = 1$ (Lorentzian signature, def. \ref{LorentzianSignature}) and let
+Let
 
 $$
-  d = s + 1 \in \{ 2\nu, 2 \nu + 1 \}
+  d  
+    \in \{ 2\nu, 2 \nu + 1 \}
   \;\;\;\;
   \text{for}\, \nu \in \mathbb{N}\,,\; d\geq 4
   \,.
 $$
 
-Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
+Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
 
 $$
   V \coloneqq \mathbb{C}^{\nu}
@@ -2577,7 +2580,8 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 ## Real spin representations via real normed division algebras
 
 
-The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of [[Hermitian forms]] over the four [[normed division algebras]] over the [[real numbers]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
+The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of 
+[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
 
 Some notation:
 
@@ -3464,25 +3468,45 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
 
 ## References
 
-Precise discussion of [[supersymmetry]] includes
+Mathematical discussion of [[supersymmetry]] includes
 
 * {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ 1999
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
 
+Discussion in the style standard in physics includes
+
+* {#VanProeyen99} [[Antoine Van Proeyen]], section 3 of _Tools for supersymmetry_ ([arXiv:hep-th/9910030](http://arxiv.org/abs/hep-th/9910030))
 
 Discussion specifically of (real, [[Majorana representation|Majorana]]) [[spin representations]] includes
 
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], Chapter I.5 of _[[Spin geometry]]_, Princeton University Press (1989)
 
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
 * {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
 
-The relation between [[real spin representations and division algebras]] was gradually established by a variety of authors, including
+The relation between [[supersymmetry and division algebras]] was gradually established by a variety of authors, including
 
-* [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+* {#KugoTownsend82} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1982) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
-Streamlined proof and exposition is in 
+* {#Sudbery84} A. Sudbery, _Division algebras, (pseudo)orthogonal groups and spinors_, Jour. Phys. A17 (1984),
+939&#8211;955.
+
+* {#Evans88} [[Jonathan Evans]], Supersymmetric Yang&#8211;Mills theories and division algebras, Nucl. Phys. B298
+(1988), 92&#8211;108. Also available as hhttp://www-lib.kek.jp/cgi-bin/img index?198801412i
+
+* {#ChungSudbery87} K.-W. Chung, A. Sudbery, _Octonions and the Lorentz and conformal groups of ten-dimensional space-time_, Phys. Lett. B 198 (1987), 161&#8211;164.
+
+* {#ManogueSudbery89} [[Corinne Manogue]], A. Sudbery, _General solutions of covariant superstring equations of motion_, Phys. Rev. D 12 (1989), 4073&#8211;4077
+
+* {#Schray96} J&#246;rg Schray, _The general classical solution of the superparticle_, Class. Quant. Grav. 13 (1996), 27&#8211;38. ([arXiv:hep-th/9407045](https://arxiv.org/abs/hep-th/9407045))
+
+* [[Tevian Dray]], J. Janesky, [[Corinne Manogue]], Octonionic hermitian matrices with non-real eigenvalues,
+Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](https://arxiv.org/abs/math/0006069))
+
+Streamlined proof and exposition regarding [[supersymmetry and division algebras]] is in
 
 * {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
