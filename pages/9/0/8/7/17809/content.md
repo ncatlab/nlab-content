@@ -139,7 +139,11 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 
 
+
+
 ### Spin
+
+
 
 We briefly recall the basics of [[Clifford algebra]] and [[spin groups]]. We streamline the discussion by restricting attention
 to [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$ throughout, instead of considering more general [[inner product spaces]].
@@ -169,15 +173,63 @@ $$
   \,.
 $$
 
-This is the **[[Lorentz group]]** in dimension $d$. Moreover, write
+This is the **[[Lorentz group]]** in dimension $d$. 
 
-$$
-  SO(d-1,1) \hookrightarrow O(d-1,1)
-$$
+The elements in the Lorentz group in the image of the [[special orthogonal group]] $SO(d-1) \hookrightarrow O(d-1,1)$ are _[[rotations]]_ in space. The further elements in the special Lorentz group $SO(d-1,1)$, which mathematically are "hyperbolic rotations" in a space-time plane, are called _[[boosts]]_ in [[physics]].
 
-for the further subgroup of [[linear maps]] whose [[determinant]] is +1.
+One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $O(d-1,1)$:
+
+* the _[[proper Lorentz group]]_ $SO(d-1,1)$ is the subgroup of elements which have [[determinant]] +1 (as elements  $SO(d-1,1)\hookrightarrow GL(d)$ of the [[general linear group]]);
+
+* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group $SO^+(d-1,1) \hookrightarrow SO(d-1,1)$ is the further [[subgroup]] of elements which do not act by [[reflection]] along the [[timelike]] axis.
+
 
 =--
+
++-- {: .num_prop}
+###### Proposition
+
+As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup}) 
+has four [[connected components]]. The connected component of the identity is the the 
+[[proper orthochronous Lorentz group]] $SO^+(3,1)$ (def. \ref{LorentzGroup}). The other three components are
+
+1. $SO^+(d-1,1)\cdot P$
+
+1. $SO^+(d-1,1)\cdot T$
+
+1. $SO^+(d-1,1)\cdot P T$,
+
+where, as [[matrices]]
+
+$$
+  P \coloneqq diag(1,-1,-1, \cdots, -1)
+$$
+
+is the operation of point reflection at the origin in space,  where
+
+$$
+  T \coloneqq diag(-1,1,1, \cdots, 1)
+$$
+
+is the operation of reflection in time and hence where
+
+$$
+  P T = T P = diag(-1,-1, \cdots, -1)
+$$
+
+is point reflection in spacetime.
+
+=--
+
+
+
+
+
+
+
+
+
+
 
 +-- {: .num_defn #CliffordAlgebra}
 ###### Definition
@@ -410,10 +462,10 @@ containing the [[linear combinations]] of the generators, according to remark \r
 
 is
 
-1. a [[group]] [[homomorphism]] onto the special [[Lorentz group]] (def. \ref{LorentzGroup}):
+1. a [[group]] [[homomorphism]] onto the [[proper orthochronous Lorentz group]] (def. \ref{LorentzGroup}):
 
    $$
-     Spin(d-1,1) \longrightarrow SO(d-1,1)
+     Spin(d-1,1) \longrightarrow SO^+(d-1,1)
    $$
 
 1. exhibiting a $\mathbb{Z}/2$-[[central extension]].
@@ -451,7 +503,7 @@ $$
   \,.
 $$
 
-That it moreover lands in the special Lorentz group $SO(d-1,1)$ follows from
+That it moreover lands in the [[proper orthochronous Lorentz group]] $SO(d-1,1)$ follows from
 observing (example \ref{CliffordConjugtionReflectionAndRotation}) that every reflection is given by the [[conjugation action]] by
 a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
 (as that is defined to be in the even subalgebra).
