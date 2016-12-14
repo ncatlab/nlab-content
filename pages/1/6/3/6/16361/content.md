@@ -67,6 +67,8 @@ After its motivation from [[D-brane]] reaction processes, the study of [[triangu
 
 * {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
 
+* [[John Baez]], [chemical reaction networks](http://math.ucr.edu/home/baez/networks/)
+
 
 [[!redirects chemical reaction]]
 [[!redirects chemical reactions]]
