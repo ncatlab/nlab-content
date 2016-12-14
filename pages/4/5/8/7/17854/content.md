@@ -1,11 +1,12 @@
-# Apartness spaces
 
+# Apartness spaces
 * table of contents
 {: toc}
 
 ## Idea
 
 An *apartness space* is a set equipped with an "apartness relation" that distinguishes between pairs of points or sets.  They are particularly interesting in [[constructive mathematics]]; in [[classical mathematics]] they tend to be equivalent to better-known definitions expressed in terms of "closeness" rather than "apartness".
+
 
 ## Definitions
 
@@ -15,13 +16,14 @@ There are actually three different notions of "apartness space" depending on whe
 
 * A **set-set apartness space** is a set $X$ equipped with a relation $A\bowtie B$ between [[subsets]] $A,B\subseteq X$, satisfying appropriate axioms.  In [[classical mathematics]], a set-set apartness space is equivalent to a [[proximity space]].  In [[constructive mathematics]], the classical definition of a proximity space in terms of $\bowtie$ can be taken as a definition of a set-set apartness space.
 
-* A **point-set apartness space** is a set $X$ equipped with a relation $x \bowtie A$ between points $x\in X$ and subsets $A\subseteq X$, satisfying appropriate axioms.  In classical mathematics, these axioms are obtained by [[contrapositive|contraposition]] from the definition of a [[topological space]] in terms of a [[exact functor|right exact]] [[Moore closure]] operator, so that point-set apartness spaces are equivalent to topological spaces.  In constructive mathematics
+* A **point-set apartness space** is a set $X$ equipped with a relation $x \bowtie A$ between points $x\in X$ and subsets $A\subseteq X$, satisfying appropriate axioms.  In classical mathematics, these axioms are obtained by [[contrapositive|contraposition]] from the definition of a [[topological space]] in terms of a [[exact functor|right exact]] [[Moore closure]] operator, so that point-set apartness spaces are equivalent to topological spaces.  In constructive mathematics ... well, keep reading.
 
 Since point-point apartness spaces are described at [[apartness relation]], and set-set apartness spaces at [[proximity space]], the rest of this page will be about point-set apartness spaces.
 
+
 ### Point-set apartness spaces
 
-+--{: .un_definition}
++-- {: .un_defn}
 ###### Definition
 A **point-set apartness space** is a set $X$ equipped with a relation $\bowtie$ between points $x\in X$ and subsets $A\subseteq X$ such that
 
@@ -33,10 +35,11 @@ A **point-set apartness space** is a set $X$ equipped with a relation $\bowtie$ 
 The relation $x\bowtie A$ should be regarded as a "positive" way of saying that $x$ does not belong to the [[closure]] of $A$, i.e. $x\notin \overline{A}$.  Under this interpretation, the above axioms contrapose to become
 
 1. If $x\in A$, then $x\in \overline{A}$, i.e. $A\subseteq \overline{A}$.
-1. $\overline{A} \cup \overline{B} = \overline{A\cup B}$ (and in particular $(A\subseteq B) \to (\overline{A}\subseteq \overline{B})$).
-1. If $B\subseteq \overline{A}$ and $x\in \overline{B}$, then $x\in\overline{A}$, i.e. $\overline{\overline{A}} = \overline{A}$.
+2. $\overline{A} \cup \overline{B} = \overline{A\cup B}$ (and in particular $(A\subseteq B) \to (\overline{A}\subseteq \overline{B})$).
+3. If $B\subseteq \overline{A}$ and $x\in \overline{B}$, then $x\in\overline{A}$, i.e. $\overline{\overline{A}} = \overline{A}$.
 
 which are precisely the axioms of a [[topology]] expressed in terms of a closure operator.  In constructive mathematics, of course, the law of contraposition does not hold.
+
 
 ## Separation properties
 
@@ -46,6 +49,7 @@ A point-set apartness space may be called **comparable** (nonce definition on th
 
 [Bridges et al](#BSV) define point-set apartness spaces to always be both $T_1$ and comparable, with respect to a given inequality on $X$.
 
+
 ## References
 
 * [[Douglas Bridges]], Peter Schuster, and Luminita Vita, *Apartness, Topology, and Uniformity: a Constructive View*, [doi](http://dx.doi.org/10.1002/1521-3870%28200210%2948:1%2B%3C16::AID-MALQ16%3E3.0.CO;2-7)
@@ -53,11 +57,27 @@ A point-set apartness space may be called **comparable** (nonce definition on th
 
 * [[Douglas Bridges]] and Luminita Vita, *Apartness and Uniformity: A Constructive Development*. [link](http://link.springer.com/book/10.1007%2F978-3-642-22415-7)
 
+
 [[!redirects apartness space]]
 [[!redirects apartness spaces]]
+
 [[!redirects point-point apartness space]]
 [[!redirects point-point apartness spaces]]
+[[!redirects point–point apartness space]]
+[[!redirects point–point apartness spaces]]
+[[!redirects point--point apartness space]]
+[[!redirects point--point apartness spaces]]
+
 [[!redirects point-set apartness space]]
 [[!redirects point-set apartness spaces]]
+[[!redirects point–set apartness space]]
+[[!redirects point–set apartness spaces]]
+[[!redirects point--set apartness space]]
+[[!redirects point--set apartness spaces]]
+
 [[!redirects set-set apartness space]]
 [[!redirects set-set apartness spaces]]
+[[!redirects set–set apartness space]]
+[[!redirects set–set apartness spaces]]
+[[!redirects set--set apartness space]]
+[[!redirects set--set apartness spaces]]
