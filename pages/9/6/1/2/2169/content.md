@@ -67,6 +67,7 @@ Accordingly, a normed division algebras is in particular a division [[compositio
 ## Properties
 
 ### Classification
+ {#Classification}
 
 Over the [[complex numbers]],  [[generalized the|the]] only normed division algebra is the algebra of complex numbers themselves.  
 
