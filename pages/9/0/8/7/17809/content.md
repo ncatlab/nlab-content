@@ -70,10 +70,15 @@ appearing in the _[[AdS-CFT correspondence]]_.)
 * table of contents
 {:toc}
 
+What defines and controls a [[super Poincaré Lie algebra]] and [[super Minkowski spacetime]] are
+[[linear representations]] of [[spin group]] on _real_ vector spaces: [[real structure|real]] [[spin representations]],
+also called [[Majorana representations]]. These we discuss first in
 
+* [Real spin representations -- Majorana spinors](#RealSpinRepresentations).
 
 
 ## Real spin representations -- Majorana spinors
+ {#RealSpinRepresentations}
 
 We will discuss the following concept, the ingredients of which we explain in the following
 
@@ -83,21 +88,21 @@ We will discuss the following concept, the ingredients of which we explain in th
 For $d \in \mathbb{N}$, write $Spin(d-1,1)$ for the [[spin group]] (def. \ref{SpinGroup})
 [[double cover]] (prop. \ref{SpinDoubleCover}) of the special [[Lorentz group]] (def. \ref{LorentzGroup}).
 
-Let 
+Let
 
 $$
   \rho \colon Spin(d-1,1) \longrightarrow GL_{\mathbb{C}}(V)
 $$
 
-be a [[unitary representation|unitary]] [[linear representation]] of $Spin(d-1,1)$ on some [[complex vector space]] $V$. 
+be a [[unitary representation|unitary]] [[linear representation]] of $Spin(d-1,1)$ on some [[complex vector space]] $V$.
 
-Then $\rho$ is called 
+Then $\rho$ is called
 
 * a _real [[spin representation]]_ or _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
 
   an element $\psi \in V$ is called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
 
-* a_symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}). 
+* a_symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}).
 
 
 =--
@@ -143,7 +148,7 @@ We briefly recall the basics of [[Clifford algebra]] and [[spin groups]].
 ###### Definition
 
 For $d \in \mathbb{N}$, write $\mathbb{R}^{d-1,1}$ for the [[vector space]] $\mathbb{R}^d$
-over the [[real numbers]], equipped with the [[quadratic form]] represented by the 
+over the [[real numbers]], equipped with the [[quadratic form]] represented by the
 symmetric [[matrix]]
 
 $$
@@ -245,7 +250,7 @@ $$
   x_a \mapsto \Gamma_a
 $$
 
-such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with 
+such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with
 the anti-commutator in the Clifford algebra
 
 $$
@@ -260,7 +265,7 @@ where on the right we are, in turn, identifying $\mathbb{R}$ with the linear spa
 +-- {: .num_defn #SpinGroup}
 ###### Definition
 
-For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of 
+For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
 even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
 which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{BarConjugationOnCliffordAlgebra})
 
@@ -289,7 +294,7 @@ $$
 $$
 
 from the [[spin group]] (def. \ref{SpinGroup}) to the [[general linear group]] in $d$-dimensions
-given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to the 
+given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to the
 [[conjugation action]]
 
 $$
@@ -325,7 +330,7 @@ $$
     \left(
     \left(\overline{A} \hat v_1 A\right) \left(\overline{A}\hat v_2 A\right)
     +
-    \left(\overline{A} \hat v_2 A\right) \left(\overline{A} \hat v_1 A\right)  
+    \left(\overline{A} \hat v_2 A\right) \left(\overline{A} \hat v_1 A\right)
     \right)
     \\
     & =
@@ -343,8 +348,8 @@ $$
   \,.
 $$
 
-That it moreover lands in the special Lorentz group $SO(d-1,1)$ follows from 
-observing that any reflection is given by the [[conjugation action]] by 
+That it moreover lands in the special Lorentz group $SO(d-1,1)$ follows from
+observing that any reflection is given by the [[conjugation action]] by
 a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
 (as that is defined to be in the even subalgebra).
 
@@ -358,7 +363,7 @@ $$
 for some $\alpha$, hence is in the image.
 
 That the [[kernel]] is $\mathbb{Z}/2$ is clear from the fact that the only even Clifford elements which commute
-with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity. 
+with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity.
 For these $\overline{a} = a$ and hence
 the condition $\overline{a} a = 1$ is equivalent to $a^2 = 1$. It is clear that these two elements
 $\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$.
