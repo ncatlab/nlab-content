@@ -48,15 +48,31 @@ Combining this, one finds that [[supergravity]] coupled to [[super Yang-Mills th
 ## References
  {#References}
 
-The relation was apparently first made explicit in 
+The relation between [[supersymmetry and division algebras]] was gradually established by a variety of authors, including
 
-* [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2, p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
+* {#KugoTownsend82} [[Taichiro Kugo]], [[Paul Townsend]], _Supersymmetry and the division algebras_, Nuclear Physics B, Volume 221, Issue 2 (1982) p. 357-380. ([spires](http://inspirehep.net/record/181889), [pdf](http://cds.cern.ch/record/140183/files/198301032.pdf))
 
-An expository review is in 
+* {#Sudbery84} A. Sudbery, _Division algebras, (pseudo)orthogonal groups and spinors_, Jour. Phys. A17 (1984),
+939&#8211;955.
 
-* {#BH09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in  R. Doran, G. Friedman, [[Jonathan Rosenberg]](eds.) _Superstrings, Geometry, Topology, and $C^\ast$-algebras_, , Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
+* {#Evans88} [[Jonathan Evans]], Supersymmetric Yang&#8211;Mills theories and division algebras, Nucl. Phys. B298
+(1988), 92&#8211;108. Also available as hhttp://www-lib.kek.jp/cgi-bin/img index?198801412i
+
+* {#ChungSudbery87} K.-W. Chung, A. Sudbery, _Octonions and the Lorentz and conformal groups of ten-dimensional space-time_, Phys. Lett. B 198 (1987), 161&#8211;164.
+
+* {#ManogueSudbery89} [[Corinne Manogue]], A. Sudbery, _General solutions of covariant superstring equations of motion_, Phys. Rev. D 12 (1989), 4073&#8211;4077
+
+* {#Schray96} J&#246;rg Schray, _The general classical solution of the superparticle_, Class. Quant. Grav. 13 (1996), 27&#8211;38. ([arXiv:hep-th/9407045](https://arxiv.org/abs/hep-th/9407045))
+
+* [[Tevian Dray]], J. Janesky, [[Corinne Manogue]], Octonionic hermitian matrices with non-real eigenvalues,
+Adv. Appl. Clifford Algebras 10 (2000), 193&#8211;216 ([arXiv:math/0006069](https://arxiv.org/abs/math/0006069))
+
+Streamlined proof and exposition regarding is in
+
+* {#BaezHuerta09} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry I_, in R. Doran, G. Friedman and [[Jonathan Rosenberg]] (eds.), _Superstrings, Geometry, Topology, and $C*$-algebras_, Proc. Symp. Pure Math. 81, AMS, Providence, 2010, pp. 65-80 ([arXiv:0909.0551](http://arxiv.org/abs/0909.0551))
 
 * {#BaezHuerta10} [[John Baez]], [[John Huerta]], _Division algebras and supersymmetry II_, Adv. Math. Theor. Phys. 15 (2011), 1373-1410  ([arXiv:1003.34360](http://arxiv.org/abs/1003.3436))
+
 
 
 Discussion with an emphasis on [[super Yang-Mills theory]] and [[U-duality]] in [[supergravity]] and the [[Freudenthal magic square]] is in
