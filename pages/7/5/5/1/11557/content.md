@@ -46,7 +46,7 @@ Originally this was shown to be the case by ([Conner-Floyd 66](#ConnerFloyd66)) 
 
 The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely $M Spin^c \to KU$ and $M Spin \to KO$ is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
 
-For [[elliptic cohomology]] wih the [[SO orientation of elliptic cohomology]] $M SO \toEll$ the statement is due to ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). For the refinement to the [[spin orientation of elliptic cohomology]] of ([Kreck-Stolz 93](#KreckStolz93)) a statement is due to ([Hovey 95](#Hovey95)).
+For [[elliptic cohomology]] with the [[SO orientation of elliptic cohomology]] $M SO \to Ell$ the statement is due to ([Landweber-Ravenel-Stong 93](#LandweberRavenelStong93)). For the refinement to the [[spin orientation of elliptic cohomology]] of ([Kreck-Stolz 93](#KreckStolz93)) a statement is due to ([Hovey 95](#Hovey95)).
 
 
 ## Refereces
