@@ -360,8 +360,8 @@ The example of affine schemes in [[noncommutative algebraic geometry]] is in
 
 [[!redirects reflector]]
 [[!redirects reflectors]]
-[[!redirects reflection]]
-[[!redirects reflections]]
+
+
 [[!redirects reflective subcategories]]
 [[!redirects reflexive subcategory]]
 [[!redirects coreflector]]
