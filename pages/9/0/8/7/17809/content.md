@@ -849,7 +849,7 @@ The following is a standard convention for the complex representation of the Cli
 Let
 
 $$
-  d  
+  d
     \in \{ 2\nu, 2 \nu + 1 \}
   \;\;\;\;
   \text{for}\, \nu \in \mathbb{N}\,,\; d\geq 4
@@ -2586,11 +2586,18 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 
+
+
+
+
+
+
 ## Real spin representations via real normed division algebras
 
 
-The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of 
+The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of
 [[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
+
 
 
 
@@ -2602,88 +2609,242 @@ The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have 
 ### Real normed division algebras
 
 
-+-- {: .num_defn}
++-- {: .num_defn #TheComplexNumbers}
 ###### Definition
 
-The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
+The _[[complex numbers]]_ $\mathbb{C}$ is the [[commutative algebra]] over the [[real numbers]] $\mathbb{R}$ which is [[generators and relations|generated]] from one generators $\{e\}$ subject to the [[generators and relations|relation]]
+
+* $e^2 = -1$.
+
+=--
+
++-- {: .num_defn #TheQuaternions}
+###### Definition
+
+The _[[quaternions]]_ $\mathbb{H}$ is the [[associative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from three generators $\{e_1, e_2, e_3\}$ subject to the [[generators and relations|relations]]
+
+<div style="float:right;margin:0 20px 10px 20px;">
+<img src="https://ncatlab.org/nlab/files/QuaternionMultiplicationTable.jpg" width="300" alt="quaternion multiplication table">
+</div>
 
 1. for all $i$
 
    $e_i^2 = -1$
 
-1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) the relations
+1. for $(i,j,k)$ a cyclic [[permutation]] of $(1,2,3)$ then
 
    1. $e_i e_j  = e_k$
 
    1. $e_j e_i  = -e_k$
 
-<img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
 
 > (graphics grabbed from [Baez 02](#Baez02))
 
 =--
 
 
-
-
-[[!include exceptional spinors and division algebras -- table]]
-
-
-
-
-
-
-
-Some notation:
-
-* For $\mathbb{K}$ one of the four real [[normed division algebras]], write $(-)^\ast \colon \mathbb{K} \stackrel{\simeq}{\to} \mathbb{K}^{op}$ for the conjugation anti-automorphism;
-
-* the [[real part]] of an element $a \in \mathbb{K}$ is $Re(a) \coloneqq \tfrac{1}{2} (a + a^\ast)$;
-
-* say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a [[hermitian matrix]] if the [[transpose matrix]] equals the conjugated matrix: $A^t = A^\ast$. Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ this is $A = A^\dagger$, as usual;
-
-
-* write $\tilde A \coloneqq A - (tr A) 1_{n\times n}$ for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
-
-
-
-
-
-
-
-
-
-
-
-### In dimensions 3,4,6,10
- {#InTermsOfNormedDivisionAlgebraInDimension3To10}
-
-+-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
++-- {: .num_defn #TheOctonions}
 ###### Definition
 
-Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K})$ for the $\mathbb{K}$-vector space of 2x2 [[hermitian matrices]].
-Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
+The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
+
+<div style="float:right;margin:0 20px 10px 20px;">
+<img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
+</div>
+
+
+1. for all $i$
+
+   $e_i^2 = -1$
+
+1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) then
+
+   1. $e_i e_j  = e_k$
+
+   1. $e_j e_i  = -e_k$
+
+
+> (graphics grabbed from [Baez 02](#Baez02))
+
+=--
+
+We define the following operations on these real algebras:
+
++-- {: .num_defn #Conjugation}
+###### Definition
+
+For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, let 
 
 $$
-  \Gamma \;\colon\; V\longrightarrow End(S_+ \oplus S_-)
+  (-)^\ast 
+    \;\colon\;
+  \mathbb{K}
+    \longrightarrow
+  \mathbb{K}
 $$
 
-by
+be the [[antihomomorphism]] of real algebras 
 
 $$
-  \Gamma(A)
-    \coloneqq
-   \left(
-     \array{
-        0 & \tilde A
-        \\
-        A & 0
-     }
-  \right)
+  (r a)^\ast = r a^\ast \;\;\;\;\,, \text{for}\;\; r \in \mathbb{R}, a \in \mathbb{K}
+$$
+$$
+  (a b)^\ast = b^\ast a^\ast\;\;\;\;\;\;\,,\text{for}\;\; a,b \in \mathbb{K}
+$$
+
+given on the generators generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} 
+and def. \ref{TheOctonions}  by
+
+$$
+  (e_i)^\ast = - e_i
   \,.
 $$
 
+This operation makes $\mathbb{K}$ into a [[star algebra]].
+For the [[complex numbers]] $\mathbb{C}$ this is called _[[complex conjugation]]_, and in general we call it _conjugation_.
+
+Let then
+
+$$
+  Re \;\colon\; \mathbb{K} \longrightarrow \mathbb{R}
+$$
+
+be the [[function]]
+
+$$
+  Re(a) \;\coloneqq\; \tfrac{1}{2}(a + a^\ast)
+$$
+
+("[[real part]]") and
+
+$$
+  Im \;\colon\; \mathbb{K} \longrightarrow \mathbb{R}
+$$
+
+be the [[function]]
+
+$$
+  Im(a) \;\coloneqq \; \tfrac{1}{2}(a - a^\ast)
+$$
+
+("[[imaginary part]]").
+
+It follows that for all $a \in \mathbb{K}$ then the product of a with its conjugate is in the real [[center]]
+of $\mathbb{K}$
+
+$$
+  a a^\ast = a^\ast a \;\in \mathbb{R} \hookrightarrow \mathbb{K}
+$$
+
+and we write the [[square root]] of this expression as
+
+$$
+  {\vert a\vert}
+    \;\coloneqq\;
+  \sqrt{a a^\ast}
+$$
+
+called the _[[norm]]_ or _[[absolute value]]_ [[function]]
+
+$$
+  {\vert -\vert}
+    \;\colon\;
+  \mathbb{K}
+    \longrightarrow
+  \mathbb{R}
+  \,.
+$$
+
+This norm operation clearly satisfies the following properties (for all $a,b \in \mathbb{K}$) 
+
+1. $\vert a \vert \geq 0$;
+
+1. ${\vert a \vert } = 0 \;\;\;\;\; \Leftrightarrow\;\;\;\;\;\; a = 0$;
+
+1. ${\vert a b \vert } = {\vert a \vert} {\vert b \vert}$
+
+and hence makes $\mathbb{K}$ a [[normed algebra]].
+
+These relations immediately imply that $\mathbb{K}$ is a [[division algebra]], in that
+
+$$
+  a b = 0 \;\;\;\;\;\; \Rightarrow \;\;\;\;\;\; a = 0 \;\; \text{or} \;\; b = 0
+  \,.
+$$
+
+Hence the conjugation operation makes $\mathbb{K}$ a real [[normed division algebra]].
+
 =--
+
++-- {: .num_prop #HurwitzTheorem}
+###### Proposition
+**([[Hurwitz theorem]])**
+
+The four algebras of [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$, 
+[[quaternions]] $\mathbb{H}$ and [[octonions]] $\mathbb{O}$
+from def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions} respectively,
+which are real [[normed division algebras]] via def. \ref{Conjugation},
+are, up to [[isomorphism]], the _only_ real normed division algebras that exist.
+
+=--
+
+
+We will be looking at [[linear algebra]] over these four [[normed division algebras]].
+To that end, fix the following notation and terminology:
+
++-- {: .num_defn #MatrixNotation}
+###### Definition
+
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
+
+1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] equals the [[complex conjugation|conjugated]] (def. \ref{Conjugation}) matrix: 
+
+   $$
+     A^t = A^\ast
+     \,.
+   $$
+   
+   Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ then $A$ is a [[hermitian matrix]] precisely if
+   
+   $$
+     A = A^\dagger
+     \,.
+   $$
+
+
+1. write 
+
+   $$
+      \tilde A \coloneqq A - (tr A) 1_{n\times n}
+   $$ 
+   
+   for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Real spinors in dimensions 3,4,6 and 10
+ {#InTermsOfNormedDivisionAlgebraInDimension3To10}
+
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]]. sprin
+
 
 +-- {: .num_prop #DeterminantGivesMinkowskiMetric}
 ###### Proposition
@@ -2717,6 +2878,56 @@ is [[Minkowski spacetime]]:
 
 (e.g. [Baez-Huerta 09, prop. 5](#BaezHuerta09))
 
+Proof:
+
+The $\mathbb{R}$-vector space of  hermitian matrices may equivalently be parameterized by
+
+$$
+  (t,x, y) \in \mathbb{R}^2 \times \mathbb{R}
+$$
+
+by
+
+$$
+  \left(
+    \array{
+      t-x & y
+      \\
+      y^\ast & t + x
+    }
+  \right)
+$$
+
+
+
++-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
+###### Definition
+
+Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K})$ for the [[real vector space]] of 2x2 [[hermitian matrices]] over $\mathbb{K}$,
+according to def. \ref{MatrixNotation}.
+Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
+
+$$
+  \Gamma \;\colon\; V\longrightarrow End(S_+ \oplus S_-)
+$$
+
+by
+
+$$
+  \Gamma(A)
+    \coloneqq
+   \left(
+     \array{
+        0 & \tilde A
+        \\
+        A & 0
+     }
+  \right)
+  \,.
+$$
+
+=--
+
 
 +-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
 ###### Proposition
@@ -2744,6 +2955,8 @@ Under restriction along $Spin(n+1,1) \hookrightarrow Cl(n+1,1)$ this is isomorph
 =--
 
 (e.g. [Baez-Huerta 09, p. 6](#BaezHuerta09))
+
+[[!include exceptional spinors and division algebras -- table]]
 
 
 +-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
@@ -3023,7 +3236,7 @@ $$
 =--
 
 
-### In dimensions 4,5,7, 11
+### Real spinors  dimensions 4,5,7 and 11
   {#InTermsOfNormedDivisionAlgebraInDimension4To11}
 
 
