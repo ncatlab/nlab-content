@@ -61,7 +61,7 @@ is point reflection in spacetime.
 
 ### Spin cover
 
-While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topological space|connected]], it is not [[simply connected]]. Its [[universal double cover]] is the Lorentzian [[spin group]] $Spin(d-1,1)$
+While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topological space|connected]], it is not [[simply connected]]. Its [[universal covering space|universal]] [[double cover]] is the Lorentzian [[spin group]] $Spin(d-1,1)$
 
 
 ## Related concepts
