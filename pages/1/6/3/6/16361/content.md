@@ -27,7 +27,7 @@ One might be tempted to recognize [[morphisms]] as in [[category theory]] in thi
 
 ## Formalization of reaction processes
 
-It is unlikely that any formalization of reaction processes in category theory will depend on the specific nature of the chemical elements, but more generally attempts include _stochastic Petri nets_ and _triangulated categories with stability conditions_:
+It is unlikely that any formalization of reaction processes (say in [[category theory]]) will depend on the specific nature of the [[chemical elements]], Among formalizations that do model reaction processes akin to those seen in chemistry are _stochastic Petri nets_ and _triangulated categories with stability conditions_:
 
 ### Stochastic Petri nets or Chemical reaction networks
 
