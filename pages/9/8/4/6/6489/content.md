@@ -23,6 +23,29 @@
 
 Bridgeland stability conditions on a [[triangulated category]] are certain data which give a derived analogue of the Mumford's stability.
 
+The concept originally arose as a formalization of reaction processes of [[D-branes]] for the [[B-model]] [[topological string]]. These are (hypothetical) physical objects that appear in different species labeled by [[objects]] in a [[triangulated category|triangulated]] [[derived category]] (of [[quasicoherent sheaves]] on some [[Calabi-Yau variety]]). Whenever there is a process 
+
+$$
+  A \leftrightarrow B \oplus C
+$$
+
+by which a brane of type $A$ may decay into a brane of type B and a brane of type C (much like a [[chemical reaction]]), this is witnessed by the fact that there is a [[homotopy fiber sequence]] (a distinguished triangle in the [[triangulated category]]) of the form
+
+$$
+  B \longrightarrow A \longrightarrow C
+  \,.
+$$
+
+(See [Aspinwall 04](#Aspinwall04), search the document for the keyword "decay".)
+
+Mathematically such a [[homotopy fiber sequence]] in a [[triangulated category]] precisely expresses the fact that $A$ is a "twisted [[direct sum]]" of $B$ and $C$ ([[extension]], [[semidirect product]]), hence much like the plain [[direct sum]], but with some "interaction" included.
+
+In addition there are then _Bridgeland stability conditions_ on such [[triangulated categories]] of topological D-branes, which determine which of these reaction processes lead to stable compounds (whence the term!), i.e. whether, in the above example, the brane of type $A$ will really decay into branes of type B and C, or if conversely the latter will fuse. (See again [Aspinwall 04](#Aspinwall04), search the document for the keyword "stability".)
+
+
+
+
+
 ## Definition
 
 Let $\mathcal{A}$ be an [[abelian category]] and $K(\mathcal{A})$ be its [[Grothendieck group]]. A **stability function**, sometimes also called a central charge, is a group [[homomorphism]] $Z: K(\mathcal{A})\to \mathbb{C}$ such that for all non-zero objects, the image of $Z$ lies in the semi-upper half plane $H=\{r exp(i\pi \phi) : r$ > $0, 0$ &lt; $\phi \leq 1\}$. The phase of an object is just the $\phi$ that occurs in the representation from $H$. Alternatively, by plotting $Z(E)$ in the complex plane the phase is the argument (slope) divided by $\pi$. The phase of $E$ will be denoted $\phi(E)$.
@@ -59,11 +82,14 @@ A motivating example is the following. Let $X$ be a non-singular, [[algebraic cu
 
 ### Related pre-Bridgeland work
 
-Bridgeland work came out as a way to formalize ideas on $\Pi$-stability in physics works.
+Bridgeland's work was motivated as a formalizatioon of ideas on $\Pi$-stability of [[D-branes]] for the [[topological string]], as discussed in
 
-* M. R. Douglas, _D-branes, categories and $N=1$
-supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843; 
-_Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
+* [[Michael Douglas]], _D-branes, categories and $N=1$ supersymmetry, J.Math.Phys. __42__ (2001) 2818&#8211;2843;  
+
+* [[Michael Douglas]] _Dirichlet branes, homological mirror symmetry, and stability_, Proc. ICM, Vol. III (Beijing, 2002), 395&#8211;408, Higher Ed. Press, Beijing, 2002
+
+* {#Aspinwall04} [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](https://arxiv.org/abs/hep-th/0403166))
+
 
 ### General
 
