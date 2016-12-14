@@ -45,6 +45,10 @@ you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through
 
 From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the definition of morphism *reversed*, hence the twist. 
 
+### As a lax colimit
+
+The (opposite of the) category $Tw(C)$ can be described as the [[2-limit#lax|lax colimit]] of the diagram $C \to Cat\colon c\mapsto C/c$.
+
 ## Example
 
 If $C$ is a partially ordered set, then $Tw(C)$ is isomorphic to the set of nonempty [[interval|intervals]] $[a,b]=\{c\in C| a\leq c\leq \b\}$ with $a\leq b$ in C ordered by inclusion (cf. [Johnstone 1999](#JT99)).
