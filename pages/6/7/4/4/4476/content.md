@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,7 +16,9 @@
 
 ## Definition
 
-A **division algebra** is a possibly [[non-associative algebra]] $A$, typically over a field $k$, with the property that $a b = 0$ implies either $a = 0$ or $b = 0$ (or $a b \ne 0$ whenever $a, b \ne 0$).  If $A$ is finite-dimensional (over a [[field]]), this is equivalent to assuming that for any nonzero $a \in A$, the operations of left multiplication and right multiplication by $a$ are [[inverse|invertible]].  If furthermore $A$ is also [[associative unital algebra|associative and unital]], this is also equivalent to the existence, for each nonzero $a \in A$, of an element $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.   However, it is easy to construct *nonassociative* unital finite-dimensional algebras over $\mathbb{R}$ (the field of [[real numbers]]) such that either:
+A **division algebra** is a possibly [[non-associative algebra]] $A$, typically over a [[field]] $k$, with the property that for any $a,b \in A$ then $a b = 0$ implies either $a = 0$ or $b = 0$ (or $a b \ne 0$ whenever $a, b \ne 0$).  
+
+If $A$ is [[finite number|finite]]-[[dimension|dimensional]] (over a [[field]] $k$), this is equivalent to assuming that for any nonzero $a \in A$, the operations of left multiplication and right multiplication by $a$ are [[inverse|invertible]].  If furthermore $A$ is also [[associative unital algebra|associative and unital]], this is also equivalent to the existence, for each nonzero $a \in A$, of an element $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.   However, it is easy to construct *nonassociative* unital finite-dimensional algebras over $\mathbb{R}$ (the field of [[real numbers]]) such that either:
 
 * $A$ is not a division algebra but for each nonzero $a \in A$ there exists $a^{-1} \in A$ with $a a^{-1} = a^{-1} a = 1$.
 
