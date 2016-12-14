@@ -1,11 +1,12 @@
-# Uniformly regular spaces
 
+# Uniformly regular spaces
 * table of contents
 {: toc}
 
 ## Idea
 
 In [[classical mathematics]], every [[uniform space]] is a [[regular space]], and indeed a [[completely regular space]].  In [[constructive mathematics]], however, this fails to be true.  The notion of *uniformly regular* uniform space is an intermediate notion in between regularity and complete regularity for uniform spaces, which is frequently useful in the constructive theory of uniform spaces; classically every uniform space is uniformly regular.  (Indeed, some authors include uniform regularity in the constructive *definition* of a uniform space.)
+
 
 ## Definition
 
@@ -14,13 +15,14 @@ Let $X$ be a [[uniform space]].  When the uniformity of $X$ is defined in terms 
 * For every entourage $U$, there exists an entourage $V$ such that $\neg{V} \cup U = X \times X$, where $\neg{V}$ is the [[complement]] of $V$. That is,
   $$ \forall U,\; \exists V,\; \forall x, y,\; x \approx_U y \;\vee\; x \mathbin{&#8777;}_V y .$$
 
-With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is uniformly regular in classical mathematics.  Note that any uniformity induced by a [[gauge space|gauge]] is located (as long as the gauging distances take values in [[located real numbers]]).
+With [[excluded middle]], we can take $V$ to be $U$ itself, so every uniform structure is uniformly regular in classical mathematics.  Note that any uniformity induced by a [[gauge space|gauge]] is uniformly regular (as long as the gauging distances take values in [[located real numbers]] as is usually understood).
 
 When the uniformity of $X$ is defined in terms of uniform covers, then the equivalent condition is:
 
 *  If $C$ is a uniform cover, there exists a uniform cover $C'$ such that, for any two points $x, y$, either $x, y \in A$ for some $A \in C$ or $x, y \in B$ for no $B \in C'$.
 
 With [[excluded middle]], we can take $C'$ to be $C$.
+
 
 ## Examples
 
@@ -34,6 +36,7 @@ With [[excluded middle]], we can take $C'$ to be $C$.
 
 * Every [[completely regular space|completely regular]] uniform space should be uniformly regular, although the correct constructive definition of "completely regular" is not entirely clear.
 
+
 ### Compact spaces
 
 The examples above show that uniform regularity coincides with regularity for discrete uniform spaces and topological groups.  Another class of spaces for which this holds are compact ones.
@@ -42,6 +45,7 @@ The examples above show that uniform regularity coincides with regularity for di
 ###### Theorem
 Every [[compact space|compact]] [[regular space]] admits a unique compatible uniformity that is uniformly regular.
 =--
+
 +--{: .proof}
 ###### Proof
 Let $X$ be compact regular.  Since compactness and regularity are properties of the open-set lattice, $X$ is still compact regular when regarded as a locale, and hence also Hausdorff as a locale.  Moreover, it is locally compact, and hence the locale and spatial products $X\times X$ coincide.  Furthermore, $X\times X$ is also compact regular.
@@ -61,6 +65,7 @@ It remains to show that the uniform topology on $X$ is the original one.  Clearl
 Finally, we show this is the unique uniformity compatible with a compact regular topology.  Suppose $X$ is any compact regular uniform space, and $U$ any neighborhood of the diagonal; we want to show $U$ is an entourage.  For any $x\in X$, there is an entourage $V$ such that $V_x[x] \times V_x[x] \subseteq U$.  Let $W_x$ be an entourage such that $W_x \circ W_x \subseteq V_x$.  Since $X$ is compact, it is covered by finitely many of the neighborhoods $W_x[x]$, say $X = W_{x_1}[x_1] \cup \cdots\cup W_{x_k}[x_k]$.  Let $W = W_1 \cap \cdots \cap W_k$; we claim $W\subseteq U$.  For let $(y,z)\in W$; then we have $y\in W_{x_k}[x_k]$ for some $k$, whence also $z\in V_{x_k}[x_k]$, and thus $(y,z) \in V_{x_k}[x_k]\times V_{x_k}[x_k] \subseteq U$.
 =--
 
+
 ## Properties
 
 ### Regularity
@@ -69,18 +74,22 @@ Every uniformly regular uniform space is a [[regular topological space]] in its 
 
 It appears to be unknown whether there exist regular uniform spaces that are not uniformly regular.  Regularity implies uniform regularity for at least three large classes of uniform spaces: discrete ones, compact ones, and topological groups (plus, trivially, metric and gauge spaces, which are automatically uniformly regular).
 
+
 ### Apartness
 
 Recall that every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is uniformly regular, then this is an [[apartness relation]], i.e. it is also a [[comparison]].  For if $x \mathbin{&#8777;}_U z$, let $V \circ V \subseteq U$ and $\neg{W} \cup V = X \times X$.  Then for any $y$, we cannot have both $x \approx_V y$ and $y\approx_V z$, so we must have either $x \mathbin{&#8777;}_W y$ or $y \mathbin{&#8777;}_W z$, whence either $x # y$ or $y # z$.  (In fact, this is a special case of the fact that any [[regular space]] admits an apartness relation).
+
 
 ### Locatedness
 
 Uniform regularity has some nice consequences for the existence of (almost/uniformly) [[located subsets]]: see there for details.
 
+
 ## Related pages
 
 * [[uniform space]]
 * [[regular topological space]]
+
 
 category: topology
 
