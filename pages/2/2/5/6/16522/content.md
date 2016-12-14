@@ -1,9 +1,11 @@
 
 ## Related concepts
 
-* [[chemistry]]
+* [[chemistry]], [[chemical element]]
 
 * [[molecule]]
+
+* [[particle]]
 
 ## References
 
