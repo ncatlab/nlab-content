@@ -29,9 +29,11 @@ One might be tempted to recognize [[morphisms]] as in [[category theory]] in thi
 
 It is unlikely that any formalization of reaction processes in category theory will depend on the specific nature of the chemical elements, but more generally attempts include _stochastic Petri nets_ and _triangulated categories with stability conditions_:
 
-### Stochastic Petri nets
+### Stochastic Petri nets or Chemical reaction networks
 
-> Somebody should say how this works!
+Given a set $S$ of 'species', a **complex** of those species is a function $C : S \to \mathbb{N}$. A **reaction network** is a set of species together with a directed multigraph whose vertices are labelled by complexes of those species. Edges of the multigraph correspond to transitions.
+
+Any reaction network gives rise to a [[Petri net]], and _vice versa_. In either case, we can label each transition by a rate constant in $(0, \infty)$. This gives **stochastic** versions of the nets and networks.
 
 See [BaezNet](#BaezNet)
 
