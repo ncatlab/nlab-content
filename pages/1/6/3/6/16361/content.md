@@ -3,8 +3,10 @@ Chemistry is the branch of physical science that studies the composition, struct
 
 ##Definition
 As a [[category]], chemistry consists of:
-: **Atoms** and **Molecules** as [[object|objects]].
-: **Chemical Reactions** between **atoms** and **molecules** as [[morphism|morphisms]].
+
+* **Atoms** and **Molecules** as [[object|objects]].
+
+* **Chemical reactions** between **atoms** and **molecules** as [[morphism|morphisms]].
 
 ## Related $n$Lab entries
 
