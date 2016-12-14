@@ -19,7 +19,7 @@
 
 ## Idea
 
-In [[higher category theory]], there are several periodic tables, analogous to the periodic table of chemical elements. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of [[n-categories]].
+In [[higher category theory]], there are several periodic tables, analogous to the [[periodic table of chemical elements]]. Just as this table allowed &#1052;&#1077;&#1085;&#1076;&#1077;&#1083;&#1077;&#1077;&#1074; to [predict the existence of undiscovered elements](https://secure.wikimedia.org/wikipedia/en/wiki/Mendeleev%27s_predicted_elements) in the table\'s gaps, so these periodic tables sometimes inspire us to invent new varieties of [[n-categories]].
 
 
 ## History
