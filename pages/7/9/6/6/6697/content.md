@@ -39,7 +39,7 @@ where $\{x^0, x^1, x^2, \cdots, x^{d+1}\}$ denote the canonical [[coordinates]].
 
 ### Holography
 
-Asymptotically ant-de Sitter spaces play a central role in the realization of the [[holographic principle]] by [[AdS/CFT correspondence]].
+Asymptotically anti-de Sitter spaces play a central role in the realization of the [[holographic principle]] by [[AdS/CFT correspondence]].
 
 ## Related concepts
 
