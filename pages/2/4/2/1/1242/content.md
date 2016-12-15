@@ -20,6 +20,8 @@
 ## Definition
  {#Definition}
 
+An **exact sequence** may be defined in a [[semi-abelian category]], and more generally in a [[homological category]]. It is a sequence of objects and morphisms in which the [[cokernel]] of each morphism is equal to the [[kernel]] of the next morphism.
+
 ### Definition in additive categories
 Let $\mathcal{A}$ be an [[additive category]] (often assumed to be an [[abelian category]], for instance $\mathcal{A} = R$[[Mod]] for $R$ some [[ring]]).
 
