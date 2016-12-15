@@ -24,7 +24,7 @@
 In the context of [[cobordism theory]], a [[generalized cohomology theory]] [[Brown representability theorem|represented]] by a [[Thom spectrum]] is called a _cobordism cohomology theory_. (Dually, the corresponding [[generalized homology theory]] is called _[[bordism homology theory]]_.)
 
 By default "cobordism cohomology" usually refers to what is represented by [[MO]]. 
-The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by [[MR-theory]].
+The cohomology represented by [[MU]] is _[[complex cobordism cohomology]]_. Both are unified by the [[equivariant cohomology theory]] called [[MR-theory]]. The [[periodic cohomology theory]] version is denoted [[MP]].
 
 See at those entries for more.
 
@@ -37,6 +37,8 @@ See at those entries for more.
 * [[cobordism theory determining homology theory]]
 
 * [[MR-theory]]
+
+* [[MP-theory]]
 
 * [[equivariant complex cobordism cohomology theory]]
 
