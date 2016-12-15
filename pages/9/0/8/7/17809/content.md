@@ -51,7 +51,7 @@ positivity relations that enter the spinorial proof of the [[positive energy the
 Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on
 supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
-the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]], This indicates some
+the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)). This indicates some
 deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]])
 where these algebras, and their associated [[Hopf fibrations]],
 play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
@@ -62,7 +62,7 @@ play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectr
 </div>
 
 Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
-forming iterated invariant [[central extensions]], starting with the [[superpoint]]. This shows that
+forming iterated invariant [[central extensions]], starting with the [[superpoint]] ([J. Huerta](#MTheoryFromTheSuperpoint)). This shows that
 supersymmetry in the special sense of spacetime supersymmetry is mathematically singled out among all [[supergroups]].
 Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]]
 this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
@@ -73,17 +73,33 @@ it exists only in dimensions 3,4,5, and 6, where it turns out to form the local 
 appearing in the _[[AdS-CFT correspondence]]_.)
 
 
+$\,$
+
+$\,$
 
 
 #Supersymmetry#
 * table of contents
 {:toc}
 
-What defines and controls a [[super Poincaré Lie algebra]] and [[super Minkowski spacetime]] are
+What defines and controls spacetime supersymmetry in the form of the [[super Poincaré Lie algebra]] and [[super Minkowski spacetime]] are
 [[linear representations]] of [[spin group]] on _real_ vector spaces: [[real structure|real]] [[spin representations]],
 also called [[Majorana representations]]. These we discuss first in
 
-* [Real spin representations -- Majorana spinors](#RealSpinRepresentations).
+* _[Real spin representations -- Majorana spinors](#RealSpinRepresentations)_
+
+In special dimensions these real spin representations have a particularly elegant formulation in terms 
+of the real [[normed division algebras]]. This relation between [[real spin representations and division algebras]]
+we discuss in
+
+* _[Real spin representations via real normed division algebras](#RealSpinRepresentationViaNormedDivisionAlgebra)_.
+
+Using the properties of real [[spin representations]] thus established, it is then immediate to 
+construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]. This we discuss in
+
+* _[Spacetime supersymmetry](#Supersymmetry)_
+
+(...)
 
 
 ## Real spin representations -- Majorana spinors
@@ -2572,6 +2588,7 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 ## Real spin representations via real normed division algebras
+ {##RealSpinRepresentationViaNormedDivisionAlgebra}
 
 We discuss a close relation between _[[real spin representations and division algebras]]_, 
 due to [Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84) and others:
@@ -2855,7 +2872,7 @@ equipped with the [[inner product]] whose [[norm]]-square is the negative of the
 $$
   \mathbb{R}^{2 + dim_{\mathbb{R}}(\mathbb{K})-1,1}
     \;\simeq\;
-  \left(Mat_{2 \times 2}^{her}(\mathbb{K}), -det)
+  \left(Mat_{2 \times 2}^{her}(\mathbb{K}), -det \right)
   \,.
 $$
 
@@ -2865,13 +2882,15 @@ $$
   (x_0, x_1, \cdots, x_{d-1})
     \;\mapsto\;
   \left(
-    x_0 + x_1 & y
-    \\
-    y^\ast & x_0 - x_1
+    \array{
+      x_0 + x_1 & y
+      \\
+      y^\ast & x_0 - x_1
+    }
   \right)
   \;\;\;
-  \text{with}
-  y \coloneqq x_2 1 + x_3 e_1 + \cdots, + x_{2 + dim_{\mathbb{R}(\mathbb{K})}} e_{dim_{\mathbb{R}}(\mathbb{K})-1}
+  \text{with}\;
+  y \coloneqq x_2 1 + x_3 e_1 + x_4 e_2 +   \cdots + x_{2 + dim_{\mathbb{R}(\mathbb{K})}} \,e_{dim_{\mathbb{R}}(\mathbb{K})-1}
   \,.
 $$
 
@@ -2883,19 +2902,24 @@ $$
 This is immediate from the nature of the conjugation operation $(-)^\ast$ from def. \ref{Conjugation}:
 
 $$
-  -
-  det 
-  \left(
-    x_0 + x_1 & y
+  \begin{aligned}
+    -
+    det 
+    \left(
+      \array{
+        x_0 + x_1 & y
+        \\
+        y^\ast & x_0 - x_1
+      }
+    \right)
+    & =
+    -(x_0 + x_1)(x_0 - x_1)
+    +
+    y y^\ast
     \\
-    y^\ast & x_0 - x_1
-  \right)
-  =
-  -(x_0 + x_1)(x_0 - x_1)
-  +
-  y y^\ast
-  =
-  -(x_0)^2 + \underoverset{a = 1}{d-1}{\sum} (x_a)^2
+    & =
+    -(x_0)^2 + \underoverset{a = 1}{d-1}{\sum} (x_a)^2
+  \end{aligned}
   \,.
 $$
 
@@ -3447,7 +3471,12 @@ $$
 
 
 
-## Spacetime supersymmetry: Super-Poincar&#233; and super-Minkowski
+
+
+
+
+
+## Spacetime supersymmetry
  {#Supersymmetry}
 
 Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
@@ -3854,4 +3883,8 @@ A neat collection of background on the real [[normed division algebras]] themsel
 
 * {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html))
 
+
+The derivation of the process of higher invariant extensions that leads from the [[nLab:superpoint]] to [[nLab:11-dimensional supergravity]]:
+
+* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_
 
