@@ -76,7 +76,7 @@ Given a neighbourhood $U$ of $x$, there is a closed neighbourhood of $x$ that is
 In [[constructive mathematics]], Definition \ref{constructive} is good; then everything else follows without change, except for the equivalence with \ref{classical}.  Even then, the classical separation axioms hold for a regular space; they just are not sufficient.
 
 
-## Related notions
+## Variations
 
 Definition \ref{basis} suggests a slightly weaker condition, that of a __semiregular space__:
 +-- {: .un_defn}
@@ -95,8 +95,13 @@ It is immediate that $T_2 \equiv R_1 \wedge T_0$, and the proof above that $T_3 
 
 A bit stronger than regularity is _complete regularity_; a bit stronger than $T_3$ is $T_{3\frac{1}{2}}$.  The difference here is that we require that $a$ and $F$ be separated *by a function*, that is by a continuous real-valued function.  See [[Tychonoff space]] for more.
 
+For locales, there is also a weaker notion called [[weakly regular locale|weak regularity]], which uses the notion of [[fiberwise closed sublocale]] instead of ordinary closed [[sublocales]].
+
+## Related concepts
+
 A [[uniform space]] is automatically regular and even completely regular, at least in [[classical mathematics]].  In [[constructive mathematics]] this may not be true, and there is an intermediate notion of interest called [[uniform regularity]].
 
+Every regular space comes with a naturally defined (point-point) [[apartness relation]]: we say $x # y$ if there is an open set containing $x$ but not $y$.  This can be defined for any topological space and is obviously irreflexive, but in a regular space it is symmetric and a [[comparison]], hence an apartness.  For symmetry, if $x\in U$ and $y\notin U$, let $V$ be an open set containing $x$ and $G$ an open set such that $V\cap G = \emptyset$ and $G\cup U = X$; then $y\in G$ (since $y\notin U$) while $x\notin G$ (since $x\in V$).  With the same notation, to prove comparison, for any $z$ we have either $z\in G$, in which case $z # x$, or $z\in U$, in which case $z # y$.  Note that this argument is also valid constructively.
 
 [[!redirects regular space]]
 [[!redirects regular spaces]]
