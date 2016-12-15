@@ -242,6 +242,8 @@ By the discussion at [[(∞,1)-vector bundle]] this means that for each such map
 
 * [[equivariant Morava K-theory]]
 
+* [[2-periodic Morava K-theory]]
+
 * [[K-theory]], [[topological K-theory]], [[algebraic K-theory]]
 
 * [[chromatic homotopy theory]]
