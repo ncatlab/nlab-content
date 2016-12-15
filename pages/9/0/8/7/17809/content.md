@@ -88,13 +88,13 @@ also called [[Majorana representations]]. These we discuss first in
 
 * _[Real spin representations -- Majorana spinors](#RealSpinRepresentations)_
 
-In special dimensions these real spin representations have a particularly elegant formulation in terms 
+In special dimensions these real spin representations have a particularly elegant formulation in terms
 of the real [[normed division algebras]]. This relation between [[real spin representations and division algebras]]
 we discuss in
 
 * _[Real spin representations via real normed division algebras](#RealSpinRepresentationViaNormedDivisionAlgebra)_.
 
-Using the properties of real [[spin representations]] thus established, it is then immediate to 
+Using the properties of real [[spin representations]] thus established, it is then immediate to
 construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]. This we discuss in
 
 * _[Spacetime supersymmetry](#Supersymmetry)_
@@ -126,7 +126,7 @@ Then $\rho$ is called
 
   an element $\psi \in V$ is then called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
 
-* a_symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}).
+* a _symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}).
 
 
 =--
@@ -172,7 +172,7 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 
 
-We recall the basics of [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$, their [[Clifford algebras]] and [[spin groups]]. 
+We recall the basics of [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$, their [[Clifford algebras]] and [[spin groups]].
 
 
 +-- {: .num_defn #MinkowskiSpacetime}
@@ -186,7 +186,7 @@ $$
   \,.
 $$
 
-We write the standard [[coordinates]] on $\mathbb{R}^{d-1,1}$ 
+We write the standard [[coordinates]] on $\mathbb{R}^{d-1,1}$
 
 $$
   (x_0, x_1, x_2, \cdots, x_{d-1})
@@ -196,9 +196,9 @@ with $x_0$ the coordinate along the [[timelike]] direction: for $v = v^a x_a \in
 then
 
 $$
-  \eta(v,v) = -(v^0)^2 + \underoverset{i = 1}^{d-1}{\sum} (v^{i})^2
+  \eta(v,v) = -(v^0)^2 + \underoverset{i = 1}{d-1}{\sum} (v^{i})^2
   \,.
-$$ 
+$$
 
 =--
 
@@ -226,20 +226,20 @@ The elements in the Lorentz group in the image of the [[special orthogonal group
 
 One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $O(d-1,1)$:
 
-* the _[[proper Lorentz group]]_ 
+* the _[[proper Lorentz group]]_
 
   $$
     SO(d-1,1) \hookrightarrow O(d-1,1)
   $$
-  
+
   is the subgroup of elements which have [[determinant]] +1 (as elements  $SO(d-1,1)\hookrightarrow GL(d)$ of the [[general linear group]]);
 
-* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group 
+* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group
 
   $$
     SO^+(d-1,1) \hookrightarrow SO(d-1,1)
-  $$ 
-  
+  $$
+
   is the further [[subgroup]] of elements $A$ which preserve the time orientation of vectors $v$ in that
   $(v^0 \gt 0) \Rightarrow ((A v)^0 \gt 0)$.
 
@@ -249,7 +249,7 @@ One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $
 ###### Proposition
 
 As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup})
-has four [[connected components]]. The connected component of the identity is the the
+has four [[connected components]]. The connected component of the identity is the
 [[proper orthochronous Lorentz group]] $SO^+(3,1)$ (def. \ref{LorentzGroup}). The other three components are
 
 1. $SO^+(d-1,1)\cdot P$
@@ -285,9 +285,9 @@ is point reflection in spacetime.
 
 
 
-The following concept of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) of [[Minkowski spacetime]] 
+The following concept of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) of [[Minkowski spacetime]]
 encodes the structure of the [[inner product space]] $\mathbb{R}^{d-1,1}$
-in terms of algebraic operation ("[[geometric algebra]]"), such that the action of the 
+in terms of algebraic operation ("[[geometric algebra]]"), such that the action of the
 [[Lorentz group]] becomes represented by a [[conjugation action]] (example \ref{CliffordConjugtionReflectionAndRotation}).
 In particular this means that every element of the proper orthochronous Lorentz group may be "split in half"
 to yields a [[double cover]], the [[spin group]] (def. \ref{SpinGroup}).
@@ -496,7 +496,7 @@ induce them:
 
 1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
 
-1. the cnjugation action by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the
+1. the [[conjugation action]] by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the
    conjugation action by $-\exp(\tfrac{\alpha}{4}\Gamma_{a b})$.
 
 =--
@@ -549,7 +549,7 @@ is
    $$
      Spin(d-1,1) \longrightarrow SO^+(d-1,1)
    $$
-   
+
    (where we are identifying Minkowski spacetime as the subspace of the [[Clifford algebra]]
 containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
 
@@ -664,7 +664,7 @@ $$
 
 of $V$ with the [[complexification]] of a real vector space $V_+$, namely the [[eigenspace]] of $\phi$ for [[eigenvalue]] +1, while $V_- \coloneqq i V_+$ is the eigenspace of eigenvalue -1.
 
-A quaternionic structure, def. \ref{RealStructure}, o $V$ gives it the structure of a left [[module]] 
+A quaternionic structure, def. \ref{RealStructure}, on $V$ gives it the structure of a left [[module]]
 over the [[quaternions]] (def. \ref{TheQuaternions}) extending the underlying structure of a module over the complex numbers. Namely let
 
 1. $I \coloneqq i(-) \colon V \to V$ be the operation of acting with $i \in \mathbb{C}$
@@ -823,8 +823,8 @@ We will be discussing three different pairing operations on complex column vecto
 
 * $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this is the [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
 
-* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ 
-  (for $C$ the [[charge conjugation matrix]], def. \ref{ChargeConjugationMatrix} below),  
+* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_
+  (for $C$ the [[charge conjugation matrix]], def. \ref{ChargeConjugationMatrix} below),
   this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
 
 
@@ -866,7 +866,7 @@ $$
   \mathbb{C}
 $$
 
-is a [[hermitian form]] (def. \ref{HermitianForms}) with respect to which the resulting representation 
+is a [[hermitian form]] (def. \ref{HermitianForms}) with respect to which the resulting representation
 of the [[spin group]] (def. \ref{SpinGroup}) is [[unitary representation|unitary]]:
 
 $$
@@ -1062,17 +1062,17 @@ $$
   \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
 $$
 
-acts $Spin(d-1,1)$-invariantly on the representation space of 
-the Dirac $Spin(d-1,1)$-representation for even $d$. 
+acts $Spin(d-1,1)$-invariantly on the representation space of
+the Dirac $Spin(d-1,1)$-representation for even $d$.
 
-Moreover, since $\Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}$ squares to $\pm 1$, there is a choice of complex prefactor $c$ such that 
+Moreover, since $\Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}$ squares to $\pm 1$, there is a choice of complex prefactor $c$ such that
 
 
 $$
   \Gamma_{d+1} \coloneqq c \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
 $$
 
-squares to +1. This is called the **chirality operator**. 
+squares to +1. This is called the **chirality operator**.
 
 (The notation $\Gamma_{d+1}$ for this operator originates from times when only $d = 4$ was considered. Clearly this notation has its pitfalls when various $d$ are considered, but nevertheless it is commonly used this way e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
 
@@ -1082,7 +1082,7 @@ $$
   V = V_+ \oplus V_-
 $$
 
-of the [[eigenspaces]] $V_{\pm}$ of the chirality operator, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). 
+of the [[eigenspaces]] $V_{\pm}$ of the chirality operator, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively).
 
 =--
 
@@ -1614,8 +1614,8 @@ $$
 which in turn is equivalent to the condition that
 
 $$
-  (\psi,-) 
-    = 
+  (\psi,-)
+    =
   \langle \psi,-\rangle
   \,,
 $$
@@ -2600,12 +2600,12 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 ## Real spin representations via real normed division algebras
  {##RealSpinRepresentationViaNormedDivisionAlgebra}
 
-We discuss a close relation between _[[real spin representations and division algebras]]_, 
+We discuss a close relation between _[[real spin representations and division algebras]]_,
 due to [Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84) and others:
 The real spinor representations in dimensions $3,4,6, 10$ happen to have a particularly simple expression in terms of
-[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. 
+[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$.
 Derived from this also the real spinor representations in dimensions $4,5,7,11$ have a fairly simple corresponding expression.
-We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Baez-Huerta 10](#BaezHuerta10). 
+We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Baez-Huerta 10](#BaezHuerta10).
 
 
 
@@ -2819,7 +2819,7 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
      A = A^\dagger
      \,;
    $$
-   
+
    write $Mat_{2 \times 2}^{her}(\mathbb{K})$ for the [[real vector space]] of hermitian matrices,
 
 
@@ -2859,7 +2859,7 @@ Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition
 
-There is a [[isomorphism]] (of real [[inner product spaces]]) between [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) 
+There is a [[isomorphism]] (of real [[inner product spaces]]) between [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime})
 of dimension
 
 $$
@@ -2914,7 +2914,7 @@ This is immediate from the nature of the conjugation operation $(-)^\ast$ from d
 $$
   \begin{aligned}
     -
-    det 
+    det
     \left(
       \array{
         x_0 + x_1 & y
@@ -3016,7 +3016,7 @@ $$
 +-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
 ###### Proposition
 
-The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]] 
+The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]]
 (def. \ref{CliffordAlgebra}) of
 
 1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
@@ -3045,8 +3045,8 @@ Under restriction along $Spin(d-1,1) \hookrightarrow Cl(d-1,1)$ this is isomorph
 +-- {: .num_remark}
 ###### Remark
 
-Prop. \ref{SpinorRepsByNormedDivisionAlgebra} says that the 
-isomorphism of prop. \ref{SpacetimeAsMatrices} is that given by forming 
+Prop. \ref{SpinorRepsByNormedDivisionAlgebra} says that the
+isomorphism of prop. \ref{SpacetimeAsMatrices} is that given by forming
 generalized [[Pauli matrices]]. In standard physics notation these matrices
 are written as
 
