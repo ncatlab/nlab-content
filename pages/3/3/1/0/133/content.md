@@ -113,9 +113,6 @@ Finally, one can instead adopt the *negation* of the axiom of choice, or a stren
 
 * Any of the varieties of [[constructive mathematics]] that contradict excluded middle necessarily contradict choice, but they are usually (if not always) consistent with DC (and even COSHEP).
 
-
-
-
 ### In higher category theory
 
 To formulate a version of the axiom of choice in a higher category, one has to make an appropriate choice of the meaning of "epimorphism".  In most cases, it is best to choose [[effective epimorphisms|effective epimorphism in an (infinity,1)-category]] or a related notion such as [[eso morphisms]].
@@ -159,7 +156,7 @@ There are also "internal" versions of these axioms.
 
   (Here, UF, DC, CC, BP, and LM are as defined above.)
 
-* The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. 
+* The [Consequences of the Axiom of Choice Project](http://consequences.emich.edu/conseq.htm) provides an interactive data base that can be used to search for implications between various (weakened) forms of the Axiom of Choice. [Choiceless grapher](http://cgraph.inters.co/) builds on this data and provides a graphical presentation.
 
 * Gon&#231;alo Gutierres da Concei&#231;&#227;o, _The Axiom of Countable Choice in Topology_, [pdf](http://www.mat.uc.pt/~ggutc/teses/teseingles.pdf)
 
