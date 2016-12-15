@@ -17,7 +17,7 @@
 
 ## Definition
 
-An _even 2-periodic cohomology theory_ or just _periodic cohomology theory_ for short is an [[even cohomology theory|even]] [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ with a [[Bott element]] $\beta \in E^2({*})$ which is invertible (under multiplication in the [[cohomology ring]] of the point) so that multiplication by it induces an [[isomorphism]] 
+An (even) _2-periodic cohomology theory_ or just _periodic cohomology theory_ for short is an ([[even cohomology theory|even]]) [[multiplicative cohomology theory|multiplicative]] [[cohomology theory]] $E$ with a [[Bott element]] $\beta \in E^2({*})$ which is invertible (under multiplication in the [[cohomology ring]] of the point) so that multiplication by it induces an [[isomorphism]] 
 
 $$
   (-)\cdot \beta : E^*({*}) \simeq E^{*+2}({*})
@@ -44,6 +44,11 @@ $$
 
 This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mathbb{Z}$ [[∞-action]] on the [[(∞,1)-category of (∞,1)-modules]] $E Mod$ ([MO discussion](http://mathoverflow.net/q/46399/381)).
 
+## Examples
+
+* [[KU]]
+
+* [[MP]]
 
 
 ## Related entries
