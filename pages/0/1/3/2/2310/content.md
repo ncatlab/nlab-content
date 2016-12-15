@@ -50,6 +50,10 @@ This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mat
 
 * [[MP]]
 
+* [[elliptic cohmology]]
+
+* [[Morava E-theory]]
+
 
 ## Related entries
 
