@@ -111,7 +111,7 @@ We will discuss the following concept, the ingredients of which we explain in th
 ###### Definition
 
 For $d \in \mathbb{N}$, write $Spin(d-1,1)$ for the [[spin group]] (def. \ref{SpinGroup})
-[[double cover]] (prop. \ref{SpinDoubleCover}) of the special [[Lorentz group]] (def. \ref{LorentzGroup}),
+[[double cover]] (prop. \ref{SpinDoubleCover}) of the [[proper orthochronous Lorentz group]] (def. \ref{LorentzGroup}),
 let
 
 $$
@@ -632,7 +632,7 @@ obtain these from [[unitary representations]] on [[complex vector spaces]] by eq
 In any case this is the approach used in much of the (physics) literature (with the [[real structure]] usually
 not made explicit but phrased in terms of [[Majorana spinor|Majorana]] conditions).
 
-Hencce for reference, we here recollect basics of [[unitary representations]] equipped with [[real structure]].
+Hence for reference, we here recollect basics of [[unitary representations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -647,7 +647,7 @@ $$
 
 such that
 
-1. $\phi$ is conjugate linear ($\phi(\lambda v) = \overline{\lambda} \phi(v)$ for all $\lambda \in \mathbb{C}$, $v \in V$);
+1. $\phi$ is conjugate linear, in that $\phi(\lambda v) = \overline{\lambda} \phi(v)$ for all $\lambda \in \mathbb{C}$, $v \in V$;
 
 1. $\phi^2 = \left\{ \array{ +id & \text{for real structure} \\ -id & \text{for quaternionic structure} }  \right.$
 
@@ -664,7 +664,8 @@ $$
 
 of $V$ with the [[complexification]] of a real vector space $V_+$, namely the [[eigenspace]] of $\phi$ for [[eigenvalue]] +1, while $V_- \coloneqq i V_+$ is the eigenspace of eigenvalue -1.
 
-A quaternionic structure, def. \ref{RealStructure}, o $V$ gives it the structure of a left [[module]] over the [[quaternions]] extending the underlying structure of a module over the complex numbers. Namely let
+A quaternionic structure, def. \ref{RealStructure}, o $V$ gives it the structure of a left [[module]] 
+over the [[quaternions]] (def. \ref{TheQuaternions}) extending the underlying structure of a module over the complex numbers. Namely let
 
 1. $I \coloneqq i(-) \colon V \to V$ be the operation of acting with $i \in \mathbb{C}$
 
@@ -818,11 +819,13 @@ In the following we use standard notation for operations on [[matrices]] with en
 
 We will be discussing three different pairing operations on complex column vectors $\psi_1, \psi_2 \in \mathbb{C}^\nu$:
 
-* $\psi_1^\dagger \psi_2$ -- the standard [[hermitian form]] on $\mathbb{C}^\nu$, this will play a purely auxiliary role.
+* $\psi_1^\dagger \psi_2$ -- the standard [[hermitian form]] on $\mathbb{C}^\nu$, this will play a purely auxiliary role;
 
-* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this will be the alternative [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
+* $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this is the [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
 
-* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ (for $C$ the [[charge conjugation matrix]]), this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
+* $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ 
+  (for $C$ the [[charge conjugation matrix]], def. \ref{ChargeConjugationMatrix} below),  
+  this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
 
 
 The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{d-1,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
@@ -863,12 +866,18 @@ $$
   \mathbb{C}
 $$
 
-is a [[hermitian form]] (def. \ref{HermitianForms}) with respect to which the resulting representation of the [[spin group]] $\exp(\omega^{a b} \Gamma_{a b})$ is [[unitary representation|unitary]]:
+is a [[hermitian form]] (def. \ref{HermitianForms}) with respect to which the resulting representation 
+of the [[spin group]] (def. \ref{SpinGroup}) is [[unitary representation|unitary]]:
 
 $$
-  \Gamma_0^{-1} \exp(\omega^{a b} \Gamma_{a b})^{\dagger} \Gamma_0
-  =
-  \exp(\omega^{a b} \Gamma_{a b})^{-1}
+  \begin{aligned}
+    \Gamma_0^{-1} \exp(\omega^{a b} \Gamma_{a b})^{\dagger} \Gamma_0
+    & =
+    \exp(-\omega^{a b} \Gamma_{a b })
+    \\
+    & =
+    \exp(\omega^{a b} \Gamma_{a b})^{-1}
+  \end{aligned}
   \,.
 $$
 
@@ -1053,32 +1062,30 @@ $$
   \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
 $$
 
-acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]]
+acts $Spin(d-1,1)$-invariantly on the representation space of 
+the Dirac $Spin(d-1,1)$-representation for even $d$. 
+
+Moreover, since $\Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}$ squares to $\pm 1$, there is a choice of complex prefactor $c$ such that 
+
+
+$$
+  \Gamma_{d+1} \coloneqq c \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
+$$
+
+squares to +1. This is called the **chirality operator**. 
+
+(The notation $\Gamma_{d+1}$ for this operator originates from times when only $d = 4$ was considered. Clearly this notation has its pitfalls when various $d$ are considered, but nevertheless it is commonly used this way e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
+
+Therefore this representation decomposes as a [[direct sum]]
 
 $$
   V = V_+ \oplus V_-
 $$
 
-of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm i$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
-
-Analogously, since in odd dimensions there is no further decomposition, the Dirac representation for odd $d$ is also called a Weyl representation.
+of the [[eigenspaces]] $V_{\pm}$ of the chirality operator, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). 
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-Beware that in the context of def. \ref{WeylRepresentation}, the chirality operator $\Gamma_{d}$ is traditionally denoted $\Gamma_{d+1}$, i.e.
-
-* $\{\Gamma_0,\cdots,\Gamma_{d-1}\}$ -- Clifford algebra for $Spin(d-1,1)$;
-
-* $\Gamma_{d+1}$ -- Chirality operator.
-
-This is partiularly common for $d= 4$, in which case the physics literaure usually refers to the chirality operator as "the $\Gamma_5$-matrix".
-
-Clearly this notational convention has its pitfalls once one considers spinors in various dimensions. Nevertheless, even then the convention is often still followed (e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
-
-=--
 
 +-- {: .num_defn #DiracConjugate}
 ###### Definition
@@ -1130,12 +1137,13 @@ $$
   \,.
 $$
 
-All the Clifford generators from prop. \ref{CliffordAlgebraRepresentation} are Dirac self-conjugate in that
+All the representations of the Clifford generators from prop. \ref{CliffordAlgebraRepresentation} are Dirac self-conjugate in that
 
 $$
   \overline{\Gamma}_a = \Gamma_a
-  \,.
 $$
+
+saying that this [[Dirac representation]] respects the canonical [[antihomomorphism]] from def. \ref{CliffordAlgebra}.
 
 =--
 
@@ -1530,7 +1538,7 @@ $$
   \langle J(-),(-)\rangle
 $$
 
-induced from the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
+induced via the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
 
 $$
   (-,-)
@@ -1574,7 +1582,7 @@ $$
   \;\colon\;
   Mat_{\nu \times 1}(\mathbb{C})
     \longrightarrow
-  Mat(1 \times \nu)(\mathbb{C})
+  Mat_{1 \times \nu}(\mathbb{C})
 $$
 
 (from complex column vectors to complex row vectors) which is given by transposition followed by [[matrix multiplication]] from the right by the [[charge conjugation matrix]] according to prop. \ref{MajoranaConjugationIsRealStructure} is called the
@@ -1606,7 +1614,9 @@ $$
 which in turn is equivalent to the condition that
 
 $$
-  (\psi,-) = \langle \psi,-\rangle
+  (\psi,-) 
+    = 
+  \langle \psi,-\rangle
   \,,
 $$
 
@@ -1617,7 +1627,7 @@ where on the left we have the complex bilinear form of prop. \ref{ComplexBilinea
 +-- {: .proof}
 ###### Proof
 
-The first statement is immediate. The second follows by applying transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
+The first statement is immediate. The second follows by applying the transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
 
 =--
 
@@ -1647,7 +1657,7 @@ In the even dimensions among those dimensions $d$ for which the Majorana project
 +-- {: .num_prop #WeylMajoranaInLorentzian10d}
 ###### Proposition
 
-In Lorentzian signature (def. \ref{LorentzianSignature}) for $4 \leq d \leq 11$, then Majorana-Weyl spinors (def. \ref{WeylMajorana}) exist precisely only in $d = 10$.
+In Lorentzian signature for $4 \leq d \leq 11$, then Majorana-Weyl spinors (def. \ref{WeylMajorana}) exist precisely only in $d = 10$.
 
 =--
 
@@ -1721,7 +1731,7 @@ $$
   S \hookrightarrow V
 $$
 
-for the subspace of Majorana spinors, regarded as a real vector space.
+for the subspace of Majorana spinors, regarded as a [[real vector space]].
 
 Recall, by prop. \ref{TheMajoranaConditionInComponents}, that on Majorana spinors the Majorana conjugate $(-)^T C$ coincides with the Dirac conjugate $\overline{(-)} \coloneqq (-)^\dagger \Gamma_0 $. Therefore we write $\overline{(-)}$ in the following for the conjugation of Majorana spinors, unambiguously defined.
 
@@ -1849,7 +1859,7 @@ where we used that $\Gamma_0^{-1}(-)^\dagger \Gamma_0$ is the adjoint with respe
 +-- {: .num_remark #SuperPoincareOutlook}
 ###### Remark
 
-Proposition \ref{SpinorToVectorPairing} implies that adding a copy of $S$ to the [[Poincaré Lie algebra]] in odd degree, then the pairing of def. \ref{SpinorToVectorBilinearPairing} is a consistent extension of the [[Lie bracket]] of the latter to a [[super Lie algebra]]. This is the _[[super Poincaré Lie algebra]]_.
+Proposition \ref{SpinorToVectorPairing} implies that adding a copy of $S$ to the [[Poincaré Lie algebra]] in odd degree, then the pairing of def. \ref{SpinorToVectorBilinearPairing} is a consistent extension of the [[Lie bracket]] of the latter to a [[super Lie algebra]]. This is the _[[super Poincaré Lie algebra]]_, to which we come [below](#Supersymmetry).
 
 =--
 
@@ -2014,7 +2024,7 @@ $$
 ### Example: Majorana spinors in dimensions 11, 10, and 9
  {#InDimensions11And10And9}
 
-We spell out some of the above constructions and properties for Majorana spinors in Lorentzian spacetimes (def. \ref{LorentzianSignature}) of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
+We spell out some of the above constructions and properties for Majorana spinors in [[Minkowski spacetimes]] of dimensions 11, 10 and 9, and discuss some relations between these. These spinor structures are relevant for spinors in [[11-dimensional supergravity]] and [[type II supergravity]] in 10d and 9d, as well as to the relation between these via [[Kaluza-Klein compactification]] and [[T-duality]].
 
 +-- {: .num_prop #DiracRepInD11FromD9}
 ###### Proposition
@@ -2844,7 +2854,7 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 ### Real spinors in dimensions 3,4,6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
-Thoughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
+Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition
@@ -3573,7 +3583,7 @@ $$
 $$
 
 $$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\overline{\psi} \Gamma^a \psi
 $$
 
 $$
@@ -3590,7 +3600,7 @@ $$
 $$
 
 $$
-  d_{W} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2}\bar \psi \Gamma^a \psi + t^a
+  d_{W} \, e^{a } = \omega^a{}_b \wedge e^b + \frac{i}{2} \overline{\psi} \Gamma^a \psi + t^a
 $$
 
 $$
@@ -3626,7 +3636,7 @@ This is [[∞-Lie algebroid valued differential form]] data with [[curvature|∞
 
 * [[curvature]] forms / [[field strength]]s
 
-  * $T = d E + \Omega \cdot E + \Gamma(\bar \Psi \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{d-1,1})$ - the **[[torsion of a metric connection|torsion]]**
+  * $T = d E + \Omega \cdot E + \Gamma(\overline{\Psi} \wedge \Psi) \in \Omega^2(X,\mathbb{R}^{d-1,1})$ - the **[[torsion of a metric connection|torsion]]**
 
   * $R = d \Omega + [\Omega \wedge \Omega] \in \Omega^2(X, \mathfrak{so}(10,1))$ - the **[[Riemann curvature]]**
 
@@ -3649,7 +3659,7 @@ $$
 $$
 
 $$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \bar \psi \Gamma^a \psi
+  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
 $$
 
 $$
@@ -3694,10 +3704,10 @@ $$
 +-- {: .num_remark #Supertorsion}
 ###### Remark
 
-The term $\bar \psi \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
+The term $\overline{\psi} \Gamma^a \psi$ is sometimes called the *[[supertorsion]]* of the [[super-vielbein]] $e$, because the defining equation
 
 $$
-  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \bar \psi \Gamma^a \psi
+  d_{CE} e^{a } -\omega^a{}_b \wedge e^b = \overline{\psi} \Gamma^a \psi
 $$
 
 may be read as saying that $e$ is [[torsion]]-free except for that term. Notice that this term is the only one that appears when the differential is applied to "Lorentz scalars", hence to object in $CE(\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N}))$ which have "all indices contracted". See also at _[[torsion constraints in supergravity]]_.
