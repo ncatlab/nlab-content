@@ -43,6 +43,8 @@ A [[category]] $C$ is **semi-abelian** if it
 
 * is [[protomodular category|protomodular]].
 
+In other words, it is a [[homological category]] which is [[Barr-exact]] and has finite [[coproducts]].
+
 
 Equivalently, $C$ is semi-abelian if:
 
