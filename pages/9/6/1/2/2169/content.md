@@ -30,9 +30,9 @@ It turns out that over the [[real numbers]] there are precisely only four normed
 
 In this sense real normed division algebras may be thought of as a natural generalization of the more familiar real and complex numbers. 
 
-Moreover, if one regards the real numbers as a [[star-algebra]], then each stepin this sequence is given by applying the [[Cayley-Dickson construction]]. Applied to the [[octonions]] it yields the [[sedenions]], which however are no longer a [[division algebra]].
+Moreover, if one regards the real numbers as a [[star-algebra]], then each step in this sequence is given by applying the [[Cayley-Dickson construction]]. Applied to the [[octonions]] it yields the [[sedenions]], which however are no longer a [[division algebra]].
 
-This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]: 
+This classification turns out to closely connect to various other systems of [[universal exceptionalism|exceptional]] structures in [[mathematics]] and [[physics]]: 
 
 * The _[[Hopf invariant one theorem]]_ says that the only [[continuous functions]] between [[spheres]] of the form $S^{2n-1}\to S^n$ whose [[Hopf invariant]] is equal to 1 are the [[Hopf constructions]] on the four real normed division algebras, namely 
 
@@ -44,9 +44,9 @@ This classification turns out to closely connect to various other systems of exc
 
    1. the [[octonionic Hopf fibration]].
 
-* Patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of _[[supersymmetry]]_in the form of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
+* Patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of _[[supersymmetry]]_ in the form of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
 
-(Moreover, apparently these two items are not unrelated, see [[schreiber:Equivariant cohomology of M2/M5-branes|here]]).
+(Moreover, apparently these two items are not unrelated, see [[schreiber:Equivariant cohomology of M2/M5-branes|here]].)
 
 
 ## Definition
@@ -115,6 +115,10 @@ The [[Hopf invariant one theorem]] says that the [[spheres]] carrying [[H-space]
 <img src="http://ncatlab.org/nlab/files/AdamsHopfInvariantProofFlow.jpg" width="700">
 
 ([Adams 60](Hopf+invariant+one#Adams60))
+
+### Magic square 
+
+The [[Freudenthal magic square]] is a special square array of [[Lie algebras]]/[[Lie groups]] labeled by pairs of real normed division algebras and including all the [[exceptional Lie groups]] except [[G2]].
  
 ## Related concepts
 
