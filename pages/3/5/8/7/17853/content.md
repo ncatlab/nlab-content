@@ -77,7 +77,7 @@ It appears to be unknown whether there exist regular uniform spaces that are not
 
 ### Apartness
 
-Recall that every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is uniformly regular, then this is an [[apartness relation]], i.e. it is also a [[comparison]].  For if $x \mathbin{&#8777;}_U z$, let $V \circ V \subseteq U$ and $\neg{W} \cup V = X \times X$.  Then for any $y$, we cannot have both $x \approx_V y$ and $y\approx_V z$, so we must have either $x \mathbin{&#8777;}_W y$ or $y \mathbin{&#8777;}_W z$, whence either $x # y$ or $y # z$.  (In fact, this is a special case of the fact that any [[regular space]] admits an apartness relation).
+Recall that every uniform space $X$ has a [[inequality relation]] (an [[irreflexive]] [[symmetric relation]]) where "$x # y$" means that there exists an entourage $U$ such that $x \mathbin{&#8777;}_U y$.  If $X$ is uniformly regular, then this is an [[apartness relation]], i.e. it is also a [[comparison]].  For if $x \mathbin{&#8777;}_U z$, let $V \circ V \subseteq U$ and $\neg{W} \cup V = X \times X$.  Then for any $y$, we cannot have both $x \approx_V y$ and $y\approx_V z$, so we must have either $x \mathbin{&#8777;}_W y$ or $y \mathbin{&#8777;}_W z$, whence either $x # y$ or $y # z$.  (In fact, this is a special case of the fact that any [[regular space]] admits an apartness relation, discussed at [[regular space]]).
 
 
 ### Locatedness
