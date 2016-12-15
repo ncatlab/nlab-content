@@ -115,6 +115,8 @@ Then $\rho$ is called
 
 =--
 
+We discuss this now components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
+
 
 Below we work out the following:
 
@@ -154,28 +156,48 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 
 
-We briefly recall the basics of [[Clifford algebra]] and [[spin groups]]. We streamline the discussion by restricting attention
-to [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$ throughout, instead of considering more general [[inner product spaces]].
+We recall the basics of [[Minkowski spacetimes]] $\mathbb{R}^{d-1,1}$, their [[Clifford algebras]] and [[spin groups]]. 
+
+
++-- {: .num_defn #MinkowskiSpacetime}
+###### Definition
+
+For $d \in \mathbb{N}$, we write $\mathbb{R}^{d-1,1}$ for the [[real vector space]] $\mathbb{R}^{d}$ equipped with the
+[[quadratic form]] $\eta$ of [[signature of a quadratic form|signature]]
+
+$$
+  \eta = diag(+1, \cdots, +1, - 1)
+  \,.
+$$
+
+We write the standard [[coordinates]] on $\mathbb{R}^{d-1,1}$ 
+
+$$
+  (x_0, x_1, x_2, \cdots, x_{d-1})
+$$
+
+with $x_0$ the coordinate along the [[timelike]] direction: for $v = v^a x_a \in \mathbb{R}^{d-1,1}$ any [[vector]],
+then
+
+$$
+  \eta(v,v) = -(v^0)^2 + \underoverset{i = 1}^{d-1}{\sum} (v^{i})^2
+  \,.
+$$ 
+
+=--
+
 
 +-- {: .num_defn #LorentzGroup}
 ###### Definition
 
-For $d \in \mathbb{N}$, write $\mathbb{R}^{d-1,1}$ for the [[vector space]] $\mathbb{R}^d$
-over the [[real numbers]], equipped with the [[quadratic form]] represented by the
-symmetric [[matrix]]
+For $d \in \mathbb{N}$, write
 
 $$
-  \eta \coloneqq diag(-1,+1,+1, \cdots , +1)
-  \,.
+  O(d-1,1)  \hookrightarrow GL(\mathbb{R}^d)
 $$
 
-Write
-
-$$
-  O(d-1,1) \hookrightarrow GL(\mathbb{R}^d)
-$$
-
-for the [[subgroup]] of the [[general linear group]] on those [[linear maps]] $A$ which preserve this bilinear form, in that
+for the [[subgroup]] of the [[general linear group]] on those [[linear maps]] $A$ which preserve this bilinear form
+on [[Minkowski spacetime]] (def \ref{MinkowskiSpacetime}), in that
 
 $$
   \eta(A(-),A(-)) = \eta(-,-)
@@ -188,10 +210,22 @@ The elements in the Lorentz group in the image of the [[special orthogonal group
 
 One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $O(d-1,1)$:
 
-* the _[[proper Lorentz group]]_ $SO(d-1,1)$ is the subgroup of elements which have [[determinant]] +1 (as elements  $SO(d-1,1)\hookrightarrow GL(d)$ of the [[general linear group]]);
+* the _[[proper Lorentz group]]_ 
 
-* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group $SO^+(d-1,1) \hookrightarrow SO(d-1,1)$ is the further [[subgroup]] of elements which do not act by [[reflection]] along the [[timelike]] axis.
+  $$
+    SO(d-1,1) \hookrightarrow O(d-1,1)
+  $$
+  
+  is the subgroup of elements which have [[determinant]] +1 (as elements  $SO(d-1,1)\hookrightarrow GL(d)$ of the [[general linear group]]);
 
+* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group 
+
+  $$
+    SO^+(d-1,1) \hookrightarrow SO(d-1,1)
+  $$ 
+  
+  is the further [[subgroup]] of elements $A$ which preserve the time orientation of vectors $v$ in that
+  $(v^0 \gt 0) \Rightarrow ((A v)^0 \gt 0)$.
 
 =--
 
@@ -208,13 +242,13 @@ has four [[connected components]]. The connected component of the identity is th
 
 1. $SO^+(d-1,1)\cdot P T$,
 
-where, as [[matrices]]
+where, as [[matrices]],
 
 $$
   P \coloneqq diag(1,-1,-1, \cdots, -1)
 $$
 
-is the operation of point reflection at the origin in space,  where
+is the operation of point reflection at the origin in space, where
 
 $$
   T \coloneqq diag(-1,1,1, \cdots, 1)
@@ -235,8 +269,12 @@ is point reflection in spacetime.
 
 
 
-
-
+The following concept of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) of [[Minkowski spacetime]] 
+encodes the structure of the [[inner product space]] $\mathbb{R}^{d-1,1}$
+in terms of algebraic operation ("[[geometric algebra]]"), such that the action of the 
+[[Lorentz group]] becomes represented by a [[conjugation action]] (example \ref{CliffordConjugtionReflectionAndRotation}).
+In particular this means that every element of the proper orthochronous Lorentz group may be "split in half"
+to yields a [[double cover]], the [[spin group]] (def. \ref{SpinGroup}).
 
 
 
@@ -257,10 +295,17 @@ $$
   \Gamma_{a} \Gamma_b + \Gamma_b \Gamma_a = - 2\eta_{a b}
 $$
 
-where
+where $\eta$ is the [[inner product]] of [[Minkowski spacetime]] as in def. \ref{MinkowskiSpacetime}.
+
+These relations say equivalently that
 
 $$
-  \eta \coloneqq diag(-1,+1,+1, \cdots, +1 )
+  \Gamma_0^2 = +1
+  \;\;\,,\;\;
+  \Gamma_i^2 = -1 \;\; \text{for} i \in \{1,\cdots, d-1\}
+$$
+$$
+  \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for} a \neq b
   \,.
 $$
 
@@ -274,8 +319,20 @@ $$
 $$
 
 for the antisymmetrized product of $p$ Clifford generators.
+In particular, if all the $a_i$ are pairwise distinct, then this is simply the plain product of generators
 
-Write
+$$
+  \Gamma_{a_1 \cdots a_n}
+  =
+  \Gamma_{a_1} \cdots \Gamma_{a_n}
+  \;\;\;
+  \text{if}
+  \;
+  \underset{i,j}{\forall} (a_i \neq a_j)
+  \,.
+$$
+
+Finally, write
 
 $$
   \overline{(-)}
@@ -306,8 +363,8 @@ $$
 ###### Remark
 
 By construction, the [[vector space]] of [[linear combinations]] of the generators
-in a [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is canonically identified
-with $\mathbb{R}^{d-1,1}$
+in a [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) is canonically identified
+with [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ (def. \ref{MinkowskiSpacetime})
 
 $$
   \widehat{(-)}
@@ -321,9 +378,10 @@ via
 
 $$
   x_a \mapsto \Gamma_a
+  \,,
 $$
 
-for $\{x_a\}$ the canonical [[basis]] of $\mathbb{R}^d$, hence via
+hence via
 
 $$
   v = v^a x_x \mapsto \hat v = v^a \Gamma_a
@@ -331,7 +389,7 @@ $$
 $$
 
 such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with
-the anti-commutator in the Clifford algebra
+the [[anti-commutator]] in the Clifford algebra
 
 $$
   \eta(v_1,v_2) = -\tfrac{1}{2}( \hat v_1 \hat v_2 + \hat v_2 \hat v_1)
@@ -343,12 +401,13 @@ where on the right we are, in turn, identifying $\mathbb{R}$ with the linear spa
 =--
 
 The key point of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is that it realizes
-spacetime [[reflections]], [[rotations]] and [[boosts]] by [[conjugation actions]]:
+spacetime [[reflections]], [[rotations]] and [[boosts]] via [[conjugation actions]]:
 
 +-- {: .num_example #CliffordConjugtionReflectionAndRotation}
 ###### Example
 
-Let $v \in \mathbb{R}^{d-1}$, regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
+For $d \in \mathbb{N}$ and $\mathbb{R}^{d-1,1}$ the [[Minkowski spacetime]] of def. \ref{MinkowskiSpacetime},
+let $v \in \mathbb{R}^{d-1}$ be any [[vector]], regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
 
 Then
 
@@ -368,6 +427,8 @@ Then
 
 +-- {: .proof}
 ###### Proof
+
+This is immediate by inspection:
 
 For the first statement observe that conjugating the Clifford generator $\Gamma_b$ with $\Gamma_a$
 yields $\Gamma_b$ up to a sign, depending on whether $a = b$ or not:
@@ -408,7 +469,6 @@ $$
 
 is the rotation action as claimed.
 
-
 =--
 
 +-- {: .num_remark #AmbiguityInCliffordConjugation}
@@ -431,13 +491,13 @@ induce them:
 
 For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
 even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
-which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{BarConjugationOnCliffordAlgebra})
+which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{BarConjugationOnCliffordAlgebra}):
 
 $$
   Spin(d-1,1)
    \;\coloneqq\;
   \left\{
-    A \in Cl(\mathbb{R}^{d-1,1})
+    A \in Cl(\mathbb{R}^{d-1,1})_{even}
     \;\vert\;
     \overline{A} A = 1
   \right\}
@@ -454,7 +514,7 @@ The [[function]]
 $$
   Spin(d-1,1)
     \longrightarrow
-  GL(d)
+  End(Cl(\mathbb{R}^{d-1,1}))
 $$
 
 from the [[spin group]] (def. \ref{SpinGroup}) to the [[general linear group]] in $d$-dimensions
@@ -462,12 +522,9 @@ given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to t
 [[conjugation action]]
 
 $$
-  v \mapsto \overline{A} v A
+  \overline{A}(-) A
   \,,
 $$
-
-(where on the right we are identifying Minkowski spacetime as the subspace of the [[Clifford algebra]]
-containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
 
 is
 
@@ -476,6 +533,9 @@ is
    $$
      Spin(d-1,1) \longrightarrow SO^+(d-1,1)
    $$
+   
+   (where we are identifying Minkowski spacetime as the subspace of the [[Clifford algebra]]
+containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
 
 1. exhibiting a $\mathbb{Z}/2$-[[central extension]].
 
@@ -484,7 +544,10 @@ is
 +-- {: .proof}
 ###### Proof
 
-That the function lands in the [[Lorentz group]] $O(d-1,1)$ follows from remark \ref{VectorsInsideCliffordAlgebra}:
+That the function is a group homomorphism into the [[general linear group]], hence that it acts by [[linear transformations]]
+on the generators follows by using that it clearly lands in [[automorphisms]] of the Clifford algebra.
+
+That the function lands in the [[Lorentz group]] $O(d-1,1) \hookrightarrow GL(d)$ follows from remark \ref{VectorsInsideCliffordAlgebra}:
 
 $$
   \begin{aligned}
@@ -512,10 +575,11 @@ $$
   \,.
 $$
 
-That it moreover lands in the [[proper orthochronous Lorentz group]] $SO(d-1,1)$ follows from
+That it moreover lands in the [[proper Lorentz group]] $SO(d-1,1)$ follows from
 observing (example \ref{CliffordConjugtionReflectionAndRotation}) that every reflection is given by the [[conjugation action]] by
 a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
 (as that is defined to be in the even subalgebra).
+
 
 To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
 are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
@@ -709,7 +773,6 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 
 (e.g. [Meinrenken 13, p. 81](Majorana+spinor#Meinrenken13))
 
-We now work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
 
 
 
@@ -718,7 +781,14 @@ We now work out in detail what def. \ref{MajoranaSpinorGeneral} comes down to in
 
 
 
-### Conventions and Notation
+
+
+
+
+
+
+### Dirac and Weyl representations
+ {#DiracAndWeylRepresentations}
 
 In the following we use standard notation for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
 
@@ -738,107 +808,6 @@ We will be discussing three different pairing operations on complex column vecto
 
 * $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_ (for $C$ the [[charge conjugation matrix]]), this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
 
-Then we use the following conventions on spacetime signature and the correspondig [[Clifford algebra]]:
-
-+-- {: .num_defn #MinkowskiSpacetime}
-###### Definition
-
-We write $\mathbb{R}^{s,t}$ for the real [[vector space]] $\mathbb{R}^{s+t}$ of [[dimension]] $d = s + t$ equipped with the standard [[quadratic form]] $q$ of [[signature of a quadratic form|signature]] $(t,s)$ ("time", "space"), i.e.
-
-$$
-  q(\vec x)
-    \coloneqq
-  (x^1)^2
-    +
-    \cdots
-    +
-  (x^s)^2
-    -
-  (x^{s+1})^2
-    -
-   \cdots
-  -
-  (x^{s+t})^2
-  \,.
-$$
-
-Hence the corresponding [[metric]] is
-
-$$
-  \eta = (\eta_{a b}) \coloneqq diag(\underset{t}{\underbrace{+1 , \cdots, +1}}, \underset{s}{\underbrace{-1, \cdots, -1}})
-  \,.
-$$
-
-The real [[Clifford algebra]] $Cl(s,t)$ associated with this [[inner product space]] is the $\mathbb{R}$-[[associative algebra|algebra]] [[generators and relations|generated]] from elements $\{\Gamma_a\}_{0 = 1}^{s+t-1}$ subject to the [[generators and relations|relation]]
-
-$$
-  \Gamma_a \Gamma_b + \Gamma_b \Gamma_a = 2 \eta_{a b}
-  \;\;\;\;
-  \forall a,b \in \{0,1,\cdots, t+s-1\}
-  \,.
-$$
-
-For $n$-[[tuples]] $(a_i)_{i = 1}^n$ of indices we write
-
-$$
-  \Gamma_{a_1 \cdots a_n}
-  \coloneqq
-  \Gamma_{[a_1}
-    \cdots
-  \Gamma_{a_2]}
-   \coloneqq
-  \frac{1}{n!} \underset{\sigma}{\sum}
-   (-1)^{\vert \sigma\vert}
-  \Gamma_{a_{\sigma_1}}
-   \cdots
-  \Gamma_{a_{\sigma_n}}
-$$
-
-for the skew-symmetrized product of Clifford generators with these indices. In partcular if all the $a_i$ are pairwise distinct, then this is simply the plain product of generators
-
-$$
-  \Gamma_{a_1 \cdots a_n}
-  =
-  \Gamma_{a_1} \cdots \Gamma_{a_n}
-  \;\;\;
-  \text{if}
-  \;
-  \underset{i,j}{\forall} (a_i \neq a_j)
-  \,.
-$$
-
-=--
-
-Indices are raised with $\eta^{-1} = (\eta^{a b})$ (which of course as a [[matrix]] coincides with $(\eta_{a b})$)
-
-$$
-  \Gamma^a \coloneqq \eta^{a b} \Gamma_b
-$$
-
-+-- {: .num_defn #LorentzianSignature}
-###### Definition
-
-The case $t = 1$ is that of **Lorentzian signature**.
-
-In this case the single [[timelike]] Clifford genrator is $\Gamma_0$ and the remaining spatial Clifford generators are $\Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}$. So then
-
-* $\Gamma^0 = \Gamma_0$ and $\Gamma_0^2 = + 1$;
-
-* $\Gamma^a = - \Gamma_a$ and $\Gamma_a^2 = -1$ for $a \in \{1,\cdots, d-1\}$.
-
-=--
-
-
-
-
-
-
-
-
-
-
-### Dirac and Weyl representations
- {#DiracAndWeylRepresentations}
 
 The following is a standard convention for the complex representation of the Clifford algebra for $\mathbb{R}^{d-1,1}$ ([Castellani-D'Auria-Fr&#233;, (II.7.1)](#CastellaniDAuriaFre)):
 
@@ -856,7 +825,7 @@ $$
   \,.
 $$
 
-Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
+Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) on the [[complex vector space]]
 
 $$
   V \coloneqq \mathbb{C}^{\nu}
@@ -864,9 +833,9 @@ $$
 
 such that
 
-1. $\Gamma_{0}$ is [[hermitian]]
+1. $\Gamma_{0}$ is [[hermitian]]: $\Gamma_0^\dagger = \Gamma_0$;
 
-1. $\Gamma_{spatial}$ is [[anti-hermitian]].
+1. $\Gamma_{spatial}$ is [[anti-hermitian]]: $(\Gamma_{spatial})^\dagger = - \Gamma_{spatial}$.
 
 Moreover, the pairing
 
@@ -1244,6 +1213,8 @@ $$
 
 
 
+
+
 ### Charge conjugation matrix
  {#ChargeConjugationMatrix}
 
@@ -1302,6 +1273,7 @@ $$
 $$
 
 =--
+
 
 
 
@@ -1645,6 +1617,7 @@ The first statement is immediate. The second follows by applying transpose to th
 
 
 
+
 ### Majorana-Weyl spinors
 
 
@@ -1695,6 +1668,10 @@ By prop. \ref{RealStructureAntiCommutesWithSingleCliffordGenerator} all the $\Ga
 This is the case for $d = 10 = 2 \cdot 5$, but not for $d = 8 = 2 \cdot 4$ neither for $d = 4 = 2 \cdot 2$.
 
 =--
+
+
+
+
 
 
 
@@ -2592,11 +2569,16 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 
 
 
+
+
 ## Real spin representations via real normed division algebras
 
-
-The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of
-[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
+We discuss a close relation between _[[real spin representations and division algebras]]_, 
+due to [Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84) and others:
+The real spinor representations in dimensions $3,4,6, 10$ happen to have a particularly simple expression in terms of
+[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. 
+Derived from this also the real spinor representations in dimensions $4,5,7,11$ have a fairly simple corresponding expression.
+We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Baez-Huerta 10](#BaezHuerta10). 
 
 
 
@@ -2612,9 +2594,9 @@ The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have 
 +-- {: .num_defn #TheComplexNumbers}
 ###### Definition
 
-The _[[complex numbers]]_ $\mathbb{C}$ is the [[commutative algebra]] over the [[real numbers]] $\mathbb{R}$ which is [[generators and relations|generated]] from one generators $\{e\}$ subject to the [[generators and relations|relation]]
+The _[[complex numbers]]_ $\mathbb{C}$ is the [[commutative algebra]] over the [[real numbers]] $\mathbb{R}$ which is [[generators and relations|generated]] from one generators $\{e_1\}$ subject to the [[generators and relations|relation]]
 
-* $e^2 = -1$.
+* $(e_1)^2 = -1$.
 
 =--
 
@@ -2629,7 +2611,7 @@ The _[[quaternions]]_ $\mathbb{H}$ is the [[associative algebra]] over the [[rea
 
 1. for all $i$
 
-   $e_i^2 = -1$
+   $(e_i)^2 = -1$
 
 1. for $(i,j,k)$ a cyclic [[permutation]] of $(1,2,3)$ then
 
@@ -2655,7 +2637,7 @@ The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[re
 
 1. for all $i$
 
-   $e_i^2 = -1$
+   $(e_i)^2 = -1$
 
 1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) then
 
@@ -2673,17 +2655,17 @@ We define the following operations on these real algebras:
 +-- {: .num_defn #Conjugation}
 ###### Definition
 
-For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, let 
+For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, let
 
 $$
-  (-)^\ast 
+  (-)^\ast
     \;\colon\;
   \mathbb{K}
     \longrightarrow
   \mathbb{K}
 $$
 
-be the [[antihomomorphism]] of real algebras 
+be the [[antihomomorphism]] of real algebras
 
 $$
   (r a)^\ast = r a^\ast \;\;\;\;\,, \text{for}\;\; r \in \mathbb{R}, a \in \mathbb{K}
@@ -2692,7 +2674,7 @@ $$
   (a b)^\ast = b^\ast a^\ast\;\;\;\;\;\;\,,\text{for}\;\; a,b \in \mathbb{K}
 $$
 
-given on the generators generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} 
+given on the generators generators of def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions}
 and def. \ref{TheOctonions}  by
 
 $$
@@ -2755,7 +2737,7 @@ $$
   \,.
 $$
 
-This norm operation clearly satisfies the following properties (for all $a,b \in \mathbb{K}$) 
+This norm operation clearly satisfies the following properties (for all $a,b \in \mathbb{K}$)
 
 1. $\vert a \vert \geq 0$;
 
@@ -2780,7 +2762,7 @@ Hence the conjugation operation makes $\mathbb{K}$ a real [[normed division alge
 ###### Proposition
 **([[Hurwitz theorem]])**
 
-The four algebras of [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$, 
+The four algebras of [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$,
 [[quaternions]] $\mathbb{H}$ and [[octonions]] $\mathbb{O}$
 from def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions} respectively,
 which are real [[normed division algebras]] via def. \ref{Conjugation},
@@ -2797,27 +2779,29 @@ To that end, fix the following notation and terminology:
 
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
-1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] equals the [[complex conjugation|conjugated]] (def. \ref{Conjugation}) matrix: 
+1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] equals the [[complex conjugation|conjugated]] (def. \ref{Conjugation}) matrix:
 
    $$
      A^t = A^\ast
      \,.
    $$
-   
+
    Hence with $(-)^\dagger \coloneqq ((-)^t)^\ast$ then $A$ is a [[hermitian matrix]] precisely if
-   
+
    $$
      A = A^\dagger
-     \,.
+     \,;
    $$
+   
+   write $Mat_{2 \times 2}^{her}(\mathbb{K})$ for the [[real vector space]] of hermitian matrices,
 
 
-1. write 
+1. write
 
    $$
       \tilde A \coloneqq A - (tr A) 1_{n\times n}
-   $$ 
-   
+   $$
+
    for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
 
 =--
@@ -2843,27 +2827,19 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 ### Real spinors in dimensions 3,4,6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
-Let $\mathbb{K}$ be one of the four real [[normed division algebras]]. sprin
+Thoughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
-
-+-- {: .num_prop #DeterminantGivesMinkowskiMetric}
++-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition
 
-The real vector space $V$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} equipped with the [[inner product]] $\eta(-,-)$ given by the [[determinant]] (which on hermitian $\mathbb{K}$-matrices is necessarily [[real part|real]])
+There is a [[isomorphism]] (of real [[inner product spaces]]) between [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) 
+of dimension
 
 $$
-  \eta(A,A) \coloneqq det(A) \in \mathbb{R}
-  \,,
+  d = 2 + dim_{\mathbb{R}}(\mathbb{K})
 $$
 
-and whose mixed components are
-
-$$
-  \eta(A,B) = \tfrac{1}{2}Re(tr(A \tilde B)) = \tfrac{1}{2} Re(tr(\tilde A B))
-$$
-
-
-is [[Minkowski spacetime]]:
+hence
 
 1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
 
@@ -2873,45 +2849,98 @@ is [[Minkowski spacetime]]:
 
 1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
 
+and the [[real vector space]] of $2 \times 2$ [[hermitian matrices]] over $\mathbb{K}$ (def. \ref{MatrixNotation})
+equipped with the [[inner product]] whose [[norm]]-square is the negative of the [[determinant]] operation on matrices:
+
+$$
+  \mathbb{R}^{2 + dim_{\mathbb{R}}(\mathbb{K})-1,1}
+    \;\simeq\;
+  \left(Mat_{2 \times 2}^{her}(\mathbb{K}), -det)
+  \,.
+$$
+
+As a [[linear map]] this is given by
+
+$$
+  (x_0, x_1, \cdots, x_{d-1})
+    \;\mapsto\;
+  \left(
+    x_0 + x_1 & y
+    \\
+    y^\ast & x_0 - x_1
+  \right)
+  \;\;\;
+  \text{with}
+  y \coloneqq x_2 1 + x_3 e_1 + \cdots, + x_{2 + dim_{\mathbb{R}(\mathbb{K})}} e_{dim_{\mathbb{R}}(\mathbb{K})-1}
+  \,.
+$$
 
 =--
 
-(e.g. [Baez-Huerta 09, prop. 5](#BaezHuerta09))
++-- {: .proof}
+###### Proof
 
-Proof:
-
-The $\mathbb{R}$-vector space of  hermitian matrices may equivalently be parameterized by
-
-$$
-  (t,x, y) \in \mathbb{R}^2 \times \mathbb{R}
-$$
-
-by
+This is immediate from the nature of the conjugation operation $(-)^\ast$ from def. \ref{Conjugation}:
 
 $$
+  -
+  det 
   \left(
-    \array{
-      t-x & y
-      \\
-      y^\ast & t + x
-    }
+    x_0 + x_1 & y
+    \\
+    y^\ast & x_0 - x_1
   \right)
+  =
+  -(x_0 + x_1)(x_0 - x_1)
+  +
+  y y^\ast
+  =
+  -(x_0)^2 + \underoverset{a = 1}{d-1}{\sum} (x_a)^2
+  \,.
 $$
+
+=--
+
+This makes manifest the exceptional isomorphisms of [[spin groups]] in these dimensions:
+
+[[!include exceptional spinors and division algebras -- table]]
+
+
++-- {: .num_remark #DeterminantViaProductWithTraceReversal}
+###### Remark
+
+In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{MatrixNotation},
+the determinant operation on hermitian matrices has the alternative expression
+
+$$
+  -det(A) = A \tilde A = \tilde A A
+  \,.
+$$
+
+and the Minkowski inner product has the alternative expression
+
+$$
+  \eta(A,B) = \tfrac{1}{2}Re(tr(A \tilde B)) = \tfrac{1}{2} Re(tr(\tilde A B))
+  \,.
+$$
+
+=--
+
+([Baez-Huerta 09, prop. 5](#BaezHuerta09))
+
 
 
 
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
 ###### Definition
 
-Write $V \coloneqq Mat^{hermitian}_{2\times 2}(\mathbb{K})$ for the [[real vector space]] of 2x2 [[hermitian matrices]] over $\mathbb{K}$,
-according to def. \ref{MatrixNotation}.
 Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
 
 $$
-  \Gamma \;\colon\; V\longrightarrow End(S_+ \oplus S_-)
+  \Gamma \;\colon\; \mathbb{R}^{d-1,1} \simeq Mat_{2\times 2}^{her}(\mathbb{K}) \longrightarrow End(S_+ \oplus S_-)
 $$
 
-by
+(where on the left we are using the isomorphism from prop. \ref{SpacetimeAsMatrices}) by
 
 $$
   \Gamma(A)
@@ -2923,6 +2952,27 @@ $$
         A & 0
      }
   \right)
+$$
+
+i.e.
+
+$$
+  \Gamma(A)
+  \left(
+    \array{
+      \psi
+      \\
+      \phi
+    }
+  \right)
+  =
+  \left(
+    \array{
+      \tilde A \phi
+      \\
+      A \psi
+    }
+  \right)
   \,.
 $$
 
@@ -2932,7 +2982,8 @@ $$
 +-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
 ###### Proposition
 
-The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]] of
+The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]] 
+(def. \ref{CliffordAlgebra}) of
 
 1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
 
@@ -2942,7 +2993,7 @@ The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} giv
 
 1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
 
-Under restriction along $Spin(n+1,1) \hookrightarrow Cl(n+1,1)$ this is isomorphic to
+Under restriction along $Spin(d-1,1) \hookrightarrow Cl(d-1,1)$ this is isomorphic to
 
 1. for $\mathbb{K} = \mathbb{R}$ the Majorana representation of $Spin(2,1)$ on $S_+ \simeq S_-$;
 
@@ -2954,10 +3005,24 @@ Under restriction along $Spin(n+1,1) \hookrightarrow Cl(n+1,1)$ this is isomorph
 
 =--
 
-(e.g. [Baez-Huerta 09, p. 6](#BaezHuerta09))
+([Baez-Huerta 09, p. 6](#BaezHuerta09))
 
-[[!include exceptional spinors and division algebras -- table]]
 
++-- {: .num_remark}
+###### Remark
+
+Prop. \ref{SpinorRepsByNormedDivisionAlgebra} says that the 
+isomorphism of prop. \ref{SpacetimeAsMatrices} is that given by forming 
+generalized [[Pauli matrices]]. In standard physics notation these matrices
+are written as
+
+$$
+  \Gamma(x^a) = (\gamma^a_{\alpha \dot \alpha})
+  \,.
+$$
+
+
+=--
 
 +-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
 ###### Proposition
