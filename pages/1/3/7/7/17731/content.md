@@ -393,40 +393,38 @@ This means that the exponent of $\exp(\omega^{a b} \Gamma_a \Gamma_b)$ is an [[a
 ###### Definition
 (**Weyl representation**)
 
-Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element 
+Since by prop. \ref{CliffordAlgebraRepresentation} the Dirac representations in dimensions $d = 2\nu$ and $d+1 = 2\nu+1$ have the same underlying complex vector space, the element
 
 $$
   \Gamma_{d}
     \propto
   \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
-$$ 
+$$
 
-acts $Spin(d-1,1)$-invariantly on the representation space of the Dirac $Spin(d-1,1)$-representation. Therefore this representation decomposes as a [[direct sum]] 
+acts $Spin(d-1,1)$-invariantly on the representation space of 
+the Dirac $Spin(d-1,1)$-representation for even $d$. 
+
+Moreover, since $\Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}$ squares to $\pm 1$, there is a choice of complex prefactor $c$ such that 
+
+
+$$
+  \Gamma_{d+1} \coloneqq c \Gamma_0 \Gamma_1 \cdots \Gamma_{d-1}
+$$
+
+squares to +1. This is called the **chirality operator**. 
+
+(The notation $\Gamma_{d+1}$ for this operator originates from times when only $d = 4$ was considered. Clearly this notation has its pitfalls when various $d$ are considered, but nevertheless it is commonly used this way e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
+
+Therefore this representation decomposes as a [[direct sum]]
 
 $$
   V = V_+ \oplus V_-
 $$
 
-of the [[eigenspaces]] $V_{\pm}$ of $\Gamma_d$ of [[eigenvalue]] $\pm i$, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). The operator $\Gamma_d$ then is called the **chirality operator**.
-
-Analogously, since in odd dimensions there is no further decomposition, the Dirac representation for odd $d$ is also called a Weyl representation.
+of the [[eigenspaces]] $V_{\pm}$ of the chirality operator, respectively. These $V_{\pm}$ are called the two **[[Weyl representations]]** of $Spin(d-1,1)$. An element of these is called a **chiral spinor** ("left handed", "right handed", respectively). 
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-Beware that in the context of def. \ref{WeylRepresentation}, the chirality operator $\Gamma_{d}$ is traditionally denoted $\Gamma_{d+1}$, i.e. 
-
-* $\{\Gamma_0,\cdots,\Gamma_{d-1}\}$ -- Clifford algebra for $Spin(d-1,1)$;
-
-* $\Gamma_{d+1}$ -- Chirality operator.
-
-This is partiularly common for $d= 4$, in which case the physics literaure usually refers to the chirality operator as "the $\Gamma_5$-matrix".
-
-Clearly this notational convention has its pitfalls once one considers spinors in various dimensions. Nevertheless, even then the convention is often still followed (e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
-
-=--
 
 +-- {: .num_defn #DiracConjugate}
 ###### Definition
@@ -858,7 +856,7 @@ $$
   \langle J(-),(-)\rangle
 $$
 
-induced from the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
+induced via the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
 
 $$
   (-,-)
@@ -902,7 +900,7 @@ $$
   \;\colon\;
   Mat_{\nu \times 1}(\mathbb{C})
     \longrightarrow
-  Mat(1 \times \nu)(\mathbb{C}) 
+  Mat_{1 \times \nu}(\mathbb{C}) 
 $$
 
 (from complex column vectors to complex row vectors) which is given by transposition followed by [[matrix multiplication]] from the right by the [[charge conjugation matrix]] according to prop. \ref{MajoranaConjugationIsRealStructure} is called the
@@ -945,7 +943,7 @@ where on the left we have the complex bilinear form of prop. \ref{ComplexBilinea
 +-- {: .proof}
 ###### Proof
 
-The first statement is immediate. The second follows by applying transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
+The first statement is immediate. The second follows by applying the transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
 
 =--
 
