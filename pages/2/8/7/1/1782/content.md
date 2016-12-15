@@ -67,7 +67,7 @@ See at
 
 ### Quillen Q-construction (for exact categories)
 
-Given an [[exact category]] $E$, one defines $K(E)$ by applying
+Given an [[Quillen exact category]] $E$, one defines $K(E)$ by applying
 
 * the [[Quillen Q-construction]] $Q(E)$,
 * the [[group completion]] $\Omega B Q(E)$.
