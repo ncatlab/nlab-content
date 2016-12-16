@@ -293,6 +293,8 @@ Mathematical Society 72 (1966), 619&#8211; 655.
 * [[John Isbell]], _Normal completions of categories_, Reports of the
 Midwest Category Seminar, vol. 47, Springer, 1967, 110&#8211;155.
 
+* [[Richard Garner]], _The Isbell monad_ , Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
+
 * [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_,
 Fundamenta Informaticae 103 (2010), 203&#8211;218.
 
