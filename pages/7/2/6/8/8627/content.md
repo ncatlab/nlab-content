@@ -29,7 +29,7 @@ The _coherence theorem for [[symmetric monoidal categories]]_, like many [[coher
 
 1. Every symmetric monoidal category is equivalent to an [[unbiased symmetric monoidal category]].
 
-1. The forgetful 2-functor $SymStrMonCat \to SymMonCat$ has a strict [[left adjoint]] and the components of the counit are equivalences in $SymMonCat$.
+1. The forgetful 2-functor $SymStrMonCat \to SymMonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $SymMonCat$.
 
 Note that in a symmetric strict monoidal category, the associators and unitors are identities, but the symmetry is not in general.
 
