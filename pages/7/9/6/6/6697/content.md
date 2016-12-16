@@ -17,19 +17,19 @@
 * table of contents
 {: toc}
 
+
+
 ## Definition
 
-Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d + 1$ is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the [[submanifold]] of the [[Minkowski spacetime]] $\mathbb{R}^{d+1,1}$ that solves the equation
+Up to [[isometry]], the **anti de Sitter spacetime** of [[dimension]] $d$, $AdS_d$, is the [[pseudo-Riemannian manifold]] whose underlying [[manifold]] is the [[submanifold]] of the [[Minkowski spacetime]] $\mathbb{R}^{d,1}$ that solves the equation
 
 $$
-  \sum_{i = 1}^{d+1} (x^i)^2 - (x^{0})^2 = -r^2
+  \sum_{i = 1}^{d-1} (x_i)^2 - (x_d)^ 2 - (x_0)^2 = -R^2
 $$
 
-for some $r \neq 0$ (the "radius" of the spacetime) and equipped with the metric induced from the ambient metric.
+for some $R \neq 0$ (the "radius" of the spacetime) and equipped with the metric induced from the ambient metric, where $\{x^0, x^1, x^2, \cdots, x^d\}$ denote the canonical [[coordinates]]. $AdS_d$ is [[homeomorphic]] to $\mathbb{R}^{d-1} \times S^1$, and its isometry group is $O(d-1, 2)$.
 
-
-where $\{x^0, x^1, x^2, \cdots, x^{d+1}\}$ denote the canonical [[coordinates]].
-
+More generally, one may define the anti de Sitter space of signature $(p,q)$ as isometrically embedded in the space $\mathbb{R}^{p,q+1}$ with coordinates $(x_1, ..., x_p, t_1, \ldots, t_{q+1})$ as the sphere $\sum_{i=1}^p x_i^2 - \sum_{j=1}^{q+1} t_j^2 = -R^2$.
 
 ## Properties
 
