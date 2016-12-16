@@ -44,6 +44,11 @@ $$
 
 This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mathbb{Z}$ [[∞-action]] on the [[(∞,1)-category of (∞,1)-modules]] $E Mod$ ([MO discussion](http://mathoverflow.net/q/46399/381)).
 
+### Landweber exact functor theorem
+
+There is an analogue of the [[Landweber exact functor theorem]] for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Hovey-Strickland 99, theorem 2.8](#HoveyStrickland99), [Lurie lecture 18, prop. 11](#LurieLect18)).
+
+
 ## Examples
 
 * [[KU]]
@@ -65,9 +70,19 @@ This equivalence ought to be [[coherence|coherent]] to yield a $\mathbb{Z}/2\mat
 
 ## References
 
-Lecture notes include
+The concept of even 2-periodic multiplicative cohomology theories originates with
+
+* {#AndoHopkinsStrickland} [[Matthew Ando]], [[Michael Hopkins]], [[Neil Strickland]], _Elliptic spectra, the Witten genus, and the theorem of the cube_, Inventiones Mathematicae, 146:595&#8211;687, 2001, DOI 10.1007/s002220100175
+
+The analogue of the [[Landweber exact functor theorem]] for even 2-periodic cohomology is discussed in
+
+* {#HoveyStrickland99} [[Mark Hovey]], [[Neil Strickland]], theorem 2.8 of _Morava K-theories and localisation_ Mem. Amer. Math. Soc., 139(666):viii+100, 1999.
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
+
+See also 
+
+* [[Akhil Mathew]], Lennart Meier, section 2.1 of _Affineness and chromatic homotopy theory_, J. Topol. 8 (2015), no. 2, 476--528 ([arXiv:1311.0514](https://arxiv.org/abs/1311.0514))
 
 [[!redirects periodic cohomology theories]]
 
