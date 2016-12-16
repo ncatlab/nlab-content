@@ -179,7 +179,7 @@ $$
 $$
 
 is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta_i\}_{i = 1}^q$
-(now rgarded as being in odd degree), subject to the relations
+(now regarded as being in odd degree), subject to the relations
 
 $$
   \theta_i \theta_j = - \theta_j \theta_i
