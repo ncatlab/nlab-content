@@ -72,7 +72,7 @@ The [[hypercompletion]] of the [[(∞,1)-sheaf (∞,1)-topos]] over $Diff$ is a 
 For the first statement, use that by the _comparison lemma_ discussed at [[dense sub-site]] we have an [[equivalence of categories]]
 
 $$
-  Sh(Diff) \simeq Sh(CatSp_{smooth})
+  Sh(Diff) \simeq Sh(CartSp_{smooth})
   \,.
 $$
 
