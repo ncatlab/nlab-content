@@ -98,7 +98,12 @@ Under the term _categories of cohesion_ these axioms are discussed in
 
 Another definition of gros vs petit toposes and remarks on applications in [[Galois theory]] is in
 
-* Nick Duncan, _Gros and petit toposes_ ([pdf](http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
+* Nick Duncan, _Gros and petit toposes_ ([pdf]
+(http://www.cheng.staff.shef.ac.uk/pssl88/pssl88-duncan.pdf))
+
+and yet another one is in 
+
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_, chapter 20 "Fractured $\infty$-Topoi" ([pdf](http://www.math.harvard.edu/~lurie/papers/SAG-rootfile.pdf))
 
 There is also something relevant in this article:
 
