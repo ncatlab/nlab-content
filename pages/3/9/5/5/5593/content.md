@@ -22,7 +22,7 @@ Similarly, if $E,F\in Op(X\times X)$, we write $E\circ F$ for the image of $\pi_
 
 ### Covering uniformities
 
-A **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
+An [open] **[[open cover|cover]]** of a locale $X$ is a collection $C \subseteq Op(X)$ of open parts of $X$ whose [[join]] is $X$.  For covers $C_i$, we define:
 
 * $C_1$ **refines** $C_2$, written $C_1 \prec C_2$, if every element of $C_1$ is $\le$ in some element of $C_2$.
 
@@ -52,11 +52,11 @@ The last condition is the one saying that "the induced topology is again the top
 
 ### Entourage uniformities
 
-An **entourage uniformity** on a locale $X$ consists of a collection of open parts $E\in Op(X\times X)$, called *entourages*, such that:
+An **entourage uniformity** on a locale $X$ consists of a collection of open parts $E\in Op(X\times X)$, called [open] *[[entourages]]*, such that:
 
 1. There exists an entourage (in light of axiom 4 below, it follows that $X\times X$ is an entourage)
 
-2. For any entourage $E$, there exists an entourage $F$ such that $F\circ F \subseteq E$, and an entourage $G$ such that $G\subseteq E^{-1}$.  (In light of axiom 4 below, it follows that $E^{-1}$ is itself an entourage.)  Note that $F\circ F$ is in general only a sublocale, but we can still ask it to be contained in $E$.
+2. For any entourage $E$, there exists an entourage $F$ such that $F\circ F \subseteq E$, and an entourage $G$ such that $G\subseteq E^{-1}$.  (In light of axiom 4 below, it follows that $E^{-1}$ is itself an entourage.)  Note that $F\circ F$ is in general only a sublocale (not necessarily open), but we can still ask it to be contained in the open sublocale $E$.
 
 3. If $E$ and $F$ are entourages, then so is some open part contained in $E\cap F$ (in light of axiom 4 below, it follows that $E\cap F$ is itself an entourage)
 
