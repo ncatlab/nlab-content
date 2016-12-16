@@ -30,6 +30,9 @@ The _Landweber exact functor theorem_ ([Landweber 76](#Landweber76)) says that, 
 
 By the [[Brown representability theorem]] this defines a [[spectrum]] and the spectra arising this way are called _Landweber exact spectra_. ([e.g. Lurie lect 17, p.2](#Lurie17)).
 
+There is an analogue of the statement also for [[even cohomology theory|even]] 2-[[periodic cohomology theories]], with [[MU]] replaced by [[MP]] ([Lurie lecture 18, prop. 11](#LurieLect18)).
+
+
 ## Statement
 
 By evaluation on $X = B U(1)$, every [[multiplicative cohomology theory|multiplicative]] [[complex oriented cohomology theory]] $E$ gives rise to a [[formal group]] over the [[graded ring]] $\pi_\bullet(E)$.
@@ -88,18 +91,23 @@ The general result for complex orientation originates in
 
 Lecture notes include
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, 
-Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
- {#LurieLecture15}
+* {#LurieLecture15} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 15 _Flat modules over $\mathcal{M}_{FG}$_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture15.pdf))
+ 
 
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 16 _The Landweber exact functor theorem_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture16.pdf)) 
 
-* [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
- {#Lurie17}
+* {#Lurie17} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010, Lecture 17 _Phantom maps_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture17.pdf)) 
+ 
 
 See also
 
 * Wikipedia, _[Landweber exact functor theorem](http://en.wikipedia.org/wiki/Landweber_exact_functor_theorem)_
+
+For the even 2-periodic case:
+
+
+* {#LurieLect18} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture series 2010 , Lecture 18 _Even periodic cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture18.pdf))
+
 
 
 [[!redirects Landweber exact spectrum]]
