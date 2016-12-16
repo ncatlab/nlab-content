@@ -578,6 +578,8 @@ More recent discussion is in
 
 * [[Michael Barr]], John Kennison, R. Raphael, Isbell Duality, Theory and Applications of Categories, Vol. 20, 2008, No. 15, pp 504-542. ([web](http://www.tac.mta.ca/tac/volumes/20/15/20-15abs.html))
 
+* [[Richard Garner]], _The Isbell monad_ , Advances in Mathematics **274** (2015) pp.516-537. ([draft](http://comp.mq.edu.au/~rgarner/Papers/Isbell.pdf))
+
 * [[Vaughan Pratt]], _Communes via Yoneda, from an elementary perspective_,
 Fundamenta Informaticae 103 (2010), 203&#8211;218.
 
