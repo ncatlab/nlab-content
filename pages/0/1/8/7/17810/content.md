@@ -1635,7 +1635,7 @@ $$
 ## Commutative algebra in tensor categories and Affine super-spaces
  {#CommutativeAlgebraInTensorCategories}
 
-The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and ef. \ref{SupercommutativeSuperalgebra} below.
+The key idea of [[supercommutative superalgebra]] is that it is nothing but plain [[commutative algebra]] but "[[internalization|internalized]]" not in ordinary [[vector spaces]], but in [[super vector spaces]]. This is made precise by def. \ref{MonoidsInMonoidalCategory} and def. \ref{SupercommutativeSuperalgebra} below.
 
 The key idea then of [[supergeometry]] is to define super-[[spaces]] to be spaces whose [[algebras of functions]] are [[supercommutative superalgebras]]. This is not the case for any "ordinary" space such as a [[topological space]] or a [[smooth manifold]]. But these spaces may be _characterized dually_ via their algebras of functions, and hence it makes sense to generalize the latter.
 
@@ -1662,7 +1662,7 @@ A **proof** is for instance in ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries
 This says that we may _identify_ [[smooth manifolds]] as the  "[[formal duals]]" of certain [[associative algebras]], namely those in the image of the above full embedding. Accordingly then, any larger class of associative algebras than this may be thought of as the class of [[formal duals]] to a generalized kind of manifold, defined thereby. Given any associative algebra $A$, then we may think of it as representing a space
 $Spec(A)$ which is such that it has $A$ as its [[algebra of functions]].
 
-This [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of"[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality between spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]].
+This [[duality]] between certain  [[spaces]] and their [[algebras of functions]] is profound. In [[physics]] it has always been used implicitly, in fact it was so ingrained into theoretical physics that it took much effort to abstract away from [[coordinate system|coordinate functions]] to discover global [[Riemannian geometry]] in the guise of "[[general relativity]]". As mathematics, an early prominent duality theorem is [[Gelfand duality]] (between [[topological spaces]] and [[C*-algebras]]) which served as motivation for the very definition of [[algebraic geometry]], where [[affine schemes]] are nothing but the [[formal duals]] of [[commutative rings]]/[[commutative algebras]]. Passing to [[non-commutative algebras]] here yields [[non-commutative geometry]], and so forth. In great generality this duality between spaces and their function algebras appears as "[[Isbell duality]]" between [[presheaves]] and [[copresheaves]].
 
 In [[supergeometry]] we are concerned with spaces that are formally dual to associative algebras which are "very mildly" non-commutative, namely [[supercommutative superalgebras]]. These are in fact [[commutative algebras]] when viewed internal to [[super vector spaces]]
 (def. \ref{SupercommutativeSuperalgebra} below).
@@ -1815,7 +1815,7 @@ This means that a $G$-graded algebra is
 
 1. an [[associative algebra]] structure on the underlying vector space $A$
 
-such that for two elements of homogeneous degree, i.e. $a_1 \in A_{g_1} \hookrightarrow A$ and $a_2 \in A_{g_2} \hookrightarrow A$ then their product is in degre $g_1 g_2$
+such that for two elements of homogeneous degree, i.e. $a_1 \in A_{g_1} \hookrightarrow A$ and $a_2 \in A_{g_2} \hookrightarrow A$ then their product is in degree $g_1 g_2$
 
 $$
   a_{g_1} a_{g_2} \in A_{g_1 g_2} \hookrightarrow A
@@ -1860,7 +1860,7 @@ $$
   \,.
 $$
 
-However, since the definition of not-necessarily commutative monoids (def. \ref{MonoidsInMonoidalCategory}) does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]] (example \ref{CategoryOfSuperVectorSpaces}), this yields equivalently just the $\mathbb{Z}/2$-graded algebras froom example \ref{GradedAlgebras}:
+However, since the definition of not-necessarily commutative monoids (def. \ref{MonoidsInMonoidalCategory}) does not invoke the [[braiding]] of the ambient [[tensor category]], and since [[super vector spaces]] differ from $\mathbb{Z}/2$-[[graded vector spaces]] only via their [[braiding]] (example \ref{CategoryOfSuperVectorSpaces}), this yields equivalently just the $\mathbb{Z}/2$-graded algebras from example \ref{GradedAlgebras}:
 
 $$
   sAlg_k \simeq Alg_k^{\mathbb{Z}/2}
@@ -1902,7 +1902,7 @@ $$
 
 
 The following is an elementary but fundamental fact about the relation between
-commutative algbra and supercommutative superalgebra. It is implicit in much of the
+commutative algebra and supercommutative superalgebra. It is implicit in much of the
 literature, but maybe the only place where it has been made explicit before is
 ([Carchedi-Roytenberg 12, example 3.18](#CarchediRoytenberg12)).
 
@@ -1952,7 +1952,7 @@ Here
 
 1. the [[right adjoint]] $(-)_{even}$ sends a supercommutative superalgebra to its even part $A \mapsto A_{even}$;
 
-1. the [[left adjoint]] $(-)/(-)_{even}$ sends a supercommutative superalgebra to the [[quotient]] by the ideal which is generated by its odd part $A \mapsto A/(A_{odd})$ (hence it sets all elements to zero which may be written as a product such that at least one factor is odd-graded).
+1. the [[left adjoint]] $(-)/(-)_{odd}$ sends a supercommutative superalgebra to the [[quotient]] by the ideal which is generated by its odd part $A \mapsto A/(A_{odd})$ (hence it sets all elements to zero which may be written as a product such that at least one factor is odd-graded).
 
 =--
 
@@ -1961,14 +1961,14 @@ Here
 
 The full inclusion $i$ is evident. To see the [[adjunctions]] observe their characteristic
 [[natural bijections]] between [[hom-sets]]:
-If $A_{ordinary}$ is an ordinary commutative algebra regarded as a superalgeba $i(A_{ordinary})$ concentrated in even degree,
+If $A_{ordinary}$ is an ordinary commutative algebra regarded as a superalgebra $i(A_{ordinary})$ concentrated in even degree,
 and if $B$ is any superalgebra,
 
 1. then every super-algebra homomorphism of the form $A_{ordinary} \to B$ must factor
-   through $B_{even}$, simply because super-algebra homomorpism by definition respect the $\mathbb{Z}/2$-grading. This gives a natual bijection
+   through $B_{even}$, simply because super-algebra homomorpism by definition respect the $\mathbb{Z}/2$-grading. This gives a natural bijection
 
    $$
-     Hom_{sCAlg_k}(i(A_{ordinary}), B) \simeq Hom_{CAlg_k}(A_{ordinary,B_{even}})
+     Hom_{sCAlg_k}(i(A_{ordinary}), B) \simeq Hom_{CAlg_k}(A_{ordinary},B_{even}})
      \,,
    $$
 
@@ -2003,7 +2003,7 @@ $$
 for the [[full subcategory]] of [[associative algebras]] over $\mathbb{R}$ on those algebras which are
 [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra}) whose $\mathbb{Z}/2$-grading is
 lifted to a $\mathbb{Z}$-grading through $\mathbb{Z} \overset{mod\,2 }{\longrightarrow} \mathbb{Z}/2$.
-Equivalently this are the $\mathbb{Z}$-[[graded algebras]] over $\mathbb{R}$ such that any two elements
+Equivalently these are the $\mathbb{Z}$-[[graded algebras]] over $\mathbb{R}$ such that any two elements
 $a,b$ of homogeneous degree $deg(a), deg(b) \in \mathbb{Z}$ the product satisfies
 
 $$
@@ -2025,7 +2025,7 @@ See at _[[Introduction to Stable homotopy theory]]_ in the section [1-2 Homotopy
 =--
 
 We note how, conversely, plain supercommutative superalgebras arise as $\mathbb{Z}$-graded supercommutative
-superalgebra with extra structure:
+superalgebras with extra structure:
 
 +-- {: .num_prop #2PeriodicZGradedSupercommutativeSuperalgebras}
 ###### Proposition
