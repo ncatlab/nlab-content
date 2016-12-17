@@ -36,7 +36,7 @@ The process of concretification involves the general abstract notion of _[[image
 
 We have seen above in _[The continuum real (world-)line](TheContinuumRealWorldLine)_ that that [[real line]] $\mathbb{R}$ is the basic [[kinematics|kinematical structure]] in the [[differential geometry]] of [[physics]]. Notably the smooth [[path spaces]] $[\mathbb{R}, X]$ from example \ref{SmoothPathSpace} are to be thought of as the smooth spaces of _trajectories_ (for instance of some [[particle]]) in a [[smooth space]] $X$, hence of smooth maps $\mathbb{R} \to X$.
 
-But moreover, _[[dynamics]]_ in [[physics]]  is encoded by _[[functionals]] on such trajectories_: by "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
+But moreover, _[[dynamics]]_ in [[physics]]  is encoded by _[[linear functionals|functionals]] on such trajectories_: by "[[action functionals]]". In the simplest case these are for instance homomorphisms of smooth spaces
 
 $$
   S \colon \left[I, X\right] \to \mathbb{R}
