@@ -24,7 +24,7 @@
 
 In a (weak) [[2-category]], the appropriate notion of an [[orthogonal factorization system]] is suitably weakened up to isomorphism.  Specifically, a factorization system in a 2-category $K$ consists of two classes $(E,M)$ of 1-morphisms in $K$ such that:
 
-1. Every 1-morphism $f:x\to y$ in $K$ is *isomorphic* to a composite $e\circ m$ where $e\in E$ and $m\in M$, and
+1. Every 1-morphism $f:x\to y$ in $K$ is *isomorphic* to a composite $m\circ e$ where $e\in E$ and $m\in M$, and
 
 1. For any $e:a\to b$ in $E$ and $m:x\to y$ in $M$, the following square
    $$\array{ K(b,x) & \to & K(b,y) \\
