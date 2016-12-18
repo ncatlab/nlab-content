@@ -735,9 +735,11 @@ Here are some useful specifics:
 
 * [itex2MML Command Summary](http://golem.ph.utexas.edu/~distler/blog/itex2MMLcommands.html) 
 
-This is worth perusing carefully; for example, did you know that subscripts and superscripts both to the left and right of an expression can easily be typeset using a \multiscripts command? For instance, typing \multiscripts{_0^2_1}{R}{_i^j_k} in math mode produces 
+This is worth perusing carefully;
+ for example, iTeX does not provide a command such as `\prescript` to generate left subscripts.
+ Instead it contains the more general `\multiscripts` command to typeset subscripts and superscripts
+ both to the left and right of an expression. For instance,
+ the math mode text `\multiscripts{_0^2_1}{R}{_i^j_k}` produces
 
 $$\multiscripts{_0^2_1}{R}{_i^j_k}$$ 
-
-
 category: meta
