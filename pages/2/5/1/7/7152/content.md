@@ -135,7 +135,7 @@ More on this is in
 ### Examples and applications
 
 
-* {#Hoyois13b} [[Marc Hoyois]], _The &#233;tale-symmetric K&#252;nneth theorem_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalekunneth.pdf))
+* {#Hoyois13b} [[Marc Hoyois]], _The &#233;tale-symmetric K&#252;nneth theorem_, 2013 ([pdf](http://math.mit.edu/~hoyois/papers/etalekunneth.pdf))
 
 
 Discussion in [[positive characteristic]] is in 
