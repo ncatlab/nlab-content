@@ -64,7 +64,7 @@ An **entourage uniformity** on a locale $X$ consists of a collection of open par
 
 5. For any $U\in Op(X)$ we have $U = \bigcup \{ V\in Op(X) \mid E[V] \subseteq U \text{ for some entourage } E\}$.
 
-It is not clear whether the equivalence of these definitions exists in the literature.  Most reference (see below) use only covering uniformities, although [Johnstone 89](#Johnstone89) promises an equivalence to entourage uniformities in a future paper.
+It is not clear whether these definitions are equivalent.  Most references (see below) use only covering uniformities, although [Johnstone 89](#Johnstone89) promises an equivalence to entourage uniformities in a future paper.
 
 
 ## References
