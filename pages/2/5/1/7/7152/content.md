@@ -101,6 +101,9 @@ The modern perspective from the point of view of [[model structure on simplicial
 
 * {#Isaksen01} [[Daniel Isaksen]], _&#201;tale realization of the $\mathbb{A}^1$-homotopy theory of schemes_, 2001 ([K-theory archive](http://www.math.uiuc.edu/K-theory/0495/))
 
+* [[G. Quick]], _Stable &#233;tale realization and &#233;tale cobordism_, Adv. in Math.,
+214 (2007), 730&#8211;760.
+
 and fully abstractly from the point of view of  [[(∞,1)-topos]]-theory ([[shape of an (∞,1)-topos]]) in
 
 * {#Hoyois13a} [[Marc Hoyois]], _Higher Galois theory_, ([pdf](http://math.mit.edu/~hoyois/papers/highergalois.pdf))
