@@ -95,10 +95,10 @@ A uniformly regular uniform space can be equivalently described in terms of the 
 ###### Definition
 A **uniform apartness space** is a set $X$ equipped with a collection of binary relations $A\subseteq X\times X$ called *co-entourages* such that
 
-1. $(x,x)\notin A$ for $x\in X$ and co-entourages $A$, i.e. each co-entourage is disjoint from the diagonal.
+1. $(x,x)\notin A$ for $x\in X$ and co-entourages $A$, i.e. each co-entourage is [[irreflexive relation|irreflexive]].
 2. For every co-entourage $A$, there exists a co-entourage $B$ such that whenever $(x,z)\in A$, for any $y$ we have either $(x,y)\in B$ or $(y,z)\in B$.
 3. For every co-entourage $A$, there exists a co-entourage $B$ such that $A\subseteq B^{op}$ (hence, by axiom (6), $A^{op}$ is a co-entourage).
-4. There exist as co-entourage (hence, by axiom (6), the empty set is a co-entourage).
+4. There exists a co-entourage (hence, by axiom (6), the empty set is a co-entourage).
 5. If $A$ and $B$ are co-entourages, so is some superset of $A\cup B$ (hence, by axiom (6), $A\cup B$ is itself).
 6. If $A$ is a co-entourage and $B\subseteq A$, then $B$ is a co-entourage.
 =--
