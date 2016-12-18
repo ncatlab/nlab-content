@@ -131,11 +131,12 @@ where $0$ is taken as bottom, $1$ as top, the points are atoms, and the lines ar
 The smallest non-modular lattice has 5 elements and is called the _pentagon_, denoted $N_5$. It can be described as the lattice $\{\bot, a, b, c, \top\}$ where $b \leq c$ and $a$ is incomparable with $b$ and $c$. 
 
 +-- {: .num_theorem} 
-###### Theorem (Dedekind) 
+###### Theorem 
+**(Dedekind)** 
 A lattice $L$ is modular if and only if there is no injective function $f \colon N_5 \to L$ that preserves meets and joins. 
 =-- 
 
-(Notice we are leaving out the condition of preservation of the top and bottom elements.) 
+(Notice we are leaving out the condition of preservation of the top and bottom elements.) The direction $\Rightarrow$ is easy enough: $L$ being modular is incompatible with an injective $f: N_5 \to L$ preserving meets and joins, since we contradict the modular law in $L$ by applying $f$ to $(b \vee a) \wedge c = \top \wedge c = c$ and $b \vee (a \wedge c) = b \vee \bot = b$. 
 
 This is reminiscent of forbidden minor characterizations of certain classes of graphs; see [[graph minor]]. There is a similar "forbidden sublattice" characterization of [[distributive lattices]] -- see this [comment](#Lein) by Tom Leinster at the $n$-Category Caf&#233;. 
 
