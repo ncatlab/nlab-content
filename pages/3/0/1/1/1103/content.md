@@ -128,6 +128,7 @@ A cdga is a **negatively** graded pre-cdga (in upper grading), $A= \bigoplus_{p\
 
 There is an augmented variant, of course.  These definitions give categories $CDGA$, etc.
 
+See at _[[differential graded-commutative algebra]]_.
 
 
 #### $n$-connectivity
@@ -264,6 +265,10 @@ to its [[chain homology and cohomology|chain (co)homology]] (regarded as a dg-al
 [[!redirects cochain algebra]]
 [[!redirects dg-algebra]]
 [[!redirects dg-algebras]]
+
+[[!redirects differential-graded algebra]]
+[[!redirects differential-graded algebras]]
+
 
 [[!redirects commutatiev dg-algebra]]
 [[!redirects commutative dg-algebras]]
