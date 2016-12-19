@@ -57,6 +57,8 @@ In $SU(2)$-[[Chern-Simons theory]] the Wilson line observables compute the [[Jon
 
 * [['t Hooft operator]]
 
+* [[Wilson surface]]
+
 ## References
 
 ### General
