@@ -27,7 +27,7 @@ Rational homotopy theory is the [[homotopy theory]] of [[rational topological sp
 
 Much of the theory is concerned with [[rationalization]], the process that sends a general homotopy type to its closest rational approximation, in a precise sense. On the level of [[homotopy groups]] this means to retain precisely the non-[[torsion subgroups]] of the homotopy groups. 
 
-Two algebraic models of rational homotopy types exist, via differential-graded-commutative algebras (Sullivan model) and via [[dg-Lie algebras]] (Quillen model).
+Two algebraic models of rational homotopy types exist, via [[differential graded-commutative algebras]] (Sullivan model) and via [[dg-Lie algebras]] (Quillen model).
 
 This way rational homotopy theory connects [[homotopy theory]] and [[differential graded algebra]]. Akin to the [[Dold-Kan correspondence]], the [[Sullivan construction]] in rational homotopy theory connects the conceptually powerful perspective of [[homotopy theory]] with the computationally powerful perspective of [[differential graded algebra]]. 
 
@@ -248,7 +248,7 @@ $$
   N^\bullet(Prim(\hat \mathbb{Q}[G S(X)])).
 $$
 
-Finally, to get a a cocommutative dg [[coalgebra]] model for $X$, one uses a slight generalization of a functor first defined by Koszul for computing the homology of a Lie algebra, which always gives rise to a cocommutative dg coalgebra.
+Finally, to get a cocommutative dg [[coalgebra]] model for $X$, one uses a slight generalization of a functor first defined by Koszul for computing the homology of a Lie algebra, which always gives rise to a cocommutative dg coalgebra.
 
 
 One may think of this procedure as doing the following: we are taking the [[Lie algebra]] of the "group" $\Omega X$ which is the [[loop space]] of $X$. From a group we pass to the enveloping algebra, i.e. the algebra of [[distribution]]s supported at the identity, completed. The topological analog of distributions are chains (dual to functions = cochains), so Quillen's completed chains construction is exactly the completed enveloping algebra. From the (completed) enveloping algebra we recover the Lie algebra as its primitive elements. 
