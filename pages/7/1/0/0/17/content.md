@@ -191,7 +191,13 @@ We accomplish (1) with a [[redirect]]; we accomplish (2) with a [[page move]].  
 7.  Delete everything else (consisting of the material that you already merged into 'A').
 8.  Submit.
 
-The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').  But if they\'re really at 'B' on purpose to check the edit history, then that history is there for them.
+The result is that links to 'B' will redirect to 'A' (not to 'B > history').  And if anyone does land on 'B > history', all that they will see is '<&#160;[[HomePage|B]]' with a link to 'B' (properly redirected to 'A').  But if they\'re really at 'B' on purpose to check the edit history, then that history is there for them. 
+
+## How to remove a page 
+
+To remove a page, look at [category: empty](https://ncatlab.org/nlab/list/empty) and see which number should be used next, then rename the page to `empty ###` using that number.  Replace the content (including the automatically added redirect with `category: empty`.
+
+(To remove the backlog of empty pages, one should also create pages by reversing this process, although it\'s easy to forget to do that.)
 
 # How to organize and write content
  {#HowToOrganizeAndWriteContent}
