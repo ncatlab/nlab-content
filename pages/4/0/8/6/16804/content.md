@@ -109,6 +109,10 @@ For the connection to [[Vassiliev invariants]] of [[singular knots]], see:
 
 * Greg Muller, ["Chord Diagrams and Lie Algebras"](https://cornellmath.wordpress.com/2007/12/25/chord-diagrams-and-lie-algebras/), blog post at _The Everything Seminar_, 25 December 2007.
 
+The following book contains an extensive discussion of chord diagrams associated to singular points of analytic curves:
+
+* &#201;tienne Ghys, _A Singular Mathematical Promenade_, preliminary version of December 2016. ([author pdf](http://perso.ens-lyon.fr/ghys/articles/Promenade.pdf))
+
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
 [[!redirects rooted chord diagrams]]
