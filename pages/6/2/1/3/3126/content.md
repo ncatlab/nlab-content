@@ -919,6 +919,12 @@ The [[(infinity,1)-topos]] structure on tangent $(\infty,1)$-categories
 is discussed in 35.5 of
 
 * {#Joyal08} [[André Joyal]], _Notes on Logoi_, 2008 ([pdf](http://www.math.uchicago.edu/~may/IMA/JOYAL/Joyal.pdf))
+
+Presentation by [[model categories]] is discussed in
+
+* [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _Tangent categories of algebras over operads_ ([arXiv:1612.02607](https://arxiv.org/abs/1612.02607))
+
+* _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
   
 
 [[!redirects tangent (infinity,1)-categories]]
