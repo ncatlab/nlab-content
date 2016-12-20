@@ -225,10 +225,16 @@ A short exposition (from the point of view of [[formal schemes]]) is in
 
 * chapter 5 (5.29-5.31) in Luc Illusie, _Grothendieck's existence theorem in formal geometry_, in [[FGA explained]] (179--233) MR2223409; (draft version [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes)) 
 
-The cotangent complex for a general [[algebra over an operad]] in [[chain complex]]es is discussed in section 7 of
+The cotangent complex for a general [[algebra over an operad]] in [[chain complexes]] is discussed in section 7 of
 
-* [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
-{#Hinich}
+* {#Hinich} [[Vladimir Hinich]],  _Homological algebra of homotopy algebras_ Communications in algebra, 25(10). 3291-3323 (1997)([arXiv:q-alg/9702015](http://arxiv.org/abs/q-alg/9702015), _Erratum_ ([arXiv:math/0309453](http://arxiv.org/abs/math/0309453)))
+
+
+In terms of [[model category]] presentations for [[tangent (infinity,1)-categories]]:
+
+* [[Yonatan Harpaz]], [[Joost Nuiten]], [[Matan Prasma]], _Tangent categories of algebras over operads_ ([arXiv:1612.02607](https://arxiv.org/abs/1612.02607))
+
+* _The abstract cotangent complex and Quillen cohomology of enriched categories_ ([arXiv:1612.02608](https://arxiv.org/abs/1612.02608))
 
 
 [[!redirects cotangent complexes]]
