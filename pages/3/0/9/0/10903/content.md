@@ -25,24 +25,24 @@
 
 ## Idea
 
-Dependent linear type theory is, or should be, the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types. 
+Dependent linear type theory is, or should be, the combination of _[[dependent type theory]]_ and _[[linear type theory]]_, hence a [[type theory]] where linear types may be dependent on ordinary intuitionistic types.
 
 Details are still somewhat in the making: An extension of the [[LF]] [[syntax]] by dependent linear types appears in ([Pfenning 96](#Pfenning96), [WCFW 03](#WCFW03)) and a dependent linear extension of [[system L]] in ([Spiwack 14, section 5](#Spiwack14)). What should be the [[categorical semantics]] of dependent linear type theory was discussed in ([Shulman 08](#Shulman08), [Ponto-Shulman 12](#PontoShulman12), [Shulman 12](#Shulman12), [Schreiber 14](#Schreiber14)). Proposals for an actual [[syntax]] for dependent linear type theory appear in ([V&#225;k&#225;r 14](#Vakar14), [KPB 15](#KPB15)).
 
 
- 
+
 Following the notion of [[hyperdoctrine]] this should mean, in terms of [[categorical semantics]], that dependent linear type theory is for each [[context]] $\Gamma$ a [[linear type theory]]/possibly-non-[[cartesian monoidal category|cartesian]] [[symmetric monoidal category|symmetric]] [[closed monoidal category]] $(\mathcal{C}_{\Gamma}, \otimes, 1)$ and for each [[homomorphism]] of [[contexts]] $f \;\colon\; \Gamma_1 \longrightarrow \Gamma_2$ functorially an [[adjoint triple]] of [[functors]]
 
 $$
-  (f_! \dashv f^\ast \dashv f_\ast) 
-    \;\colon\; 
+  (f_! \dashv f^\ast \dashv f_\ast)
+    \;\colon\;
    \mathcal{C}_{\Gamma_1}
     \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\rightarrow}}}
     \mathcal{C}_{\Gamma_2}
   \,.
 $$
 
-where $f^\ast$ is [[context extension]] and where the [[left adjoint]] $f_!$ and [[right adjoint]] $f_\ast$ are to be thought of as linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]]. 
+where $f^\ast$ is [[context extension]] and where the [[left adjoint]] $f_!$ and [[right adjoint]] $f_\ast$ are to be thought of as linear analogs of [[dependent sum]] and [[dependent product]], respectively. Moreover this should satisfy [[Frobenius reciprocity]], hence $f^\ast$ should be a strong [[closed monoidal functor]].
 
 Equivalently this is an [[indexed closed monoidal category]].
 
@@ -76,7 +76,7 @@ The correspondence in the second line works by forming for any [[locally cartesi
 
 $$
   \left\{
-    \Gamma \vdash a \colon A 
+    \Gamma \vdash a \colon A
   \right\}
   \leftrightarrow
   \left\{
@@ -88,7 +88,7 @@ $$
 
 Moreover, the system of slice categories has good [[base change]] in that for every morphism $[f] \colon [\Gamma_1]\to [\Gamma_2]$ in $\mathcal{C}$ there is an [[adjoint triple]] of [[functors]]
 
-$$ 
+$$
    \mathcal{C}_{[\Gamma_1]}
     \stackrel{\stackrel{[f]_!}{\longrightarrow}}{\stackrel{\overset{[f]^\ast}{\longleftarrow}}{\underset{[f]_\ast}{\longrightarrow}}}
     \mathcal{C}_{[\Gamma_2]}
@@ -104,7 +104,7 @@ $$
   \right\}
   \leftrightarrow
   \left\{
-    [f]_! \dashv [f]^\ast \dashv [f]_\ast  
+    [f]_! \dashv [f]^\ast \dashv [f]_\ast
   \right\}
   \,.
 $$
@@ -127,13 +127,20 @@ A _semantics for (symmetric, closed) dependent linear type theory_ is
 
 1. a [[functor]] $Mod \colon \mathcal{C}^{op} \to MonCat$ from its [[opposite category]] to [[monoidal categories]];
 
-such that 
+such that
 
 1. each $Mod(X)^\otimes$ is [[symmetric monoidal category|symmetric]] [[closed monoidal category|closed]]  (with [[internal hom]] to be denoted $[-,-]$);
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
-1. $f_!$ satsifies [[Frobenius reciprocity]].
+1. $f_!$ satsifies [[Frobenius reciprocity]], in that the canonical [[natural transformation]]
+
+   $$
+     f_!(f^\ast(B) \otimes A) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
+   $$
+   
+   is a [[natural equivalence]].
+
 
 If in addition the [[Beck-Chevalley condition]] is satisfied by $(f_1\dashv f^\ast)$, then we speak of _linear type theory with Beck-Chevalley condition_.
 
@@ -191,12 +198,12 @@ In view of the perspective of semantics for type theory, we will omit in the fol
 $$
    \left(
      \underset{f}{\sum}
-     \dashv 
+     \dashv
      f^\ast
      \dashv
      \underset{f}{\prod}
-   \right)  
-    \;\colon\; 
+   \right)
+    \;\colon\;
    Mod(\Gamma_1)
     \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\longrightarrow}}}
     Mod(\Gamma_2)
@@ -212,9 +219,9 @@ $$
   \right)
   \simeq
   \left(
-    \underset{f}{\sum} X 
+    \underset{f}{\sum} X
   \right)
-  \otimes 
+  \otimes
   Y
   \,.
 $$
@@ -280,9 +287,9 @@ A _semantics for linear homotopy type theory_ is
 
 
 
-such that 
+such that
 
-1. each $Mod(X)$ is [[symmetric monoidal (∞,1)-category|symmetric]] closed (with [[internal hom]] to be denoted $[-,-]$); 
+1. each $Mod(X)$ is [[symmetric monoidal (∞,1)-category|symmetric]] closed (with [[internal hom]] to be denoted $[-,-]$);
 
 1. for each $[f] \colon [\Gamma_1] \to [\Gamma_2]$ in $Mor(\mathcal{C})$ the assigned [[(∞,1)-functor]] $f^\ast \colon Mod([\Gamma_2]) \to Mod([\Gamma_1])$ has a [[left adjoint]] $f_!$ and a [[right adjoint]] $f_\ast$;
 
@@ -297,19 +304,19 @@ For brevity we will omit in the following the notational distinction between con
 $$
    \left(
      \underset{f}{\sum}
-     \dashv 
+     \dashv
      f^\ast
      \dashv
      \underset{f}{\prod}
-   \right)  
-    \;\colon\; 
+   \right)
+    \;\colon\;
    Mod(\Gamma_1)
     \stackrel{\stackrel{f_!}{\longrightarrow}}{\stackrel{\overset{f^\ast}{\longleftarrow}}{\underset{f_\ast}{\longrightarrow}}}
     Mod(\Gamma_2)
   \,.
 $$
 
-The statement of [[Frobenius reciprocity]] then is that 
+The statement of [[Frobenius reciprocity]] then is that
 
 $$
   \underset{f}{\sum}
@@ -318,9 +325,9 @@ $$
   \right)
   \simeq
   \left(
-    \underset{f}{\sum} X 
+    \underset{f}{\sum} X
   \right)
-  \otimes 
+  \otimes
   Y
   \,.
 $$
@@ -345,7 +352,7 @@ For $\mathbf{H}$ a [[topos]], then its system $\mathbf{H}_{/(-)} \colon \mathbf{
 +-- {: .num_remark}
 ###### Remark
 
-This example for dependent linear type theory is extremely "non-linear".  
+This example for dependent linear type theory is extremely "non-linear".
 One way to characterize this is to observe that this dependent linear type theory has almost no [[dualizable object|dualizable]] linear types. The only one is the terminal object in each slice. Given that the above formulas notably for secondary integral transforms (def.\ref{SIT}) assume dualizable objects, this means that in this non-linear context there will be no nontrivial secondary integral transforms.
 
 =--
@@ -360,7 +367,7 @@ A first step away from the Cartesian example [above](#CartesianWirthmuellerConte
 +-- {: .num_defn #PointedObjectsInSlice}
 ###### Definition
 
-Let $\mathbf{H}$ be a [[topos]]. For $X \in \mathbf{H}$ any [[object]], write 
+Let $\mathbf{H}$ be a [[topos]]. For $X \in \mathbf{H}$ any [[object]], write
 
 $$
   \mathcal{C}_X \coloneqq \mathbf{H}_{/X}^{X/}
@@ -394,7 +401,7 @@ This appears as ([Shulman 08, examples 12.13 and 13.7](#Shulman08)) and ([Shulma
 
 For $f \colon X \longrightarrow Y$ any [[morphism]] in $\mathbf{H}$ then the [[base change]] [[inverse image]] $f^\ast \colon \mathbf{H}_{/Y} \longrightarrow \mathbf{H}_{/X}$ preserves pointedness, and the [[pushout]] functor $f_! \colon \mathbf{H}^{X/} \longrightarrow \mathbf{H}^{Y/}$ preserves co-pointedness. These two functors hence form an [[adjoint pair]]
 $(f_! \dashv f^\ast) \colon \mathcal{C}_X \longrightarrow \mathcal{C}_Y$.
-Moreover, since [[colimits]] in the under-over category $\mathbf{H}_{/X}^{X/}$ are computed as colimits in $\mathbf{H}$ of [[diagrams]] with an [[initial object]] adjoined, and since by the [[Giraud axioms]] in the [[topos]] $\mathbf{H}$ [[pullback]] preserves these colimits, it follows that $f^\ast \colon \mathcal{C}_Y \to \mathcal{C}_X$ preserves colimits. 
+Moreover, since [[colimits]] in the under-over category $\mathbf{H}_{/X}^{X/}$ are computed as colimits in $\mathbf{H}$ of [[diagrams]] with an [[initial object]] adjoined, and since by the [[Giraud axioms]] in the [[topos]] $\mathbf{H}$ [[pullback]] preserves these colimits, it follows that $f^\ast \colon \mathcal{C}_Y \to \mathcal{C}_X$ preserves colimits.
 Finally by the discussion at _[[category of pointed objects]]_ we have that $\mathcal{C}_X$ and $\mathcal{C}_Y$ are [[locally presentable categories]], so that by the [[adjoint functor theorem]] it follows that $f^\ast$ has also a [[right adjoint]] $f_\ast \colon \mathcal{C}_X \to \mathcal{C}_Y$.
 
 To see that $f^\ast$ is a [[strong monoidal functor]] observe that the [[smash product]] is, by the discussion there, given by a [[pushout]] over [[coproducts]] and [[products]] in the [[slice topos]]. As above these are all preserved by [[pullback]]. Finally to see that $f^\ast$ is also a [[strong closed functor]] observe that the [[internal hom]] on [[pointed objects]] is, by the discussion there, a [[fiber product]] of cartesian internal homs. These are preserved by [the above case](#CartesianWirthmuellerContexts), and the fiber product is preserved since $f^\ast$ preserves all limits. Hence $f^\ast$ preserves also the internal homs of pointed objects.
@@ -444,9 +451,9 @@ $$
   \,.
 $$
 
-Under this identification every morphism $f \in Mor(Set)$ with finite fibers carries a canonical untwisted fiberwise fundamental class, def.\ref{FiberwiseFundamentalClass}, $[f]_{canonical}$.
+Under this identification every morphism $f \in Mor(Set)$ with finite fibers carries a canonical untwisted fiberwise fundamental class, def. \ref{FiberwiseFundamentalClass}, $[f]_{canonical}$.
 
-For 
+For
 
 $$
   \array{
@@ -459,21 +466,6 @@ $$
 $$
 
 a product corrrespondence of [[finite sets]], then an [[integral kernel]] $K$ on this, according to def. \ref{IntegralKernel}, with $A_i = 1_{X_i}$, is equivalently an ${\vert X_1\vert}\times {\vert X_2\vert}$-array of elements in $k$, hence a [[matrix]] $K_{\bullet,\bullet}$.
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-
-Given a correspondence with integral kernel as in example \ref{MatrixAsIntegralKernel}, then the induced secondary integral transform according to def. \ref{SIT} is the [[linear function]] 
-
-$$
-  k^{\vert X_1\vert}
-  \longleftarrow
-  k^{\vert X_2\vert}
-$$
-
-represented by that matrix.
 
 =--
 
@@ -491,7 +483,7 @@ The example of parameterized modules [above](#ParameterizedModules) has an evide
 | [[module]] | [[∞-module]] spectrum |
 | [[abelian category|abelian]] [[category of modules]] | [[stable (∞,1)-category|stable]] [[(∞,1)-category of ∞-modules]] |
 
-+-- {: .num_prop #ParameterizedModuleSpectra}
++-- {: .num_prop #ParameterizedModuleSpectraAreLinearHomotopyTypeTheory}
 ###### Proposition
 
 Let $E$ be an [[E-∞ ring]] spectrum and write $E Mod$ for its [[(∞,1)-category of ∞-modules]]. For $X \in $ [[∞Grpd]] write
@@ -524,7 +516,8 @@ In this case the corresponding [[indexed closed monoidal category]] (under the [
 +-- {: .num_prop}
 ###### Proposition
 
-The $\Sigma$-functor, def.\ref{Sigma}, in the model of parameterized $E$-module spectra, prop. \ref{ParameterizedModuleSpectra}, is the [[suspension spectrum]] construction $\Sigma^\infty$ followed by [[smash product]] of spectra with $E$:
+The $\Sigma$-functor, def. \ref{Sigma}, in the model of parameterized $E$-module spectra, 
+prop. \ref{ParameterizedModuleSpectraAreLinearHomotopyTypeTheory}, is the [[suspension spectrum]] construction $\Sigma^\infty$ followed by [[smash product]] of spectra with $E$:
 
 $$
   \Sigma(X) \simeq \Sigma^\infty(X)\wedge E
@@ -540,7 +533,7 @@ This construction does have a [[right adjoint]] $\Omega^\infty$, where $(\Sigma^
 +-- {: .num_prop}
 ###### Proposition
 
-In the class of models of prop. \ref{ParameterizedModuleSpectra}, linear homotopy-type theory encodes the theory of [[twisted generalized cohomology]].
+In the class of models of prop. \ref{ParameterizedModuleSpectraAreLinearHomotopyTypeTheory}, linear homotopy-type theory encodes the theory of [[twisted generalized cohomology]].
 
 [[!include twisted generalized cohomology in linear homotopy type theory -- table]]
 
@@ -574,20 +567,20 @@ The construction in \ref{ParameterizedFormalModuliProblems} has the interpretati
 +-- {: .num_prop}
 ###### Proposition
 
-Parameterized formal moduli problems as in def. \ref{ParameterizedFormalModuliProblems} form semantics for non-unital 
-linear homotopy-type theory. 
+Parameterized formal moduli problems as in def. \ref{ParameterizedFormalModuliProblems} form semantics for non-unital
+linear homotopy-type theory.
 
 =--
 
 
-### Quasicoherent sheaves of modules 
+### Quasicoherent sheaves of modules
  {#ForQuasicoherentSheaves}
 
 Pull-push of [[quasicoherent sheaves]] is usually discussed as a [[Grothendieck context]] of [[six operations]], but under some conditions it also becomes a [[Wirthmüller context]] and hence a model for dependent linear homotopy type theory.
 
 Using results of Lurie this follows in the full generality of [[E-∞ geometry]] ([[spectral geometry]]).
 
-Consider quasi-compact and quasi-separated [[E-∞ algebraic spaces]] ([[spectral algebraic spaces]]). (This includes precisely those [[spectral Deligne-Mumford stacks]] which have a [[scallop decomposition]], see [here](derived+Deligne-Mumford+stack#RelationToDerivedAlgebraicSpaces).)
+Consider quasi-compact and quasi-separated [[E-∞ scheme|E-∞ algebraic spaces]] ([[spectral geometry|spectral algebraic spaces]]). (This includes precisely those [[spectral Deligne-Mumford stacks]] which have a [[scallop decomposition]], see [here](derived+Deligne-Mumford+stack#RelationToDerivedAlgebraicSpaces).)
 
 If $f \;\colon\; X \longrightarrow Y$ is a map between these which is
 
@@ -642,7 +635,7 @@ The existence of [[dualizing modules]] $K$
 
 $$
   D X = [X,K]
-$$ 
+$$
 
 is discussed in ([[Representability theorems|Lurie, Representability theorems, section 4.2]].)
 
@@ -657,7 +650,7 @@ We discuss here structures (constructions) that may be defined and studied withi
  {#TheCanonicalComodality}
 
 The original axiomatics for [[linear type theory]] in ([Girard 87](#Girard87)) contain in addition to the structures corresponding to a ([[star-autonomous category|star-autonomous]]) [[symmetric monoidal category|symmetric]] [[closed monoidal category]] a certain (co-)[[modality]] traditionally denoted "$!$", the _[[exponential modality]]_.
- 
+
 In ([Benton 95, p.9,15](#Benton95), [Bierman 95](#Bierman95))
 it is noticed (reviewed in ([Barber 97, p. 21 (26)](#Barber97))) that a natural [[categorical semantics]] for this modality identifies it with the [[comonad]] that is induced from a [[strong monoidal adjunction]]
 
@@ -674,7 +667,7 @@ between the [[closed monoidal category|closed]] [[symmetric monoidal category]] 
 If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; \mathcal{C} \longrightarrow Mod(\ast)$ without possibly a [[right adjoint]] $\Omega$, then ([Barber 97, p. 21 (27)](#Barber97)) speaks of the _structural [[fragment]]_ of [[linear type theory]].
 
 
-In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $Mod(\ast)$ is the [[linear type theory]] over the trivial context $\ast$ of a dependent linear type theory ([[indexed closed monoidal category]]) with category of contexts being $\mathcal{C}$: 
+In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $Mod(\ast)$ is the [[linear type theory]] over the trivial context $\ast$ of a dependent linear type theory ([[indexed closed monoidal category]]) with category of contexts being $\mathcal{C}$:
 
 +-- {: .num_defn #Sigma}
 ###### Definition
@@ -690,8 +683,8 @@ $$
 and for $f \;\colon\; Y \longrightarrow X$ a [[morphism]] in $\mathcal{C}$ set
 
 $$
-  \Sigma(f) 
-    \coloneqq 
+  \Sigma(f)
+    \coloneqq
    \Sigma(Y)
     =
   \underset{Y}{\sum} 1_Y
@@ -723,7 +716,7 @@ $$
 
 =--
 
-This is ([Ponto-Shulman 12, (4.3)](#PontoShulman12)). 
+This is ([Ponto-Shulman 12, (4.3)](#PontoShulman12)).
 
 +-- {: .num_remark }
 ###### Remark
@@ -769,7 +762,7 @@ The condition in def. \ref{SemanticsForExponentialModality} that $\Sigma$ (and i
 For $\mathcal{C}^\otimes$ a [[closed monoidal category]] with [[unit object]] $1$ and [[internal hom]] $[-,-]$ write
 
 $$
-  \mathbb{D} \coloneqq [-,1] 
+  \mathbb{D} \coloneqq [-,1]
 $$
 
 for the [[functor]] given by internal hom into the unit object. In regarding $\mathcal{C}^\otimes$ as [[categorical semantics]] for [[linear type theory]] one may call this the _linear [[negation]]_ operation.
@@ -777,7 +770,7 @@ for the [[functor]] given by internal hom into the unit object. In regarding $\m
 =--
 
 +-- {: .num_prop #DependentLinearDeMorganDuality}
-###### Proposition 
+###### Proposition
 **(dependent linear de Morgan duality)**
 
 In semantics for a dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, linear negation, def. \ref{LinearNegation}, intertwines dependent sum and dependent product:
@@ -799,11 +792,11 @@ For proof see [here](Wirthm&#252;ller%20context#ComparisonOfPushForwardsAndWirth
 +-- {: .num_defn #PolynomialFunctorsAndCorrespondences}
 ###### Definition
 
-Given semantics $Mod\colon \mathcal{C}^{op}\to SymMonCat$ for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, and given objects $X_1, X_2$ of $\mathcal{C}$ then a **linear [[polynomial functor]]** 
+Given semantics $Mod\colon \mathcal{C}^{op}\to SymMonCat$ for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}, and given objects $X_1, X_2$ of $\mathcal{C}$ then a **linear [[polynomial functor]]**
 
 $$
   P \colon Mod(X_1) \to Mod(X_2)
-$$ 
+$$
 
 is a functor of the form
 
@@ -817,11 +810,11 @@ $$
   \array{
     && Y &\stackrel{g}{\longrightarrow}& Z
     \\
-    & {}^{\mathllap{f_1}}\swarrow  & && & \searrow^{\mathrlap{f_2}} 
+    & {}^{\mathllap{f_1}}\swarrow  & && & \searrow^{\mathrlap{f_2}}
     \\
     X_1
     &&
-    && 
+    &&
     &&
     X_2
   }
@@ -834,7 +827,7 @@ $$
   \array{
     &&  Z
     \\
-    & {}^{\mathllap{f_1}}\swarrow  & & \searrow^{\mathrlap{f_2}} 
+    & {}^{\mathllap{f_1}}\swarrow  & & \searrow^{\mathrlap{f_2}}
     \\
     X_1
     &&
@@ -850,7 +843,7 @@ and the resulting $P \simeq \underset{f_2}{\sum}f_1 ^\ast$ is called a **linear 
 +-- {: .num_prop }
 ###### Proposition
 
-Given a [[correspondence]] as above, then the primary integral transform through it is equivalent to the pull-tensor-push operation through the [[product]] 
+Given a [[correspondence]] as above, then the primary integral transform through it is equivalent to the pull-tensor-push operation through the [[product]]
 
 $$
   \underset{f_2}{\sum} \circ f_1^\ast
@@ -879,11 +872,11 @@ By [[Frobenius reciprocity]].
 +-- {: .num_defn #FiberwiseFundamentalClass}
 ###### Definition
 
-A _fiberwise twisted fundamental class_ $[f]$ on a morphism $f \colon X\to Y$ in $\mathcal{C}$ is 
+A _fiberwise twisted fundamental class_ $[f]$ on a morphism $f \colon X\to Y$ in $\mathcal{C}$ is
 
-1. a choice of dualizable object $\tau \in Mod(Y)$ (the twist);
+1. a choice of dualizable object $\tau \in Mod(Y)$ (the _twist_);
 
-1. a choice of equivalence 
+1. a choice of equivalence
 
    $$
      \underset{f}{\sum} f^\ast 1_X
@@ -894,7 +887,7 @@ A _fiberwise twisted fundamental class_ $[f]$ on a morphism $f \colon X\to Y$ in
 
 =--
 
-In this form this is stated in ([Schreiber 14](#Schreiber14)). 
+In this form this is stated in ([Schreiber 14](#Schreiber14)).
 
 +-- {: .num_remark #FundamentalClassFromAmbidexterity}
 ###### Remark
@@ -939,7 +932,7 @@ This is the "[Wirthm&#252;ller isomorphism](Wirthm&#252;ller%20context#Compariso
 +-- {: .num_defn #ComponentOfFiberwiseClass}
 ###### Definition
 
-For $[f]$ a twisted fiberwise fundamental class and for $A$ dualizable, write 
+For $[f]$ a twisted fiberwise fundamental class and for $A$ dualizable, write
 
 $$
   [f]_A
@@ -969,7 +962,7 @@ The key point is that the morphism in def. \ref{ComponentOfFiberwiseClass} goes 
 +-- {: .num_defn #IntegralKernel}
 ###### Definition
 
-For 
+For
 
 $$
   \array{
@@ -987,7 +980,7 @@ a [[correspondence]] as in def. \ref{PolynomialFunctorsAndCorrespondences}, then
 
 1. two dualizable objects $A_i \in Mod(X_i)$;
 
-1. a morphism between their pullbacks to the correspondence space: 
+1. a morphism between their pullbacks to the correspondence space:
 
    $$
      f_1^\ast A_1 \stackrel{K}{\longleftarrow} f_2^\ast A_2
@@ -999,7 +992,7 @@ a [[correspondence]] as in def. \ref{PolynomialFunctorsAndCorrespondences}, then
 +-- {: .num_defn #SIT}
 ###### Definition
 
-Given 
+Given
 
 1. a [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longrightarrow} X_2$ as in def. \ref{PolynomialFunctorsAndCorrespondences};
 
@@ -1080,7 +1073,7 @@ Then the associated secondary integral transform, def. \ref{SIT}, is the morphis
 $$
   \underset{X}{\sum} 1_X
   \stackrel{\underset{\epsilon_f}{\sum}}{\longleftarrow}
-  \underset{X}{\sum} \underset{f}{\sum} f^\ast 1_X 
+  \underset{X}{\sum} \underset{f}{\sum} f^\ast 1_X
   \stackrel{\simeq}{\longleftarrow}
   \underset{Z}{\sum} 1_Z
   \,.
@@ -1089,7 +1082,7 @@ $$
 This is just the $\Sigma$-functor of def. \ref{Sigma}:
 
 
-$$ 
+$$
   \mathbb{D}\int_Z id \, d\mu_f
   =
   \Sigma(f)
@@ -1102,8 +1095,23 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Given a correspondence with integral kernel as in example \ref{MatrixAsIntegralKernel}, then the induced secondary integral transform according to def. \ref{SIT} is the [[linear function]]
+
+$$
+  k^{\vert X_1\vert}
+  \longleftarrow
+  k^{\vert X_2\vert}
+$$
+
+represented by that matrix.
 
 =--
+
 
 
 
@@ -1120,6 +1128,10 @@ $$
 
 * [[cohesive homotopy type theory]]
 
+
+
+
+
 ## References
  {#References}
 
@@ -1128,28 +1140,28 @@ Plain [[linear type theory]] originates in
 *  [[Jean-Yves Girard]], _Linear logic_,   Theoretical Computer Science 50:1, 1987.  ([pdf](http://iml.univ-mrs.fr/~girard/linear.pdf))
  {#Girard87}
 
-The [[categorical semantics|categorical interpretation]] of Girard's $!$-[[modality]] as the [[comonad]] 
+The [[categorical semantics|categorical interpretation]] of Girard's $!$-[[modality]] as the [[comonad]]
 
-is due to 
+is due to
 
-* P. N. Benton, G. M. Bierman, [[Martin Hyland]], [[Valeria de Paiva]], _Term assignment for intuitonistic linear logic_, Technial Report 262, 
+* P. N. Benton, G. M. Bierman, [[Martin Hyland]], [[Valeria de Paiva]], _Term assignment for intuitonistic linear logic_, Technial Report 262,
 Computer Laboratory, University of Cambridge, August 1992.
 
 and that this is naturally to be thought of as arising from a [[monoidal adjunction]] between the closed [[symmetric monoidal category]] and a [[cartesian closed category]] is due to
 
 * {#Bierman95} G. Bierman, _On Intuitionistic Linear Logic_ PhD thesis, Computing
 Laboratory, University of Cambridge, 1995 ([pdf](http://research.microsoft.com/~gmb/papers/thesis.pdf))
- 
+
 * {#Benton95} N. Benton, _A mixed linear and non-linear logic; proofs, terms and
 models_, In _Proceedings of Computer Science Logic_ '94, vol. 933 of
 Lecture Notes in Computer Science. Verlag, June 1995.  ([[BentonLinearLogic.pdf:file]])
- 
-A review of all this and further discussion is in 
+
+A review of all this and further discussion is in
 
 * {#Barber97} Andrew Graham Barber, _Linear Type Theories, Semantics and Action Calculi_, 1997 ([web](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/&#8206;), [pdf](http://www.lfcs.inf.ed.ac.uk/reports/97/ECS-LFCS-97-371/ECS-LFCS-97-371.pdf))
 
-A [[syntax]] extending [[LF]] with linear dependent types was first published in 
- 
+A [[syntax]] extending [[LF]] with linear dependent types was first published in
+
 * {#Pfenning96} Iliano Cervesato, [[Frank Pfenning]], _A Linear Logical Framework_, 1996, ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.1152))
 
 
@@ -1157,7 +1169,7 @@ Note that this framework was restricted to the _negative_ fragment of [[intuitio
 
 * {#WCFW03} Kevin Watkins, Iliano Cervesato, [[Frank Pfenning]], David Walker, _A concurrent logical framework I: Judgments and properties_, CMU technical report CMU-CS-02-101, revised May 2003 ([web](http://www.cs.cmu.edu/~fp/papers/CMU-CS-02-101.pdf))
 
-A dependent linear version of [[system L]] is considered in 
+A dependent linear version of [[system L]] is considered in
 
 * {#Spiwack14} [[Arnaud Spiwack]], section 5 of _A dissection of L_, preprint [pdf](http://assert-false.net/arnaud/papers/A%20dissection%20of%20L.pdf)
 
@@ -1173,16 +1185,16 @@ More recent work in the type-theoretic literature includes:
 
 * M. Gaboardi et al., _Linear Dependent Types for Differential Privacy_, in POPL '13, 2013.
 
-Discussion of what should be the [[categorical semantics]] of dependent linear type theory, namely [[indexed closed monoidal categories]], is in 
+Discussion of what should be the [[categorical semantics]] of dependent linear type theory, namely [[indexed closed monoidal categories]], is in
 
 * {#Shulman08} [[Mike Shulman]], _Framed bicategories and monoidal fibrations_, in  Theory and Applications of Categories,  Vol. 20, 2008, No. 18, pp 650-738.  ([arXiv:0706.1286](http://arxiv.org/abs/0706.1286), [TAC](http://www.tac.mta.ca/tac/volumes/20/18/20-18abs.html))
- 
+
 
 * {#PontoShulman12} [[Kate Ponto]], [[Mike Shulman]], _Duality and traces for indexed monoidal categories_, Theory and Applications of Categories, Vol. 26, 2012, No. 23, pp 582-659 ([arXiv:1211.1555](http://arxiv.org/abs/1211.1555))
- 
+
 
 * {#Shulman12} [[Mike Shulman]], _Enriched indexed categories_ ([arXiv:1212.3914](http://arxiv.org/abs/1212.3914))
- 
+
 
 Comments on the formalization of secondary [[integral transforms]] and [[path integral]] [[quantization]] in dependent linear homotopy-type theory are in
 
@@ -1191,7 +1203,7 @@ Comments on the formalization of secondary [[integral transforms]] and [[path in
 * {#HopkinsLurie} [[Michael Hopkins]], [[Jacob Lurie]], _[[Ambidexterity in K(n)-Local Stable Homotopy Theory]]_
 
 
-Proposals for a genuine [[syntax]] for dependent linear type theory are in 
+Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 * {#Vakar14} [[Matthijs Vákár]], _Syntax and Semantics of Linear Dependent Types_ ([arXiv:1405.0033](http://arxiv.org/abs/1405.0033))
 
@@ -1219,4 +1231,4 @@ Proposals for a genuine [[syntax]] for dependent linear type theory are in
 
 
 [[!redirects dependent linear type]]
-[[!redirects dependent linear types]]
+[[!redirects dependent linear types]] 
