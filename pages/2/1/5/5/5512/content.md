@@ -93,7 +93,7 @@ In a [[Wirthmüller context]], the projection formula/Frobenius reciprocity hold
 $$
   \overline{\pi}
   \;\colon\;
-  f_!(f^\ast(B)) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
+  f_!(f^\ast(B) \otimes A) \stackrel{\simeq}{\longrightarrow} B \otimes f_! A
 $$
 
 =--
