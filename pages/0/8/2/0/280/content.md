@@ -171,3 +171,9 @@ As an example, within the category of [[profinite group]]s, not all objects have
 [[!redirects actions]]
 [[!redirects group action]]
 [[!redirects group actions]]
+
+[[!redirects left action]]
+[[!redirects left actions]]
+
+[[!redirects right action]]
+[[!redirects right actions]]
