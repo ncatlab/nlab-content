@@ -31,6 +31,10 @@ Since the concept of [[spectrum]] is the refinement of the concept of [[abelian 
 
 [[!include homological and higher algebra -- table]]
 
+## Definition
+
+For details see _[[Introduction to Stable homotopy theory]]_, _[[Introduction to Stable homotopy theory -- 1-2|Part 1-2 -- Structured spectra]]_.
+
 ## Properties
 
 ### Relation to multiplicative generalized cohomology
