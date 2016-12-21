@@ -962,13 +962,13 @@ Here the analog of the [[virtual fundamental class]] on the [[moduli space]] of 
 
 The perspective on the BV-complex as a [[schreiber:derived critical locus]] is indicated in
 
-* [[nLab:Kevin Costello]], [[nLab:Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory -- Derived critical locus_ ([web](http://math.northwestern.edu/~costello/factorization_public.html#[[Derived%20critical%20locus]])) 
-{#CostelloGwilliam}
+* {#CostelloGwilliam} [[nLab:Kevin Costello]], [[nLab:Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory -- Derived critical locus_ ([web](http://math.northwestern.edu/~costello/factorization_public.html#[[Derived%20critical%20locus]])) 
+
 
 A clear discussion of the BV-complex as a means for homological [[path integral]] [[quantization]] is in 
 
-* [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
- {#Gwilliam}
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis (2013) ([[GwilliamThesis.pdf:file]])
+ 
 
 Related Chern-Simons type graded action functionals are discussed also in 
 
