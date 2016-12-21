@@ -10,6 +10,11 @@ What is called _Weyl quantization_ is a method of _[[quantization]]_ applicable 
 In Weyl quantization of the flat space $\mathbf{R}^n$, the classical observables of the form $f(x,p)$ are replaced by suitable operators which in the case when $f$ is a polynomial correspond to writing $f$ with $x$ and $p$ replaced by noncommutative variables $x$ and $i h\frac{\partial}{\partial x}$
 in symmetric or Weyl ordering. This means that all possible orderings between $x$ and $i h\frac{\partial}{\partial x}$ are summed with an equal weight. More generally, one can extend this rule to more general functions via integral formulas due Weyl and Wigner. This is also useful in fundations of the theory of [[pseudodifferential operator]]s. 
 
+## Related concepts
+
+* [[free field theory]]
+
+
 ## References
 
 * [[Lars Hörmander]], _The Weyl calculus of pseudodifferential operators_, Comm. Pure Appl. Math. __32__ (1979), no. 3, 360&#8211;444. [MR80j:47060](http://www.ams.org/mathscinet-getitem?mr=517939), [doi](http://dx.doi.org/10.1002/cpa.3160320304)
@@ -30,6 +35,14 @@ Discussion of [[quantization of Chern-Simons theory]] in terms of Weyl quantizat
 
 * {#GelcaUribe10b} [[Razvan Gelca]], [[Alejandro Uribe]], _Quantum mechanics and non-abelian theta functions for the gauge group $SU(2)$_ ([arXiv:1007.2010](http://arxiv.org/abs/1007.2010))
 
+Discussion of the generalization to [[BV-quantization]] is in
+
+* [[Owen Gwilliam]], [[Rune Haugseng]], _Linear Batalin-Vilkovisky quantization as a functor of ∞-categories_ ([arXiv:1608.01290](https://arxiv.org/abs/1608.01290))
+
+[[!redirects Weyl functional calculi]]
 
 [[!redirects Weyl calculus]]
+[[!redirects Weyl calculi]]
+
 [[!redirects Weyl quantization]]
+[[!redirects Weyl quantizations]]
