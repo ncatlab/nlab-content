@@ -532,10 +532,12 @@ A famous example of this is the [[topological twist|topologically twisted]][[2d 
 
 ## References
 
-* [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
- {#CostelloGwilliam}
+* {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
+ 
 
 * {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([[GwilliamThesis.pdf:file]])
+
+* [[Owen Gwilliam]], [[Rune Haugseng]], _Linear Batalin-Vilkovisky quantization as a functor of ∞-categories_ ([arXiv:1608.01290](https://arxiv.org/abs/1608.01290))
  
 
 [[!redirects free field theories]]
