@@ -1772,6 +1772,7 @@ induced by these spans constitute the $E_n$-action on the function objects on $X
 
 This was observed in ([Ben-ZviFrancisNadler, corollary 6.8](#Ben-ZviFrancisNadler)).
 
+For $d = 1$, under the identification of the [[HKR theorem]] above (when it applies),  the Gerstenhaber bracket is identified with the [[Schouten bracket]] ([Tsyagin, theorem 2.2.2](https://arxiv.org/abs/math/9904132v1))
 
 
 +-- {: .num_remark }
@@ -1793,6 +1794,9 @@ In [Hu-Kriz-Voronov (2003)](#HuKrizVoronov) it was further shown that for $A$ an
 Notice that the identification of Hochschild (co)homology as coming from higher order free loop spaces makes all this structure manifest.
 
 =--
+
+
+
 
 
 #### $HH$ of constant $\infty$-stacks: String topology BV-algebra {#StringTopology}
