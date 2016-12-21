@@ -535,7 +535,7 @@ A famous example of this is the [[topological twist|topologically twisted]][[2d 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf))
  {#CostelloGwilliam}
 
-* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf))
+* {#Gwilliam} [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([[GwilliamThesis.pdf:file]])
  
 
 [[!redirects free field theories]]
