@@ -90,6 +90,11 @@ A consequence of Corollary 2 is that if $Alb : Var_* \to AbVar$ is the left adjo
 
 * [[André Weil]], _Courbes alg&#233;briques et vari&#233;t&#233;s ab&#233;liennes_, Paris: Hermann 1971
 
+In [[E-infinity geometry]]:
+
+* {#LurieI} [[Jacob Lurie]], _Elliptic Cohomology I: Spectral Abelian Varieties_ ([pdf](http://www.math.harvard.edu/~lurie/papers/Elliptic-I.pdf))
+
+
 For a discussion of how the rigidity lemma gives 'automatic abelianness' see:
 
 * [Two miracles in algebraic geometry](https://golem.ph.utexas.edu/category/2016/08/the_magic_of_algebraic_geometr.html), _The n-Category Caf&eacute_.
