@@ -24,10 +24,17 @@ Given a [[Lorentzian manifold]], then its _causal structure_ is the information 
 
 This causal stucture is closely related to the underlying [[conformal structure]]. One may also define a concept of a _[[manifold]] with causal structure_ or _causal manifold_ without reference to a concept of Lorentian pseudo-Riemannian structure ([Bannier 88](#Bannier88), [Rainer 99](#Rainer99), [Khavkine 12](#Khavkine12)).
 
+## In algebraic quantum field theory
+
+In the formalization of [[quantum field theory]] in terms of [[locally covariant AQFT]] a QFT over a [[background field]] of classical [[gravity]] is axiomatized as a [[local net]] on a category of [[Lorentzian manifolds]]. Making more of the degrees of freedom of [[gravity]] become quantized themselves would mean to replace the latter with a category of manifolds with less structure than [[Lorentzian manifold]] structure. Since the causal structure is necessary to express "[[local net]]" at all, one idea is to consider local nets on a category of causal manifolds. 
+
+This idea is mentioned as motivation for developing concepts of causal manifolds for instance in [Rainer 99](#Rainer99), and in a more sophisticated version in [Khavkine 12](#Khavkine12).
+
 ## Related concepts
 
 * [[causal set]]
 
+* [[causal locality]]
 
 ## References
 
