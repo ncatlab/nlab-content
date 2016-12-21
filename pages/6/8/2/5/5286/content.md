@@ -23,7 +23,7 @@ A **Batalin-Vilkovisky algebra** or **BV-algebra** for short is
 
 * a [[Gerstenhaber algebra]] $(A, \cdot, [-,-])$
 
-* equipped with a unary [[linear operator]] $\Delta : A \to A$ of degree +1
+* equipped with a unary [[linear operator]] $\Delta : A \to A$ of the same degree as the bracket
 
 * such that
 
@@ -45,14 +45,8 @@ A **$(n+1)$-BV algebra** is a similar structure with a BV-operator being of degr
 
 =--
 
-See ([Cohen-Voronov, def. 5.3.1](#CohenVoronov)) for details.
+See ([Cohen-Voronov, def. 5.3.1, theorem 2.1.3](#CohenVoronov)) for details.
 
-+-- {: .num_remark}
-###### Remark
-
-Beware that the definition of BV-algebra is very similar to that of _[[BD-algebra]]_, but there is a crucial difference in the sign of the the grading of the bracket (e.g. [Gwilliam 13, footnote 7](#Gwilliam13)). Beware that, confusingly, it is the [[BD-algebras]], not the BV-algebras, which control [[BV-formalism]] in [[field theory]].
-
-=--
 
 
 ## Properties
@@ -94,6 +88,8 @@ Multivector fields may be identified with [[Hochschild cohomology]] in good case
 
   * [[dg-BV-algebra]]
 
+* [[BD-algebra]]
+
 ## References
 
 The identification o BV-algebras as algebras over the homology of the framed little disk operad is due to
@@ -103,12 +99,11 @@ The identification o BV-algebras as algebras over the homology of the framed lit
 
 The generalization to higher dimensional framed little disks is discussed in
 
-* [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
-{#CohenVoronov}
+* {#CohenVoronov} [[Ralph Cohen]], [[Alexander Voronov]], _Notes on string topology_ ([arXiv:math/0503625](http://arxiv.org/abs/math/0503625))
 
-* [[Paolo Salvatore]], Nathalie Wahl, _Framed discs operads and Batalin-
-Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
-{#SalvatoreWahl}
+
+* {#SalvatoreWahl} [[Paolo Salvatore]], Nathalie Wahl, _Framed discs operads and Batalin-Vilkovisky algebras_ ([pdf](http://www.math.ku.dk/~wahl/SalvatoreWahl.pdf))
+
 
 There are examples coming from Lagrangian intersection theory
 
