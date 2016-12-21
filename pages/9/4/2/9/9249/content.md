@@ -7,6 +7,8 @@
 
 The _Beilinson-Drinfeld operad_ is the [[operad]] whose [[algebras over an operad]] are [[BD algebras]].
 
+See at _[[relation between BV and BD]]_.
+
 ## Definition
 
 The underlying graded vector spaces are
@@ -39,3 +41,5 @@ The BD operad was introduced in
 A review in the context of [[factorization algebras of observables]] is in section 2.4 of 
 
 * [[Kevin Costello]], [[Owen Gwilliam]], _Factorization algebras in perturbative quantum field theory : $P_0$-operad_ ([wiki](http://math.northwestern.edu/~costello/factorization_public.html#[[P_0%20operad]]), [pdf](http://math.northwestern.edu/~gwilliam/factorization.pdf)) 
+
+[[!redirects BD-operad]]
