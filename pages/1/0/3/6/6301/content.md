@@ -61,6 +61,8 @@ It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolutio
 
 * [[local quantum field theory]]
 
+* [[causal structure]]
+
 * in [[FQFT]]: 
 
   [[extended field theory]]
