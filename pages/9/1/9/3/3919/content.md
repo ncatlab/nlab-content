@@ -14,11 +14,12 @@
 {:toc}
 
 ## Idea
+
 From the physical point of view there are two different reasons to consider the [[Haag-Kastler axioms|Haag-Kastler]] approach on more general [[spacetime]]s than the [[Minkowski spacetime]]:
 
 * It is expected that such a theory, while not solving the problem to construct a theory of [[quantum gravity]], would still have a wide range of validity.
 
-* From a conceptual viewpoint abandoning the special situation of the Minkowski spacetime could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a [[quantum field theory]] better.
+* From a conceptual viewpoint abandoning the special situation of [[Minkowski spacetime]] could lead to the development of new ideas and tools that turn out to be helpful to understand the concept of a [[quantum field theory]] better.
 
 The first point deserves some elaboration: The curved manifolds under consideration are supposed to be solutions to the field equations of [[General Relativity]], i.e. physically realistic spacetimes, so that [[gravity]] is modelled classically by the [[curvature]] of [[spacetime]]. A quantum field theory on such a spacetime should be able to model the situation of elementary particles that feel the effects of gravity while neglecting the effect that the particles themselves have on spacetime (the notion of "particle" is highly nontrivial and problematic in this setting and is to be understood in a metaphorical sense in the given context). 
 
@@ -29,13 +30,25 @@ While a full theory of quantum gravity still eludes us, a theory of quantum fiel
 
 * [[general covariance]]
 
+* [[causal structure]]
+
 ## References
 
-A classic reference is this:
+A classic text on the general issue of quantum field theory on curved spacetimes is
 
 * [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
-Reviews with emphases of the AQFT-point of view include
+The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ("locally covariant AQFT") is due to
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spaceitmes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
+ {#BrunettiFredenhagen}
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
+
+* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Backgrounds_ , Proceedings of the Kompaktkurs "Quantenfeldtheorie auf gekruemmten Raumzeiten" held at Universitaet Potsdam, Germany, in 8.-12.10.2007, organized by C. Baer and K. Fredenhagen
+
+
+Reviews with emphasis on this AQFT-point of view include
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], _[Quantum Field Theory on Curved Backgrounds] (http://xxx.uni-augsburg.de/abs/0901.2063)_
 
@@ -66,3 +79,7 @@ Discussion of the [[standard model of cosmology]] in the context of AQFT on curv
 [[!redirects quantum field theory on curved spacetime]]
 
 [[!redirects AQFT on curved backgrounds]]
+
+[[!redirects locally covariant algebraic quantum field theory]]
+[[!redirects locally covariant AQFT]]
+
