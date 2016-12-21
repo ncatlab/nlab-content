@@ -53,6 +53,8 @@ The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of an $E_\infty$-
 
 * [[model structure for ring spectra]]
 
+* [[Hopf E-infinity ring]]
+
 * [[∞-group of units]]
 
 * [[logarithmic cohomology operation]]
