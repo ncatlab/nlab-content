@@ -13,6 +13,10 @@
 * table of contents
 {:toc}
 
+## Idea
+
+For the actual relation to [[BV-complexes]] see at _[[relation between BV and BD]]_.
+
 ## Definition
 
 +-- {: .num_defn}
