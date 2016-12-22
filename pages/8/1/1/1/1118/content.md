@@ -67,6 +67,7 @@ Even if $C$ doesn\'t have *all* binary products, as long as products with $G$ (a
 
 
 ### In terms of presheaves of groups
+ {#InTermsOfPresheavesOfGroups}
 
 +-- {: .num_prop}
 ###### Proposition
