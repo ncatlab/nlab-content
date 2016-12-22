@@ -4,7 +4,7 @@
 
 ## Idea
 
-A **spectral group scheme** is a [[group scheme]] in [[E-∞ geometry]]. The dual notion is a [[Hopf E-∞ algebra]].
+A **spectral group scheme** is a [[group scheme]] in [[E-∞ geometry]]. In the affine case then the [[formal dual]] notion is a [[Hopf E-∞ algebra]].
 
 ## Example
 
