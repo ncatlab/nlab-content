@@ -68,10 +68,21 @@ Textbook accounts include
 For [[complex cobordism theory]] see the references there. 
 
 
+[[!redirects cobordism cohomology theories]]
+
 [[!redirects cobordism cohomology]]
+[[!redirects cobordism cohomologies]]
 
 [[!redirects cobordism homology theory]]
+[[!redirects cobordism homology theories]]
+
+[[!redirects cobordism homology]]
+[[!redirects cobordism homologies]]
+
+[[!redirects bordism homology]]
+[[!redirects bordism homologies]]
 
 [[!redirects bordism cohomology theory]]
+[[!redirects bordism cohomology theories]]
 
 
