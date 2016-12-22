@@ -64,7 +64,7 @@ Once again, this geometric object can be abstracted into a purely combinatorial 
 To construct the Gauss code, begin by assigning arbitrary labels to the crossings, then run the length of the knot (starting at some arbitrary base point) and output the name of each crossing as you visit it, together with a [[bit]] (or two bits in the case of a framed knot) specifying whether you are at an over-crossing or an under-crossing (of positive or negative writhe).
 (In this notation, the involution on the points of the underlying chord diagram is encoded implicitly as a _double-occurrence word_.)
 
-Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles.
+Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles (see the chapter titled "Gauss is back: curves in the plane" of Ghys's _[A singular mathematical promenade](#Ghys16)_).
 This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
 
 ## Chord diagrams of singular knots
@@ -111,7 +111,7 @@ For the connection to [[Vassiliev invariants]] of [[singular knots]], see:
 
 The following book contains an extensive discussion of chord diagrams associated to singular points of analytic curves:
 
-* &#201;tienne Ghys, _A Singular Mathematical Promenade_, preliminary version of December 2016. ([author pdf](http://perso.ens-lyon.fr/ghys/articles/Promenade.pdf))
+* {#Ghys16} &#201;tienne Ghys, _A Singular Mathematical Promenade_, preliminary version of December 2016. ([arXiv:1612.06373](https://arxiv.org/abs/1612.06373)) ([author pdf](http://perso.ens-lyon.fr/ghys/articles/Promenade.pdf))
 
 [[!redirects chord diagrams]]
 [[!redirects rooted chord diagram]]
