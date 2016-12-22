@@ -21,7 +21,7 @@ A _commutative Hopf algebroid_ is a [[Hopf algebroid]] where all multiplication 
 
 A commutative Hopf algebroid is in particular a _[[Hopf algebroid over a commutative base]]_, but the latter may be more general.
 
-Commutative Hopf algebroidseta appear prominently in [[stable homotopy theory]]/[[higher algebra]] as the [[dual Steenrod algebras]] of certain classes of [[multiplicative cohomology theory|multiplicative]] [[generalized homology theories]] $E$. As such they play a key role in the $E$-[[Adams spectral sequence]].
+Commutative Hopf algebroids appear prominently in [[stable homotopy theory]]/[[higher algebra]] as the [[dual Steenrod algebras]] of certain classes of [[multiplicative cohomology theory|multiplicative]] [[generalized homology theories]] $E$. As such they play a key role in the $E$-[[Adams spectral sequence]].
 
 ## Definition
 
