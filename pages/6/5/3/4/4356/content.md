@@ -1,9 +1,18 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Manifolds and cobordisms
++-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
-***
+=--
+#### Cohomology
++--{: .hide}
 [[!include cohomology - contents]]
-</div>
+=--
+=--
+=--
+
 
 
 #Contents#
