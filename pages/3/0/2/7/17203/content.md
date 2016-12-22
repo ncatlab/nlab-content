@@ -126,7 +126,7 @@ See also at _[[complex orientation and MU]]_.
 
 ### $MU$-homology of a manifold: Cobordisms in $X$
 
-For $X$ a [[manifold]], the [[group]] $MU_\ast(X)$ is the group of equivalence classes of maps $\Sigma \to X$ from manifolds $\Sigma$ with [[complex structure]] on the stable [[normal bundle]], modulo suitable complex [[cobordisms]].
+For $X$ a [[manifold]], the $MU$-homology [[group]] $MU_\ast(X)$ of its underlying [[homotopy type]] is the group of equivalence classes of maps $\Sigma \to X$ from manifolds $\Sigma$ with [[complex structure]] on the stable [[normal bundle]], modulo suitable complex [[cobordisms]].
 
 e.g ([Ravenel chapter 1, section 2](#Ravenel))
 
