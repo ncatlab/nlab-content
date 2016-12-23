@@ -2191,7 +2191,7 @@ Then there are [[strong monoidal functors]]
 
 $$
   k[\beta,\beta^{-1}] Mod
-    \underovrset
+    \underoverset
       {\underset{(-)|_{0,1}}{\longrightarrow}}
       {\overset{}{\longleftarrow}}
       {\simeq}
@@ -2461,11 +2461,11 @@ for the same object, regarded in the category of commutative monoids. We also ca
 +-- {: .num_defn #AffineSuperSchemes}
 ###### Definition
 
-For the special case that $\mathal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
+For the special case that $\mathcal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
 in def. \ref{Affines}, then we say that the objects in
 
 $$
-  Aff(sVect_k) = scAlg_k^{op} =  CMon(sVect_k)^{op}
+  Aff(sVect_k) = sCAlg_k^{op} =  CMon(sVect_k)^{op}
 $$
 
 are **[[affine super schemes]]** over $k$.
