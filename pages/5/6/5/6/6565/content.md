@@ -1,35 +1,15 @@
 
-+-- {: .rightHandSide}
-+-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
-=--
-=--
+> This page is about the book by Artin. For discussion of [[Clifford algebra]] see at _[[geometric algebra]]_.
 
-#Contents#
-* table of contents
-{:toc}
+***
 
-## Idea
 
-What has come to be called _Geometric Algebra_ is a school of thought among some [[physics|physicists]] who amplify the good use of [[Clifford algebra]] in treatments of basic [[classical mechanics]] and [[quantum mechanics]].
+* [[Emil Artin]]
 
-This is not about deep mathematical properties of Clifford algebras (for instance something like [[Bott periodicity]] or [[K-theory]] will never be mentioned in "Geometric Algebra"-texts), but is about clean and useful exposition of basic mechanics (classical and quantum). One point being made here is that the traditional textbook emphasis on the special geometry of the [[Cartesian space]] $\mathbb{R}^3$ with its exceptional [[vector product]] structure is outdated and contra-productive and can be replaced by a more elegant and more universal description in terms of [[bivector]] calculus (which canonically embeds into the [[Clifford algebra]]).
+  _Geometric Algebra_,
 
-Geometric Algebra is, naturally, strongest where it comes to the description of [[rotation]] and [[spin]]. 
+  Wiley 1957 (1988)
 
-At other points the strict emphasis of the Clifford algebra is maybe a bit too much.
+on [[classical Lie groups]] in a [[Klein geometry]] context.
 
-## References
-
-The existence of the school of thought called _Geometric Algebra_ goes back to 
-
-* [[David Hestenes]], ...
-
-Comprehensive [[mechanics]] textbooks written in this style are for instance
-
-* Chris Doran, Anthony Lasenby, _Geometric algebra for physicists_ Cambridge University Press (2003) ([pdf](http://catdir.loc.gov/catdir/samples/cam033/2002035182.pdf))
-
+category: reference
