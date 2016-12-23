@@ -607,7 +607,7 @@ Let $C$ be a [[site]]. A **[[local epimorphism]]** (or **generalized cover**) in
 
 $$
   \array{
-    j(U_i) &\stackrel{\exists \sigma}{\to}& F
+    j(U_i) &\stackrel{\exists \sigma}{\to}& E
     \\
     \downarrow && \downarrow
     \\
