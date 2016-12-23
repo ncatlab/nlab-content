@@ -350,14 +350,14 @@ $$
 =--
 
 
-### Weil algebras: functions on small infintiesimal spaces
+### Weil algebras: functions on small infinitesimal spaces
 
 A _Weil algebra_ in this context is a finite-dimensional commutative $\mathbb{R}$-algebra $W$ with a maximal ideal $I$ such that $W/I \simeq \mathbb{R}$ and $I^n = 0$ for some $n \in \mathbb{N}$. 
 
 +-- {: .num_prop}
 ###### Proposition
 
-There is a unique $C^\infty$-ring structure on a Weil alghebra $W$. It makes $W$ a finitely presented $C^\infty$-ring.
+There is a unique $C^\infty$-ring structure on a Weil algebra $W$. It makes $W$ a finitely presented $C^\infty$-ring.
 
 =--
 
@@ -707,7 +707,7 @@ the square-0-extension $R \oplus N \to R$. (See [[module]]).
 
 From this structure alone a lot of further structure follows:
 
-* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \olus N \to A$ in $C/A$, in the category $C$ namely a ring homomorphism 
+* a [[derivation]] $\delta A \to N$ is precisely a [[section]] of the corresponding morphism $A \oplus N \to A$ in $C/A$, in the category $C$ namely a ring homomorphism 
 
   $$
     \array{
@@ -729,7 +729,7 @@ From this structure alone a lot of further structure follows:
   that sends each ring to its module of [[Kähler differential]]s.
 
   The fact that it is left adjoint is the universal property
-  of the K&#228;hler differentials as te objects co-representing
+  of the K&#228;hler differentials as the objects co-representing
   derivations
 
   $Hom_{Ab(Ring/R)}(\Omega_K^1(A),N) \simeq 
@@ -740,7 +740,7 @@ From this structure alone a lot of further structure follows:
 
 This abstract story remains precisely the same for $C^\infty$-rings (and in fact for everything else!) but what it means concretely changes.
 
-The crucial observation is (as one can show) that an abelian group object in $C^\infty Ring/A$ is a square-0 extension $(A \oplus N)$ for $N$ an (ordinary) module of the _underlying_ $\mathbb{R}$-algebra $A$. This square-0-extension happens to be _uniquely_ equipped with the $C^\infty$-Ring-struncture given by
+The crucial observation is (as one can show) that an abelian group object in $C^\infty Ring/A$ is a square-0 extension $(A \oplus N)$ for $N$ an (ordinary) module of the _underlying_ $\mathbb{R}$-algebra $A$. This square-0-extension happens to be _uniquely_ equipped with the $C^\infty$-Ring-structure given by
 
 $$
   (f \in C^\infty(\mathbb{R}^n) \to \mathbb{R})
@@ -755,7 +755,7 @@ $$
   \,.
 $$
 
-This uniquely induced smooth structure on objects in $Ab(C^\infty Ring/A)$ then in turn affects the nature of the notion of derivation and of K&#228;hler differentials, as those are defined by general abstract reasooning from the former.
+This uniquely induced smooth structure on objects in $Ab(C^\infty Ring/A)$ then in turn affects the nature of the notion of derivation and of K&#228;hler differentials, as those are defined by general abstract reasoning from the former.
 
 First of all it follows that a [[derivation]] -- by general abstract definition  a morphism of $C^\infty$-rings $Id \oplus \delta : A \to A \oplus N$ -- is a morphism that satisfies _for all_ $f \in C^\infty(\mathbb{R}^n, \mathbb{R})$ that
 
@@ -839,7 +839,7 @@ based on the general machinery of [[structured (∞,1)-topos]]es in
 
 where this is briefly mentioned in the very last paragraph.
 
-See also the references at [[Fermat theory]], of which $C^\infty$-rings are a sepcial case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
+See also the references at [[Fermat theory]], of which $C^\infty$-rings are a special case. And the references at [[smooth locus]], the formal dual of a $C^\infty$-ring.
 And the references at [[super smooth topos]], which involves generalizations of $C^\infty$-rings to [[supergeometry]].
 
 
