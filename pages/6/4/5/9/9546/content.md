@@ -79,6 +79,6 @@ $$
 
 ## References
 
-* [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147 ([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K))
- {#KK}
+* {#KK} [[Gennady Kasparov]], _Equivariant KK-theory and the Novikov conjecture_, Inventiones Mathematicae, vol. 91, p.147 ([web](http://adsabs.harvard.edu/abs/1988InMat..91..147K))
 
+* [[Christopher Douglas]], _On the Twisted K-Homology of Simple Lie Groups_, Topology 45 (2006), 955-988 ([arXiv:math/0402082](https://arxiv.org/abs/math/0402082))
