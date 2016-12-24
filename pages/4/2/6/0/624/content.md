@@ -29,7 +29,7 @@ A more precise intuition is that an object is dualizable if its "size" is no lar
 +-- {: .num_remark}
 ###### Remark
 
-Bewaare that there are other notions of "dual object", distinct from this one. See for example _[[dual object in a closed category]]_, and also the discussion at _[[category with duals]]_.
+Beware that there are other notions of "dual object", distinct from this one. See for example _[[dual object in a closed category]]_, and also the discussion at _[[category with duals]]_.
 
 =--
 
