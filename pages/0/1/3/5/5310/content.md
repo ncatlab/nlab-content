@@ -20,7 +20,7 @@ However, in any linearly ordered field with an absolute value (including any [[r
 
 If we accept results in the [[complex numbers]] (or in $K[\mathrm{i}]$ for $K$ any real-closed field), then every element of $K$ has a square root.  Even if $y$ is close to zero, we can still use
 $$ \sqrt{y} \coloneqq \sqrt{\frac{{|y|} + y}2} + \sqrt{\frac{{|y|} - y}2}\mathrm{i} $$
-to construct a square root of $y$.  However, we *cannot* prove that every complex number has a square root in the [[internal language]] of an aribtrary [[W-topos]], although [[weak countable choice]] is enough to prove this.  (See [Richman (1998)](#Richman).)  A counterexample is the topos of [[sheaves]] on the [[real line]], since there is no [[continuous map|continuous]] function $\sqrt{}\colon U \to \mathbb{C}$ for $U$ any [[neighbourhood]] of $0$ in $\mathbb{C}$.  This is important for interpreting the [[quadratic formula]].
+to construct a square root of $y$.  However, we *cannot* prove that every complex number has a square root in the [[internal language]] of an arbitrary [[W-topos]], although [[weak countable choice]] is enough to prove this.  (See [Richman (1998)](#Richman).)  A counterexample is the topos of [[sheaves]] on the [[real line]], since there is no [[continuous map|continuous]] function $\sqrt{}\colon U \to \mathbb{C}$ for $U$ any [[neighbourhood]] of $0$ in $\mathbb{C}$.  This is important for interpreting the [[quadratic formula]].
 
 +-- {: .query}
 How much choice is needed to prove that every element of $K[\mathrm{i}]$ has a square root, where $K$ is *any* real-closed field?  Maybe [[COSHEP]] will do?
