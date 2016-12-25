@@ -398,7 +398,7 @@ Let $L \dashv R$ be a pair of adjoint functors. Then the following holds:
 
 * $R$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[epimorphism]] $L R x \stackrel{}{\to} x $;
 
-* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is an [[split monomorphism]] $L R x \stackrel{}{\to} x $;
+* $R$ is [[full functor|full]] precisely if the component of the [[unit of an adjunction|counit]] over every object $x$ is a [[split monomorphism]] $L R x \stackrel{}{\to} x $;
 
 * $L$ is [[faithful functor|faithful]] precisely if the component of the [[unit of an adjunction|unit]] over every object $x$ is a [[monomorphism]] $x \hookrightarrow R L x $;
 
