@@ -5,8 +5,9 @@
 
 ## Idea
 
-In a [[co-Heyting algebra]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
-$$ (- \setminus y) \dashv (y \vee -)$$
+The basic example of subtraction is, of course, the partial operation in the monoid of natural numbers or in the integers. It is often the first illustration of a non-associative operation met in abstract algebra.
+
+
 
 
 ## Abstract
@@ -25,6 +26,11 @@ $$ (- \setminus y) \dashv (y \vee -)$$
 
 
 ## Examples
+
+1. In a [[co-Heyting algebra]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
+$$ (- \setminus y) \dashv (y \vee -)$$
+
+This is related to [[subtractive logic]].
 
 ...
 
