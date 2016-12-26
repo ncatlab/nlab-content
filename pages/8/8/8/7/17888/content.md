@@ -1,35 +1,37 @@
+
 # Subtraction
 * the following line creates the automatic table of contents
 {: toc}
 
-## Idea ##
+## Idea
 
-In a [[co-Heyting algebra]], subtraction is the operation [[left adjoint]] to the [[join]] operator. $_$[[subtraction|\]]y &#8867; y[[join|∨]]$_$
-
-## Abstract ##
-
-...
+In a [[co-Heyting algebra]], subtraction is the operation [[left adjoint]] to the [[join]] operator:
+$$ (- \setminus y) \dashv (y \vee -)$$
 
 
-## Definition ##
+## Abstract
 
 ...
 
 
-## Properties ##
+## Definition
 
 ...
 
 
-## Examples ##
+## Properties
 
 ...
 
 
-## References ##
+## Examples
 
 ...
 
 
-[[!redirects <put page name here>]]
-[[!redirects <put page name here>s]]
+## References
+
+...
+
+
+[[!redirects subtraction]]
