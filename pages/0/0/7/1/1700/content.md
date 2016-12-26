@@ -448,6 +448,8 @@ Lecture notes on the Galois theory for schemes are in
 
 Some of the material above is taken from this.
 
+* [[Ravi Vakil]], [[Kirsten Wickelgren]] _Universal covering spaces and fundamental groups in algebraic geometry as schemes_, ([pdf](http://math.stanford.edu/~vakil/files/VW2Dec1910.pdf)).
+
 A comprehensive textbook is
 
 * [[Francis Borceux]], [[George Janelidze]], _Galois theories_ Cambridge University Press (2001)
@@ -472,8 +474,6 @@ See also
 * Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
 
 * {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 12/2/1975 ([web](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/breen1.html))
-
-* {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
 
 * {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
 
