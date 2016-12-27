@@ -45,7 +45,7 @@ We will have a pseudofunctor $F : Open(B)^{op}\to Grpd$, and this will be a stac
 
 *   A stack of groupoids, $F$, on $B$ is *locally non-empty* if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is non-empty, for $U \in \mathcal{U}$.
 
-*   A stack of groupoids, $F$, on $B$ is said to be *locally connected*  if there is an open covering $\mathcal{U}$ of $B$ for which each groupoid $F(U)$ is connected, for $U \in \mathcal{U}$.
+*   A stack of groupoids, $F$, on $B$ is said to be *locally connected*  if for each open $U$ in $B$ there is an open covering $\mathcal{U}$ of $B$ such that all elements in $F(U)$ become connected in all $F(U_i)$.
 
 
 and finally:
