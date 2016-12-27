@@ -45,7 +45,7 @@ If $\Omega \in \mathcal{T}$ is the [[subobject classifier]] in $\mathcal{T}$, th
 +-- {: .num_prop}
 ###### Proposition
 
-The power object of a map $f: A \to X$ is given by the equalizer of the maps $p, t$:
+The [[power object]] of a map $f: A \to X$ is given by the equalizer of the maps $p, t$:
 $$
   \array{
     P_X f && \dashrightarrow && P A \times X && \underoverset{t}{p}{\rightrightarrows} && P A
