@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Turaev-Viro model_ is a [[3d TQFT]] construction induced from a [[spherical category]]/[[fusion category]] $\mathcal{C}$. 
+The _Turaev-Viro model_, or more precisely _Turaev-Viro-Barrett-Westbury model_, is a [[3d TQFT]] construction induced from a [[spherical category]]/[[fusion category]] $\mathcal{C}$. 
 
 If $\mathcal{C}$ is moreover a [[modular tensor category]] then there exists also the [[Reshetikhin-Turaev construction]] [[3d TQFT]]. In this case the
 Turaev-Viro model is something like the "norm square" of the [[Reshetikhin-Turaev construction]] on $\mathcal{C}$.
@@ -81,5 +81,6 @@ A relation to the [[Levin-Wen model]] is discussed in
 
 
 [[!redirects Turaev-Viro construction]]
+[[!redirects Turaev-Viro-Barrett-Westbury model]]
 
 
