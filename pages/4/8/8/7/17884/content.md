@@ -6,7 +6,7 @@ This page here means to indicate how all these structures are similar and yet di
 
 $\,$
 
-Write all [[chain complexes]] in the following with [[differential]] $d$ of degree +1.
+Consider all [[chain complexes]] in the following with [[differential]] $d$ of degree +1.
 
 Write $E_2$ for the [[little disk operad]] and $E_2^{fr}$ for the [[framed little disk operad]]. The [[chain homology]] of these is the [[BV-operad]] $BV$ and the operad $P_2$ for [[Poisson 2-algebras]], respectively:
 
@@ -107,7 +107,7 @@ $$
   \,. 
 $$
 
-This has the same structure as the equation above for [[BV-algebras]] if we syntactically replace $d$ by $\Delta$ and remove the factor of $\hbar$. But since $d$ and $\Delta$ are on a different footing, these similarity between these two equations is only somewhat superficial.
+This has the same structure as the equation above for [[BV-algebras]] if we syntactically replace $d$ by $\Delta$ and remove the factor of $\hbar$. But since $d$ and $\Delta$ are on a different footing, the similarity between these two equations is only superficial.
 
 
 ## References
