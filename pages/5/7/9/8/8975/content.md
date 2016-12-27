@@ -89,3 +89,5 @@ For the connection between CPS and the [[Yoneda lemma]], see
 
 [[!redirects continuation-passing]]
 [[!redirects continuation passing]]
+
+[[!redirects continuation semantics]]
