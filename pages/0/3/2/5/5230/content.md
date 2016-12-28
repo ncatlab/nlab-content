@@ -45,15 +45,18 @@ Nambu mechanics and Nambu brackets were introduced in
 
 * [[Yoichiro Nambu]], _Generalized Hamiltonian dynamics_, Phys. Rev. D (3) 7 (1973), p. 2405-2412 [MR455611](http://www.ams.org/mathscinet-getitem?mr=455611) [doi](http://dx.doi.org/10.1103/PhysRevD.7.2405) [Zbl](http://www.zentralblatt-math.org/zmath/en/search/?q=an:1027.70503)
 
+Detailed analysis is in
+
+* [[Tamiaki Yoneya]], _Generalized Hamilton-Jacobi theory of Nambu Mechanics_ ([arXiv:1612.08509](https://arxiv.org/abs/1612.08509))
+
+* [[Tamiaki Yoneya]], _Lectures on Higher-Gauge Symmetries from Nambu Brackets and Covariantized M(atrix) Theory_,  lectures delivered in the workshop "[Higher Structure in String Theory and M-theory](http://www.tfc.tohoku.ac.jp/event/4123.html)", TFC Thematic Program, Fundamental Problems on Quantum Physics, Tohoku University (March 7-11, 2016), ([arXiv:1612.08513](https://arxiv.org/abs/1612.08513))
+
 Reviews include 
 
 * Wikipedia, _[Nambu mechanics](http://en.wikipedia.org/wiki/Nambu_mechanics)_
 
 * Thomas Curtright, Cosmas Zachos, _Classical and Quantum Nambu Mechanics_, Phys. Rev. D68:085001 (2003) ([arXiv:hep-th/0212267](http://arxiv.org/abs/hep-th/0212267))
 
-Further developments include
-
-* M. Axenides, E. G. Floratos, [[Stam Nicolis]], _Nambu Quantum Mechanics on Discrete 3-Tori_, J. Phys. A42:275201 (2009) ([arXiv:0901.2638](http://arxiv.org/abs/0901.2638))
 
 ### Interpretation in higher symplectic geometry
 Comments on interpreting Nambu mechanics in [[2-plectic geometry]] (and in view of the [[IKKT matrix model]]) appear in
