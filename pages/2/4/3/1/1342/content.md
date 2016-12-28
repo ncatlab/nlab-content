@@ -552,5 +552,13 @@ A connection between the monadic descent and the descent in the language of fibe
 * [[Jean Bénabou]], [[Jacques Roubaud]], _Monades et descente_, C. R. Acad. Sc. Paris, t. 270 (12 Janvier 1970), Serie A, 96--98, ([link](http://gallica.bnf.fr/ark:/12148/bpt6k480298g/f100), Biblioth&#232;que nationale de France)
 
 [[!redirects descent and codescent]]
+
 [[!redirects codescent]]
+
+[[!redirects codescent object]]
+[[!redirects codescent objects]]
+
+
 [[!redirects descent theory]]
+
+
