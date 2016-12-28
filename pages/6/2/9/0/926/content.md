@@ -595,3 +595,6 @@ A pedagogical introduction to Postnikov systems with an eye towards their genera
 
 [[!redirects Postnikov decomposition]]
 [[!redirects Postnikov systems]]
+
+[[!redirects Postnikov approximation]]
+[[!redirects Postnikov approximations]]
