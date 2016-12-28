@@ -114,6 +114,12 @@ Discussion from the point of view of [[Galois theory]] is in
 
 * The use of many base points is  discussed at  this ([mathoverflow page] (http://mathoverflow.net/questions/40945/compelling-evidence-that-two-basepoints-are-better-than-one)).
 
+Discussion of the fundamental groupoid (for good [[topological spaces]] and for[ [[noetherian schemes]]) as the [[costack]] (via the [[Seifert-van Kampen theorem]]) characterized as being 2-[[terminal object|terminal]] is in 
+
+* {#Pirashvili14a} [[Ilia Pirashvili]], _The fundamental groupoid as a terminal costack_ ([arXiv:1406.4419](https://arxiv.org/abs/1406.4419))
+
+* {#Pirashvili14b} [[Ilia Pirashvili]], _The &#201;tale Fundamental Groupoid as a Terminal Costack_ ([arXiv:1412.5473](https://arxiv.org/abs/1412.5473))
+
  A recent paper in the area of dynamical systems which uses  fundamental groupoids on many base points   is:
 
 * Paul, E. and Ramis, J.-P.
