@@ -35,6 +35,14 @@ $Cl_{n+1}$-action. When $n = 0$ this is what we had above, since a $Cl_0$-module
 
 [Here](http://golem.ph.utexas.edu/category/2007/10/higher_clifford_algebras.html#c012972) is a report by [[Mike Shulman]] on a talk by Chris Douglas on this topic, from which also part of the above text is taken.
 
+## Related concepts
+
+* [[topological K-theory]]
+
+* [[Kasparov K-theory]]
+
+* [[conformal nets]]
+
 ## References 
 
 * [[Max Karoubi]], _Twisted K-theory old and new_, ([pdf](http://www.math.uiuc.edu/K-theory/0840/TwistedK-theory_mwd.pdf))
