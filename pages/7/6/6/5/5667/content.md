@@ -724,7 +724,7 @@ For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality
 
 * The [[Baum-Connes conjecture]] is naturally formulated within KK-theory.
 
-* The [[Novikov conjecture]] has been verified in many cases using KK-theory. (see for instance [Roseberg 80](#Rosernberg80)).
+* The [[Novikov conjecture]] has been verified in many cases using KK-theory. (see for instance [Rosenberg 80](#Rosenberg80)).
 
 * The [[Atiyah-Singer index theorem]] is naturally formutaled in KK-theory/[[E-theory]]. (See ([Higson-Roe](#HigsonRoe))).
 
@@ -757,20 +757,20 @@ For more and a discussion of [[twisted Umkehr maps]] see at _[[Poincaré duality
 
 KK-theory was introduced by [[Gennady Kasparov]] in 
 
-* [[Gennady Kasparov]], _The operator $K$-functor and extensions of $C^{\ast}$-algebras_, Izv. Akad. Nauk SSSR Ser. Mat. __44__  (1980), no. 3, 571&#8211;636, 719, [MR81m:58075](http://www.ams.org/mathscinet-getitem?mr=582160), [Zbl](http://www.zentralblatt-math.org/zmath/search/?an=Zbl%200464.46054%7CZbl%200448.46051), [abstract](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1739&option_lang=eng), [english doi](http://dx.doi.org/10.1070%2FIM1981v016n03ABEH001320), free Russian original: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=1739&volume=44&year=1980&issue=3&fpage=571&what=fullt&option_lang=eng)
- {#Kasparov80}
+* {#Kasparov80} [[Gennady Kasparov]], _The operator $K$-functor and extensions of $C^{\ast}$-algebras_, Izv. Akad. Nauk SSSR Ser. Mat. __44__  (1980), no. 3, 571&#8211;636, 719, [MR81m:58075](http://www.ams.org/mathscinet-getitem?mr=582160), [Zbl](http://www.zentralblatt-math.org/zmath/search/?an=Zbl%200464.46054%7CZbl%200448.46051), [abstract](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=im&paperid=1739&option_lang=eng), [english doi](http://dx.doi.org/10.1070%2FIM1981v016n03ABEH001320), free Russian original: [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=im&paperid=1739&volume=44&year=1980&issue=3&fpage=571&what=fullt&option_lang=eng)
+ 
 
 prompted by the advances in [[Brown-Douglas-Fillmore theory]], especially in the last 1977 article.
 
 Some streamlining of the definitions appeared in
 
-* [[Georges Skandalis]], _Some remarks on Kasparov theory_, J. Funct. Anal. 59 (1984) 337-347.
- {#Skandalis84}
+* {#Skandalis84} [[Georges Skandalis]], _Some remarks on Kasparov theory_, J. Funct. Anal. 59 (1984) 337-347.
+ 
 
 A textbook account is in 
 
-* [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, 2nd ed. Cambridge University Press, Cambridge (1999)
- {#Blackadar99}
+* {#Blackadar99} [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_, 2nd ed. Cambridge University Press, Cambridge (1999)
+ 
 
 Introductions and surveys include
 
@@ -780,23 +780,23 @@ Introductions and surveys include
 
 * [[Georges Skandalis]], _Kasparov's bivariant K-theory and applications_ Exposition. Math. 9, 193&#8211;250 (1991) ([pdf slides](http://www.math.vanderbilt.edu/~bisch/ncgoa08/talks/skandalis2.pdf))
 
-* _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
- {#Introduction}
+* {#Introduction} _Introduction to KK-theory and E-theory_, Lecture  notes (Lisbon 2009) ([pdf slides](http://oaa.ist.utl.pt/files/cursos/courseD_Lecture4_KK_and_E1.pdf))
+ 
 
 * [[Heath Emerson]], [[R. Meyer]] (notes taken by S. Hong), _KK-theory and Baum-Connes conjecture_, Lectures at _Summer school on operator algebras and noncommutative geometry_ (June 2010) ([pdf](http://www.pims.math.ca/files/EM_%20KK-theory_BC_Conjecture.pdf))
 
-* [[R. Meyer]], _How analysis and topology interact in bivariant K-theory_, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
- {#Meyer06}
+* {#Meyer06} [[R. Meyer]], _How analysis and topology interact in bivariant K-theory_, 2006 ([pdf](http://mate.dm.uba.ar/~gcorti/article.pdf))
+ 
 
 ### Excision
 
 Excision for KK-theory is further studied in 
 
-* [[Joachim Cuntz]], [[Georges Skandalis]], _Mapping cones and exact sequences in KK-theory_, J. Operator Theory 15 (1986) 163-180.
- {#CuntzSkandalis86}
+* {#CuntzSkandalis86} [[Joachim Cuntz]], [[Georges Skandalis]], _Mapping cones and exact sequences in KK-theory_, J. Operator Theory 15 (1986) 163-180.
+ 
 
-* [[Georges Skandalis]], _Une notion de nuclearit&#233; en K-theorie_, K-Theory 1 (1988) 549-574.
- {#Skandalis88}
+* {#Skandalis88} [[Georges Skandalis]], _Une notion de nuclearit&#233; en K-theorie_, K-Theory 1 (1988) 549-574.
+ 
 
 
 ### In Category theory and Homotopy theory
@@ -819,33 +819,32 @@ where moreover this category is realized as the [[universal property|universal]]
 
 The generalization of this statement to [[equivariant cohomology|equivariant]] KK-theory is in 
 
-* Klaus Thomsen, _The universal property of equivariant KK-theory_ ([K-theory preprint](http://www.math.uiuc.edu/K-theory/0249/))
- {#Thomsen98}
+* {#Thomsen98} Klaus Thomsen, _The universal property of equivariant KK-theory_ ([K-theory preprint](http://www.math.uiuc.edu/K-theory/0249/))
+ 
 
 Characterization of KK-theory as the [[satellites]] of a functor is in 
 
-* [[Hvedri Inassaridze]], _Universal property of Kasparov bivariant K-theory_ ([[InassaridzeOnKK.pdf:file]], [ps](http://www.math.uni-bielefeld.de/~bak/kasp.ps))
- {#Inassaridze}
+* {#Inassaridze} [[Hvedri Inassaridze]], _Universal property of Kasparov bivariant K-theory_ ([[InassaridzeOnKK.pdf:file]], [ps](http://www.math.uni-bielefeld.de/~bak/kasp.ps))
+ 
 
 A [[triangulated category]] structure for KK-theory is discussed in 
 
-* [[Ralf Meyer]], _Categorical aspects of bivariant K-theory_, ([arXiv:math/0702145](http://arxiv.org/abs/math/0702145))
- {#Meyer}
+* {#Meyer} [[Ralf Meyer]], _Categorical aspects of bivariant K-theory_, ([arXiv:math/0702145](http://arxiv.org/abs/math/0702145))
+ 
 
 * [[Ralf Meyer]], [[Ryszard Nest]], _Homological algebra in bivariant K-theory and other triangulated categories_ ([arXiv:math/0702146](http://arxiv.org/abs/math/0702146))
 
-* [[Ralf Meyer]], _KK-theory as a triangulated category_, Lecture notes (2009) ([pdf](http://wwwmath.uni-muenster.de/u/echters/Focused-Semester/lecturenotes/Meyer_--_KK-theory_as_a_triangulated_category.pdf))
- {#Meyer}
-
+* {#Meyer} [[Ralf Meyer]], _KK-theory as a triangulated category_, Lecture notes (2009) ([pdf](http://wwwmath.uni-muenster.de/u/echters/Focused-Semester/lecturenotes/Meyer_--_KK-theory_as_a_triangulated_category.pdf))
+ 
 A [[model category]] realization of KK-theory is discussed in 
 
-* [[Michael Joachim]], [[Mark Johnson]], _Realizing Kasparov's KK-theory groups as the homotopy classes of maps of a Quillen model category_ ([arXiv:0705.1971](http://arxiv.org/abs/0705.1971))
- {#JoachimJohnson07}
+* {#JoachimJohnson07} [[Michael Joachim]], [[Mark Johnson]], _Realizing Kasparov's KK-theory groups as the homotopy classes of maps of a Quillen model category_ ([arXiv:0705.1971](http://arxiv.org/abs/0705.1971))
+ 
 
 A [[category of fibrant objects]]-structure on [[C*Alg]] which unifies the above homotopical pictures is discussed in
 
-* [[Otgonbayar Uuye]], _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926](http://arxiv.org/abs/1011.2926))
- {#Uuye10}
+* {#Uuye10} [[Otgonbayar Uuye]], _Homotopy theory for $C^\ast$-algebras_ ([arXiv:1011.2926](http://arxiv.org/abs/1011.2926))
+ 
 
 More on this is at _[[homotopical structure on C*-algebras]]_.
 
@@ -853,51 +852,51 @@ Further discussion in the context of [[stable homotopy theory]] and [[E-theory]]
 
 * Martin Grensing, _Noncommutative stable homotopy theory_ ([arXiv:1302.4751](http://arxiv.org/abs/1302.4751))
 
-* [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
- {#Mahanta11}
+* {#Mahanta11} [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
+ 
 
 Refinement of [[operator K-theory]] to cohomology [[spectra]] is discussed in 
 
-* [[Ulrich Bunke]], [[Michael Joachim]], [[Stephan Stolz]], _Classifying spaces and spectra representing the K-theory of a graded $C^\ast$-algebra_, High-dimensional manifold topology, World Sci. Publ., River Edge, NJ, 2003, pp. 80&#8211;102
- {#BunkeJoachimStolz03}
+* {#BunkeJoachimStolz03} [[Ulrich Bunke]], [[Michael Joachim]], [[Stephan Stolz]], _Classifying spaces and spectra representing the K-theory of a graded $C^\ast$-algebra_, High-dimensional manifold topology, World Sci. Publ., River Edge, NJ, 2003, pp. 80&#8211;102
+ 
  
 This construction is functorial (only) for _essential_ $\ast$-homomorphisms of [[C*-algebras]].
 
 A refinement of the KK-category to a [[spectrum]]-[[enriched category]] ($\sim$ [[stable (∞,1)-category]]) is claimed in 
 
-* [[Michael Joachim]], [[Stephan Stolz]], _An enrichment of $KK$-theory over the category of symmetric spectra_ M&#252;nster J. of Math. 2 (2009), 143&#8211;182 ([pdf](http://www3.nd.edu/~stolz/KKenrich.pdf))
- {#JoachimStolz09}
+* {#JoachimStolz09} [[Michael Joachim]], [[Stephan Stolz]], _An enrichment of $KK$-theory over the category of symmetric spectra_ M&#252;nster J. of Math. 2 (2009), 143&#8211;182 ([pdf](http://www3.nd.edu/~stolz/KKenrich.pdf))
+ 
 
 and the generalization of this to [[equivariant K-theory]] over geometrically discrete groupoids is discussed in 
 
-* [[Paul Mitchener]], _$KK$-theory spectra for $C^\ast$-categories and discrete groupoid $C^\ast$-algebras_ ([arXiv:0711.2152](http://arxiv.org/abs/0711.2152))
- {#Mitchener07}
+* {#Mitchener07} [[Paul Mitchener]], _$KK$-theory spectra for $C^\ast$-categories and discrete groupoid $C^\ast$-algebras_ ([arXiv:0711.2152](http://arxiv.org/abs/0711.2152))
+ 
 
 but this construction is stated to be mistaken on p. 3 of 
 
-* [[Ivo Dell'Ambrogio]], [[Heath Emerson]], [[Tamaz Kandelaki]], [[Ralf Meyer]], _A functorial equivariant K-theory spectrum and an equivariant Lefschetz formula_ ([arXiv:1104.3441](http://arxiv.org/abs/1104.3441))
- {#DEKM11}
+* {#DEKM11} [[Ivo Dell'Ambrogio]], [[Heath Emerson]], [[Tamaz Kandelaki]], [[Ralf Meyer]], _A functorial equivariant K-theory spectrum and an equivariant Lefschetz formula_ ([arXiv:1104.3441](http://arxiv.org/abs/1104.3441))
+ 
 
 This article in turn considers a variant of the construction in ([Bunke-Joachim-Stolz 03](#BunkeJoachimStolz03)) which gives operator K-theory spectra that are functorial for general $\ast$-homomorphisms.
 
 
 Observations relating to a genuine [[stable (∞,1)-category]] structure maybe at least of [[E-theory]] are in 
 
-* [[Snigdhayan Mahanta]], _Noncommutative stable homotopy and semigroup $C^*$-algebras_,  ESI preprint 2394 ([arXiv:1211.6576](http://arxiv.org/abs/1211.6576))
- {#Mahanta12}
+* {#Mahanta12} [[Snigdhayan Mahanta]], _Noncommutative stable homotopy and semigroup $C^*$-algebras_,  ESI preprint 2394 ([arXiv:1211.6576](http://arxiv.org/abs/1211.6576))
+ 
 
 
 ### In the context of the Novikov conjecture
 
-* [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_ , Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
- {#Rosernberg80}
+* {#Rosenberg80} [[Jonathan Rosenberg]], _Group C*-algebras and Topological Invariants_ , Proc. Conf. in Neptun, Romania, 1980, Pitman (London, 1985)
+ 
 
 ### In the context of the Atiyah-Singer index theorem
 
 The classical [[Atiyah-Singer index theorem]] is reviewed in [[operator K-theory]] (with some hints towards KK-theory) in 
 
-* [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
- {#HigsonRoe}
+* {#HigsonRoe} [[Nigel Higson]], [[John Roe]], _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ (2004) ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+ 
 
 Generalization to the relative case in [[KK-theory]], hence for indices of fiberwise [[elliptic operators]] on [[Hilbert C*-module]]-[[fiber bundles]] is in
 
@@ -911,24 +910,24 @@ algebras]] in the context of [[geometric quantization]] [[geometric quantization
 
 * [[Klaas Landsman]], _Quantization as a functor_ ([arXiv:math-ph/0107023](http://arxiv.org/abs/math-ph/0107023))
 
-* [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ,  Proc. Bialowieza 2002 ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
- {#Landsman03}
+* {#Landsman03} [[Klaas Landsman]], _Functorial quantization and the Guillemin-Sternberg conjecture_ ,  Proc. Bialowieza 2002 ([arXiv:math-ph/0307059](http://arxiv.org/abs/math-ph/0307059))
+ 
 
-* [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
- {#Bos07}
+* {#Bos07} [[Rogier Bos]], _Groupoids in geometric quantization_ PhD Thesis (2007) ([pdf](http://www.math.ist.utl.pt/~rbos/ProefschriftA4.pdf))
+ 
 
 with a summary/exposition in
 
-* [[Klaas Landsman]], _Functoriality of quantization: a KK-theoretic approach_, talk at ECOAS, Dartmouth College, October 2010 ([web](http://www.academia.edu/1992202/Functoriality_of_quantization_a_KK-theoretic_approach))
- {#Landsman10}
+* {#Landsman10} [[Klaas Landsman]], _Functoriality of quantization: a KK-theoretic approach_, talk at ECOAS, Dartmouth College, October 2010 ([web](http://www.academia.edu/1992202/Functoriality_of_quantization_a_KK-theoretic_approach))
+ 
 
 
 See also the related references at _[[Guillemin-Sternberg geometric quantization conjecture]]_.
 
 The KK-theory of twisted convolution algebras and its relation to [[twisted K-theory]] of [[differentiable stacks]] is discussed in
 
-* [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
- {#TXLG}
+* {#TXLG} [[Jean-Louis Tu]], [[Ping Xu]], [[Camille Laurent-Gengoux]], _Twisted K-theory of differentiable stacks_ ([arXiv:math/0306138](http://arxiv.org/abs/math/0306138))
+ 
 
 Discussion of groupoid 1-[[cocycles]] and their effect on the [[groupoid algebra]] KK-theory is discussed in 
 
@@ -941,16 +940,16 @@ Discussion of groupoid 1-[[cocycles]] and their effect on the [[groupoid algebra
 
 KK-classes between [[algebras of functions]] on [[smooth manifolds]] are described in terms of [[equivalence classes]] of [[correspondence]] manifolds carrying a [[vector bundle]] in section 3 of
 
-* [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
+* {#ConnesSkandalis84} [[Alain Connes]], [[Georges Skandalis]], _The longitudinal index theorem for foliations_. Publ. Res. Inst. Math. Sci. 20,
 no. 6, 1139&#8211;1183 (1984) ([pdf](http://www.alainconnes.org/docs/longitudinal.pdf))
- {#ConnesSkandalis84}
+ 
 
 This generalizes the [[Baum-Douglas geometric cycles]] from [[K-homology]] to KK-theory.
 
 A further generalization of this, where one algebra $C(Y)$ is generalized to $C(Y) \otimes A$ for $A$ a unital separable $C^\ast$-algebra, is in section 3 of
 
-* [[Jonathan Block]], [[Shmuel Weinberger]], _Arithmetic manifolds of positive scalar curvature._, J. Diff. Geom. 52, no. 2, 375&#8211;406 (1999). ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.297))
- {#BlockWeinberger99}
+* {#BlockWeinberger99} [[Jonathan Block]], [[Shmuel Weinberger]], _Arithmetic manifolds of positive scalar curvature._, J. Diff. Geom. 52, no. 2, 375&#8211;406 (1999). ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.30.297))
+ 
 
 In section 5 of
 
@@ -975,8 +974,8 @@ Generalization of such [[correspondence]]-presentation to [[equivariant KK-theor
 
 based on 
 
-* [[Heath Emerson]], [[Ralf Meyer]] _Equivariant embedding theorems and topological index maps_, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
- {#EmersonMeyer09}
+* {#EmersonMeyer09} [[Heath Emerson]], [[Ralf Meyer]] _Equivariant embedding theorems and topological index maps_, Adv. Math. 225 (2010), 2840-2882 ([arXiv:0908.1465](http://arxiv.org/abs/0908.1465))
+ 
 
 * [[Heath Emerson]], [[Ralf Meyer]], _Dualities in equivariant Kasparov theory_ ([arXiv:0711.0025](http://arxiv.org/abs/0711.0025))
 
@@ -999,8 +998,8 @@ Further developments of this are in
 
 The general analogy between KK-cocycles and [[motives]] is noted explicitly in 
 
-* [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
- {#ConnesConsaniMarcolli05}
+* {#ConnesConsaniMarcolli05} [[Alain Connes]], Caterina Consani, [[Matilde Marcolli]], _Noncommutative geometry and motives: the thermodynamics of endomotives_ ([arXiv:math/0512138](http://arxiv.org/abs/math/0512138))
+ 
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
@@ -1010,14 +1009,14 @@ A relation between [[motivic cohomology]] and bivariant [[algebraic K-theory]] i
 
 * [[Guillermo Cortiñas]], [[Andreas Thom]], _Bivariant algebraic K-theory_. J. Reine Angew. Math. 510 (2007), 71&#8211;124. ([arXiv:math/0603531](http://arxiv.org/abs/math/0603531))
 
-* [[Snigdahayan Mahanta]], _Noncommutative correspondence categories, simplicial sets and pro $C^\ast$-algebras_ ([arXiv:0906.5400](http://arxiv.org/abs/0906.5400))
- {#Mahanta09}
+* {#Mahanta09} [[Snigdahayan Mahanta]], _Noncommutative correspondence categories, simplicial sets and pro $C^\ast$-algebras_ ([arXiv:0906.5400](http://arxiv.org/abs/0906.5400))
+ 
 
-* [[Snigdahayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
- {#Mahanta11}
+* {#Mahanta11} [[Snigdahayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities and applications to topological $\mathbb{T}$-duality_, Journal of Geometry and Physics, Volume 61, Issue 5 2011, p. 875-889.   ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf))
+ 
 
-* [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
- {#GarkushaPanin11}
+* {#GarkushaPanin11} [[Grigory Garkusha]], Ivan Panin, _K-motives of algebraic varieties_ ([arXiv:1108.0375](http://arxiv.org/abs/1108.0375))
+ 
 
 * [[Grigory Garkusha]], _Algebraic Kasparov K-theory. II_ ([arXiv:1206.0178](http://arxiv.org/abs/1206.0178))
 
@@ -1029,8 +1028,8 @@ For a collection of literature see also paragraph 1.5 in
 
 In
 
-*  [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_,  J. Geom. Phys., 61 (5), 875-889, 2011 ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
- {#Mahanta13}
+* {#Mahanta13} [[Snigdhayan Mahanta]], _Higher nonunital Quillen $K'$-theory, KK-dualities, and applications to topological T-duality_,  J. Geom. Phys., 61 (5), 875-889, 2011 ([pdf](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KQ.pdf), [talk notes](http://wwwmath.uni-muenster.de/u/snigdhayan.mahanta/papers/KKTD.pdf))
+ 
 
 it is shown that there is a universal functor $KK \longrightarrow NCC_{dg}$ from [[KK-theory]] to the category of [[noncommutative motives]], which is the category of [[dg-categories]] and dg-[[profunctors]] up to homotopy between them. This is given by sending a [[C*-algebra]] to the [[dg-category]] of [[perfect complexes]] of (the unitalization of) its underlying [[associative algebra]].
 
@@ -1044,8 +1043,8 @@ KK-theory also describes [[RR-field]] [[charges]] and sources in [[D-brane]] the
 
 A review is in
 
-* [[Richard Szabo]], _D-branes and bivariant K-theory_ ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
- {#Szabo}
+* {#Szabo} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
+ 
 
 based on
 
