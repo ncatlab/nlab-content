@@ -32,7 +32,7 @@ An __apartness space__ is a set $X$ equipped with a relation $\bowtie$ between p
 1. if $x\bowtie A$, then $x\notin A$.
 2. $x\bowtie (A\cup B)$ iff $x\bowtie A$ and $x\bowtie B$.
 3. $x\bowtie \emptyset$ for any $x$.
-4. If $x \bowtie A$, and $\forall y, (y\bowtie A \to y\notin B)$, then $x\bowtie B$.
+4. If $x \bowtie A$, and $\forall y, (y\bowtie A \to y\notin B)$, then $x\bowtie B$.  Equivalently, if $x\bowtie A$, then $x \bowtie \{ y \mid \neg (y\bowtie A) \}$.
 =--
 
 The relation $x\bowtie A$ should be regarded as a "positive" way of saying that $x$ does not belong to the [[closure]] of $A$, i.e. $x\notin \overline{A}$.  Under this interpretation, the above axioms contrapose to become
