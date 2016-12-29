@@ -29,7 +29,7 @@ $$
 
 From an [[nPOV]], one may consider this as follows: $\mathbb{Z}$ is a [[filtered colimit]] of sets 
 
-$$\mathbb{N} \stackrel{1 + -}{\to} \mathbb{N} \stackrel{1 + -}{\to} \mathbb{N} \stackrel{1 + -}{\to} \ldots$$ 
+$$\mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \mathbb{N} \stackrel{1 + (-)}{\to} \ldots$$ 
 
 whereby $-n \in \mathbb{Z}$ is represented by the element $0$ in the $n^{th}$ copy of $\mathbb{N}$ appearing in this diagram (starting the count at the $0^{th}$ copy). The resulting induced map to the colimit 
 
