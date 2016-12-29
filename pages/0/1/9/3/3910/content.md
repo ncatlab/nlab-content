@@ -27,11 +27,15 @@ $$
   \,.
 $$
 
-From an [[nPOV]], one may consider this as follows: $\mathbb{Z}$ is a [[filtered colimit]] of $\mathbb{N}$-sets 
+From an [[nPOV]], one may consider this as follows: $\mathbb{Z}$ is a [[filtered colimit]] of sets 
 
 $$\mathbb{N} \stackrel{1 + -}{\to} \mathbb{N} \stackrel{1 + -}{\to} \mathbb{N} \stackrel{1 + -}{\to} \ldots$$ 
 
-whereby $-n \in \mathbb{Z}$ is represented by the element $0$ in the $n^{th}$ copy of $\mathbb{N}$ appearing in this diagram. The group structure on $\mathbb{Z}$ may be extracted from this filtered colimit description. 
+whereby $-n \in \mathbb{Z}$ is represented by the element $0$ in the $n^{th}$ copy of $\mathbb{N}$ appearing in this diagram (starting the count at the $0^{th}$ copy). The resulting induced map to the colimit 
+
+$$\mathbb{N} \times \mathbb{N} \cong \sum_{m \in \mathbb{N}} \mathbb{N} \to \mathbb{Z}: (m, n) \mapsto n-m$$ 
+
+imparts a monoid (in fact a group) structure on $\mathbb{Z}$ descended from the monoid structure on $\mathbb{N} \times \mathbb{N}$; compare double-entry bookkeeping in medieval mathematics (*[partita doppia](http://rfcwalters.blogspot.com/2011/02/mathematical-economics-double-entry.html)*). 
 
 As a group, $\mathbb{Z}$ is [[abelian group|abelian]] and is the [[Grothendieck group]] of the [[monoid]] (or [[semigroup]]) $\mathbb{N}$ of [[natural numbers]].
 
