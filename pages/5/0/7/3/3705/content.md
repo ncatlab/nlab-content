@@ -37,7 +37,7 @@ Every Grothendieck topos $\mathcal{E}$ over $Set$ is (equivalent to) the [[class
 ### The lattice of subtoposes
  {#LatticeOfSubtoposes}
 
-The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a [[co-Heyting algebra]] structure i.e. the [[join]] operator has a [[left adjoint]] _subtraction_ operator. This corresponds to a dual [[Heyting algebra]] structure on the [[Lawvere-Tierney topologies]].
+The inclusions induce an ordering on the subtoposes of $\mathcal{E}$ that makes them a [[lattice]] with a [[co-Heyting algebra]] structure i.e. the [[join]] operator has a [[left adjoint]] _[[subtraction]]_ operator. This corresponds to a dual [[Heyting algebra]] structure on the [[Lawvere-Tierney topologies]].
 
 The lattice structure is further analyzed in ([Johnstone (2002)](#Johnstone02), [Caramello (2009)](#Caramello09)). We contend us to report
 
