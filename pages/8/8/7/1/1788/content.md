@@ -1,6 +1,71 @@
-| For many field theories of interest...  |  Example  $\;\;$ |
-|------------------|---------|
-| **(1)** _...the Lagrangian density is not globally defined._ | [[nLab:charged particle]] in [[nLab:electromagnetism|electromagnetic]] [[nLab:background field]], <br/> [[nLab:WZW model]], <br/> [[nLab:string]] in [[nLab:Kalb-Ramond field]], <br/> [[nLab:membrane]] in [[nLab:supergravity C-field]], <br/> [[nLab:D-brane]] in [[nLab:Kalb-Ramond field]] |
-| **(2)** _...the Lagrangian density is <br/> $\;\phantom{(3)}\;\;\;$ a higher connection on a higher bundle_. | [[nLab:Wilson loop]], <br/> [[nLab:Wilson surface]], <br/> etc.,  |
-| **(3)** _...the field bundle is itself a higher bundle._ | [[nLab:gauge theory]] such as [[nLab:Yang-Mills theory]], [[nLab:Chern-Simons theory]], <br/> [[nLab:higher gauge theory]] such as [[nLab:AKSZ sigma-model]] <br/> ([[schreiber:Higher Chern-Weil Derivation of AKSZ Sigma-Models|Fiorenza-Rogers-Schreiber 11]]), <br/> [[nLab:7d Chern-Simons theory]] of [[nLab:differential string structures|String 2-connection field]] <br/> ([[schreiber:7d Chern-Simons theory and the 5-brane|Fiorenza-Sati-Schreiber 14]]) |
-| $\;\phantom{(3)}\;$ _...all three of these apply._ | [[nLab:electromagnetism]] with [[nLab:electron]] [[nLab:source fields]], <br/> [[nLab:RR-fields]] with [[nLab:D-brane]] [[nLab:source fields]] <br/> (amplified in [[nLab:Dirac charge quantization and generalized differential cohomology|Freed 00]]) <br/> [[nLab:super p-brane]] with [[nLab:tensor multiplet]] <br/> such as <br/> - [[nLab:D-branes]] with [[nlab:Chan-Paton gauge fields]] <br/> - [[nLab:M5-brane]] with [[nLab:worldvolume]] [[nLab:gerbe]] <br/> ([Fiorenza-Sati-Schreiber 13](https://ncatlab.org/schreiber/show/The+brane+bouquet)) |
+
+$$
+  B U(1)
+   \longrightarrow
+  GL_1(\Sigma_+^\infty BU(1))
+    \longrightarrow
+  GL_1(KU)
+$$
+
+$\,$
+
+$$
+  \array{
+     B U(1)
+       &\longrightarrow&
+     \hat G
+       &\longrightarrow&
+     \ast
+     \\
+     \downarrow
+       &&
+     \downarrow 
+       &&
+     \downarrow 
+     \\
+     KU
+       &\longrightarrow&
+     E
+       &\longrightarrow& 
+     KU/BU(1)
+       &\longrightarrow& 
+     KU/GL_1(KU)
+     \\
+     \downarrow
+       &&
+     \downarrow
+      &&
+     \downarrow
+      &&
+    \downarrow
+    \\
+    \ast
+      &\longrightarrow&
+    G
+      &\longrightarrow& 
+    B^2 U(1)
+      &\longrightarrow&
+    B GL_1(KU)
+  }
+$$
+
+$\,$
+
+$\,$
+
+$$
+  \array{
+    B U(1)
+    \\
+    \downarrow
+    \\
+    \hat G
+      &\longrightarrow&
+    B^{p+1} U(1)
+    \\
+    \downarrow
+    \\
+    G
+  }
+$$
+
