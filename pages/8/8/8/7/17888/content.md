@@ -39,39 +39,13 @@ This is related to [[subtractive logic]].
 
 ## Examples
 
-* Subtraction in the [[commutative monoid]] of the [[natural numbers]] $\mathbb{N}$ in given by the monus/truncated subtraction operator,
-$$\dot - : \mathbb{N}\times \mathbb{N}\rightarrow \mathbb{N}$$
-which is defined by,
+* Subtraction in the [[commutative monoid]] of the [[natural numbers]] $\mathbb{N}$, is only partially defined. It is given by the monus/truncated subtraction operator:
 
-$$\forall n,m \in \mathbb{N},$$
+$$\dot - \; : \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}.$$
 
-$$n\dot - m= 
+* Subtraction in the [[abelian group]] of the [[integers]] $\mathbb{Z}$, is well known to be an [[entire relation]] on the integers, 
 
-\left\{
-  \begin{aligned}
-    0 & if\; m\geq n \\ 
-    1+[pred(n)\dot -m] & otherwise
-  \end{aligned}
-\right.
-$$
-
-where $pred(n)$, the predecessor function, is the [[inverse]] to the successor function $succ(n) = n+1$.
-
-* Subtraction in the [[abelian group]] of the [[integers]] $\mathbb{Z}$, is an [[entire relation]] on the integers, making it an true [[inverse]] operation to the group multiplication. It is given by,
-
-$$-: \mathbb{Z}\times \mathbb{Z}\rightarrow \mathbb{Z}$$
-$$\forall x,y \in \mathbb{Z}$$
-$$x-y= 
-
-\left\{
-  \begin{aligned}
-    0 & if\; x = y \\ 
-    1+[pred(x)\dot -y] & if\; x \gt y \\
-    (-1)\cdot (1+[pred(x)\dot -y]) & if\; x \lt y
-  \end{aligned}
-\right.
-$$
-
+$$- \; :\mathbb{Z} \times \mathbb{Z} \rightarrow \mathbb{Z}.$$
 
 ## References
 
