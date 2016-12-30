@@ -39,7 +39,7 @@ This is related to [[subtractive logic]].
 
 ## Examples
 
-* Subtraction in the [[commutative monoid]] of the [[natural numbers]] $\mathbb{N}$, is only partially defined. It is given by the monus/truncated subtraction operator:
+* Subtraction in the [[commutative monoid]] of the [[natural numbers]] $\mathbb{N}$, is only partially defined. It is given by the [[monus]]/truncated subtraction operator:
 
 $$\dot - \; : \mathbb{N} \times \mathbb{N} \rightarrow \mathbb{N}.$$
 
