@@ -368,17 +368,17 @@ For more details see [[semilattice of commutative subalgebras]].
 
 The original articles include
 
-*  [[Pascual Jordan]], &#220;ber eine Klasse nichtassociativer
+* {#Jordan32} [[Pascual Jordan]], &#220;ber eine Klasse nichtassociativer
 hyperkomplexer Algebren, _Nachr. Ges. Wiss. G&#246;ttingen
 (1932), 569--575.
- {#Jordan32}
+ 
 
-* [[Pascual Jordan]], [[John von Neumann]] and [[Eugene Wigner]], On an algebraic generalization of the quantum mechanical formalism, _Ann. Math._ **35** (1934), 29--64.
- {#JordanvNeumannWigner34}
+* {#JordanvNeumannWigner34} [[Pascual Jordan]], [[John von Neumann]] and [[Eugene Wigner]], On an algebraic generalization of the quantum mechanical formalism, _Ann. Math._ **35** (1934), 29--64.
+ 
 
-* E. I. Zelmanov, On prime Jordan algebras. II,
+* {#Zelmanov83} E. I. Zelmanov, On prime Jordan algebras. II,
 _Sibirsk Mat. J._ **24** (1983), 89-104.
- {#Zelmanov83}
+ 
 
 Introductions and surveys include
 
@@ -389,16 +389,15 @@ Introductions and surveys include
 _Bull. Amer. Math. Soc._ **84** (1978), 612--627.  ([AMS website](http://www.ams.org/bull/1978-84-04/S0002-990\
 4-1978-14503-0/home.html)) and ([Project Euclid website](http://projecteuclid.org/DPubS?service=UI&version=1.0&verb=Display&handle=euclid.bams/1183540925)).
 
-* Max Koecher, _The Minnesota Notes on Jordan Algebras and 
+* {#Koecher} Max Koecher, _The Minnesota Notes on Jordan Algebras and 
 Their Applications_, eds. Aloys Krieg and Sebastican Walcher, _Lecture Notes in Mathematics_ **1710**, Springer, Berlin, 1999. doi:[10.1007/BFb0096285](http://dx.doi.org/10.1007/BFb0096285) (paywalled)
-{#Koecher}
+
+* [[Paul Townsend]], _The Jordan formulation of Quantum Mechanics: a review_ ([arXiv:1612.09228](https://arxiv.org/abs/1612.09228))
 
 Remarks on Jordan algebras as [[algebras of observables]] in quantum physics are for instance in 
 
-p. 80 of
-
-* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
- {#BatesWeinstein}
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], p. 80 of _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ 
 
 
 [[!redirects Jordan algebra]]
