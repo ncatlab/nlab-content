@@ -133,7 +133,7 @@ $$
 
 for the stackification of the objectwise [[K-theory of a symmetric monoidal (∞,1)-category]]-construction.
 
-This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) ([Bunke-Tamme 12, section 3.3](#BunkeTamme12)), see at _[algebraic K-theory -- as the K-theory of algebraic vecotr bundles](algebraic%20K-theory#AsTheKTheoryOfAlgebraicVectorBundles)_.
+This is the ordinary [[algebraic K-theory]] of [[schemes]], as in ([Thomason-Trobaugh 90](#ThomasonTrobaugh90)) ([Bunke-Tamme 12, section 3.3](#BunkeTamme12)), see at _[algebraic K-theory -- as the K-theory of algebraic vector bundles](algebraic%20K-theory#AsTheKTheoryOfAlgebraicVectorBundles)_.
 
 
 ### The refined Beilinson regulator
