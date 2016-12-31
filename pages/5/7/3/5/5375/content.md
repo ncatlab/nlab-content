@@ -101,7 +101,7 @@ See also
 
 * [[Nikolai Durov|N. V. Durov]], _&#1058;&#1086;&#1087;&#1086;&#1083;&#1086;&#1075;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1077; &#1088;&#1077;&#1072;&#1083;&#1080;&#1079;&#1072;&#1094;&#1080;&#1080; &#1072;&#1083;&#1075;&#1077;&#1073;&#1088;&#1072;&#1080;&#1095;&#1077;&#1089;&#1082;&#1080;&#1093; &#1084;&#1085;&#1086;&#1075;&#1086;&#1086;&#1073;&#1088;&#1072;&#1079;&#1080;&#1081; (Topological realizations of algebraic varieties)_, preprint POMI 13/2012 (in Russian) [abstract](http://www.pdmi.ras.ru/preprint/2012/12-13.html), [pdf.gz](ftp://ftp.pdmi.ras.ru/pub/publicat/preprint/2012/13-12_rus.pdf.gz)
 
-* [[Taylor Duypuy]], _[Ababelian geometry](https://www.youtube.com/playlist?list=PLJmfLfPx1OedXBno8vlpGd89_3wsdfCEc)_
+* [[Taylor Duypuy]], _[Anabelian geometry](https://www.youtube.com/playlist?list=PLJmfLfPx1OedXBno8vlpGd89_3wsdfCEc)_
 
 
 [[!redirects anabelian variety]]
