@@ -94,7 +94,7 @@ In the same way that a (strict) monoidal category can be identified with a (stri
 *  [[John Power]] and [[Edmund Robinson]], _Premonoidal categories and notions of computation_, Math. Structures Comput. Sci., 7(5):453&#8211;468, 1997. Logic, domains, and programming languages (Darmstadt, 1995). 
  [PostScript](http://www.eecs.qmul.ac.uk/~edmundr/pubs/mscs97/premoncat.ps)
 
-* Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](ftp://outside.cs.bell-labs.com/who/ajeffrey/papers/premonA.pdf)
+* Alan Jeffrey, _Premonoidal categories and a graphical view of programs,_ [pdf file](http://fpl.cs.depaul.edu/ajeffrey/papers/premonA.pdf)
 
 [[!redirects premonoidal category]]
 [[!redirects premonoidal categories]]
