@@ -68,7 +68,7 @@ When both left and right rules are shown, we only need one of them if we have Sy
 
 Whether made explicit or not, Isotony is very fundamental.  In particular, it allows us to assert Reflexivity only for singletons, although this is often not done (to avoid mentioning points).
 
-The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics.  In that case, the strong version is too strong: in fact if it is satisfied by a nontrivial uniform space, then [[excluded middle]] follows.  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement, though not unreasonably strong (e.g. it follows from [[uniform regularity]]).
+The weak Symmetry axioms immediately imply the strong versions, except for the case of proximal neighborhoods in constructive mathematics, in which case the strong versions are too strong; see below.  Regularity also follows from Symmetry and Transitivity in classical mathematics (in the neighborhood version, let $\{x\} \ll B \ll A$ and take $C = A^{\mathsf{c}}$ and $D = B^{\mathsf{c}}$), but in constructive mathematics it seems like a stronger statement, though not unreasonably strong (e.g. it follows from [[uniform regularity]]).
 
 A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __topogenous relation__ or __quasipreproximity__ is a topogeny that also satisfies Reflexivity; a __quasiproximity__ is a quasipreproximity that also satisfies Reflexivity and Transitivity.  A topogeny is __symmetric__ if it satisfies Symmetry; a __preproximity__ is a symmetric quasipreproximity, and a __proximity__ is a symmetric quasiproximity.  A topogeny is __separated__ if it satisfies Separation.  A topogeny is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a symmetric topogeny is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).  Constructively, a proximity space satisfying Regularity may be called __proximally regular__.
 
@@ -83,6 +83,17 @@ Transitivity is sometimes called _normality_, due to its superficial similarity 
 =--
 
 If $X$ and $Y$ are (quasi)-(pre)-proximity spaces, then a [[function]] $f: X \to Y$ is said to be **proximally continuous** if $A \;\delta\; B$ implies $f_*(A) \;\delta\; f_*(B)$, equivalently if $A \bowtie B$ whenever $f_*(A) \bowtie f_*(B)$, equivalently if $f^*(C) \ll f^*(D)$ whenever $C \ll D$.  In this way we obtain [[categories]] $QProx$ and $Prox$; the [[forgetful functors]] $QProx \to Set$ and $Prox \to Set$ (taking a space to its set of points) make them into [[topological concrete categories]].
+
+
+### In constructive mathematics
+
+As remarked above, the strong Symmetry axiom is too strong in constructive mathematics.  In fact, if it is satisfied by a nontrivial space $X$, then [[excluded middle]] follows: for any [[truth value]] $P$ such that $\neg\neg P$ is true, let $A=X$ and $B = \{ x\in X \mid P \}$; then $B^{\mathsf{c}} = \emptyset \ll \emptyset = A^{\mathsf{c}}$, so strong Symmetry gives $A\ll B$, hence $A\subseteq B$ and so $P$ holds.
+
+On the other hand, while the Symmetry axioms for $\bowtie$ and $\delta$ may seem stronger than the allowable weak symmetry axiom for $\ll$, this is arguably an illusion.  For given a proximal neighborhood space with $\ll$ (and weak Symmetry), if we define $A\bowtie B$ to mean $A\ll B^{\mathsf{c}}$, we obtain a proximal apartness space (with Symmetry).  In fact, the Transitivity axiom for $\bowtie$ implies that if $A\bowtie B$ then $A\bowtie (B^{\mathsf{c}})^{\mathsf{c}}$, so that (with Symmetry) $\bowtie$ is completely determined by its restriction to subsets that are complements.
+
+In this sense, a proximal neighborhood space actually contains more information than a proximal apartness space; it is unclear whether the latter gives rise to the former constructively.  On the other side, we can of course define $A\;\delta \; B$ to mean $\neg(A\bowtie B)$, but with this definition we cannot even prove binary Additivity for $\delta$.  In fact, binary Additivity for $\delta$ seems too strong: it is apparently not satisfied even by a metric space.
+
+
 
 
 ## Relations to other topological structures
