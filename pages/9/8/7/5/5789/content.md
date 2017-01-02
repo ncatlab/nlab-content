@@ -114,9 +114,9 @@ For a survey of the relation to Morse theory see for instance
 
 * Rohit Jain, _Supersymmetric Schr&#246;dinger operators with applications to Morse theory_ ([pdf](http://www.ma.utexas.edu/users/rjain/SUSY.pdf))
 
-This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly at the end of 
+This deformed supersymmetric quantum mechanics arises as the point-particle limit of the [[type II superstring]] regarded as [[quantum mechanics]] on the [[loop space]], a relation that is stated more explicitly in 
 
-* {#Witten85} [[Edward Witten]], _Global anomalies in string theory_, in W. Bardeen and A. White (eds.) _Symposium on Anomalies_, Geometry, Topology, pp. 61&#8211;99. World Scientific, 1985 
+* {#Witten85} [[Edward Witten]], from p. 92 (32 of 39 on) in _Global anomalies in string theory_, in W. Bardeen and A. White (eds.) _Symposium on Anomalies_, Geometry, Topology, pp. 61&#8211;99. World Scientific, 1985  ([[WittenGlobalAnomaliesInStringTheory.pdf:file]])
 
 and then in
 
