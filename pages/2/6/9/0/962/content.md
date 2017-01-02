@@ -128,7 +128,7 @@ The above was taken from an article:
 
 * [[Tim Porter]], Abstract Homotopy Theory, the interaction of category theory and homotopy theory , Cubo Matematica Educacional, 5, (2003), 115--165.
 
-Fundamental groups of toposes are already on [[SGA4]], Expose IV _Exercice 2.7.5._
+Fundamental groups of toposes are already on [[SGA4]], Expose IV _Exercice 2.7.5. and its relations with [[etale topos]] are on Expose VIII Proposition 2.1_
 
 The general construction of the first geometric homotopy group of objects in a [[Grothendieck topos]] is in section 8.4 of
 
