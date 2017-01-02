@@ -1,5 +1,5 @@
 
-+-- {: .rightHandSide}
++-- {: .rightHandSide?0
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Analytic geometry
@@ -22,9 +22,9 @@ the results of classical (complex analytic) [[Hodge theory]] and of
 [[p-adic Hodge theory]] in a unique setting.
 
 A first (non-archimedean) step in this direction was given by Bhatt in his
-paper on the derived appraoch to p-adic Hodge theory, where he proposed a Hodge theory for (say semi-stable) varieties over $\mathbb{Z}$, using [[derived de Rham cohomology]] to define a convenient [[period ring]]. From the point of view of global analytic geometry, this gives a Hodge theory for strict analytic spaces over $\mathbb{Z}$, equipped with its trivial norm. One may adapt these ideas to extend
+paper on the derived approach to p-adic Hodge theory (originally due to Beilinson), where he proposed a Hodge theory for (say semi-stable) varieties over $\mathbb{Z}$, using Illusie's [[derived de Rham cohomology]] to define a convenient [[period ring]]. From the point of view of global analytic geometry, this gives a Hodge theory for strict analytic spaces over $\mathbb{Z}$, equipped with its trivial norm. One may try to adapt these ideas to extend
 them to a Hodge theory for strict analytic spaces over $\mathbb{Z}$, equipped with
-its archimedean norm. Remark that the treatment of quasi-projective varieties should certainly involve a [[global mixed Hodge theory]] for pre-proper [[logarithmic geometry|logarithmic analytic varieties]].
+its archimedean norm, but the use of a derived completion in the process prevents one from a straightforward generalization. Remark that the treatment of quasi-projective varieties should certainly involve a [[global mixed Hodge theory]] for pre-proper [[logarithmic geometry|logarithmic analytic varieties]].
 
 The advantage of including the archimedean norm
 in global Hodge theory is that this seems to give a better setting for the
