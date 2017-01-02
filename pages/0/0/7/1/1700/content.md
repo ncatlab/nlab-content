@@ -465,6 +465,12 @@ Galois theory in a [[presentable (infinity,1)-category|presentable]] [[symmetric
 * [[Akhil Mathew]], The Galois group of a stable homotopy theory, [arXiv](http://arxiv.org/abs/1404.2156).
 {#Mathew14}
 
+Galois theory in topos theory
+
+* [[SGA4]], _Expose VIII, Proposition 2.1._
+
+* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
+
 See also
 
 * _[The Galois Theory Web Page](http://www.math.upenn.edu/~galois/)_
@@ -474,8 +480,6 @@ See also
 * Tam&#225;s Szamuely, _Galois groups and fundamental groups_, Cambridge Studies in Adv. Math. 
 
 * {#Grothendieck75} [[Alexander Grothendieck]], letter to [[Larry Breen]] 12/2/1975 ([web](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/breen1.html))
-
-* {#Hoyois15} [[Marc Hoyois]], _Higher Galois theory_ ([arXiv:1506.07155](http://arxiv.org/abs/1506.07155))
 
 category:Galois theory
 [[!redirects Galois theories]]
