@@ -84,9 +84,11 @@ A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/s
 
 ## publications
 
-Research articles:
+For a list of research articles that I have written see the public preprint server
 
 * [arXiv](http://arxiv.org/a/schreiber_u_1.html), 
+
+or my
 
 * [personal record](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#Subprojects)
 
@@ -99,9 +101,13 @@ Textbooks:
 
 ## invited talks and lectures
 
+For a chronological list of invited talk and lectures that I have given see here:
+
 * [talks and lectures](http://ncatlab.org/schreiber/show/differential+cohomology+in+a+cohesive+topos#References)
 
 ## students
+
+For a list of students whose thesis work I have been supervising see here:
 
 * [students](http://ncatlab.org/schreiber/show/HomePage#students)
 
@@ -125,7 +131,7 @@ For more on what the $n$Lab is see also
 ## column
  {#column}
 
-I am writing an irregular column at [PhysicsForums](https://www.physicsforums.com). Recent articles in the series include these:
+I am writing an irregular column at [PhysicsForums Insights](https://www.physicsforums.com/insights/). Recent articles in the series include these:
 
 * _[It was 20 years ago today -- the M-theory conjecture](https://www.physicsforums.com/insights/20-years-ago-today-m-theory-conjecture/)_
 
