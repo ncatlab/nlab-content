@@ -31,7 +31,7 @@ Discussion of classification includes
 
 The identification of "discrete torsion" in [[type II string theory]] as a choice of [[orbifold]] equivariance on a [[principal 2-bundle]]/[[bundle gerbe]] is due to
 
-* [[Eric Sharpe]], 
+* {#Sharpe99} [[Eric Sharpe]], 
 
   _Discrete Torsion and Gerbes I_ ([arXiv:hep-th/9909108](http://arxiv.org/abs/hep-th/9909108))
 
