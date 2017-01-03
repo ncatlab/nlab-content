@@ -109,7 +109,7 @@ $$
   \,,
 $$
 
-but of twice that. In ([Witten 1996]{#Witten96}) it was argued, and later clarified in ([Hopkins-Singer](#HopkinsSinger)), that instead the action functional should be replaced by a proper [[quadratic refinement]].
+but of twice that. In ([Witten 1996](#Witten96)) it was argued, and later clarified in ([Hopkins-Singer](#HopkinsSinger)), that instead the action functional should be replaced by a proper [[quadratic refinement]].
 
 This is accomplished by shifting the center of the [[quadratic form]]
 by a lift $\lambda \in H^4(X, \mathbb{Z})$ of the degree-4 [[Wu class]] $\nu_4 \in H^4(X, \mathbb{Z}/2)$ from 0 to $\frac{1}{2}\lambda$. 
@@ -340,8 +340,8 @@ The original article suggesting the description of the [[self-dual higher gauge 
 
 A precise mathematical formulation of the proposal made there is given in
 
-* [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
- {#HopkinsSinger}
+* {#HopkinsSinger} [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
+ 
 
 A discussion that embeds this argument into the larger context of [[AdS-CFT duality]] is in 
 
