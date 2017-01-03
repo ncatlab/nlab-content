@@ -7,6 +7,8 @@
 
 * [[geometrodynamics]]
 
+* [[Wheeler superspace]]
+
 * _[[Gravitation]]_
 
 [[!redirects John Archibald Wheeler]]
