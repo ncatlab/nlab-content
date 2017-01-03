@@ -193,6 +193,10 @@ Early notes include
 
 See the references at _[[stable homotopy theory]]_.
 
+Lecture notes include
+
+* _[[Introduction to Stable homotopy theory -- 1-1|Introduction to stable homotopy theory -- 1.1 Sequential Spectra]]_
+
 More modern developments are due to
 
 * {#LewisMaySteinberger86} [[L. Gaunce Lewis]], [[Peter May]], M. Steinberger, _Equivariant stable homotopy theory_, Springer Lecture Notes in Mathematics, 1986 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/equi.pdf))
