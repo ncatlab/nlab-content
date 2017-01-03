@@ -19,6 +19,8 @@ ime. As shown by Tomonaga and Schwinger, if one formulates dynamics in terms of 
 
 * [[Schrödinger picture]]
 
+* [[Wheeler superspace]]
+
 ## References
 
 * {#TorreVaradarajan98} [[Charles Torre]], M. Varadarajan, _Functional Evolution of Free Quantum Fields_, Class.Quant.Grav. 16 (1999) 2651-2668 ([arXiv:hep-th/9811222](https://arxiv.org/abs/hep-th/9811222))
