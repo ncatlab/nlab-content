@@ -1,14 +1,13 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Algebra
-+--{: .hide}
++-- {: .hide}
 [[!include higher algebra - contents]]
 =--
 =--
 =--
-
 
 # Cayley--Dickson construction
 * table of contents
@@ -49,11 +48,13 @@ Generally speaking, the double $A^2$ of an algebra $A$ has a nice property iff $
 
 ## Examples
 
-The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ itself (with the [[identity map]] as involution); these are the __Cayley--Dickson algebras__: the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, the [[octonions]] (or Cayley numbers) $\mathbb{O}$, the [[sedenions]] $\mathbb{S}$, etc. These are the [[normed division algebras]] ($\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, and $\mathbb{O}$), followed by further algebras which are not [[division algebras]].  All of these algebras are [[power-associative algebra|power-associative]] and unital and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
+The standard example is the sequence of consecutive doubles starting with $\mathbb{R}$ itself (with the [[identity map]] as involution); these are the __Cayley--Dickson algebras__: the [[real numbers]] $\mathbb{R}$, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$, the [[octonions]] (or Cayley numbers) $\mathbb{O}$, the [[sedenions]] $\mathbb{S}$, etc. These are the [[normed division algebras]] ($\mathbb{R}$, $\mathbb{C}$, $\mathbb{H}$, and $\mathbb{O}$), followed by further algebras which are not [[division algebras]].  All of these algebras are [[power-associative algebra|power-associative]], [[flexible algebra|flexible]], and unital, and have all [[inverse elements]]; the subalgebra with $\overline{x} = x$ is always just $\mathbb{R}$.
+
 
 ## Related concepts 
 
 * [[composition algebra]]
+
 
 ## References
 
@@ -61,10 +62,10 @@ The standard example is the sequence of consecutive doubles starting with $\math
 
 * {#Baez02} [[John Baez]], _[The Cayley--Dickson construction](http://math.ucr.edu/home/baez/octonions/node5.html)_, in _[The octonions](http://math.ucr.edu/home/baez/octonions/)_, Bull. Amer. Math. Soc. 39 (2002), 145-205, [doi](http://dx.doi.org/10.1090/S0273-0979-01-00934-X)
 
-
 * [[John Baez]], _[This Week's Finds --- Week 59](http://math.ucr.edu/home/baez/week59.html)_
 
 * Wikipedia, _[Cayley&#8211;Dickson construction](https://en.wikipedia.org/wiki/Cayley%E2%80%93Dickson_construction)_
+
 
 [[!redirects Cayley-Dickson construction]]
 [[!redirects Cayley–Dickson construction]]
@@ -105,6 +106,3 @@ The standard example is the sequence of consecutive doubles starting with $\math
 [[!redirects Cayley–Dickson algebras]]
 [[!redirects Cayley--Dickson algebra]]
 [[!redirects Cayley--Dickson algebras]]
-
-[[!redirects Cayley–Dickson algebra]]
-[[!redirects Cayley–Dickson algebras]]
