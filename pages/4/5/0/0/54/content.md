@@ -163,6 +163,8 @@ I am writing an irregular column at [PhysicsForums Insights](https://www.physics
 
 * _[Spectral Standard Model and String Compactifications](https://www.physicsforums.com/insights/spectral-standard-model-string-compactifications/)_
 
+* _[Why Higher Category Theory in Physics?](https://www.physicsforums.com/insights/higher-category-theory-physics/)_
+
 ## more on the web
 
 For logs of further activity see my page
