@@ -39,4 +39,6 @@ $$
 
 * [[graded commutator]]
 
+* [[associator]]
+
 [[!redirects commutators]]
