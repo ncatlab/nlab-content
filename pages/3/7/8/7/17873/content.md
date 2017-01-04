@@ -25,17 +25,17 @@
 
 ## Idea
 
-A **sufficiently cohesive topos** is a topos that has enough connected objects. This can be viewed as a strong form of cohesiveness in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[big topos|gros toposes]].
+A **sufficiently cohesive topos** is a topos that has enough connected objects in the sense that every object embeds into a [[connected object]]. This can be viewed as a strong form of cohesiveness in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[big topos|gros toposes]].
 
 ## Terminological preliminaries
 
 Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves finite products.
 
-This is called a 'cohesive topos' at [[cohesive topos]], and will be referred to as a _'weakly cohesive topos'_ in the present entry - a sufficiently cohesive topos in this context corresponds to the axiomatization of a 'gros topos' in Lawvere ([1986](#Law86)) where the concept was considered for the first time. 
+This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\mathcal{S}$) at [[cohesive topos]], and will be referred to as a _'weakly cohesive topos'_ in the present entry - a sufficiently cohesive topos in this context corresponds to the three axioms (0-2) for a 'gros topos' in Lawvere ([1986](#Law86)) where the concept of sufficient cohesion was considered for the first time. 
 
 A weakly cohesive topos is called _pre-cohesive_ if $p$ furthermore satisfies the [[Nullstellensatz]] i.e. the canonical map $\theta:p_\ast\to p_!$ is an epimorphism. This is the situation explored in Menni ([2014a](#Menni14a), [2014b](#Menni14b)).
 
-A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_1(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ for all $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time though the essential results are already present throughout the 1990s ([1986](#Law86), [1992](#Law92), [1997](#Law99)).
+A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ for all $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1997](#Law99)).
 
 ## Definitions
 
@@ -46,19 +46,19 @@ An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called
 
 +-- {: .num_rem}
 ###### Remark
-In particular, a contractible is connected: $p_!(X)=p_!(X^1)=1$.
+In particular, a contractible object is connected: $p_!(X)=p_!(X^1)=1$.
 =--
 
 +-- {: .num_defn #Sufficient_Cohesion}
 ###### Definition 
-A weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _sufficiently cohesive_ if the [[subobject classifier]] $\Omega$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$ or, in other words, if all power objects are connected. 
+A weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _sufficiently cohesive_ if the [[subobject classifier]] $\Omega\in\mathcal{E}$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$ or, in other words, if all [[power object|power objects]] are connected. 
 =--
 
 +-- {: .num_rem}
 ###### Remark
-Since in general, every object $X$ embeds into its power object $X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos $\mathcal{E}$ every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
+Since in general, every object $X$ embeds into its power object via the singleton map $\{\}:X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos $\mathcal{E}$ every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
 
-Furthermore, since in a [[Cartesian closed category]] $X^{(Y\times Z)}\simeq(X^Y)^Z$ one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not merely connected but even contractible: $p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$ and hence it follows that in a sufficiently cohesive topos every object embeds into a contractible object.
+Furthermore, since in a [[Cartesian closed category]] $X^{(Y\times Z)}\simeq(X^Y)^Z$ one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not only connected but even contractible: $p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$ and hence it follows that in a sufficiently cohesive topos every object embeds into a contractible object.
 
 Conversely, if every power object $\Omega^X$ embeds into a connected object then the power objects $\Omega^X$ will be connected themselves by proposition \ref{connected_retract} below since power objects are injective in general. Whence a topos is sufficiently cohesive iff every object embeds into a connected object iff every object embeds into a contractible object. The last formulation is taken as the definition of sufficient cohesion in Lawvere ([2007](#Law07)).
 =--
@@ -75,7 +75,7 @@ In a weakly cohesive topos, retracts of connected objects are connected themselv
 Since in general, injective objects $I$ are retracts of the objects $X$ that they embed into because such inclusions $I\rightarrowtail X$ factor through $id_I$ by injectivity, it follows that in a weakly cohesive topos _injective objects that embed into a connected object are connected_ themselves.
 
 +-- {: .num_rem}
-###### Example
+###### Remark
 The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exists a string of adjoint functors $L\dashv\Pi\dashv\Delta\dashv\Gamma\dashv B: Set\to Set^\to$ with 
 
 * $L(Z)=\emptyset \to Z$
@@ -89,8 +89,6 @@ The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exi
 * $B(Z)=Z\to 1$.
 
 The Nullstellensatz fails as does the continuity principle. As a right adjoint $\Pi$ preserves all limits and the terminal object in particular whence $1$ is connected in $Set^\to$. Since the underlying category $\to$ satisfies the [[Ore condition]] trivially, it follows then from a general result[^bouquet] of Lawvere that $\Omega$ is not connected[^bouquet] and, accordingly, that the _Sierpinski topos is not sufficiently cohesive!_
-
-This example underlines the importance of the [[Nullstellensatz]] for the following.
 
 On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products.
 =--
