@@ -382,9 +382,15 @@ It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone co
 
 * [[globular theory]]
 
+* [[lambda theory]]
+
 * [[monad]] / [[(∞,1)-monad]]
 
 * [[operad]] / [[(∞,1)-operad]]
+
+* [[PRO]]
+
+* [[PROP]]
 
 * [[C-systems]]
 
