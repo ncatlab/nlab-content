@@ -3981,7 +3981,7 @@ we discuss the general issue of extending spacetime symmetries to "[[supersymmet
 
 Then in 
 
-* _[Super Poincar&#233; and super Minowski symmetry](#SuperPoincareAndSuperMinkowsSymmetry)_ 
+* _[Super Poincar&#233; and super Minkowski symmetry](#SuperPoincareAndSuperMinkowsSymmetry)_ 
 
 we specialize to the particular such extensions commonly known as _supersymmetries_.
 
@@ -3993,7 +3993,8 @@ Finally we discuss the question of how god-given this common choice is, in
 ### Spacetime symmetry
  {#SpacetimeSymmetry}
 
-+-- {: .num_defn}
+
++-- {: .num_defn #PoincareLieAlgebra}
 ###### Definition
 
 For $d \in \mathbb{N}$, write $\mathbb{R}^{d-1,1}$ for [[Minkowski spacetime]], regarded as the [[inner product space]] whose underlying [[vector space]] is $\mathbb{R}^d$ and equipped with the [[bilinear form]] given in the canonical [[linear basis]] of $\mathbb{R}^d$ by
@@ -4151,12 +4152,11 @@ $$
 
 (with differential $d$ of degree (1,even))
 such that the underlying graded algebra is the super Grassmann algebra
-$\wedge^\bullet \mathfrak{g}^\ast$ via def. \ref{SuperGrassmannAlgebra}.
+$\wedge^\bullet \mathfrak{g}^\ast$.
 
 We call this again the [[Chevalley-Eilenberg algebra]] of the super Lie algebra
 dually defined thereby.
 
-Similarly, the [[Weil algebra]] $W(\mathfrak{g})$ is obtained from this by adding a generator in degree $(2,\sigma)$ for each previous generator in degree $(1,\sigma)$ and extending the differential as in def. \ref{WeilForLInfinitityAlgebra}.
 
 =--
 
@@ -4194,6 +4194,51 @@ for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\si
 =--
 
 
+So a supersymmetry extension of ordinary spacetime symmetry, is, infinitesimally, 
+
+a [[super Lie algebra]] (prop. \ref{SuperLieAlgebraTraditional}) [[Lie algebra extension|extension]]
+of the [[Poincaré Lie algebra]] (def. \ref{PoincareLieAlgebra}) in the given dimension, i.e. a morphism of [[super Lie algebras]]
+
+$$ 
+  \array{
+    \widehat{\mathfrak{iso}(\mathbb{R}^{d-1,1})}
+    \\
+    \downarrow
+    \\
+    \mathfrak{iso}(\mathbb{R}^{d-1,1})
+  }
+$$
+
+whose [[fiber]] is purely odd-graded.
+
+We analyze what this amounts to:
+
+First of all it means that the underlying [[super vector space]] of $\widehat{\mathfrak{iso}(\mathbb{R}^{d-1,1})}$
+is the [[direct sum]] of that of ${\mathfrak{iso}(\mathbb{R}^{d-1,1})}$ with an odd-graded piece $S$.
+
+Next, the existence of the super Lie bracket means that there is
+
+1. a symmetric bilinear pairing 
+
+   $$
+     (-,-) \;\colon\; S \otimes S \longrightarrow \mathbb{R}^{d-1,1} \oplus \mathfrak{so}(d-1,1)
+   $$
+   
+1. a linear map
+
+   $$
+     \rho : \mathfrak{so}(d-1,1) \otimes S \longrightarrow S
+     \,.
+   $$
+   
+Then the super-[[Jacobi identity]] demands that this [[stuff, structure, property|structure]] satisfies
+the following conditions:
+
+1. the $(evem,even,odd)$-component of the Jacobi identity says that $\rho$ is a Lie algebra [[action]]
+
+1. the $(even, odd, odd)$-component of the Jacobi identity says that the symmetric bilinear pairing is $\mathfrak{so}(d-1,1)$-equivariant.
+
+(...)
 
 
 
@@ -4202,8 +4247,7 @@ for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\si
 
 
 
-
-### Super Poincar&#233; and super Minowski symmetry
+### Super Poincar&#233; and super Minkowski symmetry
  {#SuperPoincareAndSuperMinkowsSymmetry}
 
 +-- {: .num_defn #SuperMinkowskiSpacetime}
@@ -4813,7 +4857,7 @@ But most central extensions of superpoints
 are nothing like super-Minkowksi spacetimes.
 The point of the above proposition
 is to restrict attention to _iterated invariant_ central extensions
-and to find that these single out the super-Minowski spacetimes.
+and to find that these single out the super-Minkowski spacetimes.
 
 $\,$
 
