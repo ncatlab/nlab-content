@@ -41,7 +41,7 @@ A pre-cohesive topos that furthermore satisfies the _continuity principle_ that 
 
 +-- {: .num_defn #Contractible_object}
 ###### Definition 
-An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _contractible_ if for every object $Y\in\mathcal{E}$ $p_!(X^Y)=1$. 
+An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _contractible_ if for every object $Y\in\mathcal{E}$: $p_!(X^Y)=1$. 
 =--
 
 +-- {: .num_rem}
@@ -56,7 +56,7 @@ A weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _sufficiently co
 
 +-- {: .num_rem}
 ###### Remark
-Since in general, every object $X$ embeds into its power object $X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
+Since in general, every object $X$ embeds into its power object $X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos $\mathcal{E}$ every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
 
 Furthermore, since in a [[Cartesian closed category]] $X^{(Y\times Z)}\simeq(X^Y)^Z$ one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not merely connected but even contractible: $p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$ and hence it follows that in a sufficiently cohesive topos every object embeds into a contractible object.
 
