@@ -33,7 +33,7 @@ The above follows from a more fundamental fact:
 
 any functor
 
-$$[\mathcal{U}] : \mathbf{Set}^I \to \mbf{Set}$$
+$$[\mathcal{U}] : \mathbf{Set}^I \to \mathbf{Set}$$
 
 which specifies a choice of ultraproduct (and hence comparison maps, since ultraproducts are colimits) is elementary (logical in the terminology of Makkai-Reyes, i.e. a [[pretopos]] morphism.)
 
