@@ -2673,7 +2673,7 @@ The _[[octonions]]_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[re
    1. $e_i e_j  = e_k$
 
    1. $e_j e_i  = -e_k$
-   
+
    and all relations obtained by cyclic [[permutation]] of the indices in these equations.
 
 
@@ -2796,7 +2796,7 @@ Hence the conjugation operation makes $\mathbb{K}$ a [[real numbers|real]] [[nor
 ###### Remark
 
 Sending each generator in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions}
-to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]] 
+to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]]
 [[homomorphisms]]
 
 $$
@@ -2840,8 +2840,8 @@ $$
 $$
 
 is maximal in the [[category]] of real normed non-associative [[division algebras]], there is a pattern that does
-continue if one disregards the division algebra property. Namely each step in this sequence is given by 
-a construction called _forming the [[Cayley-Dickson double algebra]]_. This continues to an unbounded sequence of 
+continue if one disregards the division algebra property. Namely each step in this sequence is given by
+a construction called _forming the [[Cayley-Dickson double algebra]]_. This continues to an unbounded sequence of
 real nonassociative star-algebras
 
 $$
@@ -2852,7 +2852,7 @@ $$
   \mathbb{H}
     \hookrightarrow
   \mathbb{O}
-    \hookrightarrow 
+    \hookrightarrow
   \mathbb{S}
     \hookrightarrow
   \cdots
@@ -2884,11 +2884,11 @@ is called the _[[associator]]_ (in analogy with the _[[commutator]]_ $[a,b] \col
 
 If the associator is completely antisymmetric (in that for any [[permutation]] $\sigma$ of three elements then $[a_{\sigma_1}, a_{\sigma_2}, a_{\sigma_3}] = (-1)^{\vert \sigma\vert} [a_1, a_2, a_3]$ for $\vert \sigma \vert$ the [[signature of a permutation|signature of the permutation]]) then $A$ is called an _[[alternative algebra]]_.
 
-If the [[characteristic]] of the [[ground field]] is different from 2, then alternativity is 
+If the [[characteristic]] of the [[ground field]] is different from 2, then alternativity is
 readily seen to be equivalent to the conditions that for all $a,b \in A$ then
 
 $$
-  (a a)b = a (a b) 
+  (a a)b = a (a b)
    \;\;\;\;\;
      \text{and}
    \;\;\;\;\;
@@ -2903,7 +2903,7 @@ It is immediate to check that:
 +-- {: .num_prop}
 ###### Proposition
 
-The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComplexNumbers},[[quaternions]] def. \ref{TheQuaternions} and 
+The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComplexNumbers},[[quaternions]] def. \ref{TheQuaternions} and
 [[octonions]] def. \ref{TheOctonions} are [[alternative algebras]] (def. \ref{AlternativeAlgebra}).
 
 =--
@@ -2912,7 +2912,7 @@ The real algebras of [[real numbers]], [[complex numbers]],  def. \ref{TheComple
 ###### Proof
 
 Since the [[real numbers]], [[complex numbers]] and [[quaternions]] are [[associative algebras]],
-their [[associator]] vanishes identically. It only remains to see that the associator of the 
+their [[associator]] vanishes identically. It only remains to see that the associator of the
 [[octonions]] is skew-symmetric. By linearity it is sufficient to check this on generators.
 So let $e_i \to e_j \to e_k$ be a circle or a cyclic permutation of an edge in the [[Fano plane]].
 Then by definition of the octonion multiplication we have
@@ -2920,13 +2920,13 @@ Then by definition of the octonion multiplication we have
 $$
   \begin{aligned}
     (e_i e_j) e_j
-    &= 
+    &=
     e_k e_j
     \\
     &=
     - e_j e_k
     \\
-    & = 
+    & =
     -e_i
     \\
     & =
@@ -2961,7 +2961,7 @@ The analog of the [[Hurwitz theorem]] (prop. \ref{HurwitzTheorem}) is now this:
 +-- {: .num_prop #ZornTheorem}
 ###### Proposition
 
-The only [[division algebras]] over the [[real numbers]] which are also [[alternative algebras]] spring are the [[real numbers]] themselves, the [[complex numbers]], the [[quaternions]] and the [[octonions]].
+The only [[division algebras]] over the [[real numbers]] which are also [[alternative algebras]] (def. \ref{AlternativeAlgebra}) are the [[real numbers]] themselves, the [[complex numbers]], the [[quaternions]] and the [[octonions]].
 
 =--
 
@@ -2988,21 +2988,22 @@ To that end, fix the following notation and terminology:
 +-- {: .num_defn #MatrixNotation}
 ###### Definition
 
-Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence one of the four
+real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
-1. Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
+Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
 
    $$
      A^t = A^\ast
      \,.
    $$
 
-   Hence with the notation 
-   
+   Hence with the notation
+
    $$
      (-)^\dagger \coloneqq ((-)^t)^\ast
-   $$ 
-   
+   $$
+
    then $A$ is a [[hermitian matrix]] precisely if
 
    $$
@@ -3012,14 +3013,20 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 
    We write $Mat_{2 \times 2}^{her}(\mathbb{K})$ for the [[real vector space]] of hermitian matrices.
 
+=--
 
-1. write
++-- {: .num_defn #TraceReversal}
+###### Definition
+**(trace reversal)**
 
-   $$
-      \tilde A \coloneqq A - (tr A) 1_{n\times n}
-   $$
+Let $A \in Mat_{2 \times 2}^{her}(\mathbb{K})$ be a hermitian $2 \times 2$ matrix as in def. \ref{MatrixNotation}.
+Its _trace reversal_ is the result of subtracting its [[trace]] times the identity matrix:
 
-   for the matrix minus its [[trace]] times the identity matrix ("trace reversal").
+
+$$
+    \tilde A \;\coloneqq\; A - (tr A) 1_{n\times n}
+    \,.
+$$
 
 =--
 
@@ -3044,8 +3051,13 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 ### Real spinors in dimensions 3, 4, 6 and 10
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
-We now discuss how [[real spin representations]] in certain dimensions are naturally induced from 
+We now discuss how [[real spin representations]] in certain dimensions are naturally induced from
 linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
+
+In particular we establish the following table of [exceptional isomorphisms of spin groups](spin+group#ExceptionalIsomorphisms):
+
+[[!include exceptional spinors and division algebras -- table]]
+
 
 Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
 
@@ -3097,6 +3109,28 @@ $$
   \,.
 $$
 
+Under this identification the operation of trace reversal from def. \ref{TraceReversal}
+corresponds to _time reversal_ in that
+
+$$
+  \left(
+    \array{
+      x_0 + x_1 & y
+      \\
+      y^\ast & x_0 - x_1
+    }
+  \right)^{\tilde}
+   \;=\;
+  \left(
+    \array{
+      -x_0 + x_1 & y
+      \\
+      y^\ast & -x_0 - x_1
+    }
+  \right)   
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
@@ -3128,16 +3162,39 @@ $$
 
 =--
 
-This makes manifest the exceptional isomorphisms of [[spin groups]] in these dimensions:
 
-[[!include exceptional spinors and division algebras -- table]]
++-- {: .num_remark}
+###### Remark
 
+Prop .\ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
+then there is a [[monomorphism]]
+
+$$
+  SL(2,\mathbb{K})
+    \hookrightarrow
+  Spin(2+ dim_{\mathbb{R}(\mathbb{K} )}-1,1)
+$$
+
+given by
+
+$$
+  A \mapsto A^{-1}(-)A
+  \,.
+$$
+
+(This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant
+$det(A^{-1}(-)A) = det(A)^{-1} det(-) det(A) = det(-)$).
+
+It remains to show that this is surjective, and to define this action also for $\mathbb{K}$ being the [[octonions]],
+where general [[matrix calculus]] does not apply, due to non-associativity.
+
+=--
 
 +-- {: .num_remark #DeterminantViaProductWithTraceReversal}
 ###### Remark
 
-In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{MatrixNotation},
-the determinant operation on hermitian matrices has the alternative expression
+In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{TraceReversal},
+the determinant operation on hermitian matrices has the following alternative expression
 
 $$
   -det(A) = A \tilde A = \tilde A A
@@ -3275,7 +3332,7 @@ $$
   (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \cdot \phi)
 $$
 
-and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal:
+and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal (def. \ref{TraceReversal}):
 
 $$
   S_+ \otimes S_+ \longrightarrow V
@@ -3370,7 +3427,7 @@ $$
   \right\}
 $$
 
-Its trace reversal is
+Its trace reversal (def. \ref{TraceReversal}) is
 
 $$
   \left\{
