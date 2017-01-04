@@ -2898,6 +2898,84 @@ $$
 
 =--
 
+We record some basic properties of associators in alternative star-algebras that we need below:
+
++-- {: .num_prop #PropertiesOfAssociatorInAlternativeAlgebra}
+###### Proposition
+
+Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is also a [[star algebra]]. Then
+
+1. the [[associator]] vanishes when at least one argument is real
+
+   $$
+     [Re(a),b,c]
+   $$
+
+1. the [[associator]] changes sign when one of its arguments is conjugated
+
+   $$
+     [a,b,c] = -[a^\ast,b,c]
+     \,;
+   $$
+      
+1. the [[associator]] vanishes when one of its arguments is the conjugate of another:
+
+   $$
+     [a,a^\ast, b] = 0
+     \,;
+   $$
+
+1. the [[associator]] is purely imaginary
+
+   $$
+     Re([a,b,c]) = 0
+     \,.
+   $$
+   
+=--
+
++-- {: .proof}
+###### Proof
+
+That the associator vanishes as soon as one argument is real is just the linearity of an algebra
+product over the ground ring.
+ 
+Hence in fact
+
+$$
+  [a,b,c] = [Im(a), Im(b), Im(c)]
+  \,.
+$$
+
+This implies the second statement by linearity. And so follows the third statement by skew-symmetry:
+
+$$
+  [a,a^\ast,b] = -[a,a,b] = 0
+  \,.
+$$
+
+The fourth statement finally follows by this computation:
+
+$$
+  \begin{aligned}
+    [a,b,c]^\ast
+      & = 
+    -[c^\ast, b^\ast, a^\ast]
+      \\
+      & = 
+      -[c,b,a]
+      \\
+      & = 
+      -[a,b,c]
+  \end{aligned}
+  \,.
+$$
+
+Here the first equation follows by inspection and using that $(a b)^\ast = b^\ast a^\ast$, 
+the second follows from the first statement above, and the third is the ant-symmetry of the associator.
+
+=--
+
 It is immediate to check that:
 
 +-- {: .num_prop}
@@ -2980,7 +3058,8 @@ A [[nonassociative algebra]] is alternative, def. \ref{AlternativeAlgebra},  pre
 This is due to [[Emil Artin]], see for instance ([Schafer 95, p. 18](alternative+algebra#Schafer95)).
 
 Proposition \ref{ArtinTheorem} is what allows to carry over a minimum of [[linear algebra]] also to the [[octonions]]
-such as to yield a representation of the [[Clifford algebra]] on $\mathbb{R}^{9,1}$. This is proposition ... below.
+such as to yield a representation of the [[Clifford algebra]] on $\mathbb{R}^{9,1}$. This happens in the proof
+of prop. \ref{SpinorRepsByNormedDivisionAlgebra} below.
 
 So we will be looking at a fragment of [[linear algebra]] over these four [[normed division algebras]].
 To that end, fix the following notation and terminology:
@@ -3046,23 +3125,17 @@ $$
 
 
 
+### Spacetime in dimensions 3,4,6 and 10
 
-
-### Real spinors in dimensions 3, 4, 6 and 10
- {#InTermsOfNormedDivisionAlgebraInDimension3To10}
-
-We now discuss how [[real spin representations]] in certain dimensions are naturally induced from
-linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
-
-In particular we establish the following table of [exceptional isomorphisms of spin groups](spin+group#ExceptionalIsomorphisms):
-
-[[!include exceptional spinors and division algebras -- table]]
-
-
-Throughout, let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}.
+We discuss how [[Minkowski spacetime]] of dimension 3,4,6 and 10 is naturally expressed in terms of the
+real [[normed division algebras]] $\mathbb{K}$ from prop. \ref{HurwitzTheorem}, equivalently the
+real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition
+
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence one of the four
+real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
 There is a [[isomorphism]] (of real [[inner product spaces]]) between [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime})
 of dimension
@@ -3085,7 +3158,7 @@ and the [[real vector space]] of $2 \times 2$ [[hermitian matrices]] over $\math
 equipped with the [[inner product]] whose [[norm]]-square is the negative of the [[determinant]] operation on matrices:
 
 $$
-  \mathbb{R}^{2 + dim_{\mathbb{R}}(\mathbb{K})-1,1}
+  \mathbb{R}^{dim_{\mathbb{R}}(\mathbb{K})+1,1}
     \;\simeq\;
   \left(Mat_{2 \times 2}^{her}(\mathbb{K}), -det \right)
   \,.
@@ -3113,13 +3186,15 @@ Under this identification the operation of trace reversal from def. \ref{TraceRe
 corresponds to _time reversal_ in that
 
 $$
+  \widetlde{
   \left(
     \array{
       x_0 + x_1 & y
       \\
       y^\ast & x_0 - x_1
     }
-  \right)^{\tilde}
+  \right)
+  }
    \;=\;
   \left(
     \array{
@@ -3163,41 +3238,20 @@ $$
 =--
 
 
-+-- {: .num_remark}
-###### Remark
+By direct computation one finds:
 
-Prop .\ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
-then there is a [[monomorphism]]
-
-$$
-  SL(2,\mathbb{K})
-    \hookrightarrow
-  Spin(2+ dim_{\mathbb{R}(\mathbb{K} )}-1,1)
-$$
-
-given by
-
-$$
-  A \mapsto A^{-1}(-)A
-  \,.
-$$
-
-(This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant
-$det(A^{-1}(-)A) = det(A)^{-1} det(-) det(A) = det(-)$).
-
-It remains to show that this is surjective, and to define this action also for $\mathbb{K}$ being the [[octonions]],
-where general [[matrix calculus]] does not apply, due to non-associativity.
-
-=--
-
-+-- {: .num_remark #DeterminantViaProductWithTraceReversal}
-###### Remark
++-- {: .num_prop #DeterminantViaProductWithTraceReversal}
+###### Proposition
 
 In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{TraceReversal},
-the determinant operation on hermitian matrices has the following alternative expression
+the determinant operation on hermitian matrices (def. \ref{MatrixNotation}) has the following alternative expression
 
 $$
-  -det(A) = A \tilde A = \tilde A A
+  \begin{aligned}
+    -det(A) & = A \tilde A 
+      \\
+      & = \tilde A A
+  \end{aligned}
   \,.
 $$
 
@@ -3215,30 +3269,64 @@ $$
 
 
 
+### Real spinors in dimensions 3, 4, 6 and 10
+ {#InTermsOfNormedDivisionAlgebraInDimension3To10}
+
+We now discuss how [[real spin representations]] in dimensions 3,4, 6 and 10 are naturally induced from
+linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
+
+In particular we establish the following table of [exceptional isomorphisms of spin groups](spin+group#ExceptionalIsomorphisms):
+
+[[!include exceptional spinors and division algebras -- table]]
+
++-- {: .num_remark}
+###### Remark
+
+Prop .\ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
+then there is a [[monomorphism]] from the [[special linear group]] $SL(2,\mathbb{K})$ to the [[spin group]]
+in the given dimension:
+
+$$
+  SL(2,\mathbb{K})
+    \hookrightarrow
+  Spin(dim_{\mathbb{R}(\mathbb{K} )} +1 ,1)
+$$
+
+given by
+
+$$
+  A \mapsto A^{-1}(-)A
+  \,.
+$$
+
+This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant
+
+$$
+  det(A^{-1}(-)A) = det(A)^{-1} det(-) det(A) = det(-)
+  \,.
+$$
+
+=--
+
+Hence it remains to show that this is surjective, and to define this action also for $\mathbb{K}$ being the [[octonions]],
+where general [[matrix calculus]] does not apply, due to non-associativity.
+
+
+
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
 ###### Definition
 
-Write $S_+, S_- \coloneqq \mathbb{K}^2$. Define a real [[linear map]]
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence one of the four
+real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
+
+
+Define a real [[linear map]]
 
 $$
-  \Gamma \;\colon\; \mathbb{R}^{d-1,1} \simeq Mat_{2\times 2}^{her}(\mathbb{K}) \longrightarrow End(S_+ \oplus S_-)
+  \Gamma \;\colon\; \mathbb{R}^{dim_{\mathbb{R}}(\mathbb{K})+1,1} \simeq End_{\mathbb{R}}(\mathbb{K}^4)
 $$
 
-(where on the left we are using the isomorphism from prop. \ref{SpacetimeAsMatrices}) by
-
-$$
-  \Gamma(A)
-    \coloneqq
-   \left(
-     \array{
-        0 & \tilde A
-        \\
-        A & 0
-     }
-  \right)
-$$
-
-i.e.
+from (the real vector space underlying) [[Minkowski spacetime]] to real [[linear maps]] on $\mathbb{K}^4$
 
 $$
   \Gamma(A)
@@ -3249,7 +3337,7 @@ $$
       \phi
     }
   \right)
-  =
+  \;\coloneqq\;
   \left(
     \array{
       \tilde A \phi
@@ -3260,6 +3348,20 @@ $$
   \,.
 $$
 
+Here on the right we are using the isomorphism from prop. \ref{SpacetimeAsMatrices} for identifying
+a spacetime vector with a $2 \times 2$-matrix, and we are using the trace reversal $\idetilde(-)$
+from def. \ref{TraceReversal}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Each operation of $\Gamma(A)$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} is clearly a [[linear map]],
+even for $\mathbb{K}$ being the non-associative [[octonions]]. The only point to beware of is that for $\mathbb{K}$
+the octonions, then the composition of two such linear maps is not in general given by the
+usual matrix product. 
+
 =--
 
 
@@ -3267,30 +3369,128 @@ $$
 ###### Proposition
 
 The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]]
-(def. \ref{CliffordAlgebra}) of
+$Cl(\mathbb{R}^{dim_{\mathbb{R}}}(\mathbb{K}+1,1)  )$
+(def. \ref{CliffordAlgebra}), i.e of
 
-1. $\mathbb{R}^{2,1}$ for $\mathbb{K} = \mathbb{R}$;
+1. $Cl(\mathbb{R}^{2,1})$ for $\mathbb{K} = \mathbb{R}$;
 
-1. $\mathbb{R}^{3,1}$ for $\mathbb{K} = \mathbb{C}$;
+1. $Cl(\mathbb{R}^{3,1})$ for $\mathbb{K} = \mathbb{C}$;
 
-1. $\mathbb{R}^{5,1}$ for $\mathbb{K} = \mathbb{H}$;
+1. $Cl(\mathbb{R}^{5,1})$ for $\mathbb{K} = \mathbb{H}$;
 
-1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
+1. $Cl(\mathbb{R}^{9,1})$ for $\mathbb{K} = \mathbb{O}$.
 
-Under restriction along $Spin(d-1,1) \hookrightarrow Cl(d-1,1)$ this is isomorphic to
+Hence this Clifford representation induces [[spin representations|representations]]
+of the [[spin group]] $Spin(dim_{\mathbb{R}}(\mathbb{K})+1,1)$  on 
+the real vector spaces 
 
-1. for $\mathbb{K} = \mathbb{R}$ the Majorana representation of $Spin(2,1)$ on $S_+ \simeq S_-$;
+$$
+  S_{\pm \coloneqq} \mathbb{K}^2
+  \,.
+$$
 
-1. for $\mathbb{K} = \mathbb{C}$ the Majorana representation of $Spin(3,1)$ on $S_+ \simeq S_-$;
-
-1. for $\mathbb{K} = \mathbb{H}$ the Weyl representation of $Spin(5,1)$ on $S_+$ and on $S_-$;
-
-1. for $\mathbb{K} = \mathbb{O}$ the Majorana-Weyl representation of $Spin(9,1)$ on $S_+$ and on $S_-$.
 
 =--
 
 ([Baez-Huerta 09, p. 6](#BaezHuerta09))
 
++-- {: .proof}
+###### Proof
+
+We need to check that the Clifford relation
+
+$$
+  (\Gamma(A))^2 = -\eta(A,A)1
+$$
+
+is satisfied. Now by definition, for any $(\phi,\psi) \in \mathbb{K}^4$ then
+
+$$ 
+  (\Gamma(A))^2
+  \left(
+    \array{
+      \phi
+      \\
+      \psi
+    }
+  \right)
+  \;=\;
+  \left(
+    \array{
+      \tilde A(A \phi)
+      \\
+      A(\tilde A \psi)
+    }
+  \right)
+  \,,
+$$
+
+where on the right we have in each component ordinary matrix product expressions. 
+
+Now observe that both expressions on the right are sums of triple products that involve either
+one real factor or two factors that are conjugate to each other:
+
+$$
+  \begin{aligned}
+    A (\tilde A \psi)
+    & =
+    \left(
+      \array{
+        x_0 + x_1 & y
+        \\
+        y^\ast & x_0 - x_1
+      }
+    \right)
+    \\
+    & =
+    \left(
+      \array{
+        (-x_0 + x_1) \phi_1 + y \phi_2
+        \\
+        y^\ast \phi_1 - (x_0 + x_1)\phi_2
+      }
+    \right)
+    \\
+    & =
+    \left(
+      \array{
+        (-x_0^2 + x_1^2) \phi_1 + (x_0 + x_1)(y \phi_2) + y (y^\ast \phi_1) - y( (x_0 + x_1) \phi_2 )
+        \\
+        \cdots
+      }
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+Since the [[associators]] of triple products that involve a real factor and those involving both an element and its
+conjugate vanish by prop. \ref{PropertiesOfAssociatorInAlternativeAlgebra} (hence ultimately by Artin's theorem, prop. \ref{ArtinTheorem}). 
+In conclusion all associators involved vanish, so that we may rebracket to obtain
+
+$$
+  (\Gamma(A))^2
+  \left(
+    \array{
+      \phi
+      \\
+      \psi
+    }
+  \right)
+  \;=\;
+  \left(
+    \array{
+      (\tilde A A) \phi
+      \\
+      (A \tilde A) \psi
+    }
+  \right)
+  \,.
+$$
+
+This implies the statement via the equality $A \tilde A = \tilde A A = -det(A)$ (prop. \ref{DeterminantViaProductWithTraceReversal}).
+
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -3305,8 +3505,26 @@ $$
   \,.
 $$
 
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[spin representations]] given via prop. \ref{SpinorRepsByNormedDivisionAlgebra}
+by the Clifford representation of def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} are the following:
+
+1. for $\mathbb{K} = \mathbb{R}$ the Majorana representation of $Spin(2,1)$ on $S_+ \simeq S_-$;
+
+1. for $\mathbb{K} = \mathbb{C}$ the Majorana representation of $Spin(3,1)$ on $S_+ \simeq S_-$;
+
+1. for $\mathbb{K} = \mathbb{H}$ the Weyl representation of $Spin(5,1)$ on $S_+$ and on $S_-$;
+
+1. for $\mathbb{K} = \mathbb{O}$ the Majorana-Weyl representation of $Spin(9,1)$ on $S_+$ and on $S_-$.
 
 =--
+
+
+
 
 +-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
 ###### Proposition
@@ -3323,7 +3541,7 @@ $$
   \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
 $$
 
-of remark \ref{BilinearPairingForRealRepresentations} are given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
+from  [above](#TheSpinorPairingToVectors) are given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
 
 $$
   \overline{(-)}(-) \colon S_+\otimes S_- \longrightarrow \mathbb{R}
@@ -3362,7 +3580,7 @@ $$
 
 =--
 
-(e.g. [Baez-Huerta 09, prop. 8, prop. 9](#BaezHuerta09)).
+([Baez-Huerta 09, prop. 8, prop. 9](#BaezHuerta09)).
 
 
 +-- {: .num_example #RealSpinorRepsIn3d}
@@ -3465,7 +3683,7 @@ $$
   \right\}
 $$
 
-Hence the Minkowski metric of prop. \ref{DeterminantGivesMinkowskiMetric} in this basis has the components
+Hence the Minkowski metric of prop. \ref{SpacetimeAsMatrices} in this basis has the components
 
 $$
   \eta
@@ -3585,7 +3803,7 @@ $$
 =--
 
 
-### Real spinors  dimensions 4,5,7 and 11
+### Real spinors  in dimensions 4,5,7 and 11
   {#InTermsOfNormedDivisionAlgebraInDimension4To11}
 
 
