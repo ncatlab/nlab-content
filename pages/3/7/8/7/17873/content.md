@@ -65,7 +65,7 @@ Conversely, if every power object $\Omega^X$ embeds into a connected object then
 
 ## Properties
 
-+-- {: .num_proposition #connected_retract}
++-- {: .num_prop #connected_retract}
 ###### Proposition
 In a weakly cohesive topos, retracts of connected objects are connected themselves.
 =--
@@ -73,6 +73,30 @@ In a weakly cohesive topos, retracts of connected objects are connected themselv
 **Proof**. Let $X$ be a retract of $Y$ with $p_!(Y)=1$. Then $id_X$ factors as $X\rightarrowtail Y\to X$ and applying $p_!$ shows that $id_{p_!(X)}$ factors through the terminal object $p_!(Y)$. $\qed$
 
 Since in general, injective objects $I$ are retracts of the objects $X$ that they embed into because such inclusions $I\rightarrowtail X$ factor through $id_I$ by injectivity, it follows that in a weakly cohesive topos _injective objects that embed into a connected object are connected_ themselves.
+
++-- {: .num_rem}
+###### Example
+The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exists a string of adjoint functors $L\dashv\Pi\dashv\Delta\dashv\Gamma\dashv B: Set\to Set^\to$ with 
+
+* $L(Z)=\emptyset \to Z$
+
+* $\Pi(X\to Y) = Y$
+
+* $\Delta(Z)=Z\overset{id}{\to} Z$
+
+* $\Gamma (X\to Y) = X$
+
+* $B(Z)=Z\to 1$.
+
+The Nullstellensatz fails as does the continuity principle. As a right adjoint $\Pi$ preserves all limits and the terminal object in particular whence $1$ is connected in $Set^\to$. Since the underlying category $\to$ satisfies the [[Ore condition]] trivially, it follows then from a general result[^bouquet] of Lawvere that $\Omega$ is not connected[^bouquet] and, accordingly, that the _Sierpinski topos is not sufficiently cohesive!_
+
+This example underlines the importance of the [[Nullstellensatz]] for the following.
+
+On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a connected subobject classifier but lacks the right adjoint $B$ nor does its connected components functor $\Pi$ preserve finite products.
+=--
+
+[^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
+
 
 ...
 
@@ -113,8 +137,6 @@ Since in general, injective objects $I$ are retracts of the objects $X$ that the
 * {#Menni14a} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
-
-
 
 
 
