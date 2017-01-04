@@ -67,12 +67,30 @@ The standard example is the sequence of consecutive doubles starting with $\math
 [[!redirects Cayley–Dickson construction]]
 [[!redirects Cayley--Dickson construction]]
 
+[[!redirects Cayley-Dickson constructions]]
+[[!redirects Cayley–Dickson constructions]]
+[[!redirects Cayley--Dickson constructions]]
+
 [[!redirects Cayley-Dickson double]]
 [[!redirects Cayley–Dickson double]]
 [[!redirects Cayley--Dickson double]]
+
+[[!redirects Cayley-Dickson doubles]]
+[[!redirects Cayley–Dickson doubles]]
+[[!redirects Cayley--Dickson doubles]]
+
+[[!redirects Cayley-Dickson double algebra]]
+[[!redirects Cayley–Dickson double algebra]]
+[[!redirects Cayley--Dickson double algebra]]
+
+[[!redirects Cayley-Dickson double algebras]]
+[[!redirects Cayley–Dickson double algebras]]
+[[!redirects Cayley--Dickson double algebras]]
+
 [[!redirects double of an algebra with involution]]
 [[!redirects double of algebra with involution]]
 [[!redirects doubles of algebras with involution]]
+
 [[!redirects double of a star-algebra]]
 [[!redirects doubles of star-algebras]]
 [[!redirects double of a *-algebra]]
