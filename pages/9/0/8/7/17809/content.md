@@ -319,10 +319,10 @@ These relations say equivalently that
 $$
   \Gamma_0^2 = +1
   \;\;\,,\;\;
-  \Gamma_i^2 = -1 \;\; \text{for} i \in \{1,\cdots, d-1\}
+  \Gamma_i^2 = -1 \;\; \text{for}\; i \in \{1,\cdots, d-1\}
 $$
 $$
-  \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for} a \neq b
+  \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for}\; a \neq b
   \,.
 $$
 
@@ -435,7 +435,7 @@ Then
 1. the [[conjugation action]]
 
    $$
-     \hat v \mapsto \exp(- \tfrac{\alpha}{4} \Gamma_{a b}) \hat v \exp(\tfrac{\alpha}{4} \Gamma_{a b})
+     \hat v \mapsto \exp(- \tfrac{\alpha}{2} \Gamma_{a b}) \hat v \exp(\tfrac{\alpha}{2} \Gamma_{a b})
    $$
 
    sends $v$ to the result of [[rotation|rotating]] it in the $(a,b)$-plane through an angle $\alpha$.
@@ -469,7 +469,7 @@ multiplying the $a$-component of $v$ by $-1$.
 For the second statement, observe that
 
 $$
-  \tfrac{1}{2}[-\tfrac{1}{2}\Gamma_{a b}, \Gamma_c]
+  -\tfrac{1}{2}[\Gamma_{a b}, \Gamma_c]
   =
   \Gamma_a \eta_{b c} - \Gamma_b \eta_{a c}
   \,.
@@ -479,9 +479,9 @@ This is the canonical action of the Lorentzian [[special orthogonal Lie algebra]
 Hence
 
 $$
-  \exp(-\tfrac\alpha{}{4} \Gamma_{ab}) \hat v \exp(\tfrac{\alpha}{4} \Gamma_{ab})
+  \exp(-\tfrac{\alpha}{2} \Gamma_{ab}) \hat v \exp(\tfrac{\alpha}{2} \Gamma_{ab})
     =
-  \exp(\tfrac{1}{2}[\tfrac{1}{2}\Gamma_{a b}, -])(\hat v)
+  \exp(\tfrac{1}{2}[\Gamma_{a b}, -])(\hat v)
 $$
 
 is the rotation action as claimed.
@@ -2917,7 +2917,7 @@ Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is a
      [a,b,c] = -[a^\ast,b,c]
      \,;
    $$
-      
+
 1. the [[associator]] vanishes when one of its arguments is the conjugate of another:
 
    $$
@@ -2931,7 +2931,7 @@ Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is a
      Re([a,b,c]) = 0
      \,.
    $$
-   
+
 =--
 
 +-- {: .proof}
@@ -2939,7 +2939,7 @@ Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is a
 
 That the associator vanishes as soon as one argument is real is just the linearity of an algebra
 product over the ground ring.
- 
+
 Hence in fact
 
 $$
@@ -2959,19 +2959,19 @@ The fourth statement finally follows by this computation:
 $$
   \begin{aligned}
     [a,b,c]^\ast
-      & = 
+      & =
     -[c^\ast, b^\ast, a^\ast]
       \\
-      & = 
+      & =
       -[c,b,a]
       \\
-      & = 
+      & =
       -[a,b,c]
   \end{aligned}
   \,.
 $$
 
-Here the first equation follows by inspection and using that $(a b)^\ast = b^\ast a^\ast$, 
+Here the first equation follows by inspection and using that $(a b)^\ast = b^\ast a^\ast$,
 the second follows from the first statement above, and the third is the ant-symmetry of the associator.
 
 =--
@@ -3202,7 +3202,7 @@ $$
       \\
       y^\ast & -x_0 - x_1
     }
-  \right)   
+  \right)
   \,.
 $$
 
@@ -3248,7 +3248,7 @@ the determinant operation on hermitian matrices (def. \ref{MatrixNotation}) has 
 
 $$
   \begin{aligned}
-    -det(A) & = A \tilde A 
+    -det(A) & = A \tilde A
       \\
       & = \tilde A A
   \end{aligned}
@@ -3360,7 +3360,7 @@ from def. \ref{TraceReversal}.
 Each operation of $\Gamma(A)$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} is clearly a [[linear map]],
 even for $\mathbb{K}$ being the non-associative [[octonions]]. The only point to beware of is that for $\mathbb{K}$
 the octonions, then the composition of two such linear maps is not in general given by the
-usual matrix product. 
+usual matrix product.
 
 =--
 
@@ -3381,8 +3381,8 @@ $Cl(\mathbb{R}^{dim_{\mathbb{R}}}(\mathbb{K}+1,1)  )$
 1. $Cl(\mathbb{R}^{9,1})$ for $\mathbb{K} = \mathbb{O}$.
 
 Hence this Clifford representation induces [[spin representations|representations]]
-of the [[spin group]] $Spin(dim_{\mathbb{R}}(\mathbb{K})+1,1)$  on 
-the real vector spaces 
+of the [[spin group]] $Spin(dim_{\mathbb{R}}(\mathbb{K})+1,1)$  on
+the real vector spaces
 
 $$
   S_{\pm \coloneqq} \mathbb{K}^2
@@ -3405,7 +3405,7 @@ $$
 
 is satisfied. Now by definition, for any $(\phi,\psi) \in \mathbb{K}^4$ then
 
-$$ 
+$$
   (\Gamma(A))^2
   \left(
     \array{
@@ -3425,7 +3425,7 @@ $$
   \,,
 $$
 
-where on the right we have in each component ordinary matrix product expressions. 
+where on the right we have in each component ordinary matrix product expressions.
 
 Now observe that both expressions on the right are sums of triple products that involve either
 one real factor or two factors that are conjugate to each other:
@@ -3464,7 +3464,7 @@ $$
 $$
 
 Since the [[associators]] of triple products that involve a real factor and those involving both an element and its
-conjugate vanish by prop. \ref{PropertiesOfAssociatorInAlternativeAlgebra} (hence ultimately by Artin's theorem, prop. \ref{ArtinTheorem}). 
+conjugate vanish by prop. \ref{PropertiesOfAssociatorInAlternativeAlgebra} (hence ultimately by Artin's theorem, prop. \ref{ArtinTheorem}).
 In conclusion all associators involved vanish, so that we may rebracket to obtain
 
 $$
@@ -3957,9 +3957,9 @@ $$
 ## Spacetime supersymmetry
  {#Supersymmetry}
 
-Every real spin representation of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
+We discuss here how every [[real spin representation]] of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
 
-Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentian signature)
+Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentzian signature)
 
 $$
   \mathbb{R}^{d-1,1}
@@ -3967,7 +3967,244 @@ $$
   \mathfrak{Iso}(\mathbb{R}^{d-1,1})/\mathfrak{so}(d-1,1)
 $$
 
-(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ of the following definition, and this justifies the following notation:
+(namely as the Lie algebra of translations along itself), every [[super Lie algebra]] [[extension of Lie algebras|extension]] of the [[Poincaré Lie algebra]] defines a [[super Lie algebra]] [[extension of Lie algebras|extension]] of Minkowski spacetime. These extensions are the [[super Minkowski spacetimes]] $\mathbb{R}^{d-1,1\vert N}$ which in the [[physics]] literature are often just called "[[superspace]]".
+
+To set the scene, we recall some basics of ordinary spacetime symmetry in
+
+* _[Spacetime symmetry](#SpacetimeSymmetry)_
+
+Then in
+
+* _[Super-extensions of spacetime symmetry](#SuperExtensionOfPoincareLieAlgebra)_
+
+we discuss the general issue of extending spacetime symmetries to "[[supersymmetries]]".
+
+Then in 
+
+* _[Super Poincar&#233; and super Minowski symmetry](#SuperPoincareAndSuperMinkowsSymmetry)_ 
+
+we specialize to the particular such extensions commonly known as _supersymmetries_.
+
+Finally we discuss the question of how god-given this common choice is, in 
+
+* _[Supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_
+
+
+### Spacetime symmetry
+ {#SpacetimeSymmetry}
+
++-- {: .num_defn}
+###### Definition
+
+For $d \in \mathbb{N}$, write $\mathbb{R}^{d-1,1}$ for [[Minkowski spacetime]], regarded as the [[inner product space]] whose underlying [[vector space]] is $\mathbb{R}^d$ and equipped with the [[bilinear form]] given in the canonical [[linear basis]] of $\mathbb{R}^d$ by
+
+$$
+  \eta \coloneqq diag(-1,+1,+1, \cdots, +1)
+  \,.
+$$
+
+The [[Poincaré group]] $Iso(\mathbb{R}^{d-1,1})$ is the [[isometry group]] of this inner product space. The _Poincar&#233; Lie algebra_ $\mathfrak{iso}(\mathbb{R}^{d-1,1})$ is the [[Lie algebra]] of this [[Lie group]] (its [[Lie differentiation]])
+
+$$
+  \mathfrak{iso}(\mathbb{R}^{d-1,1})
+  \coloneqq
+  Lie(Iso(\mathbb{R}^{d-1,1}))
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The [[Poincaré group]] is the [[semidirect product group]]
+
+$$
+  Iso(\mathbb{R}^{d-1,1})
+    \simeq
+  \mathbb{R}^{d-1,1} \rtimes O(d-1,1)
+$$
+
+of the [[Lorentz group]] $O(d-1,1)$ (the group of [[linear map|linear]] [[isometries]] of [[Minkowski spacetime]]) with the $\mathbb{R}^d$ regarded as the [[translation group]] along itself, via the defining [[action]].
+
+Accordingly, the Poincar&#233; Lie algebra is the [[semidirect product Lie algebra]]
+
+$$
+  \mathfrak{iso}(\mathbb{R}^{d-1,1})
+  \simeq
+  \mathbb{R}^{d-1,1}
+    \rtimes
+  \mathfrak{so}^+(d-1,1)
+$$
+
+of the abelian Lie algebra on $\mathbb{R}^d$ with the (orthochronous) [[special orthogonal Lie algebra]] $\mathfrak{so}(d-1,1)$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+For $\{P_a\}$ the canonical [[linear basis]] of $\mathbb{R}^d$, and for $\{L_{a b} = - L_{b a}\}$ the corresponding canonical basis of $\mathfrak{so}(d-1,1)$, then the [[Lie bracket]] in $\mathfrak{iso}(\mathbb{R}^{d-1,1})$ is given as follows:
+
+$$
+  \begin{aligned}
+    [P_a, P_b] & = 0
+    \\
+    [L_{a b}, L_{c d}]
+     & =
+      \eta_{d a} L_{b c}
+      -\eta_{b c} L_{a d}
+      +\eta_{a c} L_{b d}
+      -\eta_{d b} L_{a c}
+     \\
+    [L_{a b}, P_c] & = \eta_{a c} P_b -\eta_{bc} P_a
+  \end{aligned}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since [[Lie differentiation]] sees only the [[connected component]] of a [[Lie group]], and does not distinguish betwee a Lie group and any of its discrete [[covering spaces]], we may equivalently consider the Lie algebra of the [[spin group]] $Spin(d-1,1) \to SO^+(d-1,1)$ (the double cover of the [[proper orthochronous Lorentz group]]) and its [[action]] on $\mathbb{R}^{d-1,1}$.
+
+By the discussion at _[[spin group]]_, the Lie algebra of $Spin(d-1,1)$ is the Lie algebra spanned by the [[Clifford algebra]] [[bivectors]]
+
+$$
+  L_{a b} \leftrightarrow \Gamma_a \Gamma_b
+$$
+
+and its [[action]] on itself as well as on the vectors, identified with single Clifford generators
+
+$$
+  P_a \leftrightarrow \Gamma_a
+$$
+
+is given by forming [[commutators]] in the [[Clifford algebra]]:
+
+$$
+  [L_{a b}, P_c]
+    \leftrightarrow
+  \tfrac{1}{2}[\Gamma_{a b}, \Gamma_c  ]
+$$
+
+
+$$
+  [L_{a b}, L_{c d}]
+  \leftrightarrow
+  \tfrac{1}{2}[\Gamma_{a b}, \Gamma_{c d}  ]
+  \,.
+$$
+
+Via the Clifford relation
+
+$$
+  \Gamma_a \Gamma_b + \Gamma_b \Gamma_a = -2 \eta_{a b}
+$$
+
+this yields the claim.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Dually, the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{iso}(\mathbb{R}^{d-1})$ is generated from $\mathbb{R}^{d,1}$ and $\wedge^2 \mathbb{R}^{d,1}$. For $\{t_a\}$ the standard basis of $\mathbb{R}^{d-1,1}$ we write $\{\omega^{a b}\}$ and $\{e^a\}$ for these generators. With $(\eta_{a b})$ the components of the [[Minkowski metric]] we write
+
+$$
+  \omega^{a}{}_b \coloneqq \omega^{a c}\eta_{c b}
+  \,.
+$$
+
+In terms of this the CE-differential that defines the Lie algebra structure is
+
+$$
+  d_{CE} \colon \omega^{a b} = \omega^a{}_c \wedge \omega^{c b}
+$$
+
+$$
+  d_{CE} \colon e^a \mapsto \omega^{a}{}_b  \wedge t^b
+$$
+
+=--
+
+
+
+### Super-extensions of spacetime symmetry
+ {#SuperExtensionOfPoincareLieAlgebra}
+
+
+Recall from _[[geometry of physics -- supergeometry]]_ the concept of [[super Lie algebra]]
+
++-- {: .num_defn #SuperLieAlgebraViaCE}
+###### Definition
+
+A [[super Lie algebra]] structure on a [[super vector space]] $\mathfrak{g}$ is
+the [[formal dual]] of a $(\mathbb{Z},\mathbb{Z}_2)$-bigraded commutative
+differential algebra
+
+$$
+  CE(\mathfrak{g}) = \left(
+   \wedge^\bullet V^\ast, \; d
+  \right)
+$$
+
+(with differential $d$ of degree (1,even))
+such that the underlying graded algebra is the super Grassmann algebra
+$\wedge^\bullet \mathfrak{g}^\ast$ via def. \ref{SuperGrassmannAlgebra}.
+
+We call this again the [[Chevalley-Eilenberg algebra]] of the super Lie algebra
+dually defined thereby.
+
+Similarly, the [[Weil algebra]] $W(\mathfrak{g})$ is obtained from this by adding a generator in degree $(2,\sigma)$ for each previous generator in degree $(1,\sigma)$ and extending the differential as in def. \ref{WeilForLInfinitityAlgebra}.
+
+=--
+
+Unwinding what this means, one finds that it is equivalent to the
+following more traditional definition:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] is equivalently
+
+1. a [[super vector space]] $\mathfrak{g} = \mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a bilinear bracket
+
+   $$
+     [-,-] : \mathfrak{g}\otimes \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+=--
+
+
+
+
+
+
+
+
+
+
+
+### Super Poincar&#233; and super Minowski symmetry
+ {#SuperPoincareAndSuperMinkowsSymmetry}
 
 +-- {: .num_defn #SuperMinkowskiSpacetime}
 ###### Definition
@@ -4306,6 +4543,302 @@ Finally by [[triality]] the vector representation of $\mathfrak{so}(8) = D_4$ is
 Further constraints follow from requiring [[super-unitary representations]] ([Minwalla 98, section 4.3](#Minwalla98)). This restricts for instance the 6d superconformal algebra to $D(4,1) = \mathfrak{osp}(8|2)$ and $D(4,1) = \mathfrak{osp}(8,4)$, the latter being (over the reals as $\mathfrak{so}(8^\ast|4) = \mathfrak{osp}(6,2|4)$) the symmetry algebra of the [[6d (2,0)-superconformal QFT]] on the [[worldvolume]] of the [[M5-brane]].
 
 =--
+
+
+
+
+
+
+## Supersymmetry from the superpoint
+ {#SupersymmetryFromTheSuperpoint}
+
+
++-- {: .num_prop}
+###### Proposition
+
+Consider the [[nLab:superpoint]]
+
+$$
+  \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
+$$
+
+regarded as an abelian [[nLab:super Lie algebra]].
+
+Its maximal [[nLab:central extension]] is
+
+the $N = 1$ super-[[nlab:worldline]] of the [[nLab:superparticle]]:
+
+$$
+  \array{
+    \mathbb{R}^{0,1\vert \mathbf{1}}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{0\vert 1}
+  }
+  \,.
+$$
+
+* whose even part is spanned by one generator $H$
+
+* whose odd part is spanned by one generator $Q$
+
+* the only non-trivial bracket is
+
+  $$
+    \{Q, Q\} = H
+  $$
+
+
+Then consider the [[nLab:superpoint]]
+
+$$
+  \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
+  \,.
+$$
+
+
+Its maximal [[nLab:central extension]] is
+
+the $d = 3$, $N = 1$ [[nLab:super Minkowski spacetime]]
+
+$$
+  \array{
+    \mathbb{R}^{2,1\vert \mathbf{2}}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{0\vert 2}
+  }
+  \,.
+$$
+
+* whose even part is $\mathbb{R}^3$, spanned by generators $P_0, P_1, P_2$
+
+* whose odd part is $\mathbb{R}^2$, regarded as
+
+  the [[nLab:Majorana spinor]] representation $\mathbf{2}$
+
+  of $Spin(2,1) \simeq SL(2,\mathbb{R})$
+
+* the only non-trivial bracket is the spinor bilinear pairing
+
+  $$
+    \{Q_\alpha, Q'_\beta\}
+    =
+     C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{}_\beta
+    \,P^a
+  $$
+
+where $C_{\alpha \beta}$ is the [[nLab:charge conjugation matrix]].
+
+=--
+
+
+
++-- {: .proof #FromSuperpointTo3dProof}
+###### Proof
+
+$\,$
+
+Recall that
+
+$d$-dimensional [[nlab:central extensions]] of [[nLab:super Lie algebras]] $\mathfrak{g}$
+
+are classified by [[nLab:Lie algebra cohomology|2-cocycles]].
+
+These are super-skew symmetric [[nLab:bilinear maps]]
+
+$$
+  \mu_2
+   \;\colon\;
+  \mathfrak{g} \wedge\mathfrak{g}
+    \longrightarrow
+  \mathbb{R}^d
+$$
+
+satisfying a cocycle condition.
+
+The extension $\widehat{\mathfrak{g}}$ that this classifies
+
+has underlying [[nLab:super vector space]]
+
+the [[nLab:direct sum]]
+
+$$
+  \widehat{\mathfrak{g}} \coloneqq \mathfrak{g} \oplus \mathbb{R}^d
+$$
+
+an the new super Lie bracket is given
+
+on pairs $(x,c) \in \mathfrak{g} \oplus \mathbb{R}^d$
+
+by
+
+$$
+  [\; (x_1,c_1), (x_2,c_2)\;]_{\mu_2}
+  \;=\;
+  (\, [x_1,x_2]\,,\, \mu_2(c_1,c_2) \,)
+  \,.
+$$
+
+The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[nLab:Jacobi identity]]
+
+is equivalent to the cocycle condition on $\mu_2$.
+
+Now
+
+in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$,
+
+then the cocycle condition is trivial
+
+and a 2-cocycle is just a _symmetric_ [[nLab:bilinear form]]
+
+on the $q$ fermionic dimensions.
+
+So
+
+in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$
+
+there is a unique such, up to scale, namely
+
+$$
+  \mu_2(a Q,b Q) = a b P
+  \,.
+$$
+
+But
+
+in the case $\mathfrak{g} = \mathbb{R}^{0\vert 2}$
+
+there is a 3-dimensional space of 2-cocycles, namely
+
+$$
+  \mu_2
+  \left(
+    \left(
+    \array{
+      Q_1
+      \\
+      Q_2
+    }\right),
+    \left(
+    \array{
+      Q'_1
+      \\
+      Q'_2
+    }
+    \right)
+  \right)
+  =
+  \left\{
+     \array{
+        Q_1 Q'_1,
+        &
+        \tfrac{1}{2}\left(
+          Q_1 Q'_2 + Q_2 Q'_1
+        \right),
+        \\
+        & Q_2 Q'_2
+     }
+  \right.
+$$
+
+If this is identified with the three coordinates
+
+of 3d [[nLab:Minkowski spacetime]]
+
+$$
+  \mathbb{R}^{2,1}
+    \;\simeq\;
+  \left(
+    \array{
+       t + x & y
+       \\
+       & t - x
+    }
+  \right)
+$$
+
+then the pairing is the claimed one
+
+(see at _[supersymmetry -- in dimensions 3,4,6,10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
+
+=--
+
+$\,$
+
+This phenomenon continues:
+
+$\,$
+
++-- {: .num_theorem}
+###### Theorem
+**([J. Huerta](#MTheoryFromTheSuperpoint))
+
+The [[nLab:diagram]] of [[nLab:super Lie algebras]] shown on the right
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+</div>
+
+is obtained by consecutively forming
+
+maximal central extensions
+
+invariant with respect to
+
+the maximal subgroup of automorphisms
+
+for which there are invariant cocycles at all.
+
+Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
+
+is the $d$, $\mathbf{N}$ super-translation [[nLab:supersymmetry]] algebra.
+
+And these subgroups are
+
+the [[nLab:spin group]] covers $Spin(d-1,1)$
+
+of the [[nLab:Lorentz groups]] $O(d-1,1)$.
+
+=--
+
+$\,$
+
+Side remark: That every [[nLab:super Minkowski spacetime]] is _some_ [[nLab:central extension]] of some [[nLab:superpoint]]  is elementary.
+This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
+2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
+But most central extensions of superpoints
+are nothing like super-Minkowksi spacetimes.
+The point of the above proposition
+is to restrict attention to _iterated invariant_ central extensions
+and to find that these single out the super-Minowski spacetimes.
+
+$\,$
+
+**Conclusion:**
+
+Just from studying iterated invariant [[nLab:central extensions]]
+
+of [[nLab:super Lie algebras]],
+
+starting with the [[nLab:superpoint]],
+
+we  (re-)discover
+
+1. [[nLab:pseudo-Riemannian geometry|Lorentzian geometry]],
+
+1. [[nLab:spin geometry]].
+
+1. [[nLab:super spacetimes]].
+
+In the next chapter _[[geometry of physics -- fundamental super p-branes]]_ we discuss that this process
+continues through _higher_ central extensions to yield not only [[super-spacetime]], but also the [[super p-branes]]
+propagating on it.
+
+> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[nLab:Greg Moore|G. Moore]], p.41 of "[[nLab:Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
+
 
 
 
