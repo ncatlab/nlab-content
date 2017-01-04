@@ -78,6 +78,8 @@ The [[Hurwitz theorem]] says that over the [[real numbers]] there are, up to [[i
 *  $\mathbb{H}$, the algebra of [[quaternions]],
 *  $\mathbb{O}$, the algebra of [[octonions]].
 
+In fact these are also exactly the real [[alternative algebra|alternative]] division algebras ([Zorn 30](#Zorn30)).
+
 Each of these is produced from the previous one by the [[Cayley–Dickson construction]]; when applied to $\mathbb{O}$, this construction produces the algebra of [[sedenions]], which do *not* form a division algebra.
 
 The Cayley--Dickson construction applies to an algebra with [[involution]]; by the abstract nonsense of that construction, we can see that the four normed division algebras above have these properties:
@@ -138,6 +140,10 @@ see [[division algebra and supersymmetry]]
 The classification of real divsion composition algebras is originally due ([[Hurwitz theorem]]) to 
 
 * {#Hurwitz1898} [[Adolf Hurwitz]], _&#220;ber die Composition der quadratischen Formen von beliebig vielen Variabeln_, Nachr. Ges. Wiss. G&#246;ttingen (1898) 309&#8211;316
+
+The alternative classification as real [[alternative algebra|alternative]] division algebras is due to
+
+* {#Zorn30} [[Max Zorn]], _Theorie der alternativen Ringe_, Abhandlungen des Mathematischen Seminars der Universit&#228;t Hamburg 8 (1930), 123-147
 
 General discussion includes includes
 
