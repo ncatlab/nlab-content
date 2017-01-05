@@ -167,6 +167,13 @@ An account of the history as of 1999 is in
 
 * {#Duff99} [[Mike Duff]], chapter II of _[[The World in Eleven Dimensions]]: Supergravity, Supermembranes and M-theory_, IoP 1999 ([publisher](https://www.crcpress.com/The-World-in-Eleven-Dimensions-Supergravity-supermembranes-and-M-theory/Duff/9780750306720))
 
+More recent review is in
+
+* Georgios Linardopoulos, chapter 13 of _Classical Strings and Membranes in the AdS/CFT Correspondence_ ([pdf](http://users.uoa.gr/~glinardo/Thesis.pdf), [spire](https://inspirehep.net/record/1391031/))
+
+
+
+
  
 A detailed discussion of this [[black brane]]-realization of the M2 and its relation to [[AdS-CFT]] is in 
 
