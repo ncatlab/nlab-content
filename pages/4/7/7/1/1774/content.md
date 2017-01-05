@@ -60,7 +60,7 @@ In a [[bicategory]] this equivalence is an identity. In even higher (and non-[[s
 
 ## Combinatorics of exchange laws
 
-One way to capture all exchange laws combinatorially is encoded by the cosimplicial $sSet$-cateory $S : \Delta \to sSet Cat$ that induces the [[homotopy coherent nerve]]. See there for more details on how this encodes the exchange laws.
+One way to capture all exchange laws combinatorially is encoded by the cosimplicial $sSet$-category $S : \Delta \to sSet Cat$ that induces the [[homotopy coherent nerve]]. See there for more details on how this encodes the exchange laws.
 
 
 [[!redirects interchange law]]
