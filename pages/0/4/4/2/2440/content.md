@@ -64,6 +64,7 @@ See the discussion at [[superalgebra]] for details on this.
 
 =--
 
+
 ## Properties
 
 ### Classification
@@ -143,6 +144,12 @@ reviewed e.g. in ([Farmer 84, p. 25,26](#Farmer84), [Minwalla 98, section 4.1](#
   Just as [[Lie algebra]]s are [[vertical categorification|categorified]] to [[L-infinity algebra]]s and [[L-infinity algebroid]]s, so super Lie algebras categorifie to [[super L-infinity algebra]]s.  A secretly famous example is the
 
   * [[supergravity Lie 3-algebra]], [[supergravity Lie 6-algebra]]
+
+## Related entries
+
+* [[Haag??opusza?ski?Sohnius theorem]]
+
+* [[geometry of physics -- supersymmetry]]
 
 ## References
 
