@@ -29,7 +29,7 @@ A _Majorana spin representation_ is essentially a _real_ [[spin representation]]
 
 Accordingly a _Majorana spinor_ or _Majorana fermion_ is a [[spinor]]/[[fermion]] corresponding to such a representation under [[Wigner classification]]. None of the particles in the [[standard model of particle physics]] except possibly the [[neutrinos]] are Majorana fermions (for neutrinos this remains open). The relevance of Majorana representations is that these appear in [[supersymmetry]], constituting for instance the odd-graded components of [[super-Minkowski spacetimes]]. See remark \ref{SuperPoincareOutlook} below.
 
-The terminology _Majorana spinor_ originates in and is standard in the [[physics]] literature, where it usually refers to the explicit expression of the reality condition in terms of chosen basis components. With standard conventions understood (see prop. \ref{CliffordAlgebraRepresentation} below), then a complex [[spinor]] $\psi$ for $Spin(d-1,1)$, regarded as an element of $\mathbb{C}^{\nu}$ (with $d = 2 \nu, 2\nu+1$) is a Majorana spinor if it satisfies the condition
+The terminology _Majorana spinor_ originates in and is standard in the [[physics]] literature, where it usually refers to the explicit expression of the reality condition in terms of chosen basis components. With standard conventions understood (see prop. \ref{CliffordAlgebraRepresentation} below), then a complex [[spinor]] $\psi$ for $Spin(d-1,1)$, regarded as an element of $\mathbb{C}^{2^\nu}$ (with $d = 2 \nu, 2\nu+1$) is a Majorana spinor if it satisfies the condition
 
 $$
   \psi^t C = \psi^\dagger \Gamma_0
@@ -192,7 +192,7 @@ $$
 Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(s,1)$ (def. \ref{MinkowskiSpacetime}) on the [[complex vector space]]
 
 $$
-  V \coloneqq \mathbb{C}^{\nu}
+  V \coloneqq \mathbb{C}^{2^\nu}
 $$ 
 
 such that
@@ -914,7 +914,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{2^\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
