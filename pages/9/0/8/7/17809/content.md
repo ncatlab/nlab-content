@@ -8,7 +8,6 @@ $\,$
 
 > next section _[[geometry of physics -- fundamental super p-branes]]_
 
-> under construction
 
 $\,$
 
@@ -82,9 +81,16 @@ $\,$
 * table of contents
 {:toc}
 
-What defines and controls spacetime supersymmetry in the form of the [[super Poincaré Lie algebra]] and [[super Minkowski spacetime]] are
-[[linear representations]] of [[spin group]] on _real_ vector spaces: [[real structure|real]] [[spin representations]],
-also called [[Majorana representations]]. These we discuss first in
+$\,$
+
+$\,$
+
+We start by considering the general concept of super-symmetry extensions of given ordinary symmetries:
+
+* _[Supersymmetry extensions](#SupersymmetryExtensions)_
+
+There we find that super-extensions of spacetime symmetry are induced by [[real spin representations]] ([[Majorana spinors]]).
+These we discuss in
 
 * _[Real spin representations -- Majorana spinors](#RealSpinRepresentations)_
 
@@ -100,7 +106,378 @@ construct spacetime [[supersymmetry]] [[super Lie algebras]] and [[supergroups]]
 
 * _[Spacetime supersymmetry](#Supersymmetry)_
 
-(...)
+Finally we discuss that instead of pre-describing bosonic spacetime symmetry and then asking for super-extensions of it,
+one may discover spacetime, spin geometry and supersymmetry all at once by a systematic mathematical process starting from just the
+superpoint:
+
+* _[Supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_
+
+## Supersymmetry extensions
+ {#SuperExtensionOfPoincareLieAlgebra}
+
+
+We start by saying what it means, in generality, to have a supersymmetric extension of an ordinary symmetry.
+Here we are concerned with [[symmetry groups]] that are [[Lie groups]], and we start by considering
+only the infinitesimal approximation, hence their [[Lie algebras]]. 
+
+To discuss super-extensions of Lie algebras, recall from _[[geometry of physics -- supergeometry]]_ the concept of _[[super Lie algebras]]_:
+
++-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
+###### Definition
+
+A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
+Hence this is
+
+1. a [[super vector space]] $\mathfrak{g}$;
+
+1. a homomorphism
+
+   $$
+     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
+   $$
+
+   of super vector spaces (the _super Lie bracket_)
+
+such that
+
+1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g}
+         &
+           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
+         &
+       \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
+       \\
+       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
+     }
+   $$
+
+   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
+
+1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       &&
+         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
+       &&
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       \\
+       && \mathfrak{g}
+     }
+     \,.
+   $$
+
+=--
+
+Externally this means the following:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
+
+1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a [[bilinear map]] (the _super Lie bracket_)
+
+   $$
+     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
+which preserves the Lie bracket. We write
+
+$$
+  sLieAlg
+$$
+
+for the resulting [[category]] of super Lie algebras.
+
+=--
+
+Some obvious but important classes of examples are the following:
+
++-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
+###### Example
+
+every $\mathbb{Z}/2$-[[graded vector space]] $V$ becomes a
+[[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+by taking the super Lie bracket to be the [[zero morphism|zero map]]
+
+$$
+  [-,-] = 0
+  \,.
+$$
+
+These may be called the "abelian" super Lie algebras.
+
+=--
+
+
++-- {: .num_example #OrdinaryLieAlgebraAsSuperLieAlgebra}
+###### Example
+
+Every ordinary [[Lie algebras]] becomes a [[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+concentrated in even degrees. This constitutes a [[fully faithful functor]]
+
+$$
+  LieAlg \hookrightarrow sLieAlg
+  \,.
+$$
+
+which is a  [[coreflective subcategory]] inclusion in that it has a [[left adjoint]]
+
+$$
+  LieAlg
+    \underoverset
+     {\underset{ \overset{ \rightsquigarrow}{(-)} }{\longleftarrow}}
+     {\hookrightarrow}
+     {\bot}
+  sLieAlg
+$$
+
+given on the underlying super vector spaces by restriction to the even graded part
+
+$$
+  \overset{\rightsquigarrow}{\mathfrak{s}} = \mathfrak{s}_{even}
+  \,.
+$$
+
+=--
+
+Using this we may finally say what a super-extension is supposed to be:
+
++-- {: .num_defn #SuperExtensions}
+###### Definition
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a _super-extension_  of $\mathfrak{g}$
+is [[super Lie algebra]] $\mathfrak{s}$ (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}) equipped with a [[monomorphism]] of the form
+
+$$
+  i \;\colon\; \mathfrak{g} \hookrightarrow  \mathfrak{s}
+$$
+
+(where $\mathfrak{g}$ is regarded as a super Lie algebra according to example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
+
+such that this is an [[isomorphism]] on the even part (example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
+
+$$
+  \overset{\rightsquigarrow}{i}
+    \;\colon\;
+  \mathfrak{g} \overset{\simeq}{\longrightarrow} \mathfrak{s}_{even}
+  \,.
+$$
+
+
+
+=--
+
+
+We now make explicit structure involved in super-extensions of Lie algebras:
+
++-- {: .num_prop #DataInSuperExtension}
+###### Proposition
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a choice of super-extension
+$\mathfrak{g} \hookrightarrow \mathfrak{s}$ according to def. \ref{SuperExtensions}
+is equivalently the following data:
+
+1. a [[vector space]] $S$;
+
+1. a Lie action of $\mathfrak{g}$ on $S$, hence a Lie algebra homomorphism
+
+   $$
+     \rho_{(-)} : \mathfrak{g} \longrightarrow \mathfrak{gl}(S)
+   $$
+
+   from $\mathfrak{g}$ to the [[endomorphism Lie algebra]] of $S$;
+
+1. a symmetric [[bilinear map]]
+
+   $$
+     (-,-) \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
+   $$
+
+such that
+
+1. the pairing is $\mathfrak{g}$-equivariant in that for all $t \in \mathfrak{g}$ then
+
+   $$
+     \rho_{t}(-,-) = (\rho_t(-),(-)) + (-,\rho_t(-))
+   $$
+
+1. the pairing satisfies
+
+   $$
+     \rho_{(\phi,\phi)}(\phi) = 0
+     \,.
+   $$
+
+   and possibly further conditons. A sufficient condition on the pairing such that the above
+data defines a super-extension of $\mathfrak{g}$ is that all the elements in the image of the pairing act trivially on all elements, i.e. 
+that
+
+$$
+  \rho_{(\phi,\psi)} = 0
+$$
+
+for all $\phi,\psi \in S$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of super-extension, the underlying super vector space of $\mathfrak{s}$ is necessarily of the form
+
+$$
+  \mathfrak{s}_{even} = \underset{\mathfrak{s}_{even}}{\underbrace{\mathfrak{g}}} \oplus \underset{\mathfrak{s}_{odd}}{\underbrace{S}}
+$$
+
+for some vector space $S$.
+
+Moreover the super Lie bracket on $\mathfrak{s}$ restrict to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{k}$
+and otherwise constitutes
+
+1. a bilinear map
+
+   $$
+     \rho_{(-)}(-) \coloneqq [-,-]\vert_{\mathfrak{s}_{even}\oplus \mathfrak{s}_{odd}} \;\colon\; \mathfrak{g} \otimes_k S \longrightarrow S
+   $$
+
+1. a symmetric bilinear map
+
+   $$
+     (-,-) \coloneqq [-,-]\vert_{\mathfrak{s}_{odd} \oplus \mathfrak{s}_{odd}} \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
+     \,.
+   $$
+
+This yields the claimed [[stuff, structure, property|structure]]. The claimed [[stuff, structure, property|properties]]
+of these linear maps are now just a restatement of the super-Jacobi identity in terms of this data:
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even}$ is equivalently the Jacobi identity in $\mathfrak{g}$ and hence is no new constraint;
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}$ says that for $t_1,t_2 \in \mathfrak{g}$ and $\phi \in S$ then
+
+   $$
+     \rho_{t_1}( \rho_{t_2}(\phi) ) = \rho_{[t_1,t_2]}(\phi) + \rho_{t_1}( \rho_{t_2}(\phi) )
+     \,.
+   $$
+
+   This is equivalent to
+
+   $$
+     \rho_{t_1} \circ \rho_{t_2} - \rho_{t_2} \circ \rho_{t_1} = \rho_{[t_1,t_2]}
+   $$
+
+   which means equivalently that $\rho_{(-)}$ is a Lie algebra homomorphism from $\mathfrak{g}$ to the
+   [[endomorphism Lie algebra]] of $S$.
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ says that for $t \in \mathfrak{g}$ and $\phi,\psi \in S$ then
+
+   $$
+     \rho_{t}(\phi,\psi) = (\rho_t(\phi), \psi) + (\phi, \rho_t(\psi))
+     \,.
+   $$
+
+   This is exactly the claimed $\mathfrak{g}$-equivariance of the pairing.
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{odd} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ implies that for all $\psi \in S$ that
+
+   $$
+     [\psi,(\psi,\psi)] = [ (\psi,\psi), \psi  ] - [\psi, (\psi, \psi)]
+   $$
+
+   and hence that
+
+   $$
+     [(\psi,\psi),\psi] =  \rho_{(\psi,\psi)}(\psi) = 0
+     \,.
+   $$
+
+   Conversely, it is clear that if for all $\phi, \psi, \zeta \in S$ we have
+
+   $$
+     [(\phi,\psi), \zeta] = 0
+   $$
+
+   then the super-Jacobi identity on three odd-graded elements is implied.
+
+
+=--
+
++-- {: .num_example #TrivialSuperExtension}
+###### Example
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then for every choice of [[vector space]] $V$
+there is the _trivial_ super extension (def. \ref{SuperExtensions}) of $\mathfrak{g}$, with underlying
+vector space
+
+$$
+  \mathfrak{s} \coloneqq \mathfrak{g} \oplus S
+$$
+
+and with both the action and the pairing (via prop. \ref{DataInSuperExtension}) trivial:
+
+$$
+  \rho = 0
+$$
+
+and
+
+$$
+  (-,-) = 0
+  \,.
+$$
+
+
+=--
+
+The key example of interest now is going to be this:
+
++-- {: .num_example #SuperExtensionOfPoincare}
+###### Example
+
+For $d \in \mathbb{N}$, a super extension (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]]
+$\mathfrak{iso}(\mathbb{R}^{d-1,1})$ (recalled as def. \ref{PoincareLieAlgebra} below)
+which is non-trvial (def. \ref{TrivialSuperExtension}) is obtained from the following data:
+
+1. a [[Lie algebra representation]] $\rho$ of $\mathfrak{so}(d-1,1)$ on some [[real vector space]] $S$;
+
+1. an $\mathfrak{so}$-equivariant symmetric $\mathbb{R}$-[[bilinear map|bilinear pairiing]] $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
+
+
+=--
+
+It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for $\rho$ the Lie algebra version of a [[real spin representation]] of the [[spin group]] $Spin(d-1,1)$ (this is prop. \ref{SpinorToVectorPairing} below). These we introduce and discuss now in _[Real spin representations](#RealSpinRepresentations)_.
+
 
 
 ## Real spin representations -- Majorana spinors
@@ -125,14 +502,15 @@ Then $\rho$ is called
 
 * a _real [[spin representation]]_ or _[[Majorana representation]]_ if it admits a [[real structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation});
 
-  an element $\psi \in V$ is then called a **[[Majorana spinor]]** if $J(\psi) = \psi$.
+  an element $\psi \in V$ is then called a **real spinor** if $J(\psi) = \psi$.
 
 * a _symplectic Majorana representation_ if it admits a [[quaternionic structure]] $J$ (def. \ref{RealStructureOnLinearRepresentation}).
 
 
 =--
 
-We discuss this now components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)).
+We discuss this now in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)), but taking care to exhibit the abstract concept of 
+real representations.
 
 
 Below we work out the following:
@@ -162,7 +540,7 @@ Here $W$ is the 2-dimensional [[complex vector space]] on which the [[quaternion
 
 =--
 
-([Freed 99, page 48](#spin+representation#Freed99))
+(table taken from [Freed 99, page 48](#spin+representation#Freed99))
 
 
 
@@ -289,9 +667,9 @@ is point reflection in spacetime.
 The following concept of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) of [[Minkowski spacetime]]
 encodes the structure of the [[inner product space]] $\mathbb{R}^{d-1,1}$
 in terms of algebraic operation ("[[geometric algebra]]"), such that the action of the
-[[Lorentz group]] becomes represented by a [[conjugation action]] (example \ref{CliffordConjugtionReflectionAndRotation}).
+[[Lorentz group]] becomes represented by a [[conjugation action]] (example \ref{CliffordConjugtionReflectionAndRotation} below).
 In particular this means that every element of the proper orthochronous Lorentz group may be "split in half"
-to yields a [[double cover]], the [[spin group]] (def. \ref{SpinGroup}).
+to yield a [[double cover]]: the [[spin group]] (def. \ref{SpinGroup} below).
 
 
 
@@ -317,12 +695,13 @@ where $\eta$ is the [[inner product]] of [[Minkowski spacetime]] as in def. \ref
 These relations say equivalently that
 
 $$
-  \Gamma_0^2 = +1
-  \;\;\,,\;\;
-  \Gamma_i^2 = -1 \;\; \text{for}\; i \in \{1,\cdots, d-1\}
-$$
-$$
-  \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for}\; a \neq b
+  \begin{aligned}
+    & \Gamma_0^2 = +1
+    \\
+    & \Gamma_i^2 = -1 \;\; \text{for}\; i \in \{1,\cdots, d-1\}
+    \\
+    & \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for}\; a \neq b
+  \end{aligned}
   \,.
 $$
 
@@ -424,7 +803,7 @@ spacetime [[reflections]], [[rotations]] and [[boosts]] via [[conjugation action
 ###### Example
 
 For $d \in \mathbb{N}$ and $\mathbb{R}^{d-1,1}$ the [[Minkowski spacetime]] of def. \ref{MinkowskiSpacetime},
-let $v \in \mathbb{R}^{d-1}$ be any [[vector]], regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
+let $v \in \mathbb{R}^{d-1,1}$ be any [[vector]], regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
 
 Then
 
@@ -498,7 +877,7 @@ induce them:
 1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
 
 1. the [[conjugation action]] by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the
-   conjugation action by $-\exp(\tfrac{\alpha}{4}\Gamma_{a b})$.
+   conjugation action by $-\exp(\tfrac{\alpha}{2}\Gamma_{a b})$.
 
 =--
 
@@ -508,7 +887,8 @@ induce them:
 
 For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
 even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
-which are [[unitary operator|unitary]] with respect to $\overline{(-)}$ (def. \ref{CliffordAlgebra}):
+which are [[unitary operator|unitary]] with respect to the conjugation operation $\overline{(-)}$ 
+from def. \ref{CliffordAlgebra}:
 
 $$
   Spin(d-1,1)
@@ -531,7 +911,7 @@ The [[function]]
 $$
   Spin(d-1,1)
     \longrightarrow
-  End(Cl(\mathbb{R}^{d-1,1}))
+  GL(\mathbb{R}^{d-1,1})
 $$
 
 from the [[spin group]] (def. \ref{SpinGroup}) to the [[general linear group]] in $d$-dimensions
@@ -540,8 +920,10 @@ given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to t
 
 $$
   \overline{A}(-) A
-  \,,
 $$
+
+(via the identification of Minkowski spacetime as the subspace of the [[Clifford algebra]]
+containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
 
 is
 
@@ -550,9 +932,6 @@ is
    $$
      Spin(d-1,1) \longrightarrow SO^+(d-1,1)
    $$
-
-   (where we are identifying Minkowski spacetime as the subspace of the [[Clifford algebra]]
-containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
 
 1. exhibiting a $\mathbb{Z}/2$-[[central extension]].
 
@@ -603,7 +982,7 @@ are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by
 $(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation}
 by the conjugation action by
 $$
-  \exp(\tfrac{\alpha}{4} \omega^{a b}\Gamma_{a b})
+  \exp(\tfrac{\alpha}{2} \omega^{a b}\Gamma_{a b})
 $$
 
 for some $\alpha$, hence is in the image.
@@ -631,9 +1010,9 @@ kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 We are interested in [[spin representations]] on [[real vector spaces]]. It turns out to be useful to
 obtain these from [[unitary representations]] on [[complex vector spaces]] by equipping these with [[real structure]].
 In any case this is the approach used in much of the (physics) literature (with the [[real structure]] usually
-not made explicit but phrased in terms of [[Majorana spinor|Majorana]] conditions).
+not made explicit, but phrased in terms of (symplectic) [[Majorana spinor|Majorana]] conditions).
 
-Hence for reference, we here recollect basics of [[unitary representations]] equipped with [[real structure]].
+Hence for reference, we here recollect the basics of the concept of [[unitary representations]] equipped with [[real structure]].
 
 All [[vector spaces]] in the following are taken to be [[finite dimensional vector spaces]].
 
@@ -663,7 +1042,7 @@ $$
   V \simeq \mathbb{C} \otimes_{\mathbb{R}} V_+
 $$
 
-of $V$ with the [[complexification]] of a real vector space $V_+$, namely the [[eigenspace]] of $\phi$ for [[eigenvalue]] +1, while $V_- \coloneqq i V_+$ is the eigenspace of eigenvalue -1.
+of $V$ with the [[complexification]] of a [[real vector space]] $V_+$, namely the [[eigenspace]] of $\phi$ for [[eigenvalue]] +1, while $V_- \coloneqq i V_+$ is the eigenspace of eigenvalue -1.
 
 A quaternionic structure, def. \ref{RealStructure}, on $V$ gives it the structure of a left [[module]]
 over the [[quaternions]] (def. \ref{TheQuaternions}) extending the underlying structure of a module over the complex numbers. Namely let
@@ -808,6 +1187,9 @@ If $\tilde\phi = \phi$ then $(-,-)$ is called _compatible_ with $\langle-,- \ran
 ### Dirac and Weyl representations
  {#DiracAndWeylRepresentations}
 
+Hence the task is now first to understand representations of the [[spin group]] on [[complex vector spaces]]
+(such as to the equip these with [[real structure]]). The basic such are called the _Dirac representations._
+
 In the following we use standard notation for operations on [[matrices]] with entries in the [[complex numbers]] (and of course these matrices may in particular be complex row/column vectors, which may in particular be single complex numbers):
 
 * $(-)^\ast$ -- componentwise [[complex conjugation]];
@@ -825,7 +1207,7 @@ We will be discussing three different pairing operations on complex column vecto
 * $\langle \psi_1,\psi_2\rangle \coloneqq \overline{\psi}_1 \psi_2 \coloneqq \psi_1^\dagger \Gamma_0 \psi_2$ -- the _Dirac pairing_, this is the [[hermitian form]] with respect to which the [[spin representation]] below is a [[unitary representation]];
 
 * $(\psi_1,\psi_2) \coloneqq \psi_1^T C \psi_2$ -- the _Majorana pairing_
-  (for $C$ the [[charge conjugation matrix]], def. \ref{ChargeConjugationMatrix} below),
+  (for $C$ the [[charge conjugation matrix]], prop. \ref{ChargeConjugationMatrices} below),
   this turns out to coincide with the Dirac pairing above _if_ $\psi_1$ is a Majorana spinor.
 
 
@@ -1075,7 +1457,7 @@ $$
 
 squares to +1. This is called the **chirality operator**.
 
-(The notation $\Gamma_{d+1}$ for this operator originates from times when only $d = 4$ was considered. Clearly this notation has its pitfalls when various $d$ are considered, but nevertheless it is commonly used this way e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
+(The notation $\Gamma_{d+1}$ for this operator originates from times when only $d = 4$ was considered. Clearly this notation has its pitfalls when various $d$ are considered, but nevertheless it is still commonly used this way, see e.g. [Castellani-D'Auria-Fr&#233;, section (II.7.11) and top of p. 523](#CastellaniDAuriaFre)).
 
 Therefore this representation decomposes as a [[direct sum]]
 
@@ -1191,9 +1573,9 @@ $$
   \,,
 $$
 
-where we used that $\Gamma_0^{-1} = \Gamma_0$ (by def. \ref{LorentzianSignature}) and $\Gamma_0^\dagger = \Gamma_0$ (by prop. \ref{CliffordAlgebraRepresentation}).
+where we used that $\Gamma_0^{-1} = \Gamma_0$ (by def. \ref{MinkowskiSpacetime}) and $\Gamma_0^\dagger = \Gamma_0$ (by prop. \ref{CliffordAlgebraRepresentation}).
 
-Now for the second claim, use def. \ref{LorentzianSignature} and prop. \ref{CliffordAlgebraRepresentation} to find
+Now for the second claim, use def. \ref{MinkowskiSpacetime} and prop. \ref{CliffordAlgebraRepresentation} to find
 
 $$
   \begin{aligned}
@@ -1240,8 +1622,29 @@ $$
 
 
 
-### Charge conjugation matrix
- {#ChargeConjugationMatrix}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+### Majorana representations and Real structure
+ {#MajoranaSpinorsAndRealStructure}
+
+We now define [[Majorana spinors]] in the traditional way, and then demonstrate that these are
+[[real spin representations]] in the sense of def. \ref{MajoranaSpinorGeneral}.
+
+The key technical ingredient for the definition is the following [[similarity transformations]]
+relating the Dirac Clifford representation to its transpose:
 
 +-- {: .num_prop #ChargeConjugationMatrices}
 ###### Proposition
@@ -1283,7 +1686,7 @@ and in addition they satisfy the following relations:
 ###### Remark
 
 
-Prop. \ref{ChargeConjugationMatrix} implies that for all $C_{(\pm)}$ listed there then
+Prop. \ref{ChargeConjugationMatrices} implies that for all $C_{(\pm)}$ listed there, then
 
 $$
   C^{-1} = C^T
@@ -1298,21 +1701,6 @@ $$
 $$
 
 =--
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Majorana representations and Real structure
 
 
 +-- {: .num_prop #MajoranaConjugationIsRealStructure}
@@ -1338,7 +1726,7 @@ $$
   \right.
 $$
 
-for the choice of [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrix} as shown. Then the function
+for the choice of [[charge conjugation matrix]] from prop. \ref{ChargeConjugationMatrices} as shown. Then the function
 
 $$
   J \colon V \longrightarrow V
@@ -1379,9 +1767,9 @@ $$
   \,,
 $$
 
-where we used $\Gamma_0^\dagger = \Gamma_0$ from prop. \ref{CliffordAlgebraRepresentation}, $C^\ast = \ast$ from prop. \ref{ChargeConjugationMatrix} and then the defining equation of the [[charge conjugation matrix]] $\Gamma_a^T C_{(\pm)} = \pm C_{(\pm)} \Gamma_a$ (def. \ref{ChargeConjugationMatrix}), finally the defining relation $\Gamma_0^2 = +1$.
+where we used $\Gamma_0^\dagger = \Gamma_0$ from prop. \ref{CliffordAlgebraRepresentation}, $C^\ast = \ast$ from prop. \ref{ChargeConjugationMatrices} and then the defining equation of the [[charge conjugation matrix]] $\Gamma_a^T C_{(\pm)} = \pm C_{(\pm)} \Gamma_a$ (def. \ref{ChargeConjugationMatrices}), finally the defining relation $\Gamma_0^2 = +1$.
 
-Hence this holds whenever there exists a choice $C_{(\pm)}$ for the charge conjugation matrix with $C_{(\pm)}^2 = \pm 1$. Comparison with the table from prop. \ref{ChargeConjugationMatrix} shows that this is the case in $d = 4,8,9,10,11$.
+Hence this holds whenever there exists a choice $C_{(\pm)}$ for the charge conjugation matrix with $C_{(\pm)}^2 = \pm 1$. Comparison with the table from prop. \ref{ChargeConjugationMatrices} shows that this is the case in $d = 4,8,9,10,11$.
 
 Finally to see that $J$ is spin-invariant (in [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre) this is essentially (II.2.29)), it is sufficient to show for distinct indices $a,b$, that
 
@@ -1457,7 +1845,7 @@ Prop. \ref{MajoranaConjugationIsRealStructure} implies that given a [[Dirac repr
 +-- {: .num_prop #RealStructureAntiCommutesWithSingleCliffordGenerator}
 ###### Proposition
 
-If $C = C_{(\pm)}$ is the [[charge conjugation matrix]] according to prop. \ref{ChargeConjugationMatrix}, then the real structure $J$ from prop. \ref{MajoranaConjugationIsRealStructure} commutes or anti-commutes with the action of _single_ Clifford generators, according to the subscript of $C = C_{(\pm)}$:
+If $C = C_{(\pm)}$ is the [[charge conjugation matrix]] according to prop. \ref{ChargeConjugationMatrices}, then the real structure $J$ from prop. \ref{MajoranaConjugationIsRealStructure} commutes or anti-commutes with the action of _single_ Clifford generators, according to the subscript of $C = C_{(\pm)}$:
 
 $$
   J(\Gamma_a(-)) = \pm \Gamma_a J(-)
@@ -1496,7 +1884,7 @@ $$
   \,,
 $$
 
-where, by comparison with the table in prop. \ref{ChargeConjugationMatrix}, $\epsilon$ is the sign in $C^T = \epsilon C$, which cancels out, and the remaining $\pm$ is the sign in $C = C_{(\pm)}$, due to remark \ref{TransposeChargeConjugation}.
+where, by comparison with the table in prop. \ref{ChargeConjugationMatrices}, $\epsilon$ is the sign in $C^T = \epsilon C$, which cancels out, and the remaining $\pm$ is the sign in $C = C_{(\pm)}$, due to remark \ref{TransposeChargeConjugation}.
 
 For the timelike index we similarly get:
 
@@ -1539,7 +1927,7 @@ $$
   \langle J(-),(-)\rangle
 $$
 
-induced via the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrix}
+induced via the [[real structure]] $J$ of prop. \ref{MajoranaConjugationIsRealStructure} from the [[hermitian form]] $\langle -,-\rangle$ of prop. \ref{CliffordAlgebraRepresentation} is that represented by the [[charge conjugation matrix]] of prop. \ref{ChargeConjugationMatrices}
 
 $$
   (-,-)
@@ -1597,7 +1985,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is Majorana according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -1609,10 +1997,11 @@ This is equivalent to the condition that the Majorana conjugate (def. \ref{Major
 
 $$
   \psi^T C = \psi^\dagger \Gamma_0
-  \,,
 $$
 
-which in turn is equivalent to the condition that
+and such $\psi$ are called **[[Majorana spinors]]**.
+
+This condition is also equivalent to the condition that
 
 $$
   (\psi,-)
@@ -1623,12 +2012,13 @@ $$
 
 where on the left we have the complex bilinear form of prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure} and on the right the [[hermitian form]] from prop. \ref{CliffordAlgebraRepresentation}.
 
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
-The first statement is immediate. The second follows by applying the transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrix}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
+The first statement is immediate. The second follows by applying the transpose to the first equation, and using that $C^{-1} = C^T$ (from prop. \ref{ChargeConjugationMatrices}). Finally the last statement follows from this by prop. \ref{ComplexBilinearFormInducedFromMajoranaStructure}.
 
 =--
 
@@ -1643,9 +2033,7 @@ The first statement is immediate. The second follows by applying the transpose t
 
 
 
-
-
-### Majorana-Weyl spinors
+Of course we may combine the condition Majorana and Weyl conditions on spinors:
 
 
 +-- {: .num_defn #WeylMajorana}
@@ -1719,7 +2107,7 @@ We now discuss, in the component expressions established [above](#InComponents),
 $$
   \psi
     \mapsto
-  \epsilon \, \overline{\psi} \Gamma^{a_1 \cdots a_p} \psi
+  \epsilon \left( \overline{\psi} \Gamma^{a_1 \cdots a_p} \psi \right)
   \,,
 $$
 
@@ -1761,11 +2149,14 @@ $$
 
 =--
 
+Now the crucial property for the construction of spacetime [[supersymmetry]] super Lie algebras [below](#Supersymmetry)
+is the following
 
 +-- {: .num_prop #SpinorToVectorPairing}
 ###### Proposition
 
-The pairing in def. \ref{SpinorToVectorBilinearPairing} is
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, then spinor to vector pairing operation of def. \ref{SpinorToVectorBilinearPairing} 
+satisfies the following properties: it is
 
 1. symmetric:
 
@@ -1808,7 +2199,7 @@ $$
   \,,
 $$
 
-where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$ (according to prop. \ref{ChargeConjugationMatrix}). Imposing the condition in prop. \ref{MajoranaConjugationIsRealStructure} one finds that these signs agree, and hence cancel out.
+where the first sign picked up is from $C^T = \pm C$, while the second is from $\Gamma_a^T C = \pm C \Gamma_a$ (according to prop. \ref{ChargeConjugationMatrices}). Imposing the condition in prop. \ref{MajoranaConjugationIsRealStructure} one finds that these signs agree, and hence cancel out.
 
 (In [van Proeyen99](#VanProeyen99) this is part of table 1, in ([Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)) this is implicit in equation (II.2.32a).)
 
@@ -3957,7 +4348,11 @@ $$
 ## Spacetime supersymmetry
  {#Supersymmetry}
 
-We discuss here how every [[real spin representation]] of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension.
+We have seen in example \ref{SuperExtensionOfPoincare} that super-extensions of the symmetries of 
+[[Minkowski spacetime]] are given by [[real spin representations]], and then we constructed and 
+classified these ([above](#RealSpinRepresentations)).
+
+Hence every [[real spin representation]] of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. These are the _[[supersymmetry]] algebras_ in [[physics]].
 
 Since we may recover a [[Minkowski spacetime]] from its [[Poincaré Lie algebra]] as the (vector space underlying the) [[coset]] of the [[Poincaré Lie algebra]] by the Lie algebra $\mathfrak{so}(d-1,1)$ of the [[spin group]] (the [[orthogonal Lie algebra]] in Lorentzian signature)
 
@@ -3975,12 +4370,6 @@ To set the scene, we recall some basics of ordinary spacetime symmetry in
 
 Then in
 
-* _[Super-extensions of spacetime symmetry](#SuperExtensionOfPoincareLieAlgebra)_
-
-we discuss the general issue of extending spacetime symmetries to "[[supersymmetries]]".
-
-Then in
-
 * _[Super Poincar&#233; and super Minkowski symmetry](#SuperPoincareAndSuperMinkowsSymmetry)_
 
 we specialize to the particular such extensions commonly known as _supersymmetries_.
@@ -3988,6 +4377,9 @@ we specialize to the particular such extensions commonly known as _supersymmetri
 Finally we discuss the question of how god-given this common choice is, in
 
 * _[Supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_
+
+
+
 
 
 ### Spacetime symmetry
@@ -4131,362 +4523,14 @@ $$
 
 
 
-### Super-extensions of spacetime symmetry
- {#SuperExtensionOfPoincareLieAlgebra}
 
 
-Recall from _[[geometry of physics -- supergeometry]]_ the concept of _[[super Lie algebras]]_:
-
-+-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
-###### Definition
-
-A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
-to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
-Hence this is 
-
-1. a [[super vector space]] $\mathfrak{g}$;
-
-1. a homomorphism
-
-   $$
-     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
-   $$
-   
-   of super vector spaces (the _super Lie bracket_)
-   
-such that 
-
-1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       \mathfrak{g} \otimes_k \mathfrak{g}
-         &
-           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
-         &
-       \mathfrak{g} \otimes_k \mathfrak{g}
-       \\
-       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
-       \\
-       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
-     }
-   $$
-   
-   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
-   
-1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
-
-   $$
-     \array{
-       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
-       &&
-         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
-       &&
-       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
-       \\
-       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
-       \\
-       && \mathfrak{g}
-     }
-     \,.
-   $$
-
-=--
-
-Externally this means the following:
-
-+-- {: .num_prop #SuperLieAlgebraTraditional}
-###### Proposition
-
-A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
-
-1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
-
-1. equipped with a [[bilinear map]] (the _super Lie bracket_)
-
-   $$
-     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
-   $$
-
-   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
-
-   $$
-     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
-     \,,
-   $$
-
-1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
-for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
-
-   $$
-     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
-     \,.
-   $$
-
-A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
-which preserves the Lie bracket. We write
-
-$$
-  sLieAlg
-$$
-
-for the resulting [[category]] of super Lie algebras.
-
-=--
-
-Some obvious but important classes of examples are the following:
-
-+-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
-###### Example
-
-every $\mathbb{Z}/2$-[[graded vector space]] $V$ becomes a
-[[super Lie algebra]]
-(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
-by taking the super Lie bracket to be the [[zero morphism|zero map]]
-
-$$
-  [-,-] = 0
-  \,.
-$$
-
-These may be called the "abelian" super Lie algebras.
-
-=--
-
-
-+-- {: .num_example #OrdinaryLieAlgebraAsSuperLieAlgebra}
-###### Example
-
-Every ordinary [[Lie algebras]] becomes a [[super Lie algebra]] 
-(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
-concentrated in even degrees. This constitutes a [[fully faithful functor]]
-
-$$
-  LieAlg \hookrightarrow sLieAlg
-  \,.
-$$
-
-which is a  [[coreflective subcategory]] inclusion in that it has a [[left adjoint]]
-
-$$
-  LieAlg
-    \underoverset
-     {\underset{ \overset{ \rightsquigarrow}{(-)} }{\longrightarrow}}
-     {\hookrightarrow}
-     {\bot}
-  sLieAlg
-$$
-
-given on the underlying super vector spaces by restriction to the even graded part
-
-$$
-  \overset{\rightsquigarrow}{\mathfrak{s}} = \mathfrak{s}_{even}
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_defn #SuperExtensions}
-###### Definition
-
-Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a _super-extension_  of $\mathfrak{g}$
-is [[super Lie algebra]] $\mathfrak{s}$ (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}) equipped with a [[monomorphism]] of the form
-
-$$
-  i \;\colon\; \mathfrak{g} \hookrightarrow  \mathfrak{s}
-$$ 
-
-(where $\mathfrak{g}$ is regarded as a super Lie algebra according to example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
-
-such that this is an [[isomorphism]] on the even part (example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
-
-$$
-  \overset{\rightsquigarrow}{i} 
-    \;\colon\; 
-  \mathfrak{g} \overset{\simeq}{\longrightarrow} \mathfrak{s}_{even}
-  \,.
-$$
-
-
-
-=--
-
-
-We unwind the structure involved in a super-extension
-
-+-- {: .num_prop #DataInSuperExtension}
-###### Proposition
-
-Let the [[ground field]] $k$ have [[characteristic]] different from 2.
-Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a choice of super-extension 
-$\mathfrak{g} \hookrightarrow \mathfrak{s}$ according to def. \ref{SuperExtensions}
-involves the following data:
-
-1. a [[vector space]] $S$;
-
-1. a Lie action of $\mathfrak{g}$ on $S$, hence a Lie algebra homomorphism
-
-   $$
-     \rho_{(-)} : \mathfrak{g} \longrightarrow \mathfrak{end}(S)
-   $$
-   
-   from $\mathfrak{g}$ to the [[endomorphism Lie algebra]] of $S$;
-
-1. a symmetric [[bilinear map]]
-
-   $$
-     (-,-) \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
-   $$
-   
-such that
-
-1. the pairing is $\mathfrak{g}$-equivariant in that for all $t \in \mathfrak{g}$ then
-   
-   $$
-     \rho_{t}(-,-) = (\rho_t(-),(-)) + (-,\rho_t(-))
-   $$
-
-1. the pairing essentially (...) lands in the subspace that acts trivially, in that for all $\phi,\psi \in S$ then
-   
-   $$
-     \rho_{(\phi,\psi)}(\phi+\psi) = 0
-     \,.
-   $$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By definition of super-extension, the underlying super vector space of $\mathfrak{s}$ is necessarily of the form
-
-$$
-  \mathfrak{s}_{even} = \underset{\mathfrak{s}_{even}}{\underbrace{\mathfrak{g}}} \oplus \underset{\mathfrak{s}_{odd}}{\underbrace{S}}
-$$
-
-for some vector space $S$.
-
-Moreover the super Lie bracket on $\mathfrak{s}$ restrict to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{k}$
-and otherwise constitutes
-
-1. a bilinear map
-
-   $$
-     \rho_{(-)}(-) \coloneqq [-,-]\vert_{\mathfrak{s}_{even}\oplus \mathfrak{s}_{odd}} \;\colon\; \mathfrak{g} \otimes_k S \longrightarrow S
-   $$
-   
-1. a symmetric bilinear map
-
-   $$
-     (-,-) \coloneqq [-,-]\vert_{\mathfrak{s}_{odd} \oplus \mathfrak{s}_{odd}} \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
-     \,.
-   $$
-
-This yields the claimed [[stuff, structure, property|structure]]. The claimed [[stuff, structure, property|properties]]
-of these linear maps are now just a restatement of the super-Jacobi identity in terms of this data:
-
-1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even}$ is equivalently the Jacobi identity in $\mathfrak{g}$ and hence is no new constraint;
-
-1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}$ says that for $t_1,t_2 \in \mathfrak{g}$ and $\phi \in S$ then
- 
-   $$
-     \rho_{t_1}( \rho_{t_2}(\phi) ) = \rho_{[t_1,t_2]}(\phi) + \rho_{t_1}( \rho_{t_2}(\phi) )
-     \,.
-   $$
-
-   This is equivalent to 
-   
-   $$
-     \rho_{t_1} \circ \rho_{t_2} - \rho_{t_2} \circ \rho_{t_1} = \rho_{[t_1,t_2]}
-   $$
-   
-   which means equivalently that $\rho_{(-)}$ is a Lie algebra homomorphism from $\mathfrak{g}$ to the 
-   [[endomorphism Lie algebra]] of $S$.
-   
-1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ says that for $t \in \mathfrak{g}$ and $\phi,\psi \in S$ then
-
-   $$
-     \rho_{t}(\phi,\psi) = (\rho_t(\phi), \psi) + (\phi, \rho_t(\psi))
-     \,.
-   $$
-   
-   This is exactly the claimed $\mathfrak{g}$-equivariance of the pairing.
-   
-1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{odd} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ implies first of all that for $\psi \in S$ then 
-  
-   $$
-     \rho_{(\psi,\psi)}(\psi) = 2 \rho_{(\psi,\psi)}(\psi)
-   $$
-   
-   and hence that $\rho_{(\psi,\psi)}(\psi) = 0$.
-
-   This in turn implies that
-   
-   $$
-     \begin{aligned}
-       0 & = \rho_{(\phi+\psi, \phi+\psi )}(\phi+\psi)
-       \\
-       & = -2 \rho_{(\phi,\psi)}(\phi + \psi) 
-     \end{aligned}
-   $$
-   
-   where we used linearity, again the super-Jacobi identity and then symmetry of the pairing.
-   
-
-    
-
-=--
-
-+-- {: .num_example #TrivialSuperExtension}
-###### Example
-
-Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then for every choice of [[vector space]] $V$
-there is the _trivial_ super extension (def. \ref{SuperExtensions}) of $\mathfrak{g}$, with underlying
-vector space
-
-$$
-  \mathfrak{s} \coloneqq \mathfrak{g} \oplus S
-$$
-
-and with both the action and the pairing (via prop. \ref{DataInSuperExtension}) trivial:
-
-$$
-  \rho = 0
-$$
-
-and
-
-$$
-  (-,-) = 0
-  \,.
-$$
-
-
-=--
-
-The key example now is this:
-
-+-- {: .num_example}
-###### Example
-
-For $d \in \mathbb{N}$, a super extension (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]] 
-$\mathfrak{iso}(\mathbb{R}^{d-1,1})$ (def. \ref{PoincareLieAlgebra})
-which is non-trvial (def. \ref{TrivialSuperExtension}) comes from the following data:
-
-1. a representation $\rho$ of $\mathfrak{so}(d-1,1)$ on some real vector space $S$;
-
-1. an $\mathfrak{so}$-equivariant bilinear pairiing $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
-
-This is just the data that we found above is constituted by a [[real spin representation]].
-
-=--
-
-(...)
 
 
 ### Super Poincar&#233; and super Minkowski symmetry
  {#SuperPoincareAndSuperMinkowsSymmetry}
+
+We may now finally make explicit the super-extension of spacetime symmetry according to example \ref{SuperExtensionOfPoincare}:
 
 +-- {: .num_defn #SuperMinkowskiSpacetime}
 ###### Definition
@@ -4499,7 +4543,8 @@ $$
   \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
 $$
 
-equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ 
+(a $\mathbb{N} \times \mathbb{Z}/2$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
 
 This is generated on
 
@@ -4831,6 +4876,7 @@ Further constraints follow from requiring [[super-unitary representations]] ([Mi
 
 
 
+
 ## Supersymmetry from the superpoint
  {#SupersymmetryFromTheSuperpoint}
 
@@ -4844,9 +4890,9 @@ $$
   \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
 $$
 
-regarded as an abelian [[nLab:super Lie algebra]].
+regarded as an abelian [[nLab:super Lie algebra]], via example \ref{SuperVectorSpaceAsAbelianSuperLieAlgebra}.
 
-Its maximal [[nLab:central extension]] is
+Its maximal [[central extension]] is
 
 the $N = 1$ super-[[nlab:worldline]] of the [[nLab:superparticle]]:
 
