@@ -101,6 +101,8 @@ see at _[[Haag–Lopuszanski–Sohnius theorem]]_
 
 See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_ 
 
+* [[Coleman theorem]], [[Haag–Łopuszański–Sohnius theorem]]
+
 * [[scattering amplitude]], [[Feynman diagram]], [[string scattering amplitude]], 
 
 * [[AdS-CFT]]
