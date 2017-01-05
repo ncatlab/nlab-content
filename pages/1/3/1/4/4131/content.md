@@ -110,6 +110,8 @@ A collection $B$ of [[subsets]] of $X$ is a base for *some* topology on $X$ iff 
 *  For any $U, V \in B$ and any point $x \in U \cap V$ there is a $W \in B$ such that $W \subseteq U \cap V$ and $x \in W$.
 =--
 
+These conditions amount to saying that for each $x\in X$, the subcollection of those $U\in B$ such that $x\in U$ is a base for a [[filter]] on $X$ (which is then the [[neighborhood]] filter of $x$) --- in other words, that these subcollections are "colaxly closed" under finite intersections.
+
 +-- {: .num_prop}
 ###### Proposition
 
