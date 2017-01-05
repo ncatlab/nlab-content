@@ -15,4 +15,6 @@ November 2010, Volume 35, Issue 3, pp 263-307 ([web](http://link.springer.com/ar
 
 * [[DHR superselection theory]]
 
+* [[Haag–Łopuszański–Sohnius theorem]]
+
 category: people
