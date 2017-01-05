@@ -24,13 +24,13 @@
 
 ## Idea
 
-A **sufficiently cohesive topos** is a topos that has enough connected objects in the sense that every object embeds into a [[connected object]]. This can be viewed as a strong form of cohesiveness in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[big topos|gros toposes]].
+A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]]. This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]].
 
 ## Terminological preliminaries
 
-Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves finite products.
+Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves [[finite products]].
 
-This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\mathcal{S}$) at [[cohesive topos]], and will be referred to as a _'weakly cohesive topos'_ in the present entry - a sufficiently cohesive topos in this context corresponds to the three axioms (0-2) for a 'gros topos' in Lawvere ([1986](#Law86)) where the concept of sufficient cohesion was considered for the first time. 
+This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\mathcal{S}$) at _[[cohesive topos]]_, and will be referred to as a _'weakly cohesive topos'_ in the present entry - a sufficiently cohesive topos in this context corresponds to the three axioms (0-2) for a 'gros topos' in Lawvere ([1986](#Law86)) where the concept of sufficient cohesion was considered for the first time. 
 
 A weakly cohesive topos is called _pre-cohesive_ if $p$ furthermore satisfies the [[Nullstellensatz]] i.e. the canonical map $\theta:p_\ast\to p_!$ is an epimorphism. This is the situation explored in Menni ([2014a](#Menni14a), [2014b](#Menni14b)).
 
