@@ -23,7 +23,6 @@
 
 
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -91,6 +90,10 @@ For $d= 4$ EM-duality is the special abelian case of [[S-duality]] for [[Yang-Mi
 
 ## References
 
+Detailed review is in 
+
+* [[José Figueroa-O'Farrill]], _Electromagnetic Duality for Children_ (1998) ([[FigueroaElectromagneticDuality.pdf:file]])
+
 It was originally noticed in
 
 * {#GNO77} P. Goddard, J. Nuyts, and [[David Olive]], _Gauge Theories And Magnetic Charge_, Nucl. Phys. B125 (1977) 1-28.
@@ -101,17 +104,13 @@ This led to the electric/magnetic duality conjecture formulation in
 
 * [[Claus Montonen]], [[David Olive]], _Magnetic Monopoles As Gauge Particles?_ Phys. Lett. B72 (1977) 117-120.
 
-
-
-According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observaton that the Montonen-Olive dual charge group coincides with the [[Langlands dual group]] is due to 
+According to ([Kapustin-Witten 06, pages 3-4](#KapustinWitten06)) the observation that the Montonen-Olive dual charge group coincides with the [[Langlands dual group]] is due to 
 
 * [[Michael Atiyah]], private communication to [[Edward Witten]], 1977
 
 See also the references at _[[S-duality]]_.
 
 The insight that the Montonen-Olive duality works more naturally in [[super Yang-Mills theory]] is due to
-
-
 
 * [[David Olive]], [[Edward Witten]], _Supersymmetry Algebras That Include Topological Charges_, Phys. Lett. B78 (1978) 97-101.
 
@@ -150,5 +149,10 @@ Exposition of this is in
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
 
 
+[[!redirects electric-magnetic dualities]]
 
 [[!redirects electro-magnetic duality]]
+[[!redirects electro-magnetic dualities]]
+
+[[!redirects electromagnetic duality]]
+[[!redirects electromagnetic dualites]]
