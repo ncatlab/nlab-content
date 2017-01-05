@@ -59,8 +59,8 @@ From the previous section, we have a [[set]] $X$ and we are discussing [[binary 
 | Transitivity | If for every $D \subseteq X$, either $A \;\delta\; D^{\mathsf{c}}$ or $D \;\delta\; B$, then $A \;\delta\; B$ | If $A \bowtie B$, then for some $D \subseteq X$, both $A \bowtie D^{\mathsf{c}}$ and $D \bowtie B$ | If $A \ll B$, then for some $D \subseteq X$, both $A \ll D$ and $D \ll B$ |
 | Symmetry (weak) | if $A \;\delta\; B$ then $B \;\delta\; A$ | if $A \bowtie B$ then $B \bowtie A$ | if $A \ll B$ then $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
 | Symmetry (strong) | $A \;\delta\; B$ iff $B \;\delta\; A$ | $A \bowtie B$ iff $B \bowtie A$ | $A \ll B$ iff $B^{\mathsf{c}} \ll A^{\mathsf{c}}$ |
-| Regularity | If for all $C$ and $D$ such that $B^{\mathsf{c}}\cup C = X$, either $\{x\} \;\delta\; D$ or $D^{\mathsf{c}}\;\delta\; C$, then $\{x\}\;\delta\; B$ | If $\{x\}\bowtie B$, then for some $C$ and $D$, $D^{\mathsf{c}}\bowtie C$, $B^{\mathsf{c}}\cup C = X$, and $\{x\} \bowtie D$ | If $\{x\}\ll A$, then for some $C$ and $D$, $C\ll D$, $A\cup C = X$, and $\{x\}\ll D^{\mathsf{c}}$ |
-| Complete Regularity | | If $A\bowtie B$, then for some $C$ and $D$, $A\bowtie D$, $C\bowtie B$, and $C\cup D = X$. | If $A\ll B$, then for some $C$ and $D$, $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$. |
+| Local Decomposability | | If $\{x\}\bowtie B$, then for some $C$ and $D$, $\{x\}\bowtie D$, $C\bowtie B$, and $C\cup D = X$. | If $\{x\}\ll B$, then for some $C$ and $D$, $\{x\}\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$. |
+| Decomposability | | If $A\bowtie B$, then for some $C$ and $D$, $A\bowtie D$, $C\bowtie B$, and $C\cup D = X$. | If $A\ll B$, then for some $C$ and $D$, $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$. |
 | Separation | If $\{x\} \delta \{y\}$, then $x = y$ | Unless $\{x\} \bowtie \{y\}$, then $x = y$ | $x = y$ if, for all $A$, $y \in A$ whenever $\{x\} \ll A$ |
 | Perfection (left) | If $A \;\delta\; B$, then $\{x\} \;\delta\; B$ for some $x \in A$ | $A \bowtie B$ if $\{x\} \bowtie B$ for all $x \in A$ | $A \ll B$ if $\{x\} \ll B$ for all $x \in A$ |
 | Perfection (right) | If $A \;\delta\; B$, then $A \;\delta\; \{y\}$ for some $y \in B$ | If $A \bowtie \{y\}$ for all $y \in B$, then $A \bowtie B$ | If $A \ll C_i$ for all $i$, then $A \ll \bigcap_i C_i$ |
@@ -69,7 +69,7 @@ When both left and right rules are shown, we only need one of them if we have Sy
 
 Whether made explicit or not, Isotony is very fundamental.  In particular, it allows us to assert Reflexivity only for singletons, although this is often not done (to avoid mentioning points).
 
-In [[classical mathematics]], the weak Symmetry axioms are equivalent to the strong versions, Regularity follows from Symmetry and Transitivity, while Complete Regularity is equivalent to Transitivity.  In [[constructive mathematics]], strong Symmetry for $\ll$ is unreasonably strong (as is binary Additivity for $\delta$), while Regularity and Complete Regularity appear genuinely stronger than Symmetry and Transitivity (but not unreasonably so); see remarks below.
+In [[classical mathematics]], the weak Symmetry axioms are equivalent to the strong versions, while Decomposability is equivalent to Transitivity (and Local Decomposability is of course a special case of Decomposability).  In [[constructive mathematics]], strong Symmetry for $\ll$ is unreasonably strong (as is binary Additivity for $\delta$), while Local Decomposability and Decomposability appear genuinely stronger than Transitivity (but not unreasonably so); see remarks below.  (We don't bother to state a version of (Local) Decomposability for $\delta$ because the other axioms for $\delta$ seem unreasonably strong constructively, while Decomposability is automatic in classical mathematics.)
 
 A __topogeny__ is a relation that satisfies both forms of Isotony and all four forms of Additivity.  A __topogenous relation__ or __quasipreproximity__ is a topogeny that also satisfies Reflexivity; a __quasiproximity__ is a quasipreproximity that also satisfies Reflexivity and Transitivity.  A topogeny is __symmetric__ if it satisfies Symmetry; a __preproximity__ is a symmetric quasipreproximity, and a __proximity__ is a symmetric quasiproximity.  A topogeny is __separated__ if it satisfies Separation.  A topogeny is __perfect__ if it satisfies left Perfection, __coperfect__ if it satisfies right Perfection, and __biperfect__ if it satisfies both; a symmetric topogeny is usually called simply __perfect__ if it satisfies any form of Perfection, because then it must satisfy both (except in constructive mathematics using proximal neighbourhoods).  Constructively, a proximity space satisfying Regularity may be called __proximally regular__.
 
@@ -88,7 +88,7 @@ If $X$ and $Y$ are (quasi)-(pre)-proximity spaces, then a [[function]] $f: X \to
 
 ### In constructive mathematics
 
-As remarked above, the strong Symmetry axiom is too strong in constructive mathematics.  In fact, if it is satisfied by a nontrivial space $X$, then [[excluded middle]] follows: for any [[truth value]] $P$ such that $\neg\neg P$ is true, let $A=X$ and $B = \{ x\in X \mid P \}$; then $B^{\mathsf{c}} = \emptyset \ll \emptyset = A^{\mathsf{c}}$, so strong Symmetry gives $A\ll B$, hence $A\subseteq B$ and so $P$ holds.
+As remarked above, the strong Symmetry axiom for $\ll$ is too strong in constructive mathematics.  In fact, if it is satisfied by a nontrivial space $X$, then [[excluded middle]] follows: for any [[truth value]] $P$ such that $\neg\neg P$ is true, let $A=X$ and $B = \{ x\in X \mid P \}$; then $B^{\mathsf{c}} = \emptyset \ll \emptyset = A^{\mathsf{c}}$, so strong Symmetry gives $A\ll B$, hence $A\subseteq B$ and so $P$ holds.
 
 On the other hand, while the Symmetry axioms for $\bowtie$ and $\delta$ may seem stronger than the allowable weak symmetry axiom for $\ll$, this is arguably an illusion.  For given a proximal neighborhood space with $\ll$ (and weak Symmetry), if we define $A\bowtie B$ to mean $A\ll B^{\mathsf{c}}$, we obtain a proximal apartness space (with Symmetry).  In fact, the Transitivity axiom for $\bowtie$ implies that if $A\bowtie B$ then $A\bowtie (B^{\mathsf{c}})^{\mathsf{c}}$, so that (with Symmetry) $\bowtie$ is completely determined by its restriction to subsets that are complements.
 
@@ -98,22 +98,23 @@ We can, however, show the following constructively.
 
 +--{: .un_theorem}
 ###### Theorem
-(Quasi-)proximal apartness spaces satisfying Complete Regularity are equivalent to (quasi-)proximal neighborhood spaces satisfying Complete Regularity.
+(Quasi-)proximal apartness spaces satisfying Decomposability are equivalent to (quasi-)proximal neighborhood spaces satisfying Decomposability.
 =--
 +--{: .proof}
 ###### Proof
 As above, in one direction we define $A\bowtie B$ to mean $A\ll B^{\mathsf{c}}$.  In the other, we define $A\ll B$ to mean that there exists a $C$ with $A\bowtie C$ and $B\cup C = X$.  Most of the axioms are easy.  To prove right binary Additivity for $\ll$, given $A\ll B$ and $A\ll C$, we have $A\bowtie D$ and $A\bowtie E$ with $D\cup B = X$ and $E\cup C = X$, whence $A\bowtie D\cup E$ with $(D\cup E) \cup (B\cap C) = X$ by distributing $\cup$ over $\cap$.
 
-To prove Complete Regularity (and hence Transitivity) for $\ll$, given $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Complete Regularity for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  By Complete Regularity again, we have $D_1,D_2,E_1,E_2$ with $A\bowtie D_1$, $D_2\bowtie D$, and $D_1\cup D_2 = X$, while $E\bowtie E_1$, $E_2\bowtie C$, and $E_1\cup E_2=X$.  Then $A\ll D_2$ (because of $D_1$) and $E_2 \ll B$ (because of $C$), while $D\subseteq D_2^{\mathsf{c}}$ (since $D_2\bowtie D$) and $E\subseteq E_2$ (because $E\bowtie E_1$ and so $E\subseteq E_1^{\mathsf{c}} \subseteq E_2$) and so $X = D\cup E = D_2^{\mathsf{c}} \cup E_2$.
+To prove Decomposability (and hence Transitivity) for $\ll$, given $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Decomposability for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  By Decomposability again, we have $D_1,D_2,E_1,E_2$ with $A\bowtie D_1$, $D_2\bowtie D$, and $D_1\cup D_2 = X$, while $E\bowtie E_1$, $E_2\bowtie C$, and $E_1\cup E_2=X$.  Then $A\ll D_2$ (because of $D_1$) and $E_2 \ll B$ (because of $C$), while $D\subseteq D_2^{\mathsf{c}}$ (since $D_2\bowtie D$) and $E\subseteq E_2$ (because $E\bowtie E_1$ and so $E\subseteq E_1^{\mathsf{c}} \subseteq E_2$) and so $X = D\cup E = D_2^{\mathsf{c}} \cup E_2$.
 
-Lastly, if $\bowtie$ satisfies Symmetry and $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Complete Regularity for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  Then by Symmetry, we have $B^{\mathsf{c}} \subseteq C\bowtie E$ while $X = E\cup D \subseteq E\cup A^{\mathsf{c}}$, so $B^{\mathsf{c}} \ll A^{\mathsf{c}}$.
+Lastly, if $\bowtie$ satisfies Symmetry and $A\ll B$, we have $A\bowtie C$ with $B\cup C = X$, whence by Decomposability for $\bowtie$ we have $D,E$ with $A\bowtie D$, $E\bowtie C$, and $D\cup E = X$.  Then by Symmetry, we have $B^{\mathsf{c}} \subseteq C\bowtie E$ while $X = E\cup D \subseteq E\cup A^{\mathsf{c}}$, so $B^{\mathsf{c}} \ll A^{\mathsf{c}}$.
 
-To show that these constructions are inverses, if we start with $\ll$ then by a round-trip we obtain $A\ll' B$ defined to mean that there exists $C$ with $A\ll C^{\mathsf{c}}$ and $B\cup C = X$.  Now on one hand, $B\cup C = X$ implies $C^{\mathsf{c}}\subseteq B$, so $A\ll C^{\mathsf{c}} \subseteq B$.  But on the other, if $A\ll B$ then Complete Regularity gives $C$ and $D$ with $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$, whence $A \ll (C^{\mathsf{c}})^{\mathsf{c}}$ and $X = D \cup C^{\mathsf{c}} \subseteq B \cup C^{\mathsf{c}}$.
+To show that these constructions are inverses, if we start with $\ll$ then by a round-trip we obtain $A\ll' B$ defined to mean that there exists $C$ with $A\ll C^{\mathsf{c}}$ and $B\cup C = X$.  Now on one hand, $B\cup C = X$ implies $C^{\mathsf{c}}\subseteq B$, so $A\ll C^{\mathsf{c}} \subseteq B$.  But on the other, if $A\ll B$ then Decomposability gives $C$ and $D$ with $A\ll C$, $D\ll B$, and $C^{\mathsf{c}}\cup D = X$, whence $A \ll (C^{\mathsf{c}})^{\mathsf{c}}$ and $X = D \cup C^{\mathsf{c}} \subseteq B \cup C^{\mathsf{c}}$.
 
-On the other side, if we start with $\bowtie$ then by a round-trip we obtain $A\bowtie' B$ defined to mean that there exists $C$ with $A\bowtie C$ and $C \cup B^{\mathsf{c}}= X$.  Now on one hand, if $C \cup B^{\mathsf{c}}= X$ then $B \subseteq C$, so $A\bowtie C$ implies $A\bowtie B$.  But on the other, if $A\bowtie B$ then Complete Regularity gives $C$ and $D$ with $A\bowtie C$ and $D\bowtie B$ and $C\cup D = X$, whence $D\subseteq B^{\mathsf{c}}$ and so $X = C\cup D \subseteq C \cup B^{\mathsf{c}}$.
+On the other side, if we start with $\bowtie$ then by a round-trip we obtain $A\bowtie' B$ defined to mean that there exists $C$ with $A\bowtie C$ and $C \cup B^{\mathsf{c}}= X$.  Now on one hand, if $C \cup B^{\mathsf{c}}= X$ then $B \subseteq C$, so $A\bowtie C$ implies $A\bowtie B$.  But on the other, if $A\bowtie B$ then Decomposability gives $C$ and $D$ with $A\bowtie C$ and $D\bowtie B$ and $C\cup D = X$, whence $D\subseteq B^{\mathsf{c}}$ and so $X = C\cup D \subseteq C \cup B^{\mathsf{c}}$.
 =--
 
-In other words, the two constructively reasonable ways to define a proximity space give the same result in the Completely Regular case.
+In other words, the two constructively reasonable ways to define a (quasi-)proximity space give the same result in the Decomposable case.
+
 
 ## Relations to other topological structures
 
@@ -129,7 +130,7 @@ Conversely, given a set equipped with a preorder $\leq$, let $A \;\delta\; B$ if
 
 In this way, we get the category $Proset$ of preordered sets as a [[reflexive subcategory]] of $QProx$, with the category $Setoid$ of [[setoids]] (sets equipped with equivalence relations) as a reflexive subcatgory of $Prox$.
 
-In [[constructive mathematics]], a quasi-proximal nearness space (despite its general unreasonableness) or neighborhood space gives rise to a preordered set as above, while a proximal apartness space yields an [[inequality relation]] that is an [[apartness relation]] if we have Complete Regularity.
+In [[constructive mathematics]], a quasi-proximal nearness space (despite its general unreasonableness) or neighborhood space gives rise to a preordered set as above, while a proximal apartness space yields an [[inequality relation]] that is an [[apartness relation]] if we have Local Decomposability.
 
 
 ### Topological spaces
@@ -142,7 +143,29 @@ In general, a completely regular topology may be induced by more than one proxim
 
 The construction of a topology works just as well for a quasi-proximity, but the result is no longer necessarily completely regular.  In fact, every topology can be induced by some quasi-proximity: define $A \ll B$ if $A \subseteq int(B)$.  Moreover, in this way topological spaces can be identified with (left) perfect quasi-proximity spaces.
 
-In [[constructive mathematics]], the three now-inequivalent kinds of (quasi-)proximity space (nearness, apartness, and neighborhood) yield three inequivalent notions of topological space: [[closure operators]], [[point-set apartness spaces]], and [[topological spaces]] (equivalently [[neighborhood]] spaces).  Note in particular that the Transitivity axiom ensures that (in the three cases) the closure of a set is closed, that the final axiom of a point-set apartness space holds (if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$), and that the interior of a set is open.  The resulting topologies are [[regular space|regular]] if the proximity space satisfies Regularity, and [[completely regular space|completely regular]] if the proximity space satisfies Complete Regularity (though depending on the definition chosen of a [[completely regular space]] in constructive mathematics, the latter conclusion may require [[countable choice]]).  Conversely, the above definition that $A \bowtie B$ iff they are separated by a continuous function $f: X\to [0,1]$ is also constructively valid and produces a proximity space satisfying Complete Regularity.
+In [[constructive mathematics]], the three now-inequivalent kinds of (quasi-)proximity space (nearness, apartness, and neighborhood) yield three inequivalent notions of topological space: [[closure operators]], [[point-set apartness spaces]], and [[topological spaces]] (equivalently [[neighborhood]] spaces).  Note in particular that the Transitivity axiom ensures that (in the three cases) the closure of a set is closed, that the final axiom of a point-set apartness space holds (if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$), and that the interior of a set is open.  Hence, we can identify left perfect quasi-proximal apartness or neighborhood spaces with point-set apartness spaces and topological spaces respectively, by defining $A \ll B$ if $A \subseteq int(B)$ as above in the second case, and $A\bowtie B$ if $x\in A \Rightarrow x\bowtie B$ in the first.
+
+If a quasi-proximal apartness or neighborhood space satisfies Local Decomposability, then its underlying point-set apartness space or topological space is [[locally decomposable space|locally decomposable]] (hence the name for the former axiom).  Conversely, the canonical quasi-proximial apartness or neighborhood space obtained from a point-set apartness space or topological space satisfies Local Decomposability if the original space was locally decomposable.
+
+Unlike in the classical case, the topology underlying a proximity space (which, recall, includes Symmetry) apparently need not be [[completely regular space|completely regular]] or even [[regular space|regular]].  However, we can say:
+
++--{: .un_theorem}
+###### Theorem
+Let $X$ be a proximal apartness or neighborhood space (with Symmetry).  Then:
+
+* If $X$ satisfies Local Decomposability, its underlying topological space is regular.
+* If $X$ satisfies Decomposability and [[countable choice]] holds, then its underlying topological space is completely regular.
+=--
++--{: .proof}
+###### Proof
+Suppose first that $X$ is a Locally Decomposable proximal neighborhood space and $U$ is an open set containing $x$, which means $\{x\} \ll U$.  By Local Decomposability, we have sets $C$ and $D$ such that $\{x\} \ll C$ and $D\ll U$ and $X = D \cup C^{\mathsf{c}}$.  Transitivity then gives us a set $B$ with $\{x\} \ll B \ll C$, and Symmetry then tells us that $C^{\mathsf{c}} \ll B^{\mathsf{c}}$.  Let $V = int(B^{\mathsf{c}})$ and $W = \int(B)$; then $V\cap W = \emptyset$, $W$ is an open neighborhood of $x$, and $X = D \cup C^{\mathsf{c}} \subseteq U \cup V$.  Thus, $X$ is regular.  (Essentially the same proof shows that if $A$ and $B$ are open sets with $A\ll B$, then $A$ is "well-inside" $B$.)
+
+Now suppose $X$ is a Decomposable proximal neighborhood space and we have countable choice.  Then given any opens $A,B$ with $A\ll B$, we can repeatedly apply Decomposability and Symmetry as above (making countably many choices) to obtain a "scale" of interpolating well-inside open subsets indexed by (dyadic) rational numbers, and thereby a function $f:X\to \mathbb{R}$ separating $A$ and $B$, as in the classical proof of Urysohn's lemma.  (With only Transitivity instead of Decomposability, we would obtain only a function valued in the [[lower real numbers|lower]] or upper real numbers, rather than the [[located real numbers]].)
+
+The arguments for proximal apartness spaces are essentially the same.
+=--
+
+Conversely, if $X$ is a completely regular topological space, then the above definition that $A \bowtie B$ iff they are separated by a continuous function $f: X\to [0,1]$ is also constructively valid, and produces a proximity space satisfying Symmetry and Decomposability.
 
 
 ### Uniform spaces
@@ -161,9 +184,9 @@ In general, proximally continuous functions between given uniform spaces need no
 
 The relation between quasi-uniformities and quasi-proximities is similar.
 
-In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$, Strong Symmetry for $\ll$, and Regularity and Complete Regularity.  The proximal Regularity axiom follows from [[uniform regularity]] for the uniform space, but proximal Complete Regularity seems unobtainable in this way; it seems to assert [[located subspace|locatedness]] of all subsets.
+In [[constructive mathematics]], all three of the relations $\delta,\bowtie,\ll$ may be defined as above from a uniformity.  All the axioms of all three kinds of proximity are then provable, except Binary Additivity for $\delta$, Strong Symmetry for $\ll$, and (Local) Decomposability.  Local Decomposability follows from [[uniform regularity]] for the uniform space, but Decomposability seems unobtainable in this way; it seems to assert [[located subspace|locatedness]] of all subsets.
 
-However, there is a different way to obtain a proximity underlying a uniformity: define $A\bowtie B$ if there is a uniformly continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  Classically, this is equivalent to the usual definition, by the usual proof that any unform space is completely regular.  Constructively, it (and a similar definition for $\ll$) yields a proximity space satisfying Complete Regularity, which has the same underlying topology *if* our original uniform space was already [[completely regular space|completely regular]].
+However, there is a different way to obtain a proximity underlying a uniformity: define $A\bowtie B$ if there is a uniformly continuous function $f: X\to [0,1]$ such that $f(x) = 0$ for $x \in A$ and $f(x) = 1$ for $x \in B$.  Classically, this is equivalent to the usual definition, by the usual proof that any unform space is completely regular.  Constructively, it (and a similar definition for $\ll$) yields a proximity space satisfying Decomposability, which has the same underlying topology *if* our original uniform space was already [[completely regular space|completely regular]].
 
 
 ### Syntopogenous spaces
@@ -178,6 +201,9 @@ The (separated) proximities inducing a given (Hausdorff) completely regular topo
 1. If $A \in \sigma$ and $B \in \sigma$, then $A \;\delta\; B$.
 2. If $A \;\delta\; C$ for all $C \in \sigma$, then $A \in \sigma$.
 3. If $(A \cup B) \in \sigma$, then $A \in \sigma$ or $B \in \sigma$.
+4. $\sigma$ is nonempty.
+
+Note that conditions (1) and (2), together with Isotony for $\delta$, imply that any cluster $\sigma$ is upwards-closed.  Together with nullary Additivity for $\delta$, they also imply the nullary version of (3): $\emptyset \notin\sigma$.  However, a cluster is not generally a [[filter]]: it is not closed under binary intersections.  This is most obvious when we consider how $X$ embeds in its compactification, taking each point $x$ to the "principal cluster" $\sigma_x = \{ A \mid \{x\}\;\delta\; A \}$, i.e. the collection of sets whose closure contains $x$, which is certainly not generally closed under intersections.  (If it were a filter, of course, condition (3) would say that it is prime.)
 
 
 ## Proximities as profunctors {#profunctors}
