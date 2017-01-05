@@ -83,7 +83,7 @@ Further re-inventions of the concept of $n$-Lie algebras in this context are app
 ### As metric Lie $n$-algebras
  {#ReferencesAsMetricLienAlgebras}
 
-A sensible interpretation of $3$-Lie algebras as [[Lie 2-algebras]] equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is due to 
+An interpretation of $3$-Lie algebras as [[Lie 2-algebras]] equipped with a binary [[invariant polynomial]] ("metric Lie 2-algebras") is due to 
 
 * Sam Palmer, [[Christian Saemann]], section 2 of _M-brane Models from Non-Abelian Gerbes_, JHEP 1207:010, 2012 ([arXiv:1203.5757](http://arxiv.org/abs/1203.5757))
   
