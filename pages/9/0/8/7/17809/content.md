@@ -51,7 +51,7 @@ Since [[real structure|real]] [[spin representations]] have a comparatively rigi
 supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real structure|real]] [[spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
 the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)). This indicates some
-deep relation between [[supersymmetry]] and fundamental structres in mathematics ([[stable homotopy theory]])
+deep relation between [[supersymmetry]] and fundamental structures in mathematics ([[stable homotopy theory]])
 where these algebras, and their associated [[Hopf fibrations]],
 play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectral sequence]].
 
@@ -63,7 +63,7 @@ play a pivotal role in the [[Hopf invariant one]] theorem and the [[Adams spectr
 Conversely, it turns out that the [[super Minkowski spacetimes]] in these dimensions may be characterized by
 forming iterated invariant [[central extensions]], starting with the [[superpoint]] ([J. Huerta](#MTheoryFromTheSuperpoint)). This shows that
 supersymmetry in the special sense of spacetime supersymmetry is mathematically singled out among all [[supergroups]].
-Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]]
+Given that [[supergroups]] themselves are mathematically singled out by [[Deligne's theorem on tensor categories]],
 this shows that spacetime [[supersymmetry]] is not an ad-hoc concept and is of intrinsic interest independently of debated speculations on
 its realization at the (comparatively "low") [[electroweak symmetry breaking|electroweak energy scale]] in the [[observable universe]].
 
@@ -118,7 +118,7 @@ superpoint:
 
 We start by saying what it means, in generality, to have a supersymmetric extension of an ordinary symmetry.
 Here we are concerned with [[symmetry groups]] that are [[Lie groups]], and we start by considering
-only the infinitesimal approximation, hence their [[Lie algebras]]. 
+only the infinitesimal approximation, hence their [[Lie algebras]].
 
 To discuss super-extensions of Lie algebras, recall from _[[geometry of physics -- supergeometry]]_ the concept of _[[super Lie algebras]]_:
 
@@ -340,7 +340,7 @@ such that
    $$
 
    and possibly further conditons. A sufficient condition on the pairing such that the above
-data defines a super-extension of $\mathfrak{g}$ is that all the elements in the image of the pairing act trivially on all elements, i.e. 
+data defines a super-extension of $\mathfrak{g}$ is that all the elements in the image of the pairing act trivially on all elements, i.e.
 that
 
 $$
@@ -509,7 +509,7 @@ Then $\rho$ is called
 
 =--
 
-We discuss this now in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)), but taking care to exhibit the abstract concept of 
+We discuss this now in components (i.e. in terms of choices of [[linear bases]]), using standard notation and conventions from the physics literature (e.g. [Castellani-D'Auria-Fr&#233;](#CastellaniDAuriaFre)), but taking care to exhibit the abstract concept of
 real representations.
 
 
@@ -887,7 +887,7 @@ induce them:
 
 For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
 even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1},1)$ (def. \ref{CliffordAlgebra})
-which are [[unitary operator|unitary]] with respect to the conjugation operation $\overline{(-)}$ 
+which are [[unitary operator|unitary]] with respect to the conjugation operation $\overline{(-)}$
 from def. \ref{CliffordAlgebra}:
 
 $$
@@ -1230,7 +1230,7 @@ $$
 Then there is a choice of complex linear representation of the [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) on the [[complex vector space]]
 
 $$
-  V \coloneqq \mathbb{C}^{\nu}
+  V \coloneqq \mathbb{C}^{2^{\nu}}
 $$
 
 such that
@@ -1985,7 +1985,7 @@ $$
 +-- {: .num_prop #TheMajoranaConditionInComponents}
 ###### Proposition
 
-In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{\nu}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
+In dimensions $d = 4,8,9,10,11$ a spinor $\psi \in \mathbb{C}^{2^\nu}$ is a real spinor according to def. \ref{MajoranaSpinorGeneral} with respect to the [[real structure]] from prop. \ref{MajoranaConjugationIsRealStructure}, precisely if
 
 $$
   \psi = C \Gamma_0^T \psi^\ast
@@ -2155,7 +2155,7 @@ is the following
 +-- {: .num_prop #SpinorToVectorPairing}
 ###### Proposition
 
-For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, then spinor to vector pairing operation of def. \ref{SpinorToVectorBilinearPairing} 
+For a $Spin(d-1,1)$ representation $V$ as in prop. \ref{CliffordAlgebraRepresentation}, with real/Majorana structure as in prop. \ref{MajoranaConjugationIsRealStructure}, then spinor to vector pairing operation of def. \ref{SpinorToVectorBilinearPairing}
 satisfies the following properties: it is
 
 1. symmetric:
@@ -3686,14 +3686,14 @@ $$
 given by
 
 $$
-  A \mapsto A^{-1}(-)A
+  A \mapsto A(-)A^\dagger
   \,.
 $$
 
-This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant
+This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant:
 
 $$
-  det(A^{-1}(-)A) = det(A)^{-1} det(-) det(A) = det(-)
+  det(A(-)A^\dagger) = \underset{=1}{\underbrace{det(A)}} det(-) \underset{= 1}{\underbrace{det(A)}}^\ast = det(-)
   \,.
 $$
 
@@ -4348,8 +4348,8 @@ $$
 ## Spacetime supersymmetry
  {#Supersymmetry}
 
-We have seen in example \ref{SuperExtensionOfPoincare} that super-extensions of the symmetries of 
-[[Minkowski spacetime]] are given by [[real spin representations]], and then we constructed and 
+We have seen in example \ref{SuperExtensionOfPoincare} that super-extensions of the symmetries of
+[[Minkowski spacetime]] are given by [[real spin representations]], and then we constructed and
 classified these ([above](#RealSpinRepresentations)).
 
 Hence every [[real spin representation]] of $Spin(d-1,1)$ induces a [[super Lie algebra]] [[Lie algebra extension|extension]] of the [[Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1})$ in that dimension, i.e. of the Lie algebra of the [[isometry group]] of the [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in that dimension. These are the _[[supersymmetry]] algebras_ in [[physics]].
@@ -4543,7 +4543,7 @@ $$
   \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
 $$
 
-equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ 
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$
 (a $\mathbb{N} \times \mathbb{Z}/2$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_).
 
 This is generated on
