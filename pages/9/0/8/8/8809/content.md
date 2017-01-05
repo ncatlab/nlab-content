@@ -67,7 +67,7 @@ Related theorems
 
 The original article is
 
-* {#NarasimhanSeshadri65} [[Mudumbai Narasimhan]]; [[C. Seshadri]], _Stable and unitary vector bundles on a compact Riemann surface_, Annals of Mathematics. Second Series 82: 540&#8211;567, (1965) ([JSTOR]( http://www.jstor.org/stable/1970710))
+* {#NarasimhanSeshadri65} [[Mudumbai Narasimhan]], [[C. Seshadri]], _Stable and unitary vector bundles on a compact Riemann surface_, Annals of Mathematics. Second Series 82: 540&#8211;567, (1965) ([JSTOR]( http://www.jstor.org/stable/1970710))
 
 and another proof appeared in 
 
@@ -78,6 +78,10 @@ A good general survey and re-discussion is in
 
 * {#AtiyahBott83} [[Michael Atiyah]], [[Raoul Bott]], section 8 of _The Yang-Mills equations over Riemann surfaces_, Philosophical Transactions of the Royal Society of London. Series A, Mathematical and Physical Sciences
 Vol. 308, No. 1505 (Mar. 17, 1983), pp. 523-615 ([jstor](http://www.jstor.org/stable/37156), [lighning summary](http://math.stackexchange.com/a/295505/58526))
+
+A recording of a review talk is here
+
+* {#Narasimhan16} [[Mudumbai Narasimhan]], _Moduli of vector bundles on compact Riemann surfaces_, talk Dec 2016, Bangalore ([video](https://youtu.be/7SuzfmwR6Z0))
 
 Lecture notes include
 
