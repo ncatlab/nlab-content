@@ -7,7 +7,7 @@
 
 ## Idea
 
-In describing [[gravity]] ([[general relativity]]) on [[globally hyperbolic spacetimes]] as evolution along a given [[foliation]] by [[spacelike]] slices, the [[Einstein equations]] describe a 1-parameter evolution in a configuratin space/[[moduli space]] of fields on each time slice. For applications to [[cosmology]] this space may be drastically reduced to retain only some very large scale feature. The resulting configuration space had been called "superspaces" by [[John Wheeler]].
+In describing [[gravity]] ([[general relativity]]) on [[globally hyperbolic spacetimes]] as evolution along a given [[foliation]] by [[spacelike]] slices, the [[Einstein equations]] describe a 1-parameter evolution in a configuration space/[[moduli space]] of fields on each time slice. For applications to [[cosmology]] this space may be drastically reduced to retain only some very large scale feature. The resulting configuration space had been called "superspaces" by [[John Wheeler]].
 
 
 ## Related concepts
