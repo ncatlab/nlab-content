@@ -1,4 +1,3 @@
-[[!redirects empty 162]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -44,7 +43,7 @@ A pre-cohesive topos that furthermore satisfies the _continuity principle_ that 
 An object $X$ in a weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _contractible_ if for every object $Y\in\mathcal{E}$: $p_!(X^Y)=1$. 
 =--
 
-+-- {: .num_rem}
++-- {: .num_remark}
 ###### Remark
 In particular, a contractible object is connected: $p_!(X)=p_!(X^1)=1$.
 =--
@@ -54,7 +53,7 @@ In particular, a contractible object is connected: $p_!(X)=p_!(X^1)=1$.
 A weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _sufficiently cohesive_ if the [[subobject classifier]] $\Omega\in\mathcal{E}$ is contractible i.e. $p_!(\Omega^X)=1$ for every object $X\in\mathcal{E}$ or, in other words, if all [[power object|power objects]] are connected. 
 =--
 
-+-- {: .num_rem}
++-- {: .num_remark}
 ###### Remark
 Since in general, every object $X$ embeds into its power object via the singleton map $\{\}:X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos $\mathcal{E}$ every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
 
@@ -74,7 +73,7 @@ In a weakly cohesive topos, retracts of connected objects are connected themselv
 
 Since in general, injective objects $I$ are retracts of the objects $X$ that they embed into because such inclusions $I\rightarrowtail X$ factor through $id_I$ by injectivity, it follows that in a weakly cohesive topos _injective objects that embed into a connected object are connected_ themselves.
 
-+-- {: .num_rem}
++-- {: .num_remark}
 ###### Remark
 The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exists a string of adjoint functors $L\dashv\Pi\dashv\Delta\dashv\Gamma\dashv B: Set\to Set^\to$ with 
 
@@ -136,12 +135,8 @@ On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
 
-
-
-
-
-
-
-
-
-
+[[!redirects empty 162]]
+[[!redirects sufficiently cohesive toposes]]
+[[!redirects sufficiently cohesive topoi]]
+[[!redirects sufficiently cohesive]]
+[[!redirects sufficient cohesion]]
