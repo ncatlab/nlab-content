@@ -27,6 +27,8 @@ Mostly however "superspace" is used for [[superspacetimes]] (e.g. [[super Minkow
 
 * I. L. Buchbinder, S. M. Kuzenko, _Ideas and methods of supersymmetry and supergravity; or A walk through superspace_
 
+* S.J. Gates Jr, M.T. Grisaru, M. Rocek, W. Siegel, _Superspace, or One thousand and one lessons in supersymmetry_ textbook (1983), available as [arXiv:hep-th/0108200](https://arxiv.org/abs/hep-th/0108200)
+
 * [[Albert Schwarz]], _On the definition of superspace_ Teoret. Mat. Fiz., 1984,  Volume 60,  Number 1, Pages 37&#8211;42   (Mi tmf5111), ([russian original](http://www.mathnet.ru/links/b12306f831b8c37d32d5ba8511d60c93/tmf5111.pdf))
 
 [[!redirects superspaces]]
