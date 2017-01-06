@@ -20,7 +20,7 @@
 
 ## Idea
 
-Given a [[tensor product]] $\rho_{j_1} \otimes \rho_{j_2}$ of two [[representations]] of some [[Lie group]] $G$ -- typically the [[special orthogonal group]] $SO(3)$ -- and its decomposition into a [[direct sum]] of [[irreducible representations]] $\{\rho_{t_{tot}}\}$ by an [[isomorphism]]
+Given a [[tensor product of representations|tensor product]] $\rho_{j_1} \otimes \rho_{j_2}$ of two [[representations]] of some [[Lie group]] $G$ (by default often the [[special orthogonal group]] $SO(3)$) and given its decomposition into a [[direct sum]] of [[irreducible representations]] $\{\rho_{t_{tot}}\}$ by an [[isomorphism]]
 
 $$
   \rho_{j_1} \otimes \rho_{j_2} \stackrel{\simeq}{\longrightarrow} \underset{j_{tot}}{\oplus} C_{j_1 j_2}{}^{j_{tot}} \rho_{j_{tot}}
