@@ -81,7 +81,7 @@ The above analysis in [[string perturbation theory]] is expected to find a non-p
 
 The idea originates in 
 
-* [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
+* {#CandelasHorowitzStromingerWitten85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], and [[Edward Witten]], _Vacuum Configurations for Superstrings_ , Nucl. Phys. B 258 (1985), p. 46. 
 
 where in the introduction it says the following
 
