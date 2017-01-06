@@ -22,16 +22,25 @@ It starts with a short (12 page) letter to Quillen, dated 19 Feb. 1983, but then
 
 In the same time he also wrote voluminous intellectual memoirs _Recoltes et Semailles_. 
 
+A chronological bibliography of Grothendieck's published mathematical writings ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothBiblio.pdf).
+
 ## Texts about Grothendieck
 
 For an account of his work, including some of the work published in the 1980s, see the [English Wikipedia entry](http://en.wikipedia.org/wiki/Alexander_Grothendieck).
 
 The video of a talk by W. Scharlau on his life can be seen [here](http://www.dailymotion.com/video/x8juek_colloque-grothendieck-winfried-scha_tech).
 
-* Reminiscenes of Grothendieck, 2007 conversations of [[Sasha Beilinson]], [[Luc Illusie]], [[Vladimir Drinfel'd]], [[Spencer Bloch]],  [pdf](http://www.math.uchicago.edu/~mitya/langlands/reminiscences1.pdf)
+* Reminiscenes of Grothendieck, 2007 conversations of [[Sasha Beilinson]], [[Luc Illusie]], [[Vladimir Drinfel'd]], [[Spencer Bloch]],  ([pdf](http://www.math.uchicago.edu/~mitya/langlands/reminiscences1.pdf))
 
 * [[Pierre Cartier]], _Alexander Grothendieck: A Country Known Only by Name_ ([pdf](http://www.ams.org/notices/201504/rnoti-p373.pdf))
 
+* [[Luca Barbieri-Viale]], _Alexander Grothendieck: Enthusiasm and creativity_ ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Mathbiographies/barbierieng.pdf))
+
+* [[Pierre Deligne]], _Quelques id&#233;es ma&#238;tresses de l'&#339;uvre de A Grothendieck_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/Mathbiographies/Deligne.pdf)
+
+* [[Luc Illusie]], _Alexandre Grothendieck, le magicien des foncteurs_ ([pdf](http://www.cnrs.fr/insmi/IMG/pdf/Alexandre-Grothendieck.pdf)).
+
+* _Une entrevue avec [[Jean Giraud]], &#224; propos d'Alexandre Grothendieck_ ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/giraud.pdf)).
 
 A  recent article in French on Grothendieck is to be found [here](http://images.math.cnrs.fr/Alexandre-Grothendieck.html).
 
@@ -67,6 +76,11 @@ The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/noti
 
 See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.php?id=31245)_
 
+## Correspondence 
+
+[The Grothendieck-Serre correspondence](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/GS.pdf)
+
+[The Grothendieck-Mumford correspondence](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/AGMumford.pdf)
 
 category: people
 
