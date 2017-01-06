@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. The [[coefficients]] of this Fierz decomposition are effectively the spinorial [[Clebsch-Gordan coefficients]].
+What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. The [[coefficients]] of this Fierz decomposition are hence effectively the [[Clebsch-Gordan coefficients]] for [[spin representations]].
 
 In practice the Fierz identities are mostly relevant for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
 
@@ -143,9 +143,9 @@ $$
 ### As spinorial Clebsch-Gordan coefficients
  {#AsSpinorialClebschGordanCoefficients}
 
-On the left of the above equation we have a [[tensor product]] [[spin representation]] which decomposes on the right into a sum. This means that we are dealing with [[Clebsch-Gordan coefficients|Clebsch-Gordan decomposition]] of the tensor product representation into a [[direct sum]] of [[irreducible representations]].
+On the left of the above equation we have a [[tensor product of representations|tensor product]] of [[spin representations]] which decomposes on the right into a [[direct sum]] of [[irreducible representations]]. This means that we are dealing with [[Clebsch-Gordan coefficients|Clebsch-Gordan decomposition]] of the tensor product representation into a [[direct sum]] of [[irreducible representations]].
 
-(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b)) 
+(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b). A textbook account is in [Castellani-D'Auria-Fr&#233; 91, chapter II.8](#CDF)) 
 
 To project out the irreps one may contract with 
 CE-elements parameterized in the form 
