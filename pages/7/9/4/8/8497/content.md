@@ -27,6 +27,9 @@ The [[invariants]] of the conjugation action are the $G$-action [[homomorphism]]
 
 In the case that the $G$-action on $V_2$ is trivial, this is the _precomposition action_ and in the case that the action on $V_1$ is trivial this is the _postcomposition action_.
 
+In [[matrix calculus]] conjugation actions are also known as _[[similarity transformations]]_.
+
+
 ## Definition
  {#Definition}
 
