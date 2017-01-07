@@ -73,7 +73,7 @@ In a weakly cohesive topos, retracts of connected objects are connected themselv
 
 Since in general, injective objects $I$ are retracts of the objects $X$ that they embed into because such inclusions $I\rightarrowtail X$ factor through $id_I$ by injectivity, it follows that in a weakly cohesive topos _injective objects that embed into a connected object are connected_ themselves.
 
-In particular, _all_ injective objects are connected in sufficiently cohesive toposes. Since power objects are injective in general one gets the converse as well:
+In particular, _all_ injective objects are connected in a sufficiently cohesive topos. Since power objects are injective in general one gets the converse as well:
 
 +-- {: .num_prop #sufficient_injective}
 ###### Proposition
@@ -101,7 +101,24 @@ On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a
 
 [^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
 
+Recall that in any topos, the subobject classifier $\Omega$ has two points $\bot,\top$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$:
 
+$$
+\array{
+0 &\to & 1 
+\\
+\downarrow & &\downarrow\mathsf{T}
+\\
+1 &\underset{\bot}{\to} &\Omega
+}
+$$
+
+In a sufficiently cohesive topos $\Omega$ is furthermore connected whence together with its [[Heyting algebra|Heyting algebra structure]] we can view it as a generalized (non linear) "interval" object:
+
++-- {: .num_defn #connector}
+###### Definition 
+An object $I$ in a weakly cohesive topos is called a _(cohesive) connector_ if $p_!(I)=1$ and $I$ has two points $t_0,t_1:1\to I$ with empty [[equaliser]]: $0\overset{e}{\to} 1\overset{t_0}{\underset{t_1}{\rightrightarrows}} I$.
+=--
 ...
 
 ## Related entries
