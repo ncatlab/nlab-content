@@ -34,7 +34,7 @@ This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\math
 
 A weakly cohesive topos is called _pre-cohesive_ if $p$ furthermore satisfies the [[Nullstellensatz]] i.e. the canonical map $\theta:p_\ast\to p_!$ is an epimorphism. This is the situation explored in Menni ([2014a](#Menni14a), [2014b](#Menni14b)).
 
-A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ for all $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1999](#Law99)).
+A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ natural in $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1999](#Law99)).
 
 ## Definitions
 
@@ -72,6 +72,13 @@ In a weakly cohesive topos, retracts of connected objects are connected themselv
 **Proof**. Let $X$ be a retract of $Y$ with $p_!(Y)=1$. Then $id_X$ factors as $X\rightarrowtail Y\to X$ and applying $p_!$ shows that $id_{p_!(X)}$ factors through the terminal object $p_!(Y)$. $\qed$
 
 Since in general, injective objects $I$ are retracts of the objects $X$ that they embed into because such inclusions $I\rightarrowtail X$ factor through $id_I$ by injectivity, it follows that in a weakly cohesive topos _injective objects that embed into a connected object are connected_ themselves.
+
+In particular, _all_ injective objects are connected in sufficiently cohesive toposes. Since power objects are injective in general one gets the converse as well:
+
++-- {: .num_prop #sufficient_injective}
+###### Proposition
+A weakly cohesive topos is sufficiently cohesive iff all injective objects are connected. $\qed$
+=--
 
 +-- {: .num_remark}
 ###### Remark
