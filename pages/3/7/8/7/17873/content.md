@@ -34,7 +34,7 @@ This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\math
 
 A weakly cohesive topos is called _pre-cohesive_ if $p$ furthermore satisfies the [[Nullstellensatz]] i.e. the canonical map $\theta:p_\ast\to p_!$ is an epimorphism. This is the situation explored in Menni ([2014a](#Menni14a), [2014b](#Menni14b)).
 
-A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ for all $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1997](#Law99)).
+A pre-cohesive topos that furthermore satisfies the _continuity principle_ that $p_!(X^{p^\ast(Y)})\simeq p_!(X)^{Y}$ for all $X\in\mathcal{E}$, $Y\in\mathcal{S}$, is called _'cohesive'_ in Lawvere ([2007](#Law07)) where the term 'sufficently cohesive' occurs for the first time although the notion is defined in a more restricted environment than the earlier papers (cf. Lawvere [1986](#Law86), [1992](#Law92), [1999](#Law99)).
 
 ## Definitions
 
@@ -125,15 +125,19 @@ On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a
 
 * {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of Mathematics_ , de Gruyter Berlin 1992.
 
-* {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
+* {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds.), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
 * {#Law07} [[F. W. Lawvere]], _Axiomatic cohesion_ , TAC **19** no.3 (2007) pp.41&#8211;49. ([pdf](http://www.tac.mta.ca/tac/volumes/19/3/19-03.pdf))
+
+* {#LawvereMenni15} [[F. W. Lawvere]], [[Matías Menni|M. Menni]], _Internal choice holds in the discrete part of any cohesive topos satisfying stable connected codiscreteness_, TAC **30** no. 26 (2015) pp.909-932. ([abstract](http://www.tac.mta.ca/tac/volumes/30/26/30-26abs.html))
 
 * {#MarmoMenni16}F. Marmolejo, [[Matías Menni|M. Menni]], _On the relation between continuous and combinatorial_ , arXiv:1602.02826 (2016). ([abstract](http://arxiv.org/abs/1602.02826))
 
 * {#Menni14a} [[Matías Menni|M. Menni]], _Sufficient Cohesion over Atomic Toposes_ , Cah. Top. G&#233;om. Diff. Cat. **LV** (2014). ([preprint](https://sites.google.com/site/matiasmenni/SufCohesion12.pdf?attredirects=0))
 
 * {#Menni14b} [[Matías Menni|M. Menni]], _Continuous Cohesion over Sets_ , TAC **29** no.20 (2014) pp.542-568. ([pdf](http://www.tac.mta.ca/tac/volumes/29/20/29-20.pdf))
+
+* {#Shulman15} [[Mike Shulman|M. Shulman]], _Brouwer's Fixed Point Theorem in real-cohesive Homotopy Type Theory_ , arXiv:1509.07584 (2015). ([abstract](http://arxiv.org/abs/1509.07584)) 
 
 [[!redirects empty 162]]
 [[!redirects sufficiently cohesive toposes]]
