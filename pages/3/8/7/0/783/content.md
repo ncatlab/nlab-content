@@ -38,7 +38,7 @@ The video of a talk by W. Scharlau on his life can be seen [here](http://www.dai
 
 * [[Luca Barbieri-Viale]], _Alexander Grothendieck: Enthusiasm and creativity_ ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Mathbiographies/barbierieng.pdf))
 
-* [[Pierre Deligne]], _Quelques id&#233;es ma&#238;tresses de l'&#339;uvre de A Grothendieck_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/Mathbiographies/Deligne.pdf)
+* [[Pierre Deligne]], _Quelques id&#233;es ma&#238;tresses de l'&#339;uvre de A Grothendieck_ ([pdf](http://www.math.jussieu.fr/~leila/grothendieckcircle/Mathbiographies/Deligne.pdf))
 
 * [[Luc Illusie]], _Alexandre Grothendieck, le magicien des foncteurs_ ([pdf](http://www.cnrs.fr/insmi/IMG/pdf/Alexandre-Grothendieck.pdf)).
 
@@ -53,6 +53,13 @@ The Life of Alexandre Grothendieck, Part 1,[Notices AMS](http://www.ams.org/noti
 
 * Allyn Jackson, _Comme Appel&#233; du N&#233;ant_, As If Summoned from the Void:
 The Life of Alexandre Grothendieck, Part 2,[Notices AMS](http://www.ams.org/notices/200410/fea-grothendieck-part2.pdf)
+
+Grothendieck obituary in the Notices AMS (Michael Artin, Allyn Jackson, David Mumford, and John Tate, Coordinating Editors):
+
+* "_The obituary begins here with a brief sketch of Grothendieck's life,
+followed by a description of some of his most outstanding work in mathematics._" Alexandre Grothendieck 1928&#8211;2014, ([Part 1] (http://www.ams.org/journals/notices/201603/rnoti-p242.pdf))
+
+* "_set of reminiscences by some of the many mathematicians who knew Grothendieck and were influenced by him._" Alexandre Grothendieck 1928&#8211;2014, ([Part 2](http://www.ams.org/publications/journals/notices/201604/rnoti-p401.pdf)).
 
 ## Students
 
