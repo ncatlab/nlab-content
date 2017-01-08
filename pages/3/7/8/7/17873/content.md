@@ -119,6 +119,23 @@ In a sufficiently cohesive topos $\Omega$ is furthermore connected whence togeth
 ###### Definition 
 An object $I$ in a weakly cohesive topos is called a _(cohesive) connector_ if $p_!(I)=1$ and $I$ has two points $t_0,t_1:1\to I$ with empty [[equaliser]]: $0\overset{e}{\to} 1\overset{t_0}{\underset{t_1}{\rightrightarrows}} I$.
 =--
+
+One can use connectors to define a (generalized) homotopy relation between maps that behaves well under taking connected components.
+
++-- {: .num_defn #I-homotopy}
+###### Definition 
+Let $I$ be a connector. Two parallel maps $f,g:A\to B$ are called _I-homotopical_, in signs: $f\sim_I g$, if there exists a map $h:A\times I\to B$ with the property that
+$$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, t_1\circ !_A\rangle\quad.$$
+(In this case, $h$ is also called an (I-)homotopy from $f$ to $g$.)
+=--
+
+
+(...
++-- {: .num_prop #homotopy_components}
+###### Proposition
+Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pair of parallel maps in a weakly cohesive topos with the property that $p_!(k_1)=p_!(k_2)$. Then $p_!(f)=p_!(g)$ and this holds in particular if $h$ is a homotopy from $f$ to $g$.
+=--
+...)
 ...
 
 ## Related entries
