@@ -22,7 +22,9 @@ It starts with a short (12 page) letter to Quillen, dated 19 Feb. 1983, but then
 
 In the same time he also wrote voluminous intellectual memoirs _Recoltes et Semailles_. 
 
-A chronological bibliography of Grothendieck's published mathematical writings ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothBiblio.pdf).
+En Guise de Programme [p I](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Guise1.jpg) [p II](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Guise2.jpg), a text written by Grothendieck as a course description while teaching in Montpellier "Introduction &#224; la recherche". 
+
+A chronological bibliography of Grothendieck's published mathematical writings ([pdf](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/GrothBiblio.pdf)).
 
 ## Texts about Grothendieck
 
@@ -81,6 +83,8 @@ See _[Mathematics Genealogy for Grothendieck](http://www.genealogy.ams.org/id.ph
 [The Grothendieck-Serre correspondence](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/GS.pdf)
 
 [The Grothendieck-Mumford correspondence](http://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/Letters/AGMumford.pdf)
+
+### See for more [Grothendieck circle](http://www.grothendieckcircle.org/)
 
 category: people
 
