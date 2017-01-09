@@ -59,8 +59,13 @@ is called the *upper central series* of $G$, and Proposition \ref{center} shows 
 
 [[!redirects p-primary groups]]
 
+[[!redirects p-group]]
+[[!redirects p-groups]]
+
+
 [[!redirects primary group]]
 [[!redirects primary groups]]
 
 [[!redirects p-primary component]]
 [[!redirects p-primary components]]
+
