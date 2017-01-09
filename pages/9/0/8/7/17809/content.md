@@ -50,7 +50,7 @@ positivity relations that enter the spinorial proof of the [[positive energy the
 Since [[real structure|real]] [[spin representations]] have a comparatively rigid classification, there are algebraic constraints on
 supersymmetry groups in various dimensions. By a remarkable algebraic coincidence, the [[real spin representations]]
 in spacetime dimensions 3,4,5,6,7,10, and 11 are given by simple [[linear algebra]] over the real [[normed division algebras]]:
-the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)). 
+the [[real numbers]], the [[complex numbers]], the [[quaternions]] and the [[octonions]] ([Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84), [Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
 (These are controled by the [[Fano plane]], shown on the right.) This indicates some
 deep relation between [[supersymmetry]] and fundamental structures in mathematics ([[stable homotopy theory]])
 where these algebras, and their associated [[Hopf fibrations]],
@@ -92,16 +92,16 @@ We start by considering the general concept of super-symmetry extensions of give
 
 There we find that super-extensions of spacetime symmetry are induced by [[real spin representations]].
 There are several ways to get hold of [[real spin representations]], and each of these gives one
-version of spacetime supersymmetry. 
+version of spacetime supersymmetry.
 
-One way is to consider 
+One way is to consider
 complex representations, which are easy to come by, and then try to carve out real sub-representations
 inside them by finding a [[real structure]] on the representation. In physics this is called
 the [[Majorana spinor]] construction. This we discuss in
 
 * _[Real spinors as Majorana spinors](#RealSpinRepresentations)_
 
-Another way to get real spin representations is to invoke some algebraic magic that allows to 
+Another way to get real spin representations is to invoke some algebraic magic that allows to
 construct them right away.
 This turns out to work in spacetime dimensions 3,4,6 and 10 as well as 4,5,7 and 11
 by considering $2 \times 2$ [[matrices]] with [[coefficients]] in one of the four real [[normed division algebras]],
@@ -482,16 +482,43 @@ which is non-trvial (def. \ref{TrivialSuperExtension}) is obtained from the foll
 
 1. an $\mathfrak{so}$-equivariant symmetric $\mathbb{R}$-[[bilinear map|bilinear pairiing]] $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
 
+It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for $\rho$ the Lie algebra version of a [[real spin representation]] of the [[spin group]] $Spin(d-1,1)$ (this is prop. \ref{SpinorToVectorPairing} below). These we introduce and discuss now in _[Real spin representations](#RealSpinRepresentations)_. 
+
+The super-extensions of the [[Poincaré Lie algebra]] induced by 
+[[real spin representations]] this was are called _[[super Poincaré Lie algebras]]_ (def. \ref{SuperMinkowskiSpacetime}) below.
+These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 
 =--
 
-It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for $\rho$ the Lie algebra version of a [[real spin representation]] of the [[spin group]] $Spin(d-1,1)$ (this is prop. \ref{SpinorToVectorPairing} below). These we introduce and discuss now in _[Real spin representations](#RealSpinRepresentations)_.
 
++-- {: .num_remark}
+###### Remark
+
+By prop. \ref{DataInSuperExtension} the data in example \ref{SuperExtensionOfPoincare} is sufficient for
+producing super-extensions (in the sense of def. \ref{SuperExtensions}) of [[Poincaré Lie algebras]], namely the 
+[[super Poincaré Lie algebras]].
+It is more subtle to see whether this is also _necessary_, or whether there could be exotic super-extensions,
+in the sense of def. \ref{SuperExtensions},
+where the spinor bilinear pairing takes values not just in $\mathbb{R}^{d-1,1}$, but also has 
+components in the summand $\mathfrak{so}(d-1,1)$. 
+
+At this point the existing literature appeals to the 
+_[[Haag??opusza?ski?Sohnius theorem]]_. This does rule out such exotic super-extensions, but only
+after introducing more conditions, such as the condition that $P_a P^a$ remains a [[Casimir operator]]
+after super-extension, and more. These conditions are well motivated from the expected symmetry-behaviour of
+[[S-matrices]] in [[field theory]]. But it would still be interesting to find the purely mathematical 
+classification of the super-extensions.
+
+Below in _[supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_ we disucss something at least 
+related. The [[super Poincaré Lie algebras]] at least in certain dimensions are singled out from a different perspective:
+they are precisely the result of iterative maximal invariant [[central extensions]] of the superpoint.
+
+=--
 
 
 ## Real spin representations
  {#RealSpinRepresentations}
- 
+
 By example \ref{SuperExtensionOfPoincare} we want a [[real spin representation]] in order to construct
 a spacetime supersymmetry super Lie algebra. There are different ways to get hold of real spin representations.
 
@@ -1239,7 +1266,7 @@ $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) is a [[central simple alge
 Clearly, this drastically simplifies certain considerations about Clifford algebra, for instance it
 helps with analyzing [[Fierz identities]].
 
-This abstract isomorphism 
+This abstract isomorphism
 
 $$
   Cl(\mathbb{R}^{2\nu-1,1}) \otimes_{\mathbb{R}} \mathbb{C}
