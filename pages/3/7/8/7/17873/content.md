@@ -80,8 +80,14 @@ In particular, _all_ injective objects are connected in a sufficiently cohesive 
 A weakly cohesive topos is sufficiently cohesive iff all injective objects are connected. $\qed$
 =--
 
-+-- {: .num_remark}
-###### Remark
+## Cohesively connected truth
+
+In a sufficiently cohesive topos the subobject classifier is obviuosly connected since $\Omega=\Omega^1$. It is the aim of this section to prove that in a weakly cohesive topos the converse holds as well: $\Omega$ is connected iff $\Omega$ is contractible.
+
+Before embarking on a proof let us consider two examples that illustrate that the concept of sufficient cohesion results from the interplay between the _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
+
++-- {: .num_example}
+###### (Non)examples
 The [[Sierpinski topos]] $Set^\to$ is weakly cohesive over $Set$ since there exists a string of adjoint functors $L\dashv\Pi\dashv\Delta\dashv\Gamma\dashv B: Set\to Set^\to$ with 
 
 * $L(Z)=\emptyset \to Z$
@@ -126,8 +132,9 @@ One can use connectors to define a (generalized) homotopy relation between maps 
 ###### Definition 
 Let $I$ be a connector. Two parallel maps $f,g:A\to B$ are called _I-homotopical_, in signs: $f\sim_I g$, if there exists a map $h:A\times I\to B$ with the property that
 $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, t_1\circ !_A\rangle\quad.$$
-(In this case, $h$ is also called an (I-)homotopy from $f$ to $g$.)
+(In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
 =--
+
 
 
 (...
@@ -160,11 +167,11 @@ Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pai
 
 * {#RRZ04} M. La Palme Reyes, [[Gonzalo E. Reyes|G. E. Reyes]], H. Zolfaghari, _Generic Figures and their Glueings_ , Polimetrica Milano 2004.
 
-* {#Law86} [[F. W. Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary in TAC **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
+* {#Law86} [[F. W. Lawvere]], _Categories of Spaces may not be Generalized Spaces as Exemplified by Directed Graphs_, Revista Colombiana de Matem&#225;ticas **XX** (1986) pp.179-186. Reprinted with commentary as TAC Reprint **9** (2005) pp.1-7. ([pdf](ftp://ftp.tac.mta.ca/tac/html/tac/reprints/articles/9/tr9.pdf))
 
 * {#Law91a} [[F. W. Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
 
-* {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al (eds.), _The Space of Mathematics_ , de Gruyter Berlin 1992.
+* {#Law92} [[F. W. Lawvere]], _Categories of Space and Quantity_, pp.14-30 in: J. Echeverria et al. (eds.), _The Space of Mathematics_ , de Gruyter Berlin 1992.
 
 * {#Law99} [[F. W. Lawvere]], _Kinship and Mathematical Categories_ , pp.411-425 in: R. Jackendoff, P. Bloom, K. Wynn (eds.), _Language, Logic, and Concepts - Essays in Memory of John Macnamara_, MIT Press 1999.
 
