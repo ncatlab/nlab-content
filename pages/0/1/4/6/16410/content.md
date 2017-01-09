@@ -18,9 +18,17 @@
 The [[Lorentzian manifold]] which is the [[coset space]] of [[Lorentz groups]]
 
 $$
-  dS^d = O(d,1)/O(d-1,1)
+  dS^d \simeq O(d,1)/O(d-1,1)
 $$
 
+Similarly [[anti de Sitter spacetime]] is
+
+$$
+  adS^d \simeq O(d-1,2)/O(d-1,1)
+$$
+
+
+(e.g <a href="https://books.google.de/books?id=vtEkBAAAQBAJ&lpg=PA135&ots=zsId1G2lKU&dq=anti-de%20Sitter%20quotient%20of%20SO(3%2C2)&pg=PA135#v=onepage&q=anti-de%20Sitter%20quotient%20of%20SO(3,2)&f=false">here</a>)
 
 ## Related concepts
 
