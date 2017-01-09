@@ -31,7 +31,7 @@ $$
 
 where $\mathcal{P}(B)$ is the [[path object|path space]] in [[Top]], the space of continuous [[interval object|path]]s 
 $u:[0,1]\to B$ in $B$, and where $\mathcal{P}(B)\to B$ is the map sending a path $u$ to its value $u(0)$. 
-The cocylinder can be realized as a subspace of $E\times \mathcal{P}(B)$ consisting of pairs $(e,u)$ where $e\in E$ and $u:[0,1]\to \mathcal{P}(B)$ are such that $\pi(e)=u(0)$.
+The cocylinder can be realized as a subspace of $E\times \mathcal{P}(B)$ consisting of pairs $(e,u)$ where $e\in E$ and $u:[0,1]\to B$ are such that $\pi(e)=u(0)$.
 
 +-- {: .num_defn}
 ###### Definition
