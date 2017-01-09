@@ -355,7 +355,7 @@ One notices that [classical Galois theory](#ClassicalGaloisTheory) has an equiva
 +-- {: .num_prop }
 ###### Observation
 
-The [[étale morphism]]s $f : Y \to X$ corresponds precisely to the [[locally constant sheaves]] on $X$ with respect to the [[etale topology]], in that it is equivalently a morphism for which there is an [[etale cover]] $\{U_i \to X\}$ such that $f$ is a [[constant sheaf]] on each $U_i$. 
+The [[étale morphism]]s $f : Y \to X$ corresponds precisely to the [[locally constant sheaves]] on $X$ with respect to the [[étale topology]], in that it is equivalently a morphism for which there is an [[étale cover]] $\{U_i \to X\}$ such that $f$ is a [[constant sheaf]] on each $U_i$. 
 
 For $K$ a [[field]] let $Et(K)$ be its [[small site|small]] [[étale site]]. And 
 
