@@ -19,7 +19,7 @@
 
 ## Definition
 
-Any [[group]] $G$ has a [[category]] of finite-dimensional [[complex number|complex]]-linear [[representations]], often denoted $Rep(G)$.  This is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] and thus has a [[Grothendieck ring]], which is called the **representation ring** of $G$ and denoted $R(G)$. Elements of the representation ring are hence formal differences (with respect to [[direct sum]]) of ordinary representations: [[virtual representations]].
+Any [[group]] $G$ has a [[category]] of finite-dimensional [[complex number|complex]]-linear [[representations]], often denoted $Rep(G)$.  This is a [[symmetric monoidal category|symmetric monoidal]] [[abelian category]] (a "[[tensor category]]") and thus has a [[Grothendieck ring]], which is called the **representation ring** of $G$ and denoted $R(G)$. Elements of the representation ring are hence formal differences (with respect to [[direct sum]]) of ordinary representations: [[virtual representations]].
 
 ### In components
 
@@ -27,7 +27,11 @@ More concretely, we get $R(G)$ as follows.  It has a [[basis]] $(e_i)_i$ given b
 
 $$ e_i e_j = \sum_k m_{i j}^k e_k ,$$
 
-where $m_{i j}^k$ is the multiplicity of the $k$th irrep in the tensor product of the $i$th and $j$th irreps.  Note that $R(G)$ is commutative thanks to the symmetry of the tensor product.
+where $m_{i j}^k$ is the multiplicity of the $k$th irrep in the tensor product of the $i$th and $j$th irreps.  
+
+In [[physics]] these coefficients are also known as _[[Clebsch-Gordan coefficients]]_ (specifically for $G$ the [[special orthogonal group]] $SO(3)$), and the relations they satisfy are also known as _[[Fierz identities]]_ (specifically for $G$ a [[spin group]]).
+
+Notice that $R(G)$ is commutative thanks to the [[symmetric monoidal category|symmetry]] of the tensor product.
 
 ### In terms of K-theory
 
@@ -71,6 +75,13 @@ in Borel-equivriant K-theory only the [[completion of a ring|completion]] of $Re
 
 The completion of $Rep(Spin(2k))$ is $\mathbb{Z}[ [ e^{\pm x_j} ] ]$ for $1 \leq j \leq k$ (e.g [Brylinski 90, p. 9](#Brylinski90)).
 
+
+## Related concepts
+
+* [[Clebsch-Gordan coefficients]], [[Fierz identities]]
+
+* [[Deligne's theorem on tensor categories]]
+
 ## References
 
 Classical results for [[compact Lie groups]]:
@@ -90,4 +101,5 @@ In the generality of [[super Lie groups]]:
 With an eye towards [[loop group representations]]:
 
 * {#Brylinski90} [[Jean-Luc Brylinski]], _Representations of loop groups, Dirac operators on loop space, and modular forms_, Topology, 29(4):461&#8211;480, 1990.
+
 [[!redirects representation rings]]
