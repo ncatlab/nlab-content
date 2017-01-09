@@ -32,6 +32,8 @@ There is a close relationship between
 
 This is based on the fact that in certain dimensions, [[spin group]] [[representation]]s are naturally identified with a $\mathbb{K}^n$, for $\mathbb{K}$ one of the [[normed division algebras]], see at [[spin group]] _[The exceptional isomorphisms](spin%20group#ExceptionalIsomorphisms)_.
 
+For exposition see _[[geometry of physics -- supersymmetry]]_ the section _[Real spin representations via Real alternative division algebra](geometry+of+physics+--+supersymmetry##RealSpinRepresentationViaNormedDivisionAlgebra)_.
+
 
 [[!include exceptional spinors and division algebras -- table]]
 
