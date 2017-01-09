@@ -139,10 +139,12 @@ On the other hand, there is a localic notion of *weakly closed sublocale* that i
 
 +--{: .un_defn}
 ###### Definition
-A sublocale $C\subseteq X$ is **weakly closed** if it is not [[strongly dense sublocale|strongly dense]] in any larger sublocale of $X$.  
+A sublocale $C\subseteq X$ is **weakly closed** if it is not [[strongly dense sublocale|strongly dense]] in any larger sublocale of $X$.  That is, if whenever $D$ is a sublocale of $X$ such that $C\subseteq D$ by a strongly dense inclusion, then $C=D$.
 =--
 
 Since strong and weak denseness coincide classically, so do strong and weak closedness.  And as we expect, strong closedness implies weak closedness, since strong density implies weak density.  Moreover, both of them are better-behaved than the corresponding topological notions.  For instance, strongly and weakly closed sublocales are both stable under finite unions (in the lattice of sublocales), even constructively.
+
+Both strongly and weakly closed sublocales are "correct" notions; they are simply different.  Some classical theorems about closed sublocales are constructively about strongly closed ones, while others (such as the theorem that any [[subgroup]] of a [[localic group]] is closed) are about weakly closed ones.
 
 However, as we saw above, not every strongly closed sublocale (hence not every weakly closed sublocale either) can be spatial.  But it is shown at [[strongly dense sublocale]] that a subspace of a space is localically strongly dense if and only if it is topologically strongly dense.  This leads us to guess:
 
@@ -182,6 +184,15 @@ The other direction is harder.
 
 * C. Kuratowski, _Sur l'op&#233;ration $\bar{A}$ de l'analysis situs_ , Fund. Math. **III** (1922) pp.192-195. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm3/fm3121.pdf))
 
+Weakly closed sublocales are discussed in 
+
+* [[Sketches of an Elephant]], C1.1 and C1.2
+
+* [[Peter Johnstone]], *A constructive 'closed subgroup theorem' for localic groups and groupoids*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1989),  Volume: 30, Issue: 1, page 3-23 [link](https://eudml.org/doc/91430)
+
+* M. Jibladze and [[Peter Johnstone]], *The frame of fibrewise closed nuclei*, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques (1991), Volume: 32, Issue: 2, page 99-112, [link](https://eudml.org/doc/91478)
+
+* [[Peter Johnstone]], *Fiberwise separation axioms for locales*
 
 
 [[!redirects closed subspace]]
