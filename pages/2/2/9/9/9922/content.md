@@ -13,8 +13,16 @@ A Lie algebra [[homomorphism]] $\mathfrak{g} \to end(V)$ to the [[endomorphism L
 
 ## Related concepts
 
+* [[Casimir invariant]]
+
+## Related concepts
+
 * [[group action]]
 
 * [[Lie infinity-algebroid representation]]
 
+
 [[!redirects Lie algebra representations]]
+
+[[!redirects Lie algebra action]]
+[[!redirects Lie algebra actions]]
