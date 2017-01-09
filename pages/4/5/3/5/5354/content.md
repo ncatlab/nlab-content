@@ -1,3 +1,4 @@
+[[!redirects etale site]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
