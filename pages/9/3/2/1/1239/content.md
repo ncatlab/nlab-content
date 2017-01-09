@@ -94,6 +94,8 @@ More in detail, this yields the following identifications:
 
   * [[module algebra]], [[comodule algebra]], [[Hopf action]], [[measuring]]
 
+* [[Young diagram]]
+
 * [[McKay correspondence]], [[ADE classification]]
 
 * [[geometric representation theory]]
@@ -120,6 +122,15 @@ More in detail, this yields the following identifications:
 
 ## References
  {#References}
+
+Introductions include
+
+* {#Teleman05} [[Constantin Teleman]], _Representation theory_, lecture notes 2005 ([pdf](https://math.berkeley.edu/~teleman/math/RepThry.pdf))
+
+Textbooks include
+
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
+
 
 A list of texts on representation theory is maintained at
 
