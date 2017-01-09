@@ -45,8 +45,9 @@ where
 
 The traditional way to express this in terms of components is the following.
 
-Given a [[spinor]] $\psi$, write $\overline{\psi}$ for its image under the identification $S \simeq S^\ast$  ("charge conjugation", see [here](spin+representation#PairingToVectorByChargeConjugationMatrix) or [here](Majorana%20spinor#ChargeConjugationMatrix)).
-Let $\{\Gamma^a\}$ be a [[basis]] for the give [[Clifford algebra]] [[representation]] and write, as usual, $\{\Gamma^{a_1 \cdots a_p}\}$ for the skew-symmetrized [[matrix product]] of $p$ such basis elements. Then under the above [[isomorphism]] there will be for all pairs $\psi_1, \psi_2 \in S$ of [[spinors]] an [[equation]] of the form
+Given a [[spinor]] $\psi$, write $\overline{\psi} \coloneqq \psi^\dagger \Gamma_0$ for its Dirac conjugate ([def.](Majorana+spinor#DiracConjugate)).
+
+Let $\{\Gamma^a\}$ be a [[basis]] for Dirac representation of the [[Clifford algebra]] ([prop.](Majorana+spinor#CliffordAlgebraRepresentation)) and write, as usual, $\{\Gamma^{a_1 \cdots a_p}\}$ for the skew-symmetrized [[matrix product]] of $p$ such basis elements. Then under the above [[isomorphism]] there will be for all pairs $\psi_1, \psi_2 \in S$ of [[spinors]] an [[equation]] of the form
 
 $$
   \psi_1 \otimes \overline{\psi}_2
@@ -145,7 +146,7 @@ $$
 
 On the left of the above equation we have a [[tensor product of representations|tensor product]] of [[spin representations]] which decomposes on the right into a [[direct sum]] of [[irreducible representations]]. This means that we are dealing with [[Clebsch-Gordan coefficients|Clebsch-Gordan decomposition]] of the tensor product representation into a [[direct sum]] of [[irreducible representations]].
 
-(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b). A textbook account is in [Castellani-D'Auria-Fr&#233; 91, chapter II.8](#CDF)) 
+(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b)). A textbook account is in [Castellani-D'Auria-Fr&#233; 91, chapter II.8](#CDF)) 
 
 To project out the irreps one may contract with 
 CE-elements parameterized in the form 
@@ -222,37 +223,41 @@ These computations control the existence of [[Green-Schwarz action functionals]]
 
 Named after [[Markus Fierz]].
 
-General accounts include
+The interpretation of Fierz identities as relations satisfied by [[Clebsch-Gordan coefficients]] in the [[representation ring]] of the [[spin group]] originates in
 
-* {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]]  _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([doi:10.1016/0003-4916(82)90007-0](http://dx.doi.org/10.1016/0003-4916(82)90007-0), [spire](http://inspirehep.net/record/167640/))
 
-* C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
+where it was applied to $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]).
 
-The Fierz identities that give the vanishing of trilinear and of quadratic terms in spinors in certain dimensions are discussed from the point of view of [[division algebras and supersymmetry]] in section 2.4 of
-
-* [[John Huerta]], _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
-
-The Fierz identities for $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]) have been discussed  in 
-
-* {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]], E. Maina, [[Tullio Regge]], _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([spire](inspirehep.net/record/167640?ln=eninspirehep.net/record/167640?ln=en))
-  
-
-The Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed 
+By this method the Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed in
 
 * {#DAuriaFre82a} [[Riccardo D'Auria]], [[Pietro Fré]], _Geometric Structure of $N=1, D=10$ and $N=4, D=4$ Super Yang-Mills Theory_, Nucl. Phys. B196 (1982) 205 ([spire](http://inspirehep.net/record/167639))
   
-
-and in appendix C of 
+see also appendix C of 
 
 * [[José Figueroa-O'Farrill]], Emily Hackett-Jones, George Moutsopoulos, _The Killing superalgebra of ten-dimensional supergravity backgrounds_, Class.Quant.Grav.24:3291-3308,2007 ([arXiv:hep-th/0703192](http://arxiv.org/abs/hep-th/0703192))
 
-The full Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) are tabulated on pages 12, 13 of 
+and the Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) were tabulated in 
 
-* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 o _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
  
-See also
+see also
 
 * S. Naito, K. Osada, T. Fukui, _Fierz Identities and Invariance of Eleven-dimensional Supergravity Action_, Phys.Rev. D34 (1986) 536-552 ([spire](http://inspirehep.net/record/236376/?ln=de))
+
+A textbook account of the representation ring method and summary of these results is in
+
+* {#CDF} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], chapter II.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+See also
+
+* C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
+
+
+From the point of view of [[division algebras and supersymmetry]]
+the Fierz identities that give the vanishing of trilinear and of quadratic terms in spinors in certain dimensions are discussed in
+
+* [[John Huerta]], section 2.4 _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
 
 [[!redirects Fierz identities]]
