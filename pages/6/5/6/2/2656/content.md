@@ -18,11 +18,11 @@
 
 Young diagrams are used to describe many objects in algebra and combinatorics, including:
 
-* integer partitions.  For example, the integer partition 
+* integer [[partitions]].  For example, the integer partition 
 
-$$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
+  $$ 17 = 5 + 4 + 4 + 2 + 1 + 1 $$ 
 
-is drawn as the Young diagram
+  is drawn as the Young diagram
 
 +-- {: #Young style="text-align:center"}
 <svg width="120" height="140" xmlns="http://www.w3.org/2000/svg" se:nonce="39384" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -51,19 +51,21 @@ is drawn as the Young diagram
 </svg>
 =--
 
-* conjugacy classes in $S_n$.
+* [[conjugacy classes]] in $S_n$.
 
-* irreducible representations of the [[symmetric group|symmetric groups]] $S_n$ over any field of characteristic zero
+* [[irreducible representations]]:
 
-* irreducible algebraic representations of the [[special linear group|special linear groups]] $SL(N,\mathbb{C})$
+  * [[irreducible representations]] of the [[symmetric groups]] $S_n$ over any field of characteristic zero
 
-* irreducible unitary representations of the [[special unitary group|special unitary groups]] $SU(N)$
+  * [[irreducible representations|irreducible]] (algebraic) representation of the [[special linear groups]] $SL(N,\mathbb{C})$
 
-* elementary [[symmetric functions]]
+  * [[irreducible representation|irreducible]] [[unitary representations]] of the [[special unitary group|special unitary groups]] $SU(N)$
+
+* [[elementary symmetric functions]]
 
 * [[Schur functors]]
 
-* basis vectors for the free [[lambda-ring]] on one generator, $\Lambda$
+* [[linear basis|basis]] vectors for the free [[lambda-ring]] on one generator, $\Lambda$
 
 * [[flag varieties]] for the [[special linear groups]] $SL(N,k)$, where $k$ is any field
 
@@ -71,11 +73,11 @@ is drawn as the Young diagram
 
 * [[characteristic classes]] for hemitian vector bundles: that is, [[cohomology]] classes on the [classifying spaces]] of the [[unitary groups]] $U(N)$
 
-* finite-dimensional C${}^*$-algebras: any such algebra is of the form $M_{n_1}(\mathbb{C}) \oplus \cdots \oplus M_{n_k}(\mathbb{C})$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
+* finite-dimensional [[C*-algebras]]: any such algebra is of the form $M_{n_1}(\mathbb{C}) \oplus \cdots \oplus M_{n_k}(\mathbb{C})$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
 
-* finite abelian $p$-groups: any such group is of the form $\mathbb{Z}/p^{n_1} \oplus \cdots \oplus \mathbb{Z}/p^{n_k}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
+* finite [[abelian group|abelian]] [[p-groups]]: any such group is of the form $\mathbb{Z}/p^{n_1} \oplus \cdots \oplus \mathbb{Z}/p^{n_k}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
 
-* finite commutative semisimple algebras over $\mathbb{F}_p$: any such algebra is of the form $\mathbb{F}_{p^{n_1}} \oplus \cdots \oplus \mathbb{F}_{p^{n_k}}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
+* finite [[commutative algebra|commutative]] [[semisimple algebras]] over a [[prime field]] $\mathbb{F}_p$: any such algebra is of the form $\mathbb{F}_{p^{n_1}} \oplus \cdots \oplus \mathbb{F}_{p^{n_k}}$ for some unique list of natural numbers $n_1 \ge n_2 \ge \cdots \ge n_k$.
 
 * the [[trace of a category|trace of the category of finite sets]] has isomorphism classes of objects corresponding to Young diagrams.
 
@@ -181,11 +183,13 @@ For a quick online introduction to Young diagrams, try:
 
 A nice introduction to Young diagrams can be found here:
 
-* William Fulton and Joe Harris, _Representation Theory: a First Course_, Springer, Berlin, 1991.
+* {#FultonHarris91} [[William Fulton]], [[Joe Harris]], _Representation Theory: a First Course_, Springer, Berlin, 1991 ([pdf](http://isites.harvard.edu/fs/docs/icb.topic1381051.files/fulton-harris-representation-theory.pdf))
 
-A more detailed reference is:
+More details are in 
 
-* William Fulton, _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
+* [[William Fulton]], _Young Tableaux, with Applications to Representation Theory and Geometry_, Cambridge U. Press, 1997.
+
+* Kazuhiko Koike, Itaru Terada, _Young-diagrammatic methods for the representation theory of the classical groups of type $B_n$, $C_n$, $D_n$_,  Journal of Algebra, Volume 107, Issue 2, May 1987, Pages 466-511
 
 A connection to algebraic geometry:
 
