@@ -51,7 +51,7 @@ The definition originates in and a discussion of [[categorical semantics]] of [[
 
 An exposition is in 
 
-* {#Shulman12a} [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](http://www.math.ias.edu/~mshulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
+* {#Shulman12a} [[Mike Shulman]], _[Minicourse on Homotopy Type Theory](https://home.sandiego.edu/~shulman/hottminicourse2012/)_ part 3, _Categorical models of homotopy type theory_, April 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
 * {#Cisinski14} [[Denis-Charles Cisinski]], _Univalent universes for elegant models of homotopy types_ ([arXiv:1406.0058](http://arxiv.org/abs/1406.0058))
 
