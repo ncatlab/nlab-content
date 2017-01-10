@@ -527,7 +527,7 @@ Removing the terms involving $\omega$ here this is the [[super translation algeb
 
 =--
 
-In this way the super-Poincar&#233; Lie algebra and its extensions is usefully discussed for instance in ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and in ([Azc&#225;rraga-Townsend 89](AzcarragaTownsend89), [CAIB 99](#CAIB99)). In much of the literature instead the following equivalent notation is popular, which more explicitly involves the [[coordinates]] on [[super Minkowski space]].
+In this way the [[super-Poincaré Lie algebra]] and its extensions is usefully discussed for instance in ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and in ([Azc&#225;rraga-Townsend 89](#AzcarragaTownsend89), [CAIB 99](#CAIB99)). In much of the literature instead the following equivalent notation is popular, which more explicitly involves the [[coordinates]] on [[super Minkowski space]].
 
 +-- {: .num_remark }
 ###### Remark
