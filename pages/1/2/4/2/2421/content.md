@@ -170,6 +170,24 @@ The super-translation group is the $(1|1)$-dimensional case of the [[super Eucli
 
 ...
 
+## Finite super-groups
+
+There is a finite analogon for super-groups that does not quite fit in the framework presented here:
+
++-- {: .num_defn}
+###### Definition
+
+A finite super-group is a tuple $(G, z)$, where $G$ is a finite group and $z$ is central and squares to $1$.
+
+The representations of a finite super-group are $\mathbb{Z}_2$-graded:
+An irreducible representation has odd degree if $z$ acts by negation, and even degree if it acts as the identity.
+
+This definition is found e.g. in:
+
+* Paul Bruillard, Cesar Galindo, Tobias Hagge, Siu-Hung Ng, Julia Yael Plavnik, Eric C. Rowell, Zhenghan Wang, _Fermionic Modular Categories and the 16-fold Way_ ([pdf] (https://arxiv.org/pdf/1603.09294v2))
+
+=--
+
 ## Properties
 
 ### Representations, Tannaka duality and Deligne's theorem
@@ -194,6 +212,7 @@ Discussion of [[group extensions]] of supergroups includes
 Discussion as Hopf-superalgebras includes
 
 * Nicol&#225;s Andruskiewitsch, Iv&#225;n Angiono, Hiroyuki Yamane, _On pointed Hopf superalgebras_, Contemp. Math. vol. 544, pp. 123--140, 2011 ([arXiv:1009.5148](https://arxiv.org/abs/1009.5148))
+
 
 [[!redirects supergroups]]
 
