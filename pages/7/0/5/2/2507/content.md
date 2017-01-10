@@ -23,11 +23,11 @@
 
 ## Idea
 
-Super-Minkowski spacetime is a [[super spacetime]] which is an analog in [[supergeometry]] of ordinary [[Minkowski spacetime]]. It is a [[super Cartesian space]] whose odd coordinates form a real [[spinor representation]].
+Super-Minkowski spacetime is a [[super spacetime]] which is an analog in [[supergeometry]] of ordinary [[Minkowski spacetime]]. It is a [[super Cartesian space]] whose odd coordinates form a [[real spin representation]].
 
 ## Definition 
 
-Ordinary $(d+1)$-dimensional [[Minkowski space]] may be understood as the  quotient $Iso(\mathbb{R}^{d-1,1})/(SO(d,1))$ of the [[Poincare group]] by the [[Lorentz group]] -- the [[translation group]].
+Ordinary $(d+1)$-dimensional [[Minkowski space]] may be understood as the  quotient $Iso(\mathbb{R}^{d-1,1})/(Spin(d-1,1))$ of the [[Poincare group]] by the [[spin group]] cover of  [[Lorentz group]] -- the [[translation group]].
 
 Analogously, the for each real irreducible [[spin representation]] $N$ the
 $dim(N)$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]] of the [[super Poincaré group]] by the corresponding [[spin group]]
@@ -76,7 +76,9 @@ $$
 and
 
 $$
-  d_{CE} \, e^{a } = \omega^a{}_b \wedge e^b + \overline{\psi} \Gamma^a \psi
+  d_{CE} \, e^{a } 
+    = 
+   \omega^a{}_b \wedge e^b + \overline{\psi} \wedge \Gamma^a \psi
 $$
 
 where on the right we have the spinor-to-vector pairing in $N$ ([def.](Majorana+spinor#SpinorToVectorBilinearPairing)).
@@ -90,13 +92,13 @@ In this way the [[super-Poincaré Lie algebra]] and its extensions is usefully d
 +-- {: .num_remark }
 ###### Remark
 
-The abstract generators in def. \ref{CEAlgebraOfSuperPoincare} are identified with [[left invariant 1-forms]] on the [[super-translation group]] (= [[super Minkowski space]]) as follows.
+The abstract generators in def. \ref{CEAlgebraOfSuperPoincare} are identified with [[left invariant 1-forms]] on the [[super-translation group]] (= super Minkowski spacetime) as follows.
 
-Let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d|N}$ underlying the super translation group. Then the identification is 
+Let $N$ be a [[real spin representation]] and let $(x^a, \theta^\alpha)$ be the canonical [[coordinates]] on the [[supermanifold]] $\mathbb{R}^{d-1,1\vert N}$ underlying the super-Minkowski super translation group. Then the canonical [[super vielbein]] is the $\mathbb{R}^{d-1,1\vert N}$-valued [[super differential form]] with components
 
-* $\psi^\alpha = d \theta^\alpha$.
+* $\psi^\alpha \coloneqq \mathbf{d} \theta^\alpha$.
 
-* $e^a = d x^a + \frac{i}{2} \overline{\theta} \Gamma^a d \theta$.
+* $e^a \coloneqq \mathbf{d} x^a + \overline{\theta} \Gamma^a \mathbf{d} \theta$.
 
 Notice that this then gives the above formula for the differential of the [[super-vielbein]] in def. \ref{CEAlgebraOfSuperPoincare} as
 
