@@ -19,7 +19,7 @@ The [[mechanics]] of _rigid bodies_ in [[Cartesian space]].
 
 Up to the dynamics of the [[center of mass]], this is the special case of [[Hamiltonian dynamics on Lie groups]] for the case of the [[special orthogonal group]] $SO(n)$.
 
-Often this is considered (only) for $n = 3$, which is the case pertaining to rigid bodys in observable nature.
+Often this is considered (only) for $n = 3$, which is the case pertaining to rigid bodies in observable nature.
 
 ## Related concepts
 
