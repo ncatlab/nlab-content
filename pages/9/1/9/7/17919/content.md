@@ -30,7 +30,7 @@ $$\mathcal{C} \simeq \bigoplus_{g \in G} \mathcal{C}_g$$
 +-- {: .num_defn}
 ###### Definition
 
-A **graded fusion category** is a fusion category with a chosen $G$-grading for some group, such that the monoidal product maps $\mathcal{C}_g \times \mathcal{C}_h$ into $\mathcal{C}_{gh}$.
+A **graded fusion category** is a fusion category with a chosen $G$-grading for some group, such that the monoidal product maps $\mathcal{C}_g \times \mathcal{C}_h$ into $\mathcal{C}_{g h}$.
 
 =--
 
