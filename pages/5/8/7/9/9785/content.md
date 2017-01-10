@@ -118,9 +118,9 @@ In their global form, where differential forms are replaced by their de Rham coh
 
 * {#AGIT89} [[José de Azcárraga]], [[Jerome Gauntlett]], J.M. Izquierdo, [[Paul Townsend]], _Topological Extensions of the Supersymmetry Algebra for Extended Objects_, Phys.Rev.Lett. 63 (1989) 2443 ([spire](https://inspirehep.net/record/26393?ln=en))
 
-reviewed in section 8.8. of 
+reviewed in 
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.8 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
 
 
 The generalization of this including also the contribution of the [[M5-brane]] was considered in
