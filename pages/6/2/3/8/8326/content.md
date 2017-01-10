@@ -7398,7 +7398,7 @@ Further references referred to in the context of the formalization discussed [ab
 
 * {#Shulman12a} [[nLab:Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, 2014 ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
 
-* {#Shulman12b} [[nLab:Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/04induction.pdf))
+* {#Shulman12b} [[nLab:Mike Shulman]], _Inductive and higher inductive types_ (2012) ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/04induction.pdf))
 
 
 * {#Shulman14} [[nLab:Michael Shulman]], _[[homotopytypetheory:model of type theory in an (infinity,1)-topos]]_
