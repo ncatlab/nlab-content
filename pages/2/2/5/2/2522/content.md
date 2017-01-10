@@ -119,6 +119,400 @@ Moreover, since various observables in supersymmetric QFTs are easier to compute
 
 Therefore, if nothing else, supersymmetric quantum field theories constitute a part of the whole space of quantum field theories which is useful for understanding general properties of that space. What is however still missing is any experimental evidence that the world is fundamentally described by a supersymmetric quantum field theory.
 
+## Definition
+
+
+We start by saying what it means, in generality, to have a supersymmetric extension of an ordinary symmetry.
+Here we are concerned with [[symmetry groups]] that are [[Lie groups]], and we start by considering
+only the infinitesimal approximation, hence their [[Lie algebras]].
+
+To discuss super-extensions of Lie algebras, recall from _[[geometry of physics -- supergeometry]]_ the concept of _[[super Lie algebras]]_:
+
++-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
+###### Definition
+
+A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
+Hence this is
+
+1. a [[super vector space]] $\mathfrak{g}$;
+
+1. a homomorphism
+
+   $$
+     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
+   $$
+
+   of super vector spaces (the _super Lie bracket_)
+
+such that
+
+1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g}
+         &
+           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
+         &
+       \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
+       \\
+       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
+     }
+   $$
+
+   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
+
+1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       &&
+         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
+       &&
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       \\
+       && \mathfrak{g}
+     }
+     \,.
+   $$
+
+=--
+
+Externally this means the following:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
+
+1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a [[bilinear map]] (the _super Lie bracket_)
+
+   $$
+     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
+which preserves the Lie bracket. We write
+
+$$
+  sLieAlg
+$$
+
+for the resulting [[category]] of super Lie algebras.
+
+=--
+
+Some obvious but important classes of examples are the following:
+
++-- {: .num_example #SuperVectorSpaceAsAbelianSuperLieAlgebra}
+###### Example
+
+every $\mathbb{Z}/2$-[[graded vector space]] $V$ becomes a
+[[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+by taking the super Lie bracket to be the [[zero morphism|zero map]]
+
+$$
+  [-,-] = 0
+  \,.
+$$
+
+These may be called the "abelian" super Lie algebras.
+
+=--
+
+
++-- {: .num_example #OrdinaryLieAlgebraAsSuperLieAlgebra}
+###### Example
+
+Every ordinary [[Lie algebras]] becomes a [[super Lie algebra]]
+(def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional})
+concentrated in even degrees. This constitutes a [[fully faithful functor]]
+
+$$
+  LieAlg \hookrightarrow sLieAlg
+  \,.
+$$
+
+which is a  [[coreflective subcategory]] inclusion in that it has a [[left adjoint]]
+
+$$
+  LieAlg
+    \underoverset
+     {\underset{ \overset{ \rightsquigarrow}{(-)} }{\longleftarrow}}
+     {\hookrightarrow}
+     {\bot}
+  sLieAlg
+$$
+
+given on the underlying super vector spaces by restriction to the even graded part
+
+$$
+  \overset{\rightsquigarrow}{\mathfrak{s}} = \mathfrak{s}_{even}
+  \,.
+$$
+
+=--
+
+Using this we may finally say what a super-extension is supposed to be:
+
++-- {: .num_defn #SuperExtensions}
+###### Definition
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a _super-extension_  of $\mathfrak{g}$
+is [[super Lie algebra]] $\mathfrak{s}$ (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}) equipped with a [[monomorphism]] of the form
+
+$$
+  i \;\colon\; \mathfrak{g} \hookrightarrow  \mathfrak{s}
+$$
+
+(where $\mathfrak{g}$ is regarded as a super Lie algebra according to example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
+
+such that this is an [[isomorphism]] on the even part (example \ref{OrdinaryLieAlgebraAsSuperLieAlgebra})
+
+$$
+  \overset{\rightsquigarrow}{i}
+    \;\colon\;
+  \mathfrak{g} \overset{\simeq}{\longrightarrow} \mathfrak{s}_{even}
+  \,.
+$$
+
+
+
+=--
+
+
+We now make explicit structure involved in super-extensions of Lie algebras:
+
++-- {: .num_prop #DataInSuperExtension}
+###### Proposition
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then a choice of super-extension
+$\mathfrak{g} \hookrightarrow \mathfrak{s}$ according to def. \ref{SuperExtensions}
+is equivalently the following data:
+
+1. a [[vector space]] $S$;
+
+1. a Lie action of $\mathfrak{g}$ on $S$, hence a Lie algebra homomorphism
+
+   $$
+     \rho_{(-)} : \mathfrak{g} \longrightarrow \mathfrak{gl}(S)
+   $$
+
+   from $\mathfrak{g}$ to the [[endomorphism Lie algebra]] of $S$;
+
+1. a symmetric [[bilinear map]]
+
+   $$
+     (-,-) \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
+   $$
+
+such that
+
+1. the pairing is $\mathfrak{g}$-equivariant in that for all $t \in \mathfrak{g}$ then
+
+   $$
+     \rho_{t}(-,-) = (\rho_t(-),(-)) + (-,\rho_t(-))
+   $$
+
+1. the pairing satisfies
+
+   $$
+     \rho_{(\phi,\phi)}(\phi) = 0
+     \,.
+   $$
+
+   and possibly further conditons. A sufficient condition on the pairing such that the above
+data defines a super-extension of $\mathfrak{g}$ is that all the elements in the image of the pairing act trivially on all elements, i.e.
+that
+
+$$
+  \rho_{(\phi,\psi)} = 0
+$$
+
+for all $\phi,\psi \in S$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition of super-extension, the underlying super vector space of $\mathfrak{s}$ is necessarily of the form
+
+$$
+  \mathfrak{s}_{even} = \underset{\mathfrak{s}_{even}}{\underbrace{\mathfrak{g}}} \oplus \underset{\mathfrak{s}_{odd}}{\underbrace{S}}
+$$
+
+for some vector space $S$.
+
+Moreover the super Lie bracket on $\mathfrak{s}$ restrict to that of $\mathfrak{g}$ when restricted to  $\mathfrak{g} \otimes_{k}\mathfrak{k}$
+and otherwise constitutes
+
+1. a bilinear map
+
+   $$
+     \rho_{(-)}(-) \coloneqq [-,-]\vert_{\mathfrak{s}_{even}\oplus \mathfrak{s}_{odd}} \;\colon\; \mathfrak{g} \otimes_k S \longrightarrow S
+   $$
+
+1. a symmetric bilinear map
+
+   $$
+     (-,-) \coloneqq [-,-]\vert_{\mathfrak{s}_{odd} \oplus \mathfrak{s}_{odd}} \;\colon\; S \otimes_k S \longrightarrow \mathfrak{g}
+     \,.
+   $$
+
+This yields the claimed [[stuff, structure, property|structure]]. The claimed [[stuff, structure, property|properties]]
+of these linear maps are now just a restatement of the super-Jacobi identity in terms of this data:
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even}$ is equivalently the Jacobi identity in $\mathfrak{g}$ and hence is no new constraint;
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}$ says that for $t_1,t_2 \in \mathfrak{g}$ and $\phi \in S$ then
+
+   $$
+     \rho_{t_1}( \rho_{t_2}(\phi) ) = \rho_{[t_1,t_2]}(\phi) + \rho_{t_1}( \rho_{t_2}(\phi) )
+     \,.
+   $$
+
+   This is equivalent to
+
+   $$
+     \rho_{t_1} \circ \rho_{t_2} - \rho_{t_2} \circ \rho_{t_1} = \rho_{[t_1,t_2]}
+   $$
+
+   which means equivalently that $\rho_{(-)}$ is a Lie algebra homomorphism from $\mathfrak{g}$ to the
+   [[endomorphism Lie algebra]] of $S$.
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{even} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ says that for $t \in \mathfrak{g}$ and $\phi,\psi \in S$ then
+
+   $$
+     \rho_{t}(\phi,\psi) = (\rho_t(\phi), \psi) + (\phi, \rho_t(\psi))
+     \,.
+   $$
+
+   This is exactly the claimed $\mathfrak{g}$-equivariance of the pairing.
+
+1. The restriction of the super Jacobi identity of $\mathfrak{s}$ to $\mathfrak{s}_{odd} \otimes_k \mathfrak{s}_{odd}  \otimes_k \mathfrak{s}_{odd}$ implies that for all $\psi \in S$ that
+
+   $$
+     [\psi,(\psi,\psi)] = [ (\psi,\psi), \psi  ] - [\psi, (\psi, \psi)]
+   $$
+
+   and hence that
+
+   $$
+     [(\psi,\psi),\psi] =  \rho_{(\psi,\psi)}(\psi) = 0
+     \,.
+   $$
+
+   Conversely, it is clear that if for all $\phi, \psi, \zeta \in S$ we have
+
+   $$
+     [(\phi,\psi), \zeta] = 0
+   $$
+
+   then the super-Jacobi identity on three odd-graded elements is implied.
+
+
+=--
+
++-- {: .num_example #TrivialSuperExtension}
+###### Example
+
+Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then for every choice of [[vector space]] $V$
+there is the _trivial_ super extension (def. \ref{SuperExtensions}) of $\mathfrak{g}$, with underlying
+vector space
+
+$$
+  \mathfrak{s} \coloneqq \mathfrak{g} \oplus S
+$$
+
+and with both the action and the pairing (via prop. \ref{DataInSuperExtension}) trivial:
+
+$$
+  \rho = 0
+$$
+
+and
+
+$$
+  (-,-) = 0
+  \,.
+$$
+
+
+=--
+
+The key example of interest now is going to be this:
+
++-- {: .num_example #SuperExtensionOfPoincare}
+###### Example
+
+For $d \in \mathbb{N}$, a super extension (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]]
+$\mathfrak{iso}(\mathbb{R}^{d-1,1})$ (recalled as def. \ref{PoincareLieAlgebra} below)
+which is non-trvial (def. \ref{TrivialSuperExtension}) is obtained from the following data:
+
+1. a [[Lie algebra representation]] $\rho$ of $\mathfrak{so}(d-1,1)$ on some [[real vector space]] $S$;
+
+1. an $\mathfrak{so}$-equivariant symmetric $\mathbb{R}$-[[bilinear map|bilinear pairiing]] $(-,-) \colon S \otimes_k S \to \mathbb{R}^{d-1,1}$
+
+It turns out that data as in example \ref{SuperExtensionOfPoincare} is given for $\rho$ the Lie algebra version of a [[real spin representation]] of the [[spin group]] $Spin(d-1,1)$ (see [this prop](geometry+of+physics+--+superymmetry#SpinorToVectorPairing)). These are introduced and discussed at _[[geometry of physics -- supersymmetry]]_ in the section _[Real spin representations](geometry+of+physics+--+superymmetry##RealSpinRepresentations)_.
+
+The super-extensions of the [[Poincaré Lie algebra]] induced by
+[[real spin representations]] this was are called _[[super Poincaré Lie algebras]]_ (def. \ref{SuperMinkowskiSpacetime}) below.
+These are the standard _[[supersymmetry]] algebras_ in the physics literature.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+By prop. \ref{DataInSuperExtension} the data in example \ref{SuperExtensionOfPoincare} is sufficient for
+producing super-extensions (in the sense of def. \ref{SuperExtensions}) of [[Poincaré Lie algebras]], namely the
+[[super Poincaré Lie algebras]].
+It is more subtle to see whether this is also _necessary_, or whether there could be exotic super-extensions,
+in the sense of def. \ref{SuperExtensions},
+where the spinor bilinear pairing takes values not just in $\mathbb{R}^{d-1,1}$, but also has
+components in the summand $\mathfrak{so}(d-1,1)$.
+
+At this point the existing literature appeals to the
+_[[Haag–Łopuszański–Sohnius theorem]]_. This does rule out such exotic super-extensions, but only
+after introducing more conditions, such as the condition that $P_a P^a$ remains a [[Casimir operator]]
+after super-extension, and more. These conditions are well motivated from the expected symmetry-behaviour of
+[[S-matrices]] in [[field theory]]. But it would still be interesting to find the purely mathematical
+classification of the super-extensions.
+
+At _[[geometry of physics -- supersymmetry]]_ in the section _[supersymmetry from the superpoint](geometry+of+physics+--+superymmetry##SupersymmetryFromTheSuperpoint)_ we disucss something at least
+related. The [[super Poincaré Lie algebras]] at least in certain dimensions are singled out from a different perspective:
+they are precisely the result of iterative maximal invariant [[central extensions]] of the superpoint.
+
+=--
+
+
 ## Properties
 
 ### Classification
