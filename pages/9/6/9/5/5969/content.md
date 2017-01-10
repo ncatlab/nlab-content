@@ -273,7 +273,7 @@ Higher conserved currents are discussed for instance in
 
 Conserved currents for Lagrangians written as [[WZW terms]] are discussed in
 
-* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.1 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.1 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_ , Cambridge monographs of mathematical physics, (1995)
 
 Building on that, in the context of [[higher prequantum geometry]] conserved currents of the [[WZW model]] and in [[schreiber:∞-Wess-Zumino-Witten theory]] are briefly indicated on the last page of
 
