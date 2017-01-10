@@ -21,199 +21,62 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that re-express [[bilinear map|bilinears]] in [[spinors]] in terms of elements of the corresponding [[Clifford algebra]]. The [[coefficients]] of this Fierz decomposition are hence effectively the [[Clebsch-Gordan coefficients]] for [[spin representations]].
-
-In practice the Fierz identities are mostly relevant for checking whether certain spinor trilinear or quadrilinear expressions vanish identically.
-
-## Definition
-
-Given an [[irreducible representation|irreducible]] [[complex numbers|complex]] [[spinor representation]] $S$ of the [[spin group]] $Spin(V)$ and equipped with a [spinor metric](spin+representation#SpinorMetric), what are called _Fierz identities_ are the [[equations]] that express the composite [[isomorphism]]
+What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzain spacetime dimension 4,5,6, 11, then the following identity holds
 
 $$
-  S \otimes S \simeq S \otimes S^\ast \simeq End(S) \subset Cl(V)
-$$
-
-where 
-
-1. $S \otimes S$  is the [[tensor product]] of the [[vector space]] $S$ with itself;
-
-1. the first isomorphism is induced by the [spinor metric](spin+representation#SpinorMetric), which is equivalently an identification $S \simeq S^\ast$ of $S$ with its [[dual vector space]];
-
-1.  the second isomorphism is the canonical one to the [[endomorphism ring]] of $S$ (using that [[FinVect]] is a [[compact closed category]] );
-
-1. the last inclusion uses the fact that by the [classification of Clifford algebras](Clifford+algebra#Classification) on an [[irreducible representation|irreducible]] [[spinor representation]] the [[endomorphism ring]] is in fact included in the [[Clifford algebra]].
-
-The traditional way to express this in terms of components is the following.
-
-Given a [[spinor]] $\psi$, write $\overline{\psi} \coloneqq \psi^\dagger \Gamma_0$ for its Dirac conjugate ([def.](Majorana+spinor#DiracConjugate)).
-
-Let $\{\Gamma^a\}$ be a [[basis]] for Dirac representation of the [[Clifford algebra]] ([prop.](Majorana+spinor#CliffordAlgebraRepresentation)) and write, as usual, $\{\Gamma^{a_1 \cdots a_p}\}$ for the skew-symmetrized [[matrix product]] of $p$ such basis elements. Then under the above [[isomorphism]] there will be for all pairs $\psi_1, \psi_2 \in S$ of [[spinors]] an [[equation]] of the form
-
-$$
-  \psi_1 \otimes \overline{\psi}_2
-  =
-  \sum_p c_p   \left(\overline{\psi_2}\Gamma^{a_1 \cdots a_p} \psi_1\right)
-  \,
-  \Gamma_{a_1 \cdots a_p}
-  \,,
-$$
-
-where $c_p \in \mathbb{R}$ is some [[coefficient]], expressing the [[endomorphism]] of pairing with $\psi_2$ and then spitting out $\psi_1$ as a [[linear combination]] of the [[endomorphisms]] $\Gamma^{a_1 \cdots a_p}$.
-
-This equation is, once the [[coefficients]] $c_p$ have been determined, the _Fierz identity_. The coefficients $c_p$ are effectively given by spinorial [[Clebsch-Gordan coefficients]], see [below](#AsSpinorialClebschGordanCoefficients) for more on this.
-
-Often this is expressed after acting with the endomorphisms on a third chosen [[spinor]] $\psi_3$, in which case the Fierz identity reads
-
-$$
-  \left(\overline{\psi}_2 \psi_3\right) \psi_1  
-  =
-  \sum_p c_p   \left(\overline{\psi_2}\Gamma^{a_1 \cdots a_p} \psi_1\right)
-  \,
-  \Gamma_{a_1 \cdots a_p}\psi_3
-  \,.
-$$
-
-## Applications
-
-### Expression of spinor quadrilinears
-
-The Fierz identities are typically used in order to re-express
-quadrilinear terms of four [[spinors]] of the form
-
-$$
-  \left(
-    \overline{\psi_1}\Gamma^{a_1 \cdots a_{p_1}} \psi_2
-  \right)
-  \left(
-    \overline{\psi_3}\Gamma^{b_1 \cdots b_{p_2}} \psi_4
-  \right) 
-$$
-
-by applying the identity to the pair $\psi_2 \otimes \overline{\psi_3}$ in the middle.
-
-### For Chevalley-Eilenberg elements of supersymmetry algebras
- {#CEElementsInSupersymmetryAlgebra}
-
-Let $S$ be a suitable real [[spinor representation]]
-which induces a [[super Poincaré Lie algebra]] $\mathfrak{siso}_S(d-1,1)$ with corresponding [[super translation Lie algebra]] ("[[super Minkowski spacetime]]") $\mathbb{R}^{d-1,1; S}$. See at _[[Majorana spinor]]_.
-
-The corresponding [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1;S})$ is generated from the [[vielbein]] ("[[graviton]]") generators 
-
-$$
-  e^a \in CE^{(1,even)}(\mathbb{R}^{d-1,1;S})
-$$ 
-
-and the "[[gravitino]]" generators 
-
-$$
-  \psi^\alpha \in CE^{(1,odd)}(\mathbb{R}^{d-1,1;S})
-$$
-
-where the index ${}^a$ labels a chosen [[basis]] of $V$ and the index ${}^\alpha$ a chosen basis of $S$.
-
-Now the Fierz identities are [[equations]] in the [[Chevalley-Eilenberg algebra]] of the form
-
-$$
-  \psi \wedge \overline{\psi}
-  = 
-  \sum_p c_p  
-   \left(
-     \overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma \psi
-   \right)
-   \,
-   \Gamma_{a_1 \cdots a_p}
-$$
-
-or rather, with all indices shown
-
-$$
-  \psi^\alpha \wedge \overline{\psi}_\beta
-  = 
-  \sum_p c_p  
-   \left(
-     \overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma \psi
-   \right)
-   \,
-   \Gamma_{a_1 \cdots a_p}{}^{\alpha}{}_\beta
-  \;\;\;\;
-  \in CE^{(2,even)}(\mathbb{R}^{d-1,1;S})
-  \,.
-$$
-
-
-### As spinorial Clebsch-Gordan coefficients
- {#AsSpinorialClebschGordanCoefficients}
-
-On the left of the above equation we have a [[tensor product of representations|tensor product]] of [[spin representations]] which decomposes on the right into a [[direct sum]] of [[irreducible representations]]. This means that we are dealing with [[Clebsch-Gordan coefficients|Clebsch-Gordan decomposition]] of the tensor product representation into a [[direct sum]] of [[irreducible representations]].
-
-(This perspective on the Fierz identities was maybe first amplified and put to used in ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82)), see also ([D'Auria-Fr&#233; 82a](#DAuriaFre82a), [D'Auria-Fr&#233; 82b](#DAuriaFre82b)). A textbook account is in [Castellani-D'Auria-Fr&#233; 91, chapter II.8](#CDF)) 
-
-To project out the irreps one may contract with 
-CE-elements parameterized in the form 
-
-$$
-  \Gamma_{a_1 \cdots a_{k}} \psi
-  \in
-  CE^{(1,odd)}(\mathbb{R}^{d-1,1;S})
-  \,.
-$$
-
-This gives the Fierz identities in the form
-
-$$
-  \psi \wedge 
-   \left(\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi\right)
-   = 
-  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
-   \wedge \Gamma_{a_1 \cdots a_p}\psi
-  \,,
-$$
-
-which with indices shown is
-
-$$
-  \psi^\alpha \wedge 
-   \left(\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi\right)
-  = 
-  \sum_p c_p  (\overline{\psi}\wedge \Gamma^{a_1 \cdots a_p} \Gamma)
-   \wedge \left(\Gamma_{a_1 \cdots a_p}\psi\right)^\alpha
-  \;\;\;
-  \in CE^{(3,odd)}(\mathbb{R}^{d-1,1;S})
-  \,.
-$$
-
-
-### For computation of supersymmetric cohomology
-
-A degree $(2,p)$-element of its [[Chevalley-Eilenberg algebra]] which is [[Lorentz group|Lorentz]] invariant is of the form
-
-$$
-  \mu \coloneqq \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p}\psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
-  \,.
-$$
-
-The CE-[[differential]] sends this to
-
-$$
-  \begin{aligned}
-  d_{CE}\mu 
-  &= 
-  d_{CE}
-  \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p}\psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_p}
-   \\
-   & \propto
-  \left(\overline{\psi} \wedge \Gamma^{a_1 \cdots a_p}\psi \wedge e_{a_1} \wedge \cdots \wedge e_{a_{p-1}}\right)
+  \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
   \wedge
-  \left(
-    \overline{\psi}\wedge \Gamma_{a_p} \psi
-  \right)   
+  \left(\overline{\psi} \wedge \Gamma^b \psi\right)
+  \;=\;
+  0  
   \,.
-  \end{aligned}
 $$
 
-If the right hand side vanishes, then $\mu$ is a [[super Lie algebra|super]] [[Lie algebra cocycle]], and this is entirely controled by the Fierz identity applied the middle term $\psi \wedge \overline{\psi}$ and the symmetry properties of the [[Clifford algebra]] elements.
+(Here $\overline{(-)}$ denotes the Majorana conjugate, $\Gamma_a$ are a Clifford representations, the "$\wedge$"-signs denotes symmetrization in the spinor components and summation over repeated indices is understood. The details of this are discussed below.)
 
-These computations control the existence of [[Green-Schwarz action functionals]] and hence [[schreiber:The brane bouquet]]. See there for more.
+In [D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82) it was pointed out that all Fierz identities may be understood as expressing the product operation in the [[representation ring]] of the [[spin group]] (in some given dimension): for $\{S_i\}_{i \in I}$ denoting [[isomorphism classes]] of [[irreducible representations|irreducible]] [[spin representations]], then, by definition of [[irreps]], their [[tensor product of representations]] decomposes again as a [[direct sum]] of [[irreducible representations]]
+
+$$
+  S_i \otimes S_j  = \underset{k}{\oplus} C_{i j}{}^k S_k
+$$
+
+with "[[Clebsch-Gordan coefficients]]" $C_{i j}{}^k$. These coefficients are effectively the Fierz identities.
+
+For example for Lorentzian dimension 11 with $(\tfrac{1}{2})^5$ denoting the unique irreducible [[Majorana spinor]] representation, then one finds ([D'Auria-Fr&#233; 82b, section 3](#DAuriaFre82b)) that the symmetric part in the quadruple tensor product of this representation with itself decomposes as a direct sum of irreps as follows
+
+$$
+  \left\{
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+  \right\}_{sym}
+   \;\simeq\;
+  (0)^5
+    \;\oplus\;
+  (1)^3 (0)^2
+    \;\oplus\;
+  (1)^4 (0)
+    \;\oplus\;
+  (1)^5 
+    \;\oplus\;
+  (2) (0)^4
+    \;\oplus\;
+  (2)(1)(0)^3
+    \;\oplus\;
+  (2)^2 (0)^3
+    \;\oplus\;
+  (2)^2 (1)^3
+    \;\oplus\;
+  (2)^5
+$$
+
+where the symbols refer to [[Young diagrams]] canonically labeling representations. The point is that the expression $  \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right) \wedge \left(\overline{\psi} \wedge \Gamma^b \psi\right)$ from above is a spinor quadrilinear which transforms in the vector representation $(1)(0)^4$ (due to its one free spacetime index). But that vector representation $(1)(0)^4$ is missing from the [[direct sum]] above, meaning that the spinor quadrilinear has vanishing components in this vector representation, hence that this expression vanishes identically.
+
+
 
 ## Related concepts
 
