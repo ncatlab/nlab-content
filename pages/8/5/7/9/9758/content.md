@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzain spacetime dimension 4,5,6, 11, then the following identity holds
+What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentian spacetime dimension 4,5,6, 11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
 
 $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
@@ -32,7 +32,7 @@ $$
   \,.
 $$
 
-(Here $\overline{(-)}$ denotes the Majorana conjugate, $\Gamma_a$ are a Clifford representations, the "$\wedge$"-signs denotes symmetrization in the spinor components and summation over repeated indices is understood. The details of this are discussed below.)
+(Here $\overline{(-)}$ denotes the Majorana conjugate, $\Gamma_a$ are a Clifford representations, the "$\wedge$"-signs denotes symmetrization in the spinor components and summation over repeated indices is understood. The details of this are discussed [below](#BilinearFierzIdentities).)
 
 In [D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82) it was pointed out that all Fierz identities may be understood as expressing the product operation in the [[representation ring]] of the [[spin group]] (in some given dimension): for $\{S_i\}_{i \in I}$ denoting [[isomorphism classes]] of [[irreducible representations|irreducible]] [[spin representations]], then, by definition of [[irreps]], their [[tensor product of representations]] decomposes again as a [[direct sum]] of [[irreducible representations]]
 
@@ -74,7 +74,10 @@ $$
   (2)^5
 $$
 
-where the symbols refer to [[Young diagrams]] canonically labeling representations. The point is that the expression $  \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right) \wedge \left(\overline{\psi} \wedge \Gamma^b \psi\right)$ from above is a spinor quadrilinear which transforms in the vector representation $(1)(0)^4$ (due to its one free spacetime index). But that vector representation $(1)(0)^4$ is missing from the [[direct sum]] above, meaning that the spinor quadrilinear has vanishing components in this vector representation, hence that this expression vanishes identically.
+where the symbols refer to [[Young diagrams]] canonically labeling representations (details are in example \ref{11dQuadrilinearCGCoefficients} below). 
+
+The point is that the expression $ \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right) \wedge \left(\overline{\psi} \wedge \Gamma^b \psi\right)$ from above is a spinor quadrilinear which transforms in the vector representation $(1)(0)^4$ (due to its one free spacetime index). But that vector representation $(1)(0)^4$ is missing from the [[direct sum]] above, meaning that the spinor quadrilinear has vanishing components in this vector representation, hence that this expression vanishes identically.
+
 
 ## In terms of cochains on super-Minkowski spacetimes
 
@@ -82,11 +85,12 @@ We discuss Fierz identities as identities among multispinorial elements of the [
 
 
 ### Bilinear Fierz identities
+  {#BilinearFierzIdentities}
 
 Given a fixed [[real spin representation]] $N$, then the
-the odd coordinates $\{\theta^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$ of the [[super Minkowski spacetime]]
+odd [[coordinates]] $\{\theta^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$ of the [[super Minkowski spacetime]] [[supermanifold]]
 $\mathbb{R}^{d-1,1\vert N}$ span, by construction, precisely that representation space, and hence so do the
-spinorial components of the super-[[vielbein]] form
+spinorial components of the [[super vielbein]] form
 
 $$
   \psi^\alpha = \mathbf{d}\theta^\alpha
@@ -385,7 +389,321 @@ $$
 
 
 
+### Quadrilinear Fierz identities
+  {#QuadraticFierzIdentities}
 
+
+Now we consider the [[direct sum]] decomposition of the [[tensor product of representations]] of _four_ copies of a [[spin representation]]. This yields the quadrilinear Fierz identities.
+
++-- {: .num_example #11dQuadrilinearCGCoefficients}
+###### Example
+
+The group $Spin(10,1)$ has [[rank of a Lie group|rank]] 5, and hene its [[irreducible representation|irreducible]] vector representations are labeled by [[Young diagrams]] consisting of five rows. For instance
+
+$$
+  (2)^2 (1)^2 (0)
+$$
+
+denotes the representation whose elements may be identified with tensors of the form
+
+$$
+  X_{\array{ a_1 & a_2 \\ a_3 & a_4 \\ a_5 }}
+$$
+
+which are
+
+1. skew-symmetric in indices in the same column;
+
+1. symmetric and trace-less in indices in the same row.
+
+Write again $(\tfrac{1}{2})^5$ for the [[Majorana spinor]] representation. Then the following identity holds in the [[representation ring]]:
+
+
+$$
+  \left\{
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+      \otimes
+    (\tfrac{1}{2})^5 
+  \right\}_{sym}
+   \;\simeq\;
+  \left.
+    \array{
+    (0)^5
+    \\
+    \oplus
+    \\
+    (2) (0)^4
+    \\
+    \oplus
+    \\
+    (1)^3 (0)^2 \oplus  (2)(1)(0)^3
+    \\
+    \oplus
+    \\
+    (1)^4 (0) \oplus (2)^2 (0)^3
+    \\
+    \oplus
+     \\
+    (1)^5 
+     \\
+     \oplus
+     \\
+    (2)^2 (1)^3
+    \\
+    \oplus
+    \\
+    (2)^5
+   }
+  \right.
+$$
+
+=--
+
+([D'Auria-Fr&#233; 82b (3.3) ](#DAuriaFre82b))
+
++-- {: .proof}
+###### Proof
+
+As before, this is supposed to follow already by matching total dimensions on both sides
+
+
+$$
+  \frac{32 \times 33 \times 34 \times 35}{4 \times 3 \times 2}
+   \;=\;
+  \left.
+    \array{
+    1
+    \\
+    + 
+    \\
+    65
+    \\
+    +
+    \\
+    165 +  429
+    \\
+    +
+    \\
+    330 + 1144
+    \\
+    +
+     \\
+    462
+     \\
+     +
+     \\
+    17160
+    \\
+    +
+    \\
+    32604
+   }
+  \right.
+$$
+
+=--
+
+More in detail we have the following decompositions, in the notation from [above](#QuadraticFierzIdentities).
+
+\[
+  \label{Fierz11dA}
+  \left(\overline{\psi} \wedge \Gamma_{a_1} \psi\right) 
+   \wedge 
+  \left( \overline{\psi} \wedge \Gamma_{a_2} \psi \right)
+   \;=\;
+  X^{(\mathbf{65})}_{\array{a_1 \\ a_2}}
+   + 
+  \frac{1}{11} \delta_{\array{a_1 a_2}}X^{(\mathbf{1})}
+\]
+
+Here for instance the symbol $X^{(\mathbf{65})}_{\array{a_1 \\ a_2}}$ denotes the projection of the term on the left into the direct summand given by the [[representation]] $(2)(0)^4$ of dimension $65$. Similarly: 
+
+\[
+  \label{Fierz11dB}
+  \left(\overline{\psi} \wedge \Gamma_{a_1 a_2} \psi\right)
+    \wedge 
+  \left(\overline{\psi} \wedge \Gamma_{a_3}\right)
+    \;=\;
+  X^{(\mathbf{429})}_{\array{ a_1 & a_2 \\ a_3}}
+   +
+  X^{(\mathbf{165})}_{\array{a_1 a_2 a_3}}
+\]
+
+\[
+  \label{Fierz11dC}
+  \left(
+    \overline{\psi}\Gamma_{a_1 a_2} \psi
+  \right)
+  \left(
+    \overline{\psi} \Gamma_{a_3 a_4}
+  \right)
+   \;=\;
+  X^{(\mathbf{1144})}_{\array{a_1 a_2 \\ a_3 a_4}}
+   + 
+  X^{(\mathbf{330})}_{\array{a_1 a_2 a_3 a_4}}
+   +
+  \tfrac{4}{9}\delta_{\array{ [a_1 \\ [a_3} } X^{(\mathbf{65})}_{\array{a_2] \\ a_4] } }
+  -
+  \tfrac{2}{11} \delta_{\array{a_1 & a_2 \\ a_3 & a_4}} X^{(\mathbf{1})}
+\]
+
+\[
+  \label{Fierz11dD}
+  \left(
+    \overline{\psi}
+      \wedge
+      \Gamma_{a_1 \cdots a_5}
+    \psi
+  \right)
+  \wedge
+  \left(
+    \overline{\psi}
+      \wedge
+    \Gamma_{a_6}
+   \psi
+  \right)
+  \;=\;
+  \epsilon_{a_1 \cdots a_6}{}^{b_1 \cdots b_5}
+  X^{(\mathbf{462})}_{b_1 \cdots b_5}
+  + 
+  X^{(\mathbf{4290})}_{\array{a_1 & \cdots & a_5 \\ a_6}}
+  +
+  \frac{15}{7}
+  \delta_{a_6 [ a_1} X^{(\mathbf{330})}_{\array{a_2 & \cdots & a_5}}
+\]
+
+and some more. 
+
+([D'Auria-Fr&#233; 82b table 2 ](#DAuriaFre82b))
+
+
+
+As a corollary:
+
++-- {: .num_example #TheM2andM5CocyclesAsFierzIdentities}
+###### Example
+
+For $d = 11$ then 
+
+1. the following Fierz identity holds:
+
+   $$
+     \left(
+       \overline{\psi} \wedge \Gamma_{a b} \psi  
+     \right) 
+     \wedge
+     \left(
+        \overline{\psi} \wedge \Gamma^b \psi
+     \right)
+     \;= \; 0
+     \,.
+   $$
+
+   (this is the cocycle condition for the [[higher WZW term]] of the [[M2-brane]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)), [AETW 87](#AETW87)) 
+
+1. the following Fierz identity holds:
+
+   $$
+     \left(
+       \overline{\psi}
+         \wedge
+         \Gamma_{a_1 \cdots a_4 b}
+       \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+        \wedge
+        \Gamma^{b}
+        \psi
+     \right)
+     \;=\;
+     3
+     \left(
+     \overline{\psi}
+        \Gamma_{[a_1 a_2}
+     \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+          \Gamma_{a_3 a_4]}
+       \psi
+     \right) 
+   $$
+
+   (this is the cocycle condition for the [[higher WZW term]] of the [[M5-brane]] ([BLNPST 97](#BLNPST97), [FSS 15](#FSS15))).
+
+=--
+
+([D'Auria-Fr&#233; 82b (3.13) and (3.28) ](#DAuriaFre82b))
+
++-- {: .proof}
+###### Proof
+
+The first identity is the result of equation (eq:Fierz11dB) after tracing over the indices $a_2$ and $a_3$. Under this trace both summands on the right of (eq:Fierz11dB) vanish: $X^{(\mathbf{429})}_{\array{ a_1 & a_2 \\ a_3}}$ because it is trace-free in indices in a column, and $X^{(\mathbf{165})}_{\array{a_1 a_2 a_3}}$ because it is skew-symmetric in all indices.
+
+The second identity follows from taking the trace over the indices $a_5 and a_6$ in (eq:Fierz11dD) and of skew-symmetrizing over all indices in (eq:Fierz11dC). By the symmetry properties of the tensors on the right of both equations, in both cases all tensors vanish except, in both cases, the contribution proportional to $X^{(\mathbf{330})}_{[a_1 \cdots a_3]}$, which both identities share. So it only remains to check that the proportionality factor is 3, as claimed. By writing out the skew-symmetrization in the last term in (eq:Fierz11dD) one finds:
+
+{#ComputationOfRelativeCoefficientInM5Cocycle}
+$$
+  \begin{aligned}
+    \frac{15}{7}
+    \delta^{a_1 a_6}
+    \delta_{a_6 [a_1}
+    X^{(\mathbf{330})}_{a_2 \cdots a_5]}
+    & =
+    \frac{15}{7}  
+    \delta^{a_1}{}_{[a_1} X^{(\mathbf{330})}_{a_2 \cdots a_5]}
+    \\
+    & =
+    \frac{15}{7}
+    \frac{1}{5!}
+    \sum_{ \left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 5\}} } \right\}}
+    (-1)^{\vert \sigma\vert }
+    \delta^{a_1}{}_{a_{\sigma(1)}}
+    X_{a_{\sigma(2)} \cdots a_{(\sigma(5))}}
+    \\
+    & =
+    \frac{15}{7}
+    \frac{1}{5!}
+    \sum_{\left\{\sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
+    (-1)^{\vert \sigma\vert } 
+    \left(  
+      \underset{= 11}{\underbrace{\delta^{a_1}_{a_1}}}
+      X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
+      -
+      4
+      \delta^{a_1}{}_{a_{\sigma(1)}}
+      X_{a_1 a_{\sigma(2)} \cdots a_{\sigma(4)}}
+    \right) 
+   \\
+   & =
+    \frac{15}{7}
+    (11-4)
+    \frac{1}{5}
+    \;
+    \underset{X^{(\mathbf{330})}_{a_1\cdots a_4}}{
+    \underbrace{
+    \frac{1}{4!}
+    \sum_{ \left\{ \sigma \atop { {\text{permutation of}} \atop {\{1,\cdots , 4\}} } \right\} }
+    (-1)^{\vert \sigma\vert}
+    X^{(\mathbf{330})}_{a_{\sigma(1)}\cdots a_{\sigma(4)}}
+    }
+    }
+    \\
+    & =
+    3 \; X^{(\mathbf{330})}_{a_{\sigma(1)} \cdots a_{\sigma(4)}}
+  \end{aligned}
+$$
+
+where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetric in all indices.
+
+=--
 
 ## Related concepts
 
@@ -411,7 +729,7 @@ see also appendix C of
 
 and the Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) were tabulated in 
 
-* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) ([[GeometricSupergravityErrata.pdf:file]]) 
  
 see also
 
@@ -425,11 +743,22 @@ See also
 
 * C. C. Nishi, _Simple derivation of general Fierz-type identities_,  	Am. J. Phys. 73 (2005) 1160-1163 ([arXiv:hep-ph/0412245](http://arxiv.org/abs/hep-ph/0412245))
 
-
 From the point of view of [[division algebras and supersymmetry]]
 the Fierz identities that give the vanishing of trilinear and of quadratic terms in spinors in certain dimensions are discussed in
 
 * [[John Huerta]], section 2.4 _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
+
+The recognition of some Fierz identities as cocycle conditions defining the [[higher WZW terms]] of the [[super p-branes]] is due to
+
+* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en))
+
+* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _[[The World in Eleven Dimensions]]_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+
+* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en))
+
+* {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+
+* {#FSS15} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:The WZW term of the M5-brane|The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](https://arxiv.org/abs/1506.07557))
 
 
 [[!redirects Fierz identities]]
