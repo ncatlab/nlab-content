@@ -76,6 +76,182 @@ $$
 
 where the symbols refer to [[Young diagrams]] canonically labeling representations. The point is that the expression $  \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right) \wedge \left(\overline{\psi} \wedge \Gamma^b \psi\right)$ from above is a spinor quadrilinear which transforms in the vector representation $(1)(0)^4$ (due to its one free spacetime index). But that vector representation $(1)(0)^4$ is missing from the [[direct sum]] above, meaning that the spinor quadrilinear has vanishing components in this vector representation, hence that this expression vanishes identically.
 
+## In terms of cochains on super-Minkowski spacetimes
+
+Given a fixed [[real spin representation]] $N$, then the
+the odd coordinates $\{\theta^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$ of the [[super Minkowski spacetime]]
+$\mathbb{R}^{d-1,1\vert N}$ span by construction precisely that representation space, and hence so to the
+spinorial component of the super-[[vielbein]] form
+
+$$
+  \psi^\alpha = \mathbf{d}\theta^\alpha
+  \,,
+$$
+
+since in the construction of [[super differential forms]] on $\mathbb{R}^{d-1,1\vert N}$, the de Rham operator
+$\mathbf{d}$ acts on the odd coordinates just formally, by sending the generator $\theta^\alpha$ to the new generator
+named $\mathbf{d} \theta^\alpha$.
+
+Hence as [[spin representations]] we may identify
+
+$$
+  N  \simeq \langle \mathbf{d}\theta^\alpha \rangle_{\alpha = 1}^{dim_{\mathbb{R}}(N) }
+  \,.
+$$
+
+Now we may build new [[spin representations]] from this one by forming multilinear expressions
+in the [[super vielbein]]. For example the elements in $CE(\mathbb{R}^{d-1,1\vert N})$ of the form
+
+$$
+  \begin{aligned}
+    \overline{\psi} \wedge \Gamma_a \psi
+    &=
+    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{\beta}\right) \psi^\alpha \wedge \psi^{\beta}
+    \\
+    & =
+    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{\beta}\right) \mathbf{d}\theta^\alpha \wedge \mathbf{d}\theta^\beta
+  \end{aligned}
+$$
+
+span, as the spacetime index $a$ ranges in $\{0, 1, \cdots, d-1\}$ a $d$-dimensional [[real vector space]]
+
+$$
+  \langle
+     \overline{\psi} \wedge \Gamma_a \psi
+  \rangle_{a = 0}^{d-1}
+$$
+
+which still carries a linear [[action]] of the [[spin group]], induced from the spin action on the $\psi$-s:
+
+$$
+  \overline{\left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} ) \right)}
+    \wedge \Gamma_a
+  \left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} ) \right)
+  =
+  \overlne{\psi} \wedge \exp(-\tfrac{\alpha}{4} \omega^{a b} \Gamma_{a b}) \Gamma_a \exp(\tfrac{\alpha}{2}\omega^{a b} \Gamma_{a b})
+   \psi
+  =
+  R(\omega)_a{}^b \left(\overline{\psi} \wedge \Gamma_b \psi\right)
+  \,.
+$$
+
+Of course similarly we obtain elements
+
+$$
+  \overline{\psi} \Gamma_{a_1 \cdots a_p} \psi
+$$
+
+which, if they are non-vanishing at all, span the representation
+
+$$
+  \wedge^p \mathbb{R}^d
+$$
+
+More abstractly this says that
+
+1. the elements $(\psi \wedge \overline{\psi})^{\alpha \beta}$ span the symmetrized [[tensor product of representations]]
+
+   $$
+     \{N \otimes N\}_{sym}
+   $$
+
+1. the elements $\overline{\psi} \wedge \Gamma_a \psi$ form a [[subrepresentation]] thereof, equivalent to
+   the vector representation $\mathbb{R}^{d}$
+
+1. hence there is a [[direct sum]] decomposition
+
+   $$
+     \left\{N \otimes N\right\}_{sym}
+       \;\simeq\;
+     \mathbb{R}^d \oplus \cdots
+   $$
+
+   in the [[category of representations]] of the [[spin group]]
+
+
+
+
+This direct sum decomposition induces a [[projection]] map
+
+$$
+   \left\{
+    N \otimes N
+  \right\}_{sym}
+    \longrightarrow
+  \mathbb{R}^d
+$$
+
+
+In components this projection must be of the form
+
+
+$$
+  (\psi \wedge \overline{\psi})^{\alpha{}_{\beta}
+     \;\mapsto\;
+  \propto
+  \tfrac{1}{dim_{\mathbb{R}}}(n)
+  \left(
+    \overline{\psi}\wedge \Gamma_a \psi
+  \right)
+  K^{a \alpha}{}_\beta
+$$
+
+for some coefficients $K^{a \alpha}{}_\beta$. We claim that these must be proportional to the Clifford elements.
+
+Because by the construction of the Dirac representation, all the $\Gamma_{a_1 \cdots \Gamma_{a_p}}$ are traceless.
+
+In the Dirac representation, the Dirac matices span the endomorphisms, hence there is some expansion of the form
+
+$$
+  \psi \wedge \overline{\psi}
+    =
+  \frac{1}{dim_{\mathbb{R}}(N)}
+  \left(
+    1 X
+    +
+    \Gamma_a X^a
+    +
+    \Gamma_{a b} X^n
+    +
+    \cdots
+  \right)
+$$
+
+for some coefficients $X^{a_1 \cdots a_p}$. Moreover, in the Dirac representation all
+$\Gamma_{a_1 \cdots a_p}$ for $p \geq 1$ are traceless, only for $p = 0$ then $tr(1) = dim_{\mathbb{R}}(N)$ is non-vanishing.
+It follows that
+
+$$
+  \begin{aligned}
+    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
+    & =
+  \mathrm{tr}_N\left(
+    \psi \wedge \overline{\psi} \Gamma^{a_1 \cdots a_p}
+  \right)
+   \\
+   & =
+   tr_N
+   \left(
+   \frac{1}{dim_{\mathbb{R}}(N)}
+   \left(
+     1 X
+     +
+     \Gamma_a X^a
+     +
+     \Gamma_{a b} X^n
+     +
+     \cdots
+    \right)
+     \Gamma^{a_1 \cdots a_p}
+    \right)
+    \\
+    &
+    =
+    p! X^{a_1 \cdots a_p}
+  \end{aligned}
+$$
+
+
 
 
 ## Related concepts
