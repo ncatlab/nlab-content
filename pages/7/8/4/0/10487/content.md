@@ -16,6 +16,8 @@ Phys. Rev. Lett. 66, 802 (1991).
 Nucl. Phys. B419, 455 (1994), [pdf](http://dao.mit.edu/~wen/pub/nabdw.pdf)
 * Xie Chen, Zheng-Cheng Gu, Xiao-Gang Wen, _Local unitary transformation, long-range quantum entanglement, wave function renormalization, and topological order_ Phys. Rev. B 82, 155138 (2010)
 
+* Juven Wang, Zheng-Cheng Gu, [[Xiao-Gang Wen]], _Field theory representation of gauge-gravity symmetry-protected topological invariants, group cohomology and beyond_, [arxiv:1405.7689](https://arxiv.org/abs/1405.7689), [Phys. Rev. Lett. 114, 031601 (2015)](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.114.031601)
+
 ## Related entries
 
 * [[topological order]]
