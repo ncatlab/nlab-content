@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzian spacetime dimension 4,5,7,11, then the following identity holds
+What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzain spacetime dimension 4,5,6, 11, then the following identity holds
 
 $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
@@ -78,13 +78,22 @@ where the symbols refer to [[Young diagrams]] canonically labeling representatio
 
 ## In terms of cochains on super-Minkowski spacetimes
 
+We discuss Fierz identities as identities among multispinorial elements of the [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1\vert N})$ of [[super-Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert N}$, regarded as the super-translation [[supersymmetry]] [[super Lie algebra]]. In this form Fierz identities encode [[cocycles]] in the [[supersymmetry]] super-[[Lie algebra cohomology]], such as those which serve as [[higher WZW terms]] characterizing [[super p-branes]]. We follow [Castellani-D'Auria-Fr&#233; 82, section II.8](#CDF).
+
+
+### Bilinear Fierz identities
+
 Given a fixed [[real spin representation]] $N$, then the
 the odd coordinates $\{\theta^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$ of the [[super Minkowski spacetime]]
-$\mathbb{R}^{d-1,1\vert N}$ span by construction precisely that representation space, and hence so too the
-spinorial component of the super-[[vielbein]] form
+$\mathbb{R}^{d-1,1\vert N}$ span, by construction, precisely that representation space, and hence so do the
+spinorial components of the super-[[vielbein]] form
 
 $$
   \psi^\alpha = \mathbf{d}\theta^\alpha
+   \;\;\;
+   \in \Omega^{\bullet}_{li}(\mathbb{R}^{d-1,1\vert N})
+   \simeq
+    CE(\mathbb{R}^{d-1,1\vert N})
   \,,
 $$
 
@@ -92,46 +101,61 @@ since in the construction of [[super differential forms]] on $\mathbb{R}^{d-1,1\
 $\mathbf{d}$ acts on the odd coordinates just formally, by sending the generator $\theta^\alpha$ to the new generator
 named $\mathbf{d} \theta^\alpha$.
 
-Hence as [[spin representations]] we may identify
+Therefore we may identify the [[spin representation]] $N$ with the [[linear span]] (over $\mathbb{R}$) of these elements
 
 $$
   N  \simeq \langle \mathbf{d}\theta^\alpha \rangle_{\alpha = 1}^{dim_{\mathbb{R}}(N) }
+  \,,
+$$
+
+were the [[spin group]] acts on the elements on the right in the defining way (see at _[[geometry of physics -- supersymmetry]]_): a spinorial rotation in a plane $\omega = \{\omega^{a b}\}$ by an angle $\alpha$ acts by
+
+$$
+  R_\omega(\psi) \coloneqq \exp(\tfrac{\alpha}{4} \omega^{a b} \Gamma_{a b} ) \psi
   \,.
 $$
 
-Now we may build new [[spin representations]] from this one by forming multilinear expressions
-in the [[super vielbein]]. For example the elements in $CE(\mathbb{R}^{d-1,1\vert N})$ of the form
+We may build new [[spin representations]] from this one by forming multilinear expressions in the [[super vielbein]]. For example the elements in $CE(\mathbb{R}^{d-1,1\vert N})$ of the form
 
 $$
   \begin{aligned}
     \overline{\psi} \wedge \Gamma_a \psi
-    & =
-    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{\beta}\right) \psi^\alpha \wedge \psi^{\beta}
+    &=
+    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}_{\beta}\right) \, \psi^\alpha \wedge \psi^{\beta}
     \\
     & =
-    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{\beta}\right) \mathbf{d}\theta^\alpha \wedge \mathbf{d}\theta^\beta
+    \left(C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}_{\beta}\right) \, \mathbf{d}\theta^\alpha \wedge \mathbf{d}\theta^\beta
   \end{aligned}
 $$
 
-span, as the spacetime index $a$ ranges in $\{0, 1, \cdots, d-1\}$ a $d$-dimensional [[real vector space]]
+span, as the spacetime index $a$ ranges in $\{0, 1, \cdots, d-1\}$, a $d$-dimensional [[real vector space]]
 
 $$
-  \langle
-     \overline{\psi} \wedge \Gamma_a \psi
-  \rangle_{a = 0}^{d-1}
+  \left\langle
+     \,\overline{\psi} \wedge \Gamma_a \psi\,
+  \right\rangle_{a = 0}^{d-1}
 $$
 
 which still carries a linear [[action]] of the [[spin group]], induced from the spin action on the $\psi$-s:
 
 $$
-  \overline{\left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} ) \right)}
-    \wedge \Gamma_a
-  \left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} ) \right)
-  =
-  \overlne{\psi} \wedge \exp(-\tfrac{\alpha}{4} \omega^{a b} \Gamma_{a b}) \Gamma_a \exp(\tfrac{\alpha}{2}\omega^{a b} \Gamma_{a b})
-   \psi
-  =
-  R(\omega)_a{}^b \left(\overline{\psi} \wedge \Gamma_b \psi\right)
+  \begin{aligned}
+    R_\omega(\overline{\psi} \wedge \Gamma_a \psi)
+    & =
+    \overline{\left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} ) \psi \right)}
+      \wedge \Gamma_a
+    \left( \exp(\tfrac{\alpha}{4}\omega^{a b}\Gamma_{a b} \psi ) \right)
+    \\
+    & =
+    \overline{\psi} \wedge \exp(-\tfrac{\alpha}{4} \omega^{a b} \Gamma_{a b}) \Gamma_a \exp(\tfrac{\alpha}{2}\omega^{a b} \Gamma_{a b})
+     \psi
+    \\
+    & =
+    \overline{\psi}
+      \wedge
+      (R_\omega(\Gamma_a))
+    \psi
+    \end{aligned}
   \,.
 $$
 
@@ -147,109 +171,218 @@ $$
   \wedge^p \mathbb{R}^d
 $$
 
-More abstractly this says that
+Now observe that we may say all this more abstractly as follows:
 
 1. the elements $(\psi \wedge \overline{\psi})^{\alpha \beta}$ span the symmetrized [[tensor product of representations]]
 
    $$
      \{N \otimes N\}_{sym}
+       \;\simeq\;
+     \langle 
+       \,  (\psi \wedge \overline{\psi})^\alpha{}_\beta \,
+     \rangle_{\alpha,\beta = 1}^{dim_{\mathbb{R}}(N)}
    $$
 
-1. the elements $\overline{\psi} \wedge \Gamma_a \psi$ form a [[subrepresentation]] thereof, equivalent to
-   the vector representation $\mathbb{R}^{d}$
+1. for given $p \in \mathbb{N}$, then the elements of the form $\overline{\psi} \wedge \Gamma_{a_1 \cdots a_p} \psi$ form a [[subrepresentation]] thereof, equivalent to the vector representation $\wedge^p\mathbb{R}^{d}$
 
 1. hence there is a [[direct sum]] decomposition
 
    $$
      \left\{N \otimes N\right\}_{sym}
        \;\simeq\;
-     \mathbb{R}^d \oplus \cdots
+      \underset{p \in \mathbb{N}}{\bigoplus}
+      c_p \left(\wedge^p \mathbb{R}^d\right)
    $$
 
-   in the [[category of representations]] of the [[spin group]]
+   in the [[category of representations]] of the [[spin group]], which expresses the (symmetrized) [[tensor product of representations]] of the [[Majorana spinor]] representation as a [[direct sum]] of skew-symmetrized tensor products of the vector representation.
 
+Indeed this direct sum decomposition is exhaustive:
 
++-- {: .num_prop #BilinearFierzDecomposition}
+###### Proposition
 
-
-This direct sum decomposition induces a [[projection]] map
-
-$$
-   \left\{
-    N \otimes N
-  \right\}_{sym}
-    \longrightarrow
-  \mathbb{R}^d
-$$
-
-
-In components this projection must be of the form
-
+For $d \in \mathbb{N}$ and $N$ a [[Majorana spinor]] representation of $Spin(d-1,1)$, then the following identity holds:
 
 $$
-  (\psi \wedge \overline{\psi})^{\alpha}{}_{\beta}
-     \;\mapsto\;
-  \propto
-  \tfrac{1}{dim_{\mathbb{R}}}(n)
+  (\psi \wedge \overline{\psi})^\alpha{}_\beta
+   \;=\;
+  \tfrac{1}{dim_{\mathbb{R}}(N)}
   \left(
-    \overline{\psi}\wedge \Gamma_a \psi
+     \left(
+       \overline{\psi}\psi
+     \right)
+     +
+     \left(
+       \overline{\psi} \Gamma_a \psi
+     \right)
+     (\Gamma^a)^\alpha{}_\beta
+     + 
+     \tfrac{1}{2!}
+     \left(
+       \overline{\psi} \Gamma_{a_1 a_2} \psi
+     \right)
+     (\Gamma^{a_1 a_2})^\alpha{}_\beta
+      + 
+     \cdots
   \right)
-  K^{a \alpha}{}_\beta
+  \,.
 $$
 
-for some coefficients $K^{a \alpha}{}_\beta$. We claim that these must be proportional to the Clifford elements.
+=--
 
-Because by the construction of the Dirac representation, all the $\Gamma_{a_1 \cdots \Gamma_{a_p}}$ are traceless.
++-- {: .proof}
+###### Proof
 
-In the Dirac representation, the Dirac matices span the endomorphisms, hence there is some expansion of the form
+By the discussion there, the [[Majorana spinor]] representation is a real sub-representation of a complex _Dirac representation_ $\mathbb{C}^{(2^\nu)}$. The latter has the special property that
+
+1. the [[Clifford algebra]] contains the full [[matrix algebra]];
+
+1. for $p \geq 1$ the Clifford elements $\Gamma_{a_1 \cdots a_p}$ have vanishing [[trace]].
+
+The first point implies that there exists coefficients $X^{a_1 \cdots a_p} \in \mathbb{C}$ for $p \in \mathbb{N}$ such that
 
 $$
   \psi \wedge \overline{\psi}
     =
-  \frac{1}{dim_{\mathbb{R}}(N)}
+  \tfrac{1}{dim_{\mathbb{R}}(N)}
   \left(
-    1 X
+    X
     +
-    \Gamma_a X^a
+    X^a \Gamma_a 
     +
-    \Gamma_{a b} X^n
+    X^{a b} \Gamma_{a b} 
     +
     \cdots
   \right)
+  \,.
 $$
 
-for some coefficients $X^{a_1 \cdots a_p}$. Moreover, in the Dirac representation all
-$\Gamma_{a_1 \cdots a_p}$ for $p \geq 1$ are traceless, only for $p = 0$ then $tr(1) = dim_{\mathbb{R}}(N)$ is non-vanishing.
-It follows that
+The second condition then implies that multiplying this expression with $\Gamma^{a_1 \cdots a_p}$ and taking the trace projects out the coefficient $X^{a_1 \cdots a_p}$:
 
 $$
   \begin{aligned}
-    \overline{\psi} \wedge \Gamma^{a_1 \cdots a_p} \psi
-    & =
-  \mathrm{tr}_N\left(
-    \psi \wedge \overline{\psi} \Gamma^{a_1 \cdots a_p}
-  \right)
+    X^{a_1 \cdots a_p}
+      & = 
+    \frac{1}{p! dim_{\mathbb{R}}(N)}
+    tr_N
+    \left(
+      \left(
+        X
+        +
+        X^a \Gamma_a 
+        +
+        X^{a b} \Gamma_{a b} 
+        +
+        \cdots
+      \right)
+      \Gamma^{a_1 \cdots a_p}
+   \right)
    \\
-   & =
+   & = 
+   \tfrac{1}{p!}
    tr_N
    \left(
-   \frac{1}{dim_{\mathbb{R}}(N)}
+     \psi \wedge \overline{\psi} \, \Gamma^{a_1 \cdots a_p}
+   \right)
+   \\
+   & = 
+   \tfrac{1}{p!}
    \left(
-     1 X
-     +
-     \Gamma_a X^a
-     +
-     \Gamma_{a b} X^n
-     +
-     \cdots
-    \right)
-     \Gamma^{a_1 \cdots a_p}
-    \right)
-    \\
-    &
-    =
-    p! X^{a_1 \cdots a_p}
+     \overline \psi \wedge \Gamma^{a_1 \cdots a_p} \psi
+   \right)
   \end{aligned}
+  \,.
 $$
+
+Notice that it is the last step, identifying the trace over $\psi \wedge \overline{\psi} \Gamma^{a_1 \cdots a_p}$ with the $\psi$-$\psi$ component of the matrix $\Gamma^{a_1 \cdots a_p}$, where we use the _symmetrization_ of the spinor tensor product, namely the identity $\psi^\alpha \wedge \overline{\psi}_\beta = \overline{\psi}_\beta \wedge \psi^\alpha$.  
+
+=--
+
+
+Some of the coefficients in prop. \ref{BilinearFierzDecomposition} may vanish identically. These are the _bilinear Fierz identities_, of the form
+
+$$
+  \overline{\psi} \Gamma_{a_1 \cdots a_p} \psi = 0
+  \,.
+$$
+
++-- {: .num_example}
+###### Example
+
+Let $d = 11$. Write $\mathbf{32}$ or $(\tfrac{1}{2})^5$ for the [[Majorana spinor]] representation of $Spin(d-1,1)$. Then 
+
+$$
+  \left\{
+    (\tfrac{1}{2})^5
+      \otimes
+    (\tfrac{1}{2})^5
+  \right\}_{sym}
+     \;\simeq\;
+  \underset{\simeq \mathbb{R}^d}{\underbrace{(1)^1 (0)^4}}
+    \;\oplus\;
+  \underset{\simeq \wedge^2 \mathbb{R}^d}{\underbrace{(1)^2 (0)^3}}
+    \;\oplus\;
+  \underset{\wedge^5 \mathbb{R}^d}{\underbrace{(1)^5}}
+  \,.
+$$
+
+=--
+
+([D'Auria-Fr&#233; 82b (3.1)](#DAuriaFre82b))
+
+
++-- {: .proof}
+###### Proof
+
+Since we know from prop. \ref{BilinearFierzDecomposition} that the right hand side has to be some direct sum of representations of the form $\wedge^p \mathbb{R}^d$, it is sufficient to check that there is only one choice of sum such that [[dimensions]] match on both sides of the equation.
+
+Now the dimension of $\{N \otimes N\}_{sym}$ is that of the space of symmetric $32 \times 32$ matrices:
+
+$$
+  dim_{\mathbb{R}} 
+  \left(
+     \{\mathbf{32} \otimes \mathbf{32}\}_{sym}
+  \right)
+   \;=\;
+  \frac{1}{2}
+  \left(
+    32 \times 33 
+  \right)
+   = 
+  528
+$$
+
+while the dimension of $\wedge^p \mathbb{R}^d$ is the [[binomial coefficient]]
+
+$$
+  dim_{\mathbb{R}}(\wedge^p \mathbb{R}^d)
+   \;=\;
+  \left(
+    11 \atop p
+  \right)
+  \,.
+$$
+
+
+Hence the claim follows from the fact that 
+
+$$
+  \begin{aligned}
+    582 
+     & = 11 + 55 + 462
+    \\
+    & =
+  \left(11 \atop 1\right)
+   +
+  \left(11 \atop 2\right)
+   +
+  \left(11 \atop 5\right)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
 
 
 
@@ -278,7 +411,7 @@ see also appendix C of
 
 and the Fierz identities for $Spin(10,1)$ (relevant in [[11-dimensional supergravity]]) were tabulated in 
 
-* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 o _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
+* {#DAuriaFre82b} [[Riccardo D'Auria]], [[Pietro Fré]], pages 12, 13 of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982)
  
 see also
 
