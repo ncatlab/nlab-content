@@ -28,7 +28,11 @@ A **sufficiently cohesive topos** is a [[topos]] that has enough connected objec
 
 ## Terminological preliminaries
 
-Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] $p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$ such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves [[finite products]].
+Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]]
+
+$$p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$$
+
+such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves [[finite products]].
 
 This (and $\mathcal{E}$ in particular) is called a 'cohesive topos' (over $\mathcal{S}$) at _[[cohesive topos]]_, and will be referred to as a _'weakly cohesive topos'_ in the present entry - a sufficiently cohesive topos in this context corresponds to the three axioms (0-2) for a 'gros topos' in Lawvere ([1986](#Law86)) where the concept of sufficient cohesion was considered for the first time. 
 
@@ -82,7 +86,7 @@ A weakly cohesive topos is sufficiently cohesive iff all injective objects are c
 
 ## Cohesively connected truth
 
-In a sufficiently cohesive topos the subobject classifier is obviuosly connected since $\Omega=\Omega^1$. It is the aim of this section to prove that in a weakly cohesive topos the converse holds as well: $\Omega$ is connected iff $\Omega$ is contractible.
+In a sufficiently cohesive topos the subobject classifier is obviously connected since $\Omega=\Omega^1$. It is the aim of this section to prove that in a weakly cohesive topos the converse holds as well: $\Omega$ is connected iff $\Omega$ is contractible.
 
 Before embarking on a proof let us consider two examples that illustrate that the concept of sufficient cohesion results from the interplay between the _connectedness_ of the subobject classifier and the _exactness_ properties of the components functor $p_!$:
 
@@ -107,7 +111,7 @@ On the other hand, the topos of [[quiver|quivers]] $Set^\rightrightarrows$ has a
 
 [^bouquet]: (Theorem 12.2.3 in La Palme Reyes et al. ([2004](#RRZ04), p.221)). Of course, this can also easily be proved directly or read off the concrete objects and properties worked out in La Palme Reyes et al (2004) where the Sierpinski topos is called the category of bouquets.
 
-Recall that in any topos, the subobject classifier $\Omega$ has two points $\bot,\top$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$:
+Recall that in any topos, the subobject classifier $\Omega$ has two points $\bot,\top$ fitting into the following pullback diagram (which is an equaliser diagram as well) due to the classifying property of $\Omega$ for the monomorphism $0\to 1$:
 
 $$
 \array{
@@ -135,6 +139,18 @@ $$f=h\circ\langle id_A, t_0\circ !_A\rangle\quad and\quad g=h\circ\langle id_A, 
 (In this case, $h$ is also called an (I-)homotopy between $f$ and $g$.)
 =--
 
+The following result brings together the two crucial ingredients for the equivalence between contractability and connectedness of $\Omega$, namely, the preservation of finit products by $p_!$ and $p_!(\Omega)=1$.
+
++-- {: .num_prop #homotopy_components}
+###### Proposition
+Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pair of parallel maps in a weakly cohesive topos with the property that $p_!(k_1)=p_!(k_2)$. Then $p_!(f)=p_!(g)$. In particular, $f\sim_I g$ implies $p_!(f)=p_!(g)$.
+=--
+
+**Proof**. Since $p_!$ preserves finite products it maps product diagrams to product diagrams whence $p_!(h\circ\langle i, k_j\rangle)=p_!(h)\circ p_!(\langle i, k_j\rangle)=p_!(h)\circ \langle p_!( i), p_!(k_j)\rangle)$ , $j\in\{1,2\}$, but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
+
+Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
+
+
 In general, we can get a map $\mu:\Omega^X\times\Omega\to\Omega^X$ from the conjunction $\wedge :\Omega\times\Omega\to \Omega$ by the following steps:
 
 $$
@@ -153,10 +169,9 @@ $$
 
 
 (...
-+-- {: .num_prop #homotopy_components}
-###### Proposition
-Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pair of parallel maps in a weakly cohesive topos with the property that $p_!(k_1)=p_!(k_2)$. Then $p_!(f)=p_!(g)$ and this holds in particular if $h$ is a homotopy from $f$ to $g$.
-=--
+
+
+
 ...)
 ...
 
