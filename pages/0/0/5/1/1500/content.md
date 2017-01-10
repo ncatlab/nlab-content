@@ -28,12 +28,16 @@ A **fusion category** is a [[rigid monoidal category|rigid]] [[semisimple catego
 
 The name "fusion category" comes from the central examples of structures whose canonical [[tensor product]] is called a "fusion product", notably [[representation]]s of [[loop group]]s and of [[Hopf algebra]]s and of [[vertex operator algebra]]s. 
 
+Some of the easiest examples are:
+
+* Representations of a finite group or ([finite super-group](https://ncatlab.org/nlab/show/supergroup#finite_supergroups)]
+* For a given finite group $G$ and a 3-cocycle on $G$ with values in a field $k$ (an element of $H^3(G,k^\times)$), take $G$-graded vector spaces with the cocycle as associator.
 
 ## Properties
 
 ### Relation to weak Hopf algebras
 
-Under [[Tannaka duality]], every fusion catgeory $C$ arises as the [[representation category]] of a [[weak Hopf algebra]]. ([Ostrik](#Ostrik))
+Under [[Tannaka duality]], every fusion category $C$ arises as the [[representation category]] of a [[weak Hopf algebra]]. ([Ostrik](#Ostrik))
 
 ### Relation to pivotal and spherical categories
 
