@@ -410,7 +410,7 @@ and with more details in
 
 with lecture notes in 
 
-* [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](http://www.math.ias.edu/~mshulman/hottminicourse2012/03models.pdf))
+* [[Mike Shulman]], _Categorical models of homotopy type theory_, April 13, 2012 ([pdf](https://home.sandiego.edu/~shulman/hottminicourse2012/03models.pdf))
 
 * [[André Joyal]], _Categorical homotopy type theory_, March 17, 2014 ([pdf](http://ncatlab.org/homotopytypetheory/files/Joyal.pdf))
 
