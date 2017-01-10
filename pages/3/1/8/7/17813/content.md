@@ -7,9 +7,107 @@
 
 > under construction
 
+
+$\,$
+
+
+
+A remarkable consequence of the general fact that [[supergeometry]] is slightly
+[[non-commutative geometry|non-commutative]] is that [[super Minkowski spacetimes]],
+regarded as the translational part of [[supersymmetry]] [[super Lie algebras]],
+carry non-trivial higher [[spin group|spin]]-[[invariant|invariance]] [[cocycles]] in super-[[Lie algebra cohomology]].
+Generally, invariant $(p+2)$-cocycles on [[cosets]] $X$ induce interesting
+[[action functionals]] for $p+1$-dimensional [[sigma-model]] [[field theories]]
+with [[target space]] $X$, hence for _fundamental $p$-[[branes]]_, in a general sense,
+that propagate on (or "in") the space(-time) $X$. For $p = 1$ and $X$ the coset of a [[compact Lie group]],
+then this is known as the _[[WZW model]]_ describing a [[string]] that propagates on $X$.
+Hence generally we may speak of _[[higher WZW models]]_ here.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OldBraneScan.jpg" width="300">
+</div>
+
+Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski spacetime]] defines a [[super p-brane]]
+[[sigma model]], and these happen to be just the _fundamental [[Green-Schwarz superstring]]_ and the _fundamental [[supermembrane]]_
+that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is originally for "membrane theory")
+-- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
+</div>
+
+Now in higher generalization of how an invariant 2-cocycle on some [[super Minkowski spacetime]] corresponds to a [[central extension|central]]
+super-[[Lie algebra extension]] of it to a higher dimensional spacetime, so ever higher cocycle,
+i.e. every $p+2$-cocycle for $p \geq 1$, corresponds to a [[super Lie n-algebra|super Lie (p+1)-algebra]] extension
+of [[super Minkowski spacetime]], sometimes called an "[[extended super Minkowski spacetime]]".
+It turns out that on the [[super Lie n-algebra]] extensions defined by the cocycles for the [[super-string]] and the [[super-membrane]]
+make further invariant higher cocycles appear. Interpreting these in turn as [[higher WZW models]] for [[super p-branes]]
+it turns out that they correspond to the [[D-branes]] and to the [[M5-brane]] that appear in [[string theory]]/[[M-theory]].
+This generalizes the old [[brane scan]] to a tree-like structure of higher invariant extensions that may be called the
+_[[schreibr:brane bouqet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
+purely in terms of [[super Lie n-algebra]] theory.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="300" />
+</div>
+
+Moreover, in turns out that on [[cocycles]] of [[super Lie n-algebras]] there is a natural [[higher Lie theory|higher Lie theoretic]]
+operation of _[[double dimensional reduction]]_: the image in [[rational homotopy theory]] of the [[adjunction unit]]
+for the [[free loop space]] [[adjunction]]. Applying this to the [[schreiber:brane bouquet]] turns out to yield
+relations between the super Lie $n$-algebraic cocycles that embody all the [[dualities in string theory]]
+at the level of [[rational homotopy theory]]:
+the [[KK-compactification]] from [[M-theory]] to [[type IIA string theory]], the [[T-duality]] of the latter to
+[[type IIB string theory]], the [[S-duality]] of the latter, and its relation  to [[F-theory]].
+
+Notice that all this concerns _fundamental_ [[super p-branes]] (sometimes referred to as "probe $p$-branes") 
+-- in generalization of "[[fundamental particles]]" and "fundamental string" --
+and in contrast to "solitonic $p$-branes" or "[[black p-branes|black branes]]".
+In fact the [[black branes]] (that appear for notably in the [[AdS/CFT correspondence]]) follow from
+the fundamental [[super p-branes]]: their [[worldvolumes]] are the [[BPS state]] solutions to the [[supergravity]] [[equations of motion]]
+which express but the consistent globalization of the fundamental [[super p-brane]] [[sigma models]] 
+([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)), and moreover their [[worldvolume]] theories
+are but the [[perturbation theory]] of the fundamental [[super p-branes]] about these asymptotic singular loci 
+([Claus-Kallosh-vanProeyen 97](#ClausKalloshProeyen97), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98)).
+
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/TheMTheoryAmoeba.jpg" alt="the brane bouquet" width="300" />
+</div>
+
+Hence a fair bit of [[string theory]]/[[M-theory]] is (re-)discovered by systematic classification of
+the invariant higher extensions of
+[[super Minkowski spacetimes]] in [[super Lie n-algebra]] [[homotopy theory]]. But by the
+discussion at _[[geometry of physics -- supersymmetry]]_, the relevant [[super-Minkowski spacetimes]]
+themselves are themselves already classified as the consecutive ordinary invariant extensions of just the
+[[superpoint]] (we review this [below](#SuperMinowskiSpacetimes)).
+In conclusion then, a fair bit of the structure of [[string theory]]/[[M-theory]]
+is (re-)discovered by a systematic classification of the consecutive invariant higher extension
+of the [[superpoint]] in [[super Lie n-algebra]] [[homotopy theory]]. This is what we discuss here.
+
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ComputationWithYoungTableaux.jpg" width="300">
+</div>
+
+Computationally, it so happens that all the these cocycles in the [[schreiber:brane bouquet]] exist
+due to special _[[Fierz identities]]_, namely due to special spinoral higher [[Clebsch-Gordan coefficients]] that
+express the (tensor-)product operation in the [[real spin representation|real]] [[representation ring]] of the [[spin groups]]
+in the given dimensions. Hence there is a tight interplay between spinorial [[representation theory]]
+(discussed [below](##SuperMinowskiSpacetimes)) and [[higher Lie theory]].
+
+
+$\,$
+
+$\,$
+
+$\,$
+
+
+
 #Fundamental super p-branes#
 * table of contents
 {:toc}
+
+
 
 
 
@@ -258,7 +356,7 @@ The ([[higher differential geometry|higher]]) geometric meaning of these constru
 
 Hence the missing $p$-branes in the old [[brane scan]] (classifying just cocycles on [[super Lie algebras]]) do appear as one generalizes (super) Lie algebras to (super) [[strong homotopy Lie algebras]] = [[L-infinity algebras]]. Moreover, each brane intersection law (one brane species may end on another) is now matched to a super $L_\infty$-algebra [[extension]] and so the old brane scan is generalized to a tree of branes _[[schreiber:The brane bouquet]]_:
 
-<img src="https://dl.dropboxusercontent.com/u/12630719/BraneBouquet.JPG" alt="the brane bouquet" width="900" />
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="900" />
 
 Each item in this bouquet denotes a [[super L-infinity algebra]] and each arrow denotes an [[L-infinity extension]] classified by a cocycle which encodes the GS-WZW term of the brane named by the domain of the arrow. Moreover, arrows pass exactly from one brane species to the brane species that may end on the former.
 
@@ -393,6 +491,7 @@ This has implications on some open conjectures regarding [[M-theory]], for more 
 
 
 ## Super Minkowski spacetimes
+ {#SuperMinowskiSpacetimes}
 
 Recall from the end of [[geometry of physics -- supersymmetry]] how
 the [[super Minkowski spacetimes]] emerge from the [[superpoint]] in a progression of
@@ -685,12 +784,13 @@ $\,$
 ## Fierz identities
 
 
-What are called _[[Fierz identities]]_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentian spacetime dimension 4,5,6, 11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
+What are called _[[Fierz identities]]_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentian spacetime dimension 4,5,7, 11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
 
 $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
   \wedge
   \left(\overline{\psi} \wedge \Gamma^b \psi\right)
+  
   \;=\;
   0
   \,.
@@ -4846,11 +4946,11 @@ In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} s
 [[!include brane scan]]
 
 
-<div style="float:left;margin:0 10px 10px 0;"><img src="https://dl.dropboxusercontent.com/u/12630719/BraneBouquet.JPG" alt="the brane bouquet" /></div>
+<div style="float:left;margin:0 10px 10px 0;"><img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" /></div>
 
 ## References
 
-The interpretation of Fierz identities as relations satisfied by [[Clebsch-Gordan coefficients]] in the [[representation ring]] of the [[spin group]] originates in
+The interpretation of [[Fierz identities]] as relations satisfied by [[Clebsch-Gordan coefficients]] in the [[representation ring]] of the [[spin group]] originates in
 
 * {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]]  _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([doi:10.1016/0003-4916(82)90007-0](http://dx.doi.org/10.1016/0003-4916(82)90007-0), [spire](http://inspirehep.net/record/167640/))
 
@@ -4886,16 +4986,28 @@ the Fierz identities that give the vanishing of trilinear and of quadratic terms
 * [[John Huerta]], section 2.4 _Division Algebras, Supersymmetry and Higher Gauge Theory_ ([arXiv:1106.3385](http://arxiv.org/abs/1106.3385))
 
 
-
 The recognition of some [[Fierz identities]] as cocycle conditions defining the [[higher WZW terms]] of the [[super p-branes]] is due to
 
 * {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en))
 
 * {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _[[The World in Eleven Dimensions]]_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
 
-* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en))
+* {#AETW87} Anna Ach&#250;carro, [[Jonathan Evans]], [[Paul Townsend]], [[David Wiltshire]], _Super $p$-Branes_, Phys. Lett. B **198** (1987) 441 ([spire](http://inspirehep.net/record/22286?ln=en), [pdf](https://ir.canterbury.ac.nz/xmlui/bitstream/handle/10092/9041/12616571_pbrane.pdf?sequence=1&isAllowed=y))
 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
+
+The identification of the [[worldvolume]] [[conformal field theories]] on solitonic branes ([[black branes]])
+as the [[perturbation theory]] of fundamenal [[super p-branes]] about asymptotic singular loci in [[BPS state]] 
+[[supergravity]] solutions is due to
+
+* {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
+
+* {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
+ 
+* {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
+
+* {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_, Talk given by D.S. at the International Workshop ``Supersymmetry and Quantum Symmetries'', JINR, Dubna, Russia, July 26-31, 1999 ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
+
 
 
 
@@ -4948,7 +5060,7 @@ General discussion of [[nLab:twisted cohomology]] is in
 
 A textbook account of much of the story is in
 
-* {#dcct} [[nLab:Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Thesis, ([v1 arXiv:1310.7930](http://arxiv.org/abs/1310.7930v1), [v2](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf))
+* {#dcct} [[nLab:Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Thesis
 
 
 
