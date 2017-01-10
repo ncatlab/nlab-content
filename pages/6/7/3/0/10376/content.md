@@ -105,7 +105,7 @@ The example of the [[Galileo 2-cocycle]] is discussed for instance in
 
 and in the broader context of [[WZW model]] terms in 
 
-* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.3 of _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* {#AzcarragaIzquierdo95} [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 8.3 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_ , Cambridge monographs of mathematical physics, (1995)
 
 following 
 
