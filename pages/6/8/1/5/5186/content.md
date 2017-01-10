@@ -261,7 +261,12 @@ express the [[parallel transport]] of the tangent vector along a physical trajec
 
 * [[sigma model]], [[brane]]
 
-  * [[particle]], **relativistic particle**, [[spinning particle]], [[superparticle]]
+  * [[particle]], 
+
+    **relativistic particle**, [[non-relativistic particle]],
+
+    [[spinning particle]], [[superparticle]]
+
 
   * [[string]], [[spinning string]], [[superstring]]
 
