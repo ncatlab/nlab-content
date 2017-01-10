@@ -1,4 +1,9 @@
 
+[[TheMTheoryAmoeba.jpg:file]]
+
+[[ComputationWithYoungTableaux.jpg:file]]
+
+[[OldBraneScan.jpg:file]]
 
 $$
   \begin{aligned}
