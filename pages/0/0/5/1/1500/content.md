@@ -124,6 +124,8 @@ Together 1 and 2 let you go between the two different obvious notions of semisim
 
 * [[Deligne's theorem on tensor categories]]
 
+* [[graded fusion category]]
+
 ## References ##
 
 Some classical references include
