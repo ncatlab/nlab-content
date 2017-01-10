@@ -99,3 +99,6 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 
 [[!redirects superstrings]]
+
+[[!redirects super-string]]
+[[!redirects super-strings]]
