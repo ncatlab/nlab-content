@@ -95,6 +95,8 @@ In conclusion, given a [[3d TQFT]] regarded as [[quantum gravity]] of 2+1-dimens
 
 * [[worldline]], [[worldline theory]]
 
+* [[non-relativistic particle]]
+
 * [[relativistic particle]], [[spinning particle]], [[superparticle]]
 
 * [[virtual particle]], [[antiparticle]]
