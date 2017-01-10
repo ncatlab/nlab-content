@@ -21,7 +21,7 @@
 
 ## Idea
 
-What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentian spacetime dimension 4,5,6, 11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
+What are called _Fierz identities_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentzian spacetime dimension 4,5,7,11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
 
 $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
@@ -372,7 +372,7 @@ Hence the claim follows from the fact that
 
 $$
   \begin{aligned}
-    582 
+    528 
      & = 11 + 55 + 462
     \\
     & =
@@ -398,7 +398,7 @@ Now we consider the [[direct sum]] decomposition of the [[tensor product of repr
 +-- {: .num_example #11dQuadrilinearCGCoefficients}
 ###### Example
 
-The group $Spin(10,1)$ has [[rank of a Lie group|rank]] 5, and hene its [[irreducible representation|irreducible]] vector representations are labeled by [[Young diagrams]] consisting of five rows. For instance
+The group $Spin(10,1)$ has [[rank of a Lie group|rank]] 5, and hence its [[irreducible representation|irreducible]] vector representations are labeled by [[Young diagrams]] consisting of five rows. For instance
 
 $$
   (2)^2 (1)^2 (0)
