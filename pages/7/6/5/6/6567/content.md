@@ -23,6 +23,8 @@ Often this is considered (only) for $n = 3$, which is the case pertaining to rig
 
 ## Related concepts
 
+* [[non-relativistic particle]]
+
 * [[Hamiltonian dynamics on Lie groups]]
 
   * **rigid body dynamics**
