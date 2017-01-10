@@ -171,9 +171,9 @@ in chapter V in vol III of
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 
-in section 6 of 
+in 
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, _Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics_ , Cambridge monographs of mathematical physics, (1995)
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
 
 with a brief summary in
 
