@@ -95,7 +95,7 @@ The topological properties of metric spaces fit well with those of inequality sp
 
 In analysis, many spaces are given as [[gauge spaces]], that is by families of pseudometrics; these also become inequality spaces by declaring that $x \ne y$ iff $d(x,y) \gt 0$ for some pseudometric $d$ in the family. (This will actually be a *tight* apartness iff the family of pseudometrics is separating.)
 
-Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).  However, we can generalize a bit beyond gauge spaces: any "located" uniform space becomes an inequality space by declaring that $x \ne y$ iff there is an entourage $U$ with $(x,y)\notin U$.  (If the uniform space is not located, the result is merely an [[inequality relation]], not an apartness.)
+Classically, any [[uniform space]] may be given by a family of pseudometrics, but this doesn\'t hold constructively. In particular, a topological group may not be an inequality group (as in the next section).  However, we can generalize a bit beyond gauge spaces: any [[uniformly regular uniform space]] becomes an inequality space by declaring that $x \ne y$ iff there is an entourage $U$ with $(x,y)\notin U$.  (If the uniform space is not uniformly regular, the result is merely an [[inequality relation]], not an apartness.)
 
 
 ### Relation to proximity spaces
