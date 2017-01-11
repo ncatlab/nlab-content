@@ -20,6 +20,7 @@
 
 * [[tachyon condensation]]
 
+* [[gravitino condensation]]
 
 ## References
 
