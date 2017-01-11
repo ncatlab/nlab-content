@@ -24,7 +24,7 @@ then this is known as the _[[WZW model]]_ describing a [[string]] that propagate
 Hence generally we may speak of _[[higher WZW models]]_ here.
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/OldBraneScan.jpg" width="300">
+<img src="https://ncatlab.org/nlab/files/OldBraneScan.jpg" width="350">
 </div>
 
 Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski spacetime]] defines a [[super p-brane]]
@@ -33,7 +33,7 @@ that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-t
 -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
 
 <div style="float:left;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="550">
+<img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="350">
 </div>
 
 Now in higher generalization of how an invariant 2-cocycle on some [[super Minkowski spacetime]] corresponds to a [[central extension|central]]
@@ -44,29 +44,29 @@ It turns out that on the [[super Lie n-algebra]] extensions defined by the cocyc
 make further invariant higher cocycles appear. Interpreting these in turn as [[higher WZW models]] for [[super p-branes]]
 it turns out that they correspond to the [[D-branes]] and to the [[M5-brane]] that appear in [[string theory]]/[[M-theory]].
 This generalizes the old [[brane scan]] to a tree-like structure of higher invariant extensions that may be called the
-_[[schreibr:brane bouqet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
-purely in terms of [[super Lie n-algebra]] theory.
+_[[schreibr:brane bouquet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
+purely in terms of [[super Lie n-algebra]] theory ([FSS 13](#FSS13)). 
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="300" />
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="400" />
 </div>
 
 Moreover, in turns out that on [[cocycles]] of [[super Lie n-algebras]] there is a natural [[higher Lie theory|higher Lie theoretic]]
 operation of _[[double dimensional reduction]]_: the image in [[rational homotopy theory]] of the [[adjunction unit]]
-for the [[free loop space]] [[adjunction]]. Applying this to the [[schreiber:brane bouquet]] turns out to yield
+for the "[[cyclic homology|cyclification]]" [[adjunction]] ([[free loop space]] [[homotopy quotient|homotopy quotiented]] by loop rotation). Applying this to the [[schreiber:brane bouquet]] turns out to yield
 relations between the super Lie $n$-algebraic cocycles that embody all the [[dualities in string theory]]
 at the level of [[rational homotopy theory]]:
 the [[KK-compactification]] from [[M-theory]] to [[type IIA string theory]], the [[T-duality]] of the latter to
-[[type IIB string theory]], the [[S-duality]] of the latter, and its relation  to [[F-theory]].
+[[type IIB string theory]], the [[S-duality]] of the latter, and its relation  to [[F-theory]] ([FSS 16a](#FSS16a), [FSS 16b](#FSS16b)).
 
-Notice that all this concerns _fundamental_ [[super p-branes]] (sometimes referred to as "probe $p$-branes") 
+Notice that all this concerns _fundamental_ [[super p-branes]] (sometimes referred to as "probe $p$-branes")
 -- in generalization of "[[fundamental particles]]" and "fundamental string" --
 and in contrast to "solitonic $p$-branes" or "[[black p-branes|black branes]]".
 In fact the [[black branes]] (that appear for notably in the [[AdS/CFT correspondence]]) follow from
 the fundamental [[super p-branes]]: their [[worldvolumes]] are the [[BPS state]] solutions to the [[supergravity]] [[equations of motion]]
-which express but the consistent globalization of the fundamental [[super p-brane]] [[sigma models]] 
+which express but the consistent globalization of the fundamental [[super p-brane]] [[sigma models]]
 ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)), and moreover their [[worldvolume]] theories
-are but the [[perturbation theory]] of the fundamental [[super p-branes]] about these asymptotic singular loci 
+are but the [[perturbation theory]] of the fundamental [[super p-branes]] about these asymptotic singular loci
 ([Claus-Kallosh-vanProeyen 97](#ClausKalloshProeyen97), [Claus-Kallosh-Kumar-Townsend 98](#ClausKalloshKumarTownsend98)).
 
 
@@ -84,7 +84,7 @@ In conclusion then, a fair bit of the structure of [[string theory]]/[[M-theory]
 is (re-)discovered by a systematic classification of the consecutive invariant higher extension
 of the [[superpoint]] in [[super Lie n-algebra]] [[homotopy theory]]. This is what we discuss here.
 
-<div style="float:left;margin:0 10px 10px 0;">
+<div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/ComputationWithYoungTableaux.jpg" width="300">
 </div>
 
@@ -790,7 +790,7 @@ $$
   \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right)
   \wedge
   \left(\overline{\psi} \wedge \Gamma^b \psi\right)
-  
+
   \;=\;
   0
   \,.
@@ -4997,13 +4997,13 @@ The recognition of some [[Fierz identities]] as cocycle conditions defining the 
 * {#BLNPST97} [[Igor Bandos]], [[Kurt Lechner]], Alexei Nurmagambetov, [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Covariant Action for the Super-Five-Brane of M-Theory_, Phys. Rev. Lett. 78 (1997) 4332-4334 ([arXiv:hep-th/9701149](http://arxiv.org/abs/hep-th/9701149))
 
 The identification of the [[worldvolume]] [[conformal field theories]] on solitonic branes ([[black branes]])
-as the [[perturbation theory]] of fundamenal [[super p-branes]] about asymptotic singular loci in [[BPS state]] 
+as the [[perturbation theory]] of fundamenal [[super p-branes]] about asymptotic singular loci in [[BPS state]]
 [[supergravity]] solutions is due to
 
 * {#ClausKalloshProeyen97} Piet Claus, [[Renata Kallosh]], [[Antoine Van Proeyen]], _M 5-brane and superconformal $(0,2)$ tensor multiplet in 6 dimensions_, Nucl.Phys. B518 (1998) 117-150 ([arXiv:hep-th/9711161](http://arxiv.org/abs/hep-th/9711161))
 
 * {#ClausKalloshKumarTownsend98} Piet Claus, [[Renata Kallosh]], J. Kumar, [[Paul Townsend]], [[Antoine Van Proeyen]], _Conformal Theory of M2, D3, M5 and 'D1+D5' Branes_, JHEP 9806 (1998) 004 ([arXiv:hep-th/9801206](http://arxiv.org/abs/hep-th/9801206))
- 
+
 * {#AFFFTT98} Gianguido Dall'Agata, Davide Fabbri, Christophe Fraser, [[Pietro Fré]], Piet Termonia, Mario Trigiante, _The $Osp(8|4)$ singleton action from the supermembrane_, Nucl.Phys.B542:157-194, 1999 ([arXiv:hep-th/9807115](http://arxiv.org/abs/hep-th/9807115))
 
 * {#PastiSorokinTonin99} [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_, Talk given by D.S. at the International Workshop ``Supersymmetry and Quantum Symmetries'', JINR, Dubna, Russia, July 26-31, 1999 ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
