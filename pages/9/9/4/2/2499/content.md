@@ -772,13 +772,15 @@ the expected term $r^c \wedge r^c \wedge r^c$.
 ## References 
  {#References}
 
-Precursors are
-
 The formulation of supergravity of [[supermanifolds]] and the relevance of the [[Bianchi identities]] originates in
 
 * R. Grimm, [[Julius Wess]], [[Bruno Zumino]], _A complete solution of the Bianchi identities in superspace with supergravity constraints_, Nuclear Phys. B152 (1979), 255&#8211;265.
 
 * [[Julius Wess]] [[Bruno Zumino]], _Superspace formulation of supergravity_, Phys. Lett. B66 (1977), 361&#8211;364.
+
+The use in this context of [[super L-∞ algebras]] in their [[formal dual]] incarnation [[semifree dga|semifree]] super-graded commutative [[dg-algebras]] was suggested originally in
+
+* {#Nieuwenhuizen82} [[Peter van Nieuwenhuizen]], _Free Graded Differential Superalgebras_, in *Istanbul 1982, Proceedings, Group Theoretical Methods In Physics*, 228-247 and CERN Geneva - TH. 3499 ([spire](http://inspirehep.net/record/182644/))
 
 The original articles that introduced specifically the D'Auria-Fr&#233;-formalism are
 
@@ -786,8 +788,7 @@ The original articles that introduced specifically the D'Auria-Fr&#233;-formalis
 
 * {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]], _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 ([[GeometricSupergravityErrata.pdf:file]]) 
 
-* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauging of $d = 11$ supergravity?_, Annals of Physics
-Volume 146, Issue 1, March 1983, Pages 35&#8211;77
+* {#CFGPN83} [[Leonardo Castellani]], [[Pietro Fré]], F. Giani, K. Pilch, [[Peter van Nieuwenhuizen]], _Gauging of $d = 11$ supergravity?_, Annals of Physics Volume 146, Issue 1, March 1983, Pages 35&#8211;77
 
 The standard textbook monograph on [[supergravity]] in general and this formalism is particular is
 
