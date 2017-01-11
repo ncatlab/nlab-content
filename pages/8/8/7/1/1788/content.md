@@ -1,4 +1,42 @@
 
+$$
+  \begin{aligned}
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; \psi^\alpha
+      & \coloneqq
+      \left(\tfrac{1}{4}\omega^{a b} \Gamma_{a b} \psi \right)^\alpha
+      \\
+      & \coloneqq
+      \left(\tfrac{1}{4} (\Gamma_{a b})^\alpha{}_{\beta} \right) \omega^{a b} \wedge \psi^\beta
+    \\
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; e^a 
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi - \omega^a{}_b \wedge e^b
+    \\
+    & \coloneqq   
+       \left(
+           C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta
+       \right)  
+       \psi^\alpha \wedge \psi^\beta - \omega^a{}_b \wedge e^b
+    \\
+  \end{aligned}
+    \,,
+$$
+
+
+$$
+  \begin{aligned}
+    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha & 
+      \coloneqq 
+      0
+    \\
+    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a 
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi
+    \\
+    & \coloneqq   \left(C_{\alpha \alpha'} (\Gamma^a)^{\alpha'}{}_\beta\right)  \psi^\alpha \wedge \psi^\beta
+  \end{aligned}
+    \,,
+$$
+
+
 [[TheMTheoryAmoeba.jpg:file]]
 
 [[ComputationWithYoungTableaux.jpg:file]]
