@@ -56,6 +56,12 @@ The $N=1$-version arises from [[KK-reduction]] via [[M-theory on G2-manifolds]].
 
 ## References
 
+4d Supergravity was the first [[supergravity]] theory to be constructed, in
+
+* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+
+See also at _[supergravity -- History](supergravity+History)_.
+
 ### Geometric construction
 
 Discussion in the [[D'Auria-Fré formulation of supergravity]] includes
