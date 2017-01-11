@@ -40,6 +40,11 @@ on [[spacetime]] with values in the [[super Poincare Lie algebra]]. Its componen
 
 The name derives from the fact that the other two comonents are identified in [[gravity]] with the [[graviton]] field.
 
+## Related concepts
+
+* [[gravitino condensation]]
+
+
 ## References
 
 Discussion of the gravitiono as a [[dark matter]] candidate is in  
