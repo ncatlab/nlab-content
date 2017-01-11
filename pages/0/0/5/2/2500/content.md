@@ -323,6 +323,8 @@ in  ([Dalianis-Farakos 15](#DalianisFarakos15)) it is argued that the [[Starobin
 
 ## Related concepts
 
+* [[gravitino condensation]]
+
 * [[gauged supergravity]]
 
 * [[magic supergravity]]
@@ -462,6 +464,16 @@ A survey of the [[Chern-Simons gravity]]-style action functionals for supergravi
 
 
 ### History
+ {#History}
+
+Supergravity, in the guise of [[4d supergravity]], was first found (constructed) in
+
+* {#FreedmanNieuwenhuizenFerrara76} [[Daniel Freedman]], [[Peter van Nieuwenhuizen]], [[Sergio Ferrara]], _Progress toward a theory of supergravity_, Phys. Rev. D13 (1976) 3214 ([doi.org/10.1103/PhysRevD.13.3214](https://doi.org/10.1103/PhysRevD.13.3214))
+
+
+Accounts of the early history include the following:
+
+* [[Sergio Ferrara]], _Supergravity and the quest for a unified theory_ ([arxiv:hep-th/9405065](https://arxiv.org/abs/hep-th/9405065))
 
 * R. Arnowitt, [[Ali Chamseddine]], Pran Nath, _The Development of Supergravity Grand Unification: Circa 1982-85_ ([arXiv:1206.3175](http://arxiv.org/abs/1206.3175))
 
