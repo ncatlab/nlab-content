@@ -45,3 +45,5 @@ All the standard introductory texts on [[string theory]] have sections devoted t
 
 [[!redirects light-cone gauge]]
 [[!redirects light cone gauge]]
+[[!redirects lightcone gauge]]
+
