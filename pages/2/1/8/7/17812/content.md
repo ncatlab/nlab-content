@@ -57,7 +57,7 @@ odd-graded coordinates correspond to the configurations of the [[fermion]] field
  $$
  (which of course immediately implies the [[Pauli exclusion principle]]).
  This is the celebrated _[[spin-statistics theorem]]_, whose formulation goes back to
- [Fierz in 1939](#Fierz39) and [Pauli in 1940](#Pauli40).
+ [Fierz in 1939](#Fierz39) and [Pauli in 1940](#Pauli40). And that sign rule is of course precisely the sign rule in a [[supercommutative superalgebra]], for the fermion field observables $\psi_i$ being odd-graded functions on a supergeometric [[phase space]].
 
  Notice that this phenomenon is not a negligible subtlety: the [[Pauli exclusion principle]]
  is what implies [[stability of matter]] by forcing [[electrons]] in an [[atom]] to fill up
@@ -92,14 +92,20 @@ Texts which do make the super-geometric nature of [[fermion fields]] explicit in
 
 This we discuss elsewhere.
 
+$\,$
+
+$\,$
 
 #Supergeometry#
 * table of contents
 {:toc}
 
 
+$\,$
 
-In the section _[[geometry of physics -- superalgebra]]_ we discussed the [[category]] of **[[affine super schemes]]**
+$\,$
+
+In the section _[[geometry of physics -- superalgebra]]_ we had discussed the [[category]] of **[[affine super schemes]]**
 (in [this definition](geometry+of+physics+--+superalgebra#AffineSuperSchemes))
 
 $$
@@ -179,7 +185,7 @@ $$
 $$
 
 is the $\mathbb{R}$-algebra [[free functor|freely]] generated from $q$ generators $\{\theta_i\}_{i = 1}^q$
-(now regarded as being in odd degree), subject to the relations
+(now rgarded as being in odd degree), subject to the relations
 
 $$
   \theta_i \theta_j = - \theta_j \theta_i
@@ -2202,12 +2208,12 @@ $$
     \;\coloneqq\;
   \wedge^\bullet_{C^\infty(X)} \Gamma_X(E)
   =
-  C^\infty(X) 
-    \;\oplus\; 
-  \Gamma_X(E^\ast) 
-    \;\oplus\; 
+  C^\infty(X)
+    \;\oplus\;
+  \Gamma_X(E^\ast)
+    \;\oplus\;
   \left(\Gamma_X(E^\ast) \wedge_{C^\infty(X)} \Gamma_X(E^\ast)\right)
-    \;\oplus\; 
+    \;\oplus\;
   \cdots
 $$
 
@@ -2794,7 +2800,7 @@ A [[super Lie algebra]] is equivalently
    $$
 
    which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
-   
+
    $$
      [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
      \,,
@@ -2815,7 +2821,6 @@ prop. \ref{LieAlgValuedFormsViaDgAlgHoms}, what _super Lie algebra valued super 
 
 +-- {: .num_defn #SuperLieAlgValuedDiffForms}
 ###### Definition
-
 
 Given a [[super Lie algebra]] $\mathfrak{g}$, def. \ref{SuperLieAlgebraViaCE}, prop. \ref{SuperLieAlgebraTraditional}, then a $\mathfrak{g}$-valued super-differential form on the [[super Cartesian space]] $\mathbb{R}^{p|q}$ is a $(\mathbb{Z},\mathbb{Z}_2)$-graded dg-algebra homomorphism
 
