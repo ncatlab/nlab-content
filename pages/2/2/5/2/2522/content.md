@@ -58,7 +58,7 @@ The analog of these Killing vectors in [[supergravity]] are [[Killing spinor]]s:
 [[spinor bundle]] annihilated by the [[spin connection]]'s [[covariant derivative]]).
 For every such, the background has one global supersymmetry transformation. These may or may not exist. Generically they do not.
 
-The most famous example of this is that of [[Calabi-Yau manifolds]]: a  standard assumption on [[phenomenological|phenomenology]] [[model building]] that used to be very popular around the turn of the millenium (but is maybe experimentally ruled out at the time of this writing) is that 
+The most famous example of this is that of [[Calabi-Yau manifolds]]: a  standard assumption on [[phenomenology|phenomenological]] [[model building]] that used to be very popular around the turn of the millenium (but is maybe experimentally ruled out at the time of this writing) is that 
 
 1. the [[spacetime]] we see around us locally looks like a product $M^4 \times Y^6$ of 4-dimensional [[Minkowski space]] times a tiny closed [[Riemannian manifold]] $Y^6$ (so tiny that it is not directly observable but manifests itself only by way of its lowest excitation modes that look like different [[particle]] species on the remaining $M^4$ -- see [[Kaluza-Klein mechanism]] );
 
@@ -120,11 +120,12 @@ Moreover, since various observables in supersymmetric QFTs are easier to compute
 Therefore, if nothing else, supersymmetric quantum field theories constitute a part of the whole space of quantum field theories which is useful for understanding general properties of that space. What is however still missing is any experimental evidence that the world is fundamentally described by a supersymmetric quantum field theory.
 
 ## Definition
+ {#Definition}
 
 
-We start by saying what it means, in generality, to have a supersymmetric extension of an ordinary symmetry.
-Here we are concerned with [[symmetry groups]] that are [[Lie groups]], and we start by considering
-only the infinitesimal approximation, hence their [[Lie algebras]].
+We start by saying what it means, in generality, to have a supersymmetric extension of an ordinary symmetry, then we specialize to spacetime supersymmetry.
+
+Here we are concerned with [[symmetry groups]] that are [[Lie groups]], and we start by considering only the infinitesimal approximation, hence their [[Lie algebras]].
 
 To discuss super-extensions of Lie algebras, recall from _[[geometry of physics -- supergeometry]]_ the concept of _[[super Lie algebras]]_:
 
@@ -511,6 +512,253 @@ related. The [[super Poincaré Lie algebras]] at least in certain dimensions are
 they are precisely the result of iterative maximal invariant [[central extensions]] of the superpoint.
 
 =--
+
+Now we write out the supersymmetry algebra thus obtained more explicitly.
+In all of the following it is most convenient to regard [[super Lie algebras]] dually  via their [[Chevalley-Eilenberg algebras]]:
+
++-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
+
+$$
+  \wedge^\bullet  \mathfrak{g}^\ast
+$$
+
+equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
+
+$$
+  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+$$
+
+and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
+
+$\,$
+
+Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
+
+For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
+the [[signs in supergeometry|sign rule]] is
+
+$$
+  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
+
+=--
+
+We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
+[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
+
+
+The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
+[[Lie algebra cohomology]]:
+
++-- {: .num_defn #SuperLieAlgebraCohomology}
+###### Definition
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, then
+
+1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
+
+1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
+
+1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+   $$
+     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
+     \,.
+   $$
+
+=--
+
+
+
+The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The functor
+
+$$
+  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
+$$
+
+that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
+(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
+as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
+
+=--
+
+
+
+
+
+
+
++-- {: .num_defn #SuperMinkowskiSpacetime}
+###### Definition
+
+Let 
+
+$$
+  d \in \mathbb{N}
+$$ 
+
+be a [[spacetime]] [[dimension]] and let 
+
+$$
+  N \in Rep_{\mathbb{R}}(Spin(d-1,1))
+$$
+
+be a [[real spin representation]] of the [[spin group]] cover $Spin(d-1,1)$ of the [[Lorentz group]] $O(d-1,1)$
+in this dimension. Then the _$d$-dimensional $N$-supersymmetric [[super-Minkowski spacetime]]_ $\mathbb{R}^{d-1,1|N}$
+is the [[super Lie algebra]] that is characterized by the fact that its [[Chevalley-Eilenberg algebra]]
+$CE(\mathbb{R}^{d-1,1})$
+is as follows:
+
+The algebra has generators (as an [[associative algebra]] over $\mathbb{R}$)
+
+$$
+   \underset{deg = (1,even)}{\underbrace{e^a}}
+   \;\;\;\;
+   \text{and}
+   \;\;\;\;
+   \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}}
+$$
+
+for $a \in \{0,1,2, \cdots, 9\}$ and $\alpha \in \{1, 2, \cdots dim_{\mathbb{R}}(N)\}$ subjects to the [[generators and relations|relations]]
+
+$$
+  \begin{aligned}
+    e^a \wedge e^b = - e^b \wedge e^a
+    \\
+    \psi^\alpha \wedge \psi^\beta = + \psi^\beta \wedge \psi^\alpha
+    \\
+    e^a \wedge \psi^\alpha = - \psi^\alpha \wedge e^a
+  \end{aligned}
+$$
+
+(see at _[[signs in supergeometry]]_), and the [[differential]] $d_{CE}$ acts on the generators as follows:
+
+$$
+  \begin{aligned}
+    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha & 
+      \coloneqq 
+      0
+    \\
+    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a 
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi
+    \\
+    & \coloneqq   \left(C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta\right)  \psi^\alpha \wedge \psi^\beta
+  \end{aligned}
+    \,,
+$$
+
+where 
+
+1. $\overline{\psi} \wedge \Gamma^a \psi$ denotes the $a$-component of the $Spin(d-1,1)$-invariant spinor bilinear pairing $N \otime N \to \mathbb{R}^d$ that comes with every [[real spin representation]] applied to $\psi \wedge \psi$ regarded as an $N \otimes N$-valued form;
+
+1. hence in components (if $N$ is a [[Majorana spinor]] representation, by [this prop.](geometry+of+physics+--+supersymmetry#SpinorToVectorBilinearPairing)):
+
+   1. $C = (C_{\alpha \alpha'})$ is the [[charge conjugation matrix]] (as discussed at _[[Majorana spinor]]_);
+
+   1. $\Gamma^a = ((\Gamma^a)^{\alpha}{}_\beta)$ are the [[matrices]] representing the [[Clifford algebra]] action on $N$ in the [[linear basis]] $\{\psi^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N)}$
+
+1. [[Einstein summation convention|summation over paired indices]] is understood.
+
+That this indeed yields a [[super Lie algebra]] follows by the symmetry and equivariance of the bilinear spinor pairing (via [this prop.](geometry+of+physics+--+supersymmetry#SpinorToVectorPairing)).
+
+There is a canonical [[Lie algebra action]] of the [[special orthogonal Lie algebra]] 
+
+$$
+  Lie(Spin(d-1,1)) \simeq \mathfrak{so}(d-1,1)
+$$
+
+on $\mathbb{R}^{d-1,1\vert 1}$. The _$N$-supersymmetric [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})$ in dimension $d$_ is the [[super Lie algebra]] which is the [[semidirect product Lie algebra]] of this [[Lie algebra action]]
+
+$$
+  \mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})
+   =
+  \mathbb{R}^{d-1,1\vert N} \rtimes \mathfrak{so}(d-1,1)
+  \,.
+$$
+
+This is characterized by the fact that its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N}))$
+is as follows: 
+
+it is [[generators and relations|generated]] from elements 
+
+$$
+   \underset{deg = (1,even)}{\underbrace{e^a}}
+   \;\;\;\;
+   and
+   \;\;\;\;
+   \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}}
+   \;\;\;\;
+   and
+   \;\;\;\;
+   \underset{deg = (1,even)}{\underbrace{\omega^{a b} = - \omega^{b a}}}
+$$
+
+with the [[super vielbein]] $(e^a, \psi^\alpha)$ as before, and with $\omega^{a b}$ the 
+[[dual basis]] of the induced [[linear basis]] for vectro space of skew-symmetric matricces 
+underlying the [[special orthogonal Lie algebra]]. The commutation relations are as before, 
+together with the relation that the generators $\omega^{a b}$ anti-commute with every generator.
+Finally the [[differential]] $d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})}$ acts on 
+these generators as follows:
+
+$$
+  \begin{aligned}
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; \psi^\alpha
+      & \coloneqq
+      \left(\tfrac{1}{4}\omega^{a b} \Gamma_{a b} \psi \right)^\alpha
+      \\
+      & \coloneqq
+      \left(\tfrac{1}{4} (\Gamma_{a b})^\alpha{}_{\beta} \right) \omega^{a b} \wedge \psi^\beta
+    \\
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; e^a
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi - \omega^a{}_b \wedge e^b
+    \\
+    & \coloneqq
+       \left(
+           C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta
+       \right)
+       \psi^\alpha \wedge \psi^\beta - \omega^a{}_b \wedge e^b
+    \\
+  \end{aligned}
+    \,,
+$$
+
+
+where we are shifting spacetime indicices with the Lorentz metric
+
+$$
+  (\eta_{a b}) \coloneqq diag(-1,1,1,\cdots, 1)
+  \,.
+$$
+
+The canonical maps between these [[super Lie algebras]], dually between their [[Chevalley-Eilenberg algebras]], that send each generator to itself, if present, or to zero if not, constitute the [[diagram]]
+
+$$
+  \array{
+    \mathbb{R}^{d-1,1\vert N}
+      &\hookrightarrow&
+    \mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})
+    \\
+    && \downarrow
+    \\
+    && \mathfrak{so}(d-1,1)
+  }
+  \,.
+$$
+
+=--
+
+
 
 
 ## Properties
