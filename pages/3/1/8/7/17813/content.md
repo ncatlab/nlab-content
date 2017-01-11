@@ -15,10 +15,10 @@ $\,$
 A remarkable consequence of the general fact that [[supergeometry]] is slightly
 [[non-commutative geometry|non-commutative]] is that [[super Minkowski spacetimes]],
 regarded as the translational part of [[supersymmetry]] [[super Lie algebras]],
-carry non-trivial higher [[spin group|spin]]-[[invariant|invariance]] [[cocycles]] in super-[[Lie algebra cohomology]].
+carry non-trivial higher [[spin group|spin]]-[[invariant]] [[cocycles]] in super-[[Lie algebra cohomology]].
 Generally, invariant $(p+2)$-cocycles on [[cosets]] $X$ induce interesting
 [[action functionals]] for $p+1$-dimensional [[sigma-model]] [[field theories]]
-with [[target space]] $X$, hence for _fundamental $p$-[[branes]]_, in a general sense,
+with [[target space]] $X$. These encode the [[dynamics]] of _fundamental $p$-[[branes]]_, in a general sense,
 that propagate on (or "in") the space(-time) $X$. For $p = 1$ and $X$ the coset of a [[compact Lie group]],
 then this is known as the _[[WZW model]]_ describing a [[string]] that propagates on $X$.
 Hence generally we may speak of _[[higher WZW models]]_ here.
@@ -28,9 +28,8 @@ Hence generally we may speak of _[[higher WZW models]]_ here.
 </div>
 
 Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski spacetime]] defines a [[super p-brane]]
-[[sigma model]], and these happen to be just the _fundamental [[Green-Schwarz superstring]]_ and the _fundamental [[supermembrane]]_
-that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is originally for "membrane theory")
--- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
+[[sigma model]]. These happen to be the _fundamental [[Green-Schwarz superstring]]_ and the _fundamental [[supermembrane]]_
+that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is originally a "non-committal shorthand" for "membrane theory" [(Ho&#345;ava-Witten 95, p. 2](#M-theory#NonCommittal)) -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="350">
@@ -44,11 +43,11 @@ It turns out that on the [[super Lie n-algebra]] extensions defined by the cocyc
 make further invariant higher cocycles appear. Interpreting these in turn as [[higher WZW models]] for [[super p-branes]]
 it turns out that they correspond to the [[D-branes]] and to the [[M5-brane]] that appear in [[string theory]]/[[M-theory]].
 This generalizes the old [[brane scan]] to a tree-like structure of higher invariant extensions that may be called the
-_[[schreibr:brane bouquet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
-purely in terms of [[super Lie n-algebra]] theory ([FSS 13](#FSS13)). 
+_[[schreiber:brane bouquet]]_ of [[string theory]]/[[M-theory]], since it neatly organizes the complete [[super p-brane]] content
+purely in terms of [[super Lie n-algebra]] theory ([FSS 13](#FSS13)).
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="400" />
+<img src="https://ncatlab.org/schreiber/files/BraneBouquetWithDualities.jpg" alt="the brane bouquet" width="500" />
 </div>
 
 Moreover, in turns out that on [[cocycles]] of [[super Lie n-algebras]] there is a natural [[higher Lie theory|higher Lie theoretic]]
@@ -74,7 +73,7 @@ are but the [[perturbation theory]] of the fundamental [[super p-branes]] about 
 <img src="https://ncatlab.org/nlab/files/TheMTheoryAmoeba.jpg" alt="the brane bouquet" width="300" />
 </div>
 
-Hence a fair bit of [[string theory]]/[[M-theory]] is (re-)discovered by systematic classification of
+Hence a fair bit of the folklore structure of [[string theory]]/[[M-theory]] is (re-)discovered by systematic classification of
 the invariant higher extensions of
 [[super Minkowski spacetimes]] in [[super Lie n-algebra]] [[homotopy theory]]. But by the
 discussion at _[[geometry of physics -- supersymmetry]]_, the relevant [[super-Minkowski spacetimes]]
@@ -88,11 +87,16 @@ of the [[superpoint]] in [[super Lie n-algebra]] [[homotopy theory]]. This is wh
 <img src="https://ncatlab.org/nlab/files/ComputationWithYoungTableaux.jpg" width="300">
 </div>
 
-Computationally, it so happens that all the these cocycles in the [[schreiber:brane bouquet]] exist
-due to special _[[Fierz identities]]_, namely due to special spinoral higher [[Clebsch-Gordan coefficients]] that
-express the (tensor-)product operation in the [[real spin representation|real]] [[representation ring]] of the [[spin groups]]
-in the given dimensions. Hence there is a tight interplay between spinorial [[representation theory]]
-(discussed [below](##SuperMinowskiSpacetimes)) and [[higher Lie theory]].
+Computationally, all the these cocycles in the [[schreiber:brane bouquet]] exist
+due to special _[[Fierz identities]]_ (which we discuss [below](#FierzIdentities)), 
+namely due to special spinoral higher [[Clebsch-Gordan coefficients]] that
+express the [[tensor product of representations|tensor-product]] operation in the [[real spin representation|real]] [[representation ring]] of the [[spin groups]]
+in the given dimensions ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82), [D'Auria-Fr&#233; 82a](#DAuriaFre82a), 
+[D'Auria-Fr&#233; 82b](#DAuriaFre82b))). 
+
+Hence there is a tight interplay between spinorial [[representation theory]], [[superalgebra|super-algebraic]] [[higher Lie theory]],
+[[spacetime]] that gives rise to a finite system of [[universal exceptionalism|exceptional]] structures: the [[super p-branes]]. 
+This is what we discuss here.
 
 
 $\,$
@@ -111,43 +115,62 @@ $\,$
 
 
 
-## Motivation and survey
+## History and background
 
-The _[[Green-Schwarz action functional]]_ is an [[action functional]] for a [[sigma-model]] that describes the propagation of a fundamental $p$-[[brane]] $\Sigma$ on a [[supermanifold]] [[spacetime]].
+Below we present fundamental [[super p-branes]] as [[universal exceptionalism|exceptional]] 
+algebro-geometric structures that are discovered by applying the magnifying glass 
+(namely a [[Whitehead tower]] construction) of [[super Lie n-algebra]] [[homotopy theory]]
+to the atom of [[superspace]]: the [[superpoint]], following ([FSS 13](#FSS13), [FSS 15](#FSS15), [FSS 16a](#FSS16a), [FSS 16b](#FSS16b)).  
 
-* For $p = 0$ this is the **Green-Schwarz [[superparticle]]**.
+This is not the perspective from which [[super p-branes]] were arrived at historically. In order
+to put our discussion into perspective, here we briefly review some of the historical background.
 
-* For $p = 1$ the **Green-Schwarz [[superstring]]** (at the center of attention in [[string theory]]). This model is in contrast to the _[[NSR-string]]_ model, which instead has manifest [[worldsheet]] [[supersymmetry]]. See at _[[superstring]]_ for more on this.
-
+$\,$
 
 [[perturbation theory|Perturbative]] [[string theory]] on geometric backgrounds is defined by the [[Neveu-Schwarz-Ramond model]], namely by [[sigma-model]] [[2d super conformal field theories]] (of [[central charge]] 15) on [[worldsheets]] $\Sigma$ that are [[super Riemann surfaces]], with [[target spaces]] $X$ that are ordinary (i.e. "bosonic") [[spacetime]] [[manifolds]].
 
-These worldsheet field theories are induced from _[[action functionals]]_, namely variants of the standard [[energy functional]] ([[Polyakov action]]) on the space $[\Sigma,X]$ of smooth functions
+These [[worldsheet]] [[field theories]] are induced from _[[action functionals]]_, namely from variants of the standard [[energy functional]] ([[Polyakov action]]) on the [[mapping space]] $[\Sigma,X]$ of smooth functions
 
 $$
   \phi \;\colon\; \Sigma \longrightarrow X
-  \,.
 $$
 
-The central theorem of perturbative superstring theory says that the spectrum of such a 2d SCFT are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
+from the [[worldsheet]] $\Sigma$ to target [[spacetime]] $X$.
 
-This is the fundamental prediction of the assumption of fundamental strings: assuming 1) that the particles that run in [[Feynman diagrams]] are fundamentally strings, and demanding 2) that there are fermionic particles among these, first implies that the strings must be [[spinning strings]] (have fermions on their worldsheet), which implies that they are [[superstrings]] (worldsheet [[supersymmetry]] mixes the worldsheet bosons and fermions), which then in addition implies that their target space [[effective field theory]] is [[supergravity]], hence that also the effective target space fields exhibit local supersymmetry.
+The central theorem of perturbative superstring theory 
+(the no ghost theorem with[[GSO projection]]) says that the excitation spectrum of such a [[2d SCFT]] are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
 
-$$
-  \underset{spinning\; string}{\underbrace{fermions \;+\; strings}}
-  \;=\;
-  superstring \;\Rightarrow\; supergravity
-  \,.
-$$
+This is the fundamental prediction of the assumption of fundamental strings: 
 
-The first step in this implications (spinning string is superstring) is straightforward, but the second step appears as a miracle from the point of view of the NSR string. It comes out this way by non-trivial computation, but is not manifest in the theory.
+1. assuming that the [[fundamental particles]] that run in [[Feynman diagrams]] are fundamentally (at high energy) the ground state modes of a fundamental [[string]],
 
-In order to improve on this situation, Green and Schwarz searched and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]]  that would manifestly exhibit spacetime supersymmetry. This is now called the _[[Green-Schwarz action functional]]_.
+1. demanding that there are [[fermion|fermionic]] particles among these, 
+
+implies 
+
+1. that the string must be the [[spinning string]] (have fermions in its [[worldsheet]] theory), which in turn implies...
+
+1. that it is the [[superstring]] (worldsheet [[supersymmetry]] mixes the worldsheet bosons and fermions), precisely: the [[Neveu-Schwarz-Ramond superstring]], which then in addition implies...
+
+1. that its [[target space]] [[effective field theory]] is a [[supergravity]] theory, hence that also the effective target space fields exhibit _local_ [[supersymmetry]] (i.e. "high energy supersymmetry", different from "low energy supersymettry" that the [[LHC]] was looking for).
+
+| main theorem of [[perturbative string theory|perturbative super-string theory]] |
+|-------------------------------------------------------------------------------------------------|
+| $ \underset{\text{spinning string}}{\underbrace{\text{fermions} \;+\; \text{strings}}} \;=\; \text{superstring} \;\Rightarrow\; \text{supergravity} $ |
+
+The first step in this implication (identifying the [[spinning string]] as the [[superstring]]) is fairly straightforward
+(in fact this is how the concept of [[supersymmetry]] was discovered in "the west", in the first place), 
+but the second step (that the superstring excitations necessarily are quanta of a [[spacetime]] [[supergravity]] theory) 
+appears as a miracle from the point of view of the [[Neveu-Schwarz-Ramond superstring]].
+It comes out this way by non-trivial computation, but is not manifest in the theory.
+
+In order to improve on this situation, [[Michael Green]] and [[John Schwarz]] searched for and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]] that would manifestly exhibit [[spacetime]] [[supersymmetry]]. 
+Acordingly, the this is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
 |----|---|
-| [[Ramond-Neveu-Schwarz string]] | on [[worldsheet]]  |
-| Green-Schwarz string | on [[target space|target]] [[spacetime]] |
+| [Neveu-Ramond-Schwarz super-string]] | on [[worldsheet]]  |
+| Green-Schwarz super-string | on [[target space|target]] [[spacetime]] |
 
 The basic idea is to pass to the evident [[supergeometry|supergeometric]] analogue of the bosonic string action:
 
@@ -161,18 +184,20 @@ $$
   \mathbb{R}/_{\hbar}\mathbb{Z}
 $$
 
-on the [[smooth space|smooth]] [[mapping space]] $[\Sigma,X]$ of [[smooth functions]] $\Sigma \to X$, that simply assigns the proper relativistic [[volume]] of the image of the [[worldsheet]] $\Sigma$ in [[spacetime]]:
+on the [[smooth space|smooth]] [[mapping space]] $[\Sigma,X]$ (of [[smooth functions]] $\Sigma \to X$), that simply assigns the proper [[relativity|relativistic]] [[volume]] of the image of the [[worldsheet]] $\Sigma$ in [[spacetime]]:
 
 $$
   (\Sigma\overset{\phi}{\longrightarrow} X)
     \;\mapsto\;
+  S_{kin}(\phi)
+  \coloneqq
   \int_\Sigma vol_{\phi^\ast g}
   \,.
 $$
 
-(This is the _[[Nambu-Goto action]]_. It is classically equivalently to the [[Polyakov action]] which is the genuine starting point for the quantum [[Neveu-Schwarz-Ramond string]]. Howver, since, as we discuss below, the Green-Schwarz action naturally generalizes to that of other $p$-[[branes]] it is more natural to consider the Nambu-Goto form of the action here.)
+(This is the _[[Nambu-Goto action]]_. It is classically equivalently to the [[Polyakov action]] which is the genuine starting point for the quantum [[Neveu-Ramond-Schwarz super-string]]. Howver, since, as we discuss below, the Green-Schwarz action naturally generalizes to that of other [[p-branes]] it is more natural to consider the Nambu-Goto form of the action here.)
 
-When here $(X,g)$ is generalized to a [[superspacetime]] [[supermanifold]] with [[orthogonal structure]] encoded by a [[super-vielbein]] $e$ (see at _[[super Cartan geometry]]_ for details), then the same form of the action functional still makes sense and produces a functional on the [[supergeometry|supergeometric]] [[mapping space]] $[\Sigma,X]$. Moreover, by construction this action functional is invariant under the [[superisometry group]] of $(X,g)$, hence under spacetime [[supersymmetry]].
+When here $(X,g)$ is generalized to a [[superspacetime]] [[supermanifold]] with [[orthogonal structure]] encoded by a [[super-vielbein]] $e$, then the same form of the action functional still makes sense and produces a functional on the [[supergeometry|supergeometric]] [[mapping space]] $[\Sigma,X]$. Moreover, by construction this action functional now is invariant under the [[superisometry group]] of $(X,g)$, hence under global spacetime [[supersymmetry]].
 
 
 $$
@@ -191,14 +216,30 @@ $$
 }
 $$
 
-However, Green and Schwarz noticed that this [[kinetic action]] functional $\phi \mapsto \int_\Sigma vol_{\phi^\ast e}$ does _not_ quite yield dynamics that is equivalent to that of the NSR string: when the [[equations of motion]] hold ("on shell") it has more fermionic degrees of freedom than present in the NSR string. The key insight of Green and Schwarz was that one may add an extra summand to the action functional to the plain super-Nambu-Goto action, such that the resulting functional enjoys a further 1-parameter symmetry, called _[[kappa-symmetry]]_,  and such that restricting to the $\kappa$-symmetric states, then the action functionals do become classically equivalent.
+However, [[Michael Green|Green]] and [[John Schwarz|Schwarz]] noticed that this [[kinetic action]] functional $\phi \mapsto \int_\Sigma vol_{\phi^\ast e}$ does _not_ quite yield dynamics that is equivalent to that of the [[Neveu-Schwarz-Ramond super-string]]: when the [[equations of motion]] hold ("on [[shell]]") it has more fermionic degrees of freedom than present in the [[Neveu-Ramond-Schwarz super-string]]. The key insight of Green and Schwarz was that one may add an extra summand $S_{WZW}$ (whose notation we explain in a moment) to the plain super-[[Nambu-Goto action]] $S_{kin}$, such that the resulting [[action functional]] enjoys a further 1-parameter [[symmetry]], called _[[kappa-symmetry]]_. This is the [[Green-Schwarz action functional]]:
 
-Moreover, they showed that in [[light-cone gauge]] the resulting quantum dynamics is equivalent to that of the [[NSR string]], thus providing a conceptual proof for the observed local spacetime supersymmetry for backgrounds that admit two lightlike Killing vectors. (The quantization of the GS-string away from lightcone gauge however remains an open problem.)
+$$
+  S_{GS} = S_{kin} + S_{WZW}
+  \,.
+$$
+
+Moreover, they showed that restricting the 
+[[dynamics]] of the [[Green-Schwarz superstring]] to the $\kappa$-symmetric states, then it does become equivalent, classically
+to that of the [[Neveu-Ramond-Schwarz super-string]].
+
+Finally they showed that when [[gauge fixing]] the [[Green-Schwarz action functional]] to [[light-cone gauge]] 
+(which is possible whenever [[target spacetime]] admits two [[lightlike]] [[Killing vector]]) then the [[Green-Schwarz string]]
+may be [[quantization|quantized]] by a standard procedure and the resulting
+[[quantum system|quantum]] dynamics is equivalent to that of the [[Neveu-Schwarz-Ramond super-string]]. 
+This provides the desired conceptual [[proof]] for the observed local [[target spacetime]] [[supersymmetry]]
+of super-string [[effective field theory]], at least for backgrounds that admit two lightlike Killing vectors. 
+(The [[quantization]] of the [[Green-Schwarz superstring]] away from [[light cone gauge]] remains an open problem.)
 
 
-Green-Schwarz's extra [[kappa-symmetry]] term serves a clear purpose, but originally its geometrically meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the Green-Schwarz-action functional describing the string in $d+1$-dimensions has a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) [[WZW-model]] for
+While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clear purpose as a means to an end, originally its geometric meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the 
+[[Green-Schwarz action functional]] describing the [[super-string]] in $d+1$-dimensions does have a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) _[[Wess-Zumino-Witten model]]_ for
 
-1. target space being locally [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
+1. [[target space]] being locally [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
 
    $$
      \mathbb{R}^{d-1,1\vert \mathbf{N}}
@@ -206,23 +247,36 @@ Green-Schwarz's extra [[kappa-symmetry]] term serves a clear purpose, but origin
      Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}}) / Spin(d-1,1)
    $$
 
-   for $\mathbf{N}$ a real [[spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
+   for $\mathbf{N}$ a [[real spin representation]] (the "number of supersymmetries"), $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$ the corresponding [[super Poincaré group]] and $Spin(d-1,1)$ its [[Lorentzian manifold|Lorentz-signature]] [[spin group|Spin]] [[subgroup]];
 
-1. [[WZW-term]] being a local potential for the the unique (up to rescaling, if it exists) $Spin(d-1,1)$-invariant [[group cocycle|group 3-cocycle]] $\mu_3$ on $Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with component locally given by the Gamma-matrices of the given [[Clifford algebra]] representation.
+1. [[WZW-term]] being a local potential for the unique (up to rescaling, if it exists) $Spin(d-1,1)$-[[invariant]] [[Lie algebra cohomology|super Lie algebra 3-cocycle]] $\mu_[F1}$ on the [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert \mathbf{N}})$, with components locally given by the Gamma-matrices of the given [[Clifford algebra]] representation; in terms of the [[super vielbein]] $(e^a, \psi^\alpha)$:
 
-More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]] with canonical basis of [[left invariant 1-forms]] given by the canonical [[vielbein]] field
+   $$
+     \mu_{F1} = \overline{\psi} \wedge \Gamma_A \psi \wedge e_a
+   $$
+   
+   and so in components the bi-fermionic component of $\mu_{F1}$ is
+   
+   $$
+     (\mu_{F1})_{a \alpha \beta} = \Gamma_{a \alpha \beta}
+   $$
+   
+   and all other components vanish.
+
+More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]] 
+along itself, with canonical [[linear basis]] of [[left invariant 1-forms]] given by the canonical [[vielbein]] field
 
 $$
   \{e^a \coloneqq \mathbf{d}x^a\}_{a = 0}^{d-1}
   \,,
 $$
 
-where $\{x^a\}$ are the canonical [[coordinates]] on $\mathbb{R}^{d-1,1}$, so [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ for some real [[spin representation]] $\mathbf{N}$ is characterized as the [[supergroup]] whose [[left invariant 1-forms]] consitute the $\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$-bigraded differential with generators the [[super-vielbein]]
+where $\{x^a\}$ are the canonical [[coordinates]] on $\mathbb{R}^{d-1,1}$, so [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ for some [[real spin representation]] $\mathbf{N}$ is characterized as the [[supergroup]] whose [[left invariant 1-forms]] constitute the $\mathbb{Z} \times \mathbb{Z}/2\mathbb{Z}$-bigraded differential with generators the [[super-vielbein]]
 
 $$
   \underset{deg = (1,even)}{\underbrace{e^a}}
     \;\coloneqq\;
-  \mathbf{d}x^a + \tfrac{i}{2}\overline{\theta}\Gamma^a \mathbf{d} \theta
+  \mathbf{d}x^a + \overline{\theta}\Gamma^a \mathbf{d} \theta
   \;\;\;\,,\;\;\;\;\;\;\;\;\;\;
   \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}} \;\coloneqq\; \mathbf{d}\theta^\alpha
   \,,
@@ -240,30 +294,45 @@ $$
 the key phenomenon of [[supersymmetry]] (that two [[fermions]] pair to a [[bosons]]) means that $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is slightly non-abelian, reflected by the fact that the [[super-vielbein]] is not closed
 
 $$
-  \mathbf{d} e^a = \tfrac{i}{2} \overline{\psi} \Gamma^a \psi
+  \mathbf{d} e^a =  \overline{\psi} \wedge \Gamma^a \psi
   \;\,,\;\;\;\;\;\;
   \mathbf{d} \psi^\alpha = 0
   \,.
 $$
 
-This is the source of all the rich structure seen in Green-Schwarz theory.
+This elementary effect is the source of all the rich structure seen in the [[Green-Schwarz super-string]]
+and generally in all [[super p-brane]] theory. 
+(The above differential is equivalently that in the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]], 
+hence its [[cohomology]] is the super-[[Lie algebra cohomology]] of [[super Minkowski spacetime]]. In parts of the 
+[[physics]] literature this is referred to a "[[tau cohomology]]".)
 
-In particular, for special combinations of spacetime dimension $d$ and number of supersymmetries $\mathbf{N}$ the 3-form
-
+In particular, for special combinations of [[spacetime]] [[dimension]] $d$ and number of [[supersymmetries]] $\mathbf{N}$ 
+(i.e. [[real spin representation]] $N$) then the 3-form
 
 $$
-  \mu_3 \;\coloneqq\;  \overline{\psi} \wedge \Gamma_a \psi \wedge e^a
+  \mu_{F1} =  \overline{\psi} \wedge \Gamma_a \psi \wedge e^a
 $$
 
-is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that $\mathbf{d}\mu_3 = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_3$.
+is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that 
+$\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_[F1}$
+(beware here the left-invariance condition: there are of course non-left-invariant potentials for $\mu_{F1}$,
+and in fact these are exactly the possible [[Lagrangian densities]] for the WZW action functional $S_{WZW}$).
 
-This happens notably for $d = 10$ and $\mathbf{N} = (1,0)$ ([[heterotic string]]) or $\mathbf{N} = (2,0)$ ([[type IIB superstring]]) and $\mathbf{N} = (1,1)$ ([[type IIA superstring]]). (It also happens in some lower dimensions, where however the corresponding NSR-string develops a [[conformal anomaly]] after quantization ("non-critical strings"). This classification of cocycles is part of what has come to be known as the _[[brane scan]]_ in superstring theory, see below.)
+This happens notably for 
 
-In this equivalent formulation, the Green-Schwarz action functional for the superstring has the following simple form:
+1. $d = 10$ and $\mathbf{N} = (1,0) = \mathbf{16}$ ([[heterotic string]]) 
 
-Let $(X,e)$ be a [[superspacetime]], hence a [[supermanifold]] $X$ equipped with a [[super-vielbein]] $e$ (super-[[orthogonal structure]]) which is locally modeled on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ (technically: a [[torsion of a G-structure|torsion]]-free [[super-Cartan geometry]] modeled on $Spin(d-1,1) \hookrightarrow Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$). Write $\mu_3^X \in \Omega^3(X)$ be the [[super differential form]] on $X$ which is the induced [[definite globalization of WZW term|definite globalization]] of the cocycle $\mu_3$ over $X$. For $U \subset X$ any contractible subspace, then the restriction of $\mu^X_3|_{U} \in \Omega^3(U)$ of $\mu_3^X$ to $U$ is exact, and hence admits a potential $B_U \in \Omega^2(U)$, i.e. such that $d B = \mu^X_3|_U$.
+1. $d = 10$ and $\mathbf{N} = (2,0) = \mathbf{16} + \mathbf{16}$ ([[type IIB superstring]]) 
 
-Then for $\Sigma$ a 2-dimensional [[closed manifold]], the Green-Schwarz action functional
+1. $d = 10$ and $\mathbf{N} = (1,1) = \mathbf{16} + \mathbf{16}^\ast$ ([[type IIA superstring]]). 
+
+(It also happens in some lower dimensions, where however the corresponding [[Neveu-Schwarz-Ramond string]] develops a [[conformal anomaly]] after [8quantization]] ("non-critical strings"). This classification of cocycles is part of what has come to be known as the _[[brane scan]]_ in superstring theory, see below.)
+
+In this equivalent formulation, the [[Green-Schwarz action functional]] for the superstring has the following simple form:
+
+Let $(X,e)$ be a [[superspacetime]], hence a [[supermanifold]] $X$ equipped with a [[super-vielbein]] $e$ (super-[[orthogonal structure]]) which is locally modeled on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ (technically: a [[torsion of a G-structure|torsion]]-free [[super-Cartan geometry]] modeled on $Spin(d-1,1) \hookrightarrow Iso(\mathbb{R}^{d-1,1\vert \mathbf{N}})$). Write $\mu_{F1}^X \in \Omega^3(X)$ for the [[super differential form]] on $X$ which is the induced [[definite globalization of WZW term|definite globalization]] of the cocycle $\mu_{F1}$ over $X$. For $U \subset X$ any [[contractible topological space|contractible]] [[subspace]], then the restriction of $\mu^X_{F1}|_{U} \in \Omega^3(U)$ of $\mu_{F1}^X$ to $U$ is exact, and hence admits a potential $B_U \in \Omega^2(U)$, i.e. such that $\mathbf{d} B = \mu^X_{F1}|_U$.
+
+Then for $\Sigma$ a 2-dimensional [[closed manifold]], the [[Green-Schwarz action functional]]
 
 $$
   \exp(\tfrac{i}{\hbar} S_{GS})
@@ -273,7 +342,7 @@ $$
   \mathbb{R}/_{\hbar} \mathbb{Z}
 $$
 
-is the function on the super-[[smooth space]] $[\Sigma,X]_U$ of smooth maps of supermanifolds $\phi \colon \Sigma \to X$ which factor through $U$, given by
+is the function on the super-[[smooth mapping space]] $[\Sigma,X]_U$ of morphisms of [[supermanifolds]] $\phi \colon \Sigma \to X$ which factor through $U$, given by
 
 $$
   \phi
@@ -286,7 +355,7 @@ $$
   \,.
 $$
 
-In order to get rid of the restriction to some $U \subset X$ one needs to add global data. The need for this is at least mentioned briefly in ([Witten 86, p. 261 (17 of 20)](#Witten86)), but had otherwise been ignored in the physics literature. The general solution is to promote the local potentials $B$ to the connection $\hat B$ on a [[Super Gerbes|super gerbe]] ([Fiorenza-Sati-Schreiber 13](#FiorenzaSatiSchreiber13)). This is a choice of [[higher prequantization]]
+In order to get rid of the restriction to some [[chart]] $U \subset X$ one needs to add global data. The need for this is at least mentioned briefly in ([Witten 86, p. 261 (17 of 20)](#Witten86)), but seems to have otherwise been ignored in the physics literature. The general solution is to promote the local potentials $B$ to the connection $\hat B$ on a [[Super Gerbes|super gerbe]] ([FSS 13](#FiorenzaSatiSchreiber13)). This is a choice of [[higher prequantization]]
 
 $$
   \array{
@@ -295,7 +364,7 @@ $$
     & {}^{\mathllap{\hat B}}\nearrow & \downarrow^{\mathrlap{curv}}
     \\
     X
-     &\underset{\mu^X_3}{\longrightarrow}&
+     &\underset{\mu^X_{F1}}{\longrightarrow}&
     \mathbf{\Omega}^3
     &
     \text{3-form curvature}
@@ -320,11 +389,11 @@ $$
   \phi \;\mapsto\; \int_\Sigma vol_{\phi^\ast} + \int_\Sigma \phi^\ast \hat B
   \;\;\,,
   \;\;\;\;\;\;\;
-  curv(\hat B) = \mu_3^X
+  curv(\hat B) = \mu_{F1}^X
   \,.
 $$
 
-This form of the Green-Schwarz action functional for the string has evident generalization to other $p$-[[branes]]. Whenever there is a Lorentz-invariant $(p+2)$-cocycle $\mu_{p+2}$ on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, then one may ask for a higher gerbe ([[higher prequantum line bundle]]) $\hat C$ with [[curvature]] $\mu^X_{p+2}$ and consider the analogous functional.
+This form of the Green-Schwarz action functional for the string has evident generalization to other [[p-branes]]. Whenever there is a [[spin group|Spin(d-1,1)]]-[[invariant]] $(p+2)$-cocycle $\mu_{p+2}$ on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, then one may ask for a higher gerbe ([[higher prequantum line bundle]]) $\hat C$ with [[curvature]] $\mu^X_{p+2}$ and consider the analogous functional.
 
 The triples $(d,\mathbf{N},p)$ (spacetime dimension, number of supersymmetries, dimension of brane) such that
 
@@ -346,7 +415,7 @@ For instance for $(d = 11, \; \mathbf{N} = \mathbf{32}, \; p = 2)$ one finds a c
 
 This was a striking confluence of brane physics and classification of [[super Lie algebra|super]] [[Lie algebra cohomology]]. But just as striking as the matching, was what it lacked to match: the [[D-branes]] and the [[M5-brane]] ($d = 11$, $p = 5$) are lacking from the old brane scan. Incidentally, these lacking branes are precisely those branes on which the branes that do appear on the brane scan may end, equivalently those branes that have [[higher gauge fields]] on their [[worldvolume]] (tensor multiplets).
 
-An action functional for the [[M5-brane]] vaguely analogous to a Green-Schwarz action functional was found in ([BLNPST 97](#BLNPST97), [APPS 97](#APPS97)). It is again the sum of a kinetic term and a WZW-like term, but the WZW-like term does not come from a cocycle on a (super-)group.
+An action functional for the [[M5-brane]] analogous to a Green-Schwarz action functional was found in ([BLNPST 97](#BLNPST97), [APPS 97](#APPS97)). It is again the sum of a kinetic term and a WZW-like term, but the WZW-like term does not come from a cocycle on a (super-)group.
 
 In order to deal with this, it was suggested in ([CAIB 99](#CAIB99), [Sakaguchi 00](#Sakaguchi00), [Azcarraga-Izquierdo 01](#AzcarragaIzquierdo01)) that there is an algebraic structure called "[[extended super-Minkowski spacetimes]]" that generalizes [[super Minkowski spacetime]] and serves to unify the Green-Schwarz-like models for the D-branes and the M5-brane with the original Green-Schwarz models for the string and the M2-brane.
 
@@ -453,7 +522,7 @@ $$
 
 In summary, the nature and classification of Green-Schwarz action functionals captures in a mathematically precise way a good deal of the core structure of [[string theory|string]]/[[M-theory]].
 
-In fact, the [[super L-infinity algebra|super L-infinity algebraic]] perspective on the Green-Schwarz functionals via [[schreiber:The brane bouquet]] also solves the following open problem on [[M-branes]]:
+In fact, the [[super L-infinity algebra|super Lie-n algebraic]] perspective on the Green-Schwarz functionals via the [[schreiber:brane bouquet]] also solves the following open problem on [[M-branes]]:
 
 it is famously known from [[Freed-Witten anomaly]]-cancellation that the [[D-brane charges]] are not in fact just in [[de Rham cohomology]] in every second degree, but are in [[twisted K-theory]], hence [[rational homotopy theory|rationally]] in [[twisted de Rham cohomology]], with the twist being the [[F1-brane]] charge (from the fundamental). It is an open problem to determine what becomes of these [[twisted K-theory]] charge groups as one lifts F1/D$p$-branes in string theory to M2/M5-branes in [[M-theory]].
 
@@ -488,14 +557,283 @@ One may prove that:
 This has implications on some open conjectures regarding [[M-theory]], for more on this see _[[schreiber:Equivariant cohomology of M2/M5-branes]]_.
 
 
+$\,$
+
+We now explain all this in detail.
+
+$\,$
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Super Minkowski spacetimes
  {#SuperMinowskiSpacetimes}
 
-Recall from the end of [[geometry of physics -- supersymmetry]] how
-the [[super Minkowski spacetimes]] emerge from the [[superpoint]] in a progression of
-invariant [[central extensions]] of [[super Lie algebras]]:
+
+In order set the scene, and for reference, we recall the nature of [[super Minkowski spacetimes]] from _[[geometry of physics -- supersymmetry]]_.
+
+In all of the following it is most convenient to regard [[super Lie algebras]] dually 
+via their [[Chevalley-Eilenberg algebras]]:
+
++-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
+
+$$
+  \wedge^\bullet  \mathfrak{g}^\ast
+$$
+
+equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
+
+$$
+  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+$$
+
+and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
+
+$\,$
+
+Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
+
+For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
+the [[signs in supergeometry|sign rule]] is
+
+$$
+  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
+
+=--
+
+We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
+[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
+
+
+The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
+[[Lie algebra cohomology]]:
+
++-- {: .num_defn #SuperLieAlgebraCohomology}
+###### Definition
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, then
+
+1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
+
+1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
+
+1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+   $$
+     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
+     \,.
+   $$
+
+=--
+
+
+
+The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The functor
+
+$$
+  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
+$$
+
+that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
+(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
+as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
+
+=--
+
+
+
+
+
+
+
++-- {: .num_defn #SuperMinkowskiSpacetime}
+###### Definition
+
+Let 
+
+$$
+  d \in \mathbb{N}
+$$ 
+
+be a [[spacetime]] [[dimension]] and let 
+
+$$
+  N \in Rep_{\mathbb{R}}(Spin(d-1,1))
+$$
+
+be a [[real spin representation]] of the [[spin group]] cover $Spin(d-1,1)$ of the [[Lorentz group]] $O(d-1,1)$
+in this dimension. Then the _$d$-dimensional $N$-supersymmetric [[super-Minkowski spacetime]]_ $\mathbb{R}^{d-1,1|N}$
+is the [[super Lie algebra]] that is characterized by the fact that its [[Chevalley-Eilenberg algebra]]
+$CE(\mathbb{R}^{d-1,1})$
+is as follows:
+
+The algebra has generators (as an [[associative algebra]] over $\mathbb{R}$)
+
+$$
+   \underset{deg = (1,even)}{\underbrace{e^a}}
+   \;\;\;\;
+   \text{and}
+   \;\;\;\;
+   \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}}
+$$
+
+for $a \in \{0,1,2, \cdots, 9\}$ and $\alpha \in \{1, 2, \cdots dim_{\mathbb{R}}(N)\}$ subjects to the [[generators and relations|relations]]
+
+$$
+  \begin{aligned}
+    e^a \wedge e^b = - e^b \wedge e^a
+    \\
+    \psi^\alpha \wedge \psi^\beta = + \psi^\beta \wedge \psi^\alpha
+    \\
+    e^a \wedge \psi^\alpha = - \psi^\alpha \wedge e^a
+  \end{aligned}
+$$
+
+(see at _[[signs in supergeometry]]_), and the [[differential]] $d_{CE}$ acts on the generators as follows:
+
+$$
+  \begin{aligned}
+    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha & 
+      \coloneqq 
+      0
+    \\
+    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a 
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi
+    \\
+    & \coloneqq   \left(C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta\right)  \psi^\alpha \wedge \psi^\beta
+  \end{aligned}
+    \,,
+$$
+
+where 
+
+1. $\overline{\psi} \wedge \Gamma^a \psi$ denotes the $a$-component of the $Spin(d-1,1)$-invariant spinor bilinear pairing $N \otime N \to \mathbb{R}^d$ that comes with every [[real spin representation]] applied to $\psi \wedge \psi$ regarded as an $N \otimes N$-valued form;
+
+1. hence in components (if $N$ is a [[Majorana spinor]] representation, by [this prop.](geometry+of+physics+--+supersymmetry#SpinorToVectorBilinearPairing)):
+
+   1. $C = (C_{\alpha \alpha'})$ is the [[charge conjugation matrix]] (as discussed at _[[Majorana spinor]]_);
+
+   1. $\Gamma^a = ((\Gamma^a)^{\alpha}{}_\beta)$ are the [[matrices]] representing the [[Clifford algebra]] action on $N$ in the [[linear basis]] $\{\psi^\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N)}$
+
+1. [[Einstein summation convention|summation over paired indices]] is understood.
+
+That this indeed yields a [[super Lie algebra]] follows by the symmetry and equivariance of the bilinear spinor pairing (via [this prop.](geometry+of+physics+--+supersymmetry#SpinorToVectorPairing)).
+
+There is a canonical [[Lie algebra action]] of the [[special orthogonal Lie algebra]] 
+
+$$
+  Lie(Spin(d-1,1)) \simeq \mathfrak{so}(d-1,1)
+$$
+
+on $\mathbb{R}^{d-1,1\vert 1}$. The _$N$-supersymmetric [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})$ in dimension $d$_ is the [[super Lie algebra]] which is the [[semidirect product Lie algebra]] of this [[Lie algebra action]]
+
+$$
+  \mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})
+   =
+  \mathbb{R}^{d-1,1\vert N} \rtimes \mathfrak{so}(d-1,1)
+  \,.
+$$
+
+This is characterized by the fact that its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N}))$
+is as follows: 
+
+it is [[generators and relations|generated]] from elements 
+
+$$
+   \underset{deg = (1,even)}{\underbrace{e^a}}
+   \;\;\;\;
+   and
+   \;\;\;\;
+   \underset{deg = (1,odd)}{\underbrace{\psi^\alpha}}
+   \;\;\;\;
+   and
+   \;\;\;\;
+   \underset{deg = (1,even)}{\underbrace{\omega^{a b} = - \omega^{b a}}}
+$$
+
+with the [[super vielbein]] $(e^a, \psi^\alpha)$ as before, and with $\omega^{a b}$ the 
+[[dual basis]] of the induced [[linear basis]] for vectro space of skew-symmetric matricces 
+underlying the [[special orthogonal Lie algebra]]. The commutation relations are as before, 
+together with the relation that the generators $\omega^{a b}$ anti-commute with every generator.
+Finally the [[differential]] $d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})}$ acts on 
+these generators as follows:
+
+$$
+  \begin{aligned}
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; \psi^\alpha
+      & \coloneqq
+      \left(\tfrac{1}{4}\omega^{a b} \Gamma_{a b} \psi \right)^\alpha
+      \\
+      & \coloneqq
+      \left(\tfrac{1}{4} (\Gamma_{a b})^\alpha{}_{\beta} \right) \omega^{a b} \wedge \psi^\beta
+    \\
+    d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})} \; e^a
+      & \coloneqq \overline{\psi} \wedge \Gamma^a \psi - \omega^a{}_b \wedge e^b
+    \\
+    & \coloneqq
+       \left(
+           C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta
+       \right)
+       \psi^\alpha \wedge \psi^\beta - \omega^a{}_b \wedge e^b
+    \\
+  \end{aligned}
+    \,,
+$$
+
+
+where we are shifting spacetime indicices with the Lorentz metric
+
+$$
+  (\eta_{a b}) \coloneqq diag(-1,1,1,\cdots, 1)
+  \,.
+$$
+
+The canonical maps between these [[super Lie algebras]], dually between their [[Chevalley-Eilenberg algebras]], that send each generator to itself, if present, or to zero if not, constitute the [[diagram]]
+
+$$
+  \array{
+    \mathbb{R}^{d-1,1\vert N}
+      &\hookrightarrow&
+    \mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})
+    \\
+    && \downarrow
+    \\
+    && \mathfrak{so}(d-1,1)
+  }
+  \,.
+$$
+
+=--
+
+
+
+Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of 
+[[super Minkowski spacetime]]. To put this in perspective, 
+recall from the end of [[geometry of physics -- supersymmetry]] how
+the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
+ordinary invariant [[central extensions]] of [[super Lie algebras]]:
 
 +-- {: .num_prop}
 ###### Proposition
@@ -782,6 +1120,7 @@ $\,$
 
 
 ## Fierz identities
+ {#FierzIdentities}
 
 
 What are called _[[Fierz identities]]_ in [[physics]] are the relations that hold between [[multilinear map|multilinear]]  expression in [[spinors]]. For example for all [[Majorana spinors]] $\psi$ in Lorentian spacetime dimension 4,5,7, 11, then the following identity holds (example \ref{TheM2andM5CocyclesAsFierzIdentities} below):
@@ -1150,6 +1489,12 @@ $$
 
 
 
+
+
+
+
+
+
 ### Quadrilinear Fierz identities
   {#QuadraticFierzIdentities}
 
@@ -1507,66 +1852,6 @@ This we explain now.
 
 $\,$
 
-+-- {: .num_defn}
-###### Definition
-
-
-For $\mathfrak{g}$ a [[nLab:super Lie algebra]]
-
-of [[nLab:finite number|finite]] [[nLab:dimension]],
-
-then its **[[nLab:Chevalley-Eilenberg algebra]]** $CE(\mathfrak{g})$
-
-is the super-[[nLab:Grassmann algebra]] on the [[nLab:dual vector space|dual]] super vector space
-
-$$
-  \wedge^\bullet  \mathfrak{g}^\ast
-$$
-
-equipped with a [[nLab:differential]] $d_{\mathfrak{g}}$
-
-that on generators is the linear dual of the super Lie bracket
-
-$$
-  d_{\mathfrak{g}} \coloneqq [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
-$$
-
-and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$
-
-by the graded Leibniz rule (i.e. as a graded [[nLab:derivation]]).
-
-$\,$
-
-Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded,
-
-the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$,
-
-the second being the _super-grading_ $\sigma$ (even/odd).
-
-The [[nLab:signs in supergeometry|sign rule]] is
-
-$$
-  \alpha \wedge \beta = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \beta \wedge \alpha
-  \,.
-$$
-
-A $(p+2)$-cocycle on $\mathfrak{g}$
-
-is an element of degree $(p+2,0)$ in $CE(\mathfrak{g})$
-
-which is $d_{\mathbb{g}}$ closed. It is non-trivial if it is not $d_{\mathfrak{g}}$-exact.
-
-
-=--
-
-$\,$
-
-We may think of $CE(\mathfrak{g})$ equivalently
-
-as the [[nLab:dg-algebra]] of [[nLab:invariant differential form|left-invariant]]
-[[nLab:super differential forms]]
-
-on the [[nLab:Lie theory|corresponding]] simply connected [[nLab:super Lie group]] .
 
 $\,$
 
@@ -1842,9 +2127,7 @@ $$
 
 Then the [[nLab:Green-Schwarz action functional|Green-Schwarz type action functional]]
 
-for the [[nLab:supermembrane]]
-
-is the function on [[nLab:sigma-model]] [[nLab:field (physics)|fields]]
+for the [[supermembrane]] is the function on [[sigma-model]] [[field (physics)|fields]]
 
 $$
   \phi \;\colon\; \underset{\text{worldvolume}}{\underbrace{\Sigma_3}} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}
@@ -4954,7 +5237,7 @@ The interpretation of [[Fierz identities]] as relations satisfied by [[Clebsch-G
 
 * {#DAuriaFreMainaRegge82} [[Riccardo D'Auria]], [[Pietro Fré]],  E. Maina, [[Tullio Regge]]  _A New Group Theoretical Technique for the Analysis of Bianchi Identities and Its Application to the Auxiliary Field Problem of $D=5$ Supergravity_, Annals Phys. 139 (1982) 93 ([doi:10.1016/0003-4916(82)90007-0](http://dx.doi.org/10.1016/0003-4916(82)90007-0), [spire](http://inspirehep.net/record/167640/))
 
-where it was applied to $Spin(4,1)$ (relevant in [[5-dimensional supergravity]]).
+where it was applied to $Spin(4,1)$, relevant in [[5-dimensional supergravity]].
 
 By this method the Fierz identities for $Spin(9,1)$ (relevant in [[heterotic supergravity]] and [[type II supergravity]]) are discussed in
 
