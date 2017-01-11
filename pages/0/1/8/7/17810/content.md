@@ -2000,6 +2000,190 @@ and if $B$ is any superalgebra,
 
 
 
+### Example: Super Lie algebras
+
+As an example of the general principle of [[internalization|internalizing]] ordinary [[algebra]]
+in [[super vector spaces]] in order to obtain the analogous concept in [[superalgebra]], we consider the concept of _[[super Lie algebras]]_.
+
+
++-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
+###### Definition
+
+A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}).
+Hence this is
+
+1. a [[super vector space]] $\mathfrak{g}$;
+
+1. a homomorphism
+
+   $$
+     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
+   $$
+
+   of super vector spaces (the _super Lie bracket_)
+
+such that
+
+1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g}
+         &
+           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
+         &
+       \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
+       \\
+       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
+     }
+   $$
+
+   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
+
+1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       &&
+         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
+       &&
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       \\
+       && \mathfrak{g}
+     }
+     \,.
+   $$
+
+=--
+
+Externally this means the following:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
+
+1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a [[bilinear map]] (the _super Lie bracket_)
+
+   $$
+     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
+which preserves the Lie bracket. We write
+
+$$
+  sLieAlg
+$$
+
+for the resulting [[category]] of super Lie algebras.
+
+=--
+
+
++-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
+
+$$
+  \wedge^\bullet  \mathfrak{g}^\ast
+$$
+
+equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
+
+$$
+  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+$$
+
+and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
+
+$\,$
+
+Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
+
+For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
+the [[signs in supergeometry|sign rule]] is
+
+$$
+  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
+
+=--
+
+We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
+[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
+
+
+The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
+[[Lie algebra cohomology]]:
+
++-- {: .num_defn #SuperLieAlgebraCohomology}
+###### Definition
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, then
+
+1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
+
+1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
+
+1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+   $$
+     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
+     \,.
+   $$
+
+=--
+
+
+
+The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The functor
+
+$$
+  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
+$$
+
+that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
+(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
+as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
+
+=--
+
+
+
+
 
 
 
@@ -2012,7 +2196,7 @@ with respect to some [[abelian group]] $A$, through a group homomorphism $A \to 
 important special case of this is the lift to $\mathbb{Z}$-grading through the mod-2-reduction
 $\mathbb{Z} \stackrel{mod\,2}{\longrightarrow}\mathbb{Z}/2$. We discuss how the resulting
 $\mathbb{Z}$-graded-commutative algebra is
-related to $\mathbb{Z}/2$-graded-commutative algebra, i.e. [[supercommutative superalgeba]].
+related to $\mathbb{Z}/2$-graded-commutative algebra, i.e. [[supercommutative superalgebra]].
 
 This relation is particularly interesting since there is a natural source
 of $\mathbb{Z}$-graded-commutative algebra: the commutative monoids in [[homological algebra]]
@@ -2059,7 +2243,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-Beware that there is also the concept of $\mathbb{Z}$-graded objects in the category of super vector spaces,
+Beware that there is also the concept of $\mathbb{Z$-graded objects in the category of super vector spaces,
 which is not equivalent to the concept in def. \ref{SuperZGradedVectorSpaces}.
 
 =--
@@ -2132,7 +2316,7 @@ $$
   H_\bullet
     \;\colon\;
   dgCAlg_k
-    \longrightarrow
+    \lognrightarrow
   sCAlg_k^{\mathbb{Z}}
   \,.
 $$
@@ -2191,7 +2375,7 @@ Then there are [[strong monoidal functors]]
 
 $$
   k[\beta,\beta^{-1}] Mod
-    \underoverset
+    \underovrset
       {\underset{(-)|_{0,1}}{\longrightarrow}}
       {\overset{}{\longleftarrow}}
       {\simeq}
@@ -2228,8 +2412,8 @@ $$
 
 for all $n \in \mathbb{N}$. Since [[morphisms]] $\phi \colon N_1 \to N_2$ in $k[\beta, \beta^{-1}] Mod$
 respect the multiplication by $\beta$, they are uniquely determined by their components
-$\phi_0$ and $\phi_1$, hence by their image $\phi_{0,1}$ under the given functor, and every choice of
-components $\phi_0$ and $\phi_1$ extends to a morphism $\phi$. Hence $(-)|_{0,1}$ is [[fully faithful functor|fully faithful]].
+$\phi_0$ and $\phi_1$, hence by their image $\pho_{0,1}$ under the given functor, and every choice of
+components $\phi_0$ and $\phi_1$ extends to a mophism $\phi$. Hence $(-)|_{0,1}$ is [[fully faithful functor|fully faithful]].
 
 =--
 
@@ -2287,7 +2471,7 @@ $$
   \pi_\bullet(E) \simeq \pi_0(E)[\beta, \beta^{-1}]
 $$
 
-with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|complex orientation]]).
+with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|coomplex orientation]]).
 
 Accordingly, for $A$ an [[E-infinity algebra]] over $E$, hence an [[E-infinity ring]] equipped with
 an $E_\infty$-homomorphism $E \to A$, then its underlying $\mathbb{Z}$-graded commutative algebra
@@ -2300,7 +2484,7 @@ This is amplified in [Rezk 09, section 2](periodic+ring+spectrum#Rezk09)
 =--
 
 Beware that for this equivalence of categories in prop. \ref{ModulesOverRbeta} the action of the element
-$\beta$ is crucial. The following proposition shows that it is not sufficient to just consider
+$\beta$ is crucual. The following proposition shows that it is not sufficient to just consider
 2-periodically $\mathbb{Z}$-graded algebras:
 
 
@@ -2461,11 +2645,11 @@ for the same object, regarded in the category of commutative monoids. We also ca
 +-- {: .num_defn #AffineSuperSchemes}
 ###### Definition
 
-For the special case that $\mathcal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
+For the special case that $\mathal{C} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces})
 in def. \ref{Affines}, then we say that the objects in
 
 $$
-  Aff(sVect_k) = sCAlg_k^{op} =  CMon(sVect_k)^{op}
+  Aff(sVect_k) = scAlg_k^{op} =  CMon(sVect_k)^{op}
 $$
 
 are **[[affine super schemes]]** over $k$.
