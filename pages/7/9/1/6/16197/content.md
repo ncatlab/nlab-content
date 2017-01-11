@@ -49,11 +49,11 @@ See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Keha
 ## Embedding into supergravity
  {#EmbeddingIntoSupergravity}
 
-Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding seems to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
+Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding has been argued to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
 
-* shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 equations (68), (72) in v1, equations (4.11), (4.17) in v3](#DalianisFarakos15), reviewed in [Dalianis 16](#Dalianis16));
+* {#ShrinkingOfInitialHomogeneousPatch} shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 equations (68), (72) in v1, equations (4.11), (4.17) in v3](#DalianisFarakos15), reviewed in [Dalianis 16](#Dalianis16));
 
-* naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)).
+* {#CompatibilityWithsusybreaking} naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)) notably with a Starobisnky potential naturally induced from [[gravitino condensation]] ([Alexandre-Houston-Mavromatos 14](#AlexandreHoustonMavromatos14)).
 
 ## References
 
@@ -96,51 +96,73 @@ Review and exposition includes
 
 * {#Dalianis16} [[Ioannis Dalianis]],  _Features and implications of the plateau inflationary potentials_, Planck 2015 conference contribution ([arXiv:1602.05026](http://arxiv.org/abs/1602.05026))
 
+
+
 ### Embedding into supergravity
 
 Discussion of embedding of Starobinsky inflation in [[supergravity]] originates in 
 
 * {#Ceotti87} S. Cecotti, _Higher derivative supergravity Is equivalent to standard supergravity coupled to matter_, Phys. Lett. B 190, 86 (1987).
 
-* S. Cecotti, S. Ferrara, M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
+* S. Cecotti, [[Sergio Ferrara]], M. Porrati and S. Sabharwal, Nucl. Phys. B 306, 160 (1988).
 
-and is further developed in
-
-* [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
-
-  _Starobinsky-like Inflationary Models as Avatars of No-Scale Supergravity_ JCAP 1310, 009 (2013) ([arXiv:1307.3537](http://arxiv.org/abs/1307.3537))
+and is further developed in the following articles:
 
 * [[Sergei Ketov]], _Supergravity and Early Universe: the Meeting Point of Cosmology and High-Energy Physics_, Int.J.Mod.Phys. A28 (2013) 1330021 ([arXiv:1201.2239](http://arxiv.org/abs/arXiv:1201.2239))
 
+* [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _No-Scale Supergravity Realization of the Starobinsky Model of Inflation_ Phys. Rev. Lett. 111, 111301 (2013) ([arXiv:1305.1247](http://arxiv.org/abs/1305.1247))
+
 * [[Renata Kallosh]], [[Andrei Linde]], _Superconformal generalizations of the Starobinsky model_ JCAP 1306, 028 (2013) ([arXiv:1306.3214](http://arxiv.org/abs/1306.3214))
+
+
+* [[John Ellis]], [[Dimitri Nanopoulos]], [[Keith Olive]], _Starobinsky-like Inflationary Models as Avatars of No-Scale Supergravity_ JCAP 1310, 009 (2013) ([arXiv:1307.3537](http://arxiv.org/abs/1307.3537))
+
 
 * {#FKR13} [[Fotis Farakos]], [[Alex Kehagias]], A. Riotto, _On the Starobinsky Model of Inflation from Supergravity_, Nucl. Phys. B 876, 187 (2013) ([arXiv:1307.1137](http://arxiv.org/abs/1307.1137))
 
 
-* S. Ferrara, [[Renata Kallosh]], [[Andrei Linde]] and M. Porrati, _Minimal Supergravity Models of Inflation_ ([arXiv:1307.7696](http://arxiv.org/abs/1307.7696))
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Andrei Linde]] and M. Porrati, _Minimal Supergravity Models of Inflation_ ([arXiv:1307.7696](http://arxiv.org/abs/1307.7696))
 
 
 * [[Andrei Linde]] and M. Porrati, _Higher Order Corrections in Minimal Supergravity Models of Inflation_ ([arXiv:1309.1085](http://arxiv.org/abs/1309.1085))
 
-* S. Ferrara, [[Renata Kallosh]], [[Antoine Van Proeyen]], _On the Supersymmetric Completion of R+R2 Gravity and Cosmology_ JHEP 1311, 134 (2013) ([arXiv:1309.4052](http://arxiv.org/abs/1309.4052))
+* [[Sergio Ferrara]], [[Renata Kallosh]], [[Antoine Van Proeyen]], _On the Supersymmetric Completion of R+R2 Gravity and Cosmology_ JHEP 1311, 134 (2013) ([arXiv:1309.4052](http://arxiv.org/abs/1309.4052))
 
-* S. Ferrara, P. Fre and A. S. Sorin, _On the Topology of the Inflaton Field in Minimal Supergravity Models_ ([arXiv:1311.5059](http://arxiv.org/abs/1311.5059))
+* [[Sergei Ketov]], Takahiro Terada, _Old-minimal supergravity models of inflation_, JHEP12(2013)040 ([arXiv:1309.7494](https://arxiv.org/abs/1309.7494))
 
-* [[Sergei Ketov]], [[Aleksei Starobinsky]], JCAP 1208, 022 (2012) [arXiv:1203.0805 [hep-th]]. S. V. Ketov and S. Tsujikawa, Phys. Rev. D 86, 023529 (2012) [arXiv:1205.2918 [hep-th]]. S. V. Ketov, arXiv:1309.0293 [hep-th].
+* [[Sergio Ferrara]]], [[Pietro Fre]] and A. S. Sorin, _On the Topology of the Inflaton Field in Minimal Supergravity Models_ ([arXiv:1311.5059](http://arxiv.org/abs/1311.5059))
+
+* {#AlexandreHoustonMavromatos14} Jean Alexandre, Nick Houston, Nick E. Mavromatos, _Starobinsky-type Inflation in Dynamical Supergravity Breaking Scenarios_, Phys. Rev. D 89, 027703 (2014) ([arXiv:1312.5197](https://arxiv.org/abs/1312.5197))
+
+  via [[gravitino condensation]], based on
+
+  * Jean Alexandre, Nick Houston, Nick E. Mavromatos, _Dynamical Supergravity Breaking via the Super-Higgs Effect Revisited_, Phys. Rev. D 88, 125017 (2013) ([arXiv:1310.4122](https://arxiv.org/abs/1310.4122))
+
+  * Jean Alexandre, Nick Houston, Nick E. Mavromatos, _Inflation via Gravitino Condensation in Dynamically Broken Supergravity_,  International Journal of Modern Physics D, Volume 24, Issue 04, April 2015 ([arXiv:1409.3183](https://arxiv.org/abs/1409.3183))
 
 
-* [[Sergei Ketov]], _On the supersymmetrization of inflation in $f(R)$
-gravity_, Prog. Theor. Exp. Phys. 2013, 123B04 ([pdf](http://ptep.oxfordjournals.org/content/2013/12/123B04.full.pdf))
+
+* [[Sergei Ketov]], [[Aleksei Starobinsky]], _Inflation and non-minimal scalar-curvature coupling in gravity and supergravity_, JCAP 1208, 022 (2012) ([arXiv:1203.0805](https://arxiv.org/abs/1203.0805))
+
+* [[Sergei Ketov]], S. Tsujikawa, _Consistency of inflation and preheating in $F(R)$ supergravity_, Phys. Rev. D 86, 023529 (2012) ([arXiv:1205.2918](https://arxiv.org/abs/1205.2918)) 
+
+* [[Sergei Ketov]], _On the supersymmetrization of inflation in $f(R)$ gravity_,Prog. Theor. Exp. Phys. 2013, 123B04 ([arXiv:1309.0293](https://arxiv.org/abs/1309.0293))
 
 
-* Sergio Ferrara, [[Alex Kehagias]], Antonio Riotto, _The Imaginary Starobinsky Model and Higher Curvature Corrections_ ([arXiv:1405.2353](http://arxiv.org/abs/1405.2353))
+* [[Sergio Ferrara]], [[Alex Kehagias]], Antonio Riotto, _The Imaginary Starobinsky Model and Higher Curvature Corrections_ ([arXiv:1405.2353](http://arxiv.org/abs/1405.2353))
 
-* {#FerrarKehagias14} Sergio Ferrara, [[Alex Kehagias]], _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:org](http://arxiv.org/abs/1407.5187))
+* {#FerrarKehagias14} [[Sergio Ferrara]], [[Alex Kehagias]], _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:1407.5187](http://arxiv.org/abs/1407.5187))
 
 * {#DFKRU14} [[Ioannis Dalianis]], [[Fotis Farakos]], [[Alex Kehagias]], A. Riotto, [[Rikard von Unge]], _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
 
 
 * {#DalianisFarakos15} [[Ioannis Dalianis]], [[Fotis Farakos]], _On the initial conditions for inflation with plateau potentials: the $R + R^2$ (super)gravity case_, [Journal of Cosmology and Astroparticle Physics, Volume 2015, July 2015 ](http://iopscience.iop.org/article/10.1088/1475-7516/2015/07/044/meta), ([arXiv:1502.01246](http://arxiv.org/abs/1502.01246))
+
+* Spyros Basilakos, Nick E. Mavromatos, Joan Sola, _Starobinsky-like inflation and running vacuum in the context of Supergravity_ ([arXiv:1505.04434](https://arxiv.org/abs/1505.04434))
+
+  > In this paper we have shown that SUGRA models with a dynamically induced massive gravitino phase lead to the RVM behavior and therefore provide a strong support for a fundamental description of the cosmic history.
+
+* Andrea Addazi, [[Sergei Ketov]], _Energy conditions in Starobinsky supergravity_ ([arXiv:1701.02450](https://arxiv.org/abs/1701.02450))
 
 ### Embedding into superstring theory
  {#ReferencesEmbeddingIntoStringTheory}
@@ -149,8 +171,12 @@ Embedding into [[superstring theory]] is discussed in
 
 * [[Costas Kounnas]], [[Dieter Luest]], Nicolaos Toumbas, _$\mathcal{R}^2$ inflation from scale invariant supergravity and anomaly free superstrings with fluxes_ ([arXiv:1409.7076](http://arxiv.org/abs/1409.7076))
 
+* [[Ralph Blumenhagen]], Anamaria Font, Michael Fuchs, Daniela Herschmann, Erik Plauschinn, _Towards Axionic Starobinsky-like Inflation in String Theory_, Physics Letters B Volume 746, 30 June 2015, Pages 217&#8211;222 ([arXiv:1503.01607](https://arxiv.org/abs/1503.01607))
+
 * {#EllisCarciaNanopoulosOlive15} [[John Ellis]], Marcos A. G. Garcia, [[Dimitri Nanopoulos]], [[Keith Olive]], _Phenomenological Aspects of No-Scale Inflation Models_ ([arXiv:1503.08867](http://arxiv.org/abs/1503.08867))
 
 * [[Luis Alvarez-Gaume]], [[Alex Kehagias]], [[Costas Kounnas]], [[Dieter Luest]], Antonio Riotto, _Aspects of Quadratic Gravity_ ([arXiv:1505.07657](http://arxiv.org/abs/1505.07657))
+
+* Benedict Broy, David Ciupke, FranciscoG. Pedro, Alexander Westphal, _Starobinsky-Type Inflation from $\alpha'$-Corrections_, JCAP01(2016)001 ([arXiv:1509.00024](https://arxiv.org/abs/1509.00024))
 
 [[!redirects Starobinsky inflation]]
