@@ -193,18 +193,10 @@ For the following the monoid structure of $\Omega$ will be capital. So let us br
 
 In a general topos, the Heyting algebra structure endows the subobject classifier with the structure of an [[internal monoid]]: The multiplication is given by conjunction
 
-$$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,\\
-\text{ and the unit by }\mathsf{true}\quad .
+$$\Omega\times\Omega\overset{\wedge}{\to}\Omega\quad ,
+\text{ and the unit by }\quad\mathsf{true}\quad .
 $$
-Importantly, the other truth value $\mathsf{false}$ plays the role of a _zero_ with respect to this multiplication.
-
-+-- {: .num_prop #connected_action}
-###### Proposition
-Let $\mathcal{E}$ be a weakly cohesive topos with connected subobject classifier $p_!(\Omega)$. If an object $X\in\mathcal{E}$ has an internal monoid action $\mu:\Omega\times X\to X$ by $\Omega$ then $p_!(X)=1.
-=--
-
-**Proof**.
-...
+Importantly, the other truth value $\mathsf{false}$ plays the role of a (multiplicative) _zero_ with respect to this multiplication.
 
 One can use connectors to define a (generalized) homotopy relation between maps that behaves well under taking connected components.
 
