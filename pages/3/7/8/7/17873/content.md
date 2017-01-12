@@ -24,7 +24,9 @@
 
 ## Idea
 
-A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]]. This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]].
+A **sufficiently cohesive topos** is a [[topos]] that has enough connected objects in the sense that every object embeds into a [[connected object]].
+
+This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the context of [[William Lawvere|Lawvere's]] axiomatic approach to [[gros toposes]].
 
 ## Terminology
 
@@ -222,17 +224,17 @@ Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption,
 In general, we can get a map $\mu:\Omega^X\times\Omega\to\Omega^X$ from the conjunction $\wedge :\Omega\times\Omega\to \Omega$ by the following steps:
 
 $$
-\array{
-\Omega\times\Omega &{\to} & \Omega
+\begin{aligned}
+\Omega\times\Omega &\overset{\wedge}{\to}  \Omega
 \\
-\Omega& \to&\Omega^{\Omega}\quad\text{by transposal}
+\Omega& \to\Omega^{\Omega}\quad\text{by transposal}
 \\ 
-\Omega^X&\to&(\Omega^{\Omega})^{X}\quad\text{by taking powers at X}
+\Omega^X&\to (\Omega^{\Omega})^{X}\quad\text{applying the endofunctor (-)}^X
 \\
-\Omega^X &\to&(\Omega^X)^{\Omega}\quad\text{by using rules for powers}
+\Omega^X &\to (\Omega^X)^{\Omega}\quad\text{by using rules for powers}
 \\
-\Omega^X\times\Omega&\overset{\mu}{\to}&\Omega^X\quad \text{by reversing transposal .}
-}
+\Omega^X\times\Omega&\overset{\mu}{\to}\Omega^X\quad \text{by reversing transposal .}
+\end{aligned}
 $$
 
 
