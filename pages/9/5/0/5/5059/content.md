@@ -1288,6 +1288,8 @@ Discussion of the Green-Schwarz action for the open [[M2-brane]] ending on the [
 [[!redirects Green-Schwarz-type sigma-model]]
 [[!redirects Green-Schwarz-type sigma-models]]
 
+[[!redirects Green-Schwarz super-string]]
+[[!redirects Green-Schwarz super-strings]]
 
 [[!redirects Green-Schwarz super-p brane sigma model]]
 [[!redirects Green-Schwarz super-p brane sigma models]]
