@@ -32,6 +32,51 @@ From another perspective: an $L_\infty$-algebra is a [[Lie ∞-algebroid]] with 
 
 $L_\infty$-algebras are [[infinitesimal space|infinitesimal]] approximations of [[smooth ∞-group]]s in analogy to how an ordinary Lie algebra is an infinitesimal approximation of a [[Lie group]]. Under [[Lie integration]] every $L_\infty$-algebra $\mathfrak{g}$ "exponentiates" to a [[smooth ∞-group]] $\Omega \exp(\mathfrak{g})$.
 
+## History
+
++-- {: .num_remark #SuperLInfintiyAsFDA}
+###### Remark
+**(history of the concept of (super-)$L_\infty$ algebras)**
+
+The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
+
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity (def. \ref{LInfinityDefinitionViaGeneralizedJacobiIdentity}) were introduced in
+[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the 
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that  was found in the construction of [[closed string field theory]] in [Zwiebach 92](string+field+theory#Zwiebach93).
+Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
+
+The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
+is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
+See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
+
+But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]]) 
+had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
+The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
+are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
+The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
+
+| [[nLab:higher Lie theory]] | [[nLab:supergravity]] |
+|----------------------------|-----------------------|
+| $\,$ [[nLab:super Lie n-algebra]] $\mathfrak{g}$ $\,$ | $\,$ "FDA" $CE(\mathfrak{g})$ $\,$ |
+
+The construction in [van Nieuwenhuizen 82](#Nieuwenhuizen82) in turn was motivated by the [[Sullivan algebras]]
+in [[rational homotopy theory]] ([Sullivan 77](#rational+homotopy+theory#Sullivan77)). Indeed, their
+dual incarnations in rational homotopy theory are [[dg-Lie algebras]] ([Quillen 69](#rational+homotopy+theory#Quillen69)),
+hence a special case of $L_\infty$-algebras (remark \ref{LInfinityTerminology})
+
+This close relation between [[rational homotopy theory]] and [[higher Lie theory]] might have remained less of a
+secret had it not been for the focus of [[Sullivan minimal models]] on the non-[[simply connected topological space|simply connected]]
+case, which excludes the ordinary [[Lie algebras]] from the picture. But the Quillen model of
+[[rational homotopy theory]] effectively says that for $X$ a [[rational topological space]] then its [[loop space]]
+[[∞-group]] $\Omega X$ is reflected, infinitesimally, by an [[L-∞ algebra]]. This perspective began to 
+receive more attention when the [[Sullivan construction]] in [[rational homotopy theory]] was
+concretely identified as higher [[Lie integration]] in [Henriques 08](#Lie+integration#Henriques).
+A modern review that makes this [[L-∞ algebra]]-theoretic nature of [[rational homotopy theory]] manifest is in 
+[Buijs-F&#233;lix-Murillo 12, section 2](rational+homotopy+theory#BuijsFelixMurillo12).
+
+=--
+
+
 ## Definition ##
 
 ### In terms of algebras over an operad
@@ -72,6 +117,7 @@ $$
 is the product of the [[signature of a permutation|signature of the permutation]] $(-1)^{\vert \sigma \vert}$ with a factor of $(-1)^{\vert v_i \vert \vert v_j \vert}$ for each interchange of neighbours $(\cdots v_i,v_j, \cdots )$ to $(\cdots v_j,v_i, \cdots )$ involved in the decomposition of the permuation as a sequence of swapping neighbour pairs.
 
 =--
+
 
 +-- {: .num_defn #LInfinityDefinitionViaGeneralizedJacobiIdentity}
 ###### Definition
