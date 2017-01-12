@@ -33,7 +33,7 @@ Hence generally we may speak of _[[higher WZW models]]_ here.
 
 Accordingly,  each of the exceptional invariant cocycles on [[super Minkowski spacetime]] defines a [[super p-brane]]
 [[sigma model]]. These happen to be the _fundamental [[Green-Schwarz superstring]]_ and the _fundamental [[supermembrane]]_
-that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is originally a "non-committal shorthand" for "membrane theory" [(Ho&#345;ava-Witten 95, p. 2](#M-theory#NonCommittal)) -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
+that appear in, or rather that _define_ [[string theory]] and [[M-theory]] ("M-theory" is a "non-committal" shorthand for "membrane theory", [(Ho&#345;ava-Witten 95, p. 2](#M-theory#NonCommittal)) -- a fact known as the "old [[brane scan]]" ([Ach&#250;carro-Evans-TownsendWiltshire 87](#AETW87)).
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/schreiber/files/SecondBraneExtensions.png" width="350">
@@ -92,14 +92,14 @@ of the [[superpoint]] in [[super Lie n-algebra]] [[homotopy theory]]. This is wh
 </div>
 
 Computationally, all the these cocycles in the [[schreiber:brane bouquet]] exist
-due to special _[[Fierz identities]]_ (which we discuss [below](#FierzIdentities)), 
+due to special _[[Fierz identities]]_ (which we discuss [below](#FierzIdentities)),
 namely due to special spinoral higher [[Clebsch-Gordan coefficients]] that
 express the [[tensor product of representations|tensor-product]] operation in the [[real spin representation|real]] [[representation ring]] of the [[spin groups]]
-in the given dimensions ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82), [D'Auria-Fr&#233; 82a](#DAuriaFre82a), 
-[D'Auria-Fr&#233; 82b](#DAuriaFre82b))). 
+in the given dimensions ([D'Auria-Fr&#233;-Maina-Regge 82](#DAuriaFreMainaRegge82), [D'Auria-Fr&#233; 82a](#DAuriaFre82a),
+[D'Auria-Fr&#233; 82b](#DAuriaFre82b))).
 
 Hence there is a tight interplay between spinorial [[representation theory]], [[superalgebra|super-algebraic]] [[higher Lie theory]],
-[[spacetime]] that gives rise to a finite system of [[universal exceptionalism|exceptional]] structures: the [[super p-branes]]. 
+[[spacetime]] that gives rise to a finite system of [[universal exceptionalism|exceptional]] structures: the [[super p-branes]].
 This is what we discuss here.
 
 
@@ -116,15 +116,88 @@ $\,$
 {:toc}
 
 
+$\,$
+
+$\,$
+
+In order to put our discussion in perspective, we start by surveying some
+
+* _[History and background](#HistoryAndBackground)_.
+
+Then in order to lay the basis of all our discussion to follow, which is super [[higher Lie theory]],
+we recall [[super Lie algebras]] and discuss their generalization to [[super L-∞ algebras]]
+(whose [[formal duals]] are called "[[FDA]]"s in the physics literature):
+
+* _[Super L-infinity cohomology and FDAs](#SuperLInfinityCohomologyAndFDAs)_.
+
+The basic example of [[super Lie algebras]] that induces all phenomena to follow are
+the super-translation parts of [[supersymmetry]] algebras, the [[super Minkowski spacetimes]]
+introduced in detail in _[[geometry of physics -- supersymmetry]]_. Since here we 
+frequently need to refer to these structures, we recall their definition again in
+
+* _[Super Minkowski spacetimes](#SuperMinowskiSpacetimes)_.
+
+The key phenomena to be discussed are then the non-trivial invariant [[cocycles]] in the 
+super-[[Lie algebra cohomology]] of [[super Minkowski spacetimes]] (sometimes called _[[tau cohomology]]_
+in the physics literature). Computationally these correspond to certain identities satisfied by
+qadrilinear expressions in [[Majorana spinors]]. Such relations are an example of _[[Fierz identities]]_
+and so we pause to explain these in
+
+* _[Fierz identities](#FierzIdentities)_.
+
+This then gives rise to the "old [[brane scan]]" of [[Green-Schwarz super-string]] and [[super-membranes]], 
+which is the classification of the $Spin$-invariant
+super-[[Lie algebra cohomology]] of [[super Minkowski spacetimes]] ([[tau cohomology]]):
+
+
+* _[The super-string and the super-membrane](#TheSuperStringAndTheSuperMembrane)_.
+
+Using our previously established general theory of super-[[L-∞ algebra cohomology]], 
+we see that the cocycles in the old [[brane scan]] classify
+_higher_ central extensions of [[super Minkowski spacetimes]], namely [[super Lie n-algebras]]
+called _[[extended super Minkowski spacetimes]]_:
+
+* _[Extended super Minkowski spacetimes](#ExtendedSuperMinkowskiSpacetime)_
+
+A key point then is that these [[super Lie n-algebras]] obtained from [[super Minkowski spacetime]],
+turn out to carry _further_ super $L_\infty$-cocycles, not present on the plain 
+[[super Minkowski spacetimes]]. These correspond to all the [[D-branes]] and to the [[M5-branes]].
+This we discuss in 
+
+* _[The super D-branes and the M5-brane](#TheSuperDBranes)_
+
+This gives a tree of consecutive higher central [[super Lie n-algebra]] extensions, originating from the [[superpoint]],
+the _[[schreiber:brane bouquet]]_. Next we [[descent|descend]] these iterated central extensions to  single but non-central
+higher cocycles. The result turns out to be the image in [[rational homotopy theory]] of the classifying maps of the
+[[background fields]] in [[string theory]]/[[M-theory]]: the [[B-field]]-twisted [[RR-fields]] and the M-flux fields. 
+This we discuss in 
+
+* _[Fields](#Fields)_.
+
+There turn out to be special relations among these. In particular passing from  super-[[L-∞ algebra cohomology]]
+to the corresponding _[[cyclic cohomology]]_ turns out to be the [[formal dual]] operation of what in 
+physics is called [[double dimensional reduction]] of [[branes]] (here: of their [[background fields]]). This
+crucial operation we discuss in
+
+* _[Double dimensional reduction](#DoubleDimensionalReduction)_ .
+
+By systematically applying this [[super Lie n-algebra|super Lie n-algebraic]] formalization of [[double dimensional reduction]] via [[cyclic cohomology]], we discover all the pertinent [[dualities in string theory]], [[rational homotopy theory|rationally]]:
+
+* _[Dualities](#Dualities)_.
+
+
+
+
 
 
 
 ## History and background
+ {#HistoryAndBackground}
 
-Below we present fundamental [[super p-branes]] as [[universal exceptionalism|exceptional]] 
-algebro-geometric structures that are discovered by applying the magnifying glass 
+Below we present fundamental [[super p-branes]] as [[universal exceptionalism|exceptional]]
+algebro-geometric structures that are discovered by applying the magnifying glass
 (namely a [[Whitehead tower]] construction) of [[super Lie n-algebra]] [[homotopy theory]]
-to the atom of [[superspace]]: the [[superpoint]], following ([FSS 13](#FSS13), [FSS 15](#FSS15), [FSS 16a](#FSS16a), [FSS 16b](#FSS16b)).  
+to the atom of [[superspace]]: the [[superpoint]], following ([FSS 13](#FSS13), [FSS 15](#FSS15), [FSS 16a](#FSS16a), [FSS 16b](#FSS16b)).
 
 This is not the perspective from which [[super p-branes]] were arrived at historically. In order
 to put our discussion into perspective, here we briefly review some of the historical background.
@@ -141,16 +214,16 @@ $$
 
 from the [[worldsheet]] $\Sigma$ to target [[spacetime]] $X$.
 
-The central theorem of perturbative superstring theory 
+The central theorem of perturbative superstring theory
 (the no ghost theorem with[[GSO projection]]) says that the excitation spectrum of such a [[2d SCFT]] are the quanta of the [[perturbation theory|perturbations]] of a higher dimensional [[effective field theory|effective]] [[supergravity]] [[field theory]] on target spacetime, hence transforms under [[supersymmetry]] on target spacetime.
 
-This is the fundamental prediction of the assumption of fundamental strings: 
+This is the fundamental prediction of the assumption of fundamental strings:
 
 1. assuming that the [[fundamental particles]] that run in [[Feynman diagrams]] are fundamentally (at high energy) the ground state modes of a fundamental [[string]],
 
-1. demanding that there are [[fermion|fermionic]] particles among these, 
+1. demanding that there are [[fermion|fermionic]] particles among these,
 
-implies 
+implies
 
 1. that the string must be the [[spinning string]] (have fermions in its [[worldsheet]] theory), which in turn implies...
 
@@ -163,12 +236,12 @@ implies
 | $ \underset{\text{spinning string}}{\underbrace{\text{fermions} \;+\; \text{strings}}} \;=\; \text{superstring} \;\Rightarrow\; \text{supergravity} $ |
 
 The first step in this implication (identifying the [[spinning string]] as the [[superstring]]) is fairly straightforward
-(in fact this is how the concept of [[supersymmetry]] was discovered in "the west", in the first place), 
-but the second step (that the superstring excitations necessarily are quanta of a [[spacetime]] [[supergravity]] theory) 
+(in fact this is how the concept of [[supersymmetry]] was discovered in "the west", in the first place),
+but the second step (that the superstring excitations necessarily are quanta of a [[spacetime]] [[supergravity]] theory)
 appears as a miracle from the point of view of the [[Neveu-Schwarz-Ramond superstring]].
 It comes out this way by non-trivial computation, but is not manifest in the theory.
 
-In order to improve on this situation, [[Michael Green]] and [[John Schwarz]] searched for and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]] that would manifestly exhibit [[spacetime]] [[supersymmetry]]. 
+In order to improve on this situation, [[Michael Green]] and [[John Schwarz]] searched for and found ([Green-Schwarz 81](#GreenSchwarz81), [Green-Schwarz 82](#GreenSchwarz82) [Green-Schwarz 84](#GreenSchwarz84), for the history see [Schwarz 16, slides 24-25](#Schwarz16)) a suitably equivalent string [[action functional]] that would manifestly exhibit [[spacetime]] [[supersymmetry]].
 Acordingly, the this is now called the _[[Green-Schwarz action functional]]_.
 
 | [[action functional]] for [[superstring]] | manifest [[supersymmetry]] |
@@ -227,20 +300,20 @@ $$
   \,.
 $$
 
-Moreover, they showed that restricting the 
+Moreover, they showed that restricting the
 [[dynamics]] of the [[Green-Schwarz superstring]] to the $\kappa$-symmetric states, then it does become equivalent, classically
 to that of the [[Neveu-Ramond-Schwarz super-string]].
 
-Finally they showed that when [[gauge fixing]] the [[Green-Schwarz action functional]] to [[light-cone gauge]] 
+Finally they showed that when [[gauge fixing]] the [[Green-Schwarz action functional]] to [[light-cone gauge]]
 (which is possible whenever [[target spacetime]] admits two [[lightlike]] [[Killing vector]]) then the [[Green-Schwarz string]]
 may be [[quantization|quantized]] by a standard procedure and the resulting
-[[quantum system|quantum]] dynamics is equivalent to that of the [[Neveu-Schwarz-Ramond super-string]]. 
+[[quantum system|quantum]] dynamics is equivalent to that of the [[Neveu-Schwarz-Ramond super-string]].
 This provides the desired conceptual [[proof]] for the observed local [[target spacetime]] [[supersymmetry]]
-of super-string [[effective field theory]], at least for backgrounds that admit two lightlike Killing vectors. 
+of super-string [[effective field theory]], at least for backgrounds that admit two lightlike Killing vectors.
 (The [[quantization]] of the [[Green-Schwarz superstring]] away from [[light cone gauge]] remains an open problem.)
 
 
-While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clear purpose as a means to an end, originally its geometric meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the 
+While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clear purpose as a means to an end, originally its geometric meaning was mysterious. However, in ([Henneaux-Mezincescu 85](#HenneauxMezincescu85)) it was observed (expanded on in ([Rabin 87](#Rabin87), [Azcarraga-Townsend 89](#AzcarragaTownsend89), [Azcarraga-Izquierdo 95,chapter 8](#AzcarragaIzquierdo95))), that the
 [[Green-Schwarz action functional]] describing the [[super-string]] in $d+1$-dimensions does have a neat geometrical interpretation: it is simply the ([[parameterized WZW model|parameterized]]) _[[Wess-Zumino-Witten model]]_ for
 
 1. [[target space]] being locally [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1|\mathbf{N}}$ regarded as the [[coset]] [[supergroup]]
@@ -258,16 +331,16 @@ While Green-Schwarz's extra [[kappa-symmetry]] term $S_{WZW}$ this serves a clea
    $$
      \mu_{F1} = \overline{\psi} \wedge \Gamma_A \psi \wedge e_a
    $$
-   
+
    and so in components the bi-fermionic component of $\mu_{F1}$ is
-   
+
    $$
      (\mu_{F1})_{a \alpha \beta} = \Gamma_{a \alpha \beta}
    $$
-   
+
    and all other components vanish.
 
-More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]] 
+More in detail, just as ordinary [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ may be identified with the [[translation group]]
 along itself, with canonical [[linear basis]] of [[left invariant 1-forms]] given by the canonical [[vielbein]] field
 
 $$
@@ -305,30 +378,30 @@ $$
 $$
 
 This elementary effect is the source of all the rich structure seen in the [[Green-Schwarz super-string]]
-and generally in all [[super p-brane]] theory. 
-(The above differential is equivalently that in the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]], 
-hence its [[cohomology]] is the super-[[Lie algebra cohomology]] of [[super Minkowski spacetime]]. In parts of the 
+and generally in all [[super p-brane]] theory.
+(The above differential is equivalently that in the [[Chevalley-Eilenberg algebra]] of [[super Minkowski spacetime]],
+hence its [[cohomology]] is the super-[[Lie algebra cohomology]] of [[super Minkowski spacetime]]. In parts of the
 [[physics]] literature this is referred to a "[[tau cohomology]]".)
 
-In particular, for special combinations of [[spacetime]] [[dimension]] $d$ and number of [[supersymmetries]] $\mathbf{N}$ 
+In particular, for special combinations of [[spacetime]] [[dimension]] $d$ and number of [[supersymmetries]] $\mathbf{N}$
 (i.e. [[real spin representation]] $N$) then the 3-form
 
 $$
   \mu_{F1} =  \overline{\psi} \wedge \Gamma_a \psi \wedge e^a
 $$
 
-is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that 
+is a non-trivial [[super Lie algebra|super]] [[Lie algebra cocycle]] on $\mathbb{R}^{d-1,1\vert \mathbf{N}}$, in that
 $\mathbf{d}\mu_{F1} = 0$ and so that there is no [[left invariant differential form]] $b$ with $\mathbf{d}b = \mu_[F1}$
 (beware here the left-invariance condition: there are of course non-left-invariant potentials for $\mu_{F1}$,
 and in fact these are exactly the possible [[Lagrangian densities]] for the WZW action functional $S_{WZW}$).
 
-This happens notably for 
+This happens notably for
 
-1. $d = 10$ and $\mathbf{N} = (1,0) = \mathbf{16}$ ([[heterotic string]]) 
+1. $d = 10$ and $\mathbf{N} = (1,0) = \mathbf{16}$ ([[heterotic string]])
 
-1. $d = 10$ and $\mathbf{N} = (2,0) = \mathbf{16} + \mathbf{16}$ ([[type IIB superstring]]) 
+1. $d = 10$ and $\mathbf{N} = (2,0) = \mathbf{16} + \mathbf{16}$ ([[type IIB superstring]])
 
-1. $d = 10$ and $\mathbf{N} = (1,1) = \mathbf{16} + \mathbf{16}^\ast$ ([[type IIA superstring]]). 
+1. $d = 10$ and $\mathbf{N} = (1,1) = \mathbf{16} + \mathbf{16}^\ast$ ([[type IIA superstring]]).
 
 (It also happens in some lower dimensions, where however the corresponding [[Neveu-Schwarz-Ramond string]] develops a [[conformal anomaly]] after [8quantization]] ("non-critical strings"). This classification of cocycles is part of what has come to be known as the _[[brane scan]]_ in superstring theory, see below.)
 
@@ -576,6 +649,746 @@ $\,$
 
 
 
+## Super $L_\infty$-cohomology and FDAs
+ {#SuperLInfinityCohomologyAndFDAs}
+
+We recall [[super Lie algebras]], and amplify their [[formal dual]] description in terms of their
+[[Chevalley-Eilenberg algebras]]. This makes it immediate to see what [[super L-∞ algebras]] are, 
+again they are conveniently expressed (if they are of [[finite type]]) via their [[formal dual]] [[Chevalley-Eilenberg algebras]].
+
+
++-- {: .num_defn #SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}
+###### Definition
+
+A _[[super Lie algebra]]_ is a [[Lie algebra]] [[internalization|internal]]
+to the [[symmetric monoidal category]] $sVect = (Vect^{\mathbb{Z}/2}, \otimes_k, \tau^{super} )$ of [[super vector spaces]].
+Hence this is
+
+1. a [[super vector space]] $\mathfrak{g}$;
+
+1. a homomorphism
+
+   $$
+     [-,-] \;\colon\; \mathfrak{g} \otimes_k \mathfrak{g} \longrightarrow \mathfrak{g}
+   $$
+
+   of super vector spaces (the _super Lie bracket_)
+
+such that
+
+1. the bracket is skew-symmetric in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g}
+         &
+           \overset{\tau^{super}_{\mathfrak{g},\mathfrak{g}}}{\longrightarrow}
+         &
+       \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       {}^{\mathllap{[-,-]}}\downarrow && \downarrow^{\mathrlap{[-,-]}}
+       \\
+       \mathfrak{g} &\underset{-1}{\longrightarrow}& \mathfrak{g}
+     }
+   $$
+
+   (here $\tau^{super}$ is the [[braiding]] [[natural isomorphism]] in the category of [[super vector spaces]])
+
+1. the [[Jacobi identity]] holds in that the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       &&
+         \overset{\tau^{super}_{\mathfrak{g}, \mathfrak{g}} \otimes_k id }{\longrightarrow}
+       &&
+       \mathfrak{g} \otimes_k \mathfrak{g} \otimes_k \mathfrak{g}
+       \\
+       & {}_{\mathllap{[-,[-,-]]} - [[-,-],-] }\searrow && \swarrow_{\mathrlap{[-,[-,-]]}}
+       \\
+       && \mathfrak{g}
+     }
+     \,.
+   $$
+
+=--
+
+Externally this means the following:
+
++-- {: .num_prop #SuperLieAlgebraTraditional}
+###### Proposition
+
+A [[super Lie algebra]] according to def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces} is equivalently
+
+1. a $\mathbb{Z}/2$-[[graded vector space]] $\mathfrak{g}_{even} \oplus \mathfrak{g}_{odd}$;
+
+1. equipped with a [[bilinear map]] (the _super Lie bracket_)
+
+   $$
+     [-,-] : \mathfrak{g}\otimes_k \mathfrak{g} \to \mathfrak{g}
+   $$
+
+   which is _graded_ skew-symmetric: for $x,y \in \mathfrak{g}$ two elements of homogeneous degree $\sigma_x$, $\sigma_y$, respectively, then
+
+   $$
+     [x,y] = -(-1)^{\sigma_x \sigma_y} [y,x]
+     \,,
+   $$
+
+1. that satisfies the $\mathbb{Z}/2$-graded [[Jacobi identity]] in that
+for any three elements $x,y,z \in \mathfrak{g}$ of homogeneous super-degree $\sigma_x,\sigma_y,\sigma_z\in \mathbb{Z}_2$ then
+
+   $$
+     [x, [y, z]] = [[x,y],z] + (-1)^{\sigma_x \cdot \sigma_y} [y, [x,z]]
+     \,.
+   $$
+
+A [[homomorphism]] of super Lie algebras is a homomorphisms of the underlying [[super vector spaces]]
+which preserves the Lie bracket. We write
+
+$$
+  sLieAlg
+$$
+
+for the resulting [[category]] of super Lie algebras.
+
+=--
+
+
++-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
+###### Definition
+
+For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
+
+$$
+  \wedge^\bullet  \mathfrak{g}^\ast
+$$
+
+equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
+
+$$
+  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+$$
+
+and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
+
+$\,$
+
+Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
+
+For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
+the [[signs in supergeometry|sign rule]] is
+
+$$
+  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
+
+=--
+
+We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
+[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
+
+
+The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
+[[Lie algebra cohomology]]:
+
++-- {: .num_defn #SuperLieAlgebraCohomology}
+###### Definition
+
+Given a [[super Lie algebra]] $\mathfrak{g}$, then
+
+1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
+
+1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
+
+1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
+
+   $$
+     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
+     \,.
+   $$
+
+=--
+
+
+
+The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
+
++-- {: .num_prop}
+###### Proposition
+
+The functor
+
+$$
+  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
+$$
+
+that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
+(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
+as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
+
+=--
+
+This makes it immediate how to generalize to [[super L-infinity algebras]]:
+
++-- {: .num_defn #SuperLInfinityAlgebra}
+###### Definition
+
+A **[[super L-∞ algebra]]** is an [[L-∞ algebra]] [[internalization|internal to]] the [[symmetric monoidal category]] of [[super vector spaces]] (def. \ref{CategoryOfSuperVectorSpaces}).
+
+=--
+
+Explicitly this means the following:
+
++-- {: .num_defn #SuperGradedSignatureOfPermutation}
+###### Definition
+**(super graded signature of a permutation)**
+
+Let $V$ be a $\mathbb{Z}$-[[graded object|graded]] [[super vector space]], hence a $\mathbb{Z} \times (\mathbb{Z}/2)$-bigraded vector space.
+
+For $n \in \mathbb{N}$ let
+
+$$
+  \mathbf{v} = (v_1, v_2, \cdots, v_n)
+$$
+
+be an [[n-tuple]] of elements of $V$ of homogeneous degree $(n_i, s_i) \in \mathbb{Z} \times \mathbb{Z}/2$, i.e. such that $v_i \in V_{(n_i,s_i)}$.
+
+For $\sigma$ a [[permutation]] of $n$ elements, write $(-1)^{\vert \sigma \vert}$ for the [[signature of a permutation|signature of the permutation]], which is by definition equal to $(-1)^k$ if $\sigma$ is the composite of $k \in \mathbb{N}$ permutations that each exchange precisely one pair of neighboring elements.
+
+We say that the _super $\mathbf{v}$-graded signature of $\sigma$_
+
+$$
+  \chi(\sigma, v_1, \cdots, v_n) \;\in\; \{-1,+1\}
+$$
+
+is the product of the [[signature of a permutation|signature of the permutation]] $(-1)^{\vert \sigma \vert}$ with a factor of
+
+$$
+  (-1)^{n_i n_j}(-1)^{s_i s_j}
+$$
+
+for each interchange of neighbours $(\cdots v_i,v_j, \cdots )$ to $(\cdots v_j,v_i, \cdots )$ involved in the decomposition of the permuation as a sequence of swapping neighbour pairs (see at _[[signs in supergeometry]]_ for discussion of this combination of super-grading and homological grading).
+
+=--
+
+Now def. \ref{SuperLInfinityAlgebra} is equivalent to the following def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity}. This is just the definiton for [L-infinity algebras](#L-infinity-algebra#DefinitionViaHigherBrackets), with the pertinent sign $\chi$ now given by def. \ref{SuperGradedSignatureOfPermutation}.
+
+
++-- {: .num_defn #sLInfinityDefinitionViaGeneralizedJacobiIdentity}
+###### Definition
+
+An _[[super L-∞ algebra]]_ is
+
+1. a $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded object|graded]] [[vector space]] $\mathfrak{g}$;
+
+1. for each $n \in \mathbb{N}$ a [[multilinear map]], called the _$n$-ary bracket_, of the form
+
+   $$
+     l_n(\cdots)
+       \;\coloneqq\;
+     [-,-, \cdots, -]_n
+     \;\colon\;
+       \underset{n \; \text{copies}}{\underbrace{\mathfrak{g} \otimes \cdots \otimes \mathfrak{g}}}
+       \longrightarrow
+       \mathfrak{g}
+   $$
+
+   and of degree $n-2$
+
+such that the following conditions hold:
+
+1. (**super graded skew symmetry**) each $l_n$ is graded antisymmetric, in that for every [[permutation]] $\sigma$ of $n$ elements and for every [[n-tuple]] $(v_1, \cdots, v_n)$ of  homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ then
+
+   $$
+     l_n(v_{\sigma(1)}, v_{\sigma(2)},\cdots ,v_{\sigma(n)})
+     =
+     \chi(\sigma,v_1,\cdots, v_n) \cdot l_n(v_1, v_2, \cdots v_n)
+   $$
+
+   where $\chi(\sigma,v_1,\cdots, v_n)$ is the super $(v_1,\cdots,v_n)$-graded signature of the permuation $\sigma$, according to def. \ref{SuperGradedSignatureOfPermutation};
+
+1. (**strong homotopy [[Jacobi identity]]**) for all $n \in \mathbb{N}$, and for all [[n-tuple|(n+1)-tuples]] $(v_1, \cdots, v_{n+1})$ of homogeneously graded elements $v_i \in \mathfrak{g}_{\vert v_i \vert}$ the followig [[equation]] holds
+
+   \[
+     \label{LInfinityJacobiIdentity}
+     \sum_{{i,j \in \mathbb{N}} \atop {i+j = n+1}}
+     \sum_{\sigma \in UnShuff(i,j)}
+     \chi(\sigma,v_1, \cdots, v_{n})
+     (-1)^{i(j-1)}
+      l_{j} \left(
+        l_i \left( v_{\sigma(1)}, \cdots, v_{\sigma(i)} \right),
+        v_{\sigma(i+1)} , \cdots , v_{\sigma(n)}
+      \right)
+     = 0
+     \,,
+   \]
+
+   where the inner sum runs over all $(i,j)$-[[unshuffles]] $\sigma$ and where $\chi$ is the super graded signature sign from def. \ref{SuperGradedSignatureOfPermutation}.
+
+
+A _strict [[homomorphism]]_ of super $L_\infty$-algebras
+
+$$is
+  \mathfrak{g}_1 \longrightarrow \mathfrak{g}_2
+$$
+
+is a [[linear map]] that preserves the bidegree and all the brackets, in an evident sens.
+
+A _strong homotopy homomorphism_ ("sh map") of super $L_\infty$-algebras is something weaker than that, best defined in [[formal duals]], below in def. \ref{SuperLInfinityCEAlgebra}.
+
+=--
+
++-- {: .num_remark #LInfinityTerminology}
+###### Remark
+
+Special cases of the general concept of [[super L-∞ algebras]] def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity} go by special names:
+
+Let $\mathfrak{g}$ be a [[super L-∞ algebra]].
+
+If $\mathfrak{g}$ is concentrated in even $\mathbb{Z}/2$-degree, it is called an _[[L-∞ algebra]]_.
+
+If $\mathfrak{g}$ is concentrated in $\mathbb{Z}$-degrees 0 to $n-1$ then it is called a _[[super Lie n-algebra]]_.
+
+In particular if $\mathfrak{g}$ is concentrated in degree 0, then it is equivalently a [[super Lie algebra]].
+
+Combining this, if $\mathfrak{g}$ is concentrated in even $\mathbb{Z}/2$-degree and in $\mathbb{Z}$-degree 0 through $n-1$, then it is called a _[[Lie n-algebra]]_.
+
+In particular if $\mathfrak{g}$ is concentrated in $\mathbb{Z}$-degree 0 and in even $\mathbb{Z}/2$-degree, then it is
+equivalently a plain [[Lie algebra]].
+
+=--
+
+
++-- {: .num_defn #SuperLInfinityCEAlgebra}
+###### Definition
+
+A super $L_\infty$ algebra $\mathfrak{g}$ is of _[[finite type]]_ if the underlying $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded vector space]] is degreewise of [[finite number|finite]] [[dimension]].
+
+If $\mathfrak{g}$ is of finite type, then its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ is the [[dg-algebra]] whose underlying [[graded algebra]] is the super-Grassmann algebra
+
+$$
+  \wedge^\bullet \mathfrak{g}^{\ast}
+$$
+
+of the graded degreewise [[dual vector space]] $\mathfrak{g}^\ast$, equipped with the [[differential]] which on generators is the sum of the [[dual linear maps]] of the $n$-ary brackets:
+
+$$
+  d_{\mathfrak{g}}
+   \coloneqq
+  [-]^\ast + [-,-]^\ast + [-,-,-]^\ast + \cdots
+  \;\colon\;
+  \wedge^1 \mathfrak{g}^\ast
+    \longrightarrow
+  \wedge^\bullet \mathfrak{g}^\ast
+$$
+
+and extended to all of $\wedge^\bullet \mathfrak{g}^\ast$ as a super-graded [[derivation]] of degree $(1,even)$.
+
+Notice that here the [[signs in supergeometry]] are such that for $\alpha_i \in \mathfrak{g}^\ast_{(n_i,s_i)}$ elements of homogenous bidegree, then
+
+$$
+  \alpha_1 \wedge \alpha_2
+  \;=\;
+  -(-1)^{n_1 n_2} (-)^{s_1 s_2}
+$$
+
+and
+
+$$
+  d_{\mathfrak{g}}
+  (\alpha_1 \wedge \alpha_2)
+  \;=\;
+  (d_{\mathfrak{g}} \alpha_1) \wedge \alpha_2
+  +
+  (-1)^{n_1} \alpha_1 \wedge (d_{\mathfrak{g}} \alpha_2)
+  \,.
+$$
+
+(see at _[[signs in supergeometry]]_ for more on this).
+
+A _strong homotopy homomorphism_ ("sh-map") between super $L_\infty$-algbras of [[finite type]]
+
+$$
+ f \;\colon\; \mathfrak{g}_1 \longrightarrow \mathfrak{g}_2
+$$
+
+is defined to be a homomorphism of [[dg-algebras]] between their [[Chevalley-Eilenberg algebras]] going the other way:
+
+
+$$
+  CE(\mathfrak{g}_1) \longleftarrow CE(\mathfrak{g}_2)
+    \;\colon\;
+  f^\ast
+$$
+
+(here $f^\ast$ is the primitive concept, and $f$ is defined as the [[formal dual]] of $f$). Hence the [[category]] of super $L_\infty$-algebras of [[finite type]] is the [[full subcategory]]
+
+$$
+  s L_\infty Alg \hookrightarrow dgAlg^{op}
+$$
+
+of the [[opposite category]] of [[dg-algebras]] on those that are CE-algebras as above.
+
+Finally, the [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ of a super $L_\infty$ algebra of [[finite type]] is its _[[L-∞ algebra cohomology]]_ with [[coefficients]] in $\mathbb{R}$:
+
+$$
+  H^\bullet(\mathfrak{g}, \mathbb{R})
+   \;=\;
+  H^\bullet(CE(\mathfrak{g}))
+  \,.
+$$
+
+
+=--
+
+
+
+
++-- {: .num_remark #SuperLInfintiyAsFDA}
+###### Remark
+
+
+[[L-∞ algebras]] in the sense of def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity} 
+and remark \ref{LInfinityTerminology} were introduced in
+[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92). spring
+
+That they are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
+(def. \ref{SuperLInfinityCEAlgebra})
+is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
+See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
+
+But in this dual incarnation, [[super L-∞ algebras]] of [[finite type]] had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
+
+The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature, where in [[rational homotopy theory]] one says "[[semifree dga]]" or "quasifree dga", since these dg-algebras are crucially not required to be [[free construction|free]] as _differential_ algebras). (If they are, then they are [[Weil algebras]]).
+
+
+| [[nLab:higher Lie theory]] | [[nLab:supergravity]] |
+|----------------------------|-----------------------|
+| $\,$ [[nLab:super Lie n-algebra]] $\mathfrak{g}$ $\,$ | $\,$ "FDA" $CE(\mathfrak{g})$ $\,$ |
+
+
+The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
+
+=--
+
+
+
+
+However, what has not been used in the "FDA" literature is that $L_\infty$-algebras are objects in _[[nLab:homotopy theory]]_:
+
+
++-- {: .num_prop}
+###### Proposition
+**([Pridham 10, prop. 4.36](https://ncatlab.org/nlab/show/model+structure+for+L-infinity+algebras#Pridham))**
+
+There exists a [[model category]] such that
+
+1. its [[fibrant objects]] are the (super-)[[nLab:L-∞ algebras]]
+
+   with the above [[nLab:homomorphisms]] between them;
+
+1. and
+
+   * the weak equivalences between (super-)$L_\infty$-algebras are the [[nLab:quasi-isomorphisms]];
+
+   * fibrations between (super-)$L_\infty$-algebras are the surjections
+
+   on the underlying [[nLab:chain complex]] (using the unary part of the differential).
+
+For more see at _[[nLab:model structure for L-infinity algebras]]_.
+
+=--
+
+$\,$
+
+Concretely, this implies in particular that every [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
+
+$$
+  \array{
+    \mathfrak{g}_1
+    \\
+    & {}_{\mathllap{f}}\searrow
+    \\
+    && \mathfrak{g}_2
+  }
+$$
+
+is the composite of a [[nLab:quasi-isomorphism]] followed by a surjection
+
+$$
+  \array{
+    \mathfrak{g}_1
+     && \overset{\text{quasi-iso}}{\longrightarrow} &&
+    \widetilde \mathfrak{g}_1
+    \\
+    & {}_{\mathllap{f}}\searrow && \swarrow_{\mathrlap{ {f_{fib}} \atop {\text{surjection}}}}
+    \\
+    && \mathfrak{g}_2
+  }
+  \,.
+$$
+
+That surjective homomorphism $f_{fib}$
+
+is called a _[[nLab:fibrant replacement]]_ of $f$.
+
+$\,$
+
++-- {: .num_defn }
+###### Definition
+
+Given [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
+
+$$
+  \mathfrak{g}_1 \overset{f}{\longrightarrow} \mathfrak{g}_2
+$$
+
+then its **[[nLab:homotopy fiber]]** $hofib(f)$
+
+is the [[nLab:kernel]] of any fibrant replacement
+
+$$
+  hofib(f)
+   \;\coloneqq\;
+  ker(f_{fib})
+  \,.
+$$
+
+=--
+
+Standard facts in [[nLab:homotopy theory]] assert
+
+that $hofib(f)$ is well-defined
+
+up to [[nLab:quasi-isomorphism]].
+
+See at _[Introduction to homotopy theory -- Homotopy fibers](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_.
+
+$\,$
+
++-- {: .num_prop}
+###### Proposition
+**([Fiorenza-Sati-Schreiber 13, prop. 3.5](#FSS13))**
+
+Write
+
+$$
+  B^{p+1}\mathbb{R}
+$$
+
+for the **[[nLab:line Lie n-algebra|line Lie (p+1)-algebra]]**, given by
+
+$$
+  CE(B^{p+1}\mathbb{R})
+   \;=\;
+  \left(
+    \wedge^\bullet \underset{\text{single generator} \atop \text{in deg.} \, (p+2,even)}{\underbrace{\langle c_{p+2} \rangle}}
+    \;,\;
+    d_{B^{p+1}\mathbb{R}} = 0
+  \right)
+  \,.
+$$
+
+
+A $(p+2)$-cocycle on an $L_\infty$-algebra is equivalently a homomorphim
+
+$$
+  \mu_{p+2} \;\colon\; \mathfrak{g} \longrightarrow B^{p+1}\mathbb{R}
+  \,.
+$$
+
+The [[nLab:homotopy fiber]] of this map
+
+$$
+  \array{
+    \widehat{\mathfrak{g}}
+    \\
+    {}^{\mathllap{hofib(\mu_{p+2})}}\downarrow
+    \\
+    \mathfrak{g}
+    &\underset{\mu_{p+2}}{\longrightarrow}& B^{p+1}\mathbb{R}
+  }
+$$
+
+is given by adjoining to $CE(\mathfrak{g})$ a single generator $b_{p+1}$
+
+forced to be a potential for $\mu_{p+2}$:
+
+$$
+  CE(\widehat{\mathfrak{g}})
+  \;\simeq\;
+  CE(\mathfrak{g})[b_{p+1}]/(d b_{p+1} = \mu_{p+2})
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+$\,$
+
+The homotopy fiber of a 2-cocycle
+
+is the classical [[nLab:central extension]]
+
+that it classifies.
+
+=--
+
+
+$\,$
+
+**Conclusion.**
+
+$\;\;$ _The higher central extensions_
+
+$\;\;$ _classified by higher cocycles_
+
+$\;\;$ _are their homotopy fibers._
+
+$\,$
+
+
+
+some more stuff
+
+$\,$
+
+$\,$
+
+
+The [[Chevalley-Eilenberg algebras]] which in def. \ref{CEAlgebra} and def. \ref{SuperLieAlgebraViaCE} we used to _characterize_ the corresponding (super) Lie algebras are of course traditionally introduced as the [[cochain complexes]] whose [[cochain cohomology]] is [[Lie algebra cohomology]]. We may conceptualize this as follows:
+
++-- {: .num_defn #SiteCartSp}
+###### Definition
+
+For $n \in \mathbb{N}$ write $\mathbb{R}^{1|0}[n]$ for the _[[line Lie n-algebra|line Lie (n+1)-algebra]]_, the [[super L-infinity algebra]] defined simply as the [[formal dual]] to the $(\mathbb{Z},\mathbb{Z}_2)$-graded commutative [[dg-algebra]]
+
+$$
+  CE(\mathbb{R}^{1|0}[n]) \coloneqq
+  \left(
+    \wedge^\bullet \mathbb{R}^{1|0}[n],
+    \;
+    d = 0
+  \right)
+$$
+
+whose underlying [[graded algebra]] is freely generated from a single generator in degree $(n,even)$, and whose differential vanishes.
+
+=--
+
++-- {: .num_remark #LieAlgebraCohomologAsHomomorphism}
+###### Remark
+
+Recall that being a "[[formal dual]]" to a dg-algebra here simply means that for $\mathfrak{g}$ any [[super Lie algebra]], the homomorphisms of [[super L-infinity algebras]] of the form
+
+$$
+  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathbb{R}^{1|0}[n]
+$$
+
+are equivalently (by definition!) homomorphisms of [[dg-algebras]] of the form
+
+$$
+  CE(\mathfrak{g})
+  \longleftarrow
+  CE(\mathbb{R}^{1|0}[n])
+  \,.
+$$
+
+Since the underlying graded algebra of $CE(\mathbb{R}^{1|0}[n])$ is free on a single generator $c$ in degree $n+1$, such a homomorphism is determined by the image of this generator
+
+$$
+  c \mapsto \mu \in CE(\mathfrak{g})
+  \,.
+$$
+
+Moreover, the condition that this map respects the differentials, and since the differential on $CE(\mathbb{R}^{1|0}[n])$ vanishes by definition, this means that
+
+$$
+  \array{
+     c &\mapsto& && \mu
+     \\
+     \downarrow^{\mathrlap{d_{\mathbb{R}^{1|0}[n]}}}
+     && &&
+    \downarrow^{\mathrlap{d_{\mathfrak{g}}}}
+     \\
+     0 &\mapsto& 0 &=& d_{\mathfrak{g}}\mu
+  }
+  \,.
+$$
+
+Hence such a moprhism $\mu$ is equivalently a _closed_ element of degree $(n+1)$ in $CE(\mathfrak{g})$, hence is equivalently a [[Lie algebra cohomology|super Lie algebra cocycle]] of degree $n+1$ on $\mathfrak{g}$.
+
+This way [[line Lie n-algebra|line Lie (n+1)-algebra]] $\mathbb{R}^{1|0}[n]$ is the _[[moduli stack|moduli object]]_ for degree-$(n+1)$ Lie algebra cohomology in direct [[analogy]] of how for instance the familiar [[Eilenberg-MacLane space]] $B^{n+1}\mathbb{R} = K(\mathbb{Z},n+1)$ is the classifying space for degree $n+1$ [[ordinary cohomology]] of [[topological spaces]].
+
+=--
+
+One advantange of conceptualizing Lie algebra cocycles as in remark \ref{LieAlgebraCohomologAsHomomorphism} is that it neatly connects to the formulation of [[Lie algebra valued forms]] according to def. \ref{LieAlgValuedFormsViaDgAlgHoms}, def. \ref{SuperLieAlgValuedDiffForms}:
+
+
++-- {: .num_remark }
+###### Remark
+
+A $\mathbb{R}^{1|0}[n]$-valued differential form is simply an even closed differential $(n+1)$-form:
+
+$$
+  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{1|0}[n])
+  \simeq
+  Hom(CE(\mathbb{R}^{1|0}[n]), \Omega^\bullet(\mathbb{R}^{p|q}))
+  \simeq
+  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
+  \,.
+$$
+
+Hence a super Lie algebra $(n+1)$-cocycle $\mu$ on
+$\mathfrak{g}$ naturally determines a map
+
+
+$$
+  \mu(-)
+  \colon
+  \Omega^1(\mathbb{R}^{p|q},\mathfrak{g})
+  \longrightarrow
+  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
+$$
+
+given by forming the composite with the morphism representing the cocycle $\mu$
+
+$$
+  \left(
+    \Omega^\bullet(\mathbb{R}^{p|q})
+     \stackrel{A}{\longleftarrow}
+  CE(\mathfrak{g})
+  \right)
+  \mapsto
+  \left(
+  \Omega^\bullet(\mathbb{R}^{p|q})
+   \stackrel{A}{\longleftarrow}
+  CE(\mathfrak{g})
+  \stackrel{\mu^\ast}{\longleftarrow}
+  CE(\mathbb{R}^{1|0}[n])
+  \right)
+$$
+
+sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$.
+
+
+=--
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -586,7 +1399,7 @@ $\,$
 
 In order set the scene, and for reference, we recall the nature of [[super Minkowski spacetimes]] from _[[geometry of physics -- supersymmetry]]_.
 
-In all of the following it is most convenient to regard [[super Lie algebras]] dually 
+In all of the following it is most convenient to regard [[super Lie algebras]] dually
 via their [[Chevalley-Eilenberg algebras]]:
 
 +-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
@@ -675,13 +1488,13 @@ as a [[full subcategory]] of the [[opposite category]] of [[differential-graded 
 +-- {: .num_defn #SuperMinkowskiSpacetime}
 ###### Definition
 
-Let 
+Let
 
 $$
   d \in \mathbb{N}
-$$ 
+$$
 
-be a [[spacetime]] [[dimension]] and let 
+be a [[spacetime]] [[dimension]] and let
 
 $$
   N \in Rep_{\mathbb{R}}(Spin(d-1,1))
@@ -719,11 +1532,11 @@ $$
 
 $$
   \begin{aligned}
-    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha & 
-      \coloneqq 
+    d_{\mathbb{R}^{d-1,1\vert N}} \; \psi^\alpha &
+      \coloneqq
       0
     \\
-    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a 
+    d_{\mathbb{R}^{d-1,1\vert N}} \; e^a
       & \coloneqq \overline{\psi} \wedge \Gamma^a \psi
     \\
     & \coloneqq   \left(C_{\alpha \alpha'} {\Gamma^a}^{\alpha'}{}_\beta\right)  \psi^\alpha \wedge \psi^\beta
@@ -731,7 +1544,7 @@ $$
     \,,
 $$
 
-where 
+where
 
 1. $\overline{\psi} \wedge \Gamma^a \psi$ denotes the $a$-component of the $Spin(d-1,1)$-invariant spinor bilinear pairing $N \otime N \to \mathbb{R}^d$ that comes with every [[real spin representation]] applied to $\psi \wedge \psi$ regarded as an $N \otimes N$-valued form;
 
@@ -745,7 +1558,7 @@ where
 
 That this indeed yields a [[super Lie algebra]] follows by the symmetry and equivariance of the bilinear spinor pairing (via [this prop.](geometry+of+physics+--+supersymmetry#SpinorToVectorPairing)).
 
-There is a canonical [[Lie algebra action]] of the [[special orthogonal Lie algebra]] 
+There is a canonical [[Lie algebra action]] of the [[special orthogonal Lie algebra]]
 
 $$
   Lie(Spin(d-1,1)) \simeq \mathfrak{so}(d-1,1)
@@ -761,9 +1574,9 @@ $$
 $$
 
 This is characterized by the fact that its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N}))$
-is as follows: 
+is as follows:
 
-it is [[generators and relations|generated]] from elements 
+it is [[generators and relations|generated]] from elements
 
 $$
    \underset{deg = (1,even)}{\underbrace{e^a}}
@@ -777,11 +1590,11 @@ $$
    \underset{deg = (1,even)}{\underbrace{\omega^{a b} = - \omega^{b a}}}
 $$
 
-with the [[super vielbein]] $(e^a, \psi^\alpha)$ as before, and with $\omega^{a b}$ the 
-[[dual basis]] of the induced [[linear basis]] for vectro space of skew-symmetric matricces 
-underlying the [[special orthogonal Lie algebra]]. The commutation relations are as before, 
+with the [[super vielbein]] $(e^a, \psi^\alpha)$ as before, and with $\omega^{a b}$ the
+[[dual basis]] of the induced [[linear basis]] for vectro space of skew-symmetric matricces
+underlying the [[special orthogonal Lie algebra]]. The commutation relations are as before,
 together with the relation that the generators $\omega^{a b}$ anti-commute with every generator.
-Finally the [[differential]] $d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})}$ acts on 
+Finally the [[differential]] $d_{\mathfrak{iso}(\mathbb{R}^{d-1,1\vert N})}$ acts on
 these generators as follows:
 
 $$
@@ -833,8 +1646,8 @@ $$
 
 
 
-Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of 
-[[super Minkowski spacetime]]. To put this in perspective, 
+Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
+[[super Minkowski spacetime]]. To put this in perspective,
 recall from the end of [[geometry of physics -- supersymmetry]] how
 the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
 ordinary invariant [[central extensions]] of [[super Lie algebras]]:
@@ -2002,6 +2815,7 @@ See below.
 
 
 ### The super-string and the super-membrane
+ {#TheSuperStringAndTheSuperMembrane}
 
 
 
@@ -2232,420 +3046,6 @@ Therefore is natural to make the following definition.
 
 $\,$
 
-### Super Lie $n$-Algebras
-
-
-+-- {: .num_defn #LInfinity}
-###### Definition
-
-A **[[nLab:super Lie-infinity algebra]]** of [[nLab:finite type]] is
-
-1. a $\mathbb{Z}$-graded [[nLab:super vector space]] $\mathfrak{g}$
-
-   degreewise of finite dimension
-
-1. for all $n \geq 1$ a multilinear map
-
-   $$
-     [-,\cdots, -] \;\colon\; \wedge^n \mathfrak{g} \longrightarrow \wedge^1 \mathfrak{g}
-   $$
-
-   of degree $(-1,even)$
-
-such that
-
-the graded derivation on the super-[[nLab:Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$ given by
-
-$$
-  d_{\mathfrak{g}} \coloneqq [-]^\ast + [-,-]^\ast + [-,-,-]^\ast + \cdots
-     \;\;
-     \colon\;\;
-     \wedge^1 \mathfrak{g}^\ast \longrightarrow \wedge^\bullet \mathfrak{g}^\ast
-$$
-
-squares to zero:
-
-$$
-  d_{\mathfrak{g}} d_{\mathfrak{g}} = 0
-$$
-
-and hence defines a [[nLab:dg-algebra]]
-
-$$
-  CE(\mathfrak{g}) \coloneqq ( \wedge^\bullet \mathfrak{g}^\ast, d_{\mathfrak{g}} )
-  \,.
-$$
-
-A [[nLab:homomorphism]] of super $L_\infty$-algebras is dually a homomorphism of their CE-algebras.
-
-$\,$
-
-If $\mathfrak{g}$ is concentrated
-
-in degrees $0$ to $n-1$
-
-we call it a **super [[nLab:Lie n-algebra]]**.
-
-$\,$
-
-Side remark:
-
-We may drop the assumption of degreewise finiteness
-
-by regarding $\vee^\bullet \mathfrak{g}$ as a free graded co-commutative [[nLab:coalgebra]]
-
-and $D \coloneqq [-] + [-,-] + [-,-,-] + \cdots$ as a differential
-
-making a [[nLab:differential graded coalgebra]].
-
-=--
-
-$\,$
-
-$L_\infty$-algebras in the sense of def. \ref{LInfinity} were introduced in
-[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92).
-
-That they are fully characterized
-
-by their Chevalley-Eilenberg dg-(co-)algebras
-
-is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
-
-See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
-
-$\,$
-
-But in fact the CE-algebras of super $L_\infty$-algebras of finite type
-
-were implicitly introduced
-
-as tools for the higher [[nLab:super Cartan geometry]] of [[nLab:supergravity]]
-
-already in [D'Auria-Fr&#233; 82](https://ncatlab.org/nlab/show/D'Auria-Fre+formulation+of+supergravity#DAuriaFre)
-(see _[[nLab:D'Auria-Fré formulation of supergravity]]_)
-
-where they were called **FDA**s.
-
-| [[nLab:higher Lie theory]] | [[nLab:supergravity]] |
-|----------------------------|-----------------------|
-| $\,$ [[nLab:super Lie n-algebra]] $\mathfrak{g}$ $\,$ | $\,$ "FDA" $CE(\mathfrak{g})$ $\,$ |
-
-
-$\,$
-
-However,
-
-what has not been used in the "FDA" literature
-
-is that $L_\infty$-algebras are objects in _[[nLab:homotopy theory]]_:
-
-
-$\,$
-
-+-- {: .num_prop}
-###### Proposition
-**([Pridham 10, prop. 4.36](https://ncatlab.org/nlab/show/model+structure+for+L-infinity+algebras#Pridham))**
-
-There exists a [[nLab:model category]] such that
-
-1. its [[nLab:fibrant objects]] are the (super-)[[nLab:L-∞ algebras]]
-
-   with the above [[nLab:homomorphisms]] between them;
-
-1. and
-
-   * the weak equivalences between (super-)$L_\infty$-algebras are the [[nLab:quasi-isomorphisms]];
-
-   * fibrations between (super-)$L_\infty$-algebras are the surjections
-
-   on the underlying [[nLab:chain complex]] (using the unary part of the differential).
-
-For more see at _[[nLab:model structure for L-infinity algebras]]_.
-
-=--
-
-$\,$
-
-Concretely,
-
-this implies in particular that
-
-every [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
-
-$$
-  \array{
-    \mathfrak{g}_1
-    \\
-    & {}_{\mathllap{f}}\searrow
-    \\
-    && \mathfrak{g}_2
-  }
-$$
-
-is the composite of a [[nLab:quasi-isomorphism]] followed by a surjection
-
-$$
-  \array{
-    \mathfrak{g}_1
-     && \overset{\text{quasi-iso}}{\longrightarrow} &&
-    \widetilde \mathfrak{g}_1
-    \\
-    & {}_{\mathllap{f}}\searrow && \swarrow_{\mathrlap{ {f_{fib}} \atop {\text{surjection}}}}
-    \\
-    && \mathfrak{g}_2
-  }
-  \,.
-$$
-
-That surjective homomorphism $f_{fib}$
-
-is called a _[[nLab:fibrant replacement]]_ of $f$.
-
-$\,$
-
-+-- {: .num_defn }
-###### Definition
-
-Given [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
-
-$$
-  \mathfrak{g}_1 \overset{f}{\longrightarrow} \mathfrak{g}_2
-$$
-
-then its **[[nLab:homotopy fiber]]** $hofib(f)$
-
-is the [[nLab:kernel]] of any fibrant replacement
-
-$$
-  hofib(f)
-   \;\coloneqq\;
-  ker(f_{fib})
-  \,.
-$$
-
-=--
-
-Standard facts in [[nLab:homotopy theory]] assert
-
-that $hofib(f)$ is well-defined
-
-up to [[nLab:quasi-isomorphism]].
-
-See at _[Introduction to homotopy theory -- Homotopy fibers](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_.
-
-$\,$
-
-+-- {: .num_prop}
-###### Proposition
-**([Fiorenza-Sati-Schreiber 13, prop. 3.5](#FSS13))**
-
-Write
-
-$$
-  B^{p+1}\mathbb{R}
-$$
-
-for the **[[nLab:line Lie n-algebra|line Lie (p+1)-algebra]]**, given by
-
-$$
-  CE(B^{p+1}\mathbb{R})
-   \;=\;
-  \left(
-    \wedge^\bullet \underset{\text{single generator} \atop \text{in deg.} \, (p+2,even)}{\underbrace{\langle c_{p+2} \rangle}}
-    \;,\;
-    d_{B^{p+1}\mathbb{R}} = 0
-  \right)
-  \,.
-$$
-
-
-A $(p+2)$-cocycle on an $L_\infty$-algebra is equivalently a homomorphim
-
-$$
-  \mu_{p+2} \;\colon\; \mathfrak{g} \longrightarrow B^{p+1}\mathbb{R}
-  \,.
-$$
-
-The [[nLab:homotopy fiber]] of this map
-
-$$
-  \array{
-    \widehat{\mathfrak{g}}
-    \\
-    {}^{\mathllap{hofib(\mu_{p+2})}}\downarrow
-    \\
-    \mathfrak{g}
-    &\underset{\mu_{p+2}}{\longrightarrow}& B^{p+1}\mathbb{R}
-  }
-$$
-
-is given by adjoining to $CE(\mathfrak{g})$ a single generator $b_{p+1}$
-
-forced to be a potential for $\mu_{p+2}$:
-
-$$
-  CE(\widehat{\mathfrak{g}})
-  \;\simeq\;
-  CE(\mathfrak{g})[b_{p+1}]/(d b_{p+1} = \mu_{p+2})
-  \,.
-$$
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-$\,$
-
-The homotopy fiber of a 2-cocycle
-
-is the classical [[nLab:central extension]]
-
-that it classifies.
-
-=--
-
-
-$\,$
-
-**Conclusion.**
-
-$\;\;$ _The higher central extensions_
-
-$\;\;$ _classified by higher cocycles_
-
-$\;\;$ _are their homotopy fibers._
-
-$\,$
-
-
-
-some more stuff
-
-$\,$
-
-$\,$
-
-
-The [[Chevalley-Eilenberg algebras]] which in def. \ref{CEAlgebra} and def. \ref{SuperLieAlgebraViaCE} we used to _characterize_ the corresponding (super) Lie algebras are of course traditionally introduced as the [[cochain complexes]] whose [[cochain cohomology]] is [[Lie algebra cohomology]]. We may conceptualize this as follows:
-
-+-- {: .num_defn #SiteCartSp}
-###### Definition
-
-For $n \in \mathbb{N}$ write $\mathbb{R}^{1|0}[n]$ for the _[[line Lie n-algebra|line Lie (n+1)-algebra]]_, the [[super L-infinity algebra]] defined simply as the [[formal dual]] to the $(\mathbb{Z},\mathbb{Z}_2)$-graded commutative [[dg-algebra]]
-
-$$
-  CE(\mathbb{R}^{1|0}[n]) \coloneqq
-  \left(
-    \wedge^\bullet \mathbb{R}^{1|0}[n],
-    \;
-    d = 0
-  \right)
-$$
-
-whose underlying [[graded algebra]] is freely generated from a single generator in degree $(n,even)$, and whose differential vanishes.
-
-=--
-
-+-- {: .num_remark #LieAlgebraCohomologAsHomomorphism}
-###### Remark
-
-Recall that being a "[[formal dual]]" to a dg-algebra here simply means that for $\mathfrak{g}$ any [[super Lie algebra]], the homomorphisms of [[super L-infinity algebras]] of the form
-
-$$
-  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathbb{R}^{1|0}[n]
-$$
-
-are equivalently (by definition!) homomorphisms of [[dg-algebras]] of the form
-
-$$
-  CE(\mathfrak{g})
-  \longleftarrow
-  CE(\mathbb{R}^{1|0}[n])
-  \,.
-$$
-
-Since the underlying graded algebra of $CE(\mathbb{R}^{1|0}[n])$ is free on a single generator $c$ in degree $n+1$, such a homomorphism is determined by the image of this generator
-
-$$
-  c \mapsto \mu \in CE(\mathfrak{g})
-  \,.
-$$
-
-Moreover, the condition that this map respects the differentials, and since the differential on $CE(\mathbb{R}^{1|0}[n])$ vanishes by definition, this means that
-
-$$
-  \array{
-     c &\mapsto& && \mu
-     \\
-     \downarrow^{\mathrlap{d_{\mathbb{R}^{1|0}[n]}}}
-     && &&
-    \downarrow^{\mathrlap{d_{\mathfrak{g}}}}
-     \\
-     0 &\mapsto& 0 &=& d_{\mathfrak{g}}\mu
-  }
-  \,.
-$$
-
-Hence such a moprhism $\mu$ is equivalently a _closed_ element of degree $(n+1)$ in $CE(\mathfrak{g})$, hence is equivalently a [[Lie algebra cohomology|super Lie algebra cocycle]] of degree $n+1$ on $\mathfrak{g}$.
-
-This way [[line Lie n-algebra|line Lie (n+1)-algebra]] $\mathbb{R}^{1|0}[n]$ is the _[[moduli stack|moduli object]]_ for degree-$(n+1)$ Lie algebra cohomology in direct [[analogy]] of how for instance the familiar [[Eilenberg-MacLane space]] $B^{n+1}\mathbb{R} = K(\mathbb{Z},n+1)$ is the classifying space for degree $n+1$ [[ordinary cohomology]] of [[topological spaces]].
-
-=--
-
-One advantange of conceptualizing Lie algebra cocycles as in remark \ref{LieAlgebraCohomologAsHomomorphism} is that it neatly connects to the formulation of [[Lie algebra valued forms]] according to def. \ref{LieAlgValuedFormsViaDgAlgHoms}, def. \ref{SuperLieAlgValuedDiffForms}:
-
-
-+-- {: .num_remark }
-###### Remark
-
-A $\mathbb{R}^{1|0}[n]$-valued differential form is simply an even closed differential $(n+1)$-form:
-
-$$
-  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{1|0}[n])
-  \simeq
-  Hom(CE(\mathbb{R}^{1|0}[n]), \Omega^\bullet(\mathbb{R}^{p|q}))
-  \simeq
-  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
-  \,.
-$$
-
-Hence a super Lie algebra $(n+1)$-cocycle $\mu$ on
-$\mathfrak{g}$ naturally determines a map
-
-
-$$
-  \mu(-)
-  \colon
-  \Omega^1(\mathbb{R}^{p|q},\mathfrak{g})
-  \longrightarrow
-  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
-$$
-
-given by forming the composite with the morphism representing the cocycle $\mu$
-
-$$
-  \left(
-    \Omega^\bullet(\mathbb{R}^{p|q})
-     \stackrel{A}{\longleftarrow}
-  CE(\mathfrak{g})
-  \right)
-  \mapsto
-  \left(
-  \Omega^\bullet(\mathbb{R}^{p|q})
-   \stackrel{A}{\longleftarrow}
-  CE(\mathfrak{g})
-  \stackrel{\mu^\ast}{\longleftarrow}
-  CE(\mathbb{R}^{1|0}[n])
-  \right)
-$$
-
-sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$.
-
-
-=--
-
-
 
 
 
@@ -2661,6 +3061,7 @@ sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$
 
 
 ### Extended super Minkowski spacetime
+ {#ExtendedSuperMinkowskiSpacetime}
 
 
 This way we may finally continue
@@ -3065,7 +3466,12 @@ $\,$
 (See also at _[[schreiber:Structure Theory for Higher WZW Terms]]_, session II).
 
 
+
+
+
+
 ### The super D-branes and the super M5-brane
+ {#TheSuperDBranes}
 
 +-- {: .num_defn #RationalSphereAlgebra}
 ###### Definition
@@ -3309,7 +3715,6 @@ In view of remark \ref{RationalSpheres}, prop. \ref{7CocycleOnM2BraneDescends} s
 =--
 
 
-spring
 
 
 
@@ -3393,6 +3798,7 @@ $\,$
 
 
 ## Fields
+ {#Fields}
 
 
 We now discuss that
@@ -4518,7 +4924,8 @@ of various [[nLab:dualities in string theory]].
 
 $\,$
 
-## Dimensional reduction
+## Double dimensional reduction
+ {#DoubleDimensionalReduction}
 
 $\,$
 
@@ -5006,6 +5413,7 @@ denotes the [[nLab:base change]] along it.
 $\,$
 
 ## Dualities
+ {#Dualities}
 
 $\,$
 
