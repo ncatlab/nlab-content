@@ -132,12 +132,12 @@ we recall [[super Lie algebras]] and discuss their generalization to [[super L-�
 
 The basic example of [[super Lie algebras]] that induces all phenomena to follow are
 the super-translation parts of [[supersymmetry]] algebras, the [[super Minkowski spacetimes]]
-introduced in detail in _[[geometry of physics -- supersymmetry]]_. Since here we 
+introduced in detail in _[[geometry of physics -- supersymmetry]]_. Since here we
 frequently need to refer to these structures, we recall their definition again in
 
 * _[Super Minkowski spacetimes](#SuperMinowskiSpacetimes)_.
 
-The key phenomena to be discussed are then the non-trivial invariant [[cocycles]] in the 
+The key phenomena to be discussed are then the non-trivial invariant [[cocycles]] in the
 super-[[Lie algebra cohomology]] of [[super Minkowski spacetimes]] (sometimes called _[[tau cohomology]]_
 in the physics literature). Computationally these correspond to certain identities satisfied by
 qadrilinear expressions in [[Majorana spinors]]. Such relations are an example of _[[Fierz identities]]_
@@ -145,14 +145,14 @@ and so we pause to explain these in
 
 * _[Fierz identities](#FierzIdentities)_.
 
-This then gives rise to the "old [[brane scan]]" of [[Green-Schwarz super-string]] and [[super-membranes]], 
+This then gives rise to the "old [[brane scan]]" of [[Green-Schwarz super-string]] and [[super-membranes]],
 which is the classification of the $Spin$-invariant
 super-[[Lie algebra cohomology]] of [[super Minkowski spacetimes]] ([[tau cohomology]]):
 
 
 * _[The super-string and the super-membrane](#TheSuperStringAndTheSuperMembrane)_.
 
-Using our previously established general theory of super-[[L-∞ algebra cohomology]], 
+Using our previously established general theory of super-[[L-∞ algebra cohomology]],
 we see that the cocycles in the old [[brane scan]] classify
 _higher_ central extensions of [[super Minkowski spacetimes]], namely [[super Lie n-algebras]]
 called _[[extended super Minkowski spacetimes]]_:
@@ -160,22 +160,22 @@ called _[[extended super Minkowski spacetimes]]_:
 * _[Extended super Minkowski spacetimes](#ExtendedSuperMinkowskiSpacetime)_
 
 A key point then is that these [[super Lie n-algebras]] obtained from [[super Minkowski spacetime]],
-turn out to carry _further_ super $L_\infty$-cocycles, not present on the plain 
+turn out to carry _further_ super $L_\infty$-cocycles, not present on the plain
 [[super Minkowski spacetimes]]. These correspond to all the [[D-branes]] and to the [[M5-branes]].
-This we discuss in 
+This we discuss in
 
 * _[The super D-branes and the M5-brane](#TheSuperDBranes)_
 
 This gives a tree of consecutive higher central [[super Lie n-algebra]] extensions, originating from the [[superpoint]],
 the _[[schreiber:brane bouquet]]_. Next we [[descent|descend]] these iterated central extensions to  single but non-central
 higher cocycles. The result turns out to be the image in [[rational homotopy theory]] of the classifying maps of the
-[[background fields]] in [[string theory]]/[[M-theory]]: the [[B-field]]-twisted [[RR-fields]] and the M-flux fields. 
-This we discuss in 
+[[background fields]] in [[string theory]]/[[M-theory]]: the [[B-field]]-twisted [[RR-fields]] and the M-flux fields.
+This we discuss in
 
 * _[Fields](#Fields)_.
 
 There turn out to be special relations among these. In particular passing from  super-[[L-∞ algebra cohomology]]
-to the corresponding _[[cyclic cohomology]]_ turns out to be the [[formal dual]] operation of what in 
+to the corresponding _[[cyclic cohomology]]_ turns out to be the [[formal dual]] operation of what in
 physics is called [[double dimensional reduction]] of [[branes]] (here: of their [[background fields]]). This
 crucial operation we discuss in
 
@@ -653,7 +653,7 @@ $\,$
  {#SuperLInfinityCohomologyAndFDAs}
 
 We recall [[super Lie algebras]], and amplify their [[formal dual]] description in terms of their
-[[Chevalley-Eilenberg algebras]]. This makes it immediate to see what [[super L-∞ algebras]] are, 
+[[Chevalley-Eilenberg algebras]]. This makes it immediate to see what [[super L-∞ algebras]] are,
 again they are conveniently expressed (if they are of [[finite type]]) via their [[formal dual]] [[Chevalley-Eilenberg algebras]].
 
 
@@ -951,6 +951,8 @@ Let $\mathfrak{g}$ be a [[super L-∞ algebra]].
 
 If $\mathfrak{g}$ is concentrated in even $\mathbb{Z}/2$-degree, it is called an _[[L-∞ algebra]]_.
 
+If the only possibly non-vanishing brackets of $\mathfrak{g}$ are the unary one $[-]$ (which induces the structure of a [[chain complex]] on $\mathfrak{g}$) and the binary one, then $\mathfrak{g}$ is equivalently a (super-)[[dg-Lie algebra]].
+
 If $\mathfrak{g}$ is concentrated in $\mathbb{Z}$-degrees 0 to $n-1$ then it is called a _[[super Lie n-algebra]]_.
 
 In particular if $\mathfrak{g}$ is concentrated in degree 0, then it is equivalently a [[super Lie algebra]].
@@ -1050,35 +1052,54 @@ $$
 
 +-- {: .num_remark #SuperLInfintiyAsFDA}
 ###### Remark
+**(history of the concept of (super-)$L_\infty$ algebras)**
 
+The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
 
-[[L-∞ algebras]] in the sense of def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity} 
-and remark \ref{LInfinityTerminology} were introduced in
-[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92). spring
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity, 
+def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity}
+and remark \ref{LInfinityTerminology}, were introduced in
+[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the 
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that 
+was found in the construction of [[closed string field theory]] in [Zwiebach 92](string+field+theory#Zwiebach93).
+Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
 
-That they are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
+The observation that these systems of higher brackets are fully characterized by their Chevalley-Eilenberg dg-(co-)algebras
 (def. \ref{SuperLInfinityCEAlgebra})
 is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
 See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
 
-But in this dual incarnation, [[super L-∞ algebras]] of [[finite type]] had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
-
-The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature, where in [[rational homotopy theory]] one says "[[semifree dga]]" or "quasifree dga", since these dg-algebras are crucially not required to be [[free construction|free]] as _differential_ algebras). (If they are, then they are [[Weil algebras]]).
-
-
-| [[nLab:higher Lie theory]] | [[nLab:supergravity]] |
-|----------------------------|-----------------------|
-| $\,$ [[nLab:super Lie n-algebra]] $\mathfrak{g}$ $\,$ | $\,$ "FDA" $CE(\mathfrak{g})$ $\,$ |
-
-
+But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]]) 
+had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
+The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
+are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
 The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
+
+| [[higher Lie theory]] | [[supergravity]] |
+|----------------------------|-----------------------|
+| $\,$ [[super Lie n-algebra]] $\mathfrak{g}$ $\,$ | $\,$ "FDA" $CE(\mathfrak{g})$ $\,$ |
+
+The construction in [van Nieuwenhuizen 82](#Nieuwenhuizen82) in turn was motivated by the [[Sullivan algebras]]
+in [[rational homotopy theory]] ([Sullivan 77](#rational+homotopy+theory#Sullivan77)). Indeed, their
+dual incarnations in rational homotopy theory are [[dg-Lie algebras]] ([Quillen 69](#rational+homotopy+theory#Quillen69)),
+hence a special case of $L_\infty$-algebras (remark \ref{LInfinityTerminology})
+
+This close relation between [[rational homotopy theory]] and [[higher Lie theory]] might have remained less of a
+secret had it not been for the focus of [[Sullivan minimal models]] on the non-[[simply connected topological space|simply connected]]
+case, which excludes the ordinary [[Lie algebras]] from the picture. But the Quillen model of
+[[rational homotopy theory]] effectively says that for $X$ a [[rational topological space]] then its [[loop space]]
+[[∞-group]] $\Omega X$ is reflected, infinitesimally, by an [[L-∞ algebra]]. This perspective began to 
+receive more attention when the [[Sullivan construction]] in [[rational homotopy theory]] was
+concretely identified as higher [[Lie integration]] in [Henriques 08](#Lie+integration#Henriques).
+A modern review that makes this [[L-∞ algebra]]-theoretic nature of [[rational homotopy theory]] manifest is in 
+[Buijs-F&#233;lix-Murillo 12, section 2](rational+homotopy+theory#BuijsFelixMurillo12).
 
 =--
 
 
 
 
-However, what has not been used in the "FDA" literature is that $L_\infty$-algebras are objects in _[[nLab:homotopy theory]]_:
+However, what has not been used in the "FDA" literature is that super $L_\infty$-algebras are objects in _[[homotopy theory]]_:
 
 
 +-- {: .num_prop}
@@ -1087,25 +1108,25 @@ However, what has not been used in the "FDA" literature is that $L_\infty$-algeb
 
 There exists a [[model category]] such that
 
-1. its [[fibrant objects]] are the (super-)[[nLab:L-∞ algebras]]
+1. its [[fibrant objects]] are the (super-)[[L-∞ algebras]]
 
-   with the above [[nLab:homomorphisms]] between them;
+   with the above [[homomorphisms]] between them;
 
 1. and
 
-   * the weak equivalences between (super-)$L_\infty$-algebras are the [[nLab:quasi-isomorphisms]];
+   * the weak equivalences between (super-)$L_\infty$-algebras are the [[quasi-isomorphisms]];
 
    * fibrations between (super-)$L_\infty$-algebras are the surjections
 
-   on the underlying [[nLab:chain complex]] (using the unary part of the differential).
+   on the underlying [[chain complex]] (using the unary part of the differential).
 
-For more see at _[[nLab:model structure for L-infinity algebras]]_.
+For more see at _[[model structure for L-infinity algebras]]_.
 
 =--
 
 $\,$
 
-Concretely, this implies in particular that every [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
+Concretely, this implies in particular that every [[homomorphisms]] of [[super L-∞ algebras]]
 
 $$
   \array{
@@ -1117,7 +1138,7 @@ $$
   }
 $$
 
-is the composite of a [[nLab:quasi-isomorphism]] followed by a surjection
+is the composite of a [[quasi-isomorphism]] followed by a surjection
 
 $$
   \array{
@@ -1134,22 +1155,22 @@ $$
 
 That surjective homomorphism $f_{fib}$
 
-is called a _[[nLab:fibrant replacement]]_ of $f$.
+is called a _[[fibrant replacement]]_ of $f$.
 
 $\,$
 
 +-- {: .num_defn }
 ###### Definition
 
-Given [[nLab:homomorphisms]] of [[nLab:super L-∞ algebras]]
+Given [[homomorphisms]] of [[super L-∞ algebras]]
 
 $$
   \mathfrak{g}_1 \overset{f}{\longrightarrow} \mathfrak{g}_2
 $$
 
-then its **[[nLab:homotopy fiber]]** $hofib(f)$
+then its **[[homotopy fiber]]** $hofib(f)$
 
-is the [[nLab:kernel]] of any fibrant replacement
+is the [[kernel]] of any fibrant replacement
 
 $$
   hofib(f)
@@ -1160,11 +1181,11 @@ $$
 
 =--
 
-Standard facts in [[nLab:homotopy theory]] assert
+Standard facts in [[homotopy theory]] assert
 
 that $hofib(f)$ is well-defined
 
-up to [[nLab:quasi-isomorphism]].
+up to [[quasi-isomorphism]].
 
 See at _[Introduction to homotopy theory -- Homotopy fibers](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_.
 
@@ -1180,7 +1201,7 @@ $$
   B^{p+1}\mathbb{R}
 $$
 
-for the **[[nLab:line Lie n-algebra|line Lie (p+1)-algebra]]**, given by
+for the **[[line Lie n-algebra|line Lie (p+1)-algebra]]**, given by
 
 $$
   CE(B^{p+1}\mathbb{R})
@@ -1201,7 +1222,7 @@ $$
   \,.
 $$
 
-The [[nLab:homotopy fiber]] of this map
+The [[homotopy fiber]] of this map
 
 $$
   \array{
@@ -1234,7 +1255,7 @@ $\,$
 
 The homotopy fiber of a 2-cocycle
 
-is the classical [[nLab:central extension]]
+is the classical [[central extension]]
 
 that it classifies.
 
@@ -1400,87 +1421,7 @@ sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$
 In order set the scene, and for reference, we recall the nature of [[super Minkowski spacetimes]] from _[[geometry of physics -- supersymmetry]]_.
 
 In all of the following it is most convenient to regard [[super Lie algebras]] dually
-via their [[Chevalley-Eilenberg algebras]]:
-
-+-- {: .num_defn #CEAlgebraofSuperLieAlgebra}
-###### Definition
-
-For $\mathfrak{g}$ a [[super Lie algebra]] of [[finite number|finite]] [[dimension]], then its _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ is the super-[[Grassmann algebra]] on the [[dual vector space|dual]] super vector space
-
-$$
-  \wedge^\bullet  \mathfrak{g}^\ast
-$$
-
-equipped with a [[differential]] $d_{\mathfrak{g}}$ that on generators is the linear dual of the super Lie bracket
-
-$$
-  d_{\mathfrak{g}} \;\coloneqq\; [-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
-$$
-
-and which is extended to $\wedge^\bullet \mathfrak{g}^\ast$ by the graded Leibniz rule (i.e. as a graded [[derivation]]).
-
-$\,$
-
-Here all elements are $(\mathbb{Z} \times \mathbb{Z}/2)$-bigraded, the first being the _cohomological grading_ $n$ in $\wedge^\n \mathfrak{g}^\ast$, the second being the _super-grading_ $\sigma$ (even/odd).
-
-For $\alpha_i \in CE(\mathfrak{g})$ two elements of homogeneous bi-degree $(n_i, \sigma_i)$, respectively,
-the [[signs in supergeometry|sign rule]] is
-
-$$
-  \alpha_1 \wedge \alpha_2 = (-1)^{n_1 n_2} (-1)^{\sigma_1 \sigma_2}\; \alpha_2 \wedge \alpha_1
-  \,.
-$$
-
-(See at _[[signs in supergeometry]]_ for discussion of this sign rule and of an alternative sign rule that is also in use. )
-
-=--
-
-We may think of $CE(\mathfrak{g})$ equivalently as the [[dg-algebra]] of [[invariant differential form|left-invariant]]
-[[super differential forms]] on the [[Lie theory|corresponding]] simply connected [[super Lie group]] .
-
-
-The concept of [[Chevalley-Eilenberg algebras]] is traditionally introduced as a means to define
-[[Lie algebra cohomology]]:
-
-+-- {: .num_defn #SuperLieAlgebraCohomology}
-###### Definition
-
-Given a [[super Lie algebra]] $\mathfrak{g}$, then
-
-1. an _$n$-cocycle_ on $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is an element of degree $(n,even)$ in its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) which is $d_{\mathbb{g}}$ closed.
-
-1. the cocycle is non-trivial if it is not $d_{\mathfrak{g}}$-exact
-
-1. hene the _super-[[Lie algebra cohomology]]_ of $\mathfrak{g}$ (with [[coefficients]] in $\mathbb{R}$) is the [[cochain cohomology]] of its [[Chevalley-Eilenberg algebra]]
-
-   $$
-     H^\bullet(\mathfrak{g}, \mathbb{R}) = H^\bullet(CE(\mathfrak{g}))
-     \,.
-   $$
-
-=--
-
-
-
-The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
-
-+-- {: .num_prop}
-###### Proposition
-
-The functor
-
-$$
-  CE \;\colon\; sLieAlg^{fin}  \hookrightarrow dgAlg^{op}
-$$
-
-that sends a finite dimensional [[super Lie algebra]] $\mathfrak{g}$ to its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{g})$
-(def. \ref{CEAlgebraofSuperLieAlgebra}) is a [[fully faithful functor]] which hence exibits [[super Lie algebras]]
-as a [[full subcategory]] of the [[opposite category]] of [[differential-graded algebras]].
-
-=--
-
-
-
+via their [[Chevalley-Eilenberg algebras]] ("[[FDA]]"s), via def. \ref{CEAlgebraofSuperLieAlgebra} and prop. \ref{FormalDualCE}:
 
 
 
@@ -1503,8 +1444,7 @@ $$
 be a [[real spin representation]] of the [[spin group]] cover $Spin(d-1,1)$ of the [[Lorentz group]] $O(d-1,1)$
 in this dimension. Then the _$d$-dimensional $N$-supersymmetric [[super-Minkowski spacetime]]_ $\mathbb{R}^{d-1,1|N}$
 is the [[super Lie algebra]] that is characterized by the fact that its [[Chevalley-Eilenberg algebra]]
-$CE(\mathbb{R}^{d-1,1})$
-is as follows:
+$CE(\mathbb{R}^{d-1,1})$ (def. \ref{CEAlgebraofSuperLieAlgebra}) is as follows:
 
 The algebra has generators (as an [[associative algebra]] over $\mathbb{R}$)
 
@@ -1644,28 +1584,24 @@ $$
 
 =--
 
-
+$\,$
 
 Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
 [[super Minkowski spacetime]]. To put this in perspective,
-recall from the end of [[geometry of physics -- supersymmetry]] how
+recall from the end of _[[geometry of physics -- supersymmetry]]_ how
 the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
 ordinary invariant [[central extensions]] of [[super Lie algebras]]:
 
 +-- {: .num_prop}
 ###### Proposition
 
-Consider the [[nLab:superpoint]]
+Consider the [[superpoint]]
 
 $$
   \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
 $$
 
-regarded as an abelian [[nLab:super Lie algebra]].
-
-Its maximal [[nLab:central extension]] is
-
-the $N = 1$ super-[[nlab:worldline]] of the [[nLab:superparticle]]:
+regarded as an abelian [[super Lie algebra]]. Its maximal [[central extension]] is the $N = 1$ super-[[worldline]] of the [[superparticle]]:
 
 $$
   \array{
@@ -1689,7 +1625,7 @@ $$
   $$
 
 
-Then consider the [[nLab:superpoint]]
+Then consider the [[superpoint]]
 
 $$
   \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
@@ -1697,9 +1633,9 @@ $$
 $$
 
 
-Its maximal [[nLab:central extension]] is
+Its maximal [[central extension]] is
 
-the $d = 3$, $N = 1$ [[nLab:super Minkowski spacetime]]
+the $d = 3$, $N = 1$ [[super Minkowski spacetime]]
 
 $$
   \array{
@@ -1716,7 +1652,7 @@ $$
 
 * whose odd part is $\mathbb{R}^2$, regarded as
 
-  the [[nLab:Majorana spinor]] representation $\mathbf{2}$
+  the [[Majorana spinor]] representation $\mathbf{2}$
 
   of $Spin(2,1) \simeq SL(2,\mathbb{R})$
 
@@ -1729,7 +1665,7 @@ $$
     \,P^a
   $$
 
-where $C_{\alpha \beta}$ is the [[nLab:charge conjugation matrix]].
+where $C_{\alpha \beta}$ is the [[charge conjugation matrix]].
 
 =--
 
@@ -1742,11 +1678,11 @@ $\,$
 
 Recall that
 
-$d$-dimensional [[nlab:central extensions]] of [[nLab:super Lie algebras]] $\mathfrak{g}$
+$d$-dimensional [[central extensions]] of [[super Lie algebras]] $\mathfrak{g}$
 
-are classified by [[nLab:Lie algebra cohomology|2-cocycles]].
+are classified by [[Lie algebra cohomology|2-cocycles]].
 
-These are super-skew symmetric [[nLab:bilinear maps]]
+These are super-skew symmetric [[bilinear maps]]
 
 $$
   \mu_2
@@ -1760,9 +1696,9 @@ satisfying a cocycle condition.
 
 The extension $\widehat{\mathfrak{g}}$ that this classifies
 
-has underlying [[nLab:super vector space]]
+has underlying [[super vector space]]
 
-the [[nLab:direct sum]]
+the [[direct sum]]
 
 $$
   \widehat{\mathfrak{g}} \coloneqq \mathfrak{g} \oplus \mathbb{R}^d
@@ -1781,7 +1717,7 @@ $$
   \,.
 $$
 
-The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[nLab:Jacobi identity]]
+The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[Jacobi identity]]
 
 is equivalent to the cocycle condition on $\mu_2$.
 
@@ -1791,7 +1727,7 @@ in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$,
 
 then the cocycle condition is trivial
 
-and a 2-cocycle is just a _symmetric_ [[nLab:bilinear form]]
+and a 2-cocycle is just a _symmetric_ [[bilinear form]]
 
 on the $q$ fermionic dimensions.
 
@@ -1845,7 +1781,7 @@ $$
 
 If this is identified with the three coordinates
 
-of 3d [[nLab:Minkowski spacetime]]
+of 3d [[Minkowski spacetime]]
 
 $$
   \mathbb{R}^{2,1}
@@ -1873,7 +1809,7 @@ This phenomenon continues:
 ###### Theorem
 **([J. Huerta](#MTheoryFromTheSuperpoint))
 
-The [[nLab:diagram]] of [[nLab:super Lie algebras]] shown on the right
+The [[diagram]] of [[super Lie algebras]] shown on the right
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
@@ -1891,19 +1827,19 @@ for which there are invariant cocycles at all.
 
 Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
 
-is the $d$, $\mathbf{N}$ super-translation [[nLab:supersymmetry]] algebra.
+is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra.
 
 And these subgroups are
 
-the [[nLab:spin group]] covers $Spin(d-1,1)$
+the [[spin group]] covers $Spin(d-1,1)$
 
-of the [[nLab:Lorentz groups]] $O(d-1,1)$.
+of the [[Lorentz groups]] $O(d-1,1)$.
 
 =--
 
 $\,$
 
-Side remark: That every [[nLab:super Minkowski spacetime]] is _some_ [[nLab:central extension]] of some [[nLab:superpoint]]  is elementary.
+Side remark: That every [[super Minkowski spacetime]] is _some_ [[central extension]] of some [[superpoint]]  is elementary.
 This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
 2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
 But most central extensions of superpoints
@@ -1916,19 +1852,19 @@ $\,$
 
 **Conclusion:**
 
-Just from studying iterated invariant [[nLab:central extensions]]
+Just from studying iterated invariant [[central extensions]]
 
-of [[nLab:super Lie algebras]],
+of [[super Lie algebras]],
 
-starting with the [[nLab:superpoint]],
+starting with the [[superpoint]],
 
 we  (re-)discover
 
-1. [[nLab:pseudo-Riemannian geometry|Lorentzian geometry]],
+1. [[pseudo-Riemannian geometry|Lorentzian geometry]],
 
-1. [[nLab:spin geometry]].
+1. [[spin geometry]].
 
-1. [[nLab:super spacetimes]].
+1. [[super spacetimes]].
 
 
 
@@ -2659,9 +2595,9 @@ $\,$
 
 Quick answer:
 
-_Higher cocycles are closed elements in a [[nLab:Chevalley-Eilenberg algebra]]._
+_Higher cocycles are closed elements in a [[Chevalley-Eilenberg algebra]]._
 
-_They classify [[nLab:super Lie-∞ algebra]] [[nLab:L-∞ algebra cohomology|extensions]]._
+_They classify [[super Lie-∞ algebra]] [[L-∞ algebra cohomology|extensions]]._
 
 $\,$
 
@@ -2677,17 +2613,17 @@ $\,$
 
 For $d \in \mathbb{N}$
 
-and $\mathbf{N}$ a [[nLab:Majorana spinor|Majorana]] [[nLab:spin representation]] of $Spin(d-1,1)$
+and $\mathbf{N}$ a [[Majorana spinor|Majorana]] [[spin representation]] of $Spin(d-1,1)$
 
-then the super-translation [[nLab:supersymmetry]] [[nLab:super Lie algebra]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
+then the super-translation [[supersymmetry]] [[super Lie algebra]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
 
-has [[nLab:Chevalley-Eilenberg algebra]] generated by
+has [[Chevalley-Eilenberg algebra]] generated by
 
 * $\{e^a\}_{a = 0}^{d-1}$ in bi-degree $(1,even)$;
 
 * $\{\psi_\alpha\}_{\alpha = 1}^N$ in bi-degree $(1,odd)$.
 
-with [[nLab:differential]]
+with [[differential]]
 
 $$
   d \;:\;
@@ -2708,19 +2644,19 @@ $$
 
 is the standard [spinor bilinear pairing](https://ncatlab.org/nlab/show/Majorana%20spinor#TheSpinorPairingToVectors)
 
-in the [[nLab:spin representation]] $\mathbf{N}$.
+in the [[spin representation]] $\mathbf{N}$.
 
 $\,$
 
-If we think of [[nLab:super Minkowski spacetime]]
+If we think of [[super Minkowski spacetime]]
 
-as the [[nLab:supermanifold]] with
+as the [[supermanifold]] with
 
-* even [[nLab:coordinates]] $\{x^a\}_{a = 0}^{d-1}$;
+* even [[coordinates]] $\{x^a\}_{a = 0}^{d-1}$;
 
-* odd [[nLab:coordinates]] $\{\theta_\alpha\}_{\alpha = 1}^N$
+* odd [[coordinates]] $\{\theta_\alpha\}_{\alpha = 1}^N$
 
-then these generators correspond to these [[nLab:super differential forms]]:
+then these generators correspond to these [[super differential forms]]:
 
 $$
   \begin{aligned}
@@ -2730,7 +2666,7 @@ $$
   \end{aligned}
 $$
 
-the **super-[[nLab:vielbein]]**.
+the **super-[[vielbein]]**.
 
 =--
 
@@ -2739,9 +2675,9 @@ $\,$
 
 Notice that $d_{dR} x^a$ alone
 
-fails to be a left [[nLab:invariant differential form]],
+fails to be a left [[invariant differential form]],
 
-in that it is not annihilated by the [[nLab:supersymmetry]]
+in that it is not annihilated by the [[supersymmetry]]
 
 vector fields
 
@@ -2783,9 +2719,9 @@ $$
 
 Regarded as a 2-form on $\mathbb{R}^{9,1\vert \mathbf{32}}$,
 
-this is the [[nLab:curvature]] of the [[nLab:WZW-term]]
+this is the [[curvature]] of the [[WZW-term]]
 
-in the [[nLab:Green-Schwarz sigma-model]] for the [[nLab:D0-brane]].
+in the [[Green-Schwarz sigma-model]] for the [[D0-brane]].
 
 See below.
 
@@ -2823,26 +2759,26 @@ See below.
 ###### Proposition
 **([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
 
-The maximal invariant 3-cocycle on 10d [[nLab:super Minkowski spacetime]] is
+The maximal invariant 3-cocycle on 10d [[super Minkowski spacetime]] is
 
 $$
   \mu_{F1} = \left(\overline{\psi} \wedge \Gamma_a \psi\right) \wedge e^a
 $$
 
-This is the [[nLab:WZW term]] for the [[nLab:Green-Schwarz superstring]] ([Green-Schwarz 84](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#GreenSchwarz84)).
+This is the [[WZW term]] for the [[Green-Schwarz superstring]] ([Green-Schwarz 84](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#GreenSchwarz84)).
 
-The maximal invariant 4-cocycle on [[nLab:super Minkowski spacetime]] is
+The maximal invariant 4-cocycle on [[super Minkowski spacetime]] is
 
 $$
   \mu_{M2} = i \left(\overline{\psi} \wedge \Gamma_{a b} \psi \right) \wedge e^a \wedge e^b
 $$
 
-This is the [[nLab:higher WZW term]] for the [[nLab:supermembrane]]
+This is the [[higher WZW term]] for the [[supermembrane]]
 ([Bergshoeff-Sezgin-Townsend 87](https://ncatlab.org/nlab/show/M2-brane#BergshoeffSezginTownsend87)).
 
 This classification is also known as
 
-the **old [[nLab:brane scan]]**.
+the **old [[brane scan]]**.
 
 =--
 
@@ -2862,15 +2798,15 @@ the **old [[nLab:brane scan]]**.
 
 $\,$
 
-Here "**[[nLab:higher WZW term]]**" means the following:
+Here "**[[higher WZW term]]**" means the following:
 
 $\,$
 
 Regard $\mu_{F1} = \left(\overline{\psi} \wedge \Gamma_a \psi\right) \wedge e^a$
 
-as a left [[nLab:invariant differential form]]
+as a left [[invariant differential form]]
 
-on [[nLab:super-Minkowski spacetime]].
+on [[super-Minkowski spacetime]].
 
 Choose any differential form potential $B_{F1}$
 
@@ -2883,9 +2819,9 @@ $$
 
 (This $B_{F1}$ will _not be left-invariant_.)
 
-Then the [[nLab:Green-Schwarz action functional]] for the [[nLab:superstring]]
+Then the [[Green-Schwarz action functional]] for the [[superstring]]
 
-is the function on the space of [[nLab:sigma-model]] [[nLab:field (physics)|fields]]
+is the function on the space of [[sigma-model]] [[field (physics)|fields]]
 
 $$
   \phi \;\colon\; \underset{\text{worldsheet}}{\underbrace{\Sigma_2}}
@@ -2893,7 +2829,7 @@ $$
     \underset{\text{super-spacetime}}{\underbrace{\mathbb{R}^{9,1\vert \mathbf{N}}}}
 $$
 
-(morphisms of [[nLab:supermanifolds]])
+(morphisms of [[supermanifolds]])
 
 given by
 
@@ -2918,23 +2854,23 @@ $$
   \,.
 $$
 
-The first term is the [[nLab:Nambu-Goto action]]
+The first term is the [[Nambu-Goto action]]
 
-the second is a [[nLab:WZW term]].
+the second is a [[WZW term]].
 
 $\,$
 
 Originally [Green-Schwarz 84](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#GreenSchwarz84) introduced $B_{F1}$
 
-to ensure an additional fermionic symmetry: "[[nLab:kappa-symmetry]]".
+to ensure an additional fermionic symmetry: "[[kappa-symmetry]]".
 
 Notice that $B_{F1}$ looks somewhat complicated
 
 and is not unique.
 
-That it is simply a [[nLab:WZW-term]]
+That it is simply a [[WZW-term]]
 
-for the [[nLab:supersymmetry]] [[nLab:supergroup]]
+for the [[supersymmetry]] [[supergroup]]
 
 $$
   \mathbb{R}^{9,1\vert \mathbf{N}}
@@ -2957,7 +2893,7 @@ $$
 
 (This $C_{M2}$ will _not be left-invariant_.)
 
-Then the [[nLab:Green-Schwarz action functional|Green-Schwarz type action functional]]
+Then the [[Green-Schwarz action functional|Green-Schwarz type action functional]]
 
 for the [[supermembrane]] is the function on [[sigma-model]] [[field (physics)|fields]]
 
@@ -2990,7 +2926,7 @@ $$
 
 On the right this is
 
-the [[nLab:higher WZW term]].
+the [[higher WZW term]].
 
 $\,$
 
@@ -3003,15 +2939,15 @@ First observe that
 +-- {: .num_prop }
 ###### Proposition
 
-[[nLab:homomorphisms|Homomorphisms]] of [[nLab:super Lie algebras]]
+[[homomorphisms|Homomorphisms]] of [[super Lie algebras]]
 
 $$
   \mathfrak{g}_1 \longrightarrow \mathfrak{g}_2
 $$
 
-are in [[nLab:natural bijection]] with the [[nLab:homomorphisms]] of [[nLab:dg-algebras]]
+are in [[natural bijection]] with the [[homomorphisms]] of [[dg-algebras]]
 
-between their [[nLab:Chevalley-Eilenberg algebra]], going the opposite direction:
+between their [[Chevalley-Eilenberg algebra]], going the opposite direction:
 
 $$
   CE(\mathfrak{g}_1) \longleftarrow CE(\mathfrak{g}_2)
@@ -3020,9 +2956,9 @@ $$
 
 =--
 
-This means that we may _identify_ [[nLab:super Lie algebras]] with their CE-algebras.
+This means that we may _identify_ [[super Lie algebras]] with their CE-algebras.
 
-In the terminology of [[nLab:category theory]]: the [[nLab:functor]]
+In the terminology of [[category theory]]: the [[functor]]
 
 $$
   CE
@@ -3038,7 +2974,7 @@ $$
   \mathfrak{g} \mapsto CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^\ast, [-,-]^\ast)
 $$
 
-is [[nLab:fully faithful functor|fully faithful]].
+is [[fully faithful functor|fully faithful]].
 
 $\,$
 
@@ -3078,11 +3014,11 @@ $\,$
 
 $\,$
 
-Name the [[nLab:homotopy fibers]] of the cocycles
+Name the [[homotopy fibers]] of the cocycles
 
-which are the [[nLab:higher WZW terms]]
+which are the [[higher WZW terms]]
 
-of the [[nLab:superstring]] and the [[nLab:supermembrane]]
+of the [[superstring]] and the [[supermembrane]]
 
 as follows
 
@@ -3153,15 +3089,15 @@ $$
   \right\}
 $$
 
-This is a super-version of the _[[nLab:string Lie 2-algebra]]_ ([Baez-Crans-Schreiber-Stevenson 05](#BCSS05)
+This is a super-version of the _[[string Lie 2-algebra]]_ ([Baez-Crans-Schreiber-Stevenson 05](#BCSS05)
 
-which controls [[nLab:Green-Schwarz anomaly cancellation]] ([Sati-Schreiber-Stasheff 12](#SatiSchreiberStasheff12))
+which controls [[Green-Schwarz anomaly cancellation]] ([Sati-Schreiber-Stasheff 12](#SatiSchreiberStasheff12))
 
-and the topology of the [[nLab:supergravity C-field]] ([Fiorenza-Sati-Schreiber 12a](#FiorenzaSatiSchreiber12a), [12b](#FiorenzaSatiSchreiber12b)).
+and the topology of the [[supergravity C-field]] ([Fiorenza-Sati-Schreiber 12a](#FiorenzaSatiSchreiber12a), [12b](#FiorenzaSatiSchreiber12b)).
 
 $\,$
 
-The [[nLab:supergravity Lie 3-algebra|membrane super Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$ is given by
+The [[supergravity Lie 3-algebra|membrane super Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$ is given by
 
 $$
   CE(\mathfrak{m}2\mathfrak{brane})
@@ -3177,9 +3113,9 @@ $$
 
 This dg-algebra was first considered  in [D'Auria-Fr&#233; 82 (3.15)](https://ncatlab.org/nlab/show/D'Auria-Fre+formulation+of+supergravity#DAuriaFre)
 
-as a tool for constructing [[nLab:11-dimensional supergravity]].
+as a tool for constructing [[11-dimensional supergravity]].
 
-For exposition from the point of view of [[nLab:Lie 3-algebras]] see also [Baez-Huerta 10](https://arxiv.org/abs/1003.3436).
+For exposition from the point of view of [[Lie 3-algebras]] see also [Baez-Huerta 10](https://arxiv.org/abs/1003.3436).
 
 =--
 
@@ -3189,9 +3125,9 @@ Hence the progression
 
 of maximal invariant extensions of the superpoint
 
-continues as a [[nLab:diagram]]
+continues as a [[diagram]]
 
-of [[nLab:super L-∞ algebras]] like so:
+of [[super L-∞ algebras]] like so:
 
 $\,$
 
@@ -3200,19 +3136,19 @@ $\,$
 $\,$
 
 (While every extension displayed is a maximal invariant higher central extension, not all invariant higher central extensions are displayed.
-For instance there are string and membrane GS-WZW-terms / cocycles also on the lower dimensional super-Minkowski spacetimes ("non-critical"), e.g. the [[nLab:super 1-brane in 3d]] and the [[nLab:super 2-brane in 4d]].)
+For instance there are string and membrane GS-WZW-terms / cocycles also on the lower dimensional super-Minkowski spacetimes ("non-critical"), e.g. the [[super 1-brane in 3d]] and the [[super 2-brane in 4d]].)
 
 $\,$
 
-The "old [[nLab:brane scan]]" ran into a conundrum:
+The "old [[brane scan]]" ran into a conundrum:
 
-Given that  [[nLab:superstrings]] and [[nLab:supermembranes]]
+Given that  [[superstrings]] and [[supermembranes]]
 
-are nicely classified by [[nLab:super Lie algebra]] [[nLab:Lie algebra cohomology|cohomology]]
+are nicely classified by [[super Lie algebra]] [[Lie algebra cohomology|cohomology]]
 
-why do the other [[nLab:super p-branes]] not show up similarly?
+why do the other [[super p-branes]] not show up similarly?
 
-Where are the [[nLab:D-branes]] and the [[nLab:M5-brane]]?
+Where are the [[D-branes]] and the [[M5-brane]]?
 
 $\,$
 
@@ -3220,9 +3156,9 @@ But now we see that we should look for
 
 further higher cocycles
 
-not on [[nLab:super Lie algebras]]
+not on [[super Lie algebras]]
 
-but on [[nLab:super L-∞ algebras]].
+but on [[super L-∞ algebras]].
 
 $\,$
 
@@ -3231,11 +3167,11 @@ $\,$
 ###### Proposition
 **([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), [Sakaguchi 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Sakaguchi00), [Fiorenza-Sati-Schreiber 13](#FSS13))**
 
-The [[nLab:higher WZW terms]] for the [[nLab:D-branes]]
+The [[higher WZW terms]] for the [[D-branes]]
 
 are invariant super $L_\infty$-cocycles
 
-on the higher [[nLab:extended super Minkowski spacetimes]] from above
+on the higher [[extended super Minkowski spacetimes]] from above
 
 $$
   \mu_{D p}
@@ -3248,7 +3184,7 @@ $$
 
 Similarly,
 
-the [[nLab:higher WZW term]] for the [[nLab:M5-brane]]
+the [[higher WZW term]] for the [[M5-brane]]
 
 is an invariant super $L_\infty$ 7-cocycle
 
@@ -3297,7 +3233,7 @@ $\,$
 
 Notice that all these are higher cocycles
 
-except for that of the [[nLab:D0-brane]], which is just a 2-cocycle.
+except for that of the [[D0-brane]], which is just a 2-cocycle.
 
 The ordinary central extension that this classifies
 
@@ -3322,7 +3258,7 @@ This may be thought of
 
 as a super $L_\infty$-theoretic incarnation
 
-of D0-brane [[nLab:condensate|condensation]]
+of D0-brane [[condensate|condensation]]
 
 ([Polchinski 99, around p. 8](https://ncatlab.org/nlab/show/D0-brane#Polchinski99)).
 
@@ -3345,9 +3281,9 @@ $\,$
 
 $\,$
 
-Each object in this [[nLab:diagram]] of [[nLab:super L-∞ algebras]]
+Each object in this [[diagram]] of [[super L-∞ algebras]]
 
-is a [[nLab:super spacetime]] or [[nLab:super p-brane]] of [[nLab:string theory]] / [[nLab:M-theory]].
+is a [[super spacetime]] or [[super p-brane]] of [[string theory]] / [[M-theory]].
 
 $\,$
 
@@ -3362,12 +3298,12 @@ precisely if the given species of $p_1$-branes may end on the given species of $
 $\,$
 
 
-> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[nLab:Greg Moore|G. Moore]], p.41 of "[[nLab:Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
+> Perhaps we need to understand the nature of time itself better. $[...]$ One natural way to approach that question would be to understand in what sense time itself is an emergent concept, and one natural way to make sense of such a notion is to understand how pseudo-Riemannian geometry can emerge from more fundamental and abstract notions such as categories of branes. ([[Greg Moore|G. Moore]], p.41 of "[[Physical Mathematics and the Future]]", talk at [Strings 2014](http://physics.princeton.edu/strings2014/))
 
 
 $\,$
 
-But how are we to think of the [[nLab:extended super Minkowski spacetimes]] geometrically?
+But how are we to think of the [[extended super Minkowski spacetimes]] geometrically?
 
 This is clarified by the following result:
 
@@ -3377,15 +3313,15 @@ $\,$
 ###### Proposition
 **([Fiorenza-Sati-Schreiber 13, section 5](#FSS13))**
 
-Write $\widetilde {String_{IIA}}$ for the [[nLab:super formal smooth infinity-groupoid|super 2-group]]
+Write $\widetilde {String_{IIA}}$ for the [[super formal smooth infinity-groupoid|super 2-group]]
 
-that [[nLab:Lie integration|Lie integrates]] the super [[nLab:Lie 2-algebra]] $\mathfrak{string}_{IIA}$
+that [[Lie integration|Lie integrates]] the super [[Lie 2-algebra]] $\mathfrak{string}_{IIA}$
 
-subject to the condition that it carries a globally defined [[nLab:Maurer-Cartan form]].
+subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
 
-Then for $\Sigma_{p+1}$ a [[nLab:worldvolume]] [[nLab:smooth manifold]]
+Then for $\Sigma_{p+1}$ a [[worldvolume]] [[smooth manifold]]
 
-there is a [[nLab:natural equivalence]]
+there is a [[natural equivalence]]
 
 $$
   \left\{
@@ -3411,25 +3347,25 @@ and pairs, consisting of
 
 an ordinary sigma-model field $\phi$
 
-and a [[nLab:gauge field]] $\nabla$ on the [[nLab:worldvolume]] of the D-brane
+and a [[gauge field]] $\nabla$ on the [[worldvolume]] of the D-brane
 
-twisted by the [[nLab:Kalb-Ramond field]].
+twisted by the [[Kalb-Ramond field]].
 
-This is the _[[nLab:Chan-Paton gauge field]]_ on the D-brane.
+This is the _[[Chan-Paton gauge field]]_ on the D-brane.
 
 $\,$
 
 Similarly:
 
-Write $\widetilde {M2Brane}$ for the [[nLab:super formal smooth infinity-groupoid|super 3-group]]
+Write $\widetilde {M2Brane}$ for the [[super formal smooth infinity-groupoid|super 3-group]]
 
-that [[nLab:Lie integration|Lie integrates]] the super [[nLab:Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$
+that [[Lie integration|Lie integrates]] the super [[Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$
 
-subject to the condition that it carries a globally defined [[nLab:Maurer-Cartan form]].
+subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
 
-Then for $\Sigma_{5+1}$ a [[nLab:worldvolume]] [[nLab:smooth manifold]]
+Then for $\Sigma_{5+1}$ a [[worldvolume]] [[smooth manifold]]
 
-there is a [[nLab:natural equivalence]]
+there is a [[natural equivalence]]
 
 $$
   \left\{
@@ -3455,9 +3391,9 @@ and pairs, consisting of
 
 an ordinary sigma-model field $\phi$
 
-and a [[nLab:higher gauge field]] $\nabla$ on the [[nLab:worldvolume]] of the [[nLab:M5-brane]]
+and a [[higher gauge field]] $\nabla$ on the [[worldvolume]] of the [[M5-brane]]
 
-and twisted by the [[nLab:supergravity C-field]].
+and twisted by the [[supergravity C-field]].
 
 =--
 
@@ -3634,7 +3570,7 @@ $$
   \mathbb{R}^{10,1\vert \mathbf{32}}
 $$
 
-given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[nLab:formal dual]] CE-elements is given by $h_3 \mapsto 0$, $g_4 \mapsto 0$ and by being the identity on all other generators.
+given dually by $\psi^\alpha \mapsto \psi^\alpha$, $e^a \mapsto e^a$, is an equivalence of $L_\infty$-algebras. It factors the morphism $\mathfrak{m}2\mathfrak{brane} \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}$ from def. \ref{m2braneLie3Algebra} through a morphism $\mathfrak{m}2\mathfrak{brane}  \longrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}_{res}$ which on [[formal dual]] CE-elements is given by $h_3 \mapsto 0$, $g_4 \mapsto 0$ and by being the identity on all other generators.
 
 
 =--
@@ -3726,7 +3662,7 @@ In **conclusion** this shows that
 
 given a cocycle $\mu_{p_1+2}$ for some super $p_1$-brane species
 
-inducing an [[nLab:extended super Minkowski spacetime]] via its [[nLab:homotopy fiber]]
+inducing an [[extended super Minkowski spacetime]] via its [[homotopy fiber]]
 
 and then given a consecutive cocycle $\mu_{p_2+2}$ for a $p_2$-brane species on that homotopy fiber
 
@@ -3760,13 +3696,13 @@ $$
 
 $\,$
 
-Hence the [[nLab:extended super Minkowski spacetime]] $p_1 \mathfrak{brane}$
+Hence the [[extended super Minkowski spacetime]] $p_1 \mathfrak{brane}$
 
 is like the original super spacetime $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
 
-but filled with a [[nLab:condensation|condensate]] of $p_1$-branes
+but filled with a [[condensation|condensate]] of $p_1$-branes
 
-whose boundaries source a [[nLab:higher gauge field]].
+whose boundaries source a [[higher gauge field]].
 
 
 $\,$
@@ -3777,7 +3713,7 @@ it means that at each stage of the [[schreiber:brane bouquet]]
 
 we are describing $p_2$-brane dynamics
 
-on a fixed $p_1$-brane [[nLab:background field]].
+on a fixed $p_1$-brane [[background field]].
 
 But more generally
 
@@ -3803,15 +3739,15 @@ $\,$
 
 We now discuss that
 
-$\;\;\;\;$There is homotopy [[nLab:descent]] of $p$-brane WZW terms
+$\;\;\;\;$There is homotopy [[descent]] of $p$-brane WZW terms
 
-$\;\;\;\;$from [[nLab:extended super Minkowski spacetime]]
+$\;\;\;\;$from [[extended super Minkowski spacetime]]
 
-$\;\;\;\;$down to ordinary [[nLab:super Minkowski spacetime]]
+$\;\;\;\;$down to ordinary [[super Minkowski spacetime]]
 
-$\;\;\;\;$which yields cocycles in [[nLab:twisted cohomology]]
+$\;\;\;\;$which yields cocycles in [[twisted cohomology]]
 
-$\;\;\;\;$for the [[nLab:RR-field]] and the M-flux fields.
+$\;\;\;\;$for the [[RR-field]] and the M-flux fields.
 
 
 ([Fiorenza-Sati-Schreiber 15](#FSS15), [16a](#FSS16a)).
@@ -3822,9 +3758,9 @@ $\,$
 
 In order to explain this we now first recall
 
-the general nature of [[nLab:twisted cohomology]]
+the general nature of [[twisted cohomology]]
 
-and its role in [[nLab:string theory]].
+and its role in [[string theory]].
 
 $\,$
 
@@ -3834,38 +3770,38 @@ $\,$
 
 It is often stated that a
 
-[[nLab:Chan-Paton gauge field]] on $n$ coincident [[nLab:D-branes]]
+[[Chan-Paton gauge field]] on $n$ coincident [[D-branes]]
 
-is an [[nLab:special unitary group|SU(n)]]-[[nLab:vector bundle]] $V$,
+is an [[special unitary group|SU(n)]]-[[vector bundle]] $V$,
 
-hence a cocycle in [[nLab:nonabelian cohomology]] in degree 1.
+hence a cocycle in [[nonabelian cohomology]] in degree 1.
 
 $\,$
 
 But this is not quite true.
 
-In general there are $n$ [[nLab:D-branes]] and $n'$ [[nLab:anti-D-branes]] coinciding,
+In general there are $n$ [[D-branes]] and $n'$ [[anti-D-branes]] coinciding,
 
-carrying [[nLab:Chan-Paton gauge fields]]
+carrying [[Chan-Paton gauge fields]]
 
-$V_{brane}$ (of [[nLab:rank]] $n$) and $V_{\text{anti-brane}}$ (of rank $n'$), respectively,
+$V_{brane}$ (of [[rank]] $n$) and $V_{\text{anti-brane}}$ (of rank $n'$), respectively,
 
-yielding a pair of [[nLab:vector bundles]]
+yielding a pair of [[vector bundles]]
 
 $$
   (V_{\text{brane}}, V_{\text{anti-brane}})
   \,.
 $$
 
-Such pairs are also called _[[nLab:virtual vector bundles]]_.
+Such pairs are also called _[[virtual vector bundles]]_.
 
 $\,$
 
-But [[nLab:D-branes]] annihilate with [[nLab:anti-D-branes]] ([Sen 98](https://ncatlab.org/nlab/show/anti+D-brane#Sen98))
+But [[D-branes]] annihilate with [[anti-D-branes]] ([Sen 98](https://ncatlab.org/nlab/show/anti+D-brane#Sen98))
 
-when they have exact opposite [[nLab:D-brane charge]],
+when they have exact opposite [[D-brane charge]],
 
-which here means that they carry the same [[nLab:Chan-Paton gauge field|Chan-Paton]] vector bundle.
+which here means that they carry the same [[Chan-Paton gauge field|Chan-Paton]] vector bundle.
 
 In other words, pairs as above of the special form
 
@@ -3880,9 +3816,9 @@ $$
 
 Hene the net Chan-Paton charge of coincident branes and anti-branes
 
-is the [[nLab:equivalence class]] of $(V_{\text{brane}}, V_{\text{anti-brane}})$
+is the [[equivalence class]] of $(V_{\text{brane}}, V_{\text{anti-brane}})$
 
-under the [[nLab:equivalence relation]] which is generated by the [[nLab:relation]]
+under the [[equivalence relation]] which is generated by the [[relation]]
 
 $$
   (V_{\text{brane}} \oplus W\,,\; V_{\text{anti-brane}} \oplus W)
@@ -3890,36 +3826,36 @@ $$
   (V_{brane}\,,\; V_{anti-brane})
 $$
 
-for all [[nLab:complex vector bundles]] $W$ ([Witten 98](https://ncatlab.org/nlab/show/anti+D-brane#Witten98),
+for all [[complex vector bundles]] $W$ ([Witten 98](https://ncatlab.org/nlab/show/anti+D-brane#Witten98),
 [Witten 00](https://ncatlab.org/nlab/show/D-brane#Witten00)).
 
 $\,$
 
-The additive [[nLab:abelian group]] of such equivalence classes of [[nLab:virtual vector bundles]]
+The additive [[abelian group]] of such equivalence classes of [[virtual vector bundles]]
 
-is called the _[[nLab:topological K-theory]].
-
-$\,$
-
-It follows that also the [[nLab:RR-fields]] are in K-theory ([Moore-Witten 00](https://ncatlab.org/nlab/show/anti+D-brane#MooreWitten99)).
+is called the _[[topological K-theory]].
 
 $\,$
 
-Topological K-theory is similar to [[nLab:ordinary cohomology]]
+It follows that also the [[RR-fields]] are in K-theory ([Moore-Witten 00](https://ncatlab.org/nlab/show/anti+D-brane#MooreWitten99)).
 
-but is a [[nLab:generalized (Eilenberg-Steenrod) cohomology theory]].
+$\,$
 
-A [[nLab:generalized cohomology theory]] is [[nLab:Brown representability theorem|represented]] by a _[[nLab:spectrum]]_
+Topological K-theory is similar to [[ordinary cohomology]]
 
-(in the sense of [[nLab:stable homotopy theory]]):
+but is a [[generalized (Eilenberg-Steenrod) cohomology theory]].
 
-A [[nLab:spectrum]] is sequence of [[nLab:pointed topological spaces]]
+A [[generalized cohomology theory]] is [[Brown representability theorem|represented]] by a _[[spectrum]]_
+
+(in the sense of [[stable homotopy theory]]):
+
+A [[spectrum]] is sequence of [[pointed topological spaces]]
 
 $$
   E_n \;\;\;\; n \in \mathbb{N}
 $$
 
-equipped with [[nLab:weak homotopy equivalences]]
+equipped with [[weak homotopy equivalences]]
 
 $$
   E_n
@@ -3927,19 +3863,19 @@ $$
   \Omega E_{n+1}
 $$
 
-from one to the [[nLab:loop space]] of the next.
+from one to the [[loop space]] of the next.
 
 
 $\$
 
-Given this, then the $E$-cohomology of any [[nLab:topological space]] $X$ is
+Given this, then the $E$-cohomology of any [[topological space]] $X$ is
 
 $$
   E^n(X) \coloneqq \underset{\text{homotopy classes of maps}}{\underbrace{\pi_0\left\{  X \overset{\phantom{AAAAAA}}{\longrightarrow} E_n \right\} }}
   \,.
 $$
 
-For [[nLab:topological K-theory]] one writes
+For [[topological K-theory]] one writes
 
 $$
   E = KU
@@ -3953,33 +3889,33 @@ $$
   KU_{2n+1} \simeq U
 $$
 
-with $U$ the [[nLab:stable unitary group]],
+with $U$ the [[stable unitary group]],
 
-and $B U$ the [[nLab:classifying space]] for [[nLab:complex vector bundles]].
+and $B U$ the [[classifying space]] for [[complex vector bundles]].
 
 $\,$
 
 But above we saw
 
-that the [[nLab:Chan-Paton gauge field]] on a D-brane
+that the [[Chan-Paton gauge field]] on a D-brane
 
-is actually a [[nLab:twisted vector bundle]]
+is actually a [[twisted vector bundle]]
 
-with twist given by the [[nLab:Kalb-Ramond field]]
+with twist given by the [[Kalb-Ramond field]]
 
 sourced by a string condensate.
 
-([[nLab:Freed-Witten anomaly cancellation]])
+([[Freed-Witten anomaly cancellation]])
 
 $\,$
 
 
 
-Such _[[nLab:twisted cohomology]]_ [[nLab:generalized cohomology]] is given by
+Such _[[twisted cohomology]]_ [[generalized cohomology]] is given by
 
 1. a classifying space of twists $B G$
 
-1. a spectrum object in the [[nLab:slice category]] $Top_{/B G}$, namely a sequence of spaces $E_n/G$ equipped with maps
+1. a spectrum object in the [[slice category]] $Top_{/B G}$, namely a sequence of spaces $E_n/G$ equipped with maps
 
    $$
      id \;\colon\; B G \to E_n/G \to B G
@@ -4061,7 +3997,7 @@ Then
      \right\}
    $$
 
-There is a [[nLab:homotopy fiber sequence]] (in parameterized spectra)
+There is a [[homotopy fiber sequence]] (in parameterized spectra)
 
 $$
   \array{
@@ -4073,7 +4009,7 @@ $$
   }
 $$
 
-and this equivalently exhibits $E/G$ as the [[nLab:homotopy quotient]] of an ordinary spectrum $E$ by a $G$-[[nLab:infinity-action]].
+and this equivalently exhibits $E/G$ as the [[homotopy quotient]] of an ordinary spectrum $E$ by a $G$-[[infinity-action]].
 
 ([Nikolaus-Schreiber-Stevenson 12, section 4.1](#NSS12))
 
@@ -4083,9 +4019,9 @@ Assume that $B G$ is simply connected, i.e. of the form $B^2 G$.
 
 $\,$
 
-We now translate this situation to [[nLab:super L-∞ algebras]]
+We now translate this situation to [[super L-∞ algebras]]
 
-via the central theorem of [[nLab:rational homotopy theory]].
+via the central theorem of [[rational homotopy theory]].
 
 $\,$
 
@@ -4093,23 +4029,23 @@ $\,$
 
 $\,$
 
-On every [[nLab:loop space]] $\Omega X$,
+On every [[loop space]] $\Omega X$,
 
 the operation of concatenation of loops
 
-gives the structure of a [[nLab:group]] up to [[nLab:coherence|coherent]] [[nLab:higher homotopy]]
+gives the structure of a [[group]] up to [[coherence|coherent]] [[higher homotopy]]
 
-called a "grouplike [[nLab:A-∞ space]]"
+called a "grouplike [[A-∞ space]]"
 
-or **[[nLab:∞-group]]** for short.
+or **[[∞-group]]** for short.
 
 $\,$
 
-**[[nLab:May recognition theorem]]:**
+**[[May recognition theorem]]:**
 
-Conversely, for $G$ an [[nLab:∞-group]]
+Conversely, for $G$ an [[∞-group]]
 
-there is an essentially unique [[nLab:connected topological space|connected]] space $B G$
+there is an essentially unique [[connected topological space|connected]] space $B G$
 
 with $G \;\simeq\; \Omega B G$.
 
@@ -4118,19 +4054,19 @@ $\,$
 
 Every double loop space $\Omega \Omega X$
 
-becomes a "first order abelian" [[nLab:∞-group]]
+becomes a "first order abelian" [[∞-group]]
 
 by exchanging loop directons
 
-called a _[[nLab:braided ∞-group]]_,
+called a _[[braided ∞-group]]_,
 
 $\,$
 
-For $G$ a [[nLab:braided ∞-group]] then
+For $G$ a [[braided ∞-group]] then
 
-$B G$ is itself an [[nLab:∞-group]]
+$B G$ is itself an [[∞-group]]
 
-and so there exists an essentially unique [[nLab:simply connected topological space|simply connected]] space
+and so there exists an essentially unique [[simply connected topological space|simply connected]] space
 
 $$
   B^2 G \coloneqq B (B G)
@@ -4150,29 +4086,29 @@ And so forth:
 
 Every triple loop space $\Omega^3 X$
 
-becomes a "second order abelian" [[nLab:∞-group]]
+becomes a "second order abelian" [[∞-group]]
 
 by exchanging loop directons
 
-called a _[[nLab:sylleptic ∞-group]]_.
+called a _[[sylleptic ∞-group]]_.
 
 etc.
 
 $\,$
 
-In a [[nLab:spectrum]] $E$,
+In a [[spectrum]] $E$,
 
 the maps $E_n \stackrel{\simeq}{\to} \Omega E_{n+1}$
 
-exhbit $E_0$ as an [[nLab:infinite loop space]]
+exhbit $E_0$ as an [[infinite loop space]]
 
-hence as a fully [[nLab:abelian ∞-group]].
+hence as a fully [[abelian ∞-group]].
 
 $\,$
 
-It turns out that by a [[nLab:homotopy theory|theoretic]] version of [[Lie theory]],
+It turns out that by a [[homotopy theory|theoretic]] version of [[Lie theory]],
 
-there is an [[nLab:L-∞ algebra]] $\mathfrak{g}$ associated with any [[nLab:∞-group]]
+there is an [[L-∞ algebra]] $\mathfrak{g}$ associated with any [[∞-group]]
 
 $$
   \mathfrak{g} \simeq  \mathfrak{l} B G
@@ -4189,19 +4125,19 @@ etc.
 
 $\,$
 
-Its [[nLab:Chevalley-Eilenberg algebra]] $CE(\mathfrak{B g})$
+Its [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{B g})$
 
-is called a _[[nLab:Sullivan model]]_ for $B^2 G$.
+is called a _[[Sullivan model]]_ for $B^2 G$.
 
 $\,$
 
-For **example** the $L_\infty$-algebra associated with an [[nLab:Eilenberg-MacLane space]]
+For **example** the $L_\infty$-algebra associated with an [[Eilenberg-MacLane space]]
 
 $$
   K(\mathbb{Z},n+1) \simeq B^{n+1}\mathbb{Z}
 $$
 
-is the [[nLab:line Lie-n algebra]] from above:
+is the [[line Lie-n algebra]] from above:
 
 $$
   \mathfrak{l}(B^{n+1} \mathbb{Z})
@@ -4212,16 +4148,16 @@ $$
 
 $\,$
 
-The **main theorem of [[nLab:rational homotopy theory]]**  ([Quillen 69](https://ncatlab.org/nlab/show/rational+homotopy+theory#Quillen69),
+The **main theorem of [[rational homotopy theory]]**  ([Quillen 69](https://ncatlab.org/nlab/show/rational+homotopy+theory#Quillen69),
 [Sullivan 77](https://ncatlab.org/nlab/show/rational+homotopy+theory#Sullivan77))
 
-says that the [[nLab:L-∞ algebra]] $\mathfrak{l}(B^2 G)$ equivalently reflects the _[[nLab:rationalization]]_ of $B^2 G$
+says that the [[L-∞ algebra]] $\mathfrak{l}(B^2 G)$ equivalently reflects the _[[rationalization]]_ of $B^2 G$
 
 (in fact the real-ification, since we are considering $L_\infty$-algebras over the real numbers).
 
 This means that weak equivalence between $L_\infty$-algebras correspond to maps between spaces
 
-that induce [[nLab:isomorphism]] on real-ified [[nLab:homotopy groups]]
+that induce [[isomorphism]] on real-ified [[homotopy groups]]
 
 $$
   \left\{
@@ -4255,7 +4191,7 @@ For concise review in the language that we use here see [Buijs-F&#233;lix-Murill
 
 $\,$
 
-We apply this [[nLab:rational homotopy theory]] functor
+We apply this [[rational homotopy theory]] functor
 
 $$
   \mathfrak{l}(-)
@@ -4265,9 +4201,9 @@ $$
   L_\infty\text{-Algebras}
 $$
 
-to find the $L_\infty$-algebraic version of [[nLab:parameterized spectra]]
+to find the $L_\infty$-algebraic version of [[parameterized spectra]]
 
-hence of [[nLab:twisted cohomology]]:
+hence of [[twisted cohomology]]:
 
 $\,$
 
@@ -4327,11 +4263,11 @@ Here $V \simeq E \otimes \mathbb{R}$ is a chain complex
 
 underlying the real-ification of the spectrum $E$
 
-([[nLab:stable Dold-Kan correspondence]]).
+([[stable Dold-Kan correspondence]]).
 
 $\,$
 
-So for $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ some [[nLab:super Minkowski spacetime]],
+So for $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ some [[super Minkowski spacetime]],
 a cocycle in $\mathfrak{g}$-twisted $V$-cohomology is a diagram of the form
 
 $$
@@ -4375,13 +4311,13 @@ we want to descent $\mu_{p_2}$ to $\mathfrak{g}$.
 
 $\,$
 
-By the general theory of [[nLab:principal ∞-bundles]] ([Nikolaus-Schreiber-Stevenson 12](#NSS12)):
+By the general theory of [[principal ∞-bundles]] ([Nikolaus-Schreiber-Stevenson 12](#NSS12)):
 
-1. $\widehat{\mathfrak{g}}$ has a $\mathfrak{h}_1$-[[nLab:∞-action]]
+1. $\widehat{\mathfrak{g}}$ has a $\mathfrak{h}_1$-[[∞-action]]
 
-1. equipping $B \mathfrak{h}_2$ with an $\mathfrak{h}_1$-[[nLab:∞-action]]
+1. equipping $B \mathfrak{h}_2$ with an $\mathfrak{h}_1$-[[∞-action]]
 
-   is equivalent to finding a [[nLab:homotopy fiber sequence]] as on the right here:
+   is equivalent to finding a [[homotopy fiber sequence]] as on the right here:
 
    $$
      \array{
@@ -4416,7 +4352,7 @@ By the general theory of [[nLab:principal ∞-bundles]] ([Nikolaus-Schreiber-Ste
      (\mathbf{B}\mathfrak{h}_2)/\mathfrak{h}_1
    $$
 
-   such that this [[nLab:diagram]] [[nLab:commuting diagram|commute]] up to homotopy:
+   such that this [[diagram]] [[commuting diagram|commute]] up to homotopy:
 
    $$
      \array{
@@ -4459,9 +4395,9 @@ By the general theory of [[nLab:principal ∞-bundles]] ([Nikolaus-Schreiber-Ste
      }
    $$
 
-   exhibits $\mu_2/\mathfrak{h}_1$  as a [[nLab:cocycle]] in ([[nLab:rational homotopy theory|rational]]) _$\mu_1$-[[nLab:twisted cohomology]]_
+   exhibits $\mu_2/\mathfrak{h}_1$  as a [[cocycle]] in ([[rational homotopy theory|rational]]) _$\mu_1$-[[twisted cohomology]]_
 
-   with respect to the [[nLab:local coefficient bundle]] $p_\rho$.
+   with respect to the [[local coefficient bundle]] $p_\rho$.
 
 
 $\,$
@@ -4478,7 +4414,7 @@ $\,$
 
 By the [[schreiber:brane bouquet]] above
 
-the type IIA [[nLab:D-branes]]
+the type IIA [[D-branes]]
 
 are given by super $L_\infty$ cocycles of the form
 
@@ -4498,7 +4434,7 @@ $$
   H^\bullet(B U, \mathbb{Z})
 $$
 
-has one generator in each even degree, the [[nLab:universal Chern classes]].
+has one generator in each even degree, the [[universal Chern classes]].
 
 Hence the $L_\infty$-algebra
 
@@ -4548,7 +4484,7 @@ $\,$
 
 By the above prescription, descending $\mu_D$ is equivalent
 
-to finding a [[nLab:commuting diagram]] in the [[nLab:homotopy category]] of super $L_\infty$-algebras
+to finding a [[commuting diagram]] in the [[homotopy category]] of super $L_\infty$-algebras
 
 of the form
 
@@ -4607,7 +4543,7 @@ $$
   \mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}_{res}
 $$
 
-for the super $L_\infty$-algebra whose [[nLab:Chevalley-Eilenberg algebra]] is
+for the super $L_\infty$-algebra whose [[Chevalley-Eilenberg algebra]] is
 
 $$
   CE\left(
@@ -4624,7 +4560,7 @@ $\,$
 
 The super $L_\infty$-algebra $\mathbb{R}^{9,1\vert \mathbf{16} + \overline{\mathbf{16}}}_{res}$
 
-is a [[nLab:resolution]] of type IIA [[nLab:super-Minkowski spacetime]].
+is a [[resolution]] of type IIA [[super-Minkowski spacetime]].
 
 in that there is a weak equivalence
 
@@ -4635,7 +4571,7 @@ $$
   \,.
 $$
 
-This fits into a [[nLab:commuting diagram]] of the form
+This fits into a [[commuting diagram]] of the form
 
 
 $$
@@ -4680,13 +4616,13 @@ $\,$
 
 In **conclusion**
 
-$\;\;$_the type IIA [[nLab:F1-brane]] and [[nLab:D-brane]] cocycles with $\mathbb{R}$-[[nLab:coefficients]]_
+$\;\;$_the type IIA [[F1-brane]] and [[D-brane]] cocycles with $\mathbb{R}$-[[coefficients]]_
 
 $\;\;$_do descent to super-Minkowski spacetime_
 
-$\;\;$_as one single cocycle with [[nLab:coefficients]]_
+$\;\;$_as one single cocycle with [[coefficients]]_
 
-$\;\;$_in rationalized [[nLab:twisted K-theory]]_.
+$\;\;$_in rationalized [[twisted K-theory]]_.
 
 <img src="https://ncatlab.org/schreiber/files/CocyclesInTwistedKTheory.png" width="650">
 
@@ -4696,7 +4632,7 @@ $\,$
 
 $\,$
 
-The part of the [[schreiber:brane bouquet]] giving the [[nLab:M-branes]] is
+The part of the [[schreiber:brane bouquet]] giving the [[M-branes]] is
 
 
 $$
@@ -4719,14 +4655,14 @@ $$
 
 $\,$
 
-In order to descend this, consider the $L_\infty$-algebra corresponding to the [[nLab:4-sphere]]
+In order to descend this, consider the $L_\infty$-algebra corresponding to the [[4-sphere]]
 
 $$
   \mathfrak{l}(S^4)
   \,.
 $$
 
-By standard results on [[nLab:rational n-spheres]], this is given by
+By standard results on [[rational n-spheres]], this is given by
 
 $$
   CE(\mathfrak{l}S^4)
@@ -4745,7 +4681,7 @@ $$
 ###### Proposition
 [Fiorenza-Sati-Schreiber 15, section 3](FSS15)
 
-There is a [[nLab:homotopy fiber sequence]] of $L_\infty$-algebras as on the right
+There is a [[homotopy fiber sequence]] of $L_\infty$-algebras as on the right
 
 $$
   \left(
@@ -4785,11 +4721,11 @@ $$
 $$
 
 
-which is the image under $\mathfrak{l}(-)$ of the [[nLab:quaternionic Hopf fibration]].
+which is the image under $\mathfrak{l}(-)$ of the [[quaternionic Hopf fibration]].
 
-This makes a [[nLab:commuting diagram]]
+This makes a [[commuting diagram]]
 
-in the [[nLab:homotopy category]] of super $L_\infty$-algebas
+in the [[homotopy category]] of super $L_\infty$-algebas
 
 of the form
 
@@ -4854,7 +4790,7 @@ $\;\;$_M2-brane charge is in degree-4 ordinary cohomology_
 
 $\;\;$_and it twists M5-brane charge_
 
-$\;\;$_which is, rationally,  in unstable degree-4 [[nLab:cohomotopy]]._
+$\;\;$_which is, rationally,  in unstable degree-4 [[cohomotopy]]._
 
 $\,$
 
@@ -4864,26 +4800,26 @@ This confirms a conjecture due to
 
 based on the observation that
 
-the [[nLab:equations of motion]] of [[nLab:11-dimensional supergravity]]
+the [[equations of motion]] of [[11-dimensional supergravity]]
 
-for the [[nLab:supergravity C-field]] [[nLab:field strength]] $G_4$  say that
+for the [[supergravity C-field]] [[field strength]] $G_4$  say that
 
 $$
   d G_7 + \tfrac{1}{2} G_4 \wedge G_4 = 0
 $$
 
-with $G_7 = \ast G_4$ the [[nLab:Hodge dual]]
+with $G_7 = \ast G_4$ the [[Hodge dual]]
 
-and this is just the algebraic relation for the Sullivan model of the [[nLab:rational n-sphere|rational 4-sphere]].
+and this is just the algebraic relation for the Sullivan model of the [[rational n-sphere|rational 4-sphere]].
 
 
 $\,$
 
-Notice that, unstably, the [[nLab:4-sphere]]
+Notice that, unstably, the [[4-sphere]]
 
-is just the space whose [[nLab:torsion subgroup|non-torsion]] [[nLab:homotopy groups]]
+is just the space whose [[torsion subgroup|non-torsion]] [[homotopy groups]]
 
-hence those that are visible in [[nLab:rational homotopy theory]]
+hence those that are visible in [[rational homotopy theory]]
 
 are in degrees 2+2 and 5+2:
 
@@ -4895,7 +4831,7 @@ $\,$
 
 But the correct non-rational lift of the $\mathfrak{l}(S^4)$-coefficients
 
-will also have to be such that it somehow gives rise to [[nLab:twisted K-theory]]
+will also have to be such that it somehow gives rise to [[twisted K-theory]]
 
 under (double) dimensional reduction. This is still an **open problem**.
 
@@ -4915,11 +4851,11 @@ for all super $p$-branes
 
 in twisted cohomology, rationally,
 
-we may analyze their behaviour under [[nLab:double dimensional reduction]]
+we may analyze their behaviour under [[double dimensional reduction]]
 
 and discover the super $L_\infty$-algebraic incarnation
 
-of various [[nLab:dualities in string theory]].
+of various [[dualities in string theory]].
 
 
 $\,$
@@ -4933,7 +4869,7 @@ $\,$
 +-- {: .num_defn #Cyclification}
 ###### Definition
 
-For $\mathfrak{g}$ any [[nlab:super L-∞ algebra]] of [[nLab:finite type]], its **cyclification**
+For $\mathfrak{g}$ any [[super L-∞ algebra]] of [[finite type]], its **cyclification**
 
 $$
   \mathfrak{L}\mathfrak{g}/\mathbb{R}
@@ -4941,7 +4877,7 @@ $$
   s L_\infty Alg_{\mathbb{R}}
 $$
 
-is defined by having [[nLab:Chevalley-Eilenberg algebra]] of the form
+is defined by having [[Chevalley-Eilenberg algebra]] of the form
 
 $$
   CE(\mathfrak{L}\mathfrak{g}/\mathbb{R})
@@ -5010,7 +4946,7 @@ in the same way, but with $\omega_2 \coloneqq 0$.
 =--
 
 
-For every $\mathfrak{g}$ there is a [[nLab:homotopy fiber sequence]]
+For every $\mathfrak{g}$ there is a [[homotopy fiber sequence]]
 
 $$
   \array{
@@ -5026,7 +4962,7 @@ $$
   }
 $$
 
-which hence exhibits $\mathfrak{L} \mathfrak{g}/\mathbb{R}$ as the [[nLab:homotopy quotient]]
+which hence exhibits $\mathfrak{L} \mathfrak{g}/\mathbb{R}$ as the [[homotopy quotient]]
 of $\mathfrak{L}\mathfrak{g}$ by an $\mathbb{R}$-action.
 
 
@@ -5041,8 +4977,8 @@ $$
   \mathfrak{g} = \mathfrak{l}(X)
 $$
 
-is the $L_\infty$-algebra associated by [[nLab:rational homotopy theory]]
-to a  [[nLab:simply connected topological space]] $X$, then
+is the $L_\infty$-algebra associated by [[rational homotopy theory]]
+to a  [[simply connected topological space]] $X$, then
 
 $$
   \mathfrak{L}( \mathfrak{l}(X) )
@@ -5050,7 +4986,7 @@ $$
   \mathfrak{l}( \mathcal{L}X )
 $$
 
-corresponds to the [[nLab:free loop space]] of $X$ and
+corresponds to the [[free loop space]] of $X$ and
 
 $$
   \mathfrak{L}( \;\mathfrak{l}( X )\; )/\mathbb{R}
@@ -5058,19 +4994,19 @@ $$
   \mathfrak{l}( \;\mathcal{L}X/S^1\; )
 $$
 
-corresponds to the [[nLab:homotopy quotient]] of the [[nLab:free loop space]] by the [[nLab:circle group]] [[nLab:action]] which rotates the loops.
+corresponds to the [[homotopy quotient]] of the [[free loop space]] by the [[circle group]] [[action]] which rotates the loops.
 
-The [[nLab:cochain cohomology]] of the [[nLab:Chevalley-Eilenberg algebra]]
+The [[cochain cohomology]] of the [[Chevalley-Eilenberg algebra]]
 
 $$
   CE(\mathfrak{l}( \;\mathcal{L}X/S^1\; ))
 $$
 
-computes the [[nLab:cyclic cohomology]] of $X$ with [[nLab:coefficients]] in $\mathbb{R}$.
+computes the [[cyclic cohomology]] of $X$ with [[coefficients]] in $\mathbb{R}$.
 
 (Whence "cyclification".)
 
-Moreover the homotopy fiber sequence of the cyclification corresponds to that of the [[nLab:free loop space]]:
+Moreover the homotopy fiber sequence of the cyclification corresponds to that of the [[free loop space]]:
 
 $$
   \left(
@@ -5112,13 +5048,13 @@ $\,$
 
 The following gives an $L_\infty$-theoretic formalization
 
-of "[[nLab:double dimensional reduction]]"
+of "[[double dimensional reduction]]"
 
 by which both the spacetime dimension is reduced
 
-while at the same time the [[nLab:brane]] dimension
+while at the same time the [[brane]] dimension
 
-reduces (if [[nLab:wrapped brane|wrapping]] the reduced dimension).
+reduces (if [[wrapped brane|wrapping]] the reduced dimension).
 
 $\,$
 
@@ -5142,7 +5078,7 @@ $$
   }
 $$
 
-a [[nLab:central extension]] of [[nLab:super Lie-∞ algebras]], then the operation
+a [[central extension]] of [[super Lie-∞ algebras]], then the operation
 
 of sending a super $L_\infty$-homomorphsm of the form
 
@@ -5160,7 +5096,7 @@ $$
   \mathfrak{L}\mathfrak{h}/\mathbb{R}
 $$
 
-gives a [[nLab:natural bijection]]
+gives a [[natural bijection]]
 
 $$
   \array{
@@ -5215,11 +5151,11 @@ It is straightforward, if somewhat tedious, to check this explicitly.
 +-- {: .num_remark}
 ###### Remark
 
-  The general theory of [[nLab:adjoint functors]]  provides insight as to the geometric nature of the
+  The general theory of [[adjoint functors]]  provides insight as to the geometric nature of the
   super $L_\infty$-algebraic formalization of dimensional reduction  from prop. \ref{DimensionalReduction}.
-  Namely given any pair of [[nLab:adjoint functors]] $L \dashv R$, then there is a canonical
-  natural morphism $\eta_x : x \to R L x$ (called the _[[nLab:unit of an adjunction|unit of the adjunction]]_) such that
-  the [[nLab:natural bijection]] between [[nLab:hom-sets]]
+  Namely given any pair of [[adjoint functors]] $L \dashv R$, then there is a canonical
+  natural morphism $\eta_x : x \to R L x$ (called the _[[unit of an adjunction|unit of the adjunction]]_) such that
+  the [[natural bijection]] between [[hom-sets]]
   $$
     \mathrm{Hom}(L x, y) \overset{\simeq}{\longrightarrow} \mathrm{Hom}(x,R x)
   $$
@@ -5230,7 +5166,7 @@ It is straightforward, if somewhat tedious, to check this explicitly.
     R y
     \,.
   $$
-  Specified to the situation in Prop. \ref{DimensionalReduction}, this means that the [[nLab:double dimensional reduction]]
+  Specified to the situation in Prop. \ref{DimensionalReduction}, this means that the [[double dimensional reduction]]
   of a super $L_\infty$-homomorphism
   $$
     \widehat{\mathfrak{g}} \overset{\phi}{\longrightarrow} \mathfrak{h}
@@ -5244,7 +5180,7 @@ It is straightforward, if somewhat tedious, to check this explicitly.
     \mathfrak{L}\mathfrak{h}/\mathbb{R}
     \,.
   $$
-  In terms of the geometric interpretation via [[nLab:rational homotopy theory]]
+  In terms of the geometric interpretation via [[rational homotopy theory]]
   from prop. \ref{FreeLoopSpaceInRarionalHomotopyTheory}
   the morphism $\eta_{\mathfrak{g}}$ here has the following interpretation:
 
@@ -5302,20 +5238,20 @@ It is straightforward, if somewhat tedious, to check this explicitly.
   $$
   But this is nothing than the value of the background field $f$ not on the $p$-brane worldvolume
   $\Sigma_{p+1}$, but on the worldvolume $\Sigma_{p+1} \times S^1$ of a $(p+1)$-brane, which
-  "[[nLab:wrapped brane|wraps]]" the circle fiber in $\widehat U = U \times S^1$.
-  This is the physical picture of [[nLab:double dimensional reduction]].
+  "[[wrapped brane|wraps]]" the circle fiber in $\widehat U = U \times S^1$.
+  This is the physical picture of [[double dimensional reduction]].
 
 =--
 
 For entertainment of the homotopy theory cognoscenti, I mention that this formalization of
-[[nLab:double dimensional reduction]] from prop. \ref{DimensionalReduction} is but a special
-case of the following very general fact in [[nLab:(∞,1)-topos theory]].
+[[double dimensional reduction]] from prop. \ref{DimensionalReduction} is but a special
+case of the following very general fact in [[(∞,1)-topos theory]].
 
 +-- {: .num_prop}
 ###### Proposition
 
-Let $G$ be an [[nLab:∞-group]] in an [[nLab:(∞,1)-topos]] $\mathbf{H}$
-then there is a pair of [[nLab:adjoint ∞-functors]] of the form
+Let $G$ be an [[∞-group]] in an [[(∞,1)-topos]] $\mathbf{H}$
+then there is a pair of [[adjoint ∞-functors]] of the form
 
 $$
   \mathbf{H}
@@ -5328,9 +5264,9 @@ $$
 $$
 
 
-where $[G,-]]$ denotes the [[nLab:internal hom]] in $\mathbf{H}$, $[G,-]/G$ denotes the
-[[nLab:homotopy quotient]] by the [[nLab:conjugation action|conjugation]]
-[[nLab:∞-action]] for $G$ equipped with its canonical [[nLab:∞-action]] by left multiplication and the argument
+where $[G,-]]$ denotes the [[internal hom]] in $\mathbf{H}$, $[G,-]/G$ denotes the
+[[homotopy quotient]] by the [[conjugation action|conjugation]]
+[[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
 regarded as equipped with its trivial $G$-$\infty$-action.
 
 =--
@@ -5339,15 +5275,15 @@ regarded as equipped with its trivial $G$-$\infty$-action.
 ###### Proof
 
 
-First observe that the [[nLab:conjugation action]] on $[G,X]$ is the [[nLab:internal hom]] in
-the [[nLab:(∞,1)-category]] of $G$-[[nLab:∞-actions]] $Act_G(\mathbf{H})$.
-Under the [[nLab:equivalence of (∞,1)-categories]]
+First observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
+the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
+Under the [[equivalence of (∞,1)-categories]]
 
 $$
   Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
 $$
 
-(from [Nikolaus-Schreiber-Stevenson 12](#NSS12)) then $G$ with its canonical [[nLab:∞-action]] is $(\ast \to \mathbf{B}G)$
+(from [Nikolaus-Schreiber-Stevenson 12](#NSS12)) then $G$ with its canonical [[∞-action]] is $(\ast \to \mathbf{B}G)$
 and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
 
 Hence
@@ -5364,7 +5300,7 @@ $$
 
 Actually, this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place, abstractly.
 
-But now since the [[nLab:slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself cartesian closed, via
+But now since the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself cartesian closed, via
 
 $$
   E \times_{\mathbf{B}G}(-)
@@ -5375,7 +5311,7 @@ $$
 $$
 
 it is immediate that
-there is the following sequence of [[nLab:natural equivalences]]
+there is the following sequence of [[natural equivalences]]
 
 $$
   \begin{aligned}
@@ -5401,7 +5337,7 @@ $$
 $$
 
 Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$
-denotes the [[nLab:base change]] along it.
+denotes the [[base change]] along it.
 
 
 
@@ -5427,13 +5363,13 @@ to the descended cocycles from the [[schreiber:brane bouquet]]
 
 yields super $L_\infty$-algebraic equivalences
 
-that reflect the pertinent [[nLab:dualities in string theory]]
+that reflect the pertinent [[dualities in string theory]]
 
-1. between [[nLab:M-theory]] and [[nLab:type IIA string theory]];
+1. between [[M-theory]] and [[type IIA string theory]];
 
-1. between [[nLab:type IIA string theory]] and [[nLab:type IIB string theory]] ([[nLab:T-duality]])
+1. between [[type IIA string theory]] and [[type IIB string theory]] ([[T-duality]])
 
-1. between [[nLab:type IIB string theory]] and [[nLab:F-theory]].
+1. between [[type IIB string theory]] and [[F-theory]].
 
 $\,$
 
@@ -5448,7 +5384,7 @@ The cyclification of the M-brane coefficient $\mathfrak{l}(S^4)$
 
 is the truncated IIA F1/D-brane coefficient $\mathfrak{l}( KU\langle 0,6 \rangle ( B U(1) )$
 
-with an extra twist for the [[nLab:NS5-brane]]:
+with an extra twist for the [[NS5-brane]]:
 
 $$
   CE\left(
@@ -5641,54 +5577,54 @@ as the [[perturbation theory]] of fundamenal [[super p-branes]] about asymptotic
 
 
 
-The bosonic [[nLab:string Lie 2-algebra]] is discussed in the appendix of
+The bosonic [[string Lie 2-algebra]] is discussed in the appendix of
 
-* {#BCSS05} [[nLab:John Baez]], Alissa Crans, [[nLab:Urs Schreiber]], [[nLab:Danny Stevenson]], _From loop groups to 2-groups_, Homology Homotopy Appl. Volume 9, Number 2 (2007), 101-135. ([arXiv:math/0504123](https://arxiv.org/abs/math/0504123))
+* {#BCSS05} [[John Baez]], Alissa Crans, [[Urs Schreiber]], [[Danny Stevenson]], _From loop groups to 2-groups_, Homology Homotopy Appl. Volume 9, Number 2 (2007), 101-135. ([arXiv:math/0504123](https://arxiv.org/abs/math/0504123))
 
-Its role in [[nLab:Green-Schwarz anomaly cancellation]] is discussed in
+Its role in [[Green-Schwarz anomaly cancellation]] is discussed in
 
-* {#SatiSchreiberStasheff12} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], [[nLab:Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, Volume 315, Issue 1 (2012)  ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
+* {#SatiSchreiberStasheff12} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _[[schreiber:Twisted Differential String and Fivebrane Structures]]_, Communications in Mathematical Physics, Volume 315, Issue 1 (2012)  ([arXiv:0910.4001](http://arxiv.org/abs/0910.4001))
 
-and its role in the flux quantization of the [[nLab:supergravity C-field]] in
+and its role in the flux quantization of the [[supergravity C-field]] in
 
-* {#FiorenzaSatiSchreiber12a} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics, Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
+* {#FiorenzaSatiSchreiber12a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The moduli 3-stack of the C-field]]_, Communications in Mathematical Physics, Volume 333, Issue 1 (2015), Page 117-151 ([arXiv:1202.2455](http://arxiv.org/abs/1202.2455))
 
 and
 
-* {#FiorenzaSatiSchreiber12b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_, Advances in Theoretical and Mathematical Physics, Volume 18, Number 2 (2014)  ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
+* {#FiorenzaSatiSchreiber12b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:7d Chern-Simons theory and the 5-brane|Multiple M5-branes, String 2-connections, and 7d nonabelian Chern-Simons theory]]_, Advances in Theoretical and Mathematical Physics, Volume 18, Number 2 (2014)  ([arXiv:1201.5277](http://arxiv.org/abs/1201.5277))
 
 
 
-Our discussion of [[nLab:L-infinity algebra cohomology]] is due to
+Our discussion of [[L-infinity algebra cohomology]] is due to
 
-* {#SatiSchreiberStasheff08} [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], [[nLab:Jim Stasheff]], _L-infinity algebra connections and applications to String- and Chern-Simons n-transport_, in Quantum Field Theory, Birkh&#228;user (2009) 303-424 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
+* {#SatiSchreiberStasheff08} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _L-infinity algebra connections and applications to String- and Chern-Simons n-transport_, in Quantum Field Theory, Birkh&#228;user (2009) 303-424 ([arXiv:0801.3480](http://arxiv.org/abs/0801.3480))
 
 
-The observation of the [[schreiber:brane bouquet]] in super $L_\infty$-algebra and the general construction of [[nLab:higher WZW terms]] from higher $L_\infty$-cocycles is due to
+The observation of the [[schreiber:brane bouquet]] in super $L_\infty$-algebra and the general construction of [[higher WZW terms]] from higher $L_\infty$-cocycles is due to
 
-* {#FSS13} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]],   _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018, ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]],   _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ International Journal of Geometric Methods in Modern Physics Volume 12, Issue 02 (2015) 1550018, ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
 
-The homotopy-[[nLab:descent]] of the [[nLab:M5-brane]] cocycle and of the type IIA [[nLab:D-brane]] cocycles is due to
+The homotopy-[[descent]] of the [[M5-brane]] cocycle and of the type IIA [[D-brane]] cocycles is due to
 
-* {#FSS15} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:The WZW term of the M5-brane|The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](https://arxiv.org/abs/1506.07557))
+* {#FSS15} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The WZW term of the M5-brane|The WZW term of the M5-brane and differential cohomotopy]]_, J. Math. Phys. 56, 102301 (2015) ([arXiv:1506.07557](https://arxiv.org/abs/1506.07557))
 
-* {#FSS16a} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, Journal of Geometry and Physics, Volume 114 (2017) ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206))
+* {#FSS16a} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, Journal of Geometry and Physics, Volume 114 (2017) ([arXiv:1606.03206](http://arxiv.org/abs/1606.03206))
 
-The derivation of supersymmetric [[nLab:topological T-duality]], rationally, and of the higher super Cartan geometry for [[nLab:super T-folds]] is due to
+The derivation of supersymmetric [[topological T-duality]], rationally, and of the higher super Cartan geometry for [[super T-folds]] is due to
 
-* {#FSS16b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
+* {#FSS16b} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
-The derivation of the process of higher invariant extensions that leads from the [[nLab:superpoint]] to [[nLab:11-dimensional supergravity]]:
+The derivation of the process of higher invariant extensions that leads from the [[superpoint]] to [[11-dimensional supergravity]]:
 
-* {#MTheoryFromTheSuperpoint} [[nLab:John Huerta]], [[nLab:Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_
+* {#MTheoryFromTheSuperpoint} [[John Huerta]], [[Urs Schreiber]], _[[schreiber:M-Theory from the Superpoint]]_
 
-General discussion of [[nLab:twisted cohomology]] is in
+General discussion of [[twisted cohomology]] is in
 
-* {#NSS12} [[nLab:Thomas Nikolaus]], [[nLab:Urs Schreiber]], [[nLab:Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015) ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
+* {#NSS12} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications|Principal ∞-bundles -- General theory]]_, Journal of Homotopy and Related Structures, Volume 10, Issue 4 (2015) ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
 
 A textbook account of much of the story is in
 
-* {#dcct} [[nLab:Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Thesis
+* {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_, Thesis
 
 
 
