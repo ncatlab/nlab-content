@@ -30,12 +30,7 @@ $$
 In the sense of [[Galois theory]], that [[algebraic group]] is called the _motivic Galois group_ for pure motives. There is also a motivic Galois group of mixed motives. 
 
 That group is, or is closely related to, the group of algebraic _[[periods]]_, and as such is related to expressions appearing in [[deformation quantization]] and in [[renormalization]] in [[quantum field theory]], whence it is also sometimes referred to as the _[[cosmic Galois group]]_. See there for more on this.
-
-## Properties
-
-### Relation to Grothendieck-Teichm&#252;ller group
-
-The [[Grothendieck-Teichmüller group]] is supposed to be a [[quotient]] of the motivic Galois group. This is a conjecture due to ([Drinfeld 91](#Drinfeld91)). 
+ 
 
 ##(Mixed) Motivic Galois groups
 
@@ -112,7 +107,7 @@ More is in
 
 ### Relation to Grothendieck-Teichm&#252;ller group
 
-The Drinfeld conjeture is stated in
+The [[Grothendieck-Teichmüller group]] is supposed to be a [[quotient]] of the motivic Galois group. This is a conjecture due to ([Drinfeld 91](#Drinfeld91)).
 
 * [[Vladimir Drinfel'd]], _On quasi-triangular Quasi-Hopf algebras and a group closely related with $Gal(\overline{\mathbb{Q}/\mathbb{Q}})$, Leningrad Math. J., 2 (1991), 829 - 860.
  {#Drinfeld91}
@@ -131,6 +126,8 @@ An analogous statement, that a motivic Galois group naturally acts on structures
 
 * [[Alain Connes]], [[Matilde Marcolli]], _Renormalization and motivic Galois theory_, [arXiv:math/0409306](http://arxiv.org/abs/math/0409306) 
  {#ConnesMarcolli04}
+
+* [[Alain Connes]], _Symetries Galoisiennes et Renormalisation_, [arXiv:math/0211199](https://arxiv.org/abs/math/0211199)
 
 For more along these lines see at _[[cosmic Galois group]]_.
 
