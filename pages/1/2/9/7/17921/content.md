@@ -49,9 +49,9 @@ $$
       &
         & (X \otimes Y) \otimes Z
     \\
-      & {}^{\alpha_{X,Y,Z}}\swarrow
+      & \mathllap{{}^{\alpha_{X,Y,Z}}\swarrow}
         &
-          & \searrow^{c_{X,Y} \otimes 1_Z}
+          & \mathrlap{\searrow^{c_{X,Y} \otimes 1_Z}}
     \\
     X \otimes (Y \otimes Z)
       &
@@ -79,7 +79,7 @@ $$
     \\
     (\rho(g)(Y) \otimes \rho(g)(Z)) \otimes X
       &
-        & \underset{\alpha_{\rho(g)(Y), \rho(g)(Z), X}}{\longrightarrow}
+        & \mathclap{\underset{\alpha_{\rho(g)(Y), \rho(g)(Z), X}}{\longrightarrow}}
           &
             & \rho(g)(Y) \otimes (\rho(g)(Z) \otimes X)
   }
