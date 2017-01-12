@@ -62,7 +62,7 @@ The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergrav
 The construction in [van Nieuwenhuizen 82](#Nieuwenhuizen82) in turn was motivated by the [[Sullivan algebras]]
 in [[rational homotopy theory]] ([Sullivan 77](#rational+homotopy+theory#Sullivan77)). Indeed, their
 dual incarnations in rational homotopy theory are [[dg-Lie algebras]] ([Quillen 69](#rational+homotopy+theory#Quillen69)),
-hence a special case of $L_\infty$-algebras (remark \ref{LInfinityTerminology})
+hence a special case of $L_\infty$-algebras.
 
 This close relation between [[rational homotopy theory]] and [[higher Lie theory]] might have remained less of a
 secret had it not been for the focus of [[Sullivan minimal models]] on the non-[[simply connected topological space|simply connected]]
