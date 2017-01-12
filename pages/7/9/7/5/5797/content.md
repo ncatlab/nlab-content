@@ -230,7 +230,7 @@ Let $\mathfrak{g}$ be a [[super L-∞ algebra]].
 
 If $\mathfrak{g}$ is concentrated in even $\mathbb{Z}/2$-degree, it is called an _[[L-∞ algebra]]_.
 
-If the only possibly non-vanishing brackets of $\mathfrak{g}$ are the unary one $[-]$ (which induces the structure of a [[chain complex]] on $\mathfrak{g}$) and the binary one, then $\mathfrak{g}$ is equivalently a (super-)[[dg-Lie alghebra]].
+If the only possibly non-vanishing brackets of $\mathfrak{g}$ are the unary one $[-]$ (which induces the structure of a [[chain complex]] on $\mathfrak{g}$) and the binary one, then $\mathfrak{g}$ is equivalently a (super-)[[dg-Lie algebra]].
 
 If $\mathfrak{g}$ is concentrated in $\mathbb{Z}$-degrees 0 to $n-1$ then it is called a _[[super Lie n-algebra]]_.
 
