@@ -69,14 +69,6 @@ t-exact) would imply the isomorphism of motivic Galois groups._
 
 * [[Matilde Marcolli]], [[Gonçalo Tabuada]] _Noncommutative numerical motives, Tannakian structures, and motivic Galois groups._ J. Eur. Math. Soc. 18 (2016), 623-655. doi: 10.4171/JEMS/598
 
-## Related concepts
-
-* [[Galois theory]]
-
-* [[motive]]
-
-* [[cosmic Galois group]], [[Grothendieck-Teichmüller group]]
-
 ## References
 
 ### General
@@ -95,6 +87,8 @@ More is in
 * AB Goncharov, _Polylogarithms and Motivic galois groups_, ([pdf](http://users.math.yale.edu/users/ag727/polylog.pdf)).
 
 * R Sujatha, _Motives from a categorical point of view_, ([pdf](http://www.math.tifr.res.in/~sujatha/ihes.pdf)).
+
+* [[Minhyong Kim]], _(Videos) Motivic fundamental groups and Diophantine geometry_, [I](https://www.youtube.com/watch?v=qiR8un1mwIA), [II](https://www.youtube.com/watch?v=SZLE_dqf5lk). 
 
 * Annette Huber, Stefan M&#252;ller-Stach, _On the relation between Nori motives and Kontsevich periods_, [arxiv/1105.0865](http://arxiv.org/abs/1105.0865)
 
@@ -133,5 +127,12 @@ For more along these lines see at _[[cosmic Galois group]]_.
 
 ###Grothendieck's Yoga Remarks
 
+## Related concepts
+
+* [[Galois theory]]
+
+* [[motive]]
+
+* [[cosmic Galois group]], [[Grothendieck-Teichmüller group]]
 
 [[!redirects motivic Galois groups]]
