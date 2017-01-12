@@ -63,14 +63,18 @@ A weakly cohesive topos $p:\mathcal{E}\to\mathcal{S}$ is called _sufficiently co
 ###### Remark
 Since in general, every object $X$ embeds into its power object via the singleton map $\{\}:X\rightarrowtail\Omega^X$ it follows that in a sufficiently cohesive topos $\mathcal{E}$ every object embeds into a [[connected object]] i.e. $\mathcal{E}$ has _enough connected objects_.
 
-Furthermore, since in a [[Cartesian closed category]] $X^{(Y\times Z)}\simeq(X^Y)^Z$ one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not only connected but even contractible: $p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$ and hence it follows that in a sufficiently cohesive topos every object embeds into a contractible object.
+Furthermore, since in a [[Cartesian closed category]]
+$$(X^Y)^Z\simeq X^{(Y\times Z)}\simeq X^{(Z\times Y)}\simeq (X^Z)^Y$$
+one sees that in a sufficiently cohesive topos power objects $\Omega^X$ are not only connected but even contractible:
+$$p_!((\Omega^X)^Z)=p_!(\Omega^{X\times Z})=1$$
+and hence it follows that in a sufficiently cohesive topos _every object embeds into a contractible object_.
 
 Conversely, if every power object $\Omega^X$ embeds into a connected object then the power objects $\Omega^X$ will be connected themselves by proposition \ref{connected_retract} below since power objects are injective in general. Whence a topos is sufficiently cohesive iff every object embeds into a connected object iff every object embeds into a contractible object. The last formulation is taken as the definition of sufficient cohesion in Lawvere ([2007](#Law07)).
 =--
 
 +-- {: .num_remark}
 ###### Remark
-Following Lawvere ([2007](#Law07)) we have defined only sufficiently cohesively _toposes_ but axioms of cohesions can be considered in the wider context of Cartesian closed [[extensive category|extensive categories]] or even merely [[distributive category|distributive categories]] as done in Lawvere ([1991](#Law91a), [1992](#Law92), [2007](#Law07)). In the latter context, the definition of sufficient cohesion as 'having enough connected' objects would be feasible but Lawvere ([1991](#Law91a), p.4) suggests that the definition should be strenghtened to demand that every object is the equaliser of a pair of maps between two connected objects.
+The definition of sufficient cohesion by 'having enough contractible objects' (Lawvere [2007](#Law07)) has of course the advantage that it even works in the wider context of Cartesian closed [[extensive category|extensive categories]] that lack a subject classifier. The definition by 'having enough connected objects' would be feasible for merely [[distributive category|distributive categories]] that are not necessarily Cartesian closed (cf. Lawvere [1991](#Law91a), [1992](#Law92)) but Lawvere ([1991](#Law91a), p.4) suggests that in this case the definition should be strenghtened to demand that every object is the equaliser of a pair of maps between two connected objects.
 =--
 
 ## Properties
@@ -207,7 +211,9 @@ The following result brings together the two crucial ingredients for the equival
 Let $f=h\circ\langle i, k_1\rangle$ and $g=h\circ\langle i, k_2\rangle$ be a pair of parallel maps in a weakly cohesive topos with the property that $p_!(k_1)=p_!(k_2)$. Then $p_!(f)=p_!(g)$. In particular, $f\sim_I g$ implies $p_!(f)=p_!(g)$.
 =--
 
-**Proof**. Since $p_!$ preserves finite products it maps product diagrams to product diagrams whence $p_!(h\circ\langle i, k_j\rangle)=p_!(h)\circ p_!(\langle i, k_j\rangle)=p_!(h)\circ \langle p_!( i), p_!(k_j)\rangle$ , $j\in\{1,2\}$, but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
+**Proof**. Since $p_!$ preserves finite products it maps product diagrams to product diagrams whence
+$$p_!(h\circ\langle i, k_j\rangle)=p_!(h)\circ p_!(\langle i, k_j\rangle)=p_!(h)\circ \langle p_!( i), p_!(k_j)\rangle\quad,\quad j\in\{1,2\}$$
+but these two maps coincide since $p_!(k_1)=p_!(k_2)$ by assumption.
 
 Since for an I-homotopy $k_j=t_j\circ !_A:A\to I$ and, $p_!(I)=1$ by assumption, $p_!(k_j):p_!(A)\to 1$, $j\in\{1,2\}$, and these maps necessarily coincide since $1$ is terminal whence $p_!(t_0\circ !_A)=p_!(t_1\circ !_A)$ whence $p_!(f)=p_!(g)$ as claimed. $\qed$
 
