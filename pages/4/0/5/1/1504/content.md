@@ -107,7 +107,7 @@ These operations are graded-symmetric: for all $\{\Psi_j\}$ of homogeneous degre
   [\Psi_1 , \cdots, \Psi_{i+1}, \Psi_{i}, \cdots, \Psi_k]_k .
 \]
 
-([Zwiebach, (4.4)](#Zwiebach)).
+([Zwiebach, (4.4)](#Zwiebach93)).
 
 Moreover, there is a bilinear [[inner product]]
 
@@ -115,7 +115,7 @@ $$
   \langle -,- \rangle : \mathfrak{g} \otimes \mathfrak{g} \to \mathbb{C}
 $$
 
-coming from the [[Hilbert space]] inner product of string states ([Zwiebach (2.60)](#Zwiebach)). This is non-degenerate on elements $\Psi$ which are annihilated by the [[BRST complex|ghost]] operator 
+coming from the [[Hilbert space]] inner product of string states ([Zwiebach (2.60)](#Zwiebach93)). This is non-degenerate on elements $\Psi$ which are annihilated by the [[BRST complex|ghost]] operator 
 
 $$
   b_0^- := b_0 - \bar b_0
