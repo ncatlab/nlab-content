@@ -6,9 +6,16 @@ Linearly compact vector space were introduced in the development of the idea of 
 
 A standard reference for the basics is the Dieudonn&#233;'s book on formal groups. 
 
+The next definition is copied from Tom Leinster's note that's listed below. 
+
 ## Definition
 
-A topological module over a discrete ring is linearly compact if it has a [[base of neighborhoods]] of $0$ consisting of submodules. Thus a topological vector space is linearly compact if it has a base of neighborhoods of $0$ consisting of linear subspaces. 
+A **linearly compact vector space** over a field $k$ is a topological vector space $V$ over $k$ such that:
+
+* The topology is linear: the open affine subspaces form a basis for the topology.
+* Any family of closed affine subspaces with the finite intersection property has nonempty intersection.
+* The topology is Hausdorff. 
+
 
 ## Literature
 
@@ -28,6 +35,10 @@ A topological module over a discrete ring is linearly compact if it has a [[base
 Linearly compact rings and modules are treated in chapter VII, linear compactness and semisimplicity, in
 
 * S. Warner, _Topological rings_, North-Holland Math. Studies 178, 1993
+
+A similar concept: *profinite $k$-modules* - is treated in 
+
+* A. Yekutieli, _On the Structure of Behaviors_, Linear Algebra and its Applications  392 (2004), 159-181.
 
 The definitions of linearly compact subcategories and linearly compact objects in (co)Grothendieck categories can be found in the chapter on duality in 
 
