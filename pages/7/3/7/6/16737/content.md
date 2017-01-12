@@ -50,6 +50,10 @@ and
 
 > In the Lie garden, one also finds five rare flowers, the exceptional algebras: [[G2]], [[F4]], [[E6]], [[E7]] and [[E8]], their rank indicated by the subscripts. In view of Nature's fascination with unique structures, they merit further study.
 
+[Boya 03](#Boya03) writes:
+
+>If the current M-theory is a _unique theory_, one should expect it to make use of singular, non-generic mathematical structures. Now it is known that many of the special objects in mathematics are related to octonions, and therefore it is not surprising that this putative _theory-of-everything_ should display geometric and algebraic structures derived from this unique non-associative division algebra.
+
 [Moore 14](#Moore14) writes, in a survey of the state of [[mathematical physics]] applied to fundamental high energy physics ("Physical Mathematics"):
 
 > it must be said that much of Physical Mathematics has a predilection
@@ -74,6 +78,8 @@ to have evidence to the contrary.
 
 
 * {#Baez95} [[John Baez]], _[This Week's Finds in Mathematical Physics (Week 66)](http://math.ucr.edu/home/baez/week66.html)_, October 10, 1995
+
+* {#Boya03} Luis Boya, _Octonions and M-theory_ ([arXiv:hep-th/0301037](https://arxiv.org/abs/hep-th/0301037)).
 
 * {#Ramond01} [[Pierre Ramond]], _Algebraic Dreams_ ([arXiv:hep-th/0112261](http://arxiv.org/abs/hep-th/0112261))
 
