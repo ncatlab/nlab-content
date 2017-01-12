@@ -30,7 +30,7 @@ that are obtained from right to left by _removing [[homotopy groups]] from below
 
 The notion of Whitehead tower is [[duality|dual]] to the notion of _[[Postnikov tower]]_, which instead is a factorization of the terminal morphism $X \to *$ into a tower, where homotopy groups are _added_ from right to left.
 
-In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} \to X^{(n)}$ to be the _[[homotopy fiber]]_ of the corresponding map into the $(n+1)$st stage of the [[Postnikov tower]].
+In fact, the Whitehead tower may be constructed by taking each stage $X^{(n+1)} \to X$ to be the _[[homotopy fiber]]_ of the corresponding map into the $(n+1)$st stage of the [[Postnikov tower]].
 
 
 ## Definition
@@ -131,7 +131,7 @@ The Whitehead tower of the [[classifying space]]/[[delooping]] of the [[orthogon
 
 $$
   \array{
-    & Whitehead tower
+    & \mathbf{\text{Whitehead tower}}
     \\
     &\vdots
     \\
@@ -139,16 +139,16 @@ $$
     \\
     & \downarrow && && \downarrow
     \\
-    second frac Pontr. class & B String &\to& \cdots &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^8 \mathbb{Z}
+    \mathbf{\text{second frac Pontr. class}} & B String &\to& \cdots &\stackrel{\tfrac{1}{6}p_2}{\to}&  B^8 \mathbb{Z}
     &\to& * 
     \\
     & \downarrow && && \downarrow && \downarrow
     \\
-    first frac Pontr. class & B Spin && && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^4 \mathbb{Z} &\to & * 
+    \mathbf{\text{first frac Pontr. class}} & B Spin && && &\stackrel{\tfrac{1}{2}p_1}{\to}& B^4 \mathbb{Z} &\to & * 
     \\
     & \downarrow && && \downarrow && \downarrow && \downarrow
     \\
-    second SW class & B S O 
+    \mathbf{\text{second SW class}} & B S O 
     &\to&
     \cdots
     &\to&
@@ -160,7 +160,7 @@ $$
     \\
     & \downarrow && && \downarrow && \downarrow &&  \downarrow && \downarrow
     \\
-    first SW class & B O 
+    \mathbf{\text{first SW class}} & B O 
     &\to&
     \cdots
     &\to&
@@ -174,10 +174,11 @@ $$
     \simeq
     B \mathbb{Z}_2
     &
-    Postnikov  tower
+    \mathbf{\text{Postnikov tower}}
   }
 $$
 
+where each square and each composite rectangle is a [[homotopy pullback]] square (all controled by the [[pasting law]]),
 
 where the stages are the deloopings of
 
