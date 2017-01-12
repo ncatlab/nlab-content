@@ -817,7 +817,7 @@ Given a [[super Lie algebra]] $\mathfrak{g}$, then
 
 The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #FormalDualCE}
 ###### Proposition
 
 The functor
@@ -1584,292 +1584,112 @@ $$
 
 =--
 
-$\,$
++-- {: .num_remark}
+###### Remark
 
-Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
-[[super Minkowski spacetime]]. To put this in perspective,
-recall from the end of _[[geometry of physics -- supersymmetry]]_ how
-the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
-ordinary invariant [[central extensions]] of [[super Lie algebras]]:
+If we think of [[super Minkowski spacetime]] $\mathbb{R}^{d-1,1\vert N}$  as the [[supermanifold]] with
 
-+-- {: .num_prop}
-###### Proposition
+* even [[coordinates]] $\{x^a\}_{a = 0}^{d-1}$;
 
-Consider the [[superpoint]]
+* odd [[coordinates]] $\{\theta_\alpha\}_{\alpha = 1}^{dim_{\mathbb{R}}(N) }$
+
+then the algebra generators $e^a$ and $\psi^\alpha$ in def. \ref{SuperMinkowskiSpacetime}  correspond to these [[super differential forms]]:
 
 $$
-  \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
-$$
-
-regarded as an abelian [[super Lie algebra]]. Its maximal [[central extension]] is the $N = 1$ super-[[worldline]] of the [[superparticle]]:
-
-$$
-  \array{
-    \mathbb{R}^{0,1\vert \mathbf{1}}
+  \begin{aligned}
+    e^a & = d_{dR} x^a + \underset{\text{correction term}}{\underbrace{\overline{\theta} \Gamma^a d_{dR} \theta}}
     \\
-    \downarrow
-    \\
-    \mathbb{R}^{0\vert 1}
-  }
-  \,.
+    \psi^\alpha & = d_{dR} \theta^\alpha
+  \end{aligned}
 $$
 
-* whose even part is spanned by one generator $H$
-
-* whose odd part is spanned by one generator $Q$
-
-* the only non-trivial bracket is
-
-  $$
-    \{Q, Q\} = H
-  $$
+the **super-[[vielbein]]**.
 
 
-Then consider the [[superpoint]]
+Notice that $d_{dR} x^a$ alone fails to be a left [[invariant differential form]], in that it is not annihilated by the [[supersymmetry]] vector fields
 
 $$
-  \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
-  \,.
+  D_\alpha
+    \;\coloneqq\;
+  \partial_{\theta^\alpha} - \overline{\theta}_{\alpha'} \Gamma^a{}^{\alpha'}{}_\alpha \partial_{x^a}\,.
 $$
 
-
-Its maximal [[central extension]] is
-
-the $d = 3$, $N = 1$ [[super Minkowski spacetime]]
-
-$$
-  \array{
-    \mathbb{R}^{2,1\vert \mathbf{2}}
-    \\
-    \downarrow
-    \\
-    \mathbb{R}^{0\vert 2}
-  }
-  \,.
-$$
-
-* whose even part is $\mathbb{R}^3$, spanned by generators $P_0, P_1, P_2$
-
-* whose odd part is $\mathbb{R}^2$, regarded as
-
-  the [[Majorana spinor]] representation $\mathbf{2}$
-
-  of $Spin(2,1) \simeq SL(2,\mathbb{R})$
-
-* the only non-trivial bracket is the spinor bilinear pairing
-
-  $$
-    \{Q_\alpha, Q'_\beta\}
-    =
-     C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{}_\beta
-    \,P^a
-  $$
-
-where $C_{\alpha \beta}$ is the [[charge conjugation matrix]].
+Therefore the all-important correction term  above.
 
 =--
 
 
++-- {: .num_remark #SuperMinkowskiInvariantCocycles}
+###### Remark
 
-+-- {: .proof #FromSuperpointTo3dProof}
-###### Proof
-
-$\,$
-
-Recall that
-
-$d$-dimensional [[central extensions]] of [[super Lie algebras]] $\mathfrak{g}$
-
-are classified by [[Lie algebra cohomology|2-cocycles]].
-
-These are super-skew symmetric [[bilinear maps]]
+By def. \ref{SuperLieAlgebraCohomology} the super-[[Lie algebra cohomology]]
+of [[super Minkowski spacetimes]] (def. \ref{SuperMinkowskiSpacetime}) is the cohomology of the [[differential]]
 
 $$
-  \mu_2
-   \;\colon\;
-  \mathfrak{g} \wedge\mathfrak{g}
-    \longrightarrow
-  \mathbb{R}^d
-$$
-
-satisfying a cocycle condition.
-
-The extension $\widehat{\mathfrak{g}}$ that this classifies
-
-has underlying [[super vector space]]
-
-the [[direct sum]]
-
-$$
-  \widehat{\mathfrak{g}} \coloneqq \mathfrak{g} \oplus \mathbb{R}^d
-$$
-
-an the new super Lie bracket is given
-
-on pairs $(x,c) \in \mathfrak{g} \oplus \mathbb{R}^d$
-
-by
-
-$$
-  [\; (x_1,c_1), (x_2,c_2)\;]_{\mu_2}
-  \;=\;
-  (\, [x_1,x_2]\,,\, \mu_2(c_1,c_2) \,)
+  d_{CE} \, e^a = \overline{\psi} \wedge \Gamma^a \psi
+  \;\;\;\,,\;\;\;
+  d_{CE} \, \psi^\alpha = 0
   \,.
 $$
 
-The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[Jacobi identity]]
+(also called "[[tau-cohomology]]").
 
-is equivalent to the cocycle condition on $\mu_2$.
-
-Now
-
-in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$,
-
-then the cocycle condition is trivial
-
-and a 2-cocycle is just a _symmetric_ [[bilinear form]]
-
-on the $q$ fermionic dimensions.
-
-So
-
-in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$
-
-there is a unique such, up to scale, namely
+This may superficially look fairly trivial, but in fact it turns out to me very rich. 
+Specifically we are interested in the $Spin(d-1,1)$-[[invariant]] cohomology. A $Spin$-[[invariant]]
+[[cochain]] in the [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1\vert M})$ is easily seen to 
+be equivalently a sum of wedge products of the above generators, such that all indices are
+contracted with $\Gamma$-matrices. Hence these are the monomials of the form
 
 $$
-  \mu_2(a Q,b Q) = a b P
+  \mu_{p+2}
+  \;\coloneqq\;
+  \overline{\psi} \Gamma_{a_1 \cdots a_p} \psi
   \,.
 $$
 
-But
+We immediately find that the differential takes these to the following expressions (using the fact that the differential is a graded [[derivation]]):
 
-in the case $\mathfrak{g} = \mathbb{R}^{0\vert 2}$
-
-there is a 3-dimensional space of 2-cocycles, namely
 
 $$
-  \mu_2
+  d_{CE} \mu_{p+2}
+    \;=\;
+  p 
+  \;
   \left(
-    \left(
-    \array{
-      Q_1
-      \\
-      Q_2
-    }\right),
-    \left(
-    \array{
-      Q'_1
-      \\
-      Q'_2
-    }
-    \right)
+    \overline{\psi} \wedge \Gamma_{a_1 \cdots a_{p-1} b} \psi
   \right)
-  =
-  \left\{
-     \array{
-        Q_1 Q'_1,
-        &
-        \tfrac{1}{2}\left(
-          Q_1 Q'_2 + Q_2 Q'_1
-        \right),
-        \\
-        & Q_2 Q'_2
-     }
-  \right.
-$$
-
-If this is identified with the three coordinates
-
-of 3d [[Minkowski spacetime]]
-
-$$
-  \mathbb{R}^{2,1}
-    \;\simeq\;
+  \wedge 
   \left(
-    \array{
-       t + x & y
-       \\
-       & t - x
-    }
+    \overline{\psi} \wedge \Gamma^b \psi
   \right)
+  \wedge
+  e^{a_1}\wedge \cdots \wedge e^{p_{p-1}}
+  \,.
 $$
 
-then the pairing is the claimed one
+For the these expressions to vanish, all their components have to vanish, hence all the following [[multilinear map|quadrilinear]]
+expressions in the [[spinors]] have to vanish identicaly:
 
-(see at _[supersymmetry -- in dimensions 3,4,6,10](https://ncatlab.org/nlab/show/geometry+of+physics+--+supersymmetry#InTermsOfNormedDivisionAlgebraInDimension3To10)_).
-
-=--
-
-
-This phenomenon continues:
-
-
-+-- {: .num_theorem}
-###### Theorem
-**([J. Huerta](#MTheoryFromTheSuperpoint))
-
-The [[diagram]] of [[super Lie algebras]] shown on the right
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
-</div>
-
-is obtained by consecutively forming
-
-maximal central extensions
-
-invariant with respect to
-
-the maximal subgroup of automorphisms
-
-for which there are invariant cocycles at all.
-
-Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
-
-is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra.
-
-And these subgroups are
-
-the [[spin group]] covers $Spin(d-1,1)$
-
-of the [[Lorentz groups]] $O(d-1,1)$.
+$$
+  d_{CE} \mu_{p+2} = 0
+  \;\;\;\; \Leftrightarrow
+  \;\;\;\;
+  \left(
+    \overline{\psi} \wedge \Gamma_{a_1 \cdots a_{p-1} b} \psi
+  \right)
+  \wedge
+  \left(
+    \overline{\psi} \wedge \Gamma^b \psi
+  \right)
+  = 0
+  \,.
+$$
 
 =--
 
-$\,$
+Such relation among spinors are known as [[Fierz identities]]. These we discuss now in 
+_[Fierz identities](#FierzIdentities)_.
 
-Side remark: That every [[super Minkowski spacetime]] is _some_ [[central extension]] of some [[superpoint]]  is elementary.
-This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
-2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
-But most central extensions of superpoints
-are nothing like super-Minkowksi spacetimes.
-The point of the above proposition
-is to restrict attention to _iterated invariant_ central extensions
-and to find that these single out the super-Minkowski spacetimes.
-
-$\,$
-
-**Conclusion:**
-
-Just from studying iterated invariant [[central extensions]]
-
-of [[super Lie algebras]],
-
-starting with the [[superpoint]],
-
-we  (re-)discover
-
-1. [[pseudo-Riemannian geometry|Lorentzian geometry]],
-
-1. [[spin geometry]].
-
-1. [[super spacetimes]].
-
-
-
-
-$\,$
 
 
 ## Fierz identities
@@ -2462,7 +2282,7 @@ For $d = 11$ then
      \,.
    $$
 
-   (this is the cocycle condition for the [[higher WZW term]] of the [[M2-brane]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)), [AETW 87](#AETW87))
+   (we will see below that this is the cocycle condition for the [[higher WZW term]] of the [[M2-brane]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)), [AETW 87](#AETW87))
 
 1. the following Fierz identity holds:
 
@@ -2495,11 +2315,11 @@ For $d = 11$ then
      \right)
    $$
 
-   (this is the cocycle condition for the [[higher WZW term]] of the [[M5-brane]] ([BLNPST 97](#BLNPST97), [FSS 15](#FSS15))).
+   (we will see below that this is the cocycle condition for the [[higher WZW term]] of the [[M5-brane]] ([BLNPST 97](#BLNPST97), [FSS 15](#FSS15))).
 
 =--
 
-([D'Auria-Fr&#233; 82b (3.13) and (3.28) ](#DAuriaFre82b))
+This is due to ([D'Auria-Fr&#233; 82b (3.13) and (3.28) ](#DAuriaFre82b))
 
 +-- {: .proof}
 ###### Proof
@@ -2568,7 +2388,141 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 
 ## Branes
 
-May we extend further?
+
+Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
+[[super Minkowski spacetime]]. To put this in perspective,
+recall from the end of _[[geometry of physics -- supersymmetry]]_ how
+the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerged from the [[superpoint]] in a progression of
+ordinary invariant [[central extensions]] of [[super Lie algebras]]:
+
+### Super-Minkowski spacetimes
+
++-- {: .num_prop}
+###### Proposition
+
+Consider the [[superpoint]]
+
+$$
+  \;\;\;\;\;\; \mathbb{R}^{0\vert 1}
+$$
+
+regarded as an abelian [[super Lie algebra]] (def. \ref{SuperLieAlgebraAsLieAlgebraInternalToSuperVectorSpaces}, prop. \ref{SuperLieAlgebraTraditional}). Its maximal [[central extension]] is the $N = 1$ super-[[worldline]] of the [[superparticle]]:
+
+$$
+  \array{
+    \mathbb{R}^{0,1\vert \mathbf{1}}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{0\vert 1}
+  }
+  \,.
+$$
+
+* whose even part is spanned by one generator $H$
+
+* whose odd part is spanned by one generator $Q$
+
+* the only non-trivial bracket is
+
+  $$
+    \{Q, Q\} = H
+  $$
+
+Then consider the [[superpoint]]
+
+$$
+  \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
+  \,.
+$$
+
+
+Its maximal [[central extension]] is
+
+the $d = 3$, $N = 1$ [[super Minkowski spacetime]]
+
+$$
+  \array{
+    \mathbb{R}^{2,1\vert \mathbf{2}}
+    \\
+    \downarrow
+    \\
+    \mathbb{R}^{0\vert 2}
+  }
+  \,.
+$$
+
+* whose even part is $\mathbb{R}^3$, spanned by generators $P_0, P_1, P_2$
+
+* whose odd part is $\mathbb{R}^2$, regarded as
+
+  the [[Majorana spinor]] representation $\mathbf{2}$
+
+  of $Spin(2,1) \simeq SL(2,\mathbb{R})$
+
+* the only non-trivial bracket is the spinor bilinear pairing
+
+  $$
+    \{Q_\alpha, Q'_\beta\}
+    =
+     C_{\alpha \alpha'} \Gamma_a{}^{\alpha'}{}_\beta
+    \,P^a
+  $$
+
+where $C_{\alpha \beta}$ is the [[charge conjugation matrix]].
+
+=--
+
+This phenomenon continues:
+
+
++-- {: .num_theorem}
+###### Theorem
+**([J. Huerta](#MTheoryFromTheSuperpoint))
+
+The [[diagram]] of [[super Lie algebras]] shown on the right
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+</div>
+
+is obtained by consecutively forming maximal central extensions invariant with respect to the maximal subgroup of automorphisms for which there are invariant cocycles at all. Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra. And these subgroups are the [[spin group]] covers $Spin(d-1,1)$ of the [[Lorentz groups]] $O(d-1,1)$.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+That every [[super Minkowski spacetime]] is _some_ [[central extension]] of some [[superpoint]]  is elementary.
+This was highlighted in ([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99,
+2.1](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99)).
+But most central extensions of superpoints
+are nothing like super-Minkowksi spacetimes.
+The point of the above proposition
+is to restrict attention to _iterated invariant_ central extensions
+and to find that these single out the super-Minkowski spacetimes.
+
+=--
+
+
+**Conclusion:**
+
+Just from studying iterated invariant [[central extensions]]
+
+of [[super Lie algebras]],
+
+starting with the [[superpoint]],
+
+we  (re-)discover
+
+1. [[pseudo-Riemannian geometry|Lorentzian geometry]],
+
+1. [[spin geometry]].
+
+1. [[super spacetimes]].
+
+
 
 
 $\,$
@@ -2603,91 +2557,7 @@ $\,$
 
 This we explain now.
 
-$\,$
 
-
-$\,$
-
-+-- {: .num_example}
-###### Example
-
-For $d \in \mathbb{N}$
-
-and $\mathbf{N}$ a [[Majorana spinor|Majorana]] [[spin representation]] of $Spin(d-1,1)$
-
-then the super-translation [[supersymmetry]] [[super Lie algebra]] $\mathbb{R}^{d-1,1\vert \mathbf{N}}$
-
-has [[Chevalley-Eilenberg algebra]] generated by
-
-* $\{e^a\}_{a = 0}^{d-1}$ in bi-degree $(1,even)$;
-
-* $\{\psi_\alpha\}_{\alpha = 1}^N$ in bi-degree $(1,odd)$.
-
-with [[differential]]
-
-$$
-  d \;:\;
-  \left\{
-   \array{
-    \psi_\alpha &\mapsto& 0
-    \\
-    e^a & \mapsto & \overline{\psi} \wedge \Gamma^a \psi
-   }
-  \right.
-$$
-
-where
-
-$$
-  \overline{(-)}\Gamma^a(-) = (-)^\dagger \Gamma^0 \Gamma^a (-)
-$$
-
-is the standard [spinor bilinear pairing](https://ncatlab.org/nlab/show/Majorana%20spinor#TheSpinorPairingToVectors)
-
-in the [[spin representation]] $\mathbf{N}$.
-
-$\,$
-
-If we think of [[super Minkowski spacetime]]
-
-as the [[supermanifold]] with
-
-* even [[coordinates]] $\{x^a\}_{a = 0}^{d-1}$;
-
-* odd [[coordinates]] $\{\theta_\alpha\}_{\alpha = 1}^N$
-
-then these generators correspond to these [[super differential forms]]:
-
-$$
-  \begin{aligned}
-    e^a & = d_{dR} x^a + \underset{\text{correction term}}{\underbrace{\overline{\theta} \Gamma^a d_{dR} \theta}}
-    \\
-    \psi^\alpha & = d_{dR} \theta^\alpha
-  \end{aligned}
-$$
-
-the **super-[[vielbein]]**.
-
-=--
-
-$\,$
-
-
-Notice that $d_{dR} x^a$ alone
-
-fails to be a left [[invariant differential form]],
-
-in that it is not annihilated by the [[supersymmetry]]
-
-vector fields
-
-$$
-  D_\alpha
-    \;\coloneqq\;
-  \partial_{\theta^\alpha} - \overline{\theta}_{\alpha'} \Gamma^a{}^{\alpha'}{}_\alpha \partial_{x^a}\,.
-$$
-
-Therefore the all-important correction term above.
 
 $\,$
 
@@ -2759,7 +2629,7 @@ See below.
 ###### Proposition
 **([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
 
-The maximal invariant 3-cocycle on 10d [[super Minkowski spacetime]] is
+The maximal invariant 3-cocycle on 10d [[super Minkowski spacetime]] (according to remark \ref{SuperMinkowskiInvariantCocycles}) is
 
 $$
   \mu_{F1} = \left(\overline{\psi} \wedge \Gamma_a \psi\right) \wedge e^a
@@ -3000,11 +2870,7 @@ $\,$
  {#ExtendedSuperMinkowskiSpacetime}
 
 
-This way we may finally continue
-
-the progression of invariant central extensions
-
-to higher central extensions:
+This way we may finally continue the progression of invariant central extensions to higher central extensions:
 
 
 $\,$
