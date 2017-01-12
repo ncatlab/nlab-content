@@ -24,7 +24,7 @@
 
 A _weak factorization system_ on a [[category]] is a [[pair]] $(\mathcal{L},\mathcal{R})$ of [[classes]] of [[morphisms]] ("[[projective morphisms]]" and "[[injective morphisms]]") such that 1) every morphism of the category factors as the composite of one in $\mathcal{L}$ followed by one in $\mathcal{R}$, and 2) $\mathcal{L}$ and $\mathcal{R}$ are closed under having the [[lifting property]] against each other.
 
-If the liftings here are unique, then one speaks of an _orthogonal factorization system_. A classical example of an orthogonal factorization system is the [[(epi,mono)-factorization system]] on the category [[Set]] or in fact on any [[tops]].
+If the liftings here are unique, then one speaks of an _orthogonal factorization system_. A classical example of an orthogonal factorization system is the [[(epi,mono)-factorization system]] on the category [[Set]] or in fact on any [[topos]].
 
 Non-orthogonal weak factorization systems are the key ingredient in [[model categories]], which by definition carry a weak factorization system called ($\mathcal{L} = $ [[cofibrations]],$\mathcal{R} = $ [[acyclic fibrations]]) and another one called ($\mathcal{L} =$ [[acyclic cofibrations]], $\mathcal{R} =$ [[fibrations]]). Indeed most examples of non-orthogonal weak factorization systems arise in the context of model category theory.  A key tool for constructing these, or verifying their existence, is the _[[small object argument]]_.
 
