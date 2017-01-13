@@ -1553,6 +1553,9 @@ The above discussion is from
 [[!redirects circle 2-bundle with connection]]
 [[!redirects circle 2-bundles with connection]]
 
+[[!redirects circle 3-bundle with connection]]
+[[!redirects circle 3-bundles with connection]]
+
 [[!redirects circle n-connection]]
 [[!redirects circle n-connections]]
 
