@@ -44,8 +44,10 @@ For a locally presentable $(\infty,1)$-category $C$, the following are equivalen
 
 
 =--
+
 +-- {: .proof}
 ###### Proof
+
 Since [[left adjoints]] preserve colimits, the first condition implies the second.  The converse holds by the [[adjoint functor theorem]] since each slice of $C$ is locally presentable.
 
 Suppose $M$ is a right proper Cisinski model category.  Then pullback along a fibration preserves cofibrations (since they are the monomorphisms) and weak equivalences (since $M$ is right proper).  Since $M$ is a locally cartesian closed 1-category, pullback also has a right adjoint, so it is a [[Quillen adjunction|left Quillen functor]]; thus the fourth condition implies the third.  Since left Quillen functors preserve homotopy colimits, the third condition implies the second.
@@ -72,6 +74,7 @@ notice that the projective and the injective [[model structure on simplicial pre
 
 =--
 
+
 ### Internal logic and homotopy type theory
  {#InternalLogic}
 
@@ -85,9 +88,15 @@ It is expected that the [[internal logic]] of locally cartesian closed $(\infty,
 
 Some partial results in these directions are known.  For instance, Theorem \ref{Presentations} says in particular that every *locally presentable* and locally cartesian closed $(\infty,1)$-category has a presentation by a [[type-theoretic model category]].  As discussed there, this provides [[categorical semantics]] for [[homotopy type theory]] (without in general the [[univalence]] [[axiom]]), at least if we assume the initiality of the syntactic 1-category (which is known in a special case and expected to be true in all cases).  Together, this yields:
 
-+-- {: .num_theorem }
++-- {: .num_theorem #InterpretationTheoemForHoTT}
 ###### Theorem
-**(Cisinski, Shulman)** Assuming the initiality of the syntactic 1-category, every locally presentable locally cartesian closed $(\infty,1)$-category admits an interpretation of type theory with $\Sigma$-types, $\Pi$-types, and $\mathrm{Id}$-types.
+**(Cisinski, Shulman)** Assuming the initiality of the syntactic 1-category, every locally presentable locally cartesian closed $(\infty,1)$-category admits an interpretation of [[Martin-Löf type theory]] with [[dependent sum types]], [[dependent product types]], and [[identity types]] ("[[homotopy type theory]]").
+
+Moreover it also interprets [[function extensionality]] ([Shulman 12, lemma 5.9](#Shulman12), see this [this discussion](function+extensionality#EveryPresentableLocallyCartesinClosedInfinityCatInterpretsHoTTPlusFunExt).
+
+Hence every presentable locally cartesian closed $\infty$-category interprets [[HoTT]]+[[FunExt]].
+
+
 =--
 
 This includes in particular all ([[∞-stack]]-) [[(∞,1)-toposes]].  The latter should in addition possess [[univalence|univalent universes]], but that is at present known only weakly except for a restricted class.  See also _[[internal logic of an (∞,1)-topos]]_.
@@ -132,7 +141,7 @@ proposing [[homotopy type theory]] as an internal language for locally cartesian
 
 [[Denis-Charles Cisinski]]'s argument in Theorem \ref{Presentations} above, that every locally presentable locally cartesian closed $(\infinity,1)$-category admits a presentation by a [[type-theoretic model category]], originally appeared on the Caf&#233; ([this blog comment](http://golem.ph.utexas.edu/category/2012/05/the_mysterious_nature_of_right.html#c041306)) and is mentioned in print in Examples 2.16 of 
 
-* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_ ([arXiv:1203.3253](http://arxiv.org/abs/1203.3253))
+* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
 
 which gives a detailed account of the categorical semantics of homotopy type theory in [[type-theoretic model categories]] such as those presenting locally cartesian closed $(\infty,1)$-categories.
 
