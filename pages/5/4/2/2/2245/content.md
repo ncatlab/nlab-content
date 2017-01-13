@@ -102,6 +102,8 @@ The standard references are
 
 * M. Demazure, P. Gabriel, _Groupes algebriques_, tome 1 (later volumes never appeared), Mason and Cie, Paris 1970
 
+* [[SGA3]] _Sch&#233;mas en groupes, 1962&#8211;1964, Lecture Notes in Mathematics 151, 152 and 153, 1970
+
 * M. Artin, J. E. Bertin, M. Demazure, P. Gabriel, A. Grothendieck, M. Raynaud, J.-P. Serre, _Schemas en groupes_, i.e. SGA III-1, III-2, III-3
 
 * A. Borel, _Linear algebraic groups_, Springer (2nd edition much expanded)
