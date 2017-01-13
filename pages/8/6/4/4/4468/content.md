@@ -32,18 +32,18 @@ An element $x \in L$ is __positive__ if whenever $x$ is bounded above by a [[joi
 ###### Definition
 **(in [[predicative mathematics|predicative]] [[constructive mathematics|constructive]] mathematics)**
 
-A **positivity predicate** on $L$ is a [[predicate]] $\lozenge x$, pronounced "$x$ is positive", such that
+A **positivity predicate** on $L$ is a [[predicate]] $\lozenge{x}$, pronounced "$x$ is positive", such that
 
-*  If $x$ is bounded above by a join of a subset and $x$ is positive, then some element of that subset is positive: $\lozenge x \;\wedge\; x \leq \bigvee A \;\vdash\; \exists\, u \in A,\; \lozenge u$.
+*  If $x$ is bounded above by a join of a subset and $x$ is positive, then some element of that subset is positive: $\lozenge{x} \;\wedge\; x \leq \bigvee A \;\vdash\; \exists\, u \in A,\; \lozenge{u}$.
 
-*  If $x$ is bounded above by a join on the assumption that $x$ is positive, then $x$ really is so bounded: $\lozenge x \;\Rightarrow\; x \leq \bigvee A \;\vdash\; x \leq \bigvee A$.
+*  If $x$ is bounded above by a join on the assumption that $x$ is positive, then $x$ really is so bounded: $\lozenge{x} \;\Rightarrow\; x \leq \bigvee A \;\vdash\; x \leq \bigvee A$.
 =--
 
-Any two of these definitions can be shown to be equivalent in the union of the corresponding foundational systems.  Specifically:
+These definitions are equivalent under certain circumstances.  Specifically:
 
 * In predicative mathematics with classical logic, one can prove that every preorder has a unique positivity predicate, which must match Definition \ref{preddef}.
 
-* In impredicative constructive mathematics, one can prove that if a preorder admits a positivity predicate, it is given by Definition \ref{constdef}. However, in general Definition \ref{constdef} gives not rise to a positivity predicate in the sense of Definition \ref{predconstdef}.
+* In impredicative constructive mathematics, one can prove that if a preorder admits a positivity predicate, then it is given by Definition \ref{constdef}.  However, in general, the predicate defined in Definition \ref{constdef} is not a positivity predicate in the sense of Definition \ref{predconstdef}.
 
 * In [[classical mathematics]] (with [[classical logic]] and impredicativity), all of the definitions are equivalent.
 
@@ -54,7 +54,7 @@ Every [[power set]] has a positivity predicate: $x$ is positive iff $x$ is [[inh
 
 The positive predicate on a [[locale]] plays a role in the definition of an [[overt space]].  Locale theory is often considered constructively but impredicatively; in predicative constructive mathematics, a positivity predicate is used in the corresponding theory of [[formal topology]].
 
-In impredicative constructive mathematics, a sufficient condition for a complete poset to possess a positivity predicate is that any element is a join of positive elements. To show this, it suffices to prove that for any element $a$, it holds that $a = \bigvee \{ a | a \, positive \}$. The remaining properties can then be easily verified. By assumption, $a = \sup B$ for some set $B$ containing only positive elements. For any $b \in B$, it holds that $b \leq a$, thus that $a$ is positive and thus that $b \leq \bigvee \{ a | a \, positive \}$. Therefore $\sup B \leq \bigvee \{ a | a \, positive \}$ holds as well. The other inequality is trivial.
+In impredicative constructive mathematics, a sufficient condition for a complete poset to possess a positivity predicate is that any element is a join of positive elements. To show this, it suffices to prove that for any element $a$, it holds that $a = \bigvee \{ a \;|\; \lozenge{a} \}$ (that is, $a = \bigvee \{ b \;|\; b = a \;\wedge\; \lozenge{b} \}$). The remaining properties can then be easily verified. By assumption, $a = \sup B$ for some set $B$ containing only positive elements. For any $b \in B$, it holds that $b \leq a$, thus that $a$ is positive and thus that $b \leq \bigvee \{ a \;|\; \lozenge{a} \}$. Therefore $\sup B \leq \bigvee \{ a \;|\; \lozenge{a} \}$ holds as well. The other inequality is trivial.
 
 Every [[atom]] of $L$ is positive, and indeed an atom is precisely a [[minimal element|minimal]] positive element.
 
@@ -65,9 +65,10 @@ Although classically trivial, a key property of positivity in the constructive c
 $$ \bigvee A = \bigvee A^+ ,$$
 where $A^+$ is the set of positive elements of $A$.
 
-A similar property is
-$$ a = \bigvee \{ a | a \, positive \} $$
+A special case is
+$$ a = \bigvee \{a\}^+ = \bigvee \{ a | \lozenge{a} \} $$
 for any element $a$.
+
 
 [[!redirects positive element]]
 [[!redirects positive elements]]
