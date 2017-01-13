@@ -158,6 +158,11 @@ Comments on the development of the geometric duality by R. Langlands himself inc
 
 * {#Langlands14} [[Robert Langlands]], _[[Problems in the theory of automorphic forms -- 45 years later]]_, talk at [Symmetries and correspondences in number theory, geometry, algebra, physics: intra-disciplinary trends](https://www.maths.nottingham.ac.uk/personal/ibf/files/sc3.html), Oxford, July 5 - July 8, 2014
 
+See also the deformation to the [[quantum geometric Langlands correspondence]], such as
+
+* [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
+
+
 ### Surveys and reviews
 
 A classical survey is
