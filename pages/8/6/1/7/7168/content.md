@@ -35,7 +35,7 @@ $$
 
 is a [[bilinear form]]. 
 
-From the converse point of view, $q$ is a __[[quadratic refinement]]__ of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-,-)$.  See there for more.)
+From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-,-)$.  See there for more.)
 
 
 ## Related concepts
