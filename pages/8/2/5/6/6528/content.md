@@ -55,6 +55,14 @@ is called the **instanton number** or the **instanton sector** of $\nabla$.
 
 Notice that therefore any connection, even if not self-dual, is in some instanton sector, as its underlying bundle has some second Chern class, meaning that it can be obtained from shifting a self-dual connection. The self-dual connections are a convenient choice of "base point" in each instanton sector.
 
+## Examples
+
+### $SU(2)$-instantons from the correct maths to the traditional physics story
+ {#FromTheMathsToThePhysicsStory}
+
+[[!include SU2-instantons from the correct maths to the traditional physics story]]
+
+
 ## Properties
 
 ### As gradient flows between flat connections.
