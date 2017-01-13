@@ -47,6 +47,11 @@ $$
 
 (In fact $k$ and $\frac{1}{k}$ here should further be shifted by the [[dual Coxeter number]] of $G$ and ${}^L G$, respectively.)
 
+
+## Embedding in string theory
+
+Where the plain [[geometric Langlands correspondence]] is meant to be a shadow of the [[6d (2,0)-superconformal field theory]], the quantum version is meant to correspondingly relate to 6d [[little string theory]] ([Aganagic-Frenkel-Okounkov 17](#AganagicFrenkelOkounkov17)) (which turns into the 6d QFT in the limit that the strings shrink to points).
+ 
 ## Examples
 
 
@@ -84,11 +89,16 @@ The statement of the quantum geometric Langlands correspondence is surveyed on [
 
 The construction of the correspondence in the abelian case, where it is given by a [[Fourier-Mukai transform]], is given in
 
-* A. Polishchuk and M. Rothstein, _Fourier transform for D-algebras_ , DukeMath. J. 109 (2001) 123&#8211;146.
-{#PolishukRothenstein}
+* {#PolishukRothenstein} A. Polishchuk and M. Rothstein, _Fourier transform for D-algebras_ , DukeMath. J. 109 (2001) 123&#8211;146.
+
 
 An interpretation of the quantum Langlands correspondence in terms of the [[B-model]] is given in
 
 * [[Anton Kapustin]], _A Note on Quantum Geometric Langlands Duality, Gauge Theory, and Quantization of the Moduli Space of Flat Connections_ ([arXiv:0811.3264](http://arxiv.org/abs/0811.3264))
+
+A general quantum geometric Langlands correspondence is produced in
+
+* {#AganagicFrenkelOkounkov17} [[Mina Aganagic]], [[Edward Frenkel]], [[Andrei Okounkov]], _Quantum $q$-Langlands Correspondence_ ([arXiv:1701.03146](https://arxiv.org/abs/1701.03146))
+
 
 [[!redirects quantum geometric Langlands duality]]
