@@ -266,6 +266,30 @@ An example of how string theory is more constrained in its model building than e
 
 On the other hand, no other theoretical framework was equally tested by this astronomical observation. In all other existing theoretical frameworks you simply take a pen and change the sign of the cosmological constant by hand. The theory does not control it, it's a free parameter. So it seems justifiable to say that string theory is actually _more testable_ than other existing theoretical frameworks. Of course to appreciate what this means one has to pay attention to what it means to test a theory by testing all its parameter space of models, as illustrated by the Einstein "biggest blunder"-example.
 
+
+
+### Is string theory causal, given that it is not local on the string scale?
+ {#IsStringTheoryCausal}
+
+In an [[S-matrix]] theory such as [[perturbative string theory]]
+(see above at _[What is string theory](#WhatIsStringTheory)_) the property of [[causality]] is embodied by the fact that the [[S-matrix]] shows certain [[analytic function|analycity features]]. (Therefore the [[S-matrix]] approach to [[quantum field theory]] is often refereed to as "the analytic S-matrix").
+
+Since, as opposed to a [[fundamental particle]], the string is extended, at the string scale string theory is not given by a [[local field theory]]. This superficially seems to suggest that at such scales also [[causality]] might be violated in string theory. However, computation shows that the [[string scattering amplitude|string scattering]] [[S-matrix]] comes out suitably analytic and causal (e.g. [Martinec 95](causal+locality#Martinec95)).
+
+A detailed analysis for how this comes about has been given in ([Erler-Grross 04](#causal+locality#ErlerGross04)). They write:
+
+
+> Perhaps then it comes as a surprise that critical string theory produces an analytic [[S-matrix]] consistent with macroscopic causality. In absence of any other known theoretical mechanism which might explain this, despite appearances one is lead to believe that string interactions must be, in some sense, local.
+
+and
+
+> We find that string theory avoids problems with nonlocality in a surprising way. In particular, we find that the Witten vertex is "local enough" to allow for a nonsingular description of the theory which is completely local along a single null direction.
+
+and
+
+> unlike lightcone string field theory, it is clear that cubic string field theory at least has a local limit where all spacetime coordinates are taken to the midpoint. We investigate this limit with a careful choice of regulator and show that at any stage the theory is nonsingular but arbitrarily close to being local and manifestly causal. We believe that the existence of this limit, though singular, must account for the macroscopic causality of the string S-matrix. Thus, string theory is local enough to avoid the inconsistencies of a theory which is acausal and nonlocal in time, but is nonlocal enough to make string theory different from quantum field theory
+
+
 ### Does string theory predict supersymmetry? 
  {#DoesSTPredictSupersymmetry}
 
