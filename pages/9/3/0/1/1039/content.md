@@ -7,7 +7,7 @@
 [[!include topology - contents]]
 =--
 #### Higher category theory
-+--{: .hide}
++-- {: .hide}
 [[!include higher category theory - contents]]
 =--
 =--
@@ -50,6 +50,7 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 [[!include homotopy n-types - table]]
 
+
 [[!redirects contractible]]
 
 [[!redirects contractible space]]
@@ -64,9 +65,8 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 [[!redirects weakly contractible topological space]]
 [[!redirects weakly contractible topological spaces]]
 
-
-[[!redirects contractible object]]
-[[!redirects contractible objects]]
-
 [[!redirects contractible homotopy type]]
 [[!redirects contractible homotopy types]]
+
+[[!redirects weakly contractible homotopy type]]
+[[!redirects weakly contractible homotopy types]]
