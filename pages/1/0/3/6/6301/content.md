@@ -93,32 +93,41 @@ Then they comment on Martinec's account above, and other's, by saying:
 
 ## References
 
-* V. I. Grigor'ev, _Microcausality condition_, The Great Soviet Encyclopedia, 3rd Edition (1970-1979) ([web](http://encyclopedia2.thefreedictionary.com/Microcausality+Condition))
- {#Grigoriev}
+### In local quantum field theory
 
+* {#Grigoriev} V. I. Grigor'ev, _Microcausality condition_, The Great Soviet Encyclopedia, 3rd Edition (1970-1979) ([web](http://encyclopedia2.thefreedictionary.com/Microcausality+Condition))
+ 
 * Jessey Wright, _Quantum field theory: Motivating  the Axiom of Micorcausality_, PhD thesis 2012 ([pdf](http://uwspace.uwaterloo.ca/bitstream/10012/6998/1/Wright_Jessey.pdf))
 
 * Anthony Duncan, _The Conceptual Framework of Quantum Field Theory -- Dynamics IV: Aspects of locality: clustering, microcausality, and analyticity_, Oxford Scholarship Online ([web](http://www.oxfordscholarship.com/view/10.1093/acprof:oso/9780199573264.001.0001/acprof-9780199573264-chapter-6))
 
-* [[John Bell]], _The theory of local beables_ (1975) ([pdf](http://cds.cern.ch/record/980036/files/197508125.pdf))
- {#Bell75}
+* {#Bell75} [[John Bell]], _The theory of local beables_ (1975) ([pdf](http://cds.cern.ch/record/980036/files/197508125.pdf))
+ 
 
 
 * [pdf](http://ptp.oxfordjournals.org/content/52/1/335.full.pdf)
+
+### In S-matrix theories and string theory
+
+Discussion of causality in [[string theory]] includes the following:
+
+A brief look at the causality property of the string 2-point function is in
+
+* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
+
+An in-depth discussion of causality of the [[string scattering amplitude|string scattring]] [[S-matrix]] via [[open string field theory]] is in
+
+* {#ErlerGross04} [[Theodore Erler]], [[David Gross]], _Locality, Causality, and an Initial Value Formulation for Open String Field Theory_ ([arXiv:hep-th/0406199](https://arxiv.org/abs/hep-th/0406199))
+
+This rediscovered some facts that had earlier been noticed in
+
+* M. Maeno, _Canonical quantization of Witten's string field theory using midpoint light-cone time_, Phys. Rev. D43 no. 12 (1991).
 
 Discussion in theories with [[higher curvature corrections]] of the gravitational background and in [[string theory]] includes
 
 * Xian O. Camanho, Jose D. Edelstein, [[Juan Maldacena]], Alexander Zhiboedov, _Causality Constraints on Corrections to the Graviton Three-Point Coupling_ ([arXiv:](http://arxiv.org/abs/1407.5597))
 
 * Giuseppe D'Appollonio, [[Paolo Di Vecchia]], [[Rodolfo Russo]], [[Gabriele Veneziano]], _Regge behavior saves String Theory from causality violations_ ([arXiv:1502.01254](http://arxiv.org/abs/1502.01254))
-
-Discussion of causality in [[string theory]] includes
-
-* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
-
-which is a short commented analysis of the string 2-point function as compared to the particle 2-point function and in view of how causality is read off. In the course martinec referes to string fiels, somewhat colloquially.
-
-* {#ErlerGross04} [[Theodore Erler]], [[David Gross]], _Locality, Causality, and an Initial Value Formulation for Open String Field Theory_ ([arXiv:hep-th/0406199](https://arxiv.org/abs/hep-th/0406199))
 
 
 [[!redirects causal locality]]
