@@ -55,6 +55,26 @@ Notice that $10^{-15}$[[cm]] $ = 10^{-17}m  = 10^{-2}$[[fm]] and that the (charg
 
 It seems that [Grigor'ev 197x](#Grigoriev) just cited the length scale resolution of particle accelerators at that time. More recently, the [[LHC]] (see there) probes scales $\simeq 10^{-20}m$.
 
+## In S-matrix theories and string theory
+
+In [[S-matrix]] theories causality is meant to be incarnated in terms of [[analytic function|analyticity]] properties of the [[scattering amplitudes]] (for this reason one often speaks of "the analytic S-matrix").
+
+One S-matrix theory is [[perturbative string theory]]. Discussion of causality in string theory includes [Martinec 95](#Martinec95) and ([Erler-Gross 04](#ErlerGross04)). The latter write in their introduction:
+
+> Perhaps then it comes as a surprise that critical string theory produces an analytic [[S-matrix]] consistent with macroscopic causality. In absence of any other known theoretical mechanism which might explain this, despite appearances one is lead to believe that string interactions must be, in some sense, local.
+
+and
+
+> We find that string theory avoids problems with nonlocality in a surprising way. In particular, we find that the Witten vertex is "local enough" to allow for a nonsingular description of the theory which is completely local along a single null direction.
+
+and
+
+> unlike lightcone string field theory, it is clear that cubic string field theory at least has a local limit where all spacetime coordinates are taken to the midpoint. We investigate this limit with a careful choice of regulator and show that at any stage the theory is nonsingular but arbitrarily close to being local and manifestly causal. We believe that the existence of this limit, though singular, must account for the macroscopic causality of the string S-matrix. Thus, string theory is local enough to avoid the inconsistencies of a theory which is acausal and nonlocal in time, but is nonlocal enough to make string theory different from quantum field theory
+
+Then they comment on Martinec's account above, and other's, by saying:
+
+> To motivate our particular perspective, it seems appropriate to discuss earlier attempts to understand the role of locality, causality and time in string theory, and explain why we feel these approaches do not adequately address the problems just raised.
+
 ## Related concepts
 
 * [[local prequantum field theory]]
@@ -92,6 +112,14 @@ Discussion in theories with [[higher curvature corrections]] of the gravitationa
 
 * Giuseppe D'Appollonio, [[Paolo Di Vecchia]], [[Rodolfo Russo]], [[Gabriele Veneziano]], _Regge behavior saves String Theory from causality violations_ ([arXiv:1502.01254](http://arxiv.org/abs/1502.01254))
 
+Discussion of causality in [[string theory]] includes
+
+* {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
+
+which is a short commented analysis of the string 2-point function as compared to the particle 2-point function and in view of how causality is read off. In the course martinec referes to string fiels, somewhat colloquially.
+
+* {#ErlerGross04} [[Theodore Erler]], [[David Gross]], _Locality, Causality, and an Initial Value Formulation for Open String Field Theory_ ([arXiv:hep-th/0406199](https://arxiv.org/abs/hep-th/0406199))
+
 
 [[!redirects causal locality]]
 
@@ -105,3 +133,5 @@ Discussion in theories with [[higher curvature corrections]] of the gravitationa
 [[!redirects microcausality]]
 
 [[!redirects locality]]
+
+[[!redirects causality]]
