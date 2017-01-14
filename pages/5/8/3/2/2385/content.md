@@ -110,11 +110,11 @@ of $X_{dR}$, is the [[crystaline site]] of $X$.
 
 Morphisms $X_{dR} \to Mod$ encode flat higher [[connection on a bundle|connections]]: [[local system]]s.
 
-Accordingly, [[descent]] for deRham spaces -- sometimes called **deRham descent** encodes flat 1-connections. This is described at [[Grothendieck connection]], 
+Accordingly, [[descent]] for de Rham spaces -- sometimes called **de Rham descent** encodes flat 1-connections. This is described at [[Grothendieck connection]], 
 
 ### D-modules
 
-The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoherent sheaf|quasicoherent sheaves]] on the corresponding deRham space
+The category of [[D-module]]s on a [[space]] is equivalent to that of [[quasicoherent sheaf|quasicoherent sheaves]] on the corresponding de Rham space
 ([Lurie, above theorem  0.4](#LurieCrystal)).
 
 
@@ -134,9 +134,9 @@ A review of the constructions is on the first two pages of
 
 * {#LurieCrystal} [[Jacob Lurie]], _Notes on crystals and algebraic $\mathcal{D}$-modules_ (<a href="http://www.math.harvard.edu/~gaitsgde/grad_2009/SeminarNotes/Nov17-19(Crystals).pdf">pdf</a>)
 
-The deRham space construction on spaces ([[schemes]]) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
+The de Rham space construction on spaces ([[schemes]]) is described in [section 3, p. 7](http://math.berkeley.edu/~teleman/math/simpson.pdf#page=7)
 
-* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _deRham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
+* {#SimpsonTeleman} [[Carlos Simpson]], [[Constantin Teleman]], _de Rham theorem for $\infty$-stacks_ ([pdf](http://math.berkeley.edu/~teleman/math/simpson.pdf))
  
 
 which goes on to assert the existence of its [[derived functor]] on the [[homotopy category]] $Ho Sh_\infty(C)$ of [[∞-stack]]s in proposition 3.3. on the same page.
