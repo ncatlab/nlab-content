@@ -11,7 +11,7 @@ Under the canonical inclusion [[Diff]] $\hookrightarrow$ [[Top]] this is in part
 
 ## Constructions on simplicial manifolds 
 
-* The [[simplicial deRham complex]] generalizes the [[deRham complex]] from ordinary manifolds to simplicial manifolds.
+* The [[simplicial de Rham complex]] generalizes the [[de Rham complex]] from ordinary manifolds to simplicial manifolds.
 
 ## Interpretation in terms of higher category theory 
 
