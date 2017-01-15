@@ -80,6 +80,10 @@ Let $i: X\times S \to X\times X$ be the inclusion and $\pi : X\times S \to X$ th
 * [[Anne Sjerp Troelstra]] & [[Dirk van Dalen]], _Constructivism in Mathematics_ 2.
   {#TvD}
 
+Various related notions of locatedness are studied in
+
+* [[Frank Waaldijk]], *modern intuitionistic topology*, Ph.D. Thesis, [link](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)
+
 
 [[!redirects located set]]
 [[!redirects located sets]]
