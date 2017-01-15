@@ -25,11 +25,19 @@ An element $x$ of $A$ is:
 
 Note that a positive or negative element must be semidefinite, so 'positive semidefinite' and 'negative semidefinite' are redundant; in many contexts, however, this redundancy is useful, since 'positive' and 'negative' are so widely used in other contexts.  Also, since a semidefinite element is definite iff it\'s nondegenerate, 'positive definite' and 'negative definite' really mean what they say.
 
-If $#$ is the [[denial inequality]], then &#8249;indefinite&#8250; just means &#8249;neither positive nor negative&#8250;, and &#8249;semidefinite&#8250; just means &#8249;not indefinite&#8250;, so that with [[classical logic]], &#8249;semidefinite&#8250; means &#8249;positive or negative&#8250;.  Even when (as usual) $#$ is much weaker than denial, it\'s common for &#8249;semidefinite&#8250; to still mean &#8249;positive or negative&#8250;, especially with classical logic, but also often even with [[intuitionistic logic]].  It would be nice to find some simple compatibility relationship between $\leq$ and $#$ that would ensure this.
+Assuming [[classical logic]], of course &#8249;semidefinite&#8250; simply means &#8249;positive or negative&#8250;, but we need the more convoluted definition in [[constructive mathematics]].  That said, it\'s fairly common for &#8249;definite&#8250; to mean &#8249;positive-definite or negative-definite&#8250; even constructively.  (It would be nice to find some simple compatibility relationship between $\leq$ and $#$ that would ensure this.)
 
 We will also say that $A$ is __nontrivial__ if there exists a nondegenerate element, that is an $x$ such that $x # 0$.
 
-[more to come, possible corrections]
+
+## Group structure
+
+Suppose that $A$ has the structure of a [[group]], which we will write additively (but without assuming commutativity).  We will say that the group structure is _compatible_ with the partial order $\leq$ and the inequality $#$ if
+
+* $x \leq y$ iff $y - x \geq 0$, and
+* $x # y$ iff $y - x # 0$.
+
+[more to come]
 
 
 [[!redirects semidefinite]]
