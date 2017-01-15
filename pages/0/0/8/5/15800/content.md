@@ -14,7 +14,7 @@
 {:toc}
 ## Idea
 
-In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the process by which an abundance [[baryons]] is produced in the early [[observable universe]], leading to the baryonic [[matter]] seen all around. Since in the [[standard model of particle physics]] [[matter]] and [[antimatter]] are _essentially_ always produced symmetrically ("conservation of baryon number"), the topic of baryogenesis is to a large extent the study of how the matter/antimatter symmetry may be [[broken symmetry|broken]].
+In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the process by which an abundance of [[baryons]] is produced in the early [[observable universe]], leading to the baryonic [[matter]] seen all around. Since in the [[standard model of particle physics]] [[matter]] and [[antimatter]] are _essentially_ always produced symmetrically ("conservation of baryon number"), the topic of baryogenesis is to a large extent the study of how the matter/antimatter symmetry may be [[broken symmetry|broken]].
 
 ([Sakharov 67](#Sakharov67)) formulated three conditions jointly necessary for matter/antimatter asymmetry leading to baryogenesis in the early universe, now known as the _Sakharov conditions_
 
@@ -56,7 +56,7 @@ Properly interpreted (this is rarely stated in the literature...) this is the _l
 
 Notice that this would mean that baryons "are" a kind of topological twist, different from, but not entirely unlike to the old idea of _[[On Vortex Atoms]]_. See there at _[Similarlity to concepts of modern particle physics](On+Vortex+Atoms#SimilarityToParticlePhysics)_
 
-That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausibly may have occured in the very early universe -- just as it should be for realistic baryogenesis.
+That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausibly may have occurred in the very early universe -- just as it should be for realistic baryogenesis.
 
 
 ## Related concepts
