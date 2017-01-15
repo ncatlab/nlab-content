@@ -29,15 +29,18 @@ Assuming [[classical logic]], of course &#8249;semidefinite&#8250; simply means 
 
 We will also say that $A$ is __nontrivial__ if there exists a nondegenerate element, that is an $x$ such that $x # 0$.
 
-
-## Group structure
-
-Suppose that $A$ has the structure of a [[group]], which we will write additively (but without assuming commutativity).  We will say that the group structure is _compatible_ with the partial order $\leq$ and the inequality $#$ if
+Suppose that $A$ has the structure of a [[group]], which we will write additively (but without assuming commutativity).  We will say that the group structure is _right-compatible_ with the partial order $\leq$ and the inequality $#$ if
 
 * $x \leq y$ iff $y - x \geq 0$, and
 * $x # y$ iff $y - x # 0$.
 
-[more to come]
+(Thus $\leq$ and $#$ are entirely recoverable from the positive and nondegenerate elements, respectively.)
+
+We can similarly say when $A$ is _left-compatible_.  (By symmetry of $#$, this half of the compatibility condition is the same.)  Of course, if $A$ is [[abelian group|commutative]], then left- and right-compatibility are the same entirely.
+
+## Examples
+
+[to come]
 
 
 [[!redirects semidefinite]]
