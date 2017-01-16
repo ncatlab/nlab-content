@@ -324,6 +324,6 @@ This and the relation to [[shape theory]], more precisely the [[strong shape]], 
 
 See also
 
-* {#Hoyois13} [[Marc Hoyois]], _A note on &#201;tale homotopy_, 2013 ([pdf](http://math.northwestern.edu/~hoyois/papers/etalehomotopy.pdf))
+* {#Hoyois13} [[Marc Hoyois]], _Higher Galois theory_ ([pdf](http://math.mit.edu/~hoyois/papers/highergalois.pdf)).
 
 [[!redirects shape of an (∞,1)-topos]]
