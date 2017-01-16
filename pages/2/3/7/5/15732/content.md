@@ -105,6 +105,15 @@ $$
 
 > eh? Something wrong with the factors of $1/2$ here...
 
+## Applications
+
+### The solution to the strong CP problem via axions
+
+In the solution to the [[strong CP problem]] via [[axions]]
+it is analysis of the dependency of the vacuum energy of [[Yang-Mills theory]] on the [[theta-angle]] $\theta$ which is argued to show that the [[axion]] expectation value $\theta = \langle a \rangle$ vanishes ([Vafa-Witten 84](#VafaWitten84)). 
+
+See at _[axion -- As a solution to the strong CP-problem](axion#AsASolutionToTheStrongCPProblem)_.
+
 ## References
 
 For instance
@@ -118,5 +127,8 @@ Appl. 19 (1985) 31.
 
 * {#Freed87} [[Daniel Freed]], _On determinant line bundles_, Math. aspects of [[string theory]], ed. S. T. Yau, World Sci. Publ. 1987,  (revised [pdf](http://www.math.utexas.edu/~dafr/Index/determinants.pdf), [dg-ga/9505002](http://arxiv.org/abs/dg-ga/9505002))
 
-
 * {#Qiu12} Jia Qiu, section 2.8 of _Lecture notes on topological field theory_ [arXiv:1201.5550](http://arxiv.org/abs/1201.5550)
+
+The application to the [[axion]] solution to the [[strong CP problem]] is due to
+
+* {#VafaWitten84} [[Cumrun Vafa]], [[Edward Witten]], _Parity Conservation in Quantum Chromodynamics_ Phys. Rev. Lett. 53, 535 (1984) ([publisher](http://journals.aps.org/prl/abstract/10.1103/PhysRevLett.53.535))
