@@ -435,6 +435,75 @@ Therefore in this case the Green-Schwarz mechanism consists of
 
 The nature of the field configuration obtained this way -- spin connection with twist of th Kalb-Ramond field by the Pontryagin class -- may be understood conciesely as constituting a [[differential string structure|twisted differential string structure]] on $X$. See there for more details.
 
+### Axions and the strong CP problem in heterotic supergravity
+
+The Green-Schwarz anomaly cancellation mechanism naturally makes the twisted [[B-field]] in [[heterotic string theory]] behave like the [[axion]] with the correct potential to serve as the [[theta angle]] and serve as the solution to the [[strong CP problem]] ([Svrcek-Witten 06](#SvrcekWitten06)):
+
+> An obvious question about the axion hypothesis is how natural it really is. Why introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken.([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
+
+
+In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualized, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)).
+
+This works as follows: By the [[Green-Schwarz anomaly cancellation]] mechanism, then [[B-field]] in [[heterotic string theory]] is a twisted 2-form field, whose [[field strength]] $H$ locally has in addition to the exact differential $d B$ also a fundamental 3-form contribution, so that
+
+$$
+  H = d B + C
+$$
+
+(locally). Moreover, the differential $d H$ is constrained to be the Pontryagin 4-form of the gauge potential $\nabla$ (minus that of the  [[Riemann curvature]], but let's suppress this notationally for the present purpose):
+
+$$
+  d H = tr \left(F_\nabla \wedge F_\nabla\right)
+  \,.
+$$
+
+Now suppose [[KK-compactification]] to 4d has been taken care of, then this constraint may be implemented in the [[equations of motion]] by adding it to the [[action functional]], multiplied with a [[Lagrange multiplier]] :
+
+$$
+  S 
+    =  
+  \underset{
+      \text{kinetic action} \atop \text{for B-field}
+   }{
+        \underbrace{\int_X H \wedge \star H}
+   }
+    +  
+   \underset{
+      \text{Green-Schwarz constraint}
+   }{
+    \underbrace{
+      \int_X a \left( d H - tr(F_\nabla \wedge F_\nabla) \right)
+    }
+   }
+  \,.
+$$
+
+Now by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to fist vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
+
+Now since we are dealing with a twisted [[B-field]], with free 3-form component $C$, we actually vary with respect to $C$. This yields the [[Euler-Lagrange equation]] [[equation of motion|of motion]]
+
+$$
+  d a = \star H
+  \,,
+$$
+
+hence the usual relation or [[electro-magnetic duality]], expressing what used to be the [[Lagrange multiplier]] now as the magentic dual [[field (physics)|field]] to the twisted [[B-field]].
+
+Plugging this algebraic [[equation of motion]] back into the above [[action functional]] for $H$ gives
+
+$$
+  \tilde S
+    =
+  \underset{\text{kinetic action} \atop \text{for axion field}}{\underbrace{\int_X d a \wedge \star d a}}
+  + 
+  \underset{\text{axionic} \atop \text{interaction}}{\underbrace{\int_X a \, tr(F_\nabla \wedge F_\nabla)}}
+  \,.
+$$
+
+
+
+
+
 ## Related concepts
 
 * [[Freed-Witten anomaly]]
@@ -449,8 +518,6 @@ A clear and precise account of what the relevant anomalies are and what the Gree
 Review, broader context and further discussion is given in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
-
-
 
 
 
@@ -469,6 +536,13 @@ on the supersymmetrization of the Lorentz Chern-Simons form
 in $D = 10$ $N= 1$ supergravity theories_ ([[BonoraSuperGS.pdf:file]])
 
 and references given there.
+
+### In axion physics
+
+Discussion relating to [[axions]] is in
+
+* {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
+
 
 
 [[!redirects Green Schwarz mechanism]]
