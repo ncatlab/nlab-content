@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -127,7 +128,8 @@ For $X$ a [[compact topological space]] and $V \to X$
 a [[vector bundle]], then the ([[homotopy type]] of the) one-point compactification of 
 the total space $V$ is the [[Thom space]] of $V$, equivalent to $D(V)/S(V)$. 
 
-For a simple example: the real projective plane $\mathbb{RP}^2$ is the one-point compactification of the 'open' M&#246;bius strip, as line bundle over $S^1$. This is a special case of the more general observation that $\mathbb{RP}^{n+1}$ is the Thom space of the tautological line bundle over $\mathbb{RP}^n$. 
+For a simple example: the real [[projective plane]] $\mathbb{RP}^2$ is the one-point compactification of the 'open' [[Moebius strip|Möbius strip]], as line bundle over $S^1$. This is a special case of the more general observation that $\mathbb{RP}^{n+1}$ is the Thom space of the [[tautological line bundle]] over $\mathbb{RP}^n$. 
+
 
 ## Related concepts
 
