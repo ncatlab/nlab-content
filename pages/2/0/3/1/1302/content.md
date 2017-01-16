@@ -479,9 +479,19 @@ Now if $(\mathcal{X},\mathcal{O})$ is [[locally representable structured (infini
 
 
 
+### Synthetic definition using the internal language {#SyntheticDescription}
 
+Let $X$ be a [[scheme]]. Recall that the [[big Zariski topos]] of $X$ is the topos of sheaves over $Sch/X$ (or, more precisely, the affine schemes over $X$ which are locally of finite presentation). In this topos, there is a [[local ring]] $\mathbb{A}^1$, the sheaf mapping an $X$-scheme $T$ to $\mathcal{O}_T(T)$.
 
+A sheaf $N$ of modules over $\mathbb{A}^1$ is quasicoherent if and only if, from the [[internal language|internal point of view]] of the big Zariski topos, the canonical map
+$$ N \otimes_{\mathbb{A}^1} A \longrightarrow Hom(Hom_{\mathbb{A}^1-Alg}(A, \mathbb{A}^1), N) $$
+is bijective for all finitely presented $\mathbb{A}^1$-algebras $A$. The outer Hom set is the set of all maps from the set $Hom_{\mathbb{A}^1-Alg}(A, \mathbb{A}^1)$ to the (underlying set of) $N$.
 
+This characterization has a geometric interpretation. The set $Hom_{\mathbb{A}^1-Alg}(A, \mathbb{A}^1)$ deserves the name "spectrum of $A$", since it consists of what classically is known as the ($\mathbb{A}^1$-)rational points of $A$. Furthermore, if $A$ is induced from a sheaf of $\mathcal{O}_X$-modules, then the object of the Zariski topos which is described by this set-theoretical expression coincides with the [[functor of points]] of the [[relative spectrum]] of that sheaf.
+
+The set $Hom(Hom_{\mathbb{A}^1-Alg}(A, \mathbb{A}^1), N)$ is therefore the set of all $N$-valued functions on the spectrum of $A$. An element of $N \otimes_{\mathbb{A}^1} A$ gives rise to such a function: associate to a pure tensor $x \otimes f$ the function $\varphi \mapsto f(\varphi) x$.
+
+In a [[synthetic differential geometry|synthetic]]/algebraic context, there should be no more functions than those which result from this construction. This is what the characterization expresses.
 
 
 ## Properties 
