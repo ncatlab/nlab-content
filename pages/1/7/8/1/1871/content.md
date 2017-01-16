@@ -29,7 +29,7 @@ Yang--Mills theory is a [[gauge theory]] on a given 4-[[dimensional]] ([[pseudo-
 
 $$
   \nabla \mapsto
-  \frac{1}{g^2 }\int_X F_\nabla \wedge \star F_\nabla  \;+\; i \theta \int_X F_\nabla \wedge F_\nabla
+  \frac{1}{g^2 }\int_X tr(F_\nabla \wedge \star F_\nabla)  \;+\; i \theta \int_X tr(F_\nabla \wedge F_\nabla)
 $$
 
 for 
