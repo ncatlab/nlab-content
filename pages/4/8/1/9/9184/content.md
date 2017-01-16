@@ -18,21 +18,121 @@
 
 The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] related to the [[strong CP problem]].
 
-(..)
+## As a solution to the strong CP problem
+ {#AsASolutionToTheStrongCPProblem}
 
-The key point of the Peccei-Quinn axion solution to the strong CP problem
-is that the minimum of the axion potential is automatically at
-$\theta$. This follows from [Vafa-Witten 84](#VafaWitten84)
+The problem here is that the [[action functional]] for [[QCD]] ([[Yang-Mills theory]]) a priori contains an arbitrary [[theta angle]] $\theta$
 
-## In string theory
+$$
+  S
+  \;\colon\;
+  \nabla \mapsto
+  \frac{1}{g^2 }\int_X tr(F_\nabla \wedge \star F_\nabla)  \;+\; 
+  \theta \int_X tr(F_\nabla \wedge F_\nabla)
+$$
+exp
+but that -- since the term $tr(F_\nabla \wedge F_\nabla)$ causes parity violation, which is strongly bounded by [[experiment]] -- there must be some reason why $\theta$ is extremely small.
+
+The solution to this problem via axions is to assume that $\theta$ is not really a fundamental constant, but instead the [[vacuum expectation value]] of a dynamical field $a$ (the axion). The argument then is that the presence of the coupling term $\theta \int_X tr(F_\nabla \wedge F_\nabla)$ necessarily gives $a$ vanishing expectation value (that's due to [Vafa-Witten 84, around (2)](#VafaWitten84)). They argue, via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
+
+Under [[Wick rotation]]. parity-violating terms in the [[Lagrangian density]] pick up an imaginary factor $i$. Therefore the [[path integral]] expression for the Wick rotated [[vacuum energy]] is
+
+$$
+  \begin{aligned}
+    E_{vac}(a)
+    &= 
+    - log \left( \underset{\nabla,a}{\int}  \exp(- S(\nabla,a)) \, D \nabla \, D a \right)
+    \\
+    &= 
+    - log 
+      \left(
+       \underset{\nabla}{\int} \exp\left(
+        \frac{1}{g^2 }\int_X tr(F_\nabla \wedge \star F_\nabla)  
+     \right)
+      \, D \nabla
+      \;
+     \underset{a}{\int}
+     \exp\left(
+        i a \int_X tr(F_\nabla \wedge F_\nabla)
+     \right)
+     \, D a
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+Now due to the factor of $i$ in front of $\theta$ in this expression, the real part of the argument of the logarithm necessarily becomes _smaller_ with $a$. Therefore the negative logarithm becomes _larger_ with $a$. Accordingly $E_{vac}(a)$ must have a minimum at $\theta = 0$ (according to [Vafa-Witten 84, p.2](#VafaWitten84)).
+ 
+
+
+## As arising from string theory
+ {#AsArisingFromStringTheory}
 
 In [[string theory]] axion fields naturally arise in various ways [Svrcek-Witten 06](#SvrcekWitten06):
 
-> An obvious question about the axion hypothesis is how natural it really is. Why
-introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken.([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
+> An obvious question about the axion hypothesis is how natural it really is. Why introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken.([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
 
 
-In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualizes, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)), 
+In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualized, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)).
+
+This works as follows: By the [[Green-Schwarz anomaly cancellation]] mechanism, then [[B-field]] in [[heterotic string theory]] is a twisted 2-form field, whose [[field strength]] $H$ locally has in addition to the exact differential $d B$ also a fundamental 3-form contribution, so that
+
+$$
+  H = d B + C
+$$
+
+(locally). Moreover, the differential $d H$ is constrained to be the Pontryagin 4-form of the gauge potential $\nabla$ (minus that of the  [[Riemann curvature]], but let's suppress this notationally for the present purpose):
+
+$$
+  d H = tr \left(F_\nabla \wedge F_\nabla\right)
+  \,.
+$$
+
+Now suppose [[KK-compactification]] to 4d has been taken care of, then this constraint may be implemented in the [[equations of motion]] by adding it to the [[action functional]], multiplied with a [[Lagrange multiplier]] :
+
+$$
+  S 
+    =  
+  \underset{
+      \text{kinetic action} \atop \text{for B-field}
+   }{
+        \underbrace{\int_X H \wedge \star H}
+   }
+    +  
+   \underset{
+      \text{Green-Schwarz constraint}
+   }{
+    \underbrace{
+      \int_X a \left( d H - tr(F_\nabla \wedge F_\nabla) \right)
+    }
+   }
+  \,.
+$$
+
+Now by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to fist vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
+
+Now since we are dealing with a twisted [[B-field]], with free 3-form component $C$, we actually vary with respect to $C$. This yields the [[Euler-Lagrange equation]] [[equation of motion|of motion]]
+
+$$
+  d a = \star H
+  \,,
+$$
+
+hence the usual relation or [[electro-magnetic duality]], expressing what used to be the [[Lagrange multiplier]] now as the magentic dual [[field (physics)|field]] to the twisted [[B-field]].
+
+Plugging this algebraic [[equation of motion]] back into the above [[action functional]] for $H$ gives
+
+$$
+  \tilde S
+    =
+  \underset{\text{kinetic action} \atop \text{for axion field}}{\underbrace{\int_X d a \wedge \star d a}}
+  + 
+  \underset{\text{axionic} \atop \text{interaction}}{\underbrace{\int_X a \, tr(F_\nabla \wedge F_\nabla)}}
+  \,.
+$$
+
+This now is an action functional for an axion field $a$ of just the form required [above](#AsASolutionToTheStrongCPProblem) for the solution of the [[strong CP-problem]].
+
 
 
 ## Related concepts
