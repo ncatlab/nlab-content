@@ -15,6 +15,8 @@
 
 * [[theta angle]]
 
+* [[axion]]
+
 * [[baryogenesis]]
 
 ## References
@@ -36,3 +38,5 @@ Discussion specificlly in the context of [[M-theory on G2-manifolds]]/[[G2-MSSM]
 * [[Bobby Acharya]], Konstantin Bobkov, [[Piyush Kumar]], _An M Theory Solution to the Strong CP Problem and Constraints on the Axiverse_, JHEP 1011:105,2010 ([arXiv:1004.5138](http://arxiv.org/abs/1004.5138))
 
 [[!redirects strong CP problem]]
+
+[[!redirects strong CP-problem]]
