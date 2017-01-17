@@ -353,4 +353,6 @@ For more on this see at _[[division algebra and supersymmetry]]_.
 [[!redirects super Poincaré Lie algebras]]
 
 [[!redirects super Poincaré super Lie algebra]]
+[[!redirects super Poincaré super Lie algebras]]
+
 [[!redirects super-Poincaré Lie algebra]]
