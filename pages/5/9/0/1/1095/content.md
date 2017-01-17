@@ -295,7 +295,7 @@ So far this establishes that evry topological localization of $PSh(C)$ is a loca
 
 ### Over paracompact topological spaces {#OverParacompactSpaces}
 
-We discuss how $(\infty,1)$-sheaves over a [[paracompact topological space]] are equivalent to topological spaces [[overcategory|over]] $X$. This the analogue of the 1-categorical statement that [[sheaves]] on $X$ are equivalent to [[etale space]]s over $X$: an etale space over $X$ is one whose [[fiber]]s are [[discrete topological space]], hence 0-[[truncated]] spaces. Then [[n-category]] analogy has [[homotopy n-type]]s as fibers. 
+We discuss how $(\infty,1)$-sheaves over a [[paracompact topological space]] are equivalent to topological spaces [[overcategory|over]] $X$. This is the analogue of the 1-categorical statement that [[sheaves]] on $X$ are equivalent to [[etale space]]s over $X$: an etale space over $X$ is one whose [[fiber]]s are [[discrete topological space]], hence 0-[[truncated]] spaces. The [[n-category]] analogy has [[homotopy n-type]]s as fibers. 
 
 +-- {: .num_defn}
 ###### Definition
@@ -318,7 +318,7 @@ $$
   }
 $$
 
-form $U$ times the topological $k$-[[simplex]] $\Delta^k$ into $Y$, that are [[section]]s of $Y \to X$.
+from $U$ times the topological $k$-[[simplex]] $\Delta^k$ into $Y$, that are [[section]]s of $Y \to X$.
 
 =--
 
@@ -329,7 +329,7 @@ This is a relative version of the [[singular simplicial complex]] functor.
 
 Let $(X, \mathcal{B})$ be a [[topological space]] equipped with a [[base for the topology]] $\mathcal{B}$.
 
-There is a [[model category]] structure on the [[over category]] $Top/X$ with weak equivalences and fibration precisely those morphisms $Y \to Z$ over $X$ such that for each $U \in \mathcal{B}$ the induced morphism $Sing_X(Y,U) \to Sing_X(Z,U)$ is a weak equivalence or fibration, respectively, in the standar [[model structure on simplicial sets]].
+There is a [[model category]] structure on the [[over category]] $Top/X$ with weak equivalences and fibration precisely those morphisms $Y \to Z$ over $X$ such that for each $U \in \mathcal{B}$ the induced morphism $Sing_X(Y,U) \to Sing_X(Z,U)$ is a weak equivalence or fibration, respectively, in the standard [[model structure on simplicial sets]].
 
 =--
 
@@ -451,7 +451,7 @@ $$
 +-- {: .num_theorem }
 ###### Theorem
 
-If $X$ is a [[paracompact space]], then these two definitins of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
+If $X$ is a [[paracompact space]], then these two definitions of [[nonabelian cohomology]] of $X$ with [[constant ∞-stack|constant coefficients]] $A \in \infty Grpd$ agree:
 
 $$
   H(X,A) := \pi_0 \infty Grpd(Sing X,A)  \simeq Sh_{(\infty,1)}(X)(X,LConst A)
