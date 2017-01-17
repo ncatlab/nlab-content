@@ -345,18 +345,9 @@ such that
 
    $$
      \rho_{(\phi,\phi)}(\phi) = 0
-     \,.
    $$
-
-   and possibly further conditons. A sufficient condition on the pairing such that the above
-data defines a super-extension of $\mathfrak{g}$ is that all the elements in the image of the pairing act trivially on all elements, i.e.
-that
-
-$$
-  \rho_{(\phi,\psi)} = 0
-$$
-
-for all $\phi,\psi \in S$.
+   
+   for all $\phi \in S$.
 
 
 =--
@@ -431,19 +422,15 @@ of these linear maps are now just a restatement of the super-Jacobi identity in 
      \,.
    $$
 
-   Conversely, it is clear that if for all $\phi, \psi, \zeta \in S$ we have
-
-   $$
-     [(\phi,\psi), \zeta] = 0
-   $$
-
-   then the super-Jacobi identity on three odd-graded elements is implied.
-
+   Hence it only remains to show that this special case is in fact equivalent to the full odd-odd-odd super Jacobi identity. This follows by polarization: First inser $\psi = \phi_1 + \phi_2$ into the above cubic condition to obtain a quadratic condition, then polarize once more in $\phi_2$.
 
 =--
 
+
+
 +-- {: .num_example #TrivialSuperExtension}
 ###### Example
+**(trivial super extension)**
 
 Given an ordinary [[Lie algebra]] $\mathfrak{g}$, then for every choice of [[vector space]] $V$
 there is the _trivial_ super extension (def. \ref{SuperExtensions}) of $\mathfrak{g}$, with underlying
@@ -473,6 +460,7 @@ The key example of interest now is going to be this:
 
 +-- {: .num_example #SuperExtensionOfPoincare}
 ###### Example
+**(super Poincar&#233; super Lie algebra)**
 
 For $d \in \mathbb{N}$, a super extension (def. \ref{SuperExtensions}) of the [[Poincaré Lie algebra]]
 $\mathfrak{iso}(\mathbb{R}^{d-1,1})$ (recalled as def. \ref{PoincareLieAlgebra} below)
@@ -490,6 +478,41 @@ These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 
 =--
 
+But beware that there are more super-extensions of the Poincar&#233; Lie algebra:
+
++-- {: .num_example #AnExotiSuperExtensionOfThePoincareLieAlgebra}
+###### Example
+**(an exotic super-extension of the Poincar&#233; Lie algebra)
+
+Let $d \in \{3,4,6,10\}$ and let $S \in Rep_{\mathbb{R}}(Spin(d-1,1))$ be an [[irreducible representation|irreducible]]
+[[real spin representation]] in that dimension. Let $(-,-) \colon S \otimes S \to \mathbb{R}^{d-1,1}$ be the
+symmetric spinor pairing as in example \ref{SuperExtensionOfPoincare}, but let the action on $S$ via the even-odd
+super-bracket not be the Spin-action of $\mathfrak{so}$, but the [[Clifford algebra]] action 
+
+$$
+  \Gamma(-) \;\colon \; \mathbb{R}^{d-1,1} \longrightarrow End(S)
+  \,.
+$$
+
+of $\mathbb{R}^{d-1,1}$. Then the condition
+
+$$
+  \Gamma(\psi,\psi)(\psi) = 0
+$$
+
+from prop. \ref{DataInSuperExtension} does hold: this turns out to be equivalent to the 
+[[Green-Schwarz superstring]] cocycle condition in these dimensions, here in its incarnation as the "3-$\psi$ rule" of [Schray 96](#Schray96), see [Baez-Huerta 09, theorem 10](#BaezHuerta09).
+
+Now $\Gamma(-)$ thus defined is clearly not a [[Lie algebra action]] and hence fails one of the other conditions in
+prop. \ref{DataInSuperExtension}, but this is readily fixed: take $S \coloneqq S_+ \oplus S_-$ to be 
+the [[direct sum]] of two copies of the [[Majorana spinor]] representation and take  $\Gamma(-)$ to map as
+before, but from $S_+$ to $S_-$, acting as zero on $S_-$. This forces the [[commutator]] of [[endomorphisms]]
+in the image of $\Gamma$ to vanish, and hence makes $\Gamma(-)$ a [[Lie algebra action]] of the abelian Lie algebra
+$\mathbb{R}^{d-1,1}$. Hence we get an "exotic" super-extension of the [[Poincaré Lie algebra]].
+
+
+
+=--
 
 +-- {: .num_remark}
 ###### Remark
@@ -497,19 +520,21 @@ These are the standard _[[supersymmetry]] algebras_ in the physics literature.
 By prop. \ref{DataInSuperExtension} the data in example \ref{SuperExtensionOfPoincare} is sufficient for
 producing super-extensions (in the sense of def. \ref{SuperExtensions}) of [[Poincaré Lie algebras]], namely the
 [[super Poincaré Lie algebras]].
-It is more subtle to see whether this is also _necessary_, or whether there could be exotic super-extensions,
-in the sense of def. \ref{SuperExtensions},
-where the spinor bilinear pairing takes values not just in $\mathbb{R}^{d-1,1}$, but also has
-components in the summand $\mathfrak{so}(d-1,1)$.
+It is however not necessary: example \ref{AnExotiSuperExtensionOfThePoincareLieAlgebra}
+is a super-extensions in the sense of def. \ref{SuperExtensions} of the [[Poincaré Lie algebra]]
+with is not a [[super Poincaré Lie algebras]] in the standard sense of example \ref{SuperExtensionOfPoincare}.
 
-At this point the existing literature appeals to the
-_[[Haag??opusza?ski?Sohnius theorem]]_. This does rule out such exotic super-extensions, but only
-after introducing more conditions, such as the condition that $P_a P^a$ remains a [[Casimir operator]]
-after super-extension, and more. These conditions are well motivated from the expected symmetry-behaviour of
-[[S-matrices]] in [[field theory]]. But it would still be interesting to find the purely mathematical
-classification of the super-extensions.
+One may add further natural conditions on the super-extension in order to narrow in on the [[super Poincaré super Lie algebras]]:
 
-Below in _[supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_ we disucss something at least
+1. From the assumption alone that $S$ is a [[spin representation]] and using that the $Spin$-equivariant pairing has to take [[irreducible representations]] to irreducible representation, one may in some dimensions already deduce that the pairing has to land in $\mathbb{R}^{d} \hookrightarrow \mathfrak{iso}(\mathbb{R}^{d-1,1})$. For $d = 4$ and $S$ the irreducible [[Majorana representation]] this is done in [Varadarajan 04, section 3.2](#Varadarajan04).
+
+1. One may appeal to the _[[Haag??opusza?ski?Sohnius theorem]]_. This does rule out exotic super-extensions, by imposing the 
+   additional condition that $P_a P^a$ remains a [[Casimir operator]]
+   after super-extension, and more conditions. These conditions are well motivated from the expected symmetry-behaviour of
+   [[S-matrices]] in [[field theory]]. 
+
+  
+1. Below in _[supersymmetry from the superpoint](#SupersymmetryFromTheSuperpoint)_ we discuss something at least
 related. The [[super Poincaré Lie algebras]] at least in certain dimensions are singled out from a different perspective:
 they are precisely the result of iterative maximal invariant [[central extensions]] of the superpoint.
 
