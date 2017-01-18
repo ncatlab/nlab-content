@@ -130,7 +130,7 @@ In [[constructive mathematics]], the Hausdorff notion multifurcates further, due
 
 In particular, the statement "all discrete locales are Hausdorff (as locales)" is equivalent to [[excluded middle]].
 
-In terms of 'weakly closed' and 'strongly closed' subsets, as described at [[closed subset]], Definition \ref{constructive} says that $=$ is *weakly* closed in $X \times X$.  If we instead say that $=$ is *strongly* closed, then this means that there is a [[tight inequality]] $\ne$ (the [[symmetric relation|symmetrization]] of the [[exterior]] of $=$) relative to which Definition \ref{classical} holds.  (We use $\ne$ twice in that definition: in the hypothesis that $x \ne y$ and in the conclusion that $x' \ne y'$.)
+In terms of 'weakly closed' and 'strongly closed' subsets, as described at [[closed subset]], Definition \ref{constructive} says that $=$ is *weakly* closed in $X \times X$.  If we instead say that $=$ is *strongly* closed, then this means that there is a [[tight inequality]] $\ne$ (the [[symmetric relation|symmetrization]] of the [[exterior]] of $=$) relative to which Definition \ref{classical} holds.  (We use $\ne$ twice in that definition: in the hypothesis that $x \ne y$ and in the conclusion that $x' \ne y'$.)  This corresponds to (3) above for a discrete space.
 
 
 ## Related concepts
