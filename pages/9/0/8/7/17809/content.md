@@ -3892,7 +3892,7 @@ of the [[spin group]] $Spin(dim_{\mathbb{R}}(\mathbb{K})+1,1)$  on
 the real vector spaces
 
 $$
-  S_{\pm \coloneqq} \mathbb{K}^2
+  S_{\pm } \coloneqq \mathbb{K}^2
   \,.
 $$
 
