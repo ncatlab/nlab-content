@@ -70,7 +70,7 @@ See there for more details.
 +-- {: .num_prop #TotOfBoundedDegreewiseExactIsExact}
 ###### Proposition
 
-If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or coloumns then also $Tot(C)_\bullet$ is exact.
+If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or columns then also $Tot(C)_\bullet$ is exact.
 
 =--
 
