@@ -7,7 +7,7 @@
 [[!include relations - contents]]
 =--
 #### Equality and Equivalence
-+--{: .hide}
++-- {: .hide}
 [[!include equality and equivalence - contents]]
 =--
 #### Foundations
@@ -21,7 +21,7 @@ In [[constructive mathematics]], an __inequality relation__ is a [[binary relati
 
 Although this concept is nontrivial in [[classical mathematics]], one does not usually run across it there; this is because one is usually interested in _tight_ inequalities (see below), and [[excluded middle]] shows that the only tight inequality (on a given [[set]]) is the [[denial inequality]] (the [[negation]] of [[equality relation|equality]]).
 
-The term 'inequality relation' is often shortened to 'inequality', but it should not be confused with [[order]] relations (the sort typically denoted '$\le$' or a variation).
+The term 'inequality relation' is often shortened to 'inequality', but it should not be confused with [[order]] relations (the sort typically denoted '$\le$' or a variation).  Sometimes 'inequation' is used for a statement containing an inequality relation (much as 'equation' is used for a statement containing an equality relation), leaving 'inequality' to mean a statement containing an order relation).
 
 Specific types of inequality relations include:
 
@@ -35,3 +35,8 @@ Specific types of inequality relations include:
 
 [[!redirects inequality]]
 [[!redirects inequalities]]
+
+[[!redirects tight inequality]]
+[[!redirects tight inequalities]]
+[[!redirects tight inequality relation]]
+[[!redirects tight inequality relations]]
