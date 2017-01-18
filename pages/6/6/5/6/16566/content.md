@@ -58,6 +58,8 @@ Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretopos
 
 * {#Vickers16} [[Steve Vickers]], _Sketches for arithmetic universes_ , arXiv:1608.0159 (2016). ([link](http://arxiv.org/abs/1608.01559))
 
+* {#Vickers17} [[Steve Vickers]], _Arithmetic universes and classifying toposes_ , arXiv:1701.04611 (2017). ([link](https://arxiv.org/abs/1701.04611))
+
 [[!redirects arithmetic pretoposes]]
 [[!redirects list-arithmetic pretopos]]
 [[!redirects list-arithmetic pretoposes]]
