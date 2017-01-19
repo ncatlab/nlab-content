@@ -57,7 +57,7 @@ More precisely, if $G$ is a finite group, $C$ is a small cofiltered category and
 
 $$ (\lim F)/G \to \lim_{j \in F} (F(j)/G) $$
 
-is an isomorphism. This fact is mentioned by Andr&#233; Joyal in _Foncteurs analytiques et esp&#232;ces de structures_; a proof can be found [here](http://math.ubc.ca/~oantolin/notes/fingrpcomm.html).
+is an isomorphism. This fact is mentioned by Andr&#233; Joyal in _Foncteurs analytiques et esp&#232;ces de structures_; a proof can be found [here](http://www.math.ubc.ca/~oantolin/notes/fingrpcomm.html).
 
 ## Coproducts commute with connected limits
 
