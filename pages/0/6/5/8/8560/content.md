@@ -45,5 +45,9 @@ This suggests that the converse statement is true whenever $X$ is a proper hyper
 
 * [[Minhyong Kim]], _Galois Theory and Diophantine geometry, 2009 ([pdf](http://www.ucl.ac.uk/~ucahmki/cambridgews.pdf))
 
+* [[Jakob Stix]], Evidence for the section conjecture in the theory of arithmetic fundamental groups Habilitationsschrift, School of Mathematics and Computer Science at the Ruprecht-Karls-Universit&#228;t Heidelberg, January 2011, x+190 pages, to appear as 
+Rational Points and Arithmetic of Fundamental Groups, Evidence for the Section Conjecture.
+Springer Lecture Notes in Mathematics 2054, xx+pp.249, Springer, 2013.
+
 [[!redirects Grothendieck's section conjecture]]
 [[!redirects anabelian section conjecture]]
