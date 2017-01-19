@@ -78,6 +78,9 @@ More generally, in [[string theory]] a [[brane]] which wraps a completely [[spac
 
 * [[Werner Nahm]], _Self-dual monopoles and calorons_, in _Group theoretical methods in physics_ (Trieste, 1983), pages 189-200. Springer, Berlin (1984) ([journal](http://www.springerlink.com/index/y005405w74862327.pdf))
 
+* {#Tong05} [[David Tong]], _TASI Lectures on Solitons_ ([arXiv:hep-th/0509216](https://arxiv.org/abs/hep-th/0509216)), _Lecture 1: Instantons_ ([pdf](http://www.damtp.cam.ac.uk/user/tong/tasi/instanton.pdf))
+
+
 See also literature at [[Yang-Mills instanton]].
 
 Yang-Mills instantons on spaces other than just spheres are explicitly discussed in 
