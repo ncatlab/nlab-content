@@ -123,6 +123,8 @@ which are not inherent in the (braided or symmetric compact closed) monoidal str
 * [[David Yetter]], _Framed tangles and a theorem of Deligne on braided deformations of tannakian categories_ In M. Gerstenhaber and [[Jim Stasheff]] (eds.) _Deformation Theory and Quantum Groups with Applications to Mathematical Physics_, Contemporary Mathematics 134, pages 325&#8211;349. Americal Mathematical Society,
 1992.
 
+[[Günter Hotz]] introduced "planar nets" (=string diagrams) and their categories in his habilitation thesis:
+ 
 * [[Günter Hotz]], _Eine Algebraisierung des Syntheseproblems von Schaltkreisen_ (in German), EIK (Elektronische Informationsverarbeitung und Kybernetik), Band 1, Heft 3+4, 1965
 
   [Part 1](https://www.magentacloud.de/lnk/LiPMlYfh)
