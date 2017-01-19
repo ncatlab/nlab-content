@@ -44,7 +44,9 @@ The relation $x\bowtie A$ should be regarded as a "positive" way of saying that 
 
 which are precisely the axioms of a [[topology]] expressed in terms of a closure operator.  In constructive mathematics, of course, the law of contraposition does not hold.
 
-The axiom $x\bowtie \emptyset$ is almost unnecessary, since the last axiom ensures that if $x\bowtie A$ for any set $A$ then $x\bowtie\emptyset$.  In particular, this is the case if $X$ is $T_1$ (see below) and for any $x\in X$ there is a $y\in X$ with $x\neq y$.  [Bridges et al](#BSV) omit this axiom.
+The axiom $x\bowtie \emptyset$ is almost unnecessary, since the last axiom ensures that if $x\bowtie A$ for any set $A$ then $x\bowtie\emptyset$.  In particular, this is the case if $X$ is $T_1$ (see below) and for any $x\in X$ there is a $y\in X$ with $x\neq y$.
+
+The above definition is slightly modified from that of [Bridges et al](#BSV), who omit the axiom $x\bowtie \emptyset$ and also use an ambient [[apartness relation]] and require $T_1$ and comparability (see below).  An earlier, more predicative presentation of "apartness spaces" can be found in [Waaldijk](#FW96).
 
 ## Separation properties
 
@@ -86,6 +88,15 @@ However, a continuous map between apartness spaces in the above sense apparently
 Thus, the category of locally decomposable apartness spaces is equivalent to the category of locally decomposable topological spaces.
 
 ## References
+
+Notions of "apartness space" based on a presentation in terms of basic opens, somewhat akin to [[formal topology]], were developed in:
+
+* [[Frank Waaldijk]], *Modern intuitionistic topology*, Ph.D. thesis, 1996, [link](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)
+ {#FW96}
+
+* [[Frank Waaldijk]], *Natural topology*, 2011, 2012, [arxiv](https://arxiv.org/abs/1210.6288)
+
+The above definition in terms of an apartness relation between points and subsets is slightly adapted from the version given in:
 
 * [[Douglas Bridges]], Peter Schuster, and Luminita Vita, *Apartness, Topology, and Uniformity: a Constructive View*, [doi](http://dx.doi.org/10.1002/1521-3870%28200210%2948:1%2B%3C16::AID-MALQ16%3E3.0.CO;2-7)
  {#BSV}
