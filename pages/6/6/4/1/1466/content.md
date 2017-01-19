@@ -163,7 +163,7 @@ Some authors insist that a uniform space must be separated; this can be arranged
 
 This makes the discussion of completions slightly simpler.
 
-If the symmetry axiom (3) is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (There does not seem to be a way to define quasiuniform spaces in terms of (quasi)uniform covers.)
+If the symmetry axiom (3) in the entourage definition is dropped, then the result is a __quasiuniform space__.  Quasiuniform spaces are related to quasi(pseudo)metrics in the same way as uniform spaces are related to (psuedo)metrics.  Perhaps surprisingly, *every* topological space is quasiuniformisable.  (It is rather triciker to define quasiuniform spaces in terms of covers, but technically possible using covers by pairs of sets; see [Gantner and Steinlage](#GS72).)
 
 A __[[gauge space]]__ consists of a set $X$ and a collection $\mathcal{D}$ of pseudometrics on $X$; one usually requires $\mathcal{D}$ to be a [[filter]].  A gauge space defines a uniform space (necessarily uniformly regular) by taking one basic entourage for each pseudometric in $\mathcal{D}$ and each positive number $\epsilon$; conversely, every uniform space arises in this way, with the pseudometrics in the gauge being those that are uniformly continuous as maps on the product space.  However, gauge spaces form a category with a stricter notion of morphism, in which the categories $Met$ (of [[metric spaces]] and short maps) and $Unif$ (of uniform spaces and uniformly continuous maps) are both [[full subcategories]].  A __quasigauge space__ consists of a set and a collection of quasipseudometrics; every quasiuniform space arises from a quasigauge space.
 
@@ -226,6 +226,8 @@ In all these cases, in order to recover the correct notion of morphism abstractl
 
 * J. R. Isbell, _Uniform spaces_, Math. Surveys __12__, Amer. Math. Soc. 1964
 
+* T. E. Gantner and R. C. Steinlage, _Characterizations of quasi-uniformities_, J. London Math Soc (2) 5 (1972) (defines quasi-uniformities using covers)
+ {#GS72}
 
 category: topology
 
