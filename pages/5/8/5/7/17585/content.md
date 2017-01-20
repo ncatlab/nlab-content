@@ -262,7 +262,7 @@ with $e$ being the central generator in $CE(\hat \mathfrak{g})$ from above, and 
 
 =--
 
-This is observed in ([Fiorenza-Sati-Schreiber 16](#FiorenzaSatiSchreiber16)), where it serves to formalize, on the level of [[rational homotopy theory]], the [[double dimensional reduction]] of [[M-branes]] in [[M-theory]] to [[D-branes]] in [[type IIA string theory]] (for the case that $\mathfrak{g}$ is type IIA [[super Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$ and $\hat \mathfrak{g}$ is 11d [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$, and the cocycles are those of [[schreiber:The brane bouquet]]).
+This is observed in ([Fiorenza-Sati-Schreiber 16](#FiorenzaSatiSchreiber16), [FSS 16b](#FSS16b)), where it serves to formalize, on the level of [[rational homotopy theory]], the [[double dimensional reduction]] of [[M-branes]] in [[M-theory]] to [[D-branes]] in [[type IIA string theory]] (for the case that $\mathfrak{g}$ is type IIA [[super Minkowski spacetime]] $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}}$ and $\hat \mathfrak{g}$ is 11d [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathbf{32}}$, and the cocycles are those of [[schreiber:The brane bouquet]]).
 
 +-- {: .proof}
 ###### Proof
@@ -408,6 +408,8 @@ $$
 * [[Luc Menichi]], _Sullivan models and free loop space_, A short introduction to Sullivan models, with the Sullivan model of a free loop space and the detailed proof of Vigu&#233;-Sullivan theorem on the Betti numbers of free loop space. Workshop on free loop space &#224; Strasbourg, November 2008 (scanned notes [pdf](http://math.univ-angers.fr/perso/lmenichi/Sullivan_models_free_loop_space.pdf))
 
 * {#FiorenzaSatiSchreiber16} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Rational sphere valued supercocycles in M-theory]]_, ([arXiv:1606.03206](https://arxiv.org/abs/1606.03206)) 
+
+* {#FSS16b} [[nLab:Domenico Fiorenza]], [[nLab:Hisham Sati]], [[nLab:Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
 [[!redirects Sullivan models of free loop space]]
 
