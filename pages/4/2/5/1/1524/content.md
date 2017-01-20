@@ -1,3 +1,4 @@
+
 # Markov\'s Principle
 * table of contents
 {: toc}
@@ -10,6 +11,7 @@ Compare this to
 $$ \neg(\exists n, P(n)) \Rightarrow \forall n, \neg{P(n)} ,$$
 which is a theorem of [[intuitionistic logic]].
 More generally, a [[set]] $S$ may be called _Markovian_ if this principle holds for all predicates on $S$.
+
 
 ## Discussion
 
@@ -28,6 +30,7 @@ Note that the contrapositives of these are all valid regardless of Markov\'s pri
 The other major school of constructivism, Brouwer\'s intuitionism, rejects Markov\'s principle. Brouwer\'s viewpoint has since his time been formalized, and via this formalization Markov\'s principle can be proved false. Namely, Kripke\'s schema with MP proves Excluded Middle, and Excluded Middle is incompatible with continuity. Several models have been built satisfying Kripke\'s schema and continuity, thereby falsifying MP. These include topological models (e.g. M. Krol, ``A Topological model for intuitionistic analysis with Kripke's
 Scheme," Zeitschr. f. math. Logic und Grundlagen d. Math. 24, p. 427-436, 1978), Beth models (e.g. D. van Dalen, ``An interpretation of intuitionistic analysis," Annals of Mathematical Logic 13(1), p. 1-43), realizability models (e.g. J. van Oosten, Realizability, Elsevier, 2008), and a [[Kripke model]] [BridgesRichman, p138](#BridgesRichman)
 
+
 ## Weak Markov\'s Principle
 
 More recently, a weakened form of Markov\'s principle has been identified (first in M. Mandelkern, "Constructively complete finite sets," Zeitschr. f. math. Logic und Grundlagen d. Math. 34, p. 97-103, 1988) and seen to be of interest, aptly named Weak Markov\'s Principle. It states that if a binary sequence is pseudo-positive then it is positive:
@@ -36,17 +39,24 @@ $
 \forall \alpha \; [\forall \beta \; (\neg\neg\exists n \; (\beta(n)=1)\vee \neg\neg\exists n \; (\alpha(n)=1\wedge\beta(n)=0))\rightarrow\exists n \; \alpha(n)=1].
 $
 
+
 ## Analytic Markov\'s Principle
 
 Markov\'s principle is equivalent to the assertion that if a [[Cauchy real number]] is $\ge 0$ and $\neq 0$, then it is $\gt 0$.  Another way to say this is that the standard [[apartness]] relation on Cauchy reals coincides with [[inequality]].
 
-The analogous statement for [[Dedekind real numbers]] might be called the **analytic Markov\'s principle**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).
+The analogous statement for [[Dedekind real numbers]] might be called the **analytic Markov\'s principle**, by analogy with the [analytic LPO](principle+of+omniscience#analytic).  (The [[Russian constructivism|Russian constructivists]], who used Markov\'s principle most, accepted [[countable choice]], or at least $AC_{0,0}$, which implies that these two principles are equivalent.)
+
 
 ## References
+
 For a recent comparison see:
 
 * Matt Hendtlass and Robert Lubarsky, _Separating fragments of WLEM, LPO, and MP_, [PDF](http://math.fau.edu/lubarsky/Separating%20LLPO.pdf).
-* Douglas Bridges and Fred Richman, _Varieties of Constructive Mathematics_.{#BridgesRichman}
+  {#HendtlassLubarsky}
+
+* Douglas Bridges and Fred Richman, _Varieties of Constructive Mathematics_.
+  {#BridgesRichman}
+
 
 category: foundational axiom
 
@@ -54,25 +64,61 @@ category: foundational axiom
 [[!redirects Markov's principle]]
 [[!redirects Markov's principle]]
 [[!redirects Markov\'s principle]]
+[[!redirects Markov/'s principle]]
 [[!redirects Марков principle]]
 [[!redirects Марков's principle]]
 [[!redirects Марков's principle]]
 [[!redirects Марков\'s principle]]
+[[!redirects Марков/'s principle]]
+[[!redirects Markov Principle]]
+[[!redirects Markov's Principle]]
+[[!redirects Markov's Principle]]
+[[!redirects Markov\'s Principle]]
+[[!redirects Markov/'s Principle]]
+[[!redirects Марков Principle]]
+[[!redirects Марков's Principle]]
+[[!redirects Марков's Principle]]
+[[!redirects Марков\'s Principle]]
+[[!redirects Марков/'s Principle]]
 
 [[!redirects Markov axiom]]
 [[!redirects Markov's axiom]]
 [[!redirects Markov's axiom]]
 [[!redirects Markov\'s axiom]]
+[[!redirects Markov/'s axiom]]
 [[!redirects Марков axiom]]
 [[!redirects Марков's axiom]]
 [[!redirects Марков's axiom]]
 [[!redirects Марков\'s axiom]]
+[[!redirects Марков/'s axiom]]
+[[!redirects Markov Axiom]]
+[[!redirects Markov's Axiom]]
+[[!redirects Markov's Axiom]]
+[[!redirects Markov\'s Axiom]]
+[[!redirects Markov/'s Axiom]]
+[[!redirects Марков Axiom]]
+[[!redirects Марков's Axiom]]
+[[!redirects Марков's Axiom]]
+[[!redirects Марков\'s Axiom]]
+[[!redirects Марков/'s Axiom]]
 
 [[!redirects Markov rule]]
 [[!redirects Markov's rule]]
 [[!redirects Markov's rule]]
 [[!redirects Markov\'s rule]]
+[[!redirects Markov/'s rule]]
 [[!redirects Марков rule]]
 [[!redirects Марков's rule]]
 [[!redirects Марков's rule]]
 [[!redirects Марков\'s rule]]
+[[!redirects Марков/'s rule]]
+[[!redirects Markov Rule]]
+[[!redirects Markov's Rule]]
+[[!redirects Markov's Rule]]
+[[!redirects Markov\'s Rule]]
+[[!redirects Markov/'s Rule]]
+[[!redirects Марков Rule]]
+[[!redirects Марков's Rule]]
+[[!redirects Марков's Rule]]
+[[!redirects Марков\'s Rule]]
+[[!redirects Марков/'s Rule]]
