@@ -265,7 +265,7 @@ $$
 \\
 \downarrow & &\downarrow_{\langle\mathsf{true},\mathsf{true}\rangle}& &\downarrow _\mathsf{true}
 \\
-\Omega &\xrightarrow{\langle id,\mathsf{false}\circ !\rangle }&\Omega\times\Omega&\xrightarrow{\wedge}&\Omega
+\Omega &\xrightarrow{\langle id_\Omega,\mathsf{false}\circ !_\Omega\rangle }&\Omega\times\Omega&\xrightarrow{\wedge}&\Omega
 }
 $$
 
