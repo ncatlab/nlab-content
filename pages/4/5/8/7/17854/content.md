@@ -14,16 +14,16 @@ There are actually several different notions of "apartness space" depending on w
 
 * A _point--point apartness space_ is a set $X$ equipped with an _[[apartness relation]]_, usually written $x # y$ on elements $x,y\in X$.  Sometimes it is required to be [[tight relation|tight]], or to be only an [[inequality relation]].
 
-* A _set--set apartness space_ is a set $X$ equipped with a relation $A\bowtie B$ between [[subsets]] $A,B\subseteq X$, satisfying appropriate axioms.  A set--set apartness space is one of the ways to describe the [[classical mathematics|classical]] notion of a _[[proximity space]]_.  In [[constructive mathematics]], the definition of a proximity space in terms of $\bowtie$ can be taken as a definition of a set--set apartness space.
-
 * A __point--set apartness space__ is a set $X$ equipped with a relation $x \bowtie A$ between points $x\in X$ and subsets $A\subseteq X$, satisfying appropriate axioms.  In [[classical mathematics]], these axioms are obtained by [[contrapositive|contraposition]] from the definition of a [[topological space]] in terms of a [[exact functor|right exact]] [[Moore closure]] operator, so that point--set apartness spaces are equivalent to topological spaces.  In [[constructive mathematics]] ... well, keep reading.
 
-* A __uniform apartness space__ is a set $X$ equipped with a collection of "co-[[entourages]]", each giving a different notion of when two points are apart, satisfying appropriate axioms.  In [[classical mathematics]], the co-entourages are exactly the [[complements]] of the entourages of a [[uniform space]], and the same is true constructively if the space is [[uniformly regular]].
+* A _set--set apartness space_ is a set $X$ equipped with a relation $A\bowtie B$ between [[subsets]] $A,B\subseteq X$, satisfying appropriate axioms.  A set--set apartness space is one of the ways to describe the [[classical mathematics|classical]] notion of a _[[proximity space]]_.  In [[constructive mathematics]], the definition of a proximity space in terms of $\bowtie$ can be taken as a definition of a set--set apartness space.
 
-Since point--point apartness spaces are described at [[apartness relation]], and set--set apartness spaces at [[proximity space]], and uniform apartness spaces at [[uniformly regular space]], the rest of this page will be about point--set apartness spaces.
+* A _uniform apartness space_ is a set $X$ equipped with a collection of "co-[[entourages]]", each giving a different notion of when two points are apart, satisfying appropriate axioms.  In [[classical mathematics]], the co-entourages are exactly the [[complements]] of the entourages of a [[uniform space]], and the same is true constructively if the space is [[uniformly regular]].
+
+Since point--point apartness spaces are described at [[apartness relation]], set--set apartness spaces at [[proximity space]], and uniform apartness spaces at [[uniformly regular space]], the rest of this page will be about point--set apartness spaces.
 
 
-### Point--set apartness spaces
+## Point--set apartness spaces
 
 +-- {: .un_defn}
 ###### Definition
@@ -52,9 +52,10 @@ Axiom 4 is phrased in [BV11](#BV11) as "if $\forall x, (x\bowtie A \Rightarrow (
 
 The earlier paper [BSV02](#BSV02) omits the axiom $x\bowtie \emptyset$, and phrases axiom 2 with the denial inequality but axiom 4 with an ambient inequality --- although these are probably oversights --- and requires $T_1$ as part of the definition too (see below).  An earlier, more predicative presentation of "apartness spaces" can be found in [Waaldijk](#FW96).
 
+
 ## Separation properties
 
-Any apartness space comes with an [[irreflexive relation]] $\nle$ defined by $x \nle y$ iff $i\bowtie \{y\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, an apartness space is called **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.
+Any apartness space comes with an [[irreflexive relation]] $\nleq$ defined by $x \nleq y$ iff $x \bowtie \{y\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, an apartness space is called **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.
 
 If $X$ is given with a [[apartness relation]] or [[inequality relation]] other than the [[denial inequality]], then we can use it here as well as in axioms 2 and 4 of an apartness space.  Note that axiom 2 implies the converse $(x\bowtie \{y\}) \to (x\neq y)$, so that in a $T_1$ apartness space the ambient inequality can be defined in terms of $\bowtie$.  In this case, axiom 2 should be stated in terms of the denial inequality (thereby asserting that the relation $x\bowtie \{y\}$ is [[irreflexive]]).
 
@@ -62,9 +63,10 @@ If one wants the relation $x\bowtie \{y\}$ to be [[symmetric relation|symmetric]
 
 However, stating axiom 4 in terms of the denial inequality appears to be stronger, even in [[classical mathematics]], than stating it in terms of $x\bowtie \{y\}$.  Written in terms of a closure operator, axiom 4 written with $x \bowtie \{y\}$ says that the closure $\overline{A}$ of a set $A$ is equal to the closure of $\{ x \mid \overline{\{x\}} \subseteq \overline{A} \}$, which for a general closure operator could be smaller than $\overline{A}$.  (It would be nice to have a specific example here.)
 
-An apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point--point [[apartness relation]].  In particular, if $\neq$ denotes the relation $\nle$ defined above, then this property implies that $\nle$ is a [[comparison]], and hence (if the space is also $R_0$, so it is symmetric) an [[apartness relation]].  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]] and to the natural topology on a [[point-point apartness space]], and can be viewed as a very weak version of [[regular space|regularity]].
+An apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point--point [[apartness relation]].  In particular, if $\neq$ denotes the relation $\nleq$ defined above, then this property implies that $\nleq$ is a [[comparison]], and hence (if the space is also $R_0$, so it is symmetric) an [[apartness relation]].  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]] and to the natural topology on a [[point-point apartness space]], and can be viewed as a very weak version of [[regular space|regularity]].
 
 An apartness space is **[[locally decomposable space|locally decomposable]]** if whenever $x\bowtie A$, there exists a set $B$ such that $x\bowtie B$ and every $y$ satisfies either $y\bowtie A$ or $y\in B$.  This condition is also classically trivial: take $B = \{ y \mid \neg(y\bowtie A) \}$.  It implies comparability (for $\neq$ the [[denial inequality]]).
+
 
 ## Relation to topological spaces
 
@@ -94,6 +96,7 @@ In contrast to the above theorem, it is not quite justified to say that the *cat
 However, a continuous map between apartness spaces in the above sense apparently need not be continuous for the induced topologies; but this is true if $Y$ is locally decomposable.  For if $U\subseteq Y$ is open and $x\in f^{-1}(U)$, we have a set $A\subseteq Y$ such that $f(x)\bowtie A$ and $y\bowtie A$ implies $y\in U$, and by local decomposability gives a $B\subseteq Y$ such that $f(x)\bowtie B$ and every $y$ satisfies either $y\bowtie A$ or $y\in B$.  Let $C = f^{-1}(B)$; if $x'\bowtie C$, we have $x'\notin C$ and hence $f(x')\notin B$, so $f(x')\bowtie A$ and thus $f(x')\in U$ and $x'\in f^{-1}(U)$.  Moreover, since $f(x)\bowtie B$ we have $x\bowtie C$ by apartness-continuity.  Thus, $f^{-1}(U)$ is open.
 
 Thus, the category of locally decomposable apartness spaces is equivalent to the category of locally decomposable topological spaces.
+
 
 ## References
 
