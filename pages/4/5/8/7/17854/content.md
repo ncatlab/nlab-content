@@ -29,40 +29,48 @@ Since point--point apartness spaces are described at [[apartness relation]], and
 ###### Definition
 An __apartness space__ is a set $X$ equipped with a relation $\bowtie$ between points $x\in X$ and subsets $A\subseteq X$ such that
 
-1. if $x\bowtie A$, then $x\notin A$.
-2. $x\bowtie (A\cup B)$ iff $x\bowtie A$ and $x\bowtie B$.
-3. $x\bowtie \emptyset$ for any $x$.
-4. If $x \bowtie A$, and $\forall y, (y\bowtie A \to y\notin B)$, then $x\bowtie B$.  Equivalently, if $x\bowtie A$, then $x \bowtie \{ y \mid \neg (y\bowtie A) \}$.
+1. $x\bowtie \emptyset$ for any $x$.
+2. if $x\bowtie A$, then $x\neq y$ for all $y\in A$.
+3. $x\bowtie (A\cup B)$ iff $x\bowtie A$ and $x\bowtie B$.
+4. If $x\bowtie A$, then $x \bowtie \{ y \mid \forall z, (z\bowtie A \to z\neq y) \}$.
 =--
 
 The relation $x\bowtie A$ should be regarded as a "positive" way of saying that $x$ does not belong to the [[closure]] of $A$, i.e. $x\notin \overline{A}$.  Under this interpretation, the above axioms contrapose to become
 
-1. If $x\in A$, then $x\in \overline{A}$, i.e. $A\subseteq \overline{A}$.
-2. $\overline{A} \cup \overline{B} = \overline{A\cup B}$ (and in particular $(A\subseteq B) \to (\overline{A}\subseteq \overline{B})$).
-3. $\overline{\emptyset} = \emptyset$.
+1. $\overline{\emptyset} = \emptyset$.
+2. If $x\in A$, then $x\in \overline{A}$, i.e. $A\subseteq \overline{A}$.
+3. $\overline{A} \cup \overline{B} = \overline{A\cup B}$ (and in particular $(A\subseteq B) \to (\overline{A}\subseteq \overline{B})$).
 4. If $B\subseteq \overline{A}$ and $x\in \overline{B}$, then $x\in\overline{A}$, i.e. $\overline{\overline{A}} = \overline{A}$.
 
 which are precisely the axioms of a [[topology]] expressed in terms of a closure operator.  In constructive mathematics, of course, the law of contraposition does not hold.
 
 The axiom $x\bowtie \emptyset$ is almost unnecessary, since the last axiom ensures that if $x\bowtie A$ for any set $A$ then $x\bowtie\emptyset$.  In particular, this is the case if $X$ is $T_1$ (see below) and for any $x\in X$ there is a $y\in X$ with $x\neq y$.
 
-The above definition is slightly modified from that of [Bridges et al](#BSV), who omit the axiom $x\bowtie \emptyset$ and also use an ambient [[apartness relation]] and require $T_1$ and comparability (see below).  An earlier, more predicative presentation of "apartness spaces" can be found in [Waaldijk](#FW96).
+The above definition is almost exactly that of a "pre-apartness" from [BV11](#BV11).  The differences are (1) they require $X$ to be [[inhabited set|inhabited]] (which category-theoretically is wrong-headed, since it excludes the [[initial object]]), and (2) they assume that $X$ is given with an ambient [[inequality relation]] that is referred to by the symbol $\neq$ in axioms 2 and 4.  (If $\neq$ is the [[denial inequality]], then these axioms can be written more simply as "if $x\bowtie A$ then $x\notin A$" and "if $x\bowtie A$ then $x\bowtie \{ y \mid \neg(y\bowtie A) \}$".)  Note that if the space is $T_1$ (see below) then this ambient inequality is definable in terms of $\bowtie$ as $x\bowtie \{y\}$.  For an "apartness", [BV11](#BV11) also require comparability (see below).
+
+Axiom 4 is phrased in [BV11](#BV11) as "if $\forall x, (x\bowtie A \Rightarrow (\forall y\in B, x\neq y))$, then $\forall x, (x\bowtie A \Rightarrow x\bowtie B)$.  This is equivalent to our version, since $B = \{ y \mid \forall z, (z\bowtie A \to z\neq y) \}$ is the largest set $B$ satisfying $\forall x, (x\bowtie A \Rightarrow (\forall y\in B, x\neq y))$.
+
+The earlier paper [BSV02](#BSV02) omits the axiom $x\bowtie \emptyset$, and phrases axiom 2 with the denial inequality but axiom 4 with an ambient inequality --- although these are probably oversights --- and requires $T_1$ as part of the definition too (see below).  An earlier, more predicative presentation of "apartness spaces" can be found in [Waaldijk](#FW96).
 
 ## Separation properties
 
-Any apartness space comes with an [[irreflexive relation]] $\lt$ defined by $x \lt y$ iff $y\bowtie \{x\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, we may call an apartness space **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.  In fact it is often more useful to replace $\neq$ here by a given [[apartness relation]] or [[inequality relation]] $#$ on $X$, and in this context we can also replace $y\notin B$ in the third axiom with $\forall z\in B, (y # z)$.
+Any apartness space comes with an [[irreflexive relation]] $\nle$ defined by $x \nle y$ iff $i\bowtie \{y\}$.  This is a positive version of the negation of the [[specialization order]].  Just as a topological space is called $T_1$ (see [[separation axioms]]) if its specialization order is discrete, i.e. $(x\le y) \to (x=y)$, an apartness space is called **$T_1$** if the contrapositive of this holds, i.e. $(x\neq y) \to (x \bowtie \{y\})$.
 
-An apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point--point [[apartness relation]].  (In particular, if we take $\neq$ to be the relation $\lt$ defined above, then this property implies that $\lt$ is a [[comparison]] --- though in general it need not be symmetric, hence not an [[apartness relation]].)  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]], and can also be viewed as a very weak version of [[regular space|regularity]].
+If $X$ is given with a [[apartness relation]] or [[inequality relation]] other than the [[denial inequality]], then we can use it here as well as in axioms 2 and 4 of an apartness space.  Note that axiom 2 implies the converse $(x\bowtie \{y\}) \to (x\neq y)$, so that in a $T_1$ apartness space the ambient inequality can be defined in terms of $\bowtie$.  In this case, axiom 2 should be stated in terms of the denial inequality (thereby asserting that the relation $x\bowtie \{y\}$ is [[irreflexive]]).
 
-[Bridges et al](#BSV) define apartness spaces to always be both $T_1$ and comparable, with respect to a given inequality on $X$.
+If one wants the relation $x\bowtie \{y\}$ to be [[symmetric relation|symmetric]] and thus an "[[inequality relation]]" one needs to assert this separately.  An apartness space with this property is naturally called **$R_0$**, just as a topological space is called $R_0$ if its specialization order is symmetric (see [[separation axioms]]).
+
+However, stating axiom 4 in terms of the denial inequality appears to be stronger, even in [[classical mathematics]], than stating it in terms of $x\bowtie \{y\}$.  Written in terms of a closure operator, axiom 4 written with $x \bowtie \{y\}$ says that the closure $\overline{A}$ of a set $A$ is equal to the closure of $\{ x \mid \overline{\{x\}} \subseteq \overline{A} \}$, which for a general closure operator could be smaller than $\overline{A}$.  (It would be nice to have a specific example here.)
+
+An apartness space may be called **comparable** (nonce definition on this page) if $x\bowtie A$ implies $(x\neq y) \vee (y\bowtie A)$ for any $y$, where $\neq$ might also be a given apartness on $X$.  This condition is classically trivial, and generalizes the [[comparison]] axiom on a point--point [[apartness relation]].  In particular, if $\neq$ denotes the relation $\nle$ defined above, then this property implies that $\nle$ is a [[comparison]], and hence (if the space is also $R_0$, so it is symmetric) an [[apartness relation]].  It is also related topologically to Penon's definition of intrinsic [[open subset]] in [[synthetic topology]] and to the natural topology on a [[point-point apartness space]], and can be viewed as a very weak version of [[regular space|regularity]].
 
 An apartness space is **[[locally decomposable space|locally decomposable]]** if whenever $x\bowtie A$, there exists a set $B$ such that $x\bowtie B$ and every $y$ satisfies either $y\bowtie A$ or $y\in B$.  This condition is also classically trivial: take $B = \{ y \mid \neg(y\bowtie A) \}$.  It implies comparability (for $\neq$ the [[denial inequality]]).
 
 ## Relation to topological spaces
 
-If $X$ is a topological space, we define $x\bowtie A$ if there is a neighborhood of $x$ disjoint from $A$.  This makes $X$ an apartness space.  Only the last axiom is somewhat nontrivial: if $x\in U$ with $U$ open and $U\cap A = \emptyset$, and $\forall y, (y\bowtie A \to y\notin B)$, then since $(y\in U) \Rightarrow (y\bowtie A)$ we have $U\cap B = \emptyset$ too, so $x\bowtie B$.
+If $X$ is a topological space, we define $x\bowtie A$ if there is a neighborhood of $x$ disjoint from $A$, or equivalently if the complement of $A$ is a neighborhood of $x$.  This makes $X$ an apartness space.  Only the last axiom is somewhat nontrivial: if $x\in U$ with $U$ open and $U\cap A = \emptyset$, and $\forall y, (y\bowtie A \to y\notin B)$, then since $(y\in U) \Rightarrow (y\bowtie A)$ we have $U\cap B = \emptyset$ too, so $x\bowtie B$.
 
-Conversely, if $X$ is an apartness space, define $U\subseteq X$ to be open if for all $x\in U$ there is a set $A$ such that $x\bowtie A$ and $\forall y, (y\bowtie A \Rightarrow y\in U)$.  This makes $X$ a topological space; the last axiom is not even needed.
+Conversely, if $X$ is an apartness space, define $U\subseteq X$ to be a neighborhood of $x\in U$ if there is a set $A$ such that $x\bowtie A$ and $\forall y, (y\bowtie A \Rightarrow y\in U)$.  This makes $X$ a topological space.  Again the nontrivial part is the "transitivity" of neighborhoods, i.e. that if $U$ is a neighborhood of $x$ then so is $\{ y \mid U$ is a neighborhood of $y \}$.  To see this, if $x\bowtie A$ and $\forall y, (y\bowtie A \Rightarrow y\in U)$, then $U$ is a neighborhood of any point $y$ with $y\bowtie A$, so it suffices to show that $\{ y \mid y\bowtie A\}$ is a neighborhood of $x$; but this is obvious.
 
 If we order the topologies on $X$ by $\tau_1 \le \tau_2$ if $\tau_2 \subseteq \tau_1$ (i.e. $\tau_1$ is finer than $\tau_2$), and the apartnesses by $\bowtie_1 \le \bowtie_2$ if $(x\bowtie_2 A) \Rightarrow (x\bowtie_1 A)$, then these constructions define [[monotone functions]] $\tau \mapsto \bowtie_\tau$ and $\bowtie \mapsto \tau_\bowtie$ respectively.  Moreover, we have:
 
@@ -98,10 +106,11 @@ Notions of "apartness space" based on a presentation in terms of basic opens, so
 
 The above definition in terms of an apartness relation between points and subsets is slightly adapted from the version given in:
 
-* [[Douglas Bridges]], Peter Schuster, and Luminita Vita, *Apartness, Topology, and Uniformity: a Constructive View*, [doi](http://dx.doi.org/10.1002/1521-3870%28200210%2948:1%2B%3C16::AID-MALQ16%3E3.0.CO;2-7)
- {#BSV}
+* [[Douglas Bridges]], Peter Schuster, and Luminita Vita, *Apartness, Topology, and Uniformity: a Constructive View*, 2002,  [doi](http://dx.doi.org/10.1002/1521-3870%28200210%2948:1%2B%3C16::AID-MALQ16%3E3.0.CO;2-7)
+ {#BSV02}
 
-* [[Douglas Bridges]] and Luminita Vita, *Apartness and Uniformity: A Constructive Development*. [link](http://link.springer.com/book/10.1007%2F978-3-642-22415-7)
+* [[Douglas Bridges]] and Luminita Vita, *Apartness and Uniformity: A Constructive Development*. 2011, [link](http://link.springer.com/book/10.1007%2F978-3-642-22415-7)
+ {#BV11}
 
 
 [[!redirects apartness space]]
