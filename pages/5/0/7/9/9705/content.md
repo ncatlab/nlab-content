@@ -15,7 +15,11 @@ For example, in the case of holomorphic fiber bundles $R$ may be the Cauchy-Riem
 
 ##  General methods
 
-Gromov introduced many techniques of proving the h-principle including the method of microflexible/continuous sheaves, the methods of convex integration and the removal of singularities.    
+Gromov introduced many techniques of proving the h-principle including the method of microflexible/continuous sheaves, the methods of convex integration and the removal of singularities.  
+
+## Related concepts
+
+* [[Oka principle]]  
 
 ## References
 
