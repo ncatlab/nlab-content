@@ -206,3 +206,5 @@ For more see the references at _[[analysis]]_.
 
 [[!redirects located real number]]
 [[!redirects located real numbers]]
+[[!redirects located Dedekind real number]]
+[[!redirects located Dedekind real numbers]]
