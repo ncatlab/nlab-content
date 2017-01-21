@@ -13,7 +13,7 @@
 {:toc}
 
 ## Idea
-The &#321;o&#347; [[ultraproduct]] theorem characterizes the [[first-order theory]] of an ultraproduct of $\mathcal{L}$-structures (for $\mathcal{L}$ some [[signature (in logic)|signature]]). 
+The &#321;o&#347; [[ultraproduct]] theorem characterizes the [[first-order theory]] of an ultraproduct of $\mathcal{L}$-structures (for $\mathcal{L}$ some [[signature (in logic)|signature]]). It generalizes the _transfer principle_ from [[nonstandard analysis]], by replacing the hyperreals $^*\mathbb{R}$ with an ultraproduct and formulas from the standard reals $\mathbb{R}$ with formulas which are true on an "ultrafilter-large" subset of factors of the ultraproduct. 
 
 ## Definition
 The theorem is usually given in this form:
@@ -87,3 +87,4 @@ There is an analogous statement for ultraproducts of structures in [[continuous 
 [[Michael Makkai]]. Stone duality for first order logic. Advances in Mathematics, 65(2):97&#8211;170, 1987.
 
 [[!redirects Los theorem]]
+[[!redirects transfer principle]]
