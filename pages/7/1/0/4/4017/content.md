@@ -1,5 +1,5 @@
 
-* [website](http://www.math.upenn.edu/FacData.html)
+* [website](https://www.math.upenn.edu/people/peter-j-freyd)
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Peter_J._Freyd)
 
