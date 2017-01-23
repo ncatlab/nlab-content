@@ -45,11 +45,15 @@ In each case, half of the definition is that $X$ is $T_0$, the other half states
 * A topological space has enough points if and only if its $T_0$ quotient is sober.  Spaces with enough points are also reflective, and a topological space is $T_0$ iff this reflection is sober.
 
 
-## Examples (and non-examples)
+## Examples 
+
+* With [[classical logic]], every [[Hausdorff space]] is sober, but this can fail [[constructive mathematics|constructively]].
+
+## Non-examples
 
 * Any nontrivial [[indiscrete space]] is not sober, since it is not $T_0$. More interestingly, the space $R^2$ with the [[Zariski topology]] is $T_1$ but not sober, since every subvariety is an irreducible closed set which is not the closure of a point.  Its _soberification_ is, unsurprisingly, the [[scheme]] $Spec(R[x,y])$, which contains "generic points" whose closures are the subvarieties. 
 
-The last (non-)example shows that sobriety is not a hereditary separation property, i.e., subspaces of sober spaces need not be sober. 
+The following non-example shows that sobriety is not a hereditary separation property, i.e., subspaces of sober spaces need not be sober:
 
 * The [[Alexandroff topology]] on a [[poset]] is also not, in general, sober.  For instance, if $P$ is the infinite binary tree (the set of finite $\{0,1\}$-words ([[lists]]) with the "extends" preorder), then the soberification of its Alexandroff topology is [[Wilson space]], the space of finite or infinite $\{0,1\}$-words ([[streams]]).
 
