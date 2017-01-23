@@ -166,10 +166,16 @@ $$
   )
   \colon
   Top
-    \stackrel{\overset{(-)_L}{\longrightarrow}}{\underset{(-)_P}{\longleftarrow}}
+  \;
+    \underoverset
+      {\underset{(-)_P}{\longleftarrow}}
+      {\overset{(-)_L}{\longrightarrow}}
+      {\bot}  
+  \;
   Locale
   \,.
 $$
+
 =--
 
 This appears for instance as ([MacLaneMoerdijk, theorem IX.3 1](#MacLaneMoerdijk)) or as ([Johnstone, lemma C.1.2.2](#Johnstone)).
@@ -187,7 +193,7 @@ A locale with $X \cong X_{P L}$ is called **[[spatial locale|spatial]]** or **to
 +-- {: .num_cor}
 ###### Corollary
 
-The [[adjunction]] from prop. \ref{TopLocAdjunction} exhibits sober topological spaces as a [[coreflective subcategory]] of [[Locale]]
+The [[adjunction]] from prop. \ref{TopLocAdjunction} exhibits [[sober topological spaces]] as a [[coreflective subcategory]] of [[Locale]]
 
 $$
   (
@@ -195,7 +201,10 @@ $$
   )
   \colon
   SoberTop
-    \stackrel{\overset{(-)_L}{\hookrightarrow}}{\underset{(-)_P}{\leftarrow}}
+    \underoverset
+      {\underset{(-)_P}{\leftarrow}}
+      {\overset{(-)_L}{\hookrightarrow}}
+      {\bot}
   Locale
 $$
 
