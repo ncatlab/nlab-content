@@ -29,9 +29,23 @@ If there exists a homotopy equivalence between $X$ and $Y$ we say that $X$ and $
 
 For many purposes, one wants instead [[weak homotopy equivalences]].  Often when speaking of a homotopy equivalence or a _[[homotopy type]]_, one actually means the weak version.  (This is especially likely on this wiki, due to the relationship to $\infty$-[[infinity-groupoids]] suggested by the [[homotopy hypothesis]].)
 
+The [[homotopy category]] of [[Top]] with respect to homotopy equivalences is [[Ho(Top)]]${}_{he}$.
+
+
 ## Examples
 
-The [[homotopy category]] of [[Top]] with respect to homotopy equivalences is [[Ho(Top)]]${}_{he}$.
++-- {: .num_example}
+###### Example
+
+The following are three homotopy equivalences to the disk with two points removed:
+
+<img src="https://ncatlab.org/nlab/files/HomotopyEquivalentsToBiAnnulus.png" width="400">
+
+> graphics grabbed from [Hatcher](#Hatcher)
+
+=--
+
+
 
 More generally, in any [[(∞,1)-category]] $C$ other than [[Top]], a homotopy equivalence in $C$ is just an equivalence in $C$.
 
@@ -41,7 +55,7 @@ More generally, in any [[(∞,1)-category]] $C$ other than [[Top]], a homotopy e
 
 Any homotopy equivalence is also a [[weak homotopy equivalence]].  Conversely, in the context of [[topological spaces]], any weak homotopy equivalence between [[m-cofibrant spaces]] (spaces that are homotopy equivalent to [[CW complexes]]) is a homotopy equivalence. This is the _[[Whitehead theorem]]_.
 
-The homotopy equivalences are the [[weak equivalences]] in the Str&#248;m [[model structure on topological spaces]].  The [[homotopy category]] resulting from inverting all homotopy equivalences in [[Top]] is the same as that resulting from identifying homotopic maps.
+The homotopy equivalences are the [[weak equivalences]] in the Str&oslash;m [[model structure on topological spaces]].  The [[homotopy category]] resulting from inverting all homotopy equivalences in [[Top]] is the same as that resulting from identifying homotopic maps.
 
 ## Strong homotopy equivalences
 
@@ -110,7 +124,11 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 
 * [[equivalence of (∞,1)-categories]]
 
-.
+
+## References
+
+* {#Hatcher} [[Alan Hatcher]], _[Algebraic topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+
 
 [[!redirects homotopy equivalences]]
 [[!redirects homotopy equivalent]]
