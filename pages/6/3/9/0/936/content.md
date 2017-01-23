@@ -37,9 +37,15 @@ The [[homotopy category]] of [[Top]] with respect to homotopy equivalences is [[
 +-- {: .num_example}
 ###### Example
 
-The following are three homotopy equivalences to the disk with two points removed:
+The following three [[graphs]]
+
+<img src="https://ncatlab.org/nlab/files/ThreeNonHomeoButHomotopyEquivGraphs.png" width="400">
+
+(i.e. the evident [[topological subspaces]] of the [[plane]] $\mathbb{R}^2$ that these pictures indicate) are not [[homeomorphism|homeomorphic]]. But they are [[homotopy equivalence|homotopy equivalent]], in fact they are each homotopy equivalent to the [[disk]] with two points removed, by the homotopies indicated by the following pictures:
 
 <img src="https://ncatlab.org/nlab/files/HomotopyEquivalentsToBiAnnulus.png" width="400">
+
+
 
 > graphics grabbed from [Hatcher](#Hatcher)
 
