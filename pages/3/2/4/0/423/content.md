@@ -16,16 +16,19 @@ This page is about topology as a **field of [[mathematics]]**.  For topology as 
 ***
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
 
 __Topology__ is one of the basic fields of [[mathematics]].  The term is also used for a particular structure in a [[topological space]]; see [[topological structure]] for that.
 
-The subject of topology deals with the expressions of [[continuous map|continuity]] and [[boundary]], and studying the geometric properties of (originally, metric) spaces and relations of subspaces, which do not change under continuous deformations, regardless to the changes in their metric properties. Topology as a structure enables one to model continuity and convergence locally. More recently, in metric spaces, topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
+The subject of topology deals with the expressions of [[continuous map|continuity]] and [[boundary]], and studying the geometric properties of (originally: [[metric space|metric]]) [[spaces]] and relations of subspaces, which do not change under continuous deformations, regardless to other (such as in their metric properties). 
 
-There are many cousins of topological spaces, e.g. sites, locales, topoi, higher topoi, uniformity spaces and so on which specialize or generalize some aspect or structure usually found in [[Top]]. 
+Topology as a structure enables one to model [[continuity]] and [[convergence]] locally. More recently, in metric spaces, topologists and geometric group theorists started looking at asymptotic properties at large, which are in some sense dual to the standard topological structure and are usually referred to as _coarse topology_.
+
+There are many cousins of the concept of [[topological spaces]], e.g. [[sites]], [[locales]], [[topoi]], [[higher topoi]], [[uniformity spaces]] and so on, which specialize or generalize some aspect or structure usually found in [[Top]]. 
+
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
 
 ## Related entries
@@ -127,5 +130,21 @@ See also [[examples in topology]].
 * [[sources in computational topology]]
 
 ## References
+
+See also the references at _[[algebraic topology]]_.
+
+Introductions to topology:
+
+* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+
+* Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
+* Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
+frankfurt.de/64271720/TopNotes_Spring10.pdf))
+
+* Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
+
+
+See also
 
 * [[Topospaces]], a Wiki with basic material on topology.
