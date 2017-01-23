@@ -286,6 +286,8 @@ By definition \ref{EMSpace}, the fundamental group of any [[Eilenberg-MacLane sp
 
 ## References
 
+* [[Jesper Møller]], _The fundamental group and covering spaces_ ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+
 * {#AGP02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 2.5 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
 Discussion from the point of view of [[Galois theory]] is in 
