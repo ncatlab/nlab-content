@@ -1,23 +1,23 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
+### Context
 #### Topology
-+--{: .hide}
++-- {: .hide}
 [[!include topology - contents]]
 =--
 =--
 =--
 
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
 A fundamental theorem of [[topology]]: for $n_1, n_2 \in \mathbb{N}$ two different natural numbers, $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ of [[dimension]] $n_1$ and $n_2$, respectively, are _not_ [[homeomorphism|homeomorphic]] (while for $n_1 = n_2$ then of course they are). Hence [[dimension]] of [[topological manifolds]] is a _topological [[invariant]]_.
 
-This seems intuitively obvious, but the [[formal proof]] (due to [[Brouwer]] around 1910) is comparatively hard, and the problem was an important open problem in the 19th century. To appreciate that the problem is harder than it may superficially seem it serves to notice that for every $n \in \mathbb{N}$ are [[surjective]] [[continuous maps]] $\mathbb{R}^1 \to \mathbb{R}^n$ (the [[Peano curves]]).
+This seems intuitively obvious, but the [[formal proof]] (due to [[Brouwer]] around 1910) is comparatively hard, and the problem was an important open problem in the 19th century. To appreciate that the problem is harder than it may superficially seem it serves to notice that for every $n \in \mathbb{N}$ are [[surjective]] [[continuous maps]] $\mathbb{R}^1 \to \mathbb{R}^n$ (the [[Peano curves]]), in addition to the obvious [[injective]] continuous maps $\mathbb{R}^1 \to \mathbb{R}^n$ for $n \geq 1$ (or indeed $\mathbb{R}^m \to \mathbb{R}^n$ for $m \leq n$), because of which there are also [[bijective]] (but discontinuous) maps $\mathbb{R}^m \to \mathbb{R}^n$ for $m, n \geq 1$ (by the [[Schroeder–Bernstein theorem]]).
 
 
 ## Statement
@@ -30,15 +30,36 @@ For $U \subset \mathbb{R}^n$ an [[open subset]] of a [[Cartesian space]], for an
 
 =--
 
-This is proven with tools from [[algebraic topology]], notably with the [[Brouwer fixed point theorem]].
+In other words, continuous injections between Cartesian spaces are [[open maps]].  This is proven with tools from [[algebraic topology]], notably with the [[Brouwer fixed point theorem]].
+
++-- {: .num_lemma}
+###### Lemma
+
+For $n_1, n_2 \in \mathbb{N}$, there is a [[continuous map|continuous]] [[injection]] from $\mathbb{R}^{n_1}$ to $\mathbb{R}^{n_2}$ if and only if $n_1 \leq n_2$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $n_1 \leq n_2$, use $\iota_{n_1,n_2}\colon (x_1, \ldots, x_{n_1}) \mapsto (x_1, \ldots, x_{n_1}, \vec{0})$, where $\vec{0}$ consists of $n_2 - n_1$ copies of $0$.  If $n_1 \gt n_2$, then supposing a continuous injection $f\colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$, compose $f$ with $\iota_{n_2,n_1}$ to get a map from $\mathbb{R}^{n_1}$ to itself, also a continuous injection.  By invariance of domain, the [[image]] of this map is open in $\mathbb{R}^{n_1}$, yet contained in the range of $\iota_{n_2,n_1}$, and the only open subset of that range is [[empty subset|empty]], a contradiction since $\mathbb{R}^{n_1}$ is not empty.
+=--
 
 +-- {: .num_cor}
 ###### Corollary
 **(topological invariance of dimension)**
 
-For $n_1, n_2 \in \mathbb{N}$ then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are [[homeomorphism|homeomorphic]] precisely only if $n_1 = n_2$.
+For $n_1, n_2 \in \mathbb{N}$ then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are [[homeomorphism|homeomorphic]] if and only if $n_1 = n_2$.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+A homeomorphism is a continuous injection both ways, so $n_1 \leq n_2$ and $n_2 \leq n_1$ by the lemma.
+=--
+
+This only-if half of this argument immediately generalizes to any [[inhabited subset|inhabited]] open subsets of $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$.
 
 
 ## References
@@ -47,7 +68,8 @@ The first proof is due to [[Brouwer]] around 1910.
 
 * [[Terry Tao]], _[Brouwer's fixed point and invariance of domain theorems, and Hilbert's fifth problem](https://terrytao.wordpress.com/2011/06/13/brouwers-fixed-point-and-invariance-of-domain-theorems-and-hilberts-fifth-problem/)_
 
-
 * Wikipedia, _[Invariance of domain](https://en.wikipedia.org/wiki/Invariance_of_domain)_
 
+
+[[!redirects invariance of dimension]]
 [[!redirects invariance of domain]]
