@@ -31,6 +31,341 @@ There are many cousins of the concept of [[topological spaces]], e.g. [[sites]],
 
 One of the tools of topology, [[homotopy theory]], has long since crossed the boundaries of topology and applies to many other areas, thanks to many examples and motivations as well as of abstract categorical frameworks for homotopy like Quillen [[model categories]], Brown's [[category of fibrant objects|categories of fibrant objects]] and so on.
 
+
+## Introduction
+
+The following gives a basic introduction to some core concepts of topology.
+
+* _[Continuity](#Continuity)_
+
+* _[Topological spaces](#TopologicalSpaces)_
+
+* _[Homeomorphism](#Homeomorphism)_
+
+
+### Continuity
+ {#Continuity}
+
+The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of more general [[open sets]], this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below.
+
+
+First recall the basic concepts from [[analysis]]:
+
++-- {: .num_defn #MetricSpace}
+###### Definition
+
+A _[[metric space]]_ is 
+
+1. a [[set]] $X$ (the "underlying set");
+
+1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]] 
+
+such that for all $x,y,z \in X$:
+
+1. $d(x,y) = 0 \;\Leftrightarrow\; x = y$
+
+1. (symmetry) $d(x,y) = d(y,x)$
+
+1. ([[triangle inequality]]) $d(x,y)+ d(y,z) \geq d(x,z)$.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Every [[normed vector space]] $(V, {\Vert -\Vert})$
+becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
+
+$$
+  d(x,y) \coloneqq {\Vert x-y\Vert}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #OpenBalls}
+###### Definition
+
+Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
+
+$$
+  B^\circ_x(\epsilon) 
+    \;\coloneqq\;
+  \left\{
+    y \in X \;\vert\; d(x,y) \lt \epsilon
+  \right\}
+$$
+
+for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
+
+=--
+
+
++-- {: .num_defn #EpsilonDeltaDefinitionOfContinuity}
+###### Definition
+**(epsilontic definition of continuity)**
+
+For $(X,d_X)$ and $(Y,d_Y)$ two [[metric spaces]] (def. \ref{MetricSpace}), then a [[function]]
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+is said to be _continuous at a point $x \in X$_ if for every $\epsilon \gt 0$ there exists $\delta\gt 0$ such that 
+
+$$
+  d_X(x,y) \lt \delta \;\Rightarrow\; d_Y(f(x), f(y)) \lt \epsilon 
+$$
+
+or equivalently such that 
+
+$$
+  f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)
+$$
+
+where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
+
+The function $f$ is called just _continuous_ if it is continuous at every point $x \in X$.
+
+=--
+
++-- {: .num_defn #OpenSubsetsOfAMetricSpace}
+###### Definition
+
+Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
+
+1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $x \in U \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon)$ around $x$ (def. \ref{OpenBalls}).
+
+1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every for $x \in U$ it also contains a [[neighbourhood]] of $x$.
+
+=--
+
+
++-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
+###### Proposition
+**(rephrasing continuity in terms of open sets)**
+
+A [[function]] $f \colon X \to Y$ between [[metric spaces]] (def. \ref{MetricSpace}) is continuous in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1(O_Y)}$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $U$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_X^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
+
+Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon)$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta)$ in its pre-image. But by assumption $f^{-1}(B_{f(x)}^\circ(\epsilon))$ contains a [[neighbourhood]] of $x$ which by definition means that it contains such an open ball around $x$.
+
+
+=--
+
+
+
+### Topological spaces
+ {#TopologicalSpaces}
+
+
+The collection of [[open subsets]] of a [[metric space]] in the sense of definition \ref{OpenSubsetsOfAMetricSpace} is readily seen to have the following property
+
++-- {: .num_prop }
+###### Proposition
+
+The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref{OpenSubsetsOfAMetricSpace} has the following properties:
+
+1. The [[intersection]] of any [[finite number]] of open subsets is again an open subset.
+
+1. the [[union]] of any [[set]] of open subsets is again an open subset.
+
+In particular the [[empty set]] is open (being the union of no subsets) and the whole set $X$ itself is open (being the intersection of no subsets).
+
+=--
+
+This motivates the following generalized definition:
+
++-- {: .num_defn #TopologicalSpaces}
+###### Definition
+**(topological spaces)**
+
+Given a [[set]] $X$, then a _topology_ on $X$ is a collection of [[subsets]] of $X$ called the _[[open subsets]]_, hence a [[subset]] of the [[power set]]
+
+$$
+  \tau \subset P(X)
+$$
+
+such that this is closed under forming
+
+1. finite [[intersections]];
+
+1. arbitrary [[unions]].
+
+A _[[topological space]]_ is a set $X$ equipped with a [[topology]].
+
+A _[[continuous function]]_ between topological spaces $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[function]] between the underlying sets, such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
+
+The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]], hence there is a [[category]] [[Top]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]].
+
+=--
+
+Our motivating example now reads:
+
++-- {: .num_example #MetricTopology}
+###### Example
+
+Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_. Stated more concisely: the [[open balls]] in a metric space constitute the [[basis of a topology]] for the [[metric topology]].
+
+=--
+
+
+One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces:
+
+
++-- {: .num_defn #QuotientTopologicalSpace}
+###### Definition
+**(quotient topological space)**
+
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let "$R_\sim \subset X \times X$" be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]], and a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
+
+$$
+  \pi \colon X \to X_\sim
+$$
+
+is open on $X$.
+
+(Also called the _[[final topology]]_ of the projection $\pi$.)
+
+=--
+
+
++-- {: .num_defn #SubspaceTopology}
+###### Definition
+**(subspace topology)**
+
+Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$. 
+
+(Also called the _[[initial topology]]_ of the inclusion map.)
+
+=--
+
+These two constructions of [[quotient topological spaces]] and of [[topological subspaces]] are in fact simple examples of [[colimits]] and of [[limits]] of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it.
+
+
+
+### Homeomorphism
+ {#Homeomorphism}
+
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology: 
+
+
++-- {: .num_defn #Homeomorphism}
+###### Definition
+
+An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a [[homeomorphism]]. Hence this is a [[continuous function]]
+
+$$
+  f \;\colon\; X \longrightarrow Y
+$$
+
+such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]] 
+
+$$
+  X \longleftarrow Y \;\colon\; f^{-1}
+$$
+
+such that 
+
+$$
+  f \circ f^{-1} = id_{Y} \;\;\;\;\; f^{-1} \circ f = id_{X}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
+###### Example
+
+As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphism|homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]. 
+
+Let 
+
+$$
+  S^1 \hookrightarrow \mathbb{R}^2
+$$
+
+be the unit [[circle]] in the [[plane]] ($S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}$) equipped with the [[subspace topology]] (def. \ref{SubspaceTopology}) of $\mathbb{R}^2$ equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
+
+Moreover, let 
+
+$$
+  [0,1]_{/(0 \sim 1)}
+$$
+
+be the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace}) obtained from the [[interval]] $[0,1] \subset \mathbb{R}^1$ with its [[subspace topology]] by applying the [[equivalence relation]] which identifies the two endpoints (and nothing else).
+
+Consider then the function
+
+$$
+  f \;\colon\; [0,1] \longrightarrow S^1
+$$
+
+given by 
+
+$$
+  t \mapsto (cos(t), sin(t))
+  \,.
+$$
+
+This has the property that $f(0) = f(1)$, so that it descends to the [[quotient topological space]]
+
+$$
+  \array{
+    [0,1] &\overset{}{\longrightarrow}& [0,1]_{/(0 \sim 1)}
+    \\
+    & {}_{\mathllap{f}}\searrow & \downarrow^{\mathrlap{\tilde f}}
+    \\
+    && S^1
+  }
+  \,.
+$$
+
+We claim that $\tilde f$ is a [[homeomorphism]] (definition \ref{Homeomorphism}).
+
+First of all it is immediate that $\tilde f$ is a [[continuous function]]. This follows immediately from the fact that $f$ is a [[continuous function]] and by definition of the [[quotient topology]] (def. \ref{QuotientTopologicalSpace}).
+
+So we need to check that $\tilde f$ has a continuous inverse function. Clearly the restriction of $f$ itself to the open interval $(0,1)$ has a continuous inverse. It fails to have a continuous inverse on $[0,1)$ and on $(0,1]$ and fails to have an inverse at all on [0,1], due to the fact that $f(0) = f(1)$. But the relation quotiented out in $[0,1]_{/(0 \sim 1)}$ is exactly such as to fix this failure.
+
+=--
+
+Important examples of pairs of spaces that are _not_ homeomorphic:
+
+
++-- {: .num_example }
+###### Example
+
+The [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ is _not_ homeomorphic to the [[torus]] $T^2 = S^1 \times S^1$.
+
+Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientable]] [[surface]] is determined by the number of "holes" it has, its _[[genus of a surface|genus]]_.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[topological invariance of dimension]])**
+
+For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphism|homeomorphic]].
+
+More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
+
+=--
+
+
+### Homotopy
+
+### Fundamental group
+
+
 ## Related entries
  {#RelatedEntries}
 
