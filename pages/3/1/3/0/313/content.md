@@ -224,3 +224,6 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
 [[!redirects diagram]]
 [[!redirects diagrams]]
+
+[[!redirects small diagram]]
+[[!redirects small diagrams]]
