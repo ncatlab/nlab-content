@@ -33,6 +33,7 @@ One may also speak of the [[complexified]] cartesian space $\mathbb{C}^n$, or in
 ###### Example
 
 In particular:
+
 *  $\mathbb{R}^0$ is the [[point]],
 *  $\mathbb{R}^1$ is the [[real line]],
 *  $\mathbb{R}^2$ is the real [[plane]], which may be identified (in two canonical ways) with the [[complex number|complex plane]] $\mathbb{C}$.
