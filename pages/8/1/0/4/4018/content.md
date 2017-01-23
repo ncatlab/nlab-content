@@ -4,7 +4,7 @@
 
 In model theory, an ultrapower of a structure with respect to an ultrafilter is a common method for creating new structures, with applications to nonstandard arithmetic and nonstandard analysis. It is a standard construction for constructing models which embody infinite and infinitesimal quantities, as in [[Abraham Robinson]]'s nonstandard analysis. 
 
-An ultrapower is a special case of _ultraproduct_; see the description under the sheaf-theoretic interpretation below. 
+An ultrapower is a special case of [[ultraproduct]]; see the description under the sheaf-theoretic interpretation below. 
 
 ## Definition 
 
