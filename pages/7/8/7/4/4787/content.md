@@ -60,6 +60,8 @@ The following notions of dimension capture aspects of the concept for objects in
 
 * [[global dimension theorem]]
 
+* [[topological invariance of dimension]]
+
 ## References
 
 For the dimension in symmetric monoidal categories see the references at [[Euler characteristic]].
