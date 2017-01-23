@@ -402,6 +402,8 @@ This indeed is then the usual construction of the universal covering space in te
 
 ## References
 
+* [[Jesper Møller]], _The fundamental group and covering spaces_ ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+
 An account using the concept of covering morphism of groupoids is given in Chapter 11 of the book 
 
 * [[Ronnie Brown]], [Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html)
