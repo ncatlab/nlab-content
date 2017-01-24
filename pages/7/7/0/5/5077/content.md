@@ -15,7 +15,15 @@
 
 ## Definitions
 
-Suppose $S$ is a [[set]], $\{ (X_i, T_i) \}_{i \in I}$ a [[family]] of [[topological spaces]] and $\{ f_i \}_{i \in I}$ a family of [[functions]] from $S$ to the family $\{ X_i \}_{i \in I}$. That is, for each index $i \in I$, $f_i\colon S \to X_i$. Let $\Gamma$ be the set of all topologies $\tau$ on $S$ such that $f_i$ is a [[continuous map]] for every $i \in I$. Then the [[intersection]] $\bigcap_{\tau \in \Gamma} \tau$ is again a topology and also belongs to $\Gamma$. Clearly, it is the coarsest/weakest topology $\tau_0$ on $X$ such that each function $f_i\colon S \to X_i$ is a [[continuous map]].
+Suppose 
+
+1. $S$ is a [[set]], 
+
+1. $\{ (X_i, T_i) \}_{i \in I}$ is a [[family]] of [[topological spaces]] 
+
+1. $\{ f_i \}_{i \in I}$ a family of [[functions]] from $S$ to the family $\{ X_i \}_{i \in I}$. 
+
+That is, for each index $i \in I$, $f_i\colon S \to X_i$. Let $\Gamma$ be the set of all topologies $\tau$ on $S$ such that $f_i$ is a [[continuous map]] for every $i \in I$. Then the [[intersection]] $\bigcap_{\tau \in \Gamma} \tau$ is again a topology and also belongs to $\Gamma$. Clearly, it is the coarsest/weakest topology $\tau_0$ on $X$ such that each function $f_i\colon S \to X_i$ is a [[continuous map]].
 
 We call $\tau_0$ the **weak/coarse/initial topology induced** on $S$ by the family of mappings $\{ f_i \}_{i \in I}$.  Note that all terms 'weak topology', 'initial topology', and 'induced topology' are used.  The [[subspace topology]] is a special case, where $I$ is a [[singleton]] and the unique function $f_i$ is an [[injection]].
 
@@ -39,6 +47,9 @@ The [[weak-star topology]] is another special case of a weak topology.
 
 For the strong topology in functional analysis, see the [[strong operator topology]].
 
+## Related entries
+
+* [Category of topological spaces -- Universal constructions](Top#UniversalConstructions)
 
 ## References
 
