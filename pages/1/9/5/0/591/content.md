@@ -11,6 +11,8 @@ $$ F: D \to C$$
 
 where $D$ is a [[small category]] has a colimit in $C$.
 
+The most natural morphisms between cocomplete categories are the [[cocontinuous functor|cocontinuous functors]].
+
 #Remarks#
 
 * Dually, a category with all small limits is a [[complete category]].
