@@ -434,6 +434,8 @@ Tim: I have a feeling that this anabelian question should have a form that gener
 
 * [[Lascar group]] (a Galois group of first order theories)
 
+* [[fundamental theorem of covering spaces]]
+
 * [[anabelian geometry]]
 
 * [[geometric homotopy groups in an (∞,1)-topos]], [[fundamental group of a topos]], [[fundamental ∞-groupoid of an (∞,1)-topos]]
