@@ -46,3 +46,6 @@ For other general perspectives on this see also at _[[infinity-action]]_ the sec
 [[!redirects permutation representations]]
 [[!redirects linear permutation representation]]
 [[!redirects linear permutation representations]]
+
+[[!redirects permutation action]]
+[[!redirects permutation actions]]
