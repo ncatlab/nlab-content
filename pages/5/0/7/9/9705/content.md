@@ -29,7 +29,10 @@ Gromov introduced many techniques of proving the h-principle including the metho
 * M. Gromov, _A topological technique for the construction of solutions of differential equations and inequalities_, Proc. Int. Congress Math. Nice 1970, vol. 2, 221-225, [djvu w OCR](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.djvu), [pdf](http://www.mathunion.org/ICM/ICM1970.2/Main/icm1970.2.0221.0226.ocr.pdf)
 * M. Gromov, Papers on h-principle: geometric methods for solving partial differential equations/inequalities and the homotopy structure in the spaces of their solutions, [list](http://www.ihes.fr/~gromov/topics/topic2.html) (with some links)
 * Y. Eliashberg, N. Mishachev, _Introduction to the h-principle_, Graduate Studies in Mathematics 48. Amer. Math. Soc. 2002 [gBooks](http://books.google.co.uk/books?isbn=0821832271)
-* [The h-principle in topology](http://math.northwestern.edu/~jnkf/classes/hprin) -- a Northwestern university class page by [[John Francis]] on h-principle
+
+* [[John Francis]], _[The h-principle in topology](http://www1.math.northwestern.edu/~jnkf/classes/hprin/)_ (overview [pdf](http://math.northwestern.edu/~jnkf/classes/hprin/1overview.pdf))
+
+
 * Andr&#233;s Angel, Johannes Ebert, _Gromov's h-principle and its applications research seminar_, 2010, outline [pdf](http://wwwmath.uni-muenster.de/u/jeber_02/frueherelehre/hprinciple.pdf) (with useful bibliography)
 * [London h-principle learning seminar](http://www.homepages.ucl.ac.uk/~ucahcwe/h-principle.html)
 
