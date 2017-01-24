@@ -38,3 +38,6 @@ in the form of the condition for
 [[!redirects locally path connected spaces]]
 [[!redirects locally path-connected topological space]]
 [[!redirects locally path-connected topological spaces]]
+
+[[!redirects locally path-connected]]
+[[!redirects locally path connected]]
