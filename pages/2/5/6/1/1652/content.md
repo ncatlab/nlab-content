@@ -1,3 +1,4 @@
+[[!redirects semi-locally simply connected space]]
 
 #Contents#
 * automatic table of contents goes here
