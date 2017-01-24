@@ -1,4 +1,4 @@
 
-[[The3SheetedCoveringsOfTheCircle.png:file]]
+[[FundamentalGroupOfGenus2Surface.png:file]]
 
-<img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
+<img src="https://ncatlab.org/nlab/files/FundamentalGroupOfGenus2Surface.png" width="400">
