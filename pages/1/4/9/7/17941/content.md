@@ -1,15 +1,11 @@
 
 # Contents
-* the following line creates the automatic table of contents
+* table of contents
 {: toc}
 
 ## Idea ##
 
-An enumerated type is any type given by a finite [[sum type | disjoint sum]] of [[unit type|unit types]],
-
-$$\coprod
-_{n \in \mathbb{N}}
-1$$
+An enumerated type is any [[type]] given by a finite [[sum type | disjoint sum]] of [[unit type|unit types]].
 
 
 ## Definition ##
@@ -18,6 +14,7 @@ _{n \in \mathbb{N}}
 
 
 ## Properties ##
+
 Every enumerated type is a [[subtype]] of the [[natural numbers type]].
 
 ## Examples ##
@@ -27,4 +24,4 @@ Every enumerated type is a [[subtype]] of the [[natural numbers type]].
 
 ## References ##
 
-...
+* Wikipedia, _[Enumerated type](https://en.wikipedia.org/wiki/Enumerated_type)_
