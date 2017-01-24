@@ -28,6 +28,11 @@ U \times E_x & \cong & p^{-1}(U) & \to & E\\
 
 Covering spaces over $B$ form an evident [[full subcategory]] $Cov/B \hookrightarrow Top/B$. These can be put together to form a [[replete subcategory|replete]], [[wide subcategory|wide]] subcategory $Cov$ of $Top$, so that $Cov/B$ is an [[over category]], just as the notation suggests.
 
+$\,$
+
+There is a generalizatin to "semi-coverings" ([Brazas12](#Brazas12)). Semicoverings satisfy the "[[2 out of 3]] rule". I.e,, if $f=g h$ and two of $f,g,h$ are semicoverings , then so is the third. This is not true for covering maps. 
+
+
 ### Remarks
 
 * Different points in $B$ may have non-isomorphic fibers. However, if open sets $U$ and $V$ are evenly covered by $p: E \to B$ and have nonempty intersection, then there are canonical identifications 
@@ -53,12 +58,15 @@ The connection between covering spaces over $B$ and the [[fundamental group]] $\
 
 Under some technical topological assumptions on the space $B$, the fundamental theorem can be stated thus: 
 
-+-- {: .un_theorem}
++-- {: .num_theorem #FundamentalTheoremOfCoveringSpaces}
 ###### Theorem
+**([[fundamental theorem of covering spaces]])**
 
-The category of covering spaces $Cov/B$ is equivalent to the category of functors $\Pi_1(B) \to Set$. 
+Let $B$ be a [[topological space]] which is [[locally path-connected space|locally path-connected]] and [[semi-locally simply-connected space|semi-locally simply-connected]].
 
-More precisely, there is a functor 
+Then the category $Cov/B$ of covering spaces over $B$ is [[equivalence of categories|equivalent]] to the category of functors $\Pi_1(B) \to Set$ from the [[fundamental groupoid]] of $B$ to [[Set]] ([[permutation representation]]). 
+
+This equivalence is exhibited by a [[functor]]
 
 $$Fiber: Cov/B \to Set^{\Pi_1(B)},$$ 
 
@@ -72,14 +80,15 @@ I & \overset{\phi}{\to} & B
 
 and we define $Fiber([\phi]): E_b \to E_c$ as the map sending $e \in E_b$ to $\tilde{\phi}(1) \in E_c$. 
 
-The precise statement of the theorem above is that if $B$ is [[locally path-connected space|locally path-connected]] and [[semi-locally simply-connected space|semi-locally simply-connected]], then the functor $Fiber$ is an [[equivalence of categories]]. 
 =--
 
-In fact, in the proof of this theorem one establishes an adjoint equivalence: one constructs a left adjoint to $Fiber$,  
+(e.g [M&#248;ller 11, theorem 7.8](#Moller11))
+
+In fact, in the proof of this theorem one establishes an [[adjoint equivalence]]: one constructs a [[left adjoint]] to $Fiber$,  
 
 $$Set^{\Pi_1(B)} \to Cov/B,$$ 
 
-via a [[tensor product]] or [[weighted colimit]] construction, namely the one that extends (by left Kan extension along the Yoneda embedding on $\Pi_1(B)^{op}$) the functor 
+via a [[tensor product]] or [[weighted colimit]] construction, namely the one that extends (by [[left Kan extension]] along the [[Yoneda embedding]] on $\Pi_1(B)^{op}$) the functor 
 
 $$\Pi_1(B)^{op} \to Cov/B$$ 
 
@@ -391,9 +400,8 @@ $$
 
 Since $X$ is categorically discrete, this simply produces the space of objects of $\mathbf{E}_x \Pi_1(X)$ over the points of $X$, which is just the space of all paths in $X$ starting at $x$ with the projection $UCov_1(X) \to X$ being endpoint evaluation. 
 
-This indeed is then the usual construction of the universal covering space in terms of paths, as described for instance in 
+This indeed is then the usual construction of the universal covering space in terms of paths, as described for instance in  ([Dahlke](#Dahlke))
 
-* [[Karl Dahlke]], _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
 
 
 ## Related concepts
@@ -402,27 +410,25 @@ This indeed is then the usual construction of the universal covering space in te
 
 ## References
 
-* [[Jesper Møller]], _The fundamental group and covering spaces_ ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
+Review includes
 
-An account using the concept of covering morphism of groupoids is given in Chapter 11 of the book 
+* {#Moller11} [[Jesper Møller]], _The fundamental group and covering spaces_ (2011) ([pdf](http://www.math.ku.dk/~moller/f03/algtop/notes/covering.pdf))
 
-* [[Ronnie Brown]], [Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html)
+* [[Ronnie Brown]], chapter 11 of _[Topology and Groupoids](http://pages.bangor.ac.uk/~mas010/topgpds.html)_
 
-The advantage of this approach is that a _map_ of spaces is modelled by a _morphism_ of groupoids, and this has expository advantages. For example, if $X$ is a space and $p: G \to \pi_1 X $ is a covering morphism of groupoids, we ask how to topologise $Ob(G)$ so that it could become a covering space of $X$. This leads to explicit conditions on $X$ which are dependent on the morphism $p$. 
+* {#Dahlke} Karl Dahlke, _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
 
 Some of the problems of generalising covering spaces to deal with  wild spaces are dealt with in:
 
-* Jeremy Brazas, _Semicoverings_, Homology, Homotopy and Applications, 14 (2012), No. 1, 33-63. 
-
-Thus semicoverings satisfy the "2 out of three rule". I.e,, if $f=gh$ and two of $f,g,h$ are semicoverings , then so is the third. This is not true for covering maps. 
+* {#Brazas12} Jeremy Brazas, _Semicoverings_, Homology, Homotopy and Applications, 14 (2012), No. 1, 33-63. 
 
 
-An account of the traditional way to think of the construction of the universal covering space is 
 
-* [[Karl Dahlke]], _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
 
 
 [[!redirects covering spaces]]
 [[!redirects wrapping space]]
 [[!redirects wrapping spaces]]
 [[!redirects covering groupoid]]
+
+
