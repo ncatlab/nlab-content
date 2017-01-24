@@ -1,5 +1,8 @@
 
 
+{:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -49,6 +52,7 @@ The following gives a quick introduction to some of the core concepts and tools 
 
 * _[Fundamental group](#FundamentalGroup)_
 
+* _[Covering spaces](#CoveringSpaces)_
 
 ### Continuity
  {#Continuity}
@@ -114,6 +118,10 @@ for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
 ###### Definition
 **(epsilontic definition of continuity)**
 
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/EpsilonDeltaBalls.png" width="250">
+</div>
+
 For $(X,d_X)$ and $(Y,d_Y)$ two [[metric spaces]] (def. \ref{MetricSpace}), then a [[function]]
 
 $$
@@ -123,13 +131,13 @@ $$
 is said to be _continuous at a point $x \in X$_ if for every $\epsilon \gt 0$ there exists $\delta\gt 0$ such that
 
 $$
-  d_X(x,y) \lt \delta \;\Rightarrow\; d_Y(f(x), f(y)) \lt \epsilon
+  d_X(x,y) \lt \delta \;\;\Rightarrow\;\; d_Y(f(x), f(y)) \lt \epsilon
 $$
 
 or equivalently such that
 
 $$
-  f(B_x^\circ(\delta)) \subset B^\circ_{f(x)}(\epsilon)
+  f(\;B_x^\circ(\delta)\;) \;\subset\; B^\circ_{f(x)}(\epsilon)
 $$
 
 where $B^\circ$ denotes the [[open ball]] (definition \ref{OpenBalls}).
@@ -149,6 +157,13 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
 =--
 
+The following picture shows a point $x$, some [[open balls]] $B_i$ containing it, and two of its [[neighbourhoods]] $U_i$:
+
+<img src="https://ncatlab.org/nlab/files/NeighbourhoodsAndOpenBalls.png" width="500">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+
 
 +-- {: .num_prop #ContinuityBetweenMetricSpacesInTermsOfOpenSets}
 ###### Proposition
@@ -157,6 +172,14 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 A [[function]] $f \colon X \to Y$ between [[metric spaces]] (def. \ref{MetricSpace}) is continuous in the [[epsilontic analysis|epsilontic]] sense of def. \ref{EpsilonDeltaDefinitionOfContinuity} precisely if it has the property that its [[pre-images]] of [[open subsets]] of $Y$ (in the sense of def. \ref{OpenSubsetsOfAMetricSpace}) are open subsets of $X$.
 
 =--
+
++-- {: principle}
+**principle of continuity**
+
+$\,$ $\,$ _Pre-Images of open subsets are open._
+
+=--
+
 
 +-- {: .proof}
 ###### Proof
@@ -205,29 +228,78 @@ such that this is closed under forming
 
 1. arbitrary [[unions]].
 
-A _[[topological space]]_ is a set $X$ equipped with a [[topology]].
-
-A _[[continuous function]]_ between topological spaces $f \colon (X, \tau_X) \to (Y, \tau_Y)$ is a [[function]] between the underlying sets, such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
-
-The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]], hence there is a [[category]] [[Top]] whose [[objects]] are [[topological spaces]] and whose [[morphisms]] are [[continuous functions]].
+A _[[topological space]]_ is a set $X$ equipped with such a [[topology]].
 
 =--
+
+The following shows all the topologies on the 3-element set (up to permuation of elements)
+
+<img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
+
+It is now immediate to formally implement the
+
++-- {: principle}
+**principle of continuity**
+
+$\,$ $\,$ _Pre-Images of open subsets are open._
+
+=--
+
++-- {: .num_defn #ContinuousMaps}
+###### Definition
+
+A _[[continuous function]]_ between [[topological spaces]] 
+
+$$
+  f \colon (X, \tau_X) \to (Y, \tau_Y)
+$$
+
+is a [[function]] between the underlying sets,
+
+$$
+  f \colon X \longrightarrow Y
+$$
+
+such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X$.
+
+
+=--
+
+
+The simple definition of [[open subsets]] and the simple _principle of equivalence_
+gives topology its fundamental and universal flavor. The combinatorial nature of ese definitions makes
+topology be closely related to [[formal logic]] (for more on this see at _[[locale]]_).
+
+
++-- {: .num_remark}
+###### Remark
+**(the category of topological spaces)**
+
+The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]]. 
+
+One says that [[topological spaces]] form the [[objects]] of  a _[[category]]_, whose [[morphisms]] are the [[homeomorphisms]].
+
+
+<img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
+
+> graphics grabbed from [Lavere-Schanuel 09](#category+theory#LawvereSchanuel09).
+
+=--
+
+
 
 Our motivating example now reads:
 
 +-- {: .num_example #MetricTopology}
 ###### Example
+**(metric topology)**
 
 Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_. Stated more concisely: the [[open balls]] in a metric space constitute the [[basis of a topology]] for the [[metric topology]].
 
 =--
 
-The simple definition of [[open subsets]] and the simple **principle of continuity**
-
-$\,$ $\,$ _Pre-Images of open subsets are again open._
-
-gives topology its fundamental and universal flavor. In fact the combinatorial nature of these definitions makes
-it closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces:
 
@@ -236,6 +308,25 @@ One point of the general definition of "[[topological space]]" is that it admits
 **(discrete topological space)**
 
 For $S$ a bare [[set]], then the _[[discrete topology]]_ on $S$ regards every subset of $S$ as an [[open subset]].
+
+=--
+
++-- {: .num_example #SubspaceTopology}
+###### Example
+**(subspace topology)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/OpenSubsetsOfSquareInsidePlane.png" width="200">
+</div>
+
+Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
+
+(Also called the _[[initial topology]]_ of the inclusion map.)
+
+The picture on the right shows two open subsets inside the [[square]] regarded as a [[topological subspace]] of the [[plane]] $\mathbb{R}^2$:
+
+
+> graphics grabbed from [Munkres 75](#Munkres75)
 
 =--
 
@@ -256,20 +347,24 @@ is open in $X$.
 
 =--
 
+<img src="https://ncatlab.org/nlab/files/QuotientOfSquareIsCylinderAndTorus.png" width="660">
 
-+-- {: .num_example #SubspaceTopology}
-###### Example
-**(subspace topology)**
 
-Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
+The above picture shows on the left the [[square]] (a [[topological subspace]] of the [[plane]]), 
+then in the middle the resulting [[quotient topological space]] obtained by
+identifying two opposite sides (the _[[cylinder]]_), and on the right the further quotient obtained by 
+identifying the remaining sides (the _[[torus]]_):
 
-(Also called the _[[initial topology]]_ of the inclusion map.)
 
-=--
+> graphics grabbed from [Munkres 75](#Munkres75)
 
 +-- {: .num_example #ProductTopologicalSpace}
 ###### Example
 **(product topological space)**
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ProductTopology.png" width="300">
+</div>
 
 For $X$ and $Y$ two [[topological spaces]], then the [[product topological space]] $X \times Y$
 has as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$, and its [[open sets]]
@@ -277,7 +372,12 @@ are those subsets $O \subset X \times Y$ of the Cartesian product such that for 
 there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that $O_x \times O_y \subset O$.
 
 
+> graphics grabbed from [Munkres 75](#Munkres75)
+
 =--
+
+
+
 
 
 These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of [[colimits]] and of [[limits]] of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. (For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.)
@@ -314,6 +414,11 @@ $$
 $$
 
 =--
+
+
+<img src="https://ncatlab.org/nlab/files/Homeomorphism.png" width="560">
+
+> graphics grabbed from [Munkres 75](#Munkres75)
 
 +-- {: .num_example #OpenBallsHomeomorphicToRn}
 ###### Example
@@ -480,6 +585,10 @@ $$
 $$
 
 This continuously interpolates between the open ball and the point in that for $t = 1$ then it restricts to the defining inclusion $B_0^\circ(1)$, while for $t = 0$ then it restricts to the map constant on the origin.
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/ShrinkingBalls.png" width="200">
+</div>
 
 We may summarize this situation by saying that there is a
 [[diagram]] of [[continuous function]] of the form
@@ -730,20 +839,23 @@ It follows that we would get a bijection of [[connected components]] between $\p
 
 The key lesson of the proof of prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} is its strategy:
 
-$\,$
+
++-- {: principle}
+**principle of algebraic topology**
 
 $\,\,$ _Use topological invariants to distinguish topological spaces._
 
-$\,$
+=--
+
 
 Of course in practice one uses more sophisticated invariants than just $\pi_0$.
 
-$\,$
+The next topological invariant after the [[connected components]] is the _[[fundamental group]]:
 
-### Covering spaces and the Fundamental group
+
+### Fundamental group
  {#FundamentalGroup}
 
-In a sense the next topological invariant after the [[connected components]] is the _[[fundamental group]]_.
 
 +-- {: .num_defn #FundamentalGroup}
 ###### Definition
@@ -762,7 +874,7 @@ _[[simply connected topological space|simply connected]]_.
 +-- {: .num_example}
 ###### Example
 
-The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the 
+The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the
 oriented [[surface]] of [[genus of a surface|genus]] 2:
 
 <img src="https://ncatlab.org/nlab/files/FundamentalGroupOfGenus2Surface.png" width="500">
@@ -804,7 +916,7 @@ and $f(0)$ from $\mathbb{R}^3$. But these spaces have different [[fundamental gr
 1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
 We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
 
-1. The fundamental group of $\mathbb{R}^3 - \{f(0)\]$ is trivial: because the single removed point is
+1. The fundamental group of $\mathbb{R}^3 - \{f(0)\}$ is trivial: because the single removed point is
 no obstruction to sliding loops past it and contracting them.
 
 But since passing to fundamental groups is [[functor|functorial]], the same argument
@@ -816,17 +928,20 @@ shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
 
 We now discuss a "dual incarnation" of fundamental groups, which often helps to compute them.
 
+### Covering spaces
+ {#CoveringSpaces}
+
 +-- {: .num_defn #CoveringSpace}
 ###### Definition
 **(covering space)**
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] 
+A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]]
 
 $$
   p \colon E \to X
 $$
 
-such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted 
+such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted
 to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
 to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$
 with the [[discrete topological space]] (example \ref{DiscreteTopologicalSpace}) on a [[set]] $F_i$
@@ -967,11 +1082,13 @@ $$
   \;\;\;\;\;\;
   \left(
   \array{
-    \text{acting with two group elements consecutively}
+    \text{acting with two group elements }
     \\
     \text{is the same as}
     \\
-    \text{first multiplying them and then acting with their product element}
+    \text{first multiplying them}
+    \\
+    \text{ and then acting with their product element}
   }
   \right)
   \,.
@@ -1237,13 +1354,17 @@ See also [[examples in topology]].
 
 ## References
 
-See also the references at _[[algebraic topology]]_.
+Introductory textbooks to topology include
 
-Introductions to topology include:
-
-* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
+* {#Munkres75} [[James Munkres]], _Topology_, Prentice Hall 1975 (2000)
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
+
+See also the references at _[[algebraic topology]]_.
+
+Lecture notes include
+
+* [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
 * Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
 frankfurt.de/64271720/TopNotes_Spring10.pdf))
