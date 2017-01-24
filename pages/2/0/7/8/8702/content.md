@@ -21,7 +21,7 @@
 
 ## Idea
 
-The [[product]] of two [[topological spaces]] in the [[category]] [[Top]].
+The [[product]] of two [[topological spaces]] in the [[category]] [[Top]]. It's underlying set is the [[Cartesian product]] of sets and the topology (of [[open subsets]]) is the _[[Tychonoff topology]]_. See there for more.
 
 ## Properties
 
