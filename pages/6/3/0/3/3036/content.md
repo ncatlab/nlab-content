@@ -101,14 +101,14 @@ We are therefore left to deal with the case where there are at most countably ma
 
 ## References 
 
-* James Munkres, _Topology, a first course_, Prentice-Hall (1975). 
- {#Munk}
+* {#Munk} [[James Munkres]], _Topology, a first course_, Prentice-Hall (1975). 
+ 
 
-* D. K. Brown and S. G. Simpson, _Which set existence axioms are needed to prove the separable Hahn-Banach theorem?_, Annals of Pure and Applied Logic 31 (1986), pp. 123-144. 
- {#BS}
+* {#BS} D. K. Brown and S. G. Simpson, _Which set existence axioms are needed to prove the separable Hahn-Banach theorem?_, Annals of Pure and Applied Logic 31 (1986), pp. 123-144. 
+ 
 
-* Henno Brandsma, Thread on Hewitt-Marczewski theorem, Ask a Topologist (2010) ([link](http://at.yorku.ca/cgi-bin/bbqa?forum=ask_a_topologist_2010;task=show_msg;msg=0487.0001)) 
- {#Brandsma} 
+* {#Brandsma} Henno Brandsma, Thread on Hewitt-Marczewski theorem, Ask a Topologist (2010) ([link](http://at.yorku.ca/cgi-bin/bbqa?forum=ask_a_topologist_2010;task=show_msg;msg=0487.0001)) 
+  
 
 
 [[!redirects separable space]]
