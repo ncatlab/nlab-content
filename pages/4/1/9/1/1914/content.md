@@ -138,7 +138,7 @@ Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672)) ([AMS](http://www.ams.org/journals/proc/1976-061-01/home.html): [pdf](http://www.ams.org/journals/proc/1976-061-01/S0002-9939-1976-0431220-4/S0002-9939-1976-0431220-4.pdf))
 
 
-* {#Munkres} James Munkres, _Obstructions to the smoothing of piecewise-differentiable homeomorphisms_  Bull. Amer. Math. Soc. Volume 65, Number 5 (1959), 332-334.  ([Euclid](http://projecteuclid.org/euclid.bams/1183523321))([AMS](http://www.ams.org/journals/bull/1959-65-05/): [pdf](http://www.ams.org/journals/bull/1959-65-05/S0002-9904-1959-10345-1/S0002-9904-1959-10345-1.pdf))
+* {#Munkres} [[James Munkres]], _Obstructions to the smoothing of piecewise-differentiable homeomorphisms_  Bull. Amer. Math. Soc. Volume 65, Number 5 (1959), 332-334.  ([Euclid](http://projecteuclid.org/euclid.bams/1183523321))([AMS](http://www.ams.org/journals/bull/1959-65-05/): [pdf](http://www.ams.org/journals/bull/1959-65-05/S0002-9904-1959-10345-1/S0002-9904-1959-10345-1.pdf))
 
 * {#ZieschangVogtColdeway} Zieschang, Vogt and Coldeway, _Surfaces and planar discontinuous groups_
 
