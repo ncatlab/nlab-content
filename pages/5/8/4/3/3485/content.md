@@ -38,6 +38,8 @@ For other general perspectives on this see also at _[[infinity-action]]_ the sec
 * [[representation theory]], [[linear representation]],
   [[category of representations]]
 
+* [[covering space]]
+
 ## Related concepts
 
 * [[∞-permutation representation]]
