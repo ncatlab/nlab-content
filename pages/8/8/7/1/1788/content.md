@@ -1,4 +1,4 @@
 
-[[FundamentalGroupOfGenus2Surface.png:file]]
+[[NeighbourhoodsAndOpenBalls.png:file]]
 
-<img src="https://ncatlab.org/nlab/files/FundamentalGroupOfGenus2Surface.png" width="400">
+<img src="https://ncatlab.org/nlab/files/NeighbourhoodsAndOpenBalls.png" width="400">
