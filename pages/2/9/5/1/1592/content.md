@@ -1,6 +1,17 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Standard definition
@@ -301,13 +312,14 @@ If we instead generalize the "little topos" picture, then if $E$ is an $(n,1)$-t
 $$\array{ E^{(n)} & \to & E \\ \downarrow & & \downarrow \\ * & \to & \Pi_n(E)}$$
 The same arguments as above, generalized from 1 to $n$, show that $E^{(n)}\to E$ is a locally trivial local homeomorphism and that $E^{(n)}$ is $n$-connected.
 
+## Related entries
+
+* [[fundamental theorem of covering spaces]]
+
 
 ## References
 
-
-An account of the traditional way to think of the construction of the universal covering space is 
-
-* _[Covering spaces, Building a universal cover](http://www.mathreference.com/at-cov,build.html)_ , [Math Reference Project](http://www.mathreference.com/) 
+See the references at _[[covering space]]_.
 
 
 [[!redirects universal cover]]
