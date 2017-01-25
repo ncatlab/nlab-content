@@ -786,7 +786,8 @@ is a continuous [[path]] between these points.
 ###### Definition
 **(connected components)**
 
-The set of [[homotopy classes]] of points in a topological space is called its set of path-[[connected components]], denoted.
+The set of [[homotopy classes]] of points in a [[topological space]] $X$ is called its set of 
+_path-[[connected components]]_, denoted.
 
 $$
   \pi_0(X) \in Set
@@ -795,7 +796,7 @@ $$
 
 If $\pi_0(X) \simeq \ast$ consists of a single element, we say that $X$ is a _[[path-connected topological space]]_.
 
-If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by $\pi_0(f)$:
+If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by:
 
 $$
   \pi_0(f) \;\colon\; \pi_0(X) \longrightarrow \pi_0(Y)
@@ -817,7 +818,7 @@ $$
   \,.
 $$
 
-One summarizes this by saying that $\pi_0$ is a [[functor]] from the [[category]] [[Top]] of [[topological spaces]] to the [[category]] [[Set]] of [[sets]], denoted
+One summarizes this by saying that $\pi_0$ is a _[[functor]]_ from the [[category]] [[Top]] of [[topological spaces]] to the [[category]] [[Set]] of [[sets]], denoted
 
 $$
   \pi_0 \;\colon\; Top \longrightarrow Set
@@ -862,7 +863,17 @@ $$
 
 =--
 
-This means that we may use path connected components as a first "topological invariant" that allows us to distinguish topological spaces. As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (theorem \ref{TopologicalInvarianceOfDimension}):
+This means that we may use path connected components as a first "topological invariant" that allows us to distinguish some topological spaces. 
+
++-- {: principle}
+**principle of algebraic topology**
+
+$\,\,$ _Use topological invariants to distinguish topological spaces._
+
+=--
+
+
+As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (theorem \ref{TopologicalInvarianceOfDimension}):
 
 
 +-- {: .num_prop #TopologicalInvarianceOfDimensionFirstSimpleCase}
