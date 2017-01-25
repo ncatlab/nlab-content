@@ -3,7 +3,7 @@
 {:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
-> this page is (going to be) the German language version of the page _[[topology]]_
+> this page is the German language version of (parts of) the page _[[topology]]_
 
 ***
 
@@ -48,36 +48,36 @@ Im Folgenden geben wir eine kurze Einf&#252;hrung zu den zentralen Konzepten und
 ### Stetigkeit
  {#Continuity}
 
-Die zentrale Idee der Topologie is es [[spaces|Räume]] mit "[[continuous maps|stetigen Abbildungen]]" zwischen ihnen zu betrachten. Das Konzept der Stetikeit wurde zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" ovon [[open balls|offenen Bällen]], diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann wurde realisiert dass dies eine eleganter Formulierung in Termen des Begriffes der _[[open sets|offenen Mengen]]_ hat, dies ist unten prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  [[topological spaces|topologischen Raumes]] entsteht wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist def. \ref{TopologicalSpaces} unten.
+Die zentrale Idee der Topologie ist es, [[spaces|Räume]] mit "[[continuous maps|stetigen Abbildungen]]" zwischen ihnen zu betrachten. Das Konzept der Stetigkeit wurde zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" von [[open balls|offenen Bällen]], an diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann wurde realisiert dass dies eine elegantere Formulierung durch den Begriffe der _[[open sets|offenen Mengen]]_ hat, dies ist unten Prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  _[[topological spaces|topologischen Raumes]]_ entsteht daraus wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist Def. \ref{TopologicalSpaces} unten.
 
 
-Sei zun&#228;chst an folgen elementare Begriffe der [[analysis|Analysis]] erinnert:
+Sei zun&#228;chst an folgende elementare Begriffe der [[analysis|Analysis]] erinnert:
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
 
-A _[[metric space]]_ is
+Ein _[[metric space|metrischer Raum]]_ ist
 
-1. a [[set]] $X$ (the "underlying set");
+1. eine [[set|Menge]] $X$ (die "zugrunde liegende Menge");
 
-1. a [[function]] $d \;\colon\; X \times X \to [0,\infty)$ (the "distance function") from the [[Cartesian product]] of the set with itself to the [[nonnegative number|non-negative]] [[real numbers]]
+1. eine [[function|Funktion]] $d \;\colon\; X \times X \to [0,\infty)$ (die "Distanzfunktion") aus dem  [[Cartesian product|kartesischen Produkt]] der Menge mit sich selbst in die [[nonnegative number|nicht-negativen]] [[real number|reellen Zahlen]]
 
-such that for all $x,y,z \in X$:
+so dass f&#252;r alle $x,y,z \in X$ gilt:
 
 1. $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
 
-1. (symmetry) $d(x,y) = d(y,x)$
+1. (Symmetrie) $d(x,y) = d(y,x)$
 
-1. ([[triangle inequality]]) $d(x,y)+ d(y,z) \geq d(x,z)$.
+1. ([[triangle inequality|Dreiecksungleichung]]) $d(x,y)+ d(y,z) \geq d(x,z)$.
 
 =--
 
 
 +-- {: .num_example}
-###### Example
+###### Beispiel
 
-Every [[normed vector space]] $(V, {\Vert -\Vert})$
-becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
+Jeder [[normed vector space|normierte Vektorraum]] $(V, {\Vert -\Vert})$
+wird ein [[metric space|metrischer Raum]] im Sinne von Definition \ref{MetricSpace} indem man setzt:
 
 $$
   d(x,y) \coloneqq {\Vert x-y\Vert}
@@ -90,7 +90,7 @@ $$
 +-- {: .num_defn #OpenBalls}
 ###### Definition
 
-Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
+Sei $(X,d)$, ein [[metric space|metrischer Raum]]. Dann heisee f&#252;r jedes Element $x \in X$ und jede [[positive number|positive]] [[real number|reelle Zahl]] $\epsilon \in \mathbb{R}_+$ die Menge
 
 $$
   B^\circ_x(\epsilon)
@@ -100,7 +100,7 @@ $$
   \right\}
 $$
 
-for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
+der _[[open ball|offene Ball]]_ von [[radius|Radius]] $\epsilon$ um $x$.
 
 =--
 
@@ -136,6 +136,8 @@ wobei $B^\circ$ den [[open ball|offenen ball]] bezeichnet (Definition \ref{OpenB
 Die Funktion $f$ heisst einfach _steig_ wenn sie an jedem Punkt $x \in X$ stetig ist.
 
 =--
+
+Wir formulieren diese analytische Begriffsbildung nun um, durch den einfachen aber wichtigen Begriff der [[open set|offenen Menge]]:
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
 ###### Definition
@@ -333,8 +335,6 @@ Sei $S$ eine [[set|Menge]], dann betrachtet die _[[discrete topology|diskrete to
 Sei $(X, \tau_X)$ ein [[topological space|topologischer Raum]], und sei $X_0 \hookrightarrow X$ eine [[subset|Untermenge]] der zugrunde liegenden Menge. Die zugeh&#246;rige  _[[topological subspace|Unterraumtopologie]]_ hat dann 
 
 * $X_0$ als ihre zugunde liegende Menge, 
-
-spring
 
 * die offenen Untermengen sind die Untermengen von $X_0$ welche Einshr&#228;nkungen von offenen Untermengen in $X$ sind.
 
@@ -652,7 +652,7 @@ Solche "stetigen Deformationen" heissen _[[homotopies|Homotopien]]_:
 ###### Definition
 **(Homotopie)**
 
-Seien $f,g\colon X \longrightarrow Y$ zwei [[continuous functions|stetige Funktionen]] zwischen [[topological spaces||topologischen Räumen]] $X,Y$, dann ist eine _[[left homotopy|(linke) Homotopie]]_
+Seien $f,g\colon X \longrightarrow Y$ zwei [[continuous functions|stetige Funktionen]] zwischen [[topological spaces|topologischen Räumen]] $X,Y$, dann ist eine _[[left homotopy|(linke) Homotopie]]_
 
 $$
   \eta \colon f \,\Rightarrow_L\, g
@@ -946,18 +946,8 @@ f&#252;r, zun&#228;chst, die Menge von [[homotopy classes|Homotopiklassen]] von 
 
 Diese heisst die _[[fundamental group|Fundamentalgrupp]]_ $\pi_1(X,x)$ von $X$ bei $x$.
 
-Ein topologischer Raum $X$ f&#252;r den 
-
-1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|pfad-zusammenhängend]], def. \ref{pi0}) 
-
-1. $\pi_1(X,x) \simeq 1$, 
-
-heisst _[[simply connected topological space|einfach zusammenhängend]]_.
-
 =--
 
-+-- {: .num_example}
-###### Beispiel
 
 Das folgende Bild deutet die vier nicht-trivialen Generatoren der [[fundamental group|Fundamentalgruppe]] der orientierten [[surface|Fläche]] vom [[genus of a surface|Geschlecht]] 2:
 
@@ -966,7 +956,6 @@ Das folgende Bild deutet die vier nicht-trivialen Generatoren der [[fundamental 
 > Illustration aus [Lawson 03](#Lawson03)
 
 
-=--
 
 
 Auch diese Konstruktion ist [[functor|funktoriell]], nun auf der  [[category]] $Top^{\ast/}$ von [[pointed topological spaces|punktierten topologischen Räumen]]:
@@ -978,55 +967,82 @@ $$
 
 As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]:
 
++-- {: .num_defn #SimplyConnected}
+###### Definition
+
+Ein topologischer Raum $X$ f&#252;r den 
+
+1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|pfad-zusammenhängend]], def. \ref{pi0}) 
+
+1. $\pi_1(X,x) \simeq 1$ (die Fundamentalgruppe ist [[trivial group|trivial]], def. \ref{FundamentalGroup}), 
+
+heisst _[[simply connected topological space|einfach zusammenhängend]]_.
+
+=--
 
 +-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
 ###### Proposition
-**([[topological invariance of dimension]] -- second simple case)**
+**([[topological invariance of dimension|topologische Invarianz der Dimension]] -- zweites einfaches Beispiel)**
 
-There is _no_ [[homeomorphism]] $\mathbb{R}^2 \longrightarrow \mathbb{R}^3$
+Es gibt  _keinen_ [[homeomorphism|Homeomorphismus]] zwischen $\mathbb{R}^2$ und $\mathbb{R}^3$.
 
 =--
 
 +-- {: .proof}
 ###### Beweis
 
-Assume there were such a homeomorphism $f$; we will derive a contradiction.
+Wir nehmen an es g&#228;be einen Homeomorphismus $f$ und werden einen Widerspruch herleiten.
 
-If $f$ is a homeomorphism, then so is its restriction to removing the origin from $\mathbb{R}^2$
-and $f(0)$ from $\mathbb{R}^3$. But these spaces have different [[fundamental groups]]:
+Sei also $f$ ein Homeomorphismus, dann ist auch seine Einschr&#228;nkung auf das Komplement eines Punktes einer 
 
-1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
-We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
+$$
+  (\mathbb{R}^2 - \{0\})
+    \longrightarrow
+  (\mathbb{R}^3 - \{f(0)\})
+  \,.
+$$
 
-1. The fundamental group of $\mathbb{R}^3 - \{f(0)\}$ is trivial: because the single removed point is
-no obstruction to sliding loops past it and contracting them.
 
-But since passing to fundamental groups is [[functor|functorial]], the same argument
-as in the proof of prop. \ref{ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
-shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
+Diese R&#228;ume sind beide zusammenh&#228;ngend, lassen sich also durch $\pi_0$ nicht unterscheiden. 
 
+Aber ihre [[fundamental groups|Fundamentalgruppen]] $\pi_1$ sind unterschiedlich:
+
+1. Die Fundamentalgruppe von $\mathbb{R}^{2} - \{0\}$ ist $\mathbb{Z}$ (die Windungszahl von Schleifen um den entfernten Punkt).
+Wir diskutieren dies n&#228;her unten in Beispiel \ref{FundamentalGroupOfTheCircle}.
+
+1. Die Fundamentalgruppe von  $\mathbb{R}^3 - \{f(0)\}$ its trivial: der einzelne fehlende Punkt hindert nicht daran Schleifen beliebig zusammenzuziehen.
+
+Aber weil die Konstrution der Fundamentalgruppe[[functor|funktiell]] sit, so folgt, mit de gleichen Argument wie in dem Beweis von Prop. \ref{ConnectedComponentsDistinctImpliesHeomeClassesDistinct},
+dass also $f$ kein [[isomorphism|Isomorphismus]] sein kein, also kein [[homeomorphism|Homeomorphismus]].
 
 =--
 
-We now discuss a "dual incarnation" of fundamental groups, which often helps to compute them.
 
-### Covering spaces
+$\,$
+
+### &#220;berlagerungsraum
  {#CoveringSpaces}
+
+Wir diskutieren nun eine "duale Erscheinungsform" der Fundamentalgruppe $\pi_1$, welche oft hilft sie zu berechnen.
 
 +-- {: .num_defn #CoveringSpace}
 ###### Definition
-**(covering space)**
+**(&#220;berlagerungsraum)**
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]]
+Ein _[[covering space|Überlagerungsraum]]_ &#252;ber einem [[topological space|topologischer Raum]] $X$ ist eine [[continuous map|stetige Abbildung]]
 
 $$
-  p \colon E \to X
+  p \;\colon\; E \longrightarrow X
 $$
 
-such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted
-to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$
-to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$
-with the [[discrete topological space]] (example \ref{DiscreteTopologicalSpace}) on a [[set]] $F_i$
+so dass eine [[open cover|offene Überdeckung]] existiert
+
+$$
+  \underset{i}{\sqcup}U_i \longrightarrow X
+$$
+
+so dass die Einschr&#228;nkung von $E \overset{p}{\to} X$ auf jedes der  [[homeomorphic|homeomorph]] ist zu dem [[product topological space|topologischen Produktraum]] (Beispiel \ref{ProductTopologicalSpace}) von $U_i$
+mit dem [[discrete topological space|diskreten topologischen Raum]] (Beispiel \ref{DiscreteTopologicalSpace}) auf einer [[set|Menge]] $F_i$:
 
 $$
   \array{
@@ -1039,82 +1055,98 @@ $$
   \,.
 $$
 
-For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called the _leaves_ of the covering at $x$.
+F&#252;r $x \in U_i \subset X$ ein Punkt heissen die Element von $F_x  = F_i$ die _[[leaf|Blätter]]_ der &#220;berlagerung an diesem Punkt.
 
 =--
 
 +-- {: .num_example #kForlCovringOfCircle}
-###### Example
-**(covering of circle by circle)**
+###### Beispiel
+**(&#220;berdeckung des Kreises durch den Kreis)**
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/pFoldCoveringOfCircleB.png" width="180">
 </div>
 
-Regard the [[circle]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ as the [[topological subspace]]
-of elements of unit [[absolute value]] in the [[complex plane]].
-For $k \in \mathbb{N}$, consider the continuous function
+Betrachte den [[circle|Kreis]] $S^1 = \{ z \in \mathbb{C}  \;\vert\; {\vert z\vert} = 1 \}$ als den [[topological subspace|topologischen Unterraum]] von Elementen mit [[absolute value|Betrag]] 1 in der  [[complex plane|komplexen Ebene]].
+F&#252;r $k \in \mathbb{N}$, betrachte die stetige Funktion
 
 $$
   p \coloneqq (-)^k \;\colon\; S^1 \longrightarrow S^1
 $$
 
-given by taking a complex number to its $k$th power. This may be thought of as the
-result of "winding the circle $k$ times around itself".
-Precisely, for $k \geq 1$ this is a [[covering space]]
-(def. \ref{CoveringSpace}) with $k$ leaves at each point.
+die eine komplexe Zahl auf ihr $k$-te Potenz schickt. 
 
-> graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
+Man denk sich dies als "der Kreis windet sich $k$ mal um sich selbst".
+Pr&#228;zise: f&#252;r $k \geq 1$ ist dies ein [[covering space|Überlagerungsraum]]
+(Def. \ref{CoveringSpace}) mit $k$ Bl&#228;ttern an jedem Punkt.
+
+> Illustration aus [Hatcher](homotopy+equivalence#Hatcher)
 
 
 =--
 
 +-- {: .num_example #CoveringOfCircleByRealLine}
-###### Example
-**(covering of circle by real line)**
+###### Beispiel
+**(&#220;berlagerung des Kreises durch die reelle Gerade)**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/UniversalCoveringOfCircle.png" width="150">
 </div>
 
-Consider the [[continuous function]]
+Betrachte die [[continuous function|stetige Funktion]]
 
 $$
   \exp(2 \pi i(-)) \;\colon\; \mathbb{R}^1 \longrightarrow S^1
 $$
 
-from the [[real line]] to the [[circle]],
-which with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$ is given by
+von der [[real line|reellen Geraden]] zum [[circle|Kreis]],
+welche
 
-$$
-  t \mapsto \exp(2\pi i t)
-$$
+1. mit the Kreis betrachtet als der Einheitskreis in der [[complex plane|komplexen Ebene]] $\mathbb{C}$ durch 
 
-and which with the circle regarded as the unit circle in $\mathbb{R}^2$ is given by
+   $$
+     t \mapsto \exp(2\pi i t)
+   $$
 
-$$
-  t \mapsto ( cos(2\pi t), sin(2\pi t) )
-  \,.
-$$
+   gegeben ist
 
-We may think of this as the result of "winding the line around the circle ad infinitum".
-Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the
-set $\mathbb{Z}$ of [[natural numbers]].
+1. mit dem Kreis betrachtet als Einheitskreis in $\mathbb{R}^2$ durch
+
+   $$
+     t \mapsto ( cos(2\pi t), sin(2\pi t) )
+   $$
+
+   gegeben ist.
+
+Man darf sich dies vorstellen als  "das unendliche Umwickeln des Kreises durch die reelle Achse".
+
+Pr&#228;zise: dies ist ein [[covering space|Überlagerungsraum]] (def. \ref{CoveringSpace}) mit  [[leaves|Blattmenge]] an jedem Punkt isomorph zur Menge $\mathbb{Z}$ der [[natural numbers|ganzen Zahlen]].
 
 =--
 
 
 +-- {: .num_defn #ActionOfFundamentalGroupOnFibersOfCovering}
 ###### Definition
-**(action of fundamental group on fibers of covering)**
+**(Wirkung der Fundamentalgruppe auf Bl&#228;tter einer &#220;berlagerung)**
 
-Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
+Sei $E \overset{\pi}{\longrightarrow} X$ ein [[covering space|Überlagerungsraum]] (def. \ref{CoveringSpace}).
 
-Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the leav space over $x$,
-there is, up to [[homotopy]], a unique way to lift a representative
-path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a
-continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gama(e) \in F_x$
-in the same [[fiber]]. This construction provides a [[function]]
+Dann gilt f&#252;r jeden Punkt $x \in X$ und jede Wahl von Element $e \in F_x$ aus der [[leaf space|Blattmenge]] &#252;ber $x$,
+es existiert, bis auf  [[homotopy|Homotopie]], eine eindeutige Hebung 
+
+* eines Pfades in $X$ der ein Element $\gamma$ der [[fundamental group|Fundamentalgruppe]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup})  repr&#228;sentiert 
+
+* zu einem stetigen Pfad in $E$ der bei $e$ beginnt. 
+
+Dieser Pfad endet notwendigerwise and einem (anderen) Punkt 
+
+$$
+  \rho_\gama(e) \in F_x
+$$
+
+in derselben [[fiber|Faser]]. 
+
+Diese Kontruktion gibt eine [[function|Funktion]]
 
 $$
   \array{
@@ -1124,8 +1156,7 @@ $$
   }
 $$
 
-from the [[Cartesian product]] of the [[leaf space]] with the [[fundamental group]]. This function
-is compatible with the [[group]] operation on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commutes]]:
+aus dem [[Cartesian product|kartesischen Produk]] des [[leaf space|Blattraumes]] mit der [[fundamental group|Fundamentalgruppe]]. Diese Funtion ist kompatibel mit der [[group|Gruppen]]-Struktur auf $\pi_1(X,x)$, in dem Sinne dass die folgenden [[commuting diagram|Diagramme kommutieren]]:
 
 $$
   \array{
@@ -1138,11 +1169,11 @@ $$
   \;\;\;\;\;\;
   \left(
   \array{
-    \text{the neutral element,}
+    \text{das neutrale Element,}
     \\
-    \text{i.e. the constant loop,}
+    \text{also die konstante Schleife}
     \\
-    \text{acts trivially}
+    \text{wirkt trivial}
   }
   \right)
 $$
@@ -1164,19 +1195,19 @@ $$
   \;\;\;\;\;\;
   \left(
   \array{
-    \text{acting with two group elements }
+    \text{die Wirkung von zwei Gruppenelementen }
     \\
-    \text{is the same as}
+    \text{ist die gleiche wie}
     \\
-    \text{first multiplying them}
+    \text{erst beide Elemente zu verkn&#252;pfen}
     \\
-    \text{ and then acting with their product element}
+    \text{und dann mit dem Produkt zu wirken}
   }
   \right)
   \,.
 $$
 
-One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
+Man sagt auch dass $\rho$ eine _[[action|Wirkung]]_ oder _[[permutation representation|Permutationsdarstellung]]_ von $\pi_1(X,x)$ auf $F_x$ ist.
 
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
 equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect
@@ -1263,7 +1294,7 @@ $$
 This has some interesting implications:
 
 Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
-(def. \ref{FundamentalGroup}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
+(def. \ref{SimplyConnected}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
 (theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself.
 This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the
 [[fundamental group]] itself may be recovered as the [[automorphisms]] of the universal covering space:
@@ -1279,7 +1310,7 @@ $$
 **(computing the fundamental group of the circle)**
 
 The covering $\exp(2\pi i(-)) \;\colon\; \mathbb{R}^1 \to S^1$ from example \ref{CoveringOfCircleByRealLine}
-is [[simply connected topological space|simply connected]], hence must be the [[universal covering space]],
+is [[simply connected topological space|simply connected]] (def. \ref{SimplyConnected}), hence must be the [[universal covering space]],
 up to [[homeomorphism]].
 
 It is fairly straightforward to see that the only [[homeomorphisms]] from $\mathbb{R}^1$ to itself
