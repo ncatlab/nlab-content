@@ -22,6 +22,12 @@ Diese Seite behandelt _Topologie_ als **Untergebiet der [[mathematics|Mathemaik]
 
 ***
 
+$\,$
+
+$\,$
+
+$\,$
+
 #Inhalt#
 * table of contents
 {:toc}
@@ -48,10 +54,12 @@ Im Folgenden geben wir eine kurze Einf&#252;hrung zu den zentralen Konzepten und
 ### Stetigkeit
  {#Continuity}
 
-Die zentrale Idee der Topologie ist es, [[spaces|Räume]] mit "[[continuous maps|stetigen Abbildungen]]" zwischen ihnen zu betrachten. Das Konzept der Stetigkeit wurde zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" von [[open balls|offenen Bällen]], an diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann wurde realisiert dass dies eine elegantere Formulierung durch den Begriffe der _[[open sets|offenen Mengen]]_ hat, dies ist unten Prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  _[[topological spaces|topologischen Raumes]]_ entsteht daraus wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist Def. \ref{TopologicalSpaces} unten.
+Die zentrale Idee der Topologie ist es, [[spaces|Räume]] mit "[[continuous maps|stetigen Abbildungen]]" zwischen ihnen zu betrachten. 
+
+Historisch wurde das Konzept der Stetigkeit zuerst in der [[analysis|Analysis]] pr&#228;zise gemacht, durch "[[epsilontic analysis|epsilontische Analysis]]" von [[open balls|offenen Bällen]], an diese wird unten in def. \ref{EpsilonDeltaDefinitionOfContinuity} erinnert. Dann realisierte man dass dies eine elegantere Formulierung durch den Begriffe der _[[open sets|offenen Mengen]]_ hat, dies ist unten Prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets}. Der Begriff des  _[[topological spaces|topologischen Raumes]]_ ergibt sich wenn man von diesem allgemeinen Begriff der offenen Mengen ausgeht, dies ist Def. \ref{TopologicalSpaces} unten.
 
 
-Sei zun&#228;chst an folgende elementare Begriffe der [[analysis|Analysis]] erinnert:
+Sei daher zun&#228;chst an folgende elementare Begriffe der [[analysis|Analysis]] erinnert:
 
 +-- {: .num_defn #MetricSpace}
 ###### Definition
@@ -90,7 +98,7 @@ $$
 +-- {: .num_defn #OpenBalls}
 ###### Definition
 
-Sei $(X,d)$, ein [[metric space|metrischer Raum]]. Dann heisee f&#252;r jedes Element $x \in X$ und jede [[positive number|positive]] [[real number|reelle Zahl]] $\epsilon \in \mathbb{R}_+$ die Menge
+Sei $(X,d)$, ein [[metric space|metrischer Raum]]. Dann heisst f&#252;r jedes Element $x \in X$ und jede [[positive number|positive]] [[real number|reelle Zahl]] $\epsilon \in \mathbb{R}_+$ die Menge
 
 $$
   B^\circ_x(\epsilon)
@@ -100,7 +108,7 @@ $$
   \right\}
 $$
 
-der _[[open ball|offene Ball]]_ von [[radius|Radius]] $\epsilon$ um $x$.
+der _[[open ball|offene Ball]] von [[radius|Radius]] $\epsilon$ um $x$_.
 
 =--
 
@@ -113,7 +121,7 @@ der _[[open ball|offene Ball]]_ von [[radius|Radius]] $\epsilon$ um $x$.
 <img src="https://ncatlab.org/nlab/files/EpsilonDeltaBalls.png" width="250">
 </div>
 
-Sein $(X,d_X)$ und $(Y,d_Y)$ zwei [[metric spaces|metrische Räume]] (def. \ref{MetricSpace}), dann heisst eine [[function|Funktion]]
+Seien $(X,d_X)$ und $(Y,d_Y)$ zwei [[metric spaces|metrische Räume]] (def. \ref{MetricSpace}), dann heisst eine [[function|Funktion]]
 
 $$
   f \;\colon\; X \longrightarrow Y
@@ -131,9 +139,9 @@ $$
   f(\;B_x^\circ(\delta)\;) \;\subset\; B^\circ_{f(x)}(\epsilon)
 $$
 
-wobei $B^\circ$ den [[open ball|offenen ball]] bezeichnet (Definition \ref{OpenBalls}).
+wobei $B^\circ$ den [[open ball|offenen Ball]] bezeichnet (Definition \ref{OpenBalls}).
 
-Die Funktion $f$ heisst einfach _steig_ wenn sie an jedem Punkt $x \in X$ stetig ist.
+Die Funktion $f$ heisst _stetig_ wenn sie an jedem Punkt $x \in X$ stetig ist.
 
 =--
 
@@ -151,7 +159,7 @@ Sei $(X,d)$ ein [[metric space|metrischer Raum]] (def. \ref{MetricSpace}). Dann 
 
 =--
 
-Das folgende Bild zeigt einen Punkt $x$, inige [[open balls|offene Bälle]] $B_i$ die $x$ enthalten, und zwei seiner [[neighbourhoods|Umgebungen]] $U_i$:
+Das folgende Bild zeigt einen Punkt $x$, einige [[open balls|offene Bälle]] $B_i$ die $x$ enthalten, und zwei seiner [[neighbourhoods|Umgebungen]] $U_i$:
 
 <img src="https://ncatlab.org/nlab/files/NeighbourhoodsAndOpenBalls.png" width="500">
 
@@ -163,39 +171,33 @@ Das folgende Bild zeigt einen Punkt $x$, inige [[open balls|offene Bälle]] $B_i
 ###### Proposition
 **(Stetigkeit durch offene Mengen ausgedr&#252;ckt)**
 
-Eine [[function]] $f \colon X \to Y$ zwischen [[metric spaces|metrischen Räumen]] (def. \ref{MetricSpace}) ist stetig in dem  [[epsilontic analysis|epsilontischen]] Sinne von def. \ref{EpsilonDeltaDefinitionOfContinuity} genau dann wenn sie die Eigenschaft hat dass ihre [[pre-images|Urbilder]] von [[open subsets|offenen Mengen]] in $Y$ (im Sinne von def. \ref{OpenSubsetsOfAMetricSpace}) auch offene Mengen von $X$ sind.
+Eine [[function|Funktion]] $f \colon X \to Y$ zwischen [[metric spaces|metrischen Räumen]] (def. \ref{MetricSpace}) ist stetig in dem  [[epsilontic analysis|epsilontischen]] Sinne von def. \ref{EpsilonDeltaDefinitionOfContinuity} genau dann wenn sie die Eigenschaft hat dass:
+
+* ihre [[pre-images|Urbilder]] von [[open subsets|offenen Mengen]] in $Y$ (im Sinne von def. \ref{OpenSubsetsOfAMetricSpace}) sind auch offene Mengen von $X$.
 
 =--
 
 +-- {: principle}
-**Prinzip der stetigkeit**
+**Prinzip der Stetigkeit**
 
 $\,$ $\,$ _Urbilder offener Mengen sind offen._
 
 =--
 
 
-+-- {: .proof}
-###### Beweis
-
-First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1(O_Y)}$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $U$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_X^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
-
-Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon)$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta)$ in its pre-image. But by assumption $f^{-1}(B_{f(x)}^\circ(\epsilon))$ contains a [[neighbourhood]] of $x$ which by definition means that it contains such an open ball around $x$.
-
-
-=--
-
+$\,$
 
 
 ### Topologische R&#228;ume
  {#TopologicalSpaces}
 
+Daher sollten wir uns also gut das Konzept von [[open subset|offenen Mengen]] ansehen. Es stellt sich heraus dass die folgende Abschlusseigenschaft das Konzept von offenen Mengen bereits sinnvoll _charakterisiert_.
 
 +-- {: .num_prop }
 ###### Proposition
 **(Abschlusseigenschaft offener Mengen eines metrischen Raumes)**
 
-Die Menge [[open subsets|offener Mengen]] eines [[metric space|metrischen Raumes]] $(X,d)$ wie in def. \ref{OpenSubsetsOfAMetricSpace} hat die folgenden Eigenschaften:
+Die Menge aller [[open subsets|offenen Mengen]] eines [[metric space|metrischen Raumes]] $(X,d)$ wie in def. \ref{OpenSubsetsOfAMetricSpace} hat die folgenden Eigenschaften:
 
 1. Der [[intersection|Durchschnitt]] einer [[finite number|endlichen Zahl]] von offenen Mengen ist wieder eine offene Menge.
 
@@ -203,11 +205,11 @@ Die Menge [[open subsets|offener Mengen]] eines [[metric space|metrischen Raumes
 
 Insbesondere 
 
-* die [[empty set|Leere Menge]] ist offen (als die Vereinigung keiner Untermeng) 
+* die [[empty set|leere Menge]] ist offen (als die Vereinigung keiner Untermenge) 
 
 und
 
-* die ganze Menge $X$ selbst ist offen (als Durchschnitt keine Untermenge).
+* die ganze Menge $X$ selbst ist offen (als Durchschnitt keiner Untermenge).
 
 =--
 
@@ -217,7 +219,7 @@ Dies motiviert die folgende allgemeinere Definition:
 ###### Definition
 **(topologische R&#228;ume)**
 
-Gegeben eine [[set|Menge]] $X$, dann ist eine _Topologie_ $\tau$ auf $X$ eine Menge von [[subsets|Untermengen]] von $X$ die dann _[[open subsets|offene Mengen]]_ genannt werden, also eine [[subset|Untermenge]] der [[power set|Potenzmenge]]
+Gegeben eine [[set|Menge]] $X$, dann ist eine _Topologie_ $\tau$ auf $X$ eine Menge von [[subsets|Untermengen]] von $X$ -- die dann _[[open subsets|offene Mengen]]_ genannt werden -- also eine [[subset|Untermenge]] der [[power set|Potenzmenge]]
 
 $$
   \tau \subset P(X)
@@ -233,7 +235,7 @@ Ein _[[topological space|topologischer Raum]]_ ist eine Menge $X$ ausgestattet m
 
 =--
 
-Die folgence Illustration zeigt alle Topologien auf der 3-Element Menge (bis auf Permutation der Elemente):
+Die folgende Illustration zeigt alle Topologien auf der 3-Element Menge (bis auf Permutation der Elemente):
 
 <img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
 
@@ -273,7 +275,7 @@ so dass [[pre-images|Urbilder]] unter $f$ von offenen Mengen in $Y$ wieder offen
 Diese einfach Definition von [[open subsets|offenen Untermengen]] und das einfache _Stetigkeitprinzip_
 geben der Topologie ihr fundamentales und universelles Gepr&#228;ge. 
 Die kombinatoischen Natur dieser Definition macht dass Topologie
-enege Bez&#252;ge zur [[formal logic|formalen Logik]] hat (zu mehr dazu  siehe _[[locale]]_).
+enge Bez&#252;ge zur [[formal logic|formalen Logik]] hat (mehr dazu siehe _[[locale]]_).
 
 
 +-- {: .num_remark}
@@ -290,7 +292,7 @@ Man sagt dass
 
 einer _[[category|Kategorie]]_. Die _[[category of topological spaces|Kategorie der topologischen Räume]]_ (kurz: _[[Top]]_ ).
 
-Es ist n&#252;tzliche eine Ansammlung von [[objects|Objekten]] mit [[morphisms|Morphismen]] dazischen durch [[diagrams|Diagramme]] darzustellen, wie dieses:
+Es ist n&#252;tzliche eine Ansammlung von [[objects|Objekten]] mit [[morphisms|Morphismen]] dazwischen durch [[diagrams|Diagramme]] darzustellen, wie dieses:
 
 
 <img src="https://ncatlab.org/nlab/files/AssociativityDiagram.png" width="400">
@@ -320,7 +322,7 @@ Ein wichtiger Punkt der allgemeinen Definition von "[[topological space|topologi
 ###### Beispiel
 **(diskrete topologische R&#228;ume)**
 
-Sei $S$ eine [[set|Menge]], dann betrachtet die _[[discrete topology|diskrete topologie]]_ auf $S$ _jede_ Untermenge von $S$ als [[open subset|offene Untermenge]].
+Sei $S$ eine [[set|Menge]], dann betrachtet die _[[discrete topology|diskrete Topologie]]_ auf $S$ _jede_ Untermenge von $S$ als [[open subset|offene Untermenge]].
 
 =--
 
@@ -409,14 +411,34 @@ und
 
 
 
-Diese Konstruktionen von[[discrete topological spaces|disketen topologischen Räumen]], [[quotient topological spaces|topologischen Quotientenräumen]], [[topological subspaces|topologischen Unterräumen]] und von [[product topological spaces|topologischen Produkträumen]] snd einfache Beispiele f&#252;r **[[limits|Limiten]]** und **[[colimits|Kolimiten]]** von topologischen R&#228;umen. Die [[category|Kategorie]] [[Top]] von topologischen R&#228;umen hat die n&#252;tzliche Eigenschaft dass _alle_ [[limits|Limiten]] und [[colimits|Kolimiten]] (&#252;ber [[small diagrams|kleine Diagramme]]) in ihr existieren. (Zu mehr dazu siehe _[Top -- Universelle Konstruktionen](Top#UniversalConstructions)_.)
+Diese Konstruktionen von[[discrete topological spaces|disketen topologischen Räumen]], [[quotient topological spaces|topologischen Quotientenräumen]], [[topological subspaces|topologischen Unterräumen]] und von [[product topological spaces|topologischen Produkträumen]] snd einfache Beispiele f&#252;r **[[limits|Limiten]]** und **[[colimits|Kolimiten]]** von topologischen R&#228;umen. Die [[category|Kategorie]] [[Top]] von topologischen R&#228;umen hat die n&#252;tzliche Eigenschaft dass _alle_ [[limits|Limiten]] und [[colimits|Kolimiten]] (&#252;ber [[small diagrams|kleine Diagramme]]) in ihr existieren (mehr dazu siehe _[Top -- Universelle Konstruktionen](Top#UniversalConstructions)_.)
 
 
 
 ### Homeomorphismen
  {#Homeomorphisms}
 
-Mit den [[objects|Objekten]] ([[topological spaces|topologischen Räumen]]) und den [[morphisms|Morphismen]] ([[continuous maps|stetige Abbildungen]]) der [[category|Kategorie]] [[Top]] der Topologie also definiert, erhalten wir den Begriff der "Gleichheit" in der Topologie:
+Mit den [[objects|Objekten]] ([[topological spaces|topologischen Räumen]]) und den [[morphisms|Morphismen]] ([[continuous maps|stetige Abbildungen]]) der [[category|Kategorie]] [[Top]] der Topologie also definiert, erhalten wir den Begriff der "Gleichheit" in der Topologie.
+
+Um dies pr&#228;zise zu machen sagt man dass ein [[morphism|Morphismu]] 
+
+$$
+  X \overset{f}{\to} Y
+$$ 
+
+in einer [[category|Kategorie]] ein _[[isomorphism|Isomorphismus]]_ ist wenn ein weiterer Morphismus in die andere Richtung existiert
+
+$$
+  X \overset{f^{-1}}{\longleftarrow} Y 
+$$
+
+welcher [[inverse|invers]] zu $f$ ist in dem Sinne dass
+
+$$
+  f \circ f^{-1} = id_Y \;\;\;\;\; and \;\;\;\;\; f^{-1} \circ f = id_X
+  \,.
+$$
+
 
 
 +-- {: .num_defn #Homeomorphism}
@@ -456,7 +478,7 @@ $$
 ###### Beispiel
 **(offenes Intervall homeomorph zur reellen Geraden)**
 
-Das offene [[interval|Intervall]] $(-1,1)$ ist [[homeomorphic|homeomorph]] zu der gesamtn [[real line|reellen Geraden]]
+Das offene [[interval|Intervall]] $(-1,1)$ ist [[homeomorphic|homeomorph]] zu der gesamten [[real line|reellen Geraden]]
 
 $$
   (0,1) \underset{homeo}{\simeq} \mathbb{R}^1
@@ -558,7 +580,7 @@ Wir m&#252;ssen also pr&#252;fen dass $\tilde f$ eine stetige inverse Funtion ha
 
 Analog gilt:
 
-Das [[square|Quadrat]] $[0,1]^2$ mit zwei seiner Seiten identifiziert ist der [[cylinder|Zylinder]], und mit zwei weitern Seiten identifiziert der [[torus|Torus]]:
+Das [[square|Quadrat]] $[0,1]^2$ mit zwei seiner Seiten identifiziert ist der [[cylinder|Zylinder]], und mit zwei weiteren Seiten identifiziert der [[torus|Torus]]:
 
 <img src="https://ncatlab.org/nlab/files/TorusAsQuotientOfSquare.png" width="500">
 
@@ -578,7 +600,7 @@ Wichtige Beispiele von topologischen R&#228;umen die _nicht_ homeomorph sind, en
 ###### Theorem
 **([[topological invariance of dimension|topologische Invarianz der Dimension]])**
 
-Seien $n_1, n_2 \in \mathbb{N}$ aber $n_1 \neq n_2$, dann sind die [[kartesischen Räume]] $\mathbb{R}^{n_1}$ und $\mathbb{R}^{n_2}$ _nicht_ [[homeomorphic|homeomorph]].
+Seien $n_1, n_2 \in \mathbb{N}$ aber $n_1 \neq n_2$, dann sind die [[Cartesian space|kartesischen Räume]] $\mathbb{R}^{n_1}$ und $\mathbb{R}^{n_2}$ _nicht_ [[homeomorphic|homeomorph]].
 
 Allgemeiner, eine [[open set|offene Menge]] in $\mathbb{R}^{n_1}$ ist nie homeomorph zu einer offenen Menge in $\mathbb{R}^{n_2}$ wenn $n_1 \neq n_2$.
 
@@ -758,7 +780,7 @@ $\,$
 ### Zusammenhangskomponenten
  {#ConnectedComponents}
 
-Unter verwendung des Begriffs der [[homotopy|Homotopie]] erh&#228;lt man die grundlegnden Werkzeuge der [[algebraic topology|algebraischen Topologie]], n&#228;mlich die Konstruktion algebraischer [[homotopy invariants|Homotopieinvarianten]] von topologischen R&#228;umen. Wir f&#252;hren hier die einfachsten dieser Werzeuge ein und illustrieren deren Anwendung.
+Unter Verwendung des Begriffs der [[homotopy|Homotopie]] erh&#228;lt man die grundlegnden Werkzeuge der [[algebraic topology|algebraischen Topologie]], n&#228;mlich die Konstruktion algebraischer [[homotopy invariants|Homotopieinvarianten]] von topologischen R&#228;umen. Wir f&#252;hren hier die einfachsten dieser Werkzuge ein und illustrieren deren Anwendung.
 
 
 +-- {: .num_example}
@@ -1209,9 +1231,10 @@ $$
 
 Man sagt auch dass $\rho$ eine _[[action|Wirkung]]_ oder _[[permutation representation|Permutationsdarstellung]]_ von $\pi_1(X,x)$ auf $F_x$ ist.
 
-For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
-equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect
-these actions. The above construction yields a [[functor]]
+For $G$ irgend eine [[group|Gruppe]], dann gibt es eine [[category|kategorie]] $G Set$ deren [[objects|Objekte]] die [[sets|Mengen]]
+mit  $G$-[[action|Wirkung]] sind, und deren [[morphisms|Morphismen]] solche [[function|Funktionen]] sind die diese $G$-Wirkung respektieren. 
+
+Die obige Konstruktion ist dann ein [[functor|Funktor]] der Form
 
 $$
   Cov(X) \longrightarrow \pi_1(X,x) Set
@@ -1221,35 +1244,35 @@ $$
 =--
 
 +-- {: .num_example }
-###### Example
-**(three-sheeted covers of the circle)**
+###### Beispiel
+**(drei-bl&#228;ttrige &#220;berdeckung des Kreises)**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
 </div>
 
-There are, up to [[isomorphism]], three different 3-sheeted [[covering spaces]] of the [[circle]] $S^1$.
+Es gibt, bis auf [[isomorphism|Isomorphismus]], drei uterschiedliche 3-bl&#228;ttrige [[covering spaces|Überlagerungen]] des [[circle|Kreises]] $S^1$.
 
-The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And the trivial one.
-Their corresponding [[permutation actions]] may be seen from the pictures on the right.
+Die von Beeispiel \ref{kForlCovringOfCircle} f&#252;r $k = 3$. Und eine andere. Und die triviale. Die zugeh&#246;rigen [[permutation actions|Permutationswirkungen]] sind in dem bild rechts angedeutet.
+
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
 
 =--
 
-We are now ready to state the main theorem about the [[fundamental group]]. Except that it
-does require the following slightly technical condition on the base topological space.
-This condition is satisfied for all "reasonable" topological spaces:
+Wir sind jetzt bereit den Hauptsatz &#252;ber die [[fundamental group|Fundamentalgruppe]] zu nennen. 
+
+Wir bn&#246;tigen nur noch die folgende technische Bdingung. Diese ist f&#252;r alle "sinnvollen" topologischen R&#228;ume erf&#252;llt:
 
 +-- {: .num_defn #SemiLocallySimplyConnected}
 ###### Definition
-**(semi-locally simply connected)**
+**(semi-lokal einfach zusammenh&#228;ngend)**
 
-A [[topological space]] $X$ is called
+Ein [[topological space|topologischer Raum]] $X$ heisst
 
-1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
-   exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
+1. _[[locally path-connected|lokal pfad-zusammenhängend]]_ wenn f&#252;r jeden Punkt $x \in X$ und f&#252;r jede [[neighbourhoodUmgebung]] $x \in U \subset X$ gilt dass 
+eine Umgebung $x \in V \subset U$ existiert so dass $V$  [[path-connected topological space|pfad-zusammenhängend]] ist (def. \ref{pi0});
 
-1. _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $x \in U \subset X$ such that the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
+1. _[[semi-locally simply connected topological space|semi-lokal einfach zusammenhängend]]_ wenn jeder Punkt $x \in X$ eine  [[neighbourhood|Umgebung]] $x \in U \subset X$ hat so dass der induzierte Morphismus von [[fundamental groups|Fundamentalgruppen]] $\pi_1(U,x) \to \pi_1(X,x)$ trivial ist (also jedes Element auf das [[neutral element|neutrale Element]] schickt).
 
 =--
 
@@ -1257,32 +1280,33 @@ A [[topological space]] $X$ is called
 
 +-- {: .num_theorem #FundamentalTheoremOfCoveringSpaces}
 ###### Theorem
-**([[fundamental theorem of covering spaces]])**
+**([[fundamental theorem of covering spaces|Fundamentalsatz der Überlagerungstheorie]])**
 
-Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0}),
-[[locally path-connected topological space|locally path connected]] (def. \ref{SemiLocallySimplyConnected})
-and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then
-for any $x \in X$ the functor
+Sei $X$ ein [[topological space|topologischer Raum]] der [[connected topological space|pfad-zusammenhängend]] (def. \ref{pi0}),
+[[locally path-connected topological space|lokal pfad-zusammenhängend]] (def. \ref{SemiLocallySimplyConnected})
+und [[semi-locally simply connected topological space|semi-lokal einfach zusammenhängend]] ist (def. \ref{SemiLocallySimplyConnected}). 
+
+Dann ist f&#252;r jedes $x \in X$ der Funktor
 $$
   Fib_x \;\colon\; Cov(X) \overset{}{\longrightarrow} \pi_1(X,x) Set
   \,.
 $$
-from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
-the [[action]] of the [[fundamental group]] of $X$ on the set of [[leaves]] over $x$
-has the following property:
 
-1. every [[isomorphism class]] of $\pi_1(X,x)$-[[actions]] in in the image of the functor (one says: the functor is _[[essentially surjective functor|essentially surjective]]_);
+von def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} der die [[action|Wirkung]] der [[fundamental group|Fundamentalgruppe]] von $X$ auf die menge der [[leaves|Blätter]] &#252;ber $x$ konstruiert
+hat die folgenden Eigenschaften:
 
-1. for any two covering spaces $E_1, E_2$ of $X$ then the map on [[hom-sets]]
+1. jede [[isomorphism class|Isomorphieklasse]] von $\pi_1(X,x)$-[[actions|Wirkungen]] ist im Bild des Funktors (man sagt: der Funktor ist _[[essentially surjective functor|essentiell surjectiv]]_);
+
+1. f&#252;r je zwei &#220;berlagerungsr&#228;ume $E_1, E_2$ of $X$ ist die Abbildung au [[hom-sets|Morphismen-Mengen]]
 
    $$
      Fib_x \;\colon\; Hom_{Cov(X)}(E_1, E_2) \longrightarrow Hom( Fib_x(E_1), Fib_x(E_2) )
    $$
 
-   is a [[bijection]] (one says the functor is a _[[fully faithful functor]]_ ).
+   eine [[bijection|Bijektion]] (man sagt der Funktor ist _[[fully faithful functor|voll true]]_ ).
 
 
-A functor with these two properties one calls an _[[equivalence of categories]]_:
+Ein Funktor mit diesen Eigenschaften heisst _[[equivalence of categories|Äquivalenz von Kategorien]]_:
 
 $$
   Cov(X) \overset{\simeq}{\longrightarrow} \pi_1(X,x) Set
@@ -1291,7 +1315,12 @@ $$
 
 =--
 
-This has some interesting implications:
+Dies hat eineige interesante Konsequenzen...
+
+$\,$
+
+
+$\,$
 
 Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
 (def. \ref{SimplyConnected}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
