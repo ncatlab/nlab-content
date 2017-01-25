@@ -70,11 +70,14 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 
 ### Realization in superstring theory
 
-Discussion of possible realizations in [[superstring theory]] includes
+Discussion of possible realizations in [[superstring theory]] (specifically [[heterotic string theory]]) includes
 
 * {#PaquettePerssonVolpato16} [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _Monstrous BPS-Algebras and the Superstring Origin of Moonshine_ ([arXiv:1601.05412](http://arxiv.org/abs/1601.05412))
 
 * {#KachruPaquetteVolpato16} [[Shamit Kachru]], [[Natalie Paquette]], Roberto Volpato, _3D String Theory and Umbral Moonshine_ ([arXiv:1603.07330](http://arxiv.org/abs/1603.07330))
+
+
+* [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _BPS Algebras, Genus Zero, and the Heterotic Monster_ ([arXiv:1701.05169](https://arxiv.org/abs/1701.05169))
 
 [[!redirects moonshine]]
 
