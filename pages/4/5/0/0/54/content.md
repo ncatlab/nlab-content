@@ -86,7 +86,7 @@ A list of further teaching in the past is _[here](http://ncatlab.org/schreiber/s
 
 For a list of research articles that I have written see the public preprint server
 
-* [arXiv](http://arxiv.org/a/schreiber_u_1.html), 
+* [arXiv](https://arxiv.org/find/math/1/au:+Schreiber_U/0/1/0/all/0/1), 
 
 or my
 
