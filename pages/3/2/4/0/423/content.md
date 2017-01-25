@@ -209,11 +209,11 @@ The collection of [[open subsets]] of a [[metric space]] $(X,d)$ as in def. \ref
 
 1. The [[union]] of any [[set]] of open subsets is again an open subset.
 
-In particular 
+In particular
 
-* the [[empty set]] is open (being the union of no subsets) 
+* the [[empty set]] is open (being the union of no subsets)
 
-and 
+and
 
 * the whole set $X$ itself is open (being the intersection of no subsets).
 
@@ -289,9 +289,9 @@ topology be closely related to [[formal logic]] (for more on this see at _[[loca
 
 The [[composition]] of [[continuous functions]] is clearly [[associativity|associative]] and [[unitality|unital]].
 
-One says that 
+One says that
 
-1. [[topological spaces]] constitute the [[objects]] 
+1. [[topological spaces]] constitute the [[objects]]
 
 1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
 
@@ -315,7 +315,7 @@ Our motivating example now reads:
 ###### Example
 **(metric topology)**
 
-Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_. 
+Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_.
 
 Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]].
 
@@ -356,17 +356,17 @@ The picture on the right shows two open subsets inside the [[square]], regarded 
 ###### Example
 **(quotient topological space)**
 
-Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let 
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let
 
 $$
   R_\sim \subset X \times X
 $$
 
-be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has 
+be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has
 
-* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]], 
+* as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]],
 
-and 
+and
 
 * a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
 
@@ -399,11 +399,11 @@ identifying the remaining sides (the _[[torus]]_).
 </div>
 
 For $X$ and $Y$ two [[topological spaces]], then the [[product topological space]] $X \times Y$
-has 
+has
 
-* as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$, 
+* as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$,
 
-and 
+and
 
 * its [[open sets]] are those subsets $O \subset X \times Y$ of the Cartesian product such that for all point $(x,y) \in O$
 there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that $O_x \times O_y \subset O$.
@@ -431,7 +431,7 @@ With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuou
 ###### Definition
 **(homeomorphisms)**
 
-An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_. 
+An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_.
 
 Hence this is a [[continuous function]]
 
@@ -514,13 +514,13 @@ $$
   S^1 \hookrightarrow \mathbb{R}^2
 $$
 
-be the unit [[circle]] in the [[plane]] 
+be the unit [[circle]] in the [[plane]]
 
 $$
   S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}
 $$
 
-equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of the plane $\mathbb{R}^2$, 
+equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of the plane $\mathbb{R}^2$,
 which itself equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
 
 Moreover, let
@@ -707,7 +707,7 @@ $$
 **(homotopy equivalence)**
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a _[[homotopy equivalence]]_ if 
+is called a _[[homotopy equivalence]]_ if
 
 1. there exists a continuous function the other way around,
 $g \;\colon\; Y \longrightarrow X$, and
@@ -723,7 +723,7 @@ $g \;\colon\; Y \longrightarrow X$, and
   $$
     \eta_2 \;\colon\; g\circ f \Rightarrow_L id_X
     \,.
-    
+
   $$
 
 =--
@@ -786,7 +786,7 @@ is a continuous [[path]] between these points.
 ###### Definition
 **(connected components)**
 
-The set of [[homotopy classes]] of points in a [[topological space]] $X$ is called its set of 
+The set of [[homotopy classes]] of points in a [[topological space]] $X$ is called its set of
 _path-[[connected components]]_, denoted.
 
 $$
@@ -863,7 +863,7 @@ $$
 
 =--
 
-This means that we may use path connected components as a first "topological invariant" that allows us to distinguish some topological spaces. 
+This means that we may use path connected components as a first "topological invariant" that allows us to distinguish some topological spaces.
 
 +-- {: principle}
 **principle of algebraic topology**
@@ -895,7 +895,25 @@ $$
 
 we will derive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (example \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
 
-It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one.
+$$
+  f
+    \;\colon\;
+  (\mathbb{R}^1-\{0\})
+    \longrightarrow
+  (\mathbb{R}^2 - \{f(0)\})
+  \,.
+$$
+
+
+It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one:
+
+$$
+  \pi_0(\mathbb{R}^1-\{0\})
+    \;\neq\;
+  \pi_0(\mathbb{R}^2 - \{f(0)\})
+  \,.
+$$
+
 
 =--
 
@@ -923,18 +941,25 @@ The next topological invariant after the [[connected components]] is the _[[fund
 ###### Definition
 **(fundamental group)**
 
-Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
+Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write 
 
-Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
+$$
+  \pi_1(X,x)
+    \;\in\;
+  Grp
+$$
 
-A topological space $X$ for which $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0}) and
-for which the [[fundamental group]] is [[trivial group|trivial]], $\pi_1(X,x) = 1$, is called
-_[[simply connected topological space|simply connected]]_.
+for, to start with, the set of [[homotopy classes]] of [[paths]] in $X$ that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
+
+1. Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]]. 
+
+1. The constant loop is a [[neutral element]] under this composition (thus making $\pi_1(X,x)$ a "[[monoid]]"). 
+
+1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x,)$, making $\pi_1(X,x)$ indeed into a [[group]]. 
+
+This is called the _[[fundamental group]]_ of $X$ at $x$.
 
 =--
-
-+-- {: .num_example}
-###### Example
 
 The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the
 oriented [[surface]] of [[genus of a surface|genus]] 2:
@@ -944,10 +969,10 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 > graphics grabbed from [Lawson 03](#Lawson03)
 
 
-=--
 
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ whose [[objects]] are
+Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ 
+of [[pointed topological spaces]], whose [[objects]] are
 topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]]
 $f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
 
@@ -958,12 +983,25 @@ $$
 
 As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]:
 
++-- {: .num_defn #SimplyConnected}
+###### Definition
+
+A topological space $X$ for which
+
+1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0})
+
+1. $\pi_1(X,x) \simeq 1$ (the [[fundamental group]] is [[trivial group|trivial]], def. \ref{FundamentalGroup}),
+
+is called _[[simply connected topological space|simply connected]]_.
+
+=--
+
 
 +-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
 ###### Proposition
 **([[topological invariance of dimension]] -- second simple case)**
 
-There is _no_ [[homeomorphism]] $\mathbb{R}^2 \longrightarrow \mathbb{R}^3$
+There is _no_ [[homeomorphism]] between $\mathbb{R}^2$ and $\mathbb{R}^3$.
 
 =--
 
@@ -973,7 +1011,18 @@ There is _no_ [[homeomorphism]] $\mathbb{R}^2 \longrightarrow \mathbb{R}^3$
 Assume there were such a homeomorphism $f$; we will derive a contradiction.
 
 If $f$ is a homeomorphism, then so is its restriction to removing the origin from $\mathbb{R}^2$
-and $f(0)$ from $\mathbb{R}^3$. But these spaces have different [[fundamental groups]]:
+and $f(0)$ from $\mathbb{R}^3$:
+
+$$
+  (\mathbb{R}^2 - \{0\})
+    \longrightarrow
+  (\mathbb{R}^3 - \{f(0)\})
+  \,.
+$$
+
+Thse two spaces are both path-connected, hence $\pi_0$ does not distiguish them.
+
+But they do have different [[fundamental groups]] $\pi_1$:
 
 1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
 We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
@@ -1243,7 +1292,7 @@ $$
 This has some interesting implications:
 
 Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
-(def. \ref{FundamentalGroup}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
+(def. \ref{SimplyConnected}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
 (theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself.
 This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the
 [[fundamental group]] itself may be recovered as the [[automorphisms]] of the universal covering space:
@@ -1259,8 +1308,7 @@ $$
 **(computing the fundamental group of the circle)**
 
 The covering $\exp(2\pi i(-)) \;\colon\; \mathbb{R}^1 \to S^1$ from example \ref{CoveringOfCircleByRealLine}
-is [[simply connected topological space|simply connected]], hence must be the [[universal covering space]],
-up to [[homeomorphism]].
+is [[simply connected topological space|simply connected]] (def. \ref{SimplyConnected}),  hence must be the [[universal covering space]], up to [[homeomorphism]].
 
 It is fairly straightforward to see that the only [[homeomorphisms]] from $\mathbb{R}^1$ to itself
 over $S^1$ are given by [[integer]] translations by $n \in \mathbb{N} \hookrightarrow \mathbb{R}$:
