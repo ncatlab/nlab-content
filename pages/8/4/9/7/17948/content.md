@@ -867,28 +867,44 @@ Als Anwendungsbeispiel haben wir den folgenden Beweis eines Spezialfalls der [[t
 
 +-- {: .num_prop #TopologicalInvarianceOfDimensionFirstSimpleCase}
 ###### Proposition
-**([[topological invariance of dimension]] -- first simple case)**
+**([[topological invariance of dimension|topologische Invarianz der Dimension]] -- erster einfacher Fall)**
 
-The [[Cartesian spaces]] $\mathbb{R}^1$ and $\mathbb{R}^2$ are not [[homeomorphic]] (def. \ref{Homeomorphism}).
+Die [[Cartesian spaces|kartesische Räume]] $\mathbb{R}^1$ und $\mathbb{R}^2$ sind nicht [[homeomorphic|homeomorph]] (def. \ref{Homeomorphism}).
 
 =--
 
 +-- {: .proof}
 ###### Beweis
 
-Assume there were a [[homeomorphism]]
+Wir nehmenn an e g&#228;be einen [[homeomorphism|Homeomorphismus]]
 
 $$
   f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
 $$
 
-we will derive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (example \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
+und werden einen Widerspruch erhalte. Sei also $f$ ein Homeomorphismus, dann ist offensichtlich auch seine Einschr&#228;nkung auf den [[topological subspaces|topologischen Unterraum]] (Beispiel \ref{SubspaceTopology}) den man durch Entfernen des Ursprunges $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$ erh&#228;lt ein Homeomorphismus:
 
-It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one.
+$$
+  f 
+    \;\colon\; 
+  (\mathbb{R}^1-\{0\})
+    \longrightarrow
+  (\mathbb{R}^2 - \{f(0)\})
+  \,.
+$$
+
+Es folgt also dass wir ein Bijektion zwischen den [[connected components|Zusammenhangskomponenten]] $\pi_0(\mathbb{R}^1 - \{0\})$ und $\pi_0(\mathbb{R}^2  - \{f(0)\})$ erhalten w&#252;rden. Aber eine solche existiert offensichtlich nicht, da letztere Menge nur ein Element enth&#228;lt, aber erstere Menge zwei Elemente enh&#228;lt (die negativen und die positiven Zahlen )
+
+$$
+  \pi_0(\mathbb{R}^1-\{0\})
+    \;\neq\;
+  \pi_0(\mathbb{R}^2 - \{f(0)\})  
+  \,.
+$$
 
 =--
 
-The key lesson of the proof of prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} is its strategy:
+Die Lehre aus dem beweis von prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} ist seine Strategie:
 
 
 +-- {: principle}
@@ -899,46 +915,61 @@ $\,\,$ _Verwende topologische Invarianten um topologische R&#228;ume zu untersch
 =--
 
 
-Of course in practice one uses more sophisticated invariants than just $\pi_0$.
+Nat&#252;rlich verwendet man in der Praxis st&#228;rkere Invarianten als nur $\pi_0$.
 
-The next topological invariant after the [[connected components]] is the _[[fundamental group]]:
+Die en&#228;chset topologische Invariante nach den [[connected components|Zusammenhangskomponenten]] ist die _[[fundamental group|Fundamentalgruppe]]:
 
 
-### Fundamental group
+### Fundamentalgruppe
  {#FundamentalGroup}
 
 
 +-- {: .num_defn #FundamentalGroup}
 ###### Definition
-**(fundamental group)**
+**(Fundamentalgruppe)**
 
-Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
+Sei $X$ ein [[topological space|topologischer Raum]] und sein $x \in X$ ein gegebener Punkt. Dann schreiben wir 
 
-Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
+$$
+  \pi_1(X,x)
+    \;\in\; 
+  Grp
+$$ 
 
-A topological space $X$ for which $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0}) and
-for which the [[fundamental group]] is [[trivial group|trivial]], $\pi_1(X,x) = 1$, is called
-_[[simply connected topological space|simply connected]]_.
+f&#252;r, zun&#228;chst, die Menge von [[homotopy classes|Homotopiklassen]] von [[paths|Pfaden]] in $X$ die bei $x$ starten und enden. Solche Pfade heissen stetige [[loops|Schleifen]] in $X$ basiert bei $x$.
+
+1. Unter Aneinanderh&#228;ngen von Schleifen wird $\pi_1(X,x)$ zu einer [[semi-group|Semigruppe]];
+
+1. die konstante Schleife ist [[neutral element|neutrales Element]] und macht $\pi_1(X,x)$ zu einem "[[monoid|Monoiden]]". 
+
+1. Umkehrung von Schleifen schickt sie auf ihr [[inverse|Inverses]], und macht $\pi_1(X,x)$ zu einer [[group|Gruppe]]. 
+
+Diese heisst die _[[fundamental group|Fundamentalgrupp]]_ $\pi_1(X,x)$ von $X$ bei $x$.
+
+Ein topologischer Raum $X$ f&#252;r den 
+
+1. $\pi_0(X) \simeq \ast$ ([[path-connected topological space|pfad-zusammenhängend]], def. \ref{pi0}) 
+
+1. $\pi_1(X,x) \simeq 1$, 
+
+heisst _[[simply connected topological space|einfach zusammenhängend]]_.
 
 =--
 
 +-- {: .num_example}
-###### Example
+###### Beispiel
 
-The following picture indicates the four non-equivalent non-trivial generators of the [[fundamental group]] of the
-oriented [[surface]] of [[genus of a surface|genus]] 2:
+Das folgende Bild deutet die vier nicht-trivialen Generatoren der [[fundamental group|Fundamentalgruppe]] der orientierten [[surface|Fläche]] vom [[genus of a surface|Geschlecht]] 2:
 
 <img src="https://ncatlab.org/nlab/files/FundamentalGroupOfGenus2Surface.png" width="500">
 
-> graphics grabbed from [Lawson 03](#Lawson03)
+> Illustration aus [Lawson 03](#Lawson03)
 
 
 =--
 
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ whose [[objects]] are
-topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]]
-$f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
+Auch diese Konstruktion ist [[functor|funktoriell]], nun auf der  [[category]] $Top^{\ast/}$ von [[pointed topological spaces|punktierten topologischen Räumen]]:
 
 $$
   \pi_1 \;\colon\; Top^{\ast/} \longrightarrow Grp
