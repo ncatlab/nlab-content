@@ -264,6 +264,10 @@ For a fairly comprehensive list of literature see the bibliography of
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
 
+Discussion of the $\theta$-vacuun
+
+* Curtis G. Callan, Jr., R.F. Dashen, David J. Gross, _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 (spire](http://inspirehep.net/record/3673?ln=ru))
+
 The multi-instantons in $SU(2)$-Yang-Mills theory ([[BPTS instantons]]) were discovered in
 
 * A. A. Belavin, A.M. Polyakov, A.S. Schwartz, Yu.S. Tyupkin, _Pseudoparticle solutions of the Yang-Mills equations_, Phys. Lett. B 59 (1), 85-87 (1975) <a href="http://dx.doi.org/10.1016/0370-2693(75)90163-X">doi</a>
