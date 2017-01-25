@@ -153,7 +153,7 @@ Wir formulieren diese analytische Begriffsbildung nun um, durch den einfachen ab
 
 Sei $(X,d)$ ein [[metric space|metrischer Raum]] (def. \ref{MetricSpace}). Dann sagt man
 
-1. Eine _[[neighbourhood|Umgebung]]_ eines Punktes $x \in X$ ist eine  [[subset|Untermenge]] $x \in U \subset X$ welche mindestens einen [[open ball|offen Ball]] $B_x^\circ(\epsilon)$ um $x$ enth&#228;lt (def. \ref{OpenBalls}).
+1. Eine _[[neighbourhood|Umgebung]]_ eines Punktes $x \in X$ ist eine  [[subset|Untermenge]] $x \in U \subset X$, welche mindestens einen [[open ball|offen Ball]] $B_x^\circ(\epsilon)$ um $x$ enth&#228;lt (def. \ref{OpenBalls}).
 
 1. Eine _[[open subset|offene Menge]]_ von $X$ ist eine [[subset|Untermenge]] $U \subset X$ die f&#252;r jedes $x \in U$ auch noch eine [[neighbourhood|Umgebung]] von $x$ enth&#228;lt.
 
@@ -338,11 +338,11 @@ Sei $(X, \tau_X)$ ein [[topological space|topologischer Raum]], und sei $X_0 \ho
 
 * $X_0$ als ihre zugunde liegende Menge, 
 
-* die offenen Untermengen sind die Untermengen von $X_0$ welche Einshr&#228;nkungen von offenen Untermengen in $X$ sind.
+* die offenen Untermengen sind die Untermengen von $X_0$, welche Einschr&#228;nkungen von offenen Untermengen in $X$ sind.
 
 (Dies wird auch die _[[initial topology|initiale Topologie]]_ der Injektionsabbildung genannt.)
 
-Die Illustration rechst zeigt zwei offene Untermengen in dem [[square|Quadrat]], betrachtet als [[topological subspace|topologischer Unterraum]] der [[plane|Ebene]] $\mathbb{R}^2$:
+Die Illustration rechts zeigt zwei offene Untermengen in dem [[square|Quadrat]], betrachtet als [[topological subspace|topologischer Unterraum]] der [[plane|Ebene]] $\mathbb{R}^2$:
 
 
 > Illustration aus [Munkres 75](#Munkres75)
@@ -430,6 +430,7 @@ in einer [[category|Kategorie]] ein _[[isomorphism|Isomorphismus]]_ ist wenn ein
 
 $$
   X \overset{f^{-1}}{\longleftarrow} Y 
+  \,,
 $$
 
 welcher [[inverse|invers]] zu $f$ ist in dem Sinne dass
@@ -515,7 +516,7 @@ Allgemein ist jeder [[open ball|offene Ball]] in $\mathbb{R}^n$ (def. \ref{OpenB
 ###### Beispiel
 **(Intervall an den Endpunkten verklebt ist homeomorph zum Kreis)**
 
-Als topologische R&#228;ume sinde das [[interval]] mit identifizierten Endpunkten [[homeomorphic|homeomorph]] (def. \ref{Homeomorphism}) zum standard Kreis [[circle]]:
+Als topologische R&#228;ume sinde das [[interval]] mit identifizierten Endpunkten [[homeomorphic|homeomorph]] (def. \ref{Homeomorphism}) zum standard  [[circle|Kreis]]:
 
 $$
   [0,1]_{/(0 \sim 1)} \;\; \underset{homeo}{\simeq} \;\; S^1
@@ -534,7 +535,7 @@ $$
   S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}
 $$
 
-ausgestattet mit der [[subspace topology|Unterraumtopologie]] (Beispiel \ref{SubspaceTopology}) der Ebene $\mathbb{R}^2$ welche selbst mit ihrer standard [[metric topology|metrischen Topologie]] (Beispiel \ref{MetricTopology}) ausgestattet ist.
+ausgestattet mit der [[subspace topology|Unterraumtopologie]] (Beispiel \ref{SubspaceTopology}) der Ebene $\mathbb{R}^2$, welche selbst mit ihrer standard [[metric topology|metrischen Topologie]] (Beispiel \ref{MetricTopology}) ausgestattet ist.
 
 Dar&#252;erhinaus, sei
 
@@ -542,7 +543,7 @@ $$
   [0,1]_{/(0 \sim 1)}
 $$
 
-der [[quotient topological space|topologische Quotientenraum]] (Beispiel \ref{QuotientTopologicalSpace}) der aus dem [[interval|Intervall]] $[0,1] \subset \mathbb{R}^1$ mit seine [[subspace topology|Unterraumtopologie]] erhalten wird durch Anwendung der [[equivalence relation|Äquivalenzrelation]] welche die beiden Endpunkte identifiziert (und sonst nichts).
+der [[quotient topological space|topologische Quotientenraum]] (Beispiel \ref{QuotientTopologicalSpace}) der aus dem [[interval|Intervall]] $[0,1] \subset \mathbb{R}^1$ mit seine [[subspace topology|Unterraumtopologie]] erhalten wird durch Anwendung der [[equivalence relation|Äquivalenzrelation]], welche die beiden Endpunkte identifiziert (und sonst nichts).
 
 Betrachte dann die Funktion
 
