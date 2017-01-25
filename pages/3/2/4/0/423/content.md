@@ -429,22 +429,22 @@ These constructions of [[discrete topological spaces]], [[quotient topological s
 
 With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology.
 
-To make this precise, one says that a [[morphism]] 
+To make this precise, one says that a [[morphism]]
 
 $$
   X \overset{f}{\to} Y
-$$ 
+$$
 
 in a [[category]] is an _[[isomorphism]]_ if there exists a morphism going the other way around
 
 $$
-  X \overset{f^{-1}}{\longleftarrow} Y 
+  X \overset{f^{-1}}{\longleftarrow} Y
 $$
 
-which is an [[inverse]] in the sense that 
+which is an [[inverse]] in the sense that
 
 $$
-  f \circ f^{-1} = id \;\;\;\;\; and \;\;\;\;\; f^{-1} \circ f = id
+  f \circ f^{-1} = id_Y \;\;\;\;\; and \;\;\;\;\; f^{-1} \circ f = id_X
   \,.
 $$
 
@@ -1493,7 +1493,11 @@ Introductory textbooks to topology include
 
 * {#Lawson03} Terry Lawson, _Topology: A Geometric Approach_, Oxford University Press (2003) ([pdf](http://users.metu.edu.tr/serge/courses/422-2014/supplementary/TGeometric.pdf))
 
-See also the references at _[[algebraic topology]]_.
+See also
+
+* [[Alan Hatcher]], _[Algebraic Topology](https://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
+
+and see also the references at _[[algebraic topology]]_.
 
 Lecture notes include
 
