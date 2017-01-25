@@ -199,6 +199,8 @@ Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for ev
 ### Topological spaces
  {#TopologicalSpaces}
 
+Therefore we should pay attention to [[open subsets]]. It turns out that the following closure
+property is what _characterizes_ the concept:
 
 +-- {: .num_prop }
 ###### Proposition
@@ -425,8 +427,26 @@ These constructions of [[discrete topological spaces]], [[quotient topological s
 ### Homeomorphism
  {#Homeomorphisms}
 
-With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology:
+With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology.
 
+To make this precise, one says that a [[morphism]] 
+
+$$
+  X \overset{f}{\to} Y
+$$ 
+
+in a [[category]] is an _[[isomorphism]]_ if there exists a morphism going the other way around
+
+$$
+  X \overset{f^{-1}}{\longleftarrow} Y 
+$$
+
+which is an [[inverse]] in the sense that 
+
+$$
+  f \circ f^{-1} = id \;\;\;\;\; and \;\;\;\;\; f^{-1} \circ f = id
+  \,.
+$$
 
 +-- {: .num_defn #Homeomorphism}
 ###### Definition
@@ -942,7 +962,7 @@ The next topological invariant after the [[connected components]] is the _[[fund
 ###### Definition
 **(fundamental group)**
 
-Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write 
+Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write
 
 $$
   \pi_1(X,x)
@@ -952,11 +972,11 @@ $$
 
 for, to start with, the set of [[homotopy classes]] of [[paths]] in $X$ that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
 
-1. Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]]. 
+1. Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]].
 
-1. The constant loop is a [[neutral element]] under this composition (thus making $\pi_1(X,x)$ a "[[monoid]]"). 
+1. The constant loop is a [[neutral element]] under this composition (thus making $\pi_1(X,x)$ a "[[monoid]]").
 
-1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x,)$, making $\pi_1(X,x)$ indeed into a [[group]]. 
+1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x,)$, making $\pi_1(X,x)$ indeed into a [[group]].
 
 This is called the _[[fundamental group]]_ of $X$ at $x$.
 
@@ -972,7 +992,7 @@ oriented [[surface]] of [[genus of a surface|genus]] 2:
 
 
 
-Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$ 
+Again, this operation is [[functor|functorial]], now on the [[category]] $Top^{\ast/}$
 of [[pointed topological spaces]], whose [[objects]] are
 topological spaces equipped with a chosen point, and whose [[morphisms]] are [[continuous maps]]
 $f \colon X \to Y$ that take the chosen basepoint of $X$ to that of $Y$:
@@ -1114,7 +1134,7 @@ $$
 $$
 
 from the [[real line]] to the [[circle]],
-which, 
+which,
 
 1. with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$, is given by
 
@@ -1272,9 +1292,9 @@ from def. \ref{ActionOfFundamentalGroupOnFibersOfCovering} that describes
 the [[action]] of the [[fundamental group]] of $X$ on the set of [[leaves]] over $x$
 has the following property:
 
-1. every [[isomorphism class]] of $\pi_1(X,x)$-[[actions]] in in the image of the functor (one says: the functor is _[[essentially surjective functor|essentially surjective]]_);
+1. every [[isomorphism class]] of $\pi_1(X,x)$-[[actions]] is in the image of the functor (one says: the functor is _[[essentially surjective functor|essentially surjective]]_);
 
-1. for any two covering spaces $E_1, E_2$ of $X$ then the map on [[hom-sets]]
+1. for any two covering spaces $E_1, E_2$ of $X$ then the map on [[hom-sets|morphism sets]]
 
    $$
      Fib_x \;\colon\; Hom_{Cov(X)}(E_1, E_2) \longrightarrow Hom( Fib_x(E_1), Fib_x(E_2) )
