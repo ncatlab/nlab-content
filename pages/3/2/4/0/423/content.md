@@ -96,6 +96,7 @@ $$
 
 =--
 
+We now reformulate this analytic concept in terms of the simple but important concept of _[[open sets]]_:
 
 +-- {: .num_defn #OpenBalls}
 ###### Definition
@@ -1113,18 +1114,20 @@ $$
 $$
 
 from the [[real line]] to the [[circle]],
-which with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$ is given by
+which, 
 
-$$
-  t \mapsto \exp(2\pi i t)
-$$
+1. with the circle regarded as the unit circle in the [[complex plane]] $\mathbb{C}$, is given by
 
-and which with the circle regarded as the unit circle in $\mathbb{R}^2$ is given by
+   $$
+     t \mapsto \exp(2\pi i t)
+   $$
 
-$$
-  t \mapsto ( cos(2\pi t), sin(2\pi t) )
-  \,.
-$$
+1. with the circle regarded as the unit circle in $\mathbb{R}^2$, is given by
+
+   $$
+     t \mapsto ( cos(2\pi t), sin(2\pi t) )
+     \,.
+   $$
 
 We may think of this as the result of "winding the line around the circle ad infinitum".
 Precisely, this is a [[covering space]] (def. \ref{CoveringSpace}) with the [[leaves]] at each point forming the
@@ -1139,7 +1142,7 @@ set $\mathbb{Z}$ of [[natural numbers]].
 
 Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
 
-Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the leav space over $x$,
+Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the [[leaf space]] over $x$,
 there is, up to [[homotopy]], a unique way to lift a representative
 path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a
 continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gama(e) \in F_x$
@@ -1154,7 +1157,7 @@ $$
 $$
 
 from the [[Cartesian product]] of the [[leaf space]] with the [[fundamental group]]. This function
-is compatible with the [[group]] operation on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commutes]]:
+is compatible with the [[group]]-structure on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commutes]]:
 
 $$
   \array{
