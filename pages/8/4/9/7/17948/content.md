@@ -174,7 +174,7 @@ $\,$ $\,$ _Urbilder offener Mengen sind offen._
 
 
 +-- {: .proof}
-###### Proof
+###### Beweis
 
 First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1(O_Y)}$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $U$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_X^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
 
@@ -758,34 +758,34 @@ $\,$
 ### Zusammenhangskomponenten
  {#ConnectedComponents}
 
-Using the concept of [[homotopy]] one obtains the basic tool of [[algebraic topology]], namely the construction of algebraic [[homotopy invariants]] of topological spaces. We introduce the simplest and indicate their use.
+Unter verwendung des Begriffs der [[homotopy|Homotopie]] erh&#228;lt man die grundlegnden Werkzeuge der [[algebraic topology|algebraischen Topologie]], n&#228;mlich die Konstruktion algebraischer [[homotopy invariants|Homotopieinvarianten]] von topologischen R&#228;umen. Wir f&#252;hren hier die einfachsten dieser Werzeuge ein und illustrieren deren Anwendung.
 
 
 +-- {: .num_example}
-###### Example
+###### Bespiel
 
-A [[homotopy]] between two points
+Eine [[homotopy|Homotopie]] zwischen zwei Punkten
 
 $x,y \;\colon\; \ast \to X$
 
-is a continuous [[path]] between these points.
+ist einfach ein stetiger [[path|Pfad]] zwischen diesen Punkten.
 
 =--
 
 +-- {: .num_defn #pi0}
 ###### Definition
-**(connected components)**
+**(Zusammenhangskomponenten)**
 
-The set of [[homotopy classes]] of points in a topological space is called its set of path-[[connected components]], denoted.
+Die Megen der [[homotopy classes|Homotopieklassen]] von Punkten in einem topologischen Raum $X$ heisst die Menge der _[[connected components|Pfadzusammenhangskomponenten]]_, bezeichnet durch
 
 $$
   \pi_0(X) \in Set
   \,.
 $$
 
-If $\pi_0(X) \simeq \ast$ consists of a single element, we say that $X$ is a _[[path-connected topological space]]_.
+Wen $\pi_0(X) \simeq \ast$ ein einzelnes Element enth&#228;lt, dann heisst $X$ ein _[[path-connected topological space|pfad-zusammenhängender topologischer Raum]]_.
 
-If $f \colon X \to Y$ is a [[continuous map]] between [[topological spaces]], then on [[homotopy classes]] of points it induces a [[function]] between the corresponding connected components, which we denote by $\pi_0(f)$:
+Wenn $f \colon X \to Y$ eine [[continuous map|stetige Abbildung]] zwischen [[topological spaces|topologischen Räumen ist]], dann indizuiert sie auf [[homotopy classes|Homotopieklassen]] von Punkten eine  [[function|Funktion]] zwischen den Zusammenhangskomponenten. Diese bezeichnen wir durch:
 
 $$
   \pi_0(f) \;\colon\; \pi_0(X) \longrightarrow \pi_0(Y)
@@ -794,32 +794,32 @@ $$
 
 =--
 
-This construction is evidently compatible with [[composition]], in that
+Diese Konstruktion ist offenbar mit [[composition|Komposition]] vertr&#228;glich, in dem Sinne dass
 
 $$
   \pi_0(g \circ f) = \pi_0(g) \circ \pi_0(f)
 $$
 
-and it evidently is [[unitality|unital]], in that
+und ist offensichtlich [[unitality|unital]], in dem Sinne dass
 
 $$
   \pi_0(id_X) = id_{\pi_{0}(X)}
   \,.
 $$
 
-One summarizes this by saying that $\pi_0$ is a [[functor]] from the [[category]] [[Top]] of [[topological spaces]] to the [[category]] [[Set]] of [[sets]], denoted
+Man fasst diesen sachverhalt zusammen indem man sagt dass $\pi_0$  _[[functor|Funktor]]_ ist von der [[category|Kategorie]] [[Top]] von [[topological spaces|topologischen Räumen]] zu der [[category|Kategorie]] [[Set]] der [[sets|Mengen]]:
 
 $$
   \pi_0 \;\colon\; Top \longrightarrow Set
   \,.
 $$
 
-An immediate but important consequence is this:
+Eine offensichtliche aber wichtige Konsequen ist dies:
 
 +-- {: .num_prop #ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
 ###### Proposition
 
-If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then they the spaces are not [[homeomorphic]] to each other:
+Wenn die Mengen von [[connected components|Zusammenhangskomponenten]] zweier [[topological spaces|topologischer Räume]] nicht [[bijection|bijektiv]] sind, dann k&#246;nnen die beiden R&#228;ume nicht [[homeomorphism|homeomorph]] zueinander sein:
 
 $$
   \pi_0(X) \neq \pi_0(Y)
@@ -832,27 +832,37 @@ $$
 =--
 
 +-- {: .proof}
-###### Proof
+###### Beweis
 
-Since $\pi_0$ is [[functor|functorial]], it immediately follows that it sends [[isomorphisms]] to [[isomorphisms]], hence [[homeomorphisms]] to [[bijections]]:
+Da $\pi_0$ [[functor|funktoriell]] ist, folgt sofort das es  [[isomorphisms|Isomorphismen]] auf [[isomorphisms|Isomorphismen]] schickt, also [[homeomorphisms|Homeomorphismen]] auf [[bijections|Bijektionen]]:
 
 $$
   \begin{aligned}
      & f \circ g = id \;\;and\;\; g \circ f = id
     \\
     \Rightarrow \;\;\;\;\;\;&
-    \pi_0(f \circ g) = \pi_0(id) \;\;and \;\; \pi_0(g \circ f) = \pi_0(id)
+    \pi_0(f \circ g) = \pi_0(id) \;\;und \;\; \pi_0(g \circ f) = \pi_0(id)
     \\
     \Leftrightarrow \;\;\;\;\;\;
     &
-    \pi_0(f) \circ \pi_0(g) = id \;\;and \;\; \pi_0(g) \circ \pi_0(f) = id
+    \pi_0(f) \circ \pi_0(g) = id \;\;und \;\; \pi_0(g) \circ \pi_0(f) = id
   \end{aligned}
   \,.
 $$
 
 =--
 
-This means that we may use path connected components as a first "topological invariant" that allows us to distinguish topological spaces. As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (theorem \ref{TopologicalInvarianceOfDimension}):
+Dies bedeutet dass wir dir Zuammenhangskomponenten als eine erste  "topologische Invariante" betrachten k&#246;nnen, welche uns erlaubt manche topologischen R&#228;ume zu unterscheiden. 
+
++-- {: principle}
+**Prinzip der algebraischen Topologie**
+
+$\,\,$ _Verwende topologische Invarianten um topologische R&#228;ume zu unterscheiden._
+
+=--
+
+
+Als Anwendungsbeispiel haben wir den folgenden Beweis eines Spezialfalls der [[topological invariance of dimension|topologischen Invarianz der Dimension]] (Theorem \ref{TopologicalInvarianceOfDimension}):
 
 
 +-- {: .num_prop #TopologicalInvarianceOfDimensionFirstSimpleCase}
@@ -864,7 +874,7 @@ The [[Cartesian spaces]] $\mathbb{R}^1$ and $\mathbb{R}^2$ are not [[homeomorphi
 =--
 
 +-- {: .proof}
-###### Proof
+###### Beweis
 
 Assume there were a [[homeomorphism]]
 
@@ -882,9 +892,9 @@ The key lesson of the proof of prop. \ref{TopologicalInvarianceOfDimensionFirstS
 
 
 +-- {: principle}
-**principle of algebraic topology**
+**Prinzip der algebraischen Topologie**
 
-$\,\,$ _Use topological invariants to distinguish topological spaces._
+$\,\,$ _Verwende topologische Invarianten um topologische R&#228;ume zu unterscheiden._
 
 =--
 
@@ -947,7 +957,7 @@ There is _no_ [[homeomorphism]] $\mathbb{R}^2 \longrightarrow \mathbb{R}^3$
 =--
 
 +-- {: .proof}
-###### Proof
+###### Beweis
 
 Assume there were such a homeomorphism $f$; we will derive a contradiction.
 
