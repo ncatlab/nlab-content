@@ -2705,7 +2705,7 @@ On the right this is the [[higher WZW term]].
 
 
 
-### Extended super Minkowski spacetime
+### Extended super Minkowski spacetimes
  {#ExtendedSuperMinkowskiSpacetime}
 
 
@@ -2716,9 +2716,7 @@ Recall from prop. \ref{HomotopyFibersOfLInfinityCocycles} that and how higher co
 classify higher central extensions.
 
 
-$\,$
-
-+-- {: .num_defn }
++-- {: .num_defn #TheMembraneAndStringCocycles}
 ###### Definition
 
 
@@ -2949,55 +2947,186 @@ The "old [[brane scan]]" classifying the [[superstring]] and the [[supermembrane
 from [above](#TheSuperStringAndTheSuperMembrane) ran into a conundrum::
 
 Given that  [[superstrings]] and [[supermembranes]] are nicely classified by [[super Lie algebra]] [[Lie algebra cohomology|cohomology]]
-why do the other [[super p-branes]] not show up similarly?
-Where are the [[D-branes]] and the [[M5-brane]]?
+(prop. \ref{CocyclesForSuperStringAndSupermembrane})
+why do the other [[super p-branes]] known in [[string theory]] not show up similarly? Where are the [[D-branes]] and the [[M5-brane]]?
 
 
 But from the discussion [above](#ExtendedSuperMinkowskiSpacetime) we see that we should look for
 further higher cocycles not on [[super Lie algebras]]
-but the [[super L-∞ algebras]]: on the [[extended super Minkowski spacetimes]].
+but the [[super L-∞ algebras]]: on the [[extended super Minkowski spacetimes]] of def. \ref{TheMembraneAndStringCocycles}.
 
-Recall the second [[Fierz identity]] from prop. \ref{TheM2andM5CocyclesAsFierzIdentities}:
 
-  $$
-     \left(
-       \overline{\psi}
-         \wedge
-         \Gamma_{a_1 \cdots a_4 b}
-       \psi
-     \right)
-     \wedge
-     \left(
-       \overline{\psi}
-        \wedge
-        \Gamma^{b}
-        \psi
-     \right)
-     \;=\;
-     3
-     \left(
++-- {: .num_defn #TheM5BraneCocycle}
+###### Definition
+
+In $CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{TheM2andM5CocyclesAsFierzIdentities}, define the 
+element
+
+$$
+  \mu_{M5}
+    \;\coloneqq\;
+   \tfrac{1}{5!}
+   \left(
      \overline{\psi}
-        \Gamma_{[a_1 a_2}
-     \psi
-     \right)
      \wedge
-     \left(
-       \overline{\psi}
-          \Gamma_{a_3 a_4]}
-       \psi
-     \right)
-   $$
+      \Gamma_{a_1 \cdots a_5}
+     \psi
+   \right)
+   \wedge 
+   e^{a_1}
+     \wedge 
+     \cdots
+     \wedge
+   e^{a_5}
+    +
+    h_3 \wedge \mu_{M2}
+  \,.
+$$
 
-Equivalently this says that with
+=--
+
++-- {: .num_prop } 
+###### Proposition
+**([D'Auria-Fr&#233; 82, (3.27, 3.28)](#DAuriaFre82))**
+
+The element $\mu_{M5} \in \CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{TheM5BraneCocycle}
+is closed
+
+$$
+  d_{CE} \mu_{M5} = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Recall that  in $CE(\mathfrak{m}2\mathfrak{brane})$
+
+$$
+  d_{CE} h_3 = \mu_{M2}
+$$
+
+and
+
+$$
+  \mu_{M2}
+    \;=\;
+  \tfrac{i}{2}
+  \left(
+    \overline{\psi}
+      \wedge
+      \Gamma_{a b}
+    \psi
+  \right)
+  \wedge
+    e^a
+  \wedge
+    e^b
+  \,.
+$$
+
+Now we compute:
+
+$$
+  \begin{aligned}
+    d_{CE} \mu_{M5}
+      & =
+    \tfrac{1}{5}
+      d_{CE}\left(
+         left(
+           \overline{\psi}
+           \wedge
+           \Gamma_{a_1 \cdots a_5}
+           \psi
+         \right)
+         \wedge 
+          e_{a_1}
+            \wedge 
+            \cdots
+            \wedge
+          e_{a_5}
+      \right)
+      + 
+      d_{CE} h_3 \wedge \mu_{M2}
+      \\
+      & =
+      \tfrac{1}{4!}
+      \underset{
+        =
+        3
+        \left(
+           \tfrac{i}{2} 
+           \overline{\psi}
+             \wedge
+             \Gamma_{[a_1 a_2}
+           \psi
+        \right)
+        \left(
+          \overline{\psi}
+          \wedge
+            \Gamma_{a_3 a_4]}
+          \psi
+        \right)
+      }{
+      \underbrace{
+      \left(
+        \overline{\psi}
+          \wedge
+          \Gamma_{[a_1 \cdot a_4 a]}
+          \psi 
+      \right)
+      \left(
+        \overline{\psi}
+         \wedge
+         \Gamma_a
+         \psi
+      \right)
+     }
+     }
+     \wedge
+     e^{a_1} \wedge \cdots \wedge e^{a_4}
+     +
+     \tfrac{1}{2}\mu_{M2} \wedge \mu_{M2}
+     \\
+     & =
+     -
+     \tfrac{1}{2}
+     \mu_{M2} \wedge \mu_{M2}
+     + 
+     \tfrac{1}{2}
+     \mu_{M2} \wedge \mu_{M2}
+     \\
+     & = 0
+  \end{aligned}
+$$
+
+Here the identity under the brace is the [[Fierz identity]] from prop. \ref{TheM2andM5CocyclesAsFierzIdentities}.
+
+=--
+
+
+the 4-cocycle for the [[M2-brane]] from prop. \ref{CocyclesForSuperStringAndSupermembrane}
+and setting
 
 $$
   \mu_{5}
     \;\coloneqq\;
   -\tfrac{1}{5!}
     \left(
+      \overline{\psi}
+        \wedge
+        \Gamma_{a_1 \cdots a_p}
+        \psi
     \right)
 $$
 
+Then
+
+$$
+  d\, \mu_5 + \tfrac{1}{2} \mu_{M2} \wedge \mu_{M2} = 0
+$$
 
 +-- {: .num_prop}
 ###### Proposition
