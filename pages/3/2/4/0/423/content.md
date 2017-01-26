@@ -187,7 +187,7 @@ $\,$ $\,$ _Pre-Images of open subsets are open._
 +-- {: .proof}
 ###### Proof
 
-First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1(O_Y)}$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $U$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_X^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
+First assume that $f$ is continuous in the epsilontic sense. Then for $O_Y \subset Y$ any [[open subset]] and $x \in f^{-1}(O_Y)$ any point in the pre-image, we need to show that there exists a [[neighbourhood]] of $x$ in $U$. But by assumption there exists an [[open ball]] $B_x^\circ(\epsilon)$ with $f(B_X^\circ(\epsilon)) \subset O_Y$. Since this is true for all $x$, by definition this means that $f^{-1}(O_Y)$ is open in $X$.
 
 Conversely, assume that $f^{-1}$ takes open subsets to open subsets. Then for every $x \in X$ and $B_{f(x)}^\circ(\epsilon)$ an [[open ball]] around its image, we need to produce an open ball $B_x^\circ(\delta)$ in its pre-image. But by assumption $f^{-1}(B_{f(x)}^\circ(\epsilon))$ contains a [[neighbourhood]] of $x$ which by definition means that it contains such an open ball around $x$.
 
@@ -244,7 +244,7 @@ A _[[topological space]]_ is a set $X$ equipped with such a [[topology]].
 
 =--
 
-The following shows all the topologies on the 3-element set (up to permuation of elements)
+The following shows all the topologies on the 3-element set (up to permutation of elements)
 
 <img src="https://ncatlab.org/nlab/files/TopologiesOn3ElementSet.png" width="400">
 
@@ -283,7 +283,7 @@ such that [[pre-images]] under $f$ of open subsets of $Y$ are open subsets of $X
 
 The simple definition of [[open subsets]] and the simple _principle of equivalence_
 gives topology its fundamental and universal flavor. The combinatorial nature of these definitions makes
-topology be closely related to [[formal logic]] (for more on this see at _[[locale]]_).
+topology closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 
 +-- {: .num_remark}
@@ -851,7 +851,7 @@ An immediate but important consequence is this:
 +-- {: .num_prop #ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
 ###### Proposition
 
-If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then they the spaces are not [[homeomorphic]] to each other:
+If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then those spaces are not [[homeomorphic]] to each other:
 
 $$
   \pi_0(X) \neq \pi_0(Y)
@@ -976,7 +976,7 @@ for, to start with, the set of [[homotopy classes]] of [[paths]] in $X$ that sta
 
 1. The constant loop is a [[neutral element]] under this composition (thus making $\pi_1(X,x)$ a "[[monoid]]").
 
-1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x,)$, making $\pi_1(X,x)$ indeed into a [[group]].
+1. The  reverse of a loop is its [[inverse]] in $\pi_1(X,x)$, making $\pi_1(X,x)$ indeed into a [[group]].
 
 This is called the _[[fundamental group]]_ of $X$ at $x$.
 
@@ -1165,7 +1165,7 @@ Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{Cove
 Then for $x \in X$ any point, and any choice of element $e \in F_x$ of the [[leaf space]] over $x$,
 there is, up to [[homotopy]], a unique way to lift a representative
 path in $X$ of an element $\gamma$ of the the [[fundamental group]] $\pi_1(X,x)$ (def. \ref{FundamentalGroup}) to a
-continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gama(e) \in F_x$
+continuous path in $E$ that starts at $e$. This path necessarily ends at some (other) point $\rho_\gamma(e) \in F_x$
 in the same [[fiber]]. This construction provides a [[function]]
 
 $$
@@ -1177,7 +1177,7 @@ $$
 $$
 
 from the [[Cartesian product]] of the [[leaf space]] with the [[fundamental group]]. This function
-is compatible with the [[group]]-structure on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commutes]]:
+is compatible with the [[group]]-structure on $\pi_1(X,x)$, in that the following [[commuting diagram|diagrams commute]]:
 
 $$
   \array{
@@ -1231,7 +1231,7 @@ $$
 One says that $\rho$ is an _[[action]]_ or _[[permutation representation]]_ of $\pi_1(X,x)$ on $F_x$.
 
 For $G$ any [[group]], then there is a [[category]] $G Set$ whose [[objects]] are [[sets]]
-equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function]] which respect
+equipped with an [[action]] of $G$, and whose [[morphisms]] are [[function|functions]] which respect
 these actions. The above construction yields a [[functor]]
 
 $$
