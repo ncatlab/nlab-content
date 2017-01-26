@@ -166,7 +166,7 @@ This we discuss in
 
 * _[The super D-branes and the M5-brane](#TheSuperDBranes)_
 
-This gives a tree of consecutive higher central [[super Lie n-algebra]] extensions, originating from the [[superpoint]],
+This gives a tree of consecutive higher central [[super Lie n-algebra]] extensions, originating from the [[superpoint]]:
 the _[[schreiber:brane bouquet]]_. Next we [[descent|descend]] these iterated central extensions to  single but non-central
 higher cocycles. The result turns out to be the image in [[rational homotopy theory]] of the classifying maps of the
 [[background fields]] in [[string theory]]/[[M-theory]]: the [[B-field]]-twisted [[RR-fields]] and the M-flux fields.
@@ -2265,15 +2265,16 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 
 
 ## Branes
+ {#Branes}
 
 
 We now discuss how the [[super p-branes]] arise in the guise of consecutive invariant higher [[super Lie n-algebra]] extensions of
 [[super Minkowski spacetimes]]. To put this in perspective, we first
-recall from the end of _[[geometry of physics -- supersymmetry]]_ in
+recall in
 
 * _[The super 0-branes and Super-Minowski spacetimes](#SuperMinkowskiSpacetimes)_
 
-how the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
+(from the end of _[[geometry of physics -- supersymmetry]]_) how the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
 invariant odinary [[central extensions]] of [[super Lie algebras]].
 The last step in this progression (from 10d type IIA spacetime to 11d) is classified by the
 cocycle for the [[D0-brane]]. Similarly we may also think of the previous steps as being related to
@@ -2304,7 +2305,10 @@ correspond to the [[D-branes]] and the [[M5-brane]]. This we discuss in
 
 * _[The super D-branes and the super  M5-brane](#SuperMinkowskiSpacetimes)_
 
-
+This yields a complete account of the brane species of [[string theory]]/[[M-theory]]
+separately. Next we discuss how these separate cocycles interact (by twisting each other)
+and then unify to single but [[non-abelian cohomology|non-abelian]] cocycles. This 
+is the topic of the next section _[Fields](#Fields)_.
 
 ### The super 0-branes and Super Minkowski spacetimes
  {#SuperMinkowskiSpacetimes}
@@ -2341,17 +2345,19 @@ $$
     \{Q, Q\} = H
   $$
 
-Then consider the [[superpoint]]
+Then consider the [[superpoint]] with two odd dimensions
 
 $$
   \;\;\;\;\;\; \mathbb{R}^{0\vert 2}
-  \,.
+  \,,
 $$
+
+which is the [[coproduct]] of the atomic 2-cocycle over its 
+bosonic part $\overset{\rightsquigarrow}{\mathbb{R}^{0 \vert 1}} \simeq \mathbb{R}^0$.
 
 
 Its maximal [[central extension]] is
-
-the $d = 3$, $N = 1$ [[super Minkowski spacetime]]
+the $d = 3$, $N = 1$ [[super Minkowski spacetime]] (def. \ref{SuperMinkowskiSpacetime})
 
 $$
   \array{
@@ -2395,7 +2401,7 @@ This phenomenon continues:
 The [[diagram]] of [[super Lie algebras]] shown on the right
 
 <div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="250">
+<img src="https://ncatlab.org/schreiber/files/SpacetimeExtensions.png" width="350">
 </div>
 
 is obtained by consecutively forming maximal central extensions invariant with respect to the maximal subgroup of automorphisms for which there are invariant cocycles at all. Here $\mathbb{R}^{d-1,1\vert \mathbf{N}}$ is the $d$, $\mathbf{N}$ super-translation [[supersymmetry]] algebra. And these subgroups are the [[spin group]] covers $Spin(d-1,1)$ of the [[Lorentz groups]] $O(d-1,1)$.
@@ -2452,14 +2458,15 @@ $$
 is
 
 $$
-  i \, \overline{\psi} \wedge \Gamma_{10} \psi
+  \overline{\psi} \wedge \Gamma_{10} \psi
     \;\in\;
   CE(\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}}})
 $$
 
 
 This happens to also be the [[curvature]] of the [[WZW-term]]
-in the [[Green-Schwarz sigma-model]] for the [[D0-brane]]. 
+in the [[Green-Schwarz sigma-model]] for the [[D0-brane]]. We come back to this
+below in remark \ref{TheNatureOfTheD0Cocycle}.
 
 =--
 
@@ -2892,7 +2899,7 @@ but the [[super L-∞ algebras]]: on the [[extended super Minkowski spacetimes]]
 +-- {: .num_defn #TheM5BraneCocycle}
 ###### Definition
 
-In $CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{TheM2andM5CocyclesAsFierzIdentities}, define the 
+In $CE(\mathfrak{m}2\mathfrak{brane})$ from def. \ref{TheM2andM5CocyclesAsFierzIdentities}, define the
 element
 
 $$
@@ -2906,16 +2913,16 @@ $$
         \Gamma_{a_1 \cdots a_5}
        \psi
      \right)
-     \wedge 
+     \wedge
      e^{a_1}
-       \wedge 
+       \wedge
        \cdots
        \wedge
      e^{a_5}
       \;+\;
       h_3 \wedge \mu_{M2}
       \\
-      & = 
+      & =
      \tfrac{1}{5!}
      \left(
        \overline{\psi}
@@ -2936,7 +2943,7 @@ $$
         \overline{\psi}
           \Gamma_{a_1 a_2}
         \psi
-      \right) 
+      \right)
       \wedge e^{a_1} \wedge e^{a_2}
   \end{aligned}
   \,.
@@ -2944,7 +2951,7 @@ $$
 
 =--
 
-+-- {: .num_prop #TheM5BraneCocycleAsACocycle} 
++-- {: .num_prop #TheM5BraneCocycleAsACocycle}
 ###### Proposition
 **([D'Auria-Fr&#233; 82, (3.27, 3.28)](#DAuriaFre82))**
 
@@ -3062,14 +3069,14 @@ Here the identity under the brace is the [[Fierz identity]] from prop. \ref{TheM
 
 =--
 
-Notice how it is the presence of the extra higher generator $h_3$ of degree 3 in $CE(\mathfrak{m}2\mathfrak{brane})$ that 
-makes prop. \ref{TheM5BraneCocycle} work. 
+Notice how it is the presence of the extra higher generator $h_3$ of degree 3 in $CE(\mathfrak{m}2\mathfrak{brane})$ that
+makes prop. \ref{TheM5BraneCocycle} work.
 
 That the element $\mu_{M5}$ in def. \ref{TheM5BraneCocycleAsACocycle} is the curvature of the [[higher dimensional WZW model|higher WZW-term]]
 of the [[M5-brane]] was argued in [BLNPST97 ](M5-brane#BLNPST97)
 
-It turns out that from just prop. \ref{TheM5BraneCocycleAsACocycle} one obtains the [[D-brane]] cocycles in 10d by applying 
-[[super Lie n-algebra]] constructions corresponding to 
+It turns out that from just prop. \ref{TheM5BraneCocycleAsACocycle} one obtains the [[D-brane]] cocycles in 10d by applying
+[[super Lie n-algebra]] constructions corresponding to
 [[double dimensional reduction]] and [[topological T-duality]].
 This we discuss below in _[Double dimensional reduction](#DoubleDimensionalReduction)_
 and in _[T-duality](#TDuality)_.
@@ -3293,13 +3300,13 @@ $$
 =--
 
 The following statements may be obtained from the existence of the [[M5-brane]] cocycle (prop. \ref{TheM5BraneCocycleAsACocycle})
-and applying [[double dimensional reduction]] and [[T-duality]]. We discuss this in detail below in 
+and applying [[double dimensional reduction]] and [[T-duality]]. We discuss this in detail below in
 _[Double dimensional reduction](#DoubleDimensionalReduction)_ and _[T-duality](#TDuality)_, for the moment
 we are content with stating it as a fact:
 
 +-- {: .num_prop #TheIIADBraneCocycles}
 ###### Proposition
-**([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), 
+**([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99),
 
 The elements $\mu_{D p} \in CE(\mathfrak{string}_{IIA})$ from def. \ref{TheDBraneCocycles} are closed
 
@@ -3365,7 +3372,7 @@ $$
 =--
 
 So in conclusion, by forming
-iterated (maximal) invariant higher central extensions 
+iterated (maximal) invariant higher central extensions
 of the superpoint, there emrges first [[spacetime]] and then the fundamental [[p-branes]] that propagate in spacetime.
 
 $\,$
@@ -3384,7 +3391,7 @@ $\,$
 
 It serves to have a closer look at the cocycle for the [[D0-brane]]:
 
-+-- {: .num_remark}
++-- {: .num_remark #TheNatureOfTheD0Cocycle}
 ###### Remark
 
 Notice that all the [[D-brane]] cocycle $\mu_{D p}$ in def. \ref{TheDBraneCocycles} are _higher_ cocycles
@@ -3417,7 +3424,8 @@ More in detail, if we distinguish $\overline{\psi} \wedge \Gamma_{10} \psi$
 as an element of $\mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}^\ast}}$
 or as the element $\mu_{D0}$ of $\mathfrak{string}_{IIA}$ (which in components are the same,
 just regarded in different contexts), then the relation between the D0-brane and the M-theory spacetime
-extension may be stated as follows: The following diagram is [[homotopy pullback|homotopy Cartesian square]]:
+extension may be stated as follows: The following diagram is [[homotopy pullback|homotopy Cartesian]]
+(a [[homotopy pullback]]) square:
 
 $$
   \array{
@@ -3427,7 +3435,7 @@ $$
     \\
     \downarrow &(pb)& \downarrow
     \\
-    \mathbb{R}^{9,1\vert \mathbf{16}+ \mathbf{16}^\ast \}
+    \mathbb{R}^{9,1\vert \mathbf{16}+ \mathbf{16}^\ast }
     &\longleftarrow&
     \mathfrak{string}_{IIA}
   }
@@ -3441,13 +3449,13 @@ $$
 ###### Remark
 **(brane intersection laws)**
 
-In addition to reflecting all the brane speciees, the above [[nLab:brane bouquet]]
+In addition to reflecting all the brane speciees, the above [[schreiber:brane bouquet]]
 knows the _brane intersection laws_:
 there is a morphism $p_2\mathfrak{brane} \longrightarrow p_1 \mathfrak{brane}$
 precisely if the given species of $p_1$-branes may end on the given species of $p_2$-branes
 (more discussion of this is in [Fiorenza-Sati-Schreiber 13, section 3](#FSS13)).
 
-But recall from prop. \ref{GaugeStackInsideExtendedSpacetime} the interpretation of the [[extended super Minkowski spacetimes]] 
+But recall from prop. \ref{GaugeStackInsideExtendedSpacetime} the interpretation of the [[extended super Minkowski spacetimes]]
 as containing a condensate of branes sourcing the gauge field on the worldvolume of the
 branes that they may end on.
 
@@ -3471,12 +3479,12 @@ $$
       \atop
       \text{with}\,p_1\text{-brane condensate}
     }
-    && p_1 \mathfrak{brane} &\overset{\mu_{p_2+2}}{\longrightarrow}& B^{p_2+2}
+    &&& p_1 \mathfrak{brane} &\overset{\mu_{p_2+2}}{\longrightarrow}& B^{p_2+2}
     \\
-    && {}^{\mathllap{hofib(\mu_{p_1+2})}}\downarrow
+    &&& {}^{\mathllap{hofib(\mu_{p_1+2})}}\downarrow
     \\
     \text{spacetime}
-    && \mathbb{R}^{d-1,1\vert \mathbf{N}}
+    &&& \mathbb{R}^{d-1,1\vert \mathbf{N}}
       &\underset{\mu_{p_1+2}}{\longrightarrow}&
     B^{p_1+1}\mathbb{R}
   }
@@ -3516,30 +3524,46 @@ $\,$
  {#Fields}
 
 
-We now discuss that
+In the discussion [above](#Branes) we discovered all the [[p-brane]] species of [[string theory]]/[[M-theory]],
+but each separately as a $b^{p+1}\mathbb{R}$-valued super $L_\infty$-cocycle on some
+[[extended super Minkowski spacetime]] classified by a previous cocycle.
 
-There is homotopy [[descent]] of $p$-brane WZW terms
+Here we discuss that all these cocycles unify into single cocycles. These no longer have [[ordinary cohomology]] 
+coefficients $b^{p+1}\mathbb{R}$, but coefficients in some [[non-abelian cohomology]] theory, namely in some
+[[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology]] theory. These general concepts of cohomology theory
+we briefly survey in 
+
+* _[Twisted generalizzed cohomology](#TwistedGeneralizedCohomology)_
+
+and the relation of $L_\infty$-algebras to [[rationalization]] of [[topological spaces]] in
+
+* _[Rational homotopy theory](#RationalHomotopyTheory)_.
+
+
+
+For example the D-brane cocycles turn out to unify into a single cocycle with coefficients in 
+$\mathfrak{l}(KU/BU(1))$, the [[rationalization]] of [[twisted K-theory]]. This is the correct [[coefficients]]
+for the _[[background fields]]_ that the F1/Dp-branes couple to, namely the [[RR-fields]]
+twisted by the [[Kalb-Ramond field]]. This we discuss in 
+
+* _[RR-Fields](#RRFields)_.
+
+In direct analogy, we then discover the corresponding rationalized coefficients for the [[background fields]]
+for the [[M-branes]]. This turns out to be rationalized [[cohomotopy]] in degree 4. This we discuss in
+
+* _[M-Flux Fields](#MFluxFields)_
+
+More technically, what we show now is that 
+there is _homotopy [[descent]]_ of $p$-brane WZW terms
 from [[extended super Minkowski spacetime]]
 down to ordinary [[super Minkowski spacetime]]
 which yields cocycles in [[twisted cohomology]]
-for the [[RR-field]] and the M-flux fields.
-
-
-([Fiorenza-Sati-Schreiber 15](#FSS15), [16a](#FSS16a)).
-
-
-
-$\,$
-
-In order to explain this we now first recall
-
-the general nature of [[twisted cohomology]]
-
-and its role in [[string theory]].
+for the [[RR-field]] and the M-flux fields ([Fiorenza-Sati-Schreiber 15](#FSS15), [16a](#FSS16a)).
 
 $\,$
 
 ### Twisted generalized cohomology
+ {#TwistedGeneralizedCohomology}
 
 $\,$
 
@@ -3801,6 +3825,7 @@ via the central theorem of [[rational homotopy theory]].
 $\,$
 
 ### Rational homotopy theory
+ {#RationalHomotopyTheory}
 
 $\,$
 
@@ -4184,6 +4209,7 @@ for the cocycles in the [[schreiber:brane bouquet]].
 $\,$
 
 ### RR-fields
+ {#RRFields}
 
 $\,$
 
@@ -4404,6 +4430,7 @@ $\;\;$_in rationalized [[twisted K-theory]]_.
 $\,$
 
 ### M-flux fields
+ {#MFluxFields}
 
 $\,$
 
