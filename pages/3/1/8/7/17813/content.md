@@ -814,7 +814,6 @@ Given a [[super Lie algebra]] $\mathfrak{g}$, then
 =--
 
 
-
 The following says that the [[Chevalley-Eilenberg algebra]] is an equivalent incarnation of the [[super Lie algebra]]:
 
 +-- {: .num_prop #FormalDualCE}
@@ -1056,11 +1055,11 @@ $$
 
 The identification of the concept of (super-)$L_\infty$-algebras has a non-linear history:
 
-[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity, 
+[[L-∞ algebras]] in the incarnation of higher brackets satisfying a higher Jacobi identity,
 def. \ref{sLInfinityDefinitionViaGeneralizedJacobiIdentity}
 and remark \ref{LInfinityTerminology}, were introduced in
-[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the 
-example of such a structure on the [[BRST complex]] of the [[bosonic string]] that 
+[Lada-Stasheff 92](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaStasheff92), based on the
+example of such a structure on the [[BRST complex]] of the [[bosonic string]] that
 was found in the construction of [[closed string field theory]] in [Zwiebach 92](string+field+theory#Zwiebach93).
 Some of this history is recalled in [Stasheff 16](#L-infinity-algebra#Stasheff16).
 
@@ -1069,9 +1068,9 @@ The observation that these systems of higher brackets are fully characterized by
 is due to [Lada-Markl 94](https://ncatlab.org/nlab/show/L-infinity-algebra#LadaMarkl94).
 See [Sati-Schreiber-Stasheff 08, around def. 13](#SatiSchreiberStasheff08).
 
-But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]]) 
+But in this dual incarnation, [[L-∞ algebras]] and more generally [[super L-∞ algebras]] (of [[finite type]])
 had secretly been introduced within the [[supergravity]] literature already in [D'Auria-Fr&#233;-Regge 80](#DAuriaFreRegge80) and explicitly in [van Nieuwenhuizen 82](#Nieuwenhuizen82).
-The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras 
+The concept was picked up in the [[D'Auria-Fré formulation of supergravity]] ([D'Auria-Fr&#233; 82](#DAuriaFre82)) and eventually came to be referred to as "FDA"s (short for "free differential algebra") in the [[supergravity]] literature (but beware that these dg-algebras
 are in general [[free construction|free]] only as graded-[[supercommutative superalgebras]], not as differential algebras)
 The relation between super $L_\infty$-algebras and the "FDA"s of the [[supergravity]] literature is made explicit in ([FSS 13](#FSS13)).
 
@@ -1088,10 +1087,10 @@ This close relation between [[rational homotopy theory]] and [[higher Lie theory
 secret had it not been for the focus of [[Sullivan minimal models]] on the non-[[simply connected topological space|simply connected]]
 case, which excludes the ordinary [[Lie algebras]] from the picture. But the Quillen model of
 [[rational homotopy theory]] effectively says that for $X$ a [[rational topological space]] then its [[loop space]]
-[[∞-group]] $\Omega X$ is reflected, infinitesimally, by an [[L-∞ algebra]]. This perspective began to 
+[[∞-group]] $\Omega X$ is reflected, infinitesimally, by an [[L-∞ algebra]]. This perspective began to
 receive more attention when the [[Sullivan construction]] in [[rational homotopy theory]] was
 concretely identified as higher [[Lie integration]] in [Henriques 08](#Lie+integration#Henriques).
-A modern review that makes this [[L-∞ algebra]]-theoretic nature of [[rational homotopy theory]] manifest is in 
+A modern review that makes this [[L-∞ algebra]]-theoretic nature of [[rational homotopy theory]] manifest is in
 [Buijs-F&#233;lix-Murillo 12, section 2](rational+homotopy+theory#BuijsFelixMurillo12).
 
 =--
@@ -1168,9 +1167,7 @@ $$
   \mathfrak{g}_1 \overset{f}{\longrightarrow} \mathfrak{g}_2
 $$
 
-then its **[[homotopy fiber]]** $hofib(f)$
-
-is the [[kernel]] of any fibrant replacement
+then its **[[homotopy fiber]]** $hofib(f)$ is the [[kernel]] of any fibrant replacement
 
 $$
   hofib(f)
@@ -1181,17 +1178,13 @@ $$
 
 =--
 
-Standard facts in [[homotopy theory]] assert
-
-that $hofib(f)$ is well-defined
-
-up to [[quasi-isomorphism]].
-
+Standard facts in [[homotopy theory]] assert that $hofib(f)$ is well-defined up to [[quasi-isomorphism]].
 See at _[Introduction to homotopy theory -- Homotopy fibers](https://ncatlab.org/nlab/show/Introduction+to+Stable+homotopy+theory+--+P#HomotopyFibers)_.
 
-$\,$
+The following is the ky fact about homotopy fibers in the homotopy theory of super $L_\infty$-algebras
+which we will use:
 
-+-- {: .num_prop}
++-- {: .num_prop #HomotopyFibersOfLInfinityCocycles}
 ###### Proposition
 **([Fiorenza-Sati-Schreiber 13, prop. 3.5](#FSS13))**
 
@@ -1248,158 +1241,40 @@ $$
 
 =--
 
+As a slogan: _The higher central extensions classified by higher cocycles are their homotopy fibers._
+
+
 +-- {: .num_example}
 ###### Example
 
-$\,$
+The homotopy fiber of a 2-cocycle on a [[super Lie algebra]] is the classical [[central extension]] that it classifies:
 
-The homotopy fiber of a 2-cocycle
+Let $\mathfrak{g}$ be a super Lie algebra of finite dimension, and let $\omega_2 \in \wedge^2 \mathfrak{g}^\ast$
+be a 2-cocycle $d_{\mathfrak{g}} \omega_2 = 0$. Then prop. \ref{HomotopyFibersOfLInfinityCocycles} says
+that the homotopy fiber $\widehat{\mathfrak{g}} \longrightarrow \mathfrak{g}$
+of the corresponding morphism $\mathfrak{g} \overset{\omega_2}{\longrightarrow} b \mathbb{R}$
+has [[Chevalley-Eilenberg algebra]] that of $\mathfrak{g}$ with one new generator $c \in \wedge^1 (\widehat {\mathfrak{g}})$
+adjoined, with differential given by
 
-is the classical [[central extension]]
+$$
+  d_{\mathfrak{g}} c = \omega_2
+  \,.
+$$
 
-that it classifies.
+Now by def. \ref{CEAlgebraofSuperLieAlgebra} this differential enocodes the linear dual of the
+Lie bracket. Hence if $k$ denotes the dual element of $c$ then the Lie brakcet of $\widehat{\mathfrak{g}}$
+is modified on elements of $\mathfrak{g}$ to be
+
+$$
+  [x,y]_{\widehat{\mathfrak{g}}} = [x,y]_{\mathfrak{g}}+ \omega_2(x,y) k
+  \,.
+$$
+
+This is exactly the ordinary formula for the central extension of $\mathfrak{g}$ by $\omega_2$.
 
 =--
 
 
-$\,$
-
-**Conclusion.**
-
-$\;\;$ _The higher central extensions_
-
-$\;\;$ _classified by higher cocycles_
-
-$\;\;$ _are their homotopy fibers._
-
-$\,$
-
-
-
-some more stuff
-
-$\,$
-
-$\,$
-
-
-The [[Chevalley-Eilenberg algebras]] which in def. \ref{CEAlgebra} and def. \ref{SuperLieAlgebraViaCE} we used to _characterize_ the corresponding (super) Lie algebras are of course traditionally introduced as the [[cochain complexes]] whose [[cochain cohomology]] is [[Lie algebra cohomology]]. We may conceptualize this as follows:
-
-+-- {: .num_defn #SiteCartSp}
-###### Definition
-
-For $n \in \mathbb{N}$ write $\mathbb{R}^{1|0}[n]$ for the _[[line Lie n-algebra|line Lie (n+1)-algebra]]_, the [[super L-infinity algebra]] defined simply as the [[formal dual]] to the $(\mathbb{Z},\mathbb{Z}_2)$-graded commutative [[dg-algebra]]
-
-$$
-  CE(\mathbb{R}^{1|0}[n]) \coloneqq
-  \left(
-    \wedge^\bullet \mathbb{R}^{1|0}[n],
-    \;
-    d = 0
-  \right)
-$$
-
-whose underlying [[graded algebra]] is freely generated from a single generator in degree $(n,even)$, and whose differential vanishes.
-
-=--
-
-+-- {: .num_remark #LieAlgebraCohomologAsHomomorphism}
-###### Remark
-
-Recall that being a "[[formal dual]]" to a dg-algebra here simply means that for $\mathfrak{g}$ any [[super Lie algebra]], the homomorphisms of [[super L-infinity algebras]] of the form
-
-$$
-  \mu \;\colon\; \mathfrak{g} \longrightarrow \mathbb{R}^{1|0}[n]
-$$
-
-are equivalently (by definition!) homomorphisms of [[dg-algebras]] of the form
-
-$$
-  CE(\mathfrak{g})
-  \longleftarrow
-  CE(\mathbb{R}^{1|0}[n])
-  \,.
-$$
-
-Since the underlying graded algebra of $CE(\mathbb{R}^{1|0}[n])$ is free on a single generator $c$ in degree $n+1$, such a homomorphism is determined by the image of this generator
-
-$$
-  c \mapsto \mu \in CE(\mathfrak{g})
-  \,.
-$$
-
-Moreover, the condition that this map respects the differentials, and since the differential on $CE(\mathbb{R}^{1|0}[n])$ vanishes by definition, this means that
-
-$$
-  \array{
-     c &\mapsto& && \mu
-     \\
-     \downarrow^{\mathrlap{d_{\mathbb{R}^{1|0}[n]}}}
-     && &&
-    \downarrow^{\mathrlap{d_{\mathfrak{g}}}}
-     \\
-     0 &\mapsto& 0 &=& d_{\mathfrak{g}}\mu
-  }
-  \,.
-$$
-
-Hence such a moprhism $\mu$ is equivalently a _closed_ element of degree $(n+1)$ in $CE(\mathfrak{g})$, hence is equivalently a [[Lie algebra cohomology|super Lie algebra cocycle]] of degree $n+1$ on $\mathfrak{g}$.
-
-This way [[line Lie n-algebra|line Lie (n+1)-algebra]] $\mathbb{R}^{1|0}[n]$ is the _[[moduli stack|moduli object]]_ for degree-$(n+1)$ Lie algebra cohomology in direct [[analogy]] of how for instance the familiar [[Eilenberg-MacLane space]] $B^{n+1}\mathbb{R} = K(\mathbb{Z},n+1)$ is the classifying space for degree $n+1$ [[ordinary cohomology]] of [[topological spaces]].
-
-=--
-
-One advantange of conceptualizing Lie algebra cocycles as in remark \ref{LieAlgebraCohomologAsHomomorphism} is that it neatly connects to the formulation of [[Lie algebra valued forms]] according to def. \ref{LieAlgValuedFormsViaDgAlgHoms}, def. \ref{SuperLieAlgValuedDiffForms}:
-
-
-+-- {: .num_remark }
-###### Remark
-
-A $\mathbb{R}^{1|0}[n]$-valued differential form is simply an even closed differential $(n+1)$-form:
-
-$$
-  \Omega^1(\mathbb{R}^{p|q}, \mathbb{R}^{1|0}[n])
-  \simeq
-  Hom(CE(\mathbb{R}^{1|0}[n]), \Omega^\bullet(\mathbb{R}^{p|q}))
-  \simeq
-  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
-  \,.
-$$
-
-Hence a super Lie algebra $(n+1)$-cocycle $\mu$ on
-$\mathfrak{g}$ naturally determines a map
-
-
-$$
-  \mu(-)
-  \colon
-  \Omega^1(\mathbb{R}^{p|q},\mathfrak{g})
-  \longrightarrow
-  \Omega^{n+1}(\mathbb{R}^{p|q})_{even,closed}
-$$
-
-given by forming the composite with the morphism representing the cocycle $\mu$
-
-$$
-  \left(
-    \Omega^\bullet(\mathbb{R}^{p|q})
-     \stackrel{A}{\longleftarrow}
-  CE(\mathfrak{g})
-  \right)
-  \mapsto
-  \left(
-  \Omega^\bullet(\mathbb{R}^{p|q})
-   \stackrel{A}{\longleftarrow}
-  CE(\mathfrak{g})
-  \stackrel{\mu^\ast}{\longleftarrow}
-  CE(\mathbb{R}^{1|0}[n])
-  \right)
-$$
-
-sending a [[Lie algebra valued form]] $A$ to a closed differential form $\mu(A)$.
-
-
-=--
 
 
 
@@ -1634,9 +1509,9 @@ $$
 
 (also called "[[tau-cohomology]]").
 
-This may superficially look fairly trivial, but in fact it turns out to me very rich. 
+This may superficially look fairly trivial, but in fact it turns out to me very rich.
 Specifically we are interested in the $Spin(d-1,1)$-[[invariant]] cohomology. A $Spin$-[[invariant]]
-[[cochain]] in the [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1\vert M})$ is easily seen to 
+[[cochain]] in the [[Chevalley-Eilenberg algebra]] $CE(\mathbb{R}^{d-1,1\vert M})$ is easily seen to
 be equivalently a sum of wedge products of the above generators, such that all indices are
 contracted with $\Gamma$-matrices. Hence these are the monomials of the form
 
@@ -1653,12 +1528,12 @@ We immediately find that the differential takes these to the following expressio
 $$
   d_{CE} \mu_{p+2}
     \;=\;
-  p 
+  p
   \;
   \left(
     \overline{\psi} \wedge \Gamma_{a_1 \cdots a_{p-1} b} \psi
   \right)
-  \wedge 
+  \wedge
   \left(
     \overline{\psi} \wedge \Gamma^b \psi
   \right)
@@ -1687,8 +1562,11 @@ $$
 
 =--
 
-Such relation among spinors are known as [[Fierz identities]]. These we discuss now in 
+Such relation among spinors are known as [[Fierz identities]]. These we discuss now in
 _[Fierz identities](#FierzIdentities)_.
+
+
+
 
 
 
@@ -2390,12 +2268,46 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 
 
 Below we will obtain all [[super p-branes]] by consecutive invariant higher [[super Lie n-algebra]] extensions of
-[[super Minkowski spacetime]]. To put this in perspective,
-recall from the end of _[[geometry of physics -- supersymmetry]]_ how
-the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerged from the [[superpoint]] in a progression of
-ordinary invariant [[central extensions]] of [[super Lie algebras]]:
+[[super Minkowski spacetime]]. To put this in perspective, we first
+recall from the end of _[[geometry of physics -- supersymmetry]]_ in
 
-### Super-Minkowski spacetimes
+* _[The super 0-branes and Super-Minowski spacetimes](#SuperMinkowskiSpacetimes)_
+
+how the relevant [[super Minkowski spacetimes]] in dimensions 3,4,6,10 and 11 themselves emerge from the [[superpoint]] in a progression of
+invariant odinary [[central extensions]] of [[super Lie algebras]].
+The last step in this progression (from 10d type IIA spacetime to 11d) is classified by the
+cocycle for the [[D0-brane]]. Similarly we may also think of the previous steps as being related to
+0-branes.
+
+On all the super-Minkowski spacetimes that appear in this progression in
+dimension 3,4,6 and 10 there exist non-trivial invariant 3-cocycles.
+These are the [[nLab:WZW terms]] of the [[Green-Schwarz superstring]]
+in these dimensions. Finally in $d = 11$ there is instead a nontrivial invariant 4-cocycle,
+corresponding to the [[super-membrane]] in 11d (the [[M2-brane]]).
+The are classical facts from the "old [[brane scan]]" which we review in
+
+* _[The superstring and the super membrane](#TheSuperStringAndTheSuperMembrane)_
+
+While up to this point the progression happens in [[super Lie algebra|super]] [[Lie algebra cohomology]],
+now we turn to the [[homotopy theory]] of [[super L-infinity algebas]]: Just like
+2-cocycles on [[super Lie algbras]] classify ordinary [[central extensions]], higher
+cocycles such as the 3-cocycles and the 4-cocycles of the [[superstring]] and of the
+[[supermembrane]] classify [[super Lie n-algebra]] extension of [[super Minkwski spacetime]].
+This we discuss in
+
+* _[Extended super Minkowski spacetimes](#ExtendedSuperMinkowskiSpacetime)_
+
+Once this etension into the larger realm of [[super Lie n-algebra]] is made,
+the progression continues: On the [[extended super Minkowski spacetime]]
+[[super Lie n-algebras]] there appear now furhter invariant cocycles. These
+correspond to the [[D-branes]] and the [[M5-brane]]. This we discuss in
+
+* _[The super D-branes and the super  M5-brane](#SuperMinkowskiSpacetimes)_
+
+
+
+### The super 0-branes and Super Minkowski spacetimes
+ {#SuperMinkowskiSpacetimes}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -2625,7 +2537,7 @@ See below.
 
 
 
-+-- {: .num_prop}
++-- {: .num_prop #CocyclesForSuperStringAndSupermembrane}
 ###### Proposition
 **([Ach&#250;carro-Evans-Townsend-Wiltshire 87](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#AETW87), [Brandt 12-13](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Brandt12-13))**
 
@@ -2640,23 +2552,24 @@ This is the [[WZW term]] for the [[Green-Schwarz superstring]] ([Green-Schwarz 8
 The maximal invariant 4-cocycle on [[super Minkowski spacetime]] is
 
 $$
-  \mu_{M2} = i \left(\overline{\psi} \wedge \Gamma_{a b} \psi \right) \wedge e^a \wedge e^b
+  \mu_{M2} = \tfrac{i}{2} \left(\overline{\psi} \wedge \Gamma_{a b} \psi \right) \wedge e^a \wedge e^b
 $$
 
 This is the [[higher WZW term]] for the [[supermembrane]]
 ([Bergshoeff-Sezgin-Townsend 87](https://ncatlab.org/nlab/show/M2-brane#BergshoeffSezginTownsend87)).
 
-This classification is also known as
-
-the **old [[brane scan]]**.
+This classification is also known as the **old [[brane scan]]**.
 
 =--
+
+The 4-cocycle here reflects the first [[Fierz identity]] in prop. \ref{TheM2andM5CocyclesAsFierzIdentities}.
+
 
 | $\stackrel{d}{=}$ |  $p =$ | 1 | 2 | 3 | 4 | 5 | 6 | 7 |  8 |  9 |
 |--|--------|---|---|---|---|---|---|---|----|----|
 | 11 | |  |  [[M2-brane|M2]] |  |   |  |   |   |   |   |
 | 10 |  | [[F1-brane|F1]]   |   |  |   | [[NS5-brane|NS5]] |   |   |   |   |
-| 9 | |   |   |  | $\ast$  |  |   |   |   |   |
+| 9 | |   |   |  | $\;\;\ast\;\;$  |  |   |   |   |   |
 | 8 | |   |   | $\ast$ |   |  |   |   |   |   |
 | 7 | |   | $\ast$  |  |   |  |   |   |   |   |
 | 6 | |  $\ast$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   |
@@ -2665,22 +2578,22 @@ the **old [[brane scan]]**.
 | 3 | | [[super 1-brane in 3d|F1]]$_{cmp}$  |  | |   |  |   |   |   |   |
 
 
+Notice that the entries of this table lie on four diagonal lines.
+It turns out that each cocycle below and to the left of another cocycle
+arises from it by an super Lie alghebraic incarnation of [[double dimensional reduction]].
+This we discuss below in _[Double dimensional reduction](#DoubleDimensionalReduction)_
 
-$\,$
+
++-- {: .num_remark #TheWZWTermsForStringAndMembrane}
+###### Remark
 
 Here "**[[higher WZW term]]**" means the following:
 
-$\,$
 
 Regard $\mu_{F1} = \left(\overline{\psi} \wedge \Gamma_a \psi\right) \wedge e^a$
-
 as a left [[invariant differential form]]
-
 on [[super-Minkowski spacetime]].
-
-Choose any differential form potential $B_{F1}$
-
-i.e. such that
+Choose any differential form potential $B_{F1}$, i.e. such that
 
 $$
   d_{dR} B_{F1} = \left(\overline{\psi} \wedge \Gamma_a \psi\right) \wedge e^a
@@ -2690,7 +2603,6 @@ $$
 (This $B_{F1}$ will _not be left-invariant_.)
 
 Then the [[Green-Schwarz action functional]] for the [[superstring]]
-
 is the function on the space of [[sigma-model]] [[field (physics)|fields]]
 
 $$
@@ -2699,9 +2611,7 @@ $$
     \underset{\text{super-spacetime}}{\underbrace{\mathbb{R}^{9,1\vert \mathbf{N}}}}
 $$
 
-(morphisms of [[supermanifolds]])
-
-given by
+(morphisms of [[supermanifolds]]) given by
 
 $$
   \phi
@@ -2724,22 +2634,15 @@ $$
   \,.
 $$
 
-The first term is the [[Nambu-Goto action]]
-
-the second is a [[WZW term]].
+The first term is the [[Nambu-Goto action]] the second is a [[WZW term]].
 
 $\,$
 
 Originally [Green-Schwarz 84](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#GreenSchwarz84) introduced $B_{F1}$
-
 to ensure an additional fermionic symmetry: "[[kappa-symmetry]]".
 
 Notice that $B_{F1}$ looks somewhat complicated
-
-and is not unique.
-
-That it is simply a [[WZW-term]]
-
+and is not unique. That it is simply a [[WZW-term]]
 for the [[supersymmetry]] [[supergroup]]
 
 $$
@@ -2752,9 +2655,7 @@ was observed in [Henneaux-Mezincescu 85](https://ncatlab.org/nlab/source/Green-S
 
 $\,$
 
-Similarly,
-
-choose any differential form potential $C_{M2}$ such that
+Similarly, choose any differential form potential $C_{M2}$ such that
 
 $$
   d_{dR} C_{M2} = \left(\overline{\psi} \wedge \Gamma_{a b} \psi\right) \wedge e^a \wedge e^b
@@ -2764,7 +2665,6 @@ $$
 (This $C_{M2}$ will _not be left-invariant_.)
 
 Then the [[Green-Schwarz action functional|Green-Schwarz type action functional]]
-
 for the [[supermembrane]] is the function on [[sigma-model]] [[field (physics)|fields]]
 
 $$
@@ -2794,70 +2694,9 @@ $$
   \,.
 $$
 
-On the right this is
-
-the [[higher WZW term]].
-
-$\,$
-
-Now we discuss that higher cocycles classify higher extensions:
-
-$\,$
-
-First observe that
-
-+-- {: .num_prop }
-###### Proposition
-
-[[homomorphisms|Homomorphisms]] of [[super Lie algebras]]
-
-$$
-  \mathfrak{g}_1 \longrightarrow \mathfrak{g}_2
-$$
-
-are in [[natural bijection]] with the [[homomorphisms]] of [[dg-algebras]]
-
-between their [[Chevalley-Eilenberg algebra]], going the opposite direction:
-
-$$
-  CE(\mathfrak{g}_1) \longleftarrow CE(\mathfrak{g}_2)
-  \,.
-$$
+On the right this is the [[higher WZW term]].
 
 =--
-
-This means that we may _identify_ [[super Lie algebras]] with their CE-algebras.
-
-In the terminology of [[category theory]]: the [[functor]]
-
-$$
-  CE
-   \;\colon\;
-  s LieAlg_{\mathbb{R}}
-    \hookrightarrow
-  dgAlg_{\mathbb{R}}^{op}
-$$
-
-given by
-
-$$
-  \mathfrak{g} \mapsto CE(\mathfrak{g}) = (\wedge^\bullet \mathfrak{g}^\ast, [-,-]^\ast)
-$$
-
-is [[fully faithful functor|fully faithful]].
-
-$\,$
-
-Therefore is natural to make the following definition.
-
-$\,$
-
-
-
-
-
-
-
 
 
 
@@ -2870,7 +2709,11 @@ $\,$
  {#ExtendedSuperMinkowskiSpacetime}
 
 
+
 This way we may finally continue the progression of invariant central extensions to higher central extensions:
+
+Recall from prop. \ref{HomotopyFibersOfLInfinityCocycles} that and how higher cocycles
+classify higher central extensions.
 
 
 $\,$
@@ -2878,14 +2721,9 @@ $\,$
 +-- {: .num_defn }
 ###### Definition
 
-$\,$
 
-Name the [[homotopy fibers]] of the cocycles
-
-which are the [[higher WZW terms]]
-
-of the [[superstring]] and the [[supermembrane]]
-
+According to remark \ref{TheWZWTermsForStringAndMembrane}
+we name the [[homotopy fibers]] (prop. \ref{HomotopyFibersOfLInfinityCocycles}) of the cocycles from prop. \ref{CocyclesForSuperStringAndSupermembrane}, which are the [[higher WZW terms]] of the [[superstring]] and the [[supermembrane]],
 as follows
 
 
@@ -2938,9 +2776,12 @@ $$
   }
 $$
 
-$\,$
+=--
 
-The super Lie 2-algebra $\mathfrak{string}_{het}$ is given by
++-- {: .num_example}
+###### Example
+
+By prop. \ref{HomotopyFibersOfLInfinityCocycles} the super Lie 2-algebra $\mathfrak{string}_{het}$ is given by
 
 $$
   CE(\mathfrak{string}_{het})
@@ -2956,9 +2797,7 @@ $$
 $$
 
 This is a super-version of the _[[string Lie 2-algebra]]_ ([Baez-Crans-Schreiber-Stevenson 05](#BCSS05)
-
 which controls [[Green-Schwarz anomaly cancellation]] ([Sati-Schreiber-Stasheff 12](#SatiSchreiberStasheff12))
-
 and the topology of the [[supergravity C-field]] ([Fiorenza-Sati-Schreiber 12a](#FiorenzaSatiSchreiber12a), [12b](#FiorenzaSatiSchreiber12b)).
 
 $\,$
@@ -2978,22 +2817,14 @@ $$
 $$
 
 This dg-algebra was first considered  in [D'Auria-Fr&#233; 82 (3.15)](https://ncatlab.org/nlab/show/D'Auria-Fre+formulation+of+supergravity#DAuriaFre)
-
 as a tool for constructing [[11-dimensional supergravity]].
-
 For exposition from the point of view of [[Lie 3-algebras]] see also [Baez-Huerta 10](https://arxiv.org/abs/1003.3436).
 
 =--
 
 $\,$
 
-Hence the progression
-
-of maximal invariant extensions of the superpoint
-
-continues as a [[diagram]]
-
-of [[super L-∞ algebras]] like so:
+Hence the progression of maximal invariant extensions of the superpoint continues as a [[diagram]] of [[super L-∞ algebras]] like so:
 
 $\,$
 
@@ -3006,37 +2837,177 @@ For instance there are string and membrane GS-WZW-terms / cocycles also on the l
 
 $\,$
 
-The "old [[brane scan]]" ran into a conundrum:
 
-Given that  [[superstrings]] and [[supermembranes]]
+But how are we to think of the [[extended super Minkowski spacetimes]] geometrically?
 
-are nicely classified by [[super Lie algebra]] [[Lie algebra cohomology|cohomology]]
+This is clarified by the following result:
 
+$\,$
+
++-- {: .num_prop}
+###### Proposition
+**([Fiorenza-Sati-Schreiber 13, section 5](#FSS13))**
+
+Write $\widetilde {String_{IIA}}$ for the [[super formal smooth infinity-groupoid|super 2-group]]
+
+that [[Lie integration|Lie integrates]] the super [[Lie 2-algebra]] $\mathfrak{string}_{IIA}$
+
+subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
+
+Then for $\Sigma_{p+1}$ a [[worldvolume]] [[smooth manifold]]
+
+there is a [[natural equivalence]]
+
+$$
+  \left\{
+     \Sigma_{p+1}
+       \stackrel{\Phi}{\longrightarrow}
+     \widetilde{String_{IIA}}
+  \right\}
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left\{
+    \array{
+      \Sigma_{p+1} \stackrel{\phi}{\longrightarrow} \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}} },
+      \\
+      \nabla \in Conn(\Sigma_{p+1}, \phi^\ast  \mu_{string_{IIA}} )
+    }
+  \right\}
+$$
+
+between "higher Sigma-model fields" $\Phi$
+
+and pairs, consisting of
+
+an ordinary sigma-model field $\phi$
+
+and a [[gauge field]] $\nabla$ on the [[worldvolume]] of the D-brane
+
+twisted by the [[Kalb-Ramond field]].
+
+This is the _[[Chan-Paton gauge field]]_ on the D-brane.
+
+$\,$
+
+Similarly:
+
+Write $\widetilde {M2Brane}$ for the [[super formal smooth infinity-groupoid|super 3-group]]
+
+that [[Lie integration|Lie integrates]] the super [[Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$
+
+subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
+
+Then for $\Sigma_{5+1}$ a [[worldvolume]] [[smooth manifold]]
+
+there is a [[natural equivalence]]
+
+$$
+  \left\{
+     \Sigma_{5+1}
+       \stackrel{\Phi}{\longrightarrow}
+     \widetilde{M2Brane}
+  \right\}
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left\{
+    \array{
+      \Sigma_{5+1} \stackrel{\phi}{\longrightarrow} \mathbb{R}^{10,1\vert \mathbf{32}  },
+      \\
+      \nabla \in 2Conn(\Sigma_{p+1}, \phi^\ast  \mu_{M2} )
+    }
+  \right\}
+$$
+
+between "higher Sigma-model fields" $\Phi$
+
+and pairs, consisting of
+
+an ordinary sigma-model field $\phi$
+
+and a [[higher gauge field]] $\nabla$ on the [[worldvolume]] of the [[M5-brane]]
+
+and twisted by the [[supergravity C-field]].
+
+=--
+
+$\,$
+
+(See also at _[[schreiber:Structure Theory for Higher WZW Terms]]_, session II).
+
+
+
+
+
+
+### The M5-brane and the D-branes
+ {#TheSuperDBranes}
+
+
+The "old [[brane scan]]" classifying the [[superstring]] and the [[supermembrane]]
+from [above](#TheSuperStringAndTheSuperMembrane) ran into a conundrum::
+
+Given that  [[superstrings]] and [[supermembranes]] are nicely classified by [[super Lie algebra]] [[Lie algebra cohomology|cohomology]]
 why do the other [[super p-branes]] not show up similarly?
-
 Where are the [[D-branes]] and the [[M5-brane]]?
 
-$\,$
 
-But now we see that we should look for
+But from the discussion [above](#ExtendedSuperMinkowskiSpacetime) we see that we should look for
+further higher cocycles not on [[super Lie algebras]]
+but the [[super L-∞ algebras]]: on the [[extended super Minkowski spacetimes]].
 
-further higher cocycles
+Recall the second [[Fierz identity]] from prop. \ref{TheM2andM5CocyclesAsFierzIdentities}:
 
-not on [[super Lie algebras]]
+  $$
+     \left(
+       \overline{\psi}
+         \wedge
+         \Gamma_{a_1 \cdots a_4 b}
+       \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+        \wedge
+        \Gamma^{b}
+        \psi
+     \right)
+     \;=\;
+     3
+     \left(
+     \overline{\psi}
+        \Gamma_{[a_1 a_2}
+     \psi
+     \right)
+     \wedge
+     \left(
+       \overline{\psi}
+          \Gamma_{a_3 a_4]}
+       \psi
+     \right)
+   $$
 
-but on [[super L-∞ algebras]].
+Equivalently this says that with
 
-$\,$
+$$
+  \mu_{5}
+    \;\coloneqq\;
+  -\tfrac{1}{5!}
+    \left(
+    \right)
+$$
 
 
 +-- {: .num_prop}
 ###### Proposition
 **([Chryssomalakos-Azc&#225;rraga-Izquierdo-Bueno 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#CAIB99), [Sakaguchi 99](https://ncatlab.org/nlab/show/Green-Schwarz+action+functional#Sakaguchi00), [Fiorenza-Sati-Schreiber 13](#FSS13))**
 
+
+
+
 The [[higher WZW terms]] for the [[D-branes]]
-
 are invariant super $L_\infty$-cocycles
-
 on the higher [[extended super Minkowski spacetimes]] from above
 
 $$
@@ -3048,13 +3019,7 @@ $$
   \,.
 $$
 
-Similarly,
-
-the [[higher WZW term]] for the [[M5-brane]]
-
-is an invariant super $L_\infty$ 7-cocycle
-
-of the form
+Similarly, the [[higher WZW term]] for the [[M5-brane]] is an invariant super $L_\infty$ 7-cocycle of the form
 
 $$
   \mu_{M5}
@@ -3169,111 +3134,7 @@ $\,$
 
 $\,$
 
-But how are we to think of the [[extended super Minkowski spacetimes]] geometrically?
 
-This is clarified by the following result:
-
-$\,$
-
-+-- {: .num_prop}
-###### Proposition
-**([Fiorenza-Sati-Schreiber 13, section 5](#FSS13))**
-
-Write $\widetilde {String_{IIA}}$ for the [[super formal smooth infinity-groupoid|super 2-group]]
-
-that [[Lie integration|Lie integrates]] the super [[Lie 2-algebra]] $\mathfrak{string}_{IIA}$
-
-subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
-
-Then for $\Sigma_{p+1}$ a [[worldvolume]] [[smooth manifold]]
-
-there is a [[natural equivalence]]
-
-$$
-  \left\{
-     \Sigma_{p+1}
-       \stackrel{\Phi}{\longrightarrow}
-     \widetilde{String_{IIA}}
-  \right\}
-  \;\;\;
-    \leftrightarrow
-  \;\;\;
-  \left\{
-    \array{
-      \Sigma_{p+1} \stackrel{\phi}{\longrightarrow} \mathbb{R}^{9,1\vert \mathbf{16}+ \overline{\mathbf{16}} },
-      \\
-      \nabla \in Conn(\Sigma_{p+1}, \phi^\ast  \mu_{string_{IIA}} )
-    }
-  \right\}
-$$
-
-between "higher Sigma-model fields" $\Phi$
-
-and pairs, consisting of
-
-an ordinary sigma-model field $\phi$
-
-and a [[gauge field]] $\nabla$ on the [[worldvolume]] of the D-brane
-
-twisted by the [[Kalb-Ramond field]].
-
-This is the _[[Chan-Paton gauge field]]_ on the D-brane.
-
-$\,$
-
-Similarly:
-
-Write $\widetilde {M2Brane}$ for the [[super formal smooth infinity-groupoid|super 3-group]]
-
-that [[Lie integration|Lie integrates]] the super [[Lie 3-algebra]] $\mathfrak{m}2\mathfrak{brane}$
-
-subject to the condition that it carries a globally defined [[Maurer-Cartan form]].
-
-Then for $\Sigma_{5+1}$ a [[worldvolume]] [[smooth manifold]]
-
-there is a [[natural equivalence]]
-
-$$
-  \left\{
-     \Sigma_{5+1}
-       \stackrel{\Phi}{\longrightarrow}
-     \widetilde{M2Brane}
-  \right\}
-  \;\;\;
-    \leftrightarrow
-  \;\;\;
-  \left\{
-    \array{
-      \Sigma_{5+1} \stackrel{\phi}{\longrightarrow} \mathbb{R}^{10,1\vert \mathbf{32}  },
-      \\
-      \nabla \in 2Conn(\Sigma_{p+1}, \phi^\ast  \mu_{M2} )
-    }
-  \right\}
-$$
-
-between "higher Sigma-model fields" $\Phi$
-
-and pairs, consisting of
-
-an ordinary sigma-model field $\phi$
-
-and a [[higher gauge field]] $\nabla$ on the [[worldvolume]] of the [[M5-brane]]
-
-and twisted by the [[supergravity C-field]].
-
-=--
-
-$\,$
-
-(See also at _[[schreiber:Structure Theory for Higher WZW Terms]]_, session II).
-
-
-
-
-
-
-### The super D-branes and the super M5-brane
- {#TheSuperDBranes}
 
 +-- {: .num_defn #RationalSphereAlgebra}
 ###### Definition
